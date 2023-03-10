@@ -2,15 +2,12 @@
 UID: NF:wuapi.IInstallationJob.get_Updates
 title: IInstallationJob::get_Updates (wuapi.h)
 description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
+helpviewer_keywords: ["IInstallationJob interface [Windows Update Agent]","Updates property","IInstallationJob.Updates","IInstallationJob.get_Updates","IInstallationJob::Updates","IInstallationJob::get_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","IInstallationJob interface","get_Updates","wua.iinstallationjob_updates","wuapi/IInstallationJob::Updates","wuapi/IInstallationJob::get_Updates"]
 old-location: wua\iinstallationjob_updates.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: f6a21db3-1182-4650-8502-814db88cbacb
 ms.date: 12/05/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],Updates property, IInstallationJob.Updates, IInstallationJob.get_Updates, IInstallationJob::Updates, IInstallationJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IInstallationJob interface, get_Updates, wua.iinstallationjob_updates, wuapi/IInstallationJob::Updates, wuapi/IInstallationJob::get_Updates
-f1_keywords:
-- wuapi/IInstallationJob.Updates
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationJob.Updates
-- IInstallationJob.get_Updates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationJob::get_Updates
+ - wuapi/IInstallationJob::get_Updates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationJob.Updates
+ - IInstallationJob.get_Updates
 ---
 
 # IInstallationJob::get_Updates
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>

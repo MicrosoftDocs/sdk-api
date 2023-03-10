@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspAlgorithm.get_IncrementLength
 title: ICspAlgorithm::get_IncrementLength (certenroll.h)
 description: Retrieves a value, in bits, that can be used to determine valid incremental key lengths for algorithms that support multiple key sizes.
+helpviewer_keywords: ["ICspAlgorithm interface [Security]","IncrementLength property","ICspAlgorithm.IncrementLength","ICspAlgorithm.get_IncrementLength","ICspAlgorithm::IncrementLength","ICspAlgorithm::get_IncrementLength","IncrementLength property [Security]","IncrementLength property [Security]","ICspAlgorithm interface","certenroll/ICspAlgorithm::IncrementLength","certenroll/ICspAlgorithm::get_IncrementLength","get_IncrementLength","security.icspalgorithm_incrementlength_property"]
 old-location: security\icspalgorithm_incrementlength_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],IncrementLength property, ICspAlgorithm.IncrementLength, ICspAlgorithm.get_IncrementLength, ICspAlgorithm::IncrementLength, ICspAlgorithm::get_IncrementLength, IncrementLength property [Security], IncrementLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::IncrementLength, certenroll/ICspAlgorithm::get_IncrementLength, get_IncrementLength, security.icspalgorithm_incrementlength_property
-f1_keywords:
-- certenroll/ICspAlgorithm.IncrementLength
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithm.IncrementLength
-- ICspAlgorithm.get_IncrementLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithm::get_IncrementLength
+ - certenroll/ICspAlgorithm::get_IncrementLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithm.IncrementLength
+ - ICspAlgorithm.get_IncrementLength
 ---
 
 # ICspAlgorithm::get_IncrementLength
@@ -49,22 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IncrementLength</b> property retrieves a value, in bits, that can be used to determine valid incremental key lengths for algorithms that support multiple key sizes. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
+You can use the value of this property to determine valid key sizes for generated keys. For example, if the minimum key length of a DSA signing key is 512 bits, the maximum length is 1,024 bits, and the increment is 64 bits, valid key sizes include 512, 576, 640 and so in 64 bit increments up to  1,024.
 
-
-You can use the value of this property to determine valid key sizes for generated keys. For example, if the minimum key length of an DSA signing key is 512 bits, the maximum length is 1,024 bits, and the increment is 64 bits, valid key sizes include 512, 576, 640 and so in 64 bit increments up to  1,024.
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_defaultlength">DefaultLength</a>, <b>IncrementLength</b>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_maxlength">MaxLength</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a> properties can vary by algorithm and provider. The following table lists a few algorithms for which multiple key sizes can be set. The list is not inclusive.<table>
+The <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_defaultlength">DefaultLength</a>, <b>IncrementLength</b>, <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_maxlength">MaxLength</a>, and <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a> properties can vary by algorithm and provider. The following table lists a few algorithms for which multiple key sizes can be set. The list is not inclusive.<table>
 <tr>
 <th>Algorithm OID</th>
 <th>Cryptographic provider</th>
@@ -223,24 +220,11 @@ Increment: 8
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_defaultlength">DefaultLength</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_defaultlength">DefaultLength</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>

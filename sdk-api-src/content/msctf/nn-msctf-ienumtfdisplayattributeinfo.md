@@ -2,15 +2,12 @@
 UID: NN:msctf.IEnumTfDisplayAttributeInfo
 title: IEnumTfDisplayAttributeInfo (msctf.h)
 description: The IEnumTfDisplayAttributeInfo interface is implemented by the TSF manager to provide an enumeration of display attribute information objects.
+helpviewer_keywords: ["IEnumTfDisplayAttributeInfo","IEnumTfDisplayAttributeInfo interface [Text Services Framework]","IEnumTfDisplayAttributeInfo interface [Text Services Framework]","described","_tsf_ienumtfdisplayattributeinfo_ref","msctf/IEnumTfDisplayAttributeInfo","tsf.ienumtfdisplayattributeinfo"]
 old-location: tsf\ienumtfdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: b222deb8-22dd-44c3-9ecc-0fb379682796
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDisplayAttributeInfo, IEnumTfDisplayAttributeInfo interface [Text Services Framework], IEnumTfDisplayAttributeInfo interface [Text Services Framework],described, _tsf_ienumtfdisplayattributeinfo_ref, msctf/IEnumTfDisplayAttributeInfo, tsf.ienumtfdisplayattributeinfo
-f1_keywords:
-- msctf/IEnumTfDisplayAttributeInfo
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfDisplayAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfDisplayAttributeInfo
+ - msctf/IEnumTfDisplayAttributeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfDisplayAttributeInfo
 ---
 
 # IEnumTfDisplayAttributeInfo interface
@@ -48,60 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IEnumTfDisplayAttributeInfo</b> interface is implemented by the TSF manager to provide an enumeration of display attribute information objects.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTfDisplayAttributeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfDisplayAttributeInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumTfDisplayAttributeInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a copy of the enumerator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">Next</a>
-</td>
-<td align="left" width="63%">
-Obtains, from the current position, the specified number of elements in the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Moves the current position forward in the enumeration sequence by the specified number of elements.
-
-</td>
-</tr>
-</table> 
+The <b>IEnumTfDisplayAttributeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTfDisplayAttributeInfo</b> also has these types of members:
 

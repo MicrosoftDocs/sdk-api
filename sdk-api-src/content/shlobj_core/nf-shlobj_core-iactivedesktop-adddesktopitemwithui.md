@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.IActiveDesktop.AddDesktopItemWithUI
 title: IActiveDesktop::AddDesktopItemWithUI (shlobj_core.h)
 description: Adds a desktop item to the Active Desktop after displaying user interfaces that confirm the addition of the desktop item, verifying security zone permissions, and asking if the user wants to create a subscription.
+helpviewer_keywords: ["AddDesktopItemWithUI","AddDesktopItemWithUI method [Legacy Windows Environment Features]","AddDesktopItemWithUI method [Legacy Windows Environment Features]","IActiveDesktop interface","DTI_ADDUI_DEFAULT","DTI_ADDUI_DISPSUBWIZARD","DTI_ADDUI_POSITIONITEM","IActiveDesktop interface [Legacy Windows Environment Features]","AddDesktopItemWithUI method","IActiveDesktop.AddDesktopItemWithUI","IActiveDesktop::AddDesktopItemWithUI","_win32_IActiveDesktop_AddDesktopItemWithUI_Method","lwef.iactivedesktop_adddesktopitemwithui_method","shell.iactivedesktop_adddesktopitemwithui_method","shlobj_core/IActiveDesktop::AddDesktopItemWithUI"]
 old-location: lwef\iactivedesktop_adddesktopitemwithui_method.htm
 tech.root: lwef
 ms.assetid: ac582bd7-9fd1-4134-a866-69319ef3d96e
 ms.date: 12/05/2018
 ms.keywords: AddDesktopItemWithUI, AddDesktopItemWithUI method [Legacy Windows Environment Features], AddDesktopItemWithUI method [Legacy Windows Environment Features],IActiveDesktop interface, DTI_ADDUI_DEFAULT, DTI_ADDUI_DISPSUBWIZARD, DTI_ADDUI_POSITIONITEM, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItemWithUI method, IActiveDesktop.AddDesktopItemWithUI, IActiveDesktop::AddDesktopItemWithUI, _win32_IActiveDesktop_AddDesktopItemWithUI_Method, lwef.iactivedesktop_adddesktopitemwithui_method, shell.iactivedesktop_adddesktopitemwithui_method, shlobj_core/IActiveDesktop::AddDesktopItemWithUI
-f1_keywords:
-- shlobj_core/IActiveDesktop.AddDesktopItemWithUI
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IActiveDesktop.AddDesktopItemWithUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IActiveDesktop::AddDesktopItemWithUI
+ - shlobj_core/IActiveDesktop::AddDesktopItemWithUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IActiveDesktop.AddDesktopItemWithUI
 ---
 
 # IActiveDesktop::AddDesktopItemWithUI
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a desktop item to the Active Desktop after  displaying user interfaces that confirm the addition of the desktop item, verifying security zone permissions, and asking if the user wants to create a subscription.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in, optional]
 
 Type: <b>HWND</b>
 
-The handle of the parent window. If <b>NULL</b>, the desktop item is added without displaying any user interface, in accordance with the corresponding security zone permissions. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537183(v=vs.85)">About URL Security Zones</a>.
-
+The handle of the parent window. If <b>NULL</b>, the desktop item is added without displaying any user interface, in accordance with the corresponding security zone permissions. For more information, see <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537183(v=vs.85)">About URL Security Zones</a>.
 
 ### -param pcomp [in]
 
 Type: <b>LPCOMPONENT</b>
 
-Address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure containing the details of the desktop item to be added. 
-
+Address of the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure containing the details of the desktop item to be added.
 
 ### -param dwReserved
 
@@ -93,12 +88,9 @@ Activate the subscription wizard to allow the user to subscribe to this desktop 
 
 #### DTI_ADDUI_POSITIONITEM
 
-Instruct the system to look at the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure passed to the <b>cpPos</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure to ensure that the values are within reasonable limits. This value was added for Internet Explorer 5.
-
+Instruct the system to look at the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-comppos">COMPPOS</a> structure passed to the <b>cpPos</b> member of the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure to ensure that the values are within reasonable limits. This value was added for Internet Explorer 5.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -143,31 +135,15 @@ If the <b>ADDURL_SILENT</b> flag has been set, the desktop item has either been 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method creates a second instance of the <a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Active Desktop</a> to add the desktop item, so the desktop item does not appear in the current instance. The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on this <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> interface and then use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to retrieve the Active Desktop object with the newly added component.
-
-
-
+This method creates a second instance of the <a href="/windows/desktop/lwef/active-desktop-interface">Active Desktop</a> to add the desktop item, so the desktop item does not appear in the current instance. The application must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on this <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a> interface and then use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to retrieve the Active Desktop object with the newly added component.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
- 
-
- 
-
+<a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>

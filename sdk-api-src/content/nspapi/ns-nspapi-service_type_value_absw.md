@@ -1,16 +1,13 @@
 ---
 UID: NS:nspapi._SERVICE_TYPE_VALUE_ABSW
 title: SERVICE_TYPE_VALUE_ABSW (nspapi.h)
-description: Contains information about a network-service type value. This information may be specific to a namespace.
+description: Contains information about a network-service type value. This information may be specific to a namespace. (Unicode)
+helpviewer_keywords: ["*LPSERVICE_TYPE_VALUE_ABSW","*PSERVICE_TYPE_VALUE_ABSW","NS_DEFAULT","NS_DNS","NS_NETBT","NS_SAP","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","REG_BINARY","REG_DWORD","REG_MULTI_SZ","REG_SZ","SERVICE_TYPE_VALUE_ABS","SERVICE_TYPE_VALUE_ABS structure [Winsock]","SERVICE_TYPE_VALUE_ABSA","SERVICE_TYPE_VALUE_ABSW","SERVICE_TYPE_VALUE_CONN","SERVICE_TYPE_VALUE_SAPID","SERVICE_TYPE_VALUE_TCPPORT","SERVICE_TYPE_VALUE_UDPPORT","_win32_service_type_value_abs_2","nspapi/SERVICE_TYPE_VALUE_ABS","nspapi/SERVICE_TYPE_VALUE_ABSA","nspapi/SERVICE_TYPE_VALUE_ABSW","winsock.service_type_value_abs_2"]
 old-location: winsock\service_type_value_abs_2.htm
 tech.root: WinSock
 ms.assetid: 6e3df308-3f5c-40d7-b0f9-19fb6d6d3db8
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, NS_DEFAULT, NS_DNS, NS_NETBT, NS_SAP, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, REG_BINARY, REG_DWORD, REG_MULTI_SZ, REG_SZ, SERVICE_TYPE_VALUE_ABS, SERVICE_TYPE_VALUE_ABS structure [Winsock], SERVICE_TYPE_VALUE_ABSA, SERVICE_TYPE_VALUE_ABSW, SERVICE_TYPE_VALUE_CONN, SERVICE_TYPE_VALUE_SAPID, SERVICE_TYPE_VALUE_TCPPORT, SERVICE_TYPE_VALUE_UDPPORT, _win32_service_type_value_abs_2, nspapi/SERVICE_TYPE_VALUE_ABS, nspapi/SERVICE_TYPE_VALUE_ABSA, nspapi/SERVICE_TYPE_VALUE_ABSW, winsock.service_type_value_abs_2'
-f1_keywords:
-- nspapi/SERVICE_TYPE_VALUE_ABS
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Nspapi.h
-api_name:
-- SERVICE_TYPE_VALUE_ABS
-- SERVICE_TYPE_VALUE_ABSA
-- SERVICE_TYPE_VALUE_ABSW
 targetos: Windows
 req.typenames: SERVICE_TYPE_VALUE_ABSW, *PSERVICE_TYPE_VALUE_ABSW, *LPSERVICE_TYPE_VALUE_ABSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_TYPE_VALUE_ABSW
+ - nspapi/_SERVICE_TYPE_VALUE_ABSW
+ - PSERVICE_TYPE_VALUE_ABSW
+ - nspapi/PSERVICE_TYPE_VALUE_ABSW
+ - SERVICE_TYPE_VALUE_ABSW
+ - nspapi/SERVICE_TYPE_VALUE_ABSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Nspapi.h
+api_name:
+ - SERVICE_TYPE_VALUE_ABS
+ - SERVICE_TYPE_VALUE_ABSA
+ - SERVICE_TYPE_VALUE_ABSW
 ---
 
 # SERVICE_TYPE_VALUE_ABSW structure
@@ -50,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SERVICE_TYPE_VALUE_ABS</b> structure contains information about a network-service type value. This information may be specific to a namespace.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNameSpace
 
@@ -137,8 +138,6 @@ Local TCP/IP name resolution mechanisms, including comparisons against the local
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwValueType
 
@@ -194,15 +193,12 @@ A null-terminated string.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwValueSize
 
 Type: <b>DWORD</b>
 
 The size, in bytes,  of the value pointed to by the <b>lpValue</b> member. In the case of REG_SZ and REG_MULTI_SZ string data, the terminating characters are counted as part of the size.
-
 
 ### -field lpValueName
 
@@ -261,8 +257,6 @@ Several commonly used value name strings are associated with defined constants. 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpValue
 
@@ -270,36 +264,30 @@ Type: <b>PVOID</b>
 
 A pointer to the value data.
 
-
 ## -remarks
 
-
-
 When you use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, a 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
 <b>SERVICE_TYPE_INFO_ABS</b> and 
 <b>SERVICE_TYPE_VALUE_ABS</b> structures.
 
 
 
 
+
+> [!NOTE]
+> The nspapi.h header defines SERVICE_TYPE_VALUE_ABS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_info_absa">SERVICE_TYPE_INFO_ABS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>

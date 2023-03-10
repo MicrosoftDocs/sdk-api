@@ -2,15 +2,12 @@
 UID: NF:appmodel.FindPackagesByPackageFamily
 title: FindPackagesByPackageFamily function (appmodel.h)
 description: Finds the packages with the specified family name for the current user.
+helpviewer_keywords: ["FindPackagesByPackageFamily","FindPackagesByPackageFamily function [App packaging and management]","appmodel/FindPackagesByPackageFamily","appxpkg.findpackagesbypackagefamily"]
 old-location: appxpkg\findpackagesbypackagefamily.htm
 tech.root: appxpkg
 ms.assetid: D52E98BD-726F-4AC0-A034-02896B1D1687
 ms.date: 12/05/2018
 ms.keywords: FindPackagesByPackageFamily, FindPackagesByPackageFamily function [App packaging and management], appmodel/FindPackagesByPackageFamily, appxpkg.findpackagesbypackagefamily
-f1_keywords:
-- appmodel/FindPackagesByPackageFamily
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- FindPackagesByPackageFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindPackagesByPackageFamily
+ - appmodel/FindPackagesByPackageFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - FindPackagesByPackageFamily
 ---
 
 # FindPackagesByPackageFamily function
@@ -51,16 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finds the packages  with the specified family name for the current user.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param packageFamilyName [in]
 
@@ -68,13 +63,11 @@ Type: <b>PCWSTR</b>
 
 The package family name.
 
-
 ### -param packageFilters [in]
 
 Type: <b>UINT32</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. All package constants except <b>PACKAGE_FILTER_ALL_LOADED</b> are supported.
-
+The <a href="/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. All package constants except <b>PACKAGE_FILTER_ALL_LOADED</b> are supported.
 
 ### -param count [in, out]
 
@@ -84,13 +77,11 @@ A pointer to a variable that holds the number of package full names that were fo
 
 First you pass <b>NULL</b> to <i>packageFullNames</i> to get the number of package full names that were found. You use this number to allocate memory space for <i>packageFullNames</i>. Then you pass the address of this memory space to fill <i>packageFullNames</i>.
 
-
 ### -param packageFullNames [out, optional]
 
 Type: <b>PWSTR*</b>
 
 A pointer to memory space that receives  the strings of package full names that were found.
-
 
 ### -param bufferLength [in, out]
 
@@ -100,24 +91,19 @@ A pointer to a variable that holds the number of characters in the string of pac
 
 First you pass <b>NULL</b> to <i>buffer</i> to get the number of characters. You use this number to allocate memory space for <i>buffer</i>. Then you pass the address of this memory space to fill <i>buffer</i>.
 
-
 ### -param buffer [out, optional]
 
 Type: <b>WCHAR*</b>
 
 A pointer to memory space that receives  the string of characters for all of the package full names.
 
-
 ### -param packageProperties [out, optional]
 
 Type: <b>UINT32*</b>
 
-A pointer to memory space that receives  the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package properties</a> for all of the packages that were found.
-
+A pointer to memory space that receives  the <a href="/windows/desktop/appxpkg/package-constants">package properties</a> for all of the packages that were found.
 
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -140,7 +126,3 @@ One or more buffer is not large enough to hold the data. The required size is sp
 </td>
 </tr>
 </table>
- 
-
-
-

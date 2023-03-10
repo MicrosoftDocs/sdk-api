@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ITransactionResourcePool.GetResource
 title: ITransactionResourcePool::GetResource (comsvcs.h)
 description: Retrieves an object from the list of pooled objects.
+helpviewer_keywords: ["GetResource","GetResource method [COM+]","GetResource method [COM+]","ITransactionResourcePool interface","ITransactionResourcePool interface [COM+]","GetResource method","ITransactionResourcePool.GetResource","ITransactionResourcePool::GetResource","_cos_ITransactionResourcePool_GetResource","comsvcs/ITransactionResourcePool::GetResource","cos.itransactionresourcepool_getresource"]
 old-location: cos\itransactionresourcepool_getresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 68e71746-e3a1-4f33-a3b8-fa8bf9608776
 ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [COM+], GetResource method [COM+],ITransactionResourcePool interface, ITransactionResourcePool interface [COM+],GetResource method, ITransactionResourcePool.GetResource, ITransactionResourcePool::GetResource, _cos_ITransactionResourcePool_GetResource, comsvcs/ITransactionResourcePool::GetResource, cos.itransactionresourcepool_getresource
-f1_keywords:
-- comsvcs/ITransactionResourcePool.GetResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionResourcePool.GetResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionResourcePool::GetResource
+ - comsvcs/ITransactionResourcePool::GetResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionResourcePool.GetResource
 ---
 
 # ITransactionResourcePool::GetResource
@@ -48,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an object from the list of pooled objects.
 
-
 ## -parameters
-
-
-
 
 ### -param pPool [in]
 
 The key to each object in the transaction resource pool. It determines the type of pooled object to retrieve from the list.
 
-
 ### -param ppUnk [out]
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the pooled object.
+A reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the pooled object.
 
-The object that is retrieved must have the same <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a> pointer as an object that was put on the list by using <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-putresource">PutResource</a>.
-
-
+The object that is retrieved must have the same <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a> pointer as an object that was put on the list by using <a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactionresourcepool-putresource">PutResource</a>.
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -104,22 +96,11 @@ The <i>pPool</i> parameter did not match any object on the list of pooled object
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionresourcepool">ITransactionResourcePool</a>

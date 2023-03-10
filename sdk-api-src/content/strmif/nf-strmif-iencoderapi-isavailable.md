@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsAvailable
 title: IEncoderAPI::IsAvailable (strmif.h)
-description: IEncoderAPI is no longer available for use.
+description: IEncoderAPI is no longer available for use. (IEncoderAPI.IsAvailable)
+helpviewer_keywords: ["IEncoderAPI interface [Microsoft TV Technologies]","IsAvailable method","IEncoderAPI.IsAvailable","IEncoderAPI::IsAvailable","IEncoderAPIIsAvailable","IsAvailable","IsAvailable method [Microsoft TV Technologies]","IsAvailable method [Microsoft TV Technologies]","IEncoderAPI interface","mstv.iencoderapi_isavailable","strmif/IEncoderAPI::IsAvailable"]
 old-location: mstv\iencoderapi_isavailable.htm
 tech.root: mstv
 ms.assetid: ad94b70f-fd35-44b4-8322-9891cd7f17cc
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsAvailable method, IEncoderAPI.IsAvailable, IEncoderAPI::IsAvailable, IEncoderAPIIsAvailable, IsAvailable, IsAvailable method [Microsoft TV Technologies], IsAvailable method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_isavailable, strmif/IEncoderAPI::IsAvailable
-f1_keywords:
-- strmif/IEncoderAPI.IsAvailable
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEncoderAPI.IsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEncoderAPI::IsAvailable
+ - strmif/IEncoderAPI::IsAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEncoderAPI.IsAvailable
 ---
 
 # IEncoderAPI::IsAvailable
@@ -49,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
 
 The <b>IsAvailable</b> method queries whether a given parameter can be read and modified.
 
-
 ## -parameters
-
-
-
 
 ### -param Api [in]
 
 Pointer to a GUID that specifies the parameter.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,32 +93,15 @@ The parameter cannot be read or modified.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Any errors besides those in the table above indicate an inability to process the call.
-      
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>

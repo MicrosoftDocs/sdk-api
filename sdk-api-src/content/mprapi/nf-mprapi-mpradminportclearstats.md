@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminPortClearStats
 title: MprAdminPortClearStats function (mprapi.h)
 description: The MprAdminPortClearStats function resets the statistics for the specified port.
+helpviewer_keywords: ["MprAdminPortClearStats","MprAdminPortClearStats function [RAS]","_mpr_mpradminportclearstats","mprapi/MprAdminPortClearStats","rras.mpradminportclearstats"]
 old-location: rras\mpradminportclearstats.htm
 tech.root: RRAS
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
-f1_keywords:
-- mprapi/MprAdminPortClearStats
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminPortClearStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminPortClearStats
+ - mprapi/MprAdminPortClearStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminPortClearStats
 ---
 
 # MprAdminPortClearStats function
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminPortClearStats</b> function resets the statistics for the specified port.
 
-
 ## -parameters
-
-
-
 
 ### -param hRasServer [in]
 
 Handle to the RAS server on which to clear the statistics for the specified port. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hPort [in]
 
 Handle to the port for which statistics are reset. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -133,41 +126,25 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 This function is available on Windows NT Server 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as <b>RasAdminPortClearStats</b> rather than 
 <b>MprAdminPortClearStats</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
-
-
-
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

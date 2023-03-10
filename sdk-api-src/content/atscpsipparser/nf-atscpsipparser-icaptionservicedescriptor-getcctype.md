@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetCCType
 title: ICaptionServiceDescriptor::GetCCType (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCCType","GetCCType method [Microsoft TV Technologies]","GetCCType method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetCCType method","ICaptionServiceDescriptor.GetCCType","ICaptionServiceDescriptor::GetCCType","ICaptionServiceDescriptorGetCCType","atscpsipparser/ICaptionServiceDescriptor::GetCCType","mstv.icaptionservicedescriptor_getcctype"]
 old-location: mstv\icaptionservicedescriptor_getcctype.htm
 tech.root: mstv
 ms.assetid: d245118a-3ff2-4ea7-9ff9-f8c1991f2073
 ms.date: 12/05/2018
 ms.keywords: GetCCType, GetCCType method [Microsoft TV Technologies], GetCCType method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCCType method, ICaptionServiceDescriptor.GetCCType, ICaptionServiceDescriptor::GetCCType, ICaptionServiceDescriptorGetCCType, atscpsipparser/ICaptionServiceDescriptor::GetCCType, mstv.icaptionservicedescriptor_getcctype
-f1_keywords:
-- atscpsipparser/ICaptionServiceDescriptor.GetCCType
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- ICaptionServiceDescriptor.GetCCType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICaptionServiceDescriptor::GetCCType
+ - atscpsipparser/ICaptionServiceDescriptor::GetCCType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - ICaptionServiceDescriptor.GetCCType
 ---
 
 # ICaptionServiceDescriptor::GetCCType
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,16 +57,11 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetCCType</b> method queries whether a caption service contains Digital Television Closed Captioning (DTVCC) or line-21 closed captioning.
 
-
 ## -parameters
-
-
-
 
 ### -param bIndex [in]
 
-Zero-based index of the caption service. To get the number of caption services, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getnumberofservices">ICaptionServiceDescriptor::GetNumberOfServices</a>.
-
+Zero-based index of the caption service. To get the number of caption services, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getnumberofservices">ICaptionServiceDescriptor::GetNumberOfServices</a>.
 
 ### -param pbVal [out]
 
@@ -88,12 +83,8 @@ Receives the cc_type flag:
 <td>The caption service contains DTVCC captions.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -147,18 +138,7 @@ The <i>bIndex</i> parameter is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-icaptionservicedescriptor">ICaptionServiceDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-icaptionservicedescriptor">ICaptionServiceDescriptor Interface</a>

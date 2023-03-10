@@ -2,15 +2,12 @@
 UID: NC:stm.PCREATE_SERVICE_ENUMERATION_HANDLE
 title: PCREATE_SERVICE_ENUMERATION_HANDLE (stm.h)
 description: The CreateServiceEnumerationHandle function returns a handle that allows the use of fast and change-tolerant enumeration functions.
+helpviewer_keywords: ["CreateServiceEnumerationHandle","CreateServiceEnumerationHandle callback function [RAS]","PCREATE_SERVICE_ENUMERATION_HANDLE","PCREATE_SERVICE_ENUMERATION_HANDLE callback","STM_ONLY_THIS_INTERFACE","STM_ONLY_THIS_PROTOCOL","STM_ONLY_THIS_TYPE","_mpr_createserviceenumerationhandle","rras.createserviceenumerationhandle","stm/CreateServiceEnumerationHandle"]
 old-location: rras\createserviceenumerationhandle.htm
 tech.root: RRAS
 ms.assetid: 68ed5662-ffa8-456b-b79c-a6fb27339262
 ms.date: 12/05/2018
 ms.keywords: CreateServiceEnumerationHandle, CreateServiceEnumerationHandle callback function [RAS], PCREATE_SERVICE_ENUMERATION_HANDLE, PCREATE_SERVICE_ENUMERATION_HANDLE callback, STM_ONLY_THIS_INTERFACE, STM_ONLY_THIS_PROTOCOL, STM_ONLY_THIS_TYPE, _mpr_createserviceenumerationhandle, rras.createserviceenumerationhandle, stm/CreateServiceEnumerationHandle
-f1_keywords:
-- stm/CreateServiceEnumerationHandle
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- CreateServiceEnumerationHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PCREATE_SERVICE_ENUMERATION_HANDLE
+ - stm/PCREATE_SERVICE_ENUMERATION_HANDLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - CreateServiceEnumerationHandle
 ---
 
 # PCREATE_SERVICE_ENUMERATION_HANDLE callback function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateServiceEnumerationHandle</b> function returns a handle that allows the use of fast and change-tolerant enumeration functions. Such functions can scan through all services or a specified subset. The functions are change-tolerant in that they automatically enumerate any changes that other processes make to the set of enumerated services
 
-
 ## -parameters
-
-
-
 
 ### -param ExclusionFlags [in]
 
@@ -101,24 +98,18 @@ Enumerate only those services that have the same type as those in the <b>Service
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CriteriaService [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure with member values that correspond to those specified in <i>ExclusionFlags</i>.
-					
-
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure with member values that correspond to those specified in <i>ExclusionFlags</i>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle for use with the service enumeration function.
 
 A <b>NULL</b> handle indicates no services exists with the specified criteria, or that the operation failed. For more information, call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> and check the error code against the table below.
+<a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> and check the error code against the table below.
 
 <table>
 <tr>
@@ -153,37 +144,26 @@ One of the  parameters is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/stm/nc-stm-pclose_service_enumeration_handle">CloseServiceEnumerationHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pclose_service_enumeration_handle">CloseServiceEnumerationHandle</a>
+<a href="/windows/desktop/api/stm/nc-stm-penumerate_get_next_service">EnumerateGetNextService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-penumerate_get_next_service">EnumerateGetNextService</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

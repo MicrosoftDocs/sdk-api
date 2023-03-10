@@ -2,15 +2,12 @@
 UID: NN:cscobj.IOfflineFilesPinInfo
 title: IOfflineFilesPinInfo (cscobj.h)
 description: Represents the pinned status of an item in the Offline Files cache.
+helpviewer_keywords: ["IOfflineFilesPinInfo","IOfflineFilesPinInfo interface [Offline Files]","IOfflineFilesPinInfo interface [Offline Files]","described","cscobj/IOfflineFilesPinInfo","of.iofflinefilespininfo"]
 old-location: of\iofflinefilespininfo.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 529a529a-fbeb-4414-b4c9-46bfcca4aa7a
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IOfflineFilesPinInfo interface [Offline Files],described, cscobj/IOfflineFilesPinInfo, of.iofflinefilespininfo
-f1_keywords:
-- cscobj/IOfflineFilesPinInfo
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesPinInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesPinInfo
+ - cscobj/IOfflineFilesPinInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesPinInfo
 ---
 
 # IOfflineFilesPinInfo interface
@@ -49,10 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the pinned status of an item in the Offline Files cache.
 
-When an item is pinned into the Offline Files cache by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a> method, it may be pinned for one of the following reasons:
+When an item is pinned into the Offline Files cache by using the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a> method, it may be pinned for one of the following reasons:
 <table>
 <tr>
 <th>Flag Value</th>
@@ -78,77 +79,10 @@ When an item is pinned into the Offline Files cache by using the <a href="https:
 
 Each of the various <i>IsPinnedForUserXxxxxx</i> methods expresses one of these reasons.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesPinInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesPinInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOfflineFilesPinInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinned">IsPinned</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item is pinned.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforcomputer">IsPinnedForComputer</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned for all users on the computer by Group Policy.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforfolderredirection">IsPinnedForFolderRedirection</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned by Folder Redirection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuser">IsPinnedForUser</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned by a user.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo-ispinnedforuserbypolicy">IsPinnedForUserByPolicy</a>
-</td>
-<td align="left" width="63%">
-Determines whether the item was pinned for users by Group Policy.
-
-</td>
-</tr>
-</table> 
-
+The <b>IOfflineFilesPinInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesPinInfo</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>

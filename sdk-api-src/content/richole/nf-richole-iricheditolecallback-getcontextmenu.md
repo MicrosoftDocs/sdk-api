@@ -2,15 +2,12 @@
 UID: NF:richole.IRichEditOleCallback.GetContextMenu
 title: IRichEditOleCallback::GetContextMenu (richole.h)
 description: Queries the application for a context menu to use on a right-click event.
+helpviewer_keywords: ["GCM_RIGHTMOUSEDROP","GetContextMenu","GetContextMenu method [Windows Controls]","GetContextMenu method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","GetContextMenu method","IRichEditOleCallback.GetContextMenu","IRichEditOleCallback::GetContextMenu","SEL_EMPTY","SEL_MULTICHAR","SEL_MULTIOBJECT","SEL_OBJECT","SEL_TEXT","_win32_IRichEditOleCallback_GetContextMenu","_win32_IRichEditOleCallback_GetContextMenu_cpp","controls.IRichEditOleCallback_GetContextMenu","controls._win32_IRichEditOleCallback_GetContextMenu","richole/IRichEditOleCallback::GetContextMenu"]
 old-location: controls\IRichEditOleCallback_GetContextMenu.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetcontextmenu.htm
 ms.date: 12/05/2018
 ms.keywords: GCM_RIGHTMOUSEDROP, GetContextMenu, GetContextMenu method [Windows Controls], GetContextMenu method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetContextMenu method, IRichEditOleCallback.GetContextMenu, IRichEditOleCallback::GetContextMenu, SEL_EMPTY, SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_IRichEditOleCallback_GetContextMenu, _win32_IRichEditOleCallback_GetContextMenu_cpp, controls.IRichEditOleCallback_GetContextMenu, controls._win32_IRichEditOleCallback_GetContextMenu, richole/IRichEditOleCallback::GetContextMenu
-f1_keywords:
-- richole/IRichEditOleCallback.GetContextMenu
-dev_langs:
-- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRichEditOleCallback.GetContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRichEditOleCallback::GetContextMenu
+ - richole/IRichEditOleCallback::GetContextMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRichEditOleCallback.GetContextMenu
 ---
 
 # IRichEditOleCallback::GetContextMenu
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the application for a context menu to use on a right-click event.
-
 
 ## -parameters
 
-
-
-
 ### -param seltype
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Selection type. The value, which specifies the contents of the new selection, can be one or more of the following values.
 
@@ -124,13 +121,11 @@ More than one COM object.
 </dl>
 </td>
 <td width="60%">
-Indicates that a context menu for a right-mouse drag drop should be generated. The <i>lpoleobj</i> parameter is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface for the object being dropped.
+Indicates that a context menu for a right-mouse drag drop should be generated. The <i>lpoleobj</i> parameter is a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface for the object being dropped.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpoleobj
 
@@ -138,33 +133,28 @@ Type: <b>LPOLEOBJECT</b>
 
 Pointer to an interface. If the 
 					<i>seltype</i> parameter includes the <b>SEL_OBJECT</b> flag, 
-					<i>lpoleobj</i> is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the first selected COM object. If 
+					<i>lpoleobj</i> is a pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface for the first selected COM object. If 
 					<i>seltype</i> includes the <b>GCM_RIGHTMOUSEDROP</b> flag, 
 					<i>lpoleobj</i> is a pointer to an 
-					<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. Otherwise, 
+					<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface. Otherwise, 
 					<i>lpoleobj</i> is <b>NULL</b>. If you hold on to the interface pointer, you must call 
-					the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the object's reference count. 
-
+					the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method to increment the object's reference count.
 
 ### -param lpchrg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a> structure containing the current selection. 
-
+Pointer to a <a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a> structure containing the current selection.
 
 ### -param lphmenu
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HMENU</a>*</b>
 
-The handle of a context menu to use. This parameter is ignored if an error is returned. A rich edit control destroys the menu when it is finished with it so the client should not. 
-
+The handle of a context menu to use. This parameter is ignored if an error is returned. A rich edit control destroys the menu when it is finished with it so the client should not.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the method fails, it can be the following value.
 
@@ -185,39 +175,23 @@ There was an invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When the user selects an item from the context window, a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
-
-
-
+When the user selects an item from the context window, a <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> message is sent to the parent window of the rich edit control.
 
 ## -see-also
 
+<a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-getcontextmenuex">GETCONTEXTMENUEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-getcontextmenuex">GETCONTEXTMENUEX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

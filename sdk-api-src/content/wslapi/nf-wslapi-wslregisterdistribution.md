@@ -2,15 +2,12 @@
 UID: NF:wslapi.WslRegisterDistribution
 title: WslRegisterDistribution function (wslapi.h)
 description: Registers a new distribution with the Windows Subsystem for Linux (WSL).
+helpviewer_keywords: ["WslRegisterDistribution","WslRegisterDistribution function","wsl.wslregisterdistribution","wslapi/WslRegisterDistribution"]
 old-location: wsl\wslregisterdistribution.htm
 tech.root: wsl
 ms.assetid: 34D5D38D-A155-42DE-9E9B-2BD7E414E4EC
 ms.date: 12/05/2018
 ms.keywords: WslRegisterDistribution, WslRegisterDistribution function, wsl.wslregisterdistribution, wslapi/WslRegisterDistribution
-f1_keywords:
-- wslapi/WslRegisterDistribution
-dev_langs:
-- c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wslapi.lib
 req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-wsl-api-l1-1-0.dll
-api_name:
-- WslRegisterDistribution
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WslRegisterDistribution
+ - wslapi/WslRegisterDistribution
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-wsl-api-l1-1-0.dll
+api_name:
+ - WslRegisterDistribution
 ---
 
 # WslRegisterDistribution function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a new distribution with the Windows Subsystem for Linux (WSL).
 
-
 ## -parameters
-
-
-
 
 ### -param distributionName [in]
 
 Unique name representing a distribution (for example, "Fabrikam.Distro.10.01").
 
-
 ### -param tarGzFilename [in]
 
 Full path to a .tar.gz file containing the file system of the distribution to register.
 
-
 ## -returns
-
-
 
 This function can return one of the following values. Use the SUCCEEDED and FAILED macros to test the return value of this function.
 
@@ -87,7 +80,4 @@ This function can return one of the following values. Use the SUCCEEDED and FAIL
 <td>Failed because a distribution with this name has already been registered.</td>
 </tr>
 </table>
- 
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMDRMReader.AcquireLicense
 title: IWMDRMReader::AcquireLicense (wmsdkidl.h)
 description: The AcquireLicense method begins the license acquisition process.
+helpviewer_keywords: ["AcquireLicense","AcquireLicense method [windows Media Format]","AcquireLicense method [windows Media Format]","IWMDRMReader interface","IWMDRMReader interface [windows Media Format]","AcquireLicense method","IWMDRMReader.AcquireLicense","IWMDRMReader::AcquireLicense","IWMDRMReaderAcquireLicense","wmformat.iwmdrmreader_acquirelicense","wmsdkidl/IWMDRMReader::AcquireLicense"]
 old-location: wmformat\iwmdrmreader_acquirelicense.htm
 tech.root: wmformat
 ms.assetid: 757e0926-81aa-48f2-9820-67c8dd51579d
 ms.date: 12/05/2018
 ms.keywords: AcquireLicense, AcquireLicense method [windows Media Format], AcquireLicense method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],AcquireLicense method, IWMDRMReader.AcquireLicense, IWMDRMReader::AcquireLicense, IWMDRMReaderAcquireLicense, wmformat.iwmdrmreader_acquirelicense, wmsdkidl/IWMDRMReader::AcquireLicense
-f1_keywords:
-- wmsdkidl/IWMDRMReader.AcquireLicense
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMReader.AcquireLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMReader::AcquireLicense
+ - wmsdkidl/IWMDRMReader::AcquireLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMReader.AcquireLicense
 ---
 
 # IWMDRMReader::AcquireLicense
@@ -49,20 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>AcquireLicense</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>AcquireLicense</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>AcquireLicense</b> method begins the license acquisition process.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -84,12 +79,8 @@ The <b>AcquireLicense</b> method begins the license acquisition process.
 <td>Indicates that the <b>OnStatus</b> callback will return a URL to use on the Web to acquire a license.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,44 +112,28 @@ Not enough memory to complete the task.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This is an asynchronous call that returns immediately.
 
-<b>For silent acquisition: </b>When the license acquisition is complete, <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> is called with the <i>status</i> parameter set to <b>WMT_ACQUIRE_LICENSE</b>. If the license acquisition was successful, the <i>pvalue</i> parameter is set to a byte pointer to a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> structure. If there was an error during the license acquisition, the <b>HRESULT</b> from the <b>OnStatus</b> call holds the appropriate error code.
+<b>For silent acquisition: </b>When the license acquisition is complete, <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> is called with the <i>status</i> parameter set to <b>WMT_ACQUIRE_LICENSE</b>. If the license acquisition was successful, the <i>pvalue</i> parameter is set to a byte pointer to a <a href="/windows/desktop/wmformat/wm-get-license-data">WM_GET_LICENSE_DATA</a> structure. If there was an error during the license acquisition, the <b>HRESULT</b> from the <b>OnStatus</b> call holds the appropriate error code.
 
-<b>For non-silent acquisition:
+<b>For nonsilent acquisition:
           </b><b>OnStatus</b> will return immediately and send a <b>WMT_ACQUIRE_LICENSE</b> event to the application. In that case, the <b>WM_GET_LICENSE_DATA</b> structure contains information about the URL to be used to acquire the license.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/handling-license-acquisition-events">Handling License Acquisition Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/handling-license-acquisition-events">Handling License Acquisition Events</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition">IWMDRMReader::CancelLicenseAcquisition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition">IWMDRMReader::CancelLicenseAcquisition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>

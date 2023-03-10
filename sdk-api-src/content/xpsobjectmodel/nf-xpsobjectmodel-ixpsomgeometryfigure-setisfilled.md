@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetIsFilled
 title: IXpsOMGeometryFigure::SetIsFilled (xpsobjectmodel.h)
 description: Sets a value that indicates whether the figure is filled.
+helpviewer_keywords: ["FALSE","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","SetIsFilled method","IXpsOMGeometryFigure.SetIsFilled","IXpsOMGeometryFigure::SetIsFilled","SetIsFilled","SetIsFilled method [XPS Documents and Packaging]","SetIsFilled method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","TRUE","xps.ixpsomgeometryfigure_setisfilled","xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled"]
 old-location: xps\ixpsomgeometryfigure_setisfilled.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 18054987-35a9-4049-ba0f-1425e2e54ed3
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.SetIsFilled
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.SetIsFilled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::SetIsFilled
+ - xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.SetIsFilled
 ---
 
 # IXpsOMGeometryFigure::SetIsFilled
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a value that indicates whether the figure is filled.
 
-
 ## -parameters
-
-
-
 
 ### -param isFilled [in]
 
@@ -87,38 +84,19 @@ The figure is not filled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
 In the document markup, the value returned in <i>isFilled</i>  corresponds to that of the <b>IsFilled</b> attribute of the <b>PathFigure</b> element.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

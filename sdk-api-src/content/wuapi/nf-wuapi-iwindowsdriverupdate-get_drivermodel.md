@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverModel
 title: IWindowsDriverUpdate::get_DriverModel (wuapi.h)
-description: Gets the language-invariant model name of the device for which the Windows driver update is intended.
+description: Gets the language-invariant model name of the device for which the Windows driver update is intended. (IWindowsDriverUpdate.get_DriverModel)
+helpviewer_keywords: ["DriverModel property [Windows Update Agent]","DriverModel property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DriverModel property","IWindowsDriverUpdate.DriverModel","IWindowsDriverUpdate.get_DriverModel","IWindowsDriverUpdate::DriverModel","IWindowsDriverUpdate::get_DriverModel","get_DriverModel","wua.iwindowsdriverupdate_drivermodel","wuapi/IWindowsDriverUpdate::DriverModel","wuapi/IWindowsDriverUpdate::get_DriverModel"]
 old-location: wua\iwindowsdriverupdate_drivermodel.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d7139893-6090-441d-962b-e94ac2205f9e
 ms.date: 12/05/2018
 ms.keywords: DriverModel property [Windows Update Agent], DriverModel property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverModel property, IWindowsDriverUpdate.DriverModel, IWindowsDriverUpdate.get_DriverModel, IWindowsDriverUpdate::DriverModel, IWindowsDriverUpdate::get_DriverModel, get_DriverModel, wua.iwindowsdriverupdate_drivermodel, wuapi/IWindowsDriverUpdate::DriverModel, wuapi/IWindowsDriverUpdate::get_DriverModel
-f1_keywords:
-- wuapi/IWindowsDriverUpdate.DriverModel
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdate.DriverModel
-- IWindowsDriverUpdate.get_DriverModel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdate::get_DriverModel
+ - wuapi/IWindowsDriverUpdate::get_DriverModel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdate.DriverModel
+ - IWindowsDriverUpdate.get_DriverModel
 ---
 
 # IWindowsDriverUpdate::get_DriverModel
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the language-invariant model name of the device for which the Windows driver update is intended.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>

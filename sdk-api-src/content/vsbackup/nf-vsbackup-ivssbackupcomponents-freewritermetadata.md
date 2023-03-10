@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterMetadata
 title: IVssBackupComponents::FreeWriterMetadata (vsbackup.h)
 description: The FreeWriterMetadata method frees system resources allocated when IVssBackupComponents::GatherWriterMetadata was called.
+helpviewer_keywords: ["FreeWriterMetadata","FreeWriterMetadata method [VSS]","FreeWriterMetadata method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","FreeWriterMetadata method","IVssBackupComponents.FreeWriterMetadata","IVssBackupComponents::FreeWriterMetadata","_win32_ivssbackupcomponents_freewritermetadata","base.ivssbackupcomponents_freewritermetadata","vsbackup/IVssBackupComponents::FreeWriterMetadata"]
 old-location: base\ivssbackupcomponents_freewritermetadata.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 888d30bd-527b-4b7b-9d31-3df0556b268f
 ms.date: 12/05/2018
 ms.keywords: FreeWriterMetadata, FreeWriterMetadata method [VSS], FreeWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterMetadata method, IVssBackupComponents.FreeWriterMetadata, IVssBackupComponents::FreeWriterMetadata, _win32_ivssbackupcomponents_freewritermetadata, base.ivssbackupcomponents_freewritermetadata, vsbackup/IVssBackupComponents::FreeWriterMetadata
-f1_keywords:
-- vsbackup/IVssBackupComponents.FreeWriterMetadata
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.FreeWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::FreeWriterMetadata
+ - vsbackup/IVssBackupComponents::FreeWriterMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.FreeWriterMetadata
 ---
 
 # IVssBackupComponents::FreeWriterMetadata
@@ -49,21 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>FreeWriterMetadata</b> method frees system resources allocated when <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> was called.
-
-
-## -parameters
-
-
-
+<b>FreeWriterMetadata</b> method frees system resources allocated when <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> was called.
 
 
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -95,36 +88,20 @@ The backup components object is not initialized, this method has been called dur
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method should never be called prior to the completion of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>. The result of calling the method prior to completion of the metadata gather is undefined.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>. The result of calling the method prior to completion of the metadata gather is undefined.
 
 Once writer metadata has been freed, it cannot be recovered by the current instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface. It will be necessary to create a new instance of 
-<b>IVssBackupComponents</b>, and call the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method again.
-
-
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> interface. It will be necessary to create a new instance of 
+<b>IVssBackupComponents</b>, and call the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> method again.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>

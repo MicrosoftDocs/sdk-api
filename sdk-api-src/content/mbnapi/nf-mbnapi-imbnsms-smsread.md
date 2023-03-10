@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSms.SmsRead
 title: IMbnSms::SmsRead (mbnapi.h)
 description: Reads a set of SMS messages from a device.
+helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SmsRead method","IMbnSms.SmsRead","IMbnSms::SmsRead","SmsRead","SmsRead method [Microsoft Broadband Networks]","SmsRead method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_smsread","mbnapi/IMbnSms::SmsRead"]
 old-location: mbn\imbnsms_smsread.htm
 tech.root: mbn
 ms.assetid: d15eab89-c2bb-45af-8a6b-077517973fb1
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsRead method, IMbnSms.SmsRead, IMbnSms::SmsRead, SmsRead, SmsRead method [Microsoft Broadband Networks], SmsRead method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smsread, mbnapi/IMbnSms::SmsRead
-f1_keywords:
-- mbnapi/IMbnSms.SmsRead
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSms.SmsRead
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSms::SmsRead
+ - mbnapi/IMbnSms::SmsRead
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSms.SmsRead
 ---
 
 # IMbnSms::SmsRead
@@ -53,34 +55,25 @@ ms.custom: 19H1
 
 Reads a set of SMS messages from a device.
 
-
 ## -parameters
-
-
-
 
 ### -param smsFilter [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter">MBN_SMS_FILTER</a> structure that defines the set of messages to read.
-
+A pointer to a <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_sms_filter">MBN_SMS_FILTER</a> structure that defines the set of messages to read.
 
 ### -param smsFormat [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format">MBN_SMS_FORMAT</a> value that specifies the format in which an SMS message should be read.  
+An <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format">MBN_SMS_FORMAT</a> value that specifies the format in which an SMS message should be read.  
 
 For GSM devices, it should always be <b>MBN_SMS_FORMAT_PDU</b>.
 
 For CDMA devices, if this is   specified as MBN_SMS_FORMAT_PDU, then the device will read a binary mode CDMA message. If it is specified as MBN_SMS_FORMAT_TEXT, then the device will read a text mode CDMA message. If the device doesn’t support the specified format then it can return an error code.
 
-
 ### -param requestID [out]
 
 A pointer to a request ID issued by the Mobile Broadband service to identify this request.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,29 +138,13 @@ The interface is invalid. Most likely the Mobile Broadband device has been remov
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Using <i>smsFilter</i>, an application can specify basic filters such as new messages, draft messages, or a specific message using an index.  A complex filter can be used by integrating a combination of basic filters. All the interfaces support the index based filters and new message type filters.  Support for other filters is optional for some interfaces. If the specified filter is not supported then operation completion callback function will return a status of <b>E_MBN_STATUS_FILTER_NOT_SUPPORTED</b>.
 
-This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete">OnSmsReadComplete</a> method of the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.
-
-
-
+This is an asynchronous operation that will return immediately. If the method returns without error,  then the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete">OnSmsReadComplete</a> method of the  <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a>

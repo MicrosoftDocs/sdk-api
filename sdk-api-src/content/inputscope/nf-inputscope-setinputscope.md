@@ -2,15 +2,12 @@
 UID: NF:inputscope.SetInputScope
 title: SetInputScope function (inputscope.h)
 description: Sets an input scope for the specified window.
+helpviewer_keywords: ["SetInputScope","SetInputScope function [Text Services Framework]","inputscope/SetInputScope","tsf.SetInputScope"]
 old-location: tsf\SetInputScope.htm
 tech.root: TSF
 ms.assetid: 4098525c-8d29-419a-9484-9e70420416bc
 ms.date: 12/05/2018
 ms.keywords: SetInputScope, SetInputScope function [Text Services Framework], inputscope/SetInputScope, tsf.SetInputScope
-f1_keywords:
-- inputscope/SetInputScope
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- msctf.dll
-- Ext-MS-Win-Tsf-MSctf-l1-1-0.dll
-- Ext-MS-Win-Tsf-MSctf-L1-1-1.dll
-api_name:
-- SetInputScope
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetInputScope
+ - inputscope/SetInputScope
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - msctf.dll
+ - Ext-MS-Win-Tsf-MSctf-l1-1-0.dll
+ - Ext-MS-Win-Tsf-MSctf-L1-1-1.dll
+api_name:
+ - SetInputScope
 ---
 
 # SetInputScope function
@@ -50,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets an input scope for the specified window.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 The window to set the scope on.
 
-
 ### -param inputscope [in]
 
 The input scope to associate with the window. To remove the input scope association, pass IS_DEFAULT to this parameter.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -83,14 +76,8 @@ The input scope to associate with the window. To remove the input scope associat
 <td>The method was successful.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling this method replaces whatever scope is associated with the window.
 
@@ -116,7 +103,4 @@ The following code illustrates how to set an input scope for a window.
 SetInputScope(hwnd, IS_EMAIL_USERNAME);
 
 ```
-
-
-
 

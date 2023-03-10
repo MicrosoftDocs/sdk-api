@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.get_Name
 title: ITAgentHandler::get_Name (tapi3cc.h)
-description: The get_Name method gets the agent handler name.
+description: The ITAgentHandler::get_Name method (tapi3cc.h) gets the agent handler name.
+helpviewer_keywords: ["ITAgentHandler interface [TAPI 2.2]","get_Name method","ITAgentHandler.get_Name","ITAgentHandler::get_Name","_tapi3_itagenthandler_get_name","get_Name","get_Name method [TAPI 2.2]","get_Name method [TAPI 2.2]","ITAgentHandler interface","tapi3.itagenthandler_get_name","tapi3cc/ITAgentHandler::get_Name"]
 old-location: tapi3\itagenthandler_get_name.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 18596742-9a0e-44c1-97e1-1d13d84cc10c
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_Name method, ITAgentHandler.get_Name, ITAgentHandler::get_Name, _tapi3_itagenthandler_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_name, tapi3cc/ITAgentHandler::get_Name
-f1_keywords:
-- tapi3cc/ITAgentHandler.get_Name
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentHandler.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentHandler::get_Name
+ - tapi3cc/ITAgentHandler::get_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentHandler.get_Name
 ---
 
 # ITAgentHandler::get_Name
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Name</b> method gets the agent handler name.
 
-
 ## -parameters
-
-
-
 
 ### -param ppName [out]
 
 Pointer to <b>BSTR</b> representation of the agent handler name.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,28 +102,12 @@ The <i>ppName</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must free the memory allocated for the <i>ppName</i> parameter through 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the variable is no longer needed.
-
-
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when the variable is no longer needed.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>

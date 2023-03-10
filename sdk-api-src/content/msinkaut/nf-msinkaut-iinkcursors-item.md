@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkCursors.Item
 title: IInkCursors::Item (msinkaut.h)
 description: Returns the IInkCursor object at the specified index within the IInkCursors collection.
+helpviewer_keywords: ["59174954-4994-4773-acee-a3db363cb8fe","IInkCursors interface [Tablet PC]","Item method","IInkCursors.Item","IInkCursors::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkCursors interface","msinkaut/IInkCursors::Item","tablet.iinkcursors_item"]
 old-location: tablet\iinkcursors_item.htm
 tech.root: tablet
 ms.assetid: 59174954-4994-4773-acee-a3db363cb8fe
 ms.date: 12/05/2018
 ms.keywords: 59174954-4994-4773-acee-a3db363cb8fe, IInkCursors interface [Tablet PC],Item method, IInkCursors.Item, IInkCursors::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursors interface, msinkaut/IInkCursors::Item, tablet.iinkcursors_item
-f1_keywords:
-- msinkaut/IInkCursors.Item
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCursors.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCursors::Item
+ - msinkaut/IInkCursors::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCursors.Item
 ---
 
 # IInkCursors::Item
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors</a> collection.
-
-
-
+Returns the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors</a> collection.
 
 ## -parameters
 
-
-
-
 ### -param Index [in]
 
-The zero-based index of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object to get.
-
+The zero-based index of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object to get.
 
 ### -param Cursor [out, retval]
 
-Whenthis method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors</a> collection.
-
+When this method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors</a> collection.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -204,31 +194,15 @@ The recognizers registry key is corrupted or your environment does not support h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An error occurs if the index doesn't match any existing member of the collection.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:imapi.IDiscRecorder.QueryMediaType
 title: IDiscRecorder::QueryMediaType (imapi.h)
 description: Detects the type of media currently inserted in the recorder, if any.
+helpviewer_keywords: ["IDiscRecorder interface [IMAPI]","QueryMediaType method","IDiscRecorder.QueryMediaType","IDiscRecorder::QueryMediaType","MEDIA_BLANK","MEDIA_CDDA_CDROM","MEDIA_CD_EXTRA","MEDIA_CD_I","MEDIA_CD_OTHER","MEDIA_CD_ROM_XA","MEDIA_RW","MEDIA_SPECIAL","MEDIA_WRITABLE","QueryMediaType","QueryMediaType method [IMAPI]","QueryMediaType method [IMAPI]","IDiscRecorder interface","_win32_idiscrecorder_querymediatype","base.idiscrecorder_querymediatype","imapi.idiscrecorder_querymediatype","imapi/IDiscRecorder::QueryMediaType"]
 old-location: imapi\idiscrecorder_querymediatype.htm
 tech.root: imapi
 ms.assetid: 40f9376d-5702-4dfb-a69b-0ca4fcfc8d8e
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaType method, IDiscRecorder.QueryMediaType, IDiscRecorder::QueryMediaType, MEDIA_BLANK, MEDIA_CDDA_CDROM, MEDIA_CD_EXTRA, MEDIA_CD_I, MEDIA_CD_OTHER, MEDIA_CD_ROM_XA, MEDIA_RW, MEDIA_SPECIAL, MEDIA_WRITABLE, QueryMediaType, QueryMediaType method [IMAPI], QueryMediaType method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediatype, base.idiscrecorder_querymediatype, imapi.idiscrecorder_querymediatype, imapi/IDiscRecorder::QueryMediaType
-f1_keywords:
-- imapi/IDiscRecorder.QueryMediaType
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscRecorder.QueryMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder::QueryMediaType
+ - imapi/IDiscRecorder::QueryMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscRecorder.QueryMediaType
 ---
 
 # IDiscRecorder::QueryMediaType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Detects the type of media currently inserted in the recorder, if any.
 
-
 ## -parameters
-
-
-
 
 ### -param fMediaType [out]
 
@@ -131,8 +128,6 @@ If there is no media, both <i>fMediaType</i> and <i>fMediaFlags</i> are zero. If
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fMediaFlags [out]
 
@@ -178,25 +173,11 @@ If there is media, this parameter contains one or more of the following values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>

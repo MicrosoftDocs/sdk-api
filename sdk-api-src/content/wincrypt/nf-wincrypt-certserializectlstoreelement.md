@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertSerializeCTLStoreElement
 title: CertSerializeCTLStoreElement function (wincrypt.h)
 description: The CertSerializeCTLStoreElement function serializes an encoded certificate trust list (CTL) context and the encoded representation of its properties. The result can be persisted to storage so that the CTL and properties can be retrieved later.
+helpviewer_keywords: ["CertSerializeCTLStoreElement","CertSerializeCTLStoreElement function [Security]","_crypto2_certserializectlstoreelement","security.certserializectlstoreelement","wincrypt/CertSerializeCTLStoreElement"]
 old-location: security\certserializectlstoreelement.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 63d343c1-fa65-4cd1-a210-3805c7d92208
 ms.date: 12/05/2018
 ms.keywords: CertSerializeCTLStoreElement, CertSerializeCTLStoreElement function [Security], _crypto2_certserializectlstoreelement, security.certserializectlstoreelement, wincrypt/CertSerializeCTLStoreElement
-f1_keywords:
-- wincrypt/CertSerializeCTLStoreElement
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertSerializeCTLStoreElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSerializeCTLStoreElement
+ - wincrypt/CertSerializeCTLStoreElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertSerializeCTLStoreElement
 ---
 
 # CertSerializeCTLStoreElement function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertSerializeCTLStoreElement</b> function serializes an encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> and the encoded representation of its properties. The result can be persisted to storage so that the CTL and properties can be retrieved later.
-
+The <b>CertSerializeCTLStoreElement</b> function serializes an encoded <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="/windows/desktop/SecGloss/c-gly">context</a> and the encoded representation of its properties. The result can be persisted to storage so that the CTL and properties can be retrieved later.
 
 ## -parameters
-
-
-
 
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure being serialized.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure being serialized.
 
 ### -param dwFlags [in]
 
 Reserved for future use and must be zero.
-
 
 ### -param pbElement [out]
 
@@ -76,8 +71,7 @@ A pointer to a buffer that receives the serialized output, including the encoded
 
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbElement [in, out]
 
@@ -91,27 +85,15 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the buff
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore">CertAddSerializedElementToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddserializedelementtostore">CertAddSerializedElementToStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>

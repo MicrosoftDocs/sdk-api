@@ -1,16 +1,13 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0019
 title: XPS_RECT (xpsobjectmodel.h)
-description: Describes the width, height, and location of a rectangle.
+description: Describes the width, height, and location of a rectangle. (XPS_RECT)
+helpviewer_keywords: ["XPS_RECT","XPS_RECT structure [XPS Documents and Packaging]","xps.xps_rect","xpsobjectmodel/XPS_RECT"]
 old-location: xps\xps_rect.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: e78a9ecb-b2e7-4295-a178-4a9936b0f27e
 ms.date: 12/05/2018
 ms.keywords: XPS_RECT, XPS_RECT structure [XPS Documents and Packaging], xps.xps_rect, xpsobjectmodel/XPS_RECT
-f1_keywords:
-- xpsobjectmodel/XPS_RECT
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_RECT
 targetos: Windows
 req.typenames: XPS_RECT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0019
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0019
+ - XPS_RECT
+ - xpsobjectmodel/XPS_RECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_RECT
 ---
 
 # XPS_RECT structure
@@ -48,51 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the width, height, and location of a rectangle.
 
-
 ## -struct-fields
-
-
-
 
 ### -field x
 
 The x-coordinate of the rectangle's left side.
 
-
 ### -field y
 
 The y-coordinate of the rectangle's top side.
-
 
 ### -field width
 
 A non-negative value that represents the  object's size in the horizontal (x) dimension.
 
-
 ### -field height
 
 A non-negative value that represents the  object's size in the vertical (y) dimension.
 
-
 ## -remarks
-
-
 
 The measurement units depend on the context and are not specified in the structure.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

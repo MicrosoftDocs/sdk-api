@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.OpenApplicationGroup
 title: IAzAuthorizationStore::OpenApplicationGroup (azroles.h)
-description: Opens an IAzApplicationGroup object by specifying its name.
+description: Opens an IAzApplicationGroup object by specifying its name. (IAzAuthorizationStore.OpenApplicationGroup)
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","OpenApplicationGroup method","IAzAuthorizationStore interface [Security]","OpenApplicationGroup method","IAzAuthorizationStore.OpenApplicationGroup","IAzAuthorizationStore::OpenApplicationGroup","OpenApplicationGroup","OpenApplicationGroup method [Security]","OpenApplicationGroup method [Security]","AzAuthorizationStore object","OpenApplicationGroup method [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::OpenApplicationGroup","security.azauthorizationstore_openapplicationgroup"]
 old-location: security\azauthorizationstore_openapplicationgroup.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 30860261-c792-4610-b217-7c4d58554778
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],OpenApplicationGroup method, IAzAuthorizationStore interface [Security],OpenApplicationGroup method, IAzAuthorizationStore.OpenApplicationGroup, IAzAuthorizationStore::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzAuthorizationStore object, OpenApplicationGroup method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::OpenApplicationGroup, security.azauthorizationstore_openapplicationgroup
-f1_keywords:
-- azroles/AzAuthorizationStore.OpenApplicationGroup
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- AzAuthorizationStore.OpenApplicationGroup
-- IAzAuthorizationStore.OpenApplicationGroup
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore::OpenApplicationGroup
+ - azroles/IAzAuthorizationStore::OpenApplicationGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - AzAuthorizationStore.OpenApplicationGroup
+ - IAzAuthorizationStore.OpenApplicationGroup
 ---
 
 # IAzAuthorizationStore::OpenApplicationGroup
@@ -49,37 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OpenApplicationGroup</b> method opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name.
-
+The <b>OpenApplicationGroup</b> method opens an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object with the specified name.
 
 ## -parameters
 
-
-
-
 ### -param bstrGroupName [in]
 
-Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to open.
-
+Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to open.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ### -param ppGroup [out]
 
-A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object.
-
+A pointer to a pointer to the opened <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object.
 
 ## -returns
-
-
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-
-
-

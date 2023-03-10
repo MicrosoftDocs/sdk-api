@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAnalogVideoDecoder.put_VCRHorizontalLocking
 title: IAMAnalogVideoDecoder::put_VCRHorizontalLocking (strmif.h)
 description: The put_VCRHorizontalLocking method specifies whether the video is a tape source or a broadcast source.
+helpviewer_keywords: ["IAMAnalogVideoDecoder interface [DirectShow]","put_VCRHorizontalLocking method","IAMAnalogVideoDecoder.put_VCRHorizontalLocking","IAMAnalogVideoDecoder::put_VCRHorizontalLocking","IAMAnalogVideoDecoderput_VCRHorizontalLocking","dshow.iamanalogvideodecoder_put_vcrhorizontallocking","put_VCRHorizontalLocking","put_VCRHorizontalLocking method [DirectShow]","put_VCRHorizontalLocking method [DirectShow]","IAMAnalogVideoDecoder interface","strmif/IAMAnalogVideoDecoder::put_VCRHorizontalLocking"]
 old-location: dshow\iamanalogvideodecoder_put_vcrhorizontallocking.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4b215f8b-dfd9-40cf-a392-7cc42b17b214
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_VCRHorizontalLocking method, IAMAnalogVideoDecoder.put_VCRHorizontalLocking, IAMAnalogVideoDecoder::put_VCRHorizontalLocking, IAMAnalogVideoDecoderput_VCRHorizontalLocking, dshow.iamanalogvideodecoder_put_vcrhorizontallocking, put_VCRHorizontalLocking, put_VCRHorizontalLocking method [DirectShow], put_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_VCRHorizontalLocking
-f1_keywords:
-- strmif/IAMAnalogVideoDecoder.put_VCRHorizontalLocking
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAnalogVideoDecoder.put_VCRHorizontalLocking
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAnalogVideoDecoder::put_VCRHorizontalLocking
+ - strmif/IAMAnalogVideoDecoder::put_VCRHorizontalLocking
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAnalogVideoDecoder.put_VCRHorizontalLocking
 ---
 
 # IAMAnalogVideoDecoder::put_VCRHorizontalLocking
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_VCRHorizontalLocking</code> method specifies whether the video is a tape source or a broadcast source.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lVCRHorizontalLocking [in]
 
@@ -81,12 +75,8 @@ Specifies one of the following values.
 <td>The video is from a tape source.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an HRESULT value. Possible values include the following.
 
@@ -118,31 +108,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The timing accuracy of synchronization pulses is typically poorer from a tape source than from a broadcast source. Setting the value to 1 tells the decoder to relax its standards, which leads to a better chance of maintaining sync.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>

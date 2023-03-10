@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IAtscPsipParser.GetEIT
 title: IAtscPsipParser::GetEIT (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetEIT","GetEIT method [Microsoft TV Technologies]","GetEIT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetEIT method","IAtscPsipParser.GetEIT","IAtscPsipParser::GetEIT","IAtscPsipParserGetEIT","atscpsipparser/IAtscPsipParser::GetEIT","mstv.iatscpsipparser_geteit"]
 old-location: mstv\iatscpsipparser_geteit.htm
 tech.root: mstv
 ms.assetid: b88a6728-d772-48b8-aebc-7d4cc133320a
 ms.date: 12/05/2018
 ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEIT method, IAtscPsipParser.GetEIT, IAtscPsipParser::GetEIT, IAtscPsipParserGetEIT, atscpsipparser/IAtscPsipParser::GetEIT, mstv.iatscpsipparser_geteit
-f1_keywords:
-- atscpsipparser/IAtscPsipParser.GetEIT
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IAtscPsipParser.GetEIT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAtscPsipParser::GetEIT
+ - atscpsipparser/IAtscPsipParser::GetEIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IAtscPsipParser.GetEIT
 ---
 
 # IAtscPsipParser::GetEIT
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,35 +57,25 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetEIT</b> method retrieves the event information table (EIT).
 
-
 ## -parameters
-
-
-
 
 ### -param pid [in]
 
 Specifies the packet identifier (PID) for the requested EIT.
 
-
 ### -param pwSourceId [in]
 
 Optional pointer to a variable that contains a table source identifier. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
-
 
 ### -param dwTimeout [in]
 
 Specifies a time-out value, in milliseconds. If the filter does not receive the data within the time-out period, the method fails.
 
-
 ### -param ppEIT [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT</a> interface pointer. The caller must release the interface.
-
+Receives an <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT</a> interface pointer. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -150,18 +140,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>

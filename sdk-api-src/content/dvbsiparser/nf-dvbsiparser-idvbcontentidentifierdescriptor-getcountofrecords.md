@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbContentIdentifierDescriptor.GetCountOfRecords
 title: IDvbContentIdentifierDescriptor::GetCountOfRecords (dvbsiparser.h)
 description: Gets the number of service records in a Digital Video Broadcast (DVB) content identifier descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbContentIdentifierDescriptor interface","IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbContentIdentifierDescriptor.GetCountOfRecords","IDvbContentIdentifierDescriptor::GetCountOfRecords","dvbsiparser/IDvbContentIdentifierDescriptor::GetCountOfRecords","mstv.idvbcontentidentifierdescriptor_getcountofrecords"]
 old-location: mstv\idvbcontentidentifierdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: cd96a052-52e6-4de7-aa44-66c2caa4d5f5
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbContentIdentifierDescriptor interface, IDvbContentIdentifierDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbContentIdentifierDescriptor.GetCountOfRecords, IDvbContentIdentifierDescriptor::GetCountOfRecords, dvbsiparser/IDvbContentIdentifierDescriptor::GetCountOfRecords, mstv.idvbcontentidentifierdescriptor_getcountofrecords
-f1_keywords:
-- dvbsiparser/IDvbContentIdentifierDescriptor.GetCountOfRecords
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbContentIdentifierDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbContentIdentifierDescriptor::GetCountOfRecords
+ - dvbsiparser/IDvbContentIdentifierDescriptor::GetCountOfRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbContentIdentifierDescriptor.GetCountOfRecords
 ---
 
 # IDvbContentIdentifierDescriptor::GetCountOfRecords
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the number of service records in a Digital Video Broadcast (DVB)  content identifier descriptor. 
-
+Gets the number of service records in a Digital Video Broadcast (DVB)  content identifier descriptor.
 
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the number of service records.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentidentifierdescriptor">IDvbContentIdentifierDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentidentifierdescriptor">IDvbContentIdentifierDescriptor</a>

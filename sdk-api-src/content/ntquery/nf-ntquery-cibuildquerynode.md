@@ -2,6 +2,7 @@
 UID: NF:ntquery.CIBuildQueryNode
 title: CIBuildQueryNode function (ntquery.h)
 description: Builds one node of a query restriction tree for a Command object.
+helpviewer_keywords: ["CIBuildQueryNode","CIBuildQueryNode function [Indexing Service]","_idxs_CIBuildQueryNode","indexsrv.cibuildquerynode","ntquery/CIBuildQueryNode"]
 old-location: indexsrv\cibuildquerynode.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0c11.htm
@@ -49,7 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Builds one node of a query restriction tree for a Command object.
 
@@ -66,17 +68,17 @@ A pointer to a null-terminated string that specifies the friendly name for a pro
 
 ### -param dbOperator
 
-The operation to be performed on the node. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>.
+The operation to be performed on the node. See <a href="/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>.
 
 
 ### -param pvarPropertyValue
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
+A pointer to the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure for the value to use for the <i>wcsProperty</i> parameter.
 
 
 ### -param ppTree
 
-A pointer to an output variable that receives the pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure for the node created by this function. 
+A pointer to an output variable that receives the pointer to the <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure for the node created by this function. 
 
 
 
@@ -87,7 +89,7 @@ The number of properties in the <i>pProperty</i> array.
 
 ### -param pProperty
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structures, each of which describes a property that can be referred to by a friendly name. This array is populated when <i>pvarPropertyValue</i> contains a string that contains references to properties. This parameter can be <b>NULL</b> when <i>cProperties</i> equals zero.
+A pointer to an array of <a href="/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structures, each of which describes a property that can be referred to by a friendly name. This array is populated when <i>pvarPropertyValue</i> contains a string that contains references to properties. This parameter can be <b>NULL</b> when <i>cProperties</i> equals zero.
 
 
 ### -param LocaleID
@@ -182,7 +184,7 @@ An unknown error has occurred.
 
 
 
-Use nodes created by the <b>CIBuildQueryNode</b> function to create or add to a query tree using the <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cibuildquerytree">CIBuildQueryTree</a> function. Content properties are in turn passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a> function to create the <b>SELECT</b> part of the full tree.
+Use nodes created by the <b>CIBuildQueryNode</b> function to create or add to a query tree using the <a href="/windows/desktop/api/ntquery/nf-ntquery-cibuildquerytree">CIBuildQueryTree</a> function. Content properties are in turn passed to the <a href="/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a> function to create the <b>SELECT</b> part of the full tree.
 
 
 
@@ -192,32 +194,31 @@ Use nodes created by the <b>CIBuildQueryNode</b> function to create or add to a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cibuildquerytree">CIBuildQueryTree</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-cibuildquerytree">CIBuildQueryTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttofulltree">CITextToFullTree</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttofulltree">CITextToFullTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttofulltreeex">CITextToFullTreeEx</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttofulltreeex">CITextToFullTreeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttree">CITextToSelectTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttreeex">CITextToSelectTreeEx</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-citexttoselecttreeex">CITextToSelectTreeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>
+<a href="/previous-versions/windows/desktop/indexsrv/dbcommandop">DBCOMMANDOP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
+<a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
  
 
  
-

@@ -2,15 +2,12 @@
 UID: NF:propvarutil.InitVariantFromStringArray
 title: InitVariantFromStringArray function (propvarutil.h)
 description: Initializes a VARIANT structure with an array of strings.
+helpviewer_keywords: ["InitVariantFromStringArray","InitVariantFromStringArray function [Windows Properties]","_shell_InitVariantFromStringArray","properties.InitVariantFromStringArray","propvarutil/InitVariantFromStringArray","shell.InitVariantFromStringArray"]
 old-location: properties\InitVariantFromStringArray.htm
 tech.root: properties
 ms.assetid: f46cfc71-9e27-4ba1-8a32-5b279b628732
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromStringArray, InitVariantFromStringArray function [Windows Properties], _shell_InitVariantFromStringArray, properties.InitVariantFromStringArray, propvarutil/InitVariantFromStringArray, shell.InitVariantFromStringArray
-f1_keywords:
-- propvarutil/InitVariantFromStringArray
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- InitVariantFromStringArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitVariantFromStringArray
+ - propvarutil/InitVariantFromStringArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - InitVariantFromStringArray
 ---
 
 # InitVariantFromStringArray function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with an array of strings.
-
+Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with an array of strings.
 
 ## -parameters
-
-
-
 
 ### -param prgsz [in]
 
@@ -63,42 +60,32 @@ Type: <b>PCWSTR*</b>
 
 Pointer to an array of strings.
 
-
 ### -param cElems [in]
 
 Type: <b>ULONG</b>
 
 The number of elements in the array pointed to by <i>prgsz</i>.
 
-
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+When this function returns, contains the initialized <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Creates a VT_ARRAY | VT_BSTR variant.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstringarray">InitVariantFromStringArray</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstringarray">InitVariantFromStringArray</a>.
 
 
 ```cpp
@@ -114,25 +101,14 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstring">InitPropVariantFromString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstring">InitPropVariantFromString</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstring">InitVariantFromString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstring">InitVariantFromString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostringarray">VariantToStringArray</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttostringarray">VariantToStringArray</a>

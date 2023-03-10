@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellLinkDataList.SetFlags
 title: IShellLinkDataList::SetFlags (shobjidl_core.h)
 description: Sets the current option settings.
+helpviewer_keywords: ["IShellLinkDataList interface [Windows Shell]","SetFlags method","IShellLinkDataList.SetFlags","IShellLinkDataList::SetFlags","SetFlags","SetFlags method [Windows Shell]","SetFlags method [Windows Shell]","IShellLinkDataList interface","_win32_IShellLinkDataList_SetFlags","shell.IShellLinkDataList_SetFlags","shobjidl_core/IShellLinkDataList::SetFlags"]
 old-location: shell\IShellLinkDataList_SetFlags.htm
 tech.root: shell
 ms.assetid: 0fca6394-e8ad-4ef3-a7d8-60e85229556b
 ms.date: 12/05/2018
 ms.keywords: IShellLinkDataList interface [Windows Shell],SetFlags method, IShellLinkDataList.SetFlags, IShellLinkDataList::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IShellLinkDataList interface, _win32_IShellLinkDataList_SetFlags, shell.IShellLinkDataList_SetFlags, shobjidl_core/IShellLinkDataList::SetFlags
-f1_keywords:
-- shobjidl_core/IShellLinkDataList.SetFlags
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellLinkDataList.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLinkDataList::SetFlags
+ - shobjidl_core/IShellLinkDataList::SetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLinkDataList.SetFlags
 ---
 
 # IShellLinkDataList::SetFlags
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current option settings.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
-One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-shell_link_data_flags">SHELL_LINK_DATA_FLAGS</a> that indicate the option settings.
-
+One or more of the <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-shell_link_data_flags">SHELL_LINK_DATA_FLAGS</a> that indicate the option settings.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>

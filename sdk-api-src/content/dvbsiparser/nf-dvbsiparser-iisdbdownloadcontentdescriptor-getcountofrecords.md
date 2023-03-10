@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetCountOfRecords
 title: IIsdbDownloadContentDescriptor::GetCountOfRecords (dvbsiparser.h)
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbDownloadContentDescriptor.GetCountOfRecords","IIsdbDownloadContentDescriptor::GetCountOfRecords","dvbsiparser/IIsdbDownloadContentDescriptor::GetCountOfRecords","mstv.iisdbdownloadcontentdescriptor_getcountofrecords"]
 old-location: mstv\iisdbdownloadcontentdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: d5a0b8e1-bb88-4ef6-ab25-b35b3d39fef0
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbDownloadContentDescriptor.GetCountOfRecords, IIsdbDownloadContentDescriptor::GetCountOfRecords, dvbsiparser/IIsdbDownloadContentDescriptor::GetCountOfRecords, mstv.iisdbdownloadcontentdescriptor_getcountofrecords
-f1_keywords:
-- dvbsiparser/IIsdbDownloadContentDescriptor.GetCountOfRecords
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbDownloadContentDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbDownloadContentDescriptor::GetCountOfRecords
+ - dvbsiparser/IIsdbDownloadContentDescriptor::GetCountOfRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbDownloadContentDescriptor.GetCountOfRecords
 ---
 
 # IIsdbDownloadContentDescriptor::GetCountOfRecords
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the body length of an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes. 
-
+Gets the body length of an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
 
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the number of records.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdownloadcontentdescriptor">IIsdbDownloadContentDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdownloadcontentdescriptor">IIsdbDownloadContentDescriptor</a>

@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument2.GetCaretType
 title: ITextDocument2::GetCaretType (tom.h)
 description: Gets the caret type.
+helpviewer_keywords: ["GetCaretType","GetCaretType method [Windows Controls]","GetCaretType method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetCaretType method","ITextDocument2.GetCaretType","ITextDocument2::GetCaretType","controls.itextdocument2_getcarettype","tom/ITextDocument2::GetCaretType","tomKoreanBlockCaret","tomNormalCaret","tomNullCaret"]
 old-location: controls\itextdocument2_getcarettype.htm
 tech.root: Controls
 ms.assetid: 4ab170d2-50a3-4fbf-8e02-92b031bc1e4f
 ms.date: 12/05/2018
 ms.keywords: GetCaretType, GetCaretType method [Windows Controls], GetCaretType method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetCaretType method, ITextDocument2.GetCaretType, ITextDocument2::GetCaretType, controls.itextdocument2_getcarettype, tom/ITextDocument2::GetCaretType, tomKoreanBlockCaret, tomNormalCaret, tomNullCaret
-f1_keywords:
-- tom/ITextDocument2.GetCaretType
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument2.GetCaretType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument2::GetCaretType
+ - tom/ITextDocument2::GetCaretType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument2.GetCaretType
 ---
 
 # ITextDocument2::GetCaretType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the caret type.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -84,29 +81,16 @@ The caret type. It can be one of the following values:
 
 #### tomNullCaret
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setcarettype">ITextDocument2::SetCaretType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setcarettype">ITextDocument2::SetCaretType</a>

@@ -2,15 +2,12 @@
 UID: NN:uiribbon.IUIEventingManager
 title: IUIEventingManager (uiribbon.h)
 description: The IUIEventingManager interface is implemented by the Ribbon framework and provides the notification functionality for applications that register for ribbon events.
+helpviewer_keywords: ["IUIEventingManager","IUIEventingManager interface [Windows Ribbon]","IUIEventingManager interface [Windows Ribbon]","described","uiribbon/IUIEventingManager","windowsribbon.iuieventingmanager"]
 old-location: windowsribbon\iuieventingmanager.htm
 tech.root: windowsribbon
 ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
 ms.date: 12/05/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
-f1_keywords:
-- uiribbon/IUIEventingManager
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiribbon.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiribbon.dll
-api_name:
-- IUIEventingManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIEventingManager
+ - uiribbon/IUIEventingManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiribbon.dll
+api_name:
+ - IUIEventingManager
 ---
 
 # IUIEventingManager interface
@@ -48,56 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IUIEventingManager</b> interface is implemented by the 
 				Ribbon framework and provides the notification functionality for  applications that register for ribbon events.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIEventingManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIEventingManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIEventingManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventingmanager-seteventlogger">SetEventLogger</a>
-</td>
-<td align="left" width="63%">
-Sets the event logger for ribbon events.
-
-</td>
-</tr>
-</table> 
-
+The <b>IUIEventingManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIEventingManager</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuieventlogger">IUIEventLogger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuieventlogger">IUIEventLogger</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-interfaces">Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-interfaces">Interfaces</a>

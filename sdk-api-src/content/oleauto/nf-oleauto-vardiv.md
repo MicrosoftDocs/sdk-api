@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarDiv
 title: VarDiv function (oleauto.h)
 description: Returns the result from dividing two variants.
+helpviewer_keywords: ["VarDiv","VarDiv function [Automation]","_oa96_VarDiv","automat.vardiv","oleauto/VarDiv"]
 old-location: automat\vardiv.htm
 tech.root: automat
 ms.assetid: 63cd466d-da23-4c61-ba7c-899f56f02245
 ms.date: 12/05/2018
 ms.keywords: VarDiv, VarDiv function [Automation], _oa96_VarDiv, automat.vardiv, oleauto/VarDiv
-f1_keywords:
-- oleauto/VarDiv
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDiv
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDiv
+ - oleauto/VarDiv
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDiv
 ---
 
 # VarDiv function
@@ -48,44 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the result from dividing two variants.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pvarLeft [in]
 
 The first variant.
 
-
 ### -param pvarRight [in]
 
 The second variant.
-
 
 ### -param pvarResult [out]
 
 The result variant.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The function operates as follows.
 
@@ -127,7 +112,4 @@ The function operates as follows.
 <td>DISP_E_OVERFLOW</td>
 </tr>
 </table>
- 
-
-
 

@@ -2,15 +2,12 @@
 UID: NS:lmaccess._NETLOGON_INFO_3
 title: NETLOGON_INFO_3 (lmaccess.h)
 description: Defines a level-3 control query response from a domain controller.
+helpviewer_keywords: ["*PNETLOGON_INFO_3","NETLOGON_DNS_UPDATE_FAILURE","NETLOGON_FULL_SYNC_REPLICATION","NETLOGON_HAS_IP","NETLOGON_HAS_TIMESERV","NETLOGON_INFO_3","NETLOGON_INFO_3 structure [Windows API]","NETLOGON_REDO_NEEDED","NETLOGON_REPLICATION_IN_PROGRESS","NETLOGON_REPLICATION_NEEDED","PNETLOGON_INFO_3","PNETLOGON_INFO_3 structure pointer [Windows API]","lmaccess/NETLOGON_INFO_3","lmaccess/PNETLOGON_INFO_3","winprog.netlogon_info_3"]
 old-location: winprog\netlogon_info_3.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 6498c4b2-523a-4050-acbd-5088b9e0eaae
 ms.date: 12/05/2018
 ms.keywords: '*PNETLOGON_INFO_3, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_3, NETLOGON_INFO_3 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, PNETLOGON_INFO_3, PNETLOGON_INFO_3 structure pointer [Windows API], lmaccess/NETLOGON_INFO_3, lmaccess/PNETLOGON_INFO_3, winprog.netlogon_info_3'
-f1_keywords:
-- lmaccess/NETLOGON_INFO_3
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -28,71 +25,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmaccess.h
-api_name:
-- NETLOGON_INFO_3
 targetos: Windows
 req.typenames: NETLOGON_INFO_3, *PNETLOGON_INFO_3
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NETLOGON_INFO_3
+ - lmaccess/_NETLOGON_INFO_3
+ - PNETLOGON_INFO_3
+ - lmaccess/PNETLOGON_INFO_3
+ - NETLOGON_INFO_3
+ - lmaccess/NETLOGON_INFO_3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmaccess.h
+api_name:
+ - NETLOGON_INFO_3
 ---
-
-# NETLOGON_INFO_3 structure
-
 
 ## -description
 
-
 The <b>NETLOGON_INFO_3</b> structure defines a level-3 control query response from a domain controller.
-
 
 ## -struct-fields
 
-
-
-
 ### -field netlog3_flags
-
- 
-
-
-### -field netlog3_logon_attempts
-
-The number of logon attempts made for the domain.
-
-
-### -field netlog3_reserved1
-
-Reserved value.
-
-
-### -field netlog3_reserved2
-
-Reserved value.
-
-
-### -field netlog3_reserved3
-
-Reserved value.
-
-
-### -field netlog3_reserved4
-
-Reserved value.
-
-
-### -field netlog3_reserved5
-
-Reserved value.
-
-
-#### - netlog1_flags
 
 An integer value that contains one or more of the following control query responses from the DC.
 
@@ -179,16 +142,31 @@ Last update to the DNS records on the DC failed.
 </td>
 </tr>
 </table>
- 
 
+### -field netlog3_logon_attempts
+
+The number of logon attempts made for the domain.
+
+### -field netlog3_reserved1
+
+Reserved value.
+
+### -field netlog3_reserved2
+
+Reserved value.
+
+### -field netlog3_reserved3
+
+Reserved value.
+
+### -field netlog3_reserved4
+
+Reserved value.
+
+### -field netlog3_reserved5
+
+Reserved value.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-i_netlogoncontrol2">I_NetLogonControl2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-i_netlogoncontrol2">I_NetLogonControl2</a>

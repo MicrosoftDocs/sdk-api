@@ -1,16 +1,13 @@
 ---
 UID: NF:oledlg.OleUIChangeSourceW
 title: OleUIChangeSourceW function (oledlg.h)
-description: Invokes the Change Source dialog box, allowing the user to change the source of a link.
+description: Invokes the Change Source dialog box, allowing the user to change the source of a link. (Unicode)
+helpviewer_keywords: ["OleUIChangeSource", "OleUIChangeSource function [COM]", "OleUIChangeSourceW", "_ole_OleUIChangeSource", "com.oleuichangesource", "oledlg/OleUIChangeSource", "oledlg/OleUIChangeSourceW"]
 old-location: com\oleuichangesource.htm
 tech.root: com
 ms.assetid: 53ff17aa-3135-462e-885d-3bfbb74ed1c5
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeSource, OleUIChangeSource function [COM], OleUIChangeSourceA, OleUIChangeSourceW, _ole_OleUIChangeSource, com.oleuichangesource, oledlg/OleUIChangeSource, oledlg/OleUIChangeSourceA, oledlg/OleUIChangeSourceW
-f1_keywords:
-- oledlg/OleUIChangeSource
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIChangeSource
-- OleUIChangeSourceA
-- OleUIChangeSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIChangeSourceW
+ - oledlg/OleUIChangeSourceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIChangeSource
+ - OleUIChangeSourceA
+ - OleUIChangeSourceW
 ---
 
 # OleUIChangeSourceW function
@@ -50,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Invokes the <b>Change Source</b> dialog box, allowing the user to change the source of a link. 
-
-
-
+Invokes the <b>Change Source</b> dialog box, allowing the user to change the source of a link.
 
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-### -param Arg1 [in]
-
-Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
-
+Pointer to the in-out <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a> structure for this dialog box.
 
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -300,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -311,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -333,7 +324,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -428,14 +419,8 @@ The <i>nFilename</i> value is wrong.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The link source is not changed by the <b>Change Source</b> dialog box itself. Instead, it is up to the caller to change the link source using the returned file and item strings. The <b>Edit Links</b> dialog box typically does this for the caller. 
 
@@ -443,21 +428,18 @@ The link source is not changed by the <b>Change Source</b> dialog box itself. In
 
 
 
+
+> [!NOTE]
+> The oledlg.h header defines OLEUICHANGESOURCE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkcontainera">IOleUILinkContainer</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuichangesourcea">OLEUICHANGESOURCE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>

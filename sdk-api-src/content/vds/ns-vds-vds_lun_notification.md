@@ -1,16 +1,13 @@
 ---
 UID: NS:vds._VDS_LUN_NOTIFICATION
 title: VDS_LUN_NOTIFICATION (vds.h)
-description: Defines the details of a LUN notification.
+description: The VDS_LUN_NOTIFICATION structure (vds.h) defines the details of a LUN notification.
+helpviewer_keywords: ["VDS_LUN_NOTIFICATION","VDS_LUN_NOTIFICATION structure [VDS]","VDS_NF_LUN_ARRIVE","VDS_NF_LUN_DEPART","VDS_NF_LUN_MODIFY","base.vds_lun_notification","vds/_VDS_LUN_NOTIFICATION","vdshwprv/_VDS_LUN_NOTIFICATION"]
 old-location: base\vds_lun_notification.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 42b71b32-337e-4352-b4b3-6af2caad86e5
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_LUN_ARRIVE, VDS_NF_LUN_DEPART, VDS_NF_LUN_MODIFY, base.vds_lun_notification, vds/_VDS_LUN_NOTIFICATION, vdshwprv/_VDS_LUN_NOTIFICATION
-f1_keywords:
-- vds/VDS_LUN_NOTIFICATION
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_LUN_NOTIFICATION
 targetos: Windows
 req.typenames: VDS_LUN_NOTIFICATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_LUN_NOTIFICATION
+ - vds/_VDS_LUN_NOTIFICATION
+ - VDS_LUN_NOTIFICATION
+ - vds/VDS_LUN_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_LUN_NOTIFICATION
 ---
 
 # VDS_LUN_NOTIFICATION structure
@@ -49,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines 
    the details of a LUN notification.
 
-
 ## -struct-fields
 
-
-
-
 ### -field ulEvent
-
 
 Determines the LUN event for which an application will be notified, as one of the following values.
 
@@ -102,58 +100,43 @@ An existing LUN has been deleted.
 </dl>
 </td>
 <td width="60%">
-A member was changed in the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> 
+A member was changed in the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a> 
        structure for an external LUN. Examples of changes that trigger this notification include changes to the 
-        <b>VDS_LUN_PROP</b>structure and the addition of a plex to 
+       <b>VDS_LUN_PROP</b> structure and the addition of a plex to 
         the LUN. Applications are responsible for determining the precise nature of the change.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LunId
 
 The GUID of the LUN.
 
-
 ## -remarks
 
-
-
 This structure is included as a member in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure.
+    <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure.
 
 An application can receive LUN events by implementing the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface 
+    <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface 
     pointer as an argument to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> method.
+    <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> method.
 
-To get the LUN object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a> method to get the LUN properties.
-
-
-
+To get the LUN object, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a> method to get the LUN properties.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>

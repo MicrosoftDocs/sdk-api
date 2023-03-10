@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers
 title: IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers (shlobj_core.h)
 description: Loads any registered overlay identifiers, or handlers, that are not currently loaded.
+helpviewer_keywords: ["IShellIconOverlayManager interface [Windows Shell]","LoadNonloadedOverlayIdentifiers method","IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers","IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers","LoadNonloadedOverlayIdentifiers","LoadNonloadedOverlayIdentifiers method [Windows Shell]","LoadNonloadedOverlayIdentifiers method [Windows Shell]","IShellIconOverlayManager interface","_win32_IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers","shell.IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers","shlobj_core/IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers"]
 old-location: shell\IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers.htm
 tech.root: shell
 ms.assetid: bd6003b5-551d-41cc-8ca6-13ab245ed6fd
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayManager interface [Windows Shell],LoadNonloadedOverlayIdentifiers method, IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers, IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers, LoadNonloadedOverlayIdentifiers method [Windows Shell], LoadNonloadedOverlayIdentifiers method [Windows Shell],IShellIconOverlayManager interface, _win32_IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shell.IShellIconOverlayManager_LoadNonloadedOverlayIdentifiers, shlobj_core/IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
-f1_keywords:
-- shlobj_core/IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
+ - shlobj_core/IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers
 ---
 
 # IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads any registered overlay identifiers, or handlers, that are not currently loaded.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -95,18 +88,7 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>

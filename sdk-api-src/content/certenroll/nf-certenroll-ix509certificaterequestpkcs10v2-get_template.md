@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V2.get_Template
 title: IX509CertificateRequestPkcs10V2::get_Template (certenroll.h)
-description: Retrieves the certificate request template used during initialization.
+description: Retrieves the certificate request template used during initialization. (IX509CertificateRequestPkcs10V2.get_Template)
+helpviewer_keywords: ["IX509CertificateRequestPkcs10V2 interface [Security]","Template property","IX509CertificateRequestPkcs10V2.Template","IX509CertificateRequestPkcs10V2.get_Template","IX509CertificateRequestPkcs10V2::Template","IX509CertificateRequestPkcs10V2::get_Template","Template property [Security]","Template property [Security]","IX509CertificateRequestPkcs10V2 interface","certenroll/IX509CertificateRequestPkcs10V2::Template","certenroll/IX509CertificateRequestPkcs10V2::get_Template","get_Template","security.ix509certificaterequestpkcs10v2_template"]
 old-location: security\ix509certificaterequestpkcs10v2_template.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 903288b5-c4fd-4302-8140-be84532217c1
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10V2 interface [Security],Template property, IX509CertificateRequestPkcs10V2.Template, IX509CertificateRequestPkcs10V2.get_Template, IX509CertificateRequestPkcs10V2::Template, IX509CertificateRequestPkcs10V2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestPkcs10V2 interface, certenroll/IX509CertificateRequestPkcs10V2::Template, certenroll/IX509CertificateRequestPkcs10V2::get_Template, get_Template, security.ix509certificaterequestpkcs10v2_template
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10V2.Template
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509CertificateRequestPkcs10V2.Template
-- IX509CertificateRequestPkcs10V2.get_Template
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10V2::get_Template
+ - certenroll/IX509CertificateRequestPkcs10V2::get_Template
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509CertificateRequestPkcs10V2.Template
+ - IX509CertificateRequestPkcs10V2.get_Template
 ---
 
 # IX509CertificateRequestPkcs10V2::get_Template
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Template</b> property retrieves the certificate request template used during initialization.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v2">IX509CertificateRequestPkcs10V2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v2">IX509CertificateRequestPkcs10V2</a>

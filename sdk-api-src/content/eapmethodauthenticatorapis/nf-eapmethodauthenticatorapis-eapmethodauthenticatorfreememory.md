@@ -1,16 +1,13 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorFreeMemory
 title: EapMethodAuthenticatorFreeMemory function (eapmethodauthenticatorapis.h)
-description: Releases all memory associated with an opaque user interface context data buffer.
+description: Releases all memory associated with an opaque user interface context data buffer. (EapMethodAuthenticatorFreeMemory)
+helpviewer_keywords: ["EapMethodAuthenticatorFreeMemory","EapMethodAuthenticatorFreeMemory function [EAPHost]","eaphost.eapmethodauthenticatorfreememory","eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory"]
 old-location: eaphost\eapmethodauthenticatorfreememory.htm
 tech.root: eaphost
 ms.assetid: 9ec9f468-4589-4832-9f17-ddc0b64b88f1
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorFreeMemory, EapMethodAuthenticatorFreeMemory function [EAPHost], eaphost.eapmethodauthenticatorfreememory, eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory
-f1_keywords:
-- eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory
-dev_langs:
-- c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- eapmethodauthenticatorapis.h
-api_name:
-- EapMethodAuthenticatorFreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EapMethodAuthenticatorFreeMemory
+ - eapmethodauthenticatorapis/EapMethodAuthenticatorFreeMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - eapmethodauthenticatorapis.h
+api_name:
+ - EapMethodAuthenticatorFreeMemory
 ---
 
 # EapMethodAuthenticatorFreeMemory function
@@ -48,38 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases all memory associated with an opaque user interface context data buffer.
 
 <b>EapMethodAuthenticatorFreeMemory</b> is a function prototype.
 
-
 ## -parameters
-
-
-
 
 ### -param pUIContextData [in]
 
 A pointer to a BLOB that contains supplicant user interface context data.
 
-
-## -returns
-
-
-
-This function does not return any values
-
-
-
-
 ## -see-also
 
-
-
-
-[EAPHost Authenticator Method Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-authenticator-method-functions)a>
- 
-
- 
+[EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
 

@@ -1,14 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.EndEvent
 title: ID3D12VideoProcessCommandList::EndEvent
-description: For internal use only. Not intended to be called directly.
+description: For internal use only. Not intended to be called directly. (ID3D12VideoProcessCommandList::EndEvent)
+helpviewer_keywords: ["ID3D12VideoProcessCommandList::EndEvent","EndEvent","ID3D12VideoProcessCommandList.EndEvent","ID3D12VideoProcessCommandList::EndEvent","ID3D12VideoProcessCommandList.EndEvent"]
 tech.root: mf
 ms.assetid: c6c05fb9-effb-487b-b564-8535e220f45c
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList::EndEvent
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList::EndEvent, EndEvent, ID3D12VideoProcessCommandList.EndEvent, ID3D12VideoProcessCommandList::EndEvent, ID3D12VideoProcessCommandList.EndEvent
 req.header: d3d12video.h
 req.include-header: 
@@ -28,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList::EndEvent
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList::EndEvent
+ - d3d12video/ID3D12VideoProcessCommandList::EndEvent
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList::EndEvent
 ---
 
 # ID3D12VideoProcessCommandList::EndEvent
@@ -44,14 +46,11 @@ targetos: Windows
 
 ## -description
 
-
 For internal use only. Not intended to be called directly.
 
-## -parameters
 
 
-## -returns
-This method returns void.
 ## -remarks
 
 ## -see-also
+

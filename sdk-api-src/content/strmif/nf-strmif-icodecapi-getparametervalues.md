@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.ICodecAPI.GetParameterValues
 title: ICodecAPI::GetParameterValues (strmif.h)
-description: The GetParameterValues method gets the list of possible values for a codec property.
+description: The GetParameterValues method gets the list of possible values for a codec property. (ICodecAPI.GetParameterValues)
+helpviewer_keywords: ["GetParameterValues","GetParameterValues method [DirectShow]","GetParameterValues method [DirectShow]","ICodecAPI interface","ICodecAPI interface [DirectShow]","GetParameterValues method","ICodecAPI.GetParameterValues","ICodecAPI::GetParameterValues","ICodecAPIGetParameterValues","dshow.icodecapi_getparametervalues","strmif/ICodecAPI::GetParameterValues"]
 old-location: dshow\icodecapi_getparametervalues.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7f6c7db8-f71f-4ea7-8584-0df6e28c0fc9
 ms.date: 12/05/2018
 ms.keywords: GetParameterValues, GetParameterValues method [DirectShow], GetParameterValues method [DirectShow],ICodecAPI interface, ICodecAPI interface [DirectShow],GetParameterValues method, ICodecAPI.GetParameterValues, ICodecAPI::GetParameterValues, ICodecAPIGetParameterValues, dshow.icodecapi_getparametervalues, strmif/ICodecAPI::GetParameterValues
-f1_keywords:
-- strmif/ICodecAPI.GetParameterValues
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICodecAPI.GetParameterValues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICodecAPI::GetParameterValues
+ - strmif/ICodecAPI::GetParameterValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICodecAPI.GetParameterValues
 ---
 
 # ICodecAPI::GetParameterValues
@@ -49,38 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetParameterValues</b> method gets the list of possible values for a codec property.
 
 This method applies only to properties that support a list of possible values, as opposed to a linear range.
 
-
 ## -parameters
-
-
-
 
 ### -param Api [in]
 
-Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
-          
-
+Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 ### -param Values [out]
 
 Receives a pointer to an array of <b>VARIANT</b> types. The array contains the list of values that the encoder supports for this property. The caller must free each <b>VARIANT</b> by calling <b>VariantClear</b>. The caller must also free the array by calling  <b>CoTaskMemFree</b>.
-          
-
 
 ### -param ValuesCount [out]
 
 Receives the number of elements in the <i>Values</i> array.
-          
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,36 +112,19 @@ The property supports a range of values, not a list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the property supports a range of values, instead of a list, the method returns  <b>VFW_E_CODECAPI_LINEAR_RANGE</b>. In that case, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange">ICodecAPI::GetParameterRange</a> to get the range of values.
-      
-
-
-
+If the property supports a range of values, instead of a list, the method returns  <b>VFW_E_CODECAPI_LINEAR_RANGE</b>. In that case, call <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange">ICodecAPI::GetParameterRange</a> to get the range of values.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>

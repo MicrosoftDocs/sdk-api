@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.GetGlobalCompartment
 title: ITfThreadMgr2::GetGlobalCompartment (msctf.h)
 description: Obtains the global compartment manager object.
+helpviewer_keywords: ["GetGlobalCompartment","GetGlobalCompartment method [Text Services Framework]","GetGlobalCompartment method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","GetGlobalCompartment method","ITfThreadMgr2.GetGlobalCompartment","ITfThreadMgr2::GetGlobalCompartment","msctf/ITfThreadMgr2::GetGlobalCompartment","tsf.itfthreadmgr2_getglobalcompartment"]
 old-location: tsf\itfthreadmgr2_getglobalcompartment.htm
 tech.root: TSF
 ms.assetid: AC1D27C5-C9D9-4658-AC3C-9C3A723F8597
 ms.date: 12/05/2018
 ms.keywords: GetGlobalCompartment, GetGlobalCompartment method [Text Services Framework], GetGlobalCompartment method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetGlobalCompartment method, ITfThreadMgr2.GetGlobalCompartment, ITfThreadMgr2::GetGlobalCompartment, msctf/ITfThreadMgr2::GetGlobalCompartment, tsf.itfthreadmgr2_getglobalcompartment
-f1_keywords:
-- msctf/ITfThreadMgr2.GetGlobalCompartment
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.GetGlobalCompartment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::GetGlobalCompartment
+ - msctf/ITfThreadMgr2::GetGlobalCompartment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.GetGlobalCompartment
 ---
 
 # ITfThreadMgr2::GetGlobalCompartment
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the global compartment manager object.
-
 
 ## -parameters
 
-
-
-
 ### -param ppCompMgr [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a> interface that receives the global compartment manager.
-
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a> interface that receives the global compartment manager.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,18 +90,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

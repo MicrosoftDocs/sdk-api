@@ -2,15 +2,12 @@
 UID: NC:webservices.WS_ENCODER_START_CALLBACK
 title: WS_ENCODER_START_CALLBACK (webservices.h)
 description: Starts encoding a message.
+helpviewer_keywords: ["WS_ENCODER_START_CALLBACK","WS_ENCODER_START_CALLBACK callback","WS_ENCODER_START_CALLBACK callback function [Web Services for Windows]","webservices/WS_ENCODER_START_CALLBACK","wsw.ws_encoder_start_callback"]
 old-location: wsw\ws_encoder_start_callback.htm
 tech.root: wsw
 ms.assetid: 308e3d24-e3df-4dc8-a727-d3d8ebe8d5d4
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODER_START_CALLBACK, WS_ENCODER_START_CALLBACK callback, WS_ENCODER_START_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_START_CALLBACK, wsw.ws_encoder_start_callback
-f1_keywords:
-- webservices/WS_ENCODER_START_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_ENCODER_START_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_ENCODER_START_CALLBACK
+ - webservices/WS_ENCODER_START_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENCODER_START_CALLBACK
 ---
 
 # WS_ENCODER_START_CALLBACK callback function
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts encoding a message.
-            
-
 
 ## -parameters
 
+### -param encoderContext [in]
 
+The encoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
 
-
-### -param *encoderContext [in]
-
-The encoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
-                
-
-
-### -param *asyncContext [in, optional]
+### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
-                
 
-
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -119,18 +107,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The encoder can use the callback passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a> to
+The encoder can use the callback passed to <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a> to
               write the encoded data of the message.
-            
-
-
-

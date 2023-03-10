@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDVB_EIT2.GetRecordSection
 title: IDVB_EIT2::GetRecordSection (dvbsiparser.h)
 description: Gets the number of a section containing an event information table (EIT) record.
+helpviewer_keywords: ["GetRecordSection","GetRecordSection method [Microsoft TV Technologies]","GetRecordSection method [Microsoft TV Technologies]","IDVB_EIT2 interface","IDVB_EIT2 interface [Microsoft TV Technologies]","GetRecordSection method","IDVB_EIT2.GetRecordSection","IDVB_EIT2::GetRecordSection","dvbsiparser/IDVB_EIT2::GetRecordSection","mstv.idvb_eit2_getrecordsection"]
 old-location: mstv\idvb_eit2_getrecordsection.htm
 tech.root: mstv
 ms.assetid: 249c93f2-53d7-4110-9db3-34f3b0296b48
 ms.date: 12/05/2018
 ms.keywords: GetRecordSection, GetRecordSection method [Microsoft TV Technologies], GetRecordSection method [Microsoft TV Technologies],IDVB_EIT2 interface, IDVB_EIT2 interface [Microsoft TV Technologies],GetRecordSection method, IDVB_EIT2.GetRecordSection, IDVB_EIT2::GetRecordSection, dvbsiparser/IDVB_EIT2::GetRecordSection, mstv.idvb_eit2_getrecordsection
-f1_keywords:
-- dvbsiparser/IDVB_EIT2.GetRecordSection
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_EIT2.GetRecordSection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_EIT2::GetRecordSection
+ - dvbsiparser/IDVB_EIT2::GetRecordSection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_EIT2.GetRecordSection
 ---
 
 # IDVB_EIT2::GetRecordSection
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of a section containing an event information table (EIT) record.
-
 
 ## -parameters
 
-
-
-
 ### -param dwRecordIndex [in]
 
-The record number, indexed from 0. Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-getcountofrecords">IDVB_EIT::GetCountOfRecords</a> to get the number of records in the EIT.
-
+The record number, indexed from 0. Call <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-getcountofrecords">IDVB_EIT::GetCountOfRecords</a> to get the number of records in the EIT.
 
 ### -param pbVal [out]
 
 Receives the number of the section containing the specified record. A value of 0 indicates the present section; a value of 1 indicates the following section.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,23 +111,12 @@ Index out of bounds.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-initialize">Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_eit-initialize">Initialize</a> method was not called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit2">IDVB_EIT2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit2">IDVB_EIT2</a>

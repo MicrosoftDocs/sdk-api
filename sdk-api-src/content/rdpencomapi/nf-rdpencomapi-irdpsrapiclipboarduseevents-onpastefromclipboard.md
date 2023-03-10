@@ -2,15 +2,12 @@
 UID: NF:rdpencomapi.IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard (rdpencomapi.h)
 description: This callback is issued when an attempt to copy data from the sharer computer is made.
+helpviewer_keywords: ["IRDPSRAPIClipboardUseEvents interface [RDP]","OnPasteFromClipboard method","IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard","IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard","OnPasteFromClipboard","OnPasteFromClipboard method [RDP]","OnPasteFromClipboard method [RDP]","IRDPSRAPIClipboardUseEvents interface","rdp.irdpsrapiclipboarduseevents_onpastefromclipboard","rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard"]
 old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
 tech.root: rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents interface [RDP],OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP],IRDPSRAPIClipboardUseEvents interface, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
-f1_keywords:
-- rdpencomapi/IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncomAPI.h
-api_name:
-- IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
+ - rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncomAPI.h
+api_name:
+ - IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 ---
 
 # IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 This callback is issued when an attempt to copy data from the sharer computer is made.
-
 
 ## -parameters
 
-
-
-
 ### -param clipboardFormat [in]
 
-A clipboard format identifier. For more information about clipboard formats, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a>.
-
+A clipboard format identifier. For more information about clipboard formats, see <a href="/windows/desktop/dataxchg/clipboard-formats">Clipboard Formats</a>. For a list of clipboard format identifiers, see <a href="/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a>.
 
 ### -param pAttendee [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a> instance for the attendee who attempted the clipboard copy. 
-
+A pointer to the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a> instance for the attendee who attempted the clipboard copy.
 
 ### -param pRetVal [out, retval]
 
@@ -99,29 +94,15 @@ The clipboard copy attempt should not be allowed.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiclipboarduseevents">IRDPSRAPIClipboardUseEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiclipboarduseevents">IRDPSRAPIClipboardUseEvents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisessionproperties-get_property">Property</a>

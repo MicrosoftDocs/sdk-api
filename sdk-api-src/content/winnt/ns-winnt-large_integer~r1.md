@@ -1,12 +1,9 @@
 ---
 UID: NS:winnt._LARGE_INTEGER~r1
 title: LARGE_INTEGER
-ms.date: 01/30/19
+description: The LARGE_INTEGER structure represents a 64-bit signed integer value. (LARGE_INTEGER union (winnt.h))
+ms.date: 08/03/2022
 ms.keywords: _LARGE_INTEGER, LARGE_INTEGER
-f1_keywords:
-- winnt/_LARGE_INTEGER
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -17,21 +14,28 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: LARGE_INTEGER
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - _LARGE_INTEGER
+ - winnt/_LARGE_INTEGER
+ - LARGE_INTEGER
+ - winnt/LARGE_INTEGER
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- winnt.h
+ - winnt.h
 api_name:
-- _LARGE_INTEGER
-- LARGE_INTEGER
+ - _LARGE_INTEGER
+ - LARGE_INTEGER
 ---
 
 # LARGE_INTEGER structure
@@ -40,8 +44,7 @@ api_name:
 ## -description
 
 Represents a 64-bit signed integer value.
-<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://docs.microsoft.com/windows/desktop/Midl/--int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
-
+<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="/windows/desktop/Midl/--int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
 ## -struct-fields
 
@@ -51,11 +54,9 @@ Represents a 64-bit signed integer value.
 
 The low-order 32 bits.
 
-
 ### -field HighPart
 
 The high-order 32 bits.
-
 
 ### -field u
 
@@ -63,13 +64,10 @@ The high-order 32 bits.
 
 A signed 64-bit integer.
 
-
 ## -remarks
 
 The <b>LARGE_INTEGER</b> structure is actually a union. If your compiler has built-in support for 64-bit integers, use the <b>QuadPart</b> member to store the 64-bit integer. Otherwise, use the <b>LowPart</b> and <b>HighPart</b> members to store the 64-bit integer.
 
-
 ## -see-also
 
-
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>

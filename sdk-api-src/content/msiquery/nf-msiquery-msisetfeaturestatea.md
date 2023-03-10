@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiSetFeatureStateA
 title: MsiSetFeatureStateA function (msiquery.h)
-description: The MsiSetFeatureState function sets a feature to a specified state.
+description: The MsiSetFeatureState function sets a feature to a specified state. (ANSI)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_ADVERTISED", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MsiSetFeatureStateA", "msiquery/MsiSetFeatureStateA"]
 old-location: setup\msisetfeaturestate.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c7b22484-5a89-44f2-b0ff-6061a7fc5703
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiSetFeatureState, MsiSetFeatureState function, MsiSetFeatureStateA, MsiSetFeatureStateW, _msi_msisetfeaturestate, msiquery/MsiSetFeatureState, msiquery/MsiSetFeatureStateA, msiquery/MsiSetFeatureStateW, setup.msisetfeaturestate
-f1_keywords:
-- msiquery/MsiSetFeatureState
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSetFeatureState
-- MsiSetFeatureStateA
-- MsiSetFeatureStateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSetFeatureStateA
+ - msiquery/MsiSetFeatureStateA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSetFeatureState
+ - MsiSetFeatureStateA
+ - MsiSetFeatureStateW
 ---
 
 # MsiSetFeatureStateA function
@@ -50,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSetFeatureState</b> function sets a feature to a specified state.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szFeature [in]
 
 Specifies the name of the feature.
-
 
 ### -param iState [in]
 
@@ -120,32 +115,23 @@ The feature is advertised.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>MsiSetFeatureState</b> function returns the following values:
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiSetFeatureState</b> function requests a change in the select state of a feature in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature</a> table and its children. In turn, the action state of all the components linked to the changed feature records are also updated appropriately, based on the new feature select state.
+<a href="/windows/desktop/Msi/feature-table">Feature</a> table and its children. In turn, the action state of all the components linked to the changed feature records are also updated appropriately, based on the new feature select state.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msisetinstalllevel">MsiSetInstallLevel</a> function must be called before calling 
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msisetinstalllevel">MsiSetInstallLevel</a> function must be called before calling 
 <b>MsiSetFeatureState</b>.
 
-When <b>MsiSetFeatureState</b> is called, the installer attempts to set the action state of each component tied to the specified feature to the specified state. However, there are common situations when the request cannot be fully implemented. For example, if a feature is tied to two components, component A and component B, through the <a href="https://docs.microsoft.com/windows/desktop/Msi/featurecomponents-table">FeatureComponents</a> table, and component A has the <b>msidbComponentAttributesLocalOnly</b> attribute and component B has the <b>msidbComponentAttributesSourceOnly</b> attribute. In this case, if <b>MsiSetFeatureState</b> is called with a requested state of either INSTALLSTATE_LOCAL or INSTALLSTATE_SOURCE, the request cannot be fully implemented for both components. In this case, both components are turned ON, with component A set to Local and component B set to Source.
+When <b>MsiSetFeatureState</b> is called, the installer attempts to set the action state of each component tied to the specified feature to the specified state. However, there are common situations when the request cannot be fully implemented. For example, if a feature is tied to two components, component A and component B, through the <a href="/windows/desktop/Msi/featurecomponents-table">FeatureComponents</a> table, and component A has the <b>msidbComponentAttributesLocalOnly</b> attribute and component B has the <b>msidbComponentAttributesSourceOnly</b> attribute. In this case, if <b>MsiSetFeatureState</b> is called with a requested state of either INSTALLSTATE_LOCAL or INSTALLSTATE_SOURCE, the request cannot be fully implemented for both components. In this case, both components are turned ON, with component A set to Local and component B set to Source.
 
 If more than one feature is linked to a single component (a common scenario), the final action state of that component is determined as follows:
 
@@ -155,20 +141,17 @@ If more than one feature is linked to a single component (a common scenario), th
 <li>If at least one feature requires the removal of the component, the action state is absent.</li>
 </ul>
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions from Programs</a>.
+<a href="/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions from Programs</a>.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiSetFeatureState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/database-functions">Installer Selection Functions</a>

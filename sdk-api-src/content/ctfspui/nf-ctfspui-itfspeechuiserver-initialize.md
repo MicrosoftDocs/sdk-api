@@ -2,15 +2,12 @@
 UID: NF:ctfspui.ITfSpeechUIServer.Initialize
 title: ITfSpeechUIServer::Initialize (ctfspui.h)
 description: ITfSpeechUIServer::Initialize method
+helpviewer_keywords: ["ITfSpeechUIServer interface [Text Services Framework]","Initialize method","ITfSpeechUIServer.Initialize","ITfSpeechUIServer::Initialize","Initialize","Initialize method [Text Services Framework]","Initialize method [Text Services Framework]","ITfSpeechUIServer interface","ctfspui/ITfSpeechUIServer::Initialize","tsf.itfspeechuiserver_initialize"]
 old-location: tsf\itfspeechuiserver_initialize.htm
 tech.root: TSF
 ms.assetid: 5a51b8c7-3d29-4566-8cfa-f76dfd067aa8
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],Initialize method, ITfSpeechUIServer.Initialize, ITfSpeechUIServer::Initialize, Initialize, Initialize method [Text Services Framework], Initialize method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::Initialize, tsf.itfspeechuiserver_initialize
-f1_keywords:
-- ctfspui/ITfSpeechUIServer.Initialize
-dev_langs:
-- c++
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sptip.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sptip.dll
-api_name:
-- ITfSpeechUIServer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSpeechUIServer::Initialize
+ - ctfspui/ITfSpeechUIServer::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sptip.dll
+api_name:
+ - ITfSpeechUIServer.Initialize
 ---
 
 # ITfSpeechUIServer::Initialize
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-## -parameters
-
-
-
+Initializes the speech-related user interface elements on the TSF language bar.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,28 +75,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="https://docs.microsoft.com/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
-
-
-
+The standard speech text service usually initializes the speech-related user interface on the TSF language bar. When a TSF-enabled application, that does not use the speech text service, requires use of the <a href="/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer</a> interface, it initializes the user interface with this method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
+<a href="/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
       </a>
- 
-
- 
-

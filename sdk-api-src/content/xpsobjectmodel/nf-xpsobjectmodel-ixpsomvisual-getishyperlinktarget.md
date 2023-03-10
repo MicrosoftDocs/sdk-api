@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetIsHyperlinkTarget
 title: IXpsOMVisual::GetIsHyperlinkTarget (xpsobjectmodel.h)
 description: Gets a value that indicates whether the visual is the target of a hyperlink.
+helpviewer_keywords: ["FALSE","GetIsHyperlinkTarget","GetIsHyperlinkTarget method [XPS Documents and Packaging]","GetIsHyperlinkTarget method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetIsHyperlinkTarget method","IXpsOMVisual.GetIsHyperlinkTarget","IXpsOMVisual::GetIsHyperlinkTarget","TRUE","xps.ixpsomvisual_getishyperlinktarget","xpsobjectmodel/IXpsOMVisual::GetIsHyperlinkTarget"]
 old-location: xps\ixpsomvisual_getishyperlinktarget.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: bd6047a6-d6ba-4c62-8f4c-0348e3281d75
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsHyperlinkTarget, GetIsHyperlinkTarget method [XPS Documents and Packaging], GetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetIsHyperlinkTarget method, IXpsOMVisual.GetIsHyperlinkTarget, IXpsOMVisual::GetIsHyperlinkTarget, TRUE, xps.ixpsomvisual_getishyperlinktarget, xpsobjectmodel/IXpsOMVisual::GetIsHyperlinkTarget
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.GetIsHyperlinkTarget
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.GetIsHyperlinkTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::GetIsHyperlinkTarget
+ - xpsobjectmodel/IXpsOMVisual::GetIsHyperlinkTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.GetIsHyperlinkTarget
 ---
 
 # IXpsOMVisual::GetIsHyperlinkTarget
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value that indicates whether the visual is the target of a hyperlink.
 
-
 ## -parameters
-
-
-
 
 ### -param isHyperlink [out, retval]
 
@@ -87,14 +84,10 @@ The visual is not the target of a hyperlink.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -124,26 +117,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

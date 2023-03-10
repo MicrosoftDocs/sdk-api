@@ -2,15 +2,12 @@
 UID: NE:codecapi.eAVEncDDSurroundExMode
 title: eAVEncDDSurroundExMode (codecapi.h)
 description: Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This enumeration is used with the AVEncDDSurroundExMode property.
+helpviewer_keywords: ["codecapi/eAVEncDDSurroundExMode","codecapi/eAVEncDDSurroundExMode_No","codecapi/eAVEncDDSurroundExMode_NotIndicated","codecapi/eAVEncDDSurroundExMode_Yes","dshow.eavencddsurroundexmode","eAVEncDDSurroundExMode","eAVEncDDSurroundExMode enumeration [DirectShow]","eAVEncDDSurroundExModeEnumeration","eAVEncDDSurroundExMode_No","eAVEncDDSurroundExMode_NotIndicated","eAVEncDDSurroundExMode_Yes"]
 old-location: dshow\eavencddsurroundexmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 067614ca-c32d-4160-ae77-4e6c3dbafdf0
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDSurroundExMode, codecapi/eAVEncDDSurroundExMode_No, codecapi/eAVEncDDSurroundExMode_NotIndicated, codecapi/eAVEncDDSurroundExMode_Yes, dshow.eavencddsurroundexmode, eAVEncDDSurroundExMode, eAVEncDDSurroundExMode enumeration [DirectShow], eAVEncDDSurroundExModeEnumeration, eAVEncDDSurroundExMode_No, eAVEncDDSurroundExMode_NotIndicated, eAVEncDDSurroundExMode_Yes
-f1_keywords:
-- codecapi/eAVEncDDSurroundExMode
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVEncDDSurroundExMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVEncDDSurroundExMode
+ - codecapi/eAVEncDDSurroundExMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVEncDDSurroundExMode
 ---
 
 # eAVEncDDSurroundExMode enumeration
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencddsurroundexmode-property">AVEncDDSurroundExMode</a> property.
-
-
-
+Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddsurroundexmode-property">AVEncDDSurroundExMode</a> property.
 
 ## -enum-fields
 
-
-
-
-### -field eAVEncDDSurroundExMode_NotIndicated
+### -field eAVEncDDSurroundExMode_NotIndicated:0
 
 The Surround EX mode is not indicated.
 
-
-### -field eAVEncDDSurroundExMode_No
+### -field eAVEncDDSurroundExMode_No:1
 
 The audio is not encoded in Surround EX.
 
-
-### -field eAVEncDDSurroundExMode_Yes
+### -field eAVEncDDSurroundExMode_Yes:2
 
 The audio is encoded in Surround EX.
 
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

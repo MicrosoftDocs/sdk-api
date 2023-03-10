@@ -2,15 +2,12 @@
 UID: NF:interactioncontext.SetCrossSlideParametersInteractionContext
 title: SetCrossSlideParametersInteractionContext function (interactioncontext.h)
 description: Configures the cross-slide interaction.
+helpviewer_keywords: ["SetCrossSlideParametersInteractionContext","SetCrossSlideParametersInteractionContext function","input_intcontext.setcrossslideparametersinteractioncontext","interactioncontext.setcrossslideparametersinteractioncontext","interactioncontext/SetCrossSlideParametersInteractionContext"]
 old-location: input_intcontext\setcrossslideparametersinteractioncontext.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: b4d9459a-7b07-4316-bf5c-628de08de7dc
 ms.date: 12/05/2018
 ms.keywords: SetCrossSlideParametersInteractionContext, SetCrossSlideParametersInteractionContext function, input_intcontext.setcrossslideparametersinteractioncontext, interactioncontext.setcrossslideparametersinteractioncontext, interactioncontext/SetCrossSlideParametersInteractionContext
-f1_keywords:
-- interactioncontext/SetCrossSlideParametersInteractionContext
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ninput.dll
-api_name:
-- SetCrossSlideParametersInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetCrossSlideParametersInteractionContext
+ - interactioncontext/SetCrossSlideParametersInteractionContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ninput.dll
+api_name:
+ - SetCrossSlideParametersInteractionContext
 ---
 
 # SetCrossSlideParametersInteractionContext function
@@ -48,46 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-Configures the cross-slide interaction. 
-
+Configures the cross-slide interaction.
 
 ## -parameters
-
-
-
 
 ### -param interactionContext [in]
 
 The handle of the interaction context.
 
-
 ### -param parameterCount [in]
 
 Number of parameters to set.
-
 
 ### -param crossSlideParameters [in]
 
 The cross-slide threshold and its distance threshold.
 
-
 ## -returns
-
-
 
 If this function succeeds, it returns S_OK.
  
 Otherwise, it returns an HRESULT error code.
 
-
-
-
 ## -remarks
 
-
-
-<b>SetCrossSlideParametersInteractionContext</b> fails if a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a> is enabled, but not specified  in the <i>crossSlideParameters</i> parameter.
+<b>SetCrossSlideParametersInteractionContext</b> fails if a <a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a> is enabled, but not specified  in the <i>crossSlideParameters</i> parameter.
 
 
 #### Examples
@@ -117,29 +104,18 @@ SetCrossSlideParametersInteractionContext(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-cross_slide_parameter">CROSS_SLIDE_PARAMETER</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getcrossslideparameterinteractioncontext">GetCrossSlideParameterInteractionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getcrossslideparameterinteractioncontext">GetCrossSlideParameterInteractionContext</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignatureId
 title: IXpsSigningOptions::SetSignatureId (xpsdigitalsignature.h)
-description: Sets the value of the Id attribute of the Signature element.
+description: Sets the value of the Id attribute of the Signature element. (IXpsSigningOptions.SetSignatureId)
+helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetSignatureId method","IXpsSigningOptions.SetSignatureId","IXpsSigningOptions::SetSignatureId","SetSignatureId","SetSignatureId method [XPS Documents and Packaging]","SetSignatureId method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setsignatureid","xpsdigitalsignature/IXpsSigningOptions::SetSignatureId"]
 old-location: xps\ixpssigningoptions_setsignatureid.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 314199f2-15bc-4ede-b18c-96c1dbfe5367
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureId method, IXpsSigningOptions.SetSignatureId, IXpsSigningOptions::SetSignatureId, SetSignatureId, SetSignatureId method [XPS Documents and Packaging], SetSignatureId method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignatureid, xpsdigitalsignature/IXpsSigningOptions::SetSignatureId
-f1_keywords:
-- xpsdigitalsignature/IXpsSigningOptions.SetSignatureId
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSigningOptions.SetSignatureId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSigningOptions::SetSignatureId
+ - xpsdigitalsignature/IXpsSigningOptions::SetSignatureId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSigningOptions.SetSignatureId
 ---
 
 # IXpsSigningOptions::SetSignatureId
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the value of the <b>Id</b> attribute of the <b>Signature</b> element.
 
-
 ## -parameters
-
-
-
 
 ### -param signatureId [in]
 
 The string value to be set as the <b>Id</b> attribute of the <b>Signature</b> element.  If this parameter is <b>NULL</b>, the <b>Id</b> attribute is cleared.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a>
+<a href="/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

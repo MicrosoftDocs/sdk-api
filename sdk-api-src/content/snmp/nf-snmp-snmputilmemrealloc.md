@@ -2,15 +2,12 @@
 UID: NF:snmp.SnmpUtilMemReAlloc
 title: SnmpUtilMemReAlloc function (snmp.h)
 description: The SnmpUtilMemReAlloc function changes the size of the specified memory object. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilMemReAlloc","SnmpUtilMemReAlloc function [SNMP]","_snmp_snmputilmemrealloc","snmp.snmputilmemrealloc","snmp/SnmpUtilMemReAlloc"]
 old-location: snmp\snmputilmemrealloc.htm
 tech.root: SNMP
 ms.assetid: 269b6f57-cdef-476a-bf38-f35535d15999
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilMemReAlloc, SnmpUtilMemReAlloc function [SNMP], _snmp_snmputilmemrealloc, snmp.snmputilmemrealloc, snmp/SnmpUtilMemReAlloc
-f1_keywords:
-- snmp/SnmpUtilMemReAlloc
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Snmpapi.dll
-api_name:
-- SnmpUtilMemReAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpUtilMemReAlloc
+ - snmp/SnmpUtilMemReAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Snmpapi.dll
+api_name:
+ - SnmpUtilMemReAlloc
 ---
 
 # SnmpUtilMemReAlloc function
@@ -48,69 +50,45 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilMemReAlloc</b> function changes the size of the specified memory object. This function is an element of the SNMP Utility API.
 
-
 ## -parameters
-
-
-
 
 ### -param pMem [in]
 
 Pointer to the memory object to resize.
 
-
 ### -param nBytes [in]
 
 Specifies the number of bytes to allocate for the new memory object.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the newly allocated memory object.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
 
-
-
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a> function to release memory that the 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a> function to release memory that the 
 <b>SnmpUtilMemReAlloc</b> function allocates.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a>
- 
-
- 
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemfree">SnmpUtilMemFree</a>

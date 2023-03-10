@@ -2,15 +2,12 @@
 UID: NF:mgm.MgmGetMfe
 title: MgmGetMfe function (mgm.h)
 description: The MgmGetMfe function retrieves a specific MFE.
+helpviewer_keywords: ["MgmGetMfe","MgmGetMfe function [RAS]","_mpr_mgmgetmfe","mgm/MgmGetMfe","rras.mgmgetmfe"]
 old-location: rras\mgmgetmfe.htm
 tech.root: RRAS
 ms.assetid: 15b1b096-9044-4983-9039-e7a13c2cca25
 ms.date: 12/05/2018
 ms.keywords: MgmGetMfe, MgmGetMfe function [RAS], _mpr_mgmgetmfe, mgm/MgmGetMfe, rras.mgmgetmfe
-f1_keywords:
-- mgm/MgmGetMfe
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmGetMfe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmGetMfe
+ - mgm/MgmGetMfe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmGetMfe
 ---
 
 # MgmGetMfe function
@@ -48,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmGetMfe</b> function retrieves a specific MFE.
 
-
 ## -parameters
-
-
-
 
 ### -param pimm [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE to retrieve. The information to be returned is indicated by the <b>dwSource</b> and <b>dwGroup</b> members of the 
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure that specifies the MFE to retrieve. The information to be returned is indicated by the <b>dwSource</b> and <b>dwGroup</b> members of the 
 <b>MIB_IPMCAST_MFE</b> structure.
-
 
 ### -param pdwBufferSize [in, out]
 
@@ -74,7 +70,6 @@ On input, <i>pdwBufferSize</i> is a pointer to a <b>DWORD</b>-sized memory locat
 
 On output, if the return value is ERROR_INSUFFICIENT_BUFFER, <i>pdwBufferSize</i> receives the minimum size the buffer pointed to by <i>pbBuffer</i> must be to hold the MFE; otherwise the value of <i>pdwBufferSize</i> remains unchanged.
 
-
 ### -param pbBuffer [in, out]
 
 On input, the client must supply a pointer to a buffer. 
@@ -83,12 +78,9 @@ On input, the client must supply a pointer to a buffer.
 
 
 On output, <i>pbBuffer</i> contains the specified MFE. The MFE is a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure.
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a> structure.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -133,26 +125,15 @@ The specified MFE was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe">MIB_IPMCAST_MFE</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfe">MgmGetFirstMfe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetfirstmfe">MgmGetFirstMfe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfe">MgmGetNextMfe</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetnextmfe">MgmGetNextMfe</a>

@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomation.GetPropertyProgrammaticName
 title: IUIAutomation::GetPropertyProgrammaticName (uiautomationclient.h)
 description: Retrieves the registered programmatic name of a property.
+helpviewer_keywords: ["GetPropertyProgrammaticName","GetPropertyProgrammaticName method [Windows Accessibility]","GetPropertyProgrammaticName method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","GetPropertyProgrammaticName method","IUIAutomation.GetPropertyProgrammaticName","IUIAutomation::GetPropertyProgrammaticName","uiauto.uiauto_IUIAutomation_GetPropertyProgrammaticName","uiauto_IUIAutomation_GetPropertyProgrammaticName","uiautomationclient/IUIAutomation::GetPropertyProgrammaticName","winauto.uiauto_IUIAutomation_GetPropertyProgrammaticName"]
 old-location: winauto\uiauto_IUIAutomation_GetPropertyProgrammaticName.htm
 tech.root: WinAuto
 ms.assetid: f4472de0-7194-411d-a508-a5d81aba8b7d
 ms.date: 12/05/2018
 ms.keywords: GetPropertyProgrammaticName, GetPropertyProgrammaticName method [Windows Accessibility], GetPropertyProgrammaticName method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetPropertyProgrammaticName method, IUIAutomation.GetPropertyProgrammaticName, IUIAutomation::GetPropertyProgrammaticName, uiauto.uiauto_IUIAutomation_GetPropertyProgrammaticName, uiauto_IUIAutomation_GetPropertyProgrammaticName, uiautomationclient/IUIAutomation::GetPropertyProgrammaticName, winauto.uiauto_IUIAutomation_GetPropertyProgrammaticName
-f1_keywords:
-- uiautomationclient/IUIAutomation.GetPropertyProgrammaticName
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation.GetPropertyProgrammaticName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation::GetPropertyProgrammaticName
+ - uiautomationclient/IUIAutomation::GetPropertyProgrammaticName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation.GetPropertyProgrammaticName
 ---
 
 # IUIAutomation::GetPropertyProgrammaticName
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the registered programmatic name of a property.
 
-
 ## -parameters
-
-
-
 
 ### -param property [in]
 
 Type: <b>PROPERTYID</b>
 
-The property identifier.  For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
-
+The property identifier.  For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -param name [out, retval]
 
@@ -70,25 +66,14 @@ Type: <b>BSTR*</b>
 
 Receives the registered programmatic name.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The programmatic name is intended for debugging and diagnostic purposes only. The string is not localized.
 
 This property should not be used in string comparisons. To determine whether two properties are the same, compare the property identifiers directly.
-
-
-

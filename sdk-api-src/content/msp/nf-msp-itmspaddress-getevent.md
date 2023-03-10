@@ -1,16 +1,13 @@
 ---
 UID: NF:msp.ITMSPAddress.GetEvent
 title: ITMSPAddress::GetEvent (msp.h)
-description: Retrieves event information.
+description: The ITMSPAddress::GetEvent (msp.h) method retrieves event information.
+helpviewer_keywords: ["GetEvent","GetEvent method [TAPI 2.2]","GetEvent method [TAPI 2.2]","ITMSPAddress interface","ITMSPAddress interface [TAPI 2.2]","GetEvent method","ITMSPAddress.GetEvent","ITMSPAddress::GetEvent","_tapi3_itmspaddress_getevent","msp/ITMSPAddress::GetEvent","tapi3.itmspaddress_getevent"]
 old-location: tapi3\itmspaddress_getevent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: df5263f2-9d76-472d-b7fc-724d36f0b58f
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: GetEvent, GetEvent method [TAPI 2.2], GetEvent method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],GetEvent method, ITMSPAddress.GetEvent, ITMSPAddress::GetEvent, _tapi3_itmspaddress_getevent, msp/ITMSPAddress::GetEvent, tapi3.itmspaddress_getevent
-f1_keywords:
-- msp/ITMSPAddress.GetEvent
-dev_langs:
-- c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msp.h
-api_name:
-- ITMSPAddress.GetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITMSPAddress::GetEvent
+ - msp/ITMSPAddress::GetEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msp.h
+api_name:
+ - ITMSPAddress.GetEvent
 ---
 
 # ITMSPAddress::GetEvent
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetEvent</b> method retrieves event information.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwSize [in, out]
 
 A pointer to a DWORD that contains the size, in bytes, of <i>pEventBuffer</i>.   On success, <i>pdwSize</i> returns the actual number of bytes in  <i>pEventBuffer</i>. If <i>pEventBuffer</i> is not large enough, the method returns <b>TAPI_E_NOTENOUGHMEMORY</b> and 
     this parameter returns the number, in bytes, required.
 
-
 ### -param pEventBuffer
 
 [in, out, size_is(*<i>pdwSize</i>)] A pointer to buffer that contains 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ns-msp-msp_event_info">MSP event_info</a> information.
-
+<a href="/windows/win32/api/msp/ns-msp-msp_event_info">MSP event_info</a> information.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -148,33 +141,17 @@ No event has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 TAPI3 calls this method when the event handle given in initialize is signaled. TAPI will call this method repeatedly until it fails so it can get multiple events. Each call should return only one event structure.
 
 Users of the MSP base classes: This method locks the event list.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

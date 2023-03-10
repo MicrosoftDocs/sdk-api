@@ -1,16 +1,13 @@
 ---
 UID: NS:winsvc._SERVICE_REQUIRED_PRIVILEGES_INFOA
 title: SERVICE_REQUIRED_PRIVILEGES_INFOA (winsvc.h)
-description: Represents the required privileges for a service.
+description: Represents the required privileges for a service. (ANSI)
+helpviewer_keywords: ["*LPSERVICE_REQUIRED_PRIVILEGES_INFOA","LPSERVICE_REQUIRED_PRIVILEGES_INFO","LPSERVICE_REQUIRED_PRIVILEGES_INFO structure pointer","SERVICE_REQUIRED_PRIVILEGES_INFO","SERVICE_REQUIRED_PRIVILEGES_INFO structure","SERVICE_REQUIRED_PRIVILEGES_INFOA","SERVICE_REQUIRED_PRIVILEGES_INFOW","base.service_required_privileges_info","winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA","winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW"]
 old-location: base\service_required_privileges_info.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 15a2e042-cfd5-443e-a3b8-822f48eb9654
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_REQUIRED_PRIVILEGES_INFOA, LPSERVICE_REQUIRED_PRIVILEGES_INFO, LPSERVICE_REQUIRED_PRIVILEGES_INFO structure pointer, SERVICE_REQUIRED_PRIVILEGES_INFO, SERVICE_REQUIRED_PRIVILEGES_INFO structure, SERVICE_REQUIRED_PRIVILEGES_INFOA, SERVICE_REQUIRED_PRIVILEGES_INFOW, base.service_required_privileges_info, winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFO, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA, winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOW'
-f1_keywords:
-- winsvc/SERVICE_REQUIRED_PRIVILEGES_INFO
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_REQUIRED_PRIVILEGES_INFO
-- SERVICE_REQUIRED_PRIVILEGES_INFOA
-- SERVICE_REQUIRED_PRIVILEGES_INFOW
 targetos: Windows
 req.typenames: SERVICE_REQUIRED_PRIVILEGES_INFOA, *LPSERVICE_REQUIRED_PRIVILEGES_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_REQUIRED_PRIVILEGES_INFOA
+ - winsvc/_SERVICE_REQUIRED_PRIVILEGES_INFOA
+ - LPSERVICE_REQUIRED_PRIVILEGES_INFOA
+ - winsvc/LPSERVICE_REQUIRED_PRIVILEGES_INFOA
+ - SERVICE_REQUIRED_PRIVILEGES_INFOA
+ - winsvc/SERVICE_REQUIRED_PRIVILEGES_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_REQUIRED_PRIVILEGES_INFO
+ - SERVICE_REQUIRED_PRIVILEGES_INFOA
+ - SERVICE_REQUIRED_PRIVILEGES_INFOW
 ---
 
 # SERVICE_REQUIRED_PRIVILEGES_INFOA structure
@@ -50,25 +56,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the required privileges for a service.
-
 
 ## -struct-fields
 
-
-
-
 ### -field pmszRequiredPrivileges
 
-A multi-string that specifies the privileges. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
+A multi-string that specifies the privileges. For a list of possible values, see <a href="/windows/desktop/SecAuthZ/privilege-constants">Privilege Constants</a>.
 
 A multi-string is a sequence of null-terminated strings, terminated by an empty string (\0). The following is an example: <code>String1\0String2\0String3\0LastString\0\0</code>.
 
-
 ## -remarks
-
-
 
 The change in required privileges takes effect the next time the service is started. The SCM determines whether the service can support the specified privileges when it attempts to start the service.
 
@@ -81,17 +79,14 @@ For compatibility, the SeChangeNotifyPrivilege privilege is never removed from a
 
 
 
+
+> [!NOTE]
+> The winsvc.h header defines SERVICE_REQUIRED_PRIVILEGES_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>

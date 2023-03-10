@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.GetTabCount
 title: ITextPara::GetTabCount (tom.h)
 description: Retrieves the tab count.
+helpviewer_keywords: ["GetTabCount","GetTabCount method [Windows Controls]","GetTabCount method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetTabCount method","ITextPara.GetTabCount","ITextPara::GetTabCount","_win32_ITextPara_GetTabCount","_win32_ITextPara_GetTabCount_cpp","controls.ITextPara_GetTabCount","controls._win32_ITextPara_GetTabCount","tom/ITextPara::GetTabCount"]
 old-location: controls\ITextPara_GetTabCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettabcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetTabCount, GetTabCount method [Windows Controls], GetTabCount method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetTabCount method, ITextPara.GetTabCount, ITextPara::GetTabCount, _win32_ITextPara_GetTabCount, _win32_ITextPara_GetTabCount_cpp, controls.ITextPara_GetTabCount, controls._win32_ITextPara_GetTabCount, tom/ITextPara::GetTabCount
-f1_keywords:
-- tom/ITextPara.GetTabCount
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetTabCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetTabCount
+ - tom/ITextPara::GetTabCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetTabCount
 ---
 
 # ITextPara::GetTabCount
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the tab count. 
-
+Retrieves the tab count.
 
 ## -parameters
-
-
-
 
 ### -param pCount
 
 Type: <b>long*</b>
 
-The tab count. 
-
+The tab count.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetTabCount</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetTabCount</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -111,30 +105,18 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The tab count of a new instance can be nonzero, depending on the underlying text engine. For example, Microsoft Word stories begin with no explicit tabs defined, while rich edit instances start with a single explicit tab. To be sure there are no explicit tabs (that is, to set the tab count to zero), call <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ITextPara::ClearAllTabs</a>.
-
-
-
+The tab count of a new instance can be nonzero, depending on the underlying text engine. For example, Microsoft Word stories begin with no explicit tabs defined, while rich edit instances start with a single explicit tab. To be sure there are no explicit tabs (that is, to set the tab count to zero), call <a href="/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ITextPara::ClearAllTabs</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
 
 
 
@@ -142,19 +124,19 @@ The tab count of a new instance can be nonzero, depending on the underlying text
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -162,12 +144,8 @@ The tab count of a new instance can be nonzero, depending on the underlying text
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext6.BlendImage
 title: ID2D1DeviceContext6::BlendImage (d2d1_3.h)
-description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect.
+description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect. (ID2D1DeviceContext6.BlendImage)
+helpviewer_keywords: ["BlendImage","BlendImage method [Direct2D]","BlendImage method [Direct2D]","ID2D1DeviceContext6 interface","ID2D1DeviceContext6 interface [Direct2D]","BlendImage method","ID2D1DeviceContext6.BlendImage","ID2D1DeviceContext6::BlendImage","d2d1_3/ID2D1DeviceContext6::BlendImage","direct2d.id2d1devicecontext6_blendimage"]
 old-location: direct2d\id2d1devicecontext6_blendimage.htm
 tech.root: Direct2D
 ms.assetid: 598E98CA-3485-4188-84F0-DD711461AE44
 ms.date: 12/05/2018
 ms.keywords: BlendImage, BlendImage method [Direct2D], BlendImage method [Direct2D],ID2D1DeviceContext6 interface, ID2D1DeviceContext6 interface [Direct2D],BlendImage method, ID2D1DeviceContext6.BlendImage, ID2D1DeviceContext6::BlendImage, d2d1_3/ID2D1DeviceContext6::BlendImage, direct2d.id2d1devicecontext6_blendimage
-f1_keywords:
-- d2d1_3/ID2D1DeviceContext6.BlendImage
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext6.BlendImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext6::BlendImage
+ - d2d1_3/ID2D1DeviceContext6::BlendImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext6.BlendImage
 ---
 
 # ID2D1DeviceContext6::BlendImage
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws an image to the device context using the specified blend mode. 
-        Results are equivalent to using Direct2D's built-in <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend effect</a>.
-
+        Results are equivalent to using Direct2D's built-in <a href="/windows/desktop/Direct2D/blend">Blend effect</a>.
 
 ## -parameters
-
-
-
 
 ### -param image [in]
 
@@ -64,13 +61,11 @@ Type: <b>ID2D1Image*</b>
 
 The image to be drawn to the device context.
 
-
 ### -param blendMode
 
 Type: <b>D2D1_BLEND_MODE</b>
 
-The blend mode to be used. See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">Blend modes</a> for more info.
-
+The blend mode to be used. See <a href="/windows/desktop/Direct2D/blend">Blend modes</a> for more info.
 
 ### -param targetOffset [in, optional]
 
@@ -82,13 +77,11 @@ The offset in the destination space that the image will be rendered to.
             The top-left corner of the image will be mapped to the target offset. 
             This will not necessarily be the origin. The default value is NULL.
 
-
 ### -param imageRectangle [in, optional]
 
 Type: <b>const D2D1_RECT_F*</b>
 
 The corresponding rectangle in the image space will be mapped to the given origins when processing the image. The default value is NULL.
-
 
 ### -param interpolationMode
 
@@ -96,23 +89,6 @@ Type: <b>D2D1_INTERPOLATION_MODE</b>
 
 The interpolation mode that will be used to scale the image if necessary. The default value is D2D1_INTERPOLATION_MODE_LINEAR.
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext6">ID2D1DeviceContext6</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext6">ID2D1DeviceContext6</a>

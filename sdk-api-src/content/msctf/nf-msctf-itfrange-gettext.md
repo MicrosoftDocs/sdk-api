@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfRange.GetText
 title: ITfRange::GetText (msctf.h)
 description: The ITfRange::GetText method obtains the content covered by this range of text.
+helpviewer_keywords: ["GetText","GetText method [Text Services Framework]","GetText method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","GetText method","ITfRange.GetText","ITfRange::GetText","TF_TF_IGNOREEND","TF_TF_MOVESTART","_tsf_itfrange_gettext_ref","msctf/ITfRange::GetText","tsf.itfrange_gettext"]
 old-location: tsf\itfrange_gettext.htm
 tech.root: TSF
 ms.assetid: b38a8de3-947f-469c-9f0d-f0482ea86884
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetText method, ITfRange.GetText, ITfRange::GetText, TF_TF_IGNOREEND, TF_TF_MOVESTART, _tsf_itfrange_gettext_ref, msctf/ITfRange::GetText, tsf.itfrange_gettext
-f1_keywords:
-- msctf/ITfRange.GetText
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.GetText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::GetText
+ - msctf/ITfRange::GetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.GetText
 ---
 
 # ITfRange::GetText
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange::GetText</b> method obtains the content covered by this range of text.
-
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Edit cookie that identifies the edit context obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Edit cookie that identifies the edit context obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param dwFlags [in]
 
@@ -92,27 +88,20 @@ Method attempts to fill <i>pchText</i> with the maximum number of characters, in
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pchText [out]
 
 Pointer to a buffer to receive the text in the range.
 
-
 ### -param cchMax [in]
 
 Maximum size of the text buffer.
-
 
 ### -param pcch [out]
 
 Pointer to a ULONG representing the number of characters written to the <i>pchText</i> text buffer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -166,36 +155,25 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-tf--constants">TF_TF_* Constants</a>
+<a href="/windows/desktop/TSF/tf-tf--constants">TF_TF_* Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
- 
-
- 
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

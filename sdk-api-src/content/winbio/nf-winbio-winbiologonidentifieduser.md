@@ -2,15 +2,12 @@
 UID: NF:winbio.WinBioLogonIdentifiedUser
 title: WinBioLogonIdentifiedUser function (winbio.h)
 description: Causes a fast user switch to the account associated with the last successful identification operation performed by the biometric session.
+helpviewer_keywords: ["WinBioLogonIdentifiedUser","WinBioLogonIdentifiedUser function [Windows Biometric Framework API]","secbiomet.winbiologonidentifieduser","winbio/WinBioLogonIdentifiedUser"]
 old-location: secbiomet\winbiologonidentifieduser.htm
 tech.root: SecBioMet
 ms.assetid: 0df6da19-e23b-445f-82d9-bd51cda3ae15
 ms.date: 12/05/2018
 ms.keywords: WinBioLogonIdentifiedUser, WinBioLogonIdentifiedUser function [Windows Biometric Framework API], secbiomet.winbiologonidentifieduser, winbio/WinBioLogonIdentifiedUser
-f1_keywords:
-- winbio/WinBioLogonIdentifiedUser
-dev_langs:
-- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winbio.dll
-- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
-- winbioext.dll
-- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
-api_name:
-- WinBioLogonIdentifiedUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinBioLogonIdentifiedUser
+ - winbio/WinBioLogonIdentifiedUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winbio.dll
+ - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+ - winbioext.dll
+ - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+api_name:
+ - WinBioLogonIdentifiedUser
 ---
 
 # WinBioLogonIdentifiedUser function
@@ -51,25 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinBioLogonIdentifiedUser</b> function causes a fast user switch to the account associated with the last successful identification operation performed by the biometric session.
-
 
 ## -parameters
 
-
-
-
 ### -param SessionHandle [in]
 
-A <b>WINBIO_SESSION_HANDLE</b> value that identifies the biometric session that has recently performed a successful identification operation. Open the session handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>.
-
+A <b>WINBIO_SESSION_HANDLE</b> value that identifies the biometric session that has recently performed a successful identification operation. Open the session handle by calling <a href="/windows/desktop/api/winbio/nf-winbio-winbioopensession">WinBioOpenSession</a>.
 
 ## -returns
 
-
-
-If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -154,14 +148,8 @@ Fast user switching cannot be performed because secure logon (CTRL+ALT+DELETE) i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WinBioLogonIdentifiedUser</b> function is typically called by applications that support fast user switching when they identify a user other than the one who is currently logged on.
 
@@ -274,21 +262,10 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioidentify">WinBioIdentify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentify">WinBioIdentify</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioidentifywithcallback">WinBioIdentifyWithCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioidentifywithcallback">WinBioIdentifyWithCallback</a>

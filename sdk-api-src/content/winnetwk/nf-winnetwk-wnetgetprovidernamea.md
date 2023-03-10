@@ -1,16 +1,13 @@
 ---
 UID: NF:winnetwk.WNetGetProviderNameA
 title: WNetGetProviderNameA function (winnetwk.h)
-description: The WNetGetProviderName function obtains the provider name for a specific type of network.
+description: The WNetGetProviderName function obtains the provider name for a specific type of network. (ANSI)
+helpviewer_keywords: ["WNetGetProviderNameA", "winnetwk/WNetGetProviderNameA"]
 old-location: wnet\wnetgetprovidername.htm
 tech.root: WNet
 ms.assetid: c1369098-c574-4d5f-8051-ca5aa548e63f
 ms.date: 12/05/2018
 ms.keywords: WNetGetProviderName, WNetGetProviderName function [Windows Networking (WNet)], WNetGetProviderNameA, WNetGetProviderNameW, _win32_wnetgetprovidername, winnetwk/WNetGetProviderName, winnetwk/WNetGetProviderNameA, winnetwk/WNetGetProviderNameW, wnet.wnetgetprovidername
-f1_keywords:
-- winnetwk/WNetGetProviderName
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetProviderName
-- WNetGetProviderNameA
-- WNetGetProviderNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetProviderNameA
+ - winnetwk/WNetGetProviderNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetProviderName
+ - WNetGetProviderNameA
+ - WNetGetProviderNameW
 ---
 
 # WNetGetProviderNameA function
@@ -50,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetGetProviderName</b> function obtains the provider name for a specific type of network.
 
-
 ## -parameters
-
-
-
 
 ### -param dwNetType [in]
 
@@ -69,11 +66,9 @@ Network type that is unique to the network. If two networks claim the same type,
 
 You can find a complete list of network types in the header file Winnetwk.h.
 
-
 ### -param lpProviderName [out]
 
 Pointer to a buffer that receives the network provider name.
-
 
 ### -param lpBufferSize [in, out]
 
@@ -84,15 +79,12 @@ Size of the buffer passed to the function, in characters. If the return value is
 
 <b>Windows Me/98/95:  </b>The size of the buffer is in bytes, not characters. Also, the buffer must be at least 1 byte long.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -133,36 +125,30 @@ The <i>lpProviderName</i> parameter or the <i>lpBufferSize</i> parameter is inva
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea">WNetGetUniversalName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea">WNetGetUniversalName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
 
- 
+## -remarks
 
+> [!NOTE]
+> The winnetwk.h header defines WNetGetProviderName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

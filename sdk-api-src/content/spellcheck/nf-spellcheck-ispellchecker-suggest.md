@@ -1,16 +1,13 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Suggest
 title: ISpellChecker::Suggest (spellcheck.h)
-description: Retrieves spelling suggestions for the supplied text.
+description: Retrieves spelling suggestions for the supplied text. (ISpellChecker.Suggest)
+helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","Suggest method","ISpellChecker.Suggest","ISpellChecker::Suggest","Suggest","Suggest method [Internationalization for Windows Applications]","Suggest method [Internationalization for Windows Applications]","ISpellChecker interface","intl.ispellchecker_suggest","spellcheck/ISpellChecker::Suggest"]
 old-location: intl\ispellchecker_suggest.htm
 tech.root: Intl
 ms.assetid: bd6b1d90-8dc0-4640-a43a-678b43e55cb5
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],Suggest method, ISpellChecker.Suggest, ISpellChecker::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_suggest, spellcheck/ISpellChecker::Suggest
-f1_keywords:
-- spellcheck/ISpellChecker.Suggest
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- ISpellChecker.Suggest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellChecker::Suggest
+ - spellcheck/ISpellChecker::Suggest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - ISpellChecker.Suggest
 ---
 
 # ISpellChecker::Suggest
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves spelling suggestions for the supplied text.
 
-
 ## -parameters
-
-
-
 
 ### -param word [in]
 
 The word or phrase to get suggestions for.
 
-
 ### -param value [out, retval]
 
-The list of suggestions, returned as an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> object.
-
+The list of suggestions, returned as an <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,22 +116,11 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>

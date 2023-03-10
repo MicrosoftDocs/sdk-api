@@ -1,16 +1,13 @@
 ---
 UID: NF:ras.RasEnumAutodialAddressesW
 title: RasEnumAutodialAddressesW function (ras.h)
-description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database.
+description: The RasEnumAutodialAddresses function returns a list of all addresses in the AutoDial mapping database. (Unicode)
+helpviewer_keywords: ["RasEnumAutodialAddresses", "RasEnumAutodialAddresses function [RAS]", "RasEnumAutodialAddressesW", "_ras_rasenumautodialaddresses", "ras/RasEnumAutodialAddresses", "ras/RasEnumAutodialAddressesW", "rras.rasenumautodialaddresses"]
 old-location: rras\rasenumautodialaddresses.htm
 tech.root: RRAS
 ms.assetid: bd4fb897-5cc0-452f-b6a2-ec0540c59b90
 ms.date: 12/05/2018
 ms.keywords: RasEnumAutodialAddresses, RasEnumAutodialAddresses function [RAS], RasEnumAutodialAddressesA, RasEnumAutodialAddressesW, _ras_rasenumautodialaddresses, ras/RasEnumAutodialAddresses, ras/RasEnumAutodialAddressesA, ras/RasEnumAutodialAddressesW, rras.rasenumautodialaddresses
-f1_keywords:
-- ras/RasEnumAutodialAddresses
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasEnumAutodialAddresses
-- RasEnumAutodialAddressesA
-- RasEnumAutodialAddressesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasEnumAutodialAddressesW
+ - ras/RasEnumAutodialAddressesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasEnumAutodialAddresses
+ - RasEnumAutodialAddressesA
+ - RasEnumAutodialAddressesW
 ---
 
 # RasEnumAutodialAddressesW function
@@ -50,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasEnumAutodialAddresses</b> function returns a list of all addresses in the AutoDial mapping database.
 
-
 ## -parameters
-
-
-
 
 ### -param lppRasAutodialAddresses [in, out]
 
@@ -71,7 +68,6 @@ On output, each string receives the name of an address in the AutoDial mapping d
 
 If <i>lppAddresses</i> is <b>NULL</b> on input, 
 <b>RasEnumAutodialAddresses</b> sets the <i>lpdwcbAddresses</i> and <i>lpdwcAddresses</i> parameters to indicate the required size, in bytes, and the number of address entries in the database.
-
 
 ### -param lpdwcbRasAutodialAddresses [in, out]
 
@@ -90,14 +86,11 @@ Pointer to a variable that, on input, contains the size, in bytes, of the buffer
 
 Pointer to a variable that receives the number of address strings returned in the <i>lppAddresses</i> buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -127,14 +120,8 @@ The <i>lppAddresses</i> buffer was <b>NULL</b> and <i>lpdwcbAddresses</i> was ze
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following code sample code uses <b>RasEnumAutodialAddresses</b> to enumerate the Autodial mapping database.
 
@@ -213,29 +200,26 @@ DWORD __cdecl wmain(){
 
 
 
+
+> [!NOTE]
+> The ras.h header defines RasEnumAutodialAddresses as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376721(v=vs.85)">RASAUTODIALENTRY</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetautodialaddressa">RasGetAutodialAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetautodialaddressa">RasGetAutodialAddress</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetautodialaddressa">RasSetAutodialAddress</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

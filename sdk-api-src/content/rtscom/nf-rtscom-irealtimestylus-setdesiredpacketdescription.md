@@ -2,15 +2,12 @@
 UID: NF:rtscom.IRealTimeStylus.SetDesiredPacketDescription
 title: IRealTimeStylus::SetDesiredPacketDescription (rtscom.h)
 description: Requests properties to be included in the packet stream.
+helpviewer_keywords: ["1ea8359b-fc9f-4929-9499-c5017eb3d763","IRealTimeStylus interface [Tablet PC]","SetDesiredPacketDescription method","IRealTimeStylus.SetDesiredPacketDescription","IRealTimeStylus::SetDesiredPacketDescription","SetDesiredPacketDescription","SetDesiredPacketDescription method [Tablet PC]","SetDesiredPacketDescription method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::SetDesiredPacketDescription","tablet.irealtimestylus_setdesiredpacketdescription"]
 old-location: tablet\irealtimestylus_setdesiredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 1ea8359b-fc9f-4929-9499-c5017eb3d763
 ms.date: 12/05/2018
 ms.keywords: 1ea8359b-fc9f-4929-9499-c5017eb3d763, IRealTimeStylus interface [Tablet PC],SetDesiredPacketDescription method, IRealTimeStylus.SetDesiredPacketDescription, IRealTimeStylus::SetDesiredPacketDescription, SetDesiredPacketDescription, SetDesiredPacketDescription method [Tablet PC], SetDesiredPacketDescription method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetDesiredPacketDescription, tablet.irealtimestylus_setdesiredpacketdescription
-f1_keywords:
-- rtscom/IRealTimeStylus.SetDesiredPacketDescription
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.SetDesiredPacketDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::SetDesiredPacketDescription
+ - rtscom/IRealTimeStylus::SetDesiredPacketDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.SetDesiredPacketDescription
 ---
 
 # IRealTimeStylus::SetDesiredPacketDescription
@@ -48,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Requests properties to be included in the packet stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cProperties [in]
 
 Count of the properties specified by the <i>pPropertyGuids</i> parameter. Valid values are between 0 and 32, inclusive.
 
-
 ### -param pPropertyGuids [in]
 
 The array of globally unique identifiers (GUIDs) for the properties requested to be included in the packet stream.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Events receive the actual packet properties in the following order.
 
@@ -96,7 +81,7 @@ Events receive the actual packet properties in the following order.
 
 </td>
 <td>
-Contains the x-coordinate data for the property regardless of whether X was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
+Contains the x-coordinate data for the property regardless of whether X was specified in the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
 
 </td>
 </tr>
@@ -106,7 +91,7 @@ Contains the x-coordinate data for the property regardless of whether X was spec
 
 </td>
 <td>
-Contains the y-coordinate data for the property regardless of whether Y was specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
+Contains the y-coordinate data for the property regardless of whether Y was specified in the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
 
 </td>
 </tr>
@@ -116,20 +101,20 @@ End position
 
 </td>
 <td>
-Contains the packet status when packet status is in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
+Contains the packet status when packet status is in the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription">DesiredPacketDescription Property</a>.
 
 </td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  The result of <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata">IRealTimeStylus::GetPacketDescriptionData Method</a> may not match the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> properties as some of the properties may not be supported by the tablet.</div>
+<div class="alert"><b>Note</b>  The result of <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata">IRealTimeStylus::GetPacketDescriptionData Method</a> may not match the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> properties as some of the properties may not be supported by the tablet.</div>
 <div> </div>
-If the specified packet properties are not supported by the tablet devices, the property data is not returned and is not represented in the packet data array. If the same GUID appears multiple times in the <i>packetDescription</i> argument, only the first appearance is preserved and all following appearances are filtered out. The <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method can be called only while the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is disabled.
+If the specified packet properties are not supported by the tablet devices, the property data is not returned and is not represented in the packet data array. If the same GUID appears multiple times in the <i>packetDescription</i> argument, only the first appearance is preserved and all following appearances are filtered out. The <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method can be called only while the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is disabled.
 
 Attempting to pass in 0 for <i>cProperties</i> and <b>NULL</b> for <i>pPropertyGuids</i> returns E_INVALIDARG.
 
-Calls to the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method are immediately reflected in the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a> method.
+Calls to the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method are immediately reflected in the return value of the <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a> method.
 
 
 #### Examples
@@ -168,29 +153,18 @@ if (SUCCEEDED(g_pRealTimeStylus->GetDesiredPacketDescription(&ulProperties, &pGu
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata">IRealTimeStylus::GetPacketDescriptionData Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getpacketdescriptiondata">IRealTimeStylus::GetPacketDescriptionData Method</a>
 
 
 
 <b>RealTimeStylus Class</b>
- 
-
- 
-

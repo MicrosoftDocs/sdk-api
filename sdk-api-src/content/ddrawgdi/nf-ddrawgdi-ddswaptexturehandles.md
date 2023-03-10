@@ -2,15 +2,12 @@
 UID: NF:ddrawgdi.DdSwapTextureHandles
 title: DdSwapTextureHandles function (ddrawgdi.h)
 description: Developed for device driver interfaces (DDIs) prior to Microsoft DirectDraw 7.0 and does nothing on Microsoft Windows NT systems. All parameters are ignored. GdiEntry16 is defined as an alias for this function.
+helpviewer_keywords: ["DdSwapTextureHandles","DdSwapTextureHandles function [Windows API]","GdiEntry16","_dxgkernel_ddswaptexturehandles","ddrawgdi/DdSwapTextureHandles","ddrawgdi/GdiEntry16","winprog._dxgkernel_ddswaptexturehandles","winui._dxgkernel_ddswaptexturehandles"]
 old-location: winprog\_dxgkernel_ddswaptexturehandles.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddswaptexturehandles.htm
 ms.date: 12/05/2018
 ms.keywords: DdSwapTextureHandles, DdSwapTextureHandles function [Windows API], GdiEntry16, _dxgkernel_ddswaptexturehandles, ddrawgdi/DdSwapTextureHandles, ddrawgdi/GdiEntry16, winprog._dxgkernel_ddswaptexturehandles, winui._dxgkernel_ddswaptexturehandles
-f1_keywords:
-- ddrawgdi/DdSwapTextureHandles
-dev_langs:
-- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,30 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ddrawgdi.h
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32.dll
-- GDI32Full.dll
-api_name:
-- DdSwapTextureHandles
-- GdiEntry16
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdSwapTextureHandles
+ - ddrawgdi/DdSwapTextureHandles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ddrawgdi.h
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32.dll
+ - GDI32Full.dll
+api_name:
+ - DdSwapTextureHandles
+ - GdiEntry16
 ---
 
 # DdSwapTextureHandles function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
@@ -60,43 +61,24 @@ Developed for device driver interfaces (DDIs) prior to Microsoft DirectDraw 7.0
 
 <b>GdiEntry16</b> is defined as an alias for this function.
 
-
 ## -parameters
-
-
-
 
 ### -param pDDraw
 
 Reserved.
 
-
 ### -param pDDSLcl1
 
 Reserved.
-
 
 ### -param pDDSLcl2
 
 Reserved.
 
-
 ## -returns
-
-
 
 DDHAL_DRIVER_HANDLED is returned.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
- 
-
- 
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

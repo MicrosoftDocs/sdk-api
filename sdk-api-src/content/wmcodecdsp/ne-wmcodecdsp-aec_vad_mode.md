@@ -2,15 +2,12 @@
 UID: NE:wmcodecdsp.AEC_VAD_MODE
 title: AEC_VAD_MODE (wmcodecdsp.h)
 description: Specifies the type of voice activity detection (VAD) for the voice capture DSP. This enumeration is used with the MFPKEY_WMAAECMA_FEATR_VAD property.
+helpviewer_keywords: ["AEC_VAD_DISABLED","AEC_VAD_FOR_AGC","AEC_VAD_FOR_SILENCE_SUPPRESSION","AEC_VAD_MODE","AEC_VAD_MODE enumeration [Media Foundation]","AEC_VAD_NORMAL","codecapi.aec_vad_modeenumeration","mf.aec_vad_modeenumeration","wmcodecdsp/AEC_VAD_DISABLED","wmcodecdsp/AEC_VAD_FOR_AGC","wmcodecdsp/AEC_VAD_FOR_SILENCE_SUPPRESSION","wmcodecdsp/AEC_VAD_MODE","wmcodecdsp/AEC_VAD_NORMAL"]
 old-location: mf\aec_vad_modeenumeration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 01e2ba9e-1396-471e-a2bf-38dfcc7cac32
 ms.date: 12/05/2018
 ms.keywords: AEC_VAD_DISABLED, AEC_VAD_FOR_AGC, AEC_VAD_FOR_SILENCE_SUPPRESSION, AEC_VAD_MODE, AEC_VAD_MODE enumeration [Media Foundation], AEC_VAD_NORMAL, codecapi.aec_vad_modeenumeration, mf.aec_vad_modeenumeration, wmcodecdsp/AEC_VAD_DISABLED, wmcodecdsp/AEC_VAD_FOR_AGC, wmcodecdsp/AEC_VAD_FOR_SILENCE_SUPPRESSION, wmcodecdsp/AEC_VAD_MODE, wmcodecdsp/AEC_VAD_NORMAL
-f1_keywords:
-- wmcodecdsp/AEC_VAD_MODE
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wmcodecdsp.h
-api_name:
-- AEC_VAD_MODE
 targetos: Windows
 req.typenames: AEC_VAD_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AEC_VAD_MODE
+ - wmcodecdsp/AEC_VAD_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - AEC_VAD_MODE
 ---
 
 # AEC_VAD_MODE enumeration
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the type of voice activity detection (VAD) for the voice capture DSP. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-featr-vadproperty">MFPKEY_WMAAECMA_FEATR_VAD</a> property.
-
+Specifies the type of voice activity detection (VAD) for the voice capture DSP. This enumeration is used with the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-featr-vadproperty">MFPKEY_WMAAECMA_FEATR_VAD</a> property.
 
 ## -enum-fields
 
-
-
-
-### -field AEC_VAD_DISABLED
+### -field AEC_VAD_DISABLED:0
 
 Voice activity detection is disabled.
-
 
 ### -field AEC_VAD_NORMAL
 
@@ -89,8 +85,6 @@ General purpose VAD. This setting attempts to balance the false detection rate a
 <td>Mixture of voiced and unvoiced speech.</td>
 </tr>
 </table>
- 
-
 
 ### -field AEC_VAD_FOR_AGC
 
@@ -111,8 +105,6 @@ Voice activity detection for automatic gain control and noise suppression. In th
 <td>Voiced speech.</td>
 </tr>
 </table>
- 
-
 
 ### -field AEC_VAD_FOR_SILENCE_SUPPRESSION
 
@@ -133,20 +125,11 @@ Voice activity detection for silence suppression. In this mode, the output disti
 <td>Voiced or unvoiced speech.</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>

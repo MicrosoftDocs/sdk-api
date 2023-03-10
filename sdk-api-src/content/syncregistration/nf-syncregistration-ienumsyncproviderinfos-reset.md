@@ -2,15 +2,12 @@
 UID: NF:syncregistration.IEnumSyncProviderInfos.Reset
 title: IEnumSyncProviderInfos::Reset (syncregistration.h)
 description: Resets the enumerator to the beginning of the ISyncProviderInfo set.
+helpviewer_keywords: ["IEnumSyncProviderInfos interface [Windows Sync]","Reset method","IEnumSyncProviderInfos.Reset","IEnumSyncProviderInfos::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumSyncProviderInfos interface","syncregistration/IEnumSyncProviderInfos::Reset","winsync.ienumsyncproviderinfos_reset"]
 old-location: winsync\ienumsyncproviderinfos_reset.htm
 tech.root: winsync
 ms.assetid: c2a7374b-fd57-4f50-b740-941625377b64
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Reset method, IEnumSyncProviderInfos.Reset, IEnumSyncProviderInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Reset, winsync.ienumsyncproviderinfos_reset
-f1_keywords:
-- syncregistration/IEnumSyncProviderInfos.Reset
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IEnumSyncProviderInfos.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncProviderInfos::Reset
+ - syncregistration/IEnumSyncProviderInfos::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IEnumSyncProviderInfos.Reset
 ---
 
 # IEnumSyncProviderInfos::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumerator to the beginning of the <b>ISyncProviderInfo</b> set.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -82,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:wcndevice.IWCNConnectNotify.ConnectSucceeded
 title: IWCNConnectNotify::ConnectSucceeded (wcndevice.h)
 description: The IWCNConnectNotify::ConnectSucceeded callback method that indicates a successful IWCNDevice::Connect operation.
+helpviewer_keywords: ["ConnectSucceeded","ConnectSucceeded method [Windows Connect Now]","ConnectSucceeded method [Windows Connect Now]","IWCNConnectNotify interface","IWCNConnectNotify interface [Windows Connect Now]","ConnectSucceeded method","IWCNConnectNotify.ConnectSucceeded","IWCNConnectNotify::ConnectSucceeded","wcn.iwcnconnectnotify_connectsucceeded","wcndevice/IWCNConnectNotify::ConnectSucceeded"]
 old-location: wcn\iwcnconnectnotify_connectsucceeded.htm
 tech.root: wcn
 ms.assetid: 79c8482a-5cb2-44a7-b324-964bfedd3d2f
 ms.date: 12/05/2018
 ms.keywords: ConnectSucceeded, ConnectSucceeded method [Windows Connect Now], ConnectSucceeded method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectSucceeded method, IWCNConnectNotify.ConnectSucceeded, IWCNConnectNotify::ConnectSucceeded, wcn.iwcnconnectnotify_connectsucceeded, wcndevice/IWCNConnectNotify::ConnectSucceeded
-f1_keywords:
-- wcndevice/IWCNConnectNotify.ConnectSucceeded
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcnDevice.h
-api_name:
-- IWCNConnectNotify.ConnectSucceeded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCNConnectNotify::ConnectSucceeded
+ - wcndevice/IWCNConnectNotify::ConnectSucceeded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcnDevice.h
+api_name:
+ - IWCNConnectNotify.ConnectSucceeded
 ---
 
 # IWCNConnectNotify::ConnectSucceeded
@@ -48,48 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a successful <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
-
-
-## -parameters
-
-
-
+The <b>IWCNConnectNotify::ConnectSucceeded</b> callback method that indicates a successful <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
 
 
 ## -returns
 
-
-
 ...
-
-
-
 
 ## -remarks
 
+Notification of  success does not implicitly indicate that the device is ready, as some devices reboot in order to apply settings provided during the <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
 
-
-Notification of  success does not implicitly indicate that the device is ready, as some devices reboot in order to apply settings provided during the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a> operation.
-
-If the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> interface was used to obtain network settings from a device, then the network profile is immediately ready for use.
-
-
-
+If the <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> interface was used to obtain network settings from a device, then the network profile is immediately ready for use.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>

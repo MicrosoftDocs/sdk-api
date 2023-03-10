@@ -1,16 +1,13 @@
 ---
 UID: NF:rend.IEnumDirectory.Clone
 title: IEnumDirectory::Clone (rend.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. (IEnumDirectory.Clone)
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumDirectory interface","IEnumDirectory interface [TAPI 2.2]","Clone method","IEnumDirectory.Clone","IEnumDirectory::Clone","_tapi3_ienumdirectory_clone","rend/IEnumDirectory::Clone","tapi3.ienumdirectory_clone"]
 old-location: tapi3\ienumdirectory_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 64aaf773-842b-42cd-83b8-587ec1042382
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDirectory interface, IEnumDirectory interface [TAPI 2.2],Clone method, IEnumDirectory.Clone, IEnumDirectory::Clone, _tapi3_ienumdirectory_clone, rend/IEnumDirectory::Clone, tapi3.ienumdirectory_clone
-f1_keywords:
-- rend/IEnumDirectory.Clone
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- IEnumDirectory.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDirectory::Clone
+ - rend/IEnumDirectory::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - IEnumDirectory.Clone
 ---
 
 # IEnumDirectory::Clone
@@ -48,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to the new 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> object.
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,29 +117,13 @@ Failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> interface returned by <b>IEnumDirectory::Clone</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a> interface returned by <b>IEnumDirectory::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumDirectory</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>

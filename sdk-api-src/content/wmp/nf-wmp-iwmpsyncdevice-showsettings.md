@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice.showSettings
 title: IWMPSyncDevice::showSettings (wmp.h)
 description: The showSettings method displays the Windows Media Player synchronization settings dialog box.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","showSettings method","IWMPSyncDevice.showSettings","IWMPSyncDevice::showSettings","IWMPSyncDeviceshowSettings","showSettings","showSettings method [Windows Media Player]","showSettings method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_showsettings","wmp/IWMPSyncDevice::showSettings"]
 old-location: wmp\iwmpsyncdevice_showsettings.htm
 tech.root: WMP
 ms.assetid: 496bb3b6-d942-4d53-8e66-5aed5f574343
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],showSettings method, IWMPSyncDevice.showSettings, IWMPSyncDevice::showSettings, IWMPSyncDeviceshowSettings, showSettings, showSettings method [Windows Media Player], showSettings method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_showsettings, wmp/IWMPSyncDevice::showSettings
-f1_keywords:
-- wmp/IWMPSyncDevice.showSettings
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice.showSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice::showSettings
+ - wmp/IWMPSyncDevice::showSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice.showSettings
 ---
 
 # IWMPSyncDevice::showSettings
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>showSettings</b> method displays the Windows Media Player synchronization settings dialog box.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,14 +119,8 @@ The current status for the device is wmpdsPartnershipDeclined, wmpdsPartnershipA
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The remoted instance of Windows Media Player undocks, if necessary, and shows the device settings dialog box. If the Player was in skin mode, it returns to full mode. If the Player is locked in skin mode by corporate policy, the call fails.
 
@@ -146,16 +130,6 @@ Note that the events for docking and undocking Windows Media Player will occur n
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>

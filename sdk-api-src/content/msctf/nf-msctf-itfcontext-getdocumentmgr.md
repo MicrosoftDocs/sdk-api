@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContext.GetDocumentMgr
 title: ITfContext::GetDocumentMgr (msctf.h)
 description: ITfContext::GetDocumentMgr method
+helpviewer_keywords: ["GetDocumentMgr","GetDocumentMgr method [Text Services Framework]","GetDocumentMgr method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetDocumentMgr method","ITfContext.GetDocumentMgr","ITfContext::GetDocumentMgr","_tsf_itfcontext_getdocumentmgr_ref","msctf/ITfContext::GetDocumentMgr","tsf.itfcontext_getdocumentmgr"]
 old-location: tsf\itfcontext_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 21fa683d-c386-4aa2-8bc5-d5170443c5cd
 ms.date: 12/05/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetDocumentMgr method, ITfContext.GetDocumentMgr, ITfContext::GetDocumentMgr, _tsf_itfcontext_getdocumentmgr_ref, msctf/ITfContext::GetDocumentMgr, tsf.itfcontext_getdocumentmgr
-f1_keywords:
-- msctf/ITfContext.GetDocumentMgr
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.GetDocumentMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::GetDocumentMgr
+ - msctf/ITfContext::GetDocumentMgr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.GetDocumentMgr
 ---
 
 # ITfContext::GetDocumentMgr
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the document manager that contains the context.
 
 ## -parameters
 
-
-
-
 ### -param ppDm [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer that receives the document manager.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer that receives the document manager.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,37 +101,11 @@ The context is not contained in any document manager. <i>ppDm</i> is set to <b>N
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the context is not contained within a document manager, this method returns S_FALSE and <i>ppDm</i> is set to <b>NULL</b>. This occurs when the context is removed from the context stack through a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop</a>.
-
-
-
+If the context is not contained within a document manager, this method returns S_FALSE and <i>ppDm</i> is set to <b>NULL</b>. This occurs when the context is removed from the context stack through a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-pop">ITfDocumentMgr::Pop
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md), [ITfDocumentMgr::Pop](nf-msctf-itfdocumentmgr-pop.md)

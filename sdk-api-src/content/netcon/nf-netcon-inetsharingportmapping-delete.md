@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingPortMapping.Delete
 title: INetSharingPortMapping::Delete (netcon.h)
 description: The Delete method deletes a port mapping from the list of port mappings for a particular connection.
+helpviewer_keywords: ["Delete","Delete method [ICS/ICF]","Delete method [ICS/ICF]","INetSharingPortMapping interface","INetSharingPortMapping interface [ICS/ICF]","Delete method","INetSharingPortMapping.Delete","INetSharingPortMapping::Delete","_ics_inetsharingportmapping_delete","ics.inetsharingportmapping_delete","netcon/INetSharingPortMapping::Delete"]
 old-location: ics\inetsharingportmapping_delete.htm
 tech.root: ics
 ms.assetid: f9582110-a717-41a4-8ddd-26ef703b8356
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Delete method, INetSharingPortMapping.Delete, INetSharingPortMapping::Delete, _ics_inetsharingportmapping_delete, ics.inetsharingportmapping_delete, netcon/INetSharingPortMapping::Delete
-f1_keywords:
-- netcon/INetSharingPortMapping.Delete
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingPortMapping.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingPortMapping::Delete
+ - netcon/INetSharingPortMapping::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingPortMapping.Delete
 ---
 
 # INetSharingPortMapping::Delete
@@ -48,23 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>Delete</b> method deletes a port mapping from the list of port mappings for a particular connection.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -164,39 +157,23 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Calling this method also removes the name of this port mapping from the list of mappings in the ICS/ICF user interface.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-removeportmapping">INetSharingConfiguration::RemovePortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-removeportmapping">INetSharingConfiguration::RemovePortMapping</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmapping">INetSharingPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmapping">INetSharingPortMapping</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

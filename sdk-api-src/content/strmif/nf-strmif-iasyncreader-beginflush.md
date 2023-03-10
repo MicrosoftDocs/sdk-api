@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.IAsyncReader.BeginFlush
 title: IAsyncReader::BeginFlush (strmif.h)
-description: The BeginFlush method begins a flush operation.
+description: The BeginFlush method begins a flush operation. (IAsyncReader.BeginFlush)
+helpviewer_keywords: ["BeginFlush","BeginFlush method [DirectShow]","BeginFlush method [DirectShow]","IAsyncReader interface","IAsyncReader interface [DirectShow]","BeginFlush method","IAsyncReader.BeginFlush","IAsyncReader::BeginFlush","IAsyncReaderBeginFlush","dshow.iasyncreader_beginflush","strmif/IAsyncReader::BeginFlush"]
 old-location: dshow\iasyncreader_beginflush.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 29153592-dbc1-42b4-bd4e-2f1aef8d4c19
 ms.date: 12/05/2018
 ms.keywords: BeginFlush, BeginFlush method [DirectShow], BeginFlush method [DirectShow],IAsyncReader interface, IAsyncReader interface [DirectShow],BeginFlush method, IAsyncReader.BeginFlush, IAsyncReader::BeginFlush, IAsyncReaderBeginFlush, dshow.iasyncreader_beginflush, strmif/IAsyncReader::BeginFlush
-f1_keywords:
-- strmif/IAsyncReader.BeginFlush
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAsyncReader.BeginFlush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAsyncReader::BeginFlush
+ - strmif/IAsyncReader::BeginFlush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAsyncReader.BeginFlush
 ---
 
 # IAsyncReader::BeginFlush
@@ -49,45 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>BeginFlush</code> method begins a flush operation.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns S_OK if successful, or S_FALSE otherwise.
-
-
-
 
 ## -remarks
 
+This method interrupts all pending read requests. While the pin is flushing, the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a> method fails and the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method returns immediately, possibly with the return code VFW_E_TIMEOUT.
 
+The downstream input pin should call this method whenever the downstream filter flushes the filter graph. After calling this method, call the <b>WaitForNext</b> method until it returns <b>NULL</b> in the <i>ppSample</i> parameter, to clear out the queue of pending samples. Ignore error codes, and release each sample. Then call the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-endflush">IAsyncReader::EndFlush</a> method to end the flush operation.
 
-This method interrupts all pending read requests. While the pin is flushing, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a> method fails and the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method returns immediately, possibly with the return code VFW_E_TIMEOUT.
-
-The downstream input pin should call this method whenever the downstream filter flushes the filter graph. After calling this method, call the <b>WaitForNext</b> method until it returns <b>NULL</b> in the <i>ppSample</i> parameter, to clear out the queue of pending samples. Ignore error codes, and release each sample. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-endflush">IAsyncReader::EndFlush</a> method to end the flush operation.
-
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/flushing">Flushing</a>.
+For more information, see <a href="/windows/desktop/DirectShow/flushing">Flushing</a>.
 
 
 #### Examples
 
 The following example shows how a downstream input pin should call this method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -112,19 +97,10 @@ m_pReader-&gt;EndFlush();
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>

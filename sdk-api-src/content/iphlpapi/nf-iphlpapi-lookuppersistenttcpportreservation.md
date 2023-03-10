@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.LookupPersistentTcpPortReservation
 title: LookupPersistentTcpPortReservation function (iphlpapi.h)
 description: Looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
+helpviewer_keywords: ["LookupPersistentTcpPortReservation","LookupPersistentTcpPortReservation function [IP Helper]","iphlp.lookuppersistenttcpportreservation","iphlpapi/LookupPersistentTcpPortReservation"]
 old-location: iphlp\lookuppersistenttcpportreservation.htm
 tech.root: IpHlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA
 ms.date: 12/05/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
-f1_keywords:
-- iphlpapi/LookupPersistentTcpPortReservation
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- LookupPersistentTcpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LookupPersistentTcpPortReservation
+ - iphlpapi/LookupPersistentTcpPortReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - LookupPersistentTcpPortReservation
 ---
 
 # LookupPersistentTcpPortReservation function
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>LookupPersistentTcpPortReservation</b> function looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param StartPort [in]
 
-The starting TCP port number in network byte order. 
-
+The starting TCP port number in network byte order.
 
 ### -param NumberOfPorts [in]
 
 The number of TCP port numbers  that were reserved.
 
-
 ### -param Token [out]
 
 A pointer to a port reservation token that is returned if the function succeeds.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -116,31 +108,25 @@ The element was not found. This error is returned if persistent port block speci
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>LookupPersistentTcpPortReservation</b>  function is defined on Windows Vista and later. 
 
 The <b>LookupPersistentTcpPortReservation</b>  function is used to lookup the token for a persistent reservation for a block of TCP ports. 
 
-A persistent reservation for a block of TCP ports is  created by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> function. The <i>StartPort</i>  or <i>NumberOfPorts</i> parameters passed to the <b>LookupPersistentTcpPortReservation</b>  function must match the values used when the persistent reservation for a block of TCP ports was created by  the <b>CreatePersistentTcpPortReservation</b> function.
+A persistent reservation for a block of TCP ports is  created by a call to the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a> function. The <i>StartPort</i>  or <i>NumberOfPorts</i> parameters passed to the <b>LookupPersistentTcpPortReservation</b>  function must match the values used when the persistent reservation for a block of TCP ports was created by  the <b>CreatePersistentTcpPortReservation</b> function.
 
 If the <b>LookupPersistentTcpPortReservation</b> function succeeds, the <i>Token</i> parameter returned will point to the token for the persistent port reservation for the block of TCP ports. Note that the token for a given persistent reservation for a block of TCP ports may change each time the system is restarted.
 
 
 
-An application can request port assignments from the TCP port reservation by opening a TCP socket, then calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function specifying the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a> IOCTL and passing the reservation token before issuing a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function on the socket. 
+An application can request port assignments from the TCP port reservation by opening a TCP socket, then calling the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function specifying the <a href="/windows/win32/winsock/sio-associate-port-reservation">SIO_ASSOCIATE_PORT_RESERVATION</a> IOCTL and passing the reservation token before issuing a call to the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function on the socket. 
 
 
 #### Examples
@@ -293,37 +279,26 @@ int wmain(int argc, WCHAR **argv)  {
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistenttcpportreservation">DeletePersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistenttcpportreservation">DeletePersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
- 
-
- 
-
+<a href="/windows/win32/winsock/sio-associate-port-reservation">SIO_ASSOCIATE_PORT_RESERVATION</a>

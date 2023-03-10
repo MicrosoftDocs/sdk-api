@@ -2,15 +2,12 @@
 UID: NF:clusapi.MoveClusterGroupEx
 title: MoveClusterGroupEx function (clusapi.h)
 description: Extends the existing MoveClusterGroup method with the addition of flags and a buffer.
+helpviewer_keywords: ["CLUSAPI_GROUP_MOVE_FAILBACK","CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START","CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS","CLUSAPI_GROUP_MOVE_QUEUE_ENABLED","CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR","MoveClusterGroupEx","MoveClusterGroupEx function [Failover Cluster]","clusapi/MoveClusterGroupEx","mscs.moveclustergroupex"]
 old-location: mscs\moveclustergroupex.htm
 tech.root: MsCS
 ms.assetid: CE56BA9D-3527-43D3-8656-EA0BBDF48B98
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_GROUP_MOVE_FAILBACK, CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START, CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_MOVE_QUEUE_ENABLED, CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR, MoveClusterGroupEx, MoveClusterGroupEx function [Failover Cluster], clusapi/MoveClusterGroupEx, mscs.moveclustergroupex
-f1_keywords:
-- clusapi/MoveClusterGroupEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-api_name:
-- MoveClusterGroupEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MoveClusterGroupEx
+ - clusapi/MoveClusterGroupEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+ - MoveClusterGroupEx
 ---
 
 # MoveClusterGroupEx function
@@ -51,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the existing <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> method with the addition of flags and a buffer. The flags control the behavior of the cluster failover policy, and the input buffer enables the client to send special instructions to the resources in the group.
-
+Extends the existing <a href="/windows/desktop/api/clusapi/nf-clusapi-moveclustergroup">MoveClusterGroup</a> method with the addition of flags and a buffer. The flags control the behavior of the cluster failover policy, and the input buffer enables the client to send special instructions to the resources in the group.
 
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 The handle to a cluster group.
 
-
 ### -param hDestinationNode [in, optional]
 
 The handle to a cluster node, indicating the node to which the group should be moved. This parameter is optional. If left <b>NULL</b>, the cluster will move the group to the most suitable node, according to failover policies configured for the cluster and for this particular group.
-
 
 ### -param dwMoveFlags [in]
 
@@ -104,29 +99,19 @@ Brings this group to its persistent state on the destination node as soon as pos
 
 Reserved.
 
-
 ### -param lpInBuffer [in, optional]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> that contains move operation instructions for specific resources within the group. The instructions are contained in property values. Resources in the group search the property list for property names that they support for move operations and then interpret the instructions in the associated property value. The properties supported by a resource in a <b>MoveClusterGroupEx</b> operation are not related to the private properties associated with a resource.
-
+A <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> that contains move operation instructions for specific resources within the group. The instructions are contained in property values. Resources in the group search the property list for property names that they support for move operations and then interpret the instructions in the associated property value. The properties supported by a resource in a <b>MoveClusterGroupEx</b> operation are not related to the private properties associated with a resource.
 
 ### -param cbInBufferSize [in]
 
 The size of <i>lpInBuffer</i>, in bytes.
 
-
 ## -returns
-
-
 
 <b>MoveClusterGroupEx</b> returns <b>ERROR_IO_PENDING</b> if the move command has been accepted and is in progress. <b>MoveClusterGroupEx</b> returns a nonzero error code if the move command was rejected immediately with no changes to group state. For instance, this would happen if <i>hDestinationNode</i> is not Up at the time of the move request.
 
-
-
-
 ## -remarks
-
-
 
 <b>MoveClusterGroupEx</b> fails immediately with error <b>ERROR_CLUSTER_RESOURCE_LOCKED_STATUS</b> if the <b>CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS</b> flag is not set and any resource in the group is online and has indicated that it is "locked" in its current state.
 
@@ -142,7 +127,7 @@ For a live migration of a virtual machine, perform these steps:
 
 <ol>
 <li>In the <i>dwMoveFlags</i> parameter, set the <b>CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR</b>, <b>CLUSAPI_GROUP_MOVE_QUEUE_ENABLED</b>, and  <b>CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START</b> flags.</li>
-<li>In the <i>lpInBuffer</i> parameter, add to the property list a resource type named "Virtual Machine" or "Virtual Machine Configuration" that specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_property_format">CLUSTER_PROPERTY_FORMAT</a> enumeration value of <b>CLUSPROP_FORMAT_DWORD</b> (which represents the property's data format) and a property value of <b>VmResdllContextLiveMigration</b> (from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ne-resapi-vm_resdll_context">VM_RESDLL_CONTEXT</a> enumeration of possible virtual machine actions).</li>
+<li>In the <i>lpInBuffer</i> parameter, add to the property list a resource type named "Virtual Machine" or "Virtual Machine Configuration" that specifies a <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_property_format">CLUSTER_PROPERTY_FORMAT</a> enumeration value of <b>CLUSPROP_FORMAT_DWORD</b> (which represents the property's data format) and a property value of <b>VmResdllContextLiveMigration</b> (from the <a href="/previous-versions/windows/desktop/api/resapi/ne-resapi-vm_resdll_context">VM_RESDLL_CONTEXT</a> enumeration of possible virtual machine actions).</li>
 </ol>
 <b>MoveClusterGroupEx</b> requires that the client be granted Full access in the cluster security descriptor.
 
@@ -222,7 +207,3 @@ Cleanup:
 }
 
 ```
-
-
-
-

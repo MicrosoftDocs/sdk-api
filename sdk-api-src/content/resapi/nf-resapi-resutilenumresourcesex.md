@@ -2,15 +2,12 @@
 UID: NF:resapi.ResUtilEnumResourcesEx
 title: ResUtilEnumResourcesEx function (resapi.h)
 description: Enumerates all of the resources in a specified cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES_EX type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_ENUM_RESOURCES_EX","PRESUTIL_ENUM_RESOURCES_EX function [Failover Cluster]","ResUtilEnumResourcesEx","ResUtilEnumResourcesEx function [Failover Cluster]","_wolf_resutilenumresourcesex","mscs.resutilenumresourcesex","resapi/PRESUTIL_ENUM_RESOURCES_EX","resapi/ResUtilEnumResourcesEx"]
 old-location: mscs\resutilenumresourcesex.htm
 tech.root: MsCS
 ms.assetid: e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_RESOURCES_EX, PRESUTIL_ENUM_RESOURCES_EX function [Failover Cluster], ResUtilEnumResourcesEx, ResUtilEnumResourcesEx function [Failover Cluster], _wolf_resutilenumresourcesex, mscs.resutilenumresourcesex, resapi/PRESUTIL_ENUM_RESOURCES_EX, resapi/ResUtilEnumResourcesEx
-f1_keywords:
-- resapi/ResUtilEnumResourcesEx
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-- Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
-api_name:
-- ResUtilEnumResourcesEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilEnumResourcesEx
+ - resapi/ResUtilEnumResourcesEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+ - Ext-MS-Win-Cluster-Resutils-L1-1-1.dll
+api_name:
+ - ResUtilEnumResourcesEx
 ---
 
 # ResUtilEnumResourcesEx function
@@ -49,48 +51,44 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enumerates all of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> in a specified 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and initiates a user-defined operation for each 
+Enumerates all of the <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> in a specified 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and initiates a user-defined operation for each 
     resource. The <b>PRESUTIL_ENUM_RESOURCES_EX</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 A handle to the cluster that contains  the resources to enumerate.
-
 
 ### -param hSelf [in, optional]
 
 An optional handle to a cluster resource. The callback function is not invoked for a resource that is  identified by 
        <i>hSelf</i>.
 
-
 ### -param lpszResTypeName [in]
 
-An optional pointer to a name of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a> that 
+An optional pointer to a name of a <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type</a> that 
        narrows the scope of resources to enumerate. If <i>lpszResTypeName</i> is specified, only 
        resources of the specified type are enumerated.
-
 
 ### -param pResCallBack [in]
 
 A pointer to a user-defined function that    is called for each enumerated resource. This function must 
        conform to the definition of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback_ex">ResourceCallbackEx</a> callback function.  Note 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback_ex">ResourceCallbackEx</a> callback function.  Note 
        that parameter names are not part of the definition; they have been added here for clarity.
 
-<pre class="syntax" xml:space="preserve"><code>DWORD (*LPRESOURCE_CALLBACK_EX)( 
+
+``` syntax
+DWORD (*LPRESOURCE_CALLBACK_EX)( 
   HCLUSTER hCluster,
   HRESOURCE hSelf, 
   HRESOURCE hEnum, 
   PVOID pParameter 
-);</code></pre>
+);
+```
+
 
 
 
@@ -123,7 +121,6 @@ A handle to the resource that currently is being enumerated.
 
 A generic buffer that  enables you to pass any kind of data to the callback function.
 
-
 ### -param pParameter [in]
 
 A generic buffer that  enables you to pass any kind of data to the callback function. 
@@ -131,52 +128,35 @@ A generic buffer that  enables you to pass any kind of data to the callback func
        parameter at all; it merely passes the pointer to the callback function. Whether  you can pass 
        <b>NULL</b> for the parameter depends on how the callback function is implemented.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function immediately halts the enumeration and returns the value that is returned by the 
        callback function.
 
-
-
-
 ## -remarks
-
-
 
 <b>ResUtilEnumResourcesEx</b> is a convenient and 
      easy-to-use alternative to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a> function.
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a> function.
 
 
 #### Examples
 
 See the example for 
-     <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilenumresources">ResUtilEnumResources</a>.
+     <a href="/windows/desktop/api/resapi/nf-resapi-resutilenumresources">ResUtilEnumResources</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenum">ClusterResourceEnum</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilenumresources">ResUtilEnumResources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilenumresources">ResUtilEnumResources</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback_ex">ResourceCallbackEx</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-lpresource_callback_ex">ResourceCallbackEx</a>

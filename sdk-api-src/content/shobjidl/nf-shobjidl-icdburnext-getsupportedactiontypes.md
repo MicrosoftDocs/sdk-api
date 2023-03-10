@@ -2,15 +2,12 @@
 UID: NF:shobjidl.ICDBurnExt.GetSupportedActionTypes
 title: ICDBurnExt::GetSupportedActionTypes (shobjidl.h)
 description: Determines the supported data type for a CD writing extension.
+helpviewer_keywords: ["CDBE_TYPE_ALL","CDBE_TYPE_DATA","CDBE_TYPE_MUSIC","GetSupportedActionTypes","GetSupportedActionTypes method [Windows Shell]","GetSupportedActionTypes method [Windows Shell]","ICDBurnExt interface","ICDBurnExt interface [Windows Shell]","GetSupportedActionTypes method","ICDBurnExt.GetSupportedActionTypes","ICDBurnExt::GetSupportedActionTypes","_shell_ICDBurnExt_GetSupportedActionTypes","shell.ICDBurnExt_GetSupportedActionTypes","shobjidl/ICDBurnExt::GetSupportedActionTypes"]
 old-location: shell\ICDBurnExt_GetSupportedActionTypes.htm
 tech.root: shell
 ms.assetid: 46d0fe58-b8aa-42a8-811e-9762185bb8cc
 ms.date: 12/05/2018
 ms.keywords: CDBE_TYPE_ALL, CDBE_TYPE_DATA, CDBE_TYPE_MUSIC, GetSupportedActionTypes, GetSupportedActionTypes method [Windows Shell], GetSupportedActionTypes method [Windows Shell],ICDBurnExt interface, ICDBurnExt interface [Windows Shell],GetSupportedActionTypes method, ICDBurnExt.GetSupportedActionTypes, ICDBurnExt::GetSupportedActionTypes, _shell_ICDBurnExt_GetSupportedActionTypes, shell.ICDBurnExt_GetSupportedActionTypes, shobjidl/ICDBurnExt::GetSupportedActionTypes
-f1_keywords:
-- shobjidl/ICDBurnExt.GetSupportedActionTypes
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- ICDBurnExt.GetSupportedActionTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDBurnExt::GetSupportedActionTypes
+ - shobjidl/ICDBurnExt::GetSupportedActionTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - ICDBurnExt.GetSupportedActionTypes
 ---
 
 # ICDBurnExt::GetSupportedActionTypes
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the supported data type for a CD writing extension.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwActions [out]
 
@@ -81,14 +78,9 @@ One of the following values indicating the supported type.
 
 (int)0xFFFFFFFF. All files are supported. The CD writing extension is invoked for the <b>Copy to audio CD</b> task in the My Music folder.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

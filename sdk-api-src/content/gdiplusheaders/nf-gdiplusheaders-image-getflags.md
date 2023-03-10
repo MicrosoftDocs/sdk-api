@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.Image.GetFlags
 title: Image::GetFlags (gdiplusheaders.h)
 description: The Image::GetFlags method gets a set of flags that indicate certain attributes of this Image object.
+helpviewer_keywords: ["GetFlags","GetFlags method [GDI+]","GetFlags method [GDI+]","Image class","Image class [GDI+]","GetFlags method","Image.GetFlags","Image::GetFlags","_gdiplus_CLASS_Image_GetFlags_","gdiplus._gdiplus_CLASS_Image_GetFlags_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFlags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getflags.htm
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [GDI+], GetFlags method [GDI+],Image class, Image class [GDI+],GetFlags method, Image.GetFlags, Image::GetFlags, _gdiplus_CLASS_Image_GetFlags_, gdiplus._gdiplus_CLASS_Image_GetFlags_
-f1_keywords:
-- gdiplusheaders/Image.GetFlags
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Image.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Image::GetFlags
+ - gdiplusheaders/Image::GetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Image.GetFlags
 ---
 
 # Image::GetFlags
@@ -49,49 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Image::GetFlags</b> method gets a set of flags that indicate certain attributes of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 
 
 ## -returns
 
+Type: <b>UINT</b>
 
-
-Type: <strong>Type: <b>UINT</b>
-</strong>
-
-This method returns a value that holds a set of single-bit flags. The flags are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a> enumeration.
-
-
-
+This method returns a value that holds a set of single-bit flags. The flags are defined in the <a href="/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a> enumeration.
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+<a href="/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimaging/ne-gdiplusimaging-imageflags">ImageFlags</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>

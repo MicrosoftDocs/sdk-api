@@ -2,15 +2,12 @@
 UID: NN:certenroll.IX509ExtensionAlternativeNames
 title: IX509ExtensionAlternativeNames (certenroll.h)
 description: Enables you to specify one or more alternative name forms for the subject of a certificate. A certification authority processes the extension by binding the names to the certified public key.
+helpviewer_keywords: ["IX509ExtensionAlternativeNames","IX509ExtensionAlternativeNames interface [Security]","IX509ExtensionAlternativeNames interface [Security]","described","certenroll/IX509ExtensionAlternativeNames","security.ix509extensionalternativenames"]
 old-location: security\ix509extensionalternativenames.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: facfcc85-c1ca-47a1-90a6-10522b15cc65
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security],described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
-f1_keywords:
-- certenroll/IX509ExtensionAlternativeNames
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509ExtensionAlternativeNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509ExtensionAlternativeNames
+ - certenroll/IX509ExtensionAlternativeNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509ExtensionAlternativeNames
 ---
 
 # IX509ExtensionAlternativeNames interface
@@ -48,9 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
+The <b>IX509ExtensionAlternativeNames</b> interface enables you to specify one or more alternative name forms for the subject of a <a href="/windows/desktop/SecGloss/c-gly">certificate</a>. A <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> processes the extension by binding the names to the certified <a href="/windows/desktop/SecGloss/p-gly">public key</a>. The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
-The <b>IX509ExtensionAlternativeNames</b> interface enables you to specify one or more alternative name forms for the subject of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>. A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> processes the extension by binding the names to the certified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>. The following syntax shows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
-<pre class="syntax" xml:space="preserve"><code>
+``` syntax
+
 ----------------------------------------------------------------------
 -- AlternativeNames 
 -- XCN_OID_SUBJECT_ALT_NAME2 (2.5.29.17)
@@ -77,7 +80,9 @@ OtherName ::= SEQUENCE
    type                    EncodedObjectID,
    value                   [0] EXPLICIT NOCOPYANY 
 }
-</code></pre> If you  initialize this extension by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a> collection, the following name types are supported.<table>
+
+```
+ If you  initialize this extension by using an <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a> collection, the following name types are supported.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -96,7 +101,7 @@ OtherName ::= SEQUENCE
 </tr>
 <tr>
 <td>XCN_CERT_ALT_NAME_DIRECTORY_NAME</td>
-<td>The name is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> directory name.</td>
+<td>The name is an <a href="/windows/desktop/SecGloss/x-gly">X.500</a> directory name.</td>
 </tr>
 <tr>
 <td>XCN_CERT_ALT_NAME_URL</td>
@@ -108,7 +113,7 @@ OtherName ::= SEQUENCE
 </tr>
 <tr>
 <td>XCN_CERT_ALT_NAME_REGISTERED_ID</td>
-<td>The name is a registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).</td>
+<td>The name is a registered <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).</td>
 </tr>
 <tr>
 <td>XCN_CERT_ALT_NAME_GUID</td>
@@ -116,87 +121,27 @@ OtherName ::= SEQUENCE
 </tr>
 <tr>
 <td>XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME</td>
-<td>The name is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN). The UPN format is based on RFC 822.</td>
+<td>The name is a <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN). The UPN format is based on RFC 822.</td>
 </tr>
 </table>
  
 
 
 
-To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
-
+To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionAlternativeNames</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionAlternativeNames</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IX509ExtensionAlternativeNames</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionalternativenames-initializedecode">InitializeDecode</a>
-</td>
-<td align="left" width="63%">
-Initializes the  extension from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded byte array that contains the extension value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionalternativenames-initializeencode">InitializeEncode</a>
-</td>
-<td align="left" width="63%">
-Initializes the extension from an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a> collection.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionAlternativeNames</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensionalternativenames-get_alternativenames">AlternativeNames</a>
-
-
-</td>
-<td align="left" width="63%">
-Retrieves a collection of subject alternative names.
-
-</td>
-</tr>
-</table> 
-
+The <b>IX509ExtensionAlternativeNames</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionAlternativeNames</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
+<a href="/windows/win32/seccrypto/extensions">Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmcobj/nn-mmcobj-extensions">Extensions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>

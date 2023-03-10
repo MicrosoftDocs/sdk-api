@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IResultsFolder.RemoveAll
 title: IResultsFolder::RemoveAll (shobjidl.h)
 description: Removes all items from a results folder.
+helpviewer_keywords: ["IResultsFolder interface [Windows Shell]","RemoveAll method","IResultsFolder.RemoveAll","IResultsFolder::RemoveAll","RemoveAll","RemoveAll method [Windows Shell]","RemoveAll method [Windows Shell]","IResultsFolder interface","_shell_IResultsFolder_RemoveAll","shell.IResultsFolder_RemoveAll","shobjidl/IResultsFolder::RemoveAll"]
 old-location: shell\IResultsFolder_RemoveAll.htm
 tech.root: shell
 ms.assetid: 2aac1b5a-298a-4682-9874-7cf114ce1f63
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveAll method, IResultsFolder.RemoveAll, IResultsFolder::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveAll, shell.IResultsFolder_RemoveAll, shobjidl/IResultsFolder::RemoveAll
-f1_keywords:
-- shobjidl/IResultsFolder.RemoveAll
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IResultsFolder.RemoveAll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResultsFolder::RemoveAll
+ - shobjidl/IResultsFolder::RemoveAll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IResultsFolder.RemoveAll
 ---
 
 # IResultsFolder::RemoveAll
@@ -48,24 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all items from a results folder.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

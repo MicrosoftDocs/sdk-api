@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateSearcher2.put_IgnoreDownloadPriority
 title: IUpdateSearcher2::put_IgnoreDownloadPriority (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether to ignore the download priority.
+description: Gets and sets a Boolean value that indicates whether to ignore the download priority. (Put)
+helpviewer_keywords: ["IUpdateSearcher2 interface [Windows Update Agent]","IgnoreDownloadPriority property","IUpdateSearcher2.IgnoreDownloadPriority","IUpdateSearcher2.put_IgnoreDownloadPriority","IUpdateSearcher2::IgnoreDownloadPriority","IUpdateSearcher2::get_IgnoreDownloadPriority","IUpdateSearcher2::put_IgnoreDownloadPriority","IgnoreDownloadPriority property [Windows Update Agent]","IgnoreDownloadPriority property [Windows Update Agent]","IUpdateSearcher2 interface","put_IgnoreDownloadPriority","wua.iupdatesearcher2_ignoredownloadpriority","wuapi/IUpdateSearcher2::IgnoreDownloadPriority","wuapi/IUpdateSearcher2::get_IgnoreDownloadPriority","wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority"]
 old-location: wua\iupdatesearcher2_ignoredownloadpriority.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7c33a9c0-d77b-4ba1-9df4-152f47508d48
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher2 interface [Windows Update Agent],IgnoreDownloadPriority property, IUpdateSearcher2.IgnoreDownloadPriority, IUpdateSearcher2.put_IgnoreDownloadPriority, IUpdateSearcher2::IgnoreDownloadPriority, IUpdateSearcher2::get_IgnoreDownloadPriority, IUpdateSearcher2::put_IgnoreDownloadPriority, IgnoreDownloadPriority property [Windows Update Agent], IgnoreDownloadPriority property [Windows Update Agent],IUpdateSearcher2 interface, put_IgnoreDownloadPriority, wua.iupdatesearcher2_ignoredownloadpriority, wuapi/IUpdateSearcher2::IgnoreDownloadPriority, wuapi/IUpdateSearcher2::get_IgnoreDownloadPriority, wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority
-f1_keywords:
-- wuapi/IUpdateSearcher2.IgnoreDownloadPriority
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher2.IgnoreDownloadPriority
-- IUpdateSearcher2.get_IgnoreDownloadPriority
-- IUpdateSearcher2.put_IgnoreDownloadPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher2::put_IgnoreDownloadPriority
+ - wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher2.IgnoreDownloadPriority
+ - IUpdateSearcher2.get_IgnoreDownloadPriority
+ - IUpdateSearcher2.put_IgnoreDownloadPriority
 ---
 
 # IUpdateSearcher2::put_IgnoreDownloadPriority
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets and sets a Boolean value that indicates whether to ignore the download priority. The download priority determines whether one update should replace another update.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearcher2</a> interface  may require you to update Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
-
-
-
+The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearcher2</a> interface  may require you to update Windows Update Agent (WUA). For more information, see <a href="/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearcher2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher2">IUpdateSearcher2</a>

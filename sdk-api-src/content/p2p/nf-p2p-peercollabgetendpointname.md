@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerCollabGetEndpointName
 title: PeerCollabGetEndpointName function (p2p.h)
 description: Retrieves the name of the current endpoint of the calling peer, as previously set by a call to PeerCollabSetEndpointName.
+helpviewer_keywords: ["PeerCollabGetEndpointName","PeerCollabGetEndpointName function [Peer Networking]","p2p.peercollabgetendpointname","p2p/PeerCollabGetEndpointName"]
 old-location: p2p\peercollabgetendpointname.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: f6165772-be55-4b56-bc70-dfa2c4a40c61
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetEndpointName, PeerCollabGetEndpointName function [Peer Networking], p2p.peercollabgetendpointname, p2p/PeerCollabGetEndpointName
-f1_keywords:
-- p2p/PeerCollabGetEndpointName
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabGetEndpointName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabGetEndpointName
+ - p2p/PeerCollabGetEndpointName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabGetEndpointName
 ---
 
 # PeerCollabGetEndpointName function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PeerCollabGetEndpointName</b> function retrieves the name of the current endpoint of the calling peer, as previously set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>.
-
+The <b>PeerCollabGetEndpointName</b> function retrieves the name of the current endpoint of the calling peer, as previously set by a call to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>.
 
 ## -parameters
-
-
-
 
 ### -param ppwzEndpointName [out]
 
 Pointer to a zero-terminated Unicode string name of the peer endpoint currently used by the calling application.
 
-
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -118,31 +112,15 @@ The operation requires the user to be signed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The endpoint name is limited to 25 Unicode characters. To free this data call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
-
-
-
+The endpoint name is limited to 25 Unicode characters. To free this data call <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>

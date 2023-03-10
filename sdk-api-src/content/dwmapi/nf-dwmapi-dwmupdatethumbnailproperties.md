@@ -2,15 +2,12 @@
 UID: NF:dwmapi.DwmUpdateThumbnailProperties
 title: DwmUpdateThumbnailProperties function (dwmapi.h)
 description: Updates the properties for a Desktop Window Manager (DWM) thumbnail.
+helpviewer_keywords: ["DwmUpdateThumbnailProperties","DwmUpdateThumbnailProperties function [Desktop Window Manager]","_udwm_dwmupdatethumbnailproperties","_udwm_dwmupdatethumbnailproperties_cpp","dwm.dwmupdatethumbnailproperties","dwmapi/DwmUpdateThumbnailProperties","winui._udwm_dwmupdatethumbnailproperties"]
 old-location: dwm\dwmupdatethumbnailproperties.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmupdatethumbnailproperties.htm
 ms.date: 12/05/2018
 ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function [Desktop Window Manager], _udwm_dwmupdatethumbnailproperties, _udwm_dwmupdatethumbnailproperties_cpp, dwm.dwmupdatethumbnailproperties, dwmapi/DwmUpdateThumbnailProperties, winui._udwm_dwmupdatethumbnailproperties
-f1_keywords:
-- dwmapi/DwmUpdateThumbnailProperties
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-api_name:
-- DwmUpdateThumbnailProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmUpdateThumbnailProperties
+ - dwmapi/DwmUpdateThumbnailProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+api_name:
+ - DwmUpdateThumbnailProperties
 ---
 
 # DwmUpdateThumbnailProperties function
@@ -48,39 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the properties for a Desktop Window Manager (DWM) thumbnail.
 
-
 ## -parameters
-
-
-
 
 ### -param hThumbnailId
 
 The handle to the DWM thumbnail to be updated. Null or invalid thumbnails, as well as thumbnails owned by other processes will result in a return value of E_INVALIDARG.
 
-
 ### -param ptnProperties [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_thumbnail_properties">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
-
+A pointer to a <a href="/windows/desktop/api/dwmapi/ns-dwmapi-dwm_thumbnail_properties">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Thumbnail relationships created by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmregisterthumbnail">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
+Thumbnail relationships created by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmregisterthumbnail">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
 
 
 #### Examples
@@ -125,29 +113,18 @@ HRESULT UpdateDesktop(HWND hwnd)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/dwm/thumbnail-ovw">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/thumbnail-ovw">DWM Thumbnail Overview</a>
+<a href="/windows/desktop/dwm/dwm-overview">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-overview">Desktop Window Manager Overview</a>
+<a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize">DwmQueryThumbnailSourceSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize">DwmQueryThumbnailSourceSize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmunregisterthumbnail">DwmUnregisterThumbnail</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmunregisterthumbnail">DwmUnregisterThumbnail</a>

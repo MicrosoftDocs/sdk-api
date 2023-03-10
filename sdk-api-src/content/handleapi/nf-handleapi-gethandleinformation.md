@@ -2,15 +2,12 @@
 UID: NF:handleapi.GetHandleInformation
 title: GetHandleInformation function (handleapi.h)
 description: Retrieves certain properties of an object handle.
+helpviewer_keywords: ["GetHandleInformation","GetHandleInformation function","HANDLE_FLAG_INHERIT","HANDLE_FLAG_PROTECT_FROM_CLOSE","_win32_gethandleinformation","base.gethandleinformation","handleapi/GetHandleInformation"]
 old-location: base\gethandleinformation.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: a0f50a0d-739d-411b-8144-77b775476d26
 ms.date: 12/05/2018
 ms.keywords: GetHandleInformation, GetHandleInformation function, HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, _win32_gethandleinformation, base.gethandleinformation, handleapi/GetHandleInformation
-f1_keywords:
-- handleapi/GetHandleInformation
-dev_langs:
-- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-handle-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetHandleInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetHandleInformation
+ - handleapi/GetHandleInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-handle-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetHandleInformation
 ---
 
 # GetHandleInformation function
@@ -52,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves certain properties of an object handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hObject [in]
 
@@ -69,7 +66,6 @@ A handle to an object whose information is to be retrieved.
 
 
 You can specify a handle to one of the following types of objects: access token, console input buffer, console screen buffer, event, file, file mapping, job, mailslot, mutex, pipe, printer, process, registry key, semaphore, serial communication device, socket, thread, or waitable timer.
-
 
 ### -param lpdwFlags [out]
 
@@ -90,7 +86,7 @@ A pointer to a variable that receives a set of bit flags that specify properties
 </td>
 <td width="60%">
 If this flag is set, a child process created with the <i>bInheritHandles</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> set to <b>TRUE</b> will inherit the object handle.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> set to <b>TRUE</b> will inherit the object handle.
 
 </td>
 </tr>
@@ -102,46 +98,32 @@ If this flag is set, a child process created with the <i>bInheritHandles</i> par
 </td>
 <td width="60%">
 If this flag is set, calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function will not close the object handle.
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function will not close the object handle.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-and-object-functions">Handle and
+<a href="/windows/desktop/SysInfo/handle-and-object-functions">Handle and
 		  Object Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation">SetHandleInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation">SetHandleInformation</a>

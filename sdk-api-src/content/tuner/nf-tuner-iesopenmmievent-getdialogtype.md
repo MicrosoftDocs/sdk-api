@@ -2,15 +2,12 @@
 UID: NF:tuner.IESOpenMmiEvent.GetDialogType
 title: IESOpenMmiEvent::GetDialogType (tuner.h)
 description: The GetDialogType method gets the GUID representing the experience type of the dialog that is being opened.
+helpviewer_keywords: ["GetDialogType","GetDialogType method [Microsoft TV Technologies]","GetDialogType method [Microsoft TV Technologies]","IESOpenMmiEvent interface","IESOpenMmiEvent interface [Microsoft TV Technologies]","GetDialogType method","IESOpenMmiEvent.GetDialogType","IESOpenMmiEvent::GetDialogType","mstv.iesopenmmievent_getdialogtype","tuner/IESOpenMmiEvent::GetDialogType"]
 old-location: mstv\iesopenmmievent_getdialogtype.htm
 tech.root: mstv
 ms.assetid: 93f3cd5e-7d8e-42b9-a688-3df22855e7fb
 ms.date: 12/05/2018
 ms.keywords: GetDialogType, GetDialogType method [Microsoft TV Technologies], GetDialogType method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogType method, IESOpenMmiEvent.GetDialogType, IESOpenMmiEvent::GetDialogType, mstv.iesopenmmievent_getdialogtype, tuner/IESOpenMmiEvent::GetDialogType
-f1_keywords:
-- tuner/IESOpenMmiEvent.GetDialogType
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESOpenMmiEvent.GetDialogType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESOpenMmiEvent::GetDialogType
+ - tuner/IESOpenMmiEvent::GetDialogType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESOpenMmiEvent.GetDialogType
 ---
 
 # IESOpenMmiEvent::GetDialogType
@@ -48,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetDialogType</b> method gets the GUID representing the experience type of the dialog that is being opened. 
-
+The <b>GetDialogType</b> method gets the GUID representing the experience type of the dialog that is being opened.
 
 ## -parameters
-
-
-
 
 ### -param guidDialogType [out, retval]
 
 Gets the GUID identifying the experience type of the dialog. If the application does not recognize the experience type, it should set the event as complete  by returning an ERROR_ INVALID_TYPE result.
-          
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesopenmmievent">IESOpenMmiEvent</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesopenmmievent">IESOpenMmiEvent</a>

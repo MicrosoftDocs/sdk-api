@@ -1,16 +1,13 @@
 ---
 UID: NS:srrestoreptapi._RESTOREPTINFOA
 title: RESTOREPOINTINFOA (srrestoreptapi.h)
-description: Contains information used by the SRSetRestorePoint function.
+description: Contains information used by the SRSetRestorePoint function. (ANSI)
+helpviewer_keywords: ["*PRESTOREPOINTINFOA","APPLICATION_INSTALL","APPLICATION_UNINSTALL","BEGIN_NESTED_SYSTEM_CHANGE","BEGIN_SYSTEM_CHANGE","CANCELLED_OPERATION","DEVICE_DRIVER_INSTALL","END_NESTED_SYSTEM_CHANGE","END_SYSTEM_CHANGE","MODIFY_SETTINGS","PRESTOREPOINTINFO","PRESTOREPOINTINFO structure pointer [System Restore]","RESTOREPOINTINFO","RESTOREPOINTINFO structure [System Restore]","RESTOREPOINTINFOA","RESTOREPOINTINFOW","_sr_restorepointinfo_str","sr.restorepointinfo_str","srrestoreptapi/PRESTOREPOINTINFO","srrestoreptapi/RESTOREPOINTINFO","srrestoreptapi/RESTOREPOINTINFOA","srrestoreptapi/RESTOREPOINTINFOW"]
 old-location: sr\restorepointinfo_str.htm
 tech.root: sr
 ms.assetid: 6f3c1fab-5298-47bb-ba38-87d11f111245
 ms.date: 12/05/2018
 ms.keywords: '*PRESTOREPOINTINFOA, APPLICATION_INSTALL, APPLICATION_UNINSTALL, BEGIN_NESTED_SYSTEM_CHANGE, BEGIN_SYSTEM_CHANGE, CANCELLED_OPERATION, DEVICE_DRIVER_INSTALL, END_NESTED_SYSTEM_CHANGE, END_SYSTEM_CHANGE, MODIFY_SETTINGS, PRESTOREPOINTINFO, PRESTOREPOINTINFO structure pointer [System Restore], RESTOREPOINTINFO, RESTOREPOINTINFO structure [System Restore], RESTOREPOINTINFOA, RESTOREPOINTINFOW, _sr_restorepointinfo_str, sr.restorepointinfo_str, srrestoreptapi/PRESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFO, srrestoreptapi/RESTOREPOINTINFOA, srrestoreptapi/RESTOREPOINTINFOW'
-f1_keywords:
-- srrestoreptapi/RESTOREPOINTINFO
-dev_langs:
-- c++
 req.header: srrestoreptapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SRRestorePtAPI.h
-api_name:
-- RESTOREPOINTINFO
-- RESTOREPOINTINFOA
-- RESTOREPOINTINFOW
 targetos: Windows
 req.typenames: RESTOREPOINTINFOA, *PRESTOREPOINTINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RESTOREPTINFOA
+ - srrestoreptapi/_RESTOREPTINFOA
+ - PRESTOREPOINTINFOA
+ - srrestoreptapi/PRESTOREPOINTINFOA
+ - RESTOREPOINTINFOA
+ - srrestoreptapi/RESTOREPOINTINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SRRestorePtAPI.h
+api_name:
+ - RESTOREPOINTINFO
+ - RESTOREPOINTINFOA
+ - RESTOREPOINTINFOW
 ---
 
 # RESTOREPOINTINFOA structure
@@ -50,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
-
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field dwEventType
 
@@ -121,8 +122,6 @@ A system change has ended.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwRestorePtType
 
@@ -191,28 +190,22 @@ An application needs to delete the restore point it created. For example, an app
 </td>
 </tr>
 </table>
- 
-
 
 ### -field llSequenceNumber
 
 The sequence number of the restore point. To end a system change, set this to the sequence number returned by the previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>.
-
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>.
 
 ### -field szDescription
 
 The description to be displayed so the user can easily identify a restore point. The maximum length of an ANSI string is MAX_DESC. The maximum length of a Unicode string is MAX_DESC_W. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/sr/restore-point-description-text">Restore Point Description Text</a>.
-
+<a href="/windows/desktop/sr/restore-point-description-text">Restore Point Description Text</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
- 
-
- 
-
+> [!NOTE]
+> The srrestoreptapi.h header defines RESTOREPOINTINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

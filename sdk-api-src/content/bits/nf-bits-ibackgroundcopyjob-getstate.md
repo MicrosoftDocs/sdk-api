@@ -2,15 +2,12 @@
 UID: NF:bits.IBackgroundCopyJob.GetState
 title: IBackgroundCopyJob::GetState (bits.h)
 description: Retrieves the state of the job.
+helpviewer_keywords: ["GetState","GetState method [BITS]","GetState method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetState method","IBackgroundCopyJob.GetState","IBackgroundCopyJob::GetState","_drz_ibackgroundcopyjob_getstate","bits.ibackgroundcopyjob_getstate","bits/IBackgroundCopyJob::GetState"]
 old-location: bits\ibackgroundcopyjob_getstate.htm
 tech.root: Bits
 ms.assetid: 32789bd2-2368-473b-accf-ac6e317d0172
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [BITS], GetState method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetState method, IBackgroundCopyJob.GetState, IBackgroundCopyJob::GetState, _drz_ibackgroundcopyjob_getstate, bits.ibackgroundcopyjob_getstate, bits/IBackgroundCopyJob::GetState
-f1_keywords:
-- bits/IBackgroundCopyJob.GetState
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::GetState
+ - bits/IBackgroundCopyJob::GetState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.GetState
 ---
 
 # IBackgroundCopyJob::GetState
+
 
 ## -description
 
@@ -92,11 +95,11 @@ The parameter, <i>pJobState</i>, cannot be <b>NULL</b>.
 ## -remarks
 
 If you want to know when a job is in error or has transferred all the files in the job, you can use this method to poll for the state of the job or you can register to receive notification when  events occur. For details on registering to receive event notification, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface.
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface.
 
 ## Examples
 
-See the example code for the [IBackgroundCopyManager::GetJob](/windows/win32/api/bits/nf-bits-ibackgroundcopymanager-getjob) method.
+See the example code for the [IBackgroundCopyManager::GetJob](./nf-bits-ibackgroundcopymanager-getjob.md) method.
 
 ## -see-also
 

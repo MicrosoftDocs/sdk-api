@@ -1,16 +1,13 @@
 ---
 UID: NF:vfw.MCIWndCreateW
 title: MCIWndCreateW function (vfw.h)
-description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window.
+description: The MCIWndCreate function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. MCIWndCreate can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window. (Unicode)
+helpviewer_keywords: ["MCIWndCreate", "MCIWndCreate function [Windows Multimedia]", "MCIWndCreateW", "_win32_MCIWndCreate", "multimedia.mciwndcreate", "vfw/MCIWndCreate", "vfw/MCIWndCreateW"]
 old-location: multimedia\mciwndcreate.htm
 tech.root: Multimedia
 ms.assetid: 7a4a22e1-6b04-4d46-8427-738181769f5b
 ms.date: 12/05/2018
 ms.keywords: MCIWndCreate, MCIWndCreate function [Windows Multimedia], MCIWndCreateA, MCIWndCreateW, _win32_MCIWndCreate, multimedia.mciwndcreate, vfw/MCIWndCreate, vfw/MCIWndCreateA, vfw/MCIWndCreateW
-f1_keywords:
-- vfw/MCIWndCreate
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msvfw32.dll
-api_name:
-- MCIWndCreate
-- MCIWndCreateA
-- MCIWndCreateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndCreateW
+ - vfw/MCIWndCreateW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msvfw32.dll
+api_name:
+ - MCIWndCreate
+ - MCIWndCreateA
+ - MCIWndCreateW
 ---
 
 # MCIWndCreateW function
@@ -50,31 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MCIWndCreate</b> function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. <b>MCIWndCreate</b> can also open an MCI device or file (such as an AVI file) and associate it with the MCIWnd window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwndParent
 
 Handle to the parent window.
 
-
 ### -param hInstance
 
 Handle to the module instance to associate with the MCIWnd window.
 
-
 ### -param dwStyle
 
-Flags defining the window style. In addition to specifying the window styles used with the <a href="https://go.microsoft.com/fwlink/p/?linkid=16991">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
+Flags defining the window style. In addition to specifying the window styles used with the <a href="/windows/win32/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function, you can specify the following styles to use with MCIWnd windows.
 
 <table>
 <tr>
@@ -113,15 +105,15 @@ Flags defining the window style. In addition to specifying the window styles use
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYMODE</td>
-<td>Causes MCIWnd to notify the parent window with an <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a> message whenever the device changes operating modes. The <i>lParam</i> parameter of this message identifies the new mode, such as MCI_MODE_STOP.</td>
+<td>Causes MCIWnd to notify the parent window with an <a href="/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a> message whenever the device changes operating modes. The <i>lParam</i> parameter of this message identifies the new mode, such as MCI_MODE_STOP.</td>
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYPOS</td>
-<td>Causes MCIWnd to notify the parent window with an <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a> message whenever a change in the playback or record position within the content occurs. The <i>lParam</i> parameter of this message contains the new position in the content.</td>
+<td>Causes MCIWnd to notify the parent window with an <a href="/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a> message whenever a change in the playback or record position within the content occurs. The <i>lParam</i> parameter of this message contains the new position in the content.</td>
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYMEDIA</td>
-<td>Causes MCIWnd to notify the parent window with an <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a> message whenever a new device is used or a data file is opened or closed. The <i>lParam</i> parameter of this message contains a pointer to the new file name.</td>
+<td>Causes MCIWnd to notify the parent window with an <a href="/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a> message whenever a new device is used or a data file is opened or closed. The <i>lParam</i> parameter of this message contains a pointer to the new file name.</td>
 </tr>
 <tr>
 <td>MCIWNDF_NOTIFYSIZE</td>
@@ -145,7 +137,7 @@ Flags defining the window style. In addition to specifying the window styles use
 </tr>
 <tr>
 <td>MCIWNDF_SHOWMODE</td>
-<td>Displays the current mode of the MCI device in the window title bar. For a list of device modes, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a> macro.</td>
+<td>Displays the current mode of the MCI device in the window title bar. For a list of device modes, see the <a href="/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a> macro.</td>
 </tr>
 <tr>
 <td>MCIWNDF_SHOWNAME</td>
@@ -156,59 +148,46 @@ Flags defining the window style. In addition to specifying the window styles use
 <td>Displays the current position within the content of the MCI device in the window title bar.</td>
 </tr>
 </table>
- 
-
 
 ### -param szFile
 
 Null-terminated string indicating the name of an MCI device or data file to open.
 
-
 ## -returns
-
-
 
 Returns the handle to an MCI window if successful or zero otherwise.
 
-
-
-
 ## -remarks
-
-
 
 Default window styles for a child window are WS_CHILD, WS_BORDER, and WS_VISIBLE. <b>MCIWndCreate</b> assumes a child window when a non-<b>NULL</b> handle of a parent window is specified.
 
 Default window styles for a parent window are WS_OVERLAPPEDWINDOW and WS_VISIBLE. <b>MCIWndCreate</b> assumes a parent window when a <b>NULL</b> handle of a parent window is specified.
 
-Use the window handle returned by this function for the window handle in the MCIWnd macros. If your application uses this function, it does not need to use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a> function.
+Use the window handle returned by this function for the window handle in the MCIWnd macros. If your application uses this function, it does not need to use the <a href="/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a> function.
 
 
 
+
+
+> [!NOTE]
+> The vfw.h header defines MCIWndCreate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymedia">MCIWNDM_NOTIFYMEDIA</a>
+<a href="/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifymode">MCIWNDM_NOTIFYMODE</a>
+<a href="/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-notifypos">MCIWNDM_NOTIFYPOS</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndgetmode">MCIWndGetMode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule3.put_LocalAppPackageId
 title: INetFwRule3::put_LocalAppPackageId (netfw.h)
-description: Specifies the package identifier or the app container identifier of a process, whether from a Windows Store app or a desktop app.
+description: Specifies the package identifier or the app container identifier of a process, whether from a Windows Store app or a desktop app. (Put)
+helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","LocalAppPackageId property","INetFwRule3.LocalAppPackageId","INetFwRule3.put_LocalAppPackageId","INetFwRule3::LocalAppPackageId","INetFwRule3::get_LocalAppPackageId","INetFwRule3::put_LocalAppPackageId","LocalAppPackageId property [ICS/ICF]","LocalAppPackageId property [ICS/ICF]","INetFwRule3 interface","ics.inetfwrule3_localapppackageid","netfw/INetFwRule3::LocalAppPackageId","netfw/INetFwRule3::get_LocalAppPackageId","netfw/INetFwRule3::put_LocalAppPackageId","put_LocalAppPackageId"]
 old-location: ics\inetfwrule3_localapppackageid.htm
 tech.root: ics
 ms.assetid: 8c1bccc6-3c8d-401c-8e9f-e88a4a60e3f4
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalAppPackageId property, INetFwRule3.LocalAppPackageId, INetFwRule3.put_LocalAppPackageId, INetFwRule3::LocalAppPackageId, INetFwRule3::get_LocalAppPackageId, INetFwRule3::put_LocalAppPackageId, LocalAppPackageId property [ICS/ICF], LocalAppPackageId property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_localapppackageid, netfw/INetFwRule3::LocalAppPackageId, netfw/INetFwRule3::get_LocalAppPackageId, netfw/INetFwRule3::put_LocalAppPackageId, put_LocalAppPackageId
-f1_keywords:
-- netfw/INetFwRule3.LocalAppPackageId
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule3.LocalAppPackageId
-- INetFwRule3.get_LocalAppPackageId
-- INetFwRule3.put_LocalAppPackageId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule3::put_LocalAppPackageId
+ - netfw/INetFwRule3::put_LocalAppPackageId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule3.LocalAppPackageId
+ - INetFwRule3.get_LocalAppPackageId
+ - INetFwRule3.put_LocalAppPackageId
 ---
 
 # INetFwRule3::put_LocalAppPackageId
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the package identifier or the app container identifier of a process, whether from a Windows Store app or a desktop  app.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>

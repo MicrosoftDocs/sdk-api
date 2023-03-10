@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.Region.Clone
 title: Region::Clone (gdiplusheaders.h)
 description: The Region::Clone method makes a copy of this Regionobject and returns the address of the new Regionobject.
+helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","Region class","Region class [GDI+]","Clone method","Region.Clone","Region::Clone","_gdiplus_CLASS_Region_Clone_","gdiplus._gdiplus_CLASS_Region_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\clone_1.htm
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Region class, Region class [GDI+],Clone method, Region.Clone, Region::Clone, _gdiplus_CLASS_Region_Clone_, gdiplus._gdiplus_CLASS_Region_Clone_
-f1_keywords:
-- gdiplusheaders/Region.Clone
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::Clone
+ - gdiplusheaders/Region::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.Clone
 ---
 
 # Region::Clone
@@ -49,28 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Region::Clone</b> method makes a copy of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object and returns the address of the new 
-			<b>Region</b>object.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object and returns the address of the new 
+			<b>Region</b> object.
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
-</strong>
+Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
 
 This method returns a pointer to the new 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object.
-
-
-
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object.

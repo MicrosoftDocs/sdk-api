@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetMainPackageName
 title: IAppxManifestOptionalPackageInfo::GetMainPackageName (appxpackaging.h)
 description: Gets the main package name from the optional package.
+helpviewer_keywords: ["GetMainPackageName","GetMainPackageName method [App packaging and management]","GetMainPackageName method [App packaging and management]","IAppxManifestOptionalPackageInfo interface","IAppxManifestOptionalPackageInfo interface [App packaging and management]","GetMainPackageName method","IAppxManifestOptionalPackageInfo.GetMainPackageName","IAppxManifestOptionalPackageInfo::GetMainPackageName","appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName","appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename"]
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getmainpackagename.htm
 tech.root: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583
 ms.date: 12/05/2018
 ms.keywords: GetMainPackageName, GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetMainPackageName method, IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
-f1_keywords:
-- appxpackaging/IAppxManifestOptionalPackageInfo.GetMainPackageName
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestOptionalPackageInfo.GetMainPackageName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestOptionalPackageInfo::GetMainPackageName
+ - appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestOptionalPackageInfo.GetMainPackageName
 ---
 
 # IAppxManifestOptionalPackageInfo::GetMainPackageName
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the main package name from the optional package.
 
-
 ## -parameters
-
-
-
 
 ### -param mainPackageName [out, retval]
 
 The main package name.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestoptionalpackageinfo">IAppxManifestOptionalPackageInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestoptionalpackageinfo">IAppxManifestOptionalPackageInfo</a>

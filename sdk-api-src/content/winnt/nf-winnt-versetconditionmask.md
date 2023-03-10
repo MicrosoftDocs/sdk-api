@@ -2,15 +2,12 @@
 UID: NF:winnt.VerSetConditionMask
 title: VerSetConditionMask function (winnt.h)
 description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.
+helpviewer_keywords: ["VER_AND","VER_BUILDNUMBER","VER_EQUAL","VER_GREATER","VER_GREATER_EQUAL","VER_LESS","VER_LESS_EQUAL","VER_MAJORVERSION","VER_MINORVERSION","VER_OR","VER_PLATFORMID","VER_PRODUCT_TYPE","VER_SERVICEPACKMAJOR","VER_SERVICEPACKMINOR","VER_SUITENAME","VerSetConditionMask","VerSetConditionMask function","_win32_versetconditionmask","base.versetconditionmask","winnt/VerSetConditionMask"]
 old-location: base\versetconditionmask.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 5ee18447-e55f-4d79-9d21-be7a619ea647
 ms.date: 12/05/2018
 ms.keywords: VER_AND, VER_BUILDNUMBER, VER_EQUAL, VER_GREATER, VER_GREATER_EQUAL, VER_LESS, VER_LESS_EQUAL, VER_MAJORVERSION, VER_MINORVERSION, VER_OR, VER_PLATFORMID, VER_PRODUCT_TYPE, VER_SERVICEPACKMAJOR, VER_SERVICEPACKMINOR, VER_SUITENAME, VerSetConditionMask, VerSetConditionMask function, _win32_versetconditionmask, base.versetconditionmask, winnt/VerSetConditionMask
-f1_keywords:
-- winnt/VerSetConditionMask
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-- Ntdll.dll
-api_name:
-- VerSetConditionMask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VerSetConditionMask
+ - winnt/VerSetConditionMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+ - Ntdll.dll
+api_name:
+ - VerSetConditionMask
 ---
 
 # VerSetConditionMask function
@@ -56,32 +58,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This function is used to build the <i>dwlConditionMask</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
-
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
 ## -parameters
-
-
-
 
 ### -param ConditionMask [in]
 
 A value to be passed as the <i>dwlConditionMask</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. The function stores the comparison information in the bits of this variable. 
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. The function stores the comparison information in the bits of this variable. 
 
 
 
 
 Before the first call to <b>VerSetCondition</b>, initialize this variable to zero. For subsequent calls, pass in the variable used in the previous call.
 
-
 ### -param TypeMask [in]
 
 A mask that indicates the member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure whose comparison operator is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. This parameter can be one of the following values.
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a> structure whose comparison operator is being set. This value corresponds to one of the bits specified in the <i>dwTypeMask</i> parameter for the 
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -177,13 +173,11 @@ wSuiteMask
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Condition [in]
 
 The operator to be used for the comparison. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function uses this operator to compare a specified attribute value to the corresponding value for the currently running system. 
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function uses this operator to compare a specified attribute value to the corresponding value for the currently running system. 
 
 
 
@@ -283,54 +277,36 @@ At least one of the specified product suites must be present in the current syst
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The function returns the condition mask value.
-
-
-
 
 ## -remarks
 
-
-
 Call this function once for each bit set in the <i>dwTypeMask</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/verifying-the-system-version">Verifying the System Version</a>.
+<a href="/windows/desktop/SysInfo/verifying-the-system-version">Verifying the System Version</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-osversioninfoexa">OSVERSIONINFOEX</a>
+<a href="/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/operating-system-version">Operating System Version</a>
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa">VerifyVersionInfo</a>

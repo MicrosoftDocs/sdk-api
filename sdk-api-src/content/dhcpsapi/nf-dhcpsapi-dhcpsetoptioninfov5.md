@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpSetOptionInfoV5
 title: DhcpSetOptionInfoV5 function (dhcpsapi.h)
 description: Sets information for a specific DHCP option.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpSetOptionInfoV5","DhcpSetOptionInfoV5 function [DHCP]","dhcp.dhcpsetoptioninfov5","dhcpsapi/DhcpSetOptionInfoV5"]
 old-location: dhcp\dhcpsetoptioninfov5.htm
 tech.root: DHCP
 ms.assetid: 2a58706e-dfae-418e-867a-328830d47d5b
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionInfoV5, DhcpSetOptionInfoV5 function [DHCP], dhcp.dhcpsetoptioninfov5, dhcpsapi/DhcpSetOptionInfoV5
-f1_keywords:
-- dhcpsapi/DhcpSetOptionInfoV5
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpSetOptionInfoV5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpSetOptionInfoV5
+ - dhcpsapi/DhcpSetOptionInfoV5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpSetOptionInfoV5
 ---
 
 # DhcpSetOptionInfoV5 function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DhcpSetOptionInfoV5</b> function sets information for a specific DHCP option. 
-
+The <b>DhcpSetOptionInfoV5</b> function sets information for a specific DHCP option.
 
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
-
 
 ### -param Flags [in]
 
@@ -82,35 +78,26 @@ This flag should be set if the option is provided by a vendor.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param OptionID [in]
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for a specific DHCP option.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for a specific DHCP option.
 
 ### -param ClassName [in]
 
 Pointer to a  Unicode string that specifies the DHCP  class name of the option. This parameter is optional.
 
-
 ### -param VendorName [in]
 
 Pointer to a Unicode string that specifies the vendor of the option. This parameter is optional, and should be <b>NULL</b> when <i>Flags</i> is not set to DHCP_FLAGS_OPTION_IS_VENDOR.
 
-
 ### -param OptionInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains the information on the option specified by <i>OptionID</i>.
-
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains the information on the option specified by <i>OptionID</i>.
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -151,22 +138,11 @@ The provided class name is either incorrect or does not exist on the DHCP server
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetoptioninfov5">DhcpGetOptionInfoV5</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetoptioninfov5">DhcpGetOptionInfoV5</a>

@@ -2,15 +2,12 @@
 UID: NS:virtdisk._CREATE_VIRTUAL_DISK_PARAMETERS
 title: CREATE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 description: Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, the newly created virtual disk.
+helpviewer_keywords: ["*PCREATE_VIRTUAL_DISK_PARAMETERS","CREATE_VIRTUAL_DISK_PARAMETERS","CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD]","CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE","CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE","CREATE_VIRTUAL_DISK_VERSION_1","CREATE_VIRTUAL_DISK_VERSION_2","PCREATE_VIRTUAL_DISK_PARAMETERS","PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_CREATE_VIRTUAL_DISK_PARAMETERS","vdssys/CREATE_VIRTUAL_DISK_PARAMETERS","vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS","vhd.create_virtual_disk_parameters","virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS","virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS"]
 old-location: vhd\create_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 797e21ae-a4c4-48df-8124-e5c2fad22f33
-ms.date: 12/05/2018
+ms.date: 07/28/2020
 ms.keywords: '*PCREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS, CREATE_VIRTUAL_DISK_PARAMETERS structure [VHD], CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_BLOCK_SIZE, CREATE_VIRTUAL_DISK_PARAMETERS_DEFAULT_SECTOR_SIZE, CREATE_VIRTUAL_DISK_VERSION_1, CREATE_VIRTUAL_DISK_VERSION_2, PCREATE_VIRTUAL_DISK_PARAMETERS, PCREATE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/CREATE_VIRTUAL_DISK_PARAMETERS, vdssys/PCREATE_VIRTUAL_DISK_PARAMETERS, vhd.create_virtual_disk_parameters, virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS, virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS'
-f1_keywords:
-- virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VirtDisk.h
-- vdssys.h
-api_name:
-- CREATE_VIRTUAL_DISK_PARAMETERS
 targetos: Windows
 req.typenames: CREATE_VIRTUAL_DISK_PARAMETERS, *PCREATE_VIRTUAL_DISK_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREATE_VIRTUAL_DISK_PARAMETERS
+ - virtdisk/_CREATE_VIRTUAL_DISK_PARAMETERS
+ - PCREATE_VIRTUAL_DISK_PARAMETERS
+ - virtdisk/PCREATE_VIRTUAL_DISK_PARAMETERS
+ - CREATE_VIRTUAL_DISK_PARAMETERS
+ - virtdisk/CREATE_VIRTUAL_DISK_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VirtDisk.h
+ - vdssys.h
+api_name:
+ - CREATE_VIRTUAL_DISK_PARAMETERS
 ---
 
 # CREATE_VIRTUAL_DISK_PARAMETERS structure
@@ -49,19 +55,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains virtual hard disk (VHD) creation parameters, providing control over, and information about, 
     the newly created virtual disk.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
-A value from the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_version">CREATE_VIRTUAL_DISK_VERSION</a> 
+A value from the <a href="/windows/win32/api/virtdisk/ne-virtdisk-create_virtual_disk_version">CREATE_VIRTUAL_DISK_VERSION</a> 
       enumeration that is the discriminant for the union.
 
 <table>
@@ -92,20 +93,16 @@ Use the <b>Version2</b> member of this structure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Version1
 
 This structure is used if the <b>Version</b> member is 
        <b>CREATE_VIRTUAL_DISK_VERSION_1</b> (1).
 
-
 ### -field Version1.UniqueId
 
 Unique identifier to assign to the virtual disk object. If this member is set to zero, a unique 
         identifier is created by the system.
-
 
 ### -field Version1.MaximumSize
 
@@ -116,7 +113,6 @@ If a <b>ParentPath</b> is specified, this value must be zero.
 If a <b>SourcePath</b> is specified, this value can be zero to specify the size of the 
          source virtual disk to be used, otherwise the size specified must be greater than or equal to the size of the 
          source disk.
-
 
 ### -field Version1.BlockSizeInBytes
 
@@ -162,8 +158,6 @@ The block size is 2 MB
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Version1.SectorSizeInBytes
 
@@ -186,27 +180,23 @@ The default and only allowable size, 512 bytes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Version1.ParentPath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
          virtual disk object. Associates the new virtual disk with an existing virtual disk.
 
 If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be 
          <b>NULL</b>.
 
-
 ### -field Version1.SourcePath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
           pre-populate the new virtual disk object with block data from an existing disk. This path may refer to a 
           virtual disk or a physical disk.
 
 If this parameter is not <b>NULL</b>, <b>ParentPath</b> must be 
          <b>NULL</b>.
-
 
 ### -field Version2
 
@@ -215,12 +205,10 @@ This structure is used if the <b>Version</b> member is
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This structure is not supported until Windows 8 and Windows Server 2012.
 
-
 ### -field Version2.UniqueId
 
 Unique identifier to assign to the virtual disk object. If this member is set to zero, a unique 
         identifier is created by the system.
-
 
 ### -field Version2.MaximumSize
 
@@ -231,7 +219,6 @@ If a <b>ParentPath</b> is specified, this value must be zero.
 If a <b>SourcePath</b> is specified, this value can be zero to specify the size of the 
          source virtual disk to be used, otherwise the size specified must be greater than or equal to the size of the 
          source disk.
-
 
 ### -field Version2.BlockSizeInBytes
 
@@ -279,238 +266,101 @@ The block size is 2 MB. This value is not supported on fixed VHD 1 virtual disks
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Version2.SectorSizeInBytes
 
 Internal size of the virtual disk object sectors. For VHDX  must be set to 512 (0x200) or 
         4096 (0x1000). For VHD 1 must be set to 512.
 
-
 ### -field Version2.PhysicalSectorSizeInBytes
-
- 
-
 
 ### -field Version2.ParentPath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to a parent 
          virtual disk object. Associates the new virtual disk with an existing virtual disk.
 
 If this parameter is not <b>NULL</b>, <b>SourcePath</b> must be 
          <b>NULL</b>.
 
-
 ### -field Version2.SourcePath
 
-Optional <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
+Optional <a href="/windows/desktop/FileIO/naming-a-file">fully qualified</a> path to 
           pre-populate the new virtual disk object with block data from an existing disk. This path may refer to a 
           virtual disk or a physical disk.
 
 If this parameter is not <b>NULL</b>, <b>ParentPath</b> must be 
          <b>NULL</b>.
 
-
 ### -field Version2.OpenFlags
 
 Zero or more flags from the 
-        <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
+        <a href="/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
         how the virtual disk is to be opened.
-
 
 ### -field Version2.ParentVirtualStorageType
 
-A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the parent virtual disk specified in the <b>ParentPath</b> member.
-
 
 ### -field Version2.SourceVirtualStorageType
 
-A <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the source virtual disk specified in the <b>SourcePath</b> member.
-
 
 ### -field Version2.ResiliencyGuid
 
 Resiliency <b>GUID</b> for the file.
 
-
-### -field Version3
-
- 
-
-
-### -field Version3.UniqueId
-
- 
-
-
-### -field Version3.MaximumSize
-
- 
-
-
-### -field Version3.BlockSizeInBytes
-
- 
-
-
-### -field Version3.SectorSizeInBytes
-
- 
-
-
-### -field Version3.PhysicalSectorSizeInBytes
-
- 
-
-
-### -field Version3.ParentPath
-
- 
-
-
-### -field Version3.SourcePath
-
- 
-
-
-### -field Version3.OpenFlags
-
- 
-
-
-### -field Version3.ParentVirtualStorageType
-
- 
-
-
-### -field Version3.SourceVirtualStorageType
-
- 
-
-
-### -field Version3.ResiliencyGuid
-
- 
-
-
-### -field Version3.SourceLimitPath
-
- 
-
-
-### -field Version3.BackingStorageType
-
- 
-
-
-### -field Version4
-
- 
-
-
-### -field Version4.UniqueId
-
- 
-
-
-### -field Version4.MaximumSize
-
- 
-
-
-### -field Version4.BlockSizeInBytes
-
- 
-
-
-### -field Version4.SectorSizeInBytes
-
- 
-
-
-### -field Version4.PhysicalSectorSizeInBytes
-
- 
-
-
-### -field Version4.ParentPath
-
- 
-
-
-### -field Version4.SourcePath
-
- 
-
-
-### -field Version4.OpenFlags
-
- 
-
-
-### -field Version4.ParentVirtualStorageType
-
- 
-
-
-### -field Version4.SourceVirtualStorageType
-
- 
-
-
-### -field Version4.ResiliencyGuid
-
- 
-
-
-### -field Version4.SourceLimitPath
-
- 
-
-
-### -field Version4.BackingStorageType
-
- 
-
-
-### -field Version4.PmemAddressAbstractionType
-
- 
-
-
-### -field Version4.DataAlignment
-
- 
-
-
-
+> [!NOTE]
+> The following parameters prefaced Version3 and Version4 are intended for internal use.
+
+## -syntax 
+
+```cpp
+typedef struct _CREATE_VIRTUAL_DISK_PARAMETERS {
+  CREATE_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      GUID      UniqueId;
+      ULONGLONG MaximumSize;
+      ULONG     BlockSizeInBytes;
+      ULONG     SectorSizeInBytes;
+      PCWSTR    ParentPath;
+      PCWSTR    SourcePath;
+    } Version1;
+    struct {
+      GUID                   UniqueId;
+      ULONGLONG              MaximumSize;
+      ULONG                  BlockSizeInBytes;
+      ULONG                  SectorSizeInBytes;
+      ULONG                  PhysicalSectorSizeInBytes;
+      PCWSTR                 ParentPath;
+      PCWSTR                 SourcePath;
+      OPEN_VIRTUAL_DISK_FLAG OpenFlags;
+      VIRTUAL_STORAGE_TYPE   ParentVirtualStorageType;
+      VIRTUAL_STORAGE_TYPE   SourceVirtualStorageType;
+      GUID                   ResiliencyGuid;
+    } Version2;
+  };
+} CREATE_VIRTUAL_DISK_PARAMETERS, *PCREATE_VIRTUAL_DISK_PARAMETERS;
+```
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
+<a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323701(v=vs.85)">VHD Structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/dd323701(v=vs.85)">VHD Structures</a>

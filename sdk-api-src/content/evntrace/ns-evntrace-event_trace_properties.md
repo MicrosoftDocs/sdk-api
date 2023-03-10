@@ -1,704 +1,657 @@
----
+﻿---
 UID: NS:evntrace._EVENT_TRACE_PROPERTIES
 title: EVENT_TRACE_PROPERTIES (evntrace.h)
-description: The EVENT_TRACE_PROPERTIES structure contains information about an event tracing session. You use this structure when you define a session, change the properties of a session, or query for the properties of a session.
+description:
+  The EVENT_TRACE_PROPERTIES structure contains information about an event
+  tracing session and is used with APIs such as StartTrace and ControlTrace.
+helpviewer_keywords:
+  [
+    "*PEVENT_TRACE_PROPERTIES",
+    "EVENT_TRACE_FLAG_ALPC",
+    "EVENT_TRACE_FLAG_CSWITCH",
+    "EVENT_TRACE_FLAG_DBGPRINT",
+    "EVENT_TRACE_FLAG_DISK_FILE_IO",
+    "EVENT_TRACE_FLAG_DISK_IO",
+    "EVENT_TRACE_FLAG_DISK_IO_INIT",
+    "EVENT_TRACE_FLAG_DISPATCHER",
+    "EVENT_TRACE_FLAG_DPC",
+    "EVENT_TRACE_FLAG_DRIVER",
+    "EVENT_TRACE_FLAG_FILE_IO",
+    "EVENT_TRACE_FLAG_FILE_IO_INIT",
+    "EVENT_TRACE_FLAG_IMAGE_LOAD",
+    "EVENT_TRACE_FLAG_INTERRUPT",
+    "EVENT_TRACE_FLAG_JOB",
+    "EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS",
+    "EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS",
+    "EVENT_TRACE_FLAG_NETWORK_TCPIP",
+    "EVENT_TRACE_FLAG_NO_SYSCONFIG",
+    "EVENT_TRACE_FLAG_PROCESS",
+    "EVENT_TRACE_FLAG_PROCESS_COUNTERS",
+    "EVENT_TRACE_FLAG_PROFILE",
+    "EVENT_TRACE_FLAG_REGISTRY",
+    "EVENT_TRACE_FLAG_SPLIT_IO",
+    "EVENT_TRACE_FLAG_SYSTEMCALL",
+    "EVENT_TRACE_FLAG_THREAD",
+    "EVENT_TRACE_FLAG_VAMAP",
+    "EVENT_TRACE_FLAG_VIRTUAL_ALLOC",
+    "EVENT_TRACE_PROPERTIES",
+    "EVENT_TRACE_PROPERTIES structure [ETW]",
+    "PEVENT_TRACE_PROPERTIES",
+    "PEVENT_TRACE_PROPERTIES structure pointer [ETW]",
+    "_EVENT_TRACE_PROPERTIES",
+    "_evt_event_trace_properties",
+    "base.event_trace_properties",
+    "etw.event_trace_properties",
+    "etw.event_trace_properties_str",
+    "evntrace/EVENT_TRACE_PROPERTIES",
+    "evntrace/PEVENT_TRACE_PROPERTIES",
+  ]
 old-location: etw\event_trace_properties.htm
 tech.root: ETW
 ms.assetid: 0c967971-8df1-4679-a8a9-a783f5b35860
 ms.date: 12/05/2018
-ms.keywords: '*PEVENT_TRACE_PROPERTIES, EVENT_TRACE_FLAG_ALPC, EVENT_TRACE_FLAG_CSWITCH, EVENT_TRACE_FLAG_DBGPRINT, EVENT_TRACE_FLAG_DISK_FILE_IO, EVENT_TRACE_FLAG_DISK_IO, EVENT_TRACE_FLAG_DISK_IO_INIT, EVENT_TRACE_FLAG_DISPATCHER, EVENT_TRACE_FLAG_DPC, EVENT_TRACE_FLAG_DRIVER, EVENT_TRACE_FLAG_FILE_IO, EVENT_TRACE_FLAG_FILE_IO_INIT, EVENT_TRACE_FLAG_IMAGE_LOAD, EVENT_TRACE_FLAG_INTERRUPT, EVENT_TRACE_FLAG_JOB, EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS, EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS, EVENT_TRACE_FLAG_NETWORK_TCPIP, EVENT_TRACE_FLAG_NO_SYSCONFIG, EVENT_TRACE_FLAG_PROCESS, EVENT_TRACE_FLAG_PROCESS_COUNTERS, EVENT_TRACE_FLAG_PROFILE, EVENT_TRACE_FLAG_REGISTRY, EVENT_TRACE_FLAG_SPLIT_IO, EVENT_TRACE_FLAG_SYSTEMCALL, EVENT_TRACE_FLAG_THREAD, EVENT_TRACE_FLAG_VAMAP, EVENT_TRACE_FLAG_VIRTUAL_ALLOC, EVENT_TRACE_PROPERTIES, EVENT_TRACE_PROPERTIES structure [ETW], PEVENT_TRACE_PROPERTIES, PEVENT_TRACE_PROPERTIES structure pointer [ETW], _EVENT_TRACE_PROPERTIES, _evt_event_trace_properties, base.event_trace_properties, etw.event_trace_properties, etw.event_trace_properties_str, evntrace/EVENT_TRACE_PROPERTIES, evntrace/PEVENT_TRACE_PROPERTIES'
-f1_keywords:
-- evntrace/EVENT_TRACE_PROPERTIES
-dev_langs:
-- c++
+ms.keywords:
+  "*PEVENT_TRACE_PROPERTIES, EVENT_TRACE_FLAG_ALPC, EVENT_TRACE_FLAG_CSWITCH,
+  EVENT_TRACE_FLAG_DBGPRINT, EVENT_TRACE_FLAG_DISK_FILE_IO,
+  EVENT_TRACE_FLAG_DISK_IO, EVENT_TRACE_FLAG_DISK_IO_INIT,
+  EVENT_TRACE_FLAG_DISPATCHER, EVENT_TRACE_FLAG_DPC, EVENT_TRACE_FLAG_DRIVER,
+  EVENT_TRACE_FLAG_FILE_IO, EVENT_TRACE_FLAG_FILE_IO_INIT,
+  EVENT_TRACE_FLAG_IMAGE_LOAD, EVENT_TRACE_FLAG_INTERRUPT, EVENT_TRACE_FLAG_JOB,
+  EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS, EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS,
+  EVENT_TRACE_FLAG_NETWORK_TCPIP, EVENT_TRACE_FLAG_NO_SYSCONFIG,
+  EVENT_TRACE_FLAG_PROCESS, EVENT_TRACE_FLAG_PROCESS_COUNTERS,
+  EVENT_TRACE_FLAG_PROFILE, EVENT_TRACE_FLAG_REGISTRY,
+  EVENT_TRACE_FLAG_SPLIT_IO, EVENT_TRACE_FLAG_SYSTEMCALL,
+  EVENT_TRACE_FLAG_THREAD, EVENT_TRACE_FLAG_VAMAP,
+  EVENT_TRACE_FLAG_VIRTUAL_ALLOC, EVENT_TRACE_PROPERTIES, EVENT_TRACE_PROPERTIES
+  structure [ETW], PEVENT_TRACE_PROPERTIES, PEVENT_TRACE_PROPERTIES structure
+  pointer [ETW], _EVENT_TRACE_PROPERTIES, _evt_event_trace_properties,
+  base.event_trace_properties, etw.event_trace_properties,
+  etw.event_trace_properties_str, evntrace/EVENT_TRACE_PROPERTIES,
+  evntrace/PEVENT_TRACE_PROPERTIES"
 req.header: evntrace.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Evntrace.h
-api_name:
-- EVENT_TRACE_PROPERTIES
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 targetos: Windows
 req.typenames: EVENT_TRACE_PROPERTIES, *PEVENT_TRACE_PROPERTIES
-req.redist: 
+req.redist:
 ms.custom: 19H1
+f1_keywords:
+  - _EVENT_TRACE_PROPERTIES
+  - evntrace/_EVENT_TRACE_PROPERTIES
+  - PEVENT_TRACE_PROPERTIES
+  - evntrace/PEVENT_TRACE_PROPERTIES
+  - EVENT_TRACE_PROPERTIES
+  - evntrace/EVENT_TRACE_PROPERTIES
+dev_langs:
+  - c++
+topic_type:
+  - APIRef
+  - kbSyntax
+api_type:
+  - HeaderDef
+api_location:
+  - Evntrace.h
+api_name:
+  - EVENT_TRACE_PROPERTIES
 ---
 
 # EVENT_TRACE_PROPERTIES structure
 
-
 ## -description
 
+The **EVENT_TRACE_PROPERTIES** structure contains information about an event
+tracing session. You use this structure with APIs such as
+[StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracea) and
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) when
+defining, updating, or querying the properties of a session.
 
-The 
-<b>EVENT_TRACE_PROPERTIES</b> structure contains information about an event tracing session. You use this structure when you define a session, change the properties of a session, or query for the properties of a session.
-
+> [!Note]
+> This is a version-1 structure. Additional options are supported by
+> [EVENT_TRACE_PROPERTIES_V2](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties_v2)
+> (e.g. **FilterDesc** and **V2Options**).
 
 ## -struct-fields
 
-
-
-
 ### -field Wnode
 
-A 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a> structure. You must specify the <b>BufferSize</b>, <b>Flags</b>, and <b>Guid</b> members, and optionally the  <b>ClientContext</b> member.
-
+A [WNODE_HEADER](/windows/win32/etw/wnode-header) structure. You must specify
+the **BufferSize**, **Flags**, and **Guid** members. You may optionally specify
+the **ClientContext** member.
 
 ### -field BufferSize
 
-Amount of memory allocated for each event tracing session buffer, in kilobytes. The maximum buffer size is 1 MB. ETW uses the size of physical memory to calculate this value. For more information, see Remarks.
+Kilobytes of memory allocated for each event tracing session buffer. The minimum
+buffer size is 4 (4KB). The maximum buffer size is 16384 (16MB). Most trace
+sessions should use a buffer size of 64KB or less to avoid wasting memory and
+disk space. **Prior to Windows 8:** The maximum buffer size is 1024 (1MB).
 
-If an application expects a relatively low event rate, the buffer size should be set to the memory page size. If the event rate is expected to be relatively high, the application should specify a larger buffer size, and should increase the maximum number of buffers. 
+Smaller buffer sizes reduce session memory usage and can help reduce log file
+size. Larger buffer sizes support collection of larger events because ETW does
+not fragment events across buffer boundaries and therefore cannot collect events
+larger than the buffer size. In scenarios involving extremely high data
+throughput, larger buffer sizes can also reduce CPU overhead.
 
-The buffer size affects the rate at which buffers fill and must be flushed. Although a small buffer size requires less memory, it increases the rate at which buffers must be flushed. 
+- A session with small events and a low event rate (a few KB/s) should use a
+  small buffer size (4KB to 16KB).
+- A session with small events and a moderate event rate should use a medium
+  buffer size (16KB to 32KB).
+- A session with large events or a high event rate (a few MB/s) should use a
+  large buffer size (64KB to 128KB).
+- In rare cases when a large amount of memory should be reserved for a
+  diagnostic trace with hundreds of megabytes of data per second, a huge buffer
+  size (256KB to 1024KB) can reduce CPU overhead.
 
+> [!Note]
+> Regardless of buffer size, ETW cannot collect events larger than 64KB.
+
+ETW may adjust the requested **BufferSize** upwards in certain scenarios. For
+example, when writing a trace file to a disk, ETW may increase the buffer size
+to a multiple of the disk's physical block size.
+
+> [!Important]
+> **BufferSize** is one of the most important parameters for a
+> trace session. Large buffers usually waste memory and disk space. Trace
+> sessions with large buffers (256KB or larger) should be used only for
+> diagnostic investigations or testing, not for production tracing.
+
+> [!Tip]
+> Do not use **BufferSize** to control the trace session's memory usage.
+> Instead, select the buffer size based on your session's event size and event
+> rate, then use the **MinimumBuffers** and **MaximumBuffers** parameters to
+> adjust session memory usage.
 
 ### -field MinimumBuffers
 
-Minimum number of buffers allocated for the event tracing session's buffer pool. The minimum number of buffers that you can specify is two buffers per processor. For example, on a single processor computer, the minimum number of buffers is two. Note that if you use the EVENT_TRACE_NO_PER_PROCESSOR_BUFFERING logging mode, the number of processors is assumed to be 1.
+Minimum number of buffers reserved for the tracing session's buffer pool.
 
+ETW may adjust this value in certain scenarios.
+
+- If the logging mode includes the `EVENT_TRACE_NO_PER_PROCESSOR_BUFFERING`
+  flag, ETW will reserve at least 2 buffers.
+- If the logging mode does not include the
+  `EVENT_TRACE_NO_PER_PROCESSOR_BUFFERING` flag, ETW will reserve at least 2
+  buffers for each logical processor.
+- If this value is larger than an ETW-determined limit, ETW may reduce it to the
+  limit to avoid excessive memory usage.
+
+For file-mode and real-time traces with moderate event rates, most users should
+minimize memory usage by setting **MinimumBuffers** to 0 or to a small minimum
+(e.g. 4 or 8), allowing ETW to adjust the value upwards based on the number of
+processors. ETW will reserve the (adjusted) minimum number of buffers when the
+trace is started. If the buffers are filled more quickly than they can be
+processed, ETW will try to allocate addition buffers, up the the number
+specified by **MaximumBuffers**.
+
+For buffering-mode (circular in-memory) traces, users should set the
+**MinimumBuffers** parameter according to the total amount of memory that you
+want ETW to reserve for the session. This is usually calculated based on the
+expected event rate and the amount of time you want the trace to cover. For
+example, if you expect a data rate of 16KB per second and you want your trace to
+record at least 60 seconds of data, you would need 960KB. Assuming a buffer size
+of 32KB, you would set **MinimumBuffers** to 30 (960KB total / 32KB per buffer =
+30 buffers). ETW will reserve the (adjusted) minimum number of buffers when the
+trace is started. When all buffers are filled, ETW will reuse the oldest filled
+buffer for new events. Note that ETW will not allocate additional buffers (ETW
+ignores **MaximumBuffers** for buffering-mode traces).
 
 ### -field MaximumBuffers
 
-Maximum number of buffers allocated for the event tracing session's buffer pool. Typically, this value is the minimum number of buffers plus twenty. ETW uses the buffer size and the size of physical memory to calculate this value. This value must be greater than or equal to the value for <b>MinimumBuffers</b>. Note that  you do not need to set this value if <b>LogFileMode</b> contains <b>EVENT_TRACE_BUFFERING_MODE</b>; instead, the total memory buffer size is instead the product of  <b>MinimumBuffers</b> and <b>BufferSize</b>.
+Maximum number of buffers to be allocated for the tracing session's buffer pool.
 
+ETW may adjust this value in certain scenarios.
+
+- If this value is less than the adjusted value of **MinimumBuffers**, ETW may
+  increase it to a suitable value equal to or larger than **MinimumBuffers**.
+- If this value is larger than an ETW-determined limit, ETW may reduce it to the
+  limit.
+
+Most users should start tuning their session by setting **MinimumBuffers** and
+**MaximumBuffers** to the same value. You might then increase the value of
+**MaximumBuffers** if the trace drops events during event rate peaks.
+
+ETW cannot allocate on-demand buffers if the event is generated by a driver
+running at high IRQL. If your trace session needs to record events from
+high-IRQL kernel-mode providers, it may need to use a higher value of
+**MinimumBuffers** to force the buffers to be preallocated.
+
+> [!Note]
+> ETW ignores **MaximumBuffers** for buffering-mode sessions (sessions
+> that include logging mode `EVENT_TRACE_BUFFERING_MODE`). Buffering-mode
+> sessions always allocate **MinimumBuffers** at the start of the trace
+> collection and never allocate additional buffers.
 
 ### -field MaximumFileSize
 
-Maximum size of the file used to log events, in megabytes. Typically, you use this member to limit the size of a circular log file when you set <b>LogFileMode</b> to <b>EVENT_TRACE_FILE_MODE_CIRCULAR</b>. This member must be specified if <b>LogFileMode</b> contains <b>EVENT_TRACE_FILE_MODE_PREALLOCATE</b>, <b>EVENT_TRACE_FILE_MODE_CIRCULAR</b> or <b>EVENT_TRACE_FILE_MODE_NEWFILE</b>
+Maximum size of the file used to log events, in megabytes, or zero for no size
+limit. Typically, you use this member to limit the size of a circular log file
+when you set **LogFileMode** to `EVENT_TRACE_FILE_MODE_CIRCULAR`. This member
+must be set to a nonzero value if **LogFileMode** contains
+`EVENT_TRACE_FILE_MODE_PREALLOCATE`, `EVENT_TRACE_FILE_MODE_CIRCULAR` or
+`EVENT_TRACE_FILE_MODE_NEWFILE`.
 
-If you are using the system drive (the drive that contains the operating system) for logging, ETW checks for an additional 200MB of disk space, regardless of whether you are using the maximum file size parameter. Therefore, if you specify 100MB as the maximum file size for the trace file in the system drive, you need to have 300MB of free space on the drive. 
-
+If you are using the system drive (the drive that contains the operating system)
+for logging, ETW checks for an additional 200MB of disk space, regardless of
+whether you are using the maximum file size parameter. Therefore, if you specify
+100MB as the maximum file size for the trace file in the system drive, you need
+to have 300MB of free space on the drive.
 
 ### -field LogFileMode
 
-Logging modes for the event tracing session. You use this member to specify that you want events written to a log file, a real-time consumer, or both. You can also use this member to specify that the session is a private logger session. You can specify one or more modes. For a list of possible modes, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/logging-mode-constants">Logging Mode Constants</a>.
+Logging flags for the event tracing session. You use this member to specify
+whether you want events written to an in-memory circular buffer, a log file, or
+a real-time consumer. You can also use this member to specify other session
+characteristics, e.g. that the session is a private logger session. For a list
+of possible flags, see
+[Logging Mode Constants](/windows/win32/etw/logging-mode-constants).
 
-Do not specify real-time logging unless there are real-time consumers ready to consume the events. If there are no real-time consumers, ETW writes the events to a playback file. However, the size of the playback file is limited. If the limit is reached, no new events are logged (to the log file or playback file) and the logging functions fail with STATUS_LOG_FILE_FULL.<b>Prior to Windows Vista:  </b>If there was no real-time consumer, the events were discarded and logging continues.</p>If a consumer begins processing real-time events, the events in the playback file are consumed first. After all events in the playback file are consumed, the session will begin logging new events.
+ETW buffers events for real-time sessions when there are no real-time consumers
+for the session. Note that this buffering is limited. If the limit is reached,
+new events will be ignored and the logging functions fail with
+`STATUS_LOG_FILE_FULL`. **Prior to Windows Vista:** If there is no real-time
+consumer, events are discarded and logging continues.
 
+Do not start a real-time logging session unless a real-time consumer will
+consume the events. A real-time session with no consumers will waste system
+resources (CPU, memory, and disk space for buffering the events).
+
+If a consumer begins processing real-time events, the buffered events are
+consumed first. After all buffered events are consumed, the session will begin
+reporting new events.
 
 ### -field FlushTimer
 
-How often, in seconds, the trace buffers are forcibly flushed. The minimum flush time is 1 second.
-This forced flush is in addition to the automatic flush that occurs whenever a buffer is full and when the trace session stops.
+How often, in seconds, any non-empty trace buffers are flushed. The minimum
+flush time is 1 second.
 
-
-
-If zero, ETW flushes buffers as soon as they become full. If nonzero, ETW flushes all buffers that contain events based on the timer value. Typically, you want to flush buffers only when they become full. Forcing the buffers to flush (either by setting this member to a nonzero value or by calling <a href="https://docs.microsoft.com/windows/desktop/ETW/flushtrace">FlushTrace</a>) can increase the file size of the log file with unfilled buffer space. 
-
-If the consumer is consuming events in real time, you may want to set this member to a nonzero value if the event rate is low to force events to be delivered before the buffer is full.
-
-For the case of a realtime logger,  a value of zero (the default value) means that the flush time will be set to 1 second. A realtime logger is when <b>LogFileMode</b> is set to <b>EVENT_TRACE_REAL_TIME_MODE</b>.
-
+- For file-mode sessions: Setting **FlushTimer** to 0 will disable time-based
+  flushes (flush will occur when the buffer is filled, when the session is
+  stopped, or when the session is explicitly flushed). Most file-mode traces
+  should set **FlushTimer** to 0 to avoid wasted space in the trace file (i.e.
+  so that disk space is not wasted storing mostly-empty buffers). You might want
+  to set the timer to a non-zero value if there is a chance the trace might not
+  be closed (e.g. if you want to be sure to get events even if the system
+  crashes).
+- For real-time sessions: Setting **FlushTimer** to 0 will enable a default
+  timeout of 1 second. Real-time sessions should set the flush timer based on
+  how quickly the data needs to be received. Note that a higher timer value will
+  reduce CPU overhead for the trace. Most real-time traces should start with a
+  timer of 5 or 10 seconds and tune the timer based on need.
+- For buffered (circular in-memory) sessions, **FlushTimer** is not used. The
+  trace data will only be flushed on-demand (i.e. flushed to a file via
+  [ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea)).
 
 ### -field EnableFlags
 
-A system logger must set <b>EnableFlags</b> to indicate which SystemTraceProvider events should be included in the trace. This is also used for NT Kernel Logger sessions. 
+A _system_ logger session may set **EnableFlags** to indicate which
+SystemTraceProvider events should be included in the trace.
 
+> [!Note]
+> **EnableFlags** is only valid for system loggers, i.e. trace sessions
+> that are started using the `EVENT_TRACE_SYSTEM_LOGGER_MODE` logger mode flag,
+> the `KERNEL_LOGGER_NAME` session name, the `SystemTraceControlGuid` session
+> GUID, or the `GlobalLoggerGuid` session GUID.
 
-This member can contain one or more of the following values.
-					In addition to the events you specify, the kernel logger also logs hardware configuration events on Windows XP or system configuration events on Windows Server 2003.
+This member can contain one or more of the following values. In addition to the
+events you specify, unless you specify `EVENT_TRACE_FLAG_NO_SYSCONFIG`, the
+logger also records hardware configuration events on Windows XP and system
+configuration events on Windows Server 2003 or later.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_ALPC"></a><a id="event_trace_flag_alpc"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_ALPC</b></b></dt>
-<dt>0x00100000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the <a href="https://docs.microsoft.com/windows/desktop/ETW/alpc">ALPC</a> event types.
+- **EVENT_TRACE_FLAG_ALPC** (0x00100000)
 
-This value is supported on Windows Vista and later.
+  Enables the [ALPC](/windows/desktop/ETW/alpc) event types.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_CSWITCH"></a><a id="event_trace_flag_cswitch"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_CSWITCH</b></b></dt>
-<dt>0x00000010</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/thread">Thread</a> event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/cswitch">CSwitch</a>
-</li>
-</ul>
+  This value is supported on Windows Vista and later.
 
+- **EVENT_TRACE_FLAG_CSWITCH** (0x00000010)
 
-This value is supported on Windows Vista and later.
+  Enables the following [Thread](/windows/desktop/ETW/thread) event type:
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_DBGPRINT"></a><a id="event_trace_flag_dbgprint"></a><dl>
-<dt><b>EVENT_TRACE_FLAG_DBGPRINT</b></dt>
-<dt>0x00040000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the <b>DbgPrint</b> and <b>DbgPrintEx</b> calls to be converted to ETW events.
+  - [CSwitch](/windows/desktop/ETW/cswitch)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_DISK_FILE_IO"></a><a id="event_trace_flag_disk_file_io"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_DISK_FILE_IO</b></b></dt>
-<dt>0x00000200</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/fileio">FileIo</a>  event type (you must also enable EVENT_TRACE_FLAG_DISK_IO):
+  This value is supported on Windows Vista and later.
 
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/fileio-name">FileIo_Name</a>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_DISK_IO"></a><a id="event_trace_flag_disk_io"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_DISK_IO</b></b></dt>
-<dt>0x00000100</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/diskio">DiskIo</a>  event types:
+- **EVENT_TRACE_FLAG_DBGPRINT** (0x00040000)
 
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/diskio-typegroup1">DiskIo_TypeGroup1</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/diskio-typegroup3">DiskIo_TypeGroup3</a>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_DISK_IO_INIT"></a><a id="event_trace_flag_disk_io_init"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_DISK_IO_INIT</b></b></dt>
-<dt>0x00000400</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/diskio">DiskIo</a>  event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/diskio-typegroup2">DiskIo_TypeGroup2</a>
-</li>
-</ul>
+  Enables the **DbgPrint** and **DbgPrintEx** calls to be converted to ETW
+  events.
 
+- **EVENT_TRACE_FLAG_DISK_FILE_IO** (0x00000200)
 
-This value is supported on Windows Vista and later.
+  Enables the following [FileIo](/windows/desktop/ETW/fileio) event type (you
+  must also enable EVENT_TRACE_FLAG_DISK_IO):
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_DISPATCHER"></a><a id="event_trace_flag_dispatcher"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_DISPATCHER</b></b></dt>
-<dt>0x00000800</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/thread">Thread</a>  event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/readythread">ReadyThread</a>
-</li>
-</ul>
+  - [FileIo_Name](/windows/desktop/ETW/fileio-name)
 
+- **EVENT_TRACE_FLAG_DISK_IO** (0x00000100)
 
-This value is supported on Windows 7, Windows Server 2008 R2, and later.
+  Enables the following [DiskIo](/windows/desktop/ETW/diskio) event types:
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_DPC"></a><a id="event_trace_flag_dpc"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_DPC</b></b></dt>
-<dt>0x00000020</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/perfinfo">PerfInfo</a> event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/dpc">DPC</a>
-</li>
-</ul>
+  - [DiskIo_TypeGroup1](/windows/desktop/ETW/diskio-typegroup1)
+  - [DiskIo_TypeGroup3](/windows/desktop/ETW/diskio-typegroup3)
 
+- **EVENT_TRACE_FLAG_DISK_IO_INIT** (0x00000400)
 
-This value is supported on Windows Vista and later.
+  Enables the following [DiskIo](/windows/desktop/ETW/diskio) event type:
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_DRIVER"></a><a id="event_trace_flag_driver"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_DRIVER</b></b></dt>
-<dt>0x00800000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/diskio">DiskIo</a> event types:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/drivercompleterequest">DriverCompleteRequest</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/drivercompleterequestreturn">DriverCompleteRequestReturn</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/drivercompletionroutine">DriverCompletionRoutine</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/drivermajorfunctioncall">DriverMajorFunctionCall</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/drivermajorfunctionreturn">DriverMajorFunctionReturn</a>
-</li>
-</ul>
+  - [DiskIo_TypeGroup2](/windows/desktop/ETW/diskio-typegroup2)
 
+  This value is supported on Windows Vista and later.
 
-This value is supported on Windows Vista and later.
+- **EVENT_TRACE_FLAG_DISPATCHER** (0x00000800)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_FILE_IO"></a><a id="event_trace_flag_file_io"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_FILE_IO</b></b></dt>
-<dt>0x02000000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/fileio">FileIo</a>  event types:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/fileio-opend">FileIo_OpEnd</a>
-</li>
-</ul>
+  Enables the following [Thread](/windows/desktop/ETW/thread) event type:
 
+  - [ReadyThread](/windows/desktop/ETW/readythread)
 
-This value is supported on Windows Vista and later.
+  This value is supported on Windows 7, Windows Server 2008 R2, and later.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_FILE_IO_INIT"></a><a id="event_trace_flag_file_io_init"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_FILE_IO_INIT</b></b></dt>
-<dt>0x04000000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/fileio">FileIo</a> event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/fileio-create">FileIo_Create</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/fileio-direnum">FileIo_DirEnum</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/fileio-info">FileIo_Info</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/fileio-readwrite">FileIo_ReadWrite</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/fileio-simpleop">FileIo_SimpleOp</a>
-</li>
-</ul>
+- **EVENT_TRACE_FLAG_DPC** (0x00000020)
 
+  Enables the following [PerfInfo](/windows/desktop/ETW/perfinfo) event type:
 
-This value is supported on Windows Vista and later.
+  - [DPC](/windows/desktop/ETW/dpc)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_IMAGE_LOAD"></a><a id="event_trace_flag_image_load"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_IMAGE_LOAD</b></b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/image">Image</a>  event type:
+  This value is supported on Windows Vista and later.
 
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/image-load">Image_Load</a>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_INTERRUPT"></a><a id="event_trace_flag_interrupt"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_INTERRUPT</b></b></dt>
-<dt>0x00000040</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/perfinfo">PerfInfo</a> event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/isr">ISR</a>
-</li>
-</ul>
+- **EVENT_TRACE_FLAG_DRIVER** (0x00800000)
 
+  Enables the following [DiskIo](/windows/desktop/ETW/diskio) event types:
 
-This value is supported on Windows Vista and later.
+  - [DriverCompleteRequest](/windows/desktop/ETW/drivercompleterequest)
+  - [DriverCompleteRequestReturn](/windows/desktop/ETW/drivercompleterequestreturn)
+  - [DriverCompletionRoutine](/windows/desktop/ETW/drivercompletionroutine)
+  - [DriverMajorFunctionCall](/windows/desktop/ETW/drivermajorfunctioncall)
+  - [DriverMajorFunctionReturn](/windows/desktop/ETW/drivermajorfunctionreturn)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_JOB"></a><a id="event_trace_flag_job"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_JOB</b></b></dt>
-<dt>0x00080000</dt>
-</dl>
-</td>
-<td width="60%">
-This value is supported on Windows 10
+  This value is supported on Windows Vista and later.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS"></a><a id="event_trace_flag_memory_hard_faults"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS</b></b></dt>
-<dt>0x00002000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/pagefault-v2">PageFault_V2</a>  event type:
+- **EVENT_TRACE_FLAG_FILE_IO** (0x02000000)
 
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/pagefault-hardfault">PageFault_HardFault</a>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS"></a><a id="event_trace_flag_memory_page_faults"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS</b></b></dt>
-<dt>0x00001000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/pagefault-v2">PageFault_V2</a>  event type:
+  Enables the following [FileIo](/windows/desktop/ETW/fileio) event types:
 
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/pagefault-typegroup1">PageFault_TypeGroup1</a>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_NETWORK_TCPIP"></a><a id="event_trace_flag_network_tcpip"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_NETWORK_TCPIP</b></b></dt>
-<dt>0x00010000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the <a href="https://docs.microsoft.com/windows/desktop/ETW/tcpip">TcpIp</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/udpip">UdpIp</a> event types.
+  - [FileIo_OpEnd](/windows/desktop/ETW/fileio-opend)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_NO_SYSCONFIG"></a><a id="event_trace_flag_no_sysconfig"></a><dl>
-<dt><b>EVENT_TRACE_FLAG_NO_SYSCONFIG</b></dt>
-<dt>0x10000000</dt>
-</dl>
-</td>
-<td width="60%">
-Do not do a system configuration rundown.
+  This value is supported on Windows Vista and later.
 
-This value is supported on Windows 8,  Windows Server 2012, and later.
+- **EVENT_TRACE_FLAG_FILE_IO_INIT** (0x04000000)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_PROCESS"></a><a id="event_trace_flag_process"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_PROCESS</b></b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/process">Process</a> event type:
+  Enables the following [FileIo](/windows/desktop/ETW/fileio) event type:
 
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/process-typegroup1">Process_TypeGroup1</a>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_PROCESS_COUNTERS"></a><a id="event_trace_flag_process_counters"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_PROCESS_COUNTERS</b></b></dt>
-<dt>0x00000008</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/process-v2">Process_V2</a> event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/process-v2-typegroup2">Process_V2_TypeGroup2</a>
-</li>
-</ul>
+  - [FileIo_Create](/windows/desktop/ETW/fileio-create)
+  - [FileIo_DirEnum](/windows/desktop/ETW/fileio-direnum)
+  - [FileIo_Info](/windows/desktop/ETW/fileio-info)
+  - [FileIo_ReadWrite](/windows/desktop/ETW/fileio-readwrite)
+  - [FileIo_SimpleOp](/windows/desktop/ETW/fileio-simpleop)
 
+  This value is supported on Windows Vista and later.
 
-This value is supported on Windows Vista and later.
+- **EVENT_TRACE_FLAG_IMAGE_LOAD** (0x00000004)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_PROFILE"></a><a id="event_trace_flag_profile"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_PROFILE</b></b></dt>
-<dt>0x01000000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/perfinfo">PerfInfo</a> event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/sampledprofile">SampledProfile</a>
-</li>
-</ul>
+  Enables the following [Image](/windows/desktop/ETW/image) event type:
 
+  - [Image_Load](/windows/desktop/ETW/image-load)
 
-This value is supported on Windows Vista and later.
+- **EVENT_TRACE_FLAG_INTERRUPT** (0x00000040)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_REGISTRY"></a><a id="event_trace_flag_registry"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_REGISTRY</b></b></dt>
-<dt>0x00020000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the <a href="https://docs.microsoft.com/windows/desktop/ETW/registry">Registry</a> event types.
+  Enables the following [PerfInfo](/windows/desktop/ETW/perfinfo) event type:
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_SPLIT_IO"></a><a id="event_trace_flag_split_io"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_SPLIT_IO</b></b></dt>
-<dt>0x00200000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the <a href="https://docs.microsoft.com/windows/desktop/ETW/splitio">SplitIo</a> event types.
+  - [ISR](/windows/desktop/ETW/isr)
 
-This value is supported on Windows Vista and later.
+  This value is supported on Windows Vista and later.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_SYSTEMCALL"></a><a id="event_trace_flag_systemcall"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_SYSTEMCALL</b></b></dt>
-<dt>0x00000080</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/perfinfo">PerfInfo</a> event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/syscallenter">SysCallEnter</a>
-</li>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/syscallexit">SysCallExit</a>
-</li>
-</ul>
+- **EVENT_TRACE_FLAG_JOB** (0x00080000)
 
+  This value is supported on Windows 10
 
-This value is supported on Windows Vista and later.
+- **EVENT_TRACE_FLAG_MEMORY_HARD_FAULTS** (0x00002000)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_THREAD"></a><a id="event_trace_flag_thread"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_THREAD</b></b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/thread">Thread</a> event type:
+  Enables the following [PageFault_V2](/windows/desktop/ETW/pagefault-v2) event
+  type:
 
-<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/thread-typegroup1">Thread_TypeGroup1</a>
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_VAMAP"></a><a id="event_trace_flag_vamap"></a><dl>
-<dt><b>EVENT_TRACE_FLAG_VAMAP</b></dt>
-<dt>0x00008000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the map and unmap (excluding image files) event type.
+  - [PageFault_HardFault](/windows/desktop/ETW/pagefault-hardfault)
 
-This value is supported on Windows 8,  Windows Server 2012, and later.
+- **EVENT_TRACE_FLAG_MEMORY_PAGE_FAULTS** (0x00001000)
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="EVENT_TRACE_FLAG_VIRTUAL_ALLOC"></a><a id="event_trace_flag_virtual_alloc"></a><dl>
-<dt><b><b>EVENT_TRACE_FLAG_VIRTUAL_ALLOC</b></b></dt>
-<dt>0x00004000</dt>
-</dl>
-</td>
-<td width="60%">
-Enables the following <a href="https://docs.microsoft.com/windows/desktop/ETW/pagefault-v2">PageFault_V2</a>  event type:<ul>
-<li>
-<a href="https://docs.microsoft.com/windows/desktop/ETW/pagefault-virtualalloc">PageFault_VirtualAlloc</a>
-</li>
-</ul>
+  Enables the following [PageFault_V2](/windows/desktop/ETW/pagefault-v2) event
+  type:
 
+  - [PageFault_TypeGroup1](/windows/desktop/ETW/pagefault-typegroup1)
 
-This value is supported on Windows 7,  Windows Server 2008 R2, and later.
+- **EVENT_TRACE_FLAG_NETWORK_TCPIP** (0x00010000)
 
-</td>
-</tr>
-</table>
- 
+  Enables the [TcpIp](/windows/desktop/ETW/tcpip) and
+  [UdpIp](/windows/desktop/ETW/udpip) event types.
 
+- **EVENT_TRACE_FLAG_NO_SYSCONFIG** (0x10000000)
+
+  Do not do a system configuration rundown.
+
+  This value is supported on Windows 8, Windows Server 2012, and later.
+
+- **EVENT_TRACE_FLAG_PROCESS** (0x00000001)
+
+  Enables the following [Process](/windows/desktop/ETW/process) event type:
+
+  - [Process_TypeGroup1](/windows/desktop/ETW/process-typegroup1)
+
+- **EVENT_TRACE_FLAG_PROCESS_COUNTERS** (0x00000008)
+
+  Enables the following [Process_V2](/windows/desktop/ETW/process-v2) event
+  type:
+
+  - [Process_V2_TypeGroup2](/windows/desktop/ETW/process-v2-typegroup2)
+
+  This value is supported on Windows Vista and later.
+
+- **EVENT_TRACE_FLAG_PROFILE** (0x01000000)
+
+  Enables the following [PerfInfo](/windows/desktop/ETW/perfinfo) event type:
+
+  - [SampledProfile](/windows/desktop/ETW/sampledprofile)
+
+  This value is supported on Windows Vista and later.
+
+- **EVENT_TRACE_FLAG_REGISTRY** (0x00020000)
+
+  Enables the [Registry](/windows/desktop/ETW/registry) event types.
+
+- **EVENT_TRACE_FLAG_SPLIT_IO** (0x00200000)
+
+  Enables the [SplitIo](/windows/desktop/ETW/splitio) event types.
+
+  This value is supported on Windows Vista and later.
+
+- **EVENT_TRACE_FLAG_SYSTEMCALL** (0x00000080)
+
+  Enables the following [PerfInfo](/windows/desktop/ETW/perfinfo) event type:
+
+  - [SysCallEnter](/windows/desktop/ETW/syscallenter)
+  - [SysCallExit](/windows/desktop/ETW/syscallexit)
+
+  This value is supported on Windows Vista and later.
+
+- **EVENT_TRACE_FLAG_THREAD** (0x00000002)
+
+  Enables the following [Thread](/windows/desktop/ETW/thread) event type:
+
+  - [Thread_TypeGroup1](/windows/desktop/ETW/thread-typegroup1)
+
+- **EVENT_TRACE_FLAG_VAMAP** (0x00008000)
+
+  Enables the map and unmap (excluding image files) event type.
+
+  This value is supported on Windows 8, Windows Server 2012, and later.
+
+- **EVENT_TRACE_FLAG_VIRTUAL_ALLOC** (0x00004000)
+
+  Enables the following [PageFault_V2](/windows/desktop/ETW/pagefault-v2) event
+  type:
+
+  - [PageFault_VirtualAlloc](/windows/desktop/ETW/pagefault-virtualalloc)
+
+  This value is supported on Windows 7, Windows Server 2008 R2, and later.
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.AgeLimit
 
- Not used.
+Not used.
 
-<b>Windows 2000:  </b>Time delay before unused buffers are freed, in minutes. The default is 15 minutes.
-
+**Windows 2000:** Time delay before unused buffers are freed, in minutes. The
+default is 15 minutes.
 
 ### -field DUMMYUNIONNAME.FlushThreshold
 
- 
-
-
 ### -field NumberOfBuffers
 
-On output, the number of buffers allocated for the event tracing session's buffer pool.
-
+On output, the number of buffers allocated for the event tracing session's
+buffer pool.
 
 ### -field FreeBuffers
 
-On output, the number of buffers that are allocated but unused in the event tracing session's buffer pool.
-
+On output, the number of buffers that are allocated but unused in the event
+tracing session's buffer pool.
 
 ### -field EventsLost
 
 On output, the number of events that were not recorded.
 
-
 ### -field BuffersWritten
 
 On output, the number of buffers written.
-
 
 ### -field LogBuffersLost
 
 On output, the number of buffers that could not be written to the log file.
 
-
 ### -field RealTimeBuffersLost
 
-On output, the number of buffers that could not be delivered in real-time to the consumer.
-
+On output, the number of buffers that could not be delivered in real-time to the
+consumer.
 
 ### -field LoggerThreadId
 
 On output, the thread identifier for the event tracing session.
 
-
 ### -field LogFileNameOffset
 
-Offset from the start of the structure's allocated memory to beginning of the null-terminated string that contains the log file name. 
+Offset (in bytes) from the start of this structure's allocated memory to
+beginning of the nul-terminated string that contains the log file name.
 
-The file name should use the .etl extension. All folders in the path must exist. The path can be relative, absolute, local, or remote. The path cannot contain environment variables (they are not expanded). The user must have permission to write to the folder.
+The file name normally has an `.etl` extension. All folders in the path must
+already exist (ETW will not create folders for you). The path can be relative,
+absolute, local, or remote. Environment variables in the path will not be
+expanded. The user must have permission to write to the folder.
 
-The log file name is limited to 1,024 characters. If you set <b>LogFileMode</b> to  <b>EVENT_TRACE_PRIVATE_LOGGER_MODE</b> or <b>EVENT_TRACE_FILE_MODE_NEWFILE</b>, be sure to allocate enough memory to include the process identifier that is appended to the file name for private loggers sessions, and the sequential number that is added to log files created using the new file log mode. 
-						
-					
+The log file name is limited to 1,024 characters. If you set **LogFileMode** to
+**EVENT_TRACE_PRIVATE_LOGGER_MODE** or **EVENT_TRACE_FILE_MODE_NEWFILE**, be
+sure to reserve enough memory to include the process identifier that will be
+appended to the file name for private loggers sessions and the sequential number
+that is added to log files created using the new file log mode.
 
-If you do not want to log events to a log file (for example, you specify <b>EVENT_TRACE_REAL_TIME_MODE</b> only), set <i>LogFileNameOffset</i> to 0. If you specify only real-time logging and also provide an offset with a valid log file name, ETW will use the log file name to create a sequential log file and log events to the log file. ETW also creates the sequential log file if <b>LogFileMode</b> is 0 and you provide an offset with a valid log file name.
+If you do not want to log events to a log file (for example, if you specify
+**EVENT_TRACE_REAL_TIME_MODE** only), set **LogFileNameOffset** to 0. If you
+specify only real-time logging and also provide an offset with a valid log file
+name, ETW will use the log file name to create a sequential log file and log
+events to the log file in addition to sending the events to real-time consumers.
+ETW also creates the sequential log file if **LogFileMode** is 0 and you provide
+an offset with a valid log file name.
 
-If you want to log events to a log file, you must allocate enough memory for this structure to include the log file name and session name following the structure. The log file name must follow the session name in memory.
+If you want to log events to a log file, you must reserve enough memory for this
+structure to include the log file name and session name following the structure.
+The log file name must follow the session name in memory. See remarks for an
+example.
 
-Trace files are created using the default security descriptor, meaning that the log file will have the same ACL as the parent directory. If you want access to the files restricted, create a parent directory with the appropriate ACLs.
-
+Trace files are created using the default security descriptor, meaning that the
+log file will have the same ACL as the parent directory. If you want access to
+the files restricted, create a parent directory with the appropriate ACLs.
 
 ### -field LoggerNameOffset
 
-Offset from the start of the structure's allocated memory to beginning of the null-terminated string that contains the session name. 
+Offset (in bytes) from the start of the structure's allocated memory to the
+beginning of the nul-terminated string that contains the session name.
 
-The session name is limited to 1,024 characters. The session name is case-insensitive and must be unique.
+> [!Important]
+> Use a descriptive name for your session so that the session's
+> ownership and usage can be determined from the session name. Do not use a GUID
+> or other non-descriptive value. Do not append random digits to make your
+> session name unique. ETW sessions are a limited resource so your component
+> should not be starting multiple sessions. If your component's session is
+> already running when your component starts, your component should clean up the
+> orphaned session rather than creating a second session.
 
-<b>Windows 2000:  </b>Session names are case-sensitive. As a result, duplicate session names are allowed. However, to reduce confusion, you should make sure your session names are unique.
+The session name is limited to 1,024 characters. The session name is
+case-insensitive. The system will not start a new session if another session
+with the same name is already running.
 
-When you allocate the memory for this structure, you must allocate enough memory to include the session name and log file name following the structure. The session name must come before the log file name in memory. You must copy the log file name to the offset but you do not copy the session name to the offset—the <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function copies the name for you.
-
+**Windows 2000:** Session names are case-sensitive. As a result, sessions with
+names differing only in case are allowed. However, to reduce confusion, you
+should make sure your session names are unique.
 
 ## -remarks
 
+When you allocate the memory for this structure, you must allocate enough memory
+to include the session name and log file name following the structure. The
+session name must come before the log file name in memory. You must copy the log
+file name to the offset but you do not copy the session name to the offset. The
+[StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracea) function
+copies the name for you.
 
+Be sure to initialize the memory for this structure to zero before setting any
+members. For example:
 
-Be sure to initialize the memory for this structure to zero before setting any members.
+```C
+typedef struct EventTracePropertyData {
+    EVENT_TRACE_PROPERTIES Props;
+    WCHAR LoggerName[128];
+    WCHAR LogFileName[1024];
+} EventTracePropertyData;
 
-Events from providers are written to a session's buffers. When a buffer is full, the session flushes the buffer either by writing the events to a log file, delivering them to a real-time consumer, or both. If the session's buffers are filled faster than they can be flushed, new buffers are allocated and added to the session's buffer pool, up to the maximum number specified. Beyond this limit, the session discards incoming events until a buffer becomes available. Each session keeps a record of the number of events discarded (see the <b>EventsLost</b> member).
+EventTracePropertyData data = {0};
+data.Props.Wnode.BufferSize = sizeof(data);
+data.Props.Wnode.Flags = WNODE_FLAG_TRACED_GUID;
+data.Props.LogFileNameOffset = offsetof(EventTracePropertyData, LogFileName);
+data.Props.LoggerNameOffset = offsetof(EventTracePropertyData, LoggerName);
+```
 
-ETW does not free unused buffers.
+Events from providers are written to a session's buffers. When a buffer in a
+file or real-time session is full (or when the FlushTimer expires), the session
+flushes the buffer either by writing the events to a log file, delivering them
+to a real-time consumer, or both. If a session's buffers are filled faster than
+they can be flushed, new buffers are allocated and added to the session's buffer
+pool, up to **MaximumBuffers**. Beyond this limit, the session discards incoming
+events until a buffer becomes available. Each session keeps a record of the
+number of events discarded (see the **EventsLost** member).
 
-<b>Windows 2000:  </b>ETW frees unused buffers based on the <b>AgeLimit</b> member value.
-
-You use the <b>BufferSize</b>, <b>MinimumBuffers</b>, and <b>MaximumBuffers</b> members to configure the buffers for an event tracing session when you define the session or anytime during the tracing session. ETW uses the physical memory and number of processors available on the computer to determine if the values are reasonable. If ETW determines the values are not reasonable, ETW will determine the correct size and overwrite the values.   
-
-Typically, you should not set these values and instead let ETW determine the size and number of buffers. 
-
-To view session statistics, such as <b>EventsLost</b> while the session is running, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function and set the <i>ControlCode</i> parameter to EVENT_TRACE_CONTROL_QUERY.
-
-
-
+To view session statistics, such as **EventsLost** while the session is running,
+call the [ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea)
+function and set the _ControlCode_ parameter to `EVENT_TRACE_CONTROL_QUERY`.
 
 ## -see-also
 
+[StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracea)
 
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea)
 
+[QueryAllTraces](/windows/win32/api/evntrace/nf-evntrace-queryalltracesa)
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
+[Logging Mode Constants](/windows/win32/etw/logging-mode-constants)
 
+[EVENT_TRACE_PROPERTIES_V2](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties_v2)
 
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>
- 
-
- 
-
+[WNODE_HEADER](/windows/win32/etw/wnode-header)

@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPControls.get_currentPosition
 title: IWMPControls::get_currentPosition (wmp.h)
 description: The get_currentPosition method retrieves the current position in the media item in seconds from the beginning.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_currentPosition method","IWMPControls.get_currentPosition","IWMPControls::get_currentPosition","IWMPControlsget_currentPosition","get_currentPosition","get_currentPosition method [Windows Media Player]","get_currentPosition method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_get_currentposition","wmp/IWMPControls::get_currentPosition"]
 old-location: wmp\iwmpcontrols_get_currentposition.htm
 tech.root: WMP
 ms.assetid: ba7d42b4-2025-4881-b1eb-98636bb1c5ce
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentPosition method, IWMPControls.get_currentPosition, IWMPControls::get_currentPosition, IWMPControlsget_currentPosition, get_currentPosition, get_currentPosition method [Windows Media Player], get_currentPosition method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentposition, wmp/IWMPControls::get_currentPosition
-f1_keywords:
-- wmp/IWMPControls.get_currentPosition
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls.get_currentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls::get_currentPosition
+ - wmp/IWMPControls::get_currentPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls.get_currentPosition
 ---
 
 # IWMPControls::get_currentPosition
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_currentPosition</b> method retrieves the current position in the media item in seconds from the beginning.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdCurrentPosition [out]
 
 Pointer to a <b>double</b> containing the current position.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,26 +79,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring">IWMPControls::get_currentPositionString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring">IWMPControls::get_currentPositionString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition">IWMPControls::put_currentPosition</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition">IWMPControls::put_currentPosition</a>

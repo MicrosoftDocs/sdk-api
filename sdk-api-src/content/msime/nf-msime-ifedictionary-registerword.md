@@ -2,15 +2,12 @@
 UID: NF:msime.IFEDictionary.RegisterWord
 title: IFEDictionary::RegisterWord (msime.h)
 description: Registers a new word or deletes an existing word in the IFEDictionary.
+helpviewer_keywords: ["IFED_REG_DEL","IFED_REG_HEAD","IFED_REG_TAIL","IFEDictionary interface [Internationalization for Windows Applications]","RegisterWord method","IFEDictionary.RegisterWord","IFEDictionary::RegisterWord","RegisterWord","RegisterWord method [Internationalization for Windows Applications]","RegisterWord method [Internationalization for Windows Applications]","IFEDictionary interface","intl.ifedictionary_registerword","msime/IFEDictionary::RegisterWord"]
 old-location: intl\ifedictionary_registerword.htm
 tech.root: Intl
 ms.assetid: CD79FBF5-E540-4B5C-A398-B7FE95F86701
 ms.date: 12/05/2018
 ms.keywords: IFED_REG_DEL, IFED_REG_HEAD, IFED_REG_TAIL, IFEDictionary interface [Internationalization for Windows Applications],RegisterWord method, IFEDictionary.RegisterWord, IFEDictionary::RegisterWord, RegisterWord, RegisterWord method [Internationalization for Windows Applications], RegisterWord method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_registerword, msime/IFEDictionary::RegisterWord
-f1_keywords:
-- msime/IFEDictionary.RegisterWord
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFEDictionary.RegisterWord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFEDictionary::RegisterWord
+ - msime/IFEDictionary::RegisterWord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFEDictionary.RegisterWord
 ---
 
 # IFEDictionary::RegisterWord
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Registers a new word or deletes an existing word in the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
-
+Registers a new word or deletes an existing word in the <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>.
 
 ## -parameters
-
-
-
 
 ### -param reg [in]
 
@@ -97,17 +94,12 @@ Delete the word from the dictionary.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwrd [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to register or delete.
-
+An <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure specifying the word to register or delete.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,7 +126,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-This <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object is not a user dictionary.
+This <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> object is not a user dictionary.
 
 </td>
 </tr>
@@ -183,22 +175,11 @@ An unexpected error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>

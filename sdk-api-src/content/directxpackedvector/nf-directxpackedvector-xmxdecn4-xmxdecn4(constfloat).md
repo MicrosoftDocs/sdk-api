@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(const float)
+UID: NF:directxpackedvector.XMXDECN4.XMXDECN4(constfloat)
 title: XMXDECN4::XMXDECN4(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMXDECN4 from a four element float array argument.
+helpviewer_keywords: ["XMXDECN4","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 structure","XMXDECN4 structure [DirectX Math Support APIs]","XMXDECN4 constructor","XMXDECN4.XMXDECN4","XMXDECN4.XMXDECN4()","XMXDECN4.XMXDECN4(const float)","XMXDECN4::XMXDECN4","XMXDECN4::XMXDECN4(const float)","dxmath.xmxdecn4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 1a68e73b-b1d2-43f1-9235-6ba84d3085f7
 ms.date: 05/06/2019
 ms.keywords: XMXDECN4, XMXDECN4 constructor [DirectX Math Support APIs], XMXDECN4 constructor [DirectX Math Support APIs],XMXDECN4 structure, XMXDECN4 structure [DirectX Math Support APIs],XMXDECN4 constructor, XMXDECN4.XMXDECN4, XMXDECN4.XMXDECN4(), XMXDECN4.XMXDECN4(const float), XMXDECN4::XMXDECN4, XMXDECN4::XMXDECN4(const float), dxmath.xmxdecn4_ctor_1
-f1_keywords:
-- directxpackedvector/XMXDECN4.XMXDECN4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMXDECN4.XMXDECN4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMXDECN4::XMXDECN4
+ - directxpackedvector/XMXDECN4::XMXDECN4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMXDECN4.XMXDECN4
 ---
 
 # XMXDECN4::XMXDECN4(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMXDECN4** from a four element <code>float</code> array argument.
 
@@ -60,9 +63,10 @@ This constructor initializes a new instance of **XMXDECN4** from a four element 
 Four element floating point array containing the values used to initialize the four components of a new instance of **XMXDECN4**.
 
 ## -remarks
+
 Array elements are mapped to the vector components of a new instance of **XMXDECN4** as follows:
 
-| Vector Component | Array Element | Range |  |
+| Vector Component | Array Element | Range | Description |
 |------------------|---------------|-------|--|
 | x | pArray[0] | -0.0, 1.0 | During instantiation, pArray[0] is clamped between -1 and 1, multiplied by 511.0f and assigned to x. |
 | y | pArray[1] | -0.0, 1.0 | During instantiation, pArray[1] is clamped between -1 and 1, multiplied by 511.0f, and then assigned to y. |
@@ -90,6 +94,6 @@ instance.v =  ( (uint32_t)_w1 << 30) |
 
 <b>Reference</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmxdecn4-ctor">XMXDECN4 Constructors</a>
+<a href="/windows/desktop/dxmath/xmxdecn4-ctor">XMXDECN4 Constructors</a>

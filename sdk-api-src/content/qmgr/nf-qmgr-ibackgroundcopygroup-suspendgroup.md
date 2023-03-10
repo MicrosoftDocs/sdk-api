@@ -2,15 +2,12 @@
 UID: NF:qmgr.IBackgroundCopyGroup.SuspendGroup
 title: IBackgroundCopyGroup::SuspendGroup (qmgr.h)
 description: Use the SuspendGroup method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
+helpviewer_keywords: ["IBackgroundCopyGroup interface [BITS]","SuspendGroup method","IBackgroundCopyGroup.SuspendGroup","IBackgroundCopyGroup::SuspendGroup","SuspendGroup","SuspendGroup method [BITS]","SuspendGroup method [BITS]","IBackgroundCopyGroup interface","bits.ibackgroundcopygroup_suspendgroup","qmgr/IBackgroundCopyGroup::SuspendGroup"]
 old-location: bits\ibackgroundcopygroup_suspendgroup.htm
 tech.root: Bits
 ms.assetid: ac7600dd-3943-46cf-ad2d-f33d0099f2af
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SuspendGroup method, IBackgroundCopyGroup.SuspendGroup, IBackgroundCopyGroup::SuspendGroup, SuspendGroup, SuspendGroup method [BITS], SuspendGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_suspendgroup, qmgr/IBackgroundCopyGroup::SuspendGroup
-f1_keywords:
-- qmgr/IBackgroundCopyGroup.SuspendGroup
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyGroup.SuspendGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyGroup::SuspendGroup
+ - qmgr/IBackgroundCopyGroup::SuspendGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyGroup.SuspendGroup
 ---
 
 # IBackgroundCopyGroup::SuspendGroup
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>SuspendGroup</b> method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -84,18 +77,7 @@ Successfully suspended the group in the download queue.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>

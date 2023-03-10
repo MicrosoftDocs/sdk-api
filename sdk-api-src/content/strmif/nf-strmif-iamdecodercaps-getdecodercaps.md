@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMDecoderCaps.GetDecoderCaps
 title: IAMDecoderCaps::GetDecoderCaps (strmif.h)
 description: The GetDecoderCaps method queries the decoder for its capabilities.
+helpviewer_keywords: ["GetDecoderCaps","GetDecoderCaps method [DirectShow]","GetDecoderCaps method [DirectShow]","IAMDecoderCaps interface","IAMDecoderCaps interface [DirectShow]","GetDecoderCaps method","IAMDecoderCaps.GetDecoderCaps","IAMDecoderCaps::GetDecoderCaps","IAMDecoderCapsGetDecoderCaps","dshow.iamdecodercaps_getdecodercaps","strmif/IAMDecoderCaps::GetDecoderCaps"]
 old-location: dshow\iamdecodercaps_getdecodercaps.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 727db98f-96a1-4fe1-8315-0280541817c2
 ms.date: 12/05/2018
 ms.keywords: GetDecoderCaps, GetDecoderCaps method [DirectShow], GetDecoderCaps method [DirectShow],IAMDecoderCaps interface, IAMDecoderCaps interface [DirectShow],GetDecoderCaps method, IAMDecoderCaps.GetDecoderCaps, IAMDecoderCaps::GetDecoderCaps, IAMDecoderCapsGetDecoderCaps, dshow.iamdecodercaps_getdecodercaps, strmif/IAMDecoderCaps::GetDecoderCaps
-f1_keywords:
-- strmif/IAMDecoderCaps.GetDecoderCaps
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMDecoderCaps.GetDecoderCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDecoderCaps::GetDecoderCaps
+ - strmif/IAMDecoderCaps::GetDecoderCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMDecoderCaps.GetDecoderCaps
 ---
 
 # IAMDecoderCaps::GetDecoderCaps
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDecoderCaps</code> method queries the decoder for its capabilities.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwCapIndex [in]
 
@@ -110,8 +104,6 @@ Specifies the capability being queried for.
 <td>Enhanced Video Renderer (EVR) support.</td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwCap [out]
 
@@ -133,42 +125,23 @@ Receives one of the following values.
 <td>The decoder supports this capability.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
-The DVD Graph Builder uses this method when it builds a DVD graph. If the decoder does not support the Video Mixing Renderer filter, then the DVD Graph Builder uses the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter instead.
-
-
-
+The DVD Graph Builder uses this method when it builds a DVD graph. If the decoder does not support the Video Mixing Renderer filter, then the DVD Graph Builder uses the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter instead.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/building-the-dvd-filter-graph">Building the DVD Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/building-the-dvd-filter-graph">Building the DVD Filter Graph</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdecodercaps">IAMDecoderCaps Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamdecodercaps">IAMDecoderCaps Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.GetCapability
 title: IAMExtTransport::GetCapability (strmif.h)
 description: The GetCapability method retrieves the general capabilities of the transport.
+helpviewer_keywords: ["GetCapability","GetCapability method [DirectShow]","GetCapability method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetCapability method","IAMExtTransport.GetCapability","IAMExtTransport::GetCapability","IAMExtTransportGetCapability","dshow.iamexttransport_getcapability","strmif/IAMExtTransport::GetCapability"]
 old-location: dshow\iamexttransport_getcapability.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f5544fd9-2899-4995-9401-a53f59d6400b
 ms.date: 12/05/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetCapability method, IAMExtTransport.GetCapability, IAMExtTransport::GetCapability, IAMExtTransportGetCapability, dshow.iamexttransport_getcapability, strmif/IAMExtTransport::GetCapability
-f1_keywords:
-- strmif/IAMExtTransport.GetCapability
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.GetCapability
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::GetCapability
+ - strmif/IAMExtTransport::GetCapability
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.GetCapability
 ---
 
 # IAMExtTransport::GetCapability
@@ -49,45 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetCapability</code> method retrieves the general capabilities of the transport.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Capability [in]
 
 Specifies the capability to check. See Remarks for more information.
 
-
 ### -param pValue [out]
 
 Pointer to a variable that receives a <b>long</b> integer. See Remarks for more information.
-
 
 ### -param pdblValue [out]
 
 Pointer to a variable that receives a <b>double</b>. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <i>Capability</i> parameter is a flag that specifies which capability to check. The method returns the result either in the <i>pValue</i> parameter or in the <i>pdblValue</i> parameter, depending on the capability flag.
 
@@ -257,22 +241,12 @@ For the following flags, the method returns a value in the <i>pdblValue</i> para
 
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
-
-
-
+<a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>

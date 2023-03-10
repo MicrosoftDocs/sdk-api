@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.WaitForNtmsNotification
 title: WaitForNtmsNotification function (ntmsapi.h)
 description: The WaitForNtmsNotification function waits for the next object change notification.
+helpviewer_keywords: ["WaitForNtmsNotification","WaitForNtmsNotification function [Files]","_zaw_waitforntmsnotification","base.waitforntmsnotification","fs.waitforntmsnotification","ntmsapi/WaitForNtmsNotification"]
 old-location: fs\waitforntmsnotification.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: ecb39bac-f062-4835-bbae-f9f643ffde9b
 ms.date: 12/05/2018
 ms.keywords: WaitForNtmsNotification, WaitForNtmsNotification function [Files], _zaw_waitforntmsnotification, base.waitforntmsnotification, fs.waitforntmsnotification, ntmsapi/WaitForNtmsNotification
-f1_keywords:
-- ntmsapi/WaitForNtmsNotification
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- WaitForNtmsNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WaitForNtmsNotification
+ - ntmsapi/WaitForNtmsNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - WaitForNtmsNotification
 ---
 
 # WaitForNtmsNotification function
@@ -48,38 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>WaitForNtmsNotification</b> function waits for the next object change notification.
 
-
 ## -parameters
-
-
-
 
 ### -param hNotification [in]
 
 Notification handle returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a> function.
 
 ### -param lpNotificationInformation [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a> structure that receives the notification information.
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a> structure that receives the notification information.
 
 ### -param dwTimeout [in]
 
 Maximum number of milliseconds to wait. If you specify a value of INFINITE, this function will not time-out.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -155,30 +147,19 @@ The function was successfully executed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-closentmsnotification">CloseNtmsNotification</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Database Notification Functions</a>
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_notificationinformation">NTMS_NOTIFICATIONINFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmsnotification">OpenNtmsNotification</a>

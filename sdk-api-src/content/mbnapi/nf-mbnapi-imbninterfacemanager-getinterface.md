@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnInterfaceManager.GetInterface
 title: IMbnInterfaceManager::GetInterface (mbnapi.h)
 description: Gets a specific interface.
+helpviewer_keywords: ["GetInterface","GetInterface method [Microsoft Broadband Networks]","GetInterface method [Microsoft Broadband Networks]","IMbnInterfaceManager interface","IMbnInterfaceManager interface [Microsoft Broadband Networks]","GetInterface method","IMbnInterfaceManager.GetInterface","IMbnInterfaceManager::GetInterface","mbn.imbninterfacemanager_getinterface","mbnapi/IMbnInterfaceManager::GetInterface"]
 old-location: mbn\imbninterfacemanager_getinterface.htm
 tech.root: mbn
 ms.assetid: f44aa20d-7edd-4227-8eca-9aacb19619e8
 ms.date: 12/05/2018
 ms.keywords: GetInterface, GetInterface method [Microsoft Broadband Networks], GetInterface method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterface method, IMbnInterfaceManager.GetInterface, IMbnInterfaceManager::GetInterface, mbn.imbninterfacemanager_getinterface, mbnapi/IMbnInterfaceManager::GetInterface
-f1_keywords:
-- mbnapi/IMbnInterfaceManager.GetInterface
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterfaceManager.GetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterfaceManager::GetInterface
+ - mbnapi/IMbnInterfaceManager::GetInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterfaceManager.GetInterface
 ---
 
 # IMbnInterfaceManager::GetInterface
@@ -53,25 +55,17 @@ ms.custom: 19H1
 
 Gets a specific interface.
 
-
 ## -parameters
-
-
-
 
 ### -param interfaceID [in]
 
 A string that contains the ID of the interface to retrieve.
 
-
 ### -param mbnInterface [out, retval]
 
-Pointer to the address of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> specified by <i>interfaceID</i> or <b>NULL</b> if there is no matching interface.
-
+Pointer to the address of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> specified by <i>interfaceID</i> or <b>NULL</b> if there is no matching interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,18 +119,7 @@ Could not allocate the required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanager">IMbnInterfaceManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfacemanager">IMbnInterfaceManager</a>

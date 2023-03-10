@@ -2,15 +2,12 @@
 UID: NF:commctrl.DateTime_SetMonthCalStyle
 title: DateTime_SetMonthCalStyle macro (commctrl.h)
 description: Sets the style for a specified date and time picker (DTP) control. Use this macro or send the DTM_SETMCSTYLE message explicitly.
+helpviewer_keywords: ["DateTime_SetMonthCalStyle","DateTime_SetMonthCalStyle macro [Windows Controls]","_shell_DateTime_SetMonthCalStyle","_shell_DateTime_SetMonthCalStyle_cpp","commctrl/DateTime_SetMonthCalStyle","controls.DateTime_SetMonthCalStyle","controls._shell_DateTime_SetMonthCalStyle"]
 old-location: controls\DateTime_SetMonthCalStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalstyle.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_SetMonthCalStyle, DateTime_SetMonthCalStyle macro [Windows Controls], _shell_DateTime_SetMonthCalStyle, _shell_DateTime_SetMonthCalStyle_cpp, commctrl/DateTime_SetMonthCalStyle, controls.DateTime_SetMonthCalStyle, controls._shell_DateTime_SetMonthCalStyle
-f1_keywords:
-- commctrl/DateTime_SetMonthCalStyle
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_SetMonthCalStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_SetMonthCalStyle
+ - commctrl/DateTime_SetMonthCalStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_SetMonthCalStyle
 ---
 
 # DateTime_SetMonthCalStyle macro
@@ -48,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the style for a specified date and time picker (DTP) control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setmcstyle">DTM_SETMCSTYLE</a> message explicitly.
-
+Sets the style for a specified date and time picker (DTP) control. Use this macro or send the <a href="/windows/desktop/Controls/dtm-setmcstyle">DTM_SETMCSTYLE</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hdp [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the DTP.
 
-
 ### -param dwStyle [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/month-calendar-control-styles">Month Calendar Control Styles</a>
+<a href="/windows/desktop/Controls/month-calendar-control-styles">Month Calendar Control Styles</a>

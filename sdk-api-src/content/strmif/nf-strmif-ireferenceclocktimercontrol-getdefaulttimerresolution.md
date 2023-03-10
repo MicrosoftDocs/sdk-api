@@ -2,15 +2,12 @@
 UID: NF:strmif.IReferenceClockTimerControl.GetDefaultTimerResolution
 title: IReferenceClockTimerControl::GetDefaultTimerResolution (strmif.h)
 description: The GetDefaultTimerResolution method returns the timer resolution that was requested by the reference clock.
+helpviewer_keywords: ["GetDefaultTimerResolution","GetDefaultTimerResolution method [DirectShow]","GetDefaultTimerResolution method [DirectShow]","IReferenceClockTimerControl interface","IReferenceClockTimerControl interface [DirectShow]","GetDefaultTimerResolution method","IReferenceClockTimerControl.GetDefaultTimerResolution","IReferenceClockTimerControl::GetDefaultTimerResolution","IReferenceClockTimerControlGetDefaultTimerResoluti","dshow.ireferenceclocktimercontrol_getdefaulttimerresolution","strmif/IReferenceClockTimerControl::GetDefaultTimerResolution"]
 old-location: dshow\ireferenceclocktimercontrol_getdefaulttimerresolution.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8382bc39-bc3d-43a1-aa06-16a4eecbdc7a
 ms.date: 12/05/2018
 ms.keywords: GetDefaultTimerResolution, GetDefaultTimerResolution method [DirectShow], GetDefaultTimerResolution method [DirectShow],IReferenceClockTimerControl interface, IReferenceClockTimerControl interface [DirectShow],GetDefaultTimerResolution method, IReferenceClockTimerControl.GetDefaultTimerResolution, IReferenceClockTimerControl::GetDefaultTimerResolution, IReferenceClockTimerControlGetDefaultTimerResoluti, dshow.ireferenceclocktimercontrol_getdefaulttimerresolution, strmif/IReferenceClockTimerControl::GetDefaultTimerResolution
-f1_keywords:
-- strmif/IReferenceClockTimerControl.GetDefaultTimerResolution
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IReferenceClockTimerControl.GetDefaultTimerResolution
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceClockTimerControl::GetDefaultTimerResolution
+ - strmif/IReferenceClockTimerControl::GetDefaultTimerResolution
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IReferenceClockTimerControl.GetDefaultTimerResolution
 ---
 
 # IReferenceClockTimerControl::GetDefaultTimerResolution
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>GetDefaultTimerResolution</code> method returns the timer resolution that was requested by the reference clock.
 
-
 ## -parameters
-
-
-
 
 ### -param pTimerResolution [out]
 
 Receives the requested timer resolution, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -97,31 +91,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The value returned in <i>pTimerResolution</i> is the period that the reference clock attempts to set on the underlying timer. The actual timer period might differ, depending on the hardware. If the reference clock did not request a minimum timer resolution, the <i>pTimerResolution</i> parameter receives the value zero.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclocktimercontrol">IReferenceClockTimerControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclocktimercontrol">IReferenceClockTimerControl Interface</a>

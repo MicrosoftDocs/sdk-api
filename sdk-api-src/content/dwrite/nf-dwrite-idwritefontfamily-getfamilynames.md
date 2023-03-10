@@ -1,16 +1,13 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetFamilyNames
 title: IDWriteFontFamily::GetFamilyNames (dwrite.h)
-description: Creates a localized strings object that contains the family names for the font family, indexed by locale name.
+description: Creates a localized strings object that contains the family names for the font family, indexed by locale name. (IDWriteFontFamily.GetFamilyNames)
+helpviewer_keywords: ["GetFamilyNames","GetFamilyNames method [Direct Write]","GetFamilyNames method [Direct Write]","IDWriteFontFamily interface","IDWriteFontFamily interface [Direct Write]","GetFamilyNames method","IDWriteFontFamily.GetFamilyNames","IDWriteFontFamily::GetFamilyNames","directwrite.IDWriteFontFamily_GetFamilyNames","dwrite/IDWriteFontFamily::GetFamilyNames"]
 old-location: directwrite\IDWriteFontFamily_GetFamilyNames.htm
 tech.root: DirectWrite
 ms.assetid: 89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa
 ms.date: 12/05/2018
 ms.keywords: GetFamilyNames, GetFamilyNames method [Direct Write], GetFamilyNames method [Direct Write],IDWriteFontFamily interface, IDWriteFontFamily interface [Direct Write],GetFamilyNames method, IDWriteFontFamily.GetFamilyNames, IDWriteFontFamily::GetFamilyNames, directwrite.IDWriteFontFamily_GetFamilyNames, dwrite/IDWriteFontFamily::GetFamilyNames
-f1_keywords:
-- dwrite/IDWriteFontFamily.GetFamilyNames
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFamily.GetFamilyNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFamily::GetFamilyNames
+ - dwrite/IDWriteFontFamily::GetFamilyNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFamily.GetFamilyNames
 ---
 
 # IDWriteFontFamily::GetFamilyNames
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Creates a localized strings object that contains the family names for the font family, indexed by locale name.
 
-
 ## -parameters
-
-
-
 
 ### -param names [out]
 
@@ -63,21 +60,13 @@ Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings">I
 
 The address of a pointer to the newly created <a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a> object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The following code example shows how to get the font family name from a <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a> object.
 
@@ -139,17 +128,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily">IDWriteFontFamily</a>
- 
-
- 
 

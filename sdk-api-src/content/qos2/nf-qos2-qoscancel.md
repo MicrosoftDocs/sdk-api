@@ -2,15 +2,12 @@
 UID: NF:qos2.QOSCancel
 title: QOSCancel function (qos2.h)
 description: Cancels a pending overlapped operation, like QOSSetFlow.
+helpviewer_keywords: ["QOSCancel","QOSCancel function [QOS]","qos.qoscancel","qos2/QOSCancel"]
 old-location: qos\qoscancel.htm
 tech.root: QOS
 ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77
 ms.date: 12/05/2018
 ms.keywords: QOSCancel, QOSCancel function [QOS], qos.qoscancel, qos2/QOSCancel
-f1_keywords:
-- qos2/QOSCancel
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSCancel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSCancel
+ - qos2/QOSCancel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSCancel
 ---
 
 # QOSCancel function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>QOSCancel</b> function cancels a pending overlapped operation, like  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>.
-
+The <b>QOSCancel</b> function cancels a pending overlapped operation, like  <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qossetflow">QOSSetFlow</a>.
 
 ## -parameters
 
-
-
-
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
-
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param Overlapped [in]
 
 Pointer to the OVERLAPPED structure used in the operation to be canceled.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -142,7 +135,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -158,31 +151,15 @@ A network adapter hardware error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function would never be called with a <b>NULL</b><i>Overlapped</i> parameter.
 
 Successfully canceled operations complete normal completion mechanisms and return <b>ERROR_OPERATION_ABORTED</b> as their completion return code.
 
-Closing a handle with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> will automatically abort all pending operations issued with that handle.  If the handle is closed while a <b>QOSCancel</b> is still in progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b> as the return code.
-
-
-
+Closing a handle with the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosclosehandle">QOSCloseHandle</a> will automatically abort all pending operations issued with that handle.  If the handle is closed while a <b>QOSCancel</b> is still in progress, the call will complete with <b>ERROR_OPERATION_ABORTED</b> as the return code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

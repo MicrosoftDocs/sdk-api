@@ -2,17 +2,14 @@
 UID: NF:threadpoollegacyapiset.QueueUserWorkItem
 title: QueueUserWorkItem function (threadpoollegacyapiset.h)
 description: Queues a work item to a worker thread in the thread pool.
+helpviewer_keywords: ["QueueUserWorkItem","QueueUserWorkItem function","WT_EXECUTEDEFAULT","WT_EXECUTEINIOTHREAD","WT_EXECUTEINPERSISTENTTHREAD","WT_EXECUTELONGFUNCTION","WT_TRANSFER_IMPERSONATION","_win32_queueuserworkitem","base.queueuserworkitem","threadpoollegacyapiset/QueueUserWorkItem","winbase/QueueUserWorkItem"]
 old-location: base\queueuserworkitem.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 96f34b51-3784-4bb7-ae40-067f8113ff39
 ms.date: 12/05/2018
 ms.keywords: QueueUserWorkItem, QueueUserWorkItem function, WT_EXECUTEDEFAULT, WT_EXECUTEINIOTHREAD, WT_EXECUTEINPERSISTENTTHREAD, WT_EXECUTELONGFUNCTION, WT_TRANSFER_IMPERSONATION, _win32_queueuserworkitem, base.queueuserworkitem, threadpoollegacyapiset/QueueUserWorkItem, winbase/QueueUserWorkItem
-f1_keywords:
-- threadpoollegacyapiset/QueueUserWorkItem
-dev_langs:
-- c++
 req.header: threadpoollegacyapiset.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- QueueUserWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueueUserWorkItem
+ - threadpoollegacyapiset/QueueUserWorkItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - QueueUserWorkItem
 ---
 
 # QueueUserWorkItem function
@@ -52,32 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queues a work item to a worker thread in the 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">thread pool</a>.
-
+<a href="/windows/desktop/ProcThread/thread-pooling">thread pool</a>.
 
 ## -parameters
-
-
-
 
 ### -param Function [in]
 
 A pointer to the application-defined callback function of type <b>LPTHREAD_START_ROUTINE</b> to be executed by the thread in the thread pool. This value represents the starting address of the thread. This callback function must not call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function. 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function. 
 
-
-
+The return value of the callback function is not used.
 
 For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
-
+<a href="/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.
 
 ### -param Context [in, optional]
 
 A single parameter value to be passed to the thread function.
-
 
 ### -param Flags [in]
 
@@ -127,7 +121,7 @@ I/O worker threads were removed starting with Windows Vista and Windows Server�
 The callback function is queued to a thread that never terminates. It does not guarantee that the same thread is used each time. This flag should be used only for short tasks or it could affect other timer operations. 
 
 
-This flag must be set if the thread calls functions that use APCs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
+This flag must be set if the thread calls functions that use APCs. For more information, see <a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
 Note that currently no worker thread is truly persistent, although worker threads do not terminate if there are any pending I/O requests.
 
@@ -158,54 +152,39 @@ Callback functions will use the current access token, whether it is a process or
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If a function in a DLL is queued to a worker thread, be sure that the function has completed execution before the DLL is unloaded.
 
 By default, the thread pool has a maximum of 512 threads per process. To raise the queue limit, use the <b>WT_SET_MAX_THREADPOOL_THREAD</b> macro defined in WinNT.h.
 
-<pre class="syntax" xml:space="preserve"><code>#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
-    ((Flags)|=(Limit)&lt;&lt;16)</code></pre>
+
+``` syntax
+#define WT_SET_MAX_THREADPOOL_THREADS(Flags,Limit) \
+    ((Flags)|=(Limit)&lt;&lt;16)
+```
+
 Use this macro in the call to <b>QueueUserWorkItem</b> to specify the <i>Flags</i> parameter. The macro parameters are the desired flags and the new limit, up to (2&lt;&lt;16)-1 threads. However, the size of the queue is limited by the size of the kernel nonpaged pool. Note that your application can improve its performance by keeping the number of worker threads low.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>

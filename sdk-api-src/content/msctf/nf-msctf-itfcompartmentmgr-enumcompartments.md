@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCompartmentMgr.EnumCompartments
 title: ITfCompartmentMgr::EnumCompartments (msctf.h)
 description: The ITfCompartmentMgr::EnumCompartments method obtains an enumerator that contains the GUID of the compartments within the compartment manager.
+helpviewer_keywords: ["EnumCompartments","EnumCompartments method [Text Services Framework]","EnumCompartments method [Text Services Framework]","ITfCompartmentMgr interface","ITfCompartmentMgr interface [Text Services Framework]","EnumCompartments method","ITfCompartmentMgr.EnumCompartments","ITfCompartmentMgr::EnumCompartments","_tsf_itfcompartmentmgr_enumcompartments_ref","msctf/ITfCompartmentMgr::EnumCompartments","tsf.itfcompartmentmgr_enumcompartments"]
 old-location: tsf\itfcompartmentmgr_enumcompartments.htm
 tech.root: TSF
 ms.assetid: d8c90637-dd6d-425f-9d5d-44c7dbfcf8a5
 ms.date: 12/05/2018
 ms.keywords: EnumCompartments, EnumCompartments method [Text Services Framework], EnumCompartments method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],EnumCompartments method, ITfCompartmentMgr.EnumCompartments, ITfCompartmentMgr::EnumCompartments, _tsf_itfcompartmentmgr_enumcompartments_ref, msctf/ITfCompartmentMgr::EnumCompartments, tsf.itfcompartmentmgr_enumcompartments
-f1_keywords:
-- msctf/ITfCompartmentMgr.EnumCompartments
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfCompartmentMgr.EnumCompartments
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompartmentMgr::EnumCompartments
+ - msctf/ITfCompartmentMgr::EnumCompartments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfCompartmentMgr.EnumCompartments
 ---
 
 # ITfCompartmentMgr::EnumCompartments
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfCompartmentMgr::EnumCompartments</b> method obtains an enumerator that contains the GUID of the compartments within the compartment manager.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to an <b>IEnumGUID</b> interface pointer that receives the enumerator object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,7 +112,8 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
+[ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)
 

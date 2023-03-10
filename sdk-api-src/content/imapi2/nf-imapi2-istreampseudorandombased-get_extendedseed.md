@@ -2,15 +2,12 @@
 UID: NF:imapi2.IStreamPseudoRandomBased.get_ExtendedSeed
 title: IStreamPseudoRandomBased::get_ExtendedSeed (imapi2.h)
 description: Retrieves an array of seed values used by the random number generator.
+helpviewer_keywords: ["IStreamPseudoRandomBased interface [IMAPI]","get_ExtendedSeed method","IStreamPseudoRandomBased.get_ExtendedSeed","IStreamPseudoRandomBased::get_ExtendedSeed","get_ExtendedSeed","get_ExtendedSeed method [IMAPI]","get_ExtendedSeed method [IMAPI]","IStreamPseudoRandomBased interface","imapi.istreampseudorandombased_get_extendedseed","imapi2/IStreamPseudoRandomBased::get_ExtendedSeed"]
 old-location: imapi\istreampseudorandombased_get_extendedseed.htm
 tech.root: imapi
 ms.assetid: e15e47aa-e5c4-4944-a3c4-14e459a31bb5
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_ExtendedSeed method, IStreamPseudoRandomBased.get_ExtendedSeed, IStreamPseudoRandomBased::get_ExtendedSeed, get_ExtendedSeed, get_ExtendedSeed method [IMAPI], get_ExtendedSeed method [IMAPI],IStreamPseudoRandomBased interface, imapi.istreampseudorandombased_get_extendedseed, imapi2/IStreamPseudoRandomBased::get_ExtendedSeed
-f1_keywords:
-- imapi2/IStreamPseudoRandomBased.get_ExtendedSeed
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IStreamPseudoRandomBased.get_ExtendedSeed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamPseudoRandomBased::get_ExtendedSeed
+ - imapi2/IStreamPseudoRandomBased::get_ExtendedSeed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IStreamPseudoRandomBased.get_ExtendedSeed
 ---
 
 # IStreamPseudoRandomBased::get_ExtendedSeed
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an array of seed values used by the random number generator.
 
-
 ## -parameters
-
-
-
 
 ### -param values [out]
 
 Array of seed values used by the random number generator.
 
-
 ### -param eCount [out]
 
 Number of seed values in the <i>values</i> array.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -92,26 +85,15 @@ Value: 0x80004001
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">IStreamPseudoRandomBased::get_Seed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">IStreamPseudoRandomBased::get_Seed</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">IStreamPseudoRandomBased::put_ExtendedSeed</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">IStreamPseudoRandomBased::put_ExtendedSeed</a>

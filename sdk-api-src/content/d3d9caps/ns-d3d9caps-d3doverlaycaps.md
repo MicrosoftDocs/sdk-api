@@ -2,15 +2,12 @@
 UID: NS:d3d9caps._D3DOVERLAYCAPS
 title: D3DOVERLAYCAPS (d3d9caps.h)
 description: Specifies hardware overlay capabilities for a Direct3D device.
+helpviewer_keywords: ["D3DOVERLAYCAPS","D3DOVERLAYCAPS structure [Media Foundation]","D3DOVERLAYCAPS_FULLRANGERGB","D3DOVERLAYCAPS_LIMITEDRANGERGB","D3DOVERLAYCAPS_STRETCHX","D3DOVERLAYCAPS_STRETCHY","D3DOVERLAYCAPS_YCbCr_BT601","D3DOVERLAYCAPS_YCbCr_BT601_xvYCC","D3DOVERLAYCAPS_YCbCr_BT709","D3DOVERLAYCAPS_YCbCr_BT709_xvYCC","d3d9caps/D3DOVERLAYCAPS","mf.d3doverlaycaps"]
 old-location: mf\d3doverlaycaps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4d9e031d-af01-4b8a-b90c-9d83b09c24da
 ms.date: 12/05/2018
 ms.keywords: D3DOVERLAYCAPS, D3DOVERLAYCAPS structure [Media Foundation], D3DOVERLAYCAPS_FULLRANGERGB, D3DOVERLAYCAPS_LIMITEDRANGERGB, D3DOVERLAYCAPS_STRETCHX, D3DOVERLAYCAPS_STRETCHY, D3DOVERLAYCAPS_YCbCr_BT601, D3DOVERLAYCAPS_YCbCr_BT601_xvYCC, D3DOVERLAYCAPS_YCbCr_BT709, D3DOVERLAYCAPS_YCbCr_BT709_xvYCC, d3d9caps/D3DOVERLAYCAPS, mf.d3doverlaycaps
-f1_keywords:
-- d3d9caps/D3DOVERLAYCAPS
-dev_langs:
-- c++
 req.header: d3d9caps.h
 req.include-header: D3d9.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d9caps.h
-api_name:
-- D3DOVERLAYCAPS
 targetos: Windows
 req.typenames: D3DOVERLAYCAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _D3DOVERLAYCAPS
+ - d3d9caps/_D3DOVERLAYCAPS
+ - D3DOVERLAYCAPS
+ - d3d9caps/D3DOVERLAYCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d9caps.h
+api_name:
+ - D3DOVERLAYCAPS
 ---
 
 # D3DOVERLAYCAPS structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies hardware overlay capabilities for a Direct3D device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Caps
 
@@ -155,30 +154,19 @@ The device can stretch and shrink the overlay data arbitrarily in the vertical d
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MaxOverlayDisplayWidth
 
 The maximum overlay width after stretching.
 
-
 ### -field MaxOverlayDisplayHeight
 
 The maximum overlay height after stretching.
 
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9exoverlayextension-checkdeviceoverlaytype">IDirect3D9ExOverlayExtension::CheckDeviceOverlayType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9exoverlayextension-checkdeviceoverlaytype">IDirect3D9ExOverlayExtension::CheckDeviceOverlayType</a>

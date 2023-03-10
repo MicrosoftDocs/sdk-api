@@ -2,15 +2,12 @@
 UID: NF:inked.IInkEdit.GetGestureStatus
 title: IInkEdit::GetGestureStatus (inked.h)
 description: Indicates whether the InkEdit control is interested in a particular application gesture.
+helpviewer_keywords: ["0992dbd2-bd32-4af6-abd1-66027dd2b30f","GetGestureStatus","GetGestureStatus method [Tablet PC]","GetGestureStatus method [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","GetGestureStatus method","IInkEdit.GetGestureStatus","IInkEdit::GetGestureStatus","inked/IInkEdit::GetGestureStatus","tablet.inkedit_getgesturestatus"]
 old-location: tablet\inkedit_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: 0992dbd2-bd32-4af6-abd1-66027dd2b30f
 ms.date: 12/05/2018
 ms.keywords: 0992dbd2-bd32-4af6-abd1-66027dd2b30f, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],GetGestureStatus method, IInkEdit.GetGestureStatus, IInkEdit::GetGestureStatus, inked/IInkEdit::GetGestureStatus, tablet.inkedit_getgesturestatus
-f1_keywords:
-- inked/IInkEdit.GetGestureStatus
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkEd.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkEd.dll
-- InkEd.dll.dll
-api_name:
-- IInkEdit.GetGestureStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit::GetGestureStatus
+ - inked/IInkEdit::GetGestureStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkEd.dll
+ - InkEd.dll.dll
+api_name:
+ - IInkEdit.GetGestureStatus
 ---
 
 # IInkEdit::GetGestureStatus
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is interested in a particular application gesture.
-
-
-
+Indicates whether the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is interested in a particular application gesture.
 
 ## -parameters
-
-
-
 
 ### -param Gesture [in]
 
 The gesture that you want the status of.
 
-
 ### -param pListen [out, retval]
 
-<b>VARIANT_TRUE</b> if the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control has interest in the gesture and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-gesture">Gesture</a> event of the InkEdit control fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkEdit control has no interest in the gesture.
-
+<b>VARIANT_TRUE</b> if the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control has interest in the gesture and the <a href="/windows/desktop/tablet/inkedit-gesture">Gesture</a> event of the InkEdit control fires when the gesture is recognized. <b>VARIANT_FALSE</b> if the InkEdit control has no interest in the gesture.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -149,67 +139,52 @@ The flag is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method throws an exception if the <i>gesture</i> parameter is set to the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture.
 
+To set the interest of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control in a particular gesture, call the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus</a> method.
 
-This method throws an exception if the <i>gesture</i> parameter is set to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture.
-
-To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control in a particular gesture, call the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus</a> method.
-
-<div class="alert"><b>Note</b>  By default, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control has interest in the following gestures:</div>
+<div class="alert"><b>Note</b>  By default, the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control has interest in the following gestures:</div>
 <div> </div>
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_Left</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_Left</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_Right</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_Right</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_UpRightLong</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_UpRightLong</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_DownLeftLong</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_DownLeftLong</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_UpRight</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_UpRight</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_DownLeft</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_DownLeft</a>
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/tablet/inkedit-gesture">Gesture Event [InkEdit Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-gesture">Gesture Event [InkEdit Control]</a>
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus Method [InkEdit Control]</a>
- 
-
- 
-
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus Method [InkEdit Control]</a>

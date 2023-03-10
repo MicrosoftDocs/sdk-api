@@ -2,15 +2,12 @@
 UID: NF:control.IAMStats.AddValue
 title: IAMStats::AddValue (control.h)
 description: The AddValue method records a new value.
+helpviewer_keywords: ["AddValue","AddValue method [DirectShow]","AddValue method [DirectShow]","IAMStats interface","IAMStats interface [DirectShow]","AddValue method","IAMStats.AddValue","IAMStats::AddValue","IAMStatsAddValue","control/IAMStats::AddValue","dshow.iamstats_addvalue"]
 old-location: dshow\iamstats_addvalue.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a408b106-702c-4ecc-a424-b4b3588ea58f
 ms.date: 12/05/2018
 ms.keywords: AddValue, AddValue method [DirectShow], AddValue method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],AddValue method, IAMStats.AddValue, IAMStats::AddValue, IAMStatsAddValue, control/IAMStats::AddValue, dshow.iamstats_addvalue
-f1_keywords:
-- control/IAMStats.AddValue
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStats.AddValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStats::AddValue
+ - control/IAMStats::AddValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStats.AddValue
 ---
 
 # IAMStats::AddValue
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>AddValue</code> method records a new value.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lIndex [in]
 
 Specifies the index of the statistic.
 
-
 ### -param dValue [in]
 
 Specifies the value to record.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -105,22 +95,11 @@ Index out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>

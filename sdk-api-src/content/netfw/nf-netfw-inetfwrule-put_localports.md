@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule.put_LocalPorts
 title: INetFwRule::put_LocalPorts (netfw.h)
-description: Specifies the list of local ports for this rule.
+description: Specifies the list of local ports for this rule. (Put)
+helpviewer_keywords: ["RPC","RPC-EPMap","Teredo","INetFwRule interface [ICS/ICF]","LocalPorts property","INetFwRule.LocalPorts","INetFwRule.put_LocalPorts","INetFwRule::LocalPorts","INetFwRule::get_LocalPorts","INetFwRule::put_LocalPorts","LocalPorts property [ICS/ICF]","LocalPorts property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_localports","netfw/INetFwRule::LocalPorts","netfw/INetFwRule::get_LocalPorts","netfw/INetFwRule::put_LocalPorts","put_LocalPorts"]
 old-location: ics\inetfwrule_localports.htm
 tech.root: ics
 ms.assetid: 72c4f00c-d5c4-4d93-892b-ec9a63f8df09
 ms.date: 12/05/2018
 ms.keywords: RPC, RPC-EPMap, Teredo, INetFwRule interface [ICS/ICF],LocalPorts property, INetFwRule.LocalPorts, INetFwRule.put_LocalPorts, INetFwRule::LocalPorts, INetFwRule::get_LocalPorts, INetFwRule::put_LocalPorts, LocalPorts property [ICS/ICF], LocalPorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_localports, netfw/INetFwRule::LocalPorts, netfw/INetFwRule::get_LocalPorts, netfw/INetFwRule::put_LocalPorts, put_LocalPorts
-f1_keywords:
-- netfw/INetFwRule.LocalPorts
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule.LocalPorts
-- INetFwRule.get_LocalPorts
-- INetFwRule.put_LocalPorts
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule::put_LocalPorts
+ - netfw/INetFwRule::put_LocalPorts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule.LocalPorts
+ - INetFwRule.get_LocalPorts
+ - INetFwRule.put_LocalPorts
 ---
 
 # INetFwRule::put_LocalPorts
@@ -50,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the list of local ports for this rule.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property is optional.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
+Also see the restrictions on changing properties described in the Remarks section of the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a> property must be set before the <b>LocalPorts</b> property or an error will be returned.
-
-
-
+The <a href="/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a> property must be set before the <b>LocalPorts</b> property or an error will be returned.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>

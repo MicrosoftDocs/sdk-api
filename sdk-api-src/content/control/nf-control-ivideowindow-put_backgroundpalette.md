@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.put_BackgroundPalette
 title: IVideoWindow::put_BackgroundPalette (control.h)
 description: The put_BackgroundPalette method specifies whether the video window realizes its palette in the background.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_BackgroundPalette method","IVideoWindow.put_BackgroundPalette","IVideoWindow::put_BackgroundPalette","IVideoWindowput_BackgroundPalette","control/IVideoWindow::put_BackgroundPalette","dshow.ivideowindow_put_backgroundpalette","put_BackgroundPalette","put_BackgroundPalette method [DirectShow]","put_BackgroundPalette method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_backgroundpalette.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0b1d34b6-0043-4929-a496-cf84b5d47b55
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, IVideoWindow.put_BackgroundPalette, IVideoWindow::put_BackgroundPalette, IVideoWindowput_BackgroundPalette, control/IVideoWindow::put_BackgroundPalette, dshow.ivideowindow_put_backgroundpalette, put_BackgroundPalette, put_BackgroundPalette method [DirectShow], put_BackgroundPalette method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_BackgroundPalette
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_BackgroundPalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_BackgroundPalette
+ - control/IVideoWindow::put_BackgroundPalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_BackgroundPalette
 ---
 
 # IVideoWindow::put_BackgroundPalette
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_BackgroundPalette</code> method specifies whether the video window realizes its palette in the background.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param BackgroundPalette [in]
 
@@ -83,12 +77,8 @@ Specifies whether the video renderer realizes it palette in the background. Must
 <td>The video renderer does not realize the palette in the background. (Default.)</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -131,35 +121,19 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If <i>BackgroundPalette</i> is <b>OATRUE</b> and the video image requires a pallette, the video renderer will realize that palette in the background. Any colors that the palette uses will change to their closest match in the display palette prior to drawing. This ensures that an application will not have its palette disturbed. However, it imposes severe performance penalties on the video.
-
-
-
+If <i>BackgroundPalette</i> is <b>OATRUE</b> and the video image requires a palette, the video renderer will realize that palette in the background. Any colors that the palette uses will change to their closest match in the display palette prior to drawing. This ensures that an application will not have its palette disturbed. However, it imposes severe performance penalties on the video.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_backgroundpalette">IVideoWindow::get_BackgroundPalette</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_backgroundpalette">IVideoWindow::get_BackgroundPalette</a>

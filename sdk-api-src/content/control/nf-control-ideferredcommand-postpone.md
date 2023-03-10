@@ -2,15 +2,12 @@
 UID: NF:control.IDeferredCommand.Postpone
 title: IDeferredCommand::Postpone (control.h)
 description: The Postpone method specifies a new invocation time for the command.
+helpviewer_keywords: ["IDeferredCommand interface [DirectShow]","Postpone method","IDeferredCommand.Postpone","IDeferredCommand::Postpone","IDeferredCommandPostpone","Postpone","Postpone method [DirectShow]","Postpone method [DirectShow]","IDeferredCommand interface","control/IDeferredCommand::Postpone","dshow.ideferredcommand_postpone"]
 old-location: dshow\ideferredcommand_postpone.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 184370db-95df-45a8-b1a0-e399923f866e
 ms.date: 12/05/2018
 ms.keywords: IDeferredCommand interface [DirectShow],Postpone method, IDeferredCommand.Postpone, IDeferredCommand::Postpone, IDeferredCommandPostpone, Postpone, Postpone method [DirectShow], Postpone method [DirectShow],IDeferredCommand interface, control/IDeferredCommand::Postpone, dshow.ideferredcommand_postpone
-f1_keywords:
-- control/IDeferredCommand.Postpone
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDeferredCommand.Postpone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeferredCommand::Postpone
+ - control/IDeferredCommand::Postpone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDeferredCommand.Postpone
 ---
 
 # IDeferredCommand::Postpone
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Postpone</code> method specifies a new invocation time for the command.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param newtime
 
 New time at which to invoke the command.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,22 +91,11 @@ The specified time has already passed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>

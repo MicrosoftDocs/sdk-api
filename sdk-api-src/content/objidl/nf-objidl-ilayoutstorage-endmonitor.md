@@ -2,15 +2,12 @@
 UID: NF:objidl.ILayoutStorage.EndMonitor
 title: ILayoutStorage::EndMonitor (objidl.h)
 description: The EndMonitor method ends monitoring of a compound file. Must be preceded by a call to ILayoutStorage::BeginMonitor.
+helpviewer_keywords: ["EndMonitor","EndMonitor method [Structured Storage]","EndMonitor method [Structured Storage]","ILayoutStorage interface","ILayoutStorage interface [Structured Storage]","EndMonitor method","ILayoutStorage.EndMonitor","ILayoutStorage::EndMonitor","_stg_ilayoutstorage_endmonitor","objidl/ILayoutStorage::EndMonitor","stg.ilayoutstorage_endmonitor"]
 old-location: stg\ilayoutstorage_endmonitor.htm
 tech.root: Stg
 ms.assetid: 83b9486b-78b6-473c-9a9a-33f470a4d70f
 ms.date: 12/05/2018
 ms.keywords: EndMonitor, EndMonitor method [Structured Storage], EndMonitor method [Structured Storage],ILayoutStorage interface, ILayoutStorage interface [Structured Storage],EndMonitor method, ILayoutStorage.EndMonitor, ILayoutStorage::EndMonitor, _stg_ilayoutstorage_endmonitor, objidl/ILayoutStorage::EndMonitor, stg.ilayoutstorage_endmonitor
-f1_keywords:
-- objidl/ILayoutStorage.EndMonitor
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- ILayoutStorage.EndMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILayoutStorage::EndMonitor
+ - objidl/ILayoutStorage::EndMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - ILayoutStorage.EndMonitor
 ---
 
 # ILayoutStorage::EndMonitor
@@ -48,49 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EndMonitor</b> method ends monitoring of a compound file. Must be preceded by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>.
-
-
-## -parameters
-
-
-
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>.
 
 
 
 ## -returns
 
-
-
-This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
-
-
-
+This function supports the standard return values E_OUTOFMEMORY, E_UNEXPECTED, E_INVALIDARG, and E_FAIL, as well as all return values for <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ## -remarks
 
-
-
 A call to 
 <b>EndMonitor</b> is generally followed by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::RelayoutDocfile</a>, which uses the access pattern detected by the monitoring to restructure the compound file.
-
-
-
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::RelayoutDocfile</a>, which uses the access pattern detected by the monitoring to restructure the compound file.
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-beginmonitor">ILayoutStorage::BeginMonitor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a>

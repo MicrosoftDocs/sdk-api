@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo.GetCurrentVolumeInfo
 title: IDvdInfo::GetCurrentVolumeInfo (strmif.h)
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD volume information.
+helpviewer_keywords: ["GetCurrentVolumeInfo","GetCurrentVolumeInfo method [DirectShow]","GetCurrentVolumeInfo method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentVolumeInfo method","IDvdInfo.GetCurrentVolumeInfo","IDvdInfo::GetCurrentVolumeInfo","IDvdInfoGetCurrentVolumeInfo","dshow.idvdinfo_getcurrentvolumeinfo","strmif/IDvdInfo::GetCurrentVolumeInfo"]
 old-location: dshow\idvdinfo_getcurrentvolumeinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2da53db9-5565-4bca-ba0a-90f7e07ccbb9
 ms.date: 12/05/2018
 ms.keywords: GetCurrentVolumeInfo, GetCurrentVolumeInfo method [DirectShow], GetCurrentVolumeInfo method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentVolumeInfo method, IDvdInfo.GetCurrentVolumeInfo, IDvdInfo::GetCurrentVolumeInfo, IDvdInfoGetCurrentVolumeInfo, dshow.idvdinfo_getcurrentvolumeinfo, strmif/IDvdInfo::GetCurrentVolumeInfo
-f1_keywords:
-- strmif/IDvdInfo.GetCurrentVolumeInfo
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IDvdInfo.GetCurrentVolumeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo::GetCurrentVolumeInfo
+ - strmif/IDvdInfo::GetCurrentVolumeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IDvdInfo.GetCurrentVolumeInfo
 ---
 
 # IDvdInfo::GetCurrentVolumeInfo
@@ -48,43 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
 Retrieves the current DVD volume information.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pulNumOfVol [out]
 
 Pointer to the retrieved number of volumes in the volume set.
 
-
 ### -param pulThisVolNum [out]
 
 Pointer to the retrieved volume number for this root directory.
 
-
 ### -param pSide [out]
 
-Pointer to the retrieved current disc side ([DVD_DISC_SIDE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_disc_side)).
-
+Pointer to the retrieved current disc side ([DVD_DISC_SIDE](/windows/desktop/api/strmif/ne-strmif-dvd_disc_side)).
 
 ### -param pulNumOfTitles [out]
 
 Pointer to the retrieved number of titles available in this volume.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value .
 
@@ -122,7 +110,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -138,31 +126,15 @@ Requested action cannot occur at this point in the movie due to the authoring of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
-
-
-
+This method is valid in any domain. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>

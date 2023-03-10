@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpGetAllOptionValues
 title: DhcpGetAllOptionValues function (dhcpsapi.h)
 description: Returns an array that contains all option values defined for a specific scope on the DHCP server.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpGetAllOptionValues","DhcpGetAllOptionValues function [DHCP]","dhcp.dhcpgetalloptionvalues","dhcpsapi/DhcpGetAllOptionValues"]
 old-location: dhcp\dhcpgetalloptionvalues.htm
 tech.root: DHCP
 ms.assetid: c462feba-dd9b-4815-b4d4-db1cdec3a354
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionValues, DhcpGetAllOptionValues function [DHCP], dhcp.dhcpgetalloptionvalues, dhcpsapi/DhcpGetAllOptionValues
-f1_keywords:
-- dhcpsapi/DhcpGetAllOptionValues
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetAllOptionValues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetAllOptionValues
+ - dhcpsapi/DhcpGetAllOptionValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetAllOptionValues
 ---
 
 # DhcpGetAllOptionValues function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpGetAllOptionValues</b> function returns an array that contains all option values defined for a specific scope on the DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
-
 
 ### -param Flags [in]
 
@@ -82,28 +78,23 @@ This flag should be set if vendor-specific options are desired.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ScopeInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a> structure that contains information on the specific scope whose option values will be returned. This information defines the option values that are being retrieved from the default, server, or scope level, or for a specific IPv4 reservation.
-
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a> structure that contains information on the specific scope whose option values will be returned. This information defines the option values that are being retrieved from the default, server, or scope level, or for a specific IPv4 reservation.
 
 ### -param Values [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_all_option_values">DHCP_ALL_OPTION_VALUES</a> structure that contains the returned option values for the scope specified in <i>ScopeInfo</i>.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_all_option_values">DHCP_ALL_OPTION_VALUES</a> structure that contains the returned option values for the scope specified in <i>ScopeInfo</i>.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -144,27 +135,11 @@ The specified DHCP client is not a reserved client.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 There will be one option value in the array specified by <i>Values</i> for each vendor/class pair defined on the DHCP server.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetalloptions">DhcpGetAllOptions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetalloptions">DhcpGetAllOptions</a>

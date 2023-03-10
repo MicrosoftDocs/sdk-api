@@ -2,15 +2,12 @@
 UID: NE:wmsdkidl.WMT_ATTR_IMAGETYPE
 title: WMT_ATTR_IMAGETYPE (wmsdkidl.h)
 description: The WMT_ATTR_IMAGETYPE enumeration type lists image types that can be stored in the header of an ASF file.
+helpviewer_keywords: ["WMT_ATTR_IMAGETYPE","WMT_ATTR_IMAGETYPE enumeration [windows Media Format]","WMT_IMAGETYPE_BITMAP","WMT_IMAGETYPE_GIF","WMT_IMAGETYPE_JPEG","wmformat.wmt_attr_imagetype","wmsdkidl/WMT_ATTR_IMAGETYPE","wmsdkidl/WMT_IMAGETYPE_BITMAP","wmsdkidl/WMT_IMAGETYPE_GIF","wmsdkidl/WMT_IMAGETYPE_JPEG"]
 old-location: wmformat\wmt_attr_imagetype.htm
 tech.root: wmformat
 ms.assetid: 0e032796-4bbf-4307-982f-560a56506db2
 ms.date: 12/05/2018
 ms.keywords: WMT_ATTR_IMAGETYPE, WMT_ATTR_IMAGETYPE enumeration [windows Media Format], WMT_IMAGETYPE_BITMAP, WMT_IMAGETYPE_GIF, WMT_IMAGETYPE_JPEG, wmformat.wmt_attr_imagetype, wmsdkidl/WMT_ATTR_IMAGETYPE, wmsdkidl/WMT_IMAGETYPE_BITMAP, wmsdkidl/WMT_IMAGETYPE_GIF, wmsdkidl/WMT_IMAGETYPE_JPEG
-f1_keywords:
-- wmsdkidl/WMT_ATTR_IMAGETYPE
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WMT_ATTR_IMAGETYPE
 targetos: Windows
 req.typenames: WMT_ATTR_IMAGETYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMT_ATTR_IMAGETYPE
+ - wmsdkidl/WMT_ATTR_IMAGETYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WMT_ATTR_IMAGETYPE
 ---
 
 # WMT_ATTR_IMAGETYPE enumeration
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMT_ATTR_IMAGETYPE</b> enumeration type lists image types that can be stored in the header of an ASF file.
-
-
-
 
 ## -enum-fields
 
-
-
-
-### -field WMT_IMAGETYPE_BITMAP
+### -field WMT_IMAGETYPE_BITMAP:1
 
 The image is a device-independent bitmap.
 
-
-### -field WMT_IMAGETYPE_JPEG
+### -field WMT_IMAGETYPE_JPEG:2
 
 The image is in JPEG format.
 
-
-### -field WMT_IMAGETYPE_GIF
+### -field WMT_IMAGETYPE_GIF:3
 
 The image is in GIF format.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

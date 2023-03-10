@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFInputTrustAuthority.GetPolicy
 title: IMFInputTrustAuthority::GetPolicy (mfidl.h)
 description: Retrieves the policy that defines which output protection systems are allowed for this stream, and the configuration data for each protection system.
+helpviewer_keywords: ["4d840b56-47e0-4c2f-b2e7-a17586dad8d1","GetPolicy","GetPolicy method [Media Foundation]","GetPolicy method [Media Foundation]","IMFInputTrustAuthority interface","IMFInputTrustAuthority interface [Media Foundation]","GetPolicy method","IMFInputTrustAuthority.GetPolicy","IMFInputTrustAuthority::GetPolicy","mf.imfinputtrustauthority_getpolicy","mfidl/IMFInputTrustAuthority::GetPolicy"]
 old-location: mf\imfinputtrustauthority_getpolicy.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1
 ms.date: 12/05/2018
 ms.keywords: 4d840b56-47e0-4c2f-b2e7-a17586dad8d1, GetPolicy, GetPolicy method [Media Foundation], GetPolicy method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetPolicy method, IMFInputTrustAuthority.GetPolicy, IMFInputTrustAuthority::GetPolicy, mf.imfinputtrustauthority_getpolicy, mfidl/IMFInputTrustAuthority::GetPolicy
-f1_keywords:
-- mfidl/IMFInputTrustAuthority.GetPolicy
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFInputTrustAuthority.GetPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFInputTrustAuthority::GetPolicy
+ - mfidl/IMFInputTrustAuthority::GetPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFInputTrustAuthority.GetPolicy
 ---
 
 # IMFInputTrustAuthority::GetPolicy
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the policy that defines which output protection systems are allowed for this stream, and the configuration data for each protection system.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Action [in]
 
-The action that will be performed on this stream, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
-
+The action that will be performed on this stream, specified as a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
 
 ### -param ppPolicy [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -94,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>

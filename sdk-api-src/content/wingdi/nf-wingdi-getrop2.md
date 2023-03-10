@@ -2,15 +2,12 @@
 UID: NF:wingdi.GetROP2
 title: GetROP2 function (wingdi.h)
 description: The GetROP2 function retrieves the foreground mix mode of the specified device context. The mix mode specifies how the pen or interior color and the color already on the screen are combined to yield a new color.
+helpviewer_keywords: ["GetROP2","GetROP2 function [Windows GDI]","_win32_GetROP2","gdi.getrop2","wingdi/GetROP2"]
 old-location: gdi\getrop2.htm
 tech.root: gdi
 ms.assetid: ca1930e0-f6f4-44c8-979c-f50881f3c225
 ms.date: 12/05/2018
 ms.keywords: GetROP2, GetROP2 function [Windows GDI], _win32_GetROP2, gdi.getrop2, wingdi/GetROP2
-f1_keywords:
-- wingdi/GetROP2
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetROP2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetROP2
+ - wingdi/GetROP2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetROP2
 ---
 
 # GetROP2 function
@@ -50,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetROP2</b> function retrieves the foreground mix mode of the specified device context. The mix mode specifies how the pen or interior color and the color already on the screen are combined to yield a new color.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the foreground mix mode.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 Following are the foreground mix modes.
 
@@ -151,26 +140,15 @@ Following are the foreground mix modes.
 <td>Pixel is a combination of the colors in the pen and in the screen, but not in both.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setrop2">SetROP2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setrop2">SetROP2</a>

@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminMIBGetTrapInfo
 title: MprAdminMIBGetTrapInfo function (mprapi.h)
 description: The MprAdminMIBGetTrapInfo function queries the module that set a trap event for more information about the trap.
+helpviewer_keywords: ["MprAdminMIBGetTrapInfo","MprAdminMIBGetTrapInfo function [RAS]","_mpr_mpradminmibgettrapinfo","mprapi/MprAdminMIBGetTrapInfo","rras.mpradminmibgettrapinfo"]
 old-location: rras\mpradminmibgettrapinfo.htm
 tech.root: RRAS
 ms.assetid: 626c66c8-db7b-4be3-b5b0-c10a41ca46cc
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBGetTrapInfo, MprAdminMIBGetTrapInfo function [RAS], _mpr_mpradminmibgettrapinfo, mprapi/MprAdminMIBGetTrapInfo, rras.mpradminmibgettrapinfo
-f1_keywords:
-- mprapi/MprAdminMIBGetTrapInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminMIBGetTrapInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminMIBGetTrapInfo
+ - mprapi/MprAdminMIBGetTrapInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminMIBGetTrapInfo
 ---
 
 # MprAdminMIBGetTrapInfo function
@@ -48,46 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminMIBGetTrapInfo</b> function queries the module that set a trap event for more information about the trap.
 
-
 ## -parameters
-
-
-
 
 ### -param hMibServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibserverconnect">MprAdminMIBServerConnect</a>.
 
 ### -param dwProtocolId [in]
 
 Specifies a <b>DWORD</b> variable that contains the protocol family identifier.
 
-
 ### -param dwRoutingPid [in]
 
 Specifies a <b>DWORD</b> variable that contains the identifier of the routing protocol.
-
 
 ### -param lpInData [in]
 
 Specifies the address of the input data.
 
-
 ### -param dwInDataSize [in]
 
 Specifies a <b>DWORD</b> variable that contains the size, in, bytes of the data pointed to by <i>lpInData</i>.
 
-
 ### -param lplpOutData [out]
 
 Receives, the address of a pointer to the output data.
-
 
 ### -param lpOutDataSize [in, out]
 
@@ -98,10 +89,7 @@ On input, pointer to a <b>DWORD</b> variable.
 
 On output, receives the size, in bytes, of the data pointed to by <i>* lplpOutData</i>.
 
-
 ## -returns
-
-
 
 If the functions succeeds, the return value is NO_ERROR
 
@@ -146,26 +134,15 @@ Insufficient resources to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminmibsettrapinfo">MprAdminMIBSetTrapInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminmibsettrapinfo">MprAdminMIBSetTrapInfo</a>
+<a href="/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/mib-functions">Router Management MIB Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-mib-reference">Router Management MIB Reference</a>

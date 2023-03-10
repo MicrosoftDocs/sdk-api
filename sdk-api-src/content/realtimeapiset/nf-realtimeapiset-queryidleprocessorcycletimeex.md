@@ -2,15 +2,12 @@
 UID: NF:realtimeapiset.QueryIdleProcessorCycleTimeEx
 title: QueryIdleProcessorCycleTimeEx function (realtimeapiset.h)
 description: Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group.
+helpviewer_keywords: ["QueryIdleProcessorCycleTimeEx","QueryIdleProcessorCycleTimeEx function","base.queryidleprocessorcycletimeex","realtimeapiset/QueryIdleProcessorCycleTimeEx","winbase/QueryIdleProcessorCycleTimeEx"]
 old-location: base\queryidleprocessorcycletimeex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 4bf05e40-96d1-4c01-b3a8-8a45934b38c6
 ms.date: 12/05/2018
 ms.keywords: QueryIdleProcessorCycleTimeEx, QueryIdleProcessorCycleTimeEx function, base.queryidleprocessorcycletimeex, realtimeapiset/QueryIdleProcessorCycleTimeEx, winbase/QueryIdleProcessorCycleTimeEx
-f1_keywords:
-- realtimeapiset/QueryIdleProcessorCycleTimeEx
-dev_langs:
-- c++
 req.header: realtimeapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-realtime-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-RealTime-l1-1-1.dll
-api_name:
-- QueryIdleProcessorCycleTimeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryIdleProcessorCycleTimeEx
+ - realtimeapiset/QueryIdleProcessorCycleTimeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-realtime-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-RealTime-l1-1-1.dll
+api_name:
+ - QueryIdleProcessorCycleTimeEx
 ---
 
 # QueryIdleProcessorCycleTimeEx function
@@ -53,19 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group. 
-
+Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group.
 
 ## -parameters
-
-
-
 
 ### -param Group [in]
 
 The number of the processor group for which to retrieve the cycle time.
-
 
 ### -param BufferLength [in, out]
 
@@ -73,43 +69,24 @@ On input, specifies the size of the <i>ProcessorIdleCycleTime</i> buffer, in byt
 
 On output, specifies the number of elements written to the buffer. If the buffer size is not sufficient, the function fails and this parameter receives the required length of the buffer.
 
-
 ### -param ProcessorIdleCycleTime [out]
 
 The number of CPU clock cycles used by each idle thread. If this parameter is NULL, the function updates the <i>BufferLength</i> parameter with the required length.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, use <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is zero. To get extended error information, use <a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletime">QueryIdleProcessorCycleTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryidleprocessorcycletime">QueryIdleProcessorCycleTime</a>

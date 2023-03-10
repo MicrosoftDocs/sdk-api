@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule.put_Enabled
 title: INetFwRule::put_Enabled (netfw.h)
-description: Enables or disables a rule.
+description: Enables or disables a rule. (Put)
+helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwRule interface","INetFwRule interface [ICS/ICF]","Enabled property","INetFwRule.Enabled","INetFwRule.put_Enabled","INetFwRule::Enabled","INetFwRule::get_Enabled","INetFwRule::put_Enabled","ics.inetfwrule_enabled","netfw/INetFwRule::Enabled","netfw/INetFwRule::get_Enabled","netfw/INetFwRule::put_Enabled","put_Enabled"]
 old-location: ics\inetfwrule_enabled.htm
 tech.root: ics
 ms.assetid: 42533aca-3273-46fa-a9a1-add7f9fde351
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Enabled property, INetFwRule.Enabled, INetFwRule.put_Enabled, INetFwRule::Enabled, INetFwRule::get_Enabled, INetFwRule::put_Enabled, ics.inetfwrule_enabled, netfw/INetFwRule::Enabled, netfw/INetFwRule::get_Enabled, netfw/INetFwRule::put_Enabled, put_Enabled
-f1_keywords:
-- netfw/INetFwRule.Enabled
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule.Enabled
-- INetFwRule.get_Enabled
-- INetFwRule.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule::put_Enabled
+ - netfw/INetFwRule::put_Enabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule.Enabled
+ - INetFwRule.get_Enabled
+ - INetFwRule.put_Enabled
 ---
 
 # INetFwRule::put_Enabled
@@ -50,33 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables a rule.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property is optional.  A new rule is disabled by default.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
-
-
-
+Also see the restrictions on changing properties described in the Remarks section of the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>

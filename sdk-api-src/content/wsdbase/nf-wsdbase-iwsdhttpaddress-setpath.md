@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDHttpAddress.SetPath
 title: IWSDHttpAddress::SetPath (wsdbase.h)
 description: Sets the URI path for this address.
+helpviewer_keywords: ["IWSDHttpAddress interface","SetPath method","IWSDHttpAddress.SetPath","IWSDHttpAddress::SetPath","SetPath","SetPath method","SetPath method","IWSDHttpAddress interface","ncd.iwsdhttpaddress_setpath","wsdbase/IWSDHttpAddress::SetPath"]
 old-location: ncd\iwsdhttpaddress_setpath.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 4bad84a6-f321-4275-9787-f6bae83c807e
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress interface,SetPath method, IWSDHttpAddress.SetPath, IWSDHttpAddress::SetPath, SetPath, SetPath method, SetPath method,IWSDHttpAddress interface, ncd.iwsdhttpaddress_setpath, wsdbase/IWSDHttpAddress::SetPath
-f1_keywords:
-- wsdbase/IWSDHttpAddress.SetPath
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpAddress.SetPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpAddress::SetPath
+ - wsdbase/IWSDHttpAddress::SetPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpAddress.SetPath
 ---
 
 # IWSDHttpAddress::SetPath
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the URI path for this address.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
 The URI path to use for this address.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,18 +106,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a>

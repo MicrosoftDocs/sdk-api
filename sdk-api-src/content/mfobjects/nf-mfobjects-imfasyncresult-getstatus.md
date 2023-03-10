@@ -1,16 +1,13 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetStatus
 title: IMFAsyncResult::GetStatus (mfobjects.h)
-description: Returns the status of the asynchronous operation.
+description: Returns the status of the asynchronous operation. (IMFAsyncResult.GetStatus)
+helpviewer_keywords: ["GetStatus","GetStatus method [Media Foundation]","GetStatus method [Media Foundation]","IMFAsyncResult interface","IMFAsyncResult interface [Media Foundation]","GetStatus method","IMFAsyncResult.GetStatus","IMFAsyncResult::GetStatus","ad99f3dd-4885-42e8-8f4e-060d522dde7b","mf.imfasyncresult_getstatus","mfobjects/IMFAsyncResult::GetStatus"]
 old-location: mf\imfasyncresult_getstatus.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ad99f3dd-4885-42e8-8f4e-060d522dde7b
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Media Foundation], GetStatus method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetStatus method, IMFAsyncResult.GetStatus, IMFAsyncResult::GetStatus, ad99f3dd-4885-42e8-8f4e-060d522dde7b, mf.imfasyncresult_getstatus, mfobjects/IMFAsyncResult::GetStatus
-f1_keywords:
-- mfobjects/IMFAsyncResult.GetStatus
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAsyncResult.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAsyncResult::GetStatus
+ - mfobjects/IMFAsyncResult::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAsyncResult.GetStatus
 ---
 
 # IMFAsyncResult::GetStatus
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns the status of the asynchronous operation.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,14 +76,8 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -102,19 +86,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a>

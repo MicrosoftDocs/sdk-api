@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMProgress.Progress
 title: IWMDMProgress::Progress (mswmdm.h)
 description: The Progress method indicates that an operation is still in progress.
+helpviewer_keywords: ["IWMDMProgress interface [windows Media Device Manager]","Progress method","IWMDMProgress.Progress","IWMDMProgress::Progress","IWMDMProgressProgress","Progress","Progress method [windows Media Device Manager]","Progress method [windows Media Device Manager]","IWMDMProgress interface","mswmdm/IWMDMProgress::Progress","wmdm.iwmdmprogress_progress"]
 old-location: wmdm\iwmdmprogress_progress.htm
 tech.root: WMDM
 ms.assetid: e85b6b46-2c42-461f-90b5-71b48bc4a111
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress interface [windows Media Device Manager],Progress method, IWMDMProgress.Progress, IWMDMProgress::Progress, IWMDMProgressProgress, Progress, Progress method [windows Media Device Manager], Progress method [windows Media Device Manager],IWMDMProgress interface, mswmdm/IWMDMProgress::Progress, wmdm.iwmdmprogress_progress
-f1_keywords:
-- mswmdm/IWMDMProgress.Progress
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMProgress.Progress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMProgress::Progress
+ - mswmdm/IWMDMProgress::Progress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMProgress.Progress
 ---
 
 # IWMDMProgress::Progress
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Progress</b> method indicates that an operation is still in progress.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwTranspiredTicks [in]
 
 <b>DWORD</b> specifying the number of ticks that have transpired so far.
 
-
 ## -returns
-
-
 
 The application should return one of the following <b>HRESULT</b> values.
 
@@ -100,14 +91,8 @@ Windows Media Device Manager should cancel the current operation without waiting
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is called by all other Windows Media Device Manager methods. The intention is that <b>Progress</b> will be called once per estimated tick. However, the <i>dwTranspiredTicks</i> parameter must be checked on each call because the operation being performed may not guarantee a call once for each estimated tick.
 
@@ -130,25 +115,14 @@ HRESULT Progress(DWORD  dwTranspiredTicks)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-notifications">Enabling Notifications</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3">IWMDMProgress3::Progress3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-progress3">IWMDMProgress3::Progress3</a>

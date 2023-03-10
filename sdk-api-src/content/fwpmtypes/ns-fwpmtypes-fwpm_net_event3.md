@@ -1,7 +1,7 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT3_
 title: FWPM_NET_EVENT3 (fwpmtypes.h)
-description: Contains information about all event types.
+description: Contains information about all event types. (FWPM_NET_EVENT3)
 old-location: fwp\fwpm_net_event3.htm
 tech.root: fwp
 ms.assetid: 2D71C44C-B553-46DD-8943-DCC979A7DC6B
@@ -49,93 +49,71 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>FWPM_NET_EVENT3</b> structure contains information about all event types.
-[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)a> is available. For Windows 7, [FWPM_NET_EVENT1](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event1)a> is available. For Windows Vista, [FWPM_NET_EVENT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event0)a> is available.</div><div> </div>
+The **FWPM_NET_EVENT3** structure contains information about all event types.
+[FWPM_NET_EVENT2](ns-fwpmtypes-fwpm_net_event2.md) is available. For Windows 7, [FWPM_NET_EVENT1](ns-fwpmtypes-fwpm_net_event1.md) is available. For Windows Vista, [FWPM_NET_EVENT0](ns-fwpmtypes-fwpm_net_event0.md) is available.
 
 ## -struct-fields
-
-
-
 
 ### -field header
 
 Information common to all events.
 
-
 ### -field type
 
 The type of event.
-
 
 ### -field ikeMmFailure
 
 Information about  an IKE main mode failure.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE</b>.
-
+Available when **type** is **FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE**.
 
 ### -field ikeQmFailure
 
 Information about  an IKE quick mode failure.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE</b>.
-
+Available when **type** is **FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE**.
 
 ### -field ikeEmFailure
 
 Information about  an IKE user mode failure.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE</b>.
-
+Available when **type** is **FWPM_NET_EVENT_TYPE_IKEEXT_EM_FAILURE**.
 
 ### -field classifyDrop
 
 Information about  a drop event.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
-
+Available when **type** is **FWPM_NET_EVENT_TYPE_CLASSIFY_DROP**.
 
 ### -field ipsecDrop
 
 Information about an IPsec kernel drop event.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP</b>.
-
+Available when **type** is **FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP**.
 
 ### -field idpDrop
 
 Information about an IPsec DoS Protection event.
 
-Available when <b>type</b> is <b>FWPM_NET_EVENT_IPSEC_DOSP_DROP</b>.
-
+Available when **type** is **FWPM_NET_EVENT_IPSEC_DOSP_DROP**.
 
 ### -field classifyAllow
 
 Information about an allow event.
 
-
 ### -field capabilityDrop
 
 Information about a capability-related drop event.
-
 
 ### -field capabilityAllow
 
 Information about a capability-related allow event.
 
-
 ### -field classifyDropMac
 
 Information about a MAC layer drop event.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+[Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)

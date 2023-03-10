@@ -2,15 +2,12 @@
 UID: NF:imapi2.IMultisessionSequential.get_IsFirstDataSession
 title: IMultisessionSequential::get_IsFirstDataSession (imapi2.h)
 description: Determines if this session is the first data session on the media.
+helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_IsFirstDataSession method","IMultisessionSequential.get_IsFirstDataSession","IMultisessionSequential::get_IsFirstDataSession","get_IsFirstDataSession","get_IsFirstDataSession method [IMAPI]","get_IsFirstDataSession method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_isfirstdatasession","imapi2/IMultisessionSequential::get_IsFirstDataSession"]
 old-location: imapi\imultisessionsequential_get_isfirstdatasession.htm
 tech.root: imapi
 ms.assetid: 5dd7a321-833a-4fee-8128-675d1b76736c
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_IsFirstDataSession method, IMultisessionSequential.get_IsFirstDataSession, IMultisessionSequential::get_IsFirstDataSession, get_IsFirstDataSession, get_IsFirstDataSession method [IMAPI], get_IsFirstDataSession method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_isfirstdatasession, imapi2/IMultisessionSequential::get_IsFirstDataSession
-f1_keywords:
-- imapi2/IMultisessionSequential.get_IsFirstDataSession
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionSequential.get_IsFirstDataSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionSequential::get_IsFirstDataSession
+ - imapi2/IMultisessionSequential::get_IsFirstDataSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionSequential.get_IsFirstDataSession
 ---
 
 # IMultisessionSequential::get_IsFirstDataSession
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if this session is the first data session on the media.
 
-
 ## -parameters
-
-
-
 
 ### -param value
 
 Is VARIANT_TRUE if the session is the first data session on the media. Otherwise, the value is VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -373,27 +367,11 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This property is relevant on CD media that combine audio and data tracks/sessions, such as CD Extra and Mixed-Mode CD.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>

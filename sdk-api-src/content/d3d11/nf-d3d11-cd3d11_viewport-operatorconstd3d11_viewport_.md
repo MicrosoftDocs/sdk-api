@@ -1,7 +1,8 @@
 ---
-UID: NF:d3d11.CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&
+UID: NF:d3d11.CD3D11_VIEWPORT.operator-cast-const-D3D11_VIEWPORT&
 title: CD3D11_VIEWPORT::operator const D3D11_VIEWPORT& (d3d11.h)
 description: This operator returns the address of a D3D11_VIEWPORT structure that contains the data from the CD3D11_VIEWPORT instance.
+helpviewer_keywords: ["CD3D11_VIEWPORT interface [Direct3D 11]","operator const D3D11_VIEWPORT& method","CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&","CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&","CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&()","d3d11/CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&","direct3d11.cd3d11_viewport_d3d11_viewport__","operator const D3D11_VIEWPORT&","operator const D3D11_VIEWPORT& method [Direct3D 11]","operator const D3D11_VIEWPORT& method [Direct3D 11]","CD3D11_VIEWPORT interface"]
 old-location: direct3d11\cd3d11_viewport_d3d11_viewport__.htm
 tech.root: direct3d11
 ms.assetid: 22E0EC17-F3DB-4BDB-BB39-46646896E1D8
@@ -50,10 +51,10 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_viewport">D3D11_VIEWPORT</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a> instance.
+This operator returns the address of a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_viewport">D3D11_VIEWPORT</a> structure that contains  the data from the <a href="/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a> instance.
 
 
-## -parameters
+
 
 
 
@@ -65,8 +66,7 @@ This operator returns the address of a <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a>
+<a href="/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a>
  
 
  
-

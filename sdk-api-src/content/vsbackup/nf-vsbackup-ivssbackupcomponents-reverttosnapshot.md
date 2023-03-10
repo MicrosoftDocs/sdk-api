@@ -1,16 +1,13 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.RevertToSnapshot
 title: IVssBackupComponents::RevertToSnapshot (vsbackup.h)
-description: Reverts a volume to a previous shadow copy.
+description: Reverts a volume to a previous shadow copy. (IVssBackupComponents.RevertToSnapshot)
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","RevertToSnapshot method","IVssBackupComponents.RevertToSnapshot","IVssBackupComponents::RevertToSnapshot","RevertToSnapshot","RevertToSnapshot method [VSS]","RevertToSnapshot method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_reverttosnapshot","base.ivssbackupcomponents_reverttosnapshot","vsbackup/IVssBackupComponents::RevertToSnapshot"]
 old-location: base\ivssbackupcomponents_reverttosnapshot.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 9976195e-3448-4b0e-82b2-1ae061c75b17
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],RevertToSnapshot method, IVssBackupComponents.RevertToSnapshot, IVssBackupComponents::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method [VSS], RevertToSnapshot method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_reverttosnapshot, base.ivssbackupcomponents_reverttosnapshot, vsbackup/IVssBackupComponents::RevertToSnapshot
-f1_keywords:
-- vsbackup/IVssBackupComponents.RevertToSnapshot
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.RevertToSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::RevertToSnapshot
+ - vsbackup/IVssBackupComponents::RevertToSnapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.RevertToSnapshot
 ---
 
 # IVssBackupComponents::RevertToSnapshot
 
 
 ## -description
-
 
 The <b>RevertToSnapshot</b> method 
    reverts a volume to a previous shadow copy. Only shadow copies created with persistent contexts 
@@ -59,23 +60,16 @@ The <b>RevertToSnapshot</b> method
 
 ## -parameters
 
-
-
-
 ### -param SnapshotId [in]
 
 VSS_ID of the shadow copy to revert.
-
 
 ### -param bForceDismount [in]
 
 If this parameter is 
       <b>TRUE</b>, the volume will be dismounted and reverted even if the volume is in use.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -218,32 +212,16 @@ Revert is not supported on this volume.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This operation cannot be canceled, or undone once completed. If the computer is rebooted during the revert 
      operation, the revert process will continue when the system is restarted.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus">IVssBackupComponents::QueryRevertStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus">IVssBackupComponents::QueryRevertStatus</a>

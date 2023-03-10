@@ -2,15 +2,12 @@
 UID: NE:gdiplusenums.DriverStringOptions
 title: DriverStringOptions (gdiplusenums.h)
 description: The DriverStringOptions enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.
+helpviewer_keywords: ["DriverStringOptions","DriverStringOptions enumeration [GDI+]","DriverStringOptionsCmapLookup","DriverStringOptionsLimitSubpixel","DriverStringOptionsRealizedAdvance","DriverStringOptionsVertical","_gdiplus_ENUM_DriverStringOptions","gdiplus._gdiplus_ENUM_DriverStringOptions","gdiplusenums/DriverStringOptions","gdiplusenums/DriverStringOptionsCmapLookup","gdiplusenums/DriverStringOptionsLimitSubpixel","gdiplusenums/DriverStringOptionsRealizedAdvance","gdiplusenums/DriverStringOptionsVertical"]
 old-location: gdiplus\_gdiplus_ENUM_DriverStringOptions.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\driverstringoptions.htm
 ms.date: 12/05/2018
 ms.keywords: DriverStringOptions, DriverStringOptions enumeration [GDI+], DriverStringOptionsCmapLookup, DriverStringOptionsLimitSubpixel, DriverStringOptionsRealizedAdvance, DriverStringOptionsVertical, _gdiplus_ENUM_DriverStringOptions, gdiplus._gdiplus_ENUM_DriverStringOptions, gdiplusenums/DriverStringOptions, gdiplusenums/DriverStringOptionsCmapLookup, gdiplusenums/DriverStringOptionsLimitSubpixel, gdiplusenums/DriverStringOptionsRealizedAdvance, gdiplusenums/DriverStringOptionsVertical
-f1_keywords:
-- gdiplusenums/DriverStringOptions
-dev_langs:
-- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdiplusenums.h
-api_name:
-- DriverStringOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - DriverStringOptions
+ - gdiplusenums/DriverStringOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdiplusenums.h
+api_name:
+ - DriverStringOptions
 ---
 
 # DriverStringOptions enumeration
@@ -49,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DriverStringOptions</b> enumeration specifies the spacing, orientation, and quality of the rendering for driver strings.
-
 
 ## -enum-fields
 
-
-
-
-### -field DriverStringOptionsCmapLookup
+### -field DriverStringOptionsCmapLookup:1
 
 Specifies that the string array contains Unicode character values. 
 			If this flag is not set, each value in array is interpreted as an index to a font glyph that defines a character to be displayed.
 
+### -field DriverStringOptionsVertical:2
 
-### -field DriverStringOptionsVertical
+Specifies that the string is displayed vertically.
 
-Specifies that the string is displayed vertically. 
+### -field DriverStringOptionsRealizedAdvance:4
 
+Specifies that the glyph positions are calculated from the position of the first glyph. If this flag is not set, the glyph positions are obtained from an array of coordinates.
 
-### -field DriverStringOptionsRealizedAdvance
+### -field DriverStringOptionsLimitSubpixel:8
 
-Specifies that the glyph positions are calculated from the position of the first glyph. If this flag is not set, the glyph positions are obtained from an array of coordinates. 
-
-
-### -field DriverStringOptionsLimitSubpixel
-
-Specifies that less memory should be used for cache of antialiased glyphs. This also produces lower quality. If this flag isn't set, more memory is used, but the quality is higher. 
-
+Specifies that less memory should be used for cache of antialiased glyphs. This also produces lower quality. If this flag isn't set, more memory is used, but the quality is higher.
 
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-antialiasing-with-text-use">Antialiasing with Text</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-antialiasing-with-text-use">Antialiasing with Text</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring">Graphics::DrawDriverString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawdriverstring">Graphics::DrawDriverString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measuredriverstring">Graphics::MeasureDriverString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measuredriverstring">Graphics::MeasureDriverString</a>

@@ -2,15 +2,12 @@
 UID: NF:imapi.IDiscRecorder.GetRecorderType
 title: IDiscRecorder::GetRecorderType (imapi.h)
 description: Determines whether the disc recorder is a CD-R or CD-RW type device. This does not indicate the type of media that is currently inserted in the device.
+helpviewer_keywords: ["GetRecorderType","GetRecorderType method [IMAPI]","GetRecorderType method [IMAPI]","IDiscRecorder interface","IDiscRecorder interface [IMAPI]","GetRecorderType method","IDiscRecorder.GetRecorderType","IDiscRecorder::GetRecorderType","RECORDER_CDR","RECORDER_CDRW","_win32_idiscrecorder_getrecordertype","base.idiscrecorder_getrecordertype","imapi.idiscrecorder_getrecordertype","imapi/IDiscRecorder::GetRecorderType"]
 old-location: imapi\idiscrecorder_getrecordertype.htm
 tech.root: imapi
 ms.assetid: 287516b5-5d27-4277-8bc4-e2409b2a8cd7
 ms.date: 12/05/2018
 ms.keywords: GetRecorderType, GetRecorderType method [IMAPI], GetRecorderType method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderType method, IDiscRecorder.GetRecorderType, IDiscRecorder::GetRecorderType, RECORDER_CDR, RECORDER_CDRW, _win32_idiscrecorder_getrecordertype, base.idiscrecorder_getrecordertype, imapi.idiscrecorder_getrecordertype, imapi/IDiscRecorder::GetRecorderType
-f1_keywords:
-- imapi/IDiscRecorder.GetRecorderType
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscRecorder.GetRecorderType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder::GetRecorderType
+ - imapi/IDiscRecorder::GetRecorderType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscRecorder.GetRecorderType
 ---
 
 # IDiscRecorder::GetRecorderType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the disc recorder is a CD-R or CD-RW type device. This does not indicate the type of media that is currently inserted in the device.
 
-
 ## -parameters
-
-
-
 
 ### -param fTypeCode [out]
 
@@ -87,25 +84,11 @@ One of the following values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>

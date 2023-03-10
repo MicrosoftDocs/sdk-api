@@ -2,15 +2,12 @@
 UID: NF:webapplication.IWebApplicationScriptEvents.ScriptError
 title: IWebApplicationScriptEvents::ScriptError (webapplication.h)
 description: Fired when an unhandled script error occurs.
+helpviewer_keywords: ["IWebApplicationScriptEvents interface [Debugging Windows Store apps]","ScriptError method","IWebApplicationScriptEvents.ScriptError","IWebApplicationScriptEvents::ScriptError","ScriptError","ScriptError method [Debugging Windows Store apps]","ScriptError method [Debugging Windows Store apps]","IWebApplicationScriptEvents interface","debug.iwebapplicationscriptevents_scripterror","webapplication/IWebApplicationScriptEvents::ScriptError"]
 old-location: debug\iwebapplicationscriptevents_scripterror.htm
-tech.root: debug_wwahost
+tech.root: debug
 ms.assetid: 4f1e6260-804d-4881-b2d8-70a1463a46bd
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationScriptEvents interface [Debugging Windows Store apps],ScriptError method, IWebApplicationScriptEvents.ScriptError, IWebApplicationScriptEvents::ScriptError, ScriptError, ScriptError method [Debugging Windows Store apps], ScriptError method [Debugging Windows Store apps],IWebApplicationScriptEvents interface, debug.iwebapplicationscriptevents_scripterror, webapplication/IWebApplicationScriptEvents::ScriptError
-f1_keywords:
-- webapplication/IWebApplicationScriptEvents.ScriptError
-dev_langs:
-- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- webapplication.h
-api_name:
-- IWebApplicationScriptEvents.ScriptError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebApplicationScriptEvents::ScriptError
+ - webapplication/IWebApplicationScriptEvents::ScriptError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - webapplication.h
+api_name:
+ - IWebApplicationScriptEvents.ScriptError
 ---
 
 # IWebApplicationScriptEvents::ScriptError
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Fired when an unhandled script error occurs.
-
 
 ## -parameters
 
-
-
-
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
 
 The window or frame in which the script error occurred.
 
-
 ### -param scriptError [in]
 
-Type: <b><a href="https://docs.microsoft.com/scripting/winscript/reference/iactivescripterror">IActiveScriptError</a>*</b>
+Type: <b><a href="/scripting/winscript/reference/iactivescripterror">IActiveScriptError</a>*</b>
 
 The object that contains info about the script error that occurred.
-
 
 ### -param url [in]
 
@@ -77,32 +72,18 @@ Type: <b>LPCWSTR</b>
 
 The URL on which the script error occurred.
 
-
 ### -param errorHandled [in]
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if the app handled the error; otherwise <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationscriptevents">IWebApplicationScriptEvents</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationscriptevents">IWebApplicationScriptEvents</a>

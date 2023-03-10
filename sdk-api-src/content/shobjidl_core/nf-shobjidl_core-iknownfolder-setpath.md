@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IKnownFolder.SetPath
 title: IKnownFolder::SetPath (shobjidl_core.h)
 description: Assigns a new path to a known folder.
+helpviewer_keywords: ["IKnownFolder interface [Windows Shell]","SetPath method","IKnownFolder.SetPath","IKnownFolder::SetPath","KF_FLAG_DONT_UNEXPAND","SetPath","SetPath method [Windows Shell]","SetPath method [Windows Shell]","IKnownFolder interface","_shell_IKnownFolder_SetPath","shell.IKnownFolder_SetPath","shobjidl_core/IKnownFolder::SetPath"]
 old-location: shell\IKnownFolder_SetPath.htm
 tech.root: shell
 ms.assetid: 235f69de-3571-4184-aa52-b409fbc1d643
 ms.date: 12/05/2018
 ms.keywords: IKnownFolder interface [Windows Shell],SetPath method, IKnownFolder.SetPath, IKnownFolder::SetPath, KF_FLAG_DONT_UNEXPAND, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IKnownFolder interface, _shell_IKnownFolder_SetPath, shell.IKnownFolder_SetPath, shobjidl_core/IKnownFolder::SetPath
-f1_keywords:
-- shobjidl_core/IKnownFolder.SetPath
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IKnownFolder.SetPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKnownFolder::SetPath
+ - shobjidl_core/IKnownFolder::SetPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IKnownFolder.SetPath
 ---
 
 # IKnownFolder::SetPath
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns a new path to a known folder.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -69,53 +66,34 @@ Either zero or the following value:
 
 Set the full path without environment strings. If this flag is not set, portions of the path at <i>pszPath</i> may be represented by environment strings such as <code>%USERPROFILE%</code>.
 
-
 ### -param pszPath [in]
 
 Type: <b>LPCWSTR</b>
 
 Pointer to the folder's new path. This is a null-terminated Unicode string of length MAX_PATH. This path cannot be of zero length. If this value is <b>NULL</b>, the <b>IKnownFolder::SetPath</b> sets the path to the default value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
+This method cannot be called on folders of type <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_FIXED</a> or <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_VIRTUAL</a>.
 
+To call this method on a folder of type <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_COMMON</a>, the calling application must be running with elevated privileges.
 
-This method cannot be called on folders of type <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_FIXED</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_VIRTUAL</a>.
-
-To call this method on a folder of type <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-kf_category">KF_CATEGORY_COMMON</a>, the calling application must be running with elevated privileges.
-
-This method is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>.
-
-
-
+This method is equivalent to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder">IKnownFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder">IKnownFolder</a>
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>

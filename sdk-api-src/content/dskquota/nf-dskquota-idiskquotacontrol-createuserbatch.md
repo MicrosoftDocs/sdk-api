@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.CreateUserBatch
 title: IDiskQuotaControl::CreateUserBatch (dskquota.h)
 description: Creates a batching object for optimizing updates to the quota settings of multiple users simultaneously.
+helpviewer_keywords: ["CreateUserBatch","CreateUserBatch method [Files]","CreateUserBatch method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","CreateUserBatch method","IDiskQuotaControl.CreateUserBatch","IDiskQuotaControl::CreateUserBatch","_win32_idiskquotacontrol_createuserbatch","base.idiskquotacontrol_createuserbatch","dskquota/IDiskQuotaControl::CreateUserBatch","fs.idiskquotacontrol_createuserbatch"]
 old-location: fs\idiskquotacontrol_createuserbatch.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c1c5a71f-4a2f-4bf9-b28f-11b87a558771
 ms.date: 12/05/2018
 ms.keywords: CreateUserBatch, CreateUserBatch method [Files], CreateUserBatch method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],CreateUserBatch method, IDiskQuotaControl.CreateUserBatch, IDiskQuotaControl::CreateUserBatch, _win32_idiskquotacontrol_createuserbatch, base.idiskquotacontrol_createuserbatch, dskquota/IDiskQuotaControl::CreateUserBatch, fs.idiskquotacontrol_createuserbatch
-f1_keywords:
-- dskquota/IDiskQuotaControl.CreateUserBatch
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.CreateUserBatch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::CreateUserBatch
+ - dskquota/IDiskQuotaControl::CreateUserBatch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.CreateUserBatch
 ---
 
 # IDiskQuotaControl::CreateUserBatch
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a batching object for optimizing updates to the quota settings of multiple users simultaneously.
 
-
 ## -parameters
-
-
-
 
 ### -param ppBatch [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a> interface pointer.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a> interface pointer.
 
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -141,26 +135,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

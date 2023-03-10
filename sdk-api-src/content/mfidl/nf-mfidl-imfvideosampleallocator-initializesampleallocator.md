@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFVideoSampleAllocator.InitializeSampleAllocator
 title: IMFVideoSampleAllocator::InitializeSampleAllocator (mfidl.h)
 description: Specifies the number of samples to allocate and the media type for the samples.
+helpviewer_keywords: ["IMFVideoSampleAllocator interface [Media Foundation]","InitializeSampleAllocator method","IMFVideoSampleAllocator.InitializeSampleAllocator","IMFVideoSampleAllocator::InitializeSampleAllocator","InitializeSampleAllocator","InitializeSampleAllocator method [Media Foundation]","InitializeSampleAllocator method [Media Foundation]","IMFVideoSampleAllocator interface","b1e4557e-990c-4239-b9ec-5c7c46072e54","mf.imfvideosampleallocator_initializesampleallocator","mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator"]
 old-location: mf\imfvideosampleallocator_initializesampleallocator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b1e4557e-990c-4239-b9ec-5c7c46072e54
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],InitializeSampleAllocator method, IMFVideoSampleAllocator.InitializeSampleAllocator, IMFVideoSampleAllocator::InitializeSampleAllocator, InitializeSampleAllocator, InitializeSampleAllocator method [Media Foundation], InitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, b1e4557e-990c-4239-b9ec-5c7c46072e54, mf.imfvideosampleallocator_initializesampleallocator, mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator
-f1_keywords:
-- mfidl/IMFVideoSampleAllocator.InitializeSampleAllocator
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFVideoSampleAllocator.InitializeSampleAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoSampleAllocator::InitializeSampleAllocator
+ - mfidl/IMFVideoSampleAllocator::InitializeSampleAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFVideoSampleAllocator.InitializeSampleAllocator
 ---
 
 # IMFVideoSampleAllocator::InitializeSampleAllocator
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the number of samples to allocate and the media type for the samples.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param cRequestedFrames [in]
 
-Number of samples to allocate.		
-          
-
+Number of samples to allocate.
 
 ### -param pMediaType [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a media type that describes the video format.
-          
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of a media type that describes the video format.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -107,18 +97,7 @@ Invalid media type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>

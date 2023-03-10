@@ -2,18 +2,15 @@
 UID: NN:d3d12.ID3D12DeviceRemovedExtendedDataSettings
 title: ID3D12DeviceRemovedExtendedDataSettings interface
 description: This interface controls Device Removed Extended Data (DRED) settings.
+helpviewer_keywords: ["ID3D12DeviceRemovedExtendedDataSettings","ID3D12DeviceRemovedExtendedDataSettings interface","ID3D12DeviceRemovedExtendedDataSettings interface","described","d3d12/ID3D12DeviceRemovedExtendedDataSettings","direct3d12.id3d12deviceremovedextendeddatasettings"]
 tech.root: direct3d12
 ms.date: 02/08/2019
 ms.keywords: ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings interface,described, d3d12/ID3D12DeviceRemovedExtendedDataSettings, direct3d12.id3d12deviceremovedextendeddatasettings
-f1_keywords:
-- d3d12/ID3D12DeviceRemovedExtendedDataSettings
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +23,28 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12DeviceRemovedExtendedDataSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12DeviceRemovedExtendedDataSettings
+ - d3d12/ID3D12DeviceRemovedExtendedDataSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12DeviceRemovedExtendedDataSettings
 ---
 
 # ID3D12DeviceRemovedExtendedDataSettings interface
+
 
 ## -description
 
@@ -51,19 +54,10 @@ This interface controls Device Removed Extended Data (DRED) settings. You should
 
 The **ID3D12DeviceRemovedExtendedDataSettings** interface inherits from the [IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
 
-## -members
-
-The **ID3D12DeviceRemovedExtendedDataSettings** interface has these methods.
-
-|Method|Description|
-|-|-|
-|[SetAutoBreadcrumbsEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setautobreadcrumbsenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) auto-breadcrumbs.|
-|[SetPageFaultEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setpagefaultenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) page fault reporting.|
-|[SetWatsonDumpEnablement](nf-d3d12-id3d12deviceremovedextendeddatasettings-setwatsondumpenablement.md)|Configures the enablement settings for Device Removed Extended Data (DRED) Watson dumps.|
-
 ## -remarks
 
 ## -see-also
 
 * [Core interfaces](/windows/desktop/direct3d12/direct3d-12-interfaces)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

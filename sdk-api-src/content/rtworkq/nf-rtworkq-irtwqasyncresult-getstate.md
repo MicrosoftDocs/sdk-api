@@ -1,16 +1,13 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetState
 title: IRtwqAsyncResult::GetState (rtworkq.h)
-description: Returns the state object specified by the caller in the asynchronous Begin method.
+description: Returns the state object specified by the caller in the asynchronous Begin method. (IRtwqAsyncResult.GetState)
+helpviewer_keywords: ["GetState","GetState method","GetState method","IRtwqAsyncResult interface","IRtwqAsyncResult interface","GetState method","IRtwqAsyncResult.GetState","IRtwqAsyncResult::GetState","base.irtwqasyncresult_getstate","rtworkq/IRtwqAsyncResult::GetState"]
 old-location: base\irtwqasyncresult_getstate.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 26940ECA-BE6A-42E4-8D9E-E002A6D5DD23
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method, GetState method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetState method, IRtwqAsyncResult.GetState, IRtwqAsyncResult::GetState, base.irtwqasyncresult_getstate, rtworkq/IRtwqAsyncResult::GetState
-f1_keywords:
-- rtworkq/IRtwqAsyncResult.GetState
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqAsyncResult.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqAsyncResult::GetState
+ - rtworkq/IRtwqAsyncResult::GetState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqAsyncResult.GetState
 ---
 
 # IRtwqAsyncResult::GetState
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns the state object specified by the caller in the asynchronous <b>Begin</b> method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppunkState [out]
 
 Receives a pointer to the state object's <b>IUnknown</b> interface. If the value is not <b>NULL</b>, the caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,18 +90,7 @@ There is no state object associated with this asynchronous result.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>

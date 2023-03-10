@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.put_MonthsOfYear
 title: IMonthlyTrigger::put_MonthsOfYear (taskschd.h)
-description: Gets or sets the months of the year during which the task runs.
+description: Gets or sets the months of the year during which the task runs. (IMonthlyTrigger.put_MonthsOfYear)
+helpviewer_keywords: ["IMonthlyTrigger interface [Task Scheduler]","MonthsOfYear property","IMonthlyTrigger.MonthsOfYear","IMonthlyTrigger.put_MonthsOfYear","IMonthlyTrigger::MonthsOfYear","IMonthlyTrigger::get_MonthsOfYear","IMonthlyTrigger::put_MonthsOfYear","MonthsOfYear property [Task Scheduler]","MonthsOfYear property [Task Scheduler]","IMonthlyTrigger interface","put_MonthsOfYear","taskschd.imonthlytrigger_monthsofyear","taskschd/IMonthlyTrigger::MonthsOfYear","taskschd/IMonthlyTrigger::get_MonthsOfYear","taskschd/IMonthlyTrigger::put_MonthsOfYear"]
 old-location: taskschd\imonthlytrigger_monthsofyear.htm
 tech.root: taskschd
 ms.assetid: e587ea75-ecf9-40d0-82c2-c1325bac72fc
 ms.date: 12/05/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],MonthsOfYear property, IMonthlyTrigger.MonthsOfYear, IMonthlyTrigger.put_MonthsOfYear, IMonthlyTrigger::MonthsOfYear, IMonthlyTrigger::get_MonthsOfYear, IMonthlyTrigger::put_MonthsOfYear, MonthsOfYear property [Task Scheduler], MonthsOfYear property [Task Scheduler],IMonthlyTrigger interface, put_MonthsOfYear, taskschd.imonthlytrigger_monthsofyear, taskschd/IMonthlyTrigger::MonthsOfYear, taskschd/IMonthlyTrigger::get_MonthsOfYear, taskschd/IMonthlyTrigger::put_MonthsOfYear
-f1_keywords:
-- taskschd/IMonthlyTrigger.MonthsOfYear
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IMonthlyTrigger.MonthsOfYear
-- IMonthlyTrigger.get_MonthsOfYear
-- IMonthlyTrigger.put_MonthsOfYear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMonthlyTrigger::put_MonthsOfYear
+ - taskschd/IMonthlyTrigger::put_MonthsOfYear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IMonthlyTrigger.MonthsOfYear
+ - IMonthlyTrigger.get_MonthsOfYear
+ - IMonthlyTrigger.put_MonthsOfYear
 ---
 
 # IMonthlyTrigger::put_MonthsOfYear
@@ -50,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the months of the year during which the task runs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following table shows the mapping of the bitwise mask that is used by this property.<table>
 <tr>
@@ -134,22 +131,12 @@ The following table shows the mapping of the bitwise mask that is used by this p
 
 
 
-When reading or writing your own XML for a task, the months of the year are specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-months-monthlyscheduletype-element">Months </a> element of the Task Scheduler schema.
-
-
-
+When reading or writing your own XML for a task, the months of the year are specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-months-monthlyscheduletype-element">Months </a> element of the Task Scheduler schema.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger">IMonthlyTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger">IMonthlyTrigger</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

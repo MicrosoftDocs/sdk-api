@@ -2,15 +2,12 @@
 UID: NE:d3d12.D3D12_STATE_SUBOBJECT_TYPE
 title: D3D12_STATE_SUBOBJECT_TYPE (d3d12.h)
 description: The type of a state subobject. Use with D3D12_STATE_SUBOBJECT.
+helpviewer_keywords: ["D3D12_STATE_SUBOBJECT_TYPE","D3D12_STATE_SUBOBJECT_TYPE enumeration","D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY","D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION","D3D12_STATE_SUBOBJECT_TYPE_EXISTING_COLLECTION","D3D12_STATE_SUBOBJECT_TYPE_GLOBAL_ROOT_SIGNATURE","D3D12_STATE_SUBOBJECT_TYPE_HIT_GROUP","D3D12_STATE_SUBOBJECT_TYPE_LOCAL_ROOT_SIGNATURE","D3D12_STATE_SUBOBJECT_TYPE_MAX_VALID","D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK","D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_PIPELINE_CONFIG","D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_SHADER_CONFIG","D3D12_STATE_SUBOBJECT_TYPE_STATE_OBJECT_CONFIG","D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION","d3d12/D3D12_STATE_SUBOBJECT_TYPE","d3d12/D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY","d3d12/D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION","d3d12/D3D12_STATE_SUBOBJECT_TYPE_EXISTING_COLLECTION","d3d12/D3D12_STATE_SUBOBJECT_TYPE_GLOBAL_ROOT_SIGNATURE","d3d12/D3D12_STATE_SUBOBJECT_TYPE_HIT_GROUP","d3d12/D3D12_STATE_SUBOBJECT_TYPE_LOCAL_ROOT_SIGNATURE","d3d12/D3D12_STATE_SUBOBJECT_TYPE_MAX_VALID","d3d12/D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK","d3d12/D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_PIPELINE_CONFIG","d3d12/D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_SHADER_CONFIG","d3d12/D3D12_STATE_SUBOBJECT_TYPE_STATE_OBJECT_CONFIG","d3d12/D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION","direct3d12.d3d12_state_subobject_type"]
 old-location: direct3d12\d3d12_state_subobject_type.htm
 tech.root: direct3d12
 ms.assetid: A2C50648-0DDC-4480-B0A5-10200E5CD335
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATE_SUBOBJECT_TYPE, D3D12_STATE_SUBOBJECT_TYPE enumeration, D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY, D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, D3D12_STATE_SUBOBJECT_TYPE_EXISTING_COLLECTION, D3D12_STATE_SUBOBJECT_TYPE_GLOBAL_ROOT_SIGNATURE, D3D12_STATE_SUBOBJECT_TYPE_HIT_GROUP, D3D12_STATE_SUBOBJECT_TYPE_LOCAL_ROOT_SIGNATURE, D3D12_STATE_SUBOBJECT_TYPE_MAX_VALID, D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK, D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_PIPELINE_CONFIG, D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_SHADER_CONFIG, D3D12_STATE_SUBOBJECT_TYPE_STATE_OBJECT_CONFIG, D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION, d3d12/D3D12_STATE_SUBOBJECT_TYPE, d3d12/D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY, d3d12/D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION, d3d12/D3D12_STATE_SUBOBJECT_TYPE_EXISTING_COLLECTION, d3d12/D3D12_STATE_SUBOBJECT_TYPE_GLOBAL_ROOT_SIGNATURE, d3d12/D3D12_STATE_SUBOBJECT_TYPE_HIT_GROUP, d3d12/D3D12_STATE_SUBOBJECT_TYPE_LOCAL_ROOT_SIGNATURE, d3d12/D3D12_STATE_SUBOBJECT_TYPE_MAX_VALID, d3d12/D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK, d3d12/D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_PIPELINE_CONFIG, d3d12/D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_SHADER_CONFIG, d3d12/D3D12_STATE_SUBOBJECT_TYPE_STATE_OBJECT_CONFIG, d3d12/D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION, direct3d12.d3d12_state_subobject_type
-f1_keywords:
-- d3d12/D3D12_STATE_SUBOBJECT_TYPE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,91 +25,79 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_STATE_SUBOBJECT_TYPE
 targetos: Windows
 req.typenames: D3D12_STATE_SUBOBJECT_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_STATE_SUBOBJECT_TYPE
+ - d3d12/D3D12_STATE_SUBOBJECT_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_STATE_SUBOBJECT_TYPE
 ---
-
-# D3D12_STATE_SUBOBJECT_TYPE enumeration
-
 
 ## -description
 
-
-The type of a state subobject. Use with <a href="https://msdn.microsoft.com/en-us/library/Mt830407(v=VS.85).aspx">D3D12_STATE_SUBOBJECT</a>.
-
+The type of a state subobject. Use with [D3D12_STATE_SUBOBJECT](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_subobject).
 
 ## -enum-fields
 
+### -field D3D12_STATE_SUBOBJECT_TYPE_STATE_OBJECT_CONFIG:0
 
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a>.
 
+### -field D3D12_STATE_SUBOBJECT_TYPE_GLOBAL_ROOT_SIGNATURE:1
 
-### -field D3D12_STATE_SUBOBJECT_TYPE_STATE_OBJECT_CONFIG
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_global_root_signature">D3D12_GLOBAL_ROOT_SIGNATURE</a>.
 
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a>.
+### -field D3D12_STATE_SUBOBJECT_TYPE_LOCAL_ROOT_SIGNATURE:2
 
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_local_root_signature">D3D12_LOCAL_ROOT_SIGNATURE</a>.
 
-### -field D3D12_STATE_SUBOBJECT_TYPE_GLOBAL_ROOT_SIGNATURE
+### -field D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK:3
 
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_global_root_signature">D3D12_GLOBAL_ROOT_SIGNATURE</a>.
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_node_mask">D3D12_NODE_MASK</a>.
 
+> [!IMPORTANT]
+> On some versions of the DirectX Runtime, specifying a node via [**D3D12_NODE_MASK**](/windows/win32/api/d3d12/ns-d3d12-d3d12_node_mask) in a [**D3D12_STATE_SUBOBJECT**](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_subobject) with type **D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK**, the runtime will incorrectly handle a node mask value of `0`, which should use node #1, which will lead to errors when attempting to use the state object later. Specify an explicit node value of 1, or omit the [**D3D12_NODE_MASK**](/windows/win32/api/d3d12/ns-d3d12-d3d12_node_mask) subobject to avoid this issue.
 
-### -field D3D12_STATE_SUBOBJECT_TYPE_LOCAL_ROOT_SIGNATURE
+### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY:5
 
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_local_root_signature">D3D12_LOCAL_ROOT_SIGNATURE</a>.
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_dxil_library_desc">D3D12_DXIL_LIBRARY_DESC</a>.
 
+### -field D3D12_STATE_SUBOBJECT_TYPE_EXISTING_COLLECTION:6
 
-### -field D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_existing_collection_desc">D3D12_EXISTING_COLLECTION_DESC</a>.
 
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_node_mask">D3D12_NODE_MASK</a>.
+### -field D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION:7
 
+Subobject type is <a href="../d3d12/ns-d3d12-d3d12_subobject_to_exports_association.md">D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
 
-### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY
+### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION:8
 
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_library_desc">D3D12_DXIL_LIBRARY_DESC</a>.
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_dxil_subobject_to_exports_association">D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
 
+### -field D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_SHADER_CONFIG:9
 
-### -field D3D12_STATE_SUBOBJECT_TYPE_EXISTING_COLLECTION
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config">D3D12_RAYTRACING_SHADER_CONFIG</a>.
 
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_existing_collection_desc">D3D12_EXISTING_COLLECTION_DESC</a>.
+### -field D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_PIPELINE_CONFIG:10
 
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config">D3D12_RAYTRACING_PIPELINE_CONFIG</a>.
 
-### -field D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION
+### -field D3D12_STATE_SUBOBJECT_TYPE_HIT_GROUP:11
 
-Subobject type is <a href="https://msdn.microsoft.com/en-us/library/Mt830409(v=VS.85).aspx">D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
-
-
-### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
-
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_subobject_to_exports_association">D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
-
-
-### -field D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_SHADER_CONFIG
-
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config">D3D12_RAYTRACING_SHADER_CONFIG</a>.
-
-
-### -field D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_PIPELINE_CONFIG
-
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config">D3D12_RAYTRACING_PIPELINE_CONFIG</a>.
-
-
-### -field D3D12_STATE_SUBOBJECT_TYPE_HIT_GROUP
-
-Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a>
-
+Subobject type is <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a>
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_MAX_VALID
 
-The maximum valid subobject type value. 
-
+The maximum valid subobject type value.

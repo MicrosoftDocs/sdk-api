@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerWriteSettingAttributes
 title: PowerWriteSettingAttributes function (powrprof.h)
 description: Sets the power attributes of a power key.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","POWER_ATTRIBUTE_HIDE","PowerWriteSettingAttributes","PowerWriteSettingAttributes function","base.powerwritesettingattributes","powrprof/PowerWriteSettingAttributes"]
 old-location: base\powerwritesettingattributes.htm
-tech.root: power
+tech.root: base
 ms.assetid: 9c18f79a-809b-4e48-a749-5de061566362
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, POWER_ATTRIBUTE_HIDE, PowerWriteSettingAttributes, PowerWriteSettingAttributes function, base.powerwritesettingattributes, powrprof/PowerWriteSettingAttributes
-f1_keywords:
-- powrprof/PowerWriteSettingAttributes
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerWriteSettingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerWriteSettingAttributes
+ - powrprof/PowerWriteSettingAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerWriteSettingAttributes
 ---
 
 # PowerWriteSettingAttributes function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the power attributes of a power key. If the <i>PowerSettingGuid</i> parameter is 
     <b>NULL</b> then the attribute for <i>SubGroupGuid</i> is set, otherwise the attribute for 
     <i>PowerSettingGuid</i> is set.
 
-
 ## -parameters
-
-
-
 
 ### -param SubGroupGuid [in]
 
@@ -158,13 +155,10 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in]
 
 The identifier of the power setting.
-
 
 ### -param Attributes [in]
 
@@ -187,36 +181,17 @@ Hide this power setting.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
      the call failed.
 
-
-
-
 ## -remarks
 
-
-
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
-
-
-
+       <a href="/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMVideoMediaProps.SetMaxKeyFrameSpacing
 title: IWMVideoMediaProps::SetMaxKeyFrameSpacing (wmsdkidl.h)
 description: The SetMaxKeyFrameSpacing method specifies the maximum interval between key frames.
+helpviewer_keywords: ["IWMVideoMediaProps interface [windows Media Format]","SetMaxKeyFrameSpacing method","IWMVideoMediaProps.SetMaxKeyFrameSpacing","IWMVideoMediaProps::SetMaxKeyFrameSpacing","IWMVideoMediaPropsSetMaxKeyFrameSpacing","SetMaxKeyFrameSpacing","SetMaxKeyFrameSpacing method [windows Media Format]","SetMaxKeyFrameSpacing method [windows Media Format]","IWMVideoMediaProps interface","wmformat.iwmvideomediaprops_setmaxkeyframespacing","wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing"]
 old-location: wmformat\iwmvideomediaprops_setmaxkeyframespacing.htm
 tech.root: wmformat
 ms.assetid: 1d1a9090-2658-45bd-8893-30e063d10aa8
 ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetMaxKeyFrameSpacing method, IWMVideoMediaProps.SetMaxKeyFrameSpacing, IWMVideoMediaProps::SetMaxKeyFrameSpacing, IWMVideoMediaPropsSetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing method [windows Media Format], SetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
-f1_keywords:
-- wmsdkidl/IWMVideoMediaProps.SetMaxKeyFrameSpacing
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-api_name:
-- IWMVideoMediaProps.SetMaxKeyFrameSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMVideoMediaProps::SetMaxKeyFrameSpacing
+ - wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+api_name:
+ - IWMVideoMediaProps.SetMaxKeyFrameSpacing
 ---
 
 # IWMVideoMediaProps::SetMaxKeyFrameSpacing
@@ -49,52 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetMaxKeyFrameSpacing</b> method specifies the maximum interval between key frames.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param llTime [in]
 
 Maximum key-frame spacing in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 This method always returns S_OK.
 
-
-
-
 ## -remarks
 
-
-
-A key frame is a video frame that can be rendered without any information being required from any previous frame. A delta frame is a frame that is dependent on a previous frame. The application can seek to a key frame, but not to a delta frame. The SDK does not enforce any limit on the time between key frames. In general, times longer than 30 seconds can adversely affect seek times both when the content is streamed over a network, and when it is played back locally. For recommended values, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-video-streams-for-seeking-performance">Configuring Video Streams for Seeking Performance</a>.
-
-
-
+A key frame is a video frame that can be rendered without any information being required from any previous frame. A delta frame is a frame that is dependent on a previous frame. The application can seek to a key frame, but not to a delta frame. The SDK does not enforce any limit on the time between key frames. In general, times longer than 30 seconds can adversely affect seek times both when the content is streamed over a network, and when it is played back locally. For recommended values, see <a href="/windows/desktop/wmformat/configuring-video-streams-for-seeking-performance">Configuring Video Streams for Seeking Performance</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmvideomediaprops">IWMVideoMediaProps Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getmaxkeyframespacing">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getmaxkeyframespacing">IWMVideoMediaProps::GetMaxKeyFrameSpacing</a>

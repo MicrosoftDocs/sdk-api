@@ -2,15 +2,12 @@
 UID: NF:winbase.PrepareTape
 title: PrepareTape function (winbase.h)
 description: Prepares the tape to be accessed or removed.
+helpviewer_keywords: ["PrepareTape","PrepareTape function [Backup]","TAPE_FORMAT","TAPE_LOAD","TAPE_LOCK","TAPE_TENSION","TAPE_UNLOAD","TAPE_UNLOCK","_win32_preparetape","backup.preparetape","base.preparetape","winbase/PrepareTape"]
 old-location: backup\preparetape.htm
 tech.root: Backup
 ms.assetid: 13aacf38-b0ae-4f4d-ada9-42c61490be7e
 ms.date: 12/05/2018
 ms.keywords: PrepareTape, PrepareTape function [Backup], TAPE_FORMAT, TAPE_LOAD, TAPE_LOCK, TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _win32_preparetape, backup.preparetape, base.preparetape, winbase/PrepareTape
-f1_keywords:
-- winbase/PrepareTape
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- PrepareTape
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PrepareTape
+ - winbase/PrepareTape
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - PrepareTape
 ---
 
 # PrepareTape function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PrepareTape</b> function prepares the tape to be accessed or removed.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device preparing the tape. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwOperation [in]
 
@@ -142,17 +138,12 @@ Unlocks the tape ejection mechanism.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bImmediate [in]
 
 If this parameter is <b>TRUE</b>, the function returns immediately. If it is <b>FALSE</b>, the function does not return until the operation has been completed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -344,32 +335,16 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Some tape devices do not support certain tape operations. See your tape device documentation and use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function to determine your tape device's capabilities.
-
-
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function to determine your tape device's capabilities.
 
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>

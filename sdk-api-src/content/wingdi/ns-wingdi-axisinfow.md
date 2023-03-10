@@ -1,16 +1,13 @@
 ---
 UID: NS:wingdi.tagAXISINFOW
 title: AXISINFOW (wingdi.h)
-description: The AXISINFO structure contains information about an axis of a multiple master font.
+description: The AXISINFO structure contains information about an axis of a multiple master font. (Unicode)
+helpviewer_keywords: ["*LPAXISINFOW","*PAXISINFOW","AXISINFO","AXISINFO structure [Windows GDI]","AXISINFOA","AXISINFOW","PAXISINFO","PAXISINFO structure pointer [Windows GDI]","_win32_AXISINFO_str","gdi.axisinfo","wingdi/AXISINFO","wingdi/AXISINFOA","wingdi/AXISINFOW","wingdi/PAXISINFO"]
 old-location: gdi\axisinfo.htm
 tech.root: gdi
 ms.assetid: a947618e-4b50-453a-82d5-5a6f825faebb
 ms.date: 12/05/2018
 ms.keywords: '*LPAXISINFOW, *PAXISINFOW, AXISINFO, AXISINFO structure [Windows GDI], AXISINFOA, AXISINFOW, PAXISINFO, PAXISINFO structure pointer [Windows GDI], _win32_AXISINFO_str, gdi.axisinfo, wingdi/AXISINFO, wingdi/AXISINFOA, wingdi/AXISINFOW, wingdi/PAXISINFO'
-f1_keywords:
-- wingdi/AXISINFO
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- AXISINFO
-- AXISINFOA
-- AXISINFOW
 targetos: Windows
 req.typenames: AXISINFOW, *PAXISINFOW, *LPAXISINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAXISINFOW
+ - wingdi/tagAXISINFOW
+ - PAXISINFOW
+ - wingdi/PAXISINFOW
+ - AXISINFOW
+ - wingdi/AXISINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - AXISINFO
+ - AXISINFOA
+ - AXISINFOW
 ---
 
 # AXISINFOW structure
@@ -50,38 +56,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AXISINFO</b> structure contains information about an axis of a multiple master font.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field axMinValue
 
 The minimum value for this axis.
 
-
 ### -field axMaxValue
 
 The maximum value for this axis.
-
 
 ### -field axAxisName
 
 The name of the axis, specified as an array of characters.
 
-
 ## -remarks
 
-
-
-The <b>AXISINFO</b> structure contains the name of an axis in a multiple master font and also the minimum and maximum possible values for the axis. The length of the name is MM_MAX_AXES_NAMELEN, which equals 16. An application queries these values before setting its desired values in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a> array.
+The <b>AXISINFO</b> structure contains the name of an axis in a multiple master font and also the minimum and maximum possible values for the axis. The length of the name is MM_MAX_AXES_NAMELEN, which equals 16. An application queries these values before setting its desired values in the <a href="/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a> array.
 
 The PostScript Open Type Font does not support multiple master functionality.
 
@@ -90,25 +83,22 @@ For the ANSI version of this structure, <b>axAxisName</b> must be an array of by
 
 
 
+
+> [!NOTE]
+> The wingdi.h header defines AXISINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-axeslista">AXESLIST</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-designvector">DESIGNVECTOR</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

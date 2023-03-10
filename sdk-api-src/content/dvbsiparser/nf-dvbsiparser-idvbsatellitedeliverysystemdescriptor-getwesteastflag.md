@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 title: IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetWestEastFlag","GetWestEastFlag method [Microsoft TV Technologies]","GetWestEastFlag method [Microsoft TV Technologies]","IDvbSatelliteDeliverySystemDescriptor interface","IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetWestEastFlag method","IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag","IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag","IDvbSatelliteDeliverySystemDescriptorGetWestEastFlag","dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag","mstv.idvbsatellitedeliverysystemdescriptor_getwesteastflag"]
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getwesteastflag.htm
 tech.root: mstv
 ms.assetid: 533a2ed4-f5ac-4f41-a03b-0b274f327436
 ms.date: 12/05/2018
 ms.keywords: GetWestEastFlag, GetWestEastFlag method [Microsoft TV Technologies], GetWestEastFlag method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetWestEastFlag method, IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptorGetWestEastFlag, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, mstv.idvbsatellitedeliverysystemdescriptor_getwesteastflag
-f1_keywords:
-- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag
+ - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetWestEastFlag</b> method returns a flag that specifies whether the satellite is in the western or eastern part of the orbit.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the west_east_flag field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>

@@ -2,15 +2,12 @@
 UID: NE:http._HTTP_LOG_DATA_TYPE
 title: HTTP_LOG_DATA_TYPE (http.h)
 description: Identifies the type of log data.
+helpviewer_keywords: ["*PHTTP_LOG_DATA_TYPE","*PHTTP_LOG_DATA_TYPE enumeration [HTTP]","HTTP_LOG_DATA_TYPE","HTTP_LOG_DATA_TYPE enumeration [HTTP]","HttpLogDataTypeFields","http.http_log_data_type","http/*PHTTP_LOG_DATA_TYPE","http/HTTP_LOG_DATA_TYPE","http/HttpLogDataTypeFields"]
 old-location: http\http_log_data_type.htm
 tech.root: http
 ms.assetid: 8c53a3e6-5001-4e72-bff4-a6eab007aa9c
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE enumeration [HTTP], HTTP_LOG_DATA_TYPE, HTTP_LOG_DATA_TYPE enumeration [HTTP], HttpLogDataTypeFields, http.http_log_data_type, http/*PHTTP_LOG_DATA_TYPE, http/HTTP_LOG_DATA_TYPE, http/HttpLogDataTypeFields'
-f1_keywords:
-- http/HTTP_LOG_DATA_TYPE
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_LOG_DATA_TYPE
 targetos: Windows
 req.typenames: HTTP_LOG_DATA_TYPE, *PHTTP_LOG_DATA_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_LOG_DATA_TYPE
+ - http/_HTTP_LOG_DATA_TYPE
+ - PHTTP_LOG_DATA_TYPE
+ - http/PHTTP_LOG_DATA_TYPE
+ - HTTP_LOG_DATA_TYPE
+ - http/HTTP_LOG_DATA_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_LOG_DATA_TYPE
 ---
 
 # HTTP_LOG_DATA_TYPE enumeration
@@ -48,27 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HTTP_LOG_DATA_TYPE</b> enumeration identifies the type of log data.
-
 
 ## -enum-fields
 
+### -field HttpLogDataTypeFields:0
 
-
-
-### -field HttpLogDataTypeFields
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure is used for logging a request. This structure is passed to an <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> or <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> call.
-
+The <a href="/windows/desktop/api/http/ns-http-http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure is used for logging a request. This structure is passed to an <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> or <a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> call.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_log_data">HTTP_LOG_DATA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/ns-http-http_log_data">HTTP_LOG_DATA</a>

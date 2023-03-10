@@ -1,16 +1,13 @@
 ---
 UID: NF:pathcch.PathCchAddExtension
 title: PathCchAddExtension function (pathcch.h)
-description: Adds a file name extension to a path string.This function differs from PathAddExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Adds a file name extension to a path string.This function differs from PathAddExtension in that it accepts paths with &quot;\\&quot;, &quot;\\?\&quot; and &quot;\\?\UNC\&quot; prefixes.
+helpviewer_keywords: ["PathCchAddExtension","PathCchAddExtension function [Windows Shell]","pathcch/PathCchAddExtension","shell.PathCchAddExtension"]
 old-location: shell\PathCchAddExtension.htm
 tech.root: shell
 ms.assetid: c37b438b-39e7-4f24-b076-2401900dab71
 ms.date: 12/05/2018
 ms.keywords: PathCchAddExtension, PathCchAddExtension function [Windows Shell], pathcch/PathCchAddExtension, shell.PathCchAddExtension
-f1_keywords:
-- pathcch/PathCchAddExtension
-dev_langs:
-- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- pathcch.lib
-- API-MS-Win-Core-Path-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PathCchAddExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCchAddExtension
+ - pathcch/PathCchAddExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - pathcch.lib
+ - API-MS-Win-Core-Path-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PathCchAddExtension
 ---
 
 # PathCchAddExtension function
@@ -50,42 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Adds a file name extension to a path string.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> to prevent the possibility of a buffer overrun.</div><div> </div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddextensiona">PathAddExtension</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
-
-
-
 
 ### -param pszPath [in, out]
 
 A pointer to the path string. When this function returns successfully, the buffer contains the string with the appended extension. This value should not be <b>NULL</b>.
 
-                        
-
 <div class="alert"><b>Note</b>  If the original string already has a file name extension present, no new extension will be added and the original string will be unchanged.</div>
-<div> </div>
 
 ### -param cchPath [in]
 
 The size of the buffer pointed to by <i>pszPath</i>, in characters.
 
-
 ### -param pszExt [in]
 
 A pointer to the file name extension string. This string can be given either with or without a preceding period (".ext" or "ext").
 
-
 ## -returns
-
-
 
 This function returns an <b>HRESULT</b> code, including the following.
 
@@ -102,7 +91,6 @@ This function returns an <b>HRESULT</b> code, including the following.
 </td>
 <td width="60%">
 The function succeeded. Note that this also includes the case of an empty extension, such as a period with no characters following it. In that case, the original string is returned unaltered.
-
 </td>
 </tr>
 <tr>
@@ -112,8 +100,7 @@ The function succeeded. Note that this also includes the case of an empty extens
 </dl>
 </td>
 <td width="60%">
-This value can be caused by several things, such as the <i>pszPath</i> param being set to <b>NULL</b>, the <i>cchPath</i> being set to 0 or a value greater than PATHCCH_MAX_CCH, or the extension string containing illegal characters or otherwise not being a valid extension.
-
+This value can be caused by several things, such as the <i>pszPath</i> param being set to <b>NULL</b>, the <i>cchPath</i> being set to 0 or a value greater than <b>PATHCCH_MAX_CCH</b>, or the extension string containing illegal characters or otherwise not being a valid extension.
 </td>
 </tr>
 <tr>
@@ -124,7 +111,6 @@ This value can be caused by several things, such as the <i>pszPath</i> param bei
 </td>
 <td width="60%">
 The original string already has an extension.
-
 </td>
 </tr>
 <tr>
@@ -135,11 +121,6 @@ The original string already has an extension.
 </td>
 <td width="60%">
 The buffer is too small to hold the returned string.
-
 </td>
 </tr>
 </table>
- 
-
-
-

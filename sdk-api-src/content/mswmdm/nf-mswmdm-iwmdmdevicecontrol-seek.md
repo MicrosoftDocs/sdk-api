@@ -1,16 +1,13 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Seek
 title: IWMDMDeviceControl::Seek (mswmdm.h)
-description: The Seek method seeks to a position that is used as the starting point by the Play or Record methods.
+description: The Seek method seeks to a position that is used as the starting point by the Play or Record methods. (IWMDMDeviceControl.Seek)
+helpviewer_keywords: ["IWMDMDeviceControl interface [windows Media Device Manager]","Seek method","IWMDMDeviceControl.Seek","IWMDMDeviceControl::Seek","IWMDMDeviceControlSeek","Seek","Seek method [windows Media Device Manager]","Seek method [windows Media Device Manager]","IWMDMDeviceControl interface","mswmdm/IWMDMDeviceControl::Seek","wmdm.iwmdmdevicecontrol_seek"]
 old-location: wmdm\iwmdmdevicecontrol_seek.htm
 tech.root: WMDM
 ms.assetid: f416a520-197c-4607-979e-8f43951f2076
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Seek method, IWMDMDeviceControl.Seek, IWMDMDeviceControl::Seek, IWMDMDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Seek, wmdm.iwmdmdevicecontrol_seek
-f1_keywords:
-- mswmdm/IWMDMDeviceControl.Seek
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMDeviceControl.Seek
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDeviceControl::Seek
+ - mswmdm/IWMDMDeviceControl::Seek
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMDeviceControl.Seek
 ---
 
 # IWMDMDeviceControl::Seek
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>Seek</b> method seeks to a position that is used as the starting point by the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-play">Play</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-record">Record</a> methods.
-
-
-
+The <b>Seek</b> method seeks to a position that is used as the starting point by the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-play">Play</a> or <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-record">Record</a> methods.
 
 ## -parameters
-
-
-
 
 ### -param fuMode [in]
 
@@ -93,8 +87,6 @@ Mode for the seek operation being performed. The <i>fuMode</i> parameter must be
 <td>Seek the streaming audio.</td>
 </tr>
 </table>
- 
-
 
 ### -param nOffset [in]
 
@@ -102,10 +94,7 @@ Number of units by which the seek operation moves the starting position away fro
 
 A positive value for <i>nOffset</i> indicates seeking forward through the file. A negative value indicates seeking backward through the file. Any combination of <i>nOffset</i> and <i>fuMode</i> that indicates seeking to a position before the beginning of the file or after the end of the file is not valid, and causes the method to return E_INVALIDARG.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -159,43 +148,27 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The seek position is defined by passing either an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface pointing to a location on a storage medium of the device, or an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> interface that has been implemented to support streaming audio. The <b>IWMDMObjectInfo</b> interface can also be passed to describe some point within the object to which the specified interface points.
 
+For device playback, if <b>Seek</b> is not called before <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-play">Play</a>, then playback starts at the first audio track on the first storage medium on the media device.
 
-The seek position is defined by passing either an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a> interface pointing to a location on a storage medium of the device, or an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> interface that has been implemented to support streaming audio. The <b>IWMDMObjectInfo</b> interface can also be passed to describe some point within the object to which the specified interface points.
-
-For device playback, if <b>Seek</b> is not called before <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-play">Play</a>, then playback starts at the first audio track on the first storage medium on the media device.
-
-For device recording, if <b>Seek</b> is not called before <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-record">Record</a>, the record operation fails. The recording length can be limited by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplaylength">IWMDMObjectInfo::SetPlayLength</a> method after returning from the <b>Seek</b> call.
-
-
-
+For device recording, if <b>Seek</b> is not called before <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-record">Record</a>, the record operation fails. The recording length can be limited by calling the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmobjectinfo-setplaylength">IWMDMObjectInfo::SetPlayLength</a> method after returning from the <b>Seek</b> call.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>

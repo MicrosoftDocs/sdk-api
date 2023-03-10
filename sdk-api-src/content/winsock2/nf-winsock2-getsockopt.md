@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.getsockopt
 title: getsockopt function (winsock2.h)
-description: The getsockopt function retrieves a socket option.
+description: The getsockopt function retrieves the current value for a socket option associated with a socket of any type, in any state, and stores the result in optval.  
+helpviewer_keywords: ["_win32_getsockopt_2","getsockopt","getsockopt function [Winsock]","winsock.getsockopt_2","winsock/getsockopt"]
 old-location: winsock\getsockopt_2.htm
 tech.root: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt
-f1_keywords:
-- winsock2/getsockopt
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -28,69 +25,58 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-- wsock32.dll
-api_name:
-- getsockopt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getsockopt
+ - winsock2/getsockopt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+ - wsock32.dll
+api_name:
+ - getsockopt
 ---
-
-# getsockopt function
-
 
 ## -description
 
-
-The 
-<b>getsockopt</b> function retrieves a socket option.
-
+The <b>getsockopt</b> function retrieves a socket option.
 
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying a socket.
 
-
 ### -param level [in]
 
-The level at which the option is defined. Example:  <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a>.
-
+The level at which the option is defined. Example:  <a href="/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a>.
 
 ### -param optname [in]
 
-The socket option for which the value is to be retrieved. Example: <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options-and-ioctls-2">SO_ACCEPTCONN</a>. The <i>optname</i> value must be a socket option defined within the specified <i>level</i>, or behavior is undefined.
-
+The socket option for which the value is to be retrieved. Example: <a href="/windows/desktop/WinSock/socket-options-and-ioctls-2">SO_ACCEPTCONN</a>. The <i>optname</i> value must be a socket option defined within the specified <i>level</i>, or behavior is undefined.
 
 ### -param optval [out]
 
 A pointer to the buffer in which the value for the requested option is to be returned.
 
-
 ### -param optlen [in, out]
 
 A pointer to the size, in bytes, of the <i>optval</i> buffer.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getsockopt</b> returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -100,19 +86,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +109,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +120,7 @@ One of the <i>optval</i> or the <i>optlen</i> parameters is not a valid part of 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +131,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +142,7 @@ The <i>level</i> parameter is unknown or invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOPROTOOPT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOPROTOOPT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -167,7 +153,7 @@ The option is unknown or unsupported by the indicated protocol family.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -176,31 +162,25 @@ The descriptor is not a socket.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>getsockopt</b> function retrieves the current value for a socket option associated with a socket of any type, in any state, and stores the result in <i>optval</i>. Options can exist at multiple protocol levels, but they are always present at the uppermost socket level. Options affect socket operations, such as the packet routing and OOB data transfer.
 
 The value associated with the selected option is returned in the buffer <i>optval</i>. The integer pointed to by <i>optlen</i> should originally contain the size of this buffer; on return, it will be set to the size of the value returned. For SO_LINGER, this will be the size of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-linger">LINGER</a> structure. For most other options, it will be the size of an integer.
+<a href="/windows/desktop/api/winsock/ns-winsock-linger">LINGER</a> structure. For most other options, it will be the size of an integer.
 
 The application is responsible for allocating any memory space pointed to directly or indirectly by any of the parameters it specified.
 
 If the option was never set with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>, then 
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>, then 
 <b>getsockopt</b> returns the default value for the option.
 
 The following options are supported for 
 <b>getsockopt</b>. The Type column identifies the type of data addressed by <i>optval</i>.
 
-For more information on socket options, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket Options</a>.
+For more information on socket options, see <a href="/windows/desktop/WinSock/socket-options">Socket Options</a>.
 
 The following table of value for the <i>optname</i> parameter are valid when the <i>level</i> parameter is set to <b>SOL_SOCKET</b>.
 
@@ -223,10 +203,10 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a>
+<a href="/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 </td>
 <td>Returns the local address, local port, remote address, remote port, socket type, and protocol used by a socket.</td>
 </tr>
@@ -234,7 +214,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <td>SO_CONDITIONAL_ACCEPT</td>
 <td>BOOL</td>
 <td>Returns current socket state, either from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> or the system default.</td>
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> or the system default.</td>
 </tr>
 <tr>
 <td>SO_CONNECT_TIME</td>
@@ -254,7 +234,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>SO_DONTROUTE</td>
 <td>BOOL</td>
-<td>Routing is disabled. Setting this succeeds but is ignored on AF_INET sockets; fails on AF_INET6 sockets with <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOPROTOOPT</a>. This option is not supported on ATM sockets.</td>
+<td>Routing is disabled. Setting this succeeds but is ignored on AF_INET sockets; fails on AF_INET6 sockets with <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOPROTOOPT</a>. This option is not supported on ATM sockets.</td>
 </tr>
 <tr>
 <td>SO_ERROR</td>
@@ -263,10 +243,10 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a>
+<a href="/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a>
 </td>
 <td>BOOL</td>
-<td>Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.</td>
+<td>Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function.</td>
 </tr>
 <tr>
 <td>SO_GROUP_ID</td>
@@ -280,7 +260,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a>
+<a href="/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a>
 </td>
 <td>BOOL</td>
 <td>Keep-alives are being sent. Not supported on ATM sockets.</td>
@@ -288,7 +268,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>SO_LINGER</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-linger">LINGER</a> structure</td>
+<a href="/windows/desktop/api/winsock/ns-winsock-linger">LINGER</a> structure</td>
 <td>Returns the current linger options.</td>
 </tr>
 <tr>
@@ -300,11 +280,11 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <td>SO_OOBINLINE</td>
 <td>BOOL</td>
 <td>OOB data is being received in the normal data stream. (See section 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-1-1-blocking-routines-and-einprogress-2">Windows Sockets 1.1 Blocking Routines and EINPROGRESS</a> for a discussion of this topic.)</td>
+<a href="/windows/desktop/WinSock/windows-sockets-1-1-blocking-routines-and-einprogress-2">Windows Sockets 1.1 Blocking Routines and EINPROGRESS</a> for a discussion of this topic.)</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-port-scalability">SO_PORT_SCALABILITY</a>
+<a href="/windows/desktop/WinSock/so-port-scalability">SO_PORT_SCALABILITY</a>
 </td>
 <td>BOOL</td>
 <td>Enables local port scalability for a socket by allowing port allocation to be maximized by allocating wildcard ports multiple times for different local address port pairs on a local machine.</td>
@@ -312,7 +292,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>SO_PROTOCOL_INFO</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 </td>
 <td>A description of the protocol information for the protocol that is bound to this socket.</td>
 </tr>
@@ -345,22 +325,9 @@ The following table of value for the <i>optname</i> parameter are valid when the
  
 
 
+<i>level</i> = <b>IPPROTO_TCP</b>
 
-The following table of value for the <i>optname</i> parameter are valid when the <i>level</i> parameter is set to <b>IPPROTO_TCP</b>.
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Type</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>TCP_NODELAY</td>
-<td>BOOL</td>
-<td>Disables the Nagle algorithm for send coalescing.</td>
-</tr>
-</table>
+See **TCP_NODELAY** in [IPPROTO_TCP socket options](/windows/desktop/WinSock/ipproto-tcp-socket-options). Also see that topic for more complete and detailed information about socket options for <i>level</i> = <b>IPPROTO_TCP</b>.
  
 
 
@@ -417,31 +384,31 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>IPX_ADDRESS</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
+<a href="/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
 <td>Obtains information about a specific adapter to which IPX is bound. Adapter numbering is base zero. The <b>adapternum</b> member is filled in upon return.</td>
 </tr>
 <tr>
 <td>IPX_GETNETINFO</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
+<a href="/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
 <td>Obtains information about a specific IPX network number. If not available in the cache, uses RIP to obtain information.</td>
 </tr>
 <tr>
 <td>IPX_GETNETINFO_NORIP</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
+<a href="/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
 <td>Obtains information about a specific IPX network number. If not available in the cache, will not use RIP to obtain information, and returns error.</td>
 </tr>
 <tr>
 <td>IPX_SPXGETCONNECTIONSTATUS</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_spxconnstatus_data">IPX_SPXCONNSTATUS_DATA</a> structure</td>
+<a href="/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_spxconnstatus_data">IPX_SPXCONNSTATUS_DATA</a> structure</td>
 <td>Retrieves information about a connected SPX socket.</td>
 </tr>
 <tr>
 <td>IPX_ADDRESS_NOTIFY</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
+<a href="/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_address_data">IPX_ADDRESS_DATA</a> structure</td>
 <td>Retrieves status notification when changes occur on an adapter to which IPX is bound.</td>
 </tr>
 <tr>
@@ -452,7 +419,7 @@ The following table of value for the <i>optname</i> parameter are valid when the
 <tr>
 <td>IPX_RERIPNETNUMBER</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
+<a href="/windows/desktop/api/wsnwlink/ns-wsnwlink-ipx_netnum_data">IPX_NETNUM_DATA</a> structure</td>
 <td>Similar to IPX_GETNETINFO, but forces IPX to use RIP for resolution, even if the network information is in the local cache.</td>
 </tr>
 <tr>
@@ -509,8 +476,8 @@ The following table lists value for the <i>optname</i> that represent BSD socket
 
 
 <div class="alert"><b>Note</b>  When using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function, if no data arrives during the period specified in SO_RCVTIMEO, the 
-<b>recv</b> function completes. In Windows versions prior to Windows 2000, any data received subsequently fails with <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>. In Windows 2000 and later, if no data arrives within the period specified in SO_RCVTIMEO, the 
+<a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a> function, if no data arrives during the period specified in SO_RCVTIMEO, the 
+<b>recv</b> function completes. In Windows versions prior to Windows 2000, any data received subsequently fails with <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>. In Windows 2000 and later, if no data arrives within the period specified in SO_RCVTIMEO, the 
 <b>recv</b> function returns WSAETIMEDOUT, and if data is received, 
 <b>recv</b> returns SUCCESS.</div>
 <div> </div>
@@ -518,8 +485,8 @@ The following table lists value for the <i>optname</i> that represent BSD socket
 
 Calling 
 <b>getsockopt</b> with an unsupported option will result in an error code of 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOPROTOOPT</a> being returned from 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOPROTOOPT</a> being returned from 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 More detailed information  on some of the socket options for the <i>optname</i> parameter supported by the <b>getsockopt</b> function are listed below.
 
@@ -532,7 +499,7 @@ More detailed information  on some of the socket options for the <i>optname</i> 
 This option returns the number of seconds a socket has been connected. This option is valid for connection oriented protocols only.
 
 The SO_CONNECT_TIME option can be used with the <b>getsockopt</b> function to check 
-    whether a connection has been established. This option can also be used  while a <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a> function call is in progress.
+    whether a connection has been established. This option can also be used  while a <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a> function call is in progress.
     If a connection is established, the SO_CONNECT_TIME option can determine how long the connection has
     been established. If the socket is not connected, the <b>getsockopt</b> returns
     SOCKET_ERROR. Checking a connection like this is necessary to see if
@@ -548,13 +515,13 @@ The SO_CONNECT_TIME option can be used with the <b>getsockopt</b> function to ch
 <dt><a id="SO_ERROR"></a><a id="so_error"></a>SO_ERROR</dt>
 <dd>
 The SO_ERROR option returns and resets the per socket–based error code, which is different from the per thread based–error code that is handled using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a> function calls. A successful call using the socket does not reset the socket based error code returned by the SO_ERROR option.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> and 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a> function calls. A successful call using the socket does not reset the socket based error code returned by the SO_ERROR option.
 
 </dd>
 <dt><a id="SO_EXCLUSIVEADDRUSE"></a><a id="so_exclusiveaddruse"></a>SO_EXCLUSIVEADDRUSE</dt>
 <dd>
-Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function. See the <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a> reference for more information.
+Prevents any other socket from binding to the same address and port. This option must be set before calling the <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function. See the <a href="/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a> reference for more information.
 
 </dd>
 <dt><a id="SO_GROUP_ID"></a><a id="so_group_id"></a>SO_GROUP_ID</dt>
@@ -570,21 +537,21 @@ This option is reserved. Group priority indicates the priority of the specified 
 The WSAENOPROTOOPT error code is indicated for nongroup sockets or for service providers that do not support group sockets.
 
 </dd>
-<dt><a id="SO_KEEPALIVE"></a><a id="so_keepalive"></a><a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a>
+<dt><a id="SO_KEEPALIVE"></a><a id="so_keepalive"></a><a href="/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a>
 </dt>
 <dd>
-An application can request that a TCP/IP service provider enable the use of keep-alive packets on TCP  connections by turning on the SO_KEEPALIVE socket option. This option queries the current value of the keep-alive option on a socket. A Windows Sockets provider need not support the use of keep-alive: if it does, the precise semantics are implementation-specific but should conform to section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the <a href="https://go.microsoft.com/fwlink/p/?linkid=84405">IETF website</a>.  If a connection is dropped as the result of keep-alives the error code 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a> is returned to any calls in progress on the socket, and any subsequent calls will fail with 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a>. <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a> is not supported on ATM sockets, and requests to enable the use of keep-alive packets on an ATM socket results in an error being returned by the socket.
+An application can request that a TCP/IP service provider enable the use of keep-alive packets on TCP  connections by turning on the SO_KEEPALIVE socket option. This option queries the current value of the keep-alive option on a socket. A Windows Sockets provider need not support the use of keep-alive: if it does, the precise semantics are implementation-specific but should conform to section 4.2.3.6 on the <i>Requirements for Internet Hosts—Communication Layers</i> specified in RFC 1122 available at the <a href="https://www.ietf.org/rfc/rfc1122.txt">IETF website</a>.  If a connection is dropped as the result of keep-alives the error code 
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a> is returned to any calls in progress on the socket, and any subsequent calls will fail with 
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a>. <a href="/windows/desktop/WinSock/so-keepalive">SO_KEEPALIVE</a> is not supported on ATM sockets, and requests to enable the use of keep-alive packets on an ATM socket results in an error being returned by the socket.
 
 </dd>
 <dt><a id="SO_LINGER"></a><a id="so_linger"></a>SO_LINGER</dt>
 <dd>
 SO_LINGER controls the action taken when unsent data is queued on a socket and a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> is performed. See 
+<a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> is performed. See 
 <b>closesocket</b> for a description of the way in which the SO_LINGER settings affect the semantics of 
 <b>closesocket</b>. The application gets the current behavior by retrieving a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-linger">LINGER</a> structure (pointed to by the <i>optval</i> parameter).
+<a href="/windows/desktop/api/winsock/ns-winsock-linger">LINGER</a> structure (pointed to by the <i>optval</i> parameter).
 
 </dd>
 <dt><a id="SO_MAX_MSG_SIZE"></a><a id="so_max_msg_size"></a>SO_MAX_MSG_SIZE</dt>
@@ -595,24 +562,24 @@ This is a get-only socket option that indicates the maximum outbound (send) size
 <dt><a id="SO_PROTOCOL_INFO"></a><a id="so_protocol_info"></a>SO_PROTOCOL_INFO</dt>
 <dd>
 This is a get-only option that supplies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure associated with this socket. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> for more information about this structure.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure associated with this socket. See 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> for more information about this structure.
 
 </dd>
 <dt><a id="SO_SNDBUF"></a><a id="so_sndbuf"></a>SO_SNDBUF</dt>
 <dd>
 When a Windows Sockets implementation supports the SO_RCVBUF and SO_SNDBUF options, an application can request different buffer sizes (larger or smaller). The call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> can succeed even if the implementation did not provide the whole amount requested. An application must call this function with the same option to check the buffer size actually provided.
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> can succeed even if the implementation did not provide the whole amount requested. An application must call this function with the same option to check the buffer size actually provided.
 
 </dd>
 <dt><a id="SO_REUSEADDR"></a><a id="so_reuseaddr"></a>SO_REUSEADDR</dt>
 <dd>
 By default, a socket cannot be bound (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>) to a local address that is already in use. On occasion, however, it can be necessary to reuse an address in this way. Because every connection is uniquely identified by the combination of local and remote addresses, there is no problem with having two sockets bound to the same local address as long as the remote addresses are different. To inform the Windows Sockets provider that a 
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>) to a local address that is already in use. On occasion, however, it can be necessary to reuse an address in this way. Because every connection is uniquely identified by the combination of local and remote addresses, there is no problem with having two sockets bound to the same local address as long as the remote addresses are different. To inform the Windows Sockets provider that a 
 <b>bind</b> on a socket should not be disallowed because the desired address is already in use by another socket, the application should set the SO_REUSEADDR socket option for the socket before issuing the 
 <b>bind</b>. Note that the option is interpreted only at the time of the 
 <b>bind</b>: it is therefore unnecessary (but harmless) to set the option on a socket that is not to be bound to an existing address, and setting or resetting the option after the 
-<b>bind</b> has no effect on this or any other socket. SO_REUSEADDR is not applicable for ATM sockets, and although requests to reuse and address do not result in an error, they have no affect on when an ATM socket is in use.
+<b>bind</b> has no effect on this or any other socket. SO_REUSEADDR is not applicable for ATM sockets, and although requests to reuse and address do not result in an error, they have no effect on when an ATM socket is in use.
 
 </dd>
 <dt><a id="PVD_CONFIG"></a><a id="pvd_config"></a>PVD_CONFIG</dt>
@@ -623,7 +590,7 @@ This option retrieves an opaque data structure object from the service provider 
 <dt><a id="TCP_NODELAY"></a><a id="tcp_nodelay"></a>TCP_NODELAY</dt>
 <dd>
 The TCP_NODELAY option is specific to TCP/IP service providers. The Nagle algorithm is disabled if the TCP_NODELAY option is enabled (and vice versa). The Nagle algorithm (described in RFC 896) is very effective in reducing the number of small packets sent by a host. The process involves buffering send data when there is unacknowledged data already in flight or buffering send data until a full-size packet can be sent. It is highly recommended that Windows Sockets implementations enable the Nagle Algorithm by default because, for the vast majority of application protocols, the Nagle Algorithm can deliver significant performance enhancements. However, for some applications this algorithm can impede performance, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> with the same option can be used to turn it off. These are applications where many small messages are sent, and the time delays between the messages are maintained.
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a> with the same option can be used to turn it off. These are applications where many small messages are sent, and the time delays between the messages are maintained.
 
 </dd>
 </dl>
@@ -730,7 +697,7 @@ void main() {
 <ul>
 <li>The Af_irda.h header file must be explicitly included.</li>
 <li>Windows returns 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a> to indicate the underlying transceiver driver failed to initialize with the IrDA protocol stack.</li>
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a> to indicate the underlying transceiver driver failed to initialize with the IrDA protocol stack.</li>
 <li>IrDA supports several special socket options:<table>
 <tr>
 <th>Value</th>
@@ -756,8 +723,8 @@ void main() {
 
 Before an IrDA socket connection can be initiated, a device address must be obtained by performing a 
 <b>getsockopt</b>(,,IRLMP_ENUMDEVICES,,) function call, which returns a list of all available IrDA devices. A device address returned from the function call is copied into a 
-<a href="https://docs.microsoft.com/windows/desktop/api/af_irda/ns-af_irda-sockaddr_irda">SOCKADDR_IRDA</a> structure, which in turn is used by a subsequent call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function call.
+<a href="/windows/desktop/api/af_irda/ns-af_irda-sockaddr_irda">SOCKADDR_IRDA</a> structure, which in turn is used by a subsequent call to the 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function call.
 
 Discovery can be performed in two ways:
 
@@ -888,92 +855,82 @@ Many level socket options are not meaningful to IrDA; only SO_LINGER and SO_DONT
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinSock/ipproto-ip-socket-options">IPPROTO_IP Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IPPROTO_IP Socket Options</a>
+<a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPPROTO_IPV6 Socket Options</a>
+<a href="/windows/desktop/WinSock/ipproto-rm-socket-options">IPPROTO_RM Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-rm-socket-options">IPPROTO_RM Socket Options</a>
+<a href="/windows/desktop/WinSock/ipproto-tcp-socket-options">IPPROTO_TCP Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-tcp-socket-options">IPPROTO_TCP Socket Options</a>
+<a href="/windows/desktop/WinSock/ipproto-udp-socket-options">IPPROTO_UDP Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-udp-socket-options">IPPROTO_UDP Socket Options</a>
+<a href="/windows/desktop/WinSock/nsproto-ipx-socket-options">NSPROTO_IPX Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/nsproto-ipx-socket-options">NSPROTO_IPX Socket Options</a>
+<a href="/windows/desktop/WinSock/sol-appletalk-socket-options">SOL_APPLETALK Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-appletalk-socket-options">SOL_APPLETALK Socket Options</a>
+<a href="/windows/desktop/WinSock/sol-irlmp-socket-options">SOL_IRLMP Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-irlmp-socket-options">SOL_IRLMP Socket Options</a>
+<a href="/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET Socket Options</a>
+<a href="/windows/desktop/WinSock/socket-options">Socket Options</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/socket-options">Socket Options</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-ioctlsocket">ioctlsocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ioctlsocket">ioctlsocket</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>

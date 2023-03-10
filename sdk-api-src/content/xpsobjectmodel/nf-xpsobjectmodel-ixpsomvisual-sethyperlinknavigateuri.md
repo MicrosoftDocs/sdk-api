@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetHyperlinkNavigateUri
 title: IXpsOMVisual::SetHyperlinkNavigateUri (xpsobjectmodel.h)
 description: Sets the destination URI of the visual's hyperlink.
+helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetHyperlinkNavigateUri method","IXpsOMVisual.SetHyperlinkNavigateUri","IXpsOMVisual::SetHyperlinkNavigateUri","SetHyperlinkNavigateUri","SetHyperlinkNavigateUri method [XPS Documents and Packaging]","SetHyperlinkNavigateUri method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_sethyperlinknavigateuri","xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri"]
 old-location: xps\ixpsomvisual_sethyperlinknavigateuri.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6909d287-67c8-4f01-8523-6011932d1d34
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetHyperlinkNavigateUri method, IXpsOMVisual.SetHyperlinkNavigateUri, IXpsOMVisual::SetHyperlinkNavigateUri, SetHyperlinkNavigateUri, SetHyperlinkNavigateUri method [XPS Documents and Packaging], SetHyperlinkNavigateUri method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_sethyperlinknavigateuri, xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisual.SetHyperlinkNavigateUri
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisual.SetHyperlinkNavigateUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisual::SetHyperlinkNavigateUri
+ - xpsobjectmodel/IXpsOMVisual::SetHyperlinkNavigateUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisual.SetHyperlinkNavigateUri
 ---
 
 # IXpsOMVisual::SetHyperlinkNavigateUri
@@ -48,53 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the destination URI of the visual's hyperlink.
-
 
 ## -parameters
 
-
-
-
 ### -param hyperlinkUri [in]
 
-The <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface that contains the destination URI of the visual's hyperlink.
-
+The <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a> interface that contains the destination URI of the visual's hyperlink.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
 Setting an object's URI makes the object a hyperlink. When activated or clicked, the object   will navigate to the destination that is  specified by the URI in <i>hyperlinkUri</i>.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

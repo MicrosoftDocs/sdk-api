@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.GetComment
 title: IScheduledWorkItem::GetComment (mstask.h)
 description: Retrieves the comment for the work item.
+helpviewer_keywords: ["GetComment","GetComment method [Task Scheduler]","GetComment method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetComment method","IScheduledWorkItem.GetComment","IScheduledWorkItem::GetComment","_msb_ischeduledworkitem_getcomment","mstask/IScheduledWorkItem::GetComment","taskschd.ischeduledworkitem_getcomment"]
 old-location: taskschd\ischeduledworkitem_getcomment.htm
 tech.root: taskschd
 ms.assetid: 49bfd451-8100-40e1-9727-e54c5478b415
 ms.date: 12/05/2018
 ms.keywords: GetComment, GetComment method [Task Scheduler], GetComment method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetComment method, IScheduledWorkItem.GetComment, IScheduledWorkItem::GetComment, _msb_ischeduledworkitem_getcomment, mstask/IScheduledWorkItem::GetComment, taskschd.ischeduledworkitem_getcomment
-f1_keywords:
-- mstask/IScheduledWorkItem.GetComment
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetComment
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetComment
+ - mstask/IScheduledWorkItem::GetComment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetComment
 ---
 
 # IScheduledWorkItem::GetComment
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-Retrieves the comment for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
-
+Retrieves the comment for the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
-
-
-
 
 ### -param ppwszComment [out]
 
 A pointer to a null-terminated string that contains the retrieved comment for the current work item.
 
-
 ## -returns
-
-
 
 The 
 <b>GetComment</b> method returns one of the following values.
@@ -110,22 +104,11 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setcomment">IScheduledWorkItem::SetComment</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setcomment">IScheduledWorkItem::SetComment</a>

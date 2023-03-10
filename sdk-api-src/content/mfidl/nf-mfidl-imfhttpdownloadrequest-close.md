@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFHttpDownloadRequest.Close
 title: IMFHttpDownloadRequest::Close (mfidl.h)
 description: Invoked by Microsoft Media Foundation to allow IMFHttpDownloadRequest to free any internal resources. It will also cancel the current request if it is still in progress.
+helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","Close method","IMFHttpDownloadRequest.Close","IMFHttpDownloadRequest::Close","mf.imfhttpdownloadrequest_close","mfidl/IMFHttpDownloadRequest::Close"]
 old-location: mf\imfhttpdownloadrequest_close.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BA560323-EE64-4423-B63A-F2B6FDE608DC
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],Close method, IMFHttpDownloadRequest.Close, IMFHttpDownloadRequest::Close, mf.imfhttpdownloadrequest_close, mfidl/IMFHttpDownloadRequest::Close
-f1_keywords:
-- mfidl/IMFHttpDownloadRequest.Close
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFHttpDownloadRequest.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFHttpDownloadRequest::Close
+ - mfidl/IMFHttpDownloadRequest::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFHttpDownloadRequest.Close
 ---
 
 # IMFHttpDownloadRequest::Close
@@ -51,20 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Invoked by Microsoft Media Foundation to allow <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to free any internal resources. It will also cancel the current request if it is still in progress.
-
-
-## -parameters
-
-
-
+Invoked by Microsoft Media Foundation to allow <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> to free any internal resources. It will also cancel the current request if it is still in progress.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -86,27 +79,11 @@ Successfully closed the request object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Microsoft Media Foundation will not invoke any other methods on the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface after having invoked <b>Close</b>.
-
-
-
+Microsoft Media Foundation will not invoke any other methods on the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a> interface after having invoked <b>Close</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

@@ -2,15 +2,12 @@
 UID: NN:audioengineendpoint.IAudioEndpointOffloadStreamMute
 title: IAudioEndpointOffloadStreamMute (audioengineendpoint.h)
 description: The IAudioEndpointOffloadStreamMute interface allows a client to manipulate the mute status of the offloaded audio stream.
+helpviewer_keywords: ["IAudioEndpointOffloadStreamMute","IAudioEndpointOffloadStreamMute interface [Core Audio]","IAudioEndpointOffloadStreamMute interface [Core Audio]","described","audioengineendpoint/IAudioEndpointOffloadStreamMute","coreaudio.iaudioendpointoffloadstreammute"]
 old-location: coreaudio\iaudioendpointoffloadstreammute.htm
 tech.root: CoreAudio
 ms.assetid: F102CBB2-6751-416C-B59B-F91440583594
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamMute, IAudioEndpointOffloadStreamMute interface [Core Audio], IAudioEndpointOffloadStreamMute interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamMute, coreaudio.iaudioendpointoffloadstreammute
-f1_keywords:
-- audioengineendpoint/IAudioEndpointOffloadStreamMute
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioengineendpoint.h
-api_name:
-- IAudioEndpointOffloadStreamMute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointOffloadStreamMute
+ - audioengineendpoint/IAudioEndpointOffloadStreamMute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioengineendpoint.h
+api_name:
+ - IAudioEndpointOffloadStreamMute
 ---
 
 # IAudioEndpointOffloadStreamMute interface
@@ -48,53 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioEndpointOffloadStreamMute</b> interface allows a client to manipulate the mute status of the offloaded audio stream.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointOffloadStreamMute</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamMute</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioEndpointOffloadStreamMute</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-getmute">GetMute</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the offloaded stream is muted or not.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointoffloadstreammute-setmute">SetMute</a>
-</td>
-<td align="left" width="63%">
-Sets the mute status of the offloaded stream.
-
-</td>
-</tr>
-</table> 
-
+The <b>IAudioEndpointOffloadStreamMute</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointOffloadStreamMute</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

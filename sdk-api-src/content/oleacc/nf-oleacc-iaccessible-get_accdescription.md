@@ -7,10 +7,6 @@ tech.root: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
-f1_keywords:
-- oleacc/IAccessible.get_accDescription
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accDescription
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accDescription
+ - oleacc/IAccessible::get_accDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accDescription
 ---
 
 # IAccessible::get_accDescription
@@ -48,22 +49,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accDescription</b> method retrieves a string that describes the visual appearance of the specified object. Not all objects have a description.
 <div class="alert"><b>Note</b>  The Description property is often used incorrectly and is not supported by Microsoft UI Automation. Microsoft Active Accessibility server developers should not use this property. If more information is needed for accessibility and automation scenarios, use the 
 properties supported by UI Automation elements and control patterns.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
-Specifies whether the retrieved description belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
-
+Specifies whether the retrieved description belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 ### -param pszDescription [out, retval]
 
@@ -71,16 +67,13 @@ Type: <b>BSTR*</b>
 
  Address of a <b>BSTR</b> that receives a localized string that describes the specified object, or <b>NULL</b> if this object has no description.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -121,18 +114,12 @@ The specified object does not support this property.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+An Microsoft Active Accessibility server can add support for UI Automation by using Direct Annotation, using the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface, or by implementing Microsoft Active Accessibility and UI Automation side-by-side with both implementations handling the [WM_GETOBJECT](/windows/win32/winauto/wm-getobject) message.
 
-
-An Microsoft Active Accessibility server can add support for UI Automation by using Direct Annotation, using the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface, or by implementing Microsoft Active Accessibility and UI Automation side-by-side with both implementations handling the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/wm-getobject">WM_GETOBJECT</a> message.
-
-This property provides a textual equivalent of the object for the user. The description should be similar to the text supplied with the ALT attribute in HTML, which is the text that is displayed to describe images for people using text-only browsers. However, some controls use this property to store extra information about the control that is not related to a textual equivalent. For more information about this property, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/description-property">Description Property</a>.
+This property provides a textual equivalent of the object for the user. The description should be similar to the text supplied with the ALT attribute in HTML, which is the text that is displayed to describe images for people using text-only browsers. However, some controls use this property to store extra information about the control that is not related to a textual equivalent. For more information about this property, see <a href="/windows/desktop/WinAuto/description-property">Description Property</a>.
 
 <b>Note to server developers:  </b>Localize the string returned from this property.
             
@@ -191,36 +178,29 @@ HRESULT PrintDescription(IAccessible* pAcc, long child)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/description-property">Description Property</a>
+<a href="/windows/desktop/WinAuto/description-property">Description Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelp">IAccessible::get_accHelp</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelp">IAccessible::get_accHelp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accvalue">IAccessible::get_accValue</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accvalue">IAccessible::get_accValue</a>
 
 
 
@@ -228,8 +208,4 @@ HRESULT PrintDescription(IAccessible* pAcc, long child)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/using-direct-annotation">Using Direct Annotation</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/using-direct-annotation">Using Direct Annotation</a>

@@ -2,15 +2,12 @@
 UID: NL:gdiplusimaging.BitmapData
 title: BitmapData (gdiplusimaging.h)
 description: The BitmapData class is used by the Bitmap::LockBits and Bitmap::UnlockBits methods of the Bitmap class. A BitmapData object stores attributes of a bitmap.
+helpviewer_keywords: ["BitmapData","BitmapData class [GDI+]","BitmapData class [GDI+]","described","_gdiplus_CLASS_BitmapData_Class","gdiplus._gdiplus_CLASS_BitmapData_Class","gdiplusimaging/BitmapData"]
 old-location: gdiplus\_gdiplus_CLASS_BitmapData_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapdata.htm
 ms.date: 12/05/2018
 ms.keywords: BitmapData, BitmapData class [GDI+], BitmapData class [GDI+],described, _gdiplus_CLASS_BitmapData_Class, gdiplus._gdiplus_CLASS_BitmapData_Class, gdiplusimaging/BitmapData
-f1_keywords:
-- gdiplusimaging/BitmapData
-dev_langs:
-- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.lib
-- Gdiplus.dll
-api_name:
-- BitmapData
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - BitmapData
+ - gdiplusimaging/BitmapData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.lib
+ - Gdiplus.dll
+api_name:
+ - BitmapData
 ---
 
 # BitmapData class
@@ -50,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BitmapData</b> class is used by the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a> and 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-unlockbits">Bitmap::UnlockBits</a> methods of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class. A <b>BitmapData</b> object stores attributes of a bitmap.
+			<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a> and 
+			<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-unlockbits">Bitmap::UnlockBits</a> methods of the 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class. A <b>BitmapData</b> object stores attributes of a bitmap.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">BitmapData</b> has these types of members:
-
+<b>BitmapData</b> has these types of members:

@@ -1,16 +1,13 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectoryExW
 title: SHCreateDirectoryExW function (shlobj_core.h)
-description: Creates a new file system folder, with optional security attributes.
+description: Creates a new file system folder, with optional security attributes. (Unicode)
+helpviewer_keywords: ["SHCreateDirectoryEx", "SHCreateDirectoryEx function [Windows Shell]", "SHCreateDirectoryExW", "_win32_SHCreateDirectoryEx", "shell.SHCreateDirectoryEx", "shlobj_core/SHCreateDirectoryEx", "shlobj_core/SHCreateDirectoryExW"]
 old-location: shell\SHCreateDirectoryEx.htm
 tech.root: shell
 ms.assetid: 7f44f907-cd12-4156-91c0-76e577ae25f6
 ms.date: 12/05/2018
 ms.keywords: SHCreateDirectoryEx, SHCreateDirectoryEx function [Windows Shell], SHCreateDirectoryExA, SHCreateDirectoryExW, _win32_SHCreateDirectoryEx, shell.SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryExA, shlobj_core/SHCreateDirectoryExW
-f1_keywords:
-- shlobj_core/SHCreateDirectoryEx
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- API-MS-Win-shell-shellfolders-l1-1-0.dll
-- KernelBase.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
-- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
-- Windows.Storage.dll
-api_name:
-- SHCreateDirectoryEx
-- SHCreateDirectoryExA
-- SHCreateDirectoryExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHCreateDirectoryExW
+ - shlobj_core/SHCreateDirectoryExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - API-MS-Win-shell-shellfolders-l1-1-0.dll
+ - KernelBase.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+ - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+ - Windows.Storage.dll
+api_name:
+ - SHCreateDirectoryEx
+ - SHCreateDirectoryExA
+ - SHCreateDirectoryExW
 ---
 
 # SHCreateDirectoryExW function
@@ -55,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
 Creates a new file system folder, with optional security attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in, optional]
 
@@ -72,28 +69,23 @@ Type: <b>HWND</b>
 
 A handle to a parent window. This parameter can be set to <b>NULL</b> if no user interface will be displayed.
 
-
 ### -param pszPath [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string specifying the fully qualified path of the directory. This string is of maximum length of 248 characters, including the terminating null character.
 
-
 ### -param psa [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
+Type: <b>const <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>*</b>
 
- A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
-
+ A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure with the directory's security attribute. Set this parameter to <b>NULL</b> if no security attributes need to be set.
 
 ## -returns
 
-
-
 Type: <b>int</b>
 
-Returns <b>ERROR_SUCCESS</b> if successful. If the operation fails, other error codes can be returned, including those listed here. For values not specifically listed, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+Returns <b>ERROR_SUCCESS</b> if successful. If the operation fails, other error codes can be returned, including those listed here. For values not specifically listed, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 <table>
 <tr>
@@ -167,14 +159,8 @@ The user canceled the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function creates a file system folder whose fully qualified path is given by <i>pszPath</i>. If one or more of the intermediate folders do not exist, they are created as well. <b>SHCreateDirectoryEx</b> also verifies that the files are visible. If they are not visible, expect one of the following:
 
@@ -187,13 +173,10 @@ This function creates a file system folder whose fully qualified path is given b
 
 
 
+
+> [!NOTE]
+> The shlobj_core.h header defines SHCreateDirectoryEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory">SHCreateDirectory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory">SHCreateDirectory</a>

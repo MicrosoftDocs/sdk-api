@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValue
 title: ICodecAPI::SetValue (strmif.h)
-description: The SetValue method sets the value of a codec property.
+description: The SetValue method sets the value of a codec property. (ICodecAPI.SetValue)
+helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetValue method","ICodecAPI.SetValue","ICodecAPI::SetValue","ICodecAPISetValue","SetValue","SetValue method [DirectShow]","SetValue method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setvalue","strmif/ICodecAPI::SetValue"]
 old-location: dshow\icodecapi_setvalue.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e78a310a-3605-4cb3-a0c3-7864c890c1fa
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValue method, ICodecAPI.SetValue, ICodecAPI::SetValue, ICodecAPISetValue, SetValue, SetValue method [DirectShow], SetValue method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvalue, strmif/ICodecAPI::SetValue
-f1_keywords:
-- strmif/ICodecAPI.SetValue
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICodecAPI.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICodecAPI::SetValue
+ - strmif/ICodecAPI::SetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICodecAPI.SetValue
 ---
 
 # ICodecAPI::SetValue
@@ -49,33 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetValue</b> method sets the value of a codec property.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Api [in]
 
 Pointer to a GUID that specifies the property to set.
-          For a list of standard codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
-
+          For a list of standard codec properties, see <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 ### -param Value [in]
 
 Pointer to a <b>VARIANT</b> that contains the new value for the property.
-          
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,30 +107,19 @@ Invalid property GUID or value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">ICodecAPI::GetValue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">ICodecAPI::GetValue</a>

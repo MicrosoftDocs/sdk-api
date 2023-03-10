@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Logging
 title: IFsrmFileManagementJob::put_Logging (fsrmreports.h)
-description: The types of logging to perform.
+description: The types of logging to perform. (Put)
+helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","Logging property","IFsrmFileManagementJob.Logging","IFsrmFileManagementJob.put_Logging","IFsrmFileManagementJob::Logging","IFsrmFileManagementJob::get_Logging","IFsrmFileManagementJob::put_Logging","Logging property [File Server Resource Manager]","Logging property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_logging","fsrm.ifsrmfilemanagementjob_logging","fsrmreports/IFsrmFileManagementJob::Logging","fsrmreports/IFsrmFileManagementJob::get_Logging","fsrmreports/IFsrmFileManagementJob::put_Logging","put_Logging"]
 old-location: fsrm\ifsrmfilemanagementjob_logging.htm
 tech.root: fsrm
 ms.assetid: a1bed6bf-9c34-40ab-b5fc-ba870e1f084a
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Logging property, IFsrmFileManagementJob.Logging, IFsrmFileManagementJob.put_Logging, IFsrmFileManagementJob::Logging, IFsrmFileManagementJob::get_Logging, IFsrmFileManagementJob::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_logging, fsrm.ifsrmfilemanagementjob_logging, fsrmreports/IFsrmFileManagementJob::Logging, fsrmreports/IFsrmFileManagementJob::get_Logging, fsrmreports/IFsrmFileManagementJob::put_Logging, put_Logging
-f1_keywords:
-- fsrmreports/IFsrmFileManagementJob.Logging
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileManagementJob.Logging
-- IFsrmFileManagementJob.get_Logging
-- IFsrmFileManagementJob.put_Logging
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileManagementJob::put_Logging
+ - fsrmreports/IFsrmFileManagementJob::put_Logging
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileManagementJob.Logging
+ - IFsrmFileManagementJob.get_Logging
+ - IFsrmFileManagementJob.put_Logging
 ---
 
 # IFsrmFileManagementJob::put_Logging
@@ -50,22 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
 
 The types of logging to perform.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The log files are stored in the reports directory. The name of the 
     <b>FsrmFileManagementLoggingFlags_ClassificationsInLogFile</b> log file is 
@@ -80,19 +77,10 @@ The log files are stored in the reports directory. The name of the
 <li>Error value</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>

@@ -2,15 +2,12 @@
 UID: NF:winddi.EngSort
 title: EngSort function (winddi.h)
 description: The EngSort function performs a quick-sort on the specified list.
+helpviewer_keywords: ["EngSort","EngSort function [Display Devices]","display.engsort","gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml","winddi/EngSort"]
 old-location: display\engsort.htm
 tech.root: display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60
 ms.date: 12/05/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
-f1_keywords:
-- winddi/EngSort
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngSort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngSort
+ - winddi/EngSort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngSort
 ---
 
 # EngSort function
@@ -48,51 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngSort</b> function performs a quick-sort on the specified list.
 
-
 ## -parameters
-
-
-
 
 ### -param pjBuf [in, out]
 
 Pointer to the data array to be sorted.
 
-
 ### -param c [in]
 
 Specifies the size, in bytes, of each element in <i>pjBuf</i>.
-
 
 ### -param cjElem [in]
 
 Specifies the number of elements in <i>pjBuf</i> to be sorted.
 
-
 ### -param pfnComp [in]
 
 Pointer to a function that implements the element comparison to be used for the sort.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 <b>EngSort</b> implements a quick-sort algorithm to sort <i>cjElem</i> elements in <i>pjBuf</i>, where each element is of size <i>c</i>. The sorted elements are returned in <i>pjBuf</i>; that is, the original contents of the buffer are overwritten with the sorted results.
 
-The basis for comparing two elements is defined in the function that <i>pfnComp </i>points to. This function is prototyped as follows:
+The basis for comparing two elements is defined in the function that <i>pfnComp </i> points to. This function is prototyped as follows:
 
 
 ```
@@ -141,6 +127,4 @@ Positive integer
  
 
 The array is sorted in increasing order, which is defined by the <i>pfnComp</i> parameter.
-
-
 

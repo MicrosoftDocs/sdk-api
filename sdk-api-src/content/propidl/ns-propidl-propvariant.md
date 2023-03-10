@@ -1,16 +1,13 @@
 ---
 UID: NS:propidl.tagPROPVARIANT
 title: PROPVARIANT (propidl.h)
-description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
+description: The PROPVARIANT structure is used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set. 
+helpviewer_keywords: ["*LPPROPVARIANT","PROPVARIANT","PROPVARIANT structure [Structured Storage]","_stg_propvariant","propidlbase/PROPVARIANT","stg.propvariant","tagPROPVARIANT"]
 old-location: stg\propvariant.htm
 tech.root: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT'
-f1_keywords:
-- propidl/PROPVARIANT
-dev_langs:
-- c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- propidlbase.h
-api_name:
-- PROPVARIANT
 targetos: Windows
 req.typenames: PROPVARIANT, *LPPROPVARIANT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPROPVARIANT
+ - propidl/tagPROPVARIANT
+ - LPPROPVARIANT
+ - propidl/LPPROPVARIANT
+ - PROPVARIANT
+ - propidl/PROPVARIANT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - propidlbase.h
+api_name:
+ - PROPVARIANT
 ---
 
 # PROPVARIANT structure
@@ -48,807 +54,343 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PROPVARIANT</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a> and 
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
 
-The <b>PROPVARIANT</b> structure is also used by the <a href="https://go.microsoft.com/fwlink/p/?linkid=101713">GetValue</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=101711">SetValue</a> methods of <a href="https://go.microsoft.com/fwlink/p/?linkid=101712">IPropertyStore</a>, which replaces <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=101710">Property Handlers</a>.
+The <b>PROPVARIANT</b> structure is also used by the <a href="/previous-versions/windows/desktop/legacy/bb761473(v=vs.85)">GetValue</a> and <a href="/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)">SetValue</a> methods of <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, which replaces <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="/previous-versions//bb776861(v=vs.85)">Property Handlers</a>.
 
 There are five members. The first member, the value-type tag, and the last member, the value of the property, are significant. The middle three members are reserved for future use.
 <div class="alert"><b>Note</b>  The <b>bool</b> member in previous definitions of this structure has been renamed to <b>boolVal</b>, because some compilers now recognize <b>bool</b> as a keyword.</div><div> </div><div class="alert"><b>Note</b>  The 
 <b>PROPVARIANT</b> structure, defined below, includes types that can be serialized in the version 1 property set serialization format. The version 1 format supports all types allowed in the version 0 format plus some additional types. The added types include "Version 1" in the comment field below. Use these types only if a version 1 property set is intended. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
+<a href="/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
 <b>PROPVARIANT</b> structure is defined as follows:
-
 
 ## -struct-fields
 
-
-
-
 ### -field tag_inner_PROPVARIANT
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.vt
 
- 
-
+Value type tag.
 
 ### -field tag_inner_PROPVARIANT.wReserved1
 
- 
-
+Reserved for future use.
 
 ### -field tag_inner_PROPVARIANT.wReserved2
 
- 
-
+Reserved for future use.
 
 ### -field tag_inner_PROPVARIANT.wReserved3
 
- 
-
+Reserved for future use.
 
 ### -field tag_inner_PROPVARIANT.cVal
 
- 
-
+<b>VT_I1</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.bVal
 
- 
-
+<b>VT_UI1</b>
 
 ### -field tag_inner_PROPVARIANT.iVal
 
- 
-
+<b>VT_I2</b>
 
 ### -field tag_inner_PROPVARIANT.uiVal
 
- 
-
+<b>VT_UI2</b>
 
 ### -field tag_inner_PROPVARIANT.lVal
 
- 
-
+<b>VT_I4</b>
 
 ### -field tag_inner_PROPVARIANT.ulVal
 
- 
-
+<b>VT_UI4</b>
 
 ### -field tag_inner_PROPVARIANT.intVal
 
- 
-
+<b>VT_INT</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.uintVal
 
- 
-
+<b>VT_UINT</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.hVal
 
- 
-
+<b>VT_I8</b>
 
 ### -field tag_inner_PROPVARIANT.uhVal
 
- 
-
+<b>VT_UI8</b>
 
 ### -field tag_inner_PROPVARIANT.fltVal
 
- 
-
+<b>VT_R4</b>
 
 ### -field tag_inner_PROPVARIANT.dblVal
 
- 
-
+<b>VT_R8</b>
 
 ### -field tag_inner_PROPVARIANT.boolVal
 
- 
-
+<b>VT_BOOL</b>
 
 ### -field tag_inner_PROPVARIANT.scode
 
- 
-
+<b>VT_ERROR</b>
 
 ### -field tag_inner_PROPVARIANT.cyVal
 
- 
-
+<b>VT_CY</b>
 
 ### -field tag_inner_PROPVARIANT.date
 
- 
-
+<b>VT_DATE</b>
 
 ### -field tag_inner_PROPVARIANT.filetime
 
- 
-
+<b>VT_FILETIME</b>
 
 ### -field tag_inner_PROPVARIANT.puuid
 
- 
-
+<b>VT_CLSID</b>
 
 ### -field tag_inner_PROPVARIANT.pclipdata
 
- 
-
+<b>VT_CF</b>
 
 ### -field tag_inner_PROPVARIANT.bstrVal
 
- 
-
+<b>VT_BSTR</b>
 
 ### -field tag_inner_PROPVARIANT.bstrblobVal
 
- 
-
+<b>VT_BSTR_BLOB</b>
 
 ### -field tag_inner_PROPVARIANT.blob
 
- 
-
+<b>VT_BLOB</b>, <b>VT_BLOBOBJECT</b>
 
 ### -field tag_inner_PROPVARIANT.pszVal
 
- 
-
+<b>VT_LPSTR</b>
 
 ### -field tag_inner_PROPVARIANT.pwszVal
 
- 
-
+<b>VT_LPWSTR</b>
 
 ### -field tag_inner_PROPVARIANT.punkVal
 
- 
-
+<b>VT_UNKNOWN</b>
 
 ### -field tag_inner_PROPVARIANT.pdispVal
 
- 
-
+<b>VT_DISPATCH</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pStream
 
- 
-
+<b>VT_STREAM</b>, <b>VT_STREAMED_OBJECT</b>
 
 ### -field tag_inner_PROPVARIANT.pStorage
 
- 
-
+<b>VT_STORAGE</b>, <b>VT_STORED_OBJECT</b>
 
 ### -field tag_inner_PROPVARIANT.pVersionedStream
 
- 
-
+<b>VT_VERSIONED_STREAM</b>
 
 ### -field tag_inner_PROPVARIANT.parray
 
- 
-
+<b>VT_ARRAY</b> | <b>VT_*</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.cac
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_I1</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.caub
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_UI1</b>
 
 ### -field tag_inner_PROPVARIANT.cai
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_I2</b>
 
 ### -field tag_inner_PROPVARIANT.caui
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_UI2</b>
 
 ### -field tag_inner_PROPVARIANT.cal
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_I4</b>
 
 ### -field tag_inner_PROPVARIANT.caul
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_UI4</b>
 
 ### -field tag_inner_PROPVARIANT.cah
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_I8</b>
 
 ### -field tag_inner_PROPVARIANT.cauh
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_UI8</b>
 
 ### -field tag_inner_PROPVARIANT.caflt
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_R4</b>
 
 ### -field tag_inner_PROPVARIANT.cadbl
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_R8</b>
 
 ### -field tag_inner_PROPVARIANT.cabool
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_BOOL</b>
 
 ### -field tag_inner_PROPVARIANT.cascode
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_ERROR</b>
 
 ### -field tag_inner_PROPVARIANT.cacy
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_CY</b>
 
 ### -field tag_inner_PROPVARIANT.cadate
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_DATE</b>
 
 ### -field tag_inner_PROPVARIANT.cafiletime
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_FILETIME</b>
 
 ### -field tag_inner_PROPVARIANT.cauuid
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_CLSID</b>
 
 ### -field tag_inner_PROPVARIANT.caclipdata
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_CF</b>
 
 ### -field tag_inner_PROPVARIANT.cabstr
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_BSTR</b>
 
 ### -field tag_inner_PROPVARIANT.cabstrblob
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_BSTR</b>
 
 ### -field tag_inner_PROPVARIANT.calpstr
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_LPSTR</b>
 
 ### -field tag_inner_PROPVARIANT.calpwstr
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_LPWSTR</b>
 
 ### -field tag_inner_PROPVARIANT.capropvar
 
- 
-
+<b>VT_VECTOR</b> | <b>VT_VARIANT</b>
 
 ### -field tag_inner_PROPVARIANT.pcVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_I1</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pbVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_UI1</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.piVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_I2</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.puiVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_UI2</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.plVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_I4</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pulVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_UI4</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pintVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_INT</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.puintVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_UINT</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pfltVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_R4</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pdblVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pboolVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pdecVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pscode
 
- 
-
+<b>VT_BYREF</b> | <b>VT_ERROR</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pcyVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_CY</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pdate
 
- 
-
+<b>VT_BYREF</b> | <b>VT_DATE</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pbstrVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_BSTR</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.ppunkVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_UNKNOWN</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.ppdispVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pparray
 
- 
-
+<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
 
 ### -field tag_inner_PROPVARIANT.pvarVal
 
- 
-
+<b>VT_BYREF</b> | <b>VT_VARIANT</b>, Version 1
 
 ### -field decVal
 
- 
-
-
-
-
-#### - bVal
-
-<b>VT_UI1</b>
-
-
-#### - blob
-
-<b>VT_BLOB</b>, <b>VT_BLOBOBJECT</b>
-
-
-#### - boolVal
-
-<b>VT_BOOL</b>
-
-
-#### - bstrVal
-
-<b>VT_BSTR</b>
-
-
-#### - bstrblobVal
-
-<b>VT_BSTR_BLOB</b>
-
-
-#### - cVal
-
-<b>VT_I1</b>, Version 1
-
-
-#### - cabool
-
-<b>VT_VECTOR</b> | <b>VT_BOOL</b>
-
-
-#### - cabstr
-
-<b>VT_VECTOR</b> | <b>VT_BSTR</b>
-
-
-#### - cabstrblob
-
-<b>VT_VECTOR</b> | <b>VT_BSTR_BLOB</b>
-
-
-#### - cac
-
-<b>VT_VECTOR</b> | <b>VT_I1</b>, Version 1
-
-
-#### - caclipdata
-
-<b>VT_VECTOR</b> | <b>VT_CF</b>
-
-
-#### - cacy
-
-<b>VT_VECTOR</b> | <b>VT_CY</b>
-
-
-#### - cadate
-
-<b>VT_VECTOR</b> | <b>VT_DATE</b>
-
-
-#### - cadbl
-
-<b>VT_VECTOR</b> | <b>VT_R8</b>
-
-
-#### - cafiletime
-
-<b>VT_VECTOR</b> | <b>VT_FILETIME</b>
-
-
-#### - caflt
-
-<b>VT_VECTOR</b> | <b>VT_R4</b>
-
-
-#### - cah
-
-<b>VT_VECTOR</b> | <b>VT_I8</b>
-
-
-#### - cai
-
-<b>VT_VECTOR</b> | <b>VT_I2</b>
-
-
-#### - cal
-
-<b>VT_VECTOR</b> | <b>VT_I4</b>
-
-
-#### - calpstr
-
-<b>VT_VECTOR</b> | <b>VT_LPSTR</b>
-
-
-#### - calpwstr
-
-<b>VT_VECTOR</b> | <b>VT_LPWSTR</b>
-
-
-#### - capropvar
-
-<b>VT_VECTOR</b> | <b>VT_VARIANT</b>
-
-
-#### - cascode
-
-<b>VT_VECTOR</b> | <b>VT_ERROR</b>
-
-
-#### - caub
-
-<b>VT_VECTOR</b> | <b>VT_UI1</b>
-
-
-#### - cauh
-
-<b>VT_VECTOR</b> | <b>VT_UI8</b>
-
-
-#### - caui
-
-<b>VT_VECTOR</b> | <b>VT_UI2</b>
-
-
-#### - caul
-
-<b>VT_VECTOR</b> | <b>VT_UI4</b>
-
-
-#### - cauuid
-
-<b>VT_VECTOR</b> | <b>VT_CLSID</b>
-
-
-#### - cyVal
-
-<b>VT_CY</b>
-
-
-#### - date
-
-<b>VT_DATE</b>
-
-
-#### - dblVal
-
-<b>VT_R8</b>
-
-
-#### - filetime
-
-<b>VT_FILETIME</b>
-
-
-#### - fltVal
-
-<b>VT_R4</b>
-
-
-#### - hVal
-
-<b>VT_I8</b>
-
-
-#### - iVal
-
-<b>VT_I2</b>
-
-
-#### - intVal
-
-<b>VT_INT</b>, Version 1
-
-
-#### - lVal
-
-<b>VT_I4</b>
-
-
-#### - pStorage
-
-<b>VT_STORAGE</b>, <b>VT_STORED_OBJECT</b>
-
-
-#### - pStream
-
-<b>VT_STREAM</b>, <b>VT_STREAMED_OBJECT</b>
-
-
-#### - pVersionedStream
-
-<b>VT_VERSIONED_STREAM</b>
-
-
-#### - parray
-
-<b>VT_ARRAY</b> | <b>VT_*</b>, Version 1
-
-
-#### - pbVal
-
-<b>VT_BYREF</b> | <b>VT_UI1</b>, Version 1
-
-
-#### - pboolVal
-
-<b>VT_BYREF</b> | <b>VT_BOOL</b>, Version 1
-
-
-#### - pbstrVal
-
-<b>VT_BYREF</b> | <b>VT_BSTR</b>, Version 1
-
-
-#### - pcVal
-
-<b>VT_BYREF</b> | <b>VT_I1</b>, Version 1
-
-
-#### - pclipdata
-
-<b>VT_CF</b>
-
-
-#### - pcyVal
-
-<b>VT_BYREF</b> | <b>VT_CY</b>, Version 1
-
-
-#### - pdate
-
-<b>VT_BYREF</b> | <b>VT_DATE</b>, Version 1
-
-
-#### - pdblVal
-
-<b>VT_BYREF</b> | <b>VT_R8</b>, Version 1
-
-
-#### - pdecVal
-
-<b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
-
-
-#### - pdispVal
-
-<b>VT_DISPATCH</b>
-
-
-#### - pfltVal
-
-<b>VT_BYREF</b> | <b>VT_R4</b>, Version 1
-
-
-#### - piVal
-
-<b>VT_BYREF</b> | <b>VT_I2</b>, Version 1
-
-
-#### - pintVal
-
-<b>VT_BYREF</b> | <b>VT_INT</b>, Version 1
-
-
-#### - plVal
-
-<b>VT_BYREF</b> | <b>VT_I4</b>, Version 1
-
-
-#### - pparray
-
-<b>VT_BYREF</b> | <b>VT_ARRAY</b>, Version 1
-
-
-#### - ppdispVal
-
-<b>VT_BYREF</b> | <b>VT_DISPATCH</b>, Version 1
-
-
-#### - ppunkVal
-
-<b>VT_BYREF</b> | <b>VT_UNKNOWN</b>, Version 1
-
-
-#### - pscode
-
-<b>VT_BYREF</b> | <b>VT_ERROR</b>, Version 1
-
-
-#### - pszVal
-
-<b>VT_LPSTR</b>
-
-
-#### - puiVal
-
-<b>VT_BYREF</b> | <b>VT_UI2</b>, Version 1
-
-
-#### - puintVal
-
-<b>VT_BYREF</b> | <b>VT_UINT</b>, Version 1
-
-
-#### - pulVal
-
-<b>VT_BYREF</b> | <b>VT_UI4</b>, Version 1
-
-
-#### - punkVal
-
-<b>VT_UNKNOWN</b>
-
-
-#### - puuid
-
-<b>VT_CLSID</b>
-
-
-#### - pvarVal
-
-<b>VT_BYREF</b> | <b>VT_VARIANT</b>, Version 1
-
-
-#### - pwszVal
-
-<b>VT_LPWSTR</b>
-
-
-#### - scode
-
-<b>VT_ERROR</b>
-
-
-#### - uhVal
-
-<b>VT_UI8</b>
-
-
-#### - uiVal
-
-<b>VT_UI2</b>
-
-
-#### - uintVal
-
-<b>VT_UINT</b>, Version 1
-
-
-#### - ulVal
-
-<b>VT_UI4</b>
-
-
-#### - vt
-
-Value type tag.
-
-
-#### - wReserved1
-
-Reserved for future use.
-
-
-#### - wReserved2
-
-Reserved for future use.
-
-
-#### - wReserved3
-
-Reserved for future use.
+ <b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
 
 
 ## -remarks
 
-
-
 The 
 <b>PROPVARIANT</b> structure can also hold a value of <b>VT_DECIMAL</b>:
 
-<pre class="syntax" xml:space="preserve"><code>    DECIMAL       decVal;        //VT_DECIMAL</code></pre>
+
+``` syntax
+    DECIMAL       decVal;        //VT_DECIMAL
+```
+
 However, the value of the <b>DECIMAL</b> structure requires special handling. The <b>DECIMAL</b> structure is the same size as an entire 
 <b>PROPVARIANT</b> structure and does not fit into the union that holds all other types of values. Instead, the value of the <b>DECIMAL</b> structure occupies the entire 
 <b>PROPVARIANT</b> structure, including the reserved fields and the <b>vt</b> member. However, the first member of the <b>DECIMAL</b> structure is not used and is equal in size to the <b>vt</b> member of the 
@@ -858,12 +400,14 @@ However, the value of the <b>DECIMAL</b> structure requires special handling. Th
 <b>PROPVARIANT</b> structure, the value must be loaded into the <b>decVal</b> member and the <b>vt</b> member is set to <b>VT_DECIMAL</b>, just as for any other value.
 
 <b>PROPVARIANT</b> is the fundamental data type by which property values are read and written through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
 
 The data type 
 <b>PROPVARIANT</b> is related to the data type <b>VARIANT</b>, defined as part of Automation in OLE2. Several definitions are reused from Automation, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct  tagCY {
+
+``` syntax
+typedef struct  tagCY {
     unsigned long      Lo;
     long               Hi;
     } CY;
@@ -894,26 +438,36 @@ typedef CY             CURRENCY;
 typedef short          VARIANT_BOOL;
 typedef unsigned short VARTYPE;
 typedef double         DATE;
-typedef OLECHAR*       BSTR;</code></pre>
+typedef OLECHAR*       BSTR;
+```
+
 In addition, some types are unique to the 
 <b>PROPVARIANT</b> structure:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct  tagCLIPDATA {
+
+``` syntax
+typedef struct  tagCLIPDATA {
     // cbSize is the size of the buffer pointed to 
     // by pClipData, plus sizeof(ulClipFmt)
     ULONG              cbSize;
     long               ulClipFmt;
     BYTE*              pClipData;
-    } CLIPDATA;</code></pre>
+    } CLIPDATA;
+```
+
 Among the unique 
 <b>PROPVARIANT</b> types are several data types that define counted arrays of other data types. The data types of all counted arrays begin with the letters <b>CA</b>, for example <b>CAUB</b>, and have an <b>OR</b> operator <b>vt</b> value (the VarType of the element and an <b>OR</b> operator with <b>VT_VECTOR</b>). The counted array structure has the following form (where <i>name</i> is the specific name of the counted array).
 
-<pre class="syntax" xml:space="preserve"><code>#define TYPEDEF_CA(type, name) 
+
+``` syntax
+#define TYPEDEF_CA(type, name) 
  
     typedef struct tag ## name {\
         ULONG cElems;\
         type *pElems;\
-        } name</code></pre>
+        } name
+```
+
 <table>
 <tr>
 <th>Propvariant type</th>
@@ -1105,7 +659,7 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>66</td>
 <td><b>pStream</b></td>
 <td>A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STREAMED_OBJECT</b></td>
@@ -1118,14 +672,14 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>67</td>
 <td><b>pStorage</b></td>
 <td>A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STORED_OBJECT</b></td>
 <td>69</td>
 <td><b>pStorage</b></td>
 <td>As in <b>VT_STORAGE</b>, but indicates that the designated 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> contains a loadable object.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> contains a loadable object.</td>
 </tr>
 <tr>
 <td><b>VT_VERSIONED_STREAM</b></td>
@@ -1216,16 +770,17 @@ Clipboard format identifiers, stored with the tag VT_CF, use one of five represe
 
 If the value of the <b>ulClipFmt</b> member is -1, the data is in the form of a built-in Windows format. In this case, the first <b>DWORD</b> of the buffer pointed to by <b>pClipData</b> is the clipboard format identifier, for example CF_METAFILEPICT. In the case of CF_METAFILEPCT, what follows is a variation on the <b>METAFILEPICT</b> structure (it uses <b>WORD</b>, rather than <b>DWORD</b> data types). That is, this data is in the following form:
 
-<pre class="syntax" xml:space="preserve"><code>struct PACKEDMETA
+
+``` syntax
+struct PACKEDMETA
 {
     WORD mm;
     WORD xExt;
     WORD yExt
     WORD reserved;
-};</code></pre>
+};
+```
+
 After the <b>METAFILEPICT</b> structure is the metafile data, suitable to be passed to the <b>SetMetaFileBitsEx</b> function. This function creates a memory-based, Windows-format metafile from the supplied data. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the <b>SetEnhMetaFileBits</b> function. This function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer. If the function succeeds and the buffer pointer is <b>NULL</b>, the return value is the size of the enhanced metafile in bytes. If the function succeeds and the buffer pointer is a valid pointer, the return value is the number of bytes copied to the buffer. If the function fails, the return value is zero.
 
 When register clipboard formats are placed on or retrieved from the clipboard, they must be in the form of an <b>HGLOBAL</b> value.
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptHashToBeSigned
 title: CryptHashToBeSigned function (wincrypt.h)
-description: Important  This API is deprecated.
+description: Important  This API is deprecated. (CryptHashToBeSigned)
+helpviewer_keywords: ["CryptHashToBeSigned","CryptHashToBeSigned function [Security]","_crypto2_crypthashtobesigned","security.crypthashtobesigned","wincrypt/CryptHashToBeSigned"]
 old-location: security\crypthashtobesigned.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 84477054-dd76-4dde-b465-9edeaf192714
 ms.date: 12/05/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned
-f1_keywords:
-- wincrypt/CryptHashToBeSigned
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptHashToBeSigned
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptHashToBeSigned
+ - wincrypt/CryptHashToBeSigned
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptHashToBeSigned
 ---
 
 # CryptHashToBeSigned function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashToBeSigned</b> function computes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the encoded content from a signed and encoded <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>. The hash is performed on only the "to be signed" encoded content and its signature.
-
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptHashToBeSigned</b> function computes the <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the encoded content from a signed and encoded <a href="/windows/desktop/SecGloss/c-gly">certificate</a>. The hash is performed on only the "to be signed" encoded content and its signature.
 
 ## -parameters
-
-
-
 
 ### -param hCryptProv [in]
 
 This parameter is not used and should be set to <b>NULL</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use to compute the hash.This parameter's data type is <b>HCRYPTPROV</b>.
+<b>Windows Server 2003 and Windows XP:  </b>A handle of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use to compute the hash.This parameter's data type is <b>HCRYPTPROV</b>.
 
-Unless there is a strong reason for passing in a specific cryptographic provider in <i>hCryptProv</i>, zero is passed in. Passing in zero causes the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) provider to be acquired before doing hash, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature verification</a>, or recipient <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encryption</a> operations.
-
-
-
+Unless there is a strong reason for passing in a specific cryptographic provider in <i>hCryptProv</i>, zero is passed in. Passing in zero causes the default <a href="/windows/desktop/SecGloss/r-gly">RSA</a> or <a href="/windows/desktop/SecGloss/d-gly">Digital Signature Standard</a> (DSS) provider to be acquired before doing hash, <a href="/windows/desktop/SecGloss/s-gly">signature verification</a>, or recipient <a href="/windows/desktop/SecGloss/e-gly">encryption</a> operations.
 
 ### -param dwCertEncodingType [in]
 
-Specifies the encoding type used. It is always acceptable to specify both the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the encoding type used. It is always acceptable to specify both the <a href="/windows/desktop/SecGloss/c-gly">certificate</a> and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -84,21 +78,18 @@ Currently defined encoding types are:
 ### -param pbEncoded [in]
 
 Address of a buffer that contains the content to be hashed. This is the encoded form of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>.
 
 ### -param cbEncoded [in]
 
 The size, in bytes, of the buffer.
-
 
 ### -param pbComputedHash [out]
 
 A pointer to a buffer to receive the computed hash.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbComputedHash [in, out]
 
@@ -109,18 +100,16 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 
 ## -returns
 
-
-
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>).
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> might be propagated to this function. This function has the following error codes.</div>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>, and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> might be propagated to this function. This function has the following error codes.</div>
 <div> </div>
 <table>
 <tr>
@@ -156,34 +145,24 @@ Invalid certificate encoding type. Currently only X509_ASN_ENCODING is supported
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the signature algorithm does not map to a known or supported hash algorithm.
+The <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the signature algorithm does not map to a known or supported hash algorithm.
 
 </td>
 </tr>
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
-
-
-
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashcertificate">CryptHashCertificate</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo">CryptHashPublicKeyInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashpublickeyinfo">CryptHashPublicKeyInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

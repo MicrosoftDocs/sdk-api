@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetCount
 title: IXpsOMDictionary::GetCount (xpsobjectmodel.h)
 description: Gets the number of entries in the dictionary.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMDictionary interface","IXpsOMDictionary interface [XPS Documents and Packaging]","GetCount method","IXpsOMDictionary.GetCount","IXpsOMDictionary::GetCount","xps.ixpsomdictionary_getcount","xpsobjectmodel/IXpsOMDictionary::GetCount"]
 old-location: xps\ixpsomdictionary_getcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 66737d94-aa63-4f01-a446-1dffc18e8b82
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetCount method, IXpsOMDictionary.GetCount, IXpsOMDictionary::GetCount, xps.ixpsomdictionary_getcount, xpsobjectmodel/IXpsOMDictionary::GetCount
-f1_keywords:
-- xpsobjectmodel/IXpsOMDictionary.GetCount
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMDictionary.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMDictionary::GetCount
+ - xpsobjectmodel/IXpsOMDictionary::GetCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMDictionary.GetCount
 ---
 
 # IXpsOMDictionary::GetCount
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of entries in the dictionary.
 
-
 ## -parameters
-
-
-
 
 ### -param count [out, retval]
 
 The number of entries in the  dictionary.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary">IXpsOMDictionary</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

@@ -2,15 +2,12 @@
 UID: NS:winuser.tagWINDOWPOS
 title: WINDOWPOS (winuser.h)
 description: Contains information about the size and position of a window.
+helpviewer_keywords: ["*LPWINDOWPOS","*PWINDOWPOS","LPWINDOWPOS","LPWINDOWPOS structure pointer [Windows and Messages]","PWINDOWPOS","PWINDOWPOS structure pointer [Windows and Messages]","SWP_ NOOWNERZORDER","SWP_DRAWFRAME","SWP_FRAMECHANGED","SWP_HIDEWINDOW","SWP_NOACTIVATE","SWP_NOCOPYBITS","SWP_NOMOVE","SWP_NOREDRAW","SWP_NOREPOSITION","SWP_NOSENDCHANGING","SWP_NOSIZE","SWP_NOZORDER","SWP_SHOWWINDOW","WINDOWPOS","WINDOWPOS structure [Windows and Messages]","_win32_WINDOWPOS_str","_win32_windowpos_str_cpp","winmsg.windowpos","winui._win32_windowpos_str","winuser/LPWINDOWPOS","winuser/PWINDOWPOS","winuser/WINDOWPOS"]
 old-location: winmsg\windowpos.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowpos.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPWINDOWPOS, *PWINDOWPOS, LPWINDOWPOS, LPWINDOWPOS structure pointer [Windows and Messages], PWINDOWPOS, PWINDOWPOS structure pointer [Windows and Messages], SWP_ NOOWNERZORDER, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, WINDOWPOS, WINDOWPOS structure [Windows and Messages], _win32_WINDOWPOS_str, _win32_windowpos_str_cpp, winmsg.windowpos, winui._win32_windowpos_str, winuser/LPWINDOWPOS, winuser/PWINDOWPOS, winuser/WINDOWPOS'
-f1_keywords:
-- winuser/WINDOWPOS
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- WINDOWPOS
 targetos: Windows
 req.typenames: WINDOWPOS, *LPWINDOWPOS, *PWINDOWPOS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWINDOWPOS
+ - winuser/tagWINDOWPOS
+ - LPWINDOWPOS
+ - winuser/LPWINDOWPOS
+ - WINDOWPOS
+ - winuser/WINDOWPOS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - WINDOWPOS
 ---
 
 # WINDOWPOS structure
@@ -48,56 +54,45 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the size and position of a window. 
-
+Contains information about the size and position of a window.
 
 ## -struct-fields
-
-
-
 
 ### -field hwndInsertAfter
 
 Type: <b>HWND</b>
 
-The position of the window in Z order (front-to-back position). This member can be a handle to the window behind which this window is placed, or can be one of the special values listed with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function. 
-
+The position of the window in Z order (front-to-back position). This member can be a handle to the window behind which this window is placed, or can be one of the special values listed with the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
 
 ### -field hwnd
 
 Type: <b>HWND</b>
 
-A handle to the window. 
-
+A handle to the window.
 
 ### -field x
 
 Type: <b>int</b>
 
-The position of the left edge of the window. 
-
+The position of the left edge of the window.
 
 ### -field y
 
 Type: <b>int</b>
 
-The position of the top edge of the window. 
-
+The position of the top edge of the window.
 
 ### -field cx
 
 Type: <b>int</b>
 
-The window width, in pixels. 
-
+The window width, in pixels.
 
 ### -field cy
 
 Type: <b>int</b>
 
-The window height, in pixels. 
-
+The window height, in pixels.
 
 ### -field flags
 
@@ -128,7 +123,7 @@ Draws a frame (defined in the window's class description) around the window. Sam
 </dl>
 </td>
 <td width="60%">
-Sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
+Sends a <a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
 
 </td>
 </tr>
@@ -221,7 +216,7 @@ Does not change the owner window's position in the Z order. Same as the <b>SWP_N
 </td>
 <td width="60%">
 Prevents the window from receiving the 
-						<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> message.
+						<a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> message.
 
 </td>
 </tr>
@@ -262,19 +257,14 @@ Displays the window.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
 
 
 
@@ -282,16 +272,12 @@ Displays the window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a>
+<a href="/windows/desktop/winmsg/wm-nccalcsize">WM_NCCALCSIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

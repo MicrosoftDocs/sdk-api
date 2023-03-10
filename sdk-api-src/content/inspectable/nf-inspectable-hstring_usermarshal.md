@@ -1,16 +1,13 @@
 ---
 UID: NF:inspectable.HSTRING_UserMarshal
 title: HSTRING_UserMarshal function (inspectable.h)
-description: Marshals an HSTRING object into the RPC buffer.
+description: The HSTRING_UserMarshal function (inspectable.h) marshals an HSTRING object into the RPC buffer.
+helpviewer_keywords: ["HSTRING_UserMarshal","HSTRING_UserMarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserMarshal","winrt.hstring_usermarshal"]
 old-location: winrt\hstring_usermarshal.htm
 tech.root: WinRT
 ms.assetid: 986942D6-A1CD-4BED-9AD3-82FB4892E28E
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
-f1_keywords:
-- inspectable/HSTRING_UserMarshal
-dev_langs:
-- c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -28,85 +25,50 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- HSTRING_UserMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HSTRING_UserMarshal
+ - inspectable/HSTRING_UserMarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - HSTRING_UserMarshal
 ---
-
-# HSTRING_UserMarshal function
-
 
 ## -description
 
-
-Marshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object into the RPC buffer.
-
+Marshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object into the RPC buffer.
 
 ## -parameters
 
-
-
-
-### -param arg1
-
-TBD
-
-
-### -param arg2
-
-TBD
-
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - pBuffer [in, out]
-
-The current buffer. This pointer may or may not be aligned on entry.
-
-
-#### - pFlags [in]
+### -param unnamedParam1
 
 The data used by RPC.
 
+### -param unnamedParam2
 
-#### - ppidl [in]
+The current buffer. This pointer may or may not be aligned on entry.
+
+### -param unnamedParam3
 
 The string.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
- 
-
- 
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

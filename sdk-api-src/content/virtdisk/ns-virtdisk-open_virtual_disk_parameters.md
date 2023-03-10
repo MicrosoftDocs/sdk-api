@@ -2,15 +2,12 @@
 UID: NS:virtdisk._OPEN_VIRTUAL_DISK_PARAMETERS
 title: OPEN_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 description: Contains virtual disk open request parameters.
+helpviewer_keywords: ["*POPEN_VIRTUAL_DISK_PARAMETERS","OPEN_VIRTUAL_DISK_PARAMETERS","OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD]","OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT","OPEN_VIRTUAL_DISK_VERSION_1","OPEN_VIRTUAL_DISK_VERSION_2","POPEN_VIRTUAL_DISK_PARAMETERS","POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD]","_OPEN_VIRTUAL_DISK_PARAMETERS","vdssys/OPEN_VIRTUAL_DISK_PARAMETERS","vdssys/POPEN_VIRTUAL_DISK_PARAMETERS","vhd.open_virtual_disk_parameters","virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS","virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS"]
 old-location: vhd\open_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: ad67bc3e-a0fe-4198-9307-819577abef7f
-ms.date: 12/05/2018
+ms.date: 08/19/2020
 ms.keywords: '*POPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS, OPEN_VIRTUAL_DISK_PARAMETERS structure [VHD], OPEN_VIRTUAL_DISK_RW_DEPTH_DEFAULT, OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, POPEN_VIRTUAL_DISK_PARAMETERS, POPEN_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/OPEN_VIRTUAL_DISK_PARAMETERS, vdssys/POPEN_VIRTUAL_DISK_PARAMETERS, vhd.open_virtual_disk_parameters, virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS, virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS'
-f1_keywords:
-- virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VirtDisk.h
-- vdssys.h
-api_name:
-- OPEN_VIRTUAL_DISK_PARAMETERS
 targetos: Windows
 req.typenames: OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OPEN_VIRTUAL_DISK_PARAMETERS
+ - virtdisk/_OPEN_VIRTUAL_DISK_PARAMETERS
+ - POPEN_VIRTUAL_DISK_PARAMETERS
+ - virtdisk/POPEN_VIRTUAL_DISK_PARAMETERS
+ - OPEN_VIRTUAL_DISK_PARAMETERS
+ - virtdisk/OPEN_VIRTUAL_DISK_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VirtDisk.h
+ - vdssys.h
+api_name:
+ - OPEN_VIRTUAL_DISK_PARAMETERS
 ---
 
 # OPEN_VIRTUAL_DISK_PARAMETERS structure
@@ -49,18 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains virtual disk open request parameters.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Version
 
-An <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_version">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
+An <a href="/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_version">OPEN_VIRTUAL_DISK_VERSION</a> enumeration 
       that specifies the version of the 
       <b>OPEN_VIRTUAL_DISK_PARAMETERS</b> structure 
       being passed to or from the VHD functions.
@@ -93,14 +94,11 @@ Use the <b>Version2</b> member of this structure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Version1
 
 This structure is used if the <b>Version</b> member is 
        <b>OPEN_VIRTUAL_DISK_VERSION_1</b> (1).
-
 
 ### -field Version1.RWDepth
 
@@ -148,8 +146,6 @@ This integer value should be the number of merge levels plus one, if a merge ope
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Version2
 
@@ -158,64 +154,48 @@ This structure is used if the <b>Version</b> member is
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This structure is not supported until Windows 8 and Windows Server 2012.
 
-
 ### -field Version2.GetInfoOnly
 
 If <b>TRUE</b>, indicates the handle is only to be used to get information on the virtual disk.
 
-
 ### -field Version2.ReadOnly
 
 If <b>TRUE</b>, indicates the file backing store is to be opened as read-only.
-
 
 ### -field Version2.ResiliencyGuid
 
 Resiliency <b>GUID</b> to specify when opening files.
 
 
-### -field Version3
+> [!NOTE]
+> The following parameters prefaced Version3 are intended for internal use.
 
- 
+## -syntax
 
-
-### -field Version3.GetInfoOnly
-
- 
-
-
-### -field Version3.ReadOnly
-
- 
-
-
-### -field Version3.ResiliencyGuid
-
- 
-
-
-### -field Version3.SnapshotId
-
- 
-
-
-
+```cpp
+typedef struct _OPEN_VIRTUAL_DISK_PARAMETERS {
+  OPEN_VIRTUAL_DISK_VERSION Version;
+  union {
+    struct {
+      ULONG RWDepth;
+    } Version1;
+    struct {
+      BOOL GetInfoOnly;
+      BOOL ReadOnly;
+      GUID ResiliencyGuid;
+    } Version2;
+  };
+} OPEN_VIRTUAL_DISK_PARAMETERS, *POPEN_VIRTUAL_DISK_PARAMETERS;
+```
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IMDSPStorage4.CreateStorageWithMetadata
 title: IMDSPStorage4::CreateStorageWithMetadata (mswmdm.h)
 description: The CreateStorageWithMetadata method creates a new storage, applying the given metadata to the new storage, and returns a pointer to the IMDSPStorage interface on the newly created storage.
+helpviewer_keywords: ["CreateStorageWithMetadata","CreateStorageWithMetadata method [windows Media Device Manager]","CreateStorageWithMetadata method [windows Media Device Manager]","IMDSPStorage4 interface","IMDSPStorage4 interface [windows Media Device Manager]","CreateStorageWithMetadata method","IMDSPStorage4.CreateStorageWithMetadata","IMDSPStorage4::CreateStorageWithMetadata","IMDSPStorage4CreateStorageWithMetadata","mswmdm/IMDSPStorage4::CreateStorageWithMetadata","wmdm.imdspstorage4_createstoragewithmetadata"]
 old-location: wmdm\imdspstorage4_createstoragewithmetadata.htm
 tech.root: WMDM
 ms.assetid: 493eb6f1-fc06-4b37-803f-a81219e9f819
 ms.date: 12/05/2018
 ms.keywords: CreateStorageWithMetadata, CreateStorageWithMetadata method [windows Media Device Manager], CreateStorageWithMetadata method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],CreateStorageWithMetadata method, IMDSPStorage4.CreateStorageWithMetadata, IMDSPStorage4::CreateStorageWithMetadata, IMDSPStorage4CreateStorageWithMetadata, mswmdm/IMDSPStorage4::CreateStorageWithMetadata, wmdm.imdspstorage4_createstoragewithmetadata
-f1_keywords:
-- mswmdm/IMDSPStorage4.CreateStorageWithMetadata
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPStorage4.CreateStorageWithMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorage4::CreateStorageWithMetadata
+ - mswmdm/IMDSPStorage4::CreateStorageWithMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPStorage4.CreateStorageWithMetadata
 ---
 
 # IMDSPStorage4::CreateStorageWithMetadata
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>CreateStorageWithMetadata</b> method creates a new storage, applying the given metadata to the new storage, and returns a pointer to the <b>IMDSPStorage</b> interface on the newly created storage. The new storage can be created at the same level or can be inserted into the current storage.
 
 
 
 This method is useful if the device needs metadata at creation time. Depending upon the device it may also be more efficient to applying metadata at creation time as opposed to creating the storage and then setting metadata.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAttributes [in]
 
@@ -179,32 +175,24 @@ This method is useful if the device needs metadata at creation time. Depending u
 <td>This storage contains the default storage where new media should be placed.</td>
 </tr>
 </table>
- 
-
 
 ### -param pwszName [in]
 
 Pointer to a wide-character, null-terminated string containing a name for the new storage.
 
-
 ### -param pMetadata [in]
 
 Pointer to an <b>IWMDMMetaData</b> interface.
-
 
 ### -param qwFileSize [in]
 
 <b>Qword</b> containing the file size.
 
-
 ### -param ppNewStorage [out]
 
 Pointer to an <b>IMDSPStorage</b> pointer to receive the <b>IMDSPStorage</b> interface for the newly created storage.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -213,18 +201,13 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-
-
 This method is useful if metadata needs to be applied to storage at the creation time. In contrast, the <b>IMDSPStorage2::CreateStorage2</b> and <b>IMDSPStorage::CreateStorage</b> methods do not provide a way for supplying metadata at creation time.
 
-If service provider for a device that can synchronize with Windows Media Player supports this interface, Windows Media Device Manager calls this method during <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">Insert</a>/2/3 operations.
+If service provider for a device that can synchronize with Windows Media Player supports this interface, Windows Media Device Manager calls this method during <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">Insert</a>/2/3 operations.
 
 If both the WMDM_FILE_ATTR_FOLDER and WMDM_FILE_ATTR_FILE attributes are set, the folder attribute overrides the file attribute, and the new storage is created as a folder.
 
@@ -236,28 +219,18 @@ WMDM_STORAGECONTROL_INSERTBEFORE and WMDM_STORAGECONTROL_INSERAFTER imply an ord
 
 WMDM_STORAGECONTROL_INSERTINTO is valid only if the current storage is a folder. If the current storage is a file and this flag is specified, the operation fails.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-createstorage">IMDSPStorage::CreateStorage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-createstorage">IMDSPStorage::CreateStorage</a>

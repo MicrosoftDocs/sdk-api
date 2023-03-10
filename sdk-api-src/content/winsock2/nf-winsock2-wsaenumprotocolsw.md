@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.WSAEnumProtocolsW
 title: WSAEnumProtocolsW function (winsock2.h)
-description: The WSAEnumProtocols function retrieves information about available transport protocols.
+description: The WSAEnumProtocols function retrieves information about available transport protocols. (Unicode)
+helpviewer_keywords: ["WSAEnumProtocols", "WSAEnumProtocols function [Winsock]", "WSAEnumProtocolsW", "_win32_wsaenumprotocols_2", "winsock.wsaenumprotocols_2", "winsock2/WSAEnumProtocols", "winsock2/WSAEnumProtocolsW"]
 old-location: winsock\wsaenumprotocols_2.htm
 tech.root: WinSock
 ms.assetid: 928b6937-41a3-4268-a3bc-14c9e04870e4
 ms.date: 12/05/2018
 ms.keywords: WSAEnumProtocols, WSAEnumProtocols function [Winsock], WSAEnumProtocolsA, WSAEnumProtocolsW, _win32_wsaenumprotocols_2, winsock.wsaenumprotocols_2, winsock2/WSAEnumProtocols, winsock2/WSAEnumProtocolsA, winsock2/WSAEnumProtocolsW
-f1_keywords:
-- winsock2/WSAEnumProtocols
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAEnumProtocols
-- WSAEnumProtocolsA
-- WSAEnumProtocolsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAEnumProtocolsW
+ - winsock2/WSAEnumProtocolsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAEnumProtocols
+ - WSAEnumProtocolsA
+ - WSAEnumProtocolsW
 ---
 
 # WSAEnumProtocolsW function
@@ -50,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAEnumProtocols</b> function retrieves information about available transport protocols.
 
-
 ## -parameters
-
-
-
 
 ### -param lpiProtocols [in]
 
-A <b>NULLl</b>-terminated array of iProtocol values. This parameter is optional; if <i>lpiProtocols</i> is <b>NULL</b>, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
-
+A <b>NULL</b>-terminated array of iProtocol values. This parameter is optional; if <i>lpiProtocols</i> is <b>NULL</b>, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
 
 ### -param lpProtocolBuffer [out]
 
 A pointer to a buffer that is filled with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures.
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures.
 
 ### -param lpdwBufferLength [in, out]
 
@@ -77,14 +72,11 @@ On input, number of bytes in the <i>lpProtocolBuffer</i> buffer passed to
 <b>WSAEnumProtocols</b>. On output, the minimum buffer size that can be passed to 
 <b>WSAEnumProtocols</b> to retrieve all the requested information. This routine has no ability to enumerate over multiple calls; the passed-in buffer must be large enough to hold all entries in order for the routine to succeed. This reduces the complexity of the API and should not pose a problem because the number of protocols loaded on a computer is typically small.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>WSAEnumProtocols</b> returns the number of protocols to be reported. Otherwise, a value of SOCKET_ERROR is returned and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -94,19 +86,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -117,7 +109,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -128,7 +120,7 @@ A blocking Windows Sockets 1.1 call is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -139,19 +131,19 @@ Indicates that one of the specified parameters was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The buffer length was too small to receive all the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures and associated information. Pass in a buffer at least as large as the value returned in <i>lpdwBufferLength</i>.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures and associated information. Pass in a buffer at least as large as the value returned in <i>lpdwBufferLength</i>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -160,32 +152,26 @@ One or more of the <i>lpiProtocols</i>, <i>lpProtocolBuffer</i>, or <i>lpdwBuffe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>WSAEnumProtocols</b> function is used to discover information about the collection of transport protocols installed on the local computer. Layered protocols are only usable by applications when installed in protocol chains. Information on layered protocols is not returned except for any dummy layered service providers (LSPs) installed with a chain length of zero in the  <i>lpProtocolBuffer</i>. 
 
-<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div>
+<div class="alert"><b>Note</b>  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div>
 <div> </div>
 The <i>lpiProtocols</i> parameter can be used as a filter to constrain the amount of information provided. Often, <i>lpiProtocols</i> will be specified as a <b>NULL</b> pointer that will cause the function to return information on all available transport protocols and protocol chains.
 
 The 
-<b>WSAEnumProtocols</b> function differs from the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> functions in that 
-the <b>WSAEnumProtocols</b> function doesn't return <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures for all installed protocols. The <b>WSAEnumProtocols</b> function excludes protocols that the service provider has set with the <b>PFL_HIDDEN</b> flag in the <b>dwProviderFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure to indicate to the Ws2_32.dll that this protocol should not be returned in the result buffer generated by <b>WSAEnumProtocols</b> function.  In addition, the <b>WSAEnumProtocols</b> function does not return data for <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures that have a chain length of one or greater (an LSP provider).   The <b>WSAEnumProtocols</b> only returns information on base protocols and protocol chains that lack the <b>PFL_HIDDEN</b> flag  and don't have a protocol chain length of zero. 
+<b>WSAEnumProtocols</b> function differs from the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a> and <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a> functions in that 
+the <b>WSAEnumProtocols</b> function doesn't return <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures for all installed protocols. The <b>WSAEnumProtocols</b> function excludes protocols that the service provider has set with the <b>PFL_HIDDEN</b> flag in the <b>dwProviderFlags</b> member of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure to indicate to the Ws2_32.dll that this protocol should not be returned in the result buffer generated by <b>WSAEnumProtocols</b> function.  In addition, the <b>WSAEnumProtocols</b> function does not return data for <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures that have a chain length of one or greater (an LSP provider).   The <b>WSAEnumProtocols</b> only returns information on base protocols and protocol chains that lack the <b>PFL_HIDDEN</b> flag  and don't have a protocol chain length of zero. 
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure is provided in the buffer pointed to by <i>lpProtocolBuffer</i> for each requested protocol. If the specified buffer is not large enough (as indicated by the input value of <i>lpdwBufferLength</i> ), the value pointed to by <i>lpdwBufferLength</i> will be updated to indicate the required buffer size. The application should then obtain a large enough buffer and call 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure is provided in the buffer pointed to by <i>lpProtocolBuffer</i> for each requested protocol. If the specified buffer is not large enough (as indicated by the input value of <i>lpdwBufferLength</i> ), the value pointed to by <i>lpdwBufferLength</i> will be updated to indicate the required buffer size. The application should then obtain a large enough buffer and call 
 <b>WSAEnumProtocols</b> again.
 
 The order in which the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures appear in the buffer coincides with the order in which the protocol entries were registered by the service provider using the WS2_32.DLL, or with any subsequent reordering that occurred through the Windows Sockets application or DLL supplied for establishing default TCP/IP providers.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures appear in the buffer coincides with the order in which the protocol entries were registered by the service provider using the WS2_32.DLL, or with any subsequent reordering that occurred through the Windows Sockets application or DLL supplied for establishing default TCP/IP providers.
 
 <b>Windows Phone 8:</b> The <b>WSAEnumProtocolsW</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -194,7 +180,7 @@ The order in which the
 
 #### Examples
 
-The following example demonstrates the use of the <b>WSAEnumProtocols</b> function to retrieve an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures for available transport protocols.
+The following example demonstrates the use of the <b>WSAEnumProtocols</b> function to retrieve an array of <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structures for available transport protocols.
 
 
 ```cpp
@@ -369,29 +355,26 @@ int wmain()
 
 
 
+
+> [!NOTE]
+> The winsock2.h header defines WSAEnumProtocols as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAPROTOCOL_INFO</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

@@ -2,15 +2,12 @@
 UID: NE:uxtheme._BP_BUFFERFORMAT
 title: BP_BUFFERFORMAT (uxtheme.h)
 description: Specifies the format of the buffer. Used by BeginBufferedAnimation and BeginBufferedPaint.
+helpviewer_keywords: ["BPBF_COMPATIBLEBITMAP","BPBF_DIB","BPBF_TOPDOWNDIB","BPBF_TOPDOWNMONODIB","BP_BUFFERFORMAT","BP_BUFFERFORMAT enumeration [Windows Controls]","_shell_BP_BUFFERFORMAT","_shell_BP_BUFFERFORMAT_cpp","controls.BP_BUFFERFORMAT","controls._shell_BP_BUFFERFORMAT","uxtheme/BPBF_COMPATIBLEBITMAP","uxtheme/BPBF_DIB","uxtheme/BPBF_TOPDOWNDIB","uxtheme/BPBF_TOPDOWNMONODIB","uxtheme/BP_BUFFERFORMAT"]
 old-location: controls\BP_BUFFERFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_bufferformat.htm
 ms.date: 12/05/2018
 ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONODIB, BP_BUFFERFORMAT, BP_BUFFERFORMAT enumeration [Windows Controls], _shell_BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT_cpp, controls.BP_BUFFERFORMAT, controls._shell_BP_BUFFERFORMAT, uxtheme/BPBF_COMPATIBLEBITMAP, uxtheme/BPBF_DIB, uxtheme/BPBF_TOPDOWNDIB, uxtheme/BPBF_TOPDOWNMONODIB, uxtheme/BP_BUFFERFORMAT
-f1_keywords:
-- uxtheme/BP_BUFFERFORMAT
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uxtheme.h
-api_name:
-- BP_BUFFERFORMAT
 targetos: Windows
 req.typenames: BP_BUFFERFORMAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BP_BUFFERFORMAT
+ - uxtheme/_BP_BUFFERFORMAT
+ - BP_BUFFERFORMAT
+ - uxtheme/BP_BUFFERFORMAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uxtheme.h
+api_name:
+ - BP_BUFFERFORMAT
 ---
 
 # BP_BUFFERFORMAT enumeration
@@ -48,50 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the format of the buffer. Used by <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a> and <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
-
+Specifies the format of the buffer. Used by <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a> and <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 ## -enum-fields
 
-
-
-
 ### -field BPBF_COMPATIBLEBITMAP
 
-Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a>—typically, this is the display device.
-
+Compatible bitmap. The  number of bits per pixel is based on the color format of the device associated with the HDC specified with <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a> or <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedanimation">BeginBufferedAnimation</a>—typically, this is the display device.
 
 ### -field BPBF_DIB
 
 Bottom-up device-independent bitmap. The origin of the bitmap is the lower-left corner. Uses 32 bits per pixel.
 
-
 ### -field BPBF_TOPDOWNDIB
 
 Top-down device-independent bitmap. The origin of the bitmap is the upper-left corner. Uses 32 bits per pixel.
-
 
 ### -field BPBF_TOPDOWNMONODIB
 
 Top-down, monochrome, device-independent bitmap. Uses 1 bit per pixel.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>
+<a href="/windows/desktop/gdi/device-independent-bitmaps">Device-Independent Bitmaps</a>
 
 
 
 <b>Other Resources</b>
- 
-
- 
-

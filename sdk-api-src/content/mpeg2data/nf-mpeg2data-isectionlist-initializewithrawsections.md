@@ -2,15 +2,12 @@
 UID: NF:mpeg2data.ISectionList.InitializeWithRawSections
 title: ISectionList::InitializeWithRawSections (mpeg2data.h)
 description: The InitializeWithRawSections method initializes the object with raw section data. This method allows for custom processing of section data.
+helpviewer_keywords: ["ISectionList interface [Microsoft TV Technologies]","InitializeWithRawSections method","ISectionList.InitializeWithRawSections","ISectionList::InitializeWithRawSections","ISectionListInitializeWithRawSections","InitializeWithRawSections","InitializeWithRawSections method [Microsoft TV Technologies]","InitializeWithRawSections method [Microsoft TV Technologies]","ISectionList interface","mpeg2data/ISectionList::InitializeWithRawSections","mstv.isectionlist_initializewithrawsections"]
 old-location: mstv\isectionlist_initializewithrawsections.htm
 tech.root: mstv
 ms.assetid: 61f1e99b-c375-4aa3-a11b-7e24c35f71ca
 ms.date: 12/05/2018
 ms.keywords: ISectionList interface [Microsoft TV Technologies],InitializeWithRawSections method, ISectionList.InitializeWithRawSections, ISectionList::InitializeWithRawSections, ISectionListInitializeWithRawSections, InitializeWithRawSections, InitializeWithRawSections method [Microsoft TV Technologies], InitializeWithRawSections method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::InitializeWithRawSections, mstv.isectionlist_initializewithrawsections
-f1_keywords:
-- mpeg2data/ISectionList.InitializeWithRawSections
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- ISectionList.InitializeWithRawSections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISectionList::InitializeWithRawSections
+ - mpeg2data/ISectionList::InitializeWithRawSections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - ISectionList.InitializeWithRawSections
 ---
 
 # ISectionList::InitializeWithRawSections
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>InitializeWithRawSections</b> method initializes the object with raw section data. This method allows for custom processing of section data.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pmplSections [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_packet_list">MPEG_PACKET_LIST</a> structure that contains a list of MPEG-2 sections.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_packet_list">MPEG_PACKET_LIST</a> structure that contains a list of MPEG-2 sections.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -110,31 +101,16 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method as follows:
 
 <ol>
-<li>Get the section data by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method.</li>
+<li>Get the section data by calling the <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method.</li>
 <li>Create a new <b>SectionList</b> object and call <b>InitializeWithRawSections</b> with the section data.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>

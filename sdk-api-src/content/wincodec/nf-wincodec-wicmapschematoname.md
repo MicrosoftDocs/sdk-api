@@ -2,15 +2,12 @@
 UID: NF:wincodec.WICMapSchemaToName
 title: WICMapSchemaToName function (wincodec.h)
 description: Obtains the name associated with a given schema.
+helpviewer_keywords: ["WICMapSchemaToName","WICMapSchemaToName function [Windows Imaging Component]","_wic_codec_wicmapschematoname","wic._wic_codec_wicmapschematoname","wincodec/WICMapSchemaToName"]
 old-location: wic\_wic_codec_wicmapschematoname.htm
 tech.root: wic
 ms.assetid: 6e71b75a-a542-459c-9935-b05f3ce39217
 ms.date: 12/05/2018
 ms.keywords: WICMapSchemaToName, WICMapSchemaToName function [Windows Imaging Component], _wic_codec_wicmapschematoname, wic._wic_codec_wicmapschematoname, wincodec/WICMapSchemaToName
-f1_keywords:
-- wincodec/WICMapSchemaToName
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -25,23 +22,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: Windowscodecs.dll; Wincodec.lib
+req.lib: Windowscodecs.lib
+req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Windowscodecs.dll
-- Wincodec.lib
-api_name:
-- WICMapSchemaToName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICMapSchemaToName
+ - wincodec/WICMapSchemaToName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Windowscodecs.dll
+ - Windowscodecs.lib
+api_name:
+ - WICMapSchemaToName
 ---
 
 # WICMapSchemaToName function
@@ -49,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Obtains the name associated with a given schema.
-
 
 ## -parameters
 
-
-
-
 ### -param guidMetadataFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">REFGUID</a></b>
+Type: <b><a href="/windows/desktop/wic/-wic-guids-clsids">REFGUID</a></b>
 
 The metadata format GUID.
-
 
 ### -param pwzSchema [in]
 
@@ -71,13 +67,11 @@ Type: <b>LPWSTR</b>
 
 The URI string of the schema for which the name is to be retrieved.
 
-
 ### -param cchName [in]
 
 Type: <b>UINT</b>
 
 The size of the <i>wzName</i> buffer.
-
 
 ### -param wzName [in, out]
 
@@ -87,33 +81,24 @@ A pointer to a buffer that receives the schema's name.
 
 To obtain the required buffer size, call <b>WICMapSchemaToName</b> with <i>cchName</i> set to 0 and <i>wzName</i> set to <b>NULL</b>.
 
-
 ### -param pcchActual [out]
 
 Type: <b>UINT</b>
 
 The actual buffer size needed to retrieve the entire schema name.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 You can extend the schema name mapping by adding to the following registry key:
 
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+<pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <b>{FAE3D380-FEA4-4623-8C75-C6B61110B681}</b>
          <b>Schemas</b>
@@ -121,7 +106,4 @@ You can extend the schema name mapping by adding to the following registry key:
                <b>...</b></pre>
 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled Codec</a>.
-
-
-
+For more information, see <a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled Codec</a>.

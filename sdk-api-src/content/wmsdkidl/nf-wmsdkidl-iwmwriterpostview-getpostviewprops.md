@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewProps
 title: IWMWriterPostView::GetPostViewProps (wmsdkidl.h)
 description: The GetPostViewProps method retrieves the properties for the specified output stream.
+helpviewer_keywords: ["GetPostViewProps","GetPostViewProps method [windows Media Format]","GetPostViewProps method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetPostViewProps method","IWMWriterPostView.GetPostViewProps","IWMWriterPostView::GetPostViewProps","IWMWriterPostViewGetPostViewProps","wmformat.iwmwriterpostview_getpostviewprops","wmsdkidl/IWMWriterPostView::GetPostViewProps"]
 old-location: wmformat\iwmwriterpostview_getpostviewprops.htm
 tech.root: wmformat
 ms.assetid: 39dc32d1-53e5-43b5-bc96-074dc286890e
 ms.date: 12/05/2018
 ms.keywords: GetPostViewProps, GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewProps method, IWMWriterPostView.GetPostViewProps, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
-f1_keywords:
-- wmsdkidl/IWMWriterPostView.GetPostViewProps
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPostView.GetPostViewProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPostView::GetPostViewProps
+ - wmsdkidl/IWMWriterPostView::GetPostViewProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPostView.GetPostViewProps
 ---
 
 # IWMWriterPostView::GetPostViewProps
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPostViewProps</b> method retrieves the properties for the specified output stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNumber [in]
 
 <b>WORD</b> containing the stream number.
 
-
 ### -param ppOutput [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
-
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,31 +97,15 @@ NULL value passed in to <i>ppOutput</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-An application can enumerate through the various outputs, and retrieve the output format properties for that data. Manipulating the object retrieved has no effect on the output, unless the application also calls <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setpostviewprops">SetPostViewProps</a>.
-
-
-
+An application can enumerate through the various outputs, and retrieve the output format properties for that data. Manipulating the object retrieved has no effect on the output, unless the application also calls <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setpostviewprops">SetPostViewProps</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops">IWMReader::SetOutputProps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops">IWMReader::SetOutputProps</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>

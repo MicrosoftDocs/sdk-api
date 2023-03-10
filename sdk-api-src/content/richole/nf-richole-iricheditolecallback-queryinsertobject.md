@@ -2,15 +2,12 @@
 UID: NF:richole.IRichEditOleCallback.QueryInsertObject
 title: IRichEditOleCallback::QueryInsertObject (richole.h)
 description: Queries the application as to whether an object should be inserted. The member is called when pasting and when reading Rich Text Format (RTF).
+helpviewer_keywords: ["IRichEditOleCallback interface [Windows Controls]","QueryInsertObject method","IRichEditOleCallback.QueryInsertObject","IRichEditOleCallback::QueryInsertObject","QueryInsertObject","QueryInsertObject method [Windows Controls]","QueryInsertObject method [Windows Controls]","IRichEditOleCallback interface","_win32_IRichEditOleCallback_QueryInsertObject","_win32_IRichEditOleCallback_QueryInsertObject_cpp","controls.IRichEditOleCallback_QueryInsertObject","controls._win32_IRichEditOleCallback_QueryInsertObject","richole/IRichEditOleCallback::QueryInsertObject"]
 old-location: controls\IRichEditOleCallback_QueryInsertObject.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackqueryinsertobject.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOleCallback interface [Windows Controls],QueryInsertObject method, IRichEditOleCallback.QueryInsertObject, IRichEditOleCallback::QueryInsertObject, QueryInsertObject, QueryInsertObject method [Windows Controls], QueryInsertObject method [Windows Controls],IRichEditOleCallback interface, _win32_IRichEditOleCallback_QueryInsertObject, _win32_IRichEditOleCallback_QueryInsertObject_cpp, controls.IRichEditOleCallback_QueryInsertObject, controls._win32_IRichEditOleCallback_QueryInsertObject, richole/IRichEditOleCallback::QueryInsertObject
-f1_keywords:
-- richole/IRichEditOleCallback.QueryInsertObject
-dev_langs:
-- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRichEditOleCallback.QueryInsertObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRichEditOleCallback::QueryInsertObject
+ - richole/IRichEditOleCallback::QueryInsertObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRichEditOleCallback.QueryInsertObject
 ---
 
 # IRichEditOleCallback::QueryInsertObject
@@ -48,41 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the application as to whether an object should be inserted. The member is called when pasting and when reading Rich Text Format (RTF).
 
-
 ## -parameters
-
-
-
 
 ### -param lpclsid
 
 Type: <b>LPCLSID</b>
 
-Class identifier of the object to be inserted. 
-
+Class identifier of the object to be inserted.
 
 ### -param lpstg
 
 Type: <b>LPSTORAGE</b>
 
-Storage containing the object. 
-
+Storage containing the object.
 
 ### -param cp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Character position, at which the object will be inserted. 
-
+Character position, at which the object will be inserted.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK on success. If the return value is not S_OK, the object was not inserted. If the method fails, it can return the following value.
 
@@ -103,18 +95,7 @@ There was an invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>

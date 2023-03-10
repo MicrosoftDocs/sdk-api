@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.GetMostRecentRunTime
 title: IScheduledWorkItem::GetMostRecentRunTime (mstask.h)
 description: Retrieves the most recent time the work item began running.
+helpviewer_keywords: ["GetMostRecentRunTime","GetMostRecentRunTime method [Task Scheduler]","GetMostRecentRunTime method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetMostRecentRunTime method","IScheduledWorkItem.GetMostRecentRunTime","IScheduledWorkItem::GetMostRecentRunTime","_msb_ischeduledworkitem_getmostrecentruntime","mstask/IScheduledWorkItem::GetMostRecentRunTime","taskschd.ischeduledworkitem_getmostrecentruntime"]
 old-location: taskschd\ischeduledworkitem_getmostrecentruntime.htm
 tech.root: taskschd
 ms.assetid: 38872c60-7d2b-4bfc-b771-98950ab8f40c
 ms.date: 12/05/2018
 ms.keywords: GetMostRecentRunTime, GetMostRecentRunTime method [Task Scheduler], GetMostRecentRunTime method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetMostRecentRunTime method, IScheduledWorkItem.GetMostRecentRunTime, IScheduledWorkItem::GetMostRecentRunTime, _msb_ischeduledworkitem_getmostrecentruntime, mstask/IScheduledWorkItem::GetMostRecentRunTime, taskschd.ischeduledworkitem_getmostrecentruntime
-f1_keywords:
-- mstask/IScheduledWorkItem.GetMostRecentRunTime
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetMostRecentRunTime
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetMostRecentRunTime
+ - mstask/IScheduledWorkItem::GetMostRecentRunTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetMostRecentRunTime
 ---
 
 # IScheduledWorkItem::GetMostRecentRunTime
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-Retrieves the most recent time the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a> began running.
-
+Retrieves the most recent time the <a href="/windows/desktop/TaskSchd/w">work item</a> began running.
 
 ## -parameters
-
-
-
 
 ### -param pstLastRun [out]
 
 A pointer to a <b>SYSTEMTIME</b> structure that contains the most recent time the current work item ran.
 
-
 ## -returns
-
-
 
 The 
 <b>GetMostRecentRunTime</b> method returns one of the following values.
@@ -121,22 +115,11 @@ The work item has never run.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getnextruntime">GetNextRunTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getnextruntime">GetNextRunTime</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>

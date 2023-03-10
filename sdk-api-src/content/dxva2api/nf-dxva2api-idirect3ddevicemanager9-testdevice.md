@@ -2,15 +2,12 @@
 UID: NF:dxva2api.IDirect3DDeviceManager9.TestDevice
 title: IDirect3DDeviceManager9::TestDevice (dxva2api.h)
 description: Tests whether a Direct3D device handle is valid.
+helpviewer_keywords: ["IDirect3DDeviceManager9 interface [Media Foundation]","TestDevice method","IDirect3DDeviceManager9.TestDevice","IDirect3DDeviceManager9::TestDevice","TestDevice","TestDevice method [Media Foundation]","TestDevice method [Media Foundation]","IDirect3DDeviceManager9 interface","dxva2api/IDirect3DDeviceManager9::TestDevice","e97acc5d-1b6a-43ae-a057-9c650d7126ab","mf.idirect3ddevicemanager9_testdevice"]
 old-location: mf\idirect3ddevicemanager9_testdevice.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e97acc5d-1b6a-43ae-a057-9c650d7126ab
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],TestDevice method, IDirect3DDeviceManager9.TestDevice, IDirect3DDeviceManager9::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::TestDevice, e97acc5d-1b6a-43ae-a057-9c650d7126ab, mf.idirect3ddevicemanager9_testdevice
-f1_keywords:
-- dxva2api/IDirect3DDeviceManager9.TestDevice
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirect3DDeviceManager9.TestDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDeviceManager9::TestDevice
+ - dxva2api/IDirect3DDeviceManager9::TestDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirect3DDeviceManager9.TestDevice
 ---
 
 # IDirect3DDeviceManager9::TestDevice
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Tests whether a Direct3D device handle is valid.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param hDevice [in]
 
-Handle to a Direct3D device. To get a device handle, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">IDirect3DDeviceManager9::OpenDeviceHandle</a>.
-
+Handle to a Direct3D device. To get a device handle, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">IDirect3DDeviceManager9::OpenDeviceHandle</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -108,31 +101,15 @@ The device handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the method returns DXVA2_E_NEW_VIDEO_DEVICE, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-closedevicehandle">IDirect3DDeviceManager9::CloseDeviceHandle</a> to close the handle and then call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">OpenDeviceHandle</a> again to get a new handle. The <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a> method invalidates all open device handles.
-
-
-
+If the method returns DXVA2_E_NEW_VIDEO_DEVICE, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-closedevicehandle">IDirect3DDeviceManager9::CloseDeviceHandle</a> to close the handle and then call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-opendevicehandle">OpenDeviceHandle</a> again to get a new handle. The <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-resetdevice">IDirect3DDeviceManager9::ResetDevice</a> method invalidates all open device handles.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-device-manager">Direct3D Device Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a>

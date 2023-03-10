@@ -2,15 +2,12 @@
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateAssessment
 title: IInitiateWinSATAssessment::InitiateAssessment (winsatcominterfacei.h)
 description: Initiates an ad hoc assessment.
+helpviewer_keywords: ["IInitiateWinSATAssessment interface [WinSAT]","InitiateAssessment method","IInitiateWinSATAssessment.InitiateAssessment","IInitiateWinSATAssessment::InitiateAssessment","InitiateAssessment","InitiateAssessment method [WinSAT]","InitiateAssessment method [WinSAT]","IInitiateWinSATAssessment interface","winsat.iinitiatewinsatassessment_initiateassessment","winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment"]
 old-location: winsat\iinitiatewinsatassessment_initiateassessment.htm
 tech.root: WinSAT
 ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
 ms.date: 12/05/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
-f1_keywords:
-- winsatcominterfacei/IInitiateWinSATAssessment.InitiateAssessment
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IInitiateWinSATAssessment.InitiateAssessment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitiateWinSATAssessment::InitiateAssessment
+ - winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IInitiateWinSATAssessment.InitiateAssessment
 ---
 
 # IInitiateWinSATAssessment::InitiateAssessment
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IInitiateWinSATAssessment::InitiateAssessment may be altered or unavailable for releases after Windows 8.1.]
 
 Initiates an ad hoc assessment.
 
-
 ## -parameters
-
-
-
 
 ### -param cmdLine [in]
 
-Command-line arguments to pass to WinSAT. The command line cannot be empty. For command line usage, see <a href="https://go.microsoft.com/fwlink/p/?linkid=74613">WinSAT Command Reference</a> on Microsoft TechNet.
-
+Command-line arguments to pass to WinSAT. The command line cannot be empty. For command line usage, see <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc770542(v=ws.11)">WinSAT Command Reference</a> on Microsoft TechNet.
 
 ### -param pCallbacks [in, optional]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a> interface that you implement to receive notification when the assessment finishes or makes progress. Can be <b>NULL</b> if you do not want to receive notifications.
-
+An <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a> interface that you implement to receive notification when the assessment finishes or makes progress. Can be <b>NULL</b> if you do not want to receive notifications.
 
 ### -param callerHwnd [in, optional]
 
 The window handle of your client. The handle is used to center the WinSAT dialog boxes. If <b>NULL</b>, the dialog boxes are centered on the desktop.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,7 +91,7 @@ This following table lists some of the HRESULT values that this method returns.
 </dl>
 </td>
 <td width="60%">
-WinSAT successfully started. To determine if the assessment ran successfully, implement the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a> method and check the value of the <i>hresult</i> parameter.
+WinSAT successfully started. To determine if the assessment ran successfully, implement the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a> method and check the value of the <i>hresult</i> parameter.
 
 </td>
 </tr>
@@ -140,18 +132,12 @@ Could not find the WinSAT program where expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+You typically run an ad hoc assessment to assess one subcomponent of the computer, whereas a formal assessment assesses all subcomponents of the computer. To run a formal assessment, call the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a> method.
 
-
-You typically run an ad hoc assessment to assess one subcomponent of the computer, whereas a formal assessment assesses all subcomponents of the computer. To run a formal assessment, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a> method.
-
-Ad hoc assessments are not saved in the WinSAT data store; only formal assessments are saved in the data store (you cannot use the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a> interface to query the results). To get the results of an ad hoc assessment, include the <b>–xml</b><b> </b><i>FileName</i> argument, which  will save the results to an XML file that you can later parse.
+Ad hoc assessments are not saved in the WinSAT data store; only formal assessments are saved in the data store (you cannot use the <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a> interface to query the results). To get the results of an ad hoc assessment, include the <b>–xml</b><b> </b><i>FileName</i> argument, which  will save the results to an XML file that you can later parse.
 
 WinSAT requires administrator privileges to run. If the user does not have administrator privileges, WinSAT will display a dialog box that asks for credentials.   
 
@@ -358,25 +344,14 @@ BOOL IsKeyEvent(HANDLE hStdIn)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>

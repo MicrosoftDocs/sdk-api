@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarUI2FromCy
 title: VarUI2FromCy function (oleauto.h)
 description: Converts a currency value to an unsigned short value.
+helpviewer_keywords: ["VarUI2FromCy","VarUI2FromCy function [Automation]","_oa96_VarUI2FromCy","automat.varui2fromcy","oleauto/VarUI2FromCy"]
 old-location: automat\varui2fromcy.htm
 tech.root: automat
 ms.assetid: 0147c95b-5fd9-4ab1-9d68-62d852c8b00c
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromCy, VarUI2FromCy function [Automation], _oa96_VarUI2FromCy, automat.varui2fromcy, oleauto/VarUI2FromCy
-f1_keywords:
-- oleauto/VarUI2FromCy
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI2FromCy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI2FromCy
+ - oleauto/VarUI2FromCy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI2FromCy
 ---
 
 # VarUI2FromCy function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a currency value to an unsigned short value.
 
-
 ## -parameters
-
-
-
 
 ### -param cyIn [in]
 
 The value to convert.
 
-
 ### -param puiOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

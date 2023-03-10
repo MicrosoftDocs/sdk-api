@@ -2,15 +2,12 @@
 UID: NS:wtypesbase._COAUTHIDENTITY
 title: COAUTHIDENTITY (wtypesbase.h)
 description: Contains a user name and password.
+helpviewer_keywords: ["COAUTHIDENTITY","COAUTHIDENTITY structure [COM]","SEC_WINNT_AUTH_IDENTITY_ANSI","SEC_WINNT_AUTH_IDENTITY_UNICODE","_COAUTHIDENTITY","_com_COAUTHIDENTITY","com.coauthidentity","wtypesbase/COAUTHIDENTITY"]
 old-location: com\coauthidentity.htm
 tech.root: com
 ms.assetid: ce14f8a6-0495-491a-a5c7-de7c1d3efd95
 ms.date: 12/05/2018
 ms.keywords: COAUTHIDENTITY, COAUTHIDENTITY structure [COM], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _COAUTHIDENTITY, _com_COAUTHIDENTITY, com.coauthidentity, wtypesbase/COAUTHIDENTITY
-f1_keywords:
-- wtypesbase/COAUTHIDENTITY
-dev_langs:
-- c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wtypesbase.h
-api_name:
-- COAUTHIDENTITY
 targetos: Windows
 req.typenames: COAUTHIDENTITY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _COAUTHIDENTITY
+ - wtypesbase/_COAUTHIDENTITY
+ - COAUTHIDENTITY
+ - wtypesbase/COAUTHIDENTITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wtypesbase.h
+api_name:
+ - COAUTHIDENTITY
 ---
 
 # COAUTHIDENTITY structure
@@ -48,44 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains a user name and password.
 
-
 ## -struct-fields
-
-
-
 
 ### -field User
 
 The user's name.
 
-
 ### -field UserLength
 
-The length of the <b>User</b> string, without the terminating <b>NULL</b>. 
-
+The length of the <b>User</b> string, without the terminating <b>NULL</b>.
 
 ### -field Domain
 
 The domain or workgroup name.
 
-
 ### -field DomainLength
 
-The length of the <b>Domain</b> string, without the terminating <b>NULL</b>. 
-
+The length of the <b>Domain</b> string, without the terminating <b>NULL</b>.
 
 ### -field Password
 
 The user's password in the domain or workgroup.
 
-
 ### -field PasswordLength
 
 The length of the <b>Password</b> string, without the terminating <b>NULL</b>.
-
 
 ### -field Flags
 
@@ -119,28 +112,14 @@ The strings are Unicode strings.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
+COM does not persist the user's password information. For applications that use passwords, please see the documentation on <a href="/windows/desktop/SecCrypto/cryptography-portal">Cryptography</a> (CryptoAPI). 
 
 
-COM does not persist the user's password information. For applications that use passwords, please see the documentation on <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-portal">Cryptography</a> (CryptoAPI). 
-
-
-This structure is equivalenet to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure.
-
-
-
+This structure is equivalent to the <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo">COAUTHINFO</a>

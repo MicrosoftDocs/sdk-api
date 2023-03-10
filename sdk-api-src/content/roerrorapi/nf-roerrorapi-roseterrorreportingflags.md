@@ -2,15 +2,12 @@
 UID: NF:roerrorapi.RoSetErrorReportingFlags
 title: RoSetErrorReportingFlags function
 description: Sets the reporting behavior of Windows Runtime error functions.
+helpviewer_keywords: ["RoSetErrorReportingFlags","RoSetErrorReportingFlags function [Windows Runtime]","WinRTSetErrorReportingFlags","roerrorapi/RoSetErrorReportingFlags","roerrorapi/WinRTSetErrorReportingFlags","winrt.roseterrorreportingflags","winrt.winrtseterrorreportingflags"]
 old-location: winrt\roseterrorreportingflags.htm
 tech.root: WinRT
 ms.assetid: 167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE
 ms.date: 12/5/2018
 ms.keywords: RoSetErrorReportingFlags, RoSetErrorReportingFlags function [Windows Runtime], WinRTSetErrorReportingFlags, roerrorapi/RoSetErrorReportingFlags, roerrorapi/WinRTSetErrorReportingFlags, winrt.roseterrorreportingflags, winrt.winrtseterrorreportingflags
-f1_keywords:
-- roerrorapi/RoSetErrorReportingFlags
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: Roapi.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- roerrorapi.h
-- API-MS-Win-Core-WinRT-error-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-error-l1-1-1.dll
-api_name:
-- RoSetErrorReportingFlags
-- WinRTSetErrorReportingFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - RoSetErrorReportingFlags
+ - roerrorapi/RoSetErrorReportingFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - roerrorapi.h
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+ - RoSetErrorReportingFlags
+ - WinRTSetErrorReportingFlags
 ---
 
 # RoSetErrorReportingFlags function
@@ -51,25 +53,17 @@ req.redist:
 
 ## -description
 
-
 Sets the reporting behavior of Windows Runtime error functions.
 
-
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
 Type: <b>UINT32</b>
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a> values.
-
+A bitmask of <a href="/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a> values.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -103,43 +97,27 @@ The  error-reporting behavior was set successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Get the current reporting behavior of   Windows Runtime error functions by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a> function.
-
-
-
+Get the current reporting behavior of   Windows Runtime error functions by calling the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>

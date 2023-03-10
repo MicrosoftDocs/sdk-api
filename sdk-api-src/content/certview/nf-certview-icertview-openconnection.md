@@ -2,15 +2,12 @@
 UID: NF:certview.ICertView.OpenConnection
 title: ICertView::OpenConnection (certview.h)
 description: Establishes a connection with a Certificate Services server.
+helpviewer_keywords: ["CCertView object [Security]","OpenConnection method","ICertView interface [Security]","OpenConnection method","ICertView.OpenConnection","ICertView2 interface [Security]","OpenConnection method","ICertView2::OpenConnection","ICertView::OpenConnection","OpenConnection","OpenConnection method [Security]","OpenConnection method [Security]","CCertView object","OpenConnection method [Security]","ICertView interface","OpenConnection method [Security]","ICertView2 interface","certview/ICertView2::OpenConnection","certview/ICertView::OpenConnection","security.icertview2_openconnection"]
 old-location: security\icertview2_openconnection.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 576af4d1-88c9-40e3-9438-9fefd483be7a
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],OpenConnection method, ICertView interface [Security],OpenConnection method, ICertView.OpenConnection, ICertView2 interface [Security],OpenConnection method, ICertView2::OpenConnection, ICertView::OpenConnection, OpenConnection, OpenConnection method [Security], OpenConnection method [Security],CCertView object, OpenConnection method [Security],ICertView interface, OpenConnection method [Security],ICertView2 interface, certview/ICertView2::OpenConnection, certview/ICertView::OpenConnection, security.icertview2_openconnection
-f1_keywords:
-- certview/ICertView2.OpenConnection
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertView2.OpenConnection
-- ICertView.OpenConnection
-- CCertView.OpenConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertView::OpenConnection
+ - certview/ICertView::OpenConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertView2.OpenConnection
+ - ICertView.OpenConnection
+ - CCertView.OpenConnection
 ---
 
 # ICertView::OpenConnection
@@ -50,39 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OpenConnection</b> method establishes a connection with a Certificate Services server.
-
 
 ## -parameters
 
-
-
-
 ### -param strConfig [in]
 
-Represents a valid configuration string for the Certificate Services server. The configuration string is in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the server's network name, and CANAME is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
-
+Represents a valid configuration string for the Certificate Services server. The configuration string is in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the server's network name, and CANAME is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-
-
 Upon successful completion of this method, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> object will have a connection to the Certificate Services server specified in the  <i>strConfig</i> parameter.
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a> object will have a connection to the Certificate Services server specified in the  <i>strConfig</i> parameter.
 
  To close the connection, call the <b>Release</b> function.
 
@@ -136,29 +125,18 @@ error:
     CoUninitialize();
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openview">ICertView::OpenView</a>

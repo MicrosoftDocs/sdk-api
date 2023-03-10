@@ -2,15 +2,12 @@
 UID: NS:commctrl.tagTBADDBITMAP
 title: TBADDBITMAP (commctrl.h)
 description: Adds a bitmap that contains button images to a toolbar.
+helpviewer_keywords: ["*LPTBADDBITMAP","IDB_HIST_DISABLED","IDB_HIST_HOT","IDB_HIST_NORMAL","IDB_HIST_PRESSED","IDB_STD_LARGE_COLOR","IDB_STD_SMALL_COLOR","IDB_VIEW_LARGE_COLOR","IDB_VIEW_SMALL_COLOR","LPTBADDBITMAP","LPTBADDBITMAP structure pointer [Windows Controls]","TBADDBITMAP","TBADDBITMAP structure [Windows Controls]","_win32_TBADDBITMAP","_win32_TBADDBITMAP_cpp","commctrl/LPTBADDBITMAP","commctrl/TBADDBITMAP","controls.TBADDBITMAP","controls._win32_TBADDBITMAP"]
 old-location: controls\TBADDBITMAP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbaddbitmap.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTBADDBITMAP, IDB_HIST_DISABLED, IDB_HIST_HOT, IDB_HIST_NORMAL, IDB_HIST_PRESSED, IDB_STD_LARGE_COLOR, IDB_STD_SMALL_COLOR, IDB_VIEW_LARGE_COLOR, IDB_VIEW_SMALL_COLOR, LPTBADDBITMAP, LPTBADDBITMAP structure pointer [Windows Controls], TBADDBITMAP, TBADDBITMAP structure [Windows Controls], _win32_TBADDBITMAP, _win32_TBADDBITMAP_cpp, commctrl/LPTBADDBITMAP, commctrl/TBADDBITMAP, controls.TBADDBITMAP, controls._win32_TBADDBITMAP'
-f1_keywords:
-- commctrl/TBADDBITMAP
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TBADDBITMAP
 targetos: Windows
 req.typenames: TBADDBITMAP, *LPTBADDBITMAP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTBADDBITMAP
+ - commctrl/tagTBADDBITMAP
+ - LPTBADDBITMAP
+ - commctrl/LPTBADDBITMAP
+ - TBADDBITMAP
+ - commctrl/TBADDBITMAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TBADDBITMAP
 ---
 
 # TBADDBITMAP structure
@@ -48,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a bitmap that contains button images to a toolbar.
-
 
 ## -struct-fields
 
-
-
-
 ### -field hInst
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 Handle to the module instance with the executable file that contains a bitmap resource. To use bitmap handles instead of resource IDs, set this member to <b>NULL</b>. 
 
@@ -151,27 +152,19 @@ Windows Explorer travel buttons and favorites bitmaps in pressed state.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field nID
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT_PTR</a></b>
 
 If 
-					<b>hInst</b> is <b>NULL</b>, set this member to the bitmap handle of the bitmap with the button images. Otherwise, set it to the resource identifier of the bitmap with the button images. 
-
+					<b>hInst</b> is <b>NULL</b>, set this member to the bitmap handle of the bitmap with the button images. Otherwise, set it to the resource identifier of the bitmap with the button images.
 
 ## -remarks
 
-
-
 If 
-				<b>nID</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a>. Otherwise, the toolbar is destroyed.
+				<b>nID</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a>. Otherwise, the toolbar is destroyed.
 
-Defined values can be used as indexes to the standard bitmaps. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/toolbar-standard-button-image-index-values">Toolbar Standard Button Image Index Values</a>.
+Defined values can be used as indexes to the standard bitmaps. For more information, see <a href="/windows/desktop/Controls/toolbar-standard-button-image-index-values">Toolbar Standard Button Image Index Values</a>.
 
-The <b>TBADDBITMAP</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-addbitmap">TB_ADDBITMAP</a> message.
-
-
-
+The <b>TBADDBITMAP</b> structure is used with the <a href="/windows/desktop/Controls/tb-addbitmap">TB_ADDBITMAP</a> message.

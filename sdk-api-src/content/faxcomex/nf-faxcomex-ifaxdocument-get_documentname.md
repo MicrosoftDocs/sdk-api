@@ -1,16 +1,13 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_DocumentName
 title: IFaxDocument::get_DocumentName (faxcomex.h)
-description: The IFaxDocument::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only.
+description: The IFaxDocument::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only. (Get)
+helpviewer_keywords: ["DocumentName property [Fax Service]","DocumentName property [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","DocumentName property","IFaxDocument.DocumentName","IFaxDocument.get_DocumentName","IFaxDocument.put_DocumentName","IFaxDocument::DocumentName","IFaxDocument::get_DocumentName","IFaxDocument::put_DocumentName","_mfax_faxdocument.documentname","fax._mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp","fax._mfax_faxdocument_documentname","faxcomex/IFaxDocument::DocumentName","faxcomex/IFaxDocument::get_DocumentName","faxcomex/IFaxDocument::put_DocumentName","get_DocumentName"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_30kl.htm
 ms.date: 12/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],DocumentName property, IFaxDocument.DocumentName, IFaxDocument.get_DocumentName, IFaxDocument.put_DocumentName, IFaxDocument::DocumentName, IFaxDocument::get_DocumentName, IFaxDocument::put_DocumentName, _mfax_faxdocument.documentname, fax._mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp, fax._mfax_faxdocument_documentname, faxcomex/IFaxDocument::DocumentName, faxcomex/IFaxDocument::get_DocumentName, faxcomex/IFaxDocument::put_DocumentName, get_DocumentName
-f1_keywords:
-- faxcomex/IFaxDocument.DocumentName
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxDocument.DocumentName
-- IFaxDocument.get_DocumentName
-- IFaxDocument.put_DocumentName
-- IFaxDocument.get_DocumentName
-- IFaxDocument.put_DocumentName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxDocument::get_DocumentName
+ - faxcomex/IFaxDocument::get_DocumentName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxDocument.DocumentName
+ - IFaxDocument.get_DocumentName
+ - IFaxDocument.put_DocumentName
+ - IFaxDocument.get_DocumentName
+ - IFaxDocument.put_DocumentName
 ---
 
 # IFaxDocument::get_DocumentName
@@ -52,30 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxDocument::get_DocumentName</b> property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

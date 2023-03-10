@@ -2,15 +2,12 @@
 UID: NS:winioctl._GET_DISK_ATTRIBUTES
 title: GET_DISK_ATTRIBUTES
 description: Contains the attributes of a disk device.
+helpviewer_keywords: ["*PGET_DISK_ATTRIBUTES","DISK_ATTRIBUTE_OFFLINE","DISK_ATTRIBUTE_READ_ONLY","GET_DISK_ATTRIBUTES","GET_DISK_ATTRIBUTES structure [Files]","PGET_DISK_ATTRIBUTES","PGET_DISK_ATTRIBUTES structure pointer [Files]","fs.get_disk_attributes","winioctl/GET_DISK_ATTRIBUTES","winioctl/PGET_DISK_ATTRIBUTES"]
 old-location: fs\get_disk_attributes.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c6a0461d-cc23-4191-a0ff-c4279c1b097e
 ms.date: 12/05/2018
 ms.keywords: '*PGET_DISK_ATTRIBUTES, DISK_ATTRIBUTE_OFFLINE, DISK_ATTRIBUTE_READ_ONLY, GET_DISK_ATTRIBUTES, GET_DISK_ATTRIBUTES structure [Files], PGET_DISK_ATTRIBUTES, PGET_DISK_ATTRIBUTES structure pointer [Files], fs.get_disk_attributes, winioctl/GET_DISK_ATTRIBUTES, winioctl/PGET_DISK_ATTRIBUTES'
-f1_keywords:
-- winioctl/GET_DISK_ATTRIBUTES
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- GET_DISK_ATTRIBUTES
 targetos: Windows
 req.typenames: GET_DISK_ATTRIBUTES, *PGET_DISK_ATTRIBUTES
 req.redist: 
+f1_keywords:
+ - _GET_DISK_ATTRIBUTES
+ - winioctl/_GET_DISK_ATTRIBUTES
+ - PGET_DISK_ATTRIBUTES
+ - winioctl/PGET_DISK_ATTRIBUTES
+ - GET_DISK_ATTRIBUTES
+ - winioctl/GET_DISK_ATTRIBUTES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - GET_DISK_ATTRIBUTES
 ---
 
 # GET_DISK_ATTRIBUTES structure
@@ -47,26 +53,19 @@ req.redist:
 
 ## -description
 
-
 Contains the attributes of a disk device. Returned as the output buffer from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a> control 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a> control 
     code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Set to <code>sizeof(GET_DISK_ATTRIBUTES)</code>.
 
-
 ### -field Reserved1
 
 Reserved.
-
 
 ### -field Attributes
 
@@ -100,24 +99,15 @@ The disk is read-only.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_disk_attributes">IOCTL_DISK_GET_DISK_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">SET_DISK_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_disk_attributes">SET_DISK_ATTRIBUTES</a>

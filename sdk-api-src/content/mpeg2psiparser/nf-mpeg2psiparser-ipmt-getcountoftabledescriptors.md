@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.IPMT.GetCountOfTableDescriptors
 title: IPMT::GetCountOfTableDescriptors (mpeg2psiparser.h)
 description: The GetCountOfTableDescriptors method returns the number of table-wide descriptors in the PMT.
+helpviewer_keywords: ["GetCountOfTableDescriptors","GetCountOfTableDescriptors method [Microsoft TV Technologies]","GetCountOfTableDescriptors method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetCountOfTableDescriptors method","IPMT.GetCountOfTableDescriptors","IPMT::GetCountOfTableDescriptors","IPMTGetCountOfTableDescriptors","mpeg2psiparser/IPMT::GetCountOfTableDescriptors","mstv.ipmt_getcountoftabledescriptors"]
 old-location: mstv\ipmt_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: e1f91a13-afec-4703-8f1c-be64c8a8b8f9
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IPMT.GetCountOfTableDescriptors, IPMT::GetCountOfTableDescriptors, IPMTGetCountOfTableDescriptors, mpeg2psiparser/IPMT::GetCountOfTableDescriptors, mstv.ipmt_getcountoftabledescriptors
-f1_keywords:
-- mpeg2psiparser/IPMT.GetCountOfTableDescriptors
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPMT.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPMT::GetCountOfTableDescriptors
+ - mpeg2psiparser/IPMT::GetCountOfTableDescriptors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPMT.GetCountOfTableDescriptors
 ---
 
 # IPMT::GetCountOfTableDescriptors
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCountOfTableDescriptors</b> method returns the number of table-wide descriptors in the PMT.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwVal [out]
 
 Receives the number of descriptors.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -99,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>

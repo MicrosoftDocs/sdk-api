@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPSETSERVICE
 title: LPNSPSETSERVICE (ws2spi.h)
 description: Registers or deregisters a service instance within a namespace.
+helpviewer_keywords: ["LPNSPSETSERVICE","NSPSetService","NSPSetService function [Winsock]","RNRSERVICE_DELETE","RNRSERVICE_DEREGISTER","RNRSERVICE_REGISTER","SERVICE_MULTIPLE","_win32_nspsetservice_2","winsock.nspsetservice_2","ws2spi/NSPSetService"]
 old-location: winsock\nspsetservice_2.htm
 tech.root: WinSock
 ms.assetid: df76ea75-c0bc-48b8-b1a7-0c510c5cc28d
 ms.date: 12/05/2018
 ms.keywords: LPNSPSETSERVICE, NSPSetService, NSPSetService function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, _win32_nspsetservice_2, winsock.nspsetservice_2, ws2spi/NSPSetService
-f1_keywords:
-- ws2spi/NSPSetService
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPSetService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPSETSERVICE
+ - ws2spi/LPNSPSETSERVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPSetService
 ---
 
 # LPNSPSETSERVICE callback function
@@ -48,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **NSPSetService** function registers or deregisters a service instance within a namespace.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to the GUID of the specific namespace provider in which the service is registered.
 
-
 ### -param lpServiceClassInfo [in]
 
 The service class schema information.
 
-
 ### -param lpqsRegInfo [in]
 
 The property information to be updated upon registration.
-
 
 ### -param essOperation [in]
 
@@ -119,8 +113,6 @@ Delete the service from dynamic name and persistent spaces. For services represe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwControlFlags [in]
 
@@ -149,12 +141,8 @@ When this value is absent, service addresses are managed as a group. A register 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -222,14 +210,8 @@ Service is unknown. The service cannot be found in the specified namespace.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table lists the available values for <i>essOperation</i> and <i>dwControlFlags</i>.
 
@@ -366,12 +348,7 @@ The following table lists <a href="/windows/desktop/api/winsock2/ns-winsock2-wsa
 <a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure to contain the manifest constant **IPROTOCOL_ANY**, indicating a wildcard value. The namespace provider should substitute an acceptable value for the given address family and socket type.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 
@@ -382,7 +359,4 @@ The following table lists <a href="/windows/desktop/api/winsock2/ns-winsock2-wsa
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

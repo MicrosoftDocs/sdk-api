@@ -1,16 +1,13 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_AttachedEditWindow
 title: ITextInputPanel::put_AttachedEditWindow (peninputpanel.h)
-description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached.
+description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached. (Put)
+helpviewer_keywords: ["92a8510d-c8f2-44b4-8812-789ddbc0e3fd","AttachedEditWindow property [Tablet PC]","AttachedEditWindow property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","AttachedEditWindow property","ITextInputPanel.AttachedEditWindow","ITextInputPanel.get_AttachedEditWindow","ITextInputPanel.put_AttachedEditWindow","ITextInputPanel::AttachedEditWindow","ITextInputPanel::get_AttachedEditWindow","ITextInputPanel::put_AttachedEditWindow","peninputpanel/ITextInputPanel::AttachedEditWindow","peninputpanel/ITextInputPanel::get_AttachedEditWindow","peninputpanel/ITextInputPanel::put_AttachedEditWindow","put_AttachedEditWindow","tablet.itextinputpanel_attachededitwindow"]
 old-location: tablet\itextinputpanel_attachededitwindow.htm
 tech.root: tablet
 ms.assetid: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd
 ms.date: 12/05/2018
 ms.keywords: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],AttachedEditWindow property, ITextInputPanel.AttachedEditWindow, ITextInputPanel.get_AttachedEditWindow, ITextInputPanel.put_AttachedEditWindow, ITextInputPanel::AttachedEditWindow, ITextInputPanel::get_AttachedEditWindow, ITextInputPanel::put_AttachedEditWindow, peninputpanel/ITextInputPanel::AttachedEditWindow, peninputpanel/ITextInputPanel::get_AttachedEditWindow, peninputpanel/ITextInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.itextinputpanel_attachededitwindow
-f1_keywords:
-- peninputpanel/ITextInputPanel.AttachedEditWindow
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.AttachedEditWindow
-- ITextInputPanel.get_AttachedEditWindow
-- ITextInputPanel.put_AttachedEditWindow
-- ITextInputPanel.get_AttachedEditWindow
-- ITextInputPanel.put_AttachedEditWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::put_AttachedEditWindow
+ - peninputpanel/ITextInputPanel::put_AttachedEditWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.AttachedEditWindow
+ - ITextInputPanel.get_AttachedEditWindow
+ - ITextInputPanel.put_AttachedEditWindow
+ - ITextInputPanel.get_AttachedEditWindow
+ - ITextInputPanel.put_AttachedEditWindow
 ---
 
 # ITextInputPanel::put_AttachedEditWindow
@@ -52,32 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
+<p class="CCE_Message">[<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
 ]
 
 
-Gets or sets the window handle of the object to which the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object is attached.
+Gets or sets the window handle of the object to which the <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object is attached.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The window handle of an object may change.
 
 
 #### Examples
 
-This C++ example creates an <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, and attaches it to the window handle of an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, IDC_EDIT3, by setting the <b>ITextInputPanel::AttachedEditWindow Property</b> property.
+This C++ example creates an <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, and attaches it to the window handle of an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, IDC_EDIT3, by setting the <b>ITextInputPanel::AttachedEditWindow Property</b> property.
 
 
 
@@ -123,17 +120,6 @@ if (SUCCEEDED(CoInitialize(NULL)))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>

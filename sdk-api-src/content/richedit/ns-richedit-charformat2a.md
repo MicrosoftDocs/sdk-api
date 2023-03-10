@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit.CHARFORMAT2A
 title: CHARFORMAT2A (richedit.h)
-description: Contains information about character formatting in a rich edit control.
+description: Contains information about character formatting in a rich edit control. (CHARFORMAT2A)
+helpviewer_keywords: ["CFE_ALLCAPS","CFE_AUTOBACKCOLOR","CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_EMBOSS","CFE_EXTENDED","CFE_FONTBOUND","CFE_HIDDEN","CFE_IMPRINT","CFE_ITALIC","CFE_LINK","CFE_LINKPROTECTED","CFE_MATH","CFE_MATHNOBUILDUP","CFE_MATHORDINARY","CFE_OUTLINE","CFE_PROTECTED","CFE_REVISED","CFE_SHADOW","CFE_SMALLCAPS","CFE_STRIKEOUT","CFE_SUBSCRIPT","CFE_SUPERSCRIPT","CFE_UNDERLINE","CFM_ALL","CFM_ALL2","CFM_ALLCAPS","CFM_ANIMATION","CFM_BACKCOLOR","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_COOKIE","CFM_DISABLED","CFM_EFFECTS","CFM_EFFECTS2","CFM_EMBOSS","CFM_EXTENDED","CFM_FACE","CFM_FONTBOUND","CFM_HIDDEN","CFM_IMPRINT","CFM_ITALIC","CFM_KERNING","CFM_LCID","CFM_LINK","CFM_LINKPROTECTED","CFM_MATH","CFM_MATHNOBUILDUP","CFM_MATHORDINARY","CFM_OFFSET","CFM_OUTLINE","CFM_PROTECTED","CFM_REVAUTHOR","CFM_REVISED","CFM_SHADOW","CFM_SIZE","CFM_SMALLCAPS","CFM_SPACING","CFM_STRIKEOUT","CFM_STYLE","CFM_SUBSCRIPT","CFM_SUPERSCRIPT","CFM_UNDERLINE","CFM_UNDERLINETYPE","CFM_WEIGHT","CFU_CF1UNDERLINE","CFU_INVERT","CFU_UNDERLINE","CFU_UNDERLINEDASH","CFU_UNDERLINEDASHDOT","CFU_UNDERLINEDASHDOTDOT","CFU_UNDERLINEDOTTED","CFU_UNDERLINEDOUBLE","CFU_UNDERLINEDOUBLEWAVE","CFU_UNDERLINEHAIRLINE","CFU_UNDERLINEHEAVYWAVE","CFU_UNDERLINELONGDASH","CFU_UNDERLINENONE","CFU_UNDERLINETHICK","CFU_UNDERLINETHICKDASH","CFU_UNDERLINETHICKDASHDOT","CFU_UNDERLINETHICKDASHDOTDOT","CFU_UNDERLINETHICKDOTTED","CFU_UNDERLINETHICKLONGDASH","CFU_UNDERLINEWAVE","CFU_UNDERLINEWORD","CHARFORMAT2","CHARFORMAT2 structure [Windows Controls]","CHARFORMAT2A","CHARFORMAT2W","_win32_CHARFORMAT2_str","_win32_CHARFORMAT2_str_cpp","controls.CHARFORMAT2","controls._win32_CHARFORMAT2_str","richedit/CHARFORMAT2","richedit/CHARFORMAT2A","richedit/CHARFORMAT2W"]
 old-location: controls\CHARFORMAT2.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat2.htm
@@ -45,13 +46,13 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# CHARFORMAT2A structure
+# CHARFORMAT2A structure overview
 
 
 ## -description
 
 
-Contains information about character formatting in a rich edit control.<b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
+Contains information about character formatting in a rich edit control. <b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -61,67 +62,67 @@ Contains information about character formatting in a rich edit control.<b>CHARFO
 
 ### -field wWeight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
-Font weight. This member is the same as the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. To use this member, set the <b>CFM_WEIGHT</b> flag in the <b>dwMask</b> member. 
+Font weight. This member is the same as the <b>lfWeight</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. To use this member, set the <b>CFM_WEIGHT</b> flag in the <b>dwMask</b> member. 
 
 
 ### -field sSpacing
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Horizontal space between letters, in twips. This value has no effect on the text displayed by a rich edit control; it is included for compatibility with Windows TOM interfaces. To use this member, set the <b>CFM_SPACING</b> flag in the <b>dwMask</b> member. 
 
 
 ### -field crBackColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Background color. To use this member, set the <b>CFM_BACKCOLOR</b> flag in the <b>dwMask</b> member. This member is ignored if the <b>CFE_AUTOBACKCOLOR</b> character effect is specified. To generate a , use the  macro. 
 
 
 ### -field lcid
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LCID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LCID</a></b>
 
 A 32-bit locale identifier that contains a language identifier in the lower word and a sorting identifier and reserved value in the upper word. This member has no effect on the text displayed by a rich edit control, but spelling and grammar checkers can use it to deal with language-dependent problems. You can use the  macro to create an <b>LCID</b> value. To use this member, set the <b>CFM_LCID</b> flag in the <b>dwMask</b> member. 
 
 
 ### -field dwCookie
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Client cookie. This member is opaque to a rich edit control.
 
 
 ### -field dwReserved
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved; the value must be zero. 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Reserved; the value must be zero. 
 
 
 ### -field sStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Character style handle. This value has no effect on the text displayed by a rich edit control; it is included for compatibility with WindowsTOM  interfaces. To use this member, set the <b>CFM_STYLE</b> flag in the <b>dwMask</b> member. For more information see the TOM documentation. 
 
 
 ### -field wKerning
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value of the font size, above which to kern the character (<b>yHeight</b>). This value has no effect on the text displayed by a rich edit control; it is included for compatibility with TOM interfaces. To use this member, set the <b>CFM_KERNING</b> flag in the <b>dwMask</b> member. 
 
 
 ### -field bUnderlineType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Specifies the underline type. To use this member, set the <b>CFM_UNDERLINETYPE</b> flag in the <b>dwMask</b> member. This member can be one of the following values. 
 
@@ -136,7 +137,7 @@ Specifies the underline type. To use this member, set the <b>CFM_UNDERLINETYPE</
 </dl>
 </td>
 <td width="60%">
-The structure maps <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
+The structure maps <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
 
 </td>
 </tr>
@@ -357,23 +358,40 @@ Display as <b>CFU_UNDERLINEDASH</b>.
 
 ### -field bAnimation
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Text animation type. This value has no effect on the text displayed by a rich edit control; it is included for compatibility with TOM interfaces. To use this member, set the <b>CFM_ANIMATION</b> flag in the <b>dwMask</b> member. 
 
 
 ### -field bRevAuthor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 An index that identifies the author making a revision. The rich edit control uses different text colors for each different author index. To use this member, set the <b>CFM_REVAUTHOR</b> flag in the <b>dwMask</b> member. 
 
 
 ### -field bUnderlineColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Underline color. 
+Underline color:
+
+* UnderlineColor_Black = 0x00;
+* UnderlineColor_Blue = 0x01;
+* UnderlineColor_Aqua = 0x02;
+* UnderlineColor_Lime = 0x03;
+* UnderlineColor_Fuchsia = 0x04;
+* UnderlineColor_Red = 0x05;
+* UnderlineColor_Yellow = 0x06;
+* UnderlineColor_White = 0x07;
+* UnderlineColor_Navy = 0x08;
+* UnderlineColor_Teal = 0x09;
+* UnderlineColor_Green = 0x0A;
+* UnderlineColor_Purple = 0x0B;
+* UnderlineColor_Maroon = 0x0C;
+* UnderlineColor_Olive = 0x0D;
+* UnderlineColor_DkGray = 0x0E;
+* UnderlineColor_LtGray = 0x0F;
 
 
 ### -field _charformat
@@ -383,37 +401,37 @@ Underline color.
 
 
 
-#### - bCharSet
+### -field bCharSet
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Character set value. It can be one of the values specified for the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. To use this member, set the <b>CFM_CHARSET</b> flag in the <b>dwMask</b> member. 
-
-
-#### - bPitchAndFamily
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
-
-Specifies the font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. 
+Character set value. It can be one of the values specified for the <b>lfCharSet</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. To use this member, set the <b>CFM_CHARSET</b> flag in the <b>dwMask</b> member. 
 
 
-#### - cbSize
+### -field bPitchAndFamily
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
-
-
-#### - crTextColor
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
-
-Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</b> member. This member is ignored if the <b>CFE_AUTOCOLOR</b> character effect is specified. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro. 
+Specifies the font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. 
 
 
-#### - dwEffects
+### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+
+Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
+
+
+### -field crTextColor
+
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+
+Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</b> member. This member is ignored if the <b>CFE_AUTOCOLOR</b> character effect is specified. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro. 
+
+
+### -field dwEffects
+
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
                 
@@ -441,7 +459,7 @@ Characters are all capital letters. The value does not affect the way the contro
 </dl>
 </td>
 <td width="60%">
-The background color is the return value of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>(<b>COLOR_WINDOW</b>). If this flag is set, <b>crBackColor</b> member is ignored.
+The background color is the return value of <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>(<b>COLOR_WINDOW</b>). If this flag is set, <b>crBackColor</b> member is ignored.
 
 </td>
 </tr>
@@ -451,7 +469,7 @@ The background color is the return value of <a href="https://docs.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-The text color is the return value of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>(<b>COLOR_WINDOWTEXT</b>). If this flag is set, the <b>crTextColor</b> member is ignored.
+The text color is the return value of <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>(<b>COLOR_WINDOWTEXT</b>). If this flag is set, the <b>crTextColor</b> member is ignored.
 
 </td>
 </tr>
@@ -682,9 +700,9 @@ Characters are underlined.
  
 
 
-#### - dwMask
+### -field dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the parts of the <b>CHARFORMAT2</b> structure that contain valid information. The 
 					<b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid. Another set indicates the valid attributes in the 
@@ -1164,23 +1182,23 @@ The <b>wWeight</b> member is valid.
  
 
 
-#### - szFaceName
+### -field szFaceName
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a>[LF_FACESIZE]</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">TCHAR</a>[LF_FACESIZE]</b>
 
 A null-terminated character array specifying the font name. To use this member, set the <b>CFM_FACE</b> flag in the <b>dwMask</b> member. 
 
 
-#### - yHeight
+### -field yHeight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Specifies the character height, in twips (1/1440 of an inch, or 1/20 of a printer's point). To use this member, set the <b>CFM_SIZE</b> flag in the <b>dwMask</b> member. 
 
 
-#### - yOffset
+### -field yOffset
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character offset from the baseline, in twips. If the value of this member is positive, the character is a superscript; if the value is negative, the character is a subscript. To use this member, set the <b>CFM_OFFSET</b> flag in the <b>dwMask</b> member. 
 
@@ -1194,16 +1212,20 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
+
+> [!NOTE]
+> The richedit.h header defines CHARFORMAT2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
@@ -1219,16 +1241,15 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
  
 
  
-

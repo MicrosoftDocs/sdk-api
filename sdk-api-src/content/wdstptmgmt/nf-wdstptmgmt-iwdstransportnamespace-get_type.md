@@ -2,15 +2,12 @@
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Type
 title: IWdsTransportNamespace::get_Type (wdstptmgmt.h)
 description: Enables an application to retrieve the type of the namespace for this object.
+helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Type property","IWdsTransportNamespace.Type","IWdsTransportNamespace.get_Type","IWdsTransportNamespace::Type","IWdsTransportNamespace::get_Type","Type property [Windows Deployment Services]","Type property [Windows Deployment Services]","IWdsTransportNamespace interface","get_Type","wds.iwdstransportnamespace_type","wdstptmgmt/IWdsTransportNamespace::Type","wdstptmgmt/IWdsTransportNamespace::get_Type"]
 old-location: wds\iwdstransportnamespace_type.htm
 tech.root: wds
 ms.assetid: 7c7f8d4b-917c-47e9-b82f-f3e601348201
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Type property, IWdsTransportNamespace.Type, IWdsTransportNamespace.get_Type, IWdsTransportNamespace::Type, IWdsTransportNamespace::get_Type, Type property [Windows Deployment Services], Type property [Windows Deployment Services],IWdsTransportNamespace interface, get_Type, wds.iwdstransportnamespace_type, wdstptmgmt/IWdsTransportNamespace::Type, wdstptmgmt/IWdsTransportNamespace::get_Type
-f1_keywords:
-- wdstptmgmt/IWdsTransportNamespace.Type
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportNamespace.Type
-- IWdsTransportNamespace.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportNamespace::get_Type
+ - wdstptmgmt/IWdsTransportNamespace::get_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportNamespace.Type
+ - IWdsTransportNamespace.get_Type
 ---
 
 # IWdsTransportNamespace::get_Type
@@ -49,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an application to retrieve the type of the namespace for this object. 
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a>
- 
-
- 
-
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a>

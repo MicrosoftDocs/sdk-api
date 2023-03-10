@@ -2,13 +2,10 @@
 UID: NN:tuner.IDigitalCableLocator~r1
 title: IDigitalCableLocator
 description: TBD
-tech.root: 
+helpviewer_keywords: ["- IDigitalCableLocator"]
+tech.root: mstv
 ms.assetid: abdf4c6d-00f6-4cc8-8fe3-ce0adbb2e076
 ms.date: 11/14/2019
-f1_keywords:
-- tuner/IDigitalCableLocator
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.redist: 
@@ -23,32 +20,35 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IDigitalCableLocator
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - IDigitalCableLocator
+ - tuner/IDigitalCableLocator
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IDigitalCableLocator
 ---
 
 # IDigitalCableLocator interface
+
 
 ## -description
 
 The <b>IDigitalCableLocator</b> interface provides tuning information for a digital cable network.
 
-OCUR Devices: This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
-
+OCUR Devices: This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 ## -inheritance
-IDigitalCableLocator interits from . 
-## -members
 
-	The IDigitalCableLocator has no additional methods.
+IDigitalCableLocator inherits from .
 
 ## -remarks
 
@@ -56,10 +56,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator2">IATSCLocator2</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator2">IATSCLocator2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

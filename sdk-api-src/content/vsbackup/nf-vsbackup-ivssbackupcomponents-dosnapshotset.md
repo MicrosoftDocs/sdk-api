@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.DoSnapshotSet
 title: IVssBackupComponents::DoSnapshotSet (vsbackup.h)
 description: Commits all shadow copies in this set simultaneously.
+helpviewer_keywords: ["DoSnapshotSet","DoSnapshotSet method [VSS]","DoSnapshotSet method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","DoSnapshotSet method","IVssBackupComponents.DoSnapshotSet","IVssBackupComponents::DoSnapshotSet","_win32_ivssbackupcomponents_dosnapshotset","base.ivssbackupcomponents_dosnapshotset","vsbackup/IVssBackupComponents::DoSnapshotSet"]
 old-location: base\ivssbackupcomponents_dosnapshotset.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
 ms.date: 12/05/2018
 ms.keywords: DoSnapshotSet, DoSnapshotSet method [VSS], DoSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DoSnapshotSet method, IVssBackupComponents.DoSnapshotSet, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
-f1_keywords:
-- vsbackup/IVssBackupComponents.DoSnapshotSet
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.DoSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::DoSnapshotSet
+ - vsbackup/IVssBackupComponents::DoSnapshotSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.DoSnapshotSet
 ---
 
 # IVssBackupComponents::DoSnapshotSet
@@ -49,31 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Commits all 
     shadow copies in this set simultaneously.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
 A
-      doubly indirect pointer to the required <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> asynchronous 
+      doubly indirect pointer to the required <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> asynchronous 
       interface. This is used to query the method execution state and to retrieve the final error code.
-
 
 ## -returns
 
-
-
 The following are the valid return codes for this method. These error codes may be returned from this method, or 
-      from the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
+      from the <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
+      <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
       <i>ppAsync</i> parameter.
 
 <table>
@@ -89,8 +82,8 @@ The following are the valid return codes for this method. These error codes may 
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. See 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values
+        <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. See 
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values
         returned by the <i>pHrResult</i> parameter.
        
 
@@ -114,7 +107,7 @@ The caller does not have sufficient backup privileges or is not an administrator
 </dl>
 </td>
 <td width="60%">
-<i>ppAsync</i>does not point to a valid pointer; that is, it is <b>NULL</b>.
+<i>ppAsync</i> does not point to a valid pointer; that is, it is <b>NULL</b>.
 
 </td>
 </tr>
@@ -138,7 +131,7 @@ The caller is out of memory or other system resources.
 <td width="60%">
 The backup components object has not been initialized or the prerequisite calls for a given shadow copy
         context have not been made prior to calling 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">DoSnapshotSet</a>.
+        <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">DoSnapshotSet</a>.
        
 
 </td>
@@ -152,8 +145,8 @@ The backup components object has not been initialized or the prerequisite calls 
 <td width="60%">
 The system or provider has insufficient storage space. If possible delete any old or unnecessary persistent 
         shadow copies and try again. This error code is only returned via the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
+        <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
         <i>ppAsync</i> parameter.
        
 
@@ -207,8 +200,8 @@ The specified volume is nested too deeply to participate in the VSS operation.
 <td width="60%">
 The provider was unable to perform the request at this time. This can be a transient problem. It is 
         recommended to wait ten minutes and try again, up to three times. This error code is only returned via the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
+        <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
         <i>ppAsync</i> parameter.
        
 
@@ -261,7 +254,7 @@ The system was unable to thaw the Distributed Transaction Coordinator (DTC) or t
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -276,25 +269,19 @@ Unexpected error. The error code is logged in the error log file. For more infor
 <td width="60%">
 The provider returned an unexpected error code. This can be a transient problem. It is recommended to wait 
         ten minutes and try again, up to three times. This error code is only returned via the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the 
+        <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface returned in the 
         <i>ppAsync</i> parameter.
        
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for releasing the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
+    <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
    
 
 This method cannot be called for a virtual hard disk (VHD) that is nested inside another VHD.
@@ -304,43 +291,32 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 For information on how to use 
     <b>IVssBackupComponents::DoSnapshotSet</b> to
     create a standard backup shadow copy, see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/simple-shadow-copy-creation-for-backup">Simple Shadow Copy Creation for Backup</a>.
+    <a href="/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a> and 
+    <a href="/windows/desktop/VSS/simple-shadow-copy-creation-for-backup">Simple Shadow Copy Creation for Backup</a>.
     For information on how the method is used under different VSS contexts, see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
+    <a href="/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
     Creating Shadow Copies</a>.
-   
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>

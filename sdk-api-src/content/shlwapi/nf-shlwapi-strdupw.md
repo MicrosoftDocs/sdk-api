@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.StrDupW
 title: StrDupW function (shlwapi.h)
-description: Duplicates a string.
+description: Duplicates a string. (Unicode)
+helpviewer_keywords: ["StrDup", "StrDup function [Windows Shell]", "StrDupW", "_win32_StrDup", "shell.StrDup", "shlwapi/StrDup", "shlwapi/StrDupW"]
 old-location: shell\StrDup.htm
 tech.root: shell
 ms.assetid: fa77f0b3-8a9b-4221-87e3-9aebff4409fb
 ms.date: 12/05/2018
 ms.keywords: StrDup, StrDup function [Windows Shell], StrDupA, StrDupW, _win32_StrDup, shell.StrDup, shlwapi/StrDup, shlwapi/StrDupA, shlwapi/StrDupW
-f1_keywords:
-- shlwapi/StrDup
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- StrDup
-- StrDupA
-- StrDupW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StrDupW
+ - shlwapi/StrDupW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - StrDup
+ - StrDupA
+ - StrDupW
 ---
 
 # StrDupW function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Duplicates a string.
 
-
 ## -parameters
-
-
-
 
 ### -param pszSrch
 
@@ -70,25 +67,17 @@ Type: <b>PCTSTR</b>
 
 A pointer to a constant <b>null</b>-terminated character string.
 
-
 ## -returns
-
-
 
 Type: <b>PTSTR</b>
 
 Returns the address of the string that was copied, or <b>NULL</b> if the string cannot be copied.
 
-
-
-
 ## -remarks
-
-
 
 <b>StrDup</b> will allocate storage the size of the original string. If storage allocation is successful, the original string is copied to the duplicate string.
 
-This function uses <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate storage space for the copy of the string. The calling application must free this memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function on the pointer returned by the call to <b>StrDup</b>.
+This function uses <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> to allocate storage space for the copy of the string. The calling application must free this memory by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function on the pointer returned by the call to <b>StrDup</b>.
 
 
 #### Examples
@@ -126,3 +115,6 @@ Copy:     This is the buffer text
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines StrDup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

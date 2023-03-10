@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 title: IDot11AdHocManagerNotificationSink::OnInterfaceRemove (adhoc.h)
 description: Notifies the client that a network interface card (NIC) has become inactive.
+helpviewer_keywords: ["IDot11AdHocManagerNotificationSink interface [NativeWIFI]","OnInterfaceRemove method","IDot11AdHocManagerNotificationSink.OnInterfaceRemove","IDot11AdHocManagerNotificationSink::OnInterfaceRemove","OnInterfaceRemove","OnInterfaceRemove method [NativeWIFI]","OnInterfaceRemove method [NativeWIFI]","IDot11AdHocManagerNotificationSink interface","adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove","nwifi.idot11adhocmanagernotificationsink_oninterfaceremove"]
 old-location: nwifi\idot11adhocmanagernotificationsink_oninterfaceremove.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: ac62c211-9886-4c09-8867-32ce9763c2fc
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnInterfaceRemove method, IDot11AdHocManagerNotificationSink.OnInterfaceRemove, IDot11AdHocManagerNotificationSink::OnInterfaceRemove, OnInterfaceRemove, OnInterfaceRemove method [NativeWIFI], OnInterfaceRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove, nwifi.idot11adhocmanagernotificationsink_oninterfaceremove
-f1_keywords:
-- adhoc/IDot11AdHocManagerNotificationSink.OnInterfaceRemove
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocManagerNotificationSink::OnInterfaceRemove
+ - adhoc/IDot11AdHocManagerNotificationSink::OnInterfaceRemove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocManagerNotificationSink.OnInterfaceRemove
 ---
 
 # IDot11AdHocManagerNotificationSink::OnInterfaceRemove
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the client that a network interface card (NIC) has become inactive.
-
 
 ## -parameters
 
-
-
-
 ### -param Signature [in]
 
-A pointer to a signature that uniquely identifies the inactive NIC. For more information about signatures, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getdevicesignature">IDot11AdHocInterface::GetDeviceSignature</a>.
-
+A pointer to a signature that uniquely identifies the inactive NIC. For more information about signatures, see <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocinterface-getdevicesignature">IDot11AdHocInterface::GetDeviceSignature</a>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -96,18 +90,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>

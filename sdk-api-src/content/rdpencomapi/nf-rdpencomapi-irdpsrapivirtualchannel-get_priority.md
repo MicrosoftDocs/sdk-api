@@ -2,15 +2,12 @@
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Priority
 title: IRDPSRAPIVirtualChannel::get_Priority (rdpencomapi.h)
 description: The channel priority.
+helpviewer_keywords: ["CHANNEL_PRIORITY_HI","CHANNEL_PRIORITY_LO","CHANNEL_PRIORITY_MED","IRDPSRAPIVirtualChannel interface [RDP]","Priority property","IRDPSRAPIVirtualChannel.Priority","IRDPSRAPIVirtualChannel.get_Priority","IRDPSRAPIVirtualChannel::Priority","IRDPSRAPIVirtualChannel::get_Priority","Priority property [RDP]","Priority property [RDP]","IRDPSRAPIVirtualChannel interface","Priority property [RDP]","RDPSRAPIVirtualChannel object","RDPSRAPIVirtualChannel object [RDP]","Priority property","get_Priority","rdp.irdpsrapivirtualchannel_priority","rdpencomapi/IRDPSRAPIVirtualChannel::Priority","rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority"]
 old-location: rdp\irdpsrapivirtualchannel_priority.htm
 tech.root: rdp
 ms.assetid: 34addc3d-5541-48c9-a749-256114e0c2aa
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, IRDPSRAPIVirtualChannel interface [RDP],Priority property, IRDPSRAPIVirtualChannel.Priority, IRDPSRAPIVirtualChannel.get_Priority, IRDPSRAPIVirtualChannel::Priority, IRDPSRAPIVirtualChannel::get_Priority, Priority property [RDP], Priority property [RDP],IRDPSRAPIVirtualChannel interface, Priority property [RDP],RDPSRAPIVirtualChannel object, RDPSRAPIVirtualChannel object [RDP],Priority property, get_Priority, rdp.irdpsrapivirtualchannel_priority, rdpencomapi/IRDPSRAPIVirtualChannel::Priority, rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority
-f1_keywords:
-- rdpencomapi/IRDPSRAPIVirtualChannel.Priority
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIVirtualChannel.Priority
-- IRDPSRAPIVirtualChannel.get_Priority
-- RDPSRAPIVirtualChannel.Priority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIVirtualChannel::get_Priority
+ - rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIVirtualChannel.Priority
+ - IRDPSRAPIVirtualChannel.get_Priority
+ - RDPSRAPIVirtualChannel.Priority
 ---
 
 # IRDPSRAPIVirtualChannel::get_Priority
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The channel priority.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>

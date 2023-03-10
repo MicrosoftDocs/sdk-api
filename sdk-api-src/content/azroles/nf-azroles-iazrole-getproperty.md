@@ -2,15 +2,12 @@
 UID: NF:azroles.IAzRole.GetProperty
 title: IAzRole::GetProperty (azroles.h)
 description: Returns the IAzRole object property with the specified property ID.
+helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_CHILD_CREATE","AZ_PROP_DESCRIPTION","AZ_PROP_NAME","AZ_PROP_ROLE_APP_MEMBERS","AZ_PROP_ROLE_MEMBERS","AZ_PROP_ROLE_MEMBERS_NAME","AZ_PROP_ROLE_OPERATIONS","AZ_PROP_ROLE_TASKS","AZ_PROP_WRITABLE","AzRole object [Security]","GetProperty method","GetProperty","GetProperty method [Security]","GetProperty method [Security]","AzRole object","GetProperty method [Security]","IAzRole interface","IAzRole interface [Security]","GetProperty method","IAzRole.GetProperty","IAzRole::GetProperty","azroles/IAzRole::GetProperty","security.iazrole_getproperty"]
 old-location: security\iazrole_getproperty.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f65058ce-962d-4cad-9f55-c8b983ffaa05
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AZ_PROP_WRITABLE, AzRole object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzRole object, GetProperty method [Security],IAzRole interface, IAzRole interface [Security],GetProperty method, IAzRole.GetProperty, IAzRole::GetProperty, azroles/IAzRole::GetProperty, security.iazrole_getproperty
-f1_keywords:
-- azroles/IAzRole.GetProperty
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzRole.GetProperty
-- AzRole.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzRole::GetProperty
+ - azroles/IAzRole::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzRole.GetProperty
+ - AzRole.GetProperty
 ---
 
 # IAzRole::GetProperty
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  with the specified property ID.
-
+The <b>GetProperty</b> method returns the <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  with the specified property ID.
 
 ## -parameters
 
-
-
-
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -73,7 +70,7 @@ Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azrol
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_applicationdata">ApplicationData</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_applicationdata">ApplicationData</a>  property
 
 </td>
 </tr>
@@ -93,7 +90,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_description">Description</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_description">Description</a>  property
 
 </td>
 </tr>
@@ -103,7 +100,7 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_name">Name</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_name">Name</a>  property
 
 </td>
 </tr>
@@ -113,7 +110,7 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_appmembers">AppMembers</a>  property
 
 </td>
 </tr>
@@ -123,7 +120,7 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_members">Members</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_members">Members</a>  property
 
 </td>
 </tr>
@@ -133,7 +130,7 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_membersname">MembersName</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_membersname">MembersName</a>  property
 
 </td>
 </tr>
@@ -143,7 +140,7 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_operations">Operations</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_operations">Operations</a>  property
 
 </td>
 </tr>
@@ -153,7 +150,7 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_tasks">Tasks</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_tasks">Tasks</a>  property
 
 </td>
 </tr>
@@ -163,29 +160,20 @@ Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-get_writable">Writable</a>  property
+Also  accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_writable">Writable</a>  property
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property.
-
+A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object property.
 
 ## -returns
 
-
-
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-
-
-

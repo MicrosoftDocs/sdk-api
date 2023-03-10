@@ -2,15 +2,12 @@
 UID: NF:vsadmin.IVssAdmin.QueryProviders
 title: IVssAdmin::QueryProviders (vsadmin.h)
 description: Queries all registered providers.
+helpviewer_keywords: ["IVssAdmin interface [VSS]","QueryProviders method","IVssAdmin.QueryProviders","IVssAdmin::QueryProviders","QueryProviders","QueryProviders method [VSS]","QueryProviders method [VSS]","IVssAdmin interface","base.ivssadmin_queryproviders","vsadmin/IVssAdmin::QueryProviders"]
 old-location: base\ivssadmin_queryproviders.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 1267b715-dc2e-47a2-88f1-5c03b5fb5415
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin interface [VSS],QueryProviders method, IVssAdmin.QueryProviders, IVssAdmin::QueryProviders, QueryProviders, QueryProviders method [VSS], QueryProviders method [VSS],IVssAdmin interface, base.ivssadmin_queryproviders, vsadmin/IVssAdmin::QueryProviders
-f1_keywords:
-- vsadmin/IVssAdmin.QueryProviders
-dev_langs:
-- c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsAdmin.h
-api_name:
-- IVssAdmin.QueryProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAdmin::QueryProviders
+ - vsadmin/IVssAdmin::QueryProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsAdmin.h
+api_name:
+ - IVssAdmin.QueryProviders
 ---
 
 # IVssAdmin::QueryProviders
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryProviders</b> 
    method queries all registered providers.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface pointer, 
+The address of an <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface pointer, 
       which is initialized on return. Callers must release the interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -149,7 +143,7 @@ An unexpected provider error occurred.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -162,7 +156,7 @@ Expected provider error. The provider logged the error in the event log. For mor
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -176,38 +170,22 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 <td width="60%">
 Unexpected provider error. The error code is logged in the error log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Calling the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject::Next</a> method on the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface returned though the 
+Calling the <a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject::Next</a> method on the 
+    <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface returned though the 
     <i>ppEnum</i>  parameter will return 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a> structures containing a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_provider_prop">VSS_PROVIDER_PROP</a> structure for each registered 
+    <a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a> structures containing a 
+    <a href="/windows/desktop/api/vss/ns-vss-vss_provider_prop">VSS_PROVIDER_PROP</a> structure for each registered 
     provider.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>

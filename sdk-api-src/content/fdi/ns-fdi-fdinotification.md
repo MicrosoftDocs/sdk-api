@@ -1,16 +1,13 @@
 ---
-UID: NS:fdi.__unnamed_struct_2
+UID: NS:fdi.FDINOTIFICATION
 title: FDINOTIFICATION (fdi.h)
 description: The FDINOTIFICATION structure to provide information to FNFDINOTIFY.
+helpviewer_keywords: ["*PFDINOTIFICATION","FDIERROR_ALLOC_FAIL","FDIERROR_BAD_COMPR_TYPE","FDIERROR_CABINET_NOT_FOUND","FDIERROR_CORRUPT_CABINET","FDIERROR_MDI_FAIL","FDIERROR_NONE","FDIERROR_NOT_A_CABINET","FDIERROR_RESERVE_MISMATCH","FDIERROR_TARGET_FILE","FDIERROR_UNKNOWN_CABINET_VERSION","FDIERROR_USER_ABORT","FDIERROR_WRONG_CABINET","FDINOTIFICATION","FDINOTIFICATION structure [Windows API]","PFDINOTIFICATION","PFDINOTIFICATION structure pointer [Windows API]","fdi/FDINOTIFICATION","fdi/PFDINOTIFICATION","winprog.fdinotification"]
 old-location: winprog\fdinotification.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 8b92226e-b19a-4624-925e-4a98d037637d
 ms.date: 12/05/2018
 ms.keywords: '*PFDINOTIFICATION, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, FDINOTIFICATION, FDINOTIFICATION structure [Windows API], PFDINOTIFICATION, PFDINOTIFICATION structure pointer [Windows API], fdi/FDINOTIFICATION, fdi/PFDINOTIFICATION, winprog.fdinotification'
-f1_keywords:
-- fdi/FDINOTIFICATION
-dev_langs:
-- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fdi.h
-api_name:
-- FDINOTIFICATION
 targetos: Windows
 req.typenames: FDINOTIFICATION, *PFDINOTIFICATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFDINOTIFICATION
+ - fdi/PFDINOTIFICATION
+ - FDINOTIFICATION
+ - fdi/FDINOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fdi.h
+api_name:
+ - FDINOTIFICATION
 ---
 
 # FDINOTIFICATION structure
@@ -48,44 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FDINOTIFICATION</b> structure to provide information to <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>.
-
+The <b>FDINOTIFICATION</b> structure to provide information to <a href="/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field cb
 
 The size, in bytes, of a cabinet element.
 
-
 ### -field psz1
 
 A null-terminated string.
-
 
 ### -field psz2
 
 A null-terminated string.
 
-
 ### -field psz3
 
 A null-terminated string.
-
 
 ### -field pv
 
 Pointer to an application-defined value.
 
-
 ### -field hf
 
 Application-defined value used to identify the opened file.
-
 
 ### -field date
 
@@ -109,8 +102,6 @@ The MS-DOS date.
 <td>Year offset from 1980 (add 1980</td>
 </tr>
 </table>
- 
-
 
 ### -field time
 
@@ -134,28 +125,22 @@ The MS-DOS time.
 <td>Hour (0-23 on a 24-hour clock)</td>
 </tr>
 </table>
- 
-
 
 ### -field attribs
 
 The file attributes. For possible values and their descriptions, see File Attributes.
 
-
 ### -field setID
 
 The identifier for a cabinet set.
-
 
 ### -field iCabinet
 
 The number of the cabinets within a set.
 
-
 ### -field iFolder
 
 The number of folders within a cabinet.
-
 
 ### -field fdie
 
@@ -299,16 +284,8 @@ FDI aborted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>
- 
-
- 
+<a href="/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>
 

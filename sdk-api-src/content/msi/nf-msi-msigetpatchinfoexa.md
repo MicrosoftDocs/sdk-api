@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetPatchInfoExA
 title: MsiGetPatchInfoExA function (msi.h)
-description: Queries for information about the application of a patch to a specified instance of a product.
+description: Queries for information about the application of a patch to a specified instance of a product. (ANSI)
+helpviewer_keywords: ["INSTALLPROPERTY_DISPLAYNAME", "INSTALLPROPERTY_INSTALLDATE", "INSTALLPROPERTY_LOCALPACKAGE", "INSTALLPROPERTY_MOREINFOURL", "INSTALLPROPERTY_PATCHSTATE", "INSTALLPROPERTY_TRANSFORMS", "INSTALLPROPERTY_UNINSTALLABLE", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiGetPatchInfoExA", "NULL", "User SID", "msi/MsiGetPatchInfoExA"]
 old-location: setup\msigetpatchinfoex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 18acad03-7794-4c29-8cac-1dd3ea64369a
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISPLAYNAME, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_MOREINFOURL, INSTALLPROPERTY_PATCHSTATE, INSTALLPROPERTY_TRANSFORMS, INSTALLPROPERTY_UNINSTALLABLE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetPatchInfoEx, MsiGetPatchInfoEx function, MsiGetPatchInfoExA, MsiGetPatchInfoExW, NULL, User SID, msi/MsiGetPatchInfoEx, msi/MsiGetPatchInfoExA, msi/MsiGetPatchInfoExW, setup.msigetpatchinfoex
-f1_keywords:
-- msi/MsiGetPatchInfoEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiGetPatchInfoEx
-- MsiGetPatchInfoExA
-- MsiGetPatchInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetPatchInfoExA
+ - msi/MsiGetPatchInfoExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiGetPatchInfoEx
+ - MsiGetPatchInfoExA
+ - MsiGetPatchInfoExW
 ---
 
 # MsiGetPatchInfoExA function
@@ -51,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiGetPatchInfoEx</b>  function queries for information about the application of a patch to a specified instance of a product.
 
-
 ## -parameters
-
-
-
 
 ### -param szPatchCode [in]
 
 A null-terminated string that contains the GUID of the patch. This parameter cannot be <b>NULL</b>.
 
-
 ### -param szProductCode [in]
 
-A null-terminated string that contains the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product instance. This parameter cannot be <b>NULL</b>.
-
+A null-terminated string that contains the <a href="/windows/desktop/Msi/productcode">ProductCode</a> GUID of the product instance. This parameter cannot be <b>NULL</b>.
 
 ### -param szUserSid [in]
 
@@ -148,8 +143,6 @@ Query that is extended to all per-machine installations.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szProperty [in]
 
@@ -189,7 +182,7 @@ Gets the set of patch transforms that the last patch installation applied to the
 </dl>
 </td>
 <td width="60%">
-Gets the last time this product received service. The value of this property is replaced each time a patch is applied or removed from the product or the /v <a href="https://docs.microsoft.com/windows/desktop/Msi/command-line-options">Command-Line Option</a> is used to repair the product.  If the product has received no repairs or patches this property contains the time this product was installed on this computer.
+Gets the last time this product received service. The value of this property is replaced each time a patch is applied or removed from the product or the /v <a href="/windows/desktop/Msi/command-line-options">Command-Line Option</a> is used to repair the product.  If the product has received no repairs or patches this property contains the time this product was installed on this computer.
 
 </td>
 </tr>
@@ -211,7 +204,7 @@ Returns "1" if the patch is marked as possible to uninstall from the product.  I
 </dl>
 </td>
 <td width="60%">
-Returns "1" if this patch is currently applied to the product. Returns "2" if this patch is superseded by another patch. Returns  "4" if this patch is obsolete.   These values correspond to the constants the <i>dwFilter</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumpatchesexa">MsiEnumPatchesEx</a> uses.
+Returns "1" if this patch is currently applied to the product. Returns "2" if this patch is superseded by another patch. Returns  "4" if this patch is obsolete.   These values correspond to the constants the <i>dwFilter</i> parameter of <a href="/windows/desktop/api/msi/nf-msi-msienumpatchesexa">MsiEnumPatchesEx</a> uses.
 
 </td>
 </tr>
@@ -223,7 +216,7 @@ Returns "1" if this patch is currently applied to the product. Returns "2" if th
 </td>
 <td width="60%">
 Get the registered display name for the patch. For patches that do not
-include the DisplayName property in the <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchmetadata-table">MsiPatchMetadata</a> table, the
+include the DisplayName property in the <a href="/windows/desktop/Msi/msipatchmetadata-table">MsiPatchMetadata</a> table, the
       returned display name is an empty string ("").
 
 </td>
@@ -236,14 +229,12 @@ include the DisplayName property in the <a href="https://docs.microsoft.com/wind
 </td>
 <td width="60%">
 Get the registered support information URL for the patch. For patches that do not include the MoreInfoURL property in the 
-      <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchmetadata-table">MsiPatchMetadata</a> table, the returned support information URL is an
+      <a href="/windows/desktop/Msi/msipatchmetadata-table">MsiPatchMetadata</a> table, the returned support information URL is an
       empty string ("").
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpValue [out, optional]
 
@@ -253,17 +244,13 @@ If <i>lpValue</i> is set to <b>NULL</b> and <i>pcchValue</i> is set to a valid p
 
 If <i>lpValue</i> and <i>pcchValue</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the value exists, without  retrieving the value.
 
-
 ### -param pcchValue [in, out]
 
 When calling the function, this parameter should be a pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>lpValue</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character.
 
 This parameter can be set to <b>NULL</b> only if <i>lpValue</i> is also <b>NULL</b>. Otherwise, the function returns <b>ERROR_INVALID_PARAMETER</b>.
 
-
 ## -returns
-
-
 
 The <b>MsiGetPatchInfoEx</b> function returns the following values.
 
@@ -372,14 +359,8 @@ The patch is unrecognized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows Installer 2.0:  </b>Not supported. This function is available beginning with Windows Installer version 3.0.
 
@@ -388,17 +369,14 @@ A user may query patch data for any product instance that is visible. The admini
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiGetPatchInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/removing-patches">Removing Patches</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/removing-patches">Removing Patches</a>

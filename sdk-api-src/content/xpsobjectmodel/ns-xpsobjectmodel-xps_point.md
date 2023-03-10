@@ -1,16 +1,13 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0017
 title: XPS_POINT (xpsobjectmodel.h)
-description: Represents an x- and y-coordinate pair in two-dimensional space.
+description: Represents an x- and y-coordinate pair in two-dimensional space. (XPS_POINT)
+helpviewer_keywords: ["XPS_POINT","XPS_POINT structure [XPS Documents and Packaging]","xps.xps_point","xpsobjectmodel/XPS_POINT"]
 old-location: xps\xps_point.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3
 ms.date: 12/05/2018
 ms.keywords: XPS_POINT, XPS_POINT structure [XPS Documents and Packaging], xps.xps_point, xpsobjectmodel/XPS_POINT
-f1_keywords:
-- xpsobjectmodel/XPS_POINT
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_POINT
 targetos: Windows
 req.typenames: XPS_POINT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0017
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0017
+ - XPS_POINT
+ - xpsobjectmodel/XPS_POINT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_POINT
 ---
 
 # XPS_POINT structure
@@ -48,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an x- and y-coordinate pair in two-dimensional space.
 
-
 ## -struct-fields
-
-
-
 
 ### -field x
 
 The x-coordinate of a point.
 
-
 ### -field y
 
 The y-coordinate of a point.
 
-
 ## -see-also
 
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

@@ -2,15 +2,12 @@
 UID: NF:winhttp.WinHttpSetDefaultProxyConfiguration
 title: WinHttpSetDefaultProxyConfiguration function (winhttp.h)
 description: Sets the default WinHTTP proxy configuration in the registry.
+helpviewer_keywords: ["WinHttpSetDefaultProxyConfiguration","WinHttpSetDefaultProxyConfiguration function [WinHTTP]","http.winhttpsetdefaultproxyconfiguration","winhttp.winhttpsetdefaultproxyconfiguration_function","winhttp/WinHttpSetDefaultProxyConfiguration"]
 old-location: http\winhttpsetdefaultproxyconfiguration.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: df95703b-8fa0-4ea4-b9e6-7f19aa8c1941
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetDefaultProxyConfiguration, WinHttpSetDefaultProxyConfiguration function [WinHTTP], http.winhttpsetdefaultproxyconfiguration, winhttp.winhttpsetdefaultproxyconfiguration_function, winhttp/WinHttpSetDefaultProxyConfiguration
-f1_keywords:
-- winhttp/WinHttpSetDefaultProxyConfiguration
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpSetDefaultProxyConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpSetDefaultProxyConfiguration
+ - winhttp/WinHttpSetDefaultProxyConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpSetDefaultProxyConfiguration
 ---
 
 ## -description
 
 > [!IMPORTANT]
-> Use of **WinHttpSetDefaultProxyConfiguration** is deprecated on Windows 8.1 and newer. Most proxy configurations are not supported by **WinHttpSetDefaultProxyConfiguration**, nor does it support proxy authentication. Instead, use **WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY** with [WinHttpOpen](/windows/win32/api/winhttp/nf-winhttp-winhttpopen).
+> Use of **WinHttpSetDefaultProxyConfiguration** is deprecated on Windows 8.1 and newer. Most proxy configurations are not supported by **WinHttpSetDefaultProxyConfiguration**, nor does it support proxy authentication. Instead, use **WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY** with [WinHttpOpen](./nf-winhttp-winhttpopen.md).
 
 The <b>WinHttpSetDefaultProxyConfiguration</b> function sets the default WinHTTP proxy configuration in the registry.
 

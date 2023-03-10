@@ -2,15 +2,12 @@
 UID: NS:mssip.SIP_DISPATCH_INFO_
 title: SIP_DISPATCH_INFO (mssip.h)
 description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
+helpviewer_keywords: ["*LPSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO","PSIP_DISPATCH_INFO structure pointer [Security]","SIP_DISPATCH_INFO","SIP_DISPATCH_INFO structure [Security]","mssip/PSIP_DISPATCH_INFO","mssip/SIP_DISPATCH_INFO","security.sip_dispatch_info"]
 old-location: security\sip_dispatch_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
 ms.date: 12/05/2018
 ms.keywords: '*LPSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO structure pointer [Security], SIP_DISPATCH_INFO, SIP_DISPATCH_INFO structure [Security], mssip/PSIP_DISPATCH_INFO, mssip/SIP_DISPATCH_INFO, security.sip_dispatch_info'
-f1_keywords:
-- mssip/SIP_DISPATCH_INFO
-dev_langs:
-- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mssip.h
-api_name:
-- SIP_DISPATCH_INFO
 targetos: Windows
 req.typenames: SIP_DISPATCH_INFO, *LPSIP_DISPATCH_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SIP_DISPATCH_INFO_
+ - mssip/SIP_DISPATCH_INFO_
+ - LPSIP_DISPATCH_INFO
+ - mssip/LPSIP_DISPATCH_INFO
+ - SIP_DISPATCH_INFO
+ - mssip/SIP_DISPATCH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mssip.h
+api_name:
+ - SIP_DISPATCH_INFO
 ---
 
 # SIP_DISPATCH_INFO structure
@@ -48,82 +54,58 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SIP_DISPATCH_INFO</b> structure contains a set of function pointers assigned by the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function that your application uses to perform <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) operations.
-
+The <b>SIP_DISPATCH_INFO</b> structure contains a set of function pointers assigned by the <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function that your application uses to perform <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) operations.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
 
-
 ### -field hSIP
 
 This member is reserved and must be set to <b>NULL</b>.
 
-
 ### -field pfGet
 
-A pointer to the function that retrieves the signed data for the subject. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>.
-
+A pointer to the function that retrieves the signed data for the subject. The signature for this function pointer is described in <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>.
 
 ### -field pfPut
 
-A pointer to the function that stores the signed data for the subject. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>.
-
+A pointer to the function that stores the signed data for the subject. The signature for this function pointer is described in <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>.
 
 ### -field pfCreate
 
-A pointer to the function that returns a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>.
-
+A pointer to the function that returns a [SIP_INDIRECT_DATA](/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>.
 
 ### -field pfVerify
 
-A pointer to the function that verifies the [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a>  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>.
-
+A pointer to the function that verifies the [SIP_INDIRECT_DATA](/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)  structure that contains the subject data. This structure contains the hash of the target. The signature for this function pointer is described in <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>.
 
 ### -field pfRemove
 
-A pointer to the function that removes the signed data for the subject. The signature for this function pointer is described in <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>.
-
+A pointer to the function that removes the signed data for the subject. The signature for this function pointer is described in <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>.
 
 ## -remarks
 
-
-
-Your application must initialize this structure to binary zeros and set <b>cbSize</b> to <code>sizeof(SIP_DISPATCH_INFO)</code> by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=106519">memset</a> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function. Your application can use the function pointers in the returned <b>SIP_DISPATCH_INFO</b> structure to perform the necessary SIP operations.   The function pointers can point to functions exported by third party SIPs.
-
-
-
+Your application must initialize this structure to binary zeros and set <b>cbSize</b> to <code>sizeof(SIP_DISPATCH_INFO)</code> by calling the <a href="/cpp/c-runtime-library/reference/memset-wmemset">memset</a> function before calling the <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipload">CryptSIPLoad</a> function. Your application can use the function pointers in the returned <b>SIP_DISPATCH_INFO</b> structure to perform the necessary SIP operations.   The function pointers can point to functions exported by third party SIPs.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipcreateindirectdata">CryptSIPCreateIndirectData</a>
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipremovesigneddatamsg">CryptSIPRemoveSignedDataMsg</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipverifyindirectdata">CryptSIPVerifyIndirectData</a>

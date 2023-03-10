@@ -1,16 +1,13 @@
 ---
 UID: NF:ws2spi.WPUQueueApc
 title: WPUQueueApc function (ws2spi.h)
-description: The WPUQueueApc function queues a user mode&#8211;asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
+description: The WPUQueueApc function queues a user mode�asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
+helpviewer_keywords: ["WPUQueueApc","WPUQueueApc function [Winsock]","_win32_wpuqueueapc_2","winsock.wpuqueueapc_2","ws2spi/WPUQueueApc"]
 old-location: winsock\wpuqueueapc_2.htm
 tech.root: WinSock
 ms.assetid: 4326547e-85e2-409c-9f36-aa013853dfd9
 ms.date: 12/05/2018
 ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, winsock.wpuqueueapc_2, ws2spi/WPUQueueApc
-f1_keywords:
-- ws2spi/WPUQueueApc
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUQueueApc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUQueueApc
+ - ws2spi/WPUQueueApc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUQueueApc
 ---
 
 # WPUQueueApc function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUQueueApc** function queues a user mode–asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
 
-
 ## -parameters
-
-
-
 
 ### -param lpThreadId [in]
 
@@ -66,25 +63,19 @@ Pointer to a
 **WSATHREADID** is no longer needed once 
 **WPUQueueApc** returns.
 
-
 ### -param lpfnUserApc [in]
 
 Pointer to the APC function to be called.
-
 
 ### -param dwContext [in]
 
 32-bit context value that is subsequently supplied as an input parameter to the APC function.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUQueueApc** returns zero and queues the completion routine for the specified thread. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -113,13 +104,7 @@ The <i>dwThreadId</i> parameter does not specify a valid thread.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 This function queues an APC function against the specified thread. Under Windows, this will be done using a user mode–asynchronous procedure call (APC). The APC will only execute when the specified thread is blocked in an alertable wait and a callback will be made directly. This call is safe for use within an interrupt context.
 
@@ -143,12 +128,7 @@ For service providers where a user-mode component implements overlapped I/O, a t
 - The intermediate procedure simply unpacks parameters, deallocates the buffer, and calls the client-supplied completion procedure. 
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a>
 
@@ -171,7 +151,4 @@ For service providers where a user-mode component implements overlapped I/O, a t
 
 
 [LPWSPSendTo](nc-ws2spi-lpwspsendto.md)
- 
-
- 
 

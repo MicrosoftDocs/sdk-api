@@ -2,15 +2,12 @@
 UID: NN:dxvahd.IDXVAHD_VideoProcessor
 title: IDXVAHD_VideoProcessor (dxvahd.h)
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+helpviewer_keywords: ["IDXVAHD_VideoProcessor","IDXVAHD_VideoProcessor interface [Media Foundation]","IDXVAHD_VideoProcessor interface [Media Foundation]","described","dxvahd/IDXVAHD_VideoProcessor","mf.idxvahd_videoprocessor"]
 old-location: mf\idxvahd_videoprocessor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cbfacff5-1cbb-4296-8242-c06b43fc95af
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_VideoProcessor, IDXVAHD_VideoProcessor interface [Media Foundation], IDXVAHD_VideoProcessor interface [Media Foundation],described, dxvahd/IDXVAHD_VideoProcessor, mf.idxvahd_videoprocessor
-f1_keywords:
-- dxvahd/IDXVAHD_VideoProcessor
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxvahd.h
-api_name:
-- IDXVAHD_VideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXVAHD_VideoProcessor
+ - dxvahd/IDXVAHD_VideoProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxvahd.h
+api_name:
+ - IDXVAHD_VideoProcessor
 ---
 
 # IDXVAHD_VideoProcessor interface
@@ -48,90 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor. 
 
-To get a pointer to this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">IDXVAHD_Device::CreateVideoProcessor</a> method.
-
+To get a pointer to this interface, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-createvideoprocessor">IDXVAHD_Device::CreateVideoProcessor</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXVAHD_VideoProcessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDXVAHD_VideoProcessor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessbltstate">GetVideoProcessBltState</a>
-</td>
-<td align="left" width="63%">
-Gets the value of a state parameter for a DXVA-HD blit operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-getvideoprocessstreamstate">GetVideoProcessStreamState</a>
-</td>
-<td align="left" width="63%">
-Gets the value of a state parameter for a DXVA-HD input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">SetVideoProcessBltState</a>
-</td>
-<td align="left" width="63%">
-Sets a state parameter for a DXVA-HD blit operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">SetVideoProcessStreamState</a>
-</td>
-<td align="left" width="63%">
-Sets a state parameter for a DXVA-HD input stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-videoprocessblthd">VideoProcessBltHD</a>
-</td>
-<td align="left" width="63%">
-Performs a video processing blit on one or more input samples and writes the result to a Microsoft Direct3D surface.
-
-</td>
-</tr>
-</table> 
-
+The <b>IDXVAHD_VideoProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXVAHD_VideoProcessor</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-interfaces">Direct3D Video Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

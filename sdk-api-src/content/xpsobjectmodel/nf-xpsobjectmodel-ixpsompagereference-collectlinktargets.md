@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectLinkTargets
 title: IXpsOMPageReference::CollectLinkTargets (xpsobjectmodel.h)
 description: Gets an IXpsOMNameCollection interface that contains the names of all the document subtree objects whose IsHyperlinkTarget property is set to TRUE.
+helpviewer_keywords: ["CollectLinkTargets","CollectLinkTargets method [XPS Documents and Packaging]","CollectLinkTargets method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","CollectLinkTargets method","IXpsOMPageReference.CollectLinkTargets","IXpsOMPageReference::CollectLinkTargets","xps.ixpsompagereference_collectlinktargets","xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets"]
 old-location: xps\ixpsompagereference_collectlinktargets.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
 ms.date: 12/05/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
-f1_keywords:
-- xpsobjectmodel/IXpsOMPageReference.CollectLinkTargets
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPageReference.CollectLinkTargets
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPageReference::CollectLinkTargets
+ - xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPageReference.CollectLinkTargets
 ---
 
 # IXpsOMPageReference::CollectLinkTargets
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets an  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose  <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>.
-
+Gets an  <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose  <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>.
 
 ## -parameters
 
-
-
-
 ### -param linkTargets [out, retval]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>. If no such objects exist in the document, the <b>IXpsOMNameCollection</b> interface will be empty.
+A pointer to an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>. If no such objects exist in the document, the <b>IXpsOMNameCollection</b> interface will be empty.
 
 <div class="alert"><b>Note</b>  Every time this method is called, it returns a new collection.</div>
 <div> </div>
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -109,21 +104,15 @@ Not enough memory to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the page is originally loaded from a package but  is not currently loaded in the object model, this method returns the values specified in the original <b>PageContent.LinkTargets</b> markup.
       
 
 If the document does not have any link targets, the name collection returned in <i>linkTargets</i> will be empty.
 
-To get the number of elements in the collection that is returned in <i>linkTargets</i>, call the collection's <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomnamecollection-getcount">GetCount</a> method.
+To get the number of elements in the collection that is returned in <i>linkTargets</i>, call the collection's <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomnamecollection-getcount">GetCount</a> method.
 
 This method returns the pointer to a new collection every time it is called. To prevent a memory leak, the pointer to a previous collection should be released when it is no longer needed or before the pointer variable is reused for another call to this method. The following code example shows how this can be done in a program.
 
@@ -172,25 +161,14 @@ This method returns the pointer to a new collection every time it is called. To 
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

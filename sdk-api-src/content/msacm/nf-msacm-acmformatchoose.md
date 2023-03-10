@@ -2,15 +2,12 @@
 UID: NF:msacm.acmFormatChoose
 title: acmFormatChoose function (msacm.h)
 description: The acmFormatChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio format.
+helpviewer_keywords: ["_win32_acmFormatChoose","acmFormatChoose","acmFormatChoose function [Windows Multimedia]","acmFormatChooseA","acmFormatChooseW","msacm/acmFormatChoose","msacm/acmFormatChooseA","msacm/acmFormatChooseW","multimedia.acmformatchoose"]
 old-location: multimedia\acmformatchoose.htm
 tech.root: Multimedia
 ms.assetid: 9be8311a-f6ad-4007-a254-841ee99ff3b6
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFormatChoose, acmFormatChoose, acmFormatChoose function [Windows Multimedia], acmFormatChooseA, acmFormatChooseW, msacm/acmFormatChoose, msacm/acmFormatChooseA, msacm/acmFormatChooseW, multimedia.acmformatchoose
-f1_keywords:
-- msacm/acmFormatChoose
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmFormatChoose
-- acmFormatChooseA
-- acmFormatChooseW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmFormatChoose
+ - msacm/acmFormatChoose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmFormatChoose
+ - acmFormatChooseA
+ - acmFormatChooseW
 ---
 
 # acmFormatChoose function
@@ -51,28 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmFormatChoose</b> function creates an ACM-defined dialog box that enables the user to select a waveform-audio format.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pafmtc
 
-Pointer to an [ACMFORMATCHOOSE](/windows/win32/api/msacm/nf-msacm-acmformatchoose)a> structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
+Pointer to an [ACMFORMATCHOOSE]() structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
 
 The <b>pwfx</b> member of this structure must contain a valid pointer to a memory location that will contain the returned format header structure. Moreover, the <b>cbwfx</b> member must be filled in with the size, in bytes, of this memory buffer.
 
-
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible return values include the following.
 
@@ -148,22 +139,11 @@ A suitable driver is not available to provide valid format selections.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

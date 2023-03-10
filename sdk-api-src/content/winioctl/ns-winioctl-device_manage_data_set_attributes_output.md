@@ -2,15 +2,12 @@
 UID: NS:winioctl._DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 title: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 description: Output structure for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+helpviewer_keywords: ["*PDEVICE_DSM_OUTPUT","*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","DEVICE_DSM_OUTPUT","DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure","DeviceDsmAction_Allocation","DeviceDsmAction_Notification","DeviceDsmAction_OffloadRead","DeviceDsmAction_OffloadWrite","DeviceDsmAction_Repair","DeviceDsmAction_Resiliency","DeviceDsmAction_Scrub","DeviceDsmAction_Trim","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer","base.device_manage_data_set_attributes_output","winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT","winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"]
 old-location: base\device_manage_data_set_attributes_output.htm
-tech.root: devio
+tech.root: base
 ms.assetid: a3f03509-8be9-4cb4-b942-f5ab358bd70e
 ms.date: 12/05/2018
 ms.keywords: '*PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure, DeviceDsmAction_Allocation, DeviceDsmAction_Notification, DeviceDsmAction_OffloadRead, DeviceDsmAction_OffloadWrite, DeviceDsmAction_Repair, DeviceDsmAction_Resiliency, DeviceDsmAction_Scrub, DeviceDsmAction_Trim, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer, base.device_manage_data_set_attributes_output, winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT'
-f1_keywords:
-- winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 targetos: Windows
 req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_DSM_OUTPUT, *PDEVICE_DSM_OUTPUT
 req.redist: 
+f1_keywords:
+ - _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+ - winioctl/_DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+ - PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+ - winioctl/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+ - DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+ - winioctl/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 ---
 
 # DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure
@@ -47,27 +53,21 @@ req.redist:
 
 ## -description
 
-
 Output structure for the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      control code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size of the structure. This is set to 
       <code>sizeof(DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT)</code>.
 
-
 ### -field Action
 
 The action related to the instance of this structure. This is a value for the 
-      <a href="https://docs.microsoft.com/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> data
+      <a href="/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> data
       type.
 
 <table>
@@ -107,7 +107,7 @@ A notification action is performed. The <b>DeviceDsmActionFlag_NonDestructive</b
 <td width="60%">
 An offload read action is performed. The output described by the 
          <b>OutputBlockOffset</b> and <b>OutputBlockLength</b> members is a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a> structure. 
+         <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a> structure. 
          The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to indicate to 
          the driver stack that this operation is non-destructive.
 
@@ -122,7 +122,7 @@ An offload read action is performed. The output described by the
 <td width="60%">
 An offload write action is performed. The output described by the 
          <b>OutputBlockOffset</b> and <b>OutputBlockLength</b> members is a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a> structure.
+         <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a> structure.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ An offload write action is performed. The output described by the
 </td>
 <td width="60%">
 An allocation bitmap is returned for the first data set range passed in. The output is in a 
-         <a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_data_set_lb_provisioning_state">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
+         <a href="/windows/win32/api/winioctl/ns-winioctl-device_data_set_lb_provisioning_state">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
          indicate to the driver stack that this operation is non-destructive.
 
@@ -183,60 +183,44 @@ A resiliency action is performed. The <b>DeviceDsmActionFlag_NonDestructive</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
 Not used.
 
-
 ### -field OperationStatus
 
 Not used.
-
 
 ### -field ExtendedError
 
 Extended error information.
 
-
 ### -field TargetDetailedError
 
 Target specific error.
 
-
 ### -field ReservedStatus
 
 Reserved.
-
 
 ### -field OutputBlockOffset
 
 The offset, in bytes, from the beginning of this structure to where any action-specific data is 
       located.
 
-
 ### -field OutputBlockLength
 
 The length, in bytes, of the action-specific data.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>

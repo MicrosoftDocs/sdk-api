@@ -2,15 +2,12 @@
 UID: NF:textserv.ITextHost.TxGetCharFormat
 title: ITextHost::TxGetCharFormat (textserv.h)
 description: Requests the text host's default character format.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetCharFormat method","ITextHost.TxGetCharFormat","ITextHost::TxGetCharFormat","TxGetCharFormat","TxGetCharFormat method [Windows Controls]","TxGetCharFormat method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetCharFormat","_win32_ITextHost_TxGetCharFormat_cpp","controls.ITextHost_TxGetCharFormat","controls._win32_ITextHost_TxGetCharFormat","textserv/ITextHost::TxGetCharFormat"]
 old-location: controls\ITextHost_TxGetCharFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcharformat.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetCharFormat method, ITextHost.TxGetCharFormat, ITextHost::TxGetCharFormat, TxGetCharFormat, TxGetCharFormat method [Windows Controls], TxGetCharFormat method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetCharFormat, _win32_ITextHost_TxGetCharFormat_cpp, controls.ITextHost_TxGetCharFormat, controls._win32_ITextHost_TxGetCharFormat, textserv/ITextHost::TxGetCharFormat
-f1_keywords:
-- textserv/ITextHost.TxGetCharFormat
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxGetCharFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxGetCharFormat
+ - textserv/ITextHost::TxGetCharFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxGetCharFormat
 ---
 
 # ITextHost::TxGetCharFormat
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests the text host's default character format.
-
 
 ## -parameters
 
-
-
-
 ### -param ppCF
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>**</b>
+Type: <b>const <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>**</b>
 
-The default character format. 
-
+The default character format.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return the following COM error code if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+Return the following COM error code if the method fails. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -91,26 +85,14 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The text host retains ownership of the <a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
-
-
-
+The text host retains ownership of the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> returned. However, the pointer returned must remain valid until the text host notifies the text services object through <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a> that the default character format has changed.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 
@@ -118,11 +100,11 @@ The text host retains ownership of the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>
 
 
 
@@ -130,8 +112,4 @@ The text host retains ownership of the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

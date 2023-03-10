@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.IEnumAgent.Clone
 title: IEnumAgent::Clone (tapi3cc.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The IEnumAgent::Clone method (tapi3cc.h) creates another enumerator that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumAgent interface","IEnumAgent interface [TAPI 2.2]","Clone method","IEnumAgent.Clone","IEnumAgent::Clone","_tapi3_ienumagent_clone","tapi3.ienumagent_clone","tapi3cc/IEnumAgent::Clone"]
 old-location: tapi3\ienumagent_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e6e23f6b-a91a-43c1-8e37-f37d7284cef6
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAgent interface, IEnumAgent interface [TAPI 2.2],Clone method, IEnumAgent.Clone, IEnumAgent::Clone, _tapi3_ienumagent_clone, tapi3.ienumagent_clone, tapi3cc/IEnumAgent::Clone
-f1_keywords:
-- tapi3cc/IEnumAgent.Clone
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAgent.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAgent::Clone
+ - tapi3cc/IEnumAgent::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAgent.Clone
 ---
 
 # IEnumAgent::Clone
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to new 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a> interface.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,33 +114,17 @@ Failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a> interface returned by <b>IEnumAgent::Clone</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a> interface returned by <b>IEnumAgent::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumAgent</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagent">IEnumAgent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.PathAddExtensionW
 title: PathAddExtensionW function (shlwapi.h)
-description: Adds a file name extension to a path string.
+description: Adds a file name extension to a path string. (Unicode)
+helpviewer_keywords: ["PathAddExtension", "PathAddExtension function [Windows Shell]", "PathAddExtensionW", "_win32_PathAddExtension", "shell.PathAddExtension", "shlwapi/PathAddExtension", "shlwapi/PathAddExtensionW"]
 old-location: shell\PathAddExtension.htm
 tech.root: shell
 ms.assetid: 2c113d11-11d5-4362-bad5-c859d65aca2a
 ms.date: 12/05/2018
 ms.keywords: PathAddExtension, PathAddExtension function [Windows Shell], PathAddExtensionA, PathAddExtensionW, _win32_PathAddExtension, shell.PathAddExtension, shlwapi/PathAddExtension, shlwapi/PathAddExtensionA, shlwapi/PathAddExtensionW
-f1_keywords:
-- shlwapi/PathAddExtension
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathAddExtension
-- PathAddExtensionA
-- PathAddExtensionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathAddExtensionW
+ - shlwapi/PathAddExtensionW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathAddExtension
+ - PathAddExtensionA
+ - PathAddExtensionW
 ---
 
 # PathAddExtensionW function
@@ -54,14 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a file name extension to a path string.
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddextension">PathCchAddExtension</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchaddextension">PathCchAddExtension</a> function in its place.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param pszPath [in, out]
 
@@ -69,28 +67,19 @@ Type: <b>LPTSTR</b>
 
 A pointer to a buffer with the null-terminated string to which the file name extension will be appended. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
 
-
 ### -param pszExt [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string that contains the file name extension. This value can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if an extension was added, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 If there is already a file name extension present, no extension will be added. If the <i>pszPath</i> points to a <b>NULL</b> string, the result will be the file name extension only. If <i>pszExtension</i> points to a <b>NULL</b> string, an ".exe" extension will be added.
 
@@ -157,3 +146,6 @@ The return value is 1
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines PathAddExtension as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

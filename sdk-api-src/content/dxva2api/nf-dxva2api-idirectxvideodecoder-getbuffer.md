@@ -2,15 +2,12 @@
 UID: NF:dxva2api.IDirectXVideoDecoder.GetBuffer
 title: IDirectXVideoDecoder::GetBuffer (dxva2api.h)
 description: Retrieves a pointer to a DirectX Video Acceleration (DXVA) decoder buffer.
+helpviewer_keywords: ["DXVA2_BitStreamDateBufferType","DXVA2_DeblockingControlBufferType","DXVA2_FilmGrainBuffer","DXVA2_InverseQuantizationMatrixBufferType","DXVA2_MacroBlockControlBufferType","DXVA2_MotionVectorBuffer","DXVA2_PictureParametersBufferType","DXVA2_ResidualDifferenceBufferType","DXVA2_SliceControlBufferType","GetBuffer","GetBuffer method [Media Foundation]","GetBuffer method [Media Foundation]","IDirectXVideoDecoder interface","IDirectXVideoDecoder interface [Media Foundation]","GetBuffer method","IDirectXVideoDecoder.GetBuffer","IDirectXVideoDecoder::GetBuffer","db2d4818-8a96-461e-88c4-f25d3200d815","dxva2api/IDirectXVideoDecoder::GetBuffer","mf.idirectxvideodecoder_getbuffer"]
 old-location: mf\idirectxvideodecoder_getbuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: db2d4818-8a96-461e-88c4-f25d3200d815
 ms.date: 12/05/2018
 ms.keywords: DXVA2_BitStreamDateBufferType, DXVA2_DeblockingControlBufferType, DXVA2_FilmGrainBuffer, DXVA2_InverseQuantizationMatrixBufferType, DXVA2_MacroBlockControlBufferType, DXVA2_MotionVectorBuffer, DXVA2_PictureParametersBufferType, DXVA2_ResidualDifferenceBufferType, DXVA2_SliceControlBufferType, GetBuffer, GetBuffer method [Media Foundation], GetBuffer method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetBuffer method, IDirectXVideoDecoder.GetBuffer, IDirectXVideoDecoder::GetBuffer, db2d4818-8a96-461e-88c4-f25d3200d815, dxva2api/IDirectXVideoDecoder::GetBuffer, mf.idirectxvideodecoder_getbuffer
-f1_keywords:
-- dxva2api/IDirectXVideoDecoder.GetBuffer
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirectXVideoDecoder.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectXVideoDecoder::GetBuffer
+ - dxva2api/IDirectXVideoDecoder::GetBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirectXVideoDecoder.GetBuffer
 ---
 
 # IDirectXVideoDecoder::GetBuffer
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to a DirectX Video Acceleration (DXVA) decoder buffer.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param BufferType [in]
 
@@ -158,22 +154,16 @@ Film grain synthesis data buffer.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppBuffer [out]
 
 Receives a pointer to the start of the memory buffer.
 
-
 ### -param pBufferSize [out]
 
 Receives the size of the buffer, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -194,33 +184,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The method locks the Direct3D surface that contains the buffer. When you are done using the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-releasebuffer">IDirectXVideoDecoder::ReleaseBuffer</a> to unlock the surface.
+The method locks the Direct3D surface that contains the buffer. When you are done using the buffer, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-releasebuffer">IDirectXVideoDecoder::ReleaseBuffer</a> to unlock the surface.
 
 This method might block if too many operations have been queued on the GPU. The method unblocks when a free buffer becomes available.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/directx-video-acceleration-2-0">DirectX Video Acceleration 2.0</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>

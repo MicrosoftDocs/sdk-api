@@ -2,6 +2,7 @@
 UID: NF:ras.RasGetProjectionInfoA
 title: RasGetProjectionInfoA function (ras.h)
 description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.
+helpviewer_keywords: ["RASP_Amb", "RASP_PppCcp", "RASP_PppIp", "RASP_PppIpv6", "RASP_PppIpx", "RASP_PppLcp", "RASP_PppNbf", "RASP_Slip", "RasGetProjectionInfoA", "ras/RasGetProjectionInfoA"]
 old-location: rras\rasgetprojectioninfo.htm
 tech.root: RRAS
 ms.assetid: 97ae09c3-588a-4dd2-9756-ddcd5fa37f51
@@ -62,21 +63,21 @@ The
 
 
 
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the remote access connection of interest. An application obtains a RAS connection handle from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> function.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> or 
+<a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a> function.
 
 
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Specifies the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377648(v=vs.85)">RASPROJECTION</a> enumerated type value that identifies the protocol of interest.
+<a href="/previous-versions/windows/desktop/legacy/aa377648(v=vs.85)">RASPROJECTION</a> enumerated type value that identifies the protocol of interest.
 					
 
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Pointer to a buffer that receives the information specified by the <i>rasprojection</i> parameter. The information is in a structure appropriate to the <i>rasprojection</i> value. 
 
@@ -94,7 +95,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376720(v=vs.85)">RASAMB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376720(v=vs.85)">RASAMB</a>
 
 
 <div class="alert"><b>Note</b>  Supported on Windows 2000 or earlier.</div>
@@ -108,7 +109,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377620(v=vs.85)">RASPPPCCP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377620(v=vs.85)">RASPPPCCP</a>
 
 
 <div class="alert"><b>Note</b>  Supported on Windows 2000 or later.</div>
@@ -122,7 +123,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377634(v=vs.85)">RASPPPIP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377634(v=vs.85)">RASPPPIP</a>
 
 
 </td>
@@ -134,7 +135,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa816540(v=vs.85)">RASPPPIPV6</a>
+<a href="/previous-versions/windows/desktop/legacy/aa816540(v=vs.85)">RASPPPIPV6</a>
 
 
 <div class="alert"><b>Note</b>  Supported on Windows Vista or later.</div>
@@ -148,7 +149,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377623(v=vs.85)">RASPPPIPX</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377623(v=vs.85)">RASPPPIPX</a>
 
 
 <div class="alert"><b>Note</b>  Not supported on 64-bit Microsoft Windows.</div>
@@ -162,7 +163,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377638(v=vs.85)">RASPPPLCP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377638(v=vs.85)">RASPPPLCP</a>
 
 
 <div class="alert"><b>Note</b>  Supported on Windows 2000 or later.</div>
@@ -176,7 +177,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377642(v=vs.85)">RASPPPNBF</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377642(v=vs.85)">RASPPPNBF</a>
 
 
 <div class="alert"><b>Note</b>  Supported on Windows 2000 or earlier.</div>
@@ -190,7 +191,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377836(v=vs.85)">RASPSLIP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377836(v=vs.85)">RASPSLIP</a>
 
 
 <div class="alert"><b>Note</b>  Supported on Windows Server 2003 or earlier.</div>
@@ -201,7 +202,7 @@ Pointer to a buffer that receives the information specified by the <i>rasproject
  
 
 
-### -param arg4 [in, out]
+### -param unnamedParam4 [in, out]
 
 Pointer to a variable that, on input, specifies the size, in bytes, of the buffer pointed to by <i>lpprojection</i>. 
 
@@ -217,7 +218,7 @@ On output, this variable receives the size, in bytes, of the <i>lpprojection</i>
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -292,8 +293,8 @@ The control protocol for which information was requested neither succeeded nor f
 Remote access projection is the process whereby a remote access server and a remote client negotiate network protocol-specific information. A remote access server uses this network protocol-specific information to represent a remote client on the network.
 
 Remote access projection information is not available until the operating system has executed the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCS_Projected</a> state on the remote access connection. If 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCS_Projected</a> state on the remote access connection. If 
 <b>RasGetProjectionInfo</b> is called prior to the <b>RASCS_Projected</b> state, it returns <b>ERROR_PROJECTION_NOT_COMPLETE</b>.
 
 The NetBEUI protocol and authentication message blocks (AMB) are only supported on Windows 2000 and earlier versions of Windows.
@@ -301,61 +302,64 @@ The NetBEUI protocol and authentication message blocks (AMB) are only supported 
 
 
 
+
+> [!NOTE]
+> The ras.h header defines RasGetProjectionInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376720(v=vs.85)">RASAMB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376720(v=vs.85)">RASAMB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377620(v=vs.85)">RASPPPCCP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377620(v=vs.85)">RASPPPCCP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377634(v=vs.85)">RASPPPIP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377634(v=vs.85)">RASPPPIP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa816540(v=vs.85)">RASPPPIPV6</a>
+<a href="/previous-versions/windows/desktop/legacy/aa816540(v=vs.85)">RASPPPIPV6</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377623(v=vs.85)">RASPPPIPX</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377623(v=vs.85)">RASPPPIPX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377638(v=vs.85)">RASPPPLCP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377638(v=vs.85)">RASPPPLCP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377642(v=vs.85)">RASPPPNBF</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377642(v=vs.85)">RASPPPNBF</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377648(v=vs.85)">RASPROJECTION</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377648(v=vs.85)">RASPROJECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377836(v=vs.85)">RASPSLIP</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377836(v=vs.85)">RASPSLIP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
  
 
  
-

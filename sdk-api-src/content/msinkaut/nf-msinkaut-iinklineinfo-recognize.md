@@ -1,16 +1,13 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.Recognize
 title: IInkLineInfo::Recognize (msinkaut.h)
-description: Reserved.
+description: Reserved. (IInkLineInfo.Recognize)
+helpviewer_keywords: ["IInkLineInfo interface [Tablet PC]","Recognize method","IInkLineInfo.Recognize","IInkLineInfo::Recognize","Recognize","Recognize method [Tablet PC]","Recognize method [Tablet PC]","IInkLineInfo interface","b6a0f559-72e8-40db-ba9a-0f1b27ba6a96","msinkaut/IInkLineInfo::Recognize","tablet.iinklineinfo_recognize"]
 old-location: tablet\iinklineinfo_recognize.htm
 tech.root: tablet
 ms.assetid: b6a0f559-72e8-40db-ba9a-0f1b27ba6a96
 ms.date: 12/05/2018
 ms.keywords: IInkLineInfo interface [Tablet PC],Recognize method, IInkLineInfo.Recognize, IInkLineInfo::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkLineInfo interface, b6a0f559-72e8-40db-ba9a-0f1b27ba6a96, msinkaut/IInkLineInfo::Recognize, tablet.iinklineinfo_recognize
-f1_keywords:
-- msinkaut/IInkLineInfo.Recognize
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkLineInfo.Recognize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkLineInfo::Recognize
+ - msinkaut/IInkLineInfo::Recognize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkLineInfo.Recognize
 ---
 
 # IInkLineInfo::Recognize
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Reserved.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -86,18 +76,7 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>

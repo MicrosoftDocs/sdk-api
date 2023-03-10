@@ -2,15 +2,12 @@
 UID: NF:winsync.IEnumRangeExceptions.Reset
 title: IEnumRangeExceptions::Reset (winsync.h)
 description: Resets the enumerator to the beginning of the range exception set.
+helpviewer_keywords: ["IEnumRangeExceptions interface [Windows Sync]","Reset method","IEnumRangeExceptions.Reset","IEnumRangeExceptions::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumRangeExceptions interface","winsync.ienumrangeexceptions_reset","winsync/IEnumRangeExceptions::Reset"]
 old-location: winsync\ienumrangeexceptions_reset.htm
 tech.root: winsync
 ms.assetid: d4056703-8218-4b0b-9ed6-4c1584f0b751
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Reset method, IEnumRangeExceptions.Reset, IEnumRangeExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_reset, winsync/IEnumRangeExceptions::Reset
-f1_keywords:
-- winsync/IEnumRangeExceptions.Reset
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumRangeExceptions.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumRangeExceptions::Reset
+ - winsync/IEnumRangeExceptions::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumRangeExceptions.Reset
 ---
 
 # IEnumRangeExceptions::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumerator to the beginning of the range exception set.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -82,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumrangeexceptions">IEnumRangeExceptions Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumrangeexceptions">IEnumRangeExceptions Interface</a>

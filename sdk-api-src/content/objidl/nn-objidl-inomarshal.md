@@ -1,16 +1,13 @@
 ---
 UID: NN:objidl.INoMarshal
 title: INoMarshal (objidl.h)
-description: Marks an object that doesn't support being marshaled or stored in the Global Interface Table.
+description: The INoMarshal interface (objidl.h) marks an object that doesn't support being marshaled or stored in the Global Interface Table.
+helpviewer_keywords: ["INoMarshal","INoMarshal interface [COM]","INoMarshal interface [COM]","described","com.inomarshal","objidl/INoMarshal"]
 old-location: com\inomarshal.htm
 tech.root: com
 ms.assetid: 6C82B08D-C8AF-4FB6-988C-CD7F9BABEE92
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: INoMarshal, INoMarshal interface [COM], INoMarshal interface [COM],described, com.inomarshal, objidl/INoMarshal
-f1_keywords:
-- objidl/INoMarshal
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidl.h
-api_name:
-- INoMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INoMarshal
+ - objidl/INoMarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidl.h
+api_name:
+ - INoMarshal
 ---
 
 # INoMarshal interface
 
 
 ## -description
-
 
 Marks an object that doesn't support being marshaled or stored in the Global Interface Table.
 

@@ -2,15 +2,12 @@
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorageFromIDList
 title: CItemIDFactory::GetPropertyStorageFromIDList (shidfact.h)
 description: Create an instance of the IPropertyStore based on the serialized property storage associated with the first ItemID.
+helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetPropertyStorageFromIDList method","CItemIDFactory.GetPropertyStorageFromIDList","CItemIDFactory::GetPropertyStorageFromIDList","GetPropertyStorageFromIDList","GetPropertyStorageFromIDList method [Windows Shell]","GetPropertyStorageFromIDList method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getpropertystoragefromidlist","shidfact/CItemIDFactory::GetPropertyStorageFromIDList"]
 old-location: shell\citemidfactory_getpropertystoragefromidlist.htm
 tech.root: shell
 ms.assetid: 50E8F4F9-1E7B-4314-9AFB-1CA0795776FE
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorageFromIDList method, CItemIDFactory.GetPropertyStorageFromIDList, CItemIDFactory::GetPropertyStorageFromIDList, GetPropertyStorageFromIDList, GetPropertyStorageFromIDList method [Windows Shell], GetPropertyStorageFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystoragefromidlist, shidfact/CItemIDFactory::GetPropertyStorageFromIDList
-f1_keywords:
-- shidfact/CItemIDFactory.GetPropertyStorageFromIDList
-dev_langs:
-- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shidfact.h
-api_name:
-- CItemIDFactory.GetPropertyStorageFromIDList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CItemIDFactory::GetPropertyStorageFromIDList
+ - shidfact/CItemIDFactory::GetPropertyStorageFromIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shidfact.h
+api_name:
+ - CItemIDFactory.GetPropertyStorageFromIDList
 ---
 
 # CItemIDFactory::GetPropertyStorageFromIDList
@@ -48,50 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-create an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
-
+create an instance of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
 
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
 A PIDL containing the serialized property storage.
 
-
 ### -param riid [in]
 
-A reference to the IID of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> that is obtained by using __uuidof(IPropertyStore).
-
+A reference to the IID of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> that is obtained by using __uuidof(IPropertyStore).
 
 ### -param ppv [out]
 
-When this method returns, contains the address of a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
-
+When this method returns, contains the address of a pointer to a new <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>

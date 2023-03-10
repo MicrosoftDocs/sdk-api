@@ -2,15 +2,12 @@
 UID: NF:msports.ComDBReleasePort
 title: ComDBReleasePort function (msports.h)
 description: ComDBReleasePort releases a COM port number in the COM port database.
+helpviewer_keywords: ["ComDBReleasePort","ComDBReleasePort function [Serial Ports]","comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml","msports/ComDBReleasePort","serports.comdbreleaseport"]
 old-location: serports\comdbreleaseport.htm
 tech.root: serports
 ms.assetid: bece99c5-75de-4ab4-be26-14dc8cc1819c
 ms.date: 12/05/2018
 ms.keywords: ComDBReleasePort, ComDBReleasePort function [Serial Ports], comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml, msports/ComDBReleasePort, serports.comdbreleaseport
-f1_keywords:
-- msports/ComDBReleasePort
-dev_langs:
-- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msports.dll
-api_name:
-- ComDBReleasePort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComDBReleasePort
+ - msports/ComDBReleasePort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msports.dll
+api_name:
+ - ComDBReleasePort
 ---
 
 # ComDBReleasePort function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>ComDBReleasePort</b> releases a COM port number in the COM port database.
-
 
 ## -parameters
 
-
-
-
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
-
+Handle to the COM port database that was returned by <a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 ### -param ComNumber [in]
 
 Specifies the COM port number to release. A port number is an integer that ranges from one to COMDB_MAX_PORTS_ARBITRATED.
 
-
 ## -returns
-
-
 
 <b>ComDBReleasePort</b> returns one of the following status values.
 
@@ -123,35 +116,19 @@ The routine could not access the database. To get extended error information, ca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>Releasing</i> a COM port number means to log the port number as "not in use".
 
 <b>ComDBReleasePort</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
-
-
-
+For more information, see <a href="/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimnextfreeport">ComDBClaimNextFreePort</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>

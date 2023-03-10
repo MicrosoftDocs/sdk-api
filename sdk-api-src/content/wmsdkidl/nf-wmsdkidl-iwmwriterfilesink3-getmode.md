@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetMode
 title: IWMWriterFileSink3::GetMode (wmsdkidl.h)
 description: The GetMode method retrieves the supported file sink mode. More than one mode can be supported.
+helpviewer_keywords: ["GetMode","GetMode method [windows Media Format]","GetMode method [windows Media Format]","IWMWriterFileSink3 interface","IWMWriterFileSink3 interface [windows Media Format]","GetMode method","IWMWriterFileSink3.GetMode","IWMWriterFileSink3::GetMode","IWMWriterFileSink3GetMode","wmformat.iwmwriterfilesink3_getmode","wmsdkidl/IWMWriterFileSink3::GetMode"]
 old-location: wmformat\iwmwriterfilesink3_getmode.htm
 tech.root: wmformat
 ms.assetid: a8a7003e-e59f-451c-9f45-75d6d094a03b
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [windows Media Format], GetMode method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetMode method, IWMWriterFileSink3.GetMode, IWMWriterFileSink3::GetMode, IWMWriterFileSink3GetMode, wmformat.iwmwriterfilesink3_getmode, wmsdkidl/IWMWriterFileSink3::GetMode
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink3.GetMode
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink3.GetMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink3::GetMode
+ - wmsdkidl/IWMWriterFileSink3::GetMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink3.GetMode
 ---
 
 # IWMWriterFileSink3::GetMode
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetMode</b> method retrieves the supported file sink mode. More than one mode can be supported.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pdwFileSinkMode [out]
 
-Pointer to a <b>DWORD</b> containing a value from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_filesink_mode">WMT_FILESINK_MODE</a> enumeration type or multiple values combined with a bitwise <b>OR</b> operator.
-
+Pointer to a <b>DWORD</b> containing a value from the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_filesink_mode">WMT_FILESINK_MODE</a> enumeration type or multiple values combined with a bitwise <b>OR</b> operator.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,18 +93,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>

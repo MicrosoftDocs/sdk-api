@@ -2,15 +2,12 @@
 UID: NF:winsync.IEnumSingleItemExceptions.Reset
 title: IEnumSingleItemExceptions::Reset (winsync.h)
 description: Resets the enumerator to the beginning of the single-item exception set.
+helpviewer_keywords: ["IEnumSingleItemExceptions interface [Windows Sync]","Reset method","IEnumSingleItemExceptions.Reset","IEnumSingleItemExceptions::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumSingleItemExceptions interface","winsync.ienumsingleitemexceptions_reset","winsync/IEnumSingleItemExceptions::Reset"]
 old-location: winsync\ienumsingleitemexceptions_reset.htm
 tech.root: winsync
 ms.assetid: cbd65da9-d5bb-463e-aec6-763be41079ce
 ms.date: 12/05/2018
 ms.keywords: IEnumSingleItemExceptions interface [Windows Sync],Reset method, IEnumSingleItemExceptions.Reset, IEnumSingleItemExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSingleItemExceptions interface, winsync.ienumsingleitemexceptions_reset, winsync/IEnumSingleItemExceptions::Reset
-f1_keywords:
-- winsync/IEnumSingleItemExceptions.Reset
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumSingleItemExceptions.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSingleItemExceptions::Reset
+ - winsync/IEnumSingleItemExceptions::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumSingleItemExceptions.Reset
 ---
 
 # IEnumSingleItemExceptions::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumerator to the beginning of the single-item exception set.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -82,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>

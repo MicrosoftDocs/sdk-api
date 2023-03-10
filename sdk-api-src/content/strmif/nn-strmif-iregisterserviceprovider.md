@@ -2,15 +2,12 @@
 UID: NN:strmif.IRegisterServiceProvider
 title: IRegisterServiceProvider (strmif.h)
 description: The IRegisterServiceProvider interface registers an object as a service with the Filter Graph Manager. For more information, see IRegisterServiceProvider::RegisterService.
+helpviewer_keywords: ["IRegisterServiceProvider","IRegisterServiceProvider interface [DirectShow]","IRegisterServiceProvider interface [DirectShow]","described","IRegisterServiceProviderInterface","dshow.iregisterserviceprovider","strmif/IRegisterServiceProvider"]
 old-location: dshow\iregisterserviceprovider.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1097fa4c-d81d-4268-8492-c0d9f4888733
 ms.date: 12/05/2018
 ms.keywords: IRegisterServiceProvider, IRegisterServiceProvider interface [DirectShow], IRegisterServiceProvider interface [DirectShow],described, IRegisterServiceProviderInterface, dshow.iregisterserviceprovider, strmif/IRegisterServiceProvider
-f1_keywords:
-- strmif/IRegisterServiceProvider
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IRegisterServiceProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegisterServiceProvider
+ - strmif/IRegisterServiceProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IRegisterServiceProvider
 ---
 
 # IRegisterServiceProvider interface
@@ -49,36 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>IRegisterServiceProvider</code> interface registers an object as a service with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">IRegisterServiceProvider::RegisterService</a>.
-
-
-
+The <code>IRegisterServiceProvider</code> interface registers an object as a service with the <a href="/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a>. For more information, see <a href="/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">IRegisterServiceProvider::RegisterService</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRegisterServiceProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegisterServiceProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRegisterServiceProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">RegisterService</a>
-</td>
-<td align="left" width="63%">
-Registers an object as a service.
-
-</td>
-</tr>
-</table> 
+The <b>IRegisterServiceProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRegisterServiceProvider</b> also has these types of members:
 

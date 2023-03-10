@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_BufferUnderrunFreeDisabled
 title: IDiscFormat2Data::put_BufferUnderrunFreeDisabled (imapi2.h)
-description: Determines if Buffer Underrun Free recording is enabled.
+description: Determines if Buffer Underrun Free recording is enabled. (IDiscFormat2Data.put_BufferUnderrunFreeDisabled)
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","put_BufferUnderrunFreeDisabled method","IDiscFormat2Data.put_BufferUnderrunFreeDisabled","IDiscFormat2Data::put_BufferUnderrunFreeDisabled","imapi.idiscformat2data_put_bufferunderrunfreedisabled","imapi2/IDiscFormat2Data::put_BufferUnderrunFreeDisabled","put_BufferUnderrunFreeDisabled","put_BufferUnderrunFreeDisabled method [IMAPI]","put_BufferUnderrunFreeDisabled method [IMAPI]","IDiscFormat2Data interface"]
 old-location: imapi\idiscformat2data_put_bufferunderrunfreedisabled.htm
 tech.root: imapi
 ms.assetid: 32d05abe-c434-4a87-b6ee-961a999321c5
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_BufferUnderrunFreeDisabled method, IDiscFormat2Data.put_BufferUnderrunFreeDisabled, IDiscFormat2Data::put_BufferUnderrunFreeDisabled, imapi.idiscformat2data_put_bufferunderrunfreedisabled, imapi2/IDiscFormat2Data::put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled, put_BufferUnderrunFreeDisabled method [IMAPI], put_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2Data interface
-f1_keywords:
-- imapi2/IDiscFormat2Data.put_BufferUnderrunFreeDisabled
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.put_BufferUnderrunFreeDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::put_BufferUnderrunFreeDisabled
+ - imapi2/IDiscFormat2Data::put_BufferUnderrunFreeDisabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.put_BufferUnderrunFreeDisabled
 ---
 
 # IDiscFormat2Data::put_BufferUnderrunFreeDisabled
@@ -48,25 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if Buffer Underrun Free recording is enabled. <div class="alert"><b>Note</b>  This method  is only applicable to CDR/RW and DVD+/-R media formats.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
 Set to VARIANT_TRUE to disable Buffer Underrun Free recording; otherwise, VARIANT_FALSE. The default is VARIANT_FALSE (enabled).
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -89,27 +82,11 @@ Value: 0xC0AA0400
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Buffer underrun can be an issue if the data stream does not enter the buffer fast enough to keep the device continuously writing. In turn, the stop and start action of writing can cause data on the disc to be unusable. Buffer Underrun Free (BUF) recording allows the laser to start and stop without damaging data already written to the disc. Disabling of BUF recording is possible only on CD-R/RW media.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data,IDiscFormat2Data::get_BufferUnderrunFreeDisabled</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data,IDiscFormat2Data::get_BufferUnderrunFreeDisabled</a>

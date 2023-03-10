@@ -2,15 +2,12 @@
 UID: NF:mpeg2data.ISectionList.GetSectionData
 title: ISectionList::GetSectionData (mpeg2data.h)
 description: The GetSectionData method retrieves a section.
+helpviewer_keywords: ["GetSectionData","GetSectionData method [Microsoft TV Technologies]","GetSectionData method [Microsoft TV Technologies]","ISectionList interface","ISectionList interface [Microsoft TV Technologies]","GetSectionData method","ISectionList.GetSectionData","ISectionList::GetSectionData","ISectionListGetSectionData","mpeg2data/ISectionList::GetSectionData","mstv.isectionlist_getsectiondata"]
 old-location: mstv\isectionlist_getsectiondata.htm
 tech.root: mstv
 ms.assetid: b03d1727-9ebd-4e78-b7d0-c6d0959aab8a
 ms.date: 12/05/2018
 ms.keywords: GetSectionData, GetSectionData method [Microsoft TV Technologies], GetSectionData method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],GetSectionData method, ISectionList.GetSectionData, ISectionList::GetSectionData, ISectionListGetSectionData, mpeg2data/ISectionList::GetSectionData, mstv.isectionlist_getsectiondata
-f1_keywords:
-- mpeg2data/ISectionList.GetSectionData
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- ISectionList.GetSectionData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISectionList::GetSectionData
+ - mpeg2data/ISectionList::GetSectionData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - ISectionList.GetSectionData
 ---
 
 # ISectionList::GetSectionData
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetSectionData</b> method retrieves a section.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param sectionNumber [in]
 
 Specifies the section number to retrieve, indexed from zero. Call the <b>GetNumberOfSections</b> method to get the number of sections.
 
-
 ### -param pdwRawPacketLength [out]
 
 Receives the size of the section data, in bytes.
-
 
 ### -param ppSection [out]
 
 Address of a variable that receives a pointer to a <b>SECTION</b> structure, containing the section data. Do not free the memory for the structure; the object frees the memory when the interface is released.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -131,29 +120,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The section header is converted from network byte order to native byte order. The number of header bytes that are converted depends on the header type. The header types are <i>short header</i> (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> structure), <i>long header</i> (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-long_section">LONG_SECTION</a> structure), or <i>DSM-CC header</i> (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-dsmcc_section">DSMCC_SECTION</a> structure). If the section has a short header, the first three bytes are converted; for a long header, the first eight bytes are converted; and for a DSM-CC header, the first 20 bytes are converted.
+The section header is converted from network byte order to native byte order. The number of header bytes that are converted depends on the header type. The header types are <i>short header</i> (<a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> structure), <i>long header</i> (<a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-long_section">LONG_SECTION</a> structure), or <i>DSM-CC header</i> (<a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-dsmcc_section">DSMCC_SECTION</a> structure). If the section has a short header, the first three bytes are converted; for a long header, the first eight bytes are converted; and for a DSM-CC header, the first 20 bytes are converted.
 
 The body of the section data, after the header, is left unparsed and unconverted.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>

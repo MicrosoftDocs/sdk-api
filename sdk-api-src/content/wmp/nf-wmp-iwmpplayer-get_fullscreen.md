@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlayer.get_fullScreen
 title: IWMPPlayer::get_fullScreen (wmp.h)
 description: The get_fullScreen method retrieves a value indicating whether video content is played back in full-screen mode.
+helpviewer_keywords: ["IWMPPlayer interface [Windows Media Player]","get_fullScreen method","IWMPPlayer.get_fullScreen","IWMPPlayer::get_fullScreen","IWMPPlayerget_fullScreen","get_fullScreen","get_fullScreen method [Windows Media Player]","get_fullScreen method [Windows Media Player]","IWMPPlayer interface","wmp.iwmpplayer_get_fullscreen","wmp/IWMPPlayer::get_fullScreen"]
 old-location: wmp\iwmpplayer_get_fullscreen.htm
 tech.root: WMP
 ms.assetid: 5a8bb0b5-76c6-424f-ba37-5e913b6ed542
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer interface [Windows Media Player],get_fullScreen method, IWMPPlayer.get_fullScreen, IWMPPlayer::get_fullScreen, IWMPPlayerget_fullScreen, get_fullScreen, get_fullScreen method [Windows Media Player], get_fullScreen method [Windows Media Player],IWMPPlayer interface, wmp.iwmpplayer_get_fullscreen, wmp/IWMPPlayer::get_fullScreen
-f1_keywords:
-- wmp/IWMPPlayer.get_fullScreen
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayer.get_fullScreen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer::get_fullScreen
+ - wmp/IWMPPlayer::get_fullScreen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayer.get_fullScreen
 ---
 
 # IWMPPlayer::get_fullScreen
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_fullScreen</b> method retrieves a value indicating whether video content is played back in full-screen mode.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbFullScreen [out]
 
 Pointer to a <b>VARIANT_BOOL</b> indicating whether video content is played back in full-screen mode. The default is <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For full-screen mode to work properly when embedding the Windows Media Player control, the video display area must have a height and width of at least one pixel. If the <b>BSTR</b> specified in <b>IWMPPlayer::put_uiMode</b> is set to "mini" or "full", the height of the control itself must be 65 pixels or greater to accommodate the video display area in addition to the user interface.
 
@@ -112,28 +97,18 @@ Displaying transport controls in full-screen mode requires the Windows XP operat
 
 If transport controls are not displayed in full-screen mode, then Windows Media Player automatically exits full-screen mode when playback stops.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu">IWMPPlayer::get_enableContextMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu">IWMPPlayer::get_enableContextMenu</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_fullscreen">IWMPPlayer::put_fullScreen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_fullscreen">IWMPPlayer::put_fullScreen</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_uimode">IWMPPlayer::put_uiMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_uimode">IWMPPlayer::put_uiMode</a>

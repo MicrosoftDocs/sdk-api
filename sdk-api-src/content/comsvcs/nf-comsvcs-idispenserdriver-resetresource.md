@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IDispenserDriver.ResetResource
 title: IDispenserDriver::ResetResource (comsvcs.h)
 description: Prepares the resource to be put back into general or enlisted inventory.
+helpviewer_keywords: ["IDispenserDriver interface [COM+]","ResetResource method","IDispenserDriver.ResetResource","IDispenserDriver::ResetResource","ResetResource","ResetResource method [COM+]","ResetResource method [COM+]","IDispenserDriver interface","_dtc_IDispenserDriver_ResetResource","comsvcs/IDispenserDriver::ResetResource","cos.idispenserdriver_resetresource"]
 old-location: cos\idispenserdriver_resetresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 59df0703-90ea-480c-8608-7d43039b48ba
 ms.date: 12/05/2018
 ms.keywords: IDispenserDriver interface [COM+],ResetResource method, IDispenserDriver.ResetResource, IDispenserDriver::ResetResource, ResetResource, ResetResource method [COM+], ResetResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_ResetResource, comsvcs/IDispenserDriver::ResetResource, cos.idispenserdriver_resetresource
-f1_keywords:
-- comsvcs/IDispenserDriver.ResetResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IDispenserDriver.ResetResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispenserDriver::ResetResource
+ - comsvcs/IDispenserDriver::ResetResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IDispenserDriver.ResetResource
 ---
 
 # IDispenserDriver::ResetResource
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Prepares the resource to be put back into general or enlisted inventory.
 
-
 ## -parameters
-
-
-
 
 ### -param ResId [in]
 
 The resource to be reset.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -107,27 +101,11 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The resource may still be enlisted at this time, so <b>ResetResource</b> cannot disrupt the enlistment.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>

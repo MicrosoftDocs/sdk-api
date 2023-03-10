@@ -1,16 +1,13 @@
 ---
 UID: NF:resapi.ClusAddClusterHealthFault
 title: ClusAddClusterHealthFault function (resapi.h)
-description: TBD.
+description: The ClusAddClusterHealthFault function is a health fault utility function that is part of the resapi.h header used by Windows Clustering.
+helpviewer_keywords: ["ClusAddClusterHealthFault","ClusAddClusterHealthFault function [Failover Cluster]","mscs.clusaddclusterhealthfault","resapi/ClusAddClusterHealthFault"]
 old-location: mscs\clusaddclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: 7240e9c9-a362-4de8-b0bd-aeadf53eb111
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: ClusAddClusterHealthFault, ClusAddClusterHealthFault function [Failover Cluster], mscs.clusaddclusterhealthfault, resapi/ClusAddClusterHealthFault
-f1_keywords:
-- resapi/ClusAddClusterHealthFault
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,22 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- ClusAddClusterHealthFault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusAddClusterHealthFault
+ - resapi/ClusAddClusterHealthFault
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - ClusAddClusterHealthFault
 ---
 
 # ClusAddClusterHealthFault function
@@ -47,35 +48,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 TBD
 
-
 ### -param failure [in]
 
 TBD
 
-
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 TBD
-
 
 ## -returns
 
-
-
 TBD
-
-
 

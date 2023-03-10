@@ -2,15 +2,12 @@
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_V1
 title: CLAIM_SECURITY_ATTRIBUTE_V1 (winnt.h)
 description: Defines a security attribute that can be associated with a token or authorization context.
+helpviewer_keywords: ["*PCLAIM_SECURITY_ATTRIBUTE_V1","CLAIM_SECURITY_ATTRIBUTE_DISABLED","CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT","CLAIM_SECURITY_ATTRIBUTE_MANDATORY","CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE","CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN","CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN","CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64","CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING","CLAIM_SECURITY_ATTRIBUTE_TYPE_SID","CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING","CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64","CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY","CLAIM_SECURITY_ATTRIBUTE_V1","CLAIM_SECURITY_ATTRIBUTE_V1 structure [Security]","CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE","PCLAIM_SECURITY_ATTRIBUTE_V1","PCLAIM_SECURITY_ATTRIBUTE_V1 structure pointer [Security]","_CLAIM_SECURITY_ATTRIBUTE_V1","security.claim_security_attribute_v1","winnt/CLAIM_SECURITY_ATTRIBUTE_V1","winnt/PCLAIM_SECURITY_ATTRIBUTE_V1"]
 old-location: security\claim_security_attribute_v1.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: FDBB9B00-01C3-474A-81FF-97C5CBA3261B
 ms.date: 12/05/2018
 ms.keywords: '*PCLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_TYPE_BOOLEAN, CLAIM_SECURITY_ATTRIBUTE_TYPE_FQBN, CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_SID, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_V1, CLAIM_SECURITY_ATTRIBUTE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_V1, PCLAIM_SECURITY_ATTRIBUTE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_V1, security.claim_security_attribute_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_V1'
-f1_keywords:
-- winnt/CLAIM_SECURITY_ATTRIBUTE_V1
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- CLAIM_SECURITY_ATTRIBUTE_V1
 targetos: Windows
 req.typenames: CLAIM_SECURITY_ATTRIBUTE_V1, *PCLAIM_SECURITY_ATTRIBUTE_V1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLAIM_SECURITY_ATTRIBUTE_V1
+ - winnt/_CLAIM_SECURITY_ATTRIBUTE_V1
+ - PCLAIM_SECURITY_ATTRIBUTE_V1
+ - winnt/PCLAIM_SECURITY_ATTRIBUTE_V1
+ - CLAIM_SECURITY_ATTRIBUTE_V1
+ - winnt/CLAIM_SECURITY_ATTRIBUTE_V1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - CLAIM_SECURITY_ATTRIBUTE_V1
 ---
 
 # CLAIM_SECURITY_ATTRIBUTE_V1 structure
@@ -48,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CLAIM_SECURITY_ATTRIBUTE_V1</b> structure defines a security attribute that can be associated with a token or authorization context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Name
 
 A pointer to a string of Unicode characters that contains the name of the security attribute. This string must be at least 4 bytes in length.
 
-
 ### -field ValueType
 
-A union tag value that indicates the type of information contained in the <b>Values</b> member. The <b>ValueType</b> member must be one of the following values.
+A union tag value that indicates the type of information contained in the <b>Values</b> member. The <b>ValueType</b> member must be one of the following values (see remarks for additional information).
 
 <table>
 <tr>
@@ -111,7 +111,7 @@ The <b>Values</b> member refers to an array of pointers to Unicode string values
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a> values.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values where the <b>pValue</b> member of each <b>CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</b> is a <b>PSID</b>.
+The <b>Values</b> member refers to an array of <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values where the <b>pValue</b> member of each <b>CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</b> is a <b>PSID</b>.
 
 </td>
 </tr>
@@ -144,18 +144,15 @@ The <b>Values</b> member refers to an array of <b>ULONG64</b> values where each 
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 This member is reserved and must be set to zero when sent and must be ignored when received.
-
 
 ### -field Flags
 
@@ -195,7 +192,7 @@ The value of the claim security attribute is case sensitive. This flag is valid 
 </dl>
 </td>
 <td width="60%">
-The claim security attribute is considered only for deny <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
+The claim security attribute is considered only for deny <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
 </td>
 </tr>
@@ -217,7 +214,7 @@ The claim security attribute is disabled by default.
 </dl>
 </td>
 <td width="60%">
-The claim security attribute is disabled and will not be applied by the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a> function.
+The claim security attribute is disabled and will not be applied by the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a> function.
 
 </td>
 </tr>
@@ -233,51 +230,39 @@ The claim security attribute is mandatory.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ValueCount
 
 The number of values specified in the <b>Values</b> member.
 
-
 ### -field Values
 
 An array of security attribute values of the type specified in the <b>ValueType</b> member.
-
 
 ### -field Values.pInt64
 
 Pointer to an array of <b>ValueCount</b> members where each member is  a <b>LONG64</b> of type CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64.
 
-
 ### -field Values.pUint64
 
 Pointer to an array of <b>ValueCount</b> members where each member is  a <b>ULONG64</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64.
-
 
 ### -field Values.ppString
 
 Pointer to an array of <b>ValueCount</b> members where each member is  a <b>PWSTR</b>  of type CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING.
 
-
 ### -field Values.pFqbn
 
-Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
-
+Pointer to an array of <b>ValueCount</b> members where each member is a fully qualified binary name value of type <a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attribute_fqbn_value">CLAIM_SECURITY_ATTRIBUTE_FQBN_VALUE</a>.
 
 ### -field Values.pOctetString
 
-Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is  an octet string of type <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 
+## -remarks
+
+The field value type indicates that the value can be an octet string or a SID. However, the [Directory Services documentation for claims entries](/openspecs/windows_protocols/ms-adts/252d7e10-eaf8-44e9-8b8d-205b384f5782) specifies that effective possible data types for claims are limited to Int64, UInt64, UnicodeString, and Boolean.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-claim_security_attributes_information">CLAIM_SECURITY_ATTRIBUTES_INFORMATION</a>

@@ -2,15 +2,12 @@
 UID: NN:rdpencomapi.IRDPSRAPISessionProperties
 title: IRDPSRAPISessionProperties (rdpencomapi.h)
 description: Use this interface to get or set session properties.
+helpviewer_keywords: ["IRDPSRAPISessionProperties","IRDPSRAPISessionProperties interface [RDP]","IRDPSRAPISessionProperties interface [RDP]","described","rdp.irdpsrapisessionproperties","rdpencomapi/IRDPSRAPISessionProperties"]
 old-location: rdp\irdpsrapisessionproperties.htm
 tech.root: rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
-f1_keywords:
-- rdpencomapi/IRDPSRAPISessionProperties
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPISessionProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPISessionProperties
+ - rdpencomapi/IRDPSRAPISessionProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPISessionProperties
 ---
 
 # IRDPSRAPISessionProperties interface
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to get or set session properties.
 
 To get this interface, access one of the following properties:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_properties">Properties Property of IRDPSRAPISharingSession</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-get_properties">Properties Property of IRDPSRAPISharingSession</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_properties">Properties Property of IRDPSRAPIViewer</a>
+<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-get_properties">Properties Property of IRDPSRAPIViewer</a>
 </li>
 </ul>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

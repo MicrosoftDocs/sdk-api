@@ -1,16 +1,13 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetHotkey
 title: IShellLinkW::GetHotkey (shobjidl_core.h)
-description: Gets the keyboard shortcut (hot key) for a Shell link object.
+description: Gets the keyboard shortcut (hot key) for a Shell link object. (Unicode)
+helpviewer_keywords: ["GetHotkey","GetHotkey method [Windows Shell]","GetHotkey method [Windows Shell]","IShellLink interface","GetHotkey method [Windows Shell]","IShellLinkA interface","GetHotkey method [Windows Shell]","IShellLinkW interface","HOTKEYF_ALT","HOTKEYF_CONTROL","HOTKEYF_EXT","HOTKEYF_SHIFT","IShellLink interface [Windows Shell]","GetHotkey method","IShellLink::GetHotkey","IShellLinkA interface [Windows Shell]","GetHotkey method","IShellLinkA::GetHotkey","IShellLinkW interface [Windows Shell]","GetHotkey method","IShellLinkW.GetHotkey","IShellLinkW::GetHotkey","_win32_IShellLink_GetHotkey","shell.IShellLink_GetHotkey","shobjidl_core/IShellLink::GetHotkey","shobjidl_core/IShellLinkA::GetHotkey","shobjidl_core/IShellLinkW::GetHotkey"]
 old-location: shell\IShellLink_GetHotkey.htm
 tech.root: shell
 ms.assetid: 4e3572bf-8d68-4485-99e8-bf47192be821
 ms.date: 12/05/2018
 ms.keywords: GetHotkey, GetHotkey method [Windows Shell], GetHotkey method [Windows Shell],IShellLink interface, GetHotkey method [Windows Shell],IShellLinkA interface, GetHotkey method [Windows Shell],IShellLinkW interface, HOTKEYF_ALT, HOTKEYF_CONTROL, HOTKEYF_EXT, HOTKEYF_SHIFT, IShellLink interface [Windows Shell],GetHotkey method, IShellLink::GetHotkey, IShellLinkA interface [Windows Shell],GetHotkey method, IShellLinkA::GetHotkey, IShellLinkW interface [Windows Shell],GetHotkey method, IShellLinkW.GetHotkey, IShellLinkW::GetHotkey, _win32_IShellLink_GetHotkey, shell.IShellLink_GetHotkey, shobjidl_core/IShellLink::GetHotkey, shobjidl_core/IShellLinkA::GetHotkey, shobjidl_core/IShellLinkW::GetHotkey
-f1_keywords:
-- shobjidl_core/IShellLink.GetHotkey
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellLink.GetHotkey
-- IShellLinkA.GetHotkey
-- IShellLinkW.GetHotkey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLinkW::GetHotkey
+ - shobjidl_core/IShellLinkW::GetHotkey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink.GetHotkey
+ - IShellLinkA.GetHotkey
+ - IShellLinkW.GetHotkey
 ---
 
 # IShellLinkW::GetHotkey
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the keyboard shortcut (hot key) for a Shell link object.
 
-
 ## -parameters
-
-
-
 
 ### -param pwHotkey
 
@@ -109,14 +106,9 @@ Extended key
 
 SHIFT key
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

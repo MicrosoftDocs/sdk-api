@@ -1,12 +1,8 @@
 ---
 UID: NF:dpa_dsa.DSA_Sort~r1
 title: DSA_Sort
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: DSA_Sort
-f1_keywords:
-- dpa_dsa/DSA_Sort
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -21,20 +17,24 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - DSA_Sort
+ - dpa_dsa/DSA_Sort
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- dpa_dsa.h
+ - dpa_dsa.h
 api_name:
-- DSA_Sort
+ - DSA_Sort
 ---
 
 # DSA_Sort function
@@ -44,7 +44,6 @@ api_name:
 
 Sorts the items in a dynamic structure array (DSA).
 
-
 ## -parameters
 
 ### -param hdsa
@@ -53,28 +52,24 @@ Type: <b>HDSA</b>
 
 A handle to an existing DSA.
 
-
 ### -param pfnCompare
 
 Type: <b>PFNDACOMPARECONST</b>
 
-A comparison function pointer. 
-
+A comparison function pointer.
 
 ### -param lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 An additional parameter to be passed to <i>pfnCmp</i>.
 
-
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> on success or <b>FALSE</b> on failure.
 
 ## -remarks
 
 ## -see-also
-

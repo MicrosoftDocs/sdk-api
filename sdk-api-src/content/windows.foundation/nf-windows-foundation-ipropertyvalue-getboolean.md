@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetBoolean
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetBoolean (windows.foundation.h)
 description: Gets the 8-bit Boolean value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetBoolean","GetBoolean method [Windows Runtime]","GetBoolean method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetBoolean method","IPropertyValue.GetBoolean","IPropertyValue.IPropertyValue","IPropertyValue::GetBoolean","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetBoolean","winrt.ipropertyvalue_getboolean"]
 old-location: winrt\ipropertyvalue_getboolean.htm
 tech.root: WinRT
 ms.assetid: 5877E4BD-5712-4426-A31F-079E16ED0B4A
 ms.date: 12/05/2018
 ms.keywords: GetBoolean, GetBoolean method [Windows Runtime], GetBoolean method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetBoolean method, IPropertyValue.GetBoolean, IPropertyValue.IPropertyValue, IPropertyValue::GetBoolean, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetBoolean, winrt.ipropertyvalue_getboolean
-f1_keywords:
-- windows.foundation/IPropertyValue.GetBoolean
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetBoolean
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetBoolean
+ - windows.foundation/IPropertyValue::GetBoolean
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetBoolean
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetBoolean (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the 8-bit Boolean value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the 8-bit Boolean value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
@@ -63,10 +60,7 @@ Type: <b>BOOLEAN*</b>
 
 The 8-bit Boolean value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,27 +100,16 @@ The  property value was returned successfully.
 </dl>
 </td>
 <td width="60%">
-The type of <i>value</i> does not match the value of the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
+The type of <i>value</i> does not match the value of the <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createboolean">CreateBoolean</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createboolean">CreateBoolean</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>

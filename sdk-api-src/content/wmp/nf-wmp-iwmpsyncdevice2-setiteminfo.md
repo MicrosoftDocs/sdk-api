@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice2.setItemInfo
 title: IWMPSyncDevice2::setItemInfo (wmp.h)
 description: The setItemInfo method specifies an attribute value for a device.
+helpviewer_keywords: ["IWMPSyncDevice2 interface [Windows Media Player]","setItemInfo method","IWMPSyncDevice2.setItemInfo","IWMPSyncDevice2::setItemInfo","IWMPSyncDevice2setItemInfo","setItemInfo","setItemInfo method [Windows Media Player]","setItemInfo method [Windows Media Player]","IWMPSyncDevice2 interface","wmp.iwmpsyncdevice2_setiteminfo","wmp/IWMPSyncDevice2::setItemInfo"]
 old-location: wmp\iwmpsyncdevice2_setiteminfo.htm
 tech.root: WMP
 ms.assetid: 664e3e12-125b-4e11-bab5-44f51650983e
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice2 interface [Windows Media Player],setItemInfo method, IWMPSyncDevice2.setItemInfo, IWMPSyncDevice2::setItemInfo, IWMPSyncDevice2setItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPSyncDevice2 interface, wmp.iwmpsyncdevice2_setiteminfo, wmp/IWMPSyncDevice2::setItemInfo
-f1_keywords:
-- wmp/IWMPSyncDevice2.setItemInfo
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice2.setItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice2::setItemInfo
+ - wmp/IWMPSyncDevice2::setItemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice2.setItemInfo
 ---
 
 # IWMPSyncDevice2::setItemInfo
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>setItemInfo</b> method specifies an attribute value for a device.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param bstrItemName [in]
 
-<b>BSTR</b>specifying the name of the attribute on which to set the new value. For supported attribute names, see Remarks.
-
+<b>BSTR</b> specifying the name of the attribute on which to set the new value. For supported attribute names, see Remarks.
 
 ### -param bstrVal [in]
 
-<b>BSTR</b>specifying the new value. For information about supported values, see Remarks.
-
+<b>BSTR</b> specifying the new value. For information about supported values, see Remarks.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,14 +83,8 @@ The method succeeded or a partnership exists.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following table lists the supported attributes.
 
@@ -201,7 +185,7 @@ Requires Windows Media Player 12.
 <tr>
 <td>SyncOnConnect</td>
 <td>
-Specifies whether Windows Media Player should synchronize the device when the device gets conntected. The value "true" specifies that Windows Media Player should synchronize the device, and the value "false" specifies that Windows Media Player should not synchronize the device.
+Specifies whether Windows Media Player should synchronize the device when the device gets connected. The value "true" specifies that Windows Media Player should synchronize the device, and the value "false" specifies that Windows Media Player should not synchronize the device.
 
 Use of this attribute is permitted only for devices with which Windows Media Player has a partnership.
 
@@ -214,16 +198,6 @@ Requires Windows Media Player 12.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice2">IWMPSyncDevice2 Interface</a>

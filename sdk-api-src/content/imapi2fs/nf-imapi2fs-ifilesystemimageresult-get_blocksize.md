@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImageResult.get_BlockSize
 title: IFileSystemImageResult::get_BlockSize (imapi2fs.h)
 description: Retrieves the size, in bytes, of a block of data.
+helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_BlockSize method","IFileSystemImageResult.get_BlockSize","IFileSystemImageResult::get_BlockSize","get_BlockSize","get_BlockSize method [IMAPI]","get_BlockSize method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_blocksize","imapi2fs/IFileSystemImageResult::get_BlockSize"]
 old-location: imapi\ifilesystemimageresult_get_blocksize.htm
 tech.root: imapi
 ms.assetid: fe6d14d7-f3ae-4634-b8b4-1793f8007826
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_BlockSize method, IFileSystemImageResult.get_BlockSize, IFileSystemImageResult::get_BlockSize, get_BlockSize, get_BlockSize method [IMAPI], get_BlockSize method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_blocksize, imapi2fs/IFileSystemImageResult::get_BlockSize
-f1_keywords:
-- imapi2fs/IFileSystemImageResult.get_BlockSize
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImageResult.get_BlockSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImageResult::get_BlockSize
+ - imapi2fs/IFileSystemImageResult::get_BlockSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImageResult.get_BlockSize
 ---
 
 # IFileSystemImageResult::get_BlockSize
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size, in bytes, of a block of data.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Number of bytes in a block.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,22 +81,11 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_totalblocks">IFileSystemImageResult::get_TotalBlocks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_totalblocks">IFileSystemImageResult::get_TotalBlocks</a>

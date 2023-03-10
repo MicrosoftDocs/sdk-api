@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACPSink.OnEndEditTransaction
 title: ITextStoreACPSink::OnEndEditTransaction (textstor.h)
 description: ITextStoreACPSink::OnEndEditTransaction method
+helpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnEndEditTransaction method","ITextStoreACPSink.OnEndEditTransaction","ITextStoreACPSink::OnEndEditTransaction","OnEndEditTransaction","OnEndEditTransaction method [Text Services Framework]","OnEndEditTransaction method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onendedittransaction_ref","textstor/ITextStoreACPSink::OnEndEditTransaction","tsf.itextstoreacpsink_onendedittransaction"]
 old-location: tsf\itextstoreacpsink_onendedittransaction.htm
 tech.root: TSF
 ms.assetid: 4d2819a2-c780-47bb-b3e5-0836b8b4c5dd
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreACPSink.OnEndEditTransaction, ITextStoreACPSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onendedittransaction_ref, textstor/ITextStoreACPSink::OnEndEditTransaction, tsf.itextstoreacpsink_onendedittransaction
-f1_keywords:
-- textstor/ITextStoreACPSink.OnEndEditTransaction
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPSink.OnEndEditTransaction
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPSink::OnEndEditTransaction
+ - textstor/ITextStoreACPSink::OnEndEditTransaction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPSink.OnEndEditTransaction
 ---
 
 # ITextStoreACPSink::OnEndEditTransaction
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-## -parameters
-
-
-
+Called when an edit transaction is terminated.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,39 +75,23 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method causes the <a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction</a> method to be called on all installed edit transaction sinks.
 
-
-This method causes the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction</a> method to be called on all installed edit transaction sinks.
-
-An edit transaction is a group of text changes that should be processed at one time. Calling <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstartedittransaction">ITextStoreACPSink::OnStartEditTransaction</a> allows a text service to queue the upcoming changes until <b>ITextStoreACPSink::OnEndEditTransaction</b> is called. When <b>ITextStoreACPSink::OnEndEditTransaction</b> is called, the text service will process all of the queued changes. Use of edit transactions is optional.
-
-
-
+An edit transaction is a group of text changes that should be processed at one time. Calling <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstartedittransaction">ITextStoreACPSink::OnStartEditTransaction</a> allows a text service to queue the upcoming changes until <b>ITextStoreACPSink::OnEndEditTransaction</b> is called. When <b>ITextStoreACPSink::OnEndEditTransaction</b> is called, the text service will process all of the queued changes. Use of edit transactions is optional.
 
 ## -see-also
 
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstartedittransaction">ITextStoreACPSink::OnStartEditTransaction
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstartedittransaction">ITextStoreACPSink::OnStartEditTransaction
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction
+<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction
       </a>
- 
-
- 
-

@@ -2,15 +2,12 @@
 UID: NN:bits3_0.IBackgroundCopyCallback2
 title: IBackgroundCopyCallback2 (bits3_0.h)
 description: Implement this interface to receive notification that a file has completed downloading.
+helpviewer_keywords: ["IBackgroundCopyCallback2","IBackgroundCopyCallback2 interface [BITS]","IBackgroundCopyCallback2 interface [BITS]","described","bits.ibackgroundcopycallback2","bits3_0/IBackgroundCopyCallback2"]
 old-location: bits\ibackgroundcopycallback2.htm
 tech.root: Bits
 ms.assetid: 9bbc323c-0caf-46a9-ba25-e72a2c6ae363
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback2, IBackgroundCopyCallback2 interface [BITS], IBackgroundCopyCallback2 interface [BITS],described, bits.ibackgroundcopycallback2, bits3_0/IBackgroundCopyCallback2
-f1_keywords:
-- bits3_0/IBackgroundCopyCallback2
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyCallback2
+ - bits3_0/IBackgroundCopyCallback2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyCallback2
 ---
 
 # IBackgroundCopyCallback2 interface
@@ -49,51 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implement this interface to 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/registering-a-com-callback">receive notification</a> that a file has completed downloading. Instead of  polling for the download status of a file, clients use this interface.
+<a href="/windows/desktop/Bits/registering-a-com-callback">receive notification</a> that a file has completed downloading. Instead of  polling for the download status of a file, clients use this interface.
 			
 
 To receive notifications, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> implementation. To specify which notifications you want to receive, call the 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method.
 
-You must implement all methods of this interface and the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface. For example, if you do not register for the file transferred callback, your <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> instead.
-
+You must implement all methods of this interface and the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface. For example, if you do not register for the file transferred callback, your <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">FileTransferred</a> method must still return <b>S_OK</b>. If you do not want to receive the file transferred callback, you can simply implement the <b>IBackgroundCopyCallback</b> instead.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>. <b>IBackgroundCopyCallback2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBackgroundCopyCallback2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibackgroundcopycallback2-filetransferred">FileTransferred</a>
-</td>
-<td align="left" width="63%">
-Called when BITS successfully finishes transferring a file.
-
-</td>
-</tr>
-</table> 
-
+The <b>IBackgroundCopyCallback2</b> interface inherits from <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>. <b>IBackgroundCopyCallback2</b> also has these types of members:
 
 ## -remarks
 
-
-
-For more details on implementing this interface, see the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface.
+For more details on implementing this interface, see the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a> interface.
 
 
 #### Examples
@@ -308,25 +283,14 @@ HRESULT CNotifyInterface::FileTransferred(IBackgroundCopyJob* pJob, IBackgroundC
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback">IBackgroundCopyCallback</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>

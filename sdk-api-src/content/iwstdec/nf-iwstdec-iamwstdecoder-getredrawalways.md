@@ -2,15 +2,12 @@
 UID: NF:iwstdec.IAMWstDecoder.GetRedrawAlways
 title: IAMWstDecoder::GetRedrawAlways (iwstdec.h)
 description: Downstream filters use the GetRedrawAlways method to retrieve a value that indicates whether the whole output bitmap is redrawn for each sample.
+helpviewer_keywords: ["GetRedrawAlways","GetRedrawAlways method [DirectShow]","GetRedrawAlways method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetRedrawAlways method","IAMWstDecoder.GetRedrawAlways","IAMWstDecoder::GetRedrawAlways","IAMWstDecoderGetRedrawAlways","dshow.iamwstdecoder_getredrawalways","iwstdec/IAMWstDecoder::GetRedrawAlways"]
 old-location: dshow\iamwstdecoder_getredrawalways.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d4035bd0-9a86-4deb-b4eb-4aa5b4b4ff35
 ms.date: 12/05/2018
 ms.keywords: GetRedrawAlways, GetRedrawAlways method [DirectShow], GetRedrawAlways method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetRedrawAlways method, IAMWstDecoder.GetRedrawAlways, IAMWstDecoder::GetRedrawAlways, IAMWstDecoderGetRedrawAlways, dshow.iamwstdecoder_getredrawalways, iwstdec/IAMWstDecoder::GetRedrawAlways
-f1_keywords:
-- iwstdec/IAMWstDecoder.GetRedrawAlways
-dev_langs:
-- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMWstDecoder.GetRedrawAlways
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMWstDecoder::GetRedrawAlways
+ - iwstdec/IAMWstDecoder::GetRedrawAlways
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMWstDecoder.GetRedrawAlways
 ---
 
 # IAMWstDecoder::GetRedrawAlways
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Downstream filters use the <code>GetRedrawAlways</code> method to retrieve a value that indicates whether the whole output bitmap is redrawn for each sample.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpbOption [out]
 
@@ -81,29 +75,15 @@ Pointer to a <b>BOOL</b> to receive the redraw-always value.
 <td>Do not redraw the whole output bitmap for each sample.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>

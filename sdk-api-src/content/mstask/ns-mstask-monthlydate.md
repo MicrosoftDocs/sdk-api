@@ -2,15 +2,12 @@
 UID: NS:mstask._MONTHLYDATE
 title: MONTHLYDATE (mstask.h)
 description: Defines the day of the month the task will run.
+helpviewer_keywords: ["MONTHLYDATE","MONTHLYDATE structure [Task Scheduler]","TASK_APRIL","TASK_AUGUST","TASK_DECEMBER","TASK_FEBRUARY","TASK_JANUARY","TASK_JULY","TASK_JUNE","TASK_MARCH","TASK_MAY","TASK_NOVEMBER","TASK_OCTOBER","TASK_SEPTEMBER","_msb_monthlydate","mstask/MONTHLYDATE","taskschd.monthlydate","triggers [Task Scheduler]","structures","MONTHLYDATE"]
 old-location: taskschd\monthlydate.htm
 tech.root: taskschd
 ms.assetid: 51d010c9-4e16-49b7-8034-dfb27761c6a6
 ms.date: 12/05/2018
 ms.keywords: MONTHLYDATE, MONTHLYDATE structure [Task Scheduler], TASK_APRIL, TASK_AUGUST, TASK_DECEMBER, TASK_FEBRUARY, TASK_JANUARY, TASK_JULY, TASK_JUNE, TASK_MARCH, TASK_MAY, TASK_NOVEMBER, TASK_OCTOBER, TASK_SEPTEMBER, _msb_monthlydate, mstask/MONTHLYDATE, taskschd.monthlydate, triggers [Task Scheduler],structures,MONTHLYDATE
-f1_keywords:
-- mstask/MONTHLYDATE
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mstask.h
-api_name:
-- MONTHLYDATE
 targetos: Windows
 req.typenames: MONTHLYDATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MONTHLYDATE
+ - mstask/_MONTHLYDATE
+ - MONTHLYDATE
+ - mstask/MONTHLYDATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mstask.h
+api_name:
+ - MONTHLYDATE
 ---
 
 # MONTHLYDATE structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
  Defines the day of the month the task will run.
 
-
 ## -struct-fields
-
-
-
 
 ### -field rgfDays
 
 Specifies the day of the month a task runs. This value is a bitfield that specifies the day(s) the task will run. Bit 0 corresponds to the first of the month, bit 1 to the second, and so forth.
-
 
 ### -field rgfMonths
 
@@ -192,16 +190,12 @@ The task will run in December.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
  The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure definition.
+<a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> union uses an instance of this structure as part of the <b>Type</b> member of the 
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure definition.
 
 The following C++ example shows how to combine the flags.  The example runs a task quarterly.
 
@@ -212,21 +206,10 @@ example.rgfDays = 1;
 example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>

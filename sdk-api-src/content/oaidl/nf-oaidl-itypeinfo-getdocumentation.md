@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.GetDocumentation
 title: ITypeInfo::GetDocumentation (oaidl.h)
 description: Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
+helpviewer_keywords: ["GetDocumentation","GetDocumentation method [Automation]","GetDocumentation method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetDocumentation method","ITypeInfo.GetDocumentation","ITypeInfo::GetDocumentation","_oa96_ITypeInfo_GetDocumentation","automat.itypeinfo_getdocumentation","oaidl/ITypeInfo::GetDocumentation"]
 old-location: automat\itypeinfo_getdocumentation.htm
 tech.root: automat
 ms.assetid: 64d2cb0c-d0ca-499b-b089-44525f7f9749
 ms.date: 12/05/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDocumentation method, ITypeInfo.GetDocumentation, ITypeInfo::GetDocumentation, _oa96_ITypeInfo_GetDocumentation, automat.itypeinfo_getdocumentation, oaidl/ITypeInfo::GetDocumentation
-f1_keywords:
-- oaidl/ITypeInfo.GetDocumentation
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.GetDocumentation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::GetDocumentation
+ - oaidl/ITypeInfo::GetDocumentation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.GetDocumentation
 ---
 
 # ITypeInfo::GetDocumentation
@@ -48,48 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
 
-
 ## -parameters
-
-
-
 
 ### -param memid [in]
 
 The ID of the member whose documentation is to be returned.
 
-
-
-
 ### -param pBstrName [out]
 
 The name of the specified item. If the caller does not need the item name, <i>pBstrName</i> can be null.
-
-
 
 ### -param pBstrDocString [out]
 
 The documentation string for the specified item. If the caller does not need the documentation string, <i>pBstrDocString</i> can be null.
 
-
-
 ### -param pdwHelpContext [out]
 
 The Help localization context. If the caller does not need the Help context, it can be null.
-
-
 
 ### -param pBstrHelpFile [out]
 
 The fully qualified name of the file containing the DLL used for Help file. If the caller does not need the file name, it can be null.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,14 +120,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The function <b>GetDocumentation</b> provides access to the documentation for the member specified by the <i>memid</i> parameter. If the passed-in <i>memid</i> is MEMBERID_NIL, then the documentation for the type description is returned.
 
@@ -152,19 +131,8 @@ If the type description inherits from another type description, this function is
 
 
 
-The caller should use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the BSTRs referenced by <i>pBstrName</i>, <i>pBstrDocString</i>, and <i>pBstrHelpFile</i>.
-
-
-
-
+The caller should use <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the BSTRs referenced by <i>pBstrName</i>, <i>pBstrDocString</i>, and <i>pBstrHelpFile</i>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

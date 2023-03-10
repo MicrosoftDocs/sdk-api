@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_bufferingProgress
 title: IWMPNetwork::get_bufferingProgress (wmp.h)
 description: The get_bufferingProgress method retrieves the percentage of buffering completed.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_bufferingProgress method","IWMPNetwork.get_bufferingProgress","IWMPNetwork::get_bufferingProgress","IWMPNetworkget_bufferingProgress","get_bufferingProgress","get_bufferingProgress method [Windows Media Player]","get_bufferingProgress method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_bufferingprogress","wmp/IWMPNetwork::get_bufferingProgress"]
 old-location: wmp\iwmpnetwork_get_bufferingprogress.htm
 tech.root: WMP
 ms.assetid: 5c8cc541-3fc2-49b8-8a1a-f4959989aafe
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bufferingProgress method, IWMPNetwork.get_bufferingProgress, IWMPNetwork::get_bufferingProgress, IWMPNetworkget_bufferingProgress, get_bufferingProgress, get_bufferingProgress method [Windows Media Player], get_bufferingProgress method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bufferingprogress, wmp/IWMPNetwork::get_bufferingProgress
-f1_keywords:
-- wmp/IWMPNetwork.get_bufferingProgress
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_bufferingProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_bufferingProgress
+ - wmp/IWMPNetwork::get_bufferingProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_bufferingProgress
 ---
 
 # IWMPNetwork::get_bufferingProgress
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_bufferingProgress</b> method retrieves the percentage of buffering completed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plBufferingProgress [out]
 
 Pointer to a <b>long</b> containing the buffering progress.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each time playback is stopped and restarted, the value retrieved from this method is zero. It is not reset if playback is paused.
 
@@ -103,24 +88,14 @@ Buffering only applies to streaming content. This method retrieves valid informa
 
 Use the <b>IWMPEvents::Buffering</b> event to determine when buffering starts or stops.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-put_url">IWMPCore::put_URL</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-buffering">IWMPEvents::Buffering</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-buffering">IWMPEvents::Buffering</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

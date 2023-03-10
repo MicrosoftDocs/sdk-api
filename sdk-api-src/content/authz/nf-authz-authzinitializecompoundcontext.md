@@ -2,15 +2,12 @@
 UID: NF:authz.AuthzInitializeCompoundContext
 title: AuthzInitializeCompoundContext function (authz.h)
 description: Creates a user-mode context from the given user and device security contexts.
+helpviewer_keywords: ["AuthzInitializeCompoundContext","AuthzInitializeCompoundContext function [Security]","authz/AuthzInitializeCompoundContext","security.authzinitializecompoundcontext"]
 old-location: security\authzinitializecompoundcontext.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2EC9EE76-9A92-40DF-9884-547D96FF3E09
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeCompoundContext, AuthzInitializeCompoundContext function [Security], authz/AuthzInitializeCompoundContext, security.authzinitializecompoundcontext
-f1_keywords:
-- authz/AuthzInitializeCompoundContext
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzInitializeCompoundContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AuthzInitializeCompoundContext
+ - authz/AuthzInitializeCompoundContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzInitializeCompoundContext
 ---
 
 # AuthzInitializeCompoundContext function
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuthzInitializeCompoundContext</b> function creates a user-mode context from the given user and device security contexts.
 
-
 ## -parameters
-
-
-
 
 ### -param UserContext [in]
 
 User context to create the compound context from.
 
-
 ### -param DeviceContext [in]
 
 Device context to create the compound context from. This must not be the same as the user context.
-
 
 ### -param phCompoundContext [out]
 
 Used to return the resultant compound context.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

@@ -2,15 +2,12 @@
 UID: NF:commctrl.FlatSB_GetScrollPropPtr
 title: FlatSB_GetScrollPropPtr function (commctrl.h)
 description: Gets the properties for a flat scroll bar.
+helpviewer_keywords: ["FlatSB_GetScrollPropPtr","FlatSB_GetScrollPropPtr function [Windows Controls]","WSB_PROP_CXHSCROLL","WSB_PROP_CXHTHUMB","WSB_PROP_CXVSCROLL","WSB_PROP_CYHSCROLL","WSB_PROP_CYVSCROLL","WSB_PROP_CYVTHUMB","WSB_PROP_HBKGCOLOR","WSB_PROP_HSTYLE","WSB_PROP_PALETTE","WSB_PROP_VBKGCOLOR","WSB_PROP_VSTYLE","WSB_PROP_WINSTYLE","_win32_FlatSB_GetScrollPropPtr","_win32_FlatSB_GetScrollPropPtr_cpp","commctrl/FlatSB_GetScrollPropPtr","controls.FlatSB_GetScrollPropPtr","controls._win32_FlatSB_GetScrollPropPtr"]
 old-location: controls\FlatSB_GetScrollPropPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpropptr.htm
 ms.date: 12/05/2018
 ms.keywords: FlatSB_GetScrollPropPtr, FlatSB_GetScrollPropPtr function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, WSB_PROP_WINSTYLE, _win32_FlatSB_GetScrollPropPtr, _win32_FlatSB_GetScrollPropPtr_cpp, commctrl/FlatSB_GetScrollPropPtr, controls.FlatSB_GetScrollPropPtr, controls._win32_FlatSB_GetScrollPropPtr
-f1_keywords:
-- commctrl/FlatSB_GetScrollPropPtr
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- FlatSB_GetScrollPropPtr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FlatSB_GetScrollPropPtr
+ - commctrl/FlatSB_GetScrollPropPtr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - FlatSB_GetScrollPropPtr
 ---
 
 # FlatSB_GetScrollPropPtr function
@@ -48,26 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
+Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a> has been called for this window. 
 
-Gets the properties for a flat scroll bar. This function can also be used to determine if <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a> has been called for this window. 
-
-<div class="alert"><b>Note</b>  This is identical to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-flatsb_getscrollprop">FlatSB_GetScrollProp</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This is identical to <a href="/windows/desktop/api/commctrl/nf-commctrl-flatsb_getscrollprop">FlatSB_GetScrollProp</a>.</div><div> </div>
 
 ## -parameters
 
+### -param unnamedParam1
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-
-### -param arg1
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
-
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>. 
-
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>.
 
 ### -param propIndex
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The parameter that determines what 
 					<i>pValue</i> represents and which property is being retrieved. It can be one of the following values. 
@@ -227,39 +224,27 @@ A normal, nonflat scroll bar is displayed. No special visual effects are applied
 </dl>
 </td>
 <td width="60%">
-<i>pValue</i> is a pointer to an INT value that receives the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_HSCROLL</a> and <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_VSCROLL</a> style bits contained by the current window.
+<i>pValue</i> is a pointer to an INT value that receives the <a href="/windows/desktop/winmsg/window-styles">WS_HSCROLL</a> and <a href="/windows/desktop/winmsg/window-styles">WS_VSCROLL</a> style bits contained by the current window.
 
 </td>
 </tr>
 </table>
- 
 
+### -param unnamedParam3
 
-### -param arg3
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 
 A pointer to an <b>int</b> that receives the requested data. This parameter depends on the flag passed in 
-					<i>index</i>. 
-
+					<i>index</i>.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. If 
-						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a> has been called for this window, or zero otherwise. 
-
-
-
+						<i>index</i> is WSB_PROP_HSTYLE, the return is nonzero if <a href="/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a> has been called for this window, or zero otherwise.
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  Flat scroll bar functions are implemented in Comctl32.dll versions 4.71 through 5.82. Comctl32.dll versions 6.00 and higher do not support flat scroll bars.</div>
 <div> </div>
-
-

@@ -2,15 +2,12 @@
 UID: NF:d3d11.ID3D11DeviceContext.DrawAuto
 title: ID3D11DeviceContext::DrawAuto (d3d11.h)
 description: Draw geometry of an unknown size.
+helpviewer_keywords: ["DrawAuto","DrawAuto method [Direct3D 11]","DrawAuto method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DrawAuto method","ID3D11DeviceContext.DrawAuto","ID3D11DeviceContext::DrawAuto","d3d11/ID3D11DeviceContext::DrawAuto","d5e26d9c-e682-ea81-70bc-d35792e62157","direct3d11.id3d11devicecontext_drawauto"]
 old-location: direct3d11\id3d11devicecontext_drawauto.htm
 tech.root: direct3d11
 ms.assetid: 34688e87-514f-4f85-b56b-e0245400a5ac
 ms.date: 12/05/2018
 ms.keywords: DrawAuto, DrawAuto method [Direct3D 11], DrawAuto method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawAuto method, ID3D11DeviceContext.DrawAuto, ID3D11DeviceContext::DrawAuto, d3d11/ID3D11DeviceContext::DrawAuto, d5e26d9c-e682-ea81-70bc-d35792e62157, direct3d11.id3d11devicecontext_drawauto
-f1_keywords:
-- d3d11/ID3D11DeviceContext.DrawAuto
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.DrawAuto
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::DrawAuto
+ - d3d11/ID3D11DeviceContext::DrawAuto
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.DrawAuto
 ---
 
 # ID3D11DeviceContext::DrawAuto
@@ -49,29 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draw geometry of an unknown size.
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-Returns nothing.
-
 
 
 
 ## -remarks
-
-
 
 A draw API submits work to the rendering pipeline. This API submits work of an unknown size that was processed by the input assembler, vertex shader, and stream-output stages;  the work may or may not have gone through the geometry-shader stage.
 
@@ -83,22 +67,12 @@ The following diagram shows the DrawAuto process.
 
 Calling DrawAuto does not change the state of the streaming-output buffers that were bound again as inputs.
 
-DrawAuto only works when drawing with one input buffer bound as an input to the IA stage at slot 0. Applications must create the SO buffer resource with both binding flags, <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_VERTEX_BUFFER</a> and <b>D3D11_BIND_STREAM_OUTPUT</b>.
+DrawAuto only works when drawing with one input buffer bound as an input to the IA stage at slot 0. Applications must create the SO buffer resource with both binding flags, <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag">D3D11_BIND_VERTEX_BUFFER</a> and <b>D3D11_BIND_STREAM_OUTPUT</b>.
 
 This API does not support indexing or instancing.
 
-If an application needs to retrieve the size of the streaming-output buffer, it can query for statistics on streaming output by using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY_SO_STATISTICS</a>.
-
-
-
+If an application needs to retrieve the size of the streaming-output buffer, it can query for statistics on streaming output by using <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY_SO_STATISTICS</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>

@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkCollector.GetGestureStatus
 title: IInkCollector::GetGestureStatus (msinkaut.h)
 description: Indicates whether the InkCollector or InkOverlay object is interested in a particular application gesture.
+helpviewer_keywords: ["31973709-1702-4ec1-8228-b0d1bdb64bc8","GetGestureStatus","GetGestureStatus method [Tablet PC]","GetGestureStatus method [Tablet PC]","IInkCollector interface","IInkCollector interface [Tablet PC]","GetGestureStatus method","IInkCollector.GetGestureStatus","IInkCollector::GetGestureStatus","msinkaut/IInkCollector::GetGestureStatus","tablet.inkcollector_getgesturestatus"]
 old-location: tablet\inkcollector_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: 31973709-1702-4ec1-8228-b0d1bdb64bc8
 ms.date: 12/05/2018
 ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetGestureStatus method, IInkCollector.GetGestureStatus, IInkCollector::GetGestureStatus, msinkaut/IInkCollector::GetGestureStatus, tablet.inkcollector_getgesturestatus
-f1_keywords:
-- msinkaut/IInkCollector.GetGestureStatus
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCollector.GetGestureStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector::GetGestureStatus
+ - msinkaut/IInkCollector::GetGestureStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCollector.GetGestureStatus
 ---
 
 # IInkCollector::GetGestureStatus
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is interested in a particular application gesture.
-
-
-
+Indicates whether the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is interested in a particular application gesture.
 
 ## -parameters
-
-
-
 
 ### -param Gesture [in]
 
 Sets the gesture that you want the status of.
 
-
 ### -param Listening [out, retval]
 
 <b>VARIANT_TRUE</b> if the InkCollector control has interest in a particular application gesture; otherwise, <b>VARIANT_VALSE</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -149,47 +139,32 @@ The flag is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method throws an exception if the gesture parameter is set to <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a>.
 
+To set the interest of the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object in a particular gesture, call the <b>InkCollector</b> or <b>InkOverlay</b> object's <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus</a> method.
 
-This method throws an exception if the gesture parameter is set to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a>.
-
-To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object in a particular gesture, call the <b>InkCollector</b> or <b>InkOverlay</b> object's <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus</a> method.
-
-<div class="alert"><b>Note</b>  By default, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> objects do not have interest in any of the application gestures.</div>
+<div class="alert"><b>Note</b>  By default, the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> and <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> objects do not have interest in any of the application gestures.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/tablet/inkcollector-gesture">Gesture Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture Event</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
+<a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus Method</a>

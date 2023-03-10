@@ -2,15 +2,12 @@
 UID: NF:directxmath.XMLoadUInt2
 title: XMLoadUInt2 function (directxmath.h)
 description: Loads unsigned integer data into the x and y components of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMLoadUInt2","XMLoadUInt2","XMLoadUInt2 method [DirectX Math Support APIs]","dxmath.xmloaduint2"]
 old-location: dxmath\xmloaduint2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUInt2(const XMUINT2)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadUInt2, XMLoadUInt2, XMLoadUInt2 method [DirectX Math Support APIs], dxmath.xmloaduint2
-f1_keywords:
-- directxmath/XMLoadUInt2
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMLoadUInt2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMLoadUInt2
+ - directxmath/XMLoadUInt2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMLoadUInt2
 ---
 
 # XMLoadUInt2 function
@@ -48,36 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads unsigned integer data into the x and y components 
-  of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
-
+  of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -parameters
 
-
-
-
 ### -param pSource [in]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a> structure containing the data to load. 
-        
-
+Address of an <a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a> structure containing the data to load.
 
 ## -returns
 
-
-
-Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i>parameter.
-
-
-
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> loaded with the data from the <i>pSource</i> parameter.
 
 ## -remarks
 
-
-
-For 16-byte aligned memory, it may be faster to use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxmath/nf-directxmath-xmloadint2a">XMLoadInt2A</a> 
+For 16-byte aligned memory, it may be faster to use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmloadint2a">XMLoadInt2A</a> 
     with a casting operator.
 
 The following pseudocode show the operation of this function.
@@ -101,16 +89,6 @@ return vectorOut;
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-load">DirectXMath Library Vector Load Functions</a>

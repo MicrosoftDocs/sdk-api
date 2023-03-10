@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.DrawTextExW
 title: DrawTextExW function (winuser.h)
-description: The DrawTextEx function draws formatted text in the specified rectangle.
+description: The DrawTextEx function draws formatted text in the specified rectangle. (Unicode)
+helpviewer_keywords: ["DT_BOTTOM", "DT_CALCRECT", "DT_CENTER", "DT_EDITCONTROL", "DT_END_ELLIPSIS", "DT_EXPANDTABS", "DT_EXTERNALLEADING", "DT_HIDEPREFIX", "DT_INTERNAL", "DT_LEFT", "DT_MODIFYSTRING", "DT_NOCLIP", "DT_NOFULLWIDTHCHARBREAK", "DT_NOPREFIX", "DT_PATH_ELLIPSIS", "DT_PREFIXONLY", "DT_RIGHT", "DT_RTLREADING", "DT_SINGLELINE", "DT_TABSTOP", "DT_TOP", "DT_VCENTER", "DT_WORDBREAK", "DT_WORD_ELLIPSIS", "DrawTextEx", "DrawTextEx function [Windows GDI]", "DrawTextExW", "_win32_DrawTextEx", "gdi.drawtextex", "winuser/DrawTextEx", "winuser/DrawTextExW"]
 old-location: gdi\drawtextex.htm
 tech.root: gdi
 ms.assetid: 77b9973b-77f1-4508-a021-52d61d576c23
 ms.date: 12/05/2018
 ms.keywords: DT_BOTTOM, DT_CALCRECT, DT_CENTER, DT_EDITCONTROL, DT_END_ELLIPSIS, DT_EXPANDTABS, DT_EXTERNALLEADING, DT_HIDEPREFIX, DT_INTERNAL, DT_LEFT, DT_MODIFYSTRING, DT_NOCLIP, DT_NOFULLWIDTHCHARBREAK, DT_NOPREFIX, DT_PATH_ELLIPSIS, DT_PREFIXONLY, DT_RIGHT, DT_RTLREADING, DT_SINGLELINE, DT_TABSTOP, DT_TOP, DT_VCENTER, DT_WORDBREAK, DT_WORD_ELLIPSIS, DrawTextEx, DrawTextEx function [Windows GDI], DrawTextExA, DrawTextExW, _win32_DrawTextEx, gdi.drawtextex, winuser/DrawTextEx, winuser/DrawTextExA, winuser/DrawTextExW
-f1_keywords:
-- winuser/DrawTextEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,27 +25,33 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- DrawTextEx
-- DrawTextExA
-- DrawTextExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawTextExW
+ - winuser/DrawTextExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - DrawTextEx
+ - DrawTextExA
+ - DrawTextExW
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # DrawTextExW function
@@ -56,19 +59,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrawTextEx</b> function draws formatted text in the specified rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context in which to draw.
-
 
 ### -param lpchText [in, out]
 
@@ -76,16 +73,13 @@ A pointer to the string that contains the text to draw. If the <i>cchText</i> pa
 
 If <i>dwDTFormat</i> includes DT_MODIFYSTRING, the function could add up to four additional characters to this string. The buffer containing the string should be large enough to accommodate these extra characters.
 
-
 ### -param cchText [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpchText</i>. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawTextEx</b> computes the character count automatically.
-
+The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpchText</i>. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawTextEx</b> computes the character count automatically.
 
 ### -param lprc [in, out]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the rectangle, in logical coordinates, in which the text is to be formatted.
-
 
 ### -param format [in]
 
@@ -254,7 +248,7 @@ Turns off processing of prefix characters. Normally, <b>DrawTextEx</b> interpret
 </dl>
 </td>
 <td width="60%">
-For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash. The string is not modified unless the DT_MODIFYSTRING flag is specified.
+For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash. The string is not modified unless the DT_MODIFYSTRING flag is specified.
 
 Compare with DT_END_ELLIPSIS and DT_WORD_ELLIPSIS.
 
@@ -316,7 +310,7 @@ Displays text on a single line only. Carriage returns and line feeds do not brea
 </dl>
 </td>
 <td width="60%">
-Sets tab stops. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
+Sets tab stops. The <a href="/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
 
 </td>
 </tr>
@@ -363,28 +357,18 @@ Compare with DT_END_ELLIPSIS and DT_PATH_ELLIPSIS.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdtp [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
-
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the text height in logical units. If DT_VCENTER or DT_BOTTOM is specified, the return value is the offset from <code>lprc-&gt;top</code> to the bottom of the drawn text
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>DrawTextEx</b> function supports only fonts whose escapement and orientation are both zero.
 
@@ -393,27 +377,24 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines DrawTextEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS
+<a href="/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

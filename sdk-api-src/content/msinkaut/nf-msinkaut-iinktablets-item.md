@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkTablets.Item
 title: IInkTablets::Item (msinkaut.h)
 description: Retrieves the IInkTablet object at the specified index within the InkTablets collection.
+helpviewer_keywords: ["02ead8bd-9f96-4862-b9b4-b1f3def1efa6","IInkTablets interface [Tablet PC]","Item method","IInkTablets.Item","IInkTablets::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkTablets interface","msinkaut/IInkTablets::Item","tablet.inktablets_item"]
 old-location: tablet\inktablets_item.htm
 tech.root: tablet
 ms.assetid: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6
 ms.date: 12/05/2018
 ms.keywords: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6, IInkTablets interface [Tablet PC],Item method, IInkTablets.Item, IInkTablets::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::Item, tablet.inktablets_item
-f1_keywords:
-- msinkaut/IInkTablets.Item
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkTablets.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkTablets::Item
+ - msinkaut/IInkTablets::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkTablets.Item
 ---
 
 # IInkTablets::Item
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object at the specified index within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a> collection.
-
-
-
+Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object at the specified index within the <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a> collection.
 
 ## -parameters
 
-
-
-
 ### -param Index [in]
 
-The zero-based index of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object to get.
-
+The zero-based index of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object to get.
 
 ### -param Tablet [out, retval]
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object at the specified index within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a> collection.
-
+When this method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet</a> object at the specified index within the <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets</a> collection.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -207,37 +197,22 @@ The recognizers registry key is corrupted or your environment does not support h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An error occurs if the index doesn't match any existing member of the collection.
 
 <div class="alert"><b>Note</b>  This function can be re-entered when called within certain message handlers, causing unexpected results. Take care to avoid a reentrant call when handling any of the following messages: <b>WM_ACTIVATE</b>, <b>WM_ACTIVATEAPP</b>, <b>WM_NCACTIVATE</b>, <b>WM_PAINT</b>; <b>WM_SYSCOMMAND</b> if <i>wParam</i> is set to SC_HOTKEY or SC_TASKLIST; and <b>WM_SYSKEYDOWN</b> (when processing Alt-Tab or Alt-Esc key combinations). This is an issue with single-threaded apartment model applications.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
+<a href="../msinkaut/nn-msinkaut-iinktablets.md">IInkTablets</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>

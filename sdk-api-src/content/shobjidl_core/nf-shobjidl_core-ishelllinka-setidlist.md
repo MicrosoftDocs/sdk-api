@@ -1,16 +1,13 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetIDList
 title: IShellLinkA::SetIDList (shobjidl_core.h)
-description: Sets the pointer to an item identifier list (PIDL) for a Shell link object.
+description: Sets the pointer to an item identifier list (PIDL) for a Shell link object. (ANSI)
+helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetIDList method","IShellLink::SetIDList","IShellLinkA interface [Windows Shell]","SetIDList method","IShellLinkA.SetIDList","IShellLinkA::SetIDList","IShellLinkW interface [Windows Shell]","SetIDList method","IShellLinkW::SetIDList","SetIDList","SetIDList method [Windows Shell]","SetIDList method [Windows Shell]","IShellLink interface","SetIDList method [Windows Shell]","IShellLinkA interface","SetIDList method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetIDList","shell.IShellLink_SetIDList","shobjidl_core/IShellLink::SetIDList","shobjidl_core/IShellLinkA::SetIDList","shobjidl_core/IShellLinkW::SetIDList"]
 old-location: shell\IShellLink_SetIDList.htm
 tech.root: shell
 ms.assetid: 4c0571a5-1615-4c3f-b9a6-0667df07165b
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetIDList method, IShellLink::SetIDList, IShellLinkA interface [Windows Shell],SetIDList method, IShellLinkA.SetIDList, IShellLinkA::SetIDList, IShellLinkW interface [Windows Shell],SetIDList method, IShellLinkW::SetIDList, SetIDList, SetIDList method [Windows Shell], SetIDList method [Windows Shell],IShellLink interface, SetIDList method [Windows Shell],IShellLinkA interface, SetIDList method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetIDList, shell.IShellLink_SetIDList, shobjidl_core/IShellLink::SetIDList, shobjidl_core/IShellLinkA::SetIDList, shobjidl_core/IShellLinkW::SetIDList
-f1_keywords:
-- shobjidl_core/IShellLink.SetIDList
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellLink.SetIDList
-- IShellLinkA.SetIDList
-- IShellLinkW.SetIDList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLinkA::SetIDList
+ - shobjidl_core/IShellLinkA::SetIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink.SetIDList
+ - IShellLinkA.SetIDList
+ - IShellLinkW.SetIDList
 ---
 
 # IShellLinkA::SetIDList
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the pointer to an item identifier list (PIDL) for a Shell link object.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
@@ -65,23 +62,13 @@ Type: <b>PCIDLIST_ABSOLUTE</b>
 
 The object's fully qualified PIDL.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This method is useful when an application needs to set a Shell link to an object that is not a file, such as a Control Panel application, a printer, or another computer.
-
-
 

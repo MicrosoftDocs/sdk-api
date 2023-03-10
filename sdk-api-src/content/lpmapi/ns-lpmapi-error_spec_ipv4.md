@@ -1,16 +1,13 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_11
+UID: NS:lpmapi.Error_Spec_IPv4
 title: Error_Spec_IPv4 (lpmapi.h)
 description: The Error_Spec_IPv4 structure stores error code information for RSVP transmissions.
+helpviewer_keywords: ["Error_Spec_IPv4","Error_Spec_IPv4 structure [QOS]","lpmapi/Error_Spec_IPv4","qos.error_spec_ipv4"]
 old-location: qos\error_spec_ipv4.htm
 tech.root: QOS
 ms.assetid: 23df7278-8f37-426f-98ff-0cf02d780b76
 ms.date: 12/05/2018
 ms.keywords: Error_Spec_IPv4, Error_Spec_IPv4 structure [QOS], lpmapi/Error_Spec_IPv4, qos.error_spec_ipv4
-f1_keywords:
-- lpmapi/Error_Spec_IPv4
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- Error_Spec_IPv4
 targetos: Windows
 req.typenames: Error_Spec_IPv4
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Error_Spec_IPv4
+ - lpmapi/Error_Spec_IPv4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - Error_Spec_IPv4
 ---
 
 # Error_Spec_IPv4 structure
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Error_Spec_IPv4</b> structure stores error code information for RSVP transmissions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field errs_errnode
 
-IP address of the node responsible for the error, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
-
+IP address of the node responsible for the error, in the form of an <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
 
 ### -field errs_flags
 
@@ -88,18 +84,11 @@ Error code. Must be one of the following:
 
 Error value.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
- 
-
- 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
 

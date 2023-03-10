@@ -1,16 +1,13 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpTreeItemData
 title: IWiaItem::DumpTreeItemData (wia_xp.h)
-description: This method is not supported.
+description: This method is not supported. (IWiaItem.DumpTreeItemData)
+helpviewer_keywords: ["DumpTreeItemData","DumpTreeItemData method [WIA]","DumpTreeItemData method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","DumpTreeItemData method","IWiaItem.DumpTreeItemData","IWiaItem::DumpTreeItemData","_wia_IWiaItem_DumpTreeItemData","wia._wia_IWiaItem_DumpTreeItemData","wia_xp/IWiaItem::DumpTreeItemData"]
 old-location: wia\_wia_IWiaItem_DumpTreeItemData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumptreeitemdata.htm
 ms.date: 12/05/2018
 ms.keywords: DumpTreeItemData, DumpTreeItemData method [WIA], DumpTreeItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpTreeItemData method, IWiaItem.DumpTreeItemData, IWiaItem::DumpTreeItemData, _wia_IWiaItem_DumpTreeItemData, wia._wia_IWiaItem_DumpTreeItemData, wia_xp/IWiaItem::DumpTreeItemData
-f1_keywords:
-- wia_xp/IWiaItem.DumpTreeItemData
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaItem.DumpTreeItemData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaItem::DumpTreeItemData
+ - wia_xp/IWiaItem::DumpTreeItemData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaItem.DumpTreeItemData
 ---
 
 # IWiaItem::DumpTreeItemData
@@ -48,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method is not supported.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrData [out]
 
 Type: <b>BSTR*</b>
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

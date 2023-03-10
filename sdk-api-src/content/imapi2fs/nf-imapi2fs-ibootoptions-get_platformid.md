@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IBootOptions.get_PlatformId
 title: IBootOptions::get_PlatformId (imapi2fs.h)
 description: Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
+helpviewer_keywords: ["IBootOptions interface [IMAPI]","get_PlatformId method","IBootOptions.get_PlatformId","IBootOptions::get_PlatformId","get_PlatformId","get_PlatformId method [IMAPI]","get_PlatformId method [IMAPI]","IBootOptions interface","imapi.ibootoptions_get_platformid","imapi2fs/IBootOptions::get_PlatformId"]
 old-location: imapi\ibootoptions_get_platformid.htm
 tech.root: imapi
 ms.assetid: 8d5ceb0e-4fd2-4146-8e15-b157c80a9d5b
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],get_PlatformId method, IBootOptions.get_PlatformId, IBootOptions::get_PlatformId, get_PlatformId, get_PlatformId method [IMAPI], get_PlatformId method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_platformid, imapi2fs/IBootOptions::get_PlatformId
-f1_keywords:
-- imapi2fs/IBootOptions.get_PlatformId
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IBootOptions.get_PlatformId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBootOptions::get_PlatformId
+ - imapi2fs/IBootOptions::get_PlatformId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IBootOptions.get_PlatformId
 ---
 
 # IBootOptions::get_PlatformId
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the platform identifier that identifies the operating system architecture that the boot image supports.
-
 
 ## -parameters
 
-
-
-
 ### -param pVal [out]
 
-Identifies the operating system architecture that the boot image supports. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-platformid">PlatformId</a> enumeration type.
-
+Identifies the operating system architecture that the boot image supports. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-platformid">PlatformId</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,22 +81,11 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a>

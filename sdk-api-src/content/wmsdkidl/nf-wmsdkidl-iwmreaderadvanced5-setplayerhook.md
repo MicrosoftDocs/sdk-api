@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced5.SetPlayerHook
 title: IWMReaderAdvanced5::SetPlayerHook (wmsdkidl.h)
 description: The SetPlayerHook method assigns a player-hook callback to the reader. The reader calls the callback method before sending each sample to the graphics processor for decompression.
+helpviewer_keywords: ["IWMReaderAdvanced5 interface [windows Media Format]","SetPlayerHook method","IWMReaderAdvanced5.SetPlayerHook","IWMReaderAdvanced5::SetPlayerHook","IWMReaderAdvanced5SetPlayerHook","SetPlayerHook","SetPlayerHook method [windows Media Format]","SetPlayerHook method [windows Media Format]","IWMReaderAdvanced5 interface","wmformat.iwmreaderadvanced5_setplayerhook","wmsdkidl/IWMReaderAdvanced5::SetPlayerHook"]
 old-location: wmformat\iwmreaderadvanced5_setplayerhook.htm
 tech.root: wmformat
 ms.assetid: 499c6c31-8cdf-4b99-964a-1fd51c14c5bd
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced5 interface [windows Media Format],SetPlayerHook method, IWMReaderAdvanced5.SetPlayerHook, IWMReaderAdvanced5::SetPlayerHook, IWMReaderAdvanced5SetPlayerHook, SetPlayerHook, SetPlayerHook method [windows Media Format], SetPlayerHook method [windows Media Format],IWMReaderAdvanced5 interface, wmformat.iwmreaderadvanced5_setplayerhook, wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced5.SetPlayerHook
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced5.SetPlayerHook
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced5::SetPlayerHook
+ - wmsdkidl/IWMReaderAdvanced5::SetPlayerHook
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced5.SetPlayerHook
 ---
 
 # IWMReaderAdvanced5::SetPlayerHook
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetPlayerHook</b> method assigns a player-hook callback to the reader. The reader calls the callback method before sending each sample to the graphics processor for decompression.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 The output number to which the player-hook callback applies.
 
-
 ### -param pHook [in]
 
-Pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook">IWMPlayerHook</a> interface that will be used in association with the specified output.
-
+Pointer to the implementation of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook">IWMPlayerHook</a> interface that will be used in association with the specified output.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,27 +86,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 DirectX Video Acceleration enables supported graphics cards to decompress video samples.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5">IWMReaderAdvanced5 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5">IWMReaderAdvanced5 Interface</a>

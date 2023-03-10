@@ -2,15 +2,12 @@
 UID: NF:wcndevice.IWCNDevice.SetPassword
 title: IWCNDevice::SetPassword (wcndevice.h)
 description: The IWCNDevice::SetPassword method configures the authentication method value, and if required, a password used for the pending session. This method may only be called prior to IWCNDevice::Connect.
+helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetPassword method","IWCNDevice.SetPassword","IWCNDevice::SetPassword","SetPassword","SetPassword method [Windows Connect Now]","SetPassword method [Windows Connect Now]","IWCNDevice interface","WCN_PASSWORD_TYPE_PIN","WCN_PASSWORD_TYPE_PUSH_BUTTON","wcn.iwcndevice_setpassword","wcndevice/IWCNDevice::SetPassword"]
 old-location: wcn\iwcndevice_setpassword.htm
 tech.root: wcn
 ms.assetid: 51d03336-3861-4585-b493-d6765c28b1eb
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetPassword method, IWCNDevice.SetPassword, IWCNDevice::SetPassword, SetPassword, SetPassword method [Windows Connect Now], SetPassword method [Windows Connect Now],IWCNDevice interface, WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.iwcndevice_setpassword, wcndevice/IWCNDevice::SetPassword
-f1_keywords:
-- wcndevice/IWCNDevice.SetPassword
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcnDevice.h
-api_name:
-- IWCNDevice.SetPassword
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCNDevice::SetPassword
+ - wcndevice/IWCNDevice::SetPassword
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcnDevice.h
+api_name:
+ - IWCNDevice.SetPassword
 ---
 
 # IWCNDevice::SetPassword
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IWCNDevice::SetPassword</b> method configures the authentication method value, and if required, a password used for the pending session.  This method may  only be called prior to <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
-
+The <b>IWCNDevice::SetPassword</b> method configures the authentication method value, and if required, a password used for the pending session.  This method may  only be called prior to <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
 
 ## -parameters
-
-
-
 
 ### -param Type [in]
 
@@ -87,22 +84,16 @@ Use PIN-based authentication.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwPasswordLength [in]
 
 Number of bytes in the buffer <i>pbPassword</i>.
 
-
 ### -param pbPassword [in]
 
 A byte array of the password, encoded in ASCII.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -136,35 +127,19 @@ The password type is not WCN_PASSWORD_TYPE_PUSH_BUTTON or WCN_PASSWORD_TYPE_PIN.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The byte array is not <b>NULL</b>-terminated.  For example, if the password is a 4-digit PIN, you should pass dwPasswordLength as 4 and pbPassword should point to a 4-byte array containing the PIN in ASCII.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
 
 
 
 <b>WCN_PASSWORD_TYPE</b>
- 
-
- 
-

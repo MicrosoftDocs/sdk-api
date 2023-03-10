@@ -1,16 +1,13 @@
 ---
 UID: NS:winfax._FAX_JOB_ENTRYA
 title: FAX_JOB_ENTRYA (winfax.h)
-description: The FAX_JOB_ENTRY structure describes one fax job.
+description: The FAX_JOB_ENTRY structure describes one fax job. (ANSI)
+helpviewer_keywords: ["*PFAX_JOB_ENTRYA","DRT_EMAIL","DRT_INBOX","DRT_NONE","FAX_JOB_ENTRY","FAX_JOB_ENTRY structure [Fax Service]","FAX_JOB_ENTRYA","FAX_JOB_ENTRYW","FPS_ABORTING","FPS_ANSWERED","FPS_AVAILABLE","FPS_BAD_ADDRESS","FPS_BUSY","FPS_CALL_BLACKLISTED","FPS_CALL_DELAYED","FPS_COMPLETED","FPS_DIALING","FPS_DISCONNECTED","FPS_FATAL_ERROR","FPS_HANDLED","FPS_INITIALIZING","FPS_NOT_FAX_CALL","FPS_NO_ANSWER","FPS_NO_DIAL_TONE","FPS_OFFLINE","FPS_RECEIVING","FPS_RINGING","FPS_ROUTING","FPS_SENDING","FPS_UNAVAILABLE","JSA_DISCOUNT_PERIOD","JSA_NOW","JSA_SPECIFIC_TIME","JS_DELETING","JS_FAILED","JS_INPROGRESS","JS_NOLINE","JS_PAUSED","JS_PENDING","JS_RETRIES_EXCEEDED","JS_RETRYING","JT_FAIL_RECEIVE","JT_RECEIVE","JT_ROUTING","JT_SEND","JT_UNKNOWN","PFAX_JOB_ENTRY","PFAX_JOB_ENTRY structure pointer [Fax Service]","_mfax_fax_job_entry_str","fax._mfax_fax_job_entry_str","winfax/FAX_JOB_ENTRY","winfax/FAX_JOB_ENTRYA","winfax/FAX_JOB_ENTRYW","winfax/PFAX_JOB_ENTRY"]
 old-location: fax\_mfax_fax_job_entry_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_09de.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_JOB_ENTRYA, DRT_EMAIL, DRT_INBOX, DRT_NONE, FAX_JOB_ENTRY, FAX_JOB_ENTRY structure [Fax Service], FAX_JOB_ENTRYA, FAX_JOB_ENTRYW, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, JSA_DISCOUNT_PERIOD, JSA_NOW, JSA_SPECIFIC_TIME, JS_DELETING, JS_FAILED, JS_INPROGRESS, JS_NOLINE, JS_PAUSED, JS_PENDING, JS_RETRIES_EXCEEDED, JS_RETRYING, JT_FAIL_RECEIVE, JT_RECEIVE, JT_ROUTING, JT_SEND, JT_UNKNOWN, PFAX_JOB_ENTRY, PFAX_JOB_ENTRY structure pointer [Fax Service], _mfax_fax_job_entry_str, fax._mfax_fax_job_entry_str, winfax/FAX_JOB_ENTRY, winfax/FAX_JOB_ENTRYA, winfax/FAX_JOB_ENTRYW, winfax/PFAX_JOB_ENTRY'
-f1_keywords:
-- winfax/FAX_JOB_ENTRY
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winfax.h
-api_name:
-- FAX_JOB_ENTRY
-- FAX_JOB_ENTRYA
-- FAX_JOB_ENTRYW
 targetos: Windows
 req.typenames: FAX_JOB_ENTRYA, *PFAX_JOB_ENTRYA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FAX_JOB_ENTRYA
+ - winfax/_FAX_JOB_ENTRYA
+ - PFAX_JOB_ENTRYA
+ - winfax/PFAX_JOB_ENTRYA
+ - FAX_JOB_ENTRYA
+ - winfax/FAX_JOB_ENTRYA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winfax.h
+api_name:
+ - FAX_JOB_ENTRY
+ - FAX_JOB_ENTRYA
+ - FAX_JOB_ENTRYW
 ---
 
 # FAX_JOB_ENTRYA structure
@@ -50,35 +56,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FAX_JOB_ENTRY</b> structure describes one fax job. The structure includes data on the job type and status, recipient and sender identification, scheduling and delivery settings, and the page count. The <b>SizeOfStruct</b> and <b>RecipientNumber</b> members are required.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_JOB_ENTRY</b> structure. The calling application must set this member to <b>sizeof(FAX_JOB_ENTRY)</b> before it calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a> function.
-
+Specifies the size, in bytes, of the <b>FAX_JOB_ENTRY</b> structure. The calling application must set this member to <b>sizeof(FAX_JOB_ENTRY)</b> before it calls the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a> function.
 
 ### -field JobId
 
 Type: <b>DWORD</b>
 
-Specifies a unique number that identifies the fax job of interest. This number must match the value the calling application passes in the JobId parameter to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a> function.
-
+Specifies a unique number that identifies the fax job of interest. This number must match the value the calling application passes in the JobId parameter to the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a> function.
 
 ### -field UserName
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the name of the user who submitted the fax job.
-
 
 ### -field JobType
 
@@ -115,7 +113,6 @@ The fax server tried to route the fax transmission, but routing failed. The fax 
 #### JT_FAIL_RECEIVE
 
 The fax server did not route the fax because it did not receive the entire transmission. The fax server saves the partial transmission in a temporary directory.
-
 
 ### -field QueueStatus
 
@@ -163,14 +160,13 @@ There is no line available to send the fax. The fax server will send the transmi
 
 #### JS_RETRYING
 
-The fax job failed. The fax server will attempt to retransmit the fax after a specified interval. For more information about global configuration settings, such as retransmission intervals, see <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>.
+The fax job failed. The fax server will attempt to retransmit the fax after a specified interval. For more information about global configuration settings, such as retransmission intervals, see <a href="/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>.
 
 
 
 #### JS_RETRIES_EXCEEDED
 
-The fax server exceeded the maximum number of retransmission attempts allowed. The fax will not be sent. For more information about global configuration settings, such as the maximum number of retransmission attempts, see <a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>.
-
+The fax server exceeded the maximum number of retransmission attempts allowed. The fax will not be sent. For more information about global configuration settings, such as the maximum number of retransmission attempts, see <a href="/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>.
 
 ### -field Status
 
@@ -310,13 +306,11 @@ The device answered a new call.
 
 The fax service processed the outbound fax document; the fax service provider will transmit the document.
 
-
 ### -field Size
 
 Type: <b>DWORD</b>
 
 Specifies a <b>DWORD</b> variable that contains the size, in bytes, of the fax document to transmit. The size must not exceed 4 GB.
-
 
 ### -field PageCount
 
@@ -324,21 +318,17 @@ Type: <b>DWORD</b>
 
 Specifies a <b>DWORD</b> variable that indicates the total number of pages in the fax transmission.
 
-
 ### -field RecipientNumber
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the fax number of the recipient of the fax transmission.
 
-
 ### -field RecipientName
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that specifies the name of the recipient of the fax transmission. 
-
-
+Pointer to a constant null-terminated character string that specifies the name of the recipient of the fax transmission.
 
 ### -field Tsid
 
@@ -346,37 +336,29 @@ Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the transmitting station identifier. This identifier is usually a telephone number.
 
-
 ### -field SenderName
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the name of the sender who initiated the fax transmission.
 
-
 ### -field SenderCompany
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that specifies the company name of the sender who initiated the fax transmission. 
-
-
+Pointer to a constant null-terminated character string that specifies the company name of the sender who initiated the fax transmission.
 
 ### -field SenderDept
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that specifies the department name of the sender who initiated the fax transmission. 
-
-
+Pointer to a constant null-terminated character string that specifies the department name of the sender who initiated the fax transmission.
 
 ### -field BillingCode
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that indicates an application- or server-specific billing code that applies to the fax transmission. The fax server uses the string to generate an entry in the fax event log. Billing codes are optional. 
-
-
+Pointer to a constant null-terminated character string that indicates an application- or server-specific billing code that applies to the fax transmission. The fax server uses the string to generate an entry in the fax event log. Billing codes are optional.
 
 ### -field ScheduleAction
 
@@ -400,15 +382,13 @@ Send the fax at the time specified by the <b>ScheduleTime</b> member.
 
 #### JSA_DISCOUNT_PERIOD
 
-Send the fax during the discount rate period. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a> function to retrieve the discount period for the fax server.
-
+Send the fax during the discount rate period. Call the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a> function to retrieve the discount period for the fax server.
 
 ### -field ScheduleTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
-If the <b>ScheduleAction</b> member is equal to the value <b>JSA_SPECIFIC_TIME</b>, specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date and time to send the fax. The time specified must be expressed in UTC.
-
+If the <b>ScheduleAction</b> member is equal to the value <b>JSA_SPECIFIC_TIME</b>, specifies a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the date and time to send the fax. The time specified must be expressed in UTC.
 
 ### -field DeliveryReportType
 
@@ -434,13 +414,11 @@ Send the DR or NDR in an email message to the sender of the fax transmission (su
 
 Send the DR or NDR in email to the sender's local personal folder store (PST).
 
-
 ### -field DeliveryReportAddress
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string. If the <b>DeliveryReportType</b> member is equal to <b>DRT_EMAIL</b>, the string is the address to which the DR or NDR should be sent. If the <b>DeliveryReportType</b> member is equal to <b>DRT_NONE</b>, this member must be <b>NULL</b>.
-
 
 ### -field DocumentName
 
@@ -448,47 +426,41 @@ Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string to associate with the fax document. This is the user-friendly name that appears in the print spooler.
 
-
 ## -remarks
 
+A fax client application passes the <b>FAX_JOB_ENTRY</b> structure in a call to the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a> function.
+
+An application can call the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumjobsa">FaxEnumJobs</a> function to enumerate all queued and active fax jobs on the fax server of interest. <b>FaxEnumJobs</b> returns an array of <b>FAX_JOB_ENTRY</b> structures. Each structure describes one fax job in detail.
+
+For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-jobs">Managing Fax Jobs</a>.
 
 
-A fax client application passes the <b>FAX_JOB_ENTRY</b> structure in a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a> function.
-
-An application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumjobsa">FaxEnumJobs</a> function to enumerate all queued and active fax jobs on the fax server of interest. <b>FaxEnumJobs</b> returns an array of <b>FAX_JOB_ENTRY</b> structures. Each structure describes one fax job in detail.
-
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-fax-jobs">Managing Fax Jobs</a>.
 
 
 
+> [!NOTE]
+> The winfax.h header defines FAX_JOB_ENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFIGURATION</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumjobsa">FaxEnumJobs</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumjobsa">FaxEnumJobs</a>
+<a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetjoba">FaxSetJob</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
- 
-
- 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>

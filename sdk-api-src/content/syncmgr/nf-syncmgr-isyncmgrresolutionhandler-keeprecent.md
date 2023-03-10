@@ -2,15 +2,12 @@
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepRecent
 title: ISyncMgrResolutionHandler::KeepRecent (syncmgr.h)
 description: Keeps the more recent copy.
+helpviewer_keywords: ["ISyncMgrResolutionHandler interface [Windows Shell]","KeepRecent method","ISyncMgrResolutionHandler.KeepRecent","ISyncMgrResolutionHandler::KeepRecent","KeepRecent","KeepRecent method [Windows Shell]","KeepRecent method [Windows Shell]","ISyncMgrResolutionHandler interface","_shell_ISyncMgrResolutionHandler_KeepRecent","shell.ISyncMgrResolutionHandler_KeepRecent","syncmgr/ISyncMgrResolutionHandler::KeepRecent"]
 old-location: shell\ISyncMgrResolutionHandler_KeepRecent.htm
 tech.root: shell
 ms.assetid: a2327234-4a8d-42b4-aa62-f5c286e3c24b
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepRecent method, ISyncMgrResolutionHandler.KeepRecent, ISyncMgrResolutionHandler::KeepRecent, KeepRecent, KeepRecent method [Windows Shell], KeepRecent method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepRecent, shell.ISyncMgrResolutionHandler_KeepRecent, syncmgr/ISyncMgrResolutionHandler::KeepRecent
-f1_keywords:
-- syncmgr/ISyncMgrResolutionHandler.KeepRecent
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrResolutionHandler.KeepRecent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrResolutionHandler::KeepRecent
+ - syncmgr/ISyncMgrResolutionHandler::KeepRecent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrResolutionHandler.KeepRecent
 ---
 
 # ISyncMgrResolutionHandler::KeepRecent
@@ -48,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Keeps the more recent copy.
-
 
 ## -parameters
 
-
-
-
 ### -param pFeedback [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_feedback">SYNCMGR_RESOLUTION_FEEDBACK</a>*</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_feedback">SYNCMGR_RESOLUTION_FEEDBACK</a>*</b>
 
-When this method returns, contains a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_feedback">SYNCMGR_RESOLUTION_FEEDBACK</a> value.
-
+When this method returns, contains a <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_resolution_feedback">SYNCMGR_RESOLUTION_FEEDBACK</a> value.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

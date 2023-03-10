@@ -2,15 +2,12 @@
 UID: NF:lzexpand.LZRead
 title: LZRead function (lzexpand.h)
 description: Reads (at most) the specified number of bytes from a file and copies them into a buffer.
+helpviewer_keywords: ["LZRead","LZRead function [Files]","_win32_lzread","base.lzread","fs.lzread","lzexpand/LZRead"]
 old-location: fs\lzread.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 15c6829f-2e24-4299-a2fa-a5737ec73ba9
 ms.date: 12/05/2018
 ms.keywords: LZRead, LZRead function [Files], _win32_lzread, base.lzread, fs.lzread, lzexpand/LZRead
-f1_keywords:
-- lzexpand/LZRead
-dev_langs:
-- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Lz32.dll
-api_name:
-- LZRead
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LZRead
+ - lzexpand/LZRead
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Lz32.dll
+api_name:
+ - LZRead
 ---
 
 # LZRead function
@@ -48,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads (at most) the specified number of bytes from a file and copies them into a buffer.
-
 
 ## -parameters
 
-
-
-
 ### -param hFile [in]
 
-A handle to the file. 
-					
-
+A handle to the file.
 
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the bytes read from the file. Ensure that this buffer is larger than <i>cbRead</i>.
 
-
 ### -param cbRead [in]
 
 The count of bytes to be read.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the number of bytes read.
 
 If the function fails, the return value is an LZERROR_* code. These codes have values less than zero. Note that 
-<b>LZRead</b> calls neither <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
+<b>LZRead</b> calls neither <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor <a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.
 
 The following is the list of error codes that 
 <b>LZRead</b> can return upon failure.
@@ -170,18 +161,13 @@ There is insufficient space for the output file.
 </table>
  
 
-There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+There is no extended error information for this function; do not call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 The handle identifying the file must be retrieved by calling either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function.
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> or 
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a> function.
 
 If the file is compressed, 
 <b>LZRead</b> operates on an expanded image of the file and copies the bytes of data into the specified buffer.
@@ -248,33 +234,22 @@ Yes
 
 CsvFs will do redirected IO for compressed files.
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzopenfilea">LZOpenFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzseek">LZSeek</a>
- 
-
- 
-
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzseek">LZSeek</a>

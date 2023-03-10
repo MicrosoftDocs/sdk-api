@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiAdvertiseProductA
 title: MsiAdvertiseProductA function (msi.h)
-description: The MsiAdvertiseProduct function generates an advertise script or advertises a product to the computer.
+description: The MsiAdvertiseProduct function generates an advertise script or advertises a product to the computer. (ANSI)
+helpviewer_keywords: ["ADVERTISEFLAGS_MACHINEASSIGN", "ADVERTISEFLAGS_USERASSIGN", "MsiAdvertiseProductA", "msi/MsiAdvertiseProductA"]
 old-location: setup\msiadvertiseproduct.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: b28736cb-7097-4f6e-a158-a525a32d9b58
 ms.date: 12/05/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MsiAdvertiseProduct, MsiAdvertiseProduct function, MsiAdvertiseProductA, MsiAdvertiseProductW, _msi_msiadvertiseproduct, msi/MsiAdvertiseProduct, msi/MsiAdvertiseProductA, msi/MsiAdvertiseProductW, setup.msiadvertiseproduct
-f1_keywords:
-- msi/MsiAdvertiseProduct
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiAdvertiseProduct
-- MsiAdvertiseProductA
-- MsiAdvertiseProductW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiAdvertiseProductA
+ - msi/MsiAdvertiseProductA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiAdvertiseProduct
+ - MsiAdvertiseProductA
+ - MsiAdvertiseProductW
 ---
 
 # MsiAdvertiseProductA function
@@ -50,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiAdvertiseProduct</b> function generates an advertise script or advertises a product to the computer. The 
 <b>MsiAdvertiseProduct</b> function enables the installer to write to a script the registry and shortcut information used to assign or publish a product. The script can be written to be consistent with a specified platform by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiadvertiseproductexa">MsiAdvertiseProductEx</a>.
-
+<a href="/windows/desktop/api/msi/nf-msi-msiadvertiseproductexa">MsiAdvertiseProductEx</a>.
 
 ## -parameters
-
-
-
 
 ### -param szPackagePath [in]
 
 The full path to the package of the product being advertised.
-
 
 ### -param szScriptfilePath [in]
 
@@ -101,23 +97,17 @@ Set to advertise a per-user installation of the product available to a particula
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szTransforms [in]
 
 A semicolon-delimited list of transforms to be applied. The list of transforms can be prefixed with the @ or | character to specify the secure caching of transforms. The @ prefix specifies secure-at-source transforms and the | prefix indicates secure full path transforms. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/secured-transforms">Secured Transforms</a>. This parameter may be null.
-
+<a href="/windows/desktop/Msi/secured-transforms">Secured Transforms</a>. This parameter may be null.
 
 ### -param lgidLanguage [in]
 
 The installation language to use if the source supports multiple languages.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -143,14 +133,14 @@ The function completed successfully.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
+<dt><b><a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -170,18 +160,12 @@ This error is returned if an attempt is made to generate an advertise script on 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
-
+> [!NOTE]
+> The msi.h header defines MsiAdvertiseProduct as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

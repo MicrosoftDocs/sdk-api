@@ -2,15 +2,12 @@
 UID: NF:commoncontrols.IImageList2.Replace2
 title: IImageList2::Replace2 (commoncontrols.h)
 description: Replaces an image in an image list.
+helpviewer_keywords: ["IImageList2 interface [Windows Controls]","Replace2 method","IImageList2.Replace2","IImageList2::Replace2","ILR_DEFAULT","ILR_HORIZONTAL_CENTER","ILR_HORIZONTAL_LEFT","ILR_HORIZONTAL_RIGHT","ILR_SCALE_ASPECTRATIO","ILR_SCALE_CLIP","ILR_VERTICAL_BOTTOM","ILR_VERTICAL_CENTER","ILR_VERTICAL_TOP","Replace2","Replace2 method [Windows Controls]","Replace2 method [Windows Controls]","IImageList2 interface","_shell_IImageList2_Replace2","_shell_IImageList2_Replace2_cpp","commoncontrols/IImageList2::Replace2","controls.IImageList2_Replace2","controls._shell_IImageList2_Replace2"]
 old-location: controls\IImageList2_Replace2.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\replace2.htm
 ms.date: 12/05/2018
 ms.keywords: IImageList2 interface [Windows Controls],Replace2 method, IImageList2.Replace2, IImageList2::Replace2, ILR_DEFAULT, ILR_HORIZONTAL_CENTER, ILR_HORIZONTAL_LEFT, ILR_HORIZONTAL_RIGHT, ILR_SCALE_ASPECTRATIO, ILR_SCALE_CLIP, ILR_VERTICAL_BOTTOM, ILR_VERTICAL_CENTER, ILR_VERTICAL_TOP, Replace2, Replace2 method [Windows Controls], Replace2 method [Windows Controls],IImageList2 interface, _shell_IImageList2_Replace2, _shell_IImageList2_Replace2_cpp, commoncontrols/IImageList2::Replace2, controls.IImageList2_Replace2, controls._shell_IImageList2_Replace2
-f1_keywords:
-- commoncontrols/IImageList2.Replace2
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Comctl32.dll
-api_name:
-- IImageList2.Replace2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList2::Replace2
+ - commoncontrols/IImageList2::Replace2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Comctl32.dll
+api_name:
+ - IImageList2.Replace2
 ---
 
 # IImageList2::Replace2
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces an image in an image list.
 
-
 ## -parameters
-
-
-
 
 ### -param i [in]
 
@@ -63,31 +60,27 @@ Type: <b>int</b>
 
 The index of the image to replace.
 
-
 ### -param hbmImage [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the image.
 
-
 ### -param hbmMask [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the mask. If no mask is used with the image list, this parameter is ignored.
 
-
 ### -param punk [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
-
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies how the mask is applied to the image as one or a bitwise combination of the following decoration flags.
 
@@ -196,16 +189,9 @@ Scale.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

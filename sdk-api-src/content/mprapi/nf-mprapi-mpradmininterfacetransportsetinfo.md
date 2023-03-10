@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminInterfaceTransportSetInfo
 title: MprAdminInterfaceTransportSetInfo function (mprapi.h)
 description: The MprAdminInterfaceTransportSetInfo function sets information for a transport running on a specified interface.
+helpviewer_keywords: ["MprAdminInterfaceTransportSetInfo","MprAdminInterfaceTransportSetInfo function [RAS]","_mpr_mpradmininterfacetransportsetinfo","mprapi/MprAdminInterfaceTransportSetInfo","rras.mpradmininterfacetransportsetinfo"]
 old-location: rras\mpradmininterfacetransportsetinfo.htm
 tech.root: RRAS
 ms.assetid: 340610af-6fd8-49e3-947a-e24346a9b888
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceTransportSetInfo, MprAdminInterfaceTransportSetInfo function [RAS], _mpr_mpradmininterfacetransportsetinfo, mprapi/MprAdminInterfaceTransportSetInfo, rras.mpradmininterfacetransportsetinfo
-f1_keywords:
-- mprapi/MprAdminInterfaceTransportSetInfo
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceTransportSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceTransportSetInfo
+ - mprapi/MprAdminInterfaceTransportSetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceTransportSetInfo
 ---
 
 # MprAdminInterfaceTransportSetInfo function
@@ -48,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminInterfaceTransportSetInfo</b> function sets information for a transport running on a specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the router on which the transport is being set. Obtain the handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hInterface [in]
 
 Handle to the interface on which the transport is being set. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
 
 ### -param dwTransportId [in]
 
@@ -100,23 +95,17 @@ A <b>DWORD</b> value that describes the transport type to set. Acceptable values
 <td>Windows Server 2008 or later: Internet Protocol version 6</td>
 </tr>
 </table>
- 
-
 
 ### -param pInterfaceInfo [in]
 
 Pointer to an information header that contains information for the specified interface and transport. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
-
+<a href="/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers.
 
 ### -param dwInterfaceInfoSize [in]
 
 Specifies the size, in bytes, of the information pointed to by <i>pInterfaceInfo</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -183,34 +172,23 @@ The <i>dwTransportId</i> value does not match any supported transport.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacetransportgetinfo">MprAdminInterfaceTransportGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacetransportgetinfo">MprAdminInterfaceTransportGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

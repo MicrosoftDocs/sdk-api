@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidInputDevices.Remove
 title: IMSVidInputDevices::Remove (segment.h)
 description: The Remove method removes an item from the collection.
+helpviewer_keywords: ["IMSVidInputDevices interface [Microsoft TV Technologies]","Remove method","IMSVidInputDevices.Remove","IMSVidInputDevices::Remove","IMSVidInputDevicesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IMSVidInputDevices interface","mstv.imsvidinputdevices_remove","segment/IMSVidInputDevices::Remove"]
 old-location: mstv\imsvidinputdevices_remove.htm
 tech.root: mstv
 ms.assetid: c8990564-70d3-4962-9ff2-24664dbc1161
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevices interface [Microsoft TV Technologies],Remove method, IMSVidInputDevices.Remove, IMSVidInputDevices::Remove, IMSVidInputDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidInputDevices interface, mstv.imsvidinputdevices_remove, segment/IMSVidInputDevices::Remove
-f1_keywords:
-- segment/IMSVidInputDevices.Remove
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidInputDevices.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidInputDevices::Remove
+ - segment/IMSVidInputDevices::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidInputDevices.Remove
 ---
 
 # IMSVidInputDevices::Remove
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Remove</b> method removes an item from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param v [in]
 
 <b>VARIANT</b> that specifies the index of the item to remove.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -129,31 +123,15 @@ Unexpected error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevices-get_count">IMSVidInputDevices::get_Count</a> - 1.
-
-
-
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevices-get_count">IMSVidInputDevices::get_Count</a> - 1.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevices-add">IMSVidInputDevices::Add</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevices-add">IMSVidInputDevices::Add</a>

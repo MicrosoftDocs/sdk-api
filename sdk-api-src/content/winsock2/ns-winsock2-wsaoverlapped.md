@@ -2,15 +2,12 @@
 UID: NS:winsock2._WSAOVERLAPPED
 title: WSAOVERLAPPED (winsock2.h)
 description: Provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion.
+helpviewer_keywords: ["*LPWSAOVERLAPPED","LPWSAOVERLAPPED","LPWSAOVERLAPPED structure pointer [Winsock]","WSAOVERLAPPED","WSAOVERLAPPED structure [Winsock]","_win32_wsaoverlapped_2","winsock.wsaoverlapped_2","winsock2/LPWSAOVERLAPPED","winsock2/WSAOVERLAPPED"]
 old-location: winsock\wsaoverlapped_2.htm
 tech.root: WinSock
 ms.assetid: 91004241-e0ea-4bda-a0f5-71688ac83038
 ms.date: 12/05/2018
 ms.keywords: '*LPWSAOVERLAPPED, LPWSAOVERLAPPED, LPWSAOVERLAPPED structure pointer [Winsock], WSAOVERLAPPED, WSAOVERLAPPED structure [Winsock], _win32_wsaoverlapped_2, winsock.wsaoverlapped_2, winsock2/LPWSAOVERLAPPED, winsock2/WSAOVERLAPPED'
-f1_keywords:
-- winsock2/WSAOVERLAPPED
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsock2.h
-api_name:
-- WSAOVERLAPPED
 targetos: Windows
 req.typenames: WSAOVERLAPPED, *LPWSAOVERLAPPED
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSAOVERLAPPED
+ - winsock2/_WSAOVERLAPPED
+ - LPWSAOVERLAPPED
+ - winsock2/LPWSAOVERLAPPED
+ - WSAOVERLAPPED
+ - winsock2/WSAOVERLAPPED
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsock2.h
+api_name:
+ - WSAOVERLAPPED
 ---
 
 # WSAOVERLAPPED structure
@@ -48,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAOVERLAPPED</b> structure provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion. The 
 <b>WSAOVERLAPPED</b> structure is compatible with the Windows 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field Internal
 
@@ -66,13 +67,11 @@ Type: <b>ULONG_PTR</b>
 
 Reserved for internal use. The Internal member is used internally by the entity that implements overlapped I/O. For service providers that create sockets as installable file system (IFS) handles, this parameter is used by the underlying operating system. Other service providers (non-IFS providers) are free to use this parameter as necessary.
 
-
 ### -field InternalHigh
 
 Type: <b>ULONG_PTR</b>
 
 Reserved. Used internally by the entity that implements overlapped I/O. For service providers that create sockets as IFS handles, this parameter is used by the underlying operating system. NonIFS providers are free to use this parameter as necessary.
-
 
 ### -field Offset
 
@@ -80,13 +79,11 @@ Type: <b>DWORD</b>
 
 Reserved for use by service providers.
 
-
 ### -field OffsetHigh
 
 Type: <b>DWORD</b>
 
 Reserved for use by service providers.
-
 
 ### -field hEvent
 
@@ -101,54 +98,46 @@ Type: <b>PVOID</b>
 
 Reserved for use by service providers.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>

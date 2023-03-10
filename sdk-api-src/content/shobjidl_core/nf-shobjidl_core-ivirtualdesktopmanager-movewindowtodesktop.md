@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IVirtualDesktopManager.MoveWindowToDesktop
 title: IVirtualDesktopManager::MoveWindowToDesktop (shobjidl_core.h)
 description: Moves a window to the specified virtual desktop.
+helpviewer_keywords: ["IVirtualDesktopManager interface [Windows Shell]","MoveWindowToDesktop method","IVirtualDesktopManager.MoveWindowToDesktop","IVirtualDesktopManager::MoveWindowToDesktop","MoveWindowToDesktop","MoveWindowToDesktop method [Windows Shell]","MoveWindowToDesktop method [Windows Shell]","IVirtualDesktopManager interface","shell.ivirtualdesktopmanager_movewindowtodesktop","shobjidl_core/IVirtualDesktopManager::MoveWindowToDesktop"]
 old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm
 tech.root: shell
 ms.assetid: A8756361-E371-41C5-B3F5-BD99439878D9
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],MoveWindowToDesktop method, IVirtualDesktopManager.MoveWindowToDesktop, IVirtualDesktopManager::MoveWindowToDesktop, MoveWindowToDesktop, MoveWindowToDesktop method [Windows Shell], MoveWindowToDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_movewindowtodesktop, shobjidl_core/IVirtualDesktopManager::MoveWindowToDesktop
-f1_keywords:
-- shobjidl_core/IVirtualDesktopManager.MoveWindowToDesktop
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IVirtualDesktopManager.MoveWindowToDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVirtualDesktopManager::MoveWindowToDesktop
+ - shobjidl_core/IVirtualDesktopManager::MoveWindowToDesktop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IVirtualDesktopManager.MoveWindowToDesktop
 ---
 
 # IVirtualDesktopManager::MoveWindowToDesktop
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves a window to the specified virtual desktop.
 
-
 ## -parameters
-
-
-
 
 ### -param topLevelWindow [in]
 
 The window to move.
 
-
 ### -param desktopId [in]
 
-The identifier of the virtual desktop to move the [GetWindowDesktopId](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ivirtualdesktopmanager-getwindowdesktopid) to get a window's identifier.
-
+The identifier of the virtual desktop to move the [GetWindowDesktopId](./nf-shobjidl_core-ivirtualdesktopmanager-getwindowdesktopid.md) to get a window's identifier.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-[IVirtualDesktopManager](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager)a>
- 
-
- 
-
+[IVirtualDesktopManager](./nn-shobjidl_core-ivirtualdesktopmanager.md)

@@ -1,16 +1,13 @@
 ---
 UID: NF:ras.RasValidateEntryNameW
 title: RasValidateEntryNameW function (ras.h)
-description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
+description: The RasValidateEntryName function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character. (Unicode)
+helpviewer_keywords: ["RasValidateEntryName", "RasValidateEntryName function [RAS]", "RasValidateEntryNameW", "\\", "_ras_rasvalidateentryname", "ras/RasValidateEntryName", "ras/RasValidateEntryNameW", "rras.rasvalidateentryname"]
 old-location: rras\rasvalidateentryname.htm
 tech.root: RRAS
 ms.assetid: c70ad0d4-6bc1-4716-9a8e-0fbeb55b7560
 ms.date: 12/05/2018
 ms.keywords: RasValidateEntryName, RasValidateEntryName function [RAS], RasValidateEntryNameA, RasValidateEntryNameW, \, _ras_rasvalidateentryname, ras/RasValidateEntryName, ras/RasValidateEntryNameA, ras/RasValidateEntryNameW, rras.rasvalidateentryname
-f1_keywords:
-- ras/RasValidateEntryName
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasValidateEntryName
-- RasValidateEntryNameA
-- RasValidateEntryNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasValidateEntryNameW
+ - ras/RasValidateEntryNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasValidateEntryName
+ - RasValidateEntryNameA
+ - RasValidateEntryNameW
 ---
 
 # RasValidateEntryNameW function
@@ -50,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasValidateEntryName</b> function validates the format of a connection entry name. The name must contain at least one non-white-space alphanumeric character.
 
-
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. 
 
@@ -69,8 +66,7 @@ A pointer to a null-terminated string that specifies the full path and file name
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies an entry name. 
 
@@ -169,14 +165,11 @@ colon
 
 <b>Windows 2000 or later:  </b>The entry name cannot begin with a period (".").
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -217,14 +210,8 @@ The format of the specified entry name is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following sample code validates the phone-book entry specified by the variable <i>lpszEntry</i>.
 
@@ -264,25 +251,22 @@ DWORD __cdecl wmain(){
 
 
 
+
+> [!NOTE]
+> The ras.h header defines RasValidateEntryName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

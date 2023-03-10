@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.SHMessageBoxCheckW
 title: SHMessageBoxCheckW function (shlwapi.h)
-description: SHMessageBoxCheck may be altered or unavailable.
+description: SHMessageBoxCheck may be altered or unavailable. (Unicode)
+helpviewer_keywords: ["MB_ICONEXCLAMATION", "MB_ICONHAND", "MB_ICONINFORMATION", "MB_ICONQUESTION", "MB_OK", "MB_OKCANCEL", "MB_YESNO", "SHMessageBoxCheck", "SHMessageBoxCheck function [Windows Shell]", "SHMessageBoxCheckW", "_win32_SHMessageBoxCheck", "shell.SHMessageBoxCheck", "shlwapi/SHMessageBoxCheck", "shlwapi/SHMessageBoxCheckW"]
 old-location: shell\SHMessageBoxCheck.htm
 tech.root: shell
 ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
 ms.date: 12/05/2018
 ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
-f1_keywords:
-- shlwapi/SHMessageBoxCheck
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- SHMessageBoxCheck
-- SHMessageBoxCheckA
-- SHMessageBoxCheckW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHMessageBoxCheckW
+ - shlwapi/SHMessageBoxCheckW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - SHMessageBoxCheck
+ - SHMessageBoxCheckA
+ - SHMessageBoxCheckW
 ---
 
 # SHMessageBoxCheckW function
@@ -50,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHMessageBoxCheck</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Displays a message box that gives the user the option of suppressing further occurrences. If the user has already opted to suppress the message box, the function does not display a dialog box and instead simply returns the default value.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in, optional]
 
@@ -67,13 +64,11 @@ Type: <b>HWND</b>
 
 The window handle to the message box's owner. This value can be <b>NULL</b>.
 
-
 ### -param pszText [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string that contains the message to be displayed.
-
 
 ### -param pszCaption [in]
 
@@ -81,12 +76,11 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string that contains the title of the message box. If this parameter is set to <b>NULL</b>, the title is set to <b>Error!</b>.
 
-
 ### -param uType
 
 Type: <b>UINT</b>
 
-The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
+The flags that specify the contents and behavior of the message box. This function supports only a subset of the flags supported by <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>. If you use any flags that are not listed below, the function's behavior is undefined.
 
 
 You must specify the buttons to be displayed by setting one and only one of the following flags.
@@ -140,13 +134,11 @@ Display an exclamation-point icon.
 
 Display an icon with a lowercase "i" in a circle.
 
-
 ### -param iDefault
 
 Type: <b>int</b>
 
 The value that the function returns when the user has opted not to have the message box displayed again. If the user has not opted to suppress the message box, the message box is displayed and the function ignores <i>iDefault</i>.
-
 
 ### -param pszRegVal [in]
 
@@ -189,10 +181,7 @@ Display a message box with <b>OK</b> and <b>Cancel</b> buttons.
 
 Display a message box with <b>Yes</b> and <b>No</b> buttons.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -204,12 +193,7 @@ If the user closes the message box by clicking the <b>X</b> button in the captio
 
 If an error occurs, the return value is normally –1. However, under certain low-memory conditions, the function might return <i>iDefault</i>.
 
-
-
-
 ## -remarks
-
-
 
 <b>Security Warning:  </b>Do not take any dangerous actions if the function returns either –1 or <i>iDefault</i>. If an error occurs when attempting to display the message box, <b>SHMessageBoxCheck</b> returns –1 or, in some cases, <i>iDefault</i>. Such errors can be caused by insufficient memory or resources.  If you get one of these return values, you should be aware that the user did not necessarily see the dialog box and consequently did not positively agree to any action.
 
@@ -235,7 +219,7 @@ The default button displayed by the message box should agree with your <i>iDefau
 
 <b>SHMessageBoxCheck</b> records the message boxes that the user has chosen to suppress under the following registry key.
                 
-                <pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -247,3 +231,6 @@ The default button displayed by the message box should agree with your <i>iDefau
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines SHMessageBoxCheck as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

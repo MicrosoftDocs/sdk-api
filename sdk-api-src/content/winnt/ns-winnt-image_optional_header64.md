@@ -1,16 +1,13 @@
 ---
 UID: NS:winnt._IMAGE_OPTIONAL_HEADER64
 title: IMAGE_OPTIONAL_HEADER64 (winnt.h)
-description: Represents the optional header format.
+description: Represents the optional header format. (64 bit)
+helpviewer_keywords: ["*PIMAGE_OPTIONAL_HEADER64","IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE","IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY","IMAGE_DLLCHARACTERISTICS_NO_BIND","IMAGE_DLLCHARACTERISTICS_NO_ISOLATION","IMAGE_DLLCHARACTERISTICS_NO_SEH","IMAGE_DLLCHARACTERISTICS_NX_COMPAT","IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE","IMAGE_DLLCHARACTERISTICS_WDM_DRIVER","IMAGE_NT_OPTIONAL_HDR32_MAGIC","IMAGE_NT_OPTIONAL_HDR64_MAGIC","IMAGE_NT_OPTIONAL_HDR_MAGIC","IMAGE_OPTIONAL_HEADER","IMAGE_OPTIONAL_HEADER structure","IMAGE_OPTIONAL_HEADER32","IMAGE_OPTIONAL_HEADER64","IMAGE_ROM_OPTIONAL_HDR_MAGIC","IMAGE_SUBSYSTEM_EFI_APPLICATION","IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER","IMAGE_SUBSYSTEM_EFI_ROM","IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER","IMAGE_SUBSYSTEM_NATIVE","IMAGE_SUBSYSTEM_OS2_CUI","IMAGE_SUBSYSTEM_POSIX_CUI","IMAGE_SUBSYSTEM_UNKNOWN","IMAGE_SUBSYSTEM_WINDOWS_BOOT_APPLICATION","IMAGE_SUBSYSTEM_WINDOWS_CE_GUI","IMAGE_SUBSYSTEM_WINDOWS_CUI","IMAGE_SUBSYSTEM_WINDOWS_GUI","IMAGE_SUBSYSTEM_XBOX","PIMAGE_OPTIONAL_HEADER","PIMAGE_OPTIONAL_HEADER structure pointer","PIMAGE_OPTIONAL_HEADER32","PIMAGE_OPTIONAL_HEADER64","_IMAGE_OPTIONAL_HEADER","_win32_image_optional_header_str","base.image_optional_header_str","winnt/IMAGE_OPTIONAL_HEADER","winnt/PIMAGE_OPTIONAL_HEADER"]
 old-location: base\image_optional_header_str.htm
 tech.root: Debug
 ms.assetid: b6a50ffc-49f8-4824-9b51-7e381eaf8852
 ms.date: 12/05/2018
 ms.keywords: '*PIMAGE_OPTIONAL_HEADER64, IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE, IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY, IMAGE_DLLCHARACTERISTICS_NO_BIND, IMAGE_DLLCHARACTERISTICS_NO_ISOLATION, IMAGE_DLLCHARACTERISTICS_NO_SEH, IMAGE_DLLCHARACTERISTICS_NX_COMPAT, IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE, IMAGE_DLLCHARACTERISTICS_WDM_DRIVER, IMAGE_NT_OPTIONAL_HDR32_MAGIC, IMAGE_NT_OPTIONAL_HDR64_MAGIC, IMAGE_NT_OPTIONAL_HDR_MAGIC, IMAGE_OPTIONAL_HEADER, IMAGE_OPTIONAL_HEADER structure, IMAGE_OPTIONAL_HEADER32, IMAGE_OPTIONAL_HEADER64, IMAGE_ROM_OPTIONAL_HDR_MAGIC, IMAGE_SUBSYSTEM_EFI_APPLICATION, IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER, IMAGE_SUBSYSTEM_EFI_ROM, IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER, IMAGE_SUBSYSTEM_NATIVE, IMAGE_SUBSYSTEM_OS2_CUI, IMAGE_SUBSYSTEM_POSIX_CUI, IMAGE_SUBSYSTEM_UNKNOWN, IMAGE_SUBSYSTEM_WINDOWS_BOOT_APPLICATION, IMAGE_SUBSYSTEM_WINDOWS_CE_GUI, IMAGE_SUBSYSTEM_WINDOWS_CUI, IMAGE_SUBSYSTEM_WINDOWS_GUI, IMAGE_SUBSYSTEM_XBOX, PIMAGE_OPTIONAL_HEADER, PIMAGE_OPTIONAL_HEADER structure pointer, PIMAGE_OPTIONAL_HEADER32, PIMAGE_OPTIONAL_HEADER64, _IMAGE_OPTIONAL_HEADER, _win32_image_optional_header_str, base.image_optional_header_str, winnt/IMAGE_OPTIONAL_HEADER, winnt/PIMAGE_OPTIONAL_HEADER'
-f1_keywords:
-- winnt/IMAGE_OPTIONAL_HEADER
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- IMAGE_OPTIONAL_HEADER
-- IMAGE_OPTIONAL_HEADER32
-- PIMAGE_OPTIONAL_HEADER32
-- IMAGE_OPTIONAL_HEADER64
-- PIMAGE_OPTIONAL_HEADER64
 targetos: Windows
 req.typenames: IMAGE_OPTIONAL_HEADER64, *PIMAGE_OPTIONAL_HEADER64
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IMAGE_OPTIONAL_HEADER64
+ - winnt/_IMAGE_OPTIONAL_HEADER64
+ - PIMAGE_OPTIONAL_HEADER64
+ - winnt/PIMAGE_OPTIONAL_HEADER64
+ - IMAGE_OPTIONAL_HEADER64
+ - winnt/IMAGE_OPTIONAL_HEADER64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - IMAGE_OPTIONAL_HEADER
+ - IMAGE_OPTIONAL_HEADER32
+ - PIMAGE_OPTIONAL_HEADER32
+ - IMAGE_OPTIONAL_HEADER64
+ - PIMAGE_OPTIONAL_HEADER64
 ---
 
 # IMAGE_OPTIONAL_HEADER64 structure
@@ -52,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the optional header format.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Magic
 
@@ -116,36 +117,29 @@ The file is a ROM image.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MajorLinkerVersion
 
 The major version number of the linker.
 
-
 ### -field MinorLinkerVersion
 
 The minor version number of the linker.
-
 
 ### -field SizeOfCode
 
 The size of the code section, in bytes, or the sum of all such sections if there are multiple code 
       sections.
 
-
 ### -field SizeOfInitializedData
 
 The size of the initialized data section, in bytes, or the sum of all such sections if there are multiple 
       initialized data sections.
 
-
 ### -field SizeOfUninitializedData
 
 The size of the uninitialized data section, in bytes, or the sum of all such sections if there are multiple 
       uninitialized data sections.
-
 
 ### -field AddressOfEntryPoint
 
@@ -153,11 +147,9 @@ A pointer to the entry point function, relative to the image base address. For e
       the starting address. For device drivers, this is the address of the initialization function. The entry point 
       function is optional for DLLs. When no entry point is present, this member is zero.
 
-
 ### -field BaseOfCode
 
 A pointer to the beginning of the code section, relative to the image base.
-
 
 ### -field ImageBase
 
@@ -165,12 +157,10 @@ The preferred address of the first byte of the image when it is loaded in memory
       of 64K bytes. The default value for DLLs is 0x10000000. The default value for applications is 0x00400000, except 
       on Windows CE where it is 0x00010000.
 
-
 ### -field SectionAlignment
 
 The alignment of sections loaded in memory, in bytes. This value must be greater than or equal to the 
       <b>FileAlignment</b> member. The default value is the page size for the system.
-
 
 ### -field FileAlignment
 
@@ -179,47 +169,38 @@ The alignment of the raw data of sections in the image file, in bytes. The value
       is less than the system page size, this member must be the same as 
       <b>SectionAlignment</b>.
 
-
 ### -field MajorOperatingSystemVersion
 
 The major version number of the required operating system.
-
 
 ### -field MinorOperatingSystemVersion
 
 The minor version number of the required operating system.
 
-
 ### -field MajorImageVersion
 
 The major version number of the image.
-
 
 ### -field MinorImageVersion
 
 The minor version number of the image.
 
-
 ### -field MajorSubsystemVersion
 
 The major version number of the subsystem.
-
 
 ### -field MinorSubsystemVersion
 
 The minor version number of the subsystem.
 
-
 ### -field Win32VersionValue
 
 This member is reserved and must be 0.
-
 
 ### -field SizeOfImage
 
 The size of the image, in bytes, including all headers. Must be a multiple of 
       <b>SectionAlignment</b>.
-
 
 ### -field SizeOfHeaders
 
@@ -230,7 +211,7 @@ The combined size of the following items, rounded to a multiple of the value spe
 <ul>
 <li><b>e_lfanew</b> member of <b>IMAGE_DOS_HEADER</b></li>
 <li>4 byte signature</li>
-<li>size of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a>
+<li>size of <a href="/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a>
 </li>
 <li>size of optional header</li>
 <li>size of all section headers</li>
@@ -240,7 +221,6 @@ The combined size of the following items, rounded to a multiple of the value spe
 
 The image file checksum. The following files are validated at load time: all drivers, any DLL loaded at 
       boot time, and any DLL loaded into a critical system process.
-
 
 ### -field Subsystem
 
@@ -395,8 +375,6 @@ Boot application.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DllCharacteristics
 
@@ -471,7 +449,7 @@ The DLL can be relocated at load time.
 <td width="60%">
 Code integrity checks are forced. If you set this flag and a section contains only uninitialized data, 
         set the <b>PointerToRawData</b> member of 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> for that section to 
+        <a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> for that section to 
         zero; otherwise, the image will fail to load because the digital signature cannot be verified.
 
 </td>
@@ -566,8 +544,6 @@ The image is terminal server aware.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SizeOfStackReserve
 
@@ -575,11 +551,9 @@ The number of bytes to reserve for the stack. Only the memory specified by the
       <b>SizeOfStackCommit</b> member is committed at load time; the rest is made available one 
       page at a time until this reserve size is reached.
 
-
 ### -field SizeOfStackCommit
 
 The number of bytes to commit for the stack.
-
 
 ### -field SizeOfHeapReserve
 
@@ -587,27 +561,23 @@ The number of bytes to reserve for the local heap. Only the memory specified by 
       <b>SizeOfHeapCommit</b> member is committed at load time; the rest is made available one 
       page at a time until this reserve size is reached.
 
-
 ### -field SizeOfHeapCommit
 
 The number of bytes to commit for the local heap.
 
-
 ### -field LoaderFlags
 
 This member is obsolete.
-
 
 ### -field NumberOfRvaAndSizes
 
 The number of directory entries in the remainder of the optional header. Each entry describes a location 
       and size.
 
-
 ### -field DataDirectory
 
 A pointer to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
+<a href="/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
  directory.
 
 
@@ -615,10 +585,7 @@ A pointer to the first
 
 A pointer to the beginning of the data section, relative to the image base.
 
-
 ## -remarks
-
-
 
 The number of directories is not fixed. Check the <b>NumberOfRvaAndSizes</b> member before 
     looking for a specific directory.
@@ -666,21 +633,10 @@ typedef struct _IMAGE_OPTIONAL_HEADER64 {
 } IMAGE_OPTIONAL_HEADER64, *PIMAGE_OPTIONAL_HEADER64;
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>

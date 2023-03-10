@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.GetBestInterface
 title: GetBestInterface function (iphlpapi.h)
 description: The GetBestInterface function retrieves the index of the interface that has the best route to the specified IPv4 address.
+helpviewer_keywords: ["GetBestInterface","GetBestInterface function [IP Helper]","_iphlp_getbestinterface","iphlp.getbestinterface","iphlpapi/GetBestInterface"]
 old-location: iphlp\getbestinterface.htm
 tech.root: IpHlp
 ms.assetid: 9171cdf7-4057-4a8d-a34c-1b7b1f94bcb1
 ms.date: 12/05/2018
 ms.keywords: GetBestInterface, GetBestInterface function [IP Helper], _iphlp_getbestinterface, iphlp.getbestinterface, iphlpapi/GetBestInterface
-f1_keywords:
-- iphlpapi/GetBestInterface
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetBestInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetBestInterface
+ - iphlpapi/GetBestInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetBestInterface
 ---
 
 # GetBestInterface function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetBestInterface</b> function retrieves the index of the interface that has the best route to the specified IPv4 address.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDestAddr [in]
 
-The destination IPv4 address for which to retrieve the interface that has the best route, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
-
+The destination IPv4 address for which to retrieve the interface that has the best route, in the form of an <a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
 
 ### -param pdwBestIfIndex [out]
 
-A pointer to a <b>DWORD</b> variable that receives the index of the interface that has the best route to the IPv4 address specified by <i>dwDestAddr</i>. 
-
+A pointer to a <b>DWORD</b> variable that receives the index of the interface that has the best route to the IPv4 address specified by <i>dwDestAddr</i>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -122,63 +115,47 @@ The request is not supported. This error is returned if no IPv4 stack is on the 
 </td>
 <td width="60%">
 Use 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
+the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>GetBestInterface</b> function only works with IPv4 addresses. For use with IPv6 addresses, the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex">GetBestInterfaceEx</a> must be used. 
+The <b>GetBestInterface</b> function only works with IPv4 addresses. For use with IPv6 addresses, the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex">GetBestInterfaceEx</a> must be used. 
 
 For information about the <b>IPAddr</b> data type, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>. To convert an IP address between dotted decimal notation and <b>IPAddr</b> format, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions.
+<a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>. To convert an IP address between dotted decimal notation and <b>IPAddr</b> format, use the 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> and 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions.
 
-On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated internally by IP Helper as a pointer to a <b>NET_IFINDEX</b> datatype. 
-
-
-
+On Windows Vista and later, the <i>pdwBestIfIndex</i> parameter is treated internally by IP Helper as a pointer to a <b>NET_IFINDEX</b> datatype.
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex">GetBestInterfaceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterfaceex">GetBestInterfaceEx</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
+<a href="/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_best_if">MIB_BEST_IF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_best_if">MIB_BEST_IF</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
- 
-
- 
-
+<a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>

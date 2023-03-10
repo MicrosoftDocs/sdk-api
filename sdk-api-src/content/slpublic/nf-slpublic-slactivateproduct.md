@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLActivateProduct
 title: SLActivateProduct function (slpublic.h)
 description: Acquires a use license from the Software License Server (SLS).
+helpviewer_keywords: ["SLActivateProduct","SLActivateProduct function [Security]","security.slactivateproduct","slpublic/SLActivateProduct"]
 old-location: security\slactivateproduct.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 14a2e84f-f5f7-4f17-8c7c-2cf580e14a26
 ms.date: 12/05/2018
 ms.keywords: SLActivateProduct, SLActivateProduct function [Security], security.slactivateproduct, slpublic/SLActivateProduct
-f1_keywords:
-- slpublic/SLActivateProduct
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLActivateProduct
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLActivateProduct
+ - slpublic/SLActivateProduct
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLActivateProduct
 ---
 
 # SLActivateProduct function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Acquires a use license from the Software License Server (SLS).
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,20 +60,17 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pProductSkuId [in]
 
 Type: <b>const SLID*</b>
 
  A pointer to the product ID.
 
-
 ### -param cbAppSpecificData [in, optional]
 
 Type: <b>UINT</b>
 
 The size of application specific data.
-
 
 ### -param pvAppSpecificData [in, optional]
 
@@ -85,13 +79,11 @@ Type: <b>const PVOID</b>
 A pointer to application specific data. The license server can use this     
 		information to embed application specific run-time information.
 
-
 ### -param pActivationInfo [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
 
 A pointer to additional product activation information.
-
 
 ### -param pwszProxyServer [in, optional]
 
@@ -99,17 +91,13 @@ Type: <b>PCWSTR</b>
 
 The proxy server name. Set this to <b>NULL</b> to use automatic proxy discovery.
 
-
 ### -param wProxyPort [in, optional]
 
 Type: <b>WORD</b>
 
 The proxy server port. To use the default port, set <i>wProxyPort</i> to 0.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -170,7 +158,3 @@ The license is not installed.
 </td>
 </tr>
 </table>
- 
-
-
-

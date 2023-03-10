@@ -2,6 +2,7 @@
 UID: NF:ntquery.CICreateCommand
 title: CICreateCommand function (ntquery.h)
 description: Creates a Command object.
+helpviewer_keywords: ["CICreateCommand","CICreateCommand function [Indexing Service]","_idxs_CICreateCommand","indexsrv.cicreatecommand","ntquery/CICreateCommand"]
 old-location: indexsrv\cicreatecommand.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_3sys.htm
@@ -49,7 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Creates a Command object.
 
@@ -61,27 +63,27 @@ Creates a Command object.
 
 ### -param ppCommand
 
-A pointer to a variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer requested in <i>riid</i>.
+A pointer to a variable that receives the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer requested in <i>riid</i>.
 
 
 ### -param pUnkOuter
 
-A pointer to an optional outer <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. This parameter can be zero for no aggregation, in which case <i>riid</i> can contain a value other than IID_IUnknown.
+A pointer to an optional outer <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. This parameter can be zero for no aggregation, in which case <i>riid</i> can contain a value other than IID_IUnknown.
 
 
 ### -param riid
 
-The interface identifier (IID) of the interface returned in <i>ppCommand</i>. This parameter must be IID_IUnknown unless <i>pUnkOuter</i> is <b>NULL</b>. Pass IID_ICommand to get an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface if aggregation isn't needed and <i>pUnkOuter</i> is <b>NULL</b>.
+The interface identifier (IID) of the interface returned in <i>ppCommand</i>. This parameter must be IID_IUnknown unless <i>pUnkOuter</i> is <b>NULL</b>. Pass IID_ICommand to get an <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface if aggregation isn't needed and <i>pUnkOuter</i> is <b>NULL</b>.
 
 
 ### -param pwcsCatalog
 
-The name of the catalog to be used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface.
+The name of the catalog to be used to execute queries. This is the value for the DBPROP_CI_CATALOG_NAME property of the <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface.
 
 
 ### -param pwcsMachine
 
-The name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface. Use L"." for the local computer.
+The name of the computer on which the query is to be executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface. Use L"." for the local computer.
 
 
 ## -returns
@@ -138,22 +140,22 @@ The function received an invalid parameter.
 
 
 
-The <b>CICreateCommand</b> function simplifies the task of connecting to the Indexing Service content and property indexes as an OLE DB provider data source object (DSO) and creating a session object. Queries made with the resulting <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface default to the scope "\" and search everywhere under that hierarchy (a "deep" search). To specify a scope, use <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cimakeicommand">CIMakeICommand</a>.
+The <b>CICreateCommand</b> function simplifies the task of connecting to the Indexing Service content and property indexes as an OLE DB provider data source object (DSO) and creating a session object. Queries made with the resulting <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface default to the scope "\" and search everywhere under that hierarchy (a "deep" search). To specify a scope, use <a href="/windows/desktop/api/ntquery/nf-ntquery-cimakeicommand">CIMakeICommand</a>.
 
-If interface aggregation isn't required, pass IID_ICommand for riid and <b>NULL</b> for <i>pUnkOuter</i>. Otherwise, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the returned object to get an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface.
+If interface aggregation isn't required, pass IID_ICommand for riid and <b>NULL</b> for <i>pUnkOuter</i>. Otherwise, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the returned object to get an <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface.
 
 The <b>CICreateCommand</b> function does not return an error if the catalog or computer do not exist or are not available. The connection to the catalog and computer are established when the <b>ICommand::Execute</b> method is called, and connection errors are returned at that time.
 
 
 
-Additional catalog, computer, and scope parameters can be specified after an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface is created using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms723044(v=vs.85)">ICommandProperties</a> interface.
+Additional catalog, computer, and scope parameters can be specified after an <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface is created using the <a href="/previous-versions/windows/desktop/ms723044(v=vs.85)">ICommandProperties</a> interface.
 
-A pointer to a null-terminated string that specifies the name of the machine on which the query is executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface. Use L"." for the local computer.
+A pointer to a null-terminated string that specifies the name of the machine on which the query is executed. This is the value for the DBPROP_CI_MACHINE_NAME property of the <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface. Use L"." for the local computer.
 
 
 #### Examples
 
-This example creates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface for the system catalog on the local machine.
+This example creates an <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a> interface for the system catalog on the local machine.
 
 
 ```
@@ -178,16 +180,15 @@ if ( SUCCEEDED( hr ) )
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-cimakeicommand">CIMakeICommand</a>
+<a href="/windows/desktop/api/ntquery/nf-ntquery-cimakeicommand">CIMakeICommand</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a>
+<a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommand</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms723044(v=vs.85)">ICommandProperties</a>
+<a href="/previous-versions/windows/desktop/ms723044(v=vs.85)">ICommandProperties</a>
  
 
  
-

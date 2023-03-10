@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.SetPreRestoreFailureMsg
 title: IVssComponent::SetPreRestoreFailureMsg (vswriter.h)
 description: The SetPreRestoreFailureMsg method is used to create a message describing a failure in processing a PreRestore event.
+helpviewer_keywords: ["IVssComponent interface [VSS]","SetPreRestoreFailureMsg method","IVssComponent.SetPreRestoreFailureMsg","IVssComponent::SetPreRestoreFailureMsg","SetPreRestoreFailureMsg","SetPreRestoreFailureMsg method [VSS]","SetPreRestoreFailureMsg method [VSS]","IVssComponent interface","_win32_ivsscomponent_setprerestorefailuremsg","base.ivsscomponent_setprerestorefailuremsg","vswriter/IVssComponent::SetPreRestoreFailureMsg"]
 old-location: base\ivsscomponent_setprerestorefailuremsg.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5b273cba-9878-4494-81ef-af1367f1e0a5
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],SetPreRestoreFailureMsg method, IVssComponent.SetPreRestoreFailureMsg, IVssComponent::SetPreRestoreFailureMsg, SetPreRestoreFailureMsg, SetPreRestoreFailureMsg method [VSS], SetPreRestoreFailureMsg method [VSS],IVssComponent interface, _win32_ivsscomponent_setprerestorefailuremsg, base.ivsscomponent_setprerestorefailuremsg, vswriter/IVssComponent::SetPreRestoreFailureMsg
-f1_keywords:
-- vswriter/IVssComponent.SetPreRestoreFailureMsg
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.SetPreRestoreFailureMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::SetPreRestoreFailureMsg
+ - vswriter/IVssComponent::SetPreRestoreFailureMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.SetPreRestoreFailureMsg
 ---
 
 # IVssComponent::SetPreRestoreFailureMsg
@@ -49,29 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetPreRestoreFailureMsg</b> 
     method is used to create a message describing a failure in processing a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
 
 Only a writer can call this method, and only during a restore operation.
 
-
 ## -parameters
-
-
-
 
 ### -param wszPreRestoreFailureMsg [in]
 
 A caller-allocated <b>NULL</b>-terminated wide character string containing the failure message describing an error that occurred 
-      while processing a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> 
+      while processing a <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> 
       event.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -125,41 +119,25 @@ The caller is not in the correct state (either backup or restore) for the operat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The failure message set by 
     <b>SetPreRestoreFailureMsg</b> applies to 
     all files in the component and any nonselectable subcomponents.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg">IVssComponent::GetPostRestoreFailureMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpostrestorefailuremsg">IVssComponent::GetPostRestoreFailureMsg</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg">IVssComponent::GetPreRestoreFailureMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getprerestorefailuremsg">IVssComponent::GetPreRestoreFailureMsg</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg">IVssComponent::SetPostRestoreFailureMsg</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setpostrestorefailuremsg">IVssComponent::SetPostRestoreFailureMsg</a>

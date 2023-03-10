@@ -1,16 +1,13 @@
 ---
 UID: NF:wincred.CredEnumerateW
 title: CredEnumerateW function (wincred.h)
-description: Enumerates the credentials from the user's credential set.
+description: Enumerates the credentials from the user's credential set. (Unicode)
+helpviewer_keywords: ["CRED_ENUMERATE_ALL_CREDENTIALS", "CredEnumerate", "CredEnumerate function [Security]", "CredEnumerateW", "_cred_credenumerate", "security.credenumerate", "wincred/CredEnumerate", "wincred/CredEnumerateW"]
 old-location: security\credenumerate.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783
 ms.date: 12/05/2018
 ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate function [Security], CredEnumerateA, CredEnumerateW, _cred_credenumerate, security.credenumerate, wincred/CredEnumerate, wincred/CredEnumerateA, wincred/CredEnumerateW
-f1_keywords:
-- wincred/CredEnumerate
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredEnumerate
-- CredEnumerateA
-- CredEnumerateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredEnumerateW
+ - wincred/CredEnumerateW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredEnumerate
+ - CredEnumerateA
+ - CredEnumerateW
 ---
 
 # CredEnumerateW function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredEnumerate</b> function enumerates the credentials from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
 
-
 ## -parameters
-
-
-
 
 ### -param Filter [in]
 
@@ -69,7 +66,6 @@ Pointer to a <b>null</b>-terminated string that contains the filter for the retu
 
 
 If <b>NULL</b> is specified, all credentials will be returned.
-
 
 ### -param Flags [in]
 
@@ -94,25 +90,19 @@ This function enumerates all of the credentials in the user's credential set. Th
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Count [out]
 
 Count of the credentials returned in the <i>Credentials</i> array.
 
-
 ### -param Credential [out]
 
 Pointer to an array of pointers to credentials.
-The returned credential is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
-
+The returned credential is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
 ## -returns
 
-
-
-The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned.
+The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned.
 
 <table>
 <tr>
@@ -156,22 +146,16 @@ A flag that is not valid was specified for the <i>Flags</i> parameter, or <b>CRE
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
- 
-
- 
-
+> [!NOTE]
+> The wincred.h header defines CredEnumerate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

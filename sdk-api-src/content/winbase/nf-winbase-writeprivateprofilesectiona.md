@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.WritePrivateProfileSectionA
 title: WritePrivateProfileSectionA function (winbase.h)
-description: Replaces the keys and values for the specified section in an initialization file.
+description: Replaces the keys and values for the specified section in an initialization file. (ANSI)
+helpviewer_keywords: ["WritePrivateProfileSectionA", "winbase/WritePrivateProfileSectionA"]
 old-location: base\writeprivateprofilesection.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
-f1_keywords:
-- winbase/WritePrivateProfileSection
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- WritePrivateProfileSection
-- WritePrivateProfileSectionA
-- WritePrivateProfileSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WritePrivateProfileSectionA
+ - winbase/WritePrivateProfileSectionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - WritePrivateProfileSection
+ - WritePrivateProfileSectionA
+ - WritePrivateProfileSectionW
 ---
 
 # WritePrivateProfileSectionA function
@@ -54,24 +56,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the keys and values for the specified section in an initialization file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpAppName [in]
 
 The name of the section in which data is written. This section name is typically the name of the calling application.
 
-
 ### -param lpString [in]
 
 The new key names and associated values that are to be written to the named section. This string is limited to 65,535 bytes.
-
 
 ### -param lpFileName [in]
 
@@ -79,22 +75,14 @@ The name of the initialization file. If this parameter does not contain a full p
 
 If the file exists and was created using Unicode characters, the function writes Unicode characters to the file. Otherwise, the function creates a file using ANSI characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The data in the buffer pointed to by the <i>lpString</i> parameter consists of one or more <b>null</b>-terminated strings, followed by a final <b>null</b> character. Each string has the following form:
 
@@ -112,7 +100,7 @@ This operation is atomic; no operations that read from or write to the specified
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>
@@ -147,25 +135,22 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines WritePrivateProfileSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection">GetPrivateProfileSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection">GetPrivateProfileSection</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilesectiona">WriteProfileSection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilesectiona">WriteProfileSection</a>

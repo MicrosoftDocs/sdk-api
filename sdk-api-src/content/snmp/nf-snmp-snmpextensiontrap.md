@@ -2,15 +2,12 @@
 UID: NF:snmp.SnmpExtensionTrap
 title: SnmpExtensionTrap function (snmp.h)
 description: The Microsoft SNMP service calls the SnmpExtensionTrap function to retrieve information the service needs to generate traps for the SNMP extension agent.
+helpviewer_keywords: ["SNMP_GENERICTRAP_AUTHFAILURE","SNMP_GENERICTRAP_COLDSTART","SNMP_GENERICTRAP_EGPNEIGHLOSS","SNMP_GENERICTRAP_ENTERSPECIFIC","SNMP_GENERICTRAP_LINKDOWN","SNMP_GENERICTRAP_LINKUP","SNMP_GENERICTRAP_WARMSTART","SnmpExtensionTrap","SnmpExtensionTrap callback","SnmpExtensionTrap callback function [SNMP]","_snmp_snmpextensiontrap","snmp.snmpextensiontrap","snmp/SnmpExtensionTrap"]
 old-location: snmp\snmpextensiontrap.htm
 tech.root: SNMP
 ms.assetid: 5c768bf5-aa25-4ead-8ee9-fc1f30de4354
 ms.date: 12/05/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpExtensionTrap, SnmpExtensionTrap callback, SnmpExtensionTrap callback function [SNMP], _snmp_snmpextensiontrap, snmp.snmpextensiontrap, snmp/SnmpExtensionTrap
-f1_keywords:
-- snmp/SnmpExtensionTrap
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Snmp.h
-api_name:
-- SnmpExtensionTrap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpExtensionTrap
+ - snmp/SnmpExtensionTrap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Snmp.h
+api_name:
+ - SnmpExtensionTrap
 ---
 
 # SnmpExtensionTrap function
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The Microsoft SNMP service calls the 
 <b>SnmpExtensionTrap</b> function to retrieve information the service needs to generate traps for the SNMP extension agent. The service calls this function only after the extension agent sets the trap event handle to the signaled state during a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a> function. The 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a> function. The 
 <b>SnmpExtensionTrap</b> function is an element of the SNMP Extension Agent API.
 
-
 ## -parameters
-
-
-
 
 ### -param pEnterpriseOid [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to receive the object identifier of the enterprise that generated the trap. The SNMP service does not free the memory for this variable.
-
+<a href="/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to receive the object identifier of the enterprise that generated the trap. The SNMP service does not free the memory for this variable.
 
 ### -param pGenericTrapId [out]
 
@@ -150,88 +146,66 @@ Signals an extraordinary event that is identified in the <i>pSpecificTrapId</i> 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pSpecificTrapId [out]
 
 Pointer to a variable to receive an indication of the specific trap generated.
 
-
 ### -param pTimeStamp [out]
 
 Pointer to a variable to receive the time stamp. It is recommended that you initialize this parameter with the value returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpsvcgetuptime">SnmpSvcGetUptime</a> function.
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpsvcgetuptime">SnmpSvcGetUptime</a> function.
 
 ### -param pVarBindList [out]
 
 Pointer to the variable bindings list. The extension agent must allocate the memory for this parameter. The SNMP service frees the memory with a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilvarbindlistfree">SnmpUtilVarBindListFree</a> function.
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilvarbindlistfree">SnmpUtilVarBindListFree</a> function.
 
 ## -returns
-
-
 
 If the 
 <b>SnmpExtensionTrap</b> function returns a trap, the return value is <b>TRUE</b>. The SNMP service repeatedly calls the function until it returns a value of <b>FALSE</b>. For additional information, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 The SNMP service repeatedly calls the 
 <b>SnmpExtensionTrap</b> function when the <i>phSubagentTrapEvent</i> event handle is set to the signaled state. This handle is passed back during the call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a> entry point function. The 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a> entry point function. The 
 <b>SnmpExtensionTrap</b> function must return <b>TRUE</b> to indicate that the parameters contain valid data for a single trap. The function must return <b>FALSE</b> to indicate that the parameters do not represent valid trap data, and to stop the service's repeated calls.
 
 Note that after the SNMP service sends a trap, it frees the memory associated with the variable binding list.
 
 It is important to note that earlier documentation stated that the extension agent should dynamically allocate memory for the enterprise object identifier because the SNMP service would attempt to release the memory after sending a trap. The service will not release the memory associated with the enterprise object identifier. It is recommended that you return a pointer to a static 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure instead.
-
-
-
+<a href="/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure instead.
 
 ## -see-also
 
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensioninit">SnmpExtensionInit</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpsvcgetuptime">SnmpSvcGetUptime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpsvcgetuptime">SnmpSvcGetUptime</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilvarbindlistfree">SnmpUtilVarBindListFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilvarbindlistfree">SnmpUtilVarBindListFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>

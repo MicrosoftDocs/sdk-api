@@ -2,15 +2,12 @@
 UID: NN:mfmediaengine.IMFMediaEngineSupportsSourceTransfer
 title: IMFMediaEngineSupportsSourceTransfer (mfmediaengine.h)
 description: Enables the media source to be transferred between the media engine and the sharing engine for Play To.
+helpviewer_keywords: ["IMFMediaEngineSupportsSourceTransfer","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","described","mf.imfmediaenginesupportssourcetransfer","mfmediaengine/IMFMediaEngineSupportsSourceTransfer"]
 old-location: mf\imfmediaenginesupportssourcetransfer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
-f1_keywords:
-- mfmediaengine/IMFMediaEngineSupportsSourceTransfer
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineSupportsSourceTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineSupportsSourceTransfer
+ - mfmediaengine/IMFMediaEngineSupportsSourceTransfer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineSupportsSourceTransfer
 ---
 
 # IMFMediaEngineSupportsSourceTransfer interface
@@ -48,62 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the media source to be transferred between  the media engine and the sharing engine for Play To.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineSupportsSourceTransfer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineSupportsSourceTransfer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaEngineSupportsSourceTransfer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesupportssourcetransfer-attachmediasource">AttachMediaSource</a>
-</td>
-<td align="left" width="63%">
-Attaches the media source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesupportssourcetransfer-detachmediasource">DetachMediaSource</a>
-</td>
-<td align="left" width="63%">
-Detaches the media source.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesupportssourcetransfer-shouldtransfersource">ShouldTransferSource</a>
-</td>
-<td align="left" width="63%">
-Specifies wether or not the source should be transferred.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMFMediaEngineSupportsSourceTransfer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineSupportsSourceTransfer</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

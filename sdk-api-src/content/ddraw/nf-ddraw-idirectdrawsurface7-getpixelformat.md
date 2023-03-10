@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDrawSurface7.GetPixelFormat
 title: IDirectDrawSurface7::GetPixelFormat (ddraw.h)
 description: Retrieves the color and pixel format of this surface.
+helpviewer_keywords: ["GetPixelFormat","GetPixelFormat method [DirectDraw]","GetPixelFormat method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetPixelFormat method","IDirectDrawSurface7.GetPixelFormat","IDirectDrawSurface7::GetPixelFormat","ddraw/IDirectDrawSurface7::GetPixelFormat","directdraw.idirectdrawsurface7_getpixelformat"]
 old-location: directdraw\idirectdrawsurface7_getpixelformat.htm
 tech.root: directdraw
 ms.assetid: 2c33c46b-6cd7-4ee7-976c-a81f9d92b379
@@ -43,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::GetPixelFormat
-
-
 ## -description
-
 
 Retrieves the color and pixel format of this surface.
 
-
 ## -parameters
 
+### -param unnamedParam1 [out]
 
-
-
-
-
-#### - lpDDPixelFormat [out]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddpixelformat">DDPIXELFORMAT</a> structure that receives a detailed description of the current pixel and color space format of this surface.
-
+A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddpixelformat">DDPIXELFORMAT</a> structure that receives a detailed description of the current pixel and color space format of this surface.
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -80,24 +66,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDSURFACETYPE</li>
 </ul>
 
-
-
 ## -remarks
-
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetPixelFormat</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

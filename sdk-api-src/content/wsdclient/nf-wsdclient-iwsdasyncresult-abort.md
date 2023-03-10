@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDAsyncResult.Abort
 title: IWSDAsyncResult::Abort (wsdclient.h)
 description: Aborts the asynchronous operation.
+helpviewer_keywords: ["Abort","Abort method","Abort method","IWSDAsyncResult interface","IWSDAsyncResult interface","Abort method","IWSDAsyncResult.Abort","IWSDAsyncResult::Abort","ncd.iwsdasyncresult_abort","wsdclient/IWSDAsyncResult::Abort"]
 old-location: ncd\iwsdasyncresult_abort.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 9237bcb4-4404-4d15-a18a-1d651e3fb899
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDAsyncResult interface, IWSDAsyncResult interface,Abort method, IWSDAsyncResult.Abort, IWSDAsyncResult::Abort, ncd.iwsdasyncresult_abort, wsdclient/IWSDAsyncResult::Abort
-f1_keywords:
-- wsdclient/IWSDAsyncResult.Abort
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDAsyncResult.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDAsyncResult::Abort
+ - wsdclient/IWSDAsyncResult::Abort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDAsyncResult.Abort
 ---
 
 # IWSDAsyncResult::Abort
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Aborts the asynchronous operation.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -87,27 +80,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>Abort</b> waits for all pending callbacks set with <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setcallback">SetCallback</a> to complete before returning to the caller.
-
-
-
+<b>Abort</b> waits for all pending callbacks set with <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasyncresult-setcallback">SetCallback</a> to complete before returning to the caller.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>

@@ -7,10 +7,6 @@ tech.root: FileIO
 ms.assetid: 6c85464d-019b-4923-9acf-152b4ee8c31b
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DELETE_USN_JOURNAL, FSCTL_DELETE_USN_JOURNAL control, FSCTL_DELETE_USN_JOURNAL control code [Files], _win32_fsctl_delete_usn_journal, base.fsctl_delete_usn_journal, fs.fsctl_delete_usn_journal, winioctl/FSCTL_DELETE_USN_JOURNAL
-f1_keywords:
-- winioctl/FSCTL_DELETE_USN_JOURNAL
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_DELETE_USN_JOURNAL
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_DELETE_USN_JOURNAL
+ - winioctl/FSCTL_DELETE_USN_JOURNAL
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_DELETE_USN_JOURNAL
 ---
 
 # FSCTL_DELETE_USN_JOURNAL IOCTL
@@ -47,10 +46,9 @@ req.redist:
 
 ## -description
 
-
 Deletes the update sequence number (USN) change journal on a volume, or waits for notification of 
     change journal deletion.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -69,88 +67,42 @@ DeviceIoControl( (HANDLE) hDevice,              // handle to volume
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -input-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -output-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-
-
 For the implications of overlapped I/O on this operation, see the Remarks section of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
+    <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> topic.
 
 You can use <b>FSCTL_DELETE_USN_JOURNAL</b> to delete 
     a change journal. The NTFS file system starts a deletion operation and returns immediately to the calling process, 
     unless the <b>USN_DELETE_FLAG_NOTIFY</b> flag is set in the 
     <b>DeleteFlags</b> member of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data">DELETE_USN_JOURNAL_DATA</a>.
+    <a href="/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data">DELETE_USN_JOURNAL_DATA</a>.
 
 If the <b>USN_DELETE_FLAG_NOTIFY</b> and <b>USN_DELETE_FLAG_DELETE</b> 
     flags are both set, a call to 
@@ -181,13 +133,13 @@ The <b>FSCTL_DELETE_USN_JOURNAL</b> operation has a
     current USN value approaches that of the maximum possible USN value.
 
 For more information, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
+     <a href="/windows/desktop/FileIO/creating-modifying-and-deleting-a-change-journal">Creating, Modifying, and Deleting a Change Journal</a>.
 
 To retrieve a handle to a volume, call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
+     <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string in the following form:
 
-\\.\<i>X</i>:
+\\.&#92;<i>X</i>:
 
 In the preceding string, <i>X</i> is the letter identifying the drive on which the volume 
      appears. The volume must be NTFS.
@@ -240,46 +192,35 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data">CREATE_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_usn_journal_data">CREATE_USN_JOURNAL_DATA</a>
+<a href="/windows/desktop/FileIO/change-journals">Change Journals</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journals">Change Journals</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data">DELETE_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-delete_usn_journal_data">DELETE_USN_JOURNAL_DATA</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal">FSCTL_CREATE_USN_JOURNAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal">FSCTL_CREATE_USN_JOURNAL</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>

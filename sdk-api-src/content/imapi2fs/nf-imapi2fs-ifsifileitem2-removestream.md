@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiFileItem2.RemoveStream
 title: IFsiFileItem2::RemoveStream (imapi2fs.h)
 description: Removes a named stream association with a file.
+helpviewer_keywords: ["IFsiFileItem2 interface [IMAPI]","RemoveStream method","IFsiFileItem2.RemoveStream","IFsiFileItem2::RemoveStream","RemoveStream","RemoveStream method [IMAPI]","RemoveStream method [IMAPI]","IFsiFileItem2 interface","imapi.ifsifileitem2_removestream","imapi2fs/IFsiFileItem2::RemoveStream"]
 old-location: imapi\ifsifileitem2_removestream.htm
 tech.root: imapi
 ms.assetid: 4b758048-31e5-43af-a4ae-8916982e90a9
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.RemoveStream, IFsiFileItem2::RemoveStream, RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
-f1_keywords:
-- imapi2fs/IFsiFileItem2.RemoveStream
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiFileItem2.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiFileItem2::RemoveStream
+ - imapi2fs/IFsiFileItem2::RemoveStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiFileItem2.RemoveStream
 ---
 
 # IFsiFileItem2::RemoveStream
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes a named stream association with a file.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 String that specifies the name of the named stream association to remove. This should not include the path and should only contain valid characters as per file system naming conventions.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -129,7 +123,7 @@ The value specified for parameter '<i>%1!ls!</i>' is invalid.
 </dl>
 </td>
 <td width="60%">
-The referenced <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
+The referenced <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> object is in read only mode.
 
 </td>
 </tr>
@@ -206,14 +200,8 @@ Failed to allocate required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called only for file items present in the file system image.
 
@@ -221,20 +209,10 @@ The user must enable UDF and set the UDF revision to 2.00 or higher to support n
 
 This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-addstream">IFsiFileItem2::AddStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-addstream">IFsiFileItem2::AddStream</a>

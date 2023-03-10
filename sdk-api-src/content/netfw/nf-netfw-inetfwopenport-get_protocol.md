@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Protocol
 title: INetFwOpenPort::get_Protocol (netfw.h)
-description: Specifies the protocol type setting for this port.
+description: Specifies the protocol type setting for this port. (Get)
+helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","Protocol property","INetFwOpenPort.Protocol","INetFwOpenPort.get_Protocol","INetFwOpenPort::Protocol","INetFwOpenPort::get_Protocol","INetFwOpenPort::put_Protocol","Protocol property [ICS/ICF]","Protocol property [ICS/ICF]","INetFwOpenPort interface","get_Protocol","ics.inetfwopenport_protocol","netfw/INetFwOpenPort::Protocol","netfw/INetFwOpenPort::get_Protocol","netfw/INetFwOpenPort::put_Protocol"]
 old-location: ics\inetfwopenport_protocol.htm
 tech.root: ics
 ms.assetid: 775c3d29-89c7-4768-9476-2e56555fd82b
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPort interface [ICS/ICF],Protocol property, INetFwOpenPort.Protocol, INetFwOpenPort.get_Protocol, INetFwOpenPort::Protocol, INetFwOpenPort::get_Protocol, INetFwOpenPort::put_Protocol, Protocol property [ICS/ICF], Protocol property [ICS/ICF],INetFwOpenPort interface, get_Protocol, ics.inetfwopenport_protocol, netfw/INetFwOpenPort::Protocol, netfw/INetFwOpenPort::get_Protocol, netfw/INetFwOpenPort::put_Protocol
-f1_keywords:
-- netfw/INetFwOpenPort.Protocol
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwOpenPort.Protocol
-- INetFwOpenPort.get_Protocol
-- INetFwOpenPort.put_Protocol
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwOpenPort::get_Protocol
+ - netfw/INetFwOpenPort::get_Protocol
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwOpenPort.Protocol
+ - INetFwOpenPort.get_Protocol
+ - INetFwOpenPort.put_Protocol
 ---
 
 # INetFwOpenPort::get_Protocol
@@ -51,37 +53,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Specifies the protocol type setting  for this port.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The default protocol type is TCP for new ports.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>

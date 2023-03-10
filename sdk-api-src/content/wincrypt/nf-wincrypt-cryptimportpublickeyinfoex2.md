@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptImportPublicKeyInfoEx2
 title: CryptImportPublicKeyInfoEx2 function (wincrypt.h)
 description: Imports a public key into the CNG asymmetric provider that corresponds to the public key object identifier (OID) and returns a CNG handle to the key.
+helpviewer_keywords: ["CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG","CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG","CryptImportPublicKeyInfoEx2","CryptImportPublicKeyInfoEx2 function [Security]","X509_ASN_ENCODING","security.cryptimportpublickeyinfoex2","wincrypt/CryptImportPublicKeyInfoEx2"]
 old-location: security\cryptimportpublickeyinfoex2.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c73f2499-75e9-4146-ae4c-0e949206ea37
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptImportPublicKeyInfoEx2, CryptImportPublicKeyInfoEx2 function [Security], X509_ASN_ENCODING, security.cryptimportpublickeyinfoex2, wincrypt/CryptImportPublicKeyInfoEx2
-f1_keywords:
-- wincrypt/CryptImportPublicKeyInfoEx2
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptImportPublicKeyInfoEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptImportPublicKeyInfoEx2
+ - wincrypt/CryptImportPublicKeyInfoEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptImportPublicKeyInfoEx2
 ---
 
 # CryptImportPublicKeyInfoEx2 function
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CryptImportPublicKeyInfoEx2</b> function imports a public key into the CNG asymmetric provider that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and returns a CNG handle to the key.
-
+The <b>CryptImportPublicKeyInfoEx2</b> function imports a public key into the CNG asymmetric provider that corresponds to the <a href="/windows/desktop/SecGloss/p-gly">public key</a> <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and returns a CNG handle to the key.
 
 ## -parameters
 
-
-
-
 ### -param dwCertEncodingType [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate encoding type</a> that was used to encrypt the subject. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
+The <a href="/windows/desktop/SecGloss/c-gly">certificate encoding type</a> that was used to encrypt the subject. The <a href="/windows/desktop/SecGloss/m-gly">message encoding type</a> identifier, contained in the high <b>WORD</b> of this value, is ignored by this function.
 
 
 This parameter can be the following currently defined certificate encoding type.
@@ -78,18 +75,15 @@ This parameter can be the following currently defined certificate encoding type.
 </dl>
 </td>
 <td width="60%">
-Specifies <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
+Specifies <a href="/windows/desktop/SecGloss/x-gly">X.509</a> certificate encoding.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pInfo [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key information to import into the provider.
-
+The address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key information to import into the provider.
 
 ### -param dwFlags [in]
 
@@ -123,29 +117,24 @@ Skips public keys in the CRYPT_PUBKEY_ALG_OID_GROUP_ID group that are explicitly
 </table>
  
 
-These flags are passed in the <i>dwKeyType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function when mapping the public key object identifier to the corresponding CNG public key algorithm identifier.
-
+These flags are passed in the <i>dwKeyType</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a> function when mapping the public key object identifier to the corresponding CNG public key algorithm identifier.
 
 ### -param pvAuxInfo [in]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param phKey [out]
 
 The address of a <b>BCRYPT_KEY_HANDLE</b> variable that receives the handle of the imported key.
 
-When this handle is no longer needed, you must release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
-
+When this handle is no longer needed, you must release it by calling the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include, but are not limited to, the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include, but are not limited to, the following.
 
 <table>
 <tr>
@@ -175,18 +164,7 @@ One or more parameters are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>

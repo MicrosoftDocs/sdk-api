@@ -2,15 +2,12 @@
 UID: NE:wsdbase._WSDUdpMessageType
 title: WSDUdpMessageType (wsdbase.h)
 description: Identifies the type of UDP message.
+helpviewer_keywords: ["ONE_WAY","TWO_WAY","WSDUdpMessageType","WSDUdpMessageType enumeration","ncd.wsdudpmessagetype","wsdbase/ONE_WAY","wsdbase/TWO_WAY","wsdbase/WSDUdpMessageType"]
 old-location: ncd\wsdudpmessagetype.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
 ms.date: 12/05/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType
-f1_keywords:
-- wsdbase/WSDUdpMessageType
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wsdbase.h
-api_name:
-- WSDUdpMessageType
 targetos: Windows
 req.typenames: WSDUdpMessageType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSDUdpMessageType
+ - wsdbase/_WSDUdpMessageType
+ - WSDUdpMessageType
+ - wsdbase/WSDUdpMessageType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wsdbase.h
+api_name:
+ - WSDUdpMessageType
 ---
 
 # WSDUdpMessageType enumeration
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the type of UDP message.
-
 
 ## -enum-fields
 
-
-
-
-### -field ONE_WAY
+### -field ONE_WAY:0
 
 The message is a one-way UDP message without a corresponding response. Hello and Bye messages are one-way messages.
-
 
 ### -field TWO_WAY
 

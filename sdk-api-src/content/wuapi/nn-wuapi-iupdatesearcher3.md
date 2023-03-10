@@ -1,16 +1,13 @@
 ---
 UID: NN:wuapi.IUpdateSearcher3
 title: IUpdateSearcher3 (wuapi.h)
-description: Searches for updates on a server.
+description: Searches for updates on a server. (IUpdateSearcher3)
+helpviewer_keywords: ["IUpdateSearcher3","IUpdateSearcher3 interface [Windows Update Agent]","IUpdateSearcher3 interface [Windows Update Agent]","described","wua.iupdatesearcher3","wuapi/IUpdateSearcher3"]
 old-location: wua\iupdatesearcher3.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d37017d5-6f78-4b6c-ac0b-c83b83853079
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher3, IUpdateSearcher3 interface [Windows Update Agent], IUpdateSearcher3 interface [Windows Update Agent],described, wua.iupdatesearcher3, wuapi/IUpdateSearcher3
-f1_keywords:
-- wuapi/IUpdateSearcher3
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher3
+ - wuapi/IUpdateSearcher3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher3
 ---
 
 # IUpdateSearcher3 interface
 
 
 ## -description
-
 
 Searches for updates on a server.
 

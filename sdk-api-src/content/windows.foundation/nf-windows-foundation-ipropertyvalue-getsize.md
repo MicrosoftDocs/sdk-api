@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSize
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetSize (windows.foundation.h)
 description: Gets the Size value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetSize","GetSize method [Windows Runtime]","GetSize method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSize method","IPropertyValue.GetSize","IPropertyValue.IPropertyValue","IPropertyValue::GetSize","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSize","winrt.ipropertyvalue_getsize"]
 old-location: winrt\ipropertyvalue_getsize.htm
 tech.root: WinRT
 ms.assetid: c864cf0e-8e7e-44b0-93dc-3d2d9f2326a7
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Runtime], GetSize method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSize method, IPropertyValue.GetSize, IPropertyValue.IPropertyValue, IPropertyValue::GetSize, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSize, winrt.ipropertyvalue_getsize
-f1_keywords:
-- windows.foundation/IPropertyValue.GetSize
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,64 +25,51 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetSize
+ - windows.foundation/IPropertyValue::GetSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetSize
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetSize (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a> value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a> value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
 
-
-
-
 ### -param value [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a>*</b>
+Type: <b><a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-size">Size</a>*</b>
 
 The value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsize">IPropertyValueStatics::CreateSize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsize">IPropertyValueStatics::CreateSize</a>

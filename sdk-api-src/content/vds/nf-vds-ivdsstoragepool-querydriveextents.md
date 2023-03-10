@@ -1,16 +1,13 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryDriveExtents
 title: IVdsStoragePool::QueryDriveExtents (vds.h)
-description: Returns an array of the drive extents that are used by a storage pool.
+description: The IVdsStoragePool::QueryDriveExtents method (vds.h) returns an array of the drive extents that are used by a storage pool.
+helpviewer_keywords: ["IVdsStoragePool interface","QueryDriveExtents method","IVdsStoragePool.QueryDriveExtents","IVdsStoragePool::QueryDriveExtents","QueryDriveExtents","QueryDriveExtents method","QueryDriveExtents method","IVdsStoragePool interface","base.ivdsstoragepool_querydriveextents","vds/IVdsStoragePool::QueryDriveExtents","vdshwprv/IVdsStoragePool::QueryDriveExtents"]
 old-location: base\ivdsstoragepool_querydriveextents.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 91bae6e6-3718-4d82-ab8c-e489b9a105fe
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: IVdsStoragePool interface,QueryDriveExtents method, IVdsStoragePool.QueryDriveExtents, IVdsStoragePool::QueryDriveExtents, QueryDriveExtents, QueryDriveExtents method, QueryDriveExtents method,IVdsStoragePool interface, base.ivdsstoragepool_querydriveextents, vds/IVdsStoragePool::QueryDriveExtents, vdshwprv/IVdsStoragePool::QueryDriveExtents
-f1_keywords:
-- vds/IVdsStoragePool.QueryDriveExtents
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsStoragePool.QueryDriveExtents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsStoragePool::QueryDriveExtents
+ - vds/IVdsStoragePool::QueryDriveExtents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsStoragePool.QueryDriveExtents
 ---
 
 # IVdsStoragePool::QueryDriveExtents
@@ -49,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
-
-Returns an array of the drive extents that are used by a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>.
-
+Returns an array of the drive extents that are used by a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 ## -parameters
 
-
-
-
 ### -param ppExtentArray [out]
 
-A pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_storage_pool_drive_extent">VDS_STORAGE_POOL_DRIVE_EXTENT</a> structures passed in by the caller. These structures describe the drive extents used by the storage pool. Callers must free this array by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
-
+A pointer to the array of <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_storage_pool_drive_extent">VDS_STORAGE_POOL_DRIVE_EXTENT</a> structures passed in by the caller. These structures describe the drive extents used by the storage pool. Callers must free this array by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ### -param plNumberOfExtents [out]
 
 A pointer to the number of extents returned in the <i>ppExtentArray</i> array.
 
-
 ## -returns
 
-
-
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -93,18 +86,7 @@ The method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsstoragepool">IVdsStoragePool</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsstoragepool">IVdsStoragePool</a>

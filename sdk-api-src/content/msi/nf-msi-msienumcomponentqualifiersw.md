@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiEnumComponentQualifiersW
 title: MsiEnumComponentQualifiersW function (msi.h)
-description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
+description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called. (Unicode)
+helpviewer_keywords: ["MsiEnumComponentQualifiers", "MsiEnumComponentQualifiers function", "MsiEnumComponentQualifiersW", "_msi_msienumcomponentqualifiers", "msi/MsiEnumComponentQualifiers", "msi/MsiEnumComponentQualifiersW", "setup.msienumcomponentqualifiers"]
 old-location: setup\msienumcomponentqualifiers.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f499cca3-ef24-4419-92b8-7794b3a6816b
 ms.date: 12/05/2018
 ms.keywords: MsiEnumComponentQualifiers, MsiEnumComponentQualifiers function, MsiEnumComponentQualifiersA, MsiEnumComponentQualifiersW, _msi_msienumcomponentqualifiers, msi/MsiEnumComponentQualifiers, msi/MsiEnumComponentQualifiersA, msi/MsiEnumComponentQualifiersW, setup.msienumcomponentqualifiers
-f1_keywords:
-- msi/MsiEnumComponentQualifiers
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumComponentQualifiers
-- MsiEnumComponentQualifiersA
-- MsiEnumComponentQualifiersW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumComponentQualifiersW
+ - msi/MsiEnumComponentQualifiersW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumComponentQualifiers
+ - MsiEnumComponentQualifiersA
+ - MsiEnumComponentQualifiersW
 ---
 
 # MsiEnumComponentQualifiersW function
@@ -50,50 +52,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEnumComponentQualifiers</b> function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
 
-
 ## -parameters
-
-
-
 
 ### -param szComponent [in]
 
 Specifies component whose qualifiers are to be enumerated.
-
 
 ### -param iIndex [in]
 
 Specifies the index of the qualifier to retrieve. This parameter should be zero for the first call to the 
 <b>MsiEnumComponentQualifiers</b> function and then incremented for subsequent calls. Because qualifiers are not ordered, any new qualifier has an arbitrary index. This means that the function can return qualifiers in any order.
 
-
 ### -param lpQualifierBuf [out]
 
 Pointer to a buffer that receives the qualifier code.
-
 
 ### -param pcchQualifierBuf [in, out]
 
 Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpQualifierBuf</i> parameter. On input, this size should include the terminating null character. On return, the value does not include the null character.
 
-
 ### -param lpApplicationDataBuf [out]
 
 Pointer to a buffer that receives the application registered data for the qualifier. This parameter can be null.
 
-
 ### -param pcchApplicationDataBuf [in, out]
 
-Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpApplicationDataBuf</i> parameter. On input, this size should include the terminating null character. On return, the value does not include the null character. This parameter can be null only if the <i>lpApplicationDataBuf </i>parameter is null.
-
+Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpApplicationDataBuf</i> parameter. On input, this size should include the terminating null character. On return, the value does not include the null character. This parameter can be null only if the <i>lpApplicationDataBuf </i> parameter is null.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -129,7 +118,7 @@ An invalid parameter was passed to the function.
 </dl>
 </td>
 <td width="60%">
-A buffer is to small to hold the requested data.
+A buffer is too small to hold the requested data.
 
 </td>
 </tr>
@@ -178,17 +167,11 @@ The specified component is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To enumerate qualifiers, an application should initially call the 
-<b>MsiEnumComponentQualifiers</b> function with the<i> iIndex </i>parameter set to zero. The application should then increment the <i> iIndex </i> parameter and call 
+<b>MsiEnumComponentQualifiers</b> function with the<i> iIndex </i> parameter set to zero. The application should then increment the <i> iIndex </i> parameter and call 
 <b>MsiEnumComponentQualifiers</b> until there are no more qualifiers (that is, until the function returns ERROR_NO_MORE_ITEMS).
 
 When 
@@ -202,13 +185,10 @@ When making multiple calls to
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiEnumComponentQualifiers as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

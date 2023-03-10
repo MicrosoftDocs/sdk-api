@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetProductPropertyW
 title: MsiGetProductPropertyW function (msi.h)
-description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database.
+description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database. (Unicode)
+helpviewer_keywords: ["MsiGetProductProperty", "MsiGetProductProperty function", "MsiGetProductPropertyW", "_msi_msigetproductproperty", "msi/MsiGetProductProperty", "msi/MsiGetProductPropertyW", "setup.msigetproductproperty"]
 old-location: setup\msigetproductproperty.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductProperty, MsiGetProductProperty function, MsiGetProductPropertyA, MsiGetProductPropertyW, _msi_msigetproductproperty, msi/MsiGetProductProperty, msi/MsiGetProductPropertyA, msi/MsiGetProductPropertyW, setup.msigetproductproperty
-f1_keywords:
-- msi/MsiGetProductProperty
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetProductProperty
-- MsiGetProductPropertyA
-- MsiGetProductPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetProductPropertyW
+ - msi/MsiGetProductPropertyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetProductProperty
+ - MsiGetProductPropertyA
+ - MsiGetProductPropertyW
 ---
 
 # MsiGetProductPropertyW function
@@ -50,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetProductProperty</b> function retrieves product properties. These properties are in the product database.
 
-
 ## -parameters
-
-
-
 
 ### -param hProduct [in]
 
 Handle to the product obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+<a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szProperty [in]
 
 Specifies the property to retrieve. This is case-sensitive.
 
-
 ### -param lpValueBuf [out]
 
 Pointer to a buffer that receives the property value. The value is truncated and null-terminated if <i>lpValueBuf</i> is too small. This parameter can be null.
-
 
 ### -param pcchValueBuf [in, out]
 
@@ -85,10 +79,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpValueBuf</i> is null, <i>pcchValueBuf</i> can be null.
 
-
 ## -returns
-
-
 
 The 
 					<b>MsiGetProductProperty</b> function return the following values.
@@ -148,13 +139,7 @@ The function completed successfully.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 When the 
 <b>MsiGetProductProperty</b> function returns, the <i>pcchValueBuf</i> parameter contains the length of the string stored in the buffer. The count returned does not include the terminating null character. If the buffer is not big enough, 
@@ -164,13 +149,10 @@ When the
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiGetProductProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>

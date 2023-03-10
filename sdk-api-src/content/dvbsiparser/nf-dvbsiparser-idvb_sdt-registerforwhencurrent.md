@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDVB_SDT.RegisterForWhenCurrent
 title: IDVB_SDT::RegisterForWhenCurrent (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IDVB_SDT interface [Microsoft TV Technologies]","RegisterForWhenCurrent method","IDVB_SDT.RegisterForWhenCurrent","IDVB_SDT::RegisterForWhenCurrent","IDVB_SDTRegisterForWhenCurrent","RegisterForWhenCurrent","RegisterForWhenCurrent method [Microsoft TV Technologies]","RegisterForWhenCurrent method [Microsoft TV Technologies]","IDVB_SDT interface","dvbsiparser/IDVB_SDT::RegisterForWhenCurrent","mstv.idvb_sdt_registerforwhencurrent"]
 old-location: mstv\idvb_sdt_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: 240238fb-54fc-4465-b4dd-4878f43c50a9
 ms.date: 12/05/2018
 ms.keywords: IDVB_SDT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_SDT.RegisterForWhenCurrent, IDVB_SDT::RegisterForWhenCurrent, IDVB_SDTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_SDT interface, dvbsiparser/IDVB_SDT::RegisterForWhenCurrent, mstv.idvb_sdt_registerforwhencurrent
-f1_keywords:
-- dvbsiparser/IDVB_SDT.RegisterForWhenCurrent
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_SDT.RegisterForWhenCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_SDT::RegisterForWhenCurrent
+ - dvbsiparser/IDVB_SDT::RegisterForWhenCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_SDT.RegisterForWhenCurrent
 ---
 
 # IDVB_SDT::RegisterForWhenCurrent
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>RegisterForWhenCurrent</b> method registers the client to be notified when the table becomes current.
 
-
 ## -parameters
-
-
-
 
 ### -param hNextTableIsCurrent [in]
 
 Handle to an event created by the caller. The object signals the event when the table becomes current.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -124,27 +117,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to <i>next</i> tables. Otherwise, the method returns E_ACCESSDENIED.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT Interface</a>

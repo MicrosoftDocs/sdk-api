@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._KERB_ADD_CREDENTIALS_REQUEST
 title: KERB_ADD_CREDENTIALS_REQUEST (ntsecapi.h)
 description: Specifies a message to add, remove, or replace an extra server credential for a logon session.
+helpviewer_keywords: ["*PKERB_ADD_CREDENTIALS_REQUEST","KERB_ADD_CREDENTIALS_REQUEST","KERB_ADD_CREDENTIALS_REQUEST structure [Security]","KERB_REQUEST_ADD_CREDENTIAL","KERB_REQUEST_REMOVE_CREDENTIAL","KERB_REQUEST_REPLACE_CREDENTIAL","PKERB_ADD_CREDENTIALS_REQUEST","PKERB_ADD_CREDENTIALS_REQUEST structure pointer [Security]","ntsecapi/KERB_ADD_CREDENTIALS_REQUEST","ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST","security.kerb_add_credentials_request"]
 old-location: security\kerb_add_credentials_request.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a9a8810b-c9cf-4e19-8a33-7ad0c7ef8694
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST, KERB_ADD_CREDENTIALS_REQUEST structure [Security], KERB_REQUEST_ADD_CREDENTIAL, KERB_REQUEST_REMOVE_CREDENTIAL, KERB_REQUEST_REPLACE_CREDENTIAL, PKERB_ADD_CREDENTIALS_REQUEST, PKERB_ADD_CREDENTIALS_REQUEST structure pointer [Security], ntsecapi/KERB_ADD_CREDENTIALS_REQUEST, ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST, security.kerb_add_credentials_request'
-f1_keywords:
-- ntsecapi/KERB_ADD_CREDENTIALS_REQUEST
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_ADD_CREDENTIALS_REQUEST
 targetos: Windows
 req.typenames: KERB_ADD_CREDENTIALS_REQUEST, *PKERB_ADD_CREDENTIALS_REQUEST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KERB_ADD_CREDENTIALS_REQUEST
+ - ntsecapi/_KERB_ADD_CREDENTIALS_REQUEST
+ - PKERB_ADD_CREDENTIALS_REQUEST
+ - ntsecapi/PKERB_ADD_CREDENTIALS_REQUEST
+ - KERB_ADD_CREDENTIALS_REQUEST
+ - ntsecapi/KERB_ADD_CREDENTIALS_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_ADD_CREDENTIALS_REQUEST
 ---
 
 # KERB_ADD_CREDENTIALS_REQUEST structure
@@ -48,41 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a  message to add, remove, or replace an extra server credential for a logon session. The <b>SeTcbPrivilege</b> is required to alter another logon account's credentials.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MessageType
 
 A 
-						value of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration that lists the types of messages that can be sent to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
-the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function. This member must be set to <b>KerbAddExtraCredentialsMessage</b>.
-
+						value of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration that lists the types of messages that can be sent to the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
+the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function. This member must be set to <b>KerbAddExtraCredentialsMessage</b>.
 
 ### -field UserName
 
 The user name for the credential.
 
-
 ### -field DomainName
 
 The domain name for the credential.
-
 
 ### -field Password
 
 The password for the credential.
 
-
 ### -field LogonId
 
 The logon ID of the credential. The value of this member can be <b>NULL</b>.
-
 
 ### -field Flags
 
@@ -127,25 +123,11 @@ Remove the specified credential from the logon session.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-Calling  the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function with this structure affects only the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Kerberos)</a> function. Using this structure allows multiple physical and virtual servers to share a single identity.
-
-
-
+Calling  the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function with this structure affects only the behavior of the <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Kerberos)</a> function. Using this structure allows multiple physical and virtual servers to share a single identity.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request_ex">KERB_ADD_CREDENTIALS_REQUEST_EX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_add_credentials_request_ex">KERB_ADD_CREDENTIALS_REQUEST_EX</a>

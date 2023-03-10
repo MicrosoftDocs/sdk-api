@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.Query
 title: IVssSoftwareSnapshotProvider::Query (vsprov.h)
 description: Queries the provider for information about the shadow copies that the provider has completed.
+helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","Query method","IVssSoftwareSnapshotProvider.Query","IVssSoftwareSnapshotProvider::Query","Query","Query method","Query method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_query","vsprov/IVssSoftwareSnapshotProvider::Query"]
 old-location: base\ivsssoftwaresnapshotprovider_query.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: bb238acc-7af0-43cf-bc2e-70e255978fb1
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,Query method, IVssSoftwareSnapshotProvider.Query, IVssSoftwareSnapshotProvider::Query, Query, Query method, Query method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_query, vsprov/IVssSoftwareSnapshotProvider::Query
-f1_keywords:
-- vsprov/IVssSoftwareSnapshotProvider.Query
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssSoftwareSnapshotProvider.Query
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssSoftwareSnapshotProvider::Query
+ - vsprov/IVssSoftwareSnapshotProvider::Query
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssSoftwareSnapshotProvider.Query
 ---
 
 # IVssSoftwareSnapshotProvider::Query
@@ -49,39 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the provider for information about the shadow copies that the provider has completed.
 
-
 ## -parameters
-
-
-
 
 ### -param QueriedObjectId [in]
 
 Reserved for system use. The value of this parameter must be GUID_NULL.
 
-
 ### -param eQueriedObjectType [in]
 
 Reserved for system use. The value of this parameter must be VSS_OBJECT_NONE.
-
 
 ### -param eReturnedObjectsType [in]
 
 Reserved for system use. The value of this parameter must be VSS_OBJECT_SNAPSHOT.
 
-
 ### -param ppEnum [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface pointer, 
+The address of an <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface pointer, 
       which is initialized on return. Callers must release the interface. This parameter is required and cannot be null.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -142,37 +133,21 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Calling the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject::Next</a> method on the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface that is returned though the 
+Calling the <a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEnumObject::Next</a> method on the 
+    <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> interface that is returned though the 
     <i>ppEnum</i>  parameter will return 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a> structures containing a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for each shadow copy.
-
-
-
+    <a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a> structures containing a 
+    <a href="/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a> structure for each shadow copy.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>

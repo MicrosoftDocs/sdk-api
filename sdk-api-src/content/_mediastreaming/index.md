@@ -4,7 +4,7 @@ title: Media Streaming API
 ms.assetid: 657c5a21-72d5-3f12-a0eb-79444b5e3ef4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 archived: true
 ---
 

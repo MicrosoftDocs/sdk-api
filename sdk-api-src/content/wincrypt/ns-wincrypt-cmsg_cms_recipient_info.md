@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CMSG_CMS_RECIPIENT_INFO
 title: CMSG_CMS_RECIPIENT_INFO (wincrypt.h)
 description: Used with the CryptMsgGetParam function to get information on a key transport, key agreement, or mail list envelope message recipient.
+helpviewer_keywords: ["*PCMSG_CMS_RECIPIENT_INFO","CMSG_CMS_RECIPIENT_INFO","CMSG_CMS_RECIPIENT_INFO structure [Security]","CMSG_KEY_AGREE_RECIPIENT","CMSG_KEY_TRANS_RECIPIENT","CMSG_MAIL_LIST_RECIPIENT","PCMSG_CMS_RECIPIENT_INFO","PCMSG_CMS_RECIPIENT_INFO structure pointer [Security]","_crypto2_cmsg_cms_recipient_info","security.cmsg_cms_recipient_info","wincrypt/CMSG_CMS_RECIPIENT_INFO","wincrypt/PCMSG_CMS_RECIPIENT_INFO"]
 old-location: security\cmsg_cms_recipient_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 27ce2430-d240-49f7-bff7-32be1695c8c0
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO, CMSG_CMS_RECIPIENT_INFO structure [Security], CMSG_KEY_AGREE_RECIPIENT, CMSG_KEY_TRANS_RECIPIENT, CMSG_MAIL_LIST_RECIPIENT, PCMSG_CMS_RECIPIENT_INFO, PCMSG_CMS_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_cms_recipient_info, security.cmsg_cms_recipient_info, wincrypt/CMSG_CMS_RECIPIENT_INFO, wincrypt/PCMSG_CMS_RECIPIENT_INFO'
-f1_keywords:
-- wincrypt/CMSG_CMS_RECIPIENT_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CMSG_CMS_RECIPIENT_INFO
 targetos: Windows
 req.typenames: CMSG_CMS_RECIPIENT_INFO, *PCMSG_CMS_RECIPIENT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CMSG_CMS_RECIPIENT_INFO
+ - wincrypt/_CMSG_CMS_RECIPIENT_INFO
+ - PCMSG_CMS_RECIPIENT_INFO
+ - wincrypt/PCMSG_CMS_RECIPIENT_INFO
+ - CMSG_CMS_RECIPIENT_INFO
+ - wincrypt/CMSG_CMS_RECIPIENT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CMSG_CMS_RECIPIENT_INFO
 ---
 
 # CMSG_CMS_RECIPIENT_INFO structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CMSG_CMS_RECIPIENT_INFO</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function to get information on a key transport, key agreement, or mail list envelope message recipient. This structure is returned in <i>pvData</i> when <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> is called with <i>dwParamType</i> set to CMSG_CMS_RECIPIENT_INFO_PARAM.
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> function to get information on a key transport, key agreement, or mail list envelope message recipient. This structure is returned in <i>pvData</i> when <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsggetparam">CryptMsgGetParam</a> is called with <i>dwParamType</i> set to CMSG_CMS_RECIPIENT_INFO_PARAM.
 
 ## -struct-fields
-
-
-
 
 ### -field dwRecipientChoice
 
@@ -103,28 +104,20 @@ pMailList
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.pKeyTrans
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_info">CMSG_KEY_TRANS_RECIPIENT_INFO</a> structure that identifies a key transport recipient. Used for RSA recipients.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_info">CMSG_KEY_TRANS_RECIPIENT_INFO</a> structure that identifies a key transport recipient. Used for RSA recipients.
 
 ### -field DUMMYUNIONNAME.pKeyAgree
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_recipient_info">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure that identifies a key agreement recipient. Used for Diffie-Hellman recipients.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_recipient_info">CMSG_KEY_AGREE_RECIPIENT_INFO</a> structure that identifies a key agreement recipient. Used for Diffie-Hellman recipients.
 
 ### -field DUMMYUNIONNAME.pMailList
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure that identifies a recipient using a previously distributed key encryption key for the encryption/decryption of the envelopes message's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a>.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure that identifies a recipient using a previously distributed key encryption key for the encryption/decryption of the envelopes message's <a href="/windows/desktop/SecGloss/s-gly">symmetric key</a>.

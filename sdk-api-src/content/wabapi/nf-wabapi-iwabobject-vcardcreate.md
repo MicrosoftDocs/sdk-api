@@ -2,15 +2,12 @@
 UID: NF:wabapi.IWABObject.VCardCreate
 title: IWABObject::VCardCreate (wabapi.h)
 description: Translates the properties of a given MailUser object into a vCard file.
+helpviewer_keywords: ["IWABObject interface [Windows Address Book]","VCardCreate method","IWABObject.VCardCreate","IWABObject::VCardCreate","VCardCreate","VCardCreate method [Windows Address Book]","VCardCreate method [Windows Address Book]","IWABObject interface","_wab_IWABObject_VCardCreate","wab._wab_IWABObject_VCardCreate","wabapi/IWABObject::VCardCreate"]
 old-location: wab\_wab_IWABObject_VCardCreate.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardcreate.htm
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardCreate method, IWABObject.VCardCreate, IWABObject::VCardCreate, VCardCreate, VCardCreate method [Windows Address Book], VCardCreate method [Windows Address Book],IWABObject interface, _wab_IWABObject_VCardCreate, wab._wab_IWABObject_VCardCreate, wabapi/IWABObject::VCardCreate
-f1_keywords:
-- wabapi/IWABObject.VCardCreate
-dev_langs:
-- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IWABObject.VCardCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IWABObject::VCardCreate
+ - wabapi/IWABObject::VCardCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IWABObject.VCardCreate
 ---
 
 # IWABObject::VCardCreate
@@ -49,23 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Translates the properties of a given MailUser object into a 
 		vCard file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpIAB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>interface that 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface that 
 				specifies the address book.
-
 
 ### -param ulFlags
 
@@ -73,39 +69,28 @@ Type: <b>ULONG</b>
 
 No flags.
 
-
 ### -param lpszVCard
 
 Type: <b>LPSTR</b>
 
 Value of type <b>LPSTR</b> that specifies the 
 				string containing the complete path name of the file to create.
-				
-
 
 ### -param lpMailUser
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> interface that 
+Pointer to an <a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> interface that 
 				specifies the object whose properties are to be written into 
 				the file.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The complete file name must be specified. If the file already exists, 
 	it will be overwritten. Vcard creation is extensible: if your client 
@@ -113,20 +98,10 @@ The complete file name must be specified. If the file already exists,
 	Windows Address Book (WAB), it may be possible to include this data in the newly 
 	created vCard.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wabapi/nn-wabapi-iwabobject">IWABObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nn-wabapi-iwabobject">IWABObject</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-vcardprops">Importing and Exporting Named Properties Through vCards</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/wab/-wab-vcardprops">Importing and Exporting Named Properties Through vCards</a>

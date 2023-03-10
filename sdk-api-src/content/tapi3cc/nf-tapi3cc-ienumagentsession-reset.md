@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.IEnumAgentSession.Reset
 title: IEnumAgentSession::Reset (tapi3cc.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The IEnumAgentSession::Reset method (tapi3cc.h) resets the enumeration sequence to the beginning.
+helpviewer_keywords: ["IEnumAgentSession interface [TAPI 2.2]","Reset method","IEnumAgentSession.Reset","IEnumAgentSession::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumAgentSession interface","_tapi3_ienumagentsession_reset","tapi3.ienumagentsession_reset","tapi3cc/IEnumAgentSession::Reset"]
 old-location: tapi3\ienumagentsession_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 38640376-0093-4fa4-9d27-b174c6df1bf4
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Reset method, IEnumAgentSession.Reset, IEnumAgentSession::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_reset, tapi3.ienumagentsession_reset, tapi3cc/IEnumAgentSession::Reset
-f1_keywords:
-- tapi3cc/IEnumAgentSession.Reset
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAgentSession.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAgentSession::Reset
+ - tapi3cc/IEnumAgentSession::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAgentSession.Reset
 ---
 
 # IEnumAgentSession::Reset
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets the enumeration sequence to the beginning.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,18 +87,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>

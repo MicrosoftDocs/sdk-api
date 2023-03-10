@@ -1,16 +1,13 @@
 ---
 UID: NS:xaudio2.XAUDIO2_PERFORMANCE_DATA
 title: XAUDIO2_PERFORMANCE_DATA (xaudio2.h)
-description: Contains performance information.
+description: Contains performance information. (XAUDIO2_PERFORMANCE_DATA)
+helpviewer_keywords: ["XAUDIO2_PERFORMANCE_DATA","XAUDIO2_PERFORMANCE_DATA structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_performance_data","xaudio2/XAUDIO2_PERFORMANCE_DATA"]
 old-location: xaudio2\xaudio2_performance_data.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_PERFORMANCE_DATA
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_PERFORMANCE_DATA, XAUDIO2_PERFORMANCE_DATA structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_performance_data, xaudio2/XAUDIO2_PERFORMANCE_DATA
-f1_keywords:
-- xaudio2/XAUDIO2_PERFORMANCE_DATA
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xaudio2.h
-api_name:
-- XAUDIO2_PERFORMANCE_DATA
 targetos: Windows
 req.typenames: XAUDIO2_PERFORMANCE_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XAUDIO2_PERFORMANCE_DATA
+ - xaudio2/XAUDIO2_PERFORMANCE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xaudio2.h
+api_name:
+ - XAUDIO2_PERFORMANCE_DATA
 ---
 
 # XAUDIO2_PERFORMANCE_DATA structure
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains performance information.
-
 
 ## -struct-fields
 
-
-
-
 ### -field AudioCyclesSinceLastQuery
 
-CPU cycles spent on audio processing since the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine">IXAudio2::StartEngine</a> or <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata">IXAudio2::GetPerformanceData</a> function.
-
+CPU cycles spent on audio processing since the last call to the <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-startengine">IXAudio2::StartEngine</a> or <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata">IXAudio2::GetPerformanceData</a> function.
 
 ### -field TotalCyclesSinceLastQuery
 
@@ -73,16 +69,13 @@ Total CPU cycles elapsed since the last call.
 
 Fewest CPU cycles spent on processing any single audio quantum since the last call.
 
-
 ### -field MaximumCyclesPerQuantum
 
 Most CPU cycles spent on processing any single audio quantum since the last call.
 
-
 ### -field MemoryUsageInBytes
 
 Total memory currently in use.
-
 
 ### -field CurrentLatencyInSamples
 
@@ -108,38 +101,30 @@ Minimum delay that occurs between the time a sample is read from a source buffer
 </td>
 </tr>
 </table>
- 
-
 
 ### -field GlitchesSinceEngineStarted
 
 Total audio dropouts since the engine started.
 
-
 ### -field ActiveSourceVoiceCount
 
-Number of source voices currently playing. 
-
+Number of source voices currently playing.
 
 ### -field TotalSourceVoiceCount
 
-Total number of source voices currently in existence. 
-
+Total number of source voices currently in existence.
 
 ### -field ActiveSubmixVoiceCount
 
 Number of submix voices currently playing.
 
-
 ### -field ActiveResamplerCount
 
 Number of resampler xAPOs currently active.
 
-
 ### -field ActiveMatrixMixCount
 
 Number of matrix mix xAPOs currently active.
-
 
 ### -field ActiveXmaSourceVoices
 
@@ -161,8 +146,6 @@ Number of matrix mix xAPOs currently active.
 <td>Number of source voices decoding XMA data.</td>
 </tr>
 </table>
- 
-
 
 ### -field ActiveXmaStreams
 
@@ -184,32 +167,18 @@ Number of matrix mix xAPOs currently active.
 <td>A voice can use more than one XMA stream.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 CPU cycles are recorded using . Use to convert these values.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata">IXAudio2::GetPerformanceData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-getperformancedata">IXAudio2::GetPerformanceData</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio2 Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/structures">XAudio2 Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteTextFormat.GetFontCollection
 title: IDWriteTextFormat::GetFontCollection (dwrite.h)
 description: Gets the current font collection.
+helpviewer_keywords: ["GetFontCollection","GetFontCollection method [Direct Write]","GetFontCollection method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontCollection method","IDWriteTextFormat.GetFontCollection","IDWriteTextFormat::GetFontCollection","directwrite.IDWriteTextFormat_GetFontCollection","dwrite/IDWriteTextFormat::GetFontCollection"]
 old-location: directwrite\IDWriteTextFormat_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: a94cfca5-3a03-4912-9a33-df705a2265cf
 ms.date: 12/05/2018
 ms.keywords: GetFontCollection, GetFontCollection method [Direct Write], GetFontCollection method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontCollection method, IDWriteTextFormat.GetFontCollection, IDWriteTextFormat::GetFontCollection, directwrite.IDWriteTextFormat_GetFontCollection, dwrite/IDWriteTextFormat::GetFontCollection
-f1_keywords:
-- dwrite/IDWriteTextFormat.GetFontCollection
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat.GetFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat::GetFontCollection
+ - dwrite/IDWriteTextFormat::GetFontCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat.GetFontCollection
 ---
 
 # IDWriteTextFormat::GetFontCollection
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the current font collection.
 
-
 ## -parameters
-
-
-
 
 ### -param fontCollection [out]
 
@@ -63,25 +60,13 @@ Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection">IDW
 
 When this method returns, contains an address of a pointer to the font collection being used for the current text.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
- 
-
- 
 

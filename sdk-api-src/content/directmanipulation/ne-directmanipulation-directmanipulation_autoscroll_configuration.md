@@ -2,15 +2,12 @@
 UID: NE:directmanipulation.DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 title: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION (directmanipulation.h)
 description: Determines the type and direction of automatic scrolling animation to apply.
+helpviewer_keywords: ["DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION","DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION enumeration [Direct Manipulation]","DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD","DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE","DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP","directmanipulation.directmanipulation_autoscroll_configuration","directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION","directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD","directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE","directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP"]
 old-location: directmanipulation\directmanipulation_autoscroll_configuration.htm
 tech.root: directmanipulation
 ms.assetid: 1184DD40-D615-440F-8B87-D53A475F8313
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP, directmanipulation.directmanipulation_autoscroll_configuration, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP
-f1_keywords:
-- directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- directmanipulation.h
-api_name:
-- DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+ - directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - directmanipulation.h
+api_name:
+ - DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 ---
 
 # DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION enumeration
@@ -48,37 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines the type and direction of automatic scrolling animation to apply. 
-
+Determines the type and direction of automatic scrolling animation to apply.
 
 ## -enum-fields
 
-
-
-
-### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP
+### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP:0
 
 If content is scrolling, slowly stop along the direction of the motion.
 
-
-### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD
+### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD:1
 
 Scroll towards the positive boundary of the content.
 
-
-### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE
+### -field DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE:2
 
 Scroll towards the origin of the content.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>

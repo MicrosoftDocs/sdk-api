@@ -2,15 +2,12 @@
 UID: NF:msacm.acmFormatEnum
 title: acmFormatEnum function (msacm.h)
 description: The acmFormatEnum function enumerates waveform-audio formats available for a given format tag from an ACM driver. This function continues enumerating until there are no more suitable formats for the format tag or the callback function returns FALSE.
+helpviewer_keywords: ["_win32_acmFormatEnum","acmFormatEnum","acmFormatEnum function [Windows Multimedia]","acmFormatEnumA","acmFormatEnumW","msacm/acmFormatEnum","msacm/acmFormatEnumA","msacm/acmFormatEnumW","multimedia.acmformatenum"]
 old-location: multimedia\acmformatenum.htm
 tech.root: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_acmFormatEnum, acmFormatEnum, acmFormatEnum function [Windows Multimedia], acmFormatEnumA, acmFormatEnumW, msacm/acmFormatEnum, msacm/acmFormatEnumA, msacm/acmFormatEnumW, multimedia.acmformatenum
-f1_keywords:
-- msacm/acmFormatEnum
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmFormatEnum
-- acmFormatEnumA
-- acmFormatEnumW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmFormatEnum
+ - msacm/acmFormatEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmFormatEnum
+ - acmFormatEnumA
+ - acmFormatEnumW
 ---
 
 # acmFormatEnum function
@@ -51,41 +53,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmFormatEnum</b> function enumerates waveform-audio formats available for a given format tag from an ACM driver. This function continues enumerating until there are no more suitable formats for the format tag or the callback function returns <b>FALSE</b>.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param had
 
 Handle to the ACM driver to query for waveform-audio format details. If this parameter is <b>NULL</b>, the ACM uses the details from the first suitable ACM driver.
 
-
 ### -param pafd
 
-Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure to contain the format details passed to the <b>fnCallback</b> function. This structure must have the <b>cbStruct</b>, <b>pwfx</b>, and <b>cbwfx</b> members of the <b>ACMFORMATDETAILS</b> structure initialized. The <b>dwFormatTag</b> member must also be initialized to either WAVE_FORMAT_UNKNOWN or a valid format tag.
+Pointer to an [ACMFORMATDETAILS](./nf-msacm-acmformatdetails.md) structure to contain the format details passed to the <b>fnCallback</b> function. This structure must have the <b>cbStruct</b>, <b>pwfx</b>, and <b>cbwfx</b> members of the <b>ACMFORMATDETAILS</b> structure initialized. The <b>dwFormatTag</b> member must also be initialized to either WAVE_FORMAT_UNKNOWN or a valid format tag.
 
 The <b>fdwSupport</b> member of the structure must be initialized to zero.
 
-To find the required size of the <b>pwfx</b> buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> with the ACM_METRIC_MAX_SIZE_FORMAT flag.
-
+To find the required size of the <b>pwfx</b> buffer, call <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> with the ACM_METRIC_MAX_SIZE_FORMAT flag.
 
 ### -param fnCallback
 
-Address of an application-defined callback function. See <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nc-msacm-acmformatenumcb">acmFormatEnumCallback</a>. This parameter cannot be <b>NULL</b>.
-
+Address of an application-defined callback function. See <a href="/windows/desktop/api/msacm/nc-msacm-acmformatenumcb">acmFormatEnumCallback</a>. This parameter cannot be <b>NULL</b>.
 
 ### -param dwInstance
 
 A 64-bit (DWORD_PTR) or 32-bit (DWORD) application-defined value that is passed to the callback function along with ACM format details.
-
 
 ### -param fdwEnum
 
@@ -100,7 +90,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_CONVERT</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+[ACMFORMATDETAILS](./nf-msacm-acmformatdetails.md) structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>
@@ -114,7 +104,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NCHANNELS</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
+[ACMFORMATDETAILS](./nf-msacm-acmformatdetails.md) structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NSAMPLESPERSEC</td>
@@ -126,7 +116,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_SUGGEST</td>
-[ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatsuggest">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+[ACMFORMATDETAILS](./nf-msacm-acmformatdetails.md) structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="/windows/desktop/api/msacm/nf-msacm-acmformatsuggest">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>
@@ -141,12 +131,8 @@ Flags for enumerating the formats for a given format tag. The following values a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -200,14 +186,8 @@ At least one parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are installed. Moreover, the callback function will not be called.
 
@@ -300,21 +280,10 @@ BOOL CALLBACK acmFormatEnumCallback(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

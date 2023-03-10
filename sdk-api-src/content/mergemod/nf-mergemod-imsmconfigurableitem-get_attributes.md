@@ -2,15 +2,12 @@
 UID: NF:mergemod.IMsmConfigurableItem.get_Attributes
 title: IMsmConfigurableItem::get_Attributes (mergemod.h)
 description: The get_Attributes method retrieves the Attributes property of the ConfigurableItem object.
+helpviewer_keywords: ["IMsmConfigurableItem interface","get_Attributes method","IMsmConfigurableItem.get_Attributes","IMsmConfigurableItem::get_Attributes","_msi_get_attributes_function","get_Attributes","get_Attributes method","get_Attributes method","IMsmConfigurableItem interface","mergemod/IMsmConfigurableItem::get_Attributes","setup.imsmconfigurableitem_get_attributes"]
 old-location: setup\imsmconfigurableitem_get_attributes.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 347451e9-0623-4d31-a9f5-7cb95f234717
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Attributes method, IMsmConfigurableItem.get_Attributes, IMsmConfigurableItem::get_Attributes, _msi_get_attributes_function, get_Attributes, get_Attributes method, get_Attributes method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Attributes, setup.imsmconfigurableitem_get_attributes
-f1_keywords:
-- mergemod/IMsmConfigurableItem.get_Attributes
-dev_langs:
-- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mergemod.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mergemod.dll
-api_name:
-- IMsmConfigurableItem.get_Attributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMsmConfigurableItem::get_Attributes
+ - mergemod/IMsmConfigurableItem::get_Attributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmConfigurableItem.get_Attributes
 ---
 
 # IMsmConfigurableItem::get_Attributes
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Attributes</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-attributes">Attributes</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/configurableitem-object">ConfigurableItem</a> object.
-
+<a href="/windows/desktop/Msi/configurableitem-attributes">Attributes</a> property of the 
+<a href="/windows/desktop/Msi/configurableitem-object">ConfigurableItem</a> object.
 
 ## -parameters
-
-
-
 
 ### -param Attributes [out]
 
 A pointer to a location in memory with the format of a configurable item listed in the Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>.
-
+<a href="/windows/desktop/Msi/moduleconfiguration-table">ModuleConfiguration table</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -144,22 +138,11 @@ The function failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem">IMsmConfigurableItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mergemod/nn-mergemod-imsmconfigurableitem">IMsmConfigurableItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

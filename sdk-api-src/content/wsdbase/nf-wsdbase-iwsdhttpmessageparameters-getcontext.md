@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetContext
 title: IWSDHttpMessageParameters::GetContext (wsdbase.h)
 description: Retrieves the private transmission context for the current transaction.
+helpviewer_keywords: ["GetContext","GetContext method","GetContext method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetContext method","IWSDHttpMessageParameters.GetContext","IWSDHttpMessageParameters::GetContext","ncd.iwsdhttpmessageparameters_getcontext","wsdbase/IWSDHttpMessageParameters::GetContext"]
 old-location: ncd\iwsdhttpmessageparameters_getcontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: af93f97f-a3de-4b5c-92c5-2d4ab91e7985
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method, GetContext method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetContext method, IWSDHttpMessageParameters.GetContext, IWSDHttpMessageParameters::GetContext, ncd.iwsdhttpmessageparameters_getcontext, wsdbase/IWSDHttpMessageParameters::GetContext
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters.GetContext
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters::GetContext
+ - wsdbase/IWSDHttpMessageParameters::GetContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters.GetContext
 ---
 
 # IWSDHttpMessageParameters::GetContext
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the private transmission context for the current transaction.
 
-
 ## -parameters
-
-
-
 
 ### -param ppContext [out]
 
 Pointer to the pointer used to retrieve the desired private transmission context for the current transaction.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,18 +106,7 @@ Could not retrieve the context.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>

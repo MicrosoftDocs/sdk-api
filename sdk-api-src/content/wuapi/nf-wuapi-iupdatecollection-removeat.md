@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateCollection.RemoveAt
 title: IUpdateCollection::RemoveAt (wuapi.h)
-description: Removes the item at the specified index from the collection.
+description: Removes the item at the specified index from the collection. (IUpdateCollection.RemoveAt)
+helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","RemoveAt method","IUpdateCollection.RemoveAt","IUpdateCollection::RemoveAt","RemoveAt","RemoveAt method [Windows Update Agent]","RemoveAt method [Windows Update Agent]","IUpdateCollection interface","wua.iupdatecollection_removeat","wuapi/IUpdateCollection::RemoveAt"]
 old-location: wua\iupdatecollection_removeat.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b6d32db8-c935-41f8-a8f3-0730719cac7e
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],RemoveAt method, IUpdateCollection.RemoveAt, IUpdateCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_removeat, wuapi/IUpdateCollection::RemoveAt
-f1_keywords:
-- wuapi/IUpdateCollection.RemoveAt
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateCollection::RemoveAt
+ - wuapi/IUpdateCollection::RemoveAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateCollection.RemoveAt
 ---
 
 # IUpdateCollection::RemoveAt
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the item at the specified index from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the interface to be removed.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -98,18 +92,7 @@ An index is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

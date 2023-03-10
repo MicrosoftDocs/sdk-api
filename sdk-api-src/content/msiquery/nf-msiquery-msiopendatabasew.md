@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiOpenDatabaseW
 title: MsiOpenDatabaseW function (msiquery.h)
-description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle.
+description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle. (Unicode)
+helpviewer_keywords: ["MSIDBOPEN_CREATE", "MSIDBOPEN_CREATEDIRECT", "MSIDBOPEN_DIRECT", "MSIDBOPEN_PATCHFILE", "MSIDBOPEN_READONLY", "MSIDBOPEN_TRANSACT", "MsiOpenDatabase", "MsiOpenDatabase function", "MsiOpenDatabaseW", "_msi_msiopendatabase", "msiquery/MsiOpenDatabase", "msiquery/MsiOpenDatabaseW", "setup.msiopendatabase"]
 old-location: setup\msiopendatabase.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 984996e3-aa2c-49ff-9067-ebefd3afdecb
 ms.date: 12/05/2018
 ms.keywords: MSIDBOPEN_CREATE, MSIDBOPEN_CREATEDIRECT, MSIDBOPEN_DIRECT, MSIDBOPEN_PATCHFILE, MSIDBOPEN_READONLY, MSIDBOPEN_TRANSACT, MsiOpenDatabase, MsiOpenDatabase function, MsiOpenDatabaseA, MsiOpenDatabaseW, _msi_msiopendatabase, msiquery/MsiOpenDatabase, msiquery/MsiOpenDatabaseA, msiquery/MsiOpenDatabaseW, setup.msiopendatabase
-f1_keywords:
-- msiquery/MsiOpenDatabase
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSI-Misc-l1-1-0.dll
-api_name:
-- MsiOpenDatabase
-- MsiOpenDatabaseA
-- MsiOpenDatabaseW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiOpenDatabaseW
+ - msiquery/MsiOpenDatabaseW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+api_name:
+ - MsiOpenDatabase
+ - MsiOpenDatabaseA
+ - MsiOpenDatabaseW
 ---
 
 # MsiOpenDatabaseW function
@@ -51,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiOpenDatabase</b> function opens a database file for data access. This function returns a handle that should be closed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
-
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 ## -parameters
-
-
-
 
 ### -param szDatabasePath [in]
 
 Specifies the full path or relative path to the database file.
-
 
 ### -param szPersist [in]
 
@@ -137,59 +133,46 @@ Add this flag to indicate a patch file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phDatabase [out]
 
 Pointer to the location of the returned database handle.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiOpenDatabase</b> function returns the following values:
 
-
-
-
 ## -remarks
 
-
-
 To make and save changes to a database first open the database in transaction (MSIDBOPEN_TRANSACT), create (MSIDBOPEN_CREATE or MSIDBOPEN_CREATEDIRECT), or direct (MSIDBOPEN_DIRECT) mode. After making the changes, always call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> before closing the database handle. 
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> before closing the database handle. 
 <b>MsiDatabaseCommit</b> flushes all buffers.
 
 Always call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> on a database that has been opened in direct mode (MSIDBOPEN_DIRECT or MSIDBOPEN_CREATEDIRECT) before closing the database's handle. Failure to do this may corrupt the database.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msidatabasecommit">MsiDatabaseCommit</a> on a database that has been opened in direct mode (MSIDBOPEN_DIRECT or MSIDBOPEN_CREATEDIRECT) before closing the database's handle. Failure to do this may corrupt the database.
 
 Because 
 <b>MsiOpenDatabase</b> initiates database access, it cannot be used with a running installation.
 
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
 
 <div class="alert"><b>Note</b>  When a database is opened as the output of another database, the summary information stream of the output database is actually a read-only mirror of the original database, and, thus, cannot be changed. Additionally, it is not persisted with the database. To create or modify the summary information for the output database, it must be closed and reopened.</div>
 <div> </div>
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiOpenDatabase as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/a-database-and-patch-example">A Database and Patch Example</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/a-database-and-patch-example">A Database and Patch Example</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmMonitorClerks.ActivityId
 title: ICrmMonitorClerks::ActivityId (comsvcs.h)
 description: Retrieves the activity ID of the CRM Worker for the specified index.
+helpviewer_keywords: ["ActivityId","ActivityId method [COM+]","ActivityId method [COM+]","ICrmMonitorClerks interface","ICrmMonitorClerks interface [COM+]","ActivityId method","ICrmMonitorClerks.ActivityId","ICrmMonitorClerks::ActivityId","_dtc_ICrmMonitorClerks_ActivityId","comsvcs/ICrmMonitorClerks::ActivityId","cos.icrmmonitorclerks_activityid"]
 old-location: cos\icrmmonitorclerks_activityid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 19a242a6-ce21-4ce5-984e-cc2220476e2b
 ms.date: 12/05/2018
 ms.keywords: ActivityId, ActivityId method [COM+], ActivityId method [COM+],ICrmMonitorClerks interface, ICrmMonitorClerks interface [COM+],ActivityId method, ICrmMonitorClerks.ActivityId, ICrmMonitorClerks::ActivityId, _dtc_ICrmMonitorClerks_ActivityId, comsvcs/ICrmMonitorClerks::ActivityId, cos.icrmmonitorclerks_activityid
-f1_keywords:
-- comsvcs/ICrmMonitorClerks.ActivityId
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitorClerks.ActivityId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitorClerks::ActivityId
+ - comsvcs/ICrmMonitorClerks::ActivityId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitorClerks.ActivityId
 ---
 
 # ICrmMonitorClerks::ActivityId
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the activity ID of the CRM Worker for the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 The index of the required CRM clerk as a numeric <b>Variant</b>, or the instance CLSID as a <b>Variant</b> string.
 
-
 ### -param pItem [out]
 
 The activity ID of the CRM Worker.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -112,18 +105,7 @@ One of the arguments is incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>

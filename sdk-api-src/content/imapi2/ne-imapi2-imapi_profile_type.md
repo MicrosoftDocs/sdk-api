@@ -2,15 +2,12 @@
 UID: NE:imapi2._IMAPI_PROFILE_TYPE
 title: IMAPI_PROFILE_TYPE (imapi2.h)
 description: Defines values for the possible profiles of a CD and DVD device. A profile defines the type of media and features that the device supports.
+helpviewer_keywords: ["*PIMAPI_PROFILE_TYPE","IMAPI_PROFILE_TYPE","IMAPI_PROFILE_TYPE enumeration [IMAPI]","IMAPI_PROFILE_TYPE_AS_MO","IMAPI_PROFILE_TYPE_BD_REWRITABLE","IMAPI_PROFILE_TYPE_BD_ROM","IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING","IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL","IMAPI_PROFILE_TYPE_CDROM","IMAPI_PROFILE_TYPE_CD_RECORDABLE","IMAPI_PROFILE_TYPE_CD_REWRITABLE","IMAPI_PROFILE_TYPE_DDCDROM","IMAPI_PROFILE_TYPE_DDCD_RECORDABLE","IMAPI_PROFILE_TYPE_DDCD_REWRITABLE","IMAPI_PROFILE_TYPE_DVDROM","IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE","IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE","IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL","IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP","IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL","IMAPI_PROFILE_TYPE_DVD_PLUS_R","IMAPI_PROFILE_TYPE_DVD_PLUS_RW","IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL","IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL","IMAPI_PROFILE_TYPE_DVD_RAM","IMAPI_PROFILE_TYPE_HD_DVD_RAM","IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE","IMAPI_PROFILE_TYPE_HD_DVD_ROM","IMAPI_PROFILE_TYPE_INVALID","IMAPI_PROFILE_TYPE_MO_ERASABLE","IMAPI_PROFILE_TYPE_MO_WRITE_ONCE","IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK","IMAPI_PROFILE_TYPE_NON_STANDARD","IMAPI_PROFILE_TYPE_REMOVABLE_DISK","PIMAPI_PROFILE_TYPE","PIMAPI_PROFILE_TYPE enumeration pointer [IMAPI]","imapi.imapi_profile_type","imapi2/ IMAPI_PROFILE_TYPE_DDCDROM","imapi2/ IMAPI_PROFILE_TYPE_DDCD_REWRITABLE","imapi2/IMAPI_PROFILE_TYPE","imapi2/IMAPI_PROFILE_TYPE_AS_MO","imapi2/IMAPI_PROFILE_TYPE_BD_REWRITABLE","imapi2/IMAPI_PROFILE_TYPE_BD_ROM","imapi2/IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING","imapi2/IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL","imapi2/IMAPI_PROFILE_TYPE_CDROM","imapi2/IMAPI_PROFILE_TYPE_CD_RECORDABLE","imapi2/IMAPI_PROFILE_TYPE_CD_REWRITABLE","imapi2/IMAPI_PROFILE_TYPE_DDCD_RECORDABLE","imapi2/IMAPI_PROFILE_TYPE_DVDROM","imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE","imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE","imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL","imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP","imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL","imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_R","imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_RW","imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL","imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL","imapi2/IMAPI_PROFILE_TYPE_DVD_RAM","imapi2/IMAPI_PROFILE_TYPE_HD_DVD_RAM","imapi2/IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE","imapi2/IMAPI_PROFILE_TYPE_HD_DVD_ROM","imapi2/IMAPI_PROFILE_TYPE_INVALID","imapi2/IMAPI_PROFILE_TYPE_MO_ERASABLE","imapi2/IMAPI_PROFILE_TYPE_MO_WRITE_ONCE","imapi2/IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK","imapi2/IMAPI_PROFILE_TYPE_NON_STANDARD","imapi2/IMAPI_PROFILE_TYPE_REMOVABLE_DISK","imapi2/PIMAPI_PROFILE_TYPE"]
 old-location: imapi\imapi_profile_type.htm
 tech.root: imapi
 ms.assetid: 3b5f940b-a2de-4029-a502-c12ff8290749
 ms.date: 12/05/2018
 ms.keywords: '*PIMAPI_PROFILE_TYPE, IMAPI_PROFILE_TYPE, IMAPI_PROFILE_TYPE enumeration [IMAPI], IMAPI_PROFILE_TYPE_AS_MO, IMAPI_PROFILE_TYPE_BD_REWRITABLE, IMAPI_PROFILE_TYPE_BD_ROM, IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING, IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL, IMAPI_PROFILE_TYPE_CDROM, IMAPI_PROFILE_TYPE_CD_RECORDABLE, IMAPI_PROFILE_TYPE_CD_REWRITABLE, IMAPI_PROFILE_TYPE_DDCDROM, IMAPI_PROFILE_TYPE_DDCD_RECORDABLE, IMAPI_PROFILE_TYPE_DDCD_REWRITABLE, IMAPI_PROFILE_TYPE_DVDROM, IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE, IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE, IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL, IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP, IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL, IMAPI_PROFILE_TYPE_DVD_PLUS_R, IMAPI_PROFILE_TYPE_DVD_PLUS_RW, IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL, IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL, IMAPI_PROFILE_TYPE_DVD_RAM, IMAPI_PROFILE_TYPE_HD_DVD_RAM, IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE, IMAPI_PROFILE_TYPE_HD_DVD_ROM, IMAPI_PROFILE_TYPE_INVALID, IMAPI_PROFILE_TYPE_MO_ERASABLE, IMAPI_PROFILE_TYPE_MO_WRITE_ONCE, IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK, IMAPI_PROFILE_TYPE_NON_STANDARD, IMAPI_PROFILE_TYPE_REMOVABLE_DISK, PIMAPI_PROFILE_TYPE, PIMAPI_PROFILE_TYPE enumeration pointer [IMAPI], imapi.imapi_profile_type, imapi2/ IMAPI_PROFILE_TYPE_DDCDROM, imapi2/ IMAPI_PROFILE_TYPE_DDCD_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE, imapi2/IMAPI_PROFILE_TYPE_AS_MO, imapi2/IMAPI_PROFILE_TYPE_BD_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE_BD_ROM, imapi2/IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING, imapi2/IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL, imapi2/IMAPI_PROFILE_TYPE_CDROM, imapi2/IMAPI_PROFILE_TYPE_CD_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_CD_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE_DDCD_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_DVDROM, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP, imapi2/IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_R, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_RW, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL, imapi2/IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL, imapi2/IMAPI_PROFILE_TYPE_DVD_RAM, imapi2/IMAPI_PROFILE_TYPE_HD_DVD_RAM, imapi2/IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE, imapi2/IMAPI_PROFILE_TYPE_HD_DVD_ROM, imapi2/IMAPI_PROFILE_TYPE_INVALID, imapi2/IMAPI_PROFILE_TYPE_MO_ERASABLE, imapi2/IMAPI_PROFILE_TYPE_MO_WRITE_ONCE, imapi2/IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK, imapi2/IMAPI_PROFILE_TYPE_NON_STANDARD, imapi2/IMAPI_PROFILE_TYPE_REMOVABLE_DISK, imapi2/PIMAPI_PROFILE_TYPE'
-f1_keywords:
-- imapi2/IMAPI_PROFILE_TYPE
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- imapi2.h
-api_name:
-- IMAPI_PROFILE_TYPE
 targetos: Windows
 req.typenames: IMAPI_PROFILE_TYPE, *PIMAPI_PROFILE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IMAPI_PROFILE_TYPE
+ - imapi2/_IMAPI_PROFILE_TYPE
+ - PIMAPI_PROFILE_TYPE
+ - imapi2/PIMAPI_PROFILE_TYPE
+ - IMAPI_PROFILE_TYPE
+ - imapi2/IMAPI_PROFILE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - imapi2.h
+api_name:
+ - IMAPI_PROFILE_TYPE
 ---
 
 # IMAPI_PROFILE_TYPE enumeration
@@ -48,198 +54,153 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines values for the possible profiles of a CD and DVD device.  A profile defines the type of media and features that the device supports. 
-
+Defines values for the possible profiles of a CD and DVD device.  A profile defines the type of media and features that the device supports.
 
 ## -enum-fields
 
-
-
-
-### -field IMAPI_PROFILE_TYPE_INVALID
+### -field IMAPI_PROFILE_TYPE_INVALID:0
 
 The profile is not valid.
 
-
-### -field IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK
+### -field IMAPI_PROFILE_TYPE_NON_REMOVABLE_DISK:0x1
 
 The hard disk it not removable.
 
-
-### -field IMAPI_PROFILE_TYPE_REMOVABLE_DISK
+### -field IMAPI_PROFILE_TYPE_REMOVABLE_DISK:0x2
 
 The hard disk is removable.
 
-
-### -field IMAPI_PROFILE_TYPE_MO_ERASABLE
+### -field IMAPI_PROFILE_TYPE_MO_ERASABLE:0x3
 
 An Magneto-Optical Erasable drive.
 
-
-### -field IMAPI_PROFILE_TYPE_MO_WRITE_ONCE
+### -field IMAPI_PROFILE_TYPE_MO_WRITE_ONCE:0x4
 
 A write once optical drive.
 
-
-### -field IMAPI_PROFILE_TYPE_AS_MO
+### -field IMAPI_PROFILE_TYPE_AS_MO:0x5
 
 An advance storage Magneto-Optical drive.
 
-
-### -field IMAPI_PROFILE_TYPE_CDROM
+### -field IMAPI_PROFILE_TYPE_CDROM:0x8
 
 A CD-ROM drive.
 
-
-### -field IMAPI_PROFILE_TYPE_CD_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_CD_RECORDABLE:0x9
 
 A CD-R drive.
 
-
-### -field IMAPI_PROFILE_TYPE_CD_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_CD_REWRITABLE:0xa
 
 A CD-RW or CD+RW drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVDROM
+### -field IMAPI_PROFILE_TYPE_DVDROM:0x10
 
 A DVD-ROM drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_RECORDABLE:0x11
 
 A DVD-R sequential recording drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_RAM
+### -field IMAPI_PROFILE_TYPE_DVD_RAM:0x12
 
 A DVD-RAM drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_REWRITABLE:0x13
 
 A DVD-RW restricted overwrite drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_RW_SEQUENTIAL:0x14
 
 A DVD-RW sequential recording drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_SEQUENTIAL:0x15
 
 A DVD-R dual layer sequential recording drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP
+### -field IMAPI_PROFILE_TYPE_DVD_DASH_R_DUAL_LAYER_JUMP:0x16
 
 A DVD-R dual layer jump recording drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW:0x1a
 
 A DVD+RW drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R:0x1b
 
 A DVD+R drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DDCDROM
+### -field IMAPI_PROFILE_TYPE_DDCDROM:0x20
 
 A double density CD drive.
 
 <div class="alert"><b>Note</b>  This profile has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_PROFILE_TYPE_DDCD_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_DDCD_RECORDABLE:0x21
 
 A double density CD-R drive.
 
 <div class="alert"><b>Note</b>  This profile has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_PROFILE_TYPE_DDCD_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_DDCD_REWRITABLE:0x22
 
 A double density CD-RW drive.
 
 <div class="alert"><b>Note</b>  This profile has been deprecated.</div>
 <div> </div>
 
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_RW_DUAL:0x2a
 
 A DVD+RW dual layer drive.
 
-
-### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL
+### -field IMAPI_PROFILE_TYPE_DVD_PLUS_R_DUAL:0x2b
 
 A DVD+R dual layer drive.
 
-
-### -field IMAPI_PROFILE_TYPE_BD_ROM
+### -field IMAPI_PROFILE_TYPE_BD_ROM:0x40
 
 A Blu-ray read only drive.
 
-
-### -field IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL
+### -field IMAPI_PROFILE_TYPE_BD_R_SEQUENTIAL:0x41
 
 A write once Blu-ray drive with sequential recording.
 
-
-### -field IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING
+### -field IMAPI_PROFILE_TYPE_BD_R_RANDOM_RECORDING:0x42
 
 A write once Blu-ray drive with random-access recording capability.
 
-
-### -field IMAPI_PROFILE_TYPE_BD_REWRITABLE
+### -field IMAPI_PROFILE_TYPE_BD_REWRITABLE:0x43
 
 A rewritable Blu-ray drive.
 
-
-### -field IMAPI_PROFILE_TYPE_HD_DVD_ROM
+### -field IMAPI_PROFILE_TYPE_HD_DVD_ROM:0x50
 
 A read only high density DVD drive.
 
-
-### -field IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE
+### -field IMAPI_PROFILE_TYPE_HD_DVD_RECORDABLE:0x51
 
 A write once high density DVD drive.
 
-
-### -field IMAPI_PROFILE_TYPE_HD_DVD_RAM
+### -field IMAPI_PROFILE_TYPE_HD_DVD_RAM:0x52
 
 A high density DVD drive with random access positioning.
 
-
-### -field IMAPI_PROFILE_TYPE_NON_STANDARD
+### -field IMAPI_PROFILE_TYPE_NON_STANDARD:0xffff
 
 Nonstandard drive.
 
-
 ## -remarks
 
-
-
-Note that the range of feature type values is 0x0000 to 0xFFFF. This enumeration contains those features defined in the Multmedia Commands - 5 (MMC) specification. For a complete definition of each profile, see Profile Definitions in the latest release of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
+Note that the range of feature type values is 0x0000 to 0xFFFF. This enumeration contains those features defined in the Multimedia Commands - 5 (MMC) specification. For a complete definition of each profile, see Profile Definitions in the latest release of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
 Other values not defined here may exist. Consumers of this enumeration should not presume this list to be the only set of valid values.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>

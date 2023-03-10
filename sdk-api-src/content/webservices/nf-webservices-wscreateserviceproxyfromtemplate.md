@@ -2,15 +2,12 @@
 UID: NF:webservices.WsCreateServiceProxyFromTemplate
 title: WsCreateServiceProxyFromTemplate function (webservices.h)
 description: Helper routine for creating a service proxy from policy templates.
+helpviewer_keywords: ["WsCreateServiceProxyFromTemplate","WsCreateServiceProxyFromTemplate function [Web Services for Windows]","webservices/WsCreateServiceProxyFromTemplate","wsw.wscreateserviceproxyfromtemplate"]
 old-location: wsw\wscreateserviceproxyfromtemplate.htm
 tech.root: wsw
 ms.assetid: 09a6ee60-ffed-4bab-8747-61c9fee69695
 ms.date: 12/05/2018
 ms.keywords: WsCreateServiceProxyFromTemplate, WsCreateServiceProxyFromTemplate function [Web Services for Windows], webservices/WsCreateServiceProxyFromTemplate, wsw.wscreateserviceproxyfromtemplate
-f1_keywords:
-- webservices/WsCreateServiceProxyFromTemplate
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCreateServiceProxyFromTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCreateServiceProxyFromTemplate
+ - webservices/WsCreateServiceProxyFromTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCreateServiceProxyFromTemplate
 ---
 
 # WsCreateServiceProxyFromTemplate function
@@ -48,100 +50,67 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Helper routine for creating a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-proxy">service proxy</a> from policy templates.
-      
-
-
-
+Helper routine for creating a <a href="/windows/desktop/wsw/service-proxy">service proxy</a> from policy templates.
 
 ## -parameters
 
-
-
-
 ### -param channelType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy. 
-        
-
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_type">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy.
 
 ### -param properties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_proxy_property">WS_PROXY_PROPERTY</a> structures containing optional properties for the service proxy.
+An array of <a href="/windows/desktop/api/webservices/ns-webservices-ws_proxy_property">WS_PROXY_PROPERTY</a> structures containing optional properties for the service proxy.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
-                
-
 
 ### -param propertyCount [in]
 
 The number of properties in the <i>properties</i> array.
-                
-
 
 ### -param templateType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates  used to create the service proxy.
-        Please see the <b>Remarks</b> for more information.
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates  used to create the service proxy.
 
+Please see the <b>Remarks</b> for more information.
 
 ### -param templateValue
 
-The optional template structure to be created and filled in by an application.
-          This template structure must be consistent with the input template type (in the <i>templateType</i>). When <i>templateValue</i> parameter is <b>NULL</b>, 
-          it is equivalent to the corresponding template structure initialized to zero.
-        Please see the <b>Remarks</b> for more information.
+The optional template structure to be created and filled in by an application. This template structure must be consistent with the input template type (in the <i>templateType</i>). When <i>templateValue</i> parameter is <b>NULL</b>, it is equivalent to the corresponding template structure initialized to zero.
 
+Please see the <b>Remarks</b> for more information.
 
 ### -param templateSize [in]
 
 The size, in bytes, of the template structure (in the  <i>templateValue</i> parameter).
-        
-
 
 ### -param templateDescription [in]
 
 The description of <i>templateValue</i>. This must match <i>templateType</i>.
-        Please see the <b>Remarks</b> for more information.
 
+Please see the <b>Remarks</b> for more information.
 
 ### -param templateDescriptionSize [in]
 
 The size of the template description.
-        
-
 
 ### -param serviceProxy
 
-On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the new service proxy.
+On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure representing the new service proxy.
                 
-                When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeserviceproxy">WsFreeServiceProxy</a>.
-      
-
+When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeserviceproxy">WsFreeServiceProxy</a>.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-                
-
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
-
-
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
-
-
-
 
 ## -remarks
 
-
-
-<b>WsCreateServiceProxyFromTemplate</b> creates the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure from input policy templates and additional user input.
+<b>WsCreateServiceProxyFromTemplate</b> creates the <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> structure from input policy templates and additional user input.
       
 
 The following table shows the mapping between <i>templateType</i> values and the corresponding data types to be used in <i>templateValue</i> and <i>templateDescription</i>.
@@ -223,7 +192,3 @@ The following table shows the mapping between <i>templateType</i> values and the
 <td>WS_TCP_SSPI_KERBEROS_APREQ_SECURITY_CONTEXT_POLICY_DESCRIPTION</td>
 </tr>
 </table>
- 
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:ncryptprotect.NCryptStreamClose
 title: NCryptStreamClose function (ncryptprotect.h)
 description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
+helpviewer_keywords: ["NCryptStreamClose","NCryptStreamClose function [Security]","ncryptprotect/NCryptStreamClose","security.ncryptstreamclose"]
 old-location: security\ncryptstreamclose.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
-f1_keywords:
-- ncryptprotect/NCryptStreamClose
-dev_langs:
-- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NCrypt.dll
-api_name:
-- NCryptStreamClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptStreamClose
+ - ncryptprotect/NCryptStreamClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NCrypt.dll
+api_name:
+ - NCryptStreamClose
 ---
 
 # NCryptStreamClose function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>NCryptStreamClose</b> function closes a data protection stream object opened by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> functions.
-
+The <b>NCryptStreamClose</b> function closes a data protection stream object opened by using the <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> functions.
 
 ## -parameters
 
-
-
-
 ### -param hStream [in]
 
-Data stream handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>.
-
+Data stream handle returned by <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a> or <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>.
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function. Possible return codes include, but are not limited to, the following.
 
@@ -96,30 +90,19 @@ The handle specified by the <i>hStream</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentoprotect">NCryptStreamOpenToProtect</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a>

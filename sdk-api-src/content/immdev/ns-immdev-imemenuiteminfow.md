@@ -1,16 +1,13 @@
 ---
 UID: NS:immdev.tagIMEMENUITEMINFOW
 title: IMEMENUITEMINFOW (immdev.h)
-description: Contains information about IME menu items.
+description: The IMEMENUITEMINFOW (Unicode) structure (immdev.h) contains information about IME menu items. 
+helpviewer_keywords: ["*LPIMEMENUITEMINFOW","*NPIMEMENUITEMINFOW","*PIMEMENUITEMINFOW","IMEMENUITEMINFO","IMEMENUITEMINFO structure [Internationalization for Windows Applications]","IMEMENUITEMINFOA","IMEMENUITEMINFOW","PIMEMENUITEMINFO","PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications]","_win32_IMEMENUITEMINFO_str","imm/IMEMENUITEMINFO","imm/IMEMENUITEMINFOA","imm/IMEMENUITEMINFOW","imm/PIMEMENUITEMINFO","intl.imemenuiteminfo","tagIMEMENUITEMINFOA","tagIMEMENUITEMINFOW"]
 old-location: intl\imemenuiteminfo.htm
 tech.root: Intl
 ms.assetid: 2e00993f-6720-4139-8097-a3d830e661ca
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: '*LPIMEMENUITEMINFOW, *NPIMEMENUITEMINFOW, *PIMEMENUITEMINFOW, IMEMENUITEMINFO, IMEMENUITEMINFO structure [Internationalization for Windows Applications], IMEMENUITEMINFOA, IMEMENUITEMINFOW, PIMEMENUITEMINFO, PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications], _win32_IMEMENUITEMINFO_str, imm/IMEMENUITEMINFO, imm/IMEMENUITEMINFOA, imm/IMEMENUITEMINFOW, imm/PIMEMENUITEMINFO, intl.imemenuiteminfo, tagIMEMENUITEMINFOA, tagIMEMENUITEMINFOW'
-f1_keywords:
-- immdev/IMEMENUITEMINFO
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Imm.h
-api_name:
-- IMEMENUITEMINFO
-- IMEMENUITEMINFOA
-- IMEMENUITEMINFOW
 targetos: Windows
 req.typenames: IMEMENUITEMINFOW, *PIMEMENUITEMINFOW, *NPIMEMENUITEMINFOW, *LPIMEMENUITEMINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagIMEMENUITEMINFOW
+ - immdev/tagIMEMENUITEMINFOW
+ - PIMEMENUITEMINFOW
+ - immdev/PIMEMENUITEMINFOW
+ - IMEMENUITEMINFOW
+ - immdev/IMEMENUITEMINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Imm.h
+api_name:
+ - IMEMENUITEMINFO
+ - IMEMENUITEMINFOA
+ - IMEMENUITEMINFOW
 ---
 
 # IMEMENUITEMINFOW structure
@@ -50,22 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information about IME menu items.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size, in bytes, of the structure.
-
 
 ### -field fType
 
@@ -89,8 +86,6 @@ Menu item type. This member can have one of the following values.
 <td>Menu item is a submenu.</td>
 </tr>
 </table>
- 
-
 
 ### -field fState
 
@@ -134,54 +129,44 @@ Menu item state. This member can have one or more of the following values:
 <td>The menu item is not highlighted. This is the default state.</td>
 </tr>
 </table>
- 
-
 
 ### -field wID
 
 Application-defined 16-bit value that identifies the menu item.
 
-
 ### -field hbmpChecked
 
 Handle to the bitmap to display next to the item if it is checked. If this member is <b>NULL</b>, a default bitmap is used. If the IMFT_RADIOCHECK type value is specified, the default bitmap is a bullet. Otherwise, it is a check mark.
-
 
 ### -field hbmpUnchecked
 
 Handle to the bitmap to display next to the item if it is not checked. If this member is <b>NULL</b>, no bitmap is used.
 
-
 ### -field dwItemData
 
 Application-defined value associated with the menu item.
-
 
 ### -field szString
 
 Content of the menu item. This is a null-terminated string.
 
-
 ### -field hbmpItem
 
 Handle to a bitmap to display.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/imm/nf-imm-immgetimemenuitemsa">ImmGetImeMenuItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetimemenuitemsa">ImmGetImeMenuItems</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
- 
-
- 
-
+> [!NOTE]
+> The immdev.h header defines IMEMENUITEMINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

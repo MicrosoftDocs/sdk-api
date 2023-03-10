@@ -2,15 +2,12 @@
 UID: NS:devicetopology._tagKSJACK_DESCRIPTION2
 title: KSJACK_DESCRIPTION2 (devicetopology.h)
 description: The KSJACK_DESCRIPTION2 structure describes an audio jack.To get the description of an audio jack of a connector, call IKsJackDescription2::GetJackDescription2.
+helpviewer_keywords: ["*PKSJACK_DESCRIPTION2","KSJACK_DESCRIPTION2","KSJACK_DESCRIPTION2 structure [Core Audio]","PKSJACK_DESCRIPTION2","PKSJACK_DESCRIPTION2 structure pointer [Core Audio]","coreaudio.ksjack_description2","devicetopology/KSJACK_DESCRIPTION2","devicetopology/PKSJACK_DESCRIPTION2"]
 old-location: coreaudio\ksjack_description2.htm
 tech.root: CoreAudio
 ms.assetid: 67714767-24b8-4838-953a-d6aca0c55bbb
 ms.date: 12/05/2018
 ms.keywords: '*PKSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2 structure [Core Audio], PKSJACK_DESCRIPTION2, PKSJACK_DESCRIPTION2 structure pointer [Core Audio], coreaudio.ksjack_description2, devicetopology/KSJACK_DESCRIPTION2, devicetopology/PKSJACK_DESCRIPTION2'
-f1_keywords:
-- devicetopology/KSJACK_DESCRIPTION2
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Devicetopology.h
-api_name:
-- KSJACK_DESCRIPTION2
 targetos: Windows
 req.typenames: KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _tagKSJACK_DESCRIPTION2
+ - devicetopology/_tagKSJACK_DESCRIPTION2
+ - PKSJACK_DESCRIPTION2
+ - devicetopology/PKSJACK_DESCRIPTION2
+ - KSJACK_DESCRIPTION2
+ - devicetopology/KSJACK_DESCRIPTION2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Devicetopology.h
+api_name:
+ - KSJACK_DESCRIPTION2
 ---
 
 # KSJACK_DESCRIPTION2 structure
@@ -48,24 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>KSJACK_DESCRIPTION2</b> structure describes an audio jack.
 
-To get the description of an audio jack of a connector, call <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2">IKsJackDescription2::GetJackDescription2</a>.
-
-
-
+To get the description of an audio jack of a connector, call <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2">IKsJackDescription2::GetJackDescription2</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field DeviceStateInfo
 
 Reserved for future use.
-
 
 ### -field JackCapabilities
 
@@ -80,15 +77,8 @@ Stores the audio jack's capabilities: jack presence detection capability
 
 ## -see-also
 
+<a href="/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksjackdescription2">IKsJackDescription2</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:rtscom.IRealTimeStylus3.put_MultiTouchEnabled
 title: IRealTimeStylus3::put_MultiTouchEnabled (rtscom.h)
-description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled.
+description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled. (Put)
+helpviewer_keywords: ["IRealTimeStylus3 interface [Tablet PC]","MultiTouchEnabled property","IRealTimeStylus3.MultiTouchEnabled","IRealTimeStylus3.get_MultiTouchEnabled","IRealTimeStylus3.put_MultiTouchEnabled","IRealTimeStylus3::MultiTouchEnabled","IRealTimeStylus3::get_MultiTouchEnabled","IRealTimeStylus3::put_MultiTouchEnabled","MultiTouchEnabled property [Tablet PC]","MultiTouchEnabled property [Tablet PC]","IRealTimeStylus3 interface","put_MultiTouchEnabled","rtscom/IRealTimeStylus3::MultiTouchEnabled","rtscom/IRealTimeStylus3::get_MultiTouchEnabled","rtscom/IRealTimeStylus3::put_MultiTouchEnabled","tablet.irealtimestylus3_multitouchenabled"]
 old-location: tablet\irealtimestylus3_multitouchenabled.htm
 tech.root: tablet
 ms.assetid: cc573213-a6ed-424b-8513-d5655ba6785a
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus3 interface [Tablet PC],MultiTouchEnabled property, IRealTimeStylus3.MultiTouchEnabled, IRealTimeStylus3.get_MultiTouchEnabled, IRealTimeStylus3.put_MultiTouchEnabled, IRealTimeStylus3::MultiTouchEnabled, IRealTimeStylus3::get_MultiTouchEnabled, IRealTimeStylus3::put_MultiTouchEnabled, MultiTouchEnabled property [Tablet PC], MultiTouchEnabled property [Tablet PC],IRealTimeStylus3 interface, put_MultiTouchEnabled, rtscom/IRealTimeStylus3::MultiTouchEnabled, rtscom/IRealTimeStylus3::get_MultiTouchEnabled, rtscom/IRealTimeStylus3::put_MultiTouchEnabled, tablet.irealtimestylus3_multitouchenabled
-f1_keywords:
-- rtscom/IRealTimeStylus3.MultiTouchEnabled
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rtscom.h
-api_name:
-- IRealTimeStylus3.MultiTouchEnabled
-- IRealTimeStylus3.get_MultiTouchEnabled
-- IRealTimeStylus3.put_MultiTouchEnabled
-- IRealTimeStylus3.get_MultiTouchEnabled
-- IRealTimeStylus3.put_MultiTouchEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus3::put_MultiTouchEnabled
+ - rtscom/IRealTimeStylus3::put_MultiTouchEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rtscom.h
+api_name:
+ - IRealTimeStylus3.MultiTouchEnabled
+ - IRealTimeStylus3.get_MultiTouchEnabled
+ - IRealTimeStylus3.put_MultiTouchEnabled
+ - IRealTimeStylus3.get_MultiTouchEnabled
+ - IRealTimeStylus3.put_MultiTouchEnabled
 ---
 
 # IRealTimeStylus3::put_MultiTouchEnabled
@@ -52,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a> object has multitouch input enabled.
+Indicates whether the <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a> object has multitouch input enabled.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following table lists the defined opt-in options for multitouch.
 
@@ -85,7 +82,7 @@ The following table lists the defined opt-in options for multitouch.
 
 #### Examples
 
-The following example demonstrates how to enable multitouch using the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">RealTimeStylus3</a> interface.
+The following example demonstrates how to enable multitouch using the <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">RealTimeStylus3</a> interface.
 
 
 ```cpp
@@ -130,17 +127,6 @@ The following example shows how to explicitly set the TABLET_ENABLE_MULTITOUCHDA
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus3">IRealTimeStylus3</a>

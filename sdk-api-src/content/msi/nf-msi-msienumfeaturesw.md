@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiEnumFeaturesW
 title: MsiEnumFeaturesW function (msi.h)
-description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called.
+description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called. (Unicode)
+helpviewer_keywords: ["MsiEnumFeatures", "MsiEnumFeatures function", "MsiEnumFeaturesW", "_msi_msienumfeatures", "msi/MsiEnumFeatures", "msi/MsiEnumFeaturesW", "setup.msienumfeatures"]
 old-location: setup\msienumfeatures.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
 ms.date: 12/05/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
-f1_keywords:
-- msi/MsiEnumFeatures
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumFeatures
-- MsiEnumFeaturesA
-- MsiEnumFeaturesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumFeaturesW
+ - msi/MsiEnumFeaturesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumFeatures
+ - MsiEnumFeaturesA
+ - MsiEnumFeaturesW
 ---
 
 # MsiEnumFeaturesW function
@@ -50,40 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEnumFeatures</b> function enumerates the published features for a given product. This function retrieves one feature ID each time it is called.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Null-terminated string specifying the product code of the product whose features are to be enumerated.
-
 
 ### -param iFeatureIndex [in]
 
 Specifies the index of the feature to retrieve. This parameter should be zero for the first call to the 
 <b>MsiEnumFeatures</b> function and then incremented for subsequent calls. Because features are not ordered, any new feature has an arbitrary index. This means that the function can return features in any order.
 
-
 ### -param lpFeatureBuf [out]
 
 Pointer to a buffer that receives the feature ID. The size of the buffer must hold a string value of length MAX_FEATURE_CHARS+1.  The function returns <b>ERROR_MORE_DATA</b> if the length of the feature ID exceeds <b>MAX_FEATURE_CHARS</b>.
-
 
 ### -param lpParentBuf [out]
 
 Pointer to a buffer that receives the feature ID of the parent of the feature. The size of the buffer must hold a string value of length MAX_FEATURE_CHARS+1.  If the length of the feature ID of the parent feature exceeds <b>MAX_FEATURE_CHARS</b>, only the first <b>MAX_FEATURE_CHARS</b> characters get copied into the buffer.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -162,13 +153,7 @@ The specified product is unknown.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 To enumerate features, an application should initially call the 
 <b>MsiEnumFeatures</b> function with the <i>iFeatureIndex</i> parameter set to zero. The application should then increment the <i>iFeatureIndex</i> parameter and call 
@@ -177,13 +162,10 @@ To enumerate features, an application should initially call the
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiEnumFeatures as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkWordList.Merge
 title: IInkWordList::Merge (msinkaut.h)
 description: Merges the specified InkWordList object into this word list.
+helpviewer_keywords: ["81c013c3-c033-4dc8-a828-95fcc810e608","IInkWordList","IInkWordList interface [Tablet PC]","Merge method","IInkWordList.Merge","IInkWordList::Merge","InkWordList class [Tablet PC]","Merge method","Merge","Merge method [Tablet PC]","Merge method [Tablet PC]","IInkWordList interface","Merge method [Tablet PC]","InkWordList class","msinkaut/IInkWordList::Merge","tablet.inkwordlist_merge"]
 old-location: tablet\inkwordlist_merge.htm
 tech.root: tablet
 ms.assetid: 81c013c3-c033-4dc8-a828-95fcc810e608
 ms.date: 12/05/2018
 ms.keywords: 81c013c3-c033-4dc8-a828-95fcc810e608, IInkWordList, IInkWordList interface [Tablet PC],Merge method, IInkWordList.Merge, IInkWordList::Merge, InkWordList class [Tablet PC],Merge method, Merge, Merge method [Tablet PC], Merge method [Tablet PC],IInkWordList interface, Merge method [Tablet PC],InkWordList class, msinkaut/IInkWordList::Merge, tablet.inkwordlist_merge
-f1_keywords:
-- msinkaut/IInkWordList.Merge
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkWordList.Merge
-- InkWordList.Merge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkWordList::Merge
+ - msinkaut/IInkWordList::Merge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkWordList.Merge
+ - InkWordList.Merge
 ---
 
 # IInkWordList::Merge
@@ -50,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Merges the specified <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
-
-
-
+Merges the specified <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
 
 ## -parameters
-
-
-
 
 ### -param MergeWordList [in]
 
 The word list to merge into this word list. Words that already exist in the list are not added.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,22 +125,11 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkwordlist.md">IInkWordList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832804(v=VS.85).aspx">IInkWordList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>

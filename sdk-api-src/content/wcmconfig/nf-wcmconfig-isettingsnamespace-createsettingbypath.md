@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsNamespace.CreateSettingByPath
 title: ISettingsNamespace::CreateSettingByPath (wcmconfig.h)
 description: Creates a setting object specified by its path.
+helpviewer_keywords: ["CreateSettingByPath","CreateSettingByPath method [SMI]","CreateSettingByPath method [SMI]","ISettingsNamespace interface","ISettingsNamespace interface [SMI]","CreateSettingByPath method","ISettingsNamespace.CreateSettingByPath","ISettingsNamespace::CreateSettingByPath","smi.isettingsnamespace_createsettingbypath","wcmconfig/ISettingsNamespace::CreateSettingByPath"]
 old-location: smi\isettingsnamespace_createsettingbypath.htm
 tech.root: SMI
 ms.assetid: 804cab32-eb0a-4e6e-8f58-042c1f5dde77
 ms.date: 12/05/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],CreateSettingByPath method, ISettingsNamespace.CreateSettingByPath, ISettingsNamespace::CreateSettingByPath, smi.isettingsnamespace_createsettingbypath, wcmconfig/ISettingsNamespace::CreateSettingByPath
-f1_keywords:
-- wcmconfig/ISettingsNamespace.CreateSettingByPath
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsNamespace.CreateSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsNamespace::CreateSettingByPath
+ - wcmconfig/ISettingsNamespace::CreateSettingByPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsNamespace.CreateSettingByPath
 ---
 
 # ISettingsNamespace::CreateSettingByPath
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a setting object specified by its path.
 
-
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
 The path of the setting object.
 
-
 ### -param Setting [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> object that represents 
+A pointer to an <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> object that represents 
       the created setting.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -159,18 +152,7 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>

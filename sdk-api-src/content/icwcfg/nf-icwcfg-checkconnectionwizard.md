@@ -2,15 +2,12 @@
 UID: NF:icwcfg.CheckConnectionWizard
 title: CheckConnectionWizard function (icwcfg.h)
 description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.
+helpviewer_keywords: ["CheckConnectionWizard","CheckConnectionWizard function [Windows API]","ICW_ALREADYRUN","ICW_CHECKSTATUS","ICW_FULLPRESENT","ICW_FULL_SMARTSTART","ICW_LAUNCHEDFULL","ICW_LAUNCHEDMANUAL","ICW_LAUNCHFULL","ICW_LAUNCHMANUAL","ICW_MANUALPRESENT","ICW_USE_SHELLNEXT","icwcfg/CheckConnectionWizard","winprog.checkconnectionwizard"]
 old-location: winprog\checkconnectionwizard.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 81960d59-3de3-4d86-948e-939c59073bb1
 ms.date: 12/05/2018
 ms.keywords: CheckConnectionWizard, CheckConnectionWizard function [Windows API], ICW_ALREADYRUN, ICW_CHECKSTATUS, ICW_FULLPRESENT, ICW_FULL_SMARTSTART, ICW_LAUNCHEDFULL, ICW_LAUNCHEDMANUAL, ICW_LAUNCHFULL, ICW_LAUNCHMANUAL, ICW_MANUALPRESENT, ICW_USE_SHELLNEXT, icwcfg/CheckConnectionWizard, winprog.checkconnectionwizard
-f1_keywords:
-- icwcfg/CheckConnectionWizard
-dev_langs:
-- c++
 req.header: icwcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Inetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Inetcfg.dll
-api_name:
-- CheckConnectionWizard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CheckConnectionWizard
+ - icwcfg/CheckConnectionWizard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Inetcfg.dll
+api_name:
+ - CheckConnectionWizard
 ---
 
 # CheckConnectionWizard function
@@ -48,19 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is unsupported and may be altered or unavailable in future  versions of Windows.  ]
 
 The <b>CheckConnectionWizard</b> function checks that the Internet Connection Wizard (ICW) is installed  and that it has not been run
             before.  <b>CheckConnectionWizard</b> then either runs the  ICW or returns the status of the ICW as specified by  the run flags provided and the status of any previous run of the ICW.
 
-
 ## -parameters
 
-
-
-
-### -param arg1
+### -param unnamedParam1
 
 A combination of bit flags that indicates the action <b>CheckConnectionWizard</b> is to perform.
 
@@ -112,7 +109,7 @@ Check if the ICW is present, run the ICW in Internet Explorer Administrator Kit 
 </dl>
 </td>
 <td width="60%">
- If the retail mode ISP signup is present, run the ICW using the value set in the <b>ShellNext</b> registry key by <a href="https://docs.microsoft.com/windows/desktop/api/icwcfg/nf-icwcfg-setshellnext">SetShellNext</a> function.
+ If the retail mode ISP signup is present, run the ICW using the value set in the <b>ShellNext</b> registry key by <a href="/windows/desktop/api/icwcfg/nf-icwcfg-setshellnext">SetShellNext</a> function.
 
 </td>
 </tr>
@@ -130,10 +127,8 @@ If the ICW is present, the retail mode ISP signup
 </td>
 </tr>
 </table>
- 
 
-
-### -param arg2
+### -param unnamedParam2
 
 <b>DWORD</b> in which the results of the call are returned.  The value is  a
                 combination of the following bit flags.
@@ -200,22 +195,13 @@ The IEAK mode of ICW was started.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>ERROR_SUCCESS</b> indicates a successful call.
             Any other value indicates failure.
 
-
-
-
 ## -remarks
-
-
 
 If the ICW is present but has not been run to completion, <b>CheckConnectionWizard</b> does one of
             the following based on the value of <i>dwRunFlags</i>:  returns, runs
@@ -228,15 +214,6 @@ The retail mode ISP signup  is run using Icwconn1.exe. IEAK mode is run using Is
                     reboot if required system software needs to be installed.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/icwcfg/nf-icwcfg-setshellnext">SetShellNext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/icwcfg/nf-icwcfg-setshellnext">SetShellNext</a>

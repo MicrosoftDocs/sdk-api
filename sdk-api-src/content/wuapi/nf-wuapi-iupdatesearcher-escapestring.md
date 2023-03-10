@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateSearcher.EscapeString
 title: IUpdateSearcher::EscapeString (wuapi.h)
 description: Converts a string into a string that can be used as a literal value in a search criteria string.
+helpviewer_keywords: ["EscapeString","EscapeString method [Windows Update Agent]","EscapeString method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","EscapeString method","IUpdateSearcher.EscapeString","IUpdateSearcher::EscapeString","wua.iupdatesearcherescapestring","wuapi/IUpdateSearcher::EscapeString"]
 old-location: wua\iupdatesearcherescapestring.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 27d510da-3d0c-4a8a-89c9-4abc009489b4
 ms.date: 12/05/2018
 ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EscapeString method, IUpdateSearcher.EscapeString, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString
-f1_keywords:
-- wuapi/IUpdateSearcher.EscapeString
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher.EscapeString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher::EscapeString
+ - wuapi/IUpdateSearcher::EscapeString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher.EscapeString
 ---
 
 # IUpdateSearcher::EscapeString
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a string into a string that can be used as a literal value in a search criteria string.
 
-
 ## -parameters
-
-
-
 
 ### -param unescaped [in]
 
 A string to be escaped.
 
-
 ### -param retval [out]
 
 The resulting escaped string.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -92,18 +85,7 @@ A parameter value is invalid or <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

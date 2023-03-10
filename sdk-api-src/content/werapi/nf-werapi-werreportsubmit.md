@@ -2,15 +2,12 @@
 UID: NF:werapi.WerReportSubmit
 title: WerReportSubmit function (werapi.h)
 description: Submits the specified report.
+helpviewer_keywords: ["WER_SUBMIT_ADD_REGISTERED_DATA","WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY","WER_SUBMIT_BYPASS_DATA_THROTTLING","WER_SUBMIT_HONOR_RECOVERY","WER_SUBMIT_HONOR_RESTART","WER_SUBMIT_NO_ARCHIVE","WER_SUBMIT_NO_CLOSE_UI","WER_SUBMIT_NO_QUEUE","WER_SUBMIT_OUTOFPROCESS","WER_SUBMIT_OUTOFPROCESS_ASYNC","WER_SUBMIT_QUEUE","WER_SUBMIT_REPORT_MACHINE_ID","WER_SUBMIT_SHOW_DEBUG","WER_SUBMIT_START_MINIMIZED","WerConsentAlwaysPrompt","WerConsentApproved","WerConsentDenied","WerConsentMax","WerConsentNotAsked","WerCustomAction","WerDisabled","WerDisabledQueue","WerReportAsync","WerReportCancelled","WerReportDebug","WerReportFailed","WerReportQueued","WerReportSubmit","WerReportSubmit function [Windows Error Reporting]","WerReportUploaded","base.werreportsubmit","wer.werreportsubmit","werapi/WerReportSubmit"]
 old-location: wer\werreportsubmit.htm
 tech.root: wer
 ms.assetid: 1433862e-5cf6-4d31-9fd9-137b7b86ec57
 ms.date: 12/05/2018
 ms.keywords: WER_SUBMIT_ADD_REGISTERED_DATA, WER_SUBMIT_ARCHIVE_PARAMETERS_ONLY, WER_SUBMIT_BYPASS_DATA_THROTTLING, WER_SUBMIT_HONOR_RECOVERY, WER_SUBMIT_HONOR_RESTART, WER_SUBMIT_NO_ARCHIVE, WER_SUBMIT_NO_CLOSE_UI, WER_SUBMIT_NO_QUEUE, WER_SUBMIT_OUTOFPROCESS, WER_SUBMIT_OUTOFPROCESS_ASYNC, WER_SUBMIT_QUEUE, WER_SUBMIT_REPORT_MACHINE_ID, WER_SUBMIT_SHOW_DEBUG, WER_SUBMIT_START_MINIMIZED, WerConsentAlwaysPrompt, WerConsentApproved, WerConsentDenied, WerConsentMax, WerConsentNotAsked, WerCustomAction, WerDisabled, WerDisabledQueue, WerReportAsync, WerReportCancelled, WerReportDebug, WerReportFailed, WerReportQueued, WerReportSubmit, WerReportSubmit function [Windows Error Reporting], WerReportUploaded, base.werreportsubmit, wer.werreportsubmit, werapi/WerReportSubmit
-f1_keywords:
-- werapi/WerReportSubmit
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wer.dll
-- Ext-MS-Win-wer-reporting-l1-1-0.dll
-- errorhandlingext.dll
-- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
-api_name:
-- WerReportSubmit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerReportSubmit
+ - werapi/WerReportSubmit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wer.dll
+ - Ext-MS-Win-wer-reporting-l1-1-0.dll
+ - errorhandlingext.dll
+ - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+api_name:
+ - WerReportSubmit
 ---
 
 # WerReportSubmit function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Submits the specified report.
-
 
 ## -parameters
 
-
-
-
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
-
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ### -param consent [in]
 
@@ -130,8 +126,6 @@ The user was not asked for consent.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -149,7 +143,7 @@ This parameter can be one or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Add the data registered by <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-wersetflags">WerSetFlags</a>, <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock">WerRegisterMemoryBlock</a> to the report.
+Add the data registered by <a href="/windows/desktop/api/werapi/nf-werapi-wersetflags">WerSetFlags</a>, <a href="/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>, and <a href="/windows/desktop/api/werapi/nf-werapi-werregistermemoryblock">WerRegisterMemoryBlock</a> to the report.
 
 </td>
 </tr>
@@ -160,7 +154,7 @@ Add the data registered by <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-Honor any recovery registration for the application. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>.
+Honor any recovery registration for the application. For more information, see <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>.
 
 </td>
 </tr>
@@ -171,7 +165,7 @@ Honor any recovery registration for the application. For more information, see <
 </dl>
 </td>
 <td width="60%">
-Honor any restart registration for the application. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>.
+Honor any restart registration for the application. For more information, see <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>.
 
 </td>
 </tr>
@@ -219,6 +213,9 @@ The report is discarded for any action that would require the report to be queue
 </td>
 <td width="60%">
 Spawn another process to submit the report. The calling thread is blocked until the function returns.
+
+> [!NOTE]
+> Window messages will be pumped so that UI activity on the calling thread is not blocked.
 
 </td>
 </tr>
@@ -286,7 +283,7 @@ Bypass data throttling for the report.
 </dl>
 </td>
 <td width="60%">
-Archive only the parameters; the cab is discarded. This flag overrides the <a href="https://docs.microsoft.com/windows/desktop/wer/wer-settings">ConfigureArchive</a> WER setting.
+Archive only the parameters; the cab is discarded. This flag overrides the <a href="/windows/desktop/wer/wer-settings">ConfigureArchive</a> WER setting.
 
 <b>Windows 7 or earlier:  </b>This parameter is not available.
 
@@ -306,8 +303,6 @@ Always send the unique, 128-bit computer identifier with the report, regardless 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pSubmitResult [out, optional]
 
@@ -418,25 +413,16 @@ The report was uploaded.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This function returns <b>S_OK</b> on success or an error code on failure.
-
-
-
 
 ## -remarks
 
-
-
 After the application calls this function, WER collects the specified data. If the <i>consent</i> parameter is WerConsentApproved, it submits the report to Microsoft. If <i>consent</i> is WerConsentNotAsked, WER displays the consent dialog box. To determine the submission status, check the <i>pSubmitResult</i> parameter.
 
-In the event of a critical application event, applications that have <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">registered for restart</a> will be restarted.
+In the event of a critical application event, applications that have <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">registered for restart</a> will be restarted.
 
 The computer identifier is sent with the report when
 
@@ -446,28 +432,18 @@ The computer identifier is sent with the report when
 </ul>
 To view the reports submitted by your application, go to Windows Quality Online Services.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wsw/portal">Application Recovery and Restart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wsw/portal">Application Recovery and Restart</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

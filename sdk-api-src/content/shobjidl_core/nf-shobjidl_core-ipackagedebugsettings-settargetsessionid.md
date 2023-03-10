@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IPackageDebugSettings.SetTargetSessionId
 title: IPackageDebugSettings::SetTargetSessionId (shobjidl_core.h)
 description: Sets the session identifier.
+helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","SetTargetSessionId method","IPackageDebugSettings.SetTargetSessionId","IPackageDebugSettings::SetTargetSessionId","SetTargetSessionId","SetTargetSessionId method [Windows Shell]","SetTargetSessionId method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_SetTargetSessionId","shobjidl_core/IPackageDebugSettings::SetTargetSessionId"]
 old-location: shell\IPackageDebugSettings_SetTargetSessionId.htm
 tech.root: shell
 ms.assetid: a7794703-08ff-40a8-8807-a09e35a4bb8f
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],SetTargetSessionId method, IPackageDebugSettings.SetTargetSessionId, IPackageDebugSettings::SetTargetSessionId, SetTargetSessionId, SetTargetSessionId method [Windows Shell], SetTargetSessionId method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_SetTargetSessionId, shobjidl_core/IPackageDebugSettings::SetTargetSessionId
-f1_keywords:
-- shobjidl_core/IPackageDebugSettings.SetTargetSessionId
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IPackageDebugSettings.SetTargetSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPackageDebugSettings::SetTargetSessionId
+ - shobjidl_core/IPackageDebugSettings::SetTargetSessionId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IPackageDebugSettings.SetTargetSessionId
 ---
 
 # IPackageDebugSettings::SetTargetSessionId
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the session identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param sessionId [in]
 
 The session identifier.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>

@@ -2,15 +2,12 @@
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 title: IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids (dxva2api.h)
 description: Gets an array of GUIDs which identify the video processors supported by the graphics hardware.
+helpviewer_keywords: ["26b52407-7c75-4731-aff3-41376aa9ac3a","GetVideoProcessorDeviceGuids","GetVideoProcessorDeviceGuids method [Media Foundation]","GetVideoProcessorDeviceGuids method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetVideoProcessorDeviceGuids method","IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids","IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids","dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids","mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids"]
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessordeviceguids.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 26b52407-7c75-4731-aff3-41376aa9ac3a
 ms.date: 12/05/2018
 ms.keywords: 26b52407-7c75-4731-aff3-41376aa9ac3a, GetVideoProcessorDeviceGuids, GetVideoProcessorDeviceGuids method [Media Foundation], GetVideoProcessorDeviceGuids method [Media Foundation],IDirectXVideoProcessorService interface, IDirectXVideoProcessorService interface [Media Foundation],GetVideoProcessorDeviceGuids method, IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids, IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids, mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids
-f1_keywords:
-- dxva2api/IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dxva2api.h
-api_name:
-- IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
+ - dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dxva2api.h
+api_name:
+ - IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 ---
 
 # IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
@@ -48,46 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an array of GUIDs which identify the video processors supported by the graphics hardware.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pVideoDesc [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videodesc">DXVA2_VideoDesc</a> structure that describes the video content.
-          
-
+Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videodesc">DXVA2_VideoDesc</a> structure that describes the video content.
 
 ### -param pCount [out]
 
 Receives the number of GUIDs.
-          
-
 
 ### -param pGuids [out]
 
-Receives an array of GUIDs. The size of the array is retrieved in the <i>pCount</i> parameter. The method allocates the memory for the array. The caller must free the memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-          
-
+Receives an array of GUIDs. The size of the array is retrieved in the <i>pCount</i> parameter. The method allocates the memory for the array. The caller must free the memory by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The following video processor GUIDs are predefined.
 
@@ -111,7 +94,7 @@ The following video processor GUIDs are predefined.
 </table>
  
 
-The graphics device may define additional vendor-specific GUIDs. The driver provides the list of GUIDs in descending quality order. The mode with the highest quality is first in the list. To get the capabilities of each mode, call <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps">IDirectXVideoProcessorService::GetVideoProcessorCaps</a> and pass in the GUID for the mode.
+The graphics device may define additional vendor-specific GUIDs. The driver provides the list of GUIDs in descending quality order. The mode with the highest quality is first in the list. To get the capabilities of each mode, call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps">IDirectXVideoProcessorService::GetVideoProcessorCaps</a> and pass in the GUID for the mode.
 
 
 #### Examples
@@ -145,21 +128,10 @@ The graphics device may define additional vendor-specific GUIDs. The driver prov
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice">IDirectXVideoProcessorService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice">IDirectXVideoProcessorService</a>

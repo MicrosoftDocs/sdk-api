@@ -1,16 +1,13 @@
 ---
 UID: NF:faxcomex.IFaxRecipient.put_Name
 title: IFaxRecipient::put_Name (faxcomex.h)
-description: The IFaxRecipient::get_Name property is a null-terminated string that contains the name of the recipient.
+description: The IFaxRecipient::get_Name property is a null-terminated string that contains the name of the recipient. (Put)
+helpviewer_keywords: ["IFaxRecipient interface [Fax Service]","Name property","IFaxRecipient.Name","IFaxRecipient.get_Name","IFaxRecipient.put_Name","IFaxRecipient::Name","IFaxRecipient::get_Name","IFaxRecipient::put_Name","Name property [Fax Service]","Name property [Fax Service]","IFaxRecipient interface","_mfax_faxrecipient.name","fax._mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp","fax._mfax_faxrecipient_name","faxcomex/IFaxRecipient::Name","faxcomex/IFaxRecipient::get_Name","faxcomex/IFaxRecipient::put_Name","put_Name"]
 old-location: fax\_mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4q05.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipient interface [Fax Service],Name property, IFaxRecipient.Name, IFaxRecipient.get_Name, IFaxRecipient.put_Name, IFaxRecipient::Name, IFaxRecipient::get_Name, IFaxRecipient::put_Name, Name property [Fax Service], Name property [Fax Service],IFaxRecipient interface, _mfax_faxrecipient.name, fax._mfax_faxrecipient_cpp_mfax_faxrecipient_name_cpp, fax._mfax_faxrecipient_name, faxcomex/IFaxRecipient::Name, faxcomex/IFaxRecipient::get_Name, faxcomex/IFaxRecipient::put_Name, put_Name
-f1_keywords:
-- faxcomex/IFaxRecipient.Name
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxRecipient.Name
-- IFaxRecipient.get_Name
-- IFaxRecipient.put_Name
-- IFaxRecipient.get_Name
-- IFaxRecipient.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxRecipient::put_Name
+ - faxcomex/IFaxRecipient::put_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxRecipient.Name
+ - IFaxRecipient.get_Name
+ - IFaxRecipient.put_Name
+ - IFaxRecipient.get_Name
+ - IFaxRecipient.put_Name
 ---
 
 # IFaxRecipient::put_Name
@@ -52,32 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxRecipient::get_Name</b> property is a null-terminated string that contains the name of the recipient.
 
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Broadcasting a Fax</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Broadcasting a Fax</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxrecipient">FaxRecipient</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipient">IFaxRecipient</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipient">IFaxRecipient</a>

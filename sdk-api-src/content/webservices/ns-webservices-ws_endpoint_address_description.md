@@ -1,16 +1,13 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_ADDRESS_DESCRIPTION
 title: WS_ENDPOINT_ADDRESS_DESCRIPTION (webservices.h)
-description: Information about a mapping between an WS_ENDPOINT_ADDRESSand an XML element.
+description: Information about a mapping between a WS_ENDPOINT_ADDRESS and an XML element.
+helpviewer_keywords: ["WS_ENDPOINT_ADDRESS_DESCRIPTION","WS_ENDPOINT_ADDRESS_DESCRIPTION structure [Web Services for Windows]","webservices/WS_ENDPOINT_ADDRESS_DESCRIPTION","wsw.ws_endpoint_address_description"]
 old-location: wsw\ws_endpoint_address_description.htm
 tech.root: wsw
 ms.assetid: 2d79d917-5ebc-4be4-b7ce-685ce9fefc3a
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_ADDRESS_DESCRIPTION, WS_ENDPOINT_ADDRESS_DESCRIPTION structure [Web Services for Windows], webservices/WS_ENDPOINT_ADDRESS_DESCRIPTION, wsw.ws_endpoint_address_description
-f1_keywords:
-- webservices/WS_ENDPOINT_ADDRESS_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_ENDPOINT_ADDRESS_DESCRIPTION
 targetos: Windows
 req.typenames: WS_ENDPOINT_ADDRESS_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_ENDPOINT_ADDRESS_DESCRIPTION
+ - webservices/_WS_ENDPOINT_ADDRESS_DESCRIPTION
+ - WS_ENDPOINT_ADDRESS_DESCRIPTION
+ - webservices/WS_ENDPOINT_ADDRESS_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENDPOINT_ADDRESS_DESCRIPTION
 ---
 
 # WS_ENDPOINT_ADDRESS_DESCRIPTION structure
@@ -48,18 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-Information about a mapping between an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>and an XML element.
-            
-
+Information about a mapping between a <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a> and an XML element.
 
 ## -struct-fields
-
-
-
 
 ### -field addressingVersion
 
 The WS-Addressing version to use when serializing the endpoint address.
-                
-

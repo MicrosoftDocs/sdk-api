@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDraw7.CreatePalette
 title: IDirectDraw7::CreatePalette (ddraw.h)
 description: Creates a DirectDrawPalette object for this DirectDraw object.
+helpviewer_keywords: ["CreatePalette","CreatePalette method [DirectDraw]","CreatePalette method [DirectDraw]","IDirectDraw7 interface","DDPCAPS_1BIT","DDPCAPS_2BIT","DDPCAPS_4BIT","DDPCAPS_8BIT","DDPCAPS_8BITENTRIES","DDPCAPS_ALLOW256","DDPCAPS_ALPHA","DDPCAPS_INITIALIZE","DDPCAPS_PRIMARYSURFACE","DDPCAPS_PRIMARYSURFACELEFT","DDPCAPS_VSYNC","IDirectDraw7 interface [DirectDraw]","CreatePalette method","IDirectDraw7.CreatePalette","IDirectDraw7::CreatePalette","ddraw/IDirectDraw7::CreatePalette","directdraw.idirectdraw7_createpalette"]
 old-location: directdraw\idirectdraw7_createpalette.htm
 tech.root: directdraw
 ms.assetid: 3e9eec72-b9c7-4c9f-b9ea-177605fedf96
 ms.date: 12/05/2018
 ms.keywords: CreatePalette, CreatePalette method [DirectDraw], CreatePalette method [DirectDraw],IDirectDraw7 interface, DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_INITIALIZE, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, IDirectDraw7 interface [DirectDraw],CreatePalette method, IDirectDraw7.CreatePalette, IDirectDraw7::CreatePalette, ddraw/IDirectDraw7::CreatePalette, directdraw.idirectdraw7_createpalette
-f1_keywords:
-- ddraw/IDirectDraw7.CreatePalette
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7.CreatePalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7::CreatePalette
+ - ddraw/IDirectDraw7::CreatePalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7.CreatePalette
 ---
 
 # IDirectDraw7::CreatePalette
@@ -48,17 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a DirectDrawPalette object for this DirectDraw object.
-
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 This value consists of one or more of the following flags:
 
@@ -96,7 +92,7 @@ The index refers to an 8-bit color index. This flag is valid only when used with
 
 #### DDPCAPS_ALPHA
 
-The <b>peFlags</b> member of the associated <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure is to be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created by using this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
+The <b>peFlags</b> member of the associated <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure is to be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created by using this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
 
 
 
@@ -128,25 +124,19 @@ This palette is the one attached to the left-eye primary surface. Changing this 
 
 This palette can have modifications to it synchronized with the monitor's refresh rate.
 
+### -param unnamedParam2 [in]
 
-### -param arg2 [in]
+Address of an array of 2, 4, 16, or 256 <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures to initialize the DirectDrawPalette object.
 
-Address of an array of 2, 4, 16, or 256 <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures to initialize the DirectDrawPalette object.
+### -param unnamedParam3 [out]
 
+Address of a variable to be set to a valid <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface pointer if the call succeeds.
 
-### -param arg3 [out]
-
-Address of a variable to be set to a valid <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface pointer if the call succeeds.
-
-
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Allows for future compatibility with COM aggregation features. Currently, this method returns an error if this parameter is not NULL.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -162,24 +152,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
-
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>CreatePalette</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

@@ -2,15 +2,12 @@
 UID: NF:mapiunicodehelp.MAPISendMailHelper
 title: MAPISendMailHelper function (mapiunicodehelp.h)
 description: Takes Unicode message information and sends the message using MAPISendMailW or, if necessary, converts the message to ANSI and sends the message using MAPISendMail.
+helpviewer_keywords: ["MAPISendMailHelper","MAPISendMailHelper function","MAPI_DIALOG","MAPI_DIALOG_MODELESS","MAPI_FORCE_UNICODE","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapisendmailhelper","mapiunicodehelp/MAPISendMailHelper"]
 old-location: mapi\mapisendmailhelper.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
 ms.date: 12/05/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
-f1_keywords:
-- mapiunicodehelp/MAPISendMailHelper
-dev_langs:
-- c++
 req.header: mapiunicodehelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mapi32.dll
-api_name:
-- MAPISendMailHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPISendMailHelper
+ - mapiunicodehelp/MAPISendMailHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mapi32.dll
+api_name:
+ - MAPISendMailHelper
 ---
 
 # MAPISendMailHelper function
@@ -48,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Takes Unicode message information and sends the message using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> or, if necessary, converts the message to ANSI and sends the message using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>. <b>On Windows 8 and later:  </b>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> directly to send a message.
-
-
-
+Takes Unicode message information and sends the message using <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> or, if necessary, converts the message to ANSI and sends the message using <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a>. <b>On Windows 8 and later:  </b>Call <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> directly to send a message.
 
 ## -parameters
-
-
-
 
 ### -param lhSession [in]
 
@@ -65,19 +60,17 @@ Handle to a Simple MAPI session or zero.
 
 If the value of the <i>lhSession</i> parameter is zero, MAPI logs on the user and creates a session that exists only for the duration of the call. This temporary session can be an existing shared session or a new one. If necessary, the logon dialog box is displayed.
 
-
 ### -param ulUIParam [in]
 
 Parent window handle or zero.
 
 If the value of the <i>ulUIParam</i> parameter is zero and a dialog box is displayed, the dialog box is application modal. If the <i>ulUIParam</i> parameter contains a parent window handle, it is of type HWND (cast to a <b>ULONG_PTR</b>). If no dialog box is displayed during the call, <i>ulUIParam</i> is ignored.
 
-
 ### -param lpMessage [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> structure containing the message to be sent.
+Pointer to a <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> structure containing the message to be sent.
 
-If the registered mail provider requires the message to use ANSI encoding, <b>MAPISendMailHelper</b> converts this message to the ANSI <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> to send the message.
+If the registered mail provider requires the message to use ANSI encoding, <b>MAPISendMailHelper</b> converts this message to the ANSI <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a> structure calls <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmail">MAPISendMail</a> to send the message.
 
 When you call the function, please note the following information about message structure members:<table>
 <tr>
@@ -135,8 +128,7 @@ A value of zero means that there are no recipients. Additionally, when this memb
 <div> </div>
 If either <b>MAPI_DIALOG</b> or <b>MAPI_DIALOG_MODELESS</b> is not set, the <b>nRecipCount</b> and <b>lpRecips</b> members of the structure must be valid for successful message delivery. Client applications can set the <b>flFlags</b> member to <b>MAPI_RECEIPT_REQUESTED</b> to request a read report.
 
-For more details about how the function handles recipient information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">Handling recipient information</a> in <b>MAPISendMailW</b>.
-
+For more details about how the function handles recipient information, see <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">Handling recipient information</a> in <b>MAPISendMailW</b>.
 
 ### -param flFlags [in]
 
@@ -219,17 +211,12 @@ Do not convert the message to ANSI if the provider does not support Unicode.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulReserved [in]
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -380,7 +367,7 @@ There were too many recipients. No message was sent.
 <td width="60%">
 The <b>MAPI_FORCE_UNICODE</b> flag is specified and Unicode is not supported.
 
-<div class="alert"><b>Note</b>  This value  can be returned only if  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> is called to send the message.</div>
+<div class="alert"><b>Note</b>  This value  can be returned only if  <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> is called to send the message.</div>
 <div> </div>
 </td>
 </tr>
@@ -421,31 +408,15 @@ The call succeeded and the message was sent.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information about MAPI send mail functions, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>.
-
-
-
+For more information about MAPI send mail functions, see <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=258388">Windows SDK for Windows 8</a>
- 
-
- 
-
+<a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Windows SDK for Windows 8</a>

@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkWordList.AddWord
 title: IInkWordList::AddWord (msinkaut.h)
 description: Adds a single word to the InkWordList object.
+helpviewer_keywords: ["AddWord","AddWord method [Tablet PC]","AddWord method [Tablet PC]","IInkWordList interface","AddWord method [Tablet PC]","InkWordList class","IInkWordList","IInkWordList interface [Tablet PC]","AddWord method","IInkWordList.AddWord","IInkWordList::AddWord","InkWordList class [Tablet PC]","AddWord method","bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4","msinkaut/IInkWordList::AddWord","tablet.inkwordlist_addword"]
 old-location: tablet\inkwordlist_addword.htm
 tech.root: tablet
 ms.assetid: bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4
 ms.date: 12/05/2018
 ms.keywords: AddWord, AddWord method [Tablet PC], AddWord method [Tablet PC],IInkWordList interface, AddWord method [Tablet PC],InkWordList class, IInkWordList, IInkWordList interface [Tablet PC],AddWord method, IInkWordList.AddWord, IInkWordList::AddWord, InkWordList class [Tablet PC],AddWord method, bc1a5901-9a31-4f1b-bdbb-47316d0ab9e4, msinkaut/IInkWordList::AddWord, tablet.inkwordlist_addword
-f1_keywords:
-- msinkaut/IInkWordList.AddWord
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkWordList.AddWord
-- InkWordList.AddWord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkWordList::AddWord
+ - msinkaut/IInkWordList::AddWord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkWordList.AddWord
+ - InkWordList.AddWord
 ---
 
 # IInkWordList::AddWord
@@ -50,28 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Adds a single word to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
-
-
-
+Adds a single word to the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
 
 ## -parameters
 
-
-
-
 ### -param NewWord [in]
 
-The word to add to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object. The word is not added if it already exists in the list.
+The word to add to an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object. The word is not added if it already exists in the list.
 
-For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the BSTR data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -147,39 +138,23 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If a string is added to a word list, its capitalized versions are also implicitly added. For instance, adding "hello" implicitly adds "Hello" and "HELLO".
-
-
-
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkwordlist.md">IInkWordList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832804(v=VS.85).aspx">IInkWordList</a>
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord Method</a>

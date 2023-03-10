@@ -1,16 +1,12 @@
 ---
 UID: NF:weakreference.IWeakReference.Resolve(REFIID,IInspectable)
 title: IWeakReference::Resolve(REFIID,IInspectable) (weakreference.h)
-description: Resolves a weak reference by returning a strong reference to the specified object.
+description: Resolves a weak reference by returning a strong reference to the object.
+helpviewer_keywords: ["IWeakReference interface [Windows Runtime]","Resolve method","IWeakReference.Resolve","IWeakReference.Resolve(REFIID","IInspectable)","IWeakReference::Resolve","IWeakReference::Resolve(REFIID","IInspectable)","Resolve","Resolve method [Windows Runtime]","Resolve method [Windows Runtime]","IWeakReference interface","weakreference/IWeakReference::Resolve","winrt.iweakreference_resolve"]
 old-location: winrt\iweakreference_resolve.htm
 tech.root: WinRT
 ms.assetid: 642e44f1-7090-4391-b56c-9ba203c30e37
 ms.date: 12/05/2018
-ms.keywords: IWeakReference interface [Windows Runtime],Resolve method, IWeakReference.Resolve, IWeakReference.Resolve(REFIID,IInspectable), IWeakReference::Resolve, IWeakReference::Resolve(REFIID,IInspectable), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IWeakReference interface, weakreference/IWeakReference::Resolve, winrt.iweakreference_resolve
-f1_keywords:
-- weakreference/IWeakReference.Resolve
-dev_langs:
-- c++
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows
@@ -28,81 +24,54 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WeakReference.h
-api_name:
-- IWeakReference.Resolve
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWeakReference::Resolve
+ - weakreference/IWeakReference::Resolve
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WeakReference.h
+api_name:
+ - IWeakReference.Resolve
 ---
-
-# IWeakReference::Resolve(REFIID,IInspectable)
-
 
 ## -description
 
-
-Resolves a weak reference by returning a strong reference to the specified object.
-
+Resolves a weak reference by returning a strong reference to the object.
 
 ## -parameters
 
-
-
-
 ### -param riid
-
-TBD
-
-
-### -param objectReference [in]
 
 Type: <b>REFIID</b>
 
-The reference ID of the specified object.
+A reference to the interface identifier (IID) of the object.
 
+### -param objectReference
 
-#### - arg2 [out, retval]
+Type: <b><a href="/windows/win32/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
-
-The strong reference to the specified object.
-
+A strong reference to the object.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-If you try to resolve a weak reference to a strong reference for an object that is no longer available, <b>IWeakReference::Resolve</b> returns <b>S_OK</b>, but the <i>objectReference</i> parameter points to null.
-
-
-
+If you try to resolve a weak reference to a strong reference for an object that is no longer available, then <b>IWeakReference::Resolve</b> returns <b>S_OK</b>, but the <i>objectReference</i> parameter points to null.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreference">IWeakReference</a>
- 
-
- 
-
+<a href="/windows/win32/api/weakreference/nn-weakreference-iweakreference">IWeakReference</a>

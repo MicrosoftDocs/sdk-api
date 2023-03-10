@@ -1,16 +1,13 @@
 ---
 UID: NS:mi._MI_Real64Field
 title: MI_Real64Field (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_Real64Field)
+helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_Real64Field","MI_Real64Field structure [Windows Management Infrastructure (MI)]","mi/MI_Real64Field","wmi._mi_real64field","wmi_v2.mi_real64field"]
 old-location: wmi_v2\mi_real64field.htm
 tech.root: wmi_v2
 ms.assetid: 5dbcde23-875c-4c89-bb0e-4fe906a87722
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Real64Field, MI_Real64Field structure [Windows Management Infrastructure (MI)], mi/MI_Real64Field, wmi._mi_real64field, wmi_v2.mi_real64field
-f1_keywords:
-- mi/MI_Real64Field
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Real64Field
 targetos: Windows
 req.typenames: MI_Real64Field
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_Real64Field
+ - mi/_MI_Real64Field
+ - MI_Real64Field
+ - mi/MI_Real64Field
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Real64Field
 ---
 
 # MI_Real64Field structure
@@ -48,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
-
+Represents a property inside an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field value
 
 A field of type <b>MI_Real64</b>.
 
-
 ### -field exists
 
 Indicates whether the field is non-null. Can be set to <b>MI_TRUE</b> or <b>MI_FALSE</b>.
-
 
 ### -field flags
 
@@ -95,12 +92,6 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 
 Used while adding and setting properties on an <b>MI_Instance</b> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
 
-
 ## -remarks
 
-
-
-This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="https://go.microsoft.com/fwlink/p/?linkid=259738">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.
-
-
-
+This type cannot be a key. This differs from the DMTF CIM specification. For more information on keys, see <a href="/windows/win32/wmisdk/key-qualifier">https://go.microsoft.com/fwlink/p/?linkid=259738</a>.

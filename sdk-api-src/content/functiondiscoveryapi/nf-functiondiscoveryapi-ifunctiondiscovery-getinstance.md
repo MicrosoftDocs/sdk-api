@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstance
 title: IFunctionDiscovery::GetInstance (functiondiscoveryapi.h)
 description: Gets the specified function instance, based on identifier.
+helpviewer_keywords: ["GetInstance","GetInstance method","GetInstance method","IFunctionDiscovery interface","IFunctionDiscovery interface","GetInstance method","IFunctionDiscovery.GetInstance","IFunctionDiscovery::GetInstance","functiondiscoveryapi/IFunctionDiscovery::GetInstance","ncd.ifunctiondiscovery_getinstance_method"]
 old-location: ncd\ifunctiondiscovery_getinstance_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 8f3b2517-0acf-4a43-9539-d905c78be426
 ms.date: 12/05/2018
 ms.keywords: GetInstance, GetInstance method, GetInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstance method, IFunctionDiscovery.GetInstance, IFunctionDiscovery::GetInstance, functiondiscoveryapi/IFunctionDiscovery::GetInstance, ncd.ifunctiondiscovery_getinstance_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionDiscovery.GetInstance
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionDiscovery.GetInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscovery::GetInstance
+ - functiondiscoveryapi/IFunctionDiscovery::GetInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionDiscovery.GetInstance
 ---
 
 # IFunctionDiscovery::GetInstance
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the specified function instance, based on identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFunctionInstanceIdentity [in]
 
-The identifier of the function instance (see <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getid">GetID</a>). 
-
+The identifier of the function instance (see <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-getid">GetID</a>).
 
 ### -param ppIFunctionInstance [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer used to return the interface.
-
+A pointer to an <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer used to return the interface.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -137,27 +130,11 @@ The call was executed for a provider that returns results asynchronously.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Some function discovery providers return their query results with the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.  <b>GetInstance</b> does not find function instances that are returned in this way and will fail with E_PENDING.  It is recommended that clients use the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">CreateInstanceQuery</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a> interface to find function instances for such providers.
-
-
-
+Some function discovery providers return their query results with the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.  <b>GetInstance</b> does not find function instances that are returned in this way and will fail with E_PENDING.  It is recommended that clients use the <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">CreateInstanceQuery</a> method of the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a> interface to find function instances for such providers.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>

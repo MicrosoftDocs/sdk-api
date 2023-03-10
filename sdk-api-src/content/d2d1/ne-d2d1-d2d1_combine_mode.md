@@ -2,15 +2,12 @@
 UID: NE:d2d1.D2D1_COMBINE_MODE
 title: D2D1_COMBINE_MODE (d2d1.h)
 description: Specifies the different methods by which two geometries can be combined.
+helpviewer_keywords: ["D2D1_COMBINE_MODE","D2D1_COMBINE_MODE enumeration [Direct2D]","D2D1_COMBINE_MODE_EXCLUDE","D2D1_COMBINE_MODE_INTERSECT","D2D1_COMBINE_MODE_UNION","D2D1_COMBINE_MODE_XOR","d2d1/D2D1_COMBINE_MODE","d2d1/D2D1_COMBINE_MODE_EXCLUDE","d2d1/D2D1_COMBINE_MODE_INTERSECT","d2d1/D2D1_COMBINE_MODE_UNION","d2d1/D2D1_COMBINE_MODE_XOR","direct2d.D2D1_COMBINE_MODE"]
 old-location: direct2d\D2D1_COMBINE_MODE.htm
 tech.root: Direct2D
 ms.assetid: 7526379a-5f57-4a9f-b85d-415f131528e2
 ms.date: 12/05/2018
 ms.keywords: D2D1_COMBINE_MODE, D2D1_COMBINE_MODE enumeration [Direct2D], D2D1_COMBINE_MODE_EXCLUDE, D2D1_COMBINE_MODE_INTERSECT, D2D1_COMBINE_MODE_UNION, D2D1_COMBINE_MODE_XOR, d2d1/D2D1_COMBINE_MODE, d2d1/D2D1_COMBINE_MODE_EXCLUDE, d2d1/D2D1_COMBINE_MODE_INTERSECT, d2d1/D2D1_COMBINE_MODE_UNION, d2d1/D2D1_COMBINE_MODE_XOR, direct2d.D2D1_COMBINE_MODE
-f1_keywords:
-- d2d1/D2D1_COMBINE_MODE
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_COMBINE_MODE
 targetos: Windows
 req.typenames: D2D1_COMBINE_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_COMBINE_MODE
+ - d2d1/D2D1_COMBINE_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_COMBINE_MODE
 ---
 
 # D2D1_COMBINE_MODE enumeration
@@ -48,52 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the different methods by which two geometries can be combined.
-
 
 ## -enum-fields
 
-
-
-
-### -field D2D1_COMBINE_MODE_UNION
+### -field D2D1_COMBINE_MODE_UNION:0
 
 The two regions are combined by taking the union of both. Given two geometries, <i>A</i> and <i>B</i>, the resulting geometry is geometry <i>A</i> + geometry <i>B</i>.
 
+### -field D2D1_COMBINE_MODE_INTERSECT:1
 
-### -field D2D1_COMBINE_MODE_INTERSECT
+The two regions are combined by taking their intersection. The new area consists of the overlapping region between the two geometries.
 
-The two regions are combined by taking their intersection. The new area consists of the overlapping region between the two geometries. 
+### -field D2D1_COMBINE_MODE_XOR:2
 
+The two regions are combined by taking the area that exists in the first region but not the second and the area that exists in the second region but not the first. Given two geometries, <i>A</i> and <i>B</i>, the new region consists of (<i>A</i>-<i>B</i>) + (<i>B</i>-<i>A</i>).
 
-### -field D2D1_COMBINE_MODE_XOR
-
-The two regions are combined by taking the area that exists in the first region but not the second and the area that exists in the second region but not the first. Given two geometries, <i>A</i> and <i>B</i>, the new region consists of (<i>A</i>-<i>B</i>) + (<i>B</i>-<i>A</i>). 
-
-
-### -field D2D1_COMBINE_MODE_EXCLUDE
+### -field D2D1_COMBINE_MODE_EXCLUDE:3
 
 The second region is excluded from the first. Given two geometries, <i>A</i> and <i>B</i>, the area of geometry <i>B</i> is removed from the area of geometry <i>A</i>, producing a region that is <i>A</i>-<i>B</i>.
 
-
-### -field D2D1_COMBINE_MODE_FORCE_DWORD
-
-
-
+### -field D2D1_COMBINE_MODE_FORCE_DWORD:0xffffffff
 
 ## -remarks
-
-
 
 The following illustration shows the different geometry combine modes.
 
 
 <img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="./images/geometry_combine_modes.png"/>
 
-#### Examples
+## Examples
 
-The following code uses each of the different combine modes to combine two <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a> objects. 
+The following code uses each of the different combine modes to combine two <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry">ID2D1EllipseGeometry</a> objects. 
 
 
 ```cpp
@@ -255,7 +243,4 @@ HRESULT DemoApp::CreateGeometryResources()
 }
 
 ```
-
-
-
 

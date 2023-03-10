@@ -2,15 +2,12 @@
 UID: NF:threadpoollegacyapiset.ChangeTimerQueueTimer
 title: ChangeTimerQueueTimer function (threadpoollegacyapiset.h)
 description: Updates a timer-queue timer that was created by the CreateTimerQueueTimer function.
+helpviewer_keywords: ["ChangeTimerQueueTimer","ChangeTimerQueueTimer function","_win32_changetimerqueuetimer","base.changetimerqueuetimer","threadpoollegacyapiset/ChangeTimerQueueTimer","winbase/ChangeTimerQueueTimer"]
 old-location: base\changetimerqueuetimer.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 251a9a18-f98c-4334-a333-3c73638d7d93
 ms.date: 12/05/2018
 ms.keywords: ChangeTimerQueueTimer, ChangeTimerQueueTimer function, _win32_changetimerqueuetimer, base.changetimerqueuetimer, threadpoollegacyapiset/ChangeTimerQueueTimer, winbase/ChangeTimerQueueTimer
-f1_keywords:
-- threadpoollegacyapiset/ChangeTimerQueueTimer
-dev_langs:
-- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-threadpool-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- ChangeTimerQueueTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChangeTimerQueueTimer
+ - threadpoollegacyapiset/ChangeTimerQueueTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-threadpool-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - ChangeTimerQueueTimer
 ---
 
 # ChangeTimerQueueTimer function
@@ -53,60 +55,44 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates a timer-queue timer that was created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function.
-
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function.
 
 ## -parameters
-
-
-
 
 ### -param TimerQueue [in, optional]
 
 A handle to the timer queue. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function. 
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function. 
 
 
 
 
 If this parameter is <b>NULL</b>, the timer is associated with the default timer queue.
 
-
 ### -param Timer [in, out]
 
 A handle to the timer-queue timer. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function.
-
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a> function.
 
 ### -param DueTime [in]
 
 The time after which the timer should expire, in milliseconds.
 
-
 ### -param Period [in]
 
 The period of the timer, in milliseconds. If this parameter is zero, the timer is signaled once. If this parameter is greater than zero, the timer is periodic. A periodic timer automatically reactivates each time the period elapses, until the timer is canceled using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a> function or reset using 
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a> function or reset using 
 <b>ChangeTimerQueueTimer</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function cannot be called while the thread is using impersonation. The resulting behavior is undefined.
 
@@ -118,41 +104,31 @@ If you call
 
 Do not call 
 <b>ChangeTimerQueueTimer</b> after calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a> on a handle.
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a> on a handle.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer">CreateTimerQueueTimer</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
- 
-
- 
-
+<a href="/windows/desktop/Sync/timer-queues">Timer Queues</a>

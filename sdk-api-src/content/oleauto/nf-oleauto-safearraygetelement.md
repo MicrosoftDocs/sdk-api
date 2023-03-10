@@ -2,15 +2,12 @@
 UID: NF:oleauto.SafeArrayGetElement
 title: SafeArrayGetElement function (oleauto.h)
 description: Retrieves a single element of the array.
+helpviewer_keywords: ["SafeArrayGetElement","SafeArrayGetElement function [Automation]","_oa96_SafeArrayGetElement","automat.safearraygetelement","oleauto/SafeArrayGetElement"]
 old-location: automat\safearraygetelement.htm
 tech.root: automat
 ms.assetid: 47e9ee31-1e3b-4193-8467-6ef0db05966e
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetElement, SafeArrayGetElement function [Automation], _oa96_SafeArrayGetElement, automat.safearraygetelement, oleauto/SafeArrayGetElement
-f1_keywords:
-- oleauto/SafeArrayGetElement
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- SafeArrayGetElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SafeArrayGetElement
+ - oleauto/SafeArrayGetElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - SafeArrayGetElement
 ---
 
 # SafeArrayGetElement function
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a single element of the array.
-
 
 ## -parameters
 
-
-
-
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
-
-
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param rgIndices [in]
 
 A vector of indexes for each dimension of the array. The right-most (least significant) dimension is rgIndices[0]. The left-most dimension is stored at <code>rgIndices[psa-&gt;cDims – 1]</code>.
 
-
-
 ### -param pv [out]
 
 The element of the array.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -130,16 +120,10 @@ Memory could not be allocated for the element.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> automatically, before and after retrieving the element. The caller must provide a storage area of the correct size to receive the data. If the data element is a string, object, or variant, the function copies the element in the correct way.
+This function calls <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> automatically, before and after retrieving the element. The caller must provide a storage area of the correct size to receive the data. If the data element is a string, object, or variant, the function copies the element in the correct way.
 
 
 #### Examples
@@ -187,7 +171,3 @@ LError0:;
    return hresult;
 }
 ```
-
-
-
-

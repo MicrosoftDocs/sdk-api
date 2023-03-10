@@ -2,15 +2,12 @@
 UID: NF:namedpipeapi.ImpersonateNamedPipeClient
 title: ImpersonateNamedPipeClient function (namedpipeapi.h)
 description: Impersonates a named-pipe client application.
+helpviewer_keywords: ["ImpersonateNamedPipeClient","ImpersonateNamedPipeClient function [Security]","_win32_impersonatenamedpipeclient","namedpipeapi/ImpersonateNamedPipeClient","security.impersonatenamedpipeclient"]
 old-location: security\impersonatenamedpipeclient.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b
 ms.date: 12/05/2018
 ms.keywords: ImpersonateNamedPipeClient, ImpersonateNamedPipeClient function [Security], _win32_impersonatenamedpipeclient, namedpipeapi/ImpersonateNamedPipeClient, security.impersonatenamedpipeclient
-f1_keywords:
-- namedpipeapi/ImpersonateNamedPipeClient
-dev_langs:
-- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-NamedPipe-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-0.dll
-- API-MS-Win-Core-Processsecurity-l1-1-0.dll
-- Kernel32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-1.dll
-- API-MS-Win-Core-NamedPipe-L1-2-2.dll
-api_name:
-- ImpersonateNamedPipeClient
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImpersonateNamedPipeClient
+ - namedpipeapi/ImpersonateNamedPipeClient
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-NamedPipe-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-0.dll
+ - API-MS-Win-Core-Processsecurity-l1-1-0.dll
+ - Kernel32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-1.dll
+ - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+api_name:
+ - ImpersonateNamedPipeClient
 ---
 
 # ImpersonateNamedPipeClient function
@@ -57,35 +59,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ImpersonateNamedPipeClient</b> function impersonates a named-pipe client application.
 
-
 ## -parameters
-
-
-
 
 ### -param hNamedPipe [in]
 
 A handle to a named pipe.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>ImpersonateNamedPipeClient</b> function allows the server end of a named pipe to impersonate the client end. When this function is called, the named-pipe file system changes the thread of the calling <a href="/windows/win32/SecGloss/p-gly">process</a> to start impersonating the <a href="/windows/win32/SecGloss/s-gly">security context</a> of the last message read from the pipe. Only the server end of the pipe can call this function.
 
@@ -114,12 +103,7 @@ For an example that uses this function, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/secauthz/authorization-functions">Authorization functions</a>
 
@@ -138,7 +122,4 @@ For an example that uses this function, see
 
 
 <a href="/windows/win32/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
- 
-
- 
 

@@ -2,15 +2,12 @@
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.GetService
 title: ISpatialAudioObjectRenderStreamBase::GetService (spatialaudioclient.h)
 description: Gets additional services from the ISpatialAudioObjectRenderStream.
+helpviewer_keywords: ["GetService","GetService method [Core Audio]","GetService method [Core Audio]","ISpatialAudioObjectRenderStreamBase interface","ISpatialAudioObjectRenderStreamBase interface [Core Audio]","GetService method","ISpatialAudioObjectRenderStreamBase.GetService","ISpatialAudioObjectRenderStreamBase::GetService","coreaudio.ispatialaudioobjectrenderstream_getservice","spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetService"]
 old-location: coreaudio\ispatialaudioobjectrenderstream_getservice.htm
 tech.root: CoreAudio
 ms.assetid: 9262C9E1-DE15-460C-9BC2-DAD5163F447E
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Core Audio], GetService method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],GetService method, ISpatialAudioObjectRenderStreamBase.GetService, ISpatialAudioObjectRenderStreamBase::GetService, coreaudio.ispatialaudioobjectrenderstream_getservice, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetService
-f1_keywords:
-- spatialaudioclient/ISpatialAudioObjectRenderStreamBase.GetService
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudioclient.h
-api_name:
-- ISpatialAudioObjectRenderStreamBase.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioObjectRenderStreamBase::GetService
+ - spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - ISpatialAudioObjectRenderStreamBase.GetService
 ---
 
 # ISpatialAudioObjectRenderStreamBase::GetService
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets additional services from the <b>ISpatialAudioObjectRenderStream</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
@@ -67,15 +64,11 @@ IID_IAudioClock2
 
 IID_IAudioStreamVolume
 
-
 ### -param service [out]
 
-Pointer to a pointer variable into which the method writes the address of an instance of the requested interface. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method. If the <b>GetService</b> call fails, <i>*ppv </i>is NULL.
-
+Pointer to a pointer variable into which the method writes the address of an instance of the requested interface. Through this method, the caller obtains a counted reference to the interface. The caller is responsible for releasing the interface, when it is no longer needed, by calling the interface's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method. If the <b>GetService</b> call fails, <i>*ppv </i> is NULL.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -104,7 +97,7 @@ Parameter <i>ppv</i> is NULL.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>
@@ -151,42 +144,27 @@ The media associated with the spatial audio stream uses an unsupported format.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetService</b> method supports the following service interfaces:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock">IAudioClock</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclock2">IAudioClock2</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclock2">IAudioClock2</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume</a>
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
- 
-
- 
-
+<a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>

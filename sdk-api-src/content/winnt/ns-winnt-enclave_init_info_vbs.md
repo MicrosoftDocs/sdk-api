@@ -2,15 +2,12 @@
 UID: NS:winnt._ENCLAVE_INIT_INFO_VBS
 title: ENCLAVE_INIT_INFO_VBS (winnt.h)
 description: Contains architecture-specific information to use to initialize an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.
+helpviewer_keywords: ["*PENCLAVE_INIT_INFO_VBS","ENCLAVE_INIT_INFO_VBS","ENCLAVE_INIT_INFO_VBS structure","PENCLAVE_INIT_INFO_VBS","PENCLAVE_INIT_INFO_VBS structure pointer","base.enclave_init_info_vbs","winnt/ENCLAVE_INIT_INFO_VBS","winnt/PENCLAVE_INIT_INFO_VBS"]
 old-location: base\enclave_init_info_vbs.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 93DA44C6-6776-4682-84C2-347192669C77
 ms.date: 12/05/2018
 ms.keywords: '*PENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS, ENCLAVE_INIT_INFO_VBS structure, PENCLAVE_INIT_INFO_VBS, PENCLAVE_INIT_INFO_VBS structure pointer, base.enclave_init_info_vbs, winnt/ENCLAVE_INIT_INFO_VBS, winnt/PENCLAVE_INIT_INFO_VBS'
-f1_keywords:
-- winnt/ENCLAVE_INIT_INFO_VBS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winnt.h
-api_name:
-- ENCLAVE_INIT_INFO_VBS
 targetos: Windows
 req.typenames: ENCLAVE_INIT_INFO_VBS, *PENCLAVE_INIT_INFO_VBS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ENCLAVE_INIT_INFO_VBS
+ - winnt/_ENCLAVE_INIT_INFO_VBS
+ - PENCLAVE_INIT_INFO_VBS
+ - winnt/PENCLAVE_INIT_INFO_VBS
+ - ENCLAVE_INIT_INFO_VBS
+ - winnt/ENCLAVE_INIT_INFO_VBS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winnt.h
+api_name:
+ - ENCLAVE_INIT_INFO_VBS
 ---
 
 # ENCLAVE_INIT_INFO_VBS structure
@@ -48,32 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains architecture-specific information to use to initialize an enclave when the enclave type is <b>ENCLAVE_TYPE_VBS</b>, which specifies a virtualization-based security (VBS) enclave.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Length
 
 The total length of the <b>ENCLAVE_INIT_INFO_VBS</b> structure, in bytes.
 
-
 ### -field ThreadCount
 
-Upon entry to the <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a> function, specifies the number of threads to create in the enclave. Upon successful return from <b>InitializeEnclave</b>, contains the number of threads the function actually created.
-
+Upon entry to the <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a> function, specifies the number of threads to create in the enclave. Upon successful return from <b>InitializeEnclave</b>, contains the number of threads the function actually created.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
- 
-
- 
-
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>

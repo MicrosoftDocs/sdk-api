@@ -2,6 +2,7 @@
 UID: NF:ntquery.CIRestrictionToFullTree
 title: CIRestrictionToFullTree function (ntquery.h)
 description: Converts a query restriction tree with columns, sort columns, and grouping columns to a DBCOMMANDTREE structure.
+helpviewer_keywords: ["CIRestrictionToFullTree","CIRestrictionToFullTree function [Indexing Service]","_idxs_CIRestrictionToFullTree","indexsrv.cirestrictiontofulltree","ntquery/CIRestrictionToFullTree"]
 old-location: indexsrv\cirestrictiontofulltree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2c2t.htm
@@ -49,9 +50,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
-Converts a query restriction tree with columns, sort columns, and grouping columns to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure.
+Converts a query restriction tree with columns, sort columns, and grouping columns to a <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure.
 
 
 ## -parameters
@@ -61,7 +63,7 @@ Converts a query restriction tree with columns, sort columns, and grouping colum
 
 ### -param pTree
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure that is the top node defining a <b>SELECT</b> tree for a query.
+A pointer to a <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure that is the top node defining a <b>SELECT</b> tree for a query.
 
 
 ### -param pwszColumns
@@ -89,7 +91,7 @@ Column names separated by a plus sign (+) are grouped in individual categories, 
 
 ### -param ppTree
 
-A pointer to an output variable that receives a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure. This parameter cannot be <b>NULL</b>.
+A pointer to an output variable that receives a pointer to a <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure. This parameter cannot be <b>NULL</b>.
 
 
 ### -param cProperties
@@ -99,7 +101,7 @@ The number of properties in the <i>pProperties</i> array, or zero if <i>pPropert
 
 ### -param pReserved
 
-A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, and <i>pwszGroupings</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and if <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
+A pointer to an array of properties that can be referred to by a friendly name in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, and <i>pwszGroupings</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and if <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ### -param LocaleID
@@ -184,12 +186,11 @@ An unknown error has occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a>
+<a href="/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
+<a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
  
 
  
-

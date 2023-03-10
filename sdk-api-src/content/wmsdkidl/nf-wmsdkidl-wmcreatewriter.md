@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateWriter
 title: WMCreateWriter function (wmsdkidl.h)
 description: The WMCreateWriter function creates a writer object.
+helpviewer_keywords: ["WMCreateWriter","WMCreateWriter function [windows Media Format]","wmformat.wmcreatewriter","wmsdkidl/WMCreateWriter"]
 old-location: wmformat\wmcreatewriter.htm
 tech.root: wmformat
 ms.assetid: 26d42213-40a1-4e2c-805b-c0803ee015b4
 ms.date: 12/05/2018
 ms.keywords: WMCreateWriter, WMCreateWriter function [windows Media Format], wmformat.wmcreatewriter, wmsdkidl/WMCreateWriter
-f1_keywords:
-- wmsdkidl/WMCreateWriter
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateWriter
+ - wmsdkidl/WMCreateWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateWriter
 ---
 
 # WMCreateWriter function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateWriter</b> function creates a writer object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pUnkCert [in]
 
 Pointer to an <b>IUnknown</b> interface. This value is not used and should be set to <b>NULL</b>.
 
-
 ### -param ppWriter [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter</a> interface of the newly created writer object.
-
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter</a> interface of the newly created writer object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,22 +94,11 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>

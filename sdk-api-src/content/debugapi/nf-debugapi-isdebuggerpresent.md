@@ -2,15 +2,12 @@
 UID: NF:debugapi.IsDebuggerPresent
 title: IsDebuggerPresent function (debugapi.h)
 description: Determines whether the calling process is being debugged by a user-mode debugger.
+helpviewer_keywords: ["IsDebuggerPresent","IsDebuggerPresent function","_win32_isdebuggerpresent","base.isdebuggerpresent","debugapi/IsDebuggerPresent"]
 old-location: base\isdebuggerpresent.htm
 tech.root: Debug
 ms.assetid: 7bc4bcb7-3f85-4349-a1da-c4ebee2d3e3f
 ms.date: 12/05/2018
 ms.keywords: IsDebuggerPresent, IsDebuggerPresent function, _win32_isdebuggerpresent, base.isdebuggerpresent, debugapi/IsDebuggerPresent
-f1_keywords:
-- debugapi/IsDebuggerPresent
-dev_langs:
-- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-debug-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-debug-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Debug-L1-1-2.dll
-api_name:
-- IsDebuggerPresent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsDebuggerPresent
+ - debugapi/IsDebuggerPresent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-debug-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-debug-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Debug-L1-1-2.dll
+api_name:
+ - IsDebuggerPresent
 ---
 
 # IsDebuggerPresent function
@@ -54,58 +56,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the calling process is being debugged by a user-mode debugger.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 If the current process is running in the context of a debugger, the return value is nonzero.
 
 If the current process is not running in the context of a debugger, the return value is zero.
 
-
-
-
 ## -remarks
 
-
-
 This function allows an application to determine whether or not it is being debugged, so that it can modify its behavior. For example, an application could provide additional information using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> function if it is being debugged.
+<a href="/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> function if it is being debugged.
 
-To determine whether a remote process is being debugged, use the <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function.
+To determine whether a remote process is being debugged, use the <a href="/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a> function.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0400 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-checkremotedebuggerpresent">CheckRemoteDebuggerPresent</a>
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a>

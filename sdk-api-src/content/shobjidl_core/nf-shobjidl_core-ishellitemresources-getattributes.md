@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellItemResources.GetAttributes
 title: IShellItemResources::GetAttributes (shobjidl_core.h)
 description: Gets resource attributes.
+helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_CONTENT_INDEXED","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_REPARSE_POINT","FILE_ATTRIBUTE_SPARSE_FILE","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_ATTRIBUTE_VALID_FLAGS","FILE_ATTRIBUTE_VALID_SET_FLAGS","GetAttributes","GetAttributes method [Windows Shell]","GetAttributes method [Windows Shell]","IShellItemResources interface","IShellItemResources interface [Windows Shell]","GetAttributes method","IShellItemResources.GetAttributes","IShellItemResources::GetAttributes","_shell_IShellItemResources_GetAttributes","shell.IShellItemResources_GetAttributes","shobjidl_core/IShellItemResources::GetAttributes"]
 old-location: shell\IShellItemResources_GetAttributes.htm
 tech.root: shell
 ms.assetid: 4669ec62-270a-4b75-b073-2f45f11b6f99
 ms.date: 12/05/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_CONTENT_INDEXED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_ATTRIBUTE_VALID_FLAGS, FILE_ATTRIBUTE_VALID_SET_FLAGS, GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItemResources interface, IShellItemResources interface [Windows Shell],GetAttributes method, IShellItemResources.GetAttributes, IShellItemResources::GetAttributes, _shell_IShellItemResources_GetAttributes, shell.IShellItemResources_GetAttributes, shobjidl_core/IShellItemResources::GetAttributes
-f1_keywords:
-- shobjidl_core/IShellItemResources.GetAttributes
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellItemResources.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellItemResources::GetAttributes
+ - shobjidl_core/IShellItemResources::GetAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellItemResources.GetAttributes
 ---
 
 # IShellItemResources::GetAttributes
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets resource attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwAttributes [out]
 
@@ -153,14 +150,9 @@ Value is 0x00001ff7.
 
 Value is 0x000011a7.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

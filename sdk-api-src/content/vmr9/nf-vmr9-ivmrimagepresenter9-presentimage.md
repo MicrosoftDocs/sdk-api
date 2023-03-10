@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRImagePresenter9.PresentImage
 title: IVMRImagePresenter9::PresentImage (vmr9.h)
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
+helpviewer_keywords: ["IVMRImagePresenter9 interface [DirectShow]","PresentImage method","IVMRImagePresenter9.PresentImage","IVMRImagePresenter9::PresentImage","IVMRImagePresenter9PresentImage","PresentImage","PresentImage method [DirectShow]","PresentImage method [DirectShow]","IVMRImagePresenter9 interface","dshow.ivmrimagepresenter9_presentimage","vmr9/IVMRImagePresenter9::PresentImage"]
 old-location: dshow\ivmrimagepresenter9_presentimage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1c642958-88df-48b2-8eb1-0d032af71f71
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenter9 interface [DirectShow],PresentImage method, IVMRImagePresenter9.PresentImage, IVMRImagePresenter9::PresentImage, IVMRImagePresenter9PresentImage, PresentImage, PresentImage method [DirectShow], PresentImage method [DirectShow],IVMRImagePresenter9 interface, dshow.ivmrimagepresenter9_presentimage, vmr9/IVMRImagePresenter9::PresentImage
-f1_keywords:
-- vmr9/IVMRImagePresenter9.PresentImage
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImagePresenter9.PresentImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImagePresenter9::PresentImage
+ - vmr9/IVMRImagePresenter9::PresentImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImagePresenter9.PresentImage
 ---
 
 # IVMRImagePresenter9::PresentImage
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>PresentImage</code> method is called at precisely the moment this video frame should be presented.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwUserID [in]
 
 An application-defined DWORD_PTR that uniquely identifies this instance of the VMR in scenarios when multiple instances of the VMR are being used with a single instance of an allocator-presenter. See Remarks.
 
-
 ### -param lpPresInfo [in]
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9presentationinfo">VMR9PresentationInfo</a> structure that contains information about the video frame.
-
+Specifies a <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9presentationinfo">VMR9PresentationInfo</a> structure that contains information about the video frame.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -94,14 +84,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <code>PresentImage</code> can be called when the filter is in either a running or a paused state. <b>StartPresenting</b> and <b>StopPresenting</b> can be called only in a running state. Therefore, if the graph is paused before it is run, <code>PresentImage</code> will be called before <b>StartPresenting</b>.
 
@@ -109,20 +93,10 @@ Applications can create custom blending effects by using a single instance of an
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9">IVMRImagePresenter9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9">IVMRImagePresenter9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

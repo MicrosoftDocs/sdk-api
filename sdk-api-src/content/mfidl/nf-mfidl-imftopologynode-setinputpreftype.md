@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopologyNode.SetInputPrefType
 title: IMFTopologyNode::SetInputPrefType (mfidl.h)
 description: Sets the preferred media type for an input stream on this node.
+helpviewer_keywords: ["348b3cba-8c8c-4df9-8cb9-b69cd140cffb","IMFTopologyNode interface [Media Foundation]","SetInputPrefType method","IMFTopologyNode.SetInputPrefType","IMFTopologyNode::SetInputPrefType","SetInputPrefType","SetInputPrefType method [Media Foundation]","SetInputPrefType method [Media Foundation]","IMFTopologyNode interface","mf.imftopologynode_setinputpreftype","mfidl/IMFTopologyNode::SetInputPrefType"]
 old-location: mf\imftopologynode_setinputpreftype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb
 ms.date: 12/05/2018
 ms.keywords: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb, IMFTopologyNode interface [Media Foundation],SetInputPrefType method, IMFTopologyNode.SetInputPrefType, IMFTopologyNode::SetInputPrefType, SetInputPrefType, SetInputPrefType method [Media Foundation], SetInputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setinputpreftype, mfidl/IMFTopologyNode::SetInputPrefType
-f1_keywords:
-- mfidl/IMFTopologyNode.SetInputPrefType
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode.SetInputPrefType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode::SetInputPrefType
+ - mfidl/IMFTopologyNode::SetInputPrefType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode.SetInputPrefType
 ---
 
 # IMFTopologyNode::SetInputPrefType
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the preferred media type for an input stream on this node.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputIndex [in]
 
 Zero-based index of the input stream.
 
-
 ### -param pType [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -105,14 +95,8 @@ This node is a source node.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The preferred type is a hint for the topology loader.
 
@@ -122,20 +106,10 @@ If no input stream exists at the specified index, the method creates new streams
 
 Source nodes cannot have inputs. If this method is called on a source node, it returns E_NOTIMPL.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

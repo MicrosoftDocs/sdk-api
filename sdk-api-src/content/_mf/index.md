@@ -4,7 +4,7 @@ title: Microsoft Media Foundation
 ms.assetid: f37d0852-e606-3529-b146-65a564153343
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Microsoft Media Foundation
@@ -21,9 +21,12 @@ To develop Microsoft Media Foundation, you need these headers:
  * [dxvahd.h](../dxvahd/index.md)
  * [evr.h](../evr/index.md)
  * [evr9.h](../evr9/index.md)
+ * [icodecapi.h](../icodecapi/index.md)
  * [ksopmapi.h](../ksopmapi/index.md)
  * [mfapi.h](../mfapi/index.md)
  * [mfcaptureengine.h](../mfcaptureengine/index.md)
+ * [mfcontentdecryptionmodule.h](../mfcontentdecryptionmodule/index.md)
+ * [mfd3d12.h](../mfd3d12/index.md)
  * [mfidl.h](../mfidl/index.md)
  * [mfmediacapture.h](../mfmediacapture/index.md)
  * [mfmediaengine.h](../mfmediaengine/index.md)
@@ -34,6 +37,7 @@ To develop Microsoft Media Foundation, you need these headers:
  * [mfsharingengine.h](../mfsharingengine/index.md)
  * [mfspatialaudio.h](../mfspatialaudio/index.md)
  * [mftransform.h](../mftransform/index.md)
+ * [mfvirtualcamera.h](../mfvirtualcamera/index.md)
  * [opmapi.h](../opmapi/index.md)
  * [wmcodecdsp.h](../wmcodecdsp/index.md)
  * [wmcontainer.h](../wmcontainer/index.md)

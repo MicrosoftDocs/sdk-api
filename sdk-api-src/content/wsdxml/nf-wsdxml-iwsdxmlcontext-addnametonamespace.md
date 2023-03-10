@@ -2,15 +2,12 @@
 UID: NF:wsdxml.IWSDXMLContext.AddNameToNamespace
 title: IWSDXMLContext::AddNameToNamespace (wsdxml.h)
 description: Creates an object that represents a name in a namespace in an XML context.
+helpviewer_keywords: ["AddNameToNamespace","AddNameToNamespace method","AddNameToNamespace method","IWSDXMLContext interface","IWSDXMLContext interface","AddNameToNamespace method","IWSDXMLContext.AddNameToNamespace","IWSDXMLContext::AddNameToNamespace","ncd.iwsdxmlcontext_addnametonamespace_method","wsdxml/IWSDXMLContext::AddNameToNamespace"]
 old-location: ncd\iwsdxmlcontext_addnametonamespace_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d480f868-46ab-4d9c-ae52-4e5ca5cb9fd9
 ms.date: 12/05/2018
 ms.keywords: AddNameToNamespace, AddNameToNamespace method, AddNameToNamespace method,IWSDXMLContext interface, IWSDXMLContext interface,AddNameToNamespace method, IWSDXMLContext.AddNameToNamespace, IWSDXMLContext::AddNameToNamespace, ncd.iwsdxmlcontext_addnametonamespace_method, wsdxml/IWSDXMLContext::AddNameToNamespace
-f1_keywords:
-- wsdxml/IWSDXMLContext.AddNameToNamespace
-dev_langs:
-- c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDXMLContext.AddNameToNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDXMLContext::AddNameToNamespace
+ - wsdxml/IWSDXMLContext::AddNameToNamespace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDXMLContext.AddNameToNamespace
 ---
 
 # IWSDXMLContext::AddNameToNamespace
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an object that represents a name in a namespace in an XML context. If the name already exists in the namespace, no new name will be added, and the name object for the existing name will be returned.
-
 
 ## -parameters
 
-
-
-
 ### -param pszUri [in]
 
-The URI of the XML namespace in which this name will be created. If this namespace does not already exist in the XML context, a new namespace structure will be generated automatically. 
-
+The URI of the XML namespace in which this name will be created. If this namespace does not already exist in the XML context, a new namespace structure will be generated automatically.
 
 ### -param pszName [in]
 
 The name to add to the namespace specified by <i>pszUri</i>.
 
-
 ### -param ppName [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure for the newly created name. You must deallocate <i>ppName</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>. This parameter is optional.
-
+A <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure for the newly created name. You must deallocate <i>ppName</i> by calling <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>. This parameter is optional.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -128,27 +120,11 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>AddNameToNamespace</b> can be used when creating XML elements for extensible sections. Extensible sections are represented by the <b>any</b> element in a schema. The returned <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure pointed to by <i>ppName</i> can be used to specify the name associated with the extension content. When building a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that represents extension content, use the returned <b>WSDXML_NAME</b> structure for the element's  <b>Name</b> member. 
-
-
-
+<b>AddNameToNamespace</b> can be used when creating XML elements for extensible sections. Extensible sections are represented by the <b>any</b> element in a schema. The returned <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure pointed to by <i>ppName</i> can be used to specify the name associated with the extension content. When building a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that represents extension content, use the returned <b>WSDXML_NAME</b> structure for the element's  <b>Name</b> member.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>

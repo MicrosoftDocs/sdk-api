@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncKnowledge.MapRemoteToLocal
 title: ISyncKnowledge::MapRemoteToLocal (winsync.h)
 description: Converts a knowledge object from another replica into one that is compatible with the replica that owns this knowledge.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","MapRemoteToLocal method","ISyncKnowledge.MapRemoteToLocal","ISyncKnowledge::MapRemoteToLocal","MapRemoteToLocal","MapRemoteToLocal method [Windows Sync]","MapRemoteToLocal method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_mapremotetolocal","winsync/ISyncKnowledge::MapRemoteToLocal"]
 old-location: winsync\isyncknowledge_mapremotetolocal.htm
 tech.root: winsync
 ms.assetid: 9325ff3e-4f8e-4a18-bc95-57af30ccd437
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],MapRemoteToLocal method, ISyncKnowledge.MapRemoteToLocal, ISyncKnowledge::MapRemoteToLocal, MapRemoteToLocal, MapRemoteToLocal method [Windows Sync], MapRemoteToLocal method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_mapremotetolocal, winsync/ISyncKnowledge::MapRemoteToLocal
-f1_keywords:
-- winsync/ISyncKnowledge.MapRemoteToLocal
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.MapRemoteToLocal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::MapRemoteToLocal
+ - winsync/ISyncKnowledge::MapRemoteToLocal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.MapRemoteToLocal
 ---
 
 # ISyncKnowledge::MapRemoteToLocal
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a knowledge object from another replica into one that is compatible with the replica that owns this knowledge.
 
-
 ## -parameters
-
-
-
 
 ### -param pRemoteKnowledge [in]
 
 A knowledge object that is owned by another replica.
 
-
 ### -param ppMappedKnowledge [out]
 
 Returns the knowledge object, converted for use by the replica that owns this knowledge.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -117,18 +110,7 @@ Invalid pointer.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

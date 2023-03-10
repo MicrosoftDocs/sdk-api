@@ -2,15 +2,12 @@
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0003
 title: WTSSBX_ADDRESS_FAMILY (tssbx.h)
 description: Contains values that indicate the address family of a network address that is being used for redirection.
+helpviewer_keywords: ["WTSSBX_ADDRESS_FAMILY","WTSSBX_ADDRESS_FAMILY enumeration [Remote Desktop Services]","WTSSBX_ADDRESS_FAMILY_AF_INET","WTSSBX_ADDRESS_FAMILY_AF_INET6","WTSSBX_ADDRESS_FAMILY_AF_IPX","WTSSBX_ADDRESS_FAMILY_AF_NETBIOS","WTSSBX_ADDRESS_FAMILY_AF_UNSPEC","termserv.wtssbx_address_family","tssbx/WTSSBX_ADDRESS_FAMILY","tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET","tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET6","tssbx/WTSSBX_ADDRESS_FAMILY_AF_IPX","tssbx/WTSSBX_ADDRESS_FAMILY_AF_NETBIOS","tssbx/WTSSBX_ADDRESS_FAMILY_AF_UNSPEC"]
 old-location: termserv\wtssbx_address_family.htm
 tech.root: TermServ
 ms.assetid: 8fe243ef-f52b-4b1a-8300-0b8a5a8a4c8d
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_ADDRESS_FAMILY, WTSSBX_ADDRESS_FAMILY enumeration [Remote Desktop Services], WTSSBX_ADDRESS_FAMILY_AF_INET, WTSSBX_ADDRESS_FAMILY_AF_INET6, WTSSBX_ADDRESS_FAMILY_AF_IPX, WTSSBX_ADDRESS_FAMILY_AF_NETBIOS, WTSSBX_ADDRESS_FAMILY_AF_UNSPEC, termserv.wtssbx_address_family, tssbx/WTSSBX_ADDRESS_FAMILY, tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET, tssbx/WTSSBX_ADDRESS_FAMILY_AF_INET6, tssbx/WTSSBX_ADDRESS_FAMILY_AF_IPX, tssbx/WTSSBX_ADDRESS_FAMILY_AF_NETBIOS, tssbx/WTSSBX_ADDRESS_FAMILY_AF_UNSPEC
-f1_keywords:
-- tssbx/WTSSBX_ADDRESS_FAMILY
-dev_langs:
-- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tssbx.h
-api_name:
-- WTSSBX_ADDRESS_FAMILY
 targetos: Windows
 req.typenames: WTSSBX_ADDRESS_FAMILY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL_IWTSSBPlugin_0003
+ - tssbx/__MIDL_IWTSSBPlugin_0003
+ - WTSSBX_ADDRESS_FAMILY
+ - tssbx/WTSSBX_ADDRESS_FAMILY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tssbx.h
+api_name:
+ - WTSSBX_ADDRESS_FAMILY
 ---
 
 # WTSSBX_ADDRESS_FAMILY enumeration
@@ -48,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains values that indicate the address family of a network address that is being used for redirection.
-
 
 ## -enum-fields
 
-
-
-
-### -field WTSSBX_ADDRESS_FAMILY_AF_UNSPEC
+### -field WTSSBX_ADDRESS_FAMILY_AF_UNSPEC:0
 
 An unspecified address family.
 
-
-### -field WTSSBX_ADDRESS_FAMILY_AF_INET
+### -field WTSSBX_ADDRESS_FAMILY_AF_INET:0x1
 
 An IPv4 address.
 
-
-### -field WTSSBX_ADDRESS_FAMILY_AF_INET6
+### -field WTSSBX_ADDRESS_FAMILY_AF_INET6:0x2
 
 An IPv6 address.
 
-
-### -field WTSSBX_ADDRESS_FAMILY_AF_IPX
+### -field WTSSBX_ADDRESS_FAMILY_AF_IPX:0x3
 
 An IPX address.
 
-
-### -field WTSSBX_ADDRESS_FAMILY_AF_NETBIOS
+### -field WTSSBX_ADDRESS_FAMILY_AF_NETBIOS:0x4
 
 A NetBIOS address.
 

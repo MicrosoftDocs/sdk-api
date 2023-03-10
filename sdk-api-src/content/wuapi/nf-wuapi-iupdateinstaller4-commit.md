@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateInstaller4.Commit
 title: IUpdateInstaller4::Commit (wuapi.h)
 description: Finalizes updates that were previously staged or installed.
+helpviewer_keywords: ["Commit","Commit method [Windows Update Agent]","Commit method [Windows Update Agent]","IUpdateInstaller4 interface","IUpdateInstaller4 interface [Windows Update Agent]","Commit method","IUpdateInstaller4.Commit","IUpdateInstaller4::Commit","wua.iupdateinstaller4_commit","wuapi/IUpdateInstaller4::Commit"]
 old-location: wua\iupdateinstaller4_commit.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: F94F443D-9A15-42C3-A404-B80F5E498AD3
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Update Agent], Commit method [Windows Update Agent],IUpdateInstaller4 interface, IUpdateInstaller4 interface [Windows Update Agent],Commit method, IUpdateInstaller4.Commit, IUpdateInstaller4::Commit, wua.iupdateinstaller4_commit, wuapi/IUpdateInstaller4::Commit
-f1_keywords:
-- wuapi/IUpdateInstaller4.Commit
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateInstaller4.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateInstaller4::Commit
+ - wuapi/IUpdateInstaller4::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateInstaller4.Commit
 ---
 
 # IUpdateInstaller4::Commit
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finalizes updates that were previously staged or installed.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows 
 
@@ -79,14 +73,6 @@ Calling **Commit** is required prior to rebooting when a feature update is pendi
 
 **Commit** is safe to call prior to reboot for any other types of updates as well.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/mt694206(v=vs.85)">IUpdateInstaller4</a>
- 
-
- 
-
+<a href="/previous-versions/mt694206(v=vs.85)">IUpdateInstaller4</a>

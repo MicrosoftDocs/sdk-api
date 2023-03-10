@@ -1,16 +1,13 @@
 ---
 UID: NF:wininet.DeleteUrlCacheEntryA
 title: DeleteUrlCacheEntryA function (wininet.h)
-description: Removes the file associated with the source name from the cache, if the file exists.
+description: Removes the file associated with the source name from the cache, if the file exists. (DeleteUrlCacheEntryA)
+helpviewer_keywords: ["DeleteUrlCacheEntryA", "wininet/DeleteUrlCacheEntryA"]
 old-location: wininet\deleteurlcacheentry.htm
 tech.root: wininet
 ms.assetid: bb765cba-6662-4dca-8f9f-3f35e37da28a
 ms.date: 12/05/2018
 ms.keywords: DeleteUrlCacheEntry, DeleteUrlCacheEntry function [WinINet], DeleteUrlCacheEntryA, DeleteUrlCacheEntryW, _inet_deleteurlcacheentry_function, wininet.deleteurlcacheentry, wininet/DeleteUrlCacheEntry, wininet/DeleteUrlCacheEntryA, wininet/DeleteUrlCacheEntryW
-f1_keywords:
-- wininet/DeleteUrlCacheEntry
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- DeleteUrlCacheEntry
-- DeleteUrlCacheEntryA
-- DeleteUrlCacheEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteUrlCacheEntryA
+ - wininet/DeleteUrlCacheEntryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - DeleteUrlCacheEntry
+ - DeleteUrlCacheEntryA
+ - DeleteUrlCacheEntryW
 ---
 
 # DeleteUrlCacheEntryA function
@@ -50,26 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the file associated with the source name from the cache, if the file exists.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrlName [in]
 
 Pointer to a string that contains the name of the source that corresponds to the cache entry.
 
-
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error values include the following.
 
 <table>
 <tr>
@@ -99,31 +93,22 @@ The file is not in the cache.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The wininet.h header defines DeleteUrlCacheEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

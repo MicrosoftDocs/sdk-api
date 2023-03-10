@@ -2,15 +2,12 @@
 UID: NF:bits3_0.IBitsPeerCacheAdministration.DeleteUrl
 title: IBitsPeerCacheAdministration::DeleteUrl (bits3_0.h)
 description: Deletes all cache records and the file from the cache for the given URL.
+helpviewer_keywords: ["DeleteUrl","DeleteUrl method [BITS]","DeleteUrl method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","DeleteUrl method","IBitsPeerCacheAdministration.DeleteUrl","IBitsPeerCacheAdministration::DeleteUrl","bits.ibitspeercacheadministration_deleteurl","bits3_0/IBitsPeerCacheAdministration::DeleteUrl"]
 old-location: bits\ibitspeercacheadministration_deleteurl.htm
 tech.root: Bits
 ms.assetid: d4849830-62fa-4bf4-bfad-59bcdbf1a10e
 ms.date: 12/05/2018
 ms.keywords: DeleteUrl, DeleteUrl method [BITS], DeleteUrl method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],DeleteUrl method, IBitsPeerCacheAdministration.DeleteUrl, IBitsPeerCacheAdministration::DeleteUrl, bits.ibitspeercacheadministration_deleteurl, bits3_0/IBitsPeerCacheAdministration::DeleteUrl
-f1_keywords:
-- bits3_0/IBitsPeerCacheAdministration.DeleteUrl
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeerCacheAdministration.DeleteUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeerCacheAdministration::DeleteUrl
+ - bits3_0/IBitsPeerCacheAdministration::DeleteUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeerCacheAdministration.DeleteUrl
 ---
 
 # IBitsPeerCacheAdministration::DeleteUrl
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Deletes all cache records and the file from the cache for the given URL. 
-
+Deletes all cache records and the file from the cache for the given URL.
 
 ## -parameters
 
-
-
-
 ### -param url [in]
 
-Null-terminated string that contains the URL of the file whose cache records and file you want to delete from the cache. 
-
+Null-terminated string that contains the URL of the file whose cache records and file you want to delete from the cache.
 
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -108,31 +102,15 @@ The cache record is in use and cannot be changed or deleted.  Try again after a 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The cache records for the file are not removed until all current activity with the cache records is complete.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleterecord">IBitsPeerCacheAdministration::DeleteRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleterecord">IBitsPeerCacheAdministration::DeleteRecord</a>

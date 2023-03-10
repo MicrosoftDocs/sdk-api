@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Clone
 title: IEnumEventObject::Clone (eventsys.h)
-description: Creates an enumerator that contains the same enumeration state as the current one.
+description: Creates an enumerator that contains the same enumeration state as the current one. (IEnumEventObject.Clone)
+helpviewer_keywords: ["Clone","Clone method [COM+]","Clone method [COM+]","IEnumEventObject interface","IEnumEventObject interface [COM+]","Clone method","IEnumEventObject.Clone","IEnumEventObject::Clone","_cos_ienumeventobject_clone","cos.ienumeventobject_clone","eventsys/IEnumEventObject::Clone"]
 old-location: cos\ienumeventobject_clone.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 25bd3f8f-ba99-42e6-b7af-6b237343a17c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM+], Clone method [COM+],IEnumEventObject interface, IEnumEventObject interface [COM+],Clone method, IEnumEventObject.Clone, IEnumEventObject::Clone, _cos_ienumeventobject_clone, cos.ienumeventobject_clone, eventsys/IEnumEventObject::Clone
-f1_keywords:
-- eventsys/IEnumEventObject.Clone
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Eventsys.h
-api_name:
-- IEnumEventObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumEventObject::Clone
+ - eventsys/IEnumEventObject::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Eventsys.h
+api_name:
+ - IEnumEventObject.Clone
 ---
 
 # IEnumEventObject::Clone
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an enumerator that contains the same enumeration state as the current one.
-
 
 ## -parameters
 
-
-
-
 ### -param ppInterface [out]
 
-Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a> interface on the enumeration object. This parameter cannot be <b>NULL</b>. If the method is unsuccessful, the value of this output variable is undefined.
-
+Address of a pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a> interface on the enumeration object. This parameter cannot be <b>NULL</b>. If the method is unsuccessful, the value of this output variable is undefined.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -remarks
 
-
-
-When the pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a> is returned, it is positioned at the first object in the collection not at the place of the enumeration object being cloned.
-
-
-
+When the pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a> is returned, it is positioned at the first object in the collection not at the place of the enumeration object being cloned.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>

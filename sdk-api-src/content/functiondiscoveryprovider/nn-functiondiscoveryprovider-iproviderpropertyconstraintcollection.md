@@ -2,15 +2,12 @@
 UID: NN:functiondiscoveryprovider.IProviderPropertyConstraintCollection
 title: IProviderPropertyConstraintCollection (functiondiscoveryprovider.h)
 description: This interface is accessible to the provider through IFunctionDiscoveryProviderQuery::GetPropertyConstraints.
+helpviewer_keywords: ["IProviderPropertyConstraintCollection","IProviderPropertyConstraintCollection interface","IProviderPropertyConstraintCollection interface","described","functiondiscoveryprovider/IProviderPropertyConstraintCollection","ncd.iproviderpropertyconstraintcollection"]
 old-location: ncd\iproviderpropertyconstraintcollection.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: d2e3bc10-e45f-43de-abc5-c5e35d366d87
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,described, functiondiscoveryprovider/IProviderPropertyConstraintCollection, ncd.iproviderpropertyconstraintcollection
-f1_keywords:
-- functiondiscoveryprovider/IProviderPropertyConstraintCollection
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IProviderPropertyConstraintCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderPropertyConstraintCollection
+ - functiondiscoveryprovider/IProviderPropertyConstraintCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IProviderPropertyConstraintCollection
 ---
 
 # IProviderPropertyConstraintCollection interface
@@ -48,80 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-This interface is accessible to the provider through <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getpropertyconstraints">IFunctionDiscoveryProviderQuery::GetPropertyConstraints</a>.
-
+This interface is accessible to the provider through <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryproviderquery-getpropertyconstraints">IFunctionDiscoveryProviderQuery::GetPropertyConstraints</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProviderPropertyConstraintCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderPropertyConstraintCollection</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProviderPropertyConstraintCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-get">Get</a>
-</td>
-<td align="left" width="63%">
-Gets the name and value of the specified property constraint, by property key.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of items in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-item">Item</a>
-</td>
-<td align="left" width="63%">
-Gets the name and value of the specified property constraint, by index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets the name and value of the next property constraint in the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the current index to the start of the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-iproviderpropertyconstraintcollection-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips the next item in the collection.
-
-</td>
-</tr>
-</table> 
+The <b>IProviderPropertyConstraintCollection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProviderPropertyConstraintCollection</b> also has these types of members:
 

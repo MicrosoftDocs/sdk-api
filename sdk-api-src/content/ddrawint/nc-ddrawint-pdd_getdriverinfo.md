@@ -2,15 +2,12 @@
 UID: NC:ddrawint.PDD_GETDRIVERINFO
 title: PDD_GETDRIVERINFO (ddrawint.h)
 description: The DdGetDriverInfo function queries the driver for additional DirectDraw and Direct3D functionality that the driver supports.
+helpviewer_keywords: ["DdGetDriverInfo","DdGetDriverInfo callback function [Display Devices]","PDD_GETDRIVERINFO","PDD_GETDRIVERINFO callback","ddfncs_0b5e1f3a-ee8b-4e55-bdd9-d872f568f95d.xml","ddrawint/DdGetDriverInfo","display.ddgetdriverinfo"]
 old-location: display\ddgetdriverinfo.htm
 tech.root: display
 ms.assetid: 89a22163-a678-4c72-932a-ae4d17922e0b
 ms.date: 12/05/2018
 ms.keywords: DdGetDriverInfo, DdGetDriverInfo callback function [Display Devices], PDD_GETDRIVERINFO, PDD_GETDRIVERINFO callback, ddfncs_0b5e1f3a-ee8b-4e55-bdd9-d872f568f95d.xml, ddrawint/DdGetDriverInfo, display.ddgetdriverinfo
-f1_keywords:
-- ddrawint/DdGetDriverInfo
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,69 +25,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdGetDriverInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_GETDRIVERINFO
+ - ddrawint/PDD_GETDRIVERINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdGetDriverInfo
 ---
-
-# PDD_GETDRIVERINFO callback function
-
 
 ## -description
 
-
 The <i>DdGetDriverInfo</i> function queries the driver for additional DirectDraw and Direct3D functionality that the driver supports.
-
 
 ## -parameters
 
+### -param unnamedParam1
 
-
-
-### -param Arg1
-
-
-
-
-
-
-
-
-#### - lpGetDriverInfo
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure that contains the information required to perform the query.
-
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure that contains the information required to perform the query.
 
 ## -returns
 
-
-
 <i>DdGetDriverInfo</i> must return DDHAL_DRIVER_HANDLED.
-
-
-
 
 ## -remarks
 
+Drivers must implement <i>DdGetDriverInfo</i> to expose driver-supported DirectDraw functionality that is not returnable through <a href="/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>.
 
-
-Drivers must implement <i>DdGetDriverInfo</i> to expose driver-supported DirectDraw functionality that is not returnable through <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>.
-
-The driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function returns a pointer to <i>DdGetDriverInfo</i> in the <b>GetDriverInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure.
+The driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function returns a pointer to <i>DdGetDriverInfo</i> in the <b>GetDriverInfo</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure.
 
 To inform DirectDraw that the <b>GetDriverInfo</b> member has been set correctly, the driver must also set the DDHALINFO_GETDRIVERINFOSET bit of the <b>dwFlags</b> member in the DD_HALINFO structure. 
 
-<i>DdGetDriverInfo</i> should determine whether the driver and its hardware support the callbacks or capabilities requested by the specified GUID. For all GUIDs except GUID_D3DParseUnknownCommandCallback, if the driver does provide the requested support, it should set the following members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure:
+<i>DdGetDriverInfo</i> should determine whether the driver and its hardware support the callbacks or capabilities requested by the specified GUID. For all GUIDs except GUID_D3DParseUnknownCommandCallback, if the driver does provide the requested support, it should set the following members of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure:
 
 <ul>
 <li>
@@ -110,7 +87,7 @@ Return DD_OK in <b>ddRVal</b>.
 </ul>
 If the driver does not support the feature, it should set <b>ddRVal</b> to DDERR_CURRENTLYNOTAVAIL and return.
 
-DirectDraw informs the driver of the expected amount of data in the <b>dwExpectedSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure. The driver must not fill in more data than <b>dwExpectedSize</b> bytes.
+DirectDraw informs the driver of the expected amount of data in the <b>dwExpectedSize</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure. The driver must not fill in more data than <b>dwExpectedSize</b> bytes.
 
 To avoid problems using <i>DdGetDriverInfo</i>: 
 
@@ -129,23 +106,14 @@ Do not assume anything about the number of times DirectDraw will call the driver
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a>

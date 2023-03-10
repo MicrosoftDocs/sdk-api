@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellView.GetCurrentInfo
 title: IShellView::GetCurrentInfo (shobjidl_core.h)
 description: Gets the current folder settings.
+helpviewer_keywords: ["GetCurrentInfo","GetCurrentInfo method [Windows Shell]","GetCurrentInfo method [Windows Shell]","IShellView interface","IShellView interface [Windows Shell]","GetCurrentInfo method","IShellView.GetCurrentInfo","IShellView::GetCurrentInfo","_win32_IShellView_GetCurrentInfo","shell.IShellView_GetCurrentInfo","shobjidl_core/IShellView::GetCurrentInfo"]
 old-location: shell\IShellView_GetCurrentInfo.htm
 tech.root: shell
 ms.assetid: 69d18b4f-3a68-420c-a184-05c2f69a5ec6
 ms.date: 12/05/2018
 ms.keywords: GetCurrentInfo, GetCurrentInfo method [Windows Shell], GetCurrentInfo method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetCurrentInfo method, IShellView.GetCurrentInfo, IShellView::GetCurrentInfo, _win32_IShellView_GetCurrentInfo, shell.IShellView_GetCurrentInfo, shobjidl_core/IShellView::GetCurrentInfo
-f1_keywords:
-- shobjidl_core/IShellView.GetCurrentInfo
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellView.GetCurrentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellView::GetCurrentInfo
+ - shobjidl_core/IShellView::GetCurrentInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellView.GetCurrentInfo
 ---
 
 # IShellView::GetCurrentInfo
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current folder settings.
 
-
 ## -parameters
-
-
-
 
 ### -param pfs
 
 Type: <b>LPFOLDERSETTINGS</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure to receive the settings.
-
+The address of a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure to receive the settings.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a COM-defined error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 Windows Explorer uses this method to query the view for standard settings.
 
@@ -87,16 +76,6 @@ This method is used to retrieve the current view settings of the view.
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 Return as many of the settings as apply. This is intended to maintain the same basic settings when the user browses from view to view. For example, if the user sets the Details view, that view should be maintained as the user goes from one folder to the other in Windows Explorer mode.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>

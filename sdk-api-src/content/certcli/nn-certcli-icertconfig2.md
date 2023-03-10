@@ -2,15 +2,12 @@
 UID: NN:certcli.ICertConfig2
 title: ICertConfig2 (certcli.h)
 description: Provide functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
+helpviewer_keywords: ["ICertConfig2","ICertConfig2 interface [Security]","ICertConfig2 interface [Security]","described","_certsrv_icertconfig2","certcli/ICertConfig2","security.icertconfig2"]
 old-location: security\icertconfig2.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6bac5961-f9cc-4859-affa-aa7ed152ebfa
 ms.date: 12/05/2018
 ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security],described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
-f1_keywords:
-- certcli/ICertConfig2
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertConfig2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertConfig2
+ - certcli/ICertConfig2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertConfig2
 ---
 
 # ICertConfig2 interface
 
 
 ## -description
-
 
 The <b>ICertConfig2</b> interface is one of two interfaces that  provide functionality for retrieving  the public  configuration data (specified during client setup) for a Certificate Services server.
 
@@ -66,56 +67,7 @@ For each installation of Certificate Services, this public configuration data re
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertConfig2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertConfig2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICertConfig2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">GetConfig</a>
-</td>
-<td align="left" width="63%">
-Gets the default configuration string (the server name and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getfield">GetField</a>
-</td>
-<td align="left" width="63%">
-Gets a specific field from the current record of the configuration database.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-next">Next</a>
-</td>
-<td align="left" width="63%">
-Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the configuration query <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a><b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig2-setsharedfolder">SetSharedFolder</a>
-</td>
-<td align="left" width="63%">
-Specifies a new path for the shared folder directory.</p> (Inherited from <b>ICertConfig2</b><b>CCertConfig</b>)</td>
-</tr>
-</table> 
+The <b>ICertConfig2</b> interface inherits from <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. <b>ICertConfig2</b> also has these types of members:
 

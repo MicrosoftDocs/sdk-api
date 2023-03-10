@@ -2,15 +2,12 @@
 UID: NS:oaidl.tagCUSTDATAITEM
 title: CUSTDATAITEM (oaidl.h)
 description: Represents a custom data item.
+helpviewer_keywords: ["*LPCUSTDATAITEM","CUSTDATAITEM","CUSTDATAITEM structure [Automation]","LPCUSTDATAITEM","LPCUSTDATAITEM structure pointer [Automation]","_oa96_CUSTDATAITEM","automat.custdataitem","oaidl/CUSTDATAITEM","oaidl/LPCUSTDATAITEM"]
 old-location: automat\custdataitem.htm
 tech.root: automat
 ms.assetid: dae0f1be-0b77-4af6-9983-d8cb313e5276
 ms.date: 12/05/2018
 ms.keywords: '*LPCUSTDATAITEM, CUSTDATAITEM, CUSTDATAITEM structure [Automation], LPCUSTDATAITEM, LPCUSTDATAITEM structure pointer [Automation], _oa96_CUSTDATAITEM, automat.custdataitem, oaidl/CUSTDATAITEM, oaidl/LPCUSTDATAITEM'
-f1_keywords:
-- oaidl/CUSTDATAITEM
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OaIdl.h
-api_name:
-- CUSTDATAITEM
 targetos: Windows
 req.typenames: CUSTDATAITEM, *LPCUSTDATAITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCUSTDATAITEM
+ - oaidl/tagCUSTDATAITEM
+ - LPCUSTDATAITEM
+ - oaidl/LPCUSTDATAITEM
+ - CUSTDATAITEM
+ - oaidl/CUSTDATAITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OaIdl.h
+api_name:
+ - CUSTDATAITEM
 ---
 
 # CUSTDATAITEM structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a custom data item.
 
-
 ## -struct-fields
-
-
-
 
 ### -field guid
 
 The unique identifier of the data item.
-
 
 ### -field varValue
 

@@ -2,15 +2,12 @@
 UID: NF:memoryapi.ReadProcessMemory
 title: ReadProcessMemory function (memoryapi.h)
 description: Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.
+helpviewer_keywords: ["ReadProcessMemory","ReadProcessMemory function","_win32_ReadProcessMemory","base.ReadProcessMemory","memoryapi/ReadProcessMemory"]
 old-location: base\ReadProcessMemory.htm
 tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
-ms.date: 08/05/2019
+ms.date: 03/10/2020
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_ReadProcessMemory, base.ReadProcessMemory, memoryapi/ReadProcessMemory
-f1_keywords:
-- memoryapi/ReadProcessMemory
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -25,38 +22,43 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-1.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- ReadProcessMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadProcessMemory
+ - memoryapi/ReadProcessMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-1.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - ReadProcessMemory
 ---
-
 
 # ReadProcessMemory function
 
 ## Description
 
 Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.
+
 
 ## -parameters
 
@@ -78,40 +80,23 @@ The number of bytes to be read from the specified process.
 
 ### -param lpNumberOfBytesRead [out]
 
-A pointer to a variable that receives the number of bytes transferred into the specified buffer. If <i>lpNumberOfBytesRead</i> is <b>NULL</b>, the parameter is ignored.
-
+A pointer to a variable that receives the number of bytes transferred into the specified buffer. If *lpNumberOfBytesRead* is **NULL**, the parameter is ignored.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+[GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 The function fails if the requested read operation crosses into an area of the process that is inaccessible.
 
 ## -remarks
 
-<b>ReadProcessMemory</b> copies the data in the specified address range from the address space of the specified process into the specified buffer of the current process. Any process that has a handle with PROCESS_VM_READ access can call the function.
+**ReadProcessMemory** copies the data in the specified address range from the address space of the specified process into the specified buffer of the current process. Any process that has a handle with PROCESS_VM_READ access can call the function.
 
 The entire area to be read must be accessible, and if it is not accessible, the function fails.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/95a838a2-f138-4682-b733-3f363b6c4a4b">Debugging Functions</a>
-
-
-
-<a href="https://msdn.microsoft.com/8f695c38-19c4-49e4-97de-8b64ea536cb1">OpenProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/7056e181-9bc5-4530-a7b8-d5ff1e345eef">Process Functions for Debugging</a>
-
-
-
-<a href="https://msdn.microsoft.com/ff0b6b79-40f5-499c-b797-b66797654164">VirtualAllocEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/9cd91f1c-58ce-4adc-b027-45748543eb06">ReadProcessMemory</a>
+[Debugging Functions](/windows/win32/debug/debugging-functions), [OpenProcess](../processthreadsapi/nf-processthreadsapi-openprocess.md), [Process Functions for Debugging](/windows/win32/debug/process-functions-for-debugging), [VirtualAllocEx](./nf-memoryapi-virtualallocex.md), [WriteProcessMemory](./nf-memoryapi-writeprocessmemory.md)

@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxBundleReader.GetManifest
 title: IAppxBundleReader::GetManifest (appxpackaging.h)
 description: Retrieves a read-only manifest object from the bundle.
+helpviewer_keywords: ["GetManifest","GetManifest method [App packaging and management]","GetManifest method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetManifest method","IAppxBundleReader.GetManifest","IAppxBundleReader::GetManifest","appxpackaging/IAppxBundleReader::GetManifest","appxpkg.iappxbundlereader_getmanifest"]
 old-location: appxpkg\iappxbundlereader_getmanifest.htm
 tech.root: appxpkg
 ms.assetid: C9D80910-8609-45D9-A3EC-05A033A36A4F
 ms.date: 12/05/2018
 ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetManifest method, IAppxBundleReader.GetManifest, IAppxBundleReader::GetManifest, appxpackaging/IAppxBundleReader::GetManifest, appxpkg.iappxbundlereader_getmanifest
-f1_keywords:
-- appxpackaging/IAppxBundleReader.GetManifest
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleReader.GetManifest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleReader::GetManifest
+ - appxpackaging/IAppxBundleReader::GetManifest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleReader.GetManifest
 ---
 
 # IAppxBundleReader::GetManifest
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a read-only manifest object from the bundle.
 
-
 ## -parameters
-
-
-
 
 ### -param manifestReader [out, retval]
 
@@ -63,25 +60,12 @@ Type: <b>IAppxBundleManifestReader**</b>
 
 The object model of the bundle manifest.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get_Count
 title: IUpdateExceptionCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.
+description: Gets the number of elements in the collection. (IUpdateExceptionCollection.get_Count)
+helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IUpdateExceptionCollection interface","IUpdateExceptionCollection interface [Windows Update Agent]","Count property","IUpdateExceptionCollection.Count","IUpdateExceptionCollection.get_Count","IUpdateExceptionCollection::Count","IUpdateExceptionCollection::get_Count","get_Count","wua.iupdateexceptioncollection_count","wuapi/IUpdateExceptionCollection::Count","wuapi/IUpdateExceptionCollection::get_Count"]
 old-location: wua\iupdateexceptioncollection_count.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a78f4f2f-8d9f-45f1-9606-162cc9bdc8f3
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateExceptionCollection interface, IUpdateExceptionCollection interface [Windows Update Agent],Count property, IUpdateExceptionCollection.Count, IUpdateExceptionCollection.get_Count, IUpdateExceptionCollection::Count, IUpdateExceptionCollection::get_Count, get_Count, wua.iupdateexceptioncollection_count, wuapi/IUpdateExceptionCollection::Count, wuapi/IUpdateExceptionCollection::get_Count
-f1_keywords:
-- wuapi/IUpdateExceptionCollection.Count
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateExceptionCollection.Count
-- IUpdateExceptionCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateExceptionCollection::get_Count
+ - wuapi/IUpdateExceptionCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateExceptionCollection.Count
+ - IUpdateExceptionCollection.get_Count
 ---
 
 # IUpdateExceptionCollection::get_Count
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of elements in the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateexceptioncollection">IUpdateExceptionCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexceptioncollection">IUpdateExceptionCollection</a>

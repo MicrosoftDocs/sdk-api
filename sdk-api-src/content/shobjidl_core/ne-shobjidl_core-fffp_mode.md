@@ -2,15 +2,12 @@
 UID: NE:shobjidl_core.FFFP_MODE
 title: FFFP_MODE (shobjidl_core.h)
 description: Describes match criteria. Used by methods of the IKnownFolderManager interface.
+helpviewer_keywords: ["FFFP_EXACTMATCH","FFFP_MODE","FFFP_MODE enumeration [Windows Shell]","FFFP_NEARESTPARENTMATCH","_shell_FFFP_MODE","shell.FFFP_MODE","shobjidl_core/FFFP_EXACTMATCH","shobjidl_core/FFFP_MODE","shobjidl_core/FFFP_NEARESTPARENTMATCH"]
 old-location: shell\FFFP_MODE.htm
 tech.root: shell
 ms.assetid: ffa62c36-6fdf-4644-b90d-9b5cc989de8a
 ms.date: 12/05/2018
 ms.keywords: FFFP_EXACTMATCH, FFFP_MODE, FFFP_MODE enumeration [Windows Shell], FFFP_NEARESTPARENTMATCH, _shell_FFFP_MODE, shell.FFFP_MODE, shobjidl_core/FFFP_EXACTMATCH, shobjidl_core/FFFP_MODE, shobjidl_core/FFFP_NEARESTPARENTMATCH
-f1_keywords:
-- shobjidl_core/FFFP_MODE
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- FFFP_MODE
 targetos: Windows
 req.typenames: FFFP_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FFFP_MODE
+ - shobjidl_core/FFFP_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - FFFP_MODE
 ---
 
 # FFFP_MODE enumeration
@@ -48,21 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Describes match criteria. Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a> interface.
-
+Describes match criteria. Used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager">IKnownFolderManager</a> interface.
 
 ## -enum-fields
 
-
-
-
-### -field FFFP_EXACTMATCH
+### -field FFFP_EXACTMATCH:0
 
 Exact match.
-
 
 ### -field FFFP_NEARESTPARENTMATCH
 
 Nearest parent match.
-

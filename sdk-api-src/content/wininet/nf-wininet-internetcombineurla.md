@@ -1,16 +1,13 @@
 ---
 UID: NF:wininet.InternetCombineUrlA
 title: InternetCombineUrlA function (wininet.h)
-description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
+description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl). (ANSI)
+helpviewer_keywords: ["InternetCombineUrlA", "wininet/InternetCombineUrlA"]
 old-location: wininet\internetcombineurl.htm
 tech.root: wininet
 ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4
 ms.date: 12/05/2018
 ms.keywords: InternetCombineUrl, InternetCombineUrl function [WinINet], InternetCombineUrlA, InternetCombineUrlW, _inet_internetcombineurl_function, wininet.internetcombineurl, wininet/InternetCombineUrl, wininet/InternetCombineUrlA, wininet/InternetCombineUrlW
-f1_keywords:
-- wininet/InternetCombineUrl
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetCombineUrl
-- InternetCombineUrlA
-- InternetCombineUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetCombineUrlA
+ - wininet/InternetCombineUrlA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetCombineUrl
+ - InternetCombineUrlA
+ - InternetCombineUrlW
 ---
 
 # InternetCombineUrlA function
@@ -50,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetcanonicalizeurla">InternetCanonicalizeUrl</a>).
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetcanonicalizeurla">InternetCanonicalizeUrl</a>).
 
 ## -parameters
-
-
-
 
 ### -param lpszBaseUrl [in]
 
 Pointer to a null-terminated string  that contains the base URL.
 
-
 ### -param lpszRelativeUrl [in]
 
 Pointer to a null-terminated string  that contains the relative URL.
-
 
 ### -param lpszBuffer [out]
 
 Pointer to a buffer that receives the combined URL.
 
-
 ### -param lpdwBufferLength [in, out]
 
 Pointer to a variable that contains the size of the 
 <i>lpszBuffer</i> buffer, in characters. If the function succeeds, this parameter receives the size of the combined URL, in characters, not including the null-terminating character. If the function fails, this parameter receives the size of the required buffer, in characters (including the null-terminating character).
-
 
 ### -param dwFlags [in]
 
@@ -157,15 +150,11 @@ Does not remove meta sequences (such as "." and "..") from the URL.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible errors include the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible errors include the following.
 
 <table>
 <tr>
@@ -218,31 +207,22 @@ There is an invalid string, buffer, buffer size, or flags parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The wininet.h header defines InternetCombineUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

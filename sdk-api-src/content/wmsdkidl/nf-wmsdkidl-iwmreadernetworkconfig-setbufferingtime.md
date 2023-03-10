@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetBufferingTime
 title: IWMReaderNetworkConfig::SetBufferingTime (wmsdkidl.h)
 description: The SetBufferingTime method specifies how long the network source buffers data before rendering it.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetBufferingTime method","IWMReaderNetworkConfig.SetBufferingTime","IWMReaderNetworkConfig::SetBufferingTime","IWMReaderNetworkConfigSetBufferingTime","SetBufferingTime","SetBufferingTime method [windows Media Format]","SetBufferingTime method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setbufferingtime","wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime"]
 old-location: wmformat\iwmreadernetworkconfig_setbufferingtime.htm
 tech.root: wmformat
 ms.assetid: 64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],SetBufferingTime method, IWMReaderNetworkConfig.SetBufferingTime, IWMReaderNetworkConfig::SetBufferingTime, IWMReaderNetworkConfigSetBufferingTime, SetBufferingTime, SetBufferingTime method [windows Media Format], SetBufferingTime method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_setbufferingtime, wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.SetBufferingTime
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.SetBufferingTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::SetBufferingTime
+ - wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.SetBufferingTime
 ---
 
 # IWMReaderNetworkConfig::SetBufferingTime
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetBufferingTime</b> method specifies how long the network source buffers data before rendering it.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cnsBufferingTime [in]
 
 Specifies the amount of time in to buffer content before starting playback, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,31 +93,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The minimum buffering time is 1 second and the maximum is 60 seconds. To set a buffering time of 1 second, for example, set the value to 10000000.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getbufferingtime">IWMReaderNetworkConfig::GetBufferingTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getbufferingtime">IWMReaderNetworkConfig::GetBufferingTime</a>

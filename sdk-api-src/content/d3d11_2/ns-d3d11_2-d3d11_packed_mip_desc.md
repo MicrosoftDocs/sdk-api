@@ -1,16 +1,13 @@
 ---
 UID: NS:d3d11_2.D3D11_PACKED_MIP_DESC
 title: D3D11_PACKED_MIP_DESC (d3d11_2.h)
-description: Describes the tile structure of a tiled resource with mipmaps.
+description: Describes the tile structure of a tiled resource with mipmaps. (D3D11_PACKED_MIP_DESC)
+helpviewer_keywords: ["D3D11_PACKED_MIP_DESC","D3D11_PACKED_MIP_DESC structure [Direct3D 11]","d3d11_2/D3D11_PACKED_MIP_DESC","direct3d11.d3d11_packed_mip_desc"]
 old-location: direct3d11\d3d11_packed_mip_desc.htm
 tech.root: direct3d11
 ms.assetid: 1c200c44-6cd6-4e77-8187-54cd6cd79c84
 ms.date: 12/05/2018
 ms.keywords: D3D11_PACKED_MIP_DESC, D3D11_PACKED_MIP_DESC structure [Direct3D 11], d3d11_2/D3D11_PACKED_MIP_DESC, direct3d11.d3d11_packed_mip_desc
-f1_keywords:
-- d3d11_2/D3D11_PACKED_MIP_DESC
-dev_langs:
-- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11_2.h
-api_name:
-- D3D11_PACKED_MIP_DESC
 targetos: Windows
 req.typenames: D3D11_PACKED_MIP_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_PACKED_MIP_DESC
+ - d3d11_2/D3D11_PACKED_MIP_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11_2.h
+api_name:
+ - D3D11_PACKED_MIP_DESC
 ---
 
 # D3D11_PACKED_MIP_DESC structure
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Describes the tile structure of a tiled resource with mipmaps. 
-
+Describes the tile structure of a tiled resource with mipmaps.
 
 ## -struct-fields
 
-
-
-
 ### -field NumStandardMips
 
-Number of standard mipmaps in the tiled resource. 
-
+Number of standard mipmaps in the tiled resource.
 
 ### -field NumPackedMips
 
@@ -76,8 +72,6 @@ are not allowed to be included in the set of packed mipmaps.  On Tier_1 hardware
 dimension less than the standard tile shape may or may not be packed.  When a given mipmap needs to be packed, all coarser 
 mipmaps for a given array slice are considered packed as well.
 
-
-
 ### -field NumTilesForPackedMips
 
 Number of tiles for the packed mipmaps in the tiled resource. 
@@ -89,7 +83,6 @@ The pixel layout within the packed mipmaps is hardware specific.
 If apps define only partial mappings for the set of tiles in packed mipmaps, read and write behavior is vendor specific and undefined.
 For arrays, this value is only the count of packed mipmaps within
 the subresources for each array slice.
-
 
 ### -field StartTileIndexInOverallResource
 
@@ -113,11 +106,4 @@ which of those are packed.</div>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>

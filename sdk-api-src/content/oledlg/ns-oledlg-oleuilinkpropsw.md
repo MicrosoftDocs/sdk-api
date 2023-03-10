@@ -1,16 +1,13 @@
 ---
 UID: NS:oledlg.tagOLEUILINKPROPSW
 title: OLEUILINKPROPSW (oledlg.h)
-description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
+description: Contains information that is used to initialize the Link tab of the Object Properties dialog box. (Unicode)
+helpviewer_keywords: ["*LPOLEUILINKPROPSW","*POLEUILINKPROPSW","LPOLEUILINKPROPS","LPOLEUILINKPROPS structure pointer [COM]","OLEUILINKPROPS","OLEUILINKPROPS structure [COM]","OLEUILINKPROPSA","OLEUILINKPROPSW","POLEUILINKPROPS","POLEUILINKPROPS structure pointer [COM]","_ole_OLEUILINKPROPS","com.oleuilinkprops_struct","oledlg/LPOLEUILINKPROPS","oledlg/OLEUILINKPROPS","oledlg/OLEUILINKPROPSA","oledlg/OLEUILINKPROPSW","oledlg/POLEUILINKPROPS"]
 old-location: com\oleuilinkprops_struct.htm
 tech.root: com
 ms.assetid: 3f355ce8-adc3-4878-a8b4-3f7d94547ef1
 ms.date: 12/05/2018
 ms.keywords: '*LPOLEUILINKPROPSW, *POLEUILINKPROPSW, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS'
-f1_keywords:
-- oledlg/OLEUILINKPROPS
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OleDlg.h
-api_name:
-- OLEUILINKPROPS
-- OLEUILINKPROPSA
-- OLEUILINKPROPSW
 targetos: Windows
 req.typenames: OLEUILINKPROPSW, *POLEUILINKPROPSW, *LPOLEUILINKPROPSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagOLEUILINKPROPSW
+ - oledlg/tagOLEUILINKPROPSW
+ - POLEUILINKPROPSW
+ - oledlg/POLEUILINKPROPSW
+ - OLEUILINKPROPSW
+ - oledlg/OLEUILINKPROPSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OleDlg.h
+api_name:
+ - OLEUILINKPROPS
+ - OLEUILINKPROPSA
+ - OLEUILINKPROPSW
 ---
 
 # OLEUILINKPROPSW structure
@@ -50,61 +56,47 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information that is used to initialize the <b>Link</b> tab of the <b>Object Properties</b> dialog box. A reference to it is passed in as part of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a> function. This tab shows the location, update status, and update time for a link. It allows the user to change the source of the link, toggle its update status between automatic and manual update, open the source, force an update of the link, or break the link (convert it to a static picture).
-
+Contains information that is used to initialize the <b>Link</b> tab of the <b>Object Properties</b> dialog box. A reference to it is passed in as part of the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a> structure to the <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a> function. This tab shows the location, update status, and update time for a link. It allows the user to change the source of the link, toggle its update status between automatic and manual update, open the source, force an update of the link, or break the link (convert it to a static picture).
 
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 The size of the structure, in bytes.
 
-
 ### -field dwFlags
 
 Contains in/out flags specific to the <b>Links</b> page.
-
 
 ### -field dwReserved1
 
 This member is reserved.
 
-
 ### -field lpfnHook
 
 Pointer to the hook callback (not used in this dialog box).
-
 
 ### -field lCustData
 
 Custom data to pass to hook (not used in this dialog box).
 
-
 ### -field dwReserved2
 
 This member is reserved.
-
 
 ### -field lpOP
 
 Used internally.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiobjectpropsa">OLEUIOBJECTPROPS</a>
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuiobjectpropertiesa">OleUIObjectProperties</a>
- 
-
- 
-
+> [!NOTE]
+> The oledlg.h header defines OLEUILINKPROPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

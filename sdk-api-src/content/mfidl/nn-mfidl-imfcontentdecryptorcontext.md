@@ -2,15 +2,12 @@
 UID: NN:mfidl.IMFContentDecryptorContext
 title: IMFContentDecryptorContext (mfidl.h)
 description: Allows a decryptor to manage hardware keys and decrypt hardware samples.
+helpviewer_keywords: ["IMFContentDecryptorContext","IMFContentDecryptorContext interface [Media Foundation]","IMFContentDecryptorContext interface [Media Foundation]","described","mf.imfcontentdecryptorcontext","mfidl/IMFContentDecryptorContext"]
 old-location: mf\imfcontentdecryptorcontext.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 94DB835F-3D2A-4CC8-A1CF-10215E3D30D6
 ms.date: 12/05/2018
 ms.keywords: IMFContentDecryptorContext, IMFContentDecryptorContext interface [Media Foundation], IMFContentDecryptorContext interface [Media Foundation],described, mf.imfcontentdecryptorcontext, mfidl/IMFContentDecryptorContext
-f1_keywords:
-- mfidl/IMFContentDecryptorContext
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.dll
-api_name:
-- IMFContentDecryptorContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFContentDecryptorContext
+ - mfidl/IMFContentDecryptorContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.dll
+api_name:
+ - IMFContentDecryptorContext
 ---
 
 # IMFContentDecryptorContext interface
@@ -48,48 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allows a decryptor to manage hardware keys and decrypt hardware samples.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFContentDecryptorContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFContentDecryptorContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFContentDecryptorContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentdecryptorcontext-initializehardwarekey">InitializeHardwareKey</a>
-</td>
-<td align="left" width="63%">
- Allows the display driver to return IHV-specific information used when initializing a new hardware key. 
-
-</td>
-</tr>
-</table> 
-
+The <b>IMFContentDecryptorContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFContentDecryptorContext</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

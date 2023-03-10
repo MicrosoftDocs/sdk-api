@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpV4FailoverCreateRelationship
 title: DhcpV4FailoverCreateRelationship function (dhcpsapi.h)
 description: Creates a new DHCPv4 failover relationship between two servers.
+helpviewer_keywords: ["DhcpV4FailoverCreateRelationship","DhcpV4FailoverCreateRelationship function [DHCP]","dhcp.dhcpv4failovercreaterelationship","dhcpsapi/DhcpV4FailoverCreateRelationship"]
 old-location: dhcp\dhcpv4failovercreaterelationship.htm
 tech.root: DHCP
 ms.assetid: 6e360dd4-b4a0-4652-8754-17c3c284271c
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverCreateRelationship, DhcpV4FailoverCreateRelationship function [DHCP], dhcp.dhcpv4failovercreaterelationship, dhcpsapi/DhcpV4FailoverCreateRelationship
-f1_keywords:
-- dhcpsapi/DhcpV4FailoverCreateRelationship
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpV4FailoverCreateRelationship
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpV4FailoverCreateRelationship
+ - dhcpsapi/DhcpV4FailoverCreateRelationship
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpV4FailoverCreateRelationship
 ---
 
 # DhcpV4FailoverCreateRelationship function
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpV4FailoverCreateRelationship</b> function creates a new DHCPv4 failover relationship between two servers.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in, optional]
 
 Pointer to a null-terminated Unicode string that represents the IP address or hostname of the DHCP server.
 
-
 ### -param pRelationship [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a> structure that contains information about the DHCPv4 failover relationship to create.
-
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a> structure that contains information about the DHCPv4 failover relationship to create.
 
 ## -returns
 
-
-
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+If the function fails, it returns one of the following or an error code from <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -147,30 +140,19 @@ The maximum number of allowed failover relationship configured on the DHCP serve
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverdeleterelationship">DhcpV4FailoverDeleteRelationship</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverdeleterelationship">DhcpV4FailoverDeleteRelationship</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverenumrelationship">DhcpV4FailoverEnumRelationship</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoverenumrelationship">DhcpV4FailoverEnumRelationship</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovergetrelationship">DhcpV4FailoverGetRelationship</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failovergetrelationship">DhcpV4FailoverGetRelationship</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoversetrelationship">DhcpV4FailoverSetRelationship</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4failoversetrelationship">DhcpV4FailoverSetRelationship</a>

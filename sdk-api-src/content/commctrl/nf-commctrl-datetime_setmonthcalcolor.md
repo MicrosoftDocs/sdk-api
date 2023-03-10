@@ -2,15 +2,12 @@
 UID: NF:commctrl.DateTime_SetMonthCalColor
 title: DateTime_SetMonthCalColor macro (commctrl.h)
 description: Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_SETMCCOLOR message explicitly.
+helpviewer_keywords: ["DateTime_SetMonthCalColor","DateTime_SetMonthCalColor macro [Windows Controls]","MCSC_BACKGROUND","MCSC_MONTHBK","MCSC_TEXT","MCSC_TITLEBK","MCSC_TITLETEXT","MCSC_TRAILINGTEXT","_win32_DateTime_SetMonthCalColor","_win32_DateTime_SetMonthCalColor_cpp","commctrl/DateTime_SetMonthCalColor","controls.DateTime_SetMonthCalColor","controls._win32_DateTime_SetMonthCalColor"]
 old-location: controls\DateTime_SetMonthCalColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_setmonthcalcolor.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_SetMonthCalColor, DateTime_SetMonthCalColor macro [Windows Controls], MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, _win32_DateTime_SetMonthCalColor, _win32_DateTime_SetMonthCalColor_cpp, commctrl/DateTime_SetMonthCalColor, controls.DateTime_SetMonthCalColor, controls._win32_DateTime_SetMonthCalColor
-f1_keywords:
-- commctrl/DateTime_SetMonthCalColor
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_SetMonthCalColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_SetMonthCalColor
+ - commctrl/DateTime_SetMonthCalColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_SetMonthCalColor
 ---
 
 # DateTime_SetMonthCalColor macro
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setmccolor">DTM_SETMCCOLOR</a> message explicitly. 
-
+Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-setmccolor">DTM_SETMCCOLOR</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a DTP control. 
-
+A handle to a DTP control.
 
 ### -param iColor
 
@@ -136,21 +132,13 @@ Set the color used to display header day and trailing day text. Header and trail
 </td>
 </tr>
 </table>
- 
-
 
 ### -param clr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that represents the color that will be set for the specified area of the month calendar. 
-
+A <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that represents the color that will be set for the specified area of the month calendar.
 
 ## -remarks
 
-
-
-When visual styles are enabled, this macro has no effect except when <i>iColor</i> is MCSC_BACKGROUND.	
-
-
-
+When visual styles are enabled, this macro has no effect except when <i>iColor</i> is MCSC_BACKGROUND.

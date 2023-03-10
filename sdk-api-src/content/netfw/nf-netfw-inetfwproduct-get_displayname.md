@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwProduct.get_DisplayName
 title: INetFwProduct::get_DisplayName (netfw.h)
-description: Indicates the display name for a third-party firewall product registration.
+description: Indicates the display name for a third-party firewall product registration. (Get)
+helpviewer_keywords: ["DisplayName property [ICS/ICF]","DisplayName property [ICS/ICF]","INetFwProduct interface","INetFwProduct interface [ICS/ICF]","DisplayName property","INetFwProduct.DisplayName","INetFwProduct.get_DisplayName","INetFwProduct::DisplayName","INetFwProduct::get_DisplayName","INetFwProduct::put_DisplayName","get_DisplayName","ics.inetfwproduct_displayname","netfw/INetFwProduct::DisplayName","netfw/INetFwProduct::get_DisplayName","netfw/INetFwProduct::put_DisplayName"]
 old-location: ics\inetfwproduct_displayname.htm
 tech.root: ics
 ms.assetid: 9750a57c-d59c-4cc9-b31e-7d532d19f9fe
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [ICS/ICF], DisplayName property [ICS/ICF],INetFwProduct interface, INetFwProduct interface [ICS/ICF],DisplayName property, INetFwProduct.DisplayName, INetFwProduct.get_DisplayName, INetFwProduct::DisplayName, INetFwProduct::get_DisplayName, INetFwProduct::put_DisplayName, get_DisplayName, ics.inetfwproduct_displayname, netfw/INetFwProduct::DisplayName, netfw/INetFwProduct::get_DisplayName, netfw/INetFwProduct::put_DisplayName
-f1_keywords:
-- netfw/INetFwProduct.DisplayName
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwProduct.DisplayName
-- INetFwProduct.get_DisplayName
-- INetFwProduct.put_DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwProduct::get_DisplayName
+ - netfw/INetFwProduct::get_DisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwProduct.DisplayName
+ - INetFwProduct.get_DisplayName
+ - INetFwProduct.put_DisplayName
 ---
 
 # INetFwProduct::get_DisplayName
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the display name for a third-party firewall product registration.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>

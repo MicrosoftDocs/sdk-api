@@ -2,15 +2,12 @@
 UID: NF:winsync.IConstructReplicaKeyMap.FindOrAddReplica
 title: IConstructReplicaKeyMap::FindOrAddReplica (winsync.h)
 description: Adds entries to or finds entries in an IReplicaKeyMap object.
+helpviewer_keywords: ["FindOrAddReplica","FindOrAddReplica method [Windows Sync]","FindOrAddReplica method [Windows Sync]","IConstructReplicaKeyMap interface","IConstructReplicaKeyMap interface [Windows Sync]","FindOrAddReplica method","IConstructReplicaKeyMap.FindOrAddReplica","IConstructReplicaKeyMap::FindOrAddReplica","winsync.iconstructreplicakeymap_findoraddreplica","winsync/IConstructReplicaKeyMap::FindOrAddReplica"]
 old-location: winsync\iconstructreplicakeymap_findoraddreplica.htm
 tech.root: winsync
 ms.assetid: 10cf616c-a082-4a74-99bb-1b0b364291e5
 ms.date: 12/05/2018
 ms.keywords: FindOrAddReplica, FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync],IConstructReplicaKeyMap interface, IConstructReplicaKeyMap interface [Windows Sync],FindOrAddReplica method, IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
-f1_keywords:
-- winsync/IConstructReplicaKeyMap.FindOrAddReplica
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IConstructReplicaKeyMap.FindOrAddReplica
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConstructReplicaKeyMap::FindOrAddReplica
+ - winsync/IConstructReplicaKeyMap::FindOrAddReplica
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IConstructReplicaKeyMap.FindOrAddReplica
 ---
 
 # IConstructReplicaKeyMap::FindOrAddReplica
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds entries to or finds entries in an <b>IReplicaKeyMap</b> object.
 
-
 ## -parameters
-
-
-
 
 ### -param pbReplicaId [in]
 
 The ID of the replica to add or find.
 
-
 ### -param pdwReplicaKey [out]
 
 The key of the replica in the map. If an entry for <i>pbReplicaId</i> does not exist in the map, an entry is created and a new key is assigned to it.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,18 +105,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iconstructreplicakeymap">IConstructReplicaKeyMap Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iconstructreplicakeymap">IConstructReplicaKeyMap Interface</a>

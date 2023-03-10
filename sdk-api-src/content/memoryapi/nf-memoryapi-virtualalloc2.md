@@ -1,16 +1,13 @@
 ---
 UID: NF:memoryapi.VirtualAlloc2
 title: VirtualAlloc2 function (memoryapi.h)
-description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
+description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero. (VirtualAlloc2)
+helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MEM_RESERVE_PLACEHOLDER","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","VirtualAlloc2","VirtualAlloc2 function","base.virtualalloc2","memoryapi/VirtualAlloc2"]
 old-location: base\virtualalloc2.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 5021062F-E414-49A1-8B70-BE2A57A90E54
-ms.date: 12/05/2018
+ms.date: 5/18/2022
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MEM_RESERVE_PLACEHOLDER, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, VirtualAlloc2, VirtualAlloc2 function, base.virtualalloc2, memoryapi/VirtualAlloc2
-f1_keywords:
-- memoryapi/VirtualAlloc2
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -25,23 +22,28 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- onecore.lib
-api_name:
-- VirtualAlloc2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualAlloc2
+ - memoryapi/VirtualAlloc2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - onecore.lib
+api_name:
+ - VirtualAlloc2
 ---
 
 # VirtualAlloc2 function
@@ -49,19 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Reserves, commits, or changes the state  of a region of memory within the virtual address space of a specified process. The 
-    function initializes the memory it allocates to zero.
-
-Using this function, you can: for new allocations, specify a range of virtual address space and a power-of-2 alignment restriction; specify an arbitrary number of extended parameters; specify a preferred NUMA node for the physical memory as an extended parameter; and specify a placeholder operation (specifically, replacement).
-
-To specify the NUMA node, see the <i>ExtendedParameters</i> parameter.
-
+Reserves, commits, or changes the state  of a region of memory within the virtual address space of a specified process (allocated memory is initialized to zero).
 
 ## -parameters
-
-
-
 
 ### -param Process [in, optional]
 
@@ -69,23 +61,23 @@ The handle to a process. The function allocates memory within the virtual addres
 
 The handle must have the <b>PROCESS_VM_OPERATION</b> access right. For more information, 
        see 
-       <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+       <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
+If <i>Process</i> is <b>NULL</b>, the function allocates memory for the calling process.
 
 ### -param BaseAddress [in, optional]
 
 The pointer that specifies a desired starting address for the region of pages that you want to allocate.
 
  If an explicit base address is specified, then it must be a multiple of the system allocation granularity. To determine the size of a page and the allocation granularity on the host computer, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
+       <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
 
 If <i>BaseAddress</i> is <b>NULL</b>, the function determines where to 
        allocate the region.
 
-If this address is within an enclave that you have not initialized by calling <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>, <b>VirtualAlloc2</b> allocates a page of zeros for the enclave at that address. The page must be previously uncommitted, and will not be measured with the EEXTEND instruction of the Intel Software Guard Extensions programming model. 
+If this address is within an enclave that you have not initialized by calling <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>, <b>VirtualAlloc2</b> allocates a page of zeros for the enclave at that address. The page must be previously uncommitted, and will not be measured with the EEXTEND instruction of the Intel Software Guard Extensions programming model.
 
-If the address in within an enclave that you initialized, then the allocation operation fails with the <b>ERROR_INVALID_ADDRESS</b> error.
-
+If the address in within an enclave that you initialized, then the allocation operation fails with the **ERROR_INVALID_ADDRESS** error. That is true for enclaves that do not support dynamic memory management (i.e. SGX1). SGX2 enclaves will permit allocation, and the page must be accepted by the enclave after it has been allocated.
 
 ### -param Size [in]
 
@@ -97,7 +89,6 @@ If <i>BaseAddress</i> is not <b>NULL</b>, the function allocates all
        pages that contain one or more bytes in the range from <i>BaseAddress</i> to 
        <i>BaseAddress</i>+<i>Size</i>. This means, for example, that a 2-byte 
        range that straddles a page boundary causes the function to allocate both pages.
-
 
 ### -param AllocationType [in]
 
@@ -152,7 +143,7 @@ You commit reserved pages by calling
          <code>MEM_COMMIT | MEM_RESERVE</code>.
 
 Other memory allocation functions, such as <b>malloc</b> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>, cannot use reserved memory until it has 
+         <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>, cannot use reserved memory until it has 
         been released.
 
 </td>
@@ -166,7 +157,7 @@ Other memory allocation functions, such as <b>malloc</b> and
 <td width="60%">
  Replaces a placeholder with a normal private allocation. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>Size</i> must exactly match those of the placeholder.
 
-After you replace a placeholder with a private allocation, to free that allocation back to a placeholder, see the <i>dwFreeType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> and <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>.
+After you replace a placeholder with a private allocation, to free that allocation back to a placeholder, see the <i>dwFreeType</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>.
 
 A placeholder is a type of reserved memory region.
 
@@ -181,7 +172,7 @@ A placeholder is a type of reserved memory region.
 <td width="60%">
  To create a placeholder, call 
          <b>VirtualAlloc2</b> with 
-         <code>MEM_RESERVE | MEM_RESERVE_PLACEHOLDER</code> and <i>PageProtection</i> set to <b>PAGE_NOACCESS</b>. To free/split/coalesce a placeholder, see the <i>dwFreeType</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> and <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>.
+         <code>MEM_RESERVE | MEM_RESERVE_PLACEHOLDER</code> and <i>PageProtection</i> set to <b>PAGE_NOACCESS</b>. To free/split/coalesce a placeholder, see the <i>dwFreeType</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>.
 
 A placeholder is a type of reserved memory region.
 
@@ -256,10 +247,10 @@ This parameter can also specify the following values as indicated.
 </dl>
 </td>
 <td width="60%">
-Allocates memory using <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>.
+Allocates memory using <a href="/windows/desktop/Memory/large-page-support">large page support</a>.
 
 The size and alignment must be a multiple of the large-page minimum. To obtain this value, use the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function.
+         <a href="/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function.
 
 If you specify this value, you must also specify <b>MEM_RESERVE</b> and <b>MEM_COMMIT</b>.
 
@@ -273,7 +264,7 @@ If you specify this value, you must also specify <b>MEM_RESERVE</b> and <b>MEM_C
 </td>
 <td width="60%">
 Reserves an address range that can be used to map 
-         <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) 
+         <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) 
          pages.
 
 This value must be used with <b>MEM_RESERVE</b> and no other values.
@@ -293,54 +284,47 @@ Allocates memory at the highest possible address. This can be slower than regula
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PageProtection [in]
 
-The memory protection for the region of pages to be allocated. If the pages are being committed, you can 
-      specify any one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>.
+The memory protection for the region of pages to be allocated. If the pages are being committed, you can specify any one of the [memory protection constants](/windows/win32/Memory/memory-protection-constants).
 
-If <i>BaseAddress</i> specifies an address within an enclave, <i>PageProtection</i> cannot be any of the following values:
+If _BaseAddress_ specifies an address within an enclave, _PageProtection_ cannot be any of the following values:
 
-<ul>
-<li>PAGE_NOACCESS</li>
-<li>PAGE_GUARD</li>
-<li>PAGE_NOCACHE</li>
-<li>PAGE_WRITECOMBINE</li>
-</ul>
+- PAGE_NOACCESS
+- PAGE_GUARD
+- PAGE_NOCACHE
+- PAGE_WRITECOMBINE
+
+When allocating dynamic memory for an enclave, the _PageProtection_ parameter must be **PAGE_READWRITE** or **PAGE_EXECUTE_READWRITE**.
 
 ### -param ExtendedParameters [in, out, optional]
 
-An optional pointer to one or more  extended parameters of type <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
-
+An optional pointer to one or more extended parameters of type <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
 ### -param ParameterCount [in]
 
 The number of extended parameters pointed to by <i>ExtendedParameters</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the base address of the allocated region of pages.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+This function lets you specify:
+
+- a range of virtual address space and a power-of-2 alignment restriction for new allocations
+- an arbitrary number of extended parameters
+- a preferred NUMA node for the physical memory as an extended parameter (see the <i>ExtendedParameters</i> parameter)
+- a placeholder operation (specifically, replacement).
+
+This API provides specialized techniques for managing virtual memory in support of high-performance games and server applications. For example, placeholders allow a reserved memory range to be explicitly partitioned, overlaid, and re-mapped; this can be used to implement arbitrarily extendable regions or virtual memory ring buffers. <b>VirtualAlloc2</b> also allows for allocating memory with a specific memory-alignment.
 
 
-This API helps support high-performance games, and server applications, which have particular requirements around managing their virtual address space. For example, mapping memory on top of a previously reserved region; this is useful for implementing an automatically wrapping ring buffer. And allocating memory with specific alignment; for example, to enable your application to commit large/huge page-mapped regions on demand.
-
-
-Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/Memory/page-state">page state</a>. The 
+Each page has an associated <a href="/windows/desktop/Memory/page-state">page state</a>. The 
      <b>VirtualAlloc2</b> function can perform the following 
      operations:
 
@@ -349,14 +333,15 @@ Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/
 <li>Reserve a region of free pages</li>
 <li>Simultaneously reserve and commit a region of free pages</li>
 </ul>
-<b>VirtualAlloc2</b> cannot reserve a reserved page. It 
-    can commit a page that is already committed. This means you can commit a range of pages, regardless of whether 
-    they have already been committed, and the function will not fail.
 
-You can use <b>VirtualAlloc2</b> to reserve a block of 
-    pages and then make additional calls to <b>VirtualAlloc2</b> 
-    to commit individual pages from the reserved block. This enables a process to reserve a range of its virtual 
-    address space without consuming physical storage until it is needed.
+<b>VirtualAlloc2</b> can commit pages that are already committed, but cannot reserve pages that are already reserved.
+    This means you can commit a range of pages, regardless of whether they have already been committed, and the function will not 
+    fail. In general however, only a minimal range of mostly uncommitted pages should be specified, because committing 
+    a large number of pages that are already committed can cause the <b>VirtualAlloc2</b> call to take much longer.
+
+You can use <b>VirtualAlloc2</b> to reserve a block of pages and then make additional calls to <b>VirtualAlloc2</b> to 
+    commit individual pages from the reserved block. This enables a process to reserve a range of its virtual address 
+    space without consuming physical storage until it is needed.
 
 If the <i>lpAddress</i> parameter is not <b>NULL</b>, the function uses 
     the <i>lpAddress</i> and <i>dwSize</i> parameters to compute the region of 
@@ -367,24 +352,24 @@ If the <i>lpAddress</i> parameter is not <b>NULL</b>, the function uses
 
 To execute dynamically generated code, use 
     <b>VirtualAlloc2</b> to allocate memory, and the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a> function to grant 
+    <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a> function to grant 
     <b>PAGE_EXECUTE</b> access.
 
 The <b>VirtualAlloc2</b> function can be used to reserve 
-    an <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> 
+    an <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> 
     (AWE) region of memory within the virtual address space of a specified process. This region of memory can then be 
     used to map physical pages into and out of virtual memory as required by the application. The 
     <b>MEM_PHYSICAL</b> and <b>MEM_RESERVE</b> values must be set in the 
     <i>AllocationType</i> parameter. The <b>MEM_COMMIT</b> value must not be 
     set. The page protection must be set to <b>PAGE_READWRITE</b>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function can decommit a committed 
+The <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function can decommit a committed 
     page, releasing the page's storage, or it can simultaneously decommit and release a committed page. It can also 
     release a reserved page, making it a free page.
 
 When creating a region that will be executable, the calling program bears responsibility for ensuring cache 
     coherency via an appropriate call to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache">FlushInstructionCache</a> once the code has been set 
+    <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache">FlushInstructionCache</a> once the code has been set 
     in place. Otherwise attempts to execute code out of the newly executable region may produce unpredictable 
     results.
 
@@ -642,49 +627,22 @@ AllocateAlignedBelow2GB (size_t size, size_t alignment)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
 
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocexnuma">VirtualAllocExNuma</a>
 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect">VirtualProtect</a>
 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocexnuma">VirtualAllocExNuma</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect">VirtualProtect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory">WriteProcessMemory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-writeprocessmemory">WriteProcessMemory</a>

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFPresentationClock.GetTimeSource
 title: IMFPresentationClock::GetTimeSource (mfidl.h)
 description: Retrieves the clock's presentation time source.
+helpviewer_keywords: ["GetTimeSource","GetTimeSource method [Media Foundation]","GetTimeSource method [Media Foundation]","IMFPresentationClock interface","IMFPresentationClock interface [Media Foundation]","GetTimeSource method","IMFPresentationClock.GetTimeSource","IMFPresentationClock::GetTimeSource","e6b6851b-f5b3-40c2-9160-59f2a68c9131","mf.imfpresentationclock_gettimesource","mfidl/IMFPresentationClock::GetTimeSource"]
 old-location: mf\imfpresentationclock_gettimesource.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e6b6851b-f5b3-40c2-9160-59f2a68c9131
 ms.date: 12/05/2018
 ms.keywords: GetTimeSource, GetTimeSource method [Media Foundation], GetTimeSource method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],GetTimeSource method, IMFPresentationClock.GetTimeSource, IMFPresentationClock::GetTimeSource, e6b6851b-f5b3-40c2-9160-59f2a68c9131, mf.imfpresentationclock_gettimesource, mfidl/IMFPresentationClock::GetTimeSource
-f1_keywords:
-- mfidl/IMFPresentationClock.GetTimeSource
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFPresentationClock.GetTimeSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPresentationClock::GetTimeSource
+ - mfidl/IMFPresentationClock::GetTimeSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFPresentationClock.GetTimeSource
 ---
 
 # IMFPresentationClock::GetTimeSource
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the clock's presentation time source.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppTimeSource [out]
 
-Receives a pointer to the time source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a> interface. The caller must release the interface.
-
+Receives a pointer to the time source's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,22 +91,11 @@ No time source was set on this clock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

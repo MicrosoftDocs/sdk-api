@@ -2,15 +2,12 @@
 UID: NF:mileffects.IMILBitmapEffectImpl.GetInputSource
 title: IMILBitmapEffectImpl::GetInputSource (mileffects.h)
 description: Retrieves the input IWICBitmapSource Interface.
+helpviewer_keywords: ["GetInputSource","GetInputSource method [WPF Bitmap Effects]","GetInputSource method [WPF Bitmap Effects]","IMILBitmapEffectImpl interface","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","GetInputSource method","IMILBitmapEffectImpl.GetInputSource","IMILBitmapEffectImpl::GetInputSource","_wibe_imilbitmapeffectimpl_getinputsource","mileffects/IMILBitmapEffectImpl::GetInputSource","wibe._wibe_imilbitmapeffectimpl_getinputsource"]
 old-location: wibe\_wibe_imilbitmapeffectimpl_getinputsource.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputsource.htm
 ms.date: 12/05/2018
 ms.keywords: GetInputSource, GetInputSource method [WPF Bitmap Effects], GetInputSource method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, IMILBitmapEffectImpl interface [WPF Bitmap Effects],GetInputSource method, IMILBitmapEffectImpl.GetInputSource, IMILBitmapEffectImpl::GetInputSource, _wibe_imilbitmapeffectimpl_getinputsource, mileffects/IMILBitmapEffectImpl::GetInputSource, wibe._wibe_imilbitmapeffectimpl_getinputsource
-f1_keywords:
-- mileffects/IMILBitmapEffectImpl.GetInputSource
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.h
-api_name:
-- IMILBitmapEffectImpl.GetInputSource
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffectImpl::GetInputSource
+ - mileffects/IMILBitmapEffectImpl::GetInputSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.h
+api_name:
+ - IMILBitmapEffectImpl.GetInputSource
 ---
 
 # IMILBitmapEffectImpl::GetInputSource
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the input <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource Interface</a>.
-
+Retrieves the input <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource Interface</a>.
 
 ## -parameters
-
-
-
 
 ### -param uiIndex [in]
 
@@ -63,21 +60,14 @@ Type: <b>ULONG</b>
 
 The index of the input source.
 
-
 ### -param ppBitmapSource [out, retval]
 
 Type: <b>IWICBitmapSource**</b>
 
 A pointer that receives a pointer to the input bitmap source.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

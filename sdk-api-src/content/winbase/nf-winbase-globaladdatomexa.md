@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GlobalAddAtomExA
 title: GlobalAddAtomExA function (winbase.h)
-description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.
+description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string. (GlobalAddAtomExA)
+helpviewer_keywords: ["GlobalAddAtomExA", "winbase/GlobalAddAtomExA"]
 old-location: dataxchg\globaladdatomex.htm
 tech.root: dataxchg
 ms.assetid: C5D982F5-94A9-4B08-AE07-8F40E4128123
 ms.date: 12/05/2018
 ms.keywords: GlobalAddAtomEx, GlobalAddAtomEx function [Data Exchange], GlobalAddAtomExA, GlobalAddAtomExW, dataxchg.globaladdatomex, winbase/GlobalAddAtomEx, winbase/GlobalAddAtomExA, winbase/GlobalAddAtomExW
-f1_keywords:
-- winbase/GlobalAddAtomEx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- GlobalAddAtomEx
-- GlobalAddAtomExA
-- GlobalAddAtomExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalAddAtomExA
+ - winbase/GlobalAddAtomExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - GlobalAddAtomEx
+ - GlobalAddAtomExA
+ - GlobalAddAtomExW
 ---
 
 # GlobalAddAtomExA function
@@ -50,43 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.
-
 
 ## -parameters
 
-
-
-
 ### -param lpString [in, optional]
 
-The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings that differ only in case are considered identical. The case of the first string of this name added to the table is preserved and returned by the <a href="https://msdn.microsoft.com/7ba8ea4d-7efe-4eb3-afea-c84ab6cacaea">GlobalGetAtomName</a> function.
+The null-terminated string to be added. The string can have a maximum size of 255 bytes. Strings that differ only in case are considered identical. The case of the first string of this name added to the table is preserved and returned by the <a href="/windows/win32/api/winbase/nf-winbase-globalgetatomnamea">GlobalGetAtomName</a> function.
 
-Alternatively, you can use an integer atom that has been converted using the <a href="https://msdn.microsoft.com/11270568-ef0e-4bed-9e07-cb62773178ff">MAKEINTATOM</a> macro. See the Remarks for more information. 
-
+Alternatively, you can use an integer atom that has been converted using the <a href="/windows/win32/api/winbase/nf-winbase-makeintatom">MAKEINTATOM</a> macro. See the Remarks for more information.
 
 ### -param Flags [in]
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the newly created atom.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/win32/api/winbase/nf-winbase-globaladdatoma">GlobalAddAtom</a>
 
+## -remarks
 
-
-<a href="https://msdn.microsoft.com/890c8c69-5a8e-42be-9eaf-84f9ccaa7e3d">GlobalAddAtom</a>
- 
-
- 
-
+> [!NOTE]
+> The winbase.h header defines GlobalAddAtomEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NS:sspi._SecPkgContext_DceInfo
 title: SecPkgContext_DceInfo (sspi.h)
 description: The SecPkgContext_DceInfo structure contains authorization data used by DCE services. The QueryContextAttributes (General) function uses this structure.
+helpviewer_keywords: ["*PSecPkgContext_DceInfo","PSecPkgContext_DceInfo","PSecPkgContext_DceInfo structure pointer [Security]","SecPkgContext_DceInfo","SecPkgContext_DceInfo structure [Security]","_ssp_secpkgcontext_dceinfo","security.secpkgcontext_dceinfo","sspi/PSecPkgContext_DceInfo","sspi/SecPkgContext_DceInfo"]
 old-location: security\secpkgcontext_dceinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_DceInfo, PSecPkgContext_DceInfo, PSecPkgContext_DceInfo structure pointer [Security], SecPkgContext_DceInfo, SecPkgContext_DceInfo structure [Security], _ssp_secpkgcontext_dceinfo, security.secpkgcontext_dceinfo, sspi/PSecPkgContext_DceInfo, sspi/SecPkgContext_DceInfo'
-f1_keywords:
-- sspi/SecPkgContext_DceInfo
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgContext_DceInfo
 targetos: Windows
 req.typenames: SecPkgContext_DceInfo, *PSecPkgContext_DceInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_DceInfo
+ - sspi/_SecPkgContext_DceInfo
+ - PSecPkgContext_DceInfo
+ - sspi/PSecPkgContext_DceInfo
+ - SecPkgContext_DceInfo
+ - sspi/SecPkgContext_DceInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgContext_DceInfo
 ---
 
 # SecPkgContext_DceInfo structure
@@ -48,33 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SecPkgContext_DceInfo</b> structure contains authorization data used by DCE services. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field AuthzSvc
 
 Specifies the authorization service used. For DCE use only.
 
-
 ### -field pPac
 
 Pointer to package-specific authorization data.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>

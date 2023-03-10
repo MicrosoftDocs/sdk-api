@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAnalogVideoDecoder.put_OutputEnable
 title: IAMAnalogVideoDecoder::put_OutputEnable (strmif.h)
 description: The put_OutputEnable method enables or disables the video port bus.
+helpviewer_keywords: ["IAMAnalogVideoDecoder interface [DirectShow]","put_OutputEnable method","IAMAnalogVideoDecoder.put_OutputEnable","IAMAnalogVideoDecoder::put_OutputEnable","IAMAnalogVideoDecoderput_OutputEnable","dshow.iamanalogvideodecoder_put_outputenable","put_OutputEnable","put_OutputEnable method [DirectShow]","put_OutputEnable method [DirectShow]","IAMAnalogVideoDecoder interface","strmif/IAMAnalogVideoDecoder::put_OutputEnable"]
 old-location: dshow\iamanalogvideodecoder_put_outputenable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 93163db3-ea9a-4383-b382-7d574ef24dfc
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_OutputEnable method, IAMAnalogVideoDecoder.put_OutputEnable, IAMAnalogVideoDecoder::put_OutputEnable, IAMAnalogVideoDecoderput_OutputEnable, dshow.iamanalogvideodecoder_put_outputenable, put_OutputEnable, put_OutputEnable method [DirectShow], put_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_OutputEnable
-f1_keywords:
-- strmif/IAMAnalogVideoDecoder.put_OutputEnable
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAnalogVideoDecoder.put_OutputEnable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAnalogVideoDecoder::put_OutputEnable
+ - strmif/IAMAnalogVideoDecoder::put_OutputEnable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAnalogVideoDecoder.put_OutputEnable
 ---
 
 # IAMAnalogVideoDecoder::put_OutputEnable
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_OutputEnable</code> method enables or disables the video port bus.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lOutputEnable [in]
 
@@ -81,12 +75,8 @@ Specifies whether the bus is enabled. Use one of the following values.
 <td>Enable the video port bus.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -118,31 +108,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to devices that use a shared video port bus. If the value is 1, the device will actively drive the video port bus. If the value is zero, the device will be tri-stated.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>

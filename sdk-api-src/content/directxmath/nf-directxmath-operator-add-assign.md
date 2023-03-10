@@ -2,13 +2,11 @@
 UID: NF:directxmath.operator-add-assign
 title: operator+=
 description: Adds a floating point value to an XMVECTOR instance, and returns a reference to the updated instance.
+tech.root: dxmath
+helpviewer_keywords: ["operator+="]
 ms.assetid: 2e3873c5-2871-49b5-ac2d-4da0d84aa169
 ms.date: 05/13/2019
 ms.keywords: operator+=
-f1_keywords:
-- directxmath/operator+=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,23 +27,28 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - operator+=
+ - directxmath/operator+=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- operator+=
+ - operator+=
 ---
 
 # XMVECTOR::operator +=
+
 
 ## -description
 
 Adds a floating point value to an **XMVECTOR** instance, and returns a reference to the updated instance.
 
-The `operator +=` adds a specified floating point value to each component of the current instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>, returning a reference to the updated current instance.
+The `operator +=` adds a specified floating point value to each component of the current instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>, returning a reference to the updated current instance.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -77,4 +80,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

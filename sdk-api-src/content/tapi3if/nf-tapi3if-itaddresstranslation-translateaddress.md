@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITAddressTranslation.TranslateAddress
 title: ITAddressTranslation::TranslateAddress (tapi3if.h)
 description: The TranslateAddress method creates the address translation information interface.
+helpviewer_keywords: ["ITAddressTranslation interface [TAPI 2.2]","TranslateAddress method","ITAddressTranslation.TranslateAddress","ITAddressTranslation::TranslateAddress","TranslateAddress","TranslateAddress method [TAPI 2.2]","TranslateAddress method [TAPI 2.2]","ITAddressTranslation interface","_tapi3_itaddresstranslation_translateaddress","tapi3.itaddresstranslation_translateaddress","tapi3if/ITAddressTranslation::TranslateAddress"]
 old-location: tapi3\itaddresstranslation_translateaddress.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 14e51de8-33fd-4de0-bc1c-5f8085ea095c
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation interface [TAPI 2.2],TranslateAddress method, ITAddressTranslation.TranslateAddress, ITAddressTranslation::TranslateAddress, TranslateAddress, TranslateAddress method [TAPI 2.2], TranslateAddress method [TAPI 2.2],ITAddressTranslation interface, _tapi3_itaddresstranslation_translateaddress, tapi3.itaddresstranslation_translateaddress, tapi3if/ITAddressTranslation::TranslateAddress
-f1_keywords:
-- tapi3if/ITAddressTranslation.TranslateAddress
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddressTranslation.TranslateAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddressTranslation::TranslateAddress
+ - tapi3if/ITAddressTranslation::TranslateAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddressTranslation.TranslateAddress
 ---
 
 # ITAddressTranslation::TranslateAddress
@@ -48,45 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TranslateAddress</b> method creates the address translation information interface. The primary goal of the 
-<b>TranslateAddress</b> method is to obtain the <i>pDestAddress</i> string (<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">dialable address</a>) needed as a parameter for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>. The 
+<b>TranslateAddress</b> method is to obtain the <i>pDestAddress</i> string (<a href="/windows/desktop/Tapi/address-ovr">dialable address</a>) needed as a parameter for 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>. The 
 <b>TranslateAddress</b> method returns the dialable address indirectly, as one of the properties of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a> object.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a> object.
 
 ## -parameters
-
-
-
 
 ### -param pAddressToTranslate [in]
 
 Pointer to <b>BSTR</b> containing address that requires translation.
 
-
 ### -param lCard [in]
 
 Calling card used for translation.
 
-
 ### -param lTranslateOptions [in]
 
 Indicator of translation options, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetranslateoption--constants">LINETRANSLATEOPTION__Constants</a>.
-
+<a href="/windows/desktop/Tapi/linetranslateoption--constants">LINETRANSLATEOPTION__Constants</a>.
 
 ### -param ppTranslated [out]
 
 Pointer to newly created 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a> interface.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -206,45 +197,29 @@ The card number is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for <i>pAddressToTranslate</i> and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for <i>pAddressToTranslate</i> and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 The 
 <b>TranslateAddress</b> method is a COM wrapper for the TAPI 2.1 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">LineTranslateAddress</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">LineTranslateAddress</a> function.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a> interface returned by <b>TranslateAddress</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a> interface returned by <b>TranslateAddress</b>. The application must call <b>Release</b> on the 
 <b>ITAddressTranslationInfo</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>

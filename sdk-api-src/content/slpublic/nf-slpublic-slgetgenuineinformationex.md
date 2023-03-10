@@ -1,16 +1,13 @@
 ---
 UID: NF:slpublic.SLGetGenuineInformationEx
 title: SLGetGenuineInformationEx function (slpublic.h)
-description: Specifies information about the genuine status of a Windows computer.
+description: Specifies information about the genuine status of a Windows computer. (SLGetGenuineInformationEx)
+helpviewer_keywords: ["SLGetGenuineInformationEx","SLGetGenuineInformationEx function [Security]","security.slgetgenuineinformationex","slpublic/SLGetGenuineInformationEx"]
 old-location: security\slgetgenuineinformationex.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 229fd8f2-ec8c-4f34-a492-caf18e036b70
 ms.date: 12/05/2018
 ms.keywords: SLGetGenuineInformationEx, SLGetGenuineInformationEx function [Security], security.slgetgenuineinformationex, slpublic/SLGetGenuineInformationEx
-f1_keywords:
-- slpublic/SLGetGenuineInformationEx
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetGenuineInformationEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetGenuineInformationEx
+ - slpublic/SLGetGenuineInformationEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetGenuineInformationEx
 ---
 
 # SLGetGenuineInformationEx function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies information about the genuine status of a Windows computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pAppId [in]
 
@@ -63,20 +60,17 @@ Type: <b>const SLID*</b>
 
 A pointer to the application ID.
 
-
 ### -param pwszValueName [in]
 
 Type: <b>PCWSTR</b>
 
 The name associated with the value of the property to set.
 
-
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the data type in the <i>ppbValue</i> buffer.
-
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the data type in the <i>ppbValue</i> buffer.
 
 ### -param pcbValue [out]
 
@@ -84,17 +78,13 @@ Type: <b>UINT*</b>
 
 A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
-
 ### -param ppbValue [out]
 
 Type: <b>BYTE**</b>
 
-A pointer to the genuine status retrieved.  When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
+A pointer to the genuine status retrieved.  When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -142,7 +132,3 @@ The application licensing state is non-genuine.
 </td>
 </tr>
 </table>
- 
-
-
-

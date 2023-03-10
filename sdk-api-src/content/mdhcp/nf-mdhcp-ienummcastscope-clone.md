@@ -1,16 +1,13 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Clone
 title: IEnumMcastScope::Clone (mdhcp.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. (IEnumMcastScope.Clone)
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumMcastScope interface","IEnumMcastScope interface [TAPI 2.2]","Clone method","IEnumMcastScope.Clone","IEnumMcastScope::Clone","_tapi3_ienummcastscope_clone","mdhcp/IEnumMcastScope::Clone","tapi3.ienummcastscope_clone"]
 old-location: tapi3\ienummcastscope_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 96b2a09f-8a02-471d-a738-f81a8132e0c1
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastScope interface, IEnumMcastScope interface [TAPI 2.2],Clone method, IEnumMcastScope.Clone, IEnumMcastScope::Clone, _tapi3_ienummcastscope_clone, mdhcp/IEnumMcastScope::Clone, tapi3.ienummcastscope_clone
-f1_keywords:
-- mdhcp/IEnumMcastScope.Clone
-dev_langs:
-- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mdhcp.dll
-api_name:
-- IEnumMcastScope.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumMcastScope::Clone
+ - mdhcp/IEnumMcastScope::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mdhcp.dll
+api_name:
+ - IEnumMcastScope.Clone
 ---
 
 # IEnumMcastScope::Clone
@@ -48,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to the new 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a> object.
-
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a> object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,29 +117,13 @@ Failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a> interface returned by <b>IEnumMcastScope::Clone</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a> interface returned by <b>IEnumMcastScope::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumMcastScope</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a>

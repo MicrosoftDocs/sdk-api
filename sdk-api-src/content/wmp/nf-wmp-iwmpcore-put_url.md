@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCore.put_URL
 title: IWMPCore::put_URL (wmp.h)
 description: The put_URL method specifies the URL of the media item to play.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","put_URL method","IWMPCore.put_URL","IWMPCore::put_URL","IWMPCoreput_URL","put_URL","put_URL method [Windows Media Player]","put_URL method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_put_url","wmp/IWMPCore::put_URL"]
 old-location: wmp\iwmpcore_put_url.htm
 tech.root: WMP
 ms.assetid: 0a8625b9-19a1-41dc-9bb8-afca4bfebf5a
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_URL method, IWMPCore.put_URL, IWMPCore::put_URL, IWMPCoreput_URL, put_URL, put_URL method [Windows Media Player], put_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_url, wmp/IWMPCore::put_URL
-f1_keywords:
-- wmp/IWMPCore.put_URL
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCore.put_URL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCore::put_URL
+ - wmp/IWMPCore::put_URL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCore.put_URL
 ---
 
 # IWMPCore::put_URL
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_URL</b> method specifies the URL of the media item to play.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrURL [in]
 
 <b>BSTR</b> containing the URL.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can only be used to set a URL in a security zone that is the same or is less restrictive than the security zone of the calling program or webpage.
 
@@ -103,20 +88,10 @@ Applications that open media items from behind a firewall will have better perfo
 
 Do not call this method from event handler code as it may yield unexpected results.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_url">IWMPCore::get_URL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_url">IWMPCore::get_URL</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetAcHuffmanTable
 title: IWICJpegFrameDecode::GetAcHuffmanTable (wincodec.h)
-description: Retrieves a copy of the AC Huffman table for the specified scan and table.
+description: Retrieves a copy of the AC Huffman table for the specified scan and table. (IWICJpegFrameDecode.GetAcHuffmanTable)
+helpviewer_keywords: ["GetAcHuffmanTable","GetAcHuffmanTable method [Windows Imaging Component]","GetAcHuffmanTable method [Windows Imaging Component]","IWICJpegFrameDecode interface","IWICJpegFrameDecode interface [Windows Imaging Component]","GetAcHuffmanTable method","IWICJpegFrameDecode.GetAcHuffmanTable","IWICJpegFrameDecode::GetAcHuffmanTable","wic.iwicjpegframedecode_getachuffmantable","wincodec/IWICJpegFrameDecode::GetAcHuffmanTable"]
 old-location: wic\iwicjpegframedecode_getachuffmantable.htm
 tech.root: wic
 ms.assetid: 6063E147-70A4-46F8-940E-42DBD87A500F
 ms.date: 12/05/2018
 ms.keywords: GetAcHuffmanTable, GetAcHuffmanTable method [Windows Imaging Component], GetAcHuffmanTable method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetAcHuffmanTable method, IWICJpegFrameDecode.GetAcHuffmanTable, IWICJpegFrameDecode::GetAcHuffmanTable, wic.iwicjpegframedecode_getachuffmantable, wincodec/IWICJpegFrameDecode::GetAcHuffmanTable
-f1_keywords:
-- wincodec/IWICJpegFrameDecode.GetAcHuffmanTable
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICJpegFrameDecode.GetAcHuffmanTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICJpegFrameDecode::GetAcHuffmanTable
+ - wincodec/IWICJpegFrameDecode::GetAcHuffmanTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICJpegFrameDecode.GetAcHuffmanTable
 ---
 
 # IWICJpegFrameDecode::GetAcHuffmanTable
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a copy of the AC Huffman table for the specified scan and table.
 
-
 ## -parameters
-
-
-
 
 ### -param scanIndex
 
@@ -63,24 +60,19 @@ Type: <b>UINT</b>
 
 The zero-based index of the scan for which data is retrieved.
 
-
 ### -param tableIndex
 
 Type: <b>UINT</b>
 
-The index of the AC Huffman table to retrieve. Valid indices for a given scan can be determined by retrieving the scan header with <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">IWICJpegFrameDecode::GetScanHeader</a>.
-
+The index of the AC Huffman table to retrieve. Valid indices for a given scan can be determined by retrieving the scan header with <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">IWICJpegFrameDecode::GetScanHeader</a>.
 
 ### -param pAcHuffmanTable [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-jpeg-ac-huffman-table">DXGI_JPEG_AC_HUFFMAN_TABLE</a>*</b>
+Type: <b><a href="/windows/desktop/direct3ddxgi/dxgi-jpeg-ac-huffman-table">DXGI_JPEG_AC_HUFFMAN_TABLE</a>*</b>
 
 A pointer that receives the table data. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
@@ -125,22 +117,11 @@ Can occur if <i>pAcHuffmanTable</i> is NULL or if <i>tableIndex</i> does not poi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>

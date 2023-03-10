@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlayerServices.activateUIPlugin
 title: IWMPPlayerServices::activateUIPlugin (wmp.h)
 description: The activateUIPlugin method activates the specified UI plug-in in the full mode of Windows Media Player.
+helpviewer_keywords: ["IWMPPlayerServices interface [Windows Media Player]","activateUIPlugin method","IWMPPlayerServices.activateUIPlugin","IWMPPlayerServices::activateUIPlugin","IWMPPlayerServicesactivateUIPlugin","activateUIPlugin","activateUIPlugin method [Windows Media Player]","activateUIPlugin method [Windows Media Player]","IWMPPlayerServices interface","wmp.iwmpplayerservices_activateuiplugin","wmp/IWMPPlayerServices::activateUIPlugin"]
 old-location: wmp\iwmpplayerservices_activateuiplugin.htm
 tech.root: WMP
 ms.assetid: 73274f71-ba34-479c-a23c-38a564e950fa
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],activateUIPlugin method, IWMPPlayerServices.activateUIPlugin, IWMPPlayerServices::activateUIPlugin, IWMPPlayerServicesactivateUIPlugin, activateUIPlugin, activateUIPlugin method [Windows Media Player], activateUIPlugin method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_activateuiplugin, wmp/IWMPPlayerServices::activateUIPlugin
-f1_keywords:
-- wmp/IWMPPlayerServices.activateUIPlugin
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayerServices.activateUIPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayerServices::activateUIPlugin
+ - wmp/IWMPPlayerServices::activateUIPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayerServices.activateUIPlugin
 ---
 
 # IWMPPlayerServices::activateUIPlugin
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>activateUIPlugin</b> method activates the specified UI plug-in in the full mode of Windows Media Player.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrPlugin [in]
 
 <b>BSTR</b> containing the name of the plug-in to activate.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -83,33 +74,17 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>The method succeeded.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is used only when remoting the Windows Media Player control.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices">IWMPPlayerServices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerservices">IWMPPlayerServices Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>

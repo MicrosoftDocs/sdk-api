@@ -2,15 +2,12 @@
 UID: NF:winevt.EvtOpenLog
 title: EvtOpenLog function (winevt.h)
 description: Gets a handle to a channel or log file that you can then use to get information about the channel or log file.
+helpviewer_keywords: ["EvtOpenLog","EvtOpenLog function [EventLog]","wes.evtopenlog","winevt/EvtOpenLog"]
 old-location: wes\evtopenlog.htm
 tech.root: wes
 ms.assetid: 1bf81452-2a62-4999-91b1-f1b42e6db91f
 ms.date: 12/05/2018
 ms.keywords: EvtOpenLog, EvtOpenLog function [EventLog], wes.evtopenlog, winevt/EvtOpenLog
-f1_keywords:
-- winevt/EvtOpenLog
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-api_name:
-- EvtOpenLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtOpenLog
+ - winevt/EvtOpenLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+api_name:
+ - EvtOpenLog
 ---
 
 # EvtOpenLog function
@@ -48,65 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a handle to a channel or log file that you can then use to get information about the channel or log file.
-
 
 ## -parameters
 
-
-
-
 ### -param Session [in]
 
-A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to open a channel or log on the local computer.
-
+A remote session handle that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to open a channel or log on the local computer.
 
 ### -param Path [in]
 
 The name of the channel or the full path to the exported log file.
 
-
 ### -param Flags [in]
 
-A flag that determines whether the <i>Path</i> parameter points to a log file or channel. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_open_log_flags">EVT_OPEN_LOG_FLAGS</a> enumeration.
-
+A flag that determines whether the <i>Path</i> parameter points to a log file or channel. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_open_log_flags">EVT_OPEN_LOG_FLAGS</a> enumeration.
 
 ## -returns
 
-
-
-If successful, the function returns a handle to the file or channel; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
-
-
-
+If successful, the function returns a handle to the file or channel; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 ## -remarks
 
-
-
 Relative paths and environment variables cannot be used when specifying a file.  A Universal Naming Convention (UNC) path can be used to locate the file.  Any relative path and environment variable expansion needs to be done prior to making API calls.
 
-To get information about the channel or log file, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a> function.
-
-
-
+To get information about the channel or log file, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winevt/nf-winevt-evtclearlog">EvtClearLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclearlog">EvtClearLog</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtexportlog">EvtExportLog</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetloginfo">EvtGetLogInfo</a>

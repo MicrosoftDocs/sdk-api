@@ -1,16 +1,13 @@
 ---
 UID: NF:oaidl.BSTR_UserUnmarshal64
 title: BSTR_UserUnmarshal64 function (oaidl.h)
-description: Unmarshals a BSTR object from the RPC buffer.
+description: Unmarshals a BSTR object from the RPC buffer. (BSTR_UserUnmarshal64)
+helpviewer_keywords: ["BSTR_UserUnmarshal64","BSTR_UserUnmarshal64 function [Automation]","automat.bstr_userunmarshal64","oaidl/BSTR_UserUnmarshal64"]
 old-location: automat\bstr_userunmarshal64.htm
 tech.root: automat
 ms.assetid: 5d0bb71f-f8a2-4af7-b7e4-177997af2c9b
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserUnmarshal64, BSTR_UserUnmarshal64 function [Automation], automat.bstr_userunmarshal64, oaidl/BSTR_UserUnmarshal64
-f1_keywords:
-- oaidl/BSTR_UserUnmarshal64
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- BSTR_UserUnmarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BSTR_UserUnmarshal64
+ - oaidl/BSTR_UserUnmarshal64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - BSTR_UserUnmarshal64
 ---
 
 # BSTR_UserUnmarshal64 function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Unmarshals a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> object from the RPC buffer.
-
+Unmarshals a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> object from the RPC buffer.
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 The object.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -106,7 +98,3 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
- 
-
-
-

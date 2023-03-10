@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(const float)
+UID: NF:directxpackedvector.XMUDEC4.XMUDEC4(constfloat)
 title: XMUDEC4::XMUDEC4(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMUDEC4 from a four element float array argument.
+helpviewer_keywords: ["XMUDEC4","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 constructor [DirectX Math Support APIs]","XMUDEC4 structure","XMUDEC4 structure [DirectX Math Support APIs]","XMUDEC4 constructor","XMUDEC4.XMUDEC4","XMUDEC4.XMUDEC4()","XMUDEC4.XMUDEC4(const float)","XMUDEC4::XMUDEC4","XMUDEC4::XMUDEC4(const float)","dxmath.xmudec4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: cf87b946-988a-4088-baa0-a6e7425074ce
 ms.date: 05/06/2019
 ms.keywords: XMUDEC4, XMUDEC4 constructor [DirectX Math Support APIs], XMUDEC4 constructor [DirectX Math Support APIs],XMUDEC4 structure, XMUDEC4 structure [DirectX Math Support APIs],XMUDEC4 constructor, XMUDEC4.XMUDEC4, XMUDEC4.XMUDEC4(), XMUDEC4.XMUDEC4(const float), XMUDEC4::XMUDEC4, XMUDEC4::XMUDEC4(const float), dxmath.xmudec4_ctor_1
-f1_keywords:
-- directxpackedvector/XMUDEC4.XMUDEC4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUDEC4.XMUDEC4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUDEC4::XMUDEC4
+ - directxpackedvector/XMUDEC4::XMUDEC4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUDEC4.XMUDEC4
 ---
 
 # XMUDEC4::XMUDEC4(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMUDEC4** from a four element <code>float</code> array argument.
 
@@ -91,6 +94,6 @@ instance.v =  ( (uint32_t)_w1 << 30) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmudec4-ctor">XMUDEC4 Constructors</a>
+<a href="/windows/desktop/dxmath/xmudec4-ctor">XMUDEC4 Constructors</a>

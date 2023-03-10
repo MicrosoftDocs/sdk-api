@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3if.IEnumCallingCard.Reset
 title: IEnumCallingCard::Reset (tapi3if.h)
-description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumCallingCard.Reset)
+helpviewer_keywords: ["IEnumCallingCard interface [TAPI 2.2]","Reset method","IEnumCallingCard.Reset","IEnumCallingCard::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumCallingCard interface","_tapi3_ienumcallingcard_reset","tapi3.ienumcallingcard_reset","tapi3if/IEnumCallingCard::Reset"]
 old-location: tapi3\ienumcallingcard_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 406e4f37-86b6-46bf-97b9-e9944f56bc0d
 ms.date: 12/05/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Reset method, IEnumCallingCard.Reset, IEnumCallingCard::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_reset, tapi3.ienumcallingcard_reset, tapi3if/IEnumCallingCard::Reset
-f1_keywords:
-- tapi3if/IEnumCallingCard.Reset
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumCallingCard.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumCallingCard::Reset
+ - tapi3if/IEnumCallingCard::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumCallingCard.Reset
 ---
 
 # IEnumCallingCard::Reset
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,18 +87,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_DRIDRMService.GetPairingStatus
 title: IBDA_DRIDRMService::GetPairingStatus (bdaiface.h)
 description: The GetPairingStatus method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA).
+helpviewer_keywords: ["Green","Orange","Red","GetPairingStatus","GetPairingStatus method [DirectShow]","GetPairingStatus method [DirectShow]","IBDA_DRIDRMService interface","IBDA_DRIDRMService interface [DirectShow]","GetPairingStatus method","IBDA_DRIDRMService.GetPairingStatus","IBDA_DRIDRMService::GetPairingStatus","bdaiface/IBDA_DRIDRMService::GetPairingStatus","mstv.ibda_dridrmservice_getpairingstatus"]
 old-location: mstv\ibda_dridrmservice_getpairingstatus.htm
 tech.root: mstv
 ms.assetid: 01918e99-17e6-4c24-bb85-ba71cf68cf09
 ms.date: 12/05/2018
-ms.keywords: ""Green", "Orange", "Red", GetPairingStatus, GetPairingStatus method [DirectShow], GetPairingStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetPairingStatus method, IBDA_DRIDRMService.GetPairingStatus, IBDA_DRIDRMService::GetPairingStatus, bdaiface/IBDA_DRIDRMService::GetPairingStatus, mstv.ibda_dridrmservice_getpairingstatus"
-f1_keywords: 
- - "bdaiface/IBDA_DRIDRMService.GetPairingStatus"
-dev_langs:
- - c++
+ms.keywords: Green, Orange, Red, GetPairingStatus, "GetPairingStatus method [DirectShow]", "GetPairingStatus method [DirectShow]", IBDA_DRIDRMService interface, "IBDA_DRIDRMService interface [DirectShow]", GetPairingStatus method, IBDA_DRIDRMService.GetPairingStatus, IBDA_DRIDRMService::GetPairingStatus, bdaiface/IBDA_DRIDRMService::GetPairingStatus, mstv.ibda_dridrmservice_getpairingstatus
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,6 +25,15 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - IBDA_DRIDRMService::GetPairingStatus
+ - bdaiface/IBDA_DRIDRMService::GetPairingStatus
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -37,10 +43,6 @@ api_location:
  - bdaiface.h
 api_name:
  - IBDA_DRIDRMService.GetPairingStatus
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # IBDA_DRIDRMService::GetPairingStatus
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetPairingStatus</b> method gets the Digital Rights Management (DRM) pairing status for a Media Transform Device (MTD) in a graph under the Protected Broadcast Driver Architecture (PBDA). This status indicates whether a secure pairing exists between the MTD and a Media Sink Device (MSD) so that controlled-access (CA) content can be released.
 
-
 ## -parameters
-
-
-
 
 ### -param penumPairingStatus [in, out]
 
@@ -98,25 +95,11 @@ The MTD is not paired with an MSD, so CA content is is not released.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_dridrmservice">IBDA_DRIDRMService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_dridrmservice">IBDA_DRIDRMService</a>

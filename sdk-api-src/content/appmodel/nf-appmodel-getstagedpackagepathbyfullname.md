@@ -1,16 +1,13 @@
 ---
 UID: NF:appmodel.GetStagedPackagePathByFullName
 title: GetStagedPackagePathByFullName function (appmodel.h)
-description: Gets the path of the specified staged package.
+description: Gets the path of the specified staged package. (GetStagedPackagePathByFullName)
+helpviewer_keywords: ["GetStagedPackagePathByFullName","GetStagedPackagePathByFullName function [App packaging and management]","appmodel/GetStagedPackagePathByFullName","appxpkg.getstagedpackagepathbyfullname"]
 old-location: appxpkg\getstagedpackagepathbyfullname.htm
 tech.root: appxpkg
 ms.assetid: F0A37D77-6262-44B1-BEC5-083E41BDE139
 ms.date: 12/05/2018
 ms.keywords: GetStagedPackagePathByFullName, GetStagedPackagePathByFullName function [App packaging and management], appmodel/GetStagedPackagePathByFullName, appxpkg.getstagedpackagepathbyfullname
-f1_keywords:
-- appmodel/GetStagedPackagePathByFullName
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetStagedPackagePathByFullName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetStagedPackagePathByFullName
+ - appmodel/GetStagedPackagePathByFullName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetStagedPackagePathByFullName
 ---
 
 # GetStagedPackagePathByFullName function
@@ -51,19 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the path of the specified staged package.
 
-
 ## -parameters
-
 
 ### -param packageFullName [in]
 
 Type: <b>PCWSTR</b>
 
 The full name of the staged package.
-
 
 ### -param pathLength [in, out]
 
@@ -73,17 +71,13 @@ A pointer to a variable that holds the number of characters (<b>WCHAR</b>s) in t
 
 First you pass <b>NULL</b> to <i>path</i> to get the number of characters. You use this number to allocate memory space for <i>path</i>. Then you pass the address of this memory space to fill <i>path</i>.
 
-
 ### -param path [out, optional]
 
 Type: <b>PWSTR</b>
 
 A pointer to memory space that receives  the package path string, which includes the null-terminator.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -106,14 +100,8 @@ The buffer specified by <i>path</i> is not large enough to hold the data. The re
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function succeeds if the package is staged, regardless of the user context or if the package is registered for the current user.
 
@@ -177,5 +165,5 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 
 ## -see-also
 
-
 [GetStagedPackagePathByFullName2](nf-appmodel-getstagedpackagepathbyfullname2.md)
+

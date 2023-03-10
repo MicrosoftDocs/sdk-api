@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetFeatureInfoA
 title: MsiGetFeatureInfoA function (msi.h)
-description: Returns descriptive information for a feature.
+description: Returns descriptive information for a feature. (ANSI)
+helpviewer_keywords: ["INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE", "INSTALLFEATUREATTRIBUTE_FAVORADVERTISE", "INSTALLFEATUREATTRIBUTE_FAVORLOCAL", "INSTALLFEATUREATTRIBUTE_FAVORSOURCE", "INSTALLFEATUREATTRIBUTE_FOLLOWPARENT", "INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE", "MsiGetFeatureInfoA", "msi/MsiGetFeatureInfoA"]
 old-location: setup\msigetfeatureinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 2553fddf-3349-4b48-86a9-be63f2d23684
 ms.date: 12/05/2018
 ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, INSTALLFEATUREATTRIBUTE_FOLLOWPARENT, INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE, MsiGetFeatureInfo, MsiGetFeatureInfo function, MsiGetFeatureInfoA, MsiGetFeatureInfoW, _msi_msigetfeatureinfo, msi/MsiGetFeatureInfo, msi/MsiGetFeatureInfoA, msi/MsiGetFeatureInfoW, setup.msigetfeatureinfo
-f1_keywords:
-- msi/MsiGetFeatureInfo
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetFeatureInfo
-- MsiGetFeatureInfoA
-- MsiGetFeatureInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetFeatureInfoA
+ - msi/MsiGetFeatureInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetFeatureInfo
+ - MsiGetFeatureInfoA
+ - MsiGetFeatureInfoW
 ---
 
 # MsiGetFeatureInfoA function
@@ -50,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetFeatureInfo</b> function returns descriptive information for a feature.
 
-
 ## -parameters
-
-
-
 
 ### -param hProduct [in]
 
 Handle to the product that owns the feature. This handle is obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+<a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szFeature [in]
 
 Feature code for the feature about which information should be returned.
-
 
 ### -param lpAttributes [out, optional]
 
@@ -102,35 +97,28 @@ Pointer to a location containing one or more of the following Attribute flags.
 #### INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE (32)
 
 For more information, see  
-<a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature Table</a>. The values that <b>MsiGetFeatureInfo</b> returns are double the values in the Attributes column of the Feature Table.
-
+<a href="/windows/desktop/Msi/feature-table">Feature Table</a>. The values that <b>MsiGetFeatureInfo</b> returns are double the values in the Attributes column of the Feature Table.
 
 ### -param lpTitleBuf [out, optional]
 
-Pointer to a buffer to receive the localized name of the feature, which corresponds to the Title field in the <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature Table</a>.
+Pointer to a buffer to receive the localized name of the feature, which corresponds to the Title field in the <a href="/windows/desktop/Msi/feature-table">Feature Table</a>.
 
 This parameter is optional and can be null.
-
 
 ### -param pcchTitleBuf [in, out, optional]
 
 As input, the size of <i>lpTitleBuf</i>. As output, the number of characters returned in <i>lpTitleBuf</i>. On input, this is the full size of the buffer, and includes a space for a terminating null character. If the buffer that is passed in is too small, the count returned does not include the terminating null character.
 
-
 ### -param lpHelpBuf [out, optional]
 
-Pointer to a buffer to receive the localized description of the feature, which corresponds to the Description field for the feature in the  <a href="https://docs.microsoft.com/windows/desktop/Msi/feature-table">Feature table</a>.
+Pointer to a buffer to receive the localized description of the feature, which corresponds to the Description field for the feature in the  <a href="/windows/desktop/Msi/feature-table">Feature table</a>.
 This parameter is optional and can be null.
-
 
 ### -param pcchHelpBuf [in, out, optional]
 
 As input, the size of <i>lpHelpBuf</i>. As output, the number of characters returned in <i>lpHelpBuf</i>. On input, this is the full size of the buffer, and includes a space for a terminating null character. If the buffer passed in is too small, the count returned does not include the terminating null character.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -193,29 +181,20 @@ The feature is not known.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The buffer sizes for the 
 <b>MsiGetFeatureInfo</b> function should include an extra character for the terminating null character. If a buffer is too small, the returned string is truncated with null, and the buffer size contains the number of characters in the whole string, not including the terminating null character. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
+<a href="/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiGetFeatureInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>

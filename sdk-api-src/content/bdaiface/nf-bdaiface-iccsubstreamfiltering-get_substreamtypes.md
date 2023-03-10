@@ -2,15 +2,12 @@
 UID: NF:bdaiface.ICCSubStreamFiltering.get_SubstreamTypes
 title: ICCSubStreamFiltering::get_SubstreamTypes (bdaiface.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["ICCSubStreamFiltering interface [Microsoft TV Technologies]","get_SubstreamTypes method","ICCSubStreamFiltering.get_SubstreamTypes","ICCSubStreamFiltering::get_SubstreamTypes","ICCSubStreamFilteringget_SubstreamTypes","bdaiface/ICCSubStreamFiltering::get_SubstreamTypes","get_SubstreamTypes","get_SubstreamTypes method [Microsoft TV Technologies]","get_SubstreamTypes method [Microsoft TV Technologies]","ICCSubStreamFiltering interface","mstv.iccsubstreamfiltering_get_substreamtypes"]
 old-location: mstv\iccsubstreamfiltering_get_substreamtypes.htm
 tech.root: mstv
 ms.assetid: da622981-d2a6-4e91-9e59-b084932b5ff2
 ms.date: 12/05/2018
 ms.keywords: ICCSubStreamFiltering interface [Microsoft TV Technologies],get_SubstreamTypes method, ICCSubStreamFiltering.get_SubstreamTypes, ICCSubStreamFiltering::get_SubstreamTypes, ICCSubStreamFilteringget_SubstreamTypes, bdaiface/ICCSubStreamFiltering::get_SubstreamTypes, get_SubstreamTypes, get_SubstreamTypes method [Microsoft TV Technologies], get_SubstreamTypes method [Microsoft TV Technologies],ICCSubStreamFiltering interface, mstv.iccsubstreamfiltering_get_substreamtypes
-f1_keywords:
-- bdaiface/ICCSubStreamFiltering.get_SubstreamTypes
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- ICCSubStreamFiltering.get_SubstreamTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICCSubStreamFiltering::get_SubstreamTypes
+ - bdaiface/ICCSubStreamFiltering::get_SubstreamTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - ICCSubStreamFiltering.get_SubstreamTypes
 ---
 
 # ICCSubStreamFiltering::get_SubstreamTypes
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>get_SubstreamTypes</b> method retrieves the list of closed captioning services this pin is delivering.
 
-
 ## -parameters
-
-
-
 
 ### -param pTypes [out]
 
-Receives a bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ks-cc-substream">KS_CC_SUBSTREAM Constants</a>.
-
+Receives a bitwise OR of flags that specify the closed captioning services. For a list of flags, see <a href="/previous-versions/windows/desktop/mstv/ks-cc-substream">KS_CC_SUBSTREAM Constants</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-iccsubstreamfiltering">ICCSubStreamFiltering Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-iccsubstreamfiltering">ICCSubStreamFiltering Interface</a>

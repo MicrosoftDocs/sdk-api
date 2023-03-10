@@ -2,15 +2,12 @@
 UID: NF:strmif.IPin.ConnectionMediaType
 title: IPin::ConnectionMediaType (strmif.h)
 description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any.
+helpviewer_keywords: ["ConnectionMediaType","ConnectionMediaType method [DirectShow]","ConnectionMediaType method [DirectShow]","IPin interface","IPin interface [DirectShow]","ConnectionMediaType method","IPin.ConnectionMediaType","IPin::ConnectionMediaType","IPinConnectionMediaType","dshow.ipin_connectionmediatype","strmif/IPin::ConnectionMediaType"]
 old-location: dshow\ipin_connectionmediatype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f372bfa7-b0ba-43f9-ba86-cbca5d1de515
 ms.date: 12/05/2018
 ms.keywords: ConnectionMediaType, ConnectionMediaType method [DirectShow], ConnectionMediaType method [DirectShow],IPin interface, IPin interface [DirectShow],ConnectionMediaType method, IPin.ConnectionMediaType, IPin::ConnectionMediaType, IPinConnectionMediaType, dshow.ipin_connectionmediatype, strmif/IPin::ConnectionMediaType
-f1_keywords:
-- strmif/IPin.ConnectionMediaType
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.ConnectionMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::ConnectionMediaType
+ - strmif/IPin::ConnectionMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.ConnectionMediaType
 ---
 
 # IPin::ConnectionMediaType
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ConnectionMediaType</code> method retrieves the media type for the current pin connection, if any.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pmt [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the media type.
-
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the media type.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,37 +102,21 @@ Pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the pin is connected, this method copies the media type into the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure specified by <i>pmt</i>. The caller must free the media type's format block. You can use the Microsoft® Win32®<b>CoTaskMemFree</b> function, or the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/freemediatype">FreeMediaType</a> helper function.
+If the pin is connected, this method copies the media type into the <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure specified by <i>pmt</i>. The caller must free the media type's format block. You can use the Microsoft® Win32®<b>CoTaskMemFree</b> function, or the <a href="/windows/desktop/DirectShow/freemediatype">FreeMediaType</a> helper function.
 
 If the pin is not connected, this method clears the media type specified by <i>pmt</i> and returns an error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

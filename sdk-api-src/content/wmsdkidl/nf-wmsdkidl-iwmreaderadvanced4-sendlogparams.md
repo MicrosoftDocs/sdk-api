@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced4.SendLogParams
 title: IWMReaderAdvanced4::SendLogParams (wmsdkidl.h)
 description: The SendLogParams method sends log entries to the originating server. Call this method after calling AddLogParam.
+helpviewer_keywords: ["IWMReaderAdvanced4 interface [windows Media Format]","SendLogParams method","IWMReaderAdvanced4.SendLogParams","IWMReaderAdvanced4::SendLogParams","IWMReaderAdvanced4SendLogParams","SendLogParams","SendLogParams method [windows Media Format]","SendLogParams method [windows Media Format]","IWMReaderAdvanced4 interface","wmformat.iwmreaderadvanced4_sendlogparams","wmsdkidl/IWMReaderAdvanced4::SendLogParams"]
 old-location: wmformat\iwmreaderadvanced4_sendlogparams.htm
 tech.root: wmformat
 ms.assetid: 3b345573-bdca-4a1f-b272-716e2ca4c88c
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced4 interface [windows Media Format],SendLogParams method, IWMReaderAdvanced4.SendLogParams, IWMReaderAdvanced4::SendLogParams, IWMReaderAdvanced4SendLogParams, SendLogParams, SendLogParams method [windows Media Format], SendLogParams method [windows Media Format],IWMReaderAdvanced4 interface, wmformat.iwmreaderadvanced4_sendlogparams, wmsdkidl/IWMReaderAdvanced4::SendLogParams
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced4.SendLogParams
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced4.SendLogParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced4::SendLogParams
+ - wmsdkidl/IWMReaderAdvanced4::SendLogParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced4.SendLogParams
 ---
 
 # IWMReaderAdvanced4::SendLogParams
@@ -51,23 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SendLogParams</b> method sends log entries to the originating server. Call this method after calling <b>AddLogParam</b>.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,22 +89,11 @@ The reader is not streaming content from a remote server.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-addlogparam">IWMReaderAdvanced4::AddLogParam</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-addlogparam">IWMReaderAdvanced4::AddLogParam</a>

@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPNetwork.get_sourceProtocol
 title: IWMPNetwork::get_sourceProtocol (wmp.h)
 description: The get_sourceProtocol method retrieves the source protocol used to receive data.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_sourceProtocol method","IWMPNetwork.get_sourceProtocol","IWMPNetwork::get_sourceProtocol","IWMPNetworkget_sourceProtocol","get_sourceProtocol","get_sourceProtocol method [Windows Media Player]","get_sourceProtocol method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_sourceprotocol","wmp/IWMPNetwork::get_sourceProtocol"]
 old-location: wmp\iwmpnetwork_get_sourceprotocol.htm
 tech.root: WMP
 ms.assetid: 6703ce88-9ca8-4401-b297-f765c4b15b84
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_sourceProtocol method, IWMPNetwork.get_sourceProtocol, IWMPNetwork::get_sourceProtocol, IWMPNetworkget_sourceProtocol, get_sourceProtocol, get_sourceProtocol method [Windows Media Player], get_sourceProtocol method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_sourceprotocol, wmp/IWMPNetwork::get_sourceProtocol
-f1_keywords:
-- wmp/IWMPNetwork.get_sourceProtocol
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPNetwork.get_sourceProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPNetwork::get_sourceProtocol
+ - wmp/IWMPNetwork::get_sourceProtocol
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPNetwork.get_sourceProtocol
 ---
 
 # IWMPNetwork::get_sourceProtocol
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_sourceProtocol</b> method retrieves the source protocol used to receive data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrSourceProtocol [out]
 
 Pointer to a <b>BSTR</b> containing the source protocol.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,27 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method retrieves an empty string ("") when playing a CD or DVD.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Reset
 title: IEnumNetSharingPrivateConnection::Reset (netcon.h)
-description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
+description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration. (IEnumNetSharingPrivateConnection.Reset)
+helpviewer_keywords: ["IEnumNetSharingPrivateConnection interface [ICS/ICF]","Reset method","IEnumNetSharingPrivateConnection.Reset","IEnumNetSharingPrivateConnection::Reset","Reset","Reset method [ICS/ICF]","Reset method [ICS/ICF]","IEnumNetSharingPrivateConnection interface","_ics_ienumnetsharingprivateconnection_reset","ics.ienumnetsharingprivateconnection_reset","netcon/IEnumNetSharingPrivateConnection::Reset"]
 old-location: ics\ienumnetsharingprivateconnection_reset.htm
 tech.root: ics
 ms.assetid: 9d68eccf-eb96-47f9-8ca3-97b7918a52fe
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Reset method, IEnumNetSharingPrivateConnection.Reset, IEnumNetSharingPrivateConnection::Reset, Reset, Reset method [ICS/ICF], Reset method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_reset, ics.ienumnetsharingprivateconnection_reset, netcon/IEnumNetSharingPrivateConnection::Reset
-f1_keywords:
-- netcon/IEnumNetSharingPrivateConnection.Reset
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IEnumNetSharingPrivateConnection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetSharingPrivateConnection::Reset
+ - netcon/IEnumNetSharingPrivateConnection::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IEnumNetSharingPrivateConnection.Reset
 ---
 
 # IEnumNetSharingPrivateConnection::Reset
@@ -48,23 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>Reset</b> method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -164,26 +157,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingprivateconnection">IEnumNetSharingPrivateConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingprivateconnection">IEnumNetSharingPrivateConnection</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

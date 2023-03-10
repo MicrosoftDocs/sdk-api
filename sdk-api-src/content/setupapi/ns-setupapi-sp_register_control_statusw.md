@@ -1,16 +1,13 @@
 ---
 UID: NS:setupapi._SP_REGISTER_CONTROL_STATUSW
 title: SP_REGISTER_CONTROL_STATUSW (setupapi.h)
-description: The SP_REGISTER_CONTROL_STATUS structure contains information about a file being registered or unregistered using the RegisterDlls INF directive to self-register DLLs on Windows 2000.
+description: The SP_REGISTER_CONTROL_STATUS structure contains information about a file being registered or unregistered using the RegisterDlls INF directive to self-register DLLs on Windows 2000. (Unicode)
+helpviewer_keywords: ["*PSP_REGISTER_CONTROL_STATUSW","PSP_REGISTER_CONTROL_STATUS","PSP_REGISTER_CONTROL_STATUS structure pointer [Setup API]","SPREG_DLLINSTALL","SPREG_GETPROCADDR","SPREG_LOADLIBRARY","SPREG_REGSVR","SPREG_SUCCESS","SPREG_TIMEOUT","SPREG_UNKNOWN","SP_REGISTER_CONTROL_STATUS","SP_REGISTER_CONTROL_STATUS structure [Setup API]","SP_REGISTER_CONTROL_STATUSW","_setupapi_sp_register_control_status","setup.sp_register_control_status","setupapi/PSP_REGISTER_CONTROL_STATUS","setupapi/SP_REGISTER_CONTROL_STATUS"]
 old-location: setup\sp_register_control_status.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: aeeedba8-f788-4f95-9583-e76dbb116db9
 ms.date: 12/05/2018
 ms.keywords: '*PSP_REGISTER_CONTROL_STATUSW, PSP_REGISTER_CONTROL_STATUS, PSP_REGISTER_CONTROL_STATUS structure pointer [Setup API], SPREG_DLLINSTALL, SPREG_GETPROCADDR, SPREG_LOADLIBRARY, SPREG_REGSVR, SPREG_SUCCESS, SPREG_TIMEOUT, SPREG_UNKNOWN, SP_REGISTER_CONTROL_STATUS, SP_REGISTER_CONTROL_STATUS structure [Setup API], SP_REGISTER_CONTROL_STATUSW, _setupapi_sp_register_control_status, setup.sp_register_control_status, setupapi/PSP_REGISTER_CONTROL_STATUS, setupapi/SP_REGISTER_CONTROL_STATUS'
-f1_keywords:
-- setupapi/SP_REGISTER_CONTROL_STATUS
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Setupapi.h
-api_name:
-- SP_REGISTER_CONTROL_STATUS
-- SP_REGISTER_CONTROL_STATUSW
 targetos: Windows
 req.typenames: SP_REGISTER_CONTROL_STATUSW, *PSP_REGISTER_CONTROL_STATUSW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_REGISTER_CONTROL_STATUSW
+ - setupapi/_SP_REGISTER_CONTROL_STATUSW
+ - PSP_REGISTER_CONTROL_STATUSW
+ - setupapi/PSP_REGISTER_CONTROL_STATUSW
+ - SP_REGISTER_CONTROL_STATUSW
+ - setupapi/SP_REGISTER_CONTROL_STATUSW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Setupapi.h
+api_name:
+ - SP_REGISTER_CONTROL_STATUS
+ - SP_REGISTER_CONTROL_STATUSW
 ---
 
 # SP_REGISTER_CONTROL_STATUSW structure
@@ -49,35 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SP_REGISTER_CONTROL_STATUS</b> structure contains information about a file being registered or unregistered using the <b>RegisterDlls </b>INF directive to self-register DLLs on Windows 2000.
 
 When 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> sends a 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a> notification to the callback routine, the caller must provide a pointer to a <b>SP_REGISTER_CONTROL_STATUS</b> structure in the <i>MsgHandler</i> parameter.
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a> sends a 
+<a href="/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a> or 
+<a href="/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a> notification to the callback routine, the caller must provide a pointer to a <b>SP_REGISTER_CONTROL_STATUS</b> structure in the <i>MsgHandler</i> parameter.
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
-
- 
-
 
 ### -field FileName
 
 Fully qualified path of the file being registered or unregistered.
 
-
 ### -field Win32Error
 
-For an SPFILENOTIFY_STARTREGISTRATION notification, this member is not used and should be set to NO_ERROR. For a SPFILENOTIFY_ENDREGISTRATION notification, set to a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
+For an SPFILENOTIFY_STARTREGISTRATION notification, this member is not used and should be set to NO_ERROR. For a SPFILENOTIFY_ENDREGISTRATION notification, set to a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ### -field FailureCode
 
@@ -161,37 +157,32 @@ File registration or unregistration failed for an unknown reason. <b>WinError</b
 </td>
 </tr>
 </table>
- 
 
-
-#### - cbsize
+### -field cbsize
 
 Size of the structure, in bytes.
 
-
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-endregistration">SPFILENOTIFY_ENDREGISTRATION</a>
+<a href="/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-startregistration">SPFILENOTIFY_STARTREGISTRATION</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
- 
-
- 
-
+> [!NOTE]
+> The setupapi.h header defines SP_REGISTER_CONTROL_STATUS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

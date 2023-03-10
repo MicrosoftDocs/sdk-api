@@ -2,15 +2,12 @@
 UID: NF:gb18030.NlsDllCodePageTranslation
 title: NlsDllCodePageTranslation function (gb18030.h)
 description: Used to get code page information or do conversion, depending on flag settings.
+helpviewer_keywords: ["NLS_CP_CPINFO","NLS_CP_MBTOWC","NLS_CP_WCTOMB","NlsDllCodePageTranslation","NlsDllCodePageTranslation function [Internationalization for Windows Applications]","_win32_NlsDllCodePageTranslation","gb18030/NlsDllCodePageTranslation","intl.nlsdllcodepagetranslation"]
 old-location: intl\nlsdllcodepagetranslation.htm
 tech.root: Intl
 ms.assetid: cc653877-de16-4ccc-b48e-8bd7cfacb43c
 ms.date: 12/05/2018
 ms.keywords: NLS_CP_CPINFO, NLS_CP_MBTOWC, NLS_CP_WCTOMB, NlsDllCodePageTranslation, NlsDllCodePageTranslation function [Internationalization for Windows Applications], _win32_NlsDllCodePageTranslation, gb18030/NlsDllCodePageTranslation, intl.nlsdllcodepagetranslation
-f1_keywords:
-- gb18030/NlsDllCodePageTranslation
-dev_langs:
-- c++
 req.header: gb18030.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: C_g18030.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- C_g18030.dll
-api_name:
-- NlsDllCodePageTranslation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NlsDllCodePageTranslation
+ - gb18030/NlsDllCodePageTranslation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - C_g18030.dll
+api_name:
+ - NlsDllCodePageTranslation
 ---
 
 # NlsDllCodePageTranslation function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to get code page information or do conversion, depending on flag settings.
 
 
-<div class="alert"><b>Note</b>  Do not use this function. It can behave differently in different versions of Windows. To convert GB18030 bytes to Unicode characters or Unicode characters to GB18030 bytes, use the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions.</div>
+<div class="alert"><b>Note</b>  Do not use this function. It can behave differently in different versions of Windows. To convert GB18030 bytes to Unicode characters or Unicode characters to GB18030 bytes, use the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param CodePage [in]
 
 The value of the code page. The code page value should be 54936. Otherwise, the function returns an error code.
-
 
 ### -param dwFlags [in]
 
@@ -107,58 +102,40 @@ Convert Unicode characters to GB18030 bytes. The source Unicode string should be
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpMultiByteStr [in, out]
 
 Pointer to a buffer that contains multibyte GB18030 characters. This can be a source buffer or target buffer, depending on the value of <i>dwFlags</i>.
 
-
 ### -param cchMultiByte [in]
 
 Byte count of the multibyte buffer.
-
 
 ### -param lpWideCharStr [in, out]
 
 Pointer to a buffer that contains Unicode characters. This can be a source buffer or target buffer, depending on the value of <i>dwFlags</i>.
 
-
 ### -param cchWideChar [in]
 
 Character count of the Unicode buffer.
 
-
 ### -param lpCPInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a> structure.
-
+Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a> structure.
 
 ## -returns
 
-
-
-Returns 1 if successful. If the function does not succeed, it returns 0. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns 1 if successful. If the function does not succeed, it returns 0. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 
 <ul>
 <li>ERROR_INVALID_PARAMETER. Any of the parameter values was invalid.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
- 
-
- 
-
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>

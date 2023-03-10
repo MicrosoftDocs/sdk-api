@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCompartmentMgr.GetCompartment
 title: ITfCompartmentMgr::GetCompartment (msctf.h)
 description: ITfCompartmentMgr::GetCompartment method
+helpviewer_keywords: ["GetCompartment","GetCompartment method [Text Services Framework]","GetCompartment method [Text Services Framework]","ITfCompartmentMgr interface","ITfCompartmentMgr interface [Text Services Framework]","GetCompartment method","ITfCompartmentMgr.GetCompartment","ITfCompartmentMgr::GetCompartment","_tsf_itfcompartmentmgr_getcompartment_ref","msctf/ITfCompartmentMgr::GetCompartment","tsf.itfcompartmentmgr_getcompartment"]
 old-location: tsf\itfcompartmentmgr_getcompartment.htm
 tech.root: TSF
 ms.assetid: 4f71815b-d352-4303-a3dd-180a71f9a5fe
 ms.date: 12/05/2018
 ms.keywords: GetCompartment, GetCompartment method [Text Services Framework], GetCompartment method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],GetCompartment method, ITfCompartmentMgr.GetCompartment, ITfCompartmentMgr::GetCompartment, _tsf_itfcompartmentmgr_getcompartment_ref, msctf/ITfCompartmentMgr::GetCompartment, tsf.itfcompartmentmgr_getcompartment
-f1_keywords:
-- msctf/ITfCompartmentMgr.GetCompartment
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfCompartmentMgr.GetCompartment
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompartmentMgr::GetCompartment
+ - msctf/ITfCompartmentMgr::GetCompartment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfCompartmentMgr.GetCompartment
 ---
 
 # ITfCompartmentMgr::GetCompartment
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the compartment object for a specified compartment.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Contains a GUID that identifies the compartment.
 
-
 ### -param ppcomp [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a> interface pointer that receives the compartment object.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment</a> interface pointer that receives the compartment object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,27 +105,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compartments">Compartments</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartment">ITfCompartment
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a>
- 
-
- 
-
+[ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)

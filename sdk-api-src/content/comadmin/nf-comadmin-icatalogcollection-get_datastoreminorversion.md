@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICatalogCollection.get_DataStoreMinorVersion
 title: ICatalogCollection::get_DataStoreMinorVersion (comadmin.h)
 description: Retrieves the minor version number of the catalog data store.
+helpviewer_keywords: ["DataStoreMinorVersion property [COM+]","DataStoreMinorVersion property [COM+]","ICatalogCollection interface","ICatalogCollection interface [COM+]","DataStoreMinorVersion property","ICatalogCollection.DataStoreMinorVersion","ICatalogCollection.get_DataStoreMinorVersion","ICatalogCollection::DataStoreMinorVersion","ICatalogCollection::get_DataStoreMinorVersion","_cos_ICatalogCollection_get_DataStoreMinorVersion","comadmin/ICatalogCollection::DataStoreMinorVersion","comadmin/ICatalogCollection::get_DataStoreMinorVersion","cos.icatalogcollection_datastoreminorversion","get_DataStoreMinorVersion"]
 old-location: cos\icatalogcollection_datastoreminorversion.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 29380ed1-835e-4ac9-afeb-869acd748ebc
 ms.date: 12/05/2018
 ms.keywords: DataStoreMinorVersion property [COM+], DataStoreMinorVersion property [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],DataStoreMinorVersion property, ICatalogCollection.DataStoreMinorVersion, ICatalogCollection.get_DataStoreMinorVersion, ICatalogCollection::DataStoreMinorVersion, ICatalogCollection::get_DataStoreMinorVersion, _cos_ICatalogCollection_get_DataStoreMinorVersion, comadmin/ICatalogCollection::DataStoreMinorVersion, comadmin/ICatalogCollection::get_DataStoreMinorVersion, cos.icatalogcollection_datastoreminorversion, get_DataStoreMinorVersion
-f1_keywords:
-- comadmin/ICatalogCollection.DataStoreMinorVersion
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICatalogCollection.DataStoreMinorVersion
-- ICatalogCollection.get_DataStoreMinorVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatalogCollection::get_DataStoreMinorVersion
+ - comadmin/ICatalogCollection::get_DataStoreMinorVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICatalogCollection.DataStoreMinorVersion
+ - ICatalogCollection.get_DataStoreMinorVersion
 ---
 
 # ICatalogCollection::get_DataStoreMinorVersion
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the minor version number of the catalog data store.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

@@ -1,16 +1,13 @@
 ---
-UID: NS:commctrl.__unnamed_struct_16
+UID: NS:commctrl.NMPGSCROLL
 title: NMPGSCROLL (commctrl.h)
 description: Contains and receives information that the pager control uses when scrolling the contained window. It is used with the PGN_SCROLL notification.
+helpviewer_keywords: ["*LPNMPGSCROLL","0","LPNMPGSCROLL","LPNMPGSCROLL structure pointer [Windows Controls]","NMPGSCROLL","NMPGSCROLL structure [Windows Controls]","PGF_SCROLLDOWN","PGF_SCROLLLEFT","PGF_SCROLLRIGHT","PGF_SCROLLUP","PGK_CONTROL","PGK_MENU","PGK_SHIFT","_win32_NMPGSCROLL","_win32_NMPGSCROLL_cpp","commctrl/LPNMPGSCROLL","commctrl/NMPGSCROLL","controls.NMPGSCROLL","controls._win32_NMPGSCROLL"]
 old-location: controls\NMPGSCROLL.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpgscroll.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMPGSCROLL, 0, LPNMPGSCROLL, LPNMPGSCROLL structure pointer [Windows Controls], NMPGSCROLL, NMPGSCROLL structure [Windows Controls], PGF_SCROLLDOWN, PGF_SCROLLLEFT, PGF_SCROLLRIGHT, PGF_SCROLLUP, PGK_CONTROL, PGK_MENU, PGK_SHIFT, _win32_NMPGSCROLL, _win32_NMPGSCROLL_cpp, commctrl/LPNMPGSCROLL, commctrl/NMPGSCROLL, controls.NMPGSCROLL, controls._win32_NMPGSCROLL'
-f1_keywords:
-- commctrl/NMPGSCROLL
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMPGSCROLL
 targetos: Windows
 req.typenames: NMPGSCROLL, *LPNMPGSCROLL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNMPGSCROLL
+ - commctrl/LPNMPGSCROLL
+ - NMPGSCROLL
+ - commctrl/NMPGSCROLL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMPGSCROLL
 ---
 
 # NMPGSCROLL structure
@@ -48,26 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains and receives information that the pager control uses when scrolling the contained window. It is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgn-scroll">PGN_SCROLL</a> notification. 
-
+Contains and receives information that the pager control uses when scrolling the contained window. It is used with the <a href="/windows/desktop/Controls/pgn-scroll">PGN_SCROLL</a> notification.
 
 ## -struct-fields
 
-
-
-
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification. 
-
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
 
 ### -field fwKeys
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Modifier keys that are down when the scroll occurs. This can be one or more of the following values: 
 
@@ -117,15 +115,12 @@ The ALT key is down.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rcParent
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-Contains the client rectangle of the pager control. 
-
+Contains the client rectangle of the pager control.
 
 ### -field iDir
 
@@ -179,26 +174,22 @@ The contained window is being scrolled up.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iXpos
 
 Type: <b>int</b>
 
-Contains the horizontal scroll position of the contained window, in pixels, before the scroll action. 
-
+Contains the horizontal scroll position of the contained window, in pixels, before the scroll action.
 
 ### -field iYpos
 
 Type: <b>int</b>
 
-Contains the vertical scroll position of the contained window, in pixels, before the scroll action. 
-
+Contains the vertical scroll position of the contained window, in pixels, before the scroll action.
 
 ### -field iScroll
 
 Type: <b>int</b>
 
-On entry, contains the default scroll delta in pixels. This member can be modified to contain a different scroll delta amount if desired. This value is always positive, regardless of the scroll direction. 
+On entry, contains the default scroll delta in pixels. This member can be modified to contain a different scroll delta amount if desired. This value is always positive, regardless of the scroll direction.
 

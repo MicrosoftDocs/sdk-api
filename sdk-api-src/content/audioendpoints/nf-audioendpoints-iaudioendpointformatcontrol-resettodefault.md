@@ -2,15 +2,12 @@
 UID: NF:audioendpoints.IAudioEndpointFormatControl.ResetToDefault
 title: IAudioEndpointFormatControl::ResetToDefault (audioendpoints.h)
 description: Resets the format to the default setting provided by the device manufacturer.
+helpviewer_keywords: ["IAudioEndpointFormatControl interface [Core Audio]","ResetToDefault method","IAudioEndpointFormatControl.ResetToDefault","IAudioEndpointFormatControl::ResetToDefault","ResetToDefault","ResetToDefault method [Core Audio]","ResetToDefault method [Core Audio]","IAudioEndpointFormatControl interface","audioendpoints/IAudioEndpointFormatControl::ResetToDefault","coreaudio.iaudioendpointformatcontrol_resettodefault"]
 old-location: coreaudio\iaudioendpointformatcontrol_resettodefault.htm
 tech.root: CoreAudio
 ms.assetid: EAE5206D-8BDF-4016-A0E6-D56D0F6B3566
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointFormatControl interface [Core Audio],ResetToDefault method, IAudioEndpointFormatControl.ResetToDefault, IAudioEndpointFormatControl::ResetToDefault, ResetToDefault, ResetToDefault method [Core Audio], ResetToDefault method [Core Audio],IAudioEndpointFormatControl interface, audioendpoints/IAudioEndpointFormatControl::ResetToDefault, coreaudio.iaudioendpointformatcontrol_resettodefault
-f1_keywords:
-- audioendpoints/IAudioEndpointFormatControl.ResetToDefault
-dev_langs:
-- c++
 req.header: audioendpoints.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AudioEndpoints.h
-api_name:
-- IAudioEndpointFormatControl.ResetToDefault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioEndpointFormatControl::ResetToDefault
+ - audioendpoints/IAudioEndpointFormatControl::ResetToDefault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AudioEndpoints.h
+api_name:
+ - IAudioEndpointFormatControl.ResetToDefault
 ---
 
 # IAudioEndpointFormatControl::ResetToDefault
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the format to the default setting provided by the device manufacturer.
 
-
 ## -parameters
-
-
-
 
 ### -param ResetFlags [in]
 
@@ -66,23 +63,10 @@ Allows the application to specify which formats are reset.  If
 ENDPOINT_FORMAT_RESET_MIX_ONLY: Only reset the mix format.  The endpoint's device
     format will not be reset if this flag is set.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audioendpoints/nn-audioendpoints-iaudioendpointformatcontrol">IAudioEndpointFormatControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audioendpoints/nn-audioendpoints-iaudioendpointformatcontrol">IAudioEndpointFormatControl</a>

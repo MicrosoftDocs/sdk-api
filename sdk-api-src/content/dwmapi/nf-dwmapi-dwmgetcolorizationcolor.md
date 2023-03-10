@@ -2,15 +2,12 @@
 UID: NF:dwmapi.DwmGetColorizationColor
 title: DwmGetColorizationColor function (dwmapi.h)
 description: Retrieves the current color used for Desktop Window Manager (DWM) glass composition.
+helpviewer_keywords: ["DwmGetColorizationColor","DwmGetColorizationColor function [Desktop Window Manager]","_udwm_dwmgetcolorizationcolor","_udwm_dwmgetcolorizationcolor_cpp","dwm.dwmgetcolorizationcolor","dwmapi/DwmGetColorizationColor","winui._udwm_dwmgetcolorizationcolor"]
 old-location: dwm\dwmgetcolorizationcolor.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcolorizationcolor.htm
 ms.date: 12/05/2018
 ms.keywords: DwmGetColorizationColor, DwmGetColorizationColor function [Desktop Window Manager], _udwm_dwmgetcolorizationcolor, _udwm_dwmgetcolorizationcolor_cpp, dwm.dwmgetcolorizationcolor, dwmapi/DwmGetColorizationColor, winui._udwm_dwmgetcolorizationcolor
-f1_keywords:
-- dwmapi/DwmGetColorizationColor
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-- ext-ms-win-dwmapi-ext-l1-1-0.dll
-api_name:
-- DwmGetColorizationColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmGetColorizationColor
+ - dwmapi/DwmGetColorizationColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+ - ext-ms-win-dwmapi-ext-l1-1-0.dll
+api_name:
+ - DwmGetColorizationColor
 ---
 
 # DwmGetColorizationColor function
@@ -49,44 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
-
+Retrieves the current color used for Desktop Window Manager (DWM) glass composition. This value is based on the current color scheme and can be modified by the user. Applications can listen for color changes by handling the <a href="/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification.
 
 ## -parameters
-
-
-
 
 ### -param pcrColorization [out]
 
 A pointer to a value that, when this function returns successfully, receives the current color used for glass composition. The color format of the value is 0xAARRGGBB.
 
-
 ### -param pfOpaqueBlend [out]
 
 A pointer to a value that, when this function returns successfully, indicates whether the color is an opaque blend. <b>TRUE</b> if the color is an opaque blend; otherwise, <b>FALSE</b>.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many Microsoft Win32 APIs, such as <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use a 0x00BBGGRR format. Be careful to assure that the intended colors are used.
+The value pointed to by <i>pcrColorization</i> is in an 0xAARRGGBB format. Many Microsoft Win32 APIs, such as <a href="/windows/desktop/gdi/colorref">COLORREF</a>, use a 0x00BBGGRR format. Be careful to assure that the intended colors are used.
 
 
 #### Examples
 
-The following example code shows a <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
+The following example code shows a <a href="/windows/desktop/dwm/wm-dwmcolorizationcolorchanged">WM_DWMCOLORIZATIONCOLORCHANGED</a> notification handle. If the colorization notification is received, this code retrieves the new color value.
 
 
 ```cpp
@@ -102,7 +90,3 @@ if (SUCCEEDED(hr))
 }
 ...
 ```
-
-
-
-

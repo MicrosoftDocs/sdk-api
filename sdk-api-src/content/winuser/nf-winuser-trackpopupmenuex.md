@@ -2,15 +2,12 @@
 UID: NF:winuser.TrackPopupMenuEx
 title: TrackPopupMenuEx function (winuser.h)
 description: Displays a shortcut menu at the specified location and tracks the selection of items on the shortcut menu. The shortcut menu can appear anywhere on the screen.
+helpviewer_keywords: ["TPM_BOTTOMALIGN","TPM_CENTERALIGN","TPM_HORIZONTAL","TPM_HORNEGANIMATION","TPM_HORPOSANIMATION","TPM_LEFTALIGN","TPM_LEFTBUTTON","TPM_NOANIMATION","TPM_NONOTIFY","TPM_RETURNCMD","TPM_RIGHTALIGN","TPM_RIGHTBUTTON","TPM_TOPALIGN","TPM_VCENTERALIGN","TPM_VERNEGANIMATION","TPM_VERPOSANIMATION","TPM_VERTICAL","TrackPopupMenuEx","TrackPopupMenuEx function [Menus and Other Resources]","_win32_TrackPopupMenuEx","_win32_trackpopupmenuex_cpp","menurc.trackpopupmenuex","winui._win32_trackpopupmenuex","winuser/TrackPopupMenuEx"]
 old-location: menurc\trackpopupmenuex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\trackpopupmenuex.htm
 ms.date: 12/05/2018
 ms.keywords: TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_HORNEGANIMATION, TPM_HORPOSANIMATION, TPM_LEFTALIGN, TPM_LEFTBUTTON, TPM_NOANIMATION, TPM_NONOTIFY, TPM_RETURNCMD, TPM_RIGHTALIGN, TPM_RIGHTBUTTON, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERNEGANIMATION, TPM_VERPOSANIMATION, TPM_VERTICAL, TrackPopupMenuEx, TrackPopupMenuEx function [Menus and Other Resources], _win32_TrackPopupMenuEx, _win32_trackpopupmenuex_cpp, menurc.trackpopupmenuex, winui._win32_trackpopupmenuex, winuser/TrackPopupMenuEx
-f1_keywords:
-- winuser/TrackPopupMenuEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- TrackPopupMenuEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TrackPopupMenuEx
+ - winuser/TrackPopupMenuEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - TrackPopupMenuEx
+req.apiset: ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # TrackPopupMenuEx function
@@ -51,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a shortcut menu at the specified location and tracks the selection of items on the shortcut menu. The shortcut menu can appear anywhere on the screen.
 
-
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the shortcut menu to be displayed. This handle can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a> function to create a new shortcut menu or by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> function to retrieve a handle to a submenu associated with an existing menu item. 
-
+A handle to the shortcut menu to be displayed. This handle can be obtained by calling the <a href="/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a> function to create a new shortcut menu or by calling the <a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> function to retrieve a handle to a submenu associated with an existing menu item.
 
 ### -param uFlags [in]
 
@@ -303,7 +300,7 @@ Animates the menu from top to bottom.
 </table>
  
 
-For any animation to occur, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function must set <b>SPI_SETMENUANIMATION</b>. Also, all the <b>TPM_*ANIMATION</b> flags, except <b>TPM_NOANIMATION</b>, are ignored if menu fade animation is on. For more information, see the <b>SPI_GETMENUFADE</b> flag in <b>SystemParametersInfo</b>. 
+For any animation to occur, the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function must set <b>SPI_SETMENUANIMATION</b>. Also, all the <b>TPM_*ANIMATION</b> flags, except <b>TPM_NOANIMATION</b>, are ignored if menu fade animation is on. For more information, see the <b>SPI_GETMENUFADE</b> flag in <b>SystemParametersInfo</b>. 
 
  Use the <b>TPM_RECURSE</b> flag to display a menu when another menu is already displayed. This is intended to support context menus within a menu. 
 
@@ -341,79 +338,61 @@ If the menu cannot be shown at the specified location without overlapping the ex
 
 The excluded rectangle is a portion of the screen that the menu should not overlap; it is specified by the <i>lptpm</i> parameter. 
 
- For right-to-left text layout, use <b>TPM_LAYOUTRTL</b>. By default, the text layout is left-to-right. 
-
+ For right-to-left text layout, use <b>TPM_LAYOUTRTL</b>. By default, the text layout is left-to-right.
 
 ### -param x [in]
 
 Type: <b>int</b>
 
-The horizontal location of the shortcut menu, in screen coordinates. 
-
+The horizontal location of the shortcut menu, in screen coordinates.
 
 ### -param y [in]
 
 Type: <b>int</b>
 
-The vertical location of the shortcut menu, in screen coordinates. 
-
+The vertical location of the shortcut menu, in screen coordinates.
 
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>fuFlags</i> parameter, the function does not send messages to the window identified by <i>hwnd</i>. However, you must still pass a window handle in <i>hwnd</i>. It can be any window handle from your application. 
-
+A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>fuFlags</i> parameter, the function does not send messages to the window identified by <i>hwnd</i>. However, you must still pass a window handle in <i>hwnd</i>. It can be any window handle from your application.
 
 ### -param lptpm [in, optional]
 
 Type: <b>LPTPMPARAMS</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tpmparams">TPMPARAMS</a> structure that specifies an area of the screen the menu should not overlap. This parameter can be <b>NULL</b>. 
-
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-tpmparams">TPMPARAMS</a> structure that specifies an area of the screen the menu should not overlap. This parameter can be <b>NULL</b>.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If you specify <b>TPM_RETURNCMD</b> in the <i>fuFlags</i> parameter, the return value is the menu-item identifier of the item that the user selected. If the user cancels the menu without making a selection, or if an error occurs, the return value is zero.
 
-If you do not specify <b>TPM_RETURNCMD</b> in the <i>fuFlags</i> parameter, the return value is nonzero if the function succeeds and zero if it fails. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If you do not specify <b>TPM_RETURNCMD</b> in the <i>fuFlags</i> parameter, the return value is nonzero if the function succeeds and zero if it fails. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+Call <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> or <b>TrackPopupMenuEx</b>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
 
-
-Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> or <b>TrackPopupMenuEx</b>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
-
-To display a context menu for a notification icon, the current window must be the foreground window before the application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> or <b>TrackPopupMenuEx</b>. Otherwise, the menu will not disappear when the user clicks outside of the menu or the window that created the menu (if it is visible). If the current window is a child window, you must set the (top-level) parent window as the foreground window.
-
-
-
+To display a context menu for a notification icon, the current window must be the foreground window before the application calls <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> or <b>TrackPopupMenuEx</b>. Otherwise, the menu will not disappear when the user clicks outside of the menu or the window that created the menu (if it is visible). If the current window is a child window, you must set the (top-level) parent window as the foreground window.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -421,12 +400,8 @@ To display a context menu for a notification icon, the current window must be th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-tpmparams">TPMPARAMS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-tpmparams">TPMPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a>

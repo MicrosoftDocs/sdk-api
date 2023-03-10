@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSAAdvertiseProvider
 title: WSAAdvertiseProvider function (ws2spi.h)
 description: Makes a specific namespace version-2 provider available for all eligible clients.
+helpviewer_keywords: ["WSAAdvertiseProvider","WSAAdvertiseProvider function [Winsock]","winsock.wsaadvertiseprovider","ws2spi/WSAAdvertiseProvider"]
 old-location: winsock\wsaadvertiseprovider.htm
 tech.root: WinSock
 ms.assetid: 574ebfa4-d7f2-43c2-b1ec-35ce3db9151f
 ms.date: 12/05/2018
 ms.keywords: WSAAdvertiseProvider, WSAAdvertiseProvider function [Winsock], winsock.wsaadvertiseprovider, ws2spi/WSAAdvertiseProvider
-f1_keywords:
-- ws2spi/WSAAdvertiseProvider
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAdvertiseProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAdvertiseProvider
+ - ws2spi/WSAAdvertiseProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAdvertiseProvider
 ---
 
 # WSAAdvertiseProvider function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WSAAdvertiseProvider** function makes a specific namespace version-2 provider available for all eligible clients.
 
-
 ## -parameters
-
-
-
 
 ### -param puuidProviderId [in]
 
 A pointer to the provider ID of the namespace provider to be advertised.
 
-
 ### -param pNSPv2Routine [in]
 
 A pointer to a **NSPV2_ROUTINE** structure with the namespace service provider version-2 entry points supported by the provider.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wsaprovidercompleteasynccall">WSAProviderCompleteAsyncCall</a> returns zero.
@@ -142,14 +135,8 @@ The <i>Ws2_32.dll</i> has not been initialized. The application must first call
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **WSAAdvertiseProvider** function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
@@ -176,13 +163,7 @@ The **WSAAdvertiseProvider** caller passes a pointer to an <a href="/windows/des
 The 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> function makes a specific namespace provider no longer available for clients.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
@@ -217,7 +198,4 @@ The
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a>
- 
-
- 
 

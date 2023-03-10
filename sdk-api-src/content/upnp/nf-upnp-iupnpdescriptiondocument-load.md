@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPDescriptionDocument.Load
 title: IUPnPDescriptionDocument::Load (upnp.h)
 description: The Load method loads a document synchronously. This method does not return control to the caller until the load operation is complete.
+helpviewer_keywords: ["IUPnPDescriptionDocument interface [UPnP APIs]","Load method","IUPnPDescriptionDocument.Load","IUPnPDescriptionDocument::Load","Load","Load method [UPnP APIs]","Load method [UPnP APIs]","IUPnPDescriptionDocument interface","_upnp_iupnpdescriptiondocument_load","upnp.iupnpdescriptiondocument_load","upnp/IUPnPDescriptionDocument::Load"]
 old-location: upnp\iupnpdescriptiondocument_load.htm
 tech.root: upnp
 ms.assetid: 02ae8af2-44f2-4b7c-a426-f2a26c43da37
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],Load method, IUPnPDescriptionDocument.Load, IUPnPDescriptionDocument::Load, Load, Load method [UPnP APIs], Load method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_load, upnp.iupnpdescriptiondocument_load, upnp/IUPnPDescriptionDocument::Load
-f1_keywords:
-- upnp/IUPnPDescriptionDocument.Load
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPDescriptionDocument.Load
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPDescriptionDocument::Load
+ - upnp/IUPnPDescriptionDocument::Load
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPDescriptionDocument.Load
 ---
 
 # IUPnPDescriptionDocument::Load
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Load</b> method loads a document synchronously. This method does not return control to the caller until the load operation is complete.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrUrl [in]
 
 Specifies the URL of the document to load.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h, or one of the following UPnP return values.
 
@@ -196,14 +190,8 @@ XML document is missing one of the required elements from the Service element.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should not be called from a user interface thread because it can take a long time for the method to return.
 
@@ -212,20 +200,10 @@ If the
 
 If this method is called from a Web page, the URL the caller specifies must refer to the same server from which the Web page was loaded.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>

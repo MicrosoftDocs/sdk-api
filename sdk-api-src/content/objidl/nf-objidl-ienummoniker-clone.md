@@ -1,16 +1,13 @@
 ---
 UID: NF:objidl.IEnumMoniker.Clone
 title: IEnumMoniker::Clone (objidl.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumMoniker.Clone)
+helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumMoniker interface","IEnumMoniker interface [COM]","Clone method","IEnumMoniker.Clone","IEnumMoniker::Clone","_ole_ienummoniker_clone","com.ienummoniker_clone","objidl/IEnumMoniker::Clone"]
 old-location: com\ienummoniker_clone.htm
 tech.root: com
 ms.assetid: 6238e556-9ef4-42c7-95ba-12468cec6b52
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumMoniker interface, IEnumMoniker interface [COM],Clone method, IEnumMoniker.Clone, IEnumMoniker::Clone, _ole_ienummoniker_clone, com.ienummoniker_clone, objidl/IEnumMoniker::Clone
-f1_keywords:
-- objidl/IEnumMoniker.Clone
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IEnumMoniker.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumMoniker::Clone
+ - objidl/IEnumMoniker::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IEnumMoniker.Clone
 ---
 
 # IEnumMoniker::Clone
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new enumerator that contains the same enumeration state as the current one.
 
 This method makes it possible to record a particular point in the enumeration sequence and then return to that point at a later time. The caller must release this new enumerator separately from the first enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param ppenum [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer variable that receives the interface pointer to the enumeration object. If the method is unsuccessful, the value of this output variable is undefined.
-
+Address of an <a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a> pointer variable that receives the interface pointer to the enumeration object. If the method is unsuccessful, the value of this output variable is undefined.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include the following.
 
@@ -109,18 +103,7 @@ Insufficient memory available for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienummoniker">IEnumMoniker</a>

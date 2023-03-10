@@ -1,16 +1,13 @@
 ---
 UID: NF:clusapi.OpenClusterNetworkEx
 title: OpenClusterNetworkEx function (clusapi.h)
-description: Opens a connection to a network and returns a handle to it.
+description: Opens a connection to a network and returns a handle to it. (OpenClusterNetworkEx)
+helpviewer_keywords: ["OpenClusterNetworkEx","OpenClusterNetworkEx function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_NETWORK_EX","PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster]","clusapi/OpenClusterNetworkEx","clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX","mscs.openclusternetworkex"]
 old-location: mscs\openclusternetworkex.htm
 tech.root: MsCS
 ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNetworkEx, OpenClusterNetworkEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, PCLUSAPI_OPEN_CLUSTER_NETWORK_EX function [Failover Cluster], clusapi/OpenClusterNetworkEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK_EX, mscs.openclusternetworkex
-f1_keywords:
-- clusapi/OpenClusterNetworkEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OpenClusterNetworkEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenClusterNetworkEx
+ - clusapi/OpenClusterNetworkEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OpenClusterNetworkEx
 ---
 
 # OpenClusterNetworkEx function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Opens a connection to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> and returns a handle 
+Opens a connection to a <a href="/previous-versions/windows/desktop/mscs/networks">network</a> and returns a handle 
     to it.
-
 
 ## -parameters
 
-
-
-
 ### -param hCluster [in]
 
-Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
-
+Handle to a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -param lpszNetworkName [in, optional]
 
 Pointer to the name of an existing network.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -74,8 +69,7 @@ The requested access privileges. This may be any combination of <b>GENERIC_READ<
       (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or <b>MAXIMUM_ALLOWED</b> 
       (0x02000000). If this value is zero (0) and undefined error may be returned. Using 
       <b>GENERIC_ALL</b> is the same as calling 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>.
-
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>.
 
 ### -param lpdwGrantedAccess [out, optional]
 
@@ -84,10 +78,7 @@ Optional parameter that contains the address of a <b>DWORD</b> that will receive
       <b>MAXIMUM_ALLOWED</b> (0x02000000) then the <b>DWORD</b> pointed to by 
       this parameter will contain the maximum privileges granted to this user.
 
-
 ## -returns
-
-
 
 If the operation was successful, 
       <b>OpenClusterNetworkEx</b> returns a network 
@@ -106,8 +97,8 @@ If the operation was successful,
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. If the target server does not 
-        support the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetworkex">OpenClusterNetworkEx</a> function 
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. If the target server does not 
+        support the <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetworkex">OpenClusterNetworkEx</a> function 
         (for example if the target server is running Windows Server 2008 or earlier) then the 
         <b>GetLastError</b> function will return 
         <b>RPC_S_PROCNUM_OUT_OF_RANGE</b> (1745).
@@ -115,26 +106,15 @@ The operation was not successful. For more information about the error, call the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusternetwork">CloseClusterNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternetwork">CloseClusterNetwork</a>
+<a href="/previous-versions/windows/desktop/mscs/network-management-functions">Failover Cluster Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-management-functions">Failover Cluster Network Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>

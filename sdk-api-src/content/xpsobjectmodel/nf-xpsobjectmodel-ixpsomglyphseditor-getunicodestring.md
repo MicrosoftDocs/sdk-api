@@ -1,16 +1,13 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetUnicodeString
 title: IXpsOMGlyphsEditor::GetUnicodeString (xpsobjectmodel.h)
-description: Gets the text in unescaped UTF-16 scalar values.
+description: Gets the text in unescaped UTF-16 scalar values. (IXpsOMGlyphsEditor.GetUnicodeString)
+helpviewer_keywords: ["GetUnicodeString","GetUnicodeString method [XPS Documents and Packaging]","GetUnicodeString method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","GetUnicodeString method","IXpsOMGlyphsEditor.GetUnicodeString","IXpsOMGlyphsEditor::GetUnicodeString","xps.ixpsomglyphseditor_getunicodestring","xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString"]
 old-location: xps\ixpsomglyphseditor_getunicodestring.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 48190202-2ab4-44ad-98e0-a69e9b48576f
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphsEditor.GetUnicodeString, IXpsOMGlyphsEditor::GetUnicodeString, xps.ixpsomglyphseditor_getunicodestring, xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphsEditor.GetUnicodeString
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphsEditor.GetUnicodeString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphsEditor::GetUnicodeString
+ - xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphsEditor.GetUnicodeString
 ---
 
 # IXpsOMGlyphsEditor::GetUnicodeString
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the text in unescaped UTF-16 scalar values.
 
-
 ## -parameters
-
-
-
 
 ### -param unicodeString [out, retval]
 
 The UTF-16 Unicode string. If the string is empty, a <b>NULL</b> pointer is returned.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,35 +90,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method allocates the memory used by the string that is returned in <i>unicodeString</i>.  If <i>unicodeString</i> is not <b>NULL</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
-
-
-
+This method allocates the memory used by the string that is returned in <i>unicodeString</i>.  If <i>unicodeString</i> is not <b>NULL</b>, use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function  to free the memory.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

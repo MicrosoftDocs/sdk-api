@@ -2,15 +2,12 @@
 UID: NS:ddkmapi._DDOPENSURFACEIN
 title: DDOPENSURFACEIN (ddkmapi.h)
 description: The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.
+helpviewer_keywords: ["*LPDDOPENSURFACEIN","DDOPENSURFACEIN","DDOPENSURFACEIN structure [Display Devices]","LPDDOPENSURFACEIN","LPDDOPENSURFACEIN structure pointer [Display Devices]","ddkmapi/DDOPENSURFACEIN","ddkmapi/LPDDOPENSURFACEIN","ddstrcts_406539e4-c43f-4871-b00b-30c71433d1fd.xml","display.ddopensurfacein"]
 old-location: display\ddopensurfacein.htm
 tech.root: display
 ms.assetid: 98a5d436-096d-4698-8f2c-31a0455300ff
 ms.date: 12/05/2018
 ms.keywords: '*LPDDOPENSURFACEIN, DDOPENSURFACEIN, DDOPENSURFACEIN structure [Display Devices], LPDDOPENSURFACEIN, LPDDOPENSURFACEIN structure pointer [Display Devices], ddkmapi/DDOPENSURFACEIN, ddkmapi/LPDDOPENSURFACEIN, ddstrcts_406539e4-c43f-4871-b00b-30c71433d1fd.xml, display.ddopensurfacein'
-f1_keywords:
-- ddkmapi/DDOPENSURFACEIN
-dev_langs:
-- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkmapi.h
-api_name:
-- DDOPENSURFACEIN
 targetos: Windows
 req.typenames: DDOPENSURFACEIN, *LPDDOPENSURFACEIN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDOPENSURFACEIN
+ - ddkmapi/_DDOPENSURFACEIN
+ - LPDDOPENSURFACEIN
+ - ddkmapi/LPDDOPENSURFACEIN
+ - DDOPENSURFACEIN
+ - ddkmapi/DDOPENSURFACEIN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkmapi.h
+api_name:
+ - DDOPENSURFACEIN
 ---
 
 # DDOPENSURFACEIN structure
@@ -48,46 +54,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDOPENSURFACEIN structure contains the DirectDrawSurface object information. 
-
+The DDOPENSURFACEIN structure contains the DirectDrawSurface object information.
 
 ## -struct-fields
-
-
-
 
 ### -field hDirectDraw
 
 Specifies the Microsoft DirectDraw object to which the surface handle is associated.
 
-
 ### -field dwSurfaceHandle
 
 Specifies the DirectDrawSurface handle passed down from user mode.
 
-
 ### -field pfnSurfaceClose
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnSurfaceClose</a> callback function that is called when the surface becomes unusable.
-
+Points to a <a href="/windows/desktop/api/ddkmapi/nc-ddkmapi-lpdd_notifycallback">pfnSurfaceClose</a> callback function that is called when the surface becomes unusable.
 
 ### -field pContext
 
 Contains a value that is passed if the <b>pfnSurfaceClose</b> callback function is ever called.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

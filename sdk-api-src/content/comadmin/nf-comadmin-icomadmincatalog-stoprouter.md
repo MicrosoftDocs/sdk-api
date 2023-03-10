@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog.StopRouter
 title: ICOMAdminCatalog::StopRouter (comadmin.h)
 description: Stops the component load balancing service if the service is currently installed.
+helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","StopRouter method","ICOMAdminCatalog.StopRouter","ICOMAdminCatalog::StopRouter","StopRouter","StopRouter method [COM+]","StopRouter method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_StopRouter","comadmin/ICOMAdminCatalog::StopRouter","cos.icomadmincatalog_stoprouter"]
 old-location: cos\icomadmincatalog_stoprouter.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 23b0e4af-bdab-4f58-b3ab-82aab5516b48
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],StopRouter method, ICOMAdminCatalog.StopRouter, ICOMAdminCatalog::StopRouter, StopRouter, StopRouter method [COM+], StopRouter method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_StopRouter, comadmin/ICOMAdminCatalog::StopRouter, cos.icomadmincatalog_stoprouter
-f1_keywords:
-- comadmin/ICOMAdminCatalog.StopRouter
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.StopRouter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::StopRouter
+ - comadmin/ICOMAdminCatalog::StopRouter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.StopRouter
 ---
 
 # ICOMAdminCatalog::StopRouter
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops the component load balancing service if the service is currently installed.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -104,27 +97,11 @@ Errors occurred while accessing one or more objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When called on a computer acting as the component load balancing (CLB) server, the <b>StopRouter</b> method stops the server from routing component activation requests to other servers in the application cluster.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

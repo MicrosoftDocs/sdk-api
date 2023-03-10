@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.UrlCombineA
 title: UrlCombineA function (shlwapi.h)
-description: When provided with a relative URL and its base, returns a URL in canonical form.
+description: When provided with a relative URL and its base, returns a URL in canonical form. (ANSI)
+helpviewer_keywords: ["URL_DONT_SIMPLIFY", "URL_ESCAPE_AS_UTF8", "URL_ESCAPE_PERCENT", "URL_ESCAPE_SPACES_ONLY", "URL_ESCAPE_UNSAFE", "URL_NO_META", "URL_PLUGGABLE_PROTOCOL", "URL_UNESCAPE", "UrlCombineA", "shlwapi/UrlCombineA"]
 old-location: shell\UrlCombine.htm
 tech.root: shell
 ms.assetid: f574d365-1ab9-4de4-84fe-17820c327ccf
 ms.date: 12/05/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCombine, UrlCombine function [Windows Shell], UrlCombineA, UrlCombineW, _win32_UrlCombine, shell.UrlCombine, shlwapi/UrlCombine, shlwapi/UrlCombineA, shlwapi/UrlCombineW
-f1_keywords:
-- shlwapi/UrlCombine
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-url-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- UrlCombine
-- UrlCombineA
-- UrlCombineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UrlCombineA
+ - shlwapi/UrlCombineA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - UrlCombine
+ - UrlCombineA
+ - UrlCombineW
 ---
 
 # UrlCombineA function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 When provided with a relative URL and its base, returns a URL in canonical form.
 
-
 ## -parameters
-
-
-
 
 ### -param pszBase [in]
 
@@ -69,13 +66,11 @@ Type: <b>PCTSTR</b>
 
 A pointer to a null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the base URL.
 
-
 ### -param pszRelative [in]
 
 Type: <b>PCTSTR</b>
 
 A pointer to a null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the relative URL.
-
 
 ### -param pszCombined [out, optional]
 
@@ -83,13 +78,11 @@ Type: <b>PTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives a null-terminated string that contains the combined URL.
 
-
 ### -param pcchCombined [in, out]
 
 Type: <b>DWORD*</b>
 
 A pointer to a value that, on entry, is set to the number of characters in the <i>pszCombined</i> buffer. When the function returns successfully, the value depends on whether the function is successful or returns E_POINTER. For other return values, the value of this parameter is meaningless.
-
 
 ### -param dwFlags
 
@@ -145,10 +138,7 @@ Un-escape any escape sequences that the URLs contain, with two exceptions. The e
 
 <b>Windows 7 and later</b>. Percent-encode all non-ASCII characters as their UTF-8 equivalents.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -182,14 +172,8 @@ The buffer was too small. The value of <i>pcchCombined</i> is set to the minimum
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Items between slashes are treated as hierarchical identifiers; the last item specifies the document itself. You must enter a slash (/) after the document name to append more items; otherwise, <b>UrlCombine</b> exchanges one document for another. For example: 		
 
@@ -224,17 +208,14 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines UrlCombine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlcanonicalizea">UrlCanonicalize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlcanonicalizea">UrlCanonicalize</a>

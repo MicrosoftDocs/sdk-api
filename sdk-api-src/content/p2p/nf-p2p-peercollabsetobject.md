@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerCollabSetObject
 title: PeerCollabSetObject function (p2p.h)
 description: Creates or updates a peer data object used in a peer collaboration network.
+helpviewer_keywords: ["PeerCollabSetObject","PeerCollabSetObject function [Peer Networking]","p2p.peercollabsetobject","p2p/PeerCollabSetObject"]
 old-location: p2p\peercollabsetobject.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
-f1_keywords:
-- p2p/PeerCollabSetObject
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerCollabSetObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerCollabSetObject
+ - p2p/PeerCollabSetObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerCollabSetObject
 ---
 
 # PeerCollabSetObject function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerCollabSetObject</b> function creates or updates a peer data object used in a peer collaboration network.
-
 
 ## -parameters
 
-
-
-
 ### -param pcObject [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a> structure that contains the peer object on the peer collaboration network.
-
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a> structure that contains the peer object on the peer collaboration network.
 
 ## -returns
-
-
 
 Returns S_OK if the function succeeds. Otherwise, the function returns one of the following values.
 
@@ -118,14 +112,8 @@ The operation requires the user to be signed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Peer objects are run-time data items associated with a particular application, such as a picture, an avatar, a certificate, or a specific description. Each peer object must be smaller than 16K in size and cannot be 0.
 
@@ -141,20 +129,10 @@ Trusted contacts watching this peer object will have a <b>PEER_EVENT_OBJECT_CHAN
 
 There is one object with a given <i>GUID</i> published at any given time.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:shellscalingapi.SetProcessDpiAwareness
 title: SetProcessDpiAwareness function (shellscalingapi.h)
 description: Sets the process-default DPI awareness level. This is equivalent to calling SetProcessDpiAwarenessContext with the corresponding DPI_AWARENESS_CONTEXT value.
+helpviewer_keywords: ["SetProcessDpiAwareness","SetProcessDpiAwareness function [High DPI]","hidpi.setprocessdpiawareness","shellscalingapi/SetProcessDpiAwareness","winmsg.SetProcessDpiAwareness"]
 old-location: hidpi\setprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9
 ms.date: 12/05/2018
 ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
-f1_keywords:
-- shellscalingapi/SetProcessDpiAwareness
-dev_langs:
-- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- shcore.dll
-- api-ms-win-shcore-scaling-l1-1-1.dll
-- API-MS-Win-ShCore-Scaling-L1-1-2.dll
-api_name:
-- SetProcessDpiAwareness
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessDpiAwareness
+ - shellscalingapi/SetProcessDpiAwareness
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - shcore.dll
+ - api-ms-win-shcore-scaling-l1-1-1.dll
+ - API-MS-Win-ShCore-Scaling-L1-1-2.dll
+api_name:
+ - SetProcessDpiAwareness
 ---
 
 # SetProcessDpiAwareness function
@@ -50,25 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
+It is recommended that you set the process-default DPI awareness via application manifest. See <a href="/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
-It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
-
-Sets the process-default DPI awareness level. This is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocessdpiawarenesscontext">SetProcessDpiAwarenessContext</a> with the corresponding <a href="https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value.
-
+Sets the process-default DPI awareness level. This is equivalent to calling <a href="/windows/desktop/api/winuser/nf-winuser-setprocessdpiawarenesscontext">SetProcessDpiAwarenessContext</a> with the corresponding <a href="/windows/desktop/hidpi/dpi-awareness-context">DPI_AWARENESS_CONTEXT</a> value.
 
 ## -parameters
 
-
-
-
 ### -param value [in]
 
-The DPI awareness value to set. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>enumeration.
-
+The DPI awareness value to set. Possible values are from the <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> enumeration.
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -111,20 +105,14 @@ The DPI awareness is already set, either by calling this API previously or throu
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+It is recommended that you set the process-default DPI awareness via application manifest. See <a href="/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
 
+Previous versions of Windows only had one DPI awareness value for the entire application. For those applications, the recommendation was to set the DPI awareness value in the manifest as described in <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>. Under that recommendation, you were not supposed to use <b>SetProcessDpiAwareness</b> to update the DPI awareness. In fact, future calls  to this API would fail after the DPI awareness was set once. Now that DPI awareness is tied to a thread rather than an application, you can use this method to update the DPI awareness. However, consider using <a href="/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext">SetThreadDpiAwarenessContext</a> instead.
 
-It is recommended that you set the process-default DPI awareness via application manifest. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a> for more information. Setting the process-default DPI awareness via API call can lead to unexpected application behavior.
-
-Previous versions of Windows only had one DPI awareness value for the entire application. For those applications, the recommendation was to set the DPI awareness value in the manifest as described in <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>. Under that recommendation, you were not supposed to use <b>SetProcessDpiAwareness</b> to update the DPI awareness. In fact, future calls  to this API would fail after the DPI awareness was set once. Now that DPI awareness is tied to a thread rather than an application, you can use this method to update the DPI awareness. However, consider using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext">SetThreadDpiAwarenessContext</a> instead.
-
-<div class="alert"><b>Important</b>  <p class="note">For older applications, it is strongly recommended to not use <b>SetProcessDpiAwareness</b> to set the DPI awareness for your application. Instead, you should declare the DPI awareness for your application in the application manifest. See <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> for more information about the DPI awareness values and how to set them in the manifest.
+<div class="alert"><b>Important</b>  <p class="note">For older applications, it is strongly recommended to not use <b>SetProcessDpiAwareness</b> to set the DPI awareness for your application. Instead, you should declare the DPI awareness for your application in the application manifest. See <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a> for more information about the DPI awareness values and how to set them in the manifest.
 
 </div>
 <div> </div>
@@ -132,24 +120,14 @@ You must call this API before you call any APIs that depend on the dpi awareness
 
 If the DPI awareness level is not set, the default value is <b>PROCESS_DPI_UNAWARE</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext">SetThreadDpiAwarenessContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext">SetThreadDpiAwarenessContext</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/mt846517(v=vs.85)">Setting the default DPI awareness for a process</a>

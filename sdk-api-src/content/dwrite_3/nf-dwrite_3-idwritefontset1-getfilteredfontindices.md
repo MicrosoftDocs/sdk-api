@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices
 title: IDWriteFontSet1::GetFilteredFontIndices
-description: Retrives all the item indices, filtered by the given properties.
+description: Retrieves all the item indices, filtered by the given properties.
+helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFontIndices method","IDWriteFontSet1.GetFilteredFontIndices","IDWriteFontSet1::GetFilteredFontIndices","GetFilteredFontIndices","GetFilteredFontIndices method [Direct Write]","GetFilteredFontIndices method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfontindices","dwrite_3/IDWriteFontSet1::GetFilteredFontIndices"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFontIndices method, IDWriteFontSet1.GetFilteredFontIndices, IDWriteFontSet1::GetFilteredFontIndices, GetFilteredFontIndices, GetFilteredFontIndices method [Direct Write], GetFilteredFontIndices method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfontindices, dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
@@ -44,13 +45,13 @@ req.redist:
 
 ## -description
 
-Retrives all the item indices, filtered by the given properties.
+Retrieves all the item indices, filtered by the given properties.
 
 ## -parameters
 
 ### -param properties
 
-Type: **[DWRITE_FONT_PROPERTY](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property) const \***
+Type: **[DWRITE_FONT_PROPERTY](./ns-dwrite_3-dwrite_font_property.md) const \***
 
 List of properties to filter by.
 
@@ -70,7 +71,7 @@ Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)\***
 
-An ascending array of indices, in the range 0 to [IDwriteFontSet::GetFontCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount) minus 1.
+An ascending array of indices, in the range 0 to [IDwriteFontSet::GetFontCount](./nf-dwrite_3-idwritefontset-getfontcount.md) minus 1.
 
 ### -param maxIndexCount
 
@@ -82,7 +83,7 @@ The number of indices.
 
 Type: **[UINT32](/windows/win32/winprog/windows-data-types)\***
 
-The actual number of indices written or needed, in the range 0 to [IDwriteFontSet::GetFontCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount) minus 1.
+The actual number of indices written or needed, in the range 0 to [IDwriteFontSet::GetFontCount](./nf-dwrite_3-idwritefontset-getfontcount.md) minus 1.
 
 ## -returns
 
@@ -92,7 +93,7 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 |Return value|Description|
 |-|-|
-|E_NOT_SUFFICIENT_BUFFER|The buffer is too small, with *actualIndexCount* set to the needed size. The *actualIndexCount* will always be <= [IDwriteFontSet::GetFontCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getfontcount).|
+|E_NOT_SUFFICIENT_BUFFER|The buffer is too small, with *actualIndexCount* set to the needed size. The *actualIndexCount* will always be <= [IDwriteFontSet::GetFontCount](./nf-dwrite_3-idwritefontset-getfontcount.md).|
 
 ## -remarks
 

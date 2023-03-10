@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetPrivateProfileSection
 title: GetPrivateProfileSection function (winbase.h)
-description: Retrieves all the keys and values for the specified section of an initialization file.
+description: The GetPrivateProfileSection function (winbase.h) retrieves all the keys and values for the specified section of an initialization file.
+helpviewer_keywords: ["GetPrivateProfileSection","GetPrivateProfileSection function","GetPrivateProfileSectionA","GetPrivateProfileSectionW","_win32_getprivateprofilesection","base.getprivateprofilesection","winbase/GetPrivateProfileSection","winbase/GetPrivateProfileSectionA","winbase/GetPrivateProfileSectionW"]
 old-location: base\getprivateprofilesection.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 17e01d6b-e1de-45a5-a620-c967694c24b9
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileSection, GetPrivateProfileSection function, GetPrivateProfileSectionA, GetPrivateProfileSectionW, _win32_getprivateprofilesection, base.getprivateprofilesection, winbase/GetPrivateProfileSection, winbase/GetPrivateProfileSectionA, winbase/GetPrivateProfileSectionW
-f1_keywords:
-- winbase/GetPrivateProfileSection
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GetPrivateProfileSection
-- GetPrivateProfileSectionA
-- GetPrivateProfileSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPrivateProfileSection
+ - winbase/GetPrivateProfileSection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GetPrivateProfileSection
+ - GetPrivateProfileSectionA
+ - GetPrivateProfileSectionW
 ---
 
 # GetPrivateProfileSection function
@@ -54,24 +56,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves all the keys and values for the specified section of an initialization file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit applications written for Windows. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpAppName [in]
 
 The name of the section in the initialization file.
 
-
 ### -param lpReturnedString [out]
 
 A pointer to a buffer that receives the key name and value pairs associated with the named section. The buffer is filled with one or more null-terminated strings; the last string is followed by a second null character.
-
 
 ### -param nSize [in]
 
@@ -80,24 +76,15 @@ The size of the buffer pointed to by the <i>lpReturnedString</i> parameter, in c
 
 The maximum profile section size is 32,767 characters.
 
-
 ### -param lpFileName [in]
 
 The name of the initialization file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.
 
-
 ## -returns
-
-
 
 The return value specifies the number of characters copied to the buffer, not including the terminating null character. If the buffer is not large enough to contain all the key name and value pairs associated with the named section, the return value is equal to <i>nSize</i> minus two.
 
-
-
-
 ## -remarks
-
-
 
 The data in the buffer pointed to by the <i>lpReturnedString</i> parameter consists of one or more null-terminated strings, followed by a final null character. Each string has the following format:
 
@@ -108,7 +95,7 @@ The
 
 This operation is atomic; no updates to the specified initialization file are allowed while the key name and value pairs for the section are being copied to the buffer pointed to by the <i>lpReturnedString</i> parameter.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows NT</b>\<b>CurrentVersion</b>\<b>IniFileMapping</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>IniFileMapping</b>
 
 
 
@@ -136,24 +123,14 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 Comments (any line that starts with a semicolon) are stripped out and not returned in the <i>lpReturnedString</i> buffer.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilesectionnames">GetPrivateProfileSectionNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesectionnames">GetPrivateProfileSectionNames</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprofilesectiona">GetProfileSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofilesectiona">GetProfileSection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>

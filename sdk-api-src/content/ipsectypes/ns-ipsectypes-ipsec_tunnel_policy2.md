@@ -1,16 +1,13 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY2_
 title: IPSEC_TUNNEL_POLICY2 (ipsectypes.h)
-description: Stores the quick mode negotiation policy for tunnel mode IPsec.
+description: Stores the quick mode negotiation policy for tunnel mode IPsec. (IPSEC_TUNNEL_POLICY2)
+helpviewer_keywords: ["IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME","IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME","IPSEC_POLICY_FLAG_ENABLE_SERVER_ADDR_ASSIGNMENT","IPSEC_POLICY_FLAG_ENABLE_V6_IN_V4_TUNNELING","IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY","IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY","IPSEC_POLICY_FLAG_ND_BOUNDARY","IPSEC_POLICY_FLAG_ND_SECURE","IPSEC_POLICY_FLAG_TUNNEL_ALLOW_OUTBOUND_CLEAR_CONNECTION","IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ALREADY_SECURE_CONNECTION","IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ICMPV6","IPSEC_TUNNEL_POLICY2","IPSEC_TUNNEL_POLICY2 structure [Filtering]","fwp.ipsec_tunnel_policy2","ipsectypes/IPSEC_TUNNEL_POLICY2"]
 old-location: fwp\ipsec_tunnel_policy2.htm
 tech.root: fwp
 ms.assetid: a633505d-86ec-42ba-bb4c-3f61e8768eab
 ms.date: 12/05/2018
 ms.keywords: IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_ENABLE_SERVER_ADDR_ASSIGNMENT, IPSEC_POLICY_FLAG_ENABLE_V6_IN_V4_TUNNELING, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_DICTATE_KEY, IPSEC_POLICY_FLAG_KEY_MANAGER_ALLOW_NOTIFY_KEY, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_POLICY_FLAG_TUNNEL_ALLOW_OUTBOUND_CLEAR_CONNECTION, IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ALREADY_SECURE_CONNECTION, IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ICMPV6, IPSEC_TUNNEL_POLICY2, IPSEC_TUNNEL_POLICY2 structure [Filtering], fwp.ipsec_tunnel_policy2, ipsectypes/IPSEC_TUNNEL_POLICY2
-f1_keywords:
-- ipsectypes/IPSEC_TUNNEL_POLICY2
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ipsectypes.h
-api_name:
-- IPSEC_TUNNEL_POLICY2
 targetos: Windows
 req.typenames: IPSEC_TUNNEL_POLICY2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_TUNNEL_POLICY2_
+ - ipsectypes/IPSEC_TUNNEL_POLICY2_
+ - IPSEC_TUNNEL_POLICY2
+ - ipsectypes/IPSEC_TUNNEL_POLICY2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ipsectypes.h
+api_name:
+ - IPSEC_TUNNEL_POLICY2
 ---
 
 # IPSEC_TUNNEL_POLICY2 structure
@@ -48,14 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_TUNNEL_POLICY2</b> structure stores the quick mode negotiation policy for tunnel mode IPsec.
-[IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1)a> is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0)a> is available.</div><div> </div>
+[IPSEC_TUNNEL_POLICY1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0) is available.
 
 ## -struct-fields
-
-
-
 
 ### -field flags
 
@@ -191,8 +191,6 @@ Allow key notification for quick mode policy. Applicable for AuthIP/IKE/IKEv2 po
 </td>
 </tr>
 </table>
- 
-
 
 ### -field numIpsecProposals
 
@@ -200,34 +198,29 @@ Type: <b>UINT32</b>
 
  Number of quick mode proposals in the policy.
 
-
 ### -field ipsecProposals
 
-Type: [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a>*</b>
+Type: [IPSEC_PROPOSAL0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)*</b>
 
 Array of quick mode proposals.
 
-
 ### -field tunnelEndpoints
 
-Type: [IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)a></b>
+Type: [IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)</b>
 
 Tunnel endpoints of the IPsec security association (SA) generated from this policy.
 
-
 ### -field saIdleTimeout
 
-Type: [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)a></b>
+Type: [IPSEC_SA_IDLE_TIMEOUT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)</b>
 
 Specifies the SA idle timeout in IPsec policy.
 
-
 ### -field emPolicy
 
-Type: [IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)a>*</b>
+Type: [IKEEXT_EM_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)*</b>
 
 The AuthIP extended mode authentication policy.
-
 
 ### -field fwdPathSaLifetime
 
@@ -235,30 +228,22 @@ Type: <b>UINT32</b>
 
 The forward path SA lifetime indicating the length of time for this connection.
 
-
 ## -see-also
 
+[IKEEXT_EM_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)
 
 
 
-[IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)a>
+[IPSEC_PROPOSAL0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)
 
 
 
-[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)a>
+[IPSEC_SA_IDLE_TIMEOUT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)
 
 
 
-[IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)a>
+[IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
 
 
 
-[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

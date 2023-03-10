@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzTask.get_Description
 title: IAzTask::get_Description (azroles.h)
-description: Sets or retrieves a comment that describes the task.
+description: Sets or retrieves a comment that describes the task. (Get)
+helpviewer_keywords: ["AzTask object [Security]","Description property","Description property [Security]","Description property [Security]","AzTask object","Description property [Security]","IAzTask interface","IAzTask interface [Security]","Description property","IAzTask.Description","IAzTask.get_Description","IAzTask::Description","IAzTask::get_Description","IAzTask::put_Description","azroles/IAzTask::Description","azroles/IAzTask::get_Description","azroles/IAzTask::put_Description","get_Description","security.iaztask_description"]
 old-location: security\iaztask_description.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 095bf53b-0afa-44f3-87b8-9363dfffef1f
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Description property, Description property [Security], Description property [Security],AzTask object, Description property [Security],IAzTask interface, IAzTask interface [Security],Description property, IAzTask.Description, IAzTask.get_Description, IAzTask::Description, IAzTask::get_Description, IAzTask::put_Description, azroles/IAzTask::Description, azroles/IAzTask::get_Description, azroles/IAzTask::put_Description, get_Description, security.iaztask_description
-f1_keywords:
-- azroles/IAzTask.Description
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzTask.Description
-- IAzTask.get_Description
-- IAzTask.put_Description
-- AzTask.Description
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzTask::get_Description
+ - azroles/IAzTask::get_Description
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzTask.Description
+ - IAzTask.get_Description
+ - IAzTask.put_Description
+ - AzTask.Description
 ---
 
 # IAzTask::get_Description
@@ -51,20 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Description</b> property sets or retrieves a comment that describes the task.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The maximum length of the <b>Description</b> property is 1,024 characters.
-
-
 

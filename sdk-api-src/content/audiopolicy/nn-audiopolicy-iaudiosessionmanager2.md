@@ -2,15 +2,12 @@
 UID: NN:audiopolicy.IAudioSessionManager2
 title: IAudioSessionManager2 (audiopolicy.h)
 description: The IAudioSessionManager2 interface enables an application to manage submixes for the audio device.
+helpviewer_keywords: ["IAudioSessionManager2","IAudioSessionManager2 interface [Core Audio]","IAudioSessionManager2 interface [Core Audio]","described","audiopolicy/IAudioSessionManager2","coreaudio.iaudiosessionmanager2"]
 old-location: coreaudio\iaudiosessionmanager2.htm
 tech.root: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], IAudioSessionManager2 interface [Core Audio],described, audiopolicy/IAudioSessionManager2, coreaudio.iaudiosessionmanager2
-f1_keywords:
-- audiopolicy/IAudioSessionManager2
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audiopolicy.h
-api_name:
-- IAudioSessionManager2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionManager2
+ - audiopolicy/IAudioSessionManager2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audiopolicy.h
+api_name:
+ - IAudioSessionManager2
 ---
 
 # IAudioSessionManager2 interface
@@ -48,13 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAudioSessionManager2</b> interface enables an application to manage submixes for the audio device.
 
 To a get a reference to an <b>IAudioSessionManager2</b> interface, the application must activate it on the audio device by following these steps:<ol>
-<li>Use one of the techniques described on the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface page to obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device. 
+<li>Use one of the techniques described on the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface page to obtain a reference to the <b>IMMDevice</b> interface for an audio endpoint device. 
 </li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to IID_IAudioSessionManager2. </li>
+<li>Call the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to IID_IAudioSessionManager2. </li>
 </ol>
 
 
@@ -62,76 +63,11 @@ When the application wants to release the <b>IAudioSessionManager2</b> interface
 
 The application thread that uses this interface must be initialized for COM. For more information about COM initialization, see the description of the <b>CoInitializeEx</b> function in the Windows SDK documentation.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>. <b>IAudioSessionManager2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioSessionManager2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-getsessionenumerator">GetSessionEnumerator</a>
-</td>
-<td align="left" width="63%">
-Gets a pointer to the audio session enumerator object used to enumerate sessions.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registerducknotification">RegisterDuckNotification</a>
-</td>
-<td align="left" width="63%">
-Registers the application to receive ducking notifications.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-registersessionnotification">RegisterSessionNotification</a>
-</td>
-<td align="left" width="63%">
-Registers the application to receive a notification when a session is created.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregisterducknotification">UnregisterDuckNotification</a>
-</td>
-<td align="left" width="63%">
-Deletes the registration to  receive ducking notifications.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregistersessionnotification">UnregisterSessionNotification</a>
-</td>
-<td align="left" width="63%">
-Deletes the registration to  receive a notification when a session is created.
-
-</td>
-</tr>
-</table> 
-
+The <b>IAudioSessionManager2</b> interface inherits from <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>. <b>IAudioSessionManager2</b> also has these types of members:
 
 ## -remarks
-
-
-
 
 An application can use this interface to perform the following tasks:
 
@@ -142,9 +78,9 @@ An application can use this interface to perform the following tasks:
 </ul>
 
 
-This interface supports  custom implementations for <i>stream attenuation</i> or <i>ducking</i>, a new feature in Windows 7. An application playing a media stream can make the it behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. For more information about this feature, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>.
+This interface supports  custom implementations for <i>stream attenuation</i> or <i>ducking</i>, a new feature in Windows 7. An application playing a media stream can make the it behave differently when a new communication stream is opened on the default communication device. For example, the original media stream can be paused while the new communication stream is open. For more information about this feature, see <a href="/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>.
 
-An application that manages the media streams and wants to provide a custom ducking implementation, must register to receive notifications when session events occur. For stream attenuation, a session event is raised by the system when a communication stream is opened or closed on the default communication device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/providing-a-custom-ducking-experience">Providing a Custom Ducking Behavior</a>.
+An application that manages the media streams and wants to provide a custom ducking implementation, must register to receive notifications when session events occur. For stream attenuation, a session event is raised by the system when a communication stream is opened or closed on the default communication device. For more information, see <a href="/windows/desktop/CoreAudio/providing-a-custom-ducking-experience">Providing a Custom Ducking Behavior</a>.
 
 
 #### Examples
@@ -194,21 +130,10 @@ done:
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>

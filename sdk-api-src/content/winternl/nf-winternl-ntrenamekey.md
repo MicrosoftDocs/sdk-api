@@ -1,16 +1,13 @@
 ---
 UID: NF:winternl.NtRenameKey
 title: NtRenameKey function (winternl.h)
-description: Changes the name of the specified registry key.
+description: Changes the name of the specified registry key. (NtRenameKey)
+helpviewer_keywords: ["NtRenameKey","NtRenameKey function [Windows API]","base.ntrenamekey","winprog.ntrenamekey","winternl/NtRenameKey"]
 old-location: winprog\ntrenamekey.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: fecd46f6-bcef-4cb4-8d53-3fb7ebe4cc53
 ms.date: 12/05/2018
 ms.keywords: NtRenameKey, NtRenameKey function [Windows API], base.ntrenamekey, winprog.ntrenamekey, winternl/NtRenameKey
-f1_keywords:
-- winternl/NtRenameKey
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ntdll.dll
-api_name:
-- NtRenameKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NtRenameKey
+ - winternl/NtRenameKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ntdll.dll
+api_name:
+ - NtRenameKey
 ---
 
 # NtRenameKey function
@@ -48,56 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function may be changed or removed from Windows without further notice. ]
 
 Changes the name of the specified registry key.
 
-
 ## -parameters
-
-
-
 
 ### -param KeyHandle [in]
 
 A handle to the key to be renamed. The handle must be opened with the KEY_WRITE access right.
 
-
 ### -param NewName [in]
 
 A pointer to a UNICODE string that is the new name for the key.
 
-
 ## -returns
-
-
 
 Returns an <b>NTSTATUS</b> or error code. An error code of <b>STATUS_ACCESS_DENIED</b> indicates that the caller does not have the necessary access rights to the specified registry key or subkeys.
 
 The forms and significance of <b>NTSTATUS</b> error codes are listed in the Ntstatus.h header file available in the WDK, and are described in the WDK documentation.
 
-
-
-
 ## -remarks
 
+This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and <a href="/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
-
-This function has no associated header file. The associated import library, Ntdll.lib, is available in the WDK. You can also use the <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-loadlibrary">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/DevNotes/-getprocaddress-">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
-
-The <b>NtRenameKey</b> function can be used to rename an entire registry subtree. The caller must have <b>KEY_CREATE_SUB_KEY</b> access to the parent of the specified key and DELETE access to the entire subtree being renamed. 
-
-
-
+The <b>NtRenameKey</b> function can be used to rename an entire registry subtree. The caller must have <b>KEY_CREATE_SUB_KEY</b> access to the parent of the specified key and DELETE access to the entire subtree being renamed.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>

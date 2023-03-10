@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IGetAppTrackerData.GetApplicationProcesses
 title: IGetAppTrackerData::GetApplicationProcesses (comsvcs.h)
 description: Retrieves summary information for all processes that are hosting COM+ applications, or for a specified subset of these processes.
+helpviewer_keywords: ["GetApplicationProcesses","GetApplicationProcesses method [COM+]","GetApplicationProcesses method [COM+]","IGetAppTrackerData interface","IGetAppTrackerData interface [COM+]","GetApplicationProcesses method","IGetAppTrackerData.GetApplicationProcesses","IGetAppTrackerData::GetApplicationProcesses","comsvcs/IGetAppTrackerData::GetApplicationProcesses","cos.igetapptrackerdata_getapplicationprocesses"]
 old-location: cos\igetapptrackerdata_getapplicationprocesses.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ec15db5c-fce6-42c0-a291-635344a7c4fc
 ms.date: 12/05/2018
 ms.keywords: GetApplicationProcesses, GetApplicationProcesses method [COM+], GetApplicationProcesses method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationProcesses method, IGetAppTrackerData.GetApplicationProcesses, IGetAppTrackerData::GetApplicationProcesses, comsvcs/IGetAppTrackerData::GetApplicationProcesses, cos.igetapptrackerdata_getapplicationprocesses
-f1_keywords:
-- comsvcs/IGetAppTrackerData.GetApplicationProcesses
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IGetAppTrackerData.GetApplicationProcesses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetAppTrackerData::GetApplicationProcesses
+ - comsvcs/IGetAppTrackerData::GetApplicationProcesses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IGetAppTrackerData.GetApplicationProcesses
 ---
 
 # IGetAppTrackerData::GetApplicationProcesses
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves summary information for all processes that are hosting COM+ applications, or for a specified subset of these processes.
 
-
 ## -parameters
-
-
-
 
 ### -param PartitionId [in]
 
 A partition ID to filter results, or GUID_NULL for all partitions.
 
-
 ### -param ApplicationId [in]
 
 An application ID to filter results, or GUID_NULL for all applications.
 
-
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to filter results and to select which data is returned. The following flags are supported: GATD_INCLUDE_PROCESS_EXE_NAME, GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_SWC. See remarks below for more information.
-
+A combination of flags from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-getapptrackerdataflags">GetAppTrackerDataFlags</a> enumeration to filter results and to select which data is returned. The following flags are supported: GATD_INCLUDE_PROCESS_EXE_NAME, GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_SWC. See remarks below for more information.
 
 ### -param NumApplicationProcesses [out]
 
 On return, the number of processes that match the filter criteria specified by <i>PartitionId</i>, <i>ApplicationId</i>, and <i>Flags</i>.
 
-
 ### -param ApplicationProcesses [out]
 
-On return, an array of <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structures for the matching processes.
-
+On return, an array of <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structures for the matching processes.
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG and E_OUTOFMEMORY, as well as the following values.
 
@@ -116,14 +106,8 @@ The method completed successfully, but there were no processes the matched the f
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>PartitionId</i>, <i>ApplicationId</i>, and <i>Flags</i> parameters can be used to specify filter criteria if the caller only wants information on a subset of tracked processes.
 
@@ -160,15 +144,6 @@ If <i>PartitionId</i> specifies PartitionA, and GATD_INCLUDE_LIBRARY_APPS is set
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>

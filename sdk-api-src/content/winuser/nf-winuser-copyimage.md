@@ -2,15 +2,12 @@
 UID: NF:winuser.CopyImage
 title: CopyImage function (winuser.h)
 description: Creates a new image (icon, cursor, or bitmap) and copies the attributes of the specified image to the new one. If necessary, the function stretches the bits to fit the desired size of the new image.
+helpviewer_keywords: ["CopyImage","CopyImage function [Menus and Other Resources]","IMAGE_BITMAP","IMAGE_CURSOR","IMAGE_ICON","LR_COPYDELETEORG","LR_COPYFROMRESOURCE","LR_COPYRETURNORG","LR_CREATEDIBSECTION","LR_DEFAULTSIZE","LR_MONOCHROME","_win32_CopyImage","_win32_copyimage_cpp","menurc.copyimage","winui._win32_copyimage","winuser/CopyImage"]
 old-location: menurc\copyimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\copyimage.htm
 ms.date: 12/05/2018
 ms.keywords: CopyImage, CopyImage function [Menus and Other Resources], IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_COPYDELETEORG, LR_COPYFROMRESOURCE, LR_COPYRETURNORG, LR_CREATEDIBSECTION, LR_DEFAULTSIZE, LR_MONOCHROME, _win32_CopyImage, _win32_copyimage_cpp, menurc.copyimage, winui._win32_copyimage, winuser/CopyImage
-f1_keywords:
-- winuser/CopyImage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
-api_name:
-- CopyImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CopyImage
+ - winuser/CopyImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+api_name:
+ - CopyImage
+req.apiset: ext-ms-win-ntuser-gui-l1-3-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CopyImage function
@@ -50,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new image (icon, cursor, or bitmap) and copies the attributes of the specified image to the new one. If necessary, the function stretches the bits to fit the desired size of the new image.
 
-
 ## -parameters
-
-
-
 
 ### -param h [in]
 
 Type: <b>HANDLE</b>
 
-A handle to the image to be copied. 
-
+A handle to the image to be copied.
 
 ### -param type [in]
 
@@ -111,22 +108,18 @@ Copies an icon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cx [in]
 
 Type: <b>int</b>
 
-The desired width, in pixels, of the image. If this is zero, then the returned image will have the same width as the original <i>hImage</i>. 
-
+The desired width, in pixels, of the image. If this is zero, then the returned image will have the same width as the original <i>hImage</i>.
 
 ### -param cy [in]
 
 Type: <b>int</b>
 
-The desired height, in pixels, of the image. If this is zero, then the returned image will have the same height as the original <i>hImage</i>. 
-
+The desired height, in pixels, of the image. If this is zero, then the returned image will have the same height as the original <i>hImage</i>.
 
 ### -param flags [in]
 
@@ -157,7 +150,7 @@ Deletes the original image after creating the copy.
 </dl>
 </td>
 <td width="60%">
-Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>, or by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> with the LR_SHARED flag.
+Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> or <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>, or by <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> with the LR_SHARED flag.
 
 </td>
 </tr>
@@ -180,6 +173,17 @@ Returns the original <i>hImage</i> if it satisfies the criteria for the copy—t
 </td>
 <td width="60%">
 If this is set and a new bitmap is created, the bitmap is created as a DIB section. Otherwise, the bitmap image is created as a device-dependent bitmap. This flag is only valid if <i>uType</i> is <b>IMAGE_BITMAP</b>.
+ 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="LR_DEFAULTCOLOR"></a><a id="lr_defaultcolor"></a><dl>
+<dt><b>LR_DEFAULTCOLOR</b></dt>
+<dt>0x00000000</dt>
+</dl>
+</td>
+<td width="60%">
+Uses the default color format.
 
 </td>
 </tr>
@@ -206,25 +210,16 @@ Creates a new monochrome image.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HANDLE</b>
 
 If the function succeeds, the return value is the handle to the newly created image.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 When you are finished using the resource, you can release its associated memory by calling one of the functions in the following table. 
 
@@ -236,39 +231,33 @@ When you are finished using the resource, you can release its associated memory 
 <tr>
 <td>Bitmap</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
 <td>Cursor</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>Icon</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 </td>
 </tr>
 </table>
  
 
-The system automatically deletes the resource when its process terminates, however, calling the appropriate function saves memory and decreases the size of the process's working set. 
-
-
-
+The system automatically deletes the resource when its process terminates, however, calling the appropriate function saves memory and decreases the size of the process's working set.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 
@@ -276,8 +265,4 @@ The system automatically deletes the resource when its process terminates, howev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/resources">Resources</a>

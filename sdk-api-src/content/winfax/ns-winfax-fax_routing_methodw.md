@@ -1,16 +1,13 @@
 ---
 UID: NS:winfax._FAX_ROUTING_METHODW
 title: FAX_ROUTING_METHODW (winfax.h)
-description: The FAX_ROUTING_METHOD structure contains information about one fax routing method, as it pertains to one fax device.
+description: The FAX_ROUTING_METHOD structure contains information about one fax routing method, as it pertains to one fax device. (Unicode)
+helpviewer_keywords: ["*PFAX_ROUTING_METHODW","FAX_ROUTING_METHOD","FAX_ROUTING_METHOD structure [Fax Service]","FAX_ROUTING_METHODA","FAX_ROUTING_METHODW","PFAX_ROUTING_METHOD","PFAX_ROUTING_METHOD structure pointer [Fax Service]","_mfax_fax_routing_method_str","fax._mfax_fax_routing_method_str","winfax/FAX_ROUTING_METHOD","winfax/FAX_ROUTING_METHODA","winfax/FAX_ROUTING_METHODW","winfax/PFAX_ROUTING_METHOD"]
 old-location: fax\_mfax_fax_routing_method_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7w1e.htm
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_ROUTING_METHODW, FAX_ROUTING_METHOD, FAX_ROUTING_METHOD structure [Fax Service], FAX_ROUTING_METHODA, FAX_ROUTING_METHODW, PFAX_ROUTING_METHOD, PFAX_ROUTING_METHOD structure pointer [Fax Service], _mfax_fax_routing_method_str, fax._mfax_fax_routing_method_str, winfax/FAX_ROUTING_METHOD, winfax/FAX_ROUTING_METHODA, winfax/FAX_ROUTING_METHODW, winfax/PFAX_ROUTING_METHOD'
-f1_keywords:
-- winfax/FAX_ROUTING_METHOD
-dev_langs:
-- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winfax.h
-api_name:
-- FAX_ROUTING_METHOD
-- FAX_ROUTING_METHODA
-- FAX_ROUTING_METHODW
 targetos: Windows
 req.typenames: FAX_ROUTING_METHODW, *PFAX_ROUTING_METHODW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FAX_ROUTING_METHODW
+ - winfax/_FAX_ROUTING_METHODW
+ - PFAX_ROUTING_METHODW
+ - winfax/PFAX_ROUTING_METHODW
+ - FAX_ROUTING_METHODW
+ - winfax/FAX_ROUTING_METHODW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winfax.h
+api_name:
+ - FAX_ROUTING_METHOD
+ - FAX_ROUTING_METHODA
+ - FAX_ROUTING_METHODW
 ---
 
 # FAX_ROUTING_METHODW structure
@@ -50,42 +56,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FAX_ROUTING_METHOD</b> structure contains information about one fax routing method, as it pertains to one fax device. The data includes, among other items, whether the fax routing method is enabled for the device, and the name of the DLL that exports the routing method. It also includes the GUID and function name that uniquely identify the routing method, and the method's user-friendly name.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
 Type: <b>DWORD</b>
 
-Specifies the size, in bytes, of the <b>FAX_ROUTING_METHOD</b> structure. The fax service sets this member to <b>sizeof(FAX_ROUTING_METHOD)</b>. 
-
+Specifies the size, in bytes, of the <b>FAX_ROUTING_METHOD</b> structure. The fax service sets this member to <b>sizeof(FAX_ROUTING_METHOD)</b>.
 
 ### -field DeviceId
 
 Type: <b>DWORD</b>
 
-Specifies a <b>DWORD</b> variable that indicates the permanent line identifier for the fax device of interest. 
-
+Specifies a <b>DWORD</b> variable that indicates the permanent line identifier for the fax device of interest.
 
 ### -field Enabled
 
 Type: <b>BOOL</b>
 
-Specifies a Boolean variable that indicates whether the fax routing method is enabled or disabled for the fax device of interest. If this parameter is equal to <b>TRUE</b>, the fax routing method is enabled for the device. 
-
+Specifies a Boolean variable that indicates whether the fax routing method is enabled or disabled for the fax device of interest. If this parameter is equal to <b>TRUE</b>, the fax routing method is enabled for the device.
 
 ### -field DeviceName
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that specifies the name of the fax device of interest. 
-
+Pointer to a constant null-terminated character string that specifies the name of the fax device of interest.
 
 ### -field Guid
 
@@ -95,22 +92,19 @@ Pointer to a constant null-terminated character string that specifies the GUID t
                 
                     
 
-For more information about fax routing methods, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">About the Fax Routing Extension API</a>. 
-
+For more information about fax routing methods, see <a href="/previous-versions/windows/desktop/fax/-mfax-about-the-fax-routing-extension-api">About the Fax Routing Extension API</a>.
 
 ### -field FriendlyName
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that specifies the user-friendly name to display for the fax routing method. 
-
+Pointer to a constant null-terminated character string that specifies the user-friendly name to display for the fax routing method.
 
 ### -field FunctionName
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that is the name of the function that executes the specified fax routing procedure. The fax routing extension DLL identified by the <b>ExtensionImageName</b> member exports the function. 
-
+Pointer to a constant null-terminated character string that is the name of the function that executes the specified fax routing procedure. The fax routing extension DLL identified by the <b>ExtensionImageName</b> member exports the function.
 
 ### -field ExtensionImageName
 
@@ -118,50 +112,43 @@ Type: <b>LPCTSTR</b>
 
 Pointer to a constant null-terminated character string that specifies the name of the fax routing extension DLL that implements the fax routing method.
 
-
 ### -field ExtensionFriendlyName
 
 Type: <b>LPCTSTR</b>
 
-Pointer to a constant null-terminated character string that specifies the user-friendly name to display for the fax routing extension DLL. 
-
+Pointer to a constant null-terminated character string that specifies the user-friendly name to display for the fax routing extension DLL.
 
 ## -remarks
 
+A fax client application can call the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumroutingmethodsa">FaxEnumRoutingMethods</a> function to enumerate all the fax routing methods associated with a specific fax device. The function returns an array of <b>FAX_ROUTING_METHOD</b> structures. Each structure describes one fax routing method in detail.
+
+Call the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenableroutingmethoda">FaxEnableRoutingMethod</a> function to enable or disable a fax routing method for a specific fax device.
+
+For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-routing-data">Managing Fax Routing Data</a>.
 
 
-A fax client application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumroutingmethodsa">FaxEnumRoutingMethods</a> function to enumerate all the fax routing methods associated with a specific fax device. The function returns an array of <b>FAX_ROUTING_METHOD</b> structures. Each structure describes one fax routing method in detail.
-
-Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenableroutingmethoda">FaxEnableRoutingMethod</a> function to enable or disable a fax routing method for a specific fax device.
-
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-fax-routing-data">Managing Fax Routing Data</a>.
 
 
 
+> [!NOTE]
+> The winfax.h header defines FAX_ROUTING_METHOD as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenableroutingmethoda">FaxEnableRoutingMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenableroutingmethoda">FaxEnableRoutingMethod</a>
+<a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumroutingmethodsa">FaxEnumRoutingMethods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxenumroutingmethodsa">FaxEnumRoutingMethods</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a>
- 
-
- 
-
+<a href="/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a>

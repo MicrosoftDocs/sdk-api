@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IMenuPopup.Popup
 title: IMenuPopup::Popup (shobjidl_core.h)
 description: Invokes the shortcut menu at a specified onscreen location.
+helpviewer_keywords: ["IMenuPopup interface [Windows Shell]","Popup method","IMenuPopup.Popup","IMenuPopup::Popup","MPPF_ALIGN_LEFT","MPPF_ALIGN_RIGHT","MPPF_BOTTOM","MPPF_FINALSELECT","MPPF_FORCEZORDER","MPPF_INITIALSELECT","MPPF_KEYBOARD","MPPF_LEFT","MPPF_NOANIMATE","MPPF_POS_MASK","MPPF_REPOSITION","MPPF_RIGHT","MPPF_SETFOCUS","MPPF_TOP","Popup","Popup method [Windows Shell]","Popup method [Windows Shell]","IMenuPopup interface","_win32_IMenuPopup_Popup","shell.IMenuPopup_Popup","shobjidl_core/IMenuPopup::Popup"]
 old-location: shell\IMenuPopup_Popup.htm
 tech.root: shell
 ms.assetid: 2f889955-9c6d-4b6c-ae04-389d2bff3bd9
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup interface [Windows Shell],Popup method, IMenuPopup.Popup, IMenuPopup::Popup, MPPF_ALIGN_LEFT, MPPF_ALIGN_RIGHT, MPPF_BOTTOM, MPPF_FINALSELECT, MPPF_FORCEZORDER, MPPF_INITIALSELECT, MPPF_KEYBOARD, MPPF_LEFT, MPPF_NOANIMATE, MPPF_POS_MASK, MPPF_REPOSITION, MPPF_RIGHT, MPPF_SETFOCUS, MPPF_TOP, Popup, Popup method [Windows Shell], Popup method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_Popup, shell.IMenuPopup_Popup, shobjidl_core/IMenuPopup::Popup
-f1_keywords:
-- shobjidl_core/IMenuPopup.Popup
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IMenuPopup.Popup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMenuPopup::Popup
+ - shobjidl_core/IMenuPopup::Popup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IMenuPopup.Popup
 ---
 
 # IMenuPopup::Popup
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the shortcut menu at a specified onscreen location.
-
 
 ## -parameters
 
-
-
-
 ### -param ppt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that specifies the location of the pop-up menu in screen coordinates. The pop-up menu is displayed in relation to this point as determined by the position flags set in <i>dwFlags</i>.
-
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that specifies the location of the pop-up menu in screen coordinates. The pop-up menu is displayed in relation to this point as determined by the position flags set in <i>dwFlags</i>.
 
 ### -param prcExclude [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a> structure that specifies the rectangle to exclude when positioning the menu. In Windows Vista, the alignment of the menu in relation to this area is determined by the alignment flags set in <i>dwFlags</i>. This parameter can be <b>NULL</b> to include the entire screen.
-
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that specifies the rectangle to exclude when positioning the menu. In Windows Vista, the alignment of the menu in relation to this area is determined by the alignment flags set in <i>dwFlags</i>. This parameter can be <b>NULL</b> to include the entire screen.
 
 ### -param dwFlags [in]
 
@@ -161,14 +156,8 @@ Default alignment.
 
 The pop-up menu should be aligned to the right of the excluded rectangle specified by <i>prcExclude</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the object implements the pop-up menu as a modeless menu. Otherwise, returns <b>S_FALSE</b>, which indicates the end of the implementation for the menu.
-
-
-

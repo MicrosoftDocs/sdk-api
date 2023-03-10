@@ -4,15 +4,17 @@ title: Comppkgsup.h header
 ms.assetid: d9229a96-75e9-36c1-984c-3471f9f9c49b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winprog
+f1_keywords:
+ - comppkgsup
+ - comppkgsup/comppkgsup
 ---
 
 # Comppkgsup.h header
 
 
 ## -description
-
 
 This header is used by Developer Notes. For more information, see:
 

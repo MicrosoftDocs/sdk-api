@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.put_LocalControl
 title: IAMExtTransport::put_LocalControl (strmif.h)
 description: The put_LocalControl method switches the device between local and remote control.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","put_LocalControl method","IAMExtTransport.put_LocalControl","IAMExtTransport::put_LocalControl","IAMExtTransportput_LocalControl","dshow.iamexttransport_put_localcontrol","put_LocalControl","put_LocalControl method [DirectShow]","put_LocalControl method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::put_LocalControl"]
 old-location: dshow\iamexttransport_put_localcontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1ac75eb7-4b4c-402b-8e4e-f94488eccec1
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_LocalControl method, IAMExtTransport.put_LocalControl, IAMExtTransport::put_LocalControl, IAMExtTransportput_LocalControl, dshow.iamexttransport_put_localcontrol, put_LocalControl, put_LocalControl method [DirectShow], put_LocalControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_LocalControl
-f1_keywords:
-- strmif/IAMExtTransport.put_LocalControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.put_LocalControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::put_LocalControl
+ - strmif/IAMExtTransport::put_LocalControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.put_LocalControl
 ---
 
 # IAMExtTransport::put_LocalControl
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_LocalControl</code> method switches the device between local and remote control.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param State [in]
 
@@ -83,33 +79,19 @@ Specifies the state of the device.
 <td>Remote control</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_localcontrol">IAMExtTransport::get_LocalControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_localcontrol">IAMExtTransport::get_LocalControl</a>

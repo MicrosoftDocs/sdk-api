@@ -1,16 +1,13 @@
 ---
 UID: NS:d3d12.D3D12_PACKED_MIP_INFO
 title: D3D12_PACKED_MIP_INFO (d3d12.h)
-description: Describes the tile structure of a tiled resource with mipmaps.
+description: Describes the tile structure of a tiled resource with mipmaps. (D3D12_PACKED_MIP_INFO)
+helpviewer_keywords: ["D3D12_PACKED_MIP_INFO","D3D12_PACKED_MIP_INFO structure","d3d12/D3D12_PACKED_MIP_INFO","direct3d12.d3d12_packed_mip_info"]
 old-location: direct3d12\d3d12_packed_mip_info.htm
 tech.root: direct3d12
 ms.assetid: B9231C70-A6FF-4660-90B8-04207D2FF762
 ms.date: 12/05/2018
 ms.keywords: D3D12_PACKED_MIP_INFO, D3D12_PACKED_MIP_INFO structure, d3d12/D3D12_PACKED_MIP_INFO, direct3d12.d3d12_packed_mip_info
-f1_keywords:
-- d3d12/D3D12_PACKED_MIP_INFO
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_PACKED_MIP_INFO
 targetos: Windows
 req.typenames: D3D12_PACKED_MIP_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_PACKED_MIP_INFO
+ - d3d12/D3D12_PACKED_MIP_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_PACKED_MIP_INFO
 ---
 
 # D3D12_PACKED_MIP_INFO structure
@@ -48,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the tile structure of a tiled resource with mipmaps.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field NumStandardMips
 
 The number of standard mipmaps in the tiled resource.
-          
-
 
 ### -field NumPackedMips
 
@@ -78,8 +72,6 @@ On Tier_2 tiled resources hardware, mipmaps that fill at least one standard shap
             On Tier_1 hardware, mipmaps that are an integer multiple of one standard shaped tile in all dimensions are not allowed to be included in the set of packed mipmaps.
             Mipmaps with at least one dimension less than the standard tile shape may or may not be packed.
             When a given mipmap needs to be packed, all coarser mipmaps for a given array slice are considered packed as well.
-          
-
 
 ### -field NumTilesForPackedMips
 
@@ -91,8 +83,6 @@ If there is no packing, this value is meaningless and is set to 0.
             The pixel layout within the packed mipmaps is hardware specific.
             If apps define only partial mappings for the set of tiles in packed mipmaps, read and write behavior is vendor specific and undefined.
             For arrays, this value is only the count of packed mipmaps within the subresources for each array slice.
-          
-
 
 ### -field StartTileIndexInOverallResource
 
@@ -111,25 +101,12 @@ The offset of the first packed tile for the resource in the overall range of til
 
 ## -remarks
 
-
-
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">GetResourceTiling</a> method.
-      
-
-
-
+This structure is used by the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">GetResourceTiling</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/cd3dx12-packed-mip-info">CD3DX12_PACKED_MIP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-packed-mip-info">CD3DX12_PACKED_MIP_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

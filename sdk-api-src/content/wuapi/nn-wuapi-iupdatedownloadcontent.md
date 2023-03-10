@@ -1,16 +1,13 @@
 ---
 UID: NN:wuapi.IUpdateDownloadContent
 title: IUpdateDownloadContent (wuapi.h)
-description: Represents the download content of an update.
+description: Represents the download content of an update. (IUpdateDownloadContent)
+helpviewer_keywords: ["IUpdateDownloadContent","IUpdateDownloadContent interface [Windows Update Agent]","IUpdateDownloadContent interface [Windows Update Agent]","described","wua.iupdatedownloadcontent","wuapi/IUpdateDownloadContent"]
 old-location: wua\iupdatedownloadcontent.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: c3e355bb-6e68-432c-83ef-1c9e0d6b63f8
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadContent, IUpdateDownloadContent interface [Windows Update Agent], IUpdateDownloadContent interface [Windows Update Agent],described, wua.iupdatedownloadcontent, wuapi/IUpdateDownloadContent
-f1_keywords:
-- wuapi/IUpdateDownloadContent
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateDownloadContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Use Windows Update or a Windows Update Services Server to retrieve the update on Windows XP.
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateDownloadContent
+ - wuapi/IUpdateDownloadContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateDownloadContent
 ---
 
 # IUpdateDownloadContent interface
@@ -49,17 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the download content of an update.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent2">IUpdateDownloadContent2</a>

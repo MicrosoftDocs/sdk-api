@@ -1,16 +1,13 @@
 ---
 UID: NF:infotech.IITPropList.Set(PROPID,DWORD,DWORD)
 title: IITPropList::Set(PROPID,DWORD,DWORD) (infotech.h)
-description: Sets a property to a given value or deletes a property from the list.
+description: Sets a property to a given value or deletes a property from the list. (overload 1/3)
+helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","Set method","IITPropList.Set","IITPropList.Set(PROPID","DWORD","DWORD)","IITPropList::Set","IITPropList::Set(PROPID","DWORD","DWORD)","PROP_ADD","PROP_DELETE","PROP_UPDATE","Set","Set method [HTML Help Workshop]","Set method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_set1","infotech/IITPropList::Set","refIITPropListSet"]
 old-location: htmlhelp\iitproplist_set1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistset.htm
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,DWORD,DWORD), IITPropList::Set, IITPropList::Set(PROPID,DWORD,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set1, infotech/IITPropList::Set, refIITPropListSet
-f1_keywords:
-- infotech/IITPropList.Set
-dev_langs:
-- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Infotech.h
-api_name:
-- IITPropList.Set
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IITPropList::Set
+ - infotech/IITPropList::Set
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Infotech.h
+api_name:
+ - IITPropList.Set
 ---
 
 # IITPropList::Set(PROPID,DWORD,DWORD)
@@ -48,30 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a property to a given value or deletes a property from the list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param PropID [in]
 
 ID of property to set.
 
-
-
-
 ### -param dwData [in]
 
 Value of property.
-
-
-
 
 ### -param dwOperation [in]
 
@@ -115,12 +104,8 @@ Update property in list
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -193,27 +178,11 @@ The specified operation is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use this method to set properties with numerical values.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>

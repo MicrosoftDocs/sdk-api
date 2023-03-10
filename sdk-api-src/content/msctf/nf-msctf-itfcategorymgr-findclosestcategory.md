@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCategoryMgr.FindClosestCategory
 title: ITfCategoryMgr::FindClosestCategory (msctf.h)
 description: ITfCategoryMgr::FindClosestCategory method
+helpviewer_keywords: ["FindClosestCategory","FindClosestCategory method [Text Services Framework]","FindClosestCategory method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","FindClosestCategory method","ITfCategoryMgr.FindClosestCategory","ITfCategoryMgr::FindClosestCategory","_tsf_itfcategorymgr_findclosestcategory_ref","msctf/ITfCategoryMgr::FindClosestCategory","tsf.itfcategorymgr_findclosestcategory"]
 old-location: tsf\itfcategorymgr_findclosestcategory.htm
 tech.root: TSF
 ms.assetid: 16a78457-b89c-43ef-8604-fd6c2f93f928
 ms.date: 12/05/2018
 ms.keywords: FindClosestCategory, FindClosestCategory method [Text Services Framework], FindClosestCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],FindClosestCategory method, ITfCategoryMgr.FindClosestCategory, ITfCategoryMgr::FindClosestCategory, _tsf_itfcategorymgr_findclosestcategory_ref, msctf/ITfCategoryMgr::FindClosestCategory, tsf.itfcategorymgr_findclosestcategory
-f1_keywords:
-- msctf/ITfCategoryMgr.FindClosestCategory
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.FindClosestCategory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::FindClosestCategory
+ - msctf/ITfCategoryMgr::FindClosestCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.FindClosestCategory
 ---
 
 # ITfCategoryMgr::FindClosestCategory
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Finds the category closest to the specified GUID from a list of categories.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Specifies the address of the GUID for which to find the closest category.
 
-
 ### -param pcatid [out]
 
-Pointer to the <b>GUID</b> that receives the CATID for the closest category.
-
+Pointer to the **GUID** that receives the CATID for the closest category.
 
 ### -param ppcatidList [in]
 
 Pointer to a pointer that specifies an array of CATIDs to search for the closest category.
 
-
 ### -param ulCount [in]
 
 Specifies the number of elements in the array of the <i>ppcatidList</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -143,39 +135,12 @@ There is insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The closest category to a <b>GUID</b> is chosen in one of two modes. In the first mode, the method receives a non-empty category list. It chooses the first matching <b>CATID</b> from that list or GUID_NULL if the list does not contain a category that contains the <b>GUID</b> . In the second mode, it receives an empty category list. It chooses the first category that contains the <b>GUID</b> or GUID_NULL if no category contains the <b>GUID</b> .
-
-
-
+The closest category to a **GUID** is chosen in one of two modes. In the first mode, the method receives a non-empty category list. It chooses the first matching **CATID** from that list or GUID_NULL if the list does not contain a category that contains the **GUID** . In the second mode, it receives an empty category list. It chooses the first category that contains the **GUID** or GUID_NULL if no category contains the **GUID** .
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumcategoriesinitem">ITfCategoryMgr::EnumCategoriesInItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-enumitemsincategory">ITfCategoryMgr::EnumItemsInCategory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registercategory">ITfCategoryMgr::RegisterCategory</a>
- 
-
- 
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::EnumCategoriesInItem](nf-msctf-itfcategorymgr-enumcategoriesinitem.md), [ITfCategoryMgr::EnumItemsInCategory](nf-msctf-itfcategorymgr-enumitemsincategory.md), [ITfCategoryMgr::RegisterCategory](nf-msctf-itfcategorymgr-registercategory.md)
 

@@ -2,15 +2,12 @@
 UID: NF:ndhelper.INetDiagHelper.Initialize
 title: INetDiagHelper::Initialize (ndhelper.h)
 description: The Initialize method passes in attributes to the Helper Class Extension from the hypothesis. The helper class should store these parameters for use in the main diagnostics functions. This method must be called before any diagnostics function.
+helpviewer_keywords: ["INetDiagHelper interface [NDF]","Initialize method","INetDiagHelper.Initialize","INetDiagHelper::Initialize","Initialize","Initialize method [NDF]","Initialize method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_initialize","ndhelper/INetDiagHelper::Initialize"]
 old-location: ndf\inetdiaghelpe_initialize.htm
 tech.root: NDF
 ms.assetid: 32003720-ca59-4203-a78c-9e40c626c9f8
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Initialize method, INetDiagHelper.Initialize, INetDiagHelper::Initialize, Initialize, Initialize method [NDF], Initialize method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_initialize, ndhelper/INetDiagHelper::Initialize
-f1_keywords:
-- ndhelper/INetDiagHelper.Initialize
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelper.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelper::Initialize
+ - ndhelper/INetDiagHelper::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelper.Initialize
 ---
 
 # INetDiagHelper::Initialize
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Initialize</b> method passes in attributes to the Helper Class Extension from the hypothesis.  The helper class should store these parameters for use in the main diagnostics functions.  This method must be called before any diagnostics function.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 A pointer to a count of elements in <b>HELPER_ATTRIBUTE</b> array.
 
-
 ### -param rgAttributes
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> array.
-
+A reference to the <a href="/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> array.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -136,25 +129,10 @@ The diagnosis or repair operation has been canceled.
 
 Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
 
-
-
-
 ## -remarks
-
-
 
 The Initialize method is required when building a Helper Class Extension.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

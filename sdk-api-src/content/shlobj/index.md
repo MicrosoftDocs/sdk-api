@@ -4,8 +4,11 @@ title: Shlobj.h header
 ms.assetid: 7e8dadd8-b163-38b9-92c1-3788e581a6ce
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: controls
+f1_keywords:
+ - shlobj
+ - shlobj/shlobj
 ---
 
 # Shlobj.h header
@@ -13,8 +16,9 @@ tech.root: controls
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by Windows Controls. For more information, see:
-
+- [Legacy Windows Environment Features](../_lwef/index.md)
+- [The Windows Shell](../_shell/index.md)
 - [Windows Controls](../_controls/index.md)
 

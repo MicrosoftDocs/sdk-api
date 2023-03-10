@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtBindingUnexportA
 title: RpcNsMgmtBindingUnexportA function (rpcnsi.h)
-description: The RpcNsMgmtBindingUnexport function removes multiple binding handles and objects from an entry in the name-service database.
+description: The RpcNsMgmtBindingUnexport function removes multiple binding handles and objects from an entry in the name-service database. (ANSI)
+helpviewer_keywords: ["RPC_C_VERS_ALL", "RPC_C_VERS_EXACT", "RPC_C_VERS_IF_ID", "RPC_C_VERS_MAJOR_ONLY", "RPC_C_VERS_UPTO", "RpcNsMgmtBindingUnexportA", "rpcnsi/RpcNsMgmtBindingUnexportA"]
 old-location: rpc\rpcnsmgmtbindingunexport.htm
 tech.root: Rpc
 ms.assetid: e15b9e45-ac9f-4f90-9323-8b16066290d2
 ms.date: 12/05/2018
 ms.keywords: RPC_C_VERS_ALL, RPC_C_VERS_EXACT, RPC_C_VERS_IF_ID, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsMgmtBindingUnexport, RpcNsMgmtBindingUnexport function [RPC], RpcNsMgmtBindingUnexportA, RpcNsMgmtBindingUnexportW, _rpc_rpcnsmgmtbindingunexport, rpc.rpcnsmgmtbindingunexport, rpcnsi/RpcNsMgmtBindingUnexport, rpcnsi/RpcNsMgmtBindingUnexportA, rpcnsi/RpcNsMgmtBindingUnexportW
-f1_keywords:
-- rpcnsi/RpcNsMgmtBindingUnexport
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsMgmtBindingUnexport
-- RpcNsMgmtBindingUnexportA
-- RpcNsMgmtBindingUnexportW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsMgmtBindingUnexportA
+ - rpcnsi/RpcNsMgmtBindingUnexportA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsMgmtBindingUnexport
+ - RpcNsMgmtBindingUnexportA
+ - RpcNsMgmtBindingUnexportW
 ---
 
 # RpcNsMgmtBindingUnexportA function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsMgmtBindingUnexport</b> function removes multiple binding handles and objects from an entry in the name-service database.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -69,16 +67,13 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the name of the entry from which to remove binding handles and object UUIDs.
 
-
 ### -param IfId
 
 Pointer to an interface identification. A null parameter value indicates that binding handles are not to be unexported—only object UUIDs are to be unexported.
-
 
 ### -param VersOption
 
@@ -147,17 +142,12 @@ Unexports the bindings that offer a version of the specified interface UUID less
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ObjectUuidVec
 
 Pointer to a vector of object UUIDs that the server no longer wants to offer. The application constructs this vector. A null value indicates there are no object UUIDs to unexport—only binding handles are to be unexported.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -267,14 +257,10 @@ Not all objects unexported.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsMgmtBindingUnexport</b> function allows a management application to remove one of the following from a name service–database entry:
@@ -294,30 +280,27 @@ If one or more binding handles for the specified interface are found and unexpor
 
 In addition to calling 
 <b>RpcNsMgmtBindingUnexport</b>, a management application should also call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepunregister">RpcMgmtEpUnregister</a> function to unregister the servers that have registered with the endpoint-map database.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepunregister">RpcMgmtEpUnregister</a> function to unregister the servers that have registered with the endpoint-map database.
 
 <div class="alert"><b>Note</b>  Name-service databases are designed to be relatively stable. In replicated name services, frequent use of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a> functions causes the name service to repeatedly remove and replace the same entry, which can cause performance problems.</div>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a> and 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a> functions causes the name service to repeatedly remove and replace the same entry, which can cause performance problems.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsMgmtBindingUnexport as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepunregister">RpcMgmtEpUnregister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepunregister">RpcMgmtEpUnregister</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>

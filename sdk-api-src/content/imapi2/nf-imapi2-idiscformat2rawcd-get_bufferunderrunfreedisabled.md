@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled
 title: IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled (imapi2.h)
-description: Determines if Buffer Underrun Free recording is enabled.
+description: Determines if Buffer Underrun Free recording is enabled. (IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled)
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_BufferUnderrunFreeDisabled method","IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled","IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled method [IMAPI]","get_BufferUnderrunFreeDisabled method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_bufferunderrunfreedisabled","imapi2/IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled"]
 old-location: imapi\idiscformat2rawcd_get_bufferunderrunfreedisabled.htm
 tech.root: imapi
 ms.assetid: 85b20760-334e-47a1-9683-be3d76c8958f
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_BufferUnderrunFreeDisabled method, IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled, IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled, get_BufferUnderrunFreeDisabled method [IMAPI], get_BufferUnderrunFreeDisabled method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_bufferunderrunfreedisabled, imapi2/IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled
+ - imapi2/IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled
 ---
 
 # IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if Buffer Underrun Free recording is enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Is VARIANT_TRUE if Buffer Underrun Free recording is disabled; otherwise, VARIANT_FALSE (enabled).
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,22 +81,11 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_bufferunderrunfreedisabled">IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_bufferunderrunfreedisabled">IDiscFormat2RawCD::put_BufferUnderrunFreeDisabled</a>

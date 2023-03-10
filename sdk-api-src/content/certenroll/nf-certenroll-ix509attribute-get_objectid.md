@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509Attribute.get_ObjectId
 title: IX509Attribute::get_ObjectId (certenroll.h)
-description: Retrieves the object identifier (OID) for the attribute.
+description: Retrieves the object identifier (OID) for the attribute. (IX509Attribute.get_ObjectId)
+helpviewer_keywords: ["IX509Attribute interface [Security]","ObjectId property","IX509Attribute.ObjectId","IX509Attribute.get_ObjectId","IX509Attribute::ObjectId","IX509Attribute::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","IX509Attribute interface","certenroll/IX509Attribute::ObjectId","certenroll/IX509Attribute::get_ObjectId","get_ObjectId","security.ix509attribute_objectid_property"]
 old-location: security\ix509attribute_objectid_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a65c7989-5e6e-4253-8ddc-1d1207fecaf8
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute interface [Security],ObjectId property, IX509Attribute.ObjectId, IX509Attribute.get_ObjectId, IX509Attribute::ObjectId, IX509Attribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Attribute interface, certenroll/IX509Attribute::ObjectId, certenroll/IX509Attribute::get_ObjectId, get_ObjectId, security.ix509attribute_objectid_property
-f1_keywords:
-- certenroll/IX509Attribute.ObjectId
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Attribute.ObjectId
-- IX509Attribute.get_ObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Attribute::get_ObjectId
+ - certenroll/IX509Attribute::get_ObjectId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Attribute.ObjectId
+ - IX509Attribute.get_ObjectId
 ---
 
 # IX509Attribute::get_ObjectId
@@ -49,39 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ObjectId</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the attribute.
+The <b>ObjectId</b> property retrieves the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the attribute.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-initialize">Initialize</a> method to specify the property value.
-
-
-
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-initialize">Initialize</a> method to specify the property value.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>

@@ -2,15 +2,12 @@
 UID: NF:wsmandisp.IWSMan.CreateSession
 title: IWSMan::CreateSession (wsmandisp.h)
 description: Creates a Session object that can then be used for subsequent network operations.
+helpviewer_keywords: ["CreateSession","CreateSession method [Windows Remote Management]","CreateSession method [Windows Remote Management]","IWSMan interface","IWSMan interface [Windows Remote Management]","CreateSession method","IWSMan.CreateSession","IWSMan::CreateSession","winrm.iwsman_createsession","wsmandisp/IWSMan::CreateSession"]
 old-location: winrm\iwsman_createsession.htm
 tech.root: winrm
 ms.assetid: 0ccab9bf-f8b4-432e-92d1-b5a5d3a2dfe5
 ms.date: 12/05/2018
 ms.keywords: CreateSession, CreateSession method [Windows Remote Management], CreateSession method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateSession method, IWSMan.CreateSession, IWSMan::CreateSession, winrm.iwsman_createsession, wsmandisp/IWSMan::CreateSession
-f1_keywords:
-- wsmandisp/IWSMan.CreateSession
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSMan.CreateSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSMan::CreateSession
+ - wsmandisp/IWSMan::CreateSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSMan.CreateSession
 ---
 
 # IWSMan::CreateSession
@@ -48,30 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a <a href="https://docs.microsoft.com/windows/desktop/WinRM/session">Session</a> object that can then be used for subsequent network operations.
-
+Creates a <a href="/windows/desktop/WinRM/session">Session</a> object that can then be used for subsequent network operations.
 
 ## -parameters
-
-
-
 
 ### -param connection [in]
 
 The protocol and service to connect to, including either IPv4 or IPv6. The format of the connection information is as follows: &lt;<i>Transport</i>&gt;&lt;<i>Address</i>&gt;&lt;<i>Suffix</i>&gt;. For examples, see Remarks. If no connection information is provided, the local computer is used.
 
-
 ### -param flags [in]
 
 The session flags that specify the authentication method, such as 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">Negotiate authentication</a> 
+     <a href="/windows/desktop/WinRM/windows-remote-management-glossary">Negotiate authentication</a> 
      or 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">Digest authentication</a>, 
+     <a href="/windows/desktop/WinRM/windows-remote-management-glossary">Digest authentication</a>, 
      for connecting to a remote computer. These flags also specify other session connection information, such as 
      encoding or encryption. This parameter must contain one or more of the flags in 
      <b>__WSManSessionFlags</b> for a remote connection. For more information, see 
-     <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-constants">Session Constants</a>. No flag settings are required for a 
+     <a href="/windows/desktop/WinRM/session-constants">Session Constants</a>. No flag settings are required for a 
      connection to the WinRM service on the local computer.
 
 If no  authentication flags are specified, Kerberos is used unless one of the following conditions is true, 
@@ -82,31 +78,21 @@ If no  authentication flags are specified, Kerberos is used unless one of the fo
 <li>the destination host is "localhost", "127.0.0.1" or "[::1]"</li>
 <li>the client computer is in a workgroup and the destination host is trusted</li>
 </ul>
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/authentication-for-remote-connections">Authentication for Remote Connections</a> and the <i>connectionOptions</i> parameter.
-
+For more information, see <a href="/windows/desktop/WinRM/authentication-for-remote-connections">Authentication for Remote Connections</a> and the <i>connectionOptions</i> parameter.
 
 ### -param connectionOptions [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object that contains a user name and password. The default is <b>NULL</b>.
-
+A pointer to an <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a> object that contains a user name and password. The default is <b>NULL</b>.
 
 ### -param session [out]
 
-A pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object.
-
+A pointer to a new <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a> object.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The following list contains examples of formats used to specify connection information in the <i>connection</i> parameter (when creating an HTTPS session, the &lt;<i>Address</i>&gt; field must match the server computer certificate name, otherwise a failure occurs):
 
@@ -137,19 +123,10 @@ Uses HTTPS and IPv6 with the given port.
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>
- 
-
- 
-
+<a href="/windows/desktop/WinRM/wsman-createsession">WSMan.CreateSession</a>

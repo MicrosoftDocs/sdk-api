@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPostView.SetReceivePostViewSamples
 title: IWMWriterPostView::SetReceivePostViewSamples (wmsdkidl.h)
 description: The SetReceivePostViewSamples method enables or disables delivery of postview samples for the specified stream.
+helpviewer_keywords: ["IWMWriterPostView interface [windows Media Format]","SetReceivePostViewSamples method","IWMWriterPostView.SetReceivePostViewSamples","IWMWriterPostView::SetReceivePostViewSamples","IWMWriterPostViewSetReceivePostViewSamples","SetReceivePostViewSamples","SetReceivePostViewSamples method [windows Media Format]","SetReceivePostViewSamples method [windows Media Format]","IWMWriterPostView interface","wmformat.iwmwriterpostview_setreceivepostviewsamples","wmsdkidl/IWMWriterPostView::SetReceivePostViewSamples"]
 old-location: wmformat\iwmwriterpostview_setreceivepostviewsamples.htm
 tech.root: wmformat
 ms.assetid: 6d58671a-357b-412b-ad77-61866b0dcce3
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetReceivePostViewSamples method, IWMWriterPostView.SetReceivePostViewSamples, IWMWriterPostView::SetReceivePostViewSamples, IWMWriterPostViewSetReceivePostViewSamples, SetReceivePostViewSamples, SetReceivePostViewSamples method [windows Media Format], SetReceivePostViewSamples method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setreceivepostviewsamples, wmsdkidl/IWMWriterPostView::SetReceivePostViewSamples
-f1_keywords:
-- wmsdkidl/IWMWriterPostView.SetReceivePostViewSamples
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPostView.SetReceivePostViewSamples
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPostView::SetReceivePostViewSamples
+ - wmsdkidl/IWMWriterPostView::SetReceivePostViewSamples
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPostView.SetReceivePostViewSamples
 ---
 
 # IWMWriterPostView::SetReceivePostViewSamples
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetReceivePostViewSamples</b> method enables or disables delivery of postview samples for the specified stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number.
 
-
 ### -param fReceivePostViewSamples [in]
 
 Boolean value that is True if postview samples must be delivered.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,22 +119,11 @@ Stream does not support postview.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getreceivepostviewsamples">IWMWriterPostView::GetReceivePostViewSamples</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getreceivepostviewsamples">IWMWriterPostView::GetReceivePostViewSamples</a>

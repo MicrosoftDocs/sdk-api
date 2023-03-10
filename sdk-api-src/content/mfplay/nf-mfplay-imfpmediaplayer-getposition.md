@@ -1,16 +1,13 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetPosition
 title: IMFPMediaPlayer::GetPosition (mfplay.h)
-description: Gets the current playback position.
+description: Gets the current playback position. (IMFPMediaPlayer.GetPosition)
+helpviewer_keywords: ["GetPosition","GetPosition method [Media Foundation]","GetPosition method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetPosition method","IMFPMediaPlayer.GetPosition","IMFPMediaPlayer::GetPosition","MFP_POSITIONTYPE_100NS","mf.imfpmediaplayer_getposition","mfplay/IMFPMediaPlayer::GetPosition"]
 old-location: mf\imfpmediaplayer_getposition.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e3401c66-0dc7-46ef-9a38-088d605a3038
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Media Foundation], GetPosition method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetPosition method, IMFPMediaPlayer.GetPosition, IMFPMediaPlayer::GetPosition, MFP_POSITIONTYPE_100NS, mf.imfpmediaplayer_getposition, mfplay/IMFPMediaPlayer::GetPosition
-f1_keywords:
-- mfplay/IMFPMediaPlayer.GetPosition
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.GetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::GetPosition
+ - mfplay/IMFPMediaPlayer::GetPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.GetPosition
 ---
 
 # IMFPMediaPlayer::GetPosition
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Gets the current playback position.
 
-
 ## -parameters
-
-
-
 
 ### -param guidPositionType [in]
 
@@ -88,17 +84,12 @@ The value returned in <i>pvPositionValue</i> is a <b>LARGE_INTEGER</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvPositionValue [out]
 
 Pointer to a <b>PROPVARIANT</b> that receives the playback position.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -147,21 +138,15 @@ No media item has been queued.
 </dl>
 </td>
 <td width="60%">
-The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
+The object's <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The playback position is calculated relative to the start time of the media item, which can be specified by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">IMFPMediaItem::SetStartStopPosition</a>. For example, if you set the start time to 20 seconds and the source duration is 60 seconds, the range of values returned by <b>GetPosition</b> is 0–40 seconds.
+The playback position is calculated relative to the start time of the media item, which can be specified by calling <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">IMFPMediaItem::SetStartStopPosition</a>. For example, if you set the start time to 20 seconds and the source duration is 60 seconds, the range of values returned by <b>GetPosition</b> is 0–40 seconds.
 
 
 #### Examples
@@ -195,21 +180,10 @@ HRESULT GetPositionHNS(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

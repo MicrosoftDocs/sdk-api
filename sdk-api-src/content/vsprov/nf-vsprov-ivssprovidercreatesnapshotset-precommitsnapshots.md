@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PreCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PreCommitSnapshots (vsprov.h)
 description: Ensures the provider is ready to quickly commit the prepared LUNs.
+helpviewer_keywords: ["IVssProviderCreateSnapshotSet interface [VSS]","PreCommitSnapshots method","IVssProviderCreateSnapshotSet.PreCommitSnapshots","IVssProviderCreateSnapshotSet::PreCommitSnapshots","PreCommitSnapshots","PreCommitSnapshots method [VSS]","PreCommitSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","base.ivssprovidercreatesnapshotset_precommitsnapshots","vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots"]
 old-location: base\ivssprovidercreatesnapshotset_precommitsnapshots.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: af1caf80-751d-4b0d-8b35-970800d1dee6
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet interface [VSS],PreCommitSnapshots method, IVssProviderCreateSnapshotSet.PreCommitSnapshots, IVssProviderCreateSnapshotSet::PreCommitSnapshots, PreCommitSnapshots, PreCommitSnapshots method [VSS], PreCommitSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, base.ivssprovidercreatesnapshotset_precommitsnapshots, vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots
-f1_keywords:
-- vsprov/IVssProviderCreateSnapshotSet.PreCommitSnapshots
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderCreateSnapshotSet.PreCommitSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderCreateSnapshotSet::PreCommitSnapshots
+ - vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderCreateSnapshotSet.PreCommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::PreCommitSnapshots
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PreCommitSnapshots</b> 
    method ensures the provider is ready to quickly commit the prepared LUNs. This happens 
    immediately before the flush-and-hold writes, but while applications are in a frozen state. During this call the 
    provider should prepare all shadow copies in the shadow copy set indicated by <i>SnapshotSetId</i> 
    for committing by the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a> method call 
+   <a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidercreatesnapshotset-commitsnapshots">CommitSnapshots</a> method call 
    that will follow. While the provider is processing this method, the applications have been frozen, so the time 
    spent in this method  should be minimized.
-  
-
 
 ## -parameters
-
-
-
 
 ### -param SnapshotSetId [in]
 
 The <b>VSS_ID</b> that identifies the shadow copy set.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -146,16 +139,6 @@ An unexpected provider error occurred. If this is returned, the error must be de
 If any other value is returned, VSS will write an event to the event log and convert the error to 
       <b>VSS_E_UNEXPECTED_PROVIDER_ERROR</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>

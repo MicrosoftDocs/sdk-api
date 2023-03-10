@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcdce.RpcServerUseProtseqEx
 title: RpcServerUseProtseqEx function (rpcdce.h)
-description: The RpcServerUseProtseqEx function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
+description: The RpcServerUseProtseqEx function (rpcdce.h) tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
+helpviewer_keywords: ["RpcServerUseProtseqEx","RpcServerUseProtseqEx function [RPC]","RpcServerUseProtseqExA","RpcServerUseProtseqExW","_rpc_rpcserveruseprotseqex","rpc.rpcserveruseprotseqex","rpcdce/RpcServerUseProtseqEx","rpcdce/RpcServerUseProtseqExA","rpcdce/RpcServerUseProtseqExW"]
 old-location: rpc\rpcserveruseprotseqex.htm
 tech.root: Rpc
 ms.assetid: a8cedfe9-9c16-4c35-9cc4-5ccaa9e130a8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: RpcServerUseProtseqEx, RpcServerUseProtseqEx function [RPC], RpcServerUseProtseqExA, RpcServerUseProtseqExW, _rpc_rpcserveruseprotseqex, rpc.rpcserveruseprotseqex, rpcdce/RpcServerUseProtseqEx, rpcdce/RpcServerUseProtseqExA, rpcdce/RpcServerUseProtseqExW
-f1_keywords:
-- rpcdce/RpcServerUseProtseqEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerUseProtseqEx
-- RpcServerUseProtseqExA
-- RpcServerUseProtseqExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerUseProtseqEx
+ - rpcdce/RpcServerUseProtseqEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerUseProtseqEx
+ - RpcServerUseProtseqExA
+ - RpcServerUseProtseqExW
 ---
 
 # RpcServerUseProtseqEx function
@@ -50,41 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerUseProtseqEx</b> function tells the RPC run-time library to use the specified protocol sequence for receiving remote procedure calls.
 
-
 ## -parameters
-
-
-
 
 ### -param Protseq
 
 Pointer to a string identifier of the protocol sequence to register with the RPC run-time library.
 
-
 ### -param MaxCalls
 
 Backlog queue length for the <b>ncacn_ip_tcp</b> protocol sequence. All other protocol sequences ignore this parameter. Use RPC_C_PROTSEQ_MAX_REQS_DEFAULT to specify the default value. See Remarks.
-
 
 ### -param SecurityDescriptor
 
 Pointer to an optional parameter provided for the Windows XP/2000/NT security subsystem. Used only for <b>ncacn_np</b> and <b>ncalrpc</b> protocol sequences. All other protocol sequences ignore this parameter. Using a security descriptor on the endpoint in order to make a server secure is not recommended. This parameter does not appear in the DCE specification for this API.
 
-
 ### -param Policy
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. The 
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and allow multihomed computers to selectively bind to network interface cards. The 
 <b>RPC_POLICY</b> structure enables the caller to direct the RPC run-time library to use an intranet port or an Internet port, among other options.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -150,23 +141,19 @@ The security descriptor is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 The parameters and effects of 
 <b>RpcServerUseProtseqEx</b> subsume those of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>. The difference is the <b>Policy</b> field, which allows you to restrict port allocation for dynamic ports and allows multihomed machines to selectively bind to network interface cards.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>. The difference is the <b>Policy</b> field, which allows you to restrict port allocation for dynamic ports and allows multihomed machines to selectively bind to network interface cards.
 
 Setting the <b>NICFlags</b> field of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure to zero makes this extended function functionally equivalent to the original 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>, and the server will bind to NICs based on the settings in the system registry. For information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>.
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure to zero makes this extended function functionally equivalent to the original 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>, and the server will bind to NICs based on the settings in the system registry. For information, see 
+<a href="/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>.
 
 <div class="alert"><b>Note</b>  The flag settings in the <b>Policy</b> field are effective only when the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> protocol sequence is in use. For all other protocol sequences, the RPC run time ignores these values.</div>
 <div> </div>
@@ -185,33 +172,23 @@ When the computer is configured to use selective binding, successful return does
 
 
 To register all protocol sequences, a server calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a> routine.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a> routine.
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a>.
-
-
-
+<a href="/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex">RpcServerUseProtseqEpEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex">RpcServerUseProtseqEpEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>

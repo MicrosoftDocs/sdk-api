@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnNetworkRemove
 title: IDot11AdHocManagerNotificationSink::OnNetworkRemove (adhoc.h)
 description: Notifies the client that a wireless ad hoc network destination is no longer available for connection.
+helpviewer_keywords: ["IDot11AdHocManagerNotificationSink interface [NativeWIFI]","OnNetworkRemove method","IDot11AdHocManagerNotificationSink.OnNetworkRemove","IDot11AdHocManagerNotificationSink::OnNetworkRemove","OnNetworkRemove","OnNetworkRemove method [NativeWIFI]","OnNetworkRemove method [NativeWIFI]","IDot11AdHocManagerNotificationSink interface","adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove","nwifi.idot11adhocmanagernotificationsink_onnetworkremove"]
 old-location: nwifi\idot11adhocmanagernotificationsink_onnetworkremove.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 9f325b86-3aff-4344-a154-86b74a922372
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocManagerNotificationSink interface [NativeWIFI],OnNetworkRemove method, IDot11AdHocManagerNotificationSink.OnNetworkRemove, IDot11AdHocManagerNotificationSink::OnNetworkRemove, OnNetworkRemove, OnNetworkRemove method [NativeWIFI], OnNetworkRemove method [NativeWIFI],IDot11AdHocManagerNotificationSink interface, adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove, nwifi.idot11adhocmanagernotificationsink_onnetworkremove
-f1_keywords:
-- adhoc/IDot11AdHocManagerNotificationSink.OnNetworkRemove
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocManagerNotificationSink.OnNetworkRemove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocManagerNotificationSink::OnNetworkRemove
+ - adhoc/IDot11AdHocManagerNotificationSink::OnNetworkRemove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocManagerNotificationSink.OnNetworkRemove
 ---
 
 # IDot11AdHocManagerNotificationSink::OnNetworkRemove
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the client that a wireless ad hoc network destination is no longer  available for connection.
-
 
 ## -parameters
 
-
-
-
 ### -param Signature [in]
 
-A pointer to a signature that uniquely identifies the newly unavailable network. For more information about signatures, see <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature">IDot11AdHocNetwork::GetSignature</a>.
-
+A pointer to a signature that uniquely identifies the newly unavailable network. For more information about signatures, see <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getsignature">IDot11AdHocNetwork::GetSignature</a>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -96,18 +90,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanagernotificationsink">IDot11AdHocManagerNotificationSink</a>

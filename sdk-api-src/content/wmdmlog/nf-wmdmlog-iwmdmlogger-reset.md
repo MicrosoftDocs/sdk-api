@@ -2,15 +2,12 @@
 UID: NF:wmdmlog.IWMDMLogger.Reset
 title: IWMDMLogger::Reset (wmdmlog.h)
 description: The Reset method deletes the contents of the current log file.
+helpviewer_keywords: ["IWMDMLogger interface [windows Media Device Manager]","Reset method","IWMDMLogger.Reset","IWMDMLogger::Reset","IWMDMLoggerReset","Reset","Reset method [windows Media Device Manager]","Reset method [windows Media Device Manager]","IWMDMLogger interface","wmdm.iwmdmlogger_reset","wmdmlog/IWMDMLogger::Reset"]
 old-location: wmdm\iwmdmlogger_reset.htm
 tech.root: WMDM
 ms.assetid: 1b26aede-0db4-4597-8494-7fd5e5cba857
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],Reset method, IWMDMLogger.Reset, IWMDMLogger::Reset, IWMDMLoggerReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_reset, wmdmlog/IWMDMLogger::Reset
-f1_keywords:
-- wmdmlog/IWMDMLogger.Reset
-dev_langs:
-- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMLogger.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMLogger::Reset
+ - wmdmlog/IWMDMLogger::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMLogger.Reset
 ---
 
 # IWMDMLogger::Reset
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Reset</b> method deletes the contents of the current log file.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -74,22 +64,12 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/WMDM/enabling-logging">Enabling Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-logging">Enabling Logging</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>

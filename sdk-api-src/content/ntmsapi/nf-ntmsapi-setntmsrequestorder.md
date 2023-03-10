@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.SetNtmsRequestOrder
 title: SetNtmsRequestOrder function (ntmsapi.h)
 description: The SetNtmsRequestOrder function sets the order that the specified request will be processed in the library queue.
+helpviewer_keywords: ["SetNtmsRequestOrder","SetNtmsRequestOrder function [Files]","_zaw_setntmsrequestorder","base.setntmsrequestorder","fs.setntmsrequestorder","ntmsapi/SetNtmsRequestOrder"]
 old-location: fs\setntmsrequestorder.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: d7171ce9-14d9-4fbc-b95f-19c502adedd0
 ms.date: 12/05/2018
 ms.keywords: SetNtmsRequestOrder, SetNtmsRequestOrder function [Files], _zaw_setntmsrequestorder, base.setntmsrequestorder, fs.setntmsrequestorder, ntmsapi/SetNtmsRequestOrder
-f1_keywords:
-- ntmsapi/SetNtmsRequestOrder
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SetNtmsRequestOrder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNtmsRequestOrder
+ - ntmsapi/SetNtmsRequestOrder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SetNtmsRequestOrder
 ---
 
 # SetNtmsRequestOrder function
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SetNtmsRequestOrder</b> function sets the order that the specified request will be processed in the library queue.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpRequestId [in]
 
 Unique identifier of a library request.
 
-
 ### -param dwOrderNumber [in]
 
 Order that the request will be processed in the queue.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -156,14 +148,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Currently NTMS_LM_MOUNT requests are sorted using the order number.
 
@@ -172,20 +158,10 @@ The order number set by the
 
 To process a request immediately, an application can set the order number to 1. To defer processing, an application should set the order number to a very large number or 0xFFFFFFFF. The order number of a request, which currently has an order number of zero, cannot be changed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsrequestorder">GetNtmsRequestOrder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsrequestorder">GetNtmsRequestOrder</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>

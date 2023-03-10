@@ -2,15 +2,12 @@
 UID: NN:oleidl.IOleCache2
 title: IOleCache2 (oleidl.h)
 description: Enables object clients to selectively update each cache that was created with IOleCache::Cache.
+helpviewer_keywords: ["IOleCache2","IOleCache2 interface [COM]","IOleCache2 interface [COM]","described","_ole_iolecache2","com.iolecache2","oleidl/IOleCache2"]
 old-location: com\iolecache2.htm
 tech.root: com
 ms.assetid: 8bbeca2d-c805-4116-b918-e2ddded8b160
 ms.date: 12/05/2018
 ms.keywords: IOleCache2, IOleCache2 interface [COM], IOleCache2 interface [COM],described, _ole_iolecache2, com.iolecache2, oleidl/IOleCache2
-f1_keywords:
-- oleidl/IOleCache2
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleCache2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleCache2
+ - oleidl/IOleCache2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleCache2
 ---
 
 # IOleCache2 interface
@@ -48,61 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables object clients to selectively update each cache that was created with <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
-
+Enables object clients to selectively update each cache that was created with <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleCache2</b> interface inherits from <b>IOleCache</b>. <b>IOleCache2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOleCache2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-discardcache">DiscardCache</a>
-</td>
-<td align="left" width="63%">
-Discards the caches found in memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache2-updatecache">UpdateCache</a>
-</td>
-<td align="left" width="63%">
-Updates the specified caches.
-
-</td>
-</tr>
-</table> 
-
+The <b>IOleCache2</b> interface inherits from <b>IOleCache</b>. <b>IOleCache2</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/objbase/nf-objbase-createdatacache">CreateDataCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-createdatacache">CreateDataCache</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>

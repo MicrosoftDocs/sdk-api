@@ -1,16 +1,13 @@
 ---
 UID: NF:ncrypt.NCryptSignHash
 title: NCryptSignHash function (ncrypt.h)
-description: Creates a signature of a hash value.
+description: Creates a signature of a hash value. (NCryptSignHash)
+helpviewer_keywords: ["BCRYPT_PAD_PKCS1","BCRYPT_PAD_PSS","NCRYPT_SILENT_FLAG","NCryptSignHash","NCryptSignHash function [Security]","ncrypt/NCryptSignHash","security.ncryptsignhash_func"]
 old-location: security\ncryptsignhash_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
-f1_keywords:
-- ncrypt/NCryptSignHash
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptSignHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptSignHash
+ - ncrypt/NCryptSignHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptSignHash
 ---
 
 # NCryptSignHash function
@@ -48,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptSignHash</b> function creates a signature of a hash value.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 The handle of the key to use to sign the hash.
 
-
 ### -param pPaddingInfo [in, optional]
 
 A pointer to a structure that contains padding information. The actual type of structure this parameter points to depends on the value of the <i>dwFlags</i> parameter. This parameter is only used with asymmetric keys and must be <b>NULL</b> otherwise.
-
 
 ### -param pbHashValue [in]
 
 A pointer to a buffer that contains the hash value to sign. The <i>cbInput</i> parameter contains the size of this buffer.
 
-
 ### -param cbHashValue [in]
 
 The number of bytes in the <i>pbHashValue</i> buffer to sign.
-
 
 ### -param pbSignature [out]
 
@@ -83,18 +76,15 @@ The address of a buffer to receive the signature produced by this function. The 
 
 If this parameter is <b>NULL</b>, this function will calculate the size required for the signature and return the size in the location pointed to by the <i>pcbResult</i> parameter.
 
-
 ### -param cbSignature [in]
 
 The size, in bytes, of the <i>pbSignature</i> buffer. This parameter is ignored if the <i>pbSignature</i> parameter is <b>NULL</b>.
-
 
 ### -param pcbResult [out]
 
 A pointer to a <b>DWORD</b> variable that receives the number of bytes copied to the <i>pbSignature</i> buffer. 
 
 If <i>pbSignature</i> is <b>NULL</b>, this receives the size, in bytes, required for the signature.
-
 
 ### -param dwFlags [in]
 
@@ -118,7 +108,7 @@ If the key is an asymmetric key, this can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Use the PKCS1 padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
+Use the PKCS1 padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info">BCRYPT_PKCS1_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -128,7 +118,7 @@ Use the PKCS1 padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to 
 </dl>
 </td>
 <td width="60%">
-Use the Probabilistic Signature Scheme (PSS) padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
+Use the Probabilistic Signature Scheme (PSS) padding scheme. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_pss_padding_info">BCRYPT_PSS_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -143,12 +133,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -229,16 +215,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

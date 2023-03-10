@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerSettingAccessCheck
 title: PowerSettingAccessCheck function (powrprof.h)
 description: Queries for a group policy override for specified power settings.
+helpviewer_keywords: ["ACCESS_ACTIVE_SCHEME","ACCESS_AC_POWER_SETTING_INDEX","ACCESS_CREATE_SCHEME","ACCESS_DC_POWER_SETTING_INDEX","ACCESS_SCHEME","PowerSettingAccessCheck","PowerSettingAccessCheck function","base.powersettingaccesscheck","powrprof/PowerSettingAccessCheck"]
 old-location: base\powersettingaccesscheck.htm
-tech.root: power
+tech.root: base
 ms.assetid: 0b89c189-b162-44d4-aa50-d78385e40c27
 ms.date: 12/05/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, PowerSettingAccessCheck, PowerSettingAccessCheck function, base.powersettingaccesscheck, powrprof/PowerSettingAccessCheck
-f1_keywords:
-- powrprof/PowerSettingAccessCheck
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerSettingAccessCheck
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerSettingAccessCheck
+ - powrprof/PowerSettingAccessCheck
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerSettingAccessCheck
 ---
 
 # PowerSettingAccessCheck function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries for a group policy override for specified power settings.
 
-
 ## -parameters
-
-
-
 
 ### -param AccessFlags [in]
 
@@ -122,17 +119,12 @@ Check for restrictions on creating or restoring power schemes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
@@ -179,22 +171,11 @@ Only Administrators can remotely access power settings.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

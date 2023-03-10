@@ -2,15 +2,12 @@
 UID: NF:fileapi.FindNextFileNameW
 title: FindNextFileNameW function (fileapi.h)
 description: Continues enumerating the hard links to a file using the handle returned by a successful call to the FindFirstFileNameW function.
+helpviewer_keywords: ["FindNextFileNameW","FindNextFileNameW function [Files]","fileapi/FindNextFileNameW","fs.findnextfilenamew"]
 old-location: fs\findnextfilenamew.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1d2f8041-2744-4f37-afde-ddce49a8bdc5
 ms.date: 12/05/2018
 ms.keywords: FindNextFileNameW, FindNextFileNameW function [Files], fileapi/FindNextFileNameW, fs.findnextfilenamew
-f1_keywords:
-- fileapi/FindNextFileNameW
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-L1-2-2.dll
-- KernelBase.dll
-api_name:
-- FindNextFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindNextFileNameW
+ - fileapi/FindNextFileNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-L1-2-2.dll
+ - KernelBase.dll
+api_name:
+ - FindNextFileNameW
 ---
 
 # FindNextFileNameW function
@@ -50,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Continues enumerating the hard links to a file using the handle returned by a successful call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a> function.
-
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hFindStream [in]
 
 A handle to the enumeration that is returned by a successful call to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>.
-
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>.
 
 ### -param StringLength [in, out]
 
@@ -72,30 +68,21 @@ The size of the <i>LinkName</i> parameter, in characters. If this call fails and
       error is <b>ERROR_MORE_DATA</b>, the value that is returned by this parameter is the size 
       that <i>LinkName</i>  must be to contain all the data.
 
-
 ### -param LinkName [in, out]
 
 A pointer to a buffer to store the first link name found for <i>lpFileName</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If no matching files can be found, the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+If no matching files can be found, the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        function returns <b>ERROR_HANDLE_EOF</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the function returns <b>TRUE</b>, there are more hard links to enumerate.
 
@@ -157,26 +144,15 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew">FindFirstFileNameW</a>

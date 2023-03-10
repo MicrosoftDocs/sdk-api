@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITBasicCallControl.Answer
 title: ITBasicCallControl::Answer (tapi3if.h)
 description: The Answer method answers an incoming call. This method can succeed only if the call state is CS_OFFERING.
+helpviewer_keywords: ["Answer","Answer method [TAPI 2.2]","Answer method [TAPI 2.2]","ITBasicCallControl interface","ITBasicCallControl interface [TAPI 2.2]","Answer method","ITBasicCallControl.Answer","ITBasicCallControl::Answer","_tapi3_itbasiccallcontrol_answer","tapi3.itbasiccallcontrol_answer","tapi3if/ITBasicCallControl::Answer"]
 old-location: tapi3\itbasiccallcontrol_answer.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 81928cf7-082e-44e1-a631-a50a1f01ecec
 ms.date: 12/05/2018
 ms.keywords: Answer, Answer method [TAPI 2.2], Answer method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Answer method, ITBasicCallControl.Answer, ITBasicCallControl::Answer, _tapi3_itbasiccallcontrol_answer, tapi3.itbasiccallcontrol_answer, tapi3if/ITBasicCallControl::Answer
-f1_keywords:
-- tapi3if/ITBasicCallControl.Answer
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.Answer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::Answer
+ - tapi3if/ITBasicCallControl::Answer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.Answer
 ---
 
 # ITBasicCallControl::Answer
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Answer</b> method answers an incoming call. This method can succeed only if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is CS_OFFERING.
-
-
-## -parameters
-
-
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> is CS_OFFERING.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,30 +110,19 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Tapi/answer-ovr">Answer Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/answer-ovr">Answer Overview</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>

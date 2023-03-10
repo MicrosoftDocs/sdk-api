@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IComActivityEvents.OnActivityTimeout
 title: IComActivityEvents::OnActivityTimeout (comsvcs.h)
 description: Generated when a call into an activity times out.
+helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityTimeout method","IComActivityEvents.OnActivityTimeout","IComActivityEvents::OnActivityTimeout","OnActivityTimeout","OnActivityTimeout method [COM+]","OnActivityTimeout method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityTimeout","comsvcs/IComActivityEvents::OnActivityTimeout","cos.icomactivityevents_onactivitytimeout"]
 old-location: cos\icomactivityevents_onactivitytimeout.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: f097bea7-99a4-41eb-9518-834683d9402b
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityTimeout method, IComActivityEvents.OnActivityTimeout, IComActivityEvents::OnActivityTimeout, OnActivityTimeout, OnActivityTimeout method [COM+], OnActivityTimeout method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityTimeout, comsvcs/IComActivityEvents::OnActivityTimeout, cos.icomactivityevents_onactivitytimeout
-f1_keywords:
-- comsvcs/IComActivityEvents.OnActivityTimeout
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComActivityEvents.OnActivityTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComActivityEvents::OnActivityTimeout
+ - comsvcs/IComActivityEvents::OnActivityTimeout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComActivityEvents.OnActivityTimeout
 ---
 
 # IComActivityEvents::OnActivityTimeout
@@ -48,56 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generated when a call into an activity times out.
-
 
 ## -parameters
 
-
-
-
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
-
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 ### -param guidCurrent [in]
 
 The GUID associated with the current activity.
 
-
 ### -param guidEntered [in]
 
 The causality identifier for the caller.
-
 
 ### -param dwThread [in]
 
 The identifier of the  thread executing the call.
 
-
 ### -param dwTimeout [in]
 
 The time-out period.
 
-
 ## -returns
-
-
 
 The user verifies the return values from this method.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomactivityevents">IComActivityEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomactivityevents">IComActivityEvents</a>

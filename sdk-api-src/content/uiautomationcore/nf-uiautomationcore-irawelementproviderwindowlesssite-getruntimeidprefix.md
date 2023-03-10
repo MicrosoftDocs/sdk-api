@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
 title: IRawElementProviderWindowlessSite::GetRuntimeIdPrefix (uiautomationcore.h)
 description: Retrieves a Microsoft UI Automation runtime ID that is unique to the windowless Microsoft ActiveX control site.
+helpviewer_keywords: ["GetRuntimeIdPrefix","GetRuntimeIdPrefix method [Windows Accessibility]","GetRuntimeIdPrefix method [Windows Accessibility]","IRawElementProviderWindowlessSite interface","IRawElementProviderWindowlessSite interface [Windows Accessibility]","GetRuntimeIdPrefix method","IRawElementProviderWindowlessSite.GetRuntimeIdPrefix","IRawElementProviderWindowlessSite::GetRuntimeIdPrefix","uiautomationcore/IRawElementProviderWindowlessSite::GetRuntimeIdPrefix","winauto.uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix"]
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix.htm
 tech.root: WinAuto
 ms.assetid: E10BBE53-5AAB-4BAB-AFC8-866224011E43
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeIdPrefix, GetRuntimeIdPrefix method [Windows Accessibility], GetRuntimeIdPrefix method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetRuntimeIdPrefix method, IRawElementProviderWindowlessSite.GetRuntimeIdPrefix, IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, uiautomationcore/IRawElementProviderWindowlessSite::GetRuntimeIdPrefix, winauto.uiauto_IRawElementProviderWindowlessSite_getRuntimeIdPrefix
-f1_keywords:
-- uiautomationcore/IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderWindowlessSite::GetRuntimeIdPrefix
+ - uiautomationcore/IRawElementProviderWindowlessSite::GetRuntimeIdPrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IRawElementProviderWindowlessSite.GetRuntimeIdPrefix
 ---
 
 # IRawElementProviderWindowlessSite::GetRuntimeIdPrefix
@@ -48,48 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a Microsoft UI Automation runtime ID that is unique to the windowless Microsoft ActiveX control site. 
-
+Retrieves a Microsoft UI Automation runtime ID that is unique to the windowless Microsoft ActiveX control site.
 
 ## -parameters
 
-
-
-
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives the runtime ID.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-A UI Automation fragment must implement the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">IRawElementProviderFragment::GetRuntimeId</a> method to return a unique ID for the fragment.  This is difficult for a windowless ActiveX control, which must be able to identify itself as unique among other windowless controls in the ActiveX control container.  To resolve this issue, the windowless site should implement the <b>GetRuntimeIdPrefix</b>  method by forming a <a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a> that contains the constant <b>UiaAppendRuntimeId</b>, followed by an integer value that is unique to this windowless site.  
+A UI Automation fragment must implement the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">IRawElementProviderFragment::GetRuntimeId</a> method to return a unique ID for the fragment.  This is difficult for a windowless ActiveX control, which must be able to identify itself as unique among other windowless controls in the ActiveX control container.  To resolve this issue, the windowless site should implement the <b>GetRuntimeIdPrefix</b>  method by forming a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the constant <b>UiaAppendRuntimeId</b>, followed by an integer value that is unique to this windowless site.  
 
 The fragment can then append an integer value that is unique relative to all other fragments in the windowless ActiveX control, and return it to the client.  
 
 
 
-For example, the site might return a SAFEARRAY with the following contents: <code>{ UiaAppendRuntimeId, 3 }</code>.  This might represent the third ActiveX control in the container.  The fragment provider's <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">GetRuntimeId</a> method could then form a SAFEARRAY with the following contents: <code>{ UiaAppendRuntimeId, 3, 5 }</code>.  This might represent the fifth fragment within the ActiveX container.  The whole SAFEARRAY would be a unique ID relative to the whole ActiveX control container.
+For example, the site might return a SAFEARRAY with the following contents: <code>{ UiaAppendRuntimeId, 3 }</code>.  This might represent the third ActiveX control in the container.  The fragment provider's <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">GetRuntimeId</a> method could then form a SAFEARRAY with the following contents: <code>{ UiaAppendRuntimeId, 3, 5 }</code>.  This might represent the fifth fragment within the ActiveX container.  The whole SAFEARRAY would be a unique ID relative to the whole ActiveX control container.
 
 
 
-A provider typically calls this method as part of handling the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">GetRuntimeId</a> method.
+A provider typically calls this method as part of handling the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">GetRuntimeId</a> method.
 
 
 #### Examples
@@ -126,17 +115,6 @@ IFACEMETHODIMP CProviderWindowlessSite::GetRuntimeIdPrefix(
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite">IRawElementProviderWindowlessSite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite">IRawElementProviderWindowlessSite</a>

@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
 title: PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN (winbio_adapter.h)
 description: Retrieves the number of correct samples required by the engine adapter to construct an enrollment template.
+helpviewer_keywords: ["EngineAdapterQuerySampleHint","EngineAdapterQuerySampleHint callback function [Windows Biometric Framework API]","PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN","PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback","secbiomet.engineadapterquerysamplehint","winbio_adapter/EngineAdapterQuerySampleHint"]
 old-location: secbiomet\engineadapterquerysamplehint.htm
 tech.root: SecBioMet
 ms.assetid: 9208cd3e-205d-4ef0-8f67-292385dea9a2
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterQuerySampleHint, EngineAdapterQuerySampleHint callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN, PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback, secbiomet.engineadapterquerysamplehint, winbio_adapter/EngineAdapterQuerySampleHint
-f1_keywords:
-- winbio_adapter/EngineAdapterQuerySampleHint
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterQuerySampleHint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
+ - winbio_adapter/PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterQuerySampleHint
 ---
 
 # PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to retrieve the number of correct samples required by the engine adapter to construct an enrollment template.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param SampleHint [out]
 
 Pointer to a variable that receives the number of required samples.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -101,14 +94,8 @@ The engine adapter does not support this property.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If an engine adapter requires a different number of samples in different situations, you should return the largest number. For example, if a fingerprint engine requires more swipes for an index finger than for a thumb, return the number required for the index finger.
 
@@ -164,21 +151,10 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

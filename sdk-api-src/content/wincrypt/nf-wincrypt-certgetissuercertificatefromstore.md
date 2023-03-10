@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertGetIssuerCertificateFromStore
 title: CertGetIssuerCertificateFromStore function (wincrypt.h)
 description: Retrieves the certificate context from the certificate store for the first or next issuer of the specified subject certificate. The new Certificate Chain Verification Functions are recommended instead of the use of this function.
+helpviewer_keywords: ["CERT_STORE_NO_CRL_FLAG","CERT_STORE_NO_ISSUER_FLAG","CERT_STORE_REVOCATION_FLAG","CERT_STORE_SIGNATURE_FLAG","CERT_STORE_TIME_VALIDITY_FLAG","CertGetIssuerCertificateFromStore","CertGetIssuerCertificateFromStore function [Security]","_crypto2_certgetissuercertificatefromstore","security.certgetissuercertificatefromstore","wincrypt/CertGetIssuerCertificateFromStore"]
 old-location: security\certgetissuercertificatefromstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b57982d0-cba8-43cd-a544-3635fdf599e2
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_NO_CRL_FLAG, CERT_STORE_NO_ISSUER_FLAG, CERT_STORE_REVOCATION_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetIssuerCertificateFromStore, CertGetIssuerCertificateFromStore function [Security], _crypto2_certgetissuercertificatefromstore, security.certgetissuercertificatefromstore, wincrypt/CertGetIssuerCertificateFromStore
-f1_keywords:
-- wincrypt/CertGetIssuerCertificateFromStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetIssuerCertificateFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetIssuerCertificateFromStore
+ - wincrypt/CertGetIssuerCertificateFromStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetIssuerCertificateFromStore
 ---
 
 # CertGetIssuerCertificateFromStore function
@@ -48,34 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertGetIssuerCertificateFromStore</b> function retrieves the certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> for the first or next issuer of the specified subject certificate. The new 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
-
+The <b>CertGetIssuerCertificateFromStore</b> function retrieves the certificate <a href="/windows/desktop/SecGloss/c-gly">context</a> from the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> for the first or next issuer of the specified subject certificate. The new 
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of the use of this function.
 
 ## -parameters
 
-
-
-
 ### -param hCertStore [in]
 
-Handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-
+Handle of a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 ### -param pSubjectContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the subject information. This parameter can be obtained from any certificate store or can be created by the calling application using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> function.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the subject information. This parameter can be obtained from any certificate store or can be created by the calling application using the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> function.
 
 ### -param pPrevIssuerContext [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the issuer information. An issuer can have multiple certificates, especially when a validity period is about to change. This parameter must be <b>NULL</b> on the call to get the first issuer certificate. To get the next certificate for the issuer, set <i>pPrevIssuerContext</i> to the <b>CERT_CONTEXT</b> structure returned by the previous call. 
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the issuer information. An issuer can have multiple certificates, especially when a validity period is about to change. This parameter must be <b>NULL</b> on the call to get the first issuer certificate. To get the next certificate for the issuer, set <i>pPrevIssuerContext</i> to the <b>CERT_CONTEXT</b> structure returned by the previous call. 
 
-This function frees the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> referenced by non-<b>NULL</b> values of this parameter.
-
+This function frees the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> referenced by non-<b>NULL</b> values of this parameter.
 
 ### -param pdwFlags [in, out]
 
@@ -152,23 +146,20 @@ If CERT_STORE_REVOCATION_FLAG is set and the issuer does not have a CRL in the s
 If CERT_STORE_SIGNATURE_FLAG or CERT_STORE_REVOCATION_FLAG is set, CERT_STORE_NO_ISSUER_FLAG is set if the function does not find an issuer certificate in the store. For more details, see  Remarks.
 
 In the case of a verification check failure, a pointer to the issuer's 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> is still returned and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is not updated.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> is still returned and 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is not updated.
 
 ## -returns
 
-
-
-If the function succeeds, the return value is a pointer to a read-only issuer <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
+If the function succeeds, the return value is a pointer to a read-only issuer <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 If the function fails and the first or next issuer certificate is not found, the return value is <b>NULL</b>.
 
-Only the last returned <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure must be freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. When the returned <b>CERT_CONTEXT</b> from one call to the function is supplied as the <i>pPrevIssuerContext</i> parameter on a subsequent call, the context is freed as part of the action of the function.
+Only the last returned <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure must be freed by calling 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. When the returned <b>CERT_CONTEXT</b> from one call to the function is supplied as the <i>pPrevIssuerContext</i> parameter on a subsequent call, the context is freed as part of the action of the function.
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -193,7 +184,7 @@ No issuer was found for the subject certificate.
 </dl>
 </td>
 <td width="60%">
-The issuer certificate is the same as the subject certificate. It is a self-signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">root certificate</a>.
+The issuer certificate is the same as the subject certificate. It is a self-signed <a href="/windows/desktop/SecGloss/r-gly">root certificate</a>.
 
 </td>
 </tr>
@@ -209,33 +200,17 @@ The handle in the <i>hCertStore</i> parameter is not the same as that of the cer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The returned pointer is freed when passed as the <i>pPrevIssuerContext</i> parameter on a subsequent call to the function. Otherwise, the pointer must be explicitly freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. A <i>pPrevIssuerContext</i> that is not <b>NULL</b> is always freed by <b>CertGetIssuerCertificateFromStore</b> using a call to <b>CertFreeCertificateContext</b>, even if there is an error in the function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. A <i>pPrevIssuerContext</i> that is not <b>NULL</b> is always freed by <b>CertGetIssuerCertificateFromStore</b> using a call to <b>CertFreeCertificateContext</b>, even if there is an error in the function.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> can be called to make a duplicate of the issuer certificate.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> can be called to make a duplicate of the issuer certificate.
 
 The hexadecimal values for <i>dwFlags</i> can be combined using a bitwise-<b>OR</b> operation to enable multiple verifications. For example, to enable both signature and time validity, the value 0x00000003 is passed in <i>dwFlags</i> on input. In this case, if CERT_STORE_SIGNATURE_FLAG verification succeeds but CERT_STORE_TIME_VALIDITY_FLAG verification fails, <i>dwFlags</i> returns as 0x00000002 on output.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>

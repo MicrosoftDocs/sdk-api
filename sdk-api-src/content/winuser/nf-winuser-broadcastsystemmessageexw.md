@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.BroadcastSystemMessageExW
 title: BroadcastSystemMessageExW function (winuser.h)
-description: Sends a message to the specified recipients.
+description: Sends a message to the specified recipients. (BroadcastSystemMessageExW)
+helpviewer_keywords: ["BSF_ALLOWSFW", "BSF_FLUSHDISK", "BSF_FORCEIFHUNG", "BSF_IGNORECURRENTTASK", "BSF_LUID", "BSF_NOHANG", "BSF_NOTIMEOUTIFNOTHUNG", "BSF_POSTMESSAGE", "BSF_QUERY", "BSF_RETURNHDESK", "BSF_SENDNOTIFYMESSAGE", "BSM_ALLCOMPONENTS", "BSM_ALLDESKTOPS", "BSM_APPLICATIONS", "BroadcastSystemMessageEx", "BroadcastSystemMessageEx function [Windows and Messages]", "BroadcastSystemMessageExW", "_win32_BroadcastSystemMessageEx", "_win32_broadcastsystemmessageex_cpp", "winmsg.broadcastsystemmessageex", "winui._win32_broadcastsystemmessageex", "winuser/BroadcastSystemMessageEx", "winuser/BroadcastSystemMessageExW"]
 old-location: winmsg\broadcastsystemmessageex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\broadcastsystemmessageex.htm
 ms.date: 12/05/2018
 ms.keywords: BSF_ALLOWSFW, BSF_FLUSHDISK, BSF_FORCEIFHUNG, BSF_IGNORECURRENTTASK, BSF_LUID, BSF_NOHANG, BSF_NOTIMEOUTIFNOTHUNG, BSF_POSTMESSAGE, BSF_QUERY, BSF_RETURNHDESK, BSF_SENDNOTIFYMESSAGE, BSM_ALLCOMPONENTS, BSM_ALLDESKTOPS, BSM_APPLICATIONS, BroadcastSystemMessageEx, BroadcastSystemMessageEx function [Windows and Messages], BroadcastSystemMessageExA, BroadcastSystemMessageExW, _win32_BroadcastSystemMessageEx, _win32_broadcastsystemmessageex_cpp, winmsg.broadcastsystemmessageex, winui._win32_broadcastsystemmessageex, winuser/BroadcastSystemMessageEx, winuser/BroadcastSystemMessageExA, winuser/BroadcastSystemMessageExW
-f1_keywords:
-- winuser/BroadcastSystemMessageEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- BroadcastSystemMessageEx
-- BroadcastSystemMessageExA
-- BroadcastSystemMessageExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BroadcastSystemMessageExW
+ - winuser/BroadcastSystemMessageExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - BroadcastSystemMessageEx
+ - BroadcastSystemMessageExA
+ - BroadcastSystemMessageExW
 ---
 
 # BroadcastSystemMessageExW function
@@ -50,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a message to the specified recipients. The recipients can be applications, installable drivers, network drivers, system-level device drivers, or any combination of these system components. 
 			
             
 
-This function is similar to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage">BroadcastSystemMessage</a> except that this function can return more information from the recipients.
-
+This function is similar to <a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage">BroadcastSystemMessage</a> except that this function can return more information from the recipients.
 
 ## -parameters
-
-
-
 
 ### -param flags [in]
 
@@ -125,7 +122,7 @@ Does not send the message to windows that belong to the current task. This preve
 </dl>
 </td>
 <td width="60%">
- If <b>BSF_LUID</b> is set, the message is sent to the window that has the same LUID as specified in the <b>luid</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a> structure.
+ If <b>BSF_LUID</b> is set, the message is sent to the window that has the same LUID as specified in the <b>luid</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a> structure.
 
 <b>Windows 2000:  </b>This flag is not supported.
 
@@ -171,7 +168,7 @@ Posts the message. Do not use in combination with <b>BSF_QUERY</b>.
 </dl>
 </td>
 <td width="60%">
- If access is denied and both this and <b>BSF_QUERY</b> are set, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a> returns both the desktop handle and the window handle. If access is denied and only <b>BSF_QUERY</b> is set, only the window handle is returned by <b>BSMINFO</b>.
+ If access is denied and both this and <b>BSF_QUERY</b> are set, <a href="/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a> returns both the desktop handle and the window handle. If access is denied and only <b>BSF_QUERY</b> is set, only the window handle is returned by <b>BSMINFO</b>.
 
 <b>Windows 2000:  </b>This flag is not supported.
 
@@ -195,13 +192,11 @@ Sends the message to one recipient at a time, sending to a subsequent recipient 
 </dl>
 </td>
 <td width="60%">
-Sends the message using <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
+Sends the message using <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. Do not use in combination with <b>BSF_QUERY</b>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpInfo [in, out, optional]
 
@@ -239,7 +234,7 @@ Broadcast to all system components.
 </dl>
 </td>
 <td width="60%">
-Broadcast to all desktops. Requires the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SE_TCB_NAME</a> privilege.
+Broadcast to all desktops. Requires the <a href="/windows/desktop/SecAuthZ/authorization-constants">SE_TCB_NAME</a> privilege.
 
 </td>
 </tr>
@@ -255,8 +250,6 @@ Broadcast to applications.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Msg [in]
 
@@ -264,69 +257,58 @@ Type: <b>UINT</b>
 
 The message to be sent. 
 
-For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
-
+For lists of the system-provided messages, see <a href="/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 ### -param wParam [in]
 
 Type: <b>WPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
-Additional message-specific information. 
-
+Additional message-specific information.
 
 ### -param pbsmInfo [out, optional]
 
 Type: <b>PBSMINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a> structure that contains additional information if the request is denied and <i>dwFlags</i> is set to <b>BSF_QUERY</b>. 
-
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a> structure that contains additional information if the request is denied and <i>dwFlags</i> is set to <b>BSF_QUERY</b>.
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>long</b>
-</strong>
+Type: <b>long</b>
 
 If the function succeeds, the return value is a positive value.
 
 If the function is unable to broadcast the message, the return value is –1. 
 
-If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient returned <b>BROADCAST_QUERY_DENY</b> to the corresponding message, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the <i>dwFlags</i> parameter is <b>BSF_QUERY</b> and at least one recipient returned <b>BROADCAST_QUERY_DENY</b> to the corresponding message, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 If <b>BSF_QUERY</b> is not specified, the function sends the specified message to all requested recipients, ignoring values returned by those recipients.
 
-If the caller's thread is on a desktop other than that of the window that denied the request, the caller must call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddesktop">SetThreadDesktop</a><b>(hdesk)</b> to query anything on that window. Also, the caller must call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a> on the returned <b>hdesk</b> handle.
+If the caller's thread is on a desktop other than that of the window that denied the request, the caller must call <a href="/windows/desktop/api/winuser/nf-winuser-setthreaddesktop">SetThreadDesktop</a><b>(hdesk)</b> to query anything on that window. Also, the caller must call <a href="/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a> on the returned <b>hdesk</b> handle.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines BroadcastSystemMessageEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-bsminfo">BSMINFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage">BroadcastSystemMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-broadcastsystemmessage">BroadcastSystemMessage</a>
 
 
 
@@ -334,7 +316,7 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
@@ -342,8 +324,4 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>

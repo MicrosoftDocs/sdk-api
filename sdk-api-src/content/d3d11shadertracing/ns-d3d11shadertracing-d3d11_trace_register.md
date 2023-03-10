@@ -2,15 +2,12 @@
 UID: NS:d3d11shadertracing.D3D11_TRACE_REGISTER
 title: D3D11_TRACE_REGISTER (d3d11shadertracing.h)
 description: Describes a trace register.
+helpviewer_keywords: ["D3D11_TRACE_REGISTER","D3D11_TRACE_REGISTER structure [Direct3D 11]","d3d11shadertracing/D3D11_TRACE_REGISTER","direct3d11.d3d11_trace_register"]
 old-location: direct3d11\d3d11_trace_register.htm
 tech.root: direct3d11
 ms.assetid: 32A51FC7-375D-40BE-95F2-65C5057F002C
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_REGISTER, D3D11_TRACE_REGISTER structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_REGISTER, direct3d11.d3d11_trace_register
-f1_keywords:
-- d3d11shadertracing/D3D11_TRACE_REGISTER
-dev_langs:
-- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11ShaderTracing.h
-api_name:
-- D3D11_TRACE_REGISTER
 targetos: Windows
 req.typenames: D3D11_TRACE_REGISTER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_TRACE_REGISTER
+ - d3d11shadertracing/D3D11_TRACE_REGISTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11ShaderTracing.h
+api_name:
+ - D3D11_TRACE_REGISTER
 ---
 
 # D3D11_TRACE_REGISTER structure
@@ -48,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a trace register.
-
 
 ## -struct-fields
 
-
-
-
 ### -field RegType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_register_type">D3D11_TRACE_REGISTER_TYPE</a>-typed value that identifies the type of register that the shader-trace object uses.
-          
-
+A <a href="/windows/desktop/api/d3d11shadertracing/ne-d3d11shadertracing-d3d11_trace_register_type">D3D11_TRACE_REGISTER_TYPE</a>-typed value that identifies the type of register that the shader-trace object uses.
 
 ### -field Index1D
 
@@ -95,7 +90,6 @@ An array of indexes for two-dimensional arrays. These indexes are used by the fo
 
 The index of the operand, which starts from 0.
 
-
 ### -field Flags
 
 A combination of the following flags that are combined by using a bitwise <b>OR</b> operation. The resulting value specifies more about the trace register.
@@ -110,12 +104,8 @@ A combination of the following flags that are combined by using a bitwise <b>OR<
 <td>Access to the register is part of the relative indexing of a register.</td>
 </tr>
 </table>
- 
-
 
 ## -remarks
-
-
 
 The following register types do not require an index:
 
@@ -134,15 +124,6 @@ The following register types do not require an index:
       </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>

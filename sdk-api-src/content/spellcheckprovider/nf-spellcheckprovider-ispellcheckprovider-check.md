@@ -1,16 +1,13 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Check
 title: ISpellCheckProvider::Check (spellcheckprovider.h)
-description: Checks the spelling of the supplied text and returns a collection of spelling errors.
+description: Checks the spelling of the supplied text and returns a collection of spelling errors. (ISpellCheckProvider.Check)
+helpviewer_keywords: ["Check","Check method [Internationalization for Windows Applications]","Check method [Internationalization for Windows Applications]","ISpellCheckProvider interface","ISpellCheckProvider interface [Internationalization for Windows Applications]","Check method","ISpellCheckProvider.Check","ISpellCheckProvider::Check","intl.ispellcheckprovider_check","spellcheckprovider/ISpellCheckProvider::Check"]
 old-location: intl\ispellcheckprovider_check.htm
 tech.root: Intl
 ms.assetid: B8C62B56-FF72-4C94-AC77-A6BEFCFE2589
 ms.date: 12/05/2018
 ms.keywords: Check, Check method [Internationalization for Windows Applications], Check method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],Check method, ISpellCheckProvider.Check, ISpellCheckProvider::Check, intl.ispellcheckprovider_check, spellcheckprovider/ISpellCheckProvider::Check
-f1_keywords:
-- spellcheckprovider/ISpellCheckProvider.Check
-dev_langs:
-- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheckprovider.h
-api_name:
-- ISpellCheckProvider.Check
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellCheckProvider::Check
+ - spellcheckprovider/ISpellCheckProvider::Check
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheckprovider.h
+api_name:
+ - ISpellCheckProvider.Check
 ---
 
 # ISpellCheckProvider::Check
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks the spelling of the supplied text and returns a collection of spelling errors.
 
-
 ## -parameters
-
-
-
 
 ### -param text [in]
 
 The text to check.
 
-
 ### -param value [out, retval]
 
-The result of checking this text, returned as an <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> object.
-
+The result of checking this text, returned as an <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,31 +105,15 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> should contain the results of spell checking. A correct <i>text</i> should return an empty (not a null) enumeration.
-
-
-
+The returned <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> should contain the results of spell checking. A correct <i>text</i> should return an empty (not a null) enumeration.
 
 ## -see-also
 
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>

@@ -2,15 +2,12 @@
 UID: NF:workspaceruntime.IWorkspace3.GetClaimsToken2
 title: IWorkspace3::GetClaimsToken2 (workspaceruntime.h)
 description: Retrieves a claims token.
+helpviewer_keywords: ["GetClaimsToken2","GetClaimsToken2 method [Remote Desktop Services]","GetClaimsToken2 method [Remote Desktop Services]","IWorkspace3 interface","IWorkspace3 interface [Remote Desktop Services]","GetClaimsToken2 method","IWorkspace3.GetClaimsToken2","IWorkspace3::GetClaimsToken2","termserv.iworkspace3_getclaimstoken2","workspaceruntime/IWorkspace3::GetClaimsToken2"]
 old-location: termserv\iworkspace3_getclaimstoken2.htm
 tech.root: TermServ
 ms.assetid: d615b999-0713-4d16-a89b-b5b208a76124
 ms.date: 12/05/2018
 ms.keywords: GetClaimsToken2, GetClaimsToken2 method [Remote Desktop Services], GetClaimsToken2 method [Remote Desktop Services],IWorkspace3 interface, IWorkspace3 interface [Remote Desktop Services],GetClaimsToken2 method, IWorkspace3.GetClaimsToken2, IWorkspace3::GetClaimsToken2, termserv.iworkspace3_getclaimstoken2, workspaceruntime/IWorkspace3::GetClaimsToken2
-f1_keywords:
-- workspaceruntime/IWorkspace3.GetClaimsToken2
-dev_langs:
-- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- workspaceruntime.h
-api_name:
-- IWorkspace3.GetClaimsToken2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspace3::GetClaimsToken2
+ - workspaceruntime/IWorkspace3::GetClaimsToken2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - workspaceruntime.h
+api_name:
+ - IWorkspace3.GetClaimsToken2
 ---
 
 # IWorkspace3::GetClaimsToken2
@@ -48,61 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a claims token.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrClaimsHint [in]
 
 String containing the claims hint.
 
-
 ### -param bstrUserHint [in]
 
 String containing the user hint.
-
 
 ### -param claimCookie [in]
 
 The claim cookie.
 
-
 ### -param hwndCredUiParent [in]
 
 Handle of the parent UI element the request came from.
-
 
 ### -param rectCredUiParent [in]
 
 Pointer to a RECT structure that contains the X and Y coordinates of the parent UI.
 
-
 ### -param pbstrAccessToken [out, retval]
 
 On success, return a pointer to a string containing the access token.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>

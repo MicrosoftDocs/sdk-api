@@ -2,15 +2,12 @@
 UID: NF:peninputpanel.ITextInputPanel.CommitPendingInput
 title: ITextInputPanel::CommitPendingInput (peninputpanel.h)
 description: Sends collected ink to the recognizer and posts the recognition result.
+helpviewer_keywords: ["652df9e7-5bac-4dc7-bd1a-3934a2bdeb94","CommitPendingInput","CommitPendingInput method [Tablet PC]","CommitPendingInput method [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CommitPendingInput method","ITextInputPanel.CommitPendingInput","ITextInputPanel::CommitPendingInput","peninputpanel/ITextInputPanel::CommitPendingInput","tablet.itextinputpanel_commitpendinginput"]
 old-location: tablet\itextinputpanel_commitpendinginput.htm
 tech.root: tablet
 ms.assetid: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94
 ms.date: 12/05/2018
 ms.keywords: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94, CommitPendingInput, CommitPendingInput method [Tablet PC], CommitPendingInput method [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CommitPendingInput method, ITextInputPanel.CommitPendingInput, ITextInputPanel::CommitPendingInput, peninputpanel/ITextInputPanel::CommitPendingInput, tablet.itextinputpanel_commitpendinginput
-f1_keywords:
-- peninputpanel/ITextInputPanel.CommitPendingInput
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.CommitPendingInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::CommitPendingInput
+ - peninputpanel/ITextInputPanel::CommitPendingInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.CommitPendingInput
 ---
 
 # ITextInputPanel::CommitPendingInput
@@ -48,8 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
+<p class="CCE_Message">[<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
 ]
 
@@ -58,17 +59,7 @@ Sends collected ink to the recognizer and posts the recognition result.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,31 +102,15 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The recognition result is sent to the control to which the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object is attached.
-
-
-
+The recognition result is sent to the control to which the <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object is attached.
 
 ## -see-also
 
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged">ITextInputPanelEventSink::InPlaceVisibilityChanged Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inplacevisibilitychanged">ITextInputPanelEventSink::InPlaceVisibilityChanged Method</a>

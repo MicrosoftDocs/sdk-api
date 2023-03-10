@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog.InstallApplication
 title: ICOMAdminCatalog::InstallApplication (comadmin.h)
 description: Installs a COM+ application or application proxy from the specified file.
+helpviewer_keywords: ["COMAdminInstallForceOverwriteOfFiles","COMAdminInstallNoUsers","COMAdminInstallUsers","ICOMAdminCatalog interface [COM+]","InstallApplication method","ICOMAdminCatalog.InstallApplication","ICOMAdminCatalog::InstallApplication","InstallApplication","InstallApplication method [COM+]","InstallApplication method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_InstallApplication","comadmin/ICOMAdminCatalog::InstallApplication","cos.icomadmincatalog_installapplication"]
 old-location: cos\icomadmincatalog_installapplication.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 668f73e1-7238-42f5-b68c-a0b0c2595d18
 ms.date: 12/05/2018
 ms.keywords: COMAdminInstallForceOverwriteOfFiles, COMAdminInstallNoUsers, COMAdminInstallUsers, ICOMAdminCatalog interface [COM+],InstallApplication method, ICOMAdminCatalog.InstallApplication, ICOMAdminCatalog::InstallApplication, InstallApplication, InstallApplication method [COM+], InstallApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallApplication, comadmin/ICOMAdminCatalog::InstallApplication, cos.icomadmincatalog_installapplication
-f1_keywords:
-- comadmin/ICOMAdminCatalog.InstallApplication
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.InstallApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::InstallApplication
+ - comadmin/ICOMAdminCatalog::InstallApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.InstallApplication
 ---
 
 # ICOMAdminCatalog::InstallApplication
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Installs a COM+ application or application proxy from the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrApplicationFile [in]
 
 The name of the file containing the application to be installed.
 
-
 ### -param bstrDestinationDirectory [in, optional]
 
-Where to install the components. If this parameter is blank, the default directory is used. 
-
+Where to install the components. If this parameter is blank, the default directory is used.
 
 ### -param lOptions [in, optional]
 
@@ -110,27 +105,20 @@ Overwrite files.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bstrUserId [in, optional]
 
 The user ID under which to run the application.
 
-
 ### -param bstrPassword [in, optional]
 
 The password under which to run the application.
 
-
 ### -param bstrRSN [in, optional]
 
-A remote server name to use for an application proxy. 
-
+A remote server name to use for an application proxy.
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -184,18 +172,7 @@ An error occurred accessing one or more objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.FindNextVolumeMountPointW
 title: FindNextVolumeMountPointW function (winbase.h)
-description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
+description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function. (Unicode)
+helpviewer_keywords: ["FindNextVolumeMountPoint", "FindNextVolumeMountPoint function [Files]", "FindNextVolumeMountPointW", "_win32_findnextvolumemountpoint", "base.findnextvolumemountpoint", "fs.findnextvolumemountpoint", "winbase/FindNextVolumeMountPoint", "winbase/FindNextVolumeMountPointW"]
 old-location: fs\findnextvolumemountpoint.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
 ms.date: 12/05/2018
 ms.keywords: FindNextVolumeMountPoint, FindNextVolumeMountPoint function [Files], FindNextVolumeMountPointA, FindNextVolumeMountPointW, _win32_findnextvolumemountpoint, base.findnextvolumemountpoint, fs.findnextvolumemountpoint, winbase/FindNextVolumeMountPoint, winbase/FindNextVolumeMountPointA, winbase/FindNextVolumeMountPointW
-f1_keywords:
-- winbase/FindNextVolumeMountPoint
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- FindNextVolumeMountPoint
-- FindNextVolumeMountPointA
-- FindNextVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindNextVolumeMountPointW
+ - winbase/FindNextVolumeMountPointW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - FindNextVolumeMountPoint
+ - FindNextVolumeMountPointA
+ - FindNextVolumeMountPointW
 ---
 
 # FindNextVolumeMountPointW function
@@ -57,65 +59,50 @@ ms.custom: 19H1
 
 ## -description
 
-
 Continues a mounted folder search started by a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> 
     function. <b>FindNextVolumeMountPoint</b> finds one mounted 
     folder per call.
 
-
 ## -parameters
-
-
-
 
 ### -param hFindVolumeMountPoint [in]
 
 A mounted folder search handle returned by a previous call to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> function.
-
+      <a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> function.
 
 ### -param lpszVolumeMountPoint [out]
 
 A pointer to a buffer that receives the name of the mounted folder that is found.
-
 
 ### -param cchBufferLength [in]
 
 The length of the buffer that receives the mounted folder name, in 
       <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If no more mounted folders can be found, 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If no more mounted folders can be found, 
        the <b>GetLastError</b> function returns the 
        <b>ERROR_NO_MORE_FILES</b> error code. In that case, close the search with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> function.
-
-
-
+       <a href="/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> function.
 
 ## -remarks
 
-
-
 After the search handle is established by calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a>, you can 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a>, you can 
     use the <b>FindNextVolumeMountPoint</b> function to 
     search for other mounted folders.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a>, 
+The <a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a>, 
     <b>FindNextVolumeMountPoint</b>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> functions return 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> functions return 
     paths to mounted folders for a specified volume. They do not return drive letters or volume GUID paths. For 
     information about enumerating the volume <b>GUID</b> paths for a volume, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/enumerating-unique-volume-names">Enumerating Volume GUID Paths</a>.
+    <a href="/windows/desktop/FileIO/enumerating-unique-volume-names">Enumerating Volume GUID Paths</a>.
 
 You should not assume any correlation between the order of the mounted folders that are returned with these 
     functions and the order of the mounted folders that are returned by other functions or tools.
@@ -186,25 +173,22 @@ SMB does not support volume management functions. CsvFS does not support adding 
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines FindNextVolumeMountPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a>
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

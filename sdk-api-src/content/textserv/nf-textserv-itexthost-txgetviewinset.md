@@ -2,15 +2,12 @@
 UID: NF:textserv.ITextHost.TxGetViewInset
 title: ITextHost::TxGetViewInset (textserv.h)
 description: Requests the dimensions of the white space inset around the text in the text host window.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetViewInset method","ITextHost.TxGetViewInset","ITextHost::TxGetViewInset","TxGetViewInset","TxGetViewInset method [Windows Controls]","TxGetViewInset method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetViewInset","_win32_ITextHost_TxGetViewInset_cpp","controls.ITextHost_TxGetViewInset","controls._win32_ITextHost_TxGetViewInset","textserv/ITextHost::TxGetViewInset"]
 old-location: controls\ITextHost_TxGetViewInset.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetviewinset.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetViewInset method, ITextHost.TxGetViewInset, ITextHost::TxGetViewInset, TxGetViewInset, TxGetViewInset method [Windows Controls], TxGetViewInset method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetViewInset, _win32_ITextHost_TxGetViewInset_cpp, controls.ITextHost_TxGetViewInset, controls._win32_ITextHost_TxGetViewInset, textserv/ITextHost::TxGetViewInset
-f1_keywords:
-- textserv/ITextHost.TxGetViewInset
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxGetViewInset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxGetViewInset
+ - textserv/ITextHost::TxGetViewInset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxGetViewInset
 ---
 
 # ITextHost::TxGetViewInset
@@ -48,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests the dimensions of the white space inset around the text in the text host window.
 
-
 ## -parameters
-
-
-
 
 ### -param prc
 
 Type: <b>LPRECT</b>
 
 The inset size, in client coordinates. The top, bottom, left, and right members of the 
-					<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure indicate how far in each direction the drawing should be inset. 
-
+					<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure indicate how far in each direction the drawing should be inset.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is <b>S_OK</b>.
 
-
-
-
 ## -remarks
-
-
 
 The view inset is the amount of space on each side between the client rectangle and the view rectangle. The view rectangle (also called the Formatting rectangle) is the rectangle in which the text should be formatted .
 
@@ -92,20 +81,10 @@ Single line–text services objects ignore the right boundary of the view rectan
 
 The view inset is available from the host at all times, active or inactive.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

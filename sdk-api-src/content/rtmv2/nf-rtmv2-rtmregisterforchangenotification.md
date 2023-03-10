@@ -2,15 +2,12 @@
 UID: NF:rtmv2.RtmRegisterForChangeNotification
 title: RtmRegisterForChangeNotification function (rtmv2.h)
 description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.
+helpviewer_keywords: ["RTM_CHANGE_TYPE_ALL","RTM_CHANGE_TYPE_BEST","RTM_CHANGE_TYPE_FORWARDING","RTM_NOTIFY_ONLY_MARKED_DESTS","RtmRegisterForChangeNotification","RtmRegisterForChangeNotification function [RAS]","_rtmv2ref_rtmregisterforchangenotification","rras.rtmregisterforchangenotification","rtmv2/RtmRegisterForChangeNotification"]
 old-location: rras\rtmregisterforchangenotification.htm
 tech.root: RRAS
 ms.assetid: b6e04984-ac92-44a2-a18c-018c6b1b49a9
 ms.date: 12/05/2018
 ms.keywords: RTM_CHANGE_TYPE_ALL, RTM_CHANGE_TYPE_BEST, RTM_CHANGE_TYPE_FORWARDING, RTM_NOTIFY_ONLY_MARKED_DESTS, RtmRegisterForChangeNotification, RtmRegisterForChangeNotification function [RAS], _rtmv2ref_rtmregisterforchangenotification, rras.rtmregisterforchangenotification, rtmv2/RtmRegisterForChangeNotification
-f1_keywords:
-- rtmv2/RtmRegisterForChangeNotification
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmRegisterForChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmRegisterForChangeNotification
+ - rtmv2/RtmRegisterForChangeNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmRegisterForChangeNotification
 ---
 
 # RtmRegisterForChangeNotification function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmRegisterForChangeNotification</b> function informs the routing table manager that the client should receive change notifications for the specified types of changes. The routing table manager returns a change notification handle, which the client must use when requesting change information after receiving a change notification message.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param TargetViews [in]
 
 Specifies the views in which to register for change notification.
-
 
 ### -param NotifyFlags [in]
 
@@ -121,25 +116,19 @@ Notify the client of changes to destinations that the client has marked. If this
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NotifyContext [in]
 
 Specifies the notification context that the 
-<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> uses to indicate new changes. The notification context is the <i>Context2</i> parameter of the 
+<a href="/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> uses to indicate new changes. The notification context is the <i>Context2</i> parameter of the 
 <b>RTM_EVENT_CALLBACK</b> callback.
-
 
 ### -param NotifyHandle [out]
 
 Receives a handle to a change notification. The handle must be used when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -200,43 +189,27 @@ One or more of the specified views is not supported.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
 
-
-
 A client calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmmarkdestforchangenotification">RtmMarkDestForChangeNotification</a> when it is registering for changes to a specific destination.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmmarkdestforchangenotification">RtmMarkDestForChangeNotification</a> when it is registering for changes to a specific destination.
 
 The routing table manager uses the 
-<a href="https://docs.microsoft.com/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> callback, specified when the client called 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>, to notify the client when changes have occurred; the client must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a> to receive the actual change information.
+<a href="/windows/win32/api/rtmv2/nc-rtmv2-_event_callback">RTM_EVENT_CALLBACK</a> callback, specified when the client called 
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>, to notify the client when changes have occurred; the client must call 
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a> to receive the actual change information.
 
 For sample code using this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/register-for-change-notification">Register For Change Notification</a>.
-
-
-
+<a href="/windows/desktop/RRAS/register-for-change-notification">Register For Change Notification</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmderegisterfromchangenotification">RtmDeregisterFromChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmderegisterfromchangenotification">RtmDeregisterFromChangeNotification</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetchangeddests">RtmGetChangedDests</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmmarkdestforchangenotification">RtmMarkDestForChangeNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmmarkdestforchangenotification">RtmMarkDestForChangeNotification</a>

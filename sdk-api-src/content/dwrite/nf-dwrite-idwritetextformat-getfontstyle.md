@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteTextFormat.GetFontStyle
 title: IDWriteTextFormat::GetFontStyle (dwrite.h)
 description: Gets the font style of the text.
+helpviewer_keywords: ["GetFontStyle","GetFontStyle method [Direct Write]","GetFontStyle method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontStyle method","IDWriteTextFormat.GetFontStyle","IDWriteTextFormat::GetFontStyle","directwrite.IDWriteTextFormat_GetFontStyle","dwrite/IDWriteTextFormat::GetFontStyle"]
 old-location: directwrite\IDWriteTextFormat_GetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 53a52196-6640-46b1-afdf-ee5ba9e1ef11
 ms.date: 12/05/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Direct Write], GetFontStyle method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontStyle method, IDWriteTextFormat.GetFontStyle, IDWriteTextFormat::GetFontStyle, directwrite.IDWriteTextFormat_GetFontStyle, dwrite/IDWriteTextFormat::GetFontStyle
-f1_keywords:
-- dwrite/IDWriteTextFormat.GetFontStyle
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat.GetFontStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat::GetFontStyle
+ - dwrite/IDWriteTextFormat::GetFontStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat.GetFontStyle
 ---
 
 # IDWriteTextFormat::GetFontStyle
@@ -48,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the font style of the text.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a></b>
 
 A value which indicates the type of font style (such as  slope or incline).
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
- 
-
- 
 

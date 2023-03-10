@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetBreakOnID
 title: ID3D12InfoQueue::GetBreakOnID (d3d12sdklayers.h)
-description: Get a message identifier to break on when a message with that identifier passes through the storage filter.
+description: Get a message identifier to break on when a message with that identifier passes through the storage filter. (ID3D12InfoQueue.GetBreakOnID)
+helpviewer_keywords: ["GetBreakOnID","GetBreakOnID method","GetBreakOnID method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetBreakOnID method","ID3D12InfoQueue.GetBreakOnID","ID3D12InfoQueue::GetBreakOnID","d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID","direct3d12.id3d12infoqueue_getbreakonid"]
 old-location: direct3d12\id3d12infoqueue_getbreakonid.htm
 tech.root: direct3d12
 ms.assetid: 04763E09-3076-4865-8026-976ED08B61C3
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnID, GetBreakOnID method, GetBreakOnID method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnID method, ID3D12InfoQueue.GetBreakOnID, ID3D12InfoQueue::GetBreakOnID, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID, direct3d12.id3d12infoqueue_getbreakonid
-f1_keywords:
-- d3d12sdklayers/ID3D12InfoQueue.GetBreakOnID
-dev_langs:
-- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12sdklayers.h
-api_name:
-- ID3D12InfoQueue.GetBreakOnID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12InfoQueue::GetBreakOnID
+ - d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12sdklayers.h
+api_name:
+ - ID3D12InfoQueue.GetBreakOnID
 ---
 
 # ID3D12InfoQueue::GetBreakOnID
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Get a message identifier to break on when a message with that identifier passes through the storage filter.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ID [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_message_id">D3D12_MESSAGE_ID</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12sdklayers/ne-d3d12sdklayers-d3d12_message_id">D3D12_MESSAGE_ID</a></b>
 
 Message identifier to break on.
-          
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Whether this breaking condition is turned on or off (true for on, false for off).
 
-
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>

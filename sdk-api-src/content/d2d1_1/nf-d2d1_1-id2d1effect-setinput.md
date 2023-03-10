@@ -2,15 +2,12 @@
 UID: NF:d2d1_1.ID2D1Effect.SetInput
 title: ID2D1Effect::SetInput (d2d1_1.h)
 description: Sets the given input image by index.
+helpviewer_keywords: ["ID2D1Effect interface [Direct2D]","SetInput method","ID2D1Effect.SetInput","ID2D1Effect::SetInput","SetInput","SetInput method [Direct2D]","SetInput method [Direct2D]","ID2D1Effect interface","d2d1_1/ID2D1Effect::SetInput","direct2d.id2d1effect_setinput"]
 old-location: direct2d\id2d1effect_setinput.htm
 tech.root: Direct2D
 ms.assetid: 16db95e8-43e7-403c-bce1-dd2f42e81d6a
 ms.date: 12/05/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInput method, ID2D1Effect.SetInput, ID2D1Effect::SetInput, SetInput, SetInput method [Direct2D], SetInput method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInput, direct2d.id2d1effect_setinput
-f1_keywords:
-- d2d1_1/ID2D1Effect.SetInput
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Effect.SetInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Effect::SetInput
+ - d2d1_1/ID2D1Effect::SetInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Effect.SetInput
 ---
 
 # ID2D1Effect::SetInput
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the given input image by index. 
-
+Sets the given input image by index.
 
 ## -parameters
-
-
-
 
 ### -param index
 
@@ -63,13 +60,11 @@ Type: <b>UINT32</b>
 
 The index of the image to set.
 
-
 ### -param input [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>*</b>
 
 The input image to set.
-
 
 ### -param invalidate
 
@@ -77,44 +72,22 @@ Type: <b>BOOL</b>
 
 Whether to invalidate the graph at the location of the effect input
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
-
-
-If the input index is out of range, the input image is ignored. 
-
-
-
+If the input index is out of range, the input image is ignored.
 
 ## -see-also
 
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">ID2D1Effect::GetOutput</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1effect-getoutput">ID2D1Effect::GetOutput</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>

@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.GatherWriterMetadata
 title: IVssBackupComponents::GatherWriterMetadata (vsbackup.h)
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
+helpviewer_keywords: ["GatherWriterMetadata","GatherWriterMetadata method [VSS]","GatherWriterMetadata method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","GatherWriterMetadata method","IVssBackupComponents.GatherWriterMetadata","IVssBackupComponents::GatherWriterMetadata","_win32_ivssbackupcomponents_gatherwritermetadata","base.ivssbackupcomponents_gatherwritermetadata","vsbackup/IVssBackupComponents::GatherWriterMetadata"]
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.date: 12/05/2018
 ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
-f1_keywords:
-- vsbackup/IVssBackupComponents.GatherWriterMetadata
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.GatherWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::GatherWriterMetadata
+ - vsbackup/IVssBackupComponents::GatherWriterMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.GatherWriterMetadata
 ---
 
 # IVssBackupComponents::GatherWriterMetadata
@@ -49,25 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>GatherWriterMetadata</b> method prompts each writer to send the metadata they have collected. The method will generate an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event to communicate with writers.
-
+<b>GatherWriterMetadata</b> method prompts each writer to send the metadata they have collected. The method will generate an <a href="/windows/desktop/VSS/vssgloss-i">Identify</a> event to communicate with writers.
 
 ## -parameters
-
-
-
 
 ### -param pAsync [out]
 
 Doubly indirect pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing the writer metadata.
-
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object containing the writer metadata.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -84,8 +78,8 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values returned by the <i>pHrResult</i> parameter.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. See 
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the valid values returned by the <i>pHrResult</i> parameter.
 
 </td>
 </tr>
@@ -152,53 +146,37 @@ The writer infrastructure is not operating properly. Check that the Event Servic
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for releasing the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
 
 <b>GatherWriterMetadata</b> should be called only once during the lifetime of a given 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> object.
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a> object.
 
 <b>GatherWriterMetadata</b> generates an Identify event, which is handled by each instance of each writer through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> method, which is used to fill the Writer Metadata Document.
-
-
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> method, which is used to fill the Writer Metadata Document.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>

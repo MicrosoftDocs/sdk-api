@@ -2,15 +2,12 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_FORMAT_INFO
 title: D3D12_FEATURE_DATA_FORMAT_INFO (d3d12.h)
 description: Describes a DXGI data format and plane count.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_FORMAT_INFO","D3D12_FEATURE_DATA_FORMAT_INFO structure","d3d12/D3D12_FEATURE_DATA_FORMAT_INFO","direct3d12.d3d12_feature_data_format_info"]
 old-location: direct3d12\d3d12_feature_data_format_info.htm
 tech.root: direct3d12
 ms.assetid: 8695994A-CC83-451C-AD1B-65359656F3CC
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_FORMAT_INFO, D3D12_FEATURE_DATA_FORMAT_INFO structure, d3d12/D3D12_FEATURE_DATA_FORMAT_INFO, direct3d12.d3d12_feature_data_format_info
-f1_keywords:
-- d3d12/D3D12_FEATURE_DATA_FORMAT_INFO
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_FEATURE_DATA_FORMAT_INFO
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_FORMAT_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_FEATURE_DATA_FORMAT_INFO
+ - d3d12/D3D12_FEATURE_DATA_FORMAT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_FEATURE_DATA_FORMAT_INFO
 ---
 
 # D3D12_FEATURE_DATA_FORMAT_INFO structure
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a DXGI data format and plane count.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Format
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the format to return info about.
-
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value for the format to return info about.
 
 ### -field PlaneCount
 
 The number of planes to provide information about.
 
-
 ## -remarks
 
-
-
-See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>.
+See <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>.
 
 
 #### Examples
@@ -93,21 +86,10 @@ inline UINT8 D3D12GetFormatPlaneCount(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>

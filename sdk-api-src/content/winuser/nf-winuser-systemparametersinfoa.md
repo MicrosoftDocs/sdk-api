@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.SystemParametersInfoA
 title: SystemParametersInfoA function (winuser.h)
-description: Retrieves or sets the value of one of the system-wide parameters.
+description: Retrieves or sets the value of one of the system-wide parameters. (ANSI)
+helpviewer_keywords: ["SPIF_SENDCHANGE", "SPIF_SENDWININICHANGE", "SPIF_UPDATEINIFILE", "SPI_GETACCESSTIMEOUT", "SPI_GETACTIVEWINDOWTRACKING", "SPI_GETACTIVEWNDTRKTIMEOUT", "SPI_GETACTIVEWNDTRKZORDER", "SPI_GETANIMATION", "SPI_GETAUDIODESCRIPTION", "SPI_GETBEEP", "SPI_GETBLOCKSENDINPUTRESETS", "SPI_GETBORDER", "SPI_GETCARETWIDTH", "SPI_GETCLEARTYPE", "SPI_GETCLIENTAREAANIMATION", "SPI_GETCOMBOBOXANIMATION", "SPI_GETCONTACTVISUALIZATION", "SPI_GETCURSORSHADOW", "SPI_GETDEFAULTINPUTLANG", "SPI_GETDESKWALLPAPER", "SPI_GETDISABLEOVERLAPPEDCONTENT", "SPI_GETDOCKMOVING", "SPI_GETDRAGFROMMAXIMIZE", "SPI_GETDRAGFULLWINDOWS", "SPI_GETDROPSHADOW", "SPI_GETFILTERKEYS", "SPI_GETFLATMENU", "SPI_GETFOCUSBORDERHEIGHT", "SPI_GETFOCUSBORDERWIDTH", "SPI_GETFONTSMOOTHING", "SPI_GETFONTSMOOTHINGCONTRAST", "SPI_GETFONTSMOOTHINGORIENTATION", "SPI_GETFONTSMOOTHINGTYPE", "SPI_GETFOREGROUNDFLASHCOUNT", "SPI_GETFOREGROUNDLOCKTIMEOUT", "SPI_GETGESTUREVISUALIZATION", "SPI_GETGRADIENTCAPTIONS", "SPI_GETHIGHCONTRAST", "SPI_GETHOTTRACKING", "SPI_GETHUNGAPPTIMEOUT", "SPI_GETICONMETRICS", "SPI_GETICONTITLELOGFONT", "SPI_GETICONTITLEWRAP", "SPI_GETKEYBOARDCUES", "SPI_GETKEYBOARDDELAY", "SPI_GETKEYBOARDPREF", "SPI_GETKEYBOARDSPEED", "SPI_GETLISTBOXSMOOTHSCROLLING", "SPI_GETLOGICALDPIOVERRIDE", "SPI_GETLOWPOWERACTIVE", "SPI_GETLOWPOWERTIMEOUT", "SPI_GETMENUANIMATION", "SPI_GETMENUDROPALIGNMENT", "SPI_GETMENUFADE", "SPI_GETMENUSHOWDELAY", "SPI_GETMENUUNDERLINES", "SPI_GETMESSAGEDURATION", "SPI_GETMINIMIZEDMETRICS", "SPI_GETMOUSE", "SPI_GETMOUSECLICKLOCK", "SPI_GETMOUSECLICKLOCKTIME", "SPI_GETMOUSEDOCKTHRESHOLD", "SPI_GETMOUSEDRAGOUTTHRESHOLD", "SPI_GETMOUSEHOVERHEIGHT", "SPI_GETMOUSEHOVERTIME", "SPI_GETMOUSEHOVERWIDTH", "SPI_GETMOUSEKEYS", "SPI_GETMOUSESIDEMOVETHRESHOLD", "SPI_GETMOUSESONAR", "SPI_GETMOUSESPEED", "SPI_GETMOUSETRAILS", "SPI_GETMOUSEVANISH", "SPI_GETMOUSEWHEELROUTING", "SPI_GETNONCLIENTMETRICS", "SPI_GETPENDOCKTHRESHOLD", "SPI_GETPENDRAGOUTTHRESHOLD", "SPI_GETPENSIDEMOVETHRESHOLD", "SPI_GETPENVISUALIZATION", "SPI_GETPOWEROFFACTIVE", "SPI_GETPOWEROFFTIMEOUT", "SPI_GETSCREENREADER", "SPI_GETSCREENSAVEACTIVE", "SPI_GETSCREENSAVERRUNNING", "SPI_GETSCREENSAVESECURE", "SPI_GETSCREENSAVETIMEOUT", "SPI_GETSELECTIONFADE", "SPI_GETSERIALKEYS", "SPI_GETSHOWIMEUI", "SPI_GETSHOWSOUNDS", "SPI_GETSNAPSIZING", "SPI_GETSNAPTODEFBUTTON", "SPI_GETSOUNDSENTRY", "SPI_GETSTICKYKEYS", "SPI_GETSYSTEMLANGUAGEBAR", "SPI_GETTHREADLOCALINPUTSETTINGS", "SPI_GETTOGGLEKEYS", "SPI_GETTOOLTIPANIMATION", "SPI_GETTOOLTIPFADE", "SPI_GETUIEFFECTS", "SPI_GETWAITTOKILLSERVICETIMEOUT", "SPI_GETWAITTOKILLTIMEOUT", "SPI_GETWHEELSCROLLCHARS", "SPI_GETWHEELSCROLLLINES", "SPI_GETWINARRANGING", "SPI_GETWORKAREA", "SPI_ICONHORIZONTALSPACING", "SPI_ICONVERTICALSPACING", "SPI_SETACCESSTIMEOUT", "SPI_SETACTIVEWINDOWTRACKING", "SPI_SETACTIVEWNDTRKTIMEOUT", "SPI_SETACTIVEWNDTRKZORDER", "SPI_SETANIMATION", "SPI_SETAUDIODESCRIPTION", "SPI_SETBEEP", "SPI_SETBLOCKSENDINPUTRESETS", "SPI_SETBORDER", "SPI_SETCARETWIDTH", "SPI_SETCLEARTYPE", "SPI_SETCLIENTAREAANIMATION", "SPI_SETCOMBOBOXANIMATION", "SPI_SETCONTACTVISUALIZATION", "SPI_SETCURSORS", "SPI_SETCURSORSHADOW", "SPI_SETDEFAULTINPUTLANG", "SPI_SETDESKPATTERN", "SPI_SETDESKWALLPAPER", "SPI_SETDISABLEOVERLAPPEDCONTENT", "SPI_SETDOCKMOVING", "SPI_SETDOUBLECLICKTIME", "SPI_SETDOUBLECLKHEIGHT", "SPI_SETDOUBLECLKWIDTH", "SPI_SETDRAGFROMMAXIMIZE", "SPI_SETDRAGFULLWINDOWS", "SPI_SETDRAGHEIGHT", "SPI_SETDRAGWIDTH", "SPI_SETDROPSHADOW", "SPI_SETFILTERKEYS", "SPI_SETFLATMENU", "SPI_SETFOCUSBORDERHEIGHT", "SPI_SETFOCUSBORDERWIDTH", "SPI_SETFONTSMOOTHING", "SPI_SETFONTSMOOTHINGCONTRAST", "SPI_SETFONTSMOOTHINGORIENTATION", "SPI_SETFONTSMOOTHINGTYPE", "SPI_SETFOREGROUNDFLASHCOUNT", "SPI_SETFOREGROUNDLOCKTIMEOUT", "SPI_SETGESTUREVISUALIZATION", "SPI_SETGRADIENTCAPTIONS", "SPI_SETHIGHCONTRAST", "SPI_SETHOTTRACKING", "SPI_SETHUNGAPPTIMEOUT", "SPI_SETICONMETRICS", "SPI_SETICONS", "SPI_SETICONTITLELOGFONT", "SPI_SETICONTITLEWRAP", "SPI_SETKEYBOARDCUES", "SPI_SETKEYBOARDDELAY", "SPI_SETKEYBOARDPREF", "SPI_SETKEYBOARDSPEED", "SPI_SETLANGTOGGLE", "SPI_SETLISTBOXSMOOTHSCROLLING", "SPI_SETLOGICALDPIOVERRIDE", "SPI_SETLOWPOWERACTIVE", "SPI_SETLOWPOWERTIMEOUT", "SPI_SETMENUANIMATION", "SPI_SETMENUDROPALIGNMENT", "SPI_SETMENUFADE", "SPI_SETMENUSHOWDELAY", "SPI_SETMENUUNDERLINES", "SPI_SETMESSAGEDURATION", "SPI_SETMINIMIZEDMETRICS", "SPI_SETMOUSE", "SPI_SETMOUSEBUTTONSWAP", "SPI_SETMOUSECLICKLOCK", "SPI_SETMOUSECLICKLOCKTIME", "SPI_SETMOUSEDOCKTHRESHOLD", "SPI_SETMOUSEDRAGOUTTHRESHOLD", "SPI_SETMOUSEHOVERHEIGHT", "SPI_SETMOUSEHOVERTIME", "SPI_SETMOUSEHOVERWIDTH", "SPI_SETMOUSEKEYS", "SPI_SETMOUSESIDEMOVETHRESHOLD", "SPI_SETMOUSESONAR", "SPI_SETMOUSESPEED", "SPI_SETMOUSETRAILS", "SPI_SETMOUSEVANISH", "SPI_SETMOUSEWHEELROUTING", "SPI_SETNONCLIENTMETRICS", "SPI_SETPENDOCKTHRESHOLD", "SPI_SETPENDRAGOUTTHRESHOLD", "SPI_SETPENSIDEMOVETHRESHOLD", "SPI_SETPENVISUALIZATION", "SPI_SETPOWEROFFACTIVE", "SPI_SETPOWEROFFTIMEOUT", "SPI_SETSCREENREADER", "SPI_SETSCREENSAVEACTIVE", "SPI_SETSCREENSAVESECURE", "SPI_SETSCREENSAVETIMEOUT", "SPI_SETSELECTIONFADE", "SPI_SETSERIALKEYS", "SPI_SETSHOWIMEUI", "SPI_SETSHOWSOUNDS", "SPI_SETSNAPSIZING", "SPI_SETSNAPTODEFBUTTON", "SPI_SETSOUNDSENTRY", "SPI_SETSTICKYKEYS", "SPI_SETSYSTEMLANGUAGEBAR", "SPI_SETTHREADLOCALINPUTSETTINGS", "SPI_SETTOGGLEKEYS", "SPI_SETTOOLTIPANIMATION", "SPI_SETTOOLTIPFADE", "SPI_SETUIEFFECTS", "SPI_SETWAITTOKILLSERVICETIMEOUT", "SPI_SETWAITTOKILLTIMEOUT", "SPI_SETWHEELSCROLLCHARS", "SPI_SETWHEELSCROLLLINES", "SPI_SETWINARRANGING", "SPI_SETWORKAREA", "SystemParametersInfoA", "winuser/SystemParametersInfoA"]
 old-location: winmsg\systemparametersinfo.htm
 tech.root: winmsg
 ms.assetid: 9b99465c-e12d-413c-8e69-b46b52f2f11f
 ms.date: 12/05/2018
 ms.keywords: SPIF_SENDCHANGE, SPIF_SENDWININICHANGE, SPIF_UPDATEINIFILE, SPI_GETACCESSTIMEOUT, SPI_GETACTIVEWINDOWTRACKING, SPI_GETACTIVEWNDTRKTIMEOUT, SPI_GETACTIVEWNDTRKZORDER, SPI_GETANIMATION, SPI_GETAUDIODESCRIPTION, SPI_GETBEEP, SPI_GETBLOCKSENDINPUTRESETS, SPI_GETBORDER, SPI_GETCARETWIDTH, SPI_GETCLEARTYPE, SPI_GETCLIENTAREAANIMATION, SPI_GETCOMBOBOXANIMATION, SPI_GETCONTACTVISUALIZATION, SPI_GETCURSORSHADOW, SPI_GETDEFAULTINPUTLANG, SPI_GETDESKWALLPAPER, SPI_GETDISABLEOVERLAPPEDCONTENT, SPI_GETDOCKMOVING, SPI_GETDRAGFROMMAXIMIZE, SPI_GETDRAGFULLWINDOWS, SPI_GETDROPSHADOW, SPI_GETFILTERKEYS, SPI_GETFLATMENU, SPI_GETFOCUSBORDERHEIGHT, SPI_GETFOCUSBORDERWIDTH, SPI_GETFONTSMOOTHING, SPI_GETFONTSMOOTHINGCONTRAST, SPI_GETFONTSMOOTHINGORIENTATION, SPI_GETFONTSMOOTHINGTYPE, SPI_GETFOREGROUNDFLASHCOUNT, SPI_GETFOREGROUNDLOCKTIMEOUT, SPI_GETGESTUREVISUALIZATION, SPI_GETGRADIENTCAPTIONS, SPI_GETHIGHCONTRAST, SPI_GETHOTTRACKING, SPI_GETHUNGAPPTIMEOUT, SPI_GETICONMETRICS, SPI_GETICONTITLELOGFONT, SPI_GETICONTITLEWRAP, SPI_GETKEYBOARDCUES, SPI_GETKEYBOARDDELAY, SPI_GETKEYBOARDPREF, SPI_GETKEYBOARDSPEED, SPI_GETLISTBOXSMOOTHSCROLLING, SPI_GETLOGICALDPIOVERRIDE, SPI_GETLOWPOWERACTIVE, SPI_GETLOWPOWERTIMEOUT, SPI_GETMENUANIMATION, SPI_GETMENUDROPALIGNMENT, SPI_GETMENUFADE, SPI_GETMENUSHOWDELAY, SPI_GETMENUUNDERLINES, SPI_GETMESSAGEDURATION, SPI_GETMINIMIZEDMETRICS, SPI_GETMOUSE, SPI_GETMOUSECLICKLOCK, SPI_GETMOUSECLICKLOCKTIME, SPI_GETMOUSEDOCKTHRESHOLD, SPI_GETMOUSEDRAGOUTTHRESHOLD, SPI_GETMOUSEHOVERHEIGHT, SPI_GETMOUSEHOVERTIME, SPI_GETMOUSEHOVERWIDTH, SPI_GETMOUSEKEYS, SPI_GETMOUSESIDEMOVETHRESHOLD, SPI_GETMOUSESONAR, SPI_GETMOUSESPEED, SPI_GETMOUSETRAILS, SPI_GETMOUSEVANISH, SPI_GETMOUSEWHEELROUTING, SPI_GETNONCLIENTMETRICS, SPI_GETPENDOCKTHRESHOLD, SPI_GETPENDRAGOUTTHRESHOLD, SPI_GETPENSIDEMOVETHRESHOLD, SPI_GETPENVISUALIZATION, SPI_GETPOWEROFFACTIVE, SPI_GETPOWEROFFTIMEOUT, SPI_GETSCREENREADER, SPI_GETSCREENSAVEACTIVE, SPI_GETSCREENSAVERRUNNING, SPI_GETSCREENSAVESECURE, SPI_GETSCREENSAVETIMEOUT, SPI_GETSELECTIONFADE, SPI_GETSERIALKEYS, SPI_GETSHOWIMEUI, SPI_GETSHOWSOUNDS, SPI_GETSNAPSIZING, SPI_GETSNAPTODEFBUTTON, SPI_GETSOUNDSENTRY, SPI_GETSTICKYKEYS, SPI_GETSYSTEMLANGUAGEBAR, SPI_GETTHREADLOCALINPUTSETTINGS, SPI_GETTOGGLEKEYS, SPI_GETTOOLTIPANIMATION, SPI_GETTOOLTIPFADE, SPI_GETUIEFFECTS, SPI_GETWAITTOKILLSERVICETIMEOUT, SPI_GETWAITTOKILLTIMEOUT, SPI_GETWHEELSCROLLCHARS, SPI_GETWHEELSCROLLLINES, SPI_GETWINARRANGING, SPI_GETWORKAREA, SPI_ICONHORIZONTALSPACING, SPI_ICONVERTICALSPACING, SPI_SETACCESSTIMEOUT, SPI_SETACTIVEWINDOWTRACKING, SPI_SETACTIVEWNDTRKTIMEOUT, SPI_SETACTIVEWNDTRKZORDER, SPI_SETANIMATION, SPI_SETAUDIODESCRIPTION, SPI_SETBEEP, SPI_SETBLOCKSENDINPUTRESETS, SPI_SETBORDER, SPI_SETCARETWIDTH, SPI_SETCLEARTYPE, SPI_SETCLIENTAREAANIMATION, SPI_SETCOMBOBOXANIMATION, SPI_SETCONTACTVISUALIZATION, SPI_SETCURSORS, SPI_SETCURSORSHADOW, SPI_SETDEFAULTINPUTLANG, SPI_SETDESKPATTERN, SPI_SETDESKWALLPAPER, SPI_SETDISABLEOVERLAPPEDCONTENT, SPI_SETDOCKMOVING, SPI_SETDOUBLECLICKTIME, SPI_SETDOUBLECLKHEIGHT, SPI_SETDOUBLECLKWIDTH, SPI_SETDRAGFROMMAXIMIZE, SPI_SETDRAGFULLWINDOWS, SPI_SETDRAGHEIGHT, SPI_SETDRAGWIDTH, SPI_SETDROPSHADOW, SPI_SETFILTERKEYS, SPI_SETFLATMENU, SPI_SETFOCUSBORDERHEIGHT, SPI_SETFOCUSBORDERWIDTH, SPI_SETFONTSMOOTHING, SPI_SETFONTSMOOTHINGCONTRAST, SPI_SETFONTSMOOTHINGORIENTATION, SPI_SETFONTSMOOTHINGTYPE, SPI_SETFOREGROUNDFLASHCOUNT, SPI_SETFOREGROUNDLOCKTIMEOUT, SPI_SETGESTUREVISUALIZATION, SPI_SETGRADIENTCAPTIONS, SPI_SETHIGHCONTRAST, SPI_SETHOTTRACKING, SPI_SETHUNGAPPTIMEOUT, SPI_SETICONMETRICS, SPI_SETICONS, SPI_SETICONTITLELOGFONT, SPI_SETICONTITLEWRAP, SPI_SETKEYBOARDCUES, SPI_SETKEYBOARDDELAY, SPI_SETKEYBOARDPREF, SPI_SETKEYBOARDSPEED, SPI_SETLANGTOGGLE, SPI_SETLISTBOXSMOOTHSCROLLING, SPI_SETLOGICALDPIOVERRIDE, SPI_SETLOWPOWERACTIVE, SPI_SETLOWPOWERTIMEOUT, SPI_SETMENUANIMATION, SPI_SETMENUDROPALIGNMENT, SPI_SETMENUFADE, SPI_SETMENUSHOWDELAY, SPI_SETMENUUNDERLINES, SPI_SETMESSAGEDURATION, SPI_SETMINIMIZEDMETRICS, SPI_SETMOUSE, SPI_SETMOUSEBUTTONSWAP, SPI_SETMOUSECLICKLOCK, SPI_SETMOUSECLICKLOCKTIME, SPI_SETMOUSEDOCKTHRESHOLD, SPI_SETMOUSEDRAGOUTTHRESHOLD, SPI_SETMOUSEHOVERHEIGHT, SPI_SETMOUSEHOVERTIME, SPI_SETMOUSEHOVERWIDTH, SPI_SETMOUSEKEYS, SPI_SETMOUSESIDEMOVETHRESHOLD, SPI_SETMOUSESONAR, SPI_SETMOUSESPEED, SPI_SETMOUSETRAILS, SPI_SETMOUSEVANISH, SPI_SETMOUSEWHEELROUTING, SPI_SETNONCLIENTMETRICS, SPI_SETPENDOCKTHRESHOLD, SPI_SETPENDRAGOUTTHRESHOLD, SPI_SETPENSIDEMOVETHRESHOLD, SPI_SETPENVISUALIZATION, SPI_SETPOWEROFFACTIVE, SPI_SETPOWEROFFTIMEOUT, SPI_SETSCREENREADER, SPI_SETSCREENSAVEACTIVE, SPI_SETSCREENSAVESECURE, SPI_SETSCREENSAVETIMEOUT, SPI_SETSELECTIONFADE, SPI_SETSERIALKEYS, SPI_SETSHOWIMEUI, SPI_SETSHOWSOUNDS, SPI_SETSNAPSIZING, SPI_SETSNAPTODEFBUTTON, SPI_SETSOUNDSENTRY, SPI_SETSTICKYKEYS, SPI_SETSYSTEMLANGUAGEBAR, SPI_SETTHREADLOCALINPUTSETTINGS, SPI_SETTOGGLEKEYS, SPI_SETTOOLTIPANIMATION, SPI_SETTOOLTIPFADE, SPI_SETUIEFFECTS, SPI_SETWAITTOKILLSERVICETIMEOUT, SPI_SETWAITTOKILLTIMEOUT, SPI_SETWHEELSCROLLCHARS, SPI_SETWHEELSCROLLLINES, SPI_SETWINARRANGING, SPI_SETWORKAREA, SystemParametersInfo, SystemParametersInfo function [Windows and Messages], SystemParametersInfoA, SystemParametersInfoW, _win32_systemparametersinfo, base.systemparametersinfo, systemparametersinfo_cpp, winmsg.systemparametersinfo, winui.systemparametersinfo, winuser/SystemParametersInfo, winuser/SystemParametersInfoA, winuser/SystemParametersInfoW
-f1_keywords:
-- winuser/SystemParametersInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
-- Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
-- minuser.dll
-- api-ms-win-ntuser-sysparams-l1-1-0.dll
-api_name:
-- SystemParametersInfo
-- SystemParametersInfoA
-- SystemParametersInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SystemParametersInfoA
+ - winuser/SystemParametersInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-sysparams-Ext-l1-1-0.dll
+ - Ext-MS-Win-RTCore-NTUser-sysparams-l1-1-0.dll
+ - minuser.dll
+ - api-ms-win-ntuser-sysparams-l1-1-0.dll
+api_name:
+ - SystemParametersInfo
+ - SystemParametersInfoA
+ - SystemParametersInfoW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 ---
 
 # SystemParametersInfoA function
@@ -54,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the value of one of the system-wide parameters. This function can also update the user profile while setting a parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param uiAction [in]
 
@@ -97,7 +95,7 @@ The following are the accessibility parameters.
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
+Retrieves information about the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
 
 </td>
 </tr>
@@ -108,7 +106,7 @@ Retrieves information about the time-out period associated with the accessibilit
 </dl>
 </td>
 <td width="60%">
-Determines whether audio descriptions are enabled or disabled. The <i>pvParam</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a> structure. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(AUDIODESCRIPTION)</code>.
+Determines whether audio descriptions are enabled or disabled. The <i>pvParam</i> parameter is a pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a> structure. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(AUDIODESCRIPTION)</code>.
 
 While it is possible for users who have visual impairments to hear the audio in video content, there is a lot of action in video that does not have corresponding audio. Specific audio description of what is happening in a video helps these users understand the content better. This flag enables you to determine whether audio descriptions have been enabled and in which language.
 
@@ -153,7 +151,7 @@ Display features such as background images, textured backgrounds, water marks on
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
+Retrieves information about the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
 
 </td>
 </tr>
@@ -164,7 +162,7 @@ Retrieves information about the FilterKeys accessibility feature. The <i>pvParam
 </dl>
 </td>
 <td width="60%">
-Retrieves the height, in pixels, of the top and bottom edges of the focus rectangle drawn with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a>. The <i>pvParam</i> parameter must point to a <b>UINT</b> value.
+Retrieves the height, in pixels, of the top and bottom edges of the focus rectangle drawn with <a href="/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a>. The <i>pvParam</i> parameter must point to a <b>UINT</b> value.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -177,7 +175,7 @@ Retrieves the height, in pixels, of the top and bottom edges of the focus rectan
 </dl>
 </td>
 <td width="60%">
-Retrieves the width, in pixels, of the left and right edges of the focus rectangle drawn with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a>. The <i>pvParam</i> parameter must point to a <b>UINT</b>.
+Retrieves the width, in pixels, of the left and right edges of the focus rectangle drawn with <a href="/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a>. The <i>pvParam</i> parameter must point to a <b>UINT</b>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -190,7 +188,7 @@ Retrieves the width, in pixels, of the left and right edges of the focus rectang
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
+Retrieves information about the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
 
 For a general discussion, see Remarks.
 
@@ -205,9 +203,9 @@ For a general discussion, see Remarks.
 <td width="60%">
 Retrieves a value that determines whether Windows 8 is displaying apps using the default scaling plateau for the hardware or going to the next higher plateau. This value is based on the current "Make everything on your screen bigger" setting, found in the <b>Ease of Access</b> section of <b>PC settings</b>: 1 is on, 0 is off.
 
-Apps can provide text and image resources for each of several scaling plateaus: 100%, 140%, and 180%. Providing separate resources optimized for a particular scale avoids distortion due to resizing. Windows 8 determines the appropriate scaling plateau based on a number of factors, including screen size and pixel density. When "Make everything on your screen bigger" is selected (SPI_GETLOGICALDPIOVERRIDE returns a value of 1), Windows uses resources from the next higher plateau. For example, in the case of hardware that Windows determines should use a scale of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_100_PERCENT</a>, this override causes Windows to use the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_140_PERCENT</a> scale value, assuming that it does not violate other constraints.
+Apps can provide text and image resources for each of several scaling plateaus: 100%, 140%, and 180%. Providing separate resources optimized for a particular scale avoids distortion due to resizing. Windows 8 determines the appropriate scaling plateau based on a number of factors, including screen size and pixel density. When "Make everything on your screen bigger" is selected (SPI_GETLOGICALDPIOVERRIDE returns a value of 1), Windows uses resources from the next higher plateau. For example, in the case of hardware that Windows determines should use a scale of <a href="/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_100_PERCENT</a>, this override causes Windows to use the <a href="/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">SCALE_140_PERCENT</a> scale value, assuming that it does not violate other constraints.
 
-<div class="alert"><b>Note</b>  You should not use this value. It might be altered or unavailable in subsequent versions of Windows. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a> function or the <a href="https://go.microsoft.com/fwlink/p/?linkid=282416">DisplayProperties</a> class to retrieve the preferred scaling factor. Desktop applications should use desktop logical DPI rather than scale factor. Desktop logical DPI can be retrieved through the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.</div>
+<div class="alert"><b>Note</b>  You should not use this value. It might be altered or unavailable in subsequent versions of Windows. Instead, use the <a href="/windows/desktop/api/shellscalingapi/nf-shellscalingapi-getscalefactorfordevice">GetScaleFactorForDevice</a> function or the <a href="/uwp/api/Windows.Graphics.Display.DisplayProperties">DisplayProperties</a> class to retrieve the preferred scaling factor. Desktop applications should use desktop logical DPI rather than scale factor. Desktop logical DPI can be retrieved through the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.</div>
 <div> </div>
 </td>
 </tr>
@@ -233,7 +231,7 @@ Users with visual impairments or cognitive conditions such as ADHD and dyslexia 
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled, or <b>FALSE</b> otherwise. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled, or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -246,7 +244,7 @@ Retrieves the state of the Mouse ClickLock feature. The <i>pvParam</i> parameter
 </dl>
 </td>
 <td width="60%">
-Retrieves the time delay before the primary mouse button is locked. The <i>pvParam</i> parameter must point to <b>DWORD</b> that receives the time delay, in milliseconds. This is only enabled if <b>SPI_SETMOUSECLICKLOCK</b> is set to <b>TRUE</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the time delay before the primary mouse button is locked. The <i>pvParam</i> parameter must point to <b>DWORD</b> that receives the time delay, in milliseconds. This is only enabled if <b>SPI_SETMOUSECLICKLOCK</b> is set to <b>TRUE</b>. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -259,7 +257,7 @@ Retrieves the time delay before the primary mouse button is locked. The <i>pvPar
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
+Retrieves information about the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
 
 </td>
 </tr>
@@ -270,7 +268,7 @@ Retrieves information about the MouseKeys accessibility feature. The <i>pvParam<
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -283,7 +281,7 @@ Retrieves the state of the Mouse Sonar feature. The <i>pvParam</i> parameter mus
 </dl>
 </td>
 <td width="60%">
-Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if enabled or <b>FALSE</b> otherwise. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -298,7 +296,7 @@ Retrieves the state of the Mouse Vanish feature. The <i>pvParam</i> parameter mu
 <td width="60%">
 Determines whether a screen reviewer utility is running. A screen reviewer utility directs textual information to an output device, such as a speech synthesizer or Braille display. When this flag is set, an application should provide textual information in situations where it would otherwise present the information  graphically.
 
-The <i>pvParam</i> parameter is a pointer to a <b>BOOL</b>variable that receives <b>TRUE</b> if a screen reviewer utility is running, or <b>FALSE</b> otherwise.
+The <i>pvParam</i> parameter is a pointer to a <b>BOOL</b> variable that receives <b>TRUE</b> if a screen reviewer utility is running, or <b>FALSE</b> otherwise.
 
 <div class="alert"><b>Note</b>  Narrator, the screen reader that is included with Windows, does not set the <b>SPI_SETSCREENREADER</b> or <b>SPI_GETSCREENREADER</b> flags.</div>
 <div> </div>
@@ -326,7 +324,7 @@ This parameter is not supported.
 <td width="60%">
 Determines whether the Show Sounds accessibility flag is on or off. If it is on, the user requires an application to present information visually in situations where it would otherwise present the information only in audible form. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if the feature is on, or <b>FALSE</b> if it is off.
 
-Using this value is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with <b>SM_SHOWSOUNDS</b>. That is the recommended call.
+Using this value is equivalent to calling <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with <b>SM_SHOWSOUNDS</b>. That is the recommended call.
 
 </td>
 </tr>
@@ -337,7 +335,7 @@ Using this value is equivalent to calling <a href="https://docs.microsoft.com/wi
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the SoundSentry accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
+Retrieves information about the SoundSentry accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
 
 </td>
 </tr>
@@ -348,7 +346,7 @@ Retrieves information about the SoundSentry accessibility feature. The <i>pvPara
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
+Retrieves information about the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
 
 </td>
 </tr>
@@ -359,7 +357,7 @@ Retrieves information about the StickyKeys accessibility feature. The <i>pvParam
 </dl>
 </td>
 <td width="60%">
-Retrieves information about the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
+Retrieves information about the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
 
 </td>
 </tr>
@@ -370,7 +368,7 @@ Retrieves information about the ToggleKeys accessibility feature. The <i>pvParam
 </dl>
 </td>
 <td width="60%">
-Sets the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
+Sets the time-out period associated with the accessibility features. The <i>pvParam</i> parameter must point to an <a href="/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ACCESSTIMEOUT)</code>.
 
 </td>
 </tr>
@@ -381,7 +379,7 @@ Sets the time-out period associated with the accessibility features. The <i>pvPa
 </dl>
 </td>
 <td width="60%">
-Turns the audio descriptions feature on or off. The <i>pvParam</i> parameter is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a> structure.
+Turns the audio descriptions feature on or off. The <i>pvParam</i> parameter is a pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a> structure.
 
 While it is possible for users who are visually impaired to hear the audio in video content, there is a lot of action in video that does not have corresponding audio. Specific audio description of what is happening in a video helps these users understand the content better. This flag enables you to enable or disable audio descriptions in the languages they are provided in.
 
@@ -426,7 +424,7 @@ Display features such as background images, textured backgrounds, water marks on
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
+Sets the parameters of the FilterKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(FILTERKEYS)</code>.
 
 </td>
 </tr>
@@ -437,7 +435,7 @@ Sets the parameters of the FilterKeys accessibility feature. The <i>pvParam</i> 
 </dl>
 </td>
 <td width="60%">
-Sets the height of the top and bottom edges of the focus rectangle drawn with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a> to the value of the <i>pvParam</i> parameter.
+Sets the height of the top and bottom edges of the focus rectangle drawn with <a href="/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a> to the value of the <i>pvParam</i> parameter.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -450,7 +448,7 @@ Sets the height of the top and bottom edges of the focus rectangle drawn with <a
 </dl>
 </td>
 <td width="60%">
-Sets the height of the left and right edges of the focus rectangle drawn with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a> to the value of the <i>pvParam</i> parameter.
+Sets the height of the left and right edges of the focus rectangle drawn with <a href="/windows/desktop/api/winuser/nf-winuser-drawfocusrect">DrawFocusRect</a> to the value of the <i>pvParam</i> parameter.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -463,7 +461,7 @@ Sets the height of the left and right edges of the focus rectangle drawn with <a
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
+Sets the parameters of the HighContrast accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(HIGHCONTRAST)</code>.
 
 </td>
 </tr>
@@ -500,7 +498,7 @@ Users with visual impairments or cognitive conditions such as ADHD and dyslexia 
 </dl>
 </td>
 <td width="60%">
-Turns the Mouse ClickLock accessibility feature on or off. This feature temporarily locks down the primary mouse button when that button is clicked and held down for the time specified by <b>SPI_SETMOUSECLICKLOCKTIME</b>. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on, or <b>FALSE</b> for off. The default is off. For more information, see Remarks and <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">AboutMouse Input</a>.
+Turns the Mouse ClickLock accessibility feature on or off. This feature temporarily locks down the primary mouse button when that button is clicked and held down for the time specified by <b>SPI_SETMOUSECLICKLOCKTIME</b>. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on, or <b>FALSE</b> for off. The default is off. For more information, see Remarks and <a href="/windows/desktop/inputdev/about-mouse-input">AboutMouse Input</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -513,7 +511,7 @@ Turns the Mouse ClickLock accessibility feature on or off. This feature temporar
 </dl>
 </td>
 <td width="60%">
-Adjusts the time delay before the primary mouse button is locked. The <i>uiParam</i> parameter should be set to 0. The <i>pvParam</i> parameter points to a <b>DWORD</b> that specifies the time delay in milliseconds. For example, specify 1000 for a 1 second delay. The default is 1200. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Adjusts the time delay before the primary mouse button is locked. The <i>uiParam</i> parameter should be set to 0. The <i>pvParam</i> parameter points to a <b>DWORD</b> that specifies the time delay in milliseconds. For example, specify 1000 for a 1 second delay. The default is 1200. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -526,7 +524,7 @@ Adjusts the time delay before the primary mouse button is locked. The <i>uiParam
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
+Sets the parameters of the MouseKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MOUSEKEYS)</code>.
 
 </td>
 </tr>
@@ -537,7 +535,7 @@ Sets the parameters of the MouseKeys accessibility feature. The <i>pvParam</i> p
 </dl>
 </td>
 <td width="60%">
-Turns the Sonar accessibility feature on or off. This feature briefly shows several concentric circles around the mouse pointer when the user presses and releases the CTRL key. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Turns the Sonar accessibility feature on or off. This feature briefly shows several concentric circles around the mouse pointer when the user presses and releases the CTRL key. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -550,7 +548,7 @@ Turns the Sonar accessibility feature on or off. This feature briefly shows seve
 </dl>
 </td>
 <td width="60%">
-Turns the Vanish feature on or off. This feature hides the mouse pointer when the user types; the pointer reappears when the user moves the mouse. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-mouse-input">About Mouse Input</a>.
+Turns the Vanish feature on or off. This feature hides the mouse pointer when the user types; the pointer reappears when the user moves the mouse. The <i>pvParam</i> parameter specifies <b>TRUE</b> for on and <b>FALSE</b> for off. The default is off. For more information, see <a href="/windows/desktop/inputdev/about-mouse-input">Mouse Input Overview</a>.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -600,7 +598,7 @@ Turns the ShowSounds accessibility feature on or off. The <i>uiParam</i> paramet
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the <b>SoundSentry</b> accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
+Sets the parameters of the <b>SoundSentry</b> accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(SOUNDSENTRY)</code>.
 
 </td>
 </tr>
@@ -611,7 +609,7 @@ Sets the parameters of the <b>SoundSentry</b> accessibility feature. The <i>pvPa
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
+Sets the parameters of the StickyKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(STICKYKEYS)</code>.
 
 </td>
 </tr>
@@ -622,7 +620,7 @@ Sets the parameters of the StickyKeys accessibility feature. The <i>pvParam</i> 
 </dl>
 </td>
 <td width="60%">
-Sets the parameters of the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
+Sets the parameters of the ToggleKeys accessibility feature. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(TOGGLEKEYS)</code>.
 
 </td>
 </tr>
@@ -708,7 +706,7 @@ The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives 
 </dl>
 </td>
 <td width="60%">
-Retrieves a contrast value that is used in <a href="https://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Retrieves a contrast value that is used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter must point to a <b>UINT</b> that receives the information. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>Windows 2000:  </b>This parameter is not supported.
 
@@ -749,7 +747,7 @@ Retrieves the type of font smoothing. The <i>pvParam</i> parameter must point to
 <td width="60%">
 Retrieves the size of the work area on the primary display monitor. The work area is the portion of the screen not obscured by the system taskbar or by application desktop toolbars. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the coordinates of the work area, expressed in physical pixel size. Any DPI virtualization mode of the caller has no effect on this output.
 
-To get the work area of a monitor other than the primary display monitor, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> function.
+To get the work area of a monitor other than the primary display monitor, call the <a href="/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> function.
 
 </td>
 </tr>
@@ -852,7 +850,7 @@ To enable the feature, set the <i>uiParam</i> parameter to <b>TRUE</b>. To disab
 </dl>
 </td>
 <td width="60%">
-Sets the contrast value used in <a href="https://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
+Sets the contrast value used in <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> smoothing. The <i>pvParam</i> parameter is the contrast value. Valid contrast values are from 1000 to 2200. The default value is 1400.
 
 <b>SPI_SETFONTSMOOTHINGTYPE</b> must also be set to <b>FE_FONTSMOOTHINGCLEARTYPE</b>.
 
@@ -880,7 +878,7 @@ Sets the font smoothing orientation. The <i>pvParam</i> parameter is either <b>F
 </dl>
 </td>
 <td width="60%">
-Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="https://go.microsoft.com/fwlink/p/?linkid=84132">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
+Sets the font smoothing type. The <i>pvParam</i> parameter is either <b>FE_FONTSMOOTHINGSTANDARD</b>, if standard anti-aliasing is used, or <b>FE_FONTSMOOTHINGCLEARTYPE</b>, if <a href="https://www.microsoft.com/typography/WhatIsClearType.mspx">ClearType</a> is used. The default is <b>FE_FONTSMOOTHINGSTANDARD</b>.
 
 <b>SPI_SETFONTSMOOTHING</b> must also be set.
 
@@ -916,7 +914,7 @@ The following are the icon parameters.
 </dl>
 </td>
 <td width="60%">
-Retrieves the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
+Retrieves the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
 
 </td>
 </tr>
@@ -927,7 +925,7 @@ Retrieves the metrics associated with icons. The <i>pvParam</i> parameter must p
 </dl>
 </td>
 <td width="60%">
-Retrieves the logical font information for the current icon-title font. The <i>uiParam</i> parameter specifies the size of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to the <b>LOGFONT</b> structure to fill in.
+Retrieves the logical font information for the current icon-title font. The <i>uiParam</i> parameter specifies the size of a <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to the <b>LOGFONT</b> structure to fill in.
 
 </td>
 </tr>
@@ -979,7 +977,7 @@ To retrieve this value, <i>pvParam</i> must point to an integer that receives th
 </dl>
 </td>
 <td width="60%">
-Sets the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
+Sets the metrics associated with icons. The <i>pvParam</i> parameter must point to an <a href="/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ICONMETRICS)</code>.
 
 </td>
 </tr>
@@ -1001,7 +999,7 @@ Reloads the system icons. Set the <i>uiParam</i> parameter to zero and the <i>pv
 </dl>
 </td>
 <td width="60%">
-Sets the font that is used for icon titles. The <i>uiParam</i> parameter specifies the size of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to a <b>LOGFONT</b> structure.
+Sets the font that is used for icon titles. The <i>uiParam</i> parameter specifies the size of a <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, and the <i>pvParam</i> parameter must point to a <b>LOGFONT</b> structure.
 
 </td>
 </tr>
@@ -1046,7 +1044,7 @@ The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives 
 </dl>
 </td>
 <td width="60%">
-Retrieves a <b>BOOL</b> indicating whether an application can reset the screensaver's timer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to simulate keyboard or mouse input. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if the simulated input will be blocked, or <b>FALSE</b> otherwise.
+Retrieves a <b>BOOL</b> indicating whether an application can reset the screensaver's timer by calling the <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to simulate keyboard or mouse input. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if the simulated input will be blocked, or <b>FALSE</b> otherwise.
 
 </td>
 </tr>
@@ -1057,7 +1055,7 @@ Retrieves a <b>BOOL</b> indicating whether an application can reset the screensa
 </dl>
 </td>
 <td width="60%">
-Retrieves the current contact visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that receives the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/contact-visualization">Contact Visualization</a>.
+Retrieves the current contact visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that receives the setting. For more information, see <a href="/windows/desktop/winmsg/contact-visualization">Contact Visualization</a>.
 
 </td>
 </tr>
@@ -1068,7 +1066,7 @@ Retrieves the current contact visualization setting. The <i>pvParam</i> paramete
 </dl>
 </td>
 <td width="60%">
-Retrieves the input locale identifier for the system default input language. The <i>pvParam</i> parameter must point to an <b>HKL</b> variable that receives this value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-keyboard-input">Languages, Locales, and Keyboard Layouts</a>.
+Retrieves the input locale identifier for the system default input language. The <i>pvParam</i> parameter must point to an <b>HKL</b> variable that receives this value. For more information, see <a href="/windows/desktop/inputdev/about-keyboard-input">Languages, Locales, and Keyboard Layouts</a>.
 
 </td>
 </tr>
@@ -1079,7 +1077,7 @@ Retrieves the input locale identifier for the system default input language. The
 </dl>
 </td>
 <td width="60%">
-Retrieves the current gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that receives the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/gesture-visualization">Gesture Visualization</a>.
+Retrieves the current gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that receives the setting. For more information, see <a href="/windows/desktop/winmsg/gesture-visualization">Gesture Visualization</a>.
 
 </td>
 </tr>
@@ -1134,7 +1132,7 @@ Retrieves the keyboard repeat-speed setting, which is a value in the range from 
 </dl>
 </td>
 <td width="60%">
-Retrieves the two mouse threshold values and the mouse acceleration. The <i>pvParam</i> parameter must point to an array of three integers that receives these values. See <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mouse_event">mouse_event</a> for further information.
+Retrieves the two mouse threshold values and the mouse acceleration. The <i>pvParam</i> parameter must point to an array of three integers that receives these values. See <a href="/windows/desktop/api/winuser/nf-winuser-mouse_event">mouse_event</a> for further information.
 
 </td>
 </tr>
@@ -1145,7 +1143,7 @@ Retrieves the two mouse threshold values and the mouse acceleration. The <i>pvPa
 </dl>
 </td>
 <td width="60%">
-Retrieves the height, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. The <i>pvParam</i> parameter must point to a <b>UINT</b> variable that receives the height.
+Retrieves the height, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. The <i>pvParam</i> parameter must point to a <b>UINT</b> variable that receives the height.
 
 </td>
 </tr>
@@ -1156,7 +1154,7 @@ Retrieves the height, in pixels, of the rectangle within which the mouse pointer
 </dl>
 </td>
 <td width="60%">
-Retrieves the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. The <i>pvParam</i> parameter must point to a <b>UINT</b> variable that receives the time.
+Retrieves the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. The <i>pvParam</i> parameter must point to a <b>UINT</b> variable that receives the time.
 
 </td>
 </tr>
@@ -1167,7 +1165,7 @@ Retrieves the time, in milliseconds, that the mouse pointer has to stay in the h
 </dl>
 </td>
 <td width="60%">
-Retrieves the width, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. The <i>pvParam</i> parameter must point to a <b>UINT</b> variable that receives the width.
+Retrieves the width, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. The <i>pvParam</i> parameter must point to a <b>UINT</b> variable that receives the width.
 
 </td>
 </tr>
@@ -1219,7 +1217,7 @@ The <i>uiParam</i> parameter is not used.
 </dl>
 </td>
 <td width="60%">
-Retrieves the current pen gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that receives the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/pen-visualization">Pen Visualization</a>.
+Retrieves the current pen gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that receives the setting. For more information, see <a href="/windows/desktop/winmsg/pen-visualization">Pen Visualization</a>.
 
 </td>
 </tr>
@@ -1296,7 +1294,7 @@ Turns the warning beeper on or off. The <i>uiParam</i> parameter specifies <b>TR
 </dl>
 </td>
 <td width="60%">
-Determines whether an application can reset the screensaver's timer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to simulate keyboard or mouse input. The <i>uiParam</i> parameter specifies <b>TRUE</b> if the screensaver will not be deactivated by simulated input, or <b>FALSE</b> if the screensaver will be deactivated by simulated input.
+Determines whether an application can reset the screensaver's timer by calling the <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to simulate keyboard or mouse input. The <i>uiParam</i> parameter specifies <b>TRUE</b> if the screensaver will not be deactivated by simulated input, or <b>FALSE</b> if the screensaver will be deactivated by simulated input.
 
 </td>
 </tr>
@@ -1307,7 +1305,7 @@ Determines whether an application can reset the screensaver's timer by calling t
 </dl>
 </td>
 <td width="60%">
-Sets the current contact visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that identifies the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/contact-visualization">Contact Visualization</a>.
+Sets the current contact visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that identifies the setting. For more information, see <a href="/windows/desktop/winmsg/contact-visualization">Contact Visualization</a>.
 
 <div class="alert"><b>Note</b>  If contact visualizations are disabled, gesture visualizations cannot be enabled.</div>
 <div> </div>
@@ -1320,7 +1318,7 @@ Sets the current contact visualization setting. The <i>pvParam</i> parameter mus
 </dl>
 </td>
 <td width="60%">
-Sets the default input language for the system shell and applications. The specified language must be displayable using the current system character set. The <i>pvParam</i> parameter must point to an <b>HKL</b> variable that contains the input locale identifier for the default language. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/about-keyboard-input">Languages, Locales, and Keyboard Layouts</a>.
+Sets the default input language for the system shell and applications. The specified language must be displayable using the current system character set. The <i>pvParam</i> parameter must point to an <b>HKL</b> variable that contains the input locale identifier for the default language. For more information, see <a href="/windows/desktop/inputdev/about-keyboard-input">Languages, Locales, and Keyboard Layouts</a>.
 
 </td>
 </tr>
@@ -1333,7 +1331,7 @@ Sets the default input language for the system shell and applications. The speci
 <td width="60%">
 Sets the double-click time for the mouse to the value of the <i>uiParam</i> parameter. If the <i>uiParam</i> value is greater than 5000 milliseconds, the system sets the double-click time to 5000 milliseconds.
 
-The double-click time is the maximum number of milliseconds that can occur between the first and second clicks of a double-click. You can also call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdoubleclicktime">SetDoubleClickTime</a> function to set the double-click time. To get the current double-click time, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdoubleclicktime">GetDoubleClickTime</a> function.
+The double-click time is the maximum number of milliseconds that can occur between the first and second clicks of a double-click. You can also call the <a href="/windows/desktop/api/winuser/nf-winuser-setdoubleclicktime">SetDoubleClickTime</a> function to set the double-click time. To get the current double-click time, call the <a href="/windows/desktop/api/winuser/nf-winuser-getdoubleclicktime">GetDoubleClickTime</a> function.
 
 </td>
 </tr>
@@ -1348,7 +1346,7 @@ Sets the height of the double-click rectangle to the value of the <i>uiParam</i>
 
 The double-click rectangle is the rectangle within which the second click of a double-click must fall for it to be registered as a double-click.
 
-To retrieve the height of the double-click rectangle, call  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CYDOUBLECLK</b> flag.
+To retrieve the height of the double-click rectangle, call  <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CYDOUBLECLK</b> flag.
 
 </td>
 </tr>
@@ -1363,7 +1361,7 @@ Sets the width of the double-click rectangle to the value of the <i>uiParam</i> 
 
 The double-click rectangle is the rectangle within which the second click of a double-click must fall for it to be registered as a double-click.
 
-To retrieve the width of the double-click rectangle, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CXDOUBLECLK</b> flag.
+To retrieve the width of the double-click rectangle, call <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CXDOUBLECLK</b> flag.
 
 </td>
 </tr>
@@ -1374,7 +1372,7 @@ To retrieve the width of the double-click rectangle, call <a href="https://docs.
 </dl>
 </td>
 <td width="60%">
-Sets the current gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that identifies the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/gesture-visualization">Gesture Visualization</a>.
+Sets the current gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that identifies the setting. For more information, see <a href="/windows/desktop/winmsg/gesture-visualization">Gesture Visualization</a>.
 
 <div class="alert"><b>Note</b>  If contact visualizations are disabled, gesture visualizations cannot be enabled.</div>
 <div> </div>
@@ -1432,7 +1430,7 @@ Sets the keyboard repeat-speed setting. The <i>uiParam</i> parameter must specif
 </td>
 <td width="60%">
 Sets the hot key set for switching between input languages. The <i>uiParam</i> and <i>pvParam</i> parameters are not used. The value sets the shortcut keys in the keyboard property sheets by reading the registry again. The registry must be set before this flag is used. the path in the registry is 
-                                    <b>HKEY_CURRENT_USER</b>\<b>Keyboard Layout</b>\<b>Toggle</b></p>. Valid values are "1" = ALT+SHIFT, "2" = CTRL+SHIFT, and "3" = none.
+                                    <b>HKEY_CURRENT_USER</b>&#92;<b>Keyboard Layout</b>&#92;<b>Toggle</b></p>. Valid values are "1" = ALT+SHIFT, "2" = CTRL+SHIFT, and "3" = none.
 
 </td>
 </tr>
@@ -1443,7 +1441,7 @@ Sets the hot key set for switching between input languages. The <i>uiParam</i> a
 </dl>
 </td>
 <td width="60%">
-Sets the two mouse threshold values and the mouse acceleration. The <i>pvParam</i> parameter must point to an array of three integers that specifies these values. See <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mouse_event">mouse_event</a> for further information.
+Sets the two mouse threshold values and the mouse acceleration. The <i>pvParam</i> parameter must point to an array of three integers that specifies these values. See <a href="/windows/desktop/api/winuser/nf-winuser-mouse_event">mouse_event</a> for further information.
 
 </td>
 </tr>
@@ -1456,7 +1454,7 @@ Sets the two mouse threshold values and the mouse acceleration. The <i>pvParam</
 <td width="60%">
 Swaps or restores the meaning of the left and right mouse buttons. The <i>uiParam</i> parameter specifies <b>TRUE</b> to swap the meanings of the buttons, or <b>FALSE</b> to restore their original meanings.
 
-To retrieve the current setting, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_SWAPBUTTON</b> flag.
+To retrieve the current setting, call <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_SWAPBUTTON</b> flag.
 
 </td>
 </tr>
@@ -1467,7 +1465,7 @@ To retrieve the current setting, call <a href="https://docs.microsoft.com/window
 </dl>
 </td>
 <td width="60%">
-Sets the height, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. Set the <i>uiParam</i> parameter to the new height.
+Sets the height, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. Set the <i>uiParam</i> parameter to the new height.
 
 </td>
 </tr>
@@ -1478,11 +1476,11 @@ Sets the height, in pixels, of the rectangle within which the mouse pointer has 
 </dl>
 </td>
 <td width="60%">
-Sets the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. This is used only if you pass <b>HOVER_DEFAULT</b> in the <i>dwHoverTime</i> parameter in the call to <b>TrackMouseEvent</b>. Set the <i>uiParam</i>parameter to the new time.
+Sets the time, in milliseconds, that the mouse pointer has to stay in the hover rectangle for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. This is used only if you pass <b>HOVER_DEFAULT</b> in the <i>dwHoverTime</i> parameter in the call to <b>TrackMouseEvent</b>. Set the <i>uiParam</i> parameter to the new time.
 
 The time specified should be between <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is less than <b>USER_TIMER_MINIMUM</b>, the function will use <b>USER_TIMER_MINIMUM</b>. If <i>uiParam</i> is greater than <b>USER_TIMER_MAXIMUM</b>, the function will be <b>USER_TIMER_MAXIMUM</b>.               
 
-                                    <b>Windows Server 2003 and Windows XP:  </b>The operating system does not enforce the use of <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b> until Windows Server 2003 with SP1 and Windows XP with SP2.
+<b>Windows Server 2003 and Windows XP:  </b>The operating system does not enforce the use of <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER_MINIMUM</b> until Windows Server 2003 with SP1 and Windows XP with SP2.
 
 
 
@@ -1495,7 +1493,7 @@ The time specified should be between <b>USER_TIMER_MAXIMUM</b> and <b>USER_TIMER
 </dl>
 </td>
 <td width="60%">
-Sets the width, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. Set the <i>uiParam</i> parameter to the new width.
+Sets the width, in pixels, of the rectangle within which the mouse pointer has to stay for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. Set the <i>uiParam</i> parameter to the new width.
 
 </td>
 </tr>
@@ -1547,7 +1545,7 @@ Set the <i>uiParam</i> parameter to zero.
 </dl>
 </td>
 <td width="60%">
-Sets the current pen gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that identifies the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/pen-visualization">Pen Visualization</a>.
+Sets the current pen gesture visualization setting. The <i>pvParam</i> parameter must point to a <b>ULONG</b> variable that identifies the setting. For more information, see <a href="/windows/desktop/winmsg/pen-visualization">Pen Visualization</a>.
 
 </td>
 </tr>
@@ -1558,7 +1556,7 @@ Sets the current pen gesture visualization setting. The <i>pvParam</i> parameter
 </dl>
 </td>
 <td width="60%">
-Enables or disables the snap-to-default-button feature. If enabled, the mouse cursor automatically moves to the default button, such as <b>OK</b> or <b>Apply</b>, of a dialog box. Set the <i>uiParam</i> parameter to <b>TRUE</b> to enable the feature, or <b>FALSE</b> to disable it. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function when displaying a dialog box so the dialog manager can position the mouse cursor.
+Enables or disables the snap-to-default-button feature. If enabled, the mouse cursor automatically moves to the default button, such as <b>OK</b> or <b>Apply</b>, of a dialog box. Set the <i>uiParam</i> parameter to <b>TRUE</b> to enable the feature, or <b>FALSE</b> to disable it. Applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function when displaying a dialog box so the dialog manager can position the mouse cursor.
 
 </td>
 </tr>
@@ -1580,7 +1578,7 @@ Enables or disables the snap-to-default-button feature. If enabled, the mouse cu
 </dl>
 </td>
 <td width="60%">
-<b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable, casted by PVOID.
+<b>Starting with Windows 8:</b> Determines whether the active input settings have Local (per-thread, <b>TRUE</b>) or Global (session, <b>FALSE</b>) scope. The <i>pvParam</i> parameter must be a <b>BOOL</b> variable, casted by PVOID.
 
 </td>
 </tr>
@@ -1636,7 +1634,7 @@ Determines whether pop-up menus are left-aligned or right-aligned, relative to t
 </dl>
 </td>
 <td width="60%">
-Determines whether menu fade animation is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> when fade animation is enabled and <b>FALSE</b> when it isdisabled. If fade animation is disabled, menus use slide animation. This flag is ignored unless menu animation is enabled, which you can do using the <b>SPI_SETMENUANIMATION</b> flag. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>.
+Determines whether menu fade animation is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> when fade animation is enabled and <b>FALSE</b> when it isdisabled. If fade animation is disabled, menus use slide animation. This flag is ignored unless menu animation is enabled, which you can do using the <b>SPI_SETMENUANIMATION</b> flag. For more information, see <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>.
 
 </td>
 </tr>
@@ -1669,7 +1667,7 @@ Sets the alignment value of pop-up menus. The <i>uiParam</i> parameter specifies
 </dl>
 </td>
 <td width="60%">
-Enables or disables menu fade animation. Set <i>pvParam</i> to <b>TRUE</b> to enable the menu fade effect or <b>FALSE</b> to disable it. If fade animation is disabled, menus use slide animation. he The menu fade effect is possible only if the system has a color depth of more than 256 colors. This flag is ignored unless <b>SPI_MENUANIMATION</b> is also set. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>.
+Enables or disables menu fade animation. Set <i>pvParam</i> to <b>TRUE</b> to enable the menu fade effect or <b>FALSE</b> to disable it. If fade animation is disabled, menus use slide animation. he The menu fade effect is possible only if the system has a color depth of more than 256 colors. This flag is ignored unless <b>SPI_MENUANIMATION</b> is also set. For more information, see <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>.
 
 </td>
 </tr>
@@ -1689,7 +1687,7 @@ Sets <i>uiParam</i> to the time, in milliseconds, that the system waits before d
 
 The following are the power parameters.
 
-Beginning with Windows Server 2008 and Windows Vista, these power parameters are not supported. Instead, to determine the current display power state, an application should register for <b>GUID_MONITOR_POWER_STATE</b> notifications. To determine the current display power down time-out, an application should register for notification of changes to the <b>GUID_VIDEO_POWERDOWN_TIMEOUT</b> power setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>.
+Beginning with Windows Server 2008 and Windows Vista, these power parameters are not supported. Instead, to determine the current display power state, an application should register for <b>GUID_MONITOR_POWER_STATE</b> notifications. To determine the current display power down time-out, an application should register for notification of changes to the <b>GUID_VIDEO_POWERDOWN_TIMEOUT</b> power setting. For more information, see <a href="/windows/desktop/Power/registering-for-power-events">Registering for Power Events</a>.
 
 <b>Windows Server 2003 and Windows XP/2000:  </b>To determine the current display power state, use the following power parameters.
 
@@ -1821,7 +1819,7 @@ The following are the screen saver parameters.
 <td width="60%">
 Determines whether screen saving is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> if screen saving is enabled, or <b>FALSE</b> otherwise.
 
-<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. For more information and a workaround, see <a href="https://go.microsoft.com/fwlink/p/?linkid=182995">KB318781</a>.
+<b>Windows 7, Windows Server 2008 R2 and Windows 2000:  </b>The function returns <b>TRUE</b> even when screen saving is not enabled. 
 
 </td>
 </tr>
@@ -2039,7 +2037,7 @@ Determines whether the cursor has a shadow around it. The <i>pvParam</i> paramet
 </dl>
 </td>
 <td width="60%">
-Determines whether the gradient effect for window title bars is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> for enabled, or <b>FALSE</b> for disabled. For more information about the gradient effect, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function.
+Determines whether the gradient effect for window title bars is enabled. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> for enabled, or <b>FALSE</b> for disabled. For more information about the gradient effect, see the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function.
 
 </td>
 </tr>
@@ -2122,7 +2120,7 @@ Determines whether ToolTip animation is enabled. The <i>pvParam</i> parameter mu
 </dl>
 </td>
 <td width="60%">
-If <b>SPI_SETTOOLTIPANIMATION</b> is enabled, <b>SPI_GETTOOLTIPFADE</b> indicates whether ToolTip animation uses a fade effect or a slide effect. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. For more information on slide and fade effects, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>.
+If <b>SPI_SETTOOLTIPANIMATION</b> is enabled, <b>SPI_GETTOOLTIPFADE</b> indicates whether ToolTip animation uses a fade effect or a slide effect. The <i>pvParam</i> parameter must point to a <b>BOOL</b> variable that receives <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. For more information on slide and fade effects, see <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>.
 
 </td>
 </tr>
@@ -2166,7 +2164,7 @@ Enables or disables a shadow around the cursor. The <i>pvParam</i> parameter is 
 </dl>
 </td>
 <td width="60%">
-Enables or disables the gradient effect for window title bars. Set the <i>pvParam</i> parameter to <b>TRUE</b> to enable it, or <b>FALSE</b> to disable it. The gradient effect is possible only if the system has a color depth of more than 256 colors. For more information about the gradient effect, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function.
+Enables or disables the gradient effect for window title bars. Set the <i>pvParam</i> parameter to <b>TRUE</b> to enable it, or <b>FALSE</b> to disable it. The gradient effect is possible only if the system has a color depth of more than 256 colors. For more information about the gradient effect, see the <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a> function.
 
 </td>
 </tr>
@@ -2249,7 +2247,7 @@ Set <i>pvParam</i> to <b>TRUE</b> to enable ToolTip animation or <b>FALSE</b> to
 </dl>
 </td>
 <td width="60%">
-If the <b>SPI_SETTOOLTIPANIMATION</b> flag is enabled, use <b>SPI_SETTOOLTIPFADE</b> to indicate whether ToolTip animation uses a fade effect or a slide effect. Set <i>pvParam</i> to <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. The tooltip fade effect is possible only if the system has a color depth of more than 256 colors. For more information on the slide and fade effects, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>function.
+If the <b>SPI_SETTOOLTIPANIMATION</b> flag is enabled, use <b>SPI_SETTOOLTIPFADE</b> to indicate whether ToolTip animation uses a fade effect or a slide effect. Set <i>pvParam</i> to <b>TRUE</b> for fade animation or <b>FALSE</b> for slide animation. The tooltip fade effect is possible only if the system has a color depth of more than 256 colors. For more information on the slide and fade effects, see the <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a> function.
 
 </td>
 </tr>
@@ -2314,7 +2312,7 @@ Retrieves the active window tracking delay, in milliseconds. The <i>pvParam</i> 
 </dl>
 </td>
 <td width="60%">
-Retrieves the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
+Retrieves the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
 
 </td>
 </tr>
@@ -2325,7 +2323,7 @@ Retrieves the animation effects associated with user actions. The <i>pvParam</i>
 </dl>
 </td>
 <td width="60%">
-Retrieves the border multiplier factor that determines the width of a window's sizing border. The <i>pvParam</i>parameter must point to an integer variable that receives this value.
+Retrieves the border multiplier factor that determines the width of a window's sizing border. The <i>pvParam</i> parameter must point to an integer variable that receives this value.
 
 </td>
 </tr>
@@ -2388,7 +2386,7 @@ Determines whether dragging of full windows is enabled. The <i>pvParam</i> param
 </dl>
 </td>
 <td width="60%">
-Retrieves the number of times <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> will flash the taskbar button when rejecting a foreground switch request. The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the value.
+Retrieves the number of times <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> will flash the taskbar button when rejecting a foreground switch request. The <i>pvParam</i> parameter must point to a <b>DWORD</b> variable that receives the value.
 
 </td>
 </tr>
@@ -2410,7 +2408,7 @@ Retrieves the amount of time following user input, in milliseconds, during which
 </dl>
 </td>
 <td width="60%">
-Retrieves the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
+Retrieves the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
 
 </td>
 </tr>
@@ -2466,7 +2464,7 @@ Use <b>SPI_GETWINARRANGING</b> to determine whether this behavior is enabled.
 </dl>
 </td>
 <td width="60%">
-Retrieves the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>.
+Retrieves the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that receives the information. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>.
 
 </td>
 </tr>
@@ -2608,7 +2606,7 @@ Sets the active window tracking delay. Set <i>pvParam</i> to the number of milli
 </dl>
 </td>
 <td width="60%">
-Sets the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
+Sets the animation effects associated with user actions. The <i>pvParam</i> parameter must point to an <a href="/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(ANIMATIONINFO)</code>.
 
 </td>
 </tr>
@@ -2682,7 +2680,7 @@ Sets dragging of full windows either on or off. The <i>uiParam</i> parameter spe
 </dl>
 </td>
 <td width="60%">
-Sets the height, in pixels, of the rectangle used to detect the start of a drag operation. Set <i>uiParam</i> to the new value. To retrieve the drag height, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CYDRAG</b> flag.
+Sets the height, in pixels, of the rectangle used to detect the start of a drag operation. Set <i>uiParam</i> to the new value. To retrieve the drag height, call <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CYDRAG</b> flag.
 
 </td>
 </tr>
@@ -2693,7 +2691,7 @@ Sets the height, in pixels, of the rectangle used to detect the start of a drag 
 </dl>
 </td>
 <td width="60%">
-Sets the width, in pixels, of the rectangle used to detect the start of a drag operation. Set <i>uiParam</i> to the new value. To retrieve the drag width, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CXDRAG</b> flag.
+Sets the width, in pixels, of the rectangle used to detect the start of a drag operation. Set <i>uiParam</i> to the new value. To retrieve the drag width, call <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with the <b>SM_CXDRAG</b> flag.
 
 </td>
 </tr>
@@ -2704,7 +2702,7 @@ Sets the width, in pixels, of the rectangle used to detect the start of a drag o
 </dl>
 </td>
 <td width="60%">
-Sets the number of times <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> will flash the taskbar button when rejecting a foreground switch request. Set <i>pvParam</i> to the number of times to flash.
+Sets the number of times <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> will flash the taskbar button when rejecting a foreground switch request. Set <i>pvParam</i> to the number of times to flash.
 
 </td>
 </tr>
@@ -2728,7 +2726,7 @@ The calling thread must be able to change the foreground window, otherwise the c
 </dl>
 </td>
 <td width="60%">
-Sets the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
+Sets the metrics associated with minimized windows. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(MINIMIZEDMETRICS)</code>.
 
 </td>
 </tr>
@@ -2784,7 +2782,7 @@ Sets the threshold in pixels from the top of the monitor where a vertically maxi
 </dl>
 </td>
 <td width="60%">
-Sets the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>. Also, the <b>lfHeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure must be a negative value.
+Sets the metrics associated with the nonclient area of nonminimized windows. The <i>pvParam</i> parameter must point to a <a href="/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a> structure that contains the new parameters. Set the <b>cbSize</b> member of this structure and the <i>uiParam</i> parameter to <code>sizeof(NONCLIENTMETRICS)</code>. Also, the <b>lfHeight</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure must be a negative value.
 
 </td>
 </tr>
@@ -2887,8 +2885,6 @@ The following parameters set individual window arrangement settings:
 </td>
 </tr>
 </table>
- 
-
 
 ### -param uiParam [in]
 
@@ -2896,21 +2892,19 @@ Type: <b>UINT</b>
 
 A parameter whose usage and format depends on the system parameter being queried or set. For more information about system-wide parameters, see the <i>uiAction</i> parameter. If not otherwise indicated, you must specify zero for this parameter.
 
-
 ### -param pvParam [in, out]
 
 Type: <b>PVOID</b>
 
-A parameter whose usage and format depends on the system parameter being queried or set. For more information about system-wide parameters, see the <i>uiAction</i> parameter. If not otherwise indicated, you must specify <b>NULL</b> for this parameter. For information on the <b>PVOID</b> datatype, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>.
-
+A parameter whose usage and format depends on the system parameter being queried or set. For more information about system-wide parameters, see the <i>uiAction</i> parameter. If not otherwise indicated, you must specify <b>NULL</b> for this parameter. For information on the <b>PVOID</b> datatype, see <a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>.
 
 ### -param fWinIni [in]
 
 Type: <b>UINT</b>
 
-If a system parameter is being set, specifies whether the user profile is to be updated, and if so, whether the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message is to be broadcast to all top-level windows to notify them of the change.
+If a system parameter is being set, specifies whether the user profile is to be updated, and if so, whether the <a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message is to be broadcast to all top-level windows to notify them of the change.
 
-This parameter can be zero if you do not want to update the user profile or broadcast the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message, or it can be one or more of the following values.
+This parameter can be zero if you do not want to update the user profile or broadcast the <a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message, or it can be one or more of the following values.
 
 <table>
 <tr>
@@ -2933,7 +2927,7 @@ Writes the new system-wide parameter setting to the user profile.
 </dl>
 </td>
 <td width="60%">
-Broadcasts the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message after updating the user profile.
+Broadcasts the <a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message after updating the user profile.
 
 </td>
 </tr>
@@ -2948,36 +2942,26 @@ Same as <b>SPIF_SENDCHANGE</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function is intended for use with applications that allow the user to customize the environment.
 
 A keyboard layout name should be derived from the hexadecimal value of the language identifier corresponding to the layout. For example, U.S. English has a language identifier of 0x0409, so the primary U.S. English layout is named "00000409". Variants of U.S. English layout, such as the Dvorak layout, are named "00010409", "00020409" and so on. For a list of the primary language identifiers and sublanguage identifiers that make up a language identifier, see the <b>MAKELANGID</b> macro.
 
-There is a difference between the High Contrast color scheme and the High Contrast Mode. The High Contrast color scheme changes the system colors to colors that have obvious contrast; you switch to this color scheme by using the Display Options in the control panel. The High Contrast Mode, which uses <b>SPI_GETHIGHCONTRAST</b> and <b>SPI_SETHIGHCONTRAST</b>, advises applications to modify their appearance for visually-impaired users. It involves such things as audible warning to users and customized color scheme (using the Accessibility Options in the control panel). For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a>. For more information on general accessibility features, see <a href="https://docs.microsoft.com/windows/desktop/accessibility">Accessibility</a>.
+There is a difference between the High Contrast color scheme and the High Contrast Mode. The High Contrast color scheme changes the system colors to colors that have obvious contrast; you switch to this color scheme by using the Display Options in the control panel. The High Contrast Mode, which uses <b>SPI_GETHIGHCONTRAST</b> and <b>SPI_SETHIGHCONTRAST</b>, advises applications to modify their appearance for visually-impaired users. It involves such things as audible warning to users and customized color scheme (using the Accessibility Options in the control panel). For more information, see <a href="/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a>. For more information on general accessibility features, see <a href="/windows/desktop/accessibility">Accessibility</a>.
 
 During the time that the primary button is held down to activate the Mouse ClickLock feature, the user can move the mouse. After the primary button is locked down, releasing the primary button does not result in a <b>WM_LBUTTONUP</b> message. Thus, it will appear to an application that the primary button is still down. Any subsequent button message releases the primary button, sending a <b>WM_LBUTTONUP</b> message to the application, thus the button can be unlocked programmatically or through the user clicking any button.
 
-This API is not DPI aware, and should not be used if the calling thread is per-monitor DPI aware. For the DPI-aware version of this API, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfofordpi">SystemParametersInfoForDPI</a>. For more information on DPI awareness, see <a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">the Windows High DPI documentation.</a>
+This API is not DPI aware, and should not be used if the calling thread is per-monitor DPI aware. For the DPI-aware version of this API, see <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfofordpi">SystemParametersInfoForDPI</a>. For more information on DPI awareness, see <a href="/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">the Windows High DPI documentation.</a>
 
 
 
@@ -3021,52 +3005,53 @@ void main()
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines SystemParametersInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accesstimeout">ACCESSTIMEOUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-animationinfo">ANIMATIONINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-audiodescription">AUDIODESCRIPTION</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-filterkeys">FILTERKEYS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-highcontrasta">HIGHCONTRAST</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconmetricsa">ICONMETRICS</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-minimizedmetrics">MINIMIZEDMETRICS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-mousekeys">MOUSEKEYS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-nonclientmetricsa">NONCLIENTMETRICS</a>
 
 
 
@@ -3074,32 +3059,28 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-serialkeysa">SERIALKEYS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-serialkeysa">SERIALKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-soundsentrya">SOUNDSENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-stickykeys">STICKYKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfofordpi">SystemParametersInfoForDPI</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfofordpi">SystemParametersInfoForDPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-togglekeys">TOGGLEKEYS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a>
+<a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>
- 
-
- 
-
+<a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupDiInstallClassExW
 title: SetupDiInstallClassExW function (setupapi.h)
-description: The SetupDiInstallClassEx function installs a class installer or an interface class.
+description: The SetupDiInstallClassEx function installs a class installer or an interface class. (Unicode)
+helpviewer_keywords: ["SetupDiInstallClassEx", "SetupDiInstallClassEx function [Device and Driver Installation]", "SetupDiInstallClassExW", "devinst.setupdiinstallclassex", "di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml", "setupapi/SetupDiInstallClassEx"]
 old-location: devinst\setupdiinstallclassex.htm
 tech.root: devinst
 ms.assetid: 72ab3fb4-dc4f-439a-87ed-4f4ad061d03a
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallClassEx, SetupDiInstallClassEx function [Device and Driver Installation], SetupDiInstallClassExA, SetupDiInstallClassExW, devinst.setupdiinstallclassex, di-rtns_80aa5f67-e57e-4749-8130-5c940376db49.xml, setupapi/SetupDiInstallClassEx
-f1_keywords:
-- setupapi/SetupDiInstallClassEx
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiInstallClassEx - SetupDiInstallClassExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiInstallClassExW
+ - setupapi/SetupDiInstallClassExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiInstallClassEx - SetupDiInstallClassExW
 ---
 
 # SetupDiInstallClassExW function
@@ -49,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiInstallClassEx</b> function installs a class installer or an interface class.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in, optional]
 
 The handle to the parent window for any user interface that is used to install this class. This parameter is optional and can be <b>NULL</b>.
 
-
 ### -param InfFileName [in, optional]
 
-A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
+A pointer to a NULL-terminated string that contains the name of an INF file. This parameter is optional and can be <b>NULL</b>. If this function is being used to install a class installer, the INF file contains an <a href="/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 section</a> and this parameter must not be <b>NULL</b>.
 
-If this function is being used to install an interface class, the INF file contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-interfaceinstall32-section">INF InterfaceInstall32 section</a>. 
-
+If this function is being used to install an interface class, the INF file contains an <a href="/windows-hardware/drivers/install/inf-interfaceinstall32-section">INF InterfaceInstall32 section</a>.
 
 ### -param Flags [in]
 
@@ -106,21 +101,17 @@ Set this flag to always copy files, even if they are already present on the user
 
 Set this flag to suppress the user interface unless absolutely necessary. For example, do not display the progress dialog. If the caller supplies a file queue, this flag is ignored.
 
-
 ### -param FileQueue [in, optional]
 
 If the DI_NOVCP flag is set, this parameter supplies a handle to a file queue where file operations should be queued but not committed.
-
 
 ### -param InterfaceClassGuid [in, optional]
 
 A pointer to a GUID that identifies the interface class to be installed. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, this function is being used to install the interface class represented by the GUID. If this parameter is <b>NULL</b>, this function is being used to install a class installer.
 
-
 ### -param Reserved1
 
 Reserved. Must be zero.
-
 
 ### -param Reserved2
 
@@ -152,40 +143,29 @@ For more information about the <b>SetupInstallFromInfSection</b> function, see t
 
 Set this flag to suppress the user interface unless absolutely necessary. For example, do not display the progress dialog. If the caller supplies a file queue, this flag is ignored.
 
-
 ## -returns
 
-
-
-<b>SetupDiInstallClassEx</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
-
-
-
+<b>SetupDiInstallClassEx</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 The caller of this function must be a member of the Administrators group.
 
-<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a new <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>. 
+<b>SetupDiInstallClassEx</b> is typically called by a class installer to install a new <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a new <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>. 
 
-<div class="alert"><b>Note</b>  An interface class can also be installed automatically by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a> to install the device interfaces for a device.</div>
+<div class="alert"><b>Note</b>  An interface class can also be installed automatically by calling <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a> to install the device interfaces for a device.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiInstallClassEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a>

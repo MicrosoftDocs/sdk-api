@@ -2,15 +2,12 @@
 UID: NS:ctffunc.TF_LMLATTELEMENT
 title: TF_LMLATTELEMENT (ctffunc.h)
 description: The TF_LMLATTELEMENT structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the IEnumTfLatticeElements::Next method.
+helpviewer_keywords: ["TF_LMLATTELEMENT","TF_LMLATTELEMENT structure [Text Services Framework]","_tsf_tf_lmlattelement_ref","ctffunc/TF_LMLATTELEMENT","tsf.tf_lmlattelement"]
 old-location: tsf\tf_lmlattelement.htm
 tech.root: TSF
 ms.assetid: 55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9
 ms.date: 12/05/2018
 ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framework], _tsf_tf_lmlattelement_ref, ctffunc/TF_LMLATTELEMENT, tsf.tf_lmlattelement
-f1_keywords:
-- ctffunc/TF_LMLATTELEMENT
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ctffunc.h
-api_name:
-- TF_LMLATTELEMENT
 targetos: Windows
 req.typenames: TF_LMLATTELEMENT
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - TF_LMLATTELEMENT
+ - ctffunc/TF_LMLATTELEMENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ctffunc.h
+api_name:
+ - TF_LMLATTELEMENT
 ---
 
 # TF_LMLATTELEMENT structure
@@ -48,32 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next</a> method.
-
-
-
+The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next</a> method.
 
 ## -struct-fields
-
-
-
 
 ### -field dwFrameStart
 
 Contains the starting offset, in 100-nanosecond units, of the element relative to the start of the phrase.
 
-
 ### -field dwFrameLen
 
 Contains the length, in 100-nanosecond units, of the element.
 
-
 ### -field dwFlags
 
 Not currently used.
-
 
 ### -field iCost
 
@@ -97,26 +88,16 @@ Specifies the actual confidence for this element. This can be one of the followi
 <td>The speech engine has high confidence in the element.</td>
 </tr>
 </table>
- 
-
 
 ### -field bstrText
 
-Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
-
+Contains the display text for the element. If the spoken word is "two", the display text will be "2". The caller must free this string using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-ienumtflatticeelements-next">IEnumTfLatticeElements::Next
       </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpAddSubnetElement
 title: DhcpAddSubnetElement function (dhcpsapi.h)
 description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
+helpviewer_keywords: ["DhcpAddSubnetElement","DhcpAddSubnetElement function [DHCP]","dhcp.dhcpaddsubnetelement","dhcpsapi/DhcpAddSubnetElement"]
 old-location: dhcp\dhcpaddsubnetelement.htm
 tech.root: DHCP
 ms.assetid: 4f93d4e8-f41e-4df8-98cc-70a11be75eab
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElement, DhcpAddSubnetElement function [DHCP], dhcp.dhcpaddsubnetelement, dhcpsapi/DhcpAddSubnetElement
-f1_keywords:
-- dhcpsapi/DhcpAddSubnetElement
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpAddSubnetElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpAddSubnetElement
+ - dhcpsapi/DhcpAddSubnetElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpAddSubnetElement
 ---
 
 # DhcpAddSubnetElement function
@@ -48,36 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpAddSubnetElement</b> function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that contains the IPv4 address of the subnet DHCP server.
 
-
 ### -param SubnetAddress [in]
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IPv4 address of the subnet.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IPv4 address of the subnet.
 
 ### -param AddElementInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data">DHCP_SUBNET_ELEMENT_DATA</a> structure that contains information about the subnet element corresponding to the IPv4 subnet specified in <i>SubnetAddress</i>.
-
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data">DHCP_SUBNET_ELEMENT_DATA</a> structure that contains information about the subnet element corresponding to the IPv4 subnet specified in <i>SubnetAddress</i>.
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -184,22 +175,11 @@ The specified address is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv4">DhcpAddSubnetElementV4</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv4">DhcpAddSubnetElementV4</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv5">DhcpAddSubnetElementV5</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv5">DhcpAddSubnetElementV5</a>

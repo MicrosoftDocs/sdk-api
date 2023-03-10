@@ -2,15 +2,12 @@
 UID: NF:mscat.CryptCATEnumerateCatAttr
 title: CryptCATEnumerateCatAttr function (mscat.h)
 description: Enumerates the attributes associated with a catalog. This function has no associated import library.
+helpviewer_keywords: ["CryptCATEnumerateCatAttr","CryptCATEnumerateCatAttr function [Security]","mscat/CryptCATEnumerateCatAttr","security.cryptcatenumeratecatattr"]
 old-location: security\cryptcatenumeratecatattr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 57b6ff5c-e47e-41ac-8ec8-01a47ea77acf
 ms.date: 12/05/2018
 ms.keywords: CryptCATEnumerateCatAttr, CryptCATEnumerateCatAttr function [Security], mscat/CryptCATEnumerateCatAttr, security.cryptcatenumeratecatattr
-f1_keywords:
-- mscat/CryptCATEnumerateCatAttr
-dev_langs:
-- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- CryptCATEnumerateCatAttr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptCATEnumerateCatAttr
+ - mscat/CryptCATEnumerateCatAttr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - CryptCATEnumerateCatAttr
 ---
 
 # CryptCATEnumerateCatAttr function
@@ -48,52 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>CryptCATEnumerateCatAttr</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATEnumerateCatAttr</b> function enumerates the attributes associated with  a catalog. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
-
+The <b>CryptCATEnumerateCatAttr</b> function enumerates the attributes associated with  a catalog. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
-
-
-
 
 ### -param hCatalog [in]
 
 Handle for the catalog whose attributes are being enumerated. This value cannot be <b>NULL</b>.
 
-
 ### -param pPrevAttr [in]
 
-A pointer to the previously returned pointer to  the [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure from this function or pointer to <b>NULL</b> to start the enumeration.
-
+A pointer to the previously returned pointer to  the [CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure from this function or pointer to <b>NULL</b> to start the enumeration.
 
 ## -returns
 
-
-
-The return value is a pointer to the  [CRYPTCATATTRIBUTE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatattribute)a> structure that contains the attribute information or <b>NULL</b>, if no more attributes are in the enumeration or if an error is encountered. The returned pointer is passed in as the <i>pPrevAttr</i> parameter for subsequent calls to this function.
-
-
-
+The return value is a pointer to the  [CRYPTCATATTRIBUTE](/windows/desktop/api/mscat/ns-mscat-cryptcatattribute) structure that contains the attribute information or <b>NULL</b>, if no more attributes are in the enumeration or if an error is encountered. The returned pointer is passed in as the <i>pPrevAttr</i> parameter for subsequent calls to this function.
 
 ## -remarks
 
-
-
-Do not free the returned pointer nor any of the members pointed to by the returned pointer. 
-
-
-
+Do not free the returned pointer nor any of the members pointed to by the returned pointer.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mscat/nf-mscat-cryptcatenumerateattr">CryptCATEnumerateAttr</a>

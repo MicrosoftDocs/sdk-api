@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPErrorItem.get_errorContext
 title: IWMPErrorItem::get_errorContext (wmp.h)
 description: The get_errorContext method retrieves a value indicating the context of the error.
+helpviewer_keywords: ["IWMPErrorItem interface [Windows Media Player]","get_errorContext method","IWMPErrorItem.get_errorContext","IWMPErrorItem::get_errorContext","IWMPErrorItemget_errorContext","get_errorContext","get_errorContext method [Windows Media Player]","get_errorContext method [Windows Media Player]","IWMPErrorItem interface","wmp.iwmperroritem_get_errorcontext","wmp/IWMPErrorItem::get_errorContext"]
 old-location: wmp\iwmperroritem_get_errorcontext.htm
 tech.root: WMP
 ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
-f1_keywords:
-- wmp/IWMPErrorItem.get_errorContext
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPErrorItem.get_errorContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPErrorItem::get_errorContext
+ - wmp/IWMPErrorItem::get_errorContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPErrorItem.get_errorContext
 ---
 
 # IWMPErrorItem::get_errorContext
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_errorContext</b> method retrieves a value indicating the context of the error.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pvarContext [out]
 
 Pointer to a <b>VARIANT</b> containing the error context.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,29 +79,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The error context is information that is used by Microsoft to provide additional information for technical support personnel.
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>VARIANT</b> with the <b>vt</b> field set to VT_EMPTY.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>

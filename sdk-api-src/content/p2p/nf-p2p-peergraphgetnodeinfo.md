@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerGraphGetNodeInfo
 title: PeerGraphGetNodeInfo function (p2p.h)
 description: The PeerGraphGetNodeInfo function retrieves information about a specific node.
+helpviewer_keywords: ["PeerGraphGetNodeInfo","PeerGraphGetNodeInfo function [Peer Networking]","p2p.peergraphgetnodeinfo","p2p/PeerGraphGetNodeInfo"]
 old-location: p2p\peergraphgetnodeinfo.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 7149aba3-d44b-4492-aa56-4d8dbfba7b7c
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetNodeInfo, PeerGraphGetNodeInfo function [Peer Networking], p2p.peergraphgetnodeinfo, p2p/PeerGraphGetNodeInfo
-f1_keywords:
-- p2p/PeerGraphGetNodeInfo
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphGetNodeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphGetNodeInfo
+ - p2p/PeerGraphGetNodeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphGetNodeInfo
 ---
 
 # PeerGraphGetNodeInfo function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphGetNodeInfo</b> function retrieves information about a specific node.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to a peer graph.
 
-
 ### -param ullNodeId [in]
 
 Specifies  the ID of a node   that an application receives  information about. Specify zero (0) to  retrieve information about the local node.
 
-
 ### -param ppNodeInfo [out]
 
-Receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a> structure that contains the requested information. When the handle is not needed, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
-
+Receives a pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a> structure that contains the requested information. When the handle is not needed, free it by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>S_OK</b>. Otherwise, the function returns one of the following error codes.
 
@@ -123,7 +115,7 @@ The handle to a peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-A peer graph must be  initialized by using a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+A peer graph must be  initialized by using a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -139,31 +131,15 @@ A specified node is not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 There can be several nodes of a graph on a computer. For example, multiple users may have joined the graph on a specific computer, so the information that <b>PeerGraphGetNodeInfo</b> returns is    about each node—not each computer.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>

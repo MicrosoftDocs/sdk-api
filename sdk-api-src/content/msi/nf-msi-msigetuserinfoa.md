@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetUserInfoA
 title: MsiGetUserInfoA function (msi.h)
-description: The MsiGetUserInfo function returns the registered user information for an installed product.
+description: The MsiGetUserInfo function returns the registered user information for an installed product. (ANSI)
+helpviewer_keywords: ["MsiGetUserInfoA", "msi/MsiGetUserInfoA"]
 old-location: setup\msigetuserinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c05580c6-9be3-410a-aa97-be15c2980ba8
 ms.date: 12/05/2018
 ms.keywords: MsiGetUserInfo, MsiGetUserInfo function, MsiGetUserInfoA, MsiGetUserInfoW, _msi_msigetuserinfo, msi/MsiGetUserInfo, msi/MsiGetUserInfoA, msi/MsiGetUserInfoW, setup.msigetuserinfo
-f1_keywords:
-- msi/MsiGetUserInfo
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetUserInfo
-- MsiGetUserInfoA
-- MsiGetUserInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetUserInfoA
+ - msi/MsiGetUserInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetUserInfo
+ - MsiGetUserInfoA
+ - MsiGetUserInfoW
 ---
 
 # MsiGetUserInfoA function
@@ -50,54 +52,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetUserInfo</b> function returns the registered user information for an installed product.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product to be queried.
 
-
 ### -param lpUserNameBuf [out]
 
 Pointer to a variable that receives the name of the user.
-
 
 ### -param pcchUserNameBuf [in, out]
 
 Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpUserNameBuf</i> parameter. This size should include the terminating null character.
 
-
 ### -param lpOrgNameBuf [out]
 
 Pointer to a buffer that receives the organization name.
-
 
 ### -param pcchOrgNameBuf [in, out]
 
 Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpOrgNameBuf</i> parameter. On input, this is the full size of the buffer, including a space for a terminating null character. If the buffer passed in is too small, the count returned does not include the terminating null character.
 
-
 ### -param lpSerialBuf [in]
 
 Pointer to a buffer that receives the product ID.
-
 
 ### -param pcchSerialBuf [in, out]
 
 Pointer to a variable that specifies the size, in characters, of the buffer pointed to by the <i>lpSerialBuf</i> parameter. On input, this is the full size of the buffer, including a space for a terminating null character. If the buffer passed in is too small, the count returned does not include the terminating null character.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -165,13 +153,7 @@ The product code does not identify a known product.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 When the 
 <b>MsiGetUserInfo</b> function returns, the <i>pcchNameBuf</i> parameter contains the length of the class string stored in the buffer. The count returned does not include the terminating null character. If the buffer is not big enough, the 
@@ -183,13 +165,10 @@ The user information is considered to be present even in the absence of a compan
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiGetUserInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

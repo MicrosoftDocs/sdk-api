@@ -2,15 +2,12 @@
 UID: NN:ocidl.IPictureDisp
 title: IPictureDisp (ocidl.h)
 description: Exposes the picture object's properties through Automation. It provides a subset of the functionality available through IPicture methods.
+helpviewer_keywords: ["IPictureDisp","IPictureDisp interface [COM]","IPictureDisp interface [COM]","described","_ctrl_ipicturedisp","com.ipicturedisp","ocidl/IPictureDisp"]
 old-location: com\ipicturedisp.htm
 tech.root: com
 ms.assetid: 42efa5a3-66af-4432-a2fd-616261b1f407
 ms.date: 12/05/2018
 ms.keywords: IPictureDisp, IPictureDisp interface [COM], IPictureDisp interface [COM],described, _ctrl_ipicturedisp, com.ipicturedisp, ocidl/IPictureDisp
-f1_keywords:
-- ocidl/IPictureDisp
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPictureDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPictureDisp
+ - ocidl/IPictureDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPictureDisp
 ---
 
 # IPictureDisp interface
@@ -48,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes the picture object's properties through Automation. It provides a subset of the functionality available through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> methods.
-
+Exposes the picture object's properties through Automation. It provides a subset of the functionality available through <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> methods.
 
 ## -remarks
-
-
 
 The following table describes the dispIDs for the various picture properties.
 
@@ -125,7 +123,7 @@ Each property in the <b>IPictureDisp</b> interface includes a <b>get_PropertyNam
 <td>Type</td>
 <td><b>short</b></td>
 <td>R</td>
-<td>The type of picture (see <a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a>).
+<td>The type of picture (see <a href="/windows/desktop/com/pictype-constants">PICTYPE</a>).
 </td>
 </tr>
 <tr>
@@ -148,20 +146,10 @@ Each property in the <b>IPictureDisp</b> interface includes a <b>get_PropertyNam
  
 
 <h3><a id="OLE_Implementation"></a><a id="ole_implementation"></a><a id="OLE_IMPLEMENTATION"></a>OLE Implementation</h3>
-Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> and <b>IPictureDisp</b>. A picture object is created with <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> and supports both the <b>IPicture</b> and the <b>IPictureDisp</b> interfaces.
+Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles. As with the standard font object, the system provides a standard implementation of the picture object. Its primary interfaces are <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> and <b>IPictureDisp</b>. A picture object is created with <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a> and supports both the <b>IPicture</b> and the <b>IPictureDisp</b> interfaces.
 
-The OLE-provided picture object implements the complete semantics of the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> and <b>IPictureDisp</b> interfaces.
-
-
-
+The OLE-provided picture object implements the complete semantics of the <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a> and <b>IPictureDisp</b> interfaces.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>

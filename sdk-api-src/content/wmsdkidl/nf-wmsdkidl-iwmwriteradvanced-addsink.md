@@ -2,16 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterAdvanced.AddSink
 title: IWMWriterAdvanced::AddSink (wmsdkidl.h)
 description: The AddSink method adds a writer sink to receive writer output. The Windows Media Format SDK supports file sinks, which create ASF files on disk; network sinks, which stream ASF content across a network; and push sinks, which deliver ASF content to other media servers. To create a sink object, call one of the following functions:\_
-The AddSink method adds a writer sink to receive writer output. The Windows Media Format SDK supports file sinks, which create ASF files on disk; network sinks, which stream ASF content across a network; and push sinks, which deliver ASF content to other media servers. To create a sink object, call one of the following functions: New sinks must be added to the writer with this method before they can be used.
+helpviewer_keywords: ["AddSink","AddSink method [windows Media Format]","AddSink method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","AddSink method","IWMWriterAdvanced.AddSink","IWMWriterAdvanced::AddSink","IWMWriterAdvancedAddSink","wmformat.iwmwriteradvanced_addsink","wmsdkidl/IWMWriterAdvanced::AddSink"]
 old-location: wmformat\iwmwriteradvanced_addsink.htm
 tech.root: wmformat
 ms.assetid: 65763ac3-fba0-4de6-9c2e-4e241bbe5f13
 ms.date: 12/05/2018
 ms.keywords: AddSink, AddSink method [windows Media Format], AddSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],AddSink method, IWMWriterAdvanced.AddSink, IWMWriterAdvanced::AddSink, IWMWriterAdvancedAddSink, wmformat.iwmwriteradvanced_addsink, wmsdkidl/IWMWriterAdvanced::AddSink
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.AddSink"
-dev_langs:
- - c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -29,6 +25,15 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
+targetos: Windows
+req.typenames: 
+req.redist: 
+ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced::AddSink
+ - wmsdkidl/IWMWriterAdvanced::AddSink
+dev_langs:
+ - c++
 topic_type:
  - APIRef
  - kbSyntax
@@ -41,18 +46,12 @@ api_location:
  - WMStubDRM.dll
 api_name:
  - IWMWriterAdvanced.AddSink
-targetos: Windows
-req.typenames: 
-req.redist: 
-ms.custom: 19H1
 ---
 
 # IWMWriterAdvanced::AddSink
 
 
 ## -description
-
-
 
 The <b>AddSink</b> method adds a writer sink to receive writer output. The Windows Media Format SDK supports <i>file sinks</i>, which create ASF files on disk; <i>network sinks</i>, which stream ASF content across a network; and <i>push sinks</i>, which deliver ASF content to other media servers. To create a sink object, call one of the following functions:
 
@@ -67,39 +66,32 @@ The <b>AddSink</b> method adds a writer sink to receive writer output. The Windo
 <tr>
 <td>File sink</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink">WMCreateWriterFileSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink">WMCreateWriterFileSink</a>
 </td>
 </tr>
 <tr>
 <td>Network sink</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink">WMCreateWriterNetworkSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink">WMCreateWriterNetworkSink</a>
 </td>
 </tr>
 <tr>
 <td>Push sink</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink">WMCreateWriterPushSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink">WMCreateWriterPushSink</a>
 </td>
 </tr>
 </table> 
 
 New sinks must be added to the writer with this method before they can be used.
 
-
 ## -parameters
-
-
-
 
 ### -param pSink [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a> interface.
-
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -142,39 +134,23 @@ The writer is not in a configurable state.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If you only need to write to a single file, you can let the writer object handle the creation and management of a default file sink. To use a default file sink, pass a file name to the writer by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>.
-
-
-
+If you only need to write to a single file, you can let the writer object handle the creation and management of a default file sink. To use a default file sink, pass a file name to the writer by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/adding-sinks-to-the-writer">Adding Sinks to the Writer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/adding-sinks-to-the-writer">Adding Sinks to the Writer</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsink">IWMWriterAdvanced::GetSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsink">IWMWriterAdvanced::GetSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>

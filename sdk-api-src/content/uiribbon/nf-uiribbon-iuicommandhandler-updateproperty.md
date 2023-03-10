@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUICommandHandler.UpdateProperty
 title: IUICommandHandler::UpdateProperty (uiribbon.h)
 description: Responds to property update requests from the Windows Ribbon framework.
+helpviewer_keywords: ["IUICommandHandler interface [Windows Ribbon]","UpdateProperty method","IUICommandHandler.UpdateProperty","IUICommandHandler::UpdateProperty","UpdateProperty","UpdateProperty method [Windows Ribbon]","UpdateProperty method [Windows Ribbon]","IUICommandHandler interface","scenicintent_IUICommandHandler_UpdateProperty","uiribbon/IUICommandHandler::UpdateProperty","windowsribbon.windowsribbon_iuicommandhandler_updateproperty"]
 old-location: windowsribbon\windowsribbon_iuicommandhandler_updateproperty.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\updateproperty.htm
 ms.date: 12/05/2018
 ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method, IUICommandHandler.UpdateProperty, IUICommandHandler::UpdateProperty, UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon],IUICommandHandler interface, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
-f1_keywords:
-- uiribbon/IUICommandHandler.UpdateProperty
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUICommandHandler.UpdateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUICommandHandler::UpdateProperty
+ - uiribbon/IUICommandHandler::UpdateProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUICommandHandler.UpdateProperty
 ---
 
 # IUICommandHandler::UpdateProperty
@@ -49,39 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Responds to property update requests from the Windows Ribbon framework.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param commandId [in]
 
 Type: <b>UINT32</b>
 
 The ID for the Command, which is specified in the Markup resource file.
-				
-
 
 ### -param key [in]
 
 Type: <b>REFPROPERTYKEY</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> to update.
-				
-
+The <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> to update.
 
 ### -param currentValue [in, optional]
 
 Type: <b>const PROPVARIANT*</b>
 
 A pointer to the current value for <i>key</i>. This parameter can be <b>NULL</b>.
-				
-
 
 ### -param newValue [out]
 
@@ -89,42 +79,23 @@ Type: <b>PROPVARIANT*</b>
 
 When this method returns, contains a pointer to the new value for 
 					<i>key</i>.
-				
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This method should be allowed to return before any subsequent calls to the Ribbon framework are made.
 
-The values of Command properties, such as <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a> or <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-label">UI_PKEY_Label</a>, are set through calls to <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty">SetUICommandProperty</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">InvalidateUICommand</a>.
-
-
-
+The values of Command properties, such as <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-enabled">UI_PKEY_Enabled</a> or <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-label">UI_PKEY_Label</a>, are set through calls to <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty">SetUICommandProperty</a> or <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">InvalidateUICommand</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

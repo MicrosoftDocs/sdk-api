@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.SetVarHelpContext
 title: ICreateTypeInfo::SetVarHelpContext (oaidl.h)
 description: Sets the Help context ID for the variable with the specified index.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetVarHelpContext method","ICreateTypeInfo.SetVarHelpContext","ICreateTypeInfo::SetVarHelpContext","SetVarHelpContext","SetVarHelpContext method [Automation]","SetVarHelpContext method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetVarHelpContext","automat.icreatetypeinfo_setvarhelpcontext","oaidl/ICreateTypeInfo::SetVarHelpContext"]
 old-location: automat\icreatetypeinfo_setvarhelpcontext.htm
 tech.root: automat
 ms.assetid: ab15e7fc-63fa-433f-9191-c7087143a7c1
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarHelpContext method, ICreateTypeInfo.SetVarHelpContext, ICreateTypeInfo::SetVarHelpContext, SetVarHelpContext, SetVarHelpContext method [Automation], SetVarHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarHelpContext, automat.icreatetypeinfo_setvarhelpcontext, oaidl/ICreateTypeInfo::SetVarHelpContext
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetVarHelpContext
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetVarHelpContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetVarHelpContext
+ - oaidl/ICreateTypeInfo::SetVarHelpContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetVarHelpContext
 ---
 
 # ICreateTypeInfo::SetVarHelpContext
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the Help context ID for the variable with the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the variable.
 
-
 ### -param dwHelpContext [in]
 
 The handle to the Help context ID for the Help topic on the variable.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -140,18 +132,7 @@ The element cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

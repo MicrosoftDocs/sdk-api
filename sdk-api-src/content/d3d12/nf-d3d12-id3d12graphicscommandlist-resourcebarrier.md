@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResourceBarrier
 title: ID3D12GraphicsCommandList::ResourceBarrier (d3d12.h)
-description: Notifies the driver that it needs to synchronize multiple accesses to resources.
+description: Notifies the driver that it needs to synchronize multiple accesses to resources. (ID3D12GraphicsCommandList.ResourceBarrier)
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResourceBarrier method","ID3D12GraphicsCommandList.ResourceBarrier","ID3D12GraphicsCommandList::ResourceBarrier","ResourceBarrier","ResourceBarrier method","ResourceBarrier method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResourceBarrier","direct3d12.id3d12graphicscommandlist_resourcebarrier"]
 old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 tech.root: direct3d12
 ms.assetid: AA788F94-122B-4132-BED5-162EAC683676
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResourceBarrier method, ID3D12GraphicsCommandList.ResourceBarrier, ID3D12GraphicsCommandList::ResourceBarrier, ResourceBarrier, ResourceBarrier method, ResourceBarrier method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResourceBarrier, direct3d12.id3d12graphicscommandlist_resourcebarrier
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ResourceBarrier
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,65 +25,48 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ResourceBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ResourceBarrier
+ - d3d12/ID3D12GraphicsCommandList::ResourceBarrier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ResourceBarrier
 ---
-
-# ID3D12GraphicsCommandList::ResourceBarrier
-
 
 ## -description
 
-
 Notifies the driver that it needs to synchronize multiple accesses to resources.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param NumBarriers [in]
 
 Type: <b>UINT</b>
 
 The number of submitted barrier descriptions.
-          
-
 
 ### -param pBarriers [in]
 
 Type: <b>const <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_barrier">D3D12_RESOURCE_BARRIER</a>*</b>
 
 Pointer to an array of barrier descriptions.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
 
 ## -remarks
 
-
+> [!NOTE]
+> A resource to be used for the [D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) state must be created in that state, and then never transitioned out of it. Nor may a resource that was created not in that state be transitioned into it. For more info, see [Acceleration structure memory restrictions](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html#acceleration-structure-memory-restrictions) in the DirectX raytracing (DXR) functional specification on GitHub.
 
 There are three types of barrier descriptions:
 
@@ -193,12 +173,12 @@ Whereas the debug layer attempts to validate the runtime rules, it operates cons
 The debug layer will issue warnings in the following cases:
 
 <ul>
-<li>All of the cases where the D3D11 debug layer would issues warnings for <a href="/windows/win32/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-tiledresourcebarrier">ID3D11DeviceContext2::TiledResourceBarrier</a>.
+<li>All of the cases where the D3D12 debug layer would issues warnings for <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier">ID3D12GraphicsCommandList::ResourceBarrier</a>.
             </li>
 <li>If a depth buffer is used in a non-read-only mode while the resource has the D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE usage bit set.</li>
 </ul>
 
-#### Examples
+## Examples
 
 The <a href="/windows/win32/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ResourceBarrier</b> as follows:
         
@@ -267,19 +247,11 @@ See <a href="/windows/win32/direct3d12/notes-on-example-code">Example Code in th
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 
 
 <a href="/windows/win32/direct3d12/using-resource-barriers-to-synchronize-resource-states-in-direct3d-12">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
- 
-
- 
 

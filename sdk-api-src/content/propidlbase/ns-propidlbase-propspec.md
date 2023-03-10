@@ -1,16 +1,13 @@
 ---
 UID: NS:propidlbase.tagPROPSPEC
 title: PROPSPEC (propidlbase.h)
-description: The PROPSPEC structure is used by many of the methods of IPropertyStorage to specify a property either by its property identifier (ID) or the associated string name.
+description: The PROPSPEC structure is used by many of the methods of IPropertyStorage to specify a property either by its property identifier (ID) or the associated string name.  
+helpviewer_keywords: ["PROPSPEC","PROPSPEC [Strctd Stg]","PROPSPEC structure [Structured Storage]","PRSPEC_LPWSTR","PRSPEC_PROPID","_stg_propspec","propidlbase/PROPSPEC","stg.propspec","tagPROPSPEC"]
 old-location: stg\propspec.htm
 tech.root: Stg
 ms.assetid: 5bb3b9c6-ab82-498c-94f9-13a9ffa7452b
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: PROPSPEC, PROPSPEC [Strctd Stg], PROPSPEC structure [Structured Storage], PRSPEC_LPWSTR, PRSPEC_PROPID, _stg_propspec, propidlbase/PROPSPEC, stg.propspec, tagPROPSPEC
-f1_keywords:
-- propidlbase/PROPSPEC
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- propidlbase.h
-api_name:
-- PROPSPEC
 targetos: Windows
 req.typenames: PROPSPEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPROPSPEC
+ - propidlbase/tagPROPSPEC
+ - PROPSPEC
+ - propidlbase/PROPSPEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - propidlbase.h
+api_name:
+ - PROPSPEC
 ---
 
 # PROPSPEC structure
@@ -48,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PROPSPEC</b> structure is used by many of the methods of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to specify a property either by its property identifier (ID) or the associated string name.
-
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to specify a property either by its property identifier (ID) or the associated string name.
 
 ## -struct-fields
-
-
-
 
 ### -field ulKind
 
@@ -91,40 +90,21 @@ The <b>propid</b> member is used and set to a property ID value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.propid
 
 Specifies the value of the property ID. Use either this value or the following <b>lpwstr</b>, not both.
 
-
 ### -field DUMMYUNIONNAME.lpwstr
 
 Specifies the string name of the property as a null-terminated Unicode string.
 
-
 ## -remarks
 
-
-
-String names are optional and can be assigned to a set of properties when the property is created with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IPropertyStorage::WriteMultiple</a> or later with a call to <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>.
-
-
-
+String names are optional and can be assigned to a set of properties when the property is created with a call to <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">IPropertyStorage::WriteMultiple</a> or later with a call to <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writepropertynames">IPropertyStorage::WritePropertyNames</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>

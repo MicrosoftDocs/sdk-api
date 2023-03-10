@@ -1,7 +1,8 @@
 ---
-UID: NF:d3d11.CD3D11_TEXTURE1D_DESC.operator const D3D11_TEXTURE1D_DESC&
+UID: NF:d3d11.CD3D11_TEXTURE1D_DESC.operator-cast-const-D3D11_TEXTURE1D_DESC&
 title: CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC& (d3d11.h)
 description: This operator returns the address of a D3D11_TEXTURE1D_DESC structure that contains the data from the CD3D11_TEXTURE1D_DESC instance.
+helpviewer_keywords: ["CD3D11_TEXTURE1D_DESC interface [Direct3D 11]","operator const D3D11_TEXTURE1D_DESC& method","CD3D11_TEXTURE1D_DESC.operator const D3D11_TEXTURE1D_DESC&","CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC&","CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC&()","d3d11/CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC&","direct3d11.cd3d11_texture1d_desc_d3d11_texture1d_desc__","operator const D3D11_TEXTURE1D_DESC&","operator const D3D11_TEXTURE1D_DESC& method [Direct3D 11]","operator const D3D11_TEXTURE1D_DESC& method [Direct3D 11]","CD3D11_TEXTURE1D_DESC interface"]
 old-location: direct3d11\cd3d11_texture1d_desc_d3d11_texture1d_desc__.htm
 tech.root: direct3d11
 ms.assetid: 34FC6F09-4891-46B1-A667-73945A65836A
@@ -50,10 +51,10 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151694(v=vs.85)">CD3D11_TEXTURE1D_DESC</a> instance.
+This operator returns the address of a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture1d_desc">D3D11_TEXTURE1D_DESC</a> structure that contains  the data from the <a href="/previous-versions/windows/desktop/legacy/jj151694(v=vs.85)">CD3D11_TEXTURE1D_DESC</a> instance.
 
 
-## -parameters
+
 
 
 
@@ -65,8 +66,7 @@ This operator returns the address of a <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151694(v=vs.85)">CD3D11_TEXTURE1D_DESC</a>
+<a href="/previous-versions/windows/desktop/legacy/jj151694(v=vs.85)">CD3D11_TEXTURE1D_DESC</a>
  
 
  
-

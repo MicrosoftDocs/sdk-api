@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifySessionStateChange
 title: IWTSProtocolManager::NotifySessionStateChange (wtsprotocol.h)
 description: IWTSProtocolManager::NotifySessionStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifySessionStateChange.
+helpviewer_keywords: ["IWTSProtocolManager interface [Remote Desktop Services]","NotifySessionStateChange method","IWTSProtocolManager.NotifySessionStateChange","IWTSProtocolManager::NotifySessionStateChange","NotifySessionStateChange","NotifySessionStateChange method [Remote Desktop Services]","NotifySessionStateChange method [Remote Desktop Services]","IWTSProtocolManager interface","WTS_CONSOLE_CONNECT","WTS_CONSOLE_DISCONNECT","WTS_REMOTE_CONNECT","WTS_SESSION_LOCK","WTS_SESSION_LOGOFF","WTS_SESSION_REMOTE_CONTROL","WTS_SESSION_UNLOCK","termserv.iwtsprotocolmanager_notifysessionstatechange","wtsprotocol/IWTSProtocolManager::NotifySessionStateChange"]
 old-location: termserv\iwtsprotocolmanager_notifysessionstatechange.htm
 tech.root: TermServ
 ms.assetid: 59c284bf-8175-46d2-ab44-8b2975574c14
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolManager interface [Remote Desktop Services],NotifySessionStateChange method, IWTSProtocolManager.NotifySessionStateChange, IWTSProtocolManager::NotifySessionStateChange, NotifySessionStateChange, NotifySessionStateChange method [Remote Desktop Services], NotifySessionStateChange method [Remote Desktop Services],IWTSProtocolManager interface, WTS_CONSOLE_CONNECT, WTS_CONSOLE_DISCONNECT, WTS_REMOTE_CONNECT, WTS_SESSION_LOCK, WTS_SESSION_LOGOFF, WTS_SESSION_REMOTE_CONTROL, WTS_SESSION_UNLOCK, termserv.iwtsprotocolmanager_notifysessionstatechange, wtsprotocol/IWTSProtocolManager::NotifySessionStateChange
-f1_keywords:
-- wtsprotocol/IWTSProtocolManager.NotifySessionStateChange
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolManager.NotifySessionStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolManager::NotifySessionStateChange
+ - wtsprotocol/IWTSProtocolManager::NotifySessionStateChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolManager.NotifySessionStateChange
 ---
 
 # IWTSProtocolManager::NotifySessionStateChange
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>IWTSProtocolManager::NotifySessionStateChange</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-notifysessionstatechange">IWRdsProtocolManager::NotifySessionStateChange</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolManager::NotifySessionStateChange</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-notifysessionstatechange">IWRdsProtocolManager::NotifySessionStateChange</a>.]
 
 Notifies the protocol provider of changes in the state of a session.
 
-
 ## -parameters
-
-
-
 
 ### -param SessionId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_session_id">WTS_SESSION_ID</a> structure that uniquely identifies the session.
-
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_session_id">WTS_SESSION_ID</a> structure that uniquely identifies the session.
 
 ### -param EventId [in]
 
@@ -96,23 +92,10 @@ An integer that contains the event ID. The following IDs can be found in Winuser
 
 #### WTS_SESSION_REMOTE_CONTROL (0x9)
 
-
 ## -returns
 
-
-
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolmanager">IWTSProtocolManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolmanager">IWTSProtocolManager</a>

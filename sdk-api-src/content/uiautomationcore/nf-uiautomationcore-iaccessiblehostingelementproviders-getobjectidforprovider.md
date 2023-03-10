@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IAccessibleHostingElementProviders.GetObjectIdForProvider
 title: IAccessibleHostingElementProviders::GetObjectIdForProvider (uiautomationcore.h)
 description: Retrieves the object ID associated with a contained windowless Microsoft ActiveX control that implements Microsoft UI Automation.
+helpviewer_keywords: ["GetObjectIdForProvider","GetObjectIdForProvider method [Windows Accessibility]","GetObjectIdForProvider method [Windows Accessibility]","IAccessibleHostingElementProviders interface","IAccessibleHostingElementProviders interface [Windows Accessibility]","GetObjectIdForProvider method","IAccessibleHostingElementProviders.GetObjectIdForProvider","IAccessibleHostingElementProviders::GetObjectIdForProvider","uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider","winauto.uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider"]
 old-location: winauto\uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider.htm
 tech.root: WinAuto
 ms.assetid: 847F285F-F31D-486C-BBC7-DEED69505306
 ms.date: 12/05/2018
 ms.keywords: GetObjectIdForProvider, GetObjectIdForProvider method [Windows Accessibility], GetObjectIdForProvider method [Windows Accessibility],IAccessibleHostingElementProviders interface, IAccessibleHostingElementProviders interface [Windows Accessibility],GetObjectIdForProvider method, IAccessibleHostingElementProviders.GetObjectIdForProvider, IAccessibleHostingElementProviders::GetObjectIdForProvider, uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider, winauto.uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider
-f1_keywords:
-- uiautomationcore/IAccessibleHostingElementProviders.GetObjectIdForProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IAccessibleHostingElementProviders.GetObjectIdForProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibleHostingElementProviders::GetObjectIdForProvider
+ - uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IAccessibleHostingElementProviders.GetObjectIdForProvider
 ---
 
 # IAccessibleHostingElementProviders::GetObjectIdForProvider
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the object ID associated with a contained windowless Microsoft ActiveX control that implements Microsoft UI Automation.  
-
+Retrieves the object ID associated with a contained windowless Microsoft ActiveX control that implements Microsoft UI Automation.
 
 ## -parameters
 
-
-
-
 ### -param pProvider [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>*</b>
 
 The provider for the windowless ActiveX control.
-
 
 ### -param pidObject [out]
 
@@ -70,25 +66,12 @@ Type: <b>long*</b>
 
 The object ID of the contained windowless ActiveX control.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a>

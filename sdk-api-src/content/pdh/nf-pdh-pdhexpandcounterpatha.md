@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhExpandCounterPathA
 title: PdhExpandCounterPathA function (pdh.h)
-description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
+description: Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path. (ANSI)
+helpviewer_keywords: ["PdhExpandCounterPathA", "pdh/PdhExpandCounterPathA"]
 old-location: perf\pdhexpandcounterpath.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: d90954ab-ec2f-42fd-90b7-66f59f3d1115
 ms.date: 12/05/2018
 ms.keywords: PdhExpandCounterPath, PdhExpandCounterPath function [Perf], PdhExpandCounterPathA, PdhExpandCounterPathW, _win32_pdhexpandcounterpath, base.pdhexpandcounterpath, pdh/PdhExpandCounterPath, pdh/PdhExpandCounterPathA, pdh/PdhExpandCounterPathW, perf.pdhexpandcounterpath
-f1_keywords:
-- pdh/PdhExpandCounterPath
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhExpandCounterPath
-- PdhExpandCounterPathA
-- PdhExpandCounterPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhExpandCounterPathA
+ - pdh/PdhExpandCounterPathA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhExpandCounterPath
+ - PdhExpandCounterPathA
+ - PdhExpandCounterPathW
 ---
 
 # PdhExpandCounterPathA function
@@ -50,25 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Examines the specified computer (or local computer if none is specified) for counters and instances of counters that match the wildcard strings in the counter path.
 		
-<div class="alert"><b>Note</b>  This function is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is superseded by the <a href="/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param szWildCardPath [in]
 
 <b>Null</b>-terminated string that contains the counter path to expand. The function searches the computer specified in the path for matches. If the path does not specify a computer, the function searches the local computer. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
-
 ### -param mszExpandedPathList [out]
 
 Caller-allocated buffer that receives the list of expanded counter paths that match the wildcard specification in <i>szWildCardPath</i>. Each counter path in this list is terminated by a <b>null</b> character. The list is terminated with two <b>NULL</b> characters. Set to <b>NULL</b> if <i>pcchPathListLength</i> is zero.
-
 
 ### -param pcchPathListLength [in, out]
 
@@ -79,14 +75,12 @@ Size of the <i>mszExpandedPathList</i> buffer, in <b>TCHARs</b>. If zero on inpu
 
 ## -returns
 
-
-
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 <table>
 <tr>
@@ -127,14 +121,8 @@ Unable to allocate memory to support this function.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set <i>mszExpandedPathList</i> to <b>NULL</b> and <i>pcchPathListLength</i> to 0), and the second time to get the data.
 
@@ -242,17 +230,14 @@ Cleanup:
 
 
 
+
+> [!NOTE]
+> The pdh.h header defines PdhExpandCounterPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>

@@ -2,15 +2,12 @@
 UID: NN:d2d1effectauthor.ID2D1TransformGraph
 title: ID2D1TransformGraph (d2d1effectauthor.h)
 description: Represents a graph of transform nodes.
+helpviewer_keywords: ["ID2D1TransformGraph","ID2D1TransformGraph interface [Direct2D]","ID2D1TransformGraph interface [Direct2D]","described","d2d1effectauthor/ID2D1TransformGraph","direct2d.id2d1transformgraph"]
 old-location: direct2d\id2d1transformgraph.htm
 tech.root: Direct2D
 ms.assetid: 6CA29200-9834-4A5B-99E8-434CD6E9B243
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformGraph, ID2D1TransformGraph interface [Direct2D], ID2D1TransformGraph interface [Direct2D],described, d2d1effectauthor/ID2D1TransformGraph, direct2d.id2d1transformgraph
-f1_keywords:
-- d2d1effectauthor/ID2D1TransformGraph
-dev_langs:
-- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d2d1.lib
-- d2d1.dll
-api_name:
-- ID2D1TransformGraph
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1TransformGraph
+ - d2d1effectauthor/ID2D1TransformGraph
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1TransformGraph
 ---
 
 # ID2D1TransformGraph interface
@@ -49,114 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a graph of transform nodes.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformGraph</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1TransformGraph</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1TransformGraph</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-addnode">AddNode</a>
-</td>
-<td align="left" width="63%">
-Adds the provided node to the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-clear">Clear</a>
-</td>
-<td align="left" width="63%">
-Clears the transform nodes and all connections from the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-connectnode">ConnectNode</a>
-</td>
-<td align="left" width="63%">
-Connects two nodes inside the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-connecttoeffectinput">ConnectToEffectInput</a>
-</td>
-<td align="left" width="63%">
-Connects a transform node inside the graph to the corresponding effect input of the encapsulating effect.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-getinputcount">GetInputCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of inputs to the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-removenode">RemoveNode</a>
-</td>
-<td align="left" width="63%">
-Removes the provided node from the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setoutputnode">SetOutputNode</a>
-</td>
-<td align="left" width="63%">
-Sets the output node for the transform graph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setpassthroughgraph">SetPassthroughGraph</a>
-</td>
-<td align="left" width="63%">
-Uses the specified input as the effect output.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-setsingletransformnode">SetSingleTransformNode</a>
-</td>
-<td align="left" width="63%">
-Sets a single transform node as being equivalent to the whole graph.
-
-</td>
-</tr>
-</table> 
-
+The <b>ID2D1TransformGraph</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1TransformGraph</b> also has these types of members:
 
 ## -remarks
 
-
-
-This interface allows a graph of transform nodes to be specified. This interface is passed to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize">ID2D1EffectImpl::Initialize</a> to allow an effect implementation to specify a graph of transforms or a single transform.
+This interface allows a graph of transform nodes to be specified. This interface is passed to <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-initialize">ID2D1EffectImpl::Initialize</a> to allow an effect implementation to specify a graph of transforms or a single transform.
 
 
 #### Examples
@@ -190,7 +93,7 @@ public:
  
         if (SUCCEEDED(hr))
         {
-            hr = pGraph->SetOuputNode(_pTransform2);
+            hr = pGraph->SetOutputNode(_pTransform2);
         }
 
         if (SUCCEEDED(hr))
@@ -224,17 +127,6 @@ private:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectimpl">ID2D1EffectImpl</a>

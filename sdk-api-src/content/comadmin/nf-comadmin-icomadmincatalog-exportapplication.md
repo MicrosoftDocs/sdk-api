@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog.ExportApplication
 title: ICOMAdminCatalog::ExportApplication (comadmin.h)
 description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.
+helpviewer_keywords: ["COMAdminExportApplicationProxy","COMAdminExportForceOverwriteOfFile","COMAdminExportIn10Format","COMAdminExportNoUsers","COMAdminExportUsers","ExportApplication","ExportApplication method [COM+]","ExportApplication method [COM+]","ICOMAdminCatalog interface","ICOMAdminCatalog interface [COM+]","ExportApplication method","ICOMAdminCatalog.ExportApplication","ICOMAdminCatalog::ExportApplication","_cos_ICOMAdminCatalog_ExportApplication","comadmin/ICOMAdminCatalog::ExportApplication","cos.icomadmincatalog_exportapplication"]
 old-location: cos\icomadmincatalog_exportapplication.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 431c0299-56c2-4ec3-8ecc-ee1cbec3eff6
 ms.date: 12/05/2018
 ms.keywords: COMAdminExportApplicationProxy, COMAdminExportForceOverwriteOfFile, COMAdminExportIn10Format, COMAdminExportNoUsers, COMAdminExportUsers, ExportApplication, ExportApplication method [COM+], ExportApplication method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],ExportApplication method, ICOMAdminCatalog.ExportApplication, ICOMAdminCatalog::ExportApplication, _cos_ICOMAdminCatalog_ExportApplication, comadmin/ICOMAdminCatalog::ExportApplication, cos.icomadmincatalog_exportapplication
-f1_keywords:
-- comadmin/ICOMAdminCatalog.ExportApplication
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.ExportApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::ExportApplication
+ - comadmin/ICOMAdminCatalog::ExportApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.ExportApplication
 ---
 
 # ICOMAdminCatalog::ExportApplication
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exports a COM+ application or application proxy to a file, ready for installation on different computers.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrApplIDOrName [in]
 
 The GUID or application name of the application to be exported.
-
 
 ### -param bstrApplicationFile [in]
 
 The name of the file to export the application to, including the file path. If this parameter is <b>NULL</b> or an empty string, the <b>ExportApplication</b> method returns E_INVALIDARG.
 If the path is not specified, the current directory is used.
 If a relative path is entered, the path is relative to the current directory.
-
 
 ### -param lOptions [in]
 
@@ -134,12 +129,8 @@ Export in COM+ 1.0 (Windows 2000) format.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -171,18 +162,7 @@ The application does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

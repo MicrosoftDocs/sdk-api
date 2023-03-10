@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.get_UsableAddresses
 title: ITAgentHandler::get_UsableAddresses (tapi3cc.h)
-description: The get_UsableAddresses method creates a collection of addresses available for receiving ACD calls on this agent handler.
+description: The ITAgentHandler::get_UsableAddresses method (tapi3cc.h) creates a collection of addresses available for receiving ACD calls on this agent handler.
+helpviewer_keywords: ["ITAgentHandler interface [TAPI 2.2]","get_UsableAddresses method","ITAgentHandler.get_UsableAddresses","ITAgentHandler::get_UsableAddresses","_tapi3_itagenthandler_get_usableaddresses","get_UsableAddresses","get_UsableAddresses method [TAPI 2.2]","get_UsableAddresses method [TAPI 2.2]","ITAgentHandler interface","tapi3.itagenthandler_get_usableaddresses","tapi3cc/ITAgentHandler::get_UsableAddresses"]
 old-location: tapi3\itagenthandler_get_usableaddresses.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ee457b5c-e505-489c-93dc-8bdfb87c7afe
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_UsableAddresses method, ITAgentHandler.get_UsableAddresses, ITAgentHandler::get_UsableAddresses, _tapi3_itagenthandler_get_usableaddresses, get_UsableAddresses, get_UsableAddresses method [TAPI 2.2], get_UsableAddresses method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_usableaddresses, tapi3cc/ITAgentHandler::get_UsableAddresses
-f1_keywords:
-- tapi3cc/ITAgentHandler.get_UsableAddresses
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentHandler.get_UsableAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentHandler::get_UsableAddresses
+ - tapi3cc/ITAgentHandler::get_UsableAddresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentHandler.get_UsableAddresses
 ---
 
 # ITAgentHandler::get_UsableAddresses
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_UsableAddresses</b> method creates a collection of addresses available for receiving ACD calls on this agent handler. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateusableaddresses">EnumerateUsableAddresses</a> method.
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateusableaddresses">EnumerateUsableAddresses</a> method.
 
 ## -parameters
-
-
-
 
 ### -param pVariant [out]
 
 Pointer to <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointers (address objects).
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface pointers (address objects).
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,41 +105,25 @@ The <i>pVariant</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITAgentHandler::get_UsableAddresses</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a> interface returned by <b>ITAgentHandler::get_UsableAddresses</b>. The application must call <b>Release</b> on the 
 <b>ITAddress</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateusableaddresses">EnumerateUsableAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateusableaddresses">EnumerateUsableAddresses</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>

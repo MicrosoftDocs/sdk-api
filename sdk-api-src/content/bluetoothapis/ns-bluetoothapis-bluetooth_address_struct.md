@@ -2,15 +2,12 @@
 UID: NS:bluetoothapis._BLUETOOTH_ADDRESS
 title: BLUETOOTH_ADDRESS_STRUCT (bluetoothapis.h)
 description: The BLUETOOTH_ADDRESS structure provides the address of a Bluetooth device.
+helpviewer_keywords: ["BLUETOOTH_ADDRESS","BLUETOOTH_ADDRESS structure [Bluetooth]","BLUETOOTH_ADDRESS_STRUCT","_BLUETOOTH_ADDRESS","_bth_bluetooth_address","bluetooth.bluetooth_address","bluetoothapis/BLUETOOTH_ADDRESS"]
 old-location: bluetooth\bluetooth_address.htm
 tech.root: bluetooth
 ms.assetid: 2262a91b-c8b0-415a-9c23-7504998cc2a4
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_ADDRESS, BLUETOOTH_ADDRESS structure [Bluetooth], BLUETOOTH_ADDRESS_STRUCT, _BLUETOOTH_ADDRESS, _bth_bluetooth_address, bluetooth.bluetooth_address, bluetoothapis/BLUETOOTH_ADDRESS
-f1_keywords:
-- bluetoothapis/BLUETOOTH_ADDRESS
-dev_langs:
-- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- BluetoothAPIs.h
-api_name:
-- BLUETOOTH_ADDRESS
 targetos: Windows
 req.typenames: BLUETOOTH_ADDRESS_STRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BLUETOOTH_ADDRESS
+ - bluetoothapis/_BLUETOOTH_ADDRESS
+ - BLUETOOTH_ADDRESS_STRUCT
+ - bluetoothapis/BLUETOOTH_ADDRESS_STRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - BluetoothAPIs.h
+api_name:
+ - BLUETOOTH_ADDRESS
 ---
 
 # BLUETOOTH_ADDRESS_STRUCT structure
@@ -48,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>BLUETOOTH_ADDRESS</b> structure provides the address of a Bluetooth device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ullLong
 
 Address of a Bluetooth device.
-
 
 ### -field rgBytes
 

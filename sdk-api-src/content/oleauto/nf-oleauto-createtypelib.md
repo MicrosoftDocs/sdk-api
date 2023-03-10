@@ -2,15 +2,12 @@
 UID: NF:oleauto.CreateTypeLib
 title: CreateTypeLib function (oleauto.h)
 description: Provides access to a new object instance that supports the ICreateTypeLib interface.
+helpviewer_keywords: ["CreateTypeLib","CreateTypeLib function [Automation]","_oa96_CreateTypeLib","automat.createtypelib","oleauto/CreateTypeLib"]
 old-location: automat\createtypelib.htm
 tech.root: automat
 ms.assetid: c7a94d5b-7ac5-4b7c-8aed-ead23de9ea75
 ms.date: 12/05/2018
 ms.keywords: CreateTypeLib, CreateTypeLib function [Automation], _oa96_CreateTypeLib, automat.createtypelib, oleauto/CreateTypeLib
-f1_keywords:
-- oleauto/CreateTypeLib
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- CreateTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateTypeLib
+ - oleauto/CreateTypeLib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - CreateTypeLib
 ---
 
 # CreateTypeLib function
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides access to a new object instance that supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
-
+Provides access to a new object instance that supports the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param syskind
 
 The target operating system for which to create a type library.
 
-
-
-
 ### -param szFile
 
 The name of the file to create.
 
-
-
-
 ### -param ppctlib
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
-
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -150,25 +138,10 @@ The function could not create the file.
 
 This method can also return the FACILITY_STORAGE errors.
 
-
-
-
 ## -remarks
 
-
-
-<b>CreateTypeLib</b> sets its output parameter (ppctlib) to point to a newly created object that supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
-
-
-
+<b>CreateTypeLib</b> sets its output parameter (ppctlib) to point to a newly created object that supports the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-building-functions">Type Building Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/automat/type-building-functions">Type Building Functions</a>

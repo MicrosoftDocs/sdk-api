@@ -1,16 +1,13 @@
 ---
 UID: NE:objidl._APTTYPE
 title: APTTYPE (objidl.h)
-description: Specifies different types of apartments.
+description: The APTTYPE enumeration (objidl.h) specifies different types of apartments.
+helpviewer_keywords: ["APTTYPE","APTTYPE enumeration [COM]","APTTYPE_CURRENT","APTTYPE_MAINSTA","APTTYPE_MTA","APTTYPE_NA","APTTYPE_STA","_com_APTTYPE","com.apttype","objidlbase/APTTYPE","objidlbase/APTTYPE_CURRENT","objidlbase/APTTYPE_MAINSTA","objidlbase/APTTYPE_MTA","objidlbase/APTTYPE_NA","objidlbase/APTTYPE_STA"]
 old-location: com\apttype.htm
 tech.root: com
 ms.assetid: eae95b1f-3883-4334-aa7e-84e71e05fb24
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: APTTYPE, APTTYPE enumeration [COM], APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, APTTYPE_STA, _com_APTTYPE, com.apttype, objidlbase/APTTYPE, objidlbase/APTTYPE_CURRENT, objidlbase/APTTYPE_MAINSTA, objidlbase/APTTYPE_MTA, objidlbase/APTTYPE_NA, objidlbase/APTTYPE_STA
-f1_keywords:
-- objidl/APTTYPE
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- objidlbase.h
-api_name:
-- APTTYPE
 targetos: Windows
 req.typenames: APTTYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _APTTYPE
+ - objidl/_APTTYPE
+ - APTTYPE
+ - objidl/APTTYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - objidlbase.h
+api_name:
+ - APTTYPE
 ---
 
 # APTTYPE enumeration
@@ -48,51 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies different types of apartments.
-
 
 ## -enum-fields
 
-
-
-
-### -field APTTYPE_CURRENT
+### -field APTTYPE_CURRENT:-1
 
 The current thread.
 
-
-### -field APTTYPE_STA
+### -field APTTYPE_STA:0
 
 A single-threaded apartment.
 
-
-### -field APTTYPE_MTA
+### -field APTTYPE_MTA:1
 
 A multithreaded apartment.
 
-
-### -field APTTYPE_NA
+### -field APTTYPE_NA:2
 
 A neutral apartment.
 
-
-### -field APTTYPE_MAINSTA
+### -field APTTYPE_MAINSTA:3
 
 The main single-threaded apartment.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype">CoGetApartmentType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype">CoGetApartmentType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">IComThreadingInfo::GetCurrentApartmentType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">IComThreadingInfo::GetCurrentApartmentType</a>

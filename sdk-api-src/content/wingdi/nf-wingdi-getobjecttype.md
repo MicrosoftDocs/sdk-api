@@ -2,15 +2,12 @@
 UID: NF:wingdi.GetObjectType
 title: GetObjectType function (wingdi.h)
 description: The GetObjectType retrieves the type of the specified object.
+helpviewer_keywords: ["GetObjectType","GetObjectType function [Windows GDI]","_win32_GetObjectType","gdi.getobjecttype","wingdi/GetObjectType"]
 old-location: gdi\getobjecttype.htm
 tech.root: gdi
 ms.assetid: 334a2c95-3bf4-44dc-abce-df3a3a2d37a8
 ms.date: 12/05/2018
 ms.keywords: GetObjectType, GetObjectType function [Windows GDI], _win32_GetObjectType, gdi.getobjecttype, wingdi/GetObjectType
-f1_keywords:
-- wingdi/GetObjectType
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-l1-2-0.dll
-- ext-ms-win-gdi-dc-l1-1-0.dll
-- ext-ms-win-gdi-dc-l1-2-1.dll
-- GDI32Full.dll
-api_name:
-- GetObjectType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetObjectType
+ - wingdi/GetObjectType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-l1-2-0.dll
+ - ext-ms-win-gdi-dc-l1-1-0.dll
+ - ext-ms-win-gdi-dc-l1-2-1.dll
+ - GDI32Full.dll
+api_name:
+ - GetObjectType
 ---
 
 # GetObjectType function
@@ -52,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetObjectType</b> retrieves the type of the specified object.
 
-
 ## -parameters
-
-
-
 
 ### -param h [in]
 
 A handle to the graphics object.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value identifies the object. This value can be one of the following.
 
@@ -138,28 +132,18 @@ If the function succeeds, the return value identifies the object. This value can
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

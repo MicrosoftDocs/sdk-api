@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.inet_addr
 title: inet_addr function (winsock2.h)
-description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
+description: The inet_addr function (winsock2.h) converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure. 
+helpviewer_keywords: ["_win32_inet_addr_2","inet_addr","inet_addr function [Winsock]","winsock.inet_addr_2","wsipv6ok/inet_addr"]
 old-location: winsock\inet_addr_2.htm
 tech.root: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr
-f1_keywords:
-- winsock2/inet_addr
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- inet_addr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - inet_addr
+ - winsock2/inet_addr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - inet_addr
 ---
 
 # inet_addr function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>inet_addr</b> function converts a string containing an IPv4 dotted-decimal address into a proper address for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure.
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure.
 
 ## -parameters
-
-
-
 
 ### -param cp
 
@@ -70,10 +67,7 @@ TBD
 
 A <b>NULL</b>-terminated character string representing a number expressed in the Internet standard ".'' (dotted) notation.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 the <b>inet_addr</b> function returns an unsigned long value containing a suitable binary representation of the Internet address given. 
@@ -81,27 +75,22 @@ the <b>inet_addr</b> function returns an unsigned long value containing a suitab
 If the string in the <i>cp</i> parameter does not contain a legitimate Internet address, for example if a portion of an "a.b.c.d" address exceeds 255, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-On Windows Server 2003and later if the string in the <i>cp</i> parameter is an empty string, then 
+On Windows Server 2003 and later if the string in the <i>cp</i> parameter is an empty string, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.  If <b>NULL</b> is passed in the <i>cp</i> parameter, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-On Windows XPand earlier if the string in the <i>cp</i> parameter is an empty string, then 
+On Windows XP and earlier if the string in the <i>cp</i> parameter is an empty string, then 
 <b>inet_addr</b> returns the value <b>INADDR_ANY</b>. If <b>NULL</b> is passed in the <i>cp</i> parameter, then 
 <b>inet_addr</b> returns the value <b>INADDR_NONE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>inet_addr</b> function interprets the character string specified by the <i>cp</i> parameter. This string represents a numeric Internet address expressed in the Internet standard ".'' notation. The value returned is a number suitable for use as an Internet address. All Internet addresses are returned in IP's network order (bytes ordered from left to right). If you pass in " " (a space) to the 
 <b>inet_addr</b> function, 
 <b>inet_addr</b> returns zero.
 
-On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa">RtlIpv4StringToAddress</a> function can be used to convert a string representation of an IPv4 address to a binary IPv4 address represented as an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure. On Windows Vista and later, the <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa">RtlIpv6StringToAddress</a> function can be used to convert a string representation of an IPv6 address to a binary IPv6 address represented as an <b>IN6_ADDR</b> structure. 
+On Windows Vista and later, the <a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa">RtlIpv4StringToAddress</a> function can be used to convert a string representation of an IPv4 address to a binary IPv4 address represented as an <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure. On Windows Vista and later, the <a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa">RtlIpv6StringToAddress</a> function can be used to convert a string representation of an IPv6 address to a binary IPv6 address represented as an <b>IN6_ADDR</b> structure. 
 
 <h3><a id="Internet_Addresses"></a><a id="internet_addresses"></a><a id="INTERNET_ADDRESSES"></a>Internet Addresses</h3>
 Values specified using the ".'' notation take one of the following forms:
@@ -221,69 +210,58 @@ int __cdecl main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>IN6_ADDR</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa">RtlIpv4StringToAddress</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa">RtlIpv4StringToAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressexw">RtlIpv4StringToAddressEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressexw">RtlIpv4StringToAddressEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa">RtlIpv6StringToAddress</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa">RtlIpv6StringToAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw">RtlIpv6StringToAddressEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw">RtlIpv6StringToAddressEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>

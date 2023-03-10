@@ -2,15 +2,12 @@
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.MovePrevious
 title: IOpcRelationshipSelectorEnumerator::MovePrevious (msopc.h)
 description: Moves the current position of the enumerator to the previous IOpcRelationshipSelectorinterface pointer.
+helpviewer_keywords: ["IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions]","MovePrevious method","IOpcRelationshipSelectorEnumerator.MovePrevious","IOpcRelationshipSelectorEnumerator::MovePrevious","MovePrevious","MovePrevious method [Open Packaging Conventions]","MovePrevious method [Open Packaging Conventions]","IOpcRelationshipSelectorEnumerator interface","msopc/IOpcRelationshipSelectorEnumerator::MovePrevious","opc.iopcrelationshipselectorenumerator_moveprevious"]
 old-location: opc\iopcrelationshipselectorenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: dd367eb8-cd1c-4f0a-a435-aad86685b71a
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcRelationshipSelectorEnumerator.MovePrevious, IOpcRelationshipSelectorEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MovePrevious, opc.iopcrelationshipselectorenumerator_moveprevious
-f1_keywords:
-- msopc/IOpcRelationshipSelectorEnumerator.MovePrevious
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcRelationshipSelectorEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcRelationshipSelectorEnumerator::MovePrevious
+ - msopc/IOpcRelationshipSelectorEnumerator::MovePrevious
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcRelationshipSelectorEnumerator.MovePrevious
 ---
 
 # IOpcRelationshipSelectorEnumerator::MovePrevious
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Moves the current position of the enumerator to the previous <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a>interface pointer.
-
+Moves the current position of the enumerator to the previous <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointer.
 
 ## -parameters
 
-
-
-
 ### -param hasPrevious [out, retval]
 
-A Boolean value that indicates the status of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a>interface pointer at the current position.
+A Boolean value that indicates the status of the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselector">IOpcRelationshipSelector</a> interface pointer at the current position.
 
 The value of <i>hasPrevious</i> is only valid when the method succeeds.
 
@@ -91,12 +88,8 @@ The current position of the enumerator has been moved past the beginning of the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -152,29 +145,22 @@ The enumerator is invalid because the underlying set has changed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorenumerator">IOpcRelationshipSelectorEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorenumerator">IOpcRelationshipSelectorEnumerator</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorset">IOpcRelationshipSelectorSet</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationshipselectorset">IOpcRelationshipSelectorSet</a>
 
 
 
@@ -182,24 +168,20 @@ The enumerator is invalid because the underlying set has changed.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

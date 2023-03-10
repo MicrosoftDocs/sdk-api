@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ContainerNamePrefix
 title: IX509PrivateKey::put_ContainerNamePrefix (certenroll.h)
-description: Specifies or retrieves a prefix added to the name of the key container.
+description: Specifies or retrieves a prefix added to the name of the key container. (Put)
+helpviewer_keywords: ["ContainerNamePrefix property [Security]","ContainerNamePrefix property [Security]","IX509PrivateKey interface","IX509PrivateKey interface [Security]","ContainerNamePrefix property","IX509PrivateKey.ContainerNamePrefix","IX509PrivateKey.put_ContainerNamePrefix","IX509PrivateKey::ContainerNamePrefix","IX509PrivateKey::get_ContainerNamePrefix","IX509PrivateKey::put_ContainerNamePrefix","certenroll/IX509PrivateKey::ContainerNamePrefix","certenroll/IX509PrivateKey::get_ContainerNamePrefix","certenroll/IX509PrivateKey::put_ContainerNamePrefix","put_ContainerNamePrefix","security.ix509privatekey_containernameprefix"]
 old-location: security\ix509privatekey_containernameprefix.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: af5a30dd-4707-4b38-bf6b-b971d854d5b0
 ms.date: 12/05/2018
 ms.keywords: ContainerNamePrefix property [Security], ContainerNamePrefix property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],ContainerNamePrefix property, IX509PrivateKey.ContainerNamePrefix, IX509PrivateKey.put_ContainerNamePrefix, IX509PrivateKey::ContainerNamePrefix, IX509PrivateKey::get_ContainerNamePrefix, IX509PrivateKey::put_ContainerNamePrefix, certenroll/IX509PrivateKey::ContainerNamePrefix, certenroll/IX509PrivateKey::get_ContainerNamePrefix, certenroll/IX509PrivateKey::put_ContainerNamePrefix, put_ContainerNamePrefix, security.ix509privatekey_containernameprefix
-f1_keywords:
-- certenroll/IX509PrivateKey.ContainerNamePrefix
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.ContainerNamePrefix
-- IX509PrivateKey.get_ContainerNamePrefix
-- IX509PrivateKey.put_ContainerNamePrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::put_ContainerNamePrefix
+ - certenroll/IX509PrivateKey::put_ContainerNamePrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.ContainerNamePrefix
+ - IX509PrivateKey.get_ContainerNamePrefix
+ - IX509PrivateKey.put_ContainerNamePrefix
 ---
 
 # IX509PrivateKey::put_ContainerNamePrefix
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ContainerNamePrefix</b> property specifies or retrieves a prefix added to the name of the key container.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-A prefix can contain any string limited to the maximum length of the key container name and to legal container name characters. For example, if you do not call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername">ContainerName</a> property to specify a key container name, one is automatically created when the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method is called, and the prefix to the container name will be the string "lp". For another example, if you are creating a test harness and want to differentiate key containers by the programs that generated them, you can use the name of the executable as the prefix.
-
-
-
+A prefix can contain any string limited to the maximum length of the key container name and to legal container name characters. For example, if you do not call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_containername">ContainerName</a> property to specify a key container name, one is automatically created when the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-create">Create</a> method is called, and the prefix to the container name will be the string "lp". For another example, if you are creating a test harness and want to differentiate key containers by the programs that generated them, you can use the name of the executable as the prefix.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

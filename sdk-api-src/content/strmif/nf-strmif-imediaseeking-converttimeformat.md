@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaSeeking.ConvertTimeFormat
 title: IMediaSeeking::ConvertTimeFormat (strmif.h)
 description: The ConvertTimeFormat method converts from one time format to another.
+helpviewer_keywords: ["ConvertTimeFormat","ConvertTimeFormat method [DirectShow]","ConvertTimeFormat method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","ConvertTimeFormat method","IMediaSeeking.ConvertTimeFormat","IMediaSeeking::ConvertTimeFormat","IMediaSeekingConvertTimeFormat","dshow.imediaseeking_converttimeformat","strmif/IMediaSeeking::ConvertTimeFormat"]
 old-location: dshow\imediaseeking_converttimeformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 868ec03e-d4e5-4a1e-914a-6be8933f1c7c
 ms.date: 12/05/2018
 ms.keywords: ConvertTimeFormat, ConvertTimeFormat method [DirectShow], ConvertTimeFormat method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],ConvertTimeFormat method, IMediaSeeking.ConvertTimeFormat, IMediaSeeking::ConvertTimeFormat, IMediaSeekingConvertTimeFormat, dshow.imediaseeking_converttimeformat, strmif/IMediaSeeking::ConvertTimeFormat
-f1_keywords:
-- strmif/IMediaSeeking.ConvertTimeFormat
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.ConvertTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::ConvertTimeFormat
+ - strmif/IMediaSeeking::ConvertTimeFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.ConvertTimeFormat
 ---
 
 # IMediaSeeking::ConvertTimeFormat
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ConvertTimeFormat</code> method converts from one time format to another.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pTarget [out]
 
 Pointer to a variable that receives the converted time.
 
-
 ### -param pTargetFormat [in]
 
-Pointer to a GUID that specifies the target format. If <b>NULL</b>, the current format is used. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
-
+Pointer to a GUID that specifies the target format. If <b>NULL</b>, the current format is used. See <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 ### -param Source [in]
 
 Time value to be converted.
 
-
 ### -param pSourceFormat [in]
 
-Pointer to a GUID that specifies the format to convert. If <b>NULL</b>, the current format is used. See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
-
+Pointer to a GUID that specifies the format to convert. If <b>NULL</b>, the current format is used. See <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -137,22 +125,11 @@ Method is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>

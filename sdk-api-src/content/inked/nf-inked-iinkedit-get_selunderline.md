@@ -1,16 +1,13 @@
 ---
 UID: NF:inked.IInkEdit.get_SelUnderline
 title: IInkEdit::get_SelUnderline (inked.h)
-description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only).
+description: Gets or sets a value that specifies whether the font style of the currently selected text in the InkEdit control is underlined (run time only). (Get)
+helpviewer_keywords: ["FALSE","IInkEdit interface [Tablet PC]","SelUnderline property","IInkEdit.SelUnderline","IInkEdit.get_SelUnderline","IInkEdit::SelUnderline","IInkEdit::get_SelUnderline","IInkEdit::put_SelUnderline","InkEdit.get_SelUnderline","InkEdit.put_SelUnderline","NULL","SelUnderline property [Tablet PC]","SelUnderline property [Tablet PC]","IInkEdit interface","TRUE","get_SelUnderline","inked/IInkEdit::SelUnderline","inked/IInkEdit::get_SelUnderline","inked/IInkEdit::put_SelUnderline","put_SelUnderline","tablet.inkedit_selunderline"]
 old-location: tablet\inkedit_selunderline.htm
 tech.root: tablet
 ms.assetid: 1df7d95c-9f54-4ceb-a4c8-a1c9fbebf714
 ms.date: 12/05/2018
 ms.keywords: FALSE, IInkEdit interface [Tablet PC],SelUnderline property, IInkEdit.SelUnderline, IInkEdit.get_SelUnderline, IInkEdit::SelUnderline, IInkEdit::get_SelUnderline, IInkEdit::put_SelUnderline, InkEdit.get_SelUnderline, InkEdit.put_SelUnderline, NULL, SelUnderline property [Tablet PC], SelUnderline property [Tablet PC],IInkEdit interface, TRUE, get_SelUnderline, inked/IInkEdit::SelUnderline, inked/IInkEdit::get_SelUnderline, inked/IInkEdit::put_SelUnderline, put_SelUnderline, tablet.inkedit_selunderline
-f1_keywords:
-- inked/IInkEdit.SelUnderline
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: InkEd.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkEd.dll
-- InkEd.dll.dll
-api_name:
-- IInkEdit.SelUnderline
-- IInkEdit.get_SelUnderline
-- IInkEdit.put_SelUnderline
-- InkEdit.get_SelUnderline
-- InkEdit.put_SelUnderline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit::get_SelUnderline
+ - inked/IInkEdit::get_SelUnderline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkEd.dll
+ - InkEd.dll.dll
+api_name:
+ - IInkEdit.SelUnderline
+ - IInkEdit.get_SelUnderline
+ - IInkEdit.put_SelUnderline
+ - InkEdit.get_SelUnderline
+ - InkEdit.put_SelUnderline
 ---
 
 # IInkEdit::get_SelUnderline
@@ -53,26 +55,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets or sets a value that specifies whether the font style of the currently selected text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control is underlined (run time only).
+Gets or sets a value that specifies whether the font style of the currently selected text in the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control is underlined (run time only).
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

@@ -2,15 +2,12 @@
 UID: NS:mmreg.mpeglayer3waveformat_tag
 title: MPEGLAYER3WAVEFORMAT (mmreg.h)
 description: The MPEGLAYER3WAVEFORMAT structure describes an MPEG Audio Layer-3 (MP3) audio format.
+helpviewer_keywords: ["*LPMPEGLAYER3WAVEFORMAT","*NPMPEGLAYER3WAVEFORMAT","*PMPEGLAYER3WAVEFORMAT","MPEGLAYER3WAVEFORMAT","MPEGLAYER3WAVEFORMAT structure [DirectShow]","MPEGLAYER3WAVEFORMATStructure","MPEGLAYER3_FLAG_PADDING_ISO","MPEGLAYER3_FLAG_PADDING_OFF","MPEGLAYER3_FLAG_PADDING_ON","dshow.mpeglayer3waveformat","mmreg/MPEGLAYER3WAVEFORMAT","mpeglayer3waveformat_tag"]
 old-location: dshow\mpeglayer3waveformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: eca403a0-01a2-4290-951f-a7d516a58b9e
 ms.date: 12/05/2018
 ms.keywords: '*LPMPEGLAYER3WAVEFORMAT, *NPMPEGLAYER3WAVEFORMAT, *PMPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT structure [DirectShow], MPEGLAYER3WAVEFORMATStructure, MPEGLAYER3_FLAG_PADDING_ISO, MPEGLAYER3_FLAG_PADDING_OFF, MPEGLAYER3_FLAG_PADDING_ON, dshow.mpeglayer3waveformat, mmreg/MPEGLAYER3WAVEFORMAT, mpeglayer3waveformat_tag'
-f1_keywords:
-- mmreg/MPEGLAYER3WAVEFORMAT
-dev_langs:
-- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmreg.h
-api_name:
-- MPEGLAYER3WAVEFORMAT
 targetos: Windows
 req.typenames: MPEGLAYER3WAVEFORMAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mpeglayer3waveformat_tag
+ - mmreg/mpeglayer3waveformat_tag
+ - MPEGLAYER3WAVEFORMAT
+ - mmreg/MPEGLAYER3WAVEFORMAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmreg.h
+api_name:
+ - MPEGLAYER3WAVEFORMAT
 ---
 
 # MPEGLAYER3WAVEFORMAT structure
@@ -48,27 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MPEGLAYER3WAVEFORMAT</b> structure describes an MPEG Audio Layer-3 (MP3) audio format.
-        
-
 
 ## -struct-fields
 
-
-
-
 ### -field wfx
 
-
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that specifies the basic audio format. The <b>wFormatTag</b> member must be <b>WAVE_FORMAT_MPEGLAYER3</b>. The <b>cbSize</b> member must be at least 12. (For <b>cbSize</b>, you can use the constant <b>MPEGLAYER3_WFX_EXTRA_BYTES</b>, defined in the Mmreg.h.)
-
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that specifies the basic audio format. The <b>wFormatTag</b> member must be <b>WAVE_FORMAT_MPEGLAYER3</b>. The <b>cbSize</b> member must be at least 12. (For <b>cbSize</b>, you can use the constant <b>MPEGLAYER3_WFX_EXTRA_BYTES</b>, defined in the Mmreg.h.)
 
 ### -field wID
 
 Set this structure member to <b>MPEGLAYER3_ID_MPEG</b>.
-          
-
 
 ### -field fdwFlags
 
@@ -113,31 +107,19 @@ Never insert padding. The average bit rate may be lower than stated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field nBlockSize
 
 Block size in bytes. This value equals the frame length in bytes x <b>nFramesPerBlock</b>. For MP3 audio, the frame length is calculated as follows: 144 x (bitrate / sample rate) + padding.
 
-
 ### -field nFramesPerBlock
 
 Number of audio frames per block.
-
 
 ### -field nCodecDelay
 
 Encoder delay in samples. If you do not know this value, set this structure member to zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

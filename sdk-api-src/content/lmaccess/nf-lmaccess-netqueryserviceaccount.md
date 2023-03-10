@@ -2,15 +2,12 @@
 UID: NF:lmaccess.NetQueryServiceAccount
 title: NetQueryServiceAccount function (lmaccess.h)
 description: Gets information about the specified managed service account.
+helpviewer_keywords: ["NetQueryServiceAccount","NetQueryServiceAccount function [Security]","lmaccess/NetQueryServiceAccount","security.netqueryserviceaccount"]
 old-location: security\netqueryserviceaccount.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b
 ms.date: 12/05/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
-f1_keywords:
-- lmaccess/NetQueryServiceAccount
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetQueryServiceAccount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetQueryServiceAccount
+ - lmaccess/NetQueryServiceAccount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetQueryServiceAccount
 ---
 
 # NetQueryServiceAccount function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about the specified managed service account.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerName [in, optional]
 
 The value of this parameter must be <b>NULL</b>.
 
-
 ### -param AccountName [in]
 
 The name of the account to be created.
-
 
 ### -param InfoLevel [in]
 
@@ -83,51 +78,36 @@ Specifies the format of the data returned in the <i>Buffer</i> parameter. This c
 </dl>
 </td>
 <td width="60%">
-The <i>Buffer</i> parameter contains an <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-msa_info_0">MSA_INFO_0</a> structure.
+The <i>Buffer</i> parameter contains an <a href="/windows/desktop/api/lmaccess/ns-lmaccess-msa_info_0">MSA_INFO_0</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [out]
 
 Information about the specified service account.
 
-When you have finished using this buffer, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
-
+When you have finished using this buffer, free it by calling the <a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>STATUS_SUCCESS</b>.
 
 If the function fails, it returns an error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netaddserviceaccount">NetAddServiceAccount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netaddserviceaccount">NetAddServiceAccount</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netenumerateserviceaccounts">NetEnumerateServiceAccounts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netenumerateserviceaccounts">NetEnumerateServiceAccounts</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netisserviceaccount">NetIsServiceAccount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netisserviceaccount">NetIsServiceAccount</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netremoveserviceaccount">NetRemoveServiceAccount</a>
- 
-
- 
-
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netremoveserviceaccount">NetRemoveServiceAccount</a>

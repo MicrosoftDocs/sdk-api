@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncServices.getDevice
 title: IWMPSyncServices::getDevice (wmp.h)
 description: The getDevice method retrieves a pointer to a device interface.
+helpviewer_keywords: ["IWMPSyncServices interface [Windows Media Player]","getDevice method","IWMPSyncServices.getDevice","IWMPSyncServices::getDevice","IWMPSyncServicesgetDevice","getDevice","getDevice method [Windows Media Player]","getDevice method [Windows Media Player]","IWMPSyncServices interface","wmp.iwmpsyncservices_getdevice","wmp/IWMPSyncServices::getDevice"]
 old-location: wmp\iwmpsyncservices_getdevice.htm
 tech.root: WMP
 ms.assetid: 4c34b823-57ce-4053-9e98-308a5d4ffdef
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncServices interface [Windows Media Player],getDevice method, IWMPSyncServices.getDevice, IWMPSyncServices::getDevice, IWMPSyncServicesgetDevice, getDevice, getDevice method [Windows Media Player], getDevice method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_getdevice, wmp/IWMPSyncServices::getDevice
-f1_keywords:
-- wmp/IWMPSyncServices.getDevice
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncServices.getDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncServices::getDevice
+ - wmp/IWMPSyncServices::getDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncServices.getDevice
 ---
 
 # IWMPSyncServices::getDevice
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getDevice</b> method retrieves a pointer to a device interface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lIndex [in]
 
 <b>long</b> that contains the index of the device to retrieve. Device indexes are zero-based.
 
-
 ### -param ppDevice [out]
 
 Pointer to a pointer to an <b>IWMPSyncDevice</b> interface that represents the device having the specified index.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,27 +94,11 @@ Windows Media Player is currently busy initializing devices. Please try again la
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices">IWMPSyncServices Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncservices">IWMPSyncServices Interface</a>

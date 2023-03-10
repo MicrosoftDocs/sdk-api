@@ -1,16 +1,13 @@
 ---
 UID: NF:wdsbp.WdsBpParseInitializev6
 title: WdsBpParseInitializev6 function (wdsbp.h)
-description: Receives a handle to the packet sent by the network boot program.
+description: Receives a handle to the packet sent by the network boot program. (WdsBpParseInitializev6)
+helpviewer_keywords: ["WDSBP_PK_TYPE_BCD","WDSBP_PK_TYPE_DHCP","WDSBP_PK_TYPE_DHCPV6","WDSBP_PK_TYPE_WDSNBP","WdsBpParseInitializev6","WdsBpParseInitializev6 function [Windows Deployment Services]","wds.wdsbpparseinitializev6","wdsbp/WdsBpParseInitializev6"]
 old-location: wds\wdsbpparseinitializev6.htm
 tech.root: wds
 ms.assetid: 6387DA64-CE65-4C6B-9313-B062FA24D8C9
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitializev6, WdsBpParseInitializev6 function [Windows Deployment Services], wds.wdsbpparseinitializev6, wdsbp/WdsBpParseInitializev6
-f1_keywords:
-- wdsbp/WdsBpParseInitializev6
-dev_langs:
-- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wdsbp.dll
-api_name:
-- WdsBpParseInitializev6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsBpParseInitializev6
+ - wdsbp/WdsBpParseInitializev6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wdsbp.dll
+api_name:
+ - WdsBpParseInitializev6
 ---
 
 # WdsBpParseInitializev6 function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives a handle to the packet sent by the network boot program.
 
-
 ## -parameters
-
-
-
 
 ### -param pPacket [in]
 
 A pointer to the packet received from the WDS client. The packet must be a valid DHCPv6 packet.
 
-
 ### -param uPacketLen [in]
 
 The length of the packet, in bytes.
-
 
 ### -param pbPacketType [out, optional]
 
@@ -121,19 +116,11 @@ The presence of this value indicates that the packet is a DHCPV6 packet. This va
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phHandle [out]
 
-A handle to the packet. This handle can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpqueryoption">WdsBpQueryOption</a> function and must be closed using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
-
+A handle to the packet. This handle can be used by the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpqueryoption">WdsBpQueryOption</a> function and must be closed using the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
 
 ## -returns
 
-
-
 If the function succeeds, the return is <b>S_OK</b>.
-
-
-

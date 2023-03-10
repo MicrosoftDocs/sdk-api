@@ -1,16 +1,13 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.SetIpsecTunnelAddress
 title: IVdsIscsiPortal::SetIpsecTunnelAddress (vdshwprv.h)
-description: Not supported.This method is reserved for future use.
+description: The IVdsIscsiPortal::SetIpsecTunnelAddress (vdshwprv.h) method is not supported and is reserved for future use.
+helpviewer_keywords: ["IVdsIscsiPortal interface [VDS]","SetIpsecTunnelAddress method","IVdsIscsiPortal.SetIpsecTunnelAddress","IVdsIscsiPortal::SetIpsecTunnelAddress","SetIpsecTunnelAddress","SetIpsecTunnelAddress method [VDS]","SetIpsecTunnelAddress method [VDS]","IVdsIscsiPortal interface","base.ivdsiscsiportal_setipsectunneladdress","vds/IVdsIscsiPortal::SetIpsecTunnelAddress","vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress"]
 old-location: base\ivdsiscsiportal_setipsectunneladdress.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 200ac111-7029-4bfa-a08b-b4bce3c86bb7
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsIscsiPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiPortal.SetIpsecTunnelAddress, IVdsIscsiPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiPortal interface, base.ivdsiscsiportal_setipsectunneladdress, vds/IVdsIscsiPortal::SetIpsecTunnelAddress, vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress
-f1_keywords:
-- vdshwprv/IVdsIscsiPortal.SetIpsecTunnelAddress
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsIscsiPortal.SetIpsecTunnelAddress
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsIscsiPortal::SetIpsecTunnelAddress
+ - vdshwprv/IVdsIscsiPortal::SetIpsecTunnelAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsIscsiPortal.SetIpsecTunnelAddress
 ---
 
 # IVdsIscsiPortal::SetIpsecTunnelAddress
@@ -49,36 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 
 This method 
    is reserved for future use.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param pTunnelAddress [in]
 
 Reserved for future use.
-      
-
 
 ### -param pDestinationAddress [in]
 
 Reserved for future use.
-      
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,7 +89,3 @@ This method is not supported in this release.
 </td>
 </tr>
 </table>
- 
-
-
-

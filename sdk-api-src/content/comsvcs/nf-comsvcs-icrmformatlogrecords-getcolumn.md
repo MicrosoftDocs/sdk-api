@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumn
 title: ICrmFormatLogRecords::GetColumn (comsvcs.h)
 description: Formats one unstructured log record into an array of viewable fields.
+helpviewer_keywords: ["GetColumn","GetColumn method [COM+]","GetColumn method [COM+]","ICrmFormatLogRecords interface","ICrmFormatLogRecords interface [COM+]","GetColumn method","ICrmFormatLogRecords.GetColumn","ICrmFormatLogRecords::GetColumn","_dtc_ICrmFormatLogRecords_GetColumn","comsvcs/ICrmFormatLogRecords::GetColumn","cos.icrmformatlogrecords_getcolumn"]
 old-location: cos\icrmformatlogrecords_getcolumn.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 5234f582-88e2-4a9a-8650-d0d2d4b39f31
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [COM+], GetColumn method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumn method, ICrmFormatLogRecords.GetColumn, ICrmFormatLogRecords::GetColumn, _dtc_ICrmFormatLogRecords_GetColumn, comsvcs/ICrmFormatLogRecords::GetColumn, cos.icrmformatlogrecords_getcolumn
-f1_keywords:
-- comsvcs/ICrmFormatLogRecords.GetColumn
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmFormatLogRecords.GetColumn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmFormatLogRecords::GetColumn
+ - comsvcs/ICrmFormatLogRecords::GetColumn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmFormatLogRecords.GetColumn
 ---
 
 # ICrmFormatLogRecords::GetColumn
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats one unstructured log record into an array of viewable fields.
-
 
 ## -parameters
 
-
-
-
 ### -param CrmLogRec [in]
 
-The unstructured log record to be formatted, as a <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a> structure.
-
+The unstructured log record to be formatted, as a <a href="/windows/desktop/api/comsvcs/ns-comsvcs-crmlogrecordread">CrmLogRecordRead</a> structure.
 
 ### -param pFormattedLogRecord [out]
 
 The formatted log record, as a <b>Variant</b> array of the fields in this log record as <b>Variant</b> strings.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -112,18 +105,7 @@ The log record could not be formatted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>

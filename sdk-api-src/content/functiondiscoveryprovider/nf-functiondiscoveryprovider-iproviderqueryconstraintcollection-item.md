@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Item
 title: IProviderQueryConstraintCollection::Item (functiondiscoveryprovider.h)
 description: Gets the name and value of the specified query constraint, by index.
+helpviewer_keywords: ["IProviderQueryConstraintCollection interface","Item method","IProviderQueryConstraintCollection.Item","IProviderQueryConstraintCollection::Item","Item","Item method","Item method","IProviderQueryConstraintCollection interface","functiondiscoveryprovider/IProviderQueryConstraintCollection::Item","ncd.iproviderqueryconstraintcollection_item"]
 old-location: ncd\iproviderqueryconstraintcollection_item.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: db8840db-365a-485d-9097-ef98a9d875bc
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Item method, IProviderQueryConstraintCollection.Item, IProviderQueryConstraintCollection::Item, Item, Item method, Item method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Item, ncd.iproviderqueryconstraintcollection_item
-f1_keywords:
-- functiondiscoveryprovider/IProviderQueryConstraintCollection.Item
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IProviderQueryConstraintCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderQueryConstraintCollection::Item
+ - functiondiscoveryprovider/IProviderQueryConstraintCollection::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IProviderQueryConstraintCollection.Item
 ---
 
 # IProviderQueryConstraintCollection::Item
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the name and value of the specified query constraint, by index.
 
-
 ## -parameters
-
-
-
 
 ### -param dwIndex [in]
 
 The index of the item in the collection.
 
-
 ### -param ppszConstraintName [out]
 
 The constraint name.
-
 
 ### -param ppszConstraintValue [out]
 
 The constraint value.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -108,18 +100,7 @@ The <i>pszConstraintName</i> or <i>ppszConstraintValue</i> parameter is <b>NULL<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>

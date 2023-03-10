@@ -2,15 +2,12 @@
 UID: NC:wincrypt.PFN_CERT_ENUM_SYSTEM_STORE_LOCATION
 title: PFN_CERT_ENUM_SYSTEM_STORE_LOCATION (wincrypt.h)
 description: The CertEnumSystemStoreLocationCallback callback function formats and presents information on each system store location found by a call to CertEnumSystemStoreLocation.
+helpviewer_keywords: ["CertEnumSystemStoreLocationCallback","CertEnumSystemStoreLocationCallback callback function [Security]","PFN_CERT_ENUM_SYSTEM_STORE_LOCATION","PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback","security.certenumsystemstorelocationcallback","wincrypt/CertEnumSystemStoreLocationCallback"]
 old-location: security\certenumsystemstorelocationcallback.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a5f1badd-3e68-4e0f-9a42-1b1876c9cb56
 ms.date: 12/05/2018
 ms.keywords: CertEnumSystemStoreLocationCallback, CertEnumSystemStoreLocationCallback callback function [Security], PFN_CERT_ENUM_SYSTEM_STORE_LOCATION, PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback, security.certenumsystemstorelocationcallback, wincrypt/CertEnumSystemStoreLocationCallback
-f1_keywords:
-- wincrypt/CertEnumSystemStoreLocationCallback
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Wincrypt.h
-api_name:
-- CertEnumSystemStoreLocationCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_CERT_ENUM_SYSTEM_STORE_LOCATION
+ - wincrypt/PFN_CERT_ENUM_SYSTEM_STORE_LOCATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Wincrypt.h
+api_name:
+ - CertEnumSystemStoreLocationCallback
 ---
 
 # PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback function
@@ -48,45 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertEnumSystemStoreLocationCallback</b> 
 	callback function formats and presents information on each system store location found by a call to 
-	<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
-
+	<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
 
 ## -parameters
-
-
-
 
 ### -param pwszStoreLocation [in]
 
 String that contains information on the store location found.
 
-
 ### -param dwFlags [in]
 
 Flag used to call for an alteration of the presentation.
 
-
-### -param *pvReserved [in]
+### -param pvReserved [in]
 
 Reserved for future use.
 
-
-### -param *pvArg [in]
+### -param pvArg [in]
 
 A pointer to information passed to the callback function in the <i>pvArg</i> 
-	 passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
-
+	 passed to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsystemstorelocation">CertEnumSystemStoreLocation</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>.
-
-
-

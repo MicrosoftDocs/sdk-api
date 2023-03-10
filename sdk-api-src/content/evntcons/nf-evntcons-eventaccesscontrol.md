@@ -2,15 +2,12 @@
 UID: NF:evntcons.EventAccessControl
 title: EventAccessControl function (evntcons.h)
 description: Adds or modifies the permissions of the specified provider or session.
+helpviewer_keywords: ["EventAccessControl","EventAccessControl function [ETW]","TRACELOG_ACCESS_KERNEL_LOGGER","TRACELOG_ACCESS_REALTIME","TRACELOG_CREATE_ONDISK","TRACELOG_CREATE_REALTIME","TRACELOG_GUID_ENABLE","TRACELOG_LOG_EVENT","TRACELOG_REGISTER_GUIDS","WMIGUID_QUERY","base.eventaccesscontrol_func","etw.eventaccesscontrol_func","evntcons/EventAccessControl"]
 old-location: etw\eventaccesscontrol_func.htm
 tech.root: ETW
 ms.assetid: 699bb165-680f-4d3b-8859-959f319ca4be
 ms.date: 12/05/2018
 ms.keywords: EventAccessControl, EventAccessControl function [ETW], TRACELOG_ACCESS_KERNEL_LOGGER, TRACELOG_ACCESS_REALTIME, TRACELOG_CREATE_ONDISK, TRACELOG_CREATE_REALTIME, TRACELOG_GUID_ENABLE, TRACELOG_LOG_EVENT, TRACELOG_REGISTER_GUIDS, WMIGUID_QUERY, base.eventaccesscontrol_func, etw.eventaccesscontrol_func, evntcons/EventAccessControl
-f1_keywords:
-- evntcons/EventAccessControl
-dev_langs:
-- c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -28,55 +25,52 @@ req.type-library:
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012; Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Controller-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- EventAccessControl
-targetos: Windows
 req.typenames: 
+targetos: Windows
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventAccessControl
+ - evntcons/EventAccessControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Sechost.dll
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+ - API-MS-Win-Eventing-Controller-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - EventAccessControl
 ---
 
-# EventAccessControl function
+# EventAccessControl function (evntcons.h)
 
 
 ## -description
 
-
 Adds or modifies the permissions of the specified provider or session.
 
-
 ## -parameters
-
-
-
 
 ### -param Guid [in]
 
 GUID that uniquely identifies the provider or session whose permissions you want to add or modify.
 
-
 ### -param Operation [in]
 
 Type of operation to perform, for example, add a DACL to the session's GUID or provider's GUID. For 
-      possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ne-evntcons-eventsecurityoperation">EVENTSECURITYOPERATION</a> 
+      possible values, see the <a href="/windows/desktop/api/evntcons/ne-evntcons-eventsecurityoperation">EVENTSECURITYOPERATION</a> 
       enumeration.
-
 
 ### -param Sid [in]
 
 The security identifier (SID) of the user  or group to whom you want to grant or deny permissions.
-
 
 ### -param Rights [in]
 
@@ -171,8 +165,6 @@ Allows the user to register the provider.  Set this permission on the provider's
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AllowOrDeny [in]
 
@@ -180,19 +172,11 @@ If <b>TRUE</b>, grant the user permissions to the session or provider; otherwise
       permissions. This value is ignored if the value of <i>Operation</i> is EventSecuritySetSACL 
       or EventSecurityAddSACL.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful.
 
-
-
-
 ## -remarks
-
-
 
 By default, only the administrator of the computer, users in the Performance Log Users group, and services 
      running as LocalSystem, LocalService, NetworkService can control trace sessions and provide and consume event 
@@ -220,20 +204,10 @@ The ACL on the log file determines who can consume event data from the log file.
 You can also specify the provider's GUID to restrict who can register the provider and who can enable the 
     provider.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccessquery">EventAccessQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccessquery">EventAccessQuery</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccessremove">EventAccessRemove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccessremove">EventAccessRemove</a>

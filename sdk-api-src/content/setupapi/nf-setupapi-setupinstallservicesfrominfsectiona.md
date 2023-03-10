@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionA
 title: SetupInstallServicesFromInfSectionA function (setupapi.h)
-description: The SetupInstallServicesFromInfSection function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
+description: The SetupInstallServicesFromInfSection function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file. (ANSI)
+helpviewer_keywords: ["SPSVCINST_CLOBBER_SECURITY", "SPSVCINST_DELETEEVENTLOGENTRY", "SPSVCINST_NOCLOBBER_DEPENDENCIES", "SPSVCINST_NOCLOBBER_DESCRIPTION", "SPSVCINST_NOCLOBBER_DISPLAYNAME", "SPSVCINST_NOCLOBBER_ERRORCONTROL", "SPSVCINST_NOCLOBBER_LOADORDERGROUP", "SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES", "SPSVCINST_NOCLOBBER_STARTTYPE", "SPSVCINST_STARTSERVICE", "SPSVCINST_STOPSERVICE", "SPSVCINST_TAGTOFRONT", "SetupInstallServicesFromInfSectionA", "setupapi/SetupInstallServicesFromInfSectionA"]
 old-location: setup\setupinstallservicesfrominfsection.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 25a937d3-29f4-46e8-91e5-e956fbe647d7
 ms.date: 12/05/2018
 ms.keywords: SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSection, SetupInstallServicesFromInfSection function [Setup API], SetupInstallServicesFromInfSectionA, SetupInstallServicesFromInfSectionW, _setupapi_setupinstallservicesfrominfsection, setup.setupinstallservicesfrominfsection, setupapi/SetupInstallServicesFromInfSection, setupapi/SetupInstallServicesFromInfSectionA, setupapi/SetupInstallServicesFromInfSectionW
-f1_keywords:
-- setupapi/SetupInstallServicesFromInfSection
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,30 +25,35 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupInstallServicesFromInfSection
-- SetupInstallServicesFromInfSectionA
-- SetupInstallServicesFromInfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupInstallServicesFromInfSectionA
+ - setupapi/SetupInstallServicesFromInfSectionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupInstallServicesFromInfSection
+ - SetupInstallServicesFromInfSectionA
+ - SetupInstallServicesFromInfSectionW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupInstallServicesFromInfSectionA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the 
     Requirements section. It may be altered or unavailable in subsequent versions. SetupAPI should no longer be used 
@@ -65,25 +67,19 @@ The
     an INF file.
 
 A caller of this function is required to have access to the 
-    <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify 
+    <a href="/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify 
     services.
 
-
 ## -parameters
-
-
-
 
 ### -param InfHandle [in]
 
 A handle to the INF file that contains the <b>Service</b> section.
 
-
 ### -param SectionName [in]
 
 The name of the <b>Service</b> section to process. You should use a null-terminated 
       string.
-
 
 ### -param Flags [in]
 
@@ -238,46 +234,37 @@ AddService section: Do not overwrite the given service's required privileges if 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. The function calls 
        <b>SetLastError</b> with ERROR_SUCCESS_REBOOT_REQUIRED if a reboot of the system is 
        required.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilesfrominfsectiona">SetupInstallFilesFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilesfrominfsectiona">SetupInstallFilesFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectionexa">SetupInstallServicesFromInfSectionEx</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectionexa">SetupInstallServicesFromInfSectionEx</a>
- 
-
- 
-
+> [!NOTE]
+> The setupapi.h header defines SetupInstallServicesFromInfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

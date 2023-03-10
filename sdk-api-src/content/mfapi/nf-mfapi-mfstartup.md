@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFStartup
 title: MFStartup function (mfapi.h)
 description: Initializes Microsoft Media Foundation.
+helpviewer_keywords: ["MFStartup","MFStartup function [Media Foundation]","b4472e40-3681-4b26-9385-4df7bf19c2d8","mf.mfstartup","mfapi/MFStartup"]
 old-location: mf\mfstartup.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b4472e40-3681-4b26-9385-4df7bf19c2d8
 ms.date: 12/05/2018
 ms.keywords: MFStartup, MFStartup function [Media Foundation], b4472e40-3681-4b26-9385-4df7bf19c2d8, mf.mfstartup, mfapi/MFStartup
-f1_keywords:
-- mfapi/MFStartup
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFStartup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFStartup
+ - mfapi/MFStartup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFStartup
 ---
 
 # MFStartup function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes Microsoft Media Foundation.
 
-
 ## -parameters
-
-
-
 
 ### -param Version
 
 Version number. Use the value <b>MF_VERSION</b>, defined in mfapi.h.
-
 
 ### -param dwFlags
 
@@ -109,12 +105,8 @@ Initialize the entire Media Foundation platform. This is the default value when 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -169,19 +161,14 @@ Media Foundation is not implemented on the system.  This error can occur if the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-An application must call this function before using Media Foundation. Before your application quits, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> once for every previous call to <b>MFStartup</b>.
+An application must call this function before using Media Foundation. Before your application quits, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> once for every previous call to <b>MFStartup</b>.
       
+**MFStartup** should be called during should be called during app initialization and not from static constructors during process initialization.
 
-Do not call <b>MFStartup</b> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> from work queue threads. For more information about work queues, see <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>.
+Do not call <b>MFStartup</b> or <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> from work queue threads. For more information about work queues, see <a href="/windows/desktop/medfound/work-queues">Work Queues</a>.
       
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -199,21 +186,10 @@ This function is available on the following platforms if the Windows Media Forma
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

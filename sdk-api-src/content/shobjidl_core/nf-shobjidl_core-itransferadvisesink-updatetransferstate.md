@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ITransferAdviseSink.UpdateTransferState
 title: ITransferAdviseSink::UpdateTransferState (shobjidl_core.h)
 description: Updates the transfer state.
+helpviewer_keywords: ["ITransferAdviseSink interface [Windows Shell]","UpdateTransferState method","ITransferAdviseSink.UpdateTransferState","ITransferAdviseSink::UpdateTransferState","TS_INDETERMINATE","TS_NONE","TS_PERFORMING","TS_PREPARING","UpdateTransferState","UpdateTransferState method [Windows Shell]","UpdateTransferState method [Windows Shell]","ITransferAdviseSink interface","_shell_ITransferAdviseSink_UpdateTransferState","shell.ITransferAdviseSink_UpdateTransferState","shobjidl_core/ITransferAdviseSink::UpdateTransferState"]
 old-location: shell\ITransferAdviseSink_UpdateTransferState.htm
 tech.root: shell
 ms.assetid: 37e830b0-a426-4a66-83c3-108f315f50ac
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],UpdateTransferState method, ITransferAdviseSink.UpdateTransferState, ITransferAdviseSink::UpdateTransferState, TS_INDETERMINATE, TS_NONE, TS_PERFORMING, TS_PREPARING, UpdateTransferState, UpdateTransferState method [Windows Shell], UpdateTransferState method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_UpdateTransferState, shell.ITransferAdviseSink_UpdateTransferState, shobjidl_core/ITransferAdviseSink::UpdateTransferState
-f1_keywords:
-- shobjidl_core/ITransferAdviseSink.UpdateTransferState
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferAdviseSink.UpdateTransferState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferAdviseSink::UpdateTransferState
+ - shobjidl_core/ITransferAdviseSink::UpdateTransferState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferAdviseSink.UpdateTransferState
 ---
 
 # ITransferAdviseSink::UpdateTransferState
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the transfer state.
 
-
 ## -parameters
-
-
-
 
 ### -param ts [in]
 
@@ -87,14 +84,9 @@ The transfer state. One of the following values.
 
 0x00000004. Length of the transfer is unknown.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

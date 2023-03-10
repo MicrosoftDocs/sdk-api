@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMUBYTEN2.XMUBYTEN2(const float)
+UID: NF:directxpackedvector.XMUBYTEN2.XMUBYTEN2(constfloat)
 title: XMUBYTEN2::XMUBYTEN2(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMUBYTEN2 from a two-element float array argument.
+helpviewer_keywords: ["XMUBYTEN2","XMUBYTEN2 constructor [DirectX Math Support APIs]","XMUBYTEN2 constructor [DirectX Math Support APIs]","XMUBYTEN2 structure","XMUBYTEN2 structure [DirectX Math Support APIs]","XMUBYTEN2 constructor","XMUBYTEN2.XMUBYTEN2","XMUBYTEN2.XMUBYTEN2()","XMUBYTEN2.XMUBYTEN2(const float)","XMUBYTEN2::XMUBYTEN2","XMUBYTEN2::XMUBYTEN2(const float)","dxmath.xmubyten2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 2063bde1-65f3-4962-8846-5eda52da8baa
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN2, XMUBYTEN2 constructor [DirectX Math Support APIs], XMUBYTEN2 constructor [DirectX Math Support APIs],XMUBYTEN2 structure, XMUBYTEN2 structure [DirectX Math Support APIs],XMUBYTEN2 constructor, XMUBYTEN2.XMUBYTEN2, XMUBYTEN2.XMUBYTEN2(), XMUBYTEN2.XMUBYTEN2(const float), XMUBYTEN2::XMUBYTEN2, XMUBYTEN2::XMUBYTEN2(const float), dxmath.xmubyten2_ctor_1
-f1_keywords:
-- directxpackedvector/XMUBYTEN2.XMUBYTEN2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUBYTEN2.XMUBYTEN2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUBYTEN2::XMUBYTEN2
+ - directxpackedvector/XMUBYTEN2::XMUBYTEN2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUBYTEN2.XMUBYTEN2
 ---
 
 # XMUBYTEN2::XMUBYTEN2(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a> from a two-element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a> from a two-element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMUBYTEN2** from a from a two-element <code>float</code> array argument.
 
@@ -61,7 +64,7 @@ Two-element **float** array containing the values used to initialize the two com
 
 ## -remarks
 
-| Vector Component | Array Element | Range |  |
+| Vector Component | Array Element | Range | Description |
 |------------------|---------------|-------|--|
 | x | pArray[0] | 0.0, 1.0 | During instantiation, pArray[0] is clamped between 0 and 1, multiplied by 255.0f and assigned to x. |
 | y | pArray[1] | 0.0, 1.0 | During instantiation, pArray[1] is clamped between 0 and 1, multiplied by 255.0f, and then assigned to y. |
@@ -80,6 +83,6 @@ instance.y = (uint8_t)_y1;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>
+<a href="/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>

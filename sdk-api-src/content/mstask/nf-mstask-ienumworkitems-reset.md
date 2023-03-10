@@ -1,16 +1,13 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Reset
 title: IEnumWorkItems::Reset (mstask.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumWorkItems.Reset)
+helpviewer_keywords: ["IEnumWorkItems interface [Task Scheduler]","Reset method","IEnumWorkItems.Reset","IEnumWorkItems::Reset","Reset","Reset method [Task Scheduler]","Reset method [Task Scheduler]","IEnumWorkItems interface","_msb_ienumworkitems_reset","mstask/IEnumWorkItems::Reset","taskschd.ienumworkitems_reset"]
 old-location: taskschd\ienumworkitems_reset.htm
 tech.root: taskschd
 ms.assetid: 920ba47b-41cd-462b-9b72-73898a5cd4d0
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Reset method, IEnumWorkItems.Reset, IEnumWorkItems::Reset, Reset, Reset method [Task Scheduler], Reset method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_reset, mstask/IEnumWorkItems::Reset, taskschd.ienumworkitems_reset
-f1_keywords:
-- mstask/IEnumWorkItems.Reset
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IEnumWorkItems.Reset
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWorkItems::Reset
+ - mstask/IEnumWorkItems::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IEnumWorkItems.Reset
 ---
 
 # IEnumWorkItems::Reset
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
  Resets the enumeration sequence to the beginning.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -95,42 +88,26 @@ There is not enough available memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A call to this method does not guarantee that the same set of tasks will be enumerated after the enumeration sequence is reset. Tasks may have been added to or deleted from the collection while you were enumerating the list.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface also provides methods for retrieving sets of tasks, skipping sets of tasks, and making a copy of the current state of the enumeration.
-
-
-
+<a href="/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface also provides methods for retrieving sets of tasks, skipping sets of tasks, and making a copy of the current state of the enumeration.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">IEnumWorkItems::Clone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">IEnumWorkItems::Clone</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-next">IEnumWorkItems::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-next">IEnumWorkItems::Next</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>

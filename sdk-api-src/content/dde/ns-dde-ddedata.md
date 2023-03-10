@@ -1,16 +1,13 @@
 ---
-UID: NS:dde.__unnamed_struct_2
+UID: NS:dde.DDEDATA
 title: DDEDATA (dde.h)
 description: Contains the data, and information about the data, sent as part of a WM_DDE_DATA message.
+helpviewer_keywords: ["CF_BITMAP","CF_DIB","CF_DIF","CF_ENHMETAFILE","CF_METAFILEPICT","CF_OEMTEXT","CF_PALETTE","CF_PENDATA","CF_RIFF","CF_SYLK","CF_TEXT","CF_TIFF","CF_UNICODETEXT","CF_WAVE","DDEDATA","DDEDATA structure [Data Exchange]","_win32_DDEDATA_str","_win32_ddedata_str_cpp","dataxchg.ddedata","dde/DDEDATA","winui._win32_ddedata_str"]
 old-location: dataxchg\ddedata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddedata.htm
 ms.date: 12/05/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEDATA, DDEDATA structure [Data Exchange], _win32_DDEDATA_str, _win32_ddedata_str_cpp, dataxchg.ddedata, dde/DDEDATA, winui._win32_ddedata_str
-f1_keywords:
-- dde/DDEDATA
-dev_langs:
-- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dde.h
-api_name:
-- DDEDATA
 targetos: Windows
 req.typenames: DDEDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DDEDATA
+ - dde/DDEDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dde.h
+api_name:
+ - DDEDATA
 ---
 
 # DDEDATA structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the data, and information about the data, sent as part of a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> message. 
-
+Contains the data, and information about the data, sent as part of a <a href="/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> message.
 
 ## -struct-fields
-
-
-
 
 ### -field unused
 
@@ -63,20 +60,17 @@ Type: <b>unsigned short</b>
 
 Unused.
 
-
 ### -field fResponse
 
 Type: <b>unsigned short</b>
 
-Indicates whether the data was sent in response to a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a> message or a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a> message. If this value is nonzero, the data was sent in response to a <b>WM_DDE_REQUEST</b> message. 
-
+Indicates whether the data was sent in response to a <a href="/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a> message or a <a href="/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a> message. If this value is nonzero, the data was sent in response to a <b>WM_DDE_REQUEST</b> message.
 
 ### -field fRelease
 
 Type: <b>unsigned short</b>
 
-Indicates whether the application receiving the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
-
+Indicates whether the application receiving the <a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data.
 
 ### -field reserved
 
@@ -84,18 +78,13 @@ Type: <b>unsigned short</b>
 
 Reserved.
 
-
 ### -field fAckReq
 
 Type: <b>BYTE</b>
 
-Indicates whether the application receiving the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> message should acknowledge receipt of the data by sending a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a> message. If this value is nonzero, the application should send the acknowledgment. 
-
+Indicates whether the application receiving the <a href="/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a> message should acknowledge receipt of the data by sending a <a href="/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a> message. If this value is nonzero, the application should send the acknowledgment.
 
 ### -field usFlags
-
- 
-
 
 ### -field cfFormat
 
@@ -160,20 +149,15 @@ The format of the data. The format should be a standard or registered clipboard 
 
 #### CF_UNICODETEXT (13)
 
-
 ### -field Value
 
 Type: <b>BYTE[1]</b>
 
-Contains the data. The length and type of data depend on the <b>cfFormat</b> member. 
-
+Contains the data. The length and type of data depend on the <b>cfFormat</b> member.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
+<a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -185,24 +169,21 @@ Contains the data. The length and type of data depend on the <b>cfFormat</b> mem
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a>
+<a href="/windows/desktop/dataxchg/wm-dde-ack">WM_DDE_ACK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>
+<a href="/windows/desktop/dataxchg/wm-dde-advise">WM_DDE_ADVISE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>
+<a href="/windows/desktop/dataxchg/wm-dde-data">WM_DDE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
+<a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>
- 
-
- 
+<a href="/windows/desktop/dataxchg/wm-dde-request">WM_DDE_REQUEST</a>
 

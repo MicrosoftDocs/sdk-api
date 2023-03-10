@@ -2,19 +2,16 @@
 UID: NS:dwrite_3.DWRITE_FONT_AXIS_VALUE
 title: DWRITE_FONT_AXIS_VALUE
 description: Represents a value for a font axis. Used when querying and creating font instances.
+helpviewer_keywords: ["DWRITE_FONT_AXIS_VALUE","DWRITE_FONT_AXIS_VALUE structure [Direct Write]","directwrite.dwrite_font_axis_value","dwrite_3/DWRITE_FONT_AXIS_VALUE"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_VALUE, DWRITE_FONT_AXIS_VALUE structure [Direct Write], directwrite.dwrite_font_axis_value, dwrite_3/DWRITE_FONT_AXIS_VALUE
-f1_keywords:
-- dwrite_3/DWRITE_FONT_AXIS_VALUE
-dev_langs:
-- c++
 req.construct-type: structure
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,29 +24,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_FONT_AXIS_VALUE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_FONT_AXIS_VALUE
+ - dwrite_3/DWRITE_FONT_AXIS_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_AXIS_VALUE
 ---
 
 ## -description
 
-Represents a value for a font axis. Used when querying and creating font instances (for example, see [IDWriteFontFace5::GetFontAxisValues](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontaxisvalues)).
+Represents a value for a font axis. Used when querying and creating font instances (for example, see [IDWriteFontFace5::GetFontAxisValues](./nf-dwrite_3-idwritefontface5-getfontaxisvalues.md)).
 
 ## -struct-fields
 
 ### -field axisTag
 
-Type: **[DWRITE_FONT_AXIS_TAG](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)**
+Type: **[DWRITE_FONT_AXIS_TAG](./ne-dwrite_3-dwrite_font_axis_tag.md)**
 
 The four-character identifier of the font axis (for example, weight, width, slant, italic, and so on).
 
@@ -68,6 +70,6 @@ A value for the axis specified in `axisTag`. The meaning and range of the value 
 
 ## -see-also
 
-[DWRITE_FONT_AXIS_TAG enumeration](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
+[DWRITE_FONT_AXIS_TAG enumeration](./ne-dwrite_3-dwrite_font_axis_tag.md)
 
-[DWRITE_FONT_AXIS_RANGE structure](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range)
+[DWRITE_FONT_AXIS_RANGE structure](./ns-dwrite_3-dwrite_font_axis_range.md)

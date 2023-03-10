@@ -1,16 +1,13 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.put_MinimumScaleRotateRadius
 title: IManipulationProcessor::put_MinimumScaleRotateRadius (manipulations.h)
-description: Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation.
+description: Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation. (Put)
+helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","MinimumScaleRotateRadius property","IManipulationProcessor.MinimumScaleRotateRadius","IManipulationProcessor.put_MinimumScaleRotateRadius","IManipulationProcessor::MinimumScaleRotateRadius","IManipulationProcessor::get_MinimumScaleRotateRadius","IManipulationProcessor::put_MinimumScaleRotateRadius","MinimumScaleRotateRadius property [Windows Touch]","MinimumScaleRotateRadius property [Windows Touch]","IManipulationProcessor interface","manipulations/IManipulationProcessor::MinimumScaleRotateRadius","manipulations/IManipulationProcessor::get_MinimumScaleRotateRadius","manipulations/IManipulationProcessor::put_MinimumScaleRotateRadius","put_MinimumScaleRotateRadius","wintouch.imanipulationprocessor_minimumscalerotateradius"]
 old-location: wintouch\imanipulationprocessor_minimumscalerotateradius.htm
 tech.root: wintouch
 ms.assetid: b4c49f41-c5ea-4c6a-872b-2d982e588b09
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],MinimumScaleRotateRadius property, IManipulationProcessor.MinimumScaleRotateRadius, IManipulationProcessor.put_MinimumScaleRotateRadius, IManipulationProcessor::MinimumScaleRotateRadius, IManipulationProcessor::get_MinimumScaleRotateRadius, IManipulationProcessor::put_MinimumScaleRotateRadius, MinimumScaleRotateRadius property [Windows Touch], MinimumScaleRotateRadius property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::MinimumScaleRotateRadius, manipulations/IManipulationProcessor::get_MinimumScaleRotateRadius, manipulations/IManipulationProcessor::put_MinimumScaleRotateRadius, put_MinimumScaleRotateRadius, wintouch.imanipulationprocessor_minimumscalerotateradius
-f1_keywords:
-- manipulations/IManipulationProcessor.MinimumScaleRotateRadius
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IManipulationProcessor.MinimumScaleRotateRadius
-- IManipulationProcessor.get_MinimumScaleRotateRadius
-- IManipulationProcessor.put_MinimumScaleRotateRadius
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IManipulationProcessor::put_MinimumScaleRotateRadius
+ - manipulations/IManipulationProcessor::put_MinimumScaleRotateRadius
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IManipulationProcessor.MinimumScaleRotateRadius
+ - IManipulationProcessor.get_MinimumScaleRotateRadius
+ - IManipulationProcessor.put_MinimumScaleRotateRadius
 ---
 
 # IManipulationProcessor::put_MinimumScaleRotateRadius
@@ -50,19 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how large the distance contacts on a scale or rotate gesture need to be to trigger manipulation.
     
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This property is set in centipixels (100ths of a pixel).
   </div>
@@ -83,17 +80,6 @@ pManip->put_MinimumScaleRotateRadius(4000.0f);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor">IManipulationProcessor</a>

@@ -2,15 +2,12 @@
 UID: NF:timeprov.TimeProvCommand
 title: TimeProvCommand function (timeprov.h)
 description: A callback function that is called by the time provider manager to send commands to the time provider.
+helpviewer_keywords: ["TPC_GetSamples","TPC_NetTopoChange","TPC_PollIntervalChanged","TPC_Query","TPC_Shutdown","TPC_TimeJumped","TPC_UpdateConfig","TimeProvCommand","TimeProvCommand callback","TimeProvCommand callback function","_win32_timeprovcommand","base.timeprovcommand","timeprov/TimeProvCommand"]
 old-location: base\timeprovcommand.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 07b0bdf2-d224-4bbc-be29-9032a848d5ae
 ms.date: 12/05/2018
 ms.keywords: TPC_GetSamples, TPC_NetTopoChange, TPC_PollIntervalChanged, TPC_Query, TPC_Shutdown, TPC_TimeJumped, TPC_UpdateConfig, TimeProvCommand, TimeProvCommand callback, TimeProvCommand callback function, _win32_timeprovcommand, base.timeprovcommand, timeprov/TimeProvCommand
-f1_keywords:
-- timeprov/TimeProvCommand
-dev_langs:
-- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Timeprov.h
-api_name:
-- TimeProvCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TimeProvCommand
+ - timeprov/TimeProvCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Timeprov.h
+api_name:
+ - TimeProvCommand
 ---
 
 # TimeProvCommand function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 A callback function that is called by the time provider manager to send commands to the time provider.
 
-
 ## -parameters
-
-
-
 
 ### -param hTimeProv [in]
 
 A handle to the time provider. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function receives this handle.
-
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function receives this handle.
 
 ### -param eCmd [in]
 
@@ -86,7 +82,7 @@ The time provider should return the time samples it has collected. If there is n
 
 
 The <i>pvArgs</i> parameter is pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a> structure. The time provider manager provides the buffer for the samples. If the <i>pvArgs</i> buffer if too small, the provider should provide as many samples as is can and return ERROR_INSUFFICIENT_BUFFER. Any other error codes returned by the provider are ignored.
+<a href="/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a> structure. The time provider manager provides the buffer for the samples. If the <i>pvArgs</i> buffer if too small, the provider should provide as many samples as is can and return ERROR_INSUFFICIENT_BUFFER. Any other error codes returned by the provider are ignored.
 
 </td>
 </tr>
@@ -122,7 +118,7 @@ Reserved for future use.
 </td>
 <td width="60%">
 The polling interval has changed. The time provider should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> function to retrieve the new value. 
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> function to retrieve the new value. 
 
 
 
@@ -177,26 +173,16 @@ The <i>pvArgs</i> parameter is not used. Any error returned by the provider is i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvArgs [in]
 
 A pointer to a buffer that specifies command information. The format of this data depends on the value of <i>eCmd</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is S_OK. Otherwise, the return value is one of the error codes defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 The time provider should never take longer than half a second to return from this call.
 
@@ -205,27 +191,18 @@ When processing the TPC_GetSamples command, the provider should return one sampl
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
+For an example, see <a href="/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>

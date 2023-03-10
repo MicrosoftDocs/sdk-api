@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentW
 title: MsiProvideQualifiedComponentW function (msi.h)
-description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
+description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature. (Unicode)
+helpviewer_keywords: ["INSTALLMODE_DEFAULT", "INSTALLMODE_EXISTING", "INSTALLMODE_NODETECTION", "INSTALLMODE_NOSOURCERESOLUTION", "MsiProvideQualifiedComponent", "MsiProvideQualifiedComponent function", "MsiProvideQualifiedComponentW", "_msi_msiprovidequalifiedcomponent", "combination of the REINSTALLMODE flags", "msi/MsiProvideQualifiedComponent", "msi/MsiProvideQualifiedComponentW", "setup.msiprovidequalifiedcomponent"]
 old-location: setup\msiprovidequalifiedcomponent.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 1d37e2c4-3ee0-42d2-95de-6e058319a4d4
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideQualifiedComponent, MsiProvideQualifiedComponent function, MsiProvideQualifiedComponentA, MsiProvideQualifiedComponentW, _msi_msiprovidequalifiedcomponent, combination of the REINSTALLMODE flags, msi/MsiProvideQualifiedComponent, msi/MsiProvideQualifiedComponentA, msi/MsiProvideQualifiedComponentW, setup.msiprovidequalifiedcomponent
-f1_keywords:
-- msi/MsiProvideQualifiedComponent
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiProvideQualifiedComponent
-- MsiProvideQualifiedComponentA
-- MsiProvideQualifiedComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiProvideQualifiedComponentW
+ - msi/MsiProvideQualifiedComponentW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiProvideQualifiedComponent
+ - MsiProvideQualifiedComponentA
+ - MsiProvideQualifiedComponentW
 ---
 
 # MsiProvideQualifiedComponentW function
@@ -50,27 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiProvideQualifiedComponent</b> function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szCategory [in]
 
 Specifies the component ID  for the requested component. This may not be the GUID for the component itself, but rather a server that provides the correct functionality, as in the ComponentId column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/publishcomponent-table">PublishComponent table</a>.
-
+<a href="/windows/desktop/Msi/publishcomponent-table">PublishComponent table</a>.
 
 ### -param szQualifier [in]
 
 Specifies a qualifier into a list of advertising components (from 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/publishcomponent-table">PublishComponent Table</a>).
-
+<a href="/windows/desktop/Msi/publishcomponent-table">PublishComponent Table</a>).
 
 ### -param dwInstallMode [in]
 
@@ -90,7 +85,7 @@ Defines the installation mode. This parameter can be one of the following values
 </td>
 <td width="60%">
 Provide the component and perform any installation necessary to provide the component. If the key file of a component in the requested feature, or a feature parent, is missing, reinstall the feature using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA, and REINSTALLMODE_SHORTCUT.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA, and REINSTALLMODE_SHORTCUT.
 
 </td>
 </tr>
@@ -132,7 +127,7 @@ REINSTALLMODE flags</b></dt>
 </td>
 <td width="60%">
 Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall the feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall the feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
 
 </td>
 </tr>
@@ -147,13 +142,10 @@ Provide the component only if the feature's installation state is INSTALLSTATE_L
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpPathBuf [out]
 
 Pointer to a variable that receives the path to the component. This parameter can be null.
-
 
 ### -param pcchPathBuf [in, out]
 
@@ -164,10 +156,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -226,14 +215,14 @@ The specified component is unknown.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
+<dt><b><a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -242,47 +231,38 @@ An error relating to initialization occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Upon success of the 
 <b>MsiProvideQualifiedComponent</b> function, the <i>pcchPathBuf</i> parameter contains the length of the string in <i>lpPathBuf</i>.
 
 Features with components containing a corrupted file or the wrong version of a file must be explicitly reinstalled by the user or by having the application call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiProvideQualifiedComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
+<a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>

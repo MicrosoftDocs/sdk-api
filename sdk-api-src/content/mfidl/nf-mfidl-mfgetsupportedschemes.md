@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFGetSupportedSchemes
 title: MFGetSupportedSchemes function (mfidl.h)
 description: Retrieves the URL schemes that are registered for the source resolver.
+helpviewer_keywords: ["MFGetSupportedSchemes","MFGetSupportedSchemes function [Media Foundation]","b40315fc-7e2b-4573-a98f-840b6ce31dd3","mf.mfgetsupportedschemes","mfidl/MFGetSupportedSchemes"]
 old-location: mf\mfgetsupportedschemes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
 ms.date: 12/05/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
-f1_keywords:
-- mfidl/MFGetSupportedSchemes
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFGetSupportedSchemes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFGetSupportedSchemes
+ - mfidl/MFGetSupportedSchemes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFGetSupportedSchemes
 ---
 
 # MFGetSupportedSchemes function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the URL schemes that are registered for the source resolver.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPropVarSchemeArray [out]
 
 Pointer to a <b>PROPVARIANT</b> that receives the URL schemes. Before calling this method, call <b>PropVariantInit</b> to initialize the <b>PROPVARIANT</b>. If the method succeeds, the <b>PROPVARIANT</b> contains an array of wide-character strings. The <b>PROPVARIANT</b> data type is VT_VECTOR | VT_LPWSTR. The caller must release the <b>PROPVARIANT</b> by calling <b>PropVariantClear</b>.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,18 +79,7 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

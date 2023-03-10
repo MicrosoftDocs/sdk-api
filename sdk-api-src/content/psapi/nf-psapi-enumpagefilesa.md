@@ -1,16 +1,13 @@
 ---
 UID: NF:psapi.EnumPageFilesA
 title: EnumPageFilesA function (psapi.h)
-description: Calls the callback routine for each installed pagefile in the system.
+description: Calls the callback routine for each installed pagefile in the system. (ANSI)
+helpviewer_keywords: ["EnumPageFilesA", "K32EnumPageFilesA", "psapi/EnumPageFilesA", "psapi/K32EnumPageFilesA"]
 old-location: psapi\enumpagefiles.htm
 tech.root: psapi
 ms.assetid: 9289fe3c-a7d9-4acb-aeb6-a50de65db0a2
 ms.date: 12/05/2018
 ms.keywords: EnumPageFiles, EnumPageFiles function [PSAPI], EnumPageFilesA, EnumPageFilesW, K32EnumPageFiles, K32EnumPageFilesA, K32EnumPageFilesW, _win32_enumpagefiles, base.enumpagefiles, psapi.enumpagefiles, psapi/EnumPageFiles, psapi/EnumPageFilesA, psapi/EnumPageFilesW, psapi/K32EnumPageFiles, psapi/K32EnumPageFilesA, psapi/K32EnumPageFilesW
-f1_keywords:
-- psapi/EnumPageFiles
-dev_langs:
-- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.lib on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Psapi.dll
-- Psapi.dll
-- API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
-- API-MS-Win-Core-PsAPI-L1-1-0.dll
-- KernelBase.dll
-api_name:
-- EnumPageFiles
-- EnumPageFilesA
-- EnumPageFilesW
-- K32EnumPageFiles
-- K32EnumPageFilesW
-- K32EnumPageFilesA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumPageFilesA
+ - psapi/EnumPageFilesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Psapi.dll
+ - Psapi.dll
+ - API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-PsAPI-L1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - EnumPageFiles
+ - EnumPageFilesA
+ - EnumPageFilesW
+ - K32EnumPageFiles
+ - K32EnumPageFilesW
+ - K32EnumPageFilesA
 ---
 
 # EnumPageFilesA function
@@ -58,40 +60,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Calls the callback routine for each installed pagefile in the system.
 
-
 ## -parameters
-
-
-
 
 ### -param pCallBackRoutine [out]
 
 A pointer to the routine called for each pagefile. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>.
-
+      <a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>.
 
 ### -param pContext [in]
 
 The user-defined data passed to the callback routine.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the 
        return value is <b>FALSE</b>. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects  the name used to call the function and 
@@ -113,17 +101,14 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 
+
+> [!NOTE]
+> The psapi.h header defines EnumPageFiles as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>

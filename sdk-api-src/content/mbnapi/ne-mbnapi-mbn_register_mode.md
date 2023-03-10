@@ -2,15 +2,12 @@
 UID: NE:mbnapi.MBN_REGISTER_MODE
 title: MBN_REGISTER_MODE (mbnapi.h)
 description: The MBN_REGISTER_MODE enumerated type indicates the network selection mode of a device.
+helpviewer_keywords: ["MBN_REGISTER_MODE","MBN_REGISTER_MODE enumeration [Microsoft Broadband Networks]","MBN_REGISTER_MODE_AUTOMATIC","MBN_REGISTER_MODE_MANUAL","MBN_REGISTER_MODE_NONE","mbn.mbn_register_mode","mbnapi/MBN_REGISTER_MODE","mbnapi/MBN_REGISTER_MODE_AUTOMATIC","mbnapi/MBN_REGISTER_MODE_MANUAL","mbnapi/MBN_REGISTER_MODE_NONE"]
 old-location: mbn\mbn_register_mode.htm
 tech.root: mbn
 ms.assetid: be64aa55-5a31-4909-9f34-634f7b14fc30
 ms.date: 12/05/2018
 ms.keywords: MBN_REGISTER_MODE, MBN_REGISTER_MODE enumeration [Microsoft Broadband Networks], MBN_REGISTER_MODE_AUTOMATIC, MBN_REGISTER_MODE_MANUAL, MBN_REGISTER_MODE_NONE, mbn.mbn_register_mode, mbnapi/MBN_REGISTER_MODE, mbnapi/MBN_REGISTER_MODE_AUTOMATIC, mbnapi/MBN_REGISTER_MODE_MANUAL, mbnapi/MBN_REGISTER_MODE_NONE
-f1_keywords:
-- mbnapi/MBN_REGISTER_MODE
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mbnapi.h
-api_name:
-- MBN_REGISTER_MODE
 targetos: Windows
 req.typenames: MBN_REGISTER_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MBN_REGISTER_MODE
+ - mbnapi/MBN_REGISTER_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mbnapi.h
+api_name:
+ - MBN_REGISTER_MODE
 ---
 
 # MBN_REGISTER_MODE enumeration
@@ -53,21 +55,15 @@ ms.custom: 19H1
 
 The <b>MBN_REGISTER_MODE</b> enumerated type indicates the network selection mode of a device.
 
-
 ## -enum-fields
 
-
-
-
-### -field MBN_REGISTER_MODE_NONE
+### -field MBN_REGISTER_MODE_NONE:0
 
 No network selection mode is defined.
-
 
 ### -field MBN_REGISTER_MODE_AUTOMATIC
 
 The device automatically selects the network to which to register .
-
 
 ### -field MBN_REGISTER_MODE_MANUAL
 

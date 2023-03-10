@@ -2,15 +2,12 @@
 UID: NS:winldap.LdapReferralCallback
 title: LDAP_REFERRAL_CALLBACK (winldap.h)
 description: Used to implement external caching of connections.
+helpviewer_keywords: ["*PLDAP_REFERRAL_CALLBACK","LDAP_REFERRAL_CALLBACK","LDAP_REFERRAL_CALLBACK structure [LDAP]","PLDAP_REFERRAL_CALLBACK","PLDAP_REFERRAL_CALLBACK structure pointer [LDAP]","_ldap_ldap_referral_callback","ldap.ldap__referral__callback","ldap.ldap_referral_callback","winldap/LDAP_REFERRAL_CALLBACK","winldap/PLDAP_REFERRAL_CALLBACK"]
 old-location: ldap\ldap_referral_callback.htm
 tech.root: ldap
 ms.assetid: e5fe6a4b-00e7-4837-b1c1-8b2a724bb75e
 ms.date: 12/05/2018
 ms.keywords: '*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK structure [LDAP], PLDAP_REFERRAL_CALLBACK, PLDAP_REFERRAL_CALLBACK structure pointer [LDAP], _ldap_ldap_referral_callback, ldap.ldap__referral__callback, ldap.ldap_referral_callback, winldap/LDAP_REFERRAL_CALLBACK, winldap/PLDAP_REFERRAL_CALLBACK'
-f1_keywords:
-- winldap/LDAP_REFERRAL_CALLBACK
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winldap.h
-api_name:
-- LDAP_REFERRAL_CALLBACK
 targetos: Windows
 req.typenames: LDAP_REFERRAL_CALLBACK, *PLDAP_REFERRAL_CALLBACK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LdapReferralCallback
+ - winldap/LdapReferralCallback
+ - PLDAP_REFERRAL_CALLBACK
+ - winldap/PLDAP_REFERRAL_CALLBACK
+ - LDAP_REFERRAL_CALLBACK
+ - winldap/LDAP_REFERRAL_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winldap.h
+api_name:
+ - LDAP_REFERRAL_CALLBACK
 ---
 
 # LDAP_REFERRAL_CALLBACK structure
@@ -48,38 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LDAP_REFERRAL_CALLBACK</b> structure is used to implement external caching of connections. This structure is used only when tracking referrals.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfCallbacks
 
 The amount of memory required for the callback. Set this field to <code>sizeof(LDAP_REFERRAL_CALLBACK)</code>.
 
-
 ### -field QueryForConnection
 
 A pointer to a callback function to determine whether there is a cached connection cached available. For more information, see Remarks.
-
 
 ### -field NotifyRoutine
 
 A pointer to a callback function that determines whether a new connection will be cached or destroyed after the operation completes. For more information, see Remarks.
 
-
 ### -field DereferenceRoutine
 
 A pointer to a callback function to dereference a connection that is not in use. For more information, see Remarks.
 
-
 ## -remarks
-
-
 
 Use the <b>LDAP_REFERRAL_CALLBACK</b> structure to implement a mechanism for caching connections. The structure contains three callback functions which you implement in your client code.
 
@@ -132,7 +127,7 @@ typedef ULONG (_cdecl DEREFERENCECONNECTION)
 
 
 To configure a session to use callbacks to obtain a cached connection, call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> (conn, LDAP_OPT_REFERRAL_CALLBACK, &amp;referralRoutines), where <i>referralRoutines</i> is the address of the <b>LDAP_REFERRAL_CALLBACK</b> structure that contains your routines. The addresses may be <b>NULL</b>, in which case the LDAP run time will not make the calls.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> (conn, LDAP_OPT_REFERRAL_CALLBACK, &amp;referralRoutines), where <i>referralRoutines</i> is the address of the <b>LDAP_REFERRAL_CALLBACK</b> structure that contains your routines. The addresses may be <b>NULL</b>, in which case the LDAP run time will not make the calls.
 
 The parameter descriptions for the preceding three functions are as follows:
 
@@ -140,7 +135,7 @@ The parameter descriptions for the preceding three functions are as follows:
 <li>
 <i>PrimaryConnection</i>
 
-The LDAP connection handle on which the operation was originally performed. For example, the handle passed in to a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add">ldap_add</a>, and so on.
+The LDAP connection handle on which the operation was originally performed. For example, the handle passed in to a call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>, <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>, <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_add">ldap_add</a>, and so on.
 
 </li>
 <li>
@@ -161,7 +156,7 @@ Pointer to a wide, null-terminated string that contains the DN of the referred-t
 Pointer to a null-terminated string that contains the name of the referred-to server; that is the server to which a connection must be made.
 
 </li>
-<li><i>PortNumber</i>Port on the referred-to server, to which a connection must be made.
+<li><i>PortNumber</i> Port on the referred-to server, to which a connection must be made.
 
 </li>
 <li>
@@ -185,7 +180,7 @@ Used to announce the existence of the  new connection.
 <li>
 <i>ErrorCodeFromBind</i>
 
-Error code returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a> when an attempt is made to  bind to the newly created connection (<i>NewConnection</i>).
+Error code returned from <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a> when an attempt is made to  bind to the newly created connection (<i>NewConnection</i>).
 
 </li>
 <li>
@@ -196,19 +191,10 @@ The connection to be dereferenced.
 </li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>

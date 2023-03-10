@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetCaptionServiceNumber
 title: ICaptionServiceDescriptor::GetCaptionServiceNumber (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCaptionServiceNumber","GetCaptionServiceNumber method [Microsoft TV Technologies]","GetCaptionServiceNumber method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetCaptionServiceNumber method","ICaptionServiceDescriptor.GetCaptionServiceNumber","ICaptionServiceDescriptor::GetCaptionServiceNumber","ICaptionServiceDescriptorGetCaptionServiceNumber","atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber","mstv.icaptionservicedescriptor_getcaptionservicenumber"]
 old-location: mstv\icaptionservicedescriptor_getcaptionservicenumber.htm
 tech.root: mstv
 ms.assetid: 0e8ca631-45fd-462c-bab9-4a242751f212
 ms.date: 12/05/2018
 ms.keywords: GetCaptionServiceNumber, GetCaptionServiceNumber method [Microsoft TV Technologies], GetCaptionServiceNumber method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCaptionServiceNumber method, ICaptionServiceDescriptor.GetCaptionServiceNumber, ICaptionServiceDescriptor::GetCaptionServiceNumber, ICaptionServiceDescriptorGetCaptionServiceNumber, atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber, mstv.icaptionservicedescriptor_getcaptionservicenumber
-f1_keywords:
-- atscpsipparser/ICaptionServiceDescriptor.GetCaptionServiceNumber
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- ICaptionServiceDescriptor.GetCaptionServiceNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICaptionServiceDescriptor::GetCaptionServiceNumber
+ - atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - ICaptionServiceDescriptor.GetCaptionServiceNumber
 ---
 
 # ICaptionServiceDescriptor::GetCaptionServiceNumber
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetCaptionServiceNumber</b> method returns the service number within the closed captioning stream for a specified caption service.
 
-
 ## -parameters
-
-
-
 
 ### -param bIndex [in]
 
-Zero-based index of the caption service. To get the number of caption services, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getnumberofservices">ICaptionServiceDescriptor::GetNumberOfServices</a>.
-
+Zero-based index of the caption service. To get the number of caption services, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-icaptionservicedescriptor-getnumberofservices">ICaptionServiceDescriptor::GetNumberOfServices</a>.
 
 ### -param pbVal [out]
 
 Receives the caption_service_number field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,18 +121,7 @@ The <i>bIndex</i> parameter is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-icaptionservicedescriptor">ICaptionServiceDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-icaptionservicedescriptor">ICaptionServiceDescriptor Interface</a>

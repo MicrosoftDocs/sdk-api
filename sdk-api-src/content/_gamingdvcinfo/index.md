@@ -4,7 +4,7 @@ title: Gaming Device Information
 ms.assetid: b4972891-4403-3035-b6d1-a021050f576f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Gaming Device Information
@@ -18,5 +18,4 @@ To develop Gaming Device Information, you need these headers:
  * [gamingdeviceinformation.h](../gamingdeviceinformation/index.md)
 
 For programming guidance for this technology, see:
-* [Gaming Device Information](https://docs.microsoft.com/previous-versions/windows/desktop/gamingdvcinfo)
-
+* [Gaming Device Information](/previous-versions/windows/desktop/gamingdvcinfo)

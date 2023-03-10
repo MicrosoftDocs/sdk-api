@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.GetAlignment
 title: ITextPara::GetAlignment (tom.h)
 description: Retrieves the current paragraph alignment value.
+helpviewer_keywords: ["GetAlignment","GetAlignment method [Windows Controls]","GetAlignment method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetAlignment method","ITextPara.GetAlignment","ITextPara::GetAlignment","_win32_ITextPara_GetAlignment","_win32_ITextPara_GetAlignment_cpp","controls.ITextPara_GetAlignment","controls._win32_ITextPara_GetAlignment","tom/ITextPara::GetAlignment","tomAlignCenter","tomAlignInterLetter","tomAlignInterWord","tomAlignJustify","tomAlignLeft","tomAlignNewspaper","tomAlignRight","tomAlignScaled"]
 old-location: controls\ITextPara_GetAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getalignment.htm
 ms.date: 12/05/2018
 ms.keywords: GetAlignment, GetAlignment method [Windows Controls], GetAlignment method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetAlignment method, ITextPara.GetAlignment, ITextPara::GetAlignment, _win32_ITextPara_GetAlignment, _win32_ITextPara_GetAlignment_cpp, controls.ITextPara_GetAlignment, controls._win32_ITextPara_GetAlignment, tom/ITextPara::GetAlignment, tomAlignCenter, tomAlignInterLetter, tomAlignInterWord, tomAlignJustify, tomAlignLeft, tomAlignNewspaper, tomAlignRight, tomAlignScaled
-f1_keywords:
-- tom/ITextPara.GetAlignment
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetAlignment
+ - tom/ITextPara::GetAlignment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetAlignment
 ---
 
 # ITextPara::GetAlignment
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current paragraph alignment value.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -119,14 +116,11 @@ The paragraph alignment, which can be one of the following values.
 
 #### tomAlignScaled
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetAlignment</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetAlignment</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -167,21 +161,14 @@ The paragraph format object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -189,12 +176,8 @@ The paragraph format object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setalignment">SetAlignment</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setalignment">SetAlignment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

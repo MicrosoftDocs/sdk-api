@@ -1,16 +1,13 @@
 ---
 UID: NF:xenroll.ICEnroll.get_CAStoreFlags
 title: ICEnroll::get_CAStoreFlags (xenroll.h)
-description: Sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
+description: Sets or retrieves a flag that controls the certification authority (CA) store when the store is opened. (Get)
+helpviewer_keywords: ["CAStoreFlags property [Security]","CAStoreFlags property [Security]","CEnroll object","CAStoreFlags property [Security]","ICEnroll interface","CAStoreFlags property [Security]","ICEnroll2 interface","CAStoreFlags property [Security]","ICEnroll3 interface","CAStoreFlags property [Security]","ICEnroll4 interface","CEnroll object [Security]","CAStoreFlags property","ICEnroll interface [Security]","CAStoreFlags property","ICEnroll.CAStoreFlags","ICEnroll.get_CAStoreFlags","ICEnroll2 interface [Security]","CAStoreFlags property","ICEnroll2.CAStoreFlags","ICEnroll2::get_CAStoreFlags","ICEnroll2::put_CAStoreFlags","ICEnroll3 interface [Security]","CAStoreFlags property","ICEnroll3.CAStoreFlags","ICEnroll3::get_CAStoreFlags","ICEnroll3::put_CAStoreFlags","ICEnroll4 interface [Security]","CAStoreFlags property","ICEnroll4.CAStoreFlags","ICEnroll4::CAStoreFlags","ICEnroll4::get_CAStoreFlags","ICEnroll4::put_CAStoreFlags","ICEnroll::get_CAStoreFlags","ICEnroll::put_CAStoreFlags","get_CAStoreFlags","security.icenroll4_castoreflags","xenroll/ICEnroll2::CAStoreFlags","xenroll/ICEnroll2::get_CAStoreFlags","xenroll/ICEnroll2::put_CAStoreFlags","xenroll/ICEnroll3::CAStoreFlags","xenroll/ICEnroll3::get_CAStoreFlags","xenroll/ICEnroll3::put_CAStoreFlags","xenroll/ICEnroll4::CAStoreFlags","xenroll/ICEnroll4::get_CAStoreFlags","xenroll/ICEnroll4::put_CAStoreFlags","xenroll/ICEnroll::CAStoreFlags","xenroll/ICEnroll::get_CAStoreFlags","xenroll/ICEnroll::put_CAStoreFlags"]
 old-location: security\icenroll4_castoreflags.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cde75e0f-5074-44f7-a101-f503913a58f4
 ms.date: 12/05/2018
 ms.keywords: CAStoreFlags property [Security], CAStoreFlags property [Security],CEnroll object, CAStoreFlags property [Security],ICEnroll interface, CAStoreFlags property [Security],ICEnroll2 interface, CAStoreFlags property [Security],ICEnroll3 interface, CAStoreFlags property [Security],ICEnroll4 interface, CEnroll object [Security],CAStoreFlags property, ICEnroll interface [Security],CAStoreFlags property, ICEnroll.CAStoreFlags, ICEnroll.get_CAStoreFlags, ICEnroll2 interface [Security],CAStoreFlags property, ICEnroll2.CAStoreFlags, ICEnroll2::get_CAStoreFlags, ICEnroll2::put_CAStoreFlags, ICEnroll3 interface [Security],CAStoreFlags property, ICEnroll3.CAStoreFlags, ICEnroll3::get_CAStoreFlags, ICEnroll3::put_CAStoreFlags, ICEnroll4 interface [Security],CAStoreFlags property, ICEnroll4.CAStoreFlags, ICEnroll4::CAStoreFlags, ICEnroll4::get_CAStoreFlags, ICEnroll4::put_CAStoreFlags, ICEnroll::get_CAStoreFlags, ICEnroll::put_CAStoreFlags, get_CAStoreFlags, security.icenroll4_castoreflags, xenroll/ICEnroll2::CAStoreFlags, xenroll/ICEnroll2::get_CAStoreFlags, xenroll/ICEnroll2::put_CAStoreFlags, xenroll/ICEnroll3::CAStoreFlags, xenroll/ICEnroll3::get_CAStoreFlags, xenroll/ICEnroll3::put_CAStoreFlags, xenroll/ICEnroll4::CAStoreFlags, xenroll/ICEnroll4::get_CAStoreFlags, xenroll/ICEnroll4::put_CAStoreFlags, xenroll/ICEnroll::CAStoreFlags, xenroll/ICEnroll::get_CAStoreFlags, xenroll/ICEnroll::put_CAStoreFlags
-f1_keywords:
-- xenroll/ICEnroll4.CAStoreFlags
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,31 +25,36 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.CAStoreFlags
-- ICEnroll4.get_CAStoreFlags
-- ICEnroll4.put_CAStoreFlags
-- ICEnroll3.CAStoreFlags
-- ICEnroll3.get_CAStoreFlags
-- ICEnroll3.put_CAStoreFlags
-- ICEnroll2.CAStoreFlags
-- ICEnroll2.get_CAStoreFlags
-- ICEnroll2.put_CAStoreFlags
-- ICEnroll.CAStoreFlags
-- ICEnroll.get_CAStoreFlags
-- ICEnroll.put_CAStoreFlags
-- CEnroll.CAStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_CAStoreFlags
+ - xenroll/ICEnroll::get_CAStoreFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.CAStoreFlags
+ - ICEnroll4.get_CAStoreFlags
+ - ICEnroll4.put_CAStoreFlags
+ - ICEnroll3.CAStoreFlags
+ - ICEnroll3.get_CAStoreFlags
+ - ICEnroll3.put_CAStoreFlags
+ - ICEnroll2.CAStoreFlags
+ - ICEnroll2.get_CAStoreFlags
+ - ICEnroll2.put_CAStoreFlags
+ - ICEnroll.CAStoreFlags
+ - ICEnroll.get_CAStoreFlags
+ - ICEnroll.put_CAStoreFlags
+ - CEnroll.CAStoreFlags
 ---
 
 # ICEnroll::get_CAStoreFlags
@@ -60,32 +62,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>CAStoreFlags</b> property sets or retrieves a flag that controls the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) store when the store is opened. This flag is  passed to the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function when the CA store is opened.
+The <b>CAStoreFlags</b> property sets or retrieves a flag that controls the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) store when the store is opened. This flag is  passed to the <i>dwFlags</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function when the CA store is opened.
 
-The default value for this property is CERT_SYSTEM_STORE_CURRENT_USER.  This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The default value for this property is CERT_SYSTEM_STORE_CURRENT_USER.  This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>CAStoreFlags</b> property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </li>
 </ul>
 
@@ -114,7 +110,3 @@ if ( FAILED ( hr ) )
 else
     printf("Updated CAStoreFlags\n");
 ```
-
-
-
-

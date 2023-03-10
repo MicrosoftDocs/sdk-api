@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate.get_IsDownloaded
 title: IUpdate::get_IsDownloaded (wuapi.h)
 description: Gets a Boolean value that indicates whether all the update content is cached on the computer.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","IsDownloaded property","IUpdate.IsDownloaded","IUpdate.get_IsDownloaded","IUpdate::IsDownloaded","IUpdate::get_IsDownloaded","IsDownloaded property [Windows Update Agent]","IsDownloaded property [Windows Update Agent]","IUpdate interface","get_IsDownloaded","wua.iupdate_isdownloaded","wuapi/IUpdate::IsDownloaded","wuapi/IUpdate::get_IsDownloaded"]
 old-location: wua\iupdate_isdownloaded.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 4e20f2b0-096c-4ec6-b554-1891522b8933
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsDownloaded property, IUpdate.IsDownloaded, IUpdate.get_IsDownloaded, IUpdate::IsDownloaded, IUpdate::get_IsDownloaded, IsDownloaded property [Windows Update Agent], IsDownloaded property [Windows Update Agent],IUpdate interface, get_IsDownloaded, wua.iupdate_isdownloaded, wuapi/IUpdate::IsDownloaded, wuapi/IUpdate::get_IsDownloaded
-f1_keywords:
-- wuapi/IUpdate.IsDownloaded
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.IsDownloaded
-- IUpdate.get_IsDownloaded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_IsDownloaded
+ - wuapi/IUpdate::get_IsDownloaded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.IsDownloaded
+ - IUpdate.get_IsDownloaded
 ---
 
 # IUpdate::get_IsDownloaded
@@ -49,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether all the update content is cached on the computer.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>

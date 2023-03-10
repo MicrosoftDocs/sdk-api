@@ -2,15 +2,12 @@
 UID: NS:dhcpv6csdk._DHCPV6CAPI_PARAMS
 title: DHCPV6CAPI_PARAMS (dhcpv6csdk.h)
 description: Contains a requested parameter.
+helpviewer_keywords: ["*LPDHCPV6CAPI_PARAMS","*PDHCPV6CAPI_PARAMS","DHCPV6CAPI_PARAMS","DHCPV6CAPI_PARAMS structure [DHCP]","DHCPV6_OPTION_CLIENTID","DHCPV6_OPTION_CLIENTIDNISP_DOMAIN_NAME","DHCPV6_OPTION_DNS_SERVERS","DHCPV6_OPTION_DOMAIN_LIST","DHCPV6_OPTION_IA_NA","DHCPV6_OPTION_IA_PD","DHCPV6_OPTION_IA_TA","DHCPV6_OPTION_NISP_SERVERS","DHCPV6_OPTION_NIS_DOMAIN_NAME","DHCPV6_OPTION_NIS_SERVERS","DHCPV6_OPTION_ORO","DHCPV6_OPTION_PREFERENCE","DHCPV6_OPTION_RAPID_COMMIT","DHCPV6_OPTION_RECONF_MSG","DHCPV6_OPTION_SERVERID","DHCPV6_OPTION_SIP_SERVERS_ADDRS","DHCPV6_OPTION_SIP_SERVERS_NAMES","DHCPV6_OPTION_UNICAST","DHCPV6_OPTION_USER_CLASS","DHCPV6_OPTION_VENDOR_CLASS","DHCPV6_OPTION_VENDOR_OPTS","LPDHCPV6CAPI_PARAMS","LPDHCPV6CAPI_PARAMS structure pointer [DHCP]","PDHCPV6CAPI_PARAMS","PDHCPV6CAPI_PARAMS structure pointer [DHCP]","dhcp.dhcpv6capi_params","dhcpv6csdk/DHCPV6CAPI_PARAMS","dhcpv6csdk/LPDHCPV6CAPI_PARAMS","dhcpv6csdk/PDHCPV6CAPI_PARAMS"]
 old-location: dhcp\dhcpv6capi_params.htm
 tech.root: DHCP
 ms.assetid: a8978435-a16d-446d-9bd3-4a2dc6c9ec1a
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCPV6CAPI_PARAMS, *PDHCPV6CAPI_PARAMS, DHCPV6CAPI_PARAMS, DHCPV6CAPI_PARAMS structure [DHCP], DHCPV6_OPTION_CLIENTID, DHCPV6_OPTION_CLIENTIDNISP_DOMAIN_NAME, DHCPV6_OPTION_DNS_SERVERS, DHCPV6_OPTION_DOMAIN_LIST, DHCPV6_OPTION_IA_NA, DHCPV6_OPTION_IA_PD, DHCPV6_OPTION_IA_TA, DHCPV6_OPTION_NISP_SERVERS, DHCPV6_OPTION_NIS_DOMAIN_NAME, DHCPV6_OPTION_NIS_SERVERS, DHCPV6_OPTION_ORO, DHCPV6_OPTION_PREFERENCE, DHCPV6_OPTION_RAPID_COMMIT, DHCPV6_OPTION_RECONF_MSG, DHCPV6_OPTION_SERVERID, DHCPV6_OPTION_SIP_SERVERS_ADDRS, DHCPV6_OPTION_SIP_SERVERS_NAMES, DHCPV6_OPTION_UNICAST, DHCPV6_OPTION_USER_CLASS, DHCPV6_OPTION_VENDOR_CLASS, DHCPV6_OPTION_VENDOR_OPTS, LPDHCPV6CAPI_PARAMS, LPDHCPV6CAPI_PARAMS structure pointer [DHCP], PDHCPV6CAPI_PARAMS, PDHCPV6CAPI_PARAMS structure pointer [DHCP], dhcp.dhcpv6capi_params, dhcpv6csdk/DHCPV6CAPI_PARAMS, dhcpv6csdk/LPDHCPV6CAPI_PARAMS, dhcpv6csdk/PDHCPV6CAPI_PARAMS'
-f1_keywords:
-- dhcpv6csdk/DHCPV6CAPI_PARAMS
-dev_langs:
-- c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpv6csdk.h
-api_name:
-- DHCPV6CAPI_PARAMS
 targetos: Windows
 req.typenames: DHCPV6CAPI_PARAMS, *PDHCPV6CAPI_PARAMS, *LPDHCPV6CAPI_PARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCPV6CAPI_PARAMS
+ - dhcpv6csdk/_DHCPV6CAPI_PARAMS
+ - PDHCPV6CAPI_PARAMS
+ - dhcpv6csdk/PDHCPV6CAPI_PARAMS
+ - DHCPV6CAPI_PARAMS
+ - dhcpv6csdk/DHCPV6CAPI_PARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpv6csdk.h
+api_name:
+ - DHCPV6CAPI_PARAMS
 ---
 
 # DHCPV6CAPI_PARAMS structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 A <b>DHCPV6CAPI_PARAMS</b> structure contains a requested parameter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 Reserved for future use.
-
 
 ### -field OptionId
 
@@ -192,16 +192,13 @@ Identifier for the DHCPv6 parameter being requested.
 
 #### DHCPV6_OPTION_CLIENTIDNISP_DOMAIN_NAME
 
-
 ### -field IsVendor
 
 This option is set to <b>TRUE</b> if this parameter is vendor-specific.  Otherwise, it is <b>FALSE</b>.
 
-
 ### -field Data
 
 Contains the actual parameter data.
-
 
 ### -field nBytesData
 

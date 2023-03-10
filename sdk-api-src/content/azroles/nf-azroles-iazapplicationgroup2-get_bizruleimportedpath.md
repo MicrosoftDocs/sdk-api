@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.get_BizRuleImportedPath
 title: IAzApplicationGroup2::get_BizRuleImportedPath (azroles.h)
-description: Gets or sets the path of the file that contains the business rule script associated with this application group.
+description: Gets or sets the path of the file that contains the business rule script associated with this application group. (Get)
+helpviewer_keywords: ["BizRuleImportedPath property [Security]","BizRuleImportedPath property [Security]","IAzApplicationGroup2 interface","IAzApplicationGroup2 interface [Security]","BizRuleImportedPath property","IAzApplicationGroup2.BizRuleImportedPath","IAzApplicationGroup2.get_BizRuleImportedPath","IAzApplicationGroup2::BizRuleImportedPath","IAzApplicationGroup2::get_BizRuleImportedPath","IAzApplicationGroup2::put_BizRuleImportedPath","azroles/IAzApplicationGroup2::BizRuleImportedPath","azroles/IAzApplicationGroup2::get_BizRuleImportedPath","azroles/IAzApplicationGroup2::put_BizRuleImportedPath","get_BizRuleImportedPath","security.iazapplicationgroup2_bizruleimportedpath_method"]
 old-location: security\iazapplicationgroup2_bizruleimportedpath_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: fe088018-0505-4339-8a9a-36e8764a22f6
 ms.date: 12/05/2018
 ms.keywords: BizRuleImportedPath property [Security], BizRuleImportedPath property [Security],IAzApplicationGroup2 interface, IAzApplicationGroup2 interface [Security],BizRuleImportedPath property, IAzApplicationGroup2.BizRuleImportedPath, IAzApplicationGroup2.get_BizRuleImportedPath, IAzApplicationGroup2::BizRuleImportedPath, IAzApplicationGroup2::get_BizRuleImportedPath, IAzApplicationGroup2::put_BizRuleImportedPath, azroles/IAzApplicationGroup2::BizRuleImportedPath, azroles/IAzApplicationGroup2::get_BizRuleImportedPath, azroles/IAzApplicationGroup2::put_BizRuleImportedPath, get_BizRuleImportedPath, security.iazapplicationgroup2_bizruleimportedpath_method
-f1_keywords:
-- azroles/IAzApplicationGroup2.BizRuleImportedPath
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.h
-api_name:
-- IAzApplicationGroup2.BizRuleImportedPath
-- IAzApplicationGroup2.get_BizRuleImportedPath
-- IAzApplicationGroup2.put_BizRuleImportedPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup2::get_BizRuleImportedPath
+ - azroles/IAzApplicationGroup2::get_BizRuleImportedPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.h
+api_name:
+ - IAzApplicationGroup2.BizRuleImportedPath
+ - IAzApplicationGroup2.get_BizRuleImportedPath
+ - IAzApplicationGroup2.put_BizRuleImportedPath
 ---
 
 # IAzApplicationGroup2::get_BizRuleImportedPath
@@ -50,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b> BizRuleImportedPath</b> method gets or sets the path of the file that contains the business rule script associated with this application group.
 
 This property is read/write.
-
 
 ## -parameters
 

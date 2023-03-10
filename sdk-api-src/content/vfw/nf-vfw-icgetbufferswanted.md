@@ -2,15 +2,12 @@
 UID: NF:vfw.ICGetBuffersWanted
 title: ICGetBuffersWanted macro (vfw.h)
 description: The ICGetBuffersWanted macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the ICM_GETBUFFERSWANTED message.
+helpviewer_keywords: ["ICGetBuffersWanted","ICGetBuffersWanted macro [Windows Multimedia]","_win32_ICGetBuffersWanted","multimedia.icgetbufferswanted","vfw/ICGetBuffersWanted"]
 old-location: multimedia\icgetbufferswanted.htm
 tech.root: Multimedia
 ms.assetid: ed294649-d7e7-4e5f-89d4-49ed65c71b96
 ms.date: 12/05/2018
 ms.keywords: ICGetBuffersWanted, ICGetBuffersWanted macro [Windows Multimedia], _win32_ICGetBuffersWanted, multimedia.icgetbufferswanted, vfw/ICGetBuffersWanted
-f1_keywords:
-- vfw/ICGetBuffersWanted
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICGetBuffersWanted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICGetBuffersWanted
+ - vfw/ICGetBuffersWanted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICGetBuffersWanted
 ---
 
 # ICGetBuffersWanted macro
@@ -48,48 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>ICGetBuffersWanted</b> macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getbufferswanted">ICM_GETBUFFERSWANTED</a> message.
-
-
-
+The <b>ICGetBuffersWanted</b> macro queries a driver for the number of buffers to allocate. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-getbufferswanted">ICM_GETBUFFERSWANTED</a> message.
 
 ## -parameters
 
-
-
-
 ### -param hic
 
-Handle to a driver. 
-
+Handle to a driver.
 
 ### -param lpdwBuffers
 
-Address to contain the number of samples the driver needs to efficiently render the data. 
-
+Address to contain the number of samples the driver needs to efficiently render the data.
 
 ## -remarks
 
-
-
 This message is used by drivers that use hardware to render data and want to ensure a minimal time lag caused by waiting for buffers to arrive. For example, if a driver controls a video decompression board that can hold 10 frames of video, it could return 10 for this message. This instructs applications to try to stay 10 frames ahead of the frame it currently needs.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.GetFeaturePage
 title: IDiscRecorder2Ex::GetFeaturePage (imapi2.h)
 description: Retrieves the specified feature page from the device.
+helpviewer_keywords: ["GetFeaturePage","GetFeaturePage method [IMAPI]","GetFeaturePage method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetFeaturePage method","IDiscRecorder2Ex.GetFeaturePage","IDiscRecorder2Ex::GetFeaturePage","imapi.idiscrecorder2ex_getfeaturepage","imapi2/IDiscRecorder2Ex::GetFeaturePage"]
 old-location: imapi\idiscrecorder2ex_getfeaturepage.htm
 tech.root: imapi
 ms.assetid: a3cf0d33-25ea-4764-8fdb-5ef47c7b1e50
 ms.date: 12/05/2018
 ms.keywords: GetFeaturePage, GetFeaturePage method [IMAPI], GetFeaturePage method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetFeaturePage method, IDiscRecorder2Ex.GetFeaturePage, IDiscRecorder2Ex::GetFeaturePage, imapi.idiscrecorder2ex_getfeaturepage, imapi2/IDiscRecorder2Ex::GetFeaturePage
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.GetFeaturePage
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.GetFeaturePage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::GetFeaturePage
+ - imapi2/IDiscRecorder2Ex::GetFeaturePage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.GetFeaturePage
 ---
 
 # IDiscRecorder2Ex::GetFeaturePage
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the specified feature page from the device. 
-
+Retrieves the specified feature page from the device.
 
 ## -parameters
 
-
-
-
 ### -param requestedFeature [in]
 
-Feature page to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
-
+Feature page to retrieve. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
 
 ### -param currentFeatureOnly [in]
 
 Set to True to retrieve the feature page only when it is the current feature page. Otherwise, False to retrieve the feature page regardless of it being the current feature page.
-
 
 ### -param featureData [out]
 
@@ -75,15 +70,11 @@ This method removes header information and other non-feature data before filling
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
-
 ### -param byteSize [out]
 
-Size, in bytes, of the <i>featureData</i> data buffer. 
-
+Size, in bytes, of the <i>featureData</i> data buffer.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -392,26 +383,15 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>

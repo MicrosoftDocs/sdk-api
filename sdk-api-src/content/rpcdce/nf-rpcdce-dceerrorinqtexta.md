@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcdce.DceErrorInqTextA
 title: DceErrorInqTextA function (rpcdce.h)
-description: The DceErrorInqText function returns the message text for a status code.
+description: The DceErrorInqText function returns the message text for a status code. (DceErrorInqTextA)
+helpviewer_keywords: ["DceErrorInqTextA", "RPC_S_INVALID_ARG", "RPC_S_OK", "rpcdce/DceErrorInqTextA"]
 old-location: rpc\dceerrorinqtext.htm
 tech.root: Rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
 ms.date: 12/05/2018
 ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
-f1_keywords:
-- rpcdce/DceErrorInqText
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- DceErrorInqText
-- DceErrorInqTextA
-- DceErrorInqTextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DceErrorInqTextA
+ - rpcdce/DceErrorInqTextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - DceErrorInqText
+ - DceErrorInqTextA
+ - DceErrorInqTextW
 ---
 
 # DceErrorInqTextA function
@@ -50,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DceErrorInqText</b> function returns the message text for a status code.
 
-
 ## -parameters
-
-
-
 
 ### -param RpcStatus
 
 Status code to convert to a text string.
-
 
 ### -param ErrorText
 
@@ -95,27 +91,22 @@ Unknown error code.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns RPC_S_OK if it is successful, or an error code if not.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>DceErrorInqText</b> routine fills the string pointed to by the <i>ErrorText</i> parameter with a null-terminated character string message for a particular status code.
 
 
 
+
+> [!NOTE]
+> The rpcdce.h header defines DceErrorInqText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

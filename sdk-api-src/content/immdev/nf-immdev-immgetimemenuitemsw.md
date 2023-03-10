@@ -1,16 +1,13 @@
 ---
 UID: NF:immdev.ImmGetImeMenuItemsW
 title: ImmGetImeMenuItemsW function (immdev.h)
-description: Retrieves the menu items that are registered in the IME menu of a specified input context.
+description: The ImmGetImeMenuItemsW (Unicode) function (immdev.h) retrieves the menu items that are registered in the IME menu of a specified input context. 
+helpviewer_keywords: ["IGIMIF_RIGHTMENU", "IGIMII_CMODE", "IGIMII_CONFIGURE", "IGIMII_HELP", "IGIMII_INPUTTOOLS", "IGIMII_OTHER", "IGIMII_SMODE", "IGIMII_TOOLS", "ImmGetImeMenuItems", "ImmGetImeMenuItems function [Internationalization for Windows Applications]", "ImmGetImeMenuItemsW", "_win32_ImmGetImeMenuItems", "intl.immgetimemenuitems"]
 old-location: intl\immgetimemenuitems.htm
 tech.root: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IGIMIF_RIGHTMENU, IGIMII_CMODE, IGIMII_CONFIGURE, IGIMII_HELP, IGIMII_INPUTTOOLS, IGIMII_OTHER, IGIMII_SMODE, IGIMII_TOOLS, ImmGetImeMenuItems, ImmGetImeMenuItems function [Internationalization for Windows Applications], ImmGetImeMenuItemsA, ImmGetImeMenuItemsW, _win32_ImmGetImeMenuItems, imm/ImmGetImeMenuItems, imm/ImmGetImeMenuItemsA, imm/ImmGetImeMenuItemsW, intl.immgetimemenuitems
-f1_keywords:
-- immdev/ImmGetImeMenuItems
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,43 +25,39 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-api_name:
-- ImmGetImeMenuItems
-- ImmGetImeMenuItemsA
-- ImmGetImeMenuItemsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmGetImeMenuItemsW
+ - immdev/ImmGetImeMenuItemsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+api_name:
+ - ImmGetImeMenuItems
+ - ImmGetImeMenuItemsA
+ - ImmGetImeMenuItemsW
 ---
-
-# ImmGetImeMenuItemsW function
-
 
 ## -description
 
-
 Retrieves the menu items that are registered in the IME menu of a specified input context.
-
 
 ## -parameters
 
-
-
-
-### -param HIMC [in]
+### -param unnamedParam1 [in]
 
 Handle to the input context for the specified menu items.
 
-
-### -param DWORD [in]
+### -param unnamedParam2 [in]
 
 Flag specifying menu information options. The following value is defined.
 
@@ -84,25 +77,8 @@ Retrieve the menu items for the context menu, obtained by a right mouse click.
 </td>
 </tr>
 </table>
- 
 
-
-### -param lpImeParentMenu [out, optional]
-
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
-
-
-### -param lpImeMenu [out, optional]
-
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
-
-
-### -param dwSize [in]
-
-Size of the buffer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure.
-
-
-#### - dwType [in]
+### -param unnamedParam3 [in]
 
 Type of menu to retrieve. This parameter can have one or more of the following values.
 
@@ -182,33 +158,32 @@ Retrieve the menu items that control menu items related to IME input tools provi
 </td>
 </tr>
 </table>
- 
 
+### -param lpImeParentMenu [out, optional]
+
+Pointer to an <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure in which the function retrieves parent menu information. To retrieve information about the submenu items of this parent menu, the application sets the <b>fType</b> member to MFT_SUBMENU. This parameter contains <b>NULL</b> if the function retrieves only top-level menu items.
+
+### -param lpImeMenu [out, optional]
+
+Pointer to an array of <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structures in which the function retrieves information about the menu items. This parameter contains <b>NULL</b> if the function retrieves the number of registered menu items.
+
+### -param dwSize [in]
+
+Size of the buffer to receive the <a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a> structure.
 
 ## -returns
 
-
-
 Returns the number of menu items copied into <i>lpImeMenu</i>. If <i>lpImeMenu</i> specifies <b>NULL</b>, the function returns the number of registered menu items in the specified input context.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a>
 
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-imemenuiteminfoa">IMEMENUITEMINFO</a>
+## -remarks
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The immdev.h header defines ImmGetImeMenuItems as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

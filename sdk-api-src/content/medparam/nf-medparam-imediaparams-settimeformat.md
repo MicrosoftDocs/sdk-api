@@ -2,15 +2,12 @@
 UID: NF:medparam.IMediaParams.SetTimeFormat
 title: IMediaParams::SetTimeFormat (medparam.h)
 description: The SetTimeFormat method specifies the time format for the object.
+helpviewer_keywords: ["IMediaParams interface [DirectShow]","SetTimeFormat method","IMediaParams.SetTimeFormat","IMediaParams::SetTimeFormat","IMediaParamsSetTimeFormat","SetTimeFormat","SetTimeFormat method [DirectShow]","SetTimeFormat method [DirectShow]","IMediaParams interface","dshow.imediaparams_settimeformat","medparam/IMediaParams::SetTimeFormat"]
 old-location: dshow\imediaparams_settimeformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 48c28dd8-aeae-4212-9221-ab943113aa76
 ms.date: 12/05/2018
 ms.keywords: IMediaParams interface [DirectShow],SetTimeFormat method, IMediaParams.SetTimeFormat, IMediaParams::SetTimeFormat, IMediaParamsSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaParams interface, dshow.imediaparams_settimeformat, medparam/IMediaParams::SetTimeFormat
-f1_keywords:
-- medparam/IMediaParams.SetTimeFormat
-dev_langs:
-- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaParams.SetTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaParams::SetTimeFormat
+ - medparam/IMediaParams::SetTimeFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaParams.SetTimeFormat
 ---
 
 # IMediaParams::SetTimeFormat
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetTimeFormat</code> method specifies the time format for the object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param guidTimeFormat [in]
 
 Time format GUID that specifies the time format.
 
-
 ### -param mpTimeData [in]
 
 Value of type <b>MP_TIMEDATA</b> that specifies the unit of measure for the new format.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -105,14 +95,8 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Objects can support more than one time format. Every object must support reference time, in which each unit of time is 100 nanoseconds (ns). Other formats are optional. The application must ensure that time stamps on the input buffers match whatever time format was set using this method.
 
@@ -140,24 +124,14 @@ The meaning of the <i>mpTimeData</i> parameter depends on the value of the <i>gu
 </table>
  
 
-When you call this method, also call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparams-flushenvelope">FlushEnvelope</a> method, to flush any envelopes that were set using the previous time format.
+When you call this method, also call the <a href="/windows/desktop/api/medparam/nf-medparam-imediaparams-flushenvelope">FlushEnvelope</a> method, to flush any envelopes that were set using the previous time format.
 
-To determine what time formats an object supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getsupportedtimeformat">IMediaParamInfo::GetSupportedTimeFormat</a> method. To retrieve the current format, call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getcurrenttimeformat">IMediaParamInfo::GetCurrentTimeFormat</a> method.
-
-
-
+To determine what time formats an object supports, call the <a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getsupportedtimeformat">IMediaParamInfo::GetSupportedTimeFormat</a> method. To retrieve the current format, call the <a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getcurrenttimeformat">IMediaParamInfo::GetCurrentTimeFormat</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>

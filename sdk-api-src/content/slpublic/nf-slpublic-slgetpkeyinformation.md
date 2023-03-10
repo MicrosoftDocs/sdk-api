@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetPKeyInformation
 title: SLGetPKeyInformation function (slpublic.h)
 description: Gets the information of the specified product key.
+helpviewer_keywords: ["SLGetPKeyInformation","SLGetPKeyInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","SL_INFO_KEY_CHANNEL","SL_INFO_KEY_DIGITAL_PID","SL_INFO_KEY_DIGITAL_PID2","SL_INFO_KEY_PARTIAL_PRODUCT_KEY","SL_INFO_KEY_PRODUCT_SKU_ID","security.slgetpkeyinformation","slpublic/SLGetPKeyInformation"]
 old-location: security\slgetpkeyinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: b7728d20-da39-4443-aaca-a6461880bb53
 ms.date: 12/05/2018
 ms.keywords: SLGetPKeyInformation, SLGetPKeyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_CHANNEL, SL_INFO_KEY_DIGITAL_PID, SL_INFO_KEY_DIGITAL_PID2, SL_INFO_KEY_PARTIAL_PRODUCT_KEY, SL_INFO_KEY_PRODUCT_SKU_ID, security.slgetpkeyinformation, slpublic/SLGetPKeyInformation
-f1_keywords:
-- slpublic/SLGetPKeyInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetPKeyInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetPKeyInformation
+ - slpublic/SLGetPKeyInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetPKeyInformation
 ---
 
 # SLGetPKeyInformation function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the information of the specified product key.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pPKeyId [in]
 
 Type: <b>const SLID*</b>
 
 A pointer to the PKey ID.
-
 
 ### -param pwszValueName [in]
 
@@ -138,12 +133,10 @@ Channel ID
 </td>
 </tr>
 </table>
- 
-
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
 The data type.
 
@@ -186,8 +179,6 @@ Binary BLOB
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbValue [out]
 
@@ -195,18 +186,14 @@ Type: <b>UINT*</b>
 
 A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
-
 ### -param ppbValue [out]
 
 Type: <b>PBYTE*</b>
 
 A pointer to the data returned by SLC.          
-		When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
+		When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -254,7 +241,3 @@ The request is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-

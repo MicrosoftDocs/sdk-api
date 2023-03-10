@@ -1,15 +1,12 @@
 ---
 UID: NF:shlobj.IFileViewerA.ShowInitialize
 title: IFileViewerA::ShowInitialize
-description: Allows a file viewer to determine whether it can display a file.
+description: Allows a file viewer to determine whether it can display a file. (ANSI)
+helpviewer_keywords: ["IFileViewerA::ShowInitialize"]
 tech.root: shell
 ms.assetid: 28f7deb9-09aa-4041-ac6a-3956fdc59191
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: IFileViewerA::ShowInitialize
-f1_keywords:
-- shlobj/IFileViewerA::ShowInitialize
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,14 +27,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - IFileViewerA::ShowInitialize
+ - shlobj/IFileViewerA::ShowInitialize
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- shlobj.h
+ - shlobj.h
 api_name:
-- IFileViewerA::ShowInitialize
+ - IFileViewerA::ShowInitialize
 ---
 
 ## -description
@@ -52,9 +54,8 @@ A pointer to an [IFileViewerSite](nn-shlobj-ifileviewersite.md) interface. A fil
 
 ## -returns
 
-The Shell calls this method before the [Show](nf-shlobj-ifileviewera-show.md) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+The Shell calls this method before the [Show](nf-shlobj-ifileviewera-show.md) method. The Shell specifies the name of the file to display by calling the file viewer's [IPersistFile::Load](/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
 
 ## -remarks
 
 ## -see-also
-

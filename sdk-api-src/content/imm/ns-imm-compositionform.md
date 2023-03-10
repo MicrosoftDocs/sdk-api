@@ -1,16 +1,13 @@
 ---
 UID: NS:imm.tagCOMPOSITIONFORM
 title: COMPOSITIONFORM (imm.h)
-description: Contains style and position information for a composition window.
+description: The COMPOSITIONFORM (imm.h) structure contains style and position information for a composition window.
+helpviewer_keywords: ["*LPCOMPOSITIONFORM","*NPCOMPOSITIONFORM","*PCOMPOSITIONFORM","COMPOSITIONFORM","COMPOSITIONFORM structure [Internationalization for Windows Applications]","PCOMPOSITIONFORM","PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications]","_win32_COMPOSITIONFORM_str","imm/COMPOSITIONFORM","imm/PCOMPOSITIONFORM","intl.compositionform","tagCOMPOSITIONFORM"]
 old-location: intl\compositionform.htm
 tech.root: Intl
 ms.assetid: 9b76474a-1ea9-4fcf-9fa8-deee5009a7ba
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM'
-f1_keywords:
-- imm/COMPOSITIONFORM
-dev_langs:
-- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Imm.h
-api_name:
-- COMPOSITIONFORM
 targetos: Windows
 req.typenames: COMPOSITIONFORM, *PCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *LPCOMPOSITIONFORM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCOMPOSITIONFORM
+ - imm/tagCOMPOSITIONFORM
+ - PCOMPOSITIONFORM
+ - imm/PCOMPOSITIONFORM
+ - COMPOSITIONFORM
+ - imm/COMPOSITIONFORM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Imm.h
+api_name:
+ - COMPOSITIONFORM
 ---
 
 # COMPOSITIONFORM structure
@@ -48,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains style and position information for a composition window.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwStyle
 
@@ -86,39 +84,23 @@ Position style. This member can be one of the following values:
 <td>Display the composition window at the position specified by <b>rcArea</b>. The coordinates are relative to the upper left of the window containing the composition window.</td>
 </tr>
 </table>
- 
-
 
 ### -field ptCurrentPos
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the coordinates of the upper left corner of the composition window.
-
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure containing the coordinates of the upper left corner of the composition window.
 
 ### -field rcArea
 
 A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the coordinates of the upper left and lower right corners of the composition window.
 
-
 ## -remarks
-
-
 
 Some IME windows adjust the composition window position specified by the system or the application. The CFS_FORCE_POSITION directs the IME window to skip this adjustment.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>

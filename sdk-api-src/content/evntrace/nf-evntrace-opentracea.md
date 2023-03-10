@@ -1,212 +1,170 @@
 ---
 UID: NF:evntrace.OpenTraceA
 title: OpenTraceA function (evntrace.h)
-description: The OpenTrace function opens a real-time trace session or log file for consuming.
+description: The OpenTraceA (ANSI) function (evntrace.h) opens an ETW trace processing handle for consuming events from an ETW real-time trace session or an ETW log file.
+helpviewer_keywords:
+  [
+    "OpenTrace",
+    "OpenTrace function [ETW]",
+    "OpenTraceA",
+    "OpenTraceW",
+    "_evt_opentrace",
+    "base.opentrace",
+    "etw.opentrace",
+    "evntrace/OpenTrace",
+    "evntrace/OpenTraceA",
+    "evntrace/OpenTraceW",
+  ]
 old-location: etw\opentrace.htm
 tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
-ms.date: 12/05/2018
-ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW
-f1_keywords:
-- evntrace/OpenTrace
-dev_langs:
-- c++
+ms.date: 08/04/2022
+ms.keywords:
+  OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace,
+  base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA,
+  evntrace/OpenTraceW
 req.header: evntrace.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
 req.unicode-ansi: OpenTraceW (Unicode) and OpenTraceA (ANSI)
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- AdvAPI32Legacy.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Consumer-l1-1-0.dll
-- API-MS-Win-Eventing-Legacy-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- OpenTrace
-- OpenTraceA
-- OpenTraceW
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+  Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
+req.dll:
+  Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
+f1_keywords:
+  - OpenTraceA
+  - evntrace/OpenTraceA
+dev_langs:
+  - c++
+topic_type:
+  - APIRef
+  - kbSyntax
+api_type:
+  - DllExport
+api_location:
+  - Sechost.dll
+  - Advapi32.dll
+  - AdvAPI32Legacy.dll
+  - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+  - API-MS-Win-Eventing-Consumer-l1-1-0.dll
+  - API-MS-Win-Eventing-Legacy-l1-1-0.dll
+  - KernelBase.dll
+api_name:
+  - OpenTrace
+  - OpenTraceA
+  - OpenTraceW
 ---
 
 # OpenTraceA function
 
-
 ## -description
 
-
-The <b>OpenTrace</b> function opens a real-time trace session or 
-   log file for consuming.
-
+The **OpenTrace** function opens an ETW trace processing handle for consuming events from an ETW real-time trace session or an ETW log file.
 
 ## -parameters
 
-
-
-
 ### -param Logfile [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure. 
-      The structure specifies the source from which to consume events (from a log file or the session in real time) 
-      and specifies the callbacks the consumer wants to use to receive the events. 
-
+Pointer to an
+[EVENT_TRACE_LOGFILE](/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea)
+structure. The structure specifies the source from which to consume events (from
+an ETW log file or a real-time ETW session) and specifies the callbacks the
+consumer wants to use to receive the events. On success, **OpenTrace** will
+update the structure with information from the opened file or session.
 
 ## -returns
 
+If the function succeeds, it returns the trace processing handle. The handle
+should be closed using
+[CloseTrace](/windows/win32/api/evntrace/nf-evntrace-closetrace).
 
+If the function fails, it returns **INVALID_PROCESSTRACE_HANDLE**.
+(**INVALID_PROCESSTRACE_HANDLE** is equivalent to `(UINT64)UINTPTR_MAX`.)
 
-If the function succeeds, it returns a handle to the trace.
+> [!Note]
+> Prior to Windows Vista, OpenTrace returned `UINT64_MAX` in case of
+> failure. If your code supports both older operating systems (Windows XP or
+> Windows Server 2003) and newer versions of Windows (Windows Vista and later),
+> you must determine the operating system on which you are running and compare
+> the return value to the appropriate value.
 
-If the function fails, it returns INVALID_PROCESSTRACE_HANDLE.
+| Operating system       | Process Type  | Value indicating failure                     |
+| ---------------------- | ------------- | -------------------------------------------- |
+| Prior to Windows Vista | 32- or 64-bit | `0XFFFFFFFFFFFFFFFF` = `UINT64_MAX`          |
+| Windows Vista or later | 32-bit        | `0x00000000FFFFFFFF` = `(UINT64)UINTPTR_MAX` |
+| Windows Vista or later | 64-bit        | `0XFFFFFFFFFFFFFFFF` = `(UINT64)UINTPTR_MAX` |
 
-<div class="alert"><b>Note</b>  <p class="note">If your code base supports Windows 7 and Windows Vista, and also supports 
-        earlier operating systems such as Windows XP and Windows Server 2003, do not use the 
-        constants described above. Instead, determine the operating system on which you are running and compare the 
-        return value to the following values.
+If the function fails, you can use the
+[GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
+function to obtain extended error information. The following are some common
+errors and their causes.
 
-<table>
-<tr>
-<th>Operating system</th>
-<th>Application</th>
-<th>Return value to compare</th>
-</tr>
-<tr>
-<td>Windows 7 and Windows Vista</td>
-<td>32-bit</td>
-<td>0x00000000FFFFFFFF</td>
-</tr>
-<tr>
-<td>Windows 7 and Windows Vista</td>
-<td>64-bit</td>
-<td>0XFFFFFFFFFFFFFFFF</td>
-</tr>
-<tr>
-<td>Windows XP and Windows Server 2003</td>
-<td>32- or 64-bit</td>
-<td>0XFFFFFFFFFFFFFFFF</td>
-</tr>
-</table>
- 
+- **ERROR_INVALID_PARAMETER**
 
-</div>
-<div> </div>
-If the function returns INVALID_PROCESSTRACE_HANDLE, you can use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to obtain extended error 
-       information. The following table lists some common errors and their causes.
+  The _Logfile_ parameter is **NULL**.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Logfile</i> parameter is <b>NULL</b>.
+- **ERROR_BAD_PATHNAME**
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_BAD_PATHNAME</b></dt>
-</dl>
-</td>
-<td width="60%">
-If you did not specify the <b>LoggerName</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>, you must specify a valid log file name.
+  If you did not specify the **LoggerName** member of
+  [EVENT_TRACE_LOGFILE](/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea),
+  you must specify a valid log file name.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Only users with administrative privileges, users in the Performance Log Users group, and services running 
-         as LocalSystem, LocalService, NetworkService can consume events in real time. To grant a restricted user the 
-         ability to consume events in real time, add them to the Performance Log Users group.
+- **ERROR_ACCESS_DENIED**
 
-<b>Windows XP and Windows 2000:  </b>Anyone can consume real time events.
+  Only users with administrative privileges, users in the Performance Log Users
+  group, and services running as LocalSystem, LocalService, NetworkService can
+  consume events in real time. To grant a restricted user the ability to consume
+  events in real time, add them to the Performance Log Users group.
 
-</td>
-</tr>
-</table>
- 
-
-
-
+  **Windows XP and Windows 2000:** Anyone can consume real time events.
 
 ## -remarks
 
+Trace consumers call this function to open a trace processing session.
 
+After calling **OpenTrace**, call the
+[ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace) function to
+process the events. When you have finished processing events, call the
+[CloseTrace](/windows/win32/api/evntrace/nf-evntrace-closetrace) function to
+close the trace processing handle.
 
-Consumers call this function.
+### Examples
 
-After calling <b>OpenTrace</b>, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function to process the events. When you have 
-    finished processing events, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a> 
-    function.
+For an example that uses **OpenTrace**, see
+[Using TdhFormatProperty to Consume Event Data](/windows/win32/etw/using-tdhformatproperty-to-consume-event-data).
 
-Note that you can process events from only one real-time session.
-
-Windows Vista and earlier: If the function fails it will returns INVALID_HANDLE_VALUE. To avoid 
-    compile-time errors, cast INVALID_HANDLE_VALUE to TRACEHANDLE as follows: 
-    <code>(TRACEHANDLE)INVALID_HANDLE_VALUE</code>.
-
-
-#### Examples
-
-For an example that uses <b>OpenTrace</b>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a> 
-     or <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
-
-<div class="code"></div>
-
-
+> [!NOTE]
+> The evntrace.h header defines OpenTrace as an alias which
+> automatically selects the ANSI or Unicode version of this function based on
+> the definition of the UNICODE preprocessor constant. Mixing usage of the
+> encoding-neutral alias with code that not encoding-neutral can lead to
+> mismatches that result in compilation or runtime errors. For more information,
+> see
+> [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+[CloseTrace](/windows/win32/api/evntrace/nf-evntrace-closetrace)
 
+[EVENT_TRACE_LOGFILE](/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea)
 
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
- 
-
- 
-
+[ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace)

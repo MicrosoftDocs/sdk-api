@@ -2,15 +2,12 @@
 UID: NF:ndhelper.INetDiagHelper.GetHigherHypotheses
 title: INetDiagHelper::GetHigherHypotheses (ndhelper.h)
 description: Generate hypotheses for possible causes of high utilization.
+helpviewer_keywords: ["GetHigherHypotheses","GetHigherHypotheses method [NDF]","GetHigherHypotheses method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetHigherHypotheses method","INetDiagHelper.GetHigherHypotheses","INetDiagHelper::GetHigherHypotheses","ndf.inetdiaghelpe_gethigherhypotheses","ndhelper/INetDiagHelper::GetHigherHypotheses"]
 old-location: ndf\inetdiaghelpe_gethigherhypotheses.htm
 tech.root: NDF
 ms.assetid: 608b1752-4bf9-4a7d-bc20-82d89b33b306
 ms.date: 12/05/2018
 ms.keywords: GetHigherHypotheses, GetHigherHypotheses method [NDF], GetHigherHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetHigherHypotheses method, INetDiagHelper.GetHigherHypotheses, INetDiagHelper::GetHigherHypotheses, ndf.inetdiaghelpe_gethigherhypotheses, ndhelper/INetDiagHelper::GetHigherHypotheses
-f1_keywords:
-- ndhelper/INetDiagHelper.GetHigherHypotheses
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelper.GetHigherHypotheses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelper::GetHigherHypotheses
+ - ndhelper/INetDiagHelper::GetHigherHypotheses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelper.GetHigherHypotheses
 ---
 
 # INetDiagHelper::GetHigherHypotheses
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetHigherHypotheses</b> method asks the Helper Class Extension to generate hypotheses for possible causes of high utilization in the local components that depend on it.
 
-
 ## -parameters
-
-
-
 
 ### -param pcelt [out]
 
 A pointer to a count of elements in the HYPOTHESIS array.
 
-
 ### -param pprgHypotheses [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a> structures.
-
+A pointer to an array of <a href="/windows/desktop/api/ndhelper/ns-ndhelper-hypothesis">HYPOTHESIS</a> structures.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -147,25 +140,10 @@ The diagnosis or repair operation has been canceled.
 
 Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
 
-
-
-
 ## -remarks
-
-
 
 This method is not required when building a Helper Class Extension.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

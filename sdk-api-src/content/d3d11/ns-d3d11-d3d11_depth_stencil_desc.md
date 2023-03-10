@@ -1,16 +1,13 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCIL_DESC
 title: D3D11_DEPTH_STENCIL_DESC (d3d11.h)
-description: Describes depth-stencil state.
+description: Describes depth-stencil state. (D3D11_DEPTH_STENCIL_DESC)
+helpviewer_keywords: ["36285118-9eb2-1ef6-7c18-5d5e3cdd5535","D3D11_DEPTH_STENCIL_DESC","D3D11_DEPTH_STENCIL_DESC structure [Direct3D 11]","d3d11/D3D11_DEPTH_STENCIL_DESC","direct3d11.d3d11_depth_stencil_desc"]
 old-location: direct3d11\d3d11_depth_stencil_desc.htm
 tech.root: direct3d11
 ms.assetid: 5e136ca8-8655-4c75-9bc0-bcf3a7af930a
 ms.date: 12/05/2018
 ms.keywords: 36285118-9eb2-1ef6-7c18-5d5e3cdd5535, D3D11_DEPTH_STENCIL_DESC, D3D11_DEPTH_STENCIL_DESC structure [Direct3D 11], d3d11/D3D11_DEPTH_STENCIL_DESC, direct3d11.d3d11_depth_stencil_desc
-f1_keywords:
-- d3d11/D3D11_DEPTH_STENCIL_DESC
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- D3D11_DEPTH_STENCIL_DESC
 targetos: Windows
 req.typenames: D3D11_DEPTH_STENCIL_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_DEPTH_STENCIL_DESC
+ - d3d11/D3D11_DEPTH_STENCIL_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - D3D11_DEPTH_STENCIL_DESC
 ---
 
 # D3D11_DEPTH_STENCIL_DESC structure
@@ -48,42 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes depth-stencil state.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DepthEnable
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Enable depth testing.
 
-
 ### -field DepthWriteMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_depth_write_mask">D3D11_DEPTH_WRITE_MASK</a></b>
+Type: <b><a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_depth_write_mask">D3D11_DEPTH_WRITE_MASK</a></b>
 
-Identify a portion of the depth-stencil buffer that can be modified by depth data (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_depth_write_mask">D3D11_DEPTH_WRITE_MASK</a>).
-
+Identify a portion of the depth-stencil buffer that can be modified by depth data (see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_depth_write_mask">D3D11_DEPTH_WRITE_MASK</a>).
 
 ### -field DepthFunc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a></b>
+Type: <b><a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a></b>
 
-A function that compares depth data against existing depth data. The function options are listed in <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a>.
-
+A function that compares depth data against existing depth data. The function options are listed in <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_comparison_func">D3D11_COMPARISON_FUNC</a>.
 
 ### -field StencilEnable
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Enable stencil testing.
-
 
 ### -field StencilReadMask
 
@@ -91,33 +84,27 @@ Type: <b>UINT8</b>
 
 Identify a portion of the depth-stencil buffer for reading stencil data.
 
-
 ### -field StencilWriteMask
 
 Type: <b>UINT8</b>
 
 Identify a portion of the depth-stencil buffer for writing stencil data.
 
-
 ### -field FrontFace
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a></b>
+Type: <b><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a></b>
 
-Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing towards the camera (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a>).
-
+Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing towards the camera (see <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a>).
 
 ### -field BackFace
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a></b>
+Type: <b><a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a></b>
 
-Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a>).
-
+Identify how to use the results of the depth test and the stencil test for pixels whose surface normal is facing away from the camera (see <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencilop_desc">D3D11_DEPTH_STENCILOP_DESC</a>).
 
 ## -remarks
 
-
-
-Pass a pointer to <b>D3D11_DEPTH_STENCIL_DESC</b> to the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdepthstencilstate">ID3D11Device::CreateDepthStencilState</a> method to create the depth-stencil state object.
+Pass a pointer to <b>D3D11_DEPTH_STENCIL_DESC</b> to the  <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdepthstencilstate">ID3D11Device::CreateDepthStencilState</a> method to create the depth-stencil state object.
 
 Depth-stencil state controls how depth-stencil testing is performed by the output-merger stage.
 
@@ -201,16 +188,6 @@ BackFace.StencilFailOp
 
 The formats that support stenciling are DXGI_FORMAT_D24_UNORM_S8_UINT and DXGI_FORMAT_D32_FLOAT_S8X24_UINT.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>

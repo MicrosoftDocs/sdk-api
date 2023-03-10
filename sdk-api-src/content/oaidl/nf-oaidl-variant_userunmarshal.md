@@ -1,16 +1,13 @@
 ---
 UID: NF:oaidl.VARIANT_UserUnmarshal
 title: VARIANT_UserUnmarshal function (oaidl.h)
-description: Unmarshals a VARIANT object from the RPC buffer.
+description: Unmarshals a VARIANT object from the RPC buffer. (VARIANT_UserUnmarshal)
+helpviewer_keywords: ["VARIANT_UserUnmarshal","VARIANT_UserUnmarshal function [Automation]","_oa96_VARIANT_UserUnmarshal","automat.variant_userunmarshal","oaidl/VARIANT_UserUnmarshal"]
 old-location: automat\variant_userunmarshal.htm
 tech.root: automat
 ms.assetid: ec7de7f3-f64a-4ec5-9b92-450bb7d6b37b
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserUnmarshal, VARIANT_UserUnmarshal function [Automation], _oa96_VARIANT_UserUnmarshal, automat.variant_userunmarshal, oaidl/VARIANT_UserUnmarshal
-f1_keywords:
-- oaidl/VARIANT_UserUnmarshal
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VARIANT_UserUnmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VARIANT_UserUnmarshal
+ - oaidl/VARIANT_UserUnmarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VARIANT_UserUnmarshal
 ---
 
 # VARIANT_UserUnmarshal function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Unmarshals a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object from the RPC buffer.
-
+Unmarshals a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object from the RPC buffer.
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 The object.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -144,7 +136,3 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
- 
-
-
-

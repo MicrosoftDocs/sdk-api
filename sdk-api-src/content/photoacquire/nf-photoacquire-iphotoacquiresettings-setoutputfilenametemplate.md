@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireSettings.SetOutputFilenameTemplate
 title: IPhotoAcquireSettings::SetOutputFilenameTemplate (photoacquire.h)
 description: The SetOutputFilenameTemplate method specifies a format string (template) that specifies the format of file names.
+helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetOutputFilenameTemplate method","IPhotoAcquireSettings.SetOutputFilenameTemplate","IPhotoAcquireSettings::SetOutputFilenameTemplate","IPhotoAcquireSettingsSetOutputFilenameTemplate","SetOutputFilenameTemplate","SetOutputFilenameTemplate method [Picture Acquisition]","SetOutputFilenameTemplate method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetOutputFilenameTemplate","picacq.iphotoacquiresettings_setoutputfilenametemplate"]
 old-location: picacq\iphotoacquiresettings_setoutputfilenametemplate.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 28eaeee4-05eb-4d51-9e21-937481bc7703
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetOutputFilenameTemplate method, IPhotoAcquireSettings.SetOutputFilenameTemplate, IPhotoAcquireSettings::SetOutputFilenameTemplate, IPhotoAcquireSettingsSetOutputFilenameTemplate, SetOutputFilenameTemplate, SetOutputFilenameTemplate method [Picture Acquisition], SetOutputFilenameTemplate method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetOutputFilenameTemplate, picacq.iphotoacquiresettings_setoutputfilenametemplate
-f1_keywords:
-- photoacquire/IPhotoAcquireSettings.SetOutputFilenameTemplate
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSettings.SetOutputFilenameTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSettings::SetOutputFilenameTemplate
+ - photoacquire/IPhotoAcquireSettings::SetOutputFilenameTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSettings.SetOutputFilenameTemplate
 ---
 
 # IPhotoAcquireSettings::SetOutputFilenameTemplate
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetOutputFilenameTemplate</code> method specifies a format string (template) that specifies the format of file names.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszTemplate [in]
 
 Pointer to a null-terminated string containing the format string.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Format strings contain a mix of path literals and tokens. A format string looks like the following:
 
@@ -153,9 +138,13 @@ Since these tokens are not intended to be visible to users, they will not be loc
 
 As an example, suppose <code>EventName</code> is "Meghan's Birthday" and the naming pattern is as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 $(MyPicturesFolder)\$(DateAcquired)$([, ]EventName)\$(EventName[ ])$(SequenceNumber).$(OriginalExtension)
-</code></pre>
+
+```
+
 The resulting files would be named as follows:
 
 C:\Documents and Settings\shauniv\My Documents\My Pictures\2003-11-14, Meghan's Birthday\Meghan's Birthday 001.jpg
@@ -166,20 +155,10 @@ C:\Documents and Settings\shauniv\My Documents\My Pictures\2003-11-14, Meghan's 
 
 C:\Documents and Settings\shauniv\My Documents\My Pictures\2003-11-14, Meghan's Birthday\Meghan's Birthday 004.jpg
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getoutputfilenametemplate">GetOutputFilenameTemplate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getoutputfilenametemplate">GetOutputFilenameTemplate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>

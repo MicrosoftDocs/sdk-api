@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLInstallProofOfPurchase
 title: SLInstallProofOfPurchase function (slpublic.h)
 description: Registers the product key with SL.
+helpviewer_keywords: ["SLInstallProofOfPurchase","SLInstallProofOfPurchase function [Security]","security.slinstallproofofpurchase","slpublic/SLInstallProofOfPurchase"]
 old-location: security\slinstallproofofpurchase.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: ea9efcf0-5146-4ede-8ec3-dc8617e34156
 ms.date: 12/05/2018
 ms.keywords: SLInstallProofOfPurchase, SLInstallProofOfPurchase function [Security], security.slinstallproofofpurchase, slpublic/SLInstallProofOfPurchase
-f1_keywords:
-- slpublic/SLInstallProofOfPurchase
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLInstallProofOfPurchase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLInstallProofOfPurchase
+ - slpublic/SLInstallProofOfPurchase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLInstallProofOfPurchase
 ---
 
 # SLInstallProofOfPurchase function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers the product key with SL.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pwszPKeyAlgorithm [in]
 
 Type: <b>PCWSTR</b>
 
 The product key algorithm.
-
 
 ### -param pwszPKeyString [in]
 
@@ -77,13 +72,11 @@ Type: <b>PCWSTR</b>
 
 The product key string.
 
-
 ### -param cbPKeySpecificData [in]
 
 Type: <b>UINT</b>
 
 The size, in bytes, of product key specific data. If there is no PKey specific data, set <i>cbPKeySpecificData</i> to 0.
-
 
 ### -param pbPKeySpecificData [in, optional]
 
@@ -91,17 +84,13 @@ Type: <b>PBYTE</b>
 
 A pointer to the product key specific data. If there is no PKey specific data, set <i>pbPKeySpecificData</i> to <b>NULL</b>.
 
-
 ### -param pPkeyId [out]
 
 Type: <b>SLID*</b>
 
 A pointer to an identifier of the registered product key. This <b>SLID</b> can be used to reference PKey information later.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -185,7 +174,4 @@ This specified product key can only be used for upgrading, not for clean install
 </td>
 </tr>
 </table>
- 
-
-
 

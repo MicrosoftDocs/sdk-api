@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontSet1.GetFontFaceReference
 title: IDWriteFontSet1::GetFontFaceReference
 description: Retrieves the font face reference of a single item.
+helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFontFaceReference method","IDWriteFontSet1.GetFontFaceReference","IDWriteFontSet1::GetFontFaceReference","GetFontFaceReference","GetFontFaceReference method [Direct Write]","GetFontFaceReference method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfontfacereference","dwrite_3/IDWriteFontSet1::GetFontFaceReference"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFontFaceReference method, IDWriteFontSet1.GetFontFaceReference, IDWriteFontSet1::GetFontFaceReference, GetFontFaceReference, GetFontFaceReference method [Direct Write], GetFontFaceReference method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfontfacereference, dwrite_3/IDWriteFontSet1::GetFontFaceReference
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.GetFontFaceReference
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::GetFontFaceReference
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::GetFontFaceReference
+ - dwrite_3/IDWriteFontSet1::GetFontFaceReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::GetFontFaceReference
 ---
 
 ## -description
@@ -56,9 +58,9 @@ Zero-based index of the font item in the set.
 
 ### -param fontFaceReference
 
-Type: **[IDWriteFontFaceReference1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1)\*\***
+Type: **[IDWriteFontFaceReference1](./nn-dwrite_3-idwritefontfacereference1.md)\*\***
 
-The address of a pointer to an [IDWriteFontFaceReference1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1) interface. On successful completion, the function sets the pointer to the font face reference.
+The address of a pointer to an [IDWriteFontFaceReference1](./nn-dwrite_3-idwritefontfacereference1.md) interface. On successful completion, the function sets the pointer to the font face reference.
 
 ## -returns
 

@@ -2,15 +2,12 @@
 UID: NE:dxgi1_5._DXGI_OFFER_RESOURCE_FLAGS
 title: DXGI_OFFER_RESOURCE_FLAGS (dxgi1_5.h)
 description: Specifies flags for the OfferResources1 method.
+helpviewer_keywords: ["DXGI_OFFER_RESOURCE_FLAGS","DXGI_OFFER_RESOURCE_FLAGS enumeration [DXGI]","DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT","direct3ddxgi.dxgi_offer_resource_flags","dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS","dxgi1_5/DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT"]
 old-location: direct3ddxgi\dxgi_offer_resource_flags.htm
 tech.root: direct3ddxgi
 ms.assetid: 55107136-60C0-49E9-8DD1-24878E67FCBB
 ms.date: 12/05/2018
 ms.keywords: DXGI_OFFER_RESOURCE_FLAGS, DXGI_OFFER_RESOURCE_FLAGS enumeration [DXGI], DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT, direct3ddxgi.dxgi_offer_resource_flags, dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS, dxgi1_5/DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT
-f1_keywords:
-- dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS
-dev_langs:
-- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxgi1_5.h
-api_name:
-- DXGI_OFFER_RESOURCE_FLAGS
 targetos: Windows
 req.typenames: DXGI_OFFER_RESOURCE_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXGI_OFFER_RESOURCE_FLAGS
+ - dxgi1_5/_DXGI_OFFER_RESOURCE_FLAGS
+ - DXGI_OFFER_RESOURCE_FLAGS
+ - dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxgi1_5.h
+api_name:
+ - DXGI_OFFER_RESOURCE_FLAGS
 ---
 
 # DXGI_OFFER_RESOURCE_FLAGS enumeration
@@ -48,28 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies flags for the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> method.
-
+Specifies flags for the <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1">OfferResources1</a> method.
 
 ## -enum-fields
 
+### -field DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT:0x1
 
-
-
-### -field DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT
-
-Indicates the ability to allow memory de-commit by the DirectX Graphics Kernel. 
-
-
+Indicates the ability to allow memory de-commit by the DirectX Graphics Kernel.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>

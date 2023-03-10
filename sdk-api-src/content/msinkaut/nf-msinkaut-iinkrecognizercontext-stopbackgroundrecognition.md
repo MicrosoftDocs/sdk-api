@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRecognizerContext.StopBackgroundRecognition
 title: IInkRecognizerContext::StopBackgroundRecognition (msinkaut.h)
 description: Ends background recognition that was started with a call to BackgroundRecognize or BackgroundRecognizeWithAlternates.
+helpviewer_keywords: ["25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0","IInkRecognizerContext","IInkRecognizerContext interface [Tablet PC]","StopBackgroundRecognition method","IInkRecognizerContext.StopBackgroundRecognition","IInkRecognizerContext::StopBackgroundRecognition","StopBackgroundRecognition","StopBackgroundRecognition method [Tablet PC]","StopBackgroundRecognition method [Tablet PC]","IInkRecognizerContext interface","msinkaut/IInkRecognizerContext::StopBackgroundRecognition","tablet.inkrecognizercontext_stopbackgroundrecognition"]
 old-location: tablet\inkrecognizercontext_stopbackgroundrecognition.htm
 tech.root: tablet
 ms.assetid: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0
 ms.date: 12/05/2018
 ms.keywords: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0, IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC],StopBackgroundRecognition method, IInkRecognizerContext.StopBackgroundRecognition, IInkRecognizerContext::StopBackgroundRecognition, StopBackgroundRecognition, StopBackgroundRecognition method [Tablet PC], StopBackgroundRecognition method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::StopBackgroundRecognition, tablet.inkrecognizercontext_stopbackgroundrecognition
-f1_keywords:
-- msinkaut/IInkRecognizerContext.StopBackgroundRecognition
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerContext.StopBackgroundRecognition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext::StopBackgroundRecognition
+ - msinkaut/IInkRecognizerContext::StopBackgroundRecognition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerContext.StopBackgroundRecognition
 ---
 
 # IInkRecognizerContext::StopBackgroundRecognition
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Ends background recognition that was started with a call to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize">BackgroundRecognize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates</a>.
-
-
-
-
-## -parameters
-
-
-
+Ends background recognition that was started with a call to <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize">BackgroundRecognize</a> or <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates</a>.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,35 +100,19 @@ An exception occurred inside method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 No event is fired if <b>StopBackgroundRecognition</b> is called.
 
-Call <b>StopBackgroundRecognition</b> if you call <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize">BackgroundRecognize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates</a> one or more times. Calling <b>StopBackgroundRecognition</b> does not necessarily ensure that you get no results from a recognition process that is currently under way. It only ensures that all previous calls to <b>BackgroundRecognize</b> or <b>BackgroundRecognizeWithAlternates</b> that have not yet been processed are actually not executed.
+Call <b>StopBackgroundRecognition</b> if you call <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognize">BackgroundRecognize</a> or <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-backgroundrecognizewithalternates">BackgroundRecognizeWithAlternates</a> one or more times. Calling <b>StopBackgroundRecognition</b> does not necessarily ensure that you get no results from a recognition process that is currently under way. It only ensures that all previous calls to <b>BackgroundRecognize</b> or <b>BackgroundRecognizeWithAlternates</b> that have not yet been processed are actually not executed.
 
 Call this method only if you process the ink asynchronously.
 
-
-
-
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkrecognizercontext.md">IInkRecognizerContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

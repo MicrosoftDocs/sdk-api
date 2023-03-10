@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateIdentity.get_RevisionNumber
 title: IUpdateIdentity::get_RevisionNumber (wuapi.h)
 description: Gets the revision number of an update.
+helpviewer_keywords: ["IUpdateIdentity interface [Windows Update Agent]","RevisionNumber property","IUpdateIdentity.RevisionNumber","IUpdateIdentity.get_RevisionNumber","IUpdateIdentity::RevisionNumber","IUpdateIdentity::get_RevisionNumber","RevisionNumber property [Windows Update Agent]","RevisionNumber property [Windows Update Agent]","IUpdateIdentity interface","get_RevisionNumber","wua.iupdateidentity_revisionnumber","wuapi/IUpdateIdentity::RevisionNumber","wuapi/IUpdateIdentity::get_RevisionNumber"]
 old-location: wua\iupdateidentity_revisionnumber.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 1d95a83f-52d9-49d1-a604-087aef449e9a
 ms.date: 12/05/2018
 ms.keywords: IUpdateIdentity interface [Windows Update Agent],RevisionNumber property, IUpdateIdentity.RevisionNumber, IUpdateIdentity.get_RevisionNumber, IUpdateIdentity::RevisionNumber, IUpdateIdentity::get_RevisionNumber, RevisionNumber property [Windows Update Agent], RevisionNumber property [Windows Update Agent],IUpdateIdentity interface, get_RevisionNumber, wua.iupdateidentity_revisionnumber, wuapi/IUpdateIdentity::RevisionNumber, wuapi/IUpdateIdentity::get_RevisionNumber
-f1_keywords:
-- wuapi/IUpdateIdentity.RevisionNumber
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateIdentity.RevisionNumber
-- IUpdateIdentity.get_RevisionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateIdentity::get_RevisionNumber
+ - wuapi/IUpdateIdentity::get_RevisionNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateIdentity.RevisionNumber
+ - IUpdateIdentity.get_RevisionNumber
 ---
 
 # IUpdateIdentity::get_RevisionNumber
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the revision number of an update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.SetVolumeLabelA
 title: SetVolumeLabelA function (winbase.h)
-description: Sets the label of a file system volume.
+description: Sets the label of a file system volume. (ANSI)
+helpviewer_keywords: ["SetVolumeLabelA", "winbase/SetVolumeLabelA"]
 old-location: fs\setvolumelabel.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
 ms.date: 12/05/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
-f1_keywords:
-- winbase/SetVolumeLabel
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- SetVolumeLabel
-- SetVolumeLabelA
-- SetVolumeLabelW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetVolumeLabelA
+ - winbase/SetVolumeLabelA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - SetVolumeLabel
+ - SetVolumeLabelA
+ - SetVolumeLabelW
 ---
 
 # SetVolumeLabelA function
@@ -59,14 +61,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the label of a file system volume.
 
-
 ## -parameters
-
-
-
 
 ### -param lpRootPathName [in, optional]
 
@@ -75,29 +72,20 @@ A pointer to a string that contains the volume's drive letter (for example, X:\)
       end with a trailing backslash ('\'). If this parameter is <b>NULL</b>, the root of the 
       current directory is used.
 
-
 ### -param lpVolumeName [in, optional]
 
 A pointer to a string that contains the new label for the volume. If this parameter is 
       <b>NULL</b>, the function deletes any existing label from the specified volume and does not 
       assign a new label.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The maximum volume label length is 32 characters.
 
@@ -105,7 +93,7 @@ The maximum volume label length is 32 characters.
 
 A label is a user-friendly name that a user assigns to a volume to make it easier to recognize. A volume can 
     have a label, a drive letter, both, or neither. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
+    <a href="/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -172,17 +160,14 @@ SMB does not support volume management functions.
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines SetVolumeLabel as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

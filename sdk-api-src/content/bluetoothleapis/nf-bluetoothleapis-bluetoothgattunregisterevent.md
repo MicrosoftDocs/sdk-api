@@ -2,15 +2,12 @@
 UID: NF:bluetoothleapis.BluetoothGATTUnregisterEvent
 title: BluetoothGATTUnregisterEvent function (bluetoothleapis.h)
 description: Unregisters the given characteristic value change event.
+helpviewer_keywords: ["BluetoothGATTUnregisterEvent","BluetoothGATTUnregisterEvent function [Bluetooth Devices]","bltooth.bluetoothgattunregisterevent","bluetoothleapis/BluetoothGATTUnregisterEvent"]
 old-location: bltooth\bluetoothgattunregisterevent.htm
 tech.root: bltooth
 ms.assetid: 4E0E8D6C-DC12-4F15-9D29-B38AE680894B
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTUnregisterEvent, BluetoothGATTUnregisterEvent function [Bluetooth Devices], bltooth.bluetoothgattunregisterevent, bluetoothleapis/BluetoothGATTUnregisterEvent
-f1_keywords:
-- bluetoothleapis/BluetoothGATTUnregisterEvent
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTUnregisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTUnregisterEvent
+ - bluetoothleapis/BluetoothGATTUnregisterEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTUnregisterEvent
 ---
 
 # BluetoothGATTUnregisterEvent function
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothGATTUnregisterEvent</b> function unregisters the given characteristic value change event.
-
 
 ## -parameters
 
-
-
-
 ### -param EventHandle [in]
 
-Handle returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>.
-
+Handle returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>.
 
 ### -param Flags [in]
 
@@ -83,12 +79,8 @@ The client does not have specific GATT requirements (default).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>BluetoothGATTUnregisterEvent</b> returns the following values:
 
@@ -131,18 +123,7 @@ A parameter was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>

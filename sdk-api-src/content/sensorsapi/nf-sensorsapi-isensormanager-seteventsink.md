@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorManager.SetEventSink
 title: ISensorManager::SetEventSink (sensorsapi.h)
 description: Specifies the interface through which to receive sensor manager event notifications.
+helpviewer_keywords: ["ISensorManager interface","SetEventSink method","ISensorManager.SetEventSink","ISensorManager::SetEventSink","SetEventSink","SetEventSink method","SetEventSink method","ISensorManager interface","sensorsapi/ISensorManager::SetEventSink","winsensors_com_ref.isensormanager_seteventsink"]
 old-location: winsensors_com_ref\isensormanager_seteventsink.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 270f0943-dc6a-47df-b1bd-ecfbfcafc4c8
 ms.date: 12/05/2018
 ms.keywords: ISensorManager interface,SetEventSink method, ISensorManager.SetEventSink, ISensorManager::SetEventSink, SetEventSink, SetEventSink method, SetEventSink method,ISensorManager interface, sensorsapi/ISensorManager::SetEventSink, winsensors_com_ref.isensormanager_seteventsink
-f1_keywords:
-- sensorsapi/ISensorManager.SetEventSink
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorManager.SetEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorManager::SetEventSink
+ - sensorsapi/ISensorManager::SetEventSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorManager.SetEventSink
 ---
 
 # ISensorManager::SetEventSink
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the interface through which to receive sensor manager event notifications.
-
 
 ## -parameters
 
-
-
-
 ### -param pEvents [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents">ISensorManagerEvents</a> callback interface that receives the event notifications. Set to <b>NULL</b> to stop receiving event notifications.
-
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents">ISensorManagerEvents</a> callback interface that receives the event notifications. Set to <b>NULL</b> to stop receiving event notifications.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>

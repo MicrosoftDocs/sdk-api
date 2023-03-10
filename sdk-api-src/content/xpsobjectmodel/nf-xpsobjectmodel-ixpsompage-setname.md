@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPage.SetName
 title: IXpsOMPage::SetName (xpsobjectmodel.h)
 description: Sets the Name property of this page.
+helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetName method","IXpsOMPage.SetName","IXpsOMPage::SetName","SetName","SetName method [XPS Documents and Packaging]","SetName method [XPS Documents and Packaging]","IXpsOMPage interface","xps.ixpsompage_setname","xpsobjectmodel/IXpsOMPage::SetName"]
 old-location: xps\ixpsompage_setname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 675e4fd2-e8b9-400f-9042-df5b0bb0b89a
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetName method, IXpsOMPage.SetName, IXpsOMPage::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setname, xpsobjectmodel/IXpsOMPage::SetName
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.SetName
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::SetName
+ - xpsobjectmodel/IXpsOMPage::SetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.SetName
 ---
 
 # IXpsOMPage::SetName
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <b>Name</b> property of this page.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 A pointer to the name string to be set as the page's <b>Name</b> property. A <b>NULL</b> pointer clears any previously assigned name.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,35 +90,19 @@ The name string contains a character that is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>Name</b> property identifies the current page as a named, addressable point in a document, allowing the page to be referenced by a hyperlink.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

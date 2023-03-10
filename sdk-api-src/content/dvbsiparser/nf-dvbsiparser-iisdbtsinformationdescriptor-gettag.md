@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetTag
 title: IIsdbTSInformationDescriptor::GetTag (dvbsiparser.h)
 description: Receives the tag that identifies an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbTSInformationDescriptor interface","IIsdbTSInformationDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbTSInformationDescriptor.GetTag","IIsdbTSInformationDescriptor::GetTag","dvbsiparser/IIsdbTSInformationDescriptor::GetTag","mstv.iisdbtsinformationdescriptor_gettag"]
 old-location: mstv\iisdbtsinformationdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 77a7b225-2e7e-4fa2-a8f0-a5f18850cde6
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbTSInformationDescriptor.GetTag, IIsdbTSInformationDescriptor::GetTag, dvbsiparser/IIsdbTSInformationDescriptor::GetTag, mstv.iisdbtsinformationdescriptor_gettag
-f1_keywords:
-- dvbsiparser/IIsdbTSInformationDescriptor.GetTag
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbTSInformationDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbTSInformationDescriptor::GetTag
+ - dvbsiparser/IIsdbTSInformationDescriptor::GetTag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbTSInformationDescriptor.GetTag
 ---
 
 # IIsdbTSInformationDescriptor::GetTag
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives the tag that identifies an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the tag value. For ISDB TS information descriptors, this value is 0xCD.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbtsinformationdescriptor">IIsdbTSInformationDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbtsinformationdescriptor">IIsdbTSInformationDescriptor</a>

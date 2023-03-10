@@ -1,16 +1,13 @@
 ---
 UID: NF:winnetwk.WNetCancelConnection2W
 title: WNetCancelConnection2W function (winnetwk.h)
-description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.
+description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected. (Unicode)
+helpviewer_keywords: ["0", "CONNECT_UPDATE_PROFILE", "WNetCancelConnection2", "WNetCancelConnection2 function [Windows Networking (WNet)]", "WNetCancelConnection2W", "_win32_wnetcancelconnection2", "winnetwk/WNetCancelConnection2", "winnetwk/WNetCancelConnection2W", "wnet.wnetcancelconnection2"]
 old-location: wnet\wnetcancelconnection2.htm
 tech.root: WNet
 ms.assetid: 8bb8222f-6ede-4bf4-a6e4-681560cce162
 ms.date: 12/05/2018
 ms.keywords: 0, CONNECT_UPDATE_PROFILE, WNetCancelConnection2, WNetCancelConnection2 function [Windows Networking (WNet)], WNetCancelConnection2A, WNetCancelConnection2W, _win32_wnetcancelconnection2, winnetwk/WNetCancelConnection2, winnetwk/WNetCancelConnection2A, winnetwk/WNetCancelConnection2W, wnet.wnetcancelconnection2
-f1_keywords:
-- winnetwk/WNetCancelConnection2
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetCancelConnection2
-- WNetCancelConnection2A
-- WNetCancelConnection2W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetCancelConnection2W
+ - winnetwk/WNetCancelConnection2W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetCancelConnection2
+ - WNetCancelConnection2A
+ - WNetCancelConnection2W
 ---
 
 # WNetCancelConnection2W function
@@ -50,19 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetCancelConnection2</b> function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.
 
 The 
 <b>WNetCancelConnection2</b> function supersedes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WNetCancelConnection</a> function.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnectiona">WNetCancelConnection</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
@@ -72,7 +69,6 @@ Pointer to a constant <b>null</b>-terminated string that specifies the name of e
 
 
 If  this parameter specifies a redirected local device, the function cancels only the specified device redirection. If the parameter specifies a remote network resource, all connections without devices are canceled.
-
 
 ### -param dwFlags [in]
 
@@ -116,22 +112,17 @@ The system will not restore this connection during subsequent logon operations. 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fForce [in]
 
 Specifies whether the disconnection should occur if there are open files or jobs on the connection. If this parameter is <b>FALSE</b>, the function fails if there are open files or jobs.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -179,7 +170,7 @@ The device is in use by an active process and cannot be disconnected.
 </td>
 <td width="60%">
 A network-specific error occurred. To obtain a description of the error, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
 
 </td>
 </tr>
@@ -206,57 +197,48 @@ There are open files, and the <i>fForce</i> parameter is <b>FALSE</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Server 2003 and Windows XP:  </b>The WNet functions create and delete network drive letters in the MS-DOS device namespace associated with a logon session because MS-DOS devices are identified by AuthenticationID. (An AuthenticationID is the 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. <b>GetLogicalDrives</b> does not return network drive letters created by a WNet function under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
+<a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. <b>GetLogicalDrives</b> does not return network drive letters created by a WNet function under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
+<a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 
 #### Examples
 
 For a code sample that illustrates how to cancel a connection to a network resource with a call to the 
 <b>WNetCancelConnection2</b> function, see 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/canceling-a-network-connection">Canceling a Network Connection</a>.
+<a href="/windows/desktop/WNet/canceling-a-network-connection">Canceling a Network Connection</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The winnetwk.h header defines WNetCancelConnection2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:wtsapi32.WTSSendMessageW
 title: WTSSendMessageW function (wtsapi32.h)
-description: Displays a message box on the client desktop of a specified Remote Desktop Services session.
+description: Displays a message box on the client desktop of a specified Remote Desktop Services session. (Unicode)
+helpviewer_keywords: ["IDABORT", "IDASYNC", "IDCANCEL", "IDCONTINUE", "IDIGNORE", "IDNO", "IDOK", "IDRETRY", "IDTIMEOUT", "IDTRYAGAIN", "IDYES", "WTSSendMessage", "WTSSendMessage function [Remote Desktop Services]", "WTSSendMessageW", "_win32_wtssendmessage", "termserv.wtssendmessage", "wtsapi32/WTSSendMessage", "wtsapi32/WTSSendMessageW"]
 old-location: termserv\wtssendmessage.htm
 tech.root: TermServ
 ms.assetid: 4c70bc93-00b1-46ed-947d-b3cf61a5aca4
 ms.date: 12/05/2018
 ms.keywords: IDABORT, IDASYNC, IDCANCEL, IDCONTINUE, IDIGNORE, IDNO, IDOK, IDRETRY, IDTIMEOUT, IDTRYAGAIN, IDYES, WTSSendMessage, WTSSendMessage function [Remote Desktop Services], WTSSendMessageA, WTSSendMessageW, _win32_wtssendmessage, termserv.wtssendmessage, wtsapi32/WTSSendMessage, wtsapi32/WTSSendMessageA, wtsapi32/WTSSendMessageW
-f1_keywords:
-- wtsapi32/WTSSendMessage
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-api_name:
-- WTSSendMessage
-- WTSSendMessageA
-- WTSSendMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSSendMessageW
+ - wtsapi32/WTSSendMessageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+api_name:
+ - WTSSendMessage
+ - WTSSendMessageA
+ - WTSSendMessageW
 ---
 
 # WTSSendMessageW function
@@ -50,63 +52,51 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a message box on the client desktop of a 
     specified Remote Desktop Services session.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
 A handle to an RD Session Host server. Specify a handle opened by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
        <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application 
        is running.
-
 
 ### -param SessionId [in]
 
 A Remote Desktop Services session identifier. To indicate the current session, specify 
       <b>WTS_CURRENT_SESSION</b>. You can use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
       the identifiers of all sessions on a specified RD Session Host server.
 
 To send a message to another user's session, you need to have the Message permission. For more 
-       information, see <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services  
+       information, see <a href="/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services  
        Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration administrative 
        tool.
-
 
 ### -param pTitle [in]
 
 A pointer to a null-terminated string for the title bar of the message box.
 
-
 ### -param TitleLength [in]
 
 The length, in bytes, of the title bar string.
-
 
 ### -param pMessage [in]
 
 A pointer to a null-terminated string that contains the message to display.
 
-
 ### -param MessageLength [in]
 
 The length, in bytes, of the message string.
-
 
 ### -param Style [in]
 
 The contents and behavior of the message box. This value is typically 
       <b>MB_OK</b>. For a complete list of values, see the <i>uType</i> 
-      parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function.
-
+      parameter of the <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function.
 
 ### -param Timeout [in]
 
@@ -115,7 +105,6 @@ The time, in seconds, that the <b>WTSSendMessage</b> function waits for
       <i>pResponse</i> parameter returns <b>IDTIMEOUT</b>. If the 
       <i>Timeout</i> parameter is zero, <b>WTSSendMessage</b> waits 
       indefinitely for the user to respond.
-
 
 ### -param pResponse [out]
 
@@ -189,7 +178,6 @@ The <i>bWait</i> parameter was <b>FALSE</b>, so the function
 The <i>bWait</i> parameter was <b>TRUE</b> and the time-out 
         interval elapsed.
 
-
 ### -param bWait [in]
 
 If <b>TRUE</b>, <b>WTSSendMessage</b> does not return until 
@@ -258,26 +246,18 @@ The <i>bWait</i> parameter was <b>TRUE</b> and the time-out
 
 <b>Yes</b>
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a>
- 
-
- 
-
+> [!NOTE]
+> The wtsapi32.h header defines WTSSendMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NF:commctrl.Header_Layout
 title: Header_Layout macro (commctrl.h)
 description: Retrieves the correct size and position of a header control within the parent window. You can use this macro or send the HDM_LAYOUT message explicitly.
+helpviewer_keywords: ["Header_Layout","Header_Layout macro [Windows Controls]","_win32_Header_Layout","_win32_Header_Layout_cpp","commctrl/Header_Layout","controls.Header_Layout","controls._win32_Header_Layout"]
 old-location: controls\Header_Layout.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_layout.htm
 ms.date: 12/05/2018
 ms.keywords: Header_Layout, Header_Layout macro [Windows Controls], _win32_Header_Layout, _win32_Header_Layout_cpp, commctrl/Header_Layout, controls.Header_Layout, controls._win32_Header_Layout
-f1_keywords:
-- commctrl/Header_Layout
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Header_Layout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Header_Layout
+ - commctrl/Header_Layout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Header_Layout
 ---
 
 # Header_Layout macro
@@ -48,41 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the correct size and position of a header control within the parent window. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-layout">HDM_LAYOUT</a> message explicitly. 
-
+Retrieves the correct size and position of a header control within the parent window. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-layout">HDM_LAYOUT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndHD [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the header control. 
-
+A handle to the header control.
 
 ### -param playout [out]
 
 Type: <b>LPHDLAYOUT</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-hdlayout">HDLAYOUT</a> structure. The 
+A pointer to an <a href="/windows/win32/api/commctrl/ns-commctrl-hdlayout">HDLAYOUT</a> structure. The 
 					<b>prc</b> member specifies the coordinates of a rectangle, and the 
-					<b>pwpos</b> member receives the size and position for the header control within the rectangle. 
-
+					<b>pwpos</b> member receives the size and position for the header control within the rectangle.
 
 ## -remarks
 
-
-
 The <b>Header_Layout</b> macro is defined as follows: 
 
-<pre class="syntax" xml:space="preserve"><code>#define Header_Layout(hwndHD, playout) \
+
+``` syntax
+#define Header_Layout(hwndHD, playout) \
 
     (BOOL)SendMessage((hwndHD), HDM_LAYOUT, 0, \
 
-    (LPARAM)(LPHDLAYOUT)(playout))</code></pre>
-
+    (LPARAM)(LPHDLAYOUT)(playout))
+```
 

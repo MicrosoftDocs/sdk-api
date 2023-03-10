@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.DrawInstanced
 title: ID3D12GraphicsCommandList::DrawInstanced (d3d12.h)
 description: Draws non-indexed, instanced primitives.
+helpviewer_keywords: ["DrawInstanced","DrawInstanced method","DrawInstanced method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","DrawInstanced method","ID3D12GraphicsCommandList.DrawInstanced","ID3D12GraphicsCommandList::DrawInstanced","d3d12/ID3D12GraphicsCommandList::DrawInstanced","direct3d12.id3d12graphicscommandlist_drawinstanced"]
 old-location: direct3d12\id3d12graphicscommandlist_drawinstanced.htm
 tech.root: direct3d12
 ms.assetid: BB10C732-1F42-417D-ADDE-55E870AD5FE9
 ms.date: 12/05/2018
 ms.keywords: DrawInstanced, DrawInstanced method, DrawInstanced method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DrawInstanced method, ID3D12GraphicsCommandList.DrawInstanced, ID3D12GraphicsCommandList::DrawInstanced, d3d12/ID3D12GraphicsCommandList::DrawInstanced, direct3d12.id3d12graphicscommandlist_drawinstanced
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.DrawInstanced
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.DrawInstanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::DrawInstanced
+ - d3d12/ID3D12GraphicsCommandList::DrawInstanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.DrawInstanced
 ---
 
 # ID3D12GraphicsCommandList::DrawInstanced
@@ -48,60 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws non-indexed, instanced primitives.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param VertexCountPerInstance [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of vertices to draw.
-          
-
 
 ### -param InstanceCount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of instances to draw.
-          
-
 
 ### -param StartVertexLocation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index of the first vertex.
-          
-
 
 ### -param StartInstanceLocation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A value added to each index before reading per-instance data from a vertex buffer.
-          
-
-
-## -returns
-
-
-
-Returns nothing
-
-
-
 
 ## -remarks
-
-
 
 A draw API submits work to the rendering pipeline.
         
@@ -117,7 +94,7 @@ The vertex data for an instanced draw call typically comes from a vertex buffer 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::DrawInstanced</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::DrawInstanced</b> as follows:
         
 
 
@@ -179,20 +156,11 @@ void D3D12HelloTriangle::PopulateCommandList()
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

@@ -2,15 +2,12 @@
 UID: NN:subscriptionservices.IWMPSubscriptionServiceCallback
 title: IWMPSubscriptionServiceCallback (subscriptionservices.h)
 description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPSubscriptionServiceCallback","IWMPSubscriptionServiceCallback interface [Windows Media Player]","IWMPSubscriptionServiceCallback interface [Windows Media Player]","described","IWMPSubscriptionServiceCallbackInterface","subscriptionservices/IWMPSubscriptionServiceCallback","wmp.iwmpsubscriptionservicecallback"]
 old-location: wmp\iwmpsubscriptionservicecallback.htm
 tech.root: WMP
 ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
-f1_keywords:
-- subscriptionservices/IWMPSubscriptionServiceCallback
-dev_langs:
-- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- subscriptionservices.h
-api_name:
-- IWMPSubscriptionServiceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSubscriptionServiceCallback
+ - subscriptionservices/IWMPSubscriptionServiceCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - subscriptionservices.h
+api_name:
+ - IWMPSubscriptionServiceCallback
 ---
 
 # IWMPSubscriptionServiceCallback interface
@@ -48,49 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>IWMPSubscriptionServicesCallback</b> interface defines a method that online stores use to notify Windows Media Player when a background process has completed.
 
-
-
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSubscriptionServiceCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSubscriptionServiceCallback</b> also has these types of members:
+The <b>IWMPSubscriptionServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPSubscriptionServiceCallback</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWMPSubscriptionServiceCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservicecallback-oncomplete">onComplete</a>
-</td>
-<td align="left" width="63%">
-Notifies the Player when a background process is completed.
-
-</td>
-</tr>
-</table> 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>

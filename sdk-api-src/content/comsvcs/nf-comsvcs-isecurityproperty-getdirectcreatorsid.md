@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ISecurityProperty.GetDirectCreatorSID
 title: ISecurityProperty::GetDirectCreatorSID (comsvcs.h)
 description: In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.
+helpviewer_keywords: ["GetDirectCreatorSID","GetDirectCreatorSID method [COM+]","GetDirectCreatorSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetDirectCreatorSID method","ISecurityProperty.GetDirectCreatorSID","ISecurityProperty::GetDirectCreatorSID","_cos_ISecurityProperty_GetDirectCreatorSID","comsvcs/ISecurityProperty::GetDirectCreatorSID","cos.isecurityproperty_getdirectcreatorsid"]
 old-location: cos\isecurityproperty_getdirectcreatorsid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: cd06e71b-563a-45d2-91fb-f57375016dc3
 ms.date: 12/05/2018
 ms.keywords: GetDirectCreatorSID, GetDirectCreatorSID method [COM+], GetDirectCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCreatorSID method, ISecurityProperty.GetDirectCreatorSID, ISecurityProperty::GetDirectCreatorSID, _cos_ISecurityProperty_GetDirectCreatorSID, comsvcs/ISecurityProperty::GetDirectCreatorSID, cos.isecurityproperty_getdirectcreatorsid
-f1_keywords:
-- comsvcs/ISecurityProperty.GetDirectCreatorSID
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISecurityProperty.GetDirectCreatorSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityProperty::GetDirectCreatorSID
+ - comsvcs/ISecurityProperty::GetDirectCreatorSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISecurityProperty.GetDirectCreatorSID
 ---
 
 # ISecurityProperty::GetDirectCreatorSID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.
 
-
 ## -parameters
-
-
-
 
 ### -param pSID [out]
 
 A reference to the security ID of the process that directly created the current object.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -96,22 +90,11 @@ The current object does not have a context associated with it because either the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>

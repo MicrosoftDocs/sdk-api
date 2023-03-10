@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerWritePossibleFriendlyName
 title: PowerWritePossibleFriendlyName function (powrprof.h)
 description: Sets the friendly name for the specified possible setting of a power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWritePossibleFriendlyName","PowerWritePossibleFriendlyName function","base.powerwritepossiblefriendlyname","powrprof/PowerWritePossibleFriendlyName"]
 old-location: base\powerwritepossiblefriendlyname.htm
-tech.root: power
+tech.root: base
 ms.assetid: 981e813b-f3c8-44d2-ac1f-ca74f4795c85
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWritePossibleFriendlyName, PowerWritePossibleFriendlyName function, base.powerwritepossiblefriendlyname, powrprof/PowerWritePossibleFriendlyName
-f1_keywords:
-- powrprof/PowerWritePossibleFriendlyName
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerWritePossibleFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerWritePossibleFriendlyName
+ - powrprof/PowerWritePossibleFriendlyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerWritePossibleFriendlyName
 ---
 
 # PowerWritePossibleFriendlyName function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the friendly name for the specified possible setting of a power setting.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -161,56 +157,33 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ### -param PossibleSettingIndex [in]
 
 The zero-based index for the possible setting.
-
 
 ### -param Buffer [in]
 
 The friendly name, in wide (Unicode) characters.
 
-
 ### -param BufferSize [in]
 
 The size of the buffer pointed to by the <i>Buffer</i> parameter.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
 
-
-
-
 ## -remarks
 
-
-
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
-
-
-
+       <a href="/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

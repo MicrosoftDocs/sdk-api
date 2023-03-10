@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdateStart
 title: IMFSourceBufferNotify::OnUpdateStart (mfmediaengine.h)
 description: Used to indicate that the source buffer has started updating.
+helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnUpdateStart method","IMFSourceBufferNotify.OnUpdateStart","IMFSourceBufferNotify::OnUpdateStart","OnUpdateStart","OnUpdateStart method [Media Foundation]","OnUpdateStart method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onupdatestart","mfmediaengine/IMFSourceBufferNotify::OnUpdateStart"]
 old-location: mf\imfsourcebuffernotify_onupdatestart.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 513ef55d-756e-4ae3-b312-6a4178bc2f42
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdateStart method, IMFSourceBufferNotify.OnUpdateStart, IMFSourceBufferNotify::OnUpdateStart, OnUpdateStart, OnUpdateStart method [Media Foundation], OnUpdateStart method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdatestart, mfmediaengine/IMFSourceBufferNotify::OnUpdateStart
-f1_keywords:
-- mfmediaengine/IMFSourceBufferNotify.OnUpdateStart
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBufferNotify.OnUpdateStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBufferNotify::OnUpdateStart
+ - mfmediaengine/IMFSourceBufferNotify::OnUpdateStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBufferNotify.OnUpdateStart
 ---
 
 # IMFSourceBufferNotify::OnUpdateStart
@@ -48,33 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to indicate that the source buffer has started updating.
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>

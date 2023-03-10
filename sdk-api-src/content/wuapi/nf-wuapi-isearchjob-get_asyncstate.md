@@ -2,15 +2,12 @@
 UID: NF:wuapi.ISearchJob.get_AsyncState
 title: ISearchJob::get_AsyncState (wuapi.h)
 description: Gets the caller-specific state object that is passed to the IUpdateSearch.BeginSearch method.
+helpviewer_keywords: ["AsyncState property [Windows Update Agent]","AsyncState property [Windows Update Agent]","ISearchJob interface","ISearchJob interface [Windows Update Agent]","AsyncState property","ISearchJob.AsyncState","ISearchJob.get_AsyncState","ISearchJob::AsyncState","ISearchJob::get_AsyncState","get_AsyncState","wua.isearchjob_asyncstate","wuapi/ISearchJob::AsyncState","wuapi/ISearchJob::get_AsyncState"]
 old-location: wua\isearchjob_asyncstate.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 68d861a3-420d-4a89-ac32-900db6d51036
 ms.date: 12/05/2018
 ms.keywords: AsyncState property [Windows Update Agent], AsyncState property [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],AsyncState property, ISearchJob.AsyncState, ISearchJob.get_AsyncState, ISearchJob::AsyncState, ISearchJob::get_AsyncState, get_AsyncState, wua.isearchjob_asyncstate, wuapi/ISearchJob::AsyncState, wuapi/ISearchJob::get_AsyncState
-f1_keywords:
-- wuapi/ISearchJob.AsyncState
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISearchJob.AsyncState
-- ISearchJob.get_AsyncState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchJob::get_AsyncState
+ - wuapi/ISearchJob::get_AsyncState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISearchJob.AsyncState
+ - ISearchJob.get_AsyncState
 ---
 
 # ISearchJob::get_AsyncState
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the caller-specific state object that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearch.BeginSearch</a> method.
+Gets the caller-specific state object that is passed to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">IUpdateSearch.BeginSearch</a> method.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>

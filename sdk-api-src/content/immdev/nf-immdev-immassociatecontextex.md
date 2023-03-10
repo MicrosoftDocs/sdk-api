@@ -1,16 +1,13 @@
 ---
 UID: NF:immdev.ImmAssociateContextEx
 title: ImmAssociateContextEx function (immdev.h)
-description: Changes the association between the input method context and the specified window or its children.
+description: The ImmAssociateContextEx function (immdev.h) changes the association between the input method context and the specified window or its children.
+helpviewer_keywords: ["IACE_CHILDREN","IACE_DEFAULT","IACE_IGNORENOCONTEXT","ImmAssociateContextEx","ImmAssociateContextEx function [Internationalization for Windows Applications]","_win32_ImmAssociateContextEx","imm/ImmAssociateContextEx","intl.immassociatecontextex"]
 old-location: intl\immassociatecontextex.htm
 tech.root: Intl
 ms.assetid: 7f44d274-b5e9-4feb-acd6-5c68b3f7d868
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
-f1_keywords:
-- immdev/ImmAssociateContextEx
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- imm32.dll
-- Ext-MS-Win-imm-l1-1-0.dll
-- ext-ms-win-imm-l1-1-1.dll
-api_name:
-- ImmAssociateContextEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmAssociateContextEx
+ - immdev/ImmAssociateContextEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - imm32.dll
+ - Ext-MS-Win-imm-l1-1-0.dll
+ - ext-ms-win-imm-l1-1-1.dll
+api_name:
+ - ImmAssociateContextEx
 ---
 
 # ImmAssociateContextEx function
@@ -50,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the association between the input method context and the specified window or its children.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the window to associate with the input context.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Handle to the input method context.
 
-
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Flags specifying the type of association between the window and the input method context. This parameter can have one of the following values.
 
@@ -109,40 +104,21 @@ Do not associate the input method context with windows that are not associated w
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 If the application calls this function with IACE_CHILDREN, the operating system associates the specified input method context with child windows of the window indicated by <i>hWnd</i>. It associates the input method context only with child windows of the thread that creates <i>hWnd</i>. Any child window that is created after this function has been called will not be affected. Instead, the default input method context will be associated with it.
 
 If the application calls this function with IACE_DEFAULT, the operating system restores the default input method context for the window. In this case, the <i>hIMC</i> parameter is ignored.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

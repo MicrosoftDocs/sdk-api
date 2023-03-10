@@ -2,15 +2,12 @@
 UID: NF:winuser.SetDisplayConfig
 title: SetDisplayConfig function (winuser.h)
 description: The SetDisplayConfig function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.
+helpviewer_keywords: ["CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml","SetDisplayConfig","SetDisplayConfig function [Display Devices]","display.setdisplayconfig","winuser/SetDisplayConfig"]
 old-location: display\setdisplayconfig.htm
 tech.root: display
 ms.assetid: 9f649fa0-ffb2-44c6-9a66-049f888e3b04
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayConfig, SetDisplayConfig function [Display Devices], display.setdisplayconfig, winuser/SetDisplayConfig
-f1_keywords:
-- winuser/SetDisplayConfig
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
-- MinUser.dll
-api_name:
-- SetDisplayConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetDisplayConfig
+ - winuser/SetDisplayConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+ - MinUser.dll
+api_name:
+ - SetDisplayConfig
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetDisplayConfig function
@@ -50,130 +53,209 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetDisplayConfig</b> function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.
 
-
 ## -parameters
-
-
-
 
 ### -param numPathArrayElements [in]
 
 Number of elements in <i>pathArray</i>.
 
-
 ### -param pathArray [in, optional]
 
-Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/path-priority-order">Path Priority Order</a>. 
-
+Array of all display paths that are to be set. Only the paths within this array that have the DISPLAYCONFIG_PATH_ACTIVE flag set in the <b>flags</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a> are set. This parameter can be <b>NULL</b>. The order in which active paths appear in this array determines the path priority. For more information about path priority order, see <a href="/windows-hardware/drivers/display/path-priority-order">Path Priority Order</a>.
 
 ### -param numModeInfoArrayElements [in]
 
 Number of elements in <i>modeInfoArray</i>.
 
-
 ### -param modeInfoArray [in, optional]
 
-Array of display source and target mode information (<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>. 
-
+Array of display source and target mode information (<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>) that is referenced by the <b>modeInfoIdx</b> member of DISPLAYCONFIG_PATH_SOURCE_INFO and DISPLAYCONFIG_PATH_TARGET_INFO element of path information from <i>pathArray</i>. This parameter can be <b>NULL</b>.
 
 ### -param flags [in]
 
-A bitwise OR of flag values that indicates the behavior of this function. This parameter can be one the following values, or a combination of the following values; 0 is not valid.
+A bitwise OR of flag values that indicates the behavior of this function. This parameter can be one the following values, or a combination of the following values; 0 is not valid. See below for a description of valid flag combinations.
 
 
-
-
-
-#### SDC_APPLY
-
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_APPLY"></a><a id="sdc_apply"></a><dl>
+<dt><b>SDC_APPLY</b></dt>
+<dt>0x00000080</dt>
+</dl>
+</td>
+<td width="60%">
 The resulting topology, source, and target mode is set.
-
-
-
-#### SDC_NO_OPTIMIZATION
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_NO_OPTIMIZATION"></a><a id="sdc_no_optimization"></a><dl>
+<dt><b>SDC_NO_OPTIMIZATION</b></dt>
+<dt>0x00000100</dt>
+</dl>
+</td>
+<td width="60%">
 A modifier to the SDC_APPLY flag. This causes the change mode to be forced all the way down to the driver for each active display.
-
-
-
-#### SDC_USE_SUPPLIED_DISPLAY_CONFIG
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_USE_SUPPLIED_DISPLAY_CONFIG"></a><a id="sdc_use_supplied_display_config"></a><dl>
+<dt><b>SDC_USE_SUPPLIED_DISPLAY_CONFIG</b></dt>
+<dt>0x00000020</dt>
+</dl>
+</td>
+<td width="60%">
 The topology, source, and target mode information that are supplied in the <i>pathArray</i> and the <i>modeInfoArray</i> parameters are used, rather than looking up the configuration in the database.
-
-
-
-#### SDC_SAVE_TO_DATABASE
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_SAVE_TO_DATABASE"></a><a id="sdc_save_to_database"></a><dl>
+<dt><b>SDC_SAVE_TO_DATABASE</b></dt>
+<dt>0x00000200</dt>
+</dl>
+</td>
+<td width="60%">
 The resulting topology, source, and target mode are saved to the database.
-
-
-
-#### SDC_VALIDATE
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_VALIDATE"></a><a id="sdc_validate"></a><dl>
+<dt><b>SDC_VALIDATE</b></dt>
+<dt>0x00000040</dt>
+</dl>
+</td>
+<td width="60%">
 The system tests for the requested topology, source, and target mode information to determine whether it can be set. 
-
-
-
-#### SDC_ALLOW_CHANGES
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_ALLOW_CHANGES"></a><a id="sdc_allow_changes"></a><dl>
+<dt><b>SDC_ALLOW_CHANGES</b></dt>
+<dt>0x00000400</dt>
+</dl>
+</td>
+<td width="60%">
 If required, the function can modify the specified source and target mode information in order to create a functional display path set.
-
-
-
-#### SDC_TOPOLOGY_CLONE
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_CLONE"></a><a id="sdc_topology_clone"></a><dl>
+<dt><b>SDC_TOPOLOGY_CLONE</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last clone configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_EXTEND
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_EXTEND"></a><a id="sdc_topology_extend"></a><dl>
+<dt><b>SDC_TOPOLOGY_EXTEND</b></dt>
+<dt>0x00000004</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last extended configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_INTERNAL
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_INTERNAL"></a><a id="sdc_topology_internal"></a><dl>
+<dt><b>SDC_TOPOLOGY_INTERNAL</b></dt>
+<dt>0x00000001</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last internal configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_EXTERNAL
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_EXTERNAL"></a><a id="sdc_topology_external"></a><dl>
+<dt><b>SDC_TOPOLOGY_EXTERNAL</b></dt>
+<dt>0x00000008</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests the last external configuration from the persistence database.
-
-
-
-#### SDC_TOPOLOGY_SUPPLIED
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_TOPOLOGY_SUPPLIED"></a><a id="sdc_topology_supplied"></a><dl>
+<dt><b>SDC_TOPOLOGY_SUPPLIED</b></dt>
+<dt>0x00000010</dt>
+</dl>
+</td>
+<td width="60%">
 The caller provides the path data so the function only queries the persistence database to find and use the source and target mode.
-
-
-
-#### SDC_USE_DATABASE_CURRENT
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_USE_DATABASE_CURRENT"></a><a id="sdc_use_database_current"></a><dl>
+<dt><b>SDC_USE_DATABASE_CURRENT</b></dt>
+<dt>(SDC_TOPOLOGY_INTERNAL | SDC_TOPOLOGY_CLONE | SDC_TOPOLOGY_EXTEND | SDC_TOPOLOGY_EXTERNAL)</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests a combination of all four SDC_TOPOLOGY_XXX configurations. This value informs the API to set the last known display configuration for the current connected monitors.
-
-
-
-#### SDC_PATH_PERSIST_IF_REQUIRED
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_PATH_PERSIST_IF_REQUIRED"></a><a id="sdc_path_persist_if_required"></a><dl>
+<dt><b>SDC_PATH_PERSIST_IF_REQUIRED</b></dt>
+<dt>0x00000800</dt>
+</dl>
+</td>
+<td width="60%">
 When the function processes a SDC_TOPOLOGY_XXX request, it can force path persistence on a target to satisfy the request if necessary. For information about the other flags that this flag can be combined with, see the following list. 
-
-
-
-#### SDC_FORCE_MODE_ENUMERATION
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_FORCE_MODE_ENUMERATION"></a><a id="sdc_force_mode_enumeration"></a><dl>
+<dt><b>SDC_FORCE_MODE_ENUMERATION</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
 The caller requests that the driver is given an opportunity to update the GDI mode list while <b>SetDisplayConfig</b> sets the new display configuration. This flag value is only valid when the SDC_USE_SUPPLIED_DISPLAY_CONFIG and SDC_APPLY flag values are also specified. 
-
-
-
-#### SDC_ALLOW_PATH_ORDER_CHANGES
-
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_ALLOW_PATH_ORDER_CHANGES"></a><a id="sdc_allow_path_order_changes"></a><dl>
+<dt><b>SDC_ALLOW_PATH_ORDER_CHANGES</b></dt>
+<dt>0x00002000</dt>
+</dl>
+</td>
+<td width="60%">
 A modifier to the SDC_TOPOLOGY_SUPPLIED flag that indicates that <b>SetDisplayConfig</b> should ignore the path order of the supplied topology when searching the database. When this flag is set, the topology set is the most recent topology that contains all the paths regardless of the path order. 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_VIRTUAL_MODE_AWARE"></a><a id="sdc_virtual_mode_aware"></a><dl>
+<dt><b>SDC_VIRTUAL_MODE_AWARE</b></dt>
+<dt>0x00008000</dt>
+</dl>
+</td>
+<td width="60%">
+A modifier to the SDC_USE_SUPPLIED_DISPLAY_CONFIG and SDC_TOPOLOGY_SUPPLIED flags that the caller is aware of virtual modes.
+Supported starting in Windows 10.
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SDC_VIRTUAL_REFRESH_RATE_AWARE"></a><a id="sdc_virtual_refresh_rate_aware"></a><dl>
+<dt><b>SDC_VIRTUAL_REFRESH_RATE_AWARE</b></dt>
+<dt>0x00020000</dt>
+</dl>
+</td>
+<td width="60%">
+A modifier to the SDC_USE_SUPPLIED_DISPLAY_CONFIG and SDC_TOPOLOGY_SUPPLIED flags that the caller is aware of virtual refresh rates.
+Supported starting in Windows 11.
+</td>
+</tr>
+</table>
 
 The following list contains valid combinations of values for the <i>Flags</i> parameter: 
 
@@ -217,10 +299,7 @@ SDC_TOPOLOGY_SUPPLIED cannot be used with any other SDC_TOPOLOGY_XXX flag. Becau
 </ul>
 SDC_TOPOLOGY_XXX flags can be used in combinations. For example, if SDC_TOPOLOGY_CLONE and SDC_TOPOLOGY_EXTEND are set, the API uses the most recent clone or extend topology, which every topology was set with most recently for the current connected monitors.
 
-
 ## -returns
-
-
 
 The function returns one of the following return codes.
 
@@ -258,7 +337,7 @@ The combination of parameters and flags specified is invalid.
 </dl>
 </td>
 <td width="60%">
-The system is not running a graphics driver that was written according to the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
+The system is not running a graphics driver that was written according to the <a href="/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
 
 </td>
 </tr>
@@ -296,28 +375,22 @@ The function could not find a workable solution for the source and target modes 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>SetDisplayConfig</b> function takes the active display paths with any specified source and target mode information and uses best mode logic to generate any missing source and target mode information. This function then sets the complete display path.
 
-The <b>ModeInfoIdx</b> members in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a> structures are used to indicate whether source and target mode are supplied for a given active path. If the index value is DISPLAYCONFIG_PATH_MODE_IDX_INVALID for either, this indicates the mode information is not being specified. It is valid for the path plus source mode or the path plus source and target mode information to be specified for a given path. However, it is not valid for the path plus target mode to be specified without the source mode.
+The <b>ModeInfoIdx</b> members in the <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a> and <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a> structures are used to indicate whether source and target mode are supplied for a given active path. If the index value is DISPLAYCONFIG_PATH_MODE_IDX_INVALID for either, this indicates the mode information is not being specified. It is valid for the path plus source mode or the path plus source and target mode information to be specified for a given path. However, it is not valid for the path plus target mode to be specified without the source mode.
 
 The source and target modes for each source and target identifiers can only appear in the <i>modeInfoArray</i> array once. For example, a source mode for source identifier S1 can only appear in the table once; if multiple paths reference the same source, they have to use the same <b>ModeInfoIdx</b>.
 
-The expectation is that most callers use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to get the current configuration along with other valid possibilities and then use <b>SetDisplayConfig</b> to test and set the configuration.
+The expectation is that most callers use <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a> to get the current configuration along with other valid possibilities and then use <b>SetDisplayConfig</b> to test and set the configuration.
 
 The order in which the active paths appear in the <i>PathArray</i> array determines the path priority.
 
 By default, <b>SetDisplayConfig</b> never changes any supplied path, source mode, or target mode information. If best mode logic cannot find a solution without changing the specified display path information, <b>SetDisplayConfig</b> fails with ERROR_BAD_CONFIGURATION. In this case, the caller should specify the SDC_ALLOW_CHANGES flag to allow the function to tweak some of the specified source and mode details to allow the display path change to be successful.
 
-If the specified or calculated source and target modes have the same dimensions, <b>SetDisplayConfig</b> automatically sets the path scaling to DISPLAYCONFIG_PPR_IDENTITY before setting the display path and saving it in the database. For information about how <b>SetDisplayConfig</b> handles scaling, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/scaling-the-desktop-image">Scaling the Desktop Image</a>.
+If the specified or calculated source and target modes have the same dimensions, <b>SetDisplayConfig</b> automatically sets the path scaling to DISPLAYCONFIG_PPR_IDENTITY before setting the display path and saving it in the database. For information about how <b>SetDisplayConfig</b> handles scaling, see <a href="/windows-hardware/drivers/display/scaling-the-desktop-image">Scaling the Desktop Image</a>.
 
 When the caller specifies the SDC_USE_SUPPLIED_DISPLAY_CONFIG flag to set a clone path and if any source mode indexes are invalid in the path array, <b>SetDisplayConfig</b> determines that all of the source mode indexes from that source are invalid. <b>SetDisplayConfig</b> uses the best mode logic to determine the source mode information. 
 
@@ -418,32 +491,22 @@ SDC_APPLY | SDC_TOPOLOGY_SUPPLIED | SDC_ALLOW_PATH_ORDER_CHANGES
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. All sizes in the DEVMODE structure are in terms of physical pixels, and are not related to the calling context.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_mode_info">DISPLAYCONFIG_MODE_INFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_info">DISPLAYCONFIG_PATH_INFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_source_info">DISPLAYCONFIG_PATH_SOURCE_INFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_path_target_info">DISPLAYCONFIG_PATH_TARGET_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig">QueryDisplayConfig</a>

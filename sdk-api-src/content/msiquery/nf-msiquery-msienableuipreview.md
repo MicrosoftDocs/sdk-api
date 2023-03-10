@@ -2,15 +2,12 @@
 UID: NF:msiquery.MsiEnableUIPreview
 title: MsiEnableUIPreview function (msiquery.h)
 description: The MsiEnableUIPreview function enables preview mode of the user interface to facilitate authoring of user-interface dialog boxes. This function returns a handle that should be closed using MsiCloseHandle.
+helpviewer_keywords: ["MsiEnableUIPreview","MsiEnableUIPreview function","_msi_msienableuipreview","msiquery/MsiEnableUIPreview","setup.msienableuipreview"]
 old-location: setup\msienableuipreview.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 77df6829-119d-4fe6-96b0-c75381b9de6c
 ms.date: 12/05/2018
 ms.keywords: MsiEnableUIPreview, MsiEnableUIPreview function, _msi_msienableuipreview, msiquery/MsiEnableUIPreview, setup.msienableuipreview
-f1_keywords:
-- msiquery/MsiEnableUIPreview
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnableUIPreview
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnableUIPreview
+ - msiquery/MsiEnableUIPreview
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnableUIPreview
 ---
 
 # MsiEnableUIPreview function
@@ -48,53 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEnableUIPreview</b> function enables preview mode of the user interface to facilitate authoring of user-interface dialog boxes. This function returns a handle that should be closed using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
-
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>.
 
 ## -parameters
-
-
-
 
 ### -param hDatabase [in]
 
 Handle to the database.
 
-
 ### -param phPreview [out]
 
 Pointer to a returned handle for user-interface preview capability.
 
-
 ## -returns
-
-
 
 This function returns UINT.
 
-
-
-
 ## -remarks
 
-
-
 Note that it is recommended to use variables of type PMSIHANDLE because the installer closes PMSIHANDLE objects as they go out of scope, whereas you must close MSIHANDLE objects by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
-
-
-
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a>. For more information see <a href="/windows/desktop/Msi/windows-installer-best-practices">Use PMSIHANDLE instead of HANDLE</a> section in the <a href="/windows/desktop/Msi/windows-installer-best-practices">Windows Installer Best Practices</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">User Interface Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/database-functions">User Interface Functions</a>

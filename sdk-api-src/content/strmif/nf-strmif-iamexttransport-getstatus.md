@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.GetStatus
 title: IAMExtTransport::GetStatus (strmif.h)
 description: The GetStatus method returns information about the transport's status.
+helpviewer_keywords: ["GetStatus","GetStatus method [DirectShow]","GetStatus method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetStatus method","IAMExtTransport.GetStatus","IAMExtTransport::GetStatus","IAMExtTransportGetStatus","dshow.iamexttransport_getstatus","strmif/IAMExtTransport::GetStatus"]
 old-location: dshow\iamexttransport_getstatus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 01d90527-4851-45a3-9481-929a9f4aa0cd
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetStatus method, IAMExtTransport.GetStatus, IAMExtTransport::GetStatus, IAMExtTransportGetStatus, dshow.iamexttransport_getstatus, strmif/IAMExtTransport::GetStatus
-f1_keywords:
-- strmif/IAMExtTransport.GetStatus
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::GetStatus
+ - strmif/IAMExtTransport::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.GetStatus
 ---
 
 # IAMExtTransport::GetStatus
@@ -49,45 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetStatus</code> method returns information about the transport's status.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param StatusItem [in]
 
 Specifies the status information to retrieve. See Remarks for more information.
 
-
 ### -param pValue [in, out]
 
 Pointer to variable that either specifies or receives a <b>long</b> integer, whose meaning depends on the value of <i>StatusItem</i>. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <i>StatusItem</i> parameter is a flag that specifies which status information to retrieve. The method returns in the information in the <i>pValue</i> parameter. Not every device supports every status flag. The following flags are defined:
 
 <ul>
-<li>ED_MODE: Returns the current transport mode, such as pause or play. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> for a list of constants that define the transport modes. As an alternative, you can set <i>StatusItem</i> equal to one of these constants, and <i>pValue</i> will receive the value OATRUE if the transport is currently in that mode, or OAFALSE otherwise.</li>
+<li>ED_MODE: Returns the current transport mode, such as pause or play. See <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> for a list of constants that define the transport modes. As an alternative, you can set <i>StatusItem</i> equal to one of these constants, and <i>pValue</i> will receive the value OATRUE if the transport is currently in that mode, or OAFALSE otherwise.</li>
 <li>ED_MEDIA_TYPE: Indicates the format of the media for this transport. Returns one of the following constants.<table>
 <tr>
 <th>Constant</th>
@@ -169,9 +154,9 @@ The <i>StatusItem</i> parameter is a flag that specifies which status informatio
  
 
 </li>
-<li>ED_LINK_MODE: Returns OATRUE if the transport's controls are linked to the filter graph's <b>Run</b>, <b>Stop</b>, and <b>Pause</b> methods, and OAFALSE otherwise. See <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> for more information.</li>
+<li>ED_LINK_MODE: Returns OATRUE if the transport's controls are linked to the filter graph's <b>Run</b>, <b>Stop</b>, and <b>Pause</b> methods, and OAFALSE otherwise. See <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_mode">IAMExtTransport::put_Mode</a> for more information.</li>
 <li>ED_MEDIA_PRESENT: Returns OATRUE if the transport's media is present, or OAFALSE otherwise.</li>
-<li>ED_MEDIA_LENGTH: Returns the length of the media, in units of the current time format (see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a>).</li>
+<li>ED_MEDIA_LENGTH: Returns the length of the media, in units of the current time format (see <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportbasicparameters">IAMExtTransport::SetTransportBasicParameters</a>).</li>
 <li>ED_MEDIA_TRACK_COUNT: Returns the track count.</li>
 <li>ED_MEDIA_TRACK_LENGTH: Returns the track length, in units of the current time format.</li>
 <li>ED_MEDIA_SIDE: Indicates which side of the media is active.</li>
@@ -218,7 +203,7 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> supports the following status flags: 
+<a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> supports the following status flags: 
 
 <ul>
 <li>ED_MODE: See previous remarks. </li>
@@ -256,7 +241,7 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 </ul>
 <h3><a id="MPEG_Camcorder_Implementation"></a><a id="mpeg_camcorder_implementation"></a><a id="MPEG_CAMCORDER_IMPLEMENTATION"></a>MPEG Camcorder Implementation</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports an additional media format for the ED_MEDIA_TYPE flag.
+<a href="/windows/desktop/DirectShow/mstape-driver">MSTape</a> supports an additional media format for the ED_MEDIA_TYPE flag.
 
 <table>
 <tr>
@@ -272,20 +257,10 @@ To use these constants, include the header file Xprtdefs.h from the Windows SDK.
 
 Some of these flags are defined in the header file Xptrdefs.h.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>

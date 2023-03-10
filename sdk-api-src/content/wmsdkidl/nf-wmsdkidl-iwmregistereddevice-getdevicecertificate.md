@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceCertificate
 title: IWMRegisteredDevice::GetDeviceCertificate (wmsdkidl.h)
 description: The GetDeviceCertificate method retrieves the certificate of the device.
+helpviewer_keywords: ["GetDeviceCertificate","GetDeviceCertificate method [windows Media Format]","GetDeviceCertificate method [windows Media Format]","IWMRegisteredDevice interface","IWMRegisteredDevice interface [windows Media Format]","GetDeviceCertificate method","IWMRegisteredDevice.GetDeviceCertificate","IWMRegisteredDevice::GetDeviceCertificate","IWMRegisteredDeviceGetDeviceCertificate","wmformat.iwmregistereddevice_getdevicecertificate","wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate"]
 old-location: wmformat\iwmregistereddevice_getdevicecertificate.htm
 tech.root: wmformat
 ms.assetid: 80313abc-2212-4b1a-9d4e-9f3015370ea7
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCertificate, GetDeviceCertificate method [windows Media Format], GetDeviceCertificate method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceCertificate method, IWMRegisteredDevice.GetDeviceCertificate, IWMRegisteredDevice::GetDeviceCertificate, IWMRegisteredDeviceGetDeviceCertificate, wmformat.iwmregistereddevice_getdevicecertificate, wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
-f1_keywords:
-- wmsdkidl/IWMRegisteredDevice.GetDeviceCertificate
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMRegisteredDevice.GetDeviceCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMRegisteredDevice::GetDeviceCertificate
+ - wmsdkidl/IWMRegisteredDevice::GetDeviceCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMRegisteredDevice.GetDeviceCertificate
 ---
 
 # IWMRegisteredDevice::GetDeviceCertificate
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetDeviceCertificate</b> method retrieves the certificate of the device.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppCertificate [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of the buffer object that contains the certificate data.
-
+Address of a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of the buffer object that contains the certificate data.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,29 +80,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The device certificate contains protection information related to the device.
 
 Together, the device certificate and the device serial number uniquely identify the device. Manufacturers are encouraged to use a separate certificate for each device. However, a manufacturer may share a certificate between all devices of a particular type, differentiating individual devices by serial number.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>

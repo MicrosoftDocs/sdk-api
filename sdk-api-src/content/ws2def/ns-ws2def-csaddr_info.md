@@ -1,16 +1,13 @@
 ---
 UID: NS:ws2def._CSADDR_INFO
 title: CSADDR_INFO (ws2def.h)
-description: Contains Windows Sockets address information for a socket, network service, or namespace provider.
+description: The CSADDR_INFO (ws2def.h) structure contains Windows Sockets address information for a socket, network service, or namespace provider.
+helpviewer_keywords: ["*LPCSADDR_INFO","*PCSADDR_INFO","CSADDR_INFO","CSADDR_INFO structure [Winsock]","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","SOCK_DGRAM","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","_CSADDR_INFO","_win32_csaddr_info_2","winsock.csaddr_info_2","ws2def/CSADDR_INFO"]
 old-location: winsock\csaddr_info_2.htm
 tech.root: WinSock
 ms.assetid: 9cad3586-e315-4f6f-9045-7c95502bb768
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPCSADDR_INFO, *PCSADDR_INFO, CSADDR_INFO, CSADDR_INFO structure [Winsock], IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _CSADDR_INFO, _win32_csaddr_info_2, winsock.csaddr_info_2, ws2def/CSADDR_INFO'
-f1_keywords:
-- ws2def/CSADDR_INFO
-dev_langs:
-- c++
 req.header: ws2def.h
 req.include-header: Nspapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ws2def.h
-api_name:
-- CSADDR_INFO
 targetos: Windows
 req.typenames: CSADDR_INFO, *PCSADDR_INFO, *LPCSADDR_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CSADDR_INFO
+ - ws2def/_CSADDR_INFO
+ - PCSADDR_INFO
+ - ws2def/PCSADDR_INFO
+ - CSADDR_INFO
+ - ws2def/CSADDR_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ws2def.h
+api_name:
+ - CSADDR_INFO
 ---
 
 # CSADDR_INFO structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CSADDR_INFO</b> structure contains Windows Sockets address information for a socket, network service, or namespace provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field LocalAddr
 
@@ -70,7 +71,6 @@ In a client application, pass this address to the
 In a network service, pass this address to the 
 <b>bind</b> function so that the service is bound to the appropriate local address.
 
-
 ### -field RemoteAddr
 
 Type: <b>SOCKET_ADDRESS</b>
@@ -79,14 +79,12 @@ Windows Sockets remote address.
 
 There are several uses for this remote address:<ul>
 <li>You can use this remote address to connect to the service through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function. This is useful if an application performs 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>/<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">receive</a> operations that involve connection-oriented protocols.</li>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function. This is useful if an application performs 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>/<a href="/windows/desktop/api/winsock/nf-winsock-recv">receive</a> operations that involve connection-oriented protocols.</li>
 <li>You can use this remote address with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function when you are communicating over a connectionless (datagram) protocol. If you are using a connectionless protocol, such as UDP, 
+<a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function when you are communicating over a connectionless (datagram) protocol. If you are using a connectionless protocol, such as UDP, 
 <b>sendto</b> is typically the way you pass data to the remote system.</li>
 </ul>
-
-
 
 ### -field iSocketType
 
@@ -122,9 +120,9 @@ A datagram socket. This socket type supports datagrams, which are connectionless
 
 
 Services use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a> function to obtain datagrams. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> functions do not work with datagrams.
+<a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a> function to obtain datagrams. The 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> and 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> functions do not work with datagrams.
 
 </td>
 </tr>
@@ -134,7 +132,7 @@ Services use
 </dl>
 </td>
 <td width="60%">
-A reliable message datagram socket. This socket type preserves message boundaries in data. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>.
+A reliable message datagram socket. This socket type preserves message boundaries in data. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>.
 
 </td>
 </tr>
@@ -150,8 +148,6 @@ A sequenced packet stream socket. This socket type provides a pseudo-stream pack
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iProtocol
 
@@ -202,61 +198,47 @@ The PGM protocol for reliable multicast. This is a possible value when the addre
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a> function obtains Windows Sockets address information using 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a> function obtains Windows Sockets address information using 
 <b>CSADDR_INFO</b> structures. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function called with the <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a> socket option retrieves a <b>CSADDR_INFO</b> structure for the specified socket.
-
-
-
+The <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function called with the <a href="/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a> socket option retrieves a <b>CSADDR_INFO</b> structure for the specified socket.
 
 ## -see-also
 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
+<a href="/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/so-bsp-state">SO_BSP_STATE</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>

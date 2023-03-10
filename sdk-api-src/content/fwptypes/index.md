@@ -4,8 +4,11 @@ title: Fwptypes.h header
 ms.assetid: 7b41e74f-a163-3d17-835e-8346c2dab457
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fwp
+f1_keywords:
+ - fwptypes
+ - fwptypes/fwptypes
 ---
 
 # Fwptypes.h header
@@ -13,8 +16,8 @@ tech.root: fwp
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by Windows Filtering Platform. For more information, see:
-
+- [Network Drivers, Windows Vista and Later](../_netvista/index.md)
 - [Windows Filtering Platform](../_fwp/index.md)
 

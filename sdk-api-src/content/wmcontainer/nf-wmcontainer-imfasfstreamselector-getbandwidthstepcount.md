@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFStreamSelector.GetBandwidthStepCount
 title: IMFASFStreamSelector::GetBandwidthStepCount (wmcontainer.h)
 description: Retrieves the number of bandwidth steps that exist for the content. This method is used for multiple bit rate (MBR) content.
+helpviewer_keywords: ["6b7105c1-7395-462f-ad52-daf621258714","GetBandwidthStepCount","GetBandwidthStepCount method [Media Foundation]","GetBandwidthStepCount method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetBandwidthStepCount method","IMFASFStreamSelector.GetBandwidthStepCount","IMFASFStreamSelector::GetBandwidthStepCount","mf.imfasfstreamselector_getbandwidthstepcount","wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount"]
 old-location: mf\imfasfstreamselector_getbandwidthstepcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6b7105c1-7395-462f-ad52-daf621258714
 ms.date: 12/05/2018
 ms.keywords: 6b7105c1-7395-462f-ad52-daf621258714, GetBandwidthStepCount, GetBandwidthStepCount method [Media Foundation], GetBandwidthStepCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStepCount method, IMFASFStreamSelector.GetBandwidthStepCount, IMFASFStreamSelector::GetBandwidthStepCount, mf.imfasfstreamselector_getbandwidthstepcount, wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount
-f1_keywords:
-- wmcontainer/IMFASFStreamSelector.GetBandwidthStepCount
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamSelector.GetBandwidthStepCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamSelector::GetBandwidthStepCount
+ - wmcontainer/IMFASFStreamSelector::GetBandwidthStepCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamSelector.GetBandwidthStepCount
 ---
 
 # IMFASFStreamSelector::GetBandwidthStepCount
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the number of bandwidth steps that exist for the content. This method is used for multiple bit rate (MBR) content.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcStepCount [out]
 
 Receives the number of bandwidth steps.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Bandwidth steps are bandwidth levels used for multiple bit rate (MBR) content. If you stream MBR content, you can choose the bandwidth step that matches the network conditions to avoid interruptions during playback.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstep">IMFASFStreamSelector::GetBandwidthStep</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstep">IMFASFStreamSelector::GetBandwidthStep</a>

@@ -1,226 +1,211 @@
 ---
 UID: NF:evntrace.UpdateTraceW
 title: UpdateTraceW function (evntrace.h)
-description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
+description: The UpdateTraceW (Unicode) function (evntrace.h) updates the property setting of the specified event tracing session.
+helpviewer_keywords:
+  [
+    "UpdateTrace",
+    "UpdateTrace function [ETW]",
+    "UpdateTraceA",
+    "UpdateTraceW",
+    "_evt_updatetrace",
+    "base.updatetrace",
+    "etw.updatetrace",
+    "evntrace/UpdateTrace",
+    "evntrace/UpdateTraceA",
+    "evntrace/UpdateTraceW",
+  ]
 old-location: etw\updatetrace.htm
 tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
-ms.date: 12/05/2018
-ms.keywords: UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW, _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace, evntrace/UpdateTraceA, evntrace/UpdateTraceW
-f1_keywords:
-- evntrace/UpdateTrace
-dev_langs:
-- c++
+ms.date: 08/04/2022
+ms.keywords:
+  UpdateTrace, UpdateTrace function [ETW], UpdateTraceA, UpdateTraceW,
+  _evt_updatetrace, base.updatetrace, etw.updatetrace, evntrace/UpdateTrace,
+  evntrace/UpdateTraceA, evntrace/UpdateTraceW
 req.header: evntrace.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
 req.target-min-winversvr: Windows 2000 Server [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
 req.unicode-ansi: UpdateTraceW (Unicode) and UpdateTraceA (ANSI)
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- UpdateTrace
-- UpdateTraceA
-- UpdateTraceW
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
+f1_keywords:
+  - UpdateTraceW
+  - evntrace/UpdateTraceW
+dev_langs:
+  - c++
+topic_type:
+  - APIRef
+  - kbSyntax
+api_type:
+  - DllExport
+api_location:
+  - Advapi32.dll
+  - API-MS-Win-eventing-Legacy-l1-1-0.dll
+  - advapi32legacy.dll
+api_name:
+  - UpdateTrace
+  - UpdateTraceA
+  - UpdateTraceW
 ---
 
 # UpdateTraceW function
 
-
 ## -description
 
+The **UpdateTrace** function updates the property setting of the specified event
+tracing session.
 
-The 
-<b>UpdateTrace</b> function updates the property setting of the specified event tracing session. 
-			
-
-The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
-
+This function is obsolete. The
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracew) function
+supersedes this function.
 
 ## -parameters
 
-
-
-
 ### -param TraceHandle
 
-Handle to the event tracing session to update, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
-
+Handle to the event tracing session to be updated, or 0. You must specify a
+non-zero _TraceHandle_ if _InstanceName_ is **NULL**. This parameter will be
+used only if _InstanceName_ is **NULL**. The handle is returned by the
+[StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracew).
 
 ### -param InstanceName
 
-Pointer to a null-terminated string that specifies the name of the event tracing session to update, or <b>NULL</b>. You must specify <i>SessionName</i> if <i>SessionHandle</i> is <b>NULL</b>.
+Name of the event tracing session to be updated, or **NULL**. You must specify
+_InstanceName_ if _TraceHandle_ is 0.
 
-To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
-
+To specify the NT Kernel Logger session, set _InstanceName_ to
+**KERNEL_LOGGER_NAME**.
 
 ### -param Properties
 
-Pointer to an 
-initialized 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
+Pointer to an initialized
+[EVENT_TRACE_PROPERTIES](/windows/desktop/ETW/event-trace-properties) structure.
 
-On input, the members must specify the new values for the properties to update. For information on which properties you can update, see Remarks.
+On input, the members must specify the new values for the properties to update.
+For information on which properties you can update, see Remarks.
 
-On output, the structure members contains the updated settings and statistics for the event tracing session.
-
-
-
+On output, the structure members contains the updated settings and statistics
+for the event tracing session.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is ERROR_SUCCESS.
-						
 
-If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+If the function fails, the return value is one of the
+[system error codes](/windows/win32/debug/system-error-codes). The following
+table includes some common errors and their causes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_BAD_LENGTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>BufferSize</b> member of the <b>Wnode</b> member of <i>Properties</i> specifies an incorrect size.
+- **ERROR_BAD_LENGTH**
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following is true:
+  The **BufferSize** member of the **Wnode** member of _Properties_ specifies an
+  incorrect size.
 
-<ul>
-<li><i>SessionName</i> and <i>SessionHandle</i> are both <b>NULL</b>.</li>
-<li><i>Properties</i> is <b>NULL</b>.</li>
-<li>The <b>LogFileNameOffset</b> member of <i>Properties</i> is not valid.</li>
-<li>The <b>LoggerNameOffset</b> member of <i>Properties</i> is not valid.</li>
-</ul>
-<b>Windows Server 2003 and Windows XP:  </b>The <b>Guid</b> member of the <b>Wnode</b> structure is SystemTraceControlGuid, but the <i>SessionName</i> parameter is not KERNEL_LOGGER_NAME.
+- **ERROR_INVALID_PARAMETER**
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can control event tracing sessions. To grant a restricted user the ability to control trace sessions, add them to the Performance Log Users group.
+  One of the following is true:
 
-<b>Windows XP and Windows 2000:  </b>Anyone can control a trace session.
+  - _Properties_ is **NULL**.
+  - _InstanceName_ and _TraceHandle_ are both **NULL**.
+  - _InstanceName_ is **NULL** and _TraceHandle_ is not a valid handle.
+  - The **LogFileNameOffset** member of _Properties_ is not valid.
+  - The **LoggerNameOffset** member of _Properties_ is not valid.
 
-</td>
-</tr>
-</table>
- 
+  **Windows Server 2003 and Windows XP:** The **Guid** member of the **Wnode**
+  structure is SystemTraceControlGuid, but the _InstanceName_ parameter is not
+  KERNEL_LOGGER_NAME.
 
+- **ERROR_ACCESS_DENIED**
 
+  Only users with administrative privileges, users in the Performance Log Users
+  group, and services running as LocalSystem, LocalService, NetworkService can
+  control event tracing sessions. To grant a restricted user the ability to
+  control trace sessions, add them to the Performance Log Users group.
 
+  **Windows XP and Windows 2000:** Anyone can control a trace session.
 
 ## -remarks
 
+Event trace controllers call this function.
 
+This function is obsolete. Instead, use
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracew) with
+_ControlCode_ set to **EVENT_TRACE_CONTROL_UPDATE**.
 
-Controllers call this function.
+On input, the members must specify the new values for the properties to update.
+You can update the following properties.
 
-On input, the members must specify the new values for the properties to update. You can update the following properties.
+- **EnableFlags**: Set this member to 0 to disable all kernel providers.
+  Otherwise, you must specify the kernel providers that you want to enable or
+  keep enabled. Applies only to system logger sessions.
 
-<table>
-<tr>
-<th>Member</th>
-<th>Use</th>
-</tr>
-<tr>
-<td><b>EnableFlags</b></td>
-<td>Set this member to 0 to disable all kernel providers. Otherwise, you must specify the kernel providers that you want to enable or keep enabled. Applies only to NT Kernel Logger sessions.</td>
-</tr>
-<tr>
-<td><b>FlushTimer</b></td>
-<td>Set this member if you want to change the time to wait before flushing buffers. If this member is 0, the member is not updated.</td>
-</tr>
-<tr>
-<td><b>LogFileNameOffset</b></td>
-<td>Set this member if you want to switch to another log file. If this member is 0, the file name is not updated. If the offset is not zero and you do not change the log file name, the function returns an error.</td>
-</tr>
-<tr>
-<td><b>LogFileMode</b></td>
-<td>Set this member if you want to turn <b>EVENT_TRACE_REAL_TIME_MODE</b> on and off. To turn real time consuming off, set this member to 0. To turn real time consuming on, set this member to <b>EVENT_TRACE_REAL_TIME_MODE</b> and it will be OR'd with the current modes.</td>
-</tr>
-<tr>
-<td><b>MaximumBuffers</b></td>
-<td>Set set this member if you want to change the maximum number of buffers that ETW uses. If this member is 0, the member is not updated.</td>
-</tr>
-</table>
- 
+- **FlushTimer**: Set this member if you want to change the time to wait before
+  flushing buffers. If this member is 0, the member is not updated.
 
-For private logger sessions, you can only update <b>LogFileNameOffset</b> and <b>FlushTimer</b>.
+- **LogFileNameOffset**: Set this member if you want to switch to another log
+  file. If this member is 0, the file name is not updated. If the offset is not
+  zero and you do not change the log file name, the function returns an error.
 
-If you are using a newly initialized <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure, the only members you need to specify, other than the members you are updating, are <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>, and <b>Wnode.Flags</b>.
+- **LogFileMode**: Set this member if you want to turn
+  **EVENT_TRACE_REAL_TIME_MODE** on and off. To turn real time consuming off,
+  set this member to 0. To turn real time consuming on, set this member to
+  **EVENT_TRACE_REAL_TIME_MODE** and it will be OR'd with the current modes.
 
-If you use the property structure you passed to <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>, make sure the  <b>LogFileNameOffset</b> member is 0 unless you are changing the log file name.
+- **MaximumBuffers**: Set set this member if you want to change the maximum
+  number of buffers that ETW uses. If this member is 0, the member is not
+  updated.
 
-If you call the <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function to query the current session properties and then update those properties to update the session, make sure you set <b>LogFileNameOffset</b> to 0 (unless you are changing the log file name) and set <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES.Wnode.Flags</a> to <b>WNODE_FLAG_TRACED_GUID</b>.
+For private logger sessions, you can only update **LogFileNameOffset** and
+**FlushTimer**.
 
-To obtain the property settings and session statistics for an event tracing session, call the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function.
+If you are using a newly initialized
+[EVENT_TRACE_PROPERTIES](/windows/desktop/ETW/event-trace-properties) structure,
+the only members you need to specify, other than the members you are updating,
+are **Wnode.BufferSize**, **Wnode.Guid**, and **Wnode.Flags**.
 
+If you use the property structure you passed to
+[StartTrace](/windows/desktop/ETW/starttrace), make sure the
+**LogFileNameOffset** member is 0 unless you are changing the log file name.
 
-#### Examples
+If you call the [ControlTrace](/windows/desktop/ETW/controltrace) function to
+query the current session properties and then update those properties to update
+the session, make sure you set **LogFileNameOffset** to 0 (unless you are
+changing the log file name) and set
+[EVENT_TRACE_PROPERTIES.Wnode.Flags](/windows/desktop/ETW/event-trace-properties)
+to **WNODE_FLAG_TRACED_GUID**.
 
-For an example that uses 
-<b>UpdateTrace</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/updating-an-event-tracing-session">Updating an Event Tracing Session</a>.
+To obtain the property settings and session statistics for an event tracing
+session, call the [ControlTrace](/windows/desktop/ETW/controltrace) function.
 
-<div class="code"></div>
+### Examples
 
+For an example that uses **UpdateTrace**, see
+[Updating an Event Tracing Session](/windows/desktop/ETW/updating-an-event-tracing-session).
 
+> [!NOTE]
+> The evntrace.h header defines UpdateTrace as an alias which
+> automatically selects the ANSI or Unicode version of this function based on
+> the definition of the UNICODE preprocessor constant. Mixing usage of the
+> encoding-neutral alias with code that not encoding-neutral can lead to
+> mismatches that result in compilation or runtime errors. For more information,
+> see
+> [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
- 
-
- 
-
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracew)

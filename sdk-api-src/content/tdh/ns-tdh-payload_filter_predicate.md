@@ -2,15 +2,12 @@
 UID: NS:tdh._PAYLOAD_FILTER_PREDICATE
 title: PAYLOAD_FILTER_PREDICATE (tdh.h)
 description: Defines an event payload filter predicate that describes how to filter on a single field in a trace session.
+helpviewer_keywords: ["*PPAYLOAD_FILTER_PREDICATE","PAYLOADFIELD_BETWEEN","PAYLOADFIELD_CONTAINS","PAYLOADFIELD_DOESNTCONTAIN","PAYLOADFIELD_EQ","PAYLOADFIELD_GE","PAYLOADFIELD_GT","PAYLOADFIELD_INVALID","PAYLOADFIELD_IS","PAYLOADFIELD_ISNOT","PAYLOADFIELD_LE","PAYLOADFIELD_LT","PAYLOADFIELD_MODULO","PAYLOADFIELD_NE","PAYLOADFIELD_NOTBETWEEN","PAYLOAD_FILTER_PREDICATE","PAYLOAD_FILTER_PREDICATE structure [ETW]","PPAYLOAD_FILTER_PREDICATE","PPAYLOAD_FILTER_PREDICATE structure pointer [ETW]","etw.payload_filter_predicate","tdh/PAYLOAD_FILTER_PREDICATE","tdh/PPAYLOAD_FILTER_PREDICATE"]
 old-location: etw\payload_filter_predicate.htm
 tech.root: ETW
 ms.assetid: 6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75
 ms.date: 12/05/2018
 ms.keywords: '*PPAYLOAD_FILTER_PREDICATE, PAYLOADFIELD_BETWEEN, PAYLOADFIELD_CONTAINS, PAYLOADFIELD_DOESNTCONTAIN, PAYLOADFIELD_EQ, PAYLOADFIELD_GE, PAYLOADFIELD_GT, PAYLOADFIELD_INVALID, PAYLOADFIELD_IS, PAYLOADFIELD_ISNOT, PAYLOADFIELD_LE, PAYLOADFIELD_LT, PAYLOADFIELD_MODULO, PAYLOADFIELD_NE, PAYLOADFIELD_NOTBETWEEN, PAYLOAD_FILTER_PREDICATE, PAYLOAD_FILTER_PREDICATE structure [ETW], PPAYLOAD_FILTER_PREDICATE, PPAYLOAD_FILTER_PREDICATE structure pointer [ETW], etw.payload_filter_predicate, tdh/PAYLOAD_FILTER_PREDICATE, tdh/PPAYLOAD_FILTER_PREDICATE'
-f1_keywords:
-- tdh/PAYLOAD_FILTER_PREDICATE
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tdh.h
-api_name:
-- PAYLOAD_FILTER_PREDICATE
 targetos: Windows
 req.typenames: PAYLOAD_FILTER_PREDICATE, *PPAYLOAD_FILTER_PREDICATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PAYLOAD_FILTER_PREDICATE
+ - tdh/_PAYLOAD_FILTER_PREDICATE
+ - PPAYLOAD_FILTER_PREDICATE
+ - tdh/PPAYLOAD_FILTER_PREDICATE
+ - PAYLOAD_FILTER_PREDICATE
+ - tdh/PAYLOAD_FILTER_PREDICATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tdh.h
+api_name:
+ - PAYLOAD_FILTER_PREDICATE
 ---
 
 # PAYLOAD_FILTER_PREDICATE structure
@@ -48,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PAYLOAD_FILTER_PREDICATE</b> structure defines an event payload filter predicate that describes how to filter on a single field in a trace session.
-
+Defines an event payload filter predicate that describes how to filter on a single field in a trace session.
 
 ## -struct-fields
-
-
-
 
 ### -field FieldName
 
 The name of the field to filter in package manifest.
 
-
 ### -field CompareOp
 
-The payload operator to use for the comparison. 
+The payload operator to use for the comparison.
 
-This member can be one of the values for the <b>PAYLOAD_OPERATOR</b> enumeration defined in the <i>Tdh.h</i> header file. 
+This member can be one of the values for the [**PAYLOAD_OPERATOR**](ne-tdh-payload_operator.md) enumeration defined in the *Tdh.h* header file. 
 
 <table>
 <tr>
@@ -254,21 +254,16 @@ A value of the payload operator that is not valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value
 
-The string that contains one or values to compare depending on the <b>CompareOp</b> member. 
-
+The string that contains one or values to compare depending on the <b>CompareOp</b> member.
 
 ## -remarks
 
+On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on the specific content of the event in a logger session. 
 
-
-On Windows 8.1,Windows Server 2012 R2, and later, event payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a> and <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on the specific content of the event in a logger session. 
-
-The <b>PAYLOAD_FILTER_PREDICATE</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create a single payload filter for a single payload to be used with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  A single payload filter can also be aggregated with other single payload filters using the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function.
+The <b>PAYLOAD_FILTER_PREDICATE</b> structure is used with the <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create a single payload filter for a single payload to be used with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.  A single payload filter can also be aggregated with other single payload filters using the <a href="/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> function.
 
 Each field has a type specified in the provider manifest that can be used in the <b>Fieldname</b> member of the <b>PAYLOAD_FILTER_PREDICATE</b> structure to filter on that field.  
 
@@ -284,40 +279,30 @@ A <b>Fieldname</b> member that contains a <b>GUID</b> can only be compared when 
 #### Examples
 
 For an example that uses 
-the <b>PAYLOAD_FILTER_PREDICATE</b> structure and the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create payload filters to use in filtering on specific conditions in a logger session, see 
-the example for the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
+the <b>PAYLOAD_FILTER_PREDICATE</b> structure and the <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a> function to create payload filters to use in filtering on specific conditions in a logger session, see 
+the example for the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
 <div class="code"></div>
 
-
-
 ## -see-also
+<a href="/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
 
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters">ENABLE_TRACE_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
+<a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a>
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>

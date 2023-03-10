@@ -1,16 +1,13 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory2.CreateMediaKeys2
 title: IMFMediaEngineClassFactory2::CreateMediaKeys2 (mfmediaengine.h)
-description: Creates a media keys object based on the specified key system.
+description: Creates a media keys object based on the specified key system. (IMFMediaEngineClassFactory2.CreateMediaKeys2)
+helpviewer_keywords: ["CreateMediaKeys2","CreateMediaKeys2 method [Media Foundation]","CreateMediaKeys2 method [Media Foundation]","IMFMediaEngineClassFactory2 interface","IMFMediaEngineClassFactory2 interface [Media Foundation]","CreateMediaKeys2 method","IMFMediaEngineClassFactory2.CreateMediaKeys2","IMFMediaEngineClassFactory2::CreateMediaKeys2","mf.imfmediaengineclassfactory2_createmediakeys2","mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2"]
 old-location: mf\imfmediaengineclassfactory2_createmediakeys2.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 857F4573-41B3-488C-88A9-4744EBE5D38B
 ms.date: 12/05/2018
 ms.keywords: CreateMediaKeys2, CreateMediaKeys2 method [Media Foundation], CreateMediaKeys2 method [Media Foundation],IMFMediaEngineClassFactory2 interface, IMFMediaEngineClassFactory2 interface [Media Foundation],CreateMediaKeys2 method, IMFMediaEngineClassFactory2.CreateMediaKeys2, IMFMediaEngineClassFactory2::CreateMediaKeys2, mf.imfmediaengineclassfactory2_createmediakeys2, mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
-f1_keywords:
-- mfmediaengine/IMFMediaEngineClassFactory2.CreateMediaKeys2
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineClassFactory2.CreateMediaKeys2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineClassFactory2::CreateMediaKeys2
+ - mfmediaengine/IMFMediaEngineClassFactory2::CreateMediaKeys2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineClassFactory2.CreateMediaKeys2
 ---
 
 # IMFMediaEngineClassFactory2::CreateMediaKeys2
@@ -48,55 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a media keys object based on the specified key system.
 
-
 ## -parameters
-
-
-
 
 ### -param keySystem [in]
 
 The media key system.
 
-
 ### -param defaultCdmStorePath [in]
 
 Points to the default file location for the  store Content Decryption Module (CDM) data.
-
 
 ### -param inprivateCdmStorePath [in, optional]
 
 Points to a the inprivate location for the  store Content Decryption Module (CDM) data. Specifying this path allows the CDM to comply with the application’s privacy policy by putting personal information in the file location indicated by this path.
 
-
 ### -param ppKeys [out]
 
 Receives the media keys.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactory2">IMFMediaEngineClassFactory2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactory2">IMFMediaEngineClassFactory2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a>

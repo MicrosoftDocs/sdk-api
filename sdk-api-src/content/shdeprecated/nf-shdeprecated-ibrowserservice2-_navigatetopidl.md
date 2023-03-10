@@ -2,15 +2,12 @@
 UID: NF:shdeprecated.IBrowserService2._NavigateToPidl
 title: IBrowserService2::_NavigateToPidl (shdeprecated.h)
 description: Deprecated. Navigates the base class to a new location synchronously.
+helpviewer_keywords: ["HLNF_ALLOW_AUTONAVIGATE","HLNF_CALLERUNTRUSTED","HLNF_DISABLEWINDOWRESTRICTIONS","HLNF_EXTERNALNAVIGATE","HLNF_NEWWINDOWSMANAGED","HLNF_TRUSTEDFORACTIVEX","HLNF_TRUSTFIRSTDOWNLOAD","HLNF_UNTRUSTEDFORDOWNLOAD","IBrowserService2 interface [Windows Shell]","_NavigateToPidl method","IBrowserService2._NavigateToPidl","IBrowserService2::_NavigateToPidl","SHHLNF_NOAUTOSELECT","SHHLNF_WRITENOHISTORY","_NavigateToPidl","_NavigateToPidl method [Windows Shell]","_NavigateToPidl method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_NavigateToPidl","shell.IBrowserService2__NavigateToPidl","zone_IBrowserService2__NavigateToPidl"]
 old-location: shell\IBrowserService2__NavigateToPidl.htm
 tech.root: shell
 ms.assetid: 71f99bc7-0601-4dc4-90df-c9f9a0ab51a5
 ms.date: 12/05/2018
 ms.keywords: HLNF_ALLOW_AUTONAVIGATE, HLNF_CALLERUNTRUSTED, HLNF_DISABLEWINDOWRESTRICTIONS, HLNF_EXTERNALNAVIGATE, HLNF_NEWWINDOWSMANAGED, HLNF_TRUSTEDFORACTIVEX, HLNF_TRUSTFIRSTDOWNLOAD, HLNF_UNTRUSTEDFORDOWNLOAD, IBrowserService2 interface [Windows Shell],_NavigateToPidl method, IBrowserService2._NavigateToPidl, IBrowserService2::_NavigateToPidl, SHHLNF_NOAUTOSELECT, SHHLNF_WRITENOHISTORY, _NavigateToPidl, _NavigateToPidl method [Windows Shell], _NavigateToPidl method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_NavigateToPidl, shell.IBrowserService2__NavigateToPidl, zone_IBrowserService2__NavigateToPidl
-f1_keywords:
-- shdeprecated/IBrowserService2._NavigateToPidl
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._NavigateToPidl
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_NavigateToPidl
+ - shdeprecated/IBrowserService2::_NavigateToPidl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._NavigateToPidl
 ---
 
 # IBrowserService2::_NavigateToPidl
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Navigates the base class to a new location synchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
@@ -64,12 +61,11 @@ Type: <b>LPCITEMIDLIST</b>
 
 The PIDL identifying the new location.
 
-
 ### -param grfHLNF [in]
 
 Type: <b>DWORD</b>
 
-The value or values from the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa740922(v=vs.85)">HLNF</a> enumeration. The following values are also supported.
+The value or values from the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa740922(v=vs.85)">HLNF</a> enumeration. The following values are also supported.
 
 
 
@@ -131,36 +127,22 @@ The value or values from the <a href="https://docs.microsoft.com/previous-versio
 
 0x80000000. If this navigation results in a new window, the new window should be subject to the Pop-up Manager.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
 Not used.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-navigatetopidl">NavigateToPidl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-navigatetopidl">NavigateToPidl</a>

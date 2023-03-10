@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.MessageBox
 title: MessageBox function (winuser.h)
-description: Displays a modal dialog box that contains a system icon, a set of buttons, and a brief application-specific message, such as status or error information. The message box returns an integer value that indicates which button the user clicked.
+description: Displays a modal dialog box that contains a system icon, a set of buttons, and a brief application-specific message, such as status or error information. The message box returns an integer value that indicates which button the user clicked. (MessageBoxW)
+helpviewer_keywords: ["MB_ABORTRETRYIGNORE","MB_APPLMODAL","MB_CANCELTRYCONTINUE","MB_DEFAULT_DESKTOP_ONLY","MB_DEFBUTTON1","MB_DEFBUTTON2","MB_DEFBUTTON3","MB_DEFBUTTON4","MB_HELP","MB_ICONASTERISK","MB_ICONERROR","MB_ICONEXCLAMATION","MB_ICONHAND","MB_ICONINFORMATION","MB_ICONQUESTION","MB_ICONSTOP","MB_ICONWARNING","MB_OK","MB_OKCANCEL","MB_RETRYCANCEL","MB_RIGHT","MB_RTLREADING","MB_SERVICE_NOTIFICATION","MB_SETFOREGROUND","MB_SYSTEMMODAL","MB_TASKMODAL","MB_TOPMOST","MB_YESNO","MB_YESNOCANCEL","MessageBox","MessageBox function [Dialog Boxes]","MessageBoxA","MessageBoxW","_win32_MessageBox","_win32_messagebox_cpp","dlgbox.messagebox","winui._win32_messagebox","winuser/MessageBox","winuser/MessageBoxA","winuser/MessageBoxW"]
 old-location: dlgbox\messagebox.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\messagebox.htm
 ms.date: 12/05/2018
 ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_CANCELTRYCONTINUE, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_HELP, MB_ICONASTERISK, MB_ICONERROR, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_ICONWARNING, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_RIGHT, MB_RTLREADING, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_TOPMOST, MB_YESNO, MB_YESNOCANCEL, MessageBox, MessageBox function [Dialog Boxes], MessageBoxA, MessageBoxW, _win32_MessageBox, _win32_messagebox_cpp, dlgbox.messagebox, winui._win32_messagebox, winuser/MessageBox, winuser/MessageBoxA, winuser/MessageBoxW
-f1_keywords:
-- winuser/MessageBox
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
-- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
-- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
-api_name:
-- MessageBox
-- MessageBoxA
-- MessageBoxW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MessageBox
+ - winuser/MessageBox
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+ - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+ - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+api_name:
+ - MessageBox
+ - MessageBoxA
+ - MessageBoxW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # MessageBox function
@@ -53,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a modal dialog box that contains a system icon, a set of buttons, and a brief application-specific message, such as status or error information. The message box returns an integer value that indicates which button the user clicked.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in, optional]
 
@@ -68,20 +66,17 @@ Type: <b>HWND</b>
 
 A handle to the owner window of the message box to be created. If this parameter is <b>NULL</b>, the message box has no owner window.
 
-
 ### -param lpText [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 The message to be displayed. If the string consists of more than one line, you can separate the lines using a carriage return and/or linefeed character between each line.
 
-
 ### -param lpCaption [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 The dialog box title. If this parameter is <b>NULL</b>, the default title is <b>Error</b>.
-
 
 ### -param uType [in]
 
@@ -128,7 +123,7 @@ The message box contains three push buttons: <b>Abort</b>, <b>Retry</b>, and <b>
 </dl>
 </td>
 <td width="60%">
- Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="https://docs.microsoft.com/windows/desktop/shell/wm-help">WM_HELP</a> message to the owner.
+ Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="/windows/desktop/shell/wm-help">WM_HELP</a> message to the owner.
 
 </td>
 </tr>
@@ -419,7 +414,7 @@ To specify other options, use one or more of the following values.
 </dl>
 </td>
 <td width="60%">
- Same as desktop of the interactive window station. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>.
+ Same as desktop of the interactive window station. For more information, see <a href="/windows/desktop/winstation/window-stations">Window Stations</a>.
 					
                     		
 					
@@ -458,7 +453,7 @@ Displays message and caption text using right-to-left reading order on Hebrew an
 </dl>
 </td>
 <td width="60%">
-The message box becomes the foreground window. Internally, the system calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
+The message box becomes the foreground window. Internally, the system calls the <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
 
 </td>
 </tr>
@@ -486,23 +481,19 @@ The caller is a service notifying the user of an event. The function displays a 
 
 If this flag is set, the <i>hWnd</i> parameter must be <b>NULL</b>. This is so that the message box can appear on a desktop other than the desktop corresponding to the <i>hWnd</i>.
 
-For information on security considerations in regard to using this flag, see <a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
+For information on security considerations in regard to using this flag, see <a href="/windows/desktop/Services/interactive-services">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>int</b>
 
-If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC has no effect.
+If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC will no effect - unless an MB_OK button is present. If an MB_OK button is displayed and the user presses ESC, the return value will be <b>IDOK</b>.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function succeeds, the return value is one of the following menu-item values.
 
@@ -620,14 +611,8 @@ The <b>Yes</b> button was selected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following system icons can be used in a message box by setting the <i>uType</i> parameter to the corresponding flag value.
 
@@ -697,39 +682,33 @@ int DisplayResourceNAMessageBox()
 
 The following image shows the output from the preceding code example:
 
-<img alt="Message box" src="./images/MessageBox_02.png"/>
+<img alt="Message box" src="./images/messagebox_02.png"/>
 
-For another message box example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Displaying a Message Box</a>.
-
-
-
+For another message box example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Displaying a Message Box</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindow">FlashWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-flashwindow">FlashWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebeep">MessageBeep</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebeep">MessageBeep</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
 
 
 
@@ -741,8 +720,4 @@ For another message box example, see <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>

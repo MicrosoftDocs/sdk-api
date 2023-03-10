@@ -2,15 +2,12 @@
 UID: NE:codecapi.eAVEncDDPreferredStereoDownMixMode
 title: eAVEncDDPreferredStereoDownMixMode (codecapi.h)
 description: Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDPreferredStereoDownMixMode property.
+helpviewer_keywords: ["codecapi/eAVEncDDPreferredStereoDownMixMode","codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo","codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt","dshow.eavencddpreferredstereodownmixmode","eAVEncDDPreferredStereoDownMixMode","eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow]","eAVEncDDPreferredStereoDownMixMode_LoRo","eAVEncDDPreferredStereoDownMixMode_LtRt"]
 old-location: dshow\eavencddpreferredstereodownmixmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3960d0d5-9d82-4ed5-843d-04fdb0538438
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDPreferredStereoDownMixMode, codecapi/eAVEncDDPreferredStereoDownMixMode_LoRo, codecapi/eAVEncDDPreferredStereoDownMixMode_LtRt, dshow.eavencddpreferredstereodownmixmode, eAVEncDDPreferredStereoDownMixMode, eAVEncDDPreferredStereoDownMixMode enumeration [DirectShow], eAVEncDDPreferredStereoDownMixMode_LoRo, eAVEncDDPreferredStereoDownMixMode_LtRt
-f1_keywords:
-- codecapi/eAVEncDDPreferredStereoDownMixMode
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVEncDDPreferredStereoDownMixMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVEncDDPreferredStereoDownMixMode
+ - codecapi/eAVEncDDPreferredStereoDownMixMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVEncDDPreferredStereoDownMixMode
 ---
 
 # eAVEncDDPreferredStereoDownMixMode enumeration
@@ -48,39 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencddpreferredstereodownmixmode-property">AVEncDDPreferredStereoDownMixMode</a> property.
-
-
-
+Specifies the preferred stereo downmix mode for a Dolby Digital audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddpreferredstereodownmixmode-property">AVEncDDPreferredStereoDownMixMode</a> property.
 
 ## -enum-fields
 
-
-
-
-### -field eAVEncDDPreferredStereoDownMixMode_LtRt
+### -field eAVEncDDPreferredStereoDownMixMode_LtRt:0
 
 Left total/right total (Lt/Rt) downmix.
 
-
-### -field eAVEncDDPreferredStereoDownMixMode_LoRo
+### -field eAVEncDDPreferredStereoDownMixMode_LoRo:1
 
 Left only/right only (Lo/Ro) downmix.
 
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

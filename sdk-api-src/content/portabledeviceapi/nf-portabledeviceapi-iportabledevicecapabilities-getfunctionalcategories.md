@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFunctionalCategories
 title: IPortableDeviceCapabilities::GetFunctionalCategories (portabledeviceapi.h)
 description: The GetFunctionalCategories method retrieves all functional categories supported by the device.
+helpviewer_keywords: ["GetFunctionalCategories","GetFunctionalCategories method [Windows Portable Devices SDK]","GetFunctionalCategories method [Windows Portable Devices SDK]","IPortableDeviceCapabilities interface","IPortableDeviceCapabilities interface [Windows Portable Devices SDK]","GetFunctionalCategories method","IPortableDeviceCapabilities.GetFunctionalCategories","IPortableDeviceCapabilities::GetFunctionalCategories","IPortableDeviceCapabilitiesGetFunctionalCategories","portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalCategories","wpdsdk.iportabledevicecapabilities_getfunctionalcategories"]
 old-location: wpdsdk\iportabledevicecapabilities_getfunctionalcategories.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: c444f9d6-7bef-4e0a-bcd8-6a6110986208
 ms.date: 12/05/2018
 ms.keywords: GetFunctionalCategories, GetFunctionalCategories method [Windows Portable Devices SDK], GetFunctionalCategories method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalCategories method, IPortableDeviceCapabilities.GetFunctionalCategories, IPortableDeviceCapabilities::GetFunctionalCategories, IPortableDeviceCapabilitiesGetFunctionalCategories, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalCategories, wpdsdk.iportabledevicecapabilities_getfunctionalcategories
-f1_keywords:
-- portabledeviceapi/IPortableDeviceCapabilities.GetFunctionalCategories
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceCapabilities.GetFunctionalCategories
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceCapabilities::GetFunctionalCategories
+ - portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalCategories
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceCapabilities.GetFunctionalCategories
 ---
 
 # IPortableDeviceCapabilities::GetFunctionalCategories
@@ -49,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetFunctionalCategories</b> method retrieves all functional categories supported by the device.
-      
-
 
 ## -parameters
 
-
-
-
 ### -param ppCategories [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds all the functional categories for this device. The values will be <b>GUID</b>s  of type VT_CLSID in the retrieved <b>PROPVARIANT</b> values. The caller must release this interface when it is done with it.
-          
-
+Address of a variable that receives a pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that holds all the functional categories for this device. The values will be <b>GUID</b>s  of type VT_CLSID in the retrieved <b>PROPVARIANT</b> values. The caller must release this interface when it is done with it.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -89,14 +81,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Functional categories describe the types of functions that a device can perform, such as image capture, audio capture, and storage. This method is typically very fast, because the driver usually queries the device only on startup and caches the results.
       
@@ -104,23 +90,14 @@ Functional categories describe the types of functions that a device can perform,
 
 #### Examples
 
-For an example of how to use this method see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>.
+For an example of how to use this method see <a href="/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>
- 
-
- 
-
+<a href="/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>

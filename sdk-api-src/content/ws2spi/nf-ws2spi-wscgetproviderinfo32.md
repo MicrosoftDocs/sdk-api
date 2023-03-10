@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCGetProviderInfo32
 title: WSCGetProviderInfo32 function (ws2spi.h)
 description: Retrieves the data associated with an information class for a 32-bit layered service provider (LSP).Note  This call is a strictly 32-bit version of WSCGetProviderInfo for use on 64-bit platforms.
+helpviewer_keywords: ["WSCGetProviderInfo32","WSCGetProviderInfo32 function [Winsock]","winsock.wscgetproviderinfo32","ws2spi/WSCGetProviderInfo32"]
 old-location: winsock\wscgetproviderinfo32.htm
 tech.root: WinSock
 ms.assetid: 91686b38-3cde-4979-8bf6-45e805dd37ff
 ms.date: 12/05/2018
 ms.keywords: WSCGetProviderInfo32, WSCGetProviderInfo32 function [Winsock], winsock.wscgetproviderinfo32, ws2spi/WSCGetProviderInfo32
-f1_keywords:
-- ws2spi/WSCGetProviderInfo32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCGetProviderInfo32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCGetProviderInfo32
+ - ws2spi/WSCGetProviderInfo32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCGetProviderInfo32
 ---
 
 # WSCGetProviderInfo32 function
@@ -48,51 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
 **WSCGetProviderInfo32** function retrieves the data associated with an information class  for a 32-bit layered service provider (LSP).<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
-A pointer to a globally unique identifier (GUID)  for the provider. 
-
+A pointer to a globally unique identifier (GUID)  for the provider.
 
 ### -param InfoType [in]
 
 The information class that is requested for this LSP protocol entry.
 
-
 ### -param Info [out]
 
 A pointer to a buffer to receive the information class data for the requested LSP protocol entry. If this parameter is **NULL**, then **WSCGetProviderInfo32** returns failure and the size required for this buffer is returned in the <i>InfoSize</i> parameter.
 
-
 ### -param InfoSize [in, out]
 
-The size, in bytes, of the buffer pointed to by the <i>Info </i>parameter. If the Info parameter is **NULL**, then  **WSCGetProviderInfo32** returns failure and the <i>InfoSize</i> parameter will receive the size of the required buffer.
-
+The size, in bytes, of the buffer pointed to by the <i>Info</i> parameter. If the Info parameter is **NULL**, then  **WSCGetProviderInfo32** returns failure and the <i>InfoSize</i> parameter will receive the size of the required buffer.
 
 ### -param Flags [in]
 
 The flags used to modify the behavior of the **WSCGetProviderInfo32** function call.
 
-
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If no error occurs, **WSCGetProviderInfo32** returns **ERROR_SUCCESS** (zero). Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
@@ -168,14 +156,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCGetProviderInfo32** is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscgetproviderinfo">WSCGetProviderInfo</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
@@ -248,13 +230,7 @@ An LSP may belong to more than one category.  For example, a firewall/security L
 
 If an LSP does not have a category set, it is considered to be in the All Other category. This LSP category will not be loaded in services or system processes (for example, lsass, winlogon, and many svchost processes).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/WinSock/categorizing-layered-service-providers-and-applications">Categorizing Layered Service Providers and Applications</a>
 
@@ -281,7 +257,3 @@ If an LSP does not have a category set, it is considered to be in the All Other 
 
 
 <a href="/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
- 
-
- 
-

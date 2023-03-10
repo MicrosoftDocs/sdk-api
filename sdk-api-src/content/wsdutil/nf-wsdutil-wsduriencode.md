@@ -2,15 +2,12 @@
 UID: NF:wsdutil.WSDUriEncode
 title: WSDUriEncode function (wsdutil.h)
 description: Encodes a URI according to URI encoding rules in RFC2396.
+helpviewer_keywords: ["WSDUriEncode","WSDUriEncode function","ncd.wsduriencode","wsdutil/WSDUriEncode"]
 old-location: ncd\wsduriencode.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 3d086ac8-0c14-46fb-baa5-b1d89b86ebbb
 ms.date: 12/05/2018
 ms.keywords: WSDUriEncode, WSDUriEncode function, ncd.wsduriencode, wsdutil/WSDUriEncode
-f1_keywords:
-- wsdutil/WSDUriEncode
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDUriEncode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDUriEncode
+ - wsdutil/WSDUriEncode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDUriEncode
 ---
 
 # WSDUriEncode function
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encodes a URI according to URI encoding rules in RFC2396.
 
-
 ## -parameters
-
-
-
 
 ### -param source [in]
 
 Contains the URI to be encoded.
 
-
 ### -param cchSource [in]
 
 Specifies the length of <i>source</i> in characters.
 
-
 ### -param destOut [out]
 
-Pointer to a string that contains the encoded URI.  If <i>destOut</i> is not <b>NULL</b>, the calling application should free the allocated string by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
-
+Pointer to a string that contains the encoded URI.  If <i>destOut</i> is not <b>NULL</b>, the calling application should free the allocated string by calling <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
 
 ### -param cchDestOut [out, optional]
 
 Specifies the length of <i>destOut</i> in characters.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -133,18 +124,9 @@ The length in characters of <i>source</i> exceeds <b>WSD_MAX_TEXT_LENGTH</b> (81
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>WSDUriEncode</b> encodes certain characters in <i>source</i> into an escaped encoding format of %XY, where X and Y are hexadecimal digits corresponding to the single-byte representation of that character.  Wide characters that occupy multiple bytes are first rendered into UTF-8 multi-byte format, and then escaped into encoded characters.
 
 <b>WSDUriEncode</b> does not encode single-byte alphanumeric characters.  It does encode percent signs (%) in <i>source</i>.
-
-
-

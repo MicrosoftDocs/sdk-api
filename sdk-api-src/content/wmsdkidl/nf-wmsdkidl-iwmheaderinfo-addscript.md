@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMHeaderInfo.AddScript
 title: IWMHeaderInfo::AddScript (wmsdkidl.h)
 description: The AddScript method adds a script, consisting of type and command strings, and a specific time, to the header section of the ASF file.
+helpviewer_keywords: ["AddScript","AddScript method [windows Media Format]","AddScript method [windows Media Format]","IWMHeaderInfo interface","AddScript method [windows Media Format]","IWMHeaderInfo2 interface","AddScript method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","AddScript method","IWMHeaderInfo.AddScript","IWMHeaderInfo2 interface [windows Media Format]","AddScript method","IWMHeaderInfo2::AddScript","IWMHeaderInfo3 interface [windows Media Format]","AddScript method","IWMHeaderInfo3::AddScript","IWMHeaderInfo::AddScript","IWMHeaderInfoAddScript","wmformat.iwmheaderinfo_addscript","wmsdkidl/IWMHeaderInfo2::AddScript","wmsdkidl/IWMHeaderInfo3::AddScript","wmsdkidl/IWMHeaderInfo::AddScript"]
 old-location: wmformat\iwmheaderinfo_addscript.htm
 tech.root: wmformat
 ms.assetid: e20644fb-077e-4eee-8802-6099002f3969
 ms.date: 12/05/2018
 ms.keywords: AddScript, AddScript method [windows Media Format], AddScript method [windows Media Format],IWMHeaderInfo interface, AddScript method [windows Media Format],IWMHeaderInfo2 interface, AddScript method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],AddScript method, IWMHeaderInfo.AddScript, IWMHeaderInfo2 interface [windows Media Format],AddScript method, IWMHeaderInfo2::AddScript, IWMHeaderInfo3 interface [windows Media Format],AddScript method, IWMHeaderInfo3::AddScript, IWMHeaderInfo::AddScript, IWMHeaderInfoAddScript, wmformat.iwmheaderinfo_addscript, wmsdkidl/IWMHeaderInfo2::AddScript, wmsdkidl/IWMHeaderInfo3::AddScript, wmsdkidl/IWMHeaderInfo::AddScript
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo.AddScript
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMHeaderInfo.AddScript
-- IWMHeaderInfo2.AddScript
-- IWMHeaderInfo3.AddScript
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo::AddScript
+ - wmsdkidl/IWMHeaderInfo::AddScript
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMHeaderInfo.AddScript
+ - IWMHeaderInfo2.AddScript
+ - IWMHeaderInfo3.AddScript
 ---
 
 # IWMHeaderInfo::AddScript
@@ -54,36 +56,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>AddScript</b> method adds a script, consisting of type and command strings, and a specific time, to the header section of the ASF file. 
-
-
-
+The <b>AddScript</b> method adds a script, consisting of type and command strings, and a specific time, to the header section of the ASF file.
 
 ## -parameters
-
-
-
 
 ### -param pwszType [in]
 
 Pointer to a wide-character null-terminated string containing the type. Script types are limited to 1024 wide characters.
 
-
 ### -param pwszCommand [in]
 
 Pointer to a wide-character null-terminated string containing the command. Script commands are limited to 10240 wide characters.
-
 
 ### -param cnsScriptTime [in]
 
 The script time in 100-nanosecond increments.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -148,14 +137,8 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before <b>BeginWriting</b> has been called, the writer only supports <b>AddScript</b>. The reader does not support <b>AddScript</b>, and always returns E_NOTIMPL.
 
@@ -163,36 +146,26 @@ You should not add a large number of script commands to the file header if the f
 
 When using DRM to encrypt a file, no script command can have a presentation time of 0.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscript">IWMHeaderInfo::GetScript</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscript">IWMHeaderInfo::GetScript</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removescript">IWMHeaderInfo::RemoveScript</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removescript">IWMHeaderInfo::RemoveScript</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-script-commands">Using Script Commands</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/using-script-commands">Using Script Commands</a>

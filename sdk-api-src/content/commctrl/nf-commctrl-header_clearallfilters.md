@@ -2,15 +2,12 @@
 UID: NF:commctrl.Header_ClearAllFilters
 title: Header_ClearAllFilters macro (commctrl.h)
 description: Clears all of the filters for a given header control. You can use this macro or send the HDM_CLEARFILTER message explicitly.
+helpviewer_keywords: ["Header_ClearAllFilters","Header_ClearAllFilters macro [Windows Controls]","_win32_Header_ClearAllFilters","_win32_Header_ClearAllFilters_cpp","commctrl/Header_ClearAllFilters","controls.Header_ClearAllFilters","controls._win32_Header_ClearAllFilters"]
 old-location: controls\Header_ClearAllFilters.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_clearallfilters.htm
 ms.date: 12/05/2018
 ms.keywords: Header_ClearAllFilters, Header_ClearAllFilters macro [Windows Controls], _win32_Header_ClearAllFilters, _win32_Header_ClearAllFilters_cpp, commctrl/Header_ClearAllFilters, controls.Header_ClearAllFilters, controls._win32_Header_ClearAllFilters
-f1_keywords:
-- commctrl/Header_ClearAllFilters
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Header_ClearAllFilters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Header_ClearAllFilters
+ - commctrl/Header_ClearAllFilters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Header_ClearAllFilters
 ---
 
 # Header_ClearAllFilters macro
@@ -48,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Clears all of the filters for a given header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-clearfilter">HDM_CLEARFILTER</a> message explicitly. 
-
+Clears all of the filters for a given header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-clearfilter">HDM_CLEARFILTER</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the header control. 
-
+A handle to the header control.
 
 ## -remarks
 
-
-
-When all the filters are cleared, the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a> notification will be sent only once. 
-
-
-
+When all the filters are cleared, the <a href="/windows/desktop/Controls/hdn-filterchange">HDN_FILTERCHANGE</a> notification will be sent only once.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-header_clearfilter">Header_ClearFilter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-header_clearfilter">Header_ClearFilter</a>

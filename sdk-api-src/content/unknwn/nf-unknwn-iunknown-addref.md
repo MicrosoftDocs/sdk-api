@@ -2,15 +2,12 @@
 UID: NF:unknwn.IUnknown.AddRef
 title: IUnknown::AddRef
 description: Increments the reference count for an interface pointer to a COM object. You should call this method whenever you make a copy of an interface pointer.
+helpviewer_keywords: ["AddRef","AddRef method [COM]","AddRef method [COM]","IUnknown interface","IUnknown interface [COM]","AddRef method","IUnknown.AddRef","IUnknown::AddRef","_com_iunknown_addref","com.iunknown_addref","unknwn/IUnknown::AddRef"]
 old-location: com\iunknown_addref.htm
 tech.root: com
 ms.assetid: b4316efd-73d4-4995-b898-8025a316ba63
 ms.date: 05/31/2019
 ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface, IUnknown interface [COM],AddRef method, IUnknown.AddRef, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwn/IUnknown::AddRef
-f1_keywords:
-- unknwn/IUnknown.AddRef
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Unknwn.h
-api_name:
-- IUnknown.AddRef
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUnknown::AddRef
+ - unknwn/IUnknown::AddRef
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Unknwn.h
+api_name:
+ - IUnknown.AddRef
 ---
 
 ## -description
 
 Increments the reference count for an interface pointer to a COM object. You should call this method whenever you make a copy of an interface pointer
 
-## -parameters
+
 
 ## -returns
 
@@ -66,3 +68,4 @@ Call this method for every new copy of an interface pointer that you make. For e
 ## -see-also
 
 * [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown)
+

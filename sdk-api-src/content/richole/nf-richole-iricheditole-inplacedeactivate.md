@@ -2,15 +2,12 @@
 UID: NF:richole.IRichEditOle.InPlaceDeactivate
 title: IRichEditOle::InPlaceDeactivate (richole.h)
 description: Indicates when a rich edit control is to deactivate the currently active in-place object, if any.
+helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","InPlaceDeactivate method","IRichEditOle.InPlaceDeactivate","IRichEditOle::InPlaceDeactivate","InPlaceDeactivate","InPlaceDeactivate method [Windows Controls]","InPlaceDeactivate method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_InPlaceDeactivate","_win32_IRichEditOle_InPlaceDeactivate_cpp","controls.IRichEditOle_InPlaceDeactivate","controls._win32_IRichEditOle_InPlaceDeactivate","richole/IRichEditOle::InPlaceDeactivate"]
 old-location: controls\IRichEditOle_InPlaceDeactivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleinplacedeactivate.htm
 ms.date: 12/05/2018
 ms.keywords: IRichEditOle interface [Windows Controls],InPlaceDeactivate method, IRichEditOle.InPlaceDeactivate, IRichEditOle::InPlaceDeactivate, InPlaceDeactivate, InPlaceDeactivate method [Windows Controls], InPlaceDeactivate method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_InPlaceDeactivate, _win32_IRichEditOle_InPlaceDeactivate_cpp, controls.IRichEditOle_InPlaceDeactivate, controls._win32_IRichEditOle_InPlaceDeactivate, richole/IRichEditOle::InPlaceDeactivate
-f1_keywords:
-- richole/IRichEditOle.InPlaceDeactivate
-dev_langs:
-- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- IRichEditOle.InPlaceDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRichEditOle::InPlaceDeactivate
+ - richole/IRichEditOle::InPlaceDeactivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - IRichEditOle.InPlaceDeactivate
 ---
 
 # IRichEditOle::InPlaceDeactivate
@@ -48,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates when a rich edit control is to deactivate the currently active in-place object, if any.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK on success, or a failure code otherwise. If there is no active in-place object, the method succeeds.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>

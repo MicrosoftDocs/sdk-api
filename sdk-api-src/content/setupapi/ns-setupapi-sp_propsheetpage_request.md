@@ -2,15 +2,12 @@
 UID: NS:setupapi._SP_PROPSHEETPAGE_REQUEST
 title: SP_PROPSHEETPAGE_REQUEST (setupapi.h)
 description: An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (lpv) to the ExtensionPropSheetPageProc entry point in the SetupAPI DLL.
+helpviewer_keywords: ["*PSP_PROPSHEETPAGE_REQUEST","PSP_PROPSHEETPAGE_REQUEST","PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation]","SP_PROPSHEETPAGE_REQUEST","SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation]","devinst.sp_propsheetpage_request","di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml","setupapi/PSP_PROPSHEETPAGE_REQUEST","setupapi/SP_PROPSHEETPAGE_REQUEST"]
 old-location: devinst\sp_propsheetpage_request.htm
 tech.root: devinst
 ms.assetid: f9a4e685-e396-4b2f-a452-14389eb44620
 ms.date: 12/05/2018
 ms.keywords: '*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation], SP_PROPSHEETPAGE_REQUEST, SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation], devinst.sp_propsheetpage_request, di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml, setupapi/PSP_PROPSHEETPAGE_REQUEST, setupapi/SP_PROPSHEETPAGE_REQUEST'
-f1_keywords:
-- setupapi/SP_PROPSHEETPAGE_REQUEST
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- setupapi.h
-api_name:
-- SP_PROPSHEETPAGE_REQUEST
 targetos: Windows
 req.typenames: SP_PROPSHEETPAGE_REQUEST, *PSP_PROPSHEETPAGE_REQUEST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_PROPSHEETPAGE_REQUEST
+ - setupapi/_SP_PROPSHEETPAGE_REQUEST
+ - PSP_PROPSHEETPAGE_REQUEST
+ - setupapi/PSP_PROPSHEETPAGE_REQUEST
+ - SP_PROPSHEETPAGE_REQUEST
+ - setupapi/SP_PROPSHEETPAGE_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - setupapi.h
+api_name:
+ - SP_PROPSHEETPAGE_REQUEST
 ---
 
 # SP_PROPSHEETPAGE_REQUEST structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (<i>lpv</i>) to the <b>ExtensionPropSheetPageProc</b> entry point in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi">SetupAPI</a> DLL. <b>ExtensionPropSheetPageProc</b> is used to retrieve a handle to a specified property sheet page.
+An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (<i>lpv</i>) to the <b>ExtensionPropSheetPageProc</b> entry point in the <a href="/windows-hardware/drivers/install/setupapi">SetupAPI</a> DLL. <b>ExtensionPropSheetPageProc</b> is used to retrieve a handle to a specified property sheet page.
 
 For information about <b>ExtensionPropSheetPageProc</b> and related functions, see the Microsoft Windows SDK documentation.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
-The size, in bytes, of the SP_PROPSHEETPAGE_REQUEST structure. 
-
+The size, in bytes, of the SP_PROPSHEETPAGE_REQUEST structure.
 
 ### -field PageRequested
 
@@ -80,30 +80,25 @@ Specifies the Resource Selection page supplied by the SetupAPI DLL.
 
 #### SPPSR_ENUM_BASIC_DEVICE_PROPERTIES
 
-Specifies a page that is supplied by the device's BasicProperties32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-addpropertypage-basic">DIF_ADDPROPERTYPAGE_BASIC</a> installation request. 
+Specifies a page that is supplied by the device's BasicProperties32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="/windows-hardware/drivers/install/dif-addpropertypage-basic">DIF_ADDPROPERTYPAGE_BASIC</a> installation request. 
 
 
 
 #### SPPSR_ENUM_ADV_DEVICE_PROPERTIES
 
-Specifies a page that is supplied by the class and/or the device's EnumPropPages32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-addpropertypage-advanced">DIF_ADDPROPERTYPAGE_ADVANCED</a> installation request.
-
+Specifies a page that is supplied by the class and/or the device's EnumPropPages32 provider. That is, an installer or other component that supplied page(s) in response to a <a href="/windows-hardware/drivers/install/dif-addpropertypage-advanced">DIF_ADDPROPERTYPAGE_ADVANCED</a> installation request.
 
 ### -field DeviceInfoSet
 
 The handle for the device information set that contains the device being installed.
 
-
 ### -field DeviceInfoData
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device being installed.
-
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure for the device being installed.
 
 ## -remarks
 
-
-
-The component that is retrieving the property pages calls SetupAPI's <b>ExtensionPropSheetPageProc</b> function and passes in a pointer to a SP_PROPSHEETPAGE_REQUEST structure, the address of their  <b>AddPropSheetPageProc </b>function, and some private data. The property sheet provider calls the <b>AddPropSheetPageProc</b> routine for each property sheet it provides. 
+The component that is retrieving the property pages calls SetupAPI's <b>ExtensionPropSheetPageProc</b> function and passes in a pointer to a SP_PROPSHEETPAGE_REQUEST structure, the address of their  <b>AddPropSheetPageProc </b> function, and some private data. The property sheet provider calls the <b>AddPropSheetPageProc</b> routine for each property sheet it provides. 
 
 The following code excerpt shows how to retrieve one page, the SetupAPI's Resource Selection page:
 
@@ -163,21 +158,10 @@ AddPropSheetPageProc(
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/install/dif-addpropertypage-advanced">DIF_ADDPROPERTYPAGE_ADVANCED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-addpropertypage-advanced">DIF_ADDPROPERTYPAGE_ADVANCED</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-addpropertypage-basic">DIF_ADDPROPERTYPAGE_BASIC</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/install/dif-addpropertypage-basic">DIF_ADDPROPERTYPAGE_BASIC</a>

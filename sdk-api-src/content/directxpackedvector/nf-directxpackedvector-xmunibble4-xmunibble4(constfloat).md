@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(const float)
+UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(constfloat)
 title: XMUNIBBLE4::XMUNIBBLE4(const float) (directxpackedvector.h)
 description: Initializes a new instance of **XMUNIBBLE4** from a four element float array argument.
+helpviewer_keywords: ["XMUNIBBLE4","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 structure","XMUNIBBLE4 structure [DirectX Math Support APIs]","XMUNIBBLE4 constructor","XMUNIBBLE4.XMUNIBBLE4","XMUNIBBLE4.XMUNIBBLE4()","XMUNIBBLE4.XMUNIBBLE4(const float)","XMUNIBBLE4::XMUNIBBLE4","XMUNIBBLE4::XMUNIBBLE4(const float)","dxmath.xmunibble4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 0ea8d7fa-2600-44eb-8d6a-a36364f98f17
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4.XMUNIBBLE4(const float), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(const float), dxmath.xmunibble4_ctor_1
-f1_keywords:
-- directxpackedvector/XMUNIBBLE4.XMUNIBBLE4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUNIBBLE4.XMUNIBBLE4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUNIBBLE4::XMUNIBBLE4
+ - directxpackedvector/XMUNIBBLE4::XMUNIBBLE4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUNIBBLE4.XMUNIBBLE4
 ---
 
 # XMUNIBBLE4::XMUNIBBLE4(const float)
@@ -48,7 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of XMUNIBBLE4 from a from a four element <code>float</code> array argument.
 
@@ -90,6 +92,6 @@ instance.v =  ( (uint16_t)_w1 << 12) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
+<a href="/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>

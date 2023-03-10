@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IAccessibleEx.GetObjectForChild
 title: IAccessibleEx::GetObjectForChild (uiautomationcore.h)
 description: Retrieves an IAccessibleEx interface representing the specified child of this element.
+helpviewer_keywords: ["GetObjectForChild","GetObjectForChild method [Windows Accessibility]","GetObjectForChild method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","GetObjectForChild method","IAccessibleEx.GetObjectForChild","IAccessibleEx::GetObjectForChild","uiauto.uiauto_IAccessibleEx_GetObjectForChild","uiauto_IAccessibleEx_GetObjectForChild","uiautomationcore/IAccessibleEx::GetObjectForChild","winauto.uiauto_IAccessibleEx_GetObjectForChild"]
 old-location: winauto\uiauto_IAccessibleEx_GetObjectForChild.htm
 tech.root: WinAuto
 ms.assetid: fbb279cc-2224-437e-875b-d08df175edf1
 ms.date: 12/05/2018
 ms.keywords: GetObjectForChild, GetObjectForChild method [Windows Accessibility], GetObjectForChild method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],GetObjectForChild method, IAccessibleEx.GetObjectForChild, IAccessibleEx::GetObjectForChild, uiauto.uiauto_IAccessibleEx_GetObjectForChild, uiauto_IAccessibleEx_GetObjectForChild, uiautomationcore/IAccessibleEx::GetObjectForChild, winauto.uiauto_IAccessibleEx_GetObjectForChild
-f1_keywords:
-- uiautomationcore/IAccessibleEx.GetObjectForChild
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IAccessibleEx.GetObjectForChild
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessibleEx::GetObjectForChild
+ - uiautomationcore/IAccessibleEx::GetObjectForChild
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IAccessibleEx.GetObjectForChild
 ---
 
 # IAccessibleEx::GetObjectForChild
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface representing the specified child of this element.
-
+Retrieves an <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface representing the specified child of this element.
 
 ## -parameters
-
-
-
 
 ### -param idChild [in]
 
@@ -63,43 +60,24 @@ Type: <b>long</b>
 
 The identifier of the child element.
 
-
 ### -param pRetVal [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>**</b>
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
+<i>pRetVal</i> returns <b>NULL</b> if this implementation does not use child IDs, or cannot provide an <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface for the specified child, or itself represents a child element.
 
-
-<i>pRetVal</i> returns <b>NULL</b> if this implementation does not use child IDs, or cannot provide an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a> interface for the specified child, or itself represents a child element.
-
-<i>idChild</i> must represent an actual MSAA child element, not an object that has its own <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
-
-
-
+<i>idChild</i> must represent an actual MSAA child element, not an object that has its own <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>

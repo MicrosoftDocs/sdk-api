@@ -2,15 +2,12 @@
 UID: NF:msi.MsiSetExternalUIRecord
 title: MsiSetExternalUIRecord function (msi.h)
 description: The MsiSetExternalUIRecord function enables an external user-interface (UI) handler.
+helpviewer_keywords: ["INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_FILESINUSE","INSTALLLOGMODE_INFO","INSTALLLOGMODE_INITIALIZE","INSTALLLOGMODE_INSTALLEND","INSTALLLOGMODE_INSTALLSTART","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROGRESS","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_RMFILESINUSE","INSTALLLOGMODE_SHOWDIALOG","INSTALLLOGMODE_TERMINATE","INSTALLLOGMODE_USER","INSTALLLOGMODE_WARNING","MsiSetExternalUIRecord","MsiSetExternalUIRecord function","msi/MsiSetExternalUIRecord","setup.msisetexternaluirecord"]
 old-location: setup\msisetexternaluirecord.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df
 ms.date: 12/05/2018
 ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_FILESINUSE, INSTALLLOGMODE_INFO, INSTALLLOGMODE_INITIALIZE, INSTALLLOGMODE_INSTALLEND, INSTALLLOGMODE_INSTALLSTART, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROGRESS, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_RMFILESINUSE, INSTALLLOGMODE_SHOWDIALOG, INSTALLLOGMODE_TERMINATE, INSTALLLOGMODE_USER, INSTALLLOGMODE_WARNING, MsiSetExternalUIRecord, MsiSetExternalUIRecord function, msi/MsiSetExternalUIRecord, setup.msisetexternaluirecord
-f1_keywords:
-- msi/MsiSetExternalUIRecord
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiSetExternalUIRecord
-- MsiSetExternalUIRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSetExternalUIRecord
+ - msi/MsiSetExternalUIRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiSetExternalUIRecord
+ - MsiSetExternalUIRecord
 ---
 
 # MsiSetExternalUIRecord function
@@ -50,26 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiSetExternalUIRecord</b> function enables an external user-interface (UI) handler.
-
 
 ## -parameters
 
-
-
-
 ### -param puiHandler [in]
 
-Specifies a callback function that conforms to the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> specification.
+Specifies a callback function that conforms to the <a href="/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> specification.
 
 To disable the current external UI handler, call the function with this parameter set to a <b>NULL</b> value.
-
 
 ### -param dwMessageFilter [in]
 
 Specifies which messages to handle using the external message handler. If the external handler returns a non-zero result, then that message is not sent to the UI, instead the message is logged if logging is enabled. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienableloga">MsiEnableLog</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msienableloga">MsiEnableLog</a>.
 
 <table>
 <tr>
@@ -84,7 +80,7 @@ Specifies which messages to handle using the external message handler. If the ex
 <td width="60%">
 Files in use information.
 
-When this message is received, a <a href="https://docs.microsoft.com/windows/desktop/Msi/filesinuse-dialog">FilesInUse Dialog</a> should be displayed.
+When this message is received, a <a href="/windows/desktop/Msi/filesinuse-dialog">FilesInUse Dialog</a> should be displayed.
 
 </td>
 </tr>
@@ -154,7 +150,7 @@ Request to determine a valid source location.
 </dl>
 </td>
 <td width="60%">
-Files in use information.  When this message is received, a <a href="https://docs.microsoft.com/windows/desktop/Msi/msirmfilesinuse-dialog">MsiRMFilesInUse Dialog</a> should be displayed.
+Files in use information.  When this message is received, a <a href="/windows/desktop/Msi/msirmfilesinuse-dialog">MsiRMFilesInUse Dialog</a> should be displayed.
 
 </td>
 </tr>
@@ -204,10 +200,10 @@ The parameters for user-interface initialization are logged.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/p-gly">Progress bar</a> information.
+The <a href="/windows/desktop/Msi/p-gly">Progress bar</a> information.
 
 This message includes information about units so far and total number of units. This message is only sent to an external user interface and is not logged. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiprocessmessage">MsiProcessMessage</a>.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msiprocessmessage">MsiProcessMessage</a>.
 
 </td>
 </tr>
@@ -217,9 +213,9 @@ This message includes information about units so far and total number of units. 
 </dl>
 </td>
 <td width="60%">
-If this is not a quiet installation, then the <a href="https://docs.microsoft.com/windows/desktop/Msi/b-gly">basic UI</a> is initialized.
+If this is not a quiet installation, then the <a href="/windows/desktop/Msi/b-gly">basic UI</a> is initialized.
 
-If this is a full UI installation, the <a href="https://docs.microsoft.com/windows/desktop/Msi/f-gly">Full UI</a> is not yet initialized.
+If this is a full UI installation, the <a href="/windows/desktop/Msi/f-gly">Full UI</a> is not yet initialized.
 
 This message is only sent to an external user interface and is not logged.
 
@@ -276,8 +272,6 @@ The message contains the product's ProductName, ProductCode, and return value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvContext [in]
 
@@ -285,15 +279,11 @@ A pointer to an application context that is passed to the callback function.
 
 This parameter can be used for error checking.
 
-
 ### -param ppuiPrevHandler [out, optional]
 
-Returns the pointer to the previously set callback function that conforms to the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> specification, or <b>NULL</b> if no callback is previously set.
-
+Returns the pointer to the previously set callback function that conforms to the <a href="/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> specification, or <b>NULL</b> if no callback is previously set.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -325,49 +315,33 @@ This function cannot be called from a custom action.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This function cannot be called from <a href="/windows/desktop/Msi/custom-actions">Custom Actions</a>.
+
+The external UI handler enabled by calling <b>MsiSetExternalUIRecord</b> receives messages in the format of a <a href="/windows/desktop/Msi/record-object">Record Object</a>. The external UI handler enabled by calling <a href="/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> receives messages in the format of a string. An external UI is always called before the Windows Installer internal UI. An enabled record-based external UI is called before any string-based external UI. If the record-based external UI handler returns 0 (zero), the message is sent to any enabled string-based external UI handler. If the external UI handler returns a non-zero value, the internal Windows Installer UI handler is suppressed and the messages are considered handled.
 
 
-This function cannot be called from <a href="https://docs.microsoft.com/windows/desktop/Msi/custom-actions">Custom Actions</a>.
-
-The external UI handler enabled by calling <b>MsiSetExternalUIRecord</b> receives messages in the format of a <a href="https://docs.microsoft.com/windows/desktop/Msi/record-object">Record Object</a>. The external UI handler enabled by calling <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> receives messages in the format of a string. An external UI is always called before the Windows Installer internal UI. An enabled record-based external UI is called before any string-based external UI. If the record-based external UI handler returns 0 (zero), the message is sent to any enabled string-based external UI handler. If the external UI handler returns a non-zero value, the internal Windows Installer UI handler is suppressed and the messages are considered handled.
-
-
-This function stores the external user interfaces it has set.  To replace the current external UI handler with a previous handler, call the function and specify the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> as the <i>puiHandler</i> parameter and 0 (zero) as the <i>dwMessageFilter</i> parameter.
+This function stores the external user interfaces it has set.  To replace the current external UI handler with a previous handler, call the function and specify the <a href="/windows/desktop/api/msi/nc-msi-installui_handler_record">INSTALLUI_HANDLER_RECORD</a> as the <i>puiHandler</i> parameter and 0 (zero) as the <i>dwMessageFilter</i> parameter.
 
 The external user interface handler pointed to by the <i>puiHandler</i> parameter does not have full control over the external user interface unless 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> is called with the <i>dwUILevel</i> parameter set to INSTALLUILEVEL_NONE. If 
+<a href="/windows/desktop/api/msi/nf-msi-msisetinternalui">MsiSetInternalUI</a> is called with the <i>dwUILevel</i> parameter set to INSTALLUILEVEL_NONE. If 
 <b>MsiSetInternalUI</b> is not called, the internal user interface level defaults to INSTALLUILEVEL_BASIC. As a result, any message not handled by the external user interface handler is handled by Windows Installer. The initial "Preparing to install. . ." dialog always appears even if the external user interface handler handles all messages.
-    <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> should only be called from an 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/bootstrapping">Bootstrapping</a> application. You cannot call 
+    <a href="/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> should only be called from an 
+<a href="/windows/desktop/Msi/bootstrapping">Bootstrapping</a> application. You cannot call 
 <b>MsiSetExternalUI</b> from a custom action.
 
 To disable this external UI handler, call <b>MsiSetExternalUIRecord</b> with a <b>NULL</b> value for the <i>puiHandler</i> parameter.
 
 <b>Windows Installer 2.0 and Windows Installer 3.0:  </b>Not supported. The <b>MsiSetExternalUIRecord</b> function is available beginning with Windows Installer 3.1.
 
-For more information about using a record-based external handler, see <a href="https://docs.microsoft.com/windows/desktop/Msi/monitoring-an-installation-using-msisetexternaluirecord">Monitoring an Installation Using MsiSetExternalUIRecord</a>.
-
-
-
+For more information about using a record-based external handler, see <a href="/windows/desktop/Msi/monitoring-an-installation-using-msisetexternaluirecord">Monitoring an Installation Using MsiSetExternalUIRecord</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>

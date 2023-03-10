@@ -2,15 +2,12 @@
 UID: NF:windowsdefender.WDStatus
 title: WDStatus function (windowsdefender.h)
 description: Returns the current status of Windows Defender.
+helpviewer_keywords: ["WDStatus","WDStatus function [Legacy Windows Environment Features]","lwef.defender_wdstatus","shell.defender_wdstatus","shell_defender_WDStatus","windowsdefender/WDStatus"]
 old-location: lwef\defender_wdstatus.htm
 tech.root: lwef
 ms.assetid: 885729a7-13a4-401e-ad7b-4f679777531b
 ms.date: 12/05/2018
 ms.keywords: WDStatus, WDStatus function [Legacy Windows Environment Features], lwef.defender_wdstatus, shell.defender_wdstatus, shell_defender_WDStatus, windowsdefender/WDStatus
-f1_keywords:
-- windowsdefender/WDStatus
-dev_langs:
-- c++
 req.header: windowsdefender.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MpClient.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- MpClient.dll
-api_name:
-- WDStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WDStatus
+ - windowsdefender/WDStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - MpClient.dll
+api_name:
+ - WDStatus
 ---
 
 # WDStatus function
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns the current status of Windows Defender. 
-
+Returns the current status of Windows Defender.
 
 ## -parameters
-
-
-
 
 ### -param pfEnabled [out]
 
 Type: <b>BOOL*</b>
 
-The status of Windows Defender as a boolean. <b>TRUE</b> means Windows Defender is in enabled status. <b>FALSE</b> means Windows Defender is in disabled status. 
-
+The status of Windows Defender as a boolean. <b>TRUE</b> means Windows Defender is in enabled status. <b>FALSE</b> means Windows Defender is in disabled status.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsdefender/nf-windowsdefender-wdenable">WDEnable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windowsdefender/nf-windowsdefender-wdenable">WDEnable</a>

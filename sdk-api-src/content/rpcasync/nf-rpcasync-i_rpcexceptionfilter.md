@@ -2,12 +2,10 @@
 UID: NF:rpcasync.I_RpcExceptionFilter
 title: I_RpcExceptionFilter
 description: Determines whether an exception is fatal or non-fatal
+tech.root: rpc
+helpviewer_keywords: ["I_RpcExceptionFilter"]
 ms.date: 4/26/2019
 ms.keywords: I_RpcExceptionFilter
-f1_keywords:
-- I_RpcExceptionFilter
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -22,20 +20,25 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - I_RpcExceptionFilter
+ - rpcasync/I_RpcExceptionFilter
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- rpcrt4.dll
+ - rpcrt4.dll
 api_name:
-- I_RpcExceptionFilter
+ - I_RpcExceptionFilter
 ---
 
 ## -description

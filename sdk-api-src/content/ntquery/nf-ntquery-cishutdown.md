@@ -2,6 +2,7 @@
 UID: NF:ntquery.CIShutdown
 title: CIShutdown function (ntquery.h)
 description: Shuts down the content indexer and closes all open catalogs.
+helpviewer_keywords: ["CIShutdown","CIShutdown function [Windows Shell]","_shell_CIShutdown","ntquery/CIShutdown","shell.CIShutdown"]
 old-location: shell\CIShutdown.htm
 tech.root: shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
@@ -54,7 +55,7 @@ Shuts down the content indexer and closes all open catalogs.
             
 <div class="alert"><b>Note</b>  This function is not supported as of Windows 8.</div><div> </div>
 
-## -parameters
+
 
 
 
@@ -74,7 +75,4 @@ This function does not return a value.
 
 
 
-This function does not have an associated header or library file. To use this function, call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> with the DLL name (Query.dll) to obtain a module handle, and then call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> with that module handle and an architecture-specific function name to get the address of this function. Specify the function name as "<b>?CIShutdown@@YGXXZ</b>" for x86 architecture, or as "<b>?CIShutdown@@YAXXZ</b>" for x64 architecture.
-
-
-
+This function does not have an associated header or library file. To use this function, call <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> with the DLL name (Query.dll) to obtain a module handle, and then call <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> with that module handle and an architecture-specific function name to get the address of this function. Specify the function name as "<b>?CIShutdown@@YGXXZ</b>" for x86 architecture, or as "<b>?CIShutdown@@YAXXZ</b>" for x64 architecture.

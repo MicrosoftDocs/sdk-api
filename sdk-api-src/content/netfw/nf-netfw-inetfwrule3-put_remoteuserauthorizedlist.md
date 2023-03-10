@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule3.put_RemoteUserAuthorizedList
 title: INetFwRule3::put_RemoteUserAuthorizedList (netfw.h)
-description: Specifies a list of remote users who are authorized to access an app container.
+description: Specifies a list of remote users who are authorized to access an app container. (Put)
+helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","RemoteUserAuthorizedList property","INetFwRule3.RemoteUserAuthorizedList","INetFwRule3.put_RemoteUserAuthorizedList","INetFwRule3::RemoteUserAuthorizedList","INetFwRule3::get_RemoteUserAuthorizedList","INetFwRule3::put_RemoteUserAuthorizedList","RemoteUserAuthorizedList property [ICS/ICF]","RemoteUserAuthorizedList property [ICS/ICF]","INetFwRule3 interface","ics.inetfwrule3_remoteuserauthorizedlist","netfw/INetFwRule3::RemoteUserAuthorizedList","netfw/INetFwRule3::get_RemoteUserAuthorizedList","netfw/INetFwRule3::put_RemoteUserAuthorizedList","put_RemoteUserAuthorizedList"]
 old-location: ics\inetfwrule3_remoteuserauthorizedlist.htm
 tech.root: ics
 ms.assetid: 9364d317-b32a-4b8d-b67a-32a34b64a5ac
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],RemoteUserAuthorizedList property, INetFwRule3.RemoteUserAuthorizedList, INetFwRule3.put_RemoteUserAuthorizedList, INetFwRule3::RemoteUserAuthorizedList, INetFwRule3::get_RemoteUserAuthorizedList, INetFwRule3::put_RemoteUserAuthorizedList, RemoteUserAuthorizedList property [ICS/ICF], RemoteUserAuthorizedList property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_remoteuserauthorizedlist, netfw/INetFwRule3::RemoteUserAuthorizedList, netfw/INetFwRule3::get_RemoteUserAuthorizedList, netfw/INetFwRule3::put_RemoteUserAuthorizedList, put_RemoteUserAuthorizedList
-f1_keywords:
-- netfw/INetFwRule3.RemoteUserAuthorizedList
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule3.RemoteUserAuthorizedList
-- INetFwRule3.get_RemoteUserAuthorizedList
-- INetFwRule3.put_RemoteUserAuthorizedList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule3::put_RemoteUserAuthorizedList
+ - netfw/INetFwRule3::put_RemoteUserAuthorizedList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule3.RemoteUserAuthorizedList
+ - INetFwRule3.get_RemoteUserAuthorizedList
+ - INetFwRule3.put_RemoteUserAuthorizedList
 ---
 
 # INetFwRule3::put_RemoteUserAuthorizedList
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a list of remote users who are authorized to access an app container.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>

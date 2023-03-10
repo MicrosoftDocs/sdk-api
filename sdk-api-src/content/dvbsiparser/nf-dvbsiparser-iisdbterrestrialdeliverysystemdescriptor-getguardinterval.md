@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval (dvbsiparser.h)
 description: Gets the guard interval from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
+helpviewer_keywords: ["GetGuardInterval","GetGuardInterval method [Microsoft TV Technologies]","GetGuardInterval method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetGuardInterval method","IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval","IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval","mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval"]
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getguardinterval.htm
 tech.root: mstv
 ms.assetid: f1016fd4-bcd9-4678-b59c-c6c8207f242d
 ms.date: 12/05/2018
 ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval
-f1_keywords:
-- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval
+ - dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 ---
 
 # IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the guard interval from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor. The guard interval specifies the fraction of an orthogonal frequency division multiplexing (OFDM) symbol period that separates each pair of OFDM symbols.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
@@ -135,25 +132,11 @@ Receives the code indicating the guard value. This code can be any of the follow
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor">IIsdbTerrestrialDeliverySystemDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor">IIsdbTerrestrialDeliverySystemDescriptor</a>

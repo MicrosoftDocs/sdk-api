@@ -2,15 +2,12 @@
 UID: NF:oleacc.IAccessible.get_accHelp
 title: IAccessible::get_accHelp (oleacc.h)
 description: The IAccessible::get_accHelp method retrieves the Help property string of an object. Not all objects support this property.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accHelp method","IAccessible.get_accHelp","IAccessible::get_accHelp","_msaa_IAccessible_get_accHelp","get_accHelp","get_accHelp method [Windows Accessibility]","get_accHelp method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_acchelp","oleacc/IAccessible::get_accHelp","winauto.iaccessible_iaccessible__get_acchelp"]
 old-location: winauto\iaccessible_iaccessible__get_acchelp.htm
 tech.root: WinAuto
 ms.assetid: ef541ef9-ae9f-4a8c-8dd1-f221eddb55c7
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accHelp method, IAccessible.get_accHelp, IAccessible::get_accHelp, _msaa_IAccessible_get_accHelp, get_accHelp, get_accHelp method [Windows Accessibility], get_accHelp method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acchelp, oleacc/IAccessible::get_accHelp, winauto.iaccessible_iaccessible__get_acchelp
-f1_keywords:
-- oleacc/IAccessible.get_accHelp
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accHelp
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accHelp
+ - oleacc/IAccessible::get_accHelp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accHelp
 ---
 
 # IAccessible::get_accHelp
@@ -48,38 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accHelp</b> method retrieves the <b>Help</b> property string of an object. Not all objects support this property.
 
-
 ## -parameters
-
-
-
 
 ### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
-Specifies whether the retrieved help information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about one of the object's child elements). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
+Specifies whether the retrieved help information belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about one of the object's child elements). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
-
-### -param pszHelp
+### -param pszHelp [out, retval]
 
 Type: <b>BSTR*</b>
 
-[out, retval] Address of a <b>BSTR</b> that receives the localized string that contains the help information for the specified object, or <b>NULL</b> if no help information is available.
-
+Address of a <b>BSTR</b> that receives the localized string containing the help information for the specified object, or <b>NULL</b> if no help information is available.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -120,20 +113,14 @@ The object does not support this property.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 None of the predefined and common controls support this property.
 
 <b>Note to server developers:  </b>Localize the string returned from this property.
 
-This property returns a string, whereas <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelptopic">IAccessible::get_accHelpTopic</a> provides access to a Help topic in <a href="https://go.microsoft.com/fwlink/p/?linkid=177910">WinHelp</a>. Objects are not required to support both <b>IAccessible::get_accHelp</b> and <b>IAccessible::get_accHelpTopic</b>, but they must support at least one. If they easily return a string, they must support <b>IAccessible::get_accHelp</b> ; otherwise they must support <b>IAccessible::get_accHelpTopic</b>. If both are supported, <b>IAccessible::get_accHelpTopic</b> provides more detailed information.
+This property returns a string, whereas <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelptopic">IAccessible::get_accHelpTopic</a> provides access to a Help topic in <a href="/windows/win32/api/winuser/nf-winuser-winhelpa">WinHelp</a>. Objects are not required to support both <b>IAccessible::get_accHelp</b> and <b>IAccessible::get_accHelpTopic</b>, but they must support at least one. If they easily return a string, they must support <b>IAccessible::get_accHelp</b> ; otherwise they must support <b>IAccessible::get_accHelpTopic</b>. If both are supported, <b>IAccessible::get_accHelpTopic</b> provides more detailed information.
 
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows one possible implementation of this method for a custom list box. Different text is displayed depending on the status of the contact in the list. For simplicity, the example does not localize the returned string.
@@ -179,33 +166,22 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accHelp(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/help-property">Help Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/help-property">Help Property</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accdescription">IAccessible::get_accDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accdescription">IAccessible::get_accDescription</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelptopic">IAccessible::get_accHelpTopic</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acchelptopic">IAccessible::get_accHelpTopic</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

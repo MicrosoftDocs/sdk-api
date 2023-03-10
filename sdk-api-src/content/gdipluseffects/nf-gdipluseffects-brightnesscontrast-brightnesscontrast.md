@@ -2,15 +2,12 @@
 UID: NF:gdipluseffects.BrightnessContrast.BrightnessContrast
 title: BrightnessContrast::BrightnessContrast (gdipluseffects.h)
 description: Creates a new BrightnessContrast object.
+helpviewer_keywords: ["BrightnessContrast","BrightnessContrast class [GDI+]","BrightnessContrast constructor","BrightnessContrast constructor [GDI+]","BrightnessContrast constructor [GDI+]","BrightnessContrast class","BrightnessContrast.BrightnessContrast","BrightnessContrast::BrightnessContrast","_gdiplus_CLASS_BrightnessContrast_BrightnessContrast_","gdiplus._gdiplus_CLASS_BrightnessContrast_BrightnessContrast_"]
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_BrightnessContrast_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastconstructors\brightnesscontrast.htm
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+],BrightnessContrast constructor, BrightnessContrast constructor [GDI+], BrightnessContrast constructor [GDI+],BrightnessContrast class, BrightnessContrast.BrightnessContrast, BrightnessContrast::BrightnessContrast, _gdiplus_CLASS_BrightnessContrast_BrightnessContrast_, gdiplus._gdiplus_CLASS_BrightnessContrast_BrightnessContrast_
-f1_keywords:
-- gdipluseffects/BrightnessContrast.BrightnessContrast
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- BrightnessContrast.BrightnessContrast
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - BrightnessContrast::BrightnessContrast
+ - gdipluseffects/BrightnessContrast::BrightnessContrast
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - BrightnessContrast.BrightnessContrast
 ---
 
 # BrightnessContrast::BrightnessContrast
@@ -49,32 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-brightnesscontrast">BrightnessContrast</a> object. 
-
-
-## -parameters
-
-
-
+Creates a new <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-brightnesscontrast">BrightnessContrast</a> object.
 
 
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-brightnesscontrast">BrightnessContrast</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-brightnesscontrast">BrightnessContrast</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-brightnesscontrast-setparameters">BrightnessContrast::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-brightnesscontrast-setparameters">BrightnessContrast::SetParameters</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-brightnesscontrastparams">BrightnessContrastParams</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-brightnesscontrastparams">BrightnessContrastParams</a>

@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IFolderView.GetFolder
 title: IFolderView::GetFolder (shobjidl_core.h)
 description: Gets the folder object.
+helpviewer_keywords: ["GetFolder","GetFolder method [Windows Shell]","GetFolder method [Windows Shell]","IFolderView interface","IFolderView interface [Windows Shell]","GetFolder method","IFolderView.GetFolder","IFolderView::GetFolder","_shell_IFolderView_GetFolder","shell.IFolderView_GetFolder","shobjidl_core/IFolderView::GetFolder"]
 old-location: shell\IFolderView_GetFolder.htm
 tech.root: shell
 ms.assetid: 4fdeb995-2220-4461-a4d6-80bce08153b1
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetFolder method, IFolderView.GetFolder, IFolderView::GetFolder, _shell_IFolderView_GetFolder, shell.IFolderView_GetFolder, shobjidl_core/IFolderView::GetFolder
-f1_keywords:
-- shobjidl_core/IFolderView.GetFolder
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IFolderView.GetFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView::GetFolder
+ - shobjidl_core/IFolderView::GetFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IFolderView.GetFolder
 ---
 
 # IFolderView::GetFolder
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the folder object.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
@@ -63,21 +60,14 @@ Type: <b>REFIID</b>
 
 Reference to the desired IID to represent the folder.
 
-
 ### -param ppv [out]
 
 Type: <b>VOID**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or a related interface. This can also be an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> with a single element.
-
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or a related interface. This can also be an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> with a single element.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

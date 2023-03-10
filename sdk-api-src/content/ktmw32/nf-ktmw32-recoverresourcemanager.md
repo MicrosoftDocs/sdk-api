@@ -2,15 +2,12 @@
 UID: NF:ktmw32.RecoverResourceManager
 title: RecoverResourceManager function (ktmw32.h)
 description: Recovers a resource manager's state from its log file.
+helpviewer_keywords: ["RecoverResourceManager","RecoverResourceManager function [Files]","fs.recoverresourcemanager","ktmw32/RecoverResourceManager"]
 old-location: fs\recoverresourcemanager.htm
-tech.root: ktm
+tech.root: fs
 ms.assetid: 616ff873-c0d0-464e-9b1b-74a426b99abd
 ms.date: 12/05/2018
 ms.keywords: RecoverResourceManager, RecoverResourceManager function [Files], fs.recoverresourcemanager, ktmw32/RecoverResourceManager
-f1_keywords:
-- ktmw32/RecoverResourceManager
-dev_langs:
-- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ktmw32.dll
-api_name:
-- RecoverResourceManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RecoverResourceManager
+ - ktmw32/RecoverResourceManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ktmw32.dll
+api_name:
+ - RecoverResourceManager
 ---
 
 # RecoverResourceManager function
@@ -48,43 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Recovers a resource manager's state from its log file.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceManagerHandle [in]
 
 A handle to the resource manager.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero. 
 
 
   
 
-If the function fails, the return value is zero (0). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero (0). To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
  The following list identifies the possible error codes:
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>

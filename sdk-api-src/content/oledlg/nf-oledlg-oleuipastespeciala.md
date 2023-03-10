@@ -1,16 +1,13 @@
 ---
 UID: NF:oledlg.OleUIPasteSpecialA
 title: OleUIPasteSpecialA function (oledlg.h)
-description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
+description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked. (ANSI)
+helpviewer_keywords: ["OleUIPasteSpecialA", "oledlg/OleUIPasteSpecialA"]
 old-location: com\oleuipastespecial.htm
 tech.root: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
 ms.date: 12/05/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
-f1_keywords:
-- oledlg/OleUIPasteSpecial
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIPasteSpecial
-- OleUIPasteSpecialA
-- OleUIPasteSpecialW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIPasteSpecialA
+ - oledlg/OleUIPasteSpecialA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIPasteSpecial
+ - OleUIPasteSpecialA
+ - OleUIPasteSpecialW
 ---
 
 # OleUIPasteSpecialA function
@@ -50,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Paste Special</b> dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
-
 
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-### -param Arg1 [in]
-
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure.
-
+A pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure.
 
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -298,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -309,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -320,7 +313,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-Unable to call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a> to get localized resources from the library.
+Unable to call <a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a> to get localized resources from the library.
 
 </td>
 </tr>
@@ -331,7 +324,7 @@ Unable to call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/n
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -366,7 +359,7 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 </dl>
 </td>
 <td width="60%">
-The <b>lpSrcDataObject</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
+The <b>lpSrcDataObject</b> member of <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
 
 </td>
 </tr>
@@ -377,7 +370,7 @@ The <b>lpSrcDataObject</b> member of <a href="https://docs.microsoft.com/windows
 </dl>
 </td>
 <td width="60%">
-The <b>arrPasteEntries</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
+The <b>arrPasteEntries</b> member of <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
 
 </td>
 </tr>
@@ -388,7 +381,7 @@ The <b>arrPasteEntries</b> member of <a href="https://docs.microsoft.com/windows
 </dl>
 </td>
 <td width="60%">
-The <b>arrLinkTypes</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
+The <b>arrLinkTypes</b> member of <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> is invalid.
 
 </td>
 </tr>
@@ -418,24 +411,20 @@ The <b>lpSrcDataObj</b> member is incorrect.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The design of the <b>Paste Special</b> dialog box assumes that if you are willing to permit a user to link to an object, you are also willing to permit the user to embed that object. For this reason, if any of the OLEUIPASTE_LINKTYPE flags associated with the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a> enumeration are set, then the OLEUIPASTE_PASTE flag must also be set in order for the data formats to appear in the <b>Paste Special</b> dialog box.
+The design of the <b>Paste Special</b> dialog box assumes that if you are willing to permit a user to link to an object, you are also willing to permit the user to embed that object. For this reason, if any of the OLEUIPASTE_LINKTYPE flags associated with the <a href="/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a> enumeration are set, then the OLEUIPASTE_PASTE flag must also be set in order for the data formats to appear in the <b>Paste Special</b> dialog box.
 
 
 
-The text displayed in the <b>Source</b> field of the standard <b>Paste Special</b> dialog box, which is implemented in Oledlg32.dll, is the null-terminated string whose offset in bytes is specified in the <b>dwSrcofCopy</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure for the object to be pasted. If an <b>OBJECTDESCRIPTOR</b> structure is not available for this object, the dialog box displays whatever text may be associated with CF_LINKSOURCEDESCRIPTOR. If neither structure is available, the dialog box looks for CF_FILENAME. If CF_FILENAME is not found, the dialog box displays the string "Unknown Source".
+The text displayed in the <b>Source</b> field of the standard <b>Paste Special</b> dialog box, which is implemented in Oledlg32.dll, is the null-terminated string whose offset in bytes is specified in the <b>dwSrcofCopy</b> member of the <a href="/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a> structure for the object to be pasted. If an <b>OBJECTDESCRIPTOR</b> structure is not available for this object, the dialog box displays whatever text may be associated with CF_LINKSOURCEDESCRIPTOR. If neither structure is available, the dialog box looks for CF_FILENAME. If CF_FILENAME is not found, the dialog box displays the string "Unknown Source".
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows.
 
-<pre class="syntax" xml:space="preserve"><code> 
+
+``` syntax
+ 
 void FreeHmetafilepict(HMETAFILEPICT hmfp) 
 { 
     if (hmfp != NULL) 
@@ -451,17 +440,16 @@ void FreeHmetafilepict(HMETAFILEPICT hmfp)
         // Handle null pointers here.
         exit(0);
         }
-}  // FreeHmetafilepict </code></pre>
+}  // FreeHmetafilepict 
+```
 
 
+
+
+
+> [!NOTE]
+> The oledlg.h header defines OLEUIPASTESPECIAL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>

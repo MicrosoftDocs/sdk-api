@@ -2,15 +2,12 @@
 UID: NF:objidl.IProgressNotify.OnProgress
 title: IProgressNotify::OnProgress (objidl.h)
 description: Notifies registered objects and applications of the progress of a downloading operation.
+helpviewer_keywords: ["IProgressNotify interface [COM]","OnProgress method","IProgressNotify.OnProgress","IProgressNotify::OnProgress","OnProgress","OnProgress method [COM]","OnProgress method [COM]","IProgressNotify interface","_com_iprogressnotify_onprogress","com.iprogressnotify_onprogress","objidl/IProgressNotify::OnProgress"]
 old-location: com\iprogressnotify_onprogress.htm
 tech.root: com
 ms.assetid: 07b3e629-a558-4a0e-8307-ca922f56e00c
 ms.date: 12/05/2018
 ms.keywords: IProgressNotify interface [COM],OnProgress method, IProgressNotify.OnProgress, IProgressNotify::OnProgress, OnProgress, OnProgress method [COM], OnProgress method [COM],IProgressNotify interface, _com_iprogressnotify_onprogress, com.iprogressnotify_onprogress, objidl/IProgressNotify::OnProgress
-f1_keywords:
-- objidl/IProgressNotify.OnProgress
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IProgressNotify.OnProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressNotify::OnProgress
+ - objidl/IProgressNotify::OnProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IProgressNotify.OnProgress
 ---
 
 # IProgressNotify::OnProgress
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies registered objects and applications of the progress of a downloading operation.
 
-
 ## -parameters
-
-
-
 
 ### -param dwProgressCurrent [in]
 
 The amount of data available.
 
-
 ### -param dwProgressMaximum [in]
 
 The total amount of data to be downloaded.
-
 
 ### -param fAccurate [in]
 
 Indicates the accuracy of the values in <i>dwProgressCurrent</i> and <i>dwProgressMaximum</i>. They are either reliable (<b>TRUE</b>) or unreliable (<b>FALSE</b>). The <b>FALSE</b> value indicates that control structures for determining the actual position of, or amount of, data yet to be downloaded are not available.
 
-
 ### -param fOwner [in]
 
 Indicates whether this <b>OnProgress</b> call can control the blocking behavior of the operation. If <b>TRUE</b>, the caller can use return values from <b>OnProgress</b> to block (STG_S_BLOCK), retry (STG_S_RETRYNOW), or monitor (STG_S_MONITORING) the operation. If <b>FALSE</b>, the return value from <b>OnProgress</b> has no influence on blocking behavior.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -117,7 +108,7 @@ The caller is to block the download and retry the call as needed to determine if
 </dl>
 </td>
 <td width="60%">
-The callback recipient reliquishes control of the downloading process to one of the other objects or applications that have registered progress notification sinks on the same stream. This is useful if the notification sink is interested only in gathering statistics.
+The callback recipient relinquishes control of the downloading process to one of the other objects or applications that have registered progress notification sinks on the same stream. This is useful if the notification sink is interested only in gathering statistics.
 
 </td>
 </tr>
@@ -134,14 +125,8 @@ Data is currently unavailable. The caller is to try again after some desired int
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Sinks may be inherited by any substorage or substream of a given storage. If no sink is registered, the thread will block until the requested data becomes available, or the download is canceled by the downloader.
 
@@ -149,17 +134,6 @@ Where multiple objects or applications have registered progress notification sin
 
 Any one of the sinks can relinquish control to the next connection point by returning STG_S_MONITORING to the connection point making the current caller. After a connection point obtains control (through receiving STG_S_BLOCK or STG_S_RETRYNOW), all subsequent connection points calling <b>OnProgress</b> will set <i>fOwner</i> to <b>FALSE</b>.
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iprogressnotify">IProgressNotify</a>

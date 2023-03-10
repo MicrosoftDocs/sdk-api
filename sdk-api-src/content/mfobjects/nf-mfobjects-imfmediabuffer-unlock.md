@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaBuffer.Unlock
 title: IMFMediaBuffer::Unlock (mfobjects.h)
 description: Unlocks a buffer that was previously locked. Call this method once for every call to IMFMediaBuffer::Lock.
+helpviewer_keywords: ["3ca53321-5533-45f0-b415-6a16f780ec54","IMFMediaBuffer interface [Media Foundation]","Unlock method","IMFMediaBuffer.Unlock","IMFMediaBuffer::Unlock","Unlock","Unlock method [Media Foundation]","Unlock method [Media Foundation]","IMFMediaBuffer interface","mf.imfmediabuffer_unlock","mfobjects/IMFMediaBuffer::Unlock"]
 old-location: mf\imfmediabuffer_unlock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3ca53321-5533-45f0-b415-6a16f780ec54
 ms.date: 12/05/2018
 ms.keywords: 3ca53321-5533-45f0-b415-6a16f780ec54, IMFMediaBuffer interface [Media Foundation],Unlock method, IMFMediaBuffer.Unlock, IMFMediaBuffer::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_unlock, mfobjects/IMFMediaBuffer::Unlock
-f1_keywords:
-- mfobjects/IMFMediaBuffer.Unlock
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaBuffer.Unlock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaBuffer::Unlock
+ - mfobjects/IMFMediaBuffer::Unlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaBuffer.Unlock
 ---
 
 # IMFMediaBuffer::Unlock
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Unlocks a buffer that was previously locked. Call this method once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a>.
-
-
-
-
-## -parameters
-
-
-
+Unlocks a buffer that was previously locked. Call this method once for every call to <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">IMFMediaBuffer::Lock</a>.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,18 +87,12 @@ For Direct3D surface buffers, an error occurred when unlocking the surface.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+It is an error to call <b>Unlock</b> if you did not call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> previously.
 
-
-It is an error to call <b>Unlock</b> if you did not call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> previously.
-
-After calling this method, do not use the pointer returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> method. It is no longer guaranteed to be valid.
+After calling this method, do not use the pointer returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a> method. It is no longer guaranteed to be valid.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -117,19 +101,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>

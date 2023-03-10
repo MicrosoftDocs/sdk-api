@@ -2,15 +2,12 @@
 UID: NE:shobjidl_core.LIBRARYFOLDERFILTER
 title: LIBRARYFOLDERFILTER (shobjidl_core.h)
 description: Defines options for filtering folder items.
+helpviewer_keywords: ["LFF_ALLITEMS","LFF_FORCEFILESYSTEM","LFF_STORAGEITEMS","LIBRARYFOLDERFILTER","LIBRARYFOLDERFILTER enumeration [Windows Shell]","_shell_LIBRARYFOLDERFILTER","shell.LIBRARYFOLDERFILTER","shobjidl_core/LFF_ALLITEMS","shobjidl_core/LFF_FORCEFILESYSTEM","shobjidl_core/LFF_STORAGEITEMS","shobjidl_core/LIBRARYFOLDERFILTER"]
 old-location: shell\LIBRARYFOLDERFILTER.htm
 tech.root: shell
 ms.assetid: 8bcb8ee7-14a9-411e-978d-ddeed83d8392
 ms.date: 12/05/2018
 ms.keywords: LFF_ALLITEMS, LFF_FORCEFILESYSTEM, LFF_STORAGEITEMS, LIBRARYFOLDERFILTER, LIBRARYFOLDERFILTER enumeration [Windows Shell], _shell_LIBRARYFOLDERFILTER, shell.LIBRARYFOLDERFILTER, shobjidl_core/LFF_ALLITEMS, shobjidl_core/LFF_FORCEFILESYSTEM, shobjidl_core/LFF_STORAGEITEMS, shobjidl_core/LIBRARYFOLDERFILTER
-f1_keywords:
-- shobjidl_core/LIBRARYFOLDERFILTER
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- LIBRARYFOLDERFILTER
 targetos: Windows
 req.typenames: LIBRARYFOLDERFILTER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LIBRARYFOLDERFILTER
+ - shobjidl_core/LIBRARYFOLDERFILTER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - LIBRARYFOLDERFILTER
 ---
 
 # LIBRARYFOLDERFILTER enumeration
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines options for filtering folder items.
-      
-
 
 ## -enum-fields
 
-
-
-
-### -field LFF_FORCEFILESYSTEM
+### -field LFF_FORCEFILESYSTEM:1
 
 Return only file system items.
-         
 
-
-### -field LFF_STORAGEITEMS
+### -field LFF_STORAGEITEMS:2
 
 Return items that can be bound to an IStorage object.
-         
 
-
-### -field LFF_ALLITEMS
+### -field LFF_ALLITEMS:3
 
 Return all items.
-         
-
 
 ## -remarks
-
-
 
 <h3><a id="Used_By"></a><a id="used_by"></a><a id="USED_BY"></a>Used By</h3>
 The <b>LIBRARYFOLDERFILTER</b> enumeration is used by the following methods and functions.
@@ -86,19 +74,10 @@ The <b>LIBRARYFOLDERFILTER</b> enumeration is used by the following methods and 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getfolders">IShellLibrary::GetFolders</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-getfolders">IShellLibrary::GetFolders</a>
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>

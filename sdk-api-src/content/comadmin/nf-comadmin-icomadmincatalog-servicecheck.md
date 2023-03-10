@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICOMAdminCatalog.ServiceCheck
 title: ICOMAdminCatalog::ServiceCheck (comadmin.h)
 description: Retrieves the current status of the specified COM+ service.
+helpviewer_keywords: ["COMAdminServiceContinuePending","COMAdminServicePausePending","COMAdminServicePaused","COMAdminServiceRunning","COMAdminServiceStartPending","COMAdminServiceStopPending","COMAdminServiceStopped","COMAdminServiceUnknownState","ICOMAdminCatalog interface [COM+]","ServiceCheck method","ICOMAdminCatalog.ServiceCheck","ICOMAdminCatalog::ServiceCheck","ServiceCheck","ServiceCheck method [COM+]","ServiceCheck method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_ServiceCheck","comadmin/ICOMAdminCatalog::ServiceCheck","cos.icomadmincatalog_servicecheck"]
 old-location: cos\icomadmincatalog_servicecheck.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: d7d41691-30ab-450c-b93b-b7b02f408eb1
 ms.date: 12/05/2018
 ms.keywords: COMAdminServiceContinuePending, COMAdminServicePausePending, COMAdminServicePaused, COMAdminServiceRunning, COMAdminServiceStartPending, COMAdminServiceStopPending, COMAdminServiceStopped, COMAdminServiceUnknownState, ICOMAdminCatalog interface [COM+],ServiceCheck method, ICOMAdminCatalog.ServiceCheck, ICOMAdminCatalog::ServiceCheck, ServiceCheck, ServiceCheck method [COM+], ServiceCheck method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ServiceCheck, comadmin/ICOMAdminCatalog::ServiceCheck, cos.icomadmincatalog_servicecheck
-f1_keywords:
-- comadmin/ICOMAdminCatalog.ServiceCheck
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICOMAdminCatalog.ServiceCheck
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICOMAdminCatalog::ServiceCheck
+ - comadmin/ICOMAdminCatalog::ServiceCheck
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICOMAdminCatalog.ServiceCheck
 ---
 
 # ICOMAdminCatalog::ServiceCheck
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current status of the specified COM+ service.
 
-
 ## -parameters
-
-
-
 
 ### -param lService [in]
 
 The service for which status is to be checked. This parameter can be COMAdminServiceLoadBalanceRouter
 (1) to check the component load balancing service.
-
 
 ### -param plStatus [out, retval]
 
@@ -161,25 +157,11 @@ The service status is unknown.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

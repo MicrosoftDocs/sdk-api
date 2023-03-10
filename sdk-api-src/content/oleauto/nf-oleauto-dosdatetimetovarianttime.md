@@ -2,15 +2,12 @@
 UID: NF:oleauto.DosDateTimeToVariantTime
 title: DosDateTimeToVariantTime function (oleauto.h)
 description: Converts the MS-DOS representation of time to the date and time representation stored in a variant.
+helpviewer_keywords: ["DosDateTimeToVariantTime","DosDateTimeToVariantTime function [Automation]","_oa96_DosDateTimeToVariantTime","automat.dosdatetimetovarianttime","oleauto/DosDateTimeToVariantTime"]
 old-location: automat\dosdatetimetovarianttime.htm
 tech.root: automat
 ms.assetid: 61b029cb-8b60-400a-a6bb-a3f6839dc9d2
 ms.date: 12/05/2018
 ms.keywords: DosDateTimeToVariantTime, DosDateTimeToVariantTime function [Automation], _oa96_DosDateTimeToVariantTime, automat.dosdatetimetovarianttime, oleauto/DosDateTimeToVariantTime
-f1_keywords:
-- oleauto/DosDateTimeToVariantTime
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- DosDateTimeToVariantTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DosDateTimeToVariantTime
+ - oleauto/DosDateTimeToVariantTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - DosDateTimeToVariantTime
 ---
 
 # DosDateTimeToVariantTime function
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the MS-DOS representation of time to the date and time representation stored in a variant.
 
-
 ## -parameters
-
-
-
 
 ### -param wDosDate [in]
 
 The MS-DOS date to convert. The valid range of MS-DOS dates is January 1, 1980, to December 31, 2099, inclusive.
 
-
 ### -param wDosTime [in]
 
 The MS-DOS time to convert.
-
 
 ### -param pvtime [out]
 
 The converted time.
 
-
 ## -returns
-
-
 
 The function returns TRUE on success and FALSE otherwise.
 
-
-
-
 ## -remarks
-
-
 
 MS-DOS records file dates and times as packed 16-bit values. An MS-DOS date has the following format.
 
@@ -129,7 +116,5 @@ An MS-DOS time has the following format.
 </table>
  
 
-The <b>DosDateTimeToVariantTime</b> function will accept invalid dates and try to fix them when resolving to a VARIANT time. For example, an invalid date such as 2/29/2001 will resolve to 3/1/2001. Only days are fixed, so invalid month values result in an error being returned. Days are checked to be between 1 and 31. Negative days and days greater than 31 results in an error. A day less than 31 but greater than the maximum day in that month has the day promoted to the appropriate day of the next month. A day equal to zero resolves as the last day of the previous month. For example, an invalid dates such as 2/0/2001 will resolve to 1/31/2001.
-
-
+The <b>DosDateTimeToVariantTime</b> function will accept invalid dates and try to fix them when resolving to a VARIANT time. For example, an invalid date such as 2/29/2001 will resolve to 3/1/2001. Only days are fixed, so invalid month values result in an error being returned. Days are checked to be between 1 and 31. Negative days and days greater than 31 results in an error. A day less than 31 but greater than the maximum day in that month has the day promoted to the appropriate day of the next month. A day equal to zero resolves as the last day of the previous month. For example, an invalid date such as 2/0/2001 will resolve to 1/31/2001.
 

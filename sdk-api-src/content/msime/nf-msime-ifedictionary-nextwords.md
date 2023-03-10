@@ -2,15 +2,12 @@
 UID: NF:msime.IFEDictionary.NextWords
 title: IFEDictionary::NextWords (msime.h)
 description: Gets the next word entry from a dictionary.
+helpviewer_keywords: ["IFEDictionary interface [Internationalization for Windows Applications]","NextWords method","IFEDictionary.NextWords","IFEDictionary::NextWords","NextWords","NextWords method [Internationalization for Windows Applications]","NextWords method [Internationalization for Windows Applications]","IFEDictionary interface","intl.ifedictionary_nextwords","msime/IFEDictionary::NextWords"]
 old-location: intl\ifedictionary_nextwords.htm
 tech.root: Intl
 ms.assetid: 551925ED-B05C-433F-91A9-D2BAC795E783
 ms.date: 12/05/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],NextWords method, IFEDictionary.NextWords, IFEDictionary::NextWords, NextWords, NextWords method [Internationalization for Windows Applications], NextWords method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_nextwords, msime/IFEDictionary::NextWords
-f1_keywords:
-- msime/IFEDictionary.NextWords
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFEDictionary.NextWords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFEDictionary::NextWords
+ - msime/IFEDictionary::NextWords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFEDictionary.NextWords
 ---
 
 # IFEDictionary::NextWords
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the next word entry from a dictionary.
 
-This method is used only after <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a> to get additional words.
-
+This method is used only after <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a> to get additional words.
 
 ## -parameters
-
-
-
 
 ### -param pchBuffer [in, out]
 
 Buffer provided by the caller to receive the data.
 
-
 ### -param cbBuffer [in]
 
 The size of <i>pchBuffer</i>.
 
-
 ### -param pcWrd [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
-
+The number of <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -100,7 +92,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
+The client must call <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
 
 </td>
 </tr>
@@ -113,26 +105,15 @@ The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msi
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getwords">GetWords</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>

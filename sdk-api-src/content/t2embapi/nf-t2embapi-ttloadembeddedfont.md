@@ -2,15 +2,12 @@
 UID: NF:t2embapi.TTLoadEmbeddedFont
 title: TTLoadEmbeddedFont function (t2embapi.h)
 description: Reads an embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.
+helpviewer_keywords: ["EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","LICENSE_DEFAULT","LICENSE_EDITABLE","LICENSE_INSTALLABLE","LICENSE_NOEMBEDDING","LICENSE_PREVIEWPRINT","TTLOAD_FONT_IN_SYSSTARTUP","TTLOAD_FONT_SUBSETTED","TTLOAD_PRIVATE","TTLoadEmbeddedFont","TTLoadEmbeddedFont function [Windows GDI]","_win32_TTLoadEmbeddedFont","gdi.ttloadembeddedfont","t2embapi/TTLoadEmbeddedFont"]
 old-location: gdi\ttloadembeddedfont.htm
 tech.root: gdi
 ms.assetid: 85181d86-bc18-4948-bc7d-65c2d71efefb
 ms.date: 12/05/2018
 ms.keywords: EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, LICENSE_DEFAULT, LICENSE_EDITABLE, LICENSE_INSTALLABLE, LICENSE_NOEMBEDDING, LICENSE_PREVIEWPRINT, TTLOAD_FONT_IN_SYSSTARTUP, TTLOAD_FONT_SUBSETTED, TTLOAD_PRIVATE, TTLoadEmbeddedFont, TTLoadEmbeddedFont function [Windows GDI], _win32_TTLoadEmbeddedFont, gdi.ttloadembeddedfont, t2embapi/TTLoadEmbeddedFont
-f1_keywords:
-- t2embapi/TTLoadEmbeddedFont
-dev_langs:
-- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- T2embed.dll
-api_name:
-- TTLoadEmbeddedFont
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TTLoadEmbeddedFont
+ - t2embapi/TTLoadEmbeddedFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - T2embed.dll
+api_name:
+ - TTLoadEmbeddedFont
 ---
 
 # TTLoadEmbeddedFont function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads an embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.
 
-
 ## -parameters
-
-
-
 
 ### -param phFontReference [out]
 
 A pointer to a handle that identifies the installed embedded font. This handle references an internal structure, not an Hfont.
-
 
 ### -param ulFlags [in]
 
@@ -82,8 +78,6 @@ Load the font so that it is not enumerated to the user. If the font is not insta
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pulPrivStatus [out]
 
@@ -135,8 +129,6 @@ Restricted License Embedding. The font must not be modified, embedded, or exchan
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulPrivs [in]
 
@@ -198,8 +190,6 @@ Use default embedding level.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pulStatus [out]
 
@@ -231,50 +221,36 @@ The font loaded was labeled as installable and has been added to the registry so
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpfnReadFromStream [in]
 
 A pointer to the client-defined callback function that reads the font structure from the document stream.
 
-
 ### -param lpvReadStream [in]
 
 A pointer to the stream (font structure).
-
 
 ### -param szWinFamilyName [in, optional]
 
 A pointer to the new 16-bit-character Unicode Microsoft Windows family name of the font. Set to <b>NULL</b> to use existing name. When changing the name of a font upon loading, you must supply both this parameter and the <i>szMacFamilyName</i> parameter.
 
-
 ### -param szMacFamilyName [in, optional]
 
 A pointer to the new 8-bit-character Macintosh family name of the font. Set to <b>NULL</b> to use existing name. When changing the name of a font upon loading, you must supply both this parameter and the <i>szWinFamilyName</i> parameter.
 
-
 ### -param pTTLoadInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained. If this value does not match one of those contained in the <a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a> structure, the font will not load successfully.
-
+A pointer to a <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained. If this value does not match one of those contained in the <a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a> structure, the font will not load successfully.
 
 ## -returns
-
-
 
 If successful, returns E_NONE.
 
 If font loading is successful, a font indicated by <i>phFontReference</i> is created from the font structure with the names referenced in <i>szWinFamilyName</i> and <i>szMacFamilyName</i>. <i>pulPrivStatus</i> is set indicating the embedding privileges of the font; and <i>pulStatus</i> may be set indicating status information about the font loading operation.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding Function Error Messages</a>.
-
-
-
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding Function Error Messages</a>.
 
 ## -remarks
-
-
 
 To assist a client in determining whether an embedded font is already installed on the system, the font loading function will return an error message indicating a font with the same name exists on the system (E_FONTNAMEALREADYEXISTS), and if that font has the same checksum as the embedded font (E_FONTALREADYEXISTS). The client then has two options:
 
@@ -286,32 +262,22 @@ To change the name of an embedded font prior to installing, the client must supp
 
 To use the existing name of the embedded font, the name string parameters need to be set to <b>NULL</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttdeleteembeddedfont">TTDeleteEmbeddedFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttdeleteembeddedfont">TTDeleteEmbeddedFont</a>
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttembedinfo">TTEMBEDINFO</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetembeddingtype">TTGetEmbeddingType</a>
+<a href="/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/nf-t2embapi-ttgetnewfontname">TTGetNewFontName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/t2embapi/ns-t2embapi-ttloadinfo">TTLOADINFO</a>

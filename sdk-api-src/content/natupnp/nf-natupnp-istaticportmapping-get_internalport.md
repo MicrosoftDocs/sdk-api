@@ -2,15 +2,12 @@
 UID: NF:natupnp.IStaticPortMapping.get_InternalPort
 title: IStaticPortMapping::get_InternalPort (natupnp.h)
 description: The get_InternalPort method retrieves the internal port on the client computer for this port mapping.
+helpviewer_keywords: ["IStaticPortMapping interface [ICS/ICF]","get_InternalPort method","IStaticPortMapping.get_InternalPort","IStaticPortMapping::get_InternalPort","_ics_istaticportmapping_get_internalport","get_InternalPort","get_InternalPort method [ICS/ICF]","get_InternalPort method [ICS/ICF]","IStaticPortMapping interface","ics.istaticportmapping_get_internalport","natupnp/IStaticPortMapping::get_InternalPort"]
 old-location: ics\istaticportmapping_get_internalport.htm
 tech.root: ics
 ms.assetid: 21b07be3-a838-4e7c-b521-100e2422f8b1
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalPort method, IStaticPortMapping.get_InternalPort, IStaticPortMapping::get_InternalPort, _ics_istaticportmapping_get_internalport, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalport, natupnp/IStaticPortMapping::get_InternalPort
-f1_keywords:
-- natupnp/IStaticPortMapping.get_InternalPort
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMapping.get_InternalPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMapping::get_InternalPort
+ - natupnp/IStaticPortMapping::get_InternalPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMapping.get_InternalPort
 ---
 
 # IStaticPortMapping::get_InternalPort
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_InternalPort</b> method retrieves the internal port on the client computer for this port mapping.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to a <b>long</b> variable that receives the internal port on the client computer for this port mapping.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -164,30 +158,19 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editinternalport">IStaticPortMapping::EditInternalPort</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-editinternalport">IStaticPortMapping::EditInternalPort</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

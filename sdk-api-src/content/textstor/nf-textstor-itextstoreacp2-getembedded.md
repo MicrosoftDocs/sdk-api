@@ -1,16 +1,13 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetEmbedded
 title: ITextStoreACP2::GetEmbedded (textstor.h)
-description: Gets an embedded document.
+description: Gets an embedded document. (ITextStoreACP2.GetEmbedded)
+helpviewer_keywords: ["GUID_TS_SERVICE_ACCESSIBLE","GUID_TS_SERVICE_ACTIVEX","GUID_TS_SERVICE_DATAOBJECT","GetEmbedded","GetEmbedded method [Text Services Framework]","GetEmbedded method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","GetEmbedded method","ITextStoreACP2.GetEmbedded","ITextStoreACP2::GetEmbedded","textstor/ITextStoreACP2::GetEmbedded","tsf.itextstoreacp2_getembedded"]
 old-location: tsf\itextstoreacp2_getembedded.htm
 tech.root: TSF
 ms.assetid: 42e67702-4056-4b29-97a9-441045b29338
 ms.date: 12/05/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetEmbedded method, ITextStoreACP2.GetEmbedded, ITextStoreACP2::GetEmbedded, textstor/ITextStoreACP2::GetEmbedded, tsf.itextstoreacp2_getembedded
-f1_keywords:
-- textstor/ITextStoreACP2.GetEmbedded
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP2.GetEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP2::GetEmbedded
+ - textstor/ITextStoreACP2::GetEmbedded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP2.GetEmbedded
 ---
 
 # ITextStoreACP2::GetEmbedded
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an embedded document.
 
-
 ## -parameters
-
-
-
 
 ### -param acpPos [in]
 
 Contains the character position, within the document, from where the object is obtained.
-
 
 ### -param rguidService [in]
 
@@ -77,7 +73,7 @@ Contains a GUID value that defines the requested format of the obtained object. 
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
+The object should be obtained as an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
 
 </td>
 </tr>
@@ -87,7 +83,7 @@ The object should be obtained as an <a href="https://docs.microsoft.com/windows/
 </dl>
 </td>
 <td width="60%">
-The object should be obtained as an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible object</a>.
+The object should be obtained as an <a href="/windows/desktop/WinAuto/accessible-objects">Accessible object</a>.
 
 </td>
 </tr>
@@ -102,22 +98,16 @@ The object should be obtained as an ActiveX object.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param riid [in]
 
 Specifies the interface type requested.
 
-
 ### -param ppunk [out]
 
 Pointer to an <b>IUnknown</b> pointer that receives the requested interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -215,35 +205,19 @@ The service type specified in <i>rguidService</i> is unsupported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getembedded">QueryInterface</a> to probe for appropriate interfaces. Prospective interfaces include those associated with embedded documents or controls such as <b>IOleObject</b> , <b>IDataObject</b> , <b>IViewObject</b> , <b>IPersistStorage</b> , <b>IOleCache</b> , or <b>IDispatch</b> .
-
-
-
+Use <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getembedded">QueryInterface</a> to probe for appropriate interfaces. Prospective interfaces include those associated with embedded documents or controls such as <b>IOleObject</b> , <b>IDataObject</b> , <b>IViewObject</b> , <b>IPersistStorage</b> , <b>IOleCache</b> , or <b>IDispatch</b> .
 
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/accessible-objects">Accessible Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessible-objects">Accessible Objects</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>

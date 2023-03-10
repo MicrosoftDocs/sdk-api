@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCdromRip.get_ripState
 title: IWMPCdromRip::get_ripState (wmp.h)
 description: The get_ripState method retrieves an enumeration value that indicates the current state of the ripping process.
+helpviewer_keywords: ["IWMPCdromRip interface [Windows Media Player]","get_ripState method","IWMPCdromRip.get_ripState","IWMPCdromRip::get_ripState","IWMPCdromRipget_ripState","get_ripState","get_ripState method [Windows Media Player]","get_ripState method [Windows Media Player]","IWMPCdromRip interface","wmp.iwmpcdromrip_get_ripstate","wmp/IWMPCdromRip::get_ripState"]
 old-location: wmp\iwmpcdromrip_get_ripstate.htm
 tech.root: WMP
 ms.assetid: 81c7ba1d-81d7-4f64-9f7d-c88d6959bee0
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromRip interface [Windows Media Player],get_ripState method, IWMPCdromRip.get_ripState, IWMPCdromRip::get_ripState, IWMPCdromRipget_ripState, get_ripState, get_ripState method [Windows Media Player], get_ripState method [Windows Media Player],IWMPCdromRip interface, wmp.iwmpcdromrip_get_ripstate, wmp/IWMPCdromRip::get_ripState
-f1_keywords:
-- wmp/IWMPCdromRip.get_ripState
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCdromRip.get_ripState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCdromRip::get_ripState
+ - wmp/IWMPCdromRip::get_ripState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCdromRip.get_ripState
 ---
 
 # IWMPCdromRip::get_ripState
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_ripState</b> method retrieves an enumeration value that indicates the current state of the ripping process.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwmprs [out]
 
 Pointer to a variable that receives a value from the <b>WMPRipState</b> enumeration that indicates the current state.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,35 +79,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>
+<a href="/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpripstate">WMPRipState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/ne-wmp-wmpripstate">WMPRipState</a>

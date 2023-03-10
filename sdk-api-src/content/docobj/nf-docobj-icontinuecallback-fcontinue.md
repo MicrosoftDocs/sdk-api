@@ -2,15 +2,12 @@
 UID: NF:docobj.IContinueCallback.FContinue
 title: IContinueCallback::FContinue (docobj.h)
 description: Indicates whether a generic operation should continue.
+helpviewer_keywords: ["FContinue","FContinue method [COM]","FContinue method [COM]","IContinueCallback interface","IContinueCallback interface [COM]","FContinue method","IContinueCallback.FContinue","IContinueCallback::FContinue","_com_icontinuecallback_fcontinue","com.icontinuecallback_fcontinue","docobj/IContinueCallback::FContinue"]
 old-location: com\icontinuecallback_fcontinue.htm
 tech.root: com
 ms.assetid: c84899df-fef1-473d-8278-d715a8ab8ee5
 ms.date: 12/05/2018
 ms.keywords: FContinue, FContinue method [COM], FContinue method [COM],IContinueCallback interface, IContinueCallback interface [COM],FContinue method, IContinueCallback.FContinue, IContinueCallback::FContinue, _com_icontinuecallback_fcontinue, com.icontinuecallback_fcontinue, docobj/IContinueCallback::FContinue
-f1_keywords:
-- docobj/IContinueCallback.FContinue
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IContinueCallback.FContinue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContinueCallback::FContinue
+ - docobj/IContinueCallback::FContinue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IContinueCallback.FContinue
 ---
 
 # IContinueCallback::FContinue
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether a generic operation should continue.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -93,18 +86,7 @@ Cancel the operation as soon as possible.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>

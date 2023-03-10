@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionExW
 title: SetupInstallServicesFromInfSectionExW function (setupapi.h)
-description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
+description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file. (Unicode)
+helpviewer_keywords: ["SPSVCINST_ASSOCSERVICE", "SPSVCINST_CLOBBER_SECURITY", "SPSVCINST_DELETEEVENTLOGENTRY", "SPSVCINST_NOCLOBBER_DEPENDENCIES", "SPSVCINST_NOCLOBBER_DESCRIPTION", "SPSVCINST_NOCLOBBER_DISPLAYNAME", "SPSVCINST_NOCLOBBER_ERRORCONTROL", "SPSVCINST_NOCLOBBER_LOADORDERGROUP", "SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES", "SPSVCINST_NOCLOBBER_STARTTYPE", "SPSVCINST_STARTSERVICE", "SPSVCINST_STOPSERVICE", "SPSVCINST_TAGTOFRONT", "SetupInstallServicesFromInfSectionEx", "SetupInstallServicesFromInfSectionEx function [Setup API]", "SetupInstallServicesFromInfSectionExW", "_setupapi_setupinstallservicesfrominfsectionex", "setup.setupinstallservicesfrominfsectionex", "setupapi/SetupInstallServicesFromInfSectionEx", "setupapi/SetupInstallServicesFromInfSectionExW"]
 old-location: setup\setupinstallservicesfrominfsectionex.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: c0bf6442-56dc-41f1-8a21-ff7b92b1ef0f
 ms.date: 12/05/2018
 ms.keywords: SPSVCINST_ASSOCSERVICE, SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSectionEx, SetupInstallServicesFromInfSectionEx function [Setup API], SetupInstallServicesFromInfSectionExA, SetupInstallServicesFromInfSectionExW, _setupapi_setupinstallservicesfrominfsectionex, setup.setupinstallservicesfrominfsectionex, setupapi/SetupInstallServicesFromInfSectionEx, setupapi/SetupInstallServicesFromInfSectionExA, setupapi/SetupInstallServicesFromInfSectionExW
-f1_keywords:
-- setupapi/SetupInstallServicesFromInfSectionEx
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupInstallServicesFromInfSectionEx
-- SetupInstallServicesFromInfSectionExA
-- SetupInstallServicesFromInfSectionExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupInstallServicesFromInfSectionExW
+ - setupapi/SetupInstallServicesFromInfSectionExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupInstallServicesFromInfSectionEx
+ - SetupInstallServicesFromInfSectionExA
+ - SetupInstallServicesFromInfSectionExW
 ---
 
 # SetupInstallServicesFromInfSectionExW function
@@ -50,30 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupInstallServicesFromInfSectionEx</b> function performs service installation and deletion operations that are specified in the <b>Service Install</b> sections listed in the <b>Service</b> section of an INF file.
 
 A caller of this function is required to have access to the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify services.
-
+<a href="/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify services.
 
 ## -parameters
-
-
-
 
 ### -param InfHandle [in]
 
 A handle to the INF file that contains the <b>Service</b> section.
 
-
 ### -param SectionName [in]
 
-The name of the <b>Service</b> section to process. You should use a null-terminated string. 
-
+The name of the <b>Service</b> section to process. You should use a null-terminated string.
 
 ### -param Flags [in]
 
@@ -236,8 +231,6 @@ AddService section: Do not overwrite the given service's required privileges if 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param DeviceInfoSet [in]
 
@@ -245,60 +238,48 @@ An optional pointer to a handle to a device information set. For more informatio
 
 and countries.)
 
-
 ### -param DeviceInfoData [in]
 
 An optional pointer to  the <b>SP_DEVINFO_DATA</b> structure that provides a context to a specific element in the set that  <i>DeviceInfoSet</i> specifies. For more information, see the DDK <i>Programmer's Guide</i>. (This resource may not be available in some languages 
 
 and countries.)
 
-
 ### -param Reserved1
 
 Reserved.
-					
-
 
 ### -param Reserved2
 
 Reserved.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.  The function calls <b>SetLastError</b> with ERROR_SUCCESS_REBOOT_REQUIRED  if a reboot of the system is required.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilesfrominfsectiona">SetupInstallFilesFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilesfrominfsectiona">SetupInstallFilesFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
- 
-
- 
-
+> [!NOTE]
+> The setupapi.h header defines SetupInstallServicesFromInfSectionEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

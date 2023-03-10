@@ -2,15 +2,12 @@
 UID: NF:wingdi.wglCreateContext
 title: wglCreateContext function (wingdi.h)
 description: The wglCreateContext function creates a new OpenGL rendering context, which is suitable for drawing on the device referenced by hdc. The rendering context has the same pixel format as the device context.
+helpviewer_keywords: ["_ogl_wglCreateContext","opengl.wglcreatecontext","wglCreateContext","wglCreateContext function [OpenGL]","wingdi/wglCreateContext"]
 old-location: opengl\wglcreatecontext.htm
 tech.root: OpenGL
 ms.assetid: fa9ed944-f917-4fdf-a52a-10a7ade8f2ca
 ms.date: 12/05/2018
 ms.keywords: _ogl_wglCreateContext, opengl.wglcreatecontext, wglCreateContext, wglCreateContext function [OpenGL], wingdi/wglCreateContext
-f1_keywords:
-- wingdi/wglCreateContext
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,62 +25,55 @@ req.type-library:
 req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- opengl32.dll
-api_name:
-- wglCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - wglCreateContext
+ - wingdi/wglCreateContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - opengl32.dll
+api_name:
+ - wglCreateContext
 ---
 
 # wglCreateContext function
 
-
 ## -description
-
 
 The <b>wglCreateContext</b> function creates a new OpenGL rendering context, which is suitable for drawing on the device referenced by <i>hdc</i>. The rendering context has the same pixel format as the device context.
 
-
 ## -parameters
 
+### -param unnamedParam1
 
-
-
-### -param Arg1
-
-Handle to a device context for which the function creates a suitable OpenGL rendering context.
-
+Typically named `handleToDeviceContext`. Handle to a device context for which the function creates a suitable OpenGL rendering context.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is a valid handle to an OpenGL rendering context.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+A rendering context is not the same as a device context. Set the pixel format of the device context before creating a rendering context. For more information on setting the device context's pixel format, see the <a href="/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a> function.
 
-
-A rendering context is not the same as a device context. Set the pixel format of the device context before creating a rendering context. For more information on setting the device context's pixel format, see the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a> function.
-
-To use OpenGL, you create a rendering context, select it as a thread's current rendering context, and then call OpenGL functions. When you are finished with the rendering context, you dispose of it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext">wglDeleteContext</a> function.
+To use OpenGL, you create a rendering context, select it as a thread's current rendering context, and then call OpenGL functions. When you are finished with the rendering context, you dispose of it by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext">wglDeleteContext</a> function.
 
 The following code example shows <b>wglCreateContext</b> usage.
 
-<pre class="syntax" xml:space="preserve"><code>HDC    hdc; 
+
+``` syntax
+HDC    hdc; 
 HGLRC  hglrc; 
  
 // create a rendering context  
@@ -100,41 +90,34 @@ wglMakeCurrent (hdc, hglrc);
 wglMakeCurrent (NULL, NULL) ; 
  
 // delete the rendering context  
-wglDeleteContext (hglrc);</code></pre>
-
+wglDeleteContext (hglrc);
+```
 
 
 ## -see-also
 
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixelformat">SetPixelFormat</a>
+<a href="/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext">wglDeleteContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wgldeletecontext">wglDeleteContext</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentcontext">wglGetCurrentContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentcontext">wglGetCurrentContext</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc">wglGetCurrentDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglgetcurrentdc">wglGetCurrentDC</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent">wglMakeCurrent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglmakecurrent">wglMakeCurrent</a>

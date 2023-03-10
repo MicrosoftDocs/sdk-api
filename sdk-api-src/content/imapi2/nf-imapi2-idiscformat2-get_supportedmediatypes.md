@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2.get_SupportedMediaTypes
 title: IDiscFormat2::get_SupportedMediaTypes (imapi2.h)
 description: Retrieves the media types that are supported by the current implementation of the IDiscFormat2 interface.
+helpviewer_keywords: ["IDiscFormat2 interface [IMAPI]","get_SupportedMediaTypes method","IDiscFormat2.get_SupportedMediaTypes","IDiscFormat2::get_SupportedMediaTypes","get_SupportedMediaTypes","get_SupportedMediaTypes method [IMAPI]","get_SupportedMediaTypes method [IMAPI]","IDiscFormat2 interface","imapi.idiscformat2_get_supportedmediatypes","imapi2/IDiscFormat2::get_SupportedMediaTypes"]
 old-location: imapi\idiscformat2_get_supportedmediatypes.htm
 tech.root: imapi
 ms.assetid: 281eacb5-f991-4d3f-95bb-6c2469d67a5c
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_SupportedMediaTypes method, IDiscFormat2.get_SupportedMediaTypes, IDiscFormat2::get_SupportedMediaTypes, get_SupportedMediaTypes, get_SupportedMediaTypes method [IMAPI], get_SupportedMediaTypes method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_supportedmediatypes, imapi2/IDiscFormat2::get_SupportedMediaTypes
-f1_keywords:
-- imapi2/IDiscFormat2.get_SupportedMediaTypes
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2.get_SupportedMediaTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2::get_SupportedMediaTypes
+ - imapi2/IDiscFormat2::get_SupportedMediaTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2.get_SupportedMediaTypes
 ---
 
 # IDiscFormat2::get_SupportedMediaTypes
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the media types that are supported by the current implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a> interface.
-
+Retrieves the media types that are supported by the current implementation of the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-List of media types supported by the current implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a> interface. Each element of the array is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of <b>VARIANT</b> contains the media type. For a list of media types, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type. 
-
+List of media types supported by the current implementation of the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a> interface. Each element of the array is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of <b>VARIANT</b> contains the media type. For a list of media types, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -334,18 +328,7 @@ The device associated with this recorder during the last operation has been excl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>

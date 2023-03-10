@@ -2,15 +2,12 @@
 UID: NF:dwrite_1.IDWriteFontFace1.GetUnicodeRanges
 title: IDWriteFontFace1::GetUnicodeRanges (dwrite_1.h)
 description: Retrieves a list of character ranges supported by a font.
+helpviewer_keywords: ["GetUnicodeRanges","GetUnicodeRanges method [Direct Write]","GetUnicodeRanges method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetUnicodeRanges method","IDWriteFontFace1.GetUnicodeRanges","IDWriteFontFace1::GetUnicodeRanges","directwrite.idwritefontface1_getunicoderanges","dwrite_1/IDWriteFontFace1::GetUnicodeRanges"]
 old-location: directwrite\idwritefontface1_getunicoderanges.htm
 tech.root: DirectWrite
 ms.assetid: 0464BA91-B098-463D-A4A9-8D3C05E45F0E
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeRanges, GetUnicodeRanges method [Direct Write], GetUnicodeRanges method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetUnicodeRanges method, IDWriteFontFace1.GetUnicodeRanges, IDWriteFontFace1::GetUnicodeRanges, directwrite.idwritefontface1_getunicoderanges, dwrite_1/IDWriteFontFace1::GetUnicodeRanges
-f1_keywords:
-- dwrite_1/IDWriteFontFace1.GetUnicodeRanges
-dev_langs:
-- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite_1.dll
-api_name:
-- IDWriteFontFace1.GetUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFace1::GetUnicodeRanges
+ - dwrite_1/IDWriteFontFace1::GetUnicodeRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite_1.dll
+api_name:
+ - IDWriteFontFace1.GetUnicodeRanges
 ---
 
 # IDWriteFontFace1::GetUnicodeRanges
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of character ranges supported by a font.
 
-
 ## -parameters
-
-
-
 
 ### -param maxRangeCount
 
@@ -64,13 +61,11 @@ Type: <b>UINT32</b>
 Maximum number of character ranges passed
     in from the client.
 
-
 ### -param unicodeRanges [out, optional]
 
 Type: <b><a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a>*</b>
 
 An array of <a href="/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_unicode_range">DWRITE_UNICODE_RANGE</a> structures that are filled with the character ranges.
-
 
 ### -param actualRangeCount [out]
 
@@ -79,10 +74,7 @@ Type: <b>UINT32*</b>
 A pointer to the actual number of character ranges,
     regardless of the maximum count.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -116,14 +108,8 @@ The buffer is too small.  The <i>actualRangeCount</i> was more than the <i>maxRa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A 
   list of character ranges supported by the font is
@@ -138,16 +124,7 @@ If this method is unavailable, you can use the <a href="/windows/win32/api/dwrit
 
  The <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefont-hascharacter">IDWriteFont::HasCharacter</a> method is often simpler in cases where you need to check a single character or a series of single characters in succession, such as in font fallback.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1">IDWriteFontFace1</a>
- 
-
- 
 

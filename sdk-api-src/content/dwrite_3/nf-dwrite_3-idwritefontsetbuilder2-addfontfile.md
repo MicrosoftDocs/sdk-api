@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFontFile
 title: IDWriteFontSetBuilder2::AddFontFile
 description: Adds references to all the fonts in the specified font file. The method parses the font file to determine the fonts and their properties.
+helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFontFile method","IDWriteFontSetBuilder2.AddFontFile","IDWriteFontSetBuilder2::AddFontFile","AddFontFile","AddFontFile method [Direct Write]","AddFontFile method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfontfile","dwrite_3/IDWriteFontSetBuilder2::AddFontFile"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder2.AddFontFile, IDWriteFontSetBuilder2::AddFontFile, AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfontfile, dwrite_3/IDWriteFontSetBuilder2::AddFontFile
-f1_keywords:
-- dwrite_3/IDWriteFontSetBuilder2.AddFontFile
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSetBuilder2::AddFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSetBuilder2::AddFontFile
+ - dwrite_3/IDWriteFontSetBuilder2::AddFontFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSetBuilder2::AddFontFile
 ---
 
 ## -description
@@ -63,3 +65,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
+

@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreAnchor.InsertEmbeddedAtSelection
 title: ITextStoreAnchor::InsertEmbeddedAtSelection (textstor.h)
 description: The ITextStoreAnchor::InsertEmbeddedAtSelection method inserts an IDataObject object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an IDataObject into the text stream.
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","InsertEmbeddedAtSelection method","ITextStoreAnchor.InsertEmbeddedAtSelection","ITextStoreAnchor::InsertEmbeddedAtSelection","InsertEmbeddedAtSelection","InsertEmbeddedAtSelection method [Text Services Framework]","InsertEmbeddedAtSelection method [Text Services Framework]","ITextStoreAnchor interface","TF_IAS_NOQUERY","TF_IAS_QUERYONLY","textstor/ITextStoreAnchor::InsertEmbeddedAtSelection","tsf.itextstoreanchor_insertembeddedatselection"]
 old-location: tsf\itextstoreanchor_insertembeddedatselection.htm
 tech.root: TSF
 ms.assetid: 22c804b9-e260-4a8a-bbb3-fcc81fa97c7a
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreAnchor.InsertEmbeddedAtSelection, ITextStoreAnchor::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertEmbeddedAtSelection, tsf.itextstoreanchor_insertembeddedatselection
-f1_keywords:
-- textstor/ITextStoreAnchor.InsertEmbeddedAtSelection
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchor.InsertEmbeddedAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchor::InsertEmbeddedAtSelection
+ - textstor/ITextStoreAnchor::InsertEmbeddedAtSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchor.InsertEmbeddedAtSelection
 ---
 
 # ITextStoreAnchor::InsertEmbeddedAtSelection
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
-
+The <b>ITextStoreAnchor::InsertEmbeddedAtSelection</b> method inserts an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an <b>IDataObject</b> into the text stream.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 Specifies whether the <i>paStart</i> and <i>paEnd</i> parameters will contain the results of the object insertion.
 
-The <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
+The <a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_NOQUERY</a> and TF_IAS_QUERYONLY flags cannot be combined.
 
 <table>
 <tr>
@@ -91,27 +88,20 @@ Use this flag to view the results of the text insertion without actually inserti
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pDataObject [in]
 
 Pointer to the <b>IDataObject</b> object to be inserted.
 
-
 ### -param ppaStart [out]
 
 Pointer to the anchor object at the start of the object insertion.
-
 
 ### -param ppaEnd [out]
 
 Pointer to the anchor object at the end of the object insertion. For an insertion point, this parameter value will be the same as the value of the <i>ppaStart</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -176,51 +166,35 @@ The caller does not have a lock on the document.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Clients must use this method to insert an object into a text stream, since a <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED</a> constant cannot be passed into <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText</a>.
-
-
-
+Clients must use this method to insert an object into a text stream, since a <a href="/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED</a> constant cannot be passed into <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-queryinsertembedded">ITextStoreAnchor::QueryInsertEmbedded
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-queryinsertembedded">ITextStoreAnchor::QueryInsertEmbedded
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
+<a href="/windows/desktop/TSF/tf-ias--constants">TF_IAS_* Constants
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED
+<a href="/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED
       </a>
- 
-
- 
-

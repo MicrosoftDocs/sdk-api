@@ -2,15 +2,12 @@
 UID: NF:wsdattachment.WSDCreateOutboundAttachment
 title: WSDCreateOutboundAttachment function (wsdattachment.h)
 description: Creates an IWSDOutboundAttachment object.
+helpviewer_keywords: ["WSDCreateOutboundAttachment","WSDCreateOutboundAttachment function","ncd.wsdcreateoutboundattachment","wsdattachment/WSDCreateOutboundAttachment"]
 old-location: ncd\wsdcreateoutboundattachment.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 92e4ed8a-4a17-49dd-9ed8-bc867ec8bba9
 ms.date: 12/05/2018
 ms.keywords: WSDCreateOutboundAttachment, WSDCreateOutboundAttachment function, ncd.wsdcreateoutboundattachment, wsdattachment/WSDCreateOutboundAttachment
-f1_keywords:
-- wsdattachment/WSDCreateOutboundAttachment
-dev_langs:
-- c++
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateOutboundAttachment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateOutboundAttachment
+ - wsdattachment/WSDCreateOutboundAttachment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateOutboundAttachment
 ---
 
 # WSDCreateOutboundAttachment function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object.
-
+Creates an <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object.
 
 ## -parameters
 
-
-
-
 ### -param ppAttachment [out]
 
-Returns a reference to the initialized <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object. Cannot be <b>NULL</b>.
-
+Returns a reference to the initialized <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object. Cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,7 +101,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

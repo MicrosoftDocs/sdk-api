@@ -2,15 +2,12 @@
 UID: NF:certenc.ICertEncodeStringArray.Reset
 title: ICertEncodeStringArray::Reset (certenc.h)
 description: Specifies the size of the string array and the type of strings the array will contain.
+helpviewer_keywords: ["CCertEncodeStringArray object [Security]","Reset method","CERT_RDN_ANY_TYPE","CERT_RDN_GENERAL_STRING","CERT_RDN_GRAPHIC_STRING","CERT_RDN_IA5_STRING","CERT_RDN_INT4_STRING","CERT_RDN_ISO646_STRING","CERT_RDN_NUMERIC_STRING","CERT_RDN_PRINTABLE_STRING","CERT_RDN_T61_STRING","CERT_RDN_UNICODE_STRING","CERT_RDN_VIDEOTEX_STRING","ICertEncodeStringArray interface [Security]","Reset method","ICertEncodeStringArray.Reset","ICertEncodeStringArray::Reset","Reset","Reset method [Security]","Reset method [Security]","CCertEncodeStringArray object","Reset method [Security]","ICertEncodeStringArray interface","_certsrv_icertencodestringarray_reset","certenc/ICertEncodeStringArray::Reset","security.icertencodestringarray_reset"]
 old-location: security\icertencodestringarray_reset.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 125524ae-236d-4507-9c00-76a016bf6c62
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],Reset method, CERT_RDN_ANY_TYPE, CERT_RDN_GENERAL_STRING, CERT_RDN_GRAPHIC_STRING, CERT_RDN_IA5_STRING, CERT_RDN_INT4_STRING, CERT_RDN_ISO646_STRING, CERT_RDN_NUMERIC_STRING, CERT_RDN_PRINTABLE_STRING, CERT_RDN_T61_STRING, CERT_RDN_UNICODE_STRING, CERT_RDN_VIDEOTEX_STRING, ICertEncodeStringArray interface [Security],Reset method, ICertEncodeStringArray.Reset, ICertEncodeStringArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeStringArray object, Reset method [Security],ICertEncodeStringArray interface, _certsrv_icertencodestringarray_reset, certenc/ICertEncodeStringArray::Reset, security.icertencodestringarray_reset
-f1_keywords:
-- certenc/ICertEncodeStringArray.Reset
-dev_langs:
-- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenc.dll
-api_name:
-- ICertEncodeStringArray.Reset
-- CCertEncodeStringArray.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertEncodeStringArray::Reset
+ - certenc/ICertEncodeStringArray::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenc.dll
+api_name:
+ - ICertEncodeStringArray.Reset
+ - CCertEncodeStringArray.Reset
 ---
 
 # ICertEncodeStringArray::Reset
@@ -49,25 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Reset</b> method specifies the size of the string array  and the type of strings the array will contain.The values of all the elements in the string array are set to zero.
 
-You must call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-setvalue">ICertEncodeStringArray::SetValue</a> method for the first time.
-
+You must call this method before calling the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-setvalue">ICertEncodeStringArray::SetValue</a> method for the first time.
 
 ## -parameters
-
-
-
 
 ### -param Count [in]
 
 Specifies the number of elements in the string array.
 
-
 ### -param StringType [in]
 
-Specifies the type of stings that the string array contains. The type must be one of the following values. For more information about RDN types, see the CryptoAPI 2.0 documents.
+Specifies the type of strings that the string array contains. The type must be one of the following values. For more information about RDN types, see the CryptoAPI 2.0 documents.
 
 <table>
 <tr>
@@ -180,33 +176,19 @@ An array of INT4 values (32 bit).
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> characters (16 bit).
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> characters (16 bit).
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>

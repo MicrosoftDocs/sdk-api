@@ -4,8 +4,11 @@ title: Aclui.h header
 ms.assetid: eb0a39ca-cecb-3c84-93be-39d8e13e320e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: security
+f1_keywords:
+ - aclui
+ - aclui/aclui
 ---
 
 # Aclui.h header
@@ -13,8 +16,8 @@ tech.root: security
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by Security and Identity. For more information, see:
-
+- [CIMWin32 WMI Providers](../_cimwin32/index.md)
 - [Security and Identity](../_security/index.md)
 

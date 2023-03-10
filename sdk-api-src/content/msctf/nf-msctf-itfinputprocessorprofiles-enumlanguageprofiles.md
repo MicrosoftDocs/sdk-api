@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfiles.EnumLanguageProfiles
 title: ITfInputProcessorProfiles::EnumLanguageProfiles (msctf.h)
 description: ITfInputProcessorProfiles::EnumLanguageProfiles method
+helpviewer_keywords: ["EnumLanguageProfiles","EnumLanguageProfiles method [Text Services Framework]","EnumLanguageProfiles method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","EnumLanguageProfiles method","ITfInputProcessorProfiles.EnumLanguageProfiles","ITfInputProcessorProfiles::EnumLanguageProfiles","_tsf_itfinputprocessorprofiles_enumlanguageprofiles_ref","msctf/ITfInputProcessorProfiles::EnumLanguageProfiles","tsf.itfinputprocessorprofiles_enumlanguageprofiles"]
 old-location: tsf\itfinputprocessorprofiles_enumlanguageprofiles.htm
 tech.root: TSF
 ms.assetid: 9f7c970c-3f87-4f55-b13e-12fa8b89c362
 ms.date: 12/05/2018
 ms.keywords: EnumLanguageProfiles, EnumLanguageProfiles method [Text Services Framework], EnumLanguageProfiles method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnumLanguageProfiles method, ITfInputProcessorProfiles.EnumLanguageProfiles, ITfInputProcessorProfiles::EnumLanguageProfiles, _tsf_itfinputprocessorprofiles_enumlanguageprofiles_ref, msctf/ITfInputProcessorProfiles::EnumLanguageProfiles, tsf.itfinputprocessorprofiles_enumlanguageprofiles
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.EnumLanguageProfiles
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.EnumLanguageProfiles
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::EnumLanguageProfiles
+ - msctf/ITfInputProcessorProfiles::EnumLanguageProfiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.EnumLanguageProfiles
 ---
 
 # ITfInputProcessorProfiles::EnumLanguageProfiles
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumerator that contains all of the profiles for a specific language.
 
 ## -parameters
-
-
-
 
 ### -param langid [in]
 
 Contains a <b>LANGID</b> value that specifies the language to obtain an enumerator for.
 
-
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles</a> interface pointer that receives the enumerator object.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles</a> interface pointer that receives the enumerator object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,7 +90,7 @@ The method was successful.
 </td>
 <td width="60%">
 No corresponding language profile was found in the operating system.<div> </div>-or-<div> </div> 
-				  An unspecified error occurred.
+                  An unspecified error occurred.
 
 </td>
 </tr>
@@ -123,23 +117,12 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtflanguageprofiles">IEnumTfLanguageProfiles
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>

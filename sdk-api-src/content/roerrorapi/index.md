@@ -3,7 +3,6 @@ UID: NA:roerrorapi
 title: roerrorapi.h header
 ms.date: 05/20/2019
 ms.keywords: roerrorapi
-ms.topic: language-reference
 tech.root: winrt
 targetos: Windows
 req.assembly: 
@@ -27,16 +26,20 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- roerrorapi.h
+ - roerrorapi.h
 api_name:
-- roerrorapi
+ - roerrorapi
+f1_keywords:
+ - roerrorapi
+ - roerrorapi/roerrorapi
 ---
 
 # roerrorapi.h header
+
 
 ## -description
 
@@ -49,6 +52,8 @@ The *roerrorapi.h* header contains the following programming interfaces:
 
 ## -remarks
 
-## -see-also
+This header is used by Windows Runtime C++ reference. For more information, see:
 
-## -examples
+- [Windows Runtime C++ reference](../_winrt/index.md)
+
+## -see-also

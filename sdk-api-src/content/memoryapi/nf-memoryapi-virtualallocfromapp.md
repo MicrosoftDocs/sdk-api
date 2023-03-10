@@ -1,16 +1,13 @@
 ---
 UID: NF:memoryapi.VirtualAllocFromApp
 title: VirtualAllocFromApp function (memoryapi.h)
-description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
+description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process. (VirtualAllocFromApp)
+helpviewer_keywords: ["MEM_COMMIT","MEM_LARGE_PAGES","MEM_PHYSICAL","MEM_RESERVE","MEM_RESET","MEM_RESET_UNDO","MEM_TOP_DOWN","MEM_WRITE_WATCH","VirtualAllocFromApp","VirtualAllocFromApp function","base.virtualallocfromapp","memoryapi/VirtualAllocFromApp"]
 old-location: base\virtualallocfromapp.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 6124F358-718B-464F-ACBF-6BBE5189988B
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAllocFromApp, VirtualAllocFromApp function, base.virtualallocfromapp, memoryapi/VirtualAllocFromApp
-f1_keywords:
-- memoryapi/VirtualAllocFromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -25,25 +22,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: WindowsApp.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- KernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualAllocFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualAllocFromApp
+ - memoryapi/VirtualAllocFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualAllocFromApp
 ---
 
 # VirtualAllocFromApp function
@@ -51,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reserves, commits, or changes the state  of a region of pages in the virtual address space of the calling process. 
     Memory allocated by this function is automatically initialized to zero.
 
-
 ## -parameters
-
-
-
 
 ### -param BaseAddress [in, optional]
 
@@ -67,9 +64,8 @@ The starting address of the region to allocate. If the memory is being reserved,
       rounded down to the nearest multiple of the allocation granularity. If the memory is already reserved and is 
       being committed, the address is rounded down to the next page boundary. To determine the size of a page and the 
       allocation granularity on the host computer, use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If this parameter is 
+      <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function. If this parameter is 
       <b>NULL</b>, the system determines where to allocate the region.
-
 
 ### -param Size [in]
 
@@ -78,7 +74,6 @@ The size of the region, in bytes. If the <i>BaseAddress</i> parameter is
       pages include all pages containing one or more bytes in the range from <i>BaseAddress</i> to 
       <i>BaseAddress</i>+<i>Size</i>. This means that a 2-byte range straddling 
       a page boundary causes both pages to be included in the allocated region.
-
 
 ### -param AllocationType [in]
 
@@ -131,7 +126,7 @@ You can commit reserved pages in subsequent calls to the
          <b>MEM_COMMIT</b> | <b>MEM_RESERVE</b>.
 
 Other memory allocation functions, such as <b>malloc</b> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>, cannot use a reserved range of memory 
+         <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>, cannot use a reserved range of memory 
          until it is released.
 
 </td>
@@ -202,10 +197,10 @@ This parameter can also specify the following values as indicated.
 </dl>
 </td>
 <td width="60%">
-Allocates memory using <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>.
+Allocates memory using <a href="/windows/desktop/Memory/large-page-support">large page support</a>.
 
 The size and alignment must be a multiple of the large-page minimum. To obtain this value, use the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function.
+         <a href="/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function.
 
 If you specify this value, you must also specify <b>MEM_RESERVE</b> and <b>MEM_COMMIT</b>.
 
@@ -219,7 +214,7 @@ If you specify this value, you must also specify <b>MEM_RESERVE</b> and <b>MEM_C
 </td>
 <td width="60%">
 Reserves an address range that can be used to map 
-         <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) 
+         <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) 
          pages.
 
 This value must be used with <b>MEM_RESERVE</b> and no other values.
@@ -250,22 +245,20 @@ Causes the system to track pages that are written to in the allocated region. If
 
 To retrieve the addresses of the pages that have been written to since the region was allocated or the 
          write-tracking state was reset, call the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getwritewatch">GetWriteWatch</a> function. To reset the write-tracking 
+         <a href="/windows/desktop/api/memoryapi/nf-memoryapi-getwritewatch">GetWriteWatch</a> function. To reset the write-tracking 
          state, call <b>GetWriteWatch</b> or 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-resetwritewatch">ResetWriteWatch</a>. The write-tracking feature 
+         <a href="/windows/desktop/api/memoryapi/nf-memoryapi-resetwritewatch">ResetWriteWatch</a>. The write-tracking feature 
          remains enabled for the memory region until the region is freed.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Protection [in]
 
 The memory protection for the region of pages to be allocated. If the pages are being committed, you can 
       specify one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>. The following constants generate an error:
+      <a href="/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>. The following constants generate an error:
 
 <ul>
 <li><b>PAGE_EXECUTE</b></li>
@@ -276,23 +269,16 @@ The memory protection for the region of pages to be allocated. If the pages are 
 
 ## -returns
 
-
-
 If the function succeeds, the return value is the base address of the allocated region of pages.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 You can call <b>VirtualAllocFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities.
 
-Each page has an associated <a href="https://docs.microsoft.com/windows/desktop/Memory/page-state">page state</a>. The 
+Each page has an associated <a href="/windows/desktop/Memory/page-state">page state</a>. The 
     <b>VirtualAllocFromApp</b> function can perform the following 
     operations:
 
@@ -320,61 +306,51 @@ If the <i>BaseAddress</i> parameter is not <b>NULL</b>, the function uses
 <b>VirtualAllocFromApp</b> does not allow the creation of executable pages.
 
 The <b>VirtualAllocFromApp</b> function can be used to reserve an 
-    <a href="https://docs.microsoft.com/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) 
+    <a href="/windows/desktop/Memory/address-windowing-extensions">Address Windowing Extensions</a> (AWE) 
     region of memory within the virtual address space of a specified process. This region of memory can then be used 
     to map physical pages into and out of virtual memory as required by the application. The 
     <b>MEM_PHYSICAL</b> and <b>MEM_RESERVE</b> values must be set in the 
     <i>AllocationType</i> parameter. The <b>MEM_COMMIT</b> value must not be 
     set. The page protection must be set to <b>PAGE_READWRITE</b>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> function can decommit a committed 
+The <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> function can decommit a committed 
     page, releasing the page's storage, or it can simultaneously decommit and release a committed page. It can also 
     release a reserved page, making it a free page.
 
 When creating a region that will be executable, the calling program bears responsibility for ensuring cache 
     coherency via an appropriate call to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache">FlushInstructionCache</a> once the code has been set 
+    <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache">FlushInstructionCache</a> once the code has been set 
     in place. Otherwise attempts to execute code out of the newly executable region may produce unpredictable 
     results.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectfromapp">VirtualProtectFromApp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectfromapp">VirtualProtectFromApp</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>

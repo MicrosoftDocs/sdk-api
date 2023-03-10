@@ -2,15 +2,12 @@
 UID: NN:rdpencomapi.IRDPViewerInputSink
 title: IRDPViewerInputSink (rdpencomapi.h)
 description: Sends mouse and keyboard events, and supports touch input.
+helpviewer_keywords: ["IRDPViewerInputSink","IRDPViewerInputSink class [RDP]","IRDPViewerInputSink class [RDP]","described","rdp.irdpviewerinputsink","rdpencomapi/IRDPViewerInputSink"]
 old-location: rdp\irdpviewerinputsink.htm
 tech.root: rdp
 ms.assetid: 364EC709-C41C-4ADD-8E7D-6A635E5BCCDA
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink class [RDP], IRDPViewerInputSink class [RDP],described, rdp.irdpviewerinputsink, rdpencomapi/IRDPViewerInputSink
-f1_keywords:
-- rdpencomapi/IRDPViewerInputSink
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPViewerInputSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPViewerInputSink
+ - rdpencomapi/IRDPViewerInputSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPViewerInputSink
 ---
 
 # IRDPViewerInputSink interface
@@ -48,109 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>IRDPViewerInputSink</b> interface is no longer available for use for UWP applications as of Windows 10, version 1709. It is still supported for Desktop apps.]
 
 Sends mouse and keyboard events, and supports touch input.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPViewerInputSink</b> class inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPViewerInputSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRDPViewerInputSink</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-addtouchinput">AddTouchInput</a>
-</td>
-<td align="left" width="63%">
-Accepts a description of  a touch input.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-begintouchframe">BeginTouchFrame</a>
-</td>
-<td align="left" width="63%">
-Begins  to accept a series of touch inputs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-endtouchframe">EndTouchFrame</a>
-</td>
-<td align="left" width="63%">
-Stops  to   accept  a series of touch inputs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendkeyboardevent">SendKeyboardEvent</a>
-</td>
-<td align="left" width="63%">
-Sends a keyboard event message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendmousebuttonevent">SendMouseButtonEvent</a>
-</td>
-<td align="left" width="63%">
-Sends a mouse button event message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendmousemoveevent">SendMouseMoveEvent</a>
-</td>
-<td align="left" width="63%">
-Sends a mouse move event message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendmousewheelevent">SendMouseWheelEvent</a>
-</td>
-<td align="left" width="63%">
-Sends a mouse wheel event message.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpviewerinputsink-sendsyncevent">SendSyncEvent</a>
-</td>
-<td align="left" width="63%">
-Sends an event message to indicate a change in the state of the keyboard, such as when the Caps Lock key is pressed.
-
-</td>
-</tr>
-</table> 
-
+The <b>IRDPViewerInputSink</b> class inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRDPViewerInputSink</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-interfaces">Windows Desktop Sharing Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rdp/windows-desktop-sharing-interfaces">Windows Desktop Sharing Interfaces</a>

@@ -2,15 +2,12 @@
 UID: NE:shobjidl_core.CM_MASK
 title: CM_MASK (shobjidl_core.h)
 description: Indicates which values in the CM_COLUMNINFO structure should be set during calls to IColumnManager::SetColumnInfo.
+helpviewer_keywords: ["CM_MASK","CM_MASK enumeration [Windows Shell]","CM_MASK_DEFAULTWIDTH","CM_MASK_IDEALWIDTH","CM_MASK_NAME","CM_MASK_STATE","CM_MASK_WIDTH","shell.CM_MASK","shell_CM_MASK","shobjidl_core/CM_MASK","shobjidl_core/CM_MASK_DEFAULTWIDTH","shobjidl_core/CM_MASK_IDEALWIDTH","shobjidl_core/CM_MASK_NAME","shobjidl_core/CM_MASK_STATE","shobjidl_core/CM_MASK_WIDTH"]
 old-location: shell\CM_MASK.htm
 tech.root: shell
 ms.assetid: c6ba9410-7c56-428c-9ad9-4e769c047863
 ms.date: 12/05/2018
 ms.keywords: CM_MASK, CM_MASK enumeration [Windows Shell], CM_MASK_DEFAULTWIDTH, CM_MASK_IDEALWIDTH, CM_MASK_NAME, CM_MASK_STATE, CM_MASK_WIDTH, shell.CM_MASK, shell_CM_MASK, shobjidl_core/CM_MASK, shobjidl_core/CM_MASK_DEFAULTWIDTH, shobjidl_core/CM_MASK_IDEALWIDTH, shobjidl_core/CM_MASK_NAME, shobjidl_core/CM_MASK_STATE, shobjidl_core/CM_MASK_WIDTH
-f1_keywords:
-- shobjidl_core/CM_MASK
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- CM_MASK
 targetos: Windows
 req.typenames: CM_MASK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_MASK
+ - shobjidl_core/CM_MASK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - CM_MASK
 ---
 
 # CM_MASK enumeration
@@ -48,36 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates which values in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure should be set during calls to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a>.
-
+Indicates which values in the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure should be set during calls to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a>.
 
 ## -enum-fields
 
-
-
-
-### -field CM_MASK_WIDTH
+### -field CM_MASK_WIDTH:0x1
 
 The <b>uWidth</b> member is specified.
 
-
-### -field CM_MASK_DEFAULTWIDTH
+### -field CM_MASK_DEFAULTWIDTH:0x2
 
 The <b>uDefaultWidth</b> member is specified.
 
-
-### -field CM_MASK_IDEALWIDTH
+### -field CM_MASK_IDEALWIDTH:0x4
 
 The <b>uIdealWidth</b> member is specified.
 
-
-### -field CM_MASK_NAME
+### -field CM_MASK_NAME:0x8
 
 The <b>wszName</b> member is specified.
 
-
-### -field CM_MASK_STATE
+### -field CM_MASK_STATE:0x10
 
 The <b>dwState</b> member is specified.
-

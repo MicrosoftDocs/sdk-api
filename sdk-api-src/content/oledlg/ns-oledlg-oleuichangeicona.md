@@ -1,13 +1,11 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGEICONA
 title: OLEUICHANGEICONA
-description: Contains information that the OLE User Interface Library uses to initialize the Change Icon dialog box, and it contains space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Change Icon dialog box, and it contains space for the library to return information when the dialog box is dismissed. (ANSI)
+tech.root: com
+helpviewer_keywords: ["tagOLEUICHANGEICONA","OLEUICHANGEICONA"]
 ms.date: 4/26/2019
 ms.keywords: tagOLEUICHANGEICONA, OLEUICHANGEICONA
-f1_keywords:
-- tagOLEUICHANGEICONA
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -18,21 +16,30 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: OLEUICHANGEICONA, *POLEUICHANGEICONA, *LPOLEUICHANGEICONA
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - tagOLEUICHANGEICONA
+ - oledlg/tagOLEUICHANGEICONA
+ - POLEUICHANGEICONA
+ - oledlg/POLEUICHANGEICONA
+ - OLEUICHANGEICONA
+ - oledlg/OLEUICHANGEICONA
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- oledlg.h
+ - oledlg.h
 api_name:
-- tagOLEUICHANGEICONA
-- OLEUICHANGEICONA
+ - tagOLEUICHANGEICONA
+ - OLEUICHANGEICONA
 ---
 
 ## -description
@@ -69,7 +76,6 @@ Pointer to a string to be used as the title of the dialog box. If **NULL**, then
 
 Pointer to a hook function that processes messages intended for the dialog box. The hook function must return zero to pass a message that it didn't process back to the dialog box procedure in the library. The hook function must return a nonzero value to prevent the library's dialog box procedure from processing a message it has already processed.
 
-
 ### -field lCustData
 
 Application-defined data that the library passes to the hook function pointed to by the **lpfnHook** member. The library passes a pointer to the **OLEUICHANGEICON** structure in the lParam parameter of the WM\_INITDIALOG message; this pointer can be used to retrieve the **lCustData** member.
@@ -103,6 +109,9 @@ Input only. Pointer to the executable to extract the default icon from. This mem
 Input only. The number of characters in **szIconExe**. This member is ignored unless CIF\_USEICONEXE is included in the **dwFlags** member.
 
 ## -remarks
+
+> [!NOTE]
+> The oledlg.h header defines OLEUICHANGEICON as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

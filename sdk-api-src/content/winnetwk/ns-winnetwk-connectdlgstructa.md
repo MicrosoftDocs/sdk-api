@@ -1,16 +1,13 @@
 ---
 UID: NS:winnetwk._CONNECTDLGSTRUCTA
 title: CONNECTDLGSTRUCTA (winnetwk.h)
-description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters.
+description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters. (ANSI)
+helpviewer_keywords: ["*LPCONNECTDLGSTRUCTA","CONNDLG_CONN_POINT","CONNDLG_HIDE_BOX","CONNDLG_NOT_PERSIST","CONNDLG_PERSIST","CONNDLG_RO_PATH","CONNDLG_USE_MRU","CONNECTDLGSTRUCT","CONNECTDLGSTRUCT structure [Windows Networking (WNet)]","CONNECTDLGSTRUCTA","CONNECTDLGSTRUCTW","LPCONNECTDLGSTRUCT","LPCONNECTDLGSTRUCT structure pointer [Windows Networking (WNet)]","SidTypeUser","_win32_connectdlgstruct_str","winnetwk/CONNECTDLGSTRUCT","winnetwk/CONNECTDLGSTRUCTA","winnetwk/CONNECTDLGSTRUCTW","winnetwk/LPCONNECTDLGSTRUCT","wnet.connectdlgstruct_str"]
 old-location: wnet\connectdlgstruct_str.htm
 tech.root: WNet
 ms.assetid: fb2a4b5a-ad8a-4ebf-8430-349d821eee20
 ms.date: 12/05/2018
 ms.keywords: '*LPCONNECTDLGSTRUCTA, CONNDLG_CONN_POINT, CONNDLG_HIDE_BOX, CONNDLG_NOT_PERSIST, CONNDLG_PERSIST, CONNDLG_RO_PATH, CONNDLG_USE_MRU, CONNECTDLGSTRUCT, CONNECTDLGSTRUCT structure [Windows Networking (WNet)], CONNECTDLGSTRUCTA, CONNECTDLGSTRUCTW, LPCONNECTDLGSTRUCT, LPCONNECTDLGSTRUCT structure pointer [Windows Networking (WNet)], SidTypeUser, _win32_connectdlgstruct_str, winnetwk/CONNECTDLGSTRUCT, winnetwk/CONNECTDLGSTRUCTA, winnetwk/CONNECTDLGSTRUCTW, winnetwk/LPCONNECTDLGSTRUCT, wnet.connectdlgstruct_str'
-f1_keywords:
-- winnetwk/CONNECTDLGSTRUCT
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnetwk.h
-api_name:
-- CONNECTDLGSTRUCT
-- CONNECTDLGSTRUCTA
-- CONNECTDLGSTRUCTW
 targetos: Windows
 req.typenames: CONNECTDLGSTRUCTA, *LPCONNECTDLGSTRUCTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CONNECTDLGSTRUCTA
+ - winnetwk/_CONNECTDLGSTRUCTA
+ - LPCONNECTDLGSTRUCTA
+ - winnetwk/LPCONNECTDLGSTRUCTA
+ - CONNECTDLGSTRUCTA
+ - winnetwk/CONNECTDLGSTRUCTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnetwk.h
+api_name:
+ - CONNECTDLGSTRUCT
+ - CONNECTDLGSTRUCTA
+ - CONNECTDLGSTRUCTW
 ---
 
 # CONNECTDLGSTRUCTA structure
@@ -50,16 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>CONNECTDLGSTRUCT</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a> function to establish browsing dialog box parameters.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a> function to establish browsing dialog box parameters.
 
 ## -struct-fields
-
-
-
 
 ### -field cbStructure
 
@@ -68,20 +69,18 @@ Type: <b>DWORD</b>
 The size, in bytes, of the 
 <b>CONNECTDLGSTRUCT</b> structure. The caller must supply this value.
 
-
 ### -field hwndOwner
 
 Type: <b>HWND</b>
 
 The handle to the owner window for the dialog box.
 
-
 ### -field lpConnRes
 
 Type: <b>LPNETRESOURCE</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. 
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. 
 
 
 
@@ -92,7 +91,6 @@ If the <b>lpRemoteName</b> member of
 							
 
  The system does not support the <b>RESOURCETYPE_PRINT</b> flag for browsing and connecting to print resources.
-
 
 ### -field dwFlags
 
@@ -129,7 +127,7 @@ Display a read-only path instead of allowing the user to type in a path.
 
 
 This flag should be set only if the <b>lpRemoteName</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by <b>lpConnRes</b> member is not <b>NULL</b> (or an empty string), and the <b>CONNDLG_USE_MRU</b> flag is not set.
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by <b>lpConnRes</b> member is not <b>NULL</b> (or an empty string), and the <b>CONNDLG_USE_MRU</b> flag is not set.
 
 </td>
 </tr>
@@ -150,7 +148,7 @@ Internal flag. Do not use.
 </td>
 <td width="60%">
 Enter the most recently used paths into the combination box. Set this value to simulate the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog">WNetConnectionDialog</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog">WNetConnectionDialog</a> function.
 
 </td>
 </tr>
@@ -189,18 +187,14 @@ Do not restore the connection at logon.
 
 For more information, see the following Remarks section.
 
-
 ### -field dwDevNum
 
 Type: <b>DWORD</b>
 
 If the call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a> function is successful, this member returns the number of the connected device. The value is 1 for A:, 2 for B:, 3 for C:, and so on. If the user made a deviceless connection, the value is –1.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a> function is successful, this member returns the number of the connected device. The value is 1 for A:, 2 for B:, 3 for C:, and so on. If the user made a deviceless connection, the value is –1.
 
 ## -remarks
-
-
 
 If neither the CONNDLG_RO_PATH nor the CONNDLG_USE_MRU flag is set, and the <b>lpRemoteName</b> member of the 
 <b>NETRESOURCE</b> structure does not specify a remote path, the request defaults to the CONNDLG_RO_PATH dialog display type.
@@ -210,25 +204,22 @@ The CONNDLG_PERSIST and CONNDLG_NOT_PERSIST values cannot both be set. If neithe
 
 
 
+
+> [!NOTE]
+> The winnetwk.h header defines CONNECTDLGSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a">WNetConnectionDialog1</a>
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>

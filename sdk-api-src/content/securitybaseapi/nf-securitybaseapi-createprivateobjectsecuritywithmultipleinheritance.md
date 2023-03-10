@@ -1,16 +1,13 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurityWithMultipleInheritance
 title: CreatePrivateObjectSecurityWithMultipleInheritance function (securitybaseapi.h)
-description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
+description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function. (CreatePrivateObjectSecurityWithMultipleInheritance)
+helpviewer_keywords: ["CreatePrivateObjectSecurityWithMultipleInheritance","CreatePrivateObjectSecurityWithMultipleInheritance function [Security]","SEF_AVOID_OWNER_CHECK","SEF_AVOID_OWNER_RESTRICTION","SEF_AVOID_PRIVILEGE_CHECK","SEF_DACL_AUTO_INHERIT","SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT","SEF_DEFAULT_GROUP_FROM_PARENT","SEF_DEFAULT_OWNER_FROM_PARENT","SEF_MACL_NO_EXECUTE_UP","SEF_MACL_NO_READ_UP","SEF_MACL_NO_WRITE_UP","SEF_SACL_AUTO_INHERIT","_win32_createprivateobjectsecuritywithmultipleinheritance","security.createprivateobjectsecuritywithmultipleinheritance","securitybaseapi/CreatePrivateObjectSecurityWithMultipleInheritance"]
 old-location: security\createprivateobjectsecuritywithmultipleinheritance.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 8c5a2ac2-612c-4625-8c68-27d99d4ba9d5
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateObjectSecurityWithMultipleInheritance, CreatePrivateObjectSecurityWithMultipleInheritance function [Security], SEF_AVOID_OWNER_CHECK, SEF_AVOID_OWNER_RESTRICTION, SEF_AVOID_PRIVILEGE_CHECK, SEF_DACL_AUTO_INHERIT, SEF_DEFAULT_DESCRIPTOR_FOR_OBJECT, SEF_DEFAULT_GROUP_FROM_PARENT, SEF_DEFAULT_OWNER_FROM_PARENT, SEF_MACL_NO_EXECUTE_UP, SEF_MACL_NO_READ_UP, SEF_MACL_NO_WRITE_UP, SEF_SACL_AUTO_INHERIT, _win32_createprivateobjectsecuritywithmultipleinheritance, security.createprivateobjectsecuritywithmultipleinheritance, securitybaseapi/CreatePrivateObjectSecurityWithMultipleInheritance
-f1_keywords:
-- securitybaseapi/CreatePrivateObjectSecurityWithMultipleInheritance
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- CreatePrivateObjectSecurityWithMultipleInheritance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePrivateObjectSecurityWithMultipleInheritance
+ - securitybaseapi/CreatePrivateObjectSecurityWithMultipleInheritance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - CreatePrivateObjectSecurityWithMultipleInheritance
 ---
 
 # CreatePrivateObjectSecurityWithMultipleInheritance function
@@ -55,49 +57,38 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function allocates and initializes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> for a new private object created by the resource manager calling this function. This function supports private objects (such as Directory Service objects with attached auxiliary classes) composed of multiple object types or classes.
-
+The <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function allocates and initializes a <a href="/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> for a new private object created by the resource manager calling this function. This function supports private objects (such as Directory Service objects with attached auxiliary classes) composed of multiple object types or classes.
 
 ## -parameters
 
-
-
-
 ### -param ParentDescriptor [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
-
+A pointer to the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the parent container of the object. If there is no parent container, this parameter is <b>NULL</b>.
 
 ### -param CreatorDescriptor [in, optional]
 
 A pointer to a security descriptor provided by the creator of the object. If the object's creator does not explicitly pass security information for the new object, this parameter can be <b>NULL</b>. Alternatively, this parameter can point to a default security descriptor.
 
-
 ### -param NewDescriptor [out]
 
 A pointer to a variable to receive a pointer to the newly allocated self-relative security descriptor. When you have finished using the security descriptor, free it by calling the  
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a> function.
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a> function.
 
 ### -param ObjectTypes [in, optional]
 
 An array of pointers to <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structures that identify the object types or classes of the object associated with <i>NewDescriptor</i>. For Active Directory objects, this array contains pointers to the class GUIDs of the object's structural class and all attached auxiliary classes. Set <i>ObjectTypes</i> to <b>NULL</b> if the object does not have a GUID.
 
-
 ### -param GuidCount [in]
 
 The number of GUIDs present in the <i>ObjectTypes</i> parameter.
-
 
 ### -param IsContainerObject [in]
 
 Specifies whether the new object can contain other objects. A value of <b>TRUE</b> indicates that the new object is a container. A value of <b>FALSE</b> indicates that the new object is not a container.
 
-
 ### -param AutoInheritFlags [in]
 
-A set of bit flags that control how <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) are inherited from <i>ParentDescriptor</i>. This parameter can be a combination of the following values.
+A set of bit flags that control how <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) are inherited from <i>ParentDescriptor</i>. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -111,7 +102,7 @@ A set of bit flags that control how <a href="https://docs.microsoft.com/windows/
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
+The new <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
         <i>ParentDescriptor</i>, as well as any explicit ACEs specified in the DACL of 
         <i>CreatorDescriptor</i>. If this flag is not set, the new DACL does not inherit ACEs.
 
@@ -124,7 +115,7 @@ The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">disc
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
+The new <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
         <i>ParentDescriptor</i>, as well as any explicit ACEs specified in the SACL of 
         <i>CreatorDescriptor</i>. If this flag is not set, the new SACL does not inherit ACEs.
 
@@ -235,13 +226,11 @@ Any restrictions  specified by the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Token [in, optional]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> for the client <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> on whose behalf the object is being created. If this is an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
+A handle to the <a href="/windows/desktop/SecGloss/a-gly">access token</a> for the client <a href="/windows/desktop/SecGloss/p-gly">process</a> on whose behalf the object is being created. If this is an <a href="/windows/desktop/SecGloss/i-gly">impersonation token</a>, it must be at SecurityIdentification level or higher. For a full description of the SecurityIdentification impersonation level, see the 
+<a href="/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumerated type. 
 
 
 
@@ -260,17 +249,14 @@ If all of the following conditions are true, then the handle must be opened for 
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the mapping from each generic right to specific rights for the object.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns a nonzero value. 
 
 If the function fails, it returns zero. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information. Some extended error codes and their meanings are listed in the following table.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information. Some extended error codes and their meanings are listed in the following table.
 
 <table>
 <tr>
@@ -295,7 +281,7 @@ The function cannot retrieve a primary group for the new security descriptor.
 </dl>
 </td>
 <td width="60%">
-The function cannot retrieve an owner for the new security descriptor or the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) cannot be assigned as an owner. This occurs when validating the owner SID against the passed-in token.
+The function cannot retrieve an owner for the new security descriptor or the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) cannot be assigned as an owner. This occurs when validating the owner SID against the passed-in token.
 
 </td>
 </tr>
@@ -306,7 +292,7 @@ The function cannot retrieve an owner for the new security descriptor or the <a 
 </dl>
 </td>
 <td width="60%">
-The function received <b>NULL</b> instead of a token for owner validation or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privilege</a> checking.
+The function received <b>NULL</b> instead of a token for owner validation or <a href="/windows/desktop/SecGloss/p-gly">privilege</a> checking.
 
 </td>
 </tr>
@@ -322,22 +308,16 @@ A SACL is being set, SEF_AVOID_PRIVILEGE_CHECK was not passed in, and the token 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function is identical to calling the 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function is identical to calling the 
 <b>CreatePrivateObjectSecurityWithMultipleInheritance</b> function with a single GUID in <i>ObjectTypes</i>.
 
 The <i>AutoInheritFlags</i> are distinct from the similarly named bits in the <b>Control</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For an explanation of the control bits, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For an explanation of the control bits, see 
+<a href="/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>.
 
 If <i>AutoInheritFlags</i> specifies the SEF_DACL_AUTO_INHERIT bit, the function applies the following rules to the DACL in the new security descriptor:
 
@@ -375,7 +355,7 @@ ACEs with any of these mappable elements will result in the following two ACEs i
 </ul>
 </li>
 </ul>
-If <i>AutoInheritFlags</i> does not specify the SEF_AVOID_OWNER_CHECK bit, owner validity checking is performed according to the following rules. The Owner in the resultant <i>NewDescriptor</i>must be a legally formed SID, and either must match the TokenUser in <i>Token</i> or must match a group in the TokenGroups in <i>Token</i>. The attributes on the group:
+If <i>AutoInheritFlags</i> does not specify the SEF_AVOID_OWNER_CHECK bit, owner validity checking is performed according to the following rules. The Owner in the resultant <i>NewDescriptor</i> must be a legally formed SID, and either must match the TokenUser in <i>Token</i> or must match a group in the TokenGroups in <i>Token</i>. The attributes on the group:
 
 <ul>
 <li>Must include SE_GROUP_OWNER</li>
@@ -389,23 +369,17 @@ To verify the current security descriptor on an object, call <b>CreatePrivateObj
 
 If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i> must have the SE_SECURITY_NAME privilege enabled or the caller must specify the SEF_AVOID_PRIVILEGE_CHECK flag in <i>AutoInheritFlags</i>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
 
 
 
@@ -413,16 +387,12 @@ If the <i>CreatorDescriptor</i> security descriptor contains a SACL, <i>Token</i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ne-winnt-security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>

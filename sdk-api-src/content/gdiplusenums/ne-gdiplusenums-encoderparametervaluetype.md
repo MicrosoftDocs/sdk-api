@@ -2,15 +2,12 @@
 UID: NE:gdiplusenums.EncoderParameterValueType
 title: EncoderParameterValueType (gdiplusenums.h)
 description: The EncoderParameterValueType enumeration specifies data types for image codec (encoder/decoder) parameters. An element of this enumeration is assigned to the Type data member of an EncoderParameter object.
+helpviewer_keywords: ["EncoderParameterValueType","EncoderParameterValueType enumeration [GDI+]","EncoderParameterValueTypeASCII","EncoderParameterValueTypeByte","EncoderParameterValueTypeLong","EncoderParameterValueTypeLongRange","EncoderParameterValueTypePointer","EncoderParameterValueTypeRational","EncoderParameterValueTypeRationalRange","EncoderParameterValueTypeShort","EncoderParameterValueTypeUndefined","_gdiplus_ENUM_EncoderParameterValueType","gdiplus._gdiplus_ENUM_EncoderParameterValueType","gdiplusenums/EncoderParameterValueType","gdiplusenums/EncoderParameterValueTypeASCII","gdiplusenums/EncoderParameterValueTypeByte","gdiplusenums/EncoderParameterValueTypeLong","gdiplusenums/EncoderParameterValueTypeLongRange","gdiplusenums/EncoderParameterValueTypePointer","gdiplusenums/EncoderParameterValueTypeRational","gdiplusenums/EncoderParameterValueTypeRationalRange","gdiplusenums/EncoderParameterValueTypeShort","gdiplusenums/EncoderParameterValueTypeUndefined"]
 old-location: gdiplus\_gdiplus_ENUM_EncoderParameterValueType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\encoderparametervaluetype.htm
 ms.date: 12/05/2018
 ms.keywords: EncoderParameterValueType, EncoderParameterValueType enumeration [GDI+], EncoderParameterValueTypeASCII, EncoderParameterValueTypeByte, EncoderParameterValueTypeLong, EncoderParameterValueTypeLongRange, EncoderParameterValueTypePointer, EncoderParameterValueTypeRational, EncoderParameterValueTypeRationalRange, EncoderParameterValueTypeShort, EncoderParameterValueTypeUndefined, _gdiplus_ENUM_EncoderParameterValueType, gdiplus._gdiplus_ENUM_EncoderParameterValueType, gdiplusenums/EncoderParameterValueType, gdiplusenums/EncoderParameterValueTypeASCII, gdiplusenums/EncoderParameterValueTypeByte, gdiplusenums/EncoderParameterValueTypeLong, gdiplusenums/EncoderParameterValueTypeLongRange, gdiplusenums/EncoderParameterValueTypePointer, gdiplusenums/EncoderParameterValueTypeRational, gdiplusenums/EncoderParameterValueTypeRationalRange, gdiplusenums/EncoderParameterValueTypeShort, gdiplusenums/EncoderParameterValueTypeUndefined
-f1_keywords:
-- gdiplusenums/EncoderParameterValueType
-dev_langs:
-- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Gdiplusenums.h
-api_name:
-- EncoderParameterValueType
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - EncoderParameterValueType
+ - gdiplusenums/EncoderParameterValueType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Gdiplusenums.h
+api_name:
+ - EncoderParameterValueType
 ---
 
 # EncoderParameterValueType enumeration
@@ -49,68 +51,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EncoderParameterValueType</b> enumeration specifies data types for image codec (encoder/decoder) parameters. An element of this enumeration is assigned to the 
-			<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">Type</a> data member of an <b>EncoderParameter</b> object. 
-
+			<a href="/previous-versions/ms534434(v=vs.85)">Type</a> data member of an <b>EncoderParameter</b> object.
 
 ## -enum-fields
 
+### -field EncoderParameterValueTypeByte:1
 
+Specifies that the parameter is an 8-bit unsigned integer.
 
+### -field EncoderParameterValueTypeASCII:2
 
-### -field EncoderParameterValueTypeByte
+Specifies that the parameter is a null-terminated character string.
 
-Specifies that the parameter is an 8-bit unsigned integer. 
+### -field EncoderParameterValueTypeShort:3
 
+Specifies that the parameter is a 16-bit unsigned integer.
 
-### -field EncoderParameterValueTypeASCII
+### -field EncoderParameterValueTypeLong:4
 
-Specifies that the parameter is a null-terminated character string. 
+Specifies that the parameter is a 32-bit unsigned integer.
 
+### -field EncoderParameterValueTypeRational:5
 
-### -field EncoderParameterValueTypeShort
+Specifies that the parameter is an array of two, 32-bit unsigned integers. The pair of integers represents a fraction. The first integer in the pair is the numerator, and the second integer in the pair is the denominator.
 
-Specifies that the parameter is a 16-bit unsigned integer. 
+### -field EncoderParameterValueTypeLongRange:6
 
+Specifies that the parameter is an array of two, 32-bit unsigned integers. The pair of integers represents a range of numbers. The first integer is the smallest number in the range, and the second integer is the largest number in the range.
 
-### -field EncoderParameterValueTypeLong
+### -field EncoderParameterValueTypeUndefined:7
 
-Specifies that the parameter is a 32-bit unsigned integer. 
+Specifies that the parameter is an array of bytes that can hold values of any type.
 
+### -field EncoderParameterValueTypeRationalRange:8
 
-### -field EncoderParameterValueTypeRational
+Specifies that the parameter is an array of four, 32-bit unsigned integers. The first two integers represent one fraction, and the second two integers represent a second fraction. The two fractions represent a range of rational numbers. The first fraction is the smallest rational number in the range, and the second fraction is the largest rational number in the range.
 
-Specifies that the parameter is an array of two, 32-bit unsigned integers. The pair of integers represents a fraction. The first integer in the pair is the numerator, and the second integer in the pair is the denominator. 
-
-
-### -field EncoderParameterValueTypeLongRange
-
-Specifies that the parameter is an array of two, 32-bit unsigned integers. The pair of integers represents a range of numbers. The first integer is the smallest number in the range, and the second integer is the largest number in the range. 
-
-
-### -field EncoderParameterValueTypeUndefined
-
-Specifies that the parameter is an array of bytes that can hold values of any type. 
-
-
-### -field EncoderParameterValueTypeRationalRange
-
-Specifies that the parameter is an array of four, 32-bit unsigned integers. The first two integers represent one fraction, and the second two integers represent a second fraction. The two fractions represent a range of rational numbers. The first fraction is the smallest rational number in the range, and the second fraction is the largest rational number in the range. 
-
-
-### -field EncoderParameterValueTypePointer
+### -field EncoderParameterValueTypePointer:9     
 
 Specifies that the parameter is a pointer to a block of custom metadata.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
- 
-
- 
-
+<a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>

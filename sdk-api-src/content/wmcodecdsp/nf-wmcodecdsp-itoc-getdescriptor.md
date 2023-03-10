@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IToc.GetDescriptor
 title: IToc::GetDescriptor (wmcodecdsp.h)
 description: The GetDescriptor method retrieves the descriptor, previously set by SetDescriptor, of the table of contents.
+helpviewer_keywords: ["GetDescriptor","GetDescriptor method [Media Foundation]","GetDescriptor method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetDescriptor method","IToc.GetDescriptor","IToc::GetDescriptor","codecapi.itoc_getdescriptor","mf.itoc_getdescriptor","wmcodecdsp/IToc::GetDescriptor"]
 old-location: mf\itoc_getdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4568b50f-a777-4c3d-8c71-66737d24b7cd
 ms.date: 12/05/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetDescriptor method, IToc.GetDescriptor, IToc::GetDescriptor, codecapi.itoc_getdescriptor, mf.itoc_getdescriptor, wmcodecdsp/IToc::GetDescriptor
-f1_keywords:
-- wmcodecdsp/IToc.GetDescriptor
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- IToc.GetDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IToc::GetDescriptor
+ - wmcodecdsp/IToc::GetDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - IToc.GetDescriptor
 ---
 
 # IToc::GetDescriptor
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetDescriptor</b> method retrieves the descriptor, previously set by <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescriptor">SetDescriptor</a>, of the table of contents.
-
+The <b>GetDescriptor</b> method retrieves the descriptor, previously set by <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-setdescriptor">SetDescriptor</a>, of the table of contents.
 
 ## -parameters
 
-
-
-
 ### -param pDescriptor [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_descriptor">TOC_DESCRIPTOR</a> structure that receives the descriptor.
-
+Pointer to a <a href="/windows/desktop/api/wmcodecdsp/ns-wmcodecdsp-toc_descriptor">TOC_DESCRIPTOR</a> structure that receives the descriptor.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

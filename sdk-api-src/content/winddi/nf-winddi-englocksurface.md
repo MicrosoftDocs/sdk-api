@@ -2,15 +2,12 @@
 UID: NF:winddi.EngLockSurface
 title: EngLockSurface function (winddi.h)
 description: The EngLockSurface function creates a user object for a given surface. This function gives drivers access to surfaces they create.
+helpviewer_keywords: ["EngLockSurface","EngLockSurface function [Display Devices]","display.englocksurface","gdifncs_99ca0d6a-a445-42ad-96fb-4ef8d3e23db7.xml","winddi/EngLockSurface"]
 old-location: display\englocksurface.htm
 tech.root: display
 ms.assetid: a5d44e16-459c-4722-b3e8-5dc4b5be5865
 ms.date: 12/05/2018
 ms.keywords: EngLockSurface, EngLockSurface function [Display Devices], display.englocksurface, gdifncs_99ca0d6a-a445-42ad-96fb-4ef8d3e23db7.xml, winddi/EngLockSurface
-f1_keywords:
-- winddi/EngLockSurface
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngLockSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngLockSurface
+ - winddi/EngLockSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngLockSurface
 ---
 
 # EngLockSurface function
@@ -48,53 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngLockSurface</b> function creates a user object for a given surface. This function gives drivers access to surfaces they create.
 
-
 ## -parameters
-
-
-
 
 ### -param hsurf
 
 Handle to the surface to be locked.
 
-
 ## -returns
 
-
-
-<b>EngLockSurface</b> returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure if the function is successful. Otherwise, this function returns <b>NULL</b>.
-
-
-
+<b>EngLockSurface</b> returns a pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure if the function is successful. Otherwise, this function returns <b>NULL</b>.
 
 ## -remarks
-
-
 
 This function gives drivers access to surfaces they create.
 
 The driver is responsible for unlocking the surface when it no longer needs it. Surfaces should be locked only for very short periods of time.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a> function to unlock the surface.
-
-
-
+Use the <a href="/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a> function to unlock the surface.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunlocksurface">EngUnlockSurface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

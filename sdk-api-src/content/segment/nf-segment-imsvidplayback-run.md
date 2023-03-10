@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidPlayback.Run
 title: IMSVidPlayback::Run (segment.h)
 description: The Run method runs the playback device.
+helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","Run method","IMSVidPlayback.Run","IMSVidPlayback::Run","IMSVidPlaybackRun","Run","Run method [Microsoft TV Technologies]","Run method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_run","segment/IMSVidPlayback::Run"]
 old-location: mstv\imsvidplayback_run.htm
 tech.root: mstv
 ms.assetid: 58374819-82dd-4ffe-8cd7-ad51ea0d7207
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],Run method, IMSVidPlayback.Run, IMSVidPlayback::Run, IMSVidPlaybackRun, Run, Run method [Microsoft TV Technologies], Run method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_run, segment/IMSVidPlayback::Run
-f1_keywords:
-- segment/IMSVidPlayback.Run
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidPlayback.Run
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidPlayback::Run
+ - segment/IMSVidPlayback::Run
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidPlayback.Run
 ---
 
 # IMSVidPlayback::Run
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Run</b> method runs the playback device.
 
-Applications should call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-run">IMSVidCtl::Run</a> method, rather than this method.
-
-
-## -parameters
-
-
-
+Applications should call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-run">IMSVidCtl::Run</a> method, rather than this method.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -95,27 +88,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl</a> interface, this method returns E_NOTIMPL.
-
-
-
+This method allows for direct control of the source. However, if the underlying source filter is controlled using the standard DirectShow <a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl</a> interface, this method returns E_NOTIMPL.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>

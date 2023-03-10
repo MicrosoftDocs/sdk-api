@@ -2,15 +2,12 @@
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.Add
 title: ITPluggableTerminalSuperclassRegistration::Add (termmgr.h)
 description: The Add method adds a pluggable terminal superclass to the registry. If the superclass already exists, the method modifies the information for the superclass.
+helpviewer_keywords: ["Add","Add method [TAPI 2.2]","Add method [TAPI 2.2]","ITPluggableTerminalSuperclassRegistration interface","ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2]","Add method","ITPluggableTerminalSuperclassRegistration.Add","ITPluggableTerminalSuperclassRegistration::Add","_tapi3_itpluggableterminalsuperclassregistration_add","tapi3.itpluggableterminalsuperclassregistration_add","termmgr/ITPluggableTerminalSuperclassRegistration::Add"]
 old-location: tapi3\itpluggableterminalsuperclassregistration_add.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: ffef0255-c262-43d4-905f-5574c205c37e
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],Add method, ITPluggableTerminalSuperclassRegistration.Add, ITPluggableTerminalSuperclassRegistration::Add, _tapi3_itpluggableterminalsuperclassregistration_add, tapi3.itpluggableterminalsuperclassregistration_add, termmgr/ITPluggableTerminalSuperclassRegistration::Add
-f1_keywords:
-- termmgr/ITPluggableTerminalSuperclassRegistration.Add
-dev_langs:
-- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalSuperclassRegistration.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalSuperclassRegistration::Add
+ - termmgr/ITPluggableTerminalSuperclassRegistration::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalSuperclassRegistration.Add
 ---
 
 # ITPluggableTerminalSuperclassRegistration::Add
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Add</b> method adds a pluggable terminal superclass to the registry. If the superclass already exists, the method modifies the information for the superclass.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,14 +87,8 @@ Method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>Add</b> method adds a new terminal superclass if the CLSID does not exist as an entry in the registry. The method modifies the information about a terminal superclass if the CLSID already exists in the registry.
@@ -109,20 +96,10 @@ The
 If the CLSID for the terminal superclass was not set for terminal superclass, the 
 <b>Add</b> method fails.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-delete">Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nf-termmgr-itpluggableterminalsuperclassregistration-delete">Delete</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>

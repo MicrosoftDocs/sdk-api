@@ -4,7 +4,7 @@ title: Windows Messaging (MAPI)
 ms.assetid: df90a58f-c6be-32ff-8ffe-8c92b362ec85
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Messaging (MAPI)
@@ -20,5 +20,4 @@ To develop Windows Messaging (MAPI), you need these headers:
  * [wabmem.h](../wabmem/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Messaging (MAPI)](https://docs.microsoft.com/previous-versions/windows/desktop/windowsmapi)
-
+* [Windows Messaging (MAPI)](/previous-versions/windows/desktop/windowsmapi)

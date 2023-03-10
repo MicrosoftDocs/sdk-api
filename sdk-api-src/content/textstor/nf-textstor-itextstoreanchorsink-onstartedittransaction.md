@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreAnchorSink.OnStartEditTransaction
 title: ITextStoreAnchorSink::OnStartEditTransaction (textstor.h)
 description: ITextStoreAnchorSink::OnStartEditTransaction method
+helpviewer_keywords: ["ITextStoreAnchorSink interface [Text Services Framework]","OnStartEditTransaction method","ITextStoreAnchorSink.OnStartEditTransaction","ITextStoreAnchorSink::OnStartEditTransaction","OnStartEditTransaction","OnStartEditTransaction method [Text Services Framework]","OnStartEditTransaction method [Text Services Framework]","ITextStoreAnchorSink interface","_tsf_itextstoreanchorsink_onstartedittransaction_ref","textstor/ITextStoreAnchorSink::OnStartEditTransaction","tsf.itextstoreanchorsink_onstartedittransaction"]
 old-location: tsf\itextstoreanchorsink_onstartedittransaction.htm
 tech.root: TSF
 ms.assetid: 9e86d767-8ace-4bd0-af12-2139814b4e44
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreAnchorSink.OnStartEditTransaction, ITextStoreAnchorSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstartedittransaction_ref, textstor/ITextStoreAnchorSink::OnStartEditTransaction, tsf.itextstoreanchorsink_onstartedittransaction
-f1_keywords:
-- textstor/ITextStoreAnchorSink.OnStartEditTransaction
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreAnchorSink.OnStartEditTransaction
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreAnchorSink::OnStartEditTransaction
+ - textstor/ITextStoreAnchorSink::OnStartEditTransaction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreAnchorSink.OnStartEditTransaction
 ---
 
 # ITextStoreAnchorSink::OnStartEditTransaction
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-## -parameters
-
-
-
+Called when an edit transaction is started.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,41 +75,25 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method will be called on all installed edit transaction sinks.
 
-An edit transaction is a group of text changes that should be processed at one time. Calling this method allows a text service to queue the upcoming changes until <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">ITextStoreAnchorSink::OnEndEditTransaction</a> is called. When <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called, the text service will process all queued changes.
+An edit transaction is a group of text changes that should be processed at one time. Calling this method allows a text service to queue the upcoming changes until <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">ITextStoreAnchorSink::OnEndEditTransaction</a> is called. When <b>ITextStoreAnchorSink::OnEndEditTransaction</b> is called, the text service will process all queued changes.
 
 Use of edit transactions is optional.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">ITextStoreAnchorSink::OnEndEditTransaction
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">ITextStoreAnchorSink::OnEndEditTransaction
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onstartedittransaction">ITfEditTransactionSink::OnStartEditTransaction
+<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onstartedittransaction">ITfEditTransactionSink::OnStartEditTransaction
       </a>
- 
-
- 
-

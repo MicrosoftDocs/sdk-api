@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPINSTALLSERVICECLASS
 title: LPNSPINSTALLSERVICECLASS (ws2spi.h)
 description: The NSPInstallServiceClass function registers service class schema within the namespace providers.
+helpviewer_keywords: ["LPNSPINSTALLSERVICECLASS","NSPInstallServiceClass","NSPInstallServiceClass function [Winsock]","_win32_nspinstallserviceclass_2","winsock.nspinstallserviceclass_2","ws2spi/NSPInstallServiceClass"]
 old-location: winsock\nspinstallserviceclass_2.htm
 tech.root: WinSock
 ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
 ms.date: 12/05/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
-f1_keywords:
-- ws2spi/NSPInstallServiceClass
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPInstallServiceClass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPINSTALLSERVICECLASS
+ - ws2spi/LPNSPINSTALLSERVICECLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPInstallServiceClass
 ---
 
 # LPNSPINSTALLSERVICECLASS callback function
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **NSPInstallServiceClass** function registers service class schema within the namespace providers.
 
 The schema includes the class name, class identifier, and any namespace-specific type information that is common to all instances of the service, such as SAP identifier or object identifier. A dynamic namespace provider is expected to store any class information associated with that namespace.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to the GUID of the specific namespace provider that this service class schema is registered in.
 
-
 ### -param lpServiceClassInfo [in]
 
 A pointer to the service class schema information.
 
-
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -162,24 +155,12 @@ The requested name is valid, but no data of the requested type was found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Namespace providers are encouraged, but not required, to store information that is specific to the namespace they support.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspgetserviceclassinfo">NSPGetServiceClassInfo</a>
 
@@ -194,7 +175,4 @@ Namespace providers are encouraged, but not required, to store information that 
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetLength
 title: IDvbMultilingualServiceNameDescriptor::GetLength (dvbsiparser.h)
 description: Gets the descriptor_length field value from a from a Digital Video Broadcast (DVB) multilingual service name descriptor.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbMultilingualServiceNameDescriptor interface","IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbMultilingualServiceNameDescriptor.GetLength","IDvbMultilingualServiceNameDescriptor::GetLength","dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetLength","mstv.idvbmultilingualservicenamedescriptor_getlength"]
 old-location: mstv\idvbmultilingualservicenamedescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 851d3d7b-0891-41a7-899e-61aac641ab3c
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbMultilingualServiceNameDescriptor.GetLength, IDvbMultilingualServiceNameDescriptor::GetLength, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetLength, mstv.idvbmultilingualservicenamedescriptor_getlength
-f1_keywords:
-- dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetLength
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbMultilingualServiceNameDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbMultilingualServiceNameDescriptor::GetLength
+ - dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbMultilingualServiceNameDescriptor.GetLength
 ---
 
 # IDvbMultilingualServiceNameDescriptor::GetLength
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the descriptor_length field value from a from a Digital Video Broadcast (DVB) multilingual service name descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the descriptor_length field value.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbmultilingualservicenamedescriptor">IDvbMultilingualServiceNameDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbmultilingualservicenamedescriptor">IDvbMultilingualServiceNameDescriptor</a>

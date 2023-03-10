@@ -1,16 +1,13 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.PrivateFontCollection
 title: PrivateFontCollection::PrivateFontCollection (gdiplusheaders.h)
-description: Creates an empty PrivateFontCollection object.
+description: Creates an empty PrivateFontCollection object. (PrivateFontCollection.PrivateFontCollection)
+helpviewer_keywords: ["PrivateFontCollection","PrivateFontCollection class [GDI+]","PrivateFontCollection constructor","PrivateFontCollection constructor [GDI+]","PrivateFontCollection constructor [GDI+]","PrivateFontCollection class","PrivateFontCollection.PrivateFontCollection","PrivateFontCollection::PrivateFontCollection","_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_","gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_"]
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollection_12.htm
 ms.date: 12/05/2018
 ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+],PrivateFontCollection constructor, PrivateFontCollection constructor [GDI+], PrivateFontCollection constructor [GDI+],PrivateFontCollection class, PrivateFontCollection.PrivateFontCollection, PrivateFontCollection::PrivateFontCollection, _gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_, gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_
-f1_keywords:
-- gdiplusheaders/PrivateFontCollection.PrivateFontCollection
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- PrivateFontCollection.PrivateFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - PrivateFontCollection::PrivateFontCollection
+ - gdiplusheaders/PrivateFontCollection::PrivateFontCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - PrivateFontCollection.PrivateFontCollection
 ---
 
 # PrivateFontCollection::PrivateFontCollection
@@ -49,13 +51,6 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an empty <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object.
-
-
-## -parameters
-
-
-
+Creates an empty <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object.
 
 

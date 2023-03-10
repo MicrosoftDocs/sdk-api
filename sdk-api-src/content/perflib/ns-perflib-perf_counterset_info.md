@@ -2,15 +2,12 @@
 UID: NS:perflib._PERF_COUNTERSET_INFO
 title: PERF_COUNTERSET_INFO (perflib.h)
 description: Defines information about a counter set that a provider uses. The CTRPP tool automatically generates this structure based on the schema you specify.
+helpviewer_keywords: ["*PPERF_COUNTERSET_INFO","PERF_COUNTERSET_INFO","PERF_COUNTERSET_INFO structure [Perf]","PERF_COUNTERSET_INFO","*PPERF_COUNTERSET_INFO","PERF_COUNTERSET_INFO","*PPERF_COUNTERSET_INFO structure [Perf]","PERF_COUNTERSET_INSTANCE_AGGREGATE","PERF_COUNTERSET_MULTI_AGGREGATE","PERF_COUNTERSET_MULTI_INSTANCES","PERF_COUNTERSET_SINGLE_AGGREGATE","PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY","PERF_COUNTERSET_SINGLE_INSTANCE","base.perf_counterset_info","perf.perf_counterset_info","perflib/PERF_COUNTERSET_INFO"]
 old-location: perf\perf_counterset_info.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: bf48dcdb-6fdd-4093-9006-a53690c3ed86
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO, PERF_COUNTERSET_INFO,*PPERF_COUNTERSET_INFO structure [Perf], PERF_COUNTERSET_INSTANCE_AGGREGATE, PERF_COUNTERSET_MULTI_AGGREGATE, PERF_COUNTERSET_MULTI_INSTANCES, PERF_COUNTERSET_SINGLE_AGGREGATE, PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY, PERF_COUNTERSET_SINGLE_INSTANCE, base.perf_counterset_info, perf.perf_counterset_info, perflib/PERF_COUNTERSET_INFO'
-f1_keywords:
-- perflib/PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Perflib.h
-api_name:
-- PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 targetos: Windows
 req.typenames: PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PERF_COUNTERSET_INFO
+ - perflib/_PERF_COUNTERSET_INFO
+ - PPERF_COUNTERSET_INFO
+ - perflib/PPERF_COUNTERSET_INFO
+ - PERF_COUNTERSET_INFO
+ - perflib/PERF_COUNTERSET_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Perflib.h
+api_name:
+ - PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 ---
 
 # PERF_COUNTERSET_INFO structure
@@ -48,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines information about a counter set that a provider uses.  The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool automatically generates this structure based on the  schema you specify.
-
+Defines information about a counter set that a provider uses.  The <a href="/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool automatically generates this structure based on the  schema you specify.
 
 ## -struct-fields
 
-
-
-
 ### -field CounterSetGuid
 
-GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element">counterSet</a> element contains the GUID.
-
+GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="/windows/desktop/PerfCtrs/performance-counters-counterset--provider--element">counterSet</a> element contains the GUID.
 
 ### -field ProviderGuid
 
-GUID that uniquely identifies the provider that supports the counter set. The <b>providerGuid</b> attribute of the <a href="https://docs.microsoft.com/previous-versions/aa373164(v=vs.85)">provider</a> element contains the GUID.
-
+GUID that uniquely identifies the provider that supports the counter set. The <b>providerGuid</b> attribute of the <a href="/previous-versions/aa373164(v=vs.85)">provider</a> element contains the GUID.
 
 ### -field NumCounters
 
 Number of counters in the counter set. See Remarks.
-
 
 ### -field InstanceType
 
@@ -156,29 +154,15 @@ For example, if multiple provider processes contained instances named IExplore, 
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-The memory block for this structure also contains one or more <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> structures. The <b>NumCounter</b> member determines the number of <b>PERF_COUNTER_INFO</b> structures that follow this structure in memory.
-
-
-
+The memory block for this structure also contains one or more <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a> structures. The <b>NumCounter</b> member determines the number of <b>PERF_COUNTER_INFO</b> structures that follow this structure in memory.
 
 ## -see-also
 
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_info">PERF_COUNTER_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfsetcountersetinfo">PerfSetCounterSetInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfsetcountersetinfo">PerfSetCounterSetInfo</a>

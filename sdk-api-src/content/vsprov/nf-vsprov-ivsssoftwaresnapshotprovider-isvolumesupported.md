@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.IsVolumeSupported
 title: IVssSoftwareSnapshotProvider::IsVolumeSupported (vsprov.h)
 description: Determines whether the provider supports shadow copies on the specified volume.
+helpviewer_keywords: ["IVssSoftwareSnapshotProvider interface","IsVolumeSupported method","IVssSoftwareSnapshotProvider.IsVolumeSupported","IVssSoftwareSnapshotProvider::IsVolumeSupported","IsVolumeSupported","IsVolumeSupported method","IsVolumeSupported method","IVssSoftwareSnapshotProvider interface","base.ivsssoftwaresnapshotprovider_isvolumesupported","vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported"]
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesupported.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5dbaa5ad-4a35-49e2-a528-de1ea38e6e0b
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSupported method, IVssSoftwareSnapshotProvider.IsVolumeSupported, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
-f1_keywords:
-- vsprov/IVssSoftwareSnapshotProvider.IsVolumeSupported
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssSoftwareSnapshotProvider.IsVolumeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssSoftwareSnapshotProvider::IsVolumeSupported
+ - vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssSoftwareSnapshotProvider.IsVolumeSupported
 ---
 
 # IVssSoftwareSnapshotProvider::IsVolumeSupported
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the provider supports shadow copies on the specified volume.
-
 
 ## -parameters
 
-
-
-
 ### -param pwszVolumeName [in]
 
-Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the volume name. The name must be in one of the following formats and must include a trailing backslash (\\): 
 
 
 
@@ -68,17 +65,14 @@ Null-terminated wide character string containing the volume name. The name must 
 <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
 ### -param pbSupportedByThisProvider [out]
 
 This parameter receives <b>TRUE</b> if shadow copies are supported on the specified volume, otherwise <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -163,7 +157,7 @@ The specified volume was not found.
 </td>
 <td width="60%">
 Provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -176,21 +170,15 @@ Provider error. The provider logged the error in the event log. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>IsVolumeSupported</b> method will return <b>TRUE</b> if it is possible to create shadow copies on the given volume, even if the current configuration does not allow the creation of shadow copies on that volume at the present time.
 
@@ -200,16 +188,6 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>VHDs are not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>

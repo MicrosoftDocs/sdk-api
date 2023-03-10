@@ -1,16 +1,13 @@
 ---
 UID: NN:wuapi.IUpdateInstaller2
 title: IUpdateInstaller2 (wuapi.h)
-description: Installs or uninstalls updates on a computer.
+description: Installs or uninstalls updates on a computer. (IUpdateInstaller2)
+helpviewer_keywords: ["IUpdateInstaller2","IUpdateInstaller2 interface [Windows Update Agent]","IUpdateInstaller2 interface [Windows Update Agent]","described","wua.iupdateinstaller2","wuapi/IUpdateInstaller2"]
 old-location: wua\iupdateinstaller2.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 89edc91d-59a1-4e23-9adb-fc3027e2e898
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller2, IUpdateInstaller2 interface [Windows Update Agent], IUpdateInstaller2 interface [Windows Update Agent],described, wua.iupdateinstaller2, wuapi/IUpdateInstaller2
-f1_keywords:
-- wuapi/IUpdateInstaller2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateInstaller2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateInstaller2
+ - wuapi/IUpdateInstaller2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateInstaller2
 ---
 
 # IUpdateInstaller2 interface
@@ -48,26 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Installs or uninstalls updates on a computer.
-
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the UpdateInstaller coclass. Use the Microsoft.Update.Installer program identifier to create the object.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>

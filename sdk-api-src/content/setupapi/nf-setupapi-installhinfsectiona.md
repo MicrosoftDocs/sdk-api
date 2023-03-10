@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.InstallHinfSectionA
 title: InstallHinfSectionA function (setupapi.h)
-description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.
+description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section. (ANSI)
+helpviewer_keywords: ["InstallHinfSectionA", "setupapi/InstallHinfSectionA"]
 old-location: setup\installhinfsection.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
 ms.date: 12/05/2018
 ms.keywords: InstallHinfSection, InstallHinfSection function [Setup API], InstallHinfSectionA, InstallHinfSectionW, _setupapi_installhinfsection, setup.installhinfsection, setupapi/InstallHinfSection, setupapi/InstallHinfSectionA, setupapi/InstallHinfSectionW
-f1_keywords:
-- setupapi/InstallHinfSection
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,32 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- InstallHinfSection
-- InstallHinfSectionA
-- InstallHinfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InstallHinfSectionA
+ - setupapi/InstallHinfSectionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - InstallHinfSection
+ - InstallHinfSectionA
+ - InstallHinfSectionW
 ---
 
 # InstallHinfSectionA function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
@@ -60,46 +61,27 @@ The prototype for the
 <b>InstallHinfSection</b> function follows the form of all entry-point functions used with Rundll32.exe.
 
 If a file is copied or modified, the caller of this function is required have privileges to write into the target directory. If there are any services being installed, the caller of this function is required have access to the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>.
-
+<a href="/windows/desktop/Services/service-control-manager">Service Control Manager</a>.
 
 ## -parameters
-
-
-
 
 ### -param Window [in]
 
 The parent window handle. Typically <i>hwnd</i> is Null.
 
-
 ### -param ModuleHandle [in]
 
 Reserved and should be Null.
-
 
 ### -param CommandLine [in]
 
 Pointer to buffer containing the command line. You should use a null-terminated string.
 
-
 ### -param ShowCommand [in]
 
 Reserved and should be zero.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 Note that three exports exist: 
 <b>InstallHinfSection</b> (for RunDll32), <b>InstallHinfSectionA</b>, and <b>InstallHinfSectionW</b>. 
@@ -114,7 +96,11 @@ This passes "<i>&lt;section&gt;</i><i>&lt;mode&gt;</i><i>&lt;path&gt;</i>" to <i
 Alternatively, your program may call 
 <b>InstallHinfSection</b>, <b>InstallHinfSectionA</b>, or <b>InstallHinfSectionW</b> directly, setting the <i>CmdLineBuffer</i> parameter to the following.
 
-<pre class="syntax" xml:space="preserve"><code>"&lt;section&gt; &lt;mode&gt; &lt;path&gt;"</code></pre>
+
+``` syntax
+"<section> <mode> <path>"
+```
+
 Where <i>path</i> is the full path to the .inf file, <i>mode</i> is the reboot mode parameter, and <i>section</i> is any <b>Install</b> section in the .inf file. The comma separator between SETUPAPI.DLL and 
 <b>InstallHinfSection</b> on the command line is required. Note that there cannot be any white space on the command line between the comma and SETUPAPI.DLL or 
 <b>InstallHinfSection</b>.
@@ -171,3 +157,6 @@ For example, the following command line runs the DefaultInstall section of the S
 
 
 
+
+> [!NOTE]
+> The setupapi.h header defines InstallHinfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

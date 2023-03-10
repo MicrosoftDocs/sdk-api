@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMStreamList.GetStreams
 title: IWMStreamList::GetStreams (wmsdkidl.h)
 description: The GetStreams method retrieves an array of stream numbers that make up the list.
+helpviewer_keywords: ["GetStreams","GetStreams method [windows Media Format]","GetStreams method [windows Media Format]","IWMStreamList interface","IWMStreamList interface [windows Media Format]","GetStreams method","IWMStreamList.GetStreams","IWMStreamList::GetStreams","IWMStreamListGetStreams","wmformat.iwmstreamlist_getstreams","wmsdkidl/IWMStreamList::GetStreams"]
 old-location: wmformat\iwmstreamlist_getstreams.htm
 tech.root: wmformat
 ms.assetid: ef7e1141-284f-4570-8891-9f53b2da7229
 ms.date: 12/05/2018
 ms.keywords: GetStreams, GetStreams method [windows Media Format], GetStreams method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],GetStreams method, IWMStreamList.GetStreams, IWMStreamList::GetStreams, IWMStreamListGetStreams, wmformat.iwmstreamlist_getstreams, wmsdkidl/IWMStreamList::GetStreams
-f1_keywords:
-- wmsdkidl/IWMStreamList.GetStreams
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamList.GetStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamList::GetStreams
+ - wmsdkidl/IWMStreamList::GetStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamList.GetStreams
 ---
 
 # IWMStreamList::GetStreams
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStreams</b> method retrieves an array of stream numbers that make up the list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwStreamNumArray [out]
 
 Pointer to a <b>WORD</b> array containing the stream numbers. Pass <b>NULL</b> to retrieve the required size of the array.
 
-
 ### -param pcStreams [in, out]
 
 On input, a pointer to a variable containing the size of the <i>pwStreamNumArray</i> array. On output, if the method succeeds, this variable contains the number of stream numbers entered into <i>pwStreamNumArray</i> by the method.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,29 +108,13 @@ The input value of <i>pcStreams</i> is not large enough.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should make two calls to <b>GetStreams</b>. On the first call, pass <b>NULL</b> as <i>pwStreamNumArray</i>. On return, the value pointed to by <i>pcStreams</i> is set to the number of stream numbers in the stream number array. Then you can allocate the required amount of memory for the array and pass a pointer to it as <i>pwStreamNumArray</i> on the second call.
 
 Stream numbers are in the range of 1 through 63.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamlist">IWMStreamList Interface</a>

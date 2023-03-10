@@ -2,15 +2,12 @@
 UID: NF:mmeapi.midiStreamRestart
 title: midiStreamRestart function (mmeapi.h)
 description: The midiStreamRestart function restarts a paused MIDI stream.
+helpviewer_keywords: ["_win32_midiStreamRestart","midiStreamRestart","midiStreamRestart function [Windows Multimedia]","mmeapi/midiStreamRestart","multimedia.midistreamrestart"]
 old-location: multimedia\midistreamrestart.htm
 tech.root: Multimedia
 ms.assetid: 8d0f31d6-957d-4266-adae-68865466a859
 ms.date: 12/05/2018
 ms.keywords: _win32_midiStreamRestart, midiStreamRestart, midiStreamRestart function [Windows Multimedia], mmeapi/midiStreamRestart, multimedia.midistreamrestart
-f1_keywords:
-- mmeapi/midiStreamRestart
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiStreamRestart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiStreamRestart
+ - mmeapi/midiStreamRestart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiStreamRestart
 ---
 
 # midiStreamRestart function
@@ -50,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiStreamRestart</b> function restarts a paused MIDI stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hms
 
-Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
-
+Handle to a MIDI stream. This handle must have been returned by a call to the <a href="/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -90,27 +81,11 @@ The specified device handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Calling this function when the output is not paused has no effect, and the function returns MMSYSERR_NOERROR.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

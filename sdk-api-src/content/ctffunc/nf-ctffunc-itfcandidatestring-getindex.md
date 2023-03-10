@@ -2,16 +2,12 @@
 UID: NF:ctffunc.ITfCandidateString.GetIndex
 title: ITfCandidateString::GetIndex (ctffunc.h)
 description: ITfCandidateString::GetIndex method
+helpviewer_keywords: ["GetIndex","GetIndex method [Text Services Framework]","GetIndex method [Text Services Framework]","ITfCandidateString interface","ITfCandidateString interface [Text Services Framework]","GetIndex method","ITfCandidateString.GetIndex","ITfCandidateString::GetIndex","_tsf_itfcandidatestring_getindex_ref","ctffunc/ITfCandidateString::GetIndex","tsf.itfcandidatestring_getindex"]
 old-location: tsf\itfcandidatestring_getindex.htm
 tech.root: TSF
 ms.assetid: 16ec9a89-db57-41ad-9e32-db0b24abda13
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Text Services Framework], GetIndex method [Text Services Framework],ITfCandidateString interface, ITfCandidateString interface [Text Services Framework],GetIndex method, ITfCandidateString.GetIndex, ITfCandidateString::GetIndex, _tsf_itfcandidatestring_getindex_ref, ctffunc/ITfCandidateString::GetIndex, tsf.itfcandidatestring_getindex
-ms.topic: method
-f1_keywords:
-- ctffunc/ITfCandidateString.GetIndex
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tiptsf.dll
-api_name:
-- ITfCandidateString.GetIndex
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateString::GetIndex
+ - ctffunc/ITfCandidateString::GetIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tiptsf.dll
+api_name:
+ - ITfCandidateString.GetIndex
 ---
 
 # ITfCandidateString::GetIndex
@@ -49,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pnIndex [out]
 
 Pointer to a <b>ULONG</b> value that receives the zero-based index of the candidate string object within the candidate list.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,23 +88,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a>

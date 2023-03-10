@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IStringCollection.RemoveAt
 title: IStringCollection::RemoveAt (wuapi.h)
-description: Removes the item at the specified index from the collection.
+description: Removes the item at the specified index from the collection. (IStringCollection.RemoveAt)
+helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","RemoveAt method","IStringCollection.RemoveAt","IStringCollection::RemoveAt","RemoveAt","RemoveAt method [Windows Update Agent]","RemoveAt method [Windows Update Agent]","IStringCollection interface","wua.istringcollection_removeat","wuapi/IStringCollection::RemoveAt"]
 old-location: wua\istringcollection_removeat.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a0b350b0-d5b4-49c6-acca-a50719d92262
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],RemoveAt method, IStringCollection.RemoveAt, IStringCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IStringCollection interface, wua.istringcollection_removeat, wuapi/IStringCollection::RemoveAt
-f1_keywords:
-- wuapi/IStringCollection.RemoveAt
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IStringCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStringCollection::RemoveAt
+ - wuapi/IStringCollection::RemoveAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IStringCollection.RemoveAt
 ---
 
 # IStringCollection::RemoveAt
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the item at the specified index from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the string to be removed.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -98,18 +92,7 @@ An index is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>

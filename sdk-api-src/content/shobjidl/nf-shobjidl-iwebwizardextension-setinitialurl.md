@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IWebWizardExtension.SetInitialURL
 title: IWebWizardExtension::SetInitialURL (shobjidl.h)
 description: Sets the URL of the initial server-provided HTML page in a hosted wizard.
+helpviewer_keywords: ["IWebWizardExtension interface [Windows Shell]","SetInitialURL method","IWebWizardExtension.SetInitialURL","IWebWizardExtension::SetInitialURL","SetInitialURL","SetInitialURL method [Windows Shell]","SetInitialURL method [Windows Shell]","IWebWizardExtension interface","_shell_IWebWizardExtension_SetInitialURL","shell.IWebWizardExtension_SetInitialURL","shobjidl/IWebWizardExtension::SetInitialURL"]
 old-location: shell\IWebWizardExtension_SetInitialURL.htm
 tech.root: shell
 ms.assetid: 3fd0979f-2f45-4281-80df-72a4322ee219
 ms.date: 12/05/2018
 ms.keywords: IWebWizardExtension interface [Windows Shell],SetInitialURL method, IWebWizardExtension.SetInitialURL, IWebWizardExtension::SetInitialURL, SetInitialURL, SetInitialURL method [Windows Shell], SetInitialURL method [Windows Shell],IWebWizardExtension interface, _shell_IWebWizardExtension_SetInitialURL, shell.IWebWizardExtension_SetInitialURL, shobjidl/IWebWizardExtension::SetInitialURL
-f1_keywords:
-- shobjidl/IWebWizardExtension.SetInitialURL
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IWebWizardExtension.SetInitialURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWebWizardExtension::SetInitialURL
+ - shobjidl/IWebWizardExtension::SetInitialURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IWebWizardExtension.SetInitialURL
 ---
 
 # IWebWizardExtension::SetInitialURL
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the URL of the initial server-provided HTML page in a hosted wizard.
 
-
 ## -parameters
-
-
-
 
 ### -param pszURL [in]
 
@@ -63,14 +60,9 @@ Type: <b>LPCWSTR</b>
 
 The URL of the initial server-provided HTML page.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

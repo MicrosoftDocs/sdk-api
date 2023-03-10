@@ -2,15 +2,12 @@
 UID: NN:wincodec.IWICBitmapDecoder
 title: IWICBitmapDecoder (wincodec.h)
 description: Exposes methods that represent a decoder.
+helpviewer_keywords: ["IWICBitmapDecoder","IWICBitmapDecoder interface [Windows Imaging Component]","IWICBitmapDecoder interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapdecoder","wic._wic_codec_iwicbitmapdecoder","wincodec/IWICBitmapDecoder"]
 old-location: wic\_wic_codec_iwicbitmapdecoder.htm
 tech.root: wic
 ms.assetid: 91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], IWICBitmapDecoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapdecoder, wic._wic_codec_iwicbitmapdecoder, wincodec/IWICBitmapDecoder
-f1_keywords:
-- wincodec/IWICBitmapDecoder
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapDecoder
+ - wincodec/IWICBitmapDecoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapDecoder
 ---
 
 # IWICBitmapDecoder interface
@@ -48,134 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that represent a decoder.
 
-The interface provides access to the decoder's properties such as global thumbnails (if supported), frames, and palette. 
-
+The interface provides access to the decoder's properties such as global thumbnails (if supported), frames, and palette.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmapDecoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapDecoder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICBitmapDecoder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-copypalette">CopyPalette</a>
-</td>
-<td align="left" width="63%">
-Copies the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a> .
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getcolorcontexts">GetColorContexts</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext</a> objects of the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getcontainerformat">GetContainerFormat</a>
-</td>
-<td align="left" width="63%">
-Retrieves the image's container format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getdecoderinfo">GetDecoderInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoderinfo">IWICBitmapDecoderInfo</a> for the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getframe">GetFrame</a>
-</td>
-<td align="left" width="63%">
-Retrieves the specified frame of the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getframecount">GetFrameCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the total number of frames in the image.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getmetadataqueryreader">GetMetadataQueryReader</a>
-</td>
-<td align="left" width="63%">
-Retrieves the metadata query reader from the decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getpreview">GetPreview</a>
-</td>
-<td align="left" width="63%">
-Retrieves a preview image, if supported.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail">GetThumbnail</a>
-</td>
-<td align="left" width="63%">
-Retrieves a bitmap thumbnail of the image, if one exists
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the decoder with the provided stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-querycapability">QueryCapability</a>
-</td>
-<td align="left" width="63%">
-Retrieves the capabilities of the decoder based on the specified stream.
-
-</td>
-</tr>
-</table> 
-
+The <b>IWICBitmapDecoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICBitmapDecoder</b> also has these types of members:
 
 ## -remarks
 
-
-
-There are a number of concrete implemenations of this interface representing each of the standard decoders provided by the platform including bitmap (BMP), Portable Network Graphics (PNG), icon (ICO), Joint Photographic Experts Group (JPEG), Graphics Interchange Format (GIF), Tagged Image File Format (TIFF), and Microsoft Windows Digital Photo (WDP). The following table includes the class identifier (CLSID) for each native decoder.
+There are a number of concrete implementations of this interface representing each of the standard decoders provided by the platform including bitmap (BMP), Portable Network Graphics (PNG), icon (ICO), Joint Photographic Experts Group (JPEG), Graphics Interchange Format (GIF), Tagged Image File Format (TIFF), and Microsoft Windows Digital Photo (WDP). The following table includes the class identifier (CLSID) for each native decoder.
             
 
 <table class="clsStd">
@@ -222,21 +107,15 @@ There are a number of concrete implemenations of this interface representing eac
 </table>
  
 
-This interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="https://docs.microsoft.com/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>.
+This interface may be sub-classed to provide support for third party codecs as part of the extensibility model. See the <a href="/previous-versions/ms771770(v=vs.100)">AITCodec Sample CODEC</a>.
 
 Codecs written as TIFF container formats that are not register will decode as a TIFF image. Client applications should check for a zero frame count to determine if the codec is valid.
 
 CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
+<a href="/previous-versions/dotnet/netframework-3.0/ms771770(v=vs.85)">AITCodec Sample CODEC</a>
 
 
 
@@ -244,7 +123,7 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
+<a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled CODEC</a>
 
 
 
@@ -252,12 +131,8 @@ CLSID_WICHeifDecoder operates on HEIF (High Efficiency Image Format) images.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
+<a href="/windows/desktop/wic/-wic-guids-clsids">WIC GUIDs and CLSIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>

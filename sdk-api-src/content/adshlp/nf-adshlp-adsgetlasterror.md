@@ -2,15 +2,12 @@
 UID: NF:adshlp.ADsGetLastError
 title: ADsGetLastError function (adshlp.h)
 description: The ADsGetLastError function retrieves the calling thread's last-error code value.
+helpviewer_keywords: ["ADsGetLastError","ADsGetLastError function [ADSI]","_ds_adsgetlasterror","adshlp/ADsGetLastError","adsi.adsgetlasterror"]
 old-location: adsi\adsgetlasterror.htm
 tech.root: adsi
 ms.assetid: 5e9899e9-e51e-4785-812a-f86eac6e2006
 ms.date: 12/05/2018
 ms.keywords: ADsGetLastError, ADsGetLastError function [ADSI], _ds_adsgetlasterror, adshlp/ADsGetLastError, adsi.adsgetlasterror
-f1_keywords:
-- adshlp/ADsGetLastError
-dev_langs:
-- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Activeds.lib
 req.dll: Activeds.dll; AdsLdpc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Activeds.dll
-- AdsLdpc.dll
-api_name:
-- ADsGetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ADsGetLastError
+ - adshlp/ADsGetLastError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Activeds.dll
+ - AdsLdpc.dll
+api_name:
+ - ADsGetLastError
 ---
 
 # ADsGetLastError function
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADsGetLastError</b> function retrieves the calling thread's last-error code value.
 
-
 ## -parameters
-
-
-
 
 ### -param lpError [out]
 
@@ -64,13 +61,11 @@ Type: <b>LPDWORD</b>
 
 Pointer to the location that receives the error code.
 
-
 ### -param lpErrorBuf [out]
 
 Type: <b>LPWSTR</b>
 
 Pointer to the location that receives the null-terminated Unicode string that describes the error.
-
 
 ### -param dwErrorBufLen [in]
 
@@ -78,13 +73,11 @@ Type: <b>DWORD</b>
 
 Size, in characters, of the <i>lpErrorBuf</i> buffer. If the buffer is too small to receive the error string, the string is truncated, but still null-terminated. A buffer, of at least 256 bytes, is recommended.
 
-
 ### -param lpNameBuf [out]
 
 Type: <b>LPWSTR</b>
 
 Pointer to the location that receives the null-terminated Unicode string that describes the name of the provider that raised the error.
-
 
 ### -param dwNameBufLen [in]
 
@@ -92,21 +85,13 @@ Type: <b>DWORD</b>
 
 Size, in characters, of the <i>lpNameBuf</i> buffer. If the buffer is too small to receive the name of the provider, the string is truncated, but still null-terminated.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 This method supports standard return values, as well as the following.
 
-
-
-
 ## -remarks
-
-
 
 ADSI errors fall into two types according to the values of their facility code. The standard ADSI error codes have a facility code value of 0x5 and the extended ADSI error codes assume that of FACILITY_WIN32. The error values of the standard and extended ADSI error codes are of the forms of 0x80005xxx and 0x8007xxxx, respectively. Use the HRESULT_FACILITY(hr) macro to determine the ADSI error type.
    
@@ -158,27 +143,18 @@ An error occurred.
 <div class="alert"><b>Note</b>  The WinNT ADSI provider does not support <b>ADsGetLastError</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adssetlasterror">ADsSetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adssetlasterror">ADsSetLastError</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

@@ -2,15 +2,12 @@
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
 title: IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx (vsmgmt.h)
 description: Updates the shadow copy storage area maximum size for a certain volume. This may not have an immediate effect. If the bVolatile parameter is FALSE, the change continues even if the computer is rebooted.
+helpviewer_keywords: ["ChangeDiffAreaMaximumSizeEx","ChangeDiffAreaMaximumSizeEx method","ChangeDiffAreaMaximumSizeEx method","IVssDifferentialSoftwareSnapshotMgmt2 interface","IVssDifferentialSoftwareSnapshotMgmt2 interface","ChangeDiffAreaMaximumSizeEx method","IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx","IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx","base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 9ba621d5-32ec-4512-a18f-dbdadbd3ff09
 ms.date: 12/05/2018
 ms.keywords: ChangeDiffAreaMaximumSizeEx, ChangeDiffAreaMaximumSizeEx method, ChangeDiffAreaMaximumSizeEx method,IVssDifferentialSoftwareSnapshotMgmt2 interface, IVssDifferentialSoftwareSnapshotMgmt2 interface,ChangeDiffAreaMaximumSizeEx method, IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx, IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx, base.ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
-f1_keywords:
-- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
-dev_langs:
-- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsMgmt.h
-api_name:
-- IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
+ - vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsMgmt.h
+api_name:
+ - IVssDifferentialSoftwareSnapshotMgmt2.ChangeDiffAreaMaximumSizeEx
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the shadow copy storage area maximum size for a certain volume. This may not 
     have an immediate effect. If the <i>bVolatile</i> parameter is <b>FALSE</b>, the change continues even if the computer is rebooted.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszVolumeName [in]
 
@@ -64,15 +61,13 @@ The name of the volume that is the source of shadow copies. This volume is assoc
       on the <i>pwszDiffAreaVolumeName</i> volume.
       
 
-The name of the volume must be in one of the following formats and must include a trailing backslash (\):
+The name of the volume must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, 
          D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
-
-
 
 ### -param pwszDiffAreaVolumeName [in]
 
@@ -80,21 +75,18 @@ The name of the volume that contains the  shadow copy storage  area that is asso
       <i>pwszVolumeName</i> volume.
       
 
-The name of the volume must be in one of the following formats and must include a trailing backslash (\):
+The name of the volume must be in one of the following formats and must include a trailing backslash (\\):
        <ul>
 <li>The path of a mounted folder</li>
 <li>A drive letter with, for example, 
          D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
-
-
 
 ### -param llMaximumDiffSpace [in]
 
 Specifies the maximum size, in bytes, for the shadow copy storage area to use for the volume. If this value is zero, 
       the shadow copy storage area will be deleted. If this value is –1, the maximum size is unlimited.
-
 
 ### -param bVolatile [in]
 
@@ -104,10 +96,7 @@ The default value is <b>FALSE</b>.
 
 If the <i>llMaximumDiffSpace</i> parameter is zero, the <i>bVolatile</i> parameter must be <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -191,7 +180,7 @@ The association between the <i>pwszVolumeName</i> and
 </td>
 <td width="60%">
 An expected provider error has occurred. The error code is logged in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -203,7 +192,7 @@ An expected provider error has occurred. The error code is logged in the event l
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -221,18 +210,12 @@ A shadow copy is currently using the shadow copy storage area.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The <b>ChangeDiffAreaMaximumSizeEx</b> method is identical to the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> method except for the <i>bVolatile</i> parameter.
 
-
-The <b>ChangeDiffAreaMaximumSizeEx</b> method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a> method except for the <i>bVolatile</i> parameter.
-
-Calling the <b>ChangeDiffAreaMaximumSizeEx</b> method with the <i>bVolatile</i> parameter set to <b>FALSE</b> is the same as calling the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">ChangeDiffAreaMaximumSize</a> method.
+Calling the <b>ChangeDiffAreaMaximumSizeEx</b> method with the <i>bVolatile</i> parameter set to <b>FALSE</b> is the same as calling the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">ChangeDiffAreaMaximumSize</a> method.
 
 <b>ChangeDiffAreaMaximumSizeEx</b> makes the shadow copy storage area explicit, which means that it is not deleted automatically when all shadow copies are deleted.
 
@@ -240,22 +223,12 @@ If the shadow copy storage area does not exist, this method creates it.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>If the shadow copy storage area does not exist, this method does not create it.
 
-To create a shadow copy storage area, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
-
-
-
+To create a shadow copy storage area, use the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2">IVssDifferentialSoftwareSnapshotMgmt2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2">IVssDifferentialSoftwareSnapshotMgmt2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>

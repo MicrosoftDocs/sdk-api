@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdate.put_IsHidden
 title: IUpdate::put_IsHidden (wuapi.h)
-description: Gets a Boolean value that indicates whether an update is hidden by a user.
+description: Gets a Boolean value that indicates whether an update is hidden by a user. (Put)
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","IsHidden property","IUpdate.IsHidden","IUpdate.put_IsHidden","IUpdate::IsHidden","IUpdate::get_IsHidden","IUpdate::put_IsHidden","IsHidden property [Windows Update Agent]","IsHidden property [Windows Update Agent]","IUpdate interface","put_IsHidden","wua.iupdate_ishidden","wuapi/IUpdate::IsHidden","wuapi/IUpdate::get_IsHidden","wuapi/IUpdate::put_IsHidden"]
 old-location: wua\iupdate_ishidden.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 229fbb68-cc99-440e-89e1-b9c4e69dd0b3
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsHidden property, IUpdate.IsHidden, IUpdate.put_IsHidden, IUpdate::IsHidden, IUpdate::get_IsHidden, IUpdate::put_IsHidden, IsHidden property [Windows Update Agent], IsHidden property [Windows Update Agent],IUpdate interface, put_IsHidden, wua.iupdate_ishidden, wuapi/IUpdate::IsHidden, wuapi/IUpdate::get_IsHidden, wuapi/IUpdate::put_IsHidden
-f1_keywords:
-- wuapi/IUpdate.IsHidden
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.IsHidden
-- IUpdate.get_IsHidden
-- IUpdate.put_IsHidden
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::put_IsHidden
+ - wuapi/IUpdate::put_IsHidden
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.IsHidden
+ - IUpdate.get_IsHidden
+ - IUpdate.put_IsHidden
 ---
 
 # IUpdate::put_IsHidden
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value that indicates whether an update is hidden by a user. Administrators, users, and power users can retrieve the value of this property. However, only administrators and members of the Power Users administrative group can set the value of this property.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 An attempt to mark a mandatory update as hidden causes an error.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

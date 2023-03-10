@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactProperties.GetLabels
 title: IContactProperties::GetLabels (icontact.h)
 description: Retrieves the labels for a specified array element name.
+helpviewer_keywords: ["GetLabels","GetLabels method [Windows Contacts]","GetLabels method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","GetLabels method","IContactProperties.GetLabels","IContactProperties::GetLabels","_wincontacts_IContactProperties_GetLabels","icontact/IContactProperties::GetLabels","wincontacts._wincontacts_IContactProperties_GetLabels"]
 old-location: wincontacts\_wincontacts_IContactProperties_GetLabels.htm
 tech.root: wincontacts
 ms.assetid: c639a30b-3778-4ed9-b175-60b4a7ba9748
 ms.date: 12/05/2018
 ms.keywords: GetLabels, GetLabels method [Windows Contacts], GetLabels method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetLabels method, IContactProperties.GetLabels, IContactProperties::GetLabels, _wincontacts_IContactProperties_GetLabels, icontact/IContactProperties::GetLabels, wincontacts._wincontacts_IContactProperties_GetLabels
-f1_keywords:
-- icontact/IContactProperties.GetLabels
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactProperties.GetLabels
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactProperties::GetLabels
+ - icontact/IContactProperties::GetLabels
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactProperties.GetLabels
 ---
 
 # IContactProperties::GetLabels
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the labels for a specified array element name. 
-
+Retrieves the labels for a specified array element name.
 
 ## -parameters
-
-
-
 
 ### -param pszArrayElementName [in]
 
@@ -63,38 +60,31 @@ Type: <b>LPCWSTR</b>
 
 Specifies the array element name.
 
-
 ### -param dwFlags [in]
 
 Type: <b>DWORD</b>
 
-Must be CGD_DEFAULT. 
-
+Must be CGD_DEFAULT.
 
 ### -param pszLabels [in, out]
 
 Type: <b>LPWSTR</b>
 
-Specifies user-allocated buffer to store the labels. 
-
+Specifies user-allocated buffer to store the labels.
 
 ### -param cchLabels [in]
 
 Type: <b>DWORD</b>
 
-Specifies allocated buffer size in characters. 
-
+Specifies allocated buffer size in characters.
 
 ### -param pdwcchLabelsRequired [in, out]
 
 Type: <b>DWORD*</b>
 
-On failure, contains the required size for <i>pszLabels</i>. 
-
+On failure, contains the required size for <i>pszLabels</i>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -152,16 +142,8 @@ Unable to get value
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The user-allocated buffer in <i>pszLabels</i> receives a concatenated list of null-terminated strings, followed by an empty string. In other words, the last 4 bytes will be zero. For example,  L"str1\0str2\0\0". NOTE: Succeeds only for multi-value properties. Also, may return labels in a different order than they were set.
-
-
 

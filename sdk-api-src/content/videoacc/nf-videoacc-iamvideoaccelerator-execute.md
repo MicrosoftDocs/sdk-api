@@ -2,15 +2,12 @@
 UID: NF:videoacc.IAMVideoAccelerator.Execute
 title: IAMVideoAccelerator::Execute (videoacc.h)
 description: The Execute method performs a DirectX Video Acceleration (DXVA) decoding operation.
+helpviewer_keywords: ["Execute","Execute method [DirectShow]","Execute method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","Execute method","IAMVideoAccelerator.Execute","IAMVideoAccelerator::Execute","IAMVideoAcceleratorExecute","dshow.iamvideoaccelerator_execute","videoacc/IAMVideoAccelerator::Execute"]
 old-location: dshow\iamvideoaccelerator_execute.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
-f1_keywords:
-- videoacc/IAMVideoAccelerator.Execute
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAccelerator.Execute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAccelerator::Execute
+ - videoacc/IAMVideoAccelerator::Execute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAccelerator.Execute
 ---
 
 # IAMVideoAccelerator::Execute
@@ -49,59 +51,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Execute</b> method performs a DirectX Video Acceleration (DXVA) decoding operation.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param dwFunction [in]
 
 Contains one or more 
-            DXVA function numbers. 
-          
-
+            DXVA function numbers.
 
 ### -param lpPrivateInputData [in]
 
 Pointer to input data for the decoding operation. The meaning of this data depends on the surface type and function number. For details, refer to the DXVA 1.0 specification.
 
-
 ### -param cbPrivateInputData [in]
 
 Size of the input data, in bytes.
-
 
 ### -param lpPrivateOutputDat [in]
 
 Pointer to a buffer where the video accelerator will write output data.
 
-
 ### -param cbPrivateOutputData [in]
 
 Size of the <i>lpPrivateOutputData</i> buffer, in bytes.
-          
-
 
 ### -param dwNumBuffers [in]
 
 Number of elements in the <i>pamvaBufferInfo</i> array.
-          
-
 
 ### -param pamvaBufferInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvabufferinfo">AMVABUFFERINFO</a> structures.
-          
-
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvabufferinfo">AMVABUFFERINFO</a> structures.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. <b>HRESULT</b> can include one of the following standard constants, or other values not listed.
 
@@ -188,14 +171,8 @@ The pins on the decoder and video renderer filters are not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
@@ -203,26 +180,15 @@ The associated buffer list is passed along with a function number (defaulting to
       
 
 Private data can be passed to and from a driver.
-      
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>

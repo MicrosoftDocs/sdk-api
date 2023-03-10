@@ -2,15 +2,12 @@
 UID: NF:winddi.EngQuerySystemAttribute
 title: EngQuerySystemAttribute function (winddi.h)
 description: The EngQuerySystemAttribute function queries processor-specific or system-specific capabilities.
+helpviewer_keywords: ["EngQuerySystemAttribute","EngQuerySystemAttribute function [Display Devices]","display.engquerysystemattribute","gdifncs_8d196296-10a2-4118-9318-fe0267df4e60.xml","winddi/EngQuerySystemAttribute"]
 old-location: display\engquerysystemattribute.htm
 tech.root: display
 ms.assetid: 7559075d-f2df-4c71-9523-22417d5cfd5a
 ms.date: 12/05/2018
 ms.keywords: EngQuerySystemAttribute, EngQuerySystemAttribute function [Display Devices], display.engquerysystemattribute, gdifncs_8d196296-10a2-4118-9318-fe0267df4e60.xml, winddi/EngQuerySystemAttribute
-f1_keywords:
-- winddi/EngQuerySystemAttribute
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngQuerySystemAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngQuerySystemAttribute
+ - winddi/EngQuerySystemAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngQuerySystemAttribute
 ---
 
 # EngQuerySystemAttribute function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngQuerySystemAttribute</b> function queries processor-specific or system-specific capabilities.
 
-
 ## -parameters
-
-
-
 
 ### -param CapNum [in]
 
@@ -107,19 +104,12 @@ GDI returns a bitmask of flags that describe the features of the processor. Curr
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pCapability [out]
 
 Pointer to the location that receives the result of the query. The value that GDI places in this parameter depends on the enumerated value specified by <i>CapNum</i>.
 
-
 ## -returns
 
-
-
 <b>EngQuerySystemAttribute</b> returns <b>TRUE</b> upon success. Otherwise, it returns <b>FALSE</b>.
-
-
 

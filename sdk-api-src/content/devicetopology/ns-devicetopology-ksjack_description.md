@@ -7,10 +7,6 @@ tech.root: CoreAudio
 ms.assetid: 4ee9fedf-4241-4678-b621-549a06e8949a
 ms.date: 12/05/2018
 ms.keywords: '*PKSJACK_DESCRIPTION, KSJACK_DESCRIPTION, KSJACK_DESCRIPTION structure [Core Audio], PKSJACK_DESCRIPTION, PKSJACK_DESCRIPTION structure pointer [Core Audio], coreaudio.ksjack_description, devicetopology/KSJACK_DESCRIPTION, devicetopology/PKSJACK_DESCRIPTION'
-f1_keywords:
-- devicetopology/KSJACK_DESCRIPTION
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Devicetopology.h
-api_name:
-- KSJACK_DESCRIPTION
 targetos: Windows
 req.typenames: KSJACK_DESCRIPTION, *PKSJACK_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_devicetopology_0000_0000_0009
+ - devicetopology/__MIDL___MIDL_itf_devicetopology_0000_0000_0009
+ - PKSJACK_DESCRIPTION
+ - devicetopology/PKSJACK_DESCRIPTION
+ - KSJACK_DESCRIPTION
+ - devicetopology/KSJACK_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Devicetopology.h
+api_name:
+ - KSJACK_DESCRIPTION
 ---
 
 # KSJACK_DESCRIPTION structure
@@ -48,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>KSJACK_DESCRIPTION</b> structure describes an audio jack.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field ChannelMapping
 
@@ -103,10 +100,12 @@ In Windows Vista, the value of this member is one of the <b>EChannelMapping</b>
 </table>
  </p>For a physical connector with one, three, or more channels, the value of this member is ePcxChanMap_Unknown.
 
-In Windows 7, the <b>EChannelMapping</b>enumeration has been deprecated. The datatype of this member is a <b>DWORD</b>.  This member stores either 0 or the bitwise-OR combination of one or more of the following values that are defined in Ksmedia.h.
+In Windows 7, the <b>EChannelMapping</b> enumeration has been deprecated. The datatype of this member is a <b>DWORD</b>.  This member stores either 0 or the bitwise-OR combination of one or more of the following values that are defined in Ksmedia.h.
 
 
-<pre class="syntax" xml:space="preserve"><code>#define SPEAKER_FRONT_LEFT              0x1
+
+``` syntax
+#define SPEAKER_FRONT_LEFT              0x1
 #define SPEAKER_FRONT_RIGHT             0x2
 #define SPEAKER_FRONT_CENTER            0x4
 #define SPEAKER_LOW_FREQUENCY           0x8
@@ -124,14 +123,13 @@ In Windows 7, the <b>EChannelMapping</b>enumeration has been deprecated. The da
 #define SPEAKER_TOP_BACK_LEFT           0x8000
 #define SPEAKER_TOP_BACK_CENTER         0x10000
 #define SPEAKER_TOP_BACK_RIGHT          0x20000
-</code></pre>
 
+```
 
 
 ### -field Color
 
-The jack color. The color is expressed as a 32-bit RGB value that is formed by concatenating the 8-bit blue, green, and red color components. The blue component occupies the 8 least-significant bits (bits 0-7), the green component occupies bits 8-15, and the red component occupies bits 16-23. The 8 most-significant bits are zeros. If the jack color is unknown or the physical connector has no identifiable color, the value of this member is 0x00000000, which is black. 
-
+The jack color. The color is expressed as a 32-bit RGB value that is formed by concatenating the 8-bit blue, green, and red color components. The blue component occupies the 8 least-significant bits (bits 0-7), the green component occupies bits 8-15, and the red component occupies bits 16-23. The 8 most-significant bits are zeros. If the jack color is unknown or the physical connector has no identifiable color, the value of this member is 0x00000000, which is black.
 
 ### -field ConnectionType
 
@@ -195,8 +193,6 @@ eConnTypeEighth (Windows Vista)
 <td>Combination of connector types</td>
 </tr>
 </table>
- 
-
 
 ### -field GeoLocation
 
@@ -266,8 +262,6 @@ eGeoLocRearPanel(Windows 7)
 <td>ATAPI connector</td>
 </tr>
 </table>
- 
-
 
 ### -field GenLocation
 
@@ -301,8 +295,6 @@ eGenLocSeparate(Windows 7)
 <td>Other location</td>
 </tr>
 </table>
- 
-
 
 ### -field PortConnection
 
@@ -330,34 +322,19 @@ The type of port represented by the jack. The value of this member is one of the
 <td>Unknown</td>
 </tr>
 </table>
- 
-
 
 ### -field IsConnected
 
-If the audio adapter supports jack-presence detection on the jack, the value of <b>IsConnected</b> indicates whether an endpoint device is plugged into the jack. If <b>IsConnected</b> is <b>TRUE</b>, a device is plugged in. If it is <b>FALSE</b>, the jack is empty. For devices that do not support jack-presence detection, this member is always <b>TRUE</b>. For more information about jack-presence detection, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">Audio Endpoint Devices</a>.
-
+If the audio adapter supports jack-presence detection on the jack, the value of <b>IsConnected</b> indicates whether an endpoint device is plugged into the jack. If <b>IsConnected</b> is <b>TRUE</b>, a device is plugged in. If it is <b>FALSE</b>, the jack is empty. For devices that do not support jack-presence detection, this member is always <b>TRUE</b>. For more information about jack-presence detection, see <a href="/windows/desktop/CoreAudio/audio-endpoint-devices">Audio Endpoint Devices</a>.
 
 ## -remarks
 
-
-
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a> method in the <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>. It describes an audio jack that is part of a connection between an endpoint device and a hardware device in an audio adapter. When a user needs to plug an endpoint device into a jack or unplug it from a jack, an audio application can use the descriptive information in the structure to help the user to find the jack. 
-
-
-
+This structure is used by the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a> method in the <a href="/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>. It describes an audio jack that is part of a connection between an endpoint device and a hardware device in an audio adapter. When a user needs to plug an endpoint device into a jack or unplug it from a jack, an audio application can use the descriptive information in the structure to help the user to find the jack.
 
 ## -see-also
 
+<a href="/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a>

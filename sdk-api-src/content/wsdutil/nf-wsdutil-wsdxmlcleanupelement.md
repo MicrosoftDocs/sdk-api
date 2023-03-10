@@ -2,15 +2,12 @@
 UID: NF:wsdutil.WSDXMLCleanupElement
 title: WSDXMLCleanupElement function (wsdutil.h)
 description: Frees memory associated with an XML element.
+helpviewer_keywords: ["WSDXMLCleanupElement","WSDXMLCleanupElement function","ncd.wsdxmlcleanupelement","wsdutil/WSDXMLCleanupElement"]
 old-location: ncd\wsdxmlcleanupelement.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 5a421c9a-32c2-4eaf-84b9-6077afe9b82a
 ms.date: 12/05/2018
 ms.keywords: WSDXMLCleanupElement, WSDXMLCleanupElement function, ncd.wsdxmlcleanupelement, wsdutil/WSDXMLCleanupElement
-f1_keywords:
-- wsdutil/WSDXMLCleanupElement
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDXMLCleanupElement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDXMLCleanupElement
+ - wsdutil/WSDXMLCleanupElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDXMLCleanupElement
 ---
 
 # WSDXMLCleanupElement function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees memory associated with an XML element.
-
 
 ## -parameters
 
-
-
-
 ### -param pAny [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -96,7 +90,3 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:objidl.IComThreadingInfo.GetCurrentApartmentType
 title: IComThreadingInfo::GetCurrentApartmentType (objidl.h)
-description: Retrieves the type of apartment in which the caller is executing.
+description: The IComThreadingInfo::GetCurrentApartmentType method (objidl.h) retrieves the type of apartment in which the caller is executing.
+helpviewer_keywords: ["GetCurrentApartmentType","GetCurrentApartmentType method [COM]","GetCurrentApartmentType method [COM]","IComThreadingInfo interface","IComThreadingInfo interface [COM]","GetCurrentApartmentType method","IComThreadingInfo.GetCurrentApartmentType","IComThreadingInfo::GetCurrentApartmentType","_com_icomthreadinginfo_getcurrentapartmenttype","com.icomthreadinginfo_getcurrentapartmenttype","objidlbase/IComThreadingInfo::GetCurrentApartmentType"]
 old-location: com\icomthreadinginfo_getcurrentapartmenttype.htm
 tech.root: com
 ms.assetid: 59cb216f-818c-4189-b77b-984961889a62
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: GetCurrentApartmentType, GetCurrentApartmentType method [COM], GetCurrentApartmentType method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentApartmentType method, IComThreadingInfo.GetCurrentApartmentType, IComThreadingInfo::GetCurrentApartmentType, _com_icomthreadinginfo_getcurrentapartmenttype, com.icomthreadinginfo_getcurrentapartmenttype, objidlbase/IComThreadingInfo::GetCurrentApartmentType
-f1_keywords:
-- objidl/IComThreadingInfo.GetCurrentApartmentType
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IComThreadingInfo.GetCurrentApartmentType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComThreadingInfo::GetCurrentApartmentType
+ - objidl/IComThreadingInfo::GetCurrentApartmentType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IComThreadingInfo.GetCurrentApartmentType
 ---
 
 # IComThreadingInfo::GetCurrentApartmentType
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type of apartment in which the caller is executing.
-
 
 ## -parameters
 
-
-
-
 ### -param pAptType [out]
 
-A points to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a> enumeration value that characterizes the caller's apartment.
-
+A points to an <a href="/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a> enumeration value that characterizes the caller's apartment.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -96,18 +90,7 @@ The caller is not executing in an apartment.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>

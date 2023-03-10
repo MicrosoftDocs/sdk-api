@@ -1,16 +1,13 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.GetOptionValue
 title: ISpellCheckProvider::GetOptionValue (spellcheckprovider.h)
-description: Retrieves the value associated with the given option.
+description: Retrieves the value associated with the given option. (ISpellCheckProvider.GetOptionValue)
+helpviewer_keywords: ["GetOptionValue","GetOptionValue method [Internationalization for Windows Applications]","GetOptionValue method [Internationalization for Windows Applications]","ISpellCheckProvider interface","ISpellCheckProvider interface [Internationalization for Windows Applications]","GetOptionValue method","ISpellCheckProvider.GetOptionValue","ISpellCheckProvider::GetOptionValue","intl.ispellcheckprovider_getoptionvalue","spellcheckprovider/ISpellCheckProvider::GetOptionValue"]
 old-location: intl\ispellcheckprovider_getoptionvalue.htm
 tech.root: Intl
 ms.assetid: 4EE5DE54-DCA2-4DDC-BDE1-6417E4ADF4A2
 ms.date: 12/05/2018
 ms.keywords: GetOptionValue, GetOptionValue method [Internationalization for Windows Applications], GetOptionValue method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],GetOptionValue method, ISpellCheckProvider.GetOptionValue, ISpellCheckProvider::GetOptionValue, intl.ispellcheckprovider_getoptionvalue, spellcheckprovider/ISpellCheckProvider::GetOptionValue
-f1_keywords:
-- spellcheckprovider/ISpellCheckProvider.GetOptionValue
-dev_langs:
-- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheckprovider.h
-api_name:
-- ISpellCheckProvider.GetOptionValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellCheckProvider::GetOptionValue
+ - spellcheckprovider/ISpellCheckProvider::GetOptionValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheckprovider.h
+api_name:
+ - ISpellCheckProvider.GetOptionValue
 ---
 
 # ISpellCheckProvider::GetOptionValue
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value associated with the given option.
 
-
 ## -parameters
-
-
-
 
 ### -param optionId [in]
 
 The option identifier.
 
-
 ### -param value [out, retval]
 
 The value associated with <i>optionId</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,18 +105,7 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>

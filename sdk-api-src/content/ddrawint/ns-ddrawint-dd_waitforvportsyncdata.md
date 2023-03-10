@@ -2,15 +2,12 @@
 UID: NS:ddrawint._DD_WAITFORVPORTSYNCDATA
 title: DD_WAITFORVPORTSYNCDATA (ddrawint.h)
 description: The DD_WAITFORVPORTSYNCDATA structure contains the information required for the driver to synchronize the video port extensions (VPE) object.
+helpviewer_keywords: ["*PDD_WAITFORVPORTSYNCDATA","DD_WAITFORVPORTSYNCDATA","DD_WAITFORVPORTSYNCDATA structure [Display Devices]","ddrawint/DD_WAITFORVPORTSYNCDATA","ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml","display.dd_waitforvportsyncdata"]
 old-location: display\dd_waitforvportsyncdata.htm
 tech.root: display
 ms.assetid: 903c697e-4fa5-472e-ab5b-7864a326f323
 ms.date: 12/05/2018
 ms.keywords: '*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA structure [Display Devices], ddrawint/DD_WAITFORVPORTSYNCDATA, ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml, display.dd_waitforvportsyncdata'
-f1_keywords:
-- ddrawint/DD_WAITFORVPORTSYNCDATA
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_WAITFORVPORTSYNCDATA
 targetos: Windows
 req.typenames: '*PDD_WAITFORVPORTSYNCDATA, DD_WAITFORVPORTSYNCDATA'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_WAITFORVPORTSYNCDATA
+ - ddrawint/_DD_WAITFORVPORTSYNCDATA
+ - PDD_WAITFORVPORTSYNCDATA
+ - ddrawint/PDD_WAITFORVPORTSYNCDATA
+ - DD_WAITFORVPORTSYNCDATA
+ - ddrawint/DD_WAITFORVPORTSYNCDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_WAITFORVPORTSYNCDATA
 ---
 
 # DD_WAITFORVPORTSYNCDATA structure
@@ -48,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DD_WAITFORVPORTSYNCDATA structure contains the information required for the driver to synchronize the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
-
+The DD_WAITFORVPORTSYNCDATA structure contains the information required for the driver to synchronize the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
 ## -struct-fields
 
-
-
-
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
-
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 ### -field lpVideoPort
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
-
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
 
 ### -field dwFlags
 
@@ -107,36 +106,23 @@ The driver should return at the beginning of the line specified in <b>dwLine</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwLine
 
 Specifies the line number on which the driver should synchronize when <b>dwFlags</b> is DDVPWAIT_LINE. The driver should ignore this member when <b>dwFlags</b> is set to DDVPWAIT_BEGIN or DDVPWAIT_END.
 
-
 ### -field dwTimeOut
 
 Specifies the maximum amount of time the driver should wait, in milliseconds, before timing out.
 
-
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_waitforsync">DdVideoPortWaitForSync</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
-
+Specifies the location in which the driver writes the return value of the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_waitforsync">DdVideoPortWaitForSync</a> callback. A return code of DD_OK indicates success. For more information, see <a href="/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 ### -field UpdateVideoPort
 
 Used by the DirectDraw API and should not be filled in by the driver.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_waitforsync">DdVideoPortWaitForSync</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_waitforsync">DdVideoPortWaitForSync</a>

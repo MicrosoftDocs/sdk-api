@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IISDB_BIT.Initialize
 title: IISDB_BIT::Initialize (dvbsiparser.h)
 description: Initializes the object by using captured table section data for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+helpviewer_keywords: ["IISDB_BIT interface [Microsoft TV Technologies]","Initialize method","IISDB_BIT.Initialize","IISDB_BIT::Initialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","IISDB_BIT interface","dvbsiparser/IISDB_BIT::Initialize","mstv.iisdb_bit_initialize"]
 old-location: mstv\iisdb_bit_initialize.htm
 tech.root: mstv
 ms.assetid: 1c38cbc0-4e47-4f15-9a9b-548e74af6462
 ms.date: 12/05/2018
 ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, IISDB_BIT.Initialize, IISDB_BIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_BIT interface, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
-f1_keywords:
-- dvbsiparser/IISDB_BIT.Initialize
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_BIT.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_BIT::Initialize
+ - dvbsiparser/IISDB_BIT::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_BIT.Initialize
 ---
 
 # IISDB_BIT::Initialize
@@ -48,47 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the object by using captured table section data
   for an Integrated Services Digital Broadcasting (ISDB) broadcaster
   information table
-  (BIT). 
-
-
+  (BIT).
 
 ## -parameters
 
-
-
-
 ### -param pSectionList [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList</a> interface
+Pointer to the <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList</a> interface
   of the <b>SectionList</b> object that contains the section data.
-
-
 
 ### -param pMPEGData [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
-
+Pointer to the <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_bit">IISDB_BIT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_bit">IISDB_BIT</a>

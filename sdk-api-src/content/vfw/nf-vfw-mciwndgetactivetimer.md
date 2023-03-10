@@ -2,15 +2,12 @@
 UID: NF:vfw.MCIWndGetActiveTimer
 title: MCIWndGetActiveTimer macro (vfw.h)
 description: The MCIWndGetActiveTimer macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the MCIWNDM_GETACTIVETIMER message.
+helpviewer_keywords: ["MCIWndGetActiveTimer","MCIWndGetActiveTimer macro [Windows Multimedia]","_win32_MCIWndGetActiveTimer","multimedia.mciwndgetactivetimer","vfw/MCIWndGetActiveTimer"]
 old-location: multimedia\mciwndgetactivetimer.htm
 tech.root: Multimedia
 ms.assetid: 581b9bb3-9bc0-46f2-a5d2-93397900ff28
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetActiveTimer, MCIWndGetActiveTimer macro [Windows Multimedia], _win32_MCIWndGetActiveTimer, multimedia.mciwndgetactivetimer, vfw/MCIWndGetActiveTimer
-f1_keywords:
-- vfw/MCIWndGetActiveTimer
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndGetActiveTimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndGetActiveTimer
+ - vfw/MCIWndGetActiveTimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndGetActiveTimer
 ---
 
 # MCIWndGetActiveTimer macro
@@ -48,30 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>MCIWndGetActiveTimer</b> macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getactivetimer">MCIWNDM_GETACTIVETIMER</a> message.
-
-
-
+The <b>MCIWndGetActiveTimer</b> macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getactivetimer">MCIWNDM_GETACTIVETIMER</a> message.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getactivetimer">MCIWNDM_GETACTIVETIMER</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/mciwndm-getactivetimer">MCIWNDM_GETACTIVETIMER</a>

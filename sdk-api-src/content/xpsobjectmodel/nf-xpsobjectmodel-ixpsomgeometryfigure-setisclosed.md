@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetIsClosed
 title: IXpsOMGeometryFigure::SetIsClosed (xpsobjectmodel.h)
 description: Sets a value that indicates whether the figure is closed.
+helpviewer_keywords: ["FALSE","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","SetIsClosed method","IXpsOMGeometryFigure.SetIsClosed","IXpsOMGeometryFigure::SetIsClosed","SetIsClosed","SetIsClosed method [XPS Documents and Packaging]","SetIsClosed method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","TRUE","xps.ixpsomgeometryfigure_setisclosed","xpsobjectmodel/IXpsOMGeometryFigure::SetIsClosed"]
 old-location: xps\ixpsomgeometryfigure_setisclosed.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2c839d2d-8887-464e-8052-b9092a41eeb3
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsClosed method, IXpsOMGeometryFigure.SetIsClosed, IXpsOMGeometryFigure::SetIsClosed, SetIsClosed, SetIsClosed method [XPS Documents and Packaging], SetIsClosed method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisclosed, xpsobjectmodel/IXpsOMGeometryFigure::SetIsClosed
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.SetIsClosed
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.SetIsClosed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::SetIsClosed
+ - xpsobjectmodel/IXpsOMGeometryFigure::SetIsClosed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.SetIsClosed
 ---
 
 # IXpsOMGeometryFigure::SetIsClosed
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a value that indicates whether the figure is closed.
 
-
 ## -parameters
-
-
-
 
 ### -param isClosed [in]
 
@@ -87,21 +84,12 @@ The figure is open. There is no line segment between the start point and the las
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
  This value only applies if the <b>PathFigure</b> attribute is used in the <b>Path</b> element that specifies a stroke.
 
@@ -109,20 +97,10 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 This value corresponds to that of the <b>IsClosed</b> element   of the <b>PathFigure</b> element in the document markup.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

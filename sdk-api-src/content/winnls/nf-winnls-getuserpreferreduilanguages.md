@@ -2,15 +2,12 @@
 UID: NF:winnls.GetUserPreferredUILanguages
 title: GetUserPreferredUILanguages function (winnls.h)
 description: Retrieves information about the user preferred UI languages. For more information, see User Interface Language Management.
+helpviewer_keywords: ["GetUserPreferredUILanguages","GetUserPreferredUILanguages function [Internationalization for Windows Applications]","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","_win32_GetUserPreferredUILanguages","intl.getuserpreferreduilanguages","winnls/GetUserPreferredUILanguages"]
 old-location: intl\getuserpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 0800642c-c133-4993-bd16-6bdbf7518f1c
 ms.date: 12/05/2018
 ms.keywords: GetUserPreferredUILanguages, GetUserPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_GetUserPreferredUILanguages, intl.getuserpreferreduilanguages, winnls/GetUserPreferredUILanguages
-f1_keywords:
-- winnls/GetUserPreferredUILanguages
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,29 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- GetUserPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUserPreferredUILanguages
+ - winnls/GetUserPreferredUILanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - GetUserPreferredUILanguages
 ---
 
 # GetUserPreferredUILanguages function
+
 
 ## -description
 
@@ -120,3 +123,4 @@ The language list retrieved by this function has the following characteristics:
 ## -see-also
 
 [GetSystemPreferredUILanguages function](nf-winnls-getsystempreferreduilanguages.md), [GetThreadPreferredUILanguages function](nf-winnls-getthreadpreferreduilanguages.md), [GetThreadUILanguage function](nf-winnls-getthreaduilanguage.md), [SetThreadPreferredUILanguages function](nf-winnls-setthreadpreferreduilanguages.md), [Multilingual User Interface](/windows/desktop/Intl/multilingual-user-interface), [Multilingual User Interface Functions](/windows/desktop/Intl/multilingual-user-interface-functions)
+

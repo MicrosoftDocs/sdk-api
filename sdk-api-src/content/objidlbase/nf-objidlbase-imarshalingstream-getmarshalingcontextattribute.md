@@ -1,16 +1,13 @@
 ---
 UID: NF:objidlbase.IMarshalingStream.GetMarshalingContextAttribute
 title: IMarshalingStream::GetMarshalingContextAttribute (objidlbase.h)
-description: Gets information about the marshaling context.
+description: The IMarshalingStream::GetMarshalingContextAttribute (objidlbase.h) method gets information about the marshaling context.
+helpviewer_keywords: ["GetMarshalingContextAttribute","GetMarshalingContextAttribute method [COM]","GetMarshalingContextAttribute method [COM]","IMarshalingStream interface","IMarshalingStream interface [COM]","GetMarshalingContextAttribute method","IMarshalingStream.GetMarshalingContextAttribute","IMarshalingStream::GetMarshalingContextAttribute","com.imarshalingstream_getmarshalingcontextattribute","objidl/IMarshalingStream::GetMarshalingContextAttribute"]
 old-location: com\imarshalingstream_getmarshalingcontextattribute.htm
 tech.root: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM],IMarshalingStream interface, IMarshalingStream interface [COM],GetMarshalingContextAttribute method, IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
-f1_keywords:
-- objidlbase/IMarshalingStream.GetMarshalingContextAttribute
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidl.h
-api_name:
-- IMarshalingStream.GetMarshalingContextAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMarshalingStream::GetMarshalingContextAttribute
+ - objidlbase/IMarshalingStream::GetMarshalingContextAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidl.h
+api_name:
+ - IMarshalingStream.GetMarshalingContextAttribute
 ---
 
 # IMarshalingStream::GetMarshalingContextAttribute
@@ -48,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about the marshaling context.
 
-
 ## -parameters
-
-
-
 
 ### -param attribute [in]
 
 The attribute to query.
 
-
 ### -param pAttributeValue [out]
 
 The value of <i>attribute</i>.
-          
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Each possible value of the attribute parameter is paired with the data type of the attribute this identifies.
 
@@ -102,26 +89,15 @@ This attribute is a boolean value, with 0 representing <b>TRUE</b> and nonzero r
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes">CO_MARSHALING_CONTEXT_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes">CO_MARSHALING_CONTEXT_ATTRIBUTES</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>

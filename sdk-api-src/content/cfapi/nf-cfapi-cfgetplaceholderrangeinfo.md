@@ -2,15 +2,12 @@
 UID: NF:cfapi.CfGetPlaceholderRangeInfo
 title: CfGetPlaceholderRangeInfo function (cfapi.h)
 description: Gets range information about a placeholder file or folder.
+helpviewer_keywords: ["CfGetPlaceholderRangeInfo","CfGetPlaceholderRangeInfo function","cfapi/CfGetPlaceholderRangeInfo","cloudApi.cfgetplaceholderrangeinfo"]
 old-location: cloudapi\cfgetplaceholderrangeinfo.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: B7FE94BC-DC59-407D-85A6-9657E38975AB
-ms.date: 12/05/2018
+ms.date: 02/27/2023
 ms.keywords: CfGetPlaceholderRangeInfo, CfGetPlaceholderRangeInfo function, cfapi/CfGetPlaceholderRangeInfo, cloudApi.cfgetplaceholderrangeinfo
-f1_keywords:
-- cfapi/CfGetPlaceholderRangeInfo
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,84 +25,70 @@ req.type-library:
 req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CldApi.dll
-api_name:
-- CfGetPlaceholderRangeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CfGetPlaceholderRangeInfo
+ - cfapi/CfGetPlaceholderRangeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CldApi.dll
+api_name:
+ - CfGetPlaceholderRangeInfo
 ---
 
 # CfGetPlaceholderRangeInfo function
 
-
 ## -description
-
 
 Gets range information about a placeholder file or folder.
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [in]
 
 The handle of the placeholder file to be queried.
 
-
 ### -param InfoClass [in]
 
 Types of the range of placeholder data.
-
 
 ### -param StartingOffset [in]
 
 Offset of the starting point of the range of data.
 
-
 ### -param Length [in]
 
 Length of the range of data.
 
-
 ### -param InfoBuffer [out]
 
-Pointer to a buffer to receive the data.
-
+Pointer to a buffer that will receive the data. The buffer is an array of `CF_FILE_RANGE` structures, which are offset/length pairs, describing the requested ranges.
 
 ### -param InfoBufferLength [in]
 
-Length, in bytes, of <i>InfoBuffer</i>.
-
+The length of `InfoBuffer` in bytes.
 
 ### -param ReturnedLength [out, optional]
 
-The length of the returned range of placeholder data in the <i>InfoBuffer</i>.
-
+The length of the returned range of placeholder data in the `InfoBuffer`.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns `S_OK`. Otherwise, it returns an `HRESULT` error code.
 
 ## -remarks
 
-
-
 Unlike most placeholder APIs that take a file handle, this one does not modify the file in any way, therefore the file handle only requires READ_ATTRIBUTES access.
 
+## -see-also
 
-
+[CfGetPlaceholderRangeInfoForHydration](nf-cfapi-cfgetplaceholderrangeinfoforhydration.md)

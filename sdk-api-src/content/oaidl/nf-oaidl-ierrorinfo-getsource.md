@@ -2,15 +2,12 @@
 UID: NF:oaidl.IErrorInfo.GetSource
 title: IErrorInfo::GetSource (oaidl.h)
 description: Returns the language-dependent programmatic ID (ProgID) for the class or application that raised the error.
+helpviewer_keywords: ["GetSource","GetSource method [Automation]","GetSource method [Automation]","IErrorInfo interface","IErrorInfo interface [Automation]","GetSource method","IErrorInfo.GetSource","IErrorInfo::GetSource","_oa96_IErrorInfo_GetSource","automat.ierrorinfo_getsource","oaidl/IErrorInfo::GetSource"]
 old-location: automat\ierrorinfo_getsource.htm
 tech.root: automat
 ms.assetid: b7bbf4ac-7c02-4abe-83fb-bc9fcd52129e
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method [Automation], GetSource method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetSource method, IErrorInfo.GetSource, IErrorInfo::GetSource, _oa96_IErrorInfo_GetSource, automat.ierrorinfo_getsource, oaidl/IErrorInfo::GetSource
-f1_keywords:
-- oaidl/IErrorInfo.GetSource
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IErrorInfo.GetSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IErrorInfo::GetSource
+ - oaidl/IErrorInfo::GetSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IErrorInfo.GetSource
 ---
 
 # IErrorInfo::GetSource
@@ -48,46 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the language-dependent programmatic ID (ProgID) for the class or application that raised the error.
 
-
 ## -parameters
-
-
-
 
 ### -param pBstrSource [out]
 
 A ProgID, in the form <i>progname</i>.<i>objectname</i>.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Use <b>IErrorInfo::GetSource</b> to determine the class or application that is the source of the error. The language for the returned ProgID depends on the locale ID (LCID) that was passed into the method at the time of invocation.
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>

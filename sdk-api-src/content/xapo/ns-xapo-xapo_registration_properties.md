@@ -2,15 +2,12 @@
 UID: NS:xapo.XAPO_REGISTRATION_PROPERTIES
 title: XAPO_REGISTRATION_PROPERTIES (xapo.h)
 description: Describes general characteristics of an XAPO. Used with IXAPO::GetRegistrationProperties, CXAPOParametersBase::CXAPOParametersBase, and CXAPOBase::CXAPOBase.
+helpviewer_keywords: ["XAPO_REGISTRATION_PROPERTIES","XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs]","xapo/XAPO_REGISTRATION_PROPERTIES","xaudio2.xapo_registration_properties"]
 old-location: xaudio2\xapo_registration_properties.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_REGISTRATION_PROPERTIES
 ms.date: 12/05/2018
 ms.keywords: XAPO_REGISTRATION_PROPERTIES, XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs], xapo/XAPO_REGISTRATION_PROPERTIES, xaudio2.xapo_registration_properties
-f1_keywords:
-- xapo/XAPO_REGISTRATION_PROPERTIES
-dev_langs:
-- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xapo.h
-api_name:
-- XAPO_REGISTRATION_PROPERTIES
 targetos: Windows
 req.typenames: XAPO_REGISTRATION_PROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XAPO_REGISTRATION_PROPERTIES
+ - xapo/XAPO_REGISTRATION_PROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xapo.h
+api_name:
+ - XAPO_REGISTRATION_PROPERTIES
 ---
 
 # XAPO_REGISTRATION_PROPERTIES structure
@@ -48,41 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes general characteristics of an XAPO. Used with 
-	 <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties">IXAPO::GetRegistrationProperties</a>, <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase">CXAPOParametersBase::CXAPOParametersBase</a>, and 
-	 <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapobase-cxapobase">CXAPOBase::CXAPOBase</a>. 
-
+	 <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-getregistrationproperties">IXAPO::GetRegistrationProperties</a>, <a href="/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-cxapoparametersbase">CXAPOParametersBase::CXAPOParametersBase</a>, and 
+	 <a href="/windows/desktop/api/xapobase/nf-xapobase-cxapobase-cxapobase">CXAPOBase::CXAPOBase</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field clsid
 
 COM class ID for use with the CoCreateInstance function.
 
-
 ### -field FriendlyName
 
 Friendly name, a unicode string.
-
 
 ### -field CopyrightInfo
 
 Copyright information, a unicode string.
 
-
 ### -field MajorVersion
 
 Major version number.
 
-
 ### -field MinorVersion
 
 Minor version number.
-
 
 ### -field Flags
 
@@ -145,13 +137,10 @@ For example, consider an effect which may be ran in stereo to 5.1 mode or
             </td>
 </tr>
 </table>
- 
-
 
 ### -field MinInputBufferCount
 
 Minimum number of input streams required for processing.
-
 
 ### -field MaxInputBufferCount
 
@@ -164,7 +153,6 @@ Maximum number of input streams required for processing.
 
 Minimum number of output streams required for processing.
 
-
 ### -field MaxOutputBufferCount
 
 Maximum number of output streams required for processing. 
@@ -174,22 +162,10 @@ Maximum number of output streams required for processing.
 
 ## -remarks
 
-
-
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); 
             Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

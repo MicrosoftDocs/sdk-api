@@ -2,15 +2,12 @@
 UID: NF:strmif.IGraphBuilder.Render
 title: IGraphBuilder::Render (strmif.h)
 description: The Render method builds a filter graph that renders the data from a specified output pin.
+helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","Render method","IGraphBuilder.Render","IGraphBuilder::Render","IGraphBuilderRender","Render","Render method [DirectShow]","Render method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_render","strmif/IGraphBuilder::Render"]
 old-location: dshow\igraphbuilder_render.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: de3adac7-ff99-4415-9afc-e25ad420df59
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],Render method, IGraphBuilder.Render, IGraphBuilder::Render, IGraphBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_render, strmif/IGraphBuilder::Render
-f1_keywords:
-- strmif/IGraphBuilder.Render
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphBuilder.Render
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphBuilder::Render
+ - strmif/IGraphBuilder::Render
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphBuilder.Render
 ---
 
 # IGraphBuilder::Render
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Render</code> method builds a filter graph that renders the data from a specified output pin.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppinOut [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on an output pin.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on an output pin.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -210,33 +201,17 @@ The filter to which this pin belongs is not in the filter graph.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method renders the data from a specified output pin, adding new filters to the graph as needed. Filters are tried in the same order as for the <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method. For more information, see <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>.
 
-
-This method renders the data from a specified output pin, adding new filters to the graph as needed. Filters are tried in the same order as for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>.
-
-During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-pin_info).
-
-
-
+During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](/windows/desktop/api/strmif/ns-strmif-pin_info).
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>

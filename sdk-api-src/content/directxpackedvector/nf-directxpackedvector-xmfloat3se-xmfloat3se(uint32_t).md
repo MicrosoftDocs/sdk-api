@@ -2,15 +2,12 @@
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(uint32_t)
 title: XMFLOAT3SE::XMFLOAT3SE(uint32_t) (directxpackedvector.h)
 description: Initializes a new instance of XMFLOAT3SE from a uint32_tvariable containing component data in a packed format.
+helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE structure","XMFLOAT3SE structure [DirectX Math Support APIs]","XMFLOAT3SE constructor","XMFLOAT3SE.XMFLOAT3SE","XMFLOAT3SE.XMFLOAT3SE(uint32_t)","XMFLOAT3SE::XMFLOAT3SE","XMFLOAT3SE::XMFLOAT3SE(uint32_t)","dxmath.xmfloat3se_ctor_3"]
 old-location: dxmath\xmfloat3se_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.#ctor(uint32_t)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE constructor [DirectX Math Support APIs], XMFLOAT3SE constructor [DirectX Math Support APIs],XMFLOAT3SE structure, XMFLOAT3SE structure [DirectX Math Support APIs],XMFLOAT3SE constructor, XMFLOAT3SE.XMFLOAT3SE, XMFLOAT3SE.XMFLOAT3SE(uint32_t), XMFLOAT3SE::XMFLOAT3SE, XMFLOAT3SE::XMFLOAT3SE(uint32_t), dxmath.xmfloat3se_ctor_3
-f1_keywords:
-- directxpackedvector/XMFLOAT3SE.XMFLOAT3SE
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMFLOAT3SE.XMFLOAT3SE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3SE::XMFLOAT3SE
+ - directxpackedvector/XMFLOAT3SE::XMFLOAT3SE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMFLOAT3SE.XMFLOAT3SE
 ---
 
 # XMFLOAT3SE::XMFLOAT3SE(uint32_t)
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
+Initializes a new instance of <code>XMFLOAT3SE</code> from a <code>uint32_t</code> variable  containing component data in a packed format.
 
-Initializes a new instance of <code>XMFLOAT3SE</code> from a <code>uint32_t</code>variable  containing component data in a packed format.
-
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a> from a
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a> from a
   <code>uint32_t</code> variable  containing component data in a packed format.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param Packed
 
 The values of three vector components in a packed format.
-      
-
 
 ## -remarks
-
-
 
 The values of the three components of the new instance of <code>XMFLOAT3SE</code> are stored
 	in the argument <b>Packed</b> with  the exponent shared by all the mantissas of the floating point values
@@ -120,23 +114,14 @@ Bits 27-31 of <b>Packed</b> are the 5 bit <i>exponent</i> used
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>

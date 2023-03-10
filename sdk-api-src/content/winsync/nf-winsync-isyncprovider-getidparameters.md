@@ -1,16 +1,13 @@
 ---
 UID: NF:winsync.ISyncProvider.GetIdParameters
 title: ISyncProvider::GetIdParameters (winsync.h)
-description: Gets the ID format schema of the provider.
+description: Gets the ID format schema of the provider. (ISyncProvider.GetIdParameters)
+helpviewer_keywords: ["GetIdParameters","GetIdParameters method [Windows Sync]","GetIdParameters method [Windows Sync]","ISyncProvider interface","ISyncProvider interface [Windows Sync]","GetIdParameters method","ISyncProvider.GetIdParameters","ISyncProvider::GetIdParameters","winsync.isyncprovider_getidparameters","winsync/ISyncProvider::GetIdParameters"]
 old-location: winsync\isyncprovider_getidparameters.htm
 tech.root: winsync
 ms.assetid: a1839c53-7978-4a14-8b17-43621b801f13
 ms.date: 12/05/2018
 ms.keywords: GetIdParameters, GetIdParameters method [Windows Sync], GetIdParameters method [Windows Sync],ISyncProvider interface, ISyncProvider interface [Windows Sync],GetIdParameters method, ISyncProvider.GetIdParameters, ISyncProvider::GetIdParameters, winsync.isyncprovider_getidparameters, winsync/ISyncProvider::GetIdParameters
-f1_keywords:
-- winsync/ISyncProvider.GetIdParameters
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncProvider.GetIdParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProvider::GetIdParameters
+ - winsync/ISyncProvider::GetIdParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncProvider.GetIdParameters
 ---
 
 # ISyncProvider::GetIdParameters
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the ID format schema of the provider.
 
-
 ## -parameters
-
-
-
 
 ### -param pIdParameters [out]
 
 Returns the ID format schema of the provider.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,31 +87,15 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is used to get the ID format schema from the two providers that are participating in synchronization. A synchronization session should use this method to verify that the two providers have the same ID format schema, so that they can synchronize with one another.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-id_parameters">ID_PARAMETERS Structure</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncprovider">ISyncProvider Interface</a>

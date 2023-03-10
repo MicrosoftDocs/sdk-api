@@ -2,6 +2,7 @@
 UID: NN:tuner.IBroadcastEvent
 title: IBroadcastEvent (tuner.h)
 description: The IBroadcastEvent interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use this interface.
+helpviewer_keywords: ["IBroadcastEvent","IBroadcastEvent interface [Microsoft TV Technologies]","IBroadcastEvent interface [Microsoft TV Technologies]","described","IBroadcastEventInterface","mstv.ibroadcastevent","tuner/IBroadcastEvent"]
 old-location: mstv\ibroadcastevent.htm
 tech.root: mstv
 ms.assetid: 90d4fbc7-d552-460b-96b2-77e2347af716
@@ -57,9 +58,9 @@ The <b>IBroadcastEvent</b> interface enables an object to receive events from an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBroadcastEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBroadcastEvent</b> also has these types of members:
+The <b>IBroadcastEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBroadcastEvent</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,9 +71,9 @@ The <b>IBroadcastEvent</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">Fire</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">Fire</a>
 </td>
 <td align="left" width="63%">
 Fires an event.
@@ -86,12 +87,12 @@ Fires an event.
 
 
 
-Broadcast events enable communication among DirectShow filters, Video Control features, and Video Control device objects. To send a broadcast event, an object calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">IBroadcastEvent::Fire</a> on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/broadcast-service">Broadcast Event Service</a> object. Other objects can listen for events by setting up a connection point with the Broadcast Event Service object. The listener implements <b>IBroadcastEvent</b> and the Broadcast Event Service object calls the listener's <b>Fire</b> method whenever there is a new broadcast event.
+Broadcast events enable communication among DirectShow filters, Video Control features, and Video Control device objects. To send a broadcast event, an object calls <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">IBroadcastEvent::Fire</a> on the <a href="/previous-versions/windows/desktop/mstv/broadcast-service">Broadcast Event Service</a> object. Other objects can listen for events by setting up a connection point with the Broadcast Event Service object. The listener implements <b>IBroadcastEvent</b> and the Broadcast Event Service object calls the listener's <b>Fire</b> method whenever there is a new broadcast event.
 
 Broadcast events are useful for several reasons:
 
 <ul>
-<li>The DirectShow event mechanism, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaeventsink">IMediaEventSink</a>, does not support multiple listeners. DirectShow events go onto a queue, and retrieving an event removes it from the queue.</li>
+<li>The DirectShow event mechanism, <a href="/windows/desktop/api/strmif/nn-strmif-imediaeventsink">IMediaEventSink</a>, does not support multiple listeners. DirectShow events go onto a queue, and retrieving an event removes it from the queue.</li>
 <li>COM connection points require the sink object to locate the source object. With broadcast events, the Broadcast Event Service acts as a relay between the source object and the sink object.</li>
 <li>In a connection point, the source must fire events on the same thread that the sink used to establish the connection, or else marshal the event interface pointer. Filter graphs are multithreaded, so the Broadcast Event Service object implements the necessary marshaling. It uses a background thread to distribute events to all the registered listeners.</li>
 </ul>
@@ -105,10 +106,10 @@ A failure code from <b>QueryService</b> indicates that no object has yet registe
 
 <ol>
 <li>Create a new Broadcast Event Service object, using <b>CoCreateInstance</b>.</li>
-<li>Query the Filter Graph Manager for <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iregisterserviceprovider">IRegisterServiceProvider</a>.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">IRegisterServiceProvider::RegisterService</a> with the service identifier.</li>
+<li>Query the Filter Graph Manager for <a href="/windows/desktop/api/strmif/nn-strmif-iregisterserviceprovider">IRegisterServiceProvider</a>.</li>
+<li>Call <a href="/windows/desktop/api/strmif/nf-strmif-iregisterserviceprovider-registerservice">IRegisterServiceProvider::RegisterService</a> with the service identifier.</li>
 </ol>
-Once you have a pointer to the <b>IBroadcastEvent</b> interface, you can use it either to send events or to sink events. To send events, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">Fire</a> method. To sink events, implement <b>IBroadcastEvent</b> on the sink object, query the Broadcast Event Service for <b>IConnectionPoint</b>, and call <b>IConnectionPoint::Advise</b> to establish the connection. For a list of defined broadcast events, see <b>IBroadcastEvent::Fire</b>.
+Once you have a pointer to the <b>IBroadcastEvent</b> interface, you can use it either to send events or to sink events. To send events, call the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">Fire</a> method. To sink events, implement <b>IBroadcastEvent</b> on the sink object, query the Broadcast Event Service for <b>IConnectionPoint</b>, and call <b>IConnectionPoint::Advise</b> to establish the connection. For a list of defined broadcast events, see <b>IBroadcastEvent::Fire</b>.
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBroadcastEvent)</code>.
 
@@ -289,8 +290,7 @@ HRESULT TunerEvent::Fire_Event(GUID eventID)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  
-

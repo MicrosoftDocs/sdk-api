@@ -2,15 +2,12 @@
 UID: NF:winbase.GetActiveProcessorGroupCount
 title: GetActiveProcessorGroupCount function (winbase.h)
 description: Returns the number of active processor groups in the system.
+helpviewer_keywords: ["GetActiveProcessorGroupCount","GetActiveProcessorGroupCount function","base.getactiveprocessorgroupcount","winbase/GetActiveProcessorGroupCount"]
 old-location: base\getactiveprocessorgroupcount.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 566c6abe-9269-4e0e-9c98-e4607c808452
 ms.date: 12/05/2018
 ms.keywords: GetActiveProcessorGroupCount, GetActiveProcessorGroupCount function, base.getactiveprocessorgroupcount, winbase/GetActiveProcessorGroupCount
-f1_keywords:
-- winbase/GetActiveProcessorGroupCount
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
-- Kernel32Legacy.dll
-api_name:
-- GetActiveProcessorGroupCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetActiveProcessorGroupCount
+ - winbase/GetActiveProcessorGroupCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+ - Kernel32Legacy.dll
+api_name:
+ - GetActiveProcessorGroupCount
 ---
 
 # GetActiveProcessorGroupCount function
@@ -50,33 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the number of active processor groups in the system.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 If the function succeeds, the return value is the number of active processor groups in the system.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
 
-
-
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_Value
 title: IFsrmFileConditionProperty::get_Value (fsrmreports.h)
-description: Specifies the file condition property value.
+description: Specifies the file condition property value. (Get)
+helpviewer_keywords: ["IFsrmFileConditionProperty interface [File Server Resource Manager]","Value property","IFsrmFileConditionProperty.Value","IFsrmFileConditionProperty.get_Value","IFsrmFileConditionProperty::Value","IFsrmFileConditionProperty::get_Value","IFsrmFileConditionProperty::put_Value","Value property [File Server Resource Manager]","Value property [File Server Resource Manager]","IFsrmFileConditionProperty interface","fs.ifsrmfileconditionproperty_value","fsrm.ifsrmfileconditionproperty_value","fsrmreports/IFsrmFileConditionProperty::Value","fsrmreports/IFsrmFileConditionProperty::get_Value","fsrmreports/IFsrmFileConditionProperty::put_Value","get_Value"]
 old-location: fsrm\ifsrmfileconditionproperty_value.htm
 tech.root: fsrm
 ms.assetid: f7048ab3-2ef5-4d50-9432-8c6f0060a244
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],Value property, IFsrmFileConditionProperty.Value, IFsrmFileConditionProperty.get_Value, IFsrmFileConditionProperty::Value, IFsrmFileConditionProperty::get_Value, IFsrmFileConditionProperty::put_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_value, fsrm.ifsrmfileconditionproperty_value, fsrmreports/IFsrmFileConditionProperty::Value, fsrmreports/IFsrmFileConditionProperty::get_Value, fsrmreports/IFsrmFileConditionProperty::put_Value, get_Value
-f1_keywords:
-- fsrmreports/IFsrmFileConditionProperty.Value
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileConditionProperty.Value
-- IFsrmFileConditionProperty.get_Value
-- IFsrmFileConditionProperty.put_Value
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileConditionProperty::get_Value
+ - fsrmreports/IFsrmFileConditionProperty::get_Value
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileConditionProperty.Value
+ - IFsrmFileConditionProperty.get_Value
+ - IFsrmFileConditionProperty.put_Value
 ---
 
 # IFsrmFileConditionProperty::get_Value
@@ -50,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a> class.]
 
 Specifies the file condition property value.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfileconditionproperty">IFsrmFileConditionProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfileconditionproperty">IFsrmFileConditionProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a>

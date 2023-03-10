@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_OwnerSID
 title: IEventPublisher::put_OwnerSID (eventsys.h)
-description: The security identifier of the creator of the event publisher.
+description: The security identifier of the creator of the event publisher. (Put)
+helpviewer_keywords: ["IEventPublisher interface [COM]","OwnerSID property","IEventPublisher.OwnerSID","IEventPublisher.put_OwnerSID","IEventPublisher::OwnerSID","IEventPublisher::get_OwnerSID","IEventPublisher::put_OwnerSID","OwnerSID property [COM]","OwnerSID property [COM]","IEventPublisher interface","_com_ieventpublisher_ownersid","com.ieventpublisher_ownersid","eventsys/IEventPublisher::OwnerSID","eventsys/IEventPublisher::get_OwnerSID","eventsys/IEventPublisher::put_OwnerSID","put_OwnerSID"]
 old-location: com\ieventpublisher_ownersid.htm
 tech.root: com
 ms.assetid: 7555992f-ba50-4d3e-afa8-6304fec8b5c5
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher interface [COM],OwnerSID property, IEventPublisher.OwnerSID, IEventPublisher.put_OwnerSID, IEventPublisher::OwnerSID, IEventPublisher::get_OwnerSID, IEventPublisher::put_OwnerSID, OwnerSID property [COM], OwnerSID property [COM],IEventPublisher interface, _com_ieventpublisher_ownersid, com.ieventpublisher_ownersid, eventsys/IEventPublisher::OwnerSID, eventsys/IEventPublisher::get_OwnerSID, eventsys/IEventPublisher::put_OwnerSID, put_OwnerSID
-f1_keywords:
-- eventsys/IEventPublisher.OwnerSID
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventPublisher.OwnerSID
-- IEventPublisher.get_OwnerSID
-- IEventPublisher.put_OwnerSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventPublisher::put_OwnerSID
+ - eventsys/IEventPublisher::put_OwnerSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventPublisher.OwnerSID
+ - IEventPublisher.get_OwnerSID
+ - IEventPublisher.put_OwnerSID
 ---
 
 # IEventPublisher::put_OwnerSID
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The security identifier of the creator of the event publisher.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>

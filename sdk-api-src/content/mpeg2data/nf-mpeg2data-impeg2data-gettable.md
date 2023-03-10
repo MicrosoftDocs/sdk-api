@@ -2,15 +2,12 @@
 UID: NF:mpeg2data.IMpeg2Data.GetTable
 title: IMpeg2Data::GetTable (mpeg2data.h)
 description: GetTable is no longer available for use as of Windows 7.
+helpviewer_keywords: ["GetTable","GetTable method [Microsoft TV Technologies]","GetTable method [Microsoft TV Technologies]","IMpeg2Data interface","IMpeg2Data interface [Microsoft TV Technologies]","GetTable method","IMpeg2Data.GetTable","IMpeg2Data::GetTable","IMpeg2DataGetTable","mpeg2data/IMpeg2Data::GetTable","mstv.impeg2data_gettable"]
 old-location: mstv\impeg2data_gettable.htm
 tech.root: mstv
 ms.assetid: c76a9117-5dd7-46fc-8390-3f1ec80f6499
 ms.date: 12/05/2018
 ms.keywords: GetTable, GetTable method [Microsoft TV Technologies], GetTable method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetTable method, IMpeg2Data.GetTable, IMpeg2Data::GetTable, IMpeg2DataGetTable, mpeg2data/IMpeg2Data::GetTable, mstv.impeg2data_gettable
-f1_keywords:
-- mpeg2data/IMpeg2Data.GetTable
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- IMpeg2Data.GetTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMpeg2Data::GetTable
+ - mpeg2data/IMpeg2Data::GetTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - IMpeg2Data.GetTable
 ---
 
 # IMpeg2Data::GetTable
@@ -48,45 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>GetTable</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>GetTable</b> is no longer available for use as of Windows 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 Retrieves a complete MPEG-2 PSI table. This method blocks until the filter receives all of the sections that make up the requested table, or until the specified time out elapses.
 
-
 ## -parameters
-
-
-
 
 ### -param pid [in]
 
 Specifies the packet identifier (PID) of the transport stream packets to examine.
 
-
 ### -param tid [in]
 
 Specifies the table identifier (TID) of the section to retrieve.
 
-
 ### -param pFilter [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
-
+Optional pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
 
 ### -param dwTimeout [in]
 
 Specifies a time-out value, in milliseconds. If the filter does not receive a matching section within the time-out period, the method fails.
 
-
 ### -param ppSectionList [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList</a> interface pointer. Use this interface to retrieve the section data. The caller must release the interface.
-
+Receives an <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList</a> interface pointer. Use this interface to retrieve the section data. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,27 +108,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You can use the <i>pFilter</i> parameter to specify the Table_ID_extension field or the version number field. Otherwise, the filter caches these values from the first section that matches the search criteria. It uses those values to match subsequent sections.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data Interface</a>

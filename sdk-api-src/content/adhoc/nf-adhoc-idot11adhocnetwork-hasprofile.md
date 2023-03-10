@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocNetwork.HasProfile
 title: IDot11AdHocNetwork::HasProfile (adhoc.h)
 description: Returns a boolean value that specifies whether there is a saved profile associated with the network.
+helpviewer_keywords: ["HasProfile","HasProfile method [NativeWIFI]","HasProfile method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","HasProfile method","IDot11AdHocNetwork.HasProfile","IDot11AdHocNetwork::HasProfile","adhoc/IDot11AdHocNetwork::HasProfile","nwifi.idot11adhocnetwork_hasprofile"]
 old-location: nwifi\idot11adhocnetwork_hasprofile.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 252f32ef-0a54-445f-94ca-113a67a3e6dd
 ms.date: 12/05/2018
 ms.keywords: HasProfile, HasProfile method [NativeWIFI], HasProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],HasProfile method, IDot11AdHocNetwork.HasProfile, IDot11AdHocNetwork::HasProfile, adhoc/IDot11AdHocNetwork::HasProfile, nwifi.idot11adhocnetwork_hasprofile
-f1_keywords:
-- adhoc/IDot11AdHocNetwork.HasProfile
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocNetwork.HasProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocNetwork::HasProfile
+ - adhoc/IDot11AdHocNetwork::HasProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocNetwork.HasProfile
 ---
 
 # IDot11AdHocNetwork::HasProfile
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a boolean value that specifies whether there is a saved profile associated with the network.
-
 
 ## -parameters
 
-
-
-
 ### -param pf11d [in, out]
 
-Specifies whether the network has a profile. This value is set to <b>TRUE</b> if the network has a profile and <b>FALSE</b> otherwise. 
-
+Specifies whether the network has a profile. This value is set to <b>TRUE</b> if the network has a profile and <b>FALSE</b> otherwise.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -129,26 +123,15 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile">IDot11AdHocNetwork::DeleteProfile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getprofilename">IDot11AdHocNetwork::GetProfileName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-getprofilename">IDot11AdHocNetwork::GetProfileName</a>

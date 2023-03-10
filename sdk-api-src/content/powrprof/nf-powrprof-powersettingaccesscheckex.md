@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerSettingAccessCheckEx
 title: PowerSettingAccessCheckEx function (powrprof.h)
 description: Queries for a group policy override for specified power settings and specifies the requested access for the setting.
+helpviewer_keywords: ["ACCESS_ACTIVE_SCHEME","ACCESS_AC_POWER_SETTING_INDEX","ACCESS_CREATE_SCHEME","ACCESS_DC_POWER_SETTING_INDEX","ACCESS_SCHEME","KEY_READ","KEY_WRITE","PowerSettingAccessCheckEx","PowerSettingAccessCheckEx function","base.powersettingaccesscheckex","powrprof/PowerSettingAccessCheckEx"]
 old-location: base\powersettingaccesscheckex.htm
-tech.root: power
+tech.root: base
 ms.assetid: dad9cca9-5961-48b5-b7d0-4828eca3364b
 ms.date: 12/05/2018
 ms.keywords: ACCESS_ACTIVE_SCHEME, ACCESS_AC_POWER_SETTING_INDEX, ACCESS_CREATE_SCHEME, ACCESS_DC_POWER_SETTING_INDEX, ACCESS_SCHEME, KEY_READ, KEY_WRITE, PowerSettingAccessCheckEx, PowerSettingAccessCheckEx function, base.powersettingaccesscheckex, powrprof/PowerSettingAccessCheckEx
-f1_keywords:
-- powrprof/PowerSettingAccessCheckEx
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Powrprof.dll
-api_name:
-- PowerSettingAccessCheckEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerSettingAccessCheckEx
+ - powrprof/PowerSettingAccessCheckEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Powrprof.dll
+api_name:
+ - PowerSettingAccessCheckEx
 ---
 
 # PowerSettingAccessCheckEx function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries for a group policy override for specified power settings and specifies the requested access for the setting.
 
-
 ## -parameters
-
-
-
 
 ### -param AccessFlags [in]
 
@@ -122,17 +119,14 @@ Check for restrictions on creating or restoring power schemes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ### -param AccessType [in]
 
-The type of security access for the setting. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+The type of security access for the setting. For more information, see <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 This parameter can be one of the following values. 
 
@@ -162,12 +156,8 @@ Combines the STANDARD_RIGHTS_WRITE, KEY_SET_VALUE, and KEY_CREATE_SUB_KEY access
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
@@ -214,7 +204,3 @@ Only Administrators can remotely access power settings.
 </td>
 </tr>
 </table>
- 
-
-
-

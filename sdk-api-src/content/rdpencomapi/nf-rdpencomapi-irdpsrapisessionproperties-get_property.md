@@ -1,16 +1,13 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISessionProperties.get_Property
 title: IRDPSRAPISessionProperties::get_Property (rdpencomapi.h)
-description: Sets or gets a named session property.
+description: Sets or gets a named session property. (Get)
+helpviewer_keywords: ["IRDPSRAPISessionProperties interface [RDP]","Property property","IRDPSRAPISessionProperties.Property","IRDPSRAPISessionProperties.get_Property","IRDPSRAPISessionProperties::Property","IRDPSRAPISessionProperties::get_Property","IRDPSRAPISessionProperties::put_Property","Property property [RDP]","Property property [RDP]","IRDPSRAPISessionProperties interface","Property property [RDP]","RDPSRAPISessionProperties object","RDPSRAPISessionProperties object [RDP]","Property property","get_Property","rdp.irdpsrapisessionproperties_property","rdpencomapi/IRDPSRAPISessionProperties::Property","rdpencomapi/IRDPSRAPISessionProperties::get_Property","rdpencomapi/IRDPSRAPISessionProperties::put_Property"]
 old-location: rdp\irdpsrapisessionproperties_property.htm
 tech.root: rdp
 ms.assetid: 01aee262-95c0-4065-8f8c-e21db66f2a8c
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties interface [RDP],Property property, IRDPSRAPISessionProperties.Property, IRDPSRAPISessionProperties.get_Property, IRDPSRAPISessionProperties::Property, IRDPSRAPISessionProperties::get_Property, IRDPSRAPISessionProperties::put_Property, Property property [RDP], Property property [RDP],IRDPSRAPISessionProperties interface, Property property [RDP],RDPSRAPISessionProperties object, RDPSRAPISessionProperties object [RDP],Property property, get_Property, rdp.irdpsrapisessionproperties_property, rdpencomapi/IRDPSRAPISessionProperties::Property, rdpencomapi/IRDPSRAPISessionProperties::get_Property, rdpencomapi/IRDPSRAPISessionProperties::put_Property
-f1_keywords:
-- rdpencomapi/IRDPSRAPISessionProperties.Property
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPISessionProperties.Property
-- IRDPSRAPISessionProperties.get_Property
-- IRDPSRAPISessionProperties.put_Property
-- RDPSRAPISessionProperties.Property
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPISessionProperties::get_Property
+ - rdpencomapi/IRDPSRAPISessionProperties::get_Property
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPISessionProperties.Property
+ - IRDPSRAPISessionProperties.get_Property
+ - IRDPSRAPISessionProperties.put_Property
+ - RDPSRAPISessionProperties.Property
 ---
 
 # IRDPSRAPISessionProperties::get_Property
@@ -51,18 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or gets a named session property.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You can set and get the following properties. The property names are case-sensitive.
 
@@ -86,7 +83,7 @@ The second mode is static load mode. In this mode, the mirror driver is loaded i
 
 Note that in both modes the driver might be detached and re-attached as a result of external events like changing the screen resolution or sharing color depth.
 
-Set this property to VARIANT_TRUE for dynamic attachment mode and to VARIANT_FALSE  for the static attachment mode.  Note that you can set this property only before calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method; this property becomes read-only after the <b>Open</b> method is called.   The default is VARIANT_TRUE.
+Set this property to VARIANT_TRUE for dynamic attachment mode and to VARIANT_FALSE  for the static attachment mode.  Note that you can set this property only before calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method; this property becomes read-only after the <b>Open</b> method is called.   The default is VARIANT_TRUE.
 
 For 1:1 scenarios such as Remote Assistance, you should use the dynamic load mode because it can take a very long time between the moment the session is opened and the moment an expert will connect.  
 
@@ -157,7 +154,7 @@ The Internet Protocol version 6 (IPv6) address family.
 
 </td>
 <td>
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that supports the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a> interface. If this property is set, the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect">Connect</a> method will use this stream and ignore the connection string passed.
+A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that supports the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstream">IRDPSRAPITransportStream</a> interface. If this property is set, the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiviewer-connect">Connect</a> method will use this stream and ignore the connection string passed.
 
 This property is valid for the viewer side only.
 
@@ -175,7 +172,7 @@ This property is valid for the viewer side only.
 <td>
 If this property has a value of VARIANT_TRUE, the sharer requires the viewer to use Federal Information Processing Standard (FIPS) 140 compliant encryption. The default is VARIANT_FALSE.
 
-This property becomes read-only after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
+This property becomes read-only after the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
 
 Viewer support for FIPS 140 compliance was added in Windows 10, version 1709. The sharer rejects connections from viewer versions previous to Windows 10, version 1709.
 
@@ -253,9 +250,9 @@ This property is available starting with Windows 10, version 1511.
 
 </td>
 <td>
-Specifies an IUnknown pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiclipboarduseevents">IRDPSRAPIClipboardUseEvents</a> that receives a callback each time a copying from the sharer computer to the viewer is attempted. This property is only relevant if clipboard sharing is enabled.
+Specifies an IUnknown pointer to an instance of <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiclipboarduseevents">IRDPSRAPIClipboardUseEvents</a> that receives a callback each time a copying from the sharer computer to the viewer is attempted. This property is only relevant if clipboard sharing is enabled.
 
-This property becomes read-only after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
+This property becomes read-only after the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
 
 This property can only be used for desktop apps. 
 
@@ -277,7 +274,7 @@ This property is available starting with Windows 10, version 1511.
 <td>
 Specifies the transports to enable. A value of 3 supports both TCP and UDP. The default is 1, which is TCP only.
 
-This property becomes read-only after the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
+This property becomes read-only after the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-open">IRDPSRAPISharingSession::Open</a> method is called. You can set this property only before calling that method. 
 
 This property is available starting with Windows 10, version 1803.
 
@@ -290,18 +287,7 @@ This property is valid for the sharer side only.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisessionproperties">IRDPSRAPISessionProperties</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisessionproperties">IRDPSRAPISessionProperties</a>

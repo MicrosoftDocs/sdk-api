@@ -2,15 +2,12 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_ARCHITECTURE
 title: D3D12_FEATURE_DATA_ARCHITECTURE (d3d12.h)
 description: Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_ARCHITECTURE","D3D12_FEATURE_DATA_ARCHITECTURE structure","d3d12/D3D12_FEATURE_DATA_ARCHITECTURE","direct3d12.d3d12_feature_data_architecture"]
 old-location: direct3d12\d3d12_feature_data_architecture.htm
 tech.root: direct3d12
 ms.assetid: FA16A260-3CC9-4F32-A97B-8A561A01C138
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE, D3D12_FEATURE_DATA_ARCHITECTURE structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE, direct3d12.d3d12_feature_data_architecture
-f1_keywords:
-- d3d12/D3D12_FEATURE_DATA_ARCHITECTURE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_FEATURE_DATA_ARCHITECTURE
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_ARCHITECTURE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_FEATURE_DATA_ARCHITECTURE
+ - d3d12/D3D12_FEATURE_DATA_ARCHITECTURE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_FEATURE_DATA_ARCHITECTURE
 ---
 
 # D3D12_FEATURE_DATA_ARCHITECTURE structure
@@ -48,47 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides detail about the adapter architecture, so that your application can better optimize for certain adapter properties.
 <div class="alert"><b>Note</b>  This structure has been superseded by the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture1">D3D12_FEATURE_DATA_ARCHITECTURE1</a> structure. If your application targets Windows 10, version 1703 (Creators' Update) or higher, then use <b>D3D12_FEATURE_DATA_ARCHITECTURE1</b> (and <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE_ARCHITECTURE1</a>) instead.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device is relevant.
             See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
             <b>NodeIndex</b> is filled out by the application before calling <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a>, as the application can retrieve details about the architecture of each adapter.
-          
-
 
 ### -field TileBasedRenderer
 
 Specifies whether the hardware and driver support a tile-based renderer.
             The runtime sets this member to <b>TRUE</b> if the hardware and driver support a tile-based renderer.
-          
-
 
 ### -field UMA
 
 Specifies whether the hardware and driver support UMA.
             The runtime sets this member to <b>TRUE</b> if the hardware and driver support UMA.
-          
-
 
 ### -field CacheCoherentUMA
 
 Specifies whether the hardware and driver support cache-coherent UMA.
             The runtime sets this member to <b>TRUE</b> if the hardware and driver support cache-coherent UMA.
-          
-
 
 ## -remarks
-
-
 
 <h3><a id="How_to_use_UMA_and_CacheCoherentUMA"></a><a id="how_to_use_uma_and_cachecoherentuma"></a><a id="HOW_TO_USE_UMA_AND_CACHECOHERENTUMA"></a>How to use UMA and CacheCoherentUMA</h3>
 D3D12 apps should be concerned about managing memory residency and providing the optimal heap properties.
@@ -137,22 +125,12 @@ The low-level details should be ignored by a vast majority of single-adapter app
             As usual, single-adapter applications can simplify the landscape and ensure that the CPU writes to upload heaps use patterns that are write-combine-friendly.
             The lower-level details help reinforce the concepts for multi-adapter applications.
             Multi-adapter applications likely need to understand adapter architecture properties well enough to choose the optimal custom heap properties to efficiently move data between adapters.
-          
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
 <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
- 
-
- 
 

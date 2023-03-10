@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUIApplication.OnViewChanged
 title: IUIApplication::OnViewChanged (uiribbon.h)
 description: Called when the state of a View changes.
+helpviewer_keywords: ["IUIApplication interface [Windows Ribbon]","OnViewChanged method","IUIApplication.OnViewChanged","IUIApplication::OnViewChanged","OnViewChanged","OnViewChanged method [Windows Ribbon]","OnViewChanged method [Windows Ribbon]","IUIApplication interface","scenicintent_IUIApplication_OnViewChanged","uiribbon/IUIApplication::OnViewChanged","windowsribbon.windowsribbon_iuiapplication_onviewchanged"]
 old-location: windowsribbon\windowsribbon_iuiapplication_onviewchanged.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\onviewchanged.htm
 ms.date: 12/05/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnViewChanged method, IUIApplication.OnViewChanged, IUIApplication::OnViewChanged, OnViewChanged, OnViewChanged method [Windows Ribbon], OnViewChanged method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnViewChanged, uiribbon/IUIApplication::OnViewChanged, windowsribbon.windowsribbon_iuiapplication_onviewchanged
-f1_keywords:
-- uiribbon/IUIApplication.OnViewChanged
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIApplication.OnViewChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIApplication::OnViewChanged
+ - uiribbon/IUIApplication::OnViewChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIApplication.OnViewChanged
 ---
 
 # IUIApplication::OnViewChanged
@@ -49,74 +51,53 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called when the state of a  <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-application-views">View</a> changes.
-
+Called when the state of a  <a href="/windows/desktop/windowsribbon/windowsribbon-element-application-views">View</a> changes.
 
 ## -parameters
-
-
-
 
 ### -param viewId [in]
 
 Type: <b>UINT32</b>
 
 The ID for the View. 
-				Only a value of 0 is valid. 
-
+				Only a value of 0 is valid.
 
 ### -param typeID [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewtype">UI_VIEWTYPE</a></b>
+Type: <b><a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewtype">UI_VIEWTYPE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewtype">UI_VIEWTYPE</a> hosted by the application.
-				
-
+The <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewtype">UI_VIEWTYPE</a> hosted by the application.
 
 ### -param view [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to the View interface.
-				
-
 
 ### -param verb [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewverb">UI_VIEWVERB</a></b>
+Type: <b><a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewverb">UI_VIEWVERB</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewverb">UI_VIEWVERB</a> (or action) performed by the View.
-				
-
+The <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_viewverb">UI_VIEWVERB</a> (or action) performed by the View.
 
 ### -param uReasonCode [in]
 
 Type: <b>INT32</b>
 
 Not defined.
-				
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This callback notification is sent by the framework to the host application on each View state change.
 			
 
-<div class="alert"><b>Important</b>  This callback only occurs for the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon View</a> with a <i>viewId</i> of 0.</div>
+<div class="alert"><b>Important</b>  This callback only occurs for the <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon View</a> with a <i>viewId</i> of 0.</div>
 <div> </div>
 <b>IUIApplication::OnViewChanged</b> is useful for initializing Ribbon properties when the host application starts, modifying Ribbon properties based on user actions, such as resizing the application window, and querying Ribbon properties when the application closes. 
 
@@ -205,19 +186,10 @@ STDMETHODIMP CApplication::OnViewChanged(
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

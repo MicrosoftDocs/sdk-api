@@ -2,15 +2,12 @@
 UID: NF:intsafe.ShortMult
 title: ShortMult function (intsafe.h)
 description: Multiplies two values of type SHORT.
+helpviewer_keywords: ["ShortMult","ShortMult function [Windows Shell]","intsafe/ShortMult","shell.ShortMult"]
 old-location: shell\ShortMult.htm
 tech.root: shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
 ms.date: 12/05/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
-f1_keywords:
-- intsafe/ShortMult
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- ShortMult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ShortMult
+ - intsafe/ShortMult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - ShortMult
 ---
 
 # ShortMult function
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Multiplies two values of type <b>SHORT</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param sMultiplicand [in]
 
 The first value.
 
-
 ### -param sMultiplier [in]
 
 The second value.
-
 
 ### -param psResult [out]
 
 The result.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

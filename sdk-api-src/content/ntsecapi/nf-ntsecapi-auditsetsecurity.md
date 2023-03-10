@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.AuditSetSecurity
 title: AuditSetSecurity function (ntsecapi.h)
 description: Sets a security descriptor that delegates access to audit policy.
+helpviewer_keywords: ["AuditSetSecurity","AuditSetSecurity function [Security]","ntsecapi/AuditSetSecurity","security.auditsetsecurity"]
 old-location: security\auditsetsecurity.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
 ms.date: 12/05/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
-f1_keywords:
-- ntsecapi/AuditSetSecurity
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-audit-l1-1-1.dll
-- sechost.dll
-api_name:
-- AuditSetSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AuditSetSecurity
+ - ntsecapi/AuditSetSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-audit-l1-1-1.dll
+ - sechost.dll
+api_name:
+ - AuditSetSecurity
 ---
 
 # AuditSetSecurity function
@@ -50,33 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuditSetSecurity</b> function sets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> that delegates access to audit policy.
-
+The <b>AuditSetSecurity</b> function sets a <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> that delegates access to audit policy.
 
 ## -parameters
 
-
-
-
 ### -param SecurityInformation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies which parts of the security descriptor this function sets. Only <b>SACL_SECURITY_INFORMATION</b> and <b>DACL_SECURITY_INFORMATION</b> are supported. Any other values are ignored. If neither <b>SACL_SECURITY_INFORMATION</b> nor <b>DACL_SECURITY_INFORMATION</b> is specified, this function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
-
+A <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies which parts of the security descriptor this function sets. Only <b>SACL_SECURITY_INFORMATION</b> and <b>DACL_SECURITY_INFORMATION</b> are supported. Any other values are ignored. If neither <b>SACL_SECURITY_INFORMATION</b> nor <b>DACL_SECURITY_INFORMATION</b> is specified, this function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
 
 ### -param pSecurityDescriptor [in]
 
-A pointer to a well-formed <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that controls access to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>. If this parameter is <b>NULL</b>, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
-
+A pointer to a well-formed <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that controls access to the <a href="/windows/desktop/SecGloss/a-gly">Audit security object</a>. If this parameter is <b>NULL</b>, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>.
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
 
 <table>
 <tr>
@@ -108,27 +101,11 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To successfully call this function, the caller must have <b>SeSecurityPrivilege</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysecurity">AuditQuerySecurity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditquerysecurity">AuditQuerySecurity</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBalance
 title: IMFPMediaPlayer::SetBalance (mfplay.h)
-description: Sets the audio balance.
+description: Sets the audio balance. (IMFPMediaPlayer.SetBalance)
+helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetBalance method","IMFPMediaPlayer.SetBalance","IMFPMediaPlayer::SetBalance","SetBalance","SetBalance method [Media Foundation]","SetBalance method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setbalance","mfplay/IMFPMediaPlayer::SetBalance"]
 old-location: mf\imfpmediaplayer_setbalance.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cb95d037-54b4-4686-b8e6-5b960998d361
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetBalance method, IMFPMediaPlayer.SetBalance, IMFPMediaPlayer::SetBalance, SetBalance, SetBalance method [Media Foundation], SetBalance method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setbalance, mfplay/IMFPMediaPlayer::SetBalance
-f1_keywords:
-- mfplay/IMFPMediaPlayer.SetBalance
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.SetBalance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::SetBalance
+ - mfplay/IMFPMediaPlayer::SetBalance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.SetBalance
 ---
 
 # IMFPMediaPlayer::SetBalance
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Sets the audio balance.
 
-
 ## -parameters
-
-
-
 
 ### -param flBalance [in]
 
@@ -98,10 +94,7 @@ The right channel is at full volume; the left channel is silent.
 
 If the value is zero, the left and right channels are at equal volumes. The default value is zero.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -133,31 +126,15 @@ The <i>flBalance</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you call this method before playback starts, the setting is applied when playback starts.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

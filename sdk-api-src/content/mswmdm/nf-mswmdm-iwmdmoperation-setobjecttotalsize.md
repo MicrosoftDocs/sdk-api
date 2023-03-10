@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMOperation.SetObjectTotalSize
 title: IWMDMOperation::SetObjectTotalSize (mswmdm.h)
 description: The SetObjectTotalSize method assigns the total size in bytes of an object. This method is currently not called by Windows Media Device Manager.
+helpviewer_keywords: ["IWMDMOperation interface [windows Media Device Manager]","SetObjectTotalSize method","IWMDMOperation.SetObjectTotalSize","IWMDMOperation::SetObjectTotalSize","IWMDMOperationSetObjectTotalSize","SetObjectTotalSize","SetObjectTotalSize method [windows Media Device Manager]","SetObjectTotalSize method [windows Media Device Manager]","IWMDMOperation interface","mswmdm/IWMDMOperation::SetObjectTotalSize","wmdm.iwmdmoperation_setobjecttotalsize"]
 old-location: wmdm\iwmdmoperation_setobjecttotalsize.htm
 tech.root: WMDM
 ms.assetid: 009716e8-6a4e-4373-9a7c-69dad815e743
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],SetObjectTotalSize method, IWMDMOperation.SetObjectTotalSize, IWMDMOperation::SetObjectTotalSize, IWMDMOperationSetObjectTotalSize, SetObjectTotalSize, SetObjectTotalSize method [windows Media Device Manager], SetObjectTotalSize method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::SetObjectTotalSize, wmdm.iwmdmoperation_setobjecttotalsize
-f1_keywords:
-- mswmdm/IWMDMOperation.SetObjectTotalSize
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMOperation.SetObjectTotalSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMOperation::SetObjectTotalSize
+ - mswmdm/IWMDMOperation::SetObjectTotalSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMOperation.SetObjectTotalSize
 ---
 
 # IWMDMOperation::SetObjectTotalSize
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetObjectTotalSize</b> method assigns the total size in bytes of an object. This method is currently not called by Windows Media Device Manager.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwSize [in]
 
 <b>DWORD</b> specifying the low-order bits of the object size, in bytes.
 
-
 ### -param dwSizeHigh [in]
 
 <b>DWORD</b> specifying the high-order bits of the object size, in bytes.
 
-
 ## -returns
-
-
 
 The application should return one of the following <b>HRESULT</b> values.
 
@@ -116,35 +106,19 @@ An unspecified error occurred, and the read operation should be cancelled withou
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is called after <b>SetObjectAttributes</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize">IWMDMOperation::GetObjectTotalSize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize">IWMDMOperation::GetObjectTotalSize</a>

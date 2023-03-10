@@ -2,15 +2,12 @@
 UID: NF:syncregistration.IEnumSyncProviderInfos.Next
 title: IEnumSyncProviderInfos::Next (syncregistration.h)
 description: Returns the next ISyncProviderInfo object.
+helpviewer_keywords: ["IEnumSyncProviderInfos interface [Windows Sync]","Next method","IEnumSyncProviderInfos.Next","IEnumSyncProviderInfos::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumSyncProviderInfos interface","syncregistration/IEnumSyncProviderInfos::Next","winsync.ienumsyncproviderinfos_next"]
 old-location: winsync\ienumsyncproviderinfos_next.htm
 tech.root: winsync
 ms.assetid: b56cacfd-9cfe-4f5a-a945-dca299e43497
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderInfos interface [Windows Sync],Next method, IEnumSyncProviderInfos.Next, IEnumSyncProviderInfos::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncProviderInfos interface, syncregistration/IEnumSyncProviderInfos::Next, winsync.ienumsyncproviderinfos_next
-f1_keywords:
-- syncregistration/IEnumSyncProviderInfos.Next
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IEnumSyncProviderInfos.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncProviderInfos::Next
+ - syncregistration/IEnumSyncProviderInfos::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IEnumSyncProviderInfos.Next
 ---
 
 # IEnumSyncProviderInfos::Next
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the next <b>ISyncProviderInfo</b> object.
 
-
 ## -parameters
-
-
-
 
 ### -param cInstances [in]
 
 The number of <b>ISyncProviderInfo</b> objects to retrieve in the range of zero to 1.
 
-
 ### -param ppSyncProviderInfo [out]
 
 Returns the next <i>pcFetched</i><b>ISyncProviderInfo</b> objects.
-
 
 ### -param pcFetched [out]
 
 Returns the number of <b>ISyncProviderInfo</b> objects that are retrieved.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -128,27 +120,11 @@ There was not enough memory available to return the next  <b>ISyncProviderInfo</
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method will attempt to return the number of items specified by the <i>cInstances</i> parameter.  If the specified number of items is not available, <b>S_FALSE</b> will be returned, and <i>pcFetched</i> will contain the number of items that were able to be retrieved.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>

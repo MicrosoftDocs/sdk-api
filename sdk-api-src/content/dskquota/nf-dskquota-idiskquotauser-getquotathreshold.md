@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaThreshold
 title: IDiskQuotaUser::GetQuotaThreshold (dskquota.h)
 description: Retrieves the user's warning threshold value on the volume.
+helpviewer_keywords: ["GetQuotaThreshold","GetQuotaThreshold method [Files]","GetQuotaThreshold method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaThreshold method","IDiskQuotaUser.GetQuotaThreshold","IDiskQuotaUser::GetQuotaThreshold","_win32_idiskquotauser_getquotathreshold","base.idiskquotauser_getquotathreshold","dskquota/IDiskQuotaUser::GetQuotaThreshold","fs.idiskquotauser_getquotathreshold"]
 old-location: fs\idiskquotauser_getquotathreshold.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 58b925f3-b40a-4fab-86c6-725e04e6f721
 ms.date: 12/05/2018
 ms.keywords: GetQuotaThreshold, GetQuotaThreshold method [Files], GetQuotaThreshold method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaThreshold method, IDiskQuotaUser.GetQuotaThreshold, IDiskQuotaUser::GetQuotaThreshold, _win32_idiskquotauser_getquotathreshold, base.idiskquotauser_getquotathreshold, dskquota/IDiskQuotaUser::GetQuotaThreshold, fs.idiskquotauser_getquotathreshold
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetQuotaThreshold
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetQuotaThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetQuotaThreshold
+ - dskquota/IDiskQuotaUser::GetQuotaThreshold
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetQuotaThreshold
 ---
 
 # IDiskQuotaUser::GetQuotaThreshold
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user's warning threshold value on the volume. The threshold is an arbitrary value set by the volume's quota administrator. You can use it to identify users who are approaching their hard quota limit.
 
-
 ## -parameters
-
-
-
 
 ### -param pllThreshold [out]
 
 The warning threshold value.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -151,26 +145,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

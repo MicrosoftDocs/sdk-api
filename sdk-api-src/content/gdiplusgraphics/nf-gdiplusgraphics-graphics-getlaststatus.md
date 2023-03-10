@@ -2,15 +2,12 @@
 UID: NF:gdiplusgraphics.Graphics.GetLastStatus
 title: Graphics::GetLastStatus (gdiplusgraphics.h)
 description: The Graphics::GetLastStatus method returns a value that indicates the nature of this Graphics object's most recent method failure.
+helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Graphics class","Graphics class [GDI+]","GetLastStatus method","Graphics.GetLastStatus","Graphics::GetLastStatus","_gdiplus_CLASS_Graphics_GetLastStatus_","gdiplus._gdiplus_CLASS_Graphics_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getlaststatus_22.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Graphics class, Graphics class [GDI+],GetLastStatus method, Graphics.GetLastStatus, Graphics::GetLastStatus, _gdiplus_CLASS_Graphics_GetLastStatus_, gdiplus._gdiplus_CLASS_Graphics_GetLastStatus_
-f1_keywords:
-- gdiplusgraphics/Graphics.GetLastStatus
-dev_langs:
-- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Graphics.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Graphics::GetLastStatus
+ - gdiplusgraphics/Graphics::GetLastStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Graphics.GetLastStatus
 ---
 
 # Graphics::GetLastStatus
@@ -49,61 +51,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Graphics::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object's most recent method failure.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object's most recent method failure.
 
 
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-</strong>
-
-The <b>Graphics::GetLastStatus</b> method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+The <b>Graphics::GetLastStatus</b> method returns an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object have failed since the previous call to <b>GetLastStatus</b>, then <b>Graphics::GetLastStatus</b> returns Ok.
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object have failed since the previous call to <b>GetLastStatus</b>, then <b>Graphics::GetLastStatus</b> returns Ok.
 
 If at least one method invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object has failed since the previous call to <b>GetLastStatus</b>, then <b>Graphics::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
-
-
-
+						<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object has failed since the previous call to <b>GetLastStatus</b>, then <b>Graphics::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 ## -remarks
 
-
-
 You can call <b>Graphics::GetLastStatus</b> immediately after constructing a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object to determine whether the constructor succeeded.
+				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>Graphics::GetLastStatus</b> method of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
+				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
 				<b>Graphics</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.PulseEndpoint
 title: IAudioInputEndpointRT::PulseEndpoint (audioengineendpoint.h)
-description: Is reserved.
+description: Is reserved. (IAudioInputEndpointRT.PulseEndpoint)
+helpviewer_keywords: ["IAudioInputEndpointRT interface [Remote Desktop Services]","PulseEndpoint method","IAudioInputEndpointRT.PulseEndpoint","IAudioInputEndpointRT::PulseEndpoint","PulseEndpoint","PulseEndpoint method [Remote Desktop Services]","PulseEndpoint method [Remote Desktop Services]","IAudioInputEndpointRT interface","audioengineendpoint/IAudioInputEndpointRT::PulseEndpoint","termserv.iaudioinputendpointrt_pulseendpoint"]
 old-location: termserv\iaudioinputendpointrt_pulseendpoint.htm
 tech.root: TermServ
 ms.assetid: 2b23eac3-48e2-4d58-be6c-878967e7fa5c
 ms.date: 12/05/2018
 ms.keywords: IAudioInputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioInputEndpointRT.PulseEndpoint, IAudioInputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioInputEndpointRT interface, audioengineendpoint/IAudioInputEndpointRT::PulseEndpoint, termserv.iaudioinputendpointrt_pulseendpoint
-f1_keywords:
-- audioengineendpoint/IAudioInputEndpointRT.PulseEndpoint
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Audioengineendpoint.h
-api_name:
-- IAudioInputEndpointRT.PulseEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioInputEndpointRT::PulseEndpoint
+ - audioengineendpoint/IAudioInputEndpointRT::PulseEndpoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Audioengineendpoint.h
+api_name:
+ - IAudioInputEndpointRT.PulseEndpoint
 ---
 
 # IAudioInputEndpointRT::PulseEndpoint
@@ -48,45 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PulseEndpoint</b> method  is reserved.
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
 
 
 
 ## -remarks
-
-
 
 This method can be called from a real-time processing thread. The
     implementation of this method must not block, access paged memory, or call any blocking system routines.
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt">IAudioInputEndpointRT</a>

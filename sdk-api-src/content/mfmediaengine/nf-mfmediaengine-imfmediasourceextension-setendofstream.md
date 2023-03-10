@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaSourceExtension.SetEndOfStream
 title: IMFMediaSourceExtension::SetEndOfStream (mfmediaengine.h)
 description: Indicate that the end of the media stream has been reached.
+helpviewer_keywords: ["IMFMediaSourceExtension interface [Media Foundation]","SetEndOfStream method","IMFMediaSourceExtension.SetEndOfStream","IMFMediaSourceExtension::SetEndOfStream","SetEndOfStream","SetEndOfStream method [Media Foundation]","SetEndOfStream method [Media Foundation]","IMFMediaSourceExtension interface","mf.imfmediasourceextension_setendofstream","mfmediaengine/IMFMediaSourceExtension::SetEndOfStream"]
 old-location: mf\imfmediasourceextension_setendofstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetEndOfStream method, IMFMediaSourceExtension.SetEndOfStream, IMFMediaSourceExtension::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Media Foundation], SetEndOfStream method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setendofstream, mfmediaengine/IMFMediaSourceExtension::SetEndOfStream
-f1_keywords:
-- mfmediaengine/IMFMediaSourceExtension.SetEndOfStream
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaSourceExtension.SetEndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceExtension::SetEndOfStream
+ - mfmediaengine/IMFMediaSourceExtension::SetEndOfStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaSourceExtension.SetEndOfStream
 ---
 
 # IMFMediaSourceExtension::SetEndOfStream
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicate that the end of the media stream has been reached. 
-
+Indicate that the end of the media stream has been reached.
 
 ## -parameters
-
-
-
 
 ### -param error [in]
 
 Used to pass error information.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mse-error">MF_MSE_ERROR</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/mf-mse-error">MF_MSE_ERROR</a>

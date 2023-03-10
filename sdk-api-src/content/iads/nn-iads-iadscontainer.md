@@ -2,15 +2,12 @@
 UID: NN:iads.IADsContainer
 title: IADsContainer (iads.h)
 description: The IADsContainer interface enables an ADSI container object to create, delete, and manage contained ADSI objects. Container objects represent hierarchical directory trees, such as in a file system, and to organize the directory hierarchy.
+helpviewer_keywords: ["IADsContainer","IADsContainer interface [ADSI]","IADsContainer interface [ADSI]","described","_ds_iadscontainer","adsi.iadscontainer","iads/IADsContainer"]
 old-location: adsi\iadscontainer.htm
 tech.root: adsi
 ms.assetid: 6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2
 ms.date: 12/05/2018
 ms.keywords: IADsContainer, IADsContainer interface [ADSI], IADsContainer interface [ADSI],described, _ds_iadscontainer, adsi.iadscontainer, iads/IADsContainer
-f1_keywords:
-- iads/IADsContainer
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsContainer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsContainer
+ - iads/IADsContainer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsContainer
 ---
 
 # IADsContainer interface
 
 
 ## -description
-
 
 The <b>IADsContainer</b> interface enables an ADSI container 
     object to create, delete, and manage contained ADSI objects. Container objects represent hierarchical directory 
@@ -60,141 +61,13 @@ You can use the <b>IADsContainer</b> interface to either
     Otherwise, it is a container. You can continue this process for the newly found container objects. To create, 
     copy, or delete an object, send the request to the container object to perform the task.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IADsContainer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere">CopyHere</a>
-</td>
-<td align="left" width="63%">
-Copies an object to the container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create">Create</a>
-</td>
-<td align="left" width="63%">
-Creates an object in the container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete">Delete</a>
-</td>
-<td align="left" width="63%">
-Deletes an object in the container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-get__newenum">get__NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an enumerator object for the container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-getobject">GetObject</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface for a directory object in the container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-movehere">MoveHere</a>
-</td>
-<td align="left" width="63%">
-Moves an object to the container.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscontainer-property-methods">Count</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Contains the number of directory objects in the container.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscontainer-property-methods">Filter</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Contains the filter on the schema classes to use for an enumeration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscontainer-property-methods">Hints</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Contains the properties to retrieve for each object that is enumerated by the container.
-
-</td>
-</tr>
-</table> 
-
+The <b>IADsContainer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
 
 ## -remarks
 
-
-
-To determine if an object is a container, use the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">IADsClass.Container</a> property of the object.
+To determine if an object is a container, use the <a href="/windows/desktop/ADSI/iadsclass-property-methods">IADsClass.Container</a> property of the object.
 
 When you bind to a container object using its GUID (or SID), you can only perform specific operations on the container object. These operations include examination of the object attributes and enumeration of the object's immediate children. These operations are shown in the following code example.
 
@@ -235,7 +108,7 @@ Set obj = conDN.GetObject("user", "CN=Jeff Smith")
 ```
 
 
-For more information about object GUID representation, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">IADs.GUID</a>.
+For more information about object GUID representation, see <a href="/windows/desktop/ADSI/iads-property-methods">IADs.GUID</a>.
 
 
 #### Examples
@@ -296,33 +169,22 @@ pCls->Release();
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/creating-and-deleting-objects">Creating and Deleting Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/creating-and-deleting-objects">Creating and Deleting Objects</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">IADs::get_GUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">IADs::get_GUID</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">IADsClass::get_Container</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">IADsClass::get_Container</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnamespaces">IADsNamespaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnamespaces">IADsNamespaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

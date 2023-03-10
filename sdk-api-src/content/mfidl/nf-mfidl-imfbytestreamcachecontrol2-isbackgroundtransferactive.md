@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFByteStreamCacheControl2.IsBackgroundTransferActive
 title: IMFByteStreamCacheControl2::IsBackgroundTransferActive (mfidl.h)
 description: Queries whether background transfer is active.
+helpviewer_keywords: ["IMFByteStreamCacheControl2 interface [Media Foundation]","IsBackgroundTransferActive method","IMFByteStreamCacheControl2.IsBackgroundTransferActive","IMFByteStreamCacheControl2::IsBackgroundTransferActive","IsBackgroundTransferActive","IsBackgroundTransferActive method [Media Foundation]","IsBackgroundTransferActive method [Media Foundation]","IMFByteStreamCacheControl2 interface","mf.imfbytestreamcachecontrol2_isbackgroundtransferactive","mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive"]
 old-location: mf\imfbytestreamcachecontrol2_isbackgroundtransferactive.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: FC08E5E8-A7E0-461C-B70C-B1273FCDD1A0
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],IsBackgroundTransferActive method, IMFByteStreamCacheControl2.IsBackgroundTransferActive, IMFByteStreamCacheControl2::IsBackgroundTransferActive, IsBackgroundTransferActive, IsBackgroundTransferActive method [Media Foundation], IsBackgroundTransferActive method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_isbackgroundtransferactive, mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive
-f1_keywords:
-- mfidl/IMFByteStreamCacheControl2.IsBackgroundTransferActive
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFByteStreamCacheControl2.IsBackgroundTransferActive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamCacheControl2::IsBackgroundTransferActive
+ - mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFByteStreamCacheControl2.IsBackgroundTransferActive
 ---
 
 # IMFByteStreamCacheControl2::IsBackgroundTransferActive
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether background transfer is active.
 
-
 ## -parameters
-
-
-
 
 ### -param pfActive [out]
 
 Receives the value <b>TRUE</b> if background transfer is currently active, or <b>FALSE</b> otherwise.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Background transfer might stop because the cache limit was reached (see <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-setcachelimit">IMFByteStreamCacheControl2::SetCacheLimit</a>) or because the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol-stopbackgroundtransfer">IMFByteStreamCacheControl::StopBackgroundTransfer</a> method was called.
-
-
-
+Background transfer might stop because the cache limit was reached (see <a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-setcachelimit">IMFByteStreamCacheControl2::SetCacheLimit</a>) or because the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol-stopbackgroundtransfer">IMFByteStreamCacheControl::StopBackgroundTransfer</a> method was called.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol2">IMFByteStreamCacheControl2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol2">IMFByteStreamCacheControl2</a>

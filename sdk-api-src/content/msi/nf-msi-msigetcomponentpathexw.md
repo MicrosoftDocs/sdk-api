@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetComponentPathExW
 title: MsiGetComponentPathExW function (msi.h)
-description: Returns the full path to an installed component.
+description: Returns the full path to an installed component. (Unicode)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_USERS", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiGetComponentPathEx", "MsiGetComponentPathEx function [Setup API]", "MsiGetComponentPathExW", "NULL", "User SID", "msi/MsiGetComponentPathEx", "msi/MsiGetComponentPathExW", "s-1-1-0", "setup.msigetcomponentpathex"]
 old-location: setup\msigetcomponentpathex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 7501df09-170d-4f23-9404-d86e861ac7da
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
-f1_keywords:
-- msi/MsiGetComponentPathEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetComponentPathEx
-- MsiGetComponentPathExA
-- MsiGetComponentPathExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetComponentPathExW
+ - msi/MsiGetComponentPathExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetComponentPathEx
+ - MsiGetComponentPathExA
+ - MsiGetComponentPathExW
 ---
 
 # MsiGetComponentPathExW function
@@ -50,28 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetComponentPathEx</b> function returns the full path to an installed component. If the key path for the component is a registry key then the function returns the registry key.
 
-This function extends the existing <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a> function to enable searches for components across user accounts and installation contexts.
-
+This function extends the existing <a href="/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a> function to enable searches for components across user accounts and installation contexts.
 
 ## -parameters
-
-
-
 
 ### -param szProductCode [in]
 
 A null-terminated string value that specifies an application's product code GUID. The function gets  the path of installed components used by this application.
 
-
 ### -param szComponentCode [in]
 
-A null-terminated string value that specifies a component code GUID. The function gets the path of an installed component having this component code.   
-
-
+A null-terminated string value that specifies a component code GUID. The function gets the path of an installed component having this component code.
 
 ### -param szUserSid [in, optional]
 
@@ -162,18 +156,16 @@ Include applications installed in the per-machine installation context. When <i>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpOutPathBuffer [out, optional]
 
-A string value that receives the path to the component. This parameter can be <b>NULL</b>. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
+A string value that receives the path to the component. This parameter can be <b>NULL</b>. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
 
 
 
 
 <div class="alert"><b>Note</b>  On 64-bit operating systems, a value of 20 is added to the numerical registry roots in this table to distinguish them from registry key paths on 32-bit operating systems.
-For example, a registry key path of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "21:\SOFTWARE\Microsoft\", if the component path is a registry key on a 64-bit operating system.</div>
+For example, a registry key path of <b>HKEY_CURRENT_USER</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b> is returned as "21:\SOFTWARE\Microsoft\", if the component path is a registry key on a 64-bit operating system.</div>
 <div> </div>
 
 
@@ -223,17 +215,12 @@ For example, a registry key path of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcchOutPathBuffer [in, out, optional]
 
 Pointer to a location that receives the size of the buffer, in <b>TCHAR</b>, pointed to by the <i>szPathBuf</i> parameter.  The value in this location should be set to the count of  <b>TCHAR</b> in the string including the terminating null character. If the size of the  buffer  is too small, this parameter receives the length of the string value without including the terminating null character in the count.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiGetComponentPathEx</b> function returns the following values.
@@ -344,14 +331,8 @@ The component is corrupt or partially missing in some way and requires repair.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MsiGetComponentPathEx</b> function might return <b>INSTALLSTATE_ABSENT</b> or <b>INSTALL_STATE_UNKNOWN</b>, for the following reasons:
@@ -361,17 +342,17 @@ The
 
 
 The application did not properly ensure that the feature was installed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
 
 </li>
 <li>INSTALLSTATE_UNKNOWN 
 
 
 The feature is not published. The application should have determined this earlier by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
+<a href="/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
+<a href="/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
 <b>MsiUseFeature</b> was not called, or its return value was not properly checked.
 
 </li>
@@ -379,13 +360,10 @@ The feature is not published. The application should have determined this earlie
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiGetComponentPathEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>

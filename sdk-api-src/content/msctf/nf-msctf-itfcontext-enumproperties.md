@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContext.EnumProperties
 title: ITfContext::EnumProperties (msctf.h)
 description: ITfContext::EnumProperties method
+helpviewer_keywords: ["EnumProperties","EnumProperties method [Text Services Framework]","EnumProperties method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","EnumProperties method","ITfContext.EnumProperties","ITfContext::EnumProperties","_tsf_itfcontext_enumproperties_ref","msctf/ITfContext::EnumProperties","tsf.itfcontext_enumproperties"]
 old-location: tsf\itfcontext_enumproperties.htm
 tech.root: TSF
 ms.assetid: b57c9fdc-320b-4d97-8af4-c75756326437
 ms.date: 12/05/2018
 ms.keywords: EnumProperties, EnumProperties method [Text Services Framework], EnumProperties method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],EnumProperties method, ITfContext.EnumProperties, ITfContext::EnumProperties, _tsf_itfcontext_enumproperties_ref, msctf/ITfContext::EnumProperties, tsf.itfcontext_enumproperties
-f1_keywords:
-- msctf/ITfContext.EnumProperties
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.EnumProperties
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::EnumProperties
+ - msctf/ITfContext::EnumProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.EnumProperties
 ---
 
 # ITfContext::EnumProperties
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a document property enumerator.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a> interface pointer that receives the enumerator object.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a> interface pointer that receives the enumerator object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,23 +112,12 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>

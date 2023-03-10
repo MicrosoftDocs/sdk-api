@@ -1,16 +1,13 @@
 ---
 UID: NS:opmapi._OPM_GET_CODEC_INFO_PARAMETERS
 title: OPM_GET_CODEC_INFO_PARAMETERS (opmapi.h)
-description: Contains information for the OPM_GET_CODEC_INFO command.
+description: OPM_GET_CODEC_INFO_PARAMETERS (opmapi.h) contains information for the OPM_GET_CODEC_INFO command.
+helpviewer_keywords: ["OPM_GET_CODEC_INFO_PARAMETERS","OPM_GET_CODEC_INFO_PARAMETERS structure [Media Foundation]","_OPM_GET_CODEC_INFO_PARAMETERS","ksopmapi/OPM_GET_CODEC_INFO_PARAMETERS","mf.opm_get_codec_info_parameters"]
 old-location: mf\opm_get_codec_info_parameters.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9fb130e5-fd87-4a11-9c9e-7a106a091b35
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: OPM_GET_CODEC_INFO_PARAMETERS, OPM_GET_CODEC_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_CODEC_INFO_PARAMETERS, ksopmapi/OPM_GET_CODEC_INFO_PARAMETERS, mf.opm_get_codec_info_parameters
-f1_keywords:
-- opmapi/OPM_GET_CODEC_INFO_PARAMETERS
-dev_langs:
-- c++
 req.header: opmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ksopmapi.h
-api_name:
-- OPM_GET_CODEC_INFO_PARAMETERS
 targetos: Windows
 req.typenames: OPM_GET_CODEC_INFO_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OPM_GET_CODEC_INFO_PARAMETERS
+ - opmapi/_OPM_GET_CODEC_INFO_PARAMETERS
+ - OPM_GET_CODEC_INFO_PARAMETERS
+ - opmapi/OPM_GET_CODEC_INFO_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ksopmapi.h
+api_name:
+ - OPM_GET_CODEC_INFO_PARAMETERS
 ---
 
 # OPM_GET_CODEC_INFO_PARAMETERS structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information for the <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a> command.
-
+Contains information for the <a href="/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a> command.
 
 ## -struct-fields
-
-
-
 
 ### -field cbVerifier
 
 The amount of valid data in the <b>Verifier</b> array, in bytes.
-
 
 ### -field Verifier
 
@@ -73,15 +71,8 @@ A byte array that contains one of the following:
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

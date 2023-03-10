@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFPresentationClock.Pause
 title: IMFPresentationClock::Pause (mfidl.h)
 description: Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's IMFPresentationClock::GetTime returns the time at which the clock was paused.
+helpviewer_keywords: ["2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0","IMFPresentationClock interface [Media Foundation]","Pause method","IMFPresentationClock.Pause","IMFPresentationClock::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFPresentationClock interface","mf.imfpresentationclock_pause","mfidl/IMFPresentationClock::Pause"]
 old-location: mf\imfpresentationclock_pause.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0
 ms.date: 12/05/2018
 ms.keywords: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0, IMFPresentationClock interface [Media Foundation],Pause method, IMFPresentationClock.Pause, IMFPresentationClock::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_pause, mfidl/IMFPresentationClock::Pause
-f1_keywords:
-- mfidl/IMFPresentationClock.Pause
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFPresentationClock.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPresentationClock::Pause
+ - mfidl/IMFPresentationClock::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFPresentationClock.Pause
 ---
 
 # IMFPresentationClock::Pause
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> returns the time at which the clock was paused.
-
-
-
-
-## -parameters
-
-
-
+Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> returns the time at which the clock was paused.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,33 +109,17 @@ The clock is stopped. This request is not valid when the clock is stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is valid when the clock is running. It is not valid when the clock is paused or stopped.
 
-The presentation clock initiates the state change by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause">IMFClockStateSink::OnClockPause</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockPause</b> methods. These calls are made asynchronously.
-
-
-
+The presentation clock initiates the state change by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause">IMFClockStateSink::OnClockPause</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockPause</b> methods. These calls are made asynchronously.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

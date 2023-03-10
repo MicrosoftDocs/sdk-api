@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate.get_Identity
 title: IUpdate::get_Identity (wuapi.h)
 description: Gets an interface that contains the unique identifier of the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","Identity property","IUpdate.Identity","IUpdate.get_Identity","IUpdate::Identity","IUpdate::get_Identity","Identity property [Windows Update Agent]","Identity property [Windows Update Agent]","IUpdate interface","get_Identity","wua.iupdate_identity","wuapi/IUpdate::Identity","wuapi/IUpdate::get_Identity"]
 old-location: wua\iupdate_identity.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: e34019e4-54f4-486d-b5e7-5e65f65d1941
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Identity property, IUpdate.Identity, IUpdate.get_Identity, IUpdate::Identity, IUpdate::get_Identity, Identity property [Windows Update Agent], Identity property [Windows Update Agent],IUpdate interface, get_Identity, wua.iupdate_identity, wuapi/IUpdate::Identity, wuapi/IUpdate::get_Identity
-f1_keywords:
-- wuapi/IUpdate.Identity
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.Identity
-- IUpdate.get_Identity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_Identity
+ - wuapi/IUpdate::get_Identity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.Identity
+ - IUpdate.get_Identity
 ---
 
 # IUpdate::get_Identity
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an interface that contains the unique identifier of the update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

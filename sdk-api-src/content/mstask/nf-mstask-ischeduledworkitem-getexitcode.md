@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.GetExitCode
 title: IScheduledWorkItem::GetExitCode (mstask.h)
 description: Retrieves the last exit code returned by the executable associated with the work item on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
+helpviewer_keywords: ["GetExitCode","GetExitCode method [Task Scheduler]","GetExitCode method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetExitCode method","IScheduledWorkItem.GetExitCode","IScheduledWorkItem::GetExitCode","_msb_ischeduledworkitem_getexitcode","mstask/IScheduledWorkItem::GetExitCode","taskschd.ischeduledworkitem_getexitcode"]
 old-location: taskschd\ischeduledworkitem_getexitcode.htm
 tech.root: taskschd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64
 ms.date: 12/05/2018
 ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
-f1_keywords:
-- mstask/IScheduledWorkItem.GetExitCode
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.GetExitCode
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::GetExitCode
+ - mstask/IScheduledWorkItem::GetExitCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.GetExitCode
 ---
 
 # IScheduledWorkItem::GetExitCode
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-Retrieves the last exit code returned by the executable associated with the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a> on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
-
+Retrieves the last exit code returned by the executable associated with the <a href="/windows/desktop/TaskSchd/w">work item</a> on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
 
 ## -parameters
-
-
-
 
 ### -param pdwExitCode [out]
 
 A pointer to a <b>DWORD</b> value that is set to the last exit code for the work item. This is the exit code that the work item returned when it last stopped running. If the work item has never been started, 0 is returned.
 
-
 ## -returns
-
-
 
 The 
 <b>GetExitCode</b> method returns the error from the last attempt to start the work item. Possible values include the following.
@@ -121,14 +115,8 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can  return the following two pieces of information:
 
@@ -137,24 +125,15 @@ This method can  return the following two pieces of information:
 <li>The error code that the Task Scheduler received when it tried to start the job is returned in the 
 <b>GetExitCode</b> method call itself.</li>
 </ul>
-To obtain an updated error code, always call  <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a> first to obtain a new <a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a> interface, which can then be used to obtain the updated error codes.
+To obtain an updated error code, always call  <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-activate">ITaskScheduler::Activate</a> first to obtain a new <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a> interface, which can then be used to obtain the updated error codes.
 
 
 #### Examples
 
-For an example of how to retrieve the creator of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-exit-code">C/C++ Code Example: Retrieving Task Exit Code</a>.
+For an example of how to retrieve the creator of a task, see <a href="/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-exit-code">C/C++ Code Example: Retrieving Task Exit Code</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>

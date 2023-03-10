@@ -2,15 +2,12 @@
 UID: NF:windowsdefender.WDEnable
 title: WDEnable function (windowsdefender.h)
 description: Changes Windows Defender status to on or off.
+helpviewer_keywords: ["WDEnable","WDEnable function [Legacy Windows Environment Features]","lwef.defender_wdenable","shell.defender_wdenable","shell_defender_WDEnable","windowsdefender/WDEnable"]
 old-location: lwef\defender_wdenable.htm
 tech.root: lwef
 ms.assetid: a12d3b2a-6873-4ef4-90d6-08dbd5feb959
 ms.date: 12/05/2018
 ms.keywords: WDEnable, WDEnable function [Legacy Windows Environment Features], lwef.defender_wdenable, shell.defender_wdenable, shell_defender_WDEnable, windowsdefender/WDEnable
-f1_keywords:
-- windowsdefender/WDEnable
-dev_langs:
-- c++
 req.header: windowsdefender.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: MpClient.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- MpClient.dll
-api_name:
-- WDEnable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WDEnable
+ - windowsdefender/WDEnable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - MpClient.dll
+api_name:
+ - WDEnable
 ---
 
 # WDEnable function
 
 
 ## -description
-
 
 Changes Windows Defender status to on or off. 
 
@@ -59,23 +60,15 @@ Changes Windows Defender status to on or off.
 </div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param fEnable [in]
 
 Type: <b>BOOL</b>
 
-Windows Defender status that the calling application wants to set. <b>TRUE</b> enables Windows Defender. <b>FALSE</b> disables Windows Defender. 
-
+Windows Defender status that the calling application wants to set. <b>TRUE</b> enables Windows Defender. <b>FALSE</b> disables Windows Defender.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -133,27 +126,11 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application calling this function must run with administrator permissions on the local computer.  Windows Defender also validates (1) the proper signing of the calling process and all loaded modules and (2) that the IMAGE_DLLCHARACTERISTICS_FORCE_INTEGRITY flag is set on the calling process and all loaded modules before allowing the calling application to change the status. If the calling process image (or any loaded modules) is not signed or is flagged as a threat by the Windows Defender signature, then the call fails with the appropriate error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsdefender/nf-windowsdefender-wdstatus">WDStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windowsdefender/nf-windowsdefender-wdstatus">WDStatus</a>

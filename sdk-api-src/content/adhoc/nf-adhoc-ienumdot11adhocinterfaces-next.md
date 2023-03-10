@@ -1,16 +1,13 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Next
 title: IEnumDot11AdHocInterfaces::Next (adhoc.h)
-description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
+description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved. (IEnumDot11AdHocInterfaces.Next)
+helpviewer_keywords: ["IEnumDot11AdHocInterfaces interface [NativeWIFI]","Next method","IEnumDot11AdHocInterfaces.Next","IEnumDot11AdHocInterfaces::Next","Next","Next method [NativeWIFI]","Next method [NativeWIFI]","IEnumDot11AdHocInterfaces interface","adhoc/IEnumDot11AdHocInterfaces::Next","nwifi.ienumdot11adhocinterfaces_next"]
 old-location: nwifi\ienumdot11adhocinterfaces_next.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 2c20e215-a4ef-456e-ba19-0d9268279bf3
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Next method, IEnumDot11AdHocInterfaces.Next, IEnumDot11AdHocInterfaces::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Next, nwifi.ienumdot11adhocinterfaces_next
-f1_keywords:
-- adhoc/IEnumDot11AdHocInterfaces.Next
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocInterfaces.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocInterfaces::Next
+ - adhoc/IEnumDot11AdHocInterfaces::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocInterfaces.Next
 ---
 
 # IEnumDot11AdHocInterfaces::Next
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
-
-
 
 ## -parameters
 
-
-
-
 ### -param cElt [in]
 
-The number of elements requested. 
-
-
+The number of elements requested.
 
 ### -param rgElt [out]
 
-A pointer to a variable that, on successful return, points to an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a> interfaces. The array is of size <i>cElt</i>.
-
+A pointer to a variable that, on successful return, points to an array of pointers to <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a> interfaces. The array is of size <i>cElt</i>.
 
 ### -param pcEltFetched [out]
 
-A pointer to a variable that specifies the number of elements returned in <i>rgElt</i>. 
-
+A pointer to a variable that specifies the number of elements returned in <i>rgElt</i>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -152,18 +142,7 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>

@@ -2,15 +2,12 @@
 UID: NF:swdevice.SwDeviceGetLifetime
 title: SwDeviceGetLifetime function (swdevice.h)
 description: Gets the lifetime of a software device.
+helpviewer_keywords: ["SWDeviceLifetimeHandle","SWDeviceLifetimeParentPresent","SwDeviceGetLifetime","SwDeviceGetLifetime function","swdevice.swdevicegetlifetime","swdevice/SwDeviceGetLifetime"]
 old-location: swdevice\swdevicegetlifetime.htm
 tech.root: swdevice
 ms.assetid: 62DF53E6-30C5-41D1-867A-9A5D288AADC7
 ms.date: 12/05/2018
 ms.keywords: SWDeviceLifetimeHandle, SWDeviceLifetimeParentPresent, SwDeviceGetLifetime, SwDeviceGetLifetime function, swdevice.swdevicegetlifetime, swdevice/SwDeviceGetLifetime
-f1_keywords:
-- swdevice/SwDeviceGetLifetime
-dev_langs:
-- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cfgmgr32.dll
-- API-MS-Win-devices-swdevice-l1-1-1.dll
-api_name:
-- SwDeviceGetLifetime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SwDeviceGetLifetime
+ - swdevice/SwDeviceGetLifetime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cfgmgr32.dll
+ - API-MS-Win-devices-swdevice-l1-1-1.dll
+api_name:
+ - SwDeviceGetLifetime
 ---
 
 # SwDeviceGetLifetime function
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the lifetime of a software device. 
-
+Gets the lifetime of a software device.
 
 ## -parameters
 
-
-
-
 ### -param hSwDevice [in]
 
-The <b>HSWDEVICE</b> handle to the software device to retrieve. 
-
+The <b>HSWDEVICE</b> handle to the software device to retrieve.
 
 ### -param pLifetime [in]
 
@@ -93,14 +89,7 @@ Indicates that the lifetime of the software device is tied to the lifetime of it
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-S_OK is returned if <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime">SwDeviceSetLifetime</a> successfully retrieved the lifetime. 
-
-
-
+S_OK is returned if <a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime">SwDeviceSetLifetime</a> successfully retrieved the lifetime.

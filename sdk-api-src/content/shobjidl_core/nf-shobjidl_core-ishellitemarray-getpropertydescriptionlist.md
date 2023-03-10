@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellItemArray.GetPropertyDescriptionList
 title: IShellItemArray::GetPropertyDescriptionList (shobjidl_core.h)
 description: Gets a property description list for the items in the shell item array.
+helpviewer_keywords: ["GetPropertyDescriptionList","GetPropertyDescriptionList method [Windows Shell]","GetPropertyDescriptionList method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetPropertyDescriptionList method","IShellItemArray.GetPropertyDescriptionList","IShellItemArray::GetPropertyDescriptionList","_shell_IShellItemArray_GetPropertyDescriptionList","shell.IShellItemArray_GetPropertyDescriptionList","shobjidl_core/IShellItemArray::GetPropertyDescriptionList"]
 old-location: shell\IShellItemArray_GetPropertyDescriptionList.htm
 tech.root: shell
 ms.assetid: abedf6a4-dfad-4add-8464-571542b068cb
 ms.date: 12/05/2018
 ms.keywords: GetPropertyDescriptionList, GetPropertyDescriptionList method [Windows Shell], GetPropertyDescriptionList method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetPropertyDescriptionList method, IShellItemArray.GetPropertyDescriptionList, IShellItemArray::GetPropertyDescriptionList, _shell_IShellItemArray_GetPropertyDescriptionList, shell.IShellItemArray_GetPropertyDescriptionList, shobjidl_core/IShellItemArray::GetPropertyDescriptionList
-f1_keywords:
-- shobjidl_core/IShellItemArray.GetPropertyDescriptionList
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellItemArray.GetPropertyDescriptionList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellItemArray::GetPropertyDescriptionList
+ - shobjidl_core/IShellItemArray::GetPropertyDescriptionList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellItemArray.GetPropertyDescriptionList
 ---
 
 # IShellItemArray::GetPropertyDescriptionList
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a property description list for the items in the shell item array.
 
-
 ## -parameters
-
-
-
 
 ### -param keyType [in]
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure specifying which property list to retrieve.
-
+A reference to the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure specifying which property list to retrieve.
 
 ### -param riid [in]
 
@@ -70,31 +66,21 @@ Type: <b>REFIID</b>
 
 The IID of the object type to retrieve.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface requested in riid.  This will typically be <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>.
-
-
+When this method returns, contains the interface requested in riid.  This will typically be <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescriptionlist">IPropertyDescriptionList</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-This function is used to determine a list of properties that are applicable to a set of shell items.  The type of list is specified by a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.  Supported list types include but are not limited to:
+This function is used to determine a list of properties that are applicable to a set of shell items.  The type of list is specified by a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure.  Supported list types include but are not limited to:
 
 
 <ul>
@@ -114,20 +100,10 @@ This function is used to determine a list of properties that are applicable to a
 </ul>
 If the shell item array contains more than one item, then this method will obtain an intersection of the properties that would be returned for each item individually.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>
- 
-
- 
-
+<a href="/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>

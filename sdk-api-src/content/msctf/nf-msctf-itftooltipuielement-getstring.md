@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfToolTipUIElement.GetString
 title: ITfToolTipUIElement::GetString (msctf.h)
 description: Returns the string of the tooltip.
+helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfToolTipUIElement interface","ITfToolTipUIElement interface [Text Services Framework]","GetString method","ITfToolTipUIElement.GetString","ITfToolTipUIElement::GetString","msctf/ITfToolTipUIElement::GetString","tsf.itftooltipuielement_getstring"]
 old-location: tsf\itftooltipuielement_getstring.htm
 tech.root: TSF
 ms.assetid: 2858a16a-7550-4e16-8872-ecfffa7d1b4e
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfToolTipUIElement interface, ITfToolTipUIElement interface [Text Services Framework],GetString method, ITfToolTipUIElement.GetString, ITfToolTipUIElement::GetString, msctf/ITfToolTipUIElement::GetString, tsf.itftooltipuielement_getstring
-f1_keywords:
-- msctf/ITfToolTipUIElement.GetString
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfToolTipUIElement.GetString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfToolTipUIElement::GetString
+ - msctf/ITfToolTipUIElement::GetString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfToolTipUIElement.GetString
 ---
 
 # ITfToolTipUIElement::GetString
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the string of the tooltip.
 
-
 ## -parameters
-
-
-
 
 ### -param pstr [out]
 
 [out] A pointer to receive BSTR. This is the string for the tooltip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

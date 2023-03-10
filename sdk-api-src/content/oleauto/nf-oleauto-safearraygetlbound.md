@@ -2,15 +2,12 @@
 UID: NF:oleauto.SafeArrayGetLBound
 title: SafeArrayGetLBound function (oleauto.h)
 description: Gets the lower bound for any dimension of the specified safe array.
+helpviewer_keywords: ["SafeArrayGetLBound","SafeArrayGetLBound function [Automation]","_oa96_SafeArrayGetLBound","automat.safearraygetlbound","oleauto/SafeArrayGetLBound"]
 old-location: automat\safearraygetlbound.htm
 tech.root: automat
 ms.assetid: f3134cc9-759b-4908-ada0-d025a525e795
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetLBound, SafeArrayGetLBound function [Automation], _oa96_SafeArrayGetLBound, automat.safearraygetlbound, oleauto/SafeArrayGetLBound
-f1_keywords:
-- oleauto/SafeArrayGetLBound
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- SafeArrayGetLBound
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SafeArrayGetLBound
+ - oleauto/SafeArrayGetLBound
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - SafeArrayGetLBound
 ---
 
 # SafeArrayGetLBound function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the lower bound for any dimension of the specified safe array.
-
 
 ## -parameters
 
-
-
-
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
-
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param nDim [in]
 
 The array dimension for which to get the lower bound.
 
-
 ### -param plLbound [out]
 
 The lower bound.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -117,7 +109,3 @@ The specified index is out of bounds.
 </td>
 </tr>
 </table>
- 
-
-
-

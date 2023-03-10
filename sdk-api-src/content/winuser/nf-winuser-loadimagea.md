@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.LoadImageA
 title: LoadImageA function (winuser.h)
-description: Loads an icon, cursor, animated cursor, or bitmap.
+description: Loads an icon, cursor, animated cursor, or bitmap. (ANSI)
+helpviewer_keywords: ["IMAGE_BITMAP", "IMAGE_CURSOR", "IMAGE_ICON", "LR_CREATEDIBSECTION", "LR_DEFAULTCOLOR", "LR_DEFAULTSIZE", "LR_LOADFROMFILE", "LR_LOADMAP3DCOLORS", "LR_LOADTRANSPARENT", "LR_MONOCHROME", "LR_SHARED", "LR_VGACOLOR", "LoadImageA", "winuser/LoadImageA"]
 old-location: menurc\loadimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
 ms.date: 12/05/2018
 ms.keywords: IMAGE_BITMAP, IMAGE_CURSOR, IMAGE_ICON, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, LR_VGACOLOR, LoadImage, LoadImage function [Menus and Other Resources], LoadImageA, LoadImageW, _win32_LoadImage, _win32_loadimage_cpp, menurc.loadimage, winui._win32_loadimage, winuser/LoadImage, winuser/LoadImageA, winuser/LoadImageW
-f1_keywords:
-- winuser/LoadImage
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
-- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
-- api-ms-win-ntuser-ie-gui-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
-api_name:
-- LoadImage
-- LoadImageA
-- LoadImageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadImageA
+ - winuser/LoadImageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+ - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+ - api-ms-win-ntuser-ie-gui-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+api_name:
+ - LoadImage
+ - LoadImageA
+ - LoadImageW
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ---
 
 # LoadImageA function
@@ -57,34 +60,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads an icon, cursor, animated cursor, or bitmap.
 
-
 ## -parameters
-
-
-
 
 ### -param hInst [in, optional]
 
 Type: <b>HINSTANCE</b>
 
-A handle to the module of either a DLL or executable (.exe) that contains the image to be loaded. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>. Note that as of  32-bit Windows, an instance handle (<b>HINSTANCE</b>), such as the application instance handle exposed by system function call of <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a>, and a module handle (<b>HMODULE</b>) are the same thing.
+A handle to the module of either a DLL or executable (.exe) that contains the image to be loaded. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>. Note that as of  32-bit Windows, an instance handle (<b>HINSTANCE</b>), such as the application instance handle exposed by system function call of <a href="/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a>, and a module handle (<b>HMODULE</b>) are the same thing.
 
 
 To load an OEM image, set this parameter to <b>NULL</b>.
 
 To load a stand-alone resource (icon, cursor, or bitmap file)—for example, c:\myimage.bmp—set this parameter to <b>NULL</b>.
 
-
 ### -param name [in]
 
 Type: <b>LPCTSTR</b>
 
-The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
+The image to be loaded. If the <i>hinst</i> parameter is non-<b>NULL</b> and the <i>fuLoad</i> parameter omits <b>LR_LOADFROMFILE</b>, <i>lpszName</i> specifies the image resource in the <i>hinst</i> module. If the image resource is to be loaded by name from the module, the <i>lpszName</i> parameter is a pointer to a null-terminated string that contains the name of the image resource. If the image resource is to be loaded by ordinal from the module, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to convert the image ordinal into a form that can be passed to the <b>LoadImage</b> function.
 
-					For more information, see the Remarks section below.
+For more information, see the Remarks section below.
 
 If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omits the <b>LR_LOADFROMFILE</b> value, the <i>lpszName</i> specifies the OEM image to load. The OEM image identifiers are defined in Winuser.h and have the following prefixes.
 
@@ -108,11 +105,9 @@ If the <i>hinst</i> parameter is <b>NULL</b> and the <i>fuLoad</i> parameter omi
 </table>
  
 
-To pass these constants to the <b>LoadImage</b> function, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
+To pass these constants to the <b>LoadImage</b> function, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. For example, to load the <b>OCR_NORMAL</b> cursor, pass <code>MAKEINTRESOURCE(OCR_NORMAL)</code> as the <i>lpszName</i> parameter, <b>NULL</b> as the <i>hinst</i> parameter, and <b>LR_SHARED</b> as one of the flags to the <i>fuLoad</i> parameter.
 
 If the <i>fuLoad</i> parameter includes the <b>LR_LOADFROMFILE</b> value, <i>lpszName</i> is the name of the file that contains the  stand-alone resource (icon, cursor, or bitmap file). Therefore, set <i>hinst</i> to <b>NULL</b>.
-
-
 
 ### -param type [in]
 
@@ -159,8 +154,6 @@ Loads an icon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cx [in]
 
@@ -168,13 +161,11 @@ Type: <b>int</b>
 
 The width, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CXICON</b> or <b>SM_CXCURSOR</b> system metric value to set the width. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource width.
 
-
 ### -param cy [in]
 
 Type: <b>int</b>
 
 The height, in pixels, of the icon or cursor. If this parameter is zero and the <i>fuLoad</i> parameter is <b>LR_DEFAULTSIZE</b>, the function uses the <b>SM_CYICON</b> or <b>SM_CYCURSOR</b> system metric value to set the height. If this parameter is zero and <b>LR_DEFAULTSIZE</b> is not used, the function uses the actual resource height.
-
 
 ### -param fuLoad [in]
 
@@ -308,31 +299,18 @@ Uses true VGA colors.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HANDLE</b>
 
 If the function succeeds, the return value is the handle of the newly loaded image.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-
-
-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the 
-
-integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+If <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a>(<i>lpszName</i>) is <b>TRUE</b>, then <i>lpszName</i> specifies the integer identifier of the given resource. Otherwise, it is a pointer to a null-terminated string. If the first character of the string is a pound sign (#), then the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
 
 When you are finished using a bitmap, cursor, or icon you loaded without specifying the <b>LR_SHARED</b> flag, you can release its associated memory by calling one of the functions in the following table.
 
@@ -347,19 +325,19 @@ When you are finished using a bitmap, cursor, or icon you loaded without specify
 <tr>
 <td>Bitmap</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
 <td>Cursor</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>Icon</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 </td>
 </tr>
 </table>
@@ -372,38 +350,39 @@ The system automatically deletes these resources when the process that created t
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-window-classes">Using Window Classes</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-window-classes">Using Window Classes</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines LoadImage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadbitmapa">LoadBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
 
 
@@ -415,8 +394,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/resources">Resources</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMIndexer.Cancel
 title: IWMIndexer::Cancel (wmsdkidl.h)
 description: The Cancel method cancels the current indexing operation.
+helpviewer_keywords: ["Cancel","Cancel method [windows Media Format]","Cancel method [windows Media Format]","IWMIndexer interface","IWMIndexer interface [windows Media Format]","Cancel method","IWMIndexer.Cancel","IWMIndexer::Cancel","IWMIndexerCancel","wmformat.iwmindexer_cancel","wmsdkidl/IWMIndexer::Cancel"]
 old-location: wmformat\iwmindexer_cancel.htm
 tech.root: wmformat
 ms.assetid: 8f6061bc-fb11-484a-b5b2-f56827e0fea9
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [windows Media Format], Cancel method [windows Media Format],IWMIndexer interface, IWMIndexer interface [windows Media Format],Cancel method, IWMIndexer.Cancel, IWMIndexer::Cancel, IWMIndexerCancel, wmformat.iwmindexer_cancel, wmsdkidl/IWMIndexer::Cancel
-f1_keywords:
-- wmsdkidl/IWMIndexer.Cancel
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMIndexer.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMIndexer::Cancel
+ - wmsdkidl/IWMIndexer::Cancel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMIndexer.Cancel
 ---
 
 # IWMIndexer::Cancel
@@ -51,36 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Cancel</b> method cancels the current indexing operation.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method always returns S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>

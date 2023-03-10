@@ -1,16 +1,13 @@
 ---
 UID: NF:mfmp2dlna.IMFDLNASinkInit.Initialize
 title: IMFDLNASinkInit::Initialize (mfmp2dlna.h)
-description: Initializes the Digital Living Network Alliance (DLNA) media sink.
+description: Initializes the Digital Living Network Alliance (DLNA) media sink. (IMFDLNASinkInit.Initialize)
+helpviewer_keywords: ["IMFDLNASinkInit interface [Media Foundation]","Initialize method","IMFDLNASinkInit.Initialize","IMFDLNASinkInit::Initialize","Initialize","Initialize method [Media Foundation]","Initialize method [Media Foundation]","IMFDLNASinkInit interface","mf.imfdlnasinkinit_initialize","mfmp2dlna/IMFDLNASinkInit::Initialize"]
 old-location: mf\imfdlnasinkinit_initialize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 48c3842c-7d88-4232-b882-363d9310ffe8
 ms.date: 12/05/2018
 ms.keywords: IMFDLNASinkInit interface [Media Foundation],Initialize method, IMFDLNASinkInit.Initialize, IMFDLNASinkInit::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFDLNASinkInit interface, mf.imfdlnasinkinit_initialize, mfmp2dlna/IMFDLNASinkInit::Initialize
-f1_keywords:
-- mfmp2dlna/IMFDLNASinkInit.Initialize
-dev_langs:
-- c++
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmp2dlna.h
-api_name:
-- IMFDLNASinkInit.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDLNASinkInit::Initialize
+ - mfmp2dlna/IMFDLNASinkInit::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmp2dlna.h
+api_name:
+ - IMFDLNASinkInit.Initialize
 ---
 
 # IMFDLNASinkInit::Initialize
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the Digital Living Network Alliance (DLNA) media sink.
 
-
 ## -parameters
-
-
-
 
 ### -param pByteStream [in]
 
 Pointer to a byte stream. The DLNA media sink writes data to this byte stream. The byte stream must be writable.
 
-
 ### -param fPal [in]
 
 If <b>TRUE</b>, the DLNA media sink accepts PAL video formats. Otherwise, it accepts NTSC video  formats.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,23 +100,12 @@ The method was already called.
 </dl>
 </td>
 <td width="60%">
-The media sink's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">IMFMediaSink::Shutdown</a> method was called.
+The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutdown">IMFMediaSink::Shutdown</a> method was called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmp2dlna/nn-mfmp2dlna-imfdlnasinkinit">IMFDLNASinkInit</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmp2dlna/nn-mfmp2dlna-imfdlnasinkinit">IMFDLNASinkInit</a>

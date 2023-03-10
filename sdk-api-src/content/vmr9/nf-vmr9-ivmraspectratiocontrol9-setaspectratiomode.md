@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRAspectRatioControl9.SetAspectRatioMode
 title: IVMRAspectRatioControl9::SetAspectRatioMode (vmr9.h)
 description: The SetAspectRatioMode method specifies whether the VMR preserves the aspect ratio of the source video.
+helpviewer_keywords: ["IVMRAspectRatioControl9 interface [DirectShow]","SetAspectRatioMode method","IVMRAspectRatioControl9.SetAspectRatioMode","IVMRAspectRatioControl9::SetAspectRatioMode","IVMRAspectRatioControl9SetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [DirectShow]","SetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl9 interface","dshow.ivmraspectratiocontrol9_setaspectratiomode","vmr9/IVMRAspectRatioControl9::SetAspectRatioMode"]
 old-location: dshow\ivmraspectratiocontrol9_setaspectratiomode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: adc34013-a349-4cf6-b5c2-58b7b212d630
 ms.date: 12/05/2018
 ms.keywords: IVMRAspectRatioControl9 interface [DirectShow],SetAspectRatioMode method, IVMRAspectRatioControl9.SetAspectRatioMode, IVMRAspectRatioControl9::SetAspectRatioMode, IVMRAspectRatioControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, dshow.ivmraspectratiocontrol9_setaspectratiomode, vmr9/IVMRAspectRatioControl9::SetAspectRatioMode
-f1_keywords:
-- vmr9/IVMRAspectRatioControl9.SetAspectRatioMode
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRAspectRatioControl9.SetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRAspectRatioControl9::SetAspectRatioMode
+ - vmr9/IVMRAspectRatioControl9::SetAspectRatioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRAspectRatioControl9.SetAspectRatioMode
 ---
 
 # IVMRAspectRatioControl9::SetAspectRatioMode
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetAspectRatioMode</code> method specifies whether the VMR preserves the aspect ratio of the source video.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwARMode [in]
 
-Specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmr_aspect_ratio_mode">VMR_ASPECT_RATIO_MODE</a> enumeration type.
-
+Specifies a member of the <a href="/windows/desktop/api/strmif/ne-strmif-vmr_aspect_ratio_mode">VMR_ASPECT_RATIO_MODE</a> enumeration type.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,26 +91,15 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/vmr9/nn-vmr9-ivmraspectratiocontrol9">IVMRAspectRatioControl9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmraspectratiocontrol9">IVMRAspectRatioControl9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

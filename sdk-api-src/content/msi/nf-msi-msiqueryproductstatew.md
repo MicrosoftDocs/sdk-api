@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiQueryProductStateW
 title: MsiQueryProductStateW function (msi.h)
-description: The MsiQueryProductState function returns the installed state for a product.
+description: The MsiQueryProductState function returns the installed state for a product. (Unicode)
+helpviewer_keywords: ["MsiQueryProductState", "MsiQueryProductState function", "MsiQueryProductStateW", "_msi_msiqueryproductstate", "msi/MsiQueryProductState", "msi/MsiQueryProductStateW", "setup.msiqueryproductstate"]
 old-location: setup\msiqueryproductstate.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f26f3229-d1ce-4802-99b1-857c6501c828
 ms.date: 12/05/2018
 ms.keywords: MsiQueryProductState, MsiQueryProductState function, MsiQueryProductStateA, MsiQueryProductStateW, _msi_msiqueryproductstate, msi/MsiQueryProductState, msi/MsiQueryProductStateA, msi/MsiQueryProductStateW, setup.msiqueryproductstate
-f1_keywords:
-- msi/MsiQueryProductState
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiQueryProductState
-- MsiQueryProductStateA
-- MsiQueryProductStateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiQueryProductStateW
+ - msi/MsiQueryProductStateW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiQueryProductState
+ - MsiQueryProductStateA
+ - MsiQueryProductStateW
 ---
 
 # MsiQueryProductStateW function
@@ -50,24 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiQueryProductState</b> function returns the installed state for a product.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code that identifies the product to be queried.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -135,17 +129,11 @@ The product is neither advertised or installed.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The msi.h header defines MsiQueryProductState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

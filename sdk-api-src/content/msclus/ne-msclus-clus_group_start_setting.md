@@ -1,16 +1,13 @@
 ---
 UID: NE:msclus.__MIDL___MIDL_itf_msclus_0000_0000_0005
 title: CLUS_GROUP_START_SETTING (msclus.h)
-description: Enumerates the start settings for a cluster group.
+description: CLUS_GROUP_START_SETTING (msclus.h) enumerates the start settings for a cluster group.
+helpviewer_keywords: ["CLUS_GROUP_DO_NOT_START","CLUS_GROUP_START_ALLOWED","CLUS_GROUP_START_ALWAYS","CLUS_GROUP_START_SETTING","CLUS_GROUP_START_SETTING enumeration [Failover Cluster]","clusapi/CLUS_GROUP_DO_NOT_START","clusapi/CLUS_GROUP_START_ALLOWED","clusapi/CLUS_GROUP_START_ALWAYS","clusapi/CLUS_GROUP_START_SETTING","msclus/CLUS_GROUP_DO_NOT_START","msclus/CLUS_GROUP_START_ALLOWED","msclus/CLUS_GROUP_START_ALWAYS","msclus/CLUS_GROUP_START_SETTING","mscs.clus_group_start_setting"]
 old-location: mscs\clus_group_start_setting.htm
 tech.root: MsCS
 ms.assetid: 9F0A7B9B-278E-4176-BCA7-6CEEF35AFE2E
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUS_GROUP_DO_NOT_START, CLUS_GROUP_START_ALLOWED, CLUS_GROUP_START_ALWAYS, CLUS_GROUP_START_SETTING, CLUS_GROUP_START_SETTING enumeration [Failover Cluster], clusapi/CLUS_GROUP_DO_NOT_START, clusapi/CLUS_GROUP_START_ALLOWED, clusapi/CLUS_GROUP_START_ALWAYS, clusapi/CLUS_GROUP_START_SETTING, msclus/CLUS_GROUP_DO_NOT_START, msclus/CLUS_GROUP_START_ALLOWED, msclus/CLUS_GROUP_START_ALWAYS, msclus/CLUS_GROUP_START_SETTING, mscs.clus_group_start_setting
-f1_keywords:
-- msclus/CLUS_GROUP_START_SETTING
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUS_GROUP_START_SETTING
 targetos: Windows
 req.typenames: CLUS_GROUP_START_SETTING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_msclus_0000_0000_0005
+ - msclus/__MIDL___MIDL_itf_msclus_0000_0000_0005
+ - CLUS_GROUP_START_SETTING
+ - msclus/CLUS_GROUP_START_SETTING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUS_GROUP_START_SETTING
 ---
 
 # CLUS_GROUP_START_SETTING enumeration
@@ -49,26 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the start settings for a cluster group.
-
 
 ## -enum-fields
 
-
-
-
-### -field CLUS_GROUP_START_ALWAYS
+### -field CLUS_GROUP_START_ALWAYS:0
 
 Always start the cluster.
 
-
-### -field CLUS_GROUP_DO_NOT_START
+### -field CLUS_GROUP_DO_NOT_START:1
 
 Do not start the cluster.
 
-
-### -field CLUS_GROUP_START_ALLOWED
+### -field CLUS_GROUP_START_ALLOWED:2
 
 The cluster can be started.
 

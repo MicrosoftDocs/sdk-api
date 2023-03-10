@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncKnowledge.ProjectOntoChangeUnit
 title: ISyncKnowledge::ProjectOntoChangeUnit (winsync.h)
 description: Gets the knowledge for the specified change unit.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","ProjectOntoChangeUnit method","ISyncKnowledge.ProjectOntoChangeUnit","ISyncKnowledge::ProjectOntoChangeUnit","ProjectOntoChangeUnit","ProjectOntoChangeUnit method [Windows Sync]","ProjectOntoChangeUnit method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_projectontochangeunit","winsync/ISyncKnowledge::ProjectOntoChangeUnit"]
 old-location: winsync\isyncknowledge_projectontochangeunit.htm
 tech.root: winsync
 ms.assetid: 3c09284f-9866-49a4-adeb-561af3351ada
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoChangeUnit method, ISyncKnowledge.ProjectOntoChangeUnit, ISyncKnowledge::ProjectOntoChangeUnit, ProjectOntoChangeUnit, ProjectOntoChangeUnit method [Windows Sync], ProjectOntoChangeUnit method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontochangeunit, winsync/ISyncKnowledge::ProjectOntoChangeUnit
-f1_keywords:
-- winsync/ISyncKnowledge.ProjectOntoChangeUnit
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.ProjectOntoChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::ProjectOntoChangeUnit
+ - winsync/ISyncKnowledge::ProjectOntoChangeUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.ProjectOntoChangeUnit
 ---
 
 # ISyncKnowledge::ProjectOntoChangeUnit
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the knowledge for the specified change unit.
 
-
 ## -parameters
-
-
-
 
 ### -param pbItemId [in]
 
 The ID of the item that contains the change unit to look up.
 
-
 ### -param pbChangeUnitId [in]
 
 The ID of the change unit to look up.
-
 
 ### -param ppKnowledgeOut [out]
 
 Returns a knowledge object that contains only the change unit specified by <i>pbChangeUnitId</i>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -111,18 +103,7 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

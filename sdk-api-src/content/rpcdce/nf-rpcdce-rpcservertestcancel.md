@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcServerTestCancel
 title: RpcServerTestCancel function (rpcdce.h)
 description: The server calls RpcServerTestCancel to test for client cancel requests.
+helpviewer_keywords: ["RpcServerTestCancel","RpcServerTestCancel function [RPC]","_rpc_rpcservertestcancel","rpc.rpcservertestcancel","rpcdce/RpcServerTestCancel"]
 old-location: rpc\rpcservertestcancel.htm
 tech.root: Rpc
 ms.assetid: de4b45a8-0516-4185-a342-364e0f5a633e
 ms.date: 12/05/2018
 ms.keywords: RpcServerTestCancel, RpcServerTestCancel function [RPC], _rpc_rpcservertestcancel, rpc.rpcservertestcancel, rpcdce/RpcServerTestCancel
-f1_keywords:
-- rpcdce/RpcServerTestCancel
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerTestCancel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerTestCancel
+ - rpcdce/RpcServerTestCancel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerTestCancel
 ---
 
 # RpcServerTestCancel function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The server calls 
 <b>RpcServerTestCancel</b> to test for client cancel requests.
 
-
 ## -parameters
-
-
-
 
 ### -param BindingHandle
 
 Call to test for cancel commands. If a value of zero is specified, the server impersonates the client that is being served by this server thread.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -120,62 +114,48 @@ The handle is not valid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The server calls 
 <b>RpcServerTestCancel</b> to find out if the client has requested cancelation of an outstanding call. The 
 <b>RpcServerTestCancel</b> function only indicates whether a client has canceled the call; state is not changed on the server or client. The canceled call must still be completed or aborted by the RPC server, using 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccompletecall">RpcAsyncCompleteCall</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncabortcall">RpcAsyncAbortCall</a> function calls, respectively.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccompletecall">RpcAsyncCompleteCall</a> or 
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncabortcall">RpcAsyncAbortCall</a> function calls, respectively.
 
 The <i>BindingHandle</i> parameter specifies the call on which to test. If the parameter has a value of zero, the call on the current thread is tested. The server can call the 
 <b>RpcServerTestCancel(RpcAsyncGetCallHandle(pAsync))</b> function to test for a cancel message using the asynchronous handle to obtain the binding handle.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/asynchronous-rpc">Asynchronous RPC</a>
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncabortcall">RpcAsyncAbortCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncabortcall">RpcAsyncAbortCall</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccancelcall">RpcAsyncCancelCall</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccompletecall">RpcAsyncCompleteCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasynccompletecall">RpcAsyncCompleteCall</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallhandle">RpcAsyncGetCallHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallhandle">RpcAsyncGetCallHandle</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallstatus">RpcAsyncGetCallStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallstatus">RpcAsyncGetCallStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncinitializehandle">RpcAsyncInitializeHandle</a>

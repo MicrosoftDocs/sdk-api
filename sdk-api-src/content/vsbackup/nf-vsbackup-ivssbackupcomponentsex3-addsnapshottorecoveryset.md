@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet (vsbackup.h)
 description: Specifies the volumes to be included in a LUN resynchronization operation.
+helpviewer_keywords: ["AddSnapshotToRecoverySet","AddSnapshotToRecoverySet method","AddSnapshotToRecoverySet method","IVssBackupComponentsEx3 interface","IVssBackupComponentsEx3 interface","AddSnapshotToRecoverySet method","IVssBackupComponentsEx3.AddSnapshotToRecoverySet","IVssBackupComponentsEx3::AddSnapshotToRecoverySet","base.ivssbackupcomponentsex3_addsnapshottorecoveryset","vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet"]
 old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5
 ms.date: 12/05/2018
 ms.keywords: AddSnapshotToRecoverySet, AddSnapshotToRecoverySet method, AddSnapshotToRecoverySet method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,AddSnapshotToRecoverySet method, IVssBackupComponentsEx3.AddSnapshotToRecoverySet, IVssBackupComponentsEx3::AddSnapshotToRecoverySet, base.ivssbackupcomponentsex3_addsnapshottorecoveryset, vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx3.AddSnapshotToRecoverySet
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx3::AddSnapshotToRecoverySet
+ - vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 ---
 
 # IVssBackupComponentsEx3::AddSnapshotToRecoverySet
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the volumes to be included in a LUN resynchronization operation. This method is supported only on Windows server operating systems.
-
 
 ## -parameters
 
-
-
-
 ### -param snapshotId [in]
 
-The identifier of the shadow copy that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method during backup. This parameter is required and cannot be GUID_NULL.
-
-
-
+The identifier of the shadow copy that was returned by the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method during backup. This parameter is required and cannot be GUID_NULL.
 
 ### -param dwFlags [in]
 
 This parameter is reserved and must be zero.
 
-
 ### -param pwszDestinationVolume [in, optional]
 
 This parameter is optional and can be <b>NULL</b>. A value of <b>NULL</b> means that the contents of the shadow copy volume are to be copied back to the original volume. VSS identifies the original volume by the VDS_LUN_INFO information in the Backup Components Document.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -172,18 +162,7 @@ LUN resynchronization is not supported on this volume, because it is a dynamic v
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>

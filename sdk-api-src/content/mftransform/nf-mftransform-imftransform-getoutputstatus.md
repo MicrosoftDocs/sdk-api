@@ -2,15 +2,12 @@
 UID: NF:mftransform.IMFTransform.GetOutputStatus
 title: IMFTransform::GetOutputStatus (mftransform.h)
 description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.
+helpviewer_keywords: ["3eb82f76-088b-4abc-9f3a-dfa5ecd1068d","GetOutputStatus","GetOutputStatus method [Media Foundation]","GetOutputStatus method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetOutputStatus method","IMFTransform.GetOutputStatus","IMFTransform::GetOutputStatus","mf.imftransform_getoutputstatus","mftransform/IMFTransform::GetOutputStatus"]
 old-location: mf\imftransform_getoutputstatus.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d
 ms.date: 12/05/2018
 ms.keywords: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d, GetOutputStatus, GetOutputStatus method [Media Foundation], GetOutputStatus method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStatus method, IMFTransform.GetOutputStatus, IMFTransform::GetOutputStatus, mf.imftransform_getoutputstatus, mftransform/IMFTransform::GetOutputStatus
-f1_keywords:
-- mftransform/IMFTransform.GetOutputStatus
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTransform.GetOutputStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTransform::GetOutputStatus
+ - mftransform/IMFTransform::GetOutputStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTransform.GetOutputStatus
 ---
 
 # IMFTransform::GetOutputStatus
@@ -49,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether the Media Foundation transform (MFT) is ready to produce output data.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pdwFlags [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/win32/api/mftransform/ne-mftransform-_mft_output_status_flags">_MFT_OUTPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b>, the MFT can produce an output sample.
-          
-
+Receives a member of the <a href="/windows/win32/api/mftransform/ne-mftransform-_mft_output_status_flags">_MFT_OUTPUT_STATUS_FLAGS</a> enumeration, or zero. If the value is <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b>, the MFT can produce an output sample.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -114,19 +106,13 @@ The media type is not set on one or more streams.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the method returns the <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b> flag, it means you can generate one or more output samples by calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>.
+If the method returns the <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b> flag, it means you can generate one or more output samples by calling <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a>.
       
 
-MFTs are not required to implement this method. If the method returns <b>E_NOTIMPL</b>, you must call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> to determine whether the transform has output data.
+MFTs are not required to implement this method. If the method returns <b>E_NOTIMPL</b>, you must call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> to determine whether the transform has output data.
       
 
 If the MFT has more than one output stream, but it does not produce samples at the same time for each stream, it can set the <b>MFT_OUTPUT_STATUS_SAMPLE_READY</b> flag when just one stream is ready. However, if the MFT normally produces samples at the same time for each output stream, it should not set this flag until all streams are ready.
@@ -135,22 +121,12 @@ If the MFT has more than one output stream, but it does not produce samples at t
 After the client has set valid media types on all of the streams, the MFT should always be in one of two states: Able to accept more input, or able to produce more output.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputStatus</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
-
-
-
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputStatus</b>. See <a href="/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>

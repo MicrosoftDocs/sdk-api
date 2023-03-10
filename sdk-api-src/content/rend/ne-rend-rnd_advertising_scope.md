@@ -2,15 +2,12 @@
 UID: NE:rend.RND_ADVERTISING_SCOPE
 title: RND_ADVERTISING_SCOPE (rend.h)
 description: Members of the RND_ADVERTISING_SCOPE enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the ITDirectoryObjectConference interface.
+helpviewer_keywords: ["RAS_LOCAL","RAS_REGION","RAS_SITE","RAS_WORLD","RND_ADVERTISING_SCOPE","RND_ADVERTISING_SCOPE enumeration [TAPI 2.2]","_tapi3_rnd_advertising_scope","rend/RAS_LOCAL","rend/RAS_REGION","rend/RAS_SITE","rend/RAS_WORLD","rend/RND_ADVERTISING_SCOPE","tapi3.rnd_advertising_scope"]
 old-location: tapi3\rnd_advertising_scope.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a
 ms.date: 12/05/2018
 ms.keywords: RAS_LOCAL, RAS_REGION, RAS_SITE, RAS_WORLD, RND_ADVERTISING_SCOPE, RND_ADVERTISING_SCOPE enumeration [TAPI 2.2], _tapi3_rnd_advertising_scope, rend/RAS_LOCAL, rend/RAS_REGION, rend/RAS_SITE, rend/RAS_WORLD, rend/RND_ADVERTISING_SCOPE, tapi3.rnd_advertising_scope
-f1_keywords:
-- rend/RND_ADVERTISING_SCOPE
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rend.h
-api_name:
-- RND_ADVERTISING_SCOPE
 targetos: Windows
 req.typenames: RND_ADVERTISING_SCOPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RND_ADVERTISING_SCOPE
+ - rend/RND_ADVERTISING_SCOPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rend.h
+api_name:
+ - RND_ADVERTISING_SCOPE
 ---
 
 # RND_ADVERTISING_SCOPE enumeration
@@ -48,43 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 Members of the 
 <b>RND_ADVERTISING_SCOPE</b> enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a> interface.
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a> interface.
 
 ## -enum-fields
 
-
-
-
-### -field RAS_LOCAL
+### -field RAS_LOCAL:1
 
 Advertising scope is local.
 
-
-### -field RAS_SITE
+### -field RAS_SITE:2
 
 Advertising scope is site.
 
-
-### -field RAS_REGION
+### -field RAS_REGION:3
 
 Advertising scope is country or region.
 
-
-### -field RAS_WORLD
+### -field RAS_WORLD:4
 
 Advertising scope is the world.
 
-
 ## -remarks
-
-
 
 Mapping between scope string value, enum value, and 
 <a href="/windows/win32/tapi/t-tapgloss">time to live</a> (TTL) based on SDP Internet draft.
@@ -116,26 +107,15 @@ Mapping between scope string value, enum value, and
 <td>127</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_advertisingscope">get_AdvertisingScope</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_advertisingscope">get_AdvertisingScope</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_advertisingscope">put_AdvertisingScope</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_advertisingscope">put_AdvertisingScope</a>

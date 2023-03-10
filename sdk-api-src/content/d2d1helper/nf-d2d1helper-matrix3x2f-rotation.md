@@ -2,15 +2,12 @@
 UID: NF:d2d1helper.Matrix3x2F.Rotation
 title: Matrix3x2F::Rotation (d2d1helper.h)
 description: Creates a rotation transformation that has the specified angle and center point.
+helpviewer_keywords: ["D2D1.Matrix3x2F.Rotation","D2D1::Matrix3x2F::Rotation","Matrix3x2F interface [Direct2D]","Rotation method","Matrix3x2F.Rotation","Matrix3x2F::Rotation","Rotation","Rotation method [Direct2D]","Rotation method [Direct2D]","Matrix3x2F interface","d2d1helper/Matrix3x2F::Rotation","direct2d.matrix3x2f_rotate"]
 old-location: direct2d\matrix3x2f_rotate.htm
 tech.root: Direct2D
 ms.assetid: 9bb3ee14-3637-41fc-9164-1114619a59e4
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Rotation, D2D1::Matrix3x2F::Rotation, Matrix3x2F interface [Direct2D],Rotation method, Matrix3x2F.Rotation, Matrix3x2F::Rotation, Rotation, Rotation method [Direct2D], Rotation method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Rotation, direct2d.matrix3x2f_rotate
-f1_keywords:
-- d2d1helper/Matrix3x2F.Rotation
-dev_langs:
-- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- Matrix3x2F.Rotation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Matrix3x2F::Rotation
+ - d2d1helper/Matrix3x2F::Rotation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - Matrix3x2F.Rotation
 ---
 
 # Matrix3x2F::Rotation
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a rotation transformation that has the specified angle and center point. 
-
+Creates a rotation transformation that has the specified angle and center point.
 
 ## -parameters
-
-
-
 
 ### -param angle
 
@@ -63,28 +60,19 @@ Type: <b>FLOAT</b>
 
 The rotation angle in degrees. A positive angle creates a clockwise rotation, and a negative angle creates a counterclockwise rotation.
 
-
 ### -param center
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point about which the rotation is performed.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The new rotation transformation.
 
-
-
-
 ## -remarks
-
-
 
 When calling this method, specify a <i>centerPoint</i> to rotate the object about, and the rotation <i>angle</i> in degrees. The following illustration shows a square rotated 45 degrees about its center point.
 
@@ -128,19 +116,10 @@ The following illustration shows the effect of applying the  preceding rotation 
 ```
 
 
-Code has been omitted from this example. For more information about transforms, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>. 
+Code has been omitted from this example. For more information about transforms, see the <a href="/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>. 
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>

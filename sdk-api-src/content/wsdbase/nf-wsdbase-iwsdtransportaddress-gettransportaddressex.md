@@ -1,16 +1,13 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetTransportAddressEx
 title: IWSDTransportAddress::GetTransportAddressEx (wsdbase.h)
-description: Gets a pointer to a string representation of the address object.
+description: Gets a pointer to a string representation of the address object. (IWSDTransportAddress.GetTransportAddressEx)
+helpviewer_keywords: ["GetTransportAddressEx","GetTransportAddressEx method","GetTransportAddressEx method","IWSDTransportAddress interface","IWSDTransportAddress interface","GetTransportAddressEx method","IWSDTransportAddress.GetTransportAddressEx","IWSDTransportAddress::GetTransportAddressEx","ncd.iwsdtransportaddress_gettransportaddressex","wsdbase/IWSDTransportAddress::GetTransportAddressEx"]
 old-location: ncd\iwsdtransportaddress_gettransportaddressex.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 4b6f8e97-6387-4f2b-8388-775cc84e92f0
 ms.date: 12/05/2018
 ms.keywords: GetTransportAddressEx, GetTransportAddressEx method, GetTransportAddressEx method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetTransportAddressEx method, IWSDTransportAddress.GetTransportAddressEx, IWSDTransportAddress::GetTransportAddressEx, ncd.iwsdtransportaddress_gettransportaddressex, wsdbase/IWSDTransportAddress::GetTransportAddressEx
-f1_keywords:
-- wsdbase/IWSDTransportAddress.GetTransportAddressEx
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDTransportAddress.GetTransportAddressEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDTransportAddress::GetTransportAddressEx
+ - wsdbase/IWSDTransportAddress::GetTransportAddressEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDTransportAddress.GetTransportAddressEx
 ---
 
 # IWSDTransportAddress::GetTransportAddressEx
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets a pointer to a string representation of the address object.  The format of the string varies, and is determined by the implementing interface (either <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>).
-
+Gets a pointer to a string representation of the address object.  The format of the string varies, and is determined by the implementing interface (either <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a> or <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>).
 
 ## -parameters
-
-
-
 
 ### -param fSafe [in]
 
@@ -63,15 +60,11 @@ Specifies whether the scope identifier for an IPv6 address is included in the re
 
 If the address object represents an IPv4 address or a host name, this parameter is ignored.
 
-
 ### -param ppszAddress [out]
 
 String representation of the address object. Do not deallocate this pointer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,32 +107,16 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The transport address has not yet been set. To set the transport address, call <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a> with a non-<b>NULL</b> address.
+The transport address has not yet been set. To set the transport address, call <a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdtransportaddress-settransportaddress">SetTransportAddress</a> with a non-<b>NULL</b> address.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The string returned by this method may contain an IPv4 or unbracketed IPv6 address such as "fe80::1".  It may also contain a bracketed IPv6 address that includes the port such as "[fe80::1]:1234".  The caller should parse the string carefully to account for both possibilities. 
-
-
-
+The string returned by this method may contain an IPv4 or unbracketed IPv6 address such as "fe80::1".  It may also contain a bracketed IPv6 address that includes the port such as "[fe80::1]:1234".  The caller should parse the string carefully to account for both possibilities.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a>

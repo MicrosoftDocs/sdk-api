@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetProfileSectionA
 title: GetProfileSectionA function (winbase.h)
-description: Retrieves all the keys and values for the specified section of the Win.ini file.
+description: Retrieves all the keys and values for the specified section of the Win.ini file. (ANSI)
+helpviewer_keywords: ["GetProfileSectionA", "winbase/GetProfileSectionA"]
 old-location: base\getprofilesection.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: cc90811b-5e7b-4c75-987b-57f36a9408c5
 ms.date: 12/05/2018
 ms.keywords: GetProfileSection, GetProfileSection function, GetProfileSectionA, GetProfileSectionW, _win32_getprofilesection, base.getprofilesection, winbase/GetProfileSection, winbase/GetProfileSectionA, winbase/GetProfileSectionW
-f1_keywords:
-- winbase/GetProfileSection
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GetProfileSection
-- GetProfileSectionA
-- GetProfileSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProfileSectionA
+ - winbase/GetProfileSectionA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GetProfileSection
+ - GetProfileSectionA
+ - GetProfileSectionW
 ---
 
 # GetProfileSectionA function
@@ -54,24 +56,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves all the keys and values for the specified section of the Win.ini file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpAppName [in]
 
 The name of the section in the Win.ini file.
 
-
 ### -param lpReturnedString [out]
 
 A pointer to a buffer that receives the keys and values associated with the named section. The buffer is filled with one or more null-terminated strings; the last string is followed by a second null character.
-
 
 ### -param nSize [in]
 
@@ -83,19 +79,11 @@ The size of the buffer pointed to by the <i>lpReturnedString</i> parameter, in c
 
 The maximum profile section size is 32,767 characters.
 
-
 ## -returns
-
-
 
 The return value specifies the number of characters copied to the specified buffer, not including the terminating null character. If the buffer is not large enough to contain all the keys and values associated with the named section, the return value is equal to the size specified by <i>nSize</i> minus two.
 
-
-
-
 ## -remarks
-
-
 
 The format of the returned keys and values is one or more null-terminated strings, followed by a final null character. Each string has the following form: <i>key</i>=<i>string</i>
 
@@ -131,17 +119,14 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines GetProfileSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection">GetPrivateProfileSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection">GetPrivateProfileSection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilesectiona">WriteProfileSection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilesectiona">WriteProfileSection</a>

@@ -2,15 +2,12 @@
 UID: NF:recapis.GetLatticePtr
 title: GetLatticePtr function (recapis.h)
 description: Retrieves a pointer to the lattice for the current results.
+helpviewer_keywords: ["5c483500-c58f-4fd0-903a-a3011727bab8","GetLatticePtr","GetLatticePtr function [Tablet PC]","recapis/GetLatticePtr","tablet.getlatticeptr"]
 old-location: tablet\getlatticeptr.htm
 tech.root: tablet
 ms.assetid: 5c483500-c58f-4fd0-903a-a3011727bab8
 ms.date: 12/05/2018
 ms.keywords: 5c483500-c58f-4fd0-903a-a3011727bab8, GetLatticePtr, GetLatticePtr function [Tablet PC], recapis/GetLatticePtr, tablet.getlatticeptr
-f1_keywords:
-- recapis/GetLatticePtr
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- GetLatticePtr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLatticePtr
+ - recapis/GetLatticePtr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - GetLatticePtr
 ---
 
 # GetLatticePtr function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a pointer to the lattice for the current results.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrc
 
 The handle to the recognizer context.
 
-
 ### -param ppLattice
 
 The recognition results.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -159,18 +149,7 @@ An invalid argument was received.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>

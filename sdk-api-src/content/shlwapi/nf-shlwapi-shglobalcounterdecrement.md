@@ -2,15 +2,12 @@
 UID: NF:shlwapi.SHGlobalCounterDecrement
 title: SHGlobalCounterDecrement function (shlwapi.h)
 description: Decrements a global counter.
+helpviewer_keywords: ["SHGlobalCounterDecrement","SHGlobalCounterDecrement function [Windows Shell]","_shell_SHGlobalCounterDecrement","shell.SHGlobalCounterDecrement","shlwapi/SHGlobalCounterDecrement"]
 old-location: shell\SHGlobalCounterDecrement.htm
 tech.root: shell
 ms.assetid: 67b45cb9-9d8d-48ef-a7bc-9cd8824bdf2b
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
-f1_keywords:
-- shlwapi/SHGlobalCounterDecrement
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shlwapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- SHGlobalCounterDecrement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGlobalCounterDecrement
+ - shlwapi/SHGlobalCounterDecrement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - SHGlobalCounterDecrement
 ---
 
 # SHGlobalCounterDecrement function
@@ -48,48 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrements a global counter.
-
 
 ## -parameters
 
-
-
-
 ### -param id [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a></b>
+Type: <b>const <a href="/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a> to decrement.
-
+The <a href="/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a> to decrement.
 
 ## -returns
-
-
 
 Type: <b>long</b>
 
 The value of the counter after the decrement.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcountergetvalue">SHGlobalCounterGetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcountergetvalue">SHGlobalCounterGetValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>

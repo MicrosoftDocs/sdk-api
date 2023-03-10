@@ -2,15 +2,12 @@
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetServerDrainMode
 title: ITsSbResourcePluginStore::SetServerDrainMode (sbtsv.h)
 description: Sets the drain mode of the specified server.
+helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","SetServerDrainMode method","ITsSbResourcePluginStore.SetServerDrainMode","ITsSbResourcePluginStore::SetServerDrainMode","SetServerDrainMode","SetServerDrainMode method [Remote Desktop Services]","SetServerDrainMode method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::SetServerDrainMode","termserv.itssbresourcepluginstore_setserverdrainmode"]
 old-location: termserv\itssbresourcepluginstore_setserverdrainmode.htm
 tech.root: TermServ
 ms.assetid: E0213889-7CC9-446A-9EFF-7C8B02E4A35D
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetServerDrainMode method, ITsSbResourcePluginStore.SetServerDrainMode, ITsSbResourcePluginStore::SetServerDrainMode, SetServerDrainMode, SetServerDrainMode method [Remote Desktop Services], SetServerDrainMode method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetServerDrainMode, termserv.itssbresourcepluginstore_setserverdrainmode
-f1_keywords:
-- sbtsv/ITsSbResourcePluginStore.SetServerDrainMode
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourcePluginStore.SetServerDrainMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourcePluginStore::SetServerDrainMode
+ - sbtsv/ITsSbResourcePluginStore::SetServerDrainMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourcePluginStore.SetServerDrainMode
 ---
 
 # ITsSbResourcePluginStore::SetServerDrainMode
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the drain mode of the specified server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerFQDN [in]
 
 The fully qualified domain name of the server.
 
-
 ### -param DrainMode [in]
 
 The mode to set.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>

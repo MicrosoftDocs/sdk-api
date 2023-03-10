@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACPSink.OnAttrsChange
 title: ITextStoreACPSink::OnAttrsChange (textstor.h)
 description: ITextStoreACPSink::OnAttrsChange method
+helpviewer_keywords: ["ITextStoreACPSink interface [Text Services Framework]","OnAttrsChange method","ITextStoreACPSink.OnAttrsChange","ITextStoreACPSink::OnAttrsChange","OnAttrsChange","OnAttrsChange method [Text Services Framework]","OnAttrsChange method [Text Services Framework]","ITextStoreACPSink interface","_tsf_itextstoreacpsink_onattrschange_ref","textstor/ITextStoreACPSink::OnAttrsChange","tsf.itextstoreacpsink_onattrschange"]
 old-location: tsf\itextstoreacpsink_onattrschange.htm
 tech.root: TSF
 ms.assetid: ae1e5f92-7462-46b4-b4dd-5032147de688
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnAttrsChange method, ITextStoreACPSink.OnAttrsChange, ITextStoreACPSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onattrschange_ref, textstor/ITextStoreACPSink::OnAttrsChange, tsf.itextstoreacpsink_onattrschange
-f1_keywords:
-- textstor/ITextStoreACPSink.OnAttrsChange
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACPSink.OnAttrsChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACPSink::OnAttrsChange
+ - textstor/ITextStoreACPSink::OnAttrsChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACPSink.OnAttrsChange
 ---
 
 # ITextStoreACPSink::OnAttrsChange
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called when the value of one or more text attribute changes.
 
 ## -parameters
-
-
-
 
 ### -param acpStart [in]
 
 Specifies the starting point of the attribute change.
 
-
 ### -param acpEnd [in]
 
 Specifies the ending point of the attribute change.
-
 
 ### -param cAttrs [in]
 
 Specifies the number of attributes in the <i>paAttrs</i> array.
 
-
 ### -param paAttrs [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> values that identify the attributes changed.
-
+Pointer to an array of <a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID</a> values that identify the attributes changed.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,7 +113,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-

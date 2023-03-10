@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_STORAGE_ERASE_DATABASE_FN
 title: PIBIO_STORAGE_ERASE_DATABASE_FN (winbio_adapter.h)
 description: Erases the database and marks it for deletion.
+helpviewer_keywords: ["PIBIO_STORAGE_ERASE_DATABASE_FN","PIBIO_STORAGE_ERASE_DATABASE_FN callback","StorageAdapterEraseDatabase","StorageAdapterEraseDatabase callback function [Windows Biometric Framework API]","secbiomet.storageadaptererasedatabase","winbio_adapter/StorageAdapterEraseDatabase"]
 old-location: secbiomet\storageadaptererasedatabase.htm
 tech.root: SecBioMet
 ms.assetid: c1fc2f3f-034b-4546-aeee-1d1a38695793
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_ERASE_DATABASE_FN, PIBIO_STORAGE_ERASE_DATABASE_FN callback, StorageAdapterEraseDatabase, StorageAdapterEraseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptererasedatabase, winbio_adapter/StorageAdapterEraseDatabase
-f1_keywords:
-- winbio_adapter/StorageAdapterEraseDatabase
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- StorageAdapterEraseDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_STORAGE_ERASE_DATABASE_FN
+ - winbio_adapter/PIBIO_STORAGE_ERASE_DATABASE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - StorageAdapterEraseDatabase
 ---
 
 # PIBIO_STORAGE_ERASE_DATABASE_FN callback function
@@ -48,39 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to erase the database and mark it for deletion.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
-
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param DatabaseId [in]
 
 A pointer to a GUID that uniquely identifies the database. This is the same GUID used to register the database in the registry.
 
-
 ### -param FilePath [in]
 
 Pointer to a <b>NULL</b>-terminated UNICODE string that contains the fully qualified file path for the database.
-
 
 ### -param ConnectString [in]
 
 A pointer to a <b>NULL</b>-terminated UNICODE connection string for the database.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -134,30 +124,19 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_close_database_fn">StorageAdapterCloseDatabase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_close_database_fn">StorageAdapterCloseDatabase</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_create_database_fn">StorageAdapterCreateDatabase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_create_database_fn">StorageAdapterCreateDatabase</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>

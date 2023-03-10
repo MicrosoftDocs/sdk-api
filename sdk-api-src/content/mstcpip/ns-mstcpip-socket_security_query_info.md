@@ -2,15 +2,12 @@
 UID: NS:mstcpip._SOCKET_SECURITY_QUERY_INFO
 title: SOCKET_SECURITY_QUERY_INFO (mstcpip.h)
 description: Contains security information returned by the WSAQuerySocketSecurity function.
+helpviewer_keywords: ["SOCKET_INFO_CONNECTION_ENCRYPTED","SOCKET_INFO_CONNECTION_SECURED","SOCKET_SECURITY_QUERY_INFO","SOCKET_SECURITY_QUERY_INFO structure [Winsock]","mstcpip/SOCKET_SECURITY_QUERY_INFO","winsock.socket_security_query_info"]
 old-location: winsock\socket_security_query_info.htm
 tech.root: WinSock
 ms.assetid: 90439ff6-e6a8-4124-b280-a65b9ca12787
 ms.date: 12/05/2018
 ms.keywords: SOCKET_INFO_CONNECTION_ENCRYPTED, SOCKET_INFO_CONNECTION_SECURED, SOCKET_SECURITY_QUERY_INFO, SOCKET_SECURITY_QUERY_INFO structure [Winsock], mstcpip/SOCKET_SECURITY_QUERY_INFO, winsock.socket_security_query_info
-f1_keywords:
-- mstcpip/SOCKET_SECURITY_QUERY_INFO
-dev_langs:
-- c++
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mstcpip.h
-api_name:
-- SOCKET_SECURITY_QUERY_INFO
 targetos: Windows
 req.typenames: SOCKET_SECURITY_QUERY_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SOCKET_SECURITY_QUERY_INFO
+ - mstcpip/_SOCKET_SECURITY_QUERY_INFO
+ - SOCKET_SECURITY_QUERY_INFO
+ - mstcpip/SOCKET_SECURITY_QUERY_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mstcpip.h
+api_name:
+ - SOCKET_SECURITY_QUERY_INFO
 ---
 
 # SOCKET_SECURITY_QUERY_INFO structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SOCKET_SECURITY_QUERY_INFO</b> structure contains security information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a> function.
-
+The <b>SOCKET_SECURITY_QUERY_INFO</b> structure contains security information returned by the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field SecurityProtocol
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the protocol used to secure the traffic.
-
+A <a href="/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a> value that identifies the protocol used to secure the traffic.
 
 ### -field Flags
 
@@ -94,61 +92,45 @@ If present, the connection traffic is being encrypted.  The          <b>SOCKET_I
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PeerApplicationAccessTokenHandle
 
-A handle to the access token that represents the account under which the peer application is running.  After using the token for access checks, the application should close the handle using the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
-
+A handle to the access token that represents the account under which the peer application is running.  After using the token for access checks, the application should close the handle using the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 ### -field PeerMachineAccessTokenHandle
 
-A handle to the access token for the peer computer's account during the course of the application.  After using the token for access checks, the application should close the handle using the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
-
+A handle to the access token for the peer computer's account during the course of the application.  After using the token for access checks, the application should close the handle using the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
 ## -remarks
 
+The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is supported on Windows Vista and later.
 
-
-The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is supported on Windows Vistaand later.
-
-The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a> function to return information about the security applied to a connection on a socket.
-
-
-
+The <b>SOCKET_SECURITY_QUERY_INFO</b> structure  is used by the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a> function to return information about the security applied to a connection on a socket.
 
 ## -see-also
 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ne-mstcpip-socket_security_protocol">SOCKET_SECURITY_PROTOCOL</a>
+<a href="/windows/desktop/WinSock/using-secure-socket-extensions">Using Secure Socket Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/using-secure-socket-extensions">Using Secure Socket Extensions</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity">WSAQuerySocketSecurity</a>
+<a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Filtering Platform</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Filtering Platform</a>
+<a href="/windows/desktop/FWP/fwp-functions">Windows Filtering Platform  API  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">Windows Filtering Platform  API  Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.DrawStateA
 title: DrawStateA function (winuser.h)
-description: The DrawState function displays an image and applies a visual effect to indicate a state, such as a disabled or default state.
+description: The DrawState function displays an image and applies a visual effect to indicate a state, such as a disabled or default state. (ANSI)
+helpviewer_keywords: ["DSS_DISABLED", "DSS_HIDEPREFIX", "DSS_MONO", "DSS_NORMAL", "DSS_PREFIXONLY", "DSS_RIGHT", "DSS_UNION", "DST_BITMAP", "DST_COMPLEX", "DST_ICON", "DST_PREFIXTEXT", "DST_TEXT", "DrawStateA", "winuser/DrawStateA"]
 old-location: gdi\drawstate.htm
 tech.root: gdi
 ms.assetid: b92150be-8264-4ea8-a2ea-d70b7fba6361
 ms.date: 12/05/2018
 ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY, DSS_RIGHT, DSS_UNION, DST_BITMAP, DST_COMPLEX, DST_ICON, DST_PREFIXTEXT, DST_TEXT, DrawState, DrawState function [Windows GDI], DrawStateA, DrawStateW, _win32_DrawState, gdi.drawstate, winuser/DrawState, winuser/DrawStateA, winuser/DrawStateW
-f1_keywords:
-- winuser/DrawState
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-api_name:
-- DrawState
-- DrawStateA
-- DrawStateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawStateA
+ - winuser/DrawStateA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+api_name:
+ - DrawState
+ - DrawStateA
+ - DrawStateW
 ---
 
 # DrawStateA function
@@ -50,59 +52,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrawState</b> function displays an image and applies a visual effect to indicate a state, such as a disabled or default state.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context to draw in.
 
-
 ### -param hbrFore [in]
 
 A handle to the brush used to draw the image, if the state specified by the <i>fuFlags</i> parameter is DSS_MONO. This parameter is ignored for other states.
 
-
 ### -param qfnCallBack [in]
 
-A pointer to an application-defined callback function used to render the image. This parameter is required if the image type in <i>fuFlags</i> is DST_COMPLEX. It is optional and can be <b>NULL</b> if the image type is DST_TEXT. For all other image types, this parameter is ignored. For more information about the callback function, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
-
+A pointer to an application-defined callback function used to render the image. This parameter is required if the image type in <i>fuFlags</i> is DST_COMPLEX. It is optional and can be <b>NULL</b> if the image type is DST_TEXT. For all other image types, this parameter is ignored. For more information about the callback function, see the <a href="/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
 
 ### -param lData [in]
 
 Information about the image. The meaning of this parameter depends on the image type.
 
-
 ### -param wData [in]
 
-Information about the image. The meaning of this parameter depends on the image type. It is, however, zero extended for use with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
-
+Information about the image. The meaning of this parameter depends on the image type. It is, however, zero extended for use with the <a href="/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a> function.
 
 ### -param x [in]
 
 The horizontal location, in device units, at which to draw the image.
 
-
 ### -param y [in]
 
 The vertical location, in device units, at which to draw the image.
-
 
 ### -param cx [in]
 
 The width of the image, in device units. This parameter is required if the image type is DST_COMPLEX. Otherwise, it can be zero to calculate the width of the image.
 
-
 ### -param cy [in]
 
 The height of the image, in device units. This parameter is required if the image type is DST_COMPLEX. Otherwise, it can be zero to calculate the height of the image.
-
 
 ### -param uFlags [in]
 
@@ -248,33 +236,25 @@ Dithers the image.
 
 For all states except DSS_NORMAL, the image is converted to monochrome before the visual effect is applied.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-drawstateproc">DrawStateProc</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
- 
-
- 
-
+> [!NOTE]
+> The winuser.h header defines DrawState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NS:ntddpsch._PS_CONFORMER_STATS
 title: PS_CONFORMER_STATS (ntddpsch.h)
 description: The PS_CONFORMER_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_CONFORMER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
+helpviewer_keywords: ["*PPS_CONFORMER_STATS","PPS_CONFORMER_STATS","PPS_CONFORMER_STATS structure pointer [QOS]","PS_CONFORMER_STATS","PS_CONFORMER_STATS structure [QOS]","_gqos_ps_conformer_stats","ntddpsch/PPS_CONFORMER_STATS","ntddpsch/PS_CONFORMER_STATS","qos.ps_conformer_stats"]
 old-location: qos\ps_conformer_stats.htm
 tech.root: QOS
 ms.assetid: 709274fe-de56-4f86-9002-71f0ee333ace
 ms.date: 12/05/2018
 ms.keywords: '*PPS_CONFORMER_STATS, PPS_CONFORMER_STATS, PPS_CONFORMER_STATS structure pointer [QOS], PS_CONFORMER_STATS, PS_CONFORMER_STATS structure [QOS], _gqos_ps_conformer_stats, ntddpsch/PPS_CONFORMER_STATS, ntddpsch/PS_CONFORMER_STATS, qos.ps_conformer_stats'
-f1_keywords:
-- ntddpsch/PS_CONFORMER_STATS
-dev_langs:
-- c++
 req.header: ntddpsch.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntddpsch.h
-api_name:
-- PS_CONFORMER_STATS
 targetos: Windows
 req.typenames: PS_CONFORMER_STATS, *PPS_CONFORMER_STATS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PS_CONFORMER_STATS
+ - ntddpsch/_PS_CONFORMER_STATS
+ - PPS_CONFORMER_STATS
+ - ntddpsch/PPS_CONFORMER_STATS
+ - PS_CONFORMER_STATS
+ - ntddpsch/PS_CONFORMER_STATS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntddpsch.h
+api_name:
+ - PS_CONFORMER_STATS
 ---
 
 # PS_CONFORMER_STATS structure
@@ -48,34 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PS_CONFORMER_STATS</b> structure provides statistical packet shaper information about a particular flow. Note that the 
 <b>PS_CONFORMER_STATS</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a> structure.
-
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field NonconformingPacketsScheduled
 
 Number of nonconforming packets that have been scheduled on the flow or interface.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>

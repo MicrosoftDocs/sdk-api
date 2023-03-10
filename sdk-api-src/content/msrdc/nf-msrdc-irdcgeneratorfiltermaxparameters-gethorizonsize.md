@@ -1,16 +1,13 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.GetHorizonSize
 title: IRdcGeneratorFilterMaxParameters::GetHorizonSize (msrdc.h)
-description: Returns the horizon size&#8212;the length over which the FilterMax generator looks for local maxima.
+description: Returns the horizon size�the length over which the FilterMax generator looks for local maxima.
+helpviewer_keywords: ["GetHorizonSize","GetHorizonSize method [Remote Differential Compression]","GetHorizonSize method [Remote Differential Compression]","IRdcGeneratorFilterMaxParameters interface","IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression]","GetHorizonSize method","IRdcGeneratorFilterMaxParameters.GetHorizonSize","IRdcGeneratorFilterMaxParameters::GetHorizonSize","fs.irdcgeneratorfiltermaxparameters_gethorizonsize","msrdc/IRdcGeneratorFilterMaxParameters::GetHorizonSize","rdc.irdcgeneratorfiltermaxparameters_gethorizonsize"]
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethorizonsize.htm
 tech.root: rdc
 ms.assetid: 6509330a-9592-4e10-91fb-43e4b63dceb9
 ms.date: 12/05/2018
 ms.keywords: GetHorizonSize, GetHorizonSize method [Remote Differential Compression], GetHorizonSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],GetHorizonSize method, IRdcGeneratorFilterMaxParameters.GetHorizonSize, IRdcGeneratorFilterMaxParameters::GetHorizonSize, fs.irdcgeneratorfiltermaxparameters_gethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::GetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_gethorizonsize
-f1_keywords:
-- msrdc/IRdcGeneratorFilterMaxParameters.GetHorizonSize
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: MsRdc.dll
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcGeneratorFilterMaxParameters.GetHorizonSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcGeneratorFilterMaxParameters::GetHorizonSize
+ - msrdc/IRdcGeneratorFilterMaxParameters::GetHorizonSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcGeneratorFilterMaxParameters.GetHorizonSize
 ---
 
 # IRdcGeneratorFilterMaxParameters::GetHorizonSize
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetHorizonSize</b> 
     method returns the horizon size—the length over which the FilterMax generator looks 
     for local maxima. This determines the default smallest size for a chunk.
 
-
 ## -parameters
-
-
-
 
 ### -param horizonSize [out]
 
@@ -65,27 +62,14 @@ Address of a <b>ULONG</b> that will receive the length in bytes of the horizon s
       The valid range is from <b>MSRDC_MINIMUM_HORIZONSIZE</b> to 
       <b>MSRDC_MAXIMUM_HORIZONSIZE</b>.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorfiltermaxparameters">IRdcGeneratorFilterMaxParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorfiltermaxparameters">IRdcGeneratorFilterMaxParameters</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-sethorizonsize">SetHorizonSize</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorfiltermaxparameters-sethorizonsize">SetHorizonSize</a>

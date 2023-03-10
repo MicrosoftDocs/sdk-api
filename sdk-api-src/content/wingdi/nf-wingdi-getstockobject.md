@@ -2,15 +2,12 @@
 UID: NF:wingdi.GetStockObject
 title: GetStockObject function (wingdi.h)
 description: The GetStockObject function retrieves a handle to one of the stock pens, brushes, fonts, or palettes.
+helpviewer_keywords: ["ANSI_FIXED_FONT","ANSI_VAR_FONT","BLACK_BRUSH","BLACK_PEN","DC_BRUSH","DC_PEN","DEFAULT_GUI_FONT","DEFAULT_PALETTE","DEVICE_DEFAULT_FONT","DKGRAY_BRUSH","GRAY_BRUSH","GetStockObject","GetStockObject function [Windows GDI]","HOLLOW_BRUSH","LTGRAY_BRUSH","NULL_BRUSH","NULL_PEN","OEM_FIXED_FONT","SYSTEM_FIXED_FONT","SYSTEM_FONT","WHITE_BRUSH","WHITE_PEN","_win32_GetStockObject","gdi.getstockobject","wingdi/GetStockObject"]
 old-location: gdi\getstockobject.htm
 tech.root: gdi
 ms.assetid: b14ddc05-7e7b-4fc6-b7e3-efe892df7e21
 ms.date: 12/05/2018
 ms.keywords: ANSI_FIXED_FONT, ANSI_VAR_FONT, BLACK_BRUSH, BLACK_PEN, DC_BRUSH, DC_PEN, DEFAULT_GUI_FONT, DEFAULT_PALETTE, DEVICE_DEFAULT_FONT, DKGRAY_BRUSH, GRAY_BRUSH, GetStockObject, GetStockObject function [Windows GDI], HOLLOW_BRUSH, LTGRAY_BRUSH, NULL_BRUSH, NULL_PEN, OEM_FIXED_FONT, SYSTEM_FIXED_FONT, SYSTEM_FONT, WHITE_BRUSH, WHITE_PEN, _win32_GetStockObject, gdi.getstockobject, wingdi/GetStockObject
-f1_keywords:
-- wingdi/GetStockObject
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-DC-l1-2-0.dll
-- ext-ms-win-gdi-dc-l1-1-0.dll
-- ext-ms-win-gdi-dc-l1-2-1.dll
-- GDI32Full.dll
-api_name:
-- GetStockObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetStockObject
+ - wingdi/GetStockObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-DC-l1-2-0.dll
+ - ext-ms-win-gdi-dc-l1-1-0.dll
+ - ext-ms-win-gdi-dc-l1-2-1.dll
+ - GDI32Full.dll
+api_name:
+ - GetStockObject
 ---
 
 # GetStockObject function
@@ -52,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetStockObject</b> function retrieves a handle to one of the stock pens, brushes, fonts, or palettes.
 
-
 ## -parameters
-
-
-
 
 ### -param i [in]
 
@@ -96,7 +93,7 @@ Dark gray brush.
 </dl>
 </td>
 <td width="60%">
-Solid color brush. The default color is white. The color can be changed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCBrushColor</a> function. For more information, see the Remarks section.
+Solid color brush. The default color is white. The color can be changed by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCBrushColor</a> function. For more information, see the Remarks section.
 
 </td>
 </tr>
@@ -166,7 +163,7 @@ Black pen.
 </dl>
 </td>
 <td width="60%">
-Solid pen color. The default color is white. The color can be changed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> function. For more information, see the Remarks section.
+Solid pen color. The default color is black. The color can be changed by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> function. For more information, see the Remarks section.
 
 </td>
 </tr>
@@ -275,62 +272,44 @@ Default palette. This palette consists of the static colors in the system palett
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the requested logical object.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
 
-
-
-It is not recommended that you employ this method to obtain the current font used by dialogs and windows. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the SPI_GETNONCLIENTMETRICS parameter to retrieve the current font. <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> will take into account the current theme and provides font information for captions, menus, and message dialogs. 
+It is not recommended that you employ this method to obtain the current font used by dialogs and windows. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the SPI_GETNONCLIENTMETRICS parameter to retrieve the current font. <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> will take into account the current theme and provides font information for captions, menus, and message dialogs. 
 
 Use the DKGRAY_BRUSH, GRAY_BRUSH, and LTGRAY_BRUSH stock objects only in windows with the CS_HREDRAW and CS_VREDRAW styles. Using a gray stock brush in any other style of window can lead to misalignment of brush patterns after a window is moved or sized. The origins of stock brushes cannot be adjusted.
 
 The HOLLOW_BRUSH and NULL_BRUSH stock objects are equivalent.
 
-It is not necessary (but it is not harmful) to delete stock objects by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.
+It is not necessary (but it is not harmful) to delete stock objects by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.
 
-Both DC_BRUSH and DC_PEN can be used interchangeably with other stock objects like BLACK_BRUSH and BLACK_PEN. For information on retrieving the current pen or brush color, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdcbrushcolor">GetDCBrushColor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdcpencolor">GetDCPenColor</a>. See <a href="https://docs.microsoft.com/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a> for an example of setting colors. The <b>GetStockObject</b> function with an argument of DC_BRUSH or DC_PEN can be used interchangeably with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCBrushColor</a> functions.
+Both DC_BRUSH and DC_PEN can be used interchangeably with other stock objects like BLACK_BRUSH and BLACK_PEN. For information on retrieving the current pen or brush color, see <a href="/windows/desktop/api/wingdi/nf-wingdi-getdcbrushcolor">GetDCBrushColor</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-getdcpencolor">GetDCPenColor</a>. See <a href="/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a> for an example of setting colors. The <b>GetStockObject</b> function with an argument of DC_BRUSH or DC_PEN can be used interchangeably with the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdcpencolor">SetDCPenColor</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setdcbrushcolor">SetDCBrushColor</a> functions.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a>.
+For an example, see <a href="/windows/desktop/gdi/setting-the-pen-or-brush-color">Setting the Pen or Brush Color</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

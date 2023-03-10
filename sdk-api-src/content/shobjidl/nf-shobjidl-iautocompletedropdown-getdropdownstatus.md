@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IAutoCompleteDropDown.GetDropDownStatus
 title: IAutoCompleteDropDown::GetDropDownStatus (shobjidl.h)
 description: Gets the current display status of the autocomplete drop-down list.
+helpviewer_keywords: ["ACDD_VISIBLE","GetDropDownStatus","GetDropDownStatus method [Windows Shell]","GetDropDownStatus method [Windows Shell]","IAutoCompleteDropDown interface","IAutoCompleteDropDown interface [Windows Shell]","GetDropDownStatus method","IAutoCompleteDropDown.GetDropDownStatus","IAutoCompleteDropDown::GetDropDownStatus","_shell_IAutoCompleteDropDown_GetDropDownStatus","shell.IAutoCompleteDropDown_GetDropDownStatus","shobjidl/IAutoCompleteDropDown::GetDropDownStatus"]
 old-location: shell\IAutoCompleteDropDown_GetDropDownStatus.htm
 tech.root: shell
 ms.assetid: 824c435c-e8ee-4435-a779-bae3ef721613
 ms.date: 12/05/2018
 ms.keywords: ACDD_VISIBLE, GetDropDownStatus, GetDropDownStatus method [Windows Shell], GetDropDownStatus method [Windows Shell],IAutoCompleteDropDown interface, IAutoCompleteDropDown interface [Windows Shell],GetDropDownStatus method, IAutoCompleteDropDown.GetDropDownStatus, IAutoCompleteDropDown::GetDropDownStatus, _shell_IAutoCompleteDropDown_GetDropDownStatus, shell.IAutoCompleteDropDown_GetDropDownStatus, shobjidl/IAutoCompleteDropDown::GetDropDownStatus
-f1_keywords:
-- shobjidl/IAutoCompleteDropDown.GetDropDownStatus
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Browseui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Browseui.dll
-api_name:
-- IAutoCompleteDropDown.GetDropDownStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutoCompleteDropDown::GetDropDownStatus
+ - shobjidl/IAutoCompleteDropDown::GetDropDownStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Browseui.dll
+api_name:
+ - IAutoCompleteDropDown.GetDropDownStatus
 ---
 
 # IAutoCompleteDropDown::GetDropDownStatus
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current display status of the autocomplete drop-down list.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out]
 
@@ -75,7 +72,6 @@ The list is not visible.
 
 The list is visible.
 
-
 ### -param ppwszString [out]
 
 Type: <b>LPWSTR*</b>
@@ -86,27 +82,14 @@ A pointer to a buffer containing the first select item in the drop-down list, if
 
 If <i>pdwFlags</i> is zero on exit, then this value will be <b>NULL</b>.
 
-If this value is not <b>NULL</b> on exit, the buffer it points to must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
-
+If this value is not <b>NULL</b> on exit, the buffer it points to must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iautocompletedropdown">IAutoCompleteDropDown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iautocompletedropdown">IAutoCompleteDropDown</a>

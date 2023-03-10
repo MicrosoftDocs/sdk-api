@@ -1,16 +1,13 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.CreateAnimationVariable
 title: IUIAnimationManager::CreateAnimationVariable (uianimation.h)
-description: Creates a new animation variable.
+description: Creates a new animation variable. (IUIAnimationManager.CreateAnimationVariable)
+helpviewer_keywords: ["CreateAnimationVariable","CreateAnimationVariable method [Windows Animation]","CreateAnimationVariable method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","CreateAnimationVariable method","IUIAnimationManager.CreateAnimationVariable","IUIAnimationManager::CreateAnimationVariable","uianimation.iuianimationmanager_createanimationvariable","uianimation/IUIAnimationManager::CreateAnimationVariable"]
 old-location: uianimation\iuianimationmanager_createanimationvariable.htm
 tech.root: UIAnimation
 ms.assetid: e4c38e78-1b9e-4918-ba15-6a4c5c390c07
 ms.date: 12/05/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager.CreateAnimationVariable, IUIAnimationManager::CreateAnimationVariable, uianimation.iuianimationmanager_createanimationvariable, uianimation/IUIAnimationManager::CreateAnimationVariable
-f1_keywords:
-- uianimation/IUIAnimationManager.CreateAnimationVariable
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationManager.CreateAnimationVariable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationManager::CreateAnimationVariable
+ - uianimation/IUIAnimationManager::CreateAnimationVariable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationManager.CreateAnimationVariable
 ---
 
 # IUIAnimationManager::CreateAnimationVariable
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new animation variable.
 
-
 ## -parameters
-
-
-
 
 ### -param initialValue [in]
 
 The initial value for the new animation variable.
 
-
 ### -param variable [out]
 
 The new animation variable.
 
-
 ## -returns
 
-
-
-If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
-
-
-
+If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -remarks
-
-
 
 The initial value of an animation variable is specified when the variable is created. After an animation variable is created, its value cannot be changed directly; it must be updated through the animation manager.
 
@@ -87,23 +75,14 @@ An animation variable is typically created to represent each visual characterist
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/create-animation-variables">Create Animation Variables</a>.
+For an example, see <a href="/windows/desktop/UIAnimation/create-animation-variables">Create Animation Variables</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager">IUIAnimationManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager">IUIAnimationManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>

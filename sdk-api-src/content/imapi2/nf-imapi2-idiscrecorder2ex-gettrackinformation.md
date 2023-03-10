@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.GetTrackInformation
 title: IDiscRecorder2Ex::GetTrackInformation (imapi2.h)
 description: Retrieves the track information from the media.
+helpviewer_keywords: ["GetTrackInformation","GetTrackInformation method [IMAPI]","GetTrackInformation method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetTrackInformation method","IDiscRecorder2Ex.GetTrackInformation","IDiscRecorder2Ex::GetTrackInformation","imapi.idiscrecorder2ex_gettrackinformation","imapi2/IDiscRecorder2Ex::GetTrackInformation"]
 old-location: imapi\idiscrecorder2ex_gettrackinformation.htm
 tech.root: imapi
 ms.assetid: bfb8c7b0-8fe4-4e41-8e71-31ea0af57619
 ms.date: 12/05/2018
 ms.keywords: GetTrackInformation, GetTrackInformation method [IMAPI], GetTrackInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetTrackInformation method, IDiscRecorder2Ex.GetTrackInformation, IDiscRecorder2Ex::GetTrackInformation, imapi.idiscrecorder2ex_gettrackinformation, imapi2/IDiscRecorder2Ex::GetTrackInformation
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.GetTrackInformation
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.GetTrackInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::GetTrackInformation
+ - imapi2/IDiscRecorder2Ex::GetTrackInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.GetTrackInformation
 ---
 
 # IDiscRecorder2Ex::GetTrackInformation
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the track  information from the media. 
-
+Retrieves the track  information from the media.
 
 ## -parameters
-
-
-
 
 ### -param address [in]
 
 Address field. The <i>addressType</i> parameter provides additional context for this parameter.
 
-
 ### -param addressType [in]
 
-Type of address specified in the <i>address</i> parameter, for example, if this is an LBA address or a track number. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_read_track_address_type">IMAPI_READ_TRACK_ADDRESS_TYPE</a> enumeration type.
-
+Type of address specified in the <i>address</i> parameter, for example, if this is an LBA address or a track number. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_read_track_address_type">IMAPI_READ_TRACK_ADDRESS_TYPE</a> enumeration type.
 
 ### -param trackInformation [out]
 
@@ -73,15 +68,11 @@ Data buffer that contains the track information. For details of the contents of 
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
-
 ### -param byteSize [out]
 
 Size, in bytes, of the <i>trackInformation</i> data buffer.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -390,18 +381,7 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>

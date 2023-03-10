@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate.get_Type
 title: IUpdate::get_Type (wuapi.h)
 description: Gets the type of the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","Type property","IUpdate.Type","IUpdate.get_Type","IUpdate::Type","IUpdate::get_Type","Type property [Windows Update Agent]","Type property [Windows Update Agent]","IUpdate interface","get_Type","wua.iupdate_type","wuapi/IUpdate::Type","wuapi/IUpdate::get_Type"]
 old-location: wua\iupdate_type.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 2556ee19-b6ff-4e66-9e40-2c0a1d6a0176
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Type property, IUpdate.Type, IUpdate.get_Type, IUpdate::Type, IUpdate::get_Type, Type property [Windows Update Agent], Type property [Windows Update Agent],IUpdate interface, get_Type, wua.iupdate_type, wuapi/IUpdate::Type, wuapi/IUpdate::get_Type
-f1_keywords:
-- wuapi/IUpdate.Type
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate.Type
-- IUpdate.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate::get_Type
+ - wuapi/IUpdate::get_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate.Type
+ - IUpdate.get_Type
 ---
 
 # IUpdate::get_Type
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the type of the update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

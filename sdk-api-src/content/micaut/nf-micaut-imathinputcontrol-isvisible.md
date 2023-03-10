@@ -2,15 +2,12 @@
 UID: NF:micaut.IMathInputControl.IsVisible
 title: IMathInputControl::IsVisible (micaut.h)
 description: Determines whether the control is visible.
+helpviewer_keywords: ["IMathInputControl interface [Tablet PC]","IsVisible method","IMathInputControl.IsVisible","IMathInputControl::IsVisible","IsVisible","IsVisible method [Tablet PC]","IsVisible method [Tablet PC]","IMathInputControl interface","micaut/IMathInputControl::IsVisible","tablet.imathinputcontrol_isvisible"]
 old-location: tablet\imathinputcontrol_isvisible.htm
 tech.root: tablet
 ms.assetid: 4efc0fd5-5f07-4664-8143-46a5695c04df
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],IsVisible method, IMathInputControl.IsVisible, IMathInputControl::IsVisible, IsVisible, IsVisible method [Tablet PC], IsVisible method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::IsVisible, tablet.imathinputcontrol_isvisible
-f1_keywords:
-- micaut/IMathInputControl.IsVisible
-dev_langs:
-- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- micaut.h
-api_name:
-- IMathInputControl.IsVisible
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMathInputControl::IsVisible
+ - micaut/IMathInputControl::IsVisible
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - micaut.h
+api_name:
+ - IMathInputControl.IsVisible
 ---
 
 # IMathInputControl::IsVisible
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the control is visible.
 
-
 ## -parameters
-
-
-
 
 ### -param pvbShown [out]
 
 <b>VARIANT_TRUE</b> to show the control; <b>VARIANT_FALSE</b> to hide the control.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,18 +101,7 @@ The <i>pvbShown</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>

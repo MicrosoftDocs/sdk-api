@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetFVF
 title: IDirect3DDevice9::SetFVF (d3d9helper.h)
-description: Sets the current vertex stream declaration.
+description: The IDirect3DDevice9::SetFVF method (d3d9.h) sets the current vertex stream declaration. 
+helpviewer_keywords: ["19b67e41-5ea9-7478-a24f-8698b2b106a5","IDirect3DDevice9 interface [Direct3D 9]","SetFVF method","IDirect3DDevice9.SetFVF","IDirect3DDevice9::SetFVF","SetFVF","SetFVF method [Direct3D 9]","SetFVF method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetFVF","direct3d9.idirect3ddevice9__setfvf"]
 old-location: direct3d9\idirect3ddevice9__setfvf.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setfvf.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 19b67e41-5ea9-7478-a24f-8698b2b106a5, IDirect3DDevice9 interface [Direct3D 9],SetFVF method, IDirect3DDevice9.SetFVF, IDirect3DDevice9::SetFVF, SetFVF, SetFVF method [Direct3D 9], SetFVF method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetFVF, direct3d9.idirect3ddevice9__setfvf
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.SetFVF
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.SetFVF
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::SetFVF
+ - d3d9helper/IDirect3DDevice9::SetFVF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.SetFVF
 ---
 
 # IDirect3DDevice9::SetFVF
@@ -49,37 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the current vertex stream declaration.
-
 
 ## -parameters
 
-
-
-
 ### -param FVF [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-DWORD containing the fixed function vertex type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>.
-
+DWORD containing the fixed function vertex type. For more information, see <a href="/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be:
      D3DERR_INVALIDCALL.
 
-
-
-
 ## -remarks
-
-
 
 Here are the steps necessary to initialize and use vertices that have a position, diffuse and specular color, and texture coordinates:
 
@@ -105,7 +94,7 @@ const DWORD VertexFVF = (D3DFVF_XYZ | D3DFVF_DIFFUSE |
 
 </li>
 <li>
-Create a vertex buffer with enough room for four vertices using <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a>.
+Create a vertex buffer with enough room for four vertices using <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a>.
     
 
 
@@ -200,7 +189,7 @@ const DWORD VertexFVF = ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_TEX1 );
 
 </li>
 <li>
-Create a vertex buffer with enough room for four vertices using <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).
+Create a vertex buffer with enough room for four vertices using <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-createvertexbuffer">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).
 
 </li>
 <li>
@@ -241,19 +230,10 @@ pBigSquareVB->Unlock();
 <li>Draw the object (similar to the example above).</li>
 </ol>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfvf">IDirect3DDevice9::GetFVF</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getfvf">IDirect3DDevice9::GetFVF</a>

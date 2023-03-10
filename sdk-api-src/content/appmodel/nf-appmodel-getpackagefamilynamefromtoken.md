@@ -2,15 +2,12 @@
 UID: NF:appmodel.GetPackageFamilyNameFromToken
 title: GetPackageFamilyNameFromToken function (appmodel.h)
 description: Gets the package family name for the specified token.
+helpviewer_keywords: ["GetPackageFamilyNameFromToken","GetPackageFamilyNameFromToken function [App packaging and management]","appmodel/GetPackageFamilyNameFromToken","appxpkg.getpackagefamilynamefromtoken"]
 old-location: appxpkg\getpackagefamilynamefromtoken.htm
 tech.root: appxpkg
 ms.assetid: C4FAF5DE-DF1F-4AFA-813B-5D80C786031B
 ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyNameFromToken, GetPackageFamilyNameFromToken function [App packaging and management], appmodel/GetPackageFamilyNameFromToken, appxpkg.getpackagefamilynamefromtoken
-f1_keywords:
-- appmodel/GetPackageFamilyNameFromToken
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-l1-1-0.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetPackageFamilyNameFromToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPackageFamilyNameFromToken
+ - appmodel/GetPackageFamilyNameFromToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetPackageFamilyNameFromToken
 ---
 
 # GetPackageFamilyNameFromToken function
@@ -56,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package family name for the specified token.
 
-
 ## -parameters
-
-
-
 
 ### -param token [in]
 
@@ -71,13 +68,11 @@ Type: <b>HANDLE</b>
 
 A token that contains the package identity.
 
-
 ### -param packageFamilyNameLength [in, out]
 
 Type: <b>UINT32*</b>
 
 On input, the size of the <i>packageFamilyName</i> buffer, in characters. On output, the size of the package family name returned, in characters, including the null-terminator.
-
 
 ### -param packageFamilyName [out, optional]
 
@@ -85,10 +80,7 @@ Type: <b>PWSTR</b>
 
 The package family name.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -122,16 +114,10 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -225,7 +211,3 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE token)
 }
 
 ```
-
-
-
-

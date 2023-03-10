@@ -2,15 +2,12 @@
 UID: NF:ncrypt.NCryptNotifyChangeKey
 title: NCryptNotifyChangeKey function (ncrypt.h)
 description: Creates or removes a key change notification.
+helpviewer_keywords: ["NCRYPT_MACHINE_KEY_FLAG","NCRYPT_REGISTER_NOTIFY_FLAG","NCRYPT_UNREGISTER_NOTIFY_FLAG","NCryptNotifyChangeKey","NCryptNotifyChangeKey function [Security]","ncrypt/NCryptNotifyChangeKey","security.ncryptnotifychangekey"]
 old-location: security\ncryptnotifychangekey.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 2d2ddb55-ef32-4227-b901-ee11e961d0e6
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGISTER_NOTIFY_FLAG, NCryptNotifyChangeKey, NCryptNotifyChangeKey function [Security], ncrypt/NCryptNotifyChangeKey, security.ncryptnotifychangekey
-f1_keywords:
-- ncrypt/NCryptNotifyChangeKey
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptNotifyChangeKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptNotifyChangeKey
+ - ncrypt/NCryptNotifyChangeKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptNotifyChangeKey
 ---
 
 # NCryptNotifyChangeKey function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptNotifyChangeKey</b> function creates or removes a key change notification.
 
-The handle provided by this function is the same handle that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function. You use the <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> to wait for the notification handle to be signaled.
-
+The handle provided by this function is the same handle that is returned by the <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function. You use the <a href="/windows/desktop/Sync/wait-functions">wait functions</a> to wait for the notification handle to be signaled.
 
 ## -parameters
 
-
-
-
 ### -param hProvider [in]
 
-The handle of the key storage provider. This handle is obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
-
+The handle of the key storage provider. This handle is obtained by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 ### -param phEvent [in, out]
 
-The address of a <b>HANDLE</b> variable that either receives or contains the key change notification event handle. This is the same handle that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function. For more information, see the <i>dwFlags</i> parameter description.
-
+The address of a <b>HANDLE</b> variable that either receives or contains the key change notification event handle. This is the same handle that is returned by the <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a> function. For more information, see the <i>dwFlags</i> parameter description.
 
 ### -param dwFlags [in]
 
@@ -112,12 +107,8 @@ Receive change notifications for keys in the machine key store. If this flag is 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -176,27 +167,11 @@ One or more parameters are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstchangenotificationa">FindFirstChangeNotification</a>

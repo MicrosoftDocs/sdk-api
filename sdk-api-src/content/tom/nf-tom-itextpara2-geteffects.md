@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara2.GetEffects
 title: ITextPara2::GetEffects (tom.h)
 description: Gets the paragraph format effects.
+helpviewer_keywords: ["GetEffects","GetEffects method [Windows Controls]","GetEffects method [Windows Controls]","ITextPara2 interface","ITextPara2 interface [Windows Controls]","GetEffects method","ITextPara2.GetEffects","ITextPara2::GetEffects","controls.itextpara2_geteffects","tom/ITextPara2::GetEffects","tomParaEffectBox","tomParaEffectCollapsed","tomParaEffectDoNotHyphen","tomParaEffectKeep","tomParaEffectKeepNext","tomParaEffectNoLineNumber","tomParaEffectNoWidowControl","tomParaEffectOutlineLevel","tomParaEffectPageBreakBefore","tomParaEffectRTL","tomParaEffectSideBySide","tomParaEffectTable","tomParaEffectTableRowDelimiter"]
 old-location: controls\itextpara2_geteffects.htm
 tech.root: Controls
 ms.assetid: 7f672cc9-e8f3-416a-8f41-9b71ca1858a1
 ms.date: 12/05/2018
 ms.keywords: GetEffects, GetEffects method [Windows Controls], GetEffects method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetEffects method, ITextPara2.GetEffects, ITextPara2::GetEffects, controls.itextpara2_geteffects, tom/ITextPara2::GetEffects, tomParaEffectBox, tomParaEffectCollapsed, tomParaEffectDoNotHyphen, tomParaEffectKeep, tomParaEffectKeepNext, tomParaEffectNoLineNumber, tomParaEffectNoWidowControl, tomParaEffectOutlineLevel, tomParaEffectPageBreakBefore, tomParaEffectRTL, tomParaEffectSideBySide, tomParaEffectTable, tomParaEffectTableRowDelimiter
-f1_keywords:
-- tom/ITextPara2.GetEffects
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara2.GetEffects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara2::GetEffects
+ - tom/ITextPara2::GetEffects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara2.GetEffects
 ---
 
 # ITextPara2::GetEffects
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the paragraph format effects.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out]
 
@@ -155,46 +152,26 @@ The paragraph effects. This value can be a combination of the following flags.
 
 #### tomParaEffectTable
 
-
 ### -param pMask [out]
 
 Type: <b>long*</b>
 
-The differences in the flags over the range. A value of 1 indicates that the corresponding effect is the same over the range. For an insertion point, the values equal 1 for all defined effects. 
-
-
+The differences in the flags over the range. A value of 1 indicates that the corresponding effect is the same over the range. For an insertion point, the values equal 1 for all defined effects.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-If the <b>tomTable</b> flag is set, you can use the  <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-gettable">ITextRange2::GetTable</a> method to get more table properties.
-
-
-
+If the <b>tomTable</b> flag is set, you can use the  <a href="/windows/desktop/api/tom/nf-tom-itextrange2-gettable">ITextRange2::GetTable</a> method to get more table properties.
 
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara2-seteffects">ITextPara2::SetEffects</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextpara2-seteffects">ITextPara2::SetEffects</a>

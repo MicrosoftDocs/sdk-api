@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.ISelectionProvider.get_CanSelectMultiple
 title: ISelectionProvider::get_CanSelectMultiple (uiautomationcore.h)
 description: Indicates whether the Microsoft UI Automation provider allows more than one child element to be selected concurrently.
+helpviewer_keywords: ["CanSelectMultiple property [Windows Accessibility]","CanSelectMultiple property [Windows Accessibility]","ISelectionProvider interface","ISelectionProvider interface [Windows Accessibility]","CanSelectMultiple property","ISelectionProvider.CanSelectMultiple","ISelectionProvider.get_CanSelectMultiple","ISelectionProvider::CanSelectMultiple","ISelectionProvider::get_CanSelectMultiple","get_CanSelectMultiple","uiauto.uiauto_ISelectionProvider_CanSelectMultiple","uiauto_ISelectionProvider_CanSelectMultiple","uiautomationcore/ISelectionProvider::CanSelectMultiple","uiautomationcore/ISelectionProvider::get_CanSelectMultiple","winauto.uiauto_ISelectionProvider_CanSelectMultiple"]
 old-location: winauto\uiauto_ISelectionProvider_CanSelectMultiple.htm
 tech.root: WinAuto
 ms.assetid: 00098f73-4cbe-4cc5-a91a-479721f9b7c1
 ms.date: 12/05/2018
 ms.keywords: CanSelectMultiple property [Windows Accessibility], CanSelectMultiple property [Windows Accessibility],ISelectionProvider interface, ISelectionProvider interface [Windows Accessibility],CanSelectMultiple property, ISelectionProvider.CanSelectMultiple, ISelectionProvider.get_CanSelectMultiple, ISelectionProvider::CanSelectMultiple, ISelectionProvider::get_CanSelectMultiple, get_CanSelectMultiple, uiauto.uiauto_ISelectionProvider_CanSelectMultiple, uiauto_ISelectionProvider_CanSelectMultiple, uiautomationcore/ISelectionProvider::CanSelectMultiple, uiautomationcore/ISelectionProvider::get_CanSelectMultiple, winauto.uiauto_ISelectionProvider_CanSelectMultiple
-f1_keywords:
-- uiautomationcore/ISelectionProvider.CanSelectMultiple
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ISelectionProvider.CanSelectMultiple
-- ISelectionProvider.get_CanSelectMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISelectionProvider::get_CanSelectMultiple
+ - uiautomationcore/ISelectionProvider::get_CanSelectMultiple
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ISelectionProvider.CanSelectMultiple
+ - ISelectionProvider.get_CanSelectMultiple
 ---
 
 # ISelectionProvider::get_CanSelectMultiple
@@ -49,38 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether the Microsoft UI Automation provider 
         allows more than one child element to be selected concurrently.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property may be dynamic. For example, in rare cases a control might allow 
         multiple items to be selected on initialization but subsequently allow only single selections to be made.
-		
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider">ISelectionProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

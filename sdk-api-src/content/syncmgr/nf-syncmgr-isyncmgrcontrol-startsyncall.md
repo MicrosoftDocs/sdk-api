@@ -2,15 +2,12 @@
 UID: NF:syncmgr.ISyncMgrControl.StartSyncAll
 title: ISyncMgrControl::StartSyncAll (syncmgr.h)
 description: Synchronizes all items managed by all handlers.
+helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","StartSyncAll method","ISyncMgrControl.StartSyncAll","ISyncMgrControl::StartSyncAll","StartSyncAll","StartSyncAll method [Windows Shell]","StartSyncAll method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_StartSyncAll","shell.ISyncMgrControl_StartSyncAll","syncmgr/ISyncMgrControl::StartSyncAll"]
 old-location: shell\ISyncMgrControl_StartSyncAll.htm
 tech.root: shell
 ms.assetid: 3b0d5070-1866-4346-b2bf-93b48a952af6
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartSyncAll method, ISyncMgrControl.StartSyncAll, ISyncMgrControl::StartSyncAll, StartSyncAll, StartSyncAll method [Windows Shell], StartSyncAll method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartSyncAll, shell.ISyncMgrControl_StartSyncAll, syncmgr/ISyncMgrControl::StartSyncAll
-f1_keywords:
-- syncmgr/ISyncMgrControl.StartSyncAll
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrControl.StartSyncAll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrControl::StartSyncAll
+ - syncmgr/ISyncMgrControl::StartSyncAll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrControl.StartSyncAll
 ---
 
 # ISyncMgrControl::StartSyncAll
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Synchronizes all items managed by all handlers.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in]
 
@@ -63,23 +60,15 @@ Type: <b>HWND</b>
 
 A handle to a window that can be used by a handler or item to display any necessary UI. This value can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-This method is analogous to <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateall">UpdateAll</a>.
+This method is analogous to <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateall">UpdateAll</a>.
 
 
 #### Examples
@@ -112,7 +101,3 @@ void CMyDeviceHandler::MiscProc(...)
 }
 
 ```
-
-
-
-

@@ -1,12 +1,9 @@
 ---
 UID: NE:wlanapi._DOT11_RADIO_STATE~r1
 title: DOT11_RADIO_STATE
-ms.date: 01/30/19
+description: The DOT11_RADIO_STATE enumeration specifies an 802.11 radio state.
+ms.date: 08/16/2022
 ms.keywords: _DOT11_RADIO_STATE, DOT11_RADIO_STATE
-f1_keywords:
-- wlanapi/_DOT11_RADIO_STATE
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -14,20 +11,29 @@ req.header: wlanapi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
+f1_keywords:
+ - _DOT11_RADIO_STATE
+ - wlanapi/_DOT11_RADIO_STATE
+ - PDOT11_RADIO_STATE
+ - wlanapi/PDOT11_RADIO_STATE
+ - DOT11_RADIO_STATE
+ - wlanapi/DOT11_RADIO_STATE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- wlanapi.h
+ - wlanapi.h
 api_name:
-- _DOT11_RADIO_STATE
-- DOT11_RADIO_STATE
+ - _DOT11_RADIO_STATE
+ - DOT11_RADIO_STATE
 ---
 
 # DOT11_RADIO_STATE enumeration
@@ -37,27 +43,22 @@ api_name:
 
 The <b>DOT11_RADIO_STATE</b> enumeration specifies an 802.11 radio state.
 
-
 ## -enum-fields
 
-### -field dot11_radio_state_unknown
+### -field dot11_radio_state_unknown:0
 
 The radio state is unknown.
-
 
 ### -field dot11_radio_state_on
 
 The radio is on.
 
-
 ### -field dot11_radio_state_off
 
 The radio is off.
-
 
 ## -remarks
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a>
-
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_phy_radio_state">WLAN_PHY_RADIO_STATE</a>

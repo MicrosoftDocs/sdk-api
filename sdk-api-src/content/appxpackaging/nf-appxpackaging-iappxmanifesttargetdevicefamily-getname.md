@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetName
 title: IAppxManifestTargetDeviceFamily::GetName (appxpackaging.h)
 description: Gets the name of the target device family from the AppxManifest.xml..
+helpviewer_keywords: ["GetName","GetName method [App packaging and management]","GetName method [App packaging and management]","IAppxManifestTargetDeviceFamily interface","IAppxManifestTargetDeviceFamily interface [App packaging and management]","GetName method","IAppxManifestTargetDeviceFamily.GetName","IAppxManifestTargetDeviceFamily::GetName","appxpackaging/IAppxManifestTargetDeviceFamily::GetName","appxpkg.iappxmanifesttargetdevicefamily_getname"]
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getname.htm
 tech.root: appxpkg
 ms.assetid: B7D3A0D3-421D-4A40-AF40-516AE51E06D4
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetName method, IAppxManifestTargetDeviceFamily.GetName, IAppxManifestTargetDeviceFamily::GetName, appxpackaging/IAppxManifestTargetDeviceFamily::GetName, appxpkg.iappxmanifesttargetdevicefamily_getname
-f1_keywords:
-- appxpackaging/IAppxManifestTargetDeviceFamily.GetName
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestTargetDeviceFamily.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestTargetDeviceFamily::GetName
+ - appxpackaging/IAppxManifestTargetDeviceFamily::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestTargetDeviceFamily.GetName
 ---
 
 # IAppxManifestTargetDeviceFamily::GetName
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the name of the target device family from the AppxManifest.xml..
 
-
 ## -parameters
-
-
-
 
 ### -param name [out, retval]
 
 The target device family name.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifesttargetdevicefamily">IAppxManifestTargetDeviceFamily</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifesttargetdevicefamily">IAppxManifestTargetDeviceFamily</a>

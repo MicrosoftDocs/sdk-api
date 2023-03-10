@@ -2,15 +2,12 @@
 UID: NF:mmstream.IMultiMediaStream.GetState
 title: IMultiMediaStream::GetState (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetState method retrieves the current state of the multimedia stream object.
+helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetState method","IMultiMediaStream.GetState","IMultiMediaStream::GetState","IMultiMediaStreamGetState","dshow.imultimediastream_getstate","mmstream/IMultiMediaStream::GetState"]
 old-location: dshow\imultimediastream_getstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8d01c4cf-2de9-4e9c-8b6e-921284f4f1b6
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetState method, IMultiMediaStream.GetState, IMultiMediaStream::GetState, IMultiMediaStreamGetState, dshow.imultimediastream_getstate, mmstream/IMultiMediaStream::GetState
-f1_keywords:
-- mmstream/IMultiMediaStream.GetState
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IMultiMediaStream.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiMediaStream::GetState
+ - mmstream/IMultiMediaStream::GetState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IMultiMediaStream.GetState
 ---
 
 # IMultiMediaStream::GetState
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>GetState</code> method retrieves the current state of the multimedia stream object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCurrentState [out]
 
-Pointer to a variable that receives a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_state">STREAM_STATE</a> enumeration.
-
+Pointer to a variable that receives a member of the <a href="/previous-versions/windows/desktop/api/mmstream/ne-mmstream-stream_state">STREAM_STATE</a> enumeration.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -101,18 +92,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>

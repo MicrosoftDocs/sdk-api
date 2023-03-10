@@ -1,16 +1,13 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_LocalRevocationInformation
 title: IOCSPCAConfiguration::get_LocalRevocationInformation (certadm.h)
-description: Gets or sets the certificate revocation list (CRL) of the local machine.
+description: Gets or sets the certificate revocation list (CRL) of the local machine. (Get)
+helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","LocalRevocationInformation property","IOCSPCAConfiguration.LocalRevocationInformation","IOCSPCAConfiguration.get_LocalRevocationInformation","IOCSPCAConfiguration::LocalRevocationInformation","IOCSPCAConfiguration::get_LocalRevocationInformation","IOCSPCAConfiguration::put_LocalRevocationInformation","LocalRevocationInformation property [Security]","LocalRevocationInformation property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::LocalRevocationInformation","certadm/IOCSPCAConfiguration::get_LocalRevocationInformation","certadm/IOCSPCAConfiguration::put_LocalRevocationInformation","get_LocalRevocationInformation","security.iocspcaconfiguration_localrevocationinformation"]
 old-location: security\iocspcaconfiguration_localrevocationinformation.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 76581c1c-9eba-456c-b1cb-ff61e530a53a
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],LocalRevocationInformation property, IOCSPCAConfiguration.LocalRevocationInformation, IOCSPCAConfiguration.get_LocalRevocationInformation, IOCSPCAConfiguration::LocalRevocationInformation, IOCSPCAConfiguration::get_LocalRevocationInformation, IOCSPCAConfiguration::put_LocalRevocationInformation, LocalRevocationInformation property [Security], LocalRevocationInformation property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::LocalRevocationInformation, certadm/IOCSPCAConfiguration::get_LocalRevocationInformation, certadm/IOCSPCAConfiguration::put_LocalRevocationInformation, get_LocalRevocationInformation, security.iocspcaconfiguration_localrevocationinformation
-f1_keywords:
-- certadm/IOCSPCAConfiguration.LocalRevocationInformation
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPCAConfiguration.LocalRevocationInformation
-- IOCSPCAConfiguration.get_LocalRevocationInformation
-- IOCSPCAConfiguration.put_LocalRevocationInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPCAConfiguration::get_LocalRevocationInformation
+ - certadm/IOCSPCAConfiguration::get_LocalRevocationInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPCAConfiguration.LocalRevocationInformation
+ - IOCSPCAConfiguration.get_LocalRevocationInformation
+ - IOCSPCAConfiguration.put_LocalRevocationInformation
 ---
 
 # IOCSPCAConfiguration::get_LocalRevocationInformation
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
- The <b>LocalRevocationInformation</b> property gets or sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) of the local machine. This list provides additional revocation information, or supersedes information from the revocation provider configured by <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerclsid">ProviderCLSID</a>.
+ The <b>LocalRevocationInformation</b> property gets or sets the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) of the local machine. This list provides additional revocation information, or supersedes information from the revocation provider configured by <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfiguration-get_providerclsid">ProviderCLSID</a>.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The CRL used for the <b>LocalRevocationInformation</b> property can be signed or not signed. There is no signature verification for the CRL.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

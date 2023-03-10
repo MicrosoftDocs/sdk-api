@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICertificationAuthorities.Remove
 title: ICertificationAuthorities::Remove (certenroll.h)
 description: Removes an ICertificationAuthority object from the collection by index number.
+helpviewer_keywords: ["ICertificationAuthorities interface [Security]","Remove method","ICertificationAuthorities.Remove","ICertificationAuthorities::Remove","Remove","Remove method [Security]","Remove method [Security]","ICertificationAuthorities interface","certenroll/ICertificationAuthorities::Remove","security.icertificationauthorities_remove"]
 old-location: security\icertificationauthorities_remove.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 97fb196f-eba0-4d73-b89b-f2eb477747fe
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthorities interface [Security],Remove method, ICertificationAuthorities.Remove, ICertificationAuthorities::Remove, Remove, Remove method [Security], Remove method [Security],ICertificationAuthorities interface, certenroll/ICertificationAuthorities::Remove, security.icertificationauthorities_remove
-f1_keywords:
-- certenroll/ICertificationAuthorities.Remove
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- ICertificationAuthorities.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertificationAuthorities::Remove
+ - certenroll/ICertificationAuthorities::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - ICertificationAuthorities.Remove
 ---
 
 # ICertificationAuthorities::Remove
@@ -48,42 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Remove</b> method removes an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> object from the collection by index number.
-
+The <b>Remove</b> method removes an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> object from the collection by index number.
 
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 A <b>LONG</b> variable that contains the index of the object to remove.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthorities">ICertificationAuthorities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthorities">ICertificationAuthorities</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>

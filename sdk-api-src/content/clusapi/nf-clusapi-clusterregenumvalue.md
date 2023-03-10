@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterRegEnumValue
 title: ClusterRegEnumValue function (clusapi.h)
 description: Enumerates the values of an open cluster database key.
+helpviewer_keywords: ["ClusterRegEnumValue","ClusterRegEnumValue function [Failover Cluster]","REG_BINARY","REG_DWORD","REG_DWORD_BIG_ENDIAN","REG_EXPAND_SZ","REG_MULTI_SZ","REG_NONE","REG_QWORD","REG_SZ","_wolf_clusterregenumvalue","clusapi/ClusterRegEnumValue","mscs.clusterregenumvalue"]
 old-location: mscs\clusterregenumvalue.htm
 tech.root: MsCS
 ms.assetid: 4ea2fc6f-6b52-4fa1-8d71-5bbae72368b3
 ms.date: 12/05/2018
 ms.keywords: ClusterRegEnumValue, ClusterRegEnumValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregenumvalue, clusapi/ClusterRegEnumValue, mscs.clusterregenumvalue
-f1_keywords:
-- clusapi/ClusterRegEnumValue
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterRegEnumValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegEnumValue
+ - clusapi/ClusterRegEnumValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterRegEnumValue
 ---
 
 # ClusterRegEnumValue function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the 
-    values of an open <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
-
+    values of an open <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 Handle of the cluster database key to enumerate.
-
 
 ### -param dwIndex [in]
 
@@ -73,11 +69,9 @@ Because values are not ordered, any new value has an arbitrary index. This means
        <b>ClusterRegEnumValue</b> may return values in any 
        order.
 
-
 ### -param lpszValueName [out]
 
 Pointer to a null-terminated Unicode string containing the name of the returned value.
-
 
 ### -param lpcchValueName [in, out]
 
@@ -85,7 +79,6 @@ Pointer to the size of the <i>lpszValueName</i> buffer as a count of characters.
        specify the maximum number of characters the buffer can hold, including the terminating 
        <b>NULL</b>. On output, specifies the number of characters in the resulting name, excluding 
        the terminating <b>NULL</b>.
-
 
 ### -param lpdwType [out, optional]
 
@@ -149,12 +142,10 @@ A 64-bit number.
 
 A null-terminated Unicode string.
 
-
 ### -param lpData [out, optional]
 
 Pointer to the data for the value entry. This parameter can be <b>NULL</b> if the data is 
        not required.
-
 
 ### -param lpcbData [in, out, optional]
 
@@ -162,10 +153,7 @@ On input, pointer to a count of bytes in the buffer pointed to by the <i>lpbData
        parameter. On output, pointer to a count of bytes resulting from the operation. This parameter can be 
        <b>NULL</b> only if <i>lpbData</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -217,7 +205,7 @@ One of the output buffers (<i>lpszValueName</i> or <i>lpbData</i>) is
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
+<dt><b><a href="/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -226,18 +214,7 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>

@@ -2,15 +2,12 @@
 UID: NN:d2d1_3.ID2D1SvgGlyphStyle
 title: ID2D1SvgGlyphStyle (d2d1_3.h)
 description: This object supplies the values for context-fill, context-stroke, and context-value that are used when rendering SVG glyphs.
+helpviewer_keywords: ["ID2D1SvgGlyphStyle","ID2D1SvgGlyphStyle interface [Direct2D]","ID2D1SvgGlyphStyle interface [Direct2D]","described","d2d1_3/ID2D1SvgGlyphStyle","direct2d.id2d1svgglyphstyle"]
 old-location: direct2d\id2d1svgglyphstyle.htm
 tech.root: Direct2D
 ms.assetid: FE01771A-D82A-4610-8014-E0C0C0C5402E
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgGlyphStyle, ID2D1SvgGlyphStyle interface [Direct2D], ID2D1SvgGlyphStyle interface [Direct2D],described, d2d1_3/ID2D1SvgGlyphStyle, direct2d.id2d1svgglyphstyle
-f1_keywords:
-- d2d1_3/ID2D1SvgGlyphStyle
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1SvgGlyphStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1SvgGlyphStyle
+ - d2d1_3/ID2D1SvgGlyphStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1SvgGlyphStyle
 ---
 
 # ID2D1SvgGlyphStyle interface
@@ -48,71 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 This object supplies the values for context-fill, context-stroke, and context-value that are used when rendering SVG glyphs.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SvgGlyphStyle</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgGlyphStyle</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID2D1SvgGlyphStyle</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-getfill">GetFill</a>
-</td>
-<td align="left" width="63%">
-Returns the requested fill parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-getstroke">GetStroke</a>
-</td>
-<td align="left" width="63%">
-Returns the requested stroke parameters.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-getstrokedashescount">GetStrokeDashesCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of dashes in the dash array.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-setfill">SetFill</a>
-</td>
-<td align="left" width="63%">
-Provides values to an SVG glyph for fill.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1svgglyphstyle-setstroke">SetStroke</a>
-</td>
-<td align="left" width="63%">
-Provides values to an SVG glyph for stroke properties. The brush with opacity
-        set to 1 is used as the 'context-stroke'. The opacity of the brush is used as
-        the 'context-stroke-opacity' value.
-
-</td>
-</tr>
-</table> 
+The <b>ID2D1SvgGlyphStyle</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SvgGlyphStyle</b> also has these types of members:
 

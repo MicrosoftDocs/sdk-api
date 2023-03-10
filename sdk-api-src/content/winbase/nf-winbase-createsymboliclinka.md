@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkA
 title: CreateSymbolicLinkA function (winbase.h)
-description: Creates a symbolic link.
+description: Creates a symbolic link. (ANSI)
+helpviewer_keywords: ["CreateSymbolicLinkA", "SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE", "SYMBOLIC_LINK_FLAG_DIRECTORY", "winbase/CreateSymbolicLinkA"]
 old-location: fs\createsymboliclink.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
 ms.date: 12/05/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymbolicLinkA, CreateSymbolicLinkW, SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclink, winbase/CreateSymbolicLink, winbase/CreateSymbolicLinkA, winbase/CreateSymbolicLinkW
-f1_keywords:
-- winbase/CreateSymbolicLink
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- CreateSymbolicLink
-- CreateSymbolicLinkA
-- CreateSymbolicLinkW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateSymbolicLinkA
+ - winbase/CreateSymbolicLinkA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - CreateSymbolicLink
+ - CreateSymbolicLinkA
+ - CreateSymbolicLinkW
 ---
 
 # CreateSymbolicLinkA function
@@ -57,17 +59,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a symbolic link.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsymboliclinktransacteda">CreateSymbolicLinkTransacted</a> function.
-
+    <a href="/windows/desktop/api/winbase/nf-winbase-createsymboliclinktransacteda">CreateSymbolicLinkTransacted</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpSymlinkFileName [in]
 
@@ -76,9 +73,9 @@ The symbolic link to be created.
 This parameter may include the path. In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateSymbolicLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateSymbolicLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param lpTargetFileName [in]
@@ -91,9 +88,9 @@ The name of the target for the symbolic link to be created.
 This parameter may include the path. In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateSymbolicLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CreateSymbolicLinkW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param dwFlags [in]
@@ -134,29 +131,20 @@ The link target is a directory.
 </dl>
 </td>
 <td width="60%">
-Specify this flag to allow creation of symbolic links when the process is not elevated. <a href="https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development">Developer Mode</a> must first be enabled on the machine before  this option will function.
+Specify this flag to allow creation of symbolic links when the process is not elevated. <a href="/windows/uwp/get-started/enable-your-device-for-development">Developer Mode</a> must first be enabled on the machine before  this option will function.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Symbolic links can either be absolute or relative links. Absolute links are links that specify each portion of 
     the path name; relative links are determined relative to where relative–link specifiers are 
@@ -165,7 +153,7 @@ Symbolic links can either be absolute or relative links. Absolute links are link
 <ul>
 <li>Dot (. and ..) conventions—for example, 
       "..\" resolves the path relative to the parent directory.</li>
-<li>Names with no slashes (\)—for example, "tmp" resolves 
+<li>Names with no slashes (\\)—for example, "tmp" resolves 
       the path relative to the current directory.</li>
 <li>Root relative—for example, "\Windows\System32" resolves 
       to "<i>current drive</i>:\Windows\System32".</li>
@@ -179,8 +167,8 @@ Symbolic links can either be absolute or relative links. Absolute links are link
 </li>
 </ul>
 To remove a symbolic link, delete the file (using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> or similar APIs) or remove the directory (using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-removedirectorya">RemoveDirectory</a> or similar APIs) depending on what type 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> or similar APIs) or remove the directory (using 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-removedirectorya">RemoveDirectory</a> or similar APIs) depending on what type 
     of symbolic link is used.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -249,21 +237,18 @@ CsvFs does not support soft link or any other reparse points.
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines CreateSymbolicLink as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-createsymboliclinktransacteda">CreateSymbolicLinkTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createsymboliclinktransacteda">CreateSymbolicLinkTransacted</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>

@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellBrowser.BrowseObject
 title: IShellBrowser::BrowseObject (shobjidl_core.h)
 description: Informs Windows Explorer to browse to another folder.
+helpviewer_keywords: ["BrowseObject","BrowseObject method [Windows Shell]","BrowseObject method [Windows Shell]","IShellBrowser interface","IShellBrowser interface [Windows Shell]","BrowseObject method","IShellBrowser.BrowseObject","IShellBrowser::BrowseObject","SBSP_ABSOLUTE","SBSP_ACTIVATE_NOFOCUS","SBSP_ALLOW_AUTONAVIGATE","SBSP_CALLERUNTRUSTED","SBSP_CREATENOHISTORY","SBSP_DEFBROWSER","SBSP_DEFMODE","SBSP_EXPLOREMODE","SBSP_FEEDNAVIGATION","SBSP_HELPMODE","SBSP_INITIATEDBYHLINKFRAME","SBSP_KEEPSAMETEMPLATE","SBSP_KEEPWORDWHEELTEXT","SBSP_NAVIGATEBACK","SBSP_NAVIGATEFORWARD","SBSP_NEWBROWSER","SBSP_NOAUTOSELECT","SBSP_NOTRANSFERHIST","SBSP_OPENMODE","SBSP_PARENT","SBSP_PLAYNOSOUND","SBSP_REDIRECT","SBSP_RELATIVE","SBSP_SAMEBROWSER","SBSP_TRUSTEDFORACTIVEX","SBSP_TRUSTFIRSTDOWNLOAD","SBSP_UNTRUSTEDFORDOWNLOAD","SBSP_WRITENOHISTORY","_win32_IShellBrowser_BrowseObject","shell.IShellBrowser_BrowseObject","shobjidl_core/IShellBrowser::BrowseObject"]
 old-location: shell\IShellBrowser_BrowseObject.htm
 tech.root: shell
 ms.assetid: e391ca11-25e3-4d97-8efd-0afd74a3e5c2
 ms.date: 12/05/2018
 ms.keywords: BrowseObject, BrowseObject method [Windows Shell], BrowseObject method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],BrowseObject method, IShellBrowser.BrowseObject, IShellBrowser::BrowseObject, SBSP_ABSOLUTE, SBSP_ACTIVATE_NOFOCUS, SBSP_ALLOW_AUTONAVIGATE, SBSP_CALLERUNTRUSTED, SBSP_CREATENOHISTORY, SBSP_DEFBROWSER, SBSP_DEFMODE, SBSP_EXPLOREMODE, SBSP_FEEDNAVIGATION, SBSP_HELPMODE, SBSP_INITIATEDBYHLINKFRAME, SBSP_KEEPSAMETEMPLATE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_NEWBROWSER, SBSP_NOAUTOSELECT, SBSP_NOTRANSFERHIST, SBSP_OPENMODE, SBSP_PARENT, SBSP_PLAYNOSOUND, SBSP_REDIRECT, SBSP_RELATIVE, SBSP_SAMEBROWSER, SBSP_TRUSTEDFORACTIVEX, SBSP_TRUSTFIRSTDOWNLOAD, SBSP_UNTRUSTEDFORDOWNLOAD, SBSP_WRITENOHISTORY, _win32_IShellBrowser_BrowseObject, shell.IShellBrowser_BrowseObject, shobjidl_core/IShellBrowser::BrowseObject
-f1_keywords:
-- shobjidl_core/IShellBrowser.BrowseObject
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellBrowser.BrowseObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellBrowser::BrowseObject
+ - shobjidl_core/IShellBrowser::BrowseObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellBrowser.BrowseObject
 ---
 
 # IShellBrowser::BrowseObject
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Informs Windows Explorer to browse to another folder.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) structure that specifies an object's location. This value is dependent on the flag or flags set in the <i>wFlags</i> parameter.
-
+The address of an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) structure that specifies an object's location. This value is dependent on the flag or flags set in the <i>wFlags</i> parameter.
 
 ### -param wFlags
 
@@ -285,23 +281,15 @@ Enables redirection to another URL.
 
 #### SBSP_PLAYNOSOUND (0x00200000)
 
-<b>Windows 7 and later</b>.  Do not make the navigation complete sound for each keystroke in the search box.  
-
+<b>Windows 7 and later</b>.  Do not make the navigation complete sound for each keystroke in the search box.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Views can use this method to force Windows Explorer to browse to a specific place in the namespace. Typically, these are folders contained in the view.
 
@@ -322,17 +310,6 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>

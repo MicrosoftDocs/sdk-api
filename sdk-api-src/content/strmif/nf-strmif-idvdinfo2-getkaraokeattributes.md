@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetKaraokeAttributes
 title: IDvdInfo2::GetKaraokeAttributes (strmif.h)
 description: The GetKaraokeAttributes method retrieves the karaoke attributes of the specified audio stream in the current title or menu.
+helpviewer_keywords: ["GetKaraokeAttributes","GetKaraokeAttributes method [DirectShow]","GetKaraokeAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetKaraokeAttributes method","IDvdInfo2.GetKaraokeAttributes","IDvdInfo2::GetKaraokeAttributes","IDvdInfo2GetKaraokeAttributes","dshow.idvdinfo2_getkaraokeattributes","strmif/IDvdInfo2::GetKaraokeAttributes"]
 old-location: dshow\idvdinfo2_getkaraokeattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c69ea1e0-8d8a-4cd3-86a4-a2d481160a2e
 ms.date: 12/05/2018
 ms.keywords: GetKaraokeAttributes, GetKaraokeAttributes method [DirectShow], GetKaraokeAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetKaraokeAttributes method, IDvdInfo2.GetKaraokeAttributes, IDvdInfo2::GetKaraokeAttributes, IDvdInfo2GetKaraokeAttributes, dshow.idvdinfo2_getkaraokeattributes, strmif/IDvdInfo2::GetKaraokeAttributes
-f1_keywords:
-- strmif/IDvdInfo2.GetKaraokeAttributes
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetKaraokeAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetKaraokeAttributes
+ - strmif/IDvdInfo2::GetKaraokeAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetKaraokeAttributes
 ---
 
 # IDvdInfo2::GetKaraokeAttributes
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetKaraokeAttributes</code> method retrieves the karaoke attributes of the specified audio stream in the current title or menu.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulStream [in]
 
 Specifies the index of the audio stream whose attributes you want to query. See Remarks.
 
-
 ### -param pAttributes [out]
 
-Pointer to a [DVD_KaraokeAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes) structure that is filled with the karaoke attributes.
-
+Pointer to a [DVD_KaraokeAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_karaokeattributes) structure that is filled with the karaoke attributes.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -111,7 +101,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
@@ -149,16 +139,10 @@ The karaoke attributes for the specified stream are not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method does not explicitly return the number of channels in the stream. You can obtain that information through a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>. This method is demonstrated in the DVDSample application in <b>CKaraokeDlg::DoModal</b>.
+This method does not explicitly return the number of channels in the stream. You can obtain that information through a call to <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>. This method is demonstrated in the DVDSample application in <b>CKaraokeDlg::DoModal</b>.
 
 The <i>ulStream</i> parameter may be a value from 0 through 7, or one of the following:
 
@@ -178,26 +162,15 @@ The <i>ulStream</i> parameter may be a value from 0 through 7, or one of the fol
 <td>To query the default audio stream.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

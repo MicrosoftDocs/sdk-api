@@ -2,15 +2,12 @@
 UID: NL:vswriter.IVssExpressWriter
 title: IVssExpressWriter (vswriter.h)
 description: Defines methods to manage metadata for a VSS express writer.
+helpviewer_keywords: ["IVssExpressWriter","IVssExpressWriter interface","IVssExpressWriter interface","described","base.ivssexpresswriter","vswriter/IVssExpressWriter"]
 old-location: base\ivssexpresswriter.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface,described, base.ivssexpresswriter, vswriter/IVssExpressWriter
-f1_keywords:
-- vswriter/IVssExpressWriter
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsWriter.h
-api_name:
-- IVssExpressWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExpressWriter
+ - vswriter/IVssExpressWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsWriter.h
+api_name:
+ - IVssExpressWriter
 ---
 
 # IVssExpressWriter class
@@ -48,71 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines methods to manage metadata for a VSS express writer.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExpressWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssExpressWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVssExpressWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a>
-</td>
-<td align="left" width="63%">
-Creates an express writer metadata object and returns an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a> interface pointer to it.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-loadmetadata">LoadMetadata</a>
-</td>
-<td align="left" width="63%">
-Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-register">Register</a>
-</td>
-<td align="left" width="63%">
-Causes VSS to store the writer's metadata in the express writer metadata store.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-unregister">Unregister</a>
-</td>
-<td align="left" width="63%">
-Causes VSS to delete the writer's metadata from the express writer metadata store.
-
-</td>
-</tr>
-</table> 
-
+The <b>IVssExpressWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssExpressWriter</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-createvssexpresswriter">CreateVssExpressWriter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-createvssexpresswriter">CreateVssExpressWriter</a>

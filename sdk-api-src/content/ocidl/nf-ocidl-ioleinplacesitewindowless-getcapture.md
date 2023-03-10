@@ -2,15 +2,12 @@
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetCapture
 title: IOleInPlaceSiteWindowless::GetCapture (ocidl.h)
 description: Called by an in-place active, windowless object to determine whether it still has the mouse capture.
+helpviewer_keywords: ["GetCapture","GetCapture method [COM]","GetCapture method [COM]","IOleInPlaceSiteWindowless interface","IOleInPlaceSiteWindowless interface [COM]","GetCapture method","IOleInPlaceSiteWindowless.GetCapture","IOleInPlaceSiteWindowless::GetCapture","_ole_ioleinplacesitewindowless_getcapture","com.ioleinplacesitewindowless_getcapture","ocidl/IOleInPlaceSiteWindowless::GetCapture"]
 old-location: com\ioleinplacesitewindowless_getcapture.htm
 tech.root: com
 ms.assetid: adbe9c66-d716-4489-b705-43a5317c7646
 ms.date: 12/05/2018
 ms.keywords: GetCapture, GetCapture method [COM], GetCapture method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetCapture method, IOleInPlaceSiteWindowless.GetCapture, IOleInPlaceSiteWindowless::GetCapture, _ole_ioleinplacesitewindowless_getcapture, com.ioleinplacesitewindowless_getcapture, ocidl/IOleInPlaceSiteWindowless::GetCapture
-f1_keywords:
-- ocidl/IOleInPlaceSiteWindowless.GetCapture
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceSiteWindowless.GetCapture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteWindowless::GetCapture
+ - ocidl/IOleInPlaceSiteWindowless::GetCapture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceSiteWindowless.GetCapture
 ---
 
 # IOleInPlaceSiteWindowless::GetCapture
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by an in-place active, windowless object to determine whether it still has the mouse capture.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -82,27 +75,11 @@ The object does not currently have the mouse capture.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 As an alternative to calling this method, the object can cache information about whether it has the mouse capture.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>

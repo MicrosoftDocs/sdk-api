@@ -2,15 +2,12 @@
 UID: NN:imapi2fs.IFsiNamedStreams
 title: IFsiNamedStreams (imapi2fs.h)
 description: Use this interface to enumerate the named streams associated with a file in a file system image.
+helpviewer_keywords: ["IFsiNamedStreams","IFsiNamedStreams interface [IMAPI]","IFsiNamedStreams interface [IMAPI]","described","imapi.ifsinamedstreams","imapi2fs/IFsiNamedStreams"]
 old-location: imapi\ifsinamedstreams.htm
 tech.root: imapi
 ms.assetid: 383a83e4-5dc2-459a-a58f-b6ce7a656348
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams, IFsiNamedStreams interface [IMAPI], IFsiNamedStreams interface [IMAPI],described, imapi.ifsinamedstreams, imapi2fs/IFsiNamedStreams
-f1_keywords:
-- imapi2fs/IFsiNamedStreams
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiNamedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiNamedStreams
+ - imapi2fs/IFsiNamedStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiNamedStreams
 ---
 
 # IFsiNamedStreams interface
@@ -48,69 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this interface to enumerate the named streams associated with a file in a file system image.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsiNamedStreams</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsiNamedStreams</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IFsiNamedStreams</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_count">get_Count</a>
-</td>
-<td align="left" width="63%">
-Returns the number of the named streams associated with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_enumnamedstreams">get_EnumNamedStreams</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IEnumFsiItems</b> list of named streams associated with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get_item">get_Item</a>
-</td>
-<td align="left" width="63%">
-Retrieves a named stream associated with a file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsinamedstreams-get__newenum">get_NewEnum</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <b>IEnumVARIANT</b> list of the named streams associated with a file.
-
-</td>
-</tr>
-</table> 
-
+The <b>IFsiNamedStreams</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsiNamedStreams</b> also has these types of members:
 
 ## -remarks
 
-
-
-To access this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams">IFsiFileItem2::get_FsiNamedStreams</a> method of a file item object representing a standard or 'Real-Time' file.
+To access this interface, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem2-get_fsinamedstreams">IFsiFileItem2::get_FsiNamedStreams</a> method of a file item object representing a standard or 'Real-Time' file.
 
 This interface is provided only for file item objects representing regular or 'Real-Time' files. Named streams cannot have other name streams associated with them.
 
@@ -118,24 +66,14 @@ UDF must be enabled and set to UDF revision 2.00 or later in order to enable nam
 
 This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>

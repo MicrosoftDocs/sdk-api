@@ -2,15 +2,12 @@
 UID: NF:fwpmu.IPsecKeyManagerUnregisterAndDelete0
 title: IPsecKeyManagerUnregisterAndDelete0 function (fwpmu.h)
 description: Unregisters a Trusted Intermediary Agent (TIA) which had previously been registered with IPsec.
+helpviewer_keywords: ["IPsecKeyManagerUnregisterAndDelete0","IPsecKeyManagerUnregisterAndDelete0 function [Filtering]","fwp.ipseckeymanagerunregisteranddelete0","fwpmu/IPsecKeyManagerUnregisterAndDelete0"]
 old-location: fwp\ipseckeymanagerunregisteranddelete0.htm
 tech.root: fwp
 ms.assetid: 6A200451-3528-4728-A2D1-643385BA23E6
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagerUnregisterAndDelete0, IPsecKeyManagerUnregisterAndDelete0 function [Filtering], fwp.ipseckeymanagerunregisteranddelete0, fwpmu/IPsecKeyManagerUnregisterAndDelete0
-f1_keywords:
-- fwpmu/IPsecKeyManagerUnregisterAndDelete0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- IPsecKeyManagerUnregisterAndDelete0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPsecKeyManagerUnregisterAndDelete0
+ - fwpmu/IPsecKeyManagerUnregisterAndDelete0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - IPsecKeyManagerUnregisterAndDelete0
 ---
 
 # IPsecKeyManagerUnregisterAndDelete0 function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPsecKeyManagerUnregisterAndDelete0</b> function unregisters a Trusted Intermediary Agent (TIA) which had previously been registered with IPsec.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
 Type: <b>HANDLE</b>
 
-A handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
-
+A handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param keyMgmtHandle [in]
 
@@ -70,10 +66,7 @@ Type: <b>HANDLE</b>
 
 Address of the previously created registration.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -102,7 +95,7 @@ The TIA was successfully unregistered.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -119,18 +112,7 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>

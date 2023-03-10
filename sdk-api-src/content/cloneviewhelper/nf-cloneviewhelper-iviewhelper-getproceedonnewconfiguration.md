@@ -2,15 +2,12 @@
 UID: NF:cloneviewhelper.IViewHelper.GetProceedOnNewConfiguration
 title: IViewHelper::GetProceedOnNewConfiguration (cloneviewhelper.h)
 description: The GetProceedOnNewConfiguration method allows the user-mode display driver to suppress the TMM user interface and display changing actions on a new, two-monitor configuration.
+helpviewer_keywords: ["GetProceedOnNewConfiguration","GetProceedOnNewConfiguration method [Display Devices]","GetProceedOnNewConfiguration method [Display Devices]","IViewHelper interface","IViewHelper interface [Display Devices]","GetProceedOnNewConfiguration method","IViewHelper.GetProceedOnNewConfiguration","IViewHelper::GetProceedOnNewConfiguration","TMM_Ref_3cc57f4b-1882-4f95-955c-23b6e8635a98.xml","cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration","display.iviewhelper_getproceedonnewconfiguration"]
 old-location: display\iviewhelper_getproceedonnewconfiguration.htm
 tech.root: display
 ms.assetid: 223fc545-0fe8-4907-870a-7c0e4ec2f2e8
 ms.date: 12/05/2018
 ms.keywords: GetProceedOnNewConfiguration, GetProceedOnNewConfiguration method [Display Devices], GetProceedOnNewConfiguration method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetProceedOnNewConfiguration method, IViewHelper.GetProceedOnNewConfiguration, IViewHelper::GetProceedOnNewConfiguration, TMM_Ref_3cc57f4b-1882-4f95-955c-23b6e8635a98.xml, cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration, display.iviewhelper_getproceedonnewconfiguration
-f1_keywords:
-- cloneviewhelper/IViewHelper.GetProceedOnNewConfiguration
-dev_langs:
-- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Cloneviewhelper.h
-api_name:
-- IViewHelper.GetProceedOnNewConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IViewHelper::GetProceedOnNewConfiguration
+ - cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Cloneviewhelper.h
+api_name:
+ - IViewHelper.GetProceedOnNewConfiguration
 ---
 
 # IViewHelper::GetProceedOnNewConfiguration
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetProceedOnNewConfiguration</b> method allows the user-mode display driver to suppress the TMM user interface and display changing actions on a new, two-monitor configuration. This is only the case when a user presses a keyboard shortcut to switch views (such as, FN key combinations like FN, F5) and causes a Hot Plug Detection (HPD) event to occur.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The <b>GetProceedOnNewConfiguration</b> method returns one of the following values: 
 
@@ -120,16 +113,8 @@ TMM will not actively change any display settings but can show its user interfac
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>GetProceedOnNewConfiguration</b> is called only when an HPD event occurs and TMM encounters a new configuration (that is, a configuration for which TMM does not yet have a profile). 
-
-
+<b>GetProceedOnNewConfiguration</b> is called only when an HPD event occurs and TMM encounters a new configuration (that is, a configuration for which TMM does not yet have a profile).
 

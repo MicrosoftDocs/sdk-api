@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.IMediaFilter.GetState
 title: IMediaFilter::GetState (strmif.h)
-description: The GetState method retrieves the filters's state (running, stopped, or paused).
+description: The GetState method retrieves the filter's state (running, stopped, or paused).
+helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IBaseFilter interface","GetState method [DirectShow]","IMediaFilter interface","IBaseFilter interface [DirectShow]","GetState method","IBaseFilter::GetState","IMediaFilter interface [DirectShow]","GetState method","IMediaFilter.GetState","IMediaFilter::GetState","IMediaFilterGetState","dshow.imediafilter_getstate","strmif/IBaseFilter::GetState","strmif/IMediaFilter::GetState"]
 old-location: dshow\imediafilter_getstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b20ca3e9-bec2-4c6d-ba80-f4dae2f5a831
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IBaseFilter interface, GetState method [DirectShow],IMediaFilter interface, IBaseFilter interface [DirectShow],GetState method, IBaseFilter::GetState, IMediaFilter interface [DirectShow],GetState method, IMediaFilter.GetState, IMediaFilter::GetState, IMediaFilterGetState, dshow.imediafilter_getstate, strmif/IBaseFilter::GetState, strmif/IMediaFilter::GetState
-f1_keywords:
-- strmif/IMediaFilter.GetState
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaFilter.GetState
-- IBaseFilter.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaFilter::GetState
+ - strmif/IMediaFilter::GetState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaFilter.GetState
+ - IBaseFilter.GetState
 ---
 
 # IMediaFilter::GetState
@@ -50,29 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetState</b> method retrieves the filters's state (running, stopped, or paused). 
-      
-
+The <b>GetState</b> method retrieves the filter's state (running, stopped, or paused).
 
 ## -parameters
-
-
-
 
 ### -param dwMilliSecsTimeout [in]
 
 Time-out interval, in milliseconds. To block indefinitely, use the value <b>INFINITE</b>.
 
-
 ### -param State [out]
 
-Receives a member of the [FILTER_STATE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-filter_state) enumerated type, indicating the filter's state.
-
+Receives a member of the [FILTER_STATE](/windows/desktop/api/strmif/ne-strmif-filter_state) enumerated type, indicating the filter's state.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -126,39 +118,23 @@ The filter is active, but cannot deliver data.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 State transitions can be asynchronous. If the filter is transitioning to a new state, and the method times out before the transition completes, the method returns <b>VFW_S_STATE_INTERMEDIATE</b>.
 
 If a filter cannot deliver data for some reason, it returns <b>VFW_S_CANT_CUE</b>. Live capture filters return this value while paused, because they do not deliver data in the paused state.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>.
-
-
-
+For more information, see <a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>

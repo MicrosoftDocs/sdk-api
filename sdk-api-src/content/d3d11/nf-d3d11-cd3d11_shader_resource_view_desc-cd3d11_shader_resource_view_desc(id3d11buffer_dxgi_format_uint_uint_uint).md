@@ -2,15 +2,12 @@
 UID: NF:d3d11.CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT)
 title: CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT) (d3d11.h)
 description: Instantiates a new instance of a CD3D11_SHADER_RESOURCE_VIEW_DESC structure that is initialized with D3D11_BUFFEREX_SRV values.
+helpviewer_keywords: ["CD3D11_SHADER_RESOURCE_VIEW_DESC","CD3D11_SHADER_RESOURCE_VIEW_DESC interface [Direct3D 11]","CD3D11_SHADER_RESOURCE_VIEW_DESC method","CD3D11_SHADER_RESOURCE_VIEW_DESC method [Direct3D 11]","CD3D11_SHADER_RESOURCE_VIEW_DESC method [Direct3D 11]","CD3D11_SHADER_RESOURCE_VIEW_DESC interface","CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC","CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer","DXGI_FORMAT","UINT","UINT","UINT)","CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC","CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer","DXGI_FORMAT","UINT","UINT","UINT)","CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(const D3D11_SHADER_RESOURCE_VIEW_DESC&)","d3d11/CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC","direct3d11.cd3d11_shader_resource_view_desc_cd3d11_shader_resource_view_desc_d3d11_shader_resource_view_desc_"]
 old-location: 
 tech.root: direct3d11
 ms.assetid: C1C8DA6C-2A5B-4099-BFE8-97A05F798B53
 ms.date: 05/06/2019
 ms.keywords: CD3D11_SHADER_RESOURCE_VIEW_DESC, CD3D11_SHADER_RESOURCE_VIEW_DESC interface [Direct3D 11],CD3D11_SHADER_RESOURCE_VIEW_DESC method, CD3D11_SHADER_RESOURCE_VIEW_DESC method [Direct3D 11], CD3D11_SHADER_RESOURCE_VIEW_DESC method [Direct3D 11],CD3D11_SHADER_RESOURCE_VIEW_DESC interface, CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC, CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT), CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC, CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT), CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(const D3D11_SHADER_RESOURCE_VIEW_DESC&), d3d11/CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC, direct3d11.cd3d11_shader_resource_view_desc_cd3d11_shader_resource_view_desc_d3d11_shader_resource_view_desc_
-f1_keywords:
-- d3d11/CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,31 +25,37 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC
+ - d3d11/CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC
 ---
 
 # CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Buffer,DXGI_FORMAT,UINT,UINT,UINT)
 
+
 ## -description
 
-Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure that is initialized with **D3D11_BUFFEREX_SRV** values.
+Instantiates a new instance of a <a href="/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a> structure that is initialized with **D3D11_BUFFEREX_SRV** values.
 
 ## -parameters
 
-### -param arg1
+### -param unnamedParam1
 
 A pointer to a **ID3D11Buffer** interface for a buffer.
 
@@ -72,10 +75,6 @@ Total number of elements in the view.
 
 A **D3D11_BUFFEREX_SRV_FLAG**-typed value that identifies view options for a buffer.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>
+<a href="/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>

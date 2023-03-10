@@ -2,15 +2,12 @@
 UID: NF:wbemcli.IWbemClassObject.CompareTo
 title: IWbemClassObject::CompareTo (wbemcli.h)
 description: The IWbemClassObject::CompareTo method compares an object to another Windows Management object. Note that there are certain constraints in this comparison process.
+helpviewer_keywords: ["CompareTo","CompareTo method [Windows Management Instrumentation]","CompareTo method [Windows Management Instrumentation]","IWbemClassObject interface","IWbemClassObject interface [Windows Management Instrumentation]","CompareTo method","IWbemClassObject.CompareTo","IWbemClassObject::CompareTo","WBEM_FLAG_IGNORE_CASE","WBEM_FLAG_IGNORE_CLASS","WBEM_FLAG_IGNORE_DEFAULT_VALUES","WBEM_FLAG_IGNORE_FLAVOR","WBEM_FLAG_IGNORE_OBJECT_SOURCE","WBEM_FLAG_IGNORE_QUALIFIERS","_hmm_iwbemclassobject_compareto","wbemcli/IWbemClassObject::CompareTo","wmi.iwbemclassobject_compareto"]
 old-location: wmi\iwbemclassobject_compareto.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 246e5c2e-8d89-4ab5-b9ae-21a41eefa2e2
 ms.date: 12/05/2018
 ms.keywords: CompareTo, CompareTo method [Windows Management Instrumentation], CompareTo method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],CompareTo method, IWbemClassObject.CompareTo, IWbemClassObject::CompareTo, WBEM_FLAG_IGNORE_CASE, WBEM_FLAG_IGNORE_CLASS, WBEM_FLAG_IGNORE_DEFAULT_VALUES, WBEM_FLAG_IGNORE_FLAVOR, WBEM_FLAG_IGNORE_OBJECT_SOURCE, WBEM_FLAG_IGNORE_QUALIFIERS, _hmm_iwbemclassobject_compareto, wbemcli/IWbemClassObject::CompareTo, wmi.iwbemclassobject_compareto
-f1_keywords:
-- wbemcli/IWbemClassObject.CompareTo
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CIMWin32.dll
-- Esscli.dll
-- Fastprox.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Krnlprov.dll
-- Ncprov.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wmipiprt.dll
-api_name:
-- IWbemClassObject.CompareTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemClassObject::CompareTo
+ - wbemcli/IWbemClassObject::CompareTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CIMWin32.dll
+ - Esscli.dll
+ - Fastprox.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Krnlprov.dll
+ - Ncprov.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wmipiprt.dll
+api_name:
+ - IWbemClassObject.CompareTo
 ---
 
 # IWbemClassObject::CompareTo
@@ -57,14 +59,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWbemClassObject::CompareTo</b> method compares an object to another Windows Management object. Note that there are certain constraints in this comparison process.
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
@@ -93,7 +90,7 @@ Ignore default values of properties. This flag is only meaningful when comparing
 #### WBEM_FLAG_IGNORE_FLAVOR
 
 Ignore qualifier flavors. This flag still takes qualifier values into account, but ignores flavor distinctions such as propagation rules and override restrictions (for more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>).
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>).
 
 
 
@@ -107,37 +104,23 @@ Compare string values in a case-insensitive manner. This applies both to strings
 
 Assume that the objects being compared are instances of the same class. Consequently, this flag compares instance-related information only. Use this flag to optimize performance. If the objects are not of the same class, the results are undefined.
 
-
 ### -param pCompareTo [in]
 
 Object in comparison. This pointer must point to a valid 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instance. It cannot be <b>NULL</b>.
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> instance. It cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
+<a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_comparison_flag">WBEM_COMPARISON_FLAG</a>
- 
-
- 
-
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_comparison_flag">WBEM_COMPARISON_FLAG</a>

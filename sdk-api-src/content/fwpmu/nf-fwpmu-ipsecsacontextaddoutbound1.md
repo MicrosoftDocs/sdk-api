@@ -2,15 +2,12 @@
 UID: NF:fwpmu.IPsecSaContextAddOutbound1
 title: IPsecSaContextAddOutbound1 function (fwpmu.h)
 description: The IPsecSaContextAddOutbound1 function adds an outbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddOutbound1 is the specific implementation of IPsecSaContextAddOutbound used in Windows 7 and later.
+helpviewer_keywords: ["IPsecSaContextAddOutbound1","IPsecSaContextAddOutbound1 function [Filtering]","fwp.ipsecsacontextaddoutbound1","fwpmu/IPsecSaContextAddOutbound1"]
 old-location: fwp\ipsecsacontextaddoutbound1.htm
 tech.root: fwp
 ms.assetid: ca8bc833-4d6f-4ed0-9c9b-15bbca5e0090
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextAddOutbound1, IPsecSaContextAddOutbound1 function [Filtering], fwp.ipsecsacontextaddoutbound1, fwpmu/IPsecSaContextAddOutbound1
-f1_keywords:
-- fwpmu/IPsecSaContextAddOutbound1
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- IPsecSaContextAddOutbound1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPsecSaContextAddOutbound1
+ - fwpmu/IPsecSaContextAddOutbound1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - IPsecSaContextAddOutbound1
 ---
 
 # IPsecSaContextAddOutbound1 function
@@ -48,39 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPsecSaContextAddOutbound1</b> function adds an outbound IPsec security association (SA) bundle to an existing SA context.
-<div class="alert"><b>Note</b>  <b>IPsecSaContextAddOutbound1</b> is the specific implementation of IPsecSaContextAddOutbound used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0">IPsecSaContextAddOutbound0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPsecSaContextAddOutbound1</b> is the specific implementation of IPsecSaContextAddOutbound used in Windows 7 and later. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextaddoutbound0">IPsecSaContextAddOutbound0</a> is available.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
-
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param id [in]
 
 Type: <b>UINT64</b>
 
-Identifier for the existing IPsec SA context. This is the value returned in the <i>id</i> parameter by the call to  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>.
-
+Identifier for the existing IPsec SA context. This is the value returned in the <i>id</i> parameter by the call to  <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>.
 
 ### -param outboundBundle [in]
 
-Type: [IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a>*</b>
+Type: [IPSEC_SA_BUNDLE1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)*</b>
 
 The outbound IPsec SA bundle to be added to the SA context.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -109,7 +102,7 @@ The IPsec SA bundle was successfully added to the SA context.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -126,22 +119,11 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+[IPSEC_SA_BUNDLE1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)
 
 
 
-[IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate1">IPsecSaContextCreate1</a>

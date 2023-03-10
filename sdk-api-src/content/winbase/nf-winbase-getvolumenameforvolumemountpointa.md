@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetVolumeNameForVolumeMountPointA
 title: GetVolumeNameForVolumeMountPointA function (winbase.h)
-description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder).
+description: Retrieves a volume GUID path for the volume that is associated with the specified volume mount point ( drive letter, volume GUID path, or mounted folder). (GetVolumeNameForVolumeMountPointA)
+helpviewer_keywords: ["GetVolumeNameForVolumeMountPoint","GetVolumeNameForVolumeMountPoint function [Files]","GetVolumeNameForVolumeMountPointA","GetVolumeNameForVolumeMountPointW","_win32_getvolumenameforvolumemountpoint","base.getvolumenameforvolumemountpoint","fileapi/GetVolumeNameForVolumeMountPoint","fileapi/GetVolumeNameForVolumeMountPointA","fileapi/GetVolumeNameForVolumeMountPointW","fs.getvolumenameforvolumemountpoint","winbase/GetVolumeNameForVolumeMountPoint","winbase/GetVolumeNameForVolumeMountPointA","winbase/GetVolumeNameForVolumeMountPointW"]
 old-location: fs\getvolumenameforvolumemountpoint.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 3f749042-bdc9-4087-bb8a-d833713472eb
 ms.date: 12/05/2018
 ms.keywords: GetVolumeNameForVolumeMountPoint, GetVolumeNameForVolumeMountPoint function [Files], GetVolumeNameForVolumeMountPointA, GetVolumeNameForVolumeMountPointW, _win32_getvolumenameforvolumemountpoint, base.getvolumenameforvolumemountpoint, fileapi/GetVolumeNameForVolumeMountPoint, fileapi/GetVolumeNameForVolumeMountPointA, fileapi/GetVolumeNameForVolumeMountPointW, fs.getvolumenameforvolumemountpoint, winbase/GetVolumeNameForVolumeMountPoint, winbase/GetVolumeNameForVolumeMountPointA, winbase/GetVolumeNameForVolumeMountPointW
-f1_keywords:
-- winbase/GetVolumeNameForVolumeMountPoint
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- GetVolumeNameForVolumeMountPoint
-- GetVolumeNameForVolumeMountPointA
-- GetVolumeNameForVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetVolumeNameForVolumeMountPointA
+ - winbase/GetVolumeNameForVolumeMountPointA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - GetVolumeNameForVolumeMountPoint
+ - GetVolumeNameForVolumeMountPointA
+ - GetVolumeNameForVolumeMountPointW
 ---
 
 # GetVolumeNameForVolumeMountPointA function
@@ -58,50 +60,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a volume <b>GUID</b> path for the volume that is associated with the specified volume mount point (
     drive letter, volume <b>GUID</b> path, or mounted folder).
 
-
 ## -parameters
-
-
-
 
 ### -param lpszVolumeMountPoint [in]
 
-A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\"). The string must end with a trailing backslash ('\').
-
+A pointer to a string that contains the path of a mounted folder (for example, "Y:\MountX\") or a drive letter (for example, "X:\\"). The string must end with a trailing backslash ('\').
 
 ### -param lpszVolumeName [out]
 
 A pointer to a string that receives the volume <b>GUID</b> path. This path is of the form "\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies the volume. If there is more than one volume <b>GUID</b> path for the volume, only the first one in the mount manager's cache is returned.
 
-
 ### -param cchBufferLength [in]
 
 The length of the output buffer, in <b>TCHARs</b>. A reasonable size for the buffer to accommodate the largest possible volume <b>GUID</b> path is 50 characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 Use 
-<b>GetVolumeNameForVolumeMountPoint</b> to obtain a volume <b>GUID</b> path for use with functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> that require a volume <b>GUID</b> path as an input parameter. For more information about volume <b>GUID</b> paths, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming A Volume</a>.
+<b>GetVolumeNameForVolumeMountPoint</b> to obtain a volume <b>GUID</b> path for use with functions such as <a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a> and <a href="/windows/desktop/api/winbase/nf-winbase-findfirstvolumemountpointa">FindFirstVolumeMountPoint</a> that require a volume <b>GUID</b> path as an input parameter. For more information about volume <b>GUID</b> paths, see 
+<a href="/windows/desktop/FileIO/naming-a-volume">Naming A Volume</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -167,32 +154,22 @@ SMB does not support volume management functions.
 
 Mount points aren't supported by ReFS volumes.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopology.CloneFrom
 title: IMFTopology::CloneFrom (mfidl.h)
 description: Converts this topology into a copy of another topology.
+helpviewer_keywords: ["CloneFrom","CloneFrom method [Media Foundation]","CloneFrom method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","CloneFrom method","IMFTopology.CloneFrom","IMFTopology::CloneFrom","b455aa57-9785-4741-bc3b-1f99cbf4e3d9","mf.imftopology_clonefrom","mfidl/IMFTopology::CloneFrom"]
 old-location: mf\imftopology_clonefrom.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b455aa57-9785-4741-bc3b-1f99cbf4e3d9
 ms.date: 12/05/2018
 ms.keywords: CloneFrom, CloneFrom method [Media Foundation], CloneFrom method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],CloneFrom method, IMFTopology.CloneFrom, IMFTopology::CloneFrom, b455aa57-9785-4741-bc3b-1f99cbf4e3d9, mf.imftopology_clonefrom, mfidl/IMFTopology::CloneFrom
-f1_keywords:
-- mfidl/IMFTopology.CloneFrom
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopology.CloneFrom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopology::CloneFrom
+ - mfidl/IMFTopology::CloneFrom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopology.CloneFrom
 ---
 
 # IMFTopology::CloneFrom
@@ -49,34 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts this topology into a copy of another topology.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pTopology [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology to clone.
-          
-
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology to clone.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method does the following:
 
@@ -92,19 +79,10 @@ This method does the following:
 <li>Copies the topology identifier from <i>pTopology</i> to this topology.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

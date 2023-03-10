@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfDisplayAttributeMgr.OnUpdateInfo
 title: ITfDisplayAttributeMgr::OnUpdateInfo (msctf.h)
 description: ITfDisplayAttributeMgr::OnUpdateInfo method
+helpviewer_keywords: ["ITfDisplayAttributeMgr interface [Text Services Framework]","OnUpdateInfo method","ITfDisplayAttributeMgr.OnUpdateInfo","ITfDisplayAttributeMgr::OnUpdateInfo","OnUpdateInfo","OnUpdateInfo method [Text Services Framework]","OnUpdateInfo method [Text Services Framework]","ITfDisplayAttributeMgr interface","_tsf_itfdisplayattributemgr_onupdateinfo_ref","msctf/ITfDisplayAttributeMgr::OnUpdateInfo","tsf.itfdisplayattributemgr_onupdateinfo"]
 old-location: tsf\itfdisplayattributemgr_onupdateinfo.htm
 tech.root: TSF
 ms.assetid: 0f906a19-16b8-47c1-adca-10d6da0cc7dd
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeMgr interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeMgr.OnUpdateInfo, ITfDisplayAttributeMgr::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, _tsf_itfdisplayattributemgr_onupdateinfo_ref, msctf/ITfDisplayAttributeMgr::OnUpdateInfo, tsf.itfdisplayattributemgr_onupdateinfo
-f1_keywords:
-- msctf/ITfDisplayAttributeMgr.OnUpdateInfo
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfDisplayAttributeMgr.OnUpdateInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfDisplayAttributeMgr::OnUpdateInfo
+ - msctf/ITfDisplayAttributeMgr::OnUpdateInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfDisplayAttributeMgr.OnUpdateInfo
 ---
 
 # ITfDisplayAttributeMgr::OnUpdateInfo
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-## -parameters
-
-
-
+Called when a display attribute is changed.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,23 +75,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributemgr">ITfDisplayAttributeMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributenotifysink-onupdateinfo">ITfDisplayAttributeNotifySink::OnUpdate
-      </a>
- 
-
- 
+[ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [ITfDisplayAttributeNotifySink::OnUpdateInfo](nf-msctf-itfdisplayattributenotifysink-onupdateinfo.md)
 

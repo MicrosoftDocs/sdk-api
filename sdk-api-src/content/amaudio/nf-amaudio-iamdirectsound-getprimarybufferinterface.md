@@ -2,15 +2,12 @@
 UID: NF:amaudio.IAMDirectSound.GetPrimaryBufferInterface
 title: IAMDirectSound::GetPrimaryBufferInterface (amaudio.h)
 description: The GetPrimaryBufferInterface method is not implemented.
+helpviewer_keywords: ["GetPrimaryBufferInterface","GetPrimaryBufferInterface method [DirectShow]","GetPrimaryBufferInterface method [DirectShow]","IAMDirectSound interface","IAMDirectSound interface [DirectShow]","GetPrimaryBufferInterface method","IAMDirectSound.GetPrimaryBufferInterface","IAMDirectSound::GetPrimaryBufferInterface","IAMDirectSoundGetPrimaryBufferInterface","amaudio/IAMDirectSound::GetPrimaryBufferInterface","dshow.iamdirectsound_getprimarybufferinterface"]
 old-location: dshow\iamdirectsound_getprimarybufferinterface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5cac3834-5f0a-4977-802e-b3b824a01dbc
 ms.date: 12/05/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
-f1_keywords:
-- amaudio/IAMDirectSound.GetPrimaryBufferInterface
-dev_langs:
-- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMDirectSound.GetPrimaryBufferInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDirectSound::GetPrimaryBufferInterface
+ - amaudio/IAMDirectSound::GetPrimaryBufferInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMDirectSound.GetPrimaryBufferInterface
 ---
 
 # IAMDirectSound::GetPrimaryBufferInterface
@@ -49,41 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetPrimaryBufferInterface</code> method is not implemented.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lplpdsb [out]
-
 
 ## -returns
 
-
-
 Returns E_NOTIMPL.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>

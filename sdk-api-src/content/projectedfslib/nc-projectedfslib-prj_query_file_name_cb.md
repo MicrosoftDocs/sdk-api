@@ -2,15 +2,12 @@
 UID: NC:projectedfslib.PRJ_QUERY_FILE_NAME_CB
 title: PRJ_QUERY_FILE_NAME_CB (projectedfslib.h)
 description: Determines whether a given file path exists in the provider's backing store.
+helpviewer_keywords: ["PRJ_QUERY_FILE_NAME_CB","PRJ_QUERY_FILE_NAME_CB callback","PRJ_QUERY_FILE_NAME_CB callback function","ProjFS.prj_query_file_name_cb","projectedfslib/PRJ_QUERY_FILE_NAME_CB"]
 old-location: projfs\prj_query_file_name_cb.htm
 tech.root: ProjFS
 ms.assetid: 1B218D41-AF24-48C2-9E11-7E0455CE15AC
 ms.date: 12/05/2018
 ms.keywords: PRJ_QUERY_FILE_NAME_CB, PRJ_QUERY_FILE_NAME_CB callback, PRJ_QUERY_FILE_NAME_CB callback function, ProjFS.prj_query_file_name_cb, projectedfslib/PRJ_QUERY_FILE_NAME_CB
-f1_keywords:
-- projectedfslib/PRJ_QUERY_FILE_NAME_CB
-dev_langs:
-- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- projectedfslib.h
-api_name:
-- PRJ_QUERY_FILE_NAME_CB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - PRJ_QUERY_FILE_NAME_CB
+ - projectedfslib/PRJ_QUERY_FILE_NAME_CB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - projectedfslib.h
+api_name:
+ - PRJ_QUERY_FILE_NAME_CB
 ---
 
 # PRJ_QUERY_FILE_NAME_CB callback function
@@ -48,23 +50,15 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
 Determines whether a given file path exists in the provider's backing store.
 
-
 ## -parameters
-
-
-
 
 ### -param callbackData [in]
 
 Information about the operation.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -110,16 +104,8 @@ The provider wishes to complete the operation at a later time.
 
 An appropriate HRESULT error code if the provider fails the operation.
 
-
-
-
 ## -remarks
-
-
 
 This callback is optional.  If the provider does not supply an implementation of this callback, ProjFS will invoke the provider’s directory enumeration callbacks to determine the existence of a file path in the provider's store.
 
-The provider should use <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamecompare">PrjFileNameCompare</a> as the comparison routine when searching its backing store for the specified file.
-
-
-
+The provider should use <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjfilenamecompare">PrjFileNameCompare</a> as the comparison routine when searching its backing store for the specified file.

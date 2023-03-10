@@ -2,15 +2,12 @@
 UID: NF:oleauto.RegisterActiveObject
 title: RegisterActiveObject function (oleauto.h)
 description: Registers an object as the active object for its class.
+helpviewer_keywords: ["RegisterActiveObject","RegisterActiveObject function [Automation]","_oa96_RegisterActiveObject","automat.registeractiveobject","oleauto/RegisterActiveObject"]
 old-location: automat\registeractiveobject.htm
 tech.root: automat
 ms.assetid: ba15bb69-7b65-47ea-b938-f235e3d9f9ee
 ms.date: 12/05/2018
 ms.keywords: RegisterActiveObject, RegisterActiveObject function [Automation], _oa96_RegisterActiveObject, automat.registeractiveobject, oleauto/RegisterActiveObject
-f1_keywords:
-- oleauto/RegisterActiveObject
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- RegisterActiveObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterActiveObject
+ - oleauto/RegisterActiveObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - RegisterActiveObject
 ---
 
 # RegisterActiveObject function
@@ -48,48 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers an object as the active object for its class.
 
-
 ## -parameters
-
-
-
 
 ### -param punk
 
 The active object.
 
-
 ### -param rclsid
 
 The CLSID of the active object.
-
-
 
 ### -param dwFlags
 
 Flags controlling registration of the object. Possible values are ACTIVEOBJECT_STRONG and ACTIVEOBJECT_WEAK.
 
-
 ### -param pdwRegister
 
-Receives a handle. This handle must be passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a> to end the object's active status.
-
+Receives a handle. This handle must be passed to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a> to end the object's active status.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The <b>RegisterActiveObject</b> function registers the object to which <i>punk</i> points as the active object for the class denoted by <i>rclsid</i>. Registration causes the object to be listed in the running object table (ROT) of OLE, a globally accessible lookup table that keeps track of objects that are currently running on the computer. (For more information about the running object table, see the <i>COM Programmer's Reference</i>.) The <i>dwFlags</i> parameter specifies the strength or weakness of the registration, which affects the way the object is shut down.
 
@@ -105,7 +90,7 @@ If the object is not visible, it should shut down only when the last external co
 
 </li>
 </ul>
-Strong registration performs an <b>AddRef</b> on the object, incrementing the reference count of the object (and its associated stub) in the running object table. A strongly registered object must be explicitly revoked from the table with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a>. The default is strong registration (ACTIVEOBJECT_STRONG).
+Strong registration performs an <b>AddRef</b> on the object, incrementing the reference count of the object (and its associated stub) in the running object table. A strongly registered object must be explicitly revoked from the table with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a>. The default is strong registration (ACTIVEOBJECT_STRONG).
 
 Weak registration keeps a pointer to the object in the running object table, but does not increment the reference count. Consequently, when the last external connection to a weakly registered object disappears, OLE releases the object's stub, and the object itself is no longer available.
 
@@ -168,19 +153,10 @@ This function is described in more detail in the <i>COM Programmer's Reference</
 </li>
 </ol>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/automat/registration-functions">Registering the Active Object with API Functions </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/registration-functions">Registering the Active Object with API Functions </a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-revokeactiveobject">RevokeActiveObject</a>

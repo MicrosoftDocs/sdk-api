@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkGesture.GetHotPoint
 title: IInkGesture::GetHotPoint (msinkaut.h)
 description: Gets the hot point of the gesture, in ink space coordinates.
+helpviewer_keywords: ["6c047cf7-2162-4146-906b-47c4006daeeb","GetHotPoint","GetHotPoint method [Tablet PC]","GetHotPoint method [Tablet PC]","IInkGesture interface","IInkGesture interface [Tablet PC]","GetHotPoint method","IInkGesture.GetHotPoint","IInkGesture::GetHotPoint","msinkaut/IInkGesture::GetHotPoint","tablet.iinkgesture_gethotpoint"]
 old-location: tablet\iinkgesture_gethotpoint.htm
 tech.root: tablet
 ms.assetid: 6c047cf7-2162-4146-906b-47c4006daeeb
 ms.date: 12/05/2018
 ms.keywords: 6c047cf7-2162-4146-906b-47c4006daeeb, GetHotPoint, GetHotPoint method [Tablet PC], GetHotPoint method [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],GetHotPoint method, IInkGesture.GetHotPoint, IInkGesture::GetHotPoint, msinkaut/IInkGesture::GetHotPoint, tablet.iinkgesture_gethotpoint
-f1_keywords:
-- msinkaut/IInkGesture.GetHotPoint
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkGesture.GetHotPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkGesture::GetHotPoint
+ - msinkaut/IInkGesture::GetHotPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkGesture.GetHotPoint
 ---
 
 # IInkGesture::GetHotPoint
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets the hot point of the gesture, in ink space coordinates.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param X [in, out]
 
 The X-value of the hot point, in ink space coordinates.
 
-
 ### -param Y [in, out]
 
 The Y-value of the hot point, in ink space coordinates.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,35 +106,19 @@ An exception occurred while processing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The hot point is the one distinguishing point of a gesture. It is usually the point of the angle in a gesture or the point at which the gesture is intended to occur in relation to the content around it. If there is no discernable hot point for a known gesture, the starting point of the gesture is the hot point.
 
-For example, the hot point of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">Check</a> gesture is the point of the angle, and the hot point of the <b>Curlicue</b> gesture is the start of the stroke that is the gesture.
+For example, the hot point of the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">Check</a> gesture is the point of the angle, and the hot point of the <b>Curlicue</b> gesture is the start of the stroke that is the gesture.
 
-For more information about how a hot point is used, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>.
-
-
-
+For more information about how a hot point is used, see <a href="/windows/desktop/tablet/using-gestures">Using Gestures</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/using-gestures">Using Gestures</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/using-gestures">Using Gestures</a>

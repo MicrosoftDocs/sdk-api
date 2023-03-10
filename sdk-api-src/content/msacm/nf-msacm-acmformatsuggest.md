@@ -2,15 +2,12 @@
 UID: NF:msacm.acmFormatSuggest
 title: acmFormatSuggest function (msacm.h)
 description: The acmFormatSuggest function queries the ACM or a specified ACM driver to suggest a destination format for the supplied source format.
+helpviewer_keywords: ["_win32_acmFormatSuggest","acmFormatSuggest","acmFormatSuggest function [Windows Multimedia]","msacm/acmFormatSuggest","multimedia.acmformatsuggest"]
 old-location: multimedia\acmformatsuggest.htm
 tech.root: Multimedia
 ms.assetid: c7618d7e-e41e-4513-9511-2133ef5a1582
 ms.date: 12/05/2018
 ms.keywords: _win32_acmFormatSuggest, acmFormatSuggest, acmFormatSuggest function [Windows Multimedia], msacm/acmFormatSuggest, multimedia.acmformatsuggest
-f1_keywords:
-- msacm/acmFormatSuggest
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmFormatSuggest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmFormatSuggest
+ - msacm/acmFormatSuggest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmFormatSuggest
 ---
 
 # acmFormatSuggest function
@@ -49,37 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmFormatSuggest</b> function queries the ACM or a specified ACM driver to suggest a destination format for the supplied source format. For example, an application can use this function to determine one or more valid PCM formats to which a compressed format can be decompressed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param had
 
 Handle to an open instance of a driver to query for a suggested destination format. If this parameter is <b>NULL</b>, the ACM attempts to find the best driver to suggest a destination format.
 
-
 ### -param pwfxSrc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the source format for which a destination format will be suggested by the ACM or specified driver.
-
+Pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the source format for which a destination format will be suggested by the ACM or specified driver.
 
 ### -param pwfxDst
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will receive the suggested destination format for the <i>pwfxSrc</i> format. Depending on the <i>fdwSuggest</i> parameter, some members of the structure pointed to by <i>pwfxDst</i> may require initialization.
-
+Pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will receive the suggested destination format for the <i>pwfxSrc</i> format. Depending on the <i>fdwSuggest</i> parameter, some members of the structure pointed to by <i>pwfxDst</i> may require initialization.
 
 ### -param cbwfxDst
 
-Size, in bytes, available for the destination format. The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> functions can be used to determine the maximum size required for any format available for the specified driver (or for all installed ACM drivers).
-
+Size, in bytes, available for the destination format. The <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> and <a href="/windows/desktop/api/msacm/nf-msacm-acmformattagdetails">acmFormatTagDetails</a> functions can be used to determine the maximum size required for any format available for the specified driver (or for all installed ACM drivers).
 
 ### -param fdwSuggest
 
@@ -109,12 +99,8 @@ Flags for matching the desired destination format. The following values are defi
 <td>The <b>wFormatTag</b> member of the structure pointed to by <i>pwfxDst</i> is valid. The ACM will query acceptable installed drivers that can suggest a destination format matching <b>wFormatTag</b> or fail.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -157,22 +143,11 @@ At least one parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

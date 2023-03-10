@@ -1,16 +1,13 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSETSTG.Clone
 title: IEnumSTATPROPSETSTG::Clone (propidlbase.h)
-description: Creates an enumerator that contains the same enumeration state as the current STATPROPSETSTG structure enumerator.
+description: The IEnumSTATPROPSETSTG::Clone method creates an enumerator that contains the same enumeration state as the current STATPROPSETSTG structure enumerator. 
+helpviewer_keywords: ["Clone","Clone method [Structured Storage]","Clone method [Structured Storage]","IEnumSTATPROPSETSTG interface","IEnumSTATPROPSETSTG interface [Structured Storage]","Clone method","IEnumSTATPROPSETSTG.Clone","IEnumSTATPROPSETSTG::Clone","propidlbase/IEnumSTATPROPSETSTG::Clone","stg.ienumstatpropsetstg_clone"]
 old-location: stg\ienumstatpropsetstg_clone.htm
 tech.root: Stg
 ms.assetid: f875d5e9-fac0-4961-9570-342f55cf307e
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATPROPSETSTG interface, IEnumSTATPROPSETSTG interface [Structured Storage],Clone method, IEnumSTATPROPSETSTG.Clone, IEnumSTATPROPSETSTG::Clone, propidlbase/IEnumSTATPROPSETSTG::Clone, stg.ienumstatpropsetstg_clone
-f1_keywords:
-- propidlbase/IEnumSTATPROPSETSTG.Clone
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ole32.dll
-api_name:
-- IEnumSTATPROPSETSTG.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSTATPROPSETSTG::Clone
+ - propidlbase/IEnumSTATPROPSETSTG::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ole32.dll
+api_name:
+ - IEnumSTATPROPSETSTG.Clone
 ---
 
 # IEnumSTATPROPSETSTG::Clone
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Clone</b> method creates an enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point later. The new enumerator supports the same <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface.
-
+The <b>Clone</b> method creates an enumerator that contains the same enumeration state as the current <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point later. The new enumerator supports the same <a href="/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param ppenum [out]
 
-    A pointer to the variable that receives the  <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface pointer. 
+    A pointer to the variable that receives the  <a href="/windows/desktop/api/propidl/nn-propidl-ienumstatpropsetstg">IEnumSTATPROPSETSTG</a> interface pointer. 
 
 If the method does not succeed, the value of the <i>ppenum</i> parameter is undefined.
 
-
 ## -returns
-
-
 
 This method supports return values listed in the following table.
 
@@ -109,7 +103,3 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-

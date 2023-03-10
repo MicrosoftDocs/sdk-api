@@ -2,15 +2,12 @@
 UID: NF:winsync.ISingleItemException.GetItemId
 title: ISingleItemException::GetItemId (winsync.h)
 description: Gets the ID of the item that is specified in the exception.
+helpviewer_keywords: ["GetItemId","GetItemId method [Windows Sync]","GetItemId method [Windows Sync]","ISingleItemException interface","ISingleItemException interface [Windows Sync]","GetItemId method","ISingleItemException.GetItemId","ISingleItemException::GetItemId","winsync.isingleitemexception_getitemid","winsync/ISingleItemException::GetItemId"]
 old-location: winsync\isingleitemexception_getitemid.htm
 tech.root: winsync
 ms.assetid: 1bcea395-d383-434f-b3a6-cffd4419fce3
 ms.date: 12/05/2018
 ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetItemId method, ISingleItemException.GetItemId, ISingleItemException::GetItemId, winsync.isingleitemexception_getitemid, winsync/ISingleItemException::GetItemId
-f1_keywords:
-- winsync/ISingleItemException.GetItemId
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISingleItemException.GetItemId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISingleItemException::GetItemId
+ - winsync/ISingleItemException::GetItemId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISingleItemException.GetItemId
 ---
 
 # ISingleItemException::GetItemId
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the ID of the item that is specified in the exception.
 
-
 ## -parameters
-
-
-
 
 ### -param pbItemId [in, out]
 
 Returns the ID of the item that is specified in the exception.
 
-
 ### -param pcbIdSize [in, out]
 
 Specifies the number of bytes in <i>pbItemId</i>. Returns the number of bytes required to retrieve the ID when <i>pbItemId</i> is too small, or returns the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -110,18 +103,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isingleitemexception">ISingleItemException Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isingleitemexception">ISingleItemException Interface</a>

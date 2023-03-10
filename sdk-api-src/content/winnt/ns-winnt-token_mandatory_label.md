@@ -2,15 +2,12 @@
 UID: NS:winnt._TOKEN_MANDATORY_LABEL
 title: TOKEN_MANDATORY_LABEL (winnt.h)
 description: Specifies the mandatory integrity level for a token.
+helpviewer_keywords: ["*PTOKEN_MANDATORY_LABEL","PTOKEN_MANDATORY_LABEL","PTOKEN_MANDATORY_LABEL structure pointer [Security]","TOKEN_MANDATORY_LABEL","TOKEN_MANDATORY_LABEL structure [Security]","_TOKEN_MANDATORY_LABEL","security.token_mandatory_label","winnt/PTOKEN_MANDATORY_LABEL","winnt/TOKEN_MANDATORY_LABEL"]
 old-location: security\token_mandatory_label.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: cf37eb34-ee90-43c6-97a9-c5edfcba2bc5
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL structure pointer [Security], TOKEN_MANDATORY_LABEL, TOKEN_MANDATORY_LABEL structure [Security], _TOKEN_MANDATORY_LABEL, security.token_mandatory_label, winnt/PTOKEN_MANDATORY_LABEL, winnt/TOKEN_MANDATORY_LABEL'
-f1_keywords:
-- winnt/TOKEN_MANDATORY_LABEL
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TOKEN_MANDATORY_LABEL
 targetos: Windows
 req.typenames: TOKEN_MANDATORY_LABEL, *PTOKEN_MANDATORY_LABEL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TOKEN_MANDATORY_LABEL
+ - winnt/_TOKEN_MANDATORY_LABEL
+ - PTOKEN_MANDATORY_LABEL
+ - winnt/PTOKEN_MANDATORY_LABEL
+ - TOKEN_MANDATORY_LABEL
+ - winnt/TOKEN_MANDATORY_LABEL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TOKEN_MANDATORY_LABEL
 ---
 
 # TOKEN_MANDATORY_LABEL structure
@@ -48,27 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TOKEN_MANDATORY_LABEL</b> structure  specifies the mandatory integrity level for  a token.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Label
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structure that specifies the mandatory integrity level of the token.
-
+A <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structure that specifies the mandatory integrity level of the token.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>

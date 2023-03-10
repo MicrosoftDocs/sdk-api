@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.CreateWindowStationW
 title: CreateWindowStationW function (winuser.h)
-description: Creates a window station object, associates it with the calling process, and assigns it to the current session.
+description: Creates a window station object, associates it with the calling process, and assigns it to the current session. (Unicode)
+helpviewer_keywords: ["CreateWindowStation", "CreateWindowStation function [Windows Stations and Desktops]", "CreateWindowStationW", "_win32_createwindowstation", "base.createwindowstation", "winstation.createwindowstation", "winuser/CreateWindowStation", "winuser/CreateWindowStationW"]
 old-location: winstation\createwindowstation.htm
 tech.root: winstation
 ms.assetid: c1aee546-decd-46c9-8d02-d6792f5a6a0d
 ms.date: 12/05/2018
 ms.keywords: CreateWindowStation, CreateWindowStation function [Windows Stations and Desktops], CreateWindowStationA, CreateWindowStationW, _win32_createwindowstation, base.createwindowstation, winstation.createwindowstation, winuser/CreateWindowStation, winuser/CreateWindowStationA, winuser/CreateWindowStationW
-f1_keywords:
-- winuser/CreateWindowStation
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
-- Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
-- Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
-- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
-api_name:
-- CreateWindowStation
-- CreateWindowStationA
-- CreateWindowStationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateWindowStationW
+ - winuser/CreateWindowStationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
+ - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
+ - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+api_name:
+ - CreateWindowStation
+ - CreateWindowStationA
+ - CreateWindowStationW
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateWindowStationW function
@@ -54,20 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a window station object, associates it with the calling process, and assigns it to the current session.
-
 
 ## -parameters
 
-
-
-
 ### -param lpwinsta [in, optional]
 
-The name of the window station to be created. Window station names are case-insensitive and cannot contain backslash characters (\). Only members of the Administrators group are allowed to specify a name. If <i>lpwinsta</i> is <b>NULL</b> or an empty string, the system forms a window station name using the logon session identifier for the calling process. To get this name, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a> function.
-
+The name of the window station to be created. Window station names are case-insensitive and cannot contain backslash characters (\\). Only members of the Administrators group are allowed to specify a name. If <i>lpwinsta</i> is <b>NULL</b> or an empty string, the system forms a window station name using the logon session identifier for the calling process. To get this name, call the 
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a> function.
 
 ### -param dwFlags
 
@@ -75,65 +72,52 @@ If this parameter is <b>CWF_CREATE_ONLY</b> and the window station already exist
 
 <b>Windows XP/2000:  </b>This parameter is reserved and must be zero.
 
-
 ### -param dwDesiredAccess [in]
 
-The type of access the returned handle has to the window station. In addition, you can specify any of the standard access rights, such as <b>READ_CONTROL</b> or <b>WRITE_DAC</b>, and a combination of the window station-specific access rights. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
-
+The type of access the returned handle has to the window station. In addition, you can specify any of the standard access rights, such as <b>READ_CONTROL</b> or <b>WRITE_DAC</b>, and a combination of the window station-specific access rights. For more information, see <a href="/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
 
 ### -param lpsa [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is <b>NULL</b>, the handle cannot be inherited.
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is <b>NULL</b>, the handle cannot be inherited.
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new window station. If <i>lpsa</i> is <b>NULL</b>, the window station (and any desktops created within the window) gets a security descriptor that grants <b>GENERIC_ALL</b> access to all users.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the newly created window station. If the specified window station already exists, the function succeeds and returns a handle to the existing window station.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 After you are done with the handle, you must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a> to free the handle.
+<a href="/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a> to free the handle.
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateWindowStation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openwindowstationa">OpenWindowStation</a>
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>
- 
-
- 
-
+<a href="/windows/desktop/winstation/window-stations">Window Stations</a>

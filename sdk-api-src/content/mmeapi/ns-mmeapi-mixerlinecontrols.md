@@ -1,16 +1,13 @@
 ---
 UID: NS:mmeapi.tMIXERLINECONTROLS
 title: MIXERLINECONTROLS (mmeapi.h)
-description: The MIXERLINECONTROLS structure contains information about the controls of an audio line.
+description: The MIXERLINECONTROLS structure contains information about the controls of an audio line. (MIXERLINECONTROLS)
+helpviewer_keywords: ["*LPMIXERLINECONTROLS","*PMIXERLINECONTROLS","MIXERLINECONTROLS","MIXERLINECONTROLS structure [Windows Multimedia]","_win32_MIXERLINECONTROLS_str","mmeapi/MIXERLINECONTROLS","multimedia.mixerlinecontrols","tMIXERLINECONTROLS","tagMIXERLINECONTROLSA","tagMIXERLINECONTROLSW"]
 old-location: multimedia\mixerlinecontrols.htm
 tech.root: Multimedia
 ms.assetid: a028785b-2d58-41da-825b-32e98fb44405
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERLINECONTROLS, *PMIXERLINECONTROLS, MIXERLINECONTROLS, MIXERLINECONTROLS structure [Windows Multimedia], _win32_MIXERLINECONTROLS_str, mmeapi/MIXERLINECONTROLS, multimedia.mixerlinecontrols, tMIXERLINECONTROLS, tagMIXERLINECONTROLSA, tagMIXERLINECONTROLSW'
-f1_keywords:
-- mmeapi/MIXERLINECONTROLS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERLINECONTROLS
 targetos: Windows
 req.typenames: MIXERLINECONTROLS, *PMIXERLINECONTROLS, *LPMIXERLINECONTROLS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tMIXERLINECONTROLS
+ - mmeapi/tMIXERLINECONTROLS
+ - PMIXERLINECONTROLS
+ - mmeapi/PMIXERLINECONTROLS
+ - MIXERLINECONTROLS
+ - mmeapi/MIXERLINECONTROLS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERLINECONTROLS
 ---
 
 # MIXERLINECONTROLS structure
@@ -48,76 +54,54 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MIXERLINECONTROLS</b> structure contains information about the controls of an audio line.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbStruct
 
-Size, in bytes, of the <b>MIXERLINECONTROLS</b> structure. This member must be initialized before calling the <a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function. The size specified in this member must be large enough to contain the <b>MIXERLINECONTROLS</b> structure. When <b>mixerGetLineControls</b> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the <b>MIXERLINECONTROLS</b> structure.
-
+Size, in bytes, of the <b>MIXERLINECONTROLS</b> structure. This member must be initialized before calling the <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function. The size specified in this member must be large enough to contain the <b>MIXERLINECONTROLS</b> structure. When <b>mixerGetLineControls</b> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the <b>MIXERLINECONTROLS</b> structure.
 
 ### -field dwLineID
 
-Line identifier for which controls are being queried. This member is not used if the MIXER_GETLINECONTROLSF_ONEBYID flag is specified for the <a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function, but the mixer device still returns this member in this case. The <b>dwControlID</b> and <b>dwControlType</b> members are not used when MIXER_GETLINECONTROLSF_ALL is specified.
-
+Line identifier for which controls are being queried. This member is not used if the MIXER_GETLINECONTROLSF_ONEBYID flag is specified for the <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function, but the mixer device still returns this member in this case. The <b>dwControlID</b> and <b>dwControlType</b> members are not used when MIXER_GETLINECONTROLSF_ALL is specified.
 
 ### -field dwControlID
 
-Control identifier of the desired control. This member is used with the MIXER_GETLINECONTROLSF_ONEBYID flag for the <a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function to retrieve the control information of the specified control. Note that the <b>dwLineID</b> member of the <b>MIXERLINECONTROLS</b> structure will be returned by the mixer device and is not required as an input parameter. This member overlaps with the <b>dwControlType</b> member and cannot be used in conjunction with the MIXER_GETLINECONTROLSF_ONEBYTYPE query type.
-
+Control identifier of the desired control. This member is used with the MIXER_GETLINECONTROLSF_ONEBYID flag for the <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function to retrieve the control information of the specified control. Note that the <b>dwLineID</b> member of the <b>MIXERLINECONTROLS</b> structure will be returned by the mixer device and is not required as an input parameter. This member overlaps with the <b>dwControlType</b> member and cannot be used in conjunction with the MIXER_GETLINECONTROLSF_ONEBYTYPE query type.
 
 ### -field dwControlType
 
-Class of the desired <a href="https://docs.microsoft.com/windows/desktop/Multimedia/control-types">Control Types</a>. This member is used with the MIXER_GETLINECONTROLSF_ONEBYTYPE flag for the <a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function to retrieve the first control of the specified class on the line specified by the <b>dwLineID</b> member of the <b>MIXERLINECONTROLS</b> structure. This member overlaps with the <b>dwControlID</b> member and cannot be used in conjunction with the MIXER_GETLINECONTROLSF_ONEBYID query type. See dwControlType member description in <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>.
-
+Class of the desired <a href="/windows/desktop/Multimedia/control-types">Control Types</a>. This member is used with the MIXER_GETLINECONTROLSF_ONEBYTYPE flag for the <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function to retrieve the first control of the specified class on the line specified by the <b>dwLineID</b> member of the <b>MIXERLINECONTROLS</b> structure. This member overlaps with the <b>dwControlID</b> member and cannot be used in conjunction with the MIXER_GETLINECONTROLSF_ONEBYID query type. See dwControlType member description in <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>.
 
 ### -field cControls
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a> structure elements to retrieve. This member must be initialized by the application before calling the <a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function. This member can be 1 only if MIXER_GETLINECONTROLSF_ONEBYID or MIXER_GETLINECONTROLSF_ONEBYTYPE is specified or the value returned in the <b>cControls</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea">MIXERLINE</a> structure returned for an audio line. This member cannot be zero. If an audio line specifies that it has no controls, <b>mixerGetLineControls</b> should not be called.
-
+Number of <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a> structure elements to retrieve. This member must be initialized by the application before calling the <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function. This member can be 1 only if MIXER_GETLINECONTROLSF_ONEBYID or MIXER_GETLINECONTROLSF_ONEBYTYPE is specified or the value returned in the <b>cControls</b> member of the <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea">MIXERLINE</a> structure returned for an audio line. This member cannot be zero. If an audio line specifies that it has no controls, <b>mixerGetLineControls</b> should not be called.
 
 ### -field cbmxctrl
 
-Size, in bytes, of a single <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a> structure. The size specified in this member must be at least large enough to contain the base <b>MIXERCONTROL</b> structure. The total size, in bytes, required for the buffer pointed to by the <b>pamxctrl</b> member is the product of the <b>cbmxctrl</b> and <b>cControls</b> members of the <b>MIXERLINECONTROLS</b> structure.
-
+Size, in bytes, of a single <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a> structure. The size specified in this member must be at least large enough to contain the base <b>MIXERCONTROL</b> structure. The total size, in bytes, required for the buffer pointed to by the <b>pamxctrl</b> member is the product of the <b>cbmxctrl</b> and <b>cControls</b> members of the <b>MIXERLINECONTROLS</b> structure.
 
 ### -field pamxctrl
 
-Pointer to one or more <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a> structures to receive the properties of the requested audio line controls. This member cannot be <b>NULL</b> and must be initialized before calling the <a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function. Each element of the array of controls must be at least large enough to contain a base <b>MIXERCONTROL</b> structure. The <b>cbmxctrl</b> member must specify the size, in bytes, of each element in this array. No initialization of the buffer pointed to by this member is required by the application. All members are filled in by the mixer device (including the <b>cbStruct</b> member of each <b>MIXERCONTROL</b> structure) upon returning successfully.
-
+Pointer to one or more <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a> structures to receive the properties of the requested audio line controls. This member cannot be <b>NULL</b> and must be initialized before calling the <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a> function. Each element of the array of controls must be at least large enough to contain a base <b>MIXERCONTROL</b> structure. The <b>cbmxctrl</b> member must specify the size, in bytes, of each element in this array. No initialization of the buffer pointed to by this member is required by the application. All members are filled in by the mixer device (including the <b>cbStruct</b> member of each <b>MIXERCONTROL</b> structure) upon returning successfully.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
+<a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
+<a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercontrola">MIXERCONTROL</a>
+<a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea">MIXERLINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinea">MIXERLINE</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
- 
-
- 
-
+<a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>

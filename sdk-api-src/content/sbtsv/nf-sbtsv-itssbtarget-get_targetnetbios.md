@@ -1,16 +1,13 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetNetbios
 title: ITsSbTarget::get_TargetNetbios (sbtsv.h)
-description: Retrieves or specifies the NetBIOS name of the target.
+description: Retrieves or specifies the NetBIOS name of the target. (Get)
+helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","TargetNetbios property","ITsSbTarget.TargetNetbios","ITsSbTarget.get_TargetNetbios","ITsSbTarget::TargetNetbios","ITsSbTarget::get_TargetNetbios","ITsSbTarget::put_TargetNetbios","ITsSbTargetEx interface [Remote Desktop Services]","TargetNetbios property","ITsSbTargetEx.TargetNetbios","ITsSbTargetEx::get_TargetNetbios","ITsSbTargetEx::put_TargetNetbios","TargetNetbios property [Remote Desktop Services]","TargetNetbios property [Remote Desktop Services]","ITsSbTarget interface","TargetNetbios property [Remote Desktop Services]","ITsSbTargetEx interface","get_TargetNetbios","sbtsv/ITsSbTarget::TargetNetbios","sbtsv/ITsSbTarget::get_TargetNetbios","sbtsv/ITsSbTarget::put_TargetNetbios","sbtsv/ITsSbTargetEx::TargetNetbios","sbtsv/ITsSbTargetEx::get_TargetNetbios","sbtsv/ITsSbTargetEx::put_TargetNetbios","termserv.itssbtarget_targetnetbios"]
 old-location: termserv\itssbtarget_targetnetbios.htm
 tech.root: TermServ
 ms.assetid: c1c91d9c-10ae-4fe3-8742-c0fbe68b7020
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetNetbios property, ITsSbTarget.TargetNetbios, ITsSbTarget.get_TargetNetbios, ITsSbTarget::TargetNetbios, ITsSbTarget::get_TargetNetbios, ITsSbTarget::put_TargetNetbios, ITsSbTargetEx interface [Remote Desktop Services],TargetNetbios property, ITsSbTargetEx.TargetNetbios, ITsSbTargetEx::get_TargetNetbios, ITsSbTargetEx::put_TargetNetbios, TargetNetbios property [Remote Desktop Services], TargetNetbios property [Remote Desktop Services],ITsSbTarget interface, TargetNetbios property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetNetbios, sbtsv/ITsSbTarget::TargetNetbios, sbtsv/ITsSbTarget::get_TargetNetbios, sbtsv/ITsSbTarget::put_TargetNetbios, sbtsv/ITsSbTargetEx::TargetNetbios, sbtsv/ITsSbTargetEx::get_TargetNetbios, sbtsv/ITsSbTargetEx::put_TargetNetbios, termserv.itssbtarget_targetnetbios
-f1_keywords:
-- sbtsv/ITsSbTarget.TargetNetbios
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbTarget.TargetNetbios
-- ITsSbTarget.get_TargetNetbios
-- ITsSbTarget.put_TargetNetbios
-- ITsSbTargetEx.TargetNetbios
-- ITsSbTargetEx.get_TargetNetbios
-- ITsSbTargetEx.put_TargetNetbios
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbTarget::get_TargetNetbios
+ - sbtsv/ITsSbTarget::get_TargetNetbios
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbTarget.TargetNetbios
+ - ITsSbTarget.get_TargetNetbios
+ - ITsSbTarget.put_TargetNetbios
+ - ITsSbTargetEx.TargetNetbios
+ - ITsSbTargetEx.get_TargetNetbios
+ - ITsSbTargetEx.put_TargetNetbios
 ---
 
 # ITsSbTarget::get_TargetNetbios
@@ -53,26 +55,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or specifies the NetBIOS name of the target.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
- 
-
- 
-
+<a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>

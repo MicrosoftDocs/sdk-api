@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFCreateTopology
 title: MFCreateTopology function (mfidl.h)
 description: Creates a topology object.
+helpviewer_keywords: ["9811eca7-e822-4ff7-93e4-2eb6245d4490","MFCreateTopology","MFCreateTopology function [Media Foundation]","mf.mfcreatetopology","mfidl/MFCreateTopology"]
 old-location: mf\mfcreatetopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9811eca7-e822-4ff7-93e4-2eb6245d4490
 ms.date: 12/05/2018
 ms.keywords: 9811eca7-e822-4ff7-93e4-2eb6245d4490, MFCreateTopology, MFCreateTopology function [Media Foundation], mf.mfcreatetopology, mfidl/MFCreateTopology
-f1_keywords:
-- mfidl/MFCreateTopology
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateTopology
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateTopology
+ - mfidl/MFCreateTopology
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateTopology
 ---
 
 # MFCreateTopology function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates a topology object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppTopo
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology object. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology object. The caller must release the interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,22 +79,11 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

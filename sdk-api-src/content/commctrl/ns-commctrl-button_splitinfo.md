@@ -2,15 +2,12 @@
 UID: NS:commctrl.tagBUTTON_SPLITINFO
 title: BUTTON_SPLITINFO (commctrl.h)
 description: Contains information that defines a split button (BS_SPLITBUTTON and BS_DEFSPLITBUTTON styles). Used with the BCM_GETSPLITINFO and BCM_SETSPLITINFO messages.
+helpviewer_keywords: ["*PBUTTON_SPLITINFO","BCSIF_GLYPH","BCSIF_IMAGE","BCSIF_SIZE","BCSIF_STYLE","BCSS_ALIGNLEFT","BCSS_IMAGE","BCSS_NOSPLIT","BCSS_STRETCH","BUTTON_SPLITINFO","BUTTON_SPLITINFO structure [Windows Controls]","PBUTTON_SPLITINFO","PBUTTON_SPLITINFO structure pointer [Windows Controls]","_shell_BUTTON_SPLITINFO_str","_shell_BUTTON_SPLITINFO_str_cpp","commctrl/BUTTON_SPLITINFO","commctrl/PBUTTON_SPLITINFO","controls.BUTTON_SPLITINFO","controls._shell_BUTTON_SPLITINFO_str"]
 old-location: controls\BUTTON_SPLITINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_splitinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PBUTTON_SPLITINFO, BCSIF_GLYPH, BCSIF_IMAGE, BCSIF_SIZE, BCSIF_STYLE, BCSS_ALIGNLEFT, BCSS_IMAGE, BCSS_NOSPLIT, BCSS_STRETCH, BUTTON_SPLITINFO, BUTTON_SPLITINFO structure [Windows Controls], PBUTTON_SPLITINFO, PBUTTON_SPLITINFO structure pointer [Windows Controls], _shell_BUTTON_SPLITINFO_str, _shell_BUTTON_SPLITINFO_str_cpp, commctrl/BUTTON_SPLITINFO, commctrl/PBUTTON_SPLITINFO, controls.BUTTON_SPLITINFO, controls._shell_BUTTON_SPLITINFO_str'
-f1_keywords:
-- commctrl/BUTTON_SPLITINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- BUTTON_SPLITINFO
 targetos: Windows
 req.typenames: BUTTON_SPLITINFO, *PBUTTON_SPLITINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagBUTTON_SPLITINFO
+ - commctrl/tagBUTTON_SPLITINFO
+ - PBUTTON_SPLITINFO
+ - commctrl/PBUTTON_SPLITINFO
+ - BUTTON_SPLITINFO
+ - commctrl/BUTTON_SPLITINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - BUTTON_SPLITINFO
 ---
 
 # BUTTON_SPLITINFO structure
@@ -48,18 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information that defines a split button (<a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getsplitinfo">BCM_GETSPLITINFO</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setsplitinfo">BCM_SETSPLITINFO</a> messages.
-
+Contains information that defines a split button (<a href="/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> and <a href="/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="/windows/desktop/Controls/bcm-getsplitinfo">BCM_GETSPLITINFO</a> and <a href="/windows/desktop/Controls/bcm-setsplitinfo">BCM_SETSPLITINFO</a> messages.
 
 ## -struct-fields
 
-
-
-
 ### -field mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A set of flags that specify which members of this structure contain data to be set or which members are being requested. Set this member to one or more of the following flags.
 
@@ -109,8 +110,6 @@ A set of flags that specify which members of this structure contain data to be s
 </td>
 </tr>
 </table>
- 
-
 
 ### -field himlGlyph
 
@@ -118,10 +117,9 @@ Type: <b>HIMAGELIST</b>
 
 A handle to the image list. The provider retains ownership of the image list and is ultimately responsible for its disposal.
 
-
 ### -field uSplitStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The split button style. Value must be one or more of the following flags.
 
@@ -171,33 +169,17 @@ Stretch glyph, but try to retain aspect ratio.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field size
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>. 
-
+A <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>.
 
 ## -remarks
 
-
-
 The glyph is the image that appears on the part of the button that activates the dropdown list. By default, this is an inverted triangle. Multiple images can be added to the image list to provide different glyphs for different states of the button, such as hot and pressed.
-	
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/buttons">Buttons Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/buttons">Buttons Overview</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:commctrl.ListView_HitTest
 title: ListView_HitTest macro (commctrl.h)
-description: Determines which list-view item, if any, is at a specified position. You can use this macro or send the LVM_HITTEST message explicitly.
+description: Determines which list-view item, if any, is at a specified position. You can use this macro or send the LVM_HITTEST message explicitly. (ListView_HitTest)
+helpviewer_keywords: ["ListView_HitTest","ListView_HitTest macro [Windows Controls]","_win32_ListView_HitTest","_win32_ListView_HitTest_cpp","commctrl/ListView_HitTest","controls.ListView_HitTest","controls._win32_ListView_HitTest"]
 old-location: controls\ListView_HitTest.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittest.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_HitTest, ListView_HitTest macro [Windows Controls], _win32_ListView_HitTest, _win32_ListView_HitTest_cpp, commctrl/ListView_HitTest, controls.ListView_HitTest, controls._win32_ListView_HitTest
-f1_keywords:
-- commctrl/ListView_HitTest
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_HitTest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_HitTest
+ - commctrl/ListView_HitTest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_HitTest
 ---
 
 # ListView_HitTest macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines which list-view item, if any, is at a specified position. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-hittest">LVM_HITTEST</a> message explicitly. 
-
+Determines which list-view item, if any, is at a specified position. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-hittest">LVM_HITTEST</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param pinfo
 
 Type: <b>LPLVHITTESTINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvhittestinfo">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test. 
-
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvhittestinfo">LVHITTESTINFO</a> structure that contains the position to hit test and receives information about the results of the hit test.

@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPV2CLEANUP
 title: LPNSPV2CLEANUP (ws2spi.h)
 description: Notifies a namespace service provider version-2 (NSPv2) provider that a client session has terminated.
+helpviewer_keywords: ["LPNSPV2CLEANUP","NSPv2Cleanup","NSPv2Cleanup function [Winsock]","winsock.nspv2cleanup","ws2spi/NSPv2Cleanup"]
 old-location: winsock\nspv2cleanup.htm
 tech.root: WinSock
 ms.assetid: 36064c0e-c83c-4819-a3e4-c89df50eb659
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2CLEANUP, NSPv2Cleanup, NSPv2Cleanup function [Winsock], winsock.nspv2cleanup, ws2spi/NSPv2Cleanup
-f1_keywords:
-- ws2spi/NSPv2Cleanup
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPv2Cleanup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPV2CLEANUP
+ - ws2spi/LPNSPV2CLEANUP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPv2Cleanup
 ---
 
 # LPNSPV2CLEANUP callback function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **NSPv2Cleanup** function notifies a namespace service provider version-2 (NSPv2) provider that a client session has terminated.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to the GUID of the namespace provider to be notified.
 
-
 ### -param pvClientSessionArg [in]
 
-A pointer to the client session. 
-
+A pointer to the client session.
 
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (that is, 1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -138,14 +131,8 @@ Service is unknown. The service cannot be found in the specified namespace.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **NSPv2Cleanup** function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
@@ -169,15 +156,9 @@ The
 
 The <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup</a>,  <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2clientsessionrundown">NSPv2ClientSessionRundown</a>, and  **NSPv2Cleanup** functions are optional, dependent on the requirements of the NSPv2 provider.
 
- If the **NSPv2Cleanup** function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented **NSPv2Cleanup** function in the <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a> structure should point be to the stub function. 
-
-
-
+ If the **NSPv2Cleanup** function isn't implemented, then calls to that function should be intercepted by a stub function that returns <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2#WSAEOPNOTSUPP">WSAEOPNOTSUPP</a>.  The NSPv2 function pointer to the unimplemented **NSPv2Cleanup** function in the <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a> structure should point be to the stub function.
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nspv2_routine">NSPV2_ROUTINE</a>
 
@@ -212,7 +193,4 @@ The <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup<
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

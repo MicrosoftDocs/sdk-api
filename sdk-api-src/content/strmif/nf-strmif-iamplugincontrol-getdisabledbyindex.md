@@ -1,17 +1,13 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetDisabledByIndex
 title: IAMPluginControl::GetDisabledByIndex (strmif.h)
-description: Gets a class identifier (CLSID) from the blocked list.
+description: IAMPluginControl::GetDisabledByIndex (strmif.h) gets a class identifier (CLSID) from the blocked list.
+helpviewer_keywords: ["GetDisabledByIndex","GetDisabledByIndex method [DirectShow]","GetDisabledByIndex method [DirectShow]","IAMPluginControl interface","IAMPluginControl interface [DirectShow]","GetDisabledByIndex method","IAMPluginControl.GetDisabledByIndex","IAMPluginControl::GetDisabledByIndex","dshow.iamplugincontrol_getdisabledbyindex","strmif/IAMPluginControl::GetDisabledByIndex"]
 old-location: dshow\iamplugincontrol_getdisabledbyindex.htm
 tech.root: DirectShow
 ms.assetid: 7c55e37b-46f1-4283-bea4-3884ae730906
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [DirectShow], GetDisabledByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetDisabledByIndex method, IAMPluginControl.GetDisabledByIndex, IAMPluginControl::GetDisabledByIndex, dshow.iamplugincontrol_getdisabledbyindex, strmif/IAMPluginControl::GetDisabledByIndex
-ms.topic: method
-f1_keywords:
-- strmif/IAMPluginControl.GetDisabledByIndex
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMPluginControl.GetDisabledByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPluginControl::GetDisabledByIndex
+ - strmif/IAMPluginControl::GetDisabledByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMPluginControl.GetDisabledByIndex
 ---
 
 # IAMPluginControl::GetDisabledByIndex
@@ -49,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a class identifier (CLSID) from the blocked list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The zero-based index of the CLSID to retrieve.
 
-
-
-
 ### -param clsid [out]
 
 Receives the CLSID at the specified index.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,22 +95,11 @@ The <i>index</i> parameter is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>

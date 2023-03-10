@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICImagingFactory.CreateBitmap
 title: IWICImagingFactory::CreateBitmap (wincodec.h)
 description: Creates an IWICBitmap object.
+helpviewer_keywords: ["CreateBitmap","CreateBitmap method [Windows Imaging Component]","CreateBitmap method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateBitmap method","IWICImagingFactory.CreateBitmap","IWICImagingFactory::CreateBitmap","WICBitmapCacheOnDemand","WICBitmapCacheOnLoad","WICBitmapNoCache","_wic_codec_iwicimagingfactory_createbitmap","wic._wic_codec_iwicimagingfactory_createbitmap","wincodec/IWICImagingFactory::CreateBitmap"]
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmap.htm
 tech.root: wic
 ms.assetid: 76741d1e-3e1b-4018-b092-b668ecfd43c9
 ms.date: 12/05/2018
 ms.keywords: CreateBitmap, CreateBitmap method [Windows Imaging Component], CreateBitmap method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmap method, IWICImagingFactory.CreateBitmap, IWICImagingFactory::CreateBitmap, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmap, wic._wic_codec_iwicimagingfactory_createbitmap, wincodec/IWICImagingFactory::CreateBitmap
-f1_keywords:
-- wincodec/IWICImagingFactory.CreateBitmap
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICImagingFactory.CreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICImagingFactory::CreateBitmap
+ - wincodec/IWICImagingFactory::CreateBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICImagingFactory.CreateBitmap
 ---
 
 # IWICImagingFactory::CreateBitmap
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> object.
-
+Creates an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> object.
 
 ## -parameters
-
-
-
 
 ### -param uiWidth [in]
 
@@ -63,13 +60,11 @@ Type: <b>UINT</b>
 
 The width of the new bitmap .
 
-
 ### -param uiHeight [in]
 
 Type: <b>UINT</b>
 
 The height of the new bitmap.
-
 
 ### -param pixelFormat [in]
 
@@ -77,12 +72,11 @@ Type: <b>REFWICPixelFormatGUID</b>
 
 The pixel format of the new bitmap.
 
-
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a></b>
 
-The cache creation options of the new bitmap. This can be one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a> enumeration.
+The cache creation options of the new bitmap. This can be one of the values in the <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a> enumeration.
 
 <table>
 <tr>
@@ -120,38 +114,23 @@ This option is not valid for this method and should not be used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppIBitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
 
 A pointer that receives a pointer to the new bitmap.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">Native Pixel Formats</a>
- 
-
- 
-
+<a href="/windows/desktop/wic/-wic-codec-native-pixel-formats">Native Pixel Formats</a>

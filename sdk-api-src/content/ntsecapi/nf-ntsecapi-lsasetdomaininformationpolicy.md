@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.LsaSetDomainInformationPolicy
 title: LsaSetDomainInformationPolicy function (ntsecapi.h)
 description: Sets domain information to the Policyobject.
+helpviewer_keywords: ["LsaSetDomainInformationPolicy","LsaSetDomainInformationPolicy function [Security]","PolicyDomainEfsInformation","PolicyDomainKerberosTicketInformation","ntsecapi/LsaSetDomainInformationPolicy","security.lsasetdomaininformationpolicy"]
 old-location: security\lsasetdomaininformationpolicy.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 77af6fdc-a52e-476c-9de2-36ee48133a87
 ms.date: 12/05/2018
 ms.keywords: LsaSetDomainInformationPolicy, LsaSetDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaSetDomainInformationPolicy, security.lsasetdomaininformationpolicy
-f1_keywords:
-- ntsecapi/LsaSetDomainInformationPolicy
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- LsaSetDomainInformationPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaSetDomainInformationPolicy
+ - ntsecapi/LsaSetDomainInformationPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - LsaSetDomainInformationPolicy
 ---
 
 # LsaSetDomainInformationPolicy function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>LsaSetDomainInformationPolicy</b> function sets domain information to the  <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a>object.
-
+The <b>LsaSetDomainInformationPolicy</b> function sets domain information to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 ## -parameters
 
-
-
-
 ### -param PolicyHandle [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
-
+A handle to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
 
 ### -param InformationClass [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be set to the  <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a>object. The following table shows the possible values.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_domain_information_class">POLICY_DOMAIN_INFORMATION_CLASS</a> enumeration that specifies the information to be set to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. The following table shows the possible values.
 
 <table>
 <tr>
@@ -78,7 +73,7 @@ A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/poli
 </dl>
 </td>
 <td width="60%">
-The information is for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">Encrypting File System</a>.
+The information is for <a href="/windows/desktop/SecGloss/e-gly">Encrypting File System</a>.
 
 </td>
 </tr>
@@ -93,21 +88,16 @@ The information is for a Kerberos ticket.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [in]
 
-Pointer to a buffer that contains  the  information to set to the  <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a>object.
-
+Pointer to a buffer that contains  the  information to set to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is STATUS_SUCCESS.
 
-If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the <a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -129,16 +119,7 @@ The policy database is
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The POLICY_TRUST_ADMIN access type is required to set domain information to the  <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a>object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.
-
-
-
+The POLICY_TRUST_ADMIN access type is required to set domain information to the  <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. For more information, see <a href="/windows/desktop/SecMgmt/policy-object-access-rights">Policy Object Access Rights</a>.

@@ -2,15 +2,12 @@
 UID: NF:prsht.PropSheet_ShowWizButtons
 title: PropSheet_ShowWizButtons macro (prsht.h)
 description: Show or hide buttons in a wizard. You can use this macro or send the PSM_SHOWWIZBUTTONS message explicitly.
+helpviewer_keywords: ["PSWIZB_BACK","PSWIZB_CANCEL","PSWIZB_FINISH","PSWIZB_NEXT","PSWIZB_RESTORE","PSWIZB_SHOW","PropSheet_ShowWizButtons","PropSheet_ShowWizButtons macro [Windows Controls]","_shell_PropSheet_ShowWizButtons","_shell_PropSheet_ShowWizButtons_cpp","controls.PropSheet_ShowWizButtons","controls._shell_PropSheet_ShowWizButtons","prsht/PropSheet_ShowWizButtons"]
 old-location: controls\PropSheet_ShowWizButtons.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_showwizbuttons.htm
 ms.date: 12/05/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PSWIZB_RESTORE, PSWIZB_SHOW, PropSheet_ShowWizButtons, PropSheet_ShowWizButtons macro [Windows Controls], _shell_PropSheet_ShowWizButtons, _shell_PropSheet_ShowWizButtons_cpp, controls.PropSheet_ShowWizButtons, controls._shell_PropSheet_ShowWizButtons, prsht/PropSheet_ShowWizButtons
-f1_keywords:
-- prsht/PropSheet_ShowWizButtons
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_ShowWizButtons
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_ShowWizButtons
+ - prsht/PropSheet_ShowWizButtons
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_ShowWizButtons
 ---
 
 # PropSheet_ShowWizButtons macro
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Show or hide buttons in a wizard. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-showwizbuttons">PSM_SHOWWIZBUTTONS</a> message explicitly.
-
+Show or hide buttons in a wizard. You can use this macro or send the <a href="/windows/desktop/Controls/psm-showwizbuttons">PSM_SHOWWIZBUTTONS</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the wizard.
 
-
 ### -param dwFlag
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the following values that specify which property sheet buttons are to be shown. If a button value is included in both this parameter and <i>dwButton</i> then it is shown.
 
@@ -136,19 +132,14 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwButton
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the same values used in <i>dwFlag</i>. Here, they specify which property sheet buttons are to be shown or hidden. If a button value appears in this parameter but not in <i>dwFlag</i>, it indicates that the button should be hidden.
 
-
 ## -remarks
-
-
 
 The following example code hides the <b>Back</b> button and shows the <b>Next</b> button. 
 	
@@ -159,7 +150,3 @@ PropSheet_ShowWizButtons(hwnd,
                          PSWIZB_NEXT,
                          PSWIZB_BACK | PSWIZB_NEXT);
 ```
-
-
-
-

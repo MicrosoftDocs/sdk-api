@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSink
 title: IWMWriterAdvanced::GetSink (wmsdkidl.h)
 description: The GetSink method retrieves a writer sink object. Used in conjunction with IWMWriterAdvanced::GetSinkCount, this method can be used to enumerate the sinks associated with a writer object.
+helpviewer_keywords: ["GetSink","GetSink method [windows Media Format]","GetSink method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","GetSink method","IWMWriterAdvanced.GetSink","IWMWriterAdvanced::GetSink","IWMWriterAdvancedGetSink","wmformat.iwmwriteradvanced_getsink","wmsdkidl/IWMWriterAdvanced::GetSink"]
 old-location: wmformat\iwmwriteradvanced_getsink.htm
 tech.root: wmformat
 ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61
 ms.date: 12/05/2018
 ms.keywords: GetSink, GetSink method [windows Media Format], GetSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSink method, IWMWriterAdvanced.GetSink, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
-f1_keywords:
-- wmsdkidl/IWMWriterAdvanced.GetSink
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterAdvanced.GetSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced::GetSink
+ - wmsdkidl/IWMWriterAdvanced::GetSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterAdvanced.GetSink
 ---
 
 # IWMWriterAdvanced::GetSink
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>, this method can be used to enumerate the sinks associated with a writer object.
-
-
-
+The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction with <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>, this method can be used to enumerate the sinks associated with a writer object.
 
 ## -parameters
-
-
-
 
 ### -param dwSinkNum [in]
 
 <b>DWORD</b> containing the sink number (its index). This is a number between 0 and one less than the total number of sinks associated with the file as obtained with <b>IWMWriterAdvanced::GetSinkCount</b>.
 
-
 ### -param ppSink [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a> interface.
-
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,43 +97,27 @@ Either the <i>ppSink</i> parameter is <b>NULL</b>, or the <i>dwSinkNum</i> param
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You can use <b>GetSink</b> to gain access to the file sink that is automatically created when you call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>. If you are only writing to the automatically created file sink, it will always be sink number 0.
-
-
-
+You can use <b>GetSink</b> to gain access to the file sink that is automatically created when you call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>. If you are only writing to the automatically created file sink, it will always be sink number 0.
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/enumerating-sinks">Enumerating Sinks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumerating-sinks">Enumerating Sinks</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink">IWMWriterAdvanced::AddSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink">IWMWriterAdvanced::AddSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>

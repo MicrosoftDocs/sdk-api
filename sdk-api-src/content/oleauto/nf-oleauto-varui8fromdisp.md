@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarUI8FromDisp
 title: VarUI8FromDisp function (oleauto.h)
 description: Converts the default property of an IDispatch instance to an 8-byte unsigned integer value.
+helpviewer_keywords: ["VarUI8FromDisp","VarUI8FromDisp function [Automation]","_oa96_VarUI8FromDisp","automat.varui8fromdisp","oleauto/VarUI8FromDisp"]
 old-location: automat\varui8fromdisp.htm
 tech.root: automat
 ms.assetid: b9741fc3-fefd-4504-8d4b-565d9ba8b5c2
 ms.date: 12/05/2018
 ms.keywords: VarUI8FromDisp, VarUI8FromDisp function [Automation], _oa96_VarUI8FromDisp, automat.varui8fromdisp, oleauto/VarUI8FromDisp
-f1_keywords:
-- oleauto/VarUI8FromDisp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI8FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI8FromDisp
+ - oleauto/VarUI8FromDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI8FromDisp
 ---
 
 # VarUI8FromDisp function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to an 8-byte unsigned integer value.
-
+Converts the default property of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to an 8-byte unsigned integer value.
 
 ## -parameters
-
-
-
 
 ### -param pdispIn [in]
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param pi64Out [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -152,7 +144,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

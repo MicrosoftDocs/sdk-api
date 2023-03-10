@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaPlayer.GetVideoSourceRect
 title: IMFPMediaPlayer::GetVideoSourceRect (mfplay.h)
 description: Gets the video source rectangle.
+helpviewer_keywords: ["GetVideoSourceRect","GetVideoSourceRect method [Media Foundation]","GetVideoSourceRect method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetVideoSourceRect method","IMFPMediaPlayer.GetVideoSourceRect","IMFPMediaPlayer::GetVideoSourceRect","mf.imfpmediaplayer_getvideosourcerect","mfplay/IMFPMediaPlayer::GetVideoSourceRect"]
 old-location: mf\imfpmediaplayer_getvideosourcerect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3b72ece3-f573-42e1-948c-443c793e5ba4
 ms.date: 12/05/2018
 ms.keywords: GetVideoSourceRect, GetVideoSourceRect method [Media Foundation], GetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetVideoSourceRect method, IMFPMediaPlayer.GetVideoSourceRect, IMFPMediaPlayer::GetVideoSourceRect, mf.imfpmediaplayer_getvideosourcerect, mfplay/IMFPMediaPlayer::GetVideoSourceRect
-f1_keywords:
-- mfplay/IMFPMediaPlayer.GetVideoSourceRect
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.GetVideoSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::GetVideoSourceRect
+ - mfplay/IMFPMediaPlayer::GetVideoSourceRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.GetVideoSourceRect
 ---
 
 # IMFPMediaPlayer::GetVideoSourceRect
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Gets the video source rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param pnrcSource [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. This rectangle defines which portion of the video is displayed. It is specified in normalized coordinates, which are defined as follows:
+Pointer to an <a href="/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. This rectangle defines which portion of the video is displayed. It is specified in normalized coordinates, which are defined as follows:
 
 <ul>
 <li>The upper-left corner of the video image is (0, 0).</li>
@@ -72,10 +68,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr
 </ul>
 If the source rectangle is {0, 0, 1, 1}, the entire image is displayed. This is the default value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,27 +106,16 @@ The current media item does not contain video.
 </dl>
 </td>
 <td width="60%">
-The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
+The object's <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

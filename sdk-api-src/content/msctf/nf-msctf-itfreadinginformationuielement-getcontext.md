@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfReadingInformationUIElement.GetContext
 title: ITfReadingInformationUIElement::GetContext (msctf.h)
 description: This method returns the target ITfContext of this reading information UI.
+helpviewer_keywords: ["GetContext","GetContext method [Text Services Framework]","GetContext method [Text Services Framework]","ITfReadingInformationUIElement interface","ITfReadingInformationUIElement interface [Text Services Framework]","GetContext method","ITfReadingInformationUIElement.GetContext","ITfReadingInformationUIElement::GetContext","msctf/ITfReadingInformationUIElement::GetContext","tsf.iitfreadinginformationuielement_getcontext","tsf.itfreadinginformationuielement_getcontext"]
 old-location: tsf\itfreadinginformationuielement_getcontext.htm
 tech.root: TSF
 ms.assetid: 018c10ca-698e-42e6-9439-09f183870f91
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Text Services Framework], GetContext method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetContext method, ITfReadingInformationUIElement.GetContext, ITfReadingInformationUIElement::GetContext, msctf/ITfReadingInformationUIElement::GetContext, tsf.iitfreadinginformationuielement_getcontext, tsf.itfreadinginformationuielement_getcontext
-f1_keywords:
-- msctf/ITfReadingInformationUIElement.GetContext
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfReadingInformationUIElement.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfReadingInformationUIElement::GetContext
+ - msctf/ITfReadingInformationUIElement::GetContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfReadingInformationUIElement.GetContext
 ---
 
 # ITfReadingInformationUIElement::GetContext
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-This method returns the target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> of this reading information UI.
-
+This method returns the target <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> of this reading information UI.
 
 ## -parameters
 
-
-
-
 ### -param ppic [out]
 
-[out] A pointer to receive the target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface of this UI element.
-
+[out] A pointer to receive the target <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface of this UI element.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-

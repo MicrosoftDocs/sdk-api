@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRecognitionAlternate.GetPropertyValue
 title: IInkRecognitionAlternate::GetPropertyValue (msinkaut.h)
 description: Retrieves the value of a specified property of the alternate.
+helpviewer_keywords: ["ConfidenceLevel","GetPropertyValue","GetPropertyValue method [Tablet PC]","GetPropertyValue method [Tablet PC]","IInkRecognitionAlternate interface","HotPoint","IInkRecognitionAlternate interface [Tablet PC]","GetPropertyValue method","IInkRecognitionAlternate.GetPropertyValue","IInkRecognitionAlternate::GetPropertyValue","LineMetrics","LineNumber","MaximumStrokeCount","PointsPerInch","S_OK","Segmentation","b2ebf45a-b995-4fbc-b86d-b94d1f48f659","msinkaut/IInkRecognitionAlternate::GetPropertyValue","tablet.iinkrecognitionalternate_getpropertyvalue"]
 old-location: tablet\iinkrecognitionalternate_getpropertyvalue.htm
 tech.root: tablet
 ms.assetid: b2ebf45a-b995-4fbc-b86d-b94d1f48f659
 ms.date: 12/05/2018
 ms.keywords: ConfidenceLevel, GetPropertyValue, GetPropertyValue method [Tablet PC], GetPropertyValue method [Tablet PC],IInkRecognitionAlternate interface, HotPoint, IInkRecognitionAlternate interface [Tablet PC],GetPropertyValue method, IInkRecognitionAlternate.GetPropertyValue, IInkRecognitionAlternate::GetPropertyValue, LineMetrics, LineNumber, MaximumStrokeCount, PointsPerInch, S_OK, Segmentation, b2ebf45a-b995-4fbc-b86d-b94d1f48f659, msinkaut/IInkRecognitionAlternate::GetPropertyValue, tablet.iinkrecognitionalternate_getpropertyvalue
-f1_keywords:
-- msinkaut/IInkRecognitionAlternate.GetPropertyValue
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognitionAlternate.GetPropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognitionAlternate::GetPropertyValue
+ - msinkaut/IInkRecognitionAlternate::GetPropertyValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognitionAlternate.GetPropertyValue
 ---
 
 # IInkRecognitionAlternate::GetPropertyValue
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the value of a specified property of the alternate.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param PropertyType [in]
 
-Specifies which property of the alternate to return, as one of the GUIDs from the <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> object.
+Specifies which property of the alternate to return, as one of the GUIDs from the <a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> object.
 
-For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the BSTR data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param PropertyValue [out, retval]
 
@@ -178,13 +171,9 @@ Success.
 </table>
  
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-            
-
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -260,35 +249,19 @@ Cannot allocate memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
- Use this method to obtain property values for <a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> objects that have no corresponding helper property, such as the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence">Confidence</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber">LineNumber</a> properties.
-
-
-
+ Use this method to obtain property values for <a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty</a> objects that have no corresponding helper property, such as the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence">Confidence</a> and <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linenumber">LineNumber</a> properties.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues">AlternatesWithConstantPropertyValues Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-alternateswithconstantpropertyvalues">AlternatesWithConstantPropertyValues Method</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognition Alternate Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognition Alternate Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty Constants</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/recognitionproperty-constants">RecognitionProperty Constants</a>

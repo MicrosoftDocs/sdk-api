@@ -1,16 +1,13 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
 title: ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a client connection.
+description: Notifies registered plug-ins about state changes in a client connection. (ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx)
+helpviewer_keywords: ["CONNECTION_REQUEST_CANCELLED","CONNECTION_REQUEST_FAILED","CONNECTION_REQUEST_PENDING","CONNECTION_REQUEST_SUCCEEDED","CONNECTION_REQUEST_TIMEDOUT","ITsSbResourceNotificationEx interface [Remote Desktop Services]","NotifyClientConnectionStateChangeEx method","ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx","ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx","NotifyClientConnectionStateChangeEx","NotifyClientConnectionStateChangeEx method [Remote Desktop Services]","NotifyClientConnectionStateChangeEx method [Remote Desktop Services]","ITsSbResourceNotificationEx interface","sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx","termserv.itssbresourcenotificationex_notifyclientconnectionstatechangeex"]
 old-location: termserv\itssbresourcenotificationex_notifyclientconnectionstatechangeex.htm
 tech.root: TermServ
 ms.assetid: 79f59e18-f9ca-4e64-b8a1-8b0dd2b2715e
 ms.date: 12/05/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifyClientConnectionStateChangeEx method, ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx, ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx, NotifyClientConnectionStateChangeEx method [Remote Desktop Services], NotifyClientConnectionStateChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx, termserv.itssbresourcenotificationex_notifyclientconnectionstatechangeex
-f1_keywords:
-- sbtsv/ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx
+ - sbtsv/ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourceNotificationEx.NotifyClientConnectionStateChangeEx
 ---
 
 # ITsSbResourceNotificationEx::NotifyClientConnectionStateChangeEx
@@ -48,39 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies registered plug-ins about state changes in a client connection.
 
-
 ## -parameters
-
-
-
 
 ### -param userName [in]
 
 The user name.
 
-
 ### -param domain [in]
 
 The user domain.
-
 
 ### -param initialProgram [in]
 
 The initial program.
 
-
 ### -param poolName [in]
 
 The name of the pool.
 
-
 ### -param targetName [in]
 
 The name of the target.
-
 
 ### -param connectionChangeType [in]
 
@@ -135,27 +127,14 @@ canceled a connection request
 request was being processed while the 
 RD Connection Broker service was stopping.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotificationex">ITsSbResourceNotificationEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotificationex">ITsSbResourceNotificationEx</a>

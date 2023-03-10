@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMHeaderInfo.GetScript
 title: IWMHeaderInfo::GetScript (wmsdkidl.h)
 description: The GetScript method returns the type and command strings, and the presentation time, of a script.
+helpviewer_keywords: ["GetScript","GetScript method [windows Media Format]","GetScript method [windows Media Format]","IWMHeaderInfo interface","GetScript method [windows Media Format]","IWMHeaderInfo2 interface","GetScript method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetScript method","IWMHeaderInfo.GetScript","IWMHeaderInfo2 interface [windows Media Format]","GetScript method","IWMHeaderInfo2::GetScript","IWMHeaderInfo3 interface [windows Media Format]","GetScript method","IWMHeaderInfo3::GetScript","IWMHeaderInfo::GetScript","IWMHeaderInfoGetScript","wmformat.iwmheaderinfo_getscript","wmsdkidl/IWMHeaderInfo2::GetScript","wmsdkidl/IWMHeaderInfo3::GetScript","wmsdkidl/IWMHeaderInfo::GetScript"]
 old-location: wmformat\iwmheaderinfo_getscript.htm
 tech.root: wmformat
 ms.assetid: 779a7618-9f22-4caf-8a4e-b622e422c30d
 ms.date: 12/05/2018
 ms.keywords: GetScript, GetScript method [windows Media Format], GetScript method [windows Media Format],IWMHeaderInfo interface, GetScript method [windows Media Format],IWMHeaderInfo2 interface, GetScript method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetScript method, IWMHeaderInfo.GetScript, IWMHeaderInfo2 interface [windows Media Format],GetScript method, IWMHeaderInfo2::GetScript, IWMHeaderInfo3 interface [windows Media Format],GetScript method, IWMHeaderInfo3::GetScript, IWMHeaderInfo::GetScript, IWMHeaderInfoGetScript, wmformat.iwmheaderinfo_getscript, wmsdkidl/IWMHeaderInfo2::GetScript, wmsdkidl/IWMHeaderInfo3::GetScript, wmsdkidl/IWMHeaderInfo::GetScript
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo.GetScript
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMHeaderInfo.GetScript
-- IWMHeaderInfo2.GetScript
-- IWMHeaderInfo3.GetScript
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo::GetScript
+ - wmsdkidl/IWMHeaderInfo::GetScript
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMHeaderInfo.GetScript
+ - IWMHeaderInfo2.GetScript
+ - IWMHeaderInfo3.GetScript
 ---
 
 # IWMHeaderInfo::GetScript
@@ -54,51 +56,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetScript</b> method returns the type and command strings, and the presentation time, of a script.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param wIndex [in]
 
-<b>WORD</b>that contains the index.
-
+<b>WORD</b> that contains the index.
 
 ### -param pwszType [out]
 
 Pointer to a wide-character <b>null</b>-terminated string buffer into which the type is copied.
 
-
 ### -param pcchTypeLen [in, out]
 
 On input, a pointer to a variable that contains the length of the <i>pwszType</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the actual length of the string loaded into <i>pwszType</i>.This includes the terminating <b>null</b> character. To retrieve the length of the type, you must set this to zero and set <i>pwszType</i> to <b>NULL</b>.
-
 
 ### -param pwszCommand [out]
 
 Pointer to a wide-character <b>null</b>-terminated string buffer into which the command is copied.
 
-
 ### -param pcchCommandLen [in, out]
 
 On input, a pointer to a variable that contains the length of the <i>pwszCommand</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the actual length of the command string. This  includes the terminating <b>null</b> character. To retrieve the length of the command, you must set this to zero and set <i>pwszCommand</i> to <b>NULL</b>.
 
-
 ### -param pcnsScriptTime [out]
 
-Pointer to a <b>QWORD</b>that specifies the presentation time of this script command in 100-nanosecond increments.
-
+Pointer to a <b>QWORD</b> that specifies the presentation time of this script command in 100-nanosecond increments.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -185,47 +171,31 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You should make two calls to <b>GetScript</b> for each script you want to retrieve. On the first call, pass <b>NULL</b> for <i>pwszType</i> and <i>pwszCommand</i>. On return, the values that are pointed to by <i>pcchTypeLen</i> and <i>pcchCommandLen</i> are set to the number of wide characters. These  include the terminating <b>null</b> character, which is required to hold the script type in <i>pcchTypeLen</i> and the command in <i>pcchCommandLen</i>. You can then create buffers of the appropriate size to receive <i>pwszType</i> and <i>pwszCommand</i> and pass pointers to them on the second call.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addscript">IWMHeaderInfo::AddScript</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-addscript">IWMHeaderInfo::AddScript</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscriptcount">IWMHeaderInfo::GetScriptCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscriptcount">IWMHeaderInfo::GetScriptCount</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removescript">IWMHeaderInfo::RemoveScript</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removescript">IWMHeaderInfo::RemoveScript</a>

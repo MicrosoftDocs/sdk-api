@@ -2,15 +2,12 @@
 UID: NF:ncrypt.NCryptEnumKeys
 title: NCryptEnumKeys function (ncrypt.h)
 description: Obtains the names of the keys that are stored by the provider.
+helpviewer_keywords: ["NCRYPT_MACHINE_KEY_FLAG","NCRYPT_SILENT_FLAG","NCryptEnumKeys","NCryptEnumKeys function [Security]","ncrypt/NCryptEnumKeys","security.ncryptenumkeys_func"]
 old-location: security\ncryptenumkeys_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func
-f1_keywords:
-- ncrypt/NCryptEnumKeys
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptEnumKeys
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptEnumKeys
+ - ncrypt/NCryptEnumKeys
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptEnumKeys
 ---
 
 # NCryptEnumKeys function
@@ -48,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptEnumKeys</b> function obtains the names of the keys that are stored by the provider.
-
 
 ## -parameters
 
-
-
-
 ### -param hProvider [in]
 
-The handle of the key storage provider to enumerate the keys for. This handle is obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
-
+The handle of the key storage provider to enumerate the keys for. This handle is obtained with the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 ### -param pszScope [in, optional]
 
 This parameter is not currently used and must be <b>NULL</b>.
 
-
 ### -param ppKeyName [out]
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-ncryptkeyname">NCryptKeyName</a> structure that receives the name of the retrieved key. When the application has finished using this memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
-
+The address of a pointer to an <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncryptkeyname">NCryptKeyName</a> structure that receives the name of the retrieved key. When the application has finished using this memory, free it by calling the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
 
 ### -param ppEnumState [in, out]
 
 The address of a <b>VOID</b> pointer that receives enumeration state information that is used in subsequent calls to this function. This information only has meaning to the key storage provider and is opaque to the caller. The key storage provider uses this information to determine which item is next in the enumeration. If the variable pointed to by this parameter contains <b>NULL</b>, the enumeration is started from the beginning.
 
-When this memory is no longer needed, it must be freed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
-
+When this memory is no longer needed, it must be freed by passing this pointer to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
 
 ### -param dwFlags [in]
 
@@ -109,12 +102,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -206,18 +195,9 @@ The <i>dwFlags</i> parameter contains the <b>NCRYPT_SILENT_FLAG</b> flag, but th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function retrieves only one item each time it is called. The state of the enumeration is stored in the variable pointed to by the <i>ppEnumState</i> parameter, so this must be preserved between calls to this function. When the last key stored by the provider has been retrieved, this function will return <b>NTE_NO_MORE_ITEMS</b> the next time it is called. To start the enumeration over, set the variable pointed to by the <i>ppEnumState</i> parameter to <b>NULL</b>, free the memory pointed to by the <i>ppKeyName</i> parameter, if it is not <b>NULL</b>, and call this function again.
 
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

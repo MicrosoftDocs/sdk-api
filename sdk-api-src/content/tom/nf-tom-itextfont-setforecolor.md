@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetForeColor
 title: ITextFont::SetForeColor (tom.h)
 description: Sets the foreground (text) color.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetForeColor method","ITextFont.SetForeColor","ITextFont::SetForeColor","SetForeColor","SetForeColor method [Windows Controls]","SetForeColor method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetForeColor","_win32_ITextFont_SetForeColor_cpp","controls.ITextFont_SetForeColor","controls._win32_ITextFont_SetForeColor","tom/ITextFont::SetForeColor"]
 old-location: controls\ITextFont_SetForeColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setforecolor.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetForeColor method, ITextFont.SetForeColor, ITextFont::SetForeColor, SetForeColor, SetForeColor method [Windows Controls], SetForeColor method [Windows Controls],ITextFont interface, _win32_ITextFont_SetForeColor, _win32_ITextFont_SetForeColor_cpp, controls.ITextFont_SetForeColor, controls._win32_ITextFont_SetForeColor, tom/ITextFont::SetForeColor
-f1_keywords:
-- tom/ITextFont.SetForeColor
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetForeColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetForeColor
+ - tom/ITextFont::SetForeColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetForeColor
 ---
 
 # ITextFont::SetForeColor
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the foreground (text) color.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -70,11 +67,11 @@ The new foreground color. It can be one of the following.
 <th>Meaning</th>
 </tr>
 <tr>
-<td>A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value.</td>
+<td>A <a href="/windows/desktop/gdi/colorref">COLORREF</a> value.</td>
 <td>An RGB color.</td>
 </tr>
 <tr>
-<td>A value returned by  <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
+<td>A value returned by  <a href="/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 </td>
 <td>A palette index.</td>
 </tr>
@@ -91,16 +88,13 @@ The new foreground color. It can be one of the following.
 
 If 
 					<i>Value</i> contains an RGB color, generate the 
-					<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
-
+					<a href="/windows/desktop/gdi/colorref">COLORREF</a> by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -152,17 +146,10 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
@@ -170,11 +157,11 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getforecolor">GetForeColor</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-getforecolor">GetForeColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -182,11 +169,11 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
@@ -194,8 +181,4 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

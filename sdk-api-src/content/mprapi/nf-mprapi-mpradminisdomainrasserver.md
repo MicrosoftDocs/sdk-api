@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminIsDomainRasServer
 title: MprAdminIsDomainRasServer function (mprapi.h)
 description: The MprAdminIsDomainRasServer function returns information regarding whether the given machine is registered as the remote access server in the domain.
+helpviewer_keywords: ["MprAdminIsDomainRasServer","MprAdminIsDomainRasServer function [RAS]","mprapi/MprAdminIsDomainRasServer","rras.mpradminisdomainrasserver"]
 old-location: rras\mpradminisdomainrasserver.htm
 tech.root: RRAS
 ms.assetid: 5d9e09f9-3bb7-4877-b9f7-ce045fb30c8f
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
-f1_keywords:
-- mprapi/MprAdminIsDomainRasServer
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminIsDomainRasServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminIsDomainRasServer
+ - mprapi/MprAdminIsDomainRasServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminIsDomainRasServer
 ---
 
 # MprAdminIsDomainRasServer function
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> function returns information regarding whether the given machine is registered as the remote access server in the domain. 
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> function returns information regarding whether the given machine is registered as the remote access server in the domain.
 
 ## -parameters
-
-
-
 
 ### -param pszDomain [in]
 
 The domain  in which you want to query the remote access server.
 
-
 ### -param pszMachine [in]
 
 The name of the remote access server.
-
 
 ### -param pbIsRasServer [out]
 
 Returns <b>TRUE</b> if the machine is registered in the domain, otherwise it returns <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -131,21 +123,15 @@ Function executed on a machine not joined to any domain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function must be executed only on a machine joined to a domain.
 
 
 #### Examples
 
-The follow example code shows the use of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> and <b>MprAdminEstablishDomainRasServer</b> functions.
+The follow example code shows the use of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminIsDomainRasServer</a> and <b>MprAdminEstablishDomainRasServer</b> functions.
 
 
 ```cpp
@@ -201,21 +187,10 @@ int __cdecl main(){
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

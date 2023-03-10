@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptConfigureContextFunction
 title: BCryptConfigureContextFunction function (bcrypt.h)
 description: Sets the configuration information for the cryptographic function of an existing CNG context.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptConfigureContextFunction","BCryptConfigureContextFunction function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","NCRYPT_SCHANNEL_SIGNATURE_INTERFACE","bcrypt/BCryptConfigureContextFunction","security.bcryptconfigurecontextfunction"]
 old-location: security\bcryptconfigurecontextfunction.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: e93c5e3e-3c63-49a3-8c8c-6510e10611ea
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptConfigureContextFunction, BCryptConfigureContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptConfigureContextFunction, security.bcryptconfigurecontextfunction
-f1_keywords:
-- bcrypt/BCryptConfigureContextFunction
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptConfigureContextFunction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptConfigureContextFunction
+ - bcrypt/BCryptConfigureContextFunction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptConfigureContextFunction
 ---
 
 # BCryptConfigureContextFunction function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>BCryptConfigureContextFunction</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>BCryptConfigureContextFunction</b> function sets the configuration information for the cryptographic function of an existing CNG context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -89,13 +86,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to set the cryptographic function configuration information for.
-
 
 ### -param dwInterface [in]
 
@@ -199,22 +193,16 @@ Set the function configuration information in the  list of signature suites that
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFunction [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic function to set the configuration information for.
 
-
 ### -param pConfig [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that contains the new function configuration information.
-
+The address of a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a> structure that contains the new function configuration information.
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -262,27 +250,11 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>BCryptConfigureContextFunction</b> can be called only in user mode.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_context_function_config">CRYPT_CONTEXT_FUNCTION_CONFIG</a>

@@ -2,15 +2,12 @@
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.SetGfxState
 title: IHardwareAudioEngineBase::SetGfxState (audioengineendpoint.h)
 description: The SetGfxState method sets the GFX state of the offloaded audio stream.
+helpviewer_keywords: ["IHardwareAudioEngineBase interface [Core Audio]","SetGfxState method","IHardwareAudioEngineBase.SetGfxState","IHardwareAudioEngineBase::SetGfxState","SetGfxState","SetGfxState method [Core Audio]","SetGfxState method [Core Audio]","IHardwareAudioEngineBase interface","audioengineendpoint/IHardwareAudioEngineBase::SetGfxState","coreaudio.ihardwareaudioenginebase_setgfxstate"]
 old-location: coreaudio\ihardwareaudioenginebase_setgfxstate.htm
 tech.root: CoreAudio
 ms.assetid: 1B90A629-D41A-4339-918B-DAAF577EB699
 ms.date: 12/05/2018
 ms.keywords: IHardwareAudioEngineBase interface [Core Audio],SetGfxState method, IHardwareAudioEngineBase.SetGfxState, IHardwareAudioEngineBase::SetGfxState, SetGfxState, SetGfxState method [Core Audio], SetGfxState method [Core Audio],IHardwareAudioEngineBase interface, audioengineendpoint/IHardwareAudioEngineBase::SetGfxState, coreaudio.ihardwareaudioenginebase_setgfxstate
-f1_keywords:
-- audioengineendpoint/IHardwareAudioEngineBase.SetGfxState
-dev_langs:
-- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioengineendpoint.h
-api_name:
-- IHardwareAudioEngineBase.SetGfxState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHardwareAudioEngineBase::SetGfxState
+ - audioengineendpoint/IHardwareAudioEngineBase::SetGfxState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioengineendpoint.h
+api_name:
+ - IHardwareAudioEngineBase.SetGfxState
 ---
 
 # IHardwareAudioEngineBase::SetGfxState
@@ -48,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetGfxState</b> method sets the GFX state of the offloaded audio stream.
-
 
 ## -parameters
 
-
-
-
 ### -param pDevice [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface.
-
+Pointer to an <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interface.
 
 ### -param _bEnable [in]
 
 Pointer to a boolean variable.
 
-
 ## -returns
-
-
 
 The <b>SetGfxState</b> method returns S_OK to indicate that it has completed successfully. Otherwise it returns an appropriate error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase">IHardwareAudioEngineBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-ihardwareaudioenginebase">IHardwareAudioEngineBase</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a>

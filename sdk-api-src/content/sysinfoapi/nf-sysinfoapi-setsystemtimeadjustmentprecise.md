@@ -1,16 +1,13 @@
 ---
 UID: NF:sysinfoapi.SetSystemTimeAdjustmentPrecise
 title: SetSystemTimeAdjustmentPrecise function (sysinfoapi.h)
-description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
+description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information. (SetSystemTimeAdjustmentPrecise)
+helpviewer_keywords: ["SetSystemTimeAdjustmentPrecise","SetSystemTimeAdjustmentPrecise function","base.setsystemtimeadjustmentprecise","sysinfoapi/SetSystemTimeAdjustmentPrecise"]
 old-location: base\setsystemtimeadjustmentprecise.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 8B429BFC-9781-4434-9A2F-9E50E2BF299A
 ms.date: 12/05/2018
 ms.keywords: SetSystemTimeAdjustmentPrecise, SetSystemTimeAdjustmentPrecise function, base.setsystemtimeadjustmentprecise, sysinfoapi/SetSystemTimeAdjustmentPrecise
-f1_keywords:
-- sysinfoapi/SetSystemTimeAdjustmentPrecise
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mincore.lib
 req.dll: Api-ms-win-core-version-l1-2-3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Api-ms-win-core-version-l1-2-3.dll
-api_name:
-- SetSystemTimeAdjustmentPrecise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetSystemTimeAdjustmentPrecise
+ - sysinfoapi/SetSystemTimeAdjustmentPrecise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Api-ms-win-core-version-l1-2-3.dll
+api_name:
+ - SetSystemTimeAdjustmentPrecise
 ---
 
 # SetSystemTimeAdjustmentPrecise function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information. 
-
+Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 
 ## -parameters
-
-
-
 
 ### -param dwTimeAdjustment [in]
 
 Supplies the adjusted clock update frequency.
-
 
 ### -param bTimeAdjustmentDisabled [in]
 
@@ -70,32 +66,24 @@ A value of <b>TRUE</b> indicates that the system should synchronize time-of-day 
 
 A value of <b>FALSE</b> indicates that the application is in control, and that the specified value of <i>dwTimeAdjustment</i> is to be added to the time-of-day clock at each clock update interrupt.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
 
 ## -remarks
 
-
-
 To use this function, the caller must have system-time privilege (SE_SYSTEMTIME_NAME). This privilege is disabled by default. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the privilege before calling 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the privilege before calling 
 this function, then disable the privilege after the function call. For more information, see 
 the code example below.
 
 
 #### Examples
 
-This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
+This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
 
 
 ```cpp
@@ -278,17 +266,6 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a>

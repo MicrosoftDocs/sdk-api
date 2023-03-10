@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterRegSetValue
 title: ClusterRegSetValue function (clusapi.h)
 description: Sets a value for a cluster database key.
+helpviewer_keywords: ["ClusterRegSetValue","ClusterRegSetValue function [Failover Cluster]","REG_BINARY","REG_DWORD","REG_DWORD_BIG_ENDIAN","REG_EXPAND_SZ","REG_MULTI_SZ","REG_NONE","REG_QWORD","REG_SZ","_wolf_clusterregsetvalue","clusapi/ClusterRegSetValue","mscs.clusterregsetvalue"]
 old-location: mscs\clusterregsetvalue.htm
 tech.root: MsCS
 ms.assetid: 6e4fee56-1c18-4f6d-81ae-c305aae59572
 ms.date: 12/05/2018
 ms.keywords: ClusterRegSetValue, ClusterRegSetValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregsetvalue, clusapi/ClusterRegSetValue, mscs.clusterregsetvalue
-f1_keywords:
-- clusapi/ClusterRegSetValue
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- ClusterRegSetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegSetValue
+ - clusapi/ClusterRegSetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - ClusterRegSetValue
 ---
 
 # ClusterRegSetValue function
@@ -51,31 +53,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a value for a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
-
+    <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 Handle to a cluster database key.
 
-
 ### -param lpszValueName [in]
 
 Pointer to a null-terminated Unicode string containing the name of the value to set. If a value with this 
-       name is not already present in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>, 
+       name is not already present in the <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>, 
        <b>ClusterRegSetValue</b> adds it to the resource.
-
 
 ### -param dwType [in]
 
-Type of information to be stored as the value's data. This parameter can be one of the following values. For more information see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
+Type of information to be stored as the value's data. This parameter can be one of the following values. For more information see <a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
 
 
 
@@ -134,11 +129,9 @@ A 64-bit number.
 
 A null-terminated Unicode string.
 
-
 ### -param lpData [in]
 
 Pointer to the data to be stored with the name pointed to by <i>lpszValueName</i>.
-
 
 ### -param cbData [in]
 
@@ -147,22 +140,14 @@ Count of bytes in the data pointed to by the <i>lpbData</i> parameter. If the da
        <b>REG_MULTI_SZ</b>, <i>cbData</i> must include the size of the 
        null-terminating character.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
-
-
+      <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
-
-
 
 Do not call <b>ClusterRegSetValue</b> from the 
      following resource DLL entry point functions:
@@ -170,41 +155,31 @@ Do not call <b>ClusterRegSetValue</b> from the
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
 
 
 <b>ClusterRegSetValue</b> can be safely called from any 
      other resource DLL entry point function or from a worker thread. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
-
-
-
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

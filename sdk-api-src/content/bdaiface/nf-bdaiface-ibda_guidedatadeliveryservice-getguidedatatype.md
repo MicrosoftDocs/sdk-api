@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideDataType
 title: IBDA_GuideDataDeliveryService::GetGuideDataType (bdaiface.h)
 description: Gets the format UUID for the data that is retrieved on this service.
+helpviewer_keywords: ["CLSID_PBDA_GDDS_DATA_TYPE","GetGuideDataType","GetGuideDataType method [Microsoft TV Technologies]","GetGuideDataType method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetGuideDataType method","IBDA_GuideDataDeliveryService.GetGuideDataType","IBDA_GuideDataDeliveryService::GetGuideDataType","bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType","mstv.ibda_guidedatadeliveryservice_getguidedatatype"]
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedatatype.htm
 tech.root: mstv
 ms.assetid: 74370ba8-2104-41f9-aa02-02b6790236da
 ms.date: 12/05/2018
 ms.keywords: CLSID_PBDA_GDDS_DATA_TYPE, GetGuideDataType, GetGuideDataType method [Microsoft TV Technologies], GetGuideDataType method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideDataType method, IBDA_GuideDataDeliveryService.GetGuideDataType, IBDA_GuideDataDeliveryService::GetGuideDataType, bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType, mstv.ibda_guidedatadeliveryservice_getguidedatatype
-f1_keywords:
-- bdaiface/IBDA_GuideDataDeliveryService.GetGuideDataType
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_GuideDataDeliveryService.GetGuideDataType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_GuideDataDeliveryService::GetGuideDataType
+ - bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_GuideDataDeliveryService.GetGuideDataType
 ---
 
 # IBDA_GuideDataDeliveryService::GetGuideDataType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the format UUID for the data that is retrieved on this service.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidDataType [out]
 
@@ -77,25 +74,11 @@ Protected Broadcast Driver Architecture Service Information (PBDA-SI) format.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_guidedatadeliveryservice">IBDA_GuideDataDeliveryService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_guidedatadeliveryservice">IBDA_GuideDataDeliveryService</a>

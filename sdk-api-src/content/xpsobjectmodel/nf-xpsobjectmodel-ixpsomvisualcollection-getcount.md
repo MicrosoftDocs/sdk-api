@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetCount
 title: IXpsOMVisualCollection::GetCount (xpsobjectmodel.h)
 description: Gets the number of IXpsOMVisual interface pointers in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMVisualCollection interface","IXpsOMVisualCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMVisualCollection.GetCount","IXpsOMVisualCollection::GetCount","xps.ixpsomvisualcollection_getcount","xpsobjectmodel/IXpsOMVisualCollection::GetCount"]
 old-location: xps\ixpsomvisualcollection_getcount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5a89f2ab-47b3-4e82-94ac-d3aa8c02ff60
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMVisualCollection.GetCount, IXpsOMVisualCollection::GetCount, xps.ixpsomvisualcollection_getcount, xpsobjectmodel/IXpsOMVisualCollection::GetCount
-f1_keywords:
-- xpsobjectmodel/IXpsOMVisualCollection.GetCount
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMVisualCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMVisualCollection::GetCount
+ - xpsobjectmodel/IXpsOMVisualCollection::GetCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMVisualCollection.GetCount
 ---
 
 # IXpsOMVisualCollection::GetCount
@@ -48,57 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a> interface pointers in the collection.
-
+Gets the number of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a> interface pointers in the collection.
 
 ## -parameters
 
-
-
-
 ### -param count [out, retval]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a> interface pointers in the collection.
-
+The number of <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a> interface pointers in the collection.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
-For more information about the collection methods, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>.
-
-
-
+For more information about the collection methods, see  <a href="/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualcollection">IXpsOMVisualCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualcollection">IXpsOMVisualCollection</a>
+<a href="/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372931(v=vs.85)">Working with XPS OM Collection Interfaces</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

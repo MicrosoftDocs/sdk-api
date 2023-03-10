@@ -2,15 +2,12 @@
 UID: NS:wlanapi._WLAN_INTERFACE_INFO_LIST
 title: WLAN_INTERFACE_INFO_LIST (wlanapi.h)
 description: Array of NIC interface information.
+helpviewer_keywords: ["*PWLAN_INTERFACE_INFO_LIST","PWLAN_INTERFACE_INFO_LIST","PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI]","WLAN_INTERFACE_INFO_LIST","WLAN_INTERFACE_INFO_LIST structure [NativeWIFI]","nwifi.wlan_interface_info_list","wlanapi/PWLAN_INTERFACE_INFO_LIST","wlanapi/WLAN_INTERFACE_INFO_LIST"]
 old-location: nwifi\wlan_interface_info_list.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: c57f4658-9f1e-4b05-a298-38a064121bb3
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST, PWLAN_INTERFACE_INFO_LIST structure pointer [NativeWIFI], WLAN_INTERFACE_INFO_LIST, WLAN_INTERFACE_INFO_LIST structure [NativeWIFI], nwifi.wlan_interface_info_list, wlanapi/PWLAN_INTERFACE_INFO_LIST, wlanapi/WLAN_INTERFACE_INFO_LIST'
-f1_keywords:
-- wlanapi/WLAN_INTERFACE_INFO_LIST
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_INTERFACE_INFO_LIST
 targetos: Windows
 req.typenames: WLAN_INTERFACE_INFO_LIST, *PWLAN_INTERFACE_INFO_LIST
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_INTERFACE_INFO_LIST
+ - wlanapi/_WLAN_INTERFACE_INFO_LIST
+ - PWLAN_INTERFACE_INFO_LIST
+ - wlanapi/PWLAN_INTERFACE_INFO_LIST
+ - WLAN_INTERFACE_INFO_LIST
+ - wlanapi/WLAN_INTERFACE_INFO_LIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_INTERFACE_INFO_LIST
 ---
 
 # WLAN_INTERFACE_INFO_LIST structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WLAN_INTERFACE_INFO_LIST</b> structure contains an array of NIC interface information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumberOfItems
 
 Contains the number of items in the <b>InterfaceInfo</b> member.
-
 
 ### -field dwIndex
 
@@ -70,34 +70,16 @@ This member is not used by the wireless service. Applications can use this membe
 
 <b>dwIndex</b> should always be initialized before use.
 
-
 ### -field InterfaceInfo.unique
-
- 
-
 
 ### -field InterfaceInfo.size_is
 
- 
-
-
 ### -field InterfaceInfo.size_is.dwNumberOfItems
-
- 
-
 
 ### -field InterfaceInfo
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info">WLAN_INTERFACE_INFO</a> structures containing interface information.
-
+An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info">WLAN_INTERFACE_INFO</a> structures containing interface information.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>

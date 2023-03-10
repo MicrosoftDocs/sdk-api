@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice.get_friendlyName
 title: IWMPSyncDevice::get_friendlyName (wmp.h)
 description: The get_friendlyName method retrieves the user-defined name of the device.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","get_friendlyName method","IWMPSyncDevice.get_friendlyName","IWMPSyncDevice::get_friendlyName","IWMPSyncDeviceget_friendlyName","get_friendlyName","get_friendlyName method [Windows Media Player]","get_friendlyName method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_get_friendlyname","wmp/IWMPSyncDevice::get_friendlyName"]
 old-location: wmp\iwmpsyncdevice_get_friendlyname.htm
 tech.root: WMP
 ms.assetid: f72eaa17-fd7a-4844-8380-1a2547644dee
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_friendlyName method, IWMPSyncDevice.get_friendlyName, IWMPSyncDevice::get_friendlyName, IWMPSyncDeviceget_friendlyName, get_friendlyName, get_friendlyName method [Windows Media Player], get_friendlyName method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_friendlyname, wmp/IWMPSyncDevice::get_friendlyName
-f1_keywords:
-- wmp/IWMPSyncDevice.get_friendlyName
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice.get_friendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice::get_friendlyName
+ - wmp/IWMPSyncDevice::get_friendlyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice.get_friendlyName
 ---
 
 # IWMPSyncDevice::get_friendlyName
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_friendlyName</b> method retrieves the user-defined name of the device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrName [out]
 
 Pointer to a <b>BSTR</b> that contains the friendly name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,37 +90,21 @@ Windows Media Player is currently busy initializing devices. Please try again la
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The friendly name is the device name that appears in the Windows Media Player user interface.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>

@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
 title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat (d3d12.h)
 description: Sets all the elements in a unordered access view to the specified float values.
+helpviewer_keywords: ["ClearUnorderedAccessViewFloat","ClearUnorderedAccessViewFloat method","ClearUnorderedAccessViewFloat method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearUnorderedAccessViewFloat method","ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat","ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat","d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat","direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat"]
 old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewfloat.htm
 tech.root: direct3d12
 ms.assetid: 6A19F429-D7B2-4A71-8904-31BFA1FD10C6
 ms.date: 12/05/2018
 ms.keywords: ClearUnorderedAccessViewFloat, ClearUnorderedAccessViewFloat method, ClearUnorderedAccessViewFloat method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewFloat method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat, ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewfloat
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,121 +25,87 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat
+ - d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ClearUnorderedAccessViewFloat
 ---
-
-# ID3D12GraphicsCommandList::ClearUnorderedAccessViewFloat
-
 
 ## -description
 
-
-Sets all the elements in a unordered access view to the specified float values.
-
+Sets all of the elements in an unordered-access view (UAV) to the specified float values.
 
 ## -parameters
 
+### -param ViewGPUHandleInCurrentHeap
 
+Type: [in] **[D3D12_GPU_DESCRIPTOR_HANDLE](./ns-d3d12-d3d12_gpu_descriptor_handle.md)**
 
+A [D3D12_GPU_DESCRIPTOR_HANDLE](./ns-d3d12-d3d12_gpu_descriptor_handle.md) that references an initialized descriptor for the unordered-access view (UAV) that is to be cleared. This descriptor must be in a shader-visible descriptor heap, which must be set on the command list via [SetDescriptorHeaps](nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps.md).
 
-### -param ViewGPUHandleInCurrentHeap [in]
+### -param ViewCPUHandle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle">D3D12_GPU_DESCRIPTOR_HANDLE</a></b>
+Type: [in] **[D3D12_CPU_DESCRIPTOR_HANDLE](./ns-d3d12-d3d12_cpu_descriptor_handle.md)**
 
-Describes the GPU descriptor handle that represents the start of the heap for the unordered-access view to clear.
+A [D3D12_CPU_DESCRIPTOR_HANDLE](./ns-d3d12-d3d12_cpu_descriptor_handle.md) in a non-shader visible descriptor heap that references an initialized descriptor for the unordered-access view (UAV) that is to be cleared.
           
+> [!IMPORTANT]
+> This descriptor must not be in a shader-visible descriptor heap. This is to allow drivers that implement the clear as a fixed-function hardware operation (rather than as a dispatch) to efficiently read from the descriptor, as shader-visible heaps may be created in **WRITE_BACK** memory (similar to **D3D12_HEAP_TYPE_UPLOAD** heap types), and CPU reads from this type of memory are prohibitively slow.
 
+### -param pResource
 
-### -param ViewCPUHandle [in]
+Type: [in] **[ID3D12Resource](./nn-d3d12-id3d12resource.md)\***
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor_handle">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+A pointer to the [ID3D12Resource](./nn-d3d12-id3d12resource.md) interface that represents the unordered-access-view (UAV) resource to clear.
 
-Describes the CPU descriptor handle that represents the start of the heap for the render target to clear.
-          
+### -param Values
 
-
-### -param pResource [in]
-
-Type: <b>ID3D12Resource*</b>
-
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> interface that represents the unordered-access-view resource to clear.
-          
-
-
-### -param Values [in]
-
-Type: <b>const FLOAT[4]</b>
+Type: [in] **const FLOAT[4]**
 
 A 4-component array that containing the values to fill the unordered-access-view resource with.
-          
 
+### -param NumRects
 
-### -param NumRects [in]
+Type: [in] **UINT**
 
-Type: <b>UINT</b>
+The number of rectangles in the array that the *pRects* parameter specifies.
 
-The number of rectangles in the array that the <i>pRects</i> parameter specifies.
-          
+### -param pRects
 
+Type: [in] **const [D3D12_RECT](/windows/win32/direct3d12/d3d12-rect)\***
 
-### -param pRects [in]
-
-Type: <b>const D3D12_RECT*</b>
-
-An array of <b>D3D12_RECT</b> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <b>ClearUnorderedAccessViewFloat</b> clears the entire resource view.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
+An array of **D3D12_RECT** structures for the rectangles in the resource view to clear. If **NULL**, **ClearUnorderedAccessViewFloat** clears the entire resource view.
 
 ## -remarks
 
+### Runtime validation
 
+For floating-point inputs, the runtime sets denormalized values to 0 (while preserving NANs).
 
-<h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
-For floating-point inputs, the runtime will set denormalized values to 0 (while preserving NANs).
-          
+If you want to clear the UAV to a specific bit pattern, consider using [ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint](./nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint.md).
 
-Validation failure will result in the call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning <b>E_INVALIDARG</b>.
-          
+Validation failure results in the call to [ID3D12GraphicsCommandList::Close](./nf-d3d12-id3d12graphicscommandlist-close.md) returning **E_INVALIDARG**.
 
-<h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-The debug layer will issue errors if the input values are outside of a normalized range.
-          
+### Debug layer
 
-The debug layer will issue an error if the subresources referenced by the view are not in the appropriate state. For <b>ClearUnorderedAccessViewFloat</b>, the state must be <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_UNORDERED_ACCESS</a>.
-          
+The debug layer issues errors if the input values are outside of a normalized range.
 
-
-
+The debug layer issues an error if the subresources referenced by the view aren't in the appropriate state. For **ClearUnorderedAccessViewFloat**, the state must be [D3D12_RESOURCE_STATE_UNORDERED_ACCESS](./ne-d3d12-d3d12_resource_states.md).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+[ID3D12GraphicsCommandList interface](./nn-d3d12-id3d12graphicscommandlist.md)

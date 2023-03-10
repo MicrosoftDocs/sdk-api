@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IMDSPStorage.CreateStorage
 title: IMDSPStorage::CreateStorage (mswmdm.h)
 description: The CreateStorage method creates a new storage and returns a pointer to the IMDSPStorage interface on the newly created storage.
+helpviewer_keywords: ["CreateStorage","CreateStorage method [windows Media Device Manager]","CreateStorage method [windows Media Device Manager]","IMDSPStorage interface","IMDSPStorage interface [windows Media Device Manager]","CreateStorage method","IMDSPStorage.CreateStorage","IMDSPStorage::CreateStorage","IMDSPStorageCreateStorage","mswmdm/IMDSPStorage::CreateStorage","wmdm.imdspstorage_createstorage"]
 old-location: wmdm\imdspstorage_createstorage.htm
 tech.root: WMDM
 ms.assetid: 95633bc4-44fc-4ac7-9492-f99069d77d4d
 ms.date: 12/05/2018
 ms.keywords: CreateStorage, CreateStorage method [windows Media Device Manager], CreateStorage method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],CreateStorage method, IMDSPStorage.CreateStorage, IMDSPStorage::CreateStorage, IMDSPStorageCreateStorage, mswmdm/IMDSPStorage::CreateStorage, wmdm.imdspstorage_createstorage
-f1_keywords:
-- mswmdm/IMDSPStorage.CreateStorage
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPStorage.CreateStorage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorage::CreateStorage
+ - mswmdm/IMDSPStorage::CreateStorage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPStorage.CreateStorage
 ---
 
 # IMDSPStorage::CreateStorage
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>CreateStorage</b> method creates a new storage and returns a pointer to the <b>IMDSPStorage</b> interface on the newly created storage. This method is optional unless <i>dwAttributes</i> is WMDM_FILE_ATTR_FILE. In that case, this method must be implemented and must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
-
-
-
+The <b>CreateStorage</b> method creates a new storage and returns a pointer to the <b>IMDSPStorage</b> interface on the newly created storage. This method is optional unless <i>dwAttributes</i> is WMDM_FILE_ATTR_FILE. In that case, this method must be implemented and must not return WMDM_E_NOTSUPPORTED or E_NOTIMPL. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -parameters
-
-
-
 
 ### -param dwAttributes [in]
 
@@ -173,27 +167,20 @@ The <b>CreateStorage</b> method creates a new storage and returns a pointer to t
 <td>This storage contains the default storage where new media should be placed.</td>
 </tr>
 </table>
- 
-
 
 ### -param pFormat [in]
 
 Pointer to a <b>_WAVEFORMATEX</b> structure that contains information about the object, if the object is an audio file.
 
-
 ### -param pwszName [in]
 
 Pointer to a wide-character null-terminated string containing the name for the new storage.
-
 
 ### -param ppNewStorage [out]
 
 Pointer to an <b>IMDSPStorage</b> pointer to receive the <b>IMDSPStorage</b> interface for the newly created storage.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -202,14 +189,9 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
-
-
 
 If both the WMDM_FILE_ATTR_FOLDER and WMDM_FILE_ATTR_FILE attributes are set, the folder attribute overrides the file attribute, and the new storage is created as a folder.
 
@@ -221,24 +203,14 @@ WMDM_STORAGECONTROL_INSERTBEFORE and WMDM_STORAGECONTROL_INSERAFTER imply an ord
 
 WMDM_STORAGECONTROL_INSERTINTO is valid only if the current storage is a folder. If the current storage is a file, and this flag is specified, the operation fails.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>

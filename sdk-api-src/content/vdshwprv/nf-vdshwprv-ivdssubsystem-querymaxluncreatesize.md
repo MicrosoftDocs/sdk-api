@@ -1,16 +1,13 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryMaxLunCreateSize
 title: IVdsSubSystem::QueryMaxLunCreateSize (vdshwprv.h)
-description: Returns the size of the maximum LUN that can be created using the specified LUN type and hints.
+description: The IVdsSubSystem::QueryMaxLunCreateSize (vdshwprv.h) method returns the size of the maximum LUN that can be created using the specified LUN type and hints.
+helpviewer_keywords: ["IVdsSubSystem interface","QueryMaxLunCreateSize method","IVdsSubSystem.QueryMaxLunCreateSize","IVdsSubSystem::QueryMaxLunCreateSize","QueryMaxLunCreateSize","QueryMaxLunCreateSize method","QueryMaxLunCreateSize method","IVdsSubSystem interface","base.ivdssubsystem_querymaxluncreatesize","vds/IVdsSubSystem::QueryMaxLunCreateSize","vdshwprv/IVdsSubSystem::QueryMaxLunCreateSize"]
 old-location: base\ivdssubsystem_querymaxluncreatesize.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 16e8bcab-d01f-494a-9705-8392cf043674
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsSubSystem interface,QueryMaxLunCreateSize method, IVdsSubSystem.QueryMaxLunCreateSize, IVdsSubSystem::QueryMaxLunCreateSize, QueryMaxLunCreateSize, QueryMaxLunCreateSize method, QueryMaxLunCreateSize method,IVdsSubSystem interface, base.ivdssubsystem_querymaxluncreatesize, vds/IVdsSubSystem::QueryMaxLunCreateSize, vdshwprv/IVdsSubSystem::QueryMaxLunCreateSize
-f1_keywords:
-- vdshwprv/IVdsSubSystem.QueryMaxLunCreateSize
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystem.QueryMaxLunCreateSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystem::QueryMaxLunCreateSize
+ - vdshwprv/IVdsSubSystem::QueryMaxLunCreateSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystem.QueryMaxLunCreateSize
 ---
 
 # IVdsSubSystem::QueryMaxLunCreateSize
@@ -49,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the size of the maximum LUN that can be created using the specified LUN type and hints.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
-The LUN type enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>.
-
+The LUN type enumerated by <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>.
 
 ### -param pDriveIdArray [in]
 
@@ -72,28 +68,22 @@ A pointer to an array containing a <b>VDS_OBJECT_ID</b> for each of the drives t
       can be <b>NULL</b> if the <i>lNumberOfDrives</i> parameter is 0, in which 
       case the provider should automatically pick drives.
 
-
 ### -param lNumberOfDrives [in]
 
 The number of entries in <i>pDriveIdArray</i>. This can be set to 0.
 
-
 ### -param pHints [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure used for creating the LUN. The 
+A pointer to the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a> structure used for creating the LUN. The 
       hints always take lower priority than parameters listed before. This argument must be non-NULL.
-
 
 ### -param pullMaxLunSize [out]
 
 A pointer to a buffer containing the maximum size of the LUN in bytes. This argument must be non-NULL.
 
-
 ## -returns
 
-
-
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -110,9 +100,9 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 <td width="60%">
 This return value signals a software or communication problem inside a provider that caches information 
         about the array. Use the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> method 
+        <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> method 
         followed by the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> method to restore 
+        <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> method to restore 
         the cache.
        
 
@@ -181,34 +171,23 @@ This operation or combination of parameters is not supported by this provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>

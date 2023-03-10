@@ -2,15 +2,12 @@
 UID: NF:propvarutil.InitVariantFromBoolean
 title: InitVariantFromBoolean function (propvarutil.h)
 description: Initializes a VARIANT structure with a Boolean value.
+helpviewer_keywords: ["InitVariantFromBoolean","InitVariantFromBoolean function [Windows Properties]","_shell_InitVariantFromBoolean","properties.InitVariantFromBoolean","propvarutil/InitVariantFromBoolean","shell.InitVariantFromBoolean"]
 old-location: properties\InitVariantFromBoolean.htm
 tech.root: properties
 ms.assetid: 155af0c9-bc1a-4d57-a2fc-dc22a0b1abe3
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromBoolean, InitVariantFromBoolean function [Windows Properties], _shell_InitVariantFromBoolean, properties.InitVariantFromBoolean, propvarutil/InitVariantFromBoolean, shell.InitVariantFromBoolean
-f1_keywords:
-- propvarutil/InitVariantFromBoolean
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Propvarutil.h
-api_name:
-- InitVariantFromBoolean
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitVariantFromBoolean
+ - propvarutil/InitVariantFromBoolean
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Propvarutil.h
+api_name:
+ - InitVariantFromBoolean
 ---
 
 # InitVariantFromBoolean function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with a Boolean value.
-
+Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with a Boolean value.
 
 ## -parameters
-
-
-
 
 ### -param fVal [in]
 
@@ -63,28 +60,19 @@ Type: <b>BOOL</b>
 
 Source <b>BOOL</b> value.
 
-
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+When this function returns, contains the initialized <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Creates a VT_BOOL variant.
 
@@ -95,7 +83,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromboolean">InitVariantFromBoolean</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromboolean">InitVariantFromBoolean</a>.
 
 
 ```cpp
@@ -110,25 +98,14 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromboolean">InitPropVariantFromBoolean</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromboolean">InitPropVariantFromBoolean</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttoboolean">VariantToBoolean</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoboolean">VariantToBoolean</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttobooleanwithdefault">VariantToBooleanWithDefault</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttobooleanwithdefault">VariantToBooleanWithDefault</a>

@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSiParser.GetNIT
 title: IDvbSiParser::GetNIT (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetNIT","GetNIT method [Microsoft TV Technologies]","GetNIT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetNIT method","IDvbSiParser.GetNIT","IDvbSiParser::GetNIT","IDvbSiParserGetNIT","dvbsiparser/IDvbSiParser::GetNIT","mstv.idvbsiparser_getnit"]
 old-location: mstv\idvbsiparser_getnit.htm
 tech.root: mstv
 ms.assetid: a7c802ad-908f-4778-b8db-02fff4f3a13e
 ms.date: 12/05/2018
 ms.keywords: GetNIT, GetNIT method [Microsoft TV Technologies], GetNIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetNIT method, IDvbSiParser.GetNIT, IDvbSiParser::GetNIT, IDvbSiParserGetNIT, dvbsiparser/IDvbSiParser::GetNIT, mstv.idvbsiparser_getnit
-f1_keywords:
-- dvbsiparser/IDvbSiParser.GetNIT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSiParser.GetNIT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSiParser::GetNIT
+ - dvbsiparser/IDvbSiParser::GetNIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSiParser.GetNIT
 ---
 
 # IDvbSiParser::GetNIT
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,11 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetNIT</b> method retrieves the network information table (NIT).
 
-
 ## -parameters
-
-
-
 
 ### -param tableId [in]
 
@@ -83,22 +79,16 @@ Specifies the table identifier of the NIT. Use one of the values in the followin
 <td>NIT for another network.</td>
 </tr>
 </table>
- 
-
 
 ### -param pwNetworkId [in]
 
 Optional parameter that contains a network identifier. You can use this value to filter the request. Otherwise, set this parameter to <b>NULL</b>.
 
-
 ### -param ppNIT [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_nit">IDVB_NIT</a> interface pointer. The caller must release the interface.
-
+Address of a variable that receives an <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_nit">IDVB_NIT</a> interface pointer. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -152,27 +142,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The method fails if the filter does not receive a matching table within a predetermined length of time.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>

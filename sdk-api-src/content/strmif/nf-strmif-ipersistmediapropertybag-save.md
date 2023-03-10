@@ -2,15 +2,12 @@
 UID: NF:strmif.IPersistMediaPropertyBag.Save
 title: IPersistMediaPropertyBag::Save (strmif.h)
 description: The Save method saves properties from the filter into the media property bag.
+helpviewer_keywords: ["IPersistMediaPropertyBag interface [DirectShow]","Save method","IPersistMediaPropertyBag.Save","IPersistMediaPropertyBag::Save","IPersistMediaPropertyBagSave","Save","Save method [DirectShow]","Save method [DirectShow]","IPersistMediaPropertyBag interface","dshow.ipersistmediapropertybag_save","strmif/IPersistMediaPropertyBag::Save"]
 old-location: dshow\ipersistmediapropertybag_save.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 12c66650-31c1-40b8-9f3d-bc5553dbfa94
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Save method, IPersistMediaPropertyBag.Save, IPersistMediaPropertyBag::Save, IPersistMediaPropertyBagSave, Save, Save method [DirectShow], Save method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_save, strmif/IPersistMediaPropertyBag::Save
-f1_keywords:
-- strmif/IPersistMediaPropertyBag.Save
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPersistMediaPropertyBag.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistMediaPropertyBag::Save
+ - strmif/IPersistMediaPropertyBag::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPersistMediaPropertyBag.Save
 ---
 
 # IPersistMediaPropertyBag::Save
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Save</code> method saves properties from the filter into the media property bag.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pPropBag [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface of a media property bag created by the caller.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag</a> interface of a media property bag created by the caller.
 
 ### -param fClearDirty [in]
 
 Reserved. Can be any value.
 
-
 ### -param fSaveAllProperties [in]
 
 Reserved. Can be any value.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -132,33 +121,17 @@ Invalid data.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If you call this method on the <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter or the <a href="/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a>, the filter reads any INFO and DISP chunks from the file and stores them in the media property bag. You can use the <a href="/windows/desktop/api/strmif/nf-strmif-imediapropertybag-enumproperty">IMediaPropertyBag::EnumProperty</a> method to retrieve the chunks.
 
-
-If you call this method on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> filter or the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser</a>, the filter reads any INFO and DISP chunks from the file and stores them in the media property bag. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediapropertybag-enumproperty">IMediaPropertyBag::EnumProperty</a> method to retrieve the chunks.
-
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter does not implement this method.
-
-
-
+The <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter does not implement this method.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>

@@ -2,12 +2,10 @@
 UID: NF:directxcollision.Intersects~r2
 title: Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)
 description: Tests whether a triangle and a plane intersect.
-ms.date: 04/22/19
+tech.root: dxmath
+helpviewer_keywords: ["Intersects"]
+ms.date: 04/22/2019
 ms.keywords: Intersects
-f1_keywords:
-- directxcollision/Intersects
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -22,23 +20,28 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - Intersects
+ - directxcollision/Intersects
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- Intersects
+ - Intersects
 ---
 
 # Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)
+
 
 ## -description
 
@@ -79,3 +82,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [DirectXMath Triangle Test Functions](/windows/desktop/dxmath/ovw-xnamath-triangletests)
+

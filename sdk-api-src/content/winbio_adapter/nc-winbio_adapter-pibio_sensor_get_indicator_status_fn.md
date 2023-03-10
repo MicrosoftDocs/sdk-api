@@ -1,16 +1,13 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_GET_INDICATOR_STATUS_FN
 title: PIBIO_SENSOR_GET_INDICATOR_STATUS_FN (winbio_adapter.h)
-description: Retrieves a value that indicates whether the sensor indicator is on or off.
+description: The PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback function (winbio_adapter.h) retrieves a value that indicates whether the sensor indicator is on or off.
+helpviewer_keywords: ["PIBIO_SENSOR_GET_INDICATOR_STATUS_FN","PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback","SensorAdapterGetIndicatorStatus","SensorAdapterGetIndicatorStatus callback function [Windows Biometric Framework API]","secbiomet.sensoradaptergetindicatorstatus","winbio_adapter/SensorAdapterGetIndicatorStatus"]
 old-location: secbiomet\sensoradaptergetindicatorstatus.htm
 tech.root: SecBioMet
 ms.assetid: 01dbf2ee-5b47-47a8-b22c-a80aec5f7fff
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_SENSOR_GET_INDICATOR_STATUS_FN, PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback, SensorAdapterGetIndicatorStatus, SensorAdapterGetIndicatorStatus callback function [Windows Biometric Framework API], secbiomet.sensoradaptergetindicatorstatus, winbio_adapter/SensorAdapterGetIndicatorStatus
-f1_keywords:
-- winbio_adapter/SensorAdapterGetIndicatorStatus
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- SensorAdapterGetIndicatorStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_SENSOR_GET_INDICATOR_STATUS_FN
+ - winbio_adapter/PIBIO_SENSOR_GET_INDICATOR_STATUS_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - SensorAdapterGetIndicatorStatus
 ---
 
 # PIBIO_SENSOR_GET_INDICATOR_STATUS_FN callback function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to retrieve a value that indicates whether the sensor indicator is on or off.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param IndicatorStatus [out]
 
@@ -72,8 +68,6 @@ Pointer to a <b>WINBIO_INDICATOR_STATUS</b> value. This can be one of the follow
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -111,7 +105,7 @@ There was a hardware failure.
 </dl>
 </td>
 <td width="60%">
-The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b> or the <b>SensorHandle</b> member is set to <b>INVALID_HANDLE_VALUE</b>.
+The <b>SensorContext</b> member of the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b> or the <b>SensorHandle</b> member is set to <b>INVALID_HANDLE_VALUE</b>.
 
 </td>
 </tr>
@@ -127,22 +121,11 @@ The sensor does not have an indicator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_set_indicator_status_fn">SensorAdapterSetIndicatorStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_set_indicator_status_fn">SensorAdapterSetIndicatorStatus</a>

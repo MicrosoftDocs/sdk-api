@@ -1,16 +1,13 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Clone
 title: IEnumOleDocumentViews::Clone (docobj.h)
-description: Creates a new enumerator that contains the same enumeration state as the current one.
+description: Creates a new enumerator that contains the same enumeration state as the current one. (IEnumOleDocumentViews.Clone)
+helpviewer_keywords: ["Clone","Clone method [COM]","Clone method [COM]","IEnumOleDocumentViews interface","IEnumOleDocumentViews interface [COM]","Clone method","IEnumOleDocumentViews.Clone","IEnumOleDocumentViews::Clone","_ole_ienumoledocumentviews_clone","com.ienumoledocumentviews_clone","docobj/IEnumOleDocumentViews::Clone"]
 old-location: com\ienumoledocumentviews_clone.htm
 tech.root: com
 ms.assetid: f3d6eaaf-455a-4d66-87d2-ba19a1db1faf
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleDocumentViews interface, IEnumOleDocumentViews interface [COM],Clone method, IEnumOleDocumentViews.Clone, IEnumOleDocumentViews::Clone, _ole_ienumoledocumentviews_clone, com.ienumoledocumentviews_clone, docobj/IEnumOleDocumentViews::Clone
-f1_keywords:
-- docobj/IEnumOleDocumentViews.Clone
-dev_langs:
-- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DocObj.h
-api_name:
-- IEnumOleDocumentViews.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumOleDocumentViews::Clone
+ - docobj/IEnumOleDocumentViews::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DocObj.h
+api_name:
+ - IEnumOleDocumentViews.Clone
 ---
 
 # IEnumOleDocumentViews::Clone
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new enumerator that contains the same enumeration state as the current one.
 
 This method makes it possible to record a particular point in the enumeration sequence and then return to that point at a later time. The caller must release this new enumerator separately from the first enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a> interface pointer on the newly created enumerator. The caller must release this enumerator separately from the one from which it was cloned.
-
+A pointer to the <a href="/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a> interface pointer on the newly created enumerator. The caller must release this enumerator separately from the one from which it was cloned.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include the following.
 
@@ -109,18 +103,7 @@ Insufficient memory available for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a>
- 
-
- 
-
+<a href="/windows/desktop/api/docobj/nn-docobj-ienumoledocumentviews">IEnumOleDocumentViews</a>

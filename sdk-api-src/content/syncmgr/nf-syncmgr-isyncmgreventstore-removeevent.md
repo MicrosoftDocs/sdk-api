@@ -2,15 +2,12 @@
 UID: NF:syncmgr.ISyncMgrEventStore.RemoveEvent
 title: ISyncMgrEventStore::RemoveEvent (syncmgr.h)
 description: Removes events, as specified.
+helpviewer_keywords: ["ISyncMgrEventStore interface [Windows Shell]","RemoveEvent method","ISyncMgrEventStore.RemoveEvent","ISyncMgrEventStore::RemoveEvent","RemoveEvent","RemoveEvent method [Windows Shell]","RemoveEvent method [Windows Shell]","ISyncMgrEventStore interface","_shell_ISyncMgrEventStore_RemoveEvent","shell.ISyncMgrEventStore_RemoveEvent","syncmgr/ISyncMgrEventStore::RemoveEvent"]
 old-location: shell\ISyncMgrEventStore_RemoveEvent.htm
 tech.root: shell
 ms.assetid: 08d01b6f-1e1f-4f03-9595-f374805ae734
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEventStore interface [Windows Shell],RemoveEvent method, ISyncMgrEventStore.RemoveEvent, ISyncMgrEventStore::RemoveEvent, RemoveEvent, RemoveEvent method [Windows Shell], RemoveEvent method [Windows Shell],ISyncMgrEventStore interface, _shell_ISyncMgrEventStore_RemoveEvent, shell.ISyncMgrEventStore_RemoveEvent, syncmgr/ISyncMgrEventStore::RemoveEvent
-f1_keywords:
-- syncmgr/ISyncMgrEventStore.RemoveEvent
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrEventStore.RemoveEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrEventStore::RemoveEvent
+ - syncmgr/ISyncMgrEventStore::RemoveEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrEventStore.RemoveEvent
 ---
 
 # ISyncMgrEventStore::RemoveEvent
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes events, as specified.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidEventIDs [in]
 
@@ -63,21 +60,15 @@ Type: <b>GUID*</b>
 
 A pointer to event <b>GUID</b>.
 
-
 ### -param cEvents [in]
 
 Type: <b>ULONG</b>
 
 The count of events to remove.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

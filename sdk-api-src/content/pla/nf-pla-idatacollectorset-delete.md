@@ -2,15 +2,12 @@
 UID: NF:pla.IDataCollectorSet.Delete
 title: IDataCollectorSet::Delete (pla.h)
 description: Deletes the persisted copy of the data collector set if the set is not running.
+helpviewer_keywords: ["Delete","Delete method [PLA]","Delete method [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","Delete method","IDataCollectorSet.Delete","IDataCollectorSet::Delete","base.idatacollectorset_delete","pla.idatacollectorset_delete","pla/IDataCollectorSet::Delete"]
 old-location: pla\idatacollectorset_delete.htm
 tech.root: PLA
 ms.assetid: 35e95d41-0d6c-428a-a167-6667275d4fb7
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [PLA], Delete method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Delete method, IDataCollectorSet.Delete, IDataCollectorSet::Delete, base.idatacollectorset_delete, pla.idatacollectorset_delete, pla/IDataCollectorSet::Delete
-f1_keywords:
-- pla/IDataCollectorSet.Delete
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::Delete
+ - pla/IDataCollectorSet::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.Delete
 ---
 
 # IDataCollectorSet::Delete
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the persisted copy of the data collector set if the set is not running.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Returns S_OK if successful. The following table shows a possible error value.
 
@@ -82,22 +75,11 @@ The RPC server is not available. The method is unable to delete the data collect
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a>

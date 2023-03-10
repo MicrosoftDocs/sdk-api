@@ -2,15 +2,12 @@
 UID: NF:snmp.SnmpExtensionQueryEx
 title: SnmpExtensionQueryEx function (snmp.h)
 description: The Microsoft SNMP service calls the SnmpExtensionQueryEx function to process SNMP requests that specify variables in one or more MIB subtrees registered by SNMP extension agents. This function is an element of the SNMP Extension Agent API.
+helpviewer_keywords: ["SNMP_ERRORSTATUS_AUTHORIZATIONERROR","SNMP_ERRORSTATUS_BADVALUE","SNMP_ERRORSTATUS_COMMITFAILED","SNMP_ERRORSTATUS_GENERR","SNMP_ERRORSTATUS_INCONSISTENTNAME","SNMP_ERRORSTATUS_INCONSISTENTVALUE","SNMP_ERRORSTATUS_NOACCESS","SNMP_ERRORSTATUS_NOCREATION","SNMP_ERRORSTATUS_NOERROR","SNMP_ERRORSTATUS_NOSUCHNAME","SNMP_ERRORSTATUS_NOTWRITABLE","SNMP_ERRORSTATUS_READONLY","SNMP_ERRORSTATUS_RESOURCEUNAVAILABLE","SNMP_ERRORSTATUS_TOOBIG","SNMP_ERRORSTATUS_UNDOFAILED","SNMP_ERRORSTATUS_WRONGENCODING","SNMP_ERRORSTATUS_WRONGLENGTH","SNMP_ERRORSTATUS_WRONGTYPE","SNMP_ERRORSTATUS_WRONGVALUE","SNMP_EXTENSION_GET","SNMP_EXTENSION_GET_NEXT","SNMP_EXTENSION_SET_CLEANUP","SNMP_EXTENSION_SET_COMMIT","SNMP_EXTENSION_SET_TEST","SNMP_EXTENSION_SET_UNDO","SnmpExtensionQueryEx","SnmpExtensionQueryEx callback","SnmpExtensionQueryEx callback function [SNMP]","_snmp_snmpextensionqueryex","snmp.snmpextensionqueryex","snmp/SnmpExtensionQueryEx"]
 old-location: snmp\snmpextensionqueryex.htm
 tech.root: SNMP
 ms.assetid: 2479c6ea-93f8-4b23-a0b7-645bf27f252f
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERRORSTATUS_AUTHORIZATIONERROR, SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_COMMITFAILED, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_INCONSISTENTNAME, SNMP_ERRORSTATUS_INCONSISTENTVALUE, SNMP_ERRORSTATUS_NOACCESS, SNMP_ERRORSTATUS_NOCREATION, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_NOTWRITABLE, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_RESOURCEUNAVAILABLE, SNMP_ERRORSTATUS_TOOBIG, SNMP_ERRORSTATUS_UNDOFAILED, SNMP_ERRORSTATUS_WRONGENCODING, SNMP_ERRORSTATUS_WRONGLENGTH, SNMP_ERRORSTATUS_WRONGTYPE, SNMP_ERRORSTATUS_WRONGVALUE, SNMP_EXTENSION_GET, SNMP_EXTENSION_GET_NEXT, SNMP_EXTENSION_SET_CLEANUP, SNMP_EXTENSION_SET_COMMIT, SNMP_EXTENSION_SET_TEST, SNMP_EXTENSION_SET_UNDO, SnmpExtensionQueryEx, SnmpExtensionQueryEx callback, SnmpExtensionQueryEx callback function [SNMP], _snmp_snmpextensionqueryex, snmp.snmpextensionqueryex, snmp/SnmpExtensionQueryEx
-f1_keywords:
-- snmp/SnmpExtensionQueryEx
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Snmp.h
-api_name:
-- SnmpExtensionQueryEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpExtensionQueryEx
+ - snmp/SnmpExtensionQueryEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Snmp.h
+api_name:
+ - SnmpExtensionQueryEx
 ---
 
 # SnmpExtensionQueryEx function
@@ -48,20 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The Microsoft SNMP service calls the 
 <b>SnmpExtensionQueryEx</b> function to process SNMP requests that specify variables in one or more MIB subtrees registered by SNMP extension agents. This function is an element of the SNMP Extension Agent API.
 <div class="alert"><b>Note</b>  It is recommended that you use the 
 <b>SnmpExtensionQueryEx</b> function, which supports SNMP version 2C (SNMPv2C) data types and multiphase SNMP SET operations. The SNMP service does not call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionquery">SnmpExtensionQuery</a> function if the extension agent exports the 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensionquery">SnmpExtensionQuery</a> function if the extension agent exports the 
 <b>SnmpExtensionQueryEx</b> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param nRequestType [in]
 
@@ -101,7 +99,7 @@ Retrieve the value or values of the lexicographic successor of the specified var
 </td>
 <td width="60%">
 Validate the values of the specified variables. This operation maximizes the probability of a successful write during the 
-<a href="https://docs.microsoft.com/">COMMIT request</a>.
+COMMIT request.
 
 </td>
 </tr>
@@ -140,16 +138,13 @@ Release the resources allocated in previous requests and operations.
 
 For additional information about the SET request types, that is, those that begin with SNMP_EXTENSION_SET_, see the following Remarks section.
 
-
 ### -param nTransactionId [in]
 
 Specifies a <b>DWORD</b> variable that is the unique identifier of the incoming SNMP request PDU. The extension agent can use this value to correlate multiple calls by the SNMP service that involve the same PDU.
 
-
 ### -param pVarBindList [in, out]
 
 Pointer to the variable binding list containing the variables of interest.
-
 
 ### -param pContextInfo [in, out]
 
@@ -159,8 +154,7 @@ Pointer to an octet string that contains user-defined context information.
 
 
 The extension agent can use this parameter to store context information used during multiphase SNMP SET operations. The extension agent must release resources associated with this parameter during the 
-<a href="https://docs.microsoft.com/">CLEANUP request</a>. The SNMP service does not release any resources associated with this parameter. For additional information, see the following Remarks section.
-
+CLEANUP request. The SNMP service does not release any resources associated with this parameter. For additional information, see the following Remarks section.
 
 ### -param pErrorStatus [out]
 
@@ -364,36 +358,26 @@ The variable does not exist; the agent cannot create it because the named object
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pErrorIndex [out]
 
 Pointer to a variable to receive the error index result.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 The SNMP service calls the 
 <b>SnmpExtensionQueryEx</b> function multiple times to process an incoming SNMP SET request. The service can call 
 <b>SnmpExtensionQueryEx</b> during the 
-<a href="https://docs.microsoft.com/">TEST request</a> phase, the 
-<a href="https://docs.microsoft.com/">COMMIT request</a> phase, the 
-<a href="https://docs.microsoft.com/">UNDO request</a> phase, and the 
-<a href="https://docs.microsoft.com/">CLEANUP request</a> phase.
+TEST request phase, the 
+COMMIT request phase, the 
+UNDO request phase, and the 
+CLEANUP request phase.
 
 <h3><a id="_snmp_test_request"></a><a id="_SNMP_TEST_REQUEST"></a>TEST request</h3>
 The SNMP service processes an SNMP SET request type by first calling the 
@@ -427,32 +411,22 @@ If any extension agent returns <b>FALSE</b> to the UNDO request, the entire SET 
 After the UNDO request the service always calls each extension agent with the 
 <b>SnmpExtensionQueryEx</b> function, using the SNMP_EXTENSION_SET_CLEANUP <i>dwRequestType</i>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensionquery">SnmpExtensionQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionquery">SnmpExtensionQuery</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>

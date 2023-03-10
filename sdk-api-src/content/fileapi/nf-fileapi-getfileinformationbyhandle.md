@@ -1,16 +1,13 @@
 ---
 UID: NF:fileapi.GetFileInformationByHandle
 title: GetFileInformationByHandle function (fileapi.h)
-description: Retrieves file information for the specified file.
+description: Retrieves file information for the specified file. (GetFileInformationByHandle)
+helpviewer_keywords: ["GetFileInformationByHandle","GetFileInformationByHandle function [Files]","_win32_getfileinformationbyhandle","base.getfileinformationbyhandle","fileapi/GetFileInformationByHandle","fs.getfileinformationbyhandle","winbase/GetFileInformationByHandle"]
 old-location: fs\getfileinformationbyhandle.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d026ee3a-c165-42a2-a4e1-efccdafbefc5
 ms.date: 12/05/2018
 ms.keywords: GetFileInformationByHandle, GetFileInformationByHandle function [Files], _win32_getfileinformationbyhandle, base.getfileinformationbyhandle, fileapi/GetFileInformationByHandle, fs.getfileinformationbyhandle, winbase/GetFileInformationByHandle
-f1_keywords:
-- fileapi/GetFileInformationByHandle
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFileInformationByHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileInformationByHandle
+ - fileapi/GetFileInformationByHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFileInformationByHandle
 ---
 
 # GetFileInformationByHandle function
@@ -55,20 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves file information for the specified file.
 
 For a more advanced version of this function, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
 
 To set file information using a file handle, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>.
-
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>.
 
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -76,30 +73,21 @@ A handle to the file that contains the information to be retrieved.
 
 This handle should not be a pipe handle.
 
-
 ### -param lpFileInformation [out]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure that 
+      <a href="/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure that 
       receives the file information.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero and file information data is contained in the buffer 
        pointed to by the <i>lpFileInformation</i> parameter.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Depending on the underlying network features of the operating system and the type of server connected to, the 
     <b>GetFileInformationByHandle</b> function may fail, 
@@ -107,7 +95,7 @@ Depending on the underlying network features of the operating system and the typ
 
 You can compare the <b>VolumeSerialNumber</b> and <b>FileIndex</b> 
     members returned in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure to 
+    <a href="/windows/desktop/api/fileapi/ns-fileapi-by_handle_file_information">BY_HANDLE_FILE_INFORMATION</a> structure to 
     determine if two paths map to the same target; for example, you can compare two file paths and determine if they 
     map to the same directory.
 
@@ -174,26 +162,16 @@ Yes
 <h3><a id="Transacted_Operations"></a><a id="transacted_operations"></a><a id="TRANSACTED_OPERATIONS"></a>Transacted Operations</h3>
 If there is a transaction bound to the thread at the time of the call, then the function returns the 
       compressed file size of the isolated file view. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/about-transactional-ntfs">About Transactional NTFS</a>.
-
-
-
+      <a href="/windows/desktop/FileIO/about-transactional-ntfs">About Transactional NTFS</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>

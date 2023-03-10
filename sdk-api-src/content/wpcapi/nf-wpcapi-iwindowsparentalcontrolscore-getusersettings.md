@@ -2,15 +2,12 @@
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetUserSettings
 title: IWindowsParentalControlsCore::GetUserSettings (wpcapi.h)
 description: Retrieves a pointer to an interface for general settings for the specified user.
+helpviewer_keywords: ["GetUserSettings","GetUserSettings method","GetUserSettings method","IWindowsParentalControlsCore interface","IWindowsParentalControlsCore interface","GetUserSettings method","IWindowsParentalControlsCore.GetUserSettings","IWindowsParentalControlsCore::GetUserSettings","parcon.iwindowsparentalcontrols_getusersettings","wpcapi/IWindowsParentalControlsCore::GetUserSettings"]
 old-location: parcon\iwindowsparentalcontrols_getusersettings.htm
 tech.root: parcon
 ms.assetid: 92c7a138-10b8-4bdf-afea-985e203e04e4
 ms.date: 12/05/2018
 ms.keywords: GetUserSettings, GetUserSettings method, GetUserSettings method,IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,GetUserSettings method, IWindowsParentalControlsCore.GetUserSettings, IWindowsParentalControlsCore::GetUserSettings, parcon.iwindowsparentalcontrols_getusersettings, wpcapi/IWindowsParentalControlsCore::GetUserSettings
-f1_keywords:
-- wpcapi/IWindowsParentalControlsCore.GetUserSettings
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWindowsParentalControlsCore.GetUserSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsParentalControlsCore::GetUserSettings
+ - wpcapi/IWindowsParentalControlsCore::GetUserSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWindowsParentalControlsCore.GetUserSettings
 ---
 
 # IWindowsParentalControlsCore::GetUserSettings
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to an interface for general settings for the specified user.
 
-
 ## -parameters
-
-
-
 
 ### -param pcszSID [in]
 
 The SID string of the user. If this parameter is <b>NULL</b>, retrieve settings for the current user.
 
-
 ### -param ppSettings [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a> interface pointer.
-
+A pointer to an <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a> interface pointer.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,22 +127,11 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwindowsparentalcontrols">IWindowsParentalControls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwindowsparentalcontrols">IWindowsParentalControls</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Mt847165(v=VS.85).aspx">IWindowsParentalControlsCore</a>
- 
-
- 
-
+<a href="nn-wpcapi-iwindowsparentalcontrolscore.md">IWindowsParentalControlsCore</a>

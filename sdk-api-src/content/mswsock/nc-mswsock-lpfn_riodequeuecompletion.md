@@ -2,15 +2,12 @@
 UID: NC:mswsock.LPFN_RIODEQUEUECOMPLETION
 title: LPFN_RIODEQUEUECOMPLETION
 description: Removes entries from an I/O completion queue for use with the Winsock registered I/O extensions.
+helpviewer_keywords: ["LPFN_RIODEQUEUECOMPLETION"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 658729C0-2963-45F0-B616-01372A7144D1
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIODEQUEUECOMPLETION
-f1_keywords:
-- mswsock/LPFN_RIODEQUEUECOMPLETION
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,20 +28,24 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIODEQUEUECOMPLETION
+ - mswsock/LPFN_RIODEQUEUECOMPLETION
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIODEQUEUECOMPLETION
+ - LPFN_RIODEQUEUECOMPLETION
 ---
 
 ## -description
 
 The **RIODequeueCompletion** function removes entries from an I/O completion queue for use with the Winsock registered I/O extensions.
-
 
 ## -parameters
 
@@ -54,7 +55,7 @@ A descriptor that identifies an I/O completion queue.
 
 ### -param Array
 
-An array of [**RIORESULT**](/windows/win32/api/mswsockdef/ns-mswsockdef-rioresult) structures to receive the description of the completions dequeued.
+An array of [**RIORESULT**](../mswsockdef/ns-mswsockdef-rioresult.md) structures to receive the description of the completions dequeued.
 
 ### -param ArraySize
 
@@ -68,9 +69,9 @@ If no error occurs, the **RIODequeueCompletion** function returns the number of 
 
 The **RIODequeueCompletion** function removes entries from an I/O completion queue for send and receive requests with the Winsock registered I/O extensions.
 
-The **RIODequeueCompletion** function is the mechanism by which an application can find out about completed send and receive requests. An application normally calls the **RIODequeueCompletion** function after receiving notification based on the method registered with the [**RIONotify**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rionotify) function when the completion queue is not empty. The notification behavior for an I/O completion queue is set when the [**RIO\_CQ**](/windows/win32/winsock/riocqueue) is created. The [**RIO\_NOTIFICATION\_COMPLETION**](/windows/win32/api/mswsock/ns-mswsock-rio_notification_completion) structure that determines the notification behavior is passed to the [**RIOCreateCompletionQueue**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riocreatecompletionqueue) function when a **RIO\_CQ** is created.
+The **RIODequeueCompletion** function is the mechanism by which an application can find out about completed send and receive requests. An application normally calls the **RIODequeueCompletion** function after receiving notification based on the method registered with the [**RIONotify**](./nc-mswsock-lpfn_rionotify.md) function when the completion queue is not empty. The notification behavior for an I/O completion queue is set when the [**RIO\_CQ**](/windows/win32/winsock/riocqueue) is created. The [**RIO\_NOTIFICATION\_COMPLETION**](./ns-mswsock-rio_notification_completion.md) structure that determines the notification behavior is passed to the [**RIOCreateCompletionQueue**](./nc-mswsock-lpfn_riocreatecompletionqueue.md) function when a **RIO\_CQ** is created.
 
-When the **RIODequeueCompletion** function completes, the *Array* parameter contains an array of pointers to [**RIORESULT**](/windows/win32/api/mswsockdef/ns-mswsockdef-rioresult) structures for the completed send and receive requests that were dequeued. The members of the returned **RIORESULT** structures provide information on the completion status of the completed request and the number of bytes that were transferred. Each returned **RIORESULT** structure also includes a socket context and an application context that can be used to identify the specific completed request.
+When the **RIODequeueCompletion** function completes, the *Array* parameter contains an array of pointers to [**RIORESULT**](../mswsockdef/ns-mswsockdef-rioresult.md) structures for the completed send and receive requests that were dequeued. The members of the returned **RIORESULT** structures provide information on the completion status of the completed request and the number of bytes that were transferred. Each returned **RIORESULT** structure also includes a socket context and an application context that can be used to identify the specific completed request.
 
 If the I/O completion queue passed in the *CQ* parameter is not valid or damaged, the **RIODequeueCompletion** function returns a count of **RIO\_CORRUPT\_CQ**.
 
@@ -84,7 +85,7 @@ Only after a request’s completion has been dequeued does the system release th
  
 
 > [!Note]  
-> The function pointer to the **RIODequeueCompletion** function must be obtained at run time by making a call to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctld) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
+> The function pointer to the **RIODequeueCompletion** function must be obtained at run time by making a call to the [WSAIoctl](../winsock2/nf-winsock2-wsaioctl.md) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](./ns-mswsock-rio_extension_function_table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
 
  
 
@@ -97,4 +98,3 @@ Only after a request’s completion has been dequeued does the system release th
 If multiple threads attempt to access the same [**RIO\_CQ**](/windows/win32/winsock/riocqueue) using the **RIODequeueCompletion** function, access must be coordinated by a critical section, slim reader writer lock , or similar mutual exclusion mechanism. If the completion queues are not shared, mutual exclusion is not required.
 
 ## -see-also
-

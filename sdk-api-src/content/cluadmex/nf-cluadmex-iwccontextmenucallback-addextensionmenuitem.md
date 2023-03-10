@@ -2,15 +2,12 @@
 UID: NF:cluadmex.IWCContextMenuCallback.AddExtensionMenuItem
 title: IWCContextMenuCallback::AddExtensionMenuItem (cluadmex.h)
 description: Adds a menu item to a Failover Cluster Administrator context menu.
+helpviewer_keywords: ["AddExtensionMenuItem","AddExtensionMenuItem method [Failover Cluster]","AddExtensionMenuItem method [Failover Cluster]","IWCContextMenuCallback interface","IWCContextMenuCallback interface [Failover Cluster]","AddExtensionMenuItem method","IWCContextMenuCallback.AddExtensionMenuItem","IWCContextMenuCallback::AddExtensionMenuItem","MF_CHECKED","MF_DISABLED","MF_ENABLED","MF_GRAYED","MF_MENUBARBREAK","MF_MENUBREAK","MF_SEPARATOR","MF_STRING","MF_UNCHECKED","_wolf_iwccontextmenucallback_addextensionmenuitem","cluadmex/IWCContextMenuCallback::AddExtensionMenuItem","mscs.iwccontextmenucallback_addextensionmenuitem"]
 old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm
 tech.root: MsCS
 ms.assetid: 0eedc564-c82d-4309-b11c-c87d2e73c2c9
 ms.date: 12/05/2018
 ms.keywords: AddExtensionMenuItem, AddExtensionMenuItem method [Failover Cluster], AddExtensionMenuItem method [Failover Cluster],IWCContextMenuCallback interface, IWCContextMenuCallback interface [Failover Cluster],AddExtensionMenuItem method, IWCContextMenuCallback.AddExtensionMenuItem, IWCContextMenuCallback::AddExtensionMenuItem, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, _wolf_iwccontextmenucallback_addextensionmenuitem, cluadmex/IWCContextMenuCallback::AddExtensionMenuItem, mscs.iwccontextmenucallback_addextensionmenuitem
-f1_keywords:
-- cluadmex/IWCContextMenuCallback.AddExtensionMenuItem
-dev_langs:
-- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cluadmex.h
-api_name:
-- IWCContextMenuCallback.AddExtensionMenuItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCContextMenuCallback::AddExtensionMenuItem
+ - cluadmex/IWCContextMenuCallback::AddExtensionMenuItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cluadmex.h
+api_name:
+ - IWCContextMenuCallback.AddExtensionMenuItem
 ---
 
 # IWCContextMenuCallback::AddExtensionMenuItem
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
 Adds a menu item to a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> context menu.
-
+    <a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> context menu.
 
 ## -parameters
-
-
-
 
 ### -param lpszName [in]
 
@@ -67,25 +64,21 @@ Pointer to a null-terminated Unicode string containing the name of the item to b
        declared as a <b>BSTR</b>, this parameter is implemented as an 
        <b>LPWSTR</b>.
 
-
 ### -param lpszStatusBarText [in]
 
 Pointer to text to display on the status bar when the new item is selected. Although declared as a 
        <b>BSTR</b>, this parameter is implemented as an 
        <b>LPWSTR</b>.
 
-
 ### -param nCommandID [in]
 
 Identifier for the command to be invoked when the menu item is selected. The 
        <i>nCommandID</i> parameter must not be set to –1.
 
-
 ### -param nSubmenuCommandID [in]
 
 Identifier for a submenu. Submenus are not supported, and the <i>nSubmenuCommandID</i> 
        parameter must be zero.
-
 
 ### -param uFlags [in]
 
@@ -153,10 +146,7 @@ Specifies that the menu item is a character string. The <i>lpszName</i> paramete
          contains a pointer to a <b>NULL</b>-terminated Unicode string. This is the default 
          interpretation.
 
-
 ## -returns
-
-
 
 If <b>AddExtensionMenuItem</b> 
        is not successful, it can return other <b>HRESULT</b> values.
@@ -204,49 +194,33 @@ There was an error allocating the menu item.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>AddExtensionMenuItem</b> 
      method adds items at the top of the context menu and follows them by a separator. The command identified by 
      <i>nCommandID</i> is passed in the <i>nCommandID</i> parameter to the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a> method 
+     <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a> method 
      when the user selects this menu item.
 
 Note that the <b>MF_OWNERDRAW</b> and <b>MF_POPUP</b> flags are not 
      supported specifically for the <i>uFlags</i> parameter.
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extensions call 
+<a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extensions call 
      <b>AddExtensionMenuItem</b> from 
      their 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a> 
+     <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a> 
      method.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwccontextmenucallback">IWCContextMenuCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iwccontextmenucallback">IWCContextMenuCallback</a>
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendcontextmenu-addcontextmenuitems">IWEExtendContextMenu::AddContextMenuItems</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweinvokecommand-invokecommand">IWEInvokeCommand::InvokeCommand</a>

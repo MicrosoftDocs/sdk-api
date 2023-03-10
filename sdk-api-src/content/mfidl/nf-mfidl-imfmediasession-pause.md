@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSession.Pause
 title: IMFMediaSession::Pause (mfidl.h)
 description: Pauses the Media Session.
+helpviewer_keywords: ["IMFMediaSession interface [Media Foundation]","Pause method","IMFMediaSession.Pause","IMFMediaSession::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFMediaSession interface","fcc576ba-f8be-4106-a270-756b2abf52d4","mf.imfmediasession_pause","mfidl/IMFMediaSession::Pause"]
 old-location: mf\imfmediasession_pause.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fcc576ba-f8be-4106-a270-756b2abf52d4
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],Pause method, IMFMediaSession.Pause, IMFMediaSession::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSession interface, fcc576ba-f8be-4106-a270-756b2abf52d4, mf.imfmediasession_pause, mfidl/IMFMediaSession::Pause
-f1_keywords:
-- mfidl/IMFMediaSession.Pause
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSession.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSession::Pause
+ - mfidl/IMFMediaSession::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSession.Pause
 ---
 
 # IMFMediaSession::Pause
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Pauses the Media Session.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,35 +109,19 @@ The Media Session cannot pause while stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method pauses the presentation clock.
 
-This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionpaused">MESessionPaused</a> event.
+This method is asynchronous. When the operation completes, the Media Session sends an <a href="/windows/desktop/medfound/mesessionpaused">MESessionPaused</a> event.
 
 This method fails if the Media Session is stopped.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionpaused">MESessionPaused</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/mesessionpaused">MESessionPaused</a>

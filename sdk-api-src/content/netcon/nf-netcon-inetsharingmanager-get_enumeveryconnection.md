@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingManager.get_EnumEveryConnection
 title: INetSharingManager::get_EnumEveryConnection (netcon.h)
 description: The get_EnumEveryConnection method retrieves an enumeration interface for all the connections in the connection folder.
+helpviewer_keywords: ["INetSharingManager interface [ICS/ICF]","get_EnumEveryConnection method","INetSharingManager.get_EnumEveryConnection","INetSharingManager::get_EnumEveryConnection","_ics_inetsharingmanager_get_enumeveryconnection","get_EnumEveryConnection","get_EnumEveryConnection method [ICS/ICF]","get_EnumEveryConnection method [ICS/ICF]","INetSharingManager interface","ics.inetsharingmanager_get_enumeveryconnection","netcon/INetSharingManager::get_EnumEveryConnection"]
 old-location: ics\inetsharingmanager_get_enumeveryconnection.htm
 tech.root: ics
 ms.assetid: f200ffbf-3ce1-4c1b-b4c6-28a8784b5cb8
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumEveryConnection method, INetSharingManager.get_EnumEveryConnection, INetSharingManager::get_EnumEveryConnection, _ics_inetsharingmanager_get_enumeveryconnection, get_EnumEveryConnection, get_EnumEveryConnection method [ICS/ICF], get_EnumEveryConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumeveryconnection, netcon/INetSharingManager::get_EnumEveryConnection
-f1_keywords:
-- netcon/INetSharingManager.get_EnumEveryConnection
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingManager.get_EnumEveryConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingManager::get_EnumEveryConnection
+ - netcon/INetSharingManager::get_EnumEveryConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingManager.get_EnumEveryConnection
 ---
 
 # INetSharingManager::get_EnumEveryConnection
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_EnumEveryConnection</b> method retrieves an enumeration interface for all the connections in the connection folder.
 
-
 ## -parameters
-
-
-
 
 ### -param ppColl [out]
 
 Pointer to a pointer that, on successful return, points to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingeveryconnectioncollection">INetSharingEveryConnectionCollection</a> interface.
-
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingeveryconnectioncollection">INetSharingEveryConnectionCollection</a> interface.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -173,33 +167,22 @@ The method failed for unknown reasons.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingeveryconnection">IEnumNetSharingEveryConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingeveryconnection">IEnumNetSharingEveryConnection</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingeveryconnectioncollection">INetSharingEveryConnectionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingeveryconnectioncollection">INetSharingEveryConnectionCollection</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager">INetSharingManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager">INetSharingManager</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

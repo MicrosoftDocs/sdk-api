@@ -2,15 +2,12 @@
 UID: NF:credentialprovider.ICredentialProviderCredential.SetStringValue
 title: ICredentialProviderCredential::SetStringValue (credentialprovider.h)
 description: Enables a Logon UI or Credential UI to update the text for a CPFT_EDIT_TEXT fields as the user types in them.
+helpviewer_keywords: ["ICredentialProviderCredential interface [Windows Shell]","SetStringValue method","ICredentialProviderCredential.SetStringValue","ICredentialProviderCredential::SetStringValue","SetStringValue","SetStringValue method [Windows Shell]","SetStringValue method [Windows Shell]","ICredentialProviderCredential interface","credentialprovider/ICredentialProviderCredential::SetStringValue","shell.ICredentialProviderCredential_SetStringValue","shell_ICredentialProviderCredential_SetStringValue"]
 old-location: shell\ICredentialProviderCredential_SetStringValue.htm
 tech.root: shell
 ms.assetid: ea2007b9-fff1-4cd2-8656-61ec050a8e96
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetStringValue method, ICredentialProviderCredential.SetStringValue, ICredentialProviderCredential::SetStringValue, SetStringValue, SetStringValue method [Windows Shell], SetStringValue method [Windows Shell],ICredentialProviderCredential interface, credentialprovider/ICredentialProviderCredential::SetStringValue, shell.ICredentialProviderCredential_SetStringValue, shell_ICredentialProviderCredential_SetStringValue
-f1_keywords:
-- credentialprovider/ICredentialProviderCredential.SetStringValue
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Credentialprovider.h
-api_name:
-- ICredentialProviderCredential.SetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredential::SetStringValue
+ - credentialprovider/ICredentialProviderCredential::SetStringValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Credentialprovider.h
+api_name:
+ - ICredentialProviderCredential.SetStringValue
 ---
 
 # ICredentialProviderCredential::SetStringValue
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a Logon UI or Credential UI to update the text for a <b>CPFT_EDIT_TEXT</b> fields as the user types in them.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFieldID [in]
 
@@ -63,28 +60,19 @@ Type: <b>DWORD</b>
 
 The identifier for the field that needs to be updated.
 
-
 ### -param psz [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a buffer containing the new text.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method is optional.
 
@@ -94,9 +82,7 @@ Credential providers handle extremely sensitive user secrets in order to complet
                 
 
 <ul>
-<li>Always securely discard secrets. To do this, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
+<li>Always securely discard secrets. To do this, call <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
 <li>Securely discard secrets promptly after they are used.</li>
 <li>Securely discard secrets if they are not used for their intended purpose within an expected amount of time.</li>
 </ul>
-
-

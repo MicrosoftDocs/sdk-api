@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetLogClientID
 title: IWMReaderAdvanced2::GetLogClientID (wmsdkidl.h)
 description: The GetLogClientID method queries whether the reader logs the client's unique ID or an anonymous session ID.
+helpviewer_keywords: ["GetLogClientID","GetLogClientID method [windows Media Format]","GetLogClientID method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced2 interface [windows Media Format]","GetLogClientID method","IWMReaderAdvanced2.GetLogClientID","IWMReaderAdvanced2::GetLogClientID","IWMReaderAdvanced2GetLogClientID","wmformat.iwmreaderadvanced2_getlogclientid","wmsdkidl/IWMReaderAdvanced2::GetLogClientID"]
 old-location: wmformat\iwmreaderadvanced2_getlogclientid.htm
 tech.root: wmformat
 ms.assetid: 034ad344-2266-4662-9797-70031f58f0cd
 ms.date: 12/05/2018
 ms.keywords: GetLogClientID, GetLogClientID method [windows Media Format], GetLogClientID method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetLogClientID method, IWMReaderAdvanced2.GetLogClientID, IWMReaderAdvanced2::GetLogClientID, IWMReaderAdvanced2GetLogClientID, wmformat.iwmreaderadvanced2_getlogclientid, wmsdkidl/IWMReaderAdvanced2::GetLogClientID
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced2.GetLogClientID
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced2.GetLogClientID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced2::GetLogClientID
+ - wmsdkidl/IWMReaderAdvanced2::GetLogClientID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced2.GetLogClientID
 ---
 
 # IWMReaderAdvanced2::GetLogClientID
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetLogClientID</b> method queries whether the reader logs the client's unique ID or an anonymous session ID.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfLogClientID [out]
 
 Pointer Boolean value that is set to True if the client's log ID must be sent to the server.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,35 +93,19 @@ A <b>NULL</b> or invalid argument was passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 See the remarks for <b>SetLogClientID</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid">IWMReaderAdvanced2::SetLogClientID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setlogclientid">IWMReaderAdvanced2::SetLogClientID</a>

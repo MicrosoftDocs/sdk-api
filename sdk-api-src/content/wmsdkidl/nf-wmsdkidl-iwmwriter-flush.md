@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriter.Flush
 title: IWMWriter::Flush (wmsdkidl.h)
 description: The functionality of the Flush method has been removed, because IWMWriter::EndWriting performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
+helpviewer_keywords: ["Flush","Flush method [windows Media Format]","Flush method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","Flush method","IWMWriter.Flush","IWMWriter::Flush","IWMWriterFlush","wmformat.iwmwriter_flush","wmsdkidl/IWMWriter::Flush"]
 old-location: wmformat\iwmwriter_flush.htm
 tech.root: wmformat
 ms.assetid: 1fa0c482-f1f5-4d3c-8268-731914caefa3
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],Flush method, IWMWriter.Flush, IWMWriter::Flush, IWMWriterFlush, wmformat.iwmwriter_flush, wmsdkidl/IWMWriter::Flush
-f1_keywords:
-- wmsdkidl/IWMWriter.Flush
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriter.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriter::Flush
+ - wmsdkidl/IWMWriter::Flush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriter.Flush
 ---
 
 # IWMWriter::Flush
@@ -51,36 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The functionality of the <b>Flush</b> method has been removed, because <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a> performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
-
-
-
-
-## -parameters
-
-
-
+The functionality of the <b>Flush</b> method has been removed, because <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a> performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
 
 
 
 ## -returns
 
-
-
 This method always returns S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>

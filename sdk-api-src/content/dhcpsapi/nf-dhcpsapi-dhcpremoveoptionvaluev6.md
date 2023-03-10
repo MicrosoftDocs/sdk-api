@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpRemoveOptionValueV6
 title: DhcpRemoveOptionValueV6 function (dhcpsapi.h)
 description: The DhcpRemoveOptionValueV6 function removes an option value from a scope defined on the DHCP server.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpRemoveOptionValueV6","DhcpRemoveOptionValueV6 function [DHCP]","dhcp.dhcpremoveoptionvaluev6","dhcpsapi/DhcpRemoveOptionValueV6"]
 old-location: dhcp\dhcpremoveoptionvaluev6.htm
 tech.root: DHCP
 ms.assetid: 757ed807-58f4-427d-8500-92f933518d03
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpRemoveOptionValueV6, DhcpRemoveOptionValueV6 function [DHCP], dhcp.dhcpremoveoptionvaluev6, dhcpsapi/DhcpRemoveOptionValueV6
-f1_keywords:
-- dhcpsapi/DhcpRemoveOptionValueV6
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpRemoveOptionValueV6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpRemoveOptionValueV6
+ - dhcpsapi/DhcpRemoveOptionValueV6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpRemoveOptionValueV6
 ---
 
 # DhcpRemoveOptionValueV6 function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpRemoveOptionValueV6</b> function removes an option value from a scope defined on the DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that specifies the IP address or hostname of the DHCP server.
-
 
 ### -param Flags [in]
 
@@ -82,35 +78,26 @@ This flag should be set if the option is provided by a vendor.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param OptionID [in]
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for the option value to remove.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for the option value to remove.
 
 ### -param ClassName [in]
 
 Unicode string that specifies the DHCP  class name of the option value. This parameter is optional.
 
-
 ### -param VendorName [in]
 
 Unicode string that specifies the vendor of the option. This parameter is optional, and should be <b>NULL</b> when <i>Flags</i> is not set to DHCP_FLAGS_OPTION_IS_VENDOR.
-
 
 ### -param ScopeInfo [in]
 
 DHCP_OPTION_SCOPE_INFO6 structure that contains information describing the specific scope to remove the option value from.
 
-
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -140,7 +127,3 @@ The specified option is not present on the DHCP server.
 </td>
 </tr>
 </table>
- 
-
-
-

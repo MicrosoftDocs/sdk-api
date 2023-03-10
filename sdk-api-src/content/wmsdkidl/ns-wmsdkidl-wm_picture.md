@@ -2,15 +2,12 @@
 UID: NS:wmsdkidl._WMPicture
 title: WM_PICTURE (wmsdkidl.h)
 description: The WM_PICTURE structure is used as the data item for the WM/Picture complex metadata attribute.
+helpviewer_keywords: ["WM_PICTURE","WM_PICTURE structure [windows Media Format]","wmformat.wm_picture","wmsdkidl/WM_PICTURE"]
 old-location: wmformat\wm_picture.htm
 tech.root: wmformat
 ms.assetid: d3670cce-5b57-4624-b10d-2e4d9e9e263c
 ms.date: 12/05/2018
 ms.keywords: WM_PICTURE, WM_PICTURE structure [windows Media Format], wmformat.wm_picture, wmsdkidl/WM_PICTURE
-f1_keywords:
-- wmsdkidl/WM_PICTURE
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WM_PICTURE
 targetos: Windows
 req.typenames: WM_PICTURE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WMPicture
+ - wmsdkidl/_WMPicture
+ - WM_PICTURE
+ - wmsdkidl/WM_PICTURE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WM_PICTURE
 ---
 
 # WM_PICTURE structure
@@ -48,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>WM_PICTURE</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmpicture">WM/Picture</a> complex metadata attribute.
-
-
-
+The <b>WM_PICTURE</b> structure is used as the data item for the <a href="/windows/desktop/wmformat/wmpicture">WM/Picture</a> complex metadata attribute.
 
 ## -struct-fields
-
-
-
 
 ### -field pwszMIMEType
 
 Pointer to a wide-character null-terminated string containing the multipurpose Internet mail extension (MIME) type of the picture.
-
 
 ### -field bPictureType
 
@@ -157,33 +152,19 @@ Pointer to a wide-character null-terminated string containing the multipurpose I
 <td>Logo of the publisher or studio</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -field pwszDescription
 
 Pointer to a wide-character null-terminated string containing a description of the picture.
 
-
 ### -field dwDataLen
 
 <b>DWORD</b> value containing the size, in bytes, of the picture data pointed to by <b>pbData</b>.
-
 
 ### -field pbData
 
 Pointer to a <b>BYTE</b> array containing the picture data.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

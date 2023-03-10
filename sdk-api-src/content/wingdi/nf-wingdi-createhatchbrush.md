@@ -2,15 +2,12 @@
 UID: NF:wingdi.CreateHatchBrush
 title: CreateHatchBrush function (wingdi.h)
 description: The CreateHatchBrush function creates a logical brush that has the specified hatch pattern and color.
+helpviewer_keywords: ["CreateHatchBrush","CreateHatchBrush function [Windows GDI]","HS_BDIAGONAL","HS_CROSS","HS_DIAGCROSS","HS_FDIAGONAL","HS_HORIZONTAL","HS_VERTICAL","_win32_CreateHatchBrush","gdi.createhatchbrush","wingdi/CreateHatchBrush"]
 old-location: gdi\createhatchbrush.htm
 tech.root: gdi
 ms.assetid: 0b5849d6-1e22-4ac5-980c-2f2a73b16adb
 ms.date: 12/05/2018
 ms.keywords: CreateHatchBrush, CreateHatchBrush function [Windows GDI], HS_BDIAGONAL, HS_CROSS, HS_DIAGCROSS, HS_FDIAGONAL, HS_HORIZONTAL, HS_VERTICAL, _win32_CreateHatchBrush, gdi.createhatchbrush, wingdi/CreateHatchBrush
-f1_keywords:
-- wingdi/CreateHatchBrush
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- CreateHatchBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateHatchBrush
+ - wingdi/CreateHatchBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - CreateHatchBrush
 ---
 
 # CreateHatchBrush function
@@ -50,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateHatchBrush</b> function creates a logical brush that has the specified hatch pattern and color.
-
 
 ## -parameters
 
-
-
-
 ### -param iHatch [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/hatch-brush">hatch style of the brush</a>. This parameter can be one of the following values.
+The <a href="/windows/desktop/gdi/hatch-brush">hatch style of the brush</a>. This parameter can be one of the following values.
 
 <table>
 <tr>
@@ -129,36 +126,26 @@ Vertical hatch
 </td>
 </tr>
 </table>
- 
-
 
 ### -param color [in]
 
-The foreground color of the brush that is used for the hatches. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
-
+The foreground color of the brush that is used for the hatches. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -returns
-
-
 
 If the function succeeds, the return value identifies a logical brush.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 A brush is a bitmap that the system uses to paint the interiors of filled shapes.
 
-After an application creates a brush by calling <b>CreateHatchBrush</b>, it can select that brush into any device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. It can also call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> to affect the rendering of the  brush.
+After an application creates a brush by calling <b>CreateHatchBrush</b>, it can select that brush into any device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. It can also call <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> to affect the rendering of the  brush.
 
-If an application uses a hatch brush to fill the backgrounds of both a parent and a child window with matching color, you must  set the brush origin before painting the background of the child window. You can do this by  calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> function. Your application can retrieve the current brush origin by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a> function.
+If an application uses a hatch brush to fill the backgrounds of both a parent and a child window with matching color, you must  set the brush origin before painting the background of the child window. You can do this by  calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a> function. Your application can retrieve the current brush origin by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a> function.
 
-When you no longer need the brush, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the brush, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 <b>ICM:</b> No color is defined  at brush creation. However, color management is performed when the brush is selected into an ICM-enabled device context.
 
@@ -368,7 +355,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         hdc = BeginPaint(hWnd, &ps);
 
         // Start application-specific layout section.
-        // Just print the geeting string in the top left corner.
+        // Just print the greeting string in the top left corner.
         TextOut(hdc,
             5, 5,
             greeting, (int)_tcslen(greeting));
@@ -420,63 +407,54 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/brush-functions">Brush Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brush-functions">Brush Functions</a>
+<a href="/windows/desktop/gdi/brushes">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">Brushes Overview</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrush">CreateDIBPatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrushpt">CreateDIBPatternBrushPt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibpatternbrushpt">CreateDIBPatternBrushPt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbrushorgex">GetBrushOrgEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbrushorgex">SetBrushOrgEx</a>

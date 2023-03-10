@@ -1,16 +1,13 @@
 ---
 UID: NS:richedit._paraformat2
 title: PARAFORMAT2 (richedit.h)
-description: Contains information about paragraph formatting attributes in a rich edit control.
+description: Contains information about paragraph formatting attributes in a rich edit control.P
+helpviewer_keywords: ["0","1","10","11","12","13","14","15","16","2","3","32","4","5","6","64","7","8","9","PARAFORMAT2","PARAFORMAT2 structure [Windows Controls]","PFA_CENTER","PFA_FULL_INTERWORD","PFA_JUSTIFY","PFA_LEFT","PFA_RIGHT","PFE_DONOTHYPHEN","PFE_KEEP","PFE_KEEPNEXT","PFE_NOLINENUMBER","PFE_NOWIDOWCONTROL","PFE_PAGEBREAKBEFORE","PFE_RTLPARA","PFE_SIDEBYSIDE","PFE_TABLE","PFE_TABLEROWDELIMITER","PFM_ALIGNMENT","PFM_ALL","PFM_ALL2","PFM_BORDER","PFM_DONOTHYPHEN","PFM_EFFECTS","PFM_KEEP","PFM_KEEPNEXT","PFM_LINESPACING","PFM_NOLINENUMBER","PFM_NOWIDOWCONTROL","PFM_NUMBERING","PFM_NUMBERINGSTART","PFM_NUMBERINGSTYLE","PFM_NUMBERINGTAB","PFM_OFFSET","PFM_OFFSETINDENT","PFM_OUTLINELEVEL","PFM_PAGEBREAKBEFORE","PFM_RIGHTINDENT","PFM_RTLPARA","PFM_SHADING","PFM_SIDEBYSIDE","PFM_SPACEAFTER","PFM_SPACEBEFORE","PFM_STARTINDENT","PFM_STYLE","PFM_TABLE","PFM_TABLEROWDELIMITER","PFM_TABSTOPS","PFNS_NEWNUMBER","PFNS_NONUMBER","PFNS_PAREN","PFNS_PARENS","PFNS_PERIOD","PFNS_PLAIN","PFN_ARABIC","PFN_BULLET","PFN_LCLETTER","PFN_LCROMAN","PFN_UCLETTER","PFN_UCROMAN","_win32_PARAFORMAT2_str","_win32_PARAFORMAT2_str_cpp","controls.PARAFORMAT2","controls._win32_PARAFORMAT2_str","richedit/PARAFORMAT2","zero"]
 old-location: controls\PARAFORMAT2.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat2.htm
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 32, 4, 5, 6, 64, 7, 8, 9, PARAFORMAT2, PARAFORMAT2 structure [Windows Controls], PFA_CENTER, PFA_FULL_INTERWORD, PFA_JUSTIFY, PFA_LEFT, PFA_RIGHT, PFE_DONOTHYPHEN, PFE_KEEP, PFE_KEEPNEXT, PFE_NOLINENUMBER, PFE_NOWIDOWCONTROL, PFE_PAGEBREAKBEFORE, PFE_RTLPARA, PFE_SIDEBYSIDE, PFE_TABLE, PFE_TABLEROWDELIMITER, PFM_ALIGNMENT, PFM_ALL, PFM_ALL2, PFM_BORDER, PFM_DONOTHYPHEN, PFM_EFFECTS, PFM_KEEP, PFM_KEEPNEXT, PFM_LINESPACING, PFM_NOLINENUMBER, PFM_NOWIDOWCONTROL, PFM_NUMBERING, PFM_NUMBERINGSTART, PFM_NUMBERINGSTYLE, PFM_NUMBERINGTAB, PFM_OFFSET, PFM_OFFSETINDENT, PFM_OUTLINELEVEL, PFM_PAGEBREAKBEFORE, PFM_RIGHTINDENT, PFM_RTLPARA, PFM_SHADING, PFM_SIDEBYSIDE, PFM_SPACEAFTER, PFM_SPACEBEFORE, PFM_STARTINDENT, PFM_STYLE, PFM_TABLE, PFM_TABLEROWDELIMITER, PFM_TABSTOPS, PFNS_NEWNUMBER, PFNS_NONUMBER, PFNS_PAREN, PFNS_PARENS, PFNS_PERIOD, PFNS_PLAIN, PFN_ARABIC, PFN_BULLET, PFN_LCLETTER, PFN_LCROMAN, PFN_UCLETTER, PFN_UCROMAN, _win32_PARAFORMAT2_str, _win32_PARAFORMAT2_str_cpp, controls.PARAFORMAT2, controls._win32_PARAFORMAT2_str, richedit/PARAFORMAT2, zero
-f1_keywords:
-- richedit/PARAFORMAT2
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- PARAFORMAT2
 targetos: Windows
 req.typenames: PARAFORMAT2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _paraformat2
+ - richedit/_paraformat2
+ - PARAFORMAT2
+ - richedit/PARAFORMAT2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - PARAFORMAT2
 ---
 
 # PARAFORMAT2 structure
@@ -48,25 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages. 
-
+Contains information about paragraph formatting attributes in a rich edit control. <b>PARAFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages.
 
 ## -struct-fields
 
-
-
-
 #### - cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
+Structure size, in bytes. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a> or <b>PARAFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>PARAFORMAT</b> structure, the control uses only the <b>PARAFORMAT</b> members. 
 
 
 #### - dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The members of the <b>PARAFORMAT2</b> structure that contain valid information. The 
 					<b>dwMask</b> member can be a combination of the values from two sets of bit flags. One set indicates the structure members that are valid; another set indicates the valid attributes in the 
@@ -401,7 +400,7 @@ The PFE_TABLEROWDELIMITER value is valid.
 
 #### - wNumbering
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Options used for bulleted or numbered paragraphs. To use this member, set the PFM_NUMBERING flag in the 
 					<b>dwMask</b> member.  
@@ -512,8 +511,6 @@ Uses a sequence of characters beginning with the Unicode character specified by 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wReserved
 
@@ -522,7 +519,7 @@ Uses a sequence of characters beginning with the Unicode character specified by 
 
 #### - wEffects
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 This member is also known as <b>wReserved</b> for Microsoft Rich Edit 1.0 because it was reserved.
 
@@ -645,28 +642,28 @@ The paragraph is a start delimiter (U+FFF9 U+000D) or end delimiter (U+FFFB U+00
 
 #### - dxStartIndent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the paragraph's first line, in twips. The indentation of subsequent lines depends on the <b>dxOffset</b> member. To use the <b>dxStartIndent</b> member, set the PFM_STARTINDENT or PFM_OFFSETINDENT flag in the <b>dwMask</b> member. If you are setting the indentation, use the PFM_STARTINDENT flag to specify an absolute indentation from the left margin; or use the PFM_OFFSETINDENT flag to specify an indentation relative to the paragraph's current indentation. Use either flag to retrieve the current indentation. 
 
 
 #### - dxRightIndent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the right side of the paragraph, relative to the right margin, in twips. To use this member, set the PFM_RIGHTINDENT flag in the <b>dwMask</b> member. 
 
 
 #### - dxOffset
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the second and subsequent lines, relative to the indentation of the first line, in twips. The first line is indented if this member is negative or outdented if this member is positive. To use this member, set the PFM_OFFSET flag in the <b>dwMask</b> member. 
 
 
 #### - wAlignment
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Paragraph alignment. To use this member, set the PFM_ALIGNMENT flag in the <b>dwMask</b> member. This member can be one of the following values. 
 
@@ -732,7 +729,7 @@ Paragraphs are justified by expanding the blanks alone.
 
 #### - cTabCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Number of tab stops defined in the 
 					<b>rgxTabs</b> array.
@@ -740,7 +737,7 @@ Number of tab stops defined in the
 
 #### - rgxTabs
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Array of absolute tab stop positions. Each element in the array specifies information about a tab stop. The 24 low-order bits specify the absolute offset, in twips. To use this member, set the PFM_TABSTOPS flag in the 
 					<b>dwMask</b> member.
@@ -882,45 +879,39 @@ Double line leader
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dySpaceBefore
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Size of the spacing above the paragraph, in twips. To use this member, set the PFM_SPACEBEFORE flag in the 
-					<b>dwMask</b> member. The value must be greater than or equal to zero. 
-
+					<b>dwMask</b> member. The value must be greater than or equal to zero.
 
 ### -field dySpaceAfter
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Specifies the size of the spacing below the paragraph, in twips. To use this member, set the PFM_SPACEAFTER flag in the 
-					<b>dwMask</b> member. The value must be greater than or equal to zero. 
-
+					<b>dwMask</b> member. The value must be greater than or equal to zero.
 
 ### -field dyLineSpacing
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Spacing between lines. For a description of how this value is interpreted, see the 
 					<b>bLineSpacingRule</b> member. To use this member, set the PFM_LINESPACING flag in the 
-					<b>dwMask</b> member. 
-
+					<b>dwMask</b> member.
 
 ### -field sStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Text style. To use this member, set the PFM_STYLE flag in the 
-					<b>dwMask</b> member. This member is included only for compatibility with TOM interfaces and Word; the rich edit control stores the value but does not use it to display the text. 
-
+					<b>dwMask</b> member. This member is included only for compatibility with TOM interfaces and Word; the rich edit control stores the value but does not use it to display the text.
 
 ### -field bLineSpacingRule
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Type of line spacing. To use this member, set the PFM_LINESPACING flag in the 
 					<b>dwMask</b> member. This member can be one of the following values. 
@@ -1000,28 +991,24 @@ The value of
 </td>
 </tr>
 </table>
- 
-
 
 ### -field bOutlineLevel
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Reserved; must be zero. 
-
+Reserved; must be zero.
 
 ### -field wShadingWeight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Percentage foreground color used in shading. The 
 					<b>wShadingStyle</b> member specifies the foreground and background shading colors. A value of 5 indicates a shading color consisting of 5 percent foreground color and 95 percent background color. To use these members, set the PFM_SHADING flag in the 
-					<b>dwMask</b> member. This member is included only for compatibility with Word; the rich edit control stores the value but does not use it to display the text. 
-
+					<b>dwMask</b> member. This member is included only for compatibility with Word; the rich edit control stores the value but does not use it to display the text.
 
 ### -field wShadingStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Style and colors used for background shading. Bits 0 to 3 contain the shading style, bits 4 to 7 contain the foreground color index, and bits 8 to 11 contain the background color index. To use this member, set the PFM_SHADING flag in the 
 					<b>dwMask</b> member. This member is included only for compatibility with Word; the rich edit control stores the value but does not use it to display the text. 
@@ -1340,21 +1327,18 @@ Light gray
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wNumberingStart
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Starting number or Unicode value used for numbered paragraphs. Use this member in conjunction with the 
 					<b>wNumbering</b> member. This member is included only for compatibility with TOM interfaces; the rich edit control stores the value but does not use it to display the text or bullets. To use this member, set the PFM_NUMBERINGSTART flag in the 
-					<b>dwMask</b> member. 
-
+					<b>dwMask</b> member.
 
 ### -field wNumberingStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Numbering style used with numbered paragraphs. Use this member in conjunction with the 
 					<b>wNumbering</b> member. This member is included only for compatibility with TOM interfaces; the rich edit control stores the value but rich edit versions earlier than 3.0 do not use it to display the text or bullets. To use this member, set the PFM_NUMBERINGSTYLE flag in the 
@@ -1427,39 +1411,34 @@ Starts a new number with
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wNumberingTab
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Minimum space between a paragraph number and the paragraph text, in twips. Use this member in conjunction with the 
 					<b>wNumbering</b> member. The 
 					<b>wNumberingTab</b> member is included for compatibility with TOM interfaces; previous to Microsoft Rich Edit 3.0, the rich edit control stores the value but does not use it to display text. To use this member, set the PFM_NUMBERINGTAB flag in the 
-					<b>dwMask</b> member. 
-
+					<b>dwMask</b> member.
 
 ### -field wBorderSpace
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 The space between the border and the paragraph text, in twips. The 
 					<b>wBorderSpace</b> member is included for compatibility with Word; the rich edit control stores the values but does not use them to display text. To use this member, set the PFM_BORDER flag in the 
-					<b>dwMask</b> member. 
-
+					<b>dwMask</b> member.
 
 ### -field wBorderWidth
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Border width, in twips. To use this member, set the PFM_BORDER flag in the 
-					<b>dwMask</b> member. 
-
+					<b>dwMask</b> member.
 
 ### -field wBorders
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Border location, style, and color. Bits 0 to 7 specify the border locations, bits 8 to 11 specify the border style, and bits 12 to 15 specify the border color index. To use this member, set the PFM_BORDER flag in the 
 					<b>dwMask</b> member.
@@ -1851,13 +1830,8 @@ Light gray
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a>
 
@@ -1867,8 +1841,4 @@ Light gray
 
 
 
-<a href="https://msdn.microsoft.com/c384f3d6-8f2f-4c82-8a98-bc95d8e5828c">PARAFORMAT</a>
- 
-
- 
-
+<a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>

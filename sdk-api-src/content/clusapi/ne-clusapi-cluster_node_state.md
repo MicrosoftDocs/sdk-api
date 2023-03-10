@@ -1,16 +1,13 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_STATE
 title: CLUSTER_NODE_STATE (clusapi.h)
-description: Describes the state of a cluster node.
+description: CLUSTER_NODE_STATE (clusapi.h) describes the state of a cluster node.
+helpviewer_keywords: ["CLUSTER_NODE_STATE","CLUSTER_NODE_STATE enumeration [Failover Cluster]","ClusterNodeDown","ClusterNodeJoining","ClusterNodePaused","ClusterNodeStateUnknown","ClusterNodeUp","_CLUSTER_NODE_STATE","_CLUSTER_NODE_STATE enumeration [Failover Cluster]","clusapi/CLUSTER_NODE_STATE","clusapi/ClusterNodeDown","clusapi/ClusterNodeJoining","clusapi/ClusterNodePaused","clusapi/ClusterNodeStateUnknown","clusapi/ClusterNodeUp","clusapi/_CLUSTER_NODE_STATE","msclus/CLUSTER_NODE_STATE","msclus/ClusterNodeDown","msclus/ClusterNodeJoining","msclus/ClusterNodePaused","msclus/ClusterNodeStateUnknown","msclus/ClusterNodeUp","msclus/_CLUSTER_NODE_STATE","mscs.cluster_node_state"]
 old-location: mscs\cluster_node_state.htm
 tech.root: MsCS
 ms.assetid: 25bc275e-8d9c-43b3-8f95-dd3fd2cbe3ce
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_NODE_STATE, CLUSTER_NODE_STATE enumeration [Failover Cluster], ClusterNodeDown, ClusterNodeJoining, ClusterNodePaused, ClusterNodeStateUnknown, ClusterNodeUp, _CLUSTER_NODE_STATE, _CLUSTER_NODE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NODE_STATE, clusapi/ClusterNodeDown, clusapi/ClusterNodeJoining, clusapi/ClusterNodePaused, clusapi/ClusterNodeStateUnknown, clusapi/ClusterNodeUp, clusapi/_CLUSTER_NODE_STATE, msclus/CLUSTER_NODE_STATE, msclus/ClusterNodeDown, msclus/ClusterNodeJoining, msclus/ClusterNodePaused, msclus/ClusterNodeStateUnknown, msclus/ClusterNodeUp, msclus/_CLUSTER_NODE_STATE, mscs.cluster_node_state
-f1_keywords:
-- clusapi/CLUSTER_NODE_STATE
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUSTER_NODE_STATE
 targetos: Windows
 req.typenames: CLUSTER_NODE_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_NODE_STATE
+ - clusapi/CLUSTER_NODE_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUSTER_NODE_STATE
 ---
 
 # CLUSTER_NODE_STATE enumeration
@@ -49,76 +51,59 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the state of a cluster node. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-state">State</a> properties use this enumeration.
-
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a> and 
+    <a href="/previous-versions/windows/desktop/mscs/clusnode-state">State</a> properties use this enumeration.
 
 ## -enum-fields
 
-
-
-
-### -field ClusterNodeStateUnknown
+### -field ClusterNodeStateUnknown:-1
 
 The operation was not successful. For more information about the error, call the function 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ### -field ClusterNodeUp
 
 The node is physically plugged in, turned on, booted, and capable of executing programs. This value is also 
        used by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
-       function and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-resume">Resume</a> method.
-
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
+       function and <a href="/previous-versions/windows/desktop/mscs/clusnode-resume">Resume</a> method.
 
 ### -field ClusterNodeDown
 
 The node is turned off or not operational.
 
-
 ### -field ClusterNodePaused
 
 The node is running but not participating in cluster operations. This value is also used by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
-       functions. This value is also used <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-pause">Pause</a> method.
-
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a> and 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a> 
+       functions. This value is also used <a href="/previous-versions/windows/desktop/mscs/clusnode-pause">Pause</a> method.
 
 ### -field ClusterNodeJoining
 
-The node is in the process of joining a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
-
+The node is in the process of joining a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>
+<a href="/previous-versions/windows/desktop/mscs/clusnode-pause">Pause Method of the ClusNode Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-pause">Pause Method of the ClusNode Object</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterserviceaccountpassword">SetClusterServiceAccountPassword</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusnode-state">State Property of the ClusNode Object</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/clusnode-state">State Property of the ClusNode Object</a>

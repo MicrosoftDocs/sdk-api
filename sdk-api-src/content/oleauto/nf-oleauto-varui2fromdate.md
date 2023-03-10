@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarUI2FromDate
 title: VarUI2FromDate function (oleauto.h)
 description: Converts a date value to an unsigned short value.
+helpviewer_keywords: ["VarUI2FromDate","VarUI2FromDate function [Automation]","_oa96_VarUI2FromDate","automat.varui2fromdate","oleauto/VarUI2FromDate"]
 old-location: automat\varui2fromdate.htm
 tech.root: automat
 ms.assetid: b611526d-3bc1-4943-9fb4-319e5899426a
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromDate, VarUI2FromDate function [Automation], _oa96_VarUI2FromDate, automat.varui2fromdate, oleauto/VarUI2FromDate
-f1_keywords:
-- oleauto/VarUI2FromDate
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI2FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI2FromDate
+ - oleauto/VarUI2FromDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI2FromDate
 ---
 
 # VarUI2FromDate function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a date value to an unsigned short value.
 
-
 ## -parameters
-
-
-
 
 ### -param dateIn [in]
 
 The value to convert.
 
-
 ### -param puiOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartDelete
 title: IPhotoAcquireProgressCB::StartDelete (photoacquire.h)
 description: The StartDelete method provides extended functionality when deletion of items from the device begins.
+helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","StartDelete method","IPhotoAcquireProgressCB.StartDelete","IPhotoAcquireProgressCB::StartDelete","IPhotoAcquireProgressCBStartDelete","StartDelete","StartDelete method [Picture Acquisition]","StartDelete method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::StartDelete","picacq.iphotoacquireprogresscb_startdelete"]
 old-location: picacq\iphotoacquireprogresscb_startdelete.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 510999eb-068e-41e9-98b7-de6e67dbfe2f
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartDelete method, IPhotoAcquireProgressCB.StartDelete, IPhotoAcquireProgressCB::StartDelete, IPhotoAcquireProgressCBStartDelete, StartDelete, StartDelete method [Picture Acquisition], StartDelete method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartDelete, picacq.iphotoacquireprogresscb_startdelete
-f1_keywords:
-- photoacquire/IPhotoAcquireProgressCB.StartDelete
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireProgressCB.StartDelete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireProgressCB::StartDelete
+ - photoacquire/IPhotoAcquireProgressCB::StartDelete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireProgressCB.StartDelete
 ---
 
 # IPhotoAcquireProgressCB::StartDelete
@@ -49,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>StartDelete</code> method provides extended functionality when deletion of items from the device begins.
 
 
 
 The implementation of <code>StartDelete</code> is provided by the application.
 
-
 ## -parameters
-
-
-
 
 ### -param pPhotoAcquireSource [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> that items are being deleted from.
-
+Pointer to the <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource</a> that items are being deleted from.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Your implementation is not limited to the following return values. Any failing HRESULT other than E_NOTIMPL is fatal and will cause the transfer to abort.
 
@@ -102,18 +95,7 @@ The method is not yet implemented
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>

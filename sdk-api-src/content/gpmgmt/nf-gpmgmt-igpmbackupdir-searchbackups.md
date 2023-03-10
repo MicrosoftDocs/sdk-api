@@ -1,16 +1,13 @@
 ---
 UID: NF:gpmgmt.IGPMBackupDir.SearchBackups
 title: IGPMBackupDir::SearchBackups (gpmgmt.h)
-description: Executes a search for the GPMBackup object according to the specified criteria, and returns an GPMBackupCollection object.
+description: Executes a search for the GPMBackup object according to the specified criteria, and returns a GPMBackupCollection object.
+helpviewer_keywords: ["GPMBackupDir object [GPMC]","SearchBackups method","IGPMBackupDir interface [GPMC]","SearchBackups method","IGPMBackupDir.SearchBackups","IGPMBackupDir::SearchBackups","SearchBackups","SearchBackups method [GPMC]","SearchBackups method [GPMC]","GPMBackupDir object","SearchBackups method [GPMC]","IGPMBackupDir interface","_win32_igpmbackupdir_searchbackups","backupMostRecent","gpmc.igpmbackupdir_searchbackups","gpmgmt/IGPMBackupDir::SearchBackups","gpoDisplayName","gpoDomain","gpoID"]
 old-location: gpmc\igpmbackupdir_searchbackups.htm
 tech.root: gpmc
 ms.assetid: 71e1991f-c24f-43fe-8f3e-83f5b02cec6b
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDir object [GPMC],SearchBackups method, IGPMBackupDir interface [GPMC],SearchBackups method, IGPMBackupDir.SearchBackups, IGPMBackupDir::SearchBackups, SearchBackups, SearchBackups method [GPMC], SearchBackups method [GPMC],GPMBackupDir object, SearchBackups method [GPMC],IGPMBackupDir interface, _win32_igpmbackupdir_searchbackups, backupMostRecent, gpmc.igpmbackupdir_searchbackups, gpmgmt/IGPMBackupDir::SearchBackups, gpoDisplayName, gpoDomain, gpoID
-f1_keywords:
-- gpmgmt/IGPMBackupDir.SearchBackups
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Gpmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpmgmt.dll
-api_name:
-- IGPMBackupDir.SearchBackups
-- GPMBackupDir.SearchBackups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGPMBackupDir::SearchBackups
+ - gpmgmt/IGPMBackupDir::SearchBackups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpmgmt.dll
+api_name:
+ - IGPMBackupDir.SearchBackups
+ - GPMBackupDir.SearchBackups
 ---
 
 # IGPMBackupDir::SearchBackups
@@ -49,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Executes a search for 
-the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object according to the specified criteria, and returns an  
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">GPMBackupCollection</a> object.
-
+the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object according to the specified criteria, and returns an  
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">GPMBackupCollection</a> object.
 
 ## -parameters
-
-
-
 
 ### -param pIGPMSearchCriteria [in]
 
@@ -68,13 +65,13 @@ Pointer to the criteria to apply to the search.
 
 #### gpoDomain
 
-Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b>or <b>opNotEquals</b> operators are valid search criteria.
+Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b> or <b>opNotEquals</b> operators are valid search criteria.
 
 
 
 #### gpoID
 
-Pointer to criteria for a search for a Group Policy object (GPO) ID. The search property value is the GPO ID.  The <b>opEquals</b>or <b>opNotEquals</b> operators are valid search criteria.
+Pointer to criteria for a search for a Group Policy object (GPO) ID. The search property value is the GPO ID.  The <b>opEquals</b> or <b>opNotEquals</b> operators are valid search criteria.
 
 
 
@@ -88,22 +85,18 @@ Pointer to criteria for a search for   a GPO display name. The search property v
 
 Pointer to criteria for a search for the most recent backup. The search property value is <b>TRUE</b>. The   <b>opEquals</b>  operator is the valid search criteria.
 
-
 ### -param ppIGPMBackupCollection [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a> interface that represents the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> objects found by the search.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a> interface that represents the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> objects found by the search.
 
 
 #### - objGPMSearchCriteria [in]
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
 
 ## -returns
-
-
 
 <h3>C++</h3>
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
@@ -114,34 +107,19 @@ Returns a reference to a <b>GPMBackupCollection</b> object.
 <h3>VB</h3>
 Returns a reference to a <b>GPMBackupCollection</b> object.
 
-
-
-
 ## -remarks
 
-
-
-An empty  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> has had no criteria added to it. Passing in an empty <b>GPMSearchCriteria</b> will return all  
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> objects.
-
-
-
+An empty  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> has had no criteria added to it. Passing in an empty <b>GPMSearchCriteria</b> will return all  
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> objects.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>

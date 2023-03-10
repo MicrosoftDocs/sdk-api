@@ -1,16 +1,13 @@
 ---
 UID: NF:rtworkq.RtwqEndRegisterWorkQueueWithMMCSS
 title: RtwqEndRegisterWorkQueueWithMMCSS function (rtworkq.h)
-description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task. (RtwqEndRegisterWorkQueueWithMMCSS)
+helpviewer_keywords: ["RtwqEndRegisterWorkQueueWithMMCSS","RtwqEndRegisterWorkQueueWithMMCSS function","base.rtwqendregisterworkqueuewithmmcss","rtworkq/RtwqEndRegisterWorkQueueWithMMCSS"]
 old-location: base\rtwqendregisterworkqueuewithmmcss.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 887dec6f-c3ba-4139-b80b-6a2e05bfa1f9
 ms.date: 12/05/2018
 ms.keywords: RtwqEndRegisterWorkQueueWithMMCSS, RtwqEndRegisterWorkQueueWithMMCSS function, base.rtwqendregisterworkqueuewithmmcss, rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
-f1_keywords:
-- rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqEndRegisterWorkQueueWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqEndRegisterWorkQueueWithMMCSS
+ - rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqEndRegisterWorkQueueWithMMCSS
 ---
 
 # RtwqEndRegisterWorkQueueWithMMCSS function
@@ -48,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param result [in]
 
-Pointer to the asynchronous result. Pass in the same pointer that your callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke">IRtwqAsyncCallback::Invoke</a> method.
-
+Pointer to the asynchronous result. Pass in the same pointer that your callback object received in the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-irtwqasynccallback-invoke">IRtwqAsyncCallback::Invoke</a> method.
 
 ### -param taskId [out]
 
 The unique task identifier.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Call this function when the <a href="/windows/win32/api/rtworkq/nf-rtworkq-rtwqbeginregisterworkqueuewithmmcss">RtwqBeginRegisterWorkQueueWithMMCSSEx</a> function completes asynchronously.
 

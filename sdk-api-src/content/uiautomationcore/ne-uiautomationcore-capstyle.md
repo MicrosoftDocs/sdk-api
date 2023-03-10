@@ -2,15 +2,12 @@
 UID: NE:uiautomationcore.CapStyle
 title: CapStyle (uiautomationcore.h)
 description: Contains values that specify the value of the CapStyle text attribute.
+helpviewer_keywords: ["CapStyle","CapStyle enumeration [Windows Accessibility]","CapStyle_AllCap","CapStyle_AllPetiteCaps","CapStyle_None","CapStyle_PetiteCaps","CapStyle_SmallCap","CapStyle_Titling","CapStyle_Unicase","Other","uiauto.uiauto_CapStyleEnum","uiauto_CapStyleEnum","uiautomationcore/CapStyle","uiautomationcore/CapStyle_AllCap","uiautomationcore/CapStyle_AllPetiteCaps","uiautomationcore/CapStyle_None","uiautomationcore/CapStyle_PetiteCaps","uiautomationcore/CapStyle_SmallCap","uiautomationcore/CapStyle_Titling","uiautomationcore/CapStyle_Unicase","uiautomationcore/Other","winauto.uiauto_CapStyleEnum"]
 old-location: winauto\uiauto_CapStyleEnum.htm
 tech.root: WinAuto
 ms.assetid: 4efb85db-92da-4d5a-94b4-c556e70a693c
 ms.date: 12/05/2018
 ms.keywords: CapStyle, CapStyle enumeration [Windows Accessibility], CapStyle_AllCap, CapStyle_AllPetiteCaps, CapStyle_None, CapStyle_PetiteCaps, CapStyle_SmallCap, CapStyle_Titling, CapStyle_Unicase, Other, uiauto.uiauto_CapStyleEnum, uiauto_CapStyleEnum, uiautomationcore/CapStyle, uiautomationcore/CapStyle_AllCap, uiautomationcore/CapStyle_AllPetiteCaps, uiautomationcore/CapStyle_None, uiautomationcore/CapStyle_PetiteCaps, uiautomationcore/CapStyle_SmallCap, uiautomationcore/CapStyle_Titling, uiautomationcore/CapStyle_Unicase, uiautomationcore/Other, winauto.uiauto_CapStyleEnum
-f1_keywords:
-- uiautomationcore/CapStyle
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- UIAutomationCore.h
-api_name:
-- CapStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CapStyle
+ - uiautomationcore/CapStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - CapStyle
 ---
 
 # CapStyle enumeration
@@ -48,67 +50,44 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains values that specify the value of the CapStyle text attribute.
-
 
 ## -enum-fields
 
-
-
-
-### -field CapStyle_None
+### -field CapStyle_None:0
 
 None.
 
-
-### -field CapStyle_SmallCap
+### -field CapStyle_SmallCap:1
 
 Small capitals.
 
-
-### -field CapStyle_AllCap
+### -field CapStyle_AllCap:2
 
 All capitals.
 
-
-### -field CapStyle_AllPetiteCaps
+### -field CapStyle_AllPetiteCaps:3
 
 All petite capitals.
 
-
-### -field CapStyle_PetiteCaps
+### -field CapStyle_PetiteCaps:4
 
 Petite capitals.
 
-
-### -field CapStyle_Unicase
+### -field CapStyle_Unicase:5
 
 Single case.
 
-
-### -field CapStyle_Titling
+### -field CapStyle_Titling:6
 
 Title case.
 
-
-### -field CapStyle_Other
-
-
-
+### -field CapStyle_Other:-1
 
 #### - Other
 
 Other.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-textattribute-ids">Text Attribute Identifiers</a>

@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFAttributes.CopyAllItems
 title: IMFAttributes::CopyAllItems (mfobjects.h)
 description: Copies all of the attributes from this object into another attribute store.
+helpviewer_keywords: ["111b55bc-fb8e-45b5-a709-703acd23c4be","CopyAllItems","CopyAllItems method [Media Foundation]","CopyAllItems method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","CopyAllItems method","IMFAttributes.CopyAllItems","IMFAttributes::CopyAllItems","mf.imfattributes_copyallitems","mfobjects/IMFAttributes::CopyAllItems"]
 old-location: mf\imfattributes_copyallitems.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 111b55bc-fb8e-45b5-a709-703acd23c4be
 ms.date: 12/05/2018
 ms.keywords: 111b55bc-fb8e-45b5-a709-703acd23c4be, CopyAllItems, CopyAllItems method [Media Foundation], CopyAllItems method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],CopyAllItems method, IMFAttributes.CopyAllItems, IMFAttributes::CopyAllItems, mf.imfattributes_copyallitems, mfobjects/IMFAttributes::CopyAllItems
-f1_keywords:
-- mfobjects/IMFAttributes.CopyAllItems
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAttributes.CopyAllItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAttributes::CopyAllItems
+ - mfobjects/IMFAttributes::CopyAllItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAttributes.CopyAllItems
 ---
 
 # IMFAttributes::CopyAllItems
@@ -49,39 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies all of the attributes from this object into another attribute store.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pDest [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store that receives the copy.
-          
-
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store that receives the copy.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method deletes all of the attributes originally stored in <i>pDest</i>.
       
 
-<div class="alert"><b>Note</b>  <p class="note">When you call <b>CopyAllItems</b> on an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>, which inherits this method, the sample time, duration, and flags are not copied to the destination sample. You must copy these values to the new sample manually.
+<div class="alert"><b>Note</b>  <p class="note">When you call <b>CopyAllItems</b> on an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>, which inherits this method, the sample time, duration, and flags are not copied to the destination sample. You must copy these values to the new sample manually.
 
 </div>
 <div> </div>
@@ -118,21 +105,10 @@ HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>

@@ -2,15 +2,12 @@
 UID: NF:evr.IEVRFilterConfig.SetNumberOfStreams
 title: IEVRFilterConfig::SetNumberOfStreams (evr.h)
 description: Sets the number of input pins on the EVR filter.
+helpviewer_keywords: ["72777c3d-b098-43b9-80ea-ef180b7f1a4a","IEVRFilterConfig interface [Media Foundation]","SetNumberOfStreams method","IEVRFilterConfig.SetNumberOfStreams","IEVRFilterConfig::SetNumberOfStreams","SetNumberOfStreams","SetNumberOfStreams method [Media Foundation]","SetNumberOfStreams method [Media Foundation]","IEVRFilterConfig interface","evr/IEVRFilterConfig::SetNumberOfStreams","mf.ievrfilterconfig_setnumberofstreams"]
 old-location: mf\ievrfilterconfig_setnumberofstreams.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 72777c3d-b098-43b9-80ea-ef180b7f1a4a
 ms.date: 12/05/2018
 ms.keywords: 72777c3d-b098-43b9-80ea-ef180b7f1a4a, IEVRFilterConfig interface [Media Foundation],SetNumberOfStreams method, IEVRFilterConfig.SetNumberOfStreams, IEVRFilterConfig::SetNumberOfStreams, SetNumberOfStreams, SetNumberOfStreams method [Media Foundation], SetNumberOfStreams method [Media Foundation],IEVRFilterConfig interface, evr/IEVRFilterConfig::SetNumberOfStreams, mf.ievrfilterconfig_setnumberofstreams
-f1_keywords:
-- evr/IEVRFilterConfig.SetNumberOfStreams
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IEVRFilterConfig.SetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEVRFilterConfig::SetNumberOfStreams
+ - evr/IEVRFilterConfig::SetNumberOfStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IEVRFilterConfig.SetNumberOfStreams
 ---
 
 # IEVRFilterConfig::SetNumberOfStreams
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the number of input pins on the EVR filter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwMaxStreams [in]
 
 Specifies the total number of input pins on the EVR filter. This value includes the input pin for the reference stream, which is created by default. For example, to mix one substream plus the reference stream, set this parameter to 2.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,31 +102,15 @@ This method has already been called, or at least one pin is already connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 After this method has been called, it cannot be called a second time on the same instance of the EVR filter. Also, the method fails if any input pins are connected.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>

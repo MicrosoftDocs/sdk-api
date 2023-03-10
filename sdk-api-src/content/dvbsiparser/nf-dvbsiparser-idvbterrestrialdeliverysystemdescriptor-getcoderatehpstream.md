@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 title: IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCodeRateHPStream","GetCodeRateHPStream method [Microsoft TV Technologies]","GetCodeRateHPStream method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetCodeRateHPStream method","IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream","IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream","IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream","mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream.htm
 tech.root: mstv
 ms.assetid: 84cc3e77-aa46-40b0-ad04-27541216bb6f
 ms.date: 12/05/2018
 ms.keywords: GetCodeRateHPStream, GetCodeRateHPStream method [Microsoft TV Technologies], GetCodeRateHPStream method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCodeRateHPStream method, IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream, mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream
-f1_keywords:
-- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream
+ - dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 ---
 
 # IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetCodeRateHPStream</b> method returns the code rate for the high-priority (HP) stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the code_rate-HP_stream field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbterrestrialdeliverysystemdescriptor">IDvbTerrestrialDeliverySystemDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbterrestrialdeliverysystemdescriptor">IDvbTerrestrialDeliverySystemDescriptor Interface</a>

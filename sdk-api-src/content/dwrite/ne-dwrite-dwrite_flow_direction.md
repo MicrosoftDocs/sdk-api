@@ -2,15 +2,12 @@
 UID: NE:dwrite.DWRITE_FLOW_DIRECTION
 title: DWRITE_FLOW_DIRECTION (dwrite.h)
 description: Indicates the direction of how lines of text are placed relative to one another.
+helpviewer_keywords: ["DWRITE_FLOW_DIRECTION","DWRITE_FLOW_DIRECTION enumeration [Direct Write]","DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP","DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT","DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT","DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM","directwrite.dwrite_flow_direction","dwrite/DWRITE_FLOW_DIRECTION","dwrite/DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP","dwrite/DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT","dwrite/DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT","dwrite/DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM"]
 old-location: directwrite\dwrite_flow_direction.htm
 tech.root: DirectWrite
 ms.assetid: 35a78bde-ba80-4328-8fb8-77ca73c1c04b
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FLOW_DIRECTION, DWRITE_FLOW_DIRECTION enumeration [Direct Write], DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM, directwrite.dwrite_flow_direction, dwrite/DWRITE_FLOW_DIRECTION, dwrite/DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP, dwrite/DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT, dwrite/DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT, dwrite/DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM
-f1_keywords:
-- dwrite/DWRITE_FLOW_DIRECTION
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite.h
-api_name:
-- DWRITE_FLOW_DIRECTION
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_FLOW_DIRECTION
+ - dwrite/DWRITE_FLOW_DIRECTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite.h
+api_name:
+ - DWRITE_FLOW_DIRECTION
 ---
 
 # DWRITE_FLOW_DIRECTION enumeration
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the direction of how lines of text are placed relative to one another.
-  
-
 
 ## -enum-fields
 
-
-
-
-### -field DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM
+### -field DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM:0
 
 Specifies that text lines are placed from top to bottom.
 
-
-### -field DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP
+### -field DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP:1
 
 Specifies that text lines are placed from bottom to top.
 
-
-### -field DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT
+### -field DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT:2
 
 Specifies that text lines are placed from left to right.
 
-
-### -field DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT
+### -field DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT:3
 
 Specifies that text lines are placed from right to left.
 

@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetBalloonInfo
 title: ITfLangBarItemBalloon::GetBalloonInfo (ctfutb.h)
 description: ITfLangBarItemBalloon::GetBalloonInfo method
+helpviewer_keywords: ["GetBalloonInfo","GetBalloonInfo method [Text Services Framework]","GetBalloonInfo method [Text Services Framework]","ITfLangBarItemBalloon interface","ITfLangBarItemBalloon interface [Text Services Framework]","GetBalloonInfo method","ITfLangBarItemBalloon.GetBalloonInfo","ITfLangBarItemBalloon::GetBalloonInfo","_tsf_itflangbaritemballoon_getballooninfo_ref","ctfutb/ITfLangBarItemBalloon::GetBalloonInfo","tsf.itflangbaritemballoon_getballooninfo"]
 old-location: tsf\itflangbaritemballoon_getballooninfo.htm
 tech.root: TSF
 ms.assetid: 4cf695dc-dfb7-4541-a364-4395650f9419
 ms.date: 12/05/2018
 ms.keywords: GetBalloonInfo, GetBalloonInfo method [Text Services Framework], GetBalloonInfo method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetBalloonInfo method, ITfLangBarItemBalloon.GetBalloonInfo, ITfLangBarItemBalloon::GetBalloonInfo, _tsf_itflangbaritemballoon_getballooninfo_ref, ctfutb/ITfLangBarItemBalloon::GetBalloonInfo, tsf.itflangbaritemballoon_getballooninfo
-f1_keywords:
-- ctfutb/ITfLangBarItemBalloon.GetBalloonInfo
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemBalloon.GetBalloonInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemBalloon::GetBalloonInfo
+ - ctfutb/ITfLangBarItemBalloon::GetBalloonInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemBalloon.GetBalloonInfo
 ---
 
 # ITfLangBarItemBalloon::GetBalloonInfo
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains information about the balloon.
 
 ## -parameters
 
-
-
-
 ### -param pInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
-
+Pointer to a <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO</a> structure that receives the information about the balloon.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,23 +90,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
+<a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
       </a>
- 
-
- 
-

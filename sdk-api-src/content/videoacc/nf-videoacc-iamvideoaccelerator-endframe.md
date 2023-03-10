@@ -2,15 +2,12 @@
 UID: NF:videoacc.IAMVideoAccelerator.EndFrame
 title: IAMVideoAccelerator::EndFrame (videoacc.h)
 description: The EndFrame method ends frame processing.
+helpviewer_keywords: ["EndFrame","EndFrame method [DirectShow]","EndFrame method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","EndFrame method","IAMVideoAccelerator.EndFrame","IAMVideoAccelerator::EndFrame","IAMVideoAcceleratorEndFrame","dshow.iamvideoaccelerator_endframe","videoacc/IAMVideoAccelerator::EndFrame"]
 old-location: dshow\iamvideoaccelerator_endframe.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 38944989-2ce2-4275-bae9-faca0d51cca8
 ms.date: 12/05/2018
 ms.keywords: EndFrame, EndFrame method [DirectShow], EndFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],EndFrame method, IAMVideoAccelerator.EndFrame, IAMVideoAccelerator::EndFrame, IAMVideoAcceleratorEndFrame, dshow.iamvideoaccelerator_endframe, videoacc/IAMVideoAccelerator::EndFrame
-f1_keywords:
-- videoacc/IAMVideoAccelerator.EndFrame
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAccelerator.EndFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAccelerator::EndFrame
+ - videoacc/IAMVideoAccelerator::EndFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAccelerator.EndFrame
 ---
 
 # IAMVideoAccelerator::EndFrame
@@ -49,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EndFrame</b> method ends frame processing.
-      
-
 
 ## -parameters
 
-
-
-
 ### -param pEndFrameInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amva/ns-amva-amvaendframeinfo">AMVAEndFrameInfo</a> structure.
-          
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvaendframeinfo">AMVAEndFrameInfo</a> structure.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. <b>HRESULT</b> can include one of the following standard constants, or other values not listed.
 
@@ -154,38 +146,21 @@ The pins on the decoder and video renderer filters are not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
 
-For more information about this method, see the remarks for  <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a>.
-      
-
-
-
+For more information about this method, see the remarks for  <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>

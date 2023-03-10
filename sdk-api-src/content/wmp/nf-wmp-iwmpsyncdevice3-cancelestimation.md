@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice3.cancelEstimation
 title: IWMPSyncDevice3::cancelEstimation (wmp.h)
 description: The cancelEstimation method cancels an estimation that was previously initiated by estimateSyncSize.
+helpviewer_keywords: ["IWMPSyncDevice3 interface [Windows Media Player]","cancelEstimation method","IWMPSyncDevice3.cancelEstimation","IWMPSyncDevice3::cancelEstimation","cancelEstimation","cancelEstimation method [Windows Media Player]","cancelEstimation method [Windows Media Player]","IWMPSyncDevice3 interface","wmp.iwmpsyncdevice3_cancelestimation","wmp/IWMPSyncDevice3::cancelEstimation"]
 old-location: wmp\iwmpsyncdevice3_cancelestimation.htm
 tech.root: WMP
 ms.assetid: 82e87e44-0a38-43c0-bbed-011581ae8a85
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice3 interface [Windows Media Player],cancelEstimation method, IWMPSyncDevice3.cancelEstimation, IWMPSyncDevice3::cancelEstimation, cancelEstimation, cancelEstimation method [Windows Media Player], cancelEstimation method [Windows Media Player],IWMPSyncDevice3 interface, wmp.iwmpsyncdevice3_cancelestimation, wmp/IWMPSyncDevice3::cancelEstimation
-f1_keywords:
-- wmp/IWMPSyncDevice3.cancelEstimation
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice3.cancelEstimation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice3::cancelEstimation
+ - wmp/IWMPSyncDevice3::cancelEstimation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice3.cancelEstimation
 ---
 
 # IWMPSyncDevice3::cancelEstimation
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>.
-
-
-
-
-## -parameters
-
-
-
+The <b>cancelEstimation</b> method cancels an estimation that was previously initiated by <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">estimateSyncSize</a>.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,27 +75,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When you call this method, Windows Media Player raises the<a href="https://docs.microsoft.com/windows/desktop/WMP/iwmpevents4-syncestimationcomplete"> IWMPEvents4::SyncEstimationComplete</a> event with an <b>HRESULT</b> of E_ABORT.
-
-
-
+When you call this method, Windows Media Player raises the<a href="/windows/desktop/WMP/iwmpevents4-syncestimationcomplete"> IWMPEvents4::SyncEstimationComplete</a> event with an <b>HRESULT</b> of E_ABORT.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice3">IWMPSyncDevice3 Interface</a>

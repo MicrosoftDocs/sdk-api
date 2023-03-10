@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentPartner.GetStreamingURL
 title: IWMPContentPartner::GetStreamingURL (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetStreamingURL method retrieves the streaming URL of a track.
+helpviewer_keywords: ["GetStreamingURL","GetStreamingURL method [Windows Media Player]","GetStreamingURL method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetStreamingURL method","IWMPContentPartner.GetStreamingURL","IWMPContentPartner::GetStreamingURL","IWMPContentPartnerGetStreamingURL","contentpartner/IWMPContentPartner::GetStreamingURL","wmp.iwmpcontentpartner_getstreamingurl"]
 old-location: wmp\iwmpcontentpartner_getstreamingurl.htm
 tech.root: WMP
 ms.assetid: 7b9c25bc-35f7-429a-b465-45e166e2ed1a
 ms.date: 12/05/2018
 ms.keywords: GetStreamingURL, GetStreamingURL method [Windows Media Player], GetStreamingURL method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetStreamingURL method, IWMPContentPartner.GetStreamingURL, IWMPContentPartner::GetStreamingURL, IWMPContentPartnerGetStreamingURL, contentpartner/IWMPContentPartner::GetStreamingURL, wmp.iwmpcontentpartner_getstreamingurl
-f1_keywords:
-- contentpartner/IWMPContentPartner.GetStreamingURL
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.GetStreamingURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::GetStreamingURL
+ - contentpartner/IWMPContentPartner::GetStreamingURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.GetStreamingURL
 ---
 
 # IWMPContentPartner::GetStreamingURL
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>GetStreamingURL</b> method retrieves the streaming URL of a track.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param st [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmpstreamingtype">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media item to be streamed.
-
+A member of the <a href="/windows/desktop/api/contentpartner/ne-contentpartner-wmpstreamingtype">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media item to be streamed.
 
 ### -param pStreamContext [in]
 
 Pointer to a <b>VARIANT</b> that contains the ID of the media item to be streamed. The ID is in the <b>ulVal</b> member of the <b>VARIANT</b>, which has a type of <b>VT_UI4</b>.
 
-
 ### -param pbstrURL [out]
 
 Address of a <b>BSTR</b> that receives the URL of the track.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,18 +89,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

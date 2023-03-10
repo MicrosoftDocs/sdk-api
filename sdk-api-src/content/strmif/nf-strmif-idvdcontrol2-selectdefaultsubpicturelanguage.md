@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.SelectDefaultSubpictureLanguage
 title: IDvdControl2::SelectDefaultSubpictureLanguage (strmif.h)
 description: The SelectDefaultSubpictureLanguage method sets the default language for subpicture text.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectDefaultSubpictureLanguage method","IDvdControl2.SelectDefaultSubpictureLanguage","IDvdControl2::SelectDefaultSubpictureLanguage","IDvdControl2SelectDefaultSubpictureLanguage","SelectDefaultSubpictureLanguage","SelectDefaultSubpictureLanguage method [DirectShow]","SelectDefaultSubpictureLanguage method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectdefaultsubpicturelanguage","strmif/IDvdControl2::SelectDefaultSubpictureLanguage"]
 old-location: dshow\idvdcontrol2_selectdefaultsubpicturelanguage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f49698cd-cc83-4f05-991d-2b3bba77c33a
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectDefaultSubpictureLanguage method, IDvdControl2.SelectDefaultSubpictureLanguage, IDvdControl2::SelectDefaultSubpictureLanguage, IDvdControl2SelectDefaultSubpictureLanguage, SelectDefaultSubpictureLanguage, SelectDefaultSubpictureLanguage method [DirectShow], SelectDefaultSubpictureLanguage method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectdefaultsubpicturelanguage, strmif/IDvdControl2::SelectDefaultSubpictureLanguage
-f1_keywords:
-- strmif/IDvdControl2.SelectDefaultSubpictureLanguage
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectDefaultSubpictureLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectDefaultSubpictureLanguage
+ - strmif/IDvdControl2::SelectDefaultSubpictureLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectDefaultSubpictureLanguage
 ---
 
 # IDvdControl2::SelectDefaultSubpictureLanguage
@@ -49,32 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectDefaultSubpictureLanguage</code> method sets the default language for subpicture text.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Language [in]
 
 Locale identifier that specifies the default language.
 
-
 ### -param subpictureExtension [in]
 
-
-[DVD_SUBPICTURE_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) enumeration that specifies the default subpicture extension.
-
+[DVD_SUBPICTURE_LANG_EXT](/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) enumeration that specifies the default subpicture extension.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -112,19 +101,13 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is not in a valid domain.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is not in a valid domain.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method selects the default language and format to use for subpictures and menus when the disc is played. For example, if <i>Language</i> is specified as 0x409 for U.S. English and <i>subpictureExtension</i> is specified as DVD_SP_EXT_Caption_Big, the DVD Navigator tries to show U.S. English text in the "big caption" format in subpictures. If the default language or language extension is not found on a disc, the DVD Navigator selects the closest match.
 
@@ -142,26 +125,15 @@ The following table shows the Annex J command name to which this method name cor
 <td>DVD_DOMAIN_Stop</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

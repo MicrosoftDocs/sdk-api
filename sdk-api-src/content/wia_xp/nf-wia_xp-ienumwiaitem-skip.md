@@ -2,15 +2,12 @@
 UID: NF:wia_xp.IEnumWiaItem.Skip
 title: IEnumWiaItem::Skip (wia_xp.h)
 description: The IEnumWiaItem::Skip method skips the specified number of items during an enumeration of available IWiaItem objects.
+helpviewer_keywords: ["IEnumWiaItem interface [WIA]","Skip method","IEnumWiaItem.Skip","IEnumWiaItem::Skip","Skip","Skip method [WIA]","Skip method [WIA]","IEnumWiaItem interface","_wia_IEnumWiaItem_Skip","wia._wia_IEnumWiaItem_Skip","wia_xp/IEnumWiaItem::Skip"]
 old-location: wia\_wia_IEnumWiaItem_Skip.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\skip.htm
 ms.date: 12/05/2018
 ms.keywords: IEnumWiaItem interface [WIA],Skip method, IEnumWiaItem.Skip, IEnumWiaItem::Skip, Skip, Skip method [WIA], Skip method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Skip, wia._wia_IEnumWiaItem_Skip, wia_xp/IEnumWiaItem::Skip
-f1_keywords:
-- wia_xp/IEnumWiaItem.Skip
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaguid.lib
-- Wiaguid.dll
-api_name:
-- IEnumWiaItem.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWiaItem::Skip
+ - wia_xp/IEnumWiaItem::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaguid.lib
+ - Wiaguid.dll
+api_name:
+ - IEnumWiaItem.Skip
 ---
 
 # IEnumWiaItem::Skip
@@ -49,29 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects.
-
+The <b>IEnumWiaItem::Skip</b> method skips the specified number of items during an enumeration of available <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects.
 
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Type: <b>ULONG</b>
 
-Specifies the number of items to skip. 
-
+Specifies the number of items to skip.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the method succeeds, the method returns S_OK. If it is unable to skip the specified number of items, it returns S_FALSE. If the method fails, it returns a standard COM error code.
-
-
-

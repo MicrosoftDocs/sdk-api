@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice.deletePartnership
 title: IWMPSyncDevice::deletePartnership (wmp.h)
 description: The deletePartnership method terminates the partnership between Windows Media Player and the device.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","deletePartnership method","IWMPSyncDevice.deletePartnership","IWMPSyncDevice::deletePartnership","IWMPSyncDevicedeletePartnership","deletePartnership","deletePartnership method [Windows Media Player]","deletePartnership method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_deletepartnership","wmp/IWMPSyncDevice::deletePartnership"]
 old-location: wmp\iwmpsyncdevice_deletepartnership.htm
 tech.root: WMP
 ms.assetid: ecb525b4-c804-47e6-8d6c-7d943010077a
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],deletePartnership method, IWMPSyncDevice.deletePartnership, IWMPSyncDevice::deletePartnership, IWMPSyncDevicedeletePartnership, deletePartnership, deletePartnership method [Windows Media Player], deletePartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_deletepartnership, wmp/IWMPSyncDevice::deletePartnership
-f1_keywords:
-- wmp/IWMPSyncDevice.deletePartnership
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice.deletePartnership
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice::deletePartnership
+ - wmp/IWMPSyncDevice::deletePartnership
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice.deletePartnership
 ---
 
 # IWMPSyncDevice::deletePartnership
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>deletePartnership</b> method terminates the partnership between Windows Media Player and the device.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,29 +119,13 @@ The method failed because the current status for the device is wmpdsPartnershipA
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When the partnership is deleted, the device status is set to <b>wmpdsPartnershipDeclined</b>. If no partnership exists, this method simply returns S_OK.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>

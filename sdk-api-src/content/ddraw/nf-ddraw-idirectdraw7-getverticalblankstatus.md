@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDraw7.GetVerticalBlankStatus
 title: IDirectDraw7::GetVerticalBlankStatus (ddraw.h)
 description: Retrieves the status of the vertical blank.
+helpviewer_keywords: ["GetVerticalBlankStatus","GetVerticalBlankStatus method [DirectDraw]","GetVerticalBlankStatus method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","GetVerticalBlankStatus method","IDirectDraw7.GetVerticalBlankStatus","IDirectDraw7::GetVerticalBlankStatus","ddraw/IDirectDraw7::GetVerticalBlankStatus","directdraw.idirectdraw7_getverticalblankstatus"]
 old-location: directdraw\idirectdraw7_getverticalblankstatus.htm
 tech.root: directdraw
 ms.assetid: 4bab0d24-ab11-46fb-92de-060f6afe1fde
@@ -43,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDraw7::GetVerticalBlankStatus
-
-
 ## -description
-
 
 Retrieves the status of the vertical blank.
 
-
 ## -parameters
 
-
-
-
-
-
-#### - lpbIsInVB [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the status of the vertical blank. This parameter is TRUE if a vertical blank is occurring, and FALSE otherwise.
 
-
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -79,26 +65,12 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDPARAMS</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-To synchronize with the vertical blank, use the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-waitforverticalblank">IDirectDraw7::WaitForVerticalBlank</a> method.
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>GetVerticalBlankStatus</b> method.
-
+To synchronize with the vertical blank, use the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-waitforverticalblank">IDirectDraw7::WaitForVerticalBlank</a> method.
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

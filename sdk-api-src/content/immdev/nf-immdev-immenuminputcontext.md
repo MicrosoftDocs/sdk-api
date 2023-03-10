@@ -1,16 +1,13 @@
 ---
 UID: NF:immdev.ImmEnumInputContext
 title: ImmEnumInputContext function (immdev.h)
-description: Retrieves the input context for the specified thread.
+description: The ImmEnumInputContext function (immdev.h) retrieves the input context for the specified thread.
+helpviewer_keywords: ["0","1","ImmEnumInputContext","ImmEnumInputContext function [Internationalization for Windows Applications]","Thread ID","_win32_ImmEnumInputContext","imm/ImmEnumInputContext","intl.immenuminputcontext"]
 old-location: intl\immenuminputcontext.htm
 tech.root: Intl
 ms.assetid: b066af9a-5bcc-468b-bc1b-79b549a9e55c
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: 0, 1, ImmEnumInputContext, ImmEnumInputContext function [Internationalization for Windows Applications], Thread ID, _win32_ImmEnumInputContext, imm/ImmEnumInputContext, intl.immenuminputcontext
-f1_keywords:
-- immdev/ImmEnumInputContext
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-api_name:
-- ImmEnumInputContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmEnumInputContext
+ - immdev/ImmEnumInputContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+api_name:
+ - ImmEnumInputContext
 ---
 
 # ImmEnumInputContext function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the input context for the specified thread.
 
-
 ## -parameters
-
-
-
 
 ### -param idThread [in]
 
@@ -97,52 +94,31 @@ Identifier of the thread for which to enumerate the context. This thread identif
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpfn [in]
 
-Pointer to the enumeration callback function. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/imm/nc-imm-imcenumproc">EnumInputContext</a>.
-
+Pointer to the enumeration callback function. For more information, see <a href="/windows/desktop/api/imm/nc-imm-imcenumproc">EnumInputContext</a>.
 
 ### -param lParam [in]
 
 Application-supplied data. The function passes this data to the callback function.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function calls the application callback function for each enumerated input context, and passes the specified <i>lParam</i> value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imm/nc-imm-imcenumproc">EnumInputContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nc-imm-imcenumproc">EnumInputContext</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

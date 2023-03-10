@@ -1,16 +1,13 @@
 ---
 UID: NS:shellapi._SHFILEOPSTRUCTW
 title: SHFILEOPSTRUCTW (shellapi.h)
-description: Contains information that the SHFileOperation function uses to perform file operations.
+description: Contains information that the SHFileOperation function uses to perform file operations. (Unicode)
+helpviewer_keywords: ["*LPSHFILEOPSTRUCTW","FOF_ALLOWUNDO","FOF_CONFIRMMOUSE","FOF_FILESONLY","FOF_MULTIDESTFILES","FOF_NOCONFIRMATION","FOF_NOCONFIRMMKDIR","FOF_NOCOPYSECURITYATTRIBS","FOF_NOERRORUI","FOF_NORECURSEREPARSE","FOF_NORECURSION","FOF_NO_CONNECTED_ELEMENTS","FOF_NO_UI","FOF_RENAMEONCOLLISION","FOF_SILENT","FOF_SIMPLEPROGRESS","FOF_WANTMAPPINGHANDLE","FOF_WANTNUKEWARNING","FO_COPY","FO_DELETE","FO_MOVE","FO_RENAME","LPSHFILEOPSTRUCT","LPSHFILEOPSTRUCT structure pointer [Windows Shell]","SHFILEOPSTRUCT","SHFILEOPSTRUCT structure [Windows Shell]","SHFILEOPSTRUCTW","_win32_SHFILEOPSTRUCT","shell.SHFILEOPSTRUCT","shellapi/LPSHFILEOPSTRUCT","shellapi/SHFILEOPSTRUCT"]
 old-location: shell\SHFILEOPSTRUCT.htm
 tech.root: shell
 ms.assetid: 590d87c2-0c75-44b9-a9b5-f7c37728512b
 ms.date: 12/05/2018
 ms.keywords: '*LPSHFILEOPSTRUCTW, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY, FOF_MULTIDESTFILES, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSEREPARSE, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_NO_UI, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_SIMPLEPROGRESS, FOF_WANTMAPPINGHANDLE, FOF_WANTNUKEWARNING, FO_COPY, FO_DELETE, FO_MOVE, FO_RENAME, LPSHFILEOPSTRUCT, LPSHFILEOPSTRUCT structure pointer [Windows Shell], SHFILEOPSTRUCT, SHFILEOPSTRUCT structure [Windows Shell], SHFILEOPSTRUCTW, _win32_SHFILEOPSTRUCT, shell.SHFILEOPSTRUCT, shellapi/LPSHFILEOPSTRUCT, shellapi/SHFILEOPSTRUCT'
-f1_keywords:
-- shellapi/SHFILEOPSTRUCT
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shellapi.h
-api_name:
-- SHFILEOPSTRUCT - SHFILEOPSTRUCTW
 targetos: Windows
 req.typenames: SHFILEOPSTRUCTW, *LPSHFILEOPSTRUCTW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHFILEOPSTRUCTW
+ - shellapi/_SHFILEOPSTRUCTW
+ - LPSHFILEOPSTRUCTW
+ - shellapi/LPSHFILEOPSTRUCTW
+ - SHFILEOPSTRUCTW
+ - shellapi/SHFILEOPSTRUCTW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shellapi.h
+api_name:
+ - SHFILEOPSTRUCT - SHFILEOPSTRUCTW
 ---
 
 # SHFILEOPSTRUCTW structure
@@ -48,23 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information that the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function uses to perform file operations.
+Contains information that the <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function uses to perform file operations.
 
             
-<div class="alert"><b>Note</b>  As of Windows Vista, the use of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> interface is recommended over this function.</div><div> </div>
+<div class="alert"><b>Note</b>  As of Windows Vista, the use of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> interface is recommended over this function.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field hwnd
 
 Type: <b>HWND</b>
 
 A window handle to the dialog box to display information about the status of the file operation.
-
 
 ### -field wFunc
 
@@ -96,7 +97,6 @@ Move the files specified in <b>pFrom</b> to the location specified in <b>pTo</b>
 
 Rename the file specified in <b>pFrom</b>. You cannot use this flag to rename multiple files with a single function call. Use <b>FO_MOVE</b> instead.
 
-
 ### -field pFrom
 
 Type: <b>PCZZTSTR</b>
@@ -108,7 +108,6 @@ A pointer to one or more source file names. These names should be fully qualifie
 Standard MS-DOS wildcard characters, such as "*", are permitted <i>only</i> in the file-name position. Using a wildcard character elsewhere in the string will lead to unpredictable results.
 
 Although this member is declared as a single null-terminated string, it is actually a buffer that can hold multiple null-delimited file names. Each file name is terminated by a single <b>NULL</b> character. The last file name is terminated with a double <b>NULL</b> character ("\0\0") to indicate the end of the buffer.
-
 
 ### -field pTo
 
@@ -183,14 +182,14 @@ Do not ask the user to confirm the creation of a new directory if the operation 
 #### FOF_NO_CONNECTED_ELEMENTS
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
 
 
 
 #### FOF_NOCOPYSECURITYATTRIBS
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
 
 
 
@@ -215,7 +214,7 @@ Only perform the operation in the local directory. Do not operate recursively in
 #### FOF_NO_UI
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
 
 
 
@@ -239,15 +238,14 @@ Display a progress dialog box but do not show individual file names as they are 
 
 #### FOF_WANTMAPPINGHANDLE
 
-If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a> when it is no longer needed.
+If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a> when it is no longer needed.
 
 
 
 #### FOF_WANTNUKEWARNING
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
-
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
 
 ### -field fAnyOperationsAborted
 
@@ -255,13 +253,11 @@ Type: <b>BOOL</b>
 
 When the function returns, this member contains <b>TRUE</b> if any file operations were aborted before they were completed; otherwise, <b>FALSE</b>. An operation can be manually aborted by the user through UI or it can be silently aborted by the system if the FOF_NOERRORUI or FOF_NOCONFIRMATION flags were set.
 
-
 ### -field hNameMappings
 
 Type: <b>LPVOID</b>
 
 When the function returns, this member contains a handle to a name mapping object that contains the old and new names of the renamed files. This member is used only if the <b>fFlags</b> member includes the <b>FOF_WANTMAPPINGHANDLE</b> flag. See Remarks for more details.
-
 
 ### -field lpszProgressTitle
 
@@ -311,7 +307,7 @@ Do not ask the user to confirm the creation of a new directory if the operation 
 ##### - fFlags.FOF_NOCOPYSECURITYATTRIBS
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71.</a> Do not copy the security attributes of the file. The destination file receives the security attributes of its new folder.
 
 
 ##### - fFlags.FOF_NOERRORUI
@@ -332,13 +328,13 @@ Only perform the operation in the local directory. Do not operate recursively in
 ##### - fFlags.FOF_NO_CONNECTED_ELEMENTS
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Do not move connected files as a group. Only move the specified files.
 
 
 ##### - fFlags.FOF_NO_UI
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Windows Vista</a>. Perform the operation silently, presenting no UI to the user. This is equivalent to FOF_SILENT | FOF_NOCONFIRMATION | FOF_NOERRORUI | FOF_NOCONFIRMMKDIR.
 
 
 ##### - fFlags.FOF_RENAMEONCOLLISION
@@ -358,13 +354,13 @@ Display a progress dialog box but do not show individual file names as they are 
 
 ##### - fFlags.FOF_WANTMAPPINGHANDLE
 
-If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a> when it is no longer needed.
+If <b>FOF_RENAMEONCOLLISION</b> is specified and any files were renamed, assign a name mapping object that contains their old and new names to the <b>hNameMappings</b> member. This object must be freed using <a href="/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a> when it is no longer needed.
 
 
 ##### - fFlags.FOF_WANTNUKEWARNING
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0.</a> Send a warning if a file is being permanently destroyed during a delete operation rather than recycled. This flag partially overrides <b>FOF_NOCONFIRMATION</b>.
 
 
 ##### - wFunc.FO_COPY
@@ -386,14 +382,11 @@ Move the files specified in <b>pFrom</b> to the location specified in <b>pTo</b>
 
 Rename the file specified in <b>pFrom</b>. You cannot use this flag to rename multiple files with a single function call. Use <b>FO_MOVE</b> instead.
 
-
 ## -remarks
-
-
 
 <div class="alert"><b>Important</b>  You must ensure that the source and destination paths are double-null terminated. A normal string ends in just a single null character. If you pass that value in either the source or destination members, the function will not realize when it has reached the end of the string and will continue to read on in memory until it comes to a random double null value. This can at least lead to a buffer overrun, and possibly the unintended deletion of unrelated data.
 
-                </div>
+</div>
 <div> </div>
 
 ```cpp
@@ -408,31 +401,31 @@ LPTSTR pszSource = L"C:\\Windows\\*\0";
 
 To account for the two terminating null characters, be sure to create buffers large enough to hold MAX_PATH (which normally includes the single terminating null character) plus 1.
 
-It cannot be overstated that your paths should always be full paths. If the <b>pFrom</b> or <b>pTo</b> members are unqualified names, the current directories are taken from the global current drive and directory settings as managed by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> functions.
+It cannot be overstated that your paths should always be full paths. If the <b>pFrom</b> or <b>pTo</b> members are unqualified names, the current directories are taken from the global current drive and directory settings as managed by the <a href="/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a> and <a href="/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a> functions.
 
                 
 
 If you do not provide a full path, the following facts become pertinent:
                 
-                    <ul>
-<li>The lack of a path before a file name does not indicate to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> that this file resides in the root of the current directory.</li>
-<li>The PATH environment variable is not used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> to determine a valid path.</li>
+<ul>
+<li>The lack of a path before a file name does not indicate to <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> that this file resides in the root of the current directory.</li>
+<li>The PATH environment variable is not used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> to determine a valid path.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> cannot be relied on to use the directory that is the current directory when it begins executing. The directory seen as the current directory is process-wide, and it can be changed from another thread while the operation is executing. If that were to happen, the results of <b>SHFileOperation</b> would be unpredictable.</li>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> cannot be relied on to use the directory that is the current directory when it begins executing. The directory seen as the current directory is process-wide, and it can be changed from another thread while the operation is executing. If that were to happen, the results of <b>SHFileOperation</b> would be unpredictable.</li>
 </ul>
 
 
 If <b>pFrom</b> is set to a file name without a full path, deleting the file with <b>FO_DELETE</b> does not move it to the Recycle Bin, even if the <b>FOF_ALLOWUNDO</b> flag is set. You must provide a full path to delete the file to the Recycle Bin.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> fails on any path prefixed with "\\?\".
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> fails on any path prefixed with "\\?\".
 
 There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and a Unicode version (SHFILEOPSTRUCTW). The Unicode version is identical to the ANSI version, except that wide character strings (<b>LPCWSTR</b>) are used in place of ANSI character strings (<b>LPCSTR</b>). On Windows 98 and earlier, only the ANSI version is supported. On Microsoft Windows NT 4.0 and later, both the ANSI and Unicode versions of this structure are supported. SHFILEOPSTRUCTW and SHFILEOPTSTRUCTA should never be used directly; the appropriate structure is redefined as <b>SHFILEOPSTRUCT</b> by the precompiler depending on whether the application is compiled for ANSI or Unicode. 
 
                 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> has similar ANSI and Unicode versions. For ANSI applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of ANSI <b>SHNAMEMAPPING</b> structures. For Unicode applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of Unicode <b>SHNAMEMAPPING</b> structures. However, on Microsoft Windows NT 4.0 and later, <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> <i>always</i> returns a handle to a Unicode set of <b>SHNAMEMAPPING</b> structures. If you want applications to be functional with all versions of Windows, the application must employ conditional code to deal with name mappings. For example:
+<a href="/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> has similar ANSI and Unicode versions. For ANSI applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of ANSI <b>SHNAMEMAPPING</b> structures. For Unicode applications, <b>hNameMappings</b> points to an <b>int</b> followed by an array of Unicode <b>SHNAMEMAPPING</b> structures. However, on Microsoft Windows NT 4.0 and later, <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> <i>always</i> returns a handle to a Unicode set of <b>SHNAMEMAPPING</b> structures. If you want applications to be functional with all versions of Windows, the application must employ conditional code to deal with name mappings. For example:
 
 
 ```cpp
@@ -446,7 +439,7 @@ else
 ```
 
 
-Treat <b>hNameMappings</b> as a pointer to a structure whose members are a <b>UINT</b> value followed by a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> structures, as seen in its declaration:
+Treat <b>hNameMappings</b> as a pointer to a structure whose members are a <b>UINT</b> value followed by a pointer to an array of <a href="/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> structures, as seen in its declaration:
 
 				
 
@@ -461,9 +454,12 @@ struct HANDLETOMAPPINGS
 ```
 
 
-The <b>UINT</b> value indicates the number of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> structures in the array. Each <b>SHNAMEMAPPING</b> structure contains the old and new path for one of the renamed files.
+The <b>UINT</b> value indicates the number of <a href="/windows/desktop/api/shellapi/ns-shellapi-shnamemappinga">SHNAMEMAPPING</a> structures in the array. Each <b>SHNAMEMAPPING</b> structure contains the old and new path for one of the renamed files.
 
-<div class="alert"><b>Note</b>  The handle must be freed with <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a>.</div>
+<div class="alert"><b>Note</b>  The handle must be freed with <a href="/windows/desktop/api/shellapi/nf-shellapi-shfreenamemappings">SHFreeNameMappings</a>.</div>
 <div> </div>
 
 
+
+> [!NOTE]
+> The shellapi.h header defines SHFILEOPSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

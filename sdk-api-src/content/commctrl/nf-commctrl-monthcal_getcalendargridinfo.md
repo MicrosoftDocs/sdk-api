@@ -2,15 +2,12 @@
 UID: NF:commctrl.MonthCal_GetCalendarGridInfo
 title: MonthCal_GetCalendarGridInfo macro (commctrl.h)
 description: Gets information about a calendar grid.
+helpviewer_keywords: ["MonthCal_GetCalendarGridInfo","MonthCal_GetCalendarGridInfo macro [Windows Controls]","_shell_MonthCal_GetCalendarGridInfo","_shell_MonthCal_GetCalendarGridInfo_cpp","commctrl/MonthCal_GetCalendarGridInfo","controls.MonthCal_GetCalendarGridInfo","controls._shell_MonthCal_GetCalendarGridInfo"]
 old-location: controls\MonthCal_GetCalendarGridInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.htm
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCalendarGridInfo, MonthCal_GetCalendarGridInfo macro [Windows Controls], _shell_MonthCal_GetCalendarGridInfo, _shell_MonthCal_GetCalendarGridInfo_cpp, commctrl/MonthCal_GetCalendarGridInfo, controls.MonthCal_GetCalendarGridInfo, controls._shell_MonthCal_GetCalendarGridInfo
-f1_keywords:
-- commctrl/MonthCal_GetCalendarGridInfo
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- MonthCal_GetCalendarGridInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MonthCal_GetCalendarGridInfo
+ - commctrl/MonthCal_GetCalendarGridInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - MonthCal_GetCalendarGridInfo
 ---
 
 # MonthCal_GetCalendarGridInfo macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about a calendar grid.
-
 
 ## -parameters
 
-
-
-
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
-
 ### -param pmcGridInfo
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a> structure that contains information about the calendar grid.
-
+Pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-mcgridinfo">MCGRIDINFO</a> structure that contains information about the calendar grid.

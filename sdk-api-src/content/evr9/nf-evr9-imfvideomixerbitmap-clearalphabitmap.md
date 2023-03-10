@@ -2,15 +2,12 @@
 UID: NF:evr9.IMFVideoMixerBitmap.ClearAlphaBitmap
 title: IMFVideoMixerBitmap::ClearAlphaBitmap (evr9.h)
 description: Removes the current bitmap and releases any resources associated with it.
+helpviewer_keywords: ["79a0f24c-9388-4c64-885f-5d04e671669e","ClearAlphaBitmap","ClearAlphaBitmap method [Media Foundation]","ClearAlphaBitmap method [Media Foundation]","IMFVideoMixerBitmap interface","IMFVideoMixerBitmap interface [Media Foundation]","ClearAlphaBitmap method","IMFVideoMixerBitmap.ClearAlphaBitmap","IMFVideoMixerBitmap::ClearAlphaBitmap","evr9/IMFVideoMixerBitmap::ClearAlphaBitmap","mf.imfvideomixerbitmap_clearalphabitmap"]
 old-location: mf\imfvideomixerbitmap_clearalphabitmap.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 79a0f24c-9388-4c64-885f-5d04e671669e
 ms.date: 12/05/2018
 ms.keywords: 79a0f24c-9388-4c64-885f-5d04e671669e, ClearAlphaBitmap, ClearAlphaBitmap method [Media Foundation], ClearAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, IMFVideoMixerBitmap interface [Media Foundation],ClearAlphaBitmap method, IMFVideoMixerBitmap.ClearAlphaBitmap, IMFVideoMixerBitmap::ClearAlphaBitmap, evr9/IMFVideoMixerBitmap::ClearAlphaBitmap, mf.imfvideomixerbitmap_clearalphabitmap
-f1_keywords:
-- evr9/IMFVideoMixerBitmap.ClearAlphaBitmap
-dev_langs:
-- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoMixerBitmap.ClearAlphaBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoMixerBitmap::ClearAlphaBitmap
+ - evr9/IMFVideoMixerBitmap::ClearAlphaBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoMixerBitmap.ClearAlphaBitmap
 ---
 
 # IMFVideoMixerBitmap::ClearAlphaBitmap
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Removes the current bitmap and releases any resources associated with it.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,22 +87,11 @@ No bitmap is currently set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>

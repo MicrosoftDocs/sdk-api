@@ -2,15 +2,12 @@
 UID: NN:fsrmscreen.IFsrmFileScreenTemplateImported
 title: IFsrmFileScreenTemplateImported (fsrmscreen.h)
 description: Used to save imported file screen templates.
+helpviewer_keywords: ["IFsrmFileScreenTemplateImported","IFsrmFileScreenTemplateImported interface [File Server Resource Manager]","IFsrmFileScreenTemplateImported interface [File Server Resource Manager]","described","fs.ifsrmfilescreentemplateimported","fsrm.ifsrmfilescreentemplateimported","fsrm/IFsrmFileScreenTemplateImported"]
 old-location: fsrm\ifsrmfilescreentemplateimported.htm
 tech.root: fsrm
 ms.assetid: 9e3c3d05-298d-4373-abd2-21de9770e85c
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], IFsrmFileScreenTemplateImported interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplateimported, fsrm.ifsrmfilescreentemplateimported, fsrm/IFsrmFileScreenTemplateImported
-f1_keywords:
-- fsrmscreen/IFsrmFileScreenTemplateImported
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreenTemplateImported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreenTemplateImported
+ - fsrmscreen/IFsrmFileScreenTemplateImported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreenTemplateImported
 ---
 
 # IFsrmFileScreenTemplateImported interface
@@ -48,19 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to save imported file screen templates.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">IFsrmExportImport::ImportFileScreenTemplates</a> method returns this interface.
-
+The <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">IFsrmExportImport::ImportFileScreenTemplates</a> method returns this interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplate">IFsrmFileScreenTemplate</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplate">IFsrmFileScreenTemplate</a>

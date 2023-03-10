@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3if.IEnumTerminalClass.Reset
 title: IEnumTerminalClass::Reset (tapi3if.h)
-description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumTerminalClass.Reset)
+helpviewer_keywords: ["IEnumTerminalClass interface [TAPI 2.2]","Reset method","IEnumTerminalClass.Reset","IEnumTerminalClass::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumTerminalClass interface","_tapi3_ienumterminalclass_reset","tapi3.ienumterminalclass_reset","tapi3if/IEnumTerminalClass::Reset"]
 old-location: tapi3\ienumterminalclass_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: dd61649e-d684-4774-bd23-91990e20729a
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminalClass interface [TAPI 2.2],Reset method, IEnumTerminalClass.Reset, IEnumTerminalClass::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumTerminalClass interface, _tapi3_ienumterminalclass_reset, tapi3.ienumterminalclass_reset, tapi3if/IEnumTerminalClass::Reset
-f1_keywords:
-- tapi3if/IEnumTerminalClass.Reset
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumTerminalClass.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTerminalClass::Reset
+ - tapi3if/IEnumTerminalClass::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumTerminalClass.Reset
 ---
 
 # IEnumTerminalClass::Reset
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,18 +87,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

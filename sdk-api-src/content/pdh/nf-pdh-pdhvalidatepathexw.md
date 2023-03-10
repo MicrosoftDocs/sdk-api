@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhValidatePathExW
 title: PdhValidatePathExW function (pdh.h)
-description: Validates that the specified counter is present on the computer or in the log file.
+description: Validates that the specified counter is present on the computer or in the log file. (Unicode)
+helpviewer_keywords: ["PdhValidatePathEx", "PdhValidatePathEx function [Perf]", "PdhValidatePathExW", "pdh/PdhValidatePathEx", "pdh/PdhValidatePathExW", "perf.pdhvalidatepathex"]
 old-location: perf\pdhvalidatepathex.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
-f1_keywords:
-- pdh/PdhValidatePathEx
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhValidatePathEx
-- PdhValidatePathExA
-- PdhValidatePathExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhValidatePathExW
+ - pdh/PdhValidatePathExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhValidatePathEx
+ - PdhValidatePathExA
+ - PdhValidatePathExW
 ---
 
 # PdhValidatePathExW function
@@ -50,38 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Validates that the specified counter is present on the computer or in the log file.
-		
-
 
 ## -parameters
 
-
-
-
 ### -param hDataSource [in, optional]
 
-Handle to the data source. The <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> and <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> functions return this handle. 
+Handle to the data source. The <a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> and <a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> functions return this handle. 
 
-To validate that the counter is present on the local computer, specify <b>NULL</b> (this is the same as calling <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>).
-
+To validate that the counter is present on the local computer, specify <b>NULL</b> (this is the same as calling <a href="/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>).
 
 ### -param szFullPathBuffer [in]
 
 <b>Null</b>-terminated string that specifies the counter path to validate. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -155,22 +147,16 @@ The function is unable to allocate a required temporary buffer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhvalidatepatha">PdhValidatePath</a>
- 
-
- 
-
+> [!NOTE]
+> The pdh.h header defines PdhValidatePathEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

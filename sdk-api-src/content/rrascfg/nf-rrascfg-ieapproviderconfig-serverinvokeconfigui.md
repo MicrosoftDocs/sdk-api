@@ -2,15 +2,12 @@
 UID: NF:rrascfg.IEAPProviderConfig.ServerInvokeConfigUI
 title: IEAPProviderConfig::ServerInvokeConfigUI (rrascfg.h)
 description: The system calls the ServerInvokeConfigUI method to invoke the configuration user interface for EAP authentication between a remote access client and server.
+helpviewer_keywords: ["IEAPProviderConfig interface [EAP]","ServerInvokeConfigUI method","IEAPProviderConfig.ServerInvokeConfigUI","IEAPProviderConfig::ServerInvokeConfigUI","ServerInvokeConfigUI","ServerInvokeConfigUI method [EAP]","ServerInvokeConfigUI method [EAP]","IEAPProviderConfig interface","_eap_ieapproviderconfig_serverinvokeconfigui","eap.ieapproviderconfig_serverinvokeconfigui","rrascfg/IEAPProviderConfig::ServerInvokeConfigUI"]
 old-location: eap\ieapproviderconfig_serverinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: 95d98664-e108-41d5-8ed0-49867563df43
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],ServerInvokeConfigUI method, IEAPProviderConfig.ServerInvokeConfigUI, IEAPProviderConfig::ServerInvokeConfigUI, ServerInvokeConfigUI, ServerInvokeConfigUI method [EAP], ServerInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_serverinvokeconfigui, eap.ieapproviderconfig_serverinvokeconfigui, rrascfg/IEAPProviderConfig::ServerInvokeConfigUI
-f1_keywords:
-- rrascfg/IEAPProviderConfig.ServerInvokeConfigUI
-dev_langs:
-- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rrascfg.h
-api_name:
-- IEAPProviderConfig.ServerInvokeConfigUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEAPProviderConfig::ServerInvokeConfigUI
+ - rrascfg/IEAPProviderConfig::ServerInvokeConfigUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rrascfg.h
+api_name:
+ - IEAPProviderConfig.ServerInvokeConfigUI
 ---
 
 # IEAPProviderConfig::ServerInvokeConfigUI
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The system calls the <b>ServerInvokeConfigUI</b> method to invoke the configuration user interface for EAP authentication between a remote access client and server.
 
-
 ## -parameters
-
-
-
 
 ### -param dwEapTypeId
 
 Specifies the EAP for which to invoke the configuration user interface.
 
-
 ### -param uConnectionParam
 
 Specifies the configuration session for which to invoke the user interface.
-
 
 ### -param hWnd
 
 Handle to the parent window for the configuration user interface.
 
-
 ### -param uReserved1
 
 This parameter is reserved and should be zero.
-
 
 ### -param uReserved2
 
 This parameter is reserved and should be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value should be <b>S_OK</b>.
 
@@ -140,52 +130,36 @@ An unexpected error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The DLL that implements 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">IEAPProviderConfig</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which authentication protocol to invoke the configuration user interface.
-
-
-
+<a href="/previous-versions/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">IEAPProviderConfig</a> may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies for which authentication protocol to invoke the configuration user interface.
 
 ## -see-also
 
+[EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
 
 
-[EAP Interfaces](https://docs.microsoft.com/windows/win32/eap/eap-interfaces)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+<a href="/previous-versions/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">IEAPProviderConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">IEAPProviderConfig</a>
+<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">IEAPProviderConfig::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">IEAPProviderConfig::Initialize</a>
+<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokeconfigui">IEAPProviderConfig::RouterInvokeConfigUI</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokeconfigui">IEAPProviderConfig::RouterInvokeConfigUI</a>
+<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokecredentialsui">IEAPProviderConfig::RouterInvokeCredentialsUI</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokecredentialsui">IEAPProviderConfig::RouterInvokeCredentialsUI</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">IEAPProviderConfig::Uninitialize</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">IEAPProviderConfig::Uninitialize</a>

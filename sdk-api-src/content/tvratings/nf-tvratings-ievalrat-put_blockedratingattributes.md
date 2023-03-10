@@ -2,15 +2,12 @@
 UID: NF:tvratings.IEvalRat.put_BlockedRatingAttributes
 title: IEvalRat::put_BlockedRatingAttributes (tvratings.h)
 description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
+helpviewer_keywords: ["IEvalRat interface [Microsoft TV Technologies]","put_BlockedRatingAttributes method","IEvalRat.put_BlockedRatingAttributes","IEvalRat::put_BlockedRatingAttributes","IEvalRatput_BlockedRatingAttributes","mstv.ievalrat_put_blockedratingattributes","put_BlockedRatingAttributes","put_BlockedRatingAttributes method [Microsoft TV Technologies]","put_BlockedRatingAttributes method [Microsoft TV Technologies]","IEvalRat interface","tvratings/IEvalRat::put_BlockedRatingAttributes"]
 old-location: mstv\ievalrat_put_blockedratingattributes.htm
 tech.root: mstv
 ms.assetid: 7c6919f0-1270-4dcd-8180-a9af4763c580
 ms.date: 12/05/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IEvalRat.put_BlockedRatingAttributes, IEvalRat::put_BlockedRatingAttributes, IEvalRatput_BlockedRatingAttributes, mstv.ievalrat_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IEvalRat interface, tvratings/IEvalRat::put_BlockedRatingAttributes
-f1_keywords:
-- tvratings/IEvalRat.put_BlockedRatingAttributes
-dev_langs:
-- c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tvratings.h
-api_name:
-- IEvalRat.put_BlockedRatingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEvalRat::put_BlockedRatingAttributes
+ - tvratings/IEvalRat::put_BlockedRatingAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tvratings.h
+api_name:
+ - IEvalRat.put_BlockedRatingAttributes
 ---
 
 # IEvalRat::put_BlockedRatingAttributes
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_BlockedRatingAttributes</b> method specifies whether to block content that has a specified rating.
-
 
 ## -parameters
 
-
-
-
 ### -param enSystem [in]
 
-Specifies the rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
-
+Specifies the rating system, as an <a href="/previous-versions/dd375612(v=vs.85)">EnTvRat_System</a> enumeration type.
 
 ### -param enLevel [in]
 
-Specifies the rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
-
+Specifies the rating level, as an <a href="/previous-versions/dd375610(v=vs.85)">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
 
 ### -param lbfAttrs [in]
 
-Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. The flags specify whether the overall rating is blocked, or specific attributes within the rating are blocked.
-
+Bitwise combination of zero or more flags from the <a href="/previous-versions/dd318226(v=vs.85)">BfEnTvRat_GenericAttributes</a> enumeration. The flags specify whether the overall rating is blocked, or specific attributes within the rating are blocked.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -95,14 +87,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should be called once for each level in a rating system, to specify viewing permissions for that level. The <i>lbfAttrs</i> parameter indicates the permissions for the specified rating level:
 
@@ -112,15 +98,6 @@ This method should be called once for each level in a rating system, to specify 
 <li>Flags in the range <b>BfIsAttr_1</b> to <b>BfIsAttr_7</b> specify content attributes, such as violence or adult language. If one of these flags is set, it means that a program with that content attribute and the specified rating level will be blocked.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>

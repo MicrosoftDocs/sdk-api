@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.UpdateNtmsOmidInfo
 title: UpdateNtmsOmidInfo function (ntmsapi.h)
 description: The UpdateNtmsOmidInfo function updates the RSM database with label information immediately after writing to the newly allocated medium.
+helpviewer_keywords: ["NTMS_OMID_TYPE_FILESYSTEM_INFO","NTMS_OMID_TYPE_RAW_LABEL","UpdateNtmsOmidInfo","UpdateNtmsOmidInfo function [Files]","_zaw_updatentmsomidinfo","base.updatentmsomidinfo","fs.updatentmsomidinfo","ntmsapi/UpdateNtmsOmidInfo"]
 old-location: fs\updatentmsomidinfo.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 2e154005-a14c-4de6-aec5-f30b934c64a2
 ms.date: 12/05/2018
 ms.keywords: NTMS_OMID_TYPE_FILESYSTEM_INFO, NTMS_OMID_TYPE_RAW_LABEL, UpdateNtmsOmidInfo, UpdateNtmsOmidInfo function [Files], _zaw_updatentmsomidinfo, base.updatentmsomidinfo, fs.updatentmsomidinfo, ntmsapi/UpdateNtmsOmidInfo
-f1_keywords:
-- ntmsapi/UpdateNtmsOmidInfo
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- UpdateNtmsOmidInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UpdateNtmsOmidInfo
+ - ntmsapi/UpdateNtmsOmidInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - UpdateNtmsOmidInfo
 ---
 
 # UpdateNtmsOmidInfo function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>UpdateNtmsOmidInfo</b> function updates the RSM database with label information immediately after writing to the newly allocated medium.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
 Unique identifier of a piece of logical media.
-
 
 ### -param labelType [in]
 
@@ -103,22 +98,16 @@ The <i>lpBuffer</i> parameter contains the raw bytes of the application label. T
 </td>
 </tr>
 </table>
- 
-
 
 ### -param numberOfBytes [in]
 
 Number of bytes sent in the <i>lpBuffer</i> parameter.
 
-
 ### -param lpBuffer [in]
 
 Label information. The format of this parameter depends on the value of the <i>labelType</i> parameter.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -216,14 +205,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The application updates RSM with the information supplied by the 
 <b>UpdateNtmsOmidInfo</b> function and RSM verifies the information in the database. The label information is stored in the RSM database with the side associated with this LMID.
@@ -235,25 +218,19 @@ For tape media <i>lpBuffer</i> must point to a buffer that holds the label just 
 
 For media with file systems, <i>lpBuffer</i> must be a pointer to a buffer that contains the following structure: 
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 typedef struct {
     WCHAR   FileSystemType[64];
     WCHAR   VolumeName[256];
     DWORD   SerialNumber;
-} NTMS_FILESYSTEM_INFO;</code></pre>
+} NTMS_FILESYSTEM_INFO;
+```
+
 RSM uses this file system info as the OMID. The format utilities (LDM, explorer, format.com, and so on) effectively performs the same functionality as this call. An application that performs its own formatting or formats with a third-party file system type should only need to call 
 <b>UpdateNtmsOmidInfo</b> for file system media.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">On-Media-Identifier Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">On-Media-Identifier Management Functions</a>

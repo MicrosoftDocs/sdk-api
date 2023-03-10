@@ -2,15 +2,12 @@
 UID: NF:olectl.DllRegisterServer
 title: DllRegisterServer function (olectl.h)
 description: Instructs an in-process server to create its registry entries for all classes supported in this server module.
+helpviewer_keywords: ["DllRegisterServer","DllRegisterServer function [COM]","_com_DllRegisterServer","com.dllregisterserver","olectl/DllRegisterServer"]
 old-location: com\dllregisterserver.htm
 tech.root: com
 ms.assetid: 4442206b-b2ad-47d7-8add-18002c44c5a2
 ms.date: 12/05/2018
 ms.keywords: DllRegisterServer, DllRegisterServer function [COM], _com_DllRegisterServer, com.dllregisterserver, olectl/DllRegisterServer
-f1_keywords:
-- olectl/DllRegisterServer
-dev_langs:
-- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- DllRegisterServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DllRegisterServer
+ - olectl/DllRegisterServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - DllRegisterServer
 ---
 
 # DllRegisterServer function
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Instructs an in-process server to create its registry entries for all classes supported in this server module.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This function can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -105,29 +98,13 @@ The server was unable to complete the registration of all the object classes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 E_NOTIMPL is not a valid return code.
 
 If this function fails, the state of the registry for all its classes is undefined.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a>

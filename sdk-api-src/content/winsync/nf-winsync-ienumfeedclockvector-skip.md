@@ -1,16 +1,13 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Skip
 title: IEnumFeedClockVector::Skip (winsync.h)
-description: Skips the specified number of clock vector elements.
+description: Skips the specified number of clock vector elements. (IEnumFeedClockVector.Skip)
+helpviewer_keywords: ["IEnumFeedClockVector interface [Windows Sync]","Skip method","IEnumFeedClockVector.Skip","IEnumFeedClockVector::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumFeedClockVector interface","winsync.ienumfeedclockvector_skip","winsync/IEnumFeedClockVector::Skip"]
 old-location: winsync\ienumfeedclockvector_skip.htm
 tech.root: winsync
 ms.assetid: eabe3389-2c1f-4b0e-a062-24bbe3fa87f9
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Skip method, IEnumFeedClockVector.Skip, IEnumFeedClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_skip, winsync/IEnumFeedClockVector::Skip
-f1_keywords:
-- winsync/IEnumFeedClockVector.Skip
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumFeedClockVector.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumFeedClockVector::Skip
+ - winsync/IEnumFeedClockVector::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumFeedClockVector.Skip
 ---
 
 # IEnumFeedClockVector::Skip
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips the specified number of clock vector elements.
 
-
 ## -parameters
-
-
-
 
 ### -param cSyncVersions [in]
 
 The number of elements to skip.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -104,18 +98,7 @@ The enumerator reaches the end of its list before it can skip <i>cSyncVersions</
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>

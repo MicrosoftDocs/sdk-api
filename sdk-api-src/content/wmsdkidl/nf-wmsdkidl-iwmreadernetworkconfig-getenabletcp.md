@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableTCP
 title: IWMReaderNetworkConfig::GetEnableTCP (wmsdkidl.h)
 description: The GetEnableTCP method queries whether TCP is enabled for protocol rollover.
+helpviewer_keywords: ["GetEnableTCP","GetEnableTCP method [windows Media Format]","GetEnableTCP method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetEnableTCP method","IWMReaderNetworkConfig.GetEnableTCP","IWMReaderNetworkConfig::GetEnableTCP","IWMReaderNetworkConfigGetEnableTCP","wmformat.iwmreadernetworkconfig_getenabletcp","wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP"]
 old-location: wmformat\iwmreadernetworkconfig_getenabletcp.htm
 tech.root: wmformat
 ms.assetid: 6623c2f9-24cb-4038-9aa5-2eb634b3f1a2
 ms.date: 12/05/2018
 ms.keywords: GetEnableTCP, GetEnableTCP method [windows Media Format], GetEnableTCP method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetEnableTCP method, IWMReaderNetworkConfig.GetEnableTCP, IWMReaderNetworkConfig::GetEnableTCP, IWMReaderNetworkConfigGetEnableTCP, wmformat.iwmreadernetworkconfig_getenabletcp, wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.GetEnableTCP
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.GetEnableTCP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::GetEnableTCP
+ - wmsdkidl/IWMReaderNetworkConfig::GetEnableTCP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.GetEnableTCP
 ---
 
 # IWMReaderNetworkConfig::GetEnableTCP
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetEnableTCP</b> method queries whether TCP is enabled for protocol rollover.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfEnableTCP [out]
 
 Pointer to a variable that receives a Boolean value. If the value is <b>TRUE</b>, the reader object includes TCP when it performs protocol rollover. If the value is <b>FALSE</b>, the reader does not use TCP for protocol rollover. However, the reader will still use TCP if the URL explicitly specifies a TCP-based protocol, such as MMST or RTSPT.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,30 +93,19 @@ NULL or invalid argument passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenableudp">IWMReaderNetworkConfig::GetEnableUDP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getenableudp">IWMReaderNetworkConfig::GetEnableUDP</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenabletcp">IWMReaderNetworkConfig::SetEnableTCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenabletcp">IWMReaderNetworkConfig::SetEnableTCP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">IWMReaderNetworkConfig::SetEnableUDP</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">IWMReaderNetworkConfig::SetEnableUDP</a>

@@ -2,15 +2,12 @@
 UID: NF:fileapi.UnlockFile
 title: UnlockFile function (fileapi.h)
 description: Unlocks a region in an open file.
+helpviewer_keywords: ["UnlockFile","UnlockFile function [Files]","_win32_unlockfile","base.unlockfile","fileapi/UnlockFile","fs.unlockfile","winbase/UnlockFile"]
 old-location: fs\unlockfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6a930f83-3918-4688-ac60-d1de6857f479
 ms.date: 12/05/2018
 ms.keywords: UnlockFile, UnlockFile function [Files], _win32_unlockfile, base.unlockfile, fileapi/UnlockFile, fs.unlockfile, winbase/UnlockFile
-f1_keywords:
-- fileapi/UnlockFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- UnlockFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnlockFile
+ - fileapi/UnlockFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - UnlockFile
 ---
 
 # UnlockFile function
@@ -55,60 +57,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unlocks a region in an open file. Unlocking a region enables other processes to access the region.
 
 For an alternate way to specify the region, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a> function.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file that contains a region locked with 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>. The file handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>. The file handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param dwFileOffsetLow [in]
 
 The low-order word of the starting byte offset in the file where the locked region begins.
 
-
 ### -param dwFileOffsetHigh [in]
 
 The high-order word of the starting byte offset in the file where the locked region begins.
-
 
 ### -param nNumberOfBytesToUnlockLow [in]
 
 The low-order word of the length of the byte range to be unlocked.
 
-
 ### -param nNumberOfBytesToUnlockHigh [in]
 
 The high-order word of the length of the byte range to be unlocked.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function always operates synchronously, but may not queue a completion entry when a completion port is associated with the file handle.
 
@@ -174,30 +159,23 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/locking-and-unlocking-byte-ranges-in-files">Locking and Unlocking Byte Ranges in Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>

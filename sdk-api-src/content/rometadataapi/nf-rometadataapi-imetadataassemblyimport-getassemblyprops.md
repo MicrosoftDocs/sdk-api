@@ -2,15 +2,12 @@
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyProps
 title: IMetaDataAssemblyImport::GetAssemblyProps (rometadataapi.h)
 description: Gets the set of properties for the assembly with the specified metadata signature.
+helpviewer_keywords: ["GetAssemblyProps","GetAssemblyProps method [Windows Runtime]","GetAssemblyProps method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetAssemblyProps method","IMetaDataAssemblyImport.GetAssemblyProps","IMetaDataAssemblyImport::GetAssemblyProps","rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps","winrt.imetadataassemblyimport_getassemblyprops"]
 old-location: winrt\imetadataassemblyimport_getassemblyprops.htm
 tech.root: WinRT
 ms.assetid: 1f60657c-46b4-4491-a9e2-73868886f51d
 ms.date: 12/05/2018
 ms.keywords: GetAssemblyProps, GetAssemblyProps method [Windows Runtime], GetAssemblyProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyProps method, IMetaDataAssemblyImport.GetAssemblyProps, IMetaDataAssemblyImport::GetAssemblyProps, rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps, winrt.imetadataassemblyimport_getassemblyprops
-f1_keywords:
-- rometadataapi/IMetaDataAssemblyImport.GetAssemblyProps
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataAssemblyImport.GetAssemblyProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataAssemblyImport::GetAssemblyProps
+ - rometadataapi/IMetaDataAssemblyImport::GetAssemblyProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataAssemblyImport.GetAssemblyProps
 ---
 
 # IMetaDataAssemblyImport::GetAssemblyProps
@@ -48,76 +50,50 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the set of properties for the assembly with the specified metadata signature.
 
-
 ## -parameters
-
-
-
 
 ### -param mda [in]
 
 The <b>mdAssembly</b> metadata token that represents the assembly for which to get the properties.
 
-
 ### -param ppbPublicKey [out]
 
 A pointer to the public key or the metadata token.
-
 
 ### -param pcbPublicKey [out]
 
 The number of bytes in the returned public key.
 
-
 ### -param pulHashAlgId [out]
 
 A pointer to the algorithm used to hash the files in the assembly.
-
 
 ### -param szName [out]
 
 The simple name of the assembly.
 
-
 ### -param cchName [in]
 
 The size, in wide chars, of <i>szName</i>.
-
 
 ### -param pchName [out]
 
 The number of wide chars actually returned in <i>szName</i>.
 
-
 ### -param pMetaData [out]
 
-A pointer to an <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/assemblymetadata-structure">ASSEMBLYMETADATA</a> structure that contains the assembly metadata.
-
+A pointer to an <a href="/dotnet/framework/unmanaged-api/metadata/assemblymetadata-structure">ASSEMBLYMETADATA</a> structure that contains the assembly metadata.
 
 ### -param pdwAssemblyFlags [out]
 
-Flags that describe the metadata applied to an assembly. This value is a combination of one or more <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corassemblyflags-enumeration">CorAssemblyFlags</a> values.
-
+Flags that describe the metadata applied to an assembly. This value is a combination of one or more <a href="/dotnet/framework/unmanaged-api/metadata/corassemblyflags-enumeration">CorAssemblyFlags</a> values.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>

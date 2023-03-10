@@ -2,15 +2,12 @@
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0030_0001
 title: GPMBackupType (gpmgmt.h)
 description: The type of backup created.
+helpviewer_keywords: ["GPMBackupType","GPMBackupType enumeration [GPMC]","gpmc.gpmbackuptype","gpmgmt/GPMBackupType","gpmgmt/typeGPO","gpmgmt/typeStarterGPO","typeGPO","typeStarterGPO"]
 old-location: gpmc\gpmbackuptype.htm
 tech.root: gpmc
 ms.assetid: 048871f3-39ea-4bf6-bc04-b4a34cd1a9d0
 ms.date: 12/05/2018
 ms.keywords: GPMBackupType, GPMBackupType enumeration [GPMC], gpmc.gpmbackuptype, gpmgmt/GPMBackupType, gpmgmt/typeGPO, gpmgmt/typeStarterGPO, typeGPO, typeStarterGPO
-f1_keywords:
-- gpmgmt/GPMBackupType
-dev_langs:
-- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- gpmgmt.h
-api_name:
-- GPMBackupType
 targetos: Windows
 req.typenames: GPMBackupType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_gpmgmt_0000_0030_0001
+ - gpmgmt/__MIDL___MIDL_itf_gpmgmt_0000_0030_0001
+ - GPMBackupType
+ - gpmgmt/GPMBackupType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - gpmgmt.h
+api_name:
+ - GPMBackupType
 ---
 
 # GPMBackupType enumeration
 
 
 ## -description
-
 
 <b>GPMBackupType</b> defines the type of backup created.
 
@@ -60,17 +63,11 @@ typedef enum {
 } GPMBackupType;
 ```
 
-
-
 ## -enum-fields
 
-
-
-
-### -field typeGPO
+### -field typeGPO:0
 
 Backup of a Group Policy object.
-
 
 ### -field typeStarterGPO
 

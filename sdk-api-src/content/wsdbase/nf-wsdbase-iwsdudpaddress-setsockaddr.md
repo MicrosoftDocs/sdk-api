@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDUdpAddress.SetSockaddr
 title: IWSDUdpAddress::SetSockaddr (wsdbase.h)
 description: Sets the socket address information.
+helpviewer_keywords: ["IWSDUdpAddress interface","SetSockaddr method","IWSDUdpAddress.SetSockaddr","IWSDUdpAddress::SetSockaddr","SetSockaddr","SetSockaddr method","SetSockaddr method","IWSDUdpAddress interface","ncd.iwsdudpaddress_setsockaddr","wsdbase/IWSDUdpAddress::SetSockaddr"]
 old-location: ncd\iwsdudpaddress_setsockaddr.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a8c6cc53-bba6-44ef-8c1e-f357e11793b4
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress interface,SetSockaddr method, IWSDUdpAddress.SetSockaddr, IWSDUdpAddress::SetSockaddr, SetSockaddr, SetSockaddr method, SetSockaddr method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setsockaddr, wsdbase/IWSDUdpAddress::SetSockaddr
-f1_keywords:
-- wsdbase/IWSDUdpAddress.SetSockaddr
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDUdpAddress.SetSockaddr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDUdpAddress::SetSockaddr
+ - wsdbase/IWSDUdpAddress::SetSockaddr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDUdpAddress.SetSockaddr
 ---
 
 # IWSDUdpAddress::SetSockaddr
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the socket address information.
-
 
 ## -parameters
 
-
-
-
 ### -param pSockAddr [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structure.
-
+Pointer to a <a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a> structure.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -124,7 +118,7 @@ The specified address is not a valid socket address, or no transport provider su
 </dl>
 </td>
 <td width="60%">
-The Winsock 2 DLL has not been initialized. The application must first call <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> to initialize Winsock 2.
+The Winsock 2 DLL has not been initialized. The application must first call <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> to initialize Winsock 2.
 
 </td>
 </tr>
@@ -140,18 +134,7 @@ No buffer space available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>

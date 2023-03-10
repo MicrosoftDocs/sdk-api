@@ -2,15 +2,12 @@
 UID: NF:combaseapi.CoDisconnectContext
 title: CoDisconnectContext function (combaseapi.h)
 description: Disconnects all proxy connections that are being maintained on behalf of all interface pointers that point to objects in the current context.
+helpviewer_keywords: ["CoDisconnectContext","CoDisconnectContext function [COM]","_com_CoDisconnectContext","com.codisconnectcontext","combaseapi/CoDisconnectContext"]
 old-location: com\codisconnectcontext.htm
 tech.root: com
 ms.assetid: faacb583-285a-4ec6-9700-22320e87de6e
 ms.date: 12/05/2018
 ms.keywords: CoDisconnectContext, CoDisconnectContext function [COM], _com_CoDisconnectContext, com.codisconnectcontext, combaseapi/CoDisconnectContext
-f1_keywords:
-- combaseapi/CoDisconnectContext
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoDisconnectContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoDisconnectContext
+ - combaseapi/CoDisconnectContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoDisconnectContext
 ---
 
 # CoDisconnectContext function
@@ -52,26 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disconnects all proxy connections that are being maintained on behalf of all interface pointers that point to objects in the current context.
 
 This function blocks connections until all objects are successfully disconnected or the time-out expires. Only the context that actually manages the objects should call <b>CoDisconnectContext</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTimeout [in]
 
 The time in milliseconds after which <b>CoDisconnectContext</b> returns even if the proxy connections for all objects have not been disconnected. INFINITE is an acceptable value for this parameter.
 
-
-
 ## -returns
-
-
 
 This function can return the standard return values E_FAIL, E_INVALIDARG, and E_OUTOFMEMORY, as well as the following values.
 
@@ -120,24 +113,18 @@ The current context cannot be disconnected.
 </dl>
 </td>
 <td width="60%">
-An object tried to call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext">CoDisconnectContext</a> on the context it is residing in. This would cause the function to time-out and deadlock if <i>dwTimeout</i> were set to INFINITE.
+An object tried to call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext">CoDisconnectContext</a> on the context it is residing in. This would cause the function to time-out and deadlock if <i>dwTimeout</i> were set to INFINITE.
 
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>CoDisconnectContext</b> function is used to support unloading services in shared service hosts where you must unload your service's binaries without affecting other COM servers that are running in the same process. If you control the process lifetime and you do not unload until the process exits, the COM infrastructure will perform the necessary cleanup automatically and you do not have to call this function.
 
-The <b>CoDisconnectContext</b> function enables a server to correctly disconnect all external clients of all objects in the current context. Default contexts cannot be disconnected. To use <b>CoDisconnectContext</b>, you must first create a context that can be disconnected and register your class factories for objects from which you want to disconnect within that context. You can do this with the <a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a> interface.
+The <b>CoDisconnectContext</b> function enables a server to correctly disconnect all external clients of all objects in the current context. Default contexts cannot be disconnected. To use <b>CoDisconnectContext</b>, you must first create a context that can be disconnected and register your class factories for objects from which you want to disconnect within that context. You can do this with the <a href="/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a> interface.
 
 
 
@@ -152,7 +139,7 @@ It is not safe to unload the DLL that hosts the service until <b>CoDisconnectCon
 The <b>CoDisconnectContext</b> function performs the following tasks:
 
 <ul>
-<li>Calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a> on all objects in the current context.</li>
+<li>Calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a> on all objects in the current context.</li>
 <li>Blocks until all objects have been disconnected or the time-out has expired.</li>
 </ul>
 The <b>CoDisconnectContext</b> function has the following limitations:
@@ -193,21 +180,10 @@ HRESULT __stdcall DisconnectCallback(ComCallData *pv)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject">CoDisconnectObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctxtcall/nn-ctxtcall-icontextcallback">IContextCallback</a>

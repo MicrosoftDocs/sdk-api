@@ -2,15 +2,12 @@
 UID: NN:mbnapi.IMbnSms
 title: IMbnSms (mbnapi.h)
 description: SMS interface for sending and receiving messages as well as controlling the messaging configuration.
+helpviewer_keywords: ["IMbnSms","IMbnSms interface [Microsoft Broadband Networks]","IMbnSms interface [Microsoft Broadband Networks]","described","mbn.imbnsms","mbnapi/IMbnSms"]
 old-location: mbn\imbnsms.htm
 tech.root: mbn
 ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc
 ms.date: 12/05/2018
 ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks],described, mbn.imbnsms, mbnapi/IMbnSms
-f1_keywords:
-- mbnapi/IMbnSms
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSms
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSms
+ - mbnapi/IMbnSms
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSms
 ---
 
 # IMbnSms interface
@@ -53,103 +55,10 @@ ms.custom: 19H1
 
 SMS interface for sending and receiving messages as well as controlling the messaging configuration.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMbnSms</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnSms</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMbnSms</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsconfiguration">GetSmsConfiguration</a>
-</td>
-<td align="left" width="63%">
-Gets the SMS configuration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-getsmsstatus">GetSmsStatus</a>
-</td>
-<td align="left" width="63%">
-Gets the SMS status.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-setsmsconfiguration">SetSmsConfiguration</a>
-</td>
-<td align="left" width="63%">
-Updates the SMS configuration.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsdelete">SmsDelete</a>
-</td>
-<td align="left" width="63%">
-Deletes a set of SMS messages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smsread">SmsRead</a>
-</td>
-<td align="left" width="63%">
-Reads a set of SMS messages.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdma">SmsSendCdma</a>
-</td>
-<td align="left" width="63%">
-Sends a message in CDMA format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendcdmapdu">SmsSendCdmaPdu</a>
-</td>
-<td align="left" width="63%">
-Sends a message in CDMA binary format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsms-smssendpdu">SmsSendPdu</a>
-</td>
-<td align="left" width="63%">
-Sends a message in PDU format.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMbnSms</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMbnSms</b> also has these types of members:
 
 ## -remarks
 
-
-
-The calling application can acquire this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-
-
-
-
+The calling application can acquire this interface by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>

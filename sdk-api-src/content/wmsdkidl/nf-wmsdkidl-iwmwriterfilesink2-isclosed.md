@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink2.IsClosed
 title: IWMWriterFileSink2::IsClosed (wmsdkidl.h)
 description: The IsClosed method ascertains whether the file sink has been closed.
+helpviewer_keywords: ["IWMWriterFileSink2 interface [windows Media Format]","IsClosed method","IWMWriterFileSink2.IsClosed","IWMWriterFileSink2::IsClosed","IWMWriterFileSink2IsClosed","IsClosed","IsClosed method [windows Media Format]","IsClosed method [windows Media Format]","IWMWriterFileSink2 interface","wmformat.iwmwriterfilesink2_isclosed","wmsdkidl/IWMWriterFileSink2::IsClosed"]
 old-location: wmformat\iwmwriterfilesink2_isclosed.htm
 tech.root: wmformat
 ms.assetid: 0ae9137f-ce43-4860-a28f-deac39f216a4
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsClosed method, IWMWriterFileSink2.IsClosed, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink2.IsClosed
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink2.IsClosed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink2::IsClosed
+ - wmsdkidl/IWMWriterFileSink2::IsClosed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink2.IsClosed
 ---
 
 # IWMWriterFileSink2::IsClosed
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IsClosed</b> method ascertains whether the file sink has been closed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfClosed [out]
 
 Pointer to a Boolean value that is set to True if the file sink has been closed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,18 +93,7 @@ The <i>pfClosed</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>

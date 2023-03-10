@@ -2,15 +2,12 @@
 UID: NF:netcon.INetConnectionProps.get_Guid
 title: INetConnectionProps::get_Guid (netcon.h)
 description: The get_Guid method retrieves the globally-unique identifier (GUID) for the connection.
+helpviewer_keywords: ["INetConnectionProps interface [ICS/ICF]","get_Guid method","INetConnectionProps.get_Guid","INetConnectionProps::get_Guid","_ics_inetconnectionprops_get_guid","get_Guid","get_Guid method [ICS/ICF]","get_Guid method [ICS/ICF]","INetConnectionProps interface","ics.inetconnectionprops_get_guid","netcon/INetConnectionProps::get_Guid"]
 old-location: ics\inetconnectionprops_get_guid.htm
 tech.root: ics
 ms.assetid: df094bda-2e0f-4ff4-aff5-77d1703f8dee
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Guid method, INetConnectionProps.get_Guid, INetConnectionProps::get_Guid, _ics_inetconnectionprops_get_guid, get_Guid, get_Guid method [ICS/ICF], get_Guid method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_guid, netcon/INetConnectionProps::get_Guid
-f1_keywords:
-- netcon/INetConnectionProps.get_Guid
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetConnectionProps.get_Guid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetConnectionProps::get_Guid
+ - netcon/INetConnectionProps::get_Guid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetConnectionProps.get_Guid
 ---
 
 # INetConnectionProps::get_Guid
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_Guid</b> method retrieves the globally-unique identifier (GUID) for the connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrGuid [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that, on successful return, receives the GUID for the connection.
-
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that, on successful return, receives the GUID for the connection.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -168,18 +162,7 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>

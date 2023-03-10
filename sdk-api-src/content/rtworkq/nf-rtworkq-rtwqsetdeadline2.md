@@ -1,16 +1,13 @@
 ---
 UID: NF:rtworkq.RtwqSetDeadline2
 title: RtwqSetDeadline2 function (rtworkq.h)
-description: Sets a deadline by which the work in a work queue must be completed.
+description: Sets a deadline by which the work in a work queue must be completed. (RtwqSetDeadline2)
+helpviewer_keywords: ["RtwqSetDeadline2","RtwqSetDeadline2 function","base.rtwqsetdeadline2","rtworkq/RtwqSetDeadline2"]
 old-location: base\rtwqsetdeadline2.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: A259C9D2-9700-4FE8-81D6-7AD14476AA9C
 ms.date: 12/05/2018
 ms.keywords: RtwqSetDeadline2, RtwqSetDeadline2 function, base.rtwqsetdeadline2, rtworkq/RtwqSetDeadline2
-f1_keywords:
-- rtworkq/RtwqSetDeadline2
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqSetDeadline2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqSetDeadline2
+ - rtworkq/RtwqSetDeadline2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqSetDeadline2
 ---
 
 # RtwqSetDeadline2 function
@@ -49,63 +51,37 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Sets a deadline by which the work in a work queue must be completed.
 
-
 ## -parameters
-
-
-
 
 ### -param workQueueId [in]
 
-The identifier for the work queue. The identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function. 
-
+The identifier for the work queue. The identifier is returned by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
 
 ### -param deadlineInHNS [in]
 
- The deadline for the work in the queue to be completed, in milliseconds.
-
+ The deadline for the work in the queue to be completed, in hundred-nanosecond units. For example, if `deadlineInHNS` is 9600, that represents 9600 hundred-nanoseconds, which is equal to 960 microseconds, or 0.96 milliseconds.
 
 ### -param preDeadlineInHNS [in]
 
- The pre-deadline for the work in the queue to be completed, in milliseconds.
-
+ The pre-deadline for the work in the queue to be completed, in hundred-nanosecond units. For example, if `preDeadlineInHNS` is 9600, that represents 9600 hundred-nanoseconds, which is equal to 960 microseconds, or 0.96 milliseconds.
 
 ### -param pRequest [in, out]
 
-Receives a handle to the request that can be used to cancel the request by calling <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
-
+Receives a handle to the request that can be used to cancel the request by calling <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Update a deadline by creating a new deadline and releasing the old one.
 
-Cancel a deadline by calling <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
-
-
-
+Cancel a deadline by calling <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqcanceldeadline">RtwqCancelDeadline</a>

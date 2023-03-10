@@ -2,15 +2,12 @@
 UID: NF:cscobj.IOfflineFilesCache.Pin
 title: IOfflineFilesCache::Pin (cscobj.h)
 description: Pins files, directories, and network shared folders.
+helpviewer_keywords: ["IOfflineFilesCache interface [Offline Files]","Pin method","IOfflineFilesCache.Pin","IOfflineFilesCache::Pin","OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS","OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND","OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE","OFFLINEFILES_PIN_CONTROL_FLAG_FILL","OFFLINEFILES_PIN_CONTROL_FLAG_FORALL","OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR","OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER","OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY","OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE","OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY","OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS","Pin","Pin method [Offline Files]","Pin method [Offline Files]","IOfflineFilesCache interface","cscobj/IOfflineFilesCache::Pin","of.iofflinefilescache_pin"]
 old-location: of\iofflinefilescache_pin.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 6005d755-5e1b-4eba-95a2-b6c9c00b1a64
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Pin method, IOfflineFilesCache.Pin, IOfflineFilesCache::Pin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Pin, Pin method [Offline Files], Pin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Pin, of.iofflinefilescache_pin
-f1_keywords:
-- cscobj/IOfflineFilesCache.Pin
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesCache.Pin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesCache::Pin
+ - cscobj/IOfflineFilesCache::Pin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesCache.Pin
 ---
 
 # IOfflineFilesCache::Pin
@@ -49,41 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Pins files, directories, and network shared folders. Pinning is called "Always Available Offline" in the Windows user interface.
 
 When a file is pinned, it is cached in the local Offline Files store.  Unlike files that are automatically cached, pinned files are protected from automatic eviction when additional cache space is needed.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 Identifies the parent window for any user interface elements displayed. This parameter is ignored if the <b>OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE</b> flag is not set in the <i>dwPinControlFlags</i> parameter.
 
-
 ### -param rgpszPaths [in]
 
 Array of pointers, each to a fully qualified UNC path of a file or directory to be pinned.
-
 
 ### -param cPaths [in]
 
 Number of paths in <i>rgpszPaths</i>.
 
-
 ### -param bDeep [in]
 
 If one or more of the paths provided refers to a directory or shared folder, this argument indicates whether all children (files and subdirectories) are to be pinned as well.  If this parameter is <b>TRUE</b>, all children are pinned recursively.  If this parameter is <b>FALSE</b>, only the directory itself is pinned, not its children. When the next synchronization operation occurs, all children are pinned recursively.
 
-
 ### -param bAsync [in]
 
 Indicates if the operation is to be performed asynchronously.  If this parameter is <b>TRUE</b>, the operation is scheduled for asynchronous operation and the function returns immediately.  If this parameter is <b>FALSE</b>, the function returns when the operation is complete.
-
 
 ### -param dwPinControlFlags [in]
 
@@ -155,30 +147,21 @@ This flag is ignored if the "interactive" flag is not set.  If the "interactive"
 
 Set this flag if you want the pin operation to avoid sharing violations in the event that an application wishes to open a file that is currently open for the pin operation.  When that scenario occurs and this flag is set, the pin operation will "back off" and not finish for that particular file at that time.  This flag is primarily used by the Offline Files service for internal operations.
 
-
 ### -param pIProgress [in]
 
 Interface to an event sink that will receive progress events during the operation.  If events are not desired, this parameter may be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 Returns <code>HRESULT_FROM_WIN32(ERROR_CANCELLED)</code> if the operation is canceled.
 
-
-
-
 ## -remarks
-
-
 
 If a pin operation involving multiple files is canceled while in progress, changes to files processed to that point are not rolled back.
 
-If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single pin operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
+If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single pin operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
 
 <table>
 <tr>
@@ -188,62 +171,51 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-begin">Begin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-begin">Begin</a>
 </td>
 <td>Called at the start of the operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitembegin">SyncItemBegin</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitembegin">SyncItemBegin</a>
 </td>
 <td>Called at the start of processing for each file.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">SyncItemResult</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">SyncItemResult</a>
 </td>
 <td>Called after each file is pinned.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-queryabort">QueryAbort</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-queryabort">QueryAbort</a>
 </td>
 <td>Called periodically during the sync operation to detect a request for cancellation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesprogress">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-end">End</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesprogress-end">End</a>
 </td>
 <td>Called at the end of the operation.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>

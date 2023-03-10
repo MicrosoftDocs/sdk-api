@@ -1,16 +1,13 @@
 ---
 UID: NF:memoryapi.VirtualProtectFromApp
 title: VirtualProtectFromApp function (memoryapi.h)
-description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
+description: Changes the protection on a region of committed pages in the virtual address space of the calling process. (VirtualProtectFromApp)
+helpviewer_keywords: ["VirtualProtectFromApp","VirtualProtectFromApp function","base.virtualprotectfromapp","memoryapi/VirtualProtectFromApp"]
 old-location: base\virtualprotectfromapp.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
 ms.date: 12/05/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
-f1_keywords:
-- memoryapi/VirtualProtectFromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -25,25 +22,30 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: WindowsApp.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- KernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- VirtualProtectFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VirtualProtectFromApp
+ - memoryapi/VirtualProtectFromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - VirtualProtectFromApp
 ---
 
 # VirtualProtectFromApp function
@@ -51,15 +53,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the protection on a region of committed pages in the virtual address space of the calling 
     process.
 
-
 ## -parameters
-
-
-
 
 ### -param Address [in]
 
@@ -67,13 +64,12 @@ A pointer an address that describes the starting page of the region of pages who
        attributes are to be changed.
 
 All pages in the specified region must be within the same reserved region allocated when calling the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocfromapp">VirtualAllocFromApp</a>, or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function using 
+       <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>, <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocfromapp">VirtualAllocFromApp</a>, or 
+       <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocex">VirtualAllocEx</a> function using 
        <b>MEM_RESERVE</b>. The pages cannot span adjacent reserved regions that were allocated by 
        separate calls to <b>VirtualAlloc</b>, <b>VirtualAllocFromApp</b>,  or 
        <b>VirtualAllocEx</b> using 
        <b>MEM_RESERVE</b>.
-
 
 ### -param Size [in]
 
@@ -83,16 +79,15 @@ The size of the region whose access protection attributes are to be changed, in 
       <code>(Address+Size)</code>. This means that a 2-byte range 
       straddling a page boundary causes the protection attributes of both pages to be changed.
 
-
 ### -param NewProtection [in]
 
 The memory protection option. This parameter can be one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>.
+       <a href="/windows/desktop/Memory/memory-protection-constants">memory protection constants</a>.
 
 For mapped views, this value must be compatible with the access protection specified when the view was 
-       mapped (see <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>, and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-mapviewoffileexnuma">MapViewOfFileExNuma</a>).
+       mapped (see <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>, 
+       <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>, and 
+       <a href="/windows/desktop/api/winbase/nf-winbase-mapviewoffileexnuma">MapViewOfFileExNuma</a>).
 
 The following constants generate an error:
 
@@ -113,22 +108,14 @@ A pointer to a variable that receives the previous access protection value of th
       specified region of pages. If this parameter is <b>NULL</b> or does not point to a valid 
       variable, the function fails.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 You can call <b>VirtualProtectFromApp</b> from Windows Store apps with just-in-time (JIT) capabilities to use JIT functionality. The app must include the <b>codeGeneration</b> capability in the app manifest file to use JIT capabilities.
 
@@ -138,48 +125,38 @@ You can set the access protection value on committed pages only. If the state of
 
 The <b>PAGE_GUARD</b> protection modifier establishes guard pages. Guard pages act as 
    one-shot access alarms. For more information, see 
-   <a href="https://docs.microsoft.com/windows/desktop/Memory/creating-guard-pages">Creating Guard Pages</a>.
+   <a href="/windows/desktop/Memory/creating-guard-pages">Creating Guard Pages</a>.
 
 It is best to avoid using <b>VirtualProtectFromApp</b> to change 
-   page protections on memory blocks allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>, 
-   <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>, or 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>, because multiple memory blocks can exist on a 
+   page protections on memory blocks allocated by <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>, 
+   <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>, or 
+   <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>, because multiple memory blocks can exist on a 
    single page. The heap manager assumes that all pages in the heap grant at least read and write access.
 
 <b>VirtualProtectFromApp</b> allows you to mark pages as executable, but does not allow you to set both write and execute permissions at the same time.
 
 When protecting a region that will be executable, the calling program bears responsibility for ensuring cache 
    coherency via an appropriate call to 
-   <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache">FlushInstructionCache</a> once the code has been set 
+   <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-flushinstructioncache">FlushInstructionCache</a> once the code has been set 
    in place.  Otherwise attempts to execute code out of the newly executable region may produce unpredictable 
    results.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocfromapp">VirtualAllocFromApp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualallocfromapp">VirtualAllocFromApp</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect">VirtualProtect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotect">VirtualProtect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualprotectex">VirtualProtectEx</a>

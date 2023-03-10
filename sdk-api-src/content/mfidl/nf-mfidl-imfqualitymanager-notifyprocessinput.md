@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFQualityManager.NotifyProcessInput
 title: IMFQualityManager::NotifyProcessInput (mfidl.h)
 description: Called when the media processor is about to deliver an input sample to a pipeline component.
+helpviewer_keywords: ["IMFQualityManager interface [Media Foundation]","NotifyProcessInput method","IMFQualityManager.NotifyProcessInput","IMFQualityManager::NotifyProcessInput","NotifyProcessInput","NotifyProcessInput method [Media Foundation]","NotifyProcessInput method [Media Foundation]","IMFQualityManager interface","c6e35d03-ca83-4078-bcc1-b9c1d988de01","mf.imfqualitymanager_notifyprocessinput","mfidl/IMFQualityManager::NotifyProcessInput"]
 old-location: mf\imfqualitymanager_notifyprocessinput.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c6e35d03-ca83-4078-bcc1-b9c1d988de01
 ms.date: 12/05/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyProcessInput method, IMFQualityManager.NotifyProcessInput, IMFQualityManager::NotifyProcessInput, NotifyProcessInput, NotifyProcessInput method [Media Foundation], NotifyProcessInput method [Media Foundation],IMFQualityManager interface, c6e35d03-ca83-4078-bcc1-b9c1d988de01, mf.imfqualitymanager_notifyprocessinput, mfidl/IMFQualityManager::NotifyProcessInput
-f1_keywords:
-- mfidl/IMFQualityManager.NotifyProcessInput
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFQualityManager.NotifyProcessInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFQualityManager::NotifyProcessInput
+ - mfidl/IMFQualityManager::NotifyProcessInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFQualityManager.NotifyProcessInput
 ---
 
 # IMFQualityManager::NotifyProcessInput
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Called when the media processor is about to deliver an input sample to a pipeline component.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pNode [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the topology node that represents the pipeline component.
-
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the topology node that represents the pipeline component.
 
 ### -param lInputIndex [in]
 
 Index of the input stream on the topology node.
 
-
 ### -param pSample [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the input sample.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of the input sample.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,27 +88,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is called for every sample passing through every pipeline component. Therefore, the method must return quickly to avoid introducing too much latency into the pipeline.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>

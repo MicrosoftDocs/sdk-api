@@ -1,16 +1,13 @@
 ---
 UID: NF:dsparse.DsCrackSpnW
 title: DsCrackSpnW function (dsparse.h)
-description: Parses a service principal name (SPN) into its component strings.
+description: Parses a service principal name (SPN) into its component strings. (Unicode)
+helpviewer_keywords: ["DsCrackSpn", "DsCrackSpn function [Active Directory]", "DsCrackSpnW", "_glines_dscrackspn", "ad.dscrackspn", "dsparse/DsCrackSpn", "dsparse/DsCrackSpnW"]
 old-location: ad\dscrackspn.htm
 tech.root: ad
 ms.assetid: 65c81c23-a259-480c-9c1e-03484d3e89c9
 ms.date: 12/05/2018
 ms.keywords: DsCrackSpn, DsCrackSpn function [Active Directory], DsCrackSpnA, DsCrackSpnW, _glines_dscrackspn, ad.dscrackspn, dsparse/DsCrackSpn, dsparse/DsCrackSpnA, dsparse/DsCrackSpnW
-f1_keywords:
-- dsparse/DsCrackSpn
-dev_langs:
-- c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsCrackSpn
-- DsCrackSpnA
-- DsCrackSpnW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsCrackSpnW
+ - dsparse/DsCrackSpnW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsCrackSpn
+ - DsCrackSpnA
+ - DsCrackSpnW
 ---
 
 # DsCrackSpnW function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsCrackSpn</b> function parses a service principal name (SPN) into its component strings.
 
-
 ## -parameters
-
-
-
 
 ### -param pszSpn [in]
 
@@ -68,8 +65,6 @@ Pointer to a constant null-terminated string that contains the SPN to parse. The
 <service class>/<instance name>:<port number>/<service name>
 ```
 
-
-
 ### -param pcServiceClass [in, out, optional]
 
 Pointer to a <b>DWORD</b> value that, on entry, contains the size, in <b>TCHARs</b>, of the <i>ServiceClass</i> buffer, including the terminating null character. On exit, this parameter contains the number of <b>TCHARs</b> in the <i>ServiceClass</i> string, including the terminating null character.
@@ -78,11 +73,9 @@ If this parameter is <b>NULL</b>, contains zero, or <i>ServiceClass</i> is <b>NU
 
 To obtain the number of characters required for the <i>ServiceClass</i> string, including the null terminator, call this function with a valid SPN, a non-<b>NULL</b> <i>ServiceClass</i> and this parameter set to 1.
 
-
 ### -param ServiceClass [out, optional]
 
 Pointer to a <b>TCHAR</b> buffer that receives a null-terminated string containing the &lt;service class&gt; component of the SPN. This buffer must be at least <i>*pcServiceClass </i><b>TCHARs</b> in size. This parameter may be  <b>NULL</b> if the service class is not required.
-
 
 ### -param pcServiceName [in, out, optional]
 
@@ -92,11 +85,9 @@ If this parameter is <b>NULL</b>, contains zero, or <i>ServiceName</i> is <b>NUL
 
 To obtain the number of characters required for the <i>ServiceName</i> string, including the null terminator, call this function with a valid SPN, a non-<b>NULL</b> <i>ServiceName</i> and this parameter set to 1.
 
-
 ### -param ServiceName [out, optional]
 
 Pointer to a <b>TCHAR</b> buffer that receives a null-terminated string containing the &lt;service name&gt; component of the SPN. This buffer must be at least <i>*pcServiceName </i><b>TCHARs</b> in size. If the &lt;service name&gt; component is not present in the SPN, this buffer  receives the &lt;instance name&gt; component. This parameter may be <b>NULL</b> if the service name is not required.
-
 
 ### -param pcInstanceName [in, out, optional]
 
@@ -106,33 +97,23 @@ If this parameter is <b>NULL</b>, contains zero, or <i>InstanceName</i> is <b>NU
 
 To obtain the number of characters required for the <i>InstanceName</i> string, including the null terminator, call this function with a valid SPN, a non-<b>NULL</b> <i>InstanceName</i> and this parameter set to 1.
 
-
 ### -param InstanceName [out, optional]
 
 Pointer to a <b>TCHAR</b> buffer that receives a null-terminated string containing the &lt;instance name&gt; component of the SPN. This buffer must be at least <i>*pcInstanceName </i> <b>TCHARs</b> in size. This parameter may be  <b>NULL</b> if the instance name is not required.
-
 
 ### -param pInstancePort [out, optional]
 
 Pointer to a <b>DWORD</b> value that receives the integer value of the &lt;port number&gt; component of the SPN. If the SPN does not contain a &lt;port number&gt; component, this parameter receives zero. This parameter may be  <b>NULL</b> if the port number is not required.
 
-
 ## -returns
-
-
 
 Returns a Win32 error code, including the following.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The dsparse.h header defines DsCrackSpn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

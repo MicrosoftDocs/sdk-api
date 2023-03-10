@@ -2,15 +2,12 @@
 UID: NF:rend.ITRendezvous.CreateDirectoryObject
 title: ITRendezvous::CreateDirectoryObject (rend.h)
 description: The CreateDirectoryObject method creates a new ITDirectoryObject object.
+helpviewer_keywords: ["CreateDirectoryObject","CreateDirectoryObject method [TAPI 2.2]","CreateDirectoryObject method [TAPI 2.2]","ITRendezvous interface","ITRendezvous interface [TAPI 2.2]","CreateDirectoryObject method","ITRendezvous.CreateDirectoryObject","ITRendezvous::CreateDirectoryObject","_tapi3_itrendezvous_createdirectoryobject","rend/ITRendezvous::CreateDirectoryObject","tapi3.itrendezvous_createdirectoryobject"]
 old-location: tapi3\itrendezvous_createdirectoryobject.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: e3ad77cf-9112-4561-896c-2eba7e07eb19
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryObject, CreateDirectoryObject method [TAPI 2.2], CreateDirectoryObject method [TAPI 2.2],ITRendezvous interface, ITRendezvous interface [TAPI 2.2],CreateDirectoryObject method, ITRendezvous.CreateDirectoryObject, ITRendezvous::CreateDirectoryObject, _tapi3_itrendezvous_createdirectoryobject, rend/ITRendezvous::CreateDirectoryObject, tapi3.itrendezvous_createdirectoryobject
-f1_keywords:
-- rend/ITRendezvous.CreateDirectoryObject
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITRendezvous.CreateDirectoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITRendezvous::CreateDirectoryObject
+ - rend/ITRendezvous::CreateDirectoryObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITRendezvous.CreateDirectoryObject
 ---
 
 # ITRendezvous::CreateDirectoryObject
@@ -48,40 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
  The 
 <b>CreateDirectoryObject</b> method creates a new 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> object.
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> object.
 
 ## -parameters
-
-
-
 
 ### -param DirectoryObjectType [in]
 
 The type of the object. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>.
-
+<a href="/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>.
 
 ### -param pName [in]
 
 Pointer to a <b>BSTR</b> containing the name of the object.
 
-
 ### -param ppDirectoryObject [out]
 
 Pointer to receive the interface pointer for the newly created 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> object.
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -135,43 +127,27 @@ Pointer is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> interface returned by <b>ITRendezvous::CreateDirectoryObject</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> interface returned by <b>ITRendezvous::CreateDirectoryObject</b>. The application must call <b>Release</b> on the 
 <b>ITDirectoryObject</b> interface to free resources associated with it.
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>

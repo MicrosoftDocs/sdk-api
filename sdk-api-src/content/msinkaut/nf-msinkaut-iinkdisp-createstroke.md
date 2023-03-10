@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkDisp.CreateStroke
 title: IInkDisp::CreateStroke (msinkaut.h)
 description: Creates an IInkStrokeDisp object from an array of packet data input values.
+helpviewer_keywords: ["116c5746-61ad-4a47-a5e3-4675af87b0f1","CreateStroke","CreateStroke method [Tablet PC]","CreateStroke method [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","CreateStroke method","IInkDisp.CreateStroke","IInkDisp::CreateStroke","msinkaut/IInkDisp::CreateStroke","tablet.inkdisp_createstroke"]
 old-location: tablet\inkdisp_createstroke.htm
 tech.root: tablet
 ms.assetid: 116c5746-61ad-4a47-a5e3-4675af87b0f1
 ms.date: 12/05/2018
 ms.keywords: 116c5746-61ad-4a47-a5e3-4675af87b0f1, CreateStroke, CreateStroke method [Tablet PC], CreateStroke method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStroke method, IInkDisp.CreateStroke, IInkDisp::CreateStroke, msinkaut/IInkDisp::CreateStroke, tablet.inkdisp_createstroke
-f1_keywords:
-- msinkaut/IInkDisp.CreateStroke
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkDisp.CreateStroke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDisp::CreateStroke
+ - msinkaut/IInkDisp::CreateStroke
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkDisp.CreateStroke
 ---
 
 # IInkDisp::CreateStroke
@@ -49,38 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object from an array of packet data input values.
-
-
-
+Creates an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object from an array of packet data input values.
 
 ## -parameters
-
-
-
 
 ### -param PacketData [in]
 
 Specifies the array of packet data. The data is an array of Int32 values which, taken in order, form the array of points (x0, y0), (x1, y1), which is passed into the method within a Variant.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param PacketDescription [in]
 
 Is a reserved parameter that is currently not implemented.
 
-
 ### -param Stroke [out, retval]
 
 When this method returns, contains a pointer to the newly-created stroke.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,35 +134,19 @@ Cannot allocate memory to create the new stroke.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The minimum and maximum values of any point in the points array are LONG_MIN and LONG_MAX, respectively. However, these points define an ink space rectangle whose maximum width or height cannot exceed LONG_MAX. Because of this, the difference between the minimum and maximum x-coordinates, or the minimum and maximum y-coordinates, cannot exceed LONG_MAX.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes">CreateStrokes Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes">CreateStrokes Method</a>
+<a href="../msinkaut/nn-msinkaut-iinkdisp.md">IInkDisp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Skip
 title: IEnumNetworks::Skip (netlistmgr.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. (IEnumNetworks.Skip)
+helpviewer_keywords: ["IEnumNetworks interface [Network Awareness]","Skip method","IEnumNetworks.Skip","IEnumNetworks::Skip","Skip","Skip method [Network Awareness]","Skip method [Network Awareness]","IEnumNetworks interface","netlistmgr/IEnumNetworks::Skip","nla.ienumnetworks_skip"]
 old-location: nla\ienumnetworks_skip.htm
 tech.root: nla
 ms.assetid: 9f39e65e-6ff4-4fc5-a7fe-5f83a0b3f5e7
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Skip method, IEnumNetworks.Skip, IEnumNetworks::Skip, Skip, Skip method [Network Awareness], Skip method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Skip, nla.ienumnetworks_skip
-f1_keywords:
-- netlistmgr/IEnumNetworks.Skip
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- IEnumNetworks.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetworks::Skip
+ - netlistmgr/IEnumNetworks::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - IEnumNetworks.Skip
 ---
 
 # IEnumNetworks::Skip
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Skip</b> method skips over the next specified number of elements in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of elements to skip in the enumeration.
 
-
 ## -returns
-
-
 
 Returns S_OK if the method succeeds. Otherwise, the method returns one of the following values.
 
@@ -96,18 +90,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworks">IEnumNetworks</a>

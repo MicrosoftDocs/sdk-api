@@ -1,16 +1,13 @@
 ---
 UID: NN:corewindow.ICoreWindowInterop
 title: ICoreWindowInterop (corewindow.h)
-description: Enables apps to obtain the window handleof the window (CoreWindow) associated with this interface.
+description: Enables apps to obtain the window handle of the window (CoreWindow) associated with this interface.
+helpviewer_keywords: ["ICoreWindowInterop","ICoreWindowInterop interface [Windows Runtime]","ICoreWindowInterop interface [Windows Runtime]","described","corewindow/ICoreWindowInterop","winrt.icorewindowinterop"]
 old-location: winrt\icorewindowinterop.htm
 tech.root: WinRT
 ms.assetid: 6928FA3A-C367-4C99-A67E-8ED0153D6349
 ms.date: 12/05/2018
 ms.keywords: ICoreWindowInterop, ICoreWindowInterop interface [Windows Runtime], ICoreWindowInterop interface [Windows Runtime],described, corewindow/ICoreWindowInterop, winrt.icorewindowinterop
-f1_keywords:
-- corewindow/ICoreWindowInterop
-dev_langs:
-- c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- corewindow.h
-api_name:
-- ICoreWindowInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICoreWindowInterop
+ - corewindow/ICoreWindowInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - corewindow.h
+api_name:
+ - ICoreWindowInterop
 ---
 
 # ICoreWindowInterop interface
@@ -48,26 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables apps to obtain the window handleof the window (<a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a>) associated with this interface. 
-
+Enables apps to obtain the window handle of the window (<a href="/uwp/api/windows.ui.core.corewindow">CoreWindow</a>) associated with this interface.
 
 ## -remarks
 
-
-
-Windows Store apps can have multiple <a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a> instances. Each <b>CoreWindow</b> instances also has a native interface for accessing the underlying HWND, represented as an instance of <b>ICoreWindowInterop</b>.
-
-
-
+Windows Store apps can have multiple <a href="/uwp/api/windows.ui.core.corewindow">CoreWindow</a> instances. Each <b>CoreWindow</b> instance also has a native interface for accessing the underlying HWND, represented as an instance of <b>ICoreWindowInterop</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/60b1c8c6-c136-4c4c-8e46-69a792d58ed0">CoreWindow</a>
- 
-
- 
+<a href="/uwp/api/windows.ui.core.corewindow">CoreWindow</a>
 

@@ -2,15 +2,12 @@
 UID: NF:deviceaccess.IDeviceIoControl.CancelOperation
 title: IDeviceIoControl::CancelOperation (deviceaccess.h)
 description: The CancelOperation method attempts to cancel a previously issued call by using the DeviceIoControlAsync method.
+helpviewer_keywords: ["CancelOperation","CancelOperation method [Device Access Broker API]","CancelOperation method [Device Access Broker API]","IDeviceIoControl interface","IDeviceIoControl interface [Device Access Broker API]","CancelOperation method","IDeviceIoControl.CancelOperation","IDeviceIoControl::CancelOperation","deviceaccess.ideviceiocontrol_canceloperation","deviceaccess/IDeviceIoControl::CancelOperation"]
 old-location: deviceaccess\ideviceiocontrol_canceloperation.htm
 tech.root: deviceaccess
 ms.assetid: 476a84c8-4065-4a4f-ad74-68cbbbabd5dd
 ms.date: 12/05/2018
 ms.keywords: CancelOperation, CancelOperation method [Device Access Broker API], CancelOperation method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],CancelOperation method, IDeviceIoControl.CancelOperation, IDeviceIoControl::CancelOperation, deviceaccess.ideviceiocontrol_canceloperation, deviceaccess/IDeviceIoControl::CancelOperation
-f1_keywords:
-- deviceaccess/IDeviceIoControl.CancelOperation
-dev_langs:
-- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Deviceaccess.lib
-- Deviceaccess.dll
-api_name:
-- IDeviceIoControl.CancelOperation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeviceIoControl::CancelOperation
+ - deviceaccess/IDeviceIoControl::CancelOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Deviceaccess.lib
+ - Deviceaccess.dll
+api_name:
+ - IDeviceIoControl.CancelOperation
 ---
 
 # IDeviceIoControl::CancelOperation
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CancelOperation</b> method attempts to cancel a previously issued call by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> method.
-
+The <b>CancelOperation</b> method attempts to cancel a previously issued call by using the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> method.
 
 ## -parameters
 
-
-
-
 ### -param cancelContext [in]
 
-The cancel context that a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> returned.
-
+The cancel context that a previous call to <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> returned.
 
 ## -returns
-
-
 
 This method supports standard return values, in addition to these:
 
@@ -97,27 +91,11 @@ The operation was no longer outstanding.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Regardless of whether cancellation is successful, the result of the operation is available in the callback that's provided to the asynchronous call.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>

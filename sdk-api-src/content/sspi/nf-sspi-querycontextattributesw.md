@@ -1,16 +1,13 @@
 ---
 UID: NF:sspi.QueryContextAttributesW
 title: QueryContextAttributesW function (sspi.h)
-description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
+description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context. (Unicode)
+helpviewer_keywords: ["QueryContextAttributes", "QueryContextAttributes (CredSSP)", "QueryContextAttributes function [Security]", "QueryContextAttributesW", "SECPKG_ATTR_CERT_TRUST_STATUS", "SECPKG_ATTR_CREDS", "SECPKG_ATTR_CREDS_2", "SECPKG_ATTR_C_ACCESS_TOKEN", "SECPKG_ATTR_C_FULL_ACCESS_TOKEN", "SECPKG_ATTR_NEGOTIATION_PACKAGE", "SECPKG_ATTR_PACKAGE_INFO", "SECPKG_ATTR_SERVER_AUTH_FLAGS", "SECPKG_ATTR_SIZES", "SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES", "security.querycontextattributes__credssp_", "sspi/QueryContextAttributes", "sspi/QueryContextAttributesW"]
 old-location: security\querycontextattributes__credssp_.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 ms.date: 12/05/2018
 ms.keywords: QueryContextAttributes, QueryContextAttributes (CredSSP), QueryContextAttributes function [Security], QueryContextAttributesA, QueryContextAttributesW, SECPKG_ATTR_CERT_TRUST_STATUS, SECPKG_ATTR_CREDS, SECPKG_ATTR_CREDS_2, SECPKG_ATTR_C_ACCESS_TOKEN, SECPKG_ATTR_C_FULL_ACCESS_TOKEN, SECPKG_ATTR_NEGOTIATION_PACKAGE, SECPKG_ATTR_PACKAGE_INFO, SECPKG_ATTR_SERVER_AUTH_FLAGS, SECPKG_ATTR_SIZES, SECPKG_ATTR_SUBJECT_SECURITY_ATTRIBUTES, security.querycontextattributes__credssp_, sspi/QueryContextAttributes, sspi/QueryContextAttributesA, sspi/QueryContextAttributesW
-f1_keywords:
-- sspi/QueryContextAttributes
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- QueryContextAttributes
-- QueryContextAttributesA
-- QueryContextAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QueryContextAttributesW
+ - sspi/QueryContextAttributesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+ - schannel.dll
+api_name:
+ - QueryContextAttributes
+ - QueryContextAttributesA
+ - QueryContextAttributesW
 ---
 
 # QueryContextAttributesW function
@@ -50,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>QueryContextAttributes (CredSSP)</b> function lets a transport application query the Credential Security Support Provider (CredSSP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> for certain <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
-
+The <b>QueryContextAttributes (CredSSP)</b> function lets a transport application query the Credential Security Support Provider (CredSSP) <a href="/windows/desktop/SecGloss/s-gly">security package</a> for certain <a href="/windows/desktop/SecGloss/a-gly">attributes</a> of a <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
 A  handle to the security context to be queried.
-
 
 ### -param ulAttribute [in]
 
@@ -80,7 +77,7 @@ The attribute of the context to be returned. This parameter can be one of the fo
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_accesstoken">SecPkgContext_AccessToken</a> structure that specifies the access token for the current security context.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_accesstoken">SecPkgContext_AccessToken</a> structure that specifies the access token for the current security context.
 
 This attribute is supported only on the server.
 
@@ -93,7 +90,7 @@ This attribute is supported only on the server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_accesstoken">SecPkgContext_AccessToken</a> structure that specifies the access token for the current security context.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_accesstoken">SecPkgContext_AccessToken</a> structure that specifies the access token for the current security context.
 
 This attribute is supported only on the server.
 
@@ -106,7 +103,7 @@ This attribute is supported only on the server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure that specifies trust information about the certificate.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure that specifies trust information about the certificate.
 
 This attribute is supported only on the client.
 
@@ -119,7 +116,7 @@ This attribute is supported only on the client.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a> structure that specifies client credentials.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a> structure that specifies client credentials.
 
 The client credentials can be either user name and password or user name and smart card PIN.
 
@@ -134,13 +131,13 @@ This attribute is supported only on the server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a> structure that specifies client credentials. 
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a> structure that specifies client credentials. 
 
-If the client credential is user name and password, the buffer is a packed <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure.
+If the client credential is user name and password, the buffer is a packed <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a> structure.
 
-If the client credential is user name and smart card PIN, the buffer is a packed 	<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure.
+If the client credential is user name and smart card PIN, the buffer is a packed 	<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_certificate_logon">KERB_CERTIFICATE_LOGON</a> structure.
 
-If the client credential is an online identity credential, the buffer is a marshaled <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure.
+If the client credential is an online identity credential, the buffer is a marshaled <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure.
 
 This attribute is supported only on the CredSSP server.
 
@@ -155,7 +152,7 @@ This attribute is supported only on the CredSSP server.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a> structure that specifies the name of the authentication package negotiated by the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> provider.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/win32/api/sspi/ns-sspi-secpkginfoa">SecPkgContext_PackageInfo</a> structure that specifies the name of the authentication package negotiated by the <a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> provider.
 
 </td>
 </tr>
@@ -166,7 +163,7 @@ The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.micro
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-_secpkgcontext_packageinfoa">SecPkgContext_PackageInfo</a>structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/win32/api/sspi/ns-sspi-secpkginfoa">SecPkgContext_PackageInfo</a> structure.
 
 Returns information on the SSP in use.
 
@@ -179,7 +176,7 @@ Returns information on the SSP in use.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_flags">SecPkgContext_Flags</a> structure that specifies information about the flags in the current security context.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_flags">SecPkgContext_Flags</a> structure that specifies information about the flags in the current security context.
 
 This attribute is supported only on the client.
 
@@ -192,7 +189,7 @@ This attribute is supported only on the client.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a> structure.
 
 Queries the sizes of the structures used in the per-message functions and authentication exchanges.
 
@@ -205,7 +202,7 @@ Queries the sizes of the structures used in the per-message functions and authen
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_subjectattributes">SecPkgContext_SubjectAttributes</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_subjectattributes">SecPkgContext_SubjectAttributes</a> structure.
 
 This value returns information about  the security attributes for the connection.
 
@@ -216,17 +213,12 @@ This value is supported only on the CredSSP server.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [out]
 
 A pointer to a structure that receives the attributes. The structure type depends on the value of the <i>ulAttribute</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns SEC_E_OK.
 
@@ -262,45 +254,36 @@ The function failed. The value of the <i>ulAttribute</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The structure pointed to by the <i>pBuffer</i> parameter varies depending on the attribute being queried.
 
-While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP allocates any memory required to hold variable-sized members of the <i>pBuffer</i> structure. Memory allocated by the SSP must be freed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
+While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP allocates any memory required to hold variable-sized members of the <i>pBuffer</i> structure. Memory allocated by the SSP must be freed by calling the <a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function.
 
 
 
+
+
+> [!NOTE]
+> The sspi.h header defines QueryContextAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-secpkgcontext_clientcreds">SecPkgContext_ClientCreds</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a>

@@ -2,15 +2,12 @@
 UID: NN:adhoc.IDot11AdHocSecuritySettings
 title: IDot11AdHocSecuritySettings (adhoc.h)
 description: Specifies the security settings for a wireless ad hoc network.
+helpviewer_keywords: ["IDot11AdHocSecuritySettings","IDot11AdHocSecuritySettings interface [NativeWIFI]","IDot11AdHocSecuritySettings interface [NativeWIFI]","described","adhoc/IDot11AdHocSecuritySettings","nwifi.idot11adhocsecuritysettings"]
 old-location: nwifi\idot11adhocsecuritysettings.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 55b78a98-ad25-4646-b325-73d770d602b3
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface [NativeWIFI], IDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IDot11AdHocSecuritySettings, nwifi.idot11adhocsecuritysettings
-f1_keywords:
-- adhoc/IDot11AdHocSecuritySettings
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocSecuritySettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocSecuritySettings
+ - adhoc/IDot11AdHocSecuritySettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocSecuritySettings
 ---
 
 # IDot11AdHocSecuritySettings interface
@@ -48,42 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDot11AdHocSecuritySettings</b> interface specifies the security settings for a wireless ad hoc network. 
-<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  Ad hoc mode might not be available in future versions of Windows. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="/windows/desktop/NativeWiFi/about-the-wi-fi-direct-api">Wi-Fi Direct</a> instead.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDot11AdHocSecuritySettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocSecuritySettings</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDot11AdHocSecuritySettings</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>
-</td>
-<td align="left" width="63%">
-Gets the authentication algorithm associated with the security settings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11cipheralgorithm">IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm</a>
-</td>
-<td align="left" width="63%">
-Gets the cipher algorithm associated with the security settings.
-
-</td>
-</tr>
-</table> 
+The <b>IDot11AdHocSecuritySettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDot11AdHocSecuritySettings</b> also has these types of members:
 

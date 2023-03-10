@@ -2,15 +2,12 @@
 UID: NF:searchapi.IUrlAccessor.GetSecurityProvider
 title: IUrlAccessor::GetSecurityProvider (searchapi.h)
 description: Gets the security provider for the URL.
+helpviewer_keywords: ["GetSecurityProvider","GetSecurityProvider method [search]","GetSecurityProvider method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetSecurityProvider method","IUrlAccessor.GetSecurityProvider","IUrlAccessor::GetSecurityProvider","_search_IUrlAccessor_GetSecurityProvider","search._search_IUrlAccessor_GetSecurityProvider","searchapi/IUrlAccessor::GetSecurityProvider"]
 old-location: search\_search_IUrlAccessor_GetSecurityProvider.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecurityprovider.htm
 ms.date: 12/05/2018
 ms.keywords: GetSecurityProvider, GetSecurityProvider method [search], GetSecurityProvider method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityProvider method, IUrlAccessor.GetSecurityProvider, IUrlAccessor::GetSecurityProvider, _search_IUrlAccessor_GetSecurityProvider, search._search_IUrlAccessor_GetSecurityProvider, searchapi/IUrlAccessor::GetSecurityProvider
-f1_keywords:
-- searchapi/IUrlAccessor.GetSecurityProvider
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- IUrlAccessor.GetSecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IUrlAccessor::GetSecurityProvider
+ - searchapi/IUrlAccessor::GetSecurityProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - IUrlAccessor.GetSecurityProvider
 ---
 
 # IUrlAccessor::GetSecurityProvider
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the security provider for the URL. 
-        
-
+Gets the security provider for the URL.
 
 ## -parameters
-
-
-
 
 ### -param pSPClsid [out]
 
 Type: <b>CLSID*</b>
 
 Receives a pointer to a security provider's CLSID.
-                
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

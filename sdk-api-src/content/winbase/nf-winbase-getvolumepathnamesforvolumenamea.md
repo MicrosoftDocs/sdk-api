@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetVolumePathNamesForVolumeNameA
 title: GetVolumePathNamesForVolumeNameA function (winbase.h)
-description: Retrieves a list of drive letters and mounted folder paths for the specified volume.
+description: Retrieves a list of drive letters and mounted folder paths for the specified volume. (GetVolumePathNamesForVolumeNameA)
+helpviewer_keywords: ["GetVolumePathNamesForVolumeName","GetVolumePathNamesForVolumeName function [Files]","GetVolumePathNamesForVolumeNameA","GetVolumePathNamesForVolumeNameW","_win32_getvolumepathnamesforvolumename","base.getvolumepathnamesforvolumename","fileapi/GetVolumePathNamesForVolumeName","fileapi/GetVolumePathNamesForVolumeNameA","fileapi/GetVolumePathNamesForVolumeNameW","fs.getvolumepathnamesforvolumename","winbase/GetVolumePathNamesForVolumeName","winbase/GetVolumePathNamesForVolumeNameA","winbase/GetVolumePathNamesForVolumeNameW"]
 old-location: fs\getvolumepathnamesforvolumename.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 067904c1-d3e1-4cfd-ac63-6ef32d9a2513
 ms.date: 12/05/2018
 ms.keywords: GetVolumePathNamesForVolumeName, GetVolumePathNamesForVolumeName function [Files], GetVolumePathNamesForVolumeNameA, GetVolumePathNamesForVolumeNameW, _win32_getvolumepathnamesforvolumename, base.getvolumepathnamesforvolumename, fileapi/GetVolumePathNamesForVolumeName, fileapi/GetVolumePathNamesForVolumeNameA, fileapi/GetVolumePathNamesForVolumeNameW, fs.getvolumepathnamesforvolumename, winbase/GetVolumePathNamesForVolumeName, winbase/GetVolumePathNamesForVolumeNameA, winbase/GetVolumePathNamesForVolumeNameW
-f1_keywords:
-- winbase/GetVolumePathNamesForVolumeName
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,29 +25,34 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- GetVolumePathNamesForVolumeName
-- GetVolumePathNamesForVolumeNameA
-- GetVolumePathNamesForVolumeNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetVolumePathNamesForVolumeNameA
+ - winbase/GetVolumePathNamesForVolumeNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - GetVolumePathNamesForVolumeName
+ - GetVolumePathNamesForVolumeNameA
+ - GetVolumePathNamesForVolumeNameW
 ---
 
 # GetVolumePathNamesForVolumeNameA function
@@ -58,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of drive letters and mounted folder paths for the specified volume.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszVolumeName [in]
 
@@ -73,19 +70,16 @@ A volume <b>GUID</b> path for the volume. A volume <b>GUID</b>
       path is of the form 
       "\\?\Volume{<i>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</i>}\".
 
-
 ### -param lpszVolumePathNames [out]
 
 A pointer to a buffer that receives the list of drive letters and mounted folder paths. The list is an 
       array of null-terminated strings terminated by an additional <b>NULL</b> character. If the 
       buffer is not large enough to hold the complete list, the buffer holds as much of the list as possible.
 
-
 ### -param cchBufferLength [in]
 
 The length of the <i>lpszVolumePathNames</i> buffer, in 
       <b>TCHARs</b>, including all <b>NULL</b> characters.
-
 
 ### -param lpcchReturnLength [out]
 
@@ -93,24 +87,16 @@ If the call is successful, this parameter is the number of <b>TCHARs</b> copied 
       the <i>lpszVolumePathNames</i> buffer. Otherwise, this parameter is the size of the buffer 
       required to hold the complete list, in <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the buffer is not large enough to 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If the buffer is not large enough to 
        hold the complete list, the error code is <b>ERROR_MORE_DATA</b> and the 
        <i>lpcchReturnLength</i> parameter receives the required buffer size.
 
-
-
-
 ## -remarks
-
-
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -178,23 +164,14 @@ SMB does not support volume management functions.
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/displaying-volume-paths">Displaying Volume Paths</a>.
+     <a href="/windows/desktop/FileIO/displaying-volume-paths">Displaying Volume Paths</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsbuffer.INSSBuffer.GetMaxLength
 title: INSSBuffer::GetMaxLength (wmsbuffer.h)
 description: The GetMaxLength method retrieves the maximum size to which a buffer can be set.
+helpviewer_keywords: ["GetMaxLength","GetMaxLength method [windows Media Format]","GetMaxLength method [windows Media Format]","INSSBuffer interface","INSSBuffer interface [windows Media Format]","GetMaxLength method","INSSBuffer.GetMaxLength","INSSBuffer::GetMaxLength","INSSBufferGetMaxLength","wmformat.inssbuffer_getmaxlength","wmsbuffer/INSSBuffer::GetMaxLength"]
 old-location: wmformat\inssbuffer_getmaxlength.htm
 tech.root: wmformat
 ms.assetid: 6b386c24-1737-4e30-98fa-444fc8a34503
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [windows Media Format], GetMaxLength method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetMaxLength method, INSSBuffer.GetMaxLength, INSSBuffer::GetMaxLength, INSSBufferGetMaxLength, wmformat.inssbuffer_getmaxlength, wmsbuffer/INSSBuffer::GetMaxLength
-f1_keywords:
-- wmsbuffer/INSSBuffer.GetMaxLength
-dev_langs:
-- c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- INSSBuffer.GetMaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INSSBuffer::GetMaxLength
+ - wmsbuffer/INSSBuffer::GetMaxLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - INSSBuffer.GetMaxLength
 ---
 
 # INSSBuffer::GetMaxLength
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetMaxLength</b> method retrieves the maximum size to which a buffer can be set. The maximum value is set when the sample is created. If you are using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-allocatesample">IWMWriter::AllocateSample</a>, the size you specify becomes the maximum buffer length. The actual amount of the buffer that is used can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>.
-
-
-
+The <b>GetMaxLength</b> method retrieves the maximum size to which a buffer can be set. The maximum value is set when the sample is created. If you are using <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-allocatesample">IWMWriter::AllocateSample</a>, the size you specify becomes the maximum buffer length. The actual amount of the buffer that is used can be retrieved by calling <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>.
 
 ## -parameters
-
-
-
 
 ### -param pdwLength [out]
 
 Pointer to a <b>DWORD</b> containing the maximum length, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,35 +93,19 @@ The <i>pdwLength</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The maximum size of the buffer as returned by this method does not affect or reflect the size of any data unit extensions associated with the sample stored in the buffer.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/data-unit-extensions">Data Unit Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/data-unit-extensions">Data Unit Extensions</a>
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>

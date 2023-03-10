@@ -1,16 +1,13 @@
 ---
 UID: NF:nspapi.EnumProtocolsA
 title: EnumProtocolsA function (nspapi.h)
-description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host.
+description: The EnumProtocols function retrieves information about a specified set of network protocols that are active on a local host. (ANSI)
+helpviewer_keywords: ["EnumProtocolsA", "IPPROTO_TCP", "IPPROTO_UDP", "ISOPROTO_TP4", "NSPROTO_IPX", "NSPROTO_SPX", "NSPROTO_SPXII", "nspapi/EnumProtocolsA"]
 old-location: winsock\enumprotocols_2.htm
 tech.root: WinSock
 ms.assetid: 0310b80d-5036-46c2-b60f-1a6661cb7f94
 ms.date: 12/05/2018
 ms.keywords: EnumProtocols, EnumProtocols function [Winsock], EnumProtocolsA, EnumProtocolsW, IPPROTO_TCP, IPPROTO_UDP, ISOPROTO_TP4, NSPROTO_IPX, NSPROTO_SPX, NSPROTO_SPXII, _win32_enumprotocols_2, nspapi/EnumProtocols, nspapi/EnumProtocolsA, nspapi/EnumProtocolsW, winsock.enumprotocols_2
-f1_keywords:
-- nspapi/EnumProtocols
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Mswsock.lib
 req.dll: Mswsock.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mswsock.dll
-api_name:
-- EnumProtocols
-- EnumProtocolsA
-- EnumProtocolsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumProtocolsA
+ - nspapi/EnumProtocolsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mswsock.dll
+api_name:
+ - EnumProtocols
+ - EnumProtocolsA
+ - EnumProtocolsW
 ---
 
 # EnumProtocolsA function
@@ -50,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnumProtocols</b> function retrieves information about a specified set of network protocols that are active on a local host.
 
 
 <div class="alert"><b>Note</b>  The 
 <b>EnumProtocols</b> function is a Microsoft-specific extension to the Windows Sockets 1.1 specification. This function is obsolete. For the convenience of Windows Sockets 1.1 developers, the reference material is included. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function provides equivalent functionality in Windows Sockets 2.</div>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a> function provides equivalent functionality in Windows Sockets 2.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpiProtocols [in, optional]
 
@@ -145,14 +141,11 @@ The Sequenced Packet Exchange (SPX) protocol version 2, a connection-oriented st
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpProtocolBuffer [out]
 
 A pointer to a buffer that the function fills with an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures.
-
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures.
 
 ### -param lpdwBufferLength [in, out]
 
@@ -163,16 +156,13 @@ A pointer to a variable that, on input, specifies the size, in bytes, of the buf
 
 On output, the function sets this variable to the minimum buffer size needed to retrieve all of the requested information. For the function to succeed, the buffer must be at least this size.
 
-
 ## -returns
 
-
-
 If the function succeeds, the return value is the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures written to the buffer pointed to by <i>lpProtocolBuffer</i>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> data structures written to the buffer pointed to by <i>lpProtocolBuffer</i>.
 
 If the function fails, the return value is SOCKET_ERROR(–1). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which returns the following extended error code.
 
 <table>
 <tr>
@@ -187,19 +177,13 @@ If the function fails, the return value is SOCKET_ERROR(–1). To get extended e
 </td>
 <td width="60%">
 The buffer pointed to by <i>lpProtocolBuffer</i> was too small to receive all of the relevant 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a> structures. Call the function with a buffer at least as large as the value returned in *<i>lpdwBufferLength</i>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 In the following sample code, the 
 <b>EnumProtocols</b> function retrieves information about all protocols that are available on a system. The code then examines each of the protocols in greater detail.
@@ -364,25 +348,22 @@ int FindProtocol (
 
 
 
+
+> [!NOTE]
+> The nspapi.h header defines EnumProtocols as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-getaddressbynamea">GetAddressByName</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-protocol_infoa">PROTOCOL_INFO</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

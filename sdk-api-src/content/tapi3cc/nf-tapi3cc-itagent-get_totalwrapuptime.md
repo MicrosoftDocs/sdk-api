@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_TotalWrapUpTime
 title: ITAgent::get_TotalWrapUpTime (tapi3cc.h)
-description: The get_TotalWrapUpTime method gets the number of seconds spent on ACD call wrap-up (after-call work) by this agent (across all sessions).
+description: The ITAgent::get_TotalWrapUpTime method (tapi3cc.h) gets the number of seconds spent on ACD call wrap-up by this agent, across all sessions. 
+helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_TotalWrapUpTime method","ITAgent.get_TotalWrapUpTime","ITAgent::get_TotalWrapUpTime","_tapi3_itagent_get_totalwrapuptime","get_TotalWrapUpTime","get_TotalWrapUpTime method [TAPI 2.2]","get_TotalWrapUpTime method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_totalwrapuptime","tapi3cc/ITAgent::get_TotalWrapUpTime"]
 old-location: tapi3\itagent_get_totalwrapuptime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 23fb0c9b-b3c7-4a1d-91fc-9ecfb6a2d8bf
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalWrapUpTime method, ITAgent.get_TotalWrapUpTime, ITAgent::get_TotalWrapUpTime, _tapi3_itagent_get_totalwrapuptime, get_TotalWrapUpTime, get_TotalWrapUpTime method [TAPI 2.2], get_TotalWrapUpTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalwrapuptime, tapi3cc/ITAgent::get_TotalWrapUpTime
-f1_keywords:
-- tapi3cc/ITAgent.get_TotalWrapUpTime
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgent.get_TotalWrapUpTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgent::get_TotalWrapUpTime
+ - tapi3cc/ITAgent::get_TotalWrapUpTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgent.get_TotalWrapUpTime
 ---
 
 # ITAgent::get_TotalWrapUpTime
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_TotalWrapUpTime</b> method gets the number of seconds spent on ACD call wrap-up (after-call work) by this agent (across all sessions).
 
 The measurement period over which this information is calculated is switch and/or implementation-specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
-
-
-
 
 ### -param plWrapUpTime [out]
 
 Total wrap-up time.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,18 +116,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>

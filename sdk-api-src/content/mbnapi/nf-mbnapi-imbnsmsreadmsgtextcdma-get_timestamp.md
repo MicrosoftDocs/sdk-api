@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Timestamp
 title: IMbnSmsReadMsgTextCdma::get_Timestamp (mbnapi.h)
 description: The timestamp of a message.
+helpviewer_keywords: ["IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","Timestamp property","IMbnSmsReadMsgTextCdma.Timestamp","IMbnSmsReadMsgTextCdma.get_Timestamp","IMbnSmsReadMsgTextCdma::Timestamp","IMbnSmsReadMsgTextCdma::get_Timestamp","Timestamp property [Microsoft Broadband Networks]","Timestamp property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","get_Timestamp","mbn.imbnsmsreadmsgtextcdma_timestamp","mbnapi/IMbnSmsReadMsgTextCdma::Timestamp","mbnapi/IMbnSmsReadMsgTextCdma::get_Timestamp"]
 old-location: mbn\imbnsmsreadmsgtextcdma_timestamp.htm
 tech.root: mbn
 ms.assetid: 178de8ed-b7ab-4a1a-a533-8dcffbdb8499
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Timestamp property, IMbnSmsReadMsgTextCdma.Timestamp, IMbnSmsReadMsgTextCdma.get_Timestamp, IMbnSmsReadMsgTextCdma::Timestamp, IMbnSmsReadMsgTextCdma::get_Timestamp, Timestamp property [Microsoft Broadband Networks], Timestamp property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Timestamp, mbn.imbnsmsreadmsgtextcdma_timestamp, mbnapi/IMbnSmsReadMsgTextCdma::Timestamp, mbnapi/IMbnSmsReadMsgTextCdma::get_Timestamp
-f1_keywords:
-- mbnapi/IMbnSmsReadMsgTextCdma.Timestamp
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsReadMsgTextCdma.Timestamp
-- IMbnSmsReadMsgTextCdma.get_Timestamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsReadMsgTextCdma::get_Timestamp
+ - mbnapi/IMbnSmsReadMsgTextCdma::get_Timestamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsReadMsgTextCdma.Timestamp
+ - IMbnSmsReadMsgTextCdma.get_Timestamp
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Timestamp
@@ -56,13 +58,9 @@ The timestamp of a message.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The format of the timestamp string is "YY/MM/DD,HH:mm:SS±ZZ".
 
@@ -119,20 +117,7 @@ The following table defines the format of the timestamp string.
 <td>-12 through +13</td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>

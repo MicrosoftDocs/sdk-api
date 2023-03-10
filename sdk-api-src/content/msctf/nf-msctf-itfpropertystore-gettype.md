@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfPropertyStore.GetType
 title: ITfPropertyStore::GetType (msctf.h)
 description: ITfPropertyStore::GetType method
+helpviewer_keywords: ["GetType","GetType method [Text Services Framework]","GetType method [Text Services Framework]","ITfPropertyStore interface","ITfPropertyStore interface [Text Services Framework]","GetType method","ITfPropertyStore.GetType","ITfPropertyStore::GetType","_tsf_itfpropertystore_gettype_ref","msctf/ITfPropertyStore::GetType","tsf.itfpropertystore_gettype"]
 old-location: tsf\itfpropertystore_gettype.htm
 tech.root: TSF
 ms.assetid: e0b6b1b7-1994-4876-9f15-7e1c6a4f0e4b
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Text Services Framework], GetType method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetType method, ITfPropertyStore.GetType, ITfPropertyStore::GetType, _tsf_itfpropertystore_gettype_ref, msctf/ITfPropertyStore::GetType, tsf.itfpropertystore_gettype
-f1_keywords:
-- msctf/ITfPropertyStore.GetType
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfPropertyStore.GetType
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfPropertyStore::GetType
+ - msctf/ITfPropertyStore::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfPropertyStore.GetType
 ---
 
 # ITfPropertyStore::GetType
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the property identifier.
 
 ## -parameters
-
-
-
 
 ### -param pguid [out]
 
 Pointer to a <b>GUID</b> value that receives the property identifier.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,7 +101,4 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
 

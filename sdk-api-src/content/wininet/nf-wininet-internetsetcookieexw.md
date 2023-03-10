@@ -1,16 +1,13 @@
 ---
 UID: NF:wininet.InternetSetCookieExW
 title: InternetSetCookieExW function (wininet.h)
-description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
+description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies. (Unicode)
+helpviewer_keywords: ["INTERNET_COOKIE_EVALUATE_P3P", "INTERNET_COOKIE_HTTPONLY", "INTERNET_COOKIE_THIRD_PARTY", "INTERNET_FLAG_RESTRICTED_ZONE", "InternetSetCookieEx", "InternetSetCookieEx function [WinINet]", "InternetSetCookieExW", "wininet.internetsetcookieex", "wininet/InternetSetCookieEx", "wininet/InternetSetCookieExW"]
 old-location: wininet\internetsetcookieex.htm
 tech.root: wininet
 ms.assetid: 5044761f-152d-4606-87d2-c56a11db18c4
 ms.date: 12/05/2018
 ms.keywords: INTERNET_COOKIE_EVALUATE_P3P, INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetSetCookieEx, InternetSetCookieEx function [WinINet], InternetSetCookieExA, InternetSetCookieExW, wininet.internetsetcookieex, wininet/InternetSetCookieEx, wininet/InternetSetCookieExA, wininet/InternetSetCookieExW
-f1_keywords:
-- wininet/InternetSetCookieEx
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetSetCookieEx
-- InternetSetCookieExA
-- InternetSetCookieExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetSetCookieExW
+ - wininet/InternetSetCookieExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetSetCookieEx
+ - InternetSetCookieExA
+ - InternetSetCookieExW
 ---
 
 # InternetSetCookieExW function
@@ -50,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InternetSetCookieEx</b> function 
 	      creates a cookie with a specified name that is associated with a specified URL. This function differs from 
-	      the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a> function by being able 
+	      the <a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a> function by being able 
 	      to create third-party cookies.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszUrl [in]
 
@@ -68,19 +65,16 @@ Pointer to a <b>null</b>-terminated string that contains the URL for which the c
 
 If this pointer is <b>NULL</b>, <b>InternetSetCookieEx</b> fails with an <b>ERROR_INVALID_PARAMETER</b> error.
 
-
 ### -param lpszCookieName [in]
 
 Pointer to a <b>null</b>-terminated string that  contains the name to associate with this cookie.
       If this pointer is <b>NULL</b>, then no name is associated with the cookie.
-
 
 ### -param lpszCookieData [in]
 
 Pointer to a <b>null</b>-terminated string that contains the data to be associated with the new cookie.
 
 If this pointer is <b>NULL</b>, <b>InternetSetCookieEx</b> fails with an <b>ERROR_INVALID_PARAMETER</b> error.
-
 
 ### -param dwFlags [in]
 
@@ -140,60 +134,47 @@ Indicates that the cookie being set is associated with an untrusted site.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwReserved [in]
 
 <b>NULL</b>, or contains a pointer to a Platform-for-Privacy-Protection (P3P) header to be associated with the cookie.
 
-
 ## -returns
 
-
-
-Returns a member of the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration if successful,  or  <b>FALSE</b> if the function fails. On failure, if a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY,  insufficient system memory was available.
-
-
-
+Returns a member of the <a href="/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration if successful,  or  <b>FALSE</b> if the function fails. On failure, if a call to 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NOT_ENOUGH_MEMORY,  insufficient system memory was available.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The wininet.h header defines InternetSetCookieEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookiea">InternetGetCookie</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetcookieexa">InternetGetCookieEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookieexa">InternetGetCookieEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
+<a href="/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:ime.SendIMEMessageExW
 title: SendIMEMessageExW function (ime.h)
-description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
+description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction. (Unicode)
+helpviewer_keywords: ["SendIMEMessageEx", "SendIMEMessageEx function [Windows API]", "SendIMEMessageExW", "_win32_SendIMEMessageEx", "ime/SendIMEMessageEx", "ime/SendIMEMessageExW", "winprog._win32_sendimemessageex", "winui._win32_sendimemessageex"]
 old-location: winprog\_win32_sendimemessageex.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\sendimemessageex.htm
 ms.date: 12/05/2018
 ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex
-f1_keywords:
-- ime/SendIMEMessageEx
-dev_langs:
-- c++
 req.header: ime.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- SendIMEMessageEx
-- SendIMEMessageExA
-- SendIMEMessageExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SendIMEMessageExW
+ - ime/SendIMEMessageExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - SendIMEMessageEx
+ - SendIMEMessageExA
+ - SendIMEMessageExW
 ---
 
 # SendIMEMessageExW function
@@ -50,35 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is obsolete and should not be used.]
 
-Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction. 
-
+Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
 
 ## -parameters
-
-
-
 
 ### -param HWND [in]
 
 The window handle of the application that initiates the transaction. Generally, it is the window that has focus.
 
-
 ### -param LPARAM [in]
 
-A <b>DWORD</b> value in which the low-order word specifies a handle to the global memory that contains an <a href="https://docs.microsoft.com/windows/desktop/api/ime/ns-ime-imestruct">IMESTRUCT</a> structure. The global memory is allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. The high-order word is reserved; it is not used.
-
-                    
-                
-
+A <b>DWORD</b> value in which the low-order word specifies a handle to the global memory that contains an <a href="/windows/desktop/api/ime/ns-ime-imestruct">IMESTRUCT</a> structure. The global memory is allocated by specifying the <b>GMEM_MOVEABLE</b> and <b>GMEM_SHARE</b> flags in the <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. The high-order word is reserved; it is not used.
 
 ## -returns
 
-
-
-The result of processing of the subfunction. If the result is not success, one of the following error codes is stored into the <b>wParam</b> of the <a href="https://docs.microsoft.com/windows/desktop/api/ime/ns-ime-imestruct">IMESTRUCT</a> structure.
+The result of processing of the subfunction. If the result is not success, one of the following error codes is stored into the <b>wParam</b> of the <a href="/windows/desktop/api/ime/ns-ime-imestruct">IMESTRUCT</a> structure.
 
 <table>
 <tr>
@@ -196,16 +186,13 @@ Characters too long.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<b>SendIMEMessageEx</b> guarantees the action stipulated in the specifications only for IMEs that support the <b>WM_CONVERTREQUESTEX</b> message. For an IME that does not support <b>WM_CONVERTREQUESTEX</b>, <b>SendIMEMessageEx</b> sends a <b>WM_CONVERTREQUEST</b> message to the IME and returns the contents of the <b>wParam</b> member of the <a href="/windows/desktop/api/ime/ns-ime-imestruct">IMESTRUCT</a> structure. If the processing of the subfunction has not been completed normally, these functions set <b>IME_RS_ERROR</b> into <b>wParam</b>.
 
 
-<b>SendIMEMessageEx</b> guarantees the action stipulated in the specifications only for IMEs that support the <b>WM_CONVERTREQUESTEX</b> message. For an IME that does not support <b>WM_CONVERTREQUESTEX</b>, <b>SendIMEMessageEx</b> sends a <b>WM_CONVERTREQUEST</b> message to the IME and returns the contents of the <b>wParam</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ime/ns-ime-imestruct">IMESTRUCT</a> structure. If the processing of the subfunction has not been completed normally, these functions set <b>IME_RS_ERROR</b> into <b>wParam</b>.
 
 
-
+> [!NOTE]
+> The ime.h header defines SendIMEMessageEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

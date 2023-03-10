@@ -1,16 +1,13 @@
 ---
 UID: NF:devicetopology.IAudioPeakMeter.GetChannelCount
 title: IAudioPeakMeter::GetChannelCount (devicetopology.h)
-description: The GetChannelCount method gets the number of channels in the audio stream.
+description: The GetChannelCount method gets the number of channels in the audio stream. (IAudioPeakMeter.GetChannelCount)
+helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IAudioPeakMeter interface","IAudioPeakMeter interface [Core Audio]","GetChannelCount method","IAudioPeakMeter.GetChannelCount","IAudioPeakMeter::GetChannelCount","IAudioPeakMeterGetChannelCount","coreaudio.iaudiopeakmeter_getchannelcount","devicetopology/IAudioPeakMeter::GetChannelCount"]
 old-location: coreaudio\iaudiopeakmeter_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 699b3689-1c3f-434e-97c5-3c5930683ad1
 ms.date: 12/05/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioPeakMeter interface, IAudioPeakMeter interface [Core Audio],GetChannelCount method, IAudioPeakMeter.GetChannelCount, IAudioPeakMeter::GetChannelCount, IAudioPeakMeterGetChannelCount, coreaudio.iaudiopeakmeter_getchannelcount, devicetopology/IAudioPeakMeter::GetChannelCount
-f1_keywords:
-- devicetopology/IAudioPeakMeter.GetChannelCount
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IAudioPeakMeter.GetChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioPeakMeter::GetChannelCount
+ - devicetopology/IAudioPeakMeter::GetChannelCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IAudioPeakMeter.GetChannelCount
 ---
 
 # IAudioPeakMeter::GetChannelCount
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetChannelCount</b> method gets the number of channels in the audio stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcChannels [out]
 
 Pointer to a <b>UINT</b> variable into which the method writes the channel count.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -88,18 +79,7 @@ Pointer <i>pcChannels</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiopeakmeter">IAudioPeakMeter Interface</a>

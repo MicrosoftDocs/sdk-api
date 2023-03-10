@@ -2,15 +2,12 @@
 UID: NS:perflib._PERF_COUNTER_REG_INFO
 title: PERF_COUNTER_REG_INFO (perflib.h)
 description: Provides registration information about a performance counter.
+helpviewer_keywords: ["*PPERF_COUNTER_REG_INFO","PERF_100NSEC_MULTI_TIMER","PERF_100NSEC_MULTI_TIMER_II","PERF_100NSEC_TIMER","PERF_100NSEC_TIMER_INV","PERF_AGGREGATE_AVG","PERF_AGGREGATE_MAX","PERF_AGGREGATE_MIN","PERF_AGGREGATE_TOTAL","PERF_AGGREGATE_UNDEFINED","PERF_ATTRIB_BY_REFERENCE","PERF_ATTRIB_DISPLAY_AS_HEX","PERF_ATTRIB_DISPLAY_AS_REAL","PERF_ATTRIB_NO_DISPLAYABLE","PERF_ATTRIB_NO_GROUP_SEPARATOR","PERF_AVERAGE_BASE","PERF_AVERAGE_BULK","PERF_AVERAGE_TIMER","PERF_COUNTER_100NS_QUEUELEN_TYPE","PERF_COUNTER_BULK_COUNT","PERF_COUNTER_COUNTER","PERF_COUNTER_DELTA","PERF_COUNTER_LARGE_DELTA","PERF_COUNTER_LARGE_QUEUELEN_TYPE","PERF_COUNTER_LARGE_RAWCOUNT","PERF_COUNTER_LARGE_RAWCOUNT_HEX","PERF_COUNTER_MULTI_TIMER","PERF_COUNTER_MULTI_TIMER_INV","PERF_COUNTER_OBJ_QUEUELEN_TYPE","PERF_COUNTER_RAWCOUNT","PERF_COUNTER_RAWCOUNT_HEX","PERF_COUNTER_REG_INFO","PERF_COUNTER_REG_INFO structure [Perf]","PERF_COUNTER_TEXT","PERF_COUNTER_TIMER","PERF_COUNTER_TIMER_INV","PERF_DETAIL_ADVANCED","PERF_DETAIL_NOVICE","PERF_ELAPSED_TIME","PERF_LARGE_RAW_BASE","PERF_OBJ_TIME_TIMER","PERF_PRECISION_100NS_TIMER","PERF_PRECISION_OBJECT_TIMER","PERF_PRECISION_TIMER","PERF_RAW_BASE","PERF_RAW_FRACTION","PERF_SAMPLE_COUNTER","PERF_SAMPLE_FRACTION","PPERF_COUNTER_REG_INFO","PPERF_COUNTER_REG_INFO structure pointer [Perf]","perf.perf_counter_reg_info","perflib/PERF_COUNTER_REG_INFO","perflib/PPERF_COUNTER_REG_INFO"]
 old-location: perf\perf_counter_reg_info.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 34CA6EA3-DF74-4DB5-8DD0-2B0BB0162F9D
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_COUNTER_REG_INFO, PERF_100NSEC_MULTI_TIMER, PERF_100NSEC_MULTI_TIMER_II, PERF_100NSEC_TIMER, PERF_100NSEC_TIMER_INV, PERF_AGGREGATE_AVG, PERF_AGGREGATE_MAX, PERF_AGGREGATE_MIN, PERF_AGGREGATE_TOTAL, PERF_AGGREGATE_UNDEFINED, PERF_ATTRIB_BY_REFERENCE, PERF_ATTRIB_DISPLAY_AS_HEX, PERF_ATTRIB_DISPLAY_AS_REAL, PERF_ATTRIB_NO_DISPLAYABLE, PERF_ATTRIB_NO_GROUP_SEPARATOR, PERF_AVERAGE_BASE, PERF_AVERAGE_BULK, PERF_AVERAGE_TIMER, PERF_COUNTER_100NS_QUEUELEN_TYPE, PERF_COUNTER_BULK_COUNT, PERF_COUNTER_COUNTER, PERF_COUNTER_DELTA, PERF_COUNTER_LARGE_DELTA, PERF_COUNTER_LARGE_QUEUELEN_TYPE, PERF_COUNTER_LARGE_RAWCOUNT, PERF_COUNTER_LARGE_RAWCOUNT_HEX, PERF_COUNTER_MULTI_TIMER, PERF_COUNTER_MULTI_TIMER_INV, PERF_COUNTER_OBJ_QUEUELEN_TYPE, PERF_COUNTER_RAWCOUNT, PERF_COUNTER_RAWCOUNT_HEX, PERF_COUNTER_REG_INFO, PERF_COUNTER_REG_INFO structure [Perf], PERF_COUNTER_TEXT, PERF_COUNTER_TIMER, PERF_COUNTER_TIMER_INV, PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, PERF_ELAPSED_TIME, PERF_LARGE_RAW_BASE, PERF_OBJ_TIME_TIMER, PERF_PRECISION_100NS_TIMER, PERF_PRECISION_OBJECT_TIMER, PERF_PRECISION_TIMER, PERF_RAW_BASE, PERF_RAW_FRACTION, PERF_SAMPLE_COUNTER, PERF_SAMPLE_FRACTION, PPERF_COUNTER_REG_INFO, PPERF_COUNTER_REG_INFO structure pointer [Perf], perf.perf_counter_reg_info, perflib/PERF_COUNTER_REG_INFO, perflib/PPERF_COUNTER_REG_INFO'
-f1_keywords:
-- perflib/PERF_COUNTER_REG_INFO
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Perflib.h
-api_name:
-- PERF_COUNTER_REG_INFO
 targetos: Windows
 req.typenames: PERF_COUNTER_REG_INFO, *PPERF_COUNTER_REG_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PERF_COUNTER_REG_INFO
+ - perflib/_PERF_COUNTER_REG_INFO
+ - PPERF_COUNTER_REG_INFO
+ - perflib/PPERF_COUNTER_REG_INFO
+ - PERF_COUNTER_REG_INFO
+ - perflib/PERF_COUNTER_REG_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Perflib.h
+api_name:
+ - PERF_COUNTER_REG_INFO
 ---
 
 # PERF_COUNTER_REG_INFO structure
@@ -48,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides registration information about a performance counter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CounterId
 
 A unique identifier for the performance counter within the counter set. A counter set can contain a maximum of 64,000 performance counters.
 
-
-
 ### -field Type
 
-The type of the performance counter. For information about the predefined counter types, see the Counter Types section of the <a href="https://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
+The type of the performance counter. For information about the predefined counter types, see the Counter Types section of the <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Windows Server 2003 Deployment Kit</a>. Consumers use the counter type to determine how to calculate and display the counter value. Providers should limit their choice of counter types to the predefined list. 
 					
 
 
@@ -271,7 +270,6 @@ The possible values are:
 
 #### PERF_SAMPLE_FRACTION
 
-
 ### -field Attrib
 
 One or more attributes that indicate how to display this counter.
@@ -341,7 +339,6 @@ Display the counter value as a hexadecimal number.
 
 The attributes <b>PERF_ATTRIB_NO_GROUP_SEPARATOR</b>, <b>PERF_ATTRIB_DISPLAY_AS_REAL</b>, and <b>PERF_ATTRIB_DISPLAY_AS_HEX</b> are not mutually exclusive. If you specify all three attributes, precedence is given to the attributes in the order given.
 
-
 ### -field DetailLevel
 
 The target audience for the counter. 
@@ -377,36 +374,26 @@ The counter is complicated and should be displayed only to advanced users.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DefaultScale
 
 The scaling factor to apply to the raw performance counter value. Valid values range from –10 through 10. Zero if no scale is applied. If this value is zero, the scale value is 1; if this value is 1, the scale value is 10; if this value is –1, the scale value is .10; and so on. The scaled value of the performance counter is equal to the raw value of the performance counter multiplied by  10 raised to the power that the <b>DefaultScale</b> member specifies.
 
-
 ### -field BaseCounterId
 
 The counter identifier of the base counter. 0xFFFFFFFF indicates that there is no base counter.
-
 
 ### -field PerfTimeId
 
 The counter identifier of the performance counter. 0xFFFFFFFF indicates that there is no performance counter.
 
-
-
 ### -field PerfFreqId
 
 The counter identifier of the frequency counter. 0xFFFFFFFF indicates that there is no frequency counter.
 
-
-
 ### -field MultiId
 
  The counter identifier of the multi-counter. 0xFFFFFFFF indicates that there is no multi-counter.
-
-
 
 ### -field AggregateFunc
 
@@ -481,40 +468,25 @@ The average of the values of the returned counter instances.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 
 Reserved.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block that
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a> block that
 contains one or more <b>PERF_COUNTER_REG_INFO</b> structures.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i>parameter set to 
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to 
 <b>PERF_REG_COUNTER_STRUCT</b> gets a <b>PERF_COUNTER_REG_INFO</b> structure.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counterset_reg_info">PERF_COUNTERSET_REG_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>

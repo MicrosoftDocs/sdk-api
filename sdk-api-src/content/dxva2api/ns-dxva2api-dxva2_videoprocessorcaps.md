@@ -2,15 +2,12 @@
 UID: NS:dxva2api._DXVA2_VideoProcessorCaps
 title: DXVA2_VideoProcessorCaps (dxva2api.h)
 description: Describes the capabilities of a DirectX Video Acceleration (DVXA) video processor mode.
+helpviewer_keywords: ["DXVA2_DeinterlaceTech_BOBLineReplicate","DXVA2_DeinterlaceTech_BOBVerticalStretch","DXVA2_DeinterlaceTech_BOBVerticalStretch4Tap","DXVA2_DeinterlaceTech_EdgeFiltering","DXVA2_DeinterlaceTech_FieldAdaptive","DXVA2_DeinterlaceTech_InverseTelecine","DXVA2_DeinterlaceTech_MedianFiltering","DXVA2_DeinterlaceTech_MotionVectorSteered","DXVA2_DeinterlaceTech_PixelAdaptive","DXVA2_DeinterlaceTech_Unknown","DXVA2_DetailFilterTech_Edge","DXVA2_DetailFilterTech_Sharpening","DXVA2_DetailFilterTech_Unknown","DXVA2_DetailFilterTech_Unsupported","DXVA2_NoiseFilterTech_BlockNoise","DXVA2_NoiseFilterTech_Median","DXVA2_NoiseFilterTech_MosquitoNoise","DXVA2_NoiseFilterTech_Temporal","DXVA2_NoiseFilterTech_Unknown","DXVA2_NoiseFilterTech_Unsupported","DXVA2_VPDev_EmulatedDXVA1","DXVA2_VPDev_HardwareDevice","DXVA2_VPDev_SoftwareDevice","DXVA2_VideoProcess_AlphaBlend","DXVA2_VideoProcess_AlphaBlendExtended","DXVA2_VideoProcess_Constriction","DXVA2_VideoProcess_DetailFilter","DXVA2_VideoProcess_GammaCompensated","DXVA2_VideoProcess_LinearScaling","DXVA2_VideoProcess_MaintainsOriginalFieldData","DXVA2_VideoProcess_NoiseFilter","DXVA2_VideoProcess_PlanarAlpha","DXVA2_VideoProcess_StretchX","DXVA2_VideoProcess_StretchY","DXVA2_VideoProcess_SubRects","DXVA2_VideoProcess_SubStreams","DXVA2_VideoProcess_SubStreamsExtended","DXVA2_VideoProcess_YUV2RGB","DXVA2_VideoProcess_YUV2RGBExtended","DXVA2_VideoProcessorCaps","DXVA2_VideoProcessorCaps structure [Media Foundation]","cff01719-e653-4ea1-a177-9a6948b0da56","dxva2api/DXVA2_VideoProcessorCaps","mf.dxva2_videoprocessorcaps"]
 old-location: mf\dxva2_videoprocessorcaps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cff01719-e653-4ea1-a177-9a6948b0da56
 ms.date: 12/05/2018
 ms.keywords: DXVA2_DeinterlaceTech_BOBLineReplicate, DXVA2_DeinterlaceTech_BOBVerticalStretch, DXVA2_DeinterlaceTech_BOBVerticalStretch4Tap, DXVA2_DeinterlaceTech_EdgeFiltering, DXVA2_DeinterlaceTech_FieldAdaptive, DXVA2_DeinterlaceTech_InverseTelecine, DXVA2_DeinterlaceTech_MedianFiltering, DXVA2_DeinterlaceTech_MotionVectorSteered, DXVA2_DeinterlaceTech_PixelAdaptive, DXVA2_DeinterlaceTech_Unknown, DXVA2_DetailFilterTech_Edge, DXVA2_DetailFilterTech_Sharpening, DXVA2_DetailFilterTech_Unknown, DXVA2_DetailFilterTech_Unsupported, DXVA2_NoiseFilterTech_BlockNoise, DXVA2_NoiseFilterTech_Median, DXVA2_NoiseFilterTech_MosquitoNoise, DXVA2_NoiseFilterTech_Temporal, DXVA2_NoiseFilterTech_Unknown, DXVA2_NoiseFilterTech_Unsupported, DXVA2_VPDev_EmulatedDXVA1, DXVA2_VPDev_HardwareDevice, DXVA2_VPDev_SoftwareDevice, DXVA2_VideoProcess_AlphaBlend, DXVA2_VideoProcess_AlphaBlendExtended, DXVA2_VideoProcess_Constriction, DXVA2_VideoProcess_DetailFilter, DXVA2_VideoProcess_GammaCompensated, DXVA2_VideoProcess_LinearScaling, DXVA2_VideoProcess_MaintainsOriginalFieldData, DXVA2_VideoProcess_NoiseFilter, DXVA2_VideoProcess_PlanarAlpha, DXVA2_VideoProcess_StretchX, DXVA2_VideoProcess_StretchY, DXVA2_VideoProcess_SubRects, DXVA2_VideoProcess_SubStreams, DXVA2_VideoProcess_SubStreamsExtended, DXVA2_VideoProcess_YUV2RGB, DXVA2_VideoProcess_YUV2RGBExtended, DXVA2_VideoProcessorCaps, DXVA2_VideoProcessorCaps structure [Media Foundation], cff01719-e653-4ea1-a177-9a6948b0da56, dxva2api/DXVA2_VideoProcessorCaps, mf.dxva2_videoprocessorcaps
-f1_keywords:
-- dxva2api/DXVA2_VideoProcessorCaps
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva2api.h
-api_name:
-- DXVA2_VideoProcessorCaps
 targetos: Windows
 req.typenames: DXVA2_VideoProcessorCaps
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA2_VideoProcessorCaps
+ - dxva2api/_DXVA2_VideoProcessorCaps
+ - DXVA2_VideoProcessorCaps
+ - dxva2api/DXVA2_VideoProcessorCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva2api.h
+api_name:
+ - DXVA2_VideoProcessorCaps
 ---
 
 # DXVA2_VideoProcessorCaps structure
@@ -48,17 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Describes the capabilities of a DirectX Video Acceleration (DVXA) video processor mode.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field DeviceCaps
 
@@ -100,32 +96,26 @@ Software device.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field InputPool
 
 The Direct3D memory pool used by the device.
 
-
 ### -field NumForwardRefSamples
 
 Number of forward reference samples the device needs to perform deinterlacing. For the bob, progressive scan, and software devices, the value is zero.
-
 
 ### -field NumBackwardRefSamples
 
 Number of backward reference samples the device needs to perform deinterlacing. For the bob, progressive scan, and software devices, the value is zero.
 
-
 ### -field Reserved
 
 Reserved. Must be zero.
 
-
 ### -field DeinterlaceTechnology
 
-Identifies the deinteracing technique used by the device. This value is a bitwise <b>OR</b> of one or more of the following flags.
+Identifies the deinterlacing technique used by the device. This value is a bitwise <b>OR</b> of one or more of the following flags.
 
 <table>
 <tr>
@@ -233,17 +223,14 @@ The device can undo the 3:2 pulldown process used in telecine.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ProcAmpControlCaps
 
-Specifies the available video processor (ProcAmp) operations. The value is a bitwise OR of <a href="https://docs.microsoft.com/windows/desktop/medfound/procamp-settings">ProcAmp Settings</a> constants.
-
+Specifies the available video processor (ProcAmp) operations. The value is a bitwise OR of <a href="/windows/desktop/medfound/procamp-settings">ProcAmp Settings</a> constants.
 
 ### -field VideoProcessorOperations
 
-Specifies operations that the device can perform concurrently with the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a> operation. The value is a bitwise <b>OR</b> of the following flags.
+Specifies operations that the device can perform concurrently with the <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a> operation. The value is a bitwise <b>OR</b> of the following flags.
 
 <table>
 <tr>
@@ -316,7 +303,7 @@ The device can accept substreams in addition to the primary video stream, and ca
 </dl>
 </td>
 <td width="60%">
-The device can perform color adjustments on the primary video stream and substreams, at the same time that it deinterlaces the video and composites the substreams. The destination color space is defined in the <b>DestFormat</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure. The source color space for each stream is defined in the SampleFormat member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a> structure.
+The device can perform color adjustments on the primary video stream and substreams, at the same time that it deinterlaces the video and composites the substreams. The destination color space is defined in the <b>DestFormat</b> member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure. The source color space for each stream is defined in the SampleFormat member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videosample">DXVA2_VideoSample</a> structure.
 
 </td>
 </tr>
@@ -348,7 +335,7 @@ The device can perform an alpha blend operation with the destination surface whe
 </dl>
 </td>
 <td width="60%">
-The device can downsample the output frame, as specified by the <b>ConstrictionSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure.
+The device can downsample the output frame, as specified by the <b>ConstrictionSize</b> member of the <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessbltparams">DXVA2_VideoProcessBltParams</a> structure.
 
 </td>
 </tr>
@@ -417,8 +404,6 @@ If the image is scaled vertically, however, the original field lines cannot be r
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NoiseFilterTechnology
 
@@ -490,8 +475,6 @@ Mosquito noise filter.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DetailFilterTechnology
 
@@ -543,28 +526,19 @@ Sharpen filter.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorcaps">IDirectXVideoProcessor::GetVideoProcessorCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-getvideoprocessorcaps">IDirectXVideoProcessor::GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps">IDirectXVideoProcessorService::GetVideoProcessorCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps">IDirectXVideoProcessorService::GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">IMFVideoProcessor::GetVideoProcessorCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">IMFVideoProcessor::GetVideoProcessorCaps</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

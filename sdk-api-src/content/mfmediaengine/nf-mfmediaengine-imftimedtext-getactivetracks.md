@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedText.GetActiveTracks
 title: IMFTimedText::GetActiveTracks (mfmediaengine.h)
 description: Gets the list of active timed-text tracks in the timed-text component.
+helpviewer_keywords: ["GetActiveTracks","GetActiveTracks method [Media Foundation]","GetActiveTracks method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","GetActiveTracks method","IMFTimedText.GetActiveTracks","IMFTimedText::GetActiveTracks","mf.imftimedtext_getactivetracks","mfmediaengine/IMFTimedText::GetActiveTracks"]
 old-location: mf\imftimedtext_getactivetracks.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: DF9EEFD2-E699-4251-9769-D1F940938D45
 ms.date: 12/05/2018
 ms.keywords: GetActiveTracks, GetActiveTracks method [Media Foundation], GetActiveTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetActiveTracks method, IMFTimedText.GetActiveTracks, IMFTimedText::GetActiveTracks, mf.imftimedtext_getactivetracks, mfmediaengine/IMFTimedText::GetActiveTracks
-f1_keywords:
-- mfmediaengine/IMFTimedText.GetActiveTracks
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedText.GetActiveTracks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedText::GetActiveTracks
+ - mfmediaengine/IMFTimedText::GetActiveTracks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedText.GetActiveTracks
 ---
 
 # IMFTimedText::GetActiveTracks
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the list of active timed-text tracks in the timed-text component.
-
 
 ## -parameters
 
-
-
-
 ### -param activeTracks [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttracklist">IMFTimedTextTrackList</a>**</b>
+Type: <b><a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttracklist">IMFTimedTextTrackList</a>**</b>
 
-A pointer to a memory block that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttracklist">IMFTimedTextTrackList</a> interface that can enumerate the list of active timed-text tracks.
-
+A pointer to a memory block that receives a pointer to the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttracklist">IMFTimedTextTrackList</a> interface that can enumerate the list of active timed-text tracks.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>

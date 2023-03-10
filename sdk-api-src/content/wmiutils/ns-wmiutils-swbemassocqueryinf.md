@@ -2,15 +2,12 @@
 UID: NS:wmiutils.tag_SWbemAssocQueryInf
 title: SWbemAssocQueryInf (wmiutils.h)
 description: Contains information from the IWbemQuery::GetAnalysis method when you use the WMIQ_ANALYSIS_ASSOC_QUERY analysis type.
+helpviewer_keywords: ["SWbemAssocQueryInf","SWbemAssocQueryInf structure [Windows Management Instrumentation]","WMIQ_ASSOCQ_ASSOCCLASS","WMIQ_ASSOCQ_ASSOCIATORS","WMIQ_ASSOCQ_CLASSDEFONLY","WMIQ_ASSOCQ_CLASSREFSONLY","WMIQ_ASSOCQ_KEYSONLY","WMIQ_ASSOCQ_REFERENCES","WMIQ_ASSOCQ_REQUIREDASSOCQUALIFIER","WMIQ_ASSOCQ_REQUIREDQUALIFIER","WMIQ_ASSOCQ_RESULTCLASS","WMIQ_ASSOCQ_RESULTROLE","WMIQ_ASSOCQ_ROLE","WMIQ_ASSOCQ_SCHEMAONLY","wmi.swbemassocqueryinf","wmiutils/SWbemAssocQueryInf"]
 old-location: wmi\swbemassocqueryinf.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 8312b324-a698-4957-bd76-3129398e4886
 ms.date: 12/05/2018
 ms.keywords: SWbemAssocQueryInf, SWbemAssocQueryInf structure [Windows Management Instrumentation], WMIQ_ASSOCQ_ASSOCCLASS, WMIQ_ASSOCQ_ASSOCIATORS, WMIQ_ASSOCQ_CLASSDEFONLY, WMIQ_ASSOCQ_CLASSREFSONLY, WMIQ_ASSOCQ_KEYSONLY, WMIQ_ASSOCQ_REFERENCES, WMIQ_ASSOCQ_REQUIREDASSOCQUALIFIER, WMIQ_ASSOCQ_REQUIREDQUALIFIER, WMIQ_ASSOCQ_RESULTCLASS, WMIQ_ASSOCQ_RESULTROLE, WMIQ_ASSOCQ_ROLE, WMIQ_ASSOCQ_SCHEMAONLY, wmi.swbemassocqueryinf, wmiutils/SWbemAssocQueryInf
-f1_keywords:
-- wmiutils/SWbemAssocQueryInf
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmiutils.h
-api_name:
-- SWbemAssocQueryInf
 targetos: Windows
 req.typenames: SWbemAssocQueryInf
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tag_SWbemAssocQueryInf
+ - wmiutils/tag_SWbemAssocQueryInf
+ - SWbemAssocQueryInf
+ - wmiutils/SWbemAssocQueryInf
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmiutils.h
+api_name:
+ - SWbemAssocQueryInf
 ---
 
 # SWbemAssocQueryInf structure
@@ -48,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SWbemAssocQueryInf</b> structure contains information from the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_ASSOC_QUERY</b> analysis type.
-
+The <b>SWbemAssocQueryInf</b> structure contains information from the <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method when you use the <b>WMIQ_ANALYSIS_ASSOC_QUERY</b> analysis type.
 
 ## -struct-fields
-
-
-
 
 ### -field m_uVersion
 
 Value must be 2.
 
-
 ### -field m_uAnalysisType
 
 Value must be 2.
-
 
 ### -field m_uFeatureMask
 
@@ -143,63 +140,46 @@ The query returns only the schema.
 
 The query returns only the class references.
 
-
 ### -field m_pPath
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> object.
-
+Pointer to an <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a> object.
 
 ### -field m_pszPath
 
 String representation of the object path used in the query.
 
-
 ### -field m_pszQueryText
 
 Text of the original query.
-
 
 ### -field m_pszResultClass
 
 String representation of the result class. If there is no result class, this field is <b>NULL</b>.
 
-
 ### -field m_pszAssocClass
 
 String representation of the association class. If there is no result class, this field is <b>NULL</b>.
-
 
 ### -field m_pszRole
 
 String representation of the role. If there is no role, this field is <b>NULL</b>.
 
-
 ### -field m_pszResultRole
 
 String representation of the result role. If there is no result role, this field is <b>NULL</b>.
-
 
 ### -field m_pszRequiredQualifier
 
 String representation of the required qualifier. If no qualifiers are required, this field is <b>NULL</b>.
 
-
 ### -field m_pszRequiredAssocQualifier
 
 Pointer to a list of required association qualifiers.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>

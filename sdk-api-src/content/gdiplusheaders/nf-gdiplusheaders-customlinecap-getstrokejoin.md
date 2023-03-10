@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.CustomLineCap.GetStrokeJoin
 title: CustomLineCap::GetStrokeJoin (gdiplusheaders.h)
 description: The CustomLineCap::GetStrokeJoin method returns the style of LineJoin used to join multiple lines in the same GraphicsPath object.
+helpviewer_keywords: ["CustomLineCap class [GDI+]","GetStrokeJoin method","CustomLineCap.GetStrokeJoin","CustomLineCap::GetStrokeJoin","GetStrokeJoin","GetStrokeJoin method [GDI+]","GetStrokeJoin method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_GetStrokeJoin_","gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeJoin_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetStrokeJoin_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getstrokejoin.htm
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetStrokeJoin method, CustomLineCap.GetStrokeJoin, CustomLineCap::GetStrokeJoin, GetStrokeJoin, GetStrokeJoin method [GDI+], GetStrokeJoin method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetStrokeJoin_, gdiplus._gdiplus_CLASS_CustomLineCap_GetStrokeJoin_
-f1_keywords:
-- gdiplusheaders/CustomLineCap.GetStrokeJoin
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- CustomLineCap.GetStrokeJoin
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - CustomLineCap::GetStrokeJoin
+ - gdiplusheaders/CustomLineCap::GetStrokeJoin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - CustomLineCap.GetStrokeJoin
 ---
 
 # CustomLineCap::GetStrokeJoin
@@ -49,41 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CustomLineCap::GetStrokeJoin</b> method returns the style of <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a> used to join multiple lines in the same <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
-
-
-## -parameters
-
-
-
+The <b>CustomLineCap::GetStrokeJoin</b> method returns the style of <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a> used to join multiple lines in the same <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
-</strong>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a></b>
 
 This method returns the style of line join.
 
-
-
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object uses a path and a stroke to define the end cap. The stroke is contained in a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object, which can contain more than one figure. If there is more than one figure in the <b>GraphicsPath</b> object, the stroke join determines how their joint is graphically displayed.
+The <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object uses a path and a stroke to define the end cap. The stroke is contained in a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object, which can contain more than one figure. If there is more than one figure in the <b>GraphicsPath</b> object, the stroke join determines how their joint is graphically displayed.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object with a stroke join. It then gets the stroke join and assigns it as the line join of a  <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that it then uses to draw a line.
+The following example creates a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object with a stroke join. It then gets the stroke join and assigns it as the line join of a  <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that it then uses to draw a line.
 
 
 ```cpp
@@ -116,25 +103,14 @@ VOID Example_GetStrokeJoin(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a>

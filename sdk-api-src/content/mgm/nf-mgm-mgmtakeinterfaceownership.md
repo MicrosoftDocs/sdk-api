@@ -2,15 +2,12 @@
 UID: NF:mgm.MgmTakeInterfaceOwnership
 title: MgmTakeInterfaceOwnership function (mgm.h)
 description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
+helpviewer_keywords: ["MgmTakeInterfaceOwnership","MgmTakeInterfaceOwnership function [RAS]","_mpr_mgmtakeinterfaceownership","mgm/MgmTakeInterfaceOwnership","rras.mgmtakeinterfaceownership"]
 old-location: rras\mgmtakeinterfaceownership.htm
 tech.root: RRAS
 ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
 ms.date: 12/05/2018
 ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
-f1_keywords:
-- mgm/MgmTakeInterfaceOwnership
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmTakeInterfaceOwnership
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmTakeInterfaceOwnership
+ - mgm/MgmTakeInterfaceOwnership
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmTakeInterfaceOwnership
 ---
 
 # MgmTakeInterfaceOwnership function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmTakeInterfaceOwnership</b> function is called by a client (such as a routing protocol) when it is enabled on an interface.
 
 Only one client can take ownership of a given interface at any time. The only exception to this rule is the IGMP. IGMP can coexist with another client on an interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 ### -param dwIfIndex [in]
 
 Specifies the index of the interface of which to take ownership.
-
 
 ### -param dwIfNextHopAddr [in]
 
@@ -80,10 +75,7 @@ Specifies the address of the next hop that corresponds to the index specified by
 
 For broadcast interfaces (such as Ethernet interfaces) or point-to-point interfaces, which are identified by only the value of <i>dwIfIndex</i>, specify zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -144,34 +136,18 @@ Not enough memory to complete this operation.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 A client must take ownership of an interface only after registering itself with the multicast group manager, but before it adds group membership entries.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgetprotocoloninterface">MgmGetProtocolOnInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgetprotocoloninterface">MgmGetProtocolOnInterface</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>

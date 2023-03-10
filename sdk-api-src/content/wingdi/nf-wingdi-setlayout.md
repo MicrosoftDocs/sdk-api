@@ -2,15 +2,12 @@
 UID: NF:wingdi.SetLayout
 title: SetLayout function (wingdi.h)
 description: The SetLayout function changes the layout of a device context (DC).
+helpviewer_keywords: ["LAYOUT_BITMAPORIENTATIONPRESERVED","LAYOUT_RTL","SetLayout","SetLayout function [Windows GDI]","_win32_SetLayout","gdi.setlayout","wingdi/SetLayout"]
 old-location: gdi\setlayout.htm
 tech.root: gdi
 ms.assetid: 81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d
 ms.date: 12/05/2018
 ms.keywords: LAYOUT_BITMAPORIENTATIONPRESERVED, LAYOUT_RTL, SetLayout, SetLayout function [Windows GDI], _win32_SetLayout, gdi.setlayout, wingdi/SetLayout
-f1_keywords:
-- wingdi/SetLayout
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-0.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- SetLayout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetLayout
+ - wingdi/SetLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-0.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - SetLayout
 ---
 
 # SetLayout function
@@ -53,19 +55,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetLayout</b> function changes the layout of a device context (DC).
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the DC.
-
 
 ### -param l [in]
 
@@ -82,7 +78,7 @@ The DC layout. This parameter can be one or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Disables any reflection during <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> operations.
+Disables any reflection during <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> operations.
 
 </td>
 </tr>
@@ -97,23 +93,14 @@ Sets the default horizontal layout to be right to left.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns the previous layout of the DC.
 
 If the function fails, it returns GDI_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 The layout specifies the order in which text and graphics are revealed in a window or a device context. The default is left to right. The <b>SetLayout</b> function changes this to be right to left, which is the standard in Arabic and Hebrew cultures.
 
@@ -157,27 +144,17 @@ Once the LAYOUT_RTL flag is selected, flags normally specifying right or left ar
 
 <b>SetLayout</b> cannot modify drawing directly into the bits of a DIB.
 
-For more information, see "Window Layout and Mirroring" in <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Features</a>.
-
-
-
+For more information, see "Window Layout and Mirroring" in <a href="/windows/desktop/winmsg/window-features">Window Features</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getlayout">GetLayout
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getlayout">GetLayout
       </a>
- 
-
- 
-

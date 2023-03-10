@@ -2,15 +2,12 @@
 UID: NS:wingdi.tagPANOSE
 title: PANOSE (wingdi.h)
 description: The PANOSE structure describes the PANOSE font-classification values for a TrueType font. These characteristics are then used to associate the font with other fonts of similar appearance but different names.
+helpviewer_keywords: ["*LPPANOSE","LPPANOSE","LPPANOSE structure pointer [Windows GDI]","PANOSE","PANOSE structure [Windows GDI]","_win32_PANOSE_str","gdi.panose","wingdi/LPPANOSE","wingdi/PANOSE"]
 old-location: gdi\panose.htm
 tech.root: gdi
 ms.assetid: 18aa4a36-8e47-4e35-973f-376d412ed923
 ms.date: 12/05/2018
 ms.keywords: '*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, wingdi/LPPANOSE, wingdi/PANOSE'
-f1_keywords:
-- wingdi/PANOSE
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- PANOSE
 targetos: Windows
 req.typenames: PANOSE, *LPPANOSE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPANOSE
+ - wingdi/tagPANOSE
+ - LPPANOSE
+ - wingdi/LPPANOSE
+ - PANOSE
+ - wingdi/PANOSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - PANOSE
 ---
 
 # PANOSE structure
@@ -48,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>PANOSE</b> structure describes the PANOSE font-classification values for a TrueType font. These characteristics are then used to associate the font with other fonts of similar appearance but different names.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field bFamilyType
 
@@ -94,8 +92,6 @@ For Latin fonts, one of one of the following values.
 <td>Pictorial</td>
 </tr>
 </table>
- 
-
 
 ### -field bSerifStyle
 
@@ -171,8 +167,6 @@ The serif style. For Latin fonts, one of the following values.
 <td>Rounded</td>
 </tr>
 </table>
- 
-
 
 ### -field bWeight
 
@@ -232,8 +226,6 @@ For Latin fonts, one of the following values.
 <td>Nord</td>
 </tr>
 </table>
- 
-
 
 ### -field bProportion
 
@@ -285,8 +277,6 @@ For Latin fonts, one of the following values.
 <td>Monospaced</td>
 </tr>
 </table>
- 
-
 
 ### -field bContrast
 
@@ -338,8 +328,6 @@ For Latin fonts,  one of the following values.
 <td>Very high</td>
 </tr>
 </table>
- 
-
 
 ### -field bStrokeVariation
 
@@ -387,8 +375,6 @@ For Latin fonts, one of the following values.
 <td>Instant/vertical</td>
 </tr>
 </table>
- 
-
 
 ### -field bArmStyle
 
@@ -448,8 +434,6 @@ For Latin fonts, one of the following values.
 <td>Nonstraight arms/double-serif</td>
 </tr>
 </table>
- 
-
 
 ### -field bLetterform
 
@@ -525,8 +509,6 @@ For Latin fonts, one of the following values.
 <td>Oblique/square</td>
 </tr>
 </table>
- 
-
 
 ### -field bMidline
 
@@ -594,8 +576,6 @@ For Latin fonts, one of the following values.
 <td>Low/serifed</td>
 </tr>
 </table>
- 
-
 
 ### -field bXHeight
 
@@ -639,28 +619,19 @@ For Latin fonts, one of the following values.
 <td>Ducking/large</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/ns-wingdi-extlogfonta">EXTLOGFONT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-extlogfonta">EXTLOGFONT</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETEXTMETRIC</a>

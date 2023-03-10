@@ -2,15 +2,12 @@
 UID: NF:netcon.INetConnectionProps.get_Status
 title: INetConnectionProps::get_Status (netcon.h)
 description: The get_Status method retrieves the status of the connection.
+helpviewer_keywords: ["INetConnectionProps interface [ICS/ICF]","get_Status method","INetConnectionProps.get_Status","INetConnectionProps::get_Status","_ics_inetconnectionprops_get_status","get_Status","get_Status method [ICS/ICF]","get_Status method [ICS/ICF]","INetConnectionProps interface","ics.inetconnectionprops_get_status","netcon/INetConnectionProps::get_Status"]
 old-location: ics\inetconnectionprops_get_status.htm
 tech.root: ics
 ms.assetid: a8d9506a-00a4-4202-aa1f-652a71cb5f0a
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Status method, INetConnectionProps.get_Status, INetConnectionProps::get_Status, _ics_inetconnectionprops_get_status, get_Status, get_Status method [ICS/ICF], get_Status method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_status, netcon/INetConnectionProps::get_Status
-f1_keywords:
-- netcon/INetConnectionProps.get_Status
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetConnectionProps.get_Status
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetConnectionProps::get_Status
+ - netcon/INetConnectionProps::get_Status
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetConnectionProps.get_Status
 ---
 
 # INetConnectionProps::get_Status
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_Status</b> method retrieves the status of the connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pStatus [out]
 
 Pointer to a variable of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a> that, on successful return, receives a code that specifies the status of the connection.
-
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a> that, on successful return, receives a code that specifies the status of the connection.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -168,22 +162,11 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>

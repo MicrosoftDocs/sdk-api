@@ -4,15 +4,17 @@ title: Ipxrtdef.h header
 ms.assetid: b37109dc-4bfd-32a5-8382-30f9516d3f3d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: rras
+f1_keywords:
+ - ipxrtdef
+ - ipxrtdef/ipxrtdef
 ---
 
 # Ipxrtdef.h header
 
 
 ## -description
-
 
 This header is used by Routing and Remote Access Service. For more information, see:
 

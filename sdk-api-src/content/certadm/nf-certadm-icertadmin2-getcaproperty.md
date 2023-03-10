@@ -1,16 +1,13 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAProperty
 title: ICertAdmin2::GetCAProperty (certadm.h)
-description: Retrieves a property value for the certification authority (CA).
+description: Retrieves a property value for the certification authority (CA). (ICertAdmin2.GetCAProperty)
+helpviewer_keywords: ["CCertAdmin object [Security]","GetCAProperty method","CR_PROP_ADVANCEDSERVER","CR_PROP_BASECRL","CR_PROP_BASECRLPUBLISHSTATUS","CR_PROP_CABACKWARDCROSSCERT","CR_PROP_CABACKWARDCROSSCERTSTATE","CR_PROP_CACERTSTATE","CR_PROP_CACERTSTATUSCODE","CR_PROP_CACERTVERSION","CR_PROP_CAFORWARDCROSSCERT","CR_PROP_CAFORWARDCROSSCERTSTATE","CR_PROP_CANAME","CR_PROP_CASIGCERT","CR_PROP_CASIGCERTCHAIN","CR_PROP_CASIGCERTCOUNT","CR_PROP_CASIGCERTCRLCHAIN","CR_PROP_CATYPE","CR_PROP_CAXCHGCERT","CR_PROP_CAXCHGCERTCHAIN","CR_PROP_CAXCHGCERTCOUNT","CR_PROP_CAXCHGCERTCRLCHAIN","CR_PROP_CERTAIAURLS","CR_PROP_CERTCDPURLS","CR_PROP_CRLSTATE","CR_PROP_DELTACRL","CR_PROP_DELTACRLPUBLISHSTATUS","CR_PROP_DNSNAME","CR_PROP_EXITCOUNT","CR_PROP_EXITDESCRIPTION","CR_PROP_FILEVERSION","CR_PROP_KRACERT","CR_PROP_KRACERTCOUNT","CR_PROP_KRACERTSTATE","CR_PROP_KRACERTUSEDCOUNT","CR_PROP_PARENTCA","CR_PROP_POLICYDESCRIPTION","CR_PROP_PRODUCTVERSION","CR_PROP_ROLESEPARATIONENABLED","CR_PROP_SANITIZEDCANAME","CR_PROP_SANITIZEDCASHORTNAME","CR_PROP_SHAREDFOLDER","CR_PROP_TEMPLATES","CV_OUT_BASE64","CV_OUT_BASE64HEADER","CV_OUT_BASE64REQUESTHEADER","CV_OUT_BASE64X509CRLHEADER","CV_OUT_BINARY","CV_OUT_HEX","CV_OUT_HEXADDR","CV_OUT_HEXASCII","CV_OUT_HEXASCIIADDR","GetCAProperty","GetCAProperty method [Security]","GetCAProperty method [Security]","CCertAdmin object","GetCAProperty method [Security]","ICertAdmin2 interface","ICertAdmin2 interface [Security]","GetCAProperty method","ICertAdmin2.GetCAProperty","ICertAdmin2::GetCAProperty","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","_certsrv_icertadmin2_getcaproperty","certadm/ICertAdmin2::GetCAProperty","security.icertadmin2_getcaproperty"]
 old-location: security\icertadmin2_getcaproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8eaa2e36-4358-4abd-a7c2-2c9768766597
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],GetCAProperty method, CR_PROP_ADVANCEDSERVER, CR_PROP_BASECRL, CR_PROP_BASECRLPUBLISHSTATUS, CR_PROP_CABACKWARDCROSSCERT, CR_PROP_CABACKWARDCROSSCERTSTATE, CR_PROP_CACERTSTATE, CR_PROP_CACERTSTATUSCODE, CR_PROP_CACERTVERSION, CR_PROP_CAFORWARDCROSSCERT, CR_PROP_CAFORWARDCROSSCERTSTATE, CR_PROP_CANAME, CR_PROP_CASIGCERT, CR_PROP_CASIGCERTCHAIN, CR_PROP_CASIGCERTCOUNT, CR_PROP_CASIGCERTCRLCHAIN, CR_PROP_CATYPE, CR_PROP_CAXCHGCERT, CR_PROP_CAXCHGCERTCHAIN, CR_PROP_CAXCHGCERTCOUNT, CR_PROP_CAXCHGCERTCRLCHAIN, CR_PROP_CERTAIAURLS, CR_PROP_CERTCDPURLS, CR_PROP_CRLSTATE, CR_PROP_DELTACRL, CR_PROP_DELTACRLPUBLISHSTATUS, CR_PROP_DNSNAME, CR_PROP_EXITCOUNT, CR_PROP_EXITDESCRIPTION, CR_PROP_FILEVERSION, CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTSTATE, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_PARENTCA, CR_PROP_POLICYDESCRIPTION, CR_PROP_PRODUCTVERSION, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_SANITIZEDCANAME, CR_PROP_SANITIZEDCASHORTNAME, CR_PROP_SHAREDFOLDER, CR_PROP_TEMPLATES, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty, GetCAProperty method [Security], GetCAProperty method [Security],CCertAdmin object, GetCAProperty method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAProperty method, ICertAdmin2.GetCAProperty, ICertAdmin2::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertadmin2_getcaproperty, certadm/ICertAdmin2::GetCAProperty, security.icertadmin2_getcaproperty
-f1_keywords:
-- certadm/ICertAdmin2.GetCAProperty
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.GetCAProperty
-- CCertAdmin.GetCAProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::GetCAProperty
+ - certadm/ICertAdmin2::GetCAProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.GetCAProperty
+ - CCertAdmin.GetCAProperty
 ---
 
 # ICertAdmin2::GetCAProperty
@@ -49,21 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
-
+The <b>GetCAProperty</b> method retrieves a property value for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param PropId [in]
@@ -97,7 +94,7 @@ Specifies whether the CA is running Advanced Server.
 <td width="60%">
 Data type of the property: Binary, indexed
 
-The CA's full, or base, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
+The CA's full, or base, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
@@ -599,7 +596,7 @@ Value specifying whether role separation is enabled.
 <td width="60%">
 Data type of the property: String
 
-The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
+The sanitized name of the CA. For a definition of a sanitized CA name, see <a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -612,7 +609,7 @@ The sanitized name of the CA. For a definition of a sanitized CA name, see <a hr
 <td width="60%">
 Data type of the property: String
 
-The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
+The sanitized short name of the CA. For a definition of a sanitized CA short name, see <a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
 
 </td>
 </tr>
@@ -643,13 +640,10 @@ List of templates supported by the CA.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropIndex [in]
 
 If the <i>PropId</i> parameter is indexed, the zero-based index to use when retrieving the property value. If <i>PropId</i> is not indexed, this value is ignored.
-
 
 ### -param PropType [in]
 
@@ -696,17 +690,15 @@ Binary data
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string data
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string data
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
-The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>) and is ignored otherwise.
+The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains or <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a>) and is ignored otherwise.
 
 <table>
 <tr>
@@ -804,17 +796,12 @@ Hexadecimal string with ASCII and address/offset
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvarPropertyValue [out]
 
-A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
-
+A pointer to a buffer that receives the requested property value. It is a caller's responsibility to free this resource when done by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 ## -returns
-
-
 
 <h3>C++</h3>
 The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was successful.
@@ -822,12 +809,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 <h3>VB</h3>
 The requested property value.
 
-
-
-
 ## -remarks
-
-
 
 The following values are returned when the property identifier is CR_PROP_BASECRLPUBLISHSTATUS or CR_PROP_DELTACRLPUBLISHSTATUS. These values can be combined.
 
@@ -887,12 +869,12 @@ The following values are returned when the property identifier is CR_PROP_BASECR
 </table>
  
 
-For an example of retrieving a CRL, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-a-certificate-revocation-list">Retrieving a Certificate Revocation List</a>.
+For an example of retrieving a CRL, see <a href="/windows/desktop/SecCrypto/retrieving-a-certificate-revocation-list">Retrieving a Certificate Revocation List</a>.
 
 
 #### Examples
 
-The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a> interface pointer is valid.
+The following example shows retrieving the signature certificate of the CA. The  example assumes the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a> interface pointer is valid.
 
 
 ```cpp
@@ -929,7 +911,3 @@ if (FAILED(hr))
 VariantClear(&var1);
 SysFreeString(bstrCA);
 ```
-
-
-
-

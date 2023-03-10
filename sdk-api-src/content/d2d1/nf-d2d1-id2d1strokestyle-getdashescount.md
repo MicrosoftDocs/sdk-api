@@ -2,15 +2,12 @@
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashesCount
 title: ID2D1StrokeStyle::GetDashesCount (d2d1.h)
 description: Retrieves the number of entries in the dashes array.
+helpviewer_keywords: ["GetDashesCount","GetDashesCount method [Direct2D]","GetDashesCount method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetDashesCount method","ID2D1StrokeStyle.GetDashesCount","ID2D1StrokeStyle::GetDashesCount","d2d1/ID2D1StrokeStyle::GetDashesCount","direct2d.ID2D1StrokeStyle_GetDashesCount"]
 old-location: direct2d\ID2D1StrokeStyle_GetDashesCount.htm
 tech.root: Direct2D
 ms.assetid: 0bd1df70-17db-4f0f-b7a4-b26601b23c44
 ms.date: 12/05/2018
 ms.keywords: GetDashesCount, GetDashesCount method [Direct2D], GetDashesCount method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashesCount method, ID2D1StrokeStyle.GetDashesCount, ID2D1StrokeStyle::GetDashesCount, d2d1/ID2D1StrokeStyle::GetDashesCount, direct2d.ID2D1StrokeStyle_GetDashesCount
-f1_keywords:
-- d2d1/ID2D1StrokeStyle.GetDashesCount
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1StrokeStyle.GetDashesCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1StrokeStyle::GetDashesCount
+ - d2d1/ID2D1StrokeStyle::GetDashesCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1StrokeStyle.GetDashesCount
 ---
 
 # ID2D1StrokeStyle::GetDashesCount
@@ -48,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of entries in the dashes array.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>UINT32</b>
 
 The number of entries in the dashes array if the stroke is dashed; otherwise, 0.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
- 
-
- 
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
 

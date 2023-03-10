@@ -1,16 +1,13 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontRenderingEmSize
 title: IXpsOMGlyphs::GetFontRenderingEmSize (xpsobjectmodel.h)
-description: Gets the font size.
+description: Gets the font size. (IXpsOMGlyphs.GetFontRenderingEmSize)
+helpviewer_keywords: ["GetFontRenderingEmSize","GetFontRenderingEmSize method [XPS Documents and Packaging]","GetFontRenderingEmSize method [XPS Documents and Packaging]","IXpsOMGlyphs interface","IXpsOMGlyphs interface [XPS Documents and Packaging]","GetFontRenderingEmSize method","IXpsOMGlyphs.GetFontRenderingEmSize","IXpsOMGlyphs::GetFontRenderingEmSize","xps.ixpsomglyphs_getfontrenderingemsize","xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize"]
 old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: be1c6eff-20ef-49d3-929e-3595b421bcb9
 ms.date: 12/05/2018
 ms.keywords: GetFontRenderingEmSize, GetFontRenderingEmSize method [XPS Documents and Packaging], GetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontRenderingEmSize method, IXpsOMGlyphs.GetFontRenderingEmSize, IXpsOMGlyphs::GetFontRenderingEmSize, xps.ixpsomglyphs_getfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphs.GetFontRenderingEmSize
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphs.GetFontRenderingEmSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphs::GetFontRenderingEmSize
+ - xpsobjectmodel/IXpsOMGlyphs::GetFontRenderingEmSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphs.GetFontRenderingEmSize
 ---
 
 # IXpsOMGlyphs::GetFontRenderingEmSize
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the font size.
 
-
 ## -parameters
-
-
-
 
 ### -param fontRenderingEmSize [out, retval]
 
 The  font size.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,14 +90,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The em size that is returned in <i>fontRenderingEmSize</i> specifies the font size in the drawing surface units. The drawing surface units are expressed as floating-point values in the effective coordinate space.
 
@@ -111,24 +99,14 @@ In new glyph objects, the default value of <i>fontRenderingEmSize</i> is 10.0.
 
 If the value of <i>fontRenderingEmSize</i> is 0.0, no text is displayed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs">IXpsOMGlyphs</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

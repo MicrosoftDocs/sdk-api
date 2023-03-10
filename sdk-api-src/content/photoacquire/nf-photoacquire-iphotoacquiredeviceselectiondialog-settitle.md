@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.SetTitle
 title: IPhotoAcquireDeviceSelectionDialog::SetTitle (photoacquire.h)
 description: The SetTitle method sets the title of the device selection dialog box.
+helpviewer_keywords: ["IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","SetTitle method","IPhotoAcquireDeviceSelectionDialog.SetTitle","IPhotoAcquireDeviceSelectionDialog::SetTitle","IPhotoAcquireDeviceSelectionDialogSetTitle","SetTitle","SetTitle method [Picture Acquisition]","SetTitle method [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface","photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle","picacq.iphotoacquiredeviceselectiondialog_settitle"]
 old-location: picacq\iphotoacquiredeviceselectiondialog_settitle.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: e8338978-3232-41b2-87ee-11eee3e90fc6
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],SetTitle method, IPhotoAcquireDeviceSelectionDialog.SetTitle, IPhotoAcquireDeviceSelectionDialog::SetTitle, IPhotoAcquireDeviceSelectionDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoAcquireDeviceSelectionDialog interface, photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle, picacq.iphotoacquiredeviceselectiondialog_settitle
-f1_keywords:
-- photoacquire/IPhotoAcquireDeviceSelectionDialog.SetTitle
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireDeviceSelectionDialog.SetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireDeviceSelectionDialog::SetTitle
+ - photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireDeviceSelectionDialog.SetTitle
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetTitle
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetTitle</code> method sets the title of the device selection dialog box.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszTitle [in]
 
 Pointer to a null-terminated string containing the title.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiredeviceselectiondialog">IPhotoAcquireDeviceSelectionDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiredeviceselectiondialog">IPhotoAcquireDeviceSelectionDialog Interface</a>

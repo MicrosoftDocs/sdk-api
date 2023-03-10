@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIStreamNearestSample
 title: AVIStreamNearestSample macro (vfw.h)
 description: The AVIStreamNearestSample macro locates the nearest nonempty sample at or preceding a specified position in a stream.
+helpviewer_keywords: ["AVIStreamNearestSample","AVIStreamNearestSample macro [Windows Multimedia]","_win32_AVIStreamNearestSample","multimedia.avistreamnearestsample","vfw/AVIStreamNearestSample"]
 old-location: multimedia\avistreamnearestsample.htm
 tech.root: Multimedia
 ms.assetid: 350255b7-35ae-4eed-8991-82b548a2fa65
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNearestSample, AVIStreamNearestSample macro [Windows Multimedia], _win32_AVIStreamNearestSample, multimedia.avistreamnearestsample, vfw/AVIStreamNearestSample
-f1_keywords:
-- vfw/AVIStreamNearestSample
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVIStreamNearestSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamNearestSample
+ - vfw/AVIStreamNearestSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVIStreamNearestSample
 ---
 
 # AVIStreamNearestSample macro
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIStreamNearestSample</b> macro locates the nearest nonempty sample at or preceding a specified position in a stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pavi
 
-Handle to an open stream. 
-
+Handle to an open stream.
 
 ### -param l
 
-Starting position to search in the stream. 
-
+Starting position to search in the stream.
 
 ## -remarks
-
-
 
 The <b>AVIStreamNearestSample</b> macro is defined as follows:
 
@@ -84,21 +74,10 @@ The <b>AVIStreamNearestSample</b> macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>

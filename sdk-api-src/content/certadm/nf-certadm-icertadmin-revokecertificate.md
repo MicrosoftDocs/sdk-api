@@ -2,15 +2,12 @@
 UID: NF:certadm.ICertAdmin.RevokeCertificate
 title: ICertAdmin::RevokeCertificate (certadm.h)
 description: Revokes a certificate either on a specified date or immediately. This method was first defined in the ICertAdmin interface.
+helpviewer_keywords: ["CCertAdmin interface [Security]","RevokeCertificate method","CRL_REASON_AFFILIATION_CHANGED","CRL_REASON_CA_COMPROMISE","CRL_REASON_CERTIFICATE_HOLD","CRL_REASON_CESSATION_OF_OPERATION","CRL_REASON_KEY_COMPROMISE","CRL_REASON_SUPERSEDED","CRL_REASON_UNSPECIFIED","ICertAdmin interface [Security]","RevokeCertificate method","ICertAdmin.RevokeCertificate","ICertAdmin2 interface [Security]","RevokeCertificate method","ICertAdmin2::RevokeCertificate","ICertAdmin::RevokeCertificate","RevokeCertificate","RevokeCertificate method [Security]","RevokeCertificate method [Security]","CCertAdmin interface","RevokeCertificate method [Security]","ICertAdmin interface","RevokeCertificate method [Security]","ICertAdmin2 interface","certadm/ICertAdmin2::RevokeCertificate","certadm/ICertAdmin::RevokeCertificate","security.icertadmin2_revokecertificate"]
 old-location: security\icertadmin2_revokecertificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d44ff8c1-a248-4e2a-a73f-55fbea9fce03
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin interface [Security],RevokeCertificate method, CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, ICertAdmin interface [Security],RevokeCertificate method, ICertAdmin.RevokeCertificate, ICertAdmin2 interface [Security],RevokeCertificate method, ICertAdmin2::RevokeCertificate, ICertAdmin::RevokeCertificate, RevokeCertificate, RevokeCertificate method [Security], RevokeCertificate method [Security],CCertAdmin interface, RevokeCertificate method [Security],ICertAdmin interface, RevokeCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::RevokeCertificate, certadm/ICertAdmin::RevokeCertificate, security.icertadmin2_revokecertificate
-f1_keywords:
-- certadm/ICertAdmin2.RevokeCertificate
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.RevokeCertificate
-- ICertAdmin.RevokeCertificate
-- CCertAdmin.RevokeCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin::RevokeCertificate
+ - certadm/ICertAdmin::RevokeCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.RevokeCertificate
+ - ICertAdmin.RevokeCertificate
+ - CCertAdmin.RevokeCertificate
 ---
 
 # ICertAdmin::RevokeCertificate
@@ -50,28 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
+The <b>RevokeCertificate</b> method revokes a <a href="/windows/desktop/SecGloss/c-gly">certificate</a> either on a specified date or immediately. This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
-The <b>RevokeCertificate</b> method revokes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> either on a specified date or immediately. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
-
- A revoked certificate will appear in a subsequent <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), provided the revocation date is effective at the time the CRL was published.
-
+ A revoked certificate will appear in a subsequent <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs), provided the revocation date is effective at the time the CRL was published.
 
 ## -parameters
 
-
-
-
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>RevokeCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>RevokeCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param strSerialNumber [in]
 
  Specifies a serial number that identifies the certificate to be revoked. The string must specify the serial number as an even number of hexadecimal digits. If necessary, a zero can be prefixed to the number to produce an even number of digits. However, no more than one leading zero may be used.
-
 
 ### -param Reason [in]
 
@@ -109,27 +105,18 @@ Specifies the reason for the revocation.
 
 You can reinstate a certificate revoked with the CRL_REASON_CERTIFICATE_HOLD revocation reason code by calling <b>RevokeCertificate</b> with MAXDWORD as the <i>Reason</i> value. Note that if a certificate has been revoked with any reason code other than CRL_REASON_CERTIFICATE_HOLD, it cannot be reinstated.
 
-
 ### -param Date [in]
 
 Specifies the date, in Coordinated Universal Time (Greenwich Mean Time), on which the revocation will become effective. The value zero indicates the current Coordinated Universal Time, causing a certificate to be revoked immediately. The value of <i>Date</i> appears in the <b>Effective Revocation Date</b> column of the revoked certificate (in the Certification Authority MMC snap-in).
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
-
-
 
 This method can be called more than once on the same certificate, which allows you to change the effective revocation date and revocation reason.
 
@@ -202,29 +189,18 @@ error:
         SysFreeString( bstrCA );
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>

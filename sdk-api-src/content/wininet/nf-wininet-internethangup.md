@@ -1,16 +1,13 @@
 ---
 UID: NF:wininet.InternetHangUp
 title: InternetHangUp function (wininet.h)
-description: Instructs the modem to disconnect from the Internet.
+description: The InternetHangUp function (wininet.h) instructs the modem to disconnect from the Internet.
+helpviewer_keywords: ["InternetHangUp","InternetHangUp function [WinINet]","_inet_internethangup_function","wininet.internethangup","winineti/InternetHangUp"]
 old-location: wininet\internethangup.htm
 tech.root: wininet
 ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
-f1_keywords:
-- wininet/InternetHangUp
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetHangUp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetHangUp
+ - wininet/InternetHangUp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetHangUp
 ---
 
 # InternetHangUp function
@@ -48,54 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Instructs the modem to disconnect from the Internet.
 
-
 ## -parameters
-
-
-
 
 ### -param dwConnection [in]
 
 Connection number of  the connection to be disconnected.
 
-
 ### -param dwReserved [in]
 
 This parameter is reserved and must be 0.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/WinInet/establishing-a-dial-up-connection-to-the-internet">Establishing a Dial-Up Connection to the Internet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/establishing-a-dial-up-connection-to-the-internet">Establishing a Dial-Up Connection to the Internet</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

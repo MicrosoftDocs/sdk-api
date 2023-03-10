@@ -1,16 +1,13 @@
 ---
 UID: NS:commctrl.tagLVFINDINFOA
 title: LVFINDINFOA (commctrl.h)
-description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
+description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions. (ANSI)
+helpviewer_keywords: ["*LPFINDINFOA","LPFINDINFO","LPFINDINFO structure pointer [Windows Controls]","LVFINDINFO","LVFINDINFO structure [Windows Controls]","LVFINDINFOA","LVFINDINFOW","LVFI_NEARESTXY","LVFI_PARAM","LVFI_PARTIAL","LVFI_STRING","LVFI_SUBSTRING","LVFI_WRAP","_win32_LVFINDINFO","_win32_LVFINDINFO_cpp","commctrl/LPFINDINFO","commctrl/LVFINDINFO","commctrl/LVFINDINFOA","commctrl/LVFINDINFOW","controls.LVFINDINFO","controls._win32_LVFINDINFO"]
 old-location: controls\LVFINDINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfindinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPFINDINFOA, LPFINDINFO, LPFINDINFO structure pointer [Windows Controls], LVFINDINFO, LVFINDINFO structure [Windows Controls], LVFINDINFOA, LVFINDINFOW, LVFI_NEARESTXY, LVFI_PARAM, LVFI_PARTIAL, LVFI_STRING, LVFI_SUBSTRING, LVFI_WRAP, _win32_LVFINDINFO, _win32_LVFINDINFO_cpp, commctrl/LPFINDINFO, commctrl/LVFINDINFO, commctrl/LVFINDINFOA, commctrl/LVFINDINFOW, controls.LVFINDINFO, controls._win32_LVFINDINFO'
-f1_keywords:
-- commctrl/LVFINDINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- LVFINDINFO
-- LVFINDINFOA
-- LVFINDINFOW
 targetos: Windows
 req.typenames: LVFINDINFOA, *LPFINDINFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLVFINDINFOA
+ - commctrl/tagLVFINDINFOA
+ - LPFINDINFOA
+ - commctrl/LPFINDINFOA
+ - LVFINDINFOA
+ - commctrl/LVFINDINFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - LVFINDINFO
+ - LVFINDINFOA
+ - LVFINDINFOW
 ---
 
 # LVFINDINFOA structure
@@ -50,18 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions. 
-
+Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
 
 ## -struct-fields
 
-
-
-
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Type of search to perform. This member can be set to one or more of the following values: 
 
@@ -76,7 +77,7 @@ Type of search to perform. This member can be set to one or more of the followin
 </dl>
 </td>
 <td width="60%">
-Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure.
+Searches for a match between this structure's <b>lParam</b> member and the <b>lParam</b> member of an item's <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure.
 
 </td>
 </tr>
@@ -131,34 +132,29 @@ Finds the item nearest to the position specified in the <b>pt</b> member, in the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field psz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 Address of a null-terminated string to compare with the item text. It is valid only if LVFI_STRING or LVFI_PARTIAL is set in the <b>flags</b> member.
 
-
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Value to compare with the <b>lParam</b> member of a list-view item's <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
-
+Value to compare with the <b>lParam</b> member of a list-view item's <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure. It is valid only if LVFI_PARAM is set in the <b>flags</b> member.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
-
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 
 ### -field vkDirection
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Virtual key code that specifies the direction to search. The following codes are supported: 
 			
@@ -176,3 +172,7 @@ Virtual key code that specifies the direction to search. The following codes are
 </ul>
 This member is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines LVFINDINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

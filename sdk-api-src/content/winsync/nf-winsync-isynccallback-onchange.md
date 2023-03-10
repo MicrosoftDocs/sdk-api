@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncCallback.OnChange
 title: ISyncCallback::OnChange (winsync.h)
 description: Occurs before a change is applied.
+helpviewer_keywords: ["ISyncCallback interface [Windows Sync]","OnChange method","ISyncCallback.OnChange","ISyncCallback::OnChange","OnChange","OnChange method [Windows Sync]","OnChange method [Windows Sync]","ISyncCallback interface","winsync.isynccallback_onchange","winsync/ISyncCallback::OnChange"]
 old-location: winsync\isynccallback_onchange.htm
 tech.root: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
-f1_keywords:
-- winsync/ISyncCallback.OnChange
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncCallback.OnChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncCallback::OnChange
+ - winsync/ISyncCallback::OnChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncCallback.OnChange
 ---
 
 # ISyncCallback::OnChange
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Occurs before a change is applied.
 
-
 ## -parameters
-
-
-
 
 ### -param pSyncChange [in]
 
 The item change that is about to be applied.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,18 +87,7 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>

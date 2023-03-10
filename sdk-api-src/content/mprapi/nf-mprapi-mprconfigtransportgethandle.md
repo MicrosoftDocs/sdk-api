@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprConfigTransportGetHandle
 title: MprConfigTransportGetHandle function (mprapi.h)
 description: The MprConfigTransportGetHandle function retrieves a handle to the specified transport protocol's configuration in the specified router configuration.
+helpviewer_keywords: ["MprConfigTransportGetHandle","MprConfigTransportGetHandle function [RAS]","_mpr_mprconfigtransportgethandle","mprapi/MprConfigTransportGetHandle","rras.mprconfigtransportgethandle"]
 old-location: rras\mprconfigtransportgethandle.htm
 tech.root: RRAS
 ms.assetid: 2d3a2300-de10-4ee0-ba0e-bda26cf9a910
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportGetHandle, MprConfigTransportGetHandle function [RAS], _mpr_mprconfigtransportgethandle, mprapi/MprConfigTransportGetHandle, rras.mprconfigtransportgethandle
-f1_keywords:
-- mprapi/MprConfigTransportGetHandle
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigTransportGetHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigTransportGetHandle
+ - mprapi/MprConfigTransportGetHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigTransportGetHandle
 ---
 
 # MprConfigTransportGetHandle function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigTransportGetHandle</b> function retrieves a handle to the specified transport protocol's configuration in the specified router configuration.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. The handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param dwTransportId [in]
 
@@ -94,18 +90,13 @@ A <b>DWORD</b> value that describes the transport configuration handle type in t
 <td>Windows Server 2008 or later: Internet Protocol version 6</td>
 </tr>
 </table>
- 
-
 
 ### -param phRouterTransport [out]
 
 A pointer to a  
 <b>HANDLE</b> variable that receives the transport configuration handle type indicated in the <i>dwTransportId</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -157,35 +148,24 @@ The transport protocol specified by <i>dwTransportId</i> was not found in the ro
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

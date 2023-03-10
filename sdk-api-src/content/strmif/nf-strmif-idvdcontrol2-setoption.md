@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.SetOption
 title: IDvdControl2::SetOption (strmif.h)
 description: The SetOption method enables or disables an internal behavior flag on the DVD Navigator filter.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetOption method","IDvdControl2.SetOption","IDvdControl2::SetOption","IDvdControl2SetOption","SetOption","SetOption method [DirectShow]","SetOption method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_setoption","strmif/IDvdControl2::SetOption"]
 old-location: dshow\idvdcontrol2_setoption.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
-f1_keywords:
-- strmif/IDvdControl2.SetOption
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SetOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SetOption
+ - strmif/IDvdControl2::SetOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SetOption
 ---
 
 # IDvdControl2::SetOption
@@ -49,34 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>SetOption</b> method enables or disables an internal behavior flag on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter.
-
-
-
+The <b>SetOption</b> method enables or disables an internal behavior flag on the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter.
 
 ## -parameters
 
-
-
-
 ### -param flag [in]
 
-Specifies which behavior to modify, as a member of the [DVD_OPTION_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) enumeration type. 
-
+Specifies which behavior to modify, as a member of the [DVD_OPTION_FLAG](/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) enumeration type.
 
 ### -param fState [in]
 
 Specifies the new value of the option given in the <i>flag</i> parameter.
 
-[DVD_OPTION_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) reference page.
+[DVD_OPTION_FLAG](/windows/desktop/api/strmif/ne-strmif-dvd_option_flag) reference page.
           </div>
 <div> </div>
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -108,14 +99,8 @@ Invalid flag.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Call <b>SetOption</b> with the desired flags immediately after creating an instance of the DVD Navigator and whenever you want to change any behaviors.
       
@@ -135,26 +120,15 @@ The following table shows the Annex J command name to which this method name cor
 <td>All</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

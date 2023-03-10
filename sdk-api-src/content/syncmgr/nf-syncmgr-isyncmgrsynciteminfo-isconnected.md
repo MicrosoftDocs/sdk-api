@@ -1,16 +1,13 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.IsConnected
 title: ISyncMgrSyncItemInfo::IsConnected (syncmgr.h)
-description: Generates a value that indicates whether the item&#8212;typically some type of external device&#8212;is connected.
+description: Generates a value that indicates whether the item�typically some type of external device�is connected.
+helpviewer_keywords: ["ISyncMgrSyncItemInfo interface [Windows Shell]","IsConnected method","ISyncMgrSyncItemInfo.IsConnected","ISyncMgrSyncItemInfo::IsConnected","IsConnected","IsConnected method [Windows Shell]","IsConnected method [Windows Shell]","ISyncMgrSyncItemInfo interface","_shell_ISyncMgrSyncItemInfo_IsConnected","shell.ISyncMgrSyncItemInfo_IsConnected","syncmgr/ISyncMgrSyncItemInfo::IsConnected"]
 old-location: shell\ISyncMgrSyncItemInfo_IsConnected.htm
 tech.root: shell
 ms.assetid: 12ecfdba-87fb-4b73-8dac-0279f3f140fc
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsConnected method, ISyncMgrSyncItemInfo.IsConnected, ISyncMgrSyncItemInfo::IsConnected, IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsConnected, shell.ISyncMgrSyncItemInfo_IsConnected, syncmgr/ISyncMgrSyncItemInfo::IsConnected
-f1_keywords:
-- syncmgr/ISyncMgrSyncItemInfo.IsConnected
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrSyncItemInfo.IsConnected
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSyncItemInfo::IsConnected
+ - syncmgr/ISyncMgrSyncItemInfo::IsConnected
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrSyncItemInfo.IsConnected
 ---
 
 # ISyncMgrSyncItemInfo::IsConnected
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a value that indicates whether the item—typically some type of external device—is connected.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
 Returns S_OK if the item is connected; otherwise, S_FALSE. An error returned by this method will be interpreted as S_OK.
 
-
-
-
 ## -remarks
-
-
 
 If an item is disconnected, it is not synchronized by Sync Center. Also, many of the possible actions available to a item—such as Sync—are removed or disabled in the UI.
 
 This value is available in the folder UI as the System.Sync.Connected (PKEY_Sync_Connected) property.
 
-Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
+Sync Center calls this method whenever the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
 
 
 #### Examples
@@ -95,7 +83,3 @@ STDMETHODIMP CMyDeviceSyncItem::IsConnected()
 }
 
 ```
-
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDrawSurface7.SetOverlayPosition
 title: IDirectDrawSurface7::SetOverlayPosition (ddraw.h)
 description: Changes the display coordinates of an overlay surface.
+helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetOverlayPosition method","IDirectDrawSurface7.SetOverlayPosition","IDirectDrawSurface7::SetOverlayPosition","SetOverlayPosition","SetOverlayPosition method [DirectDraw]","SetOverlayPosition method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetOverlayPosition","directdraw.idirectdrawsurface7_setoverlayposition"]
 old-location: directdraw\idirectdrawsurface7_setoverlayposition.htm
 tech.root: directdraw
 ms.assetid: 94bd79f8-ded2-4cfa-98c1-a03202d3e678
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetOverlayPosition method, IDirectDrawSurface7.SetOverlayPosition, IDirectDrawSurface7::SetOverlayPosition, SetOverlayPosition, SetOverlayPosition method [DirectDraw], SetOverlayPosition method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetOverlayPosition, directdraw.idirectdrawsurface7_setoverlayposition
-f1_keywords:
-- ddraw/IDirectDrawSurface7.SetOverlayPosition
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.SetOverlayPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::SetOverlayPosition
+ - ddraw/IDirectDrawSurface7::SetOverlayPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.SetOverlayPosition
 ---
 
 # IDirectDrawSurface7::SetOverlayPosition
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the display coordinates of an overlay surface.
-
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The new x- display coordinate of this surface.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The new y-display coordinate of this surface.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -90,24 +82,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
-
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetOverlayPosition</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

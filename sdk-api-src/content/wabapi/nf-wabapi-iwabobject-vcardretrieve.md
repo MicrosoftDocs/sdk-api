@@ -2,15 +2,12 @@
 UID: NF:wabapi.IWABObject.VCardRetrieve
 title: IWABObject::VCardRetrieve (wabapi.h)
 description: Reads a vCard file and creates a MailUser object containing the vCard properties.
+helpviewer_keywords: ["IWABObject interface [Windows Address Book]","VCardRetrieve method","IWABObject.VCardRetrieve","IWABObject::VCardRetrieve","VCardRetrieve","VCardRetrieve method [Windows Address Book]","VCardRetrieve method [Windows Address Book]","IWABObject interface","WAB_VCARD_FILE","WAB_VCARD_STREAM","_wab_IWABObject_VCardRetrieve","wab._wab_IWABObject_VCardRetrieve","wabapi/IWABObject::VCardRetrieve"]
 old-location: wab\_wab_IWABObject_VCardRetrieve.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardretrieve.htm
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardRetrieve method, IWABObject.VCardRetrieve, IWABObject::VCardRetrieve, VCardRetrieve, VCardRetrieve method [Windows Address Book], VCardRetrieve method [Windows Address Book],IWABObject interface, WAB_VCARD_FILE, WAB_VCARD_STREAM, _wab_IWABObject_VCardRetrieve, wab._wab_IWABObject_VCardRetrieve, wabapi/IWABObject::VCardRetrieve
-f1_keywords:
-- wabapi/IWABObject.VCardRetrieve
-dev_langs:
-- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IWABObject.VCardRetrieve
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IWABObject::VCardRetrieve
+ - wabapi/IWABObject::VCardRetrieve
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IWABObject.VCardRetrieve
 ---
 
 # IWABObject::VCardRetrieve
@@ -49,23 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads a vCard file and creates a MailUser object containing 
 		the vCard properties.
 
-
 ## -parameters
-
-
-
 
 ### -param lpIAB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book object.
-
 
 ### -param ulFlags
 
@@ -88,7 +84,6 @@ Indicates that the <i>lpszVCard</i> parameter is
 Indicates that the <i>lpszVCard</i> parameter 
 		points to a buffer that contains the full contents of the Vcard.
 
-
 ### -param lpszVCard
 
 Type: <b>LPSTR</b>
@@ -96,30 +91,21 @@ Type: <b>LPSTR</b>
 Pointer to a string containing either the complete path name of the 
 				file to be read or the vCard buffer.
 
-
 ### -param lppMailUser
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>**</b>
+Type: <b><a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a>**</b>
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> interface that 
+Address of a pointer to an <a href="/windows/desktop/api/wabdefs/nn-wabdefs-imailuser">IMailUser</a> interface that 
 				receives the MailUser object created containing the properties 
 				in the vCard file.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Vcard retrieval is extensible. If your client application is using 
 	named properties to store client-specific data in the Windows Address Book (WAB) 
@@ -132,6 +118,3 @@ Vcard retrieval is extensible. If your client application is using
 <b>WAB_VCARD_STREAM</b>. The former setting indicates a 
 file name, and the latter setting indicates a pointer to a buffer with the 
 Vcard contents.
-
-
-

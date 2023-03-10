@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireSettings.SetAcquisitionTime
 title: IPhotoAcquireSettings::SetAcquisitionTime (photoacquire.h)
 description: The SetAcquisitionTime method sets the acquisition time explicitly.
+helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetAcquisitionTime method","IPhotoAcquireSettings.SetAcquisitionTime","IPhotoAcquireSettings::SetAcquisitionTime","IPhotoAcquireSettingsSetAcquisitionTime","SetAcquisitionTime","SetAcquisitionTime method [Picture Acquisition]","SetAcquisitionTime method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetAcquisitionTime","picacq.iphotoacquiresettings_setacquisitiontime"]
 old-location: picacq\iphotoacquiresettings_setacquisitiontime.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: fc43be78-f35b-4159-a15c-c21cddee6c9e
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetAcquisitionTime method, IPhotoAcquireSettings.SetAcquisitionTime, IPhotoAcquireSettings::SetAcquisitionTime, IPhotoAcquireSettingsSetAcquisitionTime, SetAcquisitionTime, SetAcquisitionTime method [Picture Acquisition], SetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetAcquisitionTime, picacq.iphotoacquiresettings_setacquisitiontime
-f1_keywords:
-- photoacquire/IPhotoAcquireSettings.SetAcquisitionTime
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSettings.SetAcquisitionTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSettings::SetAcquisitionTime
+ - photoacquire/IPhotoAcquireSettings::SetAcquisitionTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSettings.SetAcquisitionTime
 ---
 
 # IPhotoAcquireSettings::SetAcquisitionTime
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetAcquisitionTime</code> method sets the acquisition time explicitly.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pftAcquisitionTime [in]
 
 Specifies the acquisition time.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is typically used to force two sessions to show the same acquisition time. If not explicitly set, acquisition time defaults to the current machine time.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getacquisitiontime">GetAcquisitionTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getacquisitiontime">GetAcquisitionTime</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>

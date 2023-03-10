@@ -2,15 +2,12 @@
 UID: NS:netioapi._MIB_UNICASTIPADDRESS_ROW
 title: MIB_UNICASTIPADDRESS_ROW (netioapi.h)
 description: Stores information about a unicast IP address.
+helpviewer_keywords: ["*PMIB_UNICASTIPADDRESS_ROW","IpDadStateDeprecated","IpDadStateDuplicate","IpDadStateInvalid","IpDadStatePreferred","IpDadStateTentative","IpPrefixOriginDhcp","IpPrefixOriginManual","IpPrefixOriginOther","IpPrefixOriginRouterAdvertisement","IpPrefixOriginUnchanged","IpPrefixOriginWellKnown","IpSuffixOriginDhcp","IpSuffixOriginLinkLayerAddress","IpSuffixOriginManual","IpSuffixOriginOther","IpSuffixOriginRandom","IpSuffixOriginUnchanged","IpSuffixOriginWellKnown","MIB_UNICASTIPADDRESS_ROW","MIB_UNICASTIPADDRESS_ROW structure [MIB]","PMIB_UNICASTIPADDRESS_ROW","PMIB_UNICASTIPADDRESS_ROW structure pointer [MIB]","_MIB_UNICASTIPADDRESS_ROW","mib.mib_unicastipaddress_row","netioapi/MIB_UNICASTIPADDRESS_ROW","netioapi/PMIB_UNICASTIPADDRESS_ROW"]
 old-location: mib\mib_unicastipaddress_row.htm
 tech.root: MIB
 ms.assetid: f329bafd-9e83-4754-a9a9-e7e111229c90
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UNICASTIPADDRESS_ROW, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, IpPrefixOriginDhcp, IpPrefixOriginManual, IpPrefixOriginOther, IpPrefixOriginRouterAdvertisement, IpPrefixOriginUnchanged, IpPrefixOriginWellKnown, IpSuffixOriginDhcp, IpSuffixOriginLinkLayerAddress, IpSuffixOriginManual, IpSuffixOriginOther, IpSuffixOriginRandom, IpSuffixOriginUnchanged, IpSuffixOriginWellKnown, MIB_UNICASTIPADDRESS_ROW, MIB_UNICASTIPADDRESS_ROW structure [MIB], PMIB_UNICASTIPADDRESS_ROW, PMIB_UNICASTIPADDRESS_ROW structure pointer [MIB], _MIB_UNICASTIPADDRESS_ROW, mib.mib_unicastipaddress_row, netioapi/MIB_UNICASTIPADDRESS_ROW, netioapi/PMIB_UNICASTIPADDRESS_ROW'
-f1_keywords:
-- netioapi/MIB_UNICASTIPADDRESS_ROW
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_UNICASTIPADDRESS_ROW
 targetos: Windows
 req.typenames: MIB_UNICASTIPADDRESS_ROW, *PMIB_UNICASTIPADDRESS_ROW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_UNICASTIPADDRESS_ROW
+ - netioapi/_MIB_UNICASTIPADDRESS_ROW
+ - PMIB_UNICASTIPADDRESS_ROW
+ - netioapi/PMIB_UNICASTIPADDRESS_ROW
+ - MIB_UNICASTIPADDRESS_ROW
+ - netioapi/MIB_UNICASTIPADDRESS_ROW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_UNICASTIPADDRESS_ROW
 ---
 
 # MIB_UNICASTIPADDRESS_ROW structure
@@ -48,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_UNICASTIPADDRESS_ROW</b> structure stores information about a unicast IP address.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Address
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a></b>
+Type: <b><a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a></b>
 
 The unicast IP address. This member can be an IPv6 address or an IPv4 address.
-
 
 ### -field InterfaceLuid
 
@@ -71,13 +71,11 @@ Type: <b>NET_LUID</b>
 
 The locally unique identifier (LUID) for the network interface associated with this IP address.
 
-
 ### -field InterfaceIndex
 
 Type: <b>NET_IFINDEX</b>
 
-The local index value for the network interface associated with this IP address. This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent. 
-
+The local index value for the network interface associated with this IP address. This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
 
 ### -field PrefixOrigin
 
@@ -157,8 +155,6 @@ The IP address prefix should be unchanged. This value is used when setting the p
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SuffixOrigin
 
@@ -249,8 +245,6 @@ The IP address suffix should be unchanged. This value is used when setting the p
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ValidLifetime
 
@@ -258,27 +252,23 @@ Type: <b>ULONG</b>
 
 The maximum time, in seconds, that the IP address is valid. A value of 0xffffffff  is considered to be infinite.
 
-
 ### -field PreferredLifetime
 
 Type: <b>ULONG</b>
 
 The preferred time, in seconds, that the IP address is valid. A value of 0xffffffff is considered to be infinite.
 
-
 ### -field OnLinkPrefixLength
 
 Type: <b>UINT8</b>
 
-The length, in bits, of the prefix or network part of the IP address. For a unicast IPv4 address, any  value greater than 32 is an illegal value. For a unicast IPv6 address, any  value greater than 128 is an illegal value. A value of 255 is commonly used to represent an illegal value.  
-
+The length, in bits, of the prefix or network part of the IP address. For a unicast IPv4 address, any  value greater than 32 is an illegal value. For a unicast IPv6 address, any  value greater than 128 is an illegal value. A value of 255 is commonly used to represent an illegal value.
 
 ### -field SkipAsSource
 
 Type: <b>BOOLEAN</b>
 
 This member specifies if the address can be used as an IP source address.
-
 
 ### -field DadState
 
@@ -348,8 +338,6 @@ The IP address is the preferred address.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ScopeId
 
@@ -357,29 +345,25 @@ Type: <b>SCOPE_ID</b>
 
 The scope ID of the IP address. This member is applicable only to an IPv6 address. This member cannot be set. It is automatically determined by the interface on which the address was added.
 
-
 ### -field CreationTimeStamp
 
 Type: <b>LARGE_INTEGER</b>
 
-The time stamp when the IP address was created. 
-
+The time stamp when the IP address was created.
 
 ## -remarks
 
-
-
 The <b>MIB_UNICASTIPADDRESS_ROW</b> structure is defined on Windows Vista and later. 
 
-The <b>SkipAsSource</b> member of the <b>MIB_UNICASTIPADDRESS_ROW</b> structure affects the operation of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> functions in Windows sockets. If the <i>pNodeName</i> parameter passed to the <b>getaddrinfo</b> or <b>GetAddrInfoW</b> functions or the <i>pName</i> parameter passed to the <b>GetAddrInfoEx</b> function points to a computer name, all permanent addresses for the computer that can be used as a source address are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to false in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure. 
+The <b>SkipAsSource</b> member of the <b>MIB_UNICASTIPADDRESS_ROW</b> structure affects the operation of the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>, and <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a> functions in Windows sockets. If the <i>pNodeName</i> parameter passed to the <b>getaddrinfo</b> or <b>GetAddrInfoW</b> functions or the <i>pName</i> parameter passed to the <b>GetAddrInfoEx</b> function points to a computer name, all permanent addresses for the computer that can be used as a source address are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to false in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure. 
 
-If the <i>pNodeName</i> or <i>pName</i> parameter refers to a cluster virtual server name, only virtual server addresses are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to true in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/windows-clustering">Windows Clustering</a> for more information about clustering.
+If the <i>pNodeName</i> or <i>pName</i> parameter refers to a cluster virtual server name, only virtual server addresses are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to true in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure. See <a href="/previous-versions/windows/desktop/mscs/windows-clustering">Windows Clustering</a> for more information about clustering.
 
 Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service Pack 1 (SP1) add support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes the behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  
 
-A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes the behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see Knowledge Base (KB) <a href="https://go.microsoft.com/fwlink/p/?linkid=208218">2386184</a>.   
+A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes the behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see Knowledge Base (KB) <a href="https://support.microsoft.com/kb/2386184">2386184</a>.   
 
-A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see Knowledge Base (KB) <a href="https://go.microsoft.com/fwlink/p/?linkid=208219">975808</a>. 
+A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <b>MIB_UNICASTIPADDRESS_ROW</b> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.
 
 
 #### Examples
@@ -600,57 +584,46 @@ int __cdecl wmain()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createunicastipaddressentry">CreateUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-deleteunicastipaddressentry">DeleteUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-deleteunicastipaddressentry">DeleteUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-initializeunicastipaddressentry">InitializeUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-initializeunicastipaddressentry">InitializeUnicastIpAddressEntry</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_table">MIB_UNICASTIPADDRESS_TABLE</a>
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-setunicastipaddressentry">SetUnicastIpAddressEntry</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>

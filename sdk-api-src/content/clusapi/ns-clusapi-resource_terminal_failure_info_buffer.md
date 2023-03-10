@@ -1,16 +1,13 @@
 ---
 UID: NS:clusapi.RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 title: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER (clusapi.h)
-description: Represents a buffer for a terminal failure for a resource.
+description: The RESOURCE_TERMINAL_FAILURE_INFO_BUFFER (clusapi.h) structure represents a buffer for a terminal failure for a resource.
+helpviewer_keywords: ["*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster]","RESOURCE_TERMINAL_FAILURE_INFO_BUFFER","RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster]","clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER","msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER","msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER","mscs.resource_terminal_failure_info_buffer"]
 old-location: mscs\resource_terminal_failure_info_buffer.htm
 tech.root: MsCS
 ms.assetid: D84EEF3A-BDB4-4D6E-BDC6-5A39DC32945E
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure [Failover Cluster], clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER, msclus/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, mscs.resource_terminal_failure_info_buffer'
-f1_keywords:
-- clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 targetos: Windows
 req.typenames: RESOURCE_TERMINAL_FAILURE_INFO_BUFFER, *PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+ - clusapi/RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+ - PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+ - clusapi/PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 ---
 
 # RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure
@@ -47,32 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a buffer for a terminal failure for a resource.
 
-
 ## -struct-fields
-
-
-
 
 ### -field isTerminalFailure
 
 <b>TRUE</b> if the resource  failure is a terminal failure; otherwise, <b>FALSE</b>.
 
-
 ### -field restartPeriodRemaining
 
 The amount of time remaining for the TBD, in seconds.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

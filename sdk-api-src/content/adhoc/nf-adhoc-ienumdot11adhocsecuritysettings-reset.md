@@ -1,16 +1,13 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Reset
 title: IEnumDot11AdHocSecuritySettings::Reset (adhoc.h)
-description: Resets to the beginning of the enumeration sequence.
+description: Resets to the beginning of the enumeration sequence. (IEnumDot11AdHocSecuritySettings.Reset)
+helpviewer_keywords: ["IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","Reset method","IEnumDot11AdHocSecuritySettings.Reset","IEnumDot11AdHocSecuritySettings::Reset","Reset","Reset method [NativeWIFI]","Reset method [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface","adhoc/IEnumDot11AdHocSecuritySettings::Reset","nwifi.ienumdot11adhocsecuritysettings_reset"]
 old-location: nwifi\ienumdot11adhocsecuritysettings_reset.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 15fc655c-56d3-4f1e-b4e9-cb0e16191dc7
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Reset method, IEnumDot11AdHocSecuritySettings.Reset, IEnumDot11AdHocSecuritySettings::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Reset, nwifi.ienumdot11adhocsecuritysettings_reset
-f1_keywords:
-- adhoc/IEnumDot11AdHocSecuritySettings.Reset
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocSecuritySettings.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocSecuritySettings::Reset
+ - adhoc/IEnumDot11AdHocSecuritySettings::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocSecuritySettings.Reset
 ---
 
 # IEnumDot11AdHocSecuritySettings::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets to the beginning of the enumeration sequence.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -93,18 +86,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>

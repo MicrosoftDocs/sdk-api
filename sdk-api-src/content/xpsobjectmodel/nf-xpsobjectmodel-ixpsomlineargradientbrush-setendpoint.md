@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetEndPoint
 title: IXpsOMLinearGradientBrush::SetEndPoint (xpsobjectmodel.h)
 description: Sets the end point of the gradient.
+helpviewer_keywords: ["IXpsOMLinearGradientBrush interface [XPS Documents and Packaging]","SetEndPoint method","IXpsOMLinearGradientBrush.SetEndPoint","IXpsOMLinearGradientBrush::SetEndPoint","SetEndPoint","SetEndPoint method [XPS Documents and Packaging]","SetEndPoint method [XPS Documents and Packaging]","IXpsOMLinearGradientBrush interface","xps.ixpsomlineargradientbrush_setendpoint","xpsobjectmodel/IXpsOMLinearGradientBrush::SetEndPoint"]
 old-location: xps\ixpsomlineargradientbrush_setendpoint.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5eec7bda-bbd8-454a-8b32-9db769df91e6
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetEndPoint method, IXpsOMLinearGradientBrush.SetEndPoint, IXpsOMLinearGradientBrush::SetEndPoint, SetEndPoint, SetEndPoint method [XPS Documents and Packaging], SetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetEndPoint
-f1_keywords:
-- xpsobjectmodel/IXpsOMLinearGradientBrush.SetEndPoint
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMLinearGradientBrush.SetEndPoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMLinearGradientBrush::SetEndPoint
+ - xpsobjectmodel/IXpsOMLinearGradientBrush::SetEndPoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMLinearGradientBrush.SetEndPoint
 ---
 
 # IXpsOMLinearGradientBrush::SetEndPoint
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the end point of the gradient.
 
-
 ## -parameters
-
-
-
 
 ### -param endPoint [in]
 
 The x and y coordinates of the end point.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -91,7 +85,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point described by <i>endPoint</i> was not valid. The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point described by <i>endPoint</i> was not valid. The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -107,39 +101,23 @@ The point described by <i>endPoint</i> was not valid. The <a href="https://docs.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The coordinates are relative to the page and are expressed in the units of the transform that is in effect.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomlineargradientbrush">IXpsOMLinearGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomlineargradientbrush">IXpsOMLinearGradientBrush</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
- 
-
- 
-
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>

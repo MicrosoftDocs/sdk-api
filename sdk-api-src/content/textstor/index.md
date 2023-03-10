@@ -4,15 +4,17 @@ title: Textstor.h header
 ms.assetid: be47cb0b-8414-302f-941f-a58207e0fed8
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: tsf
+f1_keywords:
+ - textstor
+ - textstor/textstor
 ---
 
 # Textstor.h header
 
 
 ## -description
-
 
 This header is used by Text Services Framework. For more information, see:
 

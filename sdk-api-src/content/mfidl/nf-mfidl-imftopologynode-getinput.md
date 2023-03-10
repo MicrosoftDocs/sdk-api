@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopologyNode.GetInput
 title: IMFTopologyNode::GetInput (mfidl.h)
 description: Retrieves the node that is connected to a specified input stream on this node.
+helpviewer_keywords: ["49969e6d-c893-4f6f-8c1d-87d32405a65d","GetInput","GetInput method [Media Foundation]","GetInput method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetInput method","IMFTopologyNode.GetInput","IMFTopologyNode::GetInput","mf.imftopologynode_getinput","mfidl/IMFTopologyNode::GetInput"]
 old-location: mf\imftopologynode_getinput.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 49969e6d-c893-4f6f-8c1d-87d32405a65d
 ms.date: 12/05/2018
 ms.keywords: 49969e6d-c893-4f6f-8c1d-87d32405a65d, GetInput, GetInput method [Media Foundation], GetInput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInput method, IMFTopologyNode.GetInput, IMFTopologyNode::GetInput, mf.imftopologynode_getinput, mfidl/IMFTopologyNode::GetInput
-f1_keywords:
-- mfidl/IMFTopologyNode.GetInput
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode.GetInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode::GetInput
+ - mfidl/IMFTopologyNode::GetInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode.GetInput
 ---
 
 # IMFTopologyNode::GetInput
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the node that is connected to a specified input stream on this node.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputIndex [in]
 
 Zero-based index of an input stream on this node.
 
-
 ### -param ppUpstreamNode [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node that is connected to the specified input stream. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node that is connected to the specified input stream. The caller must release the interface.
 
 ### -param pdwOutputIndexOnUpstreamNode [out]
 
 Receives the index of the output stream that is connected to this node's input stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,22 +110,11 @@ The specified input stream is not connected to another node.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

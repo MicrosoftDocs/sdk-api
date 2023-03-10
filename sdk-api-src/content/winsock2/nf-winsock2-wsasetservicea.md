@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.WSASetServiceA
 title: WSASetServiceA function (winsock2.h)
-description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces.
+description: The WSASetService function registers or removes from the registry a service instance within one or more namespaces. (ANSI)
+helpviewer_keywords: ["RNRSERVICE_DELETE", "RNRSERVICE_DEREGISTER", "RNRSERVICE_REGISTER", "SERVICE_MULTIPLE", "WSASetServiceA", "winsock2/WSASetServiceA"]
 old-location: winsock\wsasetservice_2.htm
 tech.root: WinSock
 ms.assetid: 21a8ff26-4c9e-4846-a75a-1a27c746edab
 ms.date: 12/05/2018
 ms.keywords: RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, WSASetService, WSASetService function [Winsock], WSASetServiceA, WSASetServiceW, _win32_wsasetservice_2, winsock.wsasetservice_2, winsock2/WSASetService, winsock2/WSASetServiceA, winsock2/WSASetServiceW
-f1_keywords:
-- winsock2/WSASetService
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSASetService
-- WSASetServiceA
-- WSASetServiceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSASetServiceA
+ - winsock2/WSASetServiceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSASetService
+ - WSASetServiceA
+ - WSASetServiceW
 ---
 
 # WSASetServiceA function
@@ -50,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>WSASetService</b> function registers or removes from the registry a service instance within one or more namespaces. 
-
+<b>WSASetService</b> function registers or removes from the registry a service instance within one or more namespaces.
 
 ## -parameters
-
-
-
 
 ### -param lpqsRegInfo [in]
 
 A pointer to the service information for registration or deregistration.
-
 
 ### -param essoperation [in]
 
@@ -103,18 +99,16 @@ Remove the service from the registry. For SAP, this means stop sending out the p
 </td>
 <td width="60%">
 Delete the service from dynamic name and persistent spaces. For services represented by multiple 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the specified address will be deleted, and this must match exactly the corresponding 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures (using the SERVICE_MULTIPLE flag), only the specified address will be deleted, and this must match exactly the corresponding 
 <b>CSADDR_INFO</b> structure that was specified when the service was registered.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwControlFlags [in]
 
-Service install flags value that further controls the operation performed of the <b>WSASetService</b>function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
+Service install flags value that further controls the operation performed of the <b>WSASetService</b> function. The possible values for this parameter are defined in the <i>Winsock2.h</i> header file.
 
 <table>
 <tr>
@@ -132,16 +126,12 @@ Controls scope of operation. When this flag is not set, service addresses are ma
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The return value for 
 <b>WSASetService</b> is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -151,7 +141,7 @@ The return value for
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -162,7 +152,7 @@ The calling routine does not have sufficient privileges to install the Service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -173,19 +163,19 @@ One or more required parameters were invalid or missing.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The <i>Ws2_32.dll</i> has not been initialized. The application must first call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -194,14 +184,8 @@ There was insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WSASetService</b> function can be used to affect a specific namespace provider, all providers associated with a specific namespace, or all providers across all namespaces.
 
@@ -253,17 +237,17 @@ The available values for <i>essOperation</i> and <i>dwControlFlags</i> combine t
 </table>
  
 
-Publishing services to directories, such as Active Directory Services, is restricted based on access control lists (ACLs). For more information, see <a href="https://docs.microsoft.com/windows/desktop/AD/security-issues-for-service-publication">Security Issues for Service Publication</a>.
+Publishing services to directories, such as Active Directory Services, is restricted based on access control lists (ACLs). For more information, see <a href="/windows/desktop/AD/security-issues-for-service-publication">Security Issues for Service Publication</a>.
 
 When the <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, an application can manage its addresses independently. This is useful when the application wants to manage its protocols individually or when the service resides on more than one computer. For instance, when a service uses more than one protocol, it may find that one listening socket aborts but the other sockets remain operational. In this case, the service could remove the aborted address from the registry without affecting the other addresses.
 
 When the <i>dwControlFlags</i> parameter is set to <b>SERVICE_MULTIPLE</b>, an application must not let stale addresses remain in the object. This can happen if the application aborts without issuing a DEREGISTER request. When a service registers, it should store its addresses. On its next invocation, the service should explicitly remove these old stale addresses from the registry before registering new addresses.
 
-<div class="alert"><b>Note</b>  If ANSI character strings are used, there is a chance that the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> data in <i>lpqsRegInfo</i> may not contain any results after this function returns. This is because the ANSI version of this method, <b>WSASetServiceA</b>, converts the ANSI data in <b>WSAQUERYSET</b> to Unicode internally, but does not convert the results back to ANSI. This primarily impacts transports that return a "service record handle" used to uniquely identify a record. To work around this issue, applications should use Unicode string data in <b>WSAQUERYSET</b> when calling this function.</div>
+<div class="alert"><b>Note</b>  If ANSI character strings are used, there is a chance that the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> data in <i>lpqsRegInfo</i> may not contain any results after this function returns. This is because the ANSI version of this method, <b>WSASetServiceA</b>, converts the ANSI data in <b>WSAQUERYSET</b> to Unicode internally, but does not convert the results back to ANSI. This primarily impacts transports that return a "service record handle" used to uniquely identify a record. To work around this issue, applications should use Unicode string data in <b>WSAQUERYSET</b> when calling this function.</div>
 <div> </div>
 <h3><a id="Service_Properties"></a><a id="service_properties"></a><a id="SERVICE_PROPERTIES"></a>Service Properties</h3>
 The following table describes how service property data is represented in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure. Fields labeled as (Optional) can contain a null pointer.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure. Fields labeled as (Optional) can contain a null pointer.
 
 <table>
 <tr>
@@ -272,7 +256,7 @@ The following table describes how service property data is represented in a
 </tr>
 <tr>
 <td><b>dwSize</b></td>
-<td>Must be set to sizeof (<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
+<td>Must be set to sizeof (<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -321,12 +305,12 @@ The following table describes how service property data is represented in a
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
 <td>The number of elements in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures referenced by <b>lpcsaBuffer</b>.</td>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures referenced by <b>lpcsaBuffer</b>.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
 <td>A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures that contain the address(es) that the service is listening on.</td>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures that contain the address(es) that the service is listening on.</td>
 </tr>
 <tr>
 <td><b>lpBlob</b></td>
@@ -368,29 +352,26 @@ As illustrated in the following, the combination of the <b>dwNameSpace</b> and <
 
 
 
+
+> [!NOTE]
+> The winsock2.h header defines WSASetService as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Bluetooth/bluetooth-and-wsasetservice">Bluetooth and WSASetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsasetservice">Bluetooth and WSASetService</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaPlayer.SetMediaItem
 title: IMFPMediaPlayer::SetMediaItem (mfplay.h)
 description: Queues a media item for playback.
+helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetMediaItem method","IMFPMediaPlayer.SetMediaItem","IMFPMediaPlayer::SetMediaItem","SetMediaItem","SetMediaItem method [Media Foundation]","SetMediaItem method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setmediaitem","mfplay/IMFPMediaPlayer::SetMediaItem"]
 old-location: mf\imfpmediaplayer_setmediaitem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c792a024-c4f8-4e0b-9720-259d1dc28ee8
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMediaItem method, IMFPMediaPlayer.SetMediaItem, IMFPMediaPlayer::SetMediaItem, SetMediaItem, SetMediaItem method [Media Foundation], SetMediaItem method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmediaitem, mfplay/IMFPMediaPlayer::SetMediaItem
-f1_keywords:
-- mfplay/IMFPMediaPlayer.SetMediaItem
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.SetMediaItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::SetMediaItem
+ - mfplay/IMFPMediaPlayer::SetMediaItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.SetMediaItem
 ---
 
 # IMFPMediaPlayer::SetMediaItem
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Queues a media item for playback.
 
-
 ## -parameters
-
-
-
 
 ### -param pIMFPMediaItem [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a> interface of the media item.
-
+Pointer to the <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a> interface of the media item.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,39 +122,22 @@ No audio playback device was found. This error can occur if the media source con
 </dl>
 </td>
 <td width="60%">
-The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
+The object's <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method completes asynchronously.  When the operation completes, the application's <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method is invoked. The event type is <b>MFP_EVENT_TYPE_MEDIAITEM_SET</b>.
 
-
-This method completes asynchronously.  When the operation completes, the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a> callback method is invoked. The event type is <b>MFP_EVENT_TYPE_MEDIAITEM_SET</b>.
-
-To create a media item, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">IMFPMediaPlayer::CreateMediaItemFromObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a>. A media item must be used with the same MFPlay player object that created that item. If the media item was created by a different instance of the player object, <b>SetMediaItem</b> returns <b>E_INVALIDARG</b>.
-
-
-
-
+To create a media item, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject">IMFPMediaPlayer::CreateMediaItemFromObject</a> or <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a>. A media item must be used with the same MFPlay player object that created that item. If the media item was created by a different instance of the player object, <b>SetMediaItem</b> returns <b>E_INVALIDARG</b>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

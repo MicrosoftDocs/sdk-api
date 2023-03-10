@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMProfile.CreateNewMutualExclusion
 title: IWMProfile::CreateNewMutualExclusion (wmsdkidl.h)
 description: The CreateNewMutualExclusion method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
+helpviewer_keywords: ["CreateNewMutualExclusion","CreateNewMutualExclusion method [windows Media Format]","CreateNewMutualExclusion method [windows Media Format]","IWMProfile interface","CreateNewMutualExclusion method [windows Media Format]","IWMProfile2 interface","CreateNewMutualExclusion method [windows Media Format]","IWMProfile3 interface","IWMProfile interface [windows Media Format]","CreateNewMutualExclusion method","IWMProfile.CreateNewMutualExclusion","IWMProfile2 interface [windows Media Format]","CreateNewMutualExclusion method","IWMProfile2::CreateNewMutualExclusion","IWMProfile3 interface [windows Media Format]","CreateNewMutualExclusion method","IWMProfile3::CreateNewMutualExclusion","IWMProfile::CreateNewMutualExclusion","IWMProfileCreateNewMutualExclusion","wmformat.iwmprofile_createnewmutualexclusion","wmsdkidl/IWMProfile2::CreateNewMutualExclusion","wmsdkidl/IWMProfile3::CreateNewMutualExclusion","wmsdkidl/IWMProfile::CreateNewMutualExclusion"]
 old-location: wmformat\iwmprofile_createnewmutualexclusion.htm
 tech.root: wmformat
 ms.assetid: fcf3a549-5ae1-459a-95b9-923570f59a4a
 ms.date: 12/05/2018
 ms.keywords: CreateNewMutualExclusion, CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format],IWMProfile interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile.CreateNewMutualExclusion, IWMProfile2 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion
-f1_keywords:
-- wmsdkidl/IWMProfile.CreateNewMutualExclusion
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMProfile.CreateNewMutualExclusion
-- IWMProfile2.CreateNewMutualExclusion
-- IWMProfile3.CreateNewMutualExclusion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile::CreateNewMutualExclusion
+ - wmsdkidl/IWMProfile::CreateNewMutualExclusion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMProfile.CreateNewMutualExclusion
+ - IWMProfile2.CreateNewMutualExclusion
+ - IWMProfile3.CreateNewMutualExclusion
 ---
 
 # IWMProfile::CreateNewMutualExclusion
@@ -54,26 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>CreateNewMutualExclusion</b> method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppME [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface of the new mutual exclusion object.
-
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion">IWMMutualExclusion</a> interface of the new mutual exclusion object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -105,41 +96,25 @@ The <i>ppME</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This creation method is included as a method to this interface, rather than as an independent function. For clarity, it is not possible to have a mutual exclusion object other than as an element of a profile.
 
-After the application has created the mutual exclusion object, it must be configured and then <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">AddMutualExclusion</a> must be called to add the mutual exclusion to the profile.
-
-
-
+After the application has created the mutual exclusion object, it must be configured and then <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">AddMutualExclusion</a> must be called to add the mutual exclusion to the profile.
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile2">IWMProfile2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">IWMProfile::AddMutualExclusion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">IWMProfile::AddMutualExclusion</a>

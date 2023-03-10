@@ -2,15 +2,12 @@
 UID: NF:mfreadwrite.IMFSinkWriter.NotifyEndOfSegment
 title: IMFSinkWriter::NotifyEndOfSegment (mfreadwrite.h)
 description: Notifies the media sink that a stream has reached the end of a segment.
+helpviewer_keywords: ["IMFSinkWriter interface [Media Foundation]","NotifyEndOfSegment method","IMFSinkWriter.NotifyEndOfSegment","IMFSinkWriter::NotifyEndOfSegment","NotifyEndOfSegment","NotifyEndOfSegment method [Media Foundation]","NotifyEndOfSegment method [Media Foundation]","IMFSinkWriter interface","mf.imfsinkwriter_notifyendofsegment","mfreadwrite/IMFSinkWriter::NotifyEndOfSegment"]
 old-location: mf\imfsinkwriter_notifyendofsegment.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cb5b76b4-ff08-4cac-bd30-d4f3b57acb78
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],NotifyEndOfSegment method, IMFSinkWriter.NotifyEndOfSegment, IMFSinkWriter::NotifyEndOfSegment, NotifyEndOfSegment, NotifyEndOfSegment method [Media Foundation], NotifyEndOfSegment method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_notifyendofsegment, mfreadwrite/IMFSinkWriter::NotifyEndOfSegment
-f1_keywords:
-- mfreadwrite/IMFSinkWriter.NotifyEndOfSegment
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSinkWriter.NotifyEndOfSegment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSinkWriter::NotifyEndOfSegment
+ - mfreadwrite/IMFSinkWriter::NotifyEndOfSegment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSinkWriter.NotifyEndOfSegment
 ---
 
 # IMFSinkWriter::NotifyEndOfSegment
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the media sink that a stream has reached the end of a segment.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
 The zero-based index of a stream, or <b>MF_SINK_WRITER_ALL_STREAMS</b> to signal that all streams have reached the end of a segment.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,35 +90,19 @@ The request is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+You must call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-beginwriting">IMFSinkWriter::BeginWriting</a> before calling this method. Otherwise, the method returns <b>MF_E_INVALIDREQUEST</b>.
 
-
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-beginwriting">IMFSinkWriter::BeginWriting</a> before calling this method. Otherwise, the method returns <b>MF_E_INVALIDREQUEST</b>.
-
-This method sends an <b>MFSTREAMSINK_MARKER_ENDOFSEGMENT</b> marker to the media sink for the specified streams. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a>.
+This method sends an <b>MFSTREAMSINK_MARKER_ENDOFSEGMENT</b> marker to the media sink for the specified streams. For more information, see <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker">IMFStreamSink::PlaceMarker</a>.
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/sink-writer">Sink Writer</a>

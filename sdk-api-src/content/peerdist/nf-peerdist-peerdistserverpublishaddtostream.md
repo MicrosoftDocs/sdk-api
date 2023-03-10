@@ -2,15 +2,12 @@
 UID: NF:peerdist.PeerDistServerPublishAddToStream
 title: PeerDistServerPublishAddToStream function (peerdist.h)
 description: PeerDistServerPublishAddToStream function adds data to the publishing stream.
+helpviewer_keywords: ["PeerDistServerPublishAddToStream","PeerDistServerPublishAddToStream function [Peer Networking]","p2p.peerdistserverpublishaddtostream","peerdist/PeerDistServerPublishAddToStream"]
 old-location: p2p\peerdistserverpublishaddtostream.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 296e21b9-9488-408a-b470-bbde1a18e6f0
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishAddToStream, PeerDistServerPublishAddToStream function [Peer Networking], p2p.peerdistserverpublishaddtostream, peerdist/PeerDistServerPublishAddToStream
-f1_keywords:
-- peerdist/PeerDistServerPublishAddToStream
-dev_langs:
-- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PeerDist.dll
-api_name:
-- PeerDistServerPublishAddToStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerDistServerPublishAddToStream
+ - peerdist/PeerDistServerPublishAddToStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PeerDist.dll
+api_name:
+ - PeerDistServerPublishAddToStream
 ---
 
 # PeerDistServerPublishAddToStream function
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerDistServerPublishAddToStream</b> function adds data to the publishing stream.
-
 
 ## -parameters
 
-
-
-
 ### -param hPeerDist [in]
 
-A PEERDIST_INSTANCE_HANDLE returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
-
+A PEERDIST_INSTANCE_HANDLE returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param hStream [in]
 
-A PEERDIST_STREAM_HANDLE created by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
-
+A PEERDIST_STREAM_HANDLE created by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
 
 ### -param cbNumberOfBytes [in]
 
 Number of bytes to be published.
 
-
 ### -param pBuffer [in]
 
 Pointer to the buffer that contains the data to be published. This buffer must remain valid for the duration of the add operation. The caller must not use this buffer until the add operation is completed.
 
-
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
-
+Pointer to an <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_IO_PENDING</b>. Otherwise, the function may return one of the following values:
 
@@ -149,31 +139,15 @@ The service is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When calling this function multiple times on a single stream handle, the caller must wait for each operation to complete before the next call is made.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

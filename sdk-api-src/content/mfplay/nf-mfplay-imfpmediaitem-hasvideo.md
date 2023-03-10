@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaItem.HasVideo
 title: IMFPMediaItem::HasVideo (mfplay.h)
 description: Queries whether the media item contains a video stream.
+helpviewer_keywords: ["HasVideo","HasVideo method [Media Foundation]","HasVideo method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","HasVideo method","IMFPMediaItem.HasVideo","IMFPMediaItem::HasVideo","mf.imfpmediaitem_hasvideo","mfplay/IMFPMediaItem::HasVideo"]
 old-location: mf\imfpmediaitem_hasvideo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6dc8a85c-25e4-4da7-965d-c8882514fc7d
 ms.date: 12/05/2018
 ms.keywords: HasVideo, HasVideo method [Media Foundation], HasVideo method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],HasVideo method, IMFPMediaItem.HasVideo, IMFPMediaItem::HasVideo, mf.imfpmediaitem_hasvideo, mfplay/IMFPMediaItem::HasVideo
-f1_keywords:
-- mfplay/IMFPMediaItem.HasVideo
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem.HasVideo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem::HasVideo
+ - mfplay/IMFPMediaItem::HasVideo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem.HasVideo
 ---
 
 # IMFPMediaItem::HasVideo
@@ -48,59 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Queries whether the media item contains a video stream.
 
-
 ## -parameters
-
-
-
 
 ### -param pfHasVideo [out]
 
 Receives the value <b>TRUE</b> if the media item contains at least one video stream, or <b>FALSE</b> otherwise.
 
-
 ### -param pfSelected [out]
 
 Receives the value <b>TRUE</b> if at least one video stream is selected, or <b>FALSE</b> otherwise.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-To select or deselect streams before playback starts, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamselection">IMFPMediaItem::SetStreamSelection</a>.
-
-
-
+To select or deselect streams before playback starts, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamselection">IMFPMediaItem::SetStreamSelection</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

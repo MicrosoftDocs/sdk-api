@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportBeginA
 title: RpcNsBindingImportBeginA function (rpcnsi.h)
-description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object.
+description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object. (ANSI)
+helpviewer_keywords: ["RpcNsBindingImportBeginA", "rpcnsi/RpcNsBindingImportBeginA"]
 old-location: rpc\rpcnsbindingimportbegin.htm
 tech.root: Rpc
 ms.assetid: 8dca0490-72aa-41e0-b747-863d53a705ea
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportBegin, RpcNsBindingImportBegin function [RPC], RpcNsBindingImportBeginA, RpcNsBindingImportBeginW, _rpc_rpcnsbindingimportbegin, rpc.rpcnsbindingimportbegin, rpcnsi/RpcNsBindingImportBegin, rpcnsi/RpcNsBindingImportBeginA, rpcnsi/RpcNsBindingImportBeginW
-f1_keywords:
-- rpcnsi/RpcNsBindingImportBegin
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingImportBegin
-- RpcNsBindingImportBeginA
-- RpcNsBindingImportBeginW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingImportBeginA
+ - rpcnsi/RpcNsBindingImportBeginA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingImportBegin
+ - RpcNsBindingImportBeginA
+ - RpcNsBindingImportBeginW
 ---
 
 # RpcNsBindingImportBeginA function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingImportBegin</b> function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -69,7 +67,6 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, specify RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to an entry name at which the search for compatible binding handles begins. 
@@ -79,11 +76,9 @@ Pointer to an entry name at which the search for compatible binding handles begi
 
 To use the entry name specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultEntry</b>, provide a null pointer or an empty string. In this case, the <i>EntryNameSyntax</i> parameter is ignored and the run-time library uses the default syntax.
 
-
 ### -param IfSpec
 
 Stub-generated data structure indicating the interface to import. If the interface specification has not been exported or is of no concern to the caller, specify a null value for this parameter. In this case, the bindings returned are only guaranteed to be of a compatible and supported protocol sequence and to contain the specified object UUID. The contacted server might not support the desired interface.
-
 
 ### -param ObjUuid
 
@@ -96,17 +91,13 @@ For a nonzero UUID, compatible binding handles are returned from an entry only i
 
 When <i>ObjUuid</i> has a null pointer value or a nil UUID, the returned binding handles contain one of the object UUIDs exported by the compatible server. If the server did not export any object UUIDs, the returned compatible binding handles contain a nil object UUID.
 
-
 ### -param ImportContext
 
 Name-service handle returned for use with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a> functions.
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a> and 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a> functions.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -205,37 +196,30 @@ Invalid object.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 Before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a> function, the client application must first call 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a> function, the client application must first call 
 <b>RpcNsBindingImportBegin</b> to create an import context. The parameters to this function control the operation of the 
 <b>RpcNsBindingImportNext</b> function.
 
 When finished importing binding handles, the client application calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a> function to delete the import context.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a> function to delete the import context.
 
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsBindingImportBegin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportdone">RpcNsBindingImportDone</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a>

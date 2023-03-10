@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByID
 title: IWMProfileManager::LoadProfileByID (wmsdkidl.h)
 description: The LoadProfileByID method loads a system profile identified by its globally unique identifier. To load a custom profile, use IWMProfileManager::LoadProfileByData.
+helpviewer_keywords: ["IWMProfileManager interface [windows Media Format]","LoadProfileByID method","IWMProfileManager.LoadProfileByID","IWMProfileManager::LoadProfileByID","IWMProfileManagerLoadProfileByID","LoadProfileByID","LoadProfileByID method [windows Media Format]","LoadProfileByID method [windows Media Format]","IWMProfileManager interface","wmformat.iwmprofilemanager_loadprofilebyid","wmsdkidl/IWMProfileManager::LoadProfileByID"]
 old-location: wmformat\iwmprofilemanager_loadprofilebyid.htm
 tech.root: wmformat
 ms.assetid: 16104e70-c800-49a6-a9cf-2b4669c865eb
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByID method, IWMProfileManager.LoadProfileByID, IWMProfileManager::LoadProfileByID, IWMProfileManagerLoadProfileByID, LoadProfileByID, LoadProfileByID method [windows Media Format], LoadProfileByID method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebyid, wmsdkidl/IWMProfileManager::LoadProfileByID
-f1_keywords:
-- wmsdkidl/IWMProfileManager.LoadProfileByID
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMProfileManager.LoadProfileByID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfileManager::LoadProfileByID
+ - wmsdkidl/IWMProfileManager::LoadProfileByID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMProfileManager.LoadProfileByID
 ---
 
 # IWMProfileManager::LoadProfileByID
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>LoadProfileByID</b> method loads a system profile identified by its globally unique identifier. To load a custom profile, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
-
-
-
+The <b>LoadProfileByID</b> method loads a system profile identified by its globally unique identifier. To load a custom profile, use <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebydata">IWMProfileManager::LoadProfileByData</a>.
 
 ## -parameters
 
-
-
-
 ### -param guidProfile [in]
 
-<b>GUID</b> identifying the profile. For more information, see the table of defined constants in <a href="https://docs.microsoft.com/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>.
-
+<b>GUID</b> identifying the profile. For more information, see the table of defined constants in <a href="/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>.
 
 ### -param ppProfile [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
-
+Pointer to a pointer to an <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,31 +108,15 @@ The <i>ppProfile</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Only system profiles have IDs. Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reusing-stream-configurations">Reusing Stream Configurations</a>.
-
-
-
+Only system profiles have IDs. Because there are no system profiles for the Windows Media 9 Series codecs, this method is primarily useful for obtaining version 8 system profiles that you will convert to custom profiles using the Windows Media 9 Series codecs. For more information, see <a href="/windows/desktop/wmformat/reusing-stream-configurations">Reusing Stream Configurations</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>

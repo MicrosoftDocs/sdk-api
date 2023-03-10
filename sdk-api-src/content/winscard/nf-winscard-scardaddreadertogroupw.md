@@ -1,16 +1,13 @@
 ---
 UID: NF:winscard.SCardAddReaderToGroupW
 title: SCardAddReaderToGroupW function (winscard.h)
-description: Adds a reader to a reader group.
+description: Adds a reader to a reader group. (Unicode)
+helpviewer_keywords: ["SCARD_ALL_READERS", "SCARD_DEFAULT_READERS", "SCARD_LOCAL_READERS", "SCARD_SYSTEM_READERS", "SCardAddReaderToGroup", "SCardAddReaderToGroup function [Security]", "SCardAddReaderToGroupW", "_smart_scardaddreadertogroup", "security.scardaddreadertogroup", "winscard/SCardAddReaderToGroup", "winscard/SCardAddReaderToGroupW"]
 old-location: security\scardaddreadertogroup.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: f2f5fcd8-3b60-4c8a-b92c-c63be970cc35
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardAddReaderToGroup, SCardAddReaderToGroup function [Security], SCardAddReaderToGroupA, SCardAddReaderToGroupW, _smart_scardaddreadertogroup, security.scardaddreadertogroup, winscard/SCardAddReaderToGroup, winscard/SCardAddReaderToGroupA, winscard/SCardAddReaderToGroupW
-f1_keywords:
-- winscard/SCardAddReaderToGroup
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-api_name:
-- SCardAddReaderToGroup
-- SCardAddReaderToGroupA
-- SCardAddReaderToGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardAddReaderToGroupW
+ - winscard/SCardAddReaderToGroupW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+api_name:
+ - SCardAddReaderToGroup
+ - SCardAddReaderToGroupA
+ - SCardAddReaderToGroupW
 ---
 
 # SCardAddReaderToGroupW function
@@ -50,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SCardAddReaderToGroup</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader group</a>.
-
+The <b>SCardAddReaderToGroup</b> function adds a <a href="/windows/desktop/SecGloss/r-gly">reader</a> to a <a href="/windows/desktop/SecGloss/r-gly">reader group</a>.
 
 ## -parameters
 
-
-
-
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
-
+Handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
 ### -param szReaderName [in]
 
 Display name of the reader that you are adding.
-
 
 ### -param szGroupName [in]
 
@@ -124,12 +119,8 @@ Unused legacy value. This is an internally managed group that cannot be modified
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -157,29 +148,23 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SCardAddReaderToGroup</b> automatically creates the reader group specified if it does not already exist. 
 
 The <b>SCardAddReaderToGroup</b> function is a database management function. For more information on other database management functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
+<a href="/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
 
 
 #### Examples
 
-The following example demonstrates how to add a smart card reader to a    group.     The example assumes that lReturn is an existing variable of type <b>LONG</b>, that <i>hContext</i> is a valid handle received from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function, and that "MyReader" and "MyReaderGroup"  are known by the system through previous calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a> functions, respectively.
+The following example demonstrates how to add a smart card reader to a    group.     The example assumes that lReturn is an existing variable of type <b>LONG</b>, that <i>hContext</i> is a valid handle received from a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function, and that "MyReader" and "MyReaderGroup"  are known by the system through previous calls to the <a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a> and <a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a> functions, respectively.
 
 
 ```cpp
@@ -196,25 +181,22 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 
+
+> [!NOTE]
+> The winscard.h header defines SCardAddReaderToGroup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardremovereaderfromgroupa">SCardRemoveReaderFromGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardremovereaderfromgroupa">SCardRemoveReaderFromGroup</a>

@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDUdpAddress.SetExclusive
 title: IWSDUdpAddress::SetExclusive (wsdbase.h)
 description: Controls whether the socket is in exclusive mode.
+helpviewer_keywords: ["IWSDUdpAddress interface","SetExclusive method","IWSDUdpAddress.SetExclusive","IWSDUdpAddress::SetExclusive","SetExclusive","SetExclusive method","SetExclusive method","IWSDUdpAddress interface","ncd.iwsdudpaddress_setexclusive","wsdbase/IWSDUdpAddress::SetExclusive"]
 old-location: ncd\iwsdudpaddress_setexclusive.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 08c5ee4a-55a4-4d8b-951e-d7faed45f44f
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress interface,SetExclusive method, IWSDUdpAddress.SetExclusive, IWSDUdpAddress::SetExclusive, SetExclusive, SetExclusive method, SetExclusive method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setexclusive, wsdbase/IWSDUdpAddress::SetExclusive
-f1_keywords:
-- wsdbase/IWSDUdpAddress.SetExclusive
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDUdpAddress.SetExclusive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDUdpAddress::SetExclusive
+ - wsdbase/IWSDUdpAddress::SetExclusive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDUdpAddress.SetExclusive
 ---
 
 # IWSDUdpAddress::SetExclusive
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls whether the socket is in exclusive mode.
 
-
 ## -parameters
-
-
-
 
 ### -param fExclusive [in]
 
 A value of <b>TRUE</b> indicates that the socket should be set to exclusive mode. A value of <b>FALSE</b> indicates that the socket should not be in exclusive mode.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -90,18 +84,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>

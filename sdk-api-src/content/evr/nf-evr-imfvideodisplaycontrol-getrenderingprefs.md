@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDisplayControl.GetRenderingPrefs
 title: IMFVideoDisplayControl::GetRenderingPrefs (evr.h)
 description: Gets various video rendering settings.
+helpviewer_keywords: ["9a5bd1d6-e604-4798-af29-ad0c1931b651","GetRenderingPrefs","GetRenderingPrefs method [Media Foundation]","GetRenderingPrefs method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetRenderingPrefs method","IMFVideoDisplayControl.GetRenderingPrefs","IMFVideoDisplayControl::GetRenderingPrefs","evr/IMFVideoDisplayControl::GetRenderingPrefs","mf.imfvideodisplaycontrol_getrenderingprefs"]
 old-location: mf\imfvideodisplaycontrol_getrenderingprefs.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9a5bd1d6-e604-4798-af29-ad0c1931b651
 ms.date: 12/05/2018
 ms.keywords: 9a5bd1d6-e604-4798-af29-ad0c1931b651, GetRenderingPrefs, GetRenderingPrefs method [Media Foundation], GetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetRenderingPrefs method, IMFVideoDisplayControl.GetRenderingPrefs, IMFVideoDisplayControl::GetRenderingPrefs, evr/IMFVideoDisplayControl::GetRenderingPrefs, mf.imfvideodisplaycontrol_getrenderingprefs
-f1_keywords:
-- evr/IMFVideoDisplayControl.GetRenderingPrefs
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.GetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::GetRenderingPrefs
+ - evr/IMFVideoDisplayControl::GetRenderingPrefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.GetRenderingPrefs
 ---
 
 # IMFVideoDisplayControl::GetRenderingPrefs
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets various video rendering settings.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pdwRenderFlags [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ne-evr-mfvideorenderprefs">MFVideoRenderPrefs</a> enumeration.
-
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/evr/ne-evr-mfvideorenderprefs">MFVideoRenderPrefs</a> enumeration.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,26 +91,15 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

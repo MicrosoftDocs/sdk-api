@@ -1,16 +1,13 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectInformationW
 title: GetNtmsObjectInformationW function (ntmsapi.h)
-description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
+description: The GetNtmsObjectInformationW (Unicode) function returns an object's information structure for the specified object. (GetNtmsObjectInformationW)
+helpviewer_keywords: ["GetNtmsObjectInformation", "GetNtmsObjectInformation function [Files]", "GetNtmsObjectInformationW", "_zaw_getntmsobjectinformation", "base.getntmsobjectinformation", "fs.getntmsobjectinformation", "ntmsapi/GetNtmsObjectInformation", "ntmsapi/GetNtmsObjectInformationW"]
 old-location: fs\getntmsobjectinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
-f1_keywords:
-- ntmsapi/GetNtmsObjectInformation
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- GetNtmsObjectInformation
-- GetNtmsObjectInformationA
-- GetNtmsObjectInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNtmsObjectInformationW
+ - ntmsapi/GetNtmsObjectInformationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - GetNtmsObjectInformation
+ - GetNtmsObjectInformationA
+ - GetNtmsObjectInformationW
 ---
 
 # GetNtmsObjectInformationW function
@@ -50,38 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>GetNtmsObjectInformation</b> function returns an object's information structure for the specified object.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpObjectId [in]
 
 Unique identifier of the RSM object.
 
-
 ### -param lpInfo [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that receives the object information.
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure that receives the object information.
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -159,23 +151,17 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The information size and type of the information structure must be set correctly in the <i>lpInfo</i> parameter before you use the 
 <b>GetNtmsObjectInformation</b> function.
 
 To avoid unpredictable results, applications must call the 
 <b>GetNtmsObjectInformation</b> function before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. The 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a> function. The 
 <b>SetNtmsObjectInformation</b> function updates all writable members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, therefore the application is responsible for providing a value for all writable members.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure, therefore the application is responsible for providing a value for all writable members.
 
 The following is the list of objects that require special access rights.
 
@@ -253,25 +239,22 @@ The following is the list of objects that require special access rights.
 
 
 
+
+> [!NOTE]
+> The ntmsapi.h header defines GetNtmsObjectInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectsecurity">GetNtmsObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectsecurity">GetNtmsObjectSecurity</a>
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectinformation">SetNtmsObjectInformation</a>

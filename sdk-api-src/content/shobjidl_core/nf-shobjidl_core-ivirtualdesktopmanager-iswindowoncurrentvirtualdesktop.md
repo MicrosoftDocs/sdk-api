@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 title: IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop (shobjidl_core.h)
 description: Indicates whether the provided window is on the currently active virtual desktop.
+helpviewer_keywords: ["IVirtualDesktopManager interface [Windows Shell]","IsWindowOnCurrentVirtualDesktop method","IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop","IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop","IsWindowOnCurrentVirtualDesktop","IsWindowOnCurrentVirtualDesktop method [Windows Shell]","IsWindowOnCurrentVirtualDesktop method [Windows Shell]","IVirtualDesktopManager interface","shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop","shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop"]
 old-location: shell\ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop.htm
 tech.root: shell
 ms.assetid: CBC97CF4-0C88-4C68-A873-5A5962C5817D
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],IsWindowOnCurrentVirtualDesktop method, IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop, IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop, IsWindowOnCurrentVirtualDesktop method [Windows Shell], IsWindowOnCurrentVirtualDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_iswindowoncurrentvirtualdesktop, shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
-f1_keywords:
-- shobjidl_core/IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
+ - shobjidl_core/IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IVirtualDesktopManager.IsWindowOnCurrentVirtualDesktop
 ---
 
 # IVirtualDesktopManager::IsWindowOnCurrentVirtualDesktop
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether the provided window is on the currently active virtual desktop.
 
-
 ## -parameters
-
-
-
 
 ### -param topLevelWindow [in]
 
 The window of interest.
 
-
 ### -param onCurrentDesktop [out]
 
 <b>True</b> if the <i>topLevelWindow</i> is on the currently active virtual desktop, otherwise <b>false</b>.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-[IVirtualDesktopManager](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager)a>
- 
-
- 
-
+[IVirtualDesktopManager](./nn-shobjidl_core-ivirtualdesktopmanager.md)

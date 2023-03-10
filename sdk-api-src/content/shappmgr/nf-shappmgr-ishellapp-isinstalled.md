@@ -2,15 +2,12 @@
 UID: NF:shappmgr.IShellApp.IsInstalled
 title: IShellApp::IsInstalled (shappmgr.h)
 description: Gets a value indicating whether a specified application is currently installed.
+helpviewer_keywords: ["IShellApp interface [Windows Shell]","IsInstalled method","IShellApp.IsInstalled","IShellApp::IsInstalled","IsInstalled","IsInstalled method [Windows Shell]","IsInstalled method [Windows Shell]","IShellApp interface","inet_IShellApp_IsInstalled","shappmgr/IShellApp::IsInstalled","shell.IShellApp_IsInstalled"]
 old-location: shell\IShellApp_IsInstalled.htm
 tech.root: shell
 ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5
 ms.date: 12/05/2018
 ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
-f1_keywords:
-- shappmgr/IShellApp.IsInstalled
-dev_langs:
-- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellApp.IsInstalled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellApp::IsInstalled
+ - shappmgr/IShellApp::IsInstalled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellApp.IsInstalled
 ---
 
 # IShellApp::IsInstalled
@@ -48,21 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value indicating whether a specified application is currently installed.
-		
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -96,35 +88,19 @@ The application is not installed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Application publishers should determine if the application is currently installed and return S_OK if so, or S_FALSE if not.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>

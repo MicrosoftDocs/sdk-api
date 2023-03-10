@@ -2,15 +2,12 @@
 UID: NF:windns.DnsReleaseContextHandle
 title: DnsReleaseContextHandle function (windns.h)
 description: The DnsReleaseContextHandle function releases memory used to store the credentials of a specific account.
+helpviewer_keywords: ["DnsReleaseContextHandle","DnsReleaseContextHandle function [DNS]","_dns_dnsreleasecontexthandle","dns.dnsreleasecontexthandle","windns/DnsReleaseContextHandle"]
 old-location: dns\dnsreleasecontexthandle.htm
 tech.root: DNS
 ms.assetid: 08a5fa73-4583-4e87-bddb-09bfbfe1b36f
 ms.date: 12/05/2018
 ms.keywords: DnsReleaseContextHandle, DnsReleaseContextHandle function [DNS], _dns_dnsreleasecontexthandle, dns.dnsreleasecontexthandle, windns/DnsReleaseContextHandle
-f1_keywords:
-- windns/DnsReleaseContextHandle
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsReleaseContextHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsReleaseContextHandle
+ - windns/DnsReleaseContextHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsReleaseContextHandle
 ---
 
 # DnsReleaseContextHandle function
@@ -48,41 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DnsReleaseContextHandle</b> function releases memory used to store the credentials of a specific account.
 
-
 ## -parameters
-
-
-
 
 ### -param hContext [in]
 
 The credentials handle of a specific account.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsacquirecontexthandle_a">DnsAcquireContextHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsacquirecontexthandle_a">DnsAcquireContextHandle</a>

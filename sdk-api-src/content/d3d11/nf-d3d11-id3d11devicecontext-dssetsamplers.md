@@ -2,15 +2,12 @@
 UID: NF:d3d11.ID3D11DeviceContext.DSSetSamplers
 title: ID3D11DeviceContext::DSSetSamplers (d3d11.h)
 description: Set an array of sampler states to the domain-shader stage.
+helpviewer_keywords: ["5141e937-00ce-e7e4-cf38-b06ad4222cd4","DSSetSamplers","DSSetSamplers method [Direct3D 11]","DSSetSamplers method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DSSetSamplers method","ID3D11DeviceContext.DSSetSamplers","ID3D11DeviceContext::DSSetSamplers","d3d11/ID3D11DeviceContext::DSSetSamplers","direct3d11.id3d11devicecontext_dssetsamplers"]
 old-location: direct3d11\id3d11devicecontext_dssetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 15cc8f81-2d57-4148-821c-0136c0ce3f82
 ms.date: 12/05/2018
 ms.keywords: 5141e937-00ce-e7e4-cf38-b06ad4222cd4, DSSetSamplers, DSSetSamplers method [Direct3D 11], DSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetSamplers method, ID3D11DeviceContext.DSSetSamplers, ID3D11DeviceContext::DSSetSamplers, d3d11/ID3D11DeviceContext::DSSetSamplers, direct3d11.id3d11devicecontext_dssetsamplers
-f1_keywords:
-- d3d11/ID3D11DeviceContext.DSSetSamplers
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D11.lib
-- D3D11.dll
-api_name:
-- ID3D11DeviceContext.DSSetSamplers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11DeviceContext::DSSetSamplers
+ - d3d11/ID3D11DeviceContext::DSSetSamplers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D11.lib
+ - D3D11.dll
+api_name:
+ - ID3D11DeviceContext.DSSetSamplers
 ---
 
 # ID3D11DeviceContext::DSSetSamplers
@@ -49,48 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Set an array of sampler states to the domain-shader stage.
-
 
 ## -parameters
 
-
-
-
 ### -param StartSlot [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index into the device's zero-based array to begin setting samplers to (ranges from 0 to D3D11_COMMONSHADER_SAMPLER_SLOT_COUNT - 1).
 
-
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of samplers in the array. Each pipeline stage has a total of 16 sampler slots available (ranges from 0 to D3D11_COMMONSHADER_SAMPLER_SLOT_COUNT - StartSlot).
 
-
 ### -param ppSamplers [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>*</b>
 
-Pointer to an array of sampler-state interfaces (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>). See Remarks.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
+Pointer to an array of sampler-state interfaces (see <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11samplerstate">ID3D11SamplerState</a>). See Remarks.
 
 ## -remarks
-
-
 
 Any sampler may be set to <b>NULL</b>; this invokes the default state, which is defined to be the following.
 
@@ -119,16 +102,6 @@ SamplerDesc.MaxLOD = FLT_MAX;
 The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>

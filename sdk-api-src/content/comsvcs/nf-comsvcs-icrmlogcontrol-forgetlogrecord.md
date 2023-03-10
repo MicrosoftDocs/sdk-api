@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmLogControl.ForgetLogRecord
 title: ICrmLogControl::ForgetLogRecord (comsvcs.h)
 description: Forgets the last log record written by this instance of the interface.
+helpviewer_keywords: ["ForgetLogRecord","ForgetLogRecord method [COM+]","ForgetLogRecord method [COM+]","ICrmLogControl interface","ICrmLogControl interface [COM+]","ForgetLogRecord method","ICrmLogControl.ForgetLogRecord","ICrmLogControl::ForgetLogRecord","_dtc_ICrmLogControl_ForgetLogRecord","comsvcs/ICrmLogControl::ForgetLogRecord","cos.icrmlogcontrol_forgetlogrecord"]
 old-location: cos\icrmlogcontrol_forgetlogrecord.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c1871ca0-0586-41de-9684-2babaafe8796
 ms.date: 12/05/2018
 ms.keywords: ForgetLogRecord, ForgetLogRecord method [COM+], ForgetLogRecord method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForgetLogRecord method, ICrmLogControl.ForgetLogRecord, ICrmLogControl::ForgetLogRecord, _dtc_ICrmLogControl_ForgetLogRecord, comsvcs/ICrmLogControl::ForgetLogRecord, cos.icrmlogcontrol_forgetlogrecord
-f1_keywords:
-- comsvcs/ICrmLogControl.ForgetLogRecord
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmLogControl.ForgetLogRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmLogControl::ForgetLogRecord
+ - comsvcs/ICrmLogControl::ForgetLogRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmLogControl.ForgetLogRecord
 ---
 
 # ICrmLogControl::ForgetLogRecord
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Forgets the last log record written by this instance of the interface.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -99,7 +92,7 @@ There is no valid log record to forget.
 </dl>
 </td>
 <td width="60%">
-This method was called in the wrong state; either before <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
+This method was called in the wrong state; either before <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmlogcontrol-registercompensator">RegisterCompensator</a> or when the transaction is completing (CRM Worker).
 
 </td>
 </tr>
@@ -115,27 +108,11 @@ The transaction has aborted, most likely because of a transaction time-out.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method can be used to forget only the last record because there is no concept of nesting; that is, write, forget, write, forget is valid, but write, write, forget, forget is not. A log record that has been forgotten is not delivered to the CRM Compensator during transaction outcome notifications.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>

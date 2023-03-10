@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzOperation.get_Name
 title: IAzOperation::get_Name (azroles.h)
-description: Sets or retrieves the name of the operation.
+description: Sets or retrieves the name of the operation. (Get)
+helpviewer_keywords: ["AzOperation object [Security]","Name property","IAzOperation interface [Security]","Name property","IAzOperation.Name","IAzOperation.get_Name","IAzOperation::Name","IAzOperation::get_Name","IAzOperation::put_Name","Name property [Security]","Name property [Security]","AzOperation object","Name property [Security]","IAzOperation interface","azroles/IAzOperation::Name","azroles/IAzOperation::get_Name","azroles/IAzOperation::put_Name","get_Name","security.iazoperation_name"]
 old-location: security\iazoperation_name.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: e1ebacda-513c-49f7-bb36-15229fdb0b3b
 ms.date: 12/05/2018
 ms.keywords: AzOperation object [Security],Name property, IAzOperation interface [Security],Name property, IAzOperation.Name, IAzOperation.get_Name, IAzOperation::Name, IAzOperation::get_Name, IAzOperation::put_Name, Name property [Security], Name property [Security],AzOperation object, Name property [Security],IAzOperation interface, azroles/IAzOperation::Name, azroles/IAzOperation::get_Name, azroles/IAzOperation::put_Name, get_Name, security.iazoperation_name
-f1_keywords:
-- azroles/IAzOperation.Name
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzOperation.Name
-- IAzOperation.get_Name
-- IAzOperation.put_Name
-- AzOperation.Name
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzOperation::get_Name
+ - azroles/IAzOperation::get_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzOperation.Name
+ - IAzOperation.get_Name
+ - IAzOperation.put_Name
+ - AzOperation.Name
 ---
 
 # IAzOperation::get_Name
@@ -51,20 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Name</b> property sets or retrieves the name of the operation.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The maximum length of the <b>Name</b> property is 64 characters.
-
-
 

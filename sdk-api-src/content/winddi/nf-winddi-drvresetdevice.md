@@ -2,15 +2,12 @@
 UID: NF:winddi.DrvResetDevice
 title: DrvResetDevice function (winddi.h)
 description: The DrvResetDevice function resets a device that is inoperable or unresponsive.
+helpviewer_keywords: ["DrvResetDevice","DrvResetDevice function [Display Devices]","ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml","display.drvresetdevice","winddi/DrvResetDevice"]
 old-location: display\drvresetdevice.htm
 tech.root: display
 ms.assetid: 2078cefe-3b66-455b-a4cc-144d643f74e7
 ms.date: 12/05/2018
 ms.keywords: DrvResetDevice, DrvResetDevice function [Display Devices], ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml, display.drvresetdevice, winddi/DrvResetDevice
-f1_keywords:
-- winddi/DrvResetDevice
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvResetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvResetDevice
+ - winddi/DrvResetDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvResetDevice
 ---
 
 # DrvResetDevice function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvResetDevice</b> function resets a device that is inoperable or unresponsive.
-
 
 ## -parameters
 
-
-
-
 ### -param dhpdev
 
-Handle to the physical device's PDEV that describes the physical device that has stopped. This is the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
-
+Handle to the physical device's PDEV that describes the physical device that has stopped. This is the value returned by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param Reserved
 
 Is reserved and must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <b>DrvResetDevice</b> should return one of the following values:
 
@@ -101,33 +94,17 @@ The device is currently in working order.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function is available in Windows XP and later.
 
-<b>DrvResetDevice</b> is usually called in response to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>. A driver should take any steps necessary to restore the device to working order, and should do so with no data loss or as little as possible.
-
-
-
+<b>DrvResetDevice</b> is usually called in response to <a href="/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>. A driver should take any steps necessary to restore the device to working order, and should do so with no data loss or as little as possible.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-enghangnotification">EngHangNotification</a>

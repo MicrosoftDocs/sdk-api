@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRMonitorConfig.SetDefaultMonitor
 title: IVMRMonitorConfig::SetDefaultMonitor (strmif.h)
 description: The SetDefaultMonitor method specifies the default monitor that all future instances of the VMR should use for video playback.
+helpviewer_keywords: ["IVMRMonitorConfig interface [DirectShow]","SetDefaultMonitor method","IVMRMonitorConfig.SetDefaultMonitor","IVMRMonitorConfig::SetDefaultMonitor","IVMRMonitorConfigSetDefaultMonitor","SetDefaultMonitor","SetDefaultMonitor method [DirectShow]","SetDefaultMonitor method [DirectShow]","IVMRMonitorConfig interface","dshow.ivmrmonitorconfig_setdefaultmonitor","strmif/IVMRMonitorConfig::SetDefaultMonitor"]
 old-location: dshow\ivmrmonitorconfig_setdefaultmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 85757536-ab7d-4b68-9e04-cf04fc4ebd5e
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig interface [DirectShow],SetDefaultMonitor method, IVMRMonitorConfig.SetDefaultMonitor, IVMRMonitorConfig::SetDefaultMonitor, IVMRMonitorConfigSetDefaultMonitor, SetDefaultMonitor, SetDefaultMonitor method [DirectShow], SetDefaultMonitor method [DirectShow],IVMRMonitorConfig interface, dshow.ivmrmonitorconfig_setdefaultmonitor, strmif/IVMRMonitorConfig::SetDefaultMonitor
-f1_keywords:
-- strmif/IVMRMonitorConfig.SetDefaultMonitor
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMonitorConfig.SetDefaultMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMonitorConfig::SetDefaultMonitor
+ - strmif/IVMRMonitorConfig::SetDefaultMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMonitorConfig.SetDefaultMonitor
 ---
 
 # IVMRMonitorConfig::SetDefaultMonitor
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetDefaultMonitor</code> method specifies the default monitor that all future instances of the VMR should use for video playback.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pGUID [in]
 
-Pointer to a [VMRGUID](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that identifies the monitor.
-
+Pointer to a [VMRGUID](/windows/desktop/api/strmif/ns-strmif-vmrguid) structure that identifies the monitor.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -133,43 +124,27 @@ The allocator-presenter has not been loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use this method on a multi-monitor system to specify to the VMR the default DirectDraw device to use when connecting to an upstream filter. The default DirectDraw device can be overriden for a particular connection by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-setmonitor">SetMonitor</a> method.
+Use this method on a multi-monitor system to specify to the VMR the default DirectDraw device to use when connecting to an upstream filter. The default DirectDraw device can be overridden for a particular connection by the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-setmonitor">SetMonitor</a> method.
 
 The <b>pGUID</b> member of the VMRGUID structure must be either <b>NULL</b>, indicating the default DirectDraw device, or equal to the address of the <b>GUID</b> member of the <b>VMRGUID</b> structure. Otherwise, the method returns E_INVALIDARG.
 
 If the specified GUID does not correspond to any monitor, the method return E_INVALIDARG.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmonitorconfig">IVMRMonitorConfig Interface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getdefaultmonitor">IVMRMonitorConfig::GetDefaultMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmonitorconfig-getdefaultmonitor">IVMRMonitorConfig::GetDefaultMonitor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

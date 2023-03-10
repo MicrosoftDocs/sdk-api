@@ -1,16 +1,13 @@
 ---
 UID: NN:wuapi.IUpdateDownloadContent2
 title: IUpdateDownloadContent2 (wuapi.h)
-description: Represents the download content of an update.
+description: Represents the download content of an update. (IUpdateDownloadContent2)
+helpviewer_keywords: ["IUpdateDownloadContent2","IUpdateDownloadContent2 interface [Windows Update Agent]","IUpdateDownloadContent2 interface [Windows Update Agent]","described","wua.iupdatedownloadcontent2","wuapi/IUpdateDownloadContent2"]
 old-location: wua\iupdatedownloadcontent2.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: adf2e5df-42ca-41dc-aa84-60302c36a494
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadContent2, IUpdateDownloadContent2 interface [Windows Update Agent], IUpdateDownloadContent2 interface [Windows Update Agent],described, wua.iupdatedownloadcontent2, wuapi/IUpdateDownloadContent2
-f1_keywords:
-- wuapi/IUpdateDownloadContent2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateDownloadContent2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateDownloadContent2
+ - wuapi/IUpdateDownloadContent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateDownloadContent2
 ---
 
 # IUpdateDownloadContent2 interface
@@ -48,26 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the download content of an update.
-
 
 ## -remarks
 
-
-
-The <b>IUpdateDownloadContent2</b> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
-
-
-
+The <b>IUpdateDownloadContent2</b> interface  may require you to update the Windows Update Agent (WUA). For more information, see <a href="/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent">IUpdateDownloadContent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloadcontent">IUpdateDownloadContent</a>

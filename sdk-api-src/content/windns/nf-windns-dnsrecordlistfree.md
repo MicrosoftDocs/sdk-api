@@ -2,15 +2,12 @@
 UID: NF:windns.DnsRecordListFree
 title: DnsRecordListFree macro (windns.h)
 description: Frees memory allocated for DNS records obtained using the DnsQuery function.
+helpviewer_keywords: ["DnsRecordListFree","DnsRecordListFree function [DNS]","_dns_dnsrecordlistfree","dns.dnsrecordlistfree","windns/DnsRecordListFree"]
 old-location: dns\dnsrecordlistfree.htm
 tech.root: DNS
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a
 ms.date: 12/05/2018
 ms.keywords: DnsRecordListFree, DnsRecordListFree function [DNS], _dns_dnsrecordlistfree, dns.dnsrecordlistfree, windns/DnsRecordListFree
-f1_keywords:
-- windns/DnsRecordListFree
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsRecordListFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsRecordListFree
+ - windns/DnsRecordListFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsRecordListFree
 ---
 
 # DnsRecordListFree macro
@@ -48,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DnsRecordListFree</b> function frees memory allocated for DNS records obtained using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
 
 ## -parameters
 
-
-
-
 ### -param p [in, out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
-
+A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure that contains the list of DNS records to be freed.
 
 ### -param t [in]
 
-A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a> enumeration.
-
+A specifier of how the record list should be freed. The only type currently supported is a deep freeing of the entire record list. For more information and a list of values, see the <a href="/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a> enumeration.
 
 ## -remarks
 
-
-
 The 
 <b>DnsRecordListFree</b> function can be used to free memory allocated from query results obtained using a 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call; it cannot free memory allocated for DNS record lists created manually.
-
-
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call; it cannot free memory allocated for DNS record lists created manually.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a>
- 
-
- 
-
+<a href="/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a>

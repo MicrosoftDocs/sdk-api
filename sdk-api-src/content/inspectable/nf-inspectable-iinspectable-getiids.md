@@ -2,15 +2,12 @@
 UID: NF:inspectable.IInspectable.GetIids
 title: IInspectable::GetIids (inspectable.h)
 description: Gets the interfaces that are implemented by the current Windows Runtime class.
+helpviewer_keywords: ["GetIids","GetIids method [Windows Runtime]","GetIids method [Windows Runtime]","IInputPaneInterop interface","GetIids method [Windows Runtime]","IInspectable interface","IInputPaneInterop interface [Windows Runtime]","GetIids method","IInputPaneInterop::GetIids","IInspectable interface [Windows Runtime]","GetIids method","IInspectable.GetIids","IInspectable::GetIids","inspectable/IInputPaneInterop::GetIids","inspectable/IInspectable::GetIids","winrt.iinspectable_getiids"]
 old-location: winrt\iinspectable_getiids.htm
 tech.root: WinRT
 ms.assetid: 560094E6-3ED2-4BF3-85C7-07736ECBACC8
 ms.date: 12/05/2018
 ms.keywords: GetIids, GetIids method [Windows Runtime], GetIids method [Windows Runtime],IInputPaneInterop interface, GetIids method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetIids method, IInputPaneInterop::GetIids, IInspectable interface [Windows Runtime],GetIids method, IInspectable.GetIids, IInspectable::GetIids, inspectable/IInputPaneInterop::GetIids, inspectable/IInspectable::GetIids, winrt.iinspectable_getiids
-f1_keywords:
-- inspectable/IInspectable.GetIids
-dev_langs:
-- c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Inspectable.h
-api_name:
-- IInspectable.GetIids
-- IInputPaneInterop.GetIids
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInspectable::GetIids
+ - inspectable/IInspectable::GetIids
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Inspectable.h
+api_name:
+ - IInspectable.GetIids
+ - IInputPaneInterop.GetIids
 ---
 
 # IInspectable::GetIids
@@ -49,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the interfaces that are implemented by the current Windows Runtime class.
 
-
 ## -parameters
-
-
-
 
 ### -param iidCount [out]
 
 Type: <b>ULONG*</b>
 
-The number of interfaces that are implemented by the current Windows Runtime object, excluding the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> implementations.
-
+The number of interfaces that are implemented by the current Windows Runtime object, excluding the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> implementations.
 
 ### -param iids [out]
 
 Type: <b>IID**</b>
 
-A pointer to an array that contains an IID for   each interface implemented by the current Windows Runtime object. The <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interfaces are excluded.
-
+A pointer to an array that contains an IID for   each interface implemented by the current Windows Runtime object. The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> interfaces are excluded.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -92,7 +85,7 @@ This function can return the following values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
+The  <a href="/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
 
 </td>
 </tr>
@@ -108,35 +101,19 @@ Failed to allocate <i>iids</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <b>GetIids</b> method to discover the interfaces that are implemented by a Windows Runtime object.
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
+A <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call on any IID in the <i>iids</i> array must succeed.
 
-The caller is responsible for freeing the IID array by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
-
-
-
+The caller is responsible for freeing the IID array by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inputpaneinterop/nn-inputpaneinterop-iinputpaneinterop">IInputPaneInterop</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

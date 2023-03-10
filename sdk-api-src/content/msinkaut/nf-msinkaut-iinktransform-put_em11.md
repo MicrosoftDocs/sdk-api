@@ -1,16 +1,13 @@
 ---
 UID: NF:msinkaut.IInkTransform.put_eM11
 title: IInkTransform::put_eM11 (msinkaut.h)
-description: Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an InkTransform object.
+description: Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an InkTransform object. (Put)
+helpviewer_keywords: ["8827b2b2-f2fb-4732-912c-226db8ac9aef","IInkTransform interface [Tablet PC]","eM11 property","IInkTransform.eM11","IInkTransform.put_eM11","IInkTransform::eM11","IInkTransform::get_eM11","IInkTransform::put_eM11","InkTransform.get_eM11","InkTransform.put_eM11","eM11 property [Tablet PC]","eM11 property [Tablet PC]","IInkTransform interface","get_eM11","msinkaut/IInkTransform::eM11","msinkaut/IInkTransform::get_eM11","msinkaut/IInkTransform::put_eM11","put_eM11","tablet.inktransform_em11"]
 old-location: tablet\inktransform_em11.htm
 tech.root: tablet
 ms.assetid: 8827b2b2-f2fb-4732-912c-226db8ac9aef
 ms.date: 12/05/2018
 ms.keywords: 8827b2b2-f2fb-4732-912c-226db8ac9aef, IInkTransform interface [Tablet PC],eM11 property, IInkTransform.eM11, IInkTransform.put_eM11, IInkTransform::eM11, IInkTransform::get_eM11, IInkTransform::put_eM11, InkTransform.get_eM11, InkTransform.put_eM11, eM11 property [Tablet PC], eM11 property [Tablet PC],IInkTransform interface, get_eM11, msinkaut/IInkTransform::eM11, msinkaut/IInkTransform::get_eM11, msinkaut/IInkTransform::put_eM11, put_eM11, tablet.inktransform_em11
-f1_keywords:
-- msinkaut/IInkTransform.eM11
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkTransform.eM11
-- IInkTransform.get_eM11
-- IInkTransform.put_eM11
-- InkTransform.get_eM11
-- InkTransform.put_eM11
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkTransform::put_eM11
+ - msinkaut/IInkTransform::put_eM11
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkTransform.eM11
+ - IInkTransform.get_eM11
+ - IInkTransform.put_eM11
+ - InkTransform.get_eM11
+ - InkTransform.put_eM11
 ---
 
 # IInkTransform::put_eM11
@@ -53,29 +55,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
+Gets or sets the element in the first row, first column of the affine transform matrix that is represented by an <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinktransform.md">IInkTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

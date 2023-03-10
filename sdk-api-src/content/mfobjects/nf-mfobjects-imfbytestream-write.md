@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFByteStream.Write
 title: IMFByteStream::Write (mfobjects.h)
 description: Writes data to the stream.
+helpviewer_keywords: ["IMFByteStream interface [Media Foundation]","Write method","IMFByteStream.Write","IMFByteStream::Write","Write","Write method [Media Foundation]","Write method [Media Foundation]","IMFByteStream interface","d1f1195a-b6ee-441c-af8b-fce3dc163e95","mf.imfbytestream_write","mfobjects/IMFByteStream::Write"]
 old-location: mf\imfbytestream_write.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d1f1195a-b6ee-441c-af8b-fce3dc163e95
 ms.date: 12/05/2018
 ms.keywords: IMFByteStream interface [Media Foundation],Write method, IMFByteStream.Write, IMFByteStream::Write, Write, Write method [Media Foundation], Write method [Media Foundation],IMFByteStream interface, d1f1195a-b6ee-441c-af8b-fce3dc163e95, mf.imfbytestream_write, mfobjects/IMFByteStream::Write
-f1_keywords:
-- mfobjects/IMFByteStream.Write
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFByteStream.Write
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStream::Write
+ - mfobjects/IMFByteStream::Write
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFByteStream.Write
 ---
 
 # IMFByteStream::Write
@@ -49,48 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Writes data to the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pb [in]
 
 Pointer to a buffer that contains the data to write.
-          
-
 
 ### -param cb [in]
 
 Size of the buffer in bytes.
-          
-
 
 ### -param pcbWritten [out]
 
 Receives the number of bytes that are written.
-          
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method writes the contents of the <i>pb</i> buffer to the stream, starting at the current stream position. The number of bytes that were written is returned in the <i>pcbWritten</i> parameter.
       
@@ -100,7 +81,7 @@ This method is synchronous. It blocks until the write operation completes.
 
 <b>Implementation notes:</b>This method should update the current position in the stream by adding the number of bytes that were written to the stream, which is specified by the value returned in the <i>pcbWritten</i>, to the current position offset. 
 
- Other methods that can update the current position are <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread">BeginRead</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>.
+ Other methods that can update the current position are <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-read">Read</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread">BeginRead</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">Seek</a>, and <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>.
 
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -112,7 +93,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 #### Examples
 
-The following example writes data from a media buffer to a byte stream. For more information about media buffers, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>.
+The following example writes data from a media buffer to a byte stream. For more information about media buffers, see <a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>.
         
 
 
@@ -182,17 +163,6 @@ HRESULT WriteToStream(
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>

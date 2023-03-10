@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFAverageTimePerFrameToFrameRate
 title: MFAverageTimePerFrameToFrameRate function (mfapi.h)
 description: Calculates the frame rate, in frames per second, from the average duration of a video frame.
+helpviewer_keywords: ["9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29","MFAverageTimePerFrameToFrameRate","MFAverageTimePerFrameToFrameRate function [Media Foundation]","mf.mfaveragetimeperframetoframerate","mfapi/MFAverageTimePerFrameToFrameRate"]
 old-location: mf\mfaveragetimeperframetoframerate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29
 ms.date: 12/05/2018
 ms.keywords: 9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29, MFAverageTimePerFrameToFrameRate, MFAverageTimePerFrameToFrameRate function [Media Foundation], mf.mfaveragetimeperframetoframerate, mfapi/MFAverageTimePerFrameToFrameRate
-f1_keywords:
-- mfapi/MFAverageTimePerFrameToFrameRate
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFAverageTimePerFrameToFrameRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFAverageTimePerFrameToFrameRate
+ - mfapi/MFAverageTimePerFrameToFrameRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFAverageTimePerFrameToFrameRate
 ---
 
 # MFAverageTimePerFrameToFrameRate function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Calculates the frame rate, in frames per second, from the average duration of a video frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param unAverageTimePerFrame [in]
 
 The average duration of a video frame, in 100-nanosecond units.
 
-
 ### -param punNumerator [out]
 
 Receives the numerator of the frame rate.
-
 
 ### -param punDenominator [out]
 
 Receives the denominator of the frame rate.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,37 +87,21 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Average time per frame is used in the older <b>VIDEOINFOHEADER</b> and <b>VIDEOINFOHEADER2</b> format structures. This function provides a standard conversion so that all components in the pipeline can use consistent values, if they need to translate between the older format structures and the media type attributes used in Media Foundation.
 
-This function uses a look-up table for certain common durations. The table is listed in the Remarks section for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe">MFFrameRateToAverageTimePerFrame</a> function.
-
-
-
+This function uses a look-up table for certain common durations. The table is listed in the Remarks section for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe">MFFrameRateToAverageTimePerFrame</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe">MFFrameRateToAverageTimePerFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfframeratetoaveragetimeperframe">MFFrameRateToAverageTimePerFrame</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

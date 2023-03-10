@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeBrushLookup
 title: IXpsOMPath::SetStrokeBrushLookup (xpsobjectmodel.h)
 description: Sets the lookup key name of a shared brush to be used as the stroke brush.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeBrushLookup method","IXpsOMPath.SetStrokeBrushLookup","IXpsOMPath::SetStrokeBrushLookup","SetStrokeBrushLookup","SetStrokeBrushLookup method [XPS Documents and Packaging]","SetStrokeBrushLookup method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokebrushlookup","xpsobjectmodel/IXpsOMPath::SetStrokeBrushLookup"]
 old-location: xps\ixpsompath_setstrokebrushlookup.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: b2af731a-bea7-4f1b-8e31-b0173e38fd67
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLookup method, IXpsOMPath.SetStrokeBrushLookup, IXpsOMPath::SetStrokeBrushLookup, SetStrokeBrushLookup, SetStrokeBrushLookup method [XPS Documents and Packaging], SetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlookup, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLookup
-f1_keywords:
-- xpsobjectmodel/IXpsOMPath.SetStrokeBrushLookup
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPath.SetStrokeBrushLookup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPath::SetStrokeBrushLookup
+ - xpsobjectmodel/IXpsOMPath::SetStrokeBrushLookup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPath.SetStrokeBrushLookup
 ---
 
 # IXpsOMPath::SetStrokeBrushLookup
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the lookup key name of a shared brush to be used as the stroke brush.The shared brush is stored in a resource dictionary.
 
-
 ## -parameters
-
-
-
 
 ### -param lookup [in]
 
 The lookup key name of a shared brush to be used as the  stroke brush for the path.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -91,7 +85,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -118,40 +112,34 @@ No object could be found with a key name that matched the value passed in <i>loo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After you call <b>SetStrokeBrushLookup</b>, the local stroke brush is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a> returns a <b>NULL</b> pointer in the <i>brush</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
+After you call <b>SetStrokeBrushLookup</b>, the local stroke brush is released and <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a> returns a <b>NULL</b> pointer in the <i>brush</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned in <i>brush</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrush">GetStrokeBrush</a>
+<th>Object that is returned in <i>brush</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrush">GetStrokeBrush</a>
 </th>
-<th>Object that is returned in <i>brush</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a>
+<th>Object that is returned in <i>brush</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlocal">GetStrokeBrushLocal</a>
 </th>
-<th>String that is returned in <i>lookup</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlookup">GetStrokeBrushLookup</a>
+<th>String that is returned in <i>lookup</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokebrushlookup">GetStrokeBrushLookup</a>
 </th>
 </tr>
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>
 
 
 </td>
 <td>
-The local brush that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>.
+The local brush that is set by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>.
 
 </td>
 <td>
-The local brush that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>.
+The local brush that is set by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a>.
 
 </td>
 <td>
@@ -179,7 +167,7 @@ The lookup key that is set by <b>SetStrokeBrushLookup</b>.
 </tr>
 <tr>
 <td>
-Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a> nor <b>SetStrokeBrushLookup</b> has been called yet.
+Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal">SetStrokeBrushLocal</a> nor <b>SetStrokeBrushLookup</b> has been called yet.
 
 </td>
 <td>
@@ -196,26 +184,15 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

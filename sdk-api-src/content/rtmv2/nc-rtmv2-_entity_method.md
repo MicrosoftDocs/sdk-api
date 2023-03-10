@@ -2,15 +2,12 @@
 UID: NC:rtmv2._ENTITY_METHOD
 title: _ENTITY_METHOD (rtmv2.h)
 description: The RTM_ENTITY_EXPORT_METHOD callback is the prototype for any method exported by a client.
+helpviewer_keywords: ["RTM_ENTITY_EXPORT_METHOD","RTM_ENTITY_EXPORT_METHOD callback function [RAS]","RTM_ENTITY_EXPORT_METHOD callback function pointer [RAS]","_ENTITY_METHOD","_ENTITY_METHOD callback","_rtmv2ref_rtm_entity_export_method","rras.rtm_entity_export_method","rtmv2/RTM_ENTITY_EXPORT_METHOD"]
 old-location: rras\rtm_entity_export_method.htm
 tech.root: RRAS
 ms.assetid: bf564898-e540-458b-861c-0f57082d40a1
 ms.date: 12/05/2018
 ms.keywords: RTM_ENTITY_EXPORT_METHOD, RTM_ENTITY_EXPORT_METHOD callback function [RAS], RTM_ENTITY_EXPORT_METHOD callback function pointer [RAS], _ENTITY_METHOD, _ENTITY_METHOD callback, _rtmv2ref_rtm_entity_export_method, rras.rtm_entity_export_method, rtmv2/RTM_ENTITY_EXPORT_METHOD
-f1_keywords:
-- rtmv2/RTM_ENTITY_EXPORT_METHOD
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Rtmv2.h
-api_name:
-- RTM_ENTITY_EXPORT_METHOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ENTITY_METHOD
+ - rtmv2/_ENTITY_METHOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Rtmv2.h
+api_name:
+ - RTM_ENTITY_EXPORT_METHOD
 ---
 
 # _ENTITY_METHOD callback function
@@ -48,66 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RTM_ENTITY_EXPORT_METHOD</b> callback is the prototype for any method exported by a client.
 
-
 ## -parameters
-
-
-
 
 ### -param CallerHandle
 
 Handle to the calling client.
 
-
 ### -param CalleeHandle
 
 Handle to the client being called.
 
-
-### -param *Input
+### -param Input
 
 Handle to the method to be invoked. Contains an input buffer.
 
-
-### -param *Output
+### -param Output
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a> structures. Each structure consists of a (method identifier, correct output) tuple.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a> structures. Each structure consists of a (method identifier, correct output) tuple.
 
 ## -remarks
 
-
-
 Methods can be exported when a client registers. Other clients, such as routing protocols, can invoke these methods to obtain client-specific information. For example, BGP can use a method to obtain OSFP information.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_input">RTM_ENTITY_METHOD_INPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_input">RTM_ENTITY_METHOD_INPUT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a>

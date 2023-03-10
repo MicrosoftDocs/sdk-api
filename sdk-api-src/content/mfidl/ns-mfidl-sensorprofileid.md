@@ -1,9 +1,10 @@
 ---
-UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0113_0001
+UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0114_0001
 title: SENSORPROFILEID (mfidl.h)
 description: Describes a sensor profile ID.
+helpviewer_keywords: ["PSENSORPROFILEID","PSENSORPROFILEID structure pointer [Media Foundation]","SENSORPROFILEID","SENSORPROFILEID structure [Media Foundation]","mf.sensorprofileid","mfidl/PSENSORPROFILEID","mfidl/SENSORPROFILEID"]
 old-location: mf\sensorprofileid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 29BF454E-60DD-4709-A1B2-2A46C3BD3F42
 ms.date: 12/05/2018
 ms.keywords: PSENSORPROFILEID, PSENSORPROFILEID structure pointer [Media Foundation], SENSORPROFILEID, SENSORPROFILEID structure [Media Foundation], mf.sensorprofileid, mfidl/PSENSORPROFILEID, mfidl/SENSORPROFILEID
@@ -59,7 +60,7 @@ Describes a sensor profile ID.
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows/desktop/medfound/sensor-profile-guids">Sensor Profile GUID</a> that describes the type of sensor profile. 
+A <a href="/windows/desktop/medfound/sensor-profile-guids">Sensor Profile GUID</a> that describes the type of sensor profile. 
 
 
 ### -field Index
@@ -70,4 +71,3 @@ The index of the sensor profile.
 ### -field Unused
 
 Not currently used.
-

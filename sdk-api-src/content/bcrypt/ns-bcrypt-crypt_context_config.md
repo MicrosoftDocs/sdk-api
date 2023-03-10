@@ -2,15 +2,12 @@
 UID: NS:bcrypt._CRYPT_CONTEXT_CONFIG
 title: CRYPT_CONTEXT_CONFIG (bcrypt.h)
 description: Contains configuration information for a CNG context.
+helpviewer_keywords: ["*PCRYPT_CONTEXT_CONFIG","CRYPT_CONTEXT_CONFIG","CRYPT_CONTEXT_CONFIG structure [Security]","CRYPT_EXCLUSIVE","CRYPT_OVERRIDE","PCRYPT_CONTEXT_CONFIG","PCRYPT_CONTEXT_CONFIG structure pointer [Security]","bcrypt/CRYPT_CONTEXT_CONFIG","bcrypt/PCRYPT_CONTEXT_CONFIG","security.crypt_context_config"]
 old-location: security\crypt_context_config.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 3e07b7ae-84ef-4b77-bd49-d96906eaa4f8
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config'
-f1_keywords:
-- bcrypt/CRYPT_CONTEXT_CONFIG
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- CRYPT_CONTEXT_CONFIG
 targetos: Windows
 req.typenames: CRYPT_CONTEXT_CONFIG, *PCRYPT_CONTEXT_CONFIG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_CONTEXT_CONFIG
+ - bcrypt/_CRYPT_CONTEXT_CONFIG
+ - PCRYPT_CONTEXT_CONFIG
+ - bcrypt/PCRYPT_CONTEXT_CONFIG
+ - CRYPT_CONTEXT_CONFIG
+ - bcrypt/CRYPT_CONTEXT_CONFIG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - CRYPT_CONTEXT_CONFIG
 ---
 
 # CRYPT_CONTEXT_CONFIG structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_CONTEXT_CONFIG</b> structure contains configuration information for a CNG context.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -93,31 +94,17 @@ Indicates that this entry in the enterprise-wide configuration table should take
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwReserved
 
- 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontext">BCryptConfigureContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptconfigurecontext">BCryptConfigureContext</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatecontext">BCryptCreateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatecontext">BCryptCreateContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptquerycontextconfiguration">BCryptQueryContextConfiguration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptquerycontextconfiguration">BCryptQueryContextConfiguration</a>

@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICatalogObject.get_Valid
 title: ICatalogObject::get_Valid (comadmin.h)
 description: Indicates whether all properties were successfully read from the catalog data store.
+helpviewer_keywords: ["ICatalogObject interface [COM+]","Valid property","ICatalogObject.Valid","ICatalogObject.get_Valid","ICatalogObject::Valid","ICatalogObject::get_Valid","Valid property [COM+]","Valid property [COM+]","ICatalogObject interface","_cos_ICatalogObject_get_Valid","comadmin/ICatalogObject::Valid","comadmin/ICatalogObject::get_Valid","cos.icatalogobject_valid","get_Valid"]
 old-location: cos\icatalogobject_valid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c2fdeae4-e8f0-45c1-b42a-0bd088c26d6f
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],Valid property, ICatalogObject.Valid, ICatalogObject.get_Valid, ICatalogObject::Valid, ICatalogObject::get_Valid, Valid property [COM+], Valid property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Valid, comadmin/ICatalogObject::Valid, comadmin/ICatalogObject::get_Valid, cos.icatalogobject_valid, get_Valid
-f1_keywords:
-- comadmin/ICatalogObject.Valid
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICatalogObject.Valid
-- ICatalogObject.get_Valid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatalogObject::get_Valid
+ - comadmin/ICatalogObject::get_Valid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICatalogObject.Valid
+ - ICatalogObject.get_Valid
 ---
 
 # ICatalogObject::get_Valid
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether all properties were successfully read from the catalog data store.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>

@@ -2,15 +2,12 @@
 UID: NF:shdeprecated.IBrowserService.ShowControlWindow
 title: IBrowserService::ShowControlWindow (shdeprecated.h)
 description: Deprecated. Shows or hides various frame controls.
+helpviewer_keywords: ["FALSE","FCW_INTERNETBAR","FCW_PROGRESS","FCW_STATUS","FCW_TOOLBAR","FCW_TREE","IBrowserService interface [Windows Shell]","ShowControlWindow method","IBrowserService.ShowControlWindow","IBrowserService::ShowControlWindow","ShowControlWindow","ShowControlWindow method [Windows Shell]","ShowControlWindow method [Windows Shell]","IBrowserService interface","TRUE","shdeprecated/IBrowserService::ShowControlWindow","shell.IBrowserService_ShowControlWindow","zone_IBrowserService_ShowControlWindow"]
 old-location: shell\IBrowserService_ShowControlWindow.htm
 tech.root: shell
 ms.assetid: 11ded544-6fba-41a5-bc61-222467fdbc05
 ms.date: 12/05/2018
 ms.keywords: FALSE, FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, IBrowserService interface [Windows Shell],ShowControlWindow method, IBrowserService.ShowControlWindow, IBrowserService::ShowControlWindow, ShowControlWindow, ShowControlWindow method [Windows Shell], ShowControlWindow method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::ShowControlWindow, shell.IBrowserService_ShowControlWindow, zone_IBrowserService_ShowControlWindow
-f1_keywords:
-- shdeprecated/IBrowserService.ShowControlWindow
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService.ShowControlWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService::ShowControlWindow
+ - shdeprecated/IBrowserService::ShowControlWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService.ShowControlWindow
 ---
 
 # IBrowserService::ShowControlWindow
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Shows or hides various frame controls.
 
-
 ## -parameters
-
-
-
 
 ### -param id [in]
 
@@ -98,7 +95,6 @@ The browser's Media Bar.
 
 The browser's progress bar.
 
-
 ### -param fShow [in]
 
 Type: <b>BOOL</b>
@@ -117,14 +113,9 @@ Show the control.
 
 Hide the control.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

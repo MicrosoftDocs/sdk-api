@@ -2,15 +2,12 @@
 UID: NF:uxtheme.IsThemeDialogTextureEnabled
 title: IsThemeDialogTextureEnabled function (uxtheme.h)
 description: Reports whether a specified dialog window supports background texturing.
+helpviewer_keywords: ["IsThemeDialogTextureEnabled","IsThemeDialogTextureEnabled function [Windows Controls]","controls.IsThemeDialogTextureEnabled","controls.inet_IsThemeDialogTextureEnabled","inet_IsThemeDialogTextureEnabled","inet_IsThemeDialogTextureEnabled_cpp","uxtheme/IsThemeDialogTextureEnabled"]
 old-location: controls\IsThemeDialogTextureEnabled.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemedialogtextureenabled.htm
 ms.date: 12/05/2018
 ms.keywords: IsThemeDialogTextureEnabled, IsThemeDialogTextureEnabled function [Windows Controls], controls.IsThemeDialogTextureEnabled, controls.inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled, inet_IsThemeDialogTextureEnabled_cpp, uxtheme/IsThemeDialogTextureEnabled
-f1_keywords:
-- uxtheme/IsThemeDialogTextureEnabled
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- IsThemeDialogTextureEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsThemeDialogTextureEnabled
+ - uxtheme/IsThemeDialogTextureEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - IsThemeDialogTextureEnabled
 ---
 
 # IsThemeDialogTextureEnabled function
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reports whether a specified dialog window supports background texturing.
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-<b>HWND</b> value that specifies a dialog window. 
-
+<b>HWND</b> value that specifies a dialog window.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns one of the following values.
 
@@ -100,7 +94,3 @@ Background texturing is not supported on the dialog window specified by the <i>h
 </td>
 </tr>
 </table>
- 
-
-
-

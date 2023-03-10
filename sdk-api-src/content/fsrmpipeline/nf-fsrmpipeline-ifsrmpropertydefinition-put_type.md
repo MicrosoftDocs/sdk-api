@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Type
 title: IFsrmPropertyDefinition::put_Type (fsrmpipeline.h)
-description: The type of data that the property contains.
+description: The type of data that the property contains. (Put)
+helpviewer_keywords: ["IFsrmPropertyDefinition interface [File Server Resource Manager]","Type property","IFsrmPropertyDefinition.Type","IFsrmPropertyDefinition.put_Type","IFsrmPropertyDefinition::Type","IFsrmPropertyDefinition::get_Type","IFsrmPropertyDefinition::put_Type","Type property [File Server Resource Manager]","Type property [File Server Resource Manager]","IFsrmPropertyDefinition interface","fs.ifsrmpropertydefinition_type","fsrm.ifsrmpropertydefinition_type","fsrmpipeline/IFsrmPropertyDefinition::Type","fsrmpipeline/IFsrmPropertyDefinition::get_Type","fsrmpipeline/IFsrmPropertyDefinition::put_Type","put_Type"]
 old-location: fsrm\ifsrmpropertydefinition_type.htm
 tech.root: fsrm
 ms.assetid: 3e770876-05a3-4b8c-901d-84ee40112c2f
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Type property, IFsrmPropertyDefinition.Type, IFsrmPropertyDefinition.put_Type, IFsrmPropertyDefinition::Type, IFsrmPropertyDefinition::get_Type, IFsrmPropertyDefinition::put_Type, Type property [File Server Resource Manager], Type property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_type, fsrm.ifsrmpropertydefinition_type, fsrmpipeline/IFsrmPropertyDefinition::Type, fsrmpipeline/IFsrmPropertyDefinition::get_Type, fsrmpipeline/IFsrmPropertyDefinition::put_Type, put_Type
-f1_keywords:
-- fsrmpipeline/IFsrmPropertyDefinition.Type
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmPropertyDefinition.Type
-- IFsrmPropertyDefinition.get_Type
-- IFsrmPropertyDefinition.put_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmPropertyDefinition::put_Type
+ - fsrmpipeline/IFsrmPropertyDefinition::put_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmPropertyDefinition.Type
+ - IFsrmPropertyDefinition.get_Type
+ - IFsrmPropertyDefinition.put_Type
 ---
 
 # IFsrmPropertyDefinition::put_Type
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The type of data that the property contains.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 You cannot change the type after you commit the definition.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>

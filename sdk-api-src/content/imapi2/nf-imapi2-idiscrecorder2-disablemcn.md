@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.DisableMcn
 title: IDiscRecorder2::DisableMcn (imapi2.h)
 description: Disables Media Change Notification (MCN) for the device.
+helpviewer_keywords: ["DisableMcn","DisableMcn method [IMAPI]","DisableMcn method [IMAPI]","IDiscRecorder2 interface","IDiscRecorder2 interface [IMAPI]","DisableMcn method","IDiscRecorder2.DisableMcn","IDiscRecorder2::DisableMcn","imapi.idiscrecorder2_disablemcn","imapi2/IDiscRecorder2::DisableMcn"]
 old-location: imapi\idiscrecorder2_disablemcn.htm
 tech.root: imapi
 ms.assetid: 3111863e-64bf-467c-ac73-7a16c9aeb3df
 ms.date: 12/05/2018
 ms.keywords: DisableMcn, DisableMcn method [IMAPI], DisableMcn method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],DisableMcn method, IDiscRecorder2.DisableMcn, IDiscRecorder2::DisableMcn, imapi.idiscrecorder2_disablemcn, imapi2/IDiscRecorder2::DisableMcn
-f1_keywords:
-- imapi2/IDiscRecorder2.DisableMcn
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.DisableMcn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::DisableMcn
+ - imapi2/IDiscRecorder2::DisableMcn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.DisableMcn
 ---
 
 # IDiscRecorder2::DisableMcn
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disables Media Change Notification (MCN) for the device.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -149,35 +142,19 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 MCN is the CD-ROM device driver's method of detecting media change and state changes in the CD-ROM device. For example, when you change the media in a CD-ROM device, a MCN message is sent to trigger media features, such as Autoplay. To disable the features, call this method. 
 
-To enable notifications, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a> method. If the application crashes or closes unexpectedly, then MCN is automatically re-enabled by the driver.
+To enable notifications, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a> method. If the application crashes or closes unexpectedly, then MCN is automatically re-enabled by the driver.
 
-Note that DisableMcn increments a reference count each time it is called. The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">EnableMcn</a> method decrements the count. The device is enabled when the reference count is zero.
-
-
-
+Note that DisableMcn increments a reference count each time it is called. The <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">EnableMcn</a> method decrements the count. The device is enabled when the reference count is zero.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>

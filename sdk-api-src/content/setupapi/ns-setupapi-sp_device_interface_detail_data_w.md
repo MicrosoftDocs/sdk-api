@@ -1,16 +1,13 @@
 ---
 UID: NS:setupapi._SP_DEVICE_INTERFACE_DETAIL_DATA_W
 title: SP_DEVICE_INTERFACE_DETAIL_DATA_W (setupapi.h)
-description: An SP_DEVICE_INTERFACE_DETAIL_DATA structure contains the path for a device interface.
+description: An SP_DEVICE_INTERFACE_DETAIL_DATA structure contains the path for a device interface. (Unicode)
+helpviewer_keywords: ["*PSP_DEVICE_INTERFACE_DETAIL_DATA_W","PSP_DEVICE_INTERFACE_DETAIL_DATA","PSP_DEVICE_INTERFACE_DETAIL_DATA structure pointer [Device and Driver Installation]","SP_DEVICE_INTERFACE_DETAIL_DATA","SP_DEVICE_INTERFACE_DETAIL_DATA structure [Device and Driver Installation]","SP_DEVICE_INTERFACE_DETAIL_DATA_W","SP_INTERFACE_DEVICE_DETAIL_DATA","SP_INTERFACE_DEVICE_DETAIL_DATA_W","devinst.sp_device_interface_detail_data","di-struct_fbf4856e-f570-4024-b4eb-6ac7555d65ca.xml","setupapi/PSP_DEVICE_INTERFACE_DETAIL_DATA","setupapi/SP_DEVICE_INTERFACE_DETAIL_DATA"]
 old-location: devinst\sp_device_interface_detail_data.htm
 tech.root: devinst
 ms.assetid: 9dd44297-6e51-425d-a355-f2ea78757bf7
 ms.date: 12/05/2018
 ms.keywords: '*PSP_DEVICE_INTERFACE_DETAIL_DATA_W, PSP_DEVICE_INTERFACE_DETAIL_DATA, PSP_DEVICE_INTERFACE_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DEVICE_INTERFACE_DETAIL_DATA, SP_DEVICE_INTERFACE_DETAIL_DATA structure [Device and Driver Installation], SP_DEVICE_INTERFACE_DETAIL_DATA_W, SP_INTERFACE_DEVICE_DETAIL_DATA, SP_INTERFACE_DEVICE_DETAIL_DATA_W, devinst.sp_device_interface_detail_data, di-struct_fbf4856e-f570-4024-b4eb-6ac7555d65ca.xml, setupapi/PSP_DEVICE_INTERFACE_DETAIL_DATA, setupapi/SP_DEVICE_INTERFACE_DETAIL_DATA'
-f1_keywords:
-- setupapi/SP_DEVICE_INTERFACE_DETAIL_DATA
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- setupapi.h
-api_name:
-- SP_DEVICE_INTERFACE_DETAIL_DATA
-- sp_device_interface_detail_data_w
 targetos: Windows
 req.typenames: SP_DEVICE_INTERFACE_DETAIL_DATA_W, *PSP_DEVICE_INTERFACE_DETAIL_DATA_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_DEVICE_INTERFACE_DETAIL_DATA_W
+ - setupapi/_SP_DEVICE_INTERFACE_DETAIL_DATA_W
+ - PSP_DEVICE_INTERFACE_DETAIL_DATA_W
+ - setupapi/PSP_DEVICE_INTERFACE_DETAIL_DATA_W
+ - SP_DEVICE_INTERFACE_DETAIL_DATA_W
+ - setupapi/SP_DEVICE_INTERFACE_DETAIL_DATA_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - setupapi.h
+api_name:
+ - SP_DEVICE_INTERFACE_DETAIL_DATA
+ - sp_device_interface_detail_data_w
 ---
 
 # SP_DEVICE_INTERFACE_DETAIL_DATA_W structure
@@ -49,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 An SP_DEVICE_INTERFACE_DETAIL_DATA structure contains the path for a device interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of the SP_DEVICE_INTERFACE_DETAIL_DATA structure. For more information, see the following Remarks section.
 
-
 ### -field DevicePath
 
-A NULL-terminated string that contains the device interface path. This path can be passed to Win32 functions such as <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>. 
-
+A NULL-terminated string that contains the device interface path. This path can be passed to Win32 functions such as <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 ## -remarks
-
-
 
 An SP_DEVICE_INTERFACE_DETAIL_DATA structure identifies the path for a device interface in a device information set.
 
@@ -79,13 +76,10 @@ An SP_DEVICE_INTERFACE_DETAIL_DATA structure identifies the path for a device in
 
 
 
+
+> [!NOTE]
+> The setupapi.h header defines SP_DEVICE_INTERFACE_DETAIL_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila">SetupDiGetDeviceInterfaceDetail</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila">SetupDiGetDeviceInterfaceDetail</a>

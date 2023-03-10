@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDDeviceHost.RegisterService
 title: IWSDDeviceHost::RegisterService (wsdhost.h)
 description: Registers a service object for incoming requests and adds the service to the device host metadata.
+helpviewer_keywords: ["IWSDDeviceHost interface","RegisterService method","IWSDDeviceHost.RegisterService","IWSDDeviceHost::RegisterService","RegisterService","RegisterService method","RegisterService method","IWSDDeviceHost interface","ncd.iwsddevicehost_registerservice_method","wsdhost/IWSDDeviceHost::RegisterService"]
 old-location: ncd\iwsddevicehost_registerservice_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8e125e72-4060-4be6-b370-b2f6b24d9da7
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RegisterService method, IWSDDeviceHost.RegisterService, IWSDDeviceHost::RegisterService, RegisterService, RegisterService method, RegisterService method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerservice_method, wsdhost/IWSDDeviceHost::RegisterService
-f1_keywords:
-- wsdhost/IWSDDeviceHost.RegisterService
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.RegisterService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::RegisterService
+ - wsdhost/IWSDDeviceHost::RegisterService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.RegisterService
 ---
 
 # IWSDDeviceHost::RegisterService
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a service object for incoming requests and adds the service to the device host metadata.
-
 
 ## -parameters
 
-
-
-
 ### -param pszServiceId [in]
 
- The ID of the service to be registered. This ID must appear in the device's service host metadata. 
-
-
+ The ID of the service to be registered. This ID must appear in the device's service host metadata.
 
 ### -param pService [in]
 
 The service object that will handle requests addressed to the specified service.
 
-
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -103,18 +94,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

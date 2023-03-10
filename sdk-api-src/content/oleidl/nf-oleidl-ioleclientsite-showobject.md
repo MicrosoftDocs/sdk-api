@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleClientSite.ShowObject
 title: IOleClientSite::ShowObject (oleidl.h)
 description: Asks a container to display its object to the user. This method ensures that the container itself is visible and not minimized.
+helpviewer_keywords: ["IOleClientSite interface [COM]","ShowObject method","IOleClientSite.ShowObject","IOleClientSite::ShowObject","ShowObject","ShowObject method [COM]","ShowObject method [COM]","IOleClientSite interface","_ole_ioleclientsite_showobject","com.ioleclientsite_showobject","oleidl/IOleClientSite::ShowObject"]
 old-location: com\ioleclientsite_showobject.htm
 tech.root: com
 ms.assetid: ba502a3d-2042-4978-a152-636a887c61fc
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite interface [COM],ShowObject method, IOleClientSite.ShowObject, IOleClientSite::ShowObject, ShowObject, ShowObject method [COM], ShowObject method [COM],IOleClientSite interface, _ole_ioleclientsite_showobject, com.ioleclientsite_showobject, oleidl/IOleClientSite::ShowObject
-f1_keywords:
-- oleidl/IOleClientSite.ShowObject
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleClientSite.ShowObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleClientSite::ShowObject
+ - oleidl/IOleClientSite::ShowObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleClientSite.ShowObject
 ---
 
 # IOleClientSite::ShowObject
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Asks a container to display its object to the user. This method ensures that the container itself is visible and not minimized.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -82,33 +75,17 @@ Client site is in an OLE 1 container.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After a link client binds to a link source, it commonly calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a> on the link source, usually requesting the source to perform some action requiring that it display itself to the user. As part of its implementation of <b>IOleObject::DoVerb</b>, the link source can call <b>ShowObject</b>, which forces the client to show the link source as best it can. If the link source's container is itself an embedded object, it will recursively invoke <b>ShowObject</b> on its own container.
+After a link client binds to a link source, it commonly calls <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a> on the link source, usually requesting the source to perform some action requiring that it display itself to the user. As part of its implementation of <b>IOleObject::DoVerb</b>, the link source can call <b>ShowObject</b>, which forces the client to show the link source as best it can. If the link source's container is itself an embedded object, it will recursively invoke <b>ShowObject</b> on its own container.
 
 Having called the <b>ShowObject</b> method, a link source has no guarantee of being appropriately displayed because its container may not be able to do so at the time of the call. The <b>ShowObject</b> method does not guarantee visibility, only that the container will do the best it can.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>

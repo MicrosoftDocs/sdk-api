@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMTVAudio.put_TVAudioMode
 title: IAMTVAudio::put_TVAudioMode (strmif.h)
 description: The put_TVAudioMode method sets the current TV audio mode.
+helpviewer_keywords: ["IAMTVAudio interface [DirectShow]","put_TVAudioMode method","IAMTVAudio.put_TVAudioMode","IAMTVAudio::put_TVAudioMode","IAMTVAudioput_TVAudioMode","dshow.iamtvaudio_put_tvaudiomode","put_TVAudioMode","put_TVAudioMode method [DirectShow]","put_TVAudioMode method [DirectShow]","IAMTVAudio interface","strmif/IAMTVAudio::put_TVAudioMode"]
 old-location: dshow\iamtvaudio_put_tvaudiomode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7efe43af-db07-4286-b0b7-6527403568f0
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio interface [DirectShow],put_TVAudioMode method, IAMTVAudio.put_TVAudioMode, IAMTVAudio::put_TVAudioMode, IAMTVAudioput_TVAudioMode, dshow.iamtvaudio_put_tvaudiomode, put_TVAudioMode, put_TVAudioMode method [DirectShow], put_TVAudioMode method [DirectShow],IAMTVAudio interface, strmif/IAMTVAudio::put_TVAudioMode
-f1_keywords:
-- strmif/IAMTVAudio.put_TVAudioMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTVAudio.put_TVAudioMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTVAudio::put_TVAudioMode
+ - strmif/IAMTVAudio::put_TVAudioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTVAudio.put_TVAudioMode
 ---
 
 # IAMTVAudio::put_TVAudioMode
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_TVAudioMode</code> method sets the current TV audio mode.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lMode [in]
 
-A [TVAudioMode](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tvaudiomode) enumeration value that identifies the audio mode.
-
+A [TVAudioMode](/windows/desktop/api/strmif/ne-strmif-tvaudiomode) enumeration value that identifies the audio mode.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -133,22 +124,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.Stop
 title: IDvdControl2::Stop (strmif.h)
 description: The Stop method stops playback of a title or menu by moving the DVD Navigator into the DVD Stop domain.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","Stop method","IDvdControl2.Stop","IDvdControl2::Stop","IDvdControl2Stop","Stop","Stop method [DirectShow]","Stop method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_stop","strmif/IDvdControl2::Stop"]
 old-location: dshow\idvdcontrol2_stop.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9c1ebe2b-c40a-410f-a4a5-ad79350a27dd
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Stop method, IDvdControl2.Stop, IDvdControl2::Stop, IDvdControl2Stop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_stop, strmif/IDvdControl2::Stop
-f1_keywords:
-- strmif/IDvdControl2.Stop
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::Stop
+ - strmif/IDvdControl2::Stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.Stop
 ---
 
 # IDvdControl2::Stop
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Stop</code> method stops playback of a title or menu by moving the DVD Navigator into the DVD Stop domain.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -97,14 +87,8 @@ Invalid domain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling this method puts the DVD Navigator into the Stop domain, but the DVD filter graph as a whole remains in a running state, ready to play at any time. From the Stop, domain the user can display a menu or initiate playback directly through any "Play" method.
 
@@ -129,26 +113,15 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

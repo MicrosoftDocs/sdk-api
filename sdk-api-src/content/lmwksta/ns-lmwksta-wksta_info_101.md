@@ -1,16 +1,13 @@
 ---
 UID: NS:lmwksta._WKSTA_INFO_101
 title: WKSTA_INFO_101 (lmwksta.h)
-description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
+description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system. (WKSTA_INFO_101)
+helpviewer_keywords: ["*LPWKSTA_INFO_101","*PWKSTA_INFO_101","LPWKSTA_INFO_101","LPWKSTA_INFO_101 structure pointer [Network Management]","PLATFORM_ID_DOS","PLATFORM_ID_NT","PLATFORM_ID_OS2","PLATFORM_ID_OSF","PLATFORM_ID_VMS","PWKSTA_INFO_101","PWKSTA_INFO_101 structure pointer [Network Management]","WKSTA_INFO_101","WKSTA_INFO_101 structure [Network Management]","_win32_wksta_info_101_str","lmwksta/LPWKSTA_INFO_101","lmwksta/PWKSTA_INFO_101","lmwksta/WKSTA_INFO_101","netmgmt.wksta_info_101_str"]
 old-location: netmgmt\wksta_info_101_str.htm
 tech.root: NetMgmt
 ms.assetid: 2b692d40-6229-45ef-9ec6-ee464bba0696
 ms.date: 12/05/2018
 ms.keywords: '*LPWKSTA_INFO_101, *PWKSTA_INFO_101, LPWKSTA_INFO_101, LPWKSTA_INFO_101 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PWKSTA_INFO_101, PWKSTA_INFO_101 structure pointer [Network Management], WKSTA_INFO_101, WKSTA_INFO_101 structure [Network Management], _win32_wksta_info_101_str, lmwksta/LPWKSTA_INFO_101, lmwksta/PWKSTA_INFO_101, lmwksta/WKSTA_INFO_101, netmgmt.wksta_info_101_str'
-f1_keywords:
-- lmwksta/WKSTA_INFO_101
-dev_langs:
-- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmwksta.h
-api_name:
-- WKSTA_INFO_101
 targetos: Windows
 req.typenames: WKSTA_INFO_101, *PWKSTA_INFO_101, *LPWKSTA_INFO_101
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WKSTA_INFO_101
+ - lmwksta/_WKSTA_INFO_101
+ - PWKSTA_INFO_101
+ - lmwksta/PWKSTA_INFO_101
+ - WKSTA_INFO_101
+ - lmwksta/WKSTA_INFO_101
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmwksta.h
+api_name:
+ - WKSTA_INFO_101
 ---
 
 # WKSTA_INFO_101 structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WKSTA_INFO_101</b> structure contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wki101_platform_id
 
@@ -128,8 +129,6 @@ The VMS platform.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wki101_computername
 
@@ -139,7 +138,6 @@ A pointer to a string specifying the name of the local computer.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field wki101_langroup
 
 Type: <b>LMSTR</b>
@@ -148,20 +146,17 @@ A pointer to a string specifying the name of the domain to which the computer be
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field wki101_ver_major
 
 Type: <b>DWORD</b>
 
 The major version number of the operating system running on the computer.
 
-
 ### -field wki101_ver_minor
 
 Type: <b>DWORD</b>
 
 The minor version number of the operating system running on the computer.
-
 
 ### -field wki101_lanroot
 
@@ -171,30 +166,22 @@ A pointer to a string that contains the path to the LANMAN directory.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmwksta/nf-lmwksta-netwkstagetinfo">NetWkstaGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstagetinfo">NetWkstaGetInfo</a>
+<a href="/windows/desktop/api/lmwksta/nf-lmwksta-netwkstasetinfo">NetWkstaSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstasetinfo">NetWkstaSetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>

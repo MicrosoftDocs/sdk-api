@@ -4,8 +4,11 @@ title: Mfapi.h header
 ms.assetid: cceae2b5-e007-389d-a4b9-5e1e17db5d55
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mf
+f1_keywords:
+ - mfapi
+ - mfapi/mfapi
 ---
 
 # Mfapi.h header
@@ -13,8 +16,8 @@ tech.root: mf
 
 ## -description
 
-
-This header is used by Microsoft Media Foundation. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Microsoft Media Foundation](../_mf/index.md)
+- [Streaming media DDI reference](../_stream/index.md)
 

@@ -2,15 +2,12 @@
 UID: NS:dvdmedia.tagVIDEOINFOHEADER2
 title: VIDEOINFOHEADER2 (dvdmedia.h)
 description: The VIDEOINFOHEADER2 structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
+helpviewer_keywords: ["AMCONTROL_COLORINFO_PRESENT","AMCONTROL_PAD_TO_16x9","AMCONTROL_PAD_TO_4x3","AMCONTROL_USED","AMINTERLACE_1FieldPerSample","AMINTERLACE_DisplayModeBobOnly","AMINTERLACE_DisplayModeBobOrWeave","AMINTERLACE_DisplayModeWeaveOnly","AMINTERLACE_Field1First","AMINTERLACE_FieldPatBothIrregular","AMINTERLACE_FieldPatBothRegular","AMINTERLACE_FieldPatField1Only","AMINTERLACE_FieldPatField2Only","AMINTERLACE_IsInterlaced","VIDEOINFOHEADER2","VIDEOINFOHEADER2 structure [DirectShow]","VIDEOINFOHEADER2Structure","dshow.videoinfoheader2","dvdmedia/VIDEOINFOHEADER2","tagVIDEOINFOHEADER2"]
 old-location: dshow\videoinfoheader2.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5e3d5bf0-435f-45da-8409-a1463b56a7ae
 ms.date: 12/05/2018
 ms.keywords: AMCONTROL_COLORINFO_PRESENT, AMCONTROL_PAD_TO_16x9, AMCONTROL_PAD_TO_4x3, AMCONTROL_USED, AMINTERLACE_1FieldPerSample, AMINTERLACE_DisplayModeBobOnly, AMINTERLACE_DisplayModeBobOrWeave, AMINTERLACE_DisplayModeWeaveOnly, AMINTERLACE_Field1First, AMINTERLACE_FieldPatBothIrregular, AMINTERLACE_FieldPatBothRegular, AMINTERLACE_FieldPatField1Only, AMINTERLACE_FieldPatField2Only, AMINTERLACE_IsInterlaced, VIDEOINFOHEADER2, VIDEOINFOHEADER2 structure [DirectShow], VIDEOINFOHEADER2Structure, dshow.videoinfoheader2, dvdmedia/VIDEOINFOHEADER2, tagVIDEOINFOHEADER2
-f1_keywords:
-- dvdmedia/VIDEOINFOHEADER2
-dev_langs:
-- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dvdmedia.h
-api_name:
-- VIDEOINFOHEADER2
 targetos: Windows
 req.typenames: VIDEOINFOHEADER2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagVIDEOINFOHEADER2
+ - dvdmedia/tagVIDEOINFOHEADER2
+ - VIDEOINFOHEADER2
+ - dvdmedia/VIDEOINFOHEADER2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dvdmedia.h
+api_name:
+ - VIDEOINFOHEADER2
 ---
 
 # VIDEOINFOHEADER2 structure
@@ -48,45 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including interlace, copy protection, and pixel aspect ratio information.
-        
-
 
 ## -struct-fields
 
-
-
-
 ### -field rcSource
 
-A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/source-and-target-rectangles-in-video-renderers">Source and Target Rectangles in Video Renderers</a>.
-          
-
+A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies what part of the source stream should be used to fill the destination buffer. Renderers can use this field to ask the decoders to stretch or clip. For more information, see <a href="/windows/desktop/DirectShow/source-and-target-rectangles-in-video-renderers">Source and Target Rectangles in Video Renderers</a>.
 
 ### -field rcTarget
 
 A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies that specifies what part of the destination buffer should be used
-          
-
 
 ### -field dwBitRate
 
 The approximate data rate of the video stream, in bits per second.
-          
-
 
 ### -field dwBitErrorRate
 
 The data error rate of the video stream, in bits per second.
-          
-
 
 ### -field AvgTimePerFrame
 
-The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
-          
-
+The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 ### -field dwInterlaceFlags
 
@@ -218,21 +206,17 @@ Either bob or weave mode.
 
 Set undefined flags to zero, or the connection will be rejected.
 
-
 ### -field dwCopyProtectFlags
 
 Flag set with the AMCOPYPROTECT_RestrictDuplication value (0x00000001) to indicate that the duplication of the stream should be restricted. If undefined, specify zero or else the connection will be rejected.
-
 
 ### -field dwPictAspectRatioX
 
 The X dimension of picture aspect ratio. For example, 16 for a 16-inch x 9-inch display.
 
-
 ### -field dwPictAspectRatioY
 
 The Y dimension of picture aspect ratio. For example, 9 for a 16-inch x 9-inch display.
-
 
 ### -field dwControlFlags
 
@@ -289,34 +273,27 @@ Additional color information is contained in the upper 24 bits of the <b>dwContr
 
 The AMCONTROL_USED flag provides backward compatibility with older filters. If the AMCONTROL_USED flag is not set, the remaining bits in this field should be ignored. If a filter uses any of the other flags, it should set the AMCONTROL_USED flag.
 
-The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle. The source filter sets the AMCONTROL_USED flag and one of the padding flags and calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">QueryAccept</a> on the downstream pin. If the decoder rejects the type, the source filter should set the dwControlFlags field to zero. For more information on the use of these flags, see MPEG Decoder Preprocessing Transformations.
+The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle. The source filter sets the AMCONTROL_USED flag and one of the padding flags and calls <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">QueryAccept</a> on the downstream pin. If the decoder rejects the type, the source filter should set the dwControlFlags field to zero. For more information on the use of these flags, see MPEG Decoder Preprocessing Transformations.
 
 If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of the dwControlFlags field are treated as a <b>DXVA_ExtendedFormat</b> structure. See Remarks for more information.
 
 If this field contains any combination of flags that the filter does not support, the filter should reject the media type.
 
-
 ### -field dwReserved1
 
 See description of <b>dwControlFlags</b>.
-
 
 ### -field dwReserved2
 
 Reserved for future use. Must be zero.
 
-
 ### -field bmiHeader
 
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure that contains color and dimension information for the video image bitmap.
-
-When used inside a <b>VIDEOINFOHEADER2</b> structure, the semantics of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>.
-
+When used inside a <b>VIDEOINFOHEADER2</b> structure, the semantics of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure differ slightly from how the structure is used in GDI. For more information, refer to the topic <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a>.
 
 ## -remarks
-
-
 
 The picture aspect ratio is given by <b>dwPictAspectRatioX</b> and <b>dwPictAspectRatioY</b>. These specify the intended shape of the video image when it is displayed. The pixel aspect ratio is calculated from the <b>rcSource</b> rectangle and the picture aspect ratio.
 
@@ -371,7 +348,7 @@ AMINTERLACE_DisplayModeWeaveOnly
 </table>
  
 
-If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">IMediaSample2::SetProperties</a> on the media sample.
+If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="/windows/win32/api/strmif/ns-strmif-am_sample2_properties">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="/windows/desktop/api/strmif/nf-strmif-imediasample2-setproperties">IMediaSample2::SetProperties</a> on the media sample.
 
 <table>
 <tr>
@@ -496,20 +473,10 @@ DXVA_ExtendedFormat& flags = (DXVA_ExtendedFormat&)pVIH2->dwControlFlags;
 
 Ignore the <b>SampleFormat</b> member of the <b>DXVA_ExtendedFormat</b> structure, because it corresponds to the lower 8 bits of <b>dwControlFlags</b>, which are reserved for the AMCONTROL_xxx flags. The <b>DXVA_ExtendedFormat</b> structure is documented in the Windows DDK documentation.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/media-types">Media Types</a>

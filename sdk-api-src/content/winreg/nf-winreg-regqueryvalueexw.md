@@ -1,16 +1,13 @@
 ---
 UID: NF:winreg.RegQueryValueExW
 title: RegQueryValueExW function (winreg.h)
-description: Retrieves the type and data for the specified value name associated with an open registry key.
+description: Retrieves the type and data for the specified value name associated with an open registry key. (Unicode)
+helpviewer_keywords: ["RegQueryValueEx", "RegQueryValueEx function", "RegQueryValueExW", "_win32_regqueryvalueex", "base.regqueryvalueex", "winreg/RegQueryValueEx", "winreg/RegQueryValueExW"]
 old-location: base\regqueryvalueex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 202d253a-10ff-40e7-8eec-a49717443b81
 ms.date: 12/05/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
-f1_keywords:
-- winreg/RegQueryValueEx
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,29 +25,34 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-Localregistry-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Registry-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- MinKernelBase.dll
-- api-ms-win-core-registry-l1-1-1.dll
-- kernel32.dll
-api_name:
-- RegQueryValueEx
-- RegQueryValueExA
-- RegQueryValueExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegQueryValueExW
+ - winreg/RegQueryValueExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-Localregistry-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Registry-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - MinKernelBase.dll
+ - api-ms-win-core-registry-l1-1-1.dll
+ - kernel32.dll
+api_name:
+ - RegQueryValueEx
+ - RegQueryValueExA
+ - RegQueryValueExW
 ---
 
 # RegQueryValueExW function
@@ -58,29 +60,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type and data for the specified value name associated with an open registry key.
 
-To ensure that any string values (REG_SZ, REG_MULTI_SZ, and REG_EXPAND_SZ) returned are <b>null</b>-terminated, use the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> function.
-
+To ensure that any string values (REG_SZ, REG_MULTI_SZ, and REG_EXPAND_SZ) returned are <b>null</b>-terminated, use the <a href="/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_QUERY_VALUE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
 
 
 
 
 This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
 <dd><b>HKEY_CURRENT_USER</b></dd>
@@ -90,8 +87,6 @@ This handle is returned by the
 <dd><b>HKEY_PERFORMANCE_TEXT</b></dd>
 <dd><b>HKEY_USERS</b></dd>
 </dl>
-
-
 
 ### -param lpValueName [in, optional]
 
@@ -105,24 +100,20 @@ If <i>lpValueName</i> is <b>NULL</b> or an empty string, "", the function retrie
 If <i>lpValueName</i> specifies a value that is not in the registry, the function returns ERROR_FILE_NOT_FOUND.
 
 Keys do not automatically have an unnamed or default value. Unnamed values can be of any type. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
-
+<a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
 ### -param lpReserved
 
 This parameter is reserved and must be <b>NULL</b>.
 
-
 ### -param lpType [out, optional]
 
 A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. The <i>lpType</i> parameter can be <b>NULL</b> if the type code is not required.
-
+<a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. The <i>lpType</i> parameter can be <b>NULL</b> if the type code is not required.
 
 ### -param lpData [out, optional]
 
 A pointer to a buffer that receives the value's data. This parameter can be <b>NULL</b> if the data is not required.
-
 
 ### -param lpcbData [in, out, optional]
 
@@ -145,30 +136,22 @@ If <i>hKey</i> specifies <b>HKEY_PERFORMANCE_DATA</b> and the <i>lpData</i> buff
 
 If the <i>lpValueName</i> registry value does not exist, <b>RegQueryValueEx</b> returns ERROR_FILE_NOT_FOUND and the value returned through the <i>lpcbData</i> parameter is undefined.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 If the <i>lpData</i> buffer is too small to receive the data, the function returns ERROR_MORE_DATA.
 
 If the <i>lpValueName</i> registry value does not exist, the function returns ERROR_FILE_NOT_FOUND.
 
-
-
-
 ## -remarks
 
+An application typically calls <a href="/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a> to determine the value names and then <b>RegQueryValueEx</b> to retrieve the data for the names.
 
-
-An application typically calls <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a> to determine the value names and then <b>RegQueryValueEx</b> to retrieve the data for the names.
-
-If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, the string may not have been stored with the proper terminating <b>null</b> characters. Therefore, even if the function returns ERROR_SUCCESS, the application should ensure that the string is properly terminated before using it; otherwise, it may overwrite a buffer. (Note that REG_MULTI_SZ strings should have two terminating <b>null</b> characters.) One way an application can ensure that the string is properly terminated is to use <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a>, which adds terminating <b>null</b> characters if needed.
+If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, the string may not have been stored with the proper terminating <b>null</b> characters. Therefore, even if the function returns ERROR_SUCCESS, the application should ensure that the string is properly terminated before using it; otherwise, it may overwrite a buffer. (Note that REG_MULTI_SZ strings should have two terminating <b>null</b> characters.) One way an application can ensure that the string is properly terminated is to use <a href="/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a>, which adds terminating <b>null</b> characters if needed.
 
 If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, and the ANSI version of this function is used (either by explicitly calling <b>RegQueryValueExA</b> or by not defining UNICODE before including the Windows.h file), this function converts the stored Unicode string to an ANSI string before copying it to the buffer pointed to by <i>lpData</i>.
 
@@ -176,7 +159,7 @@ When calling the
 <b>RegQueryValueEx</b> function with <i>hKey</i> set to the <b>HKEY_PERFORMANCE_DATA</b> handle and a value string of a specified object, the returned data structure sometimes has unrequested objects. Do not be surprised; this is normal behavior. When calling the 
 <b>RegQueryValueEx</b> function, you should always expect to walk the returned data structure to look for the requested object.
 
-Note that operations that access certain registry keys are redirected. For more information,  see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
+Note that operations that access certain registry keys are redirected. For more information,  see <a href="/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
 
 #### Examples
@@ -236,45 +219,42 @@ void main()
 
 
 
+
+> [!NOTE]
+> The winreg.h header defines RegQueryValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetvaluea">RegGetValue</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>

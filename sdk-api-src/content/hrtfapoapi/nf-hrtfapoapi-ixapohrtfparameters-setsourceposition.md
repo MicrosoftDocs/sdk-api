@@ -2,15 +2,12 @@
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetSourcePosition
 title: IXAPOHrtfParameters::SetSourcePosition (hrtfapoapi.h)
 description: Sets the position of the sound relative to the listener.
+helpviewer_keywords: ["IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs]","SetSourcePosition method","IXAPOHrtfParameters.SetSourcePosition","IXAPOHrtfParameters::SetSourcePosition","SetSourcePosition","SetSourcePosition method [XAudio2 Audio Mixing APIs]","SetSourcePosition method [XAudio2 Audio Mixing APIs]","IXAPOHrtfParameters interface","hrtfapoapi/IXAPOHrtfParameters::SetSourcePosition","xaudio2.ixapohrtfparameters_setsourceposition"]
 old-location: xaudio2\ixapohrtfparameters_setsourceposition.htm
 tech.root: xaudio2
 ms.assetid: BEB21131-7B70-4C50-8BDD-EDF0543B3910
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetSourcePosition method, IXAPOHrtfParameters.SetSourcePosition, IXAPOHrtfParameters::SetSourcePosition, SetSourcePosition, SetSourcePosition method [XAudio2 Audio Mixing APIs], SetSourcePosition method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetSourcePosition, xaudio2.ixapohrtfparameters_setsourceposition
-f1_keywords:
-- hrtfapoapi/IXAPOHrtfParameters.SetSourcePosition
-dev_langs:
-- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: HrtfApo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- HrtfApo.dll
-api_name:
-- IXAPOHrtfParameters.SetSourcePosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAPOHrtfParameters::SetSourcePosition
+ - hrtfapoapi/IXAPOHrtfParameters::SetSourcePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - HrtfApo.dll
+api_name:
+ - IXAPOHrtfParameters.SetSourcePosition
 ---
 
 # IXAPOHrtfParameters::SetSourcePosition
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the position of the sound relative to the listener.
 
-
 ## -parameters
-
-
-
 
 ### -param position [in]
 
 The position of the sound relative to the listener.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>

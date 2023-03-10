@@ -2,15 +2,12 @@
 UID: NF:windowsx.Edit_GetLine
 title: Edit_GetLine macro (windowsx.h)
 description: Retrieves a line of text from an edit or rich edit control. You can use this macro or send the EM_GETLINE message explicitly.
+helpviewer_keywords: ["Edit_GetLine","Edit_GetLine macro [Windows Controls]","_win32_Edit_GetLine","_win32_Edit_GetLine_cpp","controls.Edit_GetLine","controls._win32_Edit_GetLine","windowsx/Edit_GetLine"]
 old-location: controls\Edit_GetLine.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getline.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_GetLine, Edit_GetLine macro [Windows Controls], _win32_Edit_GetLine, _win32_Edit_GetLine_cpp, controls.Edit_GetLine, controls._win32_Edit_GetLine, windowsx/Edit_GetLine
-f1_keywords:
-- windowsx/Edit_GetLine
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- Edit_GetLine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Edit_GetLine
+ - windowsx/Edit_GetLine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - Edit_GetLine
 ---
 
 # Edit_GetLine macro
@@ -48,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a line of text from an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getline">EM_GETLINE</a> message explicitly.
-
+Retrieves a line of text from an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-getline">EM_GETLINE</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
-
 
 ### -param line
 
 Type: <b>int</b>
 
-The zero-based index of the line. This parameter is ignored by a single-line edit control. 
-
-
+The zero-based index of the line. This parameter is ignored by a single-line edit control.
 
 ### -param lpch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a buffer that receives the string.
-
 
 ### -param cchMax
 
@@ -85,13 +78,6 @@ Type: <b>int</b>
 
 The maximum number of characters to be copied to the buffer.
 
-
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getline">EM_GETLINE</a>
-
-
-
-
+For more information, see <a href="/windows/desktop/Controls/em-getline">EM_GETLINE</a>

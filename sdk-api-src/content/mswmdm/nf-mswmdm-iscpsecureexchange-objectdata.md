@@ -2,15 +2,12 @@
 UID: NF:mswmdm.ISCPSecureExchange.ObjectData
 title: ISCPSecureExchange::ObjectData (mswmdm.h)
 description: The ObjectData method transfers a block of object data back to Windows Media Device Manager.
+helpviewer_keywords: ["ISCPSecureExchange interface [windows Media Device Manager]","ObjectData method","ISCPSecureExchange.ObjectData","ISCPSecureExchange::ObjectData","ISCPSecureExchangeObjectData","ObjectData","ObjectData method [windows Media Device Manager]","ObjectData method [windows Media Device Manager]","ISCPSecureExchange interface","mswmdm/ISCPSecureExchange::ObjectData","wmdm.iscpsecureexchange_objectdata"]
 old-location: wmdm\iscpsecureexchange_objectdata.htm
 tech.root: WMDM
 ms.assetid: 825539e4-9162-40b7-bae0-336e728fb34e
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],ObjectData method, ISCPSecureExchange.ObjectData, ISCPSecureExchange::ObjectData, ISCPSecureExchangeObjectData, ObjectData, ObjectData method [windows Media Device Manager], ObjectData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::ObjectData, wmdm.iscpsecureexchange_objectdata
-f1_keywords:
-- mswmdm/ISCPSecureExchange.ObjectData
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- ISCPSecureExchange.ObjectData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSecureExchange::ObjectData
+ - mswmdm/ISCPSecureExchange::ObjectData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - ISCPSecureExchange.ObjectData
 ---
 
 # ISCPSecureExchange::ObjectData
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ObjectData</b> method transfers a block of object data back to Windows Media Device Manager.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pData [out]
 
 Pointer to a buffer to receive data. This parameter is included in the output message authentication code and is encrypted.
 
-
 ### -param pdwSize [in, out]
 
 Pointer to a <b>DWORD</b> containing the transfer size. This parameter must be included in both the input and output message authentication codes.
-
 
 ### -param abMac [in, out]
 
 Array of eight bytes containing the message authentication code for the parameter data of this method. (WMDM_MAC_LENGTH is defined as 8.)
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
@@ -143,27 +132,11 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To transfer data, Windows Media Device Manager calls the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">TransferContainerData</a> method to obtain the container data. <b>ObjectData</b> is then called to transfer blocks of object data from the secure content provider to Windows Media Device Manager. If S_OK is returned with <i>pdwSize</i> set to zero, Windows Media Device Manager will request no further data.
-
-
-
+To transfer data, Windows Media Device Manager calls the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">TransferContainerData</a> method to obtain the container data. <b>ObjectData</b> is then called to transfer blocks of object data from the secure content provider to Windows Media Device Manager. If S_OK is returned with <i>pdwSize</i> set to zero, Windows Media Device Manager will request no further data.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>

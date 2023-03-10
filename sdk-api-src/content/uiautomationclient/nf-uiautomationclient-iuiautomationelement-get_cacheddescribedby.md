@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedDescribedBy
 title: IUIAutomationElement::get_CachedDescribedBy (uiautomationclient.h)
 description: Retrieves a cached array of elements that describe this element.
+helpviewer_keywords: ["CachedDescribedBy property [Windows Accessibility]","CachedDescribedBy property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedDescribedBy property","IUIAutomationElement.CachedDescribedBy","IUIAutomationElement.get_CachedDescribedBy","IUIAutomationElement::CachedDescribedBy","IUIAutomationElement::get_CachedDescribedBy","get_CachedDescribedBy","uiauto.uiauto_IUIAutomationElement_CachedDescribedBy","uiauto_IUIAutomationElement_CachedDescribedBy","uiautomationclient/IUIAutomationElement::CachedDescribedBy","uiautomationclient/IUIAutomationElement::get_CachedDescribedBy","winauto.uiauto_IUIAutomationElement_CachedDescribedBy"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedDescribedBy.htm
 tech.root: WinAuto
 ms.assetid: 705c9f5a-ef7d-4495-8de2-710a6e9f78df
 ms.date: 12/05/2018
 ms.keywords: CachedDescribedBy property [Windows Accessibility], CachedDescribedBy property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedDescribedBy property, IUIAutomationElement.CachedDescribedBy, IUIAutomationElement.get_CachedDescribedBy, IUIAutomationElement::CachedDescribedBy, IUIAutomationElement::get_CachedDescribedBy, get_CachedDescribedBy, uiauto.uiauto_IUIAutomationElement_CachedDescribedBy, uiauto_IUIAutomationElement_CachedDescribedBy, uiautomationclient/IUIAutomationElement::CachedDescribedBy, uiautomationclient/IUIAutomationElement::get_CachedDescribedBy, winauto.uiauto_IUIAutomationElement_CachedDescribedBy
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.CachedDescribedBy
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.CachedDescribedBy
-- IUIAutomationElement.get_CachedDescribedBy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::get_CachedDescribedBy
+ - uiautomationclient/IUIAutomationElement::get_CachedDescribedBy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.CachedDescribedBy
+ - IUIAutomationElement.get_CachedDescribedBy
 ---
 
 # IUIAutomationElement::get_CachedDescribedBy
@@ -49,43 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a cached array of elements  that describe this element.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property maps to the Accessible Rich Internet Applications (ARIA) <b>describedby</b> property.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentdescribedby">CurrentDescribedBy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentdescribedby">CurrentDescribedBy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

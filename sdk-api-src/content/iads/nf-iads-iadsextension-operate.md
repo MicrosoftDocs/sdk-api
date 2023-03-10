@@ -2,15 +2,12 @@
 UID: NF:iads.IADsExtension.Operate
 title: IADsExtension::Operate (iads.h)
 description: Interprets the control code and input parameters according to the specifications of the provider.
+helpviewer_keywords: ["ADS_EXT_INITCREDENTIALS","IADsExtension interface [ADSI]","Operate method","IADsExtension.Operate","IADsExtension::Operate","Operate","Operate method [ADSI]","Operate method [ADSI]","IADsExtension interface","_ds_iadsextension_operate","adsi.iadsextension__operate","adsi.iadsextension_operate","iads/IADsExtension::Operate"]
 old-location: adsi\iadsextension_operate.htm
 tech.root: adsi
 ms.assetid: c3cab311-6717-4d95-ad46-9da6047f84b8
 ms.date: 12/05/2018
 ms.keywords: ADS_EXT_INITCREDENTIALS, IADsExtension interface [ADSI],Operate method, IADsExtension.Operate, IADsExtension::Operate, Operate, Operate method [ADSI], Operate method [ADSI],IADsExtension interface, _ds_iadsextension_operate, adsi.iadsextension__operate, adsi.iadsextension_operate, iads/IADsExtension::Operate
-f1_keywords:
-- iads/IADsExtension.Operate
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsExtension.Operate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsExtension::Operate
+ - iads/IADsExtension::Operate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsExtension.Operate
 ---
 
 # IADsExtension::Operate
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsExtension::Operate</b> method is invoked by the aggregator to perform the extended functionality. The method interprets the control code and input parameters according to the specifications of the provider. For more information, see the provider documentation.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCode [in]
 
@@ -67,36 +64,25 @@ A value of the ADSI extension control code. ADSI defines the following code valu
 
 Verifies user credentials in the extension object.
 
-
 ### -param varData1 [in]
 
 Provider-supplied data the extension object will operate on. The value depends upon the control code value and is presently undefined.
-
 
 ### -param varData2 [in]
 
 Provider-supplied data the extension object will operate on. The value depends upon the control code value and is presently undefined.
 
-
 ### -param varData3 [in]
 
 Provider-supplied data the extension object will operate on. The value depends upon the control code value and is presently undefined.
 
-
 ## -returns
-
-
 
 This method supports the standard return values, as well as the following:
 
-For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+For more information about other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
-
-
 
 The aggregator will ignore the <b>E_FAIL</b> and <b>E_NOTIMPL</b> return values.
 
@@ -125,21 +111,10 @@ STDMETHOD(Operate)(ULONG dwCode, VARIANT varData1, VARIANT varData2, VARIANT var
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsextension">IADsExtension</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsextension">IADsExtension</a>

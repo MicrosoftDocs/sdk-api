@@ -1,16 +1,13 @@
 ---
 UID: NF:oledlg.IOleUILinkInfoW.GetLastUpdate
 title: IOleUILinkInfoW::GetLastUpdate (oledlg.h)
-description: Determines the last time the object was updated.
+description: Determines the last time the object was updated. (Unicode)
+helpviewer_keywords: ["GetLastUpdate","GetLastUpdate method [COM]","GetLastUpdate method [COM]","IOleUILinkInfo interface","GetLastUpdate method [COM]","IOleUILinkInfoA interface","GetLastUpdate method [COM]","IOleUILinkInfow interface","IOleUILinkInfo interface [COM]","GetLastUpdate method","IOleUILinkInfo::GetLastUpdate","IOleUILinkInfoA","IOleUILinkInfoA interface [COM]","GetLastUpdate method","IOleUILinkInfoA::GetLastUpdate","IOleUILinkInfoW","IOleUILinkInfoW.GetLastUpdate","IOleUILinkInfoW::GetLastUpdate","IOleUILinkInfow interface [COM]","GetLastUpdate method","IOleUILinkInfow::GetLastUpdate","_ole_IOleUILinkInfo_GetLastUpdate","com.ioleuilinkinfo_getlastupdate","oledlg/IOleUILinkInfo::GetLastUpdate","oledlg/IOleUILinkInfoA::GetLastUpdate","oledlg/IOleUILinkInfow::GetLastUpdate"]
 old-location: com\ioleuilinkinfo_getlastupdate.htm
 tech.root: com
 ms.assetid: 651dcfbc-577b-45a2-bf73-148a6f1c7030
 ms.date: 12/05/2018
 ms.keywords: GetLastUpdate, GetLastUpdate method [COM], GetLastUpdate method [COM],IOleUILinkInfo interface, GetLastUpdate method [COM],IOleUILinkInfoA interface, GetLastUpdate method [COM],IOleUILinkInfow interface, IOleUILinkInfo interface [COM],GetLastUpdate method, IOleUILinkInfo::GetLastUpdate, IOleUILinkInfoA, IOleUILinkInfoA interface [COM],GetLastUpdate method, IOleUILinkInfoA::GetLastUpdate, IOleUILinkInfoW, IOleUILinkInfoW.GetLastUpdate, IOleUILinkInfoW::GetLastUpdate, IOleUILinkInfow interface [COM],GetLastUpdate method, IOleUILinkInfow::GetLastUpdate, _ole_IOleUILinkInfo_GetLastUpdate, com.ioleuilinkinfo_getlastupdate, oledlg/IOleUILinkInfo::GetLastUpdate, oledlg/IOleUILinkInfoA::GetLastUpdate, oledlg/IOleUILinkInfow::GetLastUpdate
-f1_keywords:
-- oledlg/IOleUILinkInfo.GetLastUpdate
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleDlg.h
-api_name:
-- IOleUILinkInfo.GetLastUpdate
-- IOleUILinkInfoA.GetLastUpdate
-- IOleUILinkInfow.GetLastUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUILinkInfoW::GetLastUpdate
+ - oledlg/IOleUILinkInfoW::GetLastUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleDlg.h
+api_name:
+ - IOleUILinkInfo.GetLastUpdate
+ - IOleUILinkInfoA.GetLastUpdate
+ - IOleUILinkInfow.GetLastUpdate
 ---
 
 # IOleUILinkInfoW::GetLastUpdate
@@ -50,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the last time the object was updated.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLink [in]
 
 Container-defined unique identifier for a single link. Containers can use the pointer to the link's container site for this value.
 
-
 ### -param lpLastUpdate [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that indicates the time that the object was last updated.
-
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that indicates the time that the object was last updated.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -125,28 +118,12 @@ There is insufficient memory available for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 If the time that the object was last updated is known, copy it to <i>lpLastUpdate</i>. If it is not known, then leave <i>lpLastUpdate</i> unchanged and Unknown will be displayed in the link page.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkinfoa">IOleUILinkInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuilinkinfoa">IOleUILinkInfo</a>

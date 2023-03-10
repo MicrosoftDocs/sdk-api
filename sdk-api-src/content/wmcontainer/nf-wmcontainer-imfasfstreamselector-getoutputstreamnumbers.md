@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputStreamNumbers
 title: IMFASFStreamSelector::GetOutputStreamNumbers (wmcontainer.h)
 description: Retrieves the stream numbers for all of the streams that are associated with an output.
+helpviewer_keywords: ["4a999e7a-1b2e-4206-874a-ed93b868150b","GetOutputStreamNumbers","GetOutputStreamNumbers method [Media Foundation]","GetOutputStreamNumbers method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetOutputStreamNumbers method","IMFASFStreamSelector.GetOutputStreamNumbers","IMFASFStreamSelector::GetOutputStreamNumbers","mf.imfasfstreamselector_getoutputstreamnumbers","wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers"]
 old-location: mf\imfasfstreamselector_getoutputstreamnumbers.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4a999e7a-1b2e-4206-874a-ed93b868150b
 ms.date: 12/05/2018
 ms.keywords: 4a999e7a-1b2e-4206-874a-ed93b868150b, GetOutputStreamNumbers, GetOutputStreamNumbers method [Media Foundation], GetOutputStreamNumbers method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputStreamNumbers method, IMFASFStreamSelector.GetOutputStreamNumbers, IMFASFStreamSelector::GetOutputStreamNumbers, mf.imfasfstreamselector_getoutputstreamnumbers, wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers
-f1_keywords:
-- wmcontainer/IMFASFStreamSelector.GetOutputStreamNumbers
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFStreamSelector.GetOutputStreamNumbers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFStreamSelector::GetOutputStreamNumbers
+ - wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFStreamSelector.GetOutputStreamNumbers
 ---
 
 # IMFASFStreamSelector::GetOutputStreamNumbers
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the stream numbers for all of the streams that are associated with an output.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 The output number for which to retrieve stream numbers.
 
-
 ### -param rgwStreamNumbers [out]
 
-Address of an array that receives the stream numbers associated with the output. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputstreamcount">IMFASFStreamSelector::GetOutputStreamCount</a> method.
-
+Address of an array that receives the stream numbers associated with the output. The caller allocates the array. The array size must be at least as large as the value returned by the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getoutputstreamcount">IMFASFStreamSelector::GetOutputStreamCount</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -105,27 +95,11 @@ Invalid output number.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An output is a stream in an ASF data section that will be parsed. If mutual exclusion is used, mutually exclusive streams share the same output.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>

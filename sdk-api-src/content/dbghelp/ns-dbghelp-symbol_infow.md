@@ -1,16 +1,13 @@
 ---
 UID: NS:dbghelp._SYMBOL_INFOW
 title: SYMBOL_INFOW (dbghelp.h)
-description: Contains symbol information.
+description: The SYMBOL_INFOW (Unicode) structure (dbghelp.h) contains symbol information.
+helpviewer_keywords: ["*PSYMBOL_INFOW","PSYMBOL_INFO","PSYMBOL_INFO structure pointer","SYMBOL_INFO","SYMBOL_INFO structure","SYMBOL_INFOW","SYMFLAG_CLR_TOKEN","SYMFLAG_CONSTANT","SYMFLAG_EXPORT","SYMFLAG_FORWARDER","SYMFLAG_FRAMEREL","SYMFLAG_FUNCTION","SYMFLAG_ILREL","SYMFLAG_LOCAL","SYMFLAG_METADATA","SYMFLAG_PARAMETER","SYMFLAG_REGISTER","SYMFLAG_REGREL","SYMFLAG_SLOT","SYMFLAG_THUNK","SYMFLAG_TLSREL","SYMFLAG_VALUEPRESENT","SYMFLAG_VIRTUAL","_SYMBOL_INFO","_SYMBOL_INFOW","_win32_symbol_info_str","base.symbol_info_str","dbghelp/PSYMBOL_INFO","dbghelp/SYMBOL_INFO","dbghelp/SYMBOL_INFOW"]
 old-location: base\symbol_info_str.htm
 tech.root: Debug
 ms.assetid: 785a9702-8b77-4ce1-99df-143ce78490ab
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PSYMBOL_INFOW, PSYMBOL_INFO, PSYMBOL_INFO structure pointer, SYMBOL_INFO, SYMBOL_INFO structure, SYMBOL_INFOW, SYMFLAG_CLR_TOKEN, SYMFLAG_CONSTANT, SYMFLAG_EXPORT, SYMFLAG_FORWARDER, SYMFLAG_FRAMEREL, SYMFLAG_FUNCTION, SYMFLAG_ILREL, SYMFLAG_LOCAL, SYMFLAG_METADATA, SYMFLAG_PARAMETER, SYMFLAG_REGISTER, SYMFLAG_REGREL, SYMFLAG_SLOT, SYMFLAG_THUNK, SYMFLAG_TLSREL, SYMFLAG_VALUEPRESENT, SYMFLAG_VIRTUAL, _SYMBOL_INFO, _SYMBOL_INFOW, _win32_symbol_info_str, base.symbol_info_str, dbghelp/PSYMBOL_INFO, dbghelp/SYMBOL_INFO, dbghelp/SYMBOL_INFOW'
-f1_keywords:
-- dbghelp/SYMBOL_INFO
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgHelp.h
-api_name:
-- SYMBOL_INFO
-- SYMBOL_INFO
-- SYMBOL_INFOW
 targetos: Windows
 req.typenames: SYMBOL_INFOW, *PSYMBOL_INFOW
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _SYMBOL_INFOW
+ - dbghelp/_SYMBOL_INFOW
+ - PSYMBOL_INFOW
+ - dbghelp/PSYMBOL_INFOW
+ - SYMBOL_INFOW
+ - dbghelp/SYMBOL_INFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgHelp.h
+api_name:
+ - SYMBOL_INFO
+ - SYMBOL_INFO
+ - SYMBOL_INFOW
 ---
 
 # SYMBOL_INFOW structure
@@ -50,29 +56,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains symbol information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfStruct
 
 The size of the structure, in bytes. This member must be set to <code>sizeof(SYMBOL_INFO)</code>. Note that the total size of the data is the <code>SizeOfStruct + (MaxNameLen - 1) * sizeof(TCHAR)</code>. The reason to subtract one is that the first character in the name is accounted for in the size of the structure.
 
-
 ### -field TypeIndex
 
-A unique value that identifies the type data that describes the symbol.  This value does not persist between sessions. 
-
+A unique value that identifies the type data that describes the symbol.  This value does not persist between sessions.
 
 ### -field Reserved
 
 This member is reserved for system use.
-
 
 ### -field Index
 
@@ -80,16 +78,13 @@ The unique value for the symbol. The value associated with a symbol is not guara
 
 For PDB symbols, the index value for a symbol is not generated until the symbol is enumerated or retrieved through a search by name or address. The index values for all CodeView and COFF symbols are generated when the symbols are loaded.
 
-
 ### -field Size
 
 The symbol size, in bytes. This value is meaningful only if the module symbols are from a pdb file;  otherwise, this value is typically zero and should be ignored.
 
-
 ### -field ModBase
 
 The base address of the module that contains the symbol.
-
 
 ### -field Flags
 
@@ -289,29 +284,24 @@ The <b>Value</b> member is used.
 </td>
 <td width="60%">
 The symbol is a virtual symbol created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a> function.
 							
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value
 
 The value of a constant.
 
-
 ### -field Address
 
 The virtual address of the start of the symbol.
 
-
 ### -field Register
 
 The register.
-
 
 ### -field Scope
 
@@ -319,47 +309,40 @@ The DIA scope. For more information, see the <i>Debug Interface Access SDK</i> i
 
 and countries.)
 
-
 ### -field Tag
 
-The PDB classification. These values are defined in Dbghelp.h in the <a href="https://go.microsoft.com/fwlink/p/?linkid=207077">SymTagEnum</a> enumeration type.
-
+The PDB classification. These values are defined in Dbghelp.h in the <a href="/previous-versions/visualstudio/visual-studio-2010/bkedss5f(v=vs.100)">SymTagEnum</a> enumeration type.
 
 ### -field NameLen
 
 The length of the name, in characters, not including the null-terminating character.
 
-
 ### -field MaxNameLen
 
 The size of the <b>Name</b> buffer, in characters. If this member is 0, the <b>Name</b> member is not used.
 
-
 ### -field Name
 
 The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfromaddr">SymFromAddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromaddr">SymFromAddr</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfromname">SymFromName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfromname">SymFromName</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypefromname">SymGetTypeFromName</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgettypefromname">SymGetTypeFromName</a>
- 
-
- 
-
+> [!NOTE]
+> The dbghelp.h header defines SYMBOL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

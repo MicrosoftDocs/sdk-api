@@ -1,16 +1,13 @@
 ---
 UID: NS:rpcdce._RPC_HTTP_TRANSPORT_CREDENTIALS_A
 title: RPC_HTTP_TRANSPORT_CREDENTIALS_A (rpcdce.h)
-description: The RPC_HTTP_TRANSPORT_CREDENTIALS structure defines additional credentials to authenticate to an RPC proxy server when using RPC/HTTP.
+description: The RPC_HTTP_TRANSPORT_CREDENTIALS structure defines additional credentials to authenticate to an RPC proxy server when using RPC/HTTP. (ANSI)
+helpviewer_keywords: ["*PRPC_HTTP_TRANSPORT_CREDENTIALS","*PRPC_HTTP_TRANSPORT_CREDENTIALS structure [RPC]","*PRPC_HTTP_TRANSPORT_CREDENTIALS_A","RPC_C_HTTP_AUTHN_SCHEME_BASIC","RPC_C_HTTP_AUTHN_SCHEME_DIGEST","RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE","RPC_C_HTTP_AUTHN_SCHEME_NTLM","RPC_C_HTTP_AUTHN_SCHEME_PASSPORT","RPC_C_HTTP_AUTHN_TARGET_PROXY","RPC_C_HTTP_AUTHN_TARGET_SERVER","RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME","RPC_C_HTTP_FLAG_USE_SSL","RPC_HTTP_TRANSPORT_CREDENTIALS","RPC_HTTP_TRANSPORT_CREDENTIALS structure [RPC]","RPC_HTTP_TRANSPORT_CREDENTIALS_A","RPC_HTTP_TRANSPORT_CREDENTIALS_W","_RPC_HTTP_TRANSPORT_CREDENTIALS_A","_RPC_HTTP_TRANSPORT_CREDENTIALS_W","rpc.rpc_http_transport_credentials","rpcdce/*PRPC_HTTP_TRANSPORT_CREDENTIALS","rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS"]
 old-location: rpc\rpc_http_transport_credentials.htm
 tech.root: Rpc
 ms.assetid: fdb7f42a-e545-4965-a44a-70d4631f1723
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_HTTP_TRANSPORT_CREDENTIALS, *PRPC_HTTP_TRANSPORT_CREDENTIALS structure [RPC], *PRPC_HTTP_TRANSPORT_CREDENTIALS_A, RPC_C_HTTP_AUTHN_SCHEME_BASIC, RPC_C_HTTP_AUTHN_SCHEME_DIGEST, RPC_C_HTTP_AUTHN_SCHEME_NEGOTIATE, RPC_C_HTTP_AUTHN_SCHEME_NTLM, RPC_C_HTTP_AUTHN_SCHEME_PASSPORT, RPC_C_HTTP_AUTHN_TARGET_PROXY, RPC_C_HTTP_AUTHN_TARGET_SERVER, RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME, RPC_C_HTTP_FLAG_USE_SSL, RPC_HTTP_TRANSPORT_CREDENTIALS, RPC_HTTP_TRANSPORT_CREDENTIALS structure [RPC], RPC_HTTP_TRANSPORT_CREDENTIALS_A, RPC_HTTP_TRANSPORT_CREDENTIALS_W, _RPC_HTTP_TRANSPORT_CREDENTIALS_A, _RPC_HTTP_TRANSPORT_CREDENTIALS_W, rpc.rpc_http_transport_credentials, rpcdce/*PRPC_HTTP_TRANSPORT_CREDENTIALS, rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS'
-f1_keywords:
-- rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_HTTP_TRANSPORT_CREDENTIALS
-- RPC_HTTP_TRANSPORT_CREDENTIALS_A
-- RPC_HTTP_TRANSPORT_CREDENTIALS_W
 targetos: Windows
 req.typenames: RPC_HTTP_TRANSPORT_CREDENTIALS_A, *PRPC_HTTP_TRANSPORT_CREDENTIALS_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_HTTP_TRANSPORT_CREDENTIALS_A
+ - rpcdce/_RPC_HTTP_TRANSPORT_CREDENTIALS_A
+ - PRPC_HTTP_TRANSPORT_CREDENTIALS_A
+ - rpcdce/PRPC_HTTP_TRANSPORT_CREDENTIALS_A
+ - RPC_HTTP_TRANSPORT_CREDENTIALS_A
+ - rpcdce/RPC_HTTP_TRANSPORT_CREDENTIALS_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_HTTP_TRANSPORT_CREDENTIALS
+ - RPC_HTTP_TRANSPORT_CREDENTIALS_A
+ - RPC_HTTP_TRANSPORT_CREDENTIALS_W
 ---
 
 # RPC_HTTP_TRANSPORT_CREDENTIALS_A structure
@@ -50,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> structure defines additional credentials to authenticate to an RPC proxy server when using RPC/HTTP.
-
 
 ## -struct-fields
 
-
-
-
 ### -field TransportCredentials
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
-
+A pointer to a <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
 
 ### -field Flags
 
@@ -96,8 +96,6 @@ When set, RPC chooses the first scheme in the <b>AuthnSchemes</b> array and atte
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthenticationTarget
 
@@ -131,22 +129,16 @@ Authenticate against the HTTP Proxy. This value is uncommon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NumberOfAuthnSchemes
 
 The number of elements in the <b>AuthnScheme</b> array.
 
-
 ### -field AuthnSchemes
-
- 
-
 
 ### -field ServerCertificateSubject
 
-Contains an optional string with the expected server principal name. The principal name is in the same format as that generated for <a href="https://docs.microsoft.com/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a> (see <a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a> for more information). This member is used only when SSL is used. In such cases, the server certificate is checked against the generated principal name. If they do not match, an error is returned. This member enables clients to authenticate the RPC Proxy.
+Contains an optional string with the expected server principal name. The principal name is in the same format as that generated for <a href="/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a> (see <a href="/windows/desktop/Rpc/principal-names">Principal Names</a> for more information). This member is used only when SSL is used. In such cases, the server certificate is checked against the generated principal name. If they do not match, an error is returned. This member enables clients to authenticate the RPC Proxy.
 
 
 #### - AuthnScheme
@@ -189,10 +181,7 @@ The algorithm for choosing the actual authentication scheme is as follows:
 
  If RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME is specified, the first authentication scheme is chosen. If it is not supported by the server, the connection establishment fails. If RPC_C_HTTP_FLAG_USE_FIRST_AUTH_SCHEME is not specified, the RPC client first attempts anonymous connection to the RPC Proxy. If IIS returns authentication challenge, the RPC client chooses the authentication scheme preferred by the server if it is also in the <b>AuthnScheme</b> array. If the scheme preferred by the server is not in the <b>AuthnScheme</b> array, the <b>AuthnScheme</b> array will be traversed from start to finish, and if a scheme is found that is also supported by the server, that authentication scheme is used.
 
-
 ## -remarks
-
-
 
 If the <b>TransportCredentials</b> member is <b>NULL</b> and the authentication scheme is NTLM, the credentials of the currently logged on user are used. To avoid exposing user credentials on the network through a weak LM hash, user logon credentials are used only if one or both of the following conditions are true:
 
@@ -200,56 +189,45 @@ If the <b>TransportCredentials</b> member is <b>NULL</b> and the authentication 
 <li>Caller requested use of SSL and used the <b>ServerCertificateSubject</b> member. This scenario guarantees credentials are protected both in transit and at the final destination, even if a weak hash is used.</li>
 <li>The lncompatibilitylevel key is set to 2 or higher. This  causes the NTLM security provider to emit or respond to only the strong NT hash, not the weak LM hash. In addition, customers are encouraged to use level 3 or higher, which will attempt NTLMv2.</li>
 </ul>
-If the Unicode version of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
+If the Unicode version of the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
 If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANSI versions of <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <b>SEC_WINNT_AUTH_IDENTITY</b> structures must be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_ANSI.
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Rpc/principal-names">Principal Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
+<a href="/windows/desktop/Rpc/remote-procedure-calls-using-rpc-over-http">Remote Procedure Calls Using RPC over HTTP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/remote-procedure-calls-using-rpc-over-http">Remote Procedure Calls Using RPC over HTTP</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
+<a href="/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>

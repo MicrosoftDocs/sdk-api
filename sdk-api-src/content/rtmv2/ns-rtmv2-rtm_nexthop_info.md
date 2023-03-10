@@ -2,15 +2,12 @@
 UID: NS:rtmv2._RTM_NEXTHOP_INFO
 title: RTM_NEXTHOP_INFO (rtmv2.h)
 description: The RTM_NEXTHOP_INFO structure is used to exchange next-hop information with the routing table manager.
+helpviewer_keywords: ["*PRTM_NEXTHOP_INFO","PRTM_NEXTHOP_INFO","PRTM_NEXTHOP_INFO structure pointer [RAS]","RTM_NEXTHOP_FLAGS_DOWN","RTM_NEXTHOP_FLAGS_REMOTE","RTM_NEXTHOP_INFO","RTM_NEXTHOP_INFO structure [RAS]","RTM_NEXTHOP_STATE_CREATED","RTM_NEXTHOP_STATE_DELETED","_rtmv2ref_rtm_nexthop_info","rras.rtm_nexthop_info","rtmv2/PRTM_NEXTHOP_INFO","rtmv2/RTM_NEXTHOP_INFO"]
 old-location: rras\rtm_nexthop_info.htm
 tech.root: RRAS
 ms.assetid: 17705e5b-0905-45a5-b76e-e381e863a1ea
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO structure pointer [RAS], RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RTM_NEXTHOP_INFO, RTM_NEXTHOP_INFO structure [RAS], RTM_NEXTHOP_STATE_CREATED, RTM_NEXTHOP_STATE_DELETED, _rtmv2ref_rtm_nexthop_info, rras.rtm_nexthop_info, rtmv2/PRTM_NEXTHOP_INFO, rtmv2/RTM_NEXTHOP_INFO'
-f1_keywords:
-- rtmv2/RTM_NEXTHOP_INFO
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rtmv2.h
-api_name:
-- RTM_NEXTHOP_INFO
 targetos: Windows
 req.typenames: RTM_NEXTHOP_INFO, *PRTM_NEXTHOP_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RTM_NEXTHOP_INFO
+ - rtmv2/_RTM_NEXTHOP_INFO
+ - PRTM_NEXTHOP_INFO
+ - rtmv2/PRTM_NEXTHOP_INFO
+ - RTM_NEXTHOP_INFO
+ - rtmv2/RTM_NEXTHOP_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rtmv2.h
+api_name:
+ - RTM_NEXTHOP_INFO
 ---
 
 # RTM_NEXTHOP_INFO structure
@@ -48,31 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RTM_NEXTHOP_INFO</b> structure is used to exchange next-hop information with the routing table manager.
-			
-
 
 ## -struct-fields
-
-
-
 
 ### -field NextHopAddress
 
 Specifies the network address for this next hop.
 
-
 ### -field NextHopOwner
 
 Handle to the client that owns this next hop.
 
-
 ### -field InterfaceIndex
 
 Specifies the outgoing interface index.
-
 
 ### -field State
 
@@ -106,8 +103,6 @@ The next hop has been deleted.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags
 
@@ -141,54 +136,43 @@ This flag is reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EntitySpecificInfo
 
 Contains information specific to the client that owns this next hop.
 
-
 ### -field RemoteNextHop
 
 Handle to the destination with the indirect next-hop address. This member is only valid when the <b>Flags</b> member is set to RTM_NEXTHOP_FLAGS_REMOTE. This cached handle can prevent multiple lookups for this indirect next hop.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmaddnexthop">RtmAddNextHop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmaddnexthop">RtmAddNextHop</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeletenexthop">RtmDeleteNextHop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeletenexthop">RtmDeleteNextHop</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmfindnexthop">RtmFindNextHop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmfindnexthop">RtmFindNextHop</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetnexthopinfo">RtmGetNextHopInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetnexthopinfo">RtmGetNextHopInfo</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetnexthoppointer">RtmGetNextHopPointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetnexthoppointer">RtmGetNextHopPointer</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmlocknexthop">RtmLockNextHop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmlocknexthop">RtmLockNextHop</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthopinfo">RtmReleaseNextHopInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthopinfo">RtmReleaseNextHopInfo</a>

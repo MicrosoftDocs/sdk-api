@@ -1,16 +1,13 @@
 ---
 UID: NS:mi._MI_ConstDatetimeAField
 title: MI_ConstDatetimeAField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_ConstDatetimeAField)
+helpviewer_keywords: ["MI_ConstDatetimeAField","MI_ConstDatetimeAField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstDatetimeAField","wmi._mi_constdatetimeafield","wmi_v2.mi_constdatetimeafield"]
 old-location: wmi_v2\mi_constdatetimeafield.htm
 tech.root: wmi_v2
 ms.assetid: 13059346-4361-4274-828a-d552dd70f876
 ms.date: 12/05/2018
 ms.keywords: MI_ConstDatetimeAField, MI_ConstDatetimeAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstDatetimeAField, wmi._mi_constdatetimeafield, wmi_v2.mi_constdatetimeafield
-f1_keywords:
-- mi/MI_ConstDatetimeAField
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_ConstDatetimeAField
 targetos: Windows
 req.typenames: MI_ConstDatetimeAField
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_ConstDatetimeAField
+ - mi/_MI_ConstDatetimeAField
+ - MI_ConstDatetimeAField
+ - mi/MI_ConstDatetimeAField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_ConstDatetimeAField
 ---
 
 # MI_ConstDatetimeAField structure
@@ -48,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
-
+Represents a property inside an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ## -struct-fields
 
-
-
-
 ### -field value
 
-A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_constdatetimea">MI_ConstDatetimeA</a>.
-
+A field of type <a href="/windows/desktop/api/mi/ns-mi-mi_constdatetimea">MI_ConstDatetimeA</a>.
 
 ### -field exists
 
 Indicates whether the field is non-null. Can be set to <b>MI_TRUE</b> or <b>MI_FALSE</b>.
-
 
 ### -field flags
 
@@ -94,4 +91,3 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 #### MI_FLAG_ADOPT ((1 << 31))
 
 Used while adding and setting properties on an <b>MI_Instance</b> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
-

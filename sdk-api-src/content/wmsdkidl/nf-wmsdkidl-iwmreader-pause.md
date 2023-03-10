@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReader.Pause
 title: IWMReader::Pause (wmsdkidl.h)
 description: The Pause method pauses the current read operation.
+helpviewer_keywords: ["IWMReader interface [windows Media Format]","Pause method","IWMReader.Pause","IWMReader::Pause","IWMReaderPause","Pause","Pause method [windows Media Format]","Pause method [windows Media Format]","IWMReader interface","wmformat.iwmreader_pause","wmsdkidl/IWMReader::Pause"]
 old-location: wmformat\iwmreader_pause.htm
 tech.root: wmformat
 ms.assetid: 4c9d60df-fa9e-42ac-907a-1958a38e430e
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Pause method, IWMReader.Pause, IWMReader::Pause, IWMReaderPause, Pause, Pause method [windows Media Format], Pause method [windows Media Format],IWMReader interface, wmformat.iwmreader_pause, wmsdkidl/IWMReader::Pause
-f1_keywords:
-- wmsdkidl/IWMReader.Pause
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReader.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReader::Pause
+ - wmsdkidl/IWMReader::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReader.Pause
 ---
 
 # IWMReader::Pause
@@ -51,23 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Pause</b> method pauses the current read operation.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -110,22 +100,11 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-close">IWMReader::Close</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-close">IWMReader::Close</a>

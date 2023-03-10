@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_EnableScreeningAudit
 title: IFsrmSetting::get_EnableScreeningAudit (fsrm.h)
-description: Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen violations.
+description: Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen violations. (Get)
+helpviewer_keywords: ["EnableScreeningAudit property [File Server Resource Manager]","EnableScreeningAudit property [File Server Resource Manager]","FsrmSetting class","EnableScreeningAudit property [File Server Resource Manager]","IFsrmSetting interface","FsrmSetting class [File Server Resource Manager]","EnableScreeningAudit property","IFsrmSetting interface [File Server Resource Manager]","EnableScreeningAudit property","IFsrmSetting.EnableScreeningAudit","IFsrmSetting.get_EnableScreeningAudit","IFsrmSetting::EnableScreeningAudit","IFsrmSetting::get_EnableScreeningAudit","IFsrmSetting::put_EnableScreeningAudit","fs.ifsrmsetting_enablescreeningaudit","fsrm.ifsrmsetting_enablescreeningaudit","fsrm/IFsrmSetting::EnableScreeningAudit","fsrm/IFsrmSetting::get_EnableScreeningAudit","fsrm/IFsrmSetting::put_EnableScreeningAudit","get_EnableScreeningAudit"]
 old-location: fsrm\ifsrmsetting_enablescreeningaudit.htm
 tech.root: fsrm
 ms.assetid: 6d185eca-6c14-4cd9-bb12-95499cde1050
 ms.date: 12/05/2018
 ms.keywords: EnableScreeningAudit property [File Server Resource Manager], EnableScreeningAudit property [File Server Resource Manager],FsrmSetting class, EnableScreeningAudit property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],EnableScreeningAudit property, IFsrmSetting interface [File Server Resource Manager],EnableScreeningAudit property, IFsrmSetting.EnableScreeningAudit, IFsrmSetting.get_EnableScreeningAudit, IFsrmSetting::EnableScreeningAudit, IFsrmSetting::get_EnableScreeningAudit, IFsrmSetting::put_EnableScreeningAudit, fs.ifsrmsetting_enablescreeningaudit, fsrm.ifsrmsetting_enablescreeningaudit, fsrm/IFsrmSetting::EnableScreeningAudit, fsrm/IFsrmSetting::get_EnableScreeningAudit, fsrm/IFsrmSetting::put_EnableScreeningAudit, get_EnableScreeningAudit
-f1_keywords:
-- fsrm/IFsrmSetting.EnableScreeningAudit
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmSetting.EnableScreeningAudit
-- IFsrmSetting.get_EnableScreeningAudit
-- IFsrmSetting.put_EnableScreeningAudit
-- FsrmSetting.EnableScreeningAudit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmSetting::get_EnableScreeningAudit
+ - fsrm/IFsrmSetting::get_EnableScreeningAudit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmSetting.EnableScreeningAudit
+ - IFsrmSetting.get_EnableScreeningAudit
+ - IFsrmSetting.put_EnableScreeningAudit
+ - FsrmSetting.EnableScreeningAudit
 ---
 
 # IFsrmSetting::get_EnableScreeningAudit
@@ -51,19 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen 
     violations.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The records are included in a File Screen Audit report. An audit record contains the following items:
 
@@ -85,23 +82,14 @@ If this property is false and a report specifies the
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>.
+For an example, see <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>

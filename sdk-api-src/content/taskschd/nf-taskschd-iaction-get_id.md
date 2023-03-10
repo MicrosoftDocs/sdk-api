@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IAction.get_Id
 title: IAction::get_Id (taskschd.h)
-description: Gets or sets the identifier of the action.
+description: Gets or sets the identifier of the action. (Get)
+helpviewer_keywords: ["IAction interface [Task Scheduler]","Id property","IAction.Id","IAction.get_Id","IAction::Id","IAction::get_Id","IAction::put_Id","Id property [Task Scheduler]","Id property [Task Scheduler]","IAction interface","get_Id","taskschd.iaction_id","taskschd/IAction::Id","taskschd/IAction::get_Id","taskschd/IAction::put_Id"]
 old-location: taskschd\iaction_id.htm
 tech.root: taskschd
 ms.assetid: e24a0382-e214-41eb-80e4-acd024993123
 ms.date: 12/05/2018
 ms.keywords: IAction interface [Task Scheduler],Id property, IAction.Id, IAction.get_Id, IAction::Id, IAction::get_Id, IAction::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IAction interface, get_Id, taskschd.iaction_id, taskschd/IAction::Id, taskschd/IAction::get_Id, taskschd/IAction::put_Id
-f1_keywords:
-- taskschd/IAction.Id
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IAction.Id
-- IAction.get_Id
-- IAction.put_Id
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAction::get_Id
+ - taskschd/IAction::get_Id
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IAction.Id
+ - IAction.get_Id
+ - IAction.put_Id
 ---
 
 # IAction::get_Id
@@ -50,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the identifier of the action.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-For information on how actions and tasks work together, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-actions">Task Actions</a>.
-
-
-
+For information on how actions and tasks work together, see <a href="/windows/desktop/TaskSchd/task-actions">Task Actions</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iaction">IAction</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

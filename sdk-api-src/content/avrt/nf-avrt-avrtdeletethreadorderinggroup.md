@@ -2,15 +2,12 @@
 UID: NF:avrt.AvRtDeleteThreadOrderingGroup
 title: AvRtDeleteThreadOrderingGroup function (avrt.h)
 description: Deletes the specified thread ordering group created by the caller. It cleans up resources for the thread ordering group, including the context information, and returns.
+helpviewer_keywords: ["AvRtDeleteThreadOrderingGroup","AvRtDeleteThreadOrderingGroup function","avrt/AvRtDeleteThreadOrderingGroup","base.avrtdeletethreadorderinggroup"]
 old-location: base\avrtdeletethreadorderinggroup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018
 ms.date: 12/05/2018
 ms.keywords: AvRtDeleteThreadOrderingGroup, AvRtDeleteThreadOrderingGroup function, avrt/AvRtDeleteThreadOrderingGroup, base.avrtdeletethreadorderinggroup
-f1_keywords:
-- avrt/AvRtDeleteThreadOrderingGroup
-dev_langs:
-- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avrt.dll
-api_name:
-- AvRtDeleteThreadOrderingGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AvRtDeleteThreadOrderingGroup
+ - avrt/AvRtDeleteThreadOrderingGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avrt.dll
+api_name:
+ - AvRtDeleteThreadOrderingGroup
 ---
 
 # AvRtDeleteThreadOrderingGroup function
@@ -48,35 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified thread ordering group created by the caller. It cleans up  resources for the thread ordering group, including the context information, and returns.
-
 
 ## -parameters
 
-
-
-
 ### -param Context [in]
 
-A context handle. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrtcreatethreadorderinggroup">AvRtCreateThreadOrderingGroup</a> function when creating the group.
-
+A context handle. This handle is returned by the <a href="/windows/desktop/api/avrt/nf-avrt-avrtcreatethreadorderinggroup">AvRtCreateThreadOrderingGroup</a> function when creating the group.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function can only be called successfully by the parent thread for the thread ordering group. If a thread other than the parent thread calls this function, the function fails with a last error code of ERROR_INVALID_FUNCTION.
 
@@ -110,17 +99,6 @@ int main( void )
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>
- 
-
- 
-
+<a href="/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>

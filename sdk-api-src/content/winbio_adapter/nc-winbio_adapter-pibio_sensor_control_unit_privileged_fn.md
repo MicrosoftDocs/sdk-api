@@ -1,16 +1,13 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN
 title: PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN (winbio_adapter.h)
-description: Performs a vendor-defined control operation that requires elevated privilege.
+description: The PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback function (winbio_adapter.h) performs a vendor-defined control operation that requires elevated privileges.
+helpviewer_keywords: ["PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN","PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback","SensorAdapterControlUnitPrivileged","SensorAdapterControlUnitPrivileged callback function [Windows Biometric Framework API]","secbiomet.sensoradaptercontrolunitprivileged","winbio_adapter/SensorAdapterControlUnitPrivileged"]
 old-location: secbiomet\sensoradaptercontrolunitprivileged.htm
 tech.root: SecBioMet
 ms.assetid: 373233e6-b3d0-40ce-8698-77841963d5f3
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN, PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback, SensorAdapterControlUnitPrivileged, SensorAdapterControlUnitPrivileged callback function [Windows Biometric Framework API], secbiomet.sensoradaptercontrolunitprivileged, winbio_adapter/SensorAdapterControlUnitPrivileged
-f1_keywords:
-- winbio_adapter/SensorAdapterControlUnitPrivileged
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- SensorAdapterControlUnitPrivileged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN
+ - winbio_adapter/PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - SensorAdapterControlUnitPrivileged
 ---
 
 # PIBIO_SENSOR_CONTROL_UNIT_PRIVILEGED_FN callback function
@@ -48,58 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called by the Windows Biometric Framework to perform a vendor-defined control operation that requires elevated privilege. Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn">SensorAdapterControlUnit</a> function to perform a vendor-defined control operation that does not require elevated privilege.
-
+Called by the Windows Biometric Framework to perform a vendor-defined control operation that requires elevated privilege. Call the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn">SensorAdapterControlUnit</a> function to perform a vendor-defined control operation that does not require elevated privilege.
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param ControlCode [in]
 
 A <b>ULONG</b> value that specifies the vendor-defined operation to perform.
 
-
 ### -param SendBuffer [in]
 
 Pointer to a buffer that contains the control information sent to the sensor adapter. The format and content of the buffer is vendor-defined.
-
 
 ### -param SendBufferSize [in]
 
 Size, in bytes, of the buffer specified by the <i>SendBuffer</i> parameter.
 
-
 ### -param ReceiveBuffer [in]
 
 Pointer to a  buffer that receives information returned by the sensor adapter in response to the control operation.  The format of the buffer is vendor-defined.
-
 
 ### -param ReceiveBufferSize [in]
 
 Size, in bytes, of the buffer specified by the <i>ReceiveBuffer</i> parameter.
 
-
 ### -param ReceiveDataSize [out]
 
 Pointer to a variable that receives the size, in bytes, of the data written to the buffer specified by the <i>ReceiveBuffer</i> parameter.
-
 
 ### -param OperationStatus [out]
 
 Pointer to a variable that receives a vendor-defined status code that specifies the outcome of the control operation.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -177,16 +164,10 @@ The value specified in the <i>ControlCode</i> parameter is not recognized by the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Your implementation of this function should be identical to your implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn">SensorAdapterControlUnit</a> function except that elevated privileges are required to perform the operations specified by the <i>ControlCode</i> parameter. You are responsible for defining the operations and deciding which will require elevated privilege.
+Your implementation of this function should be identical to your implementation of the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn">SensorAdapterControlUnit</a> function except that elevated privileges are required to perform the operations specified by the <i>ControlCode</i> parameter. You are responsible for defining the operations and deciding which will require elevated privilege.
 
 This function must check the value of the <i>ReceiveBufferSize</i> parameter to be certain that the buffer specified by the <i>ReceiveBuffer</i> parameter is large enough to hold the data being returned.
 
@@ -373,25 +354,14 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn">SensorAdapterControlUnit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_control_unit_fn">SensorAdapterControlUnit</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbiocontrolunitprivileged">WinBioControlUnitPrivileged</a>

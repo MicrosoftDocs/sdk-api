@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRatingRegionCount
 title: IAtscContentAdvisoryDescriptor::GetRatingRegionCount (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRatingRegionCount","GetRatingRegionCount method [Microsoft TV Technologies]","GetRatingRegionCount method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRatingRegionCount method","IAtscContentAdvisoryDescriptor.GetRatingRegionCount","IAtscContentAdvisoryDescriptor::GetRatingRegionCount","IAtscContentAdvisoryDescriptorGetRatingRegionCount","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount","mstv.iatsccontentadvisorydescriptor_getratingregioncount"]
 old-location: mstv\iatsccontentadvisorydescriptor_getratingregioncount.htm
 tech.root: mstv
 ms.assetid: e9571bdb-5b0b-4798-b4dc-37ccee51a8b3
 ms.date: 12/05/2018
 ms.keywords: GetRatingRegionCount, GetRatingRegionCount method [Microsoft TV Technologies], GetRatingRegionCount method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRatingRegionCount method, IAtscContentAdvisoryDescriptor.GetRatingRegionCount, IAtscContentAdvisoryDescriptor::GetRatingRegionCount, IAtscContentAdvisoryDescriptorGetRatingRegionCount, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount, mstv.iatsccontentadvisorydescriptor_getratingregioncount
-f1_keywords:
-- atscpsipparser/IAtscContentAdvisoryDescriptor.GetRatingRegionCount
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IAtscContentAdvisoryDescriptor.GetRatingRegionCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAtscContentAdvisoryDescriptor::GetRatingRegionCount
+ - atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IAtscContentAdvisoryDescriptor.GetRatingRegionCount
 ---
 
 # IAtscContentAdvisoryDescriptor::GetRatingRegionCount
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRatingRegionCount</b> method returns the number of rating regions.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the rating_region_count field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>

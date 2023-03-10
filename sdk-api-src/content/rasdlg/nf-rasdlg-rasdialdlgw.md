@@ -1,16 +1,13 @@
 ---
 UID: NF:rasdlg.RasDialDlgW
 title: RasDialDlgW function (rasdlg.h)
-description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
+description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation. (Unicode)
+helpviewer_keywords: ["RasDialDlg", "RasDialDlg function [RAS]", "RasDialDlgW", "_ras_rasdialdlg", "rasdlg/RasDialDlg", "rasdlg/RasDialDlgW", "rras.rasdialdlg"]
 old-location: rras\rasdialdlg.htm
 tech.root: RRAS
 ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
 ms.date: 12/05/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
-f1_keywords:
-- rasdlg/RasDialDlg
-dev_langs:
-- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Rasdlg.lib
 req.dll: Rasdlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasdlg.dll
-- Ext-MS-Win-ras-rasdlg-l1-1-0.dll
-api_name:
-- RasDialDlg
-- RasDialDlgA
-- RasDialDlgW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasDialDlgW
+ - rasdlg/RasDialDlgW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasdlg.dll
+ - Ext-MS-Win-ras-rasdlg-l1-1-0.dll
+api_name:
+ - RasDialDlg
+ - RasDialDlgA
+ - RasDialDlgW
 ---
 
 # RasDialDlgW function
@@ -51,53 +53,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasDialDlg</b> function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszPhonebook [in]
 
 Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box.
 
-
 ### -param lpszEntry [in]
 
 Pointer to a null-terminated string that specifies the name of the phone-book entry to dial.
-
 
 ### -param lpszPhoneNumber [in]
 
 Pointer to a null-terminated string that specifies a phone number that overrides the numbers stored in the phone-book entry. If this parameter is <b>NULL</b>, 
 <b>RasDialDlg</b> uses the numbers in the phone-book entry.
 
-
 ### -param lpInfo [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure that specifies additional input and output parameters. The <b>dwSize</b> member of this structure must specify sizeof(<b>RASDIALDLG</b>). If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
-
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure that specifies additional input and output parameters. The <b>dwSize</b> member of this structure must specify sizeof(<b>RASDIALDLG</b>). If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
 
 ## -returns
-
-
 
 If the function establishes a RAS connection, the return value is <b>TRUE</b>. Otherwise, the function should return <b>FALSE</b>.
 
 If an error occurs, <b>RasDialDlg</b> should set the <b>dwError</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure to a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
-
-
-
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a> structure to a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 ## -remarks
-
-
 
 The 
 <b>RasDialDlg</b> function displays a series of dialog boxes that are similar to the dialog boxes the main <b>Dial-Up Networking</b> dialog box displays when the user selects the <b>Dial</b> button. Use the 
@@ -158,7 +144,7 @@ DWORD __cdecl wmain(){
     dwError |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     
     if (dwError != S_OK){
-        wprintf(L"Structure initilization failed: Error = %d\n", dwError);
+        wprintf(L"Structure initialization failed: Error = %d\n", dwError);
         HeapFree(GetProcessHeap(), 0, lpentry);
         HeapFree(GetProcessHeap(), 0, lpInfo);
         return 0;
@@ -206,25 +192,22 @@ DWORD __cdecl wmain(){
 
 
 
+
+> [!NOTE]
+> The rasdlg.h header defines RasDialDlg as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASDIALDLG</a>
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

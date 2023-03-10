@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITAddress.EnumerateCalls
 title: ITAddress::EnumerateCalls (tapi3if.h)
 description: The EnumerateCalls method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.
+helpviewer_keywords: ["EnumerateCalls","EnumerateCalls method [TAPI 2.2]","EnumerateCalls method [TAPI 2.2]","ITAddress interface","ITAddress interface [TAPI 2.2]","EnumerateCalls method","ITAddress.EnumerateCalls","ITAddress::EnumerateCalls","_tapi3_itaddress_enumeratecalls","tapi3.itaddress_enumeratecalls","tapi3if/ITAddress::EnumerateCalls"]
 old-location: tapi3\itaddress_enumeratecalls.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2ffa90bf-3005-4fd0-b52f-b155c8b2194f
 ms.date: 12/05/2018
 ms.keywords: EnumerateCalls, EnumerateCalls method [TAPI 2.2], EnumerateCalls method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],EnumerateCalls method, ITAddress.EnumerateCalls, ITAddress::EnumerateCalls, _tapi3_itaddress_enumeratecalls, tapi3.itaddress_enumeratecalls, tapi3if/ITAddress::EnumerateCalls
-f1_keywords:
-- tapi3if/ITAddress.EnumerateCalls
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddress.EnumerateCalls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddress::EnumerateCalls
+ - tapi3if/ITAddress::EnumerateCalls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddress.EnumerateCalls
 ---
 
 # ITAddress::EnumerateCalls
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnumerateCalls</b> method enumerates calls on the current address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">get_Calls</a> method.
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">get_Calls</a> method.
 
 ## -parameters
-
-
-
 
 ### -param ppCallEnum [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,41 +104,25 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface returned by <b>ITAddress::EnumerateCalls</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface returned by <b>ITAddress::EnumerateCalls</b>. The application must call <b>Release</b> on the 
 <b>IEnumCall</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">ITAddress::get_Calls</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_calls">ITAddress::get_Calls</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptStringToBinaryA
 title: CryptStringToBinaryA function (wincrypt.h)
-description: Converts a formatted string into an array of bytes.
+description: Converts a formatted string into an array of bytes. (ANSI)
+helpviewer_keywords: ["CRYPT_STRING_ANY", "CRYPT_STRING_BASE64", "CRYPT_STRING_BASE64HEADER", "CRYPT_STRING_BASE64REQUESTHEADER", "CRYPT_STRING_BASE64X509CRLHEADER", "CRYPT_STRING_BASE64_ANY", "CRYPT_STRING_BINARY", "CRYPT_STRING_HEX", "CRYPT_STRING_HEXADDR", "CRYPT_STRING_HEXASCII", "CRYPT_STRING_HEXASCIIADDR", "CRYPT_STRING_HEXRAW", "CRYPT_STRING_HEX_ANY", "CRYPT_STRING_STRICT", "CryptStringToBinaryA", "wincrypt/CryptStringToBinaryA"]
 old-location: security\cryptstringtobinary.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 13b6f5ef-174a-4254-8492-6e7dcc58945f
 ms.date: 12/05/2018
 ms.keywords: CRYPT_STRING_ANY, CRYPT_STRING_BASE64, CRYPT_STRING_BASE64HEADER, CRYPT_STRING_BASE64REQUESTHEADER, CRYPT_STRING_BASE64X509CRLHEADER, CRYPT_STRING_BASE64_ANY, CRYPT_STRING_BINARY, CRYPT_STRING_HEX, CRYPT_STRING_HEXADDR, CRYPT_STRING_HEXASCII, CRYPT_STRING_HEXASCIIADDR, CRYPT_STRING_HEXRAW, CRYPT_STRING_HEX_ANY, CRYPT_STRING_STRICT, CryptStringToBinary, CryptStringToBinary function [Security], CryptStringToBinaryA, CryptStringToBinaryW, _crypto2_cryptstringtobinary, security.cryptstringtobinary, wincrypt/CryptStringToBinary, wincrypt/CryptStringToBinaryA, wincrypt/CryptStringToBinaryW
-f1_keywords:
-- wincrypt/CryptStringToBinary
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptStringToBinary
-- CryptStringToBinaryA
-- CryptStringToBinaryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptStringToBinaryA
+ - wincrypt/CryptStringToBinaryA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptStringToBinary
+ - CryptStringToBinaryA
+ - CryptStringToBinaryW
 ---
 
 # CryptStringToBinaryA function
@@ -50,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptStringToBinary</b> function converts a formatted string into an array of bytes.
 
-
 ## -parameters
-
-
-
 
 ### -param pszString [in]
 
 A pointer to a string that contains the formatted string to be converted.
 
-
 ### -param cchString [in]
 
 The number of characters of the formatted string to be converted, not including the terminating <b>NULL</b> character. If this parameter is zero,  <i>pszString</i> is considered to be a null-terminated string.
-
 
 ### -param dwFlags [in]
 
@@ -85,8 +80,8 @@ Indicates the format of the string to be converted. This can be one of the follo
 </dl>
 </td>
 <td width="60%">
-Base64, with certificate beginning and ending headers.
-
+Base64 between lines of the form `-----BEGIN ...-----` and `-----END ...-----`.
+See Remarks below.
 </td>
 </tr>
 <tr>
@@ -118,8 +113,8 @@ Pure binary copy.
 </dl>
 </td>
 <td width="60%">
-Base64, with request beginning and ending headers.
-
+Base64 between lines of the form `-----BEGIN ...-----` and `-----END ...-----`.
+See Remarks below.
 </td>
 </tr>
 <tr>
@@ -140,7 +135,7 @@ Hexadecimal only format.
 </dl>
 </td>
 <td width="60%">
-Hexadecimal format with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
+Hexadecimal format with <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
 
 </td>
 </tr>
@@ -209,8 +204,8 @@ Tries the following, in order:
 </dl>
 </td>
 <td width="60%">
-Base64, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) beginning and ending headers.
-
+Base64 between lines of the form `-----BEGIN ...-----` and `-----END ...-----`.
+See Remarks below.
 </td>
 </tr>
 <tr>
@@ -262,25 +257,23 @@ Set this flag for Base64 data to specify that the end of the binary data contain
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbBinary [in]
 
 A pointer to a buffer that receives the returned sequence of bytes. If this parameter is <b>NULL</b>, the function calculates the length of the buffer needed and returns the size, in bytes, of required memory in the <b>DWORD</b> pointed to by <i>pcbBinary</i>.
 
-
 ### -param pcbBinary [in, out]
 
-A pointer to a <b>DWORD</b> variable that, on entry, contains the size, in bytes, of the <i>pbBinary</i> buffer. After the function returns, this variable contains the number of bytes copied to the buffer. If this value is not large enough to contain all of the data, the function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_MORE_DATA</b>.
+A pointer to a <b>DWORD</b> variable that, on entry, contains the size, in bytes, of the <i>pbBinary</i> buffer. After the function returns, this variable contains the number of bytes copied to the buffer. If this value is not large enough to contain all of the data, the function fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_MORE_DATA</b>.
 
 If <i>pbBinary</i> is <b>NULL</b>, the <b>DWORD</b> pointed to by <i>pcbBinary</i> is ignored.
 
-
 ### -param pdwSkip [out]
 
-A pointer to a <b>DWORD</b> value that receives the number of characters skipped to reach the beginning of the actual base64 or hexadecimal strings. This parameter is optional and can be <b>NULL</b> if it is not needed.
-
+A pointer to a <b>DWORD</b> value that receives the number of characters skipped to reach the beginning of the
+`-----BEGIN ...-----` header.
+If no header is present, then the <b>DWORD</b> is set to zero.
+This parameter is optional and can be <b>NULL</b> if it is not needed.
 
 ### -param pdwFlags [out]
 
@@ -338,27 +331,39 @@ This variable will receive one of the following values. Each value indicates the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>).
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a>
 
+## -remarks
 
+The
+<b>CRYPT_STRING_BASE64HEADER</b>,
+<b>CRYPT_STRING_BASE64REQUESTHEADER</b>,
+and
+<b>CRYPT_STRING_BASE64X509CRLHEADER</b>
+flags are all treated identically by this function:
+They attempt to parse the first block of
+base64-encoded data between lines of the form
+`-----BEGIN ...-----` and `-----END ...-----`.
+The `...` portions are ignored, and they need not match.
+If parsing is successful, the value passed in the <i>dwFlags</i> parameter
+is returned in the <b>DWORD</b> pointed to by the <i>pdwFlags</i> parameter.
+Note that a value of
+<b>CRYPT_STRING_BASE64REQUESTHEADER</b>
+or
+<b>CRYPT_STRING_BASE64X509CRLHEADER</b>
+does not mean that a request header or
+<a href="/windows/desktop/SecGloss/c-gly#_SECURITY_X.509_GLY">X.509</a>
+<a href="/windows/desktop/SecGloss/c-gly#_security_certificate_revocation_list_gly">certificate revocation list</a> (CRL)
+was found.
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptbinarytostringa">CryptBinaryToString</a>
- 
-
- 
-
+> [!NOTE]
+> The wincrypt.h header defines CryptStringToBinary as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

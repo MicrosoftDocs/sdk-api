@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfiles.RemoveLanguageProfile
 title: ITfInputProcessorProfiles::RemoveLanguageProfile (msctf.h)
 description: ITfInputProcessorProfiles::RemoveLanguageProfile method
+helpviewer_keywords: ["ITfInputProcessorProfiles interface [Text Services Framework]","RemoveLanguageProfile method","ITfInputProcessorProfiles.RemoveLanguageProfile","ITfInputProcessorProfiles::RemoveLanguageProfile","RemoveLanguageProfile","RemoveLanguageProfile method [Text Services Framework]","RemoveLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","_tsf_itfinputprocessorprofiles_removelanguageprofile_ref","msctf/ITfInputProcessorProfiles::RemoveLanguageProfile","tsf.itfinputprocessorprofiles_removelanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_removelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 16eff9bc-1789-4bf6-b1ba-b7e8414ce080
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],RemoveLanguageProfile method, ITfInputProcessorProfiles.RemoveLanguageProfile, ITfInputProcessorProfiles::RemoveLanguageProfile, RemoveLanguageProfile, RemoveLanguageProfile method [Text Services Framework], RemoveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_removelanguageprofile_ref, msctf/ITfInputProcessorProfiles::RemoveLanguageProfile, tsf.itfinputprocessorprofiles_removelanguageprofile
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.RemoveLanguageProfile
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.RemoveLanguageProfile
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::RemoveLanguageProfile
+ - msctf/ITfInputProcessorProfiles::RemoveLanguageProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.RemoveLanguageProfile
 ---
 
 # ITfInputProcessorProfiles::RemoveLanguageProfile
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Removes a language profile.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the text service CLSID.
 
-
 ### -param langid [in]
 
 Contains a <b>LANGID</b> value that specifies the language identifier of the profile.
 
-
 ### -param guidProfile [out]
 
-Contains a GUID value that identifies the language profile. This is the value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
-
+Contains a GUID value that identifies the language profile. This is the value specified in <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -105,23 +98,12 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
- 
-
- 
-

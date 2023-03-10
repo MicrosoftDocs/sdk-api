@@ -2,15 +2,12 @@
 UID: NS:richedit._repastespecial
 title: REPASTESPECIAL (richedit.h)
 description: Contains information identifying whether the display aspect of a pasted object should be based on the content of the object or the icon that represent the object.
+helpviewer_keywords: ["DVASPECT_CONTENT","DVASPECT_ICON","REPASTESPECIAL","REPASTESPECIAL structure [Windows Controls]","_win32_REPASTESPECIAL_str","_win32_REPASTESPECIAL_str_cpp","controls.REPASTESPECIAL","controls._win32_REPASTESPECIAL_str","richedit/REPASTESPECIAL"]
 old-location: controls\REPASTESPECIAL.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\repastespecial.htm
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_ICON, REPASTESPECIAL, REPASTESPECIAL structure [Windows Controls], _win32_REPASTESPECIAL_str, _win32_REPASTESPECIAL_str_cpp, controls.REPASTESPECIAL, controls._win32_REPASTESPECIAL_str, richedit/REPASTESPECIAL
-f1_keywords:
-- richedit/REPASTESPECIAL
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- REPASTESPECIAL
 targetos: Windows
 req.typenames: REPASTESPECIAL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _repastespecial
+ - richedit/_repastespecial
+ - REPASTESPECIAL
+ - richedit/REPASTESPECIAL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - REPASTESPECIAL
 ---
 
 # REPASTESPECIAL structure
@@ -48,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information identifying whether the display aspect of a pasted object should be based on the content of the object or the icon that represent the object.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwAspect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Display aspect. It can be one of the following values. 
 
@@ -89,25 +88,15 @@ Aspect is based on the icon view of the object.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Aspect data. If <b>dwAspect</b> is DVASPECT_ICON, this member contains the handle to the metafile with the icon view of the object. 
-
+Aspect data. If <b>dwAspect</b> is DVASPECT_ICON, this member contains the handle to the metafile with the icon view of the object.
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/b4b9c1a7-943d-4dc8-bcb9-054c984b82ba">EM_PASTESPECIAL</a>
- 
-
- 
-

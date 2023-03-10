@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDUdpAddress.GetAlias
 title: IWSDUdpAddress::GetAlias (wsdbase.h)
 description: Gets the alias for the discovery address.
+helpviewer_keywords: ["GetAlias","GetAlias method","GetAlias method","IWSDUdpAddress interface","IWSDUdpAddress interface","GetAlias method","IWSDUdpAddress.GetAlias","IWSDUdpAddress::GetAlias","ncd.iwsdudpaddress_getalias","wsdbase/IWSDUdpAddress::GetAlias"]
 old-location: ncd\iwsdudpaddress_getalias.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: c11a7e39-6df1-411b-9992-6ce869b0db69
 ms.date: 12/05/2018
 ms.keywords: GetAlias, GetAlias method, GetAlias method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetAlias method, IWSDUdpAddress.GetAlias, IWSDUdpAddress::GetAlias, ncd.iwsdudpaddress_getalias, wsdbase/IWSDUdpAddress::GetAlias
-f1_keywords:
-- wsdbase/IWSDUdpAddress.GetAlias
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDUdpAddress.GetAlias
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDUdpAddress::GetAlias
+ - wsdbase/IWSDUdpAddress::GetAlias
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDUdpAddress.GetAlias
 ---
 
 # IWSDUdpAddress::GetAlias
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the alias for the discovery address. This method is reserved for internal use and should not be called.
-
 
 ## -parameters
 
-
-
-
 ### -param pAlias [out]
 
-Pointer to the alias of the discovery address.  
-
+Pointer to the alias of the discovery address.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -96,18 +90,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>

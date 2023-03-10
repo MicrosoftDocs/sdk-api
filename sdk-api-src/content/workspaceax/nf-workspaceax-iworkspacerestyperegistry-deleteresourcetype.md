@@ -2,15 +2,12 @@
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.DeleteResourceType
 title: IWorkspaceResTypeRegistry::DeleteResourceType (workspaceax.h)
 description: Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.
+helpviewer_keywords: ["DeleteResourceType","DeleteResourceType method [Remote Desktop Services]","DeleteResourceType method [Remote Desktop Services]","IWorkspaceResTypeRegistry interface","DeleteResourceType method [Remote Desktop Services]","Workspace object","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","DeleteResourceType method","IWorkspaceResTypeRegistry.DeleteResourceType","IWorkspaceResTypeRegistry::DeleteResourceType","Workspace object [Remote Desktop Services]","DeleteResourceType method","termserv.iworkspacerestyperegistry_deleteresourcetype","workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType"]
 old-location: termserv\iworkspacerestyperegistry_deleteresourcetype.htm
 tech.root: TermServ
 ms.assetid: a50bd4a0-8f59-4ed9-8f5f-c2522540c41e
 ms.date: 12/05/2018
 ms.keywords: DeleteResourceType, DeleteResourceType method [Remote Desktop Services], DeleteResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, DeleteResourceType method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],DeleteResourceType method, IWorkspaceResTypeRegistry.DeleteResourceType, IWorkspaceResTypeRegistry::DeleteResourceType, Workspace object [Remote Desktop Services],DeleteResourceType method, termserv.iworkspacerestyperegistry_deleteresourcetype, workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType
-f1_keywords:
-- workspaceax/IWorkspaceResTypeRegistry.DeleteResourceType
-dev_langs:
-- c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library: TSWorkspace.dll
 req.lib: 
 req.dll: TSWorkspace.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TSWorkspace.dll
-api_name:
-- IWorkspaceResTypeRegistry.DeleteResourceType
-- Workspace.DeleteResourceType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceResTypeRegistry::DeleteResourceType
+ - workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TSWorkspace.dll
+api_name:
+ - IWorkspaceResTypeRegistry.DeleteResourceType
+ - Workspace.DeleteResourceType
 ---
 
 # IWorkspaceResTypeRegistry::DeleteResourceType
@@ -49,15 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a third-party file name extension with the RemoteApp and Desktop Connections 
    runtime.
 
-
 ## -parameters
-
-
-
 
 ### -param fMachineWide [in]
 
@@ -75,38 +72,19 @@ The resource is registered per machine.
 
 The resource is registered per user.
 
-
 ### -param bstrFileExtension [in]
 
 A string that contains the file name extension to unregister. The period must be included in the extension, 
    for example, ".txt".
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This method is called when the plug-in is uninstalled to unregister non-RDP resources.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
- 
-
- 
-
+<a href="/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>

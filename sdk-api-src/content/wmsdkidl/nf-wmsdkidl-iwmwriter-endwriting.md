@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriter.EndWriting
 title: IWMWriter::EndWriting (wmsdkidl.h)
 description: The EndWriting method performs tasks required at the end of a writing session.
+helpviewer_keywords: ["EndWriting","EndWriting method [windows Media Format]","EndWriting method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","EndWriting method","IWMWriter.EndWriting","IWMWriter::EndWriting","IWMWriterEndWriting","wmformat.iwmwriter_endwriting","wmsdkidl/IWMWriter::EndWriting"]
 old-location: wmformat\iwmwriter_endwriting.htm
 tech.root: wmformat
 ms.assetid: 020e2c9d-9581-48c9-bc7b-a0e9e5a60c63
 ms.date: 12/05/2018
 ms.keywords: EndWriting, EndWriting method [windows Media Format], EndWriting method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],EndWriting method, IWMWriter.EndWriting, IWMWriter::EndWriting, IWMWriterEndWriting, wmformat.iwmwriter_endwriting, wmsdkidl/IWMWriter::EndWriting
-f1_keywords:
-- wmsdkidl/IWMWriter.EndWriting
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriter.EndWriting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriter::EndWriting
+ - wmsdkidl/IWMWriter::EndWriting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriter.EndWriting
 ---
 
 # IWMWriter::EndWriting
@@ -51,23 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EndWriting</b> method performs tasks required at the end of a writing session. This method flushes the buffers, updates indices and headers, and closes the file. You must call <b>EndWriting</b> when you have finished sending samples to the writer to encode an ASF file.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,31 +89,15 @@ The writer cannot currently be run.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method will not return a failure code if the disk space was used up before the encoding was completed. In order to be notified of a file writing error, an application should implement the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> method and listen for the NS_E_FILE_WRITE event.
-
-
-
+This method will not return a failure code if the disk space was used up before the encoding was completed. In order to be notified of a file writing error, an application should implement the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> method and listen for the NS_E_FILE_WRITE event.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>

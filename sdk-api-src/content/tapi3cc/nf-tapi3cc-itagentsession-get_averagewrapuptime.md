@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_AverageWrapUpTime
 title: ITAgentSession::get_AverageWrapUpTime (tapi3cc.h)
-description: The get_AverageWrapUpTime method gets the average time (in seconds) per ACD call spent in wrap-up (after-call work) during this agent session.
+description: The ITAgentSession::get_AverageWrapUpTime method (tapi3cc.h) gets the average time (in seconds) per ACD call spent in wrap-up during this agent session.
+helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_AverageWrapUpTime method","ITAgentSession.get_AverageWrapUpTime","ITAgentSession::get_AverageWrapUpTime","_tapi3_itagentsession_get_averagewrapuptime","get_AverageWrapUpTime","get_AverageWrapUpTime method [TAPI 2.2]","get_AverageWrapUpTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_averagewrapuptime","tapi3cc/ITAgentSession::get_AverageWrapUpTime"]
 old-location: tapi3\itagentsession_get_averagewrapuptime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 365d98ab-9127-45bb-8232-3e3903bd9ab3
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageWrapUpTime method, ITAgentSession.get_AverageWrapUpTime, ITAgentSession::get_AverageWrapUpTime, _tapi3_itagentsession_get_averagewrapuptime, get_AverageWrapUpTime, get_AverageWrapUpTime method [TAPI 2.2], get_AverageWrapUpTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagewrapuptime, tapi3cc/ITAgentSession::get_AverageWrapUpTime
-f1_keywords:
-- tapi3cc/ITAgentSession.get_AverageWrapUpTime
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentSession.get_AverageWrapUpTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentSession::get_AverageWrapUpTime
+ - tapi3cc/ITAgentSession::get_AverageWrapUpTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentSession.get_AverageWrapUpTime
 ---
 
 # ITAgentSession::get_AverageWrapUpTime
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_AverageWrapUpTime</b> method gets the average time (in seconds) per ACD call spent in wrap-up (after-call work) during this agent session.
 
-
 ## -parameters
-
-
-
 
 ### -param plWrapUpTime [out]
 
 Pointer to average wrap-up time.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -115,7 +109,7 @@ The <i>plWrapUpTime</i> parameter is not a valid pointer.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> for error codes returned from this TAPI 2.1 function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> for error codes returned from this TAPI 2.1 function.
 
 </td>
 </tr>
@@ -131,28 +125,12 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method wraps the TAPI 2.1 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> function.
-
-
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>

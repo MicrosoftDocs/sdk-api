@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDrawSurface7.GetClipper
 title: IDirectDrawSurface7::GetClipper (ddraw.h)
 description: Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
+helpviewer_keywords: ["GetClipper","GetClipper method [DirectDraw]","GetClipper method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetClipper method","IDirectDrawSurface7.GetClipper","IDirectDrawSurface7::GetClipper","ddraw/IDirectDrawSurface7::GetClipper","directdraw.idirectdrawsurface7_getclipper"]
 old-location: directdraw\idirectdrawsurface7_getclipper.htm
 tech.root: directdraw
 ms.assetid: f2156dbe-88b5-4ab1-a310-13a38ebdbb4b
@@ -43,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::GetClipper
-
-
 ## -description
-
 
 Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
 
-
 ## -parameters
 
+### -param unnamedParam1 [out]
 
-
-
-
-
-#### - lplpDDClipper [out]
-
-A pointer to a variable to receive a pointer to the clipper's <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface.
-
+A pointer to a variable to receive a pointer to the clipper's <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface.
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -80,24 +66,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_NOCLIPPERATTACHED</li>
 </ul>
 
-
-
 ## -remarks
-
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetClipper</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

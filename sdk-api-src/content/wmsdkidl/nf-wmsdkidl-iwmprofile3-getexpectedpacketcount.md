@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMProfile3.GetExpectedPacketCount
 title: IWMProfile3::GetExpectedPacketCount (wmsdkidl.h)
 description: The GetExpectedPacketCount method calculates the expected packet count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
+helpviewer_keywords: ["GetExpectedPacketCount","GetExpectedPacketCount method [windows Media Format]","GetExpectedPacketCount method [windows Media Format]","IWMProfile3 interface","IWMProfile3 interface [windows Media Format]","GetExpectedPacketCount method","IWMProfile3.GetExpectedPacketCount","IWMProfile3::GetExpectedPacketCount","IWMProfile3GetExpectedPacketCount","wmformat.iwmprofile3_getexpectedpacketcount","wmsdkidl/IWMProfile3::GetExpectedPacketCount"]
 old-location: wmformat\iwmprofile3_getexpectedpacketcount.htm
 tech.root: wmformat
 ms.assetid: ddab3735-06a1-4e03-9abc-0fca635ef759
 ms.date: 12/05/2018
 ms.keywords: GetExpectedPacketCount, GetExpectedPacketCount method [windows Media Format], GetExpectedPacketCount method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetExpectedPacketCount method, IWMProfile3.GetExpectedPacketCount, IWMProfile3::GetExpectedPacketCount, IWMProfile3GetExpectedPacketCount, wmformat.iwmprofile3_getexpectedpacketcount, wmsdkidl/IWMProfile3::GetExpectedPacketCount
-f1_keywords:
-- wmsdkidl/IWMProfile3.GetExpectedPacketCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMProfile3.GetExpectedPacketCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile3::GetExpectedPacketCount
+ - wmsdkidl/IWMProfile3::GetExpectedPacketCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMProfile3.GetExpectedPacketCount
 ---
 
 # IWMProfile3::GetExpectedPacketCount
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetExpectedPacketCount</b> method calculates the expected <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packet</a> count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
-
-
-
+The <b>GetExpectedPacketCount</b> method calculates the expected <a href="/windows/desktop/wmformat/wmformat-glossary">packet</a> count for the specified duration. The packet count returned is only an estimate, and it is based upon the settings of the profile at the time this call is made.
 
 ## -parameters
-
-
-
 
 ### -param msDuration [in]
 
 Specifies the duration in milliseconds.
 
-
 ### -param pcPackets [out]
 
 Pointer to receive the count of packets expected for <i>msDuration</i> milliseconds.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,29 +119,13 @@ The profile in the profile object is not compatible with this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Problems will arise if the value passed in <i>msDuration</i> is not a positive number of milliseconds. The method will return S_OK as normal, but the packet count returned will not be correct.
 
 It is impossible for this method to give exact counts, because there is no way to account for interleaved data in an encoded file. The packet count returned is most accurate for files with one audio stream. The more complicated the profile, the less accurate the packet count will be.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>

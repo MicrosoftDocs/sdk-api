@@ -1,16 +1,13 @@
 ---
-UID: NE:shlwapi.__unnamed_enum_7
+UID: NE:shlwapi.ASSOCKEY
 title: ASSOCKEY (shlwapi.h)
 description: Specifies the type of key to be returned by IQueryAssociations::GetKey.
+helpviewer_keywords: ["ASSOCKEY","ASSOCKEY enumeration [Windows Shell]","ASSOCKEY_APP","ASSOCKEY_BASECLASS","ASSOCKEY_CLASS","ASSOCKEY_SHELLEXECCLASS","_win32_ASSOCKEY_str","shell.ASSOCKEY_str","shlwapi/ASSOCKEY","shlwapi/ASSOCKEY_APP","shlwapi/ASSOCKEY_BASECLASS","shlwapi/ASSOCKEY_CLASS","shlwapi/ASSOCKEY_SHELLEXECCLASS"]
 old-location: shell\ASSOCKEY_str.htm
 tech.root: shell
 ms.assetid: f4ac0ba0-4113-498f-a51b-74a37fe33d49
 ms.date: 12/05/2018
 ms.keywords: ASSOCKEY, ASSOCKEY enumeration [Windows Shell], ASSOCKEY_APP, ASSOCKEY_BASECLASS, ASSOCKEY_CLASS, ASSOCKEY_SHELLEXECCLASS, _win32_ASSOCKEY_str, shell.ASSOCKEY_str, shlwapi/ASSOCKEY, shlwapi/ASSOCKEY_APP, shlwapi/ASSOCKEY_BASECLASS, shlwapi/ASSOCKEY_CLASS, shlwapi/ASSOCKEY_SHELLEXECCLASS
-f1_keywords:
-- shlwapi/ASSOCKEY
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlwapi.h
-api_name:
-- ASSOCKEY
 targetos: Windows
 req.typenames: ASSOCKEY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ASSOCKEY
+ - shlwapi/ASSOCKEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlwapi.h
+api_name:
+ - ASSOCKEY
 ---
 
 # ASSOCKEY enumeration
@@ -48,36 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the type of key to be returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey">IQueryAssociations::GetKey</a>.
-
+Specifies the type of key to be returned by <a href="/windows/desktop/api/shlwapi/nf-shlwapi-iqueryassociations-getkey">IQueryAssociations::GetKey</a>.
 
 ## -enum-fields
 
+### -field ASSOCKEY_SHELLEXECCLASS:1
 
-
-
-### -field ASSOCKEY_SHELLEXECCLASS
-
-A key that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
-
+A key that is passed to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> through a <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a> structure.
 
 ### -field ASSOCKEY_APP
 
 An <b>Application</b> key for the file type.
 
-
 ### -field ASSOCKEY_CLASS
 
 A ProgID or class key.
-
 
 ### -field ASSOCKEY_BASECLASS
 
 A BaseClass value.
 
-
 ### -field ASSOCKEY_MAX
-
-
 

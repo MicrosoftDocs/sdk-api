@@ -2,15 +2,12 @@
 UID: NF:syncmgr.ISyncMgrSyncResult.Result
 title: ISyncMgrSyncResult::Result (syncmgr.h)
 description: Gets the result of a StartHandlerSync or StartItemSync call.
+helpviewer_keywords: ["ISyncMgrSyncResult interface [Windows Shell]","Result method","ISyncMgrSyncResult.Result","ISyncMgrSyncResult::Result","Result","Result method [Windows Shell]","Result method [Windows Shell]","ISyncMgrSyncResult interface","_shell_ISyncMgrSyncResult_Result","shell.ISyncMgrSyncResult_Result","syncmgr/ISyncMgrSyncResult::Result"]
 old-location: shell\ISyncMgrSyncResult_Result.htm
 tech.root: shell
 ms.assetid: 8ba7de05-0703-4bab-bf64-ae84f42fad69
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncResult interface [Windows Shell],Result method, ISyncMgrSyncResult.Result, ISyncMgrSyncResult::Result, Result, Result method [Windows Shell], Result method [Windows Shell],ISyncMgrSyncResult interface, _shell_ISyncMgrSyncResult_Result, shell.ISyncMgrSyncResult_Result, syncmgr/ISyncMgrSyncResult::Result
-f1_keywords:
-- syncmgr/ISyncMgrSyncResult.Result
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrSyncResult.Result
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrSyncResult::Result
+ - syncmgr/ISyncMgrSyncResult::Result
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrSyncResult.Result
 ---
 
 # ISyncMgrSyncResult::Result
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the result of a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">StartHandlerSync</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">StartItemSync</a> call.
-
+Gets the result of a <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">StartHandlerSync</a> or <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">StartItemSync</a> call.
 
 ## -parameters
 
-
-
-
 ### -param nStatus [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_progress_status">SYNCMGR_PROGRESS_STATUS</a></b>
+Type: <b><a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_progress_status">SYNCMGR_PROGRESS_STATUS</a></b>
 
-The current status of the progress report. See <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_progress_status">SYNCMGR_PROGRESS_STATUS</a>.
-
+The current status of the progress report. See <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_progress_status">SYNCMGR_PROGRESS_STATUS</a>.
 
 ### -param cError [in]
 
@@ -70,21 +66,14 @@ Type: <b>UINT</b>
 
 An error.
 
-
 ### -param cConflicts [in]
 
 Type: <b>UINT</b>
 
 Specifies conflicts.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

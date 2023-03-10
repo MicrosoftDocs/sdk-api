@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.FindUserName
 title: IDiskQuotaControl::FindUserName (dskquota.h)
 description: Locates a specific entry in the volume quota information.
+helpviewer_keywords: ["FindUserName","FindUserName method [Files]","FindUserName method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","FindUserName method","IDiskQuotaControl.FindUserName","IDiskQuotaControl::FindUserName","_win32_idiskquotacontrol_findusername","base.idiskquotacontrol_findusername","dskquota/IDiskQuotaControl::FindUserName","fs.idiskquotacontrol_findusername"]
 old-location: fs\idiskquotacontrol_findusername.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: dae4e2d4-0293-4ee4-9687-9fed4b3a3600
 ms.date: 12/05/2018
 ms.keywords: FindUserName, FindUserName method [Files], FindUserName method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],FindUserName method, IDiskQuotaControl.FindUserName, IDiskQuotaControl::FindUserName, _win32_idiskquotacontrol_findusername, base.idiskquotacontrol_findusername, dskquota/IDiskQuotaControl::FindUserName, fs.idiskquotacontrol_findusername
-f1_keywords:
-- dskquota/IDiskQuotaControl.FindUserName
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.FindUserName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::FindUserName
+ - dskquota/IDiskQuotaControl::FindUserName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.FindUserName
 ---
 
 # IDiskQuotaControl::FindUserName
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates a specific entry in the volume quota information. The user's account logon name is used as the search key.
 
-
 ## -parameters
-
-
-
 
 ### -param pszLogonName [in]
 
 A pointer to the user's account logon name.
 
-
 ### -param ppUser [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer to the quota user object.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer to the quota user object.
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -179,35 +172,19 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method will return a user object even if there is no quota record for the user in the quota file. This is consistent with the idea of automatic user addition and default quota settings. If there is currently no quota entry for the requested user, and the user would be added to the quota file if he were to request disk space, the returned user object will have warning threshold and hard quota limits equal to the volume default settings.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

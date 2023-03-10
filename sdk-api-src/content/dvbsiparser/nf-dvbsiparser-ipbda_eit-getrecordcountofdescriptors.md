@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordCountOfDescriptors
 title: IPBDA_EIT::GetRecordCountOfDescriptors (dvbsiparser.h)
 description: Gets the number of event records from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
+helpviewer_keywords: ["GetRecordCountOfDescriptors","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetRecordCountOfDescriptors method","IPBDA_EIT.GetRecordCountOfDescriptors","IPBDA_EIT::GetRecordCountOfDescriptors","dvbsiparser/IPBDA_EIT::GetRecordCountOfDescriptors","mstv.ipbda_eit_getrecordcountofdescriptors"]
 old-location: mstv\ipbda_eit_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: c491b2d0-6426-4a76-b3a1-4477fdf1779c
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPBDA_EIT.GetRecordCountOfDescriptors, IPBDA_EIT::GetRecordCountOfDescriptors, dvbsiparser/IPBDA_EIT::GetRecordCountOfDescriptors, mstv.ipbda_eit_getrecordcountofdescriptors
-f1_keywords:
-- dvbsiparser/IPBDA_EIT.GetRecordCountOfDescriptors
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IPBDA_EIT.GetRecordCountOfDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPBDA_EIT::GetRecordCountOfDescriptors
+ - dvbsiparser/IPBDA_EIT::GetRecordCountOfDescriptors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IPBDA_EIT.GetRecordCountOfDescriptors
 ---
 
 # IPBDA_EIT::GetRecordCountOfDescriptors
@@ -48,43 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of event records from an  event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
 Specifies the service record number, indexed from zero.
-  Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
-
-
+  Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
 
 ### -param pdwVal [out]
 
 Receives the number of descriptors.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_eit">IPBDA_EIT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_eit">IPBDA_EIT</a>

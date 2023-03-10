@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhLookupPerfNameByIndexW
 title: PdhLookupPerfNameByIndexW function (pdh.h)
-description: Returns the performance object name or counter name corresponding to the specified index.
+description: Returns the performance object name or counter name corresponding to the specified index. (Unicode)
+helpviewer_keywords: ["PdhLookupPerfNameByIndex", "PdhLookupPerfNameByIndex function [Perf]", "PdhLookupPerfNameByIndexW", "_win32_pdhlookupperfnamebyindex", "base.pdhlookupperfnamebyindex", "pdh/PdhLookupPerfNameByIndex", "pdh/PdhLookupPerfNameByIndexW", "perf.pdhlookupperfnamebyindex"]
 old-location: perf\pdhlookupperfnamebyindex.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
 ms.date: 12/05/2018
 ms.keywords: PdhLookupPerfNameByIndex, PdhLookupPerfNameByIndex function [Perf], PdhLookupPerfNameByIndexA, PdhLookupPerfNameByIndexW, _win32_pdhlookupperfnamebyindex, base.pdhlookupperfnamebyindex, pdh/PdhLookupPerfNameByIndex, pdh/PdhLookupPerfNameByIndexA, pdh/PdhLookupPerfNameByIndexW, perf.pdhlookupperfnamebyindex
-f1_keywords:
-- pdh/PdhLookupPerfNameByIndex
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhLookupPerfNameByIndex
-- PdhLookupPerfNameByIndexA
-- PdhLookupPerfNameByIndexW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhLookupPerfNameByIndexW
+ - pdh/PdhLookupPerfNameByIndexW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhLookupPerfNameByIndex
+ - PdhLookupPerfNameByIndexA
+ - PdhLookupPerfNameByIndexW
 ---
 
 # PdhLookupPerfNameByIndexW function
@@ -50,46 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the performance object name or counter name corresponding to the specified index.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param szMachineName [in]
 
 <b>Null</b>-terminated string that specifies the name of the computer where the specified performance object or counter is located. The computer name can be specified by the DNS name or the IP address. If <b>NULL</b>, the function uses the local computer.
 
-
 ### -param dwNameIndex [in]
 
 Index of the performance object or counter.
-
 
 ### -param szNameBuffer [out]
 
 Caller-allocated buffer that receives the <b>null</b>-terminated name of the performance object or counter. Set to <b>NULL</b> if <i>pcchNameBufferSize</i> is zero.
 
-
 ### -param pcchNameBufferSize [in, out]
 
 Size of the <i>szNameBuffer</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -119,20 +109,14 @@ A parameter is not valid or is incorrectly formatted. For example, on some relea
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set <i>szNameBuffer</i> to <b>NULL</b> and <i>pcchNameBufferSize</i> to 0), and the second time to get the data.
 
 <b>Windows XP:  </b>You must specify a buffer and buffer size. The function sets <i>pcchNameBufferSize</i> to either the required size or the size of the buffer that was used. If the buffer is too small, the function returns PDH_INSUFFICIENT_BUFFER instead of PDH_MORE_DATA. The maximum string size in bytes is PDH_MAX_COUNTER_NAME * sizeof(TCHAR).
 
-The index value that you specify must match one of the index values associated with the objects or counters that were loaded on the computer. The index/name value pairs are stored in the <b>Counters</b> registry value in the following registry location.<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The index value that you specify must match one of the index values associated with the objects or counters that were loaded on the computer. The index/name value pairs are stored in the <b>Counters</b> registry value in the following registry location.<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>\SOFTWARE</b>
       <b>\Microsoft</b>
          <b>\Windows NT</b>
@@ -151,13 +135,10 @@ The index value that you specify must match one of the index values associated w
 
 
 
+
+> [!NOTE]
+> The pdh.h header defines PdhLookupPerfNameByIndex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhlookupperfindexbynamea">PdhLookupPerfIndexByName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhlookupperfindexbynamea">PdhLookupPerfIndexByName</a>

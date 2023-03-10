@@ -2,15 +2,12 @@
 UID: NF:imapi2.IWriteEngine2.put_Recorder
 title: IWriteEngine2::put_Recorder (imapi2.h)
 description: Sets a recording device for the write operation.
+helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_Recorder method","IWriteEngine2.put_Recorder","IWriteEngine2::put_Recorder","imapi.iwriteengine2_put_recorder","imapi2/IWriteEngine2::put_Recorder","put_Recorder","put_Recorder method [IMAPI]","put_Recorder method [IMAPI]","IWriteEngine2 interface"]
 old-location: imapi\iwriteengine2_put_recorder.htm
 tech.root: imapi
 ms.assetid: 3ab46d99-7940-4ad0-9772-634de8c0d0ef
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_Recorder method, IWriteEngine2.put_Recorder, IWriteEngine2::put_Recorder, imapi.iwriteengine2_put_recorder, imapi2/IWriteEngine2::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IWriteEngine2 interface
-f1_keywords:
-- imapi2/IWriteEngine2.put_Recorder
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2.put_Recorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2::put_Recorder
+ - imapi2/IWriteEngine2::put_Recorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2.put_Recorder
 ---
 
 # IWriteEngine2::put_Recorder
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a recording device for the write operation.
-
 
 ## -parameters
 
-
-
-
 ### -param value [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a> interface that identifies the recording device to use in the write operation.
-
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a> interface that identifies the recording device to use in the write operation.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -347,22 +341,11 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_recorder">IWriteEngine2::get_Recorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_recorder">IWriteEngine2::get_Recorder</a>

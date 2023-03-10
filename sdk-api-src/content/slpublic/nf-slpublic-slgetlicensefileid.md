@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetLicenseFileId
 title: SLGetLicenseFileId function (slpublic.h)
 description: Checks if the license BLOB has been installed already.
+helpviewer_keywords: ["SLGetLicenseFileId","SLGetLicenseFileId function [Security]","security.slgetlicensefileid","slpublic/SLGetLicenseFileId"]
 old-location: security\slgetlicensefileid.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: b8474a25-2aef-43b6-85be-71dc287fd712
 ms.date: 12/05/2018
 ms.keywords: SLGetLicenseFileId, SLGetLicenseFileId function [Security], security.slgetlicensefileid, slpublic/SLGetLicenseFileId
-f1_keywords:
-- slpublic/SLGetLicenseFileId
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetLicenseFileId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetLicenseFileId
+ - slpublic/SLGetLicenseFileId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetLicenseFileId
 ---
 
 # SLGetLicenseFileId function
@@ -48,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks if the license BLOB has been 
 	installed already.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
 The handle to the current SLC context.
 
-
 ### -param cbLicenseBlob [in]
 
 The size, in bytes, of the license BLOB.
-
 
 ### -param pbLicenseBlob [in]
 
 A pointer to the number of licenses in the BLOB.
 
-
 ### -param pLicenseFileId [out]
 
 A pointer to the license file ID.
 
-
 ## -returns
-
-
 
 If the License has been previously installed, it returns a <b>SLID</b>.  Otherwise,  it returns an <b>HRESULT</b> error code.
 
@@ -126,7 +117,4 @@ The license file is not installed.
 </td>
 </tr>
 </table>
- 
-
-
 

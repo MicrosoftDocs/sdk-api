@@ -7,10 +7,6 @@ tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowtransform.htm
 ms.date: 12/05/2018
 ms.keywords: MagSetWindowTransform, MagSetWindowTransform function [Magnification API], magapi.magapi_MagSetWindowTransform, magapi_MagSetWindowTransform, magnification/MagSetWindowTransform
-f1_keywords:
-- magnification/MagSetWindowTransform
-dev_langs:
-- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Magnification.dll
-api_name:
-- MagSetWindowTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MagSetWindowTransform
+ - magnification/MagSetWindowTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Magnification.dll
+api_name:
+ - MagSetWindowTransform
 ---
 
 # MagSetWindowTransform function
@@ -48,43 +49,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the transformation matrix for a magnifier control. 
-
+Sets the transformation matrix for a magnifier control.
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The magnification window.
 
-
 ### -param pTransform [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magtransform">PMAGTRANSFORM</a></b>
+Type: <b><a href="/windows/desktop/api/magnification/ns-magnification-magtransform">PMAGTRANSFORM</a></b>
 
 A transformation matrix.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The transformation matrix specifies the magnification factor that the magnifier control applies to the contents of the source rectangle.
 
@@ -114,17 +101,6 @@ BOOL SetMagnificationFactor(HWND hwndMag, float magFactor)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetwindowtransform">MagGetWindowTransform</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetwindowtransform">MagGetWindowTransform</a>

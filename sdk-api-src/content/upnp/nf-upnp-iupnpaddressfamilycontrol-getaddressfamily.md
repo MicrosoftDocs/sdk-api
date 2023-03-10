@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPAddressFamilyControl.GetAddressFamily
 title: IUPnPAddressFamilyControl::GetAddressFamily (upnp.h)
 description: The GetAddressFamily method retrieves the current value of the address family flag of the Device Finder object.
+helpviewer_keywords: ["GetAddressFamily","GetAddressFamily method [UPnP APIs]","GetAddressFamily method [UPnP APIs]","IUPnPAddressFamilyControl interface","IUPnPAddressFamilyControl interface [UPnP APIs]","GetAddressFamily method","IUPnPAddressFamilyControl.GetAddressFamily","IUPnPAddressFamilyControl::GetAddressFamily","UPNP_ADDRESSFAMILY_BOTH","UPNP_ADDRESSFAMILY_IPv4","UPNP_ADDRESSFAMILY_IPv6","upnp.iupnpaddressfamilycontrol_getaddressfamily","upnp/IUPnPAddressFamilyControl::GetAddressFamily"]
 old-location: upnp\iupnpaddressfamilycontrol_getaddressfamily.htm
 tech.root: upnp
 ms.assetid: 3ad0897e-e128-4b49-92c1-eaf2ac516c3b
 ms.date: 12/05/2018
 ms.keywords: GetAddressFamily, GetAddressFamily method [UPnP APIs], GetAddressFamily method [UPnP APIs],IUPnPAddressFamilyControl interface, IUPnPAddressFamilyControl interface [UPnP APIs],GetAddressFamily method, IUPnPAddressFamilyControl.GetAddressFamily, IUPnPAddressFamilyControl::GetAddressFamily, UPNP_ADDRESSFAMILY_BOTH, UPNP_ADDRESSFAMILY_IPv4, UPNP_ADDRESSFAMILY_IPv6, upnp.iupnpaddressfamilycontrol_getaddressfamily, upnp/IUPnPAddressFamilyControl::GetAddressFamily
-f1_keywords:
-- upnp/IUPnPAddressFamilyControl.GetAddressFamily
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPAddressFamilyControl.GetAddressFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPAddressFamilyControl::GetAddressFamily
+ - upnp/IUPnPAddressFamilyControl::GetAddressFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPAddressFamilyControl.GetAddressFamily
 ---
 
 # IUPnPAddressFamilyControl::GetAddressFamily
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAddressFamily</b> method retrieves the current value of the address family flag of the Device Finder object.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out, retval]
 
@@ -99,29 +96,15 @@ IPv4 and IPv6
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpaddressfamilycontrol">IUPnPAddressFamilyControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily">SetAddressFamily</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily">SetAddressFamily</a>

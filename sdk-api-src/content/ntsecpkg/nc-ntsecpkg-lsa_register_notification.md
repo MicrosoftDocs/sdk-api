@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.LSA_REGISTER_NOTIFICATION
 title: LSA_REGISTER_NOTIFICATION (ntsecpkg.h)
 description: Provides a mechanism whereby the security package is notified. Notification can occur at fixed intervals, when an event object is signaled, or during certain system events.
+helpviewer_keywords: ["LSA_REGISTER_NOTIFICATION","NOTIFIER_FLAG_NEW_THREAD","NOTIFIER_FLAG_ONE_SHOT","NOTIFIER_FLAG_SECONDS","NOTIFIER_TYPE_HANDLE_WAIT","NOTIFIER_TYPE_IMMEDIATE","NOTIFIER_TYPE_INTERVAL","NOTIFIER_TYPE_NOTIFY_EVENT","NOTIFIER_TYPE_STATE_CHANGE","NOTIFY_CLASS_DOMAIN_CHANGE","NOTIFY_CLASS_PACKAGE_CHANGE","NOTIFY_CLASS_ROLE_CHANGE","PLSA_REGISTER_NOTIFICATION callback","RegisterNotification","RegisterNotification callback function [Security]","_ssp_registernotification","ntsecpkg/RegisterNotification","security.registernotification"]
 old-location: security\registernotification.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 689a1956-5eab-4eec-93ef-5ddcef6546ee
 ms.date: 12/05/2018
 ms.keywords: LSA_REGISTER_NOTIFICATION, NOTIFIER_FLAG_NEW_THREAD, NOTIFIER_FLAG_ONE_SHOT, NOTIFIER_FLAG_SECONDS, NOTIFIER_TYPE_HANDLE_WAIT, NOTIFIER_TYPE_IMMEDIATE, NOTIFIER_TYPE_INTERVAL, NOTIFIER_TYPE_NOTIFY_EVENT, NOTIFIER_TYPE_STATE_CHANGE, NOTIFY_CLASS_DOMAIN_CHANGE, NOTIFY_CLASS_PACKAGE_CHANGE, NOTIFY_CLASS_ROLE_CHANGE, PLSA_REGISTER_NOTIFICATION callback, RegisterNotification, RegisterNotification callback function [Security], _ssp_registernotification, ntsecpkg/RegisterNotification, security.registernotification
-f1_keywords:
-- ntsecpkg/RegisterNotification
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- RegisterNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_REGISTER_NOTIFICATION
+ - ntsecpkg/LSA_REGISTER_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - RegisterNotification
 ---
 
 # LSA_REGISTER_NOTIFICATION callback function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides a mechanism whereby the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> is notified. Notification can occur at fixed intervals, when an event object is signaled, or during certain system events.
-
+Provides a mechanism whereby the <a href="/windows/desktop/SecGloss/s-gly">security package</a> is notified. Notification can occur at fixed intervals, when an event object is signaled, or during certain system events.
 
 ## -parameters
-
-
-
 
 ### -param StartFunction [in]
 
 The function that is called to accept notification.
 
-
 ### -param Parameter [in]
 
 The argument of the function specified in the <i>StartFunction</i> parameter.
-
 
 ### -param NotificationType [in]
 
@@ -127,8 +122,6 @@ Notify immediately. This value implies NOTIFIER_FLAG_ONE_SHOT.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NotificationClass [in]
 
@@ -170,8 +163,6 @@ Reserved for internal use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param NotificationFlags [in]
 
@@ -213,33 +204,22 @@ The <i>IntervalMinutes</i> parameter specifies seconds.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param IntervalMinutes [in]
 
 Specifies the time delay between notifications.
 
-
 ### -param WaitEvent [in]
 
 Optional. Handle to an event object. When the object is signaled, the notification occurs. This value is used in conjunction with the <i>NotificationType</i> value NOTIFIER_TYPE_HANDLE_WAIT.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to the notification.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If you specify the NOTIFY_CLASS_PACKAGE_CHANGE value for the <i>NotificationClass</i> parameter, the following values represent valid changes.
 
@@ -258,29 +238,19 @@ If you specify the NOTIFY_CLASS_PACKAGE_CHANGE value for the <i>NotificationClas
 </tr>
 <tr>
 <td>SECPKG_PACKAGE_CHANGE_SELECT</td>
-<td>A new package became the preferred <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.</td>
+<td>A new package became the preferred <a href="/windows/desktop/SecGloss/s-gly">security package</a>.</td>
 </tr>
 </table>
  
 
 A pointer to the <b>RegisterNotification</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpServerSetConfigVQ
 title: DhcpServerSetConfigVQ function (dhcpsapi.h)
 description: Sets or updates DHCP server settings.
+helpviewer_keywords: ["DhcpServerSetConfigVQ","DhcpServerSetConfigVQ function [DHCP]","dhcp.dhcpserversetconfigvq","dhcpsapi/DhcpServerSetConfigVQ"]
 old-location: dhcp\dhcpserversetconfigvq.htm
 tech.root: DHCP
 ms.assetid: 3498b674-5771-47b6-9dfa-a8e3e10bca40
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfigVQ, DhcpServerSetConfigVQ function [DHCP], dhcp.dhcpserversetconfigvq, dhcpsapi/DhcpServerSetConfigVQ
-f1_keywords:
-- dhcpsapi/DhcpServerSetConfigVQ
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpServerSetConfigVQ
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpServerSetConfigVQ
+ - dhcpsapi/DhcpServerSetConfigVQ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpServerSetConfigVQ
 ---
 
 # DhcpServerSetConfigVQ function
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpServerSetConfigVQ</b> function sets or updates DHCP server settings.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param FieldsToSet [in]
 
-Specifies a bitmask of the fields to set in the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a> structure passed to <i>ConfigInfo</i>.
-
+Specifies a bitmask of the fields to set in the <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a> structure passed to <i>ConfigInfo</i>.
 
 ### -param ConfigInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a> structure that contains the new or updated settings for the DHCP server.
-
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a> structure that contains the new or updated settings for the DHCP server.
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -95,14 +87,8 @@ This call was performed by a client who is not a member of the "DHCP Administrat
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Most settings are effective immediately and do not require a restart.
 
@@ -114,17 +100,6 @@ The following DHCP server settings require a restart of the DHCP service:<ul>
 <li>Set_RestoreFlag</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_vq">DHCP_SERVER_CONFIG_INFO_VQ</a>

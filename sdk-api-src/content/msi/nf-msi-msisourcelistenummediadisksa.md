@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiSourceListEnumMediaDisksA
 title: MsiSourceListEnumMediaDisksA function (msi.h)
-description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product.
+description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product. (ANSI)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiSourceListEnumMediaDisksA", "NULL", "User SID", "msi/MsiSourceListEnumMediaDisksA", "s-1-1-0"]
 old-location: setup\msisourcelistenummediadisks.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 29bf12f4-f9e0-4853-8f03-a31a855b2ad6
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListEnumMediaDisks, MsiSourceListEnumMediaDisks function, MsiSourceListEnumMediaDisksA, MsiSourceListEnumMediaDisksW, NULL, User SID, msi/MsiSourceListEnumMediaDisks, msi/MsiSourceListEnumMediaDisksA, msi/MsiSourceListEnumMediaDisksW, s-1-1-0, setup.msisourcelistenummediadisks
-f1_keywords:
-- msi/MsiSourceListEnumMediaDisks
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSourceListEnumMediaDisks
-- MsiSourceListEnumMediaDisksA
-- MsiSourceListEnumMediaDisksW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListEnumMediaDisksA
+ - msi/MsiSourceListEnumMediaDisksA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSourceListEnumMediaDisks
+ - MsiSourceListEnumMediaDisksA
+ - MsiSourceListEnumMediaDisksW
 ---
 
 # MsiSourceListEnumMediaDisksA function
@@ -50,21 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiSourceListEnumMediaDisks</b> function enumerates the list of disks registered for the media source for a patch or product.
-			
-		
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCodeOrPatchCode [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
-
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
 
 ### -param szUserSid [in, optional]
 
@@ -151,8 +145,6 @@ The product or patch instance exists in the per-machine context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -188,18 +180,14 @@ The <i>dwOptions</i> value that  specifies the meaning of <i>szProductCodeOrPatc
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
 The index of the source to retrieve. This parameter must be 0 (zero) for the first call to the <b>MsiSourceListEnumMediaDisks</b>  function, and then incremented for subsequent calls until the function returns ERROR_NO_MORE_ITEMS.
 
-
 ### -param pdwDiskId [out, optional]
 
 On entry to <b>MsiSourceListEnumMediaDisks</b> this parameter provides a pointer to a <b>DWORD</b> to receive the ID of the disk that is being enumerated.   This parameter is optional.
-
 
 ### -param szVolumeLabel [out, optional]
 
@@ -209,13 +197,11 @@ An output buffer that receives  the volume label of the disk that is being enume
 
 If <i>szVolumeLabel</i> and <i>pcchVolumeLabel</i> are both set to <b>NULL</b>, the function returns ERROR_SUCCESS if the value exists, without  retrieving the value.
 
-
 ### -param pcchVolumeLabel [in, out, optional]
 
 A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>szVolumeLabel</i> buffer. When the function returns, this parameter is the number of <b>TCHAR</b> in the received  value,  not including the terminating null character. 
 
 This parameter can be set to <b>NULL</b> only if <i>szVolumeLabel</i> is also <b>NULL</b>, otherwise the function returns ERROR_INVALID_PARAMETER.
-
 
 ### -param szDiskPrompt [out, optional]
 
@@ -227,17 +213,13 @@ If the <i>szDiskPrompt</i> is set to <b>NULL</b> and <i>pcchDiskPrompt</i> is se
 
 If <i>szDiskPrompt</i> and <i>pcchDiskPrompt</i> are both set to <b>NULL</b>, the function returns ERROR_SUCCESS if the value exists, without  retrieving the value.
 
-
 ### -param pcchDiskPrompt [in, out, optional]
 
 A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>szDiskPrompt</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character.
 
 This parameter can be set to <b>NULL</b> only if <i>szDiskPrompt</i> is also <b>NULL</b>, otherwise the function returns ERROR_INVALID_PARAMETER.
 
-
 ## -returns
-
-
 
 The <b>MsiSourceListEnumMediaDisks</b> function returns the following values.
 
@@ -346,14 +328,8 @@ Unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When making multiple calls to <b>MsiSourceListEnumMediaDisks</b> to enumerate all the sources for a single product instance, each call must be made from the same thread.
 
@@ -365,21 +341,18 @@ An administrator can enumerate per-user unmanaged and managed installations for 
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListEnumMediaDisks as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>

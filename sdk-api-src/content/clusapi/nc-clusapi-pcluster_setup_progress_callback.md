@@ -2,15 +2,12 @@
 UID: NC:clusapi.PCLUSTER_SETUP_PROGRESS_CALLBACK
 title: PCLUSTER_SETUP_PROGRESS_CALLBACK (clusapi.h)
 description: Callback function that receives regular updates on the progression of the setup of the cluster.
+helpviewer_keywords: ["ClusterSetupPhaseAddClusterProperties","ClusterSetupPhaseAddNodeToCluster","ClusterSetupPhaseCleanupCOs","ClusterSetupPhaseCleanupNode","ClusterSetupPhaseClusterGroupOnline","ClusterSetupPhaseConfigureClusSvc","ClusterSetupPhaseConfigureClusterAccount","ClusterSetupPhaseContinue","ClusterSetupPhaseCoreGroupCleanup","ClusterSetupPhaseCreateClusterAccount","ClusterSetupPhaseCreateGroups","ClusterSetupPhaseCreateIPAddressResources","ClusterSetupPhaseCreateNetworkName","ClusterSetupPhaseCreateResourceTypes","ClusterSetupPhaseDeleteGroup","ClusterSetupPhaseEnd","ClusterSetupPhaseEvictNode","ClusterSetupPhaseFailureCleanup","ClusterSetupPhaseFatal","ClusterSetupPhaseFormingCluster","ClusterSetupPhaseGettingCurrentMembership","ClusterSetupPhaseInformational","ClusterSetupPhaseInitialize","ClusterSetupPhaseMoveGroup","ClusterSetupPhaseNodeUp","ClusterSetupPhaseOfflineGroup","ClusterSetupPhaseQueryClusterNameAccount","ClusterSetupPhaseStart","ClusterSetupPhaseStartingClusSvc","ClusterSetupPhaseValidateClusDisk","ClusterSetupPhaseValidateClusterNameAccount","ClusterSetupPhaseValidateNetft","ClusterSetupPhaseValidateNodeState","ClusterSetupPhaseWarning","ClusterSetupProgressCallback","ClusterSetupProgressCallback callback","ClusterSetupProgressCallback callback function [Failover Cluster]","PCLUSTER_SETUP_PROGRESS_CALLBACK","PCLUSTER_SETUP_PROGRESS_CALLBACK callback function [Failover Cluster]","clusapi/ClusterSetupProgressCallback","clusapi/PCLUSTER_SETUP_PROGRESS_CALLBACK","mscs.pcluster_setup_progress_callback"]
 old-location: mscs\pcluster_setup_progress_callback.htm
 tech.root: MsCS
 ms.assetid: fb7a6991-576c-4c03-aef0-89811fbc1a0d
 ms.date: 12/05/2018
 ms.keywords: ClusterSetupPhaseAddClusterProperties, ClusterSetupPhaseAddNodeToCluster, ClusterSetupPhaseCleanupCOs, ClusterSetupPhaseCleanupNode, ClusterSetupPhaseClusterGroupOnline, ClusterSetupPhaseConfigureClusSvc, ClusterSetupPhaseConfigureClusterAccount, ClusterSetupPhaseContinue, ClusterSetupPhaseCoreGroupCleanup, ClusterSetupPhaseCreateClusterAccount, ClusterSetupPhaseCreateGroups, ClusterSetupPhaseCreateIPAddressResources, ClusterSetupPhaseCreateNetworkName, ClusterSetupPhaseCreateResourceTypes, ClusterSetupPhaseDeleteGroup, ClusterSetupPhaseEnd, ClusterSetupPhaseEvictNode, ClusterSetupPhaseFailureCleanup, ClusterSetupPhaseFatal, ClusterSetupPhaseFormingCluster, ClusterSetupPhaseGettingCurrentMembership, ClusterSetupPhaseInformational, ClusterSetupPhaseInitialize, ClusterSetupPhaseMoveGroup, ClusterSetupPhaseNodeUp, ClusterSetupPhaseOfflineGroup, ClusterSetupPhaseQueryClusterNameAccount, ClusterSetupPhaseStart, ClusterSetupPhaseStartingClusSvc, ClusterSetupPhaseValidateClusDisk, ClusterSetupPhaseValidateClusterNameAccount, ClusterSetupPhaseValidateNetft, ClusterSetupPhaseValidateNodeState, ClusterSetupPhaseWarning, ClusterSetupProgressCallback, ClusterSetupProgressCallback callback, ClusterSetupProgressCallback callback function [Failover Cluster], PCLUSTER_SETUP_PROGRESS_CALLBACK, PCLUSTER_SETUP_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterSetupProgressCallback, clusapi/PCLUSTER_SETUP_PROGRESS_CALLBACK, mscs.pcluster_setup_progress_callback
-f1_keywords:
-- clusapi/ClusterSetupProgressCallback callback
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- ClusterSetupProgressCallback callback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PCLUSTER_SETUP_PROGRESS_CALLBACK
+ - clusapi/PCLUSTER_SETUP_PROGRESS_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - ClusterSetupProgressCallback callback
 ---
 
 # PCLUSTER_SETUP_PROGRESS_CALLBACK callback function
@@ -47,30 +48,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Callback function that receives regular updates on the progression of the setup of the 
     cluster. This callback is used during processing of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> functions.
-
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> functions.
 
 ## -parameters
-
-
-
 
 ### -param pvCallbackArg [in, optional]
 
 <i>pvCallbackArg</i> parameter passed to the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> function.
-
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, or 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> function.
 
 ### -param eSetupPhase [in]
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration 
+Value from the <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration 
        that gives the current setup phase. The parameter can be one of the following values.
 
 
@@ -241,10 +236,9 @@ Return core resource group to pre-clustered state.
 
 Return failed resource to pre-clustered state.
 
-
 ### -param ePhaseType [in]
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a> 
+Value from the <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a> 
        enumeration that gives the current setup phase type. The parameter can be one of the following values.
 
 
@@ -268,11 +262,10 @@ Indicates the continuation of a setup phase as passed in the <i>eSetupPhase</i>
 Called once at the end of every setup phase as passed in the <i>eSetupPhase</i> 
          parameter.
 
-
 ### -param ePhaseSeverity [in]
 
 Value from the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
+       <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
        that gives the current setup phase severity. The parameter can be one of the following values.
 
 
@@ -293,80 +286,59 @@ This phase of the cluster setup can complete, with a warning.
 
 This phase of the cluster setup process cannot complete successfully.
 
-
 ### -param dwPercentComplete [in]
 
 Indicates approximate percentage of setup that has been completed.
 
 Range: 0–100
 
-
 ### -param lpszObjectName [in, optional]
 
 Name of the object.
-
 
 ### -param dwStatus [in] [in]
 
 Status
 
-
 ## -returns
-
-
 
 TBD
 
-
-
-
 ## -remarks
-
-
 
 The <b>PCLUSTER_SETUP_PROGRESS_CALLBACK</b> type defines a pointer to this function.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a> 
+The <a href="/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a> 
      MOF class is used in a similar manner.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a>

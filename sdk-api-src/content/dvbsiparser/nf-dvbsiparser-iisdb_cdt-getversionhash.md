@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IISDB_CDT.GetVersionHash
 title: IISDB_CDT::GetVersionHash (dvbsiparser.h)
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+helpviewer_keywords: ["GetVersionHash","GetVersionHash method [Microsoft TV Technologies]","GetVersionHash method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetVersionHash method","IISDB_CDT.GetVersionHash","IISDB_CDT::GetVersionHash","dvbsiparser/IISDB_CDT::GetVersionHash","mstv.iisdb_cdt_getversionhash"]
 old-location: mstv\iisdb_cdt_getversionhash.htm
 tech.root: mstv
 ms.assetid: b6c3dd34-8db5-45a4-9c13-7e05d94c58b7
 ms.date: 12/05/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetVersionHash method, IISDB_CDT.GetVersionHash, IISDB_CDT::GetVersionHash, dvbsiparser/IISDB_CDT::GetVersionHash, mstv.iisdb_cdt_getversionhash
-f1_keywords:
-- dvbsiparser/IISDB_CDT.GetVersionHash
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_CDT.GetVersionHash
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_CDT::GetVersionHash
+ - dvbsiparser/IISDB_CDT::GetVersionHash
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_CDT.GetVersionHash
 ---
 
 # IISDB_CDT::GetVersionHash
 
 
 ## -description
-
 
 Returns a hash value for this instance of an Integrated Services 
 
@@ -58,33 +59,16 @@ Tables that refer to
   two tables carry the same information,
   even if the tables are carried on different transport streams.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwVersionHash [out]
 
 Receives the hash value.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_cdt">IISDB_CDT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_cdt">IISDB_CDT</a>

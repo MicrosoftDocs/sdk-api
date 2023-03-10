@@ -1,16 +1,13 @@
 ---
 UID: NS:winsock2._WSAPROTOCOL_INFOA
 title: WSAPROTOCOL_INFOA (winsock2.h)
-description: Used to store or retrieve complete information for a given protocol.
+description: Used to store or retrieve complete information for a given protocol. (ANSI)
+helpviewer_keywords: ["*LPWSAPROTOCOL_INFOA","AF_APPLETALK","AF_BTH","AF_INET","AF_INET6","AF_IPX","AF_IRDA","AF_NETBIOS","BTHPROTO_RFCOMM","IPPROTO_ICMP","IPPROTO_ICMPV6","IPPROTO_IGMP","IPPROTO_RM","IPPROTO_TCP","IPPROTO_UDP","LPWSAPROTOCOL_INFOA","LPWSAPROTOCOL_INFOA structure pointer [Winsock]","PFL_HIDDEN","PFL_MATCHES_PROTOCOL_ZERO","PFL_MULTIPLE_PROTO_ENTRIES","PFL_NETWORKDIRECT_PROVIDER","PFL_RECOMMENDED_PROTO_ENTRY","SOCK_DGRAM","SOCK_RAW","SOCK_RDM","SOCK_SEQPACKET","SOCK_STREAM","WSAPROTOCOL_INFO","WSAPROTOCOL_INFOA","WSAPROTOCOL_INFOA structure [Winsock]","WSAPROTOCOL_INFOW","XP1_CONNECTIONLESS","XP1_CONNECT_DATA","XP1_DISCONNECT_DATA","XP1_EXPEDITED_DATA","XP1_GRACEFUL_CLOSE","XP1_GUARANTEED_DELIVERY","XP1_GUARANTEED_ORDER","XP1_IFS_HANDLES","XP1_INTERRUPT","XP1_MESSAGE_ORIENTED","XP1_MULTIPOINT_CONTROL_PLANE","XP1_MULTIPOINT_DATA_PLANE","XP1_PARTIAL_MESSAGE","XP1_PSEUDO_STREAM","XP1_QOS_SUPPORTED","XP1_SAN_SUPPORT_SDP","XP1_SUPPORT_BROADCAST","XP1_SUPPORT_MULTIPOINT","XP1_UNI_RECV","XP1_UNI_SEND","_WSAPROTOCOL_INFOA","_win32_wsaprotocol_info_2","winsock.wsaprotocol_info_2","winsock2/LPWSAPROTOCOL_INFOA","winsock2/WSAPROTOCOL_INFOA","winsock2/WSAPROTOCOL_INFOW"]
 old-location: winsock\wsaprotocol_info_2.htm
 tech.root: WinSock
 ms.assetid: 758c5553-056f-4ea5-a851-30ef641ffb14
 ms.date: 12/05/2018
 ms.keywords: '*LPWSAPROTOCOL_INFOA, AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPWSAPROTOCOL_INFOA, LPWSAPROTOCOL_INFOA structure pointer [Winsock], PFL_HIDDEN, PFL_MATCHES_PROTOCOL_ZERO, PFL_MULTIPLE_PROTO_ENTRIES, PFL_NETWORKDIRECT_PROVIDER, PFL_RECOMMENDED_PROTO_ENTRY, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, WSAPROTOCOL_INFO, WSAPROTOCOL_INFOA, WSAPROTOCOL_INFOA structure [Winsock], WSAPROTOCOL_INFOW, XP1_CONNECTIONLESS, XP1_CONNECT_DATA, XP1_DISCONNECT_DATA, XP1_EXPEDITED_DATA, XP1_GRACEFUL_CLOSE, XP1_GUARANTEED_DELIVERY, XP1_GUARANTEED_ORDER, XP1_IFS_HANDLES, XP1_INTERRUPT, XP1_MESSAGE_ORIENTED, XP1_MULTIPOINT_CONTROL_PLANE, XP1_MULTIPOINT_DATA_PLANE, XP1_PARTIAL_MESSAGE, XP1_PSEUDO_STREAM, XP1_QOS_SUPPORTED, XP1_SAN_SUPPORT_SDP, XP1_SUPPORT_BROADCAST, XP1_SUPPORT_MULTIPOINT, XP1_UNI_RECV, XP1_UNI_SEND, _WSAPROTOCOL_INFOA, _win32_wsaprotocol_info_2, winsock.wsaprotocol_info_2, winsock2/LPWSAPROTOCOL_INFOA, winsock2/WSAPROTOCOL_INFOA, winsock2/WSAPROTOCOL_INFOW'
-f1_keywords:
-- winsock2/WSAPROTOCOL_INFOA
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsock2.h
-api_name:
-- WSAPROTOCOL_INFOA
-- WSAPROTOCOL_INFOA
-- WSAPROTOCOL_INFOW
 targetos: Windows
 req.typenames: WSAPROTOCOL_INFOA, *LPWSAPROTOCOL_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSAPROTOCOL_INFOA
+ - winsock2/_WSAPROTOCOL_INFOA
+ - LPWSAPROTOCOL_INFOA
+ - winsock2/LPWSAPROTOCOL_INFOA
+ - WSAPROTOCOL_INFOA
+ - winsock2/WSAPROTOCOL_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsock2.h
+api_name:
+ - WSAPROTOCOL_INFOA
+ - WSAPROTOCOL_INFOA
+ - WSAPROTOCOL_INFOW
 ---
 
 # WSAPROTOCOL_INFOA structure
@@ -50,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSAPROTOCOL_INFO</b> structure is used to store or retrieve complete information for a given protocol.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwServiceFlags1
 
@@ -278,8 +279,8 @@ Socket descriptors returned by the provider are operating system Installable Fil
 </td>
 <td width="60%">
 The MSG_PARTIAL flag is supported in 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> and 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>.
 
 </td>
 </tr>
@@ -299,7 +300,7 @@ This value is supported on Windows 7 and Windows Server 2008 R2.
 </table>
  
 
-<div class="alert"><b>Note</b>  Only one of XP1_UNI_SEND or XP1_UNI_RECV values may be set. If a protocol can be unidirectional in either direction, two <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infow">WSAPROTOCOL_INFOW</a> structures should be used. When neither bit is set, the protocol is considered to be bidirectional.</div>
+<div class="alert"><b>Note</b>  Only one of XP1_UNI_SEND or XP1_UNI_RECV values may be set. If a protocol can be unidirectional in either direction, two <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infow">WSAPROTOCOL_INFOW</a> structures should be used. When neither bit is set, the protocol is considered to be bidirectional.</div>
 <div> </div>
 
 ### -field dwServiceFlags2
@@ -308,20 +309,17 @@ Type: <b>DWORD</b>
 
 Reserved for additional protocol-attribute definitions.
 
-
 ### -field dwServiceFlags3
 
 Type: <b>DWORD</b>
 
 Reserved for additional protocol-attribute definitions.
 
-
 ### -field dwServiceFlags4
 
 Type: <b>DWORD</b>
 
 Reserved for additional protocol-attribute definitions.
-
 
 ### -field dwProviderFlags
 
@@ -366,7 +364,7 @@ Indicates that this is the recommended or most frequently used entry for a proto
 </td>
 <td width="60%">
 Set by a provider to indicate to the Ws2_32.dll that this protocol should not be returned in the result buffer generated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>. Obviously, a Windows Sockets 2 application should never see an entry with this bit set.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>. Obviously, a Windows Sockets 2 application should never see an entry with this bit set.
 
 </td>
 </tr>
@@ -378,8 +376,8 @@ Set by a provider to indicate to the Ws2_32.dll that this protocol should not be
 </td>
 <td width="60%">
 Indicates that a value of zero in the <i>protocol</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> matches this protocol entry.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> matches this protocol entry.
 
 </td>
 </tr>
@@ -397,8 +395,6 @@ This value is supported on Windows 7 and Windows Server 2008 R2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ProviderId
 
@@ -406,25 +402,17 @@ Type: <b>GUID</b>
 
 A globally unique identifier (GUID) assigned to the provider by the service provider vendor. This value is useful for instances where more than one service provider is able to implement a particular protocol. An application can use the <b>ProviderId</b> member to distinguish between providers that might otherwise be indistinguishable.
 
-
 ### -field dwCatalogEntryId
 
 Type: <b>DWORD</b>
 
-A unique identifier assigned by the WS2_32.DLL for each <b>WSAPROTOCOL_INFO</b> structure. 
-
-
-
-						
-					
-
+A unique identifier assigned by the WS2_32.DLL for each <b>WSAPROTOCOL_INFO</b> structure.
 
 ### -field ProtocolChain
 
 Type: <b>WSAPROTOCOLCHAIN</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocolchain">WSAPROTOCOLCHAIN</a> structure associated with the protocol. If the length of the chain is 0, this <b>WSAPROTOCOL_INFO</b> entry represents a layered protocol which has Windows Sockets 2 SPI as both its top and bottom edges. If the length of the chain equals 1, this entry represents a base protocol whose Catalog Entry identifier is in the <b>dwCatalogEntryId</b> member of the <b>WSAPROTOCOL_INFO</b> structure. If the length of the chain is larger than 1, this entry represents a protocol chain which consists of one or more layered protocols on top of a base protocol. The corresponding Catalog Entry identifiers are in the ProtocolChain.ChainEntries array starting with the layered protocol at the top (the zero element in the ProtocolChain.ChainEntries array) and ending with the base protocol. Refer to the Windows Sockets 2 Service Provider Interface specification for more information on protocol chains.
-
+The <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocolchain">WSAPROTOCOLCHAIN</a> structure associated with the protocol. If the length of the chain is 0, this <b>WSAPROTOCOL_INFO</b> entry represents a layered protocol which has Windows Sockets 2 SPI as both its top and bottom edges. If the length of the chain equals 1, this entry represents a base protocol whose Catalog Entry identifier is in the <b>dwCatalogEntryId</b> member of the <b>WSAPROTOCOL_INFO</b> structure. If the length of the chain is larger than 1, this entry represents a protocol chain which consists of one or more layered protocols on top of a base protocol. The corresponding Catalog Entry identifiers are in the ProtocolChain.ChainEntries array starting with the layered protocol at the top (the zero element in the ProtocolChain.ChainEntries array) and ending with the base protocol. Refer to the Windows Sockets 2 Service Provider Interface specification for more information on protocol chains.
 
 ### -field iVersion
 
@@ -432,13 +420,12 @@ Type: <b>int</b>
 
 The protocol version identifier.
 
-
 ### -field iAddressFamily
 
 Type: <b>int</b>
 
 A value to pass as the address family parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function in order to open a socket for this protocol. This value also uniquely defines the structure of a protocol address for a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> used by the protocol.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function in order to open a socket for this protocol. This value also uniquely defines the structure of a protocol address for a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> used by the protocol.
 
 On the Windows SDK released for Windows Vista and later, the possible values for the address family are defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
 
@@ -506,7 +493,7 @@ The Windows Sockets provider for NetBIOS is not supported on 64-bit versions of 
 
 The Windows Sockets provider for NetBIOS  only supports sockets where the <i>type</i> parameter is set to <b>SOCK_DGRAM</b>.
 
-The Windows Sockets provider for NetBIOS  is not directly related to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
+The Windows Sockets provider for NetBIOS  is not directly related to the <a href="/previous-versions/windows/desktop/netbios/portal">NetBIOS</a> programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.
 
 </td>
 </tr>
@@ -548,8 +535,6 @@ This address family is supported on Windows XP with SP2 or later if the compute
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iMaxSockAddr
 
@@ -557,20 +542,18 @@ Type: <b>int</b>
 
 The maximum address length, in bytes.
 
-
 ### -field iMinSockAddr
 
 Type: <b>int</b>
 
 The minimum address length, in bytes.
 
-
 ### -field iSocketType
 
 Type: <b>int</b>
 
 A value to pass as the socket type parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function in order to open a socket for this protocol. Possible values for the socket type are defined in the <i>Winsock2.h</i> header file.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>  or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function in order to open a socket for this protocol. Possible values for the socket type are defined in the <i>Winsock2.h</i> header file.
 
 The following table lists the possible values for the <b>iSocketType</b> member supported for Windows Sockets 2:
 
@@ -608,7 +591,7 @@ A socket type that supports datagrams, which are connectionless, unreliable buff
 </dl>
 </td>
 <td width="60%">
-A socket type that provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ip-socket-options">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_HDRINCL</a> socket option must be set on the socket.  
+A socket type that provides a raw socket that allows an application to manipulate the next upper-layer protocol header. To manipulate the IPv4 header, the <a href="/windows/desktop/WinSock/ipproto-ip-socket-options">IP_HDRINCL</a> socket option must be set on the socket.  To manipulate the IPv6 header, the <a href="/windows/desktop/WinSock/ipproto-ipv6-socket-options">IPV6_HDRINCL</a> socket option must be set on the socket.  
 
 </td>
 </tr>
@@ -619,7 +602,7 @@ A socket type that provides a raw socket that allows an application to manipulat
 </dl>
 </td>
 <td width="60%">
-A socket type that provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="https://docs.microsoft.com/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>. 
+A socket type that provides a reliable message datagram. An example of this type is the Pragmatic General Multicast (PGM) multicast protocol implementation in Windows, often referred to as <a href="/windows/desktop/WinSock/reliable-multicast-programming--pgm-">reliable multicast programming</a>. 
 
 This value is only supported if the Reliable Multicast Protocol is installed.
 
@@ -637,15 +620,13 @@ A socket type that provides a pseudo-stream packet based on datagrams.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iProtocol
 
 Type: <b>int</b>
 
 A value to pass as the <i>protocol</i> parameter to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function in order to open a socket for this protocol. The possible options for the <b>iProtocol</b> member are specific to the address family and socket type specified. 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>  or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function in order to open a socket for this protocol. The possible options for the <b>iProtocol</b> member are specific to the address family and socket type specified. 
 
 On the Windows SDK released for Windows Vista and later, this member can be one of the values from the <b>IPPROTO</b> enumeration type defined in the <i>Ws2def.h</i> header file. Note that the <i>Ws2def.h</i> header file is automatically included in <i>Winsock2.h</i>, and should never be used directly.
 
@@ -746,16 +727,13 @@ This value is only supported if the Reliable Multicast Protocol is installed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iProtocolMaxOffset
 
 Type: <b>int</b>
 
 The maximum value that may be added to <b>iProtocol</b> when supplying a value for the <i>protocol</i> parameter to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function. Not all protocols allow a range of values. When this is the case <b>iProtocolMaxOffset</b> is zero.
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function. Not all protocols allow a range of values. When this is the case <b>iProtocolMaxOffset</b> is zero.
 
 ### -field iNetworkByteOrder
 
@@ -763,13 +741,11 @@ Type: <b>int</b>
 
 Currently these values are manifest constants (BIGENDIAN and LITTLEENDIAN) that indicate either big-endian or little-endian with the values 0 and 1 respectively.
 
-
 ### -field iSecurityScheme
 
 Type: <b>int</b>
 
 The type of security scheme employed (if any). A value of SECURITY_PROTOCOL_NONE (0) is used for protocols that do not incorporate security provisions.
-
 
 ### -field dwMessageSize
 
@@ -801,7 +777,7 @@ The protocol is stream-oriented and hence the concept of message size is not rel
 </td>
 <td width="60%">
 The maximum outbound (send) message size is dependent on the underlying network MTU (maximum sized transmission unit) and hence cannot be known until after a socket is bound. Applications should use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> to retrieve the value of SO_MAX_MSG_SIZE after the socket has been bound to a local address.
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> to retrieve the value of SO_MAX_MSG_SIZE after the socket has been bound to a local address.
 
 </td>
 </tr>
@@ -817,8 +793,6 @@ The protocol is message-oriented, but there is no maximum limit to the size of m
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwProviderReserved
 
@@ -826,65 +800,61 @@ Type: <b>DWORD</b>
 
 Reserved for use by service providers.
 
-
 ### -field szProtocol
 
 Type: <b>TCHAR[WSAPROTOCOL_LEN+1]</b>
 
 An array of characters that contains a human-readable name identifying the protocol, for example "MSAFD Tcpip [UDP/IP]". The maximum number of characters allowed is WSAPROTOCOL_LEN, which is defined to be 255.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocolchain">WSAPROTOCOLCHAIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocolchain">WSAPROTOCOLCHAIN</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infow">WSAPROTOCOL_INFOW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infow">WSAPROTOCOL_INFOW</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider">WSCInstallProvider</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider64_32">WSCInstallProvider64_32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallprovider64_32">WSCInstallProvider64_32</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscupdateprovider">WSCUpdateProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscupdateprovider">WSCUpdateProvider</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscupdateprovider32">WSCUpdateProvider32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscupdateprovider32">WSCUpdateProvider32</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
-
+> [!NOTE]
+> The winsock2.h header defines WSAPROTOCOL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

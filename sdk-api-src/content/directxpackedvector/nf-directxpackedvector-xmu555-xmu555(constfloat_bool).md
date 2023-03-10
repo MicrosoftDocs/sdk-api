@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMU555.XMU555(const float,bool)
+UID: NF:directxpackedvector.XMU555.XMU555(constfloat,bool)
 title: XMU555::XMU555(const float,bool) (directxpackedvector.h)
 description: Initializes a new instance of XMU555 from a three element float array and one bool argument.
+helpviewer_keywords: ["XMU555","XMU555 constructor [DirectX Math Support APIs]","XMU555 constructor [DirectX Math Support APIs]","XMU555 structure","XMU555 structure [DirectX Math Support APIs]","XMU555 constructor","XMU555.XMU555","XMU555.XMU555()","XMU555.XMU555(const float","bool)","XMU555::XMU555","XMU555::XMU555(const float","bool)","dxmath.xmu555_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 58be8e63-89fe-477e-b9a7-130ef0623cc0
 ms.date: 05/06/2019
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555.XMU555(const float,bool), XMU555::XMU555, XMU555::XMU555(const float,bool), dxmath.xmu555_ctor_1
-f1_keywords:
-- directxpackedvector/XMU555.XMU555
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMU555.XMU555
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMU555::XMU555
+ - directxpackedvector/XMU555::XMU555
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU555.XMU555
 ---
 
 # XMU555::XMU555(const float,bool)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a> from a three element <code>float</code> array and one <code>bool</code> argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a> from a three element <code>float</code> array and one <code>bool</code> argument.
 
 This constructor initializes a new instance of **XMU555** from a three element <code>float</code> array (specifying x-, y- and z-components) and one <code>bool</code> argument (specifying a w-component).
 
@@ -93,6 +96,6 @@ instance.v =  (((uint16_t)_w1 ? 0x8000 : 0) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
+<a href="/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>

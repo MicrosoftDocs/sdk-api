@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Close
 title: IWMWriterNetworkSink::Close (wmsdkidl.h)
 description: The Close method disconnects all clients from the network sink, and releases the port.
+helpviewer_keywords: ["Close","Close method [windows Media Format]","Close method [windows Media Format]","IWMWriterNetworkSink interface","IWMWriterNetworkSink interface [windows Media Format]","Close method","IWMWriterNetworkSink.Close","IWMWriterNetworkSink::Close","IWMWriterNetworkSinkClose","wmformat.iwmwriternetworksink_close","wmsdkidl/IWMWriterNetworkSink::Close"]
 old-location: wmformat\iwmwriternetworksink_close.htm
 tech.root: wmformat
 ms.assetid: 7e36b94b-e6d3-46a0-8874-edd545e0e5b1
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Close method, IWMWriterNetworkSink.Close, IWMWriterNetworkSink::Close, IWMWriterNetworkSinkClose, wmformat.iwmwriternetworksink_close, wmsdkidl/IWMWriterNetworkSink::Close
-f1_keywords:
-- wmsdkidl/IWMWriterNetworkSink.Close
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterNetworkSink.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterNetworkSink::Close
+ - wmsdkidl/IWMWriterNetworkSink::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterNetworkSink.Close
 ---
 
 # IWMWriterNetworkSink::Close
@@ -51,23 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Close</b> method disconnects all clients from the network sink, and releases the port.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, the values shown in the following table.
 
@@ -99,31 +89,15 @@ The network sink is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-See the Remarks and Example Code sections for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
-
-
-
+See the Remarks and Example Code sections for <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-open">IWMWriterNetworkSink::Open</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-open">IWMWriterNetworkSink::Open</a>

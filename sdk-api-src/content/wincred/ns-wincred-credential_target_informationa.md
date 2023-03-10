@@ -1,16 +1,13 @@
 ---
 UID: NS:wincred._CREDENTIAL_TARGET_INFORMATIONA
 title: CREDENTIAL_TARGET_INFORMATIONA (wincred.h)
-description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree.
+description: The CREDENTIAL_TARGET_INFORMATION structure contains the target computer's name, domain, and tree. (ANSI)
+helpviewer_keywords: ["*PCREDENTIAL_TARGET_INFORMATIONA","CREDENTIAL_TARGET_INFORMATION","CREDENTIAL_TARGET_INFORMATION structure [Security]","CREDENTIAL_TARGET_INFORMATIONA","PCREDENTIAL_TARGET_INFORMATION","PCREDENTIAL_TARGET_INFORMATION structure pointer [Security]","_cred_credential_target_information","security.credential_target_information","wincred/CREDENTIAL_TARGET_INFORMATION","wincred/PCREDENTIAL_TARGET_INFORMATION"]
 old-location: security\credential_target_information.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 92180f2c-ef7c-4481-9b6f-19234c114afb
 ms.date: 12/05/2018
 ms.keywords: '*PCREDENTIAL_TARGET_INFORMATIONA, CREDENTIAL_TARGET_INFORMATION, CREDENTIAL_TARGET_INFORMATION structure [Security], CREDENTIAL_TARGET_INFORMATIONA, PCREDENTIAL_TARGET_INFORMATION, PCREDENTIAL_TARGET_INFORMATION structure pointer [Security], _cred_credential_target_information, security.credential_target_information, wincred/CREDENTIAL_TARGET_INFORMATION, wincred/PCREDENTIAL_TARGET_INFORMATION'
-f1_keywords:
-- wincred/CREDENTIAL_TARGET_INFORMATION
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinCred.h
-api_name:
-- CREDENTIAL_TARGET_INFORMATION
 targetos: Windows
 req.typenames: CREDENTIAL_TARGET_INFORMATIONA, *PCREDENTIAL_TARGET_INFORMATIONA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREDENTIAL_TARGET_INFORMATIONA
+ - wincred/_CREDENTIAL_TARGET_INFORMATIONA
+ - PCREDENTIAL_TARGET_INFORMATIONA
+ - wincred/PCREDENTIAL_TARGET_INFORMATIONA
+ - CREDENTIAL_TARGET_INFORMATIONA
+ - wincred/CREDENTIAL_TARGET_INFORMATIONA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinCred.h
+api_name:
+ - CREDENTIAL_TARGET_INFORMATION
 ---
 
 # CREDENTIAL_TARGET_INFORMATIONA structure
@@ -48,49 +54,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CREDENTIAL_TARGET_INFORMATION</b> structure contains the target computer's name, domain, and tree.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TargetName
 
 Name of the target server as specified by the caller accessing the target. It is typically the NetBIOS or DNS name of the target server.
 
-
 ### -field NetbiosServerName
 
 NetBIOS name of the target server. If the name is not known, this member can be <b>NULL</b>.
-
 
 ### -field DnsServerName
 
 DNS name of the target server. If the name is not known, this member can be <b>NULL</b>.
 
-
 ### -field NetbiosDomainName
 
 NetBIOS name of the target server's domain. If the name is not known, this member can be <b>NULL</b>. If the target server is a member of a workgroup, this member must be <b>NULL</b>.
-
 
 ### -field DnsDomainName
 
 DNS name of the target server's domain. If the name is not known, this member can be <b>NULL</b>. If the target server is a member of a workgroup, this member must be <b>NULL</b>.
 
-
 ### -field DnsTreeName
 
 DNS name of the target server's tree. If the tree name is not known, this member can be <b>NULL</b>. If the target server is a member of a workgroup, this member must be <b>NULL</b>.
 
-
 ### -field PackageName
 
-Name of the authentication package that determined the values <b>NetbiosServerName</b>, <b>DnsServerName</b>, <b>NetbiosDomainName</b>, <b>DnsDomainName</b>, and <b>DnsTreeName</b> as a function of <b>TargetName</b>. This member can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> as the package name.
-
+Name of the authentication package that determined the values <b>NetbiosServerName</b>, <b>DnsServerName</b>, <b>NetbiosDomainName</b>, <b>DnsDomainName</b>, and <b>DnsTreeName</b> as a function of <b>TargetName</b>. This member can be passed to <a href="/windows/desktop/api/sspi/nf-sspi-acquirecredentialshandlea">AcquireCredentialsHandle</a> as the package name.
 
 ### -field Flags
 
@@ -126,8 +120,11 @@ Stored credentials require a UserName member. A value of &lt;<i>DnsServerName</i
 
 Number of elements in the <b>CredTypes</b> array.
 
-
 ### -field CredTypes
 
 Array specifying the credential types acceptable by the authentication package used by the target server. Each element is one of the CRED_TYPE_* defines. The order of this array specifies the preference order of the authentication package. More preferable types are specified earlier in the list.
 
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CREDENTIAL_TARGET_INFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

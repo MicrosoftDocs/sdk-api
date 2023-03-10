@@ -2,15 +2,12 @@
 UID: NF:npapi.NPFormatNetworkName
 title: NPFormatNetworkName function (npapi.h)
 description: Formats a network name in a provider-specific format for display in a control.
+helpviewer_keywords: ["NPFormatNetworkName","NPFormatNetworkName function [Security]","WNFMT_ABBREVIATED","WNFMT_INENUM","WNFMT_MULTILINE","_mnp_npformatnetworkname","npapi/NPFormatNetworkName","security.npformatnetworkname"]
 old-location: security\npformatnetworkname.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: a1d599fb-7b1c-4828-9cd7-bd520513f5be
 ms.date: 12/05/2018
 ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT_ABBREVIATED, WNFMT_INENUM, WNFMT_MULTILINE, _mnp_npformatnetworkname, npapi/NPFormatNetworkName, security.npformatnetworkname
-f1_keywords:
-- npapi/NPFormatNetworkName
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPFormatNetworkName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPFormatNetworkName
+ - npapi/NPFormatNetworkName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPFormatNetworkName
 ---
 
 # NPFormatNetworkName function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats a network name in a provider-specific format for display in a control.
 
-
 ## -parameters
-
-
-
 
 ### -param lpRemoteName [in]
 
 Pointer to the network name to format.
 
-
 ### -param lpFormattedName [out]
 
-Pointer to a string that receives the formatted name. 
-
+Pointer to a string that receives the formatted name.
 
 ### -param lpnLength [in, out]
 
 Pointer to <b>DWORD</b> that specifies the size, in characters, of the <i>lpFormattedName</i> buffer. If the return value of this function is WN_MORE_DATA, <i>lpnLength</i> contains the required buffer size, in characters.
-
 
 ### -param dwFlags [in]
 
@@ -97,7 +91,7 @@ Bitfield that indicates the type of format being requested. This parameter can b
 </dl>
 </td>
 <td width="60%">
-The provider should place  backslash n (\n)  where line breaks should appear in the name. The full name should be expressed.
+The provider should place  backslash n (\\n)  where line breaks should appear in the name. The full name should be expressed.
 
 </td>
 </tr>
@@ -135,18 +129,13 @@ The network name is presented in the context of an enumeration where the name of
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwAveCharPerLine [in]
 
 Specifies the average number of characters that will fit on a single line where the network name is being presented. Specifically, this value is defined as the width of the control divided by the <b>tmAveCharWidth</b> field of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a> structure from the font used for display in the control.
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a> structure from the font used for display in the control.
 
 ## -returns
-
-
 
 If the function succeeds, it should return WN_SUCCESS.
 					
@@ -170,14 +159,8 @@ The input buffer is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function allows network vendors to trim or modify network names before they are presented to the user. For example, in the common <b>Open</b> dialog box, the <b>Drives</b> combo box presents all connected resources and their associated network name. Before each item is displayed, <b>NPFormatNetworkName</b> is called, and the network provider has the option of editing the name so it will fit in the combo box. More important, the network provider can edit the name to present the most significant portion of the network name to the user.
 
@@ -295,7 +278,3 @@ X
 <td> </td>
 </tr>
 </table>
- 
-
-
-

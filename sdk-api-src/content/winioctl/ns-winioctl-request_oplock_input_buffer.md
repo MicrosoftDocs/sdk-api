@@ -2,15 +2,12 @@
 UID: NS:winioctl._REQUEST_OPLOCK_INPUT_BUFFER
 title: REQUEST_OPLOCK_INPUT_BUFFER
 description: Contains the information to request an opportunistic lock (oplock) or to acknowledge an oplock break with the FSCTL_REQUEST_OPLOCK control code.
+helpviewer_keywords: ["*PREQUEST_OPLOCK_INPUT_BUFFER","OPLOCK_LEVEL_CACHE_HANDLE","OPLOCK_LEVEL_CACHE_READ","OPLOCK_LEVEL_CACHE_WRITE","PREQUEST_OPLOCK_INPUT_BUFFER","PREQUEST_OPLOCK_INPUT_BUFFER structure pointer [Files]","REQUEST_OPLOCK_INPUT_BUFFER","REQUEST_OPLOCK_INPUT_BUFFER structure [Files]","REQUEST_OPLOCK_INPUT_FLAG_ACK","REQUEST_OPLOCK_INPUT_FLAG_REQUEST","fs.request_oplock_input_buffer","winioctl/PREQUEST_OPLOCK_INPUT_BUFFER","winioctl/REQUEST_OPLOCK_INPUT_BUFFER"]
 old-location: fs\request_oplock_input_buffer.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: ac19fbd3-a967-4ac8-9260-93e07b5008ac
 ms.date: 12/05/2018
 ms.keywords: '*PREQUEST_OPLOCK_INPUT_BUFFER, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, PREQUEST_OPLOCK_INPUT_BUFFER, PREQUEST_OPLOCK_INPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_INPUT_BUFFER, REQUEST_OPLOCK_INPUT_BUFFER structure [Files], REQUEST_OPLOCK_INPUT_FLAG_ACK, REQUEST_OPLOCK_INPUT_FLAG_REQUEST, fs.request_oplock_input_buffer, winioctl/PREQUEST_OPLOCK_INPUT_BUFFER, winioctl/REQUEST_OPLOCK_INPUT_BUFFER'
-f1_keywords:
-- winioctl/REQUEST_OPLOCK_INPUT_BUFFER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- REQUEST_OPLOCK_INPUT_BUFFER
 targetos: Windows
 req.typenames: REQUEST_OPLOCK_INPUT_BUFFER, *PREQUEST_OPLOCK_INPUT_BUFFER
 req.redist: 
+f1_keywords:
+ - _REQUEST_OPLOCK_INPUT_BUFFER
+ - winioctl/_REQUEST_OPLOCK_INPUT_BUFFER
+ - PREQUEST_OPLOCK_INPUT_BUFFER
+ - winioctl/PREQUEST_OPLOCK_INPUT_BUFFER
+ - REQUEST_OPLOCK_INPUT_BUFFER
+ - winioctl/REQUEST_OPLOCK_INPUT_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - REQUEST_OPLOCK_INPUT_BUFFER
 ---
 
 # REQUEST_OPLOCK_INPUT_BUFFER structure
@@ -47,16 +53,11 @@ req.redist:
 
 ## -description
 
-
 Contains the information to request an opportunistic lock (oplock) or to acknowledge an oplock break 
-    with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control 
+    with the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control 
     code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructureVersion
 
@@ -64,12 +65,10 @@ The version of the
       <b>REQUEST_OPLOCK_INPUT_BUFFER</b> structure that 
       is being used. Set this member to <b>REQUEST_OPLOCK_CURRENT_VERSION</b>.
 
-
 ### -field StructureLength
 
 The length of this structure, in bytes. Must be set to 
       <code>sizeof(REQUEST_OPLOCK_INPUT_BUFFER)</code>.
-
 
 ### -field RequestedOplockLevel
 
@@ -122,8 +121,7 @@ Valid combinations of these values are as follows:
 <li><code>OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_WRITE | OPLOCK_LEVEL_CACHE_HANDLE</code></li>
 </ul>
 For more information about these value combinations, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>.
-
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>.
 
 ### -field Flags
 
@@ -159,20 +157,11 @@ Acknowledgment of an oplock break.  Setting this flag together with
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_output_buffer">REQUEST_OPLOCK_OUTPUT_BUFFER</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_output_buffer">REQUEST_OPLOCK_OUTPUT_BUFFER</a>

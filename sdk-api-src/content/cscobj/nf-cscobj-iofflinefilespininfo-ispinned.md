@@ -2,15 +2,12 @@
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinned
 title: IOfflineFilesPinInfo::IsPinned (cscobj.h)
 description: Determines whether the item is pinned.
+helpviewer_keywords: ["IOfflineFilesPinInfo interface [Offline Files]","IsPinned method","IOfflineFilesPinInfo.IsPinned","IOfflineFilesPinInfo::IsPinned","IsPinned","IsPinned method [Offline Files]","IsPinned method [Offline Files]","IOfflineFilesPinInfo interface","cscobj/IOfflineFilesPinInfo::IsPinned","of.iofflinefilespininfo_ispinned"]
 old-location: of\iofflinefilespininfo_ispinned.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 143cf346-dbe0-42cf-871e-a0cb54722403
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinned method, IOfflineFilesPinInfo.IsPinned, IOfflineFilesPinInfo::IsPinned, IsPinned, IsPinned method [Offline Files], IsPinned method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinned, of.iofflinefilespininfo_ispinned
-f1_keywords:
-- cscobj/IOfflineFilesPinInfo.IsPinned
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesPinInfo.IsPinned
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesPinInfo::IsPinned
+ - cscobj/IOfflineFilesPinInfo::IsPinned
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesPinInfo.IsPinned
 ---
 
 # IOfflineFilesPinInfo::IsPinned
@@ -49,49 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the item is pinned.
 
-
 ## -parameters
-
-
-
 
 ### -param pbPinned [out]
 
 Receives <b>TRUE</b> if the item is pinned for any reason, or <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
-
-
-
 ## -remarks
-
-
 
 When an item is pinned in the Offline Files cache, it is protected from automatic eviction and is guaranteed to be available offline.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-pin">IOfflineFilesCache::Pin</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilespininfo">IOfflineFilesPinInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilespininfo">IOfflineFilesPinInfo</a>

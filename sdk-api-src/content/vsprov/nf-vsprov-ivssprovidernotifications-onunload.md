@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssProviderNotifications.OnUnload
 title: IVssProviderNotifications::OnUnload (vsprov.h)
 description: Notifies the provider to prepare to be unloaded.
+helpviewer_keywords: ["IVssProviderNotifications interface [VSS]","OnUnload method","IVssProviderNotifications.OnUnload","IVssProviderNotifications::OnUnload","OnUnload","OnUnload method [VSS]","OnUnload method [VSS]","IVssProviderNotifications interface","base.ivssprovidernotifications_onunload","vsprov/IVssProviderNotifications::OnUnload"]
 old-location: base\ivssprovidernotifications_onunload.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5b9e0940-70b4-4913-9281-0347e60baa0d
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnUnload method, IVssProviderNotifications.OnUnload, IVssProviderNotifications::OnUnload, OnUnload, OnUnload method [VSS], OnUnload method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onunload, vsprov/IVssProviderNotifications::OnUnload
-f1_keywords:
-- vsprov/IVssProviderNotifications.OnUnload
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssProviderNotifications.OnUnload
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssProviderNotifications::OnUnload
+ - vsprov/IVssProviderNotifications::OnUnload
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssProviderNotifications.OnUnload
 ---
 
 # IVssProviderNotifications::OnUnload
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OnUnload</b> method 
   notifies the provider  to prepare to be unloaded.
 
-
 ## -parameters
-
-
-
 
 ### -param bForceUnload [in]
 
 If <b>TRUE</b>, the provider must prepare to be released.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,32 +93,16 @@ The provider should not be unloaded. This value can only be returned if <i>bForc
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>bForceUnload</i> is <b>TRUE</b>, the return value must be 
    <b>S_OK</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivssprovidernotifications">IVssProviderNotifications</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onload">OnLoad</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onload">OnLoad</a>

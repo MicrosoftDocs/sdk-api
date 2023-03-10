@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.PathGetCharTypeW
 title: PathGetCharTypeW function (shlwapi.h)
-description: Determines the type of character in relation to a path.
+description: Determines the type of character in relation to a path. (Unicode)
+helpviewer_keywords: ["PathGetCharType", "PathGetCharType function [Windows Shell]", "PathGetCharTypeW", "_win32_PathGetCharType", "shell.PathGetCharType", "shlwapi/PathGetCharType", "shlwapi/PathGetCharTypeW"]
 old-location: shell\PathGetCharType.htm
 tech.root: shell
 ms.assetid: 838a255f-413e-424c-819e-47265224208d
 ms.date: 12/05/2018
 ms.keywords: PathGetCharType, PathGetCharType function [Windows Shell], PathGetCharTypeA, PathGetCharTypeW, _win32_PathGetCharType, shell.PathGetCharType, shlwapi/PathGetCharType, shlwapi/PathGetCharTypeA, shlwapi/PathGetCharTypeW
-f1_keywords:
-- shlwapi/PathGetCharType
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathGetCharType
-- PathGetCharTypeA
-- PathGetCharTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathGetCharTypeW
+ - shlwapi/PathGetCharTypeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathGetCharType
+ - PathGetCharTypeA
+ - PathGetCharTypeW
 ---
 
 # PathGetCharTypeW function
@@ -53,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the type of character in relation to a path.
 
-
 ## -parameters
-
-
-
 
 ### -param ch [in]
 
@@ -68,10 +65,7 @@ Type: <b>TUCHAR</b>
 
 The character for which to determine the type.
 
-
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
@@ -138,7 +132,9 @@ The character is a wildcard character.
 </td>
 </tr>
 </table>
- 
 
+## -remarks
 
+> [!NOTE]
+> The shlwapi.h header defines PathGetCharType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

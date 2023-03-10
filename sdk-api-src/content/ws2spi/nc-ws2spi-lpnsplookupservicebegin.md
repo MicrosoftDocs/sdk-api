@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPLOOKUPSERVICEBEGIN
 title: LPNSPLOOKUPSERVICEBEGIN (ws2spi.h)
 description: Initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
+helpviewer_keywords: ["LPNSPLOOKUPSERVICEBEGIN","LUP_ADDRCONFIG","LUP_CONTAINERS","LUP_DEEP","LUP_DUAL_ADDR","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_NON_AUTHORITATIVE","LUP_RES_RESERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_PREFERRED_NAMES","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","LUP_SECURE","NSPLookupServiceBegin","NSPLookupServiceBegin function [Winsock]","_win32_nsplookupservicebegin_2","winsock.nsplookupservicebegin_2","ws2spi/NSPLookupServiceBegin"]
 old-location: winsock\nsplookupservicebegin_2.htm
 tech.root: WinSock
 ms.assetid: a0b71821-4434-470f-b729-370d7e1722ec
 ms.date: 12/05/2018
 ms.keywords: LPNSPLOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP, LUP_DUAL_ADDR, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_NON_AUTHORITATIVE, LUP_RES_RESERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_PREFERRED_NAMES, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, LUP_SECURE, NSPLookupServiceBegin, NSPLookupServiceBegin function [Winsock], _win32_nsplookupservicebegin_2, winsock.nsplookupservicebegin_2, ws2spi/NSPLookupServiceBegin
-f1_keywords:
-- ws2spi/NSPLookupServiceBegin
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPLookupServiceBegin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPLOOKUPSERVICEBEGIN
+ - ws2spi/LPNSPLOOKUPSERVICEBEGIN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPLookupServiceBegin
 ---
 
 # LPNSPLOOKUPSERVICEBEGIN callback function
 
 
 ## -description
-
 
 The 
 **NSPLookupServiceBegin** function initiates a client query of a name service provider that is constrained by the information contained within a 
@@ -56,26 +57,19 @@ The
 **NSPLookupServiceBegin** only returns a handle, which should be used by subsequent calls to 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a> to get the actual results. Because this operation cannot be canceled, it should be implemented to execute quickly. While it is acceptable to initiate a network query, this function should not require a response  to return successfully.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to the name service provider identifier to query.
 
-
 ### -param lpqsRestrictions [in]
 
 A pointer to the search criteria. See Remarks.
 
-
 ### -param lpServiceClassInfo [in]
 
 A pointer to the  <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaserviceclassinfow">WSASERVICECLASSINFO</a> structure that contains schema information for the service.
-
 
 ### -param dwControlFlags [in]
 
@@ -321,18 +315,13 @@ Indicates that the namespace provider should return the dual addresses. This opt
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lphLookup [out]
 
 A pointer to the handle to be used in subsequent calls to 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a> in order to retrieve the results set.
 
-
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -400,14 +389,8 @@ Service is unknown. The service cannot be found in the specified namespace.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If **LUP_CONTAINERS** is specified in a call, avoid all other restriction values. If any are supplied, the name service provider must decide if it can support this restriction over the containers. If not, it should return an error.
 
@@ -485,7 +468,7 @@ As mentioned, a
 <tr>
 <td>**lpafpProtocols**</td>
 <td>Optional. A references to an array of 
-<a href="/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissable for the value **AF_UNSPEC** to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family.</td>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissible for the value **AF_UNSPEC** to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family.</td>
 </tr>
 <tr>
 <td>**lpszQueryString**</td>
@@ -504,15 +487,8 @@ As mentioned, a
 <td>Optional. A pointer to a provider-specific entity.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a>
 
@@ -539,7 +515,4 @@ As mentioned, a
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

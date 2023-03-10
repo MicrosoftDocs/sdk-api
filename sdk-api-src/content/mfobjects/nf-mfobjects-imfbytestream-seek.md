@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFByteStream.Seek
 title: IMFByteStream::Seek (mfobjects.h)
 description: Moves the current position in the stream by a specified offset.
+helpviewer_keywords: ["512c67a5-e87d-4a81-8577-e64dac868c40","IMFByteStream interface [Media Foundation]","Seek method","IMFByteStream.Seek","IMFByteStream::Seek","MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO","Seek","Seek method [Media Foundation]","Seek method [Media Foundation]","IMFByteStream interface","mf.imfbytestream_seek","mfobjects/IMFByteStream::Seek"]
 old-location: mf\imfbytestream_seek.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 512c67a5-e87d-4a81-8577-e64dac868c40
 ms.date: 12/05/2018
 ms.keywords: 512c67a5-e87d-4a81-8577-e64dac868c40, IMFByteStream interface [Media Foundation],Seek method, IMFByteStream.Seek, IMFByteStream::Seek, MFBYTESTREAM_SEEK_FLAG_CANCEL_PENDING_IO, Seek, Seek method [Media Foundation], Seek method [Media Foundation],IMFByteStream interface, mf.imfbytestream_seek, mfobjects/IMFByteStream::Seek
-f1_keywords:
-- mfobjects/IMFByteStream.Seek
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFByteStream.Seek
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStream::Seek
+ - mfobjects/IMFByteStream::Seek
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFByteStream.Seek
 ---
 
 # IMFByteStream::Seek
@@ -49,29 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Moves the current position in the stream by a specified offset.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param SeekOrigin [in]
 
-Specifies the origin of the seek as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mfbytestream_seek_origin">MFBYTESTREAM_SEEK_ORIGIN</a> enumeration. The offset is calculated relative to this position.
-          
-
+Specifies the origin of the seek as a member of the <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mfbytestream_seek_origin">MFBYTESTREAM_SEEK_ORIGIN</a> enumeration. The offset is calculated relative to this position.
 
 ### -param llSeekOffset [in]
 
 Specifies the new position, as a byte offset from the seek origin.
-          
-
 
 ### -param dwSeekFlags [in]
 
@@ -95,27 +85,16 @@ All pending I/O requests are canceled after the seek request completes successfu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pqwCurrentPosition [out]
 
 Receives the new position after the seek.
-          
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -124,19 +103,8 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 <b> Implementation notes:</b> This method should update the current position in the stream by adding the <i>qwSeekOffset</i> to the seek <i>SeekOrigin</i> position. This should be the same value passed back in the <i>pqwCurrentPosition</i> parameter. 
-Other methods that can update the current position are <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread">BeginRead</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-write">Write</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>.
-
-
-
-
+Other methods that can update the current position are <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-read">Read</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread">BeginRead</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-write">Write</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, and <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>

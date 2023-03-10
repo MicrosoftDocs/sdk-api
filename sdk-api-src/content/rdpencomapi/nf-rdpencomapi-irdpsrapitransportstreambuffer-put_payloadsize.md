@@ -1,16 +1,13 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_PayloadSize
 title: IRDPSRAPITransportStreamBuffer::put_PayloadSize (rdpencomapi.h)
-description: The size, in bytes, of the content in the internal storage buffer.
+description: The size, in bytes, of the content in the internal storage buffer. (Put)
+helpviewer_keywords: ["IRDPSRAPITransportStreamBuffer interface [RDP]","PayloadSize property","IRDPSRAPITransportStreamBuffer.PayloadSize","IRDPSRAPITransportStreamBuffer.put_PayloadSize","IRDPSRAPITransportStreamBuffer::PayloadSize","IRDPSRAPITransportStreamBuffer::get_PayloadSize","IRDPSRAPITransportStreamBuffer::put_PayloadSize","PayloadSize property [RDP]","PayloadSize property [RDP]","IRDPSRAPITransportStreamBuffer interface","put_PayloadSize","rdp.irdpsrapitransportstreambuffer_payloadsize","rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize","rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadSize","rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize"]
 old-location: rdp\irdpsrapitransportstreambuffer_payloadsize.htm
 tech.root: rdp
 ms.assetid: bb85af9e-71d2-46bb-8d14-5aa1571ab6b7
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],PayloadSize property, IRDPSRAPITransportStreamBuffer.PayloadSize, IRDPSRAPITransportStreamBuffer.put_PayloadSize, IRDPSRAPITransportStreamBuffer::PayloadSize, IRDPSRAPITransportStreamBuffer::get_PayloadSize, IRDPSRAPITransportStreamBuffer::put_PayloadSize, PayloadSize property [RDP], PayloadSize property [RDP],IRDPSRAPITransportStreamBuffer interface, put_PayloadSize, rdp.irdpsrapitransportstreambuffer_payloadsize, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize
-f1_keywords:
-- rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,22 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- IRDPSRAPITransportStreamBuffer::PayloadSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPITransportStreamBuffer::put_PayloadSize
+ - rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - IRDPSRAPITransportStreamBuffer::PayloadSize
 ---
 
 # IRDPSRAPITransportStreamBuffer::put_PayloadSize
@@ -47,22 +48,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The size, in bytes, of the content in the internal storage  buffer.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>

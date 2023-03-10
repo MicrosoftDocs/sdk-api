@@ -1,16 +1,13 @@
 ---
 UID: NN:sbtsv.ITsSbResourceNotificationEx
 title: ITsSbResourceNotificationEx (sbtsv.h)
-description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects.
+description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects. (ITsSbResourceNotificationEx)
+helpviewer_keywords: ["ITsSbResourceNotificationEx","ITsSbResourceNotificationEx interface [Remote Desktop Services]","ITsSbResourceNotificationEx interface [Remote Desktop Services]","described","sbtsv/ITsSbResourceNotificationEx","termserv.itssbresourcenotificationex"]
 old-location: termserv\itssbresourcenotificationex.htm
 tech.root: TermServ
 ms.assetid: 5e40535d-62b2-4d16-a995-61c24aefb2e5
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourceNotificationEx, ITsSbResourceNotificationEx interface [Remote Desktop Services], ITsSbResourceNotificationEx interface [Remote Desktop Services],described, sbtsv/ITsSbResourceNotificationEx, termserv.itssbresourcenotificationex
-f1_keywords:
-- sbtsv/ITsSbResourceNotificationEx
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourceNotificationEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourceNotificationEx
+ - sbtsv/ITsSbResourceNotificationEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourceNotificationEx
 ---
 
 # ITsSbResourceNotificationEx interface
@@ -48,66 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects. Plug-ins can use these notifications in many ways. For example, they can implement load-balancing algorithms.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbResourceNotificationEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbResourceNotificationEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITsSbResourceNotificationEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotificationex-notifyclientconnectionstatechangeex">NotifyClientConnectionStateChangeEx</a>
-</td>
-<td align="left" width="63%">
-Notifies registered plug-ins about state changes in a client connection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotificationex-notifysessionchangeex">NotifySessionChangeEx</a>
-</td>
-<td align="left" width="63%">
-Notifies registered plug-ins about state changes in a session object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcenotificationex-notifytargetchangeex">NotifyTargetChangeEx</a>
-</td>
-<td align="left" width="63%">
-Notifies registered plug-ins about state changes in a target object.
-
-</td>
-</tr>
-</table> 
-
+The <b>ITsSbResourceNotificationEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbResourceNotificationEx</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

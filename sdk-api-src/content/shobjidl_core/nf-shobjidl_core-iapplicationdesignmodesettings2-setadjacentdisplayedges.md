@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 title: IApplicationDesignModeSettings2::SetAdjacentDisplayEdges (shobjidl_core.h)
 description: Sets whether the application window will be adjacent to the edge of the emulated display.
+helpviewer_keywords: ["ADE_LEFT","ADE_NONE","ADE_RIGHT","IApplicationDesignModeSettings2 interface [Windows Shell]","SetAdjacentDisplayEdges method","IApplicationDesignModeSettings2.SetAdjacentDisplayEdges","IApplicationDesignModeSettings2::SetAdjacentDisplayEdges","SetAdjacentDisplayEdges","SetAdjacentDisplayEdges method [Windows Shell]","SetAdjacentDisplayEdges method [Windows Shell]","IApplicationDesignModeSettings2 interface","shell.IApplicationDesignModeSettings2_SetAdjacentDisplayEdges","shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges"]
 old-location: shell\IApplicationDesignModeSettings2_SetAdjacentDisplayEdges.htm
 tech.root: shell
 ms.assetid: FD8B2436-1ADD-4371-AEB4-27EBDEC5BA04
 ms.date: 12/05/2018
 ms.keywords: ADE_LEFT, ADE_NONE, ADE_RIGHT, IApplicationDesignModeSettings2 interface [Windows Shell],SetAdjacentDisplayEdges method, IApplicationDesignModeSettings2.SetAdjacentDisplayEdges, IApplicationDesignModeSettings2::SetAdjacentDisplayEdges, SetAdjacentDisplayEdges, SetAdjacentDisplayEdges method [Windows Shell], SetAdjacentDisplayEdges method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetAdjacentDisplayEdges, shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
-f1_keywords:
-- shobjidl_core/IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Twinapi.lib
 req.dll: Twinapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- twinapi.dll
-api_name:
-- IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
+ - shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - twinapi.dll
+api_name:
+ - IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 ---
 
 # IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets whether the application window will be  adjacent to the edge of the emulated display.
 
-
 ## -parameters
-
-
-
 
 ### -param adjacentDisplayEdges [in]
 
@@ -81,29 +78,16 @@ the left edge of the window will be adjacent.
 
 The right edge of the window will be adjacent.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2">IApplicationDesignModeSettings2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2">IApplicationDesignModeSettings2</a>

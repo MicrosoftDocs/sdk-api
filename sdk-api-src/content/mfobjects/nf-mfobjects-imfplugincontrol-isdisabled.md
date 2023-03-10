@@ -1,16 +1,13 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.IsDisabled
 title: IMFPluginControl::IsDisabled (mfobjects.h)
-description: Queries whether a class identifier (CLSID) appears in the blocked list.
+description: Queries whether a class identifier (CLSID) appears in the blocked list. (IMFPluginControl.IsDisabled)
+helpviewer_keywords: ["IMFPluginControl interface [Media Foundation]","IsDisabled method","IMFPluginControl.IsDisabled","IMFPluginControl::IsDisabled","IsDisabled","IsDisabled method [Media Foundation]","IsDisabled method [Media Foundation]","IMFPluginControl interface","mf.imfplugincontrol_imfplugincontrol__isdisabled","mfobjects/IMFPluginControl::IsDisabled"]
 old-location: mf\imfplugincontrol_imfplugincontrol__isdisabled.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 75f4f3a2-198d-41c0-b0fa-4a1fbefad7b6
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl interface [Media Foundation],IsDisabled method, IMFPluginControl.IsDisabled, IMFPluginControl::IsDisabled, IsDisabled, IsDisabled method [Media Foundation], IsDisabled method [Media Foundation],IMFPluginControl interface, mf.imfplugincontrol_imfplugincontrol__isdisabled, mfobjects/IMFPluginControl::IsDisabled
-f1_keywords:
-- mfobjects/IMFPluginControl.IsDisabled
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMFPluginControl.IsDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPluginControl::IsDisabled
+ - mfobjects/IMFPluginControl::IsDisabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMFPluginControl.IsDisabled
 ---
 
 # IMFPluginControl::IsDisabled
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether a class identifier (CLSID) appears in the blocked list.
-
 
 ## -parameters
 
-
-
-
 ### -param pluginType [in]
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object for the query.
-
+Member of the <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_plugin_type">MF_Plugin_Type</a> enumeration, specifying the type of object for the query.
 
 ### -param clsid [in]
 
 The CLSID to search for.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,18 +105,7 @@ The specified CLSID is not in the blocked list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>

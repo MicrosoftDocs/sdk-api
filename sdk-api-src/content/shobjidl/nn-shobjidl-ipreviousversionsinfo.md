@@ -2,15 +2,12 @@
 UID: NN:shobjidl.IPreviousVersionsInfo
 title: IPreviousVersionsInfo (shobjidl.h)
 description: Exposes a method that checks for previous versions of server files or folders, stored for the purpose of reversion by the shadow copies technology provided with Windows Server 2003.
+helpviewer_keywords: ["IPreviousVersionsInfo","IPreviousVersionsInfo interface [Windows Shell]","IPreviousVersionsInfo interface [Windows Shell]","described","_shell_IPreviousVersionsInfo","shell.IPreviousVersionsInfo","shobjidl/IPreviousVersionsInfo"]
 old-location: shell\IPreviousVersionsInfo.htm
 tech.root: shell
 ms.assetid: 5d55107e-a07a-4d70-80f6-7ec99578bb48
 ms.date: 12/05/2018
 ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell],described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
-f1_keywords:
-- shobjidl/IPreviousVersionsInfo
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Twext.dll (version 5.2 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Twext.dll
-api_name:
-- IPreviousVersionsInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPreviousVersionsInfo
+ - shobjidl/IPreviousVersionsInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Twext.dll
+api_name:
+ - IPreviousVersionsInfo
 ---
 
 # IPreviousVersionsInfo interface
@@ -48,46 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that checks for previous versions of server files or folders, stored for the purpose of reversion by the <i>shadow copies</i> technology provided with Windows Server 2003.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreviousVersionsInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviousVersionsInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPreviousVersionsInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ipreviousversionsinfo-aresnapshotsavailable">AreSnapshotsAvailable</a>
-</td>
-<td align="left" width="63%">
-Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
-
-</td>
-</tr>
-</table> 
-
+The <b>IPreviousVersionsInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPreviousVersionsInfo</b> also has these types of members:
 
 ## -remarks
-
-
 
 The CLSID, IID, and definition for this interface are shown in the following example.
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>// {596AB062-B4D2-4215-9F74-E9109B0A8153}
+
+``` syntax
+// {596AB062-B4D2-4215-9F74-E9109B0A8153}
 const CLSID CLSID_PreviousVersions = {0x596AB062, 0xB4D2, 0x4215, 
                              {0x9F, 0x74, 0xE9, 0x10, 0x9B, 0x0A, 0x81, 0x53}};
 
@@ -103,8 +80,7 @@ public:
         /* [string][in] */ LPCWSTR pszPath,
         /* [in] */ BOOL fOkToBeSlow,
         /* [retval][out] */ BOOL *pfAvailable) = 0;
-};</code></pre>
+};
+```
+
 Note that the shadow copies technology does not store entire copies of older versions unless they are deleted; only the changed bits are stored.
-
-
-

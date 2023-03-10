@@ -2,15 +2,12 @@
 UID: NF:winbase.OpenFileById
 title: OpenFileById function (winbase.h)
 description: Opens the file that matches the specified identifier.
+helpviewer_keywords: ["FILE_FLAG_BACKUP_SEMANTICS","FILE_FLAG_NO_BUFFERING","FILE_FLAG_OPEN_NO_RECALL","FILE_FLAG_OPEN_REPARSE_POINT","FILE_FLAG_OVERLAPPED","FILE_FLAG_RANDOM_ACCESS","FILE_FLAG_SEQUENTIAL_SCAN","FILE_FLAG_WRITE_THROUGH","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OpenFileById","OpenFileById function [Files]","fileextd/OpenFileById","fs.openfilebyid","winbase/OpenFileById"]
 old-location: fs\openfilebyid.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: caa757a2-fc3f-4883-8d3e-b98d28f92517
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_BACKUP_SEMANTICS, FILE_FLAG_NO_BUFFERING, FILE_FLAG_OPEN_NO_RECALL, FILE_FLAG_OPEN_REPARSE_POINT, FILE_FLAG_OVERLAPPED, FILE_FLAG_RANDOM_ACCESS, FILE_FLAG_SEQUENTIAL_SCAN, FILE_FLAG_WRITE_THROUGH, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OpenFileById, OpenFileById function [Files], fileextd/OpenFileById, fs.openfilebyid, winbase/OpenFileById
-f1_keywords:
-- winbase/OpenFileById
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib; FileExtd.lib on Windows Server 2003 and Windows XP
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-api_name:
-- OpenFileById
 targetos: Windows
 req.typenames: 
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.
 ms.custom: 19H1
+f1_keywords:
+ - OpenFileById
+ - winbase/OpenFileById
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+api_name:
+ - OpenFileById
 ---
 
 # OpenFileById function
@@ -51,32 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens the file that matches the specified identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param hVolumeHint [in]
 
 A handle to any file on a volume or share on which the file to be opened is stored.
 
-
 ### -param lpFileId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a> that identifies 
+A pointer to a <a href="/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a> that identifies 
        the file to open.
-
 
 ### -param dwDesiredAccess [in]
 
 The access to the object. Access can be read, write, or both.
 
 For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access
+      <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access
       Rights</a>. You cannot request an access mode that conflicts with the sharing mode that is specified in an
       open request that has an open handle.
 
@@ -85,7 +80,6 @@ If this parameter is zero (0), the application can query file and device attribu
       supports without requiring a floppy in a drive. It can also be used to test for the existence of a file or
       directory without opening them for read or write access.
 
-
 ### -param dwShareMode [in]
 
 The sharing mode of an object, which can be read, write, both, or none.
@@ -93,7 +87,7 @@ The sharing mode of an object, which can be read, write, both, or none.
 You cannot request a sharing mode that conflicts with the access mode that is specified in an open request 
        that has an open handle, because that would result in the following sharing violation: 
        (<b>ERROR_SHARING_VIOLATION</b>). For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
+       <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 If this parameter is zero (0) and <b>OpenFileById</b> 
        succeeds, the object cannot be shared and cannot be opened again until the handle is closed. For more 
@@ -156,13 +150,10 @@ If this flag is not specified, but the object has been opened for write access o
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpSecurityAttributes [in, optional]
 
 Reserved.
-
 
 ### -param dwFlagsAndAttributes [in]
 
@@ -187,11 +178,11 @@ When <b>OpenFileById</b> opens a file, it combines the file
 A file is being opened for a backup or restore operation. The system ensures that the calling process 
          overrides file security checks when the process has <b>SE_BACKUP_NAME</b> and 
          <b>SE_RESTORE_NAME</b> privileges. For more information, see 
-         <a href="https://docs.microsoft.com/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
+         <a href="/windows/desktop/SecBP/changing-privileges-in-a-token">Changing Privileges in a Token</a>.
 
 You must set this flag to obtain a handle to a directory. A directory handle can be passed to some 
          functions  instead of a file handle. For more information, see 
-         <a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-a-handle-to-a-directory">Directory Handles</a>.
+         <a href="/windows/desktop/FileIO/obtaining-a-handle-to-a-directory">Directory Handles</a>.
 
 </td>
 </tr>
@@ -206,7 +197,7 @@ The system opens a file with no system caching. This flag does not affect hard d
          with <b>FILE_FLAG_OVERLAPPED</b>, the flag gives maximum asynchronous performance, because 
          the I/O does not rely on the synchronous operations of the memory manager. However, some I/O operations take 
          more time, because data is not being held in the cache. Also, the file metadata may still be cached. To flush 
-         the metadata to disk, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> 
+         the metadata to disk, use the <a href="/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a> 
          function.
 
 An application must meet certain requirements when working with files that are opened with 
@@ -223,14 +214,14 @@ An application must meet certain requirements when working with files that are o
           requirement may not be enforced.</li>
 </ul>
 One way to align buffers on integer multiples of the volume sector size is to use 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> to allocate the buffers. It allocates 
+         <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> to allocate the buffers. It allocates 
          memory that is aligned on addresses that are integer multiples of the operating system's memory page size. 
          Because both memory page and volume sector sizes are powers of 2, this memory is also aligned on addresses 
          that are integer multiples of a volume sector size. Memory pages are 4-8 KB in size; sectors are 512 bytes 
          (hard disks) or 2048 bytes (CD), and therefore, volume sectors can never be larger than memory pages.
 
 An application can determine a volume sector size by calling the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function.
+         <a href="/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function.
 
 </td>
 </tr>
@@ -253,7 +244,7 @@ The file data is requested, but it should continue to be located in remote stora
 </dl>
 </td>
 <td width="60%">
-When this flag is used, normal <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">reparse point</a> 
+When this flag is used, normal <a href="/windows/desktop/FileIO/reparse-points">reparse point</a> 
          processing does not occur, and <b>OpenFileById</b> attempts 
          to open the reparse point. When a file is opened, a file handle is returned, whether or not the filter that 
          controls the reparse point is operational. This flag cannot be used with the 
@@ -270,17 +261,17 @@ When this flag is used, normal <a href="https://docs.microsoft.com/windows/deskt
 </td>
 <td width="60%">
 The file is being opened or created for asynchronous I/O. When the operation is complete, the event 
-         specified to the call in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is 
+         specified to the call in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is 
          set to the signaled state. Operations that take a significant amount of time to process return 
          <b>ERROR_IO_PENDING</b>.
 
 If this flag is specified, the file can be used for simultaneous read and write operations. The system does 
          not maintain the file pointer, therefore you must pass the file position to the read and write functions in 
-         the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>  structure or update the file 
+         the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>  structure or update the file 
          pointer.
 
 If this flag is not specified, then I/O operations are serialized, even if the calls to the read and write 
-         functions specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
+         functions specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 </td>
 </tr>
@@ -332,32 +323,23 @@ If <b>FILE_FLAG_NO_BUFFERING</b> is also specified, so that system caching is no
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to a specified file.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
-       error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close an object handle 
+Use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close an object handle 
     that <b>OpenFileById</b> returns.
 
 If you call <b>OpenFileById</b> on a file that is pending 
-    deletion as a result of a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>, the 
+    deletion as a result of a previous call to <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>, the 
     function fails. The operating system delays file deletion until all handles to the file are closed. 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
     <b>ERROR_ACCESS_DENIED</b>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -418,62 +400,51 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>

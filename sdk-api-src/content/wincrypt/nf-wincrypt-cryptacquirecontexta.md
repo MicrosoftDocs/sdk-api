@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptAcquireContextA
 title: CryptAcquireContextA function (wincrypt.h)
-description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
+description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP. (ANSI)
+helpviewer_keywords: ["CRYPT_DEFAULT_CONTAINER_OPTIONAL", "CRYPT_DELETEKEYSET", "CRYPT_MACHINE_KEYSET", "CRYPT_NEWKEYSET", "CRYPT_SILENT", "CRYPT_VERIFYCONTEXT", "CryptAcquireContextA", "wincrypt/CryptAcquireContextA"]
 old-location: security\cryptacquirecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE_KEYSET, CRYPT_NEWKEYSET, CRYPT_SILENT, CRYPT_VERIFYCONTEXT, CryptAcquireContext, CryptAcquireContext function [Security], CryptAcquireContextA, CryptAcquireContextW, _crypto2_cryptacquirecontext, security.cryptacquirecontext, wincrypt/CryptAcquireContext, wincrypt/CryptAcquireContextA, wincrypt/CryptAcquireContextW
-f1_keywords:
-- wincrypt/CryptAcquireContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptAcquireContext
-- CryptAcquireContextA
-- CryptAcquireContextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptAcquireContextA
+ - wincrypt/CryptAcquireContextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptAcquireContext
+ - CryptAcquireContextA
+ - CryptAcquireContextW
 ---
 
 # CryptAcquireContextA function
@@ -52,31 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptAcquireContext</b> function is used to acquire a handle to a particular <a href="/windows/desktop/SecGloss/k-gly">key container</a> within a particular <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This returned handle is used in calls to <a href="/windows/desktop/SecGloss/c-gly">CryptoAPI</a> functions that use the selected CSP.
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptAcquireContext</b> function is used to acquire a handle to a particular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> within a particular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This returned handle is used in calls to <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CryptoAPI</a> functions that use the selected CSP.
-
-This function first attempts to find a CSP with the characteristics described in the <i>dwProvType</i> and <i>pszProvider</i> parameters. If the CSP is found, the function attempts to find a key container within the CSP that matches the name specified by the <i>pszContainer</i> parameter. To acquire the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> and the key container of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> associated with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> of a certificate, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>.
+This function first attempts to find a CSP with the characteristics described in the <i>dwProvType</i> and <i>pszProvider</i> parameters. If the CSP is found, the function attempts to find a key container within the CSP that matches the name specified by the <i>pszContainer</i> parameter. To acquire the <a href="/windows/desktop/SecGloss/c-gly">context</a> and the key container of a <a href="/windows/desktop/SecGloss/p-gly">private key</a> associated with the <a href="/windows/desktop/SecGloss/p-gly">public key</a> of a certificate, use 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>.
 
 With the appropriate setting of <i>dwFlags</i>, this function can also create and destroy key containers and can provide access to a CSP with a temporary key container if access to a private key is not required.
 
-
 ## -parameters
-
-
-
 
 ### -param phProv [out]
 
-A pointer to a handle of a CSP. When you have finished using the CSP, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function.
-
+A pointer to a handle of a CSP. When you have finished using the CSP, release the handle by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function.
 
 ### -param szContainer [in]
 
-The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publically available information in the specfied container.
+The key container name. This is a null-terminated string that identifies the key container to the CSP. This name is independent of the method used to store the keys. Some CSPs store their key containers internally (in hardware), some use the system registry, and others use the file system. In most cases, when <i>dwFlags</i> is set to CRYPT_VERIFYCONTEXT, <i>pszContainer</i> must be set to <b>NULL</b>. However, for hardware-based CSPs, such as a smart card CSP, can be access publicly available information in the specfied container.
 
 For more information about the usage of the <i>pszContainer</i> parameter, see Remarks.
-
 
 ### -param szProvider [in]
 
@@ -86,19 +81,17 @@ A null-terminated string that contains the name of the CSP to be used.
 
 
 If this parameter is <b>NULL</b>, the user default provider is used. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-service-provider-contexts">Cryptographic Service Provider Contexts</a>. For a list of available cryptographic providers, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-names">Cryptographic Provider Names</a>.
+<a href="/windows/desktop/SecCrypto/cryptographic-service-provider-contexts">Cryptographic Service Provider Contexts</a>. For a list of available cryptographic providers, see 
+<a href="/windows/desktop/SecCrypto/cryptographic-provider-names">Cryptographic Provider Names</a>.
 
-An application can obtain the name of the CSP in use by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function to read the PP_NAME CSP value in the <i>dwParam</i> parameter.
+An application can obtain the name of the CSP in use by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function to read the PP_NAME CSP value in the <i>dwParam</i> parameter.
 
 The default CSP can change between operating system releases. To ensure interoperability on different operating system platforms, the CSP should be explicitly set by using this parameter instead of using the default CSP.
-
 
 ### -param dwProvType [in]
 
 Specifies the type of provider to acquire. Defined provider types are discussed in 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>.
-
+<a href="/windows/desktop/SecCrypto/cryptographic-provider-types">Cryptographic Provider Types</a>.
 
 ### -param dwFlags [in]
 
@@ -115,14 +108,14 @@ Flag values. This parameter is usually set to zero, but some applications set on
 </dl>
 </td>
 <td width="60%">
-This option is intended for applications that are using ephemeral keys, or applications that do not require access to persisted private keys, such as applications that perform only <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encryption</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> verification. Only applications that create signatures or decrypt messages need access to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. In most cases, this flag should be set.
+This option is intended for applications that are using ephemeral keys, or applications that do not require access to persisted private keys, such as applications that perform only <a href="/windows/desktop/SecGloss/h-gly">hashing</a>, <a href="/windows/desktop/SecGloss/e-gly">encryption</a>, and <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> verification. Only applications that create signatures or decrypt messages need access to a <a href="/windows/desktop/SecGloss/p-gly">private key</a>. In most cases, this flag should be set.
 
-For file-based CSPs, when this flag is set, the <i>pszContainer</i> parameter must be set to <b>NULL</b>. The application has no access to the persisted private keys of public/private key pairs. When this flag is set, temporary <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pairs</a> can be created, but they are not persisted.
+For file-based CSPs, when this flag is set, the <i>pszContainer</i> parameter must be set to <b>NULL</b>. The application has no access to the persisted private keys of public/private key pairs. When this flag is set, temporary <a href="/windows/desktop/SecGloss/p-gly">public/private key pairs</a> can be created, but they are not persisted.
 
 For hardware-based CSPs, such as a smart card CSP, if the <i>pszContainer</i> parameter is <b>NULL</b> or blank, this flag implies that no access to any keys is required, and that no UI should be presented to the user.  This form is used to connect to the CSP to query its capabilities but not to actually use its keys.
-If the <i>pszContainer</i> parameter is not <b>NULL</b> and not blank, then this flag implies that access to only the publicly available information within the specified container is required.  The CSP should not ask for a PIN.  Attempts to access private information (for example, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function) will fail.
+If the <i>pszContainer</i> parameter is not <b>NULL</b> and not blank, then this flag implies that access to only the publicly available information within the specified container is required.  The CSP should not ask for a PIN.  Attempts to access private information (for example, the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function) will fail.
 
-When <b>CryptAcquireContext</b> is called, many CSPs require input from the owning user before granting access to the private keys in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a>. For example, the private keys can be encrypted, requiring a password from the user before they can be used. However, if the <b>CRYPT_VERIFYCONTEXT</b> flag is specified, access to the private keys is not required and the user interface can be bypassed.
+When <b>CryptAcquireContext</b> is called, many CSPs require input from the owning user before granting access to the private keys in the <a href="/windows/desktop/SecGloss/k-gly">key container</a>. For example, the private keys can be encrypted, requiring a password from the user before they can be used. However, if the <b>CRYPT_VERIFYCONTEXT</b> flag is specified, access to the private keys is not required and the user interface can be bypassed.
 
 </td>
 </tr>
@@ -151,20 +144,20 @@ By default, keys and key containers are stored as user keys. For Base Providers,
 
 A key container created without this flag by a user that is not an administrator can be accessed only by the user creating the key container and the local system account.
 
-The CRYPT_MACHINE_KEYSET flag can be combined with all of the other flags to indicate that the key container of interest is a computer key container and the CSP treats it as such. For Base Providers, this means that the keys are stored locally on the computer that created the key container. If a key container is to be a computer container, the CRYPT_MACHINE_KEYSET flag must be used with all calls to <b>CryptAcquireContext</b> that reference the computer container. The key container created with CRYPT_MACHINE_KEYSET by an administrator can be accessed only by its creator and by a user with administrator <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a> unless access rights to the container are granted using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
+The CRYPT_MACHINE_KEYSET flag can be combined with all of the other flags to indicate that the key container of interest is a computer key container and the CSP treats it as such. For Base Providers, this means that the keys are stored locally on the computer that created the key container. If a key container is to be a computer container, the CRYPT_MACHINE_KEYSET flag must be used with all calls to <b>CryptAcquireContext</b> that reference the computer container. The key container created with CRYPT_MACHINE_KEYSET by an administrator can be accessed only by its creator and by a user with administrator <a href="/windows/desktop/SecGloss/p-gly">privileges</a> unless access rights to the container are granted using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
 
 
 <b>Windows XP:  </b>The key container created with CRYPT_MACHINE_KEYSET by an administrator can be accessed only by its creator and by the local system account unless access rights to the container are granted using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
 
 
 
 The key container created with CRYPT_MACHINE_KEYSET by a user that is not an administrator can be accessed only by its creator and by the local system account unless access rights to the container are granted using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
 
-The CRYPT_MACHINE_KEYSET flag is useful when the user is accessing from a service or user account that did not log on interactively. When key containers are created, most CSPs do not automatically create any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public/private key pairs</a>. These keys must be created as a separate step with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> function.
+The CRYPT_MACHINE_KEYSET flag is useful when the user is accessing from a service or user account that did not log on interactively. When key containers are created, most CSPs do not automatically create any <a href="/windows/desktop/SecGloss/p-gly">public/private key pairs</a>. These keys must be created as a separate step with the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> function.
 
 </td>
 </tr>
@@ -174,13 +167,13 @@ The CRYPT_MACHINE_KEYSET flag is useful when the user is accessing from a servic
 </dl>
 </td>
 <td width="60%">
-Delete the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> specified by <i>pszContainer</i>. If <i>pszContainer</i> is <b>NULL</b>, the key container with the default name is deleted. All <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pairs</a> in the key container are also destroyed. 
+Delete the <a href="/windows/desktop/SecGloss/k-gly">key container</a> specified by <i>pszContainer</i>. If <i>pszContainer</i> is <b>NULL</b>, the key container with the default name is deleted. All <a href="/windows/desktop/SecGloss/k-gly">key pairs</a> in the key container are also destroyed. 
 
 
 
 
 When this flag is set, the value returned in <i>phProv</i> is undefined, and thus, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function need not be called afterward.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function need not be called afterward.
 
 </td>
 </tr>
@@ -190,7 +183,7 @@ When this flag is set, the value returned in <i>phProv</i> is undefined, and thu
 </dl>
 </td>
 <td width="60%">
-The application requests that the CSP not display any user interface (UI) for this <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>. If the CSP must display the UI to operate, the call fails and the NTE_SILENT_CONTEXT error code is set as the last error. In addition, if calls are made to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> with the CRYPT_USER_PROTECTED flag with a context that has been acquired with the CRYPT_SILENT flag, the calls fail and the CSP sets NTE_SILENT_CONTEXT.
+The application requests that the CSP not display any user interface (UI) for this <a href="/windows/desktop/SecGloss/c-gly">context</a>. If the CSP must display the UI to operate, the call fails and the NTE_SILENT_CONTEXT error code is set as the last error. In addition, if calls are made to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> with the CRYPT_USER_PROTECTED flag with a context that has been acquired with the CRYPT_SILENT flag, the calls fail and the CSP sets NTE_SILENT_CONTEXT.
 
 CRYPT_SILENT is intended for use with applications for which the UI cannot be displayed by the CSP.
 
@@ -202,7 +195,7 @@ CRYPT_SILENT is intended for use with applications for which the UI cannot be di
 </dl>
 </td>
 <td width="60%">
-Obtains a context for a smart card CSP that can be used for hashing and symmetric key operations but cannot be used for any operation that requires authentication to a smart card using a PIN. This type of context is most often used to perform operations on an empty smart card, such as setting the PIN by using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>. This flag can only be used with smart card CSPs. 
+Obtains a context for a smart card CSP that can be used for hashing and symmetric key operations but cannot be used for any operation that requires authentication to a smart card using a PIN. This type of context is most often used to perform operations on an empty smart card, such as setting the PIN by using <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>. This flag can only be used with smart card CSPs. 
 
 
 <b>Windows Server 2003 and Windows XP:  </b>This flag is not supported.
@@ -212,17 +205,13 @@ Obtains a context for a smart card CSP that can be used for hashing and symmetri
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by NTE are generated by the particular CSP being used. Some possible error codes defined in Winerror.h follow.
 
@@ -239,7 +228,7 @@ The error codes prefaced by NTE are generated by the particular CSP being used. 
 </dl>
 </td>
 <td width="60%">
-Some CSPs set this error if the CRYPT_DELETEKEYSET flag value is set and another thread or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> is using this <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a>.
+Some CSPs set this error if the CRYPT_DELETEKEYSET flag value is set and another thread or <a href="/windows/desktop/SecGloss/p-gly">process</a> is using this <a href="/windows/desktop/SecGloss/k-gly">key container</a>.
 
 </td>
 </tr>
@@ -311,8 +300,8 @@ The user password has changed since the private keys were encrypted.
 </dl>
 </td>
 <td width="60%">
-The key container could not be opened. A common cause of this error is that the key container does not exist. To create a key container, call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> using the CRYPT_NEWKEYSET flag. This error code can also indicate that access to an existing key container is denied. Access rights to the container can be granted by the key set creator by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
+The key container could not be opened. A common cause of this error is that the key container does not exist. To create a key container, call <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> using the CRYPT_NEWKEYSET flag. This error code can also indicate that access to an existing key container is denied. Access rights to the container can be granted by the key set creator by using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>.
 
 </td>
 </tr>
@@ -473,14 +462,8 @@ An error occurred while loading the DLL file image, prior to verifying its signa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pszContainer</i> parameter specifies the name of the container that is used to hold the key. Each container can contain one key. If  you  specify the name of an existing container when creating keys, the new key will overwrite a previous one.
 
@@ -489,7 +472,7 @@ The combination of the CSP name and the key container name uniquely identifies a
 If you set the  <i>pszContainer</i> parameter to <b>NULL</b>, the default key container name is used. When the Microsoft software CSPs are called in this manner, a new container is created each time the <b>CryptAcquireContext</b> function is called. However, different CSPs may behave differently in this regard. In particular, a CSP may have a single default container that is shared by all applications accessing the CSP. Therefore, applications must not use the default key container to store private keys. Instead, either prevent key storage by passing the <b>CRYPT_VERIFYCONTEXT</b> flag in the <i>dwFlags</i> parameter, or use an application-specific container that is unlikely to be used by another application.
 
 An application can obtain the name of the key container in use by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function to read the PP_CONTAINER value.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> function to read the PP_CONTAINER value.
 
 For performance reasons, we recommend that you set the <i>pszContainer</i> parameter to <b>NULL</b> and the <i>dwFlags</i> parameter to <b>CRYPT_VERIFYCONTEXT</b> in all situations where you do not require a persisted key. In particular, consider setting the  <i>pszContainer</i> parameter to <b>NULL</b> and the <i>dwFlags</i> parameter to <b>CRYPT_VERIFYCONTEXT</b> for the following scenarios:
 
@@ -500,7 +483,7 @@ For performance reasons, we recommend that you set the <i>pszContainer</i> param
 </li>
 <li>You are deriving a symmetric key from a hash to encrypt or decrypt data.
 </li>
-<li>You are verifying a signature. It is possible to import a public key from a PUBLICKEYBLOB or from a certificate by using <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2">CryptImportPublicKeyInfo</a>.
+<li>You are verifying a signature. It is possible to import a public key from a PUBLICKEYBLOB or from a certificate by using <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> or <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2">CryptImportPublicKeyInfo</a>.
  A context can be acquired by using the <b>CRYPT_VERIFYCONTEXT</b> flag if you only plan to import the public key.</li>
 <li>You plan to export a symmetric key, but not import it within the crypto context's lifetime. A context can be acquired by using the <b>CRYPT_VERIFYCONTEXT</b> flag if you only plan to import the public key for the last two scenarios. 
 </li>
@@ -514,8 +497,8 @@ If you plan to perform private key operations, the best way to acquire a context
 The following example shows acquiring a cryptographic context and access to public/private key pairs in a key container. If the requested key container does not exist, it is created.
 
 
-For an example that includes the complete context for this example, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-creating-a-key-container-and-generating-keys">Example C Program: Creating a Key Container and Generating Keys</a>. For additional examples, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-using-cryptacquirecontext">Example C Program: Using CryptAcquireContext</a>.
+For an example that includes the complete context for this example, see <a href="/windows/desktop/SecCrypto/example-c-program-creating-a-key-container-and-generating-keys">Example C Program: Creating a Key Container and Generating Keys</a>. For additional examples, see 
+<a href="/windows/desktop/SecCrypto/example-c-program-using-cryptacquirecontext">Example C Program: Using CryptAcquireContext</a>.
 
 
 ```cpp
@@ -596,29 +579,26 @@ else
 
 
 
+
+> [!NOTE]
+> The wincrypt.h header defines CryptAcquireContext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/aa388149(v=vs.85)">Threading Issues with Cryptographic Service Providers</a>
- 
-
- 
-
+<a href="/previous-versions/aa388149(v=vs.85)">Threading Issues with Cryptographic Service Providers</a>

@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaEngineEx.InsertAudioEffect
 title: IMFMediaEngineEx::InsertAudioEffect (mfmediaengine.h)
 description: Inserts an audio effect.
+helpviewer_keywords: ["FALSE","IMFMediaEngineEx interface [Media Foundation]","InsertAudioEffect method","IMFMediaEngineEx.InsertAudioEffect","IMFMediaEngineEx::InsertAudioEffect","InsertAudioEffect","InsertAudioEffect method [Media Foundation]","InsertAudioEffect method [Media Foundation]","IMFMediaEngineEx interface","TRUE","mf.imfmediaengineex_insertaudioeffect","mfmediaengine/IMFMediaEngineEx::InsertAudioEffect"]
 old-location: mf\imfmediaengineex_insertaudioeffect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0D9ED497-A991-473F-A775-CA780A1E0E06
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],InsertAudioEffect method, IMFMediaEngineEx.InsertAudioEffect, IMFMediaEngineEx::InsertAudioEffect, InsertAudioEffect, InsertAudioEffect method [Media Foundation], InsertAudioEffect method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_insertaudioeffect, mfmediaengine/IMFMediaEngineEx::InsertAudioEffect
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx.InsertAudioEffect
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx.InsertAudioEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx::InsertAudioEffect
+ - mfmediaengine/IMFMediaEngineEx::InsertAudioEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx.InsertAudioEffect
 ---
 
 # IMFMediaEngineEx::InsertAudioEffect
@@ -48,22 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inserts an audio effect.
 
-
 ## -parameters
-
-
-
 
 ### -param pEffect [in]
 
 One of the following: 
 
 <ul>
-<li>A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of a Media Foundation transform (MFT) that implements the audio effect.</li>
-<li>A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of an activation object. The activation object must create an MFT for the audio effect.</li>
+<li>A pointer to the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of a Media Foundation transform (MFT) that implements the audio effect.</li>
+<li>A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of an activation object. The activation object must create an MFT for the audio effect.</li>
 </ul>
 
 ### -param fOptional [in]
@@ -96,12 +93,8 @@ The effect is required. If the Media Engine object cannot add the effect, a play
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -133,27 +126,11 @@ The maximum number of audio effects was reached.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The effect is applied when the next media resource is loaded.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>

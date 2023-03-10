@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceService.Open
 title: IPortableDeviceService::Open (portabledeviceapi.h)
 description: Opens a connection to the service.
+helpviewer_keywords: ["IPortableDeviceService interface [Windows Portable Devices SDK]","Open method","IPortableDeviceService.Open","IPortableDeviceService::Open","Open","Open method [Windows Portable Devices SDK]","Open method [Windows Portable Devices SDK]","IPortableDeviceService interface","portabledeviceapi/IPortableDeviceService::Open","wpdsdk.iportabledeviceservice_open"]
 old-location: wpdsdk\iportabledeviceservice_open.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 540d4320-42d4-48f0-8445-c74ff0dc1e1a
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Open method, IPortableDeviceService.Open, IPortableDeviceService::Open, Open, Open method [Windows Portable Devices SDK], Open method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Open, wpdsdk.iportabledeviceservice_open
-f1_keywords:
-- portabledeviceapi/IPortableDeviceService.Open
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceService.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceService::Open
+ - portabledeviceapi/IPortableDeviceService::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceService.Open
 ---
 
 # IPortableDeviceService::Open
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Open</b> method opens a connection to the service.
-
 
 ## -parameters
 
-
-
-
 ### -param pszPnPServiceID [in]
 
-The Plug and Play (PnP) identifier for the service, which is the same identifier that is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-getpnpserviceid">GetPnPServiceId</a> method.
-
+The Plug and Play (PnP) identifier for the service, which is the same identifier that is retrieved by the <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-getpnpserviceid">GetPnPServiceId</a> method.
 
 ### -param pClientInfo [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the client information.
-
+The <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface specifying the client information.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -124,22 +117,11 @@ This method has already been called for the service.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>
- 
-
- 
-
+<a href="/windows/desktop/wpd_sdk/opening-a-service">Opening a Service</a>

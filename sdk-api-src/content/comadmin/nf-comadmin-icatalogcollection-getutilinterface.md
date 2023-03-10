@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICatalogCollection.GetUtilInterface
 title: ICatalogCollection::GetUtilInterface (comadmin.h)
 description: Retrieves the utility interface for the collection.
+helpviewer_keywords: ["GetUtilInterface","GetUtilInterface method [COM+]","GetUtilInterface method [COM+]","ICatalogCollection interface","ICatalogCollection interface [COM+]","GetUtilInterface method","ICatalogCollection.GetUtilInterface","ICatalogCollection::GetUtilInterface","_cos_ICatalogCollection_GetUtilInterface","comadmin/ICatalogCollection::GetUtilInterface","cos.icatalogcollection_getutilinterface"]
 old-location: cos\icatalogcollection_getutilinterface.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: bac2153d-253b-4be1-be14-2c1207799ada
 ms.date: 12/05/2018
 ms.keywords: GetUtilInterface, GetUtilInterface method [COM+], GetUtilInterface method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],GetUtilInterface method, ICatalogCollection.GetUtilInterface, ICatalogCollection::GetUtilInterface, _cos_ICatalogCollection_GetUtilInterface, comadmin/ICatalogCollection::GetUtilInterface, cos.icatalogcollection_getutilinterface
-f1_keywords:
-- comadmin/ICatalogCollection.GetUtilInterface
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICatalogCollection.GetUtilInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatalogCollection::GetUtilInterface
+ - comadmin/ICatalogCollection::GetUtilInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICatalogCollection.GetUtilInterface
 ---
 
 # ICatalogCollection::GetUtilInterface
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is for use with MTS 2.0 administration interfaces and objects and should not be used with COM+ administration interfaces and objects. It works as before with MTS 2.0 administration interfaces and objects, with the exception of IRemoteComponentUtil, which is no longer supported.]
 
 Retrieves the utility interface for the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param ppIDispatch [out, retval]
 
 The utility interface.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -98,18 +92,7 @@ Errors occurred while accessing one or more objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

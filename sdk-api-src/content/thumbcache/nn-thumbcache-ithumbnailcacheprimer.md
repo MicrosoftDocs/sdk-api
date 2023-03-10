@@ -1,16 +1,13 @@
 ---
 UID: NN:thumbcache.IThumbnailCachePrimer
 title: IThumbnailCachePrimer (thumbcache.h)
-description: .
+description: . (IThumbnailCachePrimer)
+helpviewer_keywords: ["IThumbnailCachePrimer","IThumbnailCachePrimer interface [Windows Shell]","IThumbnailCachePrimer interface [Windows Shell]","described","shell.IThumbnailCachePrimer","thumbcache/IThumbnailCachePrimer"]
 old-location: shell\IThumbnailCachePrimer.htm
 tech.root: shell
 ms.assetid: 2EBDF7CF-8EDF-4d2f-9632-905C60A7BC45
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCachePrimer, IThumbnailCachePrimer interface [Windows Shell], IThumbnailCachePrimer interface [Windows Shell],described, shell.IThumbnailCachePrimer, thumbcache/IThumbnailCachePrimer
-f1_keywords:
-- thumbcache/IThumbnailCachePrimer
-dev_langs:
-- c++
 req.header: thumbcache.h
 req.include-header: Thumbcache.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- thumbcache.h
-api_name:
-- IThumbnailCachePrimer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailCachePrimer
+ - thumbcache/IThumbnailCachePrimer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - thumbcache.h
+api_name:
+ - IThumbnailCachePrimer
 ---
 
 # IThumbnailCachePrimer interface
@@ -48,43 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
-
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailCachePrimer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCachePrimer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IThumbnailCachePrimer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-ithumbnailcacheprimer-pageinthumbnail">PageInThumbnail</a>
-</td>
-<td align="left" width="63%"></td>
-</tr>
-</table> 
-
+The <b>IThumbnailCachePrimer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailCachePrimer</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

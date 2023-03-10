@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordCountOfDescriptors
 title: IATSC_VCT::GetRecordCountOfDescriptors (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordCountOfDescriptors","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","GetRecordCountOfDescriptors method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordCountOfDescriptors method","IATSC_VCT.GetRecordCountOfDescriptors","IATSC_VCT::GetRecordCountOfDescriptors","IATSC_VCTGetRecordCountOfDescriptors","atscpsipparser/IATSC_VCT::GetRecordCountOfDescriptors","mstv.iatsc_vct_getrecordcountofdescriptors"]
 old-location: mstv\iatsc_vct_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 8d85f653-181f-467f-b278-8bc721f8ff22
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IATSC_VCT.GetRecordCountOfDescriptors, IATSC_VCT::GetRecordCountOfDescriptors, IATSC_VCTGetRecordCountOfDescriptors, atscpsipparser/IATSC_VCT::GetRecordCountOfDescriptors, mstv.iatsc_vct_getrecordcountofdescriptors
-f1_keywords:
-- atscpsipparser/IATSC_VCT.GetRecordCountOfDescriptors
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_VCT.GetRecordCountOfDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_VCT::GetRecordCountOfDescriptors
+ - atscpsipparser/IATSC_VCT::GetRecordCountOfDescriptors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_VCT.GetRecordCountOfDescriptors
 ---
 
 # IATSC_VCT::GetRecordCountOfDescriptors
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRecordCountOfDescriptors</b> method returns the number of descriptors for a record in the VCT.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
-Specifies the record number, indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getcountofrecords">IATSC_VCT::GetCountOfRecords</a> method to get the number of records in the VCT.
-
+Specifies the record number, indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getcountofrecords">IATSC_VCT::GetCountOfRecords</a> method to get the number of records in the VCT.
 
 ### -param pdwVal [out]
 
 Receives the number of descriptors.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -107,18 +99,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>

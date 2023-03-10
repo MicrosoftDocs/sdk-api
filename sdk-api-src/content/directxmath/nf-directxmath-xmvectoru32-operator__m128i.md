@@ -1,7 +1,9 @@
 ---
-UID: NF:directxmath.XMVECTORU32.operator __m128i
+UID: NF:directxmath.XMVECTORU32.operator__m128i
 title: XMVECTORU32::operator __m128i
 description: Returns the object implementing the current instance of XMVECTORU32 cast to a __m128i instance of.
+tech.root: dxmath
+helpviewer_keywords: ["XMVECTORU32::operator __m128i"]
 ms.assetid: 0a8f9517-2610-4d4c-a338-43ec5b3688c0
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU32::operator __m128i
@@ -43,10 +45,12 @@ api_name:
 
 ## -description
 
-Returns the object implementing the current instance of **XMVECTORU32** cast to a <a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a> instance of.
+Returns the object implementing the current instance of **XMVECTORU32** cast to a <a href="/cpp/cpp/m128i">__m128i</a> instance of.
 [Windows systems supporting SSE Only]
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
+
+
 
 ## -remarks
 
@@ -54,4 +58,4 @@ Returns the underlying implementation object for an instance of **XMVECTORU32** 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a>
+<a href="/cpp/cpp/m128i">__m128i</a>

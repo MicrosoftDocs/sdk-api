@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMediaTypeStream.GetStreamAllocatorRequirements
 title: IAMMediaTypeStream::GetStreamAllocatorRequirements (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetStreamAllocatorRequirements retrieves the allocator requirements for the stream. This method is not currently implemented.
+helpviewer_keywords: ["GetStreamAllocatorRequirements","GetStreamAllocatorRequirements method [DirectShow]","GetStreamAllocatorRequirements method [DirectShow]","IAMMediaTypeStream interface","IAMMediaTypeStream interface [DirectShow]","GetStreamAllocatorRequirements method","IAMMediaTypeStream.GetStreamAllocatorRequirements","IAMMediaTypeStream::GetStreamAllocatorRequirements","IAMMediaTypeStreamGetStreamAllocatorRequirements","amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements","dshow.iammediatypestream_getstreamallocatorrequirements"]
 old-location: dshow\iammediatypestream_getstreamallocatorrequirements.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0a1ad5c5-0cbf-44a5-833f-951c9934bd19
 ms.date: 12/05/2018
 ms.keywords: GetStreamAllocatorRequirements, GetStreamAllocatorRequirements method [DirectShow], GetStreamAllocatorRequirements method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],GetStreamAllocatorRequirements method, IAMMediaTypeStream.GetStreamAllocatorRequirements, IAMMediaTypeStream::GetStreamAllocatorRequirements, IAMMediaTypeStreamGetStreamAllocatorRequirements, amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements, dshow.iammediatypestream_getstreamallocatorrequirements
-f1_keywords:
-- amstream/IAMMediaTypeStream.GetStreamAllocatorRequirements
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaTypeStream.GetStreamAllocatorRequirements
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaTypeStream::GetStreamAllocatorRequirements
+ - amstream/IAMMediaTypeStream::GetStreamAllocatorRequirements
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaTypeStream.GetStreamAllocatorRequirements
 ---
 
 # IAMMediaTypeStream::GetStreamAllocatorRequirements
@@ -48,41 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>GetStreamAllocatorRequirements</code> retrieves the allocator requirements for the stream. This method is not currently implemented.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pProps [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that receives the stream allocator requirements.
-
+Pointer to an <a href="/windows/win32/api/strmif/ns-strmif-allocator_properties">ALLOCATOR_PROPERTIES</a> structure that receives the stream allocator requirements.
 
 ## -returns
 
-
-
 Returns E_FAIL.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>

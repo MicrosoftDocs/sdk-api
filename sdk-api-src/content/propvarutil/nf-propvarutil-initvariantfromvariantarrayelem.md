@@ -2,15 +2,12 @@
 UID: NF:propvarutil.InitVariantFromVariantArrayElem
 title: InitVariantFromVariantArrayElem function (propvarutil.h)
 description: Initializes a VARIANT structure with a value stored in another VARIANT structure.
+helpviewer_keywords: ["InitVariantFromVariantArrayElem","InitVariantFromVariantArrayElem function [Windows Properties]","_shell_InitVariantFromVariantArrayElem","properties.InitVariantFromVariantArrayElem","propvarutil/InitVariantFromVariantArrayElem","shell.InitVariantFromVariantArrayElem"]
 old-location: properties\InitVariantFromVariantArrayElem.htm
 tech.root: properties
 ms.assetid: 531731a5-7a13-49be-8512-5cf25c96ee35
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromVariantArrayElem, InitVariantFromVariantArrayElem function [Windows Properties], _shell_InitVariantFromVariantArrayElem, properties.InitVariantFromVariantArrayElem, propvarutil/InitVariantFromVariantArrayElem, shell.InitVariantFromVariantArrayElem
-f1_keywords:
-- propvarutil/InitVariantFromVariantArrayElem
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- InitVariantFromVariantArrayElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitVariantFromVariantArrayElem
+ - propvarutil/InitVariantFromVariantArrayElem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - InitVariantFromVariantArrayElem
 ---
 
 # InitVariantFromVariantArrayElem function
@@ -48,52 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with a value stored in another <b>VARIANT</b> structure.
-
+Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with a value stored in another <b>VARIANT</b> structure.
 
 ## -parameters
-
-
-
 
 ### -param varIn [in]
 
 Type: <b>REFVARIANT</b>
 
-Reference to the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+Reference to the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param iElem [in]
 
 Type: <b>ULONG</b>
 
-Index of one of the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure elements.
-
+Index of one of the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure elements.
 
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+When this function returns, contains the initialized <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-This helper function works for <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structures of the following types:
+This helper function works for <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structures of the following types:
                 
                 
 
@@ -111,20 +98,20 @@ This helper function works for <a href="https://docs.microsoft.com/windows/deskt
 </ul>
 Additional types may be supported in the future.
 
-This function extracts a single value from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure and uses that value to initialize the output <b>VARIANT</b> structure. The calling application must use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> to free the <b>VARIANT</b> referred to by <i>pvar</i> when it is no longer needed.
+This function extracts a single value from the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure and uses that value to initialize the output <b>VARIANT</b> structure. The calling application must use <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> to free the <b>VARIANT</b> referred to by <i>pvar</i> when it is no longer needed.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is an array, <i>iElem</i> must be less than the number of elements in the array.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is an array, <i>iElem</i> must be less than the number of elements in the array.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> has a single value, <i>iElem</i> must be 0.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> has a single value, <i>iElem</i> must be 0.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is empty, this function always returns an error code.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is empty, this function always returns an error code.
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-variantgetelementcount">VariantGetElementCount</a> to obtain the number of elements in the array or array.
+You can use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-variantgetelementcount">VariantGetElementCount</a> to obtain the number of elements in the array or array.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromvariantarrayelem">InitVariantFromVariantArrayElem</a> in an iteration statement to access the values in a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromvariantarrayelem">InitVariantFromVariantArrayElem</a> in an iteration statement to access the values in a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>.
 
 
 ```cpp
@@ -147,21 +134,10 @@ for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfrompropvariantvectorelem">InitPropVariantFromPropVariantVectorElem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfrompropvariantvectorelem">InitPropVariantFromPropVariantVectorElem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-variantgetelem">VariantGetElem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-variantgetelem">VariantGetElem</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Reset
 title: IEnumFeedClockVector::Reset (winsync.h)
-description: Resets the enumerator to the beginning of the clock vector.
+description: Resets the enumerator to the beginning of the clock vector. (IEnumFeedClockVector.Reset)
+helpviewer_keywords: ["IEnumFeedClockVector interface [Windows Sync]","Reset method","IEnumFeedClockVector.Reset","IEnumFeedClockVector::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumFeedClockVector interface","winsync.ienumfeedclockvector_reset","winsync/IEnumFeedClockVector::Reset"]
 old-location: winsync\ienumfeedclockvector_reset.htm
 tech.root: winsync
 ms.assetid: dbd25148-b734-49a2-b8ad-9ded9d1a0bf2
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Reset method, IEnumFeedClockVector.Reset, IEnumFeedClockVector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_reset, winsync/IEnumFeedClockVector::Reset
-f1_keywords:
-- winsync/IEnumFeedClockVector.Reset
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumFeedClockVector.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumFeedClockVector::Reset
+ - winsync/IEnumFeedClockVector::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumFeedClockVector.Reset
 ---
 
 # IEnumFeedClockVector::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumerator to the beginning of the clock vector.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -82,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>

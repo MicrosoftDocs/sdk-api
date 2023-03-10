@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWritingMode
 title: IMFTimedTextRegion::GetWritingMode (mfmediaengine.h)
 description: Gets the writing mode of the region.
+helpviewer_keywords: ["GetWritingMode","GetWritingMode method [Media Foundation]","GetWritingMode method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetWritingMode method","IMFTimedTextRegion.GetWritingMode","IMFTimedTextRegion::GetWritingMode","mf.imftimedtextregion_getwritingmode","mfmediaengine/IMFTimedTextRegion::GetWritingMode"]
 old-location: mf\imftimedtextregion_getwritingmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: BCF99D3C-554A-4788-B54B-236F463B1EAE
 ms.date: 12/05/2018
 ms.keywords: GetWritingMode, GetWritingMode method [Media Foundation], GetWritingMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWritingMode method, IMFTimedTextRegion.GetWritingMode, IMFTimedTextRegion::GetWritingMode, mf.imftimedtextregion_getwritingmode, mfmediaengine/IMFTimedTextRegion::GetWritingMode
-f1_keywords:
-- mfmediaengine/IMFTimedTextRegion.GetWritingMode
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextRegion.GetWritingMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextRegion::GetWritingMode
+ - mfmediaengine/IMFTimedTextRegion::GetWritingMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextRegion.GetWritingMode
 ---
 
 # IMFTimedTextRegion::GetWritingMode
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the writing mode of the region.
-
 
 ## -parameters
 
-
-
-
 ### -param writingMode [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_writing_mode">MF_TIMED_TEXT_WRITING_MODE</a>*</b>
+Type: <b><a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_writing_mode">MF_TIMED_TEXT_WRITING_MODE</a>*</b>
 
-A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_writing_mode">MF_TIMED_TEXT_WRITING_MODE</a>-typed value that specifies the writing mode of the region.
-
+A pointer to a variable that receives a <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_writing_mode">MF_TIMED_TEXT_WRITING_MODE</a>-typed value that specifies the writing mode of the region.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>

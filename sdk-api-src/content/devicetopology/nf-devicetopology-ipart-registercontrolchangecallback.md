@@ -2,15 +2,12 @@
 UID: NF:devicetopology.IPart.RegisterControlChangeCallback
 title: IPart::RegisterControlChangeCallback (devicetopology.h)
 description: The RegisterControlChangeCallback method registers the IControlChangeNotify interface, which the client implements to receive notifications of status changes in this part.
+helpviewer_keywords: ["IPart interface [Core Audio]","RegisterControlChangeCallback method","IPart.RegisterControlChangeCallback","IPart::RegisterControlChangeCallback","IPartRegisterControlChangeCallback","RegisterControlChangeCallback","RegisterControlChangeCallback method [Core Audio]","RegisterControlChangeCallback method [Core Audio]","IPart interface","coreaudio.ipart_registercontrolchangecallback","devicetopology/IPart::RegisterControlChangeCallback"]
 old-location: coreaudio\ipart_registercontrolchangecallback.htm
 tech.root: CoreAudio
 ms.assetid: 58cf52c9-20ee-46c4-926e-c374a4f42240
 ms.date: 12/05/2018
 ms.keywords: IPart interface [Core Audio],RegisterControlChangeCallback method, IPart.RegisterControlChangeCallback, IPart::RegisterControlChangeCallback, IPartRegisterControlChangeCallback, RegisterControlChangeCallback, RegisterControlChangeCallback method [Core Audio], RegisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_registercontrolchangecallback, devicetopology/IPart::RegisterControlChangeCallback
-f1_keywords:
-- devicetopology/IPart.RegisterControlChangeCallback
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IPart.RegisterControlChangeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPart::RegisterControlChangeCallback
+ - devicetopology/IPart::RegisterControlChangeCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IPart.RegisterControlChangeCallback
 ---
 
 # IPart::RegisterControlChangeCallback
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>RegisterControlChangeCallback</b> method registers the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interface, which the client implements to receive notifications of status changes in this part.
-
-
-
+The <b>RegisterControlChangeCallback</b> method registers the <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interface, which the client implements to receive notifications of status changes in this part.
 
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 The function-specific control interface that is to be monitored for control changes. For more information, see Remarks.
 
-
 ### -param pNotify [in]
 
-Pointer to the client's <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interface. If the method succeeds, it calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the client's <b>IControlChangeNotify</b> interface.
-
+Pointer to the client's <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interface. If the method succeeds, it calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the client's <b>IControlChangeNotify</b> interface.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -104,14 +94,8 @@ Pointer <i>pNotify</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Set parameter <i>riid</i> to one of the following GUID values:
 
@@ -131,37 +115,31 @@ Set parameter <i>riid</i> to one of the following GUID values:
 <li>IID_IKsFormatSupport</li>
 <li>IID_IKsJackDescription</li>
 </ul>
-To obtain the interface ID of the function-specific control interface for a part, call the part's <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a> method. To obtain the interface ID of a function-specific control interface type, use the <b>__uuidof</b> operator. For example, the interface ID of <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a> is defined as follows:
+To obtain the interface ID of the function-specific control interface for a part, call the part's <a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a> method. To obtain the interface ID of a function-specific control interface type, use the <b>__uuidof</b> operator. For example, the interface ID of <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl</a> is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 const IID IID_IAudioAutoGainControl  __uuidof(IAudioAutoGainControl)
-</code></pre>
+
+```
+
 For more information about the <b>__uuidof</b> operator, see the Windows SDK documentation.
 
-Before the client releases its final reference to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interface, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a> method to unregister the interface. Otherwise, the application leaks the resources held by the <b>IControlChangeNotify</b> and <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> objects. Note that <b>RegisterControlChangeCallback</b> calls the client's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IControlChangeNotify::AddRef</a> method, and <b>UnregisterControlChangeCallback</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IControlChangeNotify::Release</a> method. If the client errs by releasing its reference to the <b>IControlChangeNotify</b> interface before calling <b>UnregisterControlChangeCallback</b>, the <b>IPart</b> object never releases its reference to the <b>IControlChangeNotify</b> interface. For example, a poorly designed <b>IControlChangeNotify</b> implementation might call <b>UnregisterControlChangeCallback</b> from the destructor for the <b>IControlChangeNotify</b> object. In this case, the client will not call <b>UnregisterControlChangeCallback</b> until the <b>IPart</b> object releases its reference to the <b>IControlChangeNotify</b> interface, and the <b>IPart</b> object will not release its reference to the <b>IControlChangeNotify</b> interface until the client calls <b>UnregisterControlChangeCallback</b>. For more information about the <b>AddRef</b> and <b>Release</b> methods, see the discussion of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface in the Windows SDK documentation.
-
-
-
+Before the client releases its final reference to the <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interface, it should call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a> method to unregister the interface. Otherwise, the application leaks the resources held by the <b>IControlChangeNotify</b> and <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> objects. Note that <b>RegisterControlChangeCallback</b> calls the client's <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IControlChangeNotify::AddRef</a> method, and <b>UnregisterControlChangeCallback</b> calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IControlChangeNotify::Release</a> method. If the client errs by releasing its reference to the <b>IControlChangeNotify</b> interface before calling <b>UnregisterControlChangeCallback</b>, the <b>IPart</b> object never releases its reference to the <b>IControlChangeNotify</b> interface. For example, a poorly designed <b>IControlChangeNotify</b> implementation might call <b>UnregisterControlChangeCallback</b> from the destructor for the <b>IControlChangeNotify</b> object. In this case, the client will not call <b>UnregisterControlChangeCallback</b> until the <b>IPart</b> object releases its reference to the <b>IControlChangeNotify</b> interface, and the <b>IPart</b> object will not release its reference to the <b>IControlChangeNotify</b> interface until the client calls <b>UnregisterControlChangeCallback</b>. For more information about the <b>AddRef</b> and <b>Release</b> methods, see the discussion of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface in the Windows SDK documentation.
 
 ## -see-also
 
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify Interface</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolinterface-getiid">IControlInterface::GetIID</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-unregistercontrolchangecallback">IPart::UnregisterControlChangeCallback</a>

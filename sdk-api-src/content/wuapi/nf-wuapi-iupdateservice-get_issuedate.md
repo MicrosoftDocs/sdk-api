@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateService.get_IssueDate
 title: IUpdateService::get_IssueDate (wuapi.h)
 description: Gets the date on which the authorization cabinet file was issued.
+helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","IssueDate property","IUpdateService.IssueDate","IUpdateService.get_IssueDate","IUpdateService::IssueDate","IUpdateService::get_IssueDate","IssueDate property [Windows Update Agent]","IssueDate property [Windows Update Agent]","IUpdateService interface","get_IssueDate","wua.iupdateservice_issuedate","wuapi/IUpdateService::IssueDate","wuapi/IUpdateService::get_IssueDate"]
 old-location: wua\iupdateservice_issuedate.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b60627ec-2f7c-4845-97ab-74514cb82de5
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IssueDate property, IUpdateService.IssueDate, IUpdateService.get_IssueDate, IUpdateService::IssueDate, IUpdateService::get_IssueDate, IssueDate property [Windows Update Agent], IssueDate property [Windows Update Agent],IUpdateService interface, get_IssueDate, wua.iupdateservice_issuedate, wuapi/IUpdateService::IssueDate, wuapi/IUpdateService::get_IssueDate
-f1_keywords:
-- wuapi/IUpdateService.IssueDate
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateService.IssueDate
-- IUpdateService.get_IssueDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateService::get_IssueDate
+ - wuapi/IUpdateService::get_IssueDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateService.IssueDate
+ - IUpdateService.get_IssueDate
 ---
 
 # IUpdateService::get_IssueDate
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the date on which the authorization cabinet file was issued.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

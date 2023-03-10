@@ -1,16 +1,13 @@
 ---
 UID: NC:rasdlg.RASPBDLGFUNCA
 title: RASPBDLGFUNCA (rasdlg.h)
-description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open.
+description: The RasPBDlgFunc function is an application-defined callback function that receives notifications of user activity while the RasPhonebookDlg dialog box is open. (ANSI)
+helpviewer_keywords: ["RASPBDEVENT_AddEntry","RASPBDEVENT_DialEntry","RASPBDEVENT_EditEntry","RASPBDEVENT_EditGlobals","RASPBDEVENT_NoUser","RASPBDEVENT_NoUserEdit","RASPBDEVENT_RemoveEntry","RasPBDlgFunc","RasPBDlgFunc callback","RasPBDlgFunc callback function [RAS]","RasPBDlgFuncA","RasPBDlgFuncW","_ras_raspbdlgfunc","rasdlg/RasPBDlgFunc","rasdlg/RasPBDlgFuncA","rasdlg/RasPBDlgFuncW","rras.raspbdlgfunc"]
 old-location: rras\raspbdlgfunc.htm
 tech.root: RRAS
 ms.assetid: 70bb60a1-6a56-43fd-9352-8ced34ddd174
 ms.date: 12/05/2018
 ms.keywords: RASPBDEVENT_AddEntry, RASPBDEVENT_DialEntry, RASPBDEVENT_EditEntry, RASPBDEVENT_EditGlobals, RASPBDEVENT_NoUser, RASPBDEVENT_NoUserEdit, RASPBDEVENT_RemoveEntry, RasPBDlgFunc, RasPBDlgFunc callback, RasPBDlgFunc callback function [RAS], RasPBDlgFuncA, RasPBDlgFuncW, _ras_raspbdlgfunc, rasdlg/RasPBDlgFunc, rasdlg/RasPBDlgFuncA, rasdlg/RasPBDlgFuncW, rras.raspbdlgfunc
-f1_keywords:
-- rasdlg/RasPBDlgFunc
-dev_langs:
-- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Rasdlg.h
-api_name:
-- RasPBDlgFunc
-- RasPBDlgFuncA
-- RasPBDlgFuncW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RASPBDLGFUNCA
+ - rasdlg/RASPBDLGFUNCA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Rasdlg.h
+api_name:
+ - RasPBDlgFunc
+ - RasPBDlgFuncA
+ - RasPBDlgFuncW
 ---
 
 # RASPBDLGFUNCA callback function
@@ -50,40 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasPBDlgFunc</b> function is an application-defined callback function that receives notifications of user activity while the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> dialog box is open.
-
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> dialog box is open.
 
 ## -parameters
 
+### -param unnamedParam1
 
+### -param unnamedParam2
 
+### -param unnamedParam3
 
-### -param Arg1
-
-
-### -param Arg2
-
-
-### -param Arg3
-
-
-### -param Arg4
-
-
-
-
-
-
-
+### -param unnamedParam4
 
 #### - dwCallbackId [in]
 
 Specifies the application-defined value that was specified in the <b>dwCallback</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> function.
+<a href="/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure passed to the 
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> function.
 
 
 #### - dwEvent [in]
@@ -149,7 +136,7 @@ Received when the user makes changes in the<b> User Preferences</b> property she
 
 
 This event is also received during dialog startup if the <i>lpszPhonebook</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> call is <b>NULL</b>. In this case, the event informs the caller of the path of the default phone book.
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> call is <b>NULL</b>. In this case, the event informs the caller of the path of the default phone book.
 
 </td>
 </tr>
@@ -160,8 +147,8 @@ This event is also received during dialog startup if the <i>lpszPhonebook</i> pa
 </td>
 <td width="60%">
 Received during dialog box initialization when the RASPBDFLAG_NoUser flag is set. The <i>pData</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a> structure. The callback function should fill the structure with the user's logon credentials and dialog time out. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> function then uses the supplied credentials for authentication by the remote server. The <i>pszText</i> parameter is undefined.
+<a href="/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a> structure. The callback function should fill the structure with the user's logon credentials and dialog time out. The 
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a> function then uses the supplied credentials for authentication by the remote server. The <i>pszText</i> parameter is undefined.
 
 </td>
 </tr>
@@ -172,7 +159,7 @@ Received during dialog box initialization when the RASPBDFLAG_NoUser flag is set
 </td>
 <td width="60%">
 Received if the RASPBDFLAG_NoUser flag is set and the user changes the credentials that are supplied during the <b>RASPBDEVENT_NoUser</b> event. The <i>pData</i> parameter is a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a> structure that contains the updated credentials. This occurs during a dialing operation if the user changes his or her password, or if the authentication fails and the user retries authentication with different credentials. The <i>pszText</i> parameter is undefined.
+<a href="/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a> structure that contains the updated credentials. This occurs during a dialing operation if the user changes his or her password, or if the authentication fails and the user retries authentication with different credentials. The <i>pszText</i> parameter is undefined.
 
 </td>
 </tr>
@@ -189,35 +176,23 @@ Pointer to an additional buffer argument whose meaning depends on the event indi
 
 Pointer to an additional string argument whose meaning depends on the event indicated in the <i>dwEvent</i> parameter.
 
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377598(v=vs.85)">RASNOUSER</a>
+<a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-rasdlg-rasphonebookdlga">RasPhonebookDlg</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The rasdlg.h header defines RASPBDLGFUNC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

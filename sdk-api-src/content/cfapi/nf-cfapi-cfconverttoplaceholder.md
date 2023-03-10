@@ -2,15 +2,12 @@
 UID: NF:cfapi.CfConvertToPlaceholder
 title: CfConvertToPlaceholder function (cfapi.h)
 description: Converts a normal file/directory to a placeholder file/directory.
+helpviewer_keywords: ["CfConvertToPlaceholder","CfConvertToPlaceholder function","cfapi/CfConvertToPlaceholder","cloudApi.cfconverttoplaceholder"]
 old-location: cloudapi\cfconverttoplaceholder.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: FDDE9CB0-E1A2-46D6-94E0-228495675271
 ms.date: 12/05/2018
 ms.keywords: CfConvertToPlaceholder, CfConvertToPlaceholder function, cfapi/CfConvertToPlaceholder, cloudApi.cfconverttoplaceholder
-f1_keywords:
-- cfapi/CfConvertToPlaceholder
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CldApi.dll
-api_name:
-- CfConvertToPlaceholder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CfConvertToPlaceholder
+ - cfapi/CfConvertToPlaceholder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CldApi.dll
+api_name:
+ - CfConvertToPlaceholder
 ---
 
 # CfConvertToPlaceholder function
@@ -48,39 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a normal file/directory to a placeholder file/directory.
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [in]
 
 Handle to the file or directory to be converted.
 
-
 ### -param FileIdentity [in, optional]
 
 A user mode buffer that contains the opaque file or directory information supplied by the caller. Optional if the caller is not dehydrating the file at the same time, or if the caller is converting a directory. Cannot exceed 4KB in size.
-
 
 ### -param FileIdentityLength [in]
 
 Length, in bytes, of the <i>FileIdentity</i>.
 
-
 ### -param ConvertFlags [in]
 
 Placeholder conversion flags.
 
-
 ### -param ConvertUsn [out, optional]
 
 The final USN value after convert actions are performed.
-
 
 ### -param Overlapped [in, out, optional]
 
@@ -88,21 +80,13 @@ When specified and combined with an asynchronous <i>FileHandle</i>, <i>Overlappe
 
 If not specified, the platform will perform the API call synchronously, regardless of how the handle was created.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-In the file case, the caller must acquire an exclusive handle to the file if it also intends to dehydrate the file at the same time or data corruption can occur. To minimize the impact on user applications it is highly recommended that the caller obtain the exclusiveness using proper oplocks (via <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a>) as opposed to using a share-nothing handle.
+In the file case, the caller must acquire an exclusive handle to the file if it also intends to dehydrate the file at the same time or data corruption can occur. To minimize the impact on user applications it is highly recommended that the caller obtain the exclusiveness using proper oplocks (via <a href="/windows/desktop/api/cfapi/nf-cfapi-cfopenfilewithoplock">CfOpenFileWithOplock</a>) as opposed to using a share-nothing handle.
 
 
 To convert a placeholder:
@@ -121,7 +105,4 @@ To convert a placeholder:
 </ul>
 
 
-If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>. 
-
-
-
+If the API returns HRESULT_FROM_WIN32(ERROR_IO_PENDING) when using <i>Overlapped</i> asynchronously, the caller can then wait using <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>.

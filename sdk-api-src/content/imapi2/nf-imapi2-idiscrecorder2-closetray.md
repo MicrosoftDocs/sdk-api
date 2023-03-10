@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.CloseTray
 title: IDiscRecorder2::CloseTray (imapi2.h)
 description: Closes the media tray.
+helpviewer_keywords: ["CloseTray","CloseTray method [IMAPI]","CloseTray method [IMAPI]","IDiscRecorder2 interface","IDiscRecorder2 interface [IMAPI]","CloseTray method","IDiscRecorder2.CloseTray","IDiscRecorder2::CloseTray","imapi.idiscrecorder2_closetray","imapi2/IDiscRecorder2::CloseTray"]
 old-location: imapi\idiscrecorder2_closetray.htm
 tech.root: imapi
 ms.assetid: 0a30f3bb-68fc-45d5-826d-79ed9209f391
 ms.date: 12/05/2018
 ms.keywords: CloseTray, CloseTray method [IMAPI], CloseTray method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],CloseTray method, IDiscRecorder2.CloseTray, IDiscRecorder2::CloseTray, imapi.idiscrecorder2_closetray, imapi2/IDiscRecorder2::CloseTray
-f1_keywords:
-- imapi2/IDiscRecorder2.CloseTray
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.CloseTray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::CloseTray
+ - imapi2/IDiscRecorder2::CloseTray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.CloseTray
 ---
 
 # IDiscRecorder2::CloseTray
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Closes the media tray. 
-
-
-## -parameters
-
-
-
+Closes the media tray.
 
 
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -344,31 +337,16 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  Some drives, such as those with slot-loading mechanisms, do not support this method. To determine if the device supports this method, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia">IDiscRecorder2::get_DeviceCanLoadMedia</a> property.</div>
+<div class="alert"><b>Note</b>  Some drives, such as those with slot-loading mechanisms, do not support this method. To determine if the device supports this method, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_devicecanloadmedia">IDiscRecorder2::get_DeviceCanLoadMedia</a> property.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>

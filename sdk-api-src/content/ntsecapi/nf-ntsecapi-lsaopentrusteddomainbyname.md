@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.LsaOpenTrustedDomainByName
 title: LsaOpenTrustedDomainByName function (ntsecapi.h)
 description: The LsaOpenTrustedDomainByName function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.
+helpviewer_keywords: ["LsaOpenTrustedDomainByName","LsaOpenTrustedDomainByName function [Security]","_lsa_lsaopentrusteddomainbyname","ntsecapi/LsaOpenTrustedDomainByName","security.lsaopentrusteddomainbyname"]
 old-location: security\lsaopentrusteddomainbyname.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 6c55f8b4-d8a2-48e3-8074-b3ca22ce487a
 ms.date: 12/05/2018
 ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname
-f1_keywords:
-- ntsecapi/LsaOpenTrustedDomainByName
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- LsaOpenTrustedDomainByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaOpenTrustedDomainByName
+ - ntsecapi/LsaOpenTrustedDomainByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - LsaOpenTrustedDomainByName
 ---
 
 # LsaOpenTrustedDomainByName function
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaOpenTrustedDomainByName</b> function opens the LSA policy handle of a remote trusted domain. You can pass this handle into LSA function calls in order to set or query the LSA policy of the remote machine.
-
 
 ## -parameters
 
-
-
-
 ### -param PolicyHandle [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. This is the policy handle of the local machine. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
-
+A handle to a <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. This is the policy handle of the local machine. For more information, see 
+<a href="/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 ### -param TrustedDomainName [in]
 
 Name of the trusted domain. This name can be either the flat name, or the Domain Name System (DNS) domain name.
 
-
 ### -param DesiredAccess [in]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> structure that specifies the access permissions requested on the remote trusted domain object.
-
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> structure that specifies the access permissions requested on the remote trusted domain object.
 
 ### -param TrustedDomainHandle [out]
 
@@ -82,17 +76,14 @@ Pointer that receives the address of the LSA policy handle of the remote trusted
 
 
 When your application no longer needs this handle, it should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a> to delete the handle.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a> to delete the handle.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -125,18 +116,8 @@ There is no Trusted Domain object in the target system's LSA Database having the
  
 
 You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
-
-
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a>

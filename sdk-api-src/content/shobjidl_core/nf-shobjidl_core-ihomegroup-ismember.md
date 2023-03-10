@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IHomeGroup.IsMember
 title: IHomeGroup::IsMember (shobjidl_core.h)
 description: Determines whether the local computer is a member of a HomeGroup.
+helpviewer_keywords: ["IHomeGroup interface [Windows Shell]","IsMember method","IHomeGroup.IsMember","IHomeGroup::IsMember","IsMember","IsMember method [Windows Shell]","IsMember method [Windows Shell]","IHomeGroup interface","_shell_IHomeGroup_IsMember","shell.IHomeGroup_IsMember","shobjidl_core/IHomeGroup::IsMember"]
 old-location: shell\IHomeGroup_IsMember.htm
 tech.root: shell
 ms.assetid: 9ce98b11-46fd-4168-828d-a5ba8f71b7c9
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup interface [Windows Shell],IsMember method, IHomeGroup.IsMember, IHomeGroup::IsMember, IsMember, IsMember method [Windows Shell], IsMember method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_IsMember, shell.IHomeGroup_IsMember, shobjidl_core/IHomeGroup::IsMember
-f1_keywords:
-- shobjidl_core/IHomeGroup.IsMember
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IHomeGroup.IsMember
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHomeGroup::IsMember
+ - shobjidl_core/IHomeGroup::IsMember
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IHomeGroup.IsMember
 ---
 
 # IHomeGroup::IsMember
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the local computer is a member of a HomeGroup.
 
-
 ## -parameters
-
-
-
 
 ### -param member [out]
 
@@ -63,23 +60,15 @@ Type: <b>BOOL*</b>
 
 When this method returns successfully, receives <b>TRUE</b> if the local computer is a member of a HomeGroup; otherwise, <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The following code snippet shows how to create an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a> and call <b>IHomeGroup::IsMember</b>.
+The following code snippet shows how to create an instance of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a> and call <b>IHomeGroup::IsMember</b>.
          
                 
 
@@ -109,29 +98,18 @@ if (FAILED(hr)) return hr;
 hr = spHomeGroup->IsMember(&fIsHGMember);
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ezzw7k98(v=vs.100)">CComPtr</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a>

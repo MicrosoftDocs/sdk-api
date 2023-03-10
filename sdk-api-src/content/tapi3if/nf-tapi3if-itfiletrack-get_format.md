@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITFileTrack.get_Format
 title: ITFileTrack::get_Format (tapi3if.h)
 description: The get_Format method gets the file terminal's format.
+helpviewer_keywords: ["ITFileTrack interface [TAPI 2.2]","get_Format method","ITFileTrack.get_Format","ITFileTrack::get_Format","_tapi3_itfiletrack_get_format","get_Format","get_Format method [TAPI 2.2]","get_Format method [TAPI 2.2]","ITFileTrack interface","tapi3.itfiletrack_get_format","tapi3if/ITFileTrack::get_Format"]
 old-location: tapi3\itfiletrack_get_format.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 6d489888-49b3-4fcd-9643-82f0a08fe1c6
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_Format method, ITFileTrack.get_Format, ITFileTrack::get_Format, _tapi3_itfiletrack_get_format, get_Format, get_Format method [TAPI 2.2], get_Format method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_format, tapi3if/ITFileTrack::get_Format
-f1_keywords:
-- tapi3if/ITFileTrack.get_Format
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITFileTrack.get_Format
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITFileTrack::get_Format
+ - tapi3if/ITFileTrack::get_Format
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITFileTrack.get_Format
 ---
 
 # ITFileTrack::get_Format
@@ -48,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Format</b> method gets the file terminal's format.
 
-
 ## -parameters
-
-
-
 
 ### -param ppmt [out]
 
 Pointer to an 
-<b>AM_MEDIA_TYPE</b> descriptor of the terminal format. For more information on <b>AM_MEDIA_TYPE</b>, see the DirectX documentation. 
-
+<b>AM_MEDIA_TYPE</b> descriptor of the terminal format. For more information on <b>AM_MEDIA_TYPE</b>, see the DirectX documentation.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itfiletrack">ITFileTrack</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itfiletrack">ITFileTrack</a>

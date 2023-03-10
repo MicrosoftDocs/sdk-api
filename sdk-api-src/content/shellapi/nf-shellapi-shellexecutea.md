@@ -1,16 +1,13 @@
 ---
 UID: NF:shellapi.ShellExecuteA
 title: ShellExecuteA function (shellapi.h)
-description: Performs an operation on a specified file.
+description: Performs an operation on a specified file. (ShellExecuteA)
+helpviewer_keywords: ["NULL", "ShellExecuteA", "edit", "explore", "find", "open", "print", "shellapi/ShellExecuteA"]
 old-location: shell\ShellExecute.htm
 tech.root: shell
 ms.assetid: 8b1f3978-a0ee-4684-8a37-98e270b63897
 ms.date: 12/05/2018
-ms.keywords: NULL, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShellExecute, ShellExecute function [Windows Shell], ShellExecuteA, ShellExecuteW, _win32_ShellExecute, _win32_ShellExecute_cpp, edit, explore, find, open, print, shell.ShellExecute, shellapi/ShellExecute, shellapi/ShellExecuteA, shellapi/ShellExecuteW
-f1_keywords:
-- shellapi/ShellExecute
-dev_langs:
-- c++
+ms.keywords: NULL, ShellExecute, ShellExecute function [Windows Shell], ShellExecuteA, ShellExecuteW, _win32_ShellExecute, _win32_ShellExecute_cpp, edit, explore, find, open, print, shell.ShellExecute, shellapi/ShellExecute, shellapi/ShellExecuteA, shellapi/ShellExecuteW
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 3.51 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- Ext-MS-Win-shell-shell32-l1-2-0.dll
-- ext-ms-win-shell-shell32-l1-1-0.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- ShellExecute
-- ShellExecuteA
-- ShellExecuteW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ShellExecuteA
+ - shellapi/ShellExecuteA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - Ext-MS-Win-shell-shell32-l1-2-0.dll
+ - ext-ms-win-shell-shell32-l1-1-0.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - ShellExecute
+ - ShellExecuteA
+ - ShellExecuteW
 ---
 
 # ShellExecuteA function
@@ -54,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs an operation on a specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in, optional]
 
 Type: <b>HWND</b>
 
 A handle to the parent window used for displaying a UI or error messages. This value can be <b>NULL</b> if the operation is not associated with a window.
-
 
 ### -param lpOperation [in, optional]
 
@@ -108,10 +104,15 @@ Prints the file specified by <i>lpFile</i>. If <i>lpFile</i> is not a document f
 
 
 
+#### runas
+
+Launches an application as Administrator. User Account Control (UAC) will prompt the user for consent to run the application elevated or enter the credentials of an administrator account used to run the application.
+
+
+
 #### NULL
 
 The default verb is used, if available. If not, the "open" verb is used. If neither verb is available, the system uses the first verb listed in the registry.
-
 
 ### -param lpFile [in]
 
@@ -119,13 +120,11 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a <b>null</b>-terminated string that specifies the file or object on which to execute the specified verb. To specify a Shell namespace object, pass the fully qualified parse name. Note that not all verbs are supported on all objects. For example, not all document types support the "print" verb. If a relative path is used for the <i>lpDirectory</i> parameter do not use a relative path for <i>lpFile</i>.
 
-
 ### -param lpParameters [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 If <i>lpFile</i> specifies an executable file, this parameter is a pointer to a <b>null</b>-terminated string that specifies the parameters to be passed to the application. The format of this string is determined by the verb that is to be invoked. If <i>lpFile</i> specifies a document file, <i>lpParameters</i> should be <b>NULL</b>.
-
 
 ### -param lpDirectory [in, optional]
 
@@ -133,93 +132,17 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a <b>null</b>-terminated string that specifies the default (working) directory for the action. If this value is <b>NULL</b>, the current working directory is used. If a relative path is provided at <i>lpFile</i>, do not use a relative path for <i>lpDirectory</i>.
 
-
 ### -param nShowCmd [in]
 
 Type: <b>INT</b>
 
-The flags that specify how an application is to be displayed when it is opened. If <i>lpFile</i> specifies a document file, the flag is simply passed to the associated application. It is up to the application to decide how to handle it. These values are defined in Winuser.h.
-
-
-
-#### SW_HIDE (0)
-
-Hides the window and activates another window.
-
-
-
-#### SW_MAXIMIZE (3)
-
-Maximizes the specified window.
-
-
-
-#### SW_MINIMIZE (6)
-
-Minimizes the specified window and activates the next top-level window in the z-order.
-
-
-
-#### SW_RESTORE (9)
-
-Activates and displays the window. If the window is minimized or maximized, Windows restores it to its original size and position. An application should specify this flag when restoring a minimized window.
-
-
-
-#### SW_SHOW (5)
-
-Activates the window and displays it in its current size and position.
-
-
-
-#### SW_SHOWDEFAULT (10)
-
-Sets the show state based on the SW_ flag specified in the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function by the program that started the application. An application should call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> with this flag to set the initial show state of its main window.
-
-
-
-#### SW_SHOWMAXIMIZED (3)
-
-Activates the window and displays it as a maximized window.
-
-
-
-#### SW_SHOWMINIMIZED (2)
-
-Activates the window and displays it as a minimized window.
-
-
-
-#### SW_SHOWMINNOACTIVE (7)
-
-Displays the window as a minimized window. The active window remains active.
-
-
-
-#### SW_SHOWNA (8)
-
-Displays the window in its current state. The active window remains active.
-
-
-
-#### SW_SHOWNOACTIVATE (4)
-
-Displays a window in its most recent size and position. The active window remains active.
-
-
-
-#### SW_SHOWNORMAL (1)
-
-Activates and displays a window. If the window is minimized or maximized, Windows restores it to its original size and position. An application should specify this flag when displaying the window for the first time.
-
+The flags that specify how an application is to be displayed when it is opened. If <i>lpFile</i> specifies a document file, the flag is simply passed to the associated application. It is up to the application to decide how to handle it. It can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function.
 
 ## -returns
 
-
-
 Type: <b>HINSTANCE</b>
 
-If the function succeeds, it returns a value greater than 32. If the function fails, it returns an error value that indicates the cause of the failure. The return value is cast as an HINSTANCE for backward compatibility with 16-bit Windows applications. It is not a true HINSTANCE, however. It can be cast only to an <b>int</b> and compared to either 32 or the following error codes below.
+If the function succeeds, it returns a value greater than 32. If the function fails, it returns an error value that indicates the cause of the failure. The return value is cast as an HINSTANCE for backward compatibility with 16-bit Windows applications. It is not a true HINSTANCE, however. It can be cast only to an <b>INT_PTR</b> and compared to either 32 or the following error codes below.
 
 <table>
 <tr>
@@ -392,14 +315,10 @@ A sharing violation occurred.
 </td>
 </tr>
 </table>
- 
 
-
-
+Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for extended error information.
 
 ## -remarks
-
-
 
 Because <b>ShellExecute</b> can delegate execution to Shell extensions (data sources, context menu handlers, verb implementations) that are activated using Component Object Model (COM), COM should be initialized before <b>ShellExecute</b> is called. Some Shell extensions require the COM single-threaded apartment (STA) type. In that case, COM should be initialized as shown here:
 
@@ -411,7 +330,7 @@ CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE)
 ```
 
 
-There are certainly instances where <b>ShellExecute</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to <i>always</i> initalize COM before using this function.
+There are certainly instances where <b>ShellExecute</b> does not use one of these types of Shell extension and those instances would not require COM to be initialized at all. Nonetheless, it is good practice to <i>always</i> initialize COM before using this function.
 
 This method allows you to execute any commands in a folder's shortcut menu or stored in the registry.
 
@@ -453,32 +372,33 @@ ShellExecute(handle, "find", <fully_qualified_path_to_folder>, NULL, NULL, 0);
 
 If <i>lpOperation</i> is <b>NULL</b>, the function opens the file specified by <i>lpFile</i>. If <i>lpOperation</i> is "open" or "explore", the function  attempts to open or explore the folder.
 
-To obtain information about the application that is launched as a result of calling <b>ShellExecute</b>, use <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>.
+To obtain information about the application that is launched as a result of calling <b>ShellExecute</b>, use <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>.
 
 <div class="alert"><b>Note</b>  The <b>Launch folder windows in a separate process</b> setting in Folder Options affects <b>ShellExecute</b>. If that option is disabled (the default setting), <b>ShellExecute</b> uses an open Explorer window rather than launch a new one. If no Explorer window is open, <b>ShellExecute</b> launches a new one.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The shellapi.h header defines ShellExecute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a>
+<a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcessA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application">IShellExecuteHook</a>
+<a href="/windows/desktop/shell/how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application">IShellExecuteHook</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/launch">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a>
+<a href="/windows/desktop/shell/launch">Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>

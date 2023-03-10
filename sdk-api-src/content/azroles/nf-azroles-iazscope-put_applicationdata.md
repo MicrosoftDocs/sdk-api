@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzScope.put_ApplicationData
 title: IAzScope::put_ApplicationData (azroles.h)
-description: The ApplicationData property of IAzScope sets or retrieves an opaque field that can be used by the application to store information.
+description: The ApplicationData property of IAzScope sets or retrieves an opaque field that can be used by the application to store information. (Put)
+helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzScope object","ApplicationData property [Security]","IAzScope interface","AzScope object [Security]","ApplicationData property","IAzScope interface [Security]","ApplicationData property","IAzScope.ApplicationData","IAzScope.put_ApplicationData","IAzScope::ApplicationData","IAzScope::get_ApplicationData","IAzScope::put_ApplicationData","azroles/IAzScope::ApplicationData","azroles/IAzScope::get_ApplicationData","azroles/IAzScope::put_ApplicationData","put_ApplicationData","security.iazscope_applicationdata"]
 old-location: security\iazscope_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c54aaadb-0c4a-43f9-ac50-413ed190b365
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzScope object, ApplicationData property [Security],IAzScope interface, AzScope object [Security],ApplicationData property, IAzScope interface [Security],ApplicationData property, IAzScope.ApplicationData, IAzScope.put_ApplicationData, IAzScope::ApplicationData, IAzScope::get_ApplicationData, IAzScope::put_ApplicationData, azroles/IAzScope::ApplicationData, azroles/IAzScope::get_ApplicationData, azroles/IAzScope::put_ApplicationData, put_ApplicationData, security.iazscope_applicationdata
-f1_keywords:
-- azroles/IAzScope.ApplicationData
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzScope.ApplicationData
-- IAzScope.get_ApplicationData
-- IAzScope.put_ApplicationData
-- AzScope.ApplicationData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzScope::put_ApplicationData
+ - azroles/IAzScope::put_ApplicationData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzScope.ApplicationData
+ - IAzScope.get_ApplicationData
+ - IAzScope.put_ApplicationData
+ - AzScope.ApplicationData
 ---
 
 # IAzScope::put_ApplicationData
@@ -51,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ApplicationData</b> property sets or retrieves an opaque field that can be used by the application to store information.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Important</b>  Policy administrators can read from and write to this property. Applications should not store data in the <b>ApplicationData</b> property that should not be available to the policy administrator.</div>
 <div> </div>
-
 

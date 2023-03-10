@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateSearcher.EndSearch
 title: IUpdateSearcher::EndSearch (wuapi.h)
 description: Completes an asynchronous search for updates.
+helpviewer_keywords: ["EndSearch","EndSearch method [Windows Update Agent]","EndSearch method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","EndSearch method","IUpdateSearcher.EndSearch","IUpdateSearcher::EndSearch","wua.iupdatesearcherendsearch","wuapi/IUpdateSearcher::EndSearch"]
 old-location: wua\iupdatesearcherendsearch.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 4a0532ec-3613-4aa1-96d7-7291b9ca7a94
 ms.date: 12/05/2018
 ms.keywords: EndSearch, EndSearch method [Windows Update Agent], EndSearch method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EndSearch method, IUpdateSearcher.EndSearch, IUpdateSearcher::EndSearch, wua.iupdatesearcherendsearch, wuapi/IUpdateSearcher::EndSearch
-f1_keywords:
-- wuapi/IUpdateSearcher.EndSearch
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher.EndSearch
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher::EndSearch
+ - wuapi/IUpdateSearcher::EndSearch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher.EndSearch
 ---
 
 # IUpdateSearcher::EndSearch
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Completes an asynchronous search for updates.
-
 
 ## -parameters
 
-
-
-
 ### -param searchJob [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a> interface that the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a> method returns.
-
+The <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a> interface that the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-beginsearch">BeginSearch</a> method returns.
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a> interface that contains the following:
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a> interface that contains the following:
 
 <ul>
 <li>The result of an operation</li>
@@ -72,8 +68,6 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearc
 </ul>
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -102,7 +96,7 @@ An  asynchronous search for updates is  successful.
 </dl>
 </td>
 <td width="60%">
-You cannot search for updates if the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> is set to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>, and the managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.
+You cannot search for updates if the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> is set to <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wuapicommon/ne-wuapicommon-serverselection.md">ssManagedServer</a> or to <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wuapicommon/ne-wuapicommon-serverselection.md">ssDefault</a>, and the managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.
 
 </td>
 </tr>
@@ -135,7 +129,7 @@ This  method cannot be called from a remote computer.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-endsearch">EndSearch</a> method returns <b>WU_E_INVALID_OPERATION</b> if <b>EndSearch</b> has already been called for the search  job.
+The <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-endsearch">EndSearch</a> method returns <b>WU_E_INVALID_OPERATION</b> if <b>EndSearch</b> has already been called for the search  job.
 
 </td>
 </tr>
@@ -151,28 +145,11 @@ An invalid criteria was encountered during a search.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
-
-
-
-
+When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

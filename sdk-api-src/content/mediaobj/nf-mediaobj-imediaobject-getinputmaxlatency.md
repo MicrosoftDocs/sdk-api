@@ -2,15 +2,12 @@
 UID: NF:mediaobj.IMediaObject.GetInputMaxLatency
 title: IMediaObject::GetInputMaxLatency (mediaobj.h)
 description: The GetInputMaxLatency method retrieves the maximum latency on a specified input stream.
+helpviewer_keywords: ["GetInputMaxLatency","GetInputMaxLatency method [DirectShow]","GetInputMaxLatency method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetInputMaxLatency method","IMediaObject.GetInputMaxLatency","IMediaObject::GetInputMaxLatency","IMediaObjectGetInputMaxLatency","dshow.imediaobject_getinputmaxlatency","mediaobj/IMediaObject::GetInputMaxLatency"]
 old-location: dshow\imediaobject_getinputmaxlatency.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f8a18b4c-a59c-4e9d-aff7-62333e9ffda9
 ms.date: 12/05/2018
 ms.keywords: GetInputMaxLatency, GetInputMaxLatency method [DirectShow], GetInputMaxLatency method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputMaxLatency method, IMediaObject.GetInputMaxLatency, IMediaObject::GetInputMaxLatency, IMediaObjectGetInputMaxLatency, dshow.imediaobject_getinputmaxlatency, mediaobj/IMediaObject::GetInputMaxLatency
-f1_keywords:
-- mediaobj/IMediaObject.GetInputMaxLatency
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaObject.GetInputMaxLatency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaObject::GetInputMaxLatency
+ - mediaobj/IMediaObject::GetInputMaxLatency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaObject.GetInputMaxLatency
 ---
 
 # IMediaObject::GetInputMaxLatency
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetInputMaxLatency</code> method retrieves the maximum latency on a specified input stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputStreamIndex
 
 Zero-based index of an input stream on the DMO.
 
-
 ### -param prtMaxLatency [out]
 
 Pointer to a variable that receives the maximum latency.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -127,14 +117,8 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The latency is the difference between a time stamp on the input stream and the corresponding time stamp on the output stream. The maximum latency is the largest possible difference in the time stamps. For a DMO, determine the maximum latency as follows:
 
@@ -149,16 +133,6 @@ For the special case where a DMO processes exactly one sample at a time, the max
 
 Latency is defined only when samples have time stamps, and the time stamps increase or decrease monotonically. Maximum latency might depend on the media types for the input and output streams.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

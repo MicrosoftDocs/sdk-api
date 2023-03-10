@@ -2,15 +2,12 @@
 UID: NF:dwmapi.DwmEnableComposition
 title: DwmEnableComposition function (dwmapi.h)
 description: Enables or disables Desktop Window Manager (DWM) composition.
+helpviewer_keywords: ["DwmEnableComposition","DwmEnableComposition function [Desktop Window Manager]","_udwm_dwmenablecomposition","_udwm_dwmenablecomposition_cpp","dwm.dwmenablecomposition","dwmapi/DwmEnableComposition","winui._udwm_dwmenablecomposition"]
 old-location: dwm\dwmenablecomposition.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablecomposition.htm
 ms.date: 12/05/2018
 ms.keywords: DwmEnableComposition, DwmEnableComposition function [Desktop Window Manager], _udwm_dwmenablecomposition, _udwm_dwmenablecomposition_cpp, dwm.dwmenablecomposition, dwmapi/DwmEnableComposition, winui._udwm_dwmenablecomposition
-f1_keywords:
-- dwmapi/DwmEnableComposition
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-api_name:
-- DwmEnableComposition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmEnableComposition
+ - dwmapi/DwmEnableComposition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+api_name:
+ - DwmEnableComposition
 ---
 
 # DwmEnableComposition function
@@ -48,16 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables Desktop Window Manager (DWM) composition.
         
             
 <div class="alert"><b>Note</b>  This function is deprecated as of Windows 8. DWM can no longer be programmatically disabled.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param uCompositionAction
 
@@ -69,18 +67,11 @@ Enables or disables Desktop Window Manager (DWM) composition.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Disabling DWM composition disables it for the entire desktop. DWM composition will be automatically enabled when all processes that have disabled composition have called <b>DwmEnableComposition</b> to enable it or have been terminated. The <a href="https://docs.microsoft.com/windows/desktop/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> notification is sent whenever DWM composition is enabled or disabled.
+Disabling DWM composition disables it for the entire desktop. DWM composition will be automatically enabled when all processes that have disabled composition have called <b>DwmEnableComposition</b> to enable it or have been terminated. The <a href="/windows/desktop/dwm/wm-dwmcompositionchanged">WM_DWMCOMPOSITIONCHANGED</a> notification is sent whenever DWM composition is enabled or disabled.
 
 
 #### Examples
@@ -102,17 +93,6 @@ if (SUCCEEDED(hr))
 ...
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dwm/composition-ovw">Enable and Control DWM Composition</a>
- 
-
- 
-
+<a href="/windows/desktop/dwm/composition-ovw">Enable and Control DWM Composition</a>

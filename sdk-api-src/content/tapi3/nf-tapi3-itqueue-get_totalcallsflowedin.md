@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsFlowedIn
 title: ITQueue::get_TotalCallsFlowedIn (tapi3.h)
-description: The get_TotalCallsFlowedIn method gets the total number of calls that flowed into this queue (passed down from another queue or ACD group) during the current measurement period.
+description: The ITQueue::get_TotalCallsFlowedIn (tapi3.h) method gets the total number of calls that flowed into this queue during the current measurement period.
+helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_TotalCallsFlowedIn method","ITQueue.get_TotalCallsFlowedIn","ITQueue::get_TotalCallsFlowedIn","_tapi3_itqueue_get_totalcallsflowedin","get_TotalCallsFlowedIn","get_TotalCallsFlowedIn method [TAPI 2.2]","get_TotalCallsFlowedIn method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_totalcallsflowedin","tapi3cc/ITQueue::get_TotalCallsFlowedIn"]
 old-location: tapi3\itqueue_get_totalcallsflowedin.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5c351937-0f26-478a-a475-37bb67aa61b9
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsFlowedIn method, ITQueue.get_TotalCallsFlowedIn, ITQueue::get_TotalCallsFlowedIn, _tapi3_itqueue_get_totalcallsflowedin, get_TotalCallsFlowedIn, get_TotalCallsFlowedIn method [TAPI 2.2], get_TotalCallsFlowedIn method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsflowedin, tapi3cc/ITQueue::get_TotalCallsFlowedIn
-f1_keywords:
-- tapi3/ITQueue.get_TotalCallsFlowedIn
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITQueue.get_TotalCallsFlowedIn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITQueue::get_TotalCallsFlowedIn
+ - tapi3/ITQueue::get_TotalCallsFlowedIn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITQueue.get_TotalCallsFlowedIn
 ---
 
 # ITQueue::get_TotalCallsFlowedIn
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_TotalCallsFlowedIn</b> method gets the total number of calls that flowed into this queue (passed down from another queue or ACD group) during the current measurement period. The measurement period is switch or implementation specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
-
-
-
 
 ### -param plCalls [out]
 
 Pointer to the number of calls.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,18 +114,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>

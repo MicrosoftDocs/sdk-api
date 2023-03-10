@@ -2,15 +2,12 @@
 UID: NF:ctffunc.IEnumTfLatticeElements.Reset
 title: IEnumTfLatticeElements::Reset (ctffunc.h)
 description: IEnumTfLatticeElements::Reset method
+helpviewer_keywords: ["IEnumTfLatticeElements interface [Text Services Framework]","Reset method","IEnumTfLatticeElements.Reset","IEnumTfLatticeElements::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfLatticeElements interface","_tsf_ienumtflatticeelements_reset_ref","ctffunc/IEnumTfLatticeElements::Reset","tsf.ienumtflatticeelements_reset"]
 old-location: tsf\ienumtflatticeelements_reset.htm
 tech.root: TSF
 ms.assetid: 9b4b7479-33e9-4bff-8e18-f4e03060dc73
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Reset method, IEnumTfLatticeElements.Reset, IEnumTfLatticeElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_reset_ref, ctffunc/IEnumTfLatticeElements::Reset, tsf.ienumtflatticeelements_reset
-f1_keywords:
-- ctffunc/IEnumTfLatticeElements.Reset
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sptip.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sptip.dll
-api_name:
-- IEnumTfLatticeElements.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfLatticeElements::Reset
+ - ctffunc/IEnumTfLatticeElements::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sptip.dll
+api_name:
+ - IEnumTfLatticeElements.Reset
 ---
 
 # IEnumTfLatticeElements::Reset
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-## -parameters
-
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +75,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

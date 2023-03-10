@@ -2,15 +2,12 @@
 UID: NF:tuner.IESRequestTunerEvent.GetConsequences
 title: IESRequestTunerEvent::GetConsequences (tuner.h)
 description: Gets a code that indicates the consequences of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
+helpviewer_keywords: ["GetConsequences","GetConsequences method [Microsoft TV Technologies]","GetConsequences method [Microsoft TV Technologies]","IESRequestTunerEvent interface","IESRequestTunerEvent interface [Microsoft TV Technologies]","GetConsequences method","IESRequestTunerEvent.GetConsequences","IESRequestTunerEvent::GetConsequences","mstv.iesrequesttunerevent_getconsequences","tuner/IESRequestTunerEvent::GetConsequences"]
 old-location: mstv\iesrequesttunerevent_getconsequences.htm
 tech.root: mstv
 ms.assetid: 39588da7-90e7-4544-b53c-0f0ddb6cd951
 ms.date: 12/05/2018
 ms.keywords: GetConsequences, GetConsequences method [Microsoft TV Technologies], GetConsequences method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetConsequences method, IESRequestTunerEvent.GetConsequences, IESRequestTunerEvent::GetConsequences, mstv.iesrequesttunerevent_getconsequences, tuner/IESRequestTunerEvent::GetConsequences
-f1_keywords:
-- tuner/IESRequestTunerEvent.GetConsequences
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESRequestTunerEvent.GetConsequences
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESRequestTunerEvent::GetConsequences
+ - tuner/IESRequestTunerEvent::GetConsequences
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESRequestTunerEvent.GetConsequences
 ---
 
 # IESRequestTunerEvent::GetConsequences
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a code that indicates the consequences of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
 
-
 ## -parameters
-
-
-
 
 ### -param pbyConsequences [out, retval]
 
@@ -100,25 +97,11 @@ Reserved.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesrequesttunerevent">IESRequestTunerEvent</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesrequesttunerevent">IESRequestTunerEvent</a>

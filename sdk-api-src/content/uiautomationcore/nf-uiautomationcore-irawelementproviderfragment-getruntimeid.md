@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IRawElementProviderFragment.GetRuntimeId
 title: IRawElementProviderFragment::GetRuntimeId (uiautomationcore.h)
 description: Retrieves the runtime identifier of an element.
+helpviewer_keywords: ["GetRuntimeId","GetRuntimeId method [Windows Accessibility]","GetRuntimeId method [Windows Accessibility]","IRawElementProviderFragment interface","IRawElementProviderFragment interface [Windows Accessibility]","GetRuntimeId method","IRawElementProviderFragment.GetRuntimeId","IRawElementProviderFragment::GetRuntimeId","uiauto.uiauto_IRawElementProviderFragment_GetRuntimeId","uiauto_IRawElementProviderFragment_GetRuntimeId","uiautomationcore/IRawElementProviderFragment::GetRuntimeId","winauto.uiauto_IRawElementProviderFragment_GetRuntimeId"]
 old-location: winauto\uiauto_IRawElementProviderFragment_GetRuntimeId.htm
 tech.root: WinAuto
 ms.assetid: e1252353-235e-489e-8eb9-be80d4850ca4
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeId, GetRuntimeId method [Windows Accessibility], GetRuntimeId method [Windows Accessibility],IRawElementProviderFragment interface, IRawElementProviderFragment interface [Windows Accessibility],GetRuntimeId method, IRawElementProviderFragment.GetRuntimeId, IRawElementProviderFragment::GetRuntimeId, uiauto.uiauto_IRawElementProviderFragment_GetRuntimeId, uiauto_IRawElementProviderFragment_GetRuntimeId, uiautomationcore/IRawElementProviderFragment::GetRuntimeId, winauto.uiauto_IRawElementProviderFragment_GetRuntimeId
-f1_keywords:
-- uiautomationcore/IRawElementProviderFragment.GetRuntimeId
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IRawElementProviderFragment.GetRuntimeId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderFragment::GetRuntimeId
+ - uiautomationcore/IRawElementProviderFragment::GetRuntimeId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IRawElementProviderFragment.GetRuntimeId
 ---
 
 # IRawElementProviderFragment::GetRuntimeId
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the runtime identifier of an element.
-
 
 ## -parameters
 
-
-
-
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to the runtime identifier. This parameter is passed uninitialized.
-				
-
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Implementations should return <b>NULL</b> for a top-level element that is hosted in a window. 
 			Other elements should return an array that contains <b>UiaAppendRuntimeId</b> 
@@ -90,7 +78,7 @@ Implementations should return <b>NULL</b> for a top-level element that is hosted
 #### Examples
 
 The following implementation for a list item returns a runtime identifier made up of the 
-            <b>UiaAppendRuntimeId</b>constant and the index of the item within the list.
+           <b>UiaAppendRuntimeId</b> constant and the index of the item within the list.
 			
 
 
@@ -119,16 +107,9 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::GetRuntimeId(SAFEARRAY ** pRetVal)
 }   
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
+<a href="/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
 
 
 
@@ -136,12 +117,8 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::GetRuntimeId(SAFEARRAY ** pRetVal)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

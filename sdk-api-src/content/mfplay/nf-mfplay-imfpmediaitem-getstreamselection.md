@@ -1,16 +1,13 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamSelection
 title: IMFPMediaItem::GetStreamSelection (mfplay.h)
-description: Queries whether a stream is selected to play.
+description: Queries whether a stream is selected to play. (IMFPMediaItem.GetStreamSelection)
+helpviewer_keywords: ["FALSE","GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStreamSelection method","IMFPMediaItem.GetStreamSelection","IMFPMediaItem::GetStreamSelection","TRUE","mf.imfpmediaitem_getstreamselection","mfplay/IMFPMediaItem::GetStreamSelection"]
 old-location: mf\imfpmediaitem_getstreamselection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 808de13b-123f-4b9c-b2e6-6c0a6f4339fc
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamSelection method, IMFPMediaItem.GetStreamSelection, IMFPMediaItem::GetStreamSelection, TRUE, mf.imfpmediaitem_getstreamselection, mfplay/IMFPMediaItem::GetStreamSelection
-f1_keywords:
-- mfplay/IMFPMediaItem.GetStreamSelection
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem.GetStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem::GetStreamSelection
+ - mfplay/IMFPMediaItem::GetStreamSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem.GetStreamSelection
 ---
 
 # IMFPMediaItem::GetStreamSelection
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Queries whether a stream is selected to play.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
-Zero-based index of the stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getnumberofstreams">IMFPMediaItem::GetNumberOfStreams</a>.
-
+Zero-based index of the stream. To get the number of streams, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getnumberofstreams">IMFPMediaItem::GetNumberOfStreams</a>.
 
 ### -param pfEnabled [out]
 
@@ -97,39 +92,19 @@ The stream is not selected. During playback, this stream will not play.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-To select or deselect a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamselection">IMFPMediaItem::SetStreamSelection</a>.
-      
-
-
-
+To select or deselect a stream, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamselection">IMFPMediaItem::SetStreamSelection</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule.put_RemoteAddresses
 title: INetFwRule::put_RemoteAddresses (netfw.h)
-description: Specifies the list of remote addresses for this rule.
+description: Specifies the list of remote addresses for this rule. (Put)
+helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","RemoteAddresses property","INetFwRule.RemoteAddresses","INetFwRule.put_RemoteAddresses","INetFwRule::RemoteAddresses","INetFwRule::get_RemoteAddresses","INetFwRule::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_remoteaddresses","netfw/INetFwRule::RemoteAddresses","netfw/INetFwRule::get_RemoteAddresses","netfw/INetFwRule::put_RemoteAddresses","put_RemoteAddresses"]
 old-location: ics\inetfwrule_remoteaddresses.htm
 tech.root: ics
 ms.assetid: 107e8cad-a603-4ac8-aa3c-6a85d47016ef
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemoteAddresses property, INetFwRule.RemoteAddresses, INetFwRule.put_RemoteAddresses, INetFwRule::RemoteAddresses, INetFwRule::get_RemoteAddresses, INetFwRule::put_RemoteAddresses, RemoteAddresses property [ICS/ICF], RemoteAddresses property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteaddresses, netfw/INetFwRule::RemoteAddresses, netfw/INetFwRule::get_RemoteAddresses, netfw/INetFwRule::put_RemoteAddresses, put_RemoteAddresses
-f1_keywords:
-- netfw/INetFwRule.RemoteAddresses
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule.RemoteAddresses
-- INetFwRule.get_RemoteAddresses
-- INetFwRule.put_RemoteAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule::put_RemoteAddresses
+ - netfw/INetFwRule::put_RemoteAddresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule.RemoteAddresses
+ - INetFwRule.get_RemoteAddresses
+ - INetFwRule.put_RemoteAddresses
 ---
 
 # INetFwRule::put_RemoteAddresses
@@ -50,22 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies  the list of remote addresses for this rule.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property is optional.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
+Also see the restrictions on changing properties described in the Remarks section of the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
 The <i>remoteAddrs</i> parameter consists of one or more comma-delimited tokens specifying the remote addresses from which the application can listen for traffic.  The default value is "*". Valid tokens include:
 
@@ -82,15 +79,6 @@ The <i>remoteAddrs</i> parameter consists of one or more comma-delimited tokens 
 <li>An IPv6 address range in the format of "start address - end address" with no spaces included.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>

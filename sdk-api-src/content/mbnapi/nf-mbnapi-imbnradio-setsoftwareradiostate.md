@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnRadio.SetSoftwareRadioState
 title: IMbnRadio::SetSoftwareRadioState (mbnapi.h)
 description: Sets the software radio state of a Mobile Broadband device.
+helpviewer_keywords: ["IMbnRadio interface [Microsoft Broadband Networks]","SetSoftwareRadioState method","IMbnRadio.SetSoftwareRadioState","IMbnRadio::SetSoftwareRadioState","SetSoftwareRadioState","SetSoftwareRadioState method [Microsoft Broadband Networks]","SetSoftwareRadioState method [Microsoft Broadband Networks]","IMbnRadio interface","mbn.imbnradio_setsoftwareradiostate","mbnapi/IMbnRadio::SetSoftwareRadioState"]
 old-location: mbn\imbnradio_setsoftwareradiostate.htm
 tech.root: mbn
 ms.assetid: d140109d-5659-42aa-b645-996dfc5a9d4e
 ms.date: 12/05/2018
 ms.keywords: IMbnRadio interface [Microsoft Broadband Networks],SetSoftwareRadioState method, IMbnRadio.SetSoftwareRadioState, IMbnRadio::SetSoftwareRadioState, SetSoftwareRadioState, SetSoftwareRadioState method [Microsoft Broadband Networks], SetSoftwareRadioState method [Microsoft Broadband Networks],IMbnRadio interface, mbn.imbnradio_setsoftwareradiostate, mbnapi/IMbnRadio::SetSoftwareRadioState
-f1_keywords:
-- mbnapi/IMbnRadio.SetSoftwareRadioState
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnRadio.SetSoftwareRadioState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnRadio::SetSoftwareRadioState
+ - mbnapi/IMbnRadio::SetSoftwareRadioState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnRadio.SetSoftwareRadioState
 ---
 
 # IMbnRadio::SetSoftwareRadioState
@@ -53,25 +55,17 @@ ms.custom: 19H1
 
 Sets the software radio state of  a Mobile Broadband device.
 
-
 ## -parameters
-
-
-
 
 ### -param radioState [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_radio">MBN_RADIO</a> value that specifies the new software radio state.
-
+A <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_radio">MBN_RADIO</a> value that specifies the new software radio state.
 
 ### -param requestID [out]
 
 A pointer to a request ID assigned by the Mobile Broadband service to identify this request.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,16 +119,10 @@ The Mobile Broadband service is not running on this system.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>SetSoftwareRadioState</b> changes the software radio state of the device. This is an asynchronous operation and it will return immediately. On completion, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete">OnSetSoftwareRadioStateComplete</a> method of the  <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface. 
+<b>SetSoftwareRadioState</b> changes the software radio state of the device. This is an asynchronous operation and it will return immediately. On completion, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onsetsoftwareradiostatecomplete">OnSetSoftwareRadioStateComplete</a> method of the  <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface. 
 
 
 Disabling the radio for a Mobile Broadband device will result in deactivation of any active connection, network packet detach, and network deregistration. If the radio off operation results in a change in the connection state, packet attach state, or network registration state, then the application will receive a notification of the changes.
@@ -144,19 +132,8 @@ When both software and hardware radio are enabled for a Mobile Broadband device,
 
 
 
-A device's radio state can change without a change request from the application.  For instance, if a user turns on the system's hardware radio switch.  The Mobile Broadband service will notify the application about a change in radio state by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange">OnRadioStateChange</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface.
-
-
-
-
+A device's radio state can change without a change request from the application.  For instance, if a user turns on the system's hardware radio switch.  The Mobile Broadband service will notify the application about a change in radio state by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnradioevents-onradiostatechange">OnRadioStateChange</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradioevents">IMbnRadioEvents</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a>

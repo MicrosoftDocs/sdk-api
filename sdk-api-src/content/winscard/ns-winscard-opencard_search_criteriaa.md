@@ -1,16 +1,13 @@
 ---
-UID: NS:winscard.__unnamed_struct_2
+UID: NS:winscard.OPENCARD_SEARCH_CRITERIAA
 title: OPENCARD_SEARCH_CRITERIAA (winscard.h)
-description: The OPENCARD_SEARCH_CRITERIA structure is used by the SCardUIDlgSelectCard function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call SCardUIDlgSelectCard without using this structure.
+description: The OPENCARD_SEARCH_CRITERIA structure is used by the SCardUIDlgSelectCard function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call SCardUIDlgSelectCard without using this structure. (ANSI)
+helpviewer_keywords: ["*LPOPENCARD_SEARCH_CRITERIAA","*POPENCARD_SEARCH_CRITERIAA","LPOPENCARD_SEARCH_CRITERIA","LPOPENCARD_SEARCH_CRITERIA structure pointer [Security]","OPENCARD_SEARCH_CRITERIA","OPENCARD_SEARCH_CRITERIA structure [Security]","OPENCARD_SEARCH_CRITERIAA","OPENCARD_SEARCH_CRITERIAW","POPENCARD_SEARCH_CRITERIA","POPENCARD_SEARCH_CRITERIA structure pointer [Security]","_smart_opencard_search_criteria","security.opencard_search_criteria","winscard/LPOPENCARD_SEARCH_CRITERIA","winscard/OPENCARD_SEARCH_CRITERIA","winscard/OPENCARD_SEARCH_CRITERIAA","winscard/OPENCARD_SEARCH_CRITERIAW","winscard/POPENCARD_SEARCH_CRITERIA"]
 old-location: security\opencard_search_criteria.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: f20874ca-a714-45b7-abcb-85bedc4e6245
 ms.date: 12/05/2018
 ms.keywords: '*LPOPENCARD_SEARCH_CRITERIAA, *POPENCARD_SEARCH_CRITERIAA, LPOPENCARD_SEARCH_CRITERIA, LPOPENCARD_SEARCH_CRITERIA structure pointer [Security], OPENCARD_SEARCH_CRITERIA, OPENCARD_SEARCH_CRITERIA structure [Security], OPENCARD_SEARCH_CRITERIAA, OPENCARD_SEARCH_CRITERIAW, POPENCARD_SEARCH_CRITERIA, POPENCARD_SEARCH_CRITERIA structure pointer [Security], _smart_opencard_search_criteria, security.opencard_search_criteria, winscard/LPOPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIA, winscard/OPENCARD_SEARCH_CRITERIAA, winscard/OPENCARD_SEARCH_CRITERIAW, winscard/POPENCARD_SEARCH_CRITERIA'
-f1_keywords:
-- winscard/OPENCARD_SEARCH_CRITERIA
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winscard.h
-api_name:
-- OPENCARD_SEARCH_CRITERIA
-- OPENCARD_SEARCH_CRITERIAA
-- OPENCARD_SEARCH_CRITERIAW
 targetos: Windows
 req.typenames: OPENCARD_SEARCH_CRITERIAA, *POPENCARD_SEARCH_CRITERIAA, *LPOPENCARD_SEARCH_CRITERIAA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - POPENCARD_SEARCH_CRITERIAA
+ - winscard/POPENCARD_SEARCH_CRITERIAA
+ - OPENCARD_SEARCH_CRITERIAA
+ - winscard/OPENCARD_SEARCH_CRITERIAA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winscard.h
+api_name:
+ - OPENCARD_SEARCH_CRITERIA
+ - OPENCARD_SEARCH_CRITERIAA
+ - OPENCARD_SEARCH_CRITERIAW
 ---
 
 # OPENCARD_SEARCH_CRITERIAA structure
@@ -50,50 +54,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OPENCARD_SEARCH_CRITERIA</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call <b>SCardUIDlgSelectCard</b> without using this structure.
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a> function in order to recognize cards that meet the requirements set forth by the caller. You can, however, call <b>SCardUIDlgSelectCard</b> without using this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field dwStructSize
 
 The length, in bytes, of the structure. Must not be <b>NULL</b>.
 
-
 ### -field lpstrGroupNames
 
-A pointer to a buffer containing null-terminated group name strings. The last string in the buffer must be terminated by two null characters. Each string is the name of a group of cards that is to be included in the search. If <b>lpstrGroupNames</b> is <b>NULL</b>, the default group (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Scard$DefaultReaders</a>) is searched.
-
+A pointer to a buffer containing null-terminated group name strings. The last string in the buffer must be terminated by two null characters. Each string is the name of a group of cards that is to be included in the search. If <b>lpstrGroupNames</b> is <b>NULL</b>, the default group (<a href="/windows/desktop/SecGloss/s-gly">Scard$DefaultReaders</a>) is searched.
 
 ### -field nMaxGroupNames
 
-The maximum number of bytes (ANSI version) or characters (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> version) in the <b>lpstrGroupNames</b> string.
-
+The maximum number of bytes (ANSI version) or characters (<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> version) in the <b>lpstrGroupNames</b> string.
 
 ### -field rgguidInterfaces
 
 Reserved for future use. An array of GUIDs that identifies the interfaces required. Set this member to <b>NULL</b>.
 
-
 ### -field cguidInterfaces
 
 Reserved for future use. The number of interfaces in the <b>rgguidInterfaces</b> array. Set this member to <b>NULL</b>.
-
 
 ### -field lpstrCardNames
 
 A pointer to a buffer that contains null-terminated card name strings. The last string in the buffer must be terminated by two null characters. Each string is the name of a card that is to be located.
 
-
 ### -field nMaxCardNames
 
 The maximum number of bytes (ANSI version) or characters (Unicode version) in the <b>lpstrGroupNames</b> string.
-
 
 ### -field lpfnCheck
 
@@ -113,8 +105,6 @@ Boolean Check(
 );
 
 ```
-
-
 
 ### -field lpfnConnect
 
@@ -136,8 +126,6 @@ Connect(
 );
 
 ```
-
-
 
 ### -field lpfnDisconnect
 
@@ -166,29 +154,25 @@ Disconnect(
 
 Void pointer to user data. This pointer is passed back to the caller on the Connect, Check, and Disconnect routines.
 
-
 ### -field dwShareMode
 
 If <b>lpfnConnect</b> is not <b>NULL</b>, the <b>dwShareMode</b> and <b>dwPreferredProtocols</b> members are ignored. If <b>lpfnConnect</b> is <b>NULL</b> and <b>dwShareMode</b> is nonzero, an internal call is made to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> that uses <b>dwShareMode</b> and <b>dwPreferredProtocols</b> as the parameter.
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> that uses <b>dwShareMode</b> and <b>dwPreferredProtocols</b> as the parameter.
 
 ### -field dwPreferredProtocols
 
 Used for internal connection as described in <b>dwShareMode</b>.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarduidlgselectcarda">SCardUIDlgSelectCard</a>
- 
-
- 
+> [!NOTE]
+> The winscard.h header defines OPENCARD_SEARCH_CRITERIA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

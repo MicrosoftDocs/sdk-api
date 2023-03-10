@@ -2,15 +2,12 @@
 UID: NF:ndhelper.INetDiagHelperInfo.GetAttributeInfo
 title: INetDiagHelperInfo::GetAttributeInfo (ndhelper.h)
 description: The GetAttributeInfo method retrieves the list of key parameters needed by the Helper Class Extension.
+helpviewer_keywords: ["GetAttributeInfo","GetAttributeInfo method [NDF]","GetAttributeInfo method [NDF]","INetDiagHelperInfo interface","INetDiagHelperInfo interface [NDF]","GetAttributeInfo method","INetDiagHelperInfo.GetAttributeInfo","INetDiagHelperInfo::GetAttributeInfo","ndf.inetdiaghelperinfo_getattributeinfo","ndhelper/INetDiagHelperInfo::GetAttributeInfo"]
 old-location: ndf\inetdiaghelperinfo_getattributeinfo.htm
 tech.root: NDF
 ms.assetid: 0c1a12f3-357f-4d96-b0ef-99d788b6e020
 ms.date: 12/05/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [NDF], GetAttributeInfo method [NDF],INetDiagHelperInfo interface, INetDiagHelperInfo interface [NDF],GetAttributeInfo method, INetDiagHelperInfo.GetAttributeInfo, INetDiagHelperInfo::GetAttributeInfo, ndf.inetdiaghelperinfo_getattributeinfo, ndhelper/INetDiagHelperInfo::GetAttributeInfo
-f1_keywords:
-- ndhelper/INetDiagHelperInfo.GetAttributeInfo
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelperInfo.GetAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelperInfo::GetAttributeInfo
+ - ndhelper/INetDiagHelperInfo::GetAttributeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelperInfo.GetAttributeInfo
 ---
 
 # INetDiagHelperInfo::GetAttributeInfo
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetAttributeInfo</b> method retrieves the list of key parameters needed by the Helper Class Extension.
 
-
 ## -parameters
-
-
-
 
 ### -param pcelt [out]
 
 A pointer to a count of elements in the array pointed to by <i>pprgAttributeInfos</i>.
 
-
 ### -param pprgAttributeInfos [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ns-ndhelper-helperattributeinfo">HelperAttributeInfo</a> structures that contain helper class key parameters.
-
+A pointer to an array of <a href="/windows/desktop/api/ndhelper/ns-ndhelper-helperattributeinfo">HelperAttributeInfo</a> structures that contain helper class key parameters.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -125,25 +118,10 @@ The caller does not have sufficient privileges to perform the diagnosis or repai
 
 Helper Class Extensions may return HRESULTS that are specific to the diagnoses or repairs.
 
-
-
-
 ## -remarks
-
-
 
 The key parameter list is used by NDF to determine whether enough information is available for the extension to perform diagnosis.  If the hypothesis to call the extension lacks a key attribute, the extension will not be called.  Optional attributes will not be returned by this call.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperinfo">INetDiagHelperInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperinfo">INetDiagHelperInfo</a>

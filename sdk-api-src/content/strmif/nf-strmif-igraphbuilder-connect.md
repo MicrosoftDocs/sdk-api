@@ -2,15 +2,12 @@
 UID: NF:strmif.IGraphBuilder.Connect
 title: IGraphBuilder::Connect (strmif.h)
 description: The Connect method connects the two pins, using intermediates if necessary.
+helpviewer_keywords: ["Connect","Connect method [DirectShow]","Connect method [DirectShow]","IGraphBuilder interface","IGraphBuilder interface [DirectShow]","Connect method","IGraphBuilder.Connect","IGraphBuilder::Connect","IGraphBuilderConnect","dshow.igraphbuilder_connect","strmif/IGraphBuilder::Connect"]
 old-location: dshow\igraphbuilder_connect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8ddcbb73-8220-4d70-9ab3-58d99fa8a958
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IGraphBuilder interface, IGraphBuilder interface [DirectShow],Connect method, IGraphBuilder.Connect, IGraphBuilder::Connect, IGraphBuilderConnect, dshow.igraphbuilder_connect, strmif/IGraphBuilder::Connect
-f1_keywords:
-- strmif/IGraphBuilder.Connect
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphBuilder.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphBuilder::Connect
+ - strmif/IGraphBuilder::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphBuilder.Connect
 ---
 
 # IGraphBuilder::Connect
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Connect</code> method connects the two pins, using intermediates if necessary.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppinOut [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on the output pin.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on the output pin.
 
 ### -param ppinIn [in]
 
 Pointer to the <b>IPin</b> interface on the input pin.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -149,33 +139,17 @@ At least one of the filters is not in the filter graph.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method connects two pins directly or indirectly, adding intermediate filters if necessary. The method starts by attempting a direct connection. If that fails, it tries to use any filters that are already in the filter graph and have unconnected input pins. (It enumerates these in an arbitrary order.) If that fails, it searches for filters in the registry, and tries them in order of merit. For more information, see <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>.
 
-
-This method connects two pins directly or indirectly, adding intermediate filters if necessary. The method starts by attempting a direct connection. If that fails, it tries to use any filters that are already in the filter graph and have unconnected input pins. (It enumerates these in an arbitrary order.) If that fails, it searches for filters in the registry, and tries them in order of merit. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>.
-
-During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-pin_info).
-
-
-
+During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](/windows/desktop/api/strmif/ns-strmif-pin_info).
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>

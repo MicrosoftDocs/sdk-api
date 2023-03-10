@@ -1,16 +1,13 @@
 ---
 UID: NF:fileapi.FindFirstFileA
 title: FindFirstFileA function (fileapi.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
+description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used). (ANSI)
+helpviewer_keywords: ["FindFirstFileA", "fileapi/FindFirstFileA"]
 old-location: fs\findfirstfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
 ms.date: 12/05/2018
 ms.keywords: FindFirstFile, FindFirstFile function [Files], FindFirstFileA, FindFirstFileW, _win32_findfirstfile, base.findfirstfile, fileapi/FindFirstFile, fileapi/FindFirstFileA, fileapi/FindFirstFileW, fs.findfirstfile, winbase/FindFirstFile, winbase/FindFirstFileA, winbase/FindFirstFileW
-f1_keywords:
-- fileapi/FindFirstFile
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- FindFirstFile
-- FindFirstFileA
-- FindFirstFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstFileA
+ - fileapi/FindFirstFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FindFirstFile
+ - FindFirstFileA
+ - FindFirstFileW
 ---
 
 # FindFirstFileA function
@@ -57,21 +59,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches a directory for a file or subdirectory with a name that matches a specific name (or partial 
     name if wildcards are used).
 
 To specify additional attributes to use in a search, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a> function.
-
+    <a href="/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -79,32 +76,29 @@ The directory or path, and the file name. The file name can include wildcard cha
        (*) or a question mark (?).
 
 This parameter should not be <b>NULL</b>, an invalid string (for example, an empty string 
-       or a string that is missing the terminating null character), or end in a trailing backslash (\).
+       or a string that is missing the terminating null character), or end in a trailing backslash (\\).
 
 If the string ends with a wildcard, period (.), or directory name, the user must have access permissions to 
        the root and all subdirectories on the path.
 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
-       "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       "\\\\?\\" to the path. For more information, see 
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>FindFirstFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>FindFirstFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 
 ### -param lpFindFileData [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that 
+A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure that 
       receives information about a found file or directory.
-
 
 ## -returns
 
-
-
 If the function succeeds, the return value is a search handle used in a subsequent call to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>, and  the 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> or 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>, and  the 
        <i>lpFindFileData</i> parameter contains information about the first file or directory 
        found.
 
@@ -112,31 +106,26 @@ If the function fails or fails to locate files from the search string in the
        <i>lpFileName</i> parameter, the return value is 
        <b>INVALID_HANDLE_VALUE</b> and the contents of <i>lpFindFileData</i> are 
        indeterminate. To get extended error information, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 If the function fails because no matching files can be found, the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
        <b>ERROR_FILE_NOT_FOUND</b>.
 
-
-
-
 ## -remarks
-
-
 
 The <b>FindFirstFile</b> function opens a search handle and 
     returns information about the first file that the file system finds with a name that matches the specified 
     pattern. This may or may not be the first file or directory that appears in a directory-listing application (such 
     as the dir command) when given the same file name string pattern. This is because 
     <b>FindFirstFile</b> does no sorting of the search results. For 
-    additional information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>.
+    additional information, see <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>.
 
 The following list identifies some other search characteristics:
 
 <ul>
 <li>The search is performed strictly on the name of the file, not on any attributes such as a date or a file 
-      type (for other options, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>).</li>
+      type (for other options, see <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>).</li>
 <li>The search includes the long and short file names.</li>
 <li>An attempt to open a search with a trailing backslash always fails.</li>
 <li>Passing an invalid string, <b>NULL</b>, or empty string for the 
@@ -146,56 +135,57 @@ The following list identifies some other search characteristics:
 <div class="alert"><b>Note</b>  In rare cases or on a heavily loaded system, file attribute information on NTFS file systems may not be 
     current at the time this function is called. To be assured of getting the current NTFS file system file 
     attributes, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function.</div>
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function.</div>
 <div> </div>
 After the search handle is established, you can use it to search for other files that match the same pattern 
-    by using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function.
+    by using the <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a> function.
 
 When the search handle is no longer needed, close it by using the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function, not 
-    <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function, not 
+    <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
-As stated previously, you cannot use a trailing backslash (\) in the <i>lpFileName</i> 
+As stated previously, you cannot use a trailing backslash (\\) in the <i>lpFileName</i> 
     input string for <b>FindFirstFile</b>, therefore it may not be 
     obvious how to search root directories. If you want to see files or get the attributes of a root directory, the 
     following options would apply:
 
 <ul>
 <li>To examine files in a root directory, you can use "C:\*" and step through the 
-      directory by using <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>.</li>
+      directory by using <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>.</li>
 <li>To get the attributes of a root directory, use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function.</li>
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function.</li>
 </ul>
 <div class="alert"><b>Note</b>  Prepending the string "\\?\" does not allow access to the root 
      directory.</div>
 <div> </div>
+
 On network shares, you can use an <i>lpFileName</i> in the form of the following: 
-    "\\Server\Share\*". However, you cannot use an <i>lpFileName</i> 
-    that points to the share itself; for example, "\\Server\Share" is not valid.
+    "\\\\Server\\Share\\*". However, you cannot use an <i>lpFileName</i> 
+    that points to the share itself; for example, "\\\\Server\\Share" is not valid.
 
 To examine a directory that is not a root directory, use the path to that directory, without a trailing 
-    backslash. For example, an argument of "C:\Windows" returns information about the 
-    directory "C:\Windows", not about a directory or file in 
-    "C:\Windows". To examine the files and directories in 
-    "C:\Windows", use an <i>lpFileName</i> of 
-    "C:\Windows\*".
+    backslash. For example, an argument of "C:\\Windows" returns information about the 
+    directory "C:\\Windows", not about a directory or file in 
+    "C:\\Windows". To examine the files and directories in 
+    "C:\\Windows", use an <i>lpFileName</i> of 
+    "C:\\Windows\\*".
 
 Be aware that some other thread or process could create or delete a file with this name between the time you 
     query for the result and the time you act on the information. If this is a potential concern for your application, 
-    one possible solution is to use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with 
+    one possible solution is to use the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function with 
     <b>CREATE_NEW</b> (which fails if the file exists) or <b>OPEN_EXISTING</b> 
     (which fails if the file does not exist).
 
 If you are writing a 32-bit application to list all the files in a directory and the application may be  run 
     on a 64-bit computer, you should call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a>function 
+    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64disablewow64fsredirection">Wow64DisableWow64FsRedirection</a> function 
     before calling <b>FindFirstFile</b> and call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> after the 
-    last call to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg64/file-system-redirector">File System Redirector</a>.
+    <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-wow64revertwow64fsredirection">Wow64RevertWow64FsRedirection</a> after the 
+    last call to <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>. For more information, see 
+    <a href="/windows/desktop/WinProg64/file-system-redirector">File System Redirector</a>.
 
 If the path points to a symbolic link, the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> buffer contains information about 
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> buffer contains information about 
     the symbolic link, not the target.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -299,55 +289,52 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 For another example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/listing-the-files-in-a-directory">Listing the Files in a Directory</a>.
+     <a href="/windows/desktop/FileIO/listing-the-files-in-a-directory">Listing the Files in a Directory</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The fileapi.h header defines FindFirstFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>

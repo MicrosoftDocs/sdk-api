@@ -2,15 +2,12 @@
 UID: NI:pwm.IOCTL_PWM_PIN_GET_POLARITY
 title: IOCTL_PWM_PIN_GET_POLARITY (pwm.h)
 description: Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a PWM_PIN_GET_POLARITY_OUTPUT structure. The signal polarity is either Active High or Active Low, as defined in the PWM_POLARITY enumeration.
+helpviewer_keywords: ["IOCTL_PWM_PIN_GET_POLARITY","IOCTL_PWM_PIN_GET_POLARITY control","IOCTL_PWM_PIN_GET_POLARITY control code","base.ioctl_pwm_pin_get_polarity","pwm/IOCTL_PWM_PIN_GET_POLARITY"]
 old-location: base\ioctl_pwm_pin_get_polarity.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 834C7CBA-179E-4C1E-9664-A70EB38D74BE
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_GET_POLARITY, IOCTL_PWM_PIN_GET_POLARITY control, IOCTL_PWM_PIN_GET_POLARITY control code, base.ioctl_pwm_pin_get_polarity, pwm/IOCTL_PWM_PIN_GET_POLARITY
-f1_keywords:
-- pwm/IOCTL_PWM_PIN_GET_POLARITY
-dev_langs:
-- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pwm.h
-api_name:
-- IOCTL_PWM_PIN_GET_POLARITY
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_PWM_PIN_GET_POLARITY
+ - pwm/IOCTL_PWM_PIN_GET_POLARITY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pwm.h
+api_name:
+ - IOCTL_PWM_PIN_GET_POLARITY
 ---
 
 # IOCTL_PWM_PIN_GET_POLARITY IOCTL
@@ -48,72 +50,45 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="https://docs.microsoft.com/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> enumeration. 
-
-
-
+Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a <a href="/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. The signal polarity is either Active High or Active Low, as  defined in the <a href="/windows/desktop/api/pwm/ne-pwm-pwm_polarity">PWM_POLARITY</a> enumeration.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 Not used with this operation; set to NULL.
 
-
 ### -input-buffer-length
 
 Not used with this operation; set to zero.
 
-
 ### -output-buffer
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. This represents the polarity value of the PWM controller, and is either Active High or Active Low.
-
+A pointer to a buffer that contains a <a href="/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. This represents the polarity value of the PWM controller, and is either Active High or Active Low.
 
 ### -output-buffer-length
 
 The size of the output buffer, in bytes.
 
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
 
 If the operation completes successfully, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns a nonzero 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns a nonzero 
        value.
 
 If the operation fails or is pending, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error 
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+To perform this operation, call the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function with the following parameters.
 
 
@@ -142,7 +117,7 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
 </td>
 <td width="60%">
 A handle to the device. To obtain a device handle, call the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 </td>
 </tr>
@@ -184,7 +159,7 @@ Not used with this operation; set to zero.
 
 </td>
 <td width="60%">
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. This represents the polarity value of the PWM controller, and is either Active High or Active Low.
+A pointer to a buffer that contains a <a href="/windows/desktop/DevIO/pwm-pin-get-polarity-output">PWM_PIN_GET_POLARITY_OUTPUT</a> structure. This represents the polarity value of the PWM controller, and is either Active High or Active Low.
 
 </td>
 </tr>
@@ -209,13 +184,13 @@ The size of the output buffer, in bytes.
 A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
 If the output buffer is too small, the call fails, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
        <b>ERROR_INSUFFICIENT_BUFFER</b>, and <i>lpBytesReturned</i> is zero.
 
 If <i>lpOverlapped</i> is <b>NULL</b>, 
        <i>lpBytesReturned</i> cannot be <b>NULL</b>. Even when an operation 
        returns no output data and <i>lpOutBuffer</i> is <b>NULL</b>, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
        makes use of <i>lpBytesReturned</i>. After such an operation, the value of 
        <i>lpBytesReturned</i> is meaningless.
 
@@ -223,10 +198,10 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
        <i>lpBytesReturned</i> can be <b>NULL</b>. If this parameter is not 
        <b>NULL</b> and the operation returns data, <i>lpBytesReturned</i> is 
        meaningless until the overlapped operation has completed. To retrieve the number of bytes returned, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>. If the 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>. If the 
        <i>hDevice</i> parameter is associated with an I/O completion port, you can retrieve the 
        number of bytes returned by calling 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>.
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>.
 
 </td>
 </tr>
@@ -238,7 +213,7 @@ If <i>lpOverlapped</i> is not <b>NULL</b>,
 <td width="60%">
 <b>LPOVERLAPPED</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 If <i>hDevice</i> was opened without specifying 
        <b>FILE_FLAG_OVERLAPPED</b>, <i>lpOverlapped</i> is ignored.
@@ -246,28 +221,17 @@ If <i>hDevice</i> was opened without specifying
 If <i>hDevice</i> was opened with the <b>FILE_FLAG_OVERLAPPED</b> flag, 
        the operation is performed as an overlapped (asynchronous) operation. In this case, 
        <i>lpOverlapped</i> must point to a valid 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an 
+       <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that contains a handle to an 
        event object. Otherwise, the function fails in unpredictable ways.
 
-For overlapped operations, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+For overlapped operations, <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
        returns immediately, and the event object is signaled when the operation has been completed. Otherwise, the 
        function does not return until the operation has been completed or an error occurs.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>

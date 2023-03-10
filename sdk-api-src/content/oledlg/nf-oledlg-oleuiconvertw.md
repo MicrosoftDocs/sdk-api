@@ -1,16 +1,13 @@
 ---
 UID: NF:oledlg.OleUIConvertW
 title: OleUIConvertW function (oledlg.h)
-description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class.
+description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class. (Unicode)
+helpviewer_keywords: ["OleUIConvert", "OleUIConvert function [COM]", "OleUIConvertW", "_ole_OleUIConvert", "com.oleuiconvert", "oledlg/OleUIConvert", "oledlg/OleUIConvertW"]
 old-location: com\oleuiconvert.htm
 tech.root: com
 ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad
 ms.date: 12/05/2018
 ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConvertW, _ole_OleUIConvert, com.oleuiconvert, oledlg/OleUIConvert, oledlg/OleUIConvertA, oledlg/OleUIConvertW
-f1_keywords:
-- oledlg/OleUIConvert
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIConvert
-- OleUIConvertA
-- OleUIConvertW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIConvertW
+ - oledlg/OleUIConvertW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIConvert
+ - OleUIConvertA
+ - OleUIConvertW
 ---
 
 # OleUIConvertW function
@@ -50,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Convert</b> dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class.
-
 
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-### -param Arg1 [in]
-
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
-
+Pointer to an <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a> structure that contains information used to initialize the dialog box.
 
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -298,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -309,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -331,7 +324,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -404,14 +397,8 @@ A string value (for example, <b>lpszUserType</b> or <b>lpszDefLabel</b>) was inv
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>OleUIConvert</b> populates the <b>Convert</b> dialog box's list box with object classes by traversing the registry and looking for entries in the Readable and ReadWritable keys. Every class that includes the original class' default file format in its Readable key is added to the Convert list, and every class that includes the original class' default file format in its ReadWritable key is added to the Activate As list. The Convert list is shown in the dialog box's list box when the <b>Convert</b> radio button is selected (the default selection), and the Activate As list is shown when <b>Activate As</b> is selected.
 
@@ -419,23 +406,20 @@ A string value (for example, <b>lpszUserType</b> or <b>lpszDefLabel</b>) was inv
 
 Note that you can change the type of all objects of a given class only when CF_CONVERTONLY is not specified.
 
-The convert command, which invokes this function, should only be made available to the user if <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a> returns S_OK. 
+The convert command, which invokes this function, should only be made available to the user if <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a> returns S_OK. 
 
 
 
 
+
+
+> [!NOTE]
+> The oledlg.h header defines OLEUICONVERT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiconverta">OLEUICONVERT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a>

@@ -1,14 +1,11 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSetBuilder2
 title: IDWriteFontSetBuilder2
-description: Contains methods for building a font set.
+description: Contains methods for building a font set. (IDWriteFontSetBuilder2)
+helpviewer_keywords: ["IDWriteFontSetBuilder2","IDWriteFontSetBuilder2 interface [Direct Write]","IDWriteFontSetBuilder2 interface [Direct Write]","described","directwrite.idwritefontsetbuilder2","dwrite_3/IDWriteFontSetBuilder2"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2, IDWriteFontSetBuilder2 interface [Direct Write], IDWriteFontSetBuilder2 interface [Direct Write],described, directwrite.idwritefontsetbuilder2, dwrite_3/IDWriteFontSetBuilder2
-f1_keywords:
-- IDWriteFontSetBuilder2
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -20,28 +17,33 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteFontSetBuilder2
+ - dwrite_3/IDWriteFontSetBuilder2
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteFontSetBuilder2
+ - IDWriteFontSetBuilder2
 ---
 
 ## -description
 
 Contains methods for building a font set.
 
-This interface extends [IDWriteFontSetBuilder1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1).
+This interface extends [IDWriteFontSetBuilder1](./nn-dwrite_3-idwritefontsetbuilder1.md).
 
 ## -see-also
 
-[IDWriteFontSetBuilder1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder1)
+[IDWriteFontSetBuilder1](./nn-dwrite_3-idwritefontsetbuilder1.md)

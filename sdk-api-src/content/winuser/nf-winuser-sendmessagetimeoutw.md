@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.SendMessageTimeoutW
 title: SendMessageTimeoutW function (winuser.h)
-description: Sends the specified message to one or more windows.
+description: Sends the specified message to one or more windows. (Unicode)
+helpviewer_keywords: ["SMTO_ABORTIFHUNG", "SMTO_BLOCK", "SMTO_ERRORONEXIT", "SMTO_NORMAL", "SMTO_NOTIMEOUTIFNOTHUNG", "SendMessageTimeout", "SendMessageTimeout function [Windows and Messages]", "SendMessageTimeoutW", "_win32_SendMessageTimeout", "_win32_sendmessagetimeout_cpp", "winmsg.sendmessagetimeout", "winui._win32_sendmessagetimeout", "winuser/SendMessageTimeout", "winuser/SendMessageTimeoutW"]
 old-location: winmsg\sendmessagetimeout.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagetimeout.htm
 ms.date: 12/05/2018
 ms.keywords: SMTO_ABORTIFHUNG, SMTO_BLOCK, SMTO_ERRORONEXIT, SMTO_NORMAL, SMTO_NOTIMEOUTIFNOTHUNG, SendMessageTimeout, SendMessageTimeout function [Windows and Messages], SendMessageTimeoutA, SendMessageTimeoutW, _win32_SendMessageTimeout, _win32_sendmessagetimeout_cpp, winmsg.sendmessagetimeout, winui._win32_sendmessagetimeout, winuser/SendMessageTimeout, winuser/SendMessageTimeoutA, winuser/SendMessageTimeoutW
-f1_keywords:
-- winuser/SendMessageTimeout
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,30 +25,36 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-message-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-message-l1-1-0.dll
-- Ext-MS-Win-NTUser-message-l1-1-1.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- Ext-MS-Win-NTUser-Message-l1-1-2.dll
-- Ext-MS-Win-NTUser-Message-L1-1-3.dll
-api_name:
-- SendMessageTimeout
-- SendMessageTimeoutA
-- SendMessageTimeoutW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SendMessageTimeoutW
+ - winuser/SendMessageTimeoutW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-message-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-message-l1-1-0.dll
+ - Ext-MS-Win-NTUser-message-l1-1-1.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Message-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+api_name:
+ - SendMessageTimeout
+ - SendMessageTimeoutA
+ - SendMessageTimeoutW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # SendMessageTimeoutW function
@@ -59,14 +62,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends the specified message to one or more windows.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
@@ -76,15 +74,13 @@ A handle to the window whose window procedure will receive the message.
 
 If this parameter is <b>HWND_BROADCAST</b> ((HWND)0xffff), the message is sent to all top-level windows in the system, including disabled or invisible unowned windows. The function does not return until each window has timed out. Therefore, the total wait time can be up to the value of <i>uTimeout</i> multiplied by the number of top-level windows.
 
-
 ### -param Msg [in]
 
 Type: <b>UINT</b>
 
 The message to be sent.
 
-For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
-
+For lists of the system-provided messages, see <a href="/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 ### -param wParam [in]
 
@@ -92,13 +88,11 @@ Type: <b>WPARAM</b>
 
 Any additional message-specific information.
 
-
 ### -param lParam [in]
 
 Type: <b>LPARAM</b>
 
 Any additional message-specific information.
-
 
 ### -param fuFlags [in]
 
@@ -167,8 +161,6 @@ The function should return 0 if the receiving window is destroyed or its owning 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param uTimeout [in]
 
@@ -176,65 +168,56 @@ Type: <b>UINT</b>
 
 The duration of the time-out period, in milliseconds. If the message is a broadcast message, each window can use the full time-out period. For example, if you specify a five second time-out period and there are three top-level windows that fail to process the message, you could have up to a 15 second delay.
 
-
 ### -param lpdwResult [out, optional]
 
 Type: <b>PDWORD_PTR</b>
 
 The result of the message processing. The value of this parameter depends on the message that is specified.
 
-
 ## -returns
 
-
-
-Type: <strong>Type: <b>LRESULT</b>
-</strong>
+Type: <b>LRESULT</b>
 
 If the function succeeds, the return value is nonzero. <b>SendMessageTimeout</b> does not provide information about individual windows timing out if <b>HWND_BROADCAST</b> is used.
 
-If the function fails or times out, the return value is 0. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If <b>GetLastError</b> returns <b>ERROR_TIMEOUT</b>, then the function timed out.
+If the function fails or times out, the return value is 0. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If <b>GetLastError</b> returns <b>ERROR_TIMEOUT</b>, then the function timed out.
 
-<b>Windows 2000:  </b>If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 0, then the function timed out.
-
-
-
+<b>Windows 2000:  </b>If <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 0, then the function timed out.
 
 ## -remarks
 
-
-
 The function calls the window procedure for the specified window and, if the specified window belongs to a different thread, does not return until the window procedure has processed the message or the specified time-out period has elapsed. If the window receiving the message belongs to the same queue as the current thread, the window procedure is called directly—the time-out value is ignored.
 
-This function considers that a thread is not responding if it has not called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or a similar function within five seconds.
+This function considers that a thread is not responding if it has not called <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or a similar function within five seconds.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SendMessageTimeout as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessage">InSendMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insendmessage">InSendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
 
 
 
@@ -242,20 +225,16 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea">SendDlgItemMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea">SendDlgItemMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IThreadPoolKnobs.GetCurrentQueuedRequests
 title: IThreadPoolKnobs::GetCurrentQueuedRequests (comsvcs.h)
 description: Retrieves the number of asynchronous execution requests that are currently queued.
+helpviewer_keywords: ["GetCurrentQueuedRequests","GetCurrentQueuedRequests method [COM+]","GetCurrentQueuedRequests method [COM+]","IThreadPoolKnobs interface","IThreadPoolKnobs interface [COM+]","GetCurrentQueuedRequests method","IThreadPoolKnobs.GetCurrentQueuedRequests","IThreadPoolKnobs::GetCurrentQueuedRequests","_cos_IThreadPoolKnobs_GetCurrentQueuedRequests","comsvcs/IThreadPoolKnobs::GetCurrentQueuedRequests","cos.ithreadpoolknobs_getcurrentqueuedrequests"]
 old-location: cos\ithreadpoolknobs_getcurrentqueuedrequests.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2ff8ffce-2e53-4e33-bf1d-7d46c5ae12bb
 ms.date: 12/05/2018
 ms.keywords: GetCurrentQueuedRequests, GetCurrentQueuedRequests method [COM+], GetCurrentQueuedRequests method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetCurrentQueuedRequests method, IThreadPoolKnobs.GetCurrentQueuedRequests, IThreadPoolKnobs::GetCurrentQueuedRequests, _cos_IThreadPoolKnobs_GetCurrentQueuedRequests, comsvcs/IThreadPoolKnobs::GetCurrentQueuedRequests, cos.ithreadpoolknobs_getcurrentqueuedrequests
-f1_keywords:
-- comsvcs/IThreadPoolKnobs.GetCurrentQueuedRequests
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IThreadPoolKnobs.GetCurrentQueuedRequests
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThreadPoolKnobs::GetCurrentQueuedRequests
+ - comsvcs/IThreadPoolKnobs::GetCurrentQueuedRequests
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IThreadPoolKnobs.GetCurrentQueuedRequests
 ---
 
 # IThreadPoolKnobs::GetCurrentQueuedRequests
@@ -48,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of asynchronous execution requests that are currently queued.
 
-
 ## -parameters
-
-
-
 
 ### -param plcCurrentQueuedRequests [out]
 
 The number of asynchronous execution requests currently queued.
 
-
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ithreadpoolknobs">IThreadPoolKnobs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-ithreadpoolknobs">IThreadPoolKnobs</a>

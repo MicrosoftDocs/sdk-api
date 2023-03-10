@@ -2,15 +2,12 @@
 UID: NC:dhcpssdk.LPDHCP_DROP_SEND
 title: LPDHCP_DROP_SEND (dhcpssdk.h)
 description: LPDHCP_DROP_SEND callback function
+helpviewer_keywords: ["DhcpPktDropHook","DhcpPktSendHook","LPDHCP_DROP_SEND","LPDHCP_DROP_SEND callback","LPDHCP_DROP_SEND callback function [DHCP]","_dhcp_dhcppktdrophook","dhcp.dhcppktdrophook","dhcpssdk/LPDHCP_DROP_SEND"]
 old-location: dhcp\dhcppktdrophook.htm
 tech.root: DHCP
 ms.assetid: 29fa3266-a0a7-4e17-bf15-35a454f78b12
 ms.date: 12/05/2018
 ms.keywords: DhcpPktDropHook, DhcpPktSendHook, LPDHCP_DROP_SEND, LPDHCP_DROP_SEND callback, LPDHCP_DROP_SEND callback function [DHCP], _dhcp_dhcppktdrophook, dhcp.dhcppktdrophook, dhcpssdk/LPDHCP_DROP_SEND
-f1_keywords:
-- dhcpssdk/LPDHCP_DROP_SEND
-dev_langs:
-- c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Dhcpssdk.h
-api_name:
-- LPDHCP_DROP_SEND
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPDHCP_DROP_SEND
+ - dhcpssdk/LPDHCP_DROP_SEND
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Dhcpssdk.h
+api_name:
+ - LPDHCP_DROP_SEND
 ---
 
 # LPDHCP_DROP_SEND callback function
@@ -48,59 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
 ## -parameters
 
-
-
-
-### -param *Packet [in, out]
+### -param Packet [in, out]
 
 Pointer to a buffer, 4Kb in size,  that contains the packet.
 
 <div class="alert"><b>Note</b>  Writing to this buffer directly is not recommended.</div>
 <div> </div>
 
-### -param *PacketSize [in, out]
+### -param PacketSize [in, out]
 
 Pointer to the size of the <i>Packet</i> parameter, in bytes.
-
 
 ### -param ControlCode [in]
 
 Control code that specifies the reason for dropping. See Remarks.
 
-
 ### -param IpAddress [in]
 
 Internet Protocol (IP) address of the socket on which the packet was received. The IP address is in host order.
-
 
 ### -param Reserved [in]
 
 Reserved for future use.
 
-
 ### -param PktContext [in]
 
 Context identifying the packet, as provided in the <i>PktContext</i> parameter of a previous 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a> function call.
-
+<a href="/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a> function call.
 
 ## -returns
 
-
-
 Return values are defined by the application providing the callback.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>DhcpPktDropHook</b> function is called by Microsoft DHCP Server when a DHCP packet is dropped, or a packet is completely processed. The 
@@ -181,20 +165,10 @@ The
 The 
 <b>DhcpPktSendHook</b> function should not block.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpssdk/ns-dhcpssdk-dhcp_callout_table">DHCP_CALLOUT_TABLE</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a>

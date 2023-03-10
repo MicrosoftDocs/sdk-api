@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcServerListen
 title: RpcServerListen function (rpcdce.h)
 description: The RpcServerListen function signals the RPC run-time library to listen for remote procedure calls. This function will not affect auto-listen interfaces; use RpcServerRegisterIfEx if you need that functionality.
+helpviewer_keywords: ["RpcServerListen","RpcServerListen function [RPC]","_rpc_rpcserverlisten","rpc.rpcserverlisten","rpcdce/RpcServerListen"]
 old-location: rpc\rpcserverlisten.htm
 tech.root: Rpc
 ms.assetid: 430561b2-c74b-423c-8448-339cc71dbd68
 ms.date: 12/05/2018
 ms.keywords: RpcServerListen, RpcServerListen function [RPC], _rpc_rpcserverlisten, rpc.rpcserverlisten, rpcdce/RpcServerListen
-f1_keywords:
-- rpcdce/RpcServerListen
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerListen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerListen
+ - rpcdce/RpcServerListen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerListen
 ---
 
 # RpcServerListen function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerListen</b> function signals the RPC run-time library to listen for remote procedure calls. This function will not affect auto-listen interfaces; use 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a> if you need that functionality.
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a> if you need that functionality.
 
 ## -parameters
-
-
-
 
 ### -param MinimumCallThreads
 
 Hint to the RPC run time that specifies the minimum number of call threads that should be created and maintained in the given server. This value is only a hint and is interpreted differently in different versions of Windows. In Windows XP, this value is the number of previously created threads in each thread pool that the RPC run time creates. An application should specify one for this parameter, and defer thread creation decisions to the RPC run time.
-
 
 ### -param MaxCalls
 
@@ -73,19 +69,15 @@ Recommended maximum number of concurrent remote procedure calls the server can e
 
 Use RPC_C_LISTEN_MAX_CALLS_DEFAULT to specify the default value.
 
-
 ### -param DontWait
 
 Flag controlling the return from 
 <b>RpcServerListen</b>. A value of nonzero indicates that 
 <b>RpcServerListen</b> should return immediately after completing function processing. A value of zero indicates that 
 <b>RpcServerListen</b> should not return until the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a> function has been called and all remote calls have completed.
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a> function has been called and all remote calls have completed.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -140,14 +132,10 @@ The maximum calls value is too small.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server calls 
 <b>RpcServerListen</b> when the server is ready to process remote procedure calls. RPC allows a server to simultaneously process multiple calls. The <i>MaxCalls</i> parameter recommends the maximum number of concurrent remote procedure calls the server should execute.
@@ -162,65 +150,56 @@ When the <i>DontWait</i> parameter has a value of zero, the RPC run-time library
 
 <ul>
 <li>One of the server application's manager routines calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>.</li>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>.</li>
 <li>A client calls a remote procedure provided by the server that directs the server to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>.</li>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>.</li>
 <li>A client calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a> with a binding handle to the server.</li>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a> with a binding handle to the server.</li>
 </ul>
 After it receives a stop-listening request, the RPC run-time library stops accepting new remote procedure calls for all registered interfaces. Executing calls are allowed to complete, including callbacks. After all calls complete, 
 <b>RpcServerListen</b> returns to the caller.
 
 When the <i>DontWait</i> parameter has a nonzero value, 
 <b>RpcServerListen</b> returns to the server immediately after processing all the instructions associated with the function. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a> function to perform the wait operation usually associated with 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a> function to perform the wait operation usually associated with 
 <b>RpcServerListen</b>.
 
 <div class="alert"><b>Note</b>  The Microsoft RPC implementation of 
 <b>RpcServerListen</b> includes two additional parameters that do not appear in the DCE specification: <i>DontWait</i> and <i>MinimumCallThreads</i>.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqs">RpcServerUseAllProtseqs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqs">RpcServerUseAllProtseqs</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsif">RpcServerUseAllProtseqsIf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsif">RpcServerUseAllProtseqsIf</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseq">RpcServerUseProtseq</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqep">RpcServerUseProtseqEp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqep">RpcServerUseProtseqEp</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>

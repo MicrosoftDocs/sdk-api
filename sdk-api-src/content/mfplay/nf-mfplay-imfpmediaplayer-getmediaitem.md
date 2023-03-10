@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaPlayer.GetMediaItem
 title: IMFPMediaPlayer::GetMediaItem (mfplay.h)
 description: Gets a pointer to the current media item.
+helpviewer_keywords: ["GetMediaItem","GetMediaItem method [Media Foundation]","GetMediaItem method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetMediaItem method","IMFPMediaPlayer.GetMediaItem","IMFPMediaPlayer::GetMediaItem","mf.imfpmediaplayer_getmediaitem","mfplay/IMFPMediaPlayer::GetMediaItem"]
 old-location: mf\imfpmediaplayer_getmediaitem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9593092d-bd50-4ff6-a283-f5a0ab1e6fc0
 ms.date: 12/05/2018
 ms.keywords: GetMediaItem, GetMediaItem method [Media Foundation], GetMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMediaItem method, IMFPMediaPlayer.GetMediaItem, IMFPMediaPlayer::GetMediaItem, mf.imfpmediaplayer_getmediaitem, mfplay/IMFPMediaPlayer::GetMediaItem
-f1_keywords:
-- mfplay/IMFPMediaPlayer.GetMediaItem
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.GetMediaItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::GetMediaItem
+ - mfplay/IMFPMediaPlayer::GetMediaItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.GetMediaItem
 ---
 
 # IMFPMediaPlayer::GetMediaItem
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Gets a pointer to the current media item.
 
-
 ## -parameters
-
-
-
 
 ### -param ppIMFPMediaItem [out]
 
-Receives a pointer to the media item's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a> interface. The caller must release the interface.
-
+Receives a pointer to the media item's <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,38 +111,22 @@ There is no current media item.
 </dl>
 </td>
 <td width="60%">
-The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
+The object's <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem">IMFPMediaPlayer::SetMediaItem</a> method is asynchronous. Therefore, while <b>SetMediaItem</b> is pending, <b>GetMediaItem</b> will not return the media item that was just set. Instead, the application should implement <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> interface and handle the <b>MFP_EVENT_TYPE_MEDIAITEM_SET</b> event. For more information, see <a href="/windows/desktop/medfound/getting-started-with-mfplay">Receiving Events From the Player</a>.
 
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem">IMFPMediaPlayer::SetMediaItem</a> method is asynchronous. Therefore, while <b>SetMediaItem</b> is pending, <b>GetMediaItem</b> will not return the media item that was just set. Instead, the application should implement <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> interface and handle the <b>MFP_EVENT_TYPE_MEDIAITEM_SET</b> event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/getting-started-with-mfplay">Receiving Events From the Player</a>.
-
-The previous remark also applies to setting the media item in the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a> function.
-
-
-
+The previous remark also applies to setting the media item in the <a href="/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer">MFPCreateMediaPlayer</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

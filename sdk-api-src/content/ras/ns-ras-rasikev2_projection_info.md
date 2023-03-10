@@ -2,15 +2,12 @@
 UID: NS:ras._RASIKEV2_PROJECTION_INFO
 title: RASIKEV2_PROJECTION_INFO (ras.h)
 description: Contains projection information obtained during Internet Key Exchange (IKE) negotiation.
+helpviewer_keywords: ["*PRASIKEV2_PROJECTION_INFO","IPSEC_CIPHER_TYPE_3DES","IPSEC_CIPHER_TYPE_AES_128","IPSEC_CIPHER_TYPE_AES_192","IPSEC_CIPHER_TYPE_AES_256","PRASIKEV2_PROJECTION_INFO","PRASIKEV2_PROJECTION_INFO structure pointer [RAS]","RASIKEV2_PROJECTION_INFO","RASIKEV2_PROJECTION_INFO structure [RAS]","RASIKEv2_AUTH_EAP","RASIKEv2_AUTH_MACHINECERTIFICATES","RASIKEv2_FLAGS_BEHIND_NAT","RASIKEv2_FLAGS_MOBIKESUPPORTED","RASIKEv2_FLAGS_SERVERBEHIND_NAT","ras/PRASIKEV2_PROJECTION_INFO","ras/RASIKEV2_PROJECTION_INFO","rras.rasikev2_projection_info"]
 old-location: rras\rasikev2_projection_info.htm
 tech.root: RRAS
 ms.assetid: c88346f0-118e-4468-83b1-2dfc263e22f7
 ms.date: 12/05/2018
 ms.keywords: '*PRASIKEV2_PROJECTION_INFO, IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, PRASIKEV2_PROJECTION_INFO, PRASIKEV2_PROJECTION_INFO structure pointer [RAS], RASIKEV2_PROJECTION_INFO, RASIKEV2_PROJECTION_INFO structure [RAS], RASIKEv2_AUTH_EAP, RASIKEv2_AUTH_MACHINECERTIFICATES, RASIKEv2_FLAGS_BEHIND_NAT, RASIKEv2_FLAGS_MOBIKESUPPORTED, RASIKEv2_FLAGS_SERVERBEHIND_NAT, ras/PRASIKEV2_PROJECTION_INFO, ras/RASIKEV2_PROJECTION_INFO, rras.rasikev2_projection_info'
-f1_keywords:
-- ras/RASIKEV2_PROJECTION_INFO
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ras.h
-api_name:
-- RASIKEV2_PROJECTION_INFO
 targetos: Windows
 req.typenames: RASIKEV2_PROJECTION_INFO, *PRASIKEV2_PROJECTION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RASIKEV2_PROJECTION_INFO
+ - ras/_RASIKEV2_PROJECTION_INFO
+ - PRASIKEV2_PROJECTION_INFO
+ - ras/PRASIKEV2_PROJECTION_INFO
+ - RASIKEV2_PROJECTION_INFO
+ - ras/RASIKEV2_PROJECTION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ras.h
+api_name:
+ - RASIKEV2_PROJECTION_INFO
 ---
 
 # RASIKEV2_PROJECTION_INFO structure
@@ -48,50 +54,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>RASIKEV2_PROJECTION_INFO</b> structure contains projection information obtained during Internet Key Exchange (IKE) negotiation.  
-
+<b>RASIKEV2_PROJECTION_INFO</b> structure contains projection information obtained during Internet Key Exchange (IKE) negotiation.
 
 ## -struct-fields
-
-
-
 
 ### -field dwIPv4NegotiationError
 
 A value that specifies the result of IPv4 negotiation. A value of zero indicates an IPv4 address has been assigned successfully. A nonzero value indicates failure, and is the fatal error that occurred during negotiation.
 
-
 ### -field ipv4Address
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>ipv4Address</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
-
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>ipv4Address</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
 
 ### -field ipv4ServerAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>ipv4ServerAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
-
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>ipv4ServerAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
 
 ### -field dwIPv6NegotiationError
 
 A value that specifies the result of IPv6 negotiation. A value of zero indicates an IPv6 address has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during negotiation.
 
-
 ### -field ipv6Address
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the local client. <b>ipv6Address</b> is valid only if <b>dwIPv6NegotiationError</b> is zero.
-
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a>  structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the local client. <b>ipv6Address</b> is valid only if <b>dwIPv6NegotiationError</b> is zero.
 
 ### -field ipv6ServerAddress
 
-A <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the remote server. <b>ipv6ServerAddress</b> is valid only if <b>dwIPv6NegotiationError</b> is zero. If the address is not available, this member is an empty string.
-
+A <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure  that contains a null-terminated Unicode string that specifies the IPv6 address of the remote server. <b>ipv6ServerAddress</b> is valid only if <b>dwIPv6NegotiationError</b> is zero. If the address is not available, this member is an empty string.
 
 ### -field dwPrefixLength
 
 A value that specifies the length, in bits, of the IPv6 address prefix.
-
 
 ### -field dwAuthenticationProtocol
 
@@ -109,7 +103,7 @@ A value that specifies the authentication protocol used to authenticate the remo
 </td>
 <td width="60%">
 X.509 Public Key Infrastructure
-                      Certificate (<a href="https://go.microsoft.com/fwlink/p/?linkid=70416">RFC 2459</a>).
+                      Certificate (<a href="https://www.ietf.org/rfc/rfc2459.txt">RFC 2459</a>).
 
 </td>
 </tr>
@@ -124,13 +118,10 @@ Extensible Authentication Protocol.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEapTypeId
 
 A value that specifies the type identifier of the Extensible Authentication Protocol (EAP) used to authenticate the local client. The value of this member is valid only if <b>dwAuthenticationProtocol</b> is <b>RASIKEv2_AUTH_EAP</b>.
-
 
 ### -field dwFlags
 
@@ -172,8 +163,6 @@ The server is behind Network Address Translation (NAT).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEncryptionMethod
 
@@ -225,44 +214,31 @@ AES-256 encryption.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field numIPv4ServerAddresses
 
 The number of available IPv4 addresses the server can switch to on the IKEv2 connection.
 
-
 ### -field ipv4ServerAddresses
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure that contains the available IPv4 addresses the server can switch to on the IKEv2 connection.
-
+A pointer to a <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV4ADDR</a> structure that contains the available IPv4 addresses the server can switch to on the IKEv2 connection.
 
 ### -field numIPv6ServerAddresses
 
 The number of available IPv6 addresses the server can switch to on the IKEv2 connection.
 
-
 ### -field ipv6ServerAddresses
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure that contains the available IPv6 addresses the server can switch to on the IKEv2 connection.
-
+A pointer to a <a href="/windows/desktop/RRAS/remote-access-service-data-types">RASIPV6ADDR</a> structure that contains the available IPv6 addresses the server can switch to on the IKEv2 connection.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ras/ne-ras-rasprojection_info_type">RASPROJECTION_INFO_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ne-ras-rasprojection_info_type">RASPROJECTION_INFO_TYPE</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

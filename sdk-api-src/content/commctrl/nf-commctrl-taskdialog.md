@@ -2,15 +2,12 @@
 UID: NF:commctrl.TaskDialog
 title: TaskDialog function (commctrl.h)
 description: The TaskDialog function creates, displays, and operates a task dialog.
+helpviewer_keywords: ["TDCBF_CANCEL_BUTTON","TDCBF_CLOSE_BUTTON","TDCBF_NO_BUTTON","TDCBF_OK_BUTTON","TDCBF_RETRY_BUTTON","TDCBF_YES_BUTTON","TD_ERROR_ICON","TD_INFORMATION_ICON","TD_SHIELD_ICON","TD_WARNING_ICON","TaskDialog","TaskDialog function [Windows Controls]","_shell_TaskDialog","_shell_TaskDialog_cpp","commctrl/TaskDialog","controls.TaskDialog","controls._shell_TaskDialog"]
 old-location: controls\TaskDialog.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialog.htm
 ms.date: 12/05/2018
 ms.keywords: TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, TaskDialog, TaskDialog function [Windows Controls], _shell_TaskDialog, _shell_TaskDialog_cpp, commctrl/TaskDialog, controls.TaskDialog, controls._shell_TaskDialog
-f1_keywords:
-- commctrl/TaskDialog
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 6)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- TaskDialog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TaskDialog
+ - commctrl/TaskDialog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - TaskDialog
 ---
 
 # TaskDialog function
@@ -48,49 +50,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TaskDialog</b> function creates, displays, and operates a task dialog. The task dialog contains application-defined message text and title, icons, and any combination of predefined push buttons. This function does not support the registration of a callback function to receive notifications.
-
 
 ## -parameters
 
-
-
-
 ### -param hwndOwner [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the owner window of the task dialog to be created. If this parameter is <b>NULL</b>, the task dialog has no owner window.
 
-
 ### -param hInstance [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
-Handle to the module that contains the icon resource identified by the <i>pszIcon</i> member, and the string resources identified by the <i>pszWindowTitle</i> and <i>pszMainInstruction</i> members.  If this parameter is <b>NULL</b>, <i>pszIcon</i> must be <b>NULL</b> or a pointer to a null-terminated, Unicode string that contains a system resource identifier, for example, TD_ERROR_ICON. 
-
+Handle to the module that contains the icon resource identified by the <i>pszIcon</i> member, and the string resources identified by the <i>pszWindowTitle</i> and <i>pszMainInstruction</i> members.  If this parameter is <b>NULL</b>, <i>pszIcon</i> must be <b>NULL</b> or a pointer to a null-terminated, Unicode string that contains a system resource identifier, for example, TD_ERROR_ICON.
 
 ### -param pszWindowTitle [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
-Pointer to the string to be used for the task dialog title. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.  If this parameter is <b>NULL</b>, the filename of the executable program is used.
-
+Pointer to the string to be used for the task dialog title. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.  If this parameter is <b>NULL</b>, the filename of the executable program is used.
 
 ### -param pszMainInstruction [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
-Pointer to the string to be used for the main instruction. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.  This parameter can be <b>NULL</b> if no main instruction is wanted.
-
+Pointer to the string to be used for the main instruction. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.  This parameter can be <b>NULL</b> if no main instruction is wanted.
 
 ### -param pszContent [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
-Pointer to a string used for additional text that appears below the main instruction, in a smaller font. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. Can be <b>NULL</b> if no additional text is wanted.
-
+Pointer to a string used for additional text that appears below the main instruction, in a smaller font. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. Can be <b>NULL</b> if no additional text is wanted.
 
 ### -param dwCommonButtons [in]
 
@@ -166,14 +158,12 @@ The task dialog contains the push button: <b>Close</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszIcon [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
-Pointer to a string that identifies the icon to display in the task dialog. This parameter must be an integer resource identifier passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro or one of the following predefined values. If this parameter is <b>NULL</b>, no icon will be displayed. If the <i>hInstance</i> parameter is <b>NULL</b> and one of the predefined values is not used, the <b>TaskDialog</b> function fails.
+Pointer to a string that identifies the icon to display in the task dialog. This parameter must be an integer resource identifier passed to the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro or one of the following predefined values. If this parameter is <b>NULL</b>, no icon will be displayed. If the <i>hInstance</i> parameter is <b>NULL</b> and one of the predefined values is not used, the <b>TaskDialog</b> function fails.
 
 <table>
 <tr>
@@ -222,8 +212,6 @@ An exclamation-point icon appears in the task dialog.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pnButton [out]
 
@@ -265,12 +253,9 @@ When this function returns, contains a pointer to an integer location that recei
 
 If this value is <b>NULL</b>, no value is returned.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 This function can return one of these values.
 
@@ -324,20 +309,14 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the <i>pszMainInstruction</i> and <i>pszWindowTitle</i> parameters should not be taken from a resource file since an attempt to load the resource may fail. 
 
  If you create a task dialog while a dialog box is present, use a handle to the dialog box as the <i>hWndParent</i> parameter. The <i>hWndParent</i> parameter should not identify a child window, such as a control in a dialog box. 
 
-Because task dialog boxes use the correct system-defined UI elements, you should use them instead of using message boxes created with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function. To achieve more functionality, use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-taskdialogindirect">TaskDialogIndirect</a>.
+Because task dialog boxes use the correct system-defined UI elements, you should use them instead of using message boxes created with the <a href="/windows/desktop/api/winuser/nf-winuser-messagebox">MessageBox</a> function. To achieve more functionality, use <a href="/windows/desktop/api/commctrl/nf-commctrl-taskdialogindirect">TaskDialogIndirect</a>.
 
 The following example code, to be included as part of a larger program, shows how to create a task dialog and capture input.
 			
@@ -365,17 +344,6 @@ else if (IDCANCEL == nButtonPressed)
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
- 
-
- 
-
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>

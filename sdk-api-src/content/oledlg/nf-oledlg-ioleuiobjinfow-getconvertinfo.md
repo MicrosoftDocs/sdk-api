@@ -1,16 +1,13 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.GetConvertInfo
 title: IOleUIObjInfoW::GetConvertInfo (oledlg.h)
-description: Gets the conversion information associated with the specified object.
+description: Gets the conversion information associated with the specified object. (Unicode)
+helpviewer_keywords: ["GetConvertInfo","GetConvertInfo method [COM]","GetConvertInfo method [COM]","IOleUIObjInfo interface","GetConvertInfo method [COM]","IOleUIObjInfoA interface","GetConvertInfo method [COM]","IOleUIObjInfoW interface","IOleUIObjInfo interface [COM]","GetConvertInfo method","IOleUIObjInfo::GetConvertInfo","IOleUIObjInfoA interface [COM]","GetConvertInfo method","IOleUIObjInfoA::GetConvertInfo","IOleUIObjInfoW interface [COM]","GetConvertInfo method","IOleUIObjInfoW.GetConvertInfo","IOleUIObjInfoW::GetConvertInfo","_ole_IOleUIObjInfo_GetConvertInfo","com.ioleuiobjinfo_getconvertinfo","oledlg/IOleUIObjInfo::GetConvertInfo","oledlg/IOleUIObjInfoA::GetConvertInfo","oledlg/IOleUIObjInfoW::GetConvertInfo"]
 old-location: com\ioleuiobjinfo_getconvertinfo.htm
 tech.root: com
 ms.assetid: 45416493-7f0b-4bef-b785-513d4f404541
 ms.date: 12/05/2018
 ms.keywords: GetConvertInfo, GetConvertInfo method [COM], GetConvertInfo method [COM],IOleUIObjInfo interface, GetConvertInfo method [COM],IOleUIObjInfoA interface, GetConvertInfo method [COM],IOleUIObjInfoW interface, IOleUIObjInfo interface [COM],GetConvertInfo method, IOleUIObjInfo::GetConvertInfo, IOleUIObjInfoA interface [COM],GetConvertInfo method, IOleUIObjInfoA::GetConvertInfo, IOleUIObjInfoW interface [COM],GetConvertInfo method, IOleUIObjInfoW.GetConvertInfo, IOleUIObjInfoW::GetConvertInfo, _ole_IOleUIObjInfo_GetConvertInfo, com.ioleuiobjinfo_getconvertinfo, oledlg/IOleUIObjInfo::GetConvertInfo, oledlg/IOleUIObjInfoA::GetConvertInfo, oledlg/IOleUIObjInfoW::GetConvertInfo
-f1_keywords:
-- oledlg/IOleUIObjInfo.GetConvertInfo
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleDlg.h
-api_name:
-- IOleUIObjInfo.GetConvertInfo
-- IOleUIObjInfoW.GetConvertInfo
-- IOleUIObjInfoA.GetConvertInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleUIObjInfoW::GetConvertInfo
+ - oledlg/IOleUIObjInfoW::GetConvertInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleDlg.h
+api_name:
+ - IOleUIObjInfo.GetConvertInfo
+ - IOleUIObjInfoW.GetConvertInfo
+ - IOleUIObjInfoA.GetConvertInfo
 ---
 
 # IOleUIObjInfoW::GetConvertInfo
@@ -50,48 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the conversion information associated with the specified object.
 
-
 ## -parameters
-
-
-
 
 ### -param dwObject [in]
 
 Unique identifier for the object.
 
-
 ### -param lpClassID [out]
 
 Pointer to the location to return the object's CLSID.
-
 
 ### -param lpwFormat [out]
 
 Pointer to the clipboard format of the object.
 
-
 ### -param lpConvertDefaultClassID [out]
 
 Pointer to the default class, selected from the UI, to convert the object to.
-
 
 ### -param lplpClsidExclude [out]
 
 Address of a pointer variable that receives a pointer to an array of CLSIDs that should be excluded from the user interface for this object. If <i>lpcClsidExclude</i> is zero, then <i>lpClsidExclude</i> is set to <b>NULL</b>.
 
-
 ### -param lpcClsidExclude [out]
 
 Address of an output variable that receives the number of CLSIDs in <i>lplpClsidExclude</i>. This parameter may be zero.
 
-
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -145,28 +134,12 @@ There is insufficient memory available for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 You must fill in the CLSID of the object at a minimum. <i>lpwFormat</i> may be left at zero if the format of the storage is unknown.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>

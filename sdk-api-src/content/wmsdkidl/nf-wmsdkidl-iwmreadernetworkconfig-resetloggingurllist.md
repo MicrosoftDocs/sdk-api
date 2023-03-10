@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.ResetLoggingUrlList
 title: IWMReaderNetworkConfig::ResetLoggingUrlList (wmsdkidl.h)
 description: The ResetLoggingUrlList method clears the list of servers that receive logging data.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","ResetLoggingUrlList method","IWMReaderNetworkConfig.ResetLoggingUrlList","IWMReaderNetworkConfig::ResetLoggingUrlList","IWMReaderNetworkConfigResetLoggingUrlList","ResetLoggingUrlList","ResetLoggingUrlList method [windows Media Format]","ResetLoggingUrlList method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_resetloggingurllist","wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList"]
 old-location: wmformat\iwmreadernetworkconfig_resetloggingurllist.htm
 tech.root: wmformat
 ms.assetid: 0fe71d73-a827-4aed-a37b-db7701cc1180
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetLoggingUrlList method, IWMReaderNetworkConfig.ResetLoggingUrlList, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.ResetLoggingUrlList
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.ResetLoggingUrlList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::ResetLoggingUrlList
+ - wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.ResetLoggingUrlList
 ---
 
 # IWMReaderNetworkConfig::ResetLoggingUrlList
@@ -51,49 +53,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ResetLoggingUrlList</b> method clears the list of servers that receive logging data.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
-This method removes any servers that were added using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-addloggingurl">IWMReaderNetworkConfig::AddLoggingUrl</a> method. Note that the originating server always receives a log, even after the list is cleared.
-
-
-
+This method removes any servers that were added using the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-addloggingurl">IWMReaderNetworkConfig::AddLoggingUrl</a> method. Note that the originating server always receives a log, even after the list is cleared.
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>

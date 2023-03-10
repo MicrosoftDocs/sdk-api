@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSettings.put_playCount
 title: IWMPSettings::put_playCount (wmp.h)
 description: The put_playCount method specifies the number of times a media item will play.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_playCount method","IWMPSettings.put_playCount","IWMPSettings::put_playCount","IWMPSettingsput_playCount","put_playCount","put_playCount method [Windows Media Player]","put_playCount method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_playcount","wmp/IWMPSettings::put_playCount"]
 old-location: wmp\iwmpsettings_put_playcount.htm
 tech.root: WMP
 ms.assetid: b9fdd596-8ca3-497e-8d40-6dd5ddbf0a1e
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_playCount method, IWMPSettings.put_playCount, IWMPSettings::put_playCount, IWMPSettingsput_playCount, put_playCount, put_playCount method [Windows Media Player], put_playCount method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_playcount, wmp/IWMPSettings::put_playCount
-f1_keywords:
-- wmp/IWMPSettings.put_playCount
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings.put_playCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings::put_playCount
+ - wmp/IWMPSettings::put_playCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings.put_playCount
 ---
 
 # IWMPSettings::put_playCount
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_playCount</b> method specifies the number of times a media item will play.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lCount [in]
 
 <b>long</b> containing the count with a minimum value of 1 and a default value of 1.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,31 +79,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method is not implemented and always returns E_NOTIMPL.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_playcount">IWMPSettings::get_playCount</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_playcount">IWMPSettings::get_playCount</a>

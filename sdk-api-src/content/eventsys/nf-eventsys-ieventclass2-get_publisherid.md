@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventClass2.get_PublisherID
 title: IEventClass2::get_PublisherID (eventsys.h)
-description: The CLSID for the event publisher.
+description: The CLSID for the event publisher. (Get)
+helpviewer_keywords: ["IEventClass2 interface [COM+]","PublisherID property","IEventClass2.PublisherID","IEventClass2.get_PublisherID","IEventClass2::PublisherID","IEventClass2::get_PublisherID","IEventClass2::put_PublisherID","PublisherID property [COM+]","PublisherID property [COM+]","IEventClass2 interface","_cos_IEventClass2_get_PublisherID","_cos_IEventClass2_put_PublisherID","cos.ieventclass2_publisherid","eventsys/IEventClass2::PublisherID","eventsys/IEventClass2::get_PublisherID","eventsys/IEventClass2::put_PublisherID","get_PublisherID"]
 old-location: cos\ieventclass2_publisherid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: b54799a3-612d-44a8-9f65-5e2243d99344
 ms.date: 12/05/2018
 ms.keywords: IEventClass2 interface [COM+],PublisherID property, IEventClass2.PublisherID, IEventClass2.get_PublisherID, IEventClass2::PublisherID, IEventClass2::get_PublisherID, IEventClass2::put_PublisherID, PublisherID property [COM+], PublisherID property [COM+],IEventClass2 interface, _cos_IEventClass2_get_PublisherID, _cos_IEventClass2_put_PublisherID, cos.ieventclass2_publisherid, eventsys/IEventClass2::PublisherID, eventsys/IEventClass2::get_PublisherID, eventsys/IEventClass2::put_PublisherID, get_PublisherID
-f1_keywords:
-- eventsys/IEventClass2.PublisherID
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- eventsys.h
-api_name:
-- IEventClass2.PublisherID
-- IEventClass2.get_PublisherID
-- IEventClass2.put_PublisherID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventClass2::get_PublisherID
+ - eventsys/IEventClass2::get_PublisherID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - eventsys.h
+api_name:
+ - IEventClass2.PublisherID
+ - IEventClass2.get_PublisherID
+ - IEventClass2.put_PublisherID
 ---
 
 # IEventClass2::get_PublisherID
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The CLSID for the event publisher.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>

@@ -2,15 +2,12 @@
 UID: NF:camerauicontrol.ICameraUIControl.Close
 title: ICameraUIControl::Close (camerauicontrol.h)
 description: Closes the user interface control.
+helpviewer_keywords: ["Close","Close method [Windows API]","Close method [Windows API]","ICameraUIControl interface","ICameraUIControl interface [Windows API]","Close method","ICameraUIControl.Close","ICameraUIControl::Close","camerauicontrol/ICameraUIControl::Close","winprog.icamerauicontrol_close"]
 old-location: winprog\icamerauicontrol_close.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: d1f73422-37e9-488e-92e6-8e8dd99af57f
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close
-f1_keywords:
-- camerauicontrol/ICameraUIControl.Close
-dev_langs:
-- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- camerauicontrol.h
-api_name:
-- ICameraUIControl.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICameraUIControl::Close
+ - camerauicontrol/ICameraUIControl::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - camerauicontrol.h
+api_name:
+ - ICameraUIControl.Close
 ---
 
 # ICameraUIControl::Close
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the user interface control.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontrol">ICameraUIControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontrol">ICameraUIControl</a>

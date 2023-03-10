@@ -1,16 +1,13 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo2.GetNumericRepresentation
 title: IWICPixelFormatInfo2::GetNumericRepresentation (wincodec.h)
-description: IWICPixelFormatInfo2::GetNumericRepresentation method
+description: TBD (IWICPixelFormatInfo2.GetNumericRepresentation)
+helpviewer_keywords: ["GetNumericRepresentation","GetNumericRepresentation method [Windows Imaging Component]","GetNumericRepresentation method [Windows Imaging Component]","IWICPixelFormatInfo2 interface","IWICPixelFormatInfo2 interface [Windows Imaging Component]","GetNumericRepresentation method","IWICPixelFormatInfo2.GetNumericRepresentation","IWICPixelFormatInfo2::GetNumericRepresentation","_wic_codec_iwicpixelformatinfo2_getnumericrepresentation","wic._wic_codec_iwicpixelformatinfo2_getnumericrepresentation","wincodec/IWICPixelFormatInfo2::GetNumericRepresentation"]
 old-location: wic\_wic_codec_iwicpixelformatinfo2_getnumericrepresentation.htm
 tech.root: wic
 ms.assetid: b987e5b9-33a4-485f-9c7a-1fcb907b5424
 ms.date: 12/05/2018
 ms.keywords: GetNumericRepresentation, GetNumericRepresentation method [Windows Imaging Component], GetNumericRepresentation method [Windows Imaging Component],IWICPixelFormatInfo2 interface, IWICPixelFormatInfo2 interface [Windows Imaging Component],GetNumericRepresentation method, IWICPixelFormatInfo2.GetNumericRepresentation, IWICPixelFormatInfo2::GetNumericRepresentation, _wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wic._wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wincodec/IWICPixelFormatInfo2::GetNumericRepresentation
-f1_keywords:
-- wincodec/IWICPixelFormatInfo2.GetNumericRepresentation
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,59 +25,45 @@ req.type-library:
 req.lib: 
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICPixelFormatInfo2.GetNumericRepresentation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICPixelFormatInfo2::GetNumericRepresentation
+ - wincodec/IWICPixelFormatInfo2::GetNumericRepresentation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICPixelFormatInfo2.GetNumericRepresentation
 ---
-
-# IWICPixelFormatInfo2::GetNumericRepresentation
-
 
 ## -description
 
-
-
+Retrieves the <a href="/windows/win32/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a> of the pixel format.
 
 ## -parameters
 
-
-
-
 ### -param pNumericRepresentation [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a>*</b>
+Type: <b><a href="/windows/win32/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a>*</b>
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a> of the pixel format.
-
+The address of a <a href="/windows/win32/api/wincodec/ne-wincodec-wicpixelformatnumericrepresentation">WICPixelFormatNumericRepresentation</a> variable that you've defined. On successful completion, the function sets your variable to the **WICPixelFormatNumericRepresentation** of the pixel format.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpixelformatinfo2">IWICPixelFormatInfo2</a>
- 
-
- 
+<a href="/windows/win32/api/wincodec/nn-wincodec-iwicpixelformatinfo2">IWICPixelFormatInfo2</a>
 

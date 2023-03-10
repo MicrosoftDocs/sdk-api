@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.PostRestore
 title: IVssBackupComponents::PostRestore (vsbackup.h)
 description: The PostRestore method will cause VSS to generate a PostRestore event, signaling writers that the current restore operation has finished.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","PostRestore method","IVssBackupComponents.PostRestore","IVssBackupComponents::PostRestore","PostRestore","PostRestore method [VSS]","PostRestore method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_postrestore","base.ivssbackupcomponents_postrestore","vsbackup/IVssBackupComponents::PostRestore"]
 old-location: base\ivssbackupcomponents_postrestore.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],PostRestore method, IVssBackupComponents.PostRestore, IVssBackupComponents::PostRestore, PostRestore, PostRestore method [VSS], PostRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_postrestore, base.ivssbackupcomponents_postrestore, vsbackup/IVssBackupComponents::PostRestore
-f1_keywords:
-- vsbackup/IVssBackupComponents.PostRestore
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.PostRestore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::PostRestore
+ - vsbackup/IVssBackupComponents::PostRestore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.PostRestore
 ---
 
 # IVssBackupComponents::PostRestore
@@ -49,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PostRestore</b> method will cause VSS to generate a 
 <b>PostRestore</b> event, signaling writers that the current restore operation has finished.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
 Doubly indirect pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object that contains status data for the signaled event.
-
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object that contains status data for the signaled event.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -162,43 +156,27 @@ The specified volume was not found or was not available.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller is responsible for releasing the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
-
-
-
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>

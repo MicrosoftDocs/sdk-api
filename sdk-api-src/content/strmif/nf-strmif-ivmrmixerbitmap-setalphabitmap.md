@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRMixerBitmap.SetAlphaBitmap
 title: IVMRMixerBitmap::SetAlphaBitmap (strmif.h)
 description: The SetAlphaBitmap method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
+helpviewer_keywords: ["IVMRMixerBitmap interface [DirectShow]","SetAlphaBitmap method","IVMRMixerBitmap.SetAlphaBitmap","IVMRMixerBitmap::SetAlphaBitmap","IVMRMixerBitmapSetAlphaBitmap","SetAlphaBitmap","SetAlphaBitmap method [DirectShow]","SetAlphaBitmap method [DirectShow]","IVMRMixerBitmap interface","dshow.ivmrmixerbitmap_setalphabitmap","strmif/IVMRMixerBitmap::SetAlphaBitmap"]
 old-location: dshow\ivmrmixerbitmap_setalphabitmap.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 92e57c3a-6761-4a54-83f5-0ea0ce80d60b
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerBitmap interface [DirectShow],SetAlphaBitmap method, IVMRMixerBitmap.SetAlphaBitmap, IVMRMixerBitmap::SetAlphaBitmap, IVMRMixerBitmapSetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [DirectShow], SetAlphaBitmap method [DirectShow],IVMRMixerBitmap interface, dshow.ivmrmixerbitmap_setalphabitmap, strmif/IVMRMixerBitmap::SetAlphaBitmap
-f1_keywords:
-- strmif/IVMRMixerBitmap.SetAlphaBitmap
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerBitmap.SetAlphaBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerBitmap::SetAlphaBitmap
+ - strmif/IVMRMixerBitmap::SetAlphaBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerBitmap.SetAlphaBitmap
 ---
 
 # IVMRMixerBitmap::SetAlphaBitmap
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetAlphaBitmap</b> method specifies a new bitmap image and the source location of the bitmap and how and where it should be rendered on the destination rectangle.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pBmpParms [in]
 
-A oointer to a [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that contains information about the bitmap.
-
+A pointer to a [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure that contains information about the bitmap.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -122,50 +113,35 @@ BitBlt to bitmap surface failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To remove the bitmap, set the [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure and call <b>SetAlphaBitmap</b> again.
+To remove the bitmap, set the [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure and call <b>SetAlphaBitmap</b> again.
 
 The method might return <b>E_INVALIDARG</b> for several reasons:
 
 <ul>
-[VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure contains an invalid combination of flags.</li>
-[VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure does not specify a valid HDC or DirectDraw surface.</li>
+[VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure contains an invalid combination of flags.</li>
+[VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure does not specify a valid HDC or DirectDraw surface.</li>
 <li>The value of <b>fAlpha</b> is invalid.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-getalphabitmapparameters">IVMRMixerBitmap::GetAlphaBitmapParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-getalphabitmapparameters">IVMRMixerBitmap::GetAlphaBitmapParameters</a>
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>

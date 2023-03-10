@@ -1,16 +1,13 @@
 ---
 UID: NF:mfapi.MFGetPlaneSize
 title: MFGetPlaneSize function (mfapi.h)
-description: Retrieves the image size, in bytes, for an uncompressed video format.
+description: Retrieves the image size, in bytes, for an uncompressed video format. (MFGetPlaneSize)
+helpviewer_keywords: ["53ce83f3-b06e-4c91-a3e2-6369963e7810","MFGetPlaneSize","MFGetPlaneSize function [Media Foundation]","mf.mfgetplanesize","mfapi/MFGetPlaneSize"]
 old-location: mf\mfgetplanesize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 53ce83f3-b06e-4c91-a3e2-6369963e7810
 ms.date: 12/05/2018
 ms.keywords: 53ce83f3-b06e-4c91-a3e2-6369963e7810, MFGetPlaneSize, MFGetPlaneSize function [Media Foundation], mf.mfgetplanesize, mfapi/MFGetPlaneSize
-f1_keywords:
-- mfapi/MFGetPlaneSize
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFGetPlaneSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFGetPlaneSize
+ - mfapi/MFGetPlaneSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFGetPlaneSize
 ---
 
 # MFGetPlaneSize function
@@ -48,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the image size, in bytes, for an uncompressed video format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param format [in]
 
 FOURCC code or <b>D3DFORMAT</b> value that specifies the video format.
 
-
 ### -param dwWidth [in]
 
 Width of the image, in pixels.
-
 
 ### -param dwHeight [in]
 
 Height of the image, in pixels.
 
-
 ### -param pdwPlaneSize [out]
 
 Receives the size of one frame, in bytes. If the format is compressed or is not recognized, this value is zero.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,30 +92,15 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcalculateimagesize">MFCalculateImageSize</a> function.
+This function is equivalent to the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcalculateimagesize">MFCalculateImageSize</a> function.
       
 
 <div class="alert"><b>Note</b>  Prior to Windows 7, this function was exported from evr.dll. Starting in Windows 7, this function is exported from mfplat.dll, and evr.dll exports a stub function that calls into mfplat.dll.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

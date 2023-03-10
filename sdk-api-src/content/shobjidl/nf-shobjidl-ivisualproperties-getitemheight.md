@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IVisualProperties.GetItemHeight
 title: IVisualProperties::GetItemHeight (shobjidl.h)
 description: Gets the item height.
+helpviewer_keywords: ["GetItemHeight","GetItemHeight method [Windows Shell]","GetItemHeight method [Windows Shell]","IVisualProperties interface","IVisualProperties interface [Windows Shell]","GetItemHeight method","IVisualProperties.GetItemHeight","IVisualProperties::GetItemHeight","_shell_IVisualProperties_GetItemHeight","shell.IVisualProperties_GetItemHeight","shobjidl/IVisualProperties::GetItemHeight"]
 old-location: shell\IVisualProperties_GetItemHeight.htm
 tech.root: shell
 ms.assetid: 18a42f90-48de-4ac3-8904-4b56d559377e
 ms.date: 12/05/2018
 ms.keywords: GetItemHeight, GetItemHeight method [Windows Shell], GetItemHeight method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetItemHeight method, IVisualProperties.GetItemHeight, IVisualProperties::GetItemHeight, _shell_IVisualProperties_GetItemHeight, shell.IVisualProperties_GetItemHeight, shobjidl/IVisualProperties::GetItemHeight
-f1_keywords:
-- shobjidl/IVisualProperties.GetItemHeight
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IVisualProperties.GetItemHeight
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualProperties::GetItemHeight
+ - shobjidl/IVisualProperties::GetItemHeight
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IVisualProperties.GetItemHeight
 ---
 
 # IVisualProperties::GetItemHeight
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the item height.
 
-
 ## -parameters
-
-
-
 
 ### -param cyItemInPixels [out]
 
@@ -63,14 +60,9 @@ Type: <b>int*</b>
 
 A pointer to the item height, in pixels.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

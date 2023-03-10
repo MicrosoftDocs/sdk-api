@@ -2,15 +2,12 @@
 UID: NF:rpcndr.NdrConformantStringUnmarshall
 title: NdrConformantStringUnmarshall function (rpcndr.h)
 description: The NdrConformantStringUnmarshall function unmarshals the conformant string from the network buffer to memory.
+helpviewer_keywords: ["NdrConformantStringUnmarshall","NdrConformantStringUnmarshall function [RPC]","rpc.ndrconformantstringunmarshall","rpcndr/NdrConformantStringUnmarshall"]
 old-location: rpc\ndrconformantstringunmarshall.htm
 tech.root: Rpc
 ms.assetid: 3965e5aa-8695-4dd3-a75b-ee007ee3cccd
 ms.date: 12/05/2018
 ms.keywords: NdrConformantStringUnmarshall, NdrConformantStringUnmarshall function [RPC], rpc.ndrconformantstringunmarshall, rpcndr/NdrConformantStringUnmarshall
-f1_keywords:
-- rpcndr/NdrConformantStringUnmarshall
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -25,22 +22,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RpcRT4.dll
-api_name:
-- NdrConformantStringUnmarshall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdrConformantStringUnmarshall
+ - rpcndr/NdrConformantStringUnmarshall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - NdrConformantStringUnmarshall
 ---
 
 # NdrConformantStringUnmarshall function
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdrConformantStringUnmarshall</b> function unmarshals the conformant string from the network buffer to memory.
-
 
 ## -parameters
 
-
-
-
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.  
-
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
 
 ### -param ppMemory [out]
 
 Address to a pointer to the unmarshalled conformant string. If set to null, or if the <i>fMustAlloc</i> is set to <b>TRUE</b>, the stub will allocate the memory.
 
-
 ### -param pFormat [in]
 
 Pointer to the format string description.
 
-
 ### -param fMustAlloc [in]
 
-Flag that specifies whether the stub must allocate the memory into which the conformant string is to be marshaled.  Specify <b>TRUE</b> if RPC must allocate <i>ppMemory</i>. 
-
+Flag that specifies whether the stub must allocate the memory into which the conformant string is to be marshaled.  Specify <b>TRUE</b> if RPC must allocate <i>ppMemory</i>.
 
 ## -returns
-
-
 
 Returns null upon success. If an error occurs, the function throws one of the following exception codes.
 
@@ -105,7 +96,3 @@ Returns null upon success. If an error occurs, the function throws one of the fo
 <td>An error occurred in RPC.</td>
 </tr>
 </table>
- 
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NS:wtsapi32._WTSLISTENERCONFIGW
 title: WTSLISTENERCONFIGW (wtsapi32.h)
-description: Contains information about a Remote Desktop Services listener.
+description: Contains information about a Remote Desktop Services listener. (Unicode)
+helpviewer_keywords: ["*PWTSLISTENERCONFIGW","1","2","3","4","5","PWTSLISTENERCONFIG","PWTSLISTENERCONFIG structure pointer [Remote Desktop Services]","WTSLISTENERCONFIG","WTSLISTENERCONFIG structure [Remote Desktop Services]","WTSLISTENERCONFIGA","WTSLISTENERCONFIGW","termserv.wtslistenerconfig","wtsapi32/PWTSLISTENERCONFIG","wtsapi32/WTSLISTENERCONFIG","wtsapi32/WTSLISTENERCONFIGA","wtsapi32/WTSLISTENERCONFIGW"]
 old-location: termserv\wtslistenerconfig.htm
 tech.root: TermServ
 ms.assetid: 051cab0b-701c-4bb9-8728-6b383cdb8e6a
 ms.date: 12/05/2018
 ms.keywords: '*PWTSLISTENERCONFIGW, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW'
-f1_keywords:
-- wtsapi32/WTSLISTENERCONFIG
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wtsapi32.h
-api_name:
-- WTSLISTENERCONFIG
-- WTSLISTENERCONFIGA
-- WTSLISTENERCONFIGW
 targetos: Windows
 req.typenames: WTSLISTENERCONFIGW, *PWTSLISTENERCONFIGW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WTSLISTENERCONFIGW
+ - wtsapi32/_WTSLISTENERCONFIGW
+ - PWTSLISTENERCONFIGW
+ - wtsapi32/PWTSLISTENERCONFIGW
+ - WTSLISTENERCONFIGW
+ - wtsapi32/WTSLISTENERCONFIGW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wtsapi32.h
+api_name:
+ - WTSLISTENERCONFIG
+ - WTSLISTENERCONFIGA
+ - WTSLISTENERCONFIGW
 ---
 
 # WTSLISTENERCONFIGW structure
@@ -50,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a Remote Desktop Services listener. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a> function.
-
+Contains information about a Remote Desktop Services listener. This structure is used by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field version
 
 This member is reserved.
-
 
 ### -field fEnableListener
 
@@ -80,11 +80,9 @@ The listener is disabled.
 
 The listener is enabled.
 
-
 ### -field MaxConnectionCount
 
 The maximum number of active connections that the listener accepts.
-
 
 ### -field fPromptForPassword
 
@@ -102,7 +100,6 @@ Prompt the user for a password only when specified by the server.
 
 Always prompt the user for a password.
 
-
 ### -field fInheritColorDepth
 
 Specifies whether the listener should use the color depth specified by the user. This member can be one of the following values.
@@ -118,7 +115,6 @@ Use the color depth specified by the server.
 #### 1
 
 Use the color depth specified by the user.
-
 
 ### -field ColorDepth
 
@@ -154,7 +150,6 @@ The color depth setting for  the listener. This setting only applies when the <b
 
 32 bit
 
-
 ### -field fInheritBrokenTimeoutSettings
 
 Specifies whether the listener should use the <b>BrokenTimeoutSettings</b> value specified by the user. This member can be one of the following values.
@@ -170,7 +165,6 @@ Use the <b>BrokenTimeoutSettings</b> value specified by server.
 #### 1
 
 Use the <b>BrokenTimeoutSettings</b> value specified by the user.
-
 
 ### -field BrokenTimeoutSettings
 
@@ -188,7 +182,6 @@ When a connection or idle timer expires, or when a connection is lost due to a c
 
 When a connection or idle timer expires, or when a connection is lost due to a connection error, the session is terminated.
 
-
 ### -field fDisablePrinterRedirection
 
 Specifies whether printer redirection is disabled. This member can be one of the following values.
@@ -204,7 +197,6 @@ The user can enable printer redirection.
 #### 1
 
 Printer redirection is disabled.
-
 
 ### -field fDisableDriveRedirection
 
@@ -222,7 +214,6 @@ The user can enable drive redirection.
 
 Drive redirection is disabled.
 
-
 ### -field fDisableComPortRedirection
 
 Specifies whether COM port redirection is disabled. This member can be one of the following values.
@@ -238,7 +229,6 @@ The user can enable COM port redirection.
 #### 1
 
 COM port redirection is disabled.
-
 
 ### -field fDisableLPTPortRedirection
 
@@ -256,7 +246,6 @@ The user can enable LPT port redirection.
 
 LPT port redirection is disabled.
 
-
 ### -field fDisableClipboardRedirection
 
 Specifies whether clipboard redirection is disabled. This member can be one of the following values.
@@ -272,7 +261,6 @@ The user can enable clipboard redirection.
 #### 1
 
 Clipboard redirection is disabled.
-
 
 ### -field fDisableAudioRedirection
 
@@ -290,7 +278,6 @@ The user can enable audio redirection.
 
 Audio redirection is disabled.
 
-
 ### -field fDisablePNPRedirection
 
 Specifies whether Plug and Play redirection is disabled. This member can be one of the following values.
@@ -306,7 +293,6 @@ The user can enable Plug and Play redirection.
 #### 1
 
 Plug and Play redirection is disabled.
-
 
 ### -field fDisableDefaultMainClientPrinter
 
@@ -324,16 +310,13 @@ The client printer is not the default printer.
 
 The client printer is the default printer.
 
-
 ### -field LanAdapter
 
 The network adapter that the listener uses.
 
-
 ### -field PortNumber
 
 The port number of the listener.
-
 
 ### -field fInheritShadowSettings
 
@@ -350,7 +333,6 @@ Use the setting specified by the server.
 #### 1
 
 Use the setting specified by the user.
-
 
 ### -field ShadowSettings
 
@@ -386,21 +368,17 @@ The user of remote control can view the session remotely, with the user's permis
 
 The user of remote control can view the session remotely but not actively control the session; the user's permission is not required.
 
-
 ### -field TimeoutSettingsConnection
 
 The maximum connection duration, in milliseconds. Every time the user logs on, the timer is reset. A value of zero indicates that the connection timer is disabled.
-
 
 ### -field TimeoutSettingsDisconnection
 
 The maximum duration, in milliseconds, that a server retains a disconnected session before the logon is terminated. A value of zero indicates that the disconnection timer is disabled.
 
-
 ### -field TimeoutSettingsIdle
 
 The maximum idle time, in milliseconds. A value of zero indicates that the idle timer is disabled.
-
 
 ### -field SecurityLayer
 
@@ -423,7 +401,6 @@ The server and the client negotiate the method for authentication before a conne
 #### 2
 
 Transport Layer Security (TLS) protocol is used by the server and the client for authentication before a connection is established.
-
 
 ### -field MinEncryptionLevel
 
@@ -454,7 +431,6 @@ All data sent from the client to the server and from the server to the client is
 
 All data sent from the client to the server and from the server to the client is encrypted and decrypted by using the Federal Information Processing Standards (FIPS) encryption algorithms and Microsoft cryptographic modules.
 
-
 ### -field UserAuthentication
 
 Specifies whether network-level user authentication is required before the  connection is established. This member can be one of the following values.
@@ -471,26 +447,21 @@ Network-level user authentication is not required.
 
 Network-level user authentication is required.
 
-
 ### -field Comment
 
 A null-terminated string that contains a description of the listener.
-
 
 ### -field LogonUserName
 
 A null-terminated string that contains the user name used in automatic logon scenarios.
 
-
 ### -field LogonDomain
 
 A null-terminated string that contains the domain name used in automatic logon scenarios.
 
-
 ### -field WorkDirectory
 
 A null-terminated string that contains the path of the working directory of  the initial program.
-
 
 ### -field InitialProgram
 
@@ -731,14 +702,11 @@ Prompt the user for a password only when specified by the server.
 
 Always prompt the user for a password.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a>
- 
-
- 
-
+> [!NOTE]
+> The wtsapi32.h header defines WTSLISTENERCONFIG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

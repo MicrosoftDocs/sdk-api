@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToDeviceContext
-title: IPdfRendererNative::pdf (windows.data.pdf.interop.h)
-description: Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
+title: IPdfRendererNative::RenderPageToDeviceContext (windows.data.pdf.interop.h)
+description: The IPdfRendererNative::RenderPageToDeviceContext method outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
+helpviewer_keywords: ["IPdfRendererNative interface [Windows Runtime]","RenderPageToDeviceContext method","IPdfRendererNative.RenderPageToDeviceContext","IPdfRendererNative.pdf","IPdfRendererNative::RenderPageToDeviceContext","IPdfRendererNative::pdf","RenderPageToDeviceContext","RenderPageToDeviceContext method [Windows Runtime]","RenderPageToDeviceContext method [Windows Runtime]","IPdfRendererNative interface","windows/IPdfRendererNative::RenderPageToDeviceContext","winrt.ipdfrenderernative_renderpagetodevicecontext"]
 old-location: winrt\ipdfrenderernative_renderpagetodevicecontext.htm
 tech.root: WinRT
 ms.assetid: 5ec97d21-3160-48e7-9486-a8ea9ca9df92
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToDeviceContext method, IPdfRendererNative.RenderPageToDeviceContext, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToDeviceContext, IPdfRendererNative::pdf, RenderPageToDeviceContext, RenderPageToDeviceContext method [Windows Runtime], RenderPageToDeviceContext method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToDeviceContext, winrt.ipdfrenderernative_renderpagetodevicecontext
-f1_keywords:
-- windows.data.pdf.interop/IPdfRendererNative.RenderPageToDeviceContext
-dev_langs:
-- c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -28,55 +25,50 @@ req.type-library:
 req.lib: Windows.data.pdf.lib
 req.dll: Windows.Data.Pdf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Data.Pdf.dll
-api_name:
-- IPdfRendererNative.RenderPageToDeviceContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPdfRendererNative::RenderPageToDeviceContext
+ - windows.data.pdf.interop/IPdfRendererNative::RenderPageToDeviceContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Data.Pdf.dll
+api_name:
+ - IPdfRendererNative.RenderPageToDeviceContext
 ---
 
-# IPdfRendererNative::pdf
+# IPdfRendererNative::RenderPageToDeviceContext (windows.data.pdf.interop.h)
 
 
 ## -description
 
-
 Outputs a single page of a Portable Document Format (PDF) file as a bitmap image.
-
 
 ## -parameters
 
-
-
-
 ### -param pdfPage [in]
 
-The <b>IPdfPage</b> interface as an instance of the <a href="https://docs.microsoft.com/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
-
+The <b>IPdfPage</b> interface as an instance of the <a href="/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12&preserve-view=true">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
 
 ### -param pD2DDeviceContext [in]
 
 A set of state and command buffers for outputting the page as a bitmap image.
 
-
 ### -param pRenderParams [in, optional]
 
 A set of page output properties, such as rendering only a portion of the page, rendering a scaled version of the page, setting the page's background color, and whether the page is shown in high contrast mode. 
 
-Provide a null pointer for this parameter to specify default page output properties. For the list of defaults, see <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params">PDF_RENDER_PARAMS</a>.
-
+Provide a null pointer for this parameter to specify default page output properties. For the list of defaults, see <a href="/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params">PDF_RENDER_PARAMS</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,18 +89,7 @@ The page output operation succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a>

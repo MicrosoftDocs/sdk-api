@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.IsThreadFocus
 title: ITfThreadMgr2::IsThreadFocus (msctf.h)
 description: Determines if the calling thread has the TSF input focus.
+helpviewer_keywords: ["ITfThreadMgr2 interface [Text Services Framework]","IsThreadFocus method","ITfThreadMgr2.IsThreadFocus","ITfThreadMgr2::IsThreadFocus","IsThreadFocus","IsThreadFocus method [Text Services Framework]","IsThreadFocus method [Text Services Framework]","ITfThreadMgr2 interface","msctf/ITfThreadMgr2::IsThreadFocus","tsf.itfthreadmgr2_isthreadfocus"]
 old-location: tsf\itfthreadmgr2_isthreadfocus.htm
 tech.root: TSF
 ms.assetid: 8440BEE8-865F-4403-8558-C77638290A7F
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr2.IsThreadFocus, ITfThreadMgr2::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::IsThreadFocus, tsf.itfthreadmgr2_isthreadfocus
-f1_keywords:
-- msctf/ITfThreadMgr2.IsThreadFocus
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.IsThreadFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::IsThreadFocus
+ - msctf/ITfThreadMgr2::IsThreadFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.IsThreadFocus
 ---
 
 # ITfThreadMgr2::IsThreadFocus
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if the calling thread has the TSF input focus.
 
-
 ## -parameters
-
-
-
 
 ### -param pfThreadFocus [out]
 
 Pointer to a BOOL that receives a value that indicates if the calling thread has input focus. This parameter receives a nonzero value if the calling thread has the focus or zero otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,18 +90,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

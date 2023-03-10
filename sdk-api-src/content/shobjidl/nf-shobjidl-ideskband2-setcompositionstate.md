@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IDeskBand2.SetCompositionState
 title: IDeskBand2::SetCompositionState (shobjidl.h)
 description: Sets the composition state.
+helpviewer_keywords: ["IDeskBand2 interface [Windows Shell]","SetCompositionState method","IDeskBand2.SetCompositionState","IDeskBand2::SetCompositionState","SetCompositionState","SetCompositionState method [Windows Shell]","SetCompositionState method [Windows Shell]","IDeskBand2 interface","_shell_IDeskBand2_SetCompositionState","shell.IDeskBand2_SetCompositionState","shobjidl/IDeskBand2::SetCompositionState"]
 old-location: shell\IDeskBand2_SetCompositionState.htm
 tech.root: shell
 ms.assetid: 183cc6fa-4dc4-4272-8d61-a0a426aeefda
 ms.date: 12/05/2018
 ms.keywords: IDeskBand2 interface [Windows Shell],SetCompositionState method, IDeskBand2.SetCompositionState, IDeskBand2::SetCompositionState, SetCompositionState, SetCompositionState method [Windows Shell], SetCompositionState method [Windows Shell],IDeskBand2 interface, _shell_IDeskBand2_SetCompositionState, shell.IDeskBand2_SetCompositionState, shobjidl/IDeskBand2::SetCompositionState
-f1_keywords:
-- shobjidl/IDeskBand2.SetCompositionState
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDeskBand2.SetCompositionState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeskBand2::SetCompositionState
+ - shobjidl/IDeskBand2::SetCompositionState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDeskBand2.SetCompositionState
 ---
 
 # IDeskBand2::SetCompositionState
@@ -48,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the composition state.
-<div class="alert"><b>Important</b>  You should use <a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
+<div class="alert"><b>Important</b>  You should use <a href="/windows/desktop/shell/taskbar-extensions">thumbnail toolbars</a> in new development in place of desk bands, which are not supported as of Windows 7.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param fCompositionEnabled [in]
 
@@ -63,14 +61,8 @@ Type: <b>BOOL</b>
 
 <b>TRUE</b> to enable the composition state; otherwise, <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

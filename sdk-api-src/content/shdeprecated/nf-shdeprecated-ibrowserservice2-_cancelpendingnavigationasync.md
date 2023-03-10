@@ -2,15 +2,12 @@
 UID: NF:shdeprecated.IBrowserService2._CancelPendingNavigationAsync
 title: IBrowserService2::_CancelPendingNavigationAsync (shdeprecated.h)
 description: Deprecated. Enables a derived class to request that the base class cancel any pending navigation.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_CancelPendingNavigationAsync method","IBrowserService2._CancelPendingNavigationAsync","IBrowserService2::_CancelPendingNavigationAsync","_CancelPendingNavigationAsync","_CancelPendingNavigationAsync method [Windows Shell]","_CancelPendingNavigationAsync method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_CancelPendingNavigationAsync","shell.IBrowserService2__CancelPendingNavigationAsync","zone_IBrowserService2__CancelPendingNavigationAsync"]
 old-location: shell\IBrowserService2__CancelPendingNavigationAsync.htm
 tech.root: shell
 ms.assetid: fa3605fe-ebff-48f9-a9d2-9146c719696d
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CancelPendingNavigationAsync method, IBrowserService2._CancelPendingNavigationAsync, IBrowserService2::_CancelPendingNavigationAsync, _CancelPendingNavigationAsync, _CancelPendingNavigationAsync method [Windows Shell], _CancelPendingNavigationAsync method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CancelPendingNavigationAsync, shell.IBrowserService2__CancelPendingNavigationAsync, zone_IBrowserService2__CancelPendingNavigationAsync
-f1_keywords:
-- shdeprecated/IBrowserService2._CancelPendingNavigationAsync
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._CancelPendingNavigationAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_CancelPendingNavigationAsync
+ - shdeprecated/IBrowserService2::_CancelPendingNavigationAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._CancelPendingNavigationAsync
 ---
 
 # IBrowserService2::_CancelPendingNavigationAsync
@@ -49,24 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Enables a derived class to request that the base class cancel any pending navigation.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

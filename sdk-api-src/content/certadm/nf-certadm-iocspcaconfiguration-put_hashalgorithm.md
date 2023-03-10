@@ -1,16 +1,13 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_HashAlgorithm
 title: IOCSPCAConfiguration::put_HashAlgorithm (certadm.h)
-description: Gets or sets an identifier for the hash algorithm used to sign a certificate.
+description: Gets or sets an identifier for the hash algorithm used to sign a certificate. (Put)
+helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","HashAlgorithm property","IOCSPCAConfiguration.HashAlgorithm","IOCSPCAConfiguration.put_HashAlgorithm","IOCSPCAConfiguration::HashAlgorithm","IOCSPCAConfiguration::get_HashAlgorithm","IOCSPCAConfiguration::put_HashAlgorithm","certadm/IOCSPCAConfiguration::HashAlgorithm","certadm/IOCSPCAConfiguration::get_HashAlgorithm","certadm/IOCSPCAConfiguration::put_HashAlgorithm","put_HashAlgorithm","security.iocspcaconfiguration_hashalgorithm_method","security.iocspcaconfiguration_hashalgorithmid_method"]
 old-location: security\iocspcaconfiguration_hashalgorithm_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 71725dc1-7663-4ddd-afde-1e2792fce4f3
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],HashAlgorithm property, IOCSPCAConfiguration.HashAlgorithm, IOCSPCAConfiguration.put_HashAlgorithm, IOCSPCAConfiguration::HashAlgorithm, IOCSPCAConfiguration::get_HashAlgorithm, IOCSPCAConfiguration::put_HashAlgorithm, certadm/IOCSPCAConfiguration::HashAlgorithm, certadm/IOCSPCAConfiguration::get_HashAlgorithm, certadm/IOCSPCAConfiguration::put_HashAlgorithm, put_HashAlgorithm, security.iocspcaconfiguration_hashalgorithm_method, security.iocspcaconfiguration_hashalgorithmid_method
-f1_keywords:
-- certadm/IOCSPCAConfiguration.HashAlgorithm
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPCAConfiguration.HashAlgorithm
-- IOCSPCAConfiguration.get_HashAlgorithm
-- IOCSPCAConfiguration.put_HashAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPCAConfiguration::put_HashAlgorithm
+ - certadm/IOCSPCAConfiguration::put_HashAlgorithm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPCAConfiguration.HashAlgorithm
+ - IOCSPCAConfiguration.get_HashAlgorithm
+ - IOCSPCAConfiguration.put_HashAlgorithm
 ---
 
 # IOCSPCAConfiguration::put_HashAlgorithm
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HashAlgorithm</b> property gets or sets an identifier for the hash algorithm used to sign a certificate. The default value is <b>SHA1</b>.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

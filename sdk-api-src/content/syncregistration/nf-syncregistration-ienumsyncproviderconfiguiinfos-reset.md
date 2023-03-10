@@ -2,15 +2,12 @@
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Reset
 title: IEnumSyncProviderConfigUIInfos::Reset (syncregistration.h)
 description: Resets the enumerator to the beginning of the collection of ISyncProviderConfigUIInfo objects.
+helpviewer_keywords: ["IEnumSyncProviderConfigUIInfos interface [Windows Sync]","Reset method","IEnumSyncProviderConfigUIInfos.Reset","IEnumSyncProviderConfigUIInfos::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumSyncProviderConfigUIInfos interface","syncregistration/IEnumSyncProviderConfigUIInfos::Reset","winsync.ienumsyncproviderconfiguiinfos_reset"]
 old-location: winsync\ienumsyncproviderconfiguiinfos_reset.htm
 tech.root: winsync
 ms.assetid: ae976a03-c0e3-4a47-8153-8ba947ac8ea0
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Reset method, IEnumSyncProviderConfigUIInfos.Reset, IEnumSyncProviderConfigUIInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
-f1_keywords:
-- syncregistration/IEnumSyncProviderConfigUIInfos.Reset
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IEnumSyncProviderConfigUIInfos.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncProviderConfigUIInfos::Reset
+ - syncregistration/IEnumSyncProviderConfigUIInfos::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IEnumSyncProviderConfigUIInfos.Reset
 ---
 
 # IEnumSyncProviderConfigUIInfos::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumerator to the beginning of the collection of <b>ISyncProviderConfigUIInfo</b> objects.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -82,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>

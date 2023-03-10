@@ -2,13 +2,10 @@
 UID: NN:dwrite_3.IDWriteFontResource
 title: IDWriteFontResource
 description: Provides axis information for a font resource, and is used to create specific font face instances.
+helpviewer_keywords: ["IDWriteFontResource","IDWriteFontResource interface [Direct Write]","IDWriteFontResource interface [Direct Write]","described","directwrite.idwritefontresource","dwrite_3/IDWriteFontResource"]
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource, IDWriteFontResource interface [Direct Write], IDWriteFontResource interface [Direct Write],described, directwrite.idwritefontresource, dwrite_3/IDWriteFontResource
-f1_keywords:
-- IDWriteFontResource
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -20,26 +17,31 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteFontResource
+ - dwrite_3/IDWriteFontResource
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteFontResource
+ - IDWriteFontResource
 ---
 
 ## -description
 
 Provides axis information for a font resource, and is used to create specific font face instances.
 
-This interface extends [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown).
+This interface extends [IUnknown](../unknwn/nn-unknwn-iunknown.md).
 
 ## -see-also

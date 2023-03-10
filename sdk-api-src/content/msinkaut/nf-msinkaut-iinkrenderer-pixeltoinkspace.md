@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRenderer.PixelToInkSpace
 title: IInkRenderer::PixelToInkSpace (msinkaut.h)
 description: Converts a location in pixel space coordinates to be a location in ink space coordinates.
+helpviewer_keywords: ["IInkRenderer interface [Tablet PC]","PixelToInkSpace method","IInkRenderer.PixelToInkSpace","IInkRenderer::PixelToInkSpace","PixelToInkSpace","PixelToInkSpace method [Tablet PC]","PixelToInkSpace method [Tablet PC]","IInkRenderer interface","fb881fe0-0be3-4e23-ac50-e421e2dc7845","msinkaut/IInkRenderer::PixelToInkSpace","tablet.inkrenderer_pixeltoinkspace"]
 old-location: tablet\inkrenderer_pixeltoinkspace.htm
 tech.root: tablet
 ms.assetid: fb881fe0-0be3-4e23-ac50-e421e2dc7845
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer interface [Tablet PC],PixelToInkSpace method, IInkRenderer.PixelToInkSpace, IInkRenderer::PixelToInkSpace, PixelToInkSpace, PixelToInkSpace method [Tablet PC], PixelToInkSpace method [Tablet PC],IInkRenderer interface, fb881fe0-0be3-4e23-ac50-e421e2dc7845, msinkaut/IInkRenderer::PixelToInkSpace, tablet.inkrenderer_pixeltoinkspace
-f1_keywords:
-- msinkaut/IInkRenderer.PixelToInkSpace
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRenderer.PixelToInkSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRenderer::PixelToInkSpace
+ - msinkaut/IInkRenderer::PixelToInkSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRenderer.PixelToInkSpace
 ---
 
 # IInkRenderer::PixelToInkSpace
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Converts a location in pixel space coordinates to be a location in ink space coordinates.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hDC [in]
 
 The handle of the device context for the containing control or form.
 
-
 ### -param x [in, out]
 
 The x coordinate of the point to convert into an ink location.
-
 
 ### -param y [in, out]
 
 The y coordinate of the point to convert into an ink location.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -132,43 +121,27 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>PixelToInkSpace</b> converts from pixel to ink space (1 HIMETRIC unit = .01mm), applies the inverse of the view transform, and then applies the object transform.
-
-
-
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkrenderer.md">IInkRenderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel">InkSpaceToPixel Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel">InkSpaceToPixel Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints">InkSpaceToPixelFromPoints Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints">InkSpaceToPixelFromPoints Method</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints">PixelToInkSpaceFromPoints Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints">PixelToInkSpaceFromPoints Method</a>

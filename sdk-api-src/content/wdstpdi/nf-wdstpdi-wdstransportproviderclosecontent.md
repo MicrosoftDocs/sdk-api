@@ -2,15 +2,12 @@
 UID: NF:wdstpdi.WdsTransportProviderCloseContent
 title: WdsTransportProviderCloseContent function (wdstpdi.h)
 description: Closes a content stream specified by a handle.
+helpviewer_keywords: ["WdsTransportProviderCloseContent","WdsTransportProviderCloseContent callback","WdsTransportProviderCloseContent callback function [Windows Deployment Services]","wds.wdstransportproviderclosecontent","wdstpdi/WdsTransportProviderCloseContent"]
 old-location: wds\wdstransportproviderclosecontent.htm
 tech.root: wds
 ms.assetid: 358fdf14-b57b-4c07-b0a5-d8f49aa96c21
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCloseContent, WdsTransportProviderCloseContent callback, WdsTransportProviderCloseContent callback function [Windows Deployment Services], wds.wdstransportproviderclosecontent, wdstpdi/WdsTransportProviderCloseContent
-f1_keywords:
-- wdstpdi/WdsTransportProviderCloseContent
-dev_langs:
-- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdstpdi.h
-api_name:
-- WdsTransportProviderCloseContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsTransportProviderCloseContent
+ - wdstpdi/WdsTransportProviderCloseContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdstpdi.h
+api_name:
+ - WdsTransportProviderCloseContent
 ---
 
 # WdsTransportProviderCloseContent function
@@ -48,34 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Closes a content stream specified by a handle. 
-
+Closes a content stream specified by a handle.
 
 ## -parameters
-
-
-
 
 ### -param hContent [in]
 
 Handle to the content stream to be closed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return is <b>S_OK</b>.
 
-
-
-
 ## -remarks
 
-
-
 This callback is required.
-
-
 

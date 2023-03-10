@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetProbeResolveTag
 title: IWSDiscoveredService::GetProbeResolveTag (wsddisco.h)
 description: Retrieves the search tag corresponding to this discovered service object.
+helpviewer_keywords: ["GetProbeResolveTag","GetProbeResolveTag method","GetProbeResolveTag method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetProbeResolveTag method","IWSDiscoveredService.GetProbeResolveTag","IWSDiscoveredService::GetProbeResolveTag","ncd.iwsdiscoveredservice_getproberesolvetag","wsddisco/IWSDiscoveredService::GetProbeResolveTag"]
 old-location: ncd\iwsdiscoveredservice_getproberesolvetag.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 80c22d39-0197-4e4d-b47e-e04ae90716f9
 ms.date: 12/05/2018
 ms.keywords: GetProbeResolveTag, GetProbeResolveTag method, GetProbeResolveTag method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetProbeResolveTag method, IWSDiscoveredService.GetProbeResolveTag, IWSDiscoveredService::GetProbeResolveTag, ncd.iwsdiscoveredservice_getproberesolvetag, wsddisco/IWSDiscoveredService::GetProbeResolveTag
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetProbeResolveTag
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetProbeResolveTag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetProbeResolveTag
+ - wsddisco/IWSDiscoveredService::GetProbeResolveTag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetProbeResolveTag
 ---
 
 # IWSDiscoveredService::GetProbeResolveTag
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the search tag corresponding to this discovered service object. 
-
+Retrieves the search tag corresponding to this discovered service object.
 
 ## -parameters
 
-
-
-
 ### -param ppszTag [out]
 
-Search tag passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> search method that this <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object corresponds to. If the <b>IWSDiscoveredService</b> is the result of a Hello message, the tag is <b>NULL</b>. Do not deallocate the output string. 
-
+Search tag passed to the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> search method that this <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object corresponds to. If the <b>IWSDiscoveredService</b> is the result of a Hello message, the tag is <b>NULL</b>. Do not deallocate the output string.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +95,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
-
-
-
+The resulting pointer value is only valid for the lifetime of the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

@@ -2,15 +2,12 @@
 UID: NF:winbase.IsSystemResumeAutomatic
 title: IsSystemResumeAutomatic function (winbase.h)
 description: Determines the current state of the computer.
+helpviewer_keywords: ["IsSystemResumeAutomatic","IsSystemResumeAutomatic function","_win32_issystemresumeautomatic","base.issystemresumeautomatic","winbase/IsSystemResumeAutomatic"]
 old-location: base\issystemresumeautomatic.htm
-tech.root: power
+tech.root: base
 ms.assetid: fc9d69cf-26cf-4973-a154-1acb26773738
 ms.date: 12/05/2018
 ms.keywords: IsSystemResumeAutomatic, IsSystemResumeAutomatic function, _win32_issystemresumeautomatic, base.issystemresumeautomatic, winbase/IsSystemResumeAutomatic
-f1_keywords:
-- winbase/IsSystemResumeAutomatic
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- IsSystemResumeAutomatic
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsSystemResumeAutomatic
+ - winbase/IsSystemResumeAutomatic
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - IsSystemResumeAutomatic
 ---
 
 # IsSystemResumeAutomatic function
@@ -48,53 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the current state of the computer.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 If the system was restored to the working state automatically and the user is not active, the function returns <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b>.
-
-
-
 
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumeautomatic">PBT_APMRESUMEAUTOMATIC</a> event is broadcast when the system wakes automatically to handle an event. The user is generally not present. If the system detects any user activity after broadcasting the 
+<a href="/windows/desktop/Power/pbt-apmresumeautomatic">PBT_APMRESUMEAUTOMATIC</a> event is broadcast when the system wakes automatically to handle an event. The user is generally not present. If the system detects any user activity after broadcasting the 
 PBT_APMRESUMEAUTOMATIC event, it will broadcast the 
-<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumesuspend">PBT_APMRESUMESUSPEND</a> event to let applications know they can resume full interaction with the user.
-
-
-
+<a href="/windows/desktop/Power/pbt-apmresumesuspend">PBT_APMRESUMESUSPEND</a> event to let applications know they can resume full interaction with the user.
 
 ## -see-also
 
+<a href="/windows/desktop/Power/pbt-apmresumeautomatic">PBT_APMRESUMEAUTOMATIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumeautomatic">PBT_APMRESUMEAUTOMATIC</a>
+<a href="/windows/desktop/Power/pbt-apmresumesuspend">PBT_APMRESUMESUSPEND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/pbt-apmresumesuspend">PBT_APMRESUMESUSPEND</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

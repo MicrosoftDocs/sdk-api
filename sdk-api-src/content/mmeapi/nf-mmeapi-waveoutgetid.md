@@ -2,15 +2,12 @@
 UID: NF:mmeapi.waveOutGetID
 title: waveOutGetID function (mmeapi.h)
 description: The waveOutGetID function retrieves the device identifier for the given waveform-audio output device.
+helpviewer_keywords: ["_win32_waveOutGetID","mmeapi/waveOutGetID","multimedia.waveoutgetid","waveOutGetID","waveOutGetID function [Windows Multimedia]"]
 old-location: multimedia\waveoutgetid.htm
 tech.root: Multimedia
 ms.assetid: ed9db33a-9a04-4c1f-9996-6821f853a212
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutGetID, mmeapi/waveOutGetID, multimedia.waveoutgetid, waveOutGetID, waveOutGetID function [Windows Multimedia]
-f1_keywords:
-- mmeapi/waveOutGetID
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- waveOutGetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - waveOutGetID
+ - mmeapi/waveOutGetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - waveOutGetID
 ---
 
 # waveOutGetID function
@@ -50,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>waveOutGetID</b> function retrieves the device identifier for the given waveform-audio output device.
 
 
 
 This function is supported for backward compatibility. New applications can cast a handle of the device rather than retrieving the device identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param hwo
 
 Handle to the waveform-audio output device.
 
-
 ### -param puDeviceID
 
 Pointer to a variable to be filled with the device identifier.
 
-
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -119,22 +111,11 @@ Unable to allocate or lock memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

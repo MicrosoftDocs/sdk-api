@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetCountOfRecords
 title: IDvbLogicalChannelDescriptor::GetCountOfRecords (dvbsiparser.h)
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [DirectShow]","GetCountOfRecords method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetCountOfRecords method","IDvbLogicalChannelDescriptor.GetCountOfRecords","IDvbLogicalChannelDescriptor::GetCountOfRecords","IDvbLogicalChannelDescriptorGetCountOfRecords","dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords","mstv.idvblogicalchanneldescriptor_getcountofrecords"]
 old-location: mstv\idvblogicalchanneldescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 97cadf6c-2549-4a7f-9ecb-c16298769a21
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [DirectShow], GetCountOfRecords method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetCountOfRecords method, IDvbLogicalChannelDescriptor.GetCountOfRecords, IDvbLogicalChannelDescriptor::GetCountOfRecords, IDvbLogicalChannelDescriptorGetCountOfRecords, dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords, mstv.idvblogicalchanneldescriptor_getcountofrecords
-f1_keywords:
-- dvbsiparser/IDvbLogicalChannelDescriptor.GetCountOfRecords
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbLogicalChannelDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbLogicalChannelDescriptor::GetCountOfRecords
+ - dvbsiparser/IDvbLogicalChannelDescriptor::GetCountOfRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbLogicalChannelDescriptor.GetCountOfRecords
 ---
 
 # IDvbLogicalChannelDescriptor::GetCountOfRecords
 
 
 ## -description
-
-
-
 
 <div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
 <div> </div>
@@ -59,33 +58,16 @@ ms.custom: 19H1
 
 The <b>GetCountOfRecords</b> method returns the number of records in the logical channel descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the number of records in the descriptor.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>

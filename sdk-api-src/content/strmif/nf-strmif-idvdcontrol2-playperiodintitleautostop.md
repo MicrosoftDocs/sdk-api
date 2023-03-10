@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.PlayPeriodInTitleAutoStop
 title: IDvdControl2::PlayPeriodInTitleAutoStop (strmif.h)
 description: The PlayPeriodInTitleAutoStop method starts playback in the specified title from the specified start time until the specified end time.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayPeriodInTitleAutoStop method","IDvdControl2.PlayPeriodInTitleAutoStop","IDvdControl2::PlayPeriodInTitleAutoStop","IDvdControl2PlayPeriodInTitleAutoStop","PlayPeriodInTitleAutoStop","PlayPeriodInTitleAutoStop method [DirectShow]","PlayPeriodInTitleAutoStop method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playperiodintitleautostop","strmif/IDvdControl2::PlayPeriodInTitleAutoStop"]
 old-location: dshow\idvdcontrol2_playperiodintitleautostop.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6c0d647c-a0c3-428e-8368-9204049dfea8
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPeriodInTitleAutoStop method, IDvdControl2.PlayPeriodInTitleAutoStop, IDvdControl2::PlayPeriodInTitleAutoStop, IDvdControl2PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop, PlayPeriodInTitleAutoStop method [DirectShow], PlayPeriodInTitleAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playperiodintitleautostop, strmif/IDvdControl2::PlayPeriodInTitleAutoStop
-f1_keywords:
-- strmif/IDvdControl2.PlayPeriodInTitleAutoStop
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.PlayPeriodInTitleAutoStop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::PlayPeriodInTitleAutoStop
+ - strmif/IDvdControl2::PlayPeriodInTitleAutoStop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.PlayPeriodInTitleAutoStop
 ---
 
 # IDvdControl2::PlayPeriodInTitleAutoStop
@@ -49,46 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>PlayPeriodInTitleAutoStop</code> method starts playback in the specified title from the specified start time until the specified end time.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulTitle [in]
 
 Value that specifies the title; this value must be from 1 through 99.
 
-
 ### -param pStartTime [in]
 
-Pointer to a [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that specifies the time at which to start playing.
-
+Pointer to a [DVD_HMSF_TIMECODE](/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that specifies the time at which to start playing.
 
 ### -param pEndTime [in]
 
-Pointer to a [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that specifies the time at which to stop playing.
-
+Pointer to a [DVD_HMSF_TIMECODE](/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) structure that specifies the time at which to stop playing.
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
-
+Bitwise OR of one or more flags from the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 ### -param ppCmd [out]
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
-
+Receives a pointer to an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -131,14 +118,8 @@ Invalid argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The actual start and end times are the times before or equal to the frame number specified in the <b>DVD_HMSF_TIMECODE</b>. The frame rate code is ignored on <i>pStartTime</i> and <i>pEndTime</i>.
 
@@ -162,30 +143,19 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>

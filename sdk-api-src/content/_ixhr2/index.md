@@ -4,7 +4,7 @@ title: XML HTTP Extended Request
 ms.assetid: 1bcd6a5a-1ca6-357d-9684-cbdeef45fb68
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # XML HTTP Extended Request
@@ -18,5 +18,4 @@ To develop XML HTTP Extended Request, you need these headers:
  * [msxml6.h](../msxml6/index.md)
 
 For programming guidance for this technology, see:
-* [XML HTTP Extended Request](https://docs.microsoft.com/previous-versions/windows/desktop/ixhr2)
-
+* [XML HTTP Extended Request](/previous-versions/windows/desktop/ixhr2)

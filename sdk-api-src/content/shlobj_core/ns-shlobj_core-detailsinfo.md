@@ -2,15 +2,12 @@
 UID: NS:shlobj_core._DETAILSINFO
 title: DETAILSINFO (shlobj_core.h)
 description: Contains detail information for a Shell folder item. Used with the SFVM_GETDETAILSOF notification.
+helpviewer_keywords: ["*PDETAILSINFO","DETAILSINFO","DETAILSINFO structure [Windows Shell]","LVCFMT_CENTER","LVCFMT_COL_HAS_IMAGES","LVCFMT_LEFT","LVCFMT_RIGHT","_DETAILSINFO","_win32_DETAILSINFO","shell.DETAILSINFO","shlobj_core/DETAILSINFO"]
 old-location: shell\DETAILSINFO.htm
 tech.root: shell
 ms.assetid: 255de86e-c3d4-4b1d-9b61-7ee679a4973e
 ms.date: 12/05/2018
 ms.keywords: '*PDETAILSINFO, DETAILSINFO, DETAILSINFO structure [Windows Shell], LVCFMT_CENTER, LVCFMT_COL_HAS_IMAGES, LVCFMT_LEFT, LVCFMT_RIGHT, _DETAILSINFO, _win32_DETAILSINFO, shell.DETAILSINFO, shlobj_core/DETAILSINFO'
-f1_keywords:
-- shlobj_core/DETAILSINFO
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- DETAILSINFO
 targetos: Windows
 req.typenames: DETAILSINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DETAILSINFO
+ - shlobj_core/_DETAILSINFO
+ - DETAILSINFO
+ - shlobj_core/DETAILSINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - DETAILSINFO
 ---
 
 # DETAILSINFO structure
@@ -48,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains detail information for a Shell folder item. Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-getdetailsof">SFVM_GETDETAILSOF</a> notification.
-
+Contains detail information for a Shell folder item. Used with the <a href="/windows/desktop/shell/sfvm-getdetailsof">SFVM_GETDETAILSOF</a> notification.
 
 ## -struct-fields
-
-
-
 
 ### -field pidl
 
 Type: <b>PCUITEMID_CHILD</b>
 
 PIDL of the item whose details are being retrieved.
-
 
 ### -field fmt
 
@@ -94,24 +92,20 @@ Text is left-aligned.
 
 Text is right-aligned.
 
-
 ### -field cxChar
 
 Type: <b>int</b>
 
 The number of average-sized characters in the heading.
 
-
 ### -field str
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a></b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure that includes a string containing the requested detail. To convert this structure to a string, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
-
+An <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure that includes a string containing the requested detail. To convert this structure to a string, use <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
 
 ### -field iImage
 
 Type: <b>int</b>
 
 The index of an icon in the Shell image list that is displayed in the view.
-

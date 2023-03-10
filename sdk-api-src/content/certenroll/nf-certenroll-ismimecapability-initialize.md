@@ -2,15 +2,12 @@
 UID: NF:certenroll.ISmimeCapability.Initialize
 title: ISmimeCapability::Initialize (certenroll.h)
 description: Initializes the object from a symmetric encryption algorithm object identifier (OID) and an optional key length.
+helpviewer_keywords: ["ISmimeCapability interface [Security]","Initialize method","ISmimeCapability.Initialize","ISmimeCapability::Initialize","Initialize","Initialize method [Security]","Initialize method [Security]","ISmimeCapability interface","certenroll/ISmimeCapability::Initialize","security.ismimecapability_initialize_method"]
 old-location: security\ismimecapability_initialize_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: d972121d-ecfa-4a79-9322-dd0d0b81ba68
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability interface [Security],Initialize method, ISmimeCapability.Initialize, ISmimeCapability::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISmimeCapability interface, certenroll/ISmimeCapability::Initialize, security.ismimecapability_initialize_method
-f1_keywords:
-- certenroll/ISmimeCapability.Initialize
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ISmimeCapability.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISmimeCapability::Initialize
+ - certenroll/ISmimeCapability::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ISmimeCapability.Initialize
 ---
 
 # ISmimeCapability::Initialize
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Initialize</b> method initializes the object from a symmetric encryption algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and an optional key length.
-
+The <b>Initialize</b> method initializes the object from a symmetric encryption algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and an optional key length.
 
 ## -parameters
 
-
-
-
 ### -param pObjectId [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the OID.
-
+Pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> interface that represents the OID.
 
 ### -param BitCount [in]
 
 A <b>LONG</b> variable that contains the bit length of the symmetric key.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -88,21 +81,15 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> pointer is <b>NULL</b>.
+The <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> pointer is <b>NULL</b>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The following symmetric encryption algorithms are supported by the Certificate Enrollment API. Only the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC2</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RC4</a> algorithms have variable key lengths that can be specified.<table>
+The following symmetric encryption algorithms are supported by the Certificate Enrollment API. Only the <a href="/windows/desktop/SecGloss/r-gly">RC2</a> and <a href="/windows/desktop/SecGloss/r-gly">RC4</a> algorithms have variable key lengths that can be specified.<table>
 <tr>
 <th>OID</th>
 <th>Key length</th>
@@ -141,7 +128,7 @@ The following symmetric encryption algorithms are supported by the Certificate E
 
 </td>
 <td>168</td>
-<td>The key size of the MMS <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES) key wrap algorithm is 168 bits. You do not need to specify this value. </td>
+<td>The key size of the MMS <a href="/windows/desktop/SecGloss/d-gly">Data Encryption Standard</a> (DES) key wrap algorithm is 168 bits. You do not need to specify this value. </td>
 </tr>
 <tr>
 <td>XCN_OID_RSA_SMIMEalgCMSRC2wrap1.2.840.113549.1.9.16.3.7
@@ -197,26 +184,16 @@ The following symmetric encryption algorithms are supported by the Certificate E
 
 
 
-The key length that you specify for RC2 and RC4 algorithms must be consistent with that supported by the cryptographic provider or providers used by the client. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>. You can retrieve the bit length by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-get_bitcount">BitCount</a> property,  and you can retrieve the algorithm OID by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-get_objectid">ObjectId</a> property.
-
-
-
+The key length that you specify for RC2 and RC4 algorithms must be consistent with that supported by the cryptographic provider or providers used by the client. For more information, see <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>. You can retrieve the bit length by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-get_bitcount">BitCount</a> property,  and you can retrieve the algorithm OID by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-get_objectid">ObjectId</a> property.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapabilities">ISmimeCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapabilities">ISmimeCapabilities</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>

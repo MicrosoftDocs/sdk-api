@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_HasGroup
 title: ListView_HasGroup macro (commctrl.h)
 description: Determines whether the list-view control has a specified group. You can use this macro or send the LVM_HASGROUP message explicitly.
+helpviewer_keywords: ["ListView_HasGroup","ListView_HasGroup macro [Windows Controls]","_win32_ListView_HasGroup","_win32_ListView_HasGroup_cpp","commctrl/ListView_HasGroup","controls.ListView_HasGroup","controls._win32_ListView_HasGroup"]
 old-location: controls\ListView_HasGroup.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hasgroup.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_HasGroup, ListView_HasGroup macro [Windows Controls], _win32_ListView_HasGroup, _win32_ListView_HasGroup_cpp, commctrl/ListView_HasGroup, controls.ListView_HasGroup, controls._win32_ListView_HasGroup
-f1_keywords:
-- commctrl/ListView_HasGroup
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_HasGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_HasGroup
+ - commctrl/ListView_HasGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_HasGroup
 ---
 
 # ListView_HasGroup macro
@@ -48,32 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Determines whether the list-view control has a specified group. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-hasgroup">LVM_HASGROUP</a> message explicitly. 
-
+Determines whether the list-view control has a specified group. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-hasgroup">LVM_HASGROUP</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param dwGroupId
 
 Type: <b>int</b>
 
-
 ## -remarks
 
-
-
-To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>ListView_HasGroup</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

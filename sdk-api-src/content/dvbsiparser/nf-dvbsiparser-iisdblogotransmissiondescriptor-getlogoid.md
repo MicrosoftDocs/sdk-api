@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetLogoId
 title: IIsdbLogoTransmissionDescriptor::GetLogoId (dvbsiparser.h)
 description: Gets the logo identifier from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
+helpviewer_keywords: ["GetLogoId","GetLogoId method [Microsoft TV Technologies]","GetLogoId method [Microsoft TV Technologies]","IIsdbLogoTransmissionDescriptor interface","IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies]","GetLogoId method","IIsdbLogoTransmissionDescriptor.GetLogoId","IIsdbLogoTransmissionDescriptor::GetLogoId","dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoId","mstv.iisdblogotransmissiondescriptor_getlogoid"]
 old-location: mstv\iisdblogotransmissiondescriptor_getlogoid.htm
 tech.root: mstv
 ms.assetid: f4c11012-5d37-4d8f-944b-edfa50719b12
 ms.date: 12/05/2018
 ms.keywords: GetLogoId, GetLogoId method [Microsoft TV Technologies], GetLogoId method [Microsoft TV Technologies],IIsdbLogoTransmissionDescriptor interface, IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies],GetLogoId method, IIsdbLogoTransmissionDescriptor.GetLogoId, IIsdbLogoTransmissionDescriptor::GetLogoId, dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoId, mstv.iisdblogotransmissiondescriptor_getlogoid
-f1_keywords:
-- dvbsiparser/IIsdbLogoTransmissionDescriptor.GetLogoId
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbLogoTransmissionDescriptor.GetLogoId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbLogoTransmissionDescriptor::GetLogoId
+ - dvbsiparser/IIsdbLogoTransmissionDescriptor::GetLogoId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbLogoTransmissionDescriptor.GetLogoId
 ---
 
 # IIsdbLogoTransmissionDescriptor::GetLogoId
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
- Gets the logo identifier from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor. 
-
+ Gets the logo identifier from an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
 
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the logo identifier.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdblogotransmissiondescriptor">IIsdbLogoTransmissionDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdblogotransmissiondescriptor">IIsdbLogoTransmissionDescriptor</a>

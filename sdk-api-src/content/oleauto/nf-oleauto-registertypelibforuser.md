@@ -2,15 +2,12 @@
 UID: NF:oleauto.RegisterTypeLibForUser
 title: RegisterTypeLibForUser function (oleauto.h)
 description: Registers a type library for use by the calling user.
+helpviewer_keywords: ["RegisterTypeLibForUser","RegisterTypeLibForUser function [Automation]","_oa96_RegisterTypeLibForUser","automat.registertypelibforuser","oleauto/RegisterTypeLibForUser"]
 old-location: automat\registertypelibforuser.htm
 tech.root: automat
 ms.assetid: ca8ae169-f849-4df2-8537-095d65ad6a08
 ms.date: 12/05/2018
 ms.keywords: RegisterTypeLibForUser, RegisterTypeLibForUser function [Automation], _oa96_RegisterTypeLibForUser, automat.registertypelibforuser, oleauto/RegisterTypeLibForUser
-f1_keywords:
-- oleauto/RegisterTypeLibForUser
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- RegisterTypeLibForUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterTypeLibForUser
+ - oleauto/RegisterTypeLibForUser
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - RegisterTypeLibForUser
 ---
 
 # RegisterTypeLibForUser function
@@ -48,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a type library for use by the calling user.
 
-
 ## -parameters
-
-
-
 
 ### -param ptlib
 
 The type library.
 
-
 ### -param szFullPath [in]
 
 The fully qualified path specification for the type library.
-
 
 ### -param szHelpDir [in, optional]
 
 The directory in which the Help file for the library being registered can be found. This parameter can be null.
 
-
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -160,17 +151,7 @@ The type library could not be opened.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>RegisterTypeLibForUser</b> has functionality identical to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> except that type library is registered for use only by the calling user identity. 
-
-
-
-
+<b>RegisterTypeLibForUser</b> has functionality identical to <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-registertypelib">RegisterTypeLib</a> except that type library is registered for use only by the calling user identity.

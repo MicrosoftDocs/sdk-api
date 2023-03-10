@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.WSALookupServiceNextA
 title: WSALookupServiceNextA function (winsock2.h)
-description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information.
+description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information. (ANSI)
+helpviewer_keywords: ["LUP_CONTAINERS", "LUP_DEEP", "LUP_FLUSHCACHE", "LUP_FLUSHPREVIOUS", "LUP_NEAREST", "LUP_NOCONTAINERS", "LUP_RES_SERVICE", "LUP_RETURN_ADDR", "LUP_RETURN_ALIASES", "LUP_RETURN_ALL", "LUP_RETURN_BLOB", "LUP_RETURN_COMMENT", "LUP_RETURN_NAME", "LUP_RETURN_QUERY_STRING", "LUP_RETURN_TYPE", "LUP_RETURN_VERSION", "WSALookupServiceNextA", "winsock2/WSALookupServiceNextA"]
 old-location: winsock\wsalookupservicenext_2.htm
 tech.root: WinSock
 ms.assetid: ab4f1830-b38d-4224-a6a9-6d4512245ad6
 ms.date: 12/05/2018
 ms.keywords: LUP_CONTAINERS, LUP_DEEP, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_RES_SERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, WSALookupServiceNext, WSALookupServiceNext function [Winsock], WSALookupServiceNextA, WSALookupServiceNextW, _win32_wsalookupservicenext_2, winsock.wsalookupservicenext_2, winsock2/WSALookupServiceNext, winsock2/WSALookupServiceNextA, winsock2/WSALookupServiceNextW
-f1_keywords:
-- winsock2/WSALookupServiceNext
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSALookupServiceNext
-- WSALookupServiceNextA
-- WSALookupServiceNextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSALookupServiceNextA
+ - winsock2/WSALookupServiceNextA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSALookupServiceNext
+ - WSALookupServiceNextA
+ - WSALookupServiceNextW
 ---
 
 # WSALookupServiceNextA function
@@ -50,30 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSALookupServiceNext</b> function is called after obtaining a handle from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> in order to retrieve the requested service information.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> in order to retrieve the requested service information.
 
 The provider will pass back a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should continue to call this function until it returns WSA_E_NO_MORE, indicating that all of 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should continue to call this function until it returns WSA_E_NO_MORE, indicating that all of 
 <b>WSAQUERYSET</b> has been returned.
 
-
 ## -parameters
-
-
-
 
 ### -param hLookup [in]
 
 A handle returned from the previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
 
 ### -param dwControlFlags [in]
 
-A set of flags that controls the operation. The values passed in the <i>dwControlFlags</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>function determine the possible criteria. Any values passed in the <i>dwControlFlags</i> parameter to the <b>WSALookupServiceNext</b> function further restrict the criteria for the service lookup. 
+A set of flags that controls the operation. The values passed in the <i>dwControlFlags</i> parameter to the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> function determine the possible criteria. Any values passed in the <i>dwControlFlags</i> parameter to the <b>WSALookupServiceNext</b> function further restrict the criteria for the service lookup. 
 
 Currently, LUP_FLUSHPREVIOUS is defined as a means to cope with a result set that is too large. If an application does not (or cannot) supply a large enough buffer, setting LUP_FLUSHPREVIOUS instructs the provider to discard the last result set—which was too large—and move on to the next set for this call.
 
@@ -259,32 +255,26 @@ If the provider has been caching information, ignores the cache, and queries the
 </td>
 <td width="60%">
 This indicates whether prime response is in the remote or local part of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure. The other part needs to be usable in either case.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structure. The other part needs to be usable in either case.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwBufferLength [in, out]
 
 On input, the number of bytes contained in the buffer pointed to by <i>lpqsResults</i>. On output, if the function fails and the error is 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, then it contains the minimum number of bytes to pass for the <i>lpqsResults</i> to retrieve the record.
-
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, then it contains the minimum number of bytes to pass for the <i>lpqsResults</i> to retrieve the record.
 
 ### -param lpqsResults [out]
 
 A pointer to a block of memory, which will contain one result set in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure on return.
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure on return.
 
 ## -returns
 
-
-
 The return value is zero if the operation was successful. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -294,42 +284,42 @@ The return value is zero if the operation was successful. Otherwise, the value S
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a> was made while this call was still processing. The call has been canceled. The data in the <i>lpqsResults</i> buffer is undefined. In Windows Sockets version 2, conflicting error codes are defined for <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECANCELLED</a> (10103) and <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a> (10111). The error code WSAECANCELLED will be removed in a future version and only WSA_E_CANCELLED will remain. For Windows Sockets version 2, however, applications should check for both WSAECANCELLED and WSA_E_CANCELLED for the widest possible compatibility with namespace providers that use either one.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a> was made while this call was still processing. The call has been canceled. The data in the <i>lpqsResults</i> buffer is undefined. In Windows Sockets version 2, conflicting error codes are defined for <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECANCELLED</a> (10103) and <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_CANCELLED</a> (10111). The error code WSAECANCELLED will be removed in a future version and only WSA_E_CANCELLED will remain. For Windows Sockets version 2, however, applications should check for both WSAECANCELLED and WSA_E_CANCELLED for the widest possible compatibility with namespace providers that use either one.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_NO_MORE</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_NO_MORE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-There is no more data available. In Windows Sockets version 2, conflicting error codes are defined for <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOMORE</a> (10102) and <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_NO_MORE</a> (10110). The error code WSAENOMORE will be removed in a future version and only WSA_E_NO_MORE will remain. For Windows Sockets version 2, however, applications should check for both WSAENOMORE and WSA_E_NO_MORE for the widest possible compatibility with name-space providers that use either one.
+There is no more data available. In Windows Sockets version 2, conflicting error codes are defined for <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOMORE</a> (10102) and <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_E_NO_MORE</a> (10110). The error code WSAENOMORE will be removed in a future version and only WSA_E_NO_MORE will remain. For Windows Sockets version 2, however, applications should check for both WSAENOMORE and WSA_E_NO_MORE for the widest possible compatibility with name-space providers that use either one.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The <i>lpqsResults</i> buffer was too small to contain a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> set.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> set.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -340,7 +330,7 @@ One or more required parameters were invalid or missing.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -351,19 +341,19 @@ The specified Lookup handle is invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The WS2_32.DLL has not been initialized. The application must first call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> before calling any Windows Sockets functions.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -374,7 +364,7 @@ The name was found in the database, but no data matching the given restrictions 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -383,17 +373,11 @@ There was insufficient memory to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>dwControlFlags</i> parameter specified in this function and the ones specified at the time of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> are treated as restrictions for the purpose of combination. The restrictions are combined between the ones at 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> are treated as restrictions for the purpose of combination. The restrictions are combined between the ones at 
 <b>WSALookupServiceBegin</b> time and the ones at 
 <b>WSALookupServiceNext</b> time. Therefore the flags at 
 <b>WSALookupServiceNext</b> can never increase the amount of data returned beyond what was requested at 
@@ -402,22 +386,22 @@ The <i>dwControlFlags</i> parameter specified in this function and the ones spec
 
 The <i>dwControlFlags</i> LUP_FLUSHPREVIOUS and LUP_RES_SERVICE are exceptions to the combined restrictions rule (because they are behavior flags instead of restriction flags). If either of these flags are used in 
 <b>WSALookupServiceNext</b> they have their defined effect regardless of the setting of the same flags at 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
 
 For example, if LUP_RETURN_VERSION is specified at 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> the service provider retrieves records including the version. If LUP_RETURN_VERSION is NOT specified at 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> the service provider retrieves records including the version. If LUP_RETURN_VERSION is NOT specified at 
 <b>WSALookupServiceNext</b>, the returned information does not include the version, even though it was available. No error is generated.
 
 Also for example, if LUP_RETURN_BLOB is NOT specified at 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> but is specified at 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a> but is specified at 
 <b>WSALookupServiceNext</b>, the returned information does not include the private data. No error is generated.
 
 If the <b>WSALookupServiceNext</b> function fails with an error of 
-								<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, this indicates that the buffer pointed to by the <i>lpqsResults</i> parameter was too small to contain the query results. A new buffer for a <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> should be provided with a size specified by the value pointed to by  the <i>lpdwBufferLength</i> parameter. This new buffer for the <b>WSAQUERYSET</b> needs to have some of the members of the <b>WSAQUERYSET</b> specified before calling the <b>WSALookupServiceNext</b> function again. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the new size of the buffer.
+								<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a>, this indicates that the buffer pointed to by the <i>lpqsResults</i> parameter was too small to contain the query results. A new buffer for a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> should be provided with a size specified by the value pointed to by  the <i>lpdwBufferLength</i> parameter. This new buffer for the <b>WSAQUERYSET</b> needs to have some of the members of the <b>WSAQUERYSET</b> specified before calling the <b>WSALookupServiceNext</b> function again. At a minimum, the <b>dwSize</b> member of the <b>WSAQUERYSET</b> must be set to the new size of the buffer.
 
 <h3><a id="Query_Results"></a><a id="query_results"></a><a id="QUERY_RESULTS"></a>Query Results</h3>
 The following table describes how the query results are represented in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure.
 
 <table>
 <tr>
@@ -427,7 +411,7 @@ The following table describes how the query results are represented in the
 <tr>
 <td><b>dwSize</b></td>
 <td>Will be set to sizeof(
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is used as a versioning mechanism.</td>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>). This is used as a versioning mechanism.</td>
 </tr>
 <tr>
 <td><b>dwOutputFlags</b></td>
@@ -468,7 +452,7 @@ The following table describes how the query results are represented in the
 <tr>
 <td><b>lpafpProtocols</b></td>
 <td>Undefined for results, all needed protocol information is in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpszQueryString</b></td>
@@ -477,12 +461,12 @@ The following table describes how the query results are represented in the
 <tr>
 <td><b>dwNumberOfCsAddrs</b></td>
 <td>Indicates the number of elements in the array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures.</td>
 </tr>
 <tr>
 <td><b>lpcsaBuffer</b></td>
 <td>A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a> structures, with one complete transport address contained within each element.</td>
 </tr>
 <tr>
 <td><b>lpBlob</b></td>
@@ -498,33 +482,30 @@ The following table describes how the query results are represented in the
 
 
 
+
+> [!NOTE]
+> The winsock2.h header defines WSALookupServiceNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicenext">Bluetooth and WSALookupServiceNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-wsalookupservicenext">Bluetooth and WSALookupServiceNext</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsalookupserviceend">WSALookupServiceEnd</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

@@ -1,16 +1,13 @@
 ---
 UID: NS:ntmsapi._NTMS_PMIDINFORMATIONW
 title: NTMS_PMIDINFORMATIONW (ntmsapi.h)
-description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object.
+description: The NTMS_PMIDINFORMATION structure defines the properties specific to a physical media object. (Unicode)
+helpviewer_keywords: ["NTMS_BARCODESTATE_OK","NTMS_BARCODESTATE_UNREADABLE","NTMS_MEDIASTATE_IDLE","NTMS_MEDIASTATE_INUSE","NTMS_MEDIASTATE_LOADED","NTMS_MEDIASTATE_MOUNTED","NTMS_MEDIASTATE_OPREQ","NTMS_MEDIASTATE_OP_ERROR","NTMS_MEDIASTATE_UNLOADED","NTMS_PMIDINFORMATION","NTMS_PMIDINFORMATION structure [Files]","NTMS_PMIDINFORMATIONA","NTMS_PMIDINFORMATIONW","_NTMS_PMIDINFORMATIONA","_NTMS_PMIDINFORMATIONW","_zaw_ntms_pmidinformation","base.ntms_pmidinformation","fs.ntms_pmidinformation","ntmsapi/NTMS_PMIDINFORMATION"]
 old-location: fs\ntms_pmidinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 9ed46cc9-0b93-44ef-9c33-1e1baadb225f
 ms.date: 12/05/2018
 ms.keywords: NTMS_BARCODESTATE_OK, NTMS_BARCODESTATE_UNREADABLE, NTMS_MEDIASTATE_IDLE, NTMS_MEDIASTATE_INUSE, NTMS_MEDIASTATE_LOADED, NTMS_MEDIASTATE_MOUNTED, NTMS_MEDIASTATE_OPREQ, NTMS_MEDIASTATE_OP_ERROR, NTMS_MEDIASTATE_UNLOADED, NTMS_PMIDINFORMATION, NTMS_PMIDINFORMATION structure [Files], NTMS_PMIDINFORMATIONA, NTMS_PMIDINFORMATIONW, _NTMS_PMIDINFORMATIONA, _NTMS_PMIDINFORMATIONW, _zaw_ntms_pmidinformation, base.ntms_pmidinformation, fs.ntms_pmidinformation, ntmsapi/NTMS_PMIDINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_PMIDINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_PMIDINFORMATION
-- NTMS_PMIDINFORMATIONA
-- NTMS_PMIDINFORMATIONW
 targetos: Windows
 req.typenames: NTMS_PMIDINFORMATIONW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_PMIDINFORMATIONW
+ - ntmsapi/_NTMS_PMIDINFORMATIONW
+ - NTMS_PMIDINFORMATIONW
+ - ntmsapi/NTMS_PMIDINFORMATIONW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_PMIDINFORMATION
+ - NTMS_PMIDINFORMATIONA
+ - NTMS_PMIDINFORMATIONW
 ---
 
 # NTMS_PMIDINFORMATIONW structure
@@ -50,52 +54,40 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_PMIDINFORMATION</b> structure defines the properties specific to a physical media object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CurrentLibrary
 
 Unique ID of the library in which the media is contained.
 
-
 ### -field MediaPool
 
 Unique ID of the media pool to which the media is assigned.
-
 
 ### -field Location
 
 Unique ID of the physical location object for the media.
 
-
 ### -field LocationType
 
 Current location type of a piece of physical media. The value of this member can be set to NTMS_STORAGESLOT, NTMS_DRIVE, NTMS_IEPORT. (Offline media are in slots.)
-
 
 ### -field MediaType
 
 Unique ID of a media type object.
 
-
 ### -field HomeSlot
 
 Unique ID of the library storage slot in which media is stored.
 
-
 ### -field szBarCode
 
 String that matches the bar-code value on a bar-code label of a piece of physical media.
-
 
 ### -field BarCodeState
 
@@ -129,13 +121,10 @@ The media either does not have a bar code or the bar code is unreadable.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szSequenceNumber
 
 Sequential number assigned to the specified medium as a human-readable value that must be transcribed by a user on the medium so that the medium can be located in an offline library.
-
 
 ### -field MediaState
 
@@ -219,47 +208,36 @@ Media is waiting for operator request.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwNumberOfPartitions
 
 Number of sides on the medium.
 
-
 ### -field dwMediaTypeCode
 
 SCSI media type code.
-
 
 ### -field dwDensityCode
 
 SCSI density code.
 
-
 ### -field MountedPartition
 
 Globally unique ID of the side of the media that is currently mounted.
 
-
 ## -remarks
-
-
 
 The 
 <b>NTMS_PMIDINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
+
+
+> [!NOTE]
+> The ntmsapi.h header defines NTMS_PMIDINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>

@@ -2,15 +2,12 @@
 UID: NF:oleidl.IDropTarget.Drop
 title: IDropTarget::Drop (oleidl.h)
 description: Incorporates the source data into the target window, removes target feedback, and releases the data object.
+helpviewer_keywords: ["Drop","Drop method [COM]","Drop method [COM]","IDropTarget interface","IDropTarget interface [COM]","Drop method","IDropTarget.Drop","IDropTarget::Drop","_ole_idroptarget_drop","com.idroptarget_drop","oleidl/IDropTarget::Drop"]
 old-location: com\idroptarget_drop.htm
 tech.root: com
 ms.assetid: 7ea6d815-bf8f-47d5-99d3-f9a55bafee2e
 ms.date: 12/05/2018
 ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, IDropTarget interface [COM],Drop method, IDropTarget.Drop, IDropTarget::Drop, _ole_idroptarget_drop, com.idroptarget_drop, oleidl/IDropTarget::Drop
-f1_keywords:
-- oleidl/IDropTarget.Drop
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IDropTarget.Drop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDropTarget::Drop
+ - oleidl/IDropTarget::Drop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IDropTarget.Drop
 ---
 
 # IDropTarget::Drop
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Incorporates the source data into the target window, removes target feedback, and releases the data object.
-
 
 ## -parameters
 
-
-
-
 ### -param pDataObj [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object being transferred in the drag-and-drop operation.
-
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object being transferred in the drag-and-drop operation.
 
 ### -param grfKeyState [in]
 
 The current state of the keyboard modifier keys on the keyboard. Possible values can be a combination of any of the flags MK_CONTROL, MK_SHIFT, MK_ALT, MK_BUTTON, MK_LBUTTON, MK_MBUTTON, and MK_RBUTTON.
 
-
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
-
+A <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
 
 ### -param pdwEffect [in, out]
 
-On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. On return, must contain one of the <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
-
+On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. On return, must contain one of the <a href="/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible values include the following.
 
@@ -122,61 +113,46 @@ There is insufficient memory available for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+You do not call this method directly. The <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method when the user completes the drag-and-drop operation.
 
+In implementing <b>Drop</b>, you must incorporate the data object into the target. Use the formats available in <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, available through <i>pDataObj</i>, along with the current state of the modifier keys to determine how the data is to be incorporated, such as linking or embedding.
 
-You do not call this method directly. The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method when the user completes the drag-and-drop operation.
-
-In implementing <b>Drop</b>, you must incorporate the data object into the target. Use the formats available in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, available through <i>pDataObj</i>, along with the current state of the modifier keys to determine how the data is to be incorporated, such as linking or embedding.
-
-In addition to incorporating the data, you must also clean up as you do in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method:
+In addition to incorporating the data, you must also clean up as you do in the <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method:
 
 <ul>
 <li>Remove any target feedback that is currently displayed.</li>
 <li>Release any references to the data object.</li>
 </ul>
-You also pass the effect of this operation back to the source application through <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>, so the source application can clean up after the drag-and-drop operation is complete:
+You also pass the effect of this operation back to the source application through <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>, so the source application can clean up after the drag-and-drop operation is complete:
 
 <ul>
 <li>Remove any source feedback that is being displayed.</li>
 <li>Make any necessary changes to the data, such as removing the data if the operation was a move.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>

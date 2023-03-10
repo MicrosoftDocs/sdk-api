@@ -2,15 +2,12 @@
 UID: NN:proofofpossessioncookieinfo.IProofOfPossessionCookieInfoManager
 title: IProofOfPossessionCookieInfoManager (proofofpossessioncookieinfo.h)
 description: Supports the creation of proof of possession cookies.
+helpviewer_keywords: ["IProofOfPossessionCookieInfoManager","IProofOfPossessionCookieInfoManager interface [WinINet]","IProofOfPossessionCookieInfoManager interface [WinINet]","described","proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager","wininet.iproofofpossessioncookieinfomanager"]
 old-location: wininet\iproofofpossessioncookieinfomanager.htm
 tech.root: wininet
 ms.assetid: b8b89e48-e47d-4089-a8b6-04d53227767a
 ms.date: 12/05/2018
 ms.keywords: IProofOfPossessionCookieInfoManager, IProofOfPossessionCookieInfoManager interface [WinINet], IProofOfPossessionCookieInfoManager interface [WinINet],described, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager, wininet.iproofofpossessioncookieinfomanager
-f1_keywords:
-- proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager
-dev_langs:
-- c++
 req.header: proofofpossessioncookieinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MicrosoftAccountTokenProvider.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MicrosoftAccountTokenProvider.dll
-api_name:
-- IProofOfPossessionCookieInfoManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProofOfPossessionCookieInfoManager
+ - proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MicrosoftAccountTokenProvider.dll
+api_name:
+ - IProofOfPossessionCookieInfoManager
 ---
 
 # IProofOfPossessionCookieInfoManager interface
@@ -48,33 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Supports the creation of proof of possession cookies.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProofOfPossessionCookieInfoManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProofOfPossessionCookieInfoManager</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProofOfPossessionCookieInfoManager</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/proofofpossessioncookieinfo/nf-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager-getcookieinfoforuri">GetCookieInfoForUri</a>
-</td>
-<td align="left" width="63%">
-Gets cookie information for the supplied URI to be used for proof of possession cookies.
-
-</td>
-</tr>
-</table> 
+The <b>IProofOfPossessionCookieInfoManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProofOfPossessionCookieInfoManager</b> also has these types of members:
 

@@ -2,15 +2,12 @@
 UID: NF:bdatif.ITuneRequestInfo.GetNextLocator
 title: ITuneRequestInfo::GetNextLocator (bdatif.h)
 description: The GetNextLocator method creates a new tune request with locator information for the next transport stream on the network.
+helpviewer_keywords: ["GetNextLocator","GetNextLocator method [Microsoft TV Technologies]","GetNextLocator method [Microsoft TV Technologies]","ITuneRequestInfo interface","ITuneRequestInfo interface [Microsoft TV Technologies]","GetNextLocator method","ITuneRequestInfo.GetNextLocator","ITuneRequestInfo::GetNextLocator","ITuneRequestInfoGetNextLocator","bdatif/ITuneRequestInfo::GetNextLocator","mstv.itunerequestinfo_getnextlocator"]
 old-location: mstv\itunerequestinfo_getnextlocator.htm
 tech.root: mstv
 ms.assetid: 300479bf-f8e3-41e2-898e-8a87e4abc801
 ms.date: 12/05/2018
 ms.keywords: GetNextLocator, GetNextLocator method [Microsoft TV Technologies], GetNextLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetNextLocator method, ITuneRequestInfo.GetNextLocator, ITuneRequestInfo::GetNextLocator, ITuneRequestInfoGetNextLocator, bdatif/ITuneRequestInfo::GetNextLocator, mstv.itunerequestinfo_getnextlocator
-f1_keywords:
-- bdatif/ITuneRequestInfo.GetNextLocator
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdatif.h
-api_name:
-- ITuneRequestInfo.GetNextLocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITuneRequestInfo::GetNextLocator
+ - bdatif/ITuneRequestInfo::GetNextLocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdatif.h
+api_name:
+ - ITuneRequestInfo.GetNextLocator
 ---
 
 # ITuneRequestInfo::GetNextLocator
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetNextLocator</b> method creates a new tune request with locator information for the next transport stream on the network.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param CurrentRequest [in]
 
-Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the current tune request. <b>NULL</b> means to return information for the first stream.
-
+Specifies the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the current tune request. <b>NULL</b> means to return information for the first stream.
 
 ### -param TuneRequest [out]
 
 Pointer to a variable that receives a tune request for the next transport stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -104,33 +94,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is used internally by the Network Provider's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekup">IScanningTuner::SeekUp</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekdown">IScanningTuner::SeekDown</a> methods, and is also useful for any Guide Store Loader that scans a network for EPG information.
+This method is used internally by the Network Provider's <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekup">IScanningTuner::SeekUp</a> and <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtuner-seekdown">IScanningTuner::SeekDown</a> methods, and is also useful for any Guide Store Loader that scans a network for EPG information.
 
 Currently this method is not implemented for DVB-C or DVB-S networks, and the method returns E_NOTIMPL. The method is implemented for DVB-T.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>

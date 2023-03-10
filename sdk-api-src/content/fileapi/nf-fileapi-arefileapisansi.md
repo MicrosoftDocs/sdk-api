@@ -2,15 +2,12 @@
 UID: NF:fileapi.AreFileApisANSI
 title: AreFileApisANSI function (fileapi.h)
 description: Determines whether the file I/O functions are using the ANSI or OEM character set code page.
+helpviewer_keywords: ["AreFileApisANSI","AreFileApisANSI function [Files]","_win32_arefileapisansi","base.arefileapisansi","fileapi/AreFileApisANSI","fs.arefileapisansi"]
 old-location: fs\arefileapisansi.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf
 ms.date: 12/05/2018
 ms.keywords: AreFileApisANSI, AreFileApisANSI function [Files], _win32_arefileapisansi, base.arefileapisansi, fileapi/AreFileApisANSI, fs.arefileapisansi
-f1_keywords:
-- fileapi/AreFileApisANSI
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-file-l1-2-2.dll
-- KernelBase.dll
-- MinKernelBase.dll
-api_name:
-- AreFileApisANSI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AreFileApisANSI
+ - fileapi/AreFileApisANSI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-file-l1-2-2.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+api_name:
+ - AreFileApisANSI
 ---
 
 # AreFileApisANSI function
@@ -51,36 +53,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the file I/O functions are using the ANSI or OEM character set code 
     page. This function is useful for 8-bit console input and output operations.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 If the set of file I/O functions is using the ANSI code page, the return value is nonzero.
 
 If the set of file I/O functions is using the OEM code page, the return value is zero.
 
-
-
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function causes a set of file 
+The <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function causes a set of file 
     I/O functions to use the OEM code page. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> function causes the same set of file 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> function causes the same set of file 
     I/O functions to use the ANSI code page. Use the <b>AreFileApisANSI</b> function to 
     determine which code page the set of file I/O functions is currently using. For a discussion of these functions' 
     usage, please see the Remarks sections of 
@@ -90,8 +78,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-s
 The file I/O functions whose code page is ascertained by <b>AreFileApisANSI</b> are 
     those functions exported by KERNEL32.DLL that accept or return a file name.
 
-The functions <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> set the code page for a process, so 
+The functions <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> and 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> set the code page for a process, so 
     <b>AreFileApisANSI</b> returns a value indicating the code page of an entire 
     process.
 
@@ -153,26 +141,15 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a>

@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.ITSDT.ConvertNextToCurrent
 title: ITSDT::ConvertNextToCurrent (mpeg2psiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","ITSDT interface","ITSDT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","ITSDT.ConvertNextToCurrent","ITSDT::ConvertNextToCurrent","ITSDTConvertNextToCurrent","mpeg2psiparser/ITSDT::ConvertNextToCurrent","mstv.itsdt_convertnexttocurrent"]
 old-location: mstv\itsdt_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: a8ce79ed-516a-44bf-b9c9-ff6d693cdd30
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ITSDT.ConvertNextToCurrent, ITSDT::ConvertNextToCurrent, ITSDTConvertNextToCurrent, mpeg2psiparser/ITSDT::ConvertNextToCurrent, mstv.itsdt_convertnexttocurrent
-f1_keywords:
-- mpeg2psiparser/ITSDT.ConvertNextToCurrent
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- ITSDT.ConvertNextToCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITSDT::ConvertNextToCurrent
+ - mpeg2psiparser/ITSDT::ConvertNextToCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - ITSDT.ConvertNextToCurrent
 ---
 
 # ITSDT::ConvertNextToCurrent
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -58,16 +58,8 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 The <b>ConvertNextToCurrent</b> method converts a <i>next</i> table to a <i>current</i> table.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -121,27 +113,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-itsdt-registerforwhencurrent">ITSDT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
-
-
-
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-itsdt-registerforwhencurrent">ITSDT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-itsdt">ITSDT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-itsdt">ITSDT Interface</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_Name
 title: IWdsTransportNamespace::put_Name (wdstptmgmt.h)
-description: Sets or retrieves the name of the namespace.
+description: Sets or retrieves the name of the namespace. (Put)
+helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Name property","IWdsTransportNamespace.Name","IWdsTransportNamespace.put_Name","IWdsTransportNamespace::Name","IWdsTransportNamespace::get_Name","IWdsTransportNamespace::put_Name","Name property [Windows Deployment Services]","Name property [Windows Deployment Services]","IWdsTransportNamespace interface","put_Name","wds.iwdstransportnamespace_name","wdstptmgmt/IWdsTransportNamespace::Name","wdstptmgmt/IWdsTransportNamespace::get_Name","wdstptmgmt/IWdsTransportNamespace::put_Name"]
 old-location: wds\iwdstransportnamespace_name.htm
 tech.root: wds
 ms.assetid: 242f97de-1748-4d60-b945-3d38e1976879
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Name property, IWdsTransportNamespace.Name, IWdsTransportNamespace.put_Name, IWdsTransportNamespace::Name, IWdsTransportNamespace::get_Name, IWdsTransportNamespace::put_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportNamespace interface, put_Name, wds.iwdstransportnamespace_name, wdstptmgmt/IWdsTransportNamespace::Name, wdstptmgmt/IWdsTransportNamespace::get_Name, wdstptmgmt/IWdsTransportNamespace::put_Name
-f1_keywords:
-- wdstptmgmt/IWdsTransportNamespace.Name
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportNamespace.Name
-- IWdsTransportNamespace.get_Name
-- IWdsTransportNamespace.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportNamespace::put_Name
+ - wdstptmgmt/IWdsTransportNamespace::put_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportNamespace.Name
+ - IWdsTransportNamespace.get_Name
+ - IWdsTransportNamespace.put_Name
 ---
 
 # IWdsTransportNamespace::put_Name
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves the name of the namespace. 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>

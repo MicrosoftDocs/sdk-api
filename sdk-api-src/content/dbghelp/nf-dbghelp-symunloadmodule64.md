@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymUnloadModule64
 title: SymUnloadModule64 function (dbghelp.h)
-description: Unloads the symbol table.
+description: Unloads the symbol table. (SymUnloadModule64)
+helpviewer_keywords: ["SymUnloadModule","SymUnloadModule function","SymUnloadModule64","SymUnloadModule64 function","_win32_symunloadmodule64","base.symunloadmodule64","dbghelp/SymUnloadModule","dbghelp/SymUnloadModule64"]
 old-location: base\symunloadmodule64.htm
 tech.root: Debug
 ms.assetid: f4801039-eba2-4ec3-8c23-706ab89bb442
 ms.date: 12/05/2018
 ms.keywords: SymUnloadModule, SymUnloadModule function, SymUnloadModule64, SymUnloadModule64 function, _win32_symunloadmodule64, base.symunloadmodule64, dbghelp/SymUnloadModule, dbghelp/SymUnloadModule64
-f1_keywords:
-- dbghelp/SymUnloadModule64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-- imagehlp.dll
-api_name:
-- SymUnloadModule64
-- SymUnloadModule
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymUnloadModule64
+ - dbghelp/SymUnloadModule64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+ - imagehlp.dll
+api_name:
+ - SymUnloadModule64
+ - SymUnloadModule
 ---
 
 # SymUnloadModule64 function
@@ -50,46 +52,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unloads the symbol table.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param BaseOfDll [in]
 
 The base address of the module that is to be unloaded.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 This function supersedes the <b>SymUnloadedModule</b> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymUnloadedModule</b> is defined as follows in Dbghelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymUnloadedModule</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -110,23 +98,14 @@ SymUnloadModule(
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/unloading-a-symbol-module">Unloading a Symbol Module</a>.
+<a href="/windows/desktop/Debug/unloading-a-symbol-module">Unloading a Symbol Module</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>

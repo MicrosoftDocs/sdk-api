@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.BeginQuery
 title: ID3D12GraphicsCommandList::BeginQuery (d3d12.h)
-description: Starts a query running.
+description: Starts a query running. (ID3D12GraphicsCommandList.BeginQuery)
+helpviewer_keywords: ["BeginQuery","BeginQuery method","BeginQuery method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","BeginQuery method","ID3D12GraphicsCommandList.BeginQuery","ID3D12GraphicsCommandList::BeginQuery","d3d12/ID3D12GraphicsCommandList::BeginQuery","direct3d12.id3d12graphicscommandlist_beginquery"]
 old-location: direct3d12\id3d12graphicscommandlist_beginquery.htm
 tech.root: direct3d12
 ms.assetid: 38011ED8-C867-4ECE-880F-3963A17790F7
 ms.date: 12/05/2018
 ms.keywords: BeginQuery, BeginQuery method, BeginQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,BeginQuery method, ID3D12GraphicsCommandList.BeginQuery, ID3D12GraphicsCommandList::BeginQuery, d3d12/ID3D12GraphicsCommandList::BeginQuery, direct3d12.id3d12graphicscommandlist_beginquery
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.BeginQuery
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.BeginQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::BeginQuery
+ - d3d12/ID3D12GraphicsCommandList::BeginQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.BeginQuery
 ---
 
 # ID3D12GraphicsCommandList::BeginQuery
@@ -48,99 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts a query running.
-
 
 ## -parameters
 
-
-
-
 ### -param pQueryHeap [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the query.
-          
-
+Specifies the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the query.
 
 ### -param Type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
 
-Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
-          
-
+Specifies one member of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
 
 ### -param Index [in]
 
 Type: <b>UINT</b>
 
 Specifies the index of the query within the query heap.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
 
 ## -remarks
 
-
-
-In Direct3D 12, the usage of queries is more restricted than Direct3D 11.  The following scenarios are no longer supported:
-        
-
-<ul>
-<li>A call to <b>BeginQuery</b> followed by another call to  <b>BeginQuery</b>  without an intervening call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a>.
-          </li>
-<li>A call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a> followed by <b>EndQuery</b>  without an intervening call to <b>BeginQuery</b>.
-          </li>
-</ul>
-Given these restrictions, there are 3 states that a query can be in:
-        
-
-<ul>
-<li>Inactive (this is the initial state of all queries)</li>
-<li>Querying</li>
-<li>Predicating</li>
-</ul>
-<b>BeginQuery</b> transitions a query from the inactive state to the querying state.
-          <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a> transitions a query from the querying state to the inactive state. <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication">SetPredication</a> transitions the previous set query from the predicating state to the inactive state and transitions the newly set query from the inactive state to the predicating state.
-        
-
-<h3><a id="Runtime_validation"></a><a id="runtime_validation"></a><a id="RUNTIME_VALIDATION"></a>Runtime validation</h3>
-The runtime will issue errors for the following calls:
-          
-
-<ul>
-<li>Calling <b>BeginQuery</b> on a query which is in the querying or predicating state.
-            </li>
-<li>Calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery">EndQuery</a> on a query which is in the inactive or predicating state.
-            </li>
-<li>Calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication">SetPredication</a> on a query which is in the querying state.
-            </li>
-</ul>
-Illegal API calls will result in <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning an error or <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ExecuteCommandList</a> dropping the command list, and the device becoming removed.
-            Note that predication state is not inherited by direct command lists.  All direct command lists begin with predication disabled.
-          
-
-<h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-The debug layer will issue errors whenever the runtime validation fails.
-            Refer also to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a>.
+See <a href="/windows/desktop/direct3d12/queries">Queries</a> for more information about D3D12 queries.
           
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses 
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses 
 			 <b>ID3D12GraphicsCommandList::BeginQuery</b> as follows:
         
 
@@ -222,20 +162,11 @@ void D3D12PredicationQueries::PopulateCommandList()
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

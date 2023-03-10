@@ -2,15 +2,12 @@
 UID: NF:gdiplusstringformat.StringFormat.GetTrimming
 title: StringFormat::GetTrimming (gdiplusstringformat.h)
 description: The StringFormat::GetTrimming method gets an element of the StringTrimming enumeration that indicates the trimming style of this StringFormat object.
+helpviewer_keywords: ["GetTrimming","GetTrimming method [GDI+]","GetTrimming method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetTrimming method","StringFormat.GetTrimming","StringFormat::GetTrimming","_gdiplus_CLASS_StringFormat_GetTrimming_","gdiplus._gdiplus_CLASS_StringFormat_GetTrimming_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTrimming_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettrimming.htm
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [GDI+], GetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],GetTrimming method, StringFormat.GetTrimming, StringFormat::GetTrimming, _gdiplus_CLASS_StringFormat_GetTrimming_, gdiplus._gdiplus_CLASS_StringFormat_GetTrimming_
-f1_keywords:
-- gdiplusstringformat/StringFormat.GetTrimming
-dev_langs:
-- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- StringFormat.GetTrimming
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - StringFormat::GetTrimming
+ - gdiplusstringformat/StringFormat::GetTrimming
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - StringFormat.GetTrimming
 ---
 
 # StringFormat::GetTrimming
@@ -49,28 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StringFormat::GetTrimming</b> method gets an element of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a> enumeration that indicates the trimming style of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object. The trimming style determines how to trim characters from a string that is too large to fit in the layout rectangle. 
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a> enumeration that indicates the trimming style of this 
+			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object. The trimming style determines how to trim characters from a string that is too large to fit in the layout rectangle.
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a></b>
-</strong>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a></b>
 
 This method returns an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a> enumeration. 
-
-
-
+						<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a> enumeration.

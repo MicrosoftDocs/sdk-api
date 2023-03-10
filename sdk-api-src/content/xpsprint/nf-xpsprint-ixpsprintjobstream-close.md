@@ -2,15 +2,12 @@
 UID: NF:xpsprint.IXpsPrintJobStream.Close
 title: IXpsPrintJobStream::Close (xpsprint.h)
 description: Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.
+helpviewer_keywords: ["Close","Close method [Windows GDI]","Close method [Windows GDI]","IXpsPrintJobStream interface","IXpsPrintJobStream interface [Windows GDI]","Close method","IXpsPrintJobStream.Close","IXpsPrintJobStream::Close","gdi.ixpsprintjobstream_close","xpsprint/IXpsPrintJobStream::Close"]
 old-location: gdi\ixpsprintjobstream_close.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 259d0224-4e6e-43c8-905d-3529c781986a
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows GDI], Close method [Windows GDI],IXpsPrintJobStream interface, IXpsPrintJobStream interface [Windows GDI],Close method, IXpsPrintJobStream.Close, IXpsPrintJobStream::Close, gdi.ixpsprintjobstream_close, xpsprint/IXpsPrintJobStream::Close
-f1_keywords:
-- xpsprint/IXpsPrintJobStream.Close
-dev_langs:
-- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- XpsPrint.h
-api_name:
-- IXpsPrintJobStream.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsPrintJobStream::Close
+ - xpsprint/IXpsPrintJobStream::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - XpsPrint.h
+api_name:
+ - IXpsPrintJobStream.Close
 ---
 
 # IXpsPrintJobStream::Close
@@ -48,52 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IXpsPrintJobStream::Close is not supported and may be altered or unavailable in the future. ]
 
 Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
-
-
 After <b>Close</b> has been called, all subsequent attempts to write data to the stream will fail.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
+<a href="/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjobstream">IXpsPrintJobStream</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

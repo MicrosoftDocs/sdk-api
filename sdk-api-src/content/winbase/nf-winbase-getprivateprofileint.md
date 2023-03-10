@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetPrivateProfileInt
 title: GetPrivateProfileInt function (winbase.h)
-description: Retrieves an integer associated with a key in the specified section of an initialization file.
+description: The GetPrivateProfileInt function (winbase.h) retrieves an integer associated with a key in the specified section of an initialization file.
+helpviewer_keywords: ["GetPrivateProfileInt","GetPrivateProfileInt function","GetPrivateProfileIntA","GetPrivateProfileIntW","_win32_getprivateprofileint","base.getprivateprofileint","winbase/GetPrivateProfileInt","winbase/GetPrivateProfileIntA","winbase/GetPrivateProfileIntW"]
 old-location: base\getprivateprofileint.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
-f1_keywords:
-- winbase/GetPrivateProfileInt
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GetPrivateProfileInt
-- GetPrivateProfileIntA
-- GetPrivateProfileIntW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPrivateProfileInt
+ - winbase/GetPrivateProfileInt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GetPrivateProfileInt
+ - GetPrivateProfileIntA
+ - GetPrivateProfileIntW
 ---
 
 # GetPrivateProfileInt function
@@ -54,63 +56,52 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an integer associated with a key in the specified section of an initialization file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpAppName [in]
 
 The name of the section in the initialization file.
-
 
 ### -param lpKeyName [in]
 
 The name of the key whose value is to be retrieved. This value is in the form of a string; the 
 <b>GetPrivateProfileInt</b> function converts the string into an integer and returns the integer.
 
-
 ### -param nDefault [in]
 
 The default value to return if the key name cannot be found in the initialization file.
-
 
 ### -param lpFileName [in]
 
 The name of the initialization file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.
 
-
 ## -returns
 
-
-
-The return value is the integer equivalent of the string following the specified key name in the specified initialization file. If the key is not found, the return value is the specified default value. 
-
-
-
+The return value is the integer equivalent of the string following the specified key name in the specified initialization file. If the key is not found, the return value is the specified default value.
 
 ## -remarks
 
-
-
 The function searches the file for a key that matches the name specified by the <i>lpKeyName</i> parameter under the section name specified by the <i>lpAppName</i> parameter. A section in the initialization file must have the following form:
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=value
       .
       .
-      .</code></pre>
+      .
+```
+
 The 
 <b>GetPrivateProfileInt</b> function is not case-sensitive; the strings in <i>lpAppName</i> and <i>lpKeyName</i> can be a combination of uppercase and lowercase letters.
 
 An application can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofileinta">GetProfileInt</a> function to retrieve an integer value from the Win.ini file.
+<a href="/windows/desktop/api/winbase/nf-winbase-getprofileinta">GetProfileInt</a> function to retrieve an integer value from the Win.ini file.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows NT</b>\<b>CurrentVersion</b>\<b>IniFileMapping</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>IniFileMapping</b>
 
 
 
@@ -137,19 +128,10 @@ When looking at values in the registry that specify other registry locations, th
 <li>SYS: - this prefix stands for <b>HKEY_LOCAL_MACHINE\SOFTWARE</b>, and the text after the prefix is relative to that key.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprofileinta">GetProfileInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprofileinta">GetProfileInt</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>

@@ -2,15 +2,12 @@
 UID: NS:syncregistration._SyncProviderConfigUIConfiguration
 title: SyncProviderConfigUIConfiguration (syncregistration.h)
 description: Represents the information for a synchronization provider configuration UI.
+helpviewer_keywords: ["SyncProviderConfigUI","SyncProviderConfigUI structure [Windows Sync]","SyncProviderConfigUIConfiguration","SyncProviderConfigUIConfiguration structure [Windows Sync]","syncregistration/SyncProviderConfigUI","winsync.syncproviderconfiguiconfiguration"]
 old-location: winsync\syncproviderconfiguiconfiguration.htm
 tech.root: winsync
 ms.assetid: 4f07719b-c1e5-4985-a952-0ff07601bf1a
 ms.date: 12/05/2018
 ms.keywords: SyncProviderConfigUI, SyncProviderConfigUI structure [Windows Sync], SyncProviderConfigUIConfiguration, SyncProviderConfigUIConfiguration structure [Windows Sync], syncregistration/SyncProviderConfigUI, winsync.syncproviderconfiguiconfiguration
-f1_keywords:
-- syncregistration/SyncProviderConfigUI
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Syncregistration.h
-api_name:
-- SyncProviderConfigUI
 targetos: Windows
 req.typenames: SyncProviderConfigUIConfiguration
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SyncProviderConfigUIConfiguration
+ - syncregistration/_SyncProviderConfigUIConfiguration
+ - SyncProviderConfigUIConfiguration
+ - syncregistration/SyncProviderConfigUIConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Syncregistration.h
+api_name:
+ - SyncProviderConfigUI
 ---
 
 # SyncProviderConfigUIConfiguration structure
@@ -48,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the information for a synchronization provider configuration UI.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
 The version of the configuration UI.
 
-
 ### -field guidInstanceId
 
 The unique instance ID of the configuration UI.
-
 
 ### -field clsidConfigUI
 
 The COM CLSID of the configuration UI.
 
-
 ### -field guidContentType
 
 The GUID that identifies the content type supported by the synchronization provider that is created by the configuration UI.
-
 
 ### -field dwCapabilities
 
@@ -112,14 +107,6 @@ One of the following constants that represent the architectures supported by the
 
 Reserved for future use. At this time, the value should always be <b>FALSE</b>.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-structures">Windows Sync Registration Structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-structures">Windows Sync Registration Structures</a>

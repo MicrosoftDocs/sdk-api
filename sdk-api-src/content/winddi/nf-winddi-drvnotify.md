@@ -2,15 +2,12 @@
 UID: NF:winddi.DrvNotify
 title: DrvNotify function (winddi.h)
 description: The DrvNotify function allows a display driver to be notified about certain information by GDI.
+helpviewer_keywords: ["DrvNotify","DrvNotify function [Display Devices]","ddifncs_24141fb1-e368-47f8-b123-eb1e1789b568.xml","display.drvnotify","winddi/DrvNotify"]
 old-location: display\drvnotify.htm
 tech.root: display
 ms.assetid: 792d2b17-d5f5-406e-b35c-9f641fa32016
 ms.date: 12/05/2018
 ms.keywords: DrvNotify, DrvNotify function [Display Devices], ddifncs_24141fb1-e368-47f8-b123-eb1e1789b568.xml, display.drvnotify, winddi/DrvNotify
-f1_keywords:
-- winddi/DrvNotify
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvNotify
+ - winddi/DrvNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvNotify
 ---
 
 # DrvNotify function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvNotify</b> function allows a display driver to be notified about certain information by GDI.
-
 
 ## -parameters
 
-
-
-
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the primary surface for which notification is occurring.
 
 ### -param iType
 
@@ -80,37 +76,14 @@ Notifies the driver of the device's origin. The <i>pvData</i> parameter points t
 
 Notifies the driver that the first drawing operation is about to occur for this instance of the PDEV that is associated with the specified surface. The <i>pvData</i> parameter points to <b>NULL</b>.
 
-
 ### -param pvData
 
 Pointer to notification data or <b>NULL</b>, depending on the value of <i>iType</i>.
 
-
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
-
-
 
 A display driver can optionally implement <b>DrvNotify</b>. GDI will call <b>DrvNotify</b> only in display drivers that do implement it.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engquerydeviceattribute">EngQueryDeviceAttribute</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engquerydeviceattribute">EngQueryDeviceAttribute</a>

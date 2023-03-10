@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteFactory.CreateTextAnalyzer
 title: IDWriteFactory::CreateTextAnalyzer (dwrite.h)
 description: Returns an interface for performing text analysis.
+helpviewer_keywords: ["CreateTextAnalyzer","CreateTextAnalyzer method [Direct Write]","CreateTextAnalyzer method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateTextAnalyzer method","IDWriteFactory.CreateTextAnalyzer","IDWriteFactory::CreateTextAnalyzer","directwrite.IDWriteFactory_CreateTextAnalyzer","dwrite/IDWriteFactory::CreateTextAnalyzer"]
 old-location: directwrite\IDWriteFactory_CreateTextAnalyzer.htm
 tech.root: DirectWrite
 ms.assetid: 1f786de4-9498-49ef-b884-7e5f69cefe4a
 ms.date: 12/05/2018
 ms.keywords: CreateTextAnalyzer, CreateTextAnalyzer method [Direct Write], CreateTextAnalyzer method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextAnalyzer method, IDWriteFactory.CreateTextAnalyzer, IDWriteFactory::CreateTextAnalyzer, directwrite.IDWriteFactory_CreateTextAnalyzer, dwrite/IDWriteFactory::CreateTextAnalyzer
-f1_keywords:
-- dwrite/IDWriteFactory.CreateTextAnalyzer
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFactory.CreateTextAnalyzer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFactory::CreateTextAnalyzer
+ - dwrite/IDWriteFactory::CreateTextAnalyzer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory.CreateTextAnalyzer
 ---
 
 # IDWriteFactory::CreateTextAnalyzer
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Returns an interface for performing text analysis.
 
-
 ## -parameters
-
-
-
 
 ### -param textAnalyzer [out]
 
@@ -63,25 +60,13 @@ Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer">IDWri
 
 When this method returns, contains an address of  a pointer to the newly created text analyzer object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
- 
-
- 
 

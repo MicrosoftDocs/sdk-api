@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageDataFactory.CreateIShellImageData
 title: IShellImageDataFactory::CreateIShellImageData (shimgdata.h)
 description: Creates an instance of the IShellImageData interface.
+helpviewer_keywords: ["CreateIShellImageData","CreateIShellImageData method [Windows Shell]","CreateIShellImageData method [Windows Shell]","IShellImageDataFactory interface","IShellImageDataFactory interface [Windows Shell]","CreateIShellImageData method","IShellImageDataFactory.CreateIShellImageData","IShellImageDataFactory::CreateIShellImageData","_shell_IShellImageDataFactory_CreateIShellImageData","shell.IShellImageDataFactory_CreateIShellImageData","shimgdata/IShellImageDataFactory::CreateIShellImageData"]
 old-location: shell\IShellImageDataFactory_CreateIShellImageData.htm
 tech.root: shell
 ms.assetid: fdba8376-c878-4fc8-bedc-e73cfeef8b9b
 ms.date: 12/05/2018
 ms.keywords: CreateIShellImageData, CreateIShellImageData method [Windows Shell], CreateIShellImageData method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateIShellImageData method, IShellImageDataFactory.CreateIShellImageData, IShellImageDataFactory::CreateIShellImageData, _shell_IShellImageDataFactory_CreateIShellImageData, shell.IShellImageDataFactory_CreateIShellImageData, shimgdata/IShellImageDataFactory::CreateIShellImageData
-f1_keywords:
-- shimgdata/IShellImageDataFactory.CreateIShellImageData
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageDataFactory.CreateIShellImageData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageDataFactory::CreateIShellImageData
+ - shimgdata/IShellImageDataFactory::CreateIShellImageData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageDataFactory.CreateIShellImageData
 ---
 
 # IShellImageDataFactory::CreateIShellImageData
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface.
-
+Creates an instance of the <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param ppshimg [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
+Type: <b><a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>**</b>
 
-The address of a pointer to an instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
-
+The address of a pointer to an instance of <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -95,7 +89,7 @@ The internal object cannot be instantiated.
 </dl>
 </td>
 <td width="60%">
-The internal object does not support <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
+The internal object does not support <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a>.
 
 </td>
 </tr>
@@ -111,7 +105,3 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-

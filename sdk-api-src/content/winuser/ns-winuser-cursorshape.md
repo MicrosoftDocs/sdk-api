@@ -2,15 +2,12 @@
 UID: NS:winuser.tagCURSORSHAPE
 title: CURSORSHAPE (winuser.h)
 description: Contains information about a cursor.
+helpviewer_keywords: ["*LPCURSORSHAPE","CURSORSHAPE","CURSORSHAPE structure [Menus and Other Resources]","LPCURSORSHAPE","LPCURSORSHAPE structure pointer [Menus and Other Resources]","_win32_CURSORSHAPE_str","_win32_cursorshape_str_cpp","menurc.cursorshape","winui._win32_cursorshape_str","winuser/CURSORSHAPE","winuser/LPCURSORSHAPE"]
 old-location: menurc\cursorshape.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcestructures\cursorshape.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPCURSORSHAPE, CURSORSHAPE, CURSORSHAPE structure [Menus and Other Resources], LPCURSORSHAPE, LPCURSORSHAPE structure pointer [Menus and Other Resources], _win32_CURSORSHAPE_str, _win32_cursorshape_str_cpp, menurc.cursorshape, winui._win32_cursorshape_str, winuser/CURSORSHAPE, winuser/LPCURSORSHAPE'
-f1_keywords:
-- winuser/CURSORSHAPE
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- CURSORSHAPE
 targetos: Windows
 req.typenames: CURSORSHAPE, *LPCURSORSHAPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCURSORSHAPE
+ - winuser/tagCURSORSHAPE
+ - LPCURSORSHAPE
+ - winuser/LPCURSORSHAPE
+ - CURSORSHAPE
+ - winuser/CURSORSHAPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - CURSORSHAPE
 ---
 
 # CURSORSHAPE structure
@@ -48,83 +54,63 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a cursor.
 
-
 ## -struct-fields
-
-
-
 
 ### -field xHotSpot
 
 Type: <b>int</b>
 
-The horizontal position of the hot spot, relative to the upper-left corner of the cursor bitmap. 
-
+The horizontal position of the hot spot, relative to the upper-left corner of the cursor bitmap.
 
 ### -field yHotSpot
 
 Type: <b>int</b>
 
-The vertical position of the hot spot, relative to the upper-left corner of the cursor bitmap. 
-
+The vertical position of the hot spot, relative to the upper-left corner of the cursor bitmap.
 
 ### -field cx
 
 Type: <b>int</b>
 
-The width, in pixels, of the cursor. 
-
+The width, in pixels, of the cursor.
 
 ### -field cy
 
 Type: <b>int</b>
 
-The height, in pixels, of the cursor. 
-
+The height, in pixels, of the cursor.
 
 ### -field cbWidth
 
 Type: <b>int</b>
 
-The width, in bytes, of the cursor bitmap. 
-
+The width, in bytes, of the cursor bitmap.
 
 ### -field Planes
 
 Type: <b>BYTE</b>
 
-The number of color planes. 
-
+The number of color planes.
 
 ### -field BitsPixel
 
 Type: <b>BYTE</b>
 
-The number of bits used to indicate the color of a single pixel in the cursor. 
-
+The number of bits used to indicate the color of a single pixel in the cursor.
 
 ## -remarks
 
-
-
-When an application passes a cursor handle to the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>function, the function returns a pointer to a buffer containing information about the cursor. An application can use the <b>CURSORSHAPE</b> structure to access the information.
-
-
-
+When an application passes a cursor handle to the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a> function, the function returns a pointer to a buffer containing information about the cursor. An application can use the <b>CURSORSHAPE</b> structure to access the information.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-lockresource">LockResource</a>
 
 
 
@@ -132,8 +118,4 @@ When an application passes a cursor handle to the <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/resources">Resources</a>

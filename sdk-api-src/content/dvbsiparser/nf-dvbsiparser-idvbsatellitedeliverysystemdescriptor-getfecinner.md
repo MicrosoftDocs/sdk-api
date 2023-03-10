@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 title: IDvbSatelliteDeliverySystemDescriptor::GetFECInner (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetFECInner","GetFECInner method [Microsoft TV Technologies]","GetFECInner method [Microsoft TV Technologies]","IDvbSatelliteDeliverySystemDescriptor interface","IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetFECInner method","IDvbSatelliteDeliverySystemDescriptor.GetFECInner","IDvbSatelliteDeliverySystemDescriptor::GetFECInner","IDvbSatelliteDeliverySystemDescriptorGetFECInner","dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner","mstv.idvbsatellitedeliverysystemdescriptor_getfecinner"]
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getfecinner.htm
 tech.root: mstv
 ms.assetid: fe90fcd7-e77b-42c8-935f-4cf02957400f
 ms.date: 12/05/2018
 ms.keywords: GetFECInner, GetFECInner method [Microsoft TV Technologies], GetFECInner method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetFECInner method, IDvbSatelliteDeliverySystemDescriptor.GetFECInner, IDvbSatelliteDeliverySystemDescriptor::GetFECInner, IDvbSatelliteDeliverySystemDescriptorGetFECInner, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner, mstv.idvbsatellitedeliverysystemdescriptor_getfecinner
-f1_keywords:
-- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetFECInner
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSatelliteDeliverySystemDescriptor::GetFECInner
+ - dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetFECInner
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSatelliteDeliverySystemDescriptor.GetFECInner
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetFECInner
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetFECInner</b> method returns the inner forward error correction (FEC) scheme.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the FEC_inner field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>

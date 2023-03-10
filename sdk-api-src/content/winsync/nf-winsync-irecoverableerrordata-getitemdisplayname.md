@@ -2,15 +2,12 @@
 UID: NF:winsync.IRecoverableErrorData.GetItemDisplayName
 title: IRecoverableErrorData::GetItemDisplayName (winsync.h)
 description: Gets the display name of the item that caused the error.
+helpviewer_keywords: ["GetItemDisplayName","GetItemDisplayName method [Windows Sync]","GetItemDisplayName method [Windows Sync]","IRecoverableErrorData interface","IRecoverableErrorData interface [Windows Sync]","GetItemDisplayName method","IRecoverableErrorData.GetItemDisplayName","IRecoverableErrorData::GetItemDisplayName","winsync.irecoverableerrordata_getitemdisplayname","winsync/IRecoverableErrorData::GetItemDisplayName"]
 old-location: winsync\irecoverableerrordata_getitemdisplayname.htm
 tech.root: winsync
 ms.assetid: 6b40d528-18dc-4924-959a-cde5f02d18b1
 ms.date: 12/05/2018
 ms.keywords: GetItemDisplayName, GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetItemDisplayName method, IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
-f1_keywords:
-- winsync/IRecoverableErrorData.GetItemDisplayName
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableErrorData.GetItemDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableErrorData::GetItemDisplayName
+ - winsync/IRecoverableErrorData::GetItemDisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableErrorData.GetItemDisplayName
 ---
 
 # IRecoverableErrorData::GetItemDisplayName
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the display name of the item that caused the error.
 
-
 ## -parameters
-
-
-
 
 ### -param pszItemDisplayName [in, out]
 
 Returns the display name of the item that caused the error.
 
-
 ### -param pcchItemDisplayName [in, out]
 
 Specifies the number of characters in <i>pszItemDisplayName</i>. Returns the required number of characters for <i>pszItemDisplayName</i> when <i>pcchItemDisplayName</i> is too small; otherwise, returns the number of characters written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,18 +113,7 @@ Invalid pointer.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerrordata">IRecoverableErrorData Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerrordata">IRecoverableErrorData Interface</a>

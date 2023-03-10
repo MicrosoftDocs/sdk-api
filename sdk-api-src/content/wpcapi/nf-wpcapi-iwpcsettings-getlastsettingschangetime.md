@@ -2,15 +2,12 @@
 UID: NF:wpcapi.IWPCSettings.GetLastSettingsChangeTime
 title: IWPCSettings::GetLastSettingsChangeTime (wpcapi.h)
 description: Retrieves the time at which the configuration settings were last updated.
+helpviewer_keywords: ["GetLastSettingsChangeTime","GetLastSettingsChangeTime method","GetLastSettingsChangeTime method","IWPCSettings interface","IWPCSettings interface","GetLastSettingsChangeTime method","IWPCSettings.GetLastSettingsChangeTime","IWPCSettings::GetLastSettingsChangeTime","parcon.iwpcsettings_getlastsettingschangetime","wpcapi/IWPCSettings::GetLastSettingsChangeTime"]
 old-location: parcon\iwpcsettings_getlastsettingschangetime.htm
 tech.root: parcon
 ms.assetid: 6fe5be0c-e6fa-481d-a28d-c5b15257b901
 ms.date: 12/05/2018
 ms.keywords: GetLastSettingsChangeTime, GetLastSettingsChangeTime method, GetLastSettingsChangeTime method,IWPCSettings interface, IWPCSettings interface,GetLastSettingsChangeTime method, IWPCSettings.GetLastSettingsChangeTime, IWPCSettings::GetLastSettingsChangeTime, parcon.iwpcsettings_getlastsettingschangetime, wpcapi/IWPCSettings::GetLastSettingsChangeTime
-f1_keywords:
-- wpcapi/IWPCSettings.GetLastSettingsChangeTime
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCSettings.GetLastSettingsChangeTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCSettings::GetLastSettingsChangeTime
+ - wpcapi/IWPCSettings::GetLastSettingsChangeTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCSettings.GetLastSettingsChangeTime
 ---
 
 # IWPCSettings::GetLastSettingsChangeTime
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the time at which the configuration settings were last updated.
-
 
 ## -parameters
 
-
-
-
 ### -param pTime [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that receives the time at which the settings were last updated.
-
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that receives the time at which the settings were last updated.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,18 +101,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>

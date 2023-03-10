@@ -1,16 +1,13 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesProfilePath
 title: IADsTSUserEx::put_TerminalServicesProfilePath (tsuserex.h)
-description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
+description: The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server. (Put)
+helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","TerminalServicesProfilePath property","IADsTSUserEx.TerminalServicesProfilePath","IADsTSUserEx.put_TerminalServicesProfilePath","IADsTSUserEx::TerminalServicesProfilePath","IADsTSUserEx::get_TerminalServicesProfilePath","IADsTSUserEx::put_TerminalServicesProfilePath","TerminalServicesProfilePath property [Remote Desktop Services]","TerminalServicesProfilePath property [Remote Desktop Services]","IADsTSUserEx interface","put_TerminalServicesProfilePath","termserv.iadstsuserex_terminalservicesprofilepath","tsuserex/IADsTSUserEx::TerminalServicesProfilePath","tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath","tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath"]
 old-location: termserv\iadstsuserex_terminalservicesprofilepath.htm
 tech.root: TermServ
 ms.assetid: 282c20ab-378d-4205-90d3-6d28b0770adc
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesProfilePath property, IADsTSUserEx.TerminalServicesProfilePath, IADsTSUserEx.put_TerminalServicesProfilePath, IADsTSUserEx::TerminalServicesProfilePath, IADsTSUserEx::get_TerminalServicesProfilePath, IADsTSUserEx::put_TerminalServicesProfilePath, TerminalServicesProfilePath property [Remote Desktop Services], TerminalServicesProfilePath property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesProfilePath, termserv.iadstsuserex_terminalservicesprofilepath, tsuserex/IADsTSUserEx::TerminalServicesProfilePath, tsuserex/IADsTSUserEx::get_TerminalServicesProfilePath, tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath
-f1_keywords:
-- tsuserex/IADsTSUserEx.TerminalServicesProfilePath
-dev_langs:
-- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: Tsuserex.tlb
 req.lib: 
 req.dll: Tsuserex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tsuserex.dll
-api_name:
-- IADsTSUserEx.TerminalServicesProfilePath
-- IADsTSUserEx.get_TerminalServicesProfilePath
-- IADsTSUserEx.put_TerminalServicesProfilePath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsTSUserEx::put_TerminalServicesProfilePath
+ - tsuserex/IADsTSUserEx::put_TerminalServicesProfilePath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tsuserex.dll
+api_name:
+ - IADsTSUserEx.TerminalServicesProfilePath
+ - IADsTSUserEx.get_TerminalServicesProfilePath
+ - IADsTSUserEx.put_TerminalServicesProfilePath
 ---
 
 # IADsTSUserEx::put_TerminalServicesProfilePath
@@ -50,23 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The roaming or mandatory profile path to be used when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The profile path is 
      in the following network path format:
 
-<b>\\</b><i>ServerName</i><b>\</b><i>ProfilesFolderName</i><b>\</b><i>UserName</i>
+<b>\\\\</b><i>ServerName</i><b>\\</b><i>ProfilesFolderName</i><b>\\</b><i>UserName</i>
 
 <div class="alert"><b>Note</b>  A Remote Desktop Services profile path is used only for logging on to an RD Session Host server.</div>
 <div> </div>
@@ -183,17 +180,6 @@ WScript.echo usr.TerminalServicesProfilePath
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

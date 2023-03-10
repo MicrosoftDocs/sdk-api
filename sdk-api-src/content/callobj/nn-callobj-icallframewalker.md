@@ -2,15 +2,12 @@
 UID: NN:callobj.ICallFrameWalker
 title: ICallFrameWalker (callobj.h)
 description: Walks a stack frame looking for interesting values.
+helpviewer_keywords: ["ICallFrameWalker","ICallFrameWalker interface [COM]","ICallFrameWalker interface [COM]","described","_com_icallframewalker","callobj/ICallFrameWalker","com.icallframewalker"]
 old-location: com\icallframewalker.htm
 tech.root: com
 ms.assetid: 1eeb00a3-d3c5-46f0-95a8-f694f802894b
 ms.date: 12/05/2018
 ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
-f1_keywords:
-- callobj/ICallFrameWalker
-dev_langs:
-- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Callobj.h
-api_name:
-- ICallFrameWalker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICallFrameWalker
+ - callobj/ICallFrameWalker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Callobj.h
+api_name:
+ - ICallFrameWalker
 ---
 
 # ICallFrameWalker interface
@@ -48,44 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Walks a stack frame looking for interesting values.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallFrameWalker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallFrameWalker</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICallFrameWalker</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframewalker-onwalkinterface">OnWalkInterface</a>
-</td>
-<td align="left" width="63%">
-Walks through a call frame to look for the specified interface in the call frame.
-
-</td>
-</tr>
-</table> 
-
+The <b>ICallFrameWalker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICallFrameWalker</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-walkframe">ICallFrame::WalkFrame</a>
- 
-
- 
-
+<a href="/windows/desktop/api/callobj/nf-callobj-icallframe-walkframe">ICallFrame::WalkFrame</a>

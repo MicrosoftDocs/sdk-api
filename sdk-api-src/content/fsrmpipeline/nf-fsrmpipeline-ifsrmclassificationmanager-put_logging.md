@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.put_Logging
 title: IFsrmClassificationManager::put_Logging (fsrmpipeline.h)
-description: The types of logging to perform when running the classification rules.
+description: The types of logging to perform when running the classification rules. (Put)
+helpviewer_keywords: ["FsrmClassificationManager class [File Server Resource Manager]","Logging property","IFsrmClassificationManager interface [File Server Resource Manager]","Logging property","IFsrmClassificationManager.Logging","IFsrmClassificationManager.put_Logging","IFsrmClassificationManager2 interface [File Server Resource Manager]","Logging property","IFsrmClassificationManager2.Logging","IFsrmClassificationManager2::get_Logging","IFsrmClassificationManager2::put_Logging","IFsrmClassificationManager::Logging","IFsrmClassificationManager::get_Logging","IFsrmClassificationManager::put_Logging","Logging property [File Server Resource Manager]","Logging property [File Server Resource Manager]","FsrmClassificationManager class","Logging property [File Server Resource Manager]","IFsrmClassificationManager interface","Logging property [File Server Resource Manager]","IFsrmClassificationManager2 interface","fs.ifsrmclassificationmanager_logging","fsrm.ifsrmclassificationmanager_logging","fsrmpipeline/IFsrmClassificationManager2::Logging","fsrmpipeline/IFsrmClassificationManager2::get_Logging","fsrmpipeline/IFsrmClassificationManager2::put_Logging","fsrmpipeline/IFsrmClassificationManager::Logging","fsrmpipeline/IFsrmClassificationManager::get_Logging","fsrmpipeline/IFsrmClassificationManager::put_Logging","put_Logging"]
 old-location: fsrm\ifsrmclassificationmanager_logging.htm
 tech.root: fsrm
 ms.assetid: c22f646b-36dc-45b8-a9ad-81ce6adab5bf
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],Logging property, IFsrmClassificationManager interface [File Server Resource Manager],Logging property, IFsrmClassificationManager.Logging, IFsrmClassificationManager.put_Logging, IFsrmClassificationManager2 interface [File Server Resource Manager],Logging property, IFsrmClassificationManager2.Logging, IFsrmClassificationManager2::get_Logging, IFsrmClassificationManager2::put_Logging, IFsrmClassificationManager::Logging, IFsrmClassificationManager::get_Logging, IFsrmClassificationManager::put_Logging, Logging property [File Server Resource Manager], Logging property [File Server Resource Manager],FsrmClassificationManager class, Logging property [File Server Resource Manager],IFsrmClassificationManager interface, Logging property [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_logging, fsrm.ifsrmclassificationmanager_logging, fsrmpipeline/IFsrmClassificationManager2::Logging, fsrmpipeline/IFsrmClassificationManager2::get_Logging, fsrmpipeline/IFsrmClassificationManager2::put_Logging, fsrmpipeline/IFsrmClassificationManager::Logging, fsrmpipeline/IFsrmClassificationManager::get_Logging, fsrmpipeline/IFsrmClassificationManager::put_Logging, put_Logging
-f1_keywords:
-- fsrmpipeline/IFsrmClassificationManager.Logging
-dev_langs:
-- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmClassificationManager.Logging
-- IFsrmClassificationManager.get_Logging
-- IFsrmClassificationManager.put_Logging
-- IFsrmClassificationManager2.Logging
-- IFsrmClassificationManager2.get_Logging
-- IFsrmClassificationManager2.put_Logging
-- FsrmClassificationManager.Logging
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmClassificationManager::put_Logging
+ - fsrmpipeline/IFsrmClassificationManager::put_Logging
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmClassificationManager.Logging
+ - IFsrmClassificationManager.get_Logging
+ - IFsrmClassificationManager.put_Logging
+ - IFsrmClassificationManager2.Logging
+ - IFsrmClassificationManager2.get_Logging
+ - IFsrmClassificationManager2.put_Logging
+ - FsrmClassificationManager.Logging
 ---
 
 # IFsrmClassificationManager::put_Logging
@@ -54,22 +56,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a> class.]
 
 The types of logging to perform when running the classification rules.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The log file for the <b>FsrmClassificationLoggingFlags_ClassificationsInLogFile</b> and 
     <b>FsrmClassificationLoggingFlags_ErrorsInLogFile</b> logging options are stored in the 
@@ -96,27 +93,18 @@ The name of the <b>FsrmClassificationLoggingFlags_ErrorsInLogFile</b> log file i
 <li>Rule applied</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmclassificationmanager">FsrmClassificationManager</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationmanager">IFsrmClassificationManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationmanager">IFsrmClassificationManager</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationmanager2">IFsrmClassificationManager2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassificationmanager2">IFsrmClassificationManager2</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>

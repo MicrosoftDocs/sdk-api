@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_ATTRIB
 title: DHCP_ATTRIB (dhcpsapi.h)
 description: Defines an attribute set on the DHCP server.
+helpviewer_keywords: ["*LPDHCP_ATTRIB","*PDHCP_ATTRIB","DHCP_ATTRIB","DHCP_ATTRIB structure [DHCP]","DHCP_ATTRIB_BOOL_IS_ADMIN","DHCP_ATTRIB_BOOL_IS_BINDING_AWARE","DHCP_ATTRIB_BOOL_IS_DYNBOOTP","DHCP_ATTRIB_BOOL_IS_PART_OF_DSDC","DHCP_ATTRIB_BOOL_IS_ROGUE","DHCP_ATTRIB_ULONG_RESTORE_STATUS","PDHCP_ATTRIB *LPDHCP_ATTRIB","PDHCP_ATTRIB *LPDHCP_ATTRIB structure pointer [DHCP]","dhcp.dhcp_attrib","dhcpsapi/PDHCP_ATTRIB *LPDHCP_ATTRIB","dhcpsapi/_DHCP_ATTRIB"]
 old-location: dhcp\dhcp_attrib.htm
 tech.root: DHCP
 ms.assetid: 26822137-8633-4e18-a69f-eeebf9e78f9a
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_ATTRIB, *PDHCP_ATTRIB, DHCP_ATTRIB, DHCP_ATTRIB structure [DHCP], DHCP_ATTRIB_BOOL_IS_ADMIN, DHCP_ATTRIB_BOOL_IS_BINDING_AWARE, DHCP_ATTRIB_BOOL_IS_DYNBOOTP, DHCP_ATTRIB_BOOL_IS_PART_OF_DSDC, DHCP_ATTRIB_BOOL_IS_ROGUE, DHCP_ATTRIB_ULONG_RESTORE_STATUS, PDHCP_ATTRIB *LPDHCP_ATTRIB, PDHCP_ATTRIB *LPDHCP_ATTRIB structure pointer [DHCP], dhcp.dhcp_attrib, dhcpsapi/PDHCP_ATTRIB *LPDHCP_ATTRIB, dhcpsapi/_DHCP_ATTRIB'
-f1_keywords:
-- dhcpsapi/DHCP_ATTRIB
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_ATTRIB
 targetos: Windows
 req.typenames: DHCP_ATTRIB, *PDHCP_ATTRIB, *LPDHCP_ATTRIB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_ATTRIB
+ - dhcpsapi/_DHCP_ATTRIB
+ - PDHCP_ATTRIB
+ - dhcpsapi/PDHCP_ATTRIB
+ - DHCP_ATTRIB
+ - dhcpsapi/DHCP_ATTRIB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_ATTRIB
 ---
 
 # DHCP_ATTRIB structure
@@ -48,20 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_ATTRIB</b> structure defines an attribute set on the DHCP server.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DhcpAttribId
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_ATTRIB_ID</a> structure that uniquely identifies the DHCP server attribute.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_ATTRIB_ID</a> structure that uniquely identifies the DHCP server attribute.
 
 ### -field DhcpAttribType
 
@@ -139,66 +138,23 @@ The DHCP server can restore status with the provided attribute value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DhcpAttribBool.case
 
- 
-
-
 ### -field DhcpAttribBool.case.DHCP_ATTRIB_TYPE_BOOL
-
- 
-
 
 ### -field DhcpAttribUlong.case
 
- 
-
-
 ### -field DhcpAttribUlong.case.DHCP_ATTRIB_TYPE_ULONG
 
- 
 
 
-### -field switch_is
-
- 
-
-
-### -field switch_is.DhcpAttribType
-
- 
-
-
-### -field switch_type
-
- 
-
-
-### -field switch_type.ULONG
-
- 
 
 
 ### -field DhcpAttribBool
 
- 
-
-
 ### -field DhcpAttribUlong
-
- 
-
-
-
 
 ## -remarks
 
-
-
 A DHCP server attribute is a value that can be queried to determine supported and available features.
-
-
-

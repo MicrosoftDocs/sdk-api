@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLFireEvent
 title: SLFireEvent function (slpublic.h)
 description: Sends a specified event to a registered listener.
+helpviewer_keywords: ["SLFireEvent","SLFireEvent function [Security]","security.slfireevent","slpublic/SLFireEvent"]
 old-location: security\slfireevent.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 7d66526a-f83a-4a7d-9691-e8ee9ec9a135
 ms.date: 12/05/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent
-f1_keywords:
-- slpublic/SLFireEvent
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLFireEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLFireEvent
+ - slpublic/SLFireEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLFireEvent
 ---
 
 # SLFireEvent function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a specified event to a registered listener.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pwszEventId [in]
 
 Type: <b>PCWSTR</b>
 
 The ID of the event to be fired.
-
 
 ### -param pApplicationId [in]
 
@@ -77,10 +72,7 @@ Type: <b>const SLID*</b>
 
 A pointer to the application ID.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -128,7 +120,4 @@ The requested event is not registered with the service.
 </td>
 </tr>
 </table>
- 
-
-
 

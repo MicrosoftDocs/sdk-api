@@ -4,9 +4,11 @@ title: Systemmediatransportcontrolsinterop.h header
 ms.assetid: fcfbb073-ac49-3b82-bfbf-200fe034062c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
-tech.root: mediatransport
-archived: true
+ms.topic: overview
+tech.root: winrt
+f1_keywords:
+ - systemmediatransportcontrolsinterop
+ - systemmediatransportcontrolsinterop/systemmediatransportcontrolsinterop
 ---
 
 # Systemmediatransportcontrolsinterop.h header
@@ -14,8 +16,8 @@ archived: true
 
 ## -description
 
+This header is used by WinRT Interoperability. For more information, see:
 
-This header is used by Media Transport Controls. For more information, see:
-
-- [Media Transport Controls](../_mediatransport/index.md)
+- [WinRT Interoperability](../_winrt/index.md)
+- [SystemMediaTransportControls class](/uwp/api/windows.media.systemmediatransportcontrols)
 

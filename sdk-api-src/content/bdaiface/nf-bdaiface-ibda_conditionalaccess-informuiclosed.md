@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_ConditionalAccess.InformUIClosed
 title: IBDA_ConditionalAccess::InformUIClosed (bdaiface.h)
 description: The InformUIClosed method informs the device that the user-interface dialog is closed.
+helpviewer_keywords: ["IBDA_ConditionalAccess interface [Microsoft TV Technologies]","InformUIClosed method","IBDA_ConditionalAccess.InformUIClosed","IBDA_ConditionalAccess::InformUIClosed","IBDA_ConditionalAccessInformUIClosed","InformUIClosed","InformUIClosed method [Microsoft TV Technologies]","InformUIClosed method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","bdaiface/IBDA_ConditionalAccess::InformUIClosed","mstv.ibda_conditionalaccess_informuiclosed"]
 old-location: mstv\ibda_conditionalaccess_informuiclosed.htm
 tech.root: mstv
 ms.assetid: 8f9dcd29-ccd9-4154-bf11-932a3635c156
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],InformUIClosed method, IBDA_ConditionalAccess.InformUIClosed, IBDA_ConditionalAccess::InformUIClosed, IBDA_ConditionalAccessInformUIClosed, InformUIClosed, InformUIClosed method [Microsoft TV Technologies], InformUIClosed method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::InformUIClosed, mstv.ibda_conditionalaccess_informuiclosed
-f1_keywords:
-- bdaiface/IBDA_ConditionalAccess.InformUIClosed
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bdaiface.h
-api_name:
-- IBDA_ConditionalAccess.InformUIClosed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_ConditionalAccess::InformUIClosed
+ - bdaiface/IBDA_ConditionalAccess::InformUIClosed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bdaiface.h
+api_name:
+ - IBDA_ConditionalAccess.InformUIClosed
 ---
 
 # IBDA_ConditionalAccess::InformUIClosed
@@ -48,42 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InformUIClosed</b> method informs the device that the user-interface dialog is closed.
 
-
 ## -parameters
-
-
-
 
 ### -param byDialogNumber [in]
 
 Specifies the dialog number.
 
-
 ### -param CloseReason [in]
 
-Specifies the reason for closing the dialog, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ne-bdaiface-uiclosereasontype">UICloseReasonType</a> enumeration.
-          
-
+Specifies the reason for closing the dialog, as a member of the <a href="/windows/desktop/api/bdaiface/ne-bdaiface-uiclosereasontype">UICloseReasonType</a> enumeration.
 
 ## -returns
 
-
-
 If the method succeeds, it returns <b>S_OK</b>. It returns <b>S_FALSE</b> if a dialog with the specified dialog number cannot be found. If the method fails, it returns an error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>

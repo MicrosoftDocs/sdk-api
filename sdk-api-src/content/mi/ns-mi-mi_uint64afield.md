@@ -1,16 +1,13 @@
 ---
 UID: NS:mi._MI_Uint64AField
 title: MI_Uint64AField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_Uint64AField)
+helpviewer_keywords: ["MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","MI_Uint64AField","MI_Uint64AField structure [Windows Management Infrastructure (MI)]","mi/MI_Uint64AField","wmi._mi_uint64afield","wmi_v2.mi_uint64afield"]
 old-location: wmi_v2\mi_uint64afield.htm
 tech.root: wmi_v2
 ms.assetid: 4ecaf6fa-f2d9-4a79-82b7-653b93c3eba4
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint64AField, MI_Uint64AField structure [Windows Management Infrastructure (MI)], mi/MI_Uint64AField, wmi._mi_uint64afield, wmi_v2.mi_uint64afield
-f1_keywords:
-- mi/MI_Uint64AField
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_Uint64AField
 targetos: Windows
 req.typenames: MI_Uint64AField
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_Uint64AField
+ - mi/_MI_Uint64AField
+ - MI_Uint64AField
+ - mi/MI_Uint64AField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_Uint64AField
 ---
 
 # MI_Uint64AField structure
@@ -48,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
-
+Represents a property inside an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ## -struct-fields
 
-
-
-
 ### -field value
 
-A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_uint64a">MI_Uint64A</a>.
-
+A field of type <a href="/windows/desktop/api/mi/ns-mi-mi_uint64a">MI_Uint64A</a>.
 
 ### -field exists
 
 Indicates whether the field is non-null. Can be set to <b>MI_TRUE</b> or <b>MI_FALSE</b>.
-
 
 ### -field flags
 
@@ -94,4 +91,3 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 #### MI_FLAG_ADOPT ((1 << 31))
 
 Used while adding and setting properties on an <b>MI_Instance</b> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
-

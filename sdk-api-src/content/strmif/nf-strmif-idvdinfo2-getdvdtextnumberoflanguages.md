@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetDVDTextNumberOfLanguages
 title: IDvdInfo2::GetDVDTextNumberOfLanguages (strmif.h)
 description: The GetDVDTextNumberOfLanguages method retrieves the number of languages in which DVD text strings appear.
+helpviewer_keywords: ["GetDVDTextNumberOfLanguages","GetDVDTextNumberOfLanguages method [DirectShow]","GetDVDTextNumberOfLanguages method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDTextNumberOfLanguages method","IDvdInfo2.GetDVDTextNumberOfLanguages","IDvdInfo2::GetDVDTextNumberOfLanguages","IDvdInfo2GetDVDTextNumberOfLanguages","dshow.idvdinfo2_getdvdtextnumberoflanguages","strmif/IDvdInfo2::GetDVDTextNumberOfLanguages"]
 old-location: dshow\idvdinfo2_getdvdtextnumberoflanguages.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 20c6ee1f-f20b-40c5-bc84-5ec1c07c0681
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextNumberOfLanguages, GetDVDTextNumberOfLanguages method [DirectShow], GetDVDTextNumberOfLanguages method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextNumberOfLanguages method, IDvdInfo2.GetDVDTextNumberOfLanguages, IDvdInfo2::GetDVDTextNumberOfLanguages, IDvdInfo2GetDVDTextNumberOfLanguages, dshow.idvdinfo2_getdvdtextnumberoflanguages, strmif/IDvdInfo2::GetDVDTextNumberOfLanguages
-f1_keywords:
-- strmif/IDvdInfo2.GetDVDTextNumberOfLanguages
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetDVDTextNumberOfLanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetDVDTextNumberOfLanguages
+ - strmif/IDvdInfo2::GetDVDTextNumberOfLanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetDVDTextNumberOfLanguages
 ---
 
 # IDvdInfo2::GetDVDTextNumberOfLanguages
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDVDTextNumberOfLanguages</code> method retrieves the number of languages in which DVD text strings appear.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pulNumOfLangs [out]
 
 Receives the number of text languages.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -111,41 +102,25 @@ An unexpected internal error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Depending on how the disc is authored, the number of languages will be valid either for the entire disc, or only for the current side of the disc.
 
 If the DVD does not contain any text strings, the method succeeds, but <i>pulNumOfLangs</i> receives the value zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>

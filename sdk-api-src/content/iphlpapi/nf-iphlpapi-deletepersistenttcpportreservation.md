@@ -1,16 +1,13 @@
 ---
 UID: NF:iphlpapi.DeletePersistentTcpPortReservation
 title: DeletePersistentTcpPortReservation function (iphlpapi.h)
-description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
+description: Deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer. (DeletePersistentTcpPortReservation)
+helpviewer_keywords: ["DeletePersistentTcpPortReservation","DeletePersistentTcpPortReservation function [IP Helper]","iphlp.deletepersistenttcpportreservation","iphlpapi/DeletePersistentTcpPortReservation"]
 old-location: iphlp\deletepersistenttcpportreservation.htm
 tech.root: IpHlp
 ms.assetid: 533F8B35-6EC1-43BB-B8E6-EB086A9C646C
 ms.date: 12/05/2018
 ms.keywords: DeletePersistentTcpPortReservation, DeletePersistentTcpPortReservation function [IP Helper], iphlp.deletepersistenttcpportreservation, iphlpapi/DeletePersistentTcpPortReservation
-f1_keywords:
-- iphlpapi/DeletePersistentTcpPortReservation
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- DeletePersistentTcpPortReservation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeletePersistentTcpPortReservation
+ - iphlpapi/DeletePersistentTcpPortReservation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - DeletePersistentTcpPortReservation
 ---
 
 # DeletePersistentTcpPortReservation function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DeletePersistentTcpPortReservation</b> function deletes a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param StartPort [in]
 
-The starting TCP port number in network byte order. 
-
+The starting TCP port number in network byte order.
 
 ### -param NumberOfPorts [in]
 
 The number of TCP port numbers to delete.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -122,19 +115,13 @@ The element was not found. This error is returned if persistent port block speci
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>DeletePersistentTcpPortReservation</b> function is defined on Windows Vista and later. 
 
@@ -222,33 +209,22 @@ int wmain(int argc, WCHAR **argv)  {
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistenttcpportreservation">LookupPersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistenttcpportreservation">LookupPersistentTcpPortReservation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>

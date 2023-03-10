@@ -1,16 +1,13 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.SetFieldOptions
 title: ICredentialProviderCredentialEvents2::SetFieldOptions (credentialprovider.h)
-description: Specifies whether a specified field in the logon or credential UI should display a &#0034;password reveal&#0034; glyph or is expected to receive an e-mail address.
+description: Specifies whether a specified field in the logon or credential UI should display a &quot;password reveal&quot; glyph or is expected to receive an e-mail address.
+helpviewer_keywords: ["ICredentialProviderCredentialEvents2 interface [Windows Shell]","SetFieldOptions method","ICredentialProviderCredentialEvents2.SetFieldOptions","ICredentialProviderCredentialEvents2::SetFieldOptions","SetFieldOptions","SetFieldOptions method [Windows Shell]","SetFieldOptions method [Windows Shell]","ICredentialProviderCredentialEvents2 interface","credentialprovider/ICredentialProviderCredentialEvents2::SetFieldOptions","shell.ICredentialProviderCredentialEvents2_SetFieldOptions"]
 old-location: shell\ICredentialProviderCredentialEvents2_SetFieldOptions.htm
 tech.root: shell
 ms.assetid: 5507E8DE-5746-4031-900B-3EF5C97BC2EE
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents2 interface [Windows Shell],SetFieldOptions method, ICredentialProviderCredentialEvents2.SetFieldOptions, ICredentialProviderCredentialEvents2::SetFieldOptions, SetFieldOptions, SetFieldOptions method [Windows Shell], SetFieldOptions method [Windows Shell],ICredentialProviderCredentialEvents2 interface, credentialprovider/ICredentialProviderCredentialEvents2::SetFieldOptions, shell.ICredentialProviderCredentialEvents2_SetFieldOptions
-f1_keywords:
-- credentialprovider/ICredentialProviderCredentialEvents2.SetFieldOptions
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CredentialProvider.h
-api_name:
-- ICredentialProviderCredentialEvents2.SetFieldOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredentialEvents2::SetFieldOptions
+ - credentialprovider/ICredentialProviderCredentialEvents2::SetFieldOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CredentialProvider.h
+api_name:
+ - ICredentialProviderCredentialEvents2.SetFieldOptions
 ---
 
 # ICredentialProviderCredentialEvents2::SetFieldOptions
@@ -48,58 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether a specified field in the logon or credential UI should display a "password reveal" glyph or is expected to receive an e-mail address.
-
 
 ## -parameters
 
-
-
-
 ### -param credential [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a> interface pointer to the credential object.
-
+An <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a> interface pointer to the credential object.
 
 ### -param fieldID [in]
 
 The ID of the field in the logon or credential UI for which this option applies.
 
-
 ### -param options [in]
 
-One or more of the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_credential_field_options">CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS</a> values, which specify the field options.
-
+One or more of the <a href="/windows/desktop/api/credentialprovider/ne-credentialprovider-credential_provider_credential_field_options">CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS</a> values, which specify the field options.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-beginfieldupdates">ICredentialProviderCredential2::BeginFieldUpdates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-beginfieldupdates">ICredentialProviderCredential2::BeginFieldUpdates</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-endfieldupdates">ICredentialProviderCredential2::EndFieldUpdates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-endfieldupdates">ICredentialProviderCredential2::EndFieldUpdates</a>
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialwithfieldoptions-getfieldoptions">ICredentialProviderCredentialWithFieldOptions::GetFieldOptions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialwithfieldoptions-getfieldoptions">ICredentialProviderCredentialWithFieldOptions::GetFieldOptions</a>

@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFUnregisterPlatformFromMMCSS
 title: MFUnregisterPlatformFromMMCSS function (mfapi.h)
 description: Unregisters the Microsoft Media Foundation platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
+helpviewer_keywords: ["MFUnregisterPlatformFromMMCSS","MFUnregisterPlatformFromMMCSS function [Media Foundation]","mf.mfunregisterplatformfrommmcss","mfapi/MFUnregisterPlatformFromMMCSS","mfplat/MFUnregisterPlatformFromMMCSS"]
 old-location: mf\mfunregisterplatformfrommmcss.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B080E515-AD0E-492D-A9EF-8391DCEC3891
 ms.date: 12/05/2018
 ms.keywords: MFUnregisterPlatformFromMMCSS, MFUnregisterPlatformFromMMCSS function [Media Foundation], mf.mfunregisterplatformfrommmcss, mfapi/MFUnregisterPlatformFromMMCSS, mfplat/MFUnregisterPlatformFromMMCSS
-f1_keywords:
-- mfapi/MFUnregisterPlatformFromMMCSS
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFUnregisterPlatformFromMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFUnregisterPlatformFromMMCSS
+ - mfapi/MFUnregisterPlatformFromMMCSS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFUnregisterPlatformFromMMCSS
 ---
 
 # MFUnregisterPlatformFromMMCSS function
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters the Microsoft Media Foundation platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfregisterplatformwithmmcss">MFRegisterPlatformWithMMCSS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfregisterplatformwithmmcss">MFRegisterPlatformWithMMCSS</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>

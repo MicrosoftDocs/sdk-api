@@ -2,15 +2,12 @@
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetClientCertificateByID
 title: IBackgroundCopyJobHttpOptions::SetClientCertificateByID (bits2_5.h)
 description: Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request.
+helpviewer_keywords: ["CA","IBackgroundCopyJobHttpOptions interface [BITS]","SetClientCertificateByID method","IBackgroundCopyJobHttpOptions.SetClientCertificateByID","IBackgroundCopyJobHttpOptions::SetClientCertificateByID","MY","ROOT","SPC","SetClientCertificateByID","SetClientCertificateByID method [BITS]","SetClientCertificateByID method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid","bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID"]
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyid.htm
 tech.root: Bits
 ms.assetid: 60839bac-7f5f-4c43-84d4-26f1b21f974d
 ms.date: 12/05/2018
 ms.keywords: CA, IBackgroundCopyJobHttpOptions interface [BITS],SetClientCertificateByID method, IBackgroundCopyJobHttpOptions.SetClientCertificateByID, IBackgroundCopyJobHttpOptions::SetClientCertificateByID, MY, ROOT, SPC, SetClientCertificateByID, SetClientCertificateByID method [BITS], SetClientCertificateByID method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setclientcertificatebyid, bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID
-f1_keywords:
-- bits2_5/IBackgroundCopyJobHttpOptions.SetClientCertificateByID
-dev_langs:
-- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyJobHttpOptions.SetClientCertificateByID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJobHttpOptions::SetClientCertificateByID
+ - bits2_5/IBackgroundCopyJobHttpOptions::SetClientCertificateByID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyJobHttpOptions.SetClientCertificateByID
 ---
 
 # IBackgroundCopyJobHttpOptions::SetClientCertificateByID
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request.
-
 
 ## -parameters
 
-
-
-
 ### -param StoreLocation [in]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
-
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 ### -param StoreName [in]
 
@@ -113,17 +109,12 @@ Software Publisher Certificate
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pCertHashBlob [in]
 
 SHA1 hash that identifies the certificate. Use a 20 byte buffer for the hash. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 The following table lists some of the possible return values.
 
@@ -161,7 +152,7 @@ The user does not have permission to access the store location.
 </dl>
 </td>
 <td width="60%">
-The value for the <i>StoreLocation</i> parameter is not defined in the <a href="https://docs.microsoft.com/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
+The value for the <i>StoreLocation</i> parameter is not defined in the <a href="/windows/win32/api/bits2_5/ne-bits2_5-bg_cert_store_location">BG_CERT_STORE_LOCATION</a> enumeration.
 
 </td>
 </tr>
@@ -232,14 +223,8 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only the job owner can specify the client certificate. If the job changes ownership, BITS removes the certificate from the job.
 
@@ -247,7 +232,7 @@ The client certificate is applicable only for remote files that use the HTTP or 
 
 When a website accepts but does not require an SSL client certificate, and the BITS job does not specify a client certificate, the job will fail with ERROR_WINHTTP_CLIENT_AUTH_CERT_NEEDED (0x80072f0c).
 
-If you create a certificate for the job or application, you could store the certificate identifier (thumbprint) in the registry or database and use it when a job requires a certificate. You could also enumerate the certificates in the store and let the user choose the certificate. Another alternative is to call the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>  function to retrieve the certificate context based on some criteria. Using the context, call the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a> function to retrieve the hash (specify CERT_HASH_PROP_ID for <i>dwPropId</i>).
+If you create a certificate for the job or application, you could store the certificate identifier (thumbprint) in the registry or database and use it when a job requires a certificate. You could also enumerate the certificates in the store and let the user choose the certificate. Another alternative is to call the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>  function to retrieve the certificate context based on some criteria. Using the context, call the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a> function to retrieve the hash (specify CERT_HASH_PROP_ID for <i>dwPropId</i>).
 
 SmartCard thumbprints are not supported.
 
@@ -294,29 +279,18 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>

@@ -2,15 +2,12 @@
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetSecurityFlags
 title: IBackgroundCopyJobHttpOptions::SetSecurityFlags (bits2_5.h)
 description: Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
+helpviewer_keywords: ["BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP","BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT","BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT","BG_HTTP_REDIRECT_POLICY_DISALLOW","BG_HTTP_REDIRECT_POLICY_MASK","BG_SSL_ENABLE_CRL_CHECK","BG_SSL_IGNORE_CERT_CN_INVALID","BG_SSL_IGNORE_CERT_DATE_INVALID","BG_SSL_IGNORE_CERT_WRONG_USAGE","BG_SSL_IGNORE_UNKNOWN_CA","IBackgroundCopyJobHttpOptions interface [BITS]","SetSecurityFlags method","IBackgroundCopyJobHttpOptions.SetSecurityFlags","IBackgroundCopyJobHttpOptions::SetSecurityFlags","SetSecurityFlags","SetSecurityFlags method [BITS]","SetSecurityFlags method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setsecurityflags","bits2_5/IBackgroundCopyJobHttpOptions::SetSecurityFlags"]
 old-location: bits\ibackgroundcopyjobhttpoptions_setsecurityflags.htm
 tech.root: Bits
 ms.assetid: afac84cb-28ab-4c80-ab39-eefe450ae3e5
 ms.date: 12/05/2018
 ms.keywords: BG_HTTP_REDIRECT_POLICY_ALLOW_HTTPS_TO_HTTP, BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT, BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT, BG_HTTP_REDIRECT_POLICY_DISALLOW, BG_HTTP_REDIRECT_POLICY_MASK, BG_SSL_ENABLE_CRL_CHECK, BG_SSL_IGNORE_CERT_CN_INVALID, BG_SSL_IGNORE_CERT_DATE_INVALID, BG_SSL_IGNORE_CERT_WRONG_USAGE, BG_SSL_IGNORE_UNKNOWN_CA, IBackgroundCopyJobHttpOptions interface [BITS],SetSecurityFlags method, IBackgroundCopyJobHttpOptions.SetSecurityFlags, IBackgroundCopyJobHttpOptions::SetSecurityFlags, SetSecurityFlags, SetSecurityFlags method [BITS], SetSecurityFlags method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setsecurityflags, bits2_5/IBackgroundCopyJobHttpOptions::SetSecurityFlags
-f1_keywords:
-- bits2_5/IBackgroundCopyJobHttpOptions.SetSecurityFlags
-dev_langs:
-- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyJobHttpOptions.SetSecurityFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJobHttpOptions::SetSecurityFlags
+ - bits2_5/IBackgroundCopyJobHttpOptions::SetSecurityFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyJobHttpOptions.SetSecurityFlags
 ---
 
 # IBackgroundCopyJobHttpOptions::SetSecurityFlags
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -180,12 +177,8 @@ You can combine this flag with BG_HTTP_REDIRECT_POLICY_ALLOW_SILENT and BG_HTTP_
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The following table lists some of the possible return values.
 
@@ -217,14 +210,8 @@ The flag value is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If CRL checking is requested, BITS performs the check for all files in the job that specify the HTTPS protocol. The check is made for each file before the file begins transferring. If you set this value to <b>TRUE</b> after BITS has partially downloaded a file, BITS will reschedule the job and begin downloading the file again. Files that are already downloaded are not affected.
 
@@ -252,7 +239,7 @@ The redirect policy applies to all files in a download job (the policy does not 
 
 <b>Prior to BITS 3.0:  </b>The redirect policies are not supported.
 
-If the policy is BG_HTTP_REDIRECT_POLICY_DISALLOW and the server redirects your request, the job is placed in the fatal error state with one of the following error codes. For descriptions of the error codes, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/http-status-codes">HTTP Status Codes</a>. 
+If the policy is BG_HTTP_REDIRECT_POLICY_DISALLOW and the server redirects your request, the job is placed in the fatal error state with one of the following error codes. For descriptions of the error codes, see <a href="/windows/desktop/WinHttp/http-status-codes">HTTP Status Codes</a>. 
 
 <ul>
 <li>HRESULT_FROM_WIN32(HTTP_STATUS_AMBIGUOUS)</li>
@@ -267,22 +254,12 @@ If peer caching is enabled and you specify BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT,
 
 If you specify  and the file is downloaded from the 
 
-Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result when calling the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method. If a server redirected your request, BITS will have already changed the original URL to the final redirected URL, so calling the <b>ReplaceRemotePrefix</b> method will not find files with the original URL.
-
-
-
+Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result when calling the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method. If a server redirected your request, BITS will have already changed the original URL to the final redirected URL, so calling the <b>ReplaceRemotePrefix</b> method will not find files with the original URL.
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags">IBackgroundCopyJobHttpOptions::GetSecurityFlags</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags">IBackgroundCopyJobHttpOptions::GetSecurityFlags</a>

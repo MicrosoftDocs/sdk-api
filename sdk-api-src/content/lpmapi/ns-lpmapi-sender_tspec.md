@@ -1,16 +1,13 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_24
+UID: NS:lpmapi.SENDER_TSPEC
 title: SENDER_TSPEC (lpmapi.h)
 description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.
+helpviewer_keywords: ["SENDER_TSPEC","SENDER_TSPEC structure [QOS]","lpmapi/SENDER_TSPEC","qos.sender_tspec"]
 old-location: qos\sender_tspec.htm
 tech.root: QOS
 ms.assetid: d7905687-1af8-4469-b8de-a2445afa90f4
 ms.date: 12/05/2018
 ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qos.sender_tspec
-f1_keywords:
-- lpmapi/SENDER_TSPEC
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- SENDER_TSPEC
 targetos: Windows
 req.typenames: SENDER_TSPEC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SENDER_TSPEC
+ - lpmapi/SENDER_TSPEC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - SENDER_TSPEC
 ---
 
 # SENDER_TSPEC structure
@@ -48,37 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SENDER_TSPEC</b> structure contains information for an RSVP sender Tspec.
 
-
 ## -struct-fields
-
-
-
 
 ### -field stspec_header
 
-Object header, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
-
+Object header, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure.
 
 ### -field stspec_body
 
-Sender Tspec body information, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservtspecbody">IntServTspecBody</a> structure.
-
+Sender Tspec body information, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservtspecbody">IntServTspecBody</a> structure.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservtspecbody">IntServTspecBody</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservtspecbody">IntServTspecBody</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
 

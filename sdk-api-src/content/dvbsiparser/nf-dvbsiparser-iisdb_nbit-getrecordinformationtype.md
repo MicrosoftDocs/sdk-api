@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordInformationType
 title: IISDB_NBIT::GetRecordInformationType (dvbsiparser.h)
 description: Gets an information_type field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+helpviewer_keywords: ["GetRecordInformationType","GetRecordInformationType method [Microsoft TV Technologies]","GetRecordInformationType method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordInformationType method","IISDB_NBIT.GetRecordInformationType","IISDB_NBIT::GetRecordInformationType","dvbsiparser/IISDB_NBIT::GetRecordInformationType","mstv.iisdb_nbit_getrecordinformationtype"]
 old-location: mstv\iisdb_nbit_getrecordinformationtype.htm
 tech.root: mstv
 ms.assetid: 0f51abc1-d797-4666-b5d5-50560fd2f9f3
 ms.date: 12/05/2018
 ms.keywords: GetRecordInformationType, GetRecordInformationType method [Microsoft TV Technologies], GetRecordInformationType method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordInformationType method, IISDB_NBIT.GetRecordInformationType, IISDB_NBIT::GetRecordInformationType, dvbsiparser/IISDB_NBIT::GetRecordInformationType, mstv.iisdb_nbit_getrecordinformationtype
-f1_keywords:
-- dvbsiparser/IISDB_NBIT.GetRecordInformationType
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_NBIT.GetRecordInformationType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_NBIT::GetRecordInformationType
+ - dvbsiparser/IISDB_NBIT::GetRecordInformationType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_NBIT.GetRecordInformationType
 ---
 
 # IISDB_NBIT::GetRecordInformationType
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an information_type field from 
   a record in an Integrated Services Digital Broadcasting (ISDB)
   network broadcaster information table (NBIT).
-  
-
 
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
 Specifies the record number, indexed from zero.
-  Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">IISDB_NBIT::GetCountOfRecords</a> method to get the number of records in the NBIT.
-
-
+  Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">IISDB_NBIT::GetCountOfRecords</a> method to get the number of records in the NBIT.
 
 ### -param pbVal [out]
 
@@ -132,29 +126,15 @@ Reserved for future use
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_nbit">IISDB_NBIT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_nbit">IISDB_NBIT</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">IISDB_NBIT::GetCountOfRecords</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">IISDB_NBIT::GetCountOfRecords</a>

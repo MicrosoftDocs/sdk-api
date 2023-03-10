@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Next
 title: IEnumProgressItems::Next (imapi2fs.h)
-description: Retrieves a specified number of items in the enumeration sequence.
+description: Retrieves a specified number of items in the enumeration sequence. (IEnumProgressItems.Next)
+helpviewer_keywords: ["IEnumProgressItems interface [IMAPI]","Next method","IEnumProgressItems.Next","IEnumProgressItems::Next","Next","Next method [IMAPI]","Next method [IMAPI]","IEnumProgressItems interface","imapi.ienumprogressitems_next","imapi2fs/IEnumProgressItems::Next"]
 old-location: imapi\ienumprogressitems_next.htm
 tech.root: imapi
 ms.assetid: 9a6b4838-921b-444d-8ac2-f26d9762d9ce
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems interface [IMAPI],Next method, IEnumProgressItems.Next, IEnumProgressItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumProgressItems interface, imapi.ienumprogressitems_next, imapi2fs/IEnumProgressItems::Next
-f1_keywords:
-- imapi2fs/IEnumProgressItems.Next
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IEnumProgressItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumProgressItems::Next
+ - imapi2fs/IEnumProgressItems::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IEnumProgressItems.Next
 ---
 
 # IEnumProgressItems::Next
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a specified number of items in the enumeration sequence.
-
 
 ## -parameters
 
-
-
-
 ### -param celt [in]
 
-Number of items to retrieve. 
-
+Number of items to retrieve.
 
 ### -param rgelt [out]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interfaces. You must release each interface in rgelt when done. 
-
+Array of <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interfaces. You must release each interface in rgelt when done.
 
 ### -param pceltFetched [out]
 
-Number of elements returned in rgelt. You can set <i>pceltFetched</i> to <b>NULL</b> if <i>celt</i> is one. Otherwise, initialize the value of <i>pceltFetched</i> to 0 before calling this method. 
-
+Number of elements returned in rgelt. You can set <i>pceltFetched</i> to <b>NULL</b> if <i>celt</i> is one. Otherwise, initialize the value of <i>pceltFetched</i> to 0 before calling this method.
 
 ## -returns
-
-
 
 S_OK is returned when the number of requested elements (<i>celt</i>) are returned successfully or the number of returned items (<i>pceltFetched</i>) is less than the number of requested elements.
 
@@ -125,32 +117,15 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumprogressitems">IEnumProgressItems</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a>
- 
-
- 
-
+<a href="/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a>

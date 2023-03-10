@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IContextState.SetMyTransactionVote
 title: IContextState::SetMyTransactionVote (comsvcs.h)
 description: Sets the consistent flag.
+helpviewer_keywords: ["IContextState interface [COM+]","SetMyTransactionVote method","IContextState.SetMyTransactionVote","IContextState::SetMyTransactionVote","SetMyTransactionVote","SetMyTransactionVote method [COM+]","SetMyTransactionVote method [COM+]","IContextState interface","_cos_IContextState_SetMyTransactionVote","comsvcs/IContextState::SetMyTransactionVote","cos.icontextstate_setmytransactionvote"]
 old-location: cos\icontextstate_setmytransactionvote.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ec88f99a-cb24-42a9-8f2a-add7ddbec719
 ms.date: 12/05/2018
 ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
-f1_keywords:
-- comsvcs/IContextState.SetMyTransactionVote
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IContextState.SetMyTransactionVote
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextState::SetMyTransactionVote
+ - comsvcs/IContextState::SetMyTransactionVote
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IContextState.SetMyTransactionVote
 ---
 
 # IContextState::SetMyTransactionVote
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the consistent flag.
-
 
 ## -parameters
 
-
-
-
 ### -param txVote [in]
 
-The consistent flag. For a list of values, see the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-transactionvote">TransactionVote</a> enumeration. Set this parameter to TxCommit if the consistent flag is true;set it to TxAbort if the consistent flag is false.
-
+The consistent flag. For a list of values, see the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-transactionvote">TransactionVote</a> enumeration. Set this parameter to TxCommit if the consistent flag is true;set it to TxAbort if the consistent flag is false.
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -92,38 +86,22 @@ The method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a> is not available to this context.
+<a href="/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a> is not available to this context.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 COM+ inspects this flag only when deactivating the object, and the flag can be set multiple times within a method call.
 
 The default value of the consistent flag is true.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>

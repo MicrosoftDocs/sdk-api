@@ -1,16 +1,13 @@
 ---
 UID: NF:rtworkq.RtwqLockWorkQueue
 title: RtwqLockWorkQueue function (rtworkq.h)
-description: Locks a work queue.
+description: Locks a work queue. (RtwqLockWorkQueue)
+helpviewer_keywords: ["RtwqLockWorkQueue","RtwqLockWorkQueue function","base.rtwqlockworkqueue","rtworkq/RtwqLockWorkQueue"]
 old-location: base\rtwqlockworkqueue.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
 ms.date: 12/05/2018
 ms.keywords: RtwqLockWorkQueue, RtwqLockWorkQueue function, base.rtwqlockworkqueue, rtworkq/RtwqLockWorkQueue
-f1_keywords:
-- rtworkq/RtwqLockWorkQueue
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqLockWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqLockWorkQueue
+ - rtworkq/RtwqLockWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqLockWorkQueue
 ---
 
 # RtwqLockWorkQueue function
@@ -48,25 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks a work queue.
-
 
 ## -parameters
 
-
-
-
 ### -param workQueueId [in]
 
-The identifier for the work queue. The identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function. 
-
+The identifier for the work queue. The identifier is returned by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

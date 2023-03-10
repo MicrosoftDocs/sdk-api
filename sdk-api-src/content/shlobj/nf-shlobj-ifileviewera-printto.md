@@ -1,15 +1,12 @@
 ---
 UID: NF:shlobj.IFileViewerA.PrintTo
 title: IFileViewerA::PrintTo
-description: Prints a file.
+description: Prints a file. (ANSI)
+helpviewer_keywords: ["IFileViewerA::PrintTo"]
 tech.root: shell
 ms.assetid: 4a8fd0ed-4a9a-47c7-a0ab-87cf82f507cb
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: IFileViewerA::PrintTo
-f1_keywords:
-- shlobj/IFileViewerA::PrintTo
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,19 +27,24 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - IFileViewerA::PrintTo
+ - shlobj/IFileViewerA::PrintTo
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- shlobj.h
+ - shlobj.h
 api_name:
-- IFileViewerA::PrintTo
+ - IFileViewerA::PrintTo
 ---
 
 ## -description
 
-Prints a file. The Shell specifies the name of the file to print by calling the file viewer's [IPersistFile::Load](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
+Prints a file. The Shell specifies the name of the file to print by calling the file viewer's [IPersistFile::Load](/windows/desktop/api/objidl/nf-objidl-ipersistfile-load) method.
 
 ## -parameters
 
@@ -59,4 +61,3 @@ A user interface suppression flag. If this parameter is **TRUE**, the file viewe
 ## -remarks
 
 ## -see-also
-

@@ -2,15 +2,12 @@
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.ModifyResourceType
 title: IWorkspaceResTypeRegistry::ModifyResourceType (workspaceax.h)
 description: Modifies a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
+helpviewer_keywords: ["IWorkspaceResTypeRegistry interface [Remote Desktop Services]","ModifyResourceType method","IWorkspaceResTypeRegistry.ModifyResourceType","IWorkspaceResTypeRegistry::ModifyResourceType","ModifyResourceType","ModifyResourceType method [Remote Desktop Services]","ModifyResourceType method [Remote Desktop Services]","IWorkspaceResTypeRegistry interface","ModifyResourceType method [Remote Desktop Services]","Workspace object","Workspace object [Remote Desktop Services]","ModifyResourceType method","termserv.iworkspacerestyperegistry_modifyresourcetype","workspaceax/IWorkspaceResTypeRegistry::ModifyResourceType"]
 old-location: termserv\iworkspacerestyperegistry_modifyresourcetype.htm
 tech.root: TermServ
 ms.assetid: a1feac54-218c-4c17-87d6-27d764d355f9
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceResTypeRegistry interface [Remote Desktop Services],ModifyResourceType method, IWorkspaceResTypeRegistry.ModifyResourceType, IWorkspaceResTypeRegistry::ModifyResourceType, ModifyResourceType, ModifyResourceType method [Remote Desktop Services], ModifyResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, ModifyResourceType method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],ModifyResourceType method, termserv.iworkspacerestyperegistry_modifyresourcetype, workspaceax/IWorkspaceResTypeRegistry::ModifyResourceType
-f1_keywords:
-- workspaceax/IWorkspaceResTypeRegistry.ModifyResourceType
-dev_langs:
-- c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library: TSWorkspace.dll
 req.lib: 
 req.dll: TSWorkspace.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- TSWorkspace.dll
-api_name:
-- IWorkspaceResTypeRegistry.ModifyResourceType
-- Workspace.ModifyResourceType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWorkspaceResTypeRegistry::ModifyResourceType
+ - workspaceax/IWorkspaceResTypeRegistry::ModifyResourceType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - TSWorkspace.dll
+api_name:
+ - IWorkspaceResTypeRegistry.ModifyResourceType
+ - Workspace.ModifyResourceType
 ---
 
 # IWorkspaceResTypeRegistry::ModifyResourceType
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Modifies a third-party file name extension that is registered with the RemoteApp and Desktop Connections runtime.
 
-
 ## -parameters
-
-
-
 
 ### -param fMachineWide [in]
 
@@ -74,33 +71,18 @@ The resource is registered per machine.
 
 The resource is registered per user.
 
-
 ### -param bstrFileExtension [in]
 
 A string that contains the file name extension to update. The period must be included in the extension, for example, ".txt".
-
 
 ### -param bstrLauncher [in]
 
 A string that contains the new fully qualified path and file name of the application to use to launch files with the extension specified by the <i>bstrFileExtension</i> parameter.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
- 
-
- 
-
+<a href="/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>

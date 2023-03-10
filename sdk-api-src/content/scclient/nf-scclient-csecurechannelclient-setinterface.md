@@ -2,15 +2,12 @@
 UID: NF:scclient.CSecureChannelClient.SetInterface
 title: CSecureChannelClient::SetInterface (scclient.h)
 description: The SetInterface method is used by applications to set the IComponentAuthenticate interface to use for Secure Authenticated Channel (SAC) operations.
+helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","SetInterface method","CSecureChannelClient.SetInterface","CSecureChannelClient::SetInterface","CSecureChannelClientSetInterface","SetInterface","SetInterface method [windows Media Device Manager]","SetInterface method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::SetInterface","wmdm.csecurechannelclient_setinterface"]
 old-location: wmdm\csecurechannelclient_setinterface.htm
 tech.root: WMDM
 ms.assetid: b1af8f10-7bad-4f85-89f1-b983af6d4dc9
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetInterface method, CSecureChannelClient.SetInterface, CSecureChannelClient::SetInterface, CSecureChannelClientSetInterface, SetInterface, SetInterface method [windows Media Device Manager], SetInterface method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::SetInterface, wmdm.csecurechannelclient_setinterface
-f1_keywords:
-- scclient/CSecureChannelClient.SetInterface
-dev_langs:
-- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelClient.SetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelClient::SetInterface
+ - scclient/CSecureChannelClient::SetInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelClient.SetInterface
 ---
 
 # CSecureChannelClient::SetInterface
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetInterface</b> method is used by applications to set the <b>IComponentAuthenticate</b> interface to use for Secure Authenticated Channel (SAC) operations.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pComponentAuth [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate</a> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
-
+Pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate</a> interface. The caller is responsible for calling <b>Release</b> on the retrieved interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -77,7 +68,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -99,14 +90,8 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The SAC interface is the <b>IComponentAuthenticate</b> interface. Applications use the <b>IComponentAuthenticate</b> interface provided in Windows Media Device Manager. Service providers and secure content providers must implement their own <b>IComponentAuthenticate</b> interface.
 
@@ -172,29 +157,18 @@ HRESULT MyClass::Authenticate()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

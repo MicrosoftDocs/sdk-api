@@ -2,15 +2,12 @@
 UID: NF:fileapi.SetFileValidData
 title: SetFileValidData function (fileapi.h)
 description: Sets the valid data length of the specified file. This function is useful in very limited scenarios. For more information, see the Remarks section.
+helpviewer_keywords: ["SetFileValidData","SetFileValidData function [Files]","_win32_setfilevaliddata","base.setfilevaliddata","fileapi/SetFileValidData","fs.setfilevaliddata","winbase/SetFileValidData"]
 old-location: fs\setfilevaliddata.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c6ded2d7-270a-4b75-b2d4-1007a92fe831
 ms.date: 12/05/2018
 ms.keywords: SetFileValidData, SetFileValidData function [Files], _win32_setfilevaliddata, base.setfilevaliddata, fileapi/SetFileValidData, fs.setfilevaliddata, winbase/SetFileValidData
-f1_keywords:
-- fileapi/SetFileValidData
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- SetFileValidData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileValidData
+ - fileapi/SetFileValidData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - SetFileValidData
 ---
 
 # SetFileValidData function
@@ -55,21 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the valid data length of the specified file. This function is useful in very limited scenarios. For more information, see the Remarks section.<div class="alert"><b>Caution</b>  Use of this function without proper security considerations may compromise data privacy and security. For more information, see the Remarks section.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file. The file must have been opened with the <b>GENERIC_WRITE</b> access right, and the <b>SE_MANAGE_VOLUME_NAME</b> privilege enabled. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 <div class="alert"><b>Note</b>  The file cannot be a network file, or be compressed, sparse, or transacted.</div>
 <div> </div>
@@ -80,24 +76,16 @@ The new valid data length.
 
 This parameter must be a positive value that is greater than the current valid data length, but less than the current file size.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-The <b>SetFileValidData</b> function sets the logical end of a file. To set the size of a file, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> function. The physical file size is also referred to as the end of the file.
+The <b>SetFileValidData</b> function sets the logical end of a file. To set the size of a file, use the <a href="/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> function. The physical file size is also referred to as the end of the file.
 
 Each file stream has the following properties:
 
@@ -125,9 +113,9 @@ If the caller of <b>SetFileValidData</b> opened the file with adequately restric
 It is for these reasons that <b>SetFileValidData</b> is not recommended for general purpose use, in addition to performance considerations, as discussed below.
 
 For more information about security and access privileges, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a> and <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+<a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a> and <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
-You can use the <b>SetFileValidData</b> function to  create large files in very specific circumstances so that the performance of subsequent file I/O can be better than other methods. Specifically, if the extended portion of the file is large and will be written to randomly, such as in a database type of application, the time it takes to extend and write to the file will be faster than using <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> and writing randomly. In most other situations, there is usually no performance gain to using <b>SetFileValidData</b>, and sometimes there can be a performance penalty.
+You can use the <b>SetFileValidData</b> function to  create large files in very specific circumstances so that the performance of subsequent file I/O can be better than other methods. Specifically, if the extended portion of the file is large and will be written to randomly, such as in a database type of application, the time it takes to extend and write to the file will be faster than using <a href="/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a> and writing randomly. In most other situations, there is usually no performance gain to using <b>SetFileValidData</b>, and sometimes there can be a performance penalty.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -187,22 +175,11 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setendoffile">SetEndOfFile</a>

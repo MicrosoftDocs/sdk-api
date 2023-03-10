@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAudioRendererStats.GetStatParam
 title: IAMAudioRendererStats::GetStatParam (strmif.h)
 description: The GetStatParam method retrieves performance information from the audio renderer.
+helpviewer_keywords: ["GetStatParam","GetStatParam method [DirectShow]","GetStatParam method [DirectShow]","IAMAudioRendererStats interface","IAMAudioRendererStats interface [DirectShow]","GetStatParam method","IAMAudioRendererStats.GetStatParam","IAMAudioRendererStats::GetStatParam","IAMAudioRendererStatsGetStatParam","dshow.iamaudiorendererstats_getstatparam","strmif/IAMAudioRendererStats::GetStatParam"]
 old-location: dshow\iamaudiorendererstats_getstatparam.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bc01cac7-316f-4d18-ae68-c3db4dbf03fa
 ms.date: 12/05/2018
 ms.keywords: GetStatParam, GetStatParam method [DirectShow], GetStatParam method [DirectShow],IAMAudioRendererStats interface, IAMAudioRendererStats interface [DirectShow],GetStatParam method, IAMAudioRendererStats.GetStatParam, IAMAudioRendererStats::GetStatParam, IAMAudioRendererStatsGetStatParam, dshow.iamaudiorendererstats_getstatparam, strmif/IAMAudioRendererStats::GetStatParam
-f1_keywords:
-- strmif/IAMAudioRendererStats.GetStatParam
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAudioRendererStats.GetStatParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAudioRendererStats::GetStatParam
+ - strmif/IAMAudioRendererStats::GetStatParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAudioRendererStats.GetStatParam
 ---
 
 # IAMAudioRendererStats::GetStatParam
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetStatParam</code> method retrieves performance information from the audio renderer.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwParam [in]
 
-Specifies a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_audio_renderer_stat_param">_AM_AUDIO_RENDERER_STAT_PARAM</a> enumeration, indicating which information to retrieve.
-
+Specifies a member of the <a href="/windows/desktop/api/strmif/ne-strmif-_am_audio_renderer_stat_param">_AM_AUDIO_RENDERER_STAT_PARAM</a> enumeration, indicating which information to retrieve.
 
 ### -param pdwParam1 [out]
 
 Pointer to a variable that receives performance information. The meaning of the returned value depends on the value of <i>dwParam</i>.
 
-
 ### -param pdwParam2 [out]
 
 Pointer to a variable that receives performance information. The meaning of the returned value depends on the value of <i>dwParam</i>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -143,18 +132,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>

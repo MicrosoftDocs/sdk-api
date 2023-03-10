@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMDRMMessageParser.ParseRegistrationReqMsg
 title: IWMDRMMessageParser::ParseRegistrationReqMsg (wmsdkidl.h)
 description: The ParseRegistrationReqMsg method extracts the device certificate and identifier from a registration message sent by a device.
+helpviewer_keywords: ["IWMDRMMessageParser interface [windows Media Format]","ParseRegistrationReqMsg method","IWMDRMMessageParser.ParseRegistrationReqMsg","IWMDRMMessageParser::ParseRegistrationReqMsg","IWMDRMMessageParserParseRegistrationReqMsg","ParseRegistrationReqMsg","ParseRegistrationReqMsg method [windows Media Format]","ParseRegistrationReqMsg method [windows Media Format]","IWMDRMMessageParser interface","wmformat.iwmdrmmessageparser_parseregistrationreqmsg","wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg"]
 old-location: wmformat\iwmdrmmessageparser_parseregistrationreqmsg.htm
 tech.root: wmformat
 ms.assetid: d2d142bf-0fed-42c8-a2f1-b539a40ac074
 ms.date: 12/05/2018
 ms.keywords: IWMDRMMessageParser interface [windows Media Format],ParseRegistrationReqMsg method, IWMDRMMessageParser.ParseRegistrationReqMsg, IWMDRMMessageParser::ParseRegistrationReqMsg, IWMDRMMessageParserParseRegistrationReqMsg, ParseRegistrationReqMsg, ParseRegistrationReqMsg method [windows Media Format], ParseRegistrationReqMsg method [windows Media Format],IWMDRMMessageParser interface, wmformat.iwmdrmmessageparser_parseregistrationreqmsg, wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg
-f1_keywords:
-- wmsdkidl/IWMDRMMessageParser.ParseRegistrationReqMsg
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMMessageParser.ParseRegistrationReqMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMMessageParser::ParseRegistrationReqMsg
+ - wmsdkidl/IWMDRMMessageParser::ParseRegistrationReqMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMMessageParser.ParseRegistrationReqMsg
 ---
 
 # IWMDRMMessageParser::ParseRegistrationReqMsg
@@ -49,44 +51,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>ParseRegistrationReqMsg</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>ParseRegistrationReqMsg</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>ParseRegistrationReqMsg</b> method extracts the device certificate and identifier from a registration message sent by a device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbRegistrationReqMsg [in]
 
 Address of the registration message in memory. This is a message received by your application from a device.
 
-
 ### -param cbRegistrationReqMsg [in]
 
 The size of registration message in bytes.
 
-
 ### -param ppDeviceCert [out]
 
-Address of a variable that receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of the buffer object that contains the device certificate.
-
+Address of a variable that receives the address of the <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface of the buffer object that contains the device certificate.
 
 ### -param pDeviceSerialNumber [out]
 
-Address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure that receives the device identifier.
-
+Address of a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure that receives the device identifier.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,29 +107,13 @@ The <i>pbRegistrationMsg</i> parameter is <b>NULL</b>, or the <i>cbRegistrationM
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Registration request messages are sent by devices when they are connected to a network shared by the computer running your application. When your application receives the message, it must first parse the message by using this method to retrieve the device certificate and device identifier. The combination of device certificate and device identifier uniquely identifies the device.
 
-After parsing the message with this method, you can search the device database to determine whether the device is already registered, or you can try to register the device. Both of these actions use the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration</a> interface.
-
-
-
+After parsing the message with this method, you can search the device database to determine whether the device is already registered, or you can try to register the device. Both of these actions use the methods of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser">IWMDRMMessageParser Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmmessageparser">IWMDRMMessageParser Interface</a>

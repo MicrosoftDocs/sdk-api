@@ -1,16 +1,13 @@
 ---
 UID: NF:wsdhost.WSDCreateDeviceHostAdvanced
 title: WSDCreateDeviceHostAdvanced function (wsdhost.h)
-description: Creates a device host and returns a pointer to the IWSDDeviceHost interface.
+description: Creates a device host and returns a pointer to the IWSDDeviceHost interface. (WSDCreateDeviceHostAdvanced)
+helpviewer_keywords: ["WSDCreateDeviceHostAdvanced","WSDCreateDeviceHostAdvanced function","ncd.wsdcreatedevicehostadvanced","wsdhost/WSDCreateDeviceHostAdvanced"]
 old-location: ncd\wsdcreatedevicehostadvanced.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8136fc01-9476-4ee4-aa44-784bef482ff5
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHostAdvanced, WSDCreateDeviceHostAdvanced function, ncd.wsdcreatedevicehostadvanced, wsdhost/WSDCreateDeviceHostAdvanced
-f1_keywords:
-- wsdhost/WSDCreateDeviceHostAdvanced
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateDeviceHostAdvanced
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateDeviceHostAdvanced
+ - wsdhost/WSDCreateDeviceHostAdvanced
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateDeviceHostAdvanced
 ---
 
 # WSDCreateDeviceHostAdvanced function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a device host and returns  a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface.
-
+Creates a device host and returns  a pointer to the <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param pszLocalId [in]
 
@@ -65,7 +62,7 @@ If <i>pszLocalId</i> is a physical address (such as  URL prefixed by http or htt
 
 
 For secure communication, <i>pszLocalId</i> must be an URL prefixed by https, and the host will use the SSL/TLS protocol on the port specified in the URL.  The recommended port is port 5358, as this port is reserved for secure connections with WSDAPI.
-If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate before calling <b>WSDCreateDeviceHostAdvanced</b>.  For more information about the configuration of host ports, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
+If no port is specified, then the host will use port 443. The host port must be configured with an SSL server certificate before calling <b>WSDCreateDeviceHostAdvanced</b>.  For more information about the configuration of host ports, see <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
 
 
 If either <i>pszLocalId</i> or the transport address referenced by <i>ppHostAddresses</i> is an URL prefixed by https, then both URLs must be identical. If this is not the case, <b>WSDCreateDeviceHostAdvanced</b> will return E_INVALIDARG. 
@@ -91,31 +88,25 @@ The following list shows some example values for <i>pszLocalId</i>. It is not a 
 
 ### -param pContext [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces. 
+An <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces. 
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
-
 ### -param ppHostAddresses [in]
 
-A single <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface or <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a> interface. The objects provide information about specific addresses that the host should listen on.
+A single <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface or <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdtransportaddress">IWSDTransportAddress</a> interface. The objects provide information about specific addresses that the host should listen on.
 
 If <i>pszLocalId</i> contains a logical address, the resulting behavior is a mapping between the logical address and a specific set of physical addresses (instead of a mapping between the logical address and a default physical address).
 
-
 ### -param dwHostAddressCount [in]
 
-The number of items in the <i>ppHostAddresses</i> array. If <i>ppHostAddresses</i> is an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface, count must be 1.
-
+The number of items in the <i>ppHostAddresses</i> array. If <i>ppHostAddresses</i> is an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface, count must be 1.
 
 ### -param ppDeviceHost [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface that you use to expose the WSD-specific device semantics associated with a server that responds to incoming requests.
-
+Pointer to the <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> interface that you use to expose the WSD-specific device semantics associated with a server that responds to incoming requests.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -169,29 +160,11 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>WSDCreateDeviceHostAdvanced</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">IWSDDeviceHost::Init</a> method, which initializes an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object.
-
-
-
-
-
+The <b>WSDCreateDeviceHostAdvanced</b> function calls the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">IWSDDeviceHost::Init</a> method, which initializes an instance of an <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a> object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nf-wsdhost-wsdcreatedevicehost">WSDCreateDeviceHost</a>

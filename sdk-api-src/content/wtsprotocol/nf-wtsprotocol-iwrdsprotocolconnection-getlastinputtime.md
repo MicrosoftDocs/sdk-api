@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLastInputTime
 title: IWRdsProtocolConnection::GetLastInputTime (wtsprotocol.h)
 description: Retrieves the last time the protocol received user input.
+helpviewer_keywords: ["GetLastInputTime","GetLastInputTime method [Remote Desktop Services]","GetLastInputTime method [Remote Desktop Services]","IWRdsProtocolConnection interface","IWRdsProtocolConnection interface [Remote Desktop Services]","GetLastInputTime method","IWRdsProtocolConnection.GetLastInputTime","IWRdsProtocolConnection::GetLastInputTime","termserv.iwrdsprotocolconnection_getlastinputtime","wtsprotocol/IWRdsProtocolConnection::GetLastInputTime"]
 old-location: termserv\iwrdsprotocolconnection_getlastinputtime.htm
 tech.root: TermServ
 ms.assetid: 1a6acbd2-6155-4513-8892-50a4552abb12
 ms.date: 12/05/2018
 ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWRdsProtocolConnection.GetLastInputTime, IWRdsProtocolConnection::GetLastInputTime, termserv.iwrdsprotocolconnection_getlastinputtime, wtsprotocol/IWRdsProtocolConnection::GetLastInputTime
-f1_keywords:
-- wtsprotocol/IWRdsProtocolConnection.GetLastInputTime
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolConnection.GetLastInputTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolConnection::GetLastInputTime
+ - wtsprotocol/IWRdsProtocolConnection::GetLastInputTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolConnection.GetLastInputTime
 ---
 
 # IWRdsProtocolConnection::GetLastInputTime
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the last time the protocol received user input.
 
-
 ## -parameters
-
-
-
 
 ### -param pLastInputTime [out]
 
 A pointer to a <b>ULONG64</b> value that receives the number of milliseconds that has elapsed since the protocol last received input.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>

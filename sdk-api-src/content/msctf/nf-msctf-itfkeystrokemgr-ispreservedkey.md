@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfKeystrokeMgr.IsPreservedKey
 title: ITfKeystrokeMgr::IsPreservedKey (msctf.h)
 description: ITfKeystrokeMgr::IsPreservedKey method
+helpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","IsPreservedKey method","ITfKeystrokeMgr.IsPreservedKey","ITfKeystrokeMgr::IsPreservedKey","IsPreservedKey","IsPreservedKey method [Text Services Framework]","IsPreservedKey method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_ispreservedkey_ref","msctf/ITfKeystrokeMgr::IsPreservedKey","tsf.itfkeystrokemgr_ispreservedkey"]
 old-location: tsf\itfkeystrokemgr_ispreservedkey.htm
 tech.root: TSF
 ms.assetid: 50deac9c-b659-494b-9cda-d6109fa39363
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],IsPreservedKey method, ITfKeystrokeMgr.IsPreservedKey, ITfKeystrokeMgr::IsPreservedKey, IsPreservedKey, IsPreservedKey method [Text Services Framework], IsPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_ispreservedkey_ref, msctf/ITfKeystrokeMgr::IsPreservedKey, tsf.itfkeystrokemgr_ispreservedkey
-f1_keywords:
-- msctf/ITfKeystrokeMgr.IsPreservedKey
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfKeystrokeMgr.IsPreservedKey
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfKeystrokeMgr::IsPreservedKey
+ - msctf/ITfKeystrokeMgr::IsPreservedKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfKeystrokeMgr.IsPreservedKey
 ---
 
 # ITfKeystrokeMgr::IsPreservedKey
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a command GUID and key combination is a preserved key.
 
 ## -parameters
 
-
-
-
 ### -param rguid [in]
 
-Specifies the command GUID of the preserved key. This is the GUID passed in the text service call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">ITfKeystrokeMgr::PreserveKey</a>.
-
+Specifies the command GUID of the preserved key. This is the GUID passed in the text service call to <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">ITfKeystrokeMgr::PreserveKey</a>.
 
 ### -param pprekey [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY</a> structure that identifies the preserved key. The <b>uVKey</b> member contains the virtual key code and the <b>uModifiers</b> member identifies the modifiers of the preserved key. The <b>uVKey</b> member must be less than 256.
-
+Pointer to a <a href="/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY</a> structure that identifies the preserved key. The <b>uVKey</b> member contains the virtual key code and the <b>uModifiers</b> member identifies the modifiers of the preserved key. The <b>uVKey</b> member must be less than 256.
 
 ### -param pfRegistered [out]
 
 Pointer to a BOOL that receives <b>TRUE</b> if the command GUID and key combination is a registered preserved key, or <b>FALSE</b> otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -127,37 +120,21 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Preserved keys are registered by TSF text services and provide keyboard shortcuts to common commands implemented by the TSF text service.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">ITfKeystrokeMgr::PreserveKey
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">ITfKeystrokeMgr::PreserveKey
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY
       </a>
- 
-
- 
-

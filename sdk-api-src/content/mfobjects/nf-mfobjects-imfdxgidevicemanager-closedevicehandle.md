@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFDXGIDeviceManager.CloseDeviceHandle
 title: IMFDXGIDeviceManager::CloseDeviceHandle (mfobjects.h)
 description: Closes a Microsoft Direct3D device handle.
+helpviewer_keywords: ["CloseDeviceHandle","CloseDeviceHandle method [Media Foundation]","CloseDeviceHandle method [Media Foundation]","IMFDXGIDeviceManager interface","IMFDXGIDeviceManager interface [Media Foundation]","CloseDeviceHandle method","IMFDXGIDeviceManager.CloseDeviceHandle","IMFDXGIDeviceManager::CloseDeviceHandle","mf.imfdxgidevicemanager_closedevicehandle","mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle"]
 old-location: mf\imfdxgidevicemanager_closedevicehandle.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: D5C74D6C-F066-4905-9D02-886FA503F58E
 ms.date: 12/05/2018
 ms.keywords: CloseDeviceHandle, CloseDeviceHandle method [Media Foundation], CloseDeviceHandle method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],CloseDeviceHandle method, IMFDXGIDeviceManager.CloseDeviceHandle, IMFDXGIDeviceManager::CloseDeviceHandle, mf.imfdxgidevicemanager_closedevicehandle, mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
-f1_keywords:
-- mfobjects/IMFDXGIDeviceManager.CloseDeviceHandle
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMFDXGIDeviceManager.CloseDeviceHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDXGIDeviceManager::CloseDeviceHandle
+ - mfobjects/IMFDXGIDeviceManager::CloseDeviceHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMFDXGIDeviceManager.CloseDeviceHandle
 ---
 
 # IMFDXGIDeviceManager::CloseDeviceHandle
@@ -48,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a Microsoft Direct3D device handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 A handle to the Direct3D device.
 
-
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,27 +90,11 @@ The specified handle is not a Direct3D device handle.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-  Call this method to release a device handle that was retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a> method.
-
-
-
+  Call this method to release a device handle that was retrieved by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-opendevicehandle">IMFDXGIDeviceManager::OpenDeviceHandle</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>

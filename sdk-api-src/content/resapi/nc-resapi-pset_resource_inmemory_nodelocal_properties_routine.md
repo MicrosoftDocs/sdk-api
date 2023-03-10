@@ -1,16 +1,13 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
 title: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE (resapi.h)
-description: TBD.
+description: The PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function is called when a resource type control code operation completes.
+helpviewer_keywords: ["PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE","PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster]","SetResourceInMemoryNodeLocalProperties","SetResourceInMemoryNodeLocalProperties callback","SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster]","mscs.setresourceinmemorynodelocalproperties","resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE","resapi/SetResourceInMemoryNodeLocalProperties"]
 old-location: mscs\setresourceinmemorynodelocalproperties.htm
 tech.root: MsCS
 ms.assetid: 9263E130-49DE-465C-A852-34E2D93A4211
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function [Failover Cluster], SetResourceInMemoryNodeLocalProperties, SetResourceInMemoryNodeLocalProperties callback, SetResourceInMemoryNodeLocalProperties callback function [Failover Cluster], mscs.setresourceinmemorynodelocalproperties, resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE, resapi/SetResourceInMemoryNodeLocalProperties
-f1_keywords:
-- resapi/SetResourceInMemoryNodeLocalProperties callback
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- SetResourceInMemoryNodeLocalProperties callback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
+ - resapi/PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - SetResourceInMemoryNodeLocalProperties callback
 ---
 
 # PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE callback function
@@ -47,37 +48,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceHandle [in] [in]
 
 TBD
 
-
-### -param *propertyListBuffer [in] [in]
+### -param propertyListBuffer [in] [in]
 
 TBD
-
 
 ### -param propertyListBufferSize [in]
 
 The size of the <i>propertyListBuffer</i> parameter.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>

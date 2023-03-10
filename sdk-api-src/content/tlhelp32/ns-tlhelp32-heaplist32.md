@@ -2,15 +2,12 @@
 UID: NS:tlhelp32.tagHEAPLIST32
 title: HEAPLIST32 (tlhelp32.h)
 description: Describes an entry from a list that enumerates the heaps used by a specified process.
+helpviewer_keywords: ["*LPHEAPLIST32","*PHEAPLIST32","HEAPLIST32","HEAPLIST32 structure [ToolHelp]","HF32_DEFAULT","PHEAPLIST32","PHEAPLIST32 structure pointer [ToolHelp]","_win32_heaplist32_str","base.heaplist32_str","tlhelp32/HEAPLIST32","tlhelp32/PHEAPLIST32","toolhelp.heaplist32_str"]
 old-location: toolhelp\heaplist32_str.htm
 tech.root: ToolHelp
 ms.assetid: 61e01d23-9f15-44c5-9f6d-45df4809ccad
 ms.date: 12/05/2018
 ms.keywords: '*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [ToolHelp], HF32_DEFAULT, PHEAPLIST32, PHEAPLIST32 structure pointer [ToolHelp], _win32_heaplist32_str, base.heaplist32_str, tlhelp32/HEAPLIST32, tlhelp32/PHEAPLIST32, toolhelp.heaplist32_str'
-f1_keywords:
-- tlhelp32/HEAPLIST32
-dev_langs:
-- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- TlHelp32.h
-api_name:
-- HEAPLIST32
 targetos: Windows
 req.typenames: HEAPLIST32
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHEAPLIST32
+ - tlhelp32/tagHEAPLIST32
+ - HEAPLIST32
+ - tlhelp32/HEAPLIST32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - TlHelp32.h
+api_name:
+ - HEAPLIST32
 ---
 
 # HEAPLIST32 structure
@@ -48,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes an entry from a list that enumerates the heaps used by a specified process.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size of the structure, in bytes. Before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a> function, set this member to <code>sizeof(HEAPLIST32)</code>. If you do not initialize <b>dwSize</b>, 
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a> function, set this member to <code>sizeof(HEAPLIST32)</code>. If you do not initialize <b>dwSize</b>, 
 <b>Heap32ListFirst</b> will fail.
-
 
 ### -field th32ProcessID
 
 The identifier of the process to be examined.
 
-
 ### -field th32HeapID
 
 The heap identifier. This is not a handle, and has meaning only to the tool help functions.
-
 
 ### -field dwFlags
 
@@ -94,20 +90,11 @@ Process's default heap
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a>

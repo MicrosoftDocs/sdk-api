@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyAdministratorName
 title: IAzAuthorizationStore::DeletePolicyAdministratorName (azroles.h)
-description: Removes the specified account name from the list of principals that act as policy administrators.
+description: Removes the specified account name from the list of principals that act as policy administrators. (IAzAuthorizationStore.DeletePolicyAdministratorName)
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyAdministratorName method","DeletePolicyAdministratorName","DeletePolicyAdministratorName method [Security]","DeletePolicyAdministratorName method [Security]","AzAuthorizationStore object","DeletePolicyAdministratorName method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeletePolicyAdministratorName method","IAzAuthorizationStore.DeletePolicyAdministratorName","IAzAuthorizationStore::DeletePolicyAdministratorName","azroles/IAzAuthorizationStore::DeletePolicyAdministratorName","security.azauthorizationstore_deletepolicyadministratorname"]
 old-location: security\azauthorizationstore_deletepolicyadministratorname.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 28be14c8-9e39-4410-a08c-b52bb63d0ce4
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeletePolicyAdministratorName method, DeletePolicyAdministratorName, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security],AzAuthorizationStore object, DeletePolicyAdministratorName method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeletePolicyAdministratorName method, IAzAuthorizationStore.DeletePolicyAdministratorName, IAzAuthorizationStore::DeletePolicyAdministratorName, azroles/IAzAuthorizationStore::DeletePolicyAdministratorName, security.azauthorizationstore_deletepolicyadministratorname
-f1_keywords:
-- azroles/AzAuthorizationStore.DeletePolicyAdministratorName
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- AzAuthorizationStore.DeletePolicyAdministratorName
-- IAzAuthorizationStore.DeletePolicyAdministratorName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore::DeletePolicyAdministratorName
+ - azroles/IAzAuthorizationStore::DeletePolicyAdministratorName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - AzAuthorizationStore.DeletePolicyAdministratorName
+ - IAzAuthorizationStore.DeletePolicyAdministratorName
 ---
 
 # IAzAuthorizationStore::DeletePolicyAdministratorName
@@ -49,39 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeletePolicyAdministratorName</b> method removes the specified account name from the list of principals that act as policy administrators.
-
 
 ## -parameters
 
-
-
-
 ### -param bstrAdmin [in]
 
-The account name to remove from the list of policy administrators. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
-
+The account name to remove from the list of policy administrators. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
 
-
-
-
 ## -remarks
-
-
 
 Policy administrators for an object can perform the following tasks:
 
@@ -94,7 +82,4 @@ Policy administrators for an object can perform the following tasks:
 <li>Delete child objects of the object</li>
 <li>Create child objects of the object</li>
 </ul>
-To view the list of policy administrators in account name format, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname">PolicyAdministratorsName</a> property.
-
-
-
+To view the list of policy administrators in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyadministratorsname">PolicyAdministratorsName</a> property.

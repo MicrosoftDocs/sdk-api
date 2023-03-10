@@ -2,15 +2,12 @@
 UID: NS:shdeprecated.tagFolderSetData
 title: FOLDERSETDATA (shdeprecated.h)
 description: Deprecated. Data used in IBrowserService2::GetFolderSetData.
+helpviewer_keywords: ["*LPFOLDERSETDATA","FOLDERSETDATA","FOLDERSETDATA structure [Windows Shell]","LPFOLDERSETDATA","LPFOLDERSETDATA structure pointer [Windows Shell]","VIEW_PRIORITY_CACHEHIT","VIEW_PRIORITY_CACHEMISS","VIEW_PRIORITY_DESPERATE","VIEW_PRIORITY_INHERIT","VIEW_PRIORITY_NONE","VIEW_PRIORITY_RESTRICTED","VIEW_PRIORITY_SHELLEXT","VIEW_PRIORITY_SHELLEXT_ASBACKUP","VIEW_PRIORITY_STALECACHEHIT","VIEW_PRIORITY_USEASDEFAULT","_shell_FOLDERSETDATA","shdeprecated/FOLDERSETDATA","shdeprecated/LPFOLDERSETDATA","shell.FOLDERSETDATA"]
 old-location: shell\FOLDERSETDATA.htm
 tech.root: shell
 ms.assetid: eb47cd77-5788-4130-8d9c-cc84582e5d8e
 ms.date: 12/05/2018
 ms.keywords: '*LPFOLDERSETDATA, FOLDERSETDATA, FOLDERSETDATA structure [Windows Shell], LPFOLDERSETDATA, LPFOLDERSETDATA structure pointer [Windows Shell], VIEW_PRIORITY_CACHEHIT, VIEW_PRIORITY_CACHEMISS, VIEW_PRIORITY_DESPERATE, VIEW_PRIORITY_INHERIT, VIEW_PRIORITY_NONE, VIEW_PRIORITY_RESTRICTED, VIEW_PRIORITY_SHELLEXT, VIEW_PRIORITY_SHELLEXT_ASBACKUP, VIEW_PRIORITY_STALECACHEHIT, VIEW_PRIORITY_USEASDEFAULT, _shell_FOLDERSETDATA, shdeprecated/FOLDERSETDATA, shdeprecated/LPFOLDERSETDATA, shell.FOLDERSETDATA'
-f1_keywords:
-- shdeprecated/FOLDERSETDATA
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shdeprecated.h
-api_name:
-- FOLDERSETDATA
 targetos: Windows
 req.typenames: FOLDERSETDATA, *LPFOLDERSETDATA
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - tagFolderSetData
+ - shdeprecated/tagFolderSetData
+ - LPFOLDERSETDATA
+ - shdeprecated/LPFOLDERSETDATA
+ - FOLDERSETDATA
+ - shdeprecated/FOLDERSETDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shdeprecated.h
+api_name:
+ - FOLDERSETDATA
 ---
 
 # FOLDERSETDATA structure
@@ -49,30 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>FOLDERSETDATA</b> may be altered or unavailable in subsequent versions of the operating system or product.]
 
-Deprecated. Data used in <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata">IBrowserService2::GetFolderSetData</a>.
-
+Deprecated. Data used in <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata">IBrowserService2::GetFolderSetData</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field _fs
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure containing folder view informtion.
-
+The <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure containing folder view information.
 
 ### -field _vidRestore
 
 Type: <b>SHELLVIEWID</b>
 
 The last view used for this folder, used as a suggestion for this visit.
-
 
 ### -field _dwViewPriority
 
@@ -139,4 +138,3 @@ The last known good view supported by the window should be used.
 #### VIEW_PRIORITY_NONE
 
 No view is available at this point.
-

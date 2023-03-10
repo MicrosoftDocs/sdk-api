@@ -4,7 +4,7 @@ title: Tablet PC
 ms.assetid: 8f8b94e8-8687-3dab-9a34-5a6464070552
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Tablet PC
@@ -27,6 +27,5 @@ To develop Tablet PC, you need these headers:
  * [tpcshrd.h](../tpcshrd/index.md)
 
 For programming guidance for this technology, see:
-* [Mobile PC](https://docs.microsoft.com/previous-versions/windows/desktop/dd302492(v=vs.85))
+* [Mobile PC](/previous-versions/windows/desktop/dd302492(v=vs.85))
 * [Tablet PC](/windows/desktop/tablet)
-

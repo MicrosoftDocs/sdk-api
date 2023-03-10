@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.SetWindowsHookExW
 title: SetWindowsHookExW function (winuser.h)
-description: Installs an application-defined hook procedure into a hook chain.
+description: Installs an application-defined hook procedure into a hook chain. (Unicode)
+helpviewer_keywords: ["SetWindowsHookEx", "SetWindowsHookEx function [Windows and Messages]", "SetWindowsHookExW", "WH_CALLWNDPROC", "WH_CALLWNDPROCRET", "WH_CBT", "WH_DEBUG", "WH_FOREGROUNDIDLE", "WH_GETMESSAGE", "WH_JOURNALPLAYBACK", "WH_JOURNALRECORD", "WH_KEYBOARD", "WH_KEYBOARD_LL", "WH_MOUSE", "WH_MOUSE_LL", "WH_MSGFILTER", "WH_SHELL", "WH_SYSMSGFILTER", "_win32_SetWindowsHookEx", "_win32_setwindowshookex_cpp", "winmsg.setwindowshookex", "winui._win32_setwindowshookex", "winuser/SetWindowsHookEx", "winuser/SetWindowsHookExW"]
 old-location: winmsg\setwindowshookex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\setwindowshookex.htm
-ms.date: 12/05/2018
+ms.date: 06/01/2022
 ms.keywords: SetWindowsHookEx, SetWindowsHookEx function [Windows and Messages], SetWindowsHookExA, SetWindowsHookExW, WH_CALLWNDPROC, WH_CALLWNDPROCRET, WH_CBT, WH_DEBUG, WH_FOREGROUNDIDLE, WH_GETMESSAGE, WH_JOURNALPLAYBACK, WH_JOURNALRECORD, WH_KEYBOARD, WH_KEYBOARD_LL, WH_MOUSE, WH_MOUSE_LL, WH_MSGFILTER, WH_SHELL, WH_SYSMSGFILTER, _win32_SetWindowsHookEx, _win32_setwindowshookex_cpp, winmsg.setwindowshookex, winui._win32_setwindowshookex, winuser/SetWindowsHookEx, winuser/SetWindowsHookExA, winuser/SetWindowsHookExW
-f1_keywords:
-- winuser/SetWindowsHookEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- minuser.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SetWindowsHookEx
-- SetWindowsHookExA
-- SetWindowsHookExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWindowsHookExW
+ - winuser/SetWindowsHookExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - minuser.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetWindowsHookEx
+ - SetWindowsHookExA
+ - SetWindowsHookExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowsHookExW function
@@ -57,14 +60,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Installs an application-defined hook procedure into a hook chain. You would install a hook procedure to monitor the system for certain types of events. These events are associated either with a specific thread or with all threads in the same desktop as the calling thread. 
-
+Installs an application-defined hook procedure into a hook chain. You would install a hook procedure to monitor the system for certain types of events. These events are associated either with a specific thread or with all threads in the same desktop as the calling thread.
 
 ## -parameters
-
-
-
 
 ### -param idHook [in]
 
@@ -84,7 +82,7 @@ The type of hook procedure to be installed. This parameter can be one of the fol
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a> hook procedure.
+Installs a hook procedure that monitors messages before the system sends them to the destination window procedure. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a> hook procedure.
 
 </td>
 </tr>
@@ -95,7 +93,7 @@ Installs a hook procedure that monitors messages before the system sends them to
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages after they have been processed by the destination window procedure. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a> hook procedure.
+Installs a hook procedure that monitors messages after they have been processed by the destination window procedure. For more information, see the <a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a> hook procedure.
 
 </td>
 </tr>
@@ -106,7 +104,7 @@ Installs a hook procedure that monitors messages after they have been processed 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to a CBT application. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a> hook procedure.
 
 </td>
 </tr>
@@ -117,7 +115,7 @@ Installs a hook procedure that receives notifications useful to a CBT applicatio
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure useful for debugging other hook procedures. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> hook procedure.
+Installs a hook procedure useful for debugging other hook procedures. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a> hook procedure.
 
 </td>
 </tr>
@@ -128,7 +126,7 @@ Installs a hook procedure useful for debugging other hook procedures. For more i
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a> hook procedure. 
+Installs a hook procedure that will be called when the application's foreground thread is about to become idle. This hook is useful for performing low priority tasks during idle time. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a> hook procedure. 
 
 </td>
 </tr>
@@ -139,7 +137,7 @@ Installs a hook procedure that will be called when the application's foreground 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages posted to a message queue. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)">GetMsgProc</a> hook procedure.
+Installs a hook procedure that monitors messages posted to a message queue. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)">GetMsgProc</a> hook procedure.
 
 </td>
 </tr>
@@ -150,7 +148,11 @@ Installs a hook procedure that monitors messages posted to a message queue. For 
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that posts messages previously recorded by a <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-hooks">WH_JOURNALRECORD</a> hook procedure. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a> hook procedure.
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
+Installs a hook procedure that posts messages previously recorded by a <a href="/windows/desktop/winmsg/about-hooks">WH_JOURNALRECORD</a> hook procedure. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a> hook procedure.
 
 </td>
 </tr>
@@ -161,7 +163,11 @@ Installs a hook procedure that posts messages previously recorded by a <a href="
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)">JournalRecordProc</a> hook procedure.
+
+> [!WARNING]
+> Journaling Hooks APIs are unsupported starting in Windows 11 and will be removed in a future release. Because of this, we highly recommend calling the [**SendInput**](/windows/win32/api/winuser/nf-winuser-sendinput) TextInput API instead.
+
+Installs a hook procedure that records input messages posted to the system message queue. This hook is useful for recording macros. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)">JournalRecordProc</a> hook procedure.
 
 </td>
 </tr>
@@ -172,7 +178,7 @@ Installs a hook procedure that records input messages posted to the system messa
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)">KeyboardProc</a> hook procedure.
+Installs a hook procedure that monitors keystroke messages. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)">KeyboardProc</a> hook procedure.
 
 </td>
 </tr>
@@ -183,7 +189,7 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </dl>
 </td>
 <td width="60%">
- Installs a hook procedure that monitors low-level keyboard input events. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a> hook procedure.
+ Installs a hook procedure that monitors low-level keyboard input events. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a> hook procedure.
 
 </td>
 </tr>
@@ -194,7 +200,7 @@ Installs a hook procedure that monitors keystroke messages. For more information
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors mouse messages. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a> hook procedure.
+Installs a hook procedure that monitors mouse messages. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a> hook procedure.
 
 </td>
 </tr>
@@ -205,7 +211,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
- Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a> hook procedure.
+ Installs a hook procedure that monitors low-level mouse input events. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a> hook procedure.
 
 </td>
 </tr>
@@ -216,7 +222,7 @@ Installs a hook procedure that monitors mouse messages. For more information, se
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a> hook procedure.
 
 </td>
 </tr>
@@ -227,7 +233,7 @@ Installs a hook procedure that monitors messages generated as a result of an inp
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a> hook procedure.
+Installs a hook procedure that receives notifications useful to shell applications. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a> hook procedure.
 
 </td>
 </tr>
@@ -238,27 +244,23 @@ Installs a hook procedure that receives notifications useful to shell applicatio
 </dl>
 </td>
 <td width="60%">
-Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a> hook procedure.
+Installs a hook procedure that monitors messages generated as a result of an input event in a dialog box, message box, menu, or scroll bar. The hook procedure monitors these messages for all applications in the same desktop as the calling thread. For more information, see the <a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a> hook procedure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpfn [in]
 
 Type: <b>HOOKPROC</b>
 
-A pointer to the hook procedure. If the <i>dwThreadId</i> parameter is zero or specifies the identifier of a thread created by a different process, the <i>lpfn</i> parameter must point to a hook procedure in a DLL. Otherwise, <i>lpfn</i> can point to a hook procedure in the code associated with the current process. 
-
+A pointer to the hook procedure. If the <i>dwThreadId</i> parameter is zero or specifies the identifier of a thread created by a different process, the <i>lpfn</i> parameter must point to a hook procedure in a DLL. Otherwise, <i>lpfn</i> can point to a hook procedure in the code associated with the current process.
 
 ### -param hmod [in]
 
 Type: <b>HINSTANCE</b>
 
-A handle to the DLL containing the hook procedure pointed to by the <i>lpfn</i> parameter. The <i>hMod</i> parameter must be set to <b>NULL</b> if the <i>dwThreadId</i> parameter specifies a thread created by the current process and if the hook procedure is within the code associated with the current process. 
-
+A handle to the DLL containing the hook procedure pointed to by the <i>lpfn</i> parameter. The <i>hMod</i> parameter must be set to <b>NULL</b> if the <i>dwThreadId</i> parameter specifies a thread created by the current process and if the hook procedure is within the code associated with the current process.
 
 ### -param dwThreadId [in]
 
@@ -266,27 +268,18 @@ Type: <b>DWORD</b>
 
 The identifier of the thread with which the hook procedure is to be associated. For desktop apps, if this parameter is zero, the hook procedure is associated with all existing threads running in the same desktop as the calling thread. For Windows Store apps, see the Remarks section.
 
-
 ## -returns
 
-
-
-Type: <strong>Type: <b>HHOOK</b>
-</strong>
+Type: <b>HHOOK</b>
 
 If the function succeeds, the return value is the handle to the hook procedure. 
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 <b>SetWindowsHookEx</b> can be used to inject a DLL into another process. A 32-bit DLL cannot be injected into a 64-bit process, and a 64-bit DLL cannot be injected into a 32-bit process. If an application requires the use of hooks in other processes, it is required that a 32-bit application call <b>SetWindowsHookEx</b> to inject a 32-bit DLL into 32-bit processes, and a 64-bit application call <b>SetWindowsHookEx</b> to inject a 64-bit DLL into 64-bit processes. The 32-bit and 64-bit DLLs must have different names.
-		
+        
 
 Because hooks run in the context of an application, they must match the "bitness" of the application. If a 32-bit application installs a global hook on 64-bit Windows, the 32-bit hook is injected into each 32-bit process (the usual security boundaries apply). In a 64-bit process, the threads are still marked as "hooked." However, because a 32-bit application must run the hook code, the system executes the hook in the hooking app's context; specifically, on the thread that called <b>SetWindowsHookEx</b>. This means that the hooking application must continue to pump messages or it might block the normal functioning of the 64-bit processes.
  
@@ -301,9 +294,9 @@ To hook all applications on the desktop of a 64-bit Windows installation, instal
 
 An error may occur if the <i>hMod</i> parameter is <b>NULL</b> and the <i>dwThreadId</i> parameter is zero or specifies the identifier of a thread created by another process. 
 
-Calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a> function to chain to the next hook procedure is optional, but it is highly recommended; otherwise, other applications that have installed hooks will not receive hook notifications and may behave incorrectly as a result. You should call <b>CallNextHookEx</b> unless you absolutely need to prevent the notification from being seen by other applications. 
+Calling the <a href="/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a> function to chain to the next hook procedure is optional, but it is highly recommended; otherwise, other applications that have installed hooks will not receive hook notifications and may behave incorrectly as a result. You should call <b>CallNextHookEx</b> unless you absolutely need to prevent the notification from being seen by other applications. 
 
-Before terminating, an application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a> function to free system resources associated with the hook. 
+Before terminating, an application must call the <a href="/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a> function to free system resources associated with the hook. 
 
 The scope of a hook depends on the hook type. Some hooks can be set only with global scope; others can also be set for only a specific thread, as shown in the following table. 
 
@@ -404,30 +397,31 @@ This behavior is similar to what happens when there is an architecture mismatch 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-hooks">Installing and Releasing Hook Procedures</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and Releasing Hook Procedures</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines SetWindowsHookEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callnexthookex">CallNextHookEx</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
 
 
 
@@ -435,47 +429,47 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644978(v=vs.85)">DebugProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644980(v=vs.85)">ForegroundIdleProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)">GetMsgProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644981(v=vs.85)">GetMsgProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644982(v=vs.85)">JournalPlaybackProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)">JournalRecordProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644983(v=vs.85)">JournalRecordProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)">KeyboardProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644984(v=vs.85)">KeyboardProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)">LowLevelKeyboardProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
 
 
 
@@ -483,16 +477,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a>

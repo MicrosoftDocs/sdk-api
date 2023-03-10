@@ -2,15 +2,12 @@
 UID: NF:gdiplustypes.SizeF.Empty
 title: SizeF::Empty (gdiplustypes.h)
 description: The SizeF::Empty method determines whether a SizeF object is empty.
+helpviewer_keywords: ["Empty","Empty method [GDI+]","Empty method [GDI+]","SizeF class","SizeF class [GDI+]","Empty method","SizeF.Empty","SizeF::Empty","_gdiplus_CLASS_SizeF_Empty_","gdiplus._gdiplus_CLASS_SizeF_Empty_"]
 old-location: gdiplus\_gdiplus_CLASS_SizeF_Empty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefmethods\empty_16.htm
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [GDI+], Empty method [GDI+],SizeF class, SizeF class [GDI+],Empty method, SizeF.Empty, SizeF::Empty, _gdiplus_CLASS_SizeF_Empty_, gdiplus._gdiplus_CLASS_SizeF_Empty_
-f1_keywords:
-- gdiplustypes/SizeF.Empty
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- SizeF.Empty
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - SizeF::Empty
+ - gdiplustypes/SizeF::Empty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - SizeF.Empty
 ---
 
 # SizeF::Empty
@@ -49,38 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SizeF::Empty</b> method determines whether a 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object is empty.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object is empty.
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the 
 						<b>Width</b> and 
 						<b>Height</b> data members are both equal to zero, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -remarks
 
-
-
 A 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object is defined as empty if the 
+				<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object is defined as empty if the 
 				<b>Width</b> and 
 				<b>Height</b> data members are both equal to zero.
 
@@ -104,25 +91,14 @@ if(size.Empty())
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>

@@ -1,14 +1,12 @@
 ---
-UID: NF:directxmath.XMVECTORF32.operator __m128d
+UID: NF:directxmath.XMVECTORF32.operator-cast-__m128d
 title: XMVECTORF32::operator __m128d
 description: Returns the object implementing the current instance of XMVECTORF32 cast to a __m128d instance.
+tech.root: dxmath
+helpviewer_keywords: ["XMVECTORF32::operator __m128d"]
 ms.assetid: c5862815-f1d2-433d-b6cb-6635fd39603a
 ms.date: 05/13/2019
 ms.keywords: XMVECTORF32::operator __m128d
-f1_keywords:
-- directxmath/XMVECTORF32::operator __m128d
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,24 +27,32 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMVECTORF32::operator __m128d
+ - directxmath/XMVECTORF32::operator __m128d
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- XMVECTORF32::operator __m128d
+ - XMVECTORF32::operator __m128d
 ---
 
 # operator XMVECTORF32::operator __m128d
 
+
 ## -description
 
-Returns the object implementing the current instance of **XMVECTORF32** cast to a <a href="https://docs.microsoft.com/cpp/cpp/m128d">__m128d</a> instance.
+Returns the object implementing the current instance of **XMVECTORF32** cast to a <a href="/cpp/cpp/m128d">__m128d</a> instance.
 [Windows systems supporting SSE Only]
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
+
+
 
 ## -remarks
 
@@ -54,4 +60,4 @@ Returns the underlying implementation object for an instance of **XMVECTORF32** 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/cpp/cpp/m128d">__m128d</a>
+<a href="/cpp/cpp/m128d">__m128d</a>

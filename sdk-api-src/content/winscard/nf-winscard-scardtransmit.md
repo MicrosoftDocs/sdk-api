@@ -2,15 +2,12 @@
 UID: NF:winscard.SCardTransmit
 title: SCardTransmit function (winscard.h)
 description: Sends a service request to the smart card and expects to receive data back from the card.
+helpviewer_keywords: ["SCardTransmit","SCardTransmit function [Security]","_smart_scardtransmit","bCla","bIns","bP1","bP2","bP3","security.scardtransmit","winscard/SCardTransmit"]
 old-location: security\scardtransmit.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d0c16b67-34e7-4872-aa36-79dcad19093e
 ms.date: 12/05/2018
 ms.keywords: SCardTransmit, SCardTransmit function [Security], _smart_scardtransmit, bCla, bIns, bP1,bP2, bP3, security.scardtransmit, winscard/SCardTransmit
-f1_keywords:
-- winscard/SCardTransmit
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winscard.dll
-- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
-api_name:
-- SCardTransmit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardTransmit
+ - winscard/SCardTransmit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winscard.dll
+ - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+api_name:
+ - SCardTransmit
 ---
 
 # SCardTransmit function
@@ -49,30 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SCardTransmit</b> function sends a service request to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and expects to receive data back from the card.
-
+The <b>SCardTransmit</b> function sends a service request to the <a href="/windows/desktop/SecGloss/s-gly">smart card</a> and expects to receive data back from the card.
 
 ## -parameters
-
-
-
 
 ### -param hCard [in]
 
 A reference value returned from 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> function.
-
+the <a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> function.
 
 ### -param pioSendPci [in]
 
-A pointer to the protocol header structure for the instruction. This buffer is in the format of an <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/scard-io-request">SCARD_IO_REQUEST</a> structure, followed by the specific protocol control information (PCI). 
+A pointer to the protocol header structure for the instruction. This buffer is in the format of an <a href="/windows/desktop/SecAuthN/scard-io-request">SCARD_IO_REQUEST</a> structure, followed by the specific protocol control information (PCI). 
 
 
 
 
-For the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=1</a>, and Raw protocols, the PCI structure is constant. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card subsystem</a> supplies a global T=0, T=1, or Raw PCI structure, which you can reference by using the symbols SCARD_PCI_T0, SCARD_PCI_T1, and SCARD_PCI_RAW respectively.
-
+For the <a href="/windows/desktop/SecGloss/t-gly">T=0</a>, <a href="/windows/desktop/SecGloss/t-gly">T=1</a>, and Raw protocols, the PCI structure is constant. The <a href="/windows/desktop/SecGloss/s-gly">smart card subsystem</a> supplies a global T=0, T=1, or Raw PCI structure, which you can reference by using the symbols SCARD_PCI_T0, SCARD_PCI_T1, and SCARD_PCI_RAW respectively.
 
 ### -param pbSendBuffer [in]
 
@@ -145,8 +140,6 @@ The number of data bytes to be transmitted during the command, per ISO 7816-4, S
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cbSendLength [in]
 
@@ -157,11 +150,9 @@ The length, in bytes, of the <i>pbSendBuffer</i> parameter.
 
 For T=0, in the special case where no data is sent to the card and no data expected in return, this length must reflect that the <b>bP3</b> member is not being sent; the length should be <code>sizeof(CmdBytes)  - sizeof(BYTE)</code>.
 
-
 ### -param pioRecvPci [in, out, optional]
 
 Pointer to the protocol header structure for the instruction, followed by a buffer in which to receive any returned protocol control information (PCI) specific to the protocol in use. This parameter can be <b>NULL</b> if no  PCI is returned.
-
 
 ### -param pbRecvBuffer [out]
 
@@ -172,7 +163,6 @@ Pointer to any data returned from the card.
 
 For T=0, the data is immediately followed by the SW1 and SW2 status bytes. If no data is returned from the card, then this buffer will only contain the SW1 and SW2 status bytes.
 
-
 ### -param pcbRecvLength [in, out]
 
 Supplies the length, in bytes, of the <i>pbRecvBuffer</i> parameter and receives the actual number of bytes received from the smart card. 
@@ -182,27 +172,19 @@ This value cannot be SCARD_AUTOALLOCATE because <b>SCardTransmit</b> does not su
 
 For T=0, the receive buffer must be at least two bytes long to receive the SW1 and SW2 status bytes.
 
-
 ## -returns
 
-
-
-If the function successfully sends a service request to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>, the return value is SCARD_S_SUCCESS.
+If the function successfully sends a service request to the <a href="/windows/desktop/SecGloss/s-gly">smart card</a>, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
-
-
-
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 ## -remarks
 
+The <b>SCardTransmit</b> function is a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
+<a href="/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
 
-
-The <b>SCardTransmit</b> function is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> access function. For information about other access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-and-reader-access-functions">Smart Card and Reader Access Functions</a>.
-
-For the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">T=0 protocol</a>, the data received back are the SW1 and SW2 status codes, possibly preceded by response data. The following paragraphs provide information about the send and receive buffers used to transfer data and issue a command.
+For the <a href="/windows/desktop/SecGloss/t-gly">T=0 protocol</a>, the data received back are the SW1 and SW2 status codes, possibly preceded by response data. The following paragraphs provide information about the send and receive buffers used to transfer data and issue a command.
 
 
 
@@ -235,21 +217,10 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecAuthN/scard-io-request">SCARD_IO_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/scard-io-request">SCARD_IO_REQUEST</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>

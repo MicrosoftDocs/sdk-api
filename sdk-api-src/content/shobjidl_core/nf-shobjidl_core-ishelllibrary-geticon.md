@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellLibrary.GetIcon
 title: IShellLibrary::GetIcon (shobjidl_core.h)
 description: Gets the default icon for the library.
+helpviewer_keywords: ["GetIcon","GetIcon method [Windows Shell]","GetIcon method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetIcon method","IShellLibrary.GetIcon","IShellLibrary::GetIcon","_shell_IShellLibrary_GetIcon","shell.IShellLibrary_GetIcon","shobjidl_core/IShellLibrary::GetIcon"]
 old-location: shell\IShellLibrary_GetIcon.htm
 tech.root: shell
 ms.assetid: e39bd663-3f2d-4b72-9882-1313ee457844
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Windows Shell], GetIcon method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetIcon method, IShellLibrary.GetIcon, IShellLibrary::GetIcon, _shell_IShellLibrary_GetIcon, shell.IShellLibrary_GetIcon, shobjidl_core/IShellLibrary::GetIcon
-f1_keywords:
-- shobjidl_core/IShellLibrary.GetIcon
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellLibrary.GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLibrary::GetIcon
+ - shobjidl_core/IShellLibrary::GetIcon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellLibrary.GetIcon
 ---
 
 # IShellLibrary::GetIcon
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the default icon for the library.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszIcon [out]
 
@@ -81,48 +78,29 @@ A null-terminated Unicode string that describes the location of the default icon
 <td>If the number that follows the comma is negative, the absolute value of the number is the resource ID of the icon in the module file.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-For additional information on parsing the string returned in <i>ppszIcon</i>, see <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa">PathParseIconLocation</a>.
-
-
-
+For additional information on parsing the string returned in <i>ppszIcon</i>, see <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa">PathParseIconLocation</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
+<a href="/windows/desktop/shell/library-schema-entry">Library Description Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/library-schema-entry">Library Description Schema</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa">PathParseIconLocation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa">PathParseIconLocation</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>

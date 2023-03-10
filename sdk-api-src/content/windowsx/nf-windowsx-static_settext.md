@@ -2,15 +2,12 @@
 UID: NF:windowsx.Static_SetText
 title: Static_SetText macro (windowsx.h)
 description: Sets the text of a static control.
+helpviewer_keywords: ["Static_SetText","Static_SetText macro [Windows Controls]","_win32_Static_SetText","_win32_Static_SetText_cpp","controls.Static_SetText","controls._win32_Static_SetText","windowsx/Static_SetText"]
 old-location: controls\Static_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_settext.htm
 ms.date: 12/05/2018
 ms.keywords: Static_SetText, Static_SetText macro [Windows Controls], _win32_Static_SetText, _win32_Static_SetText_cpp, controls.Static_SetText, controls._win32_Static_SetText, windowsx/Static_SetText
-f1_keywords:
-- windowsx/Static_SetText
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- Static_SetText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Static_SetText
+ - windowsx/Static_SetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - Static_SetText
 ---
 
 # Static_SetText macro
@@ -48,34 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the text of a static control.
-
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
-
 ### -param lpsz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a null-terminated string to be used as the static control text.
 
-
 ## -remarks
 
-
-
-The macro expands to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta">SetWindowText</a>.	
-
-
-
+The macro expands to a call to <a href="/windows/desktop/api/winuser/nf-winuser-setwindowtexta">SetWindowText</a>.

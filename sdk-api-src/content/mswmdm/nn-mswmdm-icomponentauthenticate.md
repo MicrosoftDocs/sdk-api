@@ -2,15 +2,12 @@
 UID: NN:mswmdm.IComponentAuthenticate
 title: IComponentAuthenticate (mswmdm.h)
 description: The IComponentAuthenticate interface provides secure, encrypted communication between modules of Windows Media Device Manager.
+helpviewer_keywords: ["IComponentAuthenticate","IComponentAuthenticate interface [windows Media Device Manager]","IComponentAuthenticate interface [windows Media Device Manager]","described","IComponentAuthenticateInterface","mswmdm/IComponentAuthenticate","wmdm.icomponentauthenticate"]
 old-location: wmdm\icomponentauthenticate.htm
 tech.root: WMDM
 ms.assetid: 5da66dc2-825d-4332-b1cb-2b9d0fabb445
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate, IComponentAuthenticate interface [windows Media Device Manager], IComponentAuthenticate interface [windows Media Device Manager],described, IComponentAuthenticateInterface, mswmdm/IComponentAuthenticate, wmdm.icomponentauthenticate
-f1_keywords:
-- mswmdm/IComponentAuthenticate
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mswmdm.h
-api_name:
-- IComponentAuthenticate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentAuthenticate
+ - mswmdm/IComponentAuthenticate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mswmdm.h
+api_name:
+ - IComponentAuthenticate
 ---
 
 # IComponentAuthenticate interface
@@ -48,72 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>IComponentAuthenticate</b> interface provides secure, encrypted communication between modules of Windows Media Device Manager. It is implemented by a service provider and created and used by an application or plug-in. To get this interface, the application calls <b>CoCreateInstance</b> (__uuidof(MediaDevMgr)).
 
-The application creates and passes this interface to <a href="https://docs.microsoft.com/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a>, but never calls any methods on this interface.
+The application creates and passes this interface to <a href="/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a>, but never calls any methods on this interface.
 
-The service provider implements the methods in this interface, and calls them on a private <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
-
-
-
+The service provider implements the methods in this interface, and calls them on a private <a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentAuthenticate</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponentAuthenticate</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IComponentAuthenticate</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth">SACAuth</a>
-</td>
-<td align="left" width="63%">
-Establishes a secure authenticated channel between components.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols">SACGetProtocols</a>
-</td>
-<td align="left" width="63%">
-Discovers the authentication protocols supported by another component.
-
-</td>
-</tr>
-</table> 
-
+The <b>IComponentAuthenticate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponentAuthenticate</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
+<a href="/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers-and-applications">Interfaces for Service Providers and Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers-and-applications">Interfaces for Service Providers and Applications</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

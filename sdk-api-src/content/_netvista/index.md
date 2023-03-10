@@ -4,7 +4,7 @@ title: Network Drivers, Windows Vista and Later
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Network Drivers, Windows Vista and Later
@@ -20,5 +20,4 @@ To develop Network Drivers, Windows Vista and Later, you need these headers:
  * [ndkinfo.h](../ndkinfo/index.md)
 
 For programming guidance for this technology, see:
-* [Network Drivers, Windows Vista and Later](https://docs.microsoft.com/windows-hardware/drivers/network/)
-
+* [Network Drivers, Windows Vista and Later](/windows-hardware/drivers/network/)

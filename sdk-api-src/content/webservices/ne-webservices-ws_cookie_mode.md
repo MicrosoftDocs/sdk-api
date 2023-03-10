@@ -1,16 +1,13 @@
 ---
-UID: NE:webservices.__unnamed_enum_26
+UID: NE:webservices.WS_COOKIE_MODE
 title: WS_COOKIE_MODE (webservices.h)
 description: An enumeration used to specify how to handle HTTP cookies.
+helpviewer_keywords: ["WS_AUTO_COOKIE_MODE","WS_COOKIE_MODE","WS_COOKIE_MODE enumeration [Web Services for Windows]","WS_MANUAL_COOKIE_MODE","webservices/WS_AUTO_COOKIE_MODE","webservices/WS_COOKIE_MODE","webservices/WS_MANUAL_COOKIE_MODE","wsw.ws_cookie_mode"]
 old-location: wsw\ws_cookie_mode.htm
 tech.root: wsw
 ms.assetid: d1430120-efaa-4af8-a669-720387c617b2
 ms.date: 12/05/2018
 ms.keywords: WS_AUTO_COOKIE_MODE, WS_COOKIE_MODE, WS_COOKIE_MODE enumeration [Web Services for Windows], WS_MANUAL_COOKIE_MODE, webservices/WS_AUTO_COOKIE_MODE, webservices/WS_COOKIE_MODE, webservices/WS_MANUAL_COOKIE_MODE, wsw.ws_cookie_mode
-f1_keywords:
-- webservices/WS_COOKIE_MODE
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_COOKIE_MODE
 targetos: Windows
 req.typenames: WS_COOKIE_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_COOKIE_MODE
+ - webservices/WS_COOKIE_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_COOKIE_MODE
 ---
 
 # WS_COOKIE_MODE enumeration
@@ -48,17 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 An enumeration used to specify how to handle HTTP cookies.
-            
-
 
 ## -enum-fields
 
-
-
-
-### -field WS_MANUAL_COOKIE_MODE
+### -field WS_MANUAL_COOKIE_MODE:1
 
 In this mode, cookies are not processed by the client channel.
                 
@@ -68,11 +64,9 @@ If a server sends a cookie to the client, the client
                     the cookie value in subsequent requests).
                 
 
-An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a>feature to handle cookies manually, if desired.
-                
+An application can use the <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_header_mapping">WS_HTTP_HEADER_MAPPING</a> feature to handle cookies manually, if desired.
 
-
-### -field WS_AUTO_COOKIE_MODE
+### -field WS_AUTO_COOKIE_MODE:2
 
 In this mode, cookies are automatically tracked by
                     the channel.
@@ -81,5 +75,4 @@ In this mode, cookies are automatically tracked by
 If a server sends a cookie to the client,
                     the channel will automatically track the cookie and
                     will include the cookie in subsequent requests.
-                
 

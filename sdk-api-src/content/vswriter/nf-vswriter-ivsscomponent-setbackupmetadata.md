@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.SetBackupMetadata
 title: IVssComponent::SetBackupMetadata (vswriter.h)
 description: The SetBackupMetadata method sets backup metadata with the component.
+helpviewer_keywords: ["IVssComponent interface [VSS]","SetBackupMetadata method","IVssComponent.SetBackupMetadata","IVssComponent::SetBackupMetadata","SetBackupMetadata","SetBackupMetadata method [VSS]","SetBackupMetadata method [VSS]","IVssComponent interface","_win32_ivsscomponent_setbackupmetadata","base.ivsscomponent_setbackupmetadata","vswriter/IVssComponent::SetBackupMetadata"]
 old-location: base\ivsscomponent_setbackupmetadata.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 96d0a581-87a5-4f97-b23f-08e90a805de1
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],SetBackupMetadata method, IVssComponent.SetBackupMetadata, IVssComponent::SetBackupMetadata, SetBackupMetadata, SetBackupMetadata method [VSS], SetBackupMetadata method [VSS],IVssComponent interface, _win32_ivsscomponent_setbackupmetadata, base.ivsscomponent_setbackupmetadata, vswriter/IVssComponent::SetBackupMetadata
-f1_keywords:
-- vswriter/IVssComponent.SetBackupMetadata
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.SetBackupMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::SetBackupMetadata
+ - vswriter/IVssComponent::SetBackupMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.SetBackupMetadata
 ---
 
 # IVssComponent::SetBackupMetadata
 
 
 ## -description
-
 
 The 
     <b>SetBackupMetadata</b> method sets backup
@@ -58,24 +59,16 @@ The
 A writer can call this method only during a backup operation.
 
 This method cannot be called while handling a 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupComplete</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
-   
-
+    <a href="/windows/desktop/VSS/vssgloss-b">BackupComplete</a> (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>) or 
+    <a href="/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>) event.
 
 ## -parameters
-
-
-
 
 ### -param wszData [in]
 
 A <b>NULL</b>-terminated wide character string that contains the backup metadata.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
      
@@ -145,14 +138,8 @@ This method was not called by a writer or, if called by a writer, it either was 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>SetBackupMetadata</b> sets
     private, writer-specific metadata describing a backup operation.
@@ -160,24 +147,14 @@ This method was not called by a writer or, if called by a writer, it either was 
 
 The format need not conform to any VSS metadata specification.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">IVssComponent::GetBackupMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">IVssComponent::GetBackupMetadata</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>

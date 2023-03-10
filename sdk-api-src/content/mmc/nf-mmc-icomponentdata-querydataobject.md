@@ -2,15 +2,12 @@
 UID: NF:mmc.IComponentData.QueryDataObject
 title: IComponentData::QueryDataObject (mmc.h)
 description: The IComponentData::QueryDataObject method returns a data object that can be used to retrieve the context information for the specified cookie.
+helpviewer_keywords: ["CCT_RESULT = 0x8001","CCT_SCOPE = 0x8000","CCT_SNAPIN_MANAGER = 0x8002","CCT_UNINITIALIZED = 0xFFFF","IComponentData interface [MMC]","QueryDataObject method","IComponentData.QueryDataObject","IComponentData::QueryDataObject","QueryDataObject","QueryDataObject method [MMC]","QueryDataObject method [MMC]","IComponentData interface","_slate_icomponentdata_querydataobject","mmc.icomponentdata_querydataobject","mmc/IComponentData::QueryDataObject"]
 old-location: mmc\icomponentdata_querydataobject.htm
 tech.root: mmc
 ms.assetid: 567d068e-5447-438c-9719-93227807263a
 ms.date: 12/05/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, CCT_SNAPIN_MANAGER = 0x8002, CCT_UNINITIALIZED = 0xFFFF, IComponentData interface [MMC],QueryDataObject method, IComponentData.QueryDataObject, IComponentData::QueryDataObject, QueryDataObject, QueryDataObject method [MMC], QueryDataObject method [MMC],IComponentData interface, _slate_icomponentdata_querydataobject, mmc.icomponentdata_querydataobject, mmc/IComponentData::QueryDataObject
-f1_keywords:
-- mmc/IComponentData.QueryDataObject
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponentData.QueryDataObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponentData::QueryDataObject
+ - mmc/IComponentData::QueryDataObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponentData.QueryDataObject
 ---
 
 # IComponentData::QueryDataObject
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IComponentData::QueryDataObject</b> method returns a data object that can be used to retrieve the context information for the specified cookie.
 
-
 ## -parameters
-
-
-
 
 ### -param cookie [in]
 
 A value that specifies the unique identifier for which the data object is required.
-
 
 ### -param type [in]
 
@@ -91,57 +87,38 @@ Data object for the Snap-In Manager context.
 Data object has an invalid type.
 
 These constants are members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-data_object_types">DATA_OBJECT_TYPES</a> enumeration.
-
+<a href="/windows/desktop/api/mmc/ne-mmc-data_object_types">DATA_OBJECT_TYPES</a> enumeration.
 
 ### -param ppDataObject [out]
 
 A pointer to the address of the returned data object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
 
-
-
 You can pass these data objects to the same snap-in or to extension snap-ins that require them. Some of the MMC interfaces that can use this data object are 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendpropertysheet2">IExtendPropertySheet2</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>.
-
-
-
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>, 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>, 
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>, 
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>, 
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendpropertysheet2">IExtendPropertySheet2</a>, and 
+<a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

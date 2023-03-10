@@ -2,15 +2,12 @@
 UID: NF:winnt.LANGIDFROMLCID
 title: LANGIDFROMLCID macro (winnt.h)
 description: Retrieves a language identifier from a locale identifier.
+helpviewer_keywords: ["LANGIDFROMLCID","LANGIDFROMLCID macro [Internationalization for Windows Applications]","_win32_LANGIDFROMLCID","intl.langidfromlcid","winnt/LANGIDFROMLCID"]
 old-location: intl\langidfromlcid.htm
 tech.root: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084
 ms.date: 12/05/2018
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
-f1_keywords:
-- winnt/LANGIDFROMLCID
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- LANGIDFROMLCID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LANGIDFROMLCID
+ - winnt/LANGIDFROMLCID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - LANGIDFROMLCID
 ---
 
 # LANGIDFROMLCID macro
@@ -48,71 +50,59 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> from a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
-
+Retrieves a <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> from a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a>.
 
 ## -parameters
 
-
-
-
 ### -param lcid
 
-Locale identifier. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+Locale identifier. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 <b>Windows Vista:</b> The following custom locale identifiers are also supported.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-primarylangid">PRIMARYLANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-primarylangid">PRIMARYLANGID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-sublangid">SUBLANGID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/nf-winnt-sublangid">SUBLANGID</a>

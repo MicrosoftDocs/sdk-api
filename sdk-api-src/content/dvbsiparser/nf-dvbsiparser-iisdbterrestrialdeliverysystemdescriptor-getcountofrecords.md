@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords (dvbsiparser.h)
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords","IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords","mstv.iisdbterrestrialdeliverysystemdescriptor_getcountofrecords"]
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: d13cadd3-561f-4d4e-8260-7a1d56dfa578
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords, IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, mstv.iisdbterrestrialdeliverysystemdescriptor_getcountofrecords
-f1_keywords:
-- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords
+ - dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
 ---
 
 # IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the number of records.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor">IIsdbTerrestrialDeliverySystemDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor">IIsdbTerrestrialDeliverySystemDescriptor</a>

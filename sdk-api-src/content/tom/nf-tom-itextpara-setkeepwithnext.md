@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.SetKeepWithNext
 title: ITextPara::SetKeepWithNext (tom.h)
 description: Controls whether page breaks are allowed between the paragraphs in a range.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetKeepWithNext method","ITextPara.SetKeepWithNext","ITextPara::SetKeepWithNext","SetKeepWithNext","SetKeepWithNext method [Windows Controls]","SetKeepWithNext method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetKeepWithNext","_win32_ITextPara_SetKeepWithNext_cpp","controls.ITextPara_SetKeepWithNext","controls._win32_ITextPara_SetKeepWithNext","tom/ITextPara::SetKeepWithNext"]
 old-location: controls\ITextPara_SetKeepWithNext.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkeepwithnext.htm
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetKeepWithNext method, ITextPara.SetKeepWithNext, ITextPara::SetKeepWithNext, SetKeepWithNext, SetKeepWithNext method [Windows Controls], SetKeepWithNext method [Windows Controls],ITextPara interface, _win32_ITextPara_SetKeepWithNext, _win32_ITextPara_SetKeepWithNext_cpp, controls.ITextPara_SetKeepWithNext, controls._win32_ITextPara_SetKeepWithNext, tom/ITextPara::SetKeepWithNext
-f1_keywords:
-- tom/ITextPara.SetKeepWithNext
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.SetKeepWithNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::SetKeepWithNext
+ - tom/ITextPara::SetKeepWithNext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.SetKeepWithNext
 ---
 
 # ITextPara::SetKeepWithNext
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls whether page breaks are allowed between the paragraphs in a range.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
@@ -102,16 +99,12 @@ The property is undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetKeepWithNext</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::SetKeepWithNext</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -174,34 +167,22 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This property corresponds to the PFE_KEEPNEXT effect described in the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a> structure. 
-
-
-
+This property corresponds to the PFE_KEEPNEXT effect described in the <a href="/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a> structure.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a>
 
 
 
@@ -209,8 +190,4 @@ This property corresponds to the PFE_KEEPNEXT effect described in the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

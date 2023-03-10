@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertGetSubjectCertificateFromStore
 title: CertGetSubjectCertificateFromStore function (wincrypt.h)
 description: Returns from a certificate store a subject certificate context uniquely identified by its issuer and serial number.
+helpviewer_keywords: ["CertGetSubjectCertificateFromStore","CertGetSubjectCertificateFromStore function [Security]","_crypto2_certgetsubjectcertificatefromstore","security.certgetsubjectcertificatefromstore","wincrypt/CertGetSubjectCertificateFromStore"]
 old-location: security\certgetsubjectcertificatefromstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 61d73501-91b1-4498-b1a3-17392360c700
 ms.date: 12/05/2018
 ms.keywords: CertGetSubjectCertificateFromStore, CertGetSubjectCertificateFromStore function [Security], _crypto2_certgetsubjectcertificatefromstore, security.certgetsubjectcertificatefromstore, wincrypt/CertGetSubjectCertificateFromStore
-f1_keywords:
-- wincrypt/CertGetSubjectCertificateFromStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetSubjectCertificateFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetSubjectCertificateFromStore
+ - wincrypt/CertGetSubjectCertificateFromStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetSubjectCertificateFromStore
 ---
 
 # CertGetSubjectCertificateFromStore function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertGetSubjectCertificateFromStore</b> function returns from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> a subject certificate context uniquely identified by its issuer and serial number.
-
+The <b>CertGetSubjectCertificateFromStore</b> function returns from a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> a subject certificate context uniquely identified by its issuer and serial number.
 
 ## -parameters
 
-
-
-
 ### -param hCertStore [in]
 
-A handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>.
-
+A handle of a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>.
 
 ### -param dwCertEncodingType [in]
 
-The type of encoding used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+The type of encoding used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -73,26 +69,21 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param pCertId [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure. Only the <b>Issuer</b> and <b>SerialNumber</b> members are used.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure. Only the <b>Issuer</b> and <b>SerialNumber</b> members are used.
 
 ## -returns
 
-
-
 If the function succeeds, the function returns a pointer to a read-only 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. The <b>CERT_CONTEXT</b> must be freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. The <b>CERT_CONTEXT</b> must be freed by calling 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
-The returned certificate might not be valid. Usually, it is verified when getting its issuer certificate (<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>).
+The returned certificate might not be valid. Usually, it is verified when getting its issuer certificate (<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>).
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One possible error code is the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One possible error code is the following.
 
 <table>
 <tr>
@@ -111,25 +102,20 @@ The subject certificate was not found in the store.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> can be called to make a duplicate certificate.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> can be called to make a duplicate certificate.
 
 
 #### Examples
 
 The following example shows retrieving a subject's certificate context, uniquely identified by its issuer and serial number, from the certificate store. For an example that includes the complete context for this example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-signing-encoding-decoding-and-verifying-a-message">Example C Program: Signing, Encoding, Decoding, and Verifying a Message</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-signing-encoding-decoding-and-verifying-a-message">Example C Program: Signing, Encoding, Decoding, and Verifying a Message</a>.
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 #include &lt;windows.h&gt;
 #include &lt;stdio.h&gt;
 #include &lt;Wincrypt.h&gt;
@@ -250,29 +236,22 @@ if(hStoreHandle)
 if(hMsg)
    CryptMsgClose(hMsg);
 
-}</code></pre>
-
+}
+```
 
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>

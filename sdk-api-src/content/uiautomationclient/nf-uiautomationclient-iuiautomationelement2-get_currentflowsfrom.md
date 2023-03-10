@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CurrentFlowsFrom
 title: IUIAutomationElement2::get_CurrentFlowsFrom (uiautomationclient.h)
 description: Retrieves an array of elements that indicates the reading order before the current element.
+helpviewer_keywords: ["CurrentFlowsFrom property [Windows Accessibility]","CurrentFlowsFrom property [Windows Accessibility]","IUIAutomationElement2 interface","IUIAutomationElement2 interface [Windows Accessibility]","CurrentFlowsFrom property","IUIAutomationElement2.CurrentFlowsFrom","IUIAutomationElement2.get_CurrentFlowsFrom","IUIAutomationElement2::CurrentFlowsFrom","IUIAutomationElement2::get_CurrentFlowsFrom","IUIAutomationElement2::put_CurrentFlowsFrom","get_CurrentFlowsFrom","uiautomationclient/IUIAutomationElement2::CurrentFlowsFrom","uiautomationclient/IUIAutomationElement2::get_CurrentFlowsFrom","uiautomationclient/IUIAutomationElement2::put_CurrentFlowsFrom","winauto.uiauto_iuiautomationelement2_currentflowsfrom"]
 old-location: winauto\uiauto_iuiautomationelement2_currentflowsfrom.htm
 tech.root: WinAuto
 ms.assetid: E3991700-444C-4673-96EE-E6112FBD7547
 ms.date: 12/05/2018
 ms.keywords: CurrentFlowsFrom property [Windows Accessibility], CurrentFlowsFrom property [Windows Accessibility],IUIAutomationElement2 interface, IUIAutomationElement2 interface [Windows Accessibility],CurrentFlowsFrom property, IUIAutomationElement2.CurrentFlowsFrom, IUIAutomationElement2.get_CurrentFlowsFrom, IUIAutomationElement2::CurrentFlowsFrom, IUIAutomationElement2::get_CurrentFlowsFrom, IUIAutomationElement2::put_CurrentFlowsFrom, get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::get_CurrentFlowsFrom, uiautomationclient/IUIAutomationElement2::put_CurrentFlowsFrom, winauto.uiauto_iuiautomationelement2_currentflowsfrom
-f1_keywords:
-- uiautomationclient/IUIAutomationElement2.CurrentFlowsFrom
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement2.CurrentFlowsFrom
-- IUIAutomationElement2.get_CurrentFlowsFrom
-- IUIAutomationElement2.put_CurrentFlowsFrom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement2::get_CurrentFlowsFrom
+ - uiautomationclient/IUIAutomationElement2::get_CurrentFlowsFrom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement2.CurrentFlowsFrom
+ - IUIAutomationElement2.get_CurrentFlowsFrom
+ - IUIAutomationElement2.put_CurrentFlowsFrom
 ---
 
 # IUIAutomationElement2::get_CurrentFlowsFrom
@@ -50,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an array of elements that indicates the reading order before the current element.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-This property maps to the Microsoft Accessible Rich Internet Applications (ARIA) <a href="https://msdn.microsoft.com/library/Hh969192">x-ms-aria-flowfrom</a> property.
-
-
-
+This property maps to the Microsoft Accessible Rich Internet Applications (ARIA) <a href="/previous-versions/hh969192(v=vs.85)">x-ms-aria-flowfrom</a> property.
 
 ## -see-also
 
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_cachedflowsfrom">CachedFlowsFrom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement2-get_cachedflowsfrom">CachedFlowsFrom</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>

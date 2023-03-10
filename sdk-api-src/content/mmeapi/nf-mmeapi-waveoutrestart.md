@@ -2,15 +2,12 @@
 UID: NF:mmeapi.waveOutRestart
 title: waveOutRestart function (mmeapi.h)
 description: The waveOutRestart function resumes playback on a paused waveform-audio output device.
+helpviewer_keywords: ["_win32_waveOutRestart","mmeapi/waveOutRestart","multimedia.waveoutrestart","waveOutRestart","waveOutRestart function [Windows Multimedia]"]
 old-location: multimedia\waveoutrestart.htm
 tech.root: Multimedia
 ms.assetid: ca2a1e7c-2399-47d4-8804-41a39f69ec12
 ms.date: 12/05/2018
 ms.keywords: _win32_waveOutRestart, mmeapi/waveOutRestart, multimedia.waveoutrestart, waveOutRestart, waveOutRestart function [Windows Multimedia]
-f1_keywords:
-- mmeapi/waveOutRestart
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- waveOutRestart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - waveOutRestart
+ - mmeapi/waveOutRestart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - waveOutRestart
 ---
 
 # waveOutRestart function
@@ -50,26 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>waveOutRestart</b> function resumes playback on a paused waveform-audio output device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwo
 
 Handle to the waveform-audio output device.
 
-
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -123,31 +114,15 @@ Specified device is synchronous and does not support pausing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Calling this function when the output is not paused has no effect, and the function returns zero.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

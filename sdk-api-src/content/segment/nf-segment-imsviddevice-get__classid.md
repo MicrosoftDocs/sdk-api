@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidDevice.get__ClassID
 title: IMSVidDevice::get__ClassID (segment.h)
 description: The get__ClassID method retrieves the device's class identifier (CLSID) as a GUID.
+helpviewer_keywords: ["IMSVidDevice interface [Microsoft TV Technologies]","get__ClassID method","IMSVidDevice.get__ClassID","IMSVidDevice::get__ClassID","IMSVidDeviceget__ClassID","get__ClassID","get__ClassID method [Microsoft TV Technologies]","get__ClassID method [Microsoft TV Technologies]","IMSVidDevice interface","mstv.imsviddevice_get__classid","segment/IMSVidDevice::get__ClassID"]
 old-location: mstv\imsviddevice_get__classid.htm
 tech.root: mstv
 ms.assetid: 80890372-2d92-4a3a-963f-2a6ca6632c52
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get__ClassID method, IMSVidDevice.get__ClassID, IMSVidDevice::get__ClassID, IMSVidDeviceget__ClassID, get__ClassID, get__ClassID method [Microsoft TV Technologies], get__ClassID method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get__classid, segment/IMSVidDevice::get__ClassID
-f1_keywords:
-- segment/IMSVidDevice.get__ClassID
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidDevice.get__ClassID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidDevice::get__ClassID
+ - segment/IMSVidDevice::get__ClassID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidDevice.get__ClassID
 ---
 
 # IMSVidDevice::get__ClassID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get__ClassID</b> method retrieves the device's class identifier (CLSID) as a <b>GUID</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param Clsid [out]
 
 Pointer to a variable of type <b>GUID</b> that receives the CLSID.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -96,18 +90,7 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>

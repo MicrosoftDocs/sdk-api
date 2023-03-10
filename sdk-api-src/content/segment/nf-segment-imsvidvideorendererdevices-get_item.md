@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidVideoRendererDevices.get_Item
 title: IMSVidVideoRendererDevices::get_Item (segment.h)
 description: The get_Item method retrieves the specified item from the collection.
+helpviewer_keywords: ["IMSVidVideoRendererDevices interface [Microsoft TV Technologies]","get_Item method","IMSVidVideoRendererDevices.get_Item","IMSVidVideoRendererDevices::get_Item","IMSVidVideoRendererDevicesget_Item","get_Item","get_Item method [Microsoft TV Technologies]","get_Item method [Microsoft TV Technologies]","IMSVidVideoRendererDevices interface","mstv.imsvidvideorendererdevices_get_item","segment/IMSVidVideoRendererDevices::get_Item"]
 old-location: mstv\imsvidvideorendererdevices_get_item.htm
 tech.root: mstv
 ms.assetid: 2cb169d2-f6b2-4156-aa11-f9b47437b731
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Item method, IMSVidVideoRendererDevices.get_Item, IMSVidVideoRendererDevices::get_Item, IMSVidVideoRendererDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_item, segment/IMSVidVideoRendererDevices::get_Item
-f1_keywords:
-- segment/IMSVidVideoRendererDevices.get_Item
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidVideoRendererDevices.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidVideoRendererDevices::get_Item
+ - segment/IMSVidVideoRendererDevices::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidVideoRendererDevices.get_Item
 ---
 
 # IMSVidVideoRendererDevices::get_Item
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Item</b> method retrieves the specified item from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param v [in]
 
 <b>VARIANT</b> that specifies the index of the item to retrieve.
 
-
 ### -param pDB [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface pointer. The caller must release the interface.
-
+Receives an <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface pointer. The caller must release the interface.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -134,27 +127,11 @@ Unexpected error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get_count">IMSVidVideoRendererDevices::get_Count</a> - 1.
-
-
-
+The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get_count">IMSVidVideoRendererDevices::get_Count</a> - 1.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:shdeprecated.IBrowserService.SetFlags
 title: IBrowserService::SetFlags (shdeprecated.h)
 description: Deprecated. Sets flags that indicate browser status.
+helpviewer_keywords: ["BSF_CANMAXIMIZE","BSF_DELEGATEDNAVIGATION","BSF_DONTSHOWNAVCANCELPAGE","BSF_FEEDNAVIGATION","BSF_FEEDSUBSCRIBED","BSF_HTMLNAVCANCELED","BSF_MERGEDMENUS","BSF_NAVNOHISTORY","BSF_NOLOCALFILEWARNING","BSF_REGISTERASDROPTARGET","BSF_RESIZABLE","BSF_SETNAVIGATABLECODEPAGE","BSF_THEATERMODE","BSF_TOPBROWSER","BSF_TRUSTEDFORACTIVEX","BSF_UISETBYAUTOMATION","IBrowserService interface [Windows Shell]","SetFlags method","IBrowserService.SetFlags","IBrowserService::SetFlags","SetFlags","SetFlags method [Windows Shell]","SetFlags method [Windows Shell]","IBrowserService interface","shdeprecated/IBrowserService::SetFlags","shell.IBrowserService_SetFlags","zone_IBrowserService_SetFlags"]
 old-location: shell\IBrowserService_SetFlags.htm
 tech.root: shell
 ms.assetid: 696d4350-95f9-4d69-bb4b-92f4c26b3f65
 ms.date: 12/05/2018
 ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, IBrowserService interface [Windows Shell],SetFlags method, IBrowserService.SetFlags, IBrowserService::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetFlags, shell.IBrowserService_SetFlags, zone_IBrowserService_SetFlags
-f1_keywords:
-- shdeprecated/IBrowserService.SetFlags
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService::SetFlags
+ - shdeprecated/IBrowserService::SetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService.SetFlags
 ---
 
 # IBrowserService::SetFlags
@@ -49,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Sets flags that indicate browser status.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags
 
 Type: <b>DWORD</b>
 
 A bitmask used in conjunction with the flags indicated in <i>dwFlagMask</i>. For each <i>dwFlagMask</i> bit, the corresponding bit in this value sets (1) or disables (0) that state.
-
 
 ### -param dwFlagMask
 
@@ -167,14 +163,9 @@ Trust ActiveX objects.
 
 0x00100000. Set on navigation to a subscribed feed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

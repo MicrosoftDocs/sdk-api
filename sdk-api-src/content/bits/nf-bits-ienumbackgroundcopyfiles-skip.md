@@ -1,16 +1,13 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Skip
 title: IEnumBackgroundCopyFiles::Skip (bits.h)
-description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence. (IEnumBackgroundCopyFiles.Skip)
+helpviewer_keywords: ["IEnumBackgroundCopyFiles interface [BITS]","Skip method","IEnumBackgroundCopyFiles.Skip","IEnumBackgroundCopyFiles::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBackgroundCopyFiles interface","_drz_ienumbackgroundcopyfiles_skip","bits.ienumbackgroundcopyfiles_skip","bits/IEnumBackgroundCopyFiles::Skip"]
 old-location: bits\ienumbackgroundcopyfiles_skip.htm
 tech.root: Bits
 ms.assetid: 41488586-cb91-4b87-b11d-2808bc162d42
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Skip method, IEnumBackgroundCopyFiles.Skip, IEnumBackgroundCopyFiles::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_skip, bits.ienumbackgroundcopyfiles_skip, bits/IEnumBackgroundCopyFiles::Skip
-f1_keywords:
-- bits/IEnumBackgroundCopyFiles.Skip
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IEnumBackgroundCopyFiles.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBackgroundCopyFiles::Skip
+ - bits/IEnumBackgroundCopyFiles::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IEnumBackgroundCopyFiles.Skip
 ---
 
 # IEnumBackgroundCopyFiles::Skip
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of elements to skip.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -96,18 +90,7 @@ Skipped less than the number of requested elements.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>

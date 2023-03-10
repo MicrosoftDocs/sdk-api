@@ -1,14 +1,11 @@
 ---
 UID: NN:dwrite_3.IDWriteFontSet1
 title: IDWriteFontSet1
-description: Represents a font set.
+description: Represents a font set. (IDWriteFontSet1)
+helpviewer_keywords: ["IDWriteFontSet1","IDWriteFontSet1 interface [Direct Write]","IDWriteFontSet1 interface [Direct Write]","described","directwrite.idwritefontset1","dwrite_3/IDWriteFontSet1"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1, IDWriteFontSet1 interface [Direct Write], IDWriteFontSet1 interface [Direct Write],described, directwrite.idwritefontset1, dwrite_3/IDWriteFontSet1
-f1_keywords:
-- IDWriteFontSet1
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -20,28 +17,33 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteFontSet1
+ - dwrite_3/IDWriteFontSet1
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteFontSet1
+ - IDWriteFontSet1
 ---
 
 ## -description
 
 Represents a font set.
 
-This interface extends [IDWriteFontSet](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset).
+This interface extends [IDWriteFontSet](./nn-dwrite_3-idwritefontset.md).
 
 ## -see-also
 
-[IDWriteFontSet](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset)
+[IDWriteFontSet](./nn-dwrite_3-idwritefontset.md)

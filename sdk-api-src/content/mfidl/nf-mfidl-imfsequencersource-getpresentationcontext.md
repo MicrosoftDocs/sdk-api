@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSequencerSource.GetPresentationContext
 title: IMFSequencerSource::GetPresentationContext (mfidl.h)
 description: Maps a presentation descriptor to its associated sequencer element identifier and the topology it represents.
+helpviewer_keywords: ["GetPresentationContext","GetPresentationContext method [Media Foundation]","GetPresentationContext method [Media Foundation]","IMFSequencerSource interface","IMFSequencerSource interface [Media Foundation]","GetPresentationContext method","IMFSequencerSource.GetPresentationContext","IMFSequencerSource::GetPresentationContext","c444ccad-68b8-40eb-9e87-0b4d61ac725d","mf.imfsequencersource_getpresentationcontext","mfidl/IMFSequencerSource::GetPresentationContext"]
 old-location: mf\imfsequencersource_getpresentationcontext.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c444ccad-68b8-40eb-9e87-0b4d61ac725d
 ms.date: 12/05/2018
 ms.keywords: GetPresentationContext, GetPresentationContext method [Media Foundation], GetPresentationContext method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],GetPresentationContext method, IMFSequencerSource.GetPresentationContext, IMFSequencerSource::GetPresentationContext, c444ccad-68b8-40eb-9e87-0b4d61ac725d, mf.imfsequencersource_getpresentationcontext, mfidl/IMFSequencerSource::GetPresentationContext
-f1_keywords:
-- mfidl/IMFSequencerSource.GetPresentationContext
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSequencerSource.GetPresentationContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSequencerSource::GetPresentationContext
+ - mfidl/IMFSequencerSource::GetPresentationContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSequencerSource.GetPresentationContext
 ---
 
 # IMFSequencerSource::GetPresentationContext
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Maps a presentation descriptor to its associated sequencer element identifier and the topology it represents.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pPD [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor.
-
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor.
 
 ### -param pId [out]
 
-Receives the sequencer element identifier. This value is assigned by the sequencer source when the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">IMFSequencerSource::AppendTopology</a>. This parameter is optional and can be <b>NULL</b>.
-
+Receives the sequencer element identifier. This value is assigned by the sequencer source when the application calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">IMFSequencerSource::AppendTopology</a>. This parameter is optional and can be <b>NULL</b>.
 
 ### -param ppTopology [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the original topology that the application added to the sequencer source. The caller must release the interface. This parameter can receive the value <b>NULL</b> if the sequencer source has switched to the next presentation. This parameter is optional and can be <b>NULL</b>.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the original topology that the application added to the sequencer source. The caller must release the interface. This parameter can receive the value <b>NULL</b> if the sequencer source has switched to the next presentation. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,31 +110,15 @@ This segment was canceled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The topology returned in <i>ppTopology</i> is the original topology that the application specified in <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">AppendTopology</a>. The source nodes in this topology contain pointers to the native sources. Do not queue this topology on the Media Session. Instead, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourcetopologyprovider-getmediasourcetopology">IMFMediaSourceTopologyProvider::GetMediaSourceTopology</a> to get the sequencer source's modified topology. The source nodes in the modified topology contain pointers to the sequencer source, rather than the native sources.
-
-
-
+The topology returned in <i>ppTopology</i> is the original topology that the application specified in <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">AppendTopology</a>. The source nodes in this topology contain pointers to the native sources. Do not queue this topology on the Media Session. Instead, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourcetopologyprovider-getmediasourcetopology">IMFMediaSourceTopologyProvider::GetMediaSourceTopology</a> to get the sequencer source's modified topology. The source nodes in the modified topology contain pointers to the sequencer source, rather than the native sources.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>

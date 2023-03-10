@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPRECV
 title: LPWSPRECV
 description: The LPWSPRecv function receives data on a socket.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPRECV"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPRECV
 targetos: Windows
@@ -18,55 +20,71 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPRECV
+ - LPWSPRECV
+f1_keywords:
+ - LPWSPRECV
+ - ws2spi/LPWSPRECV
 ---
 
 ## -description
+
 The **LPWSPRecv** function receives data on a socket.
 
 ## -parameters
 
 ### -param s [in]
+
 A descriptor identifying a connected socket.
 
 ### -param lpBuffers \[in\, out\]
+
 A pointer to an array of <a href="/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures. Each **WSABUF** structure contains a pointer to a buffer and the length of the buffer, in bytes.
 
 ### -param dwBufferCount [in]
+
 The number of <a href="/windows/win32/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> structures in the <i>lpBuffers</i> array.
 
 ### -param lpNumberOfBytesRecvd [out]
+
 A pointer to the number of bytes received by this call.
 
 ### -param lpFlags \[in\, out\]
+
 A pointer to flags that specify the way in which the call is made.
 
 ### -param lpOverlapped [in]
+
 A pointer to a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaoverlapped">WSAOverlapped</a></b> structure (ignored for nonoverlapped structures).
 
 ### -param lpCompletionRoutine [in]
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
+
 A pointer to the completion routine called when the receive operation has been completed (ignored for nonoverlapped structures).
 
 ### -param lpThreadId [in]
+
 A pointer to a <b><a href="/windows/win32/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a></b> structure to be used by the provider in a subsequent call to <b><a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a></b>. The provider should store the referenced **WSATHREADID** structure (not the pointer to same) until after the **WPUQueueApc** function returns.
 
 ### -param lpErrno [out]
+
 A pointer to the error code.
 
 ## -returns
+
 If no error occurs and the receive operation has completed immediately, **LPWSPRecv** returns zero. Note that in this case the completion routine, if specified, will have already been queued. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>. The error code WSA_IO_PENDING indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that no overlapped operations was initiated and no completion indication will occur.
 
 <table>
@@ -265,6 +283,7 @@ Overlapped operation has been canceled due to the closure of the socket.
 </table>
 
 ## -remarks
+
 **LPWSPRecv** is used on connected sockets or bound connectionless sockets specified by the <i>s</i> parameter and is used to read incoming data. The socket's local address must be known. This may be done explicitly through <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a></b> or implicitly through **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**, <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>, <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto">LPWSPSendTo</a></b>, or <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspjoinleaf">LPWSPJoinLeaf</a></b>.
 
 For connected, connectionless sockets, this function restricts the addresses from which received messages are accepted. The function only returns messages from the remote address specified in the connection. Messages from other addresses are (silently) discarded.
@@ -336,6 +355,7 @@ The completion routines can be called in any order, but not necessarily the same
 > All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the operations complete. See <b><a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a></b> for more information.
 
 ## -see-also
+
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucloseevent">WPUCloseEvent</a>
 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreateevent">WPUCreateEvent</a>

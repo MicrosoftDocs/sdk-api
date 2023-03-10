@@ -2,15 +2,12 @@
 UID: NF:npapi.NPOpenEnum
 title: NPOpenEnum function (npapi.h)
 description: Opens an enumeration of network resources or existing connections. The NPOpenEnum function must be called to obtain a valid handle for an enumeration.
+helpviewer_keywords: ["NPOpenEnum","NPOpenEnum function [Security]","RESOURCETYPE_DISK","RESOURCETYPE_PRINT","RESOURCEUSAGE_ATTACHED","RESOURCEUSAGE_CONNECTABLE","RESOURCEUSAGE_CONTAINER","RESOURCE_CONNECTED","RESOURCE_CONTEXT","RESOURCE_GLOBALNET","_mnp_npopenenum","npapi/NPOpenEnum","security.npopenenum"]
 old-location: security\npopenenum.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d8fa7336-3ede-4445-b2e8-1a3efcae22ff
 ms.date: 12/05/2018
 ms.keywords: NPOpenEnum, NPOpenEnum function [Security], RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_ATTACHED, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, _mnp_npopenenum, npapi/NPOpenEnum, security.npopenenum
-f1_keywords:
-- npapi/NPOpenEnum
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPOpenEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPOpenEnum
+ - npapi/NPOpenEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPOpenEnum
 ---
 
 # NPOpenEnum function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an enumeration of network resources or existing connections. The <b>NPOpenEnum</b> function must be called to obtain a valid handle for an enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param dwScope [in]
 
@@ -102,8 +99,6 @@ The resources associated with the user's current and default network context (us
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwType [in]
 
@@ -153,7 +148,6 @@ Specifies that the function should fail if the caller is not authenticated (even
 
 If <i>dwType</i> is 0, or is just RESOURCEUSAGE_ATTACHED, all types of resources are returned. If a provider does not have the capability to distinguish between print and disk resources at the same level, it may return all resources.
 
-
 ### -param dwUsage [in]
 
 Specifies the usage of resources of interested. This is a bitmask, which may be any combination of the following flags. 
@@ -192,21 +186,16 @@ All container resources
 
 The bitmask may be zero to match all of the flags. This parameter may be ignored if <i>dwScope</i> is not set to RESOURCE_GLOBALNET.
 
-
 ### -param lpNetResource [in]
 
 Pointer to the container to perform the enumeration. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> could have been obtained through a previous <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> call, or constructed by the caller, or it can be <b>NULL</b>. If it is <b>NULL</b> or if the <b>lpRemoteName</b> field of the <b>NETRESOURCE</b> is <b>NULL</b>, the provider should enumerate the top level of its network. Note that this means a provider cannot use an <b>lpRemoteName</b> of <b>NULL</b> to represent any network resource. A caller would normally start off by calling <b>NPOpenEnum</b> with this parameter set to <b>NULL</b> and then use the returned results for further enumeration. If the calling program knows exactly the provider and remote path to enumerate from, it may build its own <b>NETRESOURCE</b> structure to pass in, filling in the <b>lpProvider</b> and <b>lpRemoteName</b> fields. Note that if <i>dwScope</i> is RESOURCE_CONNECTED or RESOURCE_CONTEXT, this parameter will be <b>NULL</b>.
-
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> could have been obtained through a previous <a href="/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> call, or constructed by the caller, or it can be <b>NULL</b>. If it is <b>NULL</b> or if the <b>lpRemoteName</b> field of the <b>NETRESOURCE</b> is <b>NULL</b>, the provider should enumerate the top level of its network. Note that this means a provider cannot use an <b>lpRemoteName</b> of <b>NULL</b> to represent any network resource. A caller would normally start off by calling <b>NPOpenEnum</b> with this parameter set to <b>NULL</b> and then use the returned results for further enumeration. If the calling program knows exactly the provider and remote path to enumerate from, it may build its own <b>NETRESOURCE</b> structure to pass in, filling in the <b>lpProvider</b> and <b>lpRemoteName</b> fields. Note that if <i>dwScope</i> is RESOURCE_CONNECTED or RESOURCE_CONTEXT, this parameter will be <b>NULL</b>.
 
 ### -param lphEnum [out]
 
-Pointer to a handle that can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> function. When you have finished using the handle, release the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npcloseenum">NPCloseEnum</a> function.
-
+Pointer to a handle that can be used by the <a href="/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> function. When you have finished using the handle, release the handle by calling the <a href="/windows/desktop/api/npapi/nf-npapi-npcloseenum">NPCloseEnum</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, it should return WN_SUCCESS. Otherwise, it should return an error code which may include one of the following.
 
@@ -260,7 +249,3 @@ The network is not present.
 </td>
 </tr>
 </table>
- 
-
-
-

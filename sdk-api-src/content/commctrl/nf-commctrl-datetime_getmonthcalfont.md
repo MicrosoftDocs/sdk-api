@@ -2,15 +2,12 @@
 UID: NF:commctrl.DateTime_GetMonthCalFont
 title: DateTime_GetMonthCalFont macro (commctrl.h)
 description: Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the DTM_GETMCFONT message explicitly.
+helpviewer_keywords: ["DateTime_GetMonthCalFont","DateTime_GetMonthCalFont macro [Windows Controls]","_win32_DateTime_GetMonthCalFont","_win32_DateTime_GetMonthCalFont_cpp","commctrl/DateTime_GetMonthCalFont","controls.DateTime_GetMonthCalFont","controls._win32_DateTime_GetMonthCalFont"]
 old-location: controls\DateTime_GetMonthCalFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalfont.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetMonthCalFont, DateTime_GetMonthCalFont macro [Windows Controls], _win32_DateTime_GetMonthCalFont, _win32_DateTime_GetMonthCalFont_cpp, commctrl/DateTime_GetMonthCalFont, controls.DateTime_GetMonthCalFont, controls._win32_DateTime_GetMonthCalFont
-f1_keywords:
-- commctrl/DateTime_GetMonthCalFont
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_GetMonthCalFont
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_GetMonthCalFont
+ - commctrl/DateTime_GetMonthCalFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_GetMonthCalFont
 ---
 
 # DateTime_GetMonthCalFont macro
@@ -48,18 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getmcfont">DTM_GETMCFONT</a> message explicitly. 
-
+Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-getmcfont">DTM_GETMCFONT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a DTP control. 
-
+A handle to a DTP control.

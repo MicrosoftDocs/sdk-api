@@ -2,15 +2,12 @@
 UID: NF:recapis.GetBestResultString
 title: GetBestResultString function (recapis.h)
 description: Retrieves the best result string.
+helpviewer_keywords: ["97d60330-c808-4d16-a197-7bad7ca9080e","GetBestResultString","GetBestResultString function [Tablet PC]","recapis/GetBestResultString","tablet.getbestresultstring"]
 old-location: tablet\getbestresultstring.htm
 tech.root: tablet
 ms.assetid: 97d60330-c808-4d16-a197-7bad7ca9080e
 ms.date: 12/05/2018
 ms.keywords: 97d60330-c808-4d16-a197-7bad7ca9080e, GetBestResultString, GetBestResultString function [Tablet PC], recapis/GetBestResultString, tablet.getbestresultstring
-f1_keywords:
-- recapis/GetBestResultString
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- GetBestResultString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetBestResultString
+ - recapis/GetBestResultString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - GetBestResultString
 ---
 
 # GetBestResultString function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the best result string.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrc
 
 Handle to the recognizer context.
 
-
 ### -param pcSize
 
 On input, the number of characters the <i>pwcBestResult</i> buffer can hold. On output, the number of characters the <i>pwcBestResult</i> buffer contains. If <i>pwcBestResult</i> is <b>NULL</b>, the function returns the required size of the buffer that you use to allocate the <i>pwcBestResult</i> buffer.
-
 
 ### -param pwcBestResult
 
 Recognition result. If the buffer is too small, the function truncates the string. The string is not <b>NULL</b>-terminated. To determine the required size of the buffer, set <i>pwcBestResult</i> to <b>NULL</b>; use <i>pcSize</i> to allocate the <i>pwcBestResult</i> buffer.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -166,7 +155,4 @@ The recognizer context does not contain results.
 </td>
 </tr>
 </table>
- 
-
-
 

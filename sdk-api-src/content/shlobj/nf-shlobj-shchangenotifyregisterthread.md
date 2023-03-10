@@ -2,15 +2,12 @@
 UID: NF:shlobj.SHChangeNotifyRegisterThread
 title: SHChangeNotifyRegisterThread function (shlobj.h)
 description: Enables asynchronous register and deregister of a thread.
+helpviewer_keywords: ["SHChangeNotifyRegisterThread","SHChangeNotifyRegisterThread function [Windows Shell]","_shell_SHChangeNotifyRegisterThread","shell.SHChangeNotifyRegisterThread","shlobj/SHChangeNotifyRegisterThread"]
 old-location: shell\SHChangeNotifyRegisterThread.htm
 tech.root: shell
 ms.assetid: 170afefc-b4de-4661-9c12-1341656b0fdb
 ms.date: 12/05/2018
 ms.keywords: SHChangeNotifyRegisterThread, SHChangeNotifyRegisterThread function [Windows Shell], _shell_SHChangeNotifyRegisterThread, shell.SHChangeNotifyRegisterThread, shlobj/SHChangeNotifyRegisterThread
-f1_keywords:
-- shlobj/SHChangeNotifyRegisterThread
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHChangeNotifyRegisterThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHChangeNotifyRegisterThread
+ - shlobj/SHChangeNotifyRegisterThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHChangeNotifyRegisterThread
 ---
 
 # SHChangeNotifyRegisterThread function
@@ -48,27 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables asynchronous register and deregister of a thread.
-
 
 ## -parameters
 
-
-
-
 ### -param status
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-scnrt_status">SCNRT_STATUS</a></b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-scnrt_status">SCNRT_STATUS</a></b>
 
-Indicates whether the function is being used to register or deregister the thread. One of the values of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-scnrt_status">SCNRT_STATUS</a>.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
+Indicates whether the function is being used to register or deregister the thread. One of the values of <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-scnrt_status">SCNRT_STATUS</a>.

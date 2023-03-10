@@ -2,15 +2,12 @@
 UID: NF:winuser.SetGestureConfig
 title: SetGestureConfig function (winuser.h)
 description: Configures the messages that are sent from a window for Windows Touch gestures.
+helpviewer_keywords: ["SetGestureConfig","SetGestureConfig function [Windows Touch]","wintouch.setgestureconfig","winuser/SetGestureConfig"]
 old-location: wintouch\setgestureconfig.htm
 tech.root: wintouch
 ms.assetid: 7df5a18e-5e65-4dd5-a59d-853a91ead710
 ms.date: 12/05/2018
 ms.keywords: SetGestureConfig, SetGestureConfig function [Windows Touch], wintouch.setgestureconfig, winuser/SetGestureConfig
-f1_keywords:
-- winuser/SetGestureConfig
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-api_name:
-- SetGestureConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetGestureConfig
+ - winuser/SetGestureConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+api_name:
+ - SetGestureConfig
 ---
 
 # SetGestureConfig function
@@ -48,65 +50,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures the messages that are sent from a window for Windows Touch gestures.
-  
-
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 A handle to the window to set the gesture configuration on.
 
-
 ### -param dwReserved [in]
 
 This value is reserved and must be set to 0.
-
 
 ### -param cIDs [in]
 
 A count of the gesture configuration structures that are being passed.
 
-
 ### -param pGestureConfig [in]
 
 An array of gesture configuration structures that specify the gesture configuration.
 
-
 ### -param cbSize [in]
 
-The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
-
+The size of the gesture configuration (<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
      
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-
-
 If you don't expect to change the gesture configuration, call <b>SetGestureConfig</b> at window creation time.
-	 If you want to dynamically change the gesture configuration, call <b>SetGestureConfig</b> in response to <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages.
+	 If you want to dynamically change the gesture configuration, call <b>SetGestureConfig</b> in response to <a href="/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages.
 	 
 
 The following table shows the identifiers for gestures that are
-  supported by the <i>dwID</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a> structure.  Note that setting
+  supported by the <i>dwID</i> member of the <a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a> structure.  Note that setting
   <i>dwID</i> to 0 indicates that global gesture configuration flags are set.
   
 
@@ -215,7 +199,7 @@ The following flags are used when <i>dwID</i> is set to GID_PAN.
 <div class="alert"><b>Note</b>  Pan gestures can be used in conjunction with each other to control behavior. 
     For example, setting the <b>dwWant</b> bits to panning with single-finger horizontal
     and setting the <b>dwBlock</b> bits to single-finger vertical will restrict panning to horizontal pans. Changing the
-    <b>dwWant</b> bit to have <code>GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY</code>and removing single-finger vertical pan from the <b>dwBlock </b>bit will enable both vertical and horizontal panning.    
+    <b>dwWant</b> bit to have <code>GC_PAN_WITH_SINGLE_FINGER_VERTICALLY | GC_PAN_WITH_SINGLE_FINGER_HORIZONTALLY</code> and removing single-finger vertical pan from the <b>dwBlock</b> bit will enable both vertical and horizontal panning.    
     </div>
 <div> </div>
 <div class="alert"><b>Note</b>  By default, panning has inertia enabled.
@@ -427,33 +411,22 @@ if (!bResult){
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
+<a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>

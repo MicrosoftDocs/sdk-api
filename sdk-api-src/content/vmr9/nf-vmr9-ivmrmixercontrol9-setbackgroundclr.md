@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRMixerControl9.SetBackgroundClr
 title: IVMRMixerControl9::SetBackgroundClr (vmr9.h)
 description: The SetBackgroundClr method sets the background color on the output rectangle.
+helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetBackgroundClr method","IVMRMixerControl9.SetBackgroundClr","IVMRMixerControl9::SetBackgroundClr","IVMRMixerControl9SetBackgroundClr","SetBackgroundClr","SetBackgroundClr method [DirectShow]","SetBackgroundClr method [DirectShow]","IVMRMixerControl9 interface","dshow.ivmrmixercontrol9_setbackgroundclr","vmr9/IVMRMixerControl9::SetBackgroundClr"]
 old-location: dshow\ivmrmixercontrol9_setbackgroundclr.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fed7f4bb-519c-4e02-be99-065b9131e57c
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetBackgroundClr method, IVMRMixerControl9.SetBackgroundClr, IVMRMixerControl9::SetBackgroundClr, IVMRMixerControl9SetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setbackgroundclr, vmr9/IVMRMixerControl9::SetBackgroundClr
-f1_keywords:
-- vmr9/IVMRMixerControl9.SetBackgroundClr
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl9.SetBackgroundClr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl9::SetBackgroundClr
+ - vmr9/IVMRMixerControl9::SetBackgroundClr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl9.SetBackgroundClr
 ---
 
 # IVMRMixerControl9::SetBackgroundClr
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetBackgroundClr</code> method sets the background color on the output rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ClrBkg [in]
 
 Specifies the background color.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -89,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Include DShow.h and D3d9.h before Vmr9.h.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

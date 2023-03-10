@@ -2,15 +2,12 @@
 UID: NF:strmif.IResourceManager.ReleaseFocus
 title: IResourceManager::ReleaseFocus (strmif.h)
 description: The ReleaseFocus method sets the focus object to NULL in the resource manager if the current focus object is the one specified in this method.
+helpviewer_keywords: ["IResourceManager interface [DirectShow]","ReleaseFocus method","IResourceManager.ReleaseFocus","IResourceManager::ReleaseFocus","IResourceManagerReleaseFocus","ReleaseFocus","ReleaseFocus method [DirectShow]","ReleaseFocus method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_releasefocus","strmif/IResourceManager::ReleaseFocus"]
 old-location: dshow\iresourcemanager_releasefocus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: dfc1b178-eb81-488b-8a4a-f1a454b3d5f4
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],ReleaseFocus method, IResourceManager.ReleaseFocus, IResourceManager::ReleaseFocus, IResourceManagerReleaseFocus, ReleaseFocus, ReleaseFocus method [DirectShow], ReleaseFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_releasefocus, strmif/IResourceManager::ReleaseFocus
-f1_keywords:
-- strmif/IResourceManager.ReleaseFocus
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IResourceManager.ReleaseFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResourceManager::ReleaseFocus
+ - strmif/IResourceManager::ReleaseFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IResourceManager.ReleaseFocus
 ---
 
 # IResourceManager::ReleaseFocus
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ReleaseFocus</code> method sets the focus object to <b>NULL</b> in the resource manager if the current focus object is the one specified in this method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pFocusObject [in]
 
 Pointer to the focus object.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -133,31 +124,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use this method when the object of focus is about to be destroyed to ensure that the focus is not still being referenced.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

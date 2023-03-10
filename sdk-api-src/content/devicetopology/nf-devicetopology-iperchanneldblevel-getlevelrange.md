@@ -2,15 +2,12 @@
 UID: NF:devicetopology.IPerChannelDbLevel.GetLevelRange
 title: IPerChannelDbLevel::GetLevelRange (devicetopology.h)
 description: The GetLevelRange method gets the range, in decibels, of the volume level of the specified channel.
+helpviewer_keywords: ["GetLevelRange","GetLevelRange method [Core Audio]","GetLevelRange method [Core Audio]","IPerChannelDbLevel interface","IPerChannelDbLevel interface [Core Audio]","GetLevelRange method","IPerChannelDbLevel.GetLevelRange","IPerChannelDbLevel::GetLevelRange","IPerChannelDbLevelGetLevelRange","coreaudio.iperchanneldblevel_getlevelrange","devicetopology/IPerChannelDbLevel::GetLevelRange"]
 old-location: coreaudio\iperchanneldblevel_getlevelrange.htm
 tech.root: CoreAudio
 ms.assetid: 492eddb0-f8f2-4639-b5fe-1d02bf8c983a
 ms.date: 12/05/2018
 ms.keywords: GetLevelRange, GetLevelRange method [Core Audio], GetLevelRange method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevelRange method, IPerChannelDbLevel.GetLevelRange, IPerChannelDbLevel::GetLevelRange, IPerChannelDbLevelGetLevelRange, coreaudio.iperchanneldblevel_getlevelrange, devicetopology/IPerChannelDbLevel::GetLevelRange
-f1_keywords:
-- devicetopology/IPerChannelDbLevel.GetLevelRange
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IPerChannelDbLevel.GetLevelRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPerChannelDbLevel::GetLevelRange
+ - devicetopology/IPerChannelDbLevel::GetLevelRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IPerChannelDbLevel.GetLevelRange
 ---
 
 # IPerChannelDbLevel::GetLevelRange
@@ -48,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetLevelRange</b> method gets the range, in decibels, of the volume level of the specified channel.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param nChannel [in]
 
-The number of the selected channel. If the audio stream has <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. To get the number of channels in the stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount">IPerChannelDbLevel::GetChannelCount</a> method.
-
+The number of the selected channel. If the audio stream has <i>n</i> channels, the channels are numbered from 0 to <i>n</i>– 1. To get the number of channels in the stream, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount">IPerChannelDbLevel::GetChannelCount</a> method.
 
 ### -param pfMinLevelDB [out]
 
 Pointer to a <b>float</b> variable into which the method writes the minimum volume level in decibels.
 
-
 ### -param pfMaxLevelDB [out]
 
 Pointer to a <b>float</b> variable into which the method writes the maximum volume level in decibels.
-
 
 ### -param pfStepping [out]
 
 Pointer to a <b>float</b> variable into which the method writes the stepping value between consecutive volume levels in the range  <i>*pfMinLevelDB</i> to  <i>*pfMaxLevelDB</i>. If the difference between the maximum and minimum volume levels is <i>d</i> decibels, and the range is divided into <i>n</i> steps (uniformly sized intervals), then the volume can have <i>n</i> + 1 discrete levels and the size of the step between consecutive levels is <i>d</i> / <i>n</i> decibels.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -114,22 +102,11 @@ Pointer <i>pfminLevelDB</i>, <i>pfmaxLevelDB</i>, or <i>pfmaxLevelDB</i> is <b>N
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iperchanneldblevel">IPerChannelDbLevel Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iperchanneldblevel">IPerChannelDbLevel Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount">IPerChannelDbLevel::GetChannelCount</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getchannelcount">IPerChannelDbLevel::GetChannelCount</a>

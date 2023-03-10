@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IServiceThreadPoolConfig.SetBindingInfo
 title: IServiceThreadPoolConfig::SetBindingInfo (comsvcs.h)
 description: Binds all work submitted by the activity to a single single-threaded apartment.
+helpviewer_keywords: ["IServiceThreadPoolConfig interface [COM+]","SetBindingInfo method","IServiceThreadPoolConfig.SetBindingInfo","IServiceThreadPoolConfig::SetBindingInfo","SetBindingInfo","SetBindingInfo method [COM+]","SetBindingInfo method [COM+]","IServiceThreadPoolConfig interface","_cos_IServiceThreadPoolConfig_SetBindingInfo","comsvcs/IServiceThreadPoolConfig::SetBindingInfo","cos.iservicethreadpoolconfig_setbindinginfo"]
 old-location: cos\iservicethreadpoolconfig_setbindinginfo.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 9d2c4e6f-aa12-4874-a8e0-ca21a981b43f
 ms.date: 12/05/2018
 ms.keywords: IServiceThreadPoolConfig interface [COM+],SetBindingInfo method, IServiceThreadPoolConfig.SetBindingInfo, IServiceThreadPoolConfig::SetBindingInfo, SetBindingInfo, SetBindingInfo method [COM+], SetBindingInfo method [COM+],IServiceThreadPoolConfig interface, _cos_IServiceThreadPoolConfig_SetBindingInfo, comsvcs/IServiceThreadPoolConfig::SetBindingInfo, cos.iservicethreadpoolconfig_setbindinginfo
-f1_keywords:
-- comsvcs/IServiceThreadPoolConfig.SetBindingInfo
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceThreadPoolConfig.SetBindingInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceThreadPoolConfig::SetBindingInfo
+ - comsvcs/IServiceThreadPoolConfig::SetBindingInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceThreadPoolConfig.SetBindingInfo
 ---
 
 # IServiceThreadPoolConfig::SetBindingInfo
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Binds all work submitted by the activity to a single single-threaded apartment.
-
 
 ## -parameters
 
-
-
-
 ### -param binding [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_binding">CSC_Binding</a> enumeration.
-
+A value from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_binding">CSC_Binding</a> enumeration.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicethreadpoolconfig">IServiceThreadPoolConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicethreadpoolconfig">IServiceThreadPoolConfig</a>

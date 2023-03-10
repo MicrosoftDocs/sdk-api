@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.MoveToNtmsMediaPool
 title: MoveToNtmsMediaPool function (ntmsapi.h)
 description: The MoveToNtmsMediaPool function moves the specified medium from its current media pool to the specified media pool.
+helpviewer_keywords: ["MoveToNtmsMediaPool","MoveToNtmsMediaPool function [Files]","_zaw_movetontmsmediapool","base.movetontmsmediapool","fs.movetontmsmediapool","ntmsapi/MoveToNtmsMediaPool"]
 old-location: fs\movetontmsmediapool.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 6bc11877-6657-4e8b-8239-bb2720cfb256
 ms.date: 12/05/2018
 ms.keywords: MoveToNtmsMediaPool, MoveToNtmsMediaPool function [Files], _zaw_movetontmsmediapool, base.movetontmsmediapool, fs.movetontmsmediapool, ntmsapi/MoveToNtmsMediaPool
-f1_keywords:
-- ntmsapi/MoveToNtmsMediaPool
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- MoveToNtmsMediaPool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MoveToNtmsMediaPool
+ - ntmsapi/MoveToNtmsMediaPool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - MoveToNtmsMediaPool
 ---
 
 # MoveToNtmsMediaPool function
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>MoveToNtmsMediaPool</b> function moves the specified medium from its current media pool to the specified media pool.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaId [in]
 
 Unique identifier of a piece of physical media.
 
-
 ### -param lpPoolId [in]
 
 Unique identifier of the destination media pool.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -211,14 +203,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The destination pool specified in the 
 <b>MoveToNtmsMediaPool</b> function must be of the same media type and have compatible security.
@@ -229,24 +215,14 @@ A medium having a partition in the Completed, Allocated, or Reserved state may n
 
 <b>Windows Server 2003:  </b>If the free pool is the source pool, NTMS_USE_ACCESS to the free pool and NTMS_CONTROL_ACCESS to the destination pool is required. Otherwise, NTMS_CONTROL_ACCESS is required on both source and destination pool. If the free pool is the destination pool, NTMS_CONTROL_ACCESS to the source pool and NTMS_USER_ACCESS to the free pool is required. Otherwise, NTMS_CONTROL_ACCESS is required on both source and destination pools.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-createntmsmediapool">CreateNtmsMediaPool</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-createntmsmediapool">CreateNtmsMediaPool</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>

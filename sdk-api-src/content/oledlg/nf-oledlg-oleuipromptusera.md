@@ -1,16 +1,13 @@
 ---
 UID: NF:oledlg.OleUIPromptUserA
 title: OleUIPromptUserA function (oledlg.h)
-description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
+description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered. (ANSI)
+helpviewer_keywords: ["OleUIPromptUserA", "oledlg/OleUIPromptUserA"]
 old-location: com\oleuipromptuser.htm
 tech.root: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
 ms.date: 12/05/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
-f1_keywords:
-- oledlg/OleUIPromptUser
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIPromptUser
-- OleUIPromptUserA
-- OleUIPromptUserW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIPromptUserA
+ - oledlg/OleUIPromptUserA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIPromptUser
+ - OleUIPromptUserA
+ - OleUIPromptUserW
 ---
 
 # OleUIPromptUserA function
@@ -50,36 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered. 
-
-
-
+Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
 
 ## -parameters
-
-
-
 
 ### -param nTemplate [in]
 
 The resource number of the dialog box to be displayed. See Remarks.
 
-
 ### -param hwndParent [in]
 
 The handle to the parent window of the dialog box.
 
-
-### -param arg3 [in]
+### -param ...
 
 Optional. The title of the dialog box followed by a list of arguments for the format string in the static control (IDC_PU_TEXT) of the dialog box. The caller must be sure to pass the correct number and types of arguments.
 
-
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -310,7 +299,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -321,7 +310,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -343,7 +332,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -372,21 +361,23 @@ Errors common to all dialog boxes lie in the range OLEUI_ERR_STANDARDMIN to OLEU
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The following dialog box templates are defined in Windows Interface Guidelines--A Guide for Designing Software. The nTemplate parameter must be a currently defined resource, however, additional templates can be added to prompt.dlg.
 
-<pre class="syntax" xml:space="preserve"><code>IDD_LINKSOURCEUNAVAILABLE 
+
+``` syntax
+IDD_LINKSOURCEUNAVAILABLE 
 IDD_CANNOTUPDATELINK 
 IDD_SERVERNOTREG 
 IDD_CANNOTRESPONDVERB 
-IDD_SERVERNOTFOUND </code></pre>
+IDD_SERVERNOTFOUND 
+```
 
+
+
+
+> [!NOTE]
+> The oledlg.h header defines OleUIPromptUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

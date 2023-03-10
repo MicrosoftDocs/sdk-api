@@ -2,15 +2,12 @@
 UID: NF:iads.IADsContainer.MoveHere
 title: IADsContainer::MoveHere (iads.h)
 description: Moves a specified object to the container that implements this interface.
+helpviewer_keywords: ["IADsContainer interface [ADSI]","MoveHere method","IADsContainer.MoveHere","IADsContainer::MoveHere","MoveHere","MoveHere method [ADSI]","MoveHere method [ADSI]","IADsContainer interface","_ds_iadscontainer_movehere","adsi.iadscontainer__movehere","adsi.iadscontainer_movehere","iads/IADsContainer::MoveHere"]
 old-location: adsi\iadscontainer_movehere.htm
 tech.root: adsi
 ms.assetid: 132b1cdc-6fb5-43b1-a5de-3b25c361e8e1
 ms.date: 12/05/2018
 ms.keywords: IADsContainer interface [ADSI],MoveHere method, IADsContainer.MoveHere, IADsContainer::MoveHere, MoveHere, MoveHere method [ADSI], MoveHere method [ADSI],IADsContainer interface, _ds_iadscontainer_movehere, adsi.iadscontainer__movehere, adsi.iadscontainer_movehere, iads/IADsContainer::MoveHere
-f1_keywords:
-- iads/IADsContainer.MoveHere
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsContainer.MoveHere
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsContainer::MoveHere
+ - iads/IADsContainer::MoveHere
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsContainer.MoveHere
 ---
 
 # IADsContainer::MoveHere
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IADsContainer::MoveHere</b>method moves a specified object to the container that implements this interface.The method can be used to rename an object.
-
+The <b>IADsContainer::MoveHere</b> method moves a specified object to the container that implements this interface.The method can be used to rename an object.
 
 ## -parameters
-
-
-
 
 ### -param SourceName [in]
 
 The null-terminated Unicode string that specifies the <b>ADsPath</b> of the object to be moved.
-
 
 ### -param NewName [in]
 
@@ -68,28 +64,19 @@ The null-terminated Unicode string that specifies the relative name of the new o
     <b>NULL</b>, in which case the object is moved. If it is not <b>NULL</b>, the object is
     renamed accordingly in the process.
 
-
 ### -param ppObject [out]
 
 Pointer to a pointer to the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the moved
+     <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the moved
     object.
-
 
 ## -returns
 
-
-
 This method supports standard return values, including
     <b>S_OK</b>, for a successful operation. For more information about error codes, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+     <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
-
-
 
 In Active Directory, you can move an object within the same domain
     or from different domains in the same directory forest. For the cross domain
@@ -116,19 +103,19 @@ In Active Directory, you can move an object within the same domain
     error message results.</div>
 <div> </div>
 <div class="alert"><b>Note</b>  When using the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to
+     <a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a> function to bind to
     an ADSI object, you must use the <b>ADS_USE_DELEGATION</b> flag of the 
-     <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>in the <i>dwReserved</i> parameter of this function
+     <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a> in the <i>dwReserved</i> parameter of this function
     in order to create cross-domain moves with <b>IADsContainer::MoveHere</b>. The
     <b>ADsOpenObject</b> function is equivalent to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>method. Likewise, using the <b>OpenDsObject</b>method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
+     <a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a> method. Likewise, using the <b>OpenDsObject</b> method to bind to an ADSI object, the <i>InReserved</i> parameter of this method must contain the
     <b>ADS_USE_DELEGATION</b> flag of the
     <b>ADS_AUTHENTICATION_ENUM</b> in order to make cross-domain moves with
     <b>IADsContainer::MoveHere</b>.</div>
 <div> </div>
 The following code example moves the user, "jeffsmith" from the
     "South.Fabrikam.Com" domain to the "North.Fabrikam.Com" domain. First, it gets
-    an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> pointer to the destination
+    an <a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> pointer to the destination
     container, then the <b>MoveHere</b> call specifies
     the path of the object to move.
 
@@ -142,7 +129,7 @@ ou.MoveHere("LDAP://server2/CN=jeffsmith,OU=Sales,DC=South,DC=Fabrikam,DC=Com", 
 A serverless ADsPath can be used for either the source or the
     destination or both.
 
-The <b>IADsContainer::MoveHere</b>method can be used either to rename an object within the same container or to
+The <b>IADsContainer::MoveHere</b> method can be used either to rename an object within the same container or to
     move an object among different containers. Moving an object retains the
     object RDN, whereas renaming an object alters the RDN.
 
@@ -256,42 +243,31 @@ Cleanup:
     CoUninitialize();
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere">IADsContainer::CopyHere</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere">IADsContainer::CopyHere</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

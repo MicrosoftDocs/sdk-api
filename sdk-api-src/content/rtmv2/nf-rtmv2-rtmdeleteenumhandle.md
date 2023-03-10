@@ -2,15 +2,12 @@
 UID: NF:rtmv2.RtmDeleteEnumHandle
 title: RtmDeleteEnumHandle function (rtmv2.h)
 description: The RtmDeleteEnumHandle function deletes the specified enumeration handle and frees all resources allocated for the enumeration.
+helpviewer_keywords: ["RtmDeleteEnumHandle","RtmDeleteEnumHandle function [RAS]","_rtmv2ref_rtmdeleteenumhandle","rras.rtmdeleteenumhandle","rtmv2/RtmDeleteEnumHandle"]
 old-location: rras\rtmdeleteenumhandle.htm
 tech.root: RRAS
 ms.assetid: 87477e25-d4bc-44d2-932b-f266b0bdaafa
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteEnumHandle, RtmDeleteEnumHandle function [RAS], _rtmv2ref_rtmdeleteenumhandle, rras.rtmdeleteenumhandle, rtmv2/RtmDeleteEnumHandle
-f1_keywords:
-- rtmv2/RtmDeleteEnumHandle
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmDeleteEnumHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmDeleteEnumHandle
+ - rtmv2/RtmDeleteEnumHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmDeleteEnumHandle
 ---
 
 # RtmDeleteEnumHandle function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmDeleteEnumHandle</b> function deletes the specified enumeration handle and frees all resources allocated for the enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param EnumHandle [in]
 
 Handle to be released. Any resources associated with the handle are also freed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -99,53 +92,42 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreatedestenum">RtmCreateDestEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreatedestenum">RtmCreateDestEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreatenexthopenum">RtmCreateNextHopEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreatenexthopenum">RtmCreateNextHopEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreateroutelistenum">RtmCreateRouteListEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreateroutelistenum">RtmCreateRouteListEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumdests">RtmGetEnumDests</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumdests">RtmGetEnumDests</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumnexthops">RtmGetEnumNextHops</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumnexthops">RtmGetEnumNextHops</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumroutes">RtmGetEnumRoutes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetenumroutes">RtmGetEnumRoutes</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasedests">RtmReleaseDests</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasedests">RtmReleaseDests</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthops">RtmReleaseNextHops</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseroutes">RtmReleaseRoutes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseroutes">RtmReleaseRoutes</a>

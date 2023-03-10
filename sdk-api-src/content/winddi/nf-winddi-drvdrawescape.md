@@ -2,15 +2,12 @@
 UID: NF:winddi.DrvDrawEscape
 title: DrvDrawEscape function (winddi.h)
 description: The DrvDrawEscape function is the entry point that serves more than one function call; the particular function depends on the value of the iEsc parameter.
+helpviewer_keywords: ["DrvDrawEscape","DrvDrawEscape function [Display Devices]","ddifncs_d3db71f3-aafb-4718-a98f-4ef5d30a6b50.xml","display.drvdrawescape","winddi/DrvDrawEscape"]
 old-location: display\drvdrawescape.htm
 tech.root: display
 ms.assetid: 698fb67e-4878-42ad-9c7a-899ddcbf1811
 ms.date: 12/05/2018
 ms.keywords: DrvDrawEscape, DrvDrawEscape function [Display Devices], ddifncs_d3db71f3-aafb-4718-a98f-4ef5d30a6b50.xml, display.drvdrawescape, winddi/DrvDrawEscape
-f1_keywords:
-- winddi/DrvDrawEscape
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvDrawEscape
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvDrawEscape
+ - winddi/DrvDrawEscape
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvDrawEscape
 ---
 
 # DrvDrawEscape function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DrvDrawEscape</b> function is the entry point that serves more than one function call; the particular function depends on the value of the <i>iEsc</i> parameter. 
-
+The <b>DrvDrawEscape</b> function is the entry point that serves more than one function call; the particular function depends on the value of the <i>iEsc</i> parameter.
 
 ## -parameters
 
-
-
-
 ### -param pso [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface to which the call is directed.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface to which the call is directed.
 
 ### -param iEsc [in]
 
@@ -82,43 +78,30 @@ Passes raw device data to the device driver. The number of bytes of raw data is 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pco [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that can be queried to find the area on the surface that the caller can overwrite.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that can be queried to find the area on the surface that the caller can overwrite.
 
 ### -param prcl [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the window rectangle on the surface. The application does not know the position of the window on the surface. GDI supplies this rectangle and holds a lock that ensures the rectangle is stable for the duration of the call. Coordinates received from the application are relative to the upper left corner of the window rectangle.
-
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the window rectangle on the surface. The application does not know the position of the window on the surface. GDI supplies this rectangle and holds a lock that ensures the rectangle is stable for the duration of the call. Coordinates received from the application are relative to the upper left corner of the window rectangle.
 
 ### -param cjIn [in]
 
 Specifies the size, in bytes, of the buffer pointed to by <i>pvIn</i>.
 
-
 ### -param pvIn [in]
 
 Pointer to the input data for the call. The format of the input data depends on the function specified by <i>iEsc</i>.
 
-
 ## -returns
-
-
 
 The return value depends on the function specified by <i>iEsc</i>. The driver should return 0xFFFFFFFF if an unsupported function is called.
 
-
-
-
 ## -remarks
 
-
-
-This entry point differs from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a> in that a CLIPOBJ structure is provided. This allows a driver to implement its own <a href="https://docs.microsoft.com/windows-hardware/drivers/display/optional-display-driver-functions">drawing functions</a> in a windowed environment.
+This entry point differs from <a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a> in that a CLIPOBJ structure is provided. This allows a driver to implement its own <a href="/windows-hardware/drivers/display/optional-display-driver-functions">drawing functions</a> in a windowed environment.
 
 GDI passes data directly from a (possibly malicious) client application to the driver, which means that the <b>DrvDrawEscape</b> function must validate all input arguments. Specifically, this function must:
 
@@ -136,30 +119,20 @@ Verify that the contents of the buffer pointed to by the <i>pvIn</i> parameter a
 
 </li>
 </ul>
-The escapes that a device supports are determined by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>.
+The escapes that a device supports are determined by a call to <a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>.
 
-For more information about the escape codes that Microsoft reserves, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>.
+For more information about the escape codes that Microsoft reserves, see <a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>.
 
 <b>DrvDrawEscape</b> is optional for all drivers.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>

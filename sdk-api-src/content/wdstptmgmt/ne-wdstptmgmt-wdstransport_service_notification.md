@@ -2,15 +2,12 @@
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0005
 title: WDSTRANSPORT_SERVICE_NOTIFICATION (wdstptmgmt.h)
 description: Specifies what action needs to be taken when notifying WDS transport services, such as rereading their settings following a configuration change.
+helpviewer_keywords: ["*PWDSTRANSPORT_SERVICE_NOTIFICATION","WDSTRANSPORT_SERVICE_NOTIFICATION","WDSTRANSPORT_SERVICE_NOTIFICATION enumeration [Windows Deployment Services]","WdsTptServiceNotifyReadSettings","WdsTptServiceNotifyUnknown","wds.wdstransport_service_notification","wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION","wdstptmgmt/WdsTptServiceNotifyReadSettings","wdstptmgmt/WdsTptServiceNotifyUnknown"]
 old-location: wds\wdstransport_service_notification.htm
 tech.root: wds
 ms.assetid: d239241d-efe9-409b-8425-c71382b27c05
 ms.date: 12/05/2018
 ms.keywords: '*PWDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION, WDSTRANSPORT_SERVICE_NOTIFICATION enumeration [Windows Deployment Services], WdsTptServiceNotifyReadSettings, WdsTptServiceNotifyUnknown, wds.wdstransport_service_notification, wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION, wdstptmgmt/WdsTptServiceNotifyReadSettings, wdstptmgmt/WdsTptServiceNotifyUnknown'
-f1_keywords:
-- wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wdstptmgmt.h
-api_name:
-- WDSTRANSPORT_SERVICE_NOTIFICATION
 targetos: Windows
 req.typenames: WDSTRANSPORT_SERVICE_NOTIFICATION, *PWDSTRANSPORT_SERVICE_NOTIFICATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0005
+ - wdstptmgmt/__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0005
+ - PWDSTRANSPORT_SERVICE_NOTIFICATION
+ - wdstptmgmt/PWDSTRANSPORT_SERVICE_NOTIFICATION
+ - WDSTRANSPORT_SERVICE_NOTIFICATION
+ - wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wdstptmgmt.h
+api_name:
+ - WDSTRANSPORT_SERVICE_NOTIFICATION
 ---
 
 # WDSTRANSPORT_SERVICE_NOTIFICATION enumeration
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies what action needs to be taken when notifying WDS transport services, such as rereading their settings following a configuration change. 
-
+Specifies what action needs to be taken when notifying WDS transport services, such as rereading their settings following a configuration change.
 
 ## -enum-fields
 
-
-
-
-### -field WdsTptServiceNotifyUnknown
+### -field WdsTptServiceNotifyUnknown:0
 
 Default value that indicates that the notification type is not known.
 
-
-### -field WdsTptServiceNotifyReadSettings
+### -field WdsTptServiceNotifyReadSettings:1
 
 Specifies that the WDS transport services should reread their settings to pick up recent updates.
 

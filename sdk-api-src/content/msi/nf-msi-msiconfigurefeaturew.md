@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiConfigureFeatureW
 title: MsiConfigureFeatureW function (msi.h)
-description: The MsiConfigureFeature function configures the installed state for a product feature.
+description: The MsiConfigureFeature function configures the installed state for a product feature. (Unicode)
+helpviewer_keywords: ["INSTALLSTATE_ABSENT", "INSTALLSTATE_ADVERTISED", "INSTALLSTATE_DEFAULT", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MsiConfigureFeature", "MsiConfigureFeature function", "MsiConfigureFeatureW", "_msi_msiconfigurefeature", "msi/MsiConfigureFeature", "msi/MsiConfigureFeatureW", "setup.msiconfigurefeature"]
 old-location: setup\msiconfigurefeature.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 067d6fbb-833f-4e0e-bfdb-18d1b8608f58
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureFeature, MsiConfigureFeature function, MsiConfigureFeatureA, MsiConfigureFeatureW, _msi_msiconfigurefeature, msi/MsiConfigureFeature, msi/MsiConfigureFeatureA, msi/MsiConfigureFeatureW, setup.msiconfigurefeature
-f1_keywords:
-- msi/MsiConfigureFeature
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiConfigureFeature
-- MsiConfigureFeatureA
-- MsiConfigureFeatureW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiConfigureFeatureW
+ - msi/MsiConfigureFeatureW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiConfigureFeature
+ - MsiConfigureFeatureA
+ - MsiConfigureFeatureW
 ---
 
 # MsiConfigureFeatureW function
@@ -50,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiConfigureFeature</b> function configures the installed state for a product feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product to be configured.
 
-
 ### -param szFeature [in]
 
 Specifies the feature ID for the feature to be configured.
-
 
 ### -param eInstallState [in]
 
@@ -132,12 +127,8 @@ The feature is installed to its default location.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -174,14 +165,14 @@ The function succeeds.
 </td>
 <td width="60%">
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
+<dt><b><a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -190,34 +181,28 @@ An error that relates to the initialization has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
+<a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
+<a href="/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
-
+> [!NOTE]
+> The msi.h header defines MsiConfigureFeature as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

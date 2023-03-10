@@ -2,15 +2,12 @@
 UID: NF:ehstorapi.IEnumEnhancedStorageACT.GetMatchingACT
 title: IEnumEnhancedStorageACT::GetMatchingACT (ehstorapi.h)
 description: Returns the Addressable Command Target (ACT) associated with the volume specified via the string supplied by the client.
+helpviewer_keywords: ["GetMatchingACT","GetMatchingACT method [Enhanced Storage]","GetMatchingACT method [Enhanced Storage]","IEnumEnhancedStorageACT interface","IEnumEnhancedStorageACT interface [Enhanced Storage]","GetMatchingACT method","IEnumEnhancedStorageACT.GetMatchingACT","IEnumEnhancedStorageACT::GetMatchingACT","ehstorapi/IEnumEnhancedStorageACT::GetMatchingACT","enstor.ienumenhancedstorageact_getmatchingact"]
 old-location: enstor\ienumenhancedstorageact_getmatchingact.htm
 tech.root: enstor
 ms.assetid: 13c0475e-a73a-4e26-b6ec-6b9cb19e23f3
 ms.date: 12/05/2018
 ms.keywords: GetMatchingACT, GetMatchingACT method [Enhanced Storage], GetMatchingACT method [Enhanced Storage],IEnumEnhancedStorageACT interface, IEnumEnhancedStorageACT interface [Enhanced Storage],GetMatchingACT method, IEnumEnhancedStorageACT.GetMatchingACT, IEnumEnhancedStorageACT::GetMatchingACT, ehstorapi/IEnumEnhancedStorageACT::GetMatchingACT, enstor.ienumenhancedstorageact_getmatchingact
-f1_keywords:
-- ehstorapi/IEnumEnhancedStorageACT.GetMatchingACT
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnumEnhancedStorageACT.GetMatchingACT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumEnhancedStorageACT::GetMatchingACT
+ - ehstorapi/IEnumEnhancedStorageACT::GetMatchingACT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnumEnhancedStorageACT.GetMatchingACT
 ---
 
 # IEnumEnhancedStorageACT::GetMatchingACT
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the Addressable Command Target (ACT) associated with the volume specified via the string supplied by the client.
 
-
 ## -parameters
-
-
-
 
 ### -param szVolume [in]
 
 A string that specifies the volume for which a matching ACT is searched for.
 
-
 ### -param ppIEnhancedStorageACT [out]
 
 Pointer to an <b>IEnhancedStorageACT</b> interface pointer that represents the matching ACT. If no matching ACT is found the error <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b> is returned.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,27 +127,11 @@ Enhanced storage is not supported on the device containing <i>szVolume</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method can also be utilized by the client to determine if the specified volume resides on, and is represented by an IEEE 1667 ACT.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>

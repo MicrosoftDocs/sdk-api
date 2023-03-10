@@ -1,16 +1,13 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_DefaultInputArea
 title: ITextInputPanel::get_DefaultInputArea (peninputpanel.h)
-description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.
+description: Gets or sets the default input area as specified by the PanelInputArea Enumeration. (Get)
+helpviewer_keywords: ["3e221516-631a-4d15-a9ef-bd05c6928067","DefaultInputArea property [Tablet PC]","DefaultInputArea property [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","DefaultInputArea property","ITextInputPanel.DefaultInputArea","ITextInputPanel.get_DefaultInputArea","ITextInputPanel.put_DefaultInputArea","ITextInputPanel::DefaultInputArea","ITextInputPanel::get_DefaultInputArea","ITextInputPanel::put_DefaultInputArea","get_DefaultInputArea","peninputpanel/ITextInputPanel::DefaultInputArea","peninputpanel/ITextInputPanel::get_DefaultInputArea","peninputpanel/ITextInputPanel::put_DefaultInputArea","tablet.itextinputpanel_defaultinputarea"]
 old-location: tablet\itextinputpanel_defaultinputarea.htm
 tech.root: tablet
 ms.assetid: 3e221516-631a-4d15-a9ef-bd05c6928067
 ms.date: 12/05/2018
 ms.keywords: 3e221516-631a-4d15-a9ef-bd05c6928067, DefaultInputArea property [Tablet PC], DefaultInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInputArea property, ITextInputPanel.DefaultInputArea, ITextInputPanel.get_DefaultInputArea, ITextInputPanel.put_DefaultInputArea, ITextInputPanel::DefaultInputArea, ITextInputPanel::get_DefaultInputArea, ITextInputPanel::put_DefaultInputArea, get_DefaultInputArea, peninputpanel/ITextInputPanel::DefaultInputArea, peninputpanel/ITextInputPanel::get_DefaultInputArea, peninputpanel/ITextInputPanel::put_DefaultInputArea, tablet.itextinputpanel_defaultinputarea
-f1_keywords:
-- peninputpanel/ITextInputPanel.DefaultInputArea
-dev_langs:
-- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITextInputPanel.DefaultInputArea
-- ITextInputPanel.get_DefaultInputArea
-- ITextInputPanel.put_DefaultInputArea
-- ITextInputPanel.get_DefaultInputArea
-- ITextInputPanel.put_DefaultInputArea
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextInputPanel::get_DefaultInputArea
+ - peninputpanel/ITextInputPanel::get_DefaultInputArea
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITextInputPanel.DefaultInputArea
+ - ITextInputPanel.get_DefaultInputArea
+ - ITextInputPanel.put_DefaultInputArea
+ - ITextInputPanel.get_DefaultInputArea
+ - ITextInputPanel.put_DefaultInputArea
 ---
 
 # ITextInputPanel::get_DefaultInputArea
@@ -52,32 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
+<p class="CCE_Message">[<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>.
 
 ]
 
 
-Gets or sets the default input area as specified by the <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
+Gets or sets the default input area as specified by the <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea Enumeration</a>.
 
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-The system default is <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
+The system default is <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-panelinputarea">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
 
 
 #### Examples
 
-This C++ example creates an <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, and attaches it to the window handle of an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, <code>IDC_EDIT3</code>, by setting the <a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_attachededitwindow">ITextInputPanel::AttachedEditWindow Property</a> property. It also sets, then gets the <b>ITextInputPanel::DefaultInputArea Property</b>.
+This C++ example creates an <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel</a> object, <code>g_pTip</code>, and attaches it to the window handle of an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, <code>IDC_EDIT3</code>, by setting the <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_attachededitwindow">ITextInputPanel::AttachedEditWindow Property</a> property. It also sets, then gets the <b>ITextInputPanel::DefaultInputArea Property</b>.
 
 
 
@@ -126,17 +123,6 @@ if (SUCCEEDED(CoInitialize(NULL)))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>

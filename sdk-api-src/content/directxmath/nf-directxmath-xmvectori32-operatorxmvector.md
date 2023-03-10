@@ -1,14 +1,12 @@
 ---
-UID: NF:directxmath.XMVECTORI32.operator XMVECTOR
+UID: NF:directxmath.XMVECTORI32.operator-cast-XMVECTOR
 title: XMVECTORI32::operator XMVECTOR
 description: Returns the instance of XMVECTOR implementing the current instance of XMVECTORI32.
+tech.root: dxmath
+helpviewer_keywords: ["XMVECTORI32::operator XMVECTOR"]
 ms.assetid: 60a69815-98eb-4784-9ed2-60a6f41cf35d
 ms.date: 05/13/2019
 ms.keywords: XMVECTORI32::operator XMVECTOR
-f1_keywords:
-- directxmath/XMVECTORI32::operator XMVECTOR
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMVECTORI32::operator XMVECTOR
+ - directxmath/XMVECTORI32::operator XMVECTOR
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- XMVECTORI32::operator XMVECTOR
+ - XMVECTORI32::operator XMVECTOR
 ---
 
 # XMVECTORI32::operator XMVECTOR
+
 
 ## -description
 
@@ -49,10 +53,12 @@ The operator **XMVECTOR** returns the instance of **XMVECTOR** implementing the 
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
+
+
 ## -remarks
 
 Returns the instance of **XMVECTOR** implementing the current instance of **XMVECTORI32**.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>

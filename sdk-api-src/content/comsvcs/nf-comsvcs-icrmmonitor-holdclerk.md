@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmMonitor.HoldClerk
 title: ICrmMonitor::HoldClerk (comsvcs.h)
 description: Retrieves a pointer on the specified clerk.
+helpviewer_keywords: ["HoldClerk","HoldClerk method [COM+]","HoldClerk method [COM+]","ICrmMonitor interface","ICrmMonitor interface [COM+]","HoldClerk method","ICrmMonitor.HoldClerk","ICrmMonitor::HoldClerk","_dtc_ICrmMonitor_HoldClerk","comsvcs/ICrmMonitor::HoldClerk","cos.icrmmonitor_holdclerk"]
 old-location: cos\icrmmonitor_holdclerk.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 8e0f5197-d423-4b74-aaa1-2ec60e01d75c
 ms.date: 12/05/2018
 ms.keywords: HoldClerk, HoldClerk method [COM+], HoldClerk method [COM+],ICrmMonitor interface, ICrmMonitor interface [COM+],HoldClerk method, ICrmMonitor.HoldClerk, ICrmMonitor::HoldClerk, _dtc_ICrmMonitor_HoldClerk, comsvcs/ICrmMonitor::HoldClerk, cos.icrmmonitor_holdclerk
-f1_keywords:
-- comsvcs/ICrmMonitor.HoldClerk
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitor.HoldClerk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitor::HoldClerk
+ - comsvcs/ICrmMonitor::HoldClerk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitor.HoldClerk
 ---
 
 # ICrmMonitor::HoldClerk
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer on the specified clerk.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 A <b>VARIANT</b> string containing the instance CLSID of the required CRM clerk.
 
-
 ### -param pItem [out]
 
-A <b>VARIANT</b> <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer returning the interface to the specified CRM clerk.
-
+A <b>VARIANT</b> <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer returning the interface to the specified CRM clerk.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -112,18 +105,7 @@ The specified CRM clerk was not found. It may have completed before it could be 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitor">ICrmMonitor</a>

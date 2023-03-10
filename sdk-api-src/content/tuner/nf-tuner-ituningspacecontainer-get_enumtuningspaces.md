@@ -2,15 +2,12 @@
 UID: NF:tuner.ITuningSpaceContainer.get_EnumTuningSpaces
 title: ITuningSpaceContainer::get_EnumTuningSpaces (tuner.h)
 description: The get_EnumTuningSpaces method retrieves a collection of all tuning spaces available on the local system.
+helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","get_EnumTuningSpaces method","ITuningSpaceContainer.get_EnumTuningSpaces","ITuningSpaceContainer::get_EnumTuningSpaces","ITuningSpaceContainerget_EnumTuningSpaces","get_EnumTuningSpaces","get_EnumTuningSpaces method [Microsoft TV Technologies]","get_EnumTuningSpaces method [Microsoft TV Technologies]","ITuningSpaceContainer interface","mstv.ituningspacecontainer_get_enumtuningspaces","tuner/ITuningSpaceContainer::get_EnumTuningSpaces"]
 old-location: mstv\ituningspacecontainer_get_enumtuningspaces.htm
 tech.root: mstv
 ms.assetid: 7cd6a691-8c47-4c26-8afd-57f6965246ff
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaceContainer.get_EnumTuningSpaces, ITuningSpaceContainer::get_EnumTuningSpaces, ITuningSpaceContainerget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_enumtuningspaces, tuner/ITuningSpaceContainer::get_EnumTuningSpaces
-f1_keywords:
-- tuner/ITuningSpaceContainer.get_EnumTuningSpaces
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- ITuningSpaceContainer.get_EnumTuningSpaces
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITuningSpaceContainer::get_EnumTuningSpaces
+ - tuner/ITuningSpaceContainer::get_EnumTuningSpaces
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - ITuningSpaceContainer.get_EnumTuningSpaces
 ---
 
 # ITuningSpaceContainer::get_EnumTuningSpaces
@@ -48,48 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_EnumTuningSpaces</b> method retrieves a collection of all tuning spaces available on the local system.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Pointer to a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces</a> interface pointer. Use this interface to enumerate the collection. The caller must release the interface.
-
+Pointer to a variable that receives an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces</a> interface pointer. Use this interface to enumerate the collection. The caller must release the interface.
 
 ## -returns
 
-
-
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
-
-
-
 
 ## -remarks
 
-
-
 C++ applications use this method to get the initial list of tuning spaces defined on the local system.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>

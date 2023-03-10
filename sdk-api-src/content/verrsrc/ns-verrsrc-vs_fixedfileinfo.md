@@ -2,15 +2,12 @@
 UID: NS:verrsrc.tagVS_FIXEDFILEINFO
 title: VS_FIXEDFILEINFO (verrsrc.h)
 description: Contains version information for a file. This information is language and code page independent.
+helpviewer_keywords: ["VFT2_DRV_COMM","VFT2_DRV_DISPLAY","VFT2_DRV_INSTALLABLE","VFT2_DRV_KEYBOARD","VFT2_DRV_LANGUAGE","VFT2_DRV_MOUSE","VFT2_DRV_NETWORK","VFT2_DRV_PRINTER","VFT2_DRV_SOUND","VFT2_DRV_SYSTEM","VFT2_DRV_VERSIONED_PRINTER","VFT2_FONT_RASTER","VFT2_FONT_TRUETYPE","VFT2_FONT_VECTOR","VFT2_UNKNOWN","VFT_APP","VFT_DLL","VFT_DRV","VFT_FONT","VFT_STATIC_LIB","VFT_UNKNOWN","VFT_VXD","VOS_DOS","VOS_DOS_WINDOWS16","VOS_DOS_WINDOWS32","VOS_NT","VOS_NT_WINDOWS32","VOS_OS216","VOS_OS216_PM16","VOS_OS232","VOS_OS232_PM32","VOS_UNKNOWN","VOS__PM16","VOS__PM32","VOS__WINDOWS16","VOS__WINDOWS32","VS_FF_DEBUG","VS_FF_INFOINFERRED","VS_FF_PATCHED","VS_FF_PRERELEASE","VS_FF_PRIVATEBUILD","VS_FF_SPECIALBUILD","VS_FIXEDFILEINFO","VS_FIXEDFILEINFO structure [Menus and Other Resources]","_win32_VS_FIXEDFILEINFO_str","_win32_vs_fixedfileinfo_str_cpp","menurc.vs_fixedfileinfo","verrsrc/VS_FIXEDFILEINFO","winui._win32_vs_fixedfileinfo_str"]
 old-location: menurc\vs_fixedfileinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationstructures\vs_fixedfileinfo.htm
 ms.date: 12/05/2018
 ms.keywords: VFT2_DRV_COMM, VFT2_DRV_DISPLAY, VFT2_DRV_INSTALLABLE, VFT2_DRV_KEYBOARD, VFT2_DRV_LANGUAGE, VFT2_DRV_MOUSE, VFT2_DRV_NETWORK, VFT2_DRV_PRINTER, VFT2_DRV_SOUND, VFT2_DRV_SYSTEM, VFT2_DRV_VERSIONED_PRINTER, VFT2_FONT_RASTER, VFT2_FONT_TRUETYPE, VFT2_FONT_VECTOR, VFT2_UNKNOWN, VFT_APP, VFT_DLL, VFT_DRV, VFT_FONT, VFT_STATIC_LIB, VFT_UNKNOWN, VFT_VXD, VOS_DOS, VOS_DOS_WINDOWS16, VOS_DOS_WINDOWS32, VOS_NT, VOS_NT_WINDOWS32, VOS_OS216, VOS_OS216_PM16, VOS_OS232, VOS_OS232_PM32, VOS_UNKNOWN, VOS__PM16, VOS__PM32, VOS__WINDOWS16, VOS__WINDOWS32, VS_FF_DEBUG, VS_FF_INFOINFERRED, VS_FF_PATCHED, VS_FF_PRERELEASE, VS_FF_PRIVATEBUILD, VS_FF_SPECIALBUILD, VS_FIXEDFILEINFO, VS_FIXEDFILEINFO structure [Menus and Other Resources], _win32_VS_FIXEDFILEINFO_str, _win32_vs_fixedfileinfo_str_cpp, menurc.vs_fixedfileinfo, verrsrc/VS_FIXEDFILEINFO, winui._win32_vs_fixedfileinfo_str
-f1_keywords:
-- verrsrc/VS_FIXEDFILEINFO
-dev_langs:
-- c++
 req.header: verrsrc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- VerRsrc.h
-api_name:
-- VS_FIXEDFILEINFO
 targetos: Windows
 req.typenames: VS_FIXEDFILEINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagVS_FIXEDFILEINFO
+ - verrsrc/tagVS_FIXEDFILEINFO
+ - VS_FIXEDFILEINFO
+ - verrsrc/VS_FIXEDFILEINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - VerRsrc.h
+api_name:
+ - VS_FIXEDFILEINFO
 ---
 
 # VS_FIXEDFILEINFO structure
@@ -48,69 +52,57 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains version information for a file. This information is language and code page independent. 
-
+Contains version information for a file. This information is language and code page independent.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSignature
 
 Type: <b>DWORD</b>
 
 Contains the value 0xFEEF04BD. This is used with the 
-					<b>szKey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> structure when searching a file for the <b>VS_FIXEDFILEINFO</b> structure. 
-
+					<b>szKey</b> member of the <a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> structure when searching a file for the <b>VS_FIXEDFILEINFO</b> structure.
 
 ### -field dwStrucVersion
 
 Type: <b>DWORD</b>
 
-The binary version number of this structure. The high-order word of this member contains the major version number, and the low-order word contains the minor version number. 
-
+The binary version number of this structure. The high-order word of this member contains the major version number, and the low-order word contains the minor version number.
 
 ### -field dwFileVersionMS
 
 Type: <b>DWORD</b>
 
 The most significant 32 bits of the file's binary version number. This member is used with 
-					<b>dwFileVersionLS</b> to form a 64-bit value used for numeric comparisons. 
-
+					<b>dwFileVersionLS</b> to form a 64-bit value used for numeric comparisons.
 
 ### -field dwFileVersionLS
 
 Type: <b>DWORD</b>
 
 The least significant 32 bits of the file's binary version number. This member is used with 
-					<b>dwFileVersionMS</b> to form a 64-bit value used for numeric comparisons. 
-
+					<b>dwFileVersionMS</b> to form a 64-bit value used for numeric comparisons.
 
 ### -field dwProductVersionMS
 
 Type: <b>DWORD</b>
 
 The most significant 32 bits of the binary version number of the product with which this file was distributed. This member is used with 
-					<b>dwProductVersionLS</b> to form a 64-bit value used for numeric comparisons. 
-
+					<b>dwProductVersionLS</b> to form a 64-bit value used for numeric comparisons.
 
 ### -field dwProductVersionLS
 
 Type: <b>DWORD</b>
 
 The least significant 32 bits of the binary version number of the product with which this file was distributed. This member is used with 
-					<b>dwProductVersionMS</b> to form a 64-bit value used for numeric comparisons. 
-
+					<b>dwProductVersionMS</b> to form a 64-bit value used for numeric comparisons.
 
 ### -field dwFileFlagsMask
 
 Type: <b>DWORD</b>
 
 Contains a bitmask that specifies the valid bits in 
-					<b>dwFileFlags</b>. A bit is valid only if it was defined when the file was created. 
-
+					<b>dwFileFlags</b>. A bit is valid only if it was defined when the file was created.
 
 ### -field dwFileFlags
 
@@ -141,7 +133,7 @@ The file contains debugging information or is compiled with debugging features e
 </dl>
 </td>
 <td width="60%">
-The file's version structure was created dynamically; therefore, some of the members in this structure may be empty or incorrect. This flag should never be set in a file's <a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> data.
+The file's version structure was created dynamically; therefore, some of the members in this structure may be empty or incorrect. This flag should never be set in a file's <a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> data.
 
 </td>
 </tr>
@@ -174,7 +166,7 @@ The file is a development version, not a commercially released product.
 </dl>
 </td>
 <td width="60%">
-The file was not built using standard release procedures. If this flag is set, the <a href="https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a PrivateBuild entry.
+The file was not built using standard release procedures. If this flag is set, the <a href="/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a PrivateBuild entry.
 
 </td>
 </tr>
@@ -185,13 +177,11 @@ The file was not built using standard release procedures. If this flag is set, t
 </dl>
 </td>
 <td width="60%">
-The file was built by the original company using standard release procedures but is a variation of the normal file of the same version number. If this flag is set, the <a href="https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a SpecialBuild entry.
+The file was built by the original company using standard release procedures but is a variation of the normal file of the same version number. If this flag is set, the <a href="/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a SpecialBuild entry.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFileOS
 
@@ -373,8 +363,6 @@ The file was designed for 32-bit Presentation Manager running on 32-bit OS/2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFileType
 
@@ -469,8 +457,6 @@ The file contains a virtual device.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFileSubtype
 
@@ -694,25 +680,19 @@ If
 All 
 						<b>dwFileSubtype</b> values not listed here are reserved.
 
-
 ### -field dwFileDateMS
 
 Type: <b>DWORD</b>
 
-The most significant 32 bits of the file's 64-bit binary creation date and time stamp. 
-
+The most significant 32 bits of the file's 64-bit binary creation date and time stamp.
 
 ### -field dwFileDateLS
 
 Type: <b>DWORD</b>
 
-The least significant 32 bits of the file's 64-bit binary creation date and time stamp. 
-
+The least significant 32 bits of the file's 64-bit binary creation date and time stamp.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -722,20 +702,16 @@ The least significant 32 bits of the file's 64-bit binary creation date and time
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/string-str">String</a>
+<a href="/windows/desktop/menurc/string-str">String</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo">StringFileInfo</a>
+<a href="/windows/desktop/menurc/stringfileinfo">StringFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
+<a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/version-information">Version Information</a>

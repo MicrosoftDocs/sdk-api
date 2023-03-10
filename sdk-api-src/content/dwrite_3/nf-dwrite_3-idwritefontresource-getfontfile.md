@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontResource.GetFontFile
 title: IDWriteFontResource::GetFontFile
 description: Retrieves the font file of the resource.
+helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","GetFontFile method","IDWriteFontResource.GetFontFile","IDWriteFontResource::GetFontFile","GetFontFile","GetFontFile method [Direct Write]","GetFontFile method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_getfontfile","dwrite_3/IDWriteFontResource::GetFontFile"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontFile method, IDWriteFontResource.GetFontFile, IDWriteFontResource::GetFontFile, GetFontFile, GetFontFile method [Direct Write], GetFontFile method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontfile, dwrite_3/IDWriteFontResource::GetFontFile
-f1_keywords:
-- dwrite_3/IDWriteFontResource.GetFontFile
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontResource::GetFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontResource::GetFontFile
+ - dwrite_3/IDWriteFontResource::GetFontFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontResource::GetFontFile
 ---
 
 ## -description
@@ -50,9 +52,9 @@ Retrieves the font file of the resource.
 
 ### -param fontFile [out]
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\*\***
+Type: **[IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md)\*\***
 
-The address of a pointer to an [IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile) interface. On successful completion, the function sets the pointer to the font file object.
+The address of a pointer to an [IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md) interface. On successful completion, the function sets the pointer to the font file object.
 
 ## -returns
 

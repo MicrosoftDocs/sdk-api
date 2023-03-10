@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS
 title: IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS (mfidl.h)
 description: Completes an asynchronous request to register the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
+helpviewer_keywords: ["42eb1a1c-3287-4dee-ab95-fd047a16e345","EndRegisterTopologyWorkQueuesWithMMCSS","EndRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","EndRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","EndRegisterTopologyWorkQueuesWithMMCSS method","IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS","IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS","mf.imfworkqueueservices_endregistertopologyworkqueueswithmmcss","mfidl/IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS"]
 old-location: mf\imfworkqueueservices_endregistertopologyworkqueueswithmmcss.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 42eb1a1c-3287-4dee-ab95-fd047a16e345
 ms.date: 12/05/2018
 ms.keywords: 42eb1a1c-3287-4dee-ab95-fd047a16e345, EndRegisterTopologyWorkQueuesWithMMCSS, EndRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation], EndRegisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],EndRegisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS, mf.imfworkqueueservices_endregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS
-f1_keywords:
-- mfidl/IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS
+ - mfidl/IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS
 ---
 
 # IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Completes an asynchronous request to register the topology work queues with the Multimedia Class Scheduler Service (MMCSS).
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pResult [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,27 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call this method when the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss">IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS</a> method completes asynchronously.
-
-
-
+Call this method when the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss">IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS</a> method completes asynchronously.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>

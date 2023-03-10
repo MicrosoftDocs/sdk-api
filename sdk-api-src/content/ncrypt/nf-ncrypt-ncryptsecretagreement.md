@@ -1,16 +1,13 @@
 ---
 UID: NF:ncrypt.NCryptSecretAgreement
 title: NCryptSecretAgreement function (ncrypt.h)
-description: Creates a secret agreement value from a private and a public key.
+description: Creates a secret agreement value from a private and a public key. (NCryptSecretAgreement)
+helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptSecretAgreement","NCryptSecretAgreement function [Security]","ncrypt/NCryptSecretAgreement","security.ncryptsecretagreement"]
 old-location: security\ncryptsecretagreement.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: b5bf3eac-1fae-43e2-84b6-e8e5e255d7c5
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
-f1_keywords:
-- ncrypt/NCryptSecretAgreement
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptSecretAgreement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptSecretAgreement
+ - ncrypt/NCryptSecretAgreement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptSecretAgreement
 ---
 
 # NCryptSecretAgreement function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptSecretAgreement</b> function creates a secret agreement value from a private and a public key.
-
 
 ## -parameters
 
-
-
-
 ### -param hPrivKey [in]
 
-The handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> to use to create the secret agreement value. This key and the <i>hPubKey</i> key must come from the same key storage provider.
-
+The handle of the <a href="/windows/desktop/SecGloss/p-gly">private key</a> to use to create the secret agreement value. This key and the <i>hPubKey</i> key must come from the same key storage provider.
 
 ### -param hPubKey [in]
 
-The handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> to use to create the secret agreement value. This key and the <i>hPrivKey</i> key must come from the same key storage provider.
-
+The handle of the <a href="/windows/desktop/SecGloss/p-gly">public key</a> to use to create the secret agreement value. This key and the <i>hPrivKey</i> key must come from the same key storage provider.
 
 ### -param phAgreedSecret [out]
 
-A pointer to an <b>NCRYPT_SECRET_HANDLE</b> variable that receives a handle that represents the secret agreement value. When this handle is no longer needed, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
-
+A pointer to an <b>NCRYPT_SECRET_HANDLE</b> variable that receives a handle that represents the secret agreement value. When this handle is no longer needed, release it by passing it to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
 
 ### -param dwFlags [in]
 
@@ -92,12 +86,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -156,27 +146,11 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a>

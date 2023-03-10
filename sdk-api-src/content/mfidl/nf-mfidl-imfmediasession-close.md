@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSession.Close
 title: IMFMediaSession::Close (mfidl.h)
 description: Closes the Media Session and releases all of the resources it is using.
+helpviewer_keywords: ["6ed118ae-7538-4ef6-81fc-b762f709838f","Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","Close method","IMFMediaSession.Close","IMFMediaSession::Close","mf.imfmediasession_close","mfidl/IMFMediaSession::Close"]
 old-location: mf\imfmediasession_close.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6ed118ae-7538-4ef6-81fc-b762f709838f
 ms.date: 12/05/2018
 ms.keywords: 6ed118ae-7538-4ef6-81fc-b762f709838f, Close, Close method [Media Foundation], Close method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],Close method, IMFMediaSession.Close, IMFMediaSession::Close, mf.imfmediasession_close, mfidl/IMFMediaSession::Close
-f1_keywords:
-- mfidl/IMFMediaSession.Close
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSession.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSession::Close
+ - mfidl/IMFMediaSession::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSession.Close
 ---
 
 # IMFMediaSession::Close
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Closes the Media Session and releases all of the resources it is using.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,57 +87,41 @@ The Media Session has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessionclosed">MESessionClosed</a> event.
+This method is asynchronous. When the operation completes, the Media Session sends an <a href="/windows/desktop/medfound/mesessionclosed">MESessionClosed</a> event.
 
 After the <b>Close</b> method is called, the only valid methods on the Media Session are the following:
 
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock">IMFMediaSession::GetClock</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock">IMFMediaSession::GetClock</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">IMFMediaSession::GetFullTopology</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology">IMFMediaSession::GetFullTopology</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getsessioncapabilities">IMFMediaSession::GetSessionCapabilities</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getsessioncapabilities">IMFMediaSession::GetSessionCapabilities</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">IMFMediaSession::Shutdown</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown">IMFMediaSession::Shutdown</a>
 
 
 </li>
 </ul>
 All other methods return MF_E_INVALIDREQUEST, or else queue an event with that error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>

@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IDeskBandInfo.GetDefaultBandWidth
 title: IDeskBandInfo::GetDefaultBandWidth (shobjidl_core.h)
 description: Gets the band width that the bandsite initially uses to set the default width when the band is added.
+helpviewer_keywords: ["DBIF_VIEWMODE_FLOATING","DBIF_VIEWMODE_NORMAL","DBIF_VIEWMODE_TRANSPARENT","DBIF_VIEWMODE_VERTICAL","GetDefaultBandWidth","GetDefaultBandWidth method [Windows Shell]","GetDefaultBandWidth method [Windows Shell]","IDeskBandInfo interface","IDeskBandInfo interface [Windows Shell]","GetDefaultBandWidth method","IDeskBandInfo.GetDefaultBandWidth","IDeskBandInfo::GetDefaultBandWidth","_shell_IDeskBandInfo_GetDefaultBandWidth","shell.IDeskBandInfo_GetDefaultBandWidth","shobjidl_core/IDeskBandInfo::GetDefaultBandWidth"]
 old-location: shell\IDeskBandInfo_GetDefaultBandWidth.htm
 tech.root: shell
 ms.assetid: 2a900f9d-4727-4279-867d-ec4ed17cd374
 ms.date: 12/05/2018
 ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPARENT, DBIF_VIEWMODE_VERTICAL, GetDefaultBandWidth, GetDefaultBandWidth method [Windows Shell], GetDefaultBandWidth method [Windows Shell],IDeskBandInfo interface, IDeskBandInfo interface [Windows Shell],GetDefaultBandWidth method, IDeskBandInfo.GetDefaultBandWidth, IDeskBandInfo::GetDefaultBandWidth, _shell_IDeskBandInfo_GetDefaultBandWidth, shell.IDeskBandInfo_GetDefaultBandWidth, shobjidl_core/IDeskBandInfo::GetDefaultBandWidth
-f1_keywords:
-- shobjidl_core/IDeskBandInfo.GetDefaultBandWidth
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDeskBandInfo.GetDefaultBandWidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeskBandInfo::GetDefaultBandWidth
+ - shobjidl_core/IDeskBandInfo::GetDefaultBandWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDeskBandInfo.GetDefaultBandWidth
 ---
 
 # IDeskBandInfo::GetDefaultBandWidth
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>GetDefaultBandWidth</b> may be altered or unavailable in subsequent versions of the operating system or product.]
 
 Gets the band width that the bandsite initially uses to set the default width when the band is added.
 
-
 ## -parameters
-
-
-
 
 ### -param dwBandID [in]
 
 Type: <b>DWORD</b>
 
 The band ID.
-
 
 ### -param dwViewMode [in]
 
@@ -96,21 +92,15 @@ The band object is being displayed in a floating band.
 
 The band object is being displayed in a transparent band.
 
-
 ### -param pnWidth [out]
 
 Type: <b>int*</b>
 
 A pointer to the band width.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

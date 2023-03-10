@@ -1,16 +1,13 @@
 ---
 UID: NF:clusapi.OpenClusterNetwork
 title: OpenClusterNetwork function (clusapi.h)
-description: Opens a connection to a network and returns a handle to it.
+description: Opens a connection to a network and returns a handle to it. (OpenClusterNetwork)
+helpviewer_keywords: ["OpenClusterNetwork","OpenClusterNetwork function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_NETWORK","PCLUSAPI_OPEN_CLUSTER_NETWORK function [Failover Cluster]","_wolf_openclusternetwork","clusapi/OpenClusterNetwork","clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK","mscs.openclusternetwork"]
 old-location: mscs\openclusternetwork.htm
 tech.root: MsCS
 ms.assetid: a888ca91-e56f-42bc-81c5-9235c6fd5172
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNetwork, OpenClusterNetwork function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETWORK, PCLUSAPI_OPEN_CLUSTER_NETWORK function [Failover Cluster], _wolf_openclusternetwork, clusapi/OpenClusterNetwork, clusapi/PCLUSAPI_OPEN_CLUSTER_NETWORK, mscs.openclusternetwork
-f1_keywords:
-- clusapi/OpenClusterNetwork
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OpenClusterNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenClusterNetwork
+ - clusapi/OpenClusterNetwork
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OpenClusterNetwork
 ---
 
 # OpenClusterNetwork function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Opens a connection to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> and returns a handle 
+Opens a connection to a <a href="/previous-versions/windows/desktop/mscs/networks">network</a> and returns a handle 
     to it. The <b>PCLUSAPI_OPEN_CLUSTER_NETWORK</b> type defines a pointer to this function.
-
 
 ## -parameters
 
-
-
-
 ### -param hCluster [in]
 
-Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
-
+Handle to a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -param lpszNetworkName [in]
 
 Pointer to the name of an existing network.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -85,7 +78,7 @@ Pointer to the name of an existing network.
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -95,24 +88,14 @@ The operation was not successful. For more information about the error, call the
 If the operation was successful, 
        <b>OpenClusterNetwork</b> returns a network handle.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusternetwork">CloseClusterNetwork</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternetwork">CloseClusterNetwork</a>
+<a href="/previous-versions/windows/desktop/mscs/network-management-functions">Failover Cluster Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-management-functions">Failover Cluster Network Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetworkex">OpenClusterNetworkEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetworkex">OpenClusterNetworkEx</a>

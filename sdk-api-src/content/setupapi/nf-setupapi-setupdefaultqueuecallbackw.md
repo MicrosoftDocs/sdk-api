@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupDefaultQueueCallbackW
 title: SetupDefaultQueueCallbackW function (setupapi.h)
-description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function.
+description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function. (Unicode)
+helpviewer_keywords: ["SPFILENOTIFY_COPYERROR", "SPFILENOTIFY_DELETEERROR", "SPFILENOTIFY_ENDCOPY", "SPFILENOTIFY_ENDDELETE", "SPFILENOTIFY_ENDQUEUE", "SPFILENOTIFY_ENDRENAME", "SPFILENOTIFY_ENDSUBQUEUE", "SPFILENOTIFY_LANGMISMATCH", "SPFILENOTIFY_NEEDMEDIA", "SPFILENOTIFY_RENAMEERROR", "SPFILENOTIFY_STARTCOPY", "SPFILENOTIFY_STARTDELETE", "SPFILENOTIFY_STARTQUEUE", "SPFILENOTIFY_STARTRENAME", "SPFILENOTIFY_STARTSUBQUEUE", "SPFILENOTIFY_TARGETEXISTS", "SPFILENOTIFY_TARGETNEWER", "SetupDefaultQueueCallback", "SetupDefaultQueueCallback function [Setup API]", "SetupDefaultQueueCallbackW", "_setupapi_setupdefaultqueuecallback", "setup.setupdefaultqueuecallback", "setupapi/SetupDefaultQueueCallback", "setupapi/SetupDefaultQueueCallbackW"]
 old-location: setup\setupdefaultqueuecallback.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: e03f43b9-fe34-4340-86f3-c353df6c6db0
 ms.date: 12/05/2018
 ms.keywords: SPFILENOTIFY_COPYERROR, SPFILENOTIFY_DELETEERROR, SPFILENOTIFY_ENDCOPY, SPFILENOTIFY_ENDDELETE, SPFILENOTIFY_ENDQUEUE, SPFILENOTIFY_ENDRENAME, SPFILENOTIFY_ENDSUBQUEUE, SPFILENOTIFY_LANGMISMATCH, SPFILENOTIFY_NEEDMEDIA, SPFILENOTIFY_RENAMEERROR, SPFILENOTIFY_STARTCOPY, SPFILENOTIFY_STARTDELETE, SPFILENOTIFY_STARTQUEUE, SPFILENOTIFY_STARTRENAME, SPFILENOTIFY_STARTSUBQUEUE, SPFILENOTIFY_TARGETEXISTS, SPFILENOTIFY_TARGETNEWER, SetupDefaultQueueCallback, SetupDefaultQueueCallback function [Setup API], SetupDefaultQueueCallbackA, SetupDefaultQueueCallbackW, _setupapi_setupdefaultqueuecallback, setup.setupdefaultqueuecallback, setupapi/SetupDefaultQueueCallback, setupapi/SetupDefaultQueueCallbackA, setupapi/SetupDefaultQueueCallbackW
-f1_keywords:
-- setupapi/SetupDefaultQueueCallback
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
-api_name:
-- SetupDefaultQueueCallback
-- SetupDefaultQueueCallbackA
-- SetupDefaultQueueCallbackW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDefaultQueueCallbackW
+ - setupapi/SetupDefaultQueueCallbackW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+ - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+api_name:
+ - SetupDefaultQueueCallback
+ - SetupDefaultQueueCallbackA
+ - SetupDefaultQueueCallbackW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupDefaultQueueCallbackW function
@@ -51,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupDefaultQueueCallback</b> function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> function.
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> function.
 
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 Pointer to the context initialized by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a> functions.
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a> functions.
 
 ### -param Notification [in]
 
@@ -253,25 +250,19 @@ Existing target file is newer than source.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Param1 [in]
 
 Additional message information. The content of this parameter depends on the value of the <i>Notification</i> parameter.
 
-
 ### -param Param2 [in]
 
 Additional message information. The content of this parameter depends on the value of the <i>Notification</i> parameter.
 
-
 ## -returns
 
-
-
 Returns an unsigned integer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> that can be the one of the values shown in the following table.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> that can be the one of the values shown in the following table.
 
 <table>
 <tr>
@@ -337,40 +328,32 @@ Gets a new path for the operation.
  
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The 
 <b>SetupDefaultQueueCallback</b> function is usually only called explicitly by a custom queue callback routine. The custom callback handles a subset of the queue commit notifications and calls the 
 <b>SetupDefaultQueueCallback</b> function to handle the rest of the notifications.
 
 For more information see, 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/queue-notifications">Queue Notifications</a>.
+<a href="/windows/desktop/SetupApi/queue-notifications">Queue Notifications</a>.
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDefaultQueueCallback as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>

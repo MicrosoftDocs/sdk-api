@@ -2,15 +2,12 @@
 UID: NF:casetup.ICertSrvSetup.GetSupportedCATypes
 title: ICertSrvSetup::GetSupportedCATypes (casetup.h)
 description: Gets the types of certification authorities (CAs) that can be installed on a computer under the caller context.
+helpviewer_keywords: ["GetSupportedCATypes","GetSupportedCATypes method [Security]","GetSupportedCATypes method [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","GetSupportedCATypes method","ICertSrvSetup.GetSupportedCATypes","ICertSrvSetup::GetSupportedCATypes","casetup/ICertSrvSetup::GetSupportedCATypes","security.icertsrvsetup_getsupportedcatypes"]
 old-location: security\icertsrvsetup_getsupportedcatypes.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 404e5c34-f614-4555-9062-c28d4aac5c4b
 ms.date: 12/05/2018
 ms.keywords: GetSupportedCATypes, GetSupportedCATypes method [Security], GetSupportedCATypes method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetSupportedCATypes method, ICertSrvSetup.GetSupportedCATypes, ICertSrvSetup::GetSupportedCATypes, casetup/ICertSrvSetup::GetSupportedCATypes, security.icertsrvsetup_getsupportedcatypes
-f1_keywords:
-- casetup/ICertSrvSetup.GetSupportedCATypes
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetup.GetSupportedCATypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetup::GetSupportedCATypes
+ - casetup/ICertSrvSetup::GetSupportedCATypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetup.GetSupportedCATypes
 ---
 
 # ICertSrvSetup::GetSupportedCATypes
@@ -48,27 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetSupportedCATypes</b> method gets the types of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs) that can be installed on a computer under the caller context. This method does not change the state of the <b>CCertSrvSetup</b> object.
-
+The <b>GetSupportedCATypes</b> method gets the types of <a href="/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs) that can be installed on a computer under the caller context. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 ## -parameters
 
-
-
-
 ### -param pCATypes [out]
 
-A pointer to a <b>VARIANT</b> array of <b>VT_UI4</b> types that specify the supported CAs. The <a href="https://docs.microsoft.com/windows/desktop/api/certsrv/ne-certsrv-enum_catypes">ENUM_CATYPES</a> enumeration specifies the possible values for the array.
-
+A pointer to a <b>VARIANT</b> array of <b>VT_UI4</b> types that specify the supported CAs. The <a href="/windows/desktop/api/certsrv/ne-certsrv-enum_catypes">ENUM_CATYPES</a> enumeration specifies the possible values for the array.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

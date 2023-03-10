@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkCustomStrokes.Clear
 title: IInkCustomStrokes::Clear (msinkaut.h)
 description: Clears all InkStrokes collections from the IInkCustomStrokes collection.
+helpviewer_keywords: ["63ab20ee-f8ab-41ee-b85a-03d9a29dabc0","Clear","Clear method [Tablet PC]","Clear method [Tablet PC]","IInkCustomStrokes interface","IInkCustomStrokes interface [Tablet PC]","Clear method","IInkCustomStrokes.Clear","IInkCustomStrokes::Clear","msinkaut/IInkCustomStrokes::Clear","tablet.iinkcustomstrokes_clear"]
 old-location: tablet\iinkcustomstrokes_clear.htm
 tech.root: tablet
 ms.assetid: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0
 ms.date: 12/05/2018
 ms.keywords: 63ab20ee-f8ab-41ee-b85a-03d9a29dabc0, Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkCustomStrokes interface, IInkCustomStrokes interface [Tablet PC],Clear method, IInkCustomStrokes.Clear, IInkCustomStrokes::Clear, msinkaut/IInkCustomStrokes::Clear, tablet.iinkcustomstrokes_clear
-f1_keywords:
-- msinkaut/IInkCustomStrokes.Clear
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCustomStrokes.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCustomStrokes::Clear
+ - msinkaut/IInkCustomStrokes::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCustomStrokes.Clear
 ---
 
 # IInkCustomStrokes::Clear
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Clears all <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collections from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection.
-
-
-
-
-## -parameters
-
-
-
+Clears all <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collections from the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,18 +98,7 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>

@@ -2,6 +2,7 @@
 UID: NF:ntquery.CITextToFullTree
 title: CITextToFullTree function (ntquery.h)
 description: Creates a full command tree using Query Language 1.
+helpviewer_keywords: ["CITextToFullTree","CITextToFullTree function [Indexing Service]","_idxs_CITextToFullTree","indexsrv.citexttofulltree","ntquery/CITextToFullTree"]
 old-location: indexsrv\citexttofulltree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1mw5.htm
@@ -49,7 +50,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Creates a full command tree using Query Language 1.
 
@@ -89,7 +91,7 @@ Column names separated by a plus sign (+) are grouped in individual categories, 
 
 ### -param ppTree
 
-A pointer to an output variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure for the command tree built by the function. 
+A pointer to an output variable that receives a pointer to the <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure for the command tree built by the function. 
 
 
 ### -param cProperties
@@ -99,7 +101,7 @@ The number of properties in the <i>pProperties</i> array, or <b>NULL</b> if <i>p
 
 ### -param pProperties
 
-A pointer to an array of properties that can be referred to by friendly names in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
+A pointer to an array of properties that can be referred to by friendly names in the <i>pwszColumns</i>, <i>pwszSortColumns</i>, <i>pwszGroupings</i>, and <i>pwszRestriction</i> parameters. Column names in the <b>wcsFriendlyName</b> member of each <a href="/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a> structure must be specified in uppercase. This parameter can be <b>NULL</b> if no properties are being defined and <i>cProperties</i> is zero. Indexing Service's built-in properties do not need to be defined to be used. It is an error to define a property with the same friendly name as that of a built-in property.
 
 
 ### -param LocaleID
@@ -184,7 +186,7 @@ An unknown error has occurred.
 
 
 
-The query tree allocated by the <b>CITextToFullTree</b> function must be freed either with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-freecommandtree">ICommandTree::FreeCommandTree</a> method or passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
+The query tree allocated by the <b>CITextToFullTree</b> function must be freed either with the <a href="/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-freecommandtree">ICommandTree::FreeCommandTree</a> method or passed to the <a href="/previous-versions/windows/desktop/api/cmdtree/nf-cmdtree-icommandtree-setcommandtree">ICommandTree::SetCommandTree</a> method with the <i>fCopy</i> parameter set to <b>FALSE</b>.
 
 
 
@@ -235,7 +237,7 @@ if ( SUCCEEDED( hr ) )
 ```
 
 
-The following diagram shows the <i>pTree</i> parameter, created by the example code, of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure.
+The following diagram shows the <i>pTree</i> parameter, created by the example code, of the <a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a> structure.
 
 <img alt="" src="./images/dbcmdtr2.png"/>
 <div class="code"></div>
@@ -247,16 +249,15 @@ The following diagram shows the <i>pTree</i> parameter, created by the example c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a>
+<a href="/windows/desktop/api/ntquery/ns-ntquery-cipropertydef">CIPROPERTYDEF</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
+<a href="/previous-versions/windows/desktop/indexsrv/dbcommandtree">DBCOMMANDTREE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
+<a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
  
 
  
-

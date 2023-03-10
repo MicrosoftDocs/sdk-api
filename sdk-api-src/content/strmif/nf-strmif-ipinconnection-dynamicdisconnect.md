@@ -2,15 +2,12 @@
 UID: NF:strmif.IPinConnection.DynamicDisconnect
 title: IPinConnection::DynamicDisconnect (strmif.h)
 description: The DynamicDisconnect method disconnects the pin when the filter is active (paused or running). Call this method instead of IPin::Disconnect to disconnect a pin when the graph is running or paused.
+helpviewer_keywords: ["DynamicDisconnect","DynamicDisconnect method [DirectShow]","DynamicDisconnect method [DirectShow]","IPinConnection interface","IPinConnection interface [DirectShow]","DynamicDisconnect method","IPinConnection.DynamicDisconnect","IPinConnection::DynamicDisconnect","IPinConnectionDynamicDisconnect","dshow.ipinconnection_dynamicdisconnect","strmif/IPinConnection::DynamicDisconnect"]
 old-location: dshow\ipinconnection_dynamicdisconnect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 44a5a219-fd42-4fe1-a767-f74d01d86012
 ms.date: 12/05/2018
 ms.keywords: DynamicDisconnect, DynamicDisconnect method [DirectShow], DynamicDisconnect method [DirectShow],IPinConnection interface, IPinConnection interface [DirectShow],DynamicDisconnect method, IPinConnection.DynamicDisconnect, IPinConnection::DynamicDisconnect, IPinConnectionDynamicDisconnect, dshow.ipinconnection_dynamicdisconnect, strmif/IPinConnection::DynamicDisconnect
-f1_keywords:
-- strmif/IPinConnection.DynamicDisconnect
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPinConnection.DynamicDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPinConnection::DynamicDisconnect
+ - strmif/IPinConnection::DynamicDisconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPinConnection.DynamicDisconnect
 ---
 
 # IPinConnection::DynamicDisconnect
@@ -49,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>DynamicDisconnect</code> method disconnects the pin when the filter is active (paused or running). Call this method instead of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">IPin::Disconnect</a> to disconnect a pin when the graph is running or paused.
-
-
-
-The caller must ensure that no data is flowing to the pin when it calls this method. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> method on an upstream pin to block the data flow, or use some other mechanism to make sure that no samples are delivered until this pin is reconnected.
-
-
-## -parameters
+The <code>DynamicDisconnect</code> method disconnects the pin when the filter is active (paused or running). Call this method instead of <a href="/windows/desktop/api/strmif/nf-strmif-ipin-disconnect">IPin::Disconnect</a> to disconnect a pin when the graph is running or paused.
 
 
 
+The caller must ensure that no data is flowing to the pin when it calls this method. Call the <a href="/windows/desktop/api/strmif/nf-strmif-ipinflowcontrol-block">IPinFlowControl::Block</a> method on an upstream pin to block the data flow, or use some other mechanism to make sure that no samples are delivered until this pin is reconnected.
 
 
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -99,26 +91,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>

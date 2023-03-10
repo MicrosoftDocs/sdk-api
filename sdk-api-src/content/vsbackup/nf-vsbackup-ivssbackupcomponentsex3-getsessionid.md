@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponentsEx3.GetSessionId
 title: IVssBackupComponentsEx3::GetSessionId (vsbackup.h)
 description: Returns the requester's session identifier.
+helpviewer_keywords: ["GetSessionId","GetSessionId method","GetSessionId method","IVssBackupComponentsEx3 interface","IVssBackupComponentsEx3 interface","GetSessionId method","IVssBackupComponentsEx3.GetSessionId","IVssBackupComponentsEx3::GetSessionId","base.ivssbackupcomponentsex3_getsessionid","vsbackup/IVssBackupComponentsEx3::GetSessionId"]
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.date: 12/05/2018
 ms.keywords: GetSessionId, GetSessionId method, GetSessionId method,IVssBackupComponentsEx3 interface, IVssBackupComponentsEx3 interface,GetSessionId method, IVssBackupComponentsEx3.GetSessionId, IVssBackupComponentsEx3::GetSessionId, base.ivssbackupcomponentsex3_getsessionid, vsbackup/IVssBackupComponentsEx3::GetSessionId
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx3.GetSessionId
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssBackupComponentsEx3.GetSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx3::GetSessionId
+ - vsbackup/IVssBackupComponentsEx3::GetSessionId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssBackupComponentsEx3.GetSessionId
 ---
 
 # IVssBackupComponentsEx3::GetSessionId
@@ -48,51 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the requester's session identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param idSession [out]
 
 A pointer to a variable that receives the session identifier.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The session identifier is an opaque value that uniquely identifies a backup or restore session. It is used to distinguish the current session among multiple parallel backup or restore sessions.
 
 As a best practice, writers and requesters should include the session ID in all diagnostics messages used for event logging and tracing.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>

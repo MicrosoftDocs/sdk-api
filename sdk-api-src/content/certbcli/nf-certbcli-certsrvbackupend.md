@@ -2,15 +2,12 @@
 UID: NF:certbcli.CertSrvBackupEnd
 title: CertSrvBackupEnd function (certbcli.h)
 description: Ends a Certificate Services backup session.
+helpviewer_keywords: ["CertSrvBackupEnd","CertSrvBackupEnd function [Security]","_certsrv_certsrvbackupend","certbcli/CertSrvBackupEnd","security.certsrvbackupend"]
 old-location: security\certsrvbackupend.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ebf87af3-df45-4440-9881-e2926b0c4f08
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupEnd, CertSrvBackupEnd function [Security], _certsrv_certsrvbackupend, certbcli/CertSrvBackupEnd, security.certsrvbackupend
-f1_keywords:
-- certbcli/CertSrvBackupEnd
-dev_langs:
-- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Certadm.dll
-api_name:
-- CertSrvBackupEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertSrvBackupEnd
+ - certbcli/CertSrvBackupEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Certadm.dll
+api_name:
+ - CertSrvBackupEnd
 ---
 
 # CertSrvBackupEnd function
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertSrvBackupEnd</b> function ends a Certificate Services backup session.
 
-
 ## -parameters
-
-
-
 
 ### -param hbc [in]
 
 A handle to a Certificate Services backup context.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
-
-
-
 ## -remarks
 
-
-
-Upon completion of a backup session, the session needs to be terminated by means of <b>CertSrvBackupEnd</b>. For every successful call to <a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackuppreparew">CertSrvBackupPrepare</a>, there should be a call to <b>CertSrvBackupEnd</b>.
+Upon completion of a backup session, the session needs to be terminated by means of <b>CertSrvBackupEnd</b>. For every successful call to <a href="/windows/desktop/api/certbcli/nf-certbcli-certsrvbackuppreparew">CertSrvBackupPrepare</a>, there should be a call to <b>CertSrvBackupEnd</b>.
 
 
 #### Examples
@@ -109,21 +98,10 @@ if (FAILED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certbcli/nf-certbcli-certsrvbackuppreparew">CertSrvBackupPrepare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certbcli/nf-certbcli-certsrvbackuppreparew">CertSrvBackupPrepare</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>

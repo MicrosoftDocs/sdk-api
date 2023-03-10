@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IMultisessionSequential2.get_WriteUnitSize
 title: IMultisessionSequential2::get_WriteUnitSize (imapi2.h)
-description: Retrieves the size of a writeable unit on the media.
+description: Retrieves the size of a writable unit on the media. (IMultisessionSequential2.get_WriteUnitSize)
+helpviewer_keywords: ["IMultisessionSequential2 interface [IMAPI]","get_WriteUnitSize method","IMultisessionSequential2.get_WriteUnitSize","IMultisessionSequential2::get_WriteUnitSize","get_WriteUnitSize","get_WriteUnitSize method [IMAPI]","get_WriteUnitSize method [IMAPI]","IMultisessionSequential2 interface","imapi.imultisessionsequential2_get_writeunitsize","imapi2/IMultisessionSequential2::get_WriteUnitSize"]
 old-location: imapi\imultisessionsequential2_get_writeunitsize.htm
 tech.root: imapi
 ms.assetid: 9d784477-7e6d-4433-81d2-c756dcfb060b
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential2 interface [IMAPI],get_WriteUnitSize method, IMultisessionSequential2.get_WriteUnitSize, IMultisessionSequential2::get_WriteUnitSize, get_WriteUnitSize, get_WriteUnitSize method [IMAPI], get_WriteUnitSize method [IMAPI],IMultisessionSequential2 interface, imapi.imultisessionsequential2_get_writeunitsize, imapi2/IMultisessionSequential2::get_WriteUnitSize
-f1_keywords:
-- imapi2/IMultisessionSequential2.get_WriteUnitSize
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionSequential2.get_WriteUnitSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionSequential2::get_WriteUnitSize
+ - imapi2/IMultisessionSequential2::get_WriteUnitSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionSequential2.get_WriteUnitSize
 ---
 
 # IMultisessionSequential2::get_WriteUnitSize
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the size of a writeable unit on the media.
-
+Retrieves the size of a writable unit on the media.
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-The size of a writeable unit on the media in sectors.
-
+The size of a writable unit on the media in sectors.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,18 +354,7 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential2">IMultisessionSequential2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential2">IMultisessionSequential2</a>

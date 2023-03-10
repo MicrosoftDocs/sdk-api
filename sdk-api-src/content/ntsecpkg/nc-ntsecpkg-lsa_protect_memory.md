@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.LSA_PROTECT_MEMORY
 title: LSA_PROTECT_MEMORY (ntsecpkg.h)
 description: Encrypts the specified memory buffer.
+helpviewer_keywords: ["LSA_PROTECT_MEMORY","LSA_PROTECT_MEMORY callback","LsaProtectMemory","LsaProtectMemory callback function [Security]","ntsecpkg/LsaProtectMemory","security.lsaprotectmemory"]
 old-location: security\lsaprotectmemory.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c851fe8b-be22-4966-ab99-f177989cf382
 ms.date: 12/05/2018
 ms.keywords: LSA_PROTECT_MEMORY, LSA_PROTECT_MEMORY callback, LsaProtectMemory, LsaProtectMemory callback function [Security], ntsecpkg/LsaProtectMemory, security.lsaprotectmemory
-f1_keywords:
-- ntsecpkg/LsaProtectMemory
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- LsaProtectMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_PROTECT_MEMORY
+ - ntsecpkg/LSA_PROTECT_MEMORY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - LsaProtectMemory
 ---
 
 # LSA_PROTECT_MEMORY callback function
@@ -48,52 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Encrypts the specified memory buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param Buffer [in, out]
 
 On input, a pointer to the buffer to be encrypted. On output, a pointer to the encrypted buffer.
 
-
 ### -param BufferSize [in]
 
 The size, in bytes, of the <i>Buffer</i> buffer.
 
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
-
-
 A pointer to the <b>LsaProtectMemory</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

@@ -2,15 +2,12 @@
 UID: NF:namedpipeapi.PeekNamedPipe
 title: PeekNamedPipe function (namedpipeapi.h)
 description: Copies data from a named or anonymous pipe into a buffer without removing it from the pipe.
+helpviewer_keywords: ["PeekNamedPipe","PeekNamedPipe function","_win32_peeknamedpipe","base.peeknamedpipe","namedpipeapi/PeekNamedPipe"]
 old-location: base\peeknamedpipe.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: 125e0fbb-9013-4194-bc0b-1b8ea7db799e
 ms.date: 12/05/2018
 ms.keywords: PeekNamedPipe, PeekNamedPipe function, _win32_peeknamedpipe, base.peeknamedpipe, namedpipeapi/PeekNamedPipe
-f1_keywords:
-- namedpipeapi/PeekNamedPipe
-dev_langs:
-- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-NamedPipe-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-1.dll
-- API-MS-Win-Core-NamedPipe-L1-2-2.dll
-api_name:
-- PeekNamedPipe
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeekNamedPipe
+ - namedpipeapi/PeekNamedPipe
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-NamedPipe-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-1.dll
+ - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+api_name:
+ - PeekNamedPipe
 ---
 
 # PeekNamedPipe function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies data from a named or anonymous pipe into a buffer without removing it from the pipe. It also returns information about data in the pipe.
 
-
 ## -parameters
-
-
-
 
 ### -param hNamedPipe [in]
 
@@ -71,47 +68,34 @@ A handle to the pipe. This parameter can be a handle to a named pipe instance, a
 <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> function, or it can be a handle to the read end of an anonymous pipe, as returned by the 
 <a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function. The handle must have GENERIC_READ access to the pipe.
 
-
 ### -param lpBuffer [out, optional]
 
 A pointer to a buffer that receives data read from the pipe. This parameter can be <b>NULL</b> if no data is to be read.
-
 
 ### -param nBufferSize [in]
 
 The size of the buffer specified by the <i>lpBuffer</i> parameter, in bytes. This parameter is ignored if <i>lpBuffer</i> is <b>NULL</b>.
 
-
 ### -param lpBytesRead [out, optional]
 
 A pointer to a variable that receives the number of bytes read from the pipe. This parameter can be <b>NULL</b> if no data is to be read.
-
 
 ### -param lpTotalBytesAvail [out, optional]
 
 A pointer to a variable that receives the total number of bytes available to be read from the pipe. This parameter can be <b>NULL</b> if no data is to be read.
 
-
 ### -param lpBytesLeftThisMessage [out, optional]
 
 A pointer to a variable that receives the number of bytes remaining in this message. This parameter will be zero for byte-type named pipes or for anonymous pipes. This parameter can be <b>NULL</b> if no data is to be read.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
-
-
 
 The 
 <b>PeekNamedPipe</b> function is similar to the 
@@ -130,15 +114,9 @@ The
 <div> </div>
 If the specified handle is a named pipe handle in byte-read mode, the function reads all available bytes up to the size specified in <i>nBufferSize</i>. For a named pipe handle in message-read mode, the function reads the next message in the pipe. If the message is larger than <i>nBufferSize</i>, the function returns <b>TRUE</b> after reading the specified number of bytes. In this situation, <i>lpBytesLeftThisMessage</i> will receive the number of bytes remaining in the message.
 
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
-
-
-
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a>
 
@@ -165,7 +143,4 @@ If the specified handle is a named pipe handle in byte-read mode, the function r
 
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

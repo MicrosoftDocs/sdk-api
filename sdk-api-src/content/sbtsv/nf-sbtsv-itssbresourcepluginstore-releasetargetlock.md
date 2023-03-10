@@ -2,15 +2,12 @@
 UID: NF:sbtsv.ITsSbResourcePluginStore.ReleaseTargetLock
 title: ITsSbResourcePluginStore::ReleaseTargetLock (sbtsv.h)
 description: Releases a lock on a target.
+helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","ReleaseTargetLock method","ITsSbResourcePluginStore.ReleaseTargetLock","ITsSbResourcePluginStore::ReleaseTargetLock","ReleaseTargetLock","ReleaseTargetLock method [Remote Desktop Services]","ReleaseTargetLock method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock","termserv.itssbresourcepluginstore_releasetargetlock"]
 old-location: termserv\itssbresourcepluginstore_releasetargetlock.htm
 tech.root: TermServ
 ms.assetid: 37c22f94-c00d-471b-bd6c-067b3229f99b
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],ReleaseTargetLock method, ITsSbResourcePluginStore.ReleaseTargetLock, ITsSbResourcePluginStore::ReleaseTargetLock, ReleaseTargetLock, ReleaseTargetLock method [Remote Desktop Services], ReleaseTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock, termserv.itssbresourcepluginstore_releasetargetlock
-f1_keywords:
-- sbtsv/ITsSbResourcePluginStore.ReleaseTargetLock
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourcePluginStore.ReleaseTargetLock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourcePluginStore::ReleaseTargetLock
+ - sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourcePluginStore.ReleaseTargetLock
 ---
 
 # ITsSbResourcePluginStore::ReleaseTargetLock
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases a lock on a target.
-
 
 ## -parameters
 
-
-
-
 ### -param pContext [in]
 
-A pointer to the context returned by the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock">AcquireTargetLock</a> method.
-
+A pointer to the context returned by the <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock">AcquireTargetLock</a> method.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>

@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.Exists
 title: IFileSystemImage::Exists (imapi2fs.h)
 description: Checks for the existence of a given file or directory.
+helpviewer_keywords: ["Exists","Exists method [IMAPI]","Exists method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","Exists method","IFileSystemImage.Exists","IFileSystemImage::Exists","imapi.ifilesystemimage_exists","imapi2fs/IFileSystemImage::Exists"]
 old-location: imapi\ifilesystemimage_exists.htm
 tech.root: imapi
 ms.assetid: c3a86e85-1ffd-47c1-9dba-0fc207d76a1a
 ms.date: 12/05/2018
 ms.keywords: Exists, Exists method [IMAPI], Exists method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],Exists method, IFileSystemImage.Exists, IFileSystemImage::Exists, imapi.ifilesystemimage_exists, imapi2fs/IFileSystemImage::Exists
-f1_keywords:
-- imapi2fs/IFileSystemImage.Exists
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.Exists
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::Exists
+ - imapi2fs/IFileSystemImage::Exists
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.Exists
 ---
 
 # IFileSystemImage::Exists
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks for the existence of a given file or directory.
 
-
 ## -parameters
-
-
-
 
 ### -param fullPath [in]
 
 String that contains the fully qualified path of the directory or file to check.
 
-
 ### -param itemType [out]
 
-Indicates if the item is a file, a directory, or does not exist. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a> enumeration type.
-
+Indicates if the item is a file, a directory, or does not exist. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -145,22 +138,11 @@ Value: 0x80004002
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsiitemtype">FsiItemType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>

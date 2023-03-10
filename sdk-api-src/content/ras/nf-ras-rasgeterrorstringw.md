@@ -1,16 +1,13 @@
 ---
 UID: NF:ras.RasGetErrorStringW
 title: RasGetErrorStringW function (ras.h)
-description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
+description: The RasGetErrorString function obtains an error message string for a specified RAS error value. (Unicode)
+helpviewer_keywords: ["RasGetErrorString", "RasGetErrorString function [RAS]", "RasGetErrorStringW", "_ras_rasgeterrorstring", "ras/RasGetErrorString", "ras/RasGetErrorStringW", "rras.rasgeterrorstring"]
 old-location: rras\rasgeterrorstring.htm
 tech.root: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
 ms.date: 12/05/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
-f1_keywords:
-- ras/RasGetErrorString
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasGetErrorString
-- RasGetErrorStringA
-- RasGetErrorStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetErrorStringW
+ - ras/RasGetErrorStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasGetErrorString
+ - RasGetErrorStringA
+ - RasGetErrorStringW
 ---
 
 # RasGetErrorStringW function
@@ -50,38 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasGetErrorString</b> function obtains an error message string for a specified RAS error value.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceId [in]
 
 Specifies the error value of interest. These are values returned by one of the RAS functions: those listed in the RasError.h header file.
 
-
 ### -param lpszString [out]
 
 Pointer to a buffer that receives the error string. This parameter must not be <b>NULL</b>.
-
 
 ### -param InBufSize [in]
 
 Specifies the size, in characters, of the buffer pointed to by <i>lpszErrorString</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> information set by the 
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h. There is no <a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> information set by the 
 <b>RasGetErrorString</b> function.
 
 <table>
@@ -101,14 +93,8 @@ An invalid parameter was passed into the function.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 There is no way to determine in advance the exact size in characters of an error message, and thus the size of buffer required. Error messages will generally be 80 characters or fewer in size; a buffer size of 512 characters will always be adequate. A buffer of insufficient size causes the 
 <b>RasGetErrorString</b> function to fail, returning <b>ERROR_INSUFFICIENT_BUFFER</b>. Note that buffer sizes are specified in characters, not bytes; thus, the Unicode version of 
@@ -155,25 +141,22 @@ DWORD __cdecl wmain(){
 
 
 
+
+> [!NOTE]
+> The ras.h header defines RasGetErrorString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

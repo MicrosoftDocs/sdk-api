@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_V4
 title: DHCP_CLIENT_INFO_V4 (dhcpsapi.h)
 description: Defines a client information record used by the DHCP server, extending the definition provided in DHCP_CLIENT_INFO by including client type information.
+helpviewer_keywords: ["*LPDHCP_CLIENT_INFO_V4","CLIENT_TYPE_BOOTP","CLIENT_TYPE_BOTH","CLIENT_TYPE_DHCP","CLIENT_TYPE_NONE","CLIENT_TYPE_UNSPECIFIED","DHCP_CLIENT_INFO_V4","DHCP_CLIENT_INFO_V4 structure [DHCP]","LPDHCP_CLIENT_INFO_V4","LPDHCP_CLIENT_INFO_V4 structure pointer [DHCP]","dhcp.dhcp_client_info_v4","dhcpsapi/LPDHCP_CLIENT_INFO_V4","dhcpsapi/_DHCP_CLIENT_INFO_V4"]
 old-location: dhcp\dhcp_client_info_v4.htm
 tech.root: DHCP
 ms.assetid: ac058d7a-7257-4e40-8fc0-bc4ca107671b
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_CLIENT_INFO_V4, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_UNSPECIFIED, DHCP_CLIENT_INFO_V4, DHCP_CLIENT_INFO_V4 structure [DHCP], LPDHCP_CLIENT_INFO_V4, LPDHCP_CLIENT_INFO_V4 structure pointer [DHCP], dhcp.dhcp_client_info_v4, dhcpsapi/LPDHCP_CLIENT_INFO_V4, dhcpsapi/_DHCP_CLIENT_INFO_V4'
-f1_keywords:
-- dhcpsapi/DHCP_CLIENT_INFO_V4
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_CLIENT_INFO_V4
 targetos: Windows
 req.typenames: DHCP_CLIENT_INFO_V4, *LPDHCP_CLIENT_INFO_V4
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_CLIENT_INFO_V4
+ - dhcpsapi/_DHCP_CLIENT_INFO_V4
+ - LPDHCP_CLIENT_INFO_V4
+ - dhcpsapi/LPDHCP_CLIENT_INFO_V4
+ - DHCP_CLIENT_INFO_V4
+ - dhcpsapi/DHCP_CLIENT_INFO_V4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_CLIENT_INFO_V4
 ---
 
 # DHCP_CLIENT_INFO_V4 structure
@@ -48,54 +54,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DHCP_CLIENT_INFO_V4</b> structure defines a client information record used by the DHCP server, extending the definition provided in <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info">DHCP_CLIENT_INFO</a> by including client type information. 
-
+The <b>DHCP_CLIENT_INFO_V4</b> structure defines a client information record used by the DHCP server, extending the definition provided in <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info">DHCP_CLIENT_INFO</a> by including client type information.
 
 ## -struct-fields
 
-
-
-
 ### -field ClientIpAddress
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the assigned IP address of the DHCP client.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that contains the assigned IP address of the DHCP client.
 
 ### -field SubnetMask
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_MASK</a> value that contains the subnet mask value assigned to the DHCP client.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_MASK</a> value that contains the subnet mask value assigned to the DHCP client.
 
 ### -field ClientHardwareAddress
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure containing the MAC address of the client's network interface device.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a> structure containing the MAC address of the client's network interface device.
 
 ### -field ClientName
 
 Unicode string that specifies the network name of the DHCP client. This member is optional.
 
-
 ### -field ClientComment
 
 Unicode string that contains a comment associated with the DHCP client. This member is optional.
 
-
 ### -field ClientLeaseExpires
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the date and time the DHCP client lease will expire, in UTC time.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> structure that contains the date and time the DHCP client lease will expire, in UTC time.
 
 ### -field OwnerHost
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information on the DHCP server that assigned the IP address to the  client. 
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains information on the DHCP server that assigned the IP address to the  client.
 
 ### -field bClientType
 
@@ -157,32 +146,23 @@ The client does not use a supported dynamic IP address service.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array_v4">DHCP_CLIENT_INFO_ARRAY_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_array_v4">DHCP_CLIENT_INFO_ARRAY_V4</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_CLIENT_UID</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclientinfov4">DhcpGetClientInfoV4</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetclientinfov4">DhcpGetClientInfoV4</a>

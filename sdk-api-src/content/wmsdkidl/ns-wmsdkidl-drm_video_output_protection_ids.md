@@ -2,15 +2,12 @@
 UID: NS:wmsdkidl.__tagDRM_VIDEO_OUTPUT_PROTECTION_IDS
 title: DRM_VIDEO_OUTPUT_PROTECTION_IDS (wmsdkidl.h)
 description: The DRM_VIDEO_OUTPUT_PROTECTION_IDS structure holds an array of DRM_VIDEO_OUTPUT_PROTECTION structures.
+helpviewer_keywords: ["DRM_VIDEO_OUTPUT_PROTECTION_IDS","DRM_VIDEO_OUTPUT_PROTECTION_IDS structure [windows Media Format]","structure [windows Media Format]","wmformat.drm_video_output_protection_ids","wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS"]
 old-location: wmformat\drm_video_output_protection_ids.htm
 tech.root: wmformat
 ms.assetid: 95bce5f8-5230-4b69-b4e9-3cb766edce90
 ms.date: 12/05/2018
 ms.keywords: DRM_VIDEO_OUTPUT_PROTECTION_IDS, DRM_VIDEO_OUTPUT_PROTECTION_IDS structure [windows Media Format], structure [windows Media Format], wmformat.drm_video_output_protection_ids, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS
-f1_keywords:
-- wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wmsdkidl.h
-api_name:
-- DRM_VIDEO_OUTPUT_PROTECTION_IDS
 targetos: Windows
 req.typenames: DRM_VIDEO_OUTPUT_PROTECTION_IDS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __tagDRM_VIDEO_OUTPUT_PROTECTION_IDS
+ - wmsdkidl/__tagDRM_VIDEO_OUTPUT_PROTECTION_IDS
+ - DRM_VIDEO_OUTPUT_PROTECTION_IDS
+ - wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wmsdkidl.h
+api_name:
+ - DRM_VIDEO_OUTPUT_PROTECTION_IDS
 ---
 
 # DRM_VIDEO_OUTPUT_PROTECTION_IDS structure
@@ -48,48 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
-
-
-
+The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
 
 ## -struct-fields
-
-
-
 
 ### -field cEntries
 
 Number of elements in the array referenced by <b>rgVop</b>.
 
-
 ### -field rgVop
 
 Address of an array of <b>DRM_VIDEO_OUTPUT_PROTECTION</b> structures.
 
-
 ## -remarks
 
-
-
-This structure is used as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl">DRM_PLAY_OPL</a> structure.
-
-
-
+This structure is used as a member of the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl">DRM_PLAY_OPL</a> structure.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection">DRM_VIDEO_OUTPUT_PROTECTION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

@@ -4,15 +4,17 @@ title: Datetimeapi.h header
 ms.assetid: 1b71de78-13d8-3182-bdc5-179dd6ed1ca5
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: intl
+f1_keywords:
+ - datetimeapi
+ - datetimeapi/datetimeapi
 ---
 
 # Datetimeapi.h header
 
 
 ## -description
-
 
 This header is used by Internationalization for Windows Applications. For more information, see:
 

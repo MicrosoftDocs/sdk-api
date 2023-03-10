@@ -1,16 +1,13 @@
 ---
 UID: NN:imapi2.DDiscFormat2DataEvents
 title: DDiscFormat2DataEvents (imapi2.h)
-description: Implement this interface to receive notifications of the current write operation.
+description: Implement this interface to receive notifications of the current write operation. (DDiscFormat2DataEvents)
+helpviewer_keywords: ["DDiscFormat2DataEvents","DDiscFormat2DataEvents interface [IMAPI]","DDiscFormat2DataEvents interface [IMAPI]","described","imapi.ddiscformat2dataevents","imapi2/DDiscFormat2DataEvents"]
 old-location: imapi\ddiscformat2dataevents.htm
 tech.root: imapi
 ms.assetid: f9f1d976-9ec9-40a5-92b6-d00a7e15d0aa
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2DataEvents, DDiscFormat2DataEvents interface [IMAPI], DDiscFormat2DataEvents interface [IMAPI],described, imapi.ddiscformat2dataevents, imapi2/DDiscFormat2DataEvents
-f1_keywords:
-- imapi2/DDiscFormat2DataEvents
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- DDiscFormat2DataEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DDiscFormat2DataEvents
+ - imapi2/DDiscFormat2DataEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - DDiscFormat2DataEvents
 ---
 
 # DDiscFormat2DataEvents interface
@@ -48,44 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Implement this interface to receive notifications of the current write operation. 
-
+Implement this interface to receive notifications of the current write operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">DDiscFormat2DataEvents</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2DataEvents</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>DDiscFormat2DataEvents</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2dataevents-update">Update</a>
-</td>
-<td align="left" width="63%">
-Implement this method to receive progress notification of the current write operation.
-
-</td>
-</tr>
-</table> 
-
+The <b>DDiscFormat2DataEvents</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>DDiscFormat2DataEvents</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>

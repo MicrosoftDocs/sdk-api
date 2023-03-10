@@ -1,16 +1,13 @@
 ---
 UID: NF:immdev.ImmNotifyIME
 title: ImmNotifyIME function (immdev.h)
-description: Notifies the IME about changes to the status of the input context.
+description: The ImmNotifyIME function (immdev.h) notifies the IME about changes to the status of the input context. 
+helpviewer_keywords: ["CPS_CANCEL","CPS_COMPLETE","CPS_CONVERT","CPS_REVERT","ImmNotifyIME","ImmNotifyIME function [Internationalization for Windows Applications]","NI_CHANGECANDIDATELIST","NI_CLOSECANDIDATE","NI_COMPOSITIONSTR","NI_IMEMENUSELECTED","NI_OPENCANDIDATE","NI_SELECTCANDIDATESTR","NI_SETCANDIDATE_PAGESIZE","NI_SETCANDIDATE_PAGESTART","_win32_ImmNotifyIME","imm/ImmNotifyIME","intl.immnotifyime"]
 old-location: intl\immnotifyime.htm
 tech.root: Intl
 ms.assetid: 3ac1a32d-89a2-45e4-9dcb-b2aea5195489
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: CPS_CANCEL, CPS_COMPLETE, CPS_CONVERT, CPS_REVERT, ImmNotifyIME, ImmNotifyIME function [Internationalization for Windows Applications], NI_CHANGECANDIDATELIST, NI_CLOSECANDIDATE, NI_COMPOSITIONSTR, NI_IMEMENUSELECTED, NI_OPENCANDIDATE, NI_SELECTCANDIDATESTR, NI_SETCANDIDATE_PAGESIZE, NI_SETCANDIDATE_PAGESTART, _win32_ImmNotifyIME, imm/ImmNotifyIME, intl.immnotifyime
-f1_keywords:
-- immdev/ImmNotifyIME
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-- Ext-MS-Win-imm-l1-1-0.dll
-- ext-ms-win-imm-l1-1-1.dll
-api_name:
-- ImmNotifyIME
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmNotifyIME
+ - immdev/ImmNotifyIME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+ - Ext-MS-Win-imm-l1-1-0.dll
+ - ext-ms-win-imm-l1-1-1.dll
+api_name:
+ - ImmNotifyIME
 ---
 
 # ImmNotifyIME function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the IME about changes to the status of the input context.
 
-
 ## -parameters
-
-
-
 
 ### -param HIMC [in]
 
 Handle to the input context.
-
 
 ### -param dwAction [in]
 
@@ -89,7 +85,7 @@ An application changed the current selected candidate. The <i>dwIndex</i> parame
 </dl>
 </td>
 <td width="60%">
-An application directs the IME to close a candidate list. The <i>dwIndex</i> parameter specifies an index of the list to close, and <i>dwValue</i> is not used. The IME sends a <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> command to the application if it closes the list.
+An application directs the IME to close a candidate list. The <i>dwIndex</i> parameter specifies an index of the list to close, and <i>dwValue</i> is not used. The IME sends a <a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> command to the application if it closes the list.
 
 </td>
 </tr>
@@ -119,7 +115,7 @@ An application directs the IME to allow the application to handle the specified 
 </dl>
 </td>
 <td width="60%">
-An application directs the IME to open a candidate list. The <i>dwIndex</i> parameter specifies the index of the list to open, and <i>dwValue</i> is not used. The IME sends a <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> command to the application if it opens the list.
+An application directs the IME to open a candidate list. The <i>dwIndex</i> parameter specifies the index of the list to open, and <i>dwValue</i> is not used. The IME sends a <a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> command to the application if it opens the list.
 
 </td>
 </tr>
@@ -154,8 +150,6 @@ The application changes the page starting index of a candidate list. The <i>dwIn
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwIndex [in]
 
@@ -207,42 +201,27 @@ Cancel the current composition string and set the composition string to be the u
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwValue [in]
 
 Index of a candidate string. The application can set this parameter or ignore it, depending on the value of the <i>dwAction</i> parameter.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful, or 0 otherwise.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a>
+<a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

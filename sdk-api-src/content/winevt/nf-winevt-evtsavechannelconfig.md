@@ -2,15 +2,12 @@
 UID: NF:winevt.EvtSaveChannelConfig
 title: EvtSaveChannelConfig function (winevt.h)
 description: Saves the changes made to a channel's configuration.
+helpviewer_keywords: ["EvtSaveChannelConfig","EvtSaveChannelConfig function [EventLog]","wes.evtsavechannelconfig","winevt/EvtSaveChannelConfig"]
 old-location: wes\evtsavechannelconfig.htm
 tech.root: wes
 ms.assetid: 3f3eff67-24b6-448e-bb61-0bc851d9bdfa
 ms.date: 12/05/2018
 ms.keywords: EvtSaveChannelConfig, EvtSaveChannelConfig function [EventLog], wes.evtsavechannelconfig, winevt/EvtSaveChannelConfig
-f1_keywords:
-- winevt/EvtSaveChannelConfig
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
-api_name:
-- EvtSaveChannelConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtSaveChannelConfig
+ - winevt/EvtSaveChannelConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+ - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+api_name:
+ - EvtSaveChannelConfig
 ---
 
 # EvtSaveChannelConfig function
@@ -49,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Saves the changes made to a channel's configuration.
-
 
 ## -parameters
 
-
-
-
 ### -param ChannelConfig [in]
 
-A handle to the channel's configuration properties that the  <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a> function returns.
-
+A handle to the channel's configuration properties that the  <a href="/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a> function returns.
 
 ### -param Flags [in]
 
 Reserved. Must be zero.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -97,40 +90,25 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To change a channel's configuration property, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a> function.
+To change a channel's configuration property, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a> function.
 
 You must call this function with elevated permissions; otherwise, this function returns ERROR_ACCESS_DENIED.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-and-setting-a-channel-s-configuration-properties">Getting and Setting a Channel's Configuration Properties</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/getting-and-setting-a-channel-s-configuration-properties">Getting and Setting a Channel's Configuration Properties</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>

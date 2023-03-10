@@ -2,15 +2,12 @@
 UID: NN:iads.IADsLargeInteger
 title: IADsLargeInteger (iads.h)
 description: Used to manipulate 64-bit integers of the LargeInteger type.
+helpviewer_keywords: ["IADsLargeInteger","IADsLargeInteger interface [ADSI]","IADsLargeInteger interface [ADSI]","described","_ds_iadslargeinteger","adsi.iadslargeinteger","iads/IADsLargeInteger"]
 old-location: adsi\iadslargeinteger.htm
 tech.root: adsi
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
 ms.date: 12/05/2018
 ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
-f1_keywords:
-- iads/IADsLargeInteger
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsLargeInteger
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsLargeInteger
+ - iads/IADsLargeInteger
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsLargeInteger
 ---
 
 # IADsLargeInteger interface
@@ -48,15 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsLargeInteger</b> interface is used to manipulate 64-bit integers of the <b>LargeInteger</b> type.
-
 
 ## -remarks
 
-
-
-Handling the <b>IADsLargeInteger</b> in Visual Basic is made difficult by the fact that Visual Basic has no native unsigned numeric data type. This can cause errors in data conversion if either the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslargeinteger-property-methods">LowPart</a> or <b>HighPart</b> has the high bit set, which causes Visual Basic to handle the number as negative. The Visual Basic code examples below show how to properly handle the <b>IADsLargeInteger</b> in Visual Basic.
+Handling the <b>IADsLargeInteger</b> in Visual Basic is made difficult by the fact that Visual Basic has no native unsigned numeric data type. This can cause errors in data conversion if either the <a href="/windows/desktop/ADSI/iadslargeinteger-property-methods">LowPart</a> or <b>HighPart</b> has the high bit set, which causes Visual Basic to handle the number as negative. The Visual Basic code examples below show how to properly handle the <b>IADsLargeInteger</b> in Visual Basic.
 
 
 #### Examples
@@ -80,7 +78,7 @@ Debug.Print strTemp
 ```
 
 
-In Visual Basic, it is possible to convert an <b>IADsLargeInteger</b> objects that represents a date and/or time into a time Variant using the <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-systemtimetovarianttime">SystemTimeToVariantTime</a> APIs. This is shown in the following code example.
+In Visual Basic, it is possible to convert an <b>IADsLargeInteger</b> objects that represents a date and/or time into a time Variant using the <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-filetimetosystemtime">FileTimeToSystemTime</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-systemtimetovarianttime">SystemTimeToVariantTime</a> APIs. This is shown in the following code example.
 
 
 ```vb
@@ -221,21 +219,10 @@ HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/iadslargeinteger-property-methods">IADsLargeInteger Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadslargeinteger-property-methods">IADsLargeInteger Property Methods</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSignal.GetSignalError
 title: IMbnSignal::GetSignalError (mbnapi.h)
 description: Gets the received signal error rate.
+helpviewer_keywords: ["GetSignalError","GetSignalError method [Microsoft Broadband Networks]","GetSignalError method [Microsoft Broadband Networks]","IMbnSignal interface","IMbnSignal interface [Microsoft Broadband Networks]","GetSignalError method","IMbnSignal.GetSignalError","IMbnSignal::GetSignalError","mbn.imbnsignal_getsignalerror","mbnapi/IMbnSignal::GetSignalError"]
 old-location: mbn\imbnsignal_getsignalerror.htm
 tech.root: mbn
 ms.assetid: 028adb54-9c81-4a5b-85f7-5c12ce8d84e4
 ms.date: 12/05/2018
 ms.keywords: GetSignalError, GetSignalError method [Microsoft Broadband Networks], GetSignalError method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalError method, IMbnSignal.GetSignalError, IMbnSignal::GetSignalError, mbn.imbnsignal_getsignalerror, mbnapi/IMbnSignal::GetSignalError
-f1_keywords:
-- mbnapi/IMbnSignal.GetSignalError
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSignal.GetSignalError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSignal::GetSignalError
+ - mbnapi/IMbnSignal::GetSignalError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSignal.GetSignalError
 ---
 
 # IMbnSignal::GetSignalError
@@ -53,11 +55,7 @@ ms.custom: 19H1
 
 Gets the received signal error rate.
 
-
 ## -parameters
-
-
-
 
 ### -param signalError [out, retval]
 
@@ -119,12 +117,8 @@ The following table shows the values for the error rate codes.
 <td>MBN_ERROR_RATE_UNKNOWN</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -153,32 +147,16 @@ The method completed successfully
 </dl>
 </td>
 <td width="60%">
-The error rate is not yet available.  The Mobile Broadband service is current probing the device to retrieve the information.  When the error rate is available, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
+The error rate is not yet available.  The Mobile Broadband service is current probing the device to retrieve the information.  When the error rate is available, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Mobile Broadband interfaces report the signal error rate as a coded value that maps to a percentage range of error rates.   This is the Channel Bit Error Rate for GSM and Frame Error Rate for CDMA.  For both the cases, <b>MBN_ERROR_RATE_UNKNOWN</b> specifies an unknown error rate.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>

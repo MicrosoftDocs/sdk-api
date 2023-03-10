@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorDevicePathCount
 title: IDesktopWallpaper::GetMonitorDevicePathCount (shobjidl_core.h)
 description: Retrieves the number of monitors that are associated with the system.
+helpviewer_keywords: ["GetMonitorDevicePathCount","GetMonitorDevicePathCount method [Windows Shell]","GetMonitorDevicePathCount method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetMonitorDevicePathCount method","IDesktopWallpaper.GetMonitorDevicePathCount","IDesktopWallpaper::GetMonitorDevicePathCount","shell.IDesktopWallpaper_GetMonitorDevicePathCount","shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathCount"]
 old-location: shell\IDesktopWallpaper_GetMonitorDevicePathCount.htm
 tech.root: shell
 ms.assetid: E7490E24-7BCE-4fbb-8512-998EAE045CE7
 ms.date: 12/05/2018
 ms.keywords: GetMonitorDevicePathCount, GetMonitorDevicePathCount method [Windows Shell], GetMonitorDevicePathCount method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorDevicePathCount method, IDesktopWallpaper.GetMonitorDevicePathCount, IDesktopWallpaper::GetMonitorDevicePathCount, shell.IDesktopWallpaper_GetMonitorDevicePathCount, shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathCount
-f1_keywords:
-- shobjidl_core/IDesktopWallpaper.GetMonitorDevicePathCount
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDesktopWallpaper.GetMonitorDevicePathCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDesktopWallpaper::GetMonitorDevicePathCount
+ - shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDesktopWallpaper.GetMonitorDevicePathCount
 ---
 
 # IDesktopWallpaper::GetMonitorDevicePathCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of monitors that are associated with the system.
 
-
 ## -parameters
-
-
-
 
 ### -param count [out]
 
 A pointer to a value that, when this method returns successfully, receives the number of monitors.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code, including the following.
 
@@ -85,31 +79,15 @@ A <b>NULL</b> pointer was provided in <i>monitorID</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The count retrieved through this method includes monitors that are currently detached but that have an image assigned to them. Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitorrect">GetMonitorRECT</a> to distinguish between attached and detached monitors.
-
-
-
+The count retrieved through this method includes monitors that are currently detached but that have an image assigned to them. Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitorrect">GetMonitorRECT</a> to distinguish between attached and detached monitors.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">IDesktopWallpaper::GetMonitorDevicePathAt</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">IDesktopWallpaper::GetMonitorDevicePathAt</a>

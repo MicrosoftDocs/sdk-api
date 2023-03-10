@@ -1,16 +1,13 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Clone
 title: IEnumFeedClockVector::Clone (winsync.h)
-description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+description: Clones the enumerator and returns a new enumerator that is in the same state as the current one. (IEnumFeedClockVector.Clone)
+helpviewer_keywords: ["Clone","Clone method [Windows Sync]","Clone method [Windows Sync]","IEnumFeedClockVector interface","IEnumFeedClockVector interface [Windows Sync]","Clone method","IEnumFeedClockVector.Clone","IEnumFeedClockVector::Clone","winsync.ienumfeedclockvector_clone","winsync/IEnumFeedClockVector::Clone"]
 old-location: winsync\ienumfeedclockvector_clone.htm
 tech.root: winsync
 ms.assetid: ad2664d2-c36c-46bf-9f80-001c2e5d4251
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumFeedClockVector interface, IEnumFeedClockVector interface [Windows Sync],Clone method, IEnumFeedClockVector.Clone, IEnumFeedClockVector::Clone, winsync.ienumfeedclockvector_clone, winsync/IEnumFeedClockVector::Clone
-f1_keywords:
-- winsync/IEnumFeedClockVector.Clone
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumFeedClockVector.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumFeedClockVector::Clone
+ - winsync/IEnumFeedClockVector::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumFeedClockVector.Clone
 ---
 
 # IEnumFeedClockVector::Clone
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppiEnum [out]
 
 Returns the newly cloned enumerator.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -104,18 +98,7 @@ Invalid pointer.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumfeedclockvector">IEnumFeedClockVector Interface</a>

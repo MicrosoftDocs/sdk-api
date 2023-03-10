@@ -2,15 +2,12 @@
 UID: NF:dxgi1_2.IDXGIOutputDuplication.ReleaseFrame
 title: IDXGIOutputDuplication::ReleaseFrame (dxgi1_2.h)
 description: Indicates that the application finished processing the frame.
+helpviewer_keywords: ["IDXGIOutputDuplication interface [DXGI]","ReleaseFrame method","IDXGIOutputDuplication.ReleaseFrame","IDXGIOutputDuplication::ReleaseFrame","ReleaseFrame","ReleaseFrame method [DXGI]","ReleaseFrame method [DXGI]","IDXGIOutputDuplication interface","direct3ddxgi.idxgioutputduplication_releaseframe","dxgi1_2/IDXGIOutputDuplication::ReleaseFrame"]
 old-location: direct3ddxgi\idxgioutputduplication_releaseframe.htm
 tech.root: direct3ddxgi
 ms.assetid: 841858AA-4840-4B04-B54A-F10362D43F5B
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],ReleaseFrame method, IDXGIOutputDuplication.ReleaseFrame, IDXGIOutputDuplication::ReleaseFrame, ReleaseFrame, ReleaseFrame method [DXGI], ReleaseFrame method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_releaseframe, dxgi1_2/IDXGIOutputDuplication::ReleaseFrame
-f1_keywords:
-- dxgi1_2/IDXGIOutputDuplication.ReleaseFrame
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIOutputDuplication.ReleaseFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIOutputDuplication::ReleaseFrame
+ - dxgi1_2/IDXGIOutputDuplication::ReleaseFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIOutputDuplication.ReleaseFrame
 ---
 
 # IDXGIOutputDuplication::ReleaseFrame
@@ -49,20 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that the application finished processing the frame.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 <b>ReleaseFrame</b> returns:
         <ul>
@@ -72,32 +65,16 @@ Indicates that the application finished processing the frame.
 <li>Desktop switch</li>
 <li>Mode change</li>
 <li>Switch from DWM on, DWM off, or other full-screen application</li>
-</ul>In this situation, the application must release the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and create a new <b>IDXGIOutputDuplication</b> for the new content.</li>
-<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
+</ul>In this situation, the application must release the <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a> interface and create a new <b>IDXGIOutputDuplication</b> for the new content.</li>
+<li>Possibly other error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
-
-
-
-
 
 ## -remarks
 
-
-
 The application must release the frame before it acquires the next frame.  After the frame is released, the surface that contains the desktop bitmap becomes invalid; you will not be able to use the surface in a DirectX graphics operation.
 
-For performance reasons, we recommend that you release the frame just before you call the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame.  When the client does not own the frame, the operating system copies all desktop updates to the surface. This can result in wasted GPU cycles if the operating system updates the same region for each frame that occurs.  When the client acquires the frame, the client is aware of only the final update to this region; therefore, any overlapping updates during previous frames are wasted. When the client acquires a frame, the client owns the surface; therefore, the operating system can track only the updated regions and cannot copy desktop updates to the surface. Because of this behavior, we recommend that you minimize the time between the call to release the current frame and the call to acquire the next frame.
-
-
-
+For performance reasons, we recommend that you release the frame just before you call the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe">IDXGIOutputDuplication::AcquireNextFrame</a> method to acquire the next frame.  When the client does not own the frame, the operating system copies all desktop updates to the surface. This can result in wasted GPU cycles if the operating system updates the same region for each frame that occurs.  When the client acquires the frame, the client is aware of only the final update to this region; therefore, any overlapping updates during previous frames are wasted. When the client acquires a frame, the client owns the surface; therefore, the operating system can track only the updated regions and cannot copy desktop updates to the surface. Because of this behavior, we recommend that you minimize the time between the call to release the current frame and the call to acquire the next frame.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>

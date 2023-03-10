@@ -2,15 +2,12 @@
 UID: NS:dxva2api._DXVA2_VideoDesc
 title: DXVA2_VideoDesc (dxva2api.h)
 description: Describes a video stream for a DXVA decoder device or video processor device.
+helpviewer_keywords: ["0e500a08-a3b5-475c-8bbc-e4b30cce247d","DXVA2_VideoDesc","DXVA2_VideoDesc structure [Media Foundation]","dxva2api/DXVA2_VideoDesc","mf.dxva2_videodesc"]
 old-location: mf\dxva2_videodesc.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
 ms.date: 12/05/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
-f1_keywords:
-- dxva2api/DXVA2_VideoDesc
-dev_langs:
-- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva2api.h
-api_name:
-- DXVA2_VideoDesc
 targetos: Windows
 req.typenames: DXVA2_VideoDesc
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA2_VideoDesc
+ - dxva2api/_DXVA2_VideoDesc
+ - DXVA2_VideoDesc
+ - dxva2api/DXVA2_VideoDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva2api.h
+api_name:
+ - DXVA2_VideoDesc
 ---
 
 # DXVA2_VideoDesc structure
@@ -48,67 +52,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a video stream for a DXVA decoder device or video processor device.
-        
-
 
 ## -struct-fields
-
-
-
 
 ### -field SampleWidth
 
 Width of the video frame, in pixels.
-          
-
 
 ### -field SampleHeight
 
 Height of the video frame, in pixels.
-          
-
 
 ### -field SampleFormat
 
-Additional details about the video format, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
-          
-
+Additional details about the video format, specified as a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure.
 
 ### -field Format
 
 Surface format, specified as a <b>D3DFORMAT</b> value or FOURCC code. A FOURCC code can be constructed using the <b>D3DFORMAT</b> or <b>MAKEFOURCC</b> macros.
-          
-
 
 ### -field InputSampleFreq
 
-Frame rate of the input video stream, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_frequency">DXVA2_Frequency</a> structure.
-          
-
+Frame rate of the input video stream, specified as a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_frequency">DXVA2_Frequency</a> structure.
 
 ### -field OutputFrameFreq
 
-Frame rate of the output video, specified as a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_frequency">DXVA2_Frequency</a> structure.
-          
-
+Frame rate of the output video, specified as a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_frequency">DXVA2_Frequency</a> structure.
 
 ### -field UABProtectionLevel
 
 Level of data protection required when the user accessible bus (UAB) is present. If <b>TRUE</b>, the video must be protected when a UAB is present. If <b>FALSE</b>, the video is not required to be protected.
-          
-
 
 ### -field Reserved
 
 Reserved. Must be zero.
-          
-
 
 ## -remarks
-
-
 
 The <b>InputSampleFreq</b> member gives the frame rate of the decoded video stream, as received by the video renderer. The <b>OutputFrameFreq</b> member gives the frame rate of the video that is displayed after deinterlacing. If the input video is interlaced and the samples contain interleaved fields, the output frame rate is twice the input frame rate. If the input video is progressive or contains single fields, the output frame rate is the same as the input frame rate.
 
@@ -117,7 +97,7 @@ Decoders should set the values of <b>InputSampleFreq</b> and <b>OutputFrameFreq<
 
 #### Examples
 
-The following code converts a Media Foundation media type, represented using the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface, into a <b>DXVA2_VideoDesc</b> structure.
+The following code converts a Media Foundation media type, represented using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface, into a <b>DXVA2_VideoDesc</b> structure.
 
 
 ```cpp
@@ -230,21 +210,10 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

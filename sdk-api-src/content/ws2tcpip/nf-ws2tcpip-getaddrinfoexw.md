@@ -1,16 +1,13 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExW
 title: GetAddrInfoExW function (ws2tcpip.h)
-description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
+description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request. (Unicode)
+helpviewer_keywords: ["GetAddrInfoEx", "GetAddrInfoEx function [Winsock]", "GetAddrInfoExW", "NS_ALL", "NS_BTH", "NS_DNS", "NS_EMAIL", "NS_NETBT", "NS_NLA", "NS_NTDS", "NS_PNRPCLOUD", "NS_PNRPNAME", "NS_WINS", "winsock.getaddrinfoex", "ws2tcpip/GetAddrInfoEx", "ws2tcpip/GetAddrInfoExW"]
 old-location: winsock\getaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, GetAddrInfoExW, NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NETBT, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, NS_WINS, winsock.getaddrinfoex, ws2tcpip/GetAddrInfoEx, ws2tcpip/GetAddrInfoExA, ws2tcpip/GetAddrInfoExW
-f1_keywords:
-- ws2tcpip/GetAddrInfoEx
-dev_langs:
-- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- GetAddrInfoEx
-- GetAddrInfoExA
-- GetAddrInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAddrInfoExW
+ - ws2tcpip/GetAddrInfoExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - GetAddrInfoEx
+ - GetAddrInfoExA
+ - GetAddrInfoExW
 ---
 
 # GetAddrInfoExW function
@@ -50,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAddrInfoEx</b> function provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 
-
 ## -parameters
-
-
-
 
 ### -param pName [in, optional]
 
 A pointer to a <b>NULL</b>-terminated string containing a host (node) name or a numeric host address string. For the Internet protocol, the numeric host address string is a dotted-decimal IPv4 address or an IPv6 hex address.
-
 
 ### -param pServiceName [in, optional]
 
@@ -72,7 +68,6 @@ A pointer to an optional <b>NULL</b>-terminated string that contains either a se
 A service name is a string alias for a port number. For example, “http” is an alias for port 80 defined by the Internet Engineering Task Force (IETF) as the default port used by web servers for the HTTP protocol. Possible values for the <i>pServiceName</i> parameter when a port number is not specified are listed in the following file: 
 
 <code>%WINDIR%\system32\drivers\etc\services</code>
-
 
 ### -param dwNameSpace [in]
 
@@ -209,29 +204,24 @@ This namespace identifier is supported on Windows Vista and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpNspId [in, optional]
 
-A pointer to an optional GUID of a specific namespace provider to query in the case where  multiple namespace providers are registered under a single namespace such as <b>NS_DNS</b>. Passing the GUID for specific namespace provider will result in only the specified namespace provider being queried. The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> function can be called to retrieve the GUID for a namespace provider.
-
+A pointer to an optional GUID of a specific namespace provider to query in the case where  multiple namespace providers are registered under a single namespace such as <b>NS_DNS</b>. Passing the GUID for specific namespace provider will result in only the specified namespace provider being queried. The <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> function can be called to retrieve the GUID for a namespace provider.
 
 ### -param hints [in, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure that provides hints about the type of socket the caller supports. 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure that provides hints about the type of socket the caller supports. 
 
-The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <b>GetAddrInfoEx</b> function will fail with <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a>.
+The <b>ai_addrlen</b>, <b>ai_canonname</b>, <b>ai_addr</b>, and <b>ai_next</b> members of the <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter must be zero or <b>NULL</b>. Otherwise the <b>GetAddrInfoEx</b> function will fail with <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a>.
 
 See the Remarks for more details.
-
 
 ### -param ppResult [out]
 
 A pointer to a linked list of one or more 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structures that contains response information about the host.
-
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structures that contains response information about the host.
 
 ### -param timeout [in, optional]
 
@@ -239,21 +229,21 @@ An optional parameter indicating the time, in milliseconds, to wait for a respon
 
 This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macro has been defined in the sources before calling the <b>GetAddrInfoEx</b> function. Otherwise, this parameter is currently reserved and must be set to <b>NULL</b> since a <i>timeout</i> option is not supported.
 
-
 ### -param lpOverlapped [in, optional]
 
 An optional pointer to an overlapped structure used for asynchronous operation. 
 
 This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macro has been defined in the sources before calling the <b>GetAddrInfoEx</b> function.
 
-On Windows 8 and Windows Server 2012, if no <i>lpCompletionRoutine</i> parameter is specified, the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure must be set to a manual-reset event to be called upon completion of an asynchronous call. If a completion routine has been specified, the <b>hEvent</b> member must be NULL. When the event specified by <b>hEvent</b> has been set, the result of the operation can be retrieved by calling <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexoverlappedresult">GetAddrInfoExOverlappedResult</a> function.
+On Windows 8 and Windows Server 2012, if no <i>lpCompletionRoutine</i> parameter is specified, the <b>hEvent</b> member of the <b>OVERLAPPED</b> structure must be set to a manual-reset event to be called upon completion of an asynchronous call. If a completion routine has been specified, the <b>hEvent</b> member must be NULL. When the event specified by <b>hEvent</b> has been set, the result of the operation can be retrieved by calling <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexoverlappedresult">GetAddrInfoExOverlappedResult</a> function.
 
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
-On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
+On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported.
 
 ### -param lpCompletionRoutine [in, optional]
+
+Type: \_In_opt\_ [**LPWSAOVERLAPPED_COMPLETION_ROUTINE**](../winsock2/nc-winsock2-lpwsaoverlapped_completion_routine.md)
 
 An optional pointer to a function to be invoked upon successful completion for asynchronous operations. 
 
@@ -274,12 +264,11 @@ void
 ```
 
 
-When the asynchronous operation has completed, the completion routine will be invoked with <i>lpOverlapped</i> parameter set to the value of <i>lpOverlapped</i> parameter passed to <b>GetAddrInfoEx</b>. The <b>Pointer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure will be set to the value of the <i>ppResult</i> parameter of the original call. If the <b>Pointer</b> member points to a non-NULL pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure, it is the caller’s responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex">FreeAddrInfoEx</a> to free the <b>addrinfoex</b>  structure. The <i>dwError</i> parameter passed to the completion routine will be set to a Winsock error code. The <i>dwBytes</i> parameter is reserved for future use and must be ignored.
+When the asynchronous operation has completed, the completion routine will be invoked with <i>lpOverlapped</i> parameter set to the value of <i>lpOverlapped</i> parameter passed to <b>GetAddrInfoEx</b>. The <b>Pointer</b> member of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure will be set to the value of the <i>ppResult</i> parameter of the original call. If the <b>Pointer</b> member points to a non-NULL pointer to the <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure, it is the caller’s responsibility to call <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex">FreeAddrInfoEx</a> to free the <b>addrinfoex</b>  structure. The <i>dwError</i> parameter passed to the completion routine will be set to a Winsock error code. The <i>dwBytes</i> parameter is reserved for future use and must be ignored.
 
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
-On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
+On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported.
 
 ### -param lpHandle
 
@@ -294,19 +283,16 @@ An optional pointer used only for asynchronous operations.
 
 This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macro has been defined in the sources before calling the <b>GetAddrInfoEx</b> function.
 
-On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function will complete asynchronously, the pointer returned in this field may be used with the <b>GetAddrInfoExCancel</b> function. The handle returned is valid when <b>GetAddrInfoEx</b> returns until the completion routine is called, the event is triggered, or <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a> function is called with this handle.
+On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function will complete asynchronously, the pointer returned in this field may be used with the <b>GetAddrInfoExCancel</b> function. The handle returned is valid when <b>GetAddrInfoEx</b> returns until the completion routine is called, the event is triggered, or <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a> function is called with this handle.
 
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
 
-On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported. 
-
+On Windows 7 and Windows Server 2008 R2 or earlier, this parameter is currently reserved and must be set to <b>NULL</b> since asynchronous operations are not supported.
 
 ## -returns
 
-
-
 On success,  <b>GetAddrInfoEx</b> returns <b>NO_ERROR</b> (0). Failure returns a nonzero Windows Sockets error code, as found in the 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
 
 Most nonzero error codes returned by the 
 <b>GetAddrInfoEx</b> function map to the set of errors outlined by Internet Engineering Task Force (IETF) recommendations. The following table shows these error codes and their WSA equivalents. It is recommended that the WSA error codes be used, as they offer familiar and comprehensive error information for Winsock programmers.
@@ -319,52 +305,52 @@ Most nonzero error codes returned by the
 </tr>
 <tr>
 <td>EAI_AGAIN</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></td>
 <td>A temporary failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_BADFLAGS</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></td>
 <td>An invalid parameter was provided. This error is returned if any of the reserved parameters are not <b>NULL</b>. This error is also returned if an invalid value was provided for the <b>ai_flags</b> member of the <i>pHints</i> parameter.</td>
 </tr>
 <tr>
 <td>EAI_FAIL</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></td>
 <td>A nonrecoverable failure in name resolution occurred.</td>
 </tr>
 <tr>
 <td>EAI_FAMILY</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></td>
 <td>The <b>ai_family</b> member  of the <i>pHints</i> parameter is not supported.</td>
 </tr>
 <tr>
 <td>EAI_MEMORY</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>A memory allocation failure occurred.</td>
 </tr>
 <tr>
 <td>EAI_NONAME</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></td>
 <td>The name does not resolve for the supplied parameters or the <i>pName</i> and <i>pServiceName</i> parameters were not provided.</td>
 </tr>
 <tr>
 <td>EAI_SERVICE</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATYPE_NOT_FOUND</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATYPE_NOT_FOUND</a></td>
 <td>The <i>pServiceName</i> parameter is not supported for the specified <b>ai_socktype</b> member of the <i>pHints</i> parameter.</td>
 </tr>
 <tr>
 <td>EAI_SOCKTYPE</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESOCKTNOSUPPORT</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESOCKTNOSUPPORT</a></td>
 <td>The <b>ai_socktype</b> member of the <i>pHints</i> parameter is not supported.</td>
 </tr>
 </table>
  
 
 Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-gai_strerrora">gai_strerror</a> function to print error messages based on the EAI codes returned by the 
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-gai_strerrora">gai_strerror</a> function to print error messages based on the EAI codes returned by the 
 <b>GetAddrInfoEx</b> function. The 
 <b>gai_strerror</b> function is provided for compliance with IETF recommendations, but it is not thread safe. Therefore, use of traditional Windows Sockets functions such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> is recommended.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> is recommended.
 
 <table>
 <tr>
@@ -374,7 +360,7 @@ Use the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -385,43 +371,43 @@ There was insufficient memory to perform the operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 An address incompatible with the requested protocol was used. This error is returned if the <b>ai_family</b> member of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>structure pointed to by the <i>pHints</i> parameter is not supported.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter is not supported.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 An invalid argument was supplied.  This error is returned if an invalid value was provided for the <b>ai_flags</b> member of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter.  This error is also returned when the <i>dwNameSpace</i> parameter is NS_PNRPNAME or NS_PNRPCLOUD and the peer-to-peer name service is not operating.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter.  This error is also returned when the <i>dwNameSpace</i> parameter is NS_PNRPNAME or NS_PNRPCLOUD and the peer-to-peer name service is not operating.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESOCKTNOSUPPORT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESOCKTNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The support for the specified socket type does not exist in this address family. This error is returned if the <b>ai_socktype</b> member of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter is not supported.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter is not supported.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -432,7 +418,7 @@ No such host is known. This error is returned if the name does not resolve for t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -443,7 +429,7 @@ The requested name is valid, but no data of the requested type was found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -454,19 +440,19 @@ A nonrecoverable error occurred during a database lookup. This error is returned
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASERVICE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -477,7 +463,7 @@ No such service is known. The service cannot be found in the specified name spac
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -488,26 +474,20 @@ This is usually a temporary error during hostname resolution and means that the 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATYPE_NOT_FOUND</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATYPE_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The specified class was not found. The <i>pServiceName</i> parameter is not supported for the specified <b>ai_socktype</b> member of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>structure pointed to by the <i>pHints</i> parameter.
+			<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>GetAddrInfoEx</b>  function provides protocol-independent translation from host name to address and from service name to port number. The <b>GetAddrInfoEx</b>  function is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> functions. The <b>GetAddrInfoEx</b>  function allows specifying the namespace provider to resolve the query. 
+The <b>GetAddrInfoEx</b>  function provides protocol-independent translation from host name to address and from service name to port number. The <b>GetAddrInfoEx</b>  function is an enhanced version of the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> and <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a> functions. The <b>GetAddrInfoEx</b>  function allows specifying the namespace provider to resolve the query. 
 
 The <b>GetAddrInfoEx</b>  function aggregates and returns results from multiple namespace providers, unless a specific namespace provider is specified. For use with the IPv6 and IPv4 protocol, name resolution can be by the Domain Name System (DNS), a local <i>hosts</i> file, an email provider (the <b>NS_EMAIL</b> namespace), or by other naming mechanisms.
 
@@ -518,13 +498,13 @@ When UNICODE or _UNICODE is not defined, <b>GetAddrInfoEx</b> is defined to <b>G
 One or both of the <i>pName</i> or <i>pServiceName</i> parameters must point to a <b>NULL</b>-terminated string. Generally both are provided.
 
 Upon success, a linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structures is returned in the <i>ppResult</i> parameter. The list can be processed by following the pointer provided in the <b>ai_next</b> member of each returned 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structures is returned in the <i>ppResult</i> parameter. The list can be processed by following the pointer provided in the <b>ai_next</b> member of each returned 
 <b>addrinfoex</b> structure until a <b>NULL</b> pointer is encountered. In each returned 
 <b>addrinfoex</b> structure, the <b>ai_family</b>, <b>ai_socktype</b>, and <b>ai_protocol</b> members correspond to respective arguments in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function call. Also, the <b>ai_addr</b> member in each returned 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> function call. Also, the <b>ai_addr</b> member in each returned 
 <b>addrinfoex</b> structure points to a filled-in socket address structure, the length of which is specified in its <b>ai_addrlen</b> member.
 
-If the <i>pName</i> parameter points to a computer name, all permanent addresses for the computer that can be used as a source address are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to false in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure. 
+If the <i>pName</i> parameter points to a computer name, all permanent addresses for the computer that can be used as a source address are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to false in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure. 
 
 If the <i>pName</i> parameter points to a string equal to "localhost", all loopback addresses on the local computer are returned. 
 
@@ -532,18 +512,18 @@ If the <i>pName</i> parameter contains an empty string, all registered addresses
 
 On Windows Server 2003 and later if the <i>pName</i> parameter points to a string equal to "..localmachine", all registered addresses on the local computer are returned. 
 
-If the <i>pName</i> parameter refers to a cluster virtual server name, only virtual server addresses are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to true in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/windows-clustering">Windows Clustering</a> for more information about clustering.
+If the <i>pName</i> parameter refers to a cluster virtual server name, only virtual server addresses are returned. On Windows Vista and later, these addresses would include all unicast IP addresses returned by the  <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddresstable">GetUnicastIpAddressTable</a> or <a href="/windows/desktop/api/netioapi/nf-netioapi-getunicastipaddressentry">GetUnicastIpAddressEntry</a> functions in which the <b>SkipAsSource</b> member is set to true in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure. See <a href="/previous-versions/windows/desktop/mscs/windows-clustering">Windows Clustering</a> for more information about clustering.
 
-Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service Pack 1 (SP1) add support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This also changes the behavior such that if the <b>SkipAsSource</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  
+Windows 7 with Service Pack 1 (SP1) and Windows Server 2008 R2 with Service Pack 1 (SP1) add support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This also changes the behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  
 
-A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=208218">Knowledge Base (KB) 2386184</a>.   
+A hotfix is available for Windows 7 and Windows Server 2008 R2 that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address.  This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://support.microsoft.com/kb/2386184">Knowledge Base (KB) 2386184</a>.   
 
-A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS.  For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=208219">Knowledge Base (KB) 975808</a>. 
+A similar hotfix is also available for Windows Vista with Service Pack 2 (SP2) and Windows Server 2008 with Service Pack 2 (SP2) that adds support to Netsh.exe for setting the SkipAsSource attribute on an IP address. This hotfix also changes behavior such that if the <b>SkipAsSource</b> member in the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_unicastipaddress_row">MIB_UNICASTIPADDRESS_ROW</a> structure is set to false, the IP address will be registered in DNS. If the <b>SkipAsSource</b> member is set to true, the IP address is not registered in DNS. 
 
 
 Callers of the 
 <b>GetAddrInfoEx</b> function can provide hints about the type of socket supported through an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter. When the <i>pHints</i> parameter is used, the following rules apply to its associated 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure pointed to by the <i>pHints</i> parameter. When the <i>pHints</i> parameter is used, the following rules apply to its associated 
 <b>addrinfoex</b> structure:
 
 <ul>
@@ -558,29 +538,29 @@ Callers of the
 
 
 Other values in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure provided in the <i>pHints</i> parameter indicate specific requirements. For example, if the caller handles only IPv4 and does not handle IPv6, the <b>ai_family</b> member should be set to <b>AF_INET</b>. For another example, if the caller handles only TCP and does not handle UDP, the <b>ai_socktype</b> member should be set to <b>SOCK_STREAM</b>. 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure provided in the <i>pHints</i> parameter indicate specific requirements. For example, if the caller handles only IPv4 and does not handle IPv6, the <b>ai_family</b> member should be set to <b>AF_INET</b>. For another example, if the caller handles only TCP and does not handle UDP, the <b>ai_socktype</b> member should be set to <b>SOCK_STREAM</b>. 
 
 If the <i>pHints</i> parameter is a <b>NULL</b> pointer, the 
 <b>GetAddrInfoEx</b> function treats it as if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure in <i>pHints</i> were initialized with its <b>ai_family</b> member set to <b>AF_UNSPEC</b> and all other members set to <b>NULL</b> or zero.
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure in <i>pHints</i> were initialized with its <b>ai_family</b> member set to <b>AF_UNSPEC</b> and all other members set to <b>NULL</b> or zero.
 
 When <b>GetAddrInfoEx</b> is called from a service, if the operation is the result of a user process calling the service, the service should impersonate the user.  This is to allow security to be properly enforced.
 
 
 The 
-<b>GetAddrInfoEx</b> function can be used to convert a text string representation of an IP address to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>structure that contains a   <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pName</i> parameter must contain a text representation of an IP address and the <b>addrinfoex</b>structure pointed to by the <i>pHints</i> parameter must have the AI_NUMERICHOST flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfoex</b>structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfoex</b>structure contains a <b>sockaddr</b> structure for the IP address along with additional information about the IP address. 
+<b>GetAddrInfoEx</b> function can be used to convert a text string representation of an IP address to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure that contains a   <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure for the IP address and other information. To be used in this way, the string pointed to by the <i>pName</i> parameter must contain a text representation of an IP address and the <b>addrinfoex</b> structure pointed to by the <i>pHints</i> parameter must have the AI_NUMERICHOST flag set in the <b>ai_flags</b> member. The string pointed to by the <i>pName</i> parameter may contain a text representation of either an IPv4 or an IPv6 address. The text IP address is converted to an <b>addrinfoex</b> structure pointed to by the <i>ppResult</i> parameter. The returned <b>addrinfoex</b> structure contains a <b>sockaddr</b> structure for the IP address along with additional information about the IP address. 
 
 Multiple namespace providers may be installed on a local computer for the same namespace. For example, the base Windows TCP/IP networking software registers for the NS_DNS namespace. The Microsoft Forefront Threat Management Gateway (TMG) and the older Microsoft Internet Security and Acceleration (ISA) Server include Firewall Client software that also registers for the NS_DNS namespace. When the <i>dwNameSpace</i> parameter is set to a value (NS_DNS, for example) and the <i>lpNspId</i> parameter is <b>NULL</b>, the results returned by the <b>GetAddrInfoEx</b> function are the merged results from all namespace providers that register for the specified namespace with duplicate results eliminated. The <i>lpNspId</i> parameter should be set to the GUID of the specific namespace provider if only a single namespace provider is to be queried. 
 
 If the <i>pNameSpace</i> parameter is set to NS_ALL, then the results from querying all namespace providers is merged and returned. In this case, duplicate responses may be returned in the results pointed to by the <i>ppResult</i> parameter if multiple namespace providers return the same information.
 
-On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function will complete asynchronously, the pointer returned in the <i>lpNameHandle</i> parameter may be used with the <b>GetAddrInfoExCancel</b> function. The handle returned is valid when <b>GetAddrInfoEx</b> returns until the completion routine is called, the event is triggered, or <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a> function is called with this handle.
+On Windows 8 and Windows Server 2012, if the <b>GetAddrInfoEx</b> function will complete asynchronously, the pointer returned in the <i>lpNameHandle</i> parameter may be used with the <b>GetAddrInfoExCancel</b> function. The handle returned is valid when <b>GetAddrInfoEx</b> returns until the completion routine is called, the event is triggered, or <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a> function is called with this handle.
 
 <h3><a id="Freeing_Address_Information_from_Dynamic_Allocation"></a><a id="freeing_address_information_from_dynamic_allocation"></a><a id="FREEING_ADDRESS_INFORMATION_FROM_DYNAMIC_ALLOCATION"></a>Freeing Address Information from Dynamic Allocation</h3>
 All information returned by the 
 <b>GetAddrInfoEx</b> function pointed to by the <i>ppResult</i> parameter is dynamically allocated, including all 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structures, socket address structures, and canonical host name strings pointed to by 
-<b>addrinfoex</b> structures. Memory allocated by a successful call to this function must be released with a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex">FreeAddrInfoEx</a>.
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structures, socket address structures, and canonical host name strings pointed to by 
+<b>addrinfoex</b> structures. Memory allocated by a successful call to this function must be released with a subsequent call to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex">FreeAddrInfoEx</a>.
 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>GetAddrInfoEx</b> function.
@@ -1085,7 +1065,7 @@ exit:
 
 
 
-<div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> and <b>GetAddrInfoEx</b>, respectively.</div>
+<div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> and <b>GetAddrInfoEx</b>, respectively.</div>
 <div> </div>
 
 
@@ -1105,28 +1085,28 @@ Internet host names typically consist of a very restricted set of characters:
 
 With the growth of the Internet, there is a growing need to identify Internet host names for other languages not represented by the ASCII character set. Identifiers which facilitate this need and allow non-ASCII characters (Unicode) to be represented as special ASCII character strings are known as Internationalized Domain Names (IDNs). A  mechanism called
    Internationalizing Domain Names in Applications (IDNA) is used to handle
-   IDNs in a standard fashion.  The specifications for IDNs and IDNA are documented in <a href="https://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>, <a href="https://go.microsoft.com/fwlink/p/?LinkID=390167">RTF 5890</a>, and <a href="https://go.microsoft.com/fwlink/p/?LinkID=390169">RFC 6365</a> published by the Internet Engineering Task Force (IETF).
+   IDNs in a standard fashion.  The specifications for IDNs and IDNA are documented in <a href="http://tools.ietf.org/html/rfc3490">RFC 3490</a>, <a href="http://tools.ietf.org/html/rfc5890">RTF 5890</a>, and <a href="http://tools.ietf.org/html/rfc6365">RFC 6365</a> published by the Internet Engineering Task Force (IETF).
 
 
 On Windows 8 and Windows Server 2012, the <b>GetAddrInfoEx</b> function provides support for Internationalized Domain Name (IDN) parsing applied to the name passed in the <i>pName</i> parameter. Winsock performs Punycode/IDN encoding and conversion. This behavior can be disabled using the <b>AI_DISABLE_IDN_ENCODING</b> flag discussed below. 
 
-On Windows 7 and Windows Server 2008 R2 or earlier, the <b>GetAddrInfoEx</b> function does not currently provide support for  IDN parsing applied to the name passed in the <i>pName</i> parameter. The wide character version of the <b>GetAddrInfoEx</b> function does not use Punycode to convert an IDN Punycode format as per <a href="https://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>. The wide character version of the <b>GetAddrInfoEx</b>  function when querying DNS encodes the Unicode name in UTF-8 format, the format used by Microsoft DNS servers in an enterprise environment.
+On Windows 7 and Windows Server 2008 R2 or earlier, the <b>GetAddrInfoEx</b> function does not currently provide support for  IDN parsing applied to the name passed in the <i>pName</i> parameter. The wide character version of the <b>GetAddrInfoEx</b> function does not use Punycode to convert an IDN Punycode format as per <a href="http://tools.ietf.org/html/rfc3490">RFC 3490</a>. The wide character version of the <b>GetAddrInfoEx</b>  function when querying DNS encodes the Unicode name in UTF-8 format, the format used by Microsoft DNS servers in an enterprise environment.
 
-Several functions on Windows Vista and later support conversion between Unicode labels in an IDN to their ASCII equivalents. The resulting representation of each  Unicode label contains only ASCII characters and starts with the xn-- prefix if the Unicode label contained any non-ASCII characters. The reason for this is to support existing DNS servers on the Internet, since some DNS tools and servers only support ASCII characters (see <a href="https://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>). 
+Several functions on Windows Vista and later support conversion between Unicode labels in an IDN to their ASCII equivalents. The resulting representation of each  Unicode label contains only ASCII characters and starts with the xn-- prefix if the Unicode label contained any non-ASCII characters. The reason for this is to support existing DNS servers on the Internet, since some DNS tools and servers only support ASCII characters (see <a href="http://tools.ietf.org/html/rfc3490">RFC 3490</a>). 
 
  
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a> function uses Punycode to convert an IDN to the ASCII  representation of the original Unicode string using the standard algorithm defined in <a href="https://go.microsoft.com/fwlink/p/?LinkID=390166">RFC 3490</a>. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntounicode">IdnToUnicode</a> function converts the ASCII form of an IDN to the normal Unicode UTF-16 encoding syntax. For more information and links to related draft standards, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
+The <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a> function uses Punycode to convert an IDN to the ASCII  representation of the original Unicode string using the standard algorithm defined in <a href="http://tools.ietf.org/html/rfc3490">RFC 3490</a>. The <a href="/windows/desktop/api/winnls/nf-winnls-idntounicode">IdnToUnicode</a> function converts the ASCII form of an IDN to the normal Unicode UTF-16 encoding syntax. For more information and links to related draft standards, see <a href="/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a> function can be used to convert an IDN name to an ASCII form that then can be passed in the <i>pName</i> parameter to the <b>GetAddrInfoEx</b> function when the ASCII version of this function is used (when UNICODE and _UNICODE are not  defined). To pass this IDN name to the  <b>GetAddrInfoEx</b> function when the wide character version of this function is used (when UNICODE or _UNICODE is defined), you can use the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> function to convert the  <b>CHAR</b>string into a <b>WCHAR</b> string. 
+The <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a> function can be used to convert an IDN name to an ASCII form that then can be passed in the <i>pName</i> parameter to the <b>GetAddrInfoEx</b> function when the ASCII version of this function is used (when UNICODE and _UNICODE are not  defined). To pass this IDN name to the  <b>GetAddrInfoEx</b> function when the wide character version of this function is used (when UNICODE or _UNICODE is defined), you can use the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> function to convert the <b>CHAR</b> string into a <b>WCHAR</b> string. 
 
 <h3><a id="ai_flags"></a><a id="AI_FLAGS"></a>Use of ai_flags in the hints parameter</h3>
 
 
 Flags in the <b>ai_flags</b> member of the optional 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure provided in the <i>hints</i> parameter modify the behavior of the function. 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure provided in the <i>hints</i> parameter modify the behavior of the function. 
 
 These flag bits are defined in the <i>Ws2def.h</i> header file on the Microsoft Windows Software Development Kit (SDK) for Windows 7. These flag bits are defined in the <i>Ws2tcpip.h</i> header file on the Windows SDK for Windows Server 2008 and Windows Vista.  These flag bits are defined in the <i>Ws2tcpip.h</i> header file on the Platform Software Development Kit (SDK) for   Windows Server 2003, and Windows XP. 
 
@@ -1146,13 +1126,13 @@ The flag bits can be a combination of the following:
 </td>
 <td width="60%">
 Setting the <b>AI_PASSIVE</b> flag indicates the caller intends to use the returned socket address structure in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function. When the <b>AI_PASSIVE</b> flag is set and <i>pName</i> is a <b>NULL</b> pointer, the IP address portion of the socket address structure is set to <b>INADDR_ANY</b> for IPv4 addresses and <b>IN6ADDR_ANY_INIT</b> for IPv6 addresses.
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function. When the <b>AI_PASSIVE</b> flag is set and <i>pName</i> is a <b>NULL</b> pointer, the IP address portion of the socket address structure is set to <b>INADDR_ANY</b> for IPv4 addresses and <b>IN6ADDR_ANY_INIT</b> for IPv6 addresses.
 
 When the <b>AI_PASSIVE</b> flag is not set, the returned socket address structure is ready for a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function for a connection-oriented protocol, or ready for a call to either the 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function for a connection-oriented protocol, or ready for a call to either the 
 <b>connect</b>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> functions for a connectionless protocol. If the <i>pName</i> parameter is a <b>NULL</b> pointer in this case, the IP address portion of the socket address structure is set to the loopback address.
+<a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>, or 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a> functions for a connectionless protocol. If the <i>pName</i> parameter is a <b>NULL</b> pointer in this case, the IP address portion of the socket address structure is set to the loopback address.
 
 </td>
 </tr>
@@ -1168,14 +1148,14 @@ If neither <b>AI_CANONNAME</b> nor <b>AI_NUMERICHOST</b> is used, the
 <b>GetAddrInfoEx</b> function attempts to resolve the name to an address or multiple addresses.
 
 When the <b>AI_CANONNAME</b> bit is set, the <i>pName</i> parameter cannot be <b>NULL</b>. Otherwise the 
-<b>GetAddrInfoEx</b> function will  fail with <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a>.
+<b>GetAddrInfoEx</b> function will  fail with <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a>.
 
 When the <b>AI_CANONNAME</b> bit is set and the 
 <b>GetAddrInfoEx</b> function returns success, the <b>ai_canonname</b> member in the <i>ppResult</i> parameter points to a <b>NULL</b>-terminated string that contains the canonical name of the specified node.
 
 <div class="alert"><b>Note</b>  The <b>GetAddrInfoEx</b> function can return success when the <b>AI_CANONNAME</b> flag is set, yet the <b>ai_canonname</b> member in the associated 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure is <b>NULL</b>. Therefore, the recommended use of the <b>AI_CANONNAME</b> flag includes testing whether the <b>ai_canonname</b> member in the associated 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure is <b>NULL</b>.</div>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure is <b>NULL</b>. Therefore, the recommended use of the <b>AI_CANONNAME</b> flag includes testing whether the <b>ai_canonname</b> member in the associated 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure is <b>NULL</b>.</div>
 <div> </div>
 </td>
 </tr>
@@ -1286,12 +1266,12 @@ The <b>AI_RETURN_PREFERRED_NAMES</b> flag is defined on the Windows SDK for  Win
 </td>
 <td width="60%">
 If the  <b>AI_FQDN</b> is set and a flat name (single label) is specified,  <b>GetAddrInfoEx</b> will return the fully qualified domain name that the name eventually resolved to. The fully qualified domain name is returned in the <b>ai_canonname</b> member in the associated 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure. This is different than <b>AI_CANONNAME</b> bit flag that returns the canonical name registered in DNS which may be different than the fully qualified domain name  that the flat name resolved to. 
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure. This is different than <b>AI_CANONNAME</b> bit flag that returns the canonical name registered in DNS which may be different than the fully qualified domain name  that the flat name resolved to. 
 
 When the <b>AI_FQDN</b> bit is set, the <i>pName</i> parameter cannot be <b>NULL</b>. Otherwise the 
-<b>GetAddrInfoEx</b> function will  fail with <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a>.
+<b>GetAddrInfoEx</b> function will  fail with <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a>.
 
-On Windows 8 and Windows Server 2012, both the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits can be set. If the <b>GetAddrInfoEx</b> function is called with both the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits, the <i>ppResult</i> parameter returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a> structure, not an <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure.
+On Windows 8 and Windows Server 2012, both the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits can be set. If the <b>GetAddrInfoEx</b> function is called with both the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits, the <i>ppResult</i> parameter returns a pointer to an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a> structure, not an <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a> structure.
 
 
 On Windows 7 and Windows Server 2008 R2, only one of the <b>AI_FQDN</b> and <b>AI_CANONNAME</b> bits can be set. The <b>GetAddrInfoEx</b> function will fail if both flags are present with <b>EAI_BADFLAGS</b>.
@@ -1334,61 +1314,58 @@ If the  <b>AI_DISABLE_IDN_ENCODING</b> is set, this disables the automatic Inter
 
 
 
+
+> [!NOTE]
+> The ws2tcpip.h header defines GetAddrInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex">FreeAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-freeaddrinfoex">FreeAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexcancel">GetAddrInfoExCancel</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexoverlappedresult">GetAddrInfoExOverlappedResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexoverlappedresult">GetAddrInfoExOverlappedResult</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-idntounicode">IdnToUnicode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntounicode">IdnToUnicode</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoex2w">addrinfoex2</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-gai_strerrora">gai_strerror</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-gai_strerrora">gai_strerror</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>

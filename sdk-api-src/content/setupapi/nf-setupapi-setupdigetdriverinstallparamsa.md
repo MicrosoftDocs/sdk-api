@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupDiGetDriverInstallParamsA
 title: SetupDiGetDriverInstallParamsA function (setupapi.h)
-description: The SetupDiGetDriverInstallParams function retrieves driver installation parameters for a device information set or a particular device information element.
+description: The SetupDiGetDriverInstallParams function retrieves driver installation parameters for a device information set or a particular device information element. (ANSI)
+helpviewer_keywords: ["SetupDiGetDriverInstallParamsA", "di-rtns_b8e7fdca-3201-42f9-86b4-a8a97be8cb90.xml"]
 old-location: devinst\setupdigetdriverinstallparams.htm
 tech.root: devinst
 ms.assetid: 7c5b0e3f-75cd-48e1-b84e-d81e4e4db7b2
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetDriverInstallParams, SetupDiGetDriverInstallParams function [Device and Driver Installation], SetupDiGetDriverInstallParamsA, SetupDiGetDriverInstallParamsW, devinst.setupdigetdriverinstallparams, di-rtns_b8e7fdca-3201-42f9-86b4-a8a97be8cb90.xml, setupapi/SetupDiGetDriverInstallParams
-f1_keywords:
-- setupapi/SetupDiGetDriverInstallParams
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiGetDriverInstallParams - SetupDiGetDriverInstallParamsA
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiGetDriverInstallParamsA
+ - setupapi/SetupDiGetDriverInstallParamsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiGetDriverInstallParams - SetupDiGetDriverInstallParamsA
 ---
 
 # SetupDiGetDriverInstallParamsA function
@@ -49,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiGetDriverInstallParams</b> function retrieves driver installation parameters for a device information set or a particular device information element.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a driver information element that represents the driver for which to retrieve installation parameters.
-
+A handle to a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a driver information element that represents the driver for which to retrieve installation parameters.
 
 ### -param DeviceInfoData [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that contains a device information element that represents the device for which to retrieve installation parameters. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiGetDriverInstallParams</b> retrieves information about a driver that is a member of a driver list for the specified device. If this parameter is <b>NULL</b>, <b>SetupDiGetDriverInstallParams</b> retrieves information about a driver  that is a member of the global class driver list for <i>DeviceInfoSet</i>.
-
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that contains a device information element that represents the device for which to retrieve installation parameters. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiGetDriverInstallParams</b> retrieves information about a driver that is a member of a driver list for the specified device. If this parameter is <b>NULL</b>, <b>SetupDiGetDriverInstallParams</b> retrieves information about a driver  that is a member of the global class driver list for <i>DeviceInfoSet</i>.
 
 ### -param DriverInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_data_v1_a">SP_DRVINFO_DATA</a> structure that specifies the driver information element that represents the driver for which to retrieve installation parameters. If <i>DeviceInfoData</i> is supplied, the driver must be a member of the driver list for the device that is specified by <i>DeviceInfoData</i>. Otherwise, the driver must be a member of the global class driver list for <i>DeviceInfoSet</i>.
-
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_drvinfo_data_v1_a">SP_DRVINFO_DATA</a> structure that specifies the driver information element that represents the driver for which to retrieve installation parameters. If <i>DeviceInfoData</i> is supplied, the driver must be a member of the driver list for the device that is specified by <i>DeviceInfoData</i>. Otherwise, the driver must be a member of the global class driver list for <i>DeviceInfoSet</i>.
 
 ### -param DriverInstallParams [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_drvinstall_params">SP_DRVINSTALL_PARAMS</a> structure to receive the installation parameters for this driver. 
-
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_drvinstall_params">SP_DRVINSTALL_PARAMS</a> structure to receive the installation parameters for this driver.
 
 ## -returns
 
-
-
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
-
-
-
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>
- 
-
- 
-
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetDriverInstallParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

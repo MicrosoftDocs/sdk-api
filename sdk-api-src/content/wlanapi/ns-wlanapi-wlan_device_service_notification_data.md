@@ -2,6 +2,8 @@
 UID: NS:wlanapi._WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 title: WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 description: A structure that represents a device service notification.
+tech.root: nwifi
+helpviewer_keywords: ["_WLAN_DEVICE_SERVICE_NOTIFICATION_DATA"]
 ms.date: 12/18/2019
 targetos: Windows
 req.construct-type: structure
@@ -13,8 +15,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: WLAN_DEVICE_SERVICE_NOTIFICATION_DATA, *PWLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 req.umdf-ver: 
@@ -29,7 +31,11 @@ api_name:
  - _WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
  - WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 f1_keywords:
+ - _WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
  - wlanapi/_WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
+ - PWLAN_DEVICE_SERVICE_NOTIFICATION_DATA
+ - wlanapi/PWLAN_DEVICE_SERVICE_NOTIFICATION_DATA
+ - WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
  - wlanapi/WLAN_DEVICE_SERVICE_NOTIFICATION_DATA
 dev_langs:
  - c++
@@ -43,7 +49,7 @@ A structure that represents a device service notification.
 
 ### -field DeviceService
 
-Type: **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)**
+Type: **[GUID](../guiddef/ns-guiddef-guid.md)**
 
 The **GUID** identifying the device service for this notification.
 
@@ -61,7 +67,7 @@ The size, in bytes, of the *DataBlob* member. The maximum value of *dwDataSize* 
 
 ### -field DataBlob
 
-Type: **[BYTE](/windows/win32/api/guiddef/ns-guiddef-guid)\[1\]**
+Type: **[BYTE](../guiddef/ns-guiddef-guid.md)\[1\]**
 
 A pointer to an array containing **BYTES**s, representing the data blob. This is the data that is received from the independent hardware vendor (IHV) driver, and is passed on to the client as an unformatted byte array blob.
 

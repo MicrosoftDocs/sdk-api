@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMediaTypeStream.SetFormat
 title: IAMMediaTypeStream::SetFormat (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The SetFormat method sets the format of the stream.
+helpviewer_keywords: ["IAMMediaTypeStream interface [DirectShow]","SetFormat method","IAMMediaTypeStream.SetFormat","IAMMediaTypeStream::SetFormat","IAMMediaTypeStreamSetFormat","SetFormat","SetFormat method [DirectShow]","SetFormat method [DirectShow]","IAMMediaTypeStream interface","amstream/IAMMediaTypeStream::SetFormat","dshow.iammediatypestream_setformat"]
 old-location: dshow\iammediatypestream_setformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 12ac4490-c12c-428a-939f-adf25a77b9e4
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeStream interface [DirectShow],SetFormat method, IAMMediaTypeStream.SetFormat, IAMMediaTypeStream::SetFormat, IAMMediaTypeStreamSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAMMediaTypeStream interface, amstream/IAMMediaTypeStream::SetFormat, dshow.iammediatypestream_setformat
-f1_keywords:
-- amstream/IAMMediaTypeStream.SetFormat
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaTypeStream.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaTypeStream::SetFormat
+ - amstream/IAMMediaTypeStream::SetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaTypeStream.SetFormat
 ---
 
 # IAMMediaTypeStream::SetFormat
@@ -48,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>SetFormat</code> method sets the format of the stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pMediaType [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that contains the stream format.
-
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that contains the stream format.
 
 ### -param dwFlags [in]
 
 Reserved.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -106,18 +96,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>

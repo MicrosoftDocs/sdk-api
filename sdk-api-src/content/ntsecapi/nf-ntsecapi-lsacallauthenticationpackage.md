@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.LsaCallAuthenticationPackage
 title: LsaCallAuthenticationPackage function (ntsecapi.h)
 description: Used by a logon application to communicate with an authentication package.
+helpviewer_keywords: ["LsaCallAuthenticationPackage","LsaCallAuthenticationPackage function [Security]","_lsa_lsacallauthenticationpackage","ntsecapi/LsaCallAuthenticationPackage","security.lsacallauthenticationpackage"]
 old-location: security\lsacallauthenticationpackage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
 ms.date: 12/05/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
-f1_keywords:
-- ntsecapi/LsaCallAuthenticationPackage
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- LsaCallAuthenticationPackage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaCallAuthenticationPackage
+ - ntsecapi/LsaCallAuthenticationPackage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - LsaCallAuthenticationPackage
 ---
 
 # LsaCallAuthenticationPackage function
@@ -48,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaCallAuthenticationPackage</b> function is used by a logon application to communicate with an authentication package.
 
 This function is typically used to access services provided by the authentication package.
 
-
 ## -parameters
-
-
-
 
 ### -param LsaHandle [in]
 
 A handle obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterlogonprocess">LsaRegisterLogonProcess</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaconnectuntrusted">LsaConnectUntrusted</a>.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaregisterlogonprocess">LsaRegisterLogonProcess</a> or 
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaconnectuntrusted">LsaConnectUntrusted</a>.
 
 ### -param AuthenticationPackage [in]
 
 Supplies the identifier of the authentication package. This value is obtained by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>.
 
 ### -param ProtocolSubmitBuffer [in]
 
@@ -78,11 +73,9 @@ An authentication package–specific message buffer passed to the authentication
 
 For information about the format and content of this buffer, see the documentation for the individual authentication package.
 
-
 ### -param SubmitBufferLength [in]
 
 Indicates the length, in bytes, of the <i>ProtocolSubmitBuffer</i> buffer.
-
 
 ### -param ProtocolReturnBuffer [out]
 
@@ -90,22 +83,17 @@ A pointer that receives the address of the buffer returned by the authentication
 
 For information about the format and content of this buffer, see the documentation for the individual authentication package.
 
-This buffer is allocated by this function. When you have finished using this buffer, free the memory by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a> function.
-
+This buffer is allocated by this function. When you have finished using this buffer, free the memory by calling the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a> function.
 
 ### -param ReturnBufferLength [out]
 
 A pointer to a <b>ULONG</b> that receives the length of the returned buffer, in bytes.
 
-
 ### -param ProtocolStatus [out]
 
-If the function succeeds, this parameter receives a pointer to an <b>NTSTATUS</b> code that indicates the completion status of the authentication package.
-
+If the function succeeds, this parameter receives an <b>NTSTATUS</b> code that indicates the completion status of the authentication package.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is STATUS_SUCCESS. Check the <i>ProtocolStatus</i> parameter to obtain the status returned by the authentication package.
 
@@ -164,17 +152,12 @@ The Kerberos client is using a system certificate that is not valid. For device 
  
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an <b>NTSTATUS</b> code to a Windows error code.
-
-
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function converts an <b>NTSTATUS</b> code to a Windows error code.
 
 ## -remarks
-
-
 
 Logon applications can call <b>LsaCallAuthenticationPackage</b> to communicate with an authentication package. There are several reasons why an application may do this:
 
@@ -186,24 +169,14 @@ Typically, this function is used to exchange information with a custom authentic
 
 You must call <b>LsaCallAuthenticationPackage</b> to clean up PKINIT device credentials for LOCAL_SYSTEM and NETWORK_SERVICE. When there is no PKINIT device credential, a successful call does no operation. When there is a PKINIT device credential, a successful call cleans up the PKINIT device credential so that only the password credential remains.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a>

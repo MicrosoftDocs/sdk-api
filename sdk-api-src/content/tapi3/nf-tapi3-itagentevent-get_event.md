@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITAgentEvent.get_Event
 title: ITAgentEvent::get_Event (tapi3.h)
-description: Gets an AGENT_EVENT descriptor of the event that occurred.
+description: The ITAgentEvent::get_Event method (tapi3.h) gets an AGENT_EVENT descriptor of the event that occurred.
+helpviewer_keywords: ["ITAgentEvent interface [TAPI 2.2]","get_Event method","ITAgentEvent.get_Event","ITAgentEvent::get_Event","_tapi3_itagentevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITAgentEvent interface","tapi3.itagentevent_get_event","tapi3cc/ITAgentEvent::get_Event"]
 old-location: tapi3\itagentevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d402b2b4-2817-4ebe-b735-69ea9e975f54
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Event method, ITAgentEvent.get_Event, ITAgentEvent::get_Event, _tapi3_itagentevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITAgentEvent interface, tapi3.itagentevent_get_event, tapi3cc/ITAgentEvent::get_Event
-f1_keywords:
-- tapi3/ITAgentEvent.get_Event
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentEvent::get_Event
+ - tapi3/ITAgentEvent::get_Event
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentEvent.get_Event
 ---
 
 # ITAgentEvent::get_Event
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a> descriptor of the event that occurred.
-
+<a href="/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a> descriptor of the event that occurred.
 
 ## -parameters
-
-
-
 
 ### -param pEvent [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a> descriptor of event.
-
+<a href="/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a> descriptor of event.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,22 +103,11 @@ The <i>pEvent</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-agent_event">AGENT_EVENT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>

@@ -1,12 +1,10 @@
 ---
 UID: NN:d3d12video.ID3D12VideoDevice1
 title: ID3D12VideoDevice1
+description: Adds support for motion estimation.
+tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: ID3D12VideoDevice1
-f1_keywords:
-- ID3D12VideoDevice1
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -17,23 +15,24 @@ req.include-header:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12VideoDevice1
+ - d3d12video/ID3D12VideoDevice1
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12video.h
+ - d3d12video.h
 api_name:
-- ID3D12VideoDevice1
+ - ID3D12VideoDevice1
 ---
-
-## -inheritance
-
-ID3D12VideoDevice1 interits from [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice).
 
 ## -description
 
@@ -43,6 +42,6 @@ Provides video decoding and processing capabilities of a Microsoft Direct3D 12 d
 
 ## -see-also
 
-- [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice)
-- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice2)
+- [ID3D12VideoDevice](nn-d3d12video-id3d12videodevice.md)
+- [ID3D12VideoDevice2](nn-d3d12video-id3d12videodevice2.md)
 

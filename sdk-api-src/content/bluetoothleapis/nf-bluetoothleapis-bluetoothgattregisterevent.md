@@ -2,15 +2,12 @@
 UID: NF:bluetoothleapis.BluetoothGATTRegisterEvent
 title: BluetoothGATTRegisterEvent function (bluetoothleapis.h)
 description: Registers a routine to be called back during a characteristic value change event on the given characteristic identified by its characteristic handle.
+helpviewer_keywords: ["BluetoothGATTRegisterEvent","BluetoothGATTRegisterEvent function [Bluetooth Devices]","bltooth.bluetoothgattregisterevent","bluetoothleapis/BluetoothGATTRegisterEvent"]
 old-location: bltooth\bluetoothgattregisterevent.htm
 tech.root: bltooth
 ms.assetid: 8C1477F8-8342-4405-8FE1-8109E6147EE9
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTRegisterEvent, BluetoothGATTRegisterEvent function [Bluetooth Devices], bltooth.bluetoothgattregisterevent, bluetoothleapis/BluetoothGATTRegisterEvent
-f1_keywords:
-- bluetoothleapis/BluetoothGATTRegisterEvent
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: BluetoothApis.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTRegisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTRegisterEvent
+ - bluetoothleapis/BluetoothGATTRegisterEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTRegisterEvent
 ---
 
 # BluetoothGATTRegisterEvent function
@@ -49,44 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothGATTRegisterEvent</b> function registers a routine to be called back during a characteristic value change event on the given characteristic identified by its characteristic handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
 Handle to the service.
 
-
 ### -param EventType [in]
 
-A value from <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
-
+A value from <a href="/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>. Currently, only <b>CharacteristicValueChangedEvent</b> is supported.
 
 ### -param EventParameterIn [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
-
+Pointer to a <a href="/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
 
 ### -param Callback [in]
 
 The routine to call when the Characteristic value changes.
 
-
 ### -param CallbackContext [in, optional]
 
 Context to pass to <i>Callback</i>.
 
-
 ### -param pEventHandle [out]
 
-Pointer to buffer to receive a handle for the registration.  Profile drivers must pass this handle when calling <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>.
-
+Pointer to buffer to receive a handle for the registration.  Profile drivers must pass this handle when calling <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>.
 
 ### -param Flags [in]
 
@@ -108,12 +99,8 @@ The client does not have specific GATT requirements (default).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <b>BluetoothGATTRegisterEvent</b> returns the following values:
 
@@ -156,30 +143,19 @@ A parameter was invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bthledef/ns-bthledef-bluetooth_gatt_value_changed_event_registration">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
+<a href="/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ne-bthledef-bth_le_gatt_event_type">BTH_LE_GATT_EVENT_TYPE</a>
+<a href="/windows/desktop/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Event Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/nc-bthledef-pfnbluetooth_gatt_event_callback">Bluetooth GATT Event Callback Function</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattunregisterevent">BluetoothGATTUnregisterEvent</a>

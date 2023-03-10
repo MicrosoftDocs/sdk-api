@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.GetTcpStatisticsEx2
 title: GetTcpStatisticsEx2 function (iphlpapi.h)
 description: The GetTcpStatisticsEx2 function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","GetTcpStatisticsEx2","GetTcpStatisticsEx2 function [IP Helper]","iphlp.gettcpstatisticsex2","iphlpapi/GetTcpStatisticsEx2"]
 old-location: iphlp\gettcpstatisticsex2.htm
 tech.root: IpHlp
 ms.assetid: E7D988E3-4CE9-4BD3-96C7-4C16D2D6FA9C
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx2, GetTcpStatisticsEx2 function [IP Helper], iphlp.gettcpstatisticsex2, iphlpapi/GetTcpStatisticsEx2
-f1_keywords:
-- iphlpapi/GetTcpStatisticsEx2
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetTcpStatisticsEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTcpStatisticsEx2
+ - iphlpapi/GetTcpStatisticsEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetTcpStatisticsEx2
 ---
 
 # GetTcpStatisticsEx2 function
@@ -48,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTcpStatisticsEx2</b> function retrieves the Transmission Control Protocol (TCP) statistics for the current computer. The 
 <b>GetTcpStatisticsEx2</b> function differs from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a> function in that 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a> function in that 
 it uses a new output structure that contains 64-bit counters, rather than 32-bit counters.
 
-
 ## -parameters
-
-
-
 
 ### -param Statistics [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcpstats_lh">MIB_TCPSTATS2</a> structure that receives the TCP statistics for the local computer.
-
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcpstats_lh">MIB_TCPSTATS2</a> structure that receives the TCP statistics for the local computer.
 
 ### -param Family [in]
 
@@ -99,12 +95,8 @@ Internet Protocol version 6 (IPv6).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -145,27 +137,16 @@ This function is not supported on the operating system on which the function cal
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
- 
-
- 
-
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>

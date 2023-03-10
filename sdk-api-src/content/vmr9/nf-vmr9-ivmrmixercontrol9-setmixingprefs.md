@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRMixerControl9.SetMixingPrefs
 title: IVMRMixerControl9::SetMixingPrefs (vmr9.h)
 description: The SetMixingPrefs method sets the mixing preferences for the stream.
+helpviewer_keywords: ["IVMRMixerControl9 interface [DirectShow]","SetMixingPrefs method","IVMRMixerControl9.SetMixingPrefs","IVMRMixerControl9::SetMixingPrefs","IVMRMixerControl9SetMixingPrefs","SetMixingPrefs","SetMixingPrefs method [DirectShow]","SetMixingPrefs method [DirectShow]","IVMRMixerControl9 interface","dshow.ivmrmixercontrol9_setmixingprefs","vmr9/IVMRMixerControl9::SetMixingPrefs"]
 old-location: dshow\ivmrmixercontrol9_setmixingprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: db5bf775-685c-4137-846d-fe71cddce08d
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetMixingPrefs method, IVMRMixerControl9.SetMixingPrefs, IVMRMixerControl9::SetMixingPrefs, IVMRMixerControl9SetMixingPrefs, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setmixingprefs, vmr9/IVMRMixerControl9::SetMixingPrefs
-f1_keywords:
-- vmr9/IVMRMixerControl9.SetMixingPrefs
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl9.SetMixingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl9::SetMixingPrefs
+ - vmr9/IVMRMixerControl9::SetMixingPrefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl9.SetMixingPrefs
 ---
 
 # IVMRMixerControl9::SetMixingPrefs
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetMixingPrefs</code> method sets the mixing preferences for the stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwMixerPrefs [in]
 
-Bitwise OR combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> flags.
-
+Bitwise OR combination of <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> flags.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -89,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The flags for the mixing preferences are divided into three groups: decimation, filtering, and render target. The VMR9MixerPrefs enumeration defines bitmasks to isolate these flags:
 
@@ -130,20 +115,10 @@ If the VMR is in renderless mode, you must set the allocator-presenter before ca
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

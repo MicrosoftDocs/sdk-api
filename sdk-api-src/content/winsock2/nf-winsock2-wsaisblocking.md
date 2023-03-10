@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.WSAIsBlocking
 title: WSAIsBlocking function (winsock2.h)
-description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
+description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0. (WSAIsBlocking)
+helpviewer_keywords: ["WSAIsBlocking","WSAIsBlocking function [Winsock]","_win32_wsaisblocking_2","winsock.wsaisblocking_2","winsock2/WSAIsBlocking"]
 old-location: winsock\wsaisblocking_2.htm
 tech.root: WinSock
 ms.assetid: 2721fb73-4c2e-43c4-aea8-232ba531122f
 ms.date: 12/05/2018
 ms.keywords: WSAIsBlocking, WSAIsBlocking function [Winsock], _win32_wsaisblocking_2, winsock.wsaisblocking_2, winsock2/WSAIsBlocking
-f1_keywords:
-- winsock2/WSAIsBlocking
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsock2.h
-api_name:
-- WSAIsBlocking
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAIsBlocking
+ - winsock2/WSAIsBlocking
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsock2.h
+api_name:
+ - WSAIsBlocking
 ---
 
 # WSAIsBlocking function
 
 
 ## -description
-
 
 This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 
@@ -57,24 +58,11 @@ The Windows Socket
 Blocking hooks are generally used to keep a single-threaded GUI application responsive during calls to blocking functions. Instead of using blocking hooks, an applications should use a separate thread (separate from the main GUI thread) for network activity.
 
 
-## -parameters
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

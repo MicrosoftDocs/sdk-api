@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.GetTransportAudioParameters
 title: IAMExtTransport::GetTransportAudioParameters (strmif.h)
 description: The GetTransportAudioParameters method retrieves audio parameter setting for external transport.
+helpviewer_keywords: ["GetTransportAudioParameters","GetTransportAudioParameters method [DirectShow]","GetTransportAudioParameters method [DirectShow]","IAMExtTransport interface","IAMExtTransport interface [DirectShow]","GetTransportAudioParameters method","IAMExtTransport.GetTransportAudioParameters","IAMExtTransport::GetTransportAudioParameters","IAMExtTransportGetTransportAudioParameters","dshow.iamexttransport_gettransportaudioparameters","strmif/IAMExtTransport::GetTransportAudioParameters"]
 old-location: dshow\iamexttransport_gettransportaudioparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 90650920-f151-4e19-9133-4f1eb5eecbc2
 ms.date: 12/05/2018
 ms.keywords: GetTransportAudioParameters, GetTransportAudioParameters method [DirectShow], GetTransportAudioParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportAudioParameters method, IAMExtTransport.GetTransportAudioParameters, IAMExtTransport::GetTransportAudioParameters, IAMExtTransportGetTransportAudioParameters, dshow.iamexttransport_gettransportaudioparameters, strmif/IAMExtTransport::GetTransportAudioParameters
-f1_keywords:
-- strmif/IAMExtTransport.GetTransportAudioParameters
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.GetTransportAudioParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::GetTransportAudioParameters
+ - strmif/IAMExtTransport::GetTransportAudioParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.GetTransportAudioParameters
 ---
 
 # IAMExtTransport::GetTransportAudioParameters
@@ -49,19 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTransportAudioParameters</code> method retrieves audio parameter setting for external transport.
 
 
 
 This method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
@@ -95,34 +91,19 @@ Specifies the audio parameter, whose value you want receive, as a <b>long</b> in
 <td>Audio source channel(s)</td>
 </tr>
 </table>
- 
-
 
 ### -param pValue [out]
 
-Specifies a pointer to a <b>long</b> integer to receive the channel or channels set in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportaudioparameters">IAMExtTransport::SetTransportAudioParameters</a> method.
-
+Specifies a pointer to a <b>long</b> integer to receive the channel or channels set in the <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-settransportaudioparameters">IAMExtTransport::SetTransportAudioParameters</a> method.
 
 ## -returns
 
-
-
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>

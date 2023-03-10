@@ -2,15 +2,12 @@
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.get_Count
 title: IWindowsMediaLibrarySharingDeviceProperties::get_Count (wmlss.h)
 description: The get_Count method retrieves the number of properties associated with an individual media device.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services]","get_Count method","IWindowsMediaLibrarySharingDeviceProperties.get_Count","IWindowsMediaLibrarySharingDeviceProperties::get_Count","get_Count","get_Count method [Windows Media Library Sharing Services]","get_Count method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperties interface","wmlss.IWMLSDevicePropertiesget_Count","wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count"]
 old-location: wmlss\IWMLSDevicePropertiesget_Count.htm
 tech.root: WMLSS
 ms.assetid: fd0d1031-875d-4081-b23b-fb2cf77c4f13
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],get_Count method, IWindowsMediaLibrarySharingDeviceProperties.get_Count, IWindowsMediaLibrarySharingDeviceProperties::get_Count, get_Count, get_Count method [Windows Media Library Sharing Services], get_Count method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, wmlss.IWMLSDevicePropertiesget_Count, wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count
-f1_keywords:
-- wmlss/IWindowsMediaLibrarySharingDeviceProperties.get_Count
-dev_langs:
-- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WMPMediaSharing.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMPMediaSharing.dll
-api_name:
-- IWindowsMediaLibrarySharingDeviceProperties.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsMediaLibrarySharingDeviceProperties::get_Count
+ - wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMPMediaSharing.dll
+api_name:
+ - IWindowsMediaLibrarySharingDeviceProperties.get_Count
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperties::get_Count
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Count</b> method retrieves the number of properties associated with an individual media device.
 
-
 ## -parameters
-
-
-
 
 ### -param count [out]
 
 A pointer to a <b>LONG</b> that receives the number of properties.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,7 +79,4 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
 

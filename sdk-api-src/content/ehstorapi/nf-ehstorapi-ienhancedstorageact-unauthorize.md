@@ -2,15 +2,12 @@
 UID: NF:ehstorapi.IEnhancedStorageACT.Unauthorize
 title: IEnhancedStorageACT::Unauthorize (ehstorapi.h)
 description: Associates the Addressable Command Target (ACT) with the Unauthorized state defined by ACT_AUTHORIZATION_STATE, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
+helpviewer_keywords: ["IEnhancedStorageACT interface [Enhanced Storage]","Unauthorize method","IEnhancedStorageACT.Unauthorize","IEnhancedStorageACT::Unauthorize","Unauthorize","Unauthorize method [Enhanced Storage]","Unauthorize method [Enhanced Storage]","IEnhancedStorageACT interface","ehstorapi/IEnhancedStorageACT::Unauthorize","enstor.ienhancedstorageact_unauthorize"]
 old-location: enstor\ienhancedstorageact_unauthorize.htm
 tech.root: enstor
 ms.assetid: 82f78f9d-fb50-4f44-b4ad-f3a43ccca671
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageACT interface [Enhanced Storage],Unauthorize method, IEnhancedStorageACT.Unauthorize, IEnhancedStorageACT::Unauthorize, Unauthorize, Unauthorize method [Enhanced Storage], Unauthorize method [Enhanced Storage],IEnhancedStorageACT interface, ehstorapi/IEnhancedStorageACT::Unauthorize, enstor.ienhancedstorageact_unauthorize
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT.Unauthorize
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT.Unauthorize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT::Unauthorize
+ - ehstorapi/IEnhancedStorageACT::Unauthorize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT.Unauthorize
 ---
 
 # IEnhancedStorageACT::Unauthorize
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
-
-
-## -parameters
-
-
-
+Associates the Addressable Command Target (ACT) with the <b>Unauthorized</b> state defined by <a href="/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a>, and ensures the deauthentication of each individual silo according to the required sequence and logical combination necessary to restrict access to the ACT.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -82,18 +75,7 @@ Unauthorization completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>

@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementStreamType
 title: IServiceLocationDescriptor::GetElementStreamType (atscpsipparser.h)
 description: Gets a code identifying the type of an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
+helpviewer_keywords: ["GetElementStreamType","GetElementStreamType method [Microsoft TV Technologies]","GetElementStreamType method [Microsoft TV Technologies]","IServiceLocationDescriptor interface","IServiceLocationDescriptor interface [Microsoft TV Technologies]","GetElementStreamType method","IServiceLocationDescriptor.GetElementStreamType","IServiceLocationDescriptor::GetElementStreamType","atscpsipparser/IServiceLocationDescriptor::GetElementStreamType","mstv.iservicelocationdescriptor_getelementstreamtype"]
 old-location: mstv\iservicelocationdescriptor_getelementstreamtype.htm
 tech.root: mstv
 ms.assetid: d95a9af9-2e09-4a94-ac13-1b17698cfff3
 ms.date: 12/05/2018
 ms.keywords: GetElementStreamType, GetElementStreamType method [Microsoft TV Technologies], GetElementStreamType method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementStreamType method, IServiceLocationDescriptor.GetElementStreamType, IServiceLocationDescriptor::GetElementStreamType, atscpsipparser/IServiceLocationDescriptor::GetElementStreamType, mstv.iservicelocationdescriptor_getelementstreamtype
-f1_keywords:
-- atscpsipparser/IServiceLocationDescriptor.GetElementStreamType
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IServiceLocationDescriptor.GetElementStreamType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceLocationDescriptor::GetElementStreamType
+ - atscpsipparser/IServiceLocationDescriptor::GetElementStreamType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IServiceLocationDescriptor.GetElementStreamType
 ---
 
 # IServiceLocationDescriptor::GetElementStreamType
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets a code identifying the type of an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor. 
-
+Gets a code identifying the type of an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 
 ## -parameters
-
-
-
 
 ### -param bIndex [in]
 
 Specifies the elementary stream,
-  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getnumberofelements">IServiceLocationDescriptor::GetNumberOfElements</a>method to get the number of elementary streams in the descriptor.
-
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getnumberofelements">IServiceLocationDescriptor::GetNumberOfElements</a> method to get the number of elementary streams in the descriptor.
 
 ### -param pbVal [out]
 
@@ -163,29 +159,15 @@ User Private.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iservicelocationdescriptor">IServiceLocationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iservicelocationdescriptor">IServiceLocationDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getnumberofelements">IServiceLocationDescriptor::GetNumberOfElements</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getnumberofelements">IServiceLocationDescriptor::GetNumberOfElements</a>

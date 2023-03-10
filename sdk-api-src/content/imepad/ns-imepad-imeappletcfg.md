@@ -2,15 +2,12 @@
 UID: NS:imepad.tagAPPLETCFG
 title: IMEAPPLETCFG (imepad.h)
 description: Used to specify and set applet configuration in IImePad.
+helpviewer_keywords: ["*LPIMEAPPLETCFG","IMEAPPLETCFG","IMEAPPLETCFG structure [Internationalization for Windows Applications]","IPACFG_CATEGORY","IPACFG_HELP","IPACFG_LANG","IPACFG_NONE","IPACFG_PROPERTY","IPACFG_TITLE","IPACFG_TITLEFONTFACE","PIMEAPPLETCFG","PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications]","imepad/IMEAPPLETCFG","imepad/PIMEAPPLETCFG","intl.imeappletcfg"]
 old-location: intl\imeappletcfg.htm
 tech.root: Intl
 ms.assetid: 2680231A-0A9C-4723-8E7D-73184C209050
 ms.date: 12/05/2018
 ms.keywords: '*LPIMEAPPLETCFG, IMEAPPLETCFG, IMEAPPLETCFG structure [Internationalization for Windows Applications], IPACFG_CATEGORY, IPACFG_HELP, IPACFG_LANG, IPACFG_NONE, IPACFG_PROPERTY, IPACFG_TITLE, IPACFG_TITLEFONTFACE, PIMEAPPLETCFG, PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETCFG, imepad/PIMEAPPLETCFG, intl.imeappletcfg'
-f1_keywords:
-- imepad/IMEAPPLETCFG
-dev_langs:
-- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Imepad.h
-api_name:
-- IMEAPPLETCFG
 targetos: Windows
 req.typenames: IMEAPPLETCFG, *LPIMEAPPLETCFG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAPPLETCFG
+ - imepad/tagAPPLETCFG
+ - LPIMEAPPLETCFG
+ - imepad/LPIMEAPPLETCFG
+ - IMEAPPLETCFG
+ - imepad/IMEAPPLETCFG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Imepad.h
+api_name:
+ - IMEAPPLETCFG
 ---
 
 # IMEAPPLETCFG structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Used to specify and set applet configuration in <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>.
-
+Used to specify and set applet configuration in <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dwConfig
 
@@ -79,7 +80,7 @@ Combination of <b>IPACFG_*</b> flags.
 </dl>
 </td>
 <td width="60%">
-The applet has a property Dialog. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_CFG</b>.
+The applet has a property Dialog. If this flag is set, <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_CFG</b>.
 
 </td>
 </tr>
@@ -89,7 +90,7 @@ The applet has a property Dialog. If this flag is set, <a href="https://docs.mic
 </dl>
 </td>
 <td width="60%">
-The applet has help. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_HELP</b>.
+The applet has help. If this flag is set, <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_HELP</b>.
 
 </td>
 </tr>
@@ -134,56 +135,39 @@ The applet has help. If this flag is set, <a href="https://docs.microsoft.com/wi
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wchTitle
 
 The applet's title, in Unicode.
 
-
 ### -field wchTitleFontFace
 
 The applet title's FontFace name.
-
 
 ### -field dwCharSet
 
 The applet font's character set.
 
-
 ### -field iCategory
 
 Not used.
-
 
 ### -field hIcon
 
 The icon handle for the ImePad applet's menu.
 
-
 ### -field langID
 
 The applet's language ID.
-
 
 ### -field dummy
 
 Not used.
 
-
 ### -field lReserved1
 
 Reserved.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)">IImePadApplet::GetAppletCfg</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)">IImePadApplet::GetAppletCfg</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:mfapi.MFUnlockWorkQueue
 title: MFUnlockWorkQueue function (mfapi.h)
-description: Unlocks a work queue.
+description: Unlocks a work queue. (MFUnlockWorkQueue)
+helpviewer_keywords: ["MFUnlockWorkQueue","MFUnlockWorkQueue function [Media Foundation]","bbc22fa7-b4d7-47b2-b065-099fbb2ed092","mf.mfunlockworkqueue","mfapi/MFUnlockWorkQueue"]
 old-location: mf\mfunlockworkqueue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bbc22fa7-b4d7-47b2-b065-099fbb2ed092
 ms.date: 12/05/2018
 ms.keywords: MFUnlockWorkQueue, MFUnlockWorkQueue function [Media Foundation], bbc22fa7-b4d7-47b2-b065-099fbb2ed092, mf.mfunlockworkqueue, mfapi/MFUnlockWorkQueue
-f1_keywords:
-- mfapi/MFUnlockWorkQueue
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFUnlockWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFUnlockWorkQueue
+ - mfapi/MFUnlockWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFUnlockWorkQueue
 ---
 
 # MFUnlockWorkQueue function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Unlocks a work queue.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwWorkQueue [in]
 
-Identifier for the work queue to be unlocked. The identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function.
-
+Identifier for the work queue to be unlocked. The identifier is returned by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> function.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,31 +79,15 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The application must call <b>MFUnlockWorkQueue</b> once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> and then once for every call to <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflockworkqueue">MFLockWorkQueue</a>.
-
-
-
+The application must call <b>MFUnlockWorkQueue</b> once for every call to <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateworkqueue">MFAllocateWorkQueue</a> and then once for every call to <a href="/windows/desktop/api/mfapi/nf-mfapi-mflockworkqueue">MFLockWorkQueue</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

@@ -2,15 +2,12 @@
 UID: NS:mmreg.mpeg1waveformat_tag
 title: MPEG1WAVEFORMAT (mmreg.h)
 description: The MPEG1WAVEFORMAT structure describes the format of MPEG-1 audio data.
+helpviewer_keywords: ["*LPMPEG1WAVEFORMAT","*NPMPEG1WAVEFORMAT","*PMPEG1WAVEFORMAT","ACM_MPEG_COPYRIGHT","ACM_MPEG_DUALCHANNEL","ACM_MPEG_ID_MPEG1","ACM_MPEG_JOINTSTEREO","ACM_MPEG_LAYER1","ACM_MPEG_LAYER2","ACM_MPEG_LAYER3","ACM_MPEG_ORIGINALHOME","ACM_MPEG_PRIVATEBIT","ACM_MPEG_PROTECTIONBIT","ACM_MPEG_SINGLECHANNEL","ACM_MPEG_STEREO","MPEG1WAVEFORMAT","MPEG1WAVEFORMAT structure [DirectShow]","dshow.mpeg1waveformat","mmreg/MPEG1WAVEFORMAT","mpeg1waveformat_tag"]
 old-location: dshow\mpeg1waveformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c9357f72-f101-434a-b7ae-183e78239e9c
 ms.date: 12/05/2018
 ms.keywords: '*LPMPEG1WAVEFORMAT, *NPMPEG1WAVEFORMAT, *PMPEG1WAVEFORMAT, ACM_MPEG_COPYRIGHT, ACM_MPEG_DUALCHANNEL, ACM_MPEG_ID_MPEG1, ACM_MPEG_JOINTSTEREO, ACM_MPEG_LAYER1, ACM_MPEG_LAYER2, ACM_MPEG_LAYER3, ACM_MPEG_ORIGINALHOME, ACM_MPEG_PRIVATEBIT, ACM_MPEG_PROTECTIONBIT, ACM_MPEG_SINGLECHANNEL, ACM_MPEG_STEREO, MPEG1WAVEFORMAT, MPEG1WAVEFORMAT structure [DirectShow], dshow.mpeg1waveformat, mmreg/MPEG1WAVEFORMAT, mpeg1waveformat_tag'
-f1_keywords:
-- mmreg/MPEG1WAVEFORMAT
-dev_langs:
-- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmreg.h
-api_name:
-- MPEG1WAVEFORMAT
 targetos: Windows
 req.typenames: MPEG1WAVEFORMAT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mpeg1waveformat_tag
+ - mmreg/mpeg1waveformat_tag
+ - MPEG1WAVEFORMAT
+ - mmreg/MPEG1WAVEFORMAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmreg.h
+api_name:
+ - MPEG1WAVEFORMAT
 ---
 
 # MPEG1WAVEFORMAT structure
@@ -48,23 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>MPEG1WAVEFORMAT</code> structure describes the format of MPEG-1 audio data.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field wfx
 
-
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains information about the audio format. See Remarks.
-
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains information about the audio format. See Remarks.
 
 ### -field fwHeadLayer
 
@@ -110,11 +104,9 @@ Layer 3
 
 Some MPEG streams may contain frames from more than one layer. If so, combine the flags with a bitwise <b>OR</b>.
 
-
 ### -field dwHeadBitrate
 
 Specifies the bitrate, in bits per second. This value gives the actual bitrate, not the MPEG frame header code. If the bitrate is variable, or is a non-standard bitrate, set this field to zero.
-
 
 ### -field fwHeadMode
 
@@ -170,7 +162,6 @@ Single channel
 
 Some MPEG streams may contain frames with different modes. If so, combine the flags with a bitwise OR.
 
-
 ### -field fwHeadModeExt
 
 Specifies the mode extension for joint-stereo encoding:
@@ -211,12 +202,11 @@ Specifies the mode extension for joint-stereo encoding:
 
 These values may be combined with a bitwise <b>OR</b>. In general, encoders will dynamically switch between extension modes according to the characteristics of the signal. Therefore, for normal joint-stereo encoding, set this field to 0x0F (the bitwise OR of all the flags). However, you can use this field to limit the encoder to a set of allowable encoding types.
 
-This field applies only when <b>fwHeadMode</b> includes ACM_MPEG_JOINTSTEREO. For other modes, set this field to zero. 
-
+This field applies only when <b>fwHeadMode</b> includes ACM_MPEG_JOINTSTEREO. For other modes, set this field to zero.
 
 ### -field wHeadEmphasis
 
-Sepecifies the de-emphasis required by the decoder:
+Specifies the de-emphasis required by the decoder:
 
 <table>
 <tr>
@@ -245,8 +235,6 @@ Sepecifies the de-emphasis required by the decoder:
 <td>CCITT J.17 </td>
 </tr>
 </table>
- 
-
 
 ### -field fwHeadFlags
 
@@ -312,22 +300,17 @@ Set the ID bit to 1, defining the stream as an MPEG-1 audio stream.
 
 An encoder will use these flags to set the corresponding bits in the MPEG audio frame headers.
 
-
 ### -field dwPTSLow
 
-Specifies the least signifcant 32 bits of the presentation time stamp (PTS) of the first frame of the audio stream.
-
+Specifies the least significant 32 bits of the presentation time stamp (PTS) of the first frame of the audio stream.
 
 ### -field dwPTSHigh
 
 Specifies the most significant bit of the PTS. The <b>dwPTSLow</b> and <b>dwPTSHigh</b> fields can be treated as a single 64-bit value.
 
-
 ## -remarks
 
-
-
-For MPEG-1 audio, the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure defined in the <b>wfx</b> member must have the following values.
+For MPEG-1 audio, the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure defined in the <b>wfx</b> member must have the following values.
 
 <table>
 <tr>
@@ -370,25 +353,14 @@ If the bit rate is variable or the sampling frequency is 44.1 kHz, the audio fra
 </tr>
 <tr>
 <td><b>cbSize</b></td>
-<td>Specifies the size of the format data after the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, in bytes. For the standard <b>MPEG1WAVEFORMAT</b> structure, this value is 22 bytes.</td>
+<td>Specifies the size of the format data after the <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, in bytes. For the standard <b>MPEG1WAVEFORMAT</b> structure, this value is 22 bytes.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-media-types">MPEG-1 Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/mpeg-1-media-types">MPEG-1 Media Types</a>

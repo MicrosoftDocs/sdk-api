@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SaveFileAs
 title: IWMReaderAdvanced2::SaveFileAs (wmsdkidl.h)
 description: The SaveFileAs method saves the current file.
+helpviewer_keywords: ["IWMReaderAdvanced2 interface [windows Media Format]","SaveFileAs method","IWMReaderAdvanced2.SaveFileAs","IWMReaderAdvanced2::SaveFileAs","IWMReaderAdvanced2SaveFileAs","SaveFileAs","SaveFileAs method [windows Media Format]","SaveFileAs method [windows Media Format]","IWMReaderAdvanced2 interface","wmformat.iwmreaderadvanced2_savefileas","wmsdkidl/IWMReaderAdvanced2::SaveFileAs"]
 old-location: wmformat\iwmreaderadvanced2_savefileas.htm
 tech.root: wmformat
 ms.assetid: 97bdac1f-8830-45c0-9229-322ad72b3954
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SaveFileAs method, IWMReaderAdvanced2.SaveFileAs, IWMReaderAdvanced2::SaveFileAs, IWMReaderAdvanced2SaveFileAs, SaveFileAs, SaveFileAs method [windows Media Format], SaveFileAs method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_savefileas, wmsdkidl/IWMReaderAdvanced2::SaveFileAs
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced2.SaveFileAs
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced2.SaveFileAs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced2::SaveFileAs
+ - wmsdkidl/IWMReaderAdvanced2::SaveFileAs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced2.SaveFileAs
 ---
 
 # IWMReaderAdvanced2::SaveFileAs
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SaveFileAs</b> method saves the current file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszFilename [in]
 
 Pointer to a wide-character null-terminated string containing the file name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -146,14 +137,8 @@ There is not enough free disk space. See the note in the Remarks below.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be used to save the content downloaded from a Web server to the local hard disk. Files can be saved when the reader is downloading from a Web server.
 
@@ -161,20 +146,11 @@ You can use this method to save a server-side playlist. When you do so, you spec
 
 This operation is asynchronous; WMT_SAVEAS_STOP indicates that all the data has been saved. Closing the reader ends a save operation that has not been completed.
 
-This method can take some time to complete, and a call can be made to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getsaveasprogress">GetSaveAsProgress</a> to determine progress.
+This method can take some time to complete, and a call can be made to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-getsaveasprogress">GetSaveAsProgress</a> to determine progress.
 
 <div class="alert"><b>Note</b>  It is possible to get the out of disk space error (STG_E_MEDIUMFULL) if the file being saved is greater than 1 MB. This is because Microsoft Internet Explorer has a maximum cache size of 1MB, and in this case the error does not refer to the amount of free disk space. This effectively limits the sizes of files that can be saved this way to those under 1 MB.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>

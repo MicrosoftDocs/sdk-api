@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.CreateAgent
 title: ITAgentHandler::CreateAgent (tapi3cc.h)
-description: The CreateAgent method creates an Agent object.
+description: The ITAgentHandler::CreateAgent method (tapi3cc.h) creates an Agent object.
+helpviewer_keywords: ["CreateAgent","CreateAgent method [TAPI 2.2]","CreateAgent method [TAPI 2.2]","ITAgentHandler interface","ITAgentHandler interface [TAPI 2.2]","CreateAgent method","ITAgentHandler.CreateAgent","ITAgentHandler::CreateAgent","_tapi3_itagenthandler_createagent","tapi3.itagenthandler_createagent","tapi3cc/ITAgentHandler::CreateAgent"]
 old-location: tapi3\itagenthandler_createagent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: f3242013-59a6-40f9-9bb1-0bc30f27311c
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: CreateAgent, CreateAgent method [TAPI 2.2], CreateAgent method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgent method, ITAgentHandler.CreateAgent, ITAgentHandler::CreateAgent, _tapi3_itagenthandler_createagent, tapi3.itagenthandler_createagent, tapi3cc/ITAgentHandler::CreateAgent
-f1_keywords:
-- tapi3cc/ITAgentHandler.CreateAgent
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentHandler.CreateAgent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentHandler::CreateAgent
+ - tapi3cc/ITAgentHandler::CreateAgent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentHandler.CreateAgent
 ---
 
 # ITAgentHandler::CreateAgent
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateAgent</b> method creates an Agent object.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAgent [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,37 +114,21 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentHandler::CreateAgent</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentHandler::CreateAgent</b>. The application must call <b>Release</b> on the 
 <b>ITAgent</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagentwithid">CreateAgentWithID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-createagentwithid">CreateAgentWithID</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>

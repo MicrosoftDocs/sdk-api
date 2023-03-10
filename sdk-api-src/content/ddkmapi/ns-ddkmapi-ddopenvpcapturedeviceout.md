@@ -2,15 +2,12 @@
 UID: NS:ddkmapi._DDOPENVPCAPTUREDEVICEOUT
 title: DDOPENVPCAPTUREDEVICEOUT (ddkmapi.h)
 description: The DDOPENVPCAPTUREDEVICEOUT structure contains the video port extensions (VPE) capture handle.
+helpviewer_keywords: ["*LPDDOPENVPCAPTUREDEVICEOUT","DDOPENVPCAPTUREDEVICEOUT","DDOPENVPCAPTUREDEVICEOUT structure [Display Devices]","LPDDOPENVPCAPTUREDEVICEOUT","LPDDOPENVPCAPTUREDEVICEOUT structure pointer [Display Devices]","ddkmapi/DDOPENVPCAPTUREDEVICEOUT","ddkmapi/LPDDOPENVPCAPTUREDEVICEOUT","ddstrcts_b477f183-6c80-47db-a9ee-5bcbe7162774.xml","display.ddopenvpcapturedeviceout"]
 old-location: display\ddopenvpcapturedeviceout.htm
 tech.root: display
 ms.assetid: 5979ccd5-7c35-4088-96b3-15e4416d5471
 ms.date: 12/05/2018
 ms.keywords: '*LPDDOPENVPCAPTUREDEVICEOUT, DDOPENVPCAPTUREDEVICEOUT, DDOPENVPCAPTUREDEVICEOUT structure [Display Devices], LPDDOPENVPCAPTUREDEVICEOUT, LPDDOPENVPCAPTUREDEVICEOUT structure pointer [Display Devices], ddkmapi/DDOPENVPCAPTUREDEVICEOUT, ddkmapi/LPDDOPENVPCAPTUREDEVICEOUT, ddstrcts_b477f183-6c80-47db-a9ee-5bcbe7162774.xml, display.ddopenvpcapturedeviceout'
-f1_keywords:
-- ddkmapi/DDOPENVPCAPTUREDEVICEOUT
-dev_langs:
-- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkmapi.h
-api_name:
-- DDOPENVPCAPTUREDEVICEOUT
 targetos: Windows
 req.typenames: DDOPENVPCAPTUREDEVICEOUT, *LPDDOPENVPCAPTUREDEVICEOUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDOPENVPCAPTUREDEVICEOUT
+ - ddkmapi/_DDOPENVPCAPTUREDEVICEOUT
+ - LPDDOPENVPCAPTUREDEVICEOUT
+ - ddkmapi/LPDDOPENVPCAPTUREDEVICEOUT
+ - DDOPENVPCAPTUREDEVICEOUT
+ - ddkmapi/DDOPENVPCAPTUREDEVICEOUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkmapi.h
+api_name:
+ - DDOPENVPCAPTUREDEVICEOUT
 ---
 
 # DDOPENVPCAPTUREDEVICEOUT structure
@@ -48,36 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDOPENVPCAPTUREDEVICEOUT structure contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> capture handle. 
-
+The DDOPENVPCAPTUREDEVICEOUT structure contains the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> capture handle.
 
 ## -struct-fields
 
-
-
-
 ### -field ddRVal
 
-Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a> operations. A return code of DD_OK indicates success.
-
+Specifies the location in which Microsoft DirectDraw writes the return value of the <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a> function for <a href="/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a> operations. A return code of DD_OK indicates success.
 
 ### -field hCapture
 
 Handle to the new VPE capture object.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

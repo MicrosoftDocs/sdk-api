@@ -1,16 +1,13 @@
 ---
 UID: NF:winreg.InitiateSystemShutdownW
 title: InitiateSystemShutdownW function (winreg.h)
-description: Initiates a shutdown and optional restart of the specified computer.
+description: Initiates a shutdown and optional restart of the specified computer. (Unicode)
+helpviewer_keywords: ["InitiateSystemShutdown", "InitiateSystemShutdown function", "InitiateSystemShutdownW", "_win32_initiatesystemshutdown", "base.initiatesystemshutdown", "winreg/InitiateSystemShutdown", "winreg/InitiateSystemShutdownW"]
 old-location: base\initiatesystemshutdown.htm
-tech.root: Shutdown
+tech.root: base
 ms.assetid: cad54fea-7f59-438c-83ac-f0160d81496b
 ms.date: 12/05/2018
 ms.keywords: InitiateSystemShutdown, InitiateSystemShutdown function, InitiateSystemShutdownA, InitiateSystemShutdownW, _win32_initiatesystemshutdown, base.initiatesystemshutdown, winreg/InitiateSystemShutdown, winreg/InitiateSystemShutdownA, winreg/InitiateSystemShutdownW
-f1_keywords:
-- winreg/InitiateSystemShutdown
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- AdvApi32Legacy.dll
-- API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll
-api_name:
-- InitiateSystemShutdown
-- InitiateSystemShutdownA
-- InitiateSystemShutdownW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitiateSystemShutdownW
+ - winreg/InitiateSystemShutdownW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - AdvApi32Legacy.dll
+ - API-MS-Win-Core-Shutdown-Ansi-L1-1-0.dll
+api_name:
+ - InitiateSystemShutdown
+ - InitiateSystemShutdownA
+ - InitiateSystemShutdownW
 ---
 
 # InitiateSystemShutdownW function
@@ -52,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates a shutdown and optional restart of the specified computer.
 
 To record a reason for the shutdown in the event log, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a> function.
-
+<a href="/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpMachineName [in, optional]
 
 The network name of the computer to be shut down. If <i>lpMachineName</i> is <b>NULL</b> or an empty string, the function shuts down the local computer.
-
 
 ### -param lpMessage [in, optional]
 
@@ -77,22 +73,20 @@ The  message to be displayed in the shutdown dialog box. This parameter can be <
 
 <b>Windows Server 2003 and Windows XP with SP1:  </b>The string is limited to 3072 <b>TCHARs</b>.
 
-
 ### -param dwTimeout [in]
 
 The length of time that the shutdown dialog box should be displayed, in seconds. While this dialog box is displayed, the shutdown can be stopped by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a> function.
+<a href="/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a> function.
 
 If <i>dwTimeout</i> is not zero, 
 <b>InitiateSystemShutdown</b> displays a dialog box on the specified computer. The dialog box displays the name of the user who called the function, displays the message specified by the <i>lpMessage</i> parameter, and prompts the user to log off. The dialog box beeps when it is created and remains on top of other windows in the system. The dialog box can be moved but not closed. A timer counts down the remaining time before a forced shutdown.
 
 If <i>dwTimeout</i> is zero, the computer shuts down without displaying the dialog box, and the shutdown cannot be stopped by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>.
+<a href="/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>.
 
 <b>Windows Server 2003 and Windows XP with SP1:  </b>The time-out value is limited to <b>MAX_SHUTDOWN_TIMEOUT</b> seconds.
 
 <b>Windows Server 2003 and Windows XP with SP1:  </b>If the computer to be shut down is a Terminal Services server, the system displays a dialog box to all local and remote users warning them that shutdown has been initiated. The dialog box includes who requested the shutdown, the display message (see <i>lpMessage</i>), and how much time there is until the server is shut down.
-
 
 ### -param bForceAppsClosed [in]
 
@@ -100,30 +94,21 @@ If this parameter is <b>TRUE</b>, applications with unsaved changes are to be fo
 
 If this parameter is <b>FALSE</b>, the system displays a dialog box instructing the user to close the applications.
 
-
 ### -param bRebootAfterShutdown [in]
 
 If this parameter is <b>TRUE</b>, the computer is to restart immediately after shutting down. If this parameter is <b>FALSE</b>, the system flushes all caches to disk  and  safely powers down the system.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 To shut down the local computer, the calling thread must have the <b>SE_SHUTDOWN_NAME</b> privilege. To shut down a remote computer, the calling thread must have the <b>SE_REMOTE_SHUTDOWN_NAME</b> privilege on the remote computer. By default, users can enable the <b>SE_SHUTDOWN_NAME</b> privilege on the computer they are logged onto, and administrators can enable the <b>SE_REMOTE_SHUTDOWN_NAME</b> privilege on remote computers. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+<a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Common reasons for failure include an invalid or inaccessible computer name or insufficient privilege. The error <b>ERROR_SHUTDOWN_IN_PROGRESS</b> is returned if a shutdown is already in progress on the specified computer. The error <b>ERROR_NOT_READY</b> can be returned if fast-user switching is enabled but no user is logged on.
 
@@ -139,31 +124,28 @@ Note that calling this function with the value of the <i>bForceAppsClosed</i> pa
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/displaying-the-shutdown-dialog-box">Displaying the Shutdown Dialog Box</a>.
+<a href="/windows/desktop/Shutdown/displaying-the-shutdown-dialog-box">Displaying the Shutdown Dialog Box</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The winreg.h header defines InitiateSystemShutdown as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-abortsystemshutdowna">AbortSystemShutdown</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a>
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>

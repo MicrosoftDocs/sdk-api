@@ -2,15 +2,12 @@
 UID: NF:webservices.WsWriteBytes
 title: WsWriteBytes function (webservices.h)
 description: Writes bytes to the writer in a format optimized for the encoding. When writing in a text encoding, it will emit the bytes encoded in base64. When writing to a binary format, it will emit the bytes directly.
+helpviewer_keywords: ["WsWriteBytes","WsWriteBytes function [Web Services for Windows]","webservices/WsWriteBytes","wsw.wswritebytes"]
 old-location: wsw\wswritebytes.htm
 tech.root: wsw
 ms.assetid: 1fa9ecfc-c791-459f-ae11-ffcdc82b7145
 ms.date: 12/05/2018
 ms.keywords: WsWriteBytes, WsWriteBytes function [Web Services for Windows], webservices/WsWriteBytes, wsw.wswritebytes
-f1_keywords:
-- webservices/WsWriteBytes
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsWriteBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsWriteBytes
+ - webservices/WsWriteBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsWriteBytes
 ---
 
 # WsWriteBytes function
@@ -48,45 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes bytes to the writer in a format optimized for the encoding.  When writing
          in a text encoding, it will emit the bytes encoded in base64.  When writing to 
          a binary format, it will emit the bytes directly.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param writer [in]
 
 The writer to which the bytes will be written.
-        
-
 
 ### -param bytes
 
 The bytes to write to the document.
-        
-
 
 ### -param byteCount [in]
 
 The number bytes to write to the document.
-        
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-        
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -129,29 +115,19 @@ A quota was exceeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>WsWriteBytes</b> may be called more than once between <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.  It may
-        not be combined with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.
+<b>WsWriteBytes</b> may be called more than once between <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.  It may
+        not be combined with <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a> when writing an attribute.
       
 
-For the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the byteCount exceeds the maxInlineByteCount specified
-        during <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> then the bytes will be buffered and  placed in their own MIME part.  Otherwise
+For the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the byteCount exceeds the maxInlineByteCount specified
+        during <a href="/windows/desktop/api/webservices/nf-webservices-wssetoutput">WsSetOutput</a> then the bytes will be buffered and  placed in their own MIME part.  Otherwise
         the bytes are encoded in base64 and placed directly in the document.
       
 
-For the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the element containing the bytes has an attribute with
+For the <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a>, if the element containing the bytes has an attribute with
         the name 'contentType' and the namespace 'http://www.w3.org/2004/11/xmlmime', then the value of the attribute
         will be reflected in the content type header for the MIME part as described in 
         XML-binary Optimized Packaging.
-      
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:fileapi.GetFileSizeEx
 title: GetFileSizeEx function (fileapi.h)
 description: Retrieves the size of the specified file.
+helpviewer_keywords: ["GetFileSizeEx","GetFileSizeEx function [Files]","_win32_getfilesizeex","base.getfilesizeex","fileapi/GetFileSizeEx","fs.getfilesizeex","winbase/GetFileSizeEx"]
 old-location: fs\getfilesizeex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 782457bc-8f37-4eec-8ff3-b148fd0a7345
 ms.date: 12/05/2018
 ms.keywords: GetFileSizeEx, GetFileSizeEx function [Files], _win32_getfilesizeex, base.getfilesizeex, fileapi/GetFileSizeEx, fs.getfilesizeex, winbase/GetFileSizeEx
-f1_keywords:
-- fileapi/GetFileSizeEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetFileSizeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetFileSizeEx
+ - fileapi/GetFileSizeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetFileSizeEx
 ---
 
 # GetFileSizeEx function
@@ -55,50 +57,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size of the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file. The handle must have been created with the 
       <b>FILE_READ_ATTRIBUTES</b> access right or equivalent, or the caller must have sufficient permission on the directory that contains the file. 
       For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
-
+      <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param lpFileSize [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that 
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structure that 
       receives the file size, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 <b>Transacted Operations:  </b>If there is a transaction bound to the file handle, then the function returns information for the isolated 
       file view.
 
 <b>Windows Store apps:  </b><b>GetFileSizeEx</b> is not supported. Use 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
+      <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -158,22 +146,11 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
- 
-
- 
-
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>

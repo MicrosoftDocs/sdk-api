@@ -1,16 +1,13 @@
 ---
 UID: NS:mprapi._PPP_PROJECTION_INFO
 title: PPP_PROJECTION_INFO (mprapi.h)
-description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP).
+description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP). (PPP_PROJECTION_INFO)
+helpviewer_keywords: ["*PPPP_PROJECTION_INFO","ERROR_PPP_NOT_CONVERGING","PPP_CCP_COMPRESSION","PPP_CCP_ENCRYPTION128BIT","PPP_CCP_ENCRYPTION40BIT","PPP_CCP_ENCRYPTION40BITOLD","PPP_CCP_ENCRYPTION56BIT","PPP_CCP_HISTORYLESS","PPP_IPCP_VJ","PPP_LCP_3_DES","PPP_LCP_ACFC","PPP_LCP_AES_128","PPP_LCP_AES_256","PPP_LCP_CHAP","PPP_LCP_CHAP_MD5","PPP_LCP_CHAP_MS","PPP_LCP_CHAP_MSV2","PPP_LCP_DES_56","PPP_LCP_EAP","PPP_LCP_MULTILINK_FRAMING","PPP_LCP_PAP","PPP_LCP_PFC","PPP_LCP_SSHF","PPP_PROJECTION_INFO","PPP_PROJECTION_INFO structure [RAS]","RASCCPCA_MPPC","RASCCPCA_STAC","mprapi/PPP_PROJECTION_INFO","rras.ppp_projection_info"]
 old-location: rras\ppp_projection_info.htm
 tech.root: RRAS
 ms.assetid: f100a7d0-9f22-4cc6-8db0-684cff565e76
 ms.date: 12/05/2018
 ms.keywords: '*PPPP_PROJECTION_INFO, ERROR_PPP_NOT_CONVERGING, PPP_CCP_COMPRESSION, PPP_CCP_ENCRYPTION128BIT, PPP_CCP_ENCRYPTION40BIT, PPP_CCP_ENCRYPTION40BITOLD, PPP_CCP_ENCRYPTION56BIT, PPP_CCP_HISTORYLESS, PPP_IPCP_VJ, PPP_LCP_3_DES, PPP_LCP_ACFC, PPP_LCP_AES_128, PPP_LCP_AES_256, PPP_LCP_CHAP, PPP_LCP_CHAP_MD5, PPP_LCP_CHAP_MS, PPP_LCP_CHAP_MSV2, PPP_LCP_DES_56, PPP_LCP_EAP, PPP_LCP_MULTILINK_FRAMING, PPP_LCP_PAP, PPP_LCP_PFC, PPP_LCP_SSHF, PPP_PROJECTION_INFO, PPP_PROJECTION_INFO structure [RAS], RASCCPCA_MPPC, RASCCPCA_STAC, mprapi/PPP_PROJECTION_INFO, rras.ppp_projection_info'
-f1_keywords:
-- mprapi/PPP_PROJECTION_INFO
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- PPP_PROJECTION_INFO
 targetos: Windows
 req.typenames: PPP_PROJECTION_INFO, *PPPP_PROJECTION_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PPP_PROJECTION_INFO
+ - mprapi/_PPP_PROJECTION_INFO
+ - PPPP_PROJECTION_INFO
+ - mprapi/PPPP_PROJECTION_INFO
+ - PPP_PROJECTION_INFO
+ - mprapi/PPP_PROJECTION_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - PPP_PROJECTION_INFO
 ---
 
 # PPP_PROJECTION_INFO structure
@@ -48,30 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PPP_PROJECTION_INFO</b> structure contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP).
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwIPv4NegotiationError
 
 A value that specifies the result of PPP IPv4  Network control protocol negotiation. A value of zero indicates Ipv4 has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during the control protocol negotiation.
 
-
 ### -field wszAddress
 
 An array that contains a Unicode string that specifies the IPv4 address of the local client. This string has the form "a.b.c.d". <b>wszAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero.
 
-
 ### -field wszRemoteAddress
 
 An array that contains a Unicode string that specifies the IPv4 address of the remote server. This string has the form "a.b.c.d". <b>wszRemoteAddress</b> is valid only if <b>dwIPv4NegotiationError</b> is zero. If the address is not available, this member is an empty string.
-
 
 ### -field dwIPv4Options
 
@@ -93,8 +91,6 @@ Indicates that IP datagrams sent by the local client are compressed using Van Ja
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwIPv4RemoteOptions
 
@@ -116,48 +112,38 @@ Indicates that IP datagrams sent by the remote server (that is, received by the 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IPv4SubInterfaceIndex
 
 A value that specifies the IPv4 subinterface   index corresponding to the connection on the server.
 
-
 ### -field dwIPv6NegotiationError
 
 A value that specifies the result of PPP IPv6  Network control protocol negotiation. A value of zero indicates Ipv6 has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during the control protocol negotiation.
-
 
 ### -field bInterfaceIdentifier
 
 An array that specifies the 64-bit IPv6 interface identifier of the client. The last 64 bits of a 128-bit IPv6 internet address are considered the "interface identifier," which provides a strong level of uniqueness for the preceding 64-bits. <b>bInterfaceIdentifier</b> is valid only if <b>dwIPv6NegotiationError</b> is zero and must not be zero.
 
-
 ### -field bRemoteInterfaceIdentifier
 
 An array that specifies the 64-bit IPv6 interface identifier of the server. The last 64 bits of a 128-bit IPv6 internet address are considered the "interface identifier," which provides a strong level of uniqueness for the preceding 64-bits. <b>bInterfaceIdentifier</b> is valid only if <b>dwIPv6NegotiationError</b> is zero and must not be zero.
-
 
 ### -field bPrefix
 
 A value that specifies the client interface IPv6  address prefix.
 
-
 ### -field dwPrefixLength
 
 A value that specifies the length, in bits, of <b>bPrefix</b>.
-
 
 ### -field IPv6SubInterfaceIndex
 
 A value that specifies the IPv6 subinterface   index corresponding to the connection on the server.
 
-
 ### -field dwLcpError
 
 A value that specifies the result of PPP LCP negotiation. A value of zero indicates LCP has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during the control protocol negotiation.
-
 
 ### -field dwAuthenticationProtocol
 
@@ -199,8 +185,6 @@ Extensible Authentication Protocol.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwAuthenticationData
 
@@ -242,8 +226,6 @@ Microsoft CHAP version 2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwRemoteAuthenticationProtocol
 
@@ -285,8 +267,6 @@ Extensible Authentication Protocol.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwRemoteAuthenticationData
 
@@ -328,18 +308,14 @@ Microsoft CHAP version 2.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwLcpTerminateReason
 
 Reserved for future use. Must be zero.
 
-
 ### -field dwLcpRemoteTerminateReason
 
 Reserved for future use. Must be zero.
-
 
 ### -field dwLcpOptions
 
@@ -366,7 +342,7 @@ The connection is using multilink.
 </dl>
 </td>
 <td width="60%">
-The connection is using Protocol Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Protocol Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -376,7 +352,7 @@ The connection is using Protocol Field Compression (<a href="https://go.microsof
 </dl>
 </td>
 <td width="60%">
-The connection is using Address and Control Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Address and Control Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -431,8 +407,6 @@ The connection is using 256-bit AES Encryption.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwLcpRemoteOptions
 
@@ -459,7 +433,7 @@ The connection is using multilink.
 </dl>
 </td>
 <td width="60%">
-The connection is using Protocol Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Protocol Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -469,7 +443,7 @@ The connection is using Protocol Field Compression (<a href="https://go.microsof
 </dl>
 </td>
 <td width="60%">
-The connection is using Address and Control Field Compression (<a href="https://go.microsoft.com/fwlink/p/?linkid=84548">RFC 1172</a>).
+The connection is using Address and Control Field Compression (<a href="https://www.ietf.org/rfc/rfc1172.txt">RFC 1172</a>).
 
 </td>
 </tr>
@@ -524,23 +498,18 @@ The connection is using 256-bit AES Encryption.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEapTypeId
 
 A value that specifies the type identifier of the Extensible Authentication Protocol (EAP) used to authenticate the local client. The value of this member is valid only if <b>dwAuthenticationProtocol</b> is <b>PPP_LCP_EAP</b>.
 
-
 ### -field dwRemoteEapTypeId
 
 A value that specifies the type identifier of the Extensible Authentication Protocol (EAP) used to authenticate the remote server. The value of this member is valid only if <b>dwRemoteAuthenticationProtocol</b> is <b>PPP_LCP_EAP</b>.
 
-
 ### -field dwCcpError
 
 A value that specifies the result of PPP CCP negotiation. A value of zero indicates CCP has been negotiated successfully. A nonzero value indicates failure, and is the fatal error that occurred during the control protocol negotiation.
-
 
 ### -field dwCompressionAlgorithm
 
@@ -557,7 +526,7 @@ A value that specifies the compression algorithm used by the local client. The f
 </dl>
 </td>
 <td width="60%">
-Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="https://go.microsoft.com/fwlink/p/?linkid=84560">RFC 2118</a>).
+Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="https://www.ietf.org/rfc/rfc2118.txt">RFC 2118</a>).
 
 </td>
 </tr>
@@ -567,13 +536,11 @@ Microsoft Point-to-Point Compression (MPPC) Protocol (<a href="https://go.micros
 </dl>
 </td>
 <td width="60%">
-STAC option 4 (<a href="https://go.microsoft.com/fwlink/p/?linkid=84557">RFC 1974</a>).
+STAC option 4 (<a href="https://www.ietf.org/rfc/rfc1974.txt">RFC 1974</a>).
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCcpOptions
 
@@ -649,7 +616,6 @@ MPPE compression using 128-bit keys.
 
 The last three options are used when a connection is made over Layer 2 Tunneling Protocol (L2TP), and the connection uses IPSec encryption.
 
-
 ### -field dwRemoteCompressionAlgorithm
 
 A value that specifies the compression algorithm used by the remote server. The following algorithms are supported:
@@ -666,7 +632,7 @@ A value that specifies the compression algorithm used by the remote server. The 
 </td>
 <td width="60%">
 Microsoft Point-to-Point Compression (MPPC) Protocol (
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84560">RFC 2118</a>).
+<a href="https://www.ietf.org/rfc/rfc2118.txt">RFC 2118</a>).
 
 </td>
 </tr>
@@ -677,13 +643,11 @@ Microsoft Point-to-Point Compression (MPPC) Protocol (
 </td>
 <td width="60%">
 STAC option 4 (
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84557">RFC 1974</a>).
+<a href="https://www.ietf.org/rfc/rfc1974.txt">RFC 1974</a>).
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCcpRemoteOptions
 
@@ -769,18 +733,10 @@ The remote computer and RRAS could not converge on address negotiation.
 
 The last three options are used when a connection is made over Layer 2 Tunneling Protocol (L2TP), and the connection uses IPSec encryption.
 
-
 ## -see-also
 
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>

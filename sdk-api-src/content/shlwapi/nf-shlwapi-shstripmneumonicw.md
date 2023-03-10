@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.SHStripMneumonicW
 title: SHStripMneumonicW function (shlwapi.h)
-description: Removes the mnemonic marker from a string.
+description: Removes the mnemonic marker from a string. (Unicode)
+helpviewer_keywords: ["SHStripMneumonic", "SHStripMneumonic function [Windows Shell]", "SHStripMneumonicW", "_win32_SHStripMneumonic", "shell.SHStripMneumonic", "shlwapi/SHStripMneumonic", "shlwapi/SHStripMneumonicW"]
 old-location: shell\SHStripMneumonic.htm
 tech.root: shell
 ms.assetid: 25479814-825a-4af2-8751-b35cf39bbb80
 ms.date: 12/05/2018
 ms.keywords: SHStripMneumonic, SHStripMneumonic function [Windows Shell], SHStripMneumonicA, SHStripMneumonicW, _win32_SHStripMneumonic, shell.SHStripMneumonic, shlwapi/SHStripMneumonic, shlwapi/SHStripMneumonicA, shlwapi/SHStripMneumonicW
-f1_keywords:
-- shlwapi/SHStripMneumonic
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- SHStripMneumonic
-- SHStripMneumonicA
-- SHStripMneumonicW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHStripMneumonicW
+ - shlwapi/SHStripMneumonicW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - SHStripMneumonic
+ - SHStripMneumonicA
+ - SHStripMneumonicW
 ---
 
 # SHStripMneumonicW function
@@ -52,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available through Windows XP and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
 Removes the mnemonic marker from a string.
 
-
 ## -parameters
-
-
-
 
 ### -param pszMenu [in, out]
 
@@ -69,21 +66,13 @@ Type: <b>LPTSTR*</b>
 
 A pointer to the null-terminated string that contains the mnemonic marker.
 
-
 ## -returns
-
-
 
 Type: <b>TCHAR</b>
 
 Returns the mnemonic character, if one was found. Otherwise, returns 0.
 
-
-
-
 ## -remarks
-
-
 
 The term "mnemonic" is misspelled in the function name.
 
@@ -116,13 +105,10 @@ The function supports the following mnemonic formats.
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines SHStripMneumonic as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>

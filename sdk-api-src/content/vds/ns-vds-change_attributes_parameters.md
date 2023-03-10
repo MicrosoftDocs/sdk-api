@@ -1,16 +1,13 @@
 ---
 UID: NS:vds._CHANGE_ATTRIBUTES_PARAMETERS
 title: CHANGE_ATTRIBUTES_PARAMETERS (vds.h)
-description: Defines the partition parameters of a partition style.
+description: Defines the partition parameters of a partition style. (CHANGE_ATTRIBUTES_PARAMETERS)
+helpviewer_keywords: ["CHANGE_ATTRIBUTES_PARAMETERS","CHANGE_ATTRIBUTES_PARAMETERS structure [VDS]","GPT_ATTRIBUTE_PLATFORM_REQUIRED","GPT_BASIC_DATA_ATTRIBUTE_HIDDEN","GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER","GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY","GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY","base.change_attributes_parameters","vds/CHANGE_ATTRIBUTES_PARAMETERS"]
 old-location: base\change_attributes_parameters.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 6ff3ea68-70dd-4ef1-9c31-1f8c1fcf5fca
 ms.date: 12/05/2018
 ms.keywords: CHANGE_ATTRIBUTES_PARAMETERS, CHANGE_ATTRIBUTES_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, base.change_attributes_parameters, vds/CHANGE_ATTRIBUTES_PARAMETERS
-f1_keywords:
-- vds/CHANGE_ATTRIBUTES_PARAMETERS
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- CHANGE_ATTRIBUTES_PARAMETERS
 targetos: Windows
 req.typenames: CHANGE_ATTRIBUTES_PARAMETERS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CHANGE_ATTRIBUTES_PARAMETERS
+ - vds/_CHANGE_ATTRIBUTES_PARAMETERS
+ - CHANGE_ATTRIBUTES_PARAMETERS
+ - vds/CHANGE_ATTRIBUTES_PARAMETERS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - CHANGE_ATTRIBUTES_PARAMETERS
 ---
 
 # CHANGE_ATTRIBUTES_PARAMETERS structure
@@ -48,43 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the partition parameters of a partition style.
 
-
 ## -struct-fields
-
-
-
 
 ### -field style
 
 Determines the partition parameters. Supported values are <b>VDS_PST_MBR</b> or 
       <b>VDS_PST_GPT</b>.
 
-
 ### -field MbrPartInfo
 
 Used if <b>style</b> is <b>VDS_PST_MBR</b>. Parameters for a Master 
        Boot Record (MBR) disk.
-
 
 ### -field MbrPartInfo.bootIndicator
 
 If <b>TRUE</b>, the partition is active and can be booted; otherwise the partition 
         cannot be used to boot the system.
 
-
 ### -field GptPartInfo
 
 Used if <b>style</b> is <b>VDS_PST_GPT</b>. Parameters for a GUID 
        Partition Table (GPT) disk.
 
-
 ### -field GptPartInfo.attributes
-
 
 Attributes of the partition. This can be one or more of the following values:
 
@@ -138,8 +132,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a result, the partition does not receive a drive letter, 
           does not receive a volume GUID path, does not host mounted folders (also called volume mount points), and is not enumerated by calls to 
-          <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
-          <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
+          <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+          <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
           such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this attribute.
 
 Despite its name, this attribute can be set for basic and dynamic disks.
@@ -177,7 +171,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only. 
 
 All requests to write to the partition will fail. 
-          <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
+          <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
           ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present.
 
 VSS uses this attribute.
@@ -187,31 +181,17 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a> 
+    <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a> 
     method takes this structure as a parameter.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-changeattributes">IVdsAdvancedDisk::ChangeAttributes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>

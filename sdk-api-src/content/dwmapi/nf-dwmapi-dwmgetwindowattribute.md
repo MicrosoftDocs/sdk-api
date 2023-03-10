@@ -2,15 +2,12 @@
 UID: NF:dwmapi.DwmGetWindowAttribute
 title: DwmGetWindowAttribute function (dwmapi.h)
 description: Retrieves the current value of a specified Desktop Window Manager (DWM) attribute applied to a window.
+helpviewer_keywords: ["DwmGetWindowAttribute","DwmGetWindowAttribute function [Desktop Window Manager]","_udwm_dwmgetwindowattribute","_udwm_dwmgetwindowattribute_cpp","dwm.dwmgetwindowattribute","dwmapi/DwmGetWindowAttribute","winui._udwm_dwmgetwindowattribute"]
 old-location: dwm\dwmgetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetwindowattribute.htm
 ms.date: 05/30/2019
 ms.keywords: DwmGetWindowAttribute, DwmGetWindowAttribute function [Desktop Window Manager], _udwm_dwmgetwindowattribute, _udwm_dwmgetwindowattribute_cpp, dwm.dwmgetwindowattribute, dwmapi/DwmGetWindowAttribute, winui._udwm_dwmgetwindowattribute
-f1_keywords:
-- dwmapi/DwmGetWindowAttribute
-dev_langs:
-- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dwmapi.dll
-api_name:
-- DwmGetWindowAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DwmGetWindowAttribute
+ - dwmapi/DwmGetWindowAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dwmapi.dll
+api_name:
+ - DwmGetWindowAttribute
 ---
 
 # DwmGetWindowAttribute function
+
 
 ## -description
 
@@ -77,3 +80,4 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 * [DwmSetWindowAttribute function](/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetwindowattribute)
 * [Enable and control DWM composition](/windows/desktop/dwm/composition-ovw)
+

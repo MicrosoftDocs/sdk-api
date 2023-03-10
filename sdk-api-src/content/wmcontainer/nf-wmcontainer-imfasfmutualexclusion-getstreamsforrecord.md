@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetStreamsForRecord
 title: IMFASFMutualExclusion::GetStreamsForRecord (wmcontainer.h)
 description: Retrieves the stream numbers contained in a record in the Advanced Systems Format mutual exclusion object.
+helpviewer_keywords: ["GetStreamsForRecord","GetStreamsForRecord method [Media Foundation]","GetStreamsForRecord method [Media Foundation]","IMFASFMutualExclusion interface","IMFASFMutualExclusion interface [Media Foundation]","GetStreamsForRecord method","IMFASFMutualExclusion.GetStreamsForRecord","IMFASFMutualExclusion::GetStreamsForRecord","ce410ae9-d0d0-4617-8178-829ef3c77ce0","mf.imfasfmutualexclusion_getstreamsforrecord","wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord"]
 old-location: mf\imfasfmutualexclusion_getstreamsforrecord.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ce410ae9-d0d0-4617-8178-829ef3c77ce0
 ms.date: 12/05/2018
 ms.keywords: GetStreamsForRecord, GetStreamsForRecord method [Media Foundation], GetStreamsForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetStreamsForRecord method, IMFASFMutualExclusion.GetStreamsForRecord, IMFASFMutualExclusion::GetStreamsForRecord, ce410ae9-d0d0-4617-8178-829ef3c77ce0, mf.imfasfmutualexclusion_getstreamsforrecord, wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord
-f1_keywords:
-- wmcontainer/IMFASFMutualExclusion.GetStreamsForRecord
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFMutualExclusion.GetStreamsForRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFMutualExclusion::GetStreamsForRecord
+ - wmcontainer/IMFASFMutualExclusion::GetStreamsForRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFMutualExclusion.GetStreamsForRecord
 ---
 
 # IMFASFMutualExclusion::GetStreamsForRecord
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the stream numbers contained in a record in the Advanced Systems Format mutual exclusion object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwRecordNumber [in]
 
 The number of the record for which to retrieve the stream numbers.
 
-
 ### -param pwStreamNumArray [out]
 
 An array that receives the stream numbers. Set to <b>NULL</b> to get the number of elements required, which is indicated by the value of <i>pcStreams</i> on return. If this parameter is not <b>NULL</b>, the method will copy as many stream numbers to the array as there are elements indicated by the value of <i>pcStreams</i>.
-
 
 ### -param pcStreams [in, out]
 
 On input, the number of elements in the array referenced by <i>pwStreamNumArray</i>. On output, the method sets this value to the count of stream numbers in the record. You can call <b>GetStreamsForRecord</b> with <i>pwStreamNumArray</i> set to <b>NULL</b> to retrieve the number of elements required to hold all of the stream numbers.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,22 +88,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>

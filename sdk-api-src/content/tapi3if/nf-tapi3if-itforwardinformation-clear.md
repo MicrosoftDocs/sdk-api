@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITForwardInformation.Clear
 title: ITForwardInformation::Clear (tapi3if.h)
 description: The Clear method clears all forwarding information in this object.
+helpviewer_keywords: ["Clear","Clear method [TAPI 2.2]","Clear method [TAPI 2.2]","ITForwardInformation interface","ITForwardInformation interface [TAPI 2.2]","Clear method","ITForwardInformation.Clear","ITForwardInformation::Clear","_tapi3_itforwardinformation_clear","tapi3.itforwardinformation_clear","tapi3if/ITForwardInformation::Clear"]
 old-location: tapi3\itforwardinformation_clear.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 721a4efc-e379-4553-a2a1-efb8831cda38
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [TAPI 2.2], Clear method [TAPI 2.2],ITForwardInformation interface, ITForwardInformation interface [TAPI 2.2],Clear method, ITForwardInformation.Clear, ITForwardInformation::Clear, _tapi3_itforwardinformation_clear, tapi3.itforwardinformation_clear, tapi3if/ITForwardInformation::Clear
-f1_keywords:
-- tapi3if/ITForwardInformation.Clear
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITForwardInformation.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITForwardInformation::Clear
+ - tapi3if/ITForwardInformation::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITForwardInformation.Clear
 ---
 
 # ITForwardInformation::Clear
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Clear</b> method clears all forwarding information in this object.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,43 +87,27 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method does not clear forwarding information in the service provider.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

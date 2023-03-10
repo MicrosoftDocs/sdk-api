@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced6.SetProtectStreamSamples
 title: IWMReaderAdvanced6::SetProtectStreamSamples (wmsdkidl.h)
 description: The SetProtectStreamSamples method configures sample protection.
+helpviewer_keywords: ["IWMReaderAdvanced6 interface [windows Media Format]","SetProtectStreamSamples method","IWMReaderAdvanced6.SetProtectStreamSamples","IWMReaderAdvanced6::SetProtectStreamSamples","IWMReaderAdvanced6SetProtectStreamSamples","SetProtectStreamSamples","SetProtectStreamSamples method [windows Media Format]","SetProtectStreamSamples method [windows Media Format]","IWMReaderAdvanced6 interface","wmformat.iwmreaderadvanced6_setprotectstreamsamples","wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples"]
 old-location: wmformat\iwmreaderadvanced6_setprotectstreamsamples.htm
 tech.root: wmformat
 ms.assetid: e4734d16-e0fe-4a68-9618-fbceb725b576
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced6 interface [windows Media Format],SetProtectStreamSamples method, IWMReaderAdvanced6.SetProtectStreamSamples, IWMReaderAdvanced6::SetProtectStreamSamples, IWMReaderAdvanced6SetProtectStreamSamples, SetProtectStreamSamples, SetProtectStreamSamples method [windows Media Format], SetProtectStreamSamples method [windows Media Format],IWMReaderAdvanced6 interface, wmformat.iwmreaderadvanced6_setprotectstreamsamples, wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced6.SetProtectStreamSamples
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced6.SetProtectStreamSamples
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced6::SetProtectStreamSamples
+ - wmsdkidl/IWMReaderAdvanced6::SetProtectStreamSamples
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced6.SetProtectStreamSamples
 ---
 
 # IWMReaderAdvanced6::SetProtectStreamSamples
@@ -49,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetProtectStreamSamples</b> method configures sample protection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbCertificate [in]
 
 Buffer containing the certificate to use for protection.
 
-
 ### -param cbCertificate [in]
 
 Size of the certificate in bytes.
-
 
 ### -param dwCertificateType [in]
 
 Type of certificate passed in <i>pbCertificate</i>. The only supported type is WMDRM_CERTIFICATE_TYPE_XML.
 
-
 ### -param dwFlags [in]
 
 The type of session protection to use for re-encoding. The only supported type is WMDRM_PROTECTION_TYPE_RC4.
-
 
 ### -param pbInitializationVector [out]
 
 Receives the initialization vector. The initialization vector is OEAP-encrypted with the RSA public key found in the certificate. Set to <b>NULL</b> to receive the required buffer size in pcbInitializationVector.
 
-
 ### -param pcbInitializationVector [in, out]
 
 On input, the size of the buffer passed as <i>pbInitializationVector</i>. On output, the size of the used portion of the buffer. If you pass <b>NULL</b> for <i>pbInitializationVector</i>, this value is set to the required buffer size on output.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -125,27 +111,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The constants used for <i>dwCertificateType</i> and <i>dwFlags</i> are defined in wmdrmsdk.h.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced6">IWMReaderAdvanced6 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced6">IWMReaderAdvanced6 Interface</a>

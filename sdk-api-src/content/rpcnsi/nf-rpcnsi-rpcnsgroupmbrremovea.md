@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrRemoveA
 title: RpcNsGroupMbrRemoveA function (rpcnsi.h)
-description: The RpcNsGroupMbrRemove function removes an entry name from a group.
+description: The RpcNsGroupMbrRemove function removes an entry name from a group. (ANSI)
+helpviewer_keywords: ["RpcNsGroupMbrRemoveA", "rpcnsi/RpcNsGroupMbrRemoveA"]
 old-location: rpc\rpcnsgroupmbrremove.htm
 tech.root: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrRemove, RpcNsGroupMbrRemove function [RPC], RpcNsGroupMbrRemoveA, RpcNsGroupMbrRemoveW, _rpc_rpcnsgroupmbrremove, rpc.rpcnsgroupmbrremove, rpcnsi/RpcNsGroupMbrRemove, rpcnsi/RpcNsGroupMbrRemoveA, rpcnsi/RpcNsGroupMbrRemoveW
-f1_keywords:
-- rpcnsi/RpcNsGroupMbrRemove
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsGroupMbrRemove
-- RpcNsGroupMbrRemoveA
-- RpcNsGroupMbrRemoveW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsGroupMbrRemoveA
+ - rpcnsi/RpcNsGroupMbrRemoveA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsGroupMbrRemove
+ - RpcNsGroupMbrRemoveA
+ - RpcNsGroupMbrRemoveW
 ---
 
 # RpcNsGroupMbrRemoveA function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsGroupMbrRemove</b> function removes an entry name from a group.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param GroupNameSyntax
 
@@ -69,11 +67,9 @@ Syntax of <i>GroupName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param GroupName
 
 Pointer to the name of the RPC group from which to remove the member name.
-
 
 ### -param MemberNameSyntax
 
@@ -84,15 +80,11 @@ Syntax to use in the <i>MemberName</i> parameter.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param MemberName
 
 Pointer to the name of the member to remove from the RPC group attribute in the entry <i>GroupName</i>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -180,14 +172,10 @@ The group member was not found.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsGroupMbrRemove</b> function removes a member from the RPC group attribute in the <i>GroupName</i> parameter.
@@ -197,13 +185,10 @@ The
 
 
 
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsGroupMbrRemove as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>

@@ -2,15 +2,12 @@
 UID: NF:ntquery.SetCatalogState
 title: SetCatalogState function (ntquery.h)
 description: Sets the catalog state for backup or other purposes.
+helpviewer_keywords: ["SetCatalogState","SetCatalogState function [Indexing Service]","_idxs_SetCatalogState","indexsrv.setcatalogstate","ntquery/SetCatalogState"]
 old-location: indexsrv\setcatalogstate.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_809x.htm
 ms.date: 12/05/2018
 ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs_SetCatalogState, indexsrv.setcatalogstate, ntquery/SetCatalogState
-f1_keywords:
-- ntquery/SetCatalogState
-dev_langs:
-- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntquery.dll
-api_name:
-- SetCatalogState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetCatalogState
+ - ntquery/SetCatalogState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntquery.dll
+api_name:
+ - SetCatalogState
 ---
 
 # SetCatalogState function
@@ -48,40 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Sets the catalog state for backup or other purposes.
 
-
 ## -parameters
-
-
-
 
 ### -param pwcsCat
 
-A pointer to the name of the catalog, for example, L"system" or L"Web". 
-
+A pointer to the name of the catalog, for example, L"system" or L"Web".
 
 ### -param pwcsMachine
 
 A pointer to the name of the computer where the catalog exists; for example, L"." for the local computer.
 
-
 ### -param dwNewState
 
-The state of the catalog. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/cicat-constants">CICAT_* Constants</a>.
-
+The state of the catalog. See <a href="/previous-versions/windows/desktop/indexsrv/cicat-constants">CICAT_* Constants</a>.
 
 ### -param pdwOldState
 
 A pointer to a value that receives one of the CICAT_* constants that reflects the current state of the catalog.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -146,15 +138,8 @@ The function failed because Indexing Service is too busy.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
-
 
 A catalog can be read-only if any of the following conditions exist:
 
@@ -183,16 +168,6 @@ If you make the call to <b>SetCatalogState</b>, where the <i>dwNewState</i> para
 <div> </div>
 For examples of changes in a catalog's state, see the ChgState sample in the Platform SDK directory mssdk\samples\winbase\indexing\chgstate.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-locatecatalogsa">LocateCatalogs</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/indexsrv/locating-the-catalog-for-the-selected-scope">LocateCatalogs</a>

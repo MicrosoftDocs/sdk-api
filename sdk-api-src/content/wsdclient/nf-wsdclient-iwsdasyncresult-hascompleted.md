@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDAsyncResult.HasCompleted
 title: IWSDAsyncResult::HasCompleted (wsdclient.h)
 description: Indicates whether the operation has completed.
+helpviewer_keywords: ["HasCompleted","HasCompleted method","HasCompleted method","IWSDAsyncResult interface","IWSDAsyncResult interface","HasCompleted method","IWSDAsyncResult.HasCompleted","IWSDAsyncResult::HasCompleted","ncd.iwsdasyncresult_hascompleted_method","wsdclient/IWSDAsyncResult::HasCompleted"]
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
 ms.date: 12/05/2018
 ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
-f1_keywords:
-- wsdclient/IWSDAsyncResult.HasCompleted
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDAsyncResult.HasCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDAsyncResult::HasCompleted
+ - wsdclient/IWSDAsyncResult::HasCompleted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDAsyncResult.HasCompleted
 ---
 
 # IWSDAsyncResult::HasCompleted
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether the operation has completed.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,27 +91,11 @@ The operation has not completed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A failed asynchronous operation is treated as a completed asynchronous operation. Error or fault information can be retrieved from the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> interface using the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method.
-
-
-
+A failed asynchronous operation is treated as a completed asynchronous operation. Error or fault information can be retrieved from the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasynccallback">IWSDAsyncCallback</a> interface using the <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdasynccallback-asyncoperationcomplete">IWSDAsyncCallback::AsyncOperationComplete</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>

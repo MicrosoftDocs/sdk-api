@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMPropertyVault.Clear
 title: IWMPropertyVault::Clear (wmsdkidl.h)
 description: The Clear method removes all items from the property vault.
+helpviewer_keywords: ["Clear","Clear method [windows Media Format]","Clear method [windows Media Format]","IWMPropertyVault interface","IWMPropertyVault interface [windows Media Format]","Clear method","IWMPropertyVault.Clear","IWMPropertyVault::Clear","IWMPropertyVaultClear","wmformat.iwmpropertyvault_clear","wmsdkidl/IWMPropertyVault::Clear"]
 old-location: wmformat\iwmpropertyvault_clear.htm
 tech.root: wmformat
 ms.assetid: 567d69f3-cebf-4bb7-84df-c843cfc928a5
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [windows Media Format], Clear method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],Clear method, IWMPropertyVault.Clear, IWMPropertyVault::Clear, IWMPropertyVaultClear, wmformat.iwmpropertyvault_clear, wmsdkidl/IWMPropertyVault::Clear
-f1_keywords:
-- wmsdkidl/IWMPropertyVault.Clear
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMPropertyVault.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPropertyVault::Clear
+ - wmsdkidl/IWMPropertyVault::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMPropertyVault.Clear
 ---
 
 # IWMPropertyVault::Clear
@@ -51,36 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Clear</b> method removes all items from the property vault.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method always returns S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>

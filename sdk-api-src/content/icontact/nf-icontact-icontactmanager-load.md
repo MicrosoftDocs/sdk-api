@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactManager.Load
 title: IContactManager::Load (icontact.h)
 description: Loads an IContact object with the data from the contact referenced by the computer-local contact ID.
+helpviewer_keywords: ["IContactManager interface [Windows Contacts]","Load method","IContactManager.Load","IContactManager::Load","Load","Load method [Windows Contacts]","Load method [Windows Contacts]","IContactManager interface","_wincontacts_IContactManager_Load","icontact/IContactManager::Load","wincontacts._wincontacts_IContactManager_Load"]
 old-location: wincontacts\_wincontacts_IContactManager_Load.htm
 tech.root: wincontacts
 ms.assetid: d9addc49-72fd-4b87-bf48-a2a09b1161e9
 ms.date: 12/05/2018
 ms.keywords: IContactManager interface [Windows Contacts],Load method, IContactManager.Load, IContactManager::Load, Load, Load method [Windows Contacts], Load method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_Load, icontact/IContactManager::Load, wincontacts._wincontacts_IContactManager_Load
-f1_keywords:
-- icontact/IContactManager.Load
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactManager.Load
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactManager::Load
+ - icontact/IContactManager::Load
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactManager.Load
 ---
 
 # IContactManager::Load
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-Loads an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object with the data from the contact 
+Loads an <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object with the data from the contact 
 		referenced by the computer-local contact ID.
 
-
 ## -parameters
-
-
-
 
 ### -param pszContactID [in]
 
@@ -64,17 +61,13 @@ Type: <b>LPCWSTR</b>
 
 Specifies the contact ID to load.
 
-
 ### -param ppContact [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
 
-Specifies the destination <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object.
-
+Specifies the destination <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a> object.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -108,22 +101,11 @@ Could not find this contact ID.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-getcontactid">GetContactID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontact-getcontactid">GetContactID</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>

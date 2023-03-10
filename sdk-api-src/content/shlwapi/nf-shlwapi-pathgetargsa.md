@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.PathGetArgsA
 title: PathGetArgsA function (shlwapi.h)
-description: Finds the command line arguments within a given path.
+description: Finds the command line arguments within a given path. (ANSI)
+helpviewer_keywords: ["PathGetArgsA", "shlwapi/PathGetArgsA"]
 old-location: shell\PathGetArgs.htm
 tech.root: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
 ms.date: 12/05/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
-f1_keywords:
-- shlwapi/PathGetArgs
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathGetArgs
-- PathGetArgsA
-- PathGetArgsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathGetArgsA
+ - shlwapi/PathGetArgsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathGetArgs
+ - PathGetArgsA
+ - PathGetArgsW
 ---
 
 # PathGetArgsA function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finds the command line arguments within a given path.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
@@ -69,10 +66,7 @@ Type: <b>PTSTR</b>
 
 Pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be searched.
 
-
 ## -returns
-
-
 
 Type: <b>PTSTR</b>
 
@@ -84,12 +78,7 @@ If there are no arguments in the path, the function returns a pointer to the end
 
 If the function is given a <b>NULL</b> argument it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 This function should not be used on generic command path templates (from users or the registry), but rather should be used only on templates that the application knows to be well formed.
 
@@ -156,4 +145,8 @@ The arg(s)found in path 4 were      :
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathGetArgs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

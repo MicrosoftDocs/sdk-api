@@ -2,15 +2,12 @@
 UID: NF:perflib.PerfEnumerateCounterSet
 title: PerfEnumerateCounterSet function (perflib.h)
 description: Gets the counter set identifiers of the counter sets that are registered on the specified system. Counter set identifiers are globally unique identifiers (GUIDs).
+helpviewer_keywords: ["PerfEnumerateCounterSet","PerfEnumerateCounterSet function [Perf]","perf.perfenumeratecounterset","perflib/PerfEnumerateCounterSet"]
 old-location: perf\perfenumeratecounterset.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 6C487D11-2DC0-475C-AA0F-4060641C6500
 ms.date: 12/05/2018
 ms.keywords: PerfEnumerateCounterSet, PerfEnumerateCounterSet function [Perf], perf.perfenumeratecounterset, perflib/PerfEnumerateCounterSet
-f1_keywords:
-- perflib/PerfEnumerateCounterSet
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- AdvAPI32.dll
-api_name:
-- PerfEnumerateCounterSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PerfEnumerateCounterSet
+ - perflib/PerfEnumerateCounterSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - AdvAPI32.dll
+api_name:
+ - PerfEnumerateCounterSet
 ---
 
 # PerfEnumerateCounterSet function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the counter set identifiers of the counter sets that are registered on the  
 
 specified system.  
 
 Counter set identifiers are globally unique identifiers (GUIDs).
 
-
 ## -parameters
-
-
-
 
 ### -param szMachine [in, optional]
 
 The name of the machine for which to get the counter set identifiers. If NULL, the function retrieves the counter set identifiers for the local machine.
-
 
 ### -param pCounterSetIds [out, optional]
 
@@ -72,13 +68,9 @@ A pointer to a buffer that has enough space to receive the number of GUIDs that 
 
 <i>cCounterSetIds</i> is 0.
 
-
-
 ### -param cCounterSetIds
 
-The size of the buffer that the <i>pCounterSetIds</i> parameter specifies, measured in GUIDs.  
-
-
+The size of the buffer that the <i>pCounterSetIds</i> parameter specifies, measured in GUIDs.
 
 ### -param pcCounterSetIdsActual [out]
 
@@ -112,12 +104,8 @@ returns.
 <td>The value is undefined and should not be used.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -154,19 +142,8 @@ The function successfully stored all of the content set identifiers in the buffe
  
 
 For other types of failures, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. 
-					
-
-
-
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfenumeratecountersetinstances">PerfEnumerateCounterSetInstances</a>
- 
-
- 
-
+<a href="/windows/desktop/api/perflib/nf-perflib-perfenumeratecountersetinstances">PerfEnumerateCounterSetInstances</a>

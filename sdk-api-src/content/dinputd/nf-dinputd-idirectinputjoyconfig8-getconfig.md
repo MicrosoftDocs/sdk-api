@@ -2,15 +2,12 @@
 UID: NF:dinputd.IDirectInputJoyConfig8.GetConfig
 title: IDirectInputJoyConfig8::GetConfig (dinputd.h)
 description: The IDirectInputJoyConfig8::GetConfig method obtains information about a joystick's configuration.
+helpviewer_keywords: ["GetConfig","GetConfig method [Human Input Devices]","GetConfig method [Human Input Devices]","IDirectInputJoyConfig8 interface","IDirectInputJoyConfig8 interface [Human Input Devices]","GetConfig method","IDirectInputJoyConfig8.GetConfig","IDirectInputJoyConfig8::GetConfig","di_ref_86a1c8bf-81df-4c68-b646-347785f3584f.xml","dinputd/IDirectInputJoyConfig8::GetConfig","hid.idirectinputjoyconfig8_getconfig"]
 old-location: hid\idirectinputjoyconfig8_getconfig.htm
 tech.root: hid
 ms.assetid: d8e2a702-d33e-48d2-8e1c-49e09e8f560f
 ms.date: 12/05/2018
 ms.keywords: GetConfig, GetConfig method [Human Input Devices], GetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetConfig method, IDirectInputJoyConfig8.GetConfig, IDirectInputJoyConfig8::GetConfig, di_ref_86a1c8bf-81df-4c68-b646-347785f3584f.xml, dinputd/IDirectInputJoyConfig8::GetConfig, hid.idirectinputjoyconfig8_getconfig
-f1_keywords:
-- dinputd/IDirectInputJoyConfig8.GetConfig
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dinputd.h
-api_name:
-- IDirectInputJoyConfig8.GetConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectInputJoyConfig8::GetConfig
+ - dinputd/IDirectInputJoyConfig8::GetConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dinputd.h
+api_name:
+ - IDirectInputJoyConfig8.GetConfig
 ---
 
 # IDirectInputJoyConfig8::GetConfig
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDirectInputJoyConfig8::GetConfig </b>method obtains information about a joystick's configuration. 
-
+The <b>IDirectInputJoyConfig8::GetConfig </b> method obtains information about a joystick's configuration.
 
 ## -parameters
 
+### -param unnamedParam1
 
+Indicates a joystick identification number. This is a nonnegative integer. To enumerate joysticks, begin with joystick zero and increment the joystick number by one until the function returns DIERR_NOMOREITEMS.
 
+### -param unnamedParam2
 
-### -param arg1
+Points to a structure that receives information about the joystick configuration. The caller "must" initialize the <b>dwSize</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoyconfig">DIJOYCONFIG</a> structure before calling this method.
 
-Indicates a joystick identification number. This is a nonnegative integer. To enumerate joysticks, begin with joystick zero and increment the joystick number by one until the function returns DIERR_NOMOREITEMS. 
-
-
-### -param arg2
-
-Points to a structure that receives information about the joystick configuration. The caller "must" initialize the <b>dwSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoyconfig">DIJOYCONFIG</a> structure before calling this method. 
-
-
-### -param arg3
+### -param unnamedParam3
 
 Specifies the members of the structure pointed to by <i>pjc</i> that are to be filled in.  This parameter can be zero, one, or more of the following: 
 
@@ -95,12 +90,9 @@ Indicates that the force-feedback gain for the joystick is being requested.
 
 #### DIJC_CALLOUT
 
-Indicates that the joystick polling callout is being requested. 
-
+Indicates that the joystick polling callout is being requested.
 
 ## -returns
-
-
 
 Returns DI_OK if successful; otherwise, returns one of the following COM error values:
 
@@ -143,7 +135,3 @@ No more joysticks are available.
 </td>
 </tr>
 </table>
- 
-
-
-

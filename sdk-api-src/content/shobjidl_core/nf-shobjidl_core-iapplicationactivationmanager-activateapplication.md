@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateApplication
 title: IApplicationActivationManager::ActivateApplication (shobjidl_core.h)
 description: Activates the specified Windows Store app for the generic launch contract (Windows.Launch) in the current session.
+helpviewer_keywords: ["AO_DESIGNMODE","AO_NOERRORUI","AO_NONE","AO_NOSPLASHSCREEN","AO_PRELAUNCH","ActivateApplication","ActivateApplication method [Windows Shell]","ActivateApplication method [Windows Shell]","IApplicationActivationManager interface","IApplicationActivationManager interface [Windows Shell]","ActivateApplication method","IApplicationActivationManager.ActivateApplication","IApplicationActivationManager::ActivateApplication","shell.IApplicationActivationManager_ActivateApplication","shobjidl_core/IApplicationActivationManager::ActivateApplication"]
 old-location: shell\IApplicationActivationManager_ActivateApplication.htm
 tech.root: shell
 ms.assetid: A39FA68E-F79F-454a-BB41-31D4D5EEC253
 ms.date: 12/05/2018
 ms.keywords: AO_DESIGNMODE, AO_NOERRORUI, AO_NONE, AO_NOSPLASHSCREEN, AO_PRELAUNCH, ActivateApplication, ActivateApplication method [Windows Shell], ActivateApplication method [Windows Shell],IApplicationActivationManager interface, IApplicationActivationManager interface [Windows Shell],ActivateApplication method, IApplicationActivationManager.ActivateApplication, IApplicationActivationManager::ActivateApplication, shell.IApplicationActivationManager_ActivateApplication, shobjidl_core/IApplicationActivationManager::ActivateApplication
-f1_keywords:
-- shobjidl_core/IApplicationActivationManager.ActivateApplication
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IApplicationActivationManager.ActivateApplication
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationActivationManager::ActivateApplication
+ - shobjidl_core/IApplicationActivationManager::ActivateApplication
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IApplicationActivationManager.ActivateApplication
 ---
 
 # IApplicationActivationManager::ActivateApplication
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Activates the specified Windows Store app for the generic launch contract (Windows.Launch) in the current session.
 
-
 ## -parameters
-
-
-
 
 ### -param appUserModelId [in]
 
 The application user model ID of the Windows Store app.
 
-
 ### -param arguments [in]
 
 A pointer to an optional, app-specific, argument string.
-
 
 ### -param options [in]
 
@@ -85,7 +80,7 @@ The app is being activated for design mode, so it can't create its normal window
 
                                 
 
-Note that you must <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package to succesfully use design mode.
+Note that you must <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package to successfully use design mode.
 
 
 
@@ -97,7 +92,7 @@ Do not display an error dialog if the app fails to activate.
 
 #### AO_NOSPLASHSCREEN (0x00000004)
 
-Do not display the app's splash screen when the app is activated. You must <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package when you use this flag; otherwise, the PLM will terminate the app after a few seconds.
+Do not display the app's splash screen when the app is activated. You must <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">enable debug mode</a> on the app's package when you use this flag; otherwise, the PLM will terminate the app after a few seconds.
 
 
 
@@ -105,32 +100,18 @@ Do not display the app's splash screen when the app is activated. You must <a hr
 
 The application is being activated in prelaunch mode. This value is supported starting in Windows 10.
 
-
 ### -param processId [out]
 
-A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfils this contract.
-
+A pointer to a value that, when this method returns successfully, receives the process ID of the app instance that fulfills this contract.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager">IApplicationActivationManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationactivationmanager">IApplicationActivationManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">IPackageDebugSettings::EnableDebugging</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-enabledebugging">IPackageDebugSettings::EnableDebugging</a>

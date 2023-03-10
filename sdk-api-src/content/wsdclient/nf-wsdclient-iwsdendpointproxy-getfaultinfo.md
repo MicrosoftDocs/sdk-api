@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDEndpointProxy.GetFaultInfo
 title: IWSDEndpointProxy::GetFaultInfo (wsdclient.h)
 description: Retrieves information on the last received fault.
+helpviewer_keywords: ["GetFaultInfo","GetFaultInfo method","GetFaultInfo method","IWSDEndpointProxy interface","IWSDEndpointProxy interface","GetFaultInfo method","IWSDEndpointProxy.GetFaultInfo","IWSDEndpointProxy::GetFaultInfo","ncd.iwsdendpointproxy_getfaultinfo","wsdclient/IWSDEndpointProxy::GetFaultInfo"]
 old-location: ncd\iwsdendpointproxy_getfaultinfo.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 45ed30fd-7e4f-44f5-bb90-5686746e39be
 ms.date: 12/05/2018
 ms.keywords: GetFaultInfo, GetFaultInfo method, GetFaultInfo method,IWSDEndpointProxy interface, IWSDEndpointProxy interface,GetFaultInfo method, IWSDEndpointProxy.GetFaultInfo, IWSDEndpointProxy::GetFaultInfo, ncd.iwsdendpointproxy_getfaultinfo, wsdclient/IWSDEndpointProxy::GetFaultInfo
-f1_keywords:
-- wsdclient/IWSDEndpointProxy.GetFaultInfo
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDEndpointProxy.GetFaultInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDEndpointProxy::GetFaultInfo
+ - wsdclient/IWSDEndpointProxy::GetFaultInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDEndpointProxy.GetFaultInfo
 ---
 
 # IWSDEndpointProxy::GetFaultInfo
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information on the last received fault.
-
 
 ## -parameters
 
-
-
-
 ### -param ppFault [out]
 
-Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the SOAP fault information.
-
+Pointer to a pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure containing the SOAP fault information.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -96,27 +90,12 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The fault information returned in  <i>ppFault</i> must be released with <b>WSDFreeLinkedMemory</b> when it is no longer required for use.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>

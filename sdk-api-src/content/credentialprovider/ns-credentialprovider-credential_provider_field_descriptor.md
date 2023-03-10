@@ -2,15 +2,12 @@
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
 title: CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR (credentialprovider.h)
 description: Describes a single field in a credential. For example, a string or a user image.
+helpviewer_keywords: ["CPFG_CREDENTIAL_PROVIDER_LABEL","CPFG_CREDENTIAL_PROVIDER_LOGO","CPFG_LOGON_PASSWORD","CPFG_LOGON_USERNAME","CPFG_SMARTCARD_PIN","CPFG_SMARTCARD_USERNAME","CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR","CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR structure [Windows Shell]","_shell_CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR","credentialprovider/CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR","shell.CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR"]
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR.htm
 tech.root: shell
 ms.assetid: 8409b4b7-c601-4e85-95f9-4272feb29028
 ms.date: 12/05/2018
 ms.keywords: CPFG_CREDENTIAL_PROVIDER_LABEL, CPFG_CREDENTIAL_PROVIDER_LOGO, CPFG_LOGON_PASSWORD, CPFG_LOGON_USERNAME, CPFG_SMARTCARD_PIN, CPFG_SMARTCARD_USERNAME, CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR, CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR structure [Windows Shell], _shell_CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR, credentialprovider/CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR, shell.CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
-f1_keywords:
-- credentialprovider/CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Credentialprovider.h
-api_name:
-- CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
+ - credentialprovider/_CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
+ - CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
+ - credentialprovider/CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Credentialprovider.h
+api_name:
+ - CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
 ---
 
 # CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a single field in a credential. For example, a string or a user image.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwFieldID
 
@@ -63,20 +62,17 @@ Type: <b>DWORD</b>
 
 The unique ID of the field. Fields should have a unique identifier compared to all other fields on a given credential provider. This is true regardless of whether the fields are displayed or hidden.
 
-
 ### -field cpft
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_type">CREDENTIAL_PROVIDER_FIELD_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_type">CREDENTIAL_PROVIDER_FIELD_TYPE</a></b>
 
 The field type.
-
 
 ### -field pszLabel
 
 Type: <b>LPWSTR</b>
 
 A pointer to a buffer containing the friendly name of the field as a null-terminated Unicode string. This is used for accessibility and queuing purposes. For example, some standard fields would have friend names of "Username", "Password", and "Log On To".
-
 
 ### -field guidFieldType
 
@@ -158,14 +154,8 @@ The PIN obtained from an inserted smart card.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-Each UI element presented to the user on a tile is defined by the credential provider as a field. The <b>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</b> is how the credential provider identifies the fields. Once a field has been defined for a particular usage scenario, it can not be added to or subtracted from. Credential providers need to fully define all of their fields before enumerating tiles. If fields are going to appear or disappear as part of the credential acquisition process, those fields still not to be defined ahead of time. Use <a href="https://docs.microsoft.com/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_state">CREDENTIAL_PROVIDER_FIELD_STATE</a> to hide or display the fields as necessary.
-
-
+Each UI element presented to the user on a tile is defined by the credential provider as a field. The <b>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</b> is how the credential provider identifies the fields. Once a field has been defined for a particular usage scenario, it can not be added to or subtracted from. Credential providers need to fully define all of their fields before enumerating tiles. If fields are going to appear or disappear as part of the credential acquisition process, those fields still not to be defined ahead of time. Use <a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credential_provider_field_state">CREDENTIAL_PROVIDER_FIELD_STATE</a> to hide or display the fields as necessary.
 

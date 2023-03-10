@@ -2,15 +2,12 @@
 UID: NF:syncregistration.ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
 title: ISyncProviderRegistration::EnumerateSyncProviderConfigUIs (syncregistration.h)
 description: Returns an IEnumSyncProviderConfigUIInfos enumeration interface that enumerates all registered ISyncProviderConfigUIInfo objects for the specified criteria.
+helpviewer_keywords: ["EnumerateSyncProviderConfigUIs","EnumerateSyncProviderConfigUIs method [Windows Sync]","EnumerateSyncProviderConfigUIs method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","EnumerateSyncProviderConfigUIs method","ISyncProviderRegistration.EnumerateSyncProviderConfigUIs","ISyncProviderRegistration::EnumerateSyncProviderConfigUIs","syncregistration/ISyncProviderRegistration::EnumerateSyncProviderConfigUIs","winsync.isyncproviderregistration_enumeratesyncproviderconfiguis"]
 old-location: winsync\isyncproviderregistration_enumeratesyncproviderconfiguis.htm
 tech.root: winsync
 ms.assetid: e3f87fc7-f123-454e-851c-92dbad605600
 ms.date: 12/05/2018
 ms.keywords: EnumerateSyncProviderConfigUIs, EnumerateSyncProviderConfigUIs method [Windows Sync], EnumerateSyncProviderConfigUIs method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviderConfigUIs method, ISyncProviderRegistration.EnumerateSyncProviderConfigUIs, ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, syncregistration/ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, winsync.isyncproviderregistration_enumeratesyncproviderconfiguis
-f1_keywords:
-- syncregistration/ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
+ - syncregistration/ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
 ---
 
 # ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos</a> enumeration interface that enumerates all registered <b>ISyncProviderConfigUIInfo</b> objects for the specified  criteria.
-
+Returns an <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos</a> enumeration interface that enumerates all registered <b>ISyncProviderConfigUIInfo</b> objects for the specified  criteria.
 
 ## -parameters
-
-
-
 
 ### -param pguidContentType [in]
 
 The LPCGUID of the specified content type. If this parameter is <b>NULL</b>, all content types will be enumerated.
-
 
 ### -param dwSupportedArchitecture [in]
 
@@ -72,17 +68,11 @@ One, or a combination  of, the following flags that represent the architectures 
 </ul>
 If this parameter is set to zero, synchronization providers for all architectures will be enumerated.
 
-
 ### -param ppEnumSyncProviderConfigUIInfos
 
 A reference to an <b>IEnumSyncProviderConfigUIInfos</b>
 
-
-
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -125,22 +115,11 @@ There was not enough memory available to register the provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>

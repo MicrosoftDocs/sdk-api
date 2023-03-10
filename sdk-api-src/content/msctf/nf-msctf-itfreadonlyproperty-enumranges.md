@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfReadOnlyProperty.EnumRanges
 title: ITfReadOnlyProperty::EnumRanges (msctf.h)
 description: ITfReadOnlyProperty::EnumRanges method
+helpviewer_keywords: ["EnumRanges","EnumRanges method [Text Services Framework]","EnumRanges method [Text Services Framework]","ITfReadOnlyProperty interface","ITfReadOnlyProperty interface [Text Services Framework]","EnumRanges method","ITfReadOnlyProperty.EnumRanges","ITfReadOnlyProperty::EnumRanges","_tsf_itfreadonlyproperty_enumranges_ref","msctf/ITfReadOnlyProperty::EnumRanges","tsf.itfreadonlyproperty_enumranges"]
 old-location: tsf\itfreadonlyproperty_enumranges.htm
 tech.root: TSF
 ms.assetid: 201c518b-f06f-4c4f-aa56-f8d21f477814
 ms.date: 12/05/2018
 ms.keywords: EnumRanges, EnumRanges method [Text Services Framework], EnumRanges method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],EnumRanges method, ITfReadOnlyProperty.EnumRanges, ITfReadOnlyProperty::EnumRanges, _tsf_itfreadonlyproperty_enumranges_ref, msctf/ITfReadOnlyProperty::EnumRanges, tsf.itfreadonlyproperty_enumranges
-f1_keywords:
-- msctf/ITfReadOnlyProperty.EnumRanges
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfReadOnlyProperty.EnumRanges
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfReadOnlyProperty::EnumRanges
+ - msctf/ITfReadOnlyProperty::EnumRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfReadOnlyProperty.EnumRanges
 ---
 
 # ITfReadOnlyProperty::EnumRanges
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains an enumeration of ranges that contain unique values of the property within the given range.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Contains an edit cookie that identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a> interface pointer that receives the enumerator object. The caller must release this object when it is no longer required.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a> interface pointer that receives the enumerator object. The caller must release this object when it is no longer required.
 
 ### -param pTargetRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that specifies the range to scan for unique property values. This parameter is optional and can be <b>NULL</b>. For more information, see the Remarks section.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> interface that specifies the range to scan for unique property values. This parameter is optional and can be <b>NULL</b>. For more information, see the Remarks section.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -124,7 +117,7 @@ A memory allocation failure occurred.
 <td width="60%">
 An unspecified error occurred. 
 
-<div class="alert"><b>Note</b>  If an application does not implement <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-findnextattrtransition">ITextStoreACP::FindNextAttrTransition</a>, ITfReadOnlyProperty::EnumRanges fails with E_FAIL.</div>
+<div class="alert"><b>Note</b>  If an application does not implement <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-findnextattrtransition">ITextStoreACP::FindNextAttrTransition</a>, ITfReadOnlyProperty::EnumRanges fails with E_FAIL.</div>
 <div> </div>
 </td>
 </tr>
@@ -140,23 +133,21 @@ The edit context identified by <i>ec</i> does not have a read-only or read/write
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>Note:</b> If an application does not implement <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-findnextattrtransition">ITextStoreACP::FindNextAttrTransition</a>, <b>ITfReadOnlyProperty::EnumRanges</b> fails with E_FAIL.
+<b>Note:</b> If an application does not implement <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-findnextattrtransition">ITextStoreACP::FindNextAttrTransition</a>, <b>ITfReadOnlyProperty::EnumRanges</b> fails with E_FAIL.
 
 The enumerator obtained by this method will contain a range for each unique value, including empty values, of the specified property. For example, a hypothetical color property can be applied to the following marked up text:
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 COLOR:      RR      GGGGGGGG
 TEXT:  this is some colored text
-</code></pre>
+
+```
+
 When <b>ITfReadOnlyProperty::EnumRanges</b> is called with <i>pTargetRange</i> set to this range, the enumerator will contain five ranges.
 
 <table>
@@ -221,34 +212,24 @@ If <i>pTargetRange</i> is <b>NULL</b>, then the enumerator will begin and end wi
 
 The enumerated ranges will begin and end with the start and end anchors of <i>pTargetRange</i>, even if either anchor is positioned in the middle of a property.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfranges">IEnumTfRanges</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>

@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoProgressDialog.Destroy
 title: IPhotoProgressDialog::Destroy (photoacquire.h)
 description: The Destroy method closes and disposes of the progress dialog box shown during image enumeration and acquisition.
+helpviewer_keywords: ["Destroy","Destroy method [Picture Acquisition]","Destroy method [Picture Acquisition]","IPhotoProgressDialog interface","IPhotoProgressDialog interface [Picture Acquisition]","Destroy method","IPhotoProgressDialog.Destroy","IPhotoProgressDialog::Destroy","IPhotoProgressDialogDestroy","photoacquire/IPhotoProgressDialog::Destroy","picacq.iphotoprogressdialog_destroy"]
 old-location: picacq\iphotoprogressdialog_destroy.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 8690c67b-5f96-4e8c-8685-91fe5ed65511
 ms.date: 12/05/2018
 ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Destroy method, IPhotoProgressDialog.Destroy, IPhotoProgressDialog::Destroy, IPhotoProgressDialogDestroy, photoacquire/IPhotoProgressDialog::Destroy, picacq.iphotoprogressdialog_destroy
-f1_keywords:
-- photoacquire/IPhotoProgressDialog.Destroy
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoProgressDialog.Destroy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoProgressDialog::Destroy
+ - photoacquire/IPhotoProgressDialog::Destroy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoProgressDialog.Destroy
 ---
 
 # IPhotoProgressDialog::Destroy
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Destroy</code> method closes and disposes of the progress dialog box shown during image enumeration and acquisition.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,27 +76,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Calling <code>Destroy</code> is the only way to close the progress dialog box. If <code>Destroy</code> is not called, the dialog box will remain open. The dialog box is not automatically closed when the operation in progress completes.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>

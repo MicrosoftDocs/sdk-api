@@ -2,15 +2,12 @@
 UID: NF:strmif.IPin.ReceiveConnection
 title: IPin::ReceiveConnection (strmif.h)
 description: The ReceiveConnection method accepts a connection from another pin.
+helpviewer_keywords: ["IPin interface [DirectShow]","ReceiveConnection method","IPin.ReceiveConnection","IPin::ReceiveConnection","IPinReceiveConnection","ReceiveConnection","ReceiveConnection method [DirectShow]","ReceiveConnection method [DirectShow]","IPin interface","dshow.ipin_receiveconnection","strmif/IPin::ReceiveConnection"]
 old-location: dshow\ipin_receiveconnection.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b2013e95-88bc-4f4a-87af-2b13c120ec46
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],ReceiveConnection method, IPin.ReceiveConnection, IPin::ReceiveConnection, IPinReceiveConnection, ReceiveConnection, ReceiveConnection method [DirectShow], ReceiveConnection method [DirectShow],IPin interface, dshow.ipin_receiveconnection, strmif/IPin::ReceiveConnection
-f1_keywords:
-- strmif/IPin.ReceiveConnection
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.ReceiveConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::ReceiveConnection
+ - strmif/IPin::ReceiveConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.ReceiveConnection
 ---
 
 # IPin::ReceiveConnection
@@ -49,33 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ReceiveConnection</code> method accepts a connection from another pin.
 
 
 
 Applications should not call this method. This method is called by other filters during the pin connection process.
 
-
 ## -parameters
-
-
-
 
 ### -param pConnector [in]
 
-Pointer to the connecting pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface.
-
+Pointer to the connecting pin's <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface.
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection.
-
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -140,43 +132,27 @@ The specified media type is not acceptable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When an output pin connects, it calls this method on the input pin. The input pin should verify that the specified media type is acceptable. It may also need to check for other connection requirements specific to the owning filter. If the connection is suitable, the input pin should return S_OK, and also do the following:
 
 <ul>
-<li>Store the media type, and return the same type in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connectionmediatype">IPin::ConnectionMediaType</a> method.</li>
-<li>Store the output pin's <b>IPin</b> interface (<i>pConnector</i>), and return this pointer in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connectedto">IPin::ConnectedTo</a> method.</li>
+<li>Store the media type, and return the same type in the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-connectionmediatype">IPin::ConnectionMediaType</a> method.</li>
+<li>Store the output pin's <b>IPin</b> interface (<i>pConnector</i>), and return this pointer in the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-connectedto">IPin::ConnectedTo</a> method.</li>
 </ul>
 If the connection is unsuitable, the pin should return an error code.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepin">CBasePin</a> class implements the basic framework for this method, including storing the media type and <b>IPin</b> pointers.
-
-
-
+The <a href="/windows/desktop/DirectShow/cbasepin">CBasePin</a> class implements the basic framework for this method, including storing the media type and <b>IPin</b> pointers.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/how-filters-connect">How Filters Connect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-filters-connect">How Filters Connect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

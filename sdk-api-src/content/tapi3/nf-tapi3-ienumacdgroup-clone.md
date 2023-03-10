@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.IEnumACDGroup.Clone
 title: IEnumACDGroup::Clone (tapi3.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The IEnumACDGroup::Clone method (tapi3.h) creates another enumerator that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumACDGroup interface","IEnumACDGroup interface [TAPI 2.2]","Clone method","IEnumACDGroup.Clone","IEnumACDGroup::Clone","_tapi3_ienumacdgroup_clone","tapi3.ienumacdgroup_clone","tapi3cc/IEnumACDGroup::Clone"]
 old-location: tapi3\ienumacdgroup_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 202f8534-9990-4e69-b3b8-8a8884b651f1
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumACDGroup interface, IEnumACDGroup interface [TAPI 2.2],Clone method, IEnumACDGroup.Clone, IEnumACDGroup::Clone, _tapi3_ienumacdgroup_clone, tapi3.ienumacdgroup_clone, tapi3cc/IEnumACDGroup::Clone
-f1_keywords:
-- tapi3/IEnumACDGroup.Clone
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumACDGroup.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumACDGroup::Clone
+ - tapi3/IEnumACDGroup::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumACDGroup.Clone
 ---
 
 # IEnumACDGroup::Clone
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to new 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,33 +114,17 @@ Failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface returned by <b>IEnumACDGroup::Clone</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a> interface returned by <b>IEnumACDGroup::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumACDGroup</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumacdgroup">IEnumACDGroup</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>

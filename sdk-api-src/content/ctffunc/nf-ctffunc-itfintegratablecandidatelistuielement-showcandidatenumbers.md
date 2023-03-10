@@ -2,15 +2,12 @@
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 title: ITfIntegratableCandidateListUIElement::ShowCandidateNumbers (ctffunc.h)
 description: Specifies whether candidate numbers should be shown.
+helpviewer_keywords: ["ITfIntegratableCandidateListUIElement interface [Text Services Framework]","ShowCandidateNumbers method","ITfIntegratableCandidateListUIElement.ShowCandidateNumbers","ITfIntegratableCandidateListUIElement::ShowCandidateNumbers","ShowCandidateNumbers","ShowCandidateNumbers method [Text Services Framework]","ShowCandidateNumbers method [Text Services Framework]","ITfIntegratableCandidateListUIElement interface","ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers","tsf.itfintegratablecandidatelistuielement_showcandidatenumbers"]
 old-location: tsf\itfintegratablecandidatelistuielement_showcandidatenumbers.htm
 tech.root: TSF
 ms.assetid: 91F40471-69D0-457B-9614-1B5A690A82B7
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],ShowCandidateNumbers method, ITfIntegratableCandidateListUIElement.ShowCandidateNumbers, ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, ShowCandidateNumbers, ShowCandidateNumbers method [Text Services Framework], ShowCandidateNumbers method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers, tsf.itfintegratablecandidatelistuielement_showcandidatenumbers
-f1_keywords:
-- ctffunc/ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ctffunc.h
-api_name:
-- ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
+ - ctffunc/ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ctffunc.h
+api_name:
+ - ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 ---
 
 # ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether candidate numbers should be shown.
 
-
 ## -parameters
-
-
-
 
 ### -param pfShow
 
 <b>TRUE</b> if candidate numbers should be shown; otherwise <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -85,18 +79,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>

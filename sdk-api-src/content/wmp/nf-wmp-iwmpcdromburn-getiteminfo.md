@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCdromBurn.getItemInfo
 title: IWMPCdromBurn::getItemInfo (wmp.h)
 description: The getItemInfo method retrieves the value of the specified attribute for the CD.
+helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","getItemInfo method","IWMPCdromBurn.getItemInfo","IWMPCdromBurn::getItemInfo","IWMPCdromBurngetItemInfo","getItemInfo","getItemInfo method [Windows Media Player]","getItemInfo method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_getiteminfo","wmp/IWMPCdromBurn::getItemInfo"]
 old-location: wmp\iwmpcdromburn_getiteminfo.htm
 tech.root: WMP
 ms.assetid: f54b406f-0441-4ed3-8f8b-6794ab2180d9
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],getItemInfo method, IWMPCdromBurn.getItemInfo, IWMPCdromBurn::getItemInfo, IWMPCdromBurngetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_getiteminfo, wmp/IWMPCdromBurn::getItemInfo
-f1_keywords:
-- wmp/IWMPCdromBurn.getItemInfo
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCdromBurn.getItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCdromBurn::getItemInfo
+ - wmp/IWMPCdromBurn::getItemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCdromBurn.getItemInfo
 ---
 
 # IWMPCdromBurn::getItemInfo
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getItemInfo</b> method retrieves the value of the specified attribute for the CD.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrItem [in]
 
@@ -88,17 +82,12 @@ The <b>getItemInfo</b> method retrieves the value of the specified attribute for
 <td>Retrieves the total space on the CD, in bytes.</td>
 </tr>
 </table>
- 
-
 
 ### -param pbstrVal [out]
 
 Pointer to a <b>BSTR</b> that receives the returned value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,27 +108,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>

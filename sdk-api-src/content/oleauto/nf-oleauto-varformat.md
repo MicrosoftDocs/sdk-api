@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarFormat
 title: VarFormat function (oleauto.h)
 description: Formats a variant into string form by parsing a format string.
+helpviewer_keywords: ["VarFormat","VarFormat function [Automation]","_oa96_VarFormat","automat.varformat","oleauto/VarFormat"]
 old-location: automat\varformat.htm
 tech.root: automat
 ms.assetid: 2e1b4fd1-a86b-4933-8934-5d725168a2cd
 ms.date: 12/05/2018
 ms.keywords: VarFormat, VarFormat function [Automation], _oa96_VarFormat, automat.varformat, oleauto/VarFormat
-f1_keywords:
-- oleauto/VarFormat
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarFormat
+ - oleauto/VarFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarFormat
 ---
 
 # VarFormat function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats a variant into string form by parsing a format string.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarIn [in]
 
 The variant.
 
-
 ### -param pstrFormat [in, optional]
 
 The format string. For example "mm-dd-yy".
-
 
 ### -param iFirstDay [in]
 
@@ -166,8 +161,6 @@ Sunday
 </td>
 </tr>
 </table>
- 
-
 
 ### -param iFirstWeek [in]
 
@@ -224,22 +217,16 @@ The first week has seven days.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
 Flags that control the formatting process. The only flags that can be set are VAR_CALENDAR_HIJRI or VAR_FORMAT_NOSUBSTITUTE.
 
-
 ### -param pbstrOut [out]
 
 The formatted string that represents the variant.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -271,35 +258,19 @@ One or more of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function uses the user's default locale while calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
-
-
-
+This function uses the user's default locale while calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/automat/formatting-functions">Formatting Routines</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/formatting-functions">Formatting Routines</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a>

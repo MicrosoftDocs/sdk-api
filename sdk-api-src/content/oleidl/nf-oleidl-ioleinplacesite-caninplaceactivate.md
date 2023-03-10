@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleInPlaceSite.CanInPlaceActivate
 title: IOleInPlaceSite::CanInPlaceActivate (oleidl.h)
 description: Determines whether the container can activate the object in place.
+helpviewer_keywords: ["CanInPlaceActivate","CanInPlaceActivate method [COM]","CanInPlaceActivate method [COM]","IOleInPlaceSite interface","IOleInPlaceSite interface [COM]","CanInPlaceActivate method","IOleInPlaceSite.CanInPlaceActivate","IOleInPlaceSite::CanInPlaceActivate","_ole_ioleinplacesite_caninplaceactivate","com.ioleinplacesite_caninplaceactivate","oleidl/IOleInPlaceSite::CanInPlaceActivate"]
 old-location: com\ioleinplacesite_caninplaceactivate.htm
 tech.root: com
 ms.assetid: ac960359-7e02-43b6-ac42-0000af15b1a4
 ms.date: 12/05/2018
 ms.keywords: CanInPlaceActivate, CanInPlaceActivate method [COM], CanInPlaceActivate method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],CanInPlaceActivate method, IOleInPlaceSite.CanInPlaceActivate, IOleInPlaceSite::CanInPlaceActivate, _ole_ioleinplacesite_caninplaceactivate, com.ioleinplacesite_caninplaceactivate, oleidl/IOleInPlaceSite::CanInPlaceActivate
-f1_keywords:
-- oleidl/IOleInPlaceSite.CanInPlaceActivate
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceSite.CanInPlaceActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSite::CanInPlaceActivate
+ - oleidl/IOleInPlaceSite::CanInPlaceActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceSite.CanInPlaceActivate
 ---
 
 # IOleInPlaceSite::CanInPlaceActivate
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the container can activate the object in place.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -93,14 +86,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only objects being displayed as DVASPECT_CONTENT can be activated in place.
 
@@ -108,17 +95,6 @@ Only objects being displayed as DVASPECT_CONTENT can be activated in place.
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 <b>CanInPlaceActivate</b> is called by the client site's immediate child object when this object must activate in place. This function allows the container application to accept or refuse the activation request.
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>

@@ -2,15 +2,12 @@
 UID: NF:roerrorapi.RoGetErrorReportingFlags
 title: RoGetErrorReportingFlags function
 description: Gets the current reporting behavior of Windows Runtime error functions.
+helpviewer_keywords: ["RoGetErrorReportingFlags","RoGetErrorReportingFlags function [Windows Runtime]","WinRTGetErrorReportingFlags","roerrorapi/RoGetErrorReportingFlags","roerrorapi/WinRTGetErrorReportingFlags","winrt.rogeterrorreportingflags","winrt.winrtgeterrorreportingflags"]
 old-location: winrt\rogeterrorreportingflags.htm
 tech.root: WinRT
 ms.assetid: 0DCF6693-5066-46E3-A7F9-5CF0780FA87C
 ms.date: 12/5/2018
 ms.keywords: RoGetErrorReportingFlags, RoGetErrorReportingFlags function [Windows Runtime], WinRTGetErrorReportingFlags, roerrorapi/RoGetErrorReportingFlags, roerrorapi/WinRTGetErrorReportingFlags, winrt.rogeterrorreportingflags, winrt.winrtgeterrorreportingflags
-f1_keywords:
-- roerrorapi/RoGetErrorReportingFlags
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- roerrorapi.h
-- API-MS-Win-Core-WinRT-error-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-error-l1-1-1.dll
-api_name:
-- RoGetErrorReportingFlags
-- WinRTGetErrorReportingFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - RoGetErrorReportingFlags
+ - roerrorapi/RoGetErrorReportingFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - roerrorapi.h
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+ - RoGetErrorReportingFlags
+ - WinRTGetErrorReportingFlags
 ---
 
 # RoGetErrorReportingFlags function
@@ -51,25 +53,17 @@ req.redist:
 
 ## -description
 
-
 Gets the current reporting behavior of Windows Runtime error functions.
 
-
 ## -parameters
-
-
-
 
 ### -param pflags [out]
 
 Type: <b>UINT32*</b>
 
-A pointer to the bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a> values that represents the current error-reporting behavior.
-
+A pointer to the bitmask of <a href="/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a> values that represents the current error-reporting behavior.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -103,39 +97,23 @@ The  error-reporting behavior was retrieved successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Set the reporting behavior of   Windows Runtime error functions by calling the  <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>  function.
-
-
-
+Set the reporting behavior of   Windows Runtime error functions by calling the  <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>  function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerror">RoOriginateError</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>

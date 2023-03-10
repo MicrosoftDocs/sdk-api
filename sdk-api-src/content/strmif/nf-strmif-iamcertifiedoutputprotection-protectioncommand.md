@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMCertifiedOutputProtection.ProtectionCommand
 title: IAMCertifiedOutputProtection::ProtectionCommand (strmif.h)
 description: The ProtectionCommand method sends a COPP command to the graphics driver.
+helpviewer_keywords: ["IAMCertifiedOutputProtection interface [DirectShow]","ProtectionCommand method","IAMCertifiedOutputProtection.ProtectionCommand","IAMCertifiedOutputProtection::ProtectionCommand","IAMCertifiedOutputProtectionProtectionCommand","ProtectionCommand","ProtectionCommand method [DirectShow]","ProtectionCommand method [DirectShow]","IAMCertifiedOutputProtection interface","dshow.iamcertifiedoutputprotection_protectioncommand","strmif/IAMCertifiedOutputProtection::ProtectionCommand"]
 old-location: dshow\iamcertifiedoutputprotection_protectioncommand.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: facf13b2-6650-4e81-97ba-eadacc514ef0
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],ProtectionCommand method, IAMCertifiedOutputProtection.ProtectionCommand, IAMCertifiedOutputProtection::ProtectionCommand, IAMCertifiedOutputProtectionProtectionCommand, ProtectionCommand, ProtectionCommand method [DirectShow], ProtectionCommand method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_protectioncommand, strmif/IAMCertifiedOutputProtection::ProtectionCommand
-f1_keywords:
-- strmif/IAMCertifiedOutputProtection.ProtectionCommand
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMCertifiedOutputProtection.ProtectionCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMCertifiedOutputProtection::ProtectionCommand
+ - strmif/IAMCertifiedOutputProtection::ProtectionCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMCertifiedOutputProtection.ProtectionCommand
 ---
 
 # IAMCertifiedOutputProtection::ProtectionCommand
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>ProtectionCommand</code> method sends a COPP command to the graphics driver.
-
 
 ## -parameters
 
-
-
-
 ### -param cmd [in]
 
-Pointer to an [AMCOPPCommand](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppcommand) structure that contains the command.
-
+Pointer to an [AMCOPPCommand](/windows/desktop/api/strmif/ns-strmif-amcoppcommand) structure that contains the command.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -108,22 +102,11 @@ The display device does not support COPP; or the VMR has not connected to a disp
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/strmif/nn-strmif-iamcertifiedoutputprotection">IAMCertifiedOutputProtection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcertifiedoutputprotection">IAMCertifiedOutputProtection Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

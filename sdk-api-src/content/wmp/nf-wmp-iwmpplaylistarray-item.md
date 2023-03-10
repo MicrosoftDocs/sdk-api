@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlaylistArray.item
 title: IWMPPlaylistArray::item (wmp.h)
 description: The item method retrieves a pointer to an IWMPPlaylist interface representing the playlist at the specified index.
+helpviewer_keywords: ["IWMPPlaylistArray interface [Windows Media Player]","item method","IWMPPlaylistArray.item","IWMPPlaylistArray::item","IWMPPlaylistArrayitem","item","item method [Windows Media Player]","item method [Windows Media Player]","IWMPPlaylistArray interface","wmp.iwmpplaylistarray_item","wmp/IWMPPlaylistArray::item"]
 old-location: wmp\iwmpplaylistarray_item.htm
 tech.root: WMP
 ms.assetid: 2ba85800-12b9-4f14-8d68-ff6a01167308
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistArray interface [Windows Media Player],item method, IWMPPlaylistArray.item, IWMPPlaylistArray::item, IWMPPlaylistArrayitem, item, item method [Windows Media Player], item method [Windows Media Player],IWMPPlaylistArray interface, wmp.iwmpplaylistarray_item, wmp/IWMPPlaylistArray::item
-f1_keywords:
-- wmp/IWMPPlaylistArray.item
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlaylistArray.item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlaylistArray::item
+ - wmp/IWMPPlaylistArray::item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlaylistArray.item
 ---
 
 # IWMPPlaylistArray::item
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>item</b> method retrieves a pointer to an <b>IWMPPlaylist</b> interface representing the playlist at the specified index.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lIndex [in]
 
 <b>long</b> containing the index that identifies the playlist that the method should retrieve.
 
-
 ### -param ppItem [out]
 
 Pointer to a pointer to an <b>IWMPPlaylist</b> interface for the retrieved playlist.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,31 +83,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Before calling this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
-
-
-
+Before calling this method, you must have read access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylistarray">IWMPPlaylistArray Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylistarray">IWMPPlaylistArray Interface</a>

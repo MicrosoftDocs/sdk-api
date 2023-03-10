@@ -2,15 +2,12 @@
 UID: NE:sdoias._NAMESPROPERTIES
 title: NAMESPROPERTIES (sdoias.h)
 description: The values of the NAMESPROPERTIES enumeration type enumerate properties related to the name of the user requesting network access.
+helpviewer_keywords: ["NAMESPROPERTIES","NAMESPROPERTIES enumeration [Network Policy Server]","PROPERTY_NAMES_REALMS","_sdo_namesproperties","nps.SDO_namesproperties","sdo.namesproperties","sdoias/NAMESPROPERTIES","sdoias/PROPERTY_NAMES_REALMS"]
 old-location: nps\SDO_namesproperties.htm
 tech.root: Nps
 ms.assetid: c7bf7a92-9945-4f54-bf01-31abcd97dd83
 ms.date: 12/05/2018
 ms.keywords: NAMESPROPERTIES, NAMESPROPERTIES enumeration [Network Policy Server], PROPERTY_NAMES_REALMS, _sdo_namesproperties, nps.SDO_namesproperties, sdo.namesproperties, sdoias/NAMESPROPERTIES, sdoias/PROPERTY_NAMES_REALMS
-f1_keywords:
-- sdoias/NAMESPROPERTIES
-dev_langs:
-- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- SdoIas.h
-api_name:
-- NAMESPROPERTIES
 targetos: Windows
 req.typenames: NAMESPROPERTIES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NAMESPROPERTIES
+ - sdoias/_NAMESPROPERTIES
+ - NAMESPROPERTIES
+ - sdoias/NAMESPROPERTIES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - SdoIas.h
+api_name:
+ - NAMESPROPERTIES
 ---
 
 # NAMESPROPERTIES enumeration
@@ -48,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The values of the 
 <b>NAMESPROPERTIES</b> enumeration type enumerate properties related to the name of the user requesting network access.
 
-
 ## -enum-fields
-
-
-
 
 ### -field PROPERTY_NAMES_REALMS
 

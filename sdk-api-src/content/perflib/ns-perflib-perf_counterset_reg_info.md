@@ -2,15 +2,12 @@
 UID: NS:perflib._PERF_COUNTERSET_REG_INFO
 title: PERF_COUNTERSET_REG_INFO (perflib.h)
 description: Contains information about the PERF_COUNTERSET_REG_INFO block that contains the structure.
+helpviewer_keywords: ["*PPERF_COUNTERSET_REG_INFO","PERF_COUNTERSET_INSTANCE_AGGREGATE","PERF_COUNTERSET_MULTI_AGGREGATE","PERF_COUNTERSET_MULTI_INSTANCES","PERF_COUNTERSET_REG_INFO","PERF_COUNTERSET_REG_INFO structure [Perf]","PERF_COUNTERSET_SINGLE_AGGREGATE","PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY","PERF_COUNTERSET_SINGLE_INSTANCE","PERF_DETAIL_ADVANCED","PERF_DETAIL_NOVICE","PPERF_COUNTERSET_REG_INFO","PPERF_COUNTERSET_REG_INFO structure pointer [Perf]","perf.perf_counterset_reg_info","perflib/PERF_COUNTERSET_REG_INFO","perflib/PPERF_COUNTERSET_REG_INFO"]
 old-location: perf\perf_counterset_reg_info.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: D220426F-7849-47DF-A411-5381FC39CA80
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_COUNTERSET_REG_INFO, PERF_COUNTERSET_INSTANCE_AGGREGATE, PERF_COUNTERSET_MULTI_AGGREGATE, PERF_COUNTERSET_MULTI_INSTANCES, PERF_COUNTERSET_REG_INFO, PERF_COUNTERSET_REG_INFO structure [Perf], PERF_COUNTERSET_SINGLE_AGGREGATE, PERF_COUNTERSET_SINGLE_AGGREGATE_HISTORY, PERF_COUNTERSET_SINGLE_INSTANCE, PERF_DETAIL_ADVANCED, PERF_DETAIL_NOVICE, PPERF_COUNTERSET_REG_INFO, PPERF_COUNTERSET_REG_INFO structure pointer [Perf], perf.perf_counterset_reg_info, perflib/PERF_COUNTERSET_REG_INFO, perflib/PPERF_COUNTERSET_REG_INFO'
-f1_keywords:
-- perflib/PERF_COUNTERSET_REG_INFO
-dev_langs:
-- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Perflib.h
-api_name:
-- PERF_COUNTERSET_REG_INFO
 targetos: Windows
 req.typenames: PERF_COUNTERSET_REG_INFO, *PPERF_COUNTERSET_REG_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PERF_COUNTERSET_REG_INFO
+ - perflib/_PERF_COUNTERSET_REG_INFO
+ - PPERF_COUNTERSET_REG_INFO
+ - perflib/PPERF_COUNTERSET_REG_INFO
+ - PERF_COUNTERSET_REG_INFO
+ - perflib/PERF_COUNTERSET_REG_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Perflib.h
+api_name:
+ - PERF_COUNTERSET_REG_INFO
 ---
 
 # PERF_COUNTERSET_REG_INFO structure
@@ -48,27 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the <b>PERF_COUNTERSET_REG_INFO</b> block that contains the structure. A <b>PERF_COUNTERSET_REG_INFO</b> block provides registration information for a counter set and the performance counters it contains, and consists of a <b>PERF_COUNTERSET_REG_INFO</b>structure immediately followed by a set
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures that correspond to the performance counters in the counter set.
-
-
-
+Contains information about the <b>PERF_COUNTERSET_REG_INFO</b> block that contains the structure. A <b>PERF_COUNTERSET_REG_INFO</b> block provides registration information for a counter set and the performance counters it contains, and consists of a <b>PERF_COUNTERSET_REG_INFO</b> structure immediately followed by a set
+<a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures that correspond to the performance counters in the counter set.
 
 ## -struct-fields
-
-
-
 
 ### -field CounterSetGuid
 
 The unique identifier for the counter set.
 
-
 ### -field CounterSetType
 
 Reserved.
-
 
 ### -field DetailLevel
 
@@ -105,13 +102,10 @@ The counter is complicated and should be displayed only to advanced users.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NumCounters
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/ns-perflib-perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures in this  <b>PERF_COUNTERSET_REG_INFO</b> block.
-
+The number of <a href="/windows/desktop/api/perflib/ns-perflib-perf_counter_reg_info">PERF_COUNTER_REG_INFO</a> structures in this  <b>PERF_COUNTERSET_REG_INFO</b> block.
 
 ### -field InstanceType
 
@@ -188,15 +182,8 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to
+The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a> function called with the <i>requestCode</i> parameter set to
 <b>PERF_REG_COUNTERSET_STRUCT</b> gets a <b>PERF_COUNTERSET_REG_INFO</b> block.
-
-
-

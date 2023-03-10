@@ -1,16 +1,13 @@
 ---
 UID: NN:mfidl.IMFByteStreamCacheControl
 title: IMFByteStreamCacheControl (mfidl.h)
-description: Controls how a network byte stream transfers data to a local cache.
+description: Controls how a network byte stream transfers data to a local cache. (IMFByteStreamCacheControl)
+helpviewer_keywords: ["IMFByteStreamCacheControl","IMFByteStreamCacheControl interface [Media Foundation]","IMFByteStreamCacheControl interface [Media Foundation]","described","mf.imfbytestreamcachecontrol","mfidl/IMFByteStreamCacheControl"]
 old-location: mf\imfbytestreamcachecontrol.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e12a532a-4624-4e06-8e19-6e9daec550ac
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl, IMFByteStreamCacheControl interface [Media Foundation], IMFByteStreamCacheControl interface [Media Foundation],described, mf.imfbytestreamcachecontrol, mfidl/IMFByteStreamCacheControl
-f1_keywords:
-- mfidl/IMFByteStreamCacheControl
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFByteStreamCacheControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamCacheControl
+ - mfidl/IMFByteStreamCacheControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFByteStreamCacheControl
 ---
 
 # IMFByteStreamCacheControl interface
@@ -48,55 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls how a network byte stream transfers data to a local cache. Optionally, this interface is exposed by byte streams that read data from a network, for example, through HTTP.
       
 
 To get a pointer to this interface, call <b>QueryInterface</b> on the byte stream object.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamCacheControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamCacheControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFByteStreamCacheControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol-stopbackgroundtransfer">StopBackgroundTransfer</a>
-</td>
-<td align="left" width="63%">
-Stops the background transfer of data to the local cache.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMFByteStreamCacheControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFByteStreamCacheControl</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

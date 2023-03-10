@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzApplication3.get_BizRulesEnabled
 title: IAzApplication3::get_BizRulesEnabled (azroles.h)
-description: Gets or sets a value that indicates whether business rules are enabled for this application.
+description: Gets or sets a value that indicates whether business rules are enabled for this application. (Get)
+helpviewer_keywords: ["BizRulesEnabled property [Security]","BizRulesEnabled property [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","BizRulesEnabled property","IAzApplication3.BizRulesEnabled","IAzApplication3.get_BizRulesEnabled","IAzApplication3::BizRulesEnabled","IAzApplication3::get_BizRulesEnabled","IAzApplication3::put_BizRulesEnabled","azroles/IAzApplication3::BizRulesEnabled","azroles/IAzApplication3::get_BizRulesEnabled","azroles/IAzApplication3::put_BizRulesEnabled","get_BizRulesEnabled","security.iazapplication3_bizrulesenabled"]
 old-location: security\iazapplication3_bizrulesenabled.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 92303a5d-a705-4003-890e-e75886451c18
 ms.date: 12/05/2018
 ms.keywords: BizRulesEnabled property [Security], BizRulesEnabled property [Security],IAzApplication3 interface, IAzApplication3 interface [Security],BizRulesEnabled property, IAzApplication3.BizRulesEnabled, IAzApplication3.get_BizRulesEnabled, IAzApplication3::BizRulesEnabled, IAzApplication3::get_BizRulesEnabled, IAzApplication3::put_BizRulesEnabled, azroles/IAzApplication3::BizRulesEnabled, azroles/IAzApplication3::get_BizRulesEnabled, azroles/IAzApplication3::put_BizRulesEnabled, get_BizRulesEnabled, security.iazapplication3_bizrulesenabled
-f1_keywords:
-- azroles/IAzApplication3.BizRulesEnabled
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication3.BizRulesEnabled
-- IAzApplication3.get_BizRulesEnabled
-- IAzApplication3.put_BizRulesEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication3::get_BizRulesEnabled
+ - azroles/IAzApplication3::get_BizRulesEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication3.BizRulesEnabled
+ - IAzApplication3.get_BizRulesEnabled
+ - IAzApplication3.put_BizRulesEnabled
 ---
 
 # IAzApplication3::get_BizRulesEnabled
@@ -50,12 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets a value that indicates whether business rules are enabled for this 
     application.
 
 This property is read/write.
-
 
 ## -parameters
 

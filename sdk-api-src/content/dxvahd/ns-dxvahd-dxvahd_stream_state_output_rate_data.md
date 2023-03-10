@@ -2,15 +2,12 @@
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
 title: DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA (dxvahd.h)
 description: Specifies the output frame rate for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA","DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA structure [Media Foundation]","FALSE","TRUE","dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA","mf.dxvahd_stream_state_output_rate_data"]
 old-location: mf\dxvahd_stream_state_output_rate_data.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9cca24f0-5fff-4125-b1fe-d2f9278b5181
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA structure [Media Foundation], FALSE, TRUE, dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA, mf.dxvahd_stream_state_output_rate_data
-f1_keywords:
-- dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxvahd.h
-api_name:
-- DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
 targetos: Windows
 req.typenames: DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
+ - dxvahd/_DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
+ - DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
+ - dxvahd/DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxvahd.h
+api_name:
+ - DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA
 ---
 
 # DXVAHD_STREAM_STATE_OUTPUT_RATE_DATA structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the output frame rate for an input stream when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-
 ## -struct-fields
-
-
-
 
 ### -field RepeatFrame
 
@@ -87,53 +86,37 @@ The device interpolates frames.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field OutputRate
 
-Specifies the output rate, as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_output_rate">DXVAHD_OUTPUT_RATE</a> enumeration.
-
+Specifies the output rate, as a member of the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_output_rate">DXVAHD_OUTPUT_RATE</a> enumeration.
 
 ### -field CustomRate
 
-Specifies a custom output rate, as a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure. This member is ignored unless <b>OutputRate</b> equals <b>DXVAHD_OUTPUT_RATE_CUSTOM</b>. The default state value is 1/1.
+Specifies a custom output rate, as a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_rational">DXVAHD_RATIONAL</a> structure. This member is ignored unless <b>OutputRate</b> equals <b>DXVAHD_OUTPUT_RATE_CUSTOM</b>. The default state value is 1/1.
 
-To get the list of custom rates supported by the video processor, call <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a>. If a custom rate is used, it must be taken from this list.
-
+To get the list of custom rates supported by the video processor, call <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a>. If a custom rate is used, it must be taken from this list.
 
 ## -remarks
 
-
-
 The output rate might require the device to convert the frame rate of the input stream. If so, the value of <b>RepeatFrame</b> controls whether the device creates interpolated frames or simply repeats input frames.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_stream_state">DXVAHD_STREAM_STATE</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessstreamstate">IDXVAHD_VideoProcessor::SetVideoProcessStreamState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

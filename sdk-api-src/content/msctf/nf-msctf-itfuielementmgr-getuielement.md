@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfUIElementMgr.GetUIElement
 title: ITfUIElementMgr::GetUIElement (msctf.h)
 description: The ITfUIElementMgr::GetUIElement method gets the ITfUIElement interface of the element id.
+helpviewer_keywords: ["GetUIElement","GetUIElement method [Text Services Framework]","GetUIElement method [Text Services Framework]","ITfUIElementMgr interface","ITfUIElementMgr interface [Text Services Framework]","GetUIElement method","ITfUIElementMgr.GetUIElement","ITfUIElementMgr::GetUIElement","msctf/ITfUIElementMgr::GetUIElement","tsf.itfuielementmgr_getuielement"]
 old-location: tsf\itfuielementmgr_getuielement.htm
 tech.root: TSF
 ms.assetid: e3a2a7ae-1ca2-4c1e-83af-207821966147
 ms.date: 12/05/2018
 ms.keywords: GetUIElement, GetUIElement method [Text Services Framework], GetUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],GetUIElement method, ITfUIElementMgr.GetUIElement, ITfUIElementMgr::GetUIElement, msctf/ITfUIElementMgr::GetUIElement, tsf.itfuielementmgr_getuielement
-f1_keywords:
-- msctf/ITfUIElementMgr.GetUIElement
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfUIElementMgr.GetUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElementMgr::GetUIElement
+ - msctf/ITfUIElementMgr::GetUIElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfUIElementMgr.GetUIElement
 ---
 
 # ITfUIElementMgr::GetUIElement
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the element id.
-
+The <b>ITfUIElementMgr::GetUIElement</b> method gets the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the element id.
 
 ## -parameters
 
-
-
-
 ### -param dwUIELementId [in]
 
-[in] The element id to get the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
-
+[in] The element id to get the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
 
 ### -param ppElement [out]
 
-[out] A pointer to receive <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
-
+[out] A pointer to receive <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,7 +105,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-

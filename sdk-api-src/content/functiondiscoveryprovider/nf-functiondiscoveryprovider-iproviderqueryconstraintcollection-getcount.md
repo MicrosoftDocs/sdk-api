@@ -1,16 +1,13 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.GetCount
 title: IProviderQueryConstraintCollection::GetCount (functiondiscoveryprovider.h)
-description: Gets the number of items in the collection.
+description: Gets the number of items in the collection. (IProviderQueryConstraintCollection.GetCount)
+helpviewer_keywords: ["GetCount","GetCount method","GetCount method","IProviderQueryConstraintCollection interface","IProviderQueryConstraintCollection interface","GetCount method","IProviderQueryConstraintCollection.GetCount","IProviderQueryConstraintCollection::GetCount","functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount","ncd.iproviderqueryconstraintcollection_getcount"]
 old-location: ncd\iproviderqueryconstraintcollection_getcount.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 401e1723-751a-490b-bcb6-d1e0f2f73dfb
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,GetCount method, IProviderQueryConstraintCollection.GetCount, IProviderQueryConstraintCollection::GetCount, functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount, ncd.iproviderqueryconstraintcollection_getcount
-f1_keywords:
-- functiondiscoveryprovider/IProviderQueryConstraintCollection.GetCount
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IProviderQueryConstraintCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderQueryConstraintCollection::GetCount
+ - functiondiscoveryprovider/IProviderQueryConstraintCollection::GetCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IProviderQueryConstraintCollection.GetCount
 ---
 
 # IProviderQueryConstraintCollection::GetCount
@@ -48,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the number of items in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwCount [out]
 
 The number of items.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>

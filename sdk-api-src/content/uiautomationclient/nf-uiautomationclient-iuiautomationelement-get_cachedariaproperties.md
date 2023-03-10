@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAriaProperties
 title: IUIAutomationElement::get_CachedAriaProperties (uiautomationclient.h)
 description: Retrieves the cached Accessible Rich Internet Applications (ARIA) properties of the element.
+helpviewer_keywords: ["CachedAriaProperties property [Windows Accessibility]","CachedAriaProperties property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedAriaProperties property","IUIAutomationElement.CachedAriaProperties","IUIAutomationElement.get_CachedAriaProperties","IUIAutomationElement::CachedAriaProperties","IUIAutomationElement::get_CachedAriaProperties","get_CachedAriaProperties","uiauto.uiauto_IUIAutomationElement_CachedAriaProperties","uiauto_IUIAutomationElement_CachedAriaProperties","uiautomationclient/IUIAutomationElement::CachedAriaProperties","uiautomationclient/IUIAutomationElement::get_CachedAriaProperties","winauto.uiauto_IUIAutomationElement_CachedAriaProperties"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedAriaProperties.htm
 tech.root: WinAuto
 ms.assetid: 0156348c-4c3a-4351-9bcc-16e8f4107916
 ms.date: 12/05/2018
 ms.keywords: CachedAriaProperties property [Windows Accessibility], CachedAriaProperties property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaProperties property, IUIAutomationElement.CachedAriaProperties, IUIAutomationElement.get_CachedAriaProperties, IUIAutomationElement::CachedAriaProperties, IUIAutomationElement::get_CachedAriaProperties, get_CachedAriaProperties, uiauto.uiauto_IUIAutomationElement_CachedAriaProperties, uiauto_IUIAutomationElement_CachedAriaProperties, uiautomationclient/IUIAutomationElement::CachedAriaProperties, uiautomationclient/IUIAutomationElement::get_CachedAriaProperties, winauto.uiauto_IUIAutomationElement_CachedAriaProperties
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.CachedAriaProperties
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.CachedAriaProperties
-- IUIAutomationElement.get_CachedAriaProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::get_CachedAriaProperties
+ - uiautomationclient/IUIAutomationElement::get_CachedAriaProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.CachedAriaProperties
+ - IUIAutomationElement.get_CachedAriaProperties
 ---
 
 # IUIAutomationElement::get_CachedAriaProperties
@@ -49,21 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the cached Accessible Rich Internet Applications (ARIA) properties of the element.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
+<a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
@@ -71,11 +67,11 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariaproperties">CurrentAriaProperties</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentariaproperties">CurrentAriaProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 
@@ -87,12 +83,8 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-ariaspecification">UI Automation for W3C Accessible Rich Internet Applications Specification</a>
+<a href="/windows/desktop/WinAuto/uiauto-ariaspecification">UI Automation for W3C Accessible Rich Internet Applications Specification</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=149006">WAI-ARIA Overview</a>
- 
-
- 
-
+<a href="https://www.w3.org/WAI/intro/aria">WAI-ARIA Overview</a>

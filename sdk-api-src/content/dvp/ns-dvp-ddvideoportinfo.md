@@ -2,15 +2,12 @@
 UID: NS:dvp._DDVIDEOPORTINFO
 title: DDVIDEOPORTINFO (dvp.h)
 description: The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the DD_VIDEOPORT_LOCAL structure.
+helpviewer_keywords: ["*LPDDVIDEOPORTINFO","DDVIDEOPORTINFO","DDVIDEOPORTINFO structure [Display Devices]","ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml","display.ddvideoportinfo","dvp/DDVIDEOPORTINFO"]
 old-location: display\ddvideoportinfo.htm
 tech.root: display
 ms.assetid: 65423d9e-d3b8-4545-8afe-09b3375dbac2
 ms.date: 12/05/2018
 ms.keywords: '*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO, DDVIDEOPORTINFO structure [Display Devices], ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml, display.ddvideoportinfo, dvp/DDVIDEOPORTINFO'
-f1_keywords:
-- dvp/DDVIDEOPORTINFO
-dev_langs:
-- c++
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dvp.h
-api_name:
-- DDVIDEOPORTINFO
 targetos: Windows
 req.typenames: '*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDVIDEOPORTINFO
+ - dvp/_DDVIDEOPORTINFO
+ - LPDDVIDEOPORTINFO
+ - dvp/LPDDVIDEOPORTINFO
+ - DDVIDEOPORTINFO
+ - dvp/DDVIDEOPORTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dvp.h
+api_name:
+ - DDVIDEOPORTINFO
 ---
 
 # DDVIDEOPORTINFO structure
@@ -48,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure.
-
+The DDVIDEOPORTINFO structure describes how the driver should transfer video data to a surface (or to surfaces); DDVIDEOPORTINFO is a member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure.
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
-Specifies the size in bytes of the structure. This member must be initialized before the structure is used. 
-
+Specifies the size in bytes of the structure. This member must be initialized before the structure is used.
 
 ### -field dwOriginX
 
 Indicates the x placement of the video data within the surface, in pixels. This offset applies to all surfaces when autoflipping is requested.
 
-
 ### -field dwOriginY
 
 Indicates the y placement of the video data within the surface, in pixels. This offset applies to all surfaces when autoflipping is requested.
-
 
 ### -field dwVPFlags
 
@@ -107,7 +105,7 @@ DDVP_CROP
 
 </td>
 <td>
-The driver should crop both the video and <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data using the rectangle in the <b>rCrop</b> member.
+The driver should crop both the video and <a href="/windows-hardware/drivers/">VBI</a> data using the rectangle in the <b>rCrop</b> member.
 
 </td>
 </tr>
@@ -217,7 +215,7 @@ DDVP_VBICONVERT
 
 </td>
 <td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure to which the <b>lpddpfVBIOutputFormat</b> member points contains data that should be used to convert the data within the vertical blanking interval.
+The <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure to which the <b>lpddpfVBIOutputFormat</b> member points contains data that should be used to convert the data within the vertical blanking interval.
 
 </td>
 </tr>
@@ -232,74 +230,51 @@ Data within the vertical blanking interval should not be scaled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rCrop
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies a cropping rectangle in pixels. This member contains a valid rectangle when the DDVP_CROP flag is set in the <b>dwVPFlags</b> member.
-
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies a cropping rectangle in pixels. This member contains a valid rectangle when the DDVP_CROP flag is set in the <b>dwVPFlags</b> member.
 
 ### -field dwPrescaleWidth
 
 Specifies the width in pixels to which the video and VBI data should be prescaled or zoomed. For example, if the video data is 720 pixels wide and the client requests the width cut in half, the client specifies 360 in <b>dwPrescaleWidth</b>. This member contains a valid width when the DDVP_PRESCALE flag is set in the <b>dwVPFlags</b> member.
 
-
 ### -field dwPrescaleHeight
 
 Specifies the height in pixels to which the video and VBI data should be prescaled or zoomed. For example, if the video data is 240 pixels wide and the client requests the width cut in half, the client specifies 120 in <b>dwPrescaleHeight</b>. This member contains a valid width when the DDVP_PRESCALE flag is set in the <b>dwVPFlags</b> member.
 
-
 ### -field lpddpfInputFormat
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that specifies the format of the video data to be written to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object. This format can be different from the target surface format if the VPE object performs a conversion.
-
+Points to a <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that specifies the format of the video data to be written to the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object. This format can be different from the target surface format if the VPE object performs a conversion.
 
 ### -field lpddpfVBIInputFormat
 
 Points to a DDPIXELFORMAT structure that specifies the input format of the data within the vertical blanking interval.
 
-
 ### -field lpddpfVBIOutputFormat
 
 Points to a DDPIXELFORMAT structure that specifies the output format of the data within the vertical blanking interval.
-
 
 ### -field dwVBIHeight
 
 Specifies the number of lines of data within the vertical blanking interval.
 
-
 ### -field dwReserved1
 
 Reserved for system use and should be ignored by the driver.
-
 
 ### -field dwReserved2
 
 Reserved for system use and should be ignored by the driver.
 
-
 ## -remarks
-
-
 
 All members of this structure are set by the client and the driver should never change them. The client is typically the overlay mixer.
 
-
-
-
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>

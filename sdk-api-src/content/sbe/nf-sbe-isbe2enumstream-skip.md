@@ -2,15 +2,12 @@
 UID: NF:sbe.ISBE2EnumStream.Skip
 title: ISBE2EnumStream::Skip (sbe.h)
 description: Skips a specified number of streams in the enumeration sequence.
+helpviewer_keywords: ["ISBE2EnumStream interface [Microsoft TV Technologies]","Skip method","ISBE2EnumStream.Skip","ISBE2EnumStream::Skip","Skip","Skip method [Microsoft TV Technologies]","Skip method [Microsoft TV Technologies]","ISBE2EnumStream interface","mstv.isbe2enumstream_skip","sbe/ISBE2EnumStream::Skip"]
 old-location: mstv\isbe2enumstream_skip.htm
 tech.root: mstv
 ms.assetid: 52979cbc-203b-49ae-9892-db1abfeae94b
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Skip method, ISBE2EnumStream.Skip, ISBE2EnumStream::Skip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_skip, sbe/ISBE2EnumStream::Skip
-f1_keywords:
-- sbe/ISBE2EnumStream.Skip
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.dll
-api_name:
-- ISBE2EnumStream.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2EnumStream::Skip
+ - sbe/ISBE2EnumStream::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.dll
+api_name:
+ - ISBE2EnumStream.Skip
 ---
 
 # ISBE2EnumStream::Skip
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips a specified number of streams in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param cRecords [in]
 
 The number of streams to skip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,18 +90,7 @@ The end of the sequence was reached before skipping the requested number of stre
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>

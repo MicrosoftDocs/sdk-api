@@ -2,15 +2,12 @@
 UID: NF:mgmtapi.SnmpMgrRequest
 title: SnmpMgrRequest function (mgmtapi.h)
 description: The SnmpMgrRequest function requests the specified operation be performed with the specified agent. This function is an element of the SNMP Management API.
+helpviewer_keywords: ["SNMP_ERRORSTATUS_BADVALUE","SNMP_ERRORSTATUS_GENERR","SNMP_ERRORSTATUS_NOERROR","SNMP_ERRORSTATUS_NOSUCHNAME","SNMP_ERRORSTATUS_READONLY","SNMP_ERRORSTATUS_TOOBIG","SNMP_PDU_GET","SNMP_PDU_GETNEXT","SNMP_PDU_SET","SnmpMgrRequest","SnmpMgrRequest function [SNMP]","_snmp_snmpmgrrequest","mgmtapi/SnmpMgrRequest","snmp.snmpmgrrequest"]
 old-location: snmp\snmpmgrrequest.htm
 tech.root: SNMP
 ms.assetid: f66ce774-dba0-466b-ad1e-671f9a487e0f
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpMgrRequest, SnmpMgrRequest function [SNMP], _snmp_snmpmgrrequest, mgmtapi/SnmpMgrRequest, snmp.snmpmgrrequest
-f1_keywords:
-- mgmtapi/SnmpMgrRequest
-dev_langs:
-- c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mgmtapi.lib
 req.dll: Mgmtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mgmtapi.dll
-api_name:
-- SnmpMgrRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SnmpMgrRequest
+ - mgmtapi/SnmpMgrRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mgmtapi.dll
+api_name:
+ - SnmpMgrRequest
 ---
 
 # SnmpMgrRequest function
@@ -48,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrRequest</b> function requests the specified operation be performed with the specified agent. This function is an element of the SNMP Management API.
 
-
 ## -parameters
-
-
-
 
 ### -param session [in]
 
@@ -68,10 +65,9 @@ Pointer to an internal structure that specifies the session that will perform th
 
 
 Applications should not specify the <b>LPSNMP_MGR_SESSION</b> pointer returned by this function in a different thread. You can specify a pointer returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>, but only if the calls to 
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>, but only if the calls to 
 <b>SnmpMgrOpen</b> and 
 <b>SnmpMgrRequest</b> originate in the context of the same thread.
-
 
 ### -param requestType [in]
 
@@ -118,14 +114,13 @@ Write a value within a specific variable.
  
 
 Note that PDU request types have been renamed. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-variable-types-and-request-pdu-types">SNMP Variable Types and Request PDU Types</a>.
-
+<a href="/windows/desktop/SNMP/snmp-variable-types-and-request-pdu-types">SNMP Variable Types and Request PDU Types</a>.
 
 ### -param variableBindings [in, out]
 
 Pointer to the variable bindings list. 
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> array pointed to by the <a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure must be allocated using the <a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a> function.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> array pointed to by the <a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure must be allocated using the <a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemalloc">SnmpUtilMemAlloc</a> function.</div>
 <div> </div>
 
 ### -param errorStatus [out]
@@ -200,22 +195,17 @@ An error other than one of those listed here occurred during the requested opera
 </td>
 </tr>
 </table>
- 
-
 
 ### -param errorIndex [out]
 
 Pointer to a variable in which the error index result will be returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which may return one of the following error codes.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which may return one of the following error codes.
 
 <table>
 <tr>
@@ -241,45 +231,29 @@ The request timed-out.
 </td>
 <td width="60%">
 Unexpected error file descriptors indicated by the Windows Sockets 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Retries and time-outs are supplied to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a> function. Each variable in the variable bindings list must be initialized to type ASN_NULL for Get and Get Next requests.
-
-
-
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a> function. Each variable in the variable bindings list must be initialized to type ASN_NULL for Get and Get Next requests.
 
 ## -see-also
 
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrclose">SnmpMgrClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrclose">SnmpMgrClose</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgropen">SnmpMgrOpen</a>

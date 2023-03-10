@@ -2,15 +2,12 @@
 UID: NS:winioctl._REQUEST_OPLOCK_OUTPUT_BUFFER
 title: REQUEST_OPLOCK_OUTPUT_BUFFER
 description: Contains the opportunistic lock (oplock) information returned by the FSCTL_REQUEST_OPLOCK control code.
+helpviewer_keywords: ["*PREQUEST_OPLOCK_OUTPUT_BUFFER","PREQUEST_OPLOCK_OUTPUT_BUFFER","PREQUEST_OPLOCK_OUTPUT_BUFFER structure pointer [Files]","REQUEST_OPLOCK_OUTPUT_BUFFER","REQUEST_OPLOCK_OUTPUT_BUFFER structure [Files]","REQUEST_OPLOCK_OUTPUT_FLAG_ACK_REQUIRED","REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED","fs.request_oplock_output_buffer","winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER","winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER"]
 old-location: fs\request_oplock_output_buffer.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 5912e0db-a102-4e1c-a1c0-c6a900fe0bbe
 ms.date: 12/05/2018
 ms.keywords: '*PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER, PREQUEST_OPLOCK_OUTPUT_BUFFER structure pointer [Files], REQUEST_OPLOCK_OUTPUT_BUFFER, REQUEST_OPLOCK_OUTPUT_BUFFER structure [Files], REQUEST_OPLOCK_OUTPUT_FLAG_ACK_REQUIRED, REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED, fs.request_oplock_output_buffer, winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER, winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER'
-f1_keywords:
-- winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- REQUEST_OPLOCK_OUTPUT_BUFFER
 targetos: Windows
 req.typenames: REQUEST_OPLOCK_OUTPUT_BUFFER, *PREQUEST_OPLOCK_OUTPUT_BUFFER
 req.redist: 
+f1_keywords:
+ - _REQUEST_OPLOCK_OUTPUT_BUFFER
+ - winioctl/_REQUEST_OPLOCK_OUTPUT_BUFFER
+ - PREQUEST_OPLOCK_OUTPUT_BUFFER
+ - winioctl/PREQUEST_OPLOCK_OUTPUT_BUFFER
+ - REQUEST_OPLOCK_OUTPUT_BUFFER
+ - winioctl/REQUEST_OPLOCK_OUTPUT_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - REQUEST_OPLOCK_OUTPUT_BUFFER
 ---
 
 # REQUEST_OPLOCK_OUTPUT_BUFFER structure
@@ -47,15 +53,10 @@ req.redist:
 
 ## -description
 
-
 Contains the opportunistic lock (oplock) information returned by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control code.
-
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control code.
 
 ## -struct-fields
-
-
-
 
 ### -field StructureVersion
 
@@ -63,11 +64,9 @@ The version of the
       <b>REQUEST_OPLOCK_OUTPUT_BUFFER</b> structure that 
       is being used.
 
-
 ### -field StructureLength
 
-The length of this structure, in bytes. 
-
+The length of this structure, in bytes.
 
 ### -field OriginalOplockLevel
 
@@ -75,8 +74,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        the level of the oplock that was broken.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
-
+       <a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 ### -field NewOplockLevel
 
@@ -85,8 +83,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        on the operation returning this buffer.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
-
+       <a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 ### -field Flags
 
@@ -122,8 +119,6 @@ Indicates that the <b>ShareMode</b> and <b>AccessMode</b> members
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AccessMode
 
@@ -131,17 +126,13 @@ If the <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag is set and the
       <b>OPLOCK_LEVEL_CACHE_HANDLE</b> level is being lost in an oplock break, contains the access 
       mode mode of the request that is causing the break.
 
-
 ### -field ShareMode
 
 If the <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag is set and the 
       <b>OPLOCK_LEVEL_CACHE_HANDLE</b> level is being lost in an oplock break, contains the share 
       mode of the request that is causing the break.
 
-
 ## -remarks
-
-
 
 The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the 
     <b>ShareMode</b> and <b>AccessMode</b> fields contain the share and access 
@@ -154,24 +145,14 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
     <b>OPLOCK_LEVEL_CACHE_HANDLE</b> oplock to be broken to avoid failing with 
     <b>ERROR_SHARING_VIOLATION</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
+<a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>

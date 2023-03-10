@@ -2,15 +2,12 @@
 UID: NF:ondemandconnroutehelper.GetInterfaceContextTableForHostName
 title: GetInterfaceContextTableForHostName function (ondemandconnroutehelper.h)
 description: This function retrieves an interface context table for the given hostname and connection profile filter.
+helpviewer_keywords: ["GetInterfaceContextTableForHostName","GetInterfaceContextTableForHostName function [Network Awareness]","nla.getinterfacecontexttableforhostname","ondemandconnroutehelper/GetInterfaceContextTableForHostName"]
 old-location: nla\getinterfacecontexttableforhostname.htm
 tech.root: nla
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
-f1_keywords:
-- ondemandconnroutehelper/GetInterfaceContextTableForHostName
-dev_langs:
-- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: OnDemandConnRouteHelper.lib
 req.dll: OnDemandConnRouteHelper.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OnDemandConnRouteHelper.dll
-- API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
-api_name:
-- GetInterfaceContextTableForHostName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetInterfaceContextTableForHostName
+ - ondemandconnroutehelper/GetInterfaceContextTableForHostName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OnDemandConnRouteHelper.dll
+ - API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
+api_name:
+ - GetInterfaceContextTableForHostName
 ---
 
 # GetInterfaceContextTableForHostName function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 This function retrieves an interface context table for the given hostname and connection profile filter.
 
-
 ## -parameters
-
-
-
 
 ### -param HostName [in, optional]
 
 The destination hostname.
 
-
 ### -param ProxyName [in, optional]
 
 The HTTP proxy name.
-
 
 ### -param Flags [in]
 
@@ -89,27 +84,20 @@ You can use the following flags.
 <td>Indicates whether the underlying connection should be activated or not.</td>
 </tr>
 </table>
- 
-
 
 ### -param ConnectionProfileFilterRawData [in, optional]
 
 The connection profile filter blog which is a byte cast of wcm_selection_filters.
 
-
 ### -param ConnectionProfileFilterRawDataSize [in]
 
 The size of the <i>ConnectionProfileFilterRawData</i> in bytes.
 
-
 ### -param InterfaceContextTable [out]
 
-This is set to the list of <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures containing the interface indices and configuration names that can be used for the hostname and filter.
-
+This is set to the list of <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT</a> structures containing the interface indices and configuration names that can be used for the hostname and filter.
 
 ## -returns
-
-
 
 This function returns the following <b>HRESULT</b> values depending on the status.
 
@@ -124,14 +112,14 @@ This function returns the following <b>HRESULT</b> values depending on the statu
 <tr>
 <td><b>S_OK</b></td>
 <td>
-This is returned if connection that satify the parameters and internal policies exists. <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a> will contain a list of interfaces indices and configuration names of those connections. When S_OK is returned, <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-freeinterfacecontexttable">FreeInterfaceContextTable</a> should be called to release the context table.
+This is returned if a connection that satisfies the parameters and internal policies exists. <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a> will contain a list of interfaces indices and configuration names of those connections. When S_OK is returned, <a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-freeinterfacecontexttable">FreeInterfaceContextTable</a> should be called to release the context table.
 
 </td>
 </tr>
 <tr>
 <td><b>S_FALSE</b></td>
 <td>
-This is returned to indicate that any connection or default interface can be used for this hostname and filter. The <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a> will be null in this case because the caller can use the default route to satisfy the requirements.
+This is returned to indicate that any connection or default interface can be used for this hostname and filter. The <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a> will be null in this case because the caller can use the default route to satisfy the requirements.
 
 </td>
 </tr>
@@ -145,7 +133,7 @@ This is returned if no connection is currently available or existing connection 
 <tr>
 <td><b>E_INVALIDARG</b></td>
 <td>
-This is returned if the caller passes an invalid argument, uses an unsupported flag, has a bad connection filter data, incorrect size or null <a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a>
+This is returned if the caller passes an invalid argument, uses an unsupported flag, has a bad connection filter data, incorrect size or null <a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a>
 
 
 </td>
@@ -165,22 +153,11 @@ This is returned because of failures that are outside the control of this functi
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-freeinterfacecontexttable">FreeInterfaceContextTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-freeinterfacecontexttable">FreeInterfaceContextTable</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a>
- 
-
- 
-
+<a href="/windows/win32/api/ondemandconnroutehelper/ns-ondemandconnroutehelper-net_interface_context">NET_INTERFACE_CONTEXT_TABLE</a>

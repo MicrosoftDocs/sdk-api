@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IContactManagerInterop.ShowContactCardForWindow
 title: IContactManagerInterop::ShowContactCardForWindow (shobjidl_core.h)
 description: Displays the UI for a contact on the specified window.
+helpviewer_keywords: ["FP_ABOVE","FP_BELOW","FP_DEFAULT","FP_LEFT","FP_RIGHT","IContactManagerInterop interface [Windows Shell]","ShowContactCardForWindow method","IContactManagerInterop.ShowContactCardForWindow","IContactManagerInterop::ShowContactCardForWindow","ShowContactCardForWindow","ShowContactCardForWindow method [Windows Shell]","ShowContactCardForWindow method [Windows Shell]","IContactManagerInterop interface","shell.IContactManagerInterop_ShowContactCardForWindow","shobjidl_core/IContactManagerInterop::ShowContactCardForWindow"]
 old-location: shell\IContactManagerInterop_ShowContactCardForWindow.htm
 tech.root: shell
 ms.assetid: 2B32B3DB-A423-4BDF-9ED1-9C1BB5B0533D
 ms.date: 12/05/2018
 ms.keywords: FP_ABOVE, FP_BELOW, FP_DEFAULT, FP_LEFT, FP_RIGHT, IContactManagerInterop interface [Windows Shell],ShowContactCardForWindow method, IContactManagerInterop.ShowContactCardForWindow, IContactManagerInterop::ShowContactCardForWindow, ShowContactCardForWindow, ShowContactCardForWindow method [Windows Shell], ShowContactCardForWindow method [Windows Shell],IContactManagerInterop interface, shell.IContactManagerInterop_ShowContactCardForWindow, shobjidl_core/IContactManagerInterop::ShowContactCardForWindow
-f1_keywords:
-- shobjidl_core/IContactManagerInterop.ShowContactCardForWindow
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IContactManagerInterop.ShowContactCardForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactManagerInterop::ShowContactCardForWindow
+ - shobjidl_core/IContactManagerInterop::ShowContactCardForWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IContactManagerInterop.ShowContactCardForWindow
 ---
 
 # IContactManagerInterop::ShowContactCardForWindow
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays the UI for a contact on the specified window.
 
-
 ## -parameters
-
-
-
 
 ### -param appWindow [in]
 
 Type: <b>HWND</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> of the foreground window of the app from which the contact card is launched and where focus is returned when the contact card is dismissed.
-
+The <a href="/windows/desktop/WinProg/windows-data-types">HWND</a> of the foreground window of the app from which the contact card is launched and where focus is returned when the contact card is dismissed.
 
 ### -param contact [in]
 
 Type: <b>IUnknown*</b>
 
-A pointer to the contact object. Use a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object but cast to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> here because classic COM IDL can't use Windows Runtime types.
-
+A pointer to the contact object. Use a <a href="/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object but cast to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> here because classic COM IDL can't use Windows Runtime types.
 
 ### -param selection [in]
 
 Type: <b>RECT const*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> is the rectangular area of user selection (for example, pressing a button), around which the operating system displays the contact card, not within that rectangular area. For example, if an app uses a button to show the contact card, pass the <b>Rect</b> of the button so the contact card displays around the button, not overlapping it.
-
+The <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> is the rectangular area of user selection (for example, pressing a button), around which the operating system displays the contact card, not within that rectangular area. For example, if an app uses a button to show the contact card, pass the <b>Rect</b> of the button so the contact card displays around the button, not overlapping it.
 
 ### -param preferredPlacement [in]
 
@@ -145,41 +139,27 @@ Prefer to place the contact card to the right of the rectangular area of user se
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 
-<a href="https://docs.microsoft.com/previous-versions/dn302110(v=vs.85)">ShowContactCardForWindow</a> returns:
+<a href="/previous-versions/dn302110(v=vs.85)">ShowContactCardForWindow</a> returns:
             
           
 
 <ul>
 <li>S_OK if the contact card is successfully displayed</li>
 <li>E_POINTER if <i>appWindow</i> is NULL or <i>contact</i> is NULL or <i>selection</i> is NULL</li>
-<li>E_INVALIDARG if <i>contact</i> isn't a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object or <i>preferredPlacement</i> is an invalid enumeration value</li>
+<li>E_INVALIDARG if <i>contact</i> isn't a <a href="/uwp/api/windows.applicationmodel.contacts.contact">Windows.ApplicationModel.Contacts.Contact</a> object or <i>preferredPlacement</i> is an invalid enumeration value</li>
 </ul>
 Other <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> values are possible.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontactmanagerinterop">IContactManagerInterop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontactmanagerinterop">IContactManagerInterop</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dn302110(v=vs.85)">ShowContactCardForWindow</a>
- 
-
- 
-
+<a href="/previous-versions/dn302110(v=vs.85)">ShowContactCardForWindow</a>

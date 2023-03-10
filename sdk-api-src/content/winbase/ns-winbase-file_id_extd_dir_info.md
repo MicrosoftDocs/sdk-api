@@ -1,16 +1,13 @@
 ---
 UID: NS:winbase._FILE_ID_EXTD_DIR_INFO
 title: FILE_ID_EXTD_DIR_INFO (winbase.h)
-description: Contains identification information for a file.
+description: Contains identification information for a file. (FILE_ID_EXTD_DIR_INFO)
+helpviewer_keywords: ["*PFILE_ID_EXTD_DIR_INFO","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DEVICE","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_REPARSE_POINT","FILE_ATTRIBUTE_SPARSE_FILE","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_ATTRIBUTE_VIRTUAL","FILE_ID_EXTD_DIR_INFO","FILE_ID_EXTD_DIR_INFO structure [Files]","IO_REPARSE_TAG_CSV","IO_REPARSE_TAG_DEDUP","IO_REPARSE_TAG_DFS","IO_REPARSE_TAG_DFSR","IO_REPARSE_TAG_HSM","IO_REPARSE_TAG_HSM2","IO_REPARSE_TAG_MOUNT_POINT","IO_REPARSE_TAG_NFS","IO_REPARSE_TAG_SIS","IO_REPARSE_TAG_SYMLINK","IO_REPARSE_TAG_WIM","PFILE_ID_EXTD_DIR_INFO","PFILE_ID_EXTD_DIR_INFO structure pointer [Files]","_FILE_ID_EXTD_DIR_INFO","fs.file_id_extd_dir_info","winbase/FILE_ID_EXTD_DIR_INFO","winbase/PFILE_ID_EXTD_DIR_INFO"]
 old-location: fs\file_id_extd_dir_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 68f222c4-beb6-4be1-a31a-c5fbebbf76f7
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_ID_EXTD_DIR_INFO, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DEVICE, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, FILE_ATTRIBUTE_VIRTUAL, FILE_ID_EXTD_DIR_INFO, FILE_ID_EXTD_DIR_INFO structure [Files], IO_REPARSE_TAG_CSV, IO_REPARSE_TAG_DEDUP, IO_REPARSE_TAG_DFS, IO_REPARSE_TAG_DFSR, IO_REPARSE_TAG_HSM, IO_REPARSE_TAG_HSM2, IO_REPARSE_TAG_MOUNT_POINT, IO_REPARSE_TAG_NFS, IO_REPARSE_TAG_SIS, IO_REPARSE_TAG_SYMLINK, IO_REPARSE_TAG_WIM, PFILE_ID_EXTD_DIR_INFO, PFILE_ID_EXTD_DIR_INFO structure pointer [Files], _FILE_ID_EXTD_DIR_INFO, fs.file_id_extd_dir_info, winbase/FILE_ID_EXTD_DIR_INFO, winbase/PFILE_ID_EXTD_DIR_INFO'
-f1_keywords:
-- winbase/FILE_ID_EXTD_DIR_INFO
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- FILE_ID_EXTD_DIR_INFO
 targetos: Windows
 req.typenames: FILE_ID_EXTD_DIR_INFO, *PFILE_ID_EXTD_DIR_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILE_ID_EXTD_DIR_INFO
+ - winbase/_FILE_ID_EXTD_DIR_INFO
+ - PFILE_ID_EXTD_DIR_INFO
+ - winbase/PFILE_ID_EXTD_DIR_INFO
+ - FILE_ID_EXTD_DIR_INFO
+ - winbase/FILE_ID_EXTD_DIR_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - FILE_ID_EXTD_DIR_INFO
 ---
 
 # FILE_ID_EXTD_DIR_INFO structure
@@ -48,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains identification information for a file. This structure is returned from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
     <b>FileIdExtdDirectoryInfo</b> (0x13) or <b>FileIdExtdDirectoryRestartInfo</b> (0x14) 
     is passed in the <i>FileInformationClass</i> parameter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field NextEntryOffset
 
 The offset for the next <b>FILE_ID_EXTD_DIR_INFO</b> 
       structure that is returned. Contains zero (0) if no other entries follow this one.
-
 
 ### -field FileIndex
 
@@ -72,26 +72,21 @@ The byte offset of the file within the parent directory. This member is undefine
       NTFS, in which the position of a file within the parent directory is not fixed and can be changed at any time to 
       maintain sort order.
 
-
 ### -field CreationTime
 
 The time that the file was created.
-
 
 ### -field LastAccessTime
 
 The time that the file was last accessed.
 
-
 ### -field LastWriteTime
 
 The time that the file was last written to.
 
-
 ### -field ChangeTime
 
 The time that the file was last changed.
-
 
 ### -field EndOfFile
 
@@ -100,12 +95,10 @@ The absolute new end-of-file position as a byte offset from the start of the fil
       <b>EndOfFile</b> is the offset to the byte that immediately follows the last valid byte in 
       the file.
 
-
 ### -field AllocationSize
 
 The number of bytes that are allocated for the file. This value is usually a multiple of the sector or 
       cluster size of the underlying physical device.
-
 
 ### -field FileAttributes
 
@@ -229,7 +222,7 @@ The data of a file is not available immediately. This attribute indicates that t
 <td width="60%">
 A file that is read-only. Applications can read the file, but cannot write to it or delete it. This 
         attribute is not honored on directories. For more information, see 
-        <a href="https://go.microsoft.com/fwlink/p/?linkid=125896">You cannot view or change the Read-only or the System attributes of folders in Windows Server 2003, in Windows XP, in Windows Vista or in Windows 7</a>.
+        <a href="https://support.microsoft.com/kb/326549">You cannot view or change the Read-only or the System attributes of folders in Windows Server 2003, in Windows XP, in Windows Vista or in Windows 7</a>.
 
 </td>
 </tr>
@@ -292,18 +285,14 @@ This value is reserved for system use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FileNameLength
 
 The length of the file name.
 
-
 ### -field EaSize
 
 The size of the extended attributes for the file.
-
 
 ### -field ReparsePointTag
 
@@ -313,7 +302,7 @@ If the <b>FileAttributes</b> member includes the
 
 Otherwise, this value is undefined and should not be used.
 
-For more information see <a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
+For more information see <a href="/windows/desktop/FileIO/reparse-point-tags">Reparse Point Tags</a>.
 
 
 
@@ -359,37 +348,27 @@ For more information see <a href="https://docs.microsoft.com/windows/desktop/Fil
 
 #### IO_REPARSE_TAG_WIM (0x80000008)
 
-
 ### -field FileId
 
 The file ID.
-
 
 ### -field FileName
 
 The first character of the file name string. This is followed in memory by the remainder of the 
       string.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_id_128">FILE_ID_128</a>
+<a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>

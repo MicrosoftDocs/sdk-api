@@ -2,15 +2,12 @@
 UID: NS:shobjidl_core.DESKBANDINFO
 title: DESKBANDINFO (shobjidl_core.h)
 description: Receives information about a band object. This structure is used with the deprecated IDeskBand::GetBandInfo method.
+helpviewer_keywords: ["DBIMF_ADDTOFRONT","DBIMF_ALWAYSGRIPPER","DBIMF_BKCOLOR","DBIMF_BREAK","DBIMF_DEBOSSED","DBIMF_FIXED","DBIMF_FIXEDBMP","DBIMF_NOGRIPPER","DBIMF_NOMARGINS","DBIMF_NORMAL","DBIMF_TOPALIGN","DBIMF_UNDELETEABLE","DBIMF_USECHEVRON","DBIMF_VARIABLEHEIGHT","DBIM_ACTUAL","DBIM_BKCOLOR","DBIM_INTEGRAL","DBIM_MAXSIZE","DBIM_MINSIZE","DBIM_MODEFLAGS","DBIM_TITLE","DESKBANDINFO","DESKBANDINFO structure [Windows Shell]","_win32_DESKBANDINFO","shell.DESKBANDINFO","shobjidl_core/DESKBANDINFO"]
 old-location: shell\DESKBANDINFO.htm
 tech.root: shell
 ms.assetid: f44ef8a7-b05d-4908-95eb-b07d085e0c29
 ms.date: 12/05/2018
 ms.keywords: DBIMF_ADDTOFRONT, DBIMF_ALWAYSGRIPPER, DBIMF_BKCOLOR, DBIMF_BREAK, DBIMF_DEBOSSED, DBIMF_FIXED, DBIMF_FIXEDBMP, DBIMF_NOGRIPPER, DBIMF_NOMARGINS, DBIMF_NORMAL, DBIMF_TOPALIGN, DBIMF_UNDELETEABLE, DBIMF_USECHEVRON, DBIMF_VARIABLEHEIGHT, DBIM_ACTUAL, DBIM_BKCOLOR, DBIM_INTEGRAL, DBIM_MAXSIZE, DBIM_MINSIZE, DBIM_MODEFLAGS, DBIM_TITLE, DESKBANDINFO, DESKBANDINFO structure [Windows Shell], _win32_DESKBANDINFO, shell.DESKBANDINFO, shobjidl_core/DESKBANDINFO
-f1_keywords:
-- shobjidl_core/DESKBANDINFO
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shobjidl_core.h
-api_name:
-- DESKBANDINFO
 targetos: Windows
 req.typenames: DESKBANDINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DESKBANDINFO
+ - shobjidl_core/DESKBANDINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shobjidl_core.h
+api_name:
+ - DESKBANDINFO
 ---
 
 # DESKBANDINFO structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Receives information about a band object. This structure is used with the deprecated <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskband-getbandinfo">IDeskBand::GetBandInfo</a> method.
-
+Receives information about a band object. This structure is used with the deprecated <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ideskband-getbandinfo">IDeskBand::GetBandInfo</a> method.
 
 ## -struct-fields
-
-
-
 
 ### -field dwMask
 
@@ -105,43 +102,37 @@ The set of flags that determine which members of this structure are being reques
 
 <b>crBkgnd</b> is requested.
 
-
 ### -field ptMinSize
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that receives the minimum size of the band object. The minimum width is given in the <b>POINTL</b> structure's <b>x</b> member and the minimum height is given in the <b>y</b> member.
-
+A <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that receives the minimum size of the band object. The minimum width is given in the <b>POINTL</b> structure's <b>x</b> member and the minimum height is given in the <b>y</b> member.
 
 ### -field ptMaxSize
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that receives the maximum size of the band object. The maximum height is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored. If the band object has no limit for its maximum height, (LONG)-1 should be used.
-
+A <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that receives the maximum size of the band object. The maximum height is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored. If the band object has no limit for its maximum height, (LONG)-1 should be used.
 
 ### -field ptIntegral
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that receives the sizing step value (increment) in which the band object is resized. The vertical step value is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored.
+A <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that receives the sizing step value (increment) in which the band object is resized. The vertical step value is given in the <b>POINTL</b> structure's <b>y</b> member and the <b>x</b> member is ignored.
 
 The <b>dwModeFlags</b> member must contain the DBIMF_VARIABLEHEIGHT flag; otherwise, <b>ptIntegral</b> is ignored.
 
-
 ### -field ptActual
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that receives the ideal size of the band object. The ideal width is given in the <b>POINTL</b> structure's <b>x</b> member and the ideal height is given in the <b>y</b> member. The band container attempts to use these values, but the band is not guaranteed to be this size.
-
+A <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that receives the ideal size of the band object. The ideal width is given in the <b>POINTL</b> structure's <b>x</b> member and the ideal height is given in the <b>y</b> member. The band container attempts to use these values, but the band is not guaranteed to be this size.
 
 ### -field wszTitle
 
 Type: <b>WCHAR[256]</b>
 
 A <b>WCHAR</b> buffer that receives the title of the band.
-
 
 ### -field dwModeFlags
 
@@ -233,10 +224,8 @@ The band is displayed with the background color specified in <b>crBkgnd</b>.
 
 <b>Windows Vista and later:</b> The band object should not display margins.
 
-
 ### -field crBkgnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure that receives the background color of the band. The <b>dwModeFlags</b> member must contain the <b>DBIMF_BKCOLOR</b> flag; otherwise, <b>crBkgnd</b> is ignored.
-
+A <a href="/windows/desktop/gdi/colorref">COLORREF</a> structure that receives the background color of the band. The <b>dwModeFlags</b> member must contain the <b>DBIMF_BKCOLOR</b> flag; otherwise, <b>crBkgnd</b> is ignored.

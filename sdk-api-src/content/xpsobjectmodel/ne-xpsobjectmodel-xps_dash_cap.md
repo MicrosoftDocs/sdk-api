@@ -2,15 +2,12 @@
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006
 title: XPS_DASH_CAP (xpsobjectmodel.h)
 description: Specifies the style of a dash cap on a dashed stroke.
+helpviewer_keywords: ["XPS_DASH_CAP","XPS_DASH_CAP enumeration [XPS Documents and Packaging]","XPS_DASH_CAP_FLAT","XPS_DASH_CAP_ROUND","XPS_DASH_CAP_SQUARE","XPS_DASH_CAP_TRIANGLE","xps.xps_dash_cap","xpsobjectmodel/XPS_DASH_CAP","xpsobjectmodel/XPS_DASH_CAP_FLAT","xpsobjectmodel/XPS_DASH_CAP_ROUND","xpsobjectmodel/XPS_DASH_CAP_SQUARE","xpsobjectmodel/XPS_DASH_CAP_TRIANGLE"]
 old-location: xps\xps_dash_cap.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8c4d7314-71ad-4700-bc3e-f611e72c05df
 ms.date: 12/05/2018
 ms.keywords: XPS_DASH_CAP, XPS_DASH_CAP enumeration [XPS Documents and Packaging], XPS_DASH_CAP_FLAT, XPS_DASH_CAP_ROUND, XPS_DASH_CAP_SQUARE, XPS_DASH_CAP_TRIANGLE, xps.xps_dash_cap, xpsobjectmodel/XPS_DASH_CAP, xpsobjectmodel/XPS_DASH_CAP_FLAT, xpsobjectmodel/XPS_DASH_CAP_ROUND, xpsobjectmodel/XPS_DASH_CAP_SQUARE, xpsobjectmodel/XPS_DASH_CAP_TRIANGLE
-f1_keywords:
-- xpsobjectmodel/XPS_DASH_CAP
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_DASH_CAP
 targetos: Windows
 req.typenames: XPS_DASH_CAP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006
+ - XPS_DASH_CAP
+ - xpsobjectmodel/XPS_DASH_CAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_DASH_CAP
 ---
 
 # XPS_DASH_CAP enumeration
@@ -48,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the style of a dash cap  on a dashed stroke.
-
 
 ## -enum-fields
 
-
-
-
-### -field XPS_DASH_CAP_FLAT
+### -field XPS_DASH_CAP_FLAT:1
 
 Flat-line cap.
-
 
 ### -field XPS_DASH_CAP_ROUND
 
 Round-line cap.
 
-
 ### -field XPS_DASH_CAP_SQUARE
 
 Square-line cap.
-
 
 ### -field XPS_DASH_CAP_TRIANGLE
 
 Triangular-line cap.
 
-
 ## -remarks
-
-
 
 In the following illustrations, each shaded area represents the dash cap that corresponds to each  type of <b>XPS_DASH_CAP</b>.
 
@@ -105,18 +98,8 @@ In the following illustrations, each shaded area represents the dash cap that co
 <td><img alt="A diagram that illustrates the XPS_DASH_CAP_TRIANGLE dash cap in a dashed stroke" src="./images/xps_dash_cap_triangle_dash_caps.png"/></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

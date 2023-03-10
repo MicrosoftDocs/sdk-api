@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ILaunchSourceViewSizePreference.GetSourceViewToPosition
 title: ILaunchSourceViewSizePreference::GetSourceViewToPosition (shobjidl_core.h)
 description: Retrieves the position of the source application window.
+helpviewer_keywords: ["GetSourceViewToPosition","GetSourceViewToPosition method [Windows Shell]","GetSourceViewToPosition method [Windows Shell]","ILaunchSourceViewSizePreference interface","ILaunchSourceViewSizePreference interface [Windows Shell]","GetSourceViewToPosition method","ILaunchSourceViewSizePreference.GetSourceViewToPosition","ILaunchSourceViewSizePreference::GetSourceViewToPosition","shell.ILaunchSourceViewSizePreference_GetSourceViewToPosition","shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewToPosition"]
 old-location: shell\ILaunchSourceViewSizePreference_GetSourceViewToPosition.htm
 tech.root: shell
 ms.assetid: 5B2D9CC9-D332-474E-A655-FBFC5E54AAE9
 ms.date: 12/05/2018
 ms.keywords: GetSourceViewToPosition, GetSourceViewToPosition method [Windows Shell], GetSourceViewToPosition method [Windows Shell],ILaunchSourceViewSizePreference interface, ILaunchSourceViewSizePreference interface [Windows Shell],GetSourceViewToPosition method, ILaunchSourceViewSizePreference.GetSourceViewToPosition, ILaunchSourceViewSizePreference::GetSourceViewToPosition, shell.ILaunchSourceViewSizePreference_GetSourceViewToPosition, shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewToPosition
-f1_keywords:
-- shobjidl_core/ILaunchSourceViewSizePreference.GetSourceViewToPosition
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ILaunchSourceViewSizePreference.GetSourceViewToPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILaunchSourceViewSizePreference::GetSourceViewToPosition
+ - shobjidl_core/ILaunchSourceViewSizePreference::GetSourceViewToPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ILaunchSourceViewSizePreference.GetSourceViewToPosition
 ---
 
 # ILaunchSourceViewSizePreference::GetSourceViewToPosition
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the position of the source application window.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [out]
 
@@ -63,25 +60,12 @@ Type: <b>HWND*</b>
 
 Contains the address of a pointer to a window handle.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference">ILaunchSourceViewSizePreference</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference">ILaunchSourceViewSizePreference</a>

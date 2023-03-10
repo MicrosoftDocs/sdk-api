@@ -2,15 +2,12 @@
 UID: NF:wsbonline.RegisterOnlineBackupWithWindowsServerBackup
 title: RegisterOnlineBackupWithWindowsServerBackup function (wsbonline.h)
 description: Registers a Cloud backup provider with Windows Server Backup.
+helpviewer_keywords: ["RegisterOnlineBackupWithWindowsServerBackup","RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup]","wsb.registeronlinebackupwithwindowsserverbackup","wsbonline/RegisterOnlineBackupWithWindowsServerBackup"]
 old-location: wsb\registeronlinebackupwithwindowsserverbackup.htm
 tech.root: wsb
 ms.assetid: F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330
 ms.date: 12/05/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
-f1_keywords:
-- wsbonline/RegisterOnlineBackupWithWindowsServerBackup
-dev_langs:
-- c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WsbOnline.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WsbOnline.dll
-api_name:
-- RegisterOnlineBackupWithWindowsServerBackup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RegisterOnlineBackupWithWindowsServerBackup
+ - wsbonline/RegisterOnlineBackupWithWindowsServerBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WsbOnline.dll
+api_name:
+ - RegisterOnlineBackupWithWindowsServerBackup
 ---
 
 # RegisterOnlineBackupWithWindowsServerBackup function
@@ -48,50 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RegisterOnlineBackupWithWindowsServerBackup</b> function registers a cloud backup provider with Windows Server Backup.
-
 
 ## -parameters
 
-
-
-
 ### -param pOBRegistrationInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a> structure.
-
+Pointer to a <a href="/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a> structure.
 
 ## -returns
-
-
 
 The return values listed here are in addition to the normal <b>HRESULT</b>s that may be returned at any time 
        from the function.
 
-
-
-
 ## -remarks
 
-
-
-If any other cloud backup provider is already registered with Windows Server Backup, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wsbonline/nf-wsbonline-deregisteronlinebackupfromwindowsserverbackup">DeregisterOnlineBackupFromWindowsServerBackup</a> must be called before calling <b>RegisterOnlineBackupWithWindowsServerBackup</b>.
-
-
-
+If any other cloud backup provider is already registered with Windows Server Backup, <a href="/previous-versions/windows/desktop/api/wsbonline/nf-wsbonline-deregisteronlinebackupfromwindowsserverbackup">DeregisterOnlineBackupFromWindowsServerBackup</a> must be called before calling <b>RegisterOnlineBackupWithWindowsServerBackup</b>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/wsb/windows-server-backup-api-functions">Cloud  Backup Provider API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wsb/windows-server-backup-api-functions">Cloud  Backup Provider API Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_registration_info">WSB_OB_REGISTRATION_INFO</a>

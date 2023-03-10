@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUCloseThread
 title: WPUCloseThread function (ws2spi.h)
 description: The WPUCloseThread function closes a thread opened with a call to WPUOpenCurrentThread.
+helpviewer_keywords: ["WPUCloseThread","WPUCloseThread function [Winsock]","_win32_wpuclosethread_2","winsock.wpuclosethread_2","ws2spi/WPUCloseThread"]
 old-location: winsock\wpuclosethread_2.htm
 tech.root: WinSock
 ms.assetid: 1a5e7a99-484f-4862-bd28-edf85debc8e5
 ms.date: 12/05/2018
 ms.keywords: WPUCloseThread, WPUCloseThread function [Winsock], _win32_wpuclosethread_2, winsock.wpuclosethread_2, ws2spi/WPUCloseThread
-f1_keywords:
-- ws2spi/WPUCloseThread
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUCloseThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUCloseThread
+ - ws2spi/WPUCloseThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUCloseThread
 ---
 
 # WPUCloseThread function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUCloseThread** function closes a thread opened with a call to 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param lpThreadId [in]
 
@@ -65,15 +62,11 @@ Pointer to a
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that identifies the thread context. This structure must have been initialized by a previous call to 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -103,13 +96,7 @@ A successful
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 **WPUCloseThread** function is used in a layered service provider to deallocate the resources that were initiated in a call by the 
@@ -121,20 +108,11 @@ Every call to
 **WPUCloseThread**. These two functions are used when the overlapped functions, such as 
 [LPWSPSend](nc-ws2spi-lpwspsend.md), are called in a lower layer of the service provider than the current thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a>
 
 
 
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a>
- 
-
- 
 

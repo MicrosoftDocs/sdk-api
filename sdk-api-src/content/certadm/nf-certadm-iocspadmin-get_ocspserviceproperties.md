@@ -3,14 +3,10 @@ UID: NF:certadm.IOCSPAdmin.get_OCSPServiceProperties
 title: IOCSPAdmin::get_OCSPServiceProperties (certadm.h)
 description: Gets an instance of an OCSPPropertyCollection object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ocspserviceproperties_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d792283b-dde9-46b7-8483-b3011b4433eb
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPServiceProperties property, IOCSPAdmin.OCSPServiceProperties, IOCSPAdmin.get_OCSPServiceProperties, IOCSPAdmin::OCSPServiceProperties, IOCSPAdmin::get_OCSPServiceProperties, OCSPServiceProperties property [Security], OCSPServiceProperties property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPServiceProperties, certadm/IOCSPAdmin::get_OCSPServiceProperties, get_OCSPServiceProperties, security.iocspadmin_ocspserviceproperties_method
-f1_keywords:
-- certadm/IOCSPAdmin.OCSPServiceProperties
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +24,25 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPAdmin.OCSPServiceProperties
-- IOCSPAdmin.get_OCSPServiceProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPAdmin::get_OCSPServiceProperties
+ - certadm/IOCSPAdmin::get_OCSPServiceProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPAdmin.OCSPServiceProperties
+ - IOCSPAdmin.get_OCSPServiceProperties
 ---
 
 # IOCSPAdmin::get_OCSPServiceProperties
@@ -49,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OCSPServiceProperties</b> property gets  an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">OCSPPropertyCollection</a> object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service. After instantiating an <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">OCSPAdmin</a> object, a script or administration tool can use the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface  to expose responder-service attributes.
+The <b>OCSPServiceProperties</b> property gets  an instance of an <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">OCSPPropertyCollection</a> object. This object represents the attributes of an Online Certificate Status Protocol (OCSP) responder service. After instantiating an <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">OCSPAdmin</a> object, a script or administration tool can use the retrieved <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a> interface  to expose responder-service attributes.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-The following table lists the possible <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_name">Name</a>-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> pairs for OCSP service properties.
+The following table lists the possible <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_name">Name</a>-<a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> pairs for OCSP service properties.
 
 <table>
 <tr>
@@ -72,7 +68,7 @@ The following table lists the possible <a href="https://docs.microsoft.com/windo
 <tr>
 <td><b>LogLevel</b></td>
 <td>
-The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>LogLevel</b> must be one of the following constants.
+The <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>LogLevel</b> must be one of the following constants.
 
 
 
@@ -113,7 +109,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-i
 <tr>
 <td><b>AuditFilter</b></td>
 <td>
-The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
+The <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>AuditFilter</b> can be any bitwise combination of the following <b>DWORD</b> values.
 
 
 
@@ -144,37 +140,26 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-i
 <tr>
 <td><b>ArrayController</b></td>
 <td>
-The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
+The <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>ArrayController</b> must be a string that represents the computer name of the OCSP server that acts as the array controller for an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>ArrayMembers</b></td>
 <td>
-The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
+The <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>ArrayMembers</b> can be a multiple-line string that represents the computer names of the OCSP servers that are part of an OCSP array configuration.
 
 </td>
 </tr>
 <tr>
 <td><b>EnrollPollInterval</b></td>
 <td>
-The <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
+The <a href="/windows/desktop/api/certadm/nf-certadm-iocspproperty-get_value">Value</a> of <b>EnrollPollInterval</b> must be a <b>DWORD</b> value from 0 to 24 that represents the number of hours between OCSP service certificate enrollment attempts. This interval determines how often the service checks the status of target certificates for a template change or pending validity change. When the service finds a change, it attempts to enroll for a new certificate.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>

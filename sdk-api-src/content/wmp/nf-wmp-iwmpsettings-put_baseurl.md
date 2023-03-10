@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSettings.put_baseURL
 title: IWMPSettings::put_baseURL (wmp.h)
 description: The put_baseURL method specifies the base URL used for relative path resolution with URL script commands that are embedded in digital media files.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_baseURL method","IWMPSettings.put_baseURL","IWMPSettings::put_baseURL","IWMPSettingsput_baseURL","put_baseURL","put_baseURL method [Windows Media Player]","put_baseURL method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_baseurl","wmp/IWMPSettings::put_baseURL"]
 old-location: wmp\iwmpsettings_put_baseurl.htm
 tech.root: WMP
 ms.assetid: ae070004-e90e-4f1e-b8b8-15deccdc48ad
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_baseURL method, IWMPSettings.put_baseURL, IWMPSettings::put_baseURL, IWMPSettingsput_baseURL, put_baseURL, put_baseURL method [Windows Media Player], put_baseURL method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_baseurl, wmp/IWMPSettings::put_baseURL
-f1_keywords:
-- wmp/IWMPSettings.put_baseURL
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings.put_baseURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings::put_baseURL
+ - wmp/IWMPSettings::put_baseURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings.put_baseURL
 ---
 
 # IWMPSettings::put_baseURL
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_baseURL</b> method specifies the base URL used for relative path resolution with URL script commands that are embedded in digital media files.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrBaseURL [in]
 
 <b>BSTR</b> containing the base URL.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method specifies the base HTTP URL that is passed as the command parameter by the <b>ScriptCommand</b> event. The base URL is concatenated with the relative URL as follows:
 
@@ -111,24 +96,14 @@ The Windows Media Player control does not support the use of two periods (..) in
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand">IWMPEvents::ScriptCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand">IWMPEvents::ScriptCommand</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_baseurl">IWMPSettings::get_baseURL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_baseurl">IWMPSettings::get_baseURL</a>

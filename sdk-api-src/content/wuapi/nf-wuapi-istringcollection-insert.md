@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IStringCollection.Insert
 title: IStringCollection::Insert (wuapi.h)
-description: Inserts an item into the collection at the specified position.
+description: Inserts an item into the collection at the specified position. (IStringCollection.Insert)
+helpviewer_keywords: ["IStringCollection interface [Windows Update Agent]","Insert method","IStringCollection.Insert","IStringCollection::Insert","Insert","Insert method [Windows Update Agent]","Insert method [Windows Update Agent]","IStringCollection interface","wua.istringcollection_insert","wuapi/IStringCollection::Insert"]
 old-location: wua\istringcollection_insert.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 51a00dde-7781-4674-bbb2-10bb2eb23548
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
-f1_keywords:
-- wuapi/IStringCollection.Insert
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IStringCollection.Insert
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStringCollection::Insert
+ - wuapi/IStringCollection::Insert
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IStringCollection.Insert
 ---
 
 # IStringCollection::Insert
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inserts an item into the collection at the specified position.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The position at which a new string is inserted.
 
-
 ### -param value [in]
 
 The string to be inserted.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -103,18 +96,7 @@ An index is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>

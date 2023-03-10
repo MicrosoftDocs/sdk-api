@@ -2,15 +2,12 @@
 UID: NS:schannel._SecPkgContext_SupportedSignatures
 title: SecPkgContext_SupportedSignatures (schannel.h)
 description: Specifies the signature algorithms supported by an Schannel connection.
+helpviewer_keywords: ["*PSecPkgContext_SupportedSignatures","PSecPkgContext_SupportedSignatures","PSecPkgContext_SupportedSignatures structure pointer [Security]","SecPkgContext_SupportedSignatures","SecPkgContext_SupportedSignatures structure [Security]","schannel/PSecPkgContext_SupportedSignatures","schannel/SecPkgContext_SupportedSignatures","security.secpkgcontext_supportedsignatures"]
 old-location: security\secpkgcontext_supportedsignatures.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b4b58175-1367-4c91-8680-523a4b125c76
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures, PSecPkgContext_SupportedSignatures structure pointer [Security], SecPkgContext_SupportedSignatures, SecPkgContext_SupportedSignatures structure [Security], schannel/PSecPkgContext_SupportedSignatures, schannel/SecPkgContext_SupportedSignatures, security.secpkgcontext_supportedsignatures'
-f1_keywords:
-- schannel/SecPkgContext_SupportedSignatures
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- SecPkgContext_SupportedSignatures
 targetos: Windows
 req.typenames: SecPkgContext_SupportedSignatures, *PSecPkgContext_SupportedSignatures
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_SupportedSignatures
+ - schannel/_SecPkgContext_SupportedSignatures
+ - PSecPkgContext_SupportedSignatures
+ - schannel/PSecPkgContext_SupportedSignatures
+ - SecPkgContext_SupportedSignatures
+ - schannel/SecPkgContext_SupportedSignatures
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - SecPkgContext_SupportedSignatures
 ---
 
 # SecPkgContext_SupportedSignatures structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the signature algorithms supported by an Schannel connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cSignatureAndHashAlgorithms
 
 The number of elements in the <i>pSignatureAndHashAlgorithms</i> array.
-
 
 ### -field pSignatureAndHashAlgorithms
 
@@ -233,16 +233,7 @@ Reserved.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>

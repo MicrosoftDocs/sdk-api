@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSecureChannel.GetCertificate
 title: IMFSecureChannel::GetCertificate (mfidl.h)
 description: Retrieves the client's certificate.
+helpviewer_keywords: ["GetCertificate","GetCertificate method [Media Foundation]","GetCertificate method [Media Foundation]","IMFSecureChannel interface","IMFSecureChannel interface [Media Foundation]","GetCertificate method","IMFSecureChannel.GetCertificate","IMFSecureChannel::GetCertificate","d5465070-1706-4420-8351-fab5e8e8cd08","mf.imfsecurechannel_getcertificate","mfidl/IMFSecureChannel::GetCertificate"]
 old-location: mf\imfsecurechannel_getcertificate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d5465070-1706-4420-8351-fab5e8e8cd08
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IMFSecureChannel interface, IMFSecureChannel interface [Media Foundation],GetCertificate method, IMFSecureChannel.GetCertificate, IMFSecureChannel::GetCertificate, d5465070-1706-4420-8351-fab5e8e8cd08, mf.imfsecurechannel_getcertificate, mfidl/IMFSecureChannel::GetCertificate
-f1_keywords:
-- mfidl/IMFSecureChannel.GetCertificate
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSecureChannel.GetCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSecureChannel::GetCertificate
+ - mfidl/IMFSecureChannel::GetCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSecureChannel.GetCertificate
 ---
 
 # IMFSecureChannel::GetCertificate
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the client's certificate.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppCert [out]
 
-Receives a pointer to a buffer allocated by the object. The buffer contains the client's certificate. The caller must release the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+Receives a pointer to a buffer allocated by the object. The buffer contains the client's certificate. The caller must release the buffer by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pcbCert [out]
 
 Receives the size of the <i>ppCert</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -94,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsecurechannel">IMFSecureChannel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsecurechannel">IMFSecureChannel</a>

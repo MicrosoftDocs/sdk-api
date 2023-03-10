@@ -1,16 +1,13 @@
 ---
 UID: NS:winreg.value_entW
 title: VALENTW (winreg.h)
-description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure.
+description: Contains information about a registry value. The RegQueryMultipleValues function uses this structure. (Unicode)
+helpviewer_keywords: ["*PVALENTW","PVALENT","PVALENT structure pointer","VALENT","VALENT structure","VALENTA","VALENTW","_win32_valent_str","base.valent_str","winreg/PVALENT","winreg/VALENT","winreg/VALENTA","winreg/VALENTW"]
 old-location: base\valent_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 7881eea8-e4e3-48cf-ba8f-b5c23910ae7d
 ms.date: 12/05/2018
 ms.keywords: '*PVALENTW, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW'
-f1_keywords:
-- winreg/VALENT
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winreg.h
-api_name:
-- VALENT
-- VALENTA
-- VALENTW
 targetos: Windows
 req.typenames: VALENTW, *PVALENTW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - value_entW
+ - winreg/value_entW
+ - PVALENTW
+ - winreg/PVALENTW
+ - VALENTW
+ - winreg/VALENTW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winreg.h
+api_name:
+ - VALENT
+ - VALENTA
+ - VALENTW
 ---
 
 # VALENTW structure
@@ -50,46 +56,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a registry value. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a> function uses this structure.
-
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a> function uses this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field ve_valuename
 
 The name of the value to be retrieved. Be sure to set this member before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
-
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
 
 ### -field ve_valuelen
 
 The size of the data pointed to by <b>ve_valueptr</b>, in bytes.
 
-
 ### -field ve_valueptr
 
 A pointer to the data for the value entry. This is a pointer to the value's data returned in the <b>lpValueBuf</b> buffer filled in by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
-
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>.
 
 ### -field ve_type
 
 The type of data pointed to by <b>ve_valueptr</b>. For a list of the possible types, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
-
+<a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regquerymultiplevaluesa">RegQueryMultipleValues</a>
- 
-
- 
-
+> [!NOTE]
+> The winreg.h header defines VALENT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

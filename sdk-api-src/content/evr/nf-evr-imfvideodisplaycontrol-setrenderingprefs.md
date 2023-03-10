@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDisplayControl.SetRenderingPrefs
 title: IMFVideoDisplayControl::SetRenderingPrefs (evr.h)
 description: Sets various preferences related to video rendering.
+helpviewer_keywords: ["7603aaf8-1671-4b35-bee5-335f656de3c5","IMFVideoDisplayControl interface [Media Foundation]","SetRenderingPrefs method","IMFVideoDisplayControl.SetRenderingPrefs","IMFVideoDisplayControl::SetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [Media Foundation]","SetRenderingPrefs method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetRenderingPrefs","mf.imfvideodisplaycontrol_setrenderingprefs"]
 old-location: mf\imfvideodisplaycontrol_setrenderingprefs.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7603aaf8-1671-4b35-bee5-335f656de3c5
 ms.date: 12/05/2018
 ms.keywords: 7603aaf8-1671-4b35-bee5-335f656de3c5, IMFVideoDisplayControl interface [Media Foundation],SetRenderingPrefs method, IMFVideoDisplayControl.SetRenderingPrefs, IMFVideoDisplayControl::SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [Media Foundation], SetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetRenderingPrefs, mf.imfvideodisplaycontrol_setrenderingprefs
-f1_keywords:
-- evr/IMFVideoDisplayControl.SetRenderingPrefs
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.SetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::SetRenderingPrefs
+ - evr/IMFVideoDisplayControl::SetRenderingPrefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.SetRenderingPrefs
 ---
 
 # IMFVideoDisplayControl::SetRenderingPrefs
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets various preferences related to video rendering.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwRenderFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ne-evr-mfvideorenderprefs">MFVideoRenderPrefs</a> enumeration.
-
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/evr/ne-evr-mfvideorenderprefs">MFVideoRenderPrefs</a> enumeration.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,26 +102,15 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

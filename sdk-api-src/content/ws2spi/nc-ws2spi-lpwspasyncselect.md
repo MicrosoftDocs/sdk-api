@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPASYNCSELECT
 title: LPWSPASYNCSELECT
 description: The LPWSPAsyncSelect function requests Windows message-based event notification of network events for a socket.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPASYNCSELECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPASYNCSELECT
 targetos: Windows
@@ -18,23 +20,27 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPASYNCSELECT
+ - LPWSPASYNCSELECT
+f1_keywords:
+ - LPWSPASYNCSELECT
+ - ws2spi/LPWSPASYNCSELECT
 ---
 
 ## -description
+
 The **LPWSPAsyncSelect** function requests Windows message-based event notification of network events for a socket.
 
 ## -parameters
@@ -279,7 +285,7 @@ To cancel all notification (that is, to indicate that the service provider shoul
 rc = WSPAsyncSelect(s, hWnd, 0, 0, &error);
 ```
 
-Since an **[LPWSPAccept](/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept)**'ed socket has the same properties as the listening socket used to accept it, any **LPWSPAsyncSelect** events set for the listening socket apply to the accepted socket. For example, if a listening socket has **LPWSPAsyncSelect** events FD_ACCEPT, FD_READ, and FD_WRITE, then any socket accepted on that listening socket will also have FD_ACCEPT, FD_READ, and FD_WRITE events with the same *wMsg* value used for messages. If a different *wMsg* or events are desired, then the Windows Sockets SPI client should call **LPWSPAsyncSelect**, passing the accepted socket, and the desired new information.
+Since an **[LPWSPAccept](./nc-ws2spi-lpwspaccept.md)**'ed socket has the same properties as the listening socket used to accept it, any **LPWSPAsyncSelect** events set for the listening socket apply to the accepted socket. For example, if a listening socket has **LPWSPAsyncSelect** events FD_ACCEPT, FD_READ, and FD_WRITE, then any socket accepted on that listening socket will also have FD_ACCEPT, FD_READ, and FD_WRITE events with the same *wMsg* value used for messages. If a different *wMsg* or events are desired, then the Windows Sockets SPI client should call **LPWSPAsyncSelect**, passing the accepted socket, and the desired new information.
 
 When one of the nominated network events occurs on the specified socket *s*, the service provider uses <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpupostmessage">WPUPostMessage</a> to send message *wMsg* to the Windows Sockets SPI client's window *hWnd*. In the posted message, the *wParam* argument identifies the socket on which a network event has occurred. The low word of *lParam* specifies the network event that has occurred. The possible network event codes that may be indicated are as follows.
 
@@ -513,16 +519,16 @@ A Windows Sockets 2 provider shouldn't continually flood a Windows Sockets SPI c
 
 |Network event|Re-enabling function|
 |-|-|
-|FD_READ|[LPWSPRecv](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv) or [LPWSPRecvFrom](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom)|
-|FD_WRITE|[LPWSPSend](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend) or [LPWSPSendTo](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto)|
-|FD_OOB|[LPWSPRecv](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv) or [LPWSPRecvFrom](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom)|
-|FD_ACCEPT|[LPWSPAccept](/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept), unless the error code returned is WSATRY_AGAIN indicating that the condition function returned CF_DEFER|
+|FD_READ|[LPWSPRecv](./nc-ws2spi-lpwsprecv.md) or [LPWSPRecvFrom](./nc-ws2spi-lpwsprecvfrom.md)|
+|FD_WRITE|[LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md)|
+|FD_OOB|[LPWSPRecv](./nc-ws2spi-lpwsprecv.md) or [LPWSPRecvFrom](./nc-ws2spi-lpwsprecvfrom.md)|
+|FD_ACCEPT|[LPWSPAccept](./nc-ws2spi-lpwspaccept.md), unless the error code returned is WSATRY_AGAIN indicating that the condition function returned CF_DEFER|
 |FD_CONNECT|NONE|
 |FD_CLOSE|NONE|
-|FD_QOS|[LPWSPIoctl](/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl) with SIO_GET_QOS|
-|FD_GROUP_QOS|Reserved for future use with socket groups: [LPWSPIoctl](/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl) with SIO_GET_GROUP_QOS|
-|FD_ROUTING_INTERFACE_CHANGE|[LPWSPIoctl](/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl) with command SIO_ROUTING_INTERFACE_CHANGE|
-|FD_ADDRESS_LIST_CHANGE|[LPWSPIoctl](/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl) with command SIO_ADDRESS_LIST_CHANGE|
+|FD_QOS|[LPWSPIoctl](./nc-ws2spi-lpwspioctl.md) with SIO_GET_QOS|
+|FD_GROUP_QOS|Reserved for future use with socket groups: [LPWSPIoctl](./nc-ws2spi-lpwspioctl.md) with SIO_GET_GROUP_QOS|
+|FD_ROUTING_INTERFACE_CHANGE|[LPWSPIoctl](./nc-ws2spi-lpwspioctl.md) with command SIO_ROUTING_INTERFACE_CHANGE|
+|FD_ADDRESS_LIST_CHANGE|[LPWSPIoctl](./nc-ws2spi-lpwspioctl.md) with command SIO_ADDRESS_LIST_CHANGE|
 
 Any call to the re-enabling routine, even one that fails, results in re-enabling of message-posting for the relevant event.
 
@@ -530,21 +536,21 @@ For FD_READ, FD_OOB, and FD_ACCEPT events, message-posting is *level-triggered*.
 
 The FD_QOS and FD_GROUP_QOS events are considered *edge-triggered*. A message will be posted exactly once when a QOS change occurs. Further messages won't be forthcoming until either the provider detects a further change in QOS, or the Windows Sockets SPI client renegotiates the QOS for the socket.
 
-The FD_ROUTING_INTERFACE_CHANGE and FD_ADDRESS_LIST_CHANGE events are considered *edge-triggered* as well. A message will be posted exactly once when a change occurs after the Windows Sockets SPI client has request the notification by issuing [WSAIoctl](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) with SIO_ROUTING_INTERFACE_CHANGE or SIO_ADDRESS_LIST_CHANGE correspondingly. Further messages will not be forthcoming until the Windows Sockets SPI client reissues the IOCTL *and* another change is detected since the IOCTL has been issued.
+The FD_ROUTING_INTERFACE_CHANGE and FD_ADDRESS_LIST_CHANGE events are considered *edge-triggered* as well. A message will be posted exactly once when a change occurs after the Windows Sockets SPI client has request the notification by issuing [WSAIoctl](../winsock2/nf-winsock2-wsaioctl.md) with SIO_ROUTING_INTERFACE_CHANGE or SIO_ADDRESS_LIST_CHANGE correspondingly. Further messages will not be forthcoming until the Windows Sockets SPI client reissues the IOCTL *and* another change is detected since the IOCTL has been issued.
 
 If any event has already happened when the Windows Sockets SPI client calls **LPWSPAsyncSelect**, or when the re-enabling function is called, then a message is posted as appropriate. For example, consider the following sequence.
 
-1. A Windows Sockets SPI client calls [LPWSPListen](/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten).
+1. A Windows Sockets SPI client calls [LPWSPListen](./nc-ws2spi-lpwsplisten.md).
 2. A connect request is received, but not yet accepted.
 3. The Windows Sockets SPI client calls **LPWSPAsyncSelect** specifying that it wants to receive FD_ACCEPT messages for the socket. Due to the persistence of events, the WinSock service provider posts an FD_ACCEPT message immediately.
 
-The FD_WRITE event is handled slightly differently. An FD_WRITE message is posted when a socket is first connected with [LPWSPConnect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect) (after FD_CONNECT, if also registered) or accepted with [LPWSPAccept](/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept), and then after an [LPWSPSend](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend) or [LPWSPSendTo](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto) fails with WSAEWOULDBLOCK and buffer space becomes available. Therefore, a Windows Sockets SPI client can assume that sends are possible starting from the first FD_WRITE message and lasting until a send returns WSAEWOULDBLOCK. After such a failure, the Windows Sockets SPI client will be notified that sends are again possible with an FD_WRITE message.
+The FD_WRITE event is handled slightly differently. An FD_WRITE message is posted when a socket is first connected with [LPWSPConnect](./nc-ws2spi-lpwspconnect.md) (after FD_CONNECT, if also registered) or accepted with [LPWSPAccept](./nc-ws2spi-lpwspaccept.md), and then after an [LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md) fails with WSAEWOULDBLOCK and buffer space becomes available. Therefore, a Windows Sockets SPI client can assume that sends are possible starting from the first FD_WRITE message and lasting until a send returns WSAEWOULDBLOCK. After such a failure, the Windows Sockets SPI client will be notified that sends are again possible with an FD_WRITE message.
 
 The FD_OOB event is used only when a socket is configured to receive out-of-band data separately. If the socket is configured to receive out-of-band data in-line, then the out-of-band (expedited) data is treated as normal data, and the Windows Sockets SPI client must register an interest in FD_READ events, not FD_OOB events.
 
 The error code in an FD_CLOSE message indicates whether the socket close was graceful or abortive. If the error code is 0, then the close was graceful; if the error code is WSAECONNRESET, then the socket's virtual circuit was reset. This only applies to connection-oriented sockets such as SOCK_STREAM. 
 
-The FD_CLOSE message is posted when a close indication is received for the virtual circuit corresponding to the socket. In TCP terms, this means that the FD_CLOSE is posted when the connection goes into the TIME WAIT or CLOSE WAIT states. This results from the remote end performing an [LPWSPShutdown](/windows/win32/api/ws2spi/nc-ws2spi-lpwspshutdown) on the send side or an [LPWSPCloseSocket](/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket). It's correct for FD_CLOSE to be posted only after all data is read from a socket.
+The FD_CLOSE message is posted when a close indication is received for the virtual circuit corresponding to the socket. In TCP terms, this means that the FD_CLOSE is posted when the connection goes into the TIME WAIT or CLOSE WAIT states. This results from the remote end performing an [LPWSPShutdown](./nc-ws2spi-lpwspshutdown.md) on the send side or an [LPWSPCloseSocket](./nc-ws2spi-lpwspclosesocket.md). It's correct for FD_CLOSE to be posted only after all data is read from a socket.
 
 In the case of a graceful close, the service provider should send an FD_CLOSE message to indicate virtual circuit closure only after all the received data has been read. It shouldn't send an FD_READ message to indicate this condition.
 
@@ -560,44 +566,44 @@ Here is a summary of events and conditions for each asynchronous notification me
 
 1. When **LPWSPAsyncSelect** is called, if there is data currently available to receive.
 2. When data arrives, if FD_READ not already posted.
-3. After [LPWSPRecv](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv) or [LPWSPRecvFrom](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom) is called (with or without MSG_PEEK), if data is still available to receive.
+3. After [LPWSPRecv](./nc-ws2spi-lpwsprecv.md) or [LPWSPRecvFrom](./nc-ws2spi-lpwsprecvfrom.md) is called (with or without MSG_PEEK), if data is still available to receive.
 
-When [LPWSPSetSockOpt](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsetsockopt) SO_OOBINLINE is enabled, *data* includes both normal data and out-of-band (OOB) data in the instances noted above.
+When [LPWSPSetSockOpt](./nc-ws2spi-lpwspsetsockopt.md) SO_OOBINLINE is enabled, *data* includes both normal data and out-of-band (OOB) data in the instances noted above.
 
 **FD_WRITE**
 
-1. When **LPWSPAsyncSelect** is called, if an [LPWSPSend](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend) or [LPWSPSendTo](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto) is possible.
-2. After [LPWSPConnect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect) or [LPWSPAccept](/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept) is called, when connection established.
-3. After [LPWSPSend](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend) or [LPWSPSendTo](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto) fail with WSAEWOULDBLOCK, when [LPWSPSend](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend) or [LPWSPSendTo](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsendto) are likely to succeed.
-4. After [LPWSPBind](/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind) on a connectionless socket. FD_WRITE may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writeable immediately after [LPWSPBind](/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind).
+1. When **LPWSPAsyncSelect** is called, if an [LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md) is possible.
+2. After [LPWSPConnect](./nc-ws2spi-lpwspconnect.md) or [LPWSPAccept](./nc-ws2spi-lpwspaccept.md) is called, when connection established.
+3. After [LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md) fail with WSAEWOULDBLOCK, when [LPWSPSend](./nc-ws2spi-lpwspsend.md) or [LPWSPSendTo](./nc-ws2spi-lpwspsendto.md) are likely to succeed.
+4. After [LPWSPBind](./nc-ws2spi-lpwspbind.md) on a connectionless socket. FD_WRITE may or may not occur at this time (implementation-dependent). In any case, a connectionless socket is always writable immediately after [LPWSPBind](./nc-ws2spi-lpwspbind.md).
 
-**FD_OOB** (valid only when [LPWSPSetSockOpt](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsetsockopt) SO_OOBINLINE is disabled (default))
+**FD_OOB** (valid only when [LPWSPSetSockOpt](./nc-ws2spi-lpwspsetsockopt.md) SO_OOBINLINE is disabled (default))
 
 1. When **LPWSPAsyncSelect** is called, if there is OOB data currently available to receive with the MSG_OOB flag.
 2. When OOB data arrives, if FD_OOB not already posted.
-3. After [LPWSPRecv](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv) or [LPWSPRecvFrom](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom) is called with or without MSG_OOB flag, if OOB data is still available to receive.
+3. After [LPWSPRecv](./nc-ws2spi-lpwsprecv.md) or [LPWSPRecvFrom](./nc-ws2spi-lpwsprecvfrom.md) is called with or without MSG_OOB flag, if OOB data is still available to receive.
 
 **FD_ACCEPT**
 
 1. When **LPWSPAsyncSelect** is called, if there is currently a connection request available to accept.
 2. When a connection request arrives, if FD_ACCEPT not already posted.
-3. After [LPWSPAccept](/windows/win32/api/ws2spi/nc-ws2spi-lpwspaccept) is called, if there is another connection request available to accept.
+3. After [LPWSPAccept](./nc-ws2spi-lpwspaccept.md) is called, if there is another connection request available to accept.
 
 **FD_CONNECT**
 
 1. When **LPWSPAsyncSelect** is called, if there is currently a connection established.
-2. After [LPWSPConnect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect) is called, when connection is established (even when [LPWSPConnect](/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect) succeeds immediately, as is typical with a datagram socket), and even when it fails immediately).
-3. After [WSPJoinLeaf](/windows/win32/api/ws2spi/nc-ws2spi-lpwspjoinleaf) is called, when the join operation completes.
-4. After [connect](/windows/win32/api/winsock2/nf-winsock2-connect), [WSAConnect](/windows/win32/api/winsock2/nf-winsock2-wsaconnect), or [WSPJoinLeaf](/windows/win32/api/ws2spi/nc-ws2spi-lpwspjoinleaf) was called with a non-blocking, connection-oriented socket. The initial operation returned with a specific error of WSAEWOULDBLOCK, but the network operation went ahead. Whether the operation eventually succeeds or not, when the outcome has been determined, FD_CONNECT happens. The client should check the error code to determine whether the outcome was a success or failure.
+2. After [LPWSPConnect](./nc-ws2spi-lpwspconnect.md) is called, when connection is established (even when [LPWSPConnect](./nc-ws2spi-lpwspconnect.md) succeeds immediately, as is typical with a datagram socket), and even when it fails immediately).
+3. After [WSPJoinLeaf](./nc-ws2spi-lpwspjoinleaf.md) is called, when the join operation completes.
+4. After [connect](../winsock2/nf-winsock2-connect.md), [WSAConnect](../winsock2/nf-winsock2-wsaconnect.md), or [WSPJoinLeaf](./nc-ws2spi-lpwspjoinleaf.md) was called with a non-blocking, connection-oriented socket. The initial operation returned with a specific error of WSAEWOULDBLOCK, but the network operation went ahead. Whether the operation eventually succeeds or not, when the outcome has been determined, FD_CONNECT happens. The client should check the error code to determine whether the outcome was a success or failure.
 
 **FD_CLOSE** (valid only on connection-oriented sockets (for example, SOCK_STREAM))
 
 1. When **LPWSPAsyncSelect** is called, if the socket connection has been closed.
 2. After the remote system initiated a graceful close, when no data is currently available to receive (if data has been received and is waiting to be read when the remote system initiates a graceful close, then the FD_CLOSE is not delivered until all pending data has been read).
-3. After the local system initiates a graceful close with [LPWSPShutdown](/windows/win32/api/ws2spi/nc-ws2spi-lpwspshutdown) and the remote system has responded with an *end-of-data* notification (such as TCP FIN), when no data is currently available to receive.
+3. After the local system initiates a graceful close with [LPWSPShutdown](./nc-ws2spi-lpwspshutdown.md) and the remote system has responded with an *end-of-data* notification (such as TCP FIN), when no data is currently available to receive.
 4. When the remote system aborts the connection (for example, sent TCP RST), and *lParam* will contain the WSAECONNRESET error value.
 
-FD_CLOSE is not posted after [LPWSPCloseSocket](/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket) is called.
+FD_CLOSE is not posted after [LPWSPCloseSocket](./nc-ws2spi-lpwspclosesocket.md) is called.
 
 **FD_QOS**
 
@@ -620,4 +626,4 @@ Reserved for future use with socket groups:
 
 ## -see-also
 
-[LPWSPAsyncSelect callback function](/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect)
+[LPWSPAsyncSelect callback function](./nc-ws2spi-lpwspselect.md)

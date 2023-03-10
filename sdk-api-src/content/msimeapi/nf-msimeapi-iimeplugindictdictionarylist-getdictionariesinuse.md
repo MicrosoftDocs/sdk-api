@@ -1,16 +1,13 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.GetDictionariesInUse
 title: IImePlugInDictDictionaryList::GetDictionariesInUse (msimeapi.h)
-description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
+description: Obtains the list of Dictionary IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
+helpviewer_keywords: ["GetDictionariesInUse","GetDictionariesInUse method [Internationalization for Windows Applications]","GetDictionariesInUse method [Internationalization for Windows Applications]","IImePlugInDictDictionaryList interface","IImePlugInDictDictionaryList interface [Internationalization for Windows Applications]","GetDictionariesInUse method","IImePlugInDictDictionaryList.GetDictionariesInUse","IImePlugInDictDictionaryList::GetDictionariesInUse","intl.iimeplugindictdictionarylist_getdictionariesinuse","msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse"]
 old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm
 tech.root: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF
 ms.date: 12/05/2018
 ms.keywords: GetDictionariesInUse, GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],GetDictionariesInUse method, IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
-f1_keywords:
-- msimeapi/IImePlugInDictDictionaryList.GetDictionariesInUse
-dev_langs:
-- c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msimeapi.h
-api_name:
-- IImePlugInDictDictionaryList.GetDictionariesInUse
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImePlugInDictDictionaryList::GetDictionariesInUse
+ - msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msimeapi.h
+api_name:
+ - IImePlugInDictDictionaryList.GetDictionariesInUse
 ---
 
 # IImePlugInDictDictionaryList::GetDictionariesInUse
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Obtains the list of Dictionay IDs (<b>GUID</b>) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
-
+Obtains the list of Dictionary IDs (<b>GUID</b>) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
 
 ## -parameters
-
-
-
 
 ### -param prgDictionaryGUID [out]
 
 Array of the dictionary IDs (<b>GUID</b>) of the IME plug-in dictionaries which are in use by IME.
 
-
 ### -param prgDateCreated [in, out]
 
 Array of the dates of creation for each of the IME plug-in dictionaries returned by <i>prgDictionaryGUID</i>.
-
 
 ### -param prgfEncrypted [in, out]
 
 Array of flags indicating whether each dictionary is encrypted or not for each of the IME plug-in dictionaries returned by <i>prgDictionaryGUID</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,18 +109,7 @@ Other errors.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>

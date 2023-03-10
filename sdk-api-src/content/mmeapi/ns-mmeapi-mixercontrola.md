@@ -1,16 +1,13 @@
 ---
 UID: NS:mmeapi.tagMIXERCONTROLA
 title: MIXERCONTROLA (mmeapi.h)
-description: The MIXERCONTROL structure describes the state and metrics of a single control for an audio line.
+description: The MIXERCONTROL structure describes the state and metrics of a single control for an audio line. (mixercontrola)
+helpviewer_keywords: ["*LPMIXERCONTROLA","*PMIXERCONTROLA","MIXERCONTROL","MIXERCONTROL structure [Windows Multimedia]","MIXERCONTROL","*PMIXERCONTROL","FAR *PMIXERCONTROL","MIXERCONTROL","*PMIXERCONTROL","FAR *PMIXERCONTROL structure [Windows Multimedia]","MIXERCONTROLA","MIXERCONTROL_CONTROLF_DISABLED","MIXERCONTROL_CONTROLF_MULTIPLE","MIXERCONTROL_CONTROLF_UNIFORM","MIXERCONTROL_CT_CLASS_CUSTOM","MIXERCONTROL_CT_CLASS_FADER","MIXERCONTROL_CT_CLASS_LIST","MIXERCONTROL_CT_CLASS_METER","MIXERCONTROL_CT_CLASS_NUMBER","MIXERCONTROL_CT_CLASS_SLIDER","MIXERCONTROL_CT_CLASS_SWITCH","MIXERCONTROL_CT_CLASS_TIME","_win32_MIXERCONTROL_str","mmeapi/MIXERCONTROL","multimedia.mixercontrol","tMIXERCONTROL","tagMIXERCONTROLA","tagMIXERCONTROLW"]
 old-location: multimedia\mixercontrol.htm
 tech.root: Multimedia
 ms.assetid: 2ddbcf82-9204-43c6-8235-8bce6a55bb36
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERCONTROLA, *PMIXERCONTROLA, MIXERCONTROL, MIXERCONTROL structure [Windows Multimedia], MIXERCONTROL,*PMIXERCONTROL,FAR *PMIXERCONTROL, MIXERCONTROL,*PMIXERCONTROL,FAR *PMIXERCONTROL structure [Windows Multimedia], MIXERCONTROLA, MIXERCONTROL_CONTROLF_DISABLED, MIXERCONTROL_CONTROLF_MULTIPLE, MIXERCONTROL_CONTROLF_UNIFORM, MIXERCONTROL_CT_CLASS_CUSTOM, MIXERCONTROL_CT_CLASS_FADER, MIXERCONTROL_CT_CLASS_LIST, MIXERCONTROL_CT_CLASS_METER, MIXERCONTROL_CT_CLASS_NUMBER, MIXERCONTROL_CT_CLASS_SLIDER, MIXERCONTROL_CT_CLASS_SWITCH, MIXERCONTROL_CT_CLASS_TIME, _win32_MIXERCONTROL_str, mmeapi/MIXERCONTROL, multimedia.mixercontrol, tMIXERCONTROL, tagMIXERCONTROLA, tagMIXERCONTROLW'
-f1_keywords:
-- mmeapi/MIXERCONTROL, *PMIXERCONTROL, FAR *PMIXERCONTROL
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERCONTROL, *PMIXERCONTROL, FAR *PMIXERCONTROL
-- mixercontrola
 targetos: Windows
 req.typenames: MIXERCONTROLA, *PMIXERCONTROLA, *LPMIXERCONTROLA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMIXERCONTROLA
+ - mmeapi/tagMIXERCONTROLA
+ - PMIXERCONTROLA
+ - mmeapi/PMIXERCONTROLA
+ - MIXERCONTROLA
+ - mmeapi/MIXERCONTROLA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERCONTROL, *PMIXERCONTROL, FAR *PMIXERCONTROL
+ - mixercontrola
 ---
 
 # MIXERCONTROLA structure
@@ -49,27 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MIXERCONTROL</b> structure describes the state and metrics of a single control for an audio line.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Size, in bytes, of the <b>MIXERCONTROL</b> structure.
 
-
 ### -field dwControlID
 
 Audio mixer-defined identifier that uniquely refers to the control described by the <b>MIXERCONTROL</b> structure. This identifier can be in any format supported by the mixer device. An application should use this identifier only as an abstract handle. No two controls for a single mixer device can ever have the same control identifier.
-
 
 ### -field dwControlType
 
@@ -161,8 +157,6 @@ MIXERCONTROL_CONTROLTYPE_MICROTIME MIXERCONTROL_CONTROLTYPE_MILLITIME
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fdwControl
 
@@ -204,90 +198,66 @@ The control acts on all channels of a multichannel line in a uniform fashion. Fo
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cMultipleItems
 
 Number of items per channel that make up a MIXERCONTROL_CONTROLF_MULTIPLE control. This number is always two or greater for multiple-item controls. If the control is not a multiple-item control, do not use this member; it will be zero.
 
-
 ### -field szShortName
 
 Short string that describes the audio line control specified by <b>dwControlID</b>. This description should be appropriate to use as a concise label for the control.
-
 
 ### -field szName
 
 String that describes the audio line control specified by <b>dwControlID</b>. This description should be appropriate to use as a complete description for the control.
 
-
 ### -field Bounds
 
 Union of boundary types.
 
-
 ### -field Bounds.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field Bounds.DUMMYSTRUCTNAME.lMinimum
 
 Minimum signed value for a control that has a signed boundary nature. This member cannot be used in conjunction with <b>dwMinimum</b>.
 
-
 ### -field Bounds.DUMMYSTRUCTNAME.lMaximum
 
 Maximum signed value for a control that has a signed boundary nature. This member cannot be used in conjunction with <b>dwMaximum</b>.
 
-
 ### -field Bounds.DUMMYSTRUCTNAME2
-
- 
-
 
 ### -field Bounds.DUMMYSTRUCTNAME2.dwMinimum
 
 Minimum unsigned value for a control that has an unsigned boundary nature. This member cannot be used in conjunction with <b>lMinimum</b>.
 
-
 ### -field Bounds.DUMMYSTRUCTNAME2.dwMaximum
 
 Maximum unsigned value for a control that has an unsigned boundary nature. This member cannot be used in conjunction with <b>lMaximum</b>.
-
 
 ### -field Bounds.dwReserved
 
 Reserved; do not use.
 
-
 ### -field Metrics
 
 Union of boundary metrics.
-
 
 ### -field Metrics.cSteps
 
 Number of discrete ranges within the union specified for a control specified by the <b>Bounds</b> member. This member overlaps with the other members of the <b>Metrics</b> structure member and cannot be used in conjunction with those members.
 
-
 ### -field Metrics.cbCustomData
 
 Size, in bytes, required to contain the state of a custom control class. This member is appropriate only for the MIXERCONTROL_CONTROLTYPE_CUSTOM control class.
-
 
 ### -field Metrics.dwReserved
 
 Reserved; do not use.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
+<a href="/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
@@ -295,12 +265,13 @@ Audio Mixers
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa">MIXERLINECONTROLS</a>
+<a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixerlinecontrolsa">MIXERLINECONTROLS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
- 
+<a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
 
- 
+## -remarks
 
+> [!NOTE]
+> The mmeapi.h header defines MIXERCONTROL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

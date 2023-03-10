@@ -2,15 +2,12 @@
 UID: NF:gdiplustypes.Rect.GetTop
 title: Rect::GetTop (gdiplustypes.h)
 description: The Rect::GetTop method gets the y-coordinate of the top edge of the rectangle.
+helpviewer_keywords: ["GetTop","GetTop method [GDI+]","GetTop method [GDI+]","Rect class","Rect class [GDI+]","GetTop method","Rect.GetTop","Rect::GetTop","_gdiplus_CLASS_Rect_GetTop_","gdiplus._gdiplus_CLASS_Rect_GetTop_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetTop_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\gettop.htm
 ms.date: 12/05/2018
 ms.keywords: GetTop, GetTop method [GDI+], GetTop method [GDI+],Rect class, Rect class [GDI+],GetTop method, Rect.GetTop, Rect::GetTop, _gdiplus_CLASS_Rect_GetTop_, gdiplus._gdiplus_CLASS_Rect_GetTop_
-f1_keywords:
-- gdiplustypes/Rect.GetTop
-dev_langs:
-- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Rect.GetTop
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Rect::GetTop
+ - gdiplustypes/Rect::GetTop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Rect.GetTop
 ---
 
 # Rect::GetTop
@@ -49,64 +51,44 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Rect::GetTop</b> method gets the y-coordinate of the top edge of the rectangle.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
+Type: <b>INT</b>
 
-
-Type: <strong>Type: <b>INT</b>
-</strong>
-
-This method returns the y-coordinate of the top edge of the rectangle. 
-
-
-
+This method returns the y-coordinate of the top edge of the rectangle.
 
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbottom">Rect::GetBottom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbottom">Rect::GetBottom</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getleft">Rect::GetLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getleft">Rect::GetLeft</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getright">Rect::GetRight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getright">Rect::GetRight</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>

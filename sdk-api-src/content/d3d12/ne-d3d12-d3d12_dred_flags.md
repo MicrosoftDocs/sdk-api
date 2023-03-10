@@ -2,12 +2,10 @@
 UID: NE:d3d12.D3D12_DRED_FLAGS
 title: D3D12_DRED_FLAGS
 description: Defines constants used in the D3D12_DEVICE_REMOVED_EXTENDED_DATA structure to specify control flags for the Direct3D runtime.
+tech.root: direct3d12
+helpviewer_keywords: ["D3D12_DRED_FLAGS","D3D12_DRED_FLAGS enumeration","D3D12_DRED_FLAG_NONE","D3D12_DRED_FLAG_FORCE_ENABLE","D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS","d3d12/D3D12_DRED_FLAGS","d3d12/D3D12_DRED_FLAGS enumeration","d3d12/D3D12_DRED_FLAG_NONE","d3d12/D3D12_DRED_FLAG_FORCE_ENABLE","d3d12/D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS","direct3d12.d3d12_dred_flags"]
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_FLAGS, D3D12_DRED_FLAGS enumeration, D3D12_DRED_FLAG_NONE, D3D12_DRED_FLAG_FORCE_ENABLE, D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS, d3d12/D3D12_DRED_FLAGS, d3d12/D3D12_DRED_FLAGS enumeration, d3d12/D3D12_DRED_FLAG_NONE, d3d12/D3D12_DRED_FLAG_FORCE_ENABLE, d3d12/D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS, direct3d12.d3d12_dred_flags
-f1_keywords:
-- d3d12/D3D12_DRED_FLAGS
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -15,23 +13,29 @@ req.header: d3d12.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_DRED_FLAGS
 req.umdf-ver: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_DRED_FLAGS
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_DRED_FLAGS
+ - d3d12/D3D12_DRED_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_DRED_FLAGS
 ---
 
 # D3D12_DRED_FLAGS enumeration
+
 
 ## -description
 
@@ -61,3 +65,4 @@ Disables DRED auto breadcrumbs.
 * [Core enumerations](/windows/desktop/direct3d12/direct3d-12-enumerations)
 * [D3D12_DEVICE_REMOVED_EXTENDED_DATA structure](ns-d3d12-d3d12_device_removed_extended_data.md)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

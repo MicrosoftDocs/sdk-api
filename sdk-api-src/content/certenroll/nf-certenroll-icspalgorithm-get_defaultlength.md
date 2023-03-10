@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspAlgorithm.get_DefaultLength
 title: ICspAlgorithm::get_DefaultLength (certenroll.h)
 description: Retrieves the default length of a key.
+helpviewer_keywords: ["DefaultLength property [Security]","DefaultLength property [Security]","ICspAlgorithm interface","ICspAlgorithm interface [Security]","DefaultLength property","ICspAlgorithm.DefaultLength","ICspAlgorithm.get_DefaultLength","ICspAlgorithm::DefaultLength","ICspAlgorithm::get_DefaultLength","certenroll/ICspAlgorithm::DefaultLength","certenroll/ICspAlgorithm::get_DefaultLength","get_DefaultLength","security.icspalgorithm_defaultlength_property"]
 old-location: security\icspalgorithm_defaultlength_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 03a487e0-5ba4-4065-86e9-bed667db6ff9
 ms.date: 12/05/2018
 ms.keywords: DefaultLength property [Security], DefaultLength property [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],DefaultLength property, ICspAlgorithm.DefaultLength, ICspAlgorithm.get_DefaultLength, ICspAlgorithm::DefaultLength, ICspAlgorithm::get_DefaultLength, certenroll/ICspAlgorithm::DefaultLength, certenroll/ICspAlgorithm::get_DefaultLength, get_DefaultLength, security.icspalgorithm_defaultlength_property
-f1_keywords:
-- certenroll/ICspAlgorithm.DefaultLength
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspAlgorithm.DefaultLength
-- ICspAlgorithm.get_DefaultLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspAlgorithm::get_DefaultLength
+ - certenroll/ICspAlgorithm::get_DefaultLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspAlgorithm.DefaultLength
+ - ICspAlgorithm.get_DefaultLength
 ---
 
 # ICspAlgorithm::get_DefaultLength
@@ -49,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DefaultLength</b> property retrieves the default length of a key. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-You can use this property to retrieve the default size, in bits, of a key. The <b>DefaultLength</b>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_maxlength">MaxLength</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a> properties can vary by algorithm and provider. The following table lists a few algorithms for which multiple key sizes can be set. The list is not inclusive.<table>
+You can use this property to retrieve the default size, in bits, of a key. The <b>DefaultLength</b>, <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>, <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_maxlength">MaxLength</a>, and <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_minlength">MinLength</a> properties can vary by algorithm and provider. The following table lists a few algorithms for which multiple key sizes can be set. The list is not inclusive.<table>
 <tr>
 <th>Algorithm OID</th>
 <th>Cryptographic provider</th>
@@ -221,24 +218,11 @@ Increment: 8
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_incrementlength">IncrementLength</a>

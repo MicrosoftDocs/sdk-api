@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponentsEx2.UnexposeSnapshot
 title: IVssBackupComponentsEx2::UnexposeSnapshot (vsbackup.h)
 description: Unexposes a shadow copy either by deleting the file share or by removing the drive letter or mounted folder.
+helpviewer_keywords: ["IVssBackupComponentsEx2 interface","UnexposeSnapshot method","IVssBackupComponentsEx2.UnexposeSnapshot","IVssBackupComponentsEx2::UnexposeSnapshot","UnexposeSnapshot","UnexposeSnapshot method","UnexposeSnapshot method","IVssBackupComponentsEx2 interface","base.ivssbackupcomponentsex2_unexposesnapshot","vsbackup/IVssBackupComponentsEx2::UnexposeSnapshot"]
 old-location: base\ivssbackupcomponentsex2_unexposesnapshot.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b6946b65-b142-41b9-88c0-a1b11caba08e
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,UnexposeSnapshot method, IVssBackupComponentsEx2.UnexposeSnapshot, IVssBackupComponentsEx2::UnexposeSnapshot, UnexposeSnapshot, UnexposeSnapshot method, UnexposeSnapshot method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_unexposesnapshot, vsbackup/IVssBackupComponentsEx2::UnexposeSnapshot
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx2.UnexposeSnapshot
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponentsEx2.UnexposeSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx2::UnexposeSnapshot
+ - vsbackup/IVssBackupComponentsEx2::UnexposeSnapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponentsEx2.UnexposeSnapshot
 ---
 
 # IVssBackupComponentsEx2::UnexposeSnapshot
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unexposes a shadow copy either by deleting the file share or by removing the drive letter or mounted folder.
 
-
 ## -parameters
-
-
-
 
 ### -param snapshotId [in]
 
 The shadow copy identifier. The value of this identifier should be the same as the value that was used when the shadow copy was exposed.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -151,7 +145,7 @@ The specified shadow copy does not exist or is not exposed.
 <td width="60%">
 An
         expected provider error has occurred. The error code is logged in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -163,7 +157,7 @@ An
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -177,27 +171,16 @@ Unexpected error. The error code is logged in the error log file. For more infor
 </td>
 <td width="60%">
 An unexpected provider error has occurred. The error code is logged in the error log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>

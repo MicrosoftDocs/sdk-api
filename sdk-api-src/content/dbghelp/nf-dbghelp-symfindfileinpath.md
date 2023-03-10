@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymFindFileInPath
 title: SymFindFileInPath function (dbghelp.h)
-description: Locates a symbol file or executable image.
+description: The SymFindFileInPath function (dbghelp.h) locates a symbol file or executable image.
+helpviewer_keywords: ["SSRVOPT_DWORD","SSRVOPT_DWORDPTR","SSRVOPT_GUIDPTR","SymFindFileInPath","SymFindFileInPath function","SymFindFileInPathW","_win32_symfindfileinpath","base.symfindfileinpath","dbghelp/SymFindFileInPath","dbghelp/SymFindFileInPathW"]
 old-location: base\symfindfileinpath.htm
 tech.root: Debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
-f1_keywords:
-- dbghelp/SymFindFileInPath
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- DbgHelp.dll
-- imagehlp.dll
-api_name:
-- SymFindFileInPath
-- SymFindFileInPath
-- SymFindFileInPathW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymFindFileInPath
+ - dbghelp/SymFindFileInPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - DbgHelp.dll
+ - imagehlp.dll
+api_name:
+ - SymFindFileInPath
+ - SymFindFileInPath
+ - SymFindFileInPathW
 ---
 
 # SymFindFileInPath function
@@ -51,46 +53,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates a symbol file or executable image.
 
-
 ## -parameters
-
-
-
 
 ### -param hprocess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param SearchPath [in, optional]
 
 The search path. This can be multiple paths separated by semicolons. It can include both directories and symbol servers. If this parameter is <b>NULL</b>, the function uses the search path set using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> or <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param FileName [in]
 
 The name of the file. You can specify a path; however, only the file name is used.
 
-
 ### -param id [in, optional]
 
 The first of three identifying parameters (see Remarks).
-
 
 ### -param two [in]
 
 The second of three identifying parameters (see Remarks).
 
-
 ### -param three [in]
 
 The third of three identifying parameters (see Remarks).
-
 
 ### -param flags [in]
 
@@ -135,37 +126,25 @@ The <i>id</i> parameter is a pointer to a <b>GUID</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param FoundFile [out]
 
 A pointer to a buffer that receives the fully qualified path to the symbol file. This buffer must be at least MAX_PATH characters.
 
-
 ### -param callback [in, optional]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfindfileinpathcallback">SymFindFileInPathProc</a> callback function.
-
+A <a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfindfileinpathcallback">SymFindFileInPathProc</a> callback function.
 
 ### -param context [in, optional]
 
 A user-defined value or <b>NULL</b>. This value is simply passed to the callback function. This parameter is typically used by an application to pass a pointer to a data structure that provides some context for the callback function.
 
-
 ## -returns
 
-
-
 If the server locates a valid symbol file, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value that indicates why the symbol file was not returned.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value that indicates why the symbol file was not returned.
 
 ## -remarks
-
-
 
 The identifying parameters are filled in as follows:
 
@@ -179,40 +158,30 @@ If DbgHelp is looking for any other type of image, such as an executable file or
 
 </li>
 </ul>
-All of these values can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>.
+All of these values can be obtained by calling <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>.
 
-When searching a directory, this function does not verify that the symbol identifiers match by default. To ensure the matching symbol files are located, call the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function with SYMOPT_EXACT_SYMBOLS.
+When searching a directory, this function does not verify that the symbol identifiers match by default. To ensure the matching symbol files are located, call the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> function with SYMOPT_EXACT_SYMBOLS.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfindfileinpathcallback">SymFindFileInPathProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfindfileinpathcallback">SymFindFileInPathProc</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsrvgetfileindexinfo">SymSrvGetFileIndexInfo</a>

@@ -4,7 +4,7 @@ title: USB driver reference
 ms.assetid: 7759b99f-4c43-36f8-a7e6-b99866828c68
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # USB driver reference
@@ -21,5 +21,4 @@ To develop USB driver reference, you need these headers:
  * [winusbio.h](../winusbio/index.md)
 
 For programming guidance for this technology, see:
-* [USB driver reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/)
-
+* [USB driver reference](/windows-hardware/drivers/usbcon/)

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.GetMaxOutputSampleSize
 title: IWMSyncReader::GetMaxOutputSampleSize (wmsdkidl.h)
 description: The GetMaxOutputSampleSize method retrieves the maximum sample size for a specified output of the file open in the synchronous reader.
+helpviewer_keywords: ["GetMaxOutputSampleSize","GetMaxOutputSampleSize method [windows Media Format]","GetMaxOutputSampleSize method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetMaxOutputSampleSize method","IWMSyncReader.GetMaxOutputSampleSize","IWMSyncReader::GetMaxOutputSampleSize","IWMSyncReaderGetMaxOutputSampleSize","wmformat.iwmsyncreader_getmaxoutputsamplesize","wmsdkidl/IWMSyncReader::GetMaxOutputSampleSize"]
 old-location: wmformat\iwmsyncreader_getmaxoutputsamplesize.htm
 tech.root: wmformat
 ms.assetid: 84fbc2c7-001b-4339-a7df-89914274a72b
 ms.date: 12/05/2018
 ms.keywords: GetMaxOutputSampleSize, GetMaxOutputSampleSize method [windows Media Format], GetMaxOutputSampleSize method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetMaxOutputSampleSize method, IWMSyncReader.GetMaxOutputSampleSize, IWMSyncReader::GetMaxOutputSampleSize, IWMSyncReaderGetMaxOutputSampleSize, wmformat.iwmsyncreader_getmaxoutputsamplesize, wmsdkidl/IWMSyncReader::GetMaxOutputSampleSize
-f1_keywords:
-- wmsdkidl/IWMSyncReader.GetMaxOutputSampleSize
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.GetMaxOutputSampleSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::GetMaxOutputSampleSize
+ - wmsdkidl/IWMSyncReader::GetMaxOutputSampleSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.GetMaxOutputSampleSize
 ---
 
 # IWMSyncReader::GetMaxOutputSampleSize
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetMaxOutputSampleSize</b> method retrieves the maximum sample size for a specified output of the file open in the synchronous reader.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutput [in]
 
 <b>DWORD</b> containing the output number for which you want to retrieve the maximum sample size.
 
-
 ### -param pcbMax [out]
 
 Pointer to a <b>DWORD</b> value that receives the maximum sample size, in bytes, for the output specified in <i>dwOutput</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -144,29 +134,13 @@ The synchronous reader failed to initialize an internal object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In some scenarios, such as multiple bit rate streaming, the output encompasses several streams. The size returned is the maximum sample size for all of the streams associated with the specified output.
 
-You can retrieve the maximum sample size for a specific stream by using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getmaxstreamsamplesize">IWMSyncReader::GetMaxStreamSampleSize</a>.
-
-
-
+You can retrieve the maximum sample size for a specific stream by using <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getmaxstreamsamplesize">IWMSyncReader::GetMaxStreamSampleSize</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>

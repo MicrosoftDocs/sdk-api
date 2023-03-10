@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssWriterComponents.GetWriterInfo
 title: IVssWriterComponents::GetWriterInfo (vswriter.h)
 description: The GetWriterInfo method gets the instance and class identifier of the writer responsible for the components.
+helpviewer_keywords: ["GetWriterInfo","GetWriterInfo method [VSS]","GetWriterInfo method [VSS]","IVssWriterComponents interface","IVssWriterComponents interface [VSS]","GetWriterInfo method","IVssWriterComponents.GetWriterInfo","IVssWriterComponents::GetWriterInfo","_win32_ivsswritercomponents_getwriterinfo","base.ivsswritercomponents_getwriterinfo","vswriter/IVssWriterComponents::GetWriterInfo"]
 old-location: base\ivsswritercomponents_getwriterinfo.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 22a539ac-1440-4fe9-b68e-feec97cab6c8
 ms.date: 12/05/2018
 ms.keywords: GetWriterInfo, GetWriterInfo method [VSS], GetWriterInfo method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetWriterInfo method, IVssWriterComponents.GetWriterInfo, IVssWriterComponents::GetWriterInfo, _win32_ivsswritercomponents_getwriterinfo, base.ivsswritercomponents_getwriterinfo, vswriter/IVssWriterComponents::GetWriterInfo
-f1_keywords:
-- vswriter/IVssWriterComponents.GetWriterInfo
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssWriterComponents.GetWriterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssWriterComponents::GetWriterInfo
+ - vswriter/IVssWriterComponents::GetWriterInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssWriterComponents.GetWriterInfo
 ---
 
 # IVssWriterComponents::GetWriterInfo
@@ -49,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetWriterInfo</b> method gets the instance and class identifier of the writer responsible for the components.
 
-
 ## -parameters
-
-
-
 
 ### -param pidInstance [out]
 
 Identifier of the writer instance.
 
-
 ### -param pidWriter [out]
 
 Identifier of the writer class.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -121,23 +114,12 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>

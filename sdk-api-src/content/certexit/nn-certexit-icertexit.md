@@ -2,15 +2,12 @@
 UID: NN:certexit.ICertExit
 title: ICertExit (certexit.h)
 description: Provides communications between the Certificate Services server and an exit module.
+helpviewer_keywords: ["ICertExit","ICertExit interface [Security]","ICertExit interface [Security]","described","_certsrv_icertexit","certexit/ICertExit","security.icertexit"]
 old-location: security\icertexit.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
 ms.date: 12/05/2018
 ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security],described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
-f1_keywords:
-- certexit/ICertExit
-dev_langs:
-- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certexit.h
-api_name:
-- ICertExit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertExit
+ - certexit/ICertExit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certexit.h
+api_name:
+ - ICertExit
 ---
 
 # ICertExit interface
@@ -48,11 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICertExit</b> interface  provides communications between  the Certificate Services server and an exit module.
-<div class="alert"><b>Note</b>  The exit module can communicate with the Certificate Services server by using the <a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> interface.</div><div> </div>The Certificate Services server calls the <b>ICertExit</b> methods to perform the following tasks:<ul>
+<div class="alert"><b>Note</b>  The exit module can communicate with the Certificate Services server by using the <a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a> interface.</div><div> </div>The Certificate Services server calls the <b>ICertExit</b> methods to perform the following tasks:<ul>
 <li>Initialize the Certificate Services server.</li>
-<li>Notify the exit module of an event such as certificate issuance, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) issuance, or server shutdown, has occurred.</li>
+<li>Notify the exit module of an event such as certificate issuance, <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) issuance, or server shutdown, has occurred.</li>
 <li>Retrieve a description of the exit module.</li>
 </ul>
 
@@ -61,55 +62,14 @@ The <b>ICertExit</b> interface  provides communications between  the Certificate
 
 Certificate Services interfaces support both apartment-threading and free-threading models. For better throughput, free threading is recommended.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertExit</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertExit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICertExit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-getdescription">GetDescription</a>
-</td>
-<td align="left" width="63%">
-Returns a description of the exit module and its function.</p> (Inherited from <b>ICertExit</b><a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">CCertExit2</a>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine when it initializes itself.</p> (Inherited from <b>ICertExit</b><a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">CCertExit2</a>)</td>
-</tr>
-<tr data="inherited;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>
-</td>
-<td align="left" width="63%">
-Called by the server engine to notify an exit module that an event has occurred.</p> (Inherited from <b>ICertExit</b><a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit2">CCertExit2</a>)</td>
-</tr>
-</table> 
-
+The <b>ICertExit</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertExit</b> also has these types of members:
 
 ## -remarks
 
-
-
 Implementers of <b>ICertExit</b> should also implement 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertExit</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
+<a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>. Additionally, the ProgID for a class implementing <b>ICertExit</b> must conform to a naming convention. Specifically, the ProgID must be of the form:
 
 <b>"</b><i>MyApp</i><b>.Exit"</b>
 
@@ -156,20 +116,10 @@ Implementers of <b>ICertExit</b> in Visual Basic Scripting Edition must name the
 
 Where <i>MyApp</i> is a specifier that identifies the application; further, the class implementing <b>ICertExit</b> must be named <b>"Exit"</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsAccessControlledBitSet
 title: IATSC_VCT::GetRecordIsAccessControlledBitSet (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordIsAccessControlledBitSet","GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies]","GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordIsAccessControlledBitSet method","IATSC_VCT.GetRecordIsAccessControlledBitSet","IATSC_VCT::GetRecordIsAccessControlledBitSet","IATSC_VCTGetRecordIsAccessControlledBitSet","atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet","mstv.iatsc_vct_getrecordisaccesscontrolledbitset"]
 old-location: mstv\iatsc_vct_getrecordisaccesscontrolledbitset.htm
 tech.root: mstv
 ms.assetid: c94dc694-dc3f-4639-997e-fb6d534c9e4c
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsAccessControlledBitSet, GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies], GetRecordIsAccessControlledBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsAccessControlledBitSet method, IATSC_VCT.GetRecordIsAccessControlledBitSet, IATSC_VCT::GetRecordIsAccessControlledBitSet, IATSC_VCTGetRecordIsAccessControlledBitSet, atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet, mstv.iatsc_vct_getrecordisaccesscontrolledbitset
-f1_keywords:
-- atscpsipparser/IATSC_VCT.GetRecordIsAccessControlledBitSet
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_VCT.GetRecordIsAccessControlledBitSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_VCT::GetRecordIsAccessControlledBitSet
+ - atscpsipparser/IATSC_VCT::GetRecordIsAccessControlledBitSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_VCT.GetRecordIsAccessControlledBitSet
 ---
 
 # IATSC_VCT::GetRecordIsAccessControlledBitSet
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRecordIsAccessControlledBitSet</b> method queries whether the access_controlled bit is set for a particular record in the VCT.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
-Specifies the record number, indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getcountofrecords">IATSC_VCT::GetCountOfRecords</a> method to get the number of records in the VCT.
-
+Specifies the record number, indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_vct-getcountofrecords">IATSC_VCT::GetCountOfRecords</a> method to get the number of records in the VCT.
 
 ### -param pfVal [out]
 
 Receives a Boolean value. The value is <b>TRUE</b> if the access_controlled bit is set, indicating that this virtual channel might be access controlled. Otherwise, the value is <b>FALSE</b>, indicating that access is not restricted.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,18 +110,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>

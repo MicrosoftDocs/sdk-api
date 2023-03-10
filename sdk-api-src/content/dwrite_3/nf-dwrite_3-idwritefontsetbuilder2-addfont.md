@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFont
 title: IDWriteFontSetBuilder2::AddFont
 description: Adds a font to the set being built.
+helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFont method","IDWriteFontSetBuilder2.AddFont","IDWriteFontSetBuilder2::AddFont","AddFont","AddFont method [Direct Write]","AddFont method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfont","dwrite_3/IDWriteFontSetBuilder2::AddFont"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFont method, IDWriteFontSetBuilder2.AddFont, IDWriteFontSetBuilder2::AddFont, AddFont, AddFont method [Direct Write], AddFont method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfont, dwrite_3/IDWriteFontSetBuilder2::AddFont
-f1_keywords:
-- dwrite_3/IDWriteFontSetBuilder2.AddFont
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSetBuilder2::AddFont
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSetBuilder2::AddFont
+ - dwrite_3/IDWriteFontSetBuilder2::AddFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSetBuilder2::AddFont
 ---
 
 ## -description
@@ -50,7 +52,7 @@ Adds a font to the set being built, with the caller supplying enough information
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md)\***
 
 Font file reference object to add to the set.
 
@@ -62,13 +64,13 @@ The zero-based index of a font face in a collection.
 
 ### -param fontSimulations
 
-Type: **[DWRITE_FONT_SIMULATIONS](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations)**
+Type: **[DWRITE_FONT_SIMULATIONS](../dwrite/ne-dwrite-dwrite_font_simulations.md)**
 
 Font face simulation flags for algorithmic emboldening and italicization.
 
 ### -param fontAxisValues
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) const \***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md) const \***
 
 A pointer to an array containing a list of font axis values. The array should be the size (the number of elements) indicated by the *fontAxisValueCount* argument.
 
@@ -80,7 +82,7 @@ The number of font axis values contained in the *fontAxisValues* array.
 
 ### -param fontAxisRanges
 
-Type: **[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range) const \***
+Type: **[DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md) const \***
 
 List of axis ranges.
 
@@ -92,7 +94,7 @@ Number of axis ranges.
 
 ### -param properties
 
-Type: **[DWRITE_FONT_PROPERTY](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property) const \***
+Type: **[DWRITE_FONT_PROPERTY](./ns-dwrite_3-dwrite_font_property.md) const \***
 
 List of properties to associate with the reference.
 

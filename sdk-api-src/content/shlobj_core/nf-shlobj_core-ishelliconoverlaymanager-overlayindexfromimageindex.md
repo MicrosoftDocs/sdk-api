@@ -2,16 +2,12 @@
 UID: NF:shlobj_core.IShellIconOverlayManager.OverlayIndexFromImageIndex
 title: IShellIconOverlayManager::OverlayIndexFromImageIndex (shlobj_core.h)
 description: Finds the index of an overlay image for the specified icon image. It can add an overlay if one is not found for the icon.
+helpviewer_keywords: ["IShellIconOverlayManager interface [Windows Shell]","OverlayIndexFromImageIndex method","IShellIconOverlayManager.OverlayIndexFromImageIndex","IShellIconOverlayManager::OverlayIndexFromImageIndex","OverlayIndexFromImageIndex","OverlayIndexFromImageIndex method [Windows Shell]","OverlayIndexFromImageIndex method [Windows Shell]","IShellIconOverlayManager interface","_win32_IShellIconOverlayManager_OverlayIndexFromImageIndex","shell.IShellIconOverlayManager_OverlayIndexFromImageIndex","shlobj_core/IShellIconOverlayManager::OverlayIndexFromImageIndex"]
 old-location: shell\IShellIconOverlayManager_OverlayIndexFromImageIndex.htm
 tech.root: shell
 ms.assetid: 7abbdd28-72b8-4a91-81db-6afc1242a086
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayManager interface [Windows Shell],OverlayIndexFromImageIndex method, IShellIconOverlayManager.OverlayIndexFromImageIndex, IShellIconOverlayManager::OverlayIndexFromImageIndex, OverlayIndexFromImageIndex, OverlayIndexFromImageIndex method [Windows Shell], OverlayIndexFromImageIndex method [Windows Shell],IShellIconOverlayManager interface, _win32_IShellIconOverlayManager_OverlayIndexFromImageIndex, shell.IShellIconOverlayManager_OverlayIndexFromImageIndex, shlobj_core/IShellIconOverlayManager::OverlayIndexFromImageIndex
-ms.topic: method
-f1_keywords:
-- shlobj_core/IShellIconOverlayManager.OverlayIndexFromImageIndex
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellIconOverlayManager.OverlayIndexFromImageIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellIconOverlayManager::OverlayIndexFromImageIndex
+ - shlobj_core/IShellIconOverlayManager::OverlayIndexFromImageIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellIconOverlayManager.OverlayIndexFromImageIndex
 ---
 
 # IShellIconOverlayManager::OverlayIndexFromImageIndex
@@ -49,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finds the index of an overlay image for the specified icon image. It can add an overlay if one is not found for the icon.
 
-
 ## -parameters
-
-
-
 
 ### -param iImage [in]
 
@@ -64,13 +60,11 @@ Type: <b>int</b>
 
 The existing shell image list index to look for.
 
-
 ### -param piIndex [out]
 
 Type: <b>int</b>
 
 The returned overlay index.
-
 
 ### -param fAdd [in]
 
@@ -78,10 +72,7 @@ Type: <b>BOOL</b>
 
 Whether to add an image if one is not already present.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -115,22 +106,11 @@ An error occurred or the image was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>

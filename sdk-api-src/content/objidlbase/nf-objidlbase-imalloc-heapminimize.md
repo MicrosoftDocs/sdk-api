@@ -1,16 +1,13 @@
 ---
 UID: NF:objidlbase.IMalloc.HeapMinimize
 title: IMalloc::HeapMinimize (objidlbase.h)
-description: Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
+description: The IMalloc::HeapMinimize (objidlbase.h) method minimizes the heap by releasing unused memory to the operating system.
+helpviewer_keywords: ["HeapMinimize","HeapMinimize method [COM]","HeapMinimize method [COM]","IMalloc interface","IMalloc interface [COM]","HeapMinimize method","IMalloc.HeapMinimize","IMalloc::HeapMinimize","_com_imalloc_heapminimize","com.imalloc_heapminimize","objidlbase/IMalloc::HeapMinimize"]
 old-location: com\imalloc_heapminimize.htm
 tech.root: com
 ms.assetid: b57e32eb-a637-47d8-b136-05cb193e9f73
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: HeapMinimize, HeapMinimize method [COM], HeapMinimize method [COM],IMalloc interface, IMalloc interface [COM],HeapMinimize method, IMalloc.HeapMinimize, IMalloc::HeapMinimize, _com_imalloc_heapminimize, com.imalloc_heapminimize, objidlbase/IMalloc::HeapMinimize
-f1_keywords:
-- objidlbase/IMalloc.HeapMinimize
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMalloc.HeapMinimize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMalloc::HeapMinimize
+ - objidlbase/IMalloc::HeapMinimize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMalloc.HeapMinimize
 ---
 
 # IMalloc::HeapMinimize
@@ -48,33 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>

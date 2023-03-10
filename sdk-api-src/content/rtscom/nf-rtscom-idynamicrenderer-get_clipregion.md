@@ -1,16 +1,13 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_ClipRegion
 title: IDynamicRenderer::get_ClipRegion (rtscom.h)
-description: Gets or sets the clipping region for the DynamicRenderer Class object.
+description: Gets or sets the clipping region for the DynamicRenderer Class object. (Get)
+helpviewer_keywords: ["ClipRegion property [Tablet PC]","ClipRegion property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","ClipRegion property","IDynamicRenderer.ClipRegion","IDynamicRenderer.get_ClipRegion","IDynamicRenderer.put_ClipRegion","IDynamicRenderer::ClipRegion","IDynamicRenderer::get_ClipRegion","IDynamicRenderer::put_ClipRegion","cf11d03d-8f60-44aa-a296-cc44ddc3930a","get_ClipRegion","rtscom/IDynamicRenderer::ClipRegion","rtscom/IDynamicRenderer::get_ClipRegion","rtscom/IDynamicRenderer::put_ClipRegion","tablet.idynamicrenderer_clipregion"]
 old-location: tablet\idynamicrenderer_clipregion.htm
 tech.root: tablet
 ms.assetid: cf11d03d-8f60-44aa-a296-cc44ddc3930a
 ms.date: 12/05/2018
 ms.keywords: ClipRegion property [Tablet PC], ClipRegion property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],ClipRegion property, IDynamicRenderer.ClipRegion, IDynamicRenderer.get_ClipRegion, IDynamicRenderer.put_ClipRegion, IDynamicRenderer::ClipRegion, IDynamicRenderer::get_ClipRegion, IDynamicRenderer::put_ClipRegion, cf11d03d-8f60-44aa-a296-cc44ddc3930a, get_ClipRegion, rtscom/IDynamicRenderer::ClipRegion, rtscom/IDynamicRenderer::get_ClipRegion, rtscom/IDynamicRenderer::put_ClipRegion, tablet.idynamicrenderer_clipregion
-f1_keywords:
-- rtscom/IDynamicRenderer.ClipRegion
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IDynamicRenderer.ClipRegion
-- IDynamicRenderer.get_ClipRegion
-- IDynamicRenderer.put_ClipRegion
-- IDynamicRenderer.get_ClipRegion
-- IDynamicRenderer.put_ClipRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDynamicRenderer::get_ClipRegion
+ - rtscom/IDynamicRenderer::get_ClipRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IDynamicRenderer.ClipRegion
+ - IDynamicRenderer.get_ClipRegion
+ - IDynamicRenderer.put_ClipRegion
+ - IDynamicRenderer.get_ClipRegion
+ - IDynamicRenderer.put_ClipRegion
 ---
 
 # IDynamicRenderer::get_ClipRegion
@@ -52,40 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Gets or sets the clipping region for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
+Gets or sets the clipping region for the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Data can be rendered to any defined surface. The collection surface for dynamic rendering may consist of more than one clip rectangle.
 
 <div class="alert"><b>Note</b>  Setting the clipping region does not trigger a redraw.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_cliprectangle">IDynamicRenderer::ClipRectangle Property</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-get_cliprectangle">IDynamicRenderer::ClipRectangle Property</a>

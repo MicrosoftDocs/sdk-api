@@ -2,15 +2,12 @@
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.ShutdownProxyContext
 title: IWMSInternalAdminNetSource::ShutdownProxyContext (wmsinternaladminnetsource.h)
 description: The ShutdownProxyContext method releases the internal resources used by IWMSInternalAdminNetSource::FindProxyForURL. To avoid memory leaks, you must call this method after you are finished making calls to FindProxyForURL.
+helpviewer_keywords: ["IWMSInternalAdminNetSource interface [windows Media Format]","ShutdownProxyContext method","IWMSInternalAdminNetSource.ShutdownProxyContext","IWMSInternalAdminNetSource::ShutdownProxyContext","IWMSInternalAdminNetSourceShutdownProxyContext","ShutdownProxyContext","ShutdownProxyContext method [windows Media Format]","ShutdownProxyContext method [windows Media Format]","IWMSInternalAdminNetSource interface","wmformat.iwmsinternaladminnetsource_shutdownproxycontext","wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext"]
 old-location: wmformat\iwmsinternaladminnetsource_shutdownproxycontext.htm
 tech.root: wmformat
 ms.assetid: 95c6f641-e0b1-4391-b4bd-b43c03a330b4
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],ShutdownProxyContext method, IWMSInternalAdminNetSource.ShutdownProxyContext, IWMSInternalAdminNetSource::ShutdownProxyContext, IWMSInternalAdminNetSourceShutdownProxyContext, ShutdownProxyContext, ShutdownProxyContext method [windows Media Format], ShutdownProxyContext method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_shutdownproxycontext, wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext
-f1_keywords:
-- wmsinternaladminnetsource/IWMSInternalAdminNetSource.ShutdownProxyContext
-dev_langs:
-- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSInternalAdminNetSource.ShutdownProxyContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSInternalAdminNetSource::ShutdownProxyContext
+ - wmsinternaladminnetsource/IWMSInternalAdminNetSource::ShutdownProxyContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSInternalAdminNetSource.ShutdownProxyContext
 ---
 
 # IWMSInternalAdminNetSource::ShutdownProxyContext
@@ -51,39 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>ShutdownProxyContext</b> method releases the internal resources used by <a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-findproxyforurl">IWMSInternalAdminNetSource::FindProxyForURL</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURL</b>.
-
-
-
+The <b>ShutdownProxyContext</b> method releases the internal resources used by <a href="/windows/desktop/api/wmsinternaladminnetsource/nf-wmsinternaladminnetsource-iwmsinternaladminnetsource-findproxyforurl">IWMSInternalAdminNetSource::FindProxyForURL</a>. To avoid memory leaks, you must call this method after you are finished making calls to <b>FindProxyForURL</b>.
 
 ## -parameters
-
-
-
 
 ### -param dwProxyContext [in]
 
 <b>DWORD</b> containing the proxy context. Set this to the last proxy context received from <b>FindProxyForURL</b>.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>

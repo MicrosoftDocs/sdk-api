@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.UpdateSurface
 title: IDirect3DDevice9::UpdateSurface (d3d9helper.h)
-description: Copies rectangular subsets of pixels from one surface to another.
+description: The IDirect3DDevice9::UpdateSurface method (d3d9helper.h) copies rectangular subsets of pixels from one surface to another.
+helpviewer_keywords: ["IDirect3DDevice9 interface [Direct3D 9]","UpdateSurface method","IDirect3DDevice9.UpdateSurface","IDirect3DDevice9::UpdateSurface","UpdateSurface","UpdateSurface method [Direct3D 9]","UpdateSurface method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::UpdateSurface","df5d6a49-ae43-30a0-f148-f2df8e51de81","direct3d9.idirect3ddevice9__updatesurface"]
 old-location: direct3d9\idirect3ddevice9__updatesurface.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__updatesurface.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],UpdateSurface method, IDirect3DDevice9.UpdateSurface, IDirect3DDevice9::UpdateSurface, UpdateSurface, UpdateSurface method [Direct3D 9], UpdateSurface method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::UpdateSurface, df5d6a49-ae43-30a0-f148-f2df8e51de81, direct3d9.idirect3ddevice9__updatesurface
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.UpdateSurface
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.UpdateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::UpdateSurface
+ - d3d9helper/IDirect3DDevice9::UpdateSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.UpdateSurface
 ---
 
 # IDirect3DDevice9::UpdateSurface
@@ -49,57 +51,41 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copies rectangular subsets of pixels from one surface to another. 
-
+Copies rectangular subsets of pixels from one surface to another.
 
 ## -parameters
 
-
-
-
 ### -param pSourceSurface [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface, representing the source surface. This parameter must point to a different surface than pDestinationSurface. 
-
+Pointer to an <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface, representing the source surface. This parameter must point to a different surface than pDestinationSurface.
 
 ### -param pSourceRect [in]
 
 Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to a rectangle on the source surface. Specifying <b>NULL</b> for this parameter causes the entire surface to be copied. 
-
+Pointer to a rectangle on the source surface. Specifying <b>NULL</b> for this parameter causes the entire surface to be copied.
 
 ### -param pDestinationSurface [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface, representing the destination surface.
-
+Pointer to an <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface, representing the destination surface.
 
 ### -param pDestPoint [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">POINT</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">POINT</a>*</b>
 
-Pointer to the upper left corner of the destination rectangle. Specifying <b>NULL</b> for this parameter causes the entire surface to be copied. 
-
+Pointer to the upper left corner of the destination rectangle. Specifying <b>NULL</b> for this parameter causes the entire surface to be copied.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL.
 
-
-
-
 ## -remarks
-
-
 
 This method is similar to CopyRects in DirectX 8.
 
@@ -171,18 +157,8 @@ The following table shows the supported combinations.
 
 * If the driver does not support the requested copy, it will be emulated using lock and copy.
 
-If the application needs to copy data from a D3DPOOL_DEFAULT render target to a D3DPOOL_SYSTEMMEM surface, it can use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">GetRenderTargetData</a>.
-
-
-
+If the application needs to copy data from a D3DPOOL_DEFAULT render target to a D3DPOOL_SYSTEMMEM surface, it can use <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getrendertargetdata">GetRenderTargetData</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>

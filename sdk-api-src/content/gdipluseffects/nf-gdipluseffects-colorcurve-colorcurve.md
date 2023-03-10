@@ -2,15 +2,12 @@
 UID: NF:gdipluseffects.ColorCurve.ColorCurve
 title: ColorCurve::ColorCurve (gdipluseffects.h)
 description: Creates a ColorCurve object.
+helpviewer_keywords: ["ColorCurve","ColorCurve class [GDI+]","ColorCurve constructor","ColorCurve constructor [GDI+]","ColorCurve constructor [GDI+]","ColorCurve class","ColorCurve.ColorCurve","ColorCurve::ColorCurve","_gdiplus_CLASS_ColorCurve_ColorCurve_","gdiplus._gdiplus_CLASS_ColorCurve_ColorCurve_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_ColorCurve_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurveconstructors\colorcurve.htm
 ms.date: 12/05/2018
 ms.keywords: ColorCurve, ColorCurve class [GDI+],ColorCurve constructor, ColorCurve constructor [GDI+], ColorCurve constructor [GDI+],ColorCurve class, ColorCurve.ColorCurve, ColorCurve::ColorCurve, _gdiplus_CLASS_ColorCurve_ColorCurve_, gdiplus._gdiplus_CLASS_ColorCurve_ColorCurve_
-f1_keywords:
-- gdipluseffects/ColorCurve.ColorCurve
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- ColorCurve.ColorCurve
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - ColorCurve::ColorCurve
+ - gdipluseffects/ColorCurve::ColorCurve
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - ColorCurve.ColorCurve
 ---
 
 # ColorCurve::ColorCurve
@@ -49,40 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> object. 
-
-
-## -parameters
-
-
-
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a> object.
 
 
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorcurve">ColorCurve</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorcurve-setparameters">ColorCurve::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colorcurve-setparameters">ColorCurve::SetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorcurveparams">ColorCurveParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorcurveparams">ColorCurveParams</a>
+<a href="/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curveadjustments">CurveAdjustments</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdipluseffects/ne-gdipluseffects-curvechannel">CurveChannel</a>

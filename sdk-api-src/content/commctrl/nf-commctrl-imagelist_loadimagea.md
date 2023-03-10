@@ -1,16 +1,13 @@
 ---
 UID: NF:commctrl.ImageList_LoadImageA
 title: ImageList_LoadImageA function (commctrl.h)
-description: Creates an image list from the specified bitmap.
+description: Creates an image list from the specified bitmap. (ANSI)
+helpviewer_keywords: ["IMAGE_BITMAP", "ImageList_LoadImageA", "LR_CREATEDIBSECTION", "LR_DEFAULTCOLOR", "LR_DEFAULTSIZE", "LR_LOADFROMFILE", "LR_LOADMAP3DCOLORS", "LR_LOADTRANSPARENT", "LR_MONOCHROME", "LR_SHARED", "OBM_ for OEM bitmaps", "OCR_ for OEM cursors", "OIC_ for OEM icons", "commctrl/ImageList_LoadImageA"]
 old-location: controls\ImageList_LoadImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_loadimage.htm
 ms.date: 12/05/2018
 ms.keywords: IMAGE_BITMAP, ImageList_LoadImage, ImageList_LoadImage function [Windows Controls], ImageList_LoadImageA, ImageList_LoadImageW, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, OBM_ for OEM bitmaps, OCR_ for OEM cursors, OIC_ for OEM icons, _win32_ImageList_LoadImage, _win32_ImageList_LoadImage_cpp, commctrl/ImageList_LoadImage, commctrl/ImageList_LoadImageA, commctrl/ImageList_LoadImageW, controls.ImageList_LoadImage, controls._win32_ImageList_LoadImage
-f1_keywords:
-- commctrl/ImageList_LoadImage
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-- comdlg32.dll
-api_name:
-- ImageList_LoadImage
-- ImageList_LoadImageA
-- ImageList_LoadImageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImageList_LoadImageA
+ - commctrl/ImageList_LoadImageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+ - comdlg32.dll
+api_name:
+ - ImageList_LoadImage
+ - ImageList_LoadImageA
+ - ImageList_LoadImageW
 ---
 
 # ImageList_LoadImageA function
@@ -51,25 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an image list from the specified bitmap.
-
 
 ## -parameters
 
-
-
-
 ### -param hi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 A handle to the instance that contains the resource. This parameter can be <b>NULL</b> if you are loading an image from a file or loading an OEM resource.
 
-
 ### -param lpbmp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The image to load. 
 
@@ -77,7 +73,7 @@ If the <i>uFlags</i> parameter includes LR_LOADFROMFILE, <i>lpbmp</i> is the add
 
 If the <i>hi</i> parameter is non-<b>NULL</b> and LR_LOADFROMFILE is not specified, <i>lpbmp</i> is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module.
 
-If <i>hi</i> is <b>NULL</b> and LR_LOADFROMFILE is not specified, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of this parameter must be the identifier of an OEM image to load. To create this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with one of the OEM image identifiers defined in Winuser.h. These identifiers have the following prefixes.
+If <i>hi</i> is <b>NULL</b> and LR_LOADFROMFILE is not specified, the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of this parameter must be the identifier of an OEM image to load. To create this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with one of the OEM image identifiers defined in Winuser.h. These identifiers have the following prefixes.
 
 <table>
 <tr>
@@ -106,15 +102,12 @@ If <i>hi</i> is <b>NULL</b> and LR_LOADFROMFILE is not specified, the <a href="h
 <td width="60%"></td>
 </tr>
 </table>
- 
-
 
 ### -param cx
 
 Type: <b>int</b>
 
-The width of each image. The height of each image and the initial number of images are inferred by the dimensions of the specified resource. 
-
+The width of each image. The height of each image and the initial number of images are inferred by the dimensions of the specified resource.
 
 ### -param cGrow
 
@@ -122,17 +115,15 @@ Type: <b>int</b>
 
 The number of images by which the image list can grow when the system needs to make room for new images. This parameter represents the number of new images that the resized image list can contain.
 
-
 ### -param crMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The color used to generate a mask. Each pixel of this color in the specified bitmap, cursor, or icon is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is the CLR_NONE value, no mask is generated. If this parameter is the CLR_DEFAULT value, the color of the pixel at the upper-left corner of the image is treated as the mask color. 
-
+The color used to generate a mask. Each pixel of this color in the specified bitmap, cursor, or icon is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is the CLR_NONE value, no mask is generated. If this parameter is the CLR_DEFAULT value, the color of the pixel at the upper-left corner of the image is treated as the mask color.
 
 ### -param uType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A flag that specifies the type of image to load. This parameter must be IMAGE_BITMAP to indicate that a bitmap is being loaded. 
 
@@ -156,12 +147,10 @@ Loads a bitmap.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param uFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flags that specify how to load the image. This parameter can be a combination of the following values. 
 
@@ -267,36 +256,24 @@ Shares the image handle if the image is loaded multiple times. Do not use this v
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HIMAGELIST</b>
 
 Returns the handle to the image list if successful, or <b>NULL</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 LR_LOADTRANSPARENT does not load the image transparently. It creates an opaque image list that only appears transparent because all the background pixels have been changed to COLOR_WINDOW. If the images are drawn over a background that is not the color COLOR_WINDOW, the image does not draw properly. Also, LR_LOADTRANSPARENT and LR_LOADMAP3DCOLORS use the system colors that were in effect at the time that <b>ImageList_LoadImage</b> was called. If the system colors subsequently change, the application must reload the image to remap the colors.
 
 
 
 
+
+> [!NOTE]
+> The commctrl.h header defines ImageList_LoadImage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiLocateComponentW
 title: MsiLocateComponentW function (msi.h)
-description: The MsiLocateComponent function returns the full path to an installed component without a product code.
+description: The MsiLocateComponent function returns the full path to an installed component without a product code. (Unicode)
+helpviewer_keywords: ["MsiLocateComponent", "MsiLocateComponent function", "MsiLocateComponentW", "_msi_msilocatecomponent", "msi/MsiLocateComponent", "msi/MsiLocateComponentW", "setup.msilocatecomponent"]
 old-location: setup\msilocatecomponent.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 5b6235c5-9a64-4b4e-9f2c-42ed73400cbe
 ms.date: 12/05/2018
 ms.keywords: MsiLocateComponent, MsiLocateComponent function, MsiLocateComponentA, MsiLocateComponentW, _msi_msilocatecomponent, msi/MsiLocateComponent, msi/MsiLocateComponentA, msi/MsiLocateComponentW, setup.msilocatecomponent
-f1_keywords:
-- msi/MsiLocateComponent
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiLocateComponent
-- MsiLocateComponentA
-- MsiLocateComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiLocateComponentW
+ - msi/MsiLocateComponentW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiLocateComponent
+ - MsiLocateComponentA
+ - MsiLocateComponentW
 ---
 
 # MsiLocateComponentW function
@@ -50,27 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiLocateComponent</b> function returns the full path to an installed component without a product code. This function attempts to determine the product using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetproductcodea">MsiGetProductCode</a>, but is not guaranteed to find the correct product for the caller. 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a> should always be called when possible.
-
+<a href="/windows/desktop/api/msi/nf-msi-msigetproductcodea">MsiGetProductCode</a>, but is not guaranteed to find the correct product for the caller. 
+<a href="/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a> should always be called when possible.
 
 ## -parameters
-
-
-
 
 ### -param szComponent [in]
 
 Specifies the component ID of the component to be located.
 
-
 ### -param lpPathBuf [out]
 
 Pointer to a variable that receives the path to the component. The variable includes the terminating null character.
-
 
 ### -param pcchBuf [in, out]
 
@@ -82,10 +77,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -181,14 +173,8 @@ The product code or component ID is unknown. See Remarks.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MsiLocateComponent</b> function might return INSTALLSTATE_ABSENT or INSTALL_STATE_UNKNOWN, for the following reasons:
@@ -198,17 +184,17 @@ The
 
 
 The application did not properly ensure that the feature was installed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
 
 </li>
 <li>INSTALLSTATE_UNKNOWN 
 
 
 The feature is not published. The application should have determined this earlier by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
+<a href="/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
+<a href="/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
 <b>MsiUseFeature</b> was not called, or its return value was not properly checked.
 
 </li>
@@ -216,13 +202,10 @@ The feature is not published. The application should have determined this earlie
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiLocateComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>

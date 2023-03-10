@@ -4,7 +4,7 @@ title: OOBE APIs for setup state and notification
 ms.assetid: 53912da4-42c2-33af-8b53-5bbaa7bfd68c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # OOBE APIs for setup state and notification
@@ -18,5 +18,4 @@ To develop OOBE APIs for setup state and notification, you need these headers:
  * [oobenotification.h](../oobenotification/index.md)
 
 For programming guidance for this technology, see:
-* [OOBE APIs for setup state and notification](https://docs.microsoft.com/previous-versions/windows/desktop/wnf)
-
+* [OOBE APIs for setup state and notification](/previous-versions/windows/desktop/wnf)

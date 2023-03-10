@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatch.EndUnorderedGroup
 title: ISyncChangeBatch::EndUnorderedGroup (winsync.h)
 description: Closes a previously opened unordered group in the change batch.
+helpviewer_keywords: ["EndUnorderedGroup","EndUnorderedGroup method [Windows Sync]","EndUnorderedGroup method [Windows Sync]","ISyncChangeBatch interface","ISyncChangeBatch interface [Windows Sync]","EndUnorderedGroup method","ISyncChangeBatch.EndUnorderedGroup","ISyncChangeBatch::EndUnorderedGroup","winsync.isyncchangebatch_endunorderedgroup","winsync/ISyncChangeBatch::EndUnorderedGroup"]
 old-location: winsync\isyncchangebatch_endunorderedgroup.htm
 tech.root: winsync
 ms.assetid: ca9c37ca-6aa0-437d-b933-ca7d943e4ef2
 ms.date: 12/05/2018
 ms.keywords: EndUnorderedGroup, EndUnorderedGroup method [Windows Sync], EndUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],EndUnorderedGroup method, ISyncChangeBatch.EndUnorderedGroup, ISyncChangeBatch::EndUnorderedGroup, winsync.isyncchangebatch_endunorderedgroup, winsync/ISyncChangeBatch::EndUnorderedGroup
-f1_keywords:
-- winsync/ISyncChangeBatch.EndUnorderedGroup
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatch.EndUnorderedGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatch::EndUnorderedGroup
+ - winsync/ISyncChangeBatch::EndUnorderedGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatch.EndUnorderedGroup
 ---
 
 # ISyncChangeBatch::EndUnorderedGroup
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a previously opened unordered group in the change batch.
 
-
 ## -parameters
-
-
-
 
 ### -param pMadeWithKnowledge [in]
 
 The made-with knowledge for the changes in the group. Typically, this is the knowledge of the replica that made this group.
 
-
 ### -param fAllChangesForKnowledge [in]
 
 <b>TRUE</b> when all the changes contained in <i>pMadeWithKnowledge</i> are included in this change batch; otherwise, <b>FALSE</b>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -109,22 +102,11 @@ No group is open or an ordered group is open.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

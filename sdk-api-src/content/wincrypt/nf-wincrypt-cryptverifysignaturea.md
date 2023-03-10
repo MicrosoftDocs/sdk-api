@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptVerifySignatureA
 title: CryptVerifySignatureA function (wincrypt.h)
-description: Verifies the signature of a hash object.
+description: Verifies the signature of a hash object. (ANSI)
+helpviewer_keywords: ["CRYPT_NOHASHOID", "CRYPT_TYPE2_FORMAT", "CRYPT_X931_FORMAT", "CryptVerifySignatureA", "wincrypt/CryptVerifySignatureA"]
 old-location: security\cryptverifysignature.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3119eabc-90ff-42c6-b3fa-e8be625f6d1e
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerifySignature, CryptVerifySignature function [Security], CryptVerifySignatureA, CryptVerifySignatureW, _crypto2_cryptverifysignature, security.cryptverifysignature, wincrypt/CryptVerifySignature, wincrypt/CryptVerifySignatureA, wincrypt/CryptVerifySignatureW
-f1_keywords:
-- wincrypt/CryptVerifySignature
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptVerifySignature
-- CryptVerifySignatureA
-- CryptVerifySignatureW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptVerifySignatureA
+ - wincrypt/CryptVerifySignatureA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptVerifySignature
+ - CryptVerifySignatureA
+ - CryptVerifySignatureW
 ---
 
 # CryptVerifySignatureA function
@@ -52,47 +54,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptVerifySignature</b> function verifies the signature of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptVerifySignature</b> function verifies the signature of a <a href="/windows/desktop/SecGloss/h-gly">hash object</a>.
 
 Before calling this function, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> must be called to create the handle of a hash object. 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> is then used to add data or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a> to the hash object.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> must be called to create the handle of a hash object. 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> is then used to add data or <a href="/windows/desktop/SecGloss/s-gly">session keys</a> to the hash object.
 
 After <b>CryptVerifySignature</b> completes, only 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> can be called by using the <i>hHash</i> handle.
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> can be called by using the <i>hHash</i> handle.
 
 ## -parameters
-
-
-
 
 ### -param hHash [in]
 
 A handle to the hash object to verify.
 
-
 ### -param pbSignature [in]
 
 The address of the signature data to be verified.
-
 
 ### -param dwSigLen [in]
 
 The number of bytes in the <i>pbSignature</i> signature data.
 
-
 ### -param hPubKey [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> to use to authenticate the signature. This public key must belong to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pair</a> that was originally used to create the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a>.
-
+A handle to the <a href="/windows/desktop/SecGloss/p-gly">public key</a> to use to authenticate the signature. This public key must belong to the <a href="/windows/desktop/SecGloss/k-gly">key pair</a> that was originally used to create the <a href="/windows/desktop/SecGloss/d-gly">digital signature</a>.
 
 ### -param szDescription [in]
 
 This parameter should no longer be used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
-
 
 ### -param dwFlags [in]
 
@@ -115,7 +107,7 @@ The following flag values are defined.
 </dl>
 </td>
 <td width="60%">
-This flag is used with RSA providers. When verifying the signature, the hash <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is not expected to be present or checked. If this flag is not set, the hash OID in the default signature is verified as specified in the definition of DigestInfo in PKCS #7. 
+This flag is used with RSA providers. When verifying the signature, the hash <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is not expected to be present or checked. If this flag is not set, the hash OID in the default signature is verified as specified in the definition of DigestInfo in PKCS #7. 
 
 
 
@@ -146,17 +138,13 @@ Use X.931 support for the FIPS 186-2–compliant version of RSA (rDSA).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by "NTE" are generated by the particular CSP you are using. Some possible error codes follow.
 
@@ -216,7 +204,7 @@ The hash object specified by the <i>hHash</i> parameter is not valid.
 </dl>
 </td>
 <td width="60%">
-The <i>hPubKey</i> parameter does not contain a handle to a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a>.
+The <i>hPubKey</i> parameter does not contain a handle to a valid <a href="/windows/desktop/SecGloss/p-gly">public key</a>.
 
 </td>
 </tr>
@@ -240,7 +228,7 @@ This error can also be returned if the hashing or signature algorithms do not ma
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) context that was specified when the hash object was created cannot be found.
+The <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) context that was specified when the hash object was created cannot be found.
 
 </td>
 </tr>
@@ -256,60 +244,51 @@ The CSP ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>CryptVerifySignature</b> function completes the hash. After this call, no more data can be added to the hash. Additional calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> fail. After the application is done with the hash, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> should be called to destroy the hash object.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> fail. After the application is done with the hash, 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> should be called to destroy the hash object.
 
-If you generate a signature by using the .NET Framework APIs and try to verify it by using the <b>CryptVerifySignature</b> function, the function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return  <b>NTE_BAD_SIGNATURE</b>. This is due to the different byte orders between the native Win32 API  and the .NET Framework API.
+If you generate a signature by using the .NET Framework APIs and try to verify it by using the <b>CryptVerifySignature</b> function, the function will fail and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return  <b>NTE_BAD_SIGNATURE</b>. This is due to the different byte orders between the native Win32 API  and the .NET Framework API.
 
 The native cryptography API uses little-endian byte order while the .NET Framework API uses big-endian byte order. If you are verifying a  signature generated by using a .NET Framework API, you must swap the order of signature bytes before calling the <b>CryptVerifySignature</b> function to verify the signature.
 
 
 #### Examples
 
-For an example that uses the <b>CryptVerifySignature</b> function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-signing-a-hash-and-verifying-the-hash-signature">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
+For an example that uses the <b>CryptVerifySignature</b> function, see <a href="/windows/desktop/SecCrypto/example-c-program-signing-a-hash-and-verifying-the-hash-signature">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The wincrypt.h header defines CryptVerifySignature as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>

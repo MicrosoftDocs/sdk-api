@@ -2,15 +2,12 @@
 UID: NS:ddkmapi._DDCLOSEHANDLE
 title: DDCLOSEHANDLE (ddkmapi.h)
 description: The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, video port extensions (VPE) object, or VPE capture handle.
+helpviewer_keywords: ["*LPDDCLOSEHANDLE","DDCLOSEHANDLE","DDCLOSEHANDLE structure [Display Devices]","LPDDCLOSEHANDLE","LPDDCLOSEHANDLE structure pointer [Display Devices]","ddkmapi/DDCLOSEHANDLE","ddkmapi/LPDDCLOSEHANDLE","ddstrcts_6f935c9b-9a18-4002-adcd-f9f203251e84.xml","display.ddclosehandle"]
 old-location: display\ddclosehandle.htm
 tech.root: display
 ms.assetid: 180612e0-6014-4a14-82a7-3ab2058b1cf3
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCLOSEHANDLE, DDCLOSEHANDLE, DDCLOSEHANDLE structure [Display Devices], LPDDCLOSEHANDLE, LPDDCLOSEHANDLE structure pointer [Display Devices], ddkmapi/DDCLOSEHANDLE, ddkmapi/LPDDCLOSEHANDLE, ddstrcts_6f935c9b-9a18-4002-adcd-f9f203251e84.xml, display.ddclosehandle'
-f1_keywords:
-- ddkmapi/DDCLOSEHANDLE
-dev_langs:
-- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkmapi.h
-api_name:
-- DDCLOSEHANDLE
 targetos: Windows
 req.typenames: DDCLOSEHANDLE, *LPDDCLOSEHANDLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDCLOSEHANDLE
+ - ddkmapi/_DDCLOSEHANDLE
+ - LPDDCLOSEHANDLE
+ - ddkmapi/LPDDCLOSEHANDLE
+ - DDCLOSEHANDLE
+ - ddkmapi/DDCLOSEHANDLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkmapi.h
+api_name:
+ - DDCLOSEHANDLE
 ---
 
 # DDCLOSEHANDLE structure
@@ -48,31 +54,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object, or VPE capture handle. 
-
+The DDCLOSEHANDLE structure contains the Microsoft DirectDraw object, surface, <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object, or VPE capture handle.
 
 ## -struct-fields
-
-
-
 
 ### -field hHandle
 
 Handle to be closed.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff550606(v=vs.85)">DD_DXAPI_CLOSEHANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550606(v=vs.85)">DD_DXAPI_CLOSEHANDLE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

@@ -2,15 +2,12 @@
 UID: NF:msinkaut15.IInkDivider.Divide
 title: IInkDivider::Divide (msinkaut15.h)
 description: Returns a IInkDivisionResult object that contains the results of the layout analysis of strokes in the InkDivider object.
+helpviewer_keywords: ["Divide","Divide method [Tablet PC]","Divide method [Tablet PC]","IInkDivider interface","IInkDivider","IInkDivider interface [Tablet PC]","Divide method","IInkDivider.Divide","IInkDivider::Divide","be42ac65-2bde-4439-a82b-3453c0737717","msinkaut15/IInkDivider::Divide","tablet.inkdivider_divide"]
 old-location: tablet\inkdivider_divide.htm
 tech.root: tablet
 ms.assetid: be42ac65-2bde-4439-a82b-3453c0737717
 ms.date: 12/05/2018
 ms.keywords: Divide, Divide method [Tablet PC], Divide method [Tablet PC],IInkDivider interface, IInkDivider, IInkDivider interface [Tablet PC],Divide method, IInkDivider.Divide, IInkDivider::Divide, be42ac65-2bde-4439-a82b-3453c0737717, msinkaut15/IInkDivider::Divide, tablet.inkdivider_divide
-f1_keywords:
-- msinkaut15/IInkDivider.Divide
-dev_langs:
-- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Inkdiv.dll
-- Inkdiv.dll.dll
-api_name:
-- IInkDivider.Divide
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkDivider::Divide
+ - msinkaut15/IInkDivider::Divide
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Inkdiv.dll
+ - Inkdiv.dll.dll
+api_name:
+ - IInkDivider.Divide
 ---
 
 # IInkDivider::Divide
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains the results of the layout analysis of strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
-
-
-
+Returns a <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains the results of the layout analysis of strokes in the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
 
 ## -parameters
 
-
-
-
 ### -param InkDivisionResult [out, retval]
 
-When this method returns, contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains structural information about the strokes in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
-
+When this method returns, contains a pointer to an <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object that contains structural information about the strokes in the <a href="/windows/desktop/tablet/inkdivider-class">InkDivider</a> object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -144,35 +135,19 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method returns a new <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object each time this method is called.
-
-
-
+This method returns a new <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult</a> object each time this method is called.
 
 ## -see-also
 
+<a href="../msinkaut15/nn-msinkaut15-iinkdivider.md">IInkDivider</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
+<a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionresult">IInkDivisionResult Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>

@@ -2,15 +2,12 @@
 UID: NS:cryptxml._CRYPT_XML_ALGORITHM_INFO
 title: CRYPT_XML_ALGORITHM_INFO (cryptxml.h)
 description: Contains algorithm information.
+helpviewer_keywords: ["*PCRYPT_XML_ALGORITHM_INFO","CRYPT_XML_ALGORITHM_INFO","CRYPT_XML_ALGORITHM_INFO structure [Security]","CRYPT_XML_GROUP_ID_HASH","CRYPT_XML_GROUP_ID_SIGN","PCRYPT_XML_ALGORITHM_INFO","PCRYPT_XML_ALGORITHM_INFO structure pointer [Security]","cryptxml/CRYPT_XML_ALGORITHM_INFO","cryptxml/PCRYPT_XML_ALGORITHM_INFO","security.crypt_xml_algorithm_info"]
 old-location: security\crypt_xml_algorithm_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ab6ec092-d25d-4ca0-8206-b7e5ad36d69b
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO, CRYPT_XML_ALGORITHM_INFO structure [Security], CRYPT_XML_GROUP_ID_HASH, CRYPT_XML_GROUP_ID_SIGN, PCRYPT_XML_ALGORITHM_INFO, PCRYPT_XML_ALGORITHM_INFO structure pointer [Security], cryptxml/CRYPT_XML_ALGORITHM_INFO, cryptxml/PCRYPT_XML_ALGORITHM_INFO, security.crypt_xml_algorithm_info'
-f1_keywords:
-- cryptxml/CRYPT_XML_ALGORITHM_INFO
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cryptxml.h
-api_name:
-- CRYPT_XML_ALGORITHM_INFO
 targetos: Windows
 req.typenames: CRYPT_XML_ALGORITHM_INFO, *PCRYPT_XML_ALGORITHM_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_XML_ALGORITHM_INFO
+ - cryptxml/_CRYPT_XML_ALGORITHM_INFO
+ - PCRYPT_XML_ALGORITHM_INFO
+ - cryptxml/PCRYPT_XML_ALGORITHM_INFO
+ - CRYPT_XML_ALGORITHM_INFO
+ - cryptxml/CRYPT_XML_ALGORITHM_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cryptxml.h
+api_name:
+ - CRYPT_XML_ALGORITHM_INFO
 ---
 
 # CRYPT_XML_ALGORITHM_INFO structure
@@ -48,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CRYPT_XML_ALGORITHM_INFO</b> structure contains algorithm information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
 
-
 ### -field wszAlgorithmURI
 
 A pointer to a null-terminated Unicode string that contains the URI associated with the attribute of the <b>SignatureMethod</b> or <b>DigestMethod</b> element of the XML signature.
 
-
 ### -field wszName
 
 Optional. A pointer to a null-terminated Unicode string that contains the display name of the algorithm.
-
 
 ### -field dwGroupId
 
@@ -104,8 +102,6 @@ Signature algorithms
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wszCNGAlgid
 
@@ -115,8 +111,6 @@ A pointer to a null-terminated Unicode string that contains an algorithm identif
 <div class="alert"><b>Note</b>  BCrypt* and NCrypt* functions are defined in Bcrypt.h and Ncrypt.h.</div>
 <div> </div>
 
-
-
 ### -field wszCNGExtraAlgid
 
 A pointer to a null-terminated Unicode string that contains an extra algorithm string, other than the string in the <b>pwszCNGAlgid</b> member, that is passed to CNG functions.
@@ -125,22 +119,17 @@ A pointer to a null-terminated Unicode string that contains an extra algorithm s
 <div class="alert"><b>Note</b>  BCrypt* and NCrypt* functions are defined in Bcrypt.h and Ncrypt.h.</div>
 <div> </div>
 
-
-
 ### -field dwSignFlags
 
-A <b>DWORD</b> value that contains flag values to be  passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function.
-
+A <b>DWORD</b> value that contains flag values to be  passed to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> function.
 
 ### -field dwVerifyFlags
 
-A <b>DWORD</b> value that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function.
-
+A <b>DWORD</b> value that is passed to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function.
 
 ### -field pvPaddingInfo
 
-A pointer to a structure that contains padding information to be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> or <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function. The actual type of structure this member points to depends on the value of the <b>dwGroupId</b> member.
-
+A pointer to a structure that contains padding information to be passed to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsignhash">NCryptSignHash</a> or <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a> function. The actual type of structure this member points to depends on the value of the <b>dwGroupId</b> member.
 
 ### -field pvExtraInfo
 
@@ -150,19 +139,10 @@ Optional. A pointer to a structure that contains extra information that can be p
 <div class="alert"><b>Note</b>  BCrypt* and NCrypt* functions are defined in Bcrypt.h and Ncrypt.h.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/xml-digital-signature-cryptographic-algorithms">Digital Signature Cryptographic Algorithms</a>

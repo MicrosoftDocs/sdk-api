@@ -1,16 +1,13 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_0
+UID: NS:iscsidsc.ISCSI_LOGIN_OPTIONS
 title: ISCSI_LOGIN_OPTIONS (iscsidsc.h)
 description: ISCSI_LOGIN_OPTIONS structure is used by initiators to specify the characteristics of a login session.
+helpviewer_keywords: ["*PISCSI_LOGIN_OPTIONS","ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING","ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED","ISCSI_LOGIN_FLAG_REQUIRE_IPSEC","ISCSI_LOGIN_FLAG_RESERVED1","ISCSI_LOGIN_OPTIONS","ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API]","ISCSI_LOGIN_OPTIONS_AUTH_TYPE","ISCSI_LOGIN_OPTIONS_DATA_DIGEST","ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN","ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT","ISCSI_LOGIN_OPTIONS_HEADER_DIGEST","ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS","ISCSI_LOGIN_OPTIONS_PASSWORD","ISCSI_LOGIN_OPTIONS_USERNAME","PISCSI_LOGIN_OPTIONS","PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_login_options","iscsidsc/ISCSI_LOGIN_OPTIONS","iscsidsc/PISCSI_LOGIN_OPTIONS"]
 old-location: iscsidisc\iscsi_login_options.htm
 tech.root: iSCSIDisc
 ms.assetid: 7d45be86-3d85-4253-aef7-92e05379f1b2
 ms.date: 12/05/2018
 ms.keywords: '*PISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_FLAG_ALLOW_PORTAL_HOPPING, ISCSI_LOGIN_FLAG_MULTIPATH_ENABLED, ISCSI_LOGIN_FLAG_REQUIRE_IPSEC, ISCSI_LOGIN_FLAG_RESERVED1, ISCSI_LOGIN_OPTIONS, ISCSI_LOGIN_OPTIONS structure [iSCSI Discovery Library API], ISCSI_LOGIN_OPTIONS_AUTH_TYPE, ISCSI_LOGIN_OPTIONS_DATA_DIGEST, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_RETAIN, ISCSI_LOGIN_OPTIONS_DEFAULT_TIME_2_WAIT, ISCSI_LOGIN_OPTIONS_HEADER_DIGEST, ISCSI_LOGIN_OPTIONS_MAXIMUM_CONNECTIONS, ISCSI_LOGIN_OPTIONS_PASSWORD, ISCSI_LOGIN_OPTIONS_USERNAME, PISCSI_LOGIN_OPTIONS, PISCSI_LOGIN_OPTIONS structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_login_options, iscsidsc/ISCSI_LOGIN_OPTIONS, iscsidsc/PISCSI_LOGIN_OPTIONS'
-f1_keywords:
-- iscsidsc/ISCSI_LOGIN_OPTIONS
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iscsidsc.h
-api_name:
-- ISCSI_LOGIN_OPTIONS
 targetos: Windows
 req.typenames: ISCSI_LOGIN_OPTIONS, *PISCSI_LOGIN_OPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PISCSI_LOGIN_OPTIONS
+ - iscsidsc/PISCSI_LOGIN_OPTIONS
+ - ISCSI_LOGIN_OPTIONS
+ - iscsidsc/ISCSI_LOGIN_OPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iscsidsc.h
+api_name:
+ - ISCSI_LOGIN_OPTIONS
 ---
 
 # ISCSI_LOGIN_OPTIONS structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ISCSI_LOGIN_OPTIONS</b> structure is used by initiators to specify the characteristics of a login session.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of login option definitions that define the data in the structure. This member must be set to ISCSI_LOGIN_OPTIONS_VERSION 0.
-
 
 ### -field InformationSpecified
 
@@ -152,8 +150,6 @@ Specifies the type of authentication that establishes the login session.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LoginFlags
 
@@ -205,98 +201,62 @@ Multipathing is allowed. When specified the iSCSI Initiator service will allow m
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AuthType
 
-An enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_auth_types">ISCSI_AUTH_TYPES</a> that indicates the authentication type. 
-
-
+An enumerator value of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_auth_types">ISCSI_AUTH_TYPES</a> that indicates the authentication type.
 
 ### -field HeaderDigest
 
-An enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data. 
-
+An enumerator value of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of header data.
 
 ### -field DataDigest
 
-An enumerator value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data. 
-
+An enumerator value of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> that indicates the type of digest for guaranteeing the integrity of non-header data.
 
 ### -field MaximumConnections
 
-A value between 1 and 65535 that specifies the maximum number of connections to the target device that can be associated with the login session. 
-
+A value between 1 and 65535 that specifies the maximum number of connections to the target device that can be associated with the login session.
 
 ### -field DefaultTime2Wait
 
 The minimum time to wait, in seconds, before attempting to reconnect or reassign a connection that has been dropped.
 
-
 ### -field DefaultTime2Retain
 
 The maximum time allowed to reassign a connection after the initial wait indicated in <b>DefaultTime2Wait</b> has elapsed.
 
-
 ### -field UsernameLength
 
-The length, in bytes, of the user name specified in the <b>Username</b> member. 
-
+The length, in bytes, of the user name specified in the <b>Username</b> member.
 
 ### -field PasswordLength
 
 The length, in bytes, of the user name specified in the <b>Password</b> member.
 
-
 ### -field Username
 
-The user name to authenticate to establish the login session. This value is not necessarily a string. For more information, see the Remarks section in this document. 
-
-
+The user name to authenticate to establish the login session. This value is not necessarily a string. For more information, see the Remarks section in this document.
 
 ### -field size_is
 
- 
-
-
 ### -field size_is.UsernameLength
-
- 
-
 
 ### -field Password
 
 The user name to authenticate to establish the login session. This value is not necessarily a string. For more information, see the Remarks section in this document.
 
-
 ### -field size_is.PasswordLength
-
- 
-
-
-
 
 ## -remarks
 
-
-
-Initiators use the <b>ISCSI_LOGIN_OPTIONS</b> structure when creating a login session with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a> routine.
+Initiators use the <b>ISCSI_LOGIN_OPTIONS</b> structure when creating a login session with the <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a> routine.
 
 The <b>Username</b> and <b>Password</b> members are either strings or binary values that are used for iSCSI authentication. The exact meaning and function of these two values depends on the type of authentication used. For the Challenge Handshake Authentication Protocol (CHAP), the value in the <b>Username</b> member is the CHAP name, and the value in the <b>Password</b> member is the shared secret of the target. If there is no value specified in <b>Username</b>, the initiator node name is used as the CHAP name.
 
 If the authentication protocol requires that these two values be strings, they must be ANSI strings.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIScsiTarget</a>
 

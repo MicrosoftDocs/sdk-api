@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdate5.get_AutoDownload
 title: IUpdate5::get_AutoDownload (wuapi.h)
 description: Gets a value indicating the automatic download mode of update.
+helpviewer_keywords: ["AutoDownload property [Windows Update Agent]","AutoDownload property [Windows Update Agent]","IUpdate5 interface","IUpdate5 interface [Windows Update Agent]","AutoDownload property","IUpdate5.AutoDownload","IUpdate5.get_AutoDownload","IUpdate5::AutoDownload","IUpdate5::get_AutoDownload","get_AutoDownload","wua.iupdate5_autodownload","wuapi/IUpdate5::AutoDownload","wuapi/IUpdate5::get_AutoDownload"]
 old-location: wua\iupdate5_autodownload.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b8819ba8-7333-488c-b337-0a51f995d942
 ms.date: 12/05/2018
 ms.keywords: AutoDownload property [Windows Update Agent], AutoDownload property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoDownload property, IUpdate5.AutoDownload, IUpdate5.get_AutoDownload, IUpdate5::AutoDownload, IUpdate5::get_AutoDownload, get_AutoDownload, wua.iupdate5_autodownload, wuapi/IUpdate5::AutoDownload, wuapi/IUpdate5::get_AutoDownload
-f1_keywords:
-- wuapi/IUpdate5.AutoDownload
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdate5.AutoDownload
-- IUpdate5.get_AutoDownload
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdate5::get_AutoDownload
+ - wuapi/IUpdate5::get_AutoDownload
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdate5.AutoDownload
+ - IUpdate5.get_AutoDownload
 ---
 
 # IUpdate5::get_AutoDownload
@@ -49,31 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value indicating the automatic download mode of update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The AutoDownload property indicates whether the update will be automatically downloaded by Automatic Updates.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>

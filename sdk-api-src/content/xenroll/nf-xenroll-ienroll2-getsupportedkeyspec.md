@@ -2,15 +2,12 @@
 UID: NF:xenroll.IEnroll2.GetSupportedKeySpec
 title: IEnroll2::GetSupportedKeySpec (xenroll.h)
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations.
+helpviewer_keywords: ["GetSupportedKeySpec","GetSupportedKeySpec method [Security]","GetSupportedKeySpec method [Security]","IEnroll2 interface","IEnroll2 interface [Security]","GetSupportedKeySpec method","IEnroll2.GetSupportedKeySpec","IEnroll2::GetSupportedKeySpec","security.ienroll4_getsupportedkeyspec","xenroll/IEnroll2::GetSupportedKeySpec"]
 old-location: security\ienroll4_getsupportedkeyspec.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8f7ace8e-0102-4c89-9d8a-e252ad60bb96
 ms.date: 12/05/2018
 ms.keywords: GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetSupportedKeySpec method, IEnroll2.GetSupportedKeySpec, IEnroll2::GetSupportedKeySpec, security.ienroll4_getsupportedkeyspec, xenroll/IEnroll2::GetSupportedKeySpec
-f1_keywords:
-- xenroll/IEnroll2.GetSupportedKeySpec
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll2.GetSupportedKeySpec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll2::GetSupportedKeySpec
+ - xenroll/IEnroll2::GetSupportedKeySpec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll2.GetSupportedKeySpec
 ---
 
 # IEnroll2::GetSupportedKeySpec
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+The <b>GetSupportedKeySpec</b> method retrieves information regarding the current <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) support for signature and/or exchange operations. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 The values retrieved by this method are dependent upon the current CSP.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwKeySpec [out]
 
-A pointer to a <b>LONG</b> that receives a bit flag indicating whether the current CSP supports <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange</a> and/or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature keys</a>.
-
+A pointer to a <b>LONG</b> that receives a bit flag indicating whether the current CSP supports <a href="/windows/desktop/SecGloss/e-gly">exchange</a> and/or <a href="/windows/desktop/SecGloss/s-gly">signature keys</a>.
 
 ## -returns
 
-
-
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. If a CSP does not support this method, an error is returned.
 
-
-
-
 ## -remarks
-
-
-
 
 Call this method to determine whether the current CSP supports exchange keys, signature keys, or both. The <i>pdwKeySpec</i> parameter will contain one or more of the following constants (defined in in Wincrypt.h):
 
@@ -87,17 +75,6 @@ Call this method to determine whether the current CSP supports exchange keys, si
 <li>AT_SIGNATURE.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>

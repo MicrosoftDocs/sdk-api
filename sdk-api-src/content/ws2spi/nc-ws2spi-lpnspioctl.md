@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPIOCTL
 title: LPNSPIOCTL (ws2spi.h)
 description: Sends an IOCTL to a namespace service provider.
+helpviewer_keywords: ["LPNSPIOCTL","NSPIoctl","NSPIoctl function [Winsock]","SIO_NSP_NOTIFY_CHANGE","winsock.nspioctl","ws2spi/NSPIoctl"]
 old-location: winsock\nspioctl.htm
 tech.root: WinSock
 ms.assetid: 061969f5-dbb5-47d7-820d-5af6fe6a0c62
 ms.date: 12/05/2018
 ms.keywords: LPNSPIOCTL, NSPIoctl, NSPIoctl function [Winsock], SIO_NSP_NOTIFY_CHANGE, winsock.nspioctl, ws2spi/NSPIoctl
-f1_keywords:
-- ws2spi/NSPIoctl
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPIoctl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPIOCTL
+ - ws2spi/LPNSPIOCTL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPIoctl
 ---
 
 # LPNSPIOCTL callback function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The **NSPIoctl** function sends  an IOCTL to a namespace service provider.
 
-
 ## -parameters
-
-
-
 
 ### -param hLookup [in]
 
 The lookup handle returned from a previous call to the 
-<a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> function. 
-
+<a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> function.
 
 ### -param dwControlCode [in]
 
@@ -90,38 +86,30 @@ This operation checks if the results returned with previous calls using the <i>h
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpvInBuffer [in]
 
 A pointer to the input buffer.
 
-
 ### -param cbInBuffer [in, out]
 
 The size, in bytes, of the input buffer.
-
 
 ### -param lpvOutBuffer [out]
 
 A pointer to the output buffer.
 
-
 ### -param cbOutBuffer [in]
 
 The size, in bytes, of the output buffer.
-
 
 ### -param lpcbBytesReturned [out]
 
 A pointer to the number of bytes returned.
 
-
 ### -param lpCompletion [in]
 
 A pointer to a <a href="/windows/desktop/api/winsock2/ns-winsock2-wsacompletion">WSACOMPLETION</a> structure, used for asynchronous processing. Set <i>lpCompletion</i> to **NULL** to force blocking (synchronous) execution.
-
 
 ### -param lpThreadId [in]
 
@@ -131,10 +119,7 @@ A pointer to a
 **WSATHREADID** structure (not the pointer) until after the 
 **WPUQueueApc** function returns.
 
-
 ## -returns
-
-
 
 If no error occurs and the operation has completed immediately, 
 the **NSPIoctl** function should return **NO_ERROR** (zero). Note that in this case the completion routine, if specified, will have already been queued. 
@@ -231,14 +216,8 @@ This error is used as a special notification for the SIO_NSP_NOTIFY_CHANGE IOCTL
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 **NSPIoctl** function is used to send an I/O control code to a namespace provider in order to set or retrieve operating parameters associated with a query handle. The <i>hLookup</i> parameter is a handle to the namespace provider query previously returned by 
@@ -284,9 +263,9 @@ Not all name resolution protocols are able to support this feature, and therefor
 
 The <i>lpvInBuffer</i>, <i>cbInBuffer</i>, <i>lpvOutBuffer</i>, and <i>cbOutBuffer</i> parameters are currently ignored by Microsoft namespace providers.
 
-For single-threaded applications, a typical method to use the **NSPIoctl** function is as follows. Call the **NSPIoctl** function with the <i>dwControlCode</i> parameter set to **SIO_NSP_NOTIFY_CHANGE** with no completion routine (the <i>lpCompletion</i> parameter set to **NULL**) after every <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a> function  call to make sure the query data is still valid. If the data becomes invalid, call the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a>function to close the query handle. Call the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> function to retrieve a new query handle and begin the query again.
+For single-threaded applications, a typical method to use the **NSPIoctl** function is as follows. Call the **NSPIoctl** function with the <i>dwControlCode</i> parameter set to **SIO_NSP_NOTIFY_CHANGE** with no completion routine (the <i>lpCompletion</i> parameter set to **NULL**) after every <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicenext">NSPLookupServiceNext</a> function  call to make sure the query data is still valid. If the data becomes invalid, call the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a> function to close the query handle. Call the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> function to retrieve a new query handle and begin the query again.
 
-For multithreaded applications, a typical method to use the **NSPIoctl** function is as follows. Call the **NSPIoctl** function with the <i>dwControlCode</i> parameter set to **SIO_NSP_NOTIFY_CHANGE** with a completion routine after the initial call to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> function. The application would use the mechanism for notification specified in the completion routine to be notified when data is no longer valid. One common mechanism is to use an event specified in the completion routine. If the data becomes invalid, call the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a>function to close the query handle. Call the **NSPLookupServiceBegin** and the **NSPIoctl** functions to retrieve a new query handle and begin the query again.
+For multithreaded applications, a typical method to use the **NSPIoctl** function is as follows. Call the **NSPIoctl** function with the <i>dwControlCode</i> parameter set to **SIO_NSP_NOTIFY_CHANGE** with a completion routine after the initial call to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> function. The application would use the mechanism for notification specified in the completion routine to be notified when data is no longer valid. One common mechanism is to use an event specified in the completion routine. If the data becomes invalid, call the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupserviceend">NSPLookupServiceEnd</a> function to close the query handle. Call the **NSPLookupServiceBegin** and the **NSPIoctl** functions to retrieve a new query handle and begin the query again.
 
 Some protocols may simply cache the information locally and invalidate it after some time, in which case notification may be issued to indicate the local cache has been invalidated.
 
@@ -305,12 +284,7 @@ To cancel an asynchronous notification request, end the original query with a
 <div class="alert">**Note**   All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a> for more information.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a>
 
@@ -341,7 +315,4 @@ To cancel an asynchronous notification request, end the original query with a
 
 
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a>
- 
-
- 
 

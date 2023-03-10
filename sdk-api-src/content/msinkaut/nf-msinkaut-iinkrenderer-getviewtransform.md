@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRenderer.GetViewTransform
 title: IInkRenderer::GetViewTransform (msinkaut.h)
 description: Gets the InkTransform object that represents the view transform that is used to render ink.
+helpviewer_keywords: ["8a4d768d-09b6-45e1-b412-e267d92cc3ef","GetViewTransform","GetViewTransform method [Tablet PC]","GetViewTransform method [Tablet PC]","IInkRenderer interface","IInkRenderer interface [Tablet PC]","GetViewTransform method","IInkRenderer.GetViewTransform","IInkRenderer::GetViewTransform","msinkaut/IInkRenderer::GetViewTransform","tablet.inkrenderer_getviewtransform"]
 old-location: tablet\inkrenderer_getviewtransform.htm
 tech.root: tablet
 ms.assetid: 8a4d768d-09b6-45e1-b412-e267d92cc3ef
 ms.date: 12/05/2018
 ms.keywords: 8a4d768d-09b6-45e1-b412-e267d92cc3ef, GetViewTransform, GetViewTransform method [Tablet PC], GetViewTransform method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],GetViewTransform method, IInkRenderer.GetViewTransform, IInkRenderer::GetViewTransform, msinkaut/IInkRenderer::GetViewTransform, tablet.inkrenderer_getviewtransform
-f1_keywords:
-- msinkaut/IInkRenderer.GetViewTransform
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRenderer.GetViewTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRenderer::GetViewTransform
+ - msinkaut/IInkRenderer::GetViewTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRenderer.GetViewTransform
 ---
 
 # IInkRenderer::GetViewTransform
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Gets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the view transform that is used to render ink.
-
-
-
+Gets the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the view transform that is used to render ink.
 
 ## -parameters
-
-
-
 
 ### -param ViewTransform [in]
 
  The matrix that represents the geometric transformation - rotation, scaling, shear, and reflection - values to use to transform the stroke coordinates within the ink space. The transformation applies to both the points and pen width. View transformation occurs after object transformation.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,14 +102,8 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Any translations applied to this transform should be in ink space units (1 unit = .01mm).
 
@@ -126,32 +111,22 @@ Adjusting the view transform is analogous to adjusting the zoom factor on the in
 
 View transformation occurs after object transformation.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform">GetObjectTransform Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform">GetObjectTransform Method</a>
+<a href="../msinkaut/nn-msinkaut-iinkrenderer.md">IInkRenderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform">SetObjectTransform Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform">SetObjectTransform Method</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContextComposition.FindComposition
 title: ITfContextComposition::FindComposition (msctf.h)
 description: ITfContextComposition::FindComposition method
+helpviewer_keywords: ["FindComposition","FindComposition method [Text Services Framework]","FindComposition method [Text Services Framework]","ITfContextComposition interface","ITfContextComposition interface [Text Services Framework]","FindComposition method","ITfContextComposition.FindComposition","ITfContextComposition::FindComposition","_tsf_itfcontextcomposition_findcomposition_ref","msctf/ITfContextComposition::FindComposition","tsf.itfcontextcomposition_findcomposition"]
 old-location: tsf\itfcontextcomposition_findcomposition.htm
 tech.root: TSF
 ms.assetid: f5a7bd54-3b8f-44fd-ae6e-1415cc69c49e
 ms.date: 12/05/2018
 ms.keywords: FindComposition, FindComposition method [Text Services Framework], FindComposition method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],FindComposition method, ITfContextComposition.FindComposition, ITfContextComposition::FindComposition, _tsf_itfcontextcomposition_findcomposition_ref, msctf/ITfContextComposition::FindComposition, tsf.itfcontextcomposition_findcomposition
-f1_keywords:
-- msctf/ITfContextComposition.FindComposition
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfContextComposition.FindComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextComposition::FindComposition
+ - msctf/ITfContextComposition::FindComposition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfContextComposition.FindComposition
 ---
 
 # ITfContextComposition::FindComposition
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates an enumerator object that contains all compositions that intersect a specified range of text.
 
 ## -parameters
 
-
-
-
 ### -param ecRead [in]
 
-Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Contains an edit cookie that identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pTestRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the range to search. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the enumerator will contain all compositions in the edit context.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the range to search. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the enumerator will contain all compositions in the edit context.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a> interface pointer that receives the enumerator object.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a> interface pointer that receives the enumerator object.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -140,31 +133,6 @@ The context object is not on a document stack.
 
 The edit context identified by <i>ecRead</i> does not have a read-only lock.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextcomposition">ITfContextComposition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md),

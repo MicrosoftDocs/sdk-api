@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMDeviceControl.Resume
 title: IWMDMDeviceControl::Resume (mswmdm.h)
 description: The Resume method resumes the current play or record operation from the file position saved during the call to Pause.
+helpviewer_keywords: ["IWMDMDeviceControl interface [windows Media Device Manager]","Resume method","IWMDMDeviceControl.Resume","IWMDMDeviceControl::Resume","IWMDMDeviceControlResume","Resume","Resume method [windows Media Device Manager]","Resume method [windows Media Device Manager]","IWMDMDeviceControl interface","mswmdm/IWMDMDeviceControl::Resume","wmdm.iwmdmdevicecontrol_resume"]
 old-location: wmdm\iwmdmdevicecontrol_resume.htm
 tech.root: WMDM
 ms.assetid: 24ee343c-09ed-4a5f-b7be-eba15dcc4b36
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Resume method, IWMDMDeviceControl.Resume, IWMDMDeviceControl::Resume, IWMDMDeviceControlResume, Resume, Resume method [windows Media Device Manager], Resume method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Resume, wmdm.iwmdmdevicecontrol_resume
-f1_keywords:
-- mswmdm/IWMDMDeviceControl.Resume
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMDeviceControl.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDeviceControl::Resume
+ - mswmdm/IWMDMDeviceControl::Resume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMDeviceControl.Resume
 ---
 
 # IWMDMDeviceControl::Resume
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">Pause</a>.
-
-
-
-
-## -parameters
-
-
-
+The <b>Resume</b> method resumes the current play or record operation from the file position saved during the call to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">Pause</a>.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,26 +109,15 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">IWMDMDeviceControl::Pause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-pause">IWMDMDeviceControl::Pause</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>

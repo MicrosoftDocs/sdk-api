@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSystemId.GetData
 title: IMFSystemId::GetData (mfidl.h)
 description: Retrieves system id data.
+helpviewer_keywords: ["GetData","GetData method [Media Foundation]","GetData method [Media Foundation]","IMFSystemId interface","IMFSystemId interface [Media Foundation]","GetData method","IMFSystemId.GetData","IMFSystemId::GetData","mf.imfsystemid_getdata","mfidl/IMFSystemId::GetData"]
 old-location: mf\imfsystemid_getdata.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5b345a8d-65d1-4780-a7b9-b1025f9fa773
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFSystemId interface, IMFSystemId interface [Media Foundation],GetData method, IMFSystemId.GetData, IMFSystemId::GetData, mf.imfsystemid_getdata, mfidl/IMFSystemId::GetData
-f1_keywords:
-- mfidl/IMFSystemId.GetData
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFSystemId.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSystemId::GetData
+ - mfidl/IMFSystemId::GetData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFSystemId.GetData
 ---
 
 # IMFSystemId::GetData
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves system id data.
 
-
 ## -parameters
-
-
-
 
 ### -param size
 
 The size in bytes of the returned data.
 
-
 ### -param data
 
-Receives the returned data.  The caller must free this buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+Receives the returned data.  The caller must free this buffer by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,18 +83,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>

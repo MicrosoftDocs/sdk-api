@@ -2,15 +2,12 @@
 UID: NF:recapis.CreateRecognizer
 title: CreateRecognizer function (recapis.h)
 description: Creates a recognizer.
+helpviewer_keywords: ["CreateRecognizer","CreateRecognizer function [Tablet PC]","b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6","recapis/CreateRecognizer","tablet.createrecognizer"]
 old-location: tablet\createrecognizer.htm
 tech.root: tablet
 ms.assetid: b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6
 ms.date: 12/05/2018
 ms.keywords: CreateRecognizer, CreateRecognizer function [Tablet PC], b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6, recapis/CreateRecognizer, tablet.createrecognizer
-f1_keywords:
-- recapis/CreateRecognizer
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- CreateRecognizer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateRecognizer
+ - recapis/CreateRecognizer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - CreateRecognizer
 ---
 
 # CreateRecognizer function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates a recognizer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCLSID
 
 CLSID of the recognizer. This value is created in the registry when you register the recognizer.
 
-
 ### -param phrec
 
 Handle for the recognizer.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -137,18 +127,7 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/registering-your-recognizer-dll">Registering Your Recognizer DLL</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/registering-your-recognizer-dll">Registering Your Recognizer DLL</a>

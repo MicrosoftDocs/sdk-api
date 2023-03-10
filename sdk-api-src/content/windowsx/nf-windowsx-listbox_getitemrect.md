@@ -2,15 +2,12 @@
 UID: NF:windowsx.ListBox_GetItemRect
 title: ListBox_GetItemRect macro (windowsx.h)
 description: Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the LB_GETITEMRECT message explicitly.
+helpviewer_keywords: ["ListBox_GetItemRect","ListBox_GetItemRect macro [Windows Controls]","_win32_ListBox_GetItemRect","_win32_ListBox_GetItemRect_cpp","controls.ListBox_GetItemRect","controls._win32_ListBox_GetItemRect","windowsx/ListBox_GetItemRect"]
 old-location: controls\ListBox_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getitemrect.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetItemRect, ListBox_GetItemRect macro [Windows Controls], _win32_ListBox_GetItemRect, _win32_ListBox_GetItemRect_cpp, controls.ListBox_GetItemRect, controls._win32_ListBox_GetItemRect, windowsx/ListBox_GetItemRect
-f1_keywords:
-- windowsx/ListBox_GetItemRect
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ListBox_GetItemRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListBox_GetItemRect
+ - windowsx/ListBox_GetItemRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ListBox_GetItemRect
 ---
 
 # ListBox_GetItemRect macro
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getitemrect">LB_GETITEMRECT</a> message explicitly.
-
+Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-getitemrect">LB_GETITEMRECT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
-
 
 ### -param index
 
@@ -70,10 +66,8 @@ Type: <b>int</b>
 
 The zero-based index of the item in the list box.
 
-
 ### -param lprc
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that receives the client coordinates for the item in the list box.
-

@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteFactory.CreateCustomFontFileReference
 title: IDWriteFactory::CreateCustomFontFileReference (dwrite.h)
 description: Creates a reference to an application-specific font file resource.
+helpviewer_keywords: ["CreateCustomFontFileReference","CreateCustomFontFileReference method [Direct Write]","CreateCustomFontFileReference method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateCustomFontFileReference method","IDWriteFactory.CreateCustomFontFileReference","IDWriteFactory::CreateCustomFontFileReference","directwrite.IDWriteFactory_CreateCustomFontFileReference","dwrite/IDWriteFactory::CreateCustomFontFileReference"]
 old-location: directwrite\IDWriteFactory_CreateCustomFontFileReference.htm
 tech.root: DirectWrite
 ms.assetid: 1c82ffcd-3e43-47cd-9a6c-ff8bd1d2625f
 ms.date: 12/05/2018
 ms.keywords: CreateCustomFontFileReference, CreateCustomFontFileReference method [Direct Write], CreateCustomFontFileReference method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateCustomFontFileReference method, IDWriteFactory.CreateCustomFontFileReference, IDWriteFactory::CreateCustomFontFileReference, directwrite.IDWriteFactory_CreateCustomFontFileReference, dwrite/IDWriteFactory::CreateCustomFontFileReference
-f1_keywords:
-- dwrite/IDWriteFactory.CreateCustomFontFileReference
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFactory.CreateCustomFontFileReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFactory::CreateCustomFontFileReference
+ - dwrite/IDWriteFactory::CreateCustomFontFileReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory.CreateCustomFontFileReference
 ---
 
 # IDWriteFactory::CreateCustomFontFileReference
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Creates a reference to an application-specific font file resource.
-     
-
 
 ## -parameters
-
-
-
 
 ### -param fontFileReferenceKey [in]
 
@@ -65,13 +61,11 @@ Type: <b>const void*</b>
 A font file reference key that uniquely identifies the font file resource
      during the lifetime of <i>fontFileLoader</i>.
 
-
 ### -param fontFileReferenceKeySize
 
 Type: <b>UINT32</b>
 
 The size of the font file reference key in bytes.
-
 
 ### -param fontFileLoader
 
@@ -80,43 +74,25 @@ Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader">IDW
 The font file loader that will be used by the font system to load data from the file identified by
      <i>fontFileReferenceKey</i>.
 
-
 ### -param fontFile [out]
 
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontfile">IDWriteFontFile</a>**</b>
 
 Contains an address of a pointer to the newly created font file object when this method succeeds, or <b>NULL</b> in case of failure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
  This function is provided for cases when an application or a document needs to use a private font
      without having to install it on the system. <i>fontFileReferenceKey</i> has to be unique only in the scope
      of the <i>fontFileLoader</i> used in this call.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
- 
-
- 
 

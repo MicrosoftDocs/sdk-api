@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetLocalInterfaceGUID
 title: IWSDiscoveredService::GetLocalInterfaceGUID (wsddisco.h)
 description: Retrieves the GUID of the local network interface over which the message was received.
+helpviewer_keywords: ["GetLocalInterfaceGUID","GetLocalInterfaceGUID method","GetLocalInterfaceGUID method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetLocalInterfaceGUID method","IWSDiscoveredService.GetLocalInterfaceGUID","IWSDiscoveredService::GetLocalInterfaceGUID","ncd.iwsdiscoveredservice_getlocalinterfaceguid","wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID"]
 old-location: ncd\iwsdiscoveredservice_getlocalinterfaceguid.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 9c66bda4-d21c-443f-a9b0-e05485306bde
 ms.date: 12/05/2018
 ms.keywords: GetLocalInterfaceGUID, GetLocalInterfaceGUID method, GetLocalInterfaceGUID method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalInterfaceGUID method, IWSDiscoveredService.GetLocalInterfaceGUID, IWSDiscoveredService::GetLocalInterfaceGUID, ncd.iwsdiscoveredservice_getlocalinterfaceguid, wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetLocalInterfaceGUID
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetLocalInterfaceGUID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetLocalInterfaceGUID
+ - wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetLocalInterfaceGUID
 ---
 
 # IWSDiscoveredService::GetLocalInterfaceGUID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the GUID of the local network interface over which the message was received.
 
-
 ## -parameters
-
-
-
 
 ### -param pGuid [out]
 
 GUID of the local network interface over which the message was received. Structure will be cleared if the local interface GUID is not available.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,18 +95,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

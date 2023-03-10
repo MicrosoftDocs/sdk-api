@@ -2,15 +2,12 @@
 UID: NF:strmif.IGraphConfig.EnumCacheFilter
 title: IGraphConfig::EnumCacheFilter (strmif.h)
 description: The EnumCacheFilter method enumerates the filters in the filter cache.
+helpviewer_keywords: ["EnumCacheFilter","EnumCacheFilter method [DirectShow]","EnumCacheFilter method [DirectShow]","IGraphConfig interface","IGraphConfig interface [DirectShow]","EnumCacheFilter method","IGraphConfig.EnumCacheFilter","IGraphConfig::EnumCacheFilter","IGraphConfigEnumCacheFilter","dshow.igraphconfig_enumcachefilter","strmif/IGraphConfig::EnumCacheFilter"]
 old-location: dshow\igraphconfig_enumcachefilter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1782def0-13ed-411c-ab05-d0f0c307e16a
 ms.date: 12/05/2018
 ms.keywords: EnumCacheFilter, EnumCacheFilter method [DirectShow], EnumCacheFilter method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],EnumCacheFilter method, IGraphConfig.EnumCacheFilter, IGraphConfig::EnumCacheFilter, IGraphConfigEnumCacheFilter, dshow.igraphconfig_enumcachefilter, strmif/IGraphConfig::EnumCacheFilter
-f1_keywords:
-- strmif/IGraphConfig.EnumCacheFilter
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphConfig.EnumCacheFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphConfig::EnumCacheFilter
+ - strmif/IGraphConfig::EnumCacheFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphConfig.EnumCacheFilter
 ---
 
 # IGraphConfig::EnumCacheFilter
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>EnumCacheFilter</code> method enumerates the filters in the filter cache.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pEnum [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters</a> interface on the filter enumerator. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters</a> interface on the filter enumerator. The caller must release the interface.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -111,22 +102,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>

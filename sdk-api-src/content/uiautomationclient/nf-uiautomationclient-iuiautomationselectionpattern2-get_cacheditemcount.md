@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedItemCount
 title: IUIAutomationSelectionPattern2::get_CachedItemCount (uiautomationclient.h)
 description: Gets a cached integer value indicating the number of selected items.
+helpviewer_keywords: ["CachedItemCount property [Windows Accessibility]","CachedItemCount property [Windows Accessibility]","IUIAutomationSelectionPattern2 interface","IUIAutomationSelectionPattern2 interface [Windows Accessibility]","CachedItemCount property","IUIAutomationSelectionPattern2.CachedItemCount","IUIAutomationSelectionPattern2.get_CachedItemCount","IUIAutomationSelectionPattern2::CachedItemCount","IUIAutomationSelectionPattern2::get_CachedItemCount","IUIAutomationSelectionPattern2::put_CachedItemCount","get_CachedItemCount","uiautomationclient/IUIAutomationSelectionPattern2::CachedItemCount","uiautomationclient/IUIAutomationSelectionPattern2::get_CachedItemCount","uiautomationclient/IUIAutomationSelectionPattern2::put_CachedItemCount","winauto.uiauto_IUIAutomationSelectionPattern2_CachedItemCount"]
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedItemCount.htm
 tech.root: WinAuto
 ms.assetid: B00450CF-58CD-4FB7-AE0A-AB89350D9B02
 ms.date: 12/05/2018
 ms.keywords: CachedItemCount property [Windows Accessibility], CachedItemCount property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedItemCount property, IUIAutomationSelectionPattern2.CachedItemCount, IUIAutomationSelectionPattern2.get_CachedItemCount, IUIAutomationSelectionPattern2::CachedItemCount, IUIAutomationSelectionPattern2::get_CachedItemCount, IUIAutomationSelectionPattern2::put_CachedItemCount, get_CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::put_CachedItemCount, winauto.uiauto_IUIAutomationSelectionPattern2_CachedItemCount
-f1_keywords:
-- uiautomationclient/IUIAutomationSelectionPattern2.CachedItemCount
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationSelectionPattern2.CachedItemCount
-- IUIAutomationSelectionPattern2.get_CachedItemCount
-- IUIAutomationSelectionPattern2.put_CachedItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSelectionPattern2::get_CachedItemCount
+ - uiautomationclient/IUIAutomationSelectionPattern2::get_CachedItemCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationSelectionPattern2.CachedItemCount
+ - IUIAutomationSelectionPattern2.get_CachedItemCount
+ - IUIAutomationSelectionPattern2.put_CachedItemCount
 ---
 
 # IUIAutomationSelectionPattern2::get_CachedItemCount
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a cached integer value indicating the number of selected items.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern2">IUIAutomationSelectionPattern2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern2">IUIAutomationSelectionPattern2</a>

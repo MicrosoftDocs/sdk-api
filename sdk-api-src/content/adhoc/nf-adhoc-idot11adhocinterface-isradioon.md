@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocInterface.IsRadioOn
 title: IDot11AdHocInterface::IsRadioOn (adhoc.h)
 description: Specifies whether the radio is on.
+helpviewer_keywords: ["IDot11AdHocInterface interface [NativeWIFI]","IsRadioOn method","IDot11AdHocInterface.IsRadioOn","IDot11AdHocInterface::IsRadioOn","IsRadioOn","IsRadioOn method [NativeWIFI]","IsRadioOn method [NativeWIFI]","IDot11AdHocInterface interface","adhoc/IDot11AdHocInterface::IsRadioOn","nwifi.idot11adhocinterface_isradioon"]
 old-location: nwifi\idot11adhocinterface_isradioon.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: f5d76166-b960-4b70-acf7-e8eb65ca8cfb
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsRadioOn method, IDot11AdHocInterface.IsRadioOn, IDot11AdHocInterface::IsRadioOn, IsRadioOn, IsRadioOn method [NativeWIFI], IsRadioOn method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsRadioOn, nwifi.idot11adhocinterface_isradioon
-f1_keywords:
-- adhoc/IDot11AdHocInterface.IsRadioOn
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocInterface.IsRadioOn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocInterface::IsRadioOn
+ - adhoc/IDot11AdHocInterface::IsRadioOn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocInterface.IsRadioOn
 ---
 
 # IDot11AdHocInterface::IsRadioOn
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether the radio is on.
 
-
 ## -parameters
-
-
-
 
 ### -param pfIsRadioOn [in, out]
 
 A pointer to a boolean that specifies the radio state. The value is set to <b>TRUE</b> if the radio is on.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -129,18 +123,7 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>

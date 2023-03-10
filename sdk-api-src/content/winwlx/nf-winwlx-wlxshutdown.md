@@ -2,15 +2,12 @@
 UID: NF:winwlx.WlxShutdown
 title: WlxShutdown function (winwlx.h)
 description: Winlogon calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a smart card from a reader.
+helpviewer_keywords: ["WLX_SAS_ACTION_SHUTDOWN","WLX_SAS_ACTION_SHUTDOWN_POWER_OFF","WLX_SAS_ACTION_SHUTDOWN_REBOOT","WlxShutdown","WlxShutdown function [Security]","_gina_wlxshutdown","security.wlxshutdown","winwlx/WlxShutdown"]
 old-location: security\wlxshutdown.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: dab8a93d-a0fe-4a29-9a29-ad64627050b7
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_ACTION_SHUTDOWN, WLX_SAS_ACTION_SHUTDOWN_POWER_OFF, WLX_SAS_ACTION_SHUTDOWN_REBOOT, WlxShutdown, WlxShutdown function [Security], _gina_wlxshutdown, security.wlxshutdown, winwlx/WlxShutdown
-f1_keywords:
-- winwlx/WlxShutdown
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winwlx.h
-api_name:
-- WlxShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlxShutdown
+ - winwlx/WlxShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winwlx.h
+api_name:
+ - WlxShutdown
 ---
 
 # WlxShutdown function
@@ -48,22 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The WlxShutdown function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxShutdown</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>.
+The <b>WlxShutdown</b> function must be implemented by a replacement <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> from a <a href="/windows/desktop/SecGloss/r-gly">reader</a>.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pWlxContext [in]
 
 A pointer to the GINA context associated with this window station. The GINA returns this context value when Winlogon calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> for this station.
 
 ### -param ShutdownType [in]
 
@@ -108,41 +105,18 @@ Shuts down and turns off the computer, if the hardware allows.
 </td>
 </tr>
 </table>
- 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
 
 ## -remarks
 
-
-
 Winlogon calls <b>WlxShutdown</b> after the user has logged off and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function has been called.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a> function has been called.
 
 Before calling <b>WlxShutdown</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxlogoff">WlxLogoff</a>

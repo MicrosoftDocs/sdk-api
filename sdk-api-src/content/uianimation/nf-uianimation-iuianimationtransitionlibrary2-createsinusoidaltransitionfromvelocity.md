@@ -2,15 +2,12 @@
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity
 title: IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity (uianimation.h)
 description: Creates a sinusoidal scalar transition where amplitude is determined by initial velocity.
+helpviewer_keywords: ["CreateSinusoidalTransitionFromVelocity","CreateSinusoidalTransitionFromVelocity method [Windows Animation]","CreateSinusoidalTransitionFromVelocity method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateSinusoidalTransitionFromVelocity method","IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity","IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity","uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity","uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity"]
 old-location: uianimation\iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity.htm
 tech.root: UIAnimation
 ms.assetid: 833D3482-68BC-45DD-9073-B048E11CB801
 ms.date: 12/05/2018
 ms.keywords: CreateSinusoidalTransitionFromVelocity, CreateSinusoidalTransitionFromVelocity method [Windows Animation], CreateSinusoidalTransitionFromVelocity method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSinusoidalTransitionFromVelocity method, IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity, IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity, uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity, uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity
-f1_keywords:
-- uianimation/IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity
+ - uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity
 ---
 
 # IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a sinusoidal scalar transition where amplitude is determined by initial velocity.
 
-
 ## -parameters
-
-
-
 
 ### -param duration [in]
 
 The duration of the transition.
 
-
 ### -param period [in]
 
 The period of oscillation of the sinusoidal wave.
-
 
 ### -param transition [out]
 
 The new sinusoidal-velocity transition.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
-
-
-
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -remarks
-
-
 
 The value of the animation variable oscillates around the initial value over the entire duration of a sinusoidal-range transition. The amplitude of the oscillation is determined by the velocity when the transition begins.
 
@@ -91,20 +78,10 @@ The following figure shows the change in value over time of an animation variabl
 
 <img alt="Diagram showing a sinusoidal-velocity transition" src="Images/SinusolidalTransitionFromVelocity.png"/>
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition2">IUIAnimationTransition2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>

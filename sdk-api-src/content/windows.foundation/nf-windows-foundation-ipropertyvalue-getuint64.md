@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt64
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetUInt64 (windows.foundation.h)
 description: Gets the unsigned 64-bit integer value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetUInt64","GetUInt64 method [Windows Runtime]","GetUInt64 method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetUInt64 method","IPropertyValue.GetUInt64","IPropertyValue.IPropertyValue","IPropertyValue::GetUInt64","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetUInt64","winrt.ipropertyvalue_getuint64"]
 old-location: winrt\ipropertyvalue_getuint64.htm
 tech.root: WinRT
 ms.assetid: 2FD209CA-9A8D-40F3-B82E-E80A7D212A5D
 ms.date: 12/05/2018
 ms.keywords: GetUInt64, GetUInt64 method [Windows Runtime], GetUInt64 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt64 method, IPropertyValue.GetUInt64, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt64, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt64, winrt.ipropertyvalue_getuint64
-f1_keywords:
-- windows.foundation/IPropertyValue.GetUInt64
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetUInt64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetUInt64
+ - windows.foundation/IPropertyValue::GetUInt64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetUInt64
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetUInt64 (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the unsigned 64-bit integer value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the unsigned 64-bit integer value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
@@ -63,10 +60,7 @@ Type: <b>UINT64*</b>
 
 The unsigned 64-bit integer value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,27 +100,16 @@ The  property value was returned successfully.
 </dl>
 </td>
 <td width="60%">
-The type of <i>value</i> does not match the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
+The type of <i>value</i> does not match the <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint64">IPropertyValueStatics::CreateUInt64</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint64">IPropertyValueStatics::CreateUInt64</a>

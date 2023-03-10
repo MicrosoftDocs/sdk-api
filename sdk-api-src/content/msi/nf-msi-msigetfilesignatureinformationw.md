@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetFileSignatureInformationW
 title: MsiGetFileSignatureInformationW function (msi.h)
-description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash.
+description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash. (Unicode)
+helpviewer_keywords: ["MSI_INVALID_HASH_IS_FATAL", "MsiGetFileSignatureInformation", "MsiGetFileSignatureInformation function", "MsiGetFileSignatureInformationW", "_msi_msigetfilesignatureinformation", "msi/MsiGetFileSignatureInformation", "msi/MsiGetFileSignatureInformationW", "setup.msigetfilesignatureinformation"]
 old-location: setup\msigetfilesignatureinformation.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: a3f8b8ef-2d2e-4375-a2bb-08a53a94fb16
 ms.date: 12/05/2018
 ms.keywords: MSI_INVALID_HASH_IS_FATAL, MsiGetFileSignatureInformation, MsiGetFileSignatureInformation function, MsiGetFileSignatureInformationA, MsiGetFileSignatureInformationW, _msi_msigetfilesignatureinformation, msi/MsiGetFileSignatureInformation, msi/MsiGetFileSignatureInformationA, msi/MsiGetFileSignatureInformationW, setup.msigetfilesignatureinformation
-f1_keywords:
-- msi/MsiGetFileSignatureInformation
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetFileSignatureInformation
-- MsiGetFileSignatureInformationA
-- MsiGetFileSignatureInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetFileSignatureInformationW
+ - msi/MsiGetFileSignatureInformationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetFileSignatureInformation
+ - MsiGetFileSignatureInformationA
+ - MsiGetFileSignatureInformationW
 ---
 
 # MsiGetFileSignatureInformationW function
@@ -50,37 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetFileSignatureInformation</b> function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash. 
 <b>MsiGetFileSignatureInformation</b> may be called to obtain the signer certificate and hash needed to populate the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> tables.
+<a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a>, <a href="/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a>, and 
+<a href="/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> tables.
 
 
 
 
-<b>Windows Installer 3.0 and later:  </b>Beginning with Windows Installer 3.0, the Windows Installer can verify the digital signatures of patches (.msp files) by using the <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/guidelines-for-authoring-secure-installations">Guidelines for Authoring Secure Installations</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. 
+<b>Windows Installer 3.0 and later:  </b>Beginning with Windows Installer 3.0, the Windows Installer can verify the digital signatures of patches (.msp files) by using the <a href="/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a> and <a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables. For more information see <a href="/windows/desktop/Msi/guidelines-for-authoring-secure-installations">Guidelines for Authoring Secure Installations</a> and <a href="/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. 
 
  
 
 
-<b>Windows Installer 2.0:  </b>Digital signatures of patches is not supported. Windows Installer 2.0 uses digital signatures as a means to detect corrupted resources, and can only verify the digital signatures of external cabinets, and only by the use of the <a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables.
-
-
-
-
-
+<b>Windows Installer 2.0:  </b>Digital signatures of patches is not supported. Windows Installer 2.0 uses digital signatures as a means to detect corrupted resources, and can only verify the digital signatures of external cabinets, and only by the use of the <a href="/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> and <a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables.
 
 ## -parameters
-
-
-
 
 ### -param szSignedObjectPath [in]
 
 Pointer to a null-terminated string specifying the full path to the file that contains the digital signature.
-
 
 ### -param dwFlags [in]
 
@@ -111,27 +103,20 @@ To return a fatal error for an invalid hash, set the MSI_INVALID_HASH_IS_FATAL f
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppcCertContext [out]
 
 Returned signer certificate context
 
-
 ### -param pbHashData [out]
 
 Returned hash buffer. This parameter can be <b>NULL</b> if the hash data is not being requested.
-
 
 ### -param pcbHashData [in, out]
 
 Pointer to a variable that specifies the size, in bytes, of the buffer pointed to by the <i>pbHashData</i> parameter. This parameter cannot be <b>NULL</b> if <i>pbHashData</i> is non-<b>NULL</b>. If ERROR_MORE_DATA is returned, <i>pbHashData</i> gives the size of the buffer required to hold the hash data. If ERROR_SUCCESS is returned, it gives the number of bytes written to the hash buffer. The <i>pcbHashData</i> parameter is ignored if <i>pbHashData</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -168,7 +153,7 @@ Invalid parameter was specified.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> is not available on the system. 
+<a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> is not available on the system. 
 <b>MsiGetFileSignatureInformation</b> requires the presence of the Wintrust.dll file on the system.
 
 </td>
@@ -271,17 +256,12 @@ The trust provider does not support the form specified for the subject.
 <b>MsiGetFileSignatureInformation</b> also returns all the Win32 error values mapped to their equivalent <b>HRESULT</b> data type by 
 <b>HRESULT_FROM_WIN32</b>.
 
-
-
-
 ## -remarks
-
-
 
 When requesting only the certificate context, an invalid hash in the digital signature does not cause 
 <b>MsiGetFileSignatureInformation</b> to return a fatal error. To return a fatal error for an invalid hash, set the MSI_INVALID_HASH_IS_FATAL flag in the <i>dwFlags</i> parameter.
 
-The certificate context and hash information is extracted from the file by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>. The <i>ppcCertContext</i> parameter is a duplicate of the signer certificate context from the signature. It is the responsibility of the caller to call <i>CertFreeCertificateContext</i> to free the certificate context when finished.
+The certificate context and hash information is extracted from the file by a call to <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>. The <i>ppcCertContext</i> parameter is a duplicate of the signer certificate context from the signature. It is the responsibility of the caller to call <i>CertFreeCertificateContext</i> to free the certificate context when finished.
 
 Note that 
 <b>MsiGetFileSignatureInformation</b> requires the presence of the Wintrust.dll file on the system.
@@ -289,21 +269,18 @@ Note that
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiGetFileSignatureInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/digital-signatures-and-windows-installer">Digital Signatures and Windows Installer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/digital-signatures-and-windows-installer">Digital Signatures and Windows Installer</a>
+<a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate table</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate table</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature table</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature table</a>

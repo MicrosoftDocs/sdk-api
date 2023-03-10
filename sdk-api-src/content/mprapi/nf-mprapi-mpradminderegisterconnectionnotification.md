@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminDeregisterConnectionNotification
 title: MprAdminDeregisterConnectionNotification function (mprapi.h)
 description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
+helpviewer_keywords: ["MprAdminDeregisterConnectionNotification","MprAdminDeregisterConnectionNotification function [RAS]","_mpr_mpradminderegisterconnectionnotification","mprapi/MprAdminDeregisterConnectionNotification","rras.mpradminderegisterconnectionnotification"]
 old-location: rras\mpradminderegisterconnectionnotification.htm
 tech.root: RRAS
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038
 ms.date: 12/05/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
-f1_keywords:
-- mprapi/MprAdminDeregisterConnectionNotification
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminDeregisterConnectionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminDeregisterConnectionNotification
+ - mprapi/MprAdminDeregisterConnectionNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminDeregisterConnectionNotification
 ---
 
 # MprAdminDeregisterConnectionNotification function
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminDeregisterConnectionNotification</b> function deregisters an event object that was previously registered using 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminregisterconnectionnotification">MprAdminRegisterConnectionNotification</a>. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminregisterconnectionnotification">MprAdminRegisterConnectionNotification</a>. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hEventNotification [in]
 
 Handle to an event object to deregister. This event is no longer  signaled when an interface connects or disconnects.
 
-
 ## -returns
-
-
 
 If the function is successful, the return value is NO_ERROR.
 
@@ -124,7 +117,7 @@ The <i>hEventNotification</i> parameter is <b>NULL</b> or is an invalid handle.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -134,29 +127,18 @@ Use
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminregisterconnectionnotification">MprAdminRegisterConnectionNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminregisterconnectionnotification">MprAdminRegisterConnectionNotification</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

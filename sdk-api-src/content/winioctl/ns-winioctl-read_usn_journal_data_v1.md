@@ -1,16 +1,13 @@
 ---
-UID: NS:winioctl.__unnamed_struct_19
+UID: NS:winioctl.READ_USN_JOURNAL_DATA_V1
 title: READ_USN_JOURNAL_DATA_V1
-description: Contains information defining a set of update sequence number (USN) change journal records to return to the calling process.
+description: Contains information defining a set of update sequence number (USN) change journal records to return to the calling process.R
+helpviewer_keywords: ["*PREAD_USN_JOURNAL_DATA","*PREAD_USN_JOURNAL_DATA_V1","PREAD_USN_JOURNAL_DATA","PREAD_USN_JOURNAL_DATA structure pointer [Files]","PREAD_USN_JOURNAL_DATA_V0","PREAD_USN_JOURNAL_DATA_V0 structure pointer [Files]","READ_USN_JOURNAL_DATA","READ_USN_JOURNAL_DATA structure [Files]","READ_USN_JOURNAL_DATA_V0","READ_USN_JOURNAL_DATA_V0 structure [Files]","READ_USN_JOURNAL_DATA_V1","USN_REASON_BASIC_INFO_CHANGE","USN_REASON_CLOSE","USN_REASON_COMPRESSION_CHANGE","USN_REASON_DATA_EXTEND","USN_REASON_DATA_OVERWRITE","USN_REASON_DATA_TRUNCATION","USN_REASON_EA_CHANGE","USN_REASON_ENCRYPTION_CHANGE","USN_REASON_FILE_CREATE","USN_REASON_FILE_DELETE","USN_REASON_HARD_LINK_CHANGE","USN_REASON_INDEXABLE_CHANGE","USN_REASON_NAMED_DATA_EXTEND","USN_REASON_NAMED_DATA_OVERWRITE","USN_REASON_NAMED_DATA_TRUNCATION","USN_REASON_OBJECT_ID_CHANGE","USN_REASON_RENAME_NEW_NAME","USN_REASON_RENAME_OLD_NAME","USN_REASON_REPARSE_POINT_CHANGE","USN_REASON_SECURITY_CHANGE","USN_REASON_STREAM_CHANGE","_win32_read_usn_journal_data_str","base.read_usn_journal_data_str","fs.read_usn_journal_data_str","winioctl/PREAD_USN_JOURNAL_DATA","winioctl/PREAD_USN_JOURNAL_DATA_V0","winioctl/READ_USN_JOURNAL_DATA","winioctl/READ_USN_JOURNAL_DATA_v0"]
 old-location: fs\read_usn_journal_data_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f88e71ba-6099-4928-9d71-732a4ca809bc
 ms.date: 12/05/2018
 ms.keywords: '*PREAD_USN_JOURNAL_DATA, *PREAD_USN_JOURNAL_DATA_V1, PREAD_USN_JOURNAL_DATA, PREAD_USN_JOURNAL_DATA structure pointer [Files], PREAD_USN_JOURNAL_DATA_V0, PREAD_USN_JOURNAL_DATA_V0 structure pointer [Files], READ_USN_JOURNAL_DATA, READ_USN_JOURNAL_DATA structure [Files], READ_USN_JOURNAL_DATA_V0, READ_USN_JOURNAL_DATA_V0 structure [Files], READ_USN_JOURNAL_DATA_V1, USN_REASON_BASIC_INFO_CHANGE, USN_REASON_CLOSE, USN_REASON_COMPRESSION_CHANGE, USN_REASON_DATA_EXTEND, USN_REASON_DATA_OVERWRITE, USN_REASON_DATA_TRUNCATION, USN_REASON_EA_CHANGE, USN_REASON_ENCRYPTION_CHANGE, USN_REASON_FILE_CREATE, USN_REASON_FILE_DELETE, USN_REASON_HARD_LINK_CHANGE, USN_REASON_INDEXABLE_CHANGE, USN_REASON_NAMED_DATA_EXTEND, USN_REASON_NAMED_DATA_OVERWRITE, USN_REASON_NAMED_DATA_TRUNCATION, USN_REASON_OBJECT_ID_CHANGE, USN_REASON_RENAME_NEW_NAME, USN_REASON_RENAME_OLD_NAME, USN_REASON_REPARSE_POINT_CHANGE, USN_REASON_SECURITY_CHANGE, USN_REASON_STREAM_CHANGE, _win32_read_usn_journal_data_str, base.read_usn_journal_data_str, fs.read_usn_journal_data_str, winioctl/PREAD_USN_JOURNAL_DATA, winioctl/PREAD_USN_JOURNAL_DATA_V0, winioctl/READ_USN_JOURNAL_DATA, winioctl/READ_USN_JOURNAL_DATA_v0'
-f1_keywords:
-- winioctl/READ_USN_JOURNAL_DATA_V0
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- READ_USN_JOURNAL_DATA_V0
 targetos: Windows
 req.typenames: READ_USN_JOURNAL_DATA_V1, *PREAD_USN_JOURNAL_DATA_V1
 req.redist: 
+f1_keywords:
+ - PREAD_USN_JOURNAL_DATA_V1
+ - winioctl/PREAD_USN_JOURNAL_DATA_V1
+ - READ_USN_JOURNAL_DATA_V1
+ - winioctl/READ_USN_JOURNAL_DATA_V1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - READ_USN_JOURNAL_DATA_V0
 ---
 
 # READ_USN_JOURNAL_DATA_V1 structure
@@ -47,22 +51,17 @@ req.redist:
 
 ## -description
 
-
 Contains information defining a set of update sequence number (USN) change journal records to return 
     to the calling process. It is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> control codes. Prior to 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> and 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> control codes. Prior to 
     Windows 8 and Windows Server 2012 this structure was named 
     <b>READ_USN_JOURNAL_DATA</b>. Use that name to compile 
     with older SDKs and compilers. Windows Server 2012 introduced 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802706(v=vs.85)">READ_USN_JOURNAL_DATA_V1</a> to support 128-bit file 
+    <a href="/previous-versions/windows/desktop/legacy/hh802706(v=vs.85)">READ_USN_JOURNAL_DATA_V1</a> to support 128-bit file 
     identifiers used by ReFS.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StartUsn
 
@@ -81,14 +80,13 @@ If a nonzero USN is specified that is less than the first USN in the change jour
 
 For more information on navigating the change journal buffer returned in 
        <b>READ_USN_JOURNAL_DATA_V0</b>, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/walking-a-buffer-of-change-journal-records">Walking a Buffer of Change Journal Records</a>.
-
+       <a href="/windows/desktop/FileIO/walking-a-buffer-of-change-journal-records">Walking a Buffer of Change Journal Records</a>.
 
 ### -field ReasonMask
 
 A mask of flags, each flag noting a change for which the file or directory has a record in the change 
        journal. To be returned in a 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation, a 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation, a 
        change journal record must have at least one of these flags set.
 
 The list of valid flags is as follows. Unused bits are reserved.
@@ -288,8 +286,8 @@ The object identifier of the file or directory is changed.
 </td>
 <td width="60%">
 The file or directory is renamed, and the file name in the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> or 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structure holding this journal record is the 
+        <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> or 
+        <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structure holding this journal record is the 
         new name.
 
 </td>
@@ -302,8 +300,8 @@ The file or directory is renamed, and the file name in the
 </td>
 <td width="60%">
 The file or directory is renamed, and the file name in the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> or 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structure holding this journal record is the 
+        <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD_V2</a> or 
+        <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v3">USN_RECORD_V3</a> structure holding this journal record is the 
         previous name.
 
 </td>
@@ -343,8 +341,6 @@ A named stream is added to or removed from the file or directory, or a named str
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ReturnOnlyOnClose
 
@@ -356,7 +352,7 @@ To receive notification when the final handle for the changed file or directory 
 
 All changes indicated by <b>ReasonMask</b> flags eventually generate a call to the change 
        journal software when the file is closed. If your 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> call is waiting for the file to be 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> call is waiting for the file to be 
        closed, that call in turn will allow your 
        <b>DeviceIoControl</b> call to return. In the event that a 
        file or directory is not closed prior to a volume failure, operating system failure, or shutdown, a cleanup 
@@ -372,26 +368,25 @@ Whether <b>ReturnOnlyOnClose</b> is zero or nonzero, the records generated at cl
        <b>ReasonMask</b> flags for the item are all reset.
 
 For a file or directory for which no user data exists (for example, a mounted folder), the final close 
-       operation occurs when the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function is 
+       operation occurs when the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function is 
        called on the last user handle to the item.
-
 
 ### -field Timeout
 
 The time-out value, in seconds, used with the <b>BytesToWaitFor</b> member to tell the 
        operating system what to do if the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation 
        requests more data than exists in the change journal.
 
 If <b>Timeout</b> is zero and <b>BytesToWaitFor</b> is nonzero, and 
-       the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation call reaches 
+       the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation call reaches 
        the end of the change journal without finding data to return, 
        <b>FSCTL_READ_USN_JOURNAL</b> waits until 
        <b>BytesToWaitFor</b> bytes of unfiltered data have been added to the change journal and 
        then retrieves the specified records.
 
 If <b>Timeout</b> is nonzero and <b>BytesToWaitFor</b> is nonzero, 
-       and the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation call 
+       and the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation call 
        reaches the end of the change journal without finding data to return, 
        <b>FSCTL_READ_USN_JOURNAL</b> waits 
        <b>Timeout</b> seconds and then attempts to return the specified records. After 
@@ -401,22 +396,21 @@ If <b>Timeout</b> is nonzero and <b>BytesToWaitFor</b> is nonzero,
 
 In either case, after the time-out period any new data appended to the change journal is processed. If there 
        are still no records to return from the specified set, the time-out period is repeated. In this mode, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> remains outstanding until 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> remains outstanding until 
        at least one record is returned or I/O is canceled.
 
 If <b>BytesToWaitFor</b> is zero, then <b>Timeout</b> is ignored. 
        <b>Timeout</b> is also ignored for asynchronously opened handles.
 
-
 ### -field BytesToWaitFor
 
 The number of bytes of unfiltered data added to the change journal. Use this value with 
        <b>Timeout</b> to tell the operating system what to do if the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation requests more 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation requests more 
        data than exists in the change journal.
 
 If <b>BytesToWaitFor</b> is zero, then <b>Timeout</b> is ignored. In 
-       this case, the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation 
+       this case, the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation 
        always returns successfully when the end of the change journal file is encountered. It also retrieves the USN 
        that should be used for the next 
        <b>FSCTL_READ_USN_JOURNAL</b> operation. When the 
@@ -427,15 +421,14 @@ If <b>BytesToWaitFor</b> is zero, then <b>Timeout</b> is ignored. In
 Because the amount of data returned cannot be predicted when <b>BytesToWaitFor</b> is 
        zero, you run a risk of overflowing the output buffer. To reduce this risk, specify a nonzero 
        <b>BytesToWaitFor</b> value in repeated 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operations until all 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operations until all 
        records in the change journal are exhausted. Then specify zero to await new records.
 
 Alternatively, use the <i>lpBytesReturned</i> parameter of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> in the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation call to 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> in the 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a> operation call to 
        determine the amount of data available, reallocate the output buffer (with room to spare for new records), and 
        call <b>DeviceIoControl</b> again.
-
 
 ### -field UsnJournalID
 
@@ -444,40 +437,25 @@ The identifier for the instance of the journal that is current for the volume.
 The NTFS file system can miss putting events in the change journal if the change journal is stopped and 
        restarted or deleted and re-created. If either of these events occurs, the NTFS file system gives the journal a 
        new identifier. If the journal identifier does not agree with the current journal identifier, the call to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> fails and returns an appropriate 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> fails and returns an appropriate 
        error code. To retrieve the new journal identifier, call 
        <b>DeviceIoControl</b> with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> 
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> 
        operation.
-
 
 ### -field MinMajorVersion
 
- 
-
-
 ### -field MaxMajorVersion
-
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_read_usn_journal">FSCTL_READ_USN_JOURNAL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
- 
-
- 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
 

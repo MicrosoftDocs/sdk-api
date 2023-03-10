@@ -2,15 +2,12 @@
 UID: NF:dciman.DCIOpenProvider
 title: DCIOpenProvider function (dciman.h)
 description: Obtains a device context handle of display.
+helpviewer_keywords: ["DCIOpenProvider","DCIOpenProvider function [Windows API]","_dciman_dciopenprovider","dciman/DCIOpenProvider","winprog._dciman_dciopenprovider","winui._dciman_dciopenprovider"]
 old-location: winprog\_dciman_dciopenprovider.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dciopenprovider.htm
 ms.date: 12/05/2018
 ms.keywords: DCIOpenProvider, DCIOpenProvider function [Windows API], _dciman_dciopenprovider, dciman/DCIOpenProvider, winprog._dciman_dciopenprovider, winui._dciman_dciopenprovider
-f1_keywords:
-- dciman/DCIOpenProvider
-dev_langs:
-- c++
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dciman32.lib
 req.dll: Dciman32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dciman32.dll
-api_name:
-- DCIOpenProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DCIOpenProvider
+ - dciman/DCIOpenProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dciman32.dll
+api_name:
+ - DCIOpenProvider
 ---
 
 # DCIOpenProvider function
@@ -48,36 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
 Obtains a device context handle of display.
 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 Device context handle of display.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
- 
-
- 
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

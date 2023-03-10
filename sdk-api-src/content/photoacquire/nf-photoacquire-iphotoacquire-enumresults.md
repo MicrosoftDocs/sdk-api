@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquire.EnumResults
 title: IPhotoAcquire::EnumResults (photoacquire.h)
 description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.
+helpviewer_keywords: ["EnumResults","EnumResults method [Picture Acquisition]","EnumResults method [Picture Acquisition]","IPhotoAcquire interface","IPhotoAcquire interface [Picture Acquisition]","EnumResults method","IPhotoAcquire.EnumResults","IPhotoAcquire::EnumResults","IPhotoAcquireEnumResults","photoacquire/IPhotoAcquire::EnumResults","picacq.iphotoacquire_enumresults"]
 old-location: picacq\iphotoacquire_enumresults.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861
 ms.date: 12/05/2018
 ms.keywords: EnumResults, EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],EnumResults method, IPhotoAcquire.EnumResults, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
-f1_keywords:
-- photoacquire/IPhotoAcquire.EnumResults
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquire.EnumResults
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquire::EnumResults
+ - photoacquire/IPhotoAcquire::EnumResults
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquire.EnumResults
 ---
 
 # IPhotoAcquire::EnumResults
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>EnumResults</code> method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a>.
-
-
-
+The <code>EnumResults</code> method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">Acquire</a>.
 
 ## -parameters
-
-
-
 
 ### -param ppEnumFilePaths [out]
 
 Returns an enumeration containing the paths to all the transferred files.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,31 +91,15 @@ A non-<b>NULL</b> pointer was expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the file transfer is aborted before any files are transferred, <i>ppEnumFilePaths</i> will be set to <b>NULL</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquire">IPhotoAcquire Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>

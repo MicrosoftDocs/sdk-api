@@ -2,15 +2,12 @@
 UID: NN:restrictederrorinfo.ILanguageExceptionStackBackTrace
 title: ILanguageExceptionStackBackTrace (restrictederrorinfo.h)
 description: Allows projections to provide custom stack trace for that exception.
+helpviewer_keywords: ["ILanguageExceptionStackBackTrace","ILanguageExceptionStackBackTrace interface [Windows Runtime]","ILanguageExceptionStackBackTrace interface [Windows Runtime]","described","restrictederrorinfo/ILanguageExceptionStackBackTrace","winrt.ilanguageexceptionstackbacktrace"]
 old-location: winrt\ilanguageexceptionstackbacktrace.htm
 tech.root: WinRT
 ms.assetid: A5AA17A2-414B-4641-A417-4F73384216F9
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], ILanguageExceptionStackBackTrace interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionStackBackTrace, winrt.ilanguageexceptionstackbacktrace
-f1_keywords:
-- restrictederrorinfo/ILanguageExceptionStackBackTrace
-dev_langs:
-- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- restrictederrorinfo.h
-api_name:
-- ILanguageExceptionStackBackTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILanguageExceptionStackBackTrace
+ - restrictederrorinfo/ILanguageExceptionStackBackTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - restrictederrorinfo.h
+api_name:
+ - ILanguageExceptionStackBackTrace
 ---
 
 # ILanguageExceptionStackBackTrace interface
@@ -48,47 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Allows projections to provide custom stack trace for that exception. 
-
+Allows projections to provide custom stack trace for that exception.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILanguageExceptionStackBackTrace</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILanguageExceptionStackBackTrace</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ILanguageExceptionStackBackTrace</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionstackbacktrace-getstackbacktrace">GetStackBackTrace</a>
-</td>
-<td align="left" width="63%">
-Retrieves the back stack trace.
-
-</td>
-</tr>
-</table> 
-
+The <b>ILanguageExceptionStackBackTrace</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILanguageExceptionStackBackTrace</b> also has these types of members:
 
 ## -remarks
-
-
 
 It is recommended that language projections implement this interface when the stack trace is not captured by the relevant Global Error Handler API.
 
 
 #### Examples
 
-The following example demonstrates a projection providing its back trace through an interface implemented on the language exception object.  Global Error Handling (GEH) queries for this interface when a language exception object is provided to <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception">RoOriginateLanguageException</a> or <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionerrorinfo2-capturepropagationcontext">CapturePropagationContext</a>.  As such, this scenario allows the GEH to expose back traces for projections which the GEH can’t capture back traces for.
+The following example demonstrates a projection providing its back trace through an interface implemented on the language exception object.  Global Error Handling (GEH) queries for this interface when a language exception object is provided to <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception">RoOriginateLanguageException</a> or <a href="/windows/desktop/api/restrictederrorinfo/nf-restrictederrorinfo-ilanguageexceptionerrorinfo2-capturepropagationcontext">CapturePropagationContext</a>.  As such, this scenario allows the GEH to expose back traces for projections which the GEH can’t capture back traces for.
 
 
 ```cpp
@@ -121,17 +96,6 @@ public:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

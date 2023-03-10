@@ -1,16 +1,13 @@
 ---
 UID: NC:wabmem.MAPIFREEBUFFER
 title: MAPIFREEBUFFER (wabmem.h)
-description: The MAPIFreeBuffer function frees memory allocated by the messaging system.
+description: The MAPIFreeBuffer function (wabmem.h) frees memory allocated by the messaging system. (MAPIFreeBuffer)
+helpviewer_keywords: ["MAPIFreeBuffer","MAPIFreeBuffer callback","MAPIFreeBuffer callback function","mapi.mapifreebuffer","wabmem/MAPIFreeBuffer"]
 old-location: mapi\mapifreebuffer.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: b67a2a42-edba-4372-b3b7-5bf3e9d3e5ed
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
-f1_keywords:
-- wabmem/MAPIFreeBuffer
-dev_langs:
-- c++
 req.header: wabmem.h
 req.include-header: Mapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wabmem.h
-api_name:
-- MAPIFreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPIFREEBUFFER
+ - wabmem/MAPIFREEBUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wabmem.h
+api_name:
+ - MAPIFreeBuffer
 ---
 
 # MAPIFREEBUFFER callback function
@@ -48,34 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
 The <b>MAPIFreeBuffer</b> function frees memory allocated by the messaging system.
 
-
 ## -parameters
-
-
-
 
 ### -param lpBuffer
 
-
-
-
-
-
-
-
 #### - pv [in]
 
-Pointer to memory allocated by the messaging system. This pointer is returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapireadmail">MAPIReadMail</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a> functions.
-
+Pointer to memory allocated by the messaging system. This pointer is returned by the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapireadmail">MAPIReadMail</a>, <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>, and <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a> functions.
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -107,22 +94,11 @@ The call succeeded and the memory was freed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogoff">MAPILogoff</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogoff">MAPILogoff</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
- 
-
- 
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

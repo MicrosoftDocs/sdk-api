@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptSignHashW
 title: CryptSignHashW function (wincrypt.h)
-description: Signs data.
+description: Signs data. (CryptSignHashW)
+helpviewer_keywords: ["CRYPT_NOHASHOID", "CRYPT_TYPE2_FORMAT", "CRYPT_X931_FORMAT", "CryptSignHash", "CryptSignHash function [Security]", "CryptSignHashW", "_crypto2_cryptsignhash", "security.cryptsignhash", "wincrypt/CryptSignHash", "wincrypt/CryptSignHashW"]
 old-location: security\cryptsignhash.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
-f1_keywords:
-- wincrypt/CryptSignHash
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptSignHash
-- CryptSignHashA
-- CryptSignHashW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSignHashW
+ - wincrypt/CryptSignHashW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptSignHash
+ - CryptSignHashA
+ - CryptSignHashW
 ---
 
 # CryptSignHashW function
@@ -52,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSignHash</b> function signs data. Because all signature algorithms are asymmetric and thus slow, CryptoAPI does not allow data to be signed directly. Instead, data is first <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashed</a>, and <b>CryptSignHash</b> is used to sign the hash.
-
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptSignHash</b> function signs data. Because all signature algorithms are asymmetric and thus slow, CryptoAPI does not allow data to be signed directly. Instead, data is first <a href="/windows/desktop/SecGloss/h-gly">hashed</a>, and <b>CryptSignHash</b> is used to sign the hash.
 
 ## -parameters
 
-
-
-
 ### -param hHash [in]
 
-Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a> to be signed.
-
+Handle of the <a href="/windows/desktop/SecGloss/h-gly">hash object</a> to be signed.
 
 ### -param dwKeySpec [in]
 
@@ -77,11 +73,9 @@ The signature algorithm used is specified when the key pair is originally create
 
 The only signature algorithm that the Microsoft Base Cryptographic Provider supports is the RSA Public Key algorithm.
 
-
 ### -param szDescription [in]
 
 This parameter is no longer used and must be set to <b>NULL</b> to prevent security vulnerabilities. However, it is still supported for backward compatibility in the Microsoft Base Cryptographic Provider.
-
 
 ### -param dwFlags [in]
 
@@ -104,7 +98,7 @@ The following flag values are defined.
 </dl>
 </td>
 <td width="60%">
-Used with RSA providers. The hash <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is not placed in the RSA public key encryption. If this flag is not set, the hash OID in the default signature is as specified in the definition of DigestInfo in PKCS #1. 
+Used with RSA providers. The hash <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) is not placed in the RSA public key encryption. If this flag is not set, the hash OID in the default signature is as specified in the definition of DigestInfo in PKCS #1. 
 
 
 
@@ -135,8 +129,6 @@ Use the RSA signature padding method specified in the ANSI X9.31 standard.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbSignature [out]
 
@@ -146,8 +138,7 @@ A pointer to a buffer receiving the signature data.
 
 
 This parameter can be <b>NULL</b> to set the buffer size for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pdwSigLen [in, out]
 
@@ -161,12 +152,10 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>p
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by "NTE" are generated by the particular CSP you are using. Some possible error codes follow.
 
@@ -275,26 +264,20 @@ The CSP ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Before calling this function, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> function must be called to get a handle to a hash object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> function is then used to add the data or session keys to the hash object. The <b>CryptSignHash</b> function completes the hash.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> function must be called to get a handle to a hash object. The 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> function is then used to add the data or session keys to the hash object. The <b>CryptSignHash</b> function completes the hash.
 
 While the DSS CSP supports hashing with both the MD5 and the SHA hash algorithms, the DSS CSP only supports signing SHA hashes.
 
-After this function is called, no more data can be added to the hash. Additional calls to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> fail.
+After this function is called, no more data can be added to the hash. Additional calls to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a> or <a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a> fail.
 
 After the application finishes using the hash, 
-destroy the hash object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> function.
+destroy the hash object by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a> function.
 
 By default, the Microsoft RSA providers use the PKCS #1 padding method for the signature. The hash OID in the <b>DigestInfo</b> element of the signature is automatically set to the algorithm OID associated with the hash object. Using the <b>CRYPT_NOHASHOID</b> flag will cause this OID to be omitted from the signature.
 
@@ -302,12 +285,12 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 <ol>
 <li>Create a hash object by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>.</li>
-<li>Set the hash value in the hash object by using the <b>HP_HASHVAL</b> value of the <i>dwParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsethashparam">CryptSetHashParam</a>.</li>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>.</li>
+<li>Set the hash value in the hash object by using the <b>HP_HASHVAL</b> value of the <i>dwParam</i> parameter in <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsethashparam">CryptSetHashParam</a>.</li>
 <li>Sign the hash value by using 
 <b>CryptSignHash</b> and obtain a digital signature block.</li>
 <li>Destroy the hash object by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>.</li>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>.</li>
 </ol>
 
 #### Examples
@@ -404,39 +387,36 @@ if(hHash)
 
 
 For a complete example including the  context for this code, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-signing-a-hash-and-verifying-the-hash-signature">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-signing-a-hash-and-verifying-the-hash-signature">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The wincrypt.h header defines CryptSignHash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdestroyhash">CryptDestroyHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashdata">CryptHashData</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-crypthashsessionkey">CryptHashSessionKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>

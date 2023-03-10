@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferSourceEvent2.RateChange
 title: IMSVidStreamBufferSourceEvent2::RateChange (segment.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies]","RateChange method","IMSVidStreamBufferSourceEvent2.RateChange","IMSVidStreamBufferSourceEvent2::RateChange","IMSVidStreamBufferSourceEvent2RateChange","RateChange","RateChange method [Microsoft TV Technologies]","RateChange method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent2 interface","mstv.imsvidstreambuffersourceevent2_ratechange","segment/IMSVidStreamBufferSourceEvent2::RateChange"]
 old-location: mstv\imsvidstreambuffersourceevent2_ratechange.htm
 tech.root: mstv
 ms.assetid: 5c3b9e5f-51ad-4a36-8181-bec4243499a5
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent2 interface [Microsoft TV Technologies],RateChange method, IMSVidStreamBufferSourceEvent2.RateChange, IMSVidStreamBufferSourceEvent2::RateChange, IMSVidStreamBufferSourceEvent2RateChange, RateChange, RateChange method [Microsoft TV Technologies], RateChange method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent2 interface, mstv.imsvidstreambuffersourceevent2_ratechange, segment/IMSVidStreamBufferSourceEvent2::RateChange
-f1_keywords:
-- segment/IMSVidStreamBufferSourceEvent2.RateChange
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSourceEvent2.RateChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSourceEvent2::RateChange
+ - segment/IMSVidStreamBufferSourceEvent2::RateChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSourceEvent2.RateChange
 ---
 
 # IMSVidStreamBufferSourceEvent2::RateChange
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>RateChange</b> method is called when the playback rate changes.
 
-
 ## -parameters
-
-
-
 
 ### -param qwNewRate [in]
 
 Specifies the new playback rate.
 
-
 ### -param qwOldRate [in]
 
 Specifies the previous playback rate.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -96,27 +88,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For both parameters, 1.0 represents normal speed. Fractional values are allowed. For example, 0.2 would represent a rate that is slower than normal playback and 1.7 would represent a rate that is faster than normal playback.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent2">IMSVidStreamBufferSourceEvent2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent2">IMSVidStreamBufferSourceEvent2 Interface</a>

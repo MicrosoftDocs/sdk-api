@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_TransportStreamInfo.get_PatTableTickCount
 title: IBDA_TransportStreamInfo::get_PatTableTickCount (bdaiface.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IBDA_TransportStreamInfo interface [Microsoft TV Technologies]","get_PatTableTickCount method","IBDA_TransportStreamInfo.get_PatTableTickCount","IBDA_TransportStreamInfo::get_PatTableTickCount","IBDA_TransportStreamInfoget_PatTableTickCount","bdaiface/IBDA_TransportStreamInfo::get_PatTableTickCount","get_PatTableTickCount","get_PatTableTickCount method [Microsoft TV Technologies]","get_PatTableTickCount method [Microsoft TV Technologies]","IBDA_TransportStreamInfo interface","mstv.ibda_transportstreaminfo_get_pattabletickcount"]
 old-location: mstv\ibda_transportstreaminfo_get_pattabletickcount.htm
 tech.root: mstv
 ms.assetid: 8ad1a680-0037-40d5-9263-2a2f0862154c
 ms.date: 12/05/2018
 ms.keywords: IBDA_TransportStreamInfo interface [Microsoft TV Technologies],get_PatTableTickCount method, IBDA_TransportStreamInfo.get_PatTableTickCount, IBDA_TransportStreamInfo::get_PatTableTickCount, IBDA_TransportStreamInfoget_PatTableTickCount, bdaiface/IBDA_TransportStreamInfo::get_PatTableTickCount, get_PatTableTickCount, get_PatTableTickCount method [Microsoft TV Technologies], get_PatTableTickCount method [Microsoft TV Technologies],IBDA_TransportStreamInfo interface, mstv.ibda_transportstreaminfo_get_pattabletickcount
-f1_keywords:
-- bdaiface/IBDA_TransportStreamInfo.get_PatTableTickCount
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_TransportStreamInfo.get_PatTableTickCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_TransportStreamInfo::get_PatTableTickCount
+ - bdaiface/IBDA_TransportStreamInfo::get_PatTableTickCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_TransportStreamInfo.get_PatTableTickCount
 ---
 
 # IBDA_TransportStreamInfo::get_PatTableTickCount
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>get_PatTableTickCount</b> method returns the time when the most recent Program Association Table (PAT) section was received. The time is expressed in terms of the tick count, which is the number of milliseconds that have elapsed since the system was started. For more information, see <b>GetTickCount</b> in the Platform SDK documentation.
 
-
 ## -parameters
-
-
-
 
 ### -param pPatTickCount [out]
 
 Receives the tick count when the last PAT section was received.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_transportstreaminfo">IBDA_TransportStreamInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_transportstreaminfo">IBDA_TransportStreamInfo Interface</a>

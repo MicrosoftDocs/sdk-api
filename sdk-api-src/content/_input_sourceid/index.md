@@ -4,7 +4,7 @@ title: Input Source Identification
 ms.assetid: 1254a1e0-d95f-3593-a02f-0fce41164894
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Input Source Identification
@@ -16,5 +16,4 @@ Overview of the Input Source Identification technology.
 The Input Source Identification technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Input Source Identification](https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid)
-
+* [Input Source Identification](/previous-versions/windows/desktop/input_sourceid)

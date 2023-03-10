@@ -2,15 +2,12 @@
 UID: NF:taskschd.ITriggerCollection.Create
 title: ITriggerCollection::Create (taskschd.h)
 description: Creates a new trigger for the task.
+helpviewer_keywords: ["Create","Create method [Task Scheduler]","Create method [Task Scheduler]","ITriggerCollection interface","ITriggerCollection interface [Task Scheduler]","Create method","ITriggerCollection.Create","ITriggerCollection::Create","TASK_TRIGGER_BOOT","TASK_TRIGGER_DAILY","TASK_TRIGGER_EVENT","TASK_TRIGGER_IDLE","TASK_TRIGGER_LOGON","TASK_TRIGGER_MONTHLY","TASK_TRIGGER_MONTHLYDOW","TASK_TRIGGER_REGISTRATION","TASK_TRIGGER_SESSION_STATE_CHANGE","TASK_TRIGGER_TIME","TASK_TRIGGER_WEEKLY","taskschd.itriggercollection_create","taskschd/ITriggerCollection::Create","triggers [Task Scheduler]","creating"]
 old-location: taskschd\itriggercollection_create.htm
 tech.root: taskschd
 ms.assetid: 70780fca-ba97-42b8-bc00-867c2761953c
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Create method, ITriggerCollection.Create, ITriggerCollection::Create, TASK_TRIGGER_BOOT, TASK_TRIGGER_DAILY, TASK_TRIGGER_EVENT, TASK_TRIGGER_IDLE, TASK_TRIGGER_LOGON, TASK_TRIGGER_MONTHLY, TASK_TRIGGER_MONTHLYDOW, TASK_TRIGGER_REGISTRATION, TASK_TRIGGER_SESSION_STATE_CHANGE, TASK_TRIGGER_TIME, TASK_TRIGGER_WEEKLY, taskschd.itriggercollection_create, taskschd/ITriggerCollection::Create, triggers [Task Scheduler],creating
-f1_keywords:
-- taskschd/ITriggerCollection.Create
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITriggerCollection.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITriggerCollection::Create
+ - taskschd/ITriggerCollection::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITriggerCollection.Create
 ---
 
 # ITriggerCollection::Create
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new trigger for the task.
-
 
 ## -parameters
 
-
-
-
 ### -param type [in]
 
-This parameter is set to one of the following  <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2">TASK_TRIGGER_TYPE2</a> enumeration constants.
+This parameter is set to one of the following  <a href="/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2">TASK_TRIGGER_TYPE2</a> enumeration constants.
 
 <table>
 <tr>
@@ -188,36 +185,21 @@ Triggers the task when a specific session state changes.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppTrigger [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a> interface that represents the new trigger.
+An <a href="/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a> interface that represents the new trigger.
 
-Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
-
+Pass in a reference to a <b>NULL</b> <a href="/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

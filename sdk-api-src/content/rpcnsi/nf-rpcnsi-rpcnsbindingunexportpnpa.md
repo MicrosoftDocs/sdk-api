@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportPnPA
 title: RpcNsBindingUnexportPnPA function (rpcnsi.h)
-description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database.
+description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database. (ANSI)
+helpviewer_keywords: ["RpcNsBindingUnexportPnPA", "rpcnsi/RpcNsBindingUnexportPnPA"]
 old-location: rpc\rpcnsbindingunexportpnp.htm
 tech.root: Rpc
 ms.assetid: b19d9c18-b2fa-45da-b55f-583483c4d540
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW
-f1_keywords:
-- rpcnsi/RpcNsBindingUnexportPnP
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingUnexportPnP
-- RpcNsBindingUnexportPnPA
-- RpcNsBindingUnexportPnPW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingUnexportPnPA
+ - rpcnsi/RpcNsBindingUnexportPnPA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingUnexportPnP
+ - RpcNsBindingUnexportPnPA
+ - RpcNsBindingUnexportPnPW
 ---
 
 # RpcNsBindingUnexportPnPA function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingUnexportPnP</b> function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -69,25 +67,19 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the entry name from which to remove binding handles and object UUIDs.
-
 
 ### -param IfSpec
 
 Interface specification for the binding handles to be removed from the name service database. A null parameter value indicates not to unexport any binding handles (only object UUIDs are to be unexported).
 
-
 ### -param ObjectVector
 
 Pointer to a vector of object UUIDs that the server no longer wants to offer. The application constructs this vector. A null value indicates there are no object UUIDs to unexport (only binding handles are to be unexported).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -197,14 +189,10 @@ Not all objects unexported.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsBindingUnexportPnP</b> function allows a server application to remove the binding handles and object UUIDs of Plug and Play-compatible resources from a name service database entry. A server application can unexport the specified interface and objects in a single call to 
@@ -213,17 +201,14 @@ The
 
 
 
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsBindingUnexportPnP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexportpnpa">RpcNsBindingExportPnP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexportpnpa">RpcNsBindingExportPnP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>

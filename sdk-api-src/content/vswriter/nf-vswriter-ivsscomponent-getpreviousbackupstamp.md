@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetPreviousBackupStamp
 title: IVssComponent::GetPreviousBackupStamp (vswriter.h)
 description: The GetPreviousBackupStamp method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.
+helpviewer_keywords: ["GetPreviousBackupStamp","GetPreviousBackupStamp method [VSS]","GetPreviousBackupStamp method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetPreviousBackupStamp method","IVssComponent.GetPreviousBackupStamp","IVssComponent::GetPreviousBackupStamp","_win32_ivsscomponent_getpreviousbackupstamp","base.ivsscomponent_getpreviousbackupstamp","vswriter/IVssComponent::GetPreviousBackupStamp"]
 old-location: base\ivsscomponent_getpreviousbackupstamp.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291
 ms.date: 12/05/2018
 ms.keywords: GetPreviousBackupStamp, GetPreviousBackupStamp method [VSS], GetPreviousBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreviousBackupStamp method, IVssComponent.GetPreviousBackupStamp, IVssComponent::GetPreviousBackupStamp, _win32_ivsscomponent_getpreviousbackupstamp, base.ivsscomponent_getpreviousbackupstamp, vswriter/IVssComponent::GetPreviousBackupStamp
-f1_keywords:
-- vswriter/IVssComponent.GetPreviousBackupStamp
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetPreviousBackupStamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetPreviousBackupStamp
+ - vswriter/IVssComponent::GetPreviousBackupStamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetPreviousBackupStamp
 ---
 
 # IVssComponent::GetPreviousBackupStamp
@@ -49,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetPreviousBackupStamp</b> method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrBackupStamp [out]
 
 Pointer to a string containing the time stamp of a previous backup so that a differential or incremental backup can be correctly implemented.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -129,23 +123,17 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+For more information about backup stamps, see <a href="/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Writer Role in Backing Up Complex Stores</a> and <a href="/windows/desktop/VSS/requestor-role-in-backing-up-complex-stores">Requester Role in Backing Up Complex Stores</a>.
 
-
-For more information about backup stamps, see <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Writer Role in Backing Up Complex Stores</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/requestor-role-in-backing-up-complex-stores">Requester Role in Backing Up Complex Stores</a>.
-
-The caller should free the memory held by the <i>pbstrBackupStamp</i> parameter by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrBackupStamp</i> parameter by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 If there is no previous backup time stamp, 
 <b>GetPreviousBackupStamp</b> returns S_FALSE.
@@ -154,25 +142,15 @@ The string returned refers to all files in the component and any nonselectable s
 
 The backup stamp retrieved by 
 <b>GetPreviousBackupStamp</b> is set by a requester using 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>.
 
 Typically, the string used to set the value found by 
 <b>GetPreviousBackupStamp</b> was retrieved from a stored Backup Components Document or was stored by the requester as part of its own internal records.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

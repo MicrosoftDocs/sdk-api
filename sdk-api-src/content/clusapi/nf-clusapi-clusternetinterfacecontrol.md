@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterNetInterfaceControl
 title: ClusterNetInterfaceControl function (clusapi.h)
 description: Initiates an operation that affects a network interface. The operation performed depends on the control code passed to the dwControlCode parameter.
+helpviewer_keywords: ["ClusterNetInterfaceControl","ClusterNetInterfaceControl function [Failover Cluster]","_wolf_clusternetinterfacecontrol","clusapi/ClusterNetInterfaceControl","mscs.clusternetinterfacecontrol"]
 old-location: mscs\clusternetinterfacecontrol.htm
 tech.root: MsCS
 ms.assetid: cfb56e61-3652-47a3-860b-706e6dba03d7
 ms.date: 12/05/2018
 ms.keywords: ClusterNetInterfaceControl, ClusterNetInterfaceControl function [Failover Cluster], _wolf_clusternetinterfacecontrol, clusapi/ClusterNetInterfaceControl, mscs.clusternetinterfacecontrol
-f1_keywords:
-- clusapi/ClusterNetInterfaceControl
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterNetInterfaceControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterNetInterfaceControl
+ - clusapi/ClusterNetInterfaceControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterNetInterfaceControl
 ---
 
 # ClusterNetInterfaceControl function
@@ -48,130 +50,114 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initiates an operation that affects a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>. 
-    The operation performed depends on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to 
+Initiates an operation that affects a <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>. 
+    The operation performed depends on the <a href="/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to 
     the <i>dwControlCode</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param hNetInterface [in]
 
 Handle to the network interface to be affected.
 
-
 ### -param hHostNode [in, optional]
 
-If non-<b>NULL</b>, handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> that 
+If non-<b>NULL</b>, handle to the <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> that 
        owns the network interface to be affected. If <b>NULL</b>, the local node performs the 
        operation. Specifying <i>hHostNode</i> is optional.
 
-
 ### -param dwControlCode [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interface-control-codes">network interface control code</a> 
+A <a href="/previous-versions/windows/desktop/mscs/network-interface-control-codes">network interface control code</a> 
        specifying the operation to be performed. For the syntax associated with a control code, refer to  
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a> and the following 
+       <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a> and the following 
        topics:
 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-common-properties">CLUSCTL_NETINTERFACE_ENUM_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-common-properties">CLUSCTL_NETINTERFACE_ENUM_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-private-properties">CLUSCTL_NETINTERFACE_ENUM_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-enum-private-properties">CLUSCTL_NETINTERFACE_ENUM_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-characteristics">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-characteristics">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-properties">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-properties">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-property-fmts">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTY_FMTS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-common-property-fmts">CLUSCTL_NETINTERFACE_GET_COMMON_PROPERTY_FMTS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-flags">CLUSCTL_NETINTERFACE_GET_FLAGS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-flags">CLUSCTL_NETINTERFACE_GET_FLAGS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-id">CLUSCTL_NETINTERFACE_GET_ID</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-id">CLUSCTL_NETINTERFACE_GET_ID</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-name">CLUSCTL_NETINTERFACE_GET_NAME</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-name">CLUSCTL_NETINTERFACE_GET_NAME</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-network">CLUSCTL_NETINTERFACE_GET_NETWORK</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-network">CLUSCTL_NETINTERFACE_GET_NETWORK</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-node">CLUSCTL_NETINTERFACE_GET_NODE</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-node">CLUSCTL_NETINTERFACE_GET_NODE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-properties">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-properties">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-property-fmts">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTY_FMTS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-private-property-fmts">CLUSCTL_NETINTERFACE_GET_PRIVATE_PROPERTY_FMTS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-common-properties">CLUSCTL_NETINTERFACE_GET_RO_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-common-properties">CLUSCTL_NETINTERFACE_GET_RO_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-private-properties">CLUSCTL_NETINTERFACE_GET_RO_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-ro-private-properties">CLUSCTL_NETINTERFACE_GET_RO_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-common-properties">CLUSCTL_NETINTERFACE_SET_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-common-properties">CLUSCTL_NETINTERFACE_SET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-private-properties">CLUSCTL_NETINTERFACE_SET_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-set-private-properties">CLUSCTL_NETINTERFACE_SET_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-unknown">CLUSCTL_NETINTERFACE_UNKNOWN</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-unknown">CLUSCTL_NETINTERFACE_UNKNOWN</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-common-properties">CLUSCTL_NETINTERFACE_VALIDATE_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-common-properties">CLUSCTL_NETINTERFACE_VALIDATE_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-private-properties">CLUSCTL_NETINTERFACE_VALIDATE_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-validate-private-properties">CLUSCTL_NETINTERFACE_VALIDATE_PRIVATE_PROPERTIES</a>
 </li>
 </ul>
-
-
 
 ### -param lpInBuffer [in, optional]
 
 Pointer to an input buffer containing information needed for the operation, or <b>NULL</b> 
        if no information is needed.
 
-
 ### -param nInBufferSize [in]
 
 The allocated size (in bytes) of the input buffer.
-
 
 ### -param lpOutBuffer [out, optional]
 
 Pointer to an output buffer to receive the data resulting from the operation, or 
        <b>NULL</b> if no data will be returned.
 
-
 ### -param nOutBufferSize [in]
 
 The allocated size (in bytes) of the output buffer.
-
 
 ### -param lpBytesReturned [out, optional]
 
 Returns the actual size (in bytes) of the data resulting from the operation. If this information is not 
        needed, pass <b>NULL</b> for <i>lpBytesReturned</i>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -213,7 +199,7 @@ The output buffer pointed to by <i>lpOutBuffer</i> was not large enough to hold 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
+<dt><b><a href="/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -223,14 +209,8 @@ The operation was not successful. If the operation required an output buffer, th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <b>ClusterNetInterfaceControl</b> returns 
      <b>ERROR_MORE_DATA</b>, set <i>nOutBufferSize</i> to the number of bytes 
@@ -238,24 +218,14 @@ If <b>ClusterNetInterfaceControl</b> returns
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
      can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a> and 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
+     <a href="/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a> and 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
 <b>ClusterNetInterfaceControl</b> is one of 
-     the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-functions">control code functions</a>. For more information on 
+     the <a href="/previous-versions/windows/desktop/mscs/control-code-functions">control code functions</a>. For more information on 
      control codes and control code functions, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-control-codes">Using Control Codes</a>.
-
-
-
+     <a href="/previous-versions/windows/desktop/mscs/using-control-codes">Using Control Codes</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interface-control-codes">Network Interface Control Codes</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/network-interface-control-codes">Network Interface Control Codes</a>

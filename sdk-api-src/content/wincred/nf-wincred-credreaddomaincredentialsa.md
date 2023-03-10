@@ -1,16 +1,13 @@
 ---
 UID: NF:wincred.CredReadDomainCredentialsA
 title: CredReadDomainCredentialsA function (wincred.h)
-description: Reads the domain credentials from the user's credential set.
+description: Reads the domain credentials from the user's credential set. (ANSI)
+helpviewer_keywords: ["CredReadDomainCredentialsA", "wincred/CredReadDomainCredentialsA"]
 old-location: security\credreaddomaincredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
 ms.date: 12/05/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
-f1_keywords:
-- wincred/CredReadDomainCredentials
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredReadDomainCredentials
-- CredReadDomainCredentialsA
-- CredReadDomainCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredReadDomainCredentialsA
+ - wincred/CredReadDomainCredentialsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredReadDomainCredentials
+ - CredReadDomainCredentialsA
+ - CredReadDomainCredentialsW
 ---
 
 # CredReadDomainCredentialsA function
@@ -54,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredReadDomainCredentials</b> function reads the domain credentials from the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
 
-
 ## -parameters
-
-
-
 
 ### -param TargetInfo [in]
 
 Target information that identifies the target server. At least one of the naming members must not be <b>NULL</b>: NetbiosServerName, DnsServerName, NetbiosDomainName, DnsDomainName or DnsTreeName.
-
 
 ### -param Flags [in]
 
@@ -79,13 +75,11 @@ The following flag is defined:
 
 CRED_CACHE_TARGET_INFORMATION
 
-Cache the TargetInfo for a subsequent read using <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>.
-
+Cache the TargetInfo for a subsequent read using <a href="/windows/desktop/api/wincred/nf-wincred-credgettargetinfoa">CredGetTargetInfo</a>.
 
 ### -param Count [out]
 
 Count of the credentials returned in the <i>Credentials</i> array.
-
 
 ### -param Credential [out]
 
@@ -102,14 +96,11 @@ Only those credential types specified by the <i>TargetInfo</i>.CredTypes array a
 </ul>
 
 
-The returned buffer is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
-
+The returned buffer is a single allocated block. Any pointers contained within the buffer are pointers to locations within this single allocated block. The single returned buffer must be freed by calling <a href="/windows/desktop/api/wincred/nf-wincred-credfree">CredFree</a>.
 
 ## -returns
 
-
-
-The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
+The function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status codes can be returned:
 
 <ul>
 <li>ERROR_INVALID_PARAMETER 
@@ -138,11 +129,7 @@ A flag that is not valid was specified for the <i>Flags</i> parameter.
 </li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This function returns the most specific credentials matching the naming parameters. For instance, if there is a credential that matches the target server name and a credential that matches the target domain name, only the server specific credential is returned. This is the credential that would be used.
 
@@ -155,15 +142,18 @@ The following list specifies the order (from most specific to least specific) of
 <li>An exact match on <i>TargetName</i>.</li>
 <li>A match of the <i>DnsServerName</i> to a wildcard server credential. If more than one wildcard server credential matches, the credential with the longer TargetName is used. That is, a credential for *.example.microsoft.com is used instead of a credential for *.microsoft.com.</li>
 <li>An exact match of the <i>DnsDomainName</i> to a wildcard domain credential of the form &lt;<i>DnsDomainName</i>&gt;\*.</li>
-<li>An exact match of the <i>NetBIOSDomainName </i>to a wildcard domain credential of the form &lt;<i>NetBIOSDomainName</i>&gt;\*</li>
+<li>An exact match of the <i>NetBIOSDomainName </i> to a wildcard domain credential of the form &lt;<i>NetBIOSDomainName</i>&gt;\*</li>
 <li>The credential named CRED_SESSION_WILDCARD_NAME.</li>
 <li>The credential named "*".</li>
 </ul>
-<b>CredReadDomainCredentials</b> differs from <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> in that it handles the idiosyncrasies of domain (CRED_TYPE_DOMAIN_PASSWORD or CRED_TYPE_DOMAIN_CERTIFICATE) credentials. Domain credentials contain more than one target member.
+<b>CredReadDomainCredentials</b> differs from <a href="/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> in that it handles the idiosyncrasies of domain (CRED_TYPE_DOMAIN_PASSWORD or CRED_TYPE_DOMAIN_CERTIFICATE) credentials. Domain credentials contain more than one target member.
 
-If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credentials</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function can return only one credential of the specified type.
+If the value of the <b>Type</b> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credentials</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function can return only one credential of the specified type.
 
-This function can return multiple credentials of this type, but <b>CRED_TYPE_DOMAIN_EXTENDED</b> cannot be mixed with other types in the <b>CredTypes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure specified by the <i>TargetInfo</i> parameter.
+This function can return multiple credentials of this type, but <b>CRED_TYPE_DOMAIN_EXTENDED</b> cannot be mixed with other types in the <b>CredTypes</b> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure specified by the <i>TargetInfo</i> parameter.
 
 
 
+
+> [!NOTE]
+> The wincred.h header defines CredReadDomainCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

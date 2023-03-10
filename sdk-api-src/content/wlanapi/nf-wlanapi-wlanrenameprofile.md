@@ -2,15 +2,12 @@
 UID: NF:wlanapi.WlanRenameProfile
 title: WlanRenameProfile function (wlanapi.h)
 description: Renames the specified profile.
+helpviewer_keywords: ["WlanRenameProfile","WlanRenameProfile function [NativeWIFI]","nwifi.wlanrenameprofile","wlanapi/WlanRenameProfile"]
 old-location: nwifi\wlanrenameprofile.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 488e9f87-8b98-48c6-81d5-d7237cdf5bd5
 ms.date: 12/05/2018
 ms.keywords: WlanRenameProfile, WlanRenameProfile function [NativeWIFI], nwifi.wlanrenameprofile, wlanapi/WlanRenameProfile
-f1_keywords:
-- wlanapi/WlanRenameProfile
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanRenameProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanRenameProfile
+ - wlanapi/WlanRenameProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanRenameProfile
 ---
 
 # WlanRenameProfile function
@@ -48,44 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanRenameProfile</b> function renames the specified profile.
-
 
 ## -parameters
 
-
-
-
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
-The GUID of the interface. 
-
-
+The GUID of the interface.
 
 ### -param strOldProfileName [in]
 
-The profile name to be changed. 
-
+The profile name to be changed.
 
 ### -param strNewProfileName [in]
 
 The new name of the profile.
 
-
 ### -param pReserved
 
 Reserved for future use. Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -163,26 +152,15 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlandeleteprofile">WlanDeleteProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlandeleteprofile">WlanDeleteProfile</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>

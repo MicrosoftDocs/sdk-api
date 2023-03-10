@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceService.Unadvise
 title: IPortableDeviceService::Unadvise (portabledeviceapi.h)
 description: Unregisters a service event callback object.
+helpviewer_keywords: ["IPortableDeviceService interface [Windows Portable Devices SDK]","Unadvise method","IPortableDeviceService.Unadvise","IPortableDeviceService::Unadvise","Unadvise","Unadvise method [Windows Portable Devices SDK]","Unadvise method [Windows Portable Devices SDK]","IPortableDeviceService interface","portabledeviceapi/IPortableDeviceService::Unadvise","wpdsdk.iportabledeviceservice_unadvise"]
 old-location: wpdsdk\iportabledeviceservice_unadvise.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 4982efa9-82f2-457b-acf4-c6f7d48cf6f7
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Unadvise method, IPortableDeviceService.Unadvise, IPortableDeviceService::Unadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Unadvise, wpdsdk.iportabledeviceservice_unadvise
-f1_keywords:
-- portabledeviceapi/IPortableDeviceService.Unadvise
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceService.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceService::Unadvise
+ - portabledeviceapi/IPortableDeviceService::Unadvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceService.Unadvise
 ---
 
 # IPortableDeviceService::Unadvise
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Unadvise</b> method unregisters a service event callback object.
-
 
 ## -parameters
 
-
-
-
 ### -param pszCookie [in]
 
-The unique context ID for the application-supplied callback object. This value matches that yielded by the <i>ppszCookie</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-advise">Advise</a> method.
-
+The unique context ID for the application-supplied callback object. This value matches that yielded by the <i>ppszCookie</i> parameter of the <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-advise">Advise</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -97,18 +91,7 @@ A <b>NULL</b> parameter was specified.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>

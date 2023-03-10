@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMExtTransport.SetTransportBasicParameters
 title: IAMExtTransport::SetTransportBasicParameters (strmif.h)
 description: The SetTransportBasicParameters method sets general properties of the transport.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetTransportBasicParameters method","IAMExtTransport.SetTransportBasicParameters","IAMExtTransport::SetTransportBasicParameters","IAMExtTransportSetTransportBasicParameters","SetTransportBasicParameters","SetTransportBasicParameters method [DirectShow]","SetTransportBasicParameters method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_settransportbasicparameters","strmif/IAMExtTransport::SetTransportBasicParameters"]
 old-location: dshow\iamexttransport_settransportbasicparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 798fa8d0-3834-4168-86a6-069cae3c3e8e
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetTransportBasicParameters method, IAMExtTransport.SetTransportBasicParameters, IAMExtTransport::SetTransportBasicParameters, IAMExtTransportSetTransportBasicParameters, SetTransportBasicParameters, SetTransportBasicParameters method [DirectShow], SetTransportBasicParameters method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_settransportbasicparameters, strmif/IAMExtTransport::SetTransportBasicParameters
-f1_keywords:
-- strmif/IAMExtTransport.SetTransportBasicParameters
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMExtTransport.SetTransportBasicParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtTransport::SetTransportBasicParameters
+ - strmif/IAMExtTransport::SetTransportBasicParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMExtTransport.SetTransportBasicParameters
 ---
 
 # IAMExtTransport::SetTransportBasicParameters
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetTransportBasicParameters</code> method sets general properties of the transport.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
 Specifies which property to set. See Remarks for more information.
 
-
 ### -param Value [in]
 
 Specifies the value of the property as a <b>long</b> integer. See Remarks for more information.
-
 
 ### -param pszData [in]
 
 Specifies the value of the property as an <b>LPOLESTR</b>. See Remarks for more information.
 
-
 ## -returns
-
-
 
 When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code. Possible error codes include the following.
 
@@ -110,14 +99,8 @@ Device was removed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>Param</i> parameter is a flag that specifies which property to set. For some flags, the property is numeric; use the <i>Value</i> parameter to specify the value. For other flags, the property is a string; use the <i>pszData</i> parameter to specify the value. In either case, the method ignores the other parameter.
 
@@ -306,26 +289,16 @@ For the following flags, use a string in the <i>pszData</i> parameter.
 
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
-
-
-
+<a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-gettransportbasicparameters">IAMExtTransport::GetTransportBasicParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-gettransportbasicparameters">IAMExtTransport::GetTransportBasicParameters</a>

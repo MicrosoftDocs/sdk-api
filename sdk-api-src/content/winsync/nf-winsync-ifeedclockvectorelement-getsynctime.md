@@ -2,15 +2,12 @@
 UID: NF:winsync.IFeedClockVectorElement.GetSyncTime
 title: IFeedClockVectorElement::GetSyncTime (winsync.h)
 description: Gets a SYNC_TIME value that corresponds to the when value for the item.
+helpviewer_keywords: ["GetSyncTime","GetSyncTime method [Windows Sync]","GetSyncTime method [Windows Sync]","IFeedClockVectorElement interface","IFeedClockVectorElement interface [Windows Sync]","GetSyncTime method","IFeedClockVectorElement.GetSyncTime","IFeedClockVectorElement::GetSyncTime","winsync.ifeedclockvectorelement_getsynctime","winsync/IFeedClockVectorElement::GetSyncTime"]
 old-location: winsync\ifeedclockvectorelement_getsynctime.htm
 tech.root: winsync
 ms.assetid: f39b3bdf-a37e-4673-a620-5b14109718cb
 ms.date: 12/05/2018
 ms.keywords: GetSyncTime, GetSyncTime method [Windows Sync], GetSyncTime method [Windows Sync],IFeedClockVectorElement interface, IFeedClockVectorElement interface [Windows Sync],GetSyncTime method, IFeedClockVectorElement.GetSyncTime, IFeedClockVectorElement::GetSyncTime, winsync.ifeedclockvectorelement_getsynctime, winsync/IFeedClockVectorElement::GetSyncTime
-f1_keywords:
-- winsync/IFeedClockVectorElement.GetSyncTime
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IFeedClockVectorElement.GetSyncTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFeedClockVectorElement::GetSyncTime
+ - winsync/IFeedClockVectorElement::GetSyncTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IFeedClockVectorElement.GetSyncTime
 ---
 
 # IFeedClockVectorElement::GetSyncTime
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
-
+Gets a <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 ## -parameters
 
-
-
-
 ### -param pSyncTime [out]
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
-
+Returns a <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> value that corresponds to the <b>when</b> value for the item.
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,31 +87,15 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> structure is a packed date-and-time value that can store years between 1601 and 67136 and times that are accurate to the millisecond.
-
-
-
+The <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> structure is a packed date-and-time value that can store years between 1601 and 67136 and times that are accurate to the millisecond.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvectorelement">IFeedClockVectorElement Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvectorelement">IFeedClockVectorElement Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.IEnumTfDocumentMgrs.Reset
 title: IEnumTfDocumentMgrs::Reset (msctf.h)
 description: IEnumTfDocumentMgrs::Reset method
+helpviewer_keywords: ["IEnumTfDocumentMgrs interface [Text Services Framework]","Reset method","IEnumTfDocumentMgrs.Reset","IEnumTfDocumentMgrs::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfDocumentMgrs interface","_tsf_ienumtfdocumentmgrs_reset_ref","msctf/IEnumTfDocumentMgrs::Reset","tsf.ienumtfdocumentmgrs_reset"]
 old-location: tsf\ienumtfdocumentmgrs_reset.htm
 tech.root: TSF
 ms.assetid: 9f7b016d-ff67-4b73-b373-b5a04cd25b58
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Reset method, IEnumTfDocumentMgrs.Reset, IEnumTfDocumentMgrs::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_reset_ref, msctf/IEnumTfDocumentMgrs::Reset, tsf.ienumtfdocumentmgrs_reset
-f1_keywords:
-- msctf/IEnumTfDocumentMgrs.Reset
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfDocumentMgrs.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfDocumentMgrs::Reset
+ - msctf/IEnumTfDocumentMgrs::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfDocumentMgrs.Reset
 ---
 
 # IEnumTfDocumentMgrs::Reset
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-## -parameters
-
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +75,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
+[IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)
 

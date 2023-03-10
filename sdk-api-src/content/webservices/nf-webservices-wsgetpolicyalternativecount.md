@@ -2,15 +2,12 @@
 UID: NF:webservices.WsGetPolicyAlternativeCount
 title: WsGetPolicyAlternativeCount function (webservices.h)
 description: Retrieves the number of alternatives available in the policy object. The alternative count can be used to loop through each alternative using WsMatchPolicyAlternative.
+helpviewer_keywords: ["WsGetPolicyAlternativeCount","WsGetPolicyAlternativeCount function [Web Services for Windows]","webservices/WsGetPolicyAlternativeCount","wsw.wsgetpolicyalternativecount"]
 old-location: wsw\wsgetpolicyalternativecount.htm
 tech.root: wsw
 ms.assetid: 2d3ac397-07a0-45c4-84b4-0f4806a324bc
 ms.date: 12/05/2018
 ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [Web Services for Windows], webservices/WsGetPolicyAlternativeCount, wsw.wsgetpolicyalternativecount
-f1_keywords:
-- webservices/WsGetPolicyAlternativeCount
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsGetPolicyAlternativeCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsGetPolicyAlternativeCount
+ - webservices/WsGetPolicyAlternativeCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsGetPolicyAlternativeCount
 ---
 
 # WsGetPolicyAlternativeCount function
@@ -48,10 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of alternatives available in the policy object.
             The alternative count can be used to loop through each alternative using
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a>.
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a>.
             
 
 
@@ -60,33 +61,21 @@ Retrieves the number of alternatives available in the policy object.
                 <b>WS_POLICY_STATE_FAULTED</b> state.
             </div><div> </div>
 
-
 ## -parameters
-
-
-
 
 ### -param policy [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-policy">WS_POLICY</a> object from which to count alternatives.
-                
-
+A pointer to the <a href="/windows/desktop/wsw/ws-policy">WS_POLICY</a> object from which to count alternatives.
 
 ### -param count [out]
 
 A pointer to the number value of alternatives.  This may be 0.
-                
-
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -129,18 +118,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Note that each alternative is not guaranteed to be unique within the policy
                 (there may be duplicates).
-            
-
-
-

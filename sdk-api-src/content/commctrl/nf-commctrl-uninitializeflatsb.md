@@ -2,15 +2,12 @@
 UID: NF:commctrl.UninitializeFlatSB
 title: UninitializeFlatSB function (commctrl.h)
 description: Uninitializes flat scroll bars for a particular window. The specified window will revert to standard scroll bars.
+helpviewer_keywords: ["UninitializeFlatSB","UninitializeFlatSB function [Windows Controls]","_win32_UninitializeFlatSB","_win32_UninitializeFlatSB_cpp","commctrl/UninitializeFlatSB","controls.UninitializeFlatSB","controls._win32_UninitializeFlatSB"]
 old-location: controls\UninitializeFlatSB.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\uninitializeflatsb.htm
 ms.date: 12/05/2018
 ms.keywords: UninitializeFlatSB, UninitializeFlatSB function [Windows Controls], _win32_UninitializeFlatSB, _win32_UninitializeFlatSB_cpp, commctrl/UninitializeFlatSB, controls.UninitializeFlatSB, controls._win32_UninitializeFlatSB
-f1_keywords:
-- commctrl/UninitializeFlatSB
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- UninitializeFlatSB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UninitializeFlatSB
+ - commctrl/UninitializeFlatSB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - UninitializeFlatSB
 ---
 
 # UninitializeFlatSB function
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Uninitializes flat scroll bars for a particular window. The specified window will revert to standard scroll bars. 
-
+Uninitializes flat scroll bars for a particular window. The specified window will revert to standard scroll bars.
 
 ## -parameters
 
+### -param unnamedParam1
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-
-### -param Arg1
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
-
-A handle to the window with the flat scroll bars that will be uninitialized. 
-
+A handle to the window with the flat scroll bars that will be uninitialized.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns one of the following values. 
 
@@ -111,16 +105,8 @@ The operation was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  Flat scroll bar functions are implemented in Comctl32.dll versions 4.71 through 5.82. Comctl32.dll versions 6.00 and higher do not support flat scroll bars.</div>
 <div> </div>
-
-

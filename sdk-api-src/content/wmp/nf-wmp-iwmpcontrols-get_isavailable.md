@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPControls.get_isAvailable
 title: IWMPControls::get_isAvailable (wmp.h)
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","get_isAvailable method","IWMPControls.get_isAvailable","IWMPControls::get_isAvailable","IWMPControlsget_isAvailable","get_isAvailable","get_isAvailable method [Windows Media Player]","get_isAvailable method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_get_isavailable","wmp/IWMPControls::get_isAvailable"]
 old-location: wmp\iwmpcontrols_get_isavailable.htm
 tech.root: WMP
 ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_isAvailable method, IWMPControls.get_isAvailable, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
-f1_keywords:
-- wmp/IWMPControls.get_isAvailable
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls.get_isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls::get_isAvailable
+ - wmp/IWMPControls::get_isAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls.get_isAvailable
 ---
 
 # IWMPControls::get_isAvailable
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_isAvailable</b> method indicates whether a specified type of information is available or a specified action can be performed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrItem [in]
 
@@ -116,17 +110,12 @@ The <b>get_isAvailable</b> method indicates whether a specified type of informat
 <td>Determines whether the <b>IWMPControls::stop</b> method is available.</td>
 </tr>
 </table>
- 
-
 
 ### -param pIsAvailable [out]
 
 Pointer to a <b>VARIANT_BOOL</b> indicating whether a specified type of information is available or a specified action can be performed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -147,38 +136,27 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols2-step">IWMPControls2::step</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols2-step">IWMPControls2::step</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-pause">IWMPControls::pause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-pause">IWMPControls::pause</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-play">IWMPControls::play</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-play">IWMPControls::play</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentitem">IWMPControls::put_currentItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentitem">IWMPControls::put_currentItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop">IWMPControls::stop</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop">IWMPControls::stop</a>

@@ -2,19 +2,16 @@
 UID: NF:d3d12.ID3D12Device6.SetBackgroundProcessingMode
 title: ID3D12Device6::SetBackgroundProcessingMode
 description: Sets the mode for driver background processing optimizations.
+helpviewer_keywords: ["ID3D12Device6 interface","SetBackgroundProcessingMode method","ID3D12Device6.SetBackgroundProcessingMode","ID3D12Device6::SetBackgroundProcessingMode","SetBackgroundProcessingMode","SetBackgroundProcessingMode method","SetBackgroundProcessingMode method","ID3D12Device6 interface","direct3d12.id3d12device6_setbackgroundprocessingmode","d3d12/ID3D12Device6::SetBackgroundProcessingMode"]
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device6 interface,SetBackgroundProcessingMode method, ID3D12Device6.SetBackgroundProcessingMode, ID3D12Device6::SetBackgroundProcessingMode, SetBackgroundProcessingMode, SetBackgroundProcessingMode method, SetBackgroundProcessingMode method,ID3D12Device6 interface, direct3d12.id3d12device6_setbackgroundprocessingmode, d3d12/ID3D12Device6::SetBackgroundProcessingMode
-f1_keywords:
-- d3d12/ID3D12Device6.SetBackgroundProcessingMode
-dev_langs:
-- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.lib
-- d3d12.dll
-api_name:
-- ID3D12Device6::SetBackgroundProcessingMode
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - ID3D12Device6::SetBackgroundProcessingMode
+ - d3d12/ID3D12Device6::SetBackgroundProcessingMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.lib
+ - d3d12.dll
+api_name:
+ - ID3D12Device6::SetBackgroundProcessingMode
 ---
 
 ## -description
@@ -50,13 +52,13 @@ Sets the mode for driver background processing optimizations.
 
 ### -param Mode [in]
 
-Type: **[D3D12_BACKGROUND_PROCESSING_MODE](/windows/win32/api/d3d12/ne-d3d12-d3d12_background_processing_mode)**
+Type: **[D3D12_BACKGROUND_PROCESSING_MODE](./ne-d3d12-d3d12_background_processing_mode.md)**
 
 The level of dynamic optimization to apply to GPU work that's subsequently submitted.
 
 ### -param MeasurementsAction [in]
 
-Type: **[D3D12_MEASUREMENTS_ACTION](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action)**
+Type: **[D3D12_MEASUREMENTS_ACTION](./ne-d3d12-d3d12_measurements_action.md)**
 
 The action to take with the results of earlier workload instrumentation.
 
@@ -64,7 +66,7 @@ The action to take with the results of earlier workload instrumentation.
 
 Type: **[HANDLE](/windows/win32/winprog/windows-data-types)**
 
-An optional handle to signal when the function is complete. For example, if *MeasurementsAction* is set to [D3D12_MEASUREMENTS_ACTION_COMMIT_RESULTS](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action), then *hEventToSignalUponCompletion* is signaled when all resulting compilations have finished.
+An optional handle to signal when the function is complete. For example, if *MeasurementsAction* is set to [D3D12_MEASUREMENTS_ACTION_COMMIT_RESULTS](./ne-d3d12-d3d12_measurements_action.md), then *hEventToSignalUponCompletion* is signaled when all resulting compilations have finished.
 
 ### -param pbFurtherMeasurementsDesired [out]
 

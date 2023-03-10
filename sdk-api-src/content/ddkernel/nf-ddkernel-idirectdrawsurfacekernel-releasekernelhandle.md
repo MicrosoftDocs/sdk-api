@@ -2,15 +2,12 @@
 UID: NF:ddkernel.IDirectDrawSurfaceKernel.ReleaseKernelHandle
 title: IDirectDrawSurfaceKernel::ReleaseKernelHandle (ddkernel.h)
 description: The IDirectDrawSurfaceKernel::ReleaseKernelHandle method releases a kernel-mode handle to the DirectDraw surface.
+helpviewer_keywords: ["IDirectDrawSurfaceKernel interface [Display Devices]","ReleaseKernelHandle method","IDirectDrawSurfaceKernel.ReleaseKernelHandle","IDirectDrawSurfaceKernel::ReleaseKernelHandle","ReleaseKernelHandle","ReleaseKernelHandle method [Display Devices]","ReleaseKernelHandle method [Display Devices]","IDirectDrawSurfaceKernel interface","ddfncs_f952a7c7-399d-4de3-8351-b44a79c34c09.xml","ddkernel/IDirectDrawSurfaceKernel::ReleaseKernelHandle","display.idirectdrawsurfacekernel_releasekernelhandle"]
 old-location: display\idirectdrawsurfacekernel_releasekernelhandle.htm
 tech.root: display
 ms.assetid: 75110b32-0b20-4d2a-8988-d4263fdabb46
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurfaceKernel interface [Display Devices],ReleaseKernelHandle method, IDirectDrawSurfaceKernel.ReleaseKernelHandle, IDirectDrawSurfaceKernel::ReleaseKernelHandle, ReleaseKernelHandle, ReleaseKernelHandle method [Display Devices], ReleaseKernelHandle method [Display Devices],IDirectDrawSurfaceKernel interface, ddfncs_f952a7c7-399d-4de3-8351-b44a79c34c09.xml, ddkernel/IDirectDrawSurfaceKernel::ReleaseKernelHandle, display.idirectdrawsurfacekernel_releasekernelhandle
-f1_keywords:
-- ddkernel/IDirectDrawSurfaceKernel.ReleaseKernelHandle
-dev_langs:
-- c++
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ddkernel.h
-api_name:
-- IDirectDrawSurfaceKernel.ReleaseKernelHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurfaceKernel::ReleaseKernelHandle
+ - ddkernel/IDirectDrawSurfaceKernel::ReleaseKernelHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ddkernel.h
+api_name:
+ - IDirectDrawSurfaceKernel.ReleaseKernelHandle
 ---
 
 # IDirectDrawSurfaceKernel::ReleaseKernelHandle
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDirectDrawSurfaceKernel::ReleaseKernelHandle</b> method releases a kernel-mode handle to the DirectDraw surface.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The method must return one of the following values:
 
@@ -104,7 +97,4 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
 

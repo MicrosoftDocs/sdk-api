@@ -2,15 +2,12 @@
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderState
 title: ISyncProviderRegistration::GetSyncProviderState (syncregistration.h)
 description: Returns the state of the specified synchronization provider.
+helpviewer_keywords: ["GetSyncProviderState","GetSyncProviderState method [Windows Sync]","GetSyncProviderState method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","GetSyncProviderState method","ISyncProviderRegistration.GetSyncProviderState","ISyncProviderRegistration::GetSyncProviderState","syncregistration/ISyncProviderRegistration::GetSyncProviderState","winsync.isyncproviderregistration_getsyncproviderstate"]
 old-location: winsync\isyncproviderregistration_getsyncproviderstate.htm
 tech.root: winsync
 ms.assetid: 4e2e2e17-e435-4def-9aee-9109e0e06a8c
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderState, GetSyncProviderState method [Windows Sync], GetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderState method, ISyncProviderRegistration.GetSyncProviderState, ISyncProviderRegistration::GetSyncProviderState, syncregistration/ISyncProviderRegistration::GetSyncProviderState, winsync.isyncproviderregistration_getsyncproviderstate
-f1_keywords:
-- syncregistration/ISyncProviderRegistration.GetSyncProviderState
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration.GetSyncProviderState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration::GetSyncProviderState
+ - syncregistration/ISyncProviderRegistration::GetSyncProviderState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration.GetSyncProviderState
 ---
 
 # ISyncProviderRegistration::GetSyncProviderState
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the state of the specified synchronization provider.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidInstanceId [in]
 
 The unique instance ID of the synchronization provider.
-
 
 ### -param pdwStateFlags [out]
 
@@ -76,8 +72,6 @@ One of the following flags that represent the synchronization provider state.
 </ul>
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,18 +114,7 @@ A synchronization provider with the specified instance ID was not registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.Region.GetLastStatus
 title: Region::GetLastStatus (gdiplusheaders.h)
 description: The Region::GetLastStatus method returns a value that indicates the nature of this Regionobject's most recent method failure.
+helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Region class","Region class [GDI+]","GetLastStatus method","Region.GetLastStatus","Region::GetLastStatus","_gdiplus_CLASS_Region_GetLastStatus_","gdiplus._gdiplus_CLASS_Region_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getlaststatus_54.htm
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Region class, Region class [GDI+],GetLastStatus method, Region.GetLastStatus, Region::GetLastStatus, _gdiplus_CLASS_Region_GetLastStatus_, gdiplus._gdiplus_CLASS_Region_GetLastStatus_
-f1_keywords:
-- gdiplusheaders/Region.GetLastStatus
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::GetLastStatus
+ - gdiplusheaders/Region::GetLastStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.GetLastStatus
 ---
 
 # Region::GetLastStatus
@@ -49,54 +51,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Region::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object's most recent method failure.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object's most recent method failure.
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-</strong>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 The <b>Region::GetLastStatus</b> method returns an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object have failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns <b>Ok</b>.
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object have failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns <b>Ok</b>.
 
 If at least one method invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object has failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
-
-
-
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object has failed since the previous call to <b>Region::GetLastStatus</b>, then <b>Region::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 ## -remarks
 
-
-
 You can call <b>Region::GetLastStatus</b> immediately after constructing a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object to determine whether the constructor succeeded.
+				<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>Region::GetLastStatus</b> method of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
-				<b>Region</b>object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
+				<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object, it returns <b>Ok</b> if the constructor succeeded and all methods invoked so far on the 
+				<b>Region</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
 #### Examples
 
 
 
-The following example creates a region from a path. Next, the code calls <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getbounds(outrectf_inconstgraphics)">Region::GetBounds Methods</a>, followed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
+The following example creates a region from a path. Next, the code calls <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getbounds(outrectf_inconstgraphics)">Region::GetBounds Methods</a>, followed by a call to <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdatasize">Region::GetDataSize</a>. The code then calls <b>Region::GetLastStatus</b>. If all method calls have been successful up to this point, <b>Region::GetLastStatus</b> returns <b>Ok</b>.
 
 
 ```cpp
@@ -130,7 +117,3 @@ VOID Example_GetLastStatus(HDC hdc)
    }
 }
 ```
-
-
-
-

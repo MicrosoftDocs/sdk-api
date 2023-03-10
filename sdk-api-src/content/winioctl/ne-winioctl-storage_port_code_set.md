@@ -1,16 +1,13 @@
 ---
 UID: NE:winioctl._STORAGE_PORT_CODE_SET
 title: STORAGE_PORT_CODE_SET
-description: Reserved for system use.
+description: Reserved for system use. (STORAGE_PORT_CODE_SET)
+helpviewer_keywords: ["*PSTORAGE_PORT_CODE_SET","PSTORAGE_PORT_CODE_SET","PSTORAGE_PORT_CODE_SET enumeration pointer [Files]","STORAGE_PORT_CODE_SET","STORAGE_PORT_CODE_SET enumeration [Files]","StoragePortCodeSetATAport","StoragePortCodeSetReserved","StoragePortCodeSetSBP2port","StoragePortCodeSetSCSIport","StoragePortCodeSetSDport","StoragePortCodeSetSpaceport","StoragePortCodeSetStorport","StoragePortCodeSetUSBport","fs.storage_port_code_set","winioctl/PSTORAGE_PORT_CODE_SET","winioctl/STORAGE_PORT_CODE_SET","winioctl/StoragePortCodeSetATAport","winioctl/StoragePortCodeSetReserved","winioctl/StoragePortCodeSetSBP2port","winioctl/StoragePortCodeSetSCSIport","winioctl/StoragePortCodeSetSDport","winioctl/StoragePortCodeSetSpaceport","winioctl/StoragePortCodeSetStorport","winioctl/StoragePortCodeSetUSBport"]
 old-location: fs\storage_port_code_set.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1c1032e8-30b8-45ad-973a-c7616139b26e
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_CODE_SET, PSTORAGE_PORT_CODE_SET enumeration pointer [Files], STORAGE_PORT_CODE_SET, STORAGE_PORT_CODE_SET enumeration [Files], StoragePortCodeSetATAport, StoragePortCodeSetReserved, StoragePortCodeSetSBP2port, StoragePortCodeSetSCSIport, StoragePortCodeSetSDport, StoragePortCodeSetSpaceport, StoragePortCodeSetStorport, StoragePortCodeSetUSBport, fs.storage_port_code_set, winioctl/PSTORAGE_PORT_CODE_SET, winioctl/STORAGE_PORT_CODE_SET, winioctl/StoragePortCodeSetATAport, winioctl/StoragePortCodeSetReserved, winioctl/StoragePortCodeSetSBP2port, winioctl/StoragePortCodeSetSCSIport, winioctl/StoragePortCodeSetSDport, winioctl/StoragePortCodeSetSpaceport, winioctl/StoragePortCodeSetStorport, winioctl/StoragePortCodeSetUSBport'
-f1_keywords:
-- winioctl/STORAGE_PORT_CODE_SET
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_PORT_CODE_SET
 targetos: Windows
 req.typenames: STORAGE_PORT_CODE_SET, *PSTORAGE_PORT_CODE_SET
 req.redist: 
+f1_keywords:
+ - _STORAGE_PORT_CODE_SET
+ - winioctl/_STORAGE_PORT_CODE_SET
+ - PSTORAGE_PORT_CODE_SET
+ - winioctl/PSTORAGE_PORT_CODE_SET
+ - STORAGE_PORT_CODE_SET
+ - winioctl/STORAGE_PORT_CODE_SET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_PORT_CODE_SET
 ---
 
 # STORAGE_PORT_CODE_SET enumeration
@@ -47,66 +53,43 @@ req.redist:
 
 ## -description
 
-
-Reserved for system use. 
-
+Reserved for system use.
 
 ## -enum-fields
 
-
-
-
-### -field StoragePortCodeSetReserved
+### -field StoragePortCodeSetReserved:0
 
 Indicates an unknown storage adapter driver type.
 
-
-### -field StoragePortCodeSetStorport
+### -field StoragePortCodeSetStorport:1
 
 Storage adapter driver is a Storport-miniport driver.
 
-
-### -field StoragePortCodeSetSCSIport
+### -field StoragePortCodeSetSCSIport:2
 
 Storage adapter driver is a SCSI Port-miniport driver.
 
-
-### -field StoragePortCodeSetSpaceport
+### -field StoragePortCodeSetSpaceport:3
 
 Storage adapter driver is the Spaceport driver.
 
-
-### -field StoragePortCodeSetATAport
+### -field StoragePortCodeSetATAport:4
 
 Storage adapter driver is an ATA-port miniport driver.
 
-
-### -field StoragePortCodeSetUSBport
+### -field StoragePortCodeSetUSBport:5
 
 Storage adapter driver is the  USB-storage port driver.
 
-
-### -field StoragePortCodeSetSBP2port
+### -field StoragePortCodeSetSBP2port:6
 
 Storage adapter driver is the  SBP2 port driver.
 
-
-### -field StoragePortCodeSetSDport
+### -field StoragePortCodeSetSDport:7
 
 Storage adapter driver is an SD-port miniport driver.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-enumeration-types">Disk Management Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_miniport_descriptor">STORAGE_MINIPORT_DESCRIPTOR</a>
- 
-
- 
-
+* [Disk Management Enumeration Types](/windows/desktop/FileIO/disk-management-enumeration-types)
+* [STORAGE_MINIPORT_DESCRIPTOR](ns-winioctl-storage_miniport_descriptor.md)

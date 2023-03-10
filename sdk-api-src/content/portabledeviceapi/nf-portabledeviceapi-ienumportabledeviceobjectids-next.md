@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Next
 title: IEnumPortableDeviceObjectIDs::Next (portabledeviceapi.h)
 description: The Next method retrieves the next one or more object IDs in the enumeration sequence.
+helpviewer_keywords: ["IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK]","Next method","IEnumPortableDeviceObjectIDs.Next","IEnumPortableDeviceObjectIDs::Next","IEnumPortableDeviceObjectIDsNext","Next","Next method [Windows Portable Devices SDK]","Next method [Windows Portable Devices SDK]","IEnumPortableDeviceObjectIDs interface","portabledeviceapi/IEnumPortableDeviceObjectIDs::Next","wpdsdk.ienumportabledeviceobjectids_next"]
 old-location: wpdsdk\ienumportabledeviceobjectids_next.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
-f1_keywords:
-- portabledeviceapi/IEnumPortableDeviceObjectIDs.Next
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IEnumPortableDeviceObjectIDs.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPortableDeviceObjectIDs::Next
+ - portabledeviceapi/IEnumPortableDeviceObjectIDs::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IEnumPortableDeviceObjectIDs.Next
 ---
 
 # IEnumPortableDeviceObjectIDs::Next
@@ -49,37 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Next</b> method retrieves the next one or more object IDs in the enumeration sequence.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param cObjects [in]
 
 A count of the objects requested.
-          
-
 
 ### -param pObjIDs [in, out]
 
-An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-          
-
+An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pcFetched [in, out]
 
 On input, this parameter is ignored. On output, the number of IDs actually retrieved. If no object IDs are released and the return value is S_FALSE, there are no more objects to enumerate.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -112,14 +100,8 @@ There are no more objects to enumerate.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If fewer than the requested number of elements remain in the sequence, this method retrieves the remaining elements. The number of elements that are actually retrieved is returned through <i>pcFetched</i> (unless the caller passed in NULL for that parameter). Enumerated objects are all peers—that is, enumerating children of an object will enumerate only direct children, not grandchild or deeper objects.
       
@@ -190,21 +172,10 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wpd_sdk/enumerating-content">Enumerating Content</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/enumerating-content">Enumerating Content</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>

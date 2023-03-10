@@ -2,15 +2,12 @@
 UID: NC:cryptdlg.PFNCMHOOKPROC
 title: PFNCMHOOKPROC (cryptdlg.h)
 description: Called before messages are processed by the certificate selection dialog box produced by the CertSelectCertificate function.
+helpviewer_keywords: ["PFNCMHOOKPROC","PFNCMHOOKPROC callback","PFNCMHOOKPROC callback function [Security]","cryptdlg/PFNCMHOOKPROC","security.pfncmhookproc"]
 old-location: security\pfncmhookproc.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7172c995-a46b-437b-beaf-a0649cb8ec3d
 ms.date: 12/05/2018
 ms.keywords: PFNCMHOOKPROC, PFNCMHOOKPROC callback, PFNCMHOOKPROC callback function [Security], cryptdlg/PFNCMHOOKPROC, security.pfncmhookproc
-f1_keywords:
-- cryptdlg/PFNCMHOOKPROC
-dev_langs:
-- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- CryptDlg.h
-api_name:
-- PFNCMHOOKPROC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNCMHOOKPROC
+ - cryptdlg/PFNCMHOOKPROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - CryptDlg.h
+api_name:
+ - PFNCMHOOKPROC
 ---
 
 # PFNCMHOOKPROC callback function
@@ -48,64 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PFNCMHOOKPROC</b> function is a hook procedure that is called before messages are processed by the certificate selection dialog box produced by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The function allows the caller to customize the dialog box. <b>PFNCMHOOKPROC</b> is an application-defined callback function specified in the <a href="https://docs.microsoft.com/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMHOOKPROC</b> function must be implemented by the developer to suit each application.
-
+The <b>PFNCMHOOKPROC</b> function is a hook procedure that is called before messages are processed by the certificate selection dialog box produced by the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The function allows the caller to customize the dialog box. <b>PFNCMHOOKPROC</b> is an application-defined callback function specified in the <a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a> structure. The <b>CERT_SELECT_STRUCT</b> structure is a parameter in the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a> function. The <b>PFNCMHOOKPROC</b> function must be implemented by the developer to suit each application.
 
 ## -parameters
-
-
-
 
 ### -param hwndDialog [in]
 
 A handle to a dialog box window.
 
-
 ### -param message [in]
 
 The message.
-
 
 ### -param wParam [in]
 
 Additional information about the message sent or posted.
 
-
 ### -param lParam [in]
 
  Additional information about the message sent or posted.
 
-
 ## -returns
-
-
 
 Return a nonzero value (<b>TRUE</b>) if this function processes the message. Return zero (<b>FALSE</b>) if this function does not process the message.
 
-
-
-
 ## -remarks
 
-
-
-For information about hooks, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>.
-
-
-
+For information about hooks, see <a href="/windows/desktop/winmsg/hooks">Hooks</a>.
 
 ## -see-also
 
+<a href="/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/cryptdlg/ns-cryptdlg-cert_select_struct_a">CERT_SELECT_STRUCT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certselectcertificatea">CertSelectCertificate</a>

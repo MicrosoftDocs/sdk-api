@@ -1,16 +1,13 @@
 ---
 UID: NF:immdev.ImmGetGuideLineA
 title: ImmGetGuideLineA function (immdev.h)
-description: Retrieves information about errors. Applications use the information for user notifications.
+description: The ImmGetGuideLineA (ANSI) function (immdev.h) retrieves information about errors. Applications use the information for user notifications. 
+helpviewer_keywords: ["GGL_INDEX", "GGL_LEVEL", "GGL_PRIVATE", "GGL_STRING", "ImmGetGuideLineA"]
 old-location: intl\immgetguideline.htm
 tech.root: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
-f1_keywords:
-- immdev/ImmGetGuideLine
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-api_name:
-- ImmGetGuideLine
-- ImmGetGuideLineA
-- ImmGetGuideLineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmGetGuideLineA
+ - immdev/ImmGetGuideLineA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+api_name:
+ - ImmGetGuideLine
+ - ImmGetGuideLineA
+ - ImmGetGuideLineW
 ---
 
 # ImmGetGuideLineA function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about errors. Applications use the information for user notifications.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Handle to the input context.
-
 
 ### -param dwIndex [in]
 
@@ -114,22 +110,16 @@ Return information about reverse conversion.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuf [out, optional]
 
 Pointer to a buffer in which the function retrieves the error message string. This parameter contains <b>NULL</b> if <i>dwIndex</i> is not GGL_STRING or GGL_PRIVATE or if <i>dwBufLen</i> is set to 0.
 
-
 ### -param dwBufLen [in]
 
 Size, in bytes, of the output buffer. The application sets this parameter to 0 if the function is to return the buffer size needed to receive the error message string, not including the terminating null character.
 
-
 ## -returns
-
-
 
 Returns an error level, an error index, or the size of an error message string, depending on the value of the <i>dwIndex</i> parameter. If <i>dwIndex</i> is GGL_LEVEL, the return is one of the following values.
 
@@ -218,7 +208,7 @@ If <i>dwIndex</i> is GGL_INDEX, the return value is one of the following values.
 </tr>
 <tr>
 <td>GL_ID_REVERSECONVERSION</td>
-<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> format.</td>
+<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> format.</td>
 </tr>
 </table>
  
@@ -227,37 +217,29 @@ If <i>dwIndex</i> is GGL_STRING, the return value is the number of bytes of the 
 
 If <i>dwIndex</i> is GGL_PRIVATE, the return value is the number of bytes of information copied to the buffer. If <i>dwIndex</i> is GGL_PRIVATE and <i>dwBufLen</i> is 0, the return value is the buffer size needed to receive the information.
 
-
-
-
 ## -remarks
 
+Applications typically call this function after receiving an <a href="/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a> command.
 
 
-Applications typically call this function after receiving an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a> command.
 
 
 
+> [!NOTE]
+> The immdev.h header defines ImmGetGuideLine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
+<a href="/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

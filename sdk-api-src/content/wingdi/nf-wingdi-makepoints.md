@@ -2,15 +2,12 @@
 UID: NF:wingdi.MAKEPOINTS
 title: MAKEPOINTS macro (wingdi.h)
 description: The MAKEPOINTS macro converts a value that contains the x- and y-coordinates of a point into a POINTS structure.
+helpviewer_keywords: ["MAKEPOINTS","MAKEPOINTS macro [Windows GDI]","_win32_MAKEPOINTS","gdi.makepoints","wingdi/MAKEPOINTS"]
 old-location: gdi\makepoints.htm
 tech.root: gdi
 ms.assetid: 1f84cfd0-2836-4c20-9408-17e0d57742be
 ms.date: 12/05/2018
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
-f1_keywords:
-- wingdi/MAKEPOINTS
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- MAKEPOINTS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAKEPOINTS
+ - wingdi/MAKEPOINTS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - MAKEPOINTS
 ---
 
 # MAKEPOINTS macro
@@ -48,38 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
-
-
-
+The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="/windows/win32/api/windef/ns-windef-points">POINTS</a> structure.
 
 ## -parameters
-
-
-
 
 ### -param l
 
 The coordinates of a point. The x-coordinate is in the low-order word, and the y-coordinate is in the high-order word.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessagepos">GetMessagePos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessagepos">GetMessagePos</a>
+<a href="/windows/desktop/gdi/rectangle-macros">Rectangle Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangle-macros">Rectangle Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/rectangles">Rectangles Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/rectangles">Rectangles Overview</a>

@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetQualityIndicator
 title: IIsdbAudioComponentDescriptor::GetQualityIndicator (dvbsiparser.h)
 description: Gets the value of the quality_indicator field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This two-bit field indicates the tone quality mode.
+helpviewer_keywords: ["GetQualityIndicator","GetQualityIndicator method [Microsoft TV Technologies]","GetQualityIndicator method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetQualityIndicator method","IIsdbAudioComponentDescriptor.GetQualityIndicator","IIsdbAudioComponentDescriptor::GetQualityIndicator","dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator","mstv.iisdbaudiocomponentdescriptor_getqualityindicator"]
 old-location: mstv\iisdbaudiocomponentdescriptor_getqualityindicator.htm
 tech.root: mstv
 ms.assetid: 39d85ecd-6ccd-48e8-9498-41aad45a7357
 ms.date: 12/05/2018
 ms.keywords: GetQualityIndicator, GetQualityIndicator method [Microsoft TV Technologies], GetQualityIndicator method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetQualityIndicator method, IIsdbAudioComponentDescriptor.GetQualityIndicator, IIsdbAudioComponentDescriptor::GetQualityIndicator, dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator, mstv.iisdbaudiocomponentdescriptor_getqualityindicator
-f1_keywords:
-- dvbsiparser/IIsdbAudioComponentDescriptor.GetQualityIndicator
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbAudioComponentDescriptor.GetQualityIndicator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbAudioComponentDescriptor::GetQualityIndicator
+ - dvbsiparser/IIsdbAudioComponentDescriptor::GetQualityIndicator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbAudioComponentDescriptor.GetQualityIndicator
 ---
 
 # IIsdbAudioComponentDescriptor::GetQualityIndicator
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the value of the quality_indicator field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This two-bit field indicates the tone quality mode.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
@@ -111,25 +108,11 @@ Mode 3.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbaudiocomponentdescriptor">IIsdbAudioComponentDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbaudiocomponentdescriptor">IIsdbAudioComponentDescriptor</a>

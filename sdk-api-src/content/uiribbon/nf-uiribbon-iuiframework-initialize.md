@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUIFramework.Initialize
 title: IUIFramework::Initialize (uiribbon.h)
 description: Connects the host application to the Windows Ribbon framework.
+helpviewer_keywords: ["IUIFramework interface [Windows Ribbon]","Initialize method","IUIFramework.Initialize","IUIFramework::Initialize","Initialize","Initialize method [Windows Ribbon]","Initialize method [Windows Ribbon]","IUIFramework interface","scenicintent_IUIFramework_Initialize","uiribbon/IUIFramework::Initialize","windowsribbon.windowsribbon_iuiframework_initialize"]
 old-location: windowsribbon\windowsribbon_iuiframework_initialize.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\initialize.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],Initialize method, IUIFramework.Initialize, IUIFramework::Initialize, Initialize, Initialize method [Windows Ribbon], Initialize method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_Initialize, uiribbon/IUIFramework::Initialize, windowsribbon.windowsribbon_iuiframework_initialize
-f1_keywords:
-- uiribbon/IUIFramework.Initialize
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIFramework.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIFramework::Initialize
+ - uiribbon/IUIFramework::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIFramework.Initialize
 ---
 
 # IUIFramework::Initialize
@@ -49,34 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Connects the host application to the Windows Ribbon framework.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param frameWnd [in]
 
 Type: <b>HWND</b>
 
-Handle to the top-level window that will contain the Ribbon. 
-
+Handle to the top-level window that will contain the Ribbon.
 
 ### -param application [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>*</b>
 
 Pointer to the IUIApplication implementation of the host application.
-				
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -104,21 +95,15 @@ Returns S_OK if successful; otherwise, an error value from the following list.
 <td><i>application</i> is <b>NULL</b> or an invalid pointer.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method must be called by the host application for each top-level window that requires a ribbon.
 			
 
 This method is used to set up the hooks that enable the Ribbon framework to invoke callbacks in the host application.
 
-To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
+To initialize the Ribbon successfully, a compiled Ribbon markup file must be available as a resource and specified in a subsequent call to <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>. This markup file is an integral component of the framework; it specifies the controls to be used and their layout.
 
 If <b>IUIFramework::Initialize</b> returns successfully: 
 
@@ -204,27 +189,18 @@ bool InitializeFramework(HWND hWnd)
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui">IUIFramework::LoadUI</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

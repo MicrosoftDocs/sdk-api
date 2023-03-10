@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMMediaProps.GetMediaType
 title: IWMMediaProps::GetMediaType (wmsdkidl.h)
 description: The GetMediaType method retrieves a structure describing the media type.
+helpviewer_keywords: ["GetMediaType","GetMediaType method [windows Media Format]","GetMediaType method [windows Media Format]","IWMMediaProps interface","IWMMediaProps interface [windows Media Format]","GetMediaType method","IWMMediaProps.GetMediaType","IWMMediaProps::GetMediaType","IWMMediaPropsGetMediaType","wmformat.iwmmediaprops_getmediatype","wmsdkidl/IWMMediaProps::GetMediaType"]
 old-location: wmformat\iwmmediaprops_getmediatype.htm
 tech.root: wmformat
 ms.assetid: 8357e5c6-d8c6-4a30-8446-85fa7fa118f7
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [windows Media Format], GetMediaType method [windows Media Format],IWMMediaProps interface, IWMMediaProps interface [windows Media Format],GetMediaType method, IWMMediaProps.GetMediaType, IWMMediaProps::GetMediaType, IWMMediaPropsGetMediaType, wmformat.iwmmediaprops_getmediatype, wmsdkidl/IWMMediaProps::GetMediaType
-f1_keywords:
-- wmsdkidl/IWMMediaProps.GetMediaType
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMMediaProps.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMediaProps::GetMediaType
+ - wmsdkidl/IWMMediaProps::GetMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMMediaProps.GetMediaType
 ---
 
 # IWMMediaProps::GetMediaType
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetMediaType</b> method retrieves a structure describing the media type.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure. If this parameter is set to <b>NULL</b>, this method returns the size of the buffer required in the <i>pcbType</i> parameter.
-
+Pointer to a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure. If this parameter is set to <b>NULL</b>, this method returns the size of the buffer required in the <i>pcbType</i> parameter.
 
 ### -param pcbType [in, out]
 
 On input, the size of the <i>pType</i> buffer. On output, if <i>pType</i> is set to <b>NULL</b>, the value this points to is set to the size of the buffer needed to hold the media type structure.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,35 +108,19 @@ The <i>pcbType</i> parameter is not large enough.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You must make two calls to <b>GetMediaType</b>. On the first call, pass <b>NULL</b> as <i>pType</i>. On return, the value of <i>pcbType</i> will be set to the buffer size required to hold the <b>WM_MEDIA_TYPE</b> structure. Then you can allocate a buffer of the required size and pass a pointer to it as <i>pType</i> on the second call.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-setmediatype">IWMMediaProps::SetMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-setmediatype">IWMMediaProps::SetMediaType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/media-types">Media Types</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRImageCompositor.InitCompositionTarget
 title: IVMRImageCompositor::InitCompositionTarget (strmif.h)
 description: The InitCompositionTarget method informs the compositor that a new composition target has been created.
+helpviewer_keywords: ["IVMRImageCompositor interface [DirectShow]","InitCompositionTarget method","IVMRImageCompositor.InitCompositionTarget","IVMRImageCompositor::InitCompositionTarget","IVMRImageCompositorInitCompositionTarget","InitCompositionTarget","InitCompositionTarget method [DirectShow]","InitCompositionTarget method [DirectShow]","IVMRImageCompositor interface","dshow.ivmrimagecompositor_initcompositiontarget","strmif/IVMRImageCompositor::InitCompositionTarget"]
 old-location: dshow\ivmrimagecompositor_initcompositiontarget.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 16d54090-a0fa-480f-ba94-a15aa08d4576
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],InitCompositionTarget method, IVMRImageCompositor.InitCompositionTarget, IVMRImageCompositor::InitCompositionTarget, IVMRImageCompositorInitCompositionTarget, InitCompositionTarget, InitCompositionTarget method [DirectShow], InitCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_initcompositiontarget, strmif/IVMRImageCompositor::InitCompositionTarget
-f1_keywords:
-- strmif/IVMRImageCompositor.InitCompositionTarget
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRImageCompositor.InitCompositionTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRImageCompositor::InitCompositionTarget
+ - strmif/IVMRImageCompositor::InitCompositionTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRImageCompositor.InitCompositionTarget
 ---
 
 # IVMRImageCompositor::InitCompositionTarget
@@ -49,48 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>InitCompositionTarget</code> method informs the compositor that a new composition target has been created. The compositor should perform any necessary configuration work in this method. This could include attaching a Z or stencil buffer buffer for the new render target
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pD3DDevice [in]
 
 Pointer to the <b>IUnknown</b> interface of the Direct3D device object.
 
-
 ### -param pddsRenderTarget [in]
 
 Specifies the DirectDraw surface.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagecompositor">IVMRImageCompositor Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagecompositor">IVMRImageCompositor Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

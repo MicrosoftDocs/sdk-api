@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamType
 title: IWMStreamConfig::GetStreamType (wmsdkidl.h)
 description: The GetStreamType method retrieves the major type of the stream (audio, video, or script).
+helpviewer_keywords: ["GetStreamType","GetStreamType method [windows Media Format]","GetStreamType method [windows Media Format]","IWMStreamConfig interface","IWMStreamConfig interface [windows Media Format]","GetStreamType method","IWMStreamConfig.GetStreamType","IWMStreamConfig::GetStreamType","IWMStreamConfigGetStreamType","wmformat.iwmstreamconfig_getstreamtype","wmsdkidl/IWMStreamConfig::GetStreamType"]
 old-location: wmformat\iwmstreamconfig_getstreamtype.htm
 tech.root: wmformat
 ms.assetid: a8dc8c37-da52-4d0f-b143-aaa45e6f77b8
 ms.date: 12/05/2018
 ms.keywords: GetStreamType, GetStreamType method [windows Media Format], GetStreamType method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamType method, IWMStreamConfig.GetStreamType, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType
-f1_keywords:
-- wmsdkidl/IWMStreamConfig.GetStreamType
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamConfig.GetStreamType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamConfig::GetStreamType
+ - wmsdkidl/IWMStreamConfig::GetStreamType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamConfig.GetStreamType
 ---
 
 # IWMStreamConfig::GetStreamType
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStreamType</b> method retrieves the major type of the stream (audio, video, or script).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pguidStreamType [out]
 
 Pointer to a GUID object specifying the major type of the stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,31 +104,15 @@ The <i>pMediaType</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For a table of stream major types, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/media-types">Media Types</a>.
-
-
-
+For a table of stream major types, see <a href="/windows/desktop/wmformat/media-types">Media Types</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamname">IWMStreamConfig::GetStreamName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamname">IWMStreamConfig::GetStreamName</a>

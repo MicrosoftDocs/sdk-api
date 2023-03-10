@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentDataCount
 title: IXpsOMGeometryFigure::GetSegmentDataCount (xpsobjectmodel.h)
 description: Gets the number of segment data points in the figure.
+helpviewer_keywords: ["GetSegmentDataCount","GetSegmentDataCount method [XPS Documents and Packaging]","GetSegmentDataCount method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetSegmentDataCount method","IXpsOMGeometryFigure.GetSegmentDataCount","IXpsOMGeometryFigure::GetSegmentDataCount","xps.ixpsomgeometryfigure_getsegmentdatacount","xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount"]
 old-location: xps\ixpsomgeometryfigure_getsegmentdatacount.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 42b68a76-e7fe-49d2-9190-4a4d5e763052
 ms.date: 12/05/2018
 ms.keywords: GetSegmentDataCount, GetSegmentDataCount method [XPS Documents and Packaging], GetSegmentDataCount method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetSegmentDataCount method, IXpsOMGeometryFigure.GetSegmentDataCount, IXpsOMGeometryFigure::GetSegmentDataCount, xps.ixpsomgeometryfigure_getsegmentdatacount, xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.GetSegmentDataCount
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.GetSegmentDataCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::GetSegmentDataCount
+ - xpsobjectmodel/IXpsOMGeometryFigure::GetSegmentDataCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.GetSegmentDataCount
 ---
 
 # IXpsOMGeometryFigure::GetSegmentDataCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of segment data points in the figure.
 
-
 ## -parameters
-
-
-
 
 ### -param segmentDataCount [out, retval]
 
 The number of segment data points. <i>segmentDataCount</i> must not be <b>NULL</b> when the method is called.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -96,49 +90,33 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To get the segment data points, call <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata">GetSegmentData</a>.
 
-
-To get the segment data points, call <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata">GetSegmentData</a>.
-
-For an example of how to use this method in a program, see the code example in <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata">GetSegmentData</a>.
-
-
-
+For an example of how to use this method in a program, see the code example in <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata">GetSegmentData</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentcount">GetSegmentCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentcount">GetSegmentCount</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata">GetSegmentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata">GetSegmentData</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmenttypes">GetSegmentTypes</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

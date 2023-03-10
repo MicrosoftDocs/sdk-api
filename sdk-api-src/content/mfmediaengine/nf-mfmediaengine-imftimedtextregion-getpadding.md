@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetPadding
 title: IMFTimedTextRegion::GetPadding (mfmediaengine.h)
 description: Gets the padding that surrounds the region.
+helpviewer_keywords: ["GetPadding","GetPadding method [Media Foundation]","GetPadding method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetPadding method","IMFTimedTextRegion.GetPadding","IMFTimedTextRegion::GetPadding","mf.imftimedtextregion_getpadding","mfmediaengine/IMFTimedTextRegion::GetPadding"]
 old-location: mf\imftimedtextregion_getpadding.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B97ECFD8-2E96-425F-B29E-49E7D53BBFCB
 ms.date: 12/05/2018
 ms.keywords: GetPadding, GetPadding method [Media Foundation], GetPadding method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetPadding method, IMFTimedTextRegion.GetPadding, IMFTimedTextRegion::GetPadding, mf.imftimedtextregion_getpadding, mfmediaengine/IMFTimedTextRegion::GetPadding
-f1_keywords:
-- mfmediaengine/IMFTimedTextRegion.GetPadding
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextRegion.GetPadding
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextRegion::GetPadding
+ - mfmediaengine/IMFTimedTextRegion::GetPadding
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextRegion.GetPadding
 ---
 
 # IMFTimedTextRegion::GetPadding
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the padding that surrounds the region.
 
-
 ## -parameters
-
-
-
 
 ### -param before [out]
 
@@ -63,13 +60,11 @@ Type: <b>double*</b>
 
 A pointer to a variable that receives the padding before the start of the region.
 
-
 ### -param start [out]
 
 Type: <b>double*</b>
 
 A pointer to a variable that receives the start of the region.
-
 
 ### -param after [out]
 
@@ -77,39 +72,24 @@ Type: <b>double*</b>
 
 A pointer to a variable that receives the padding after the end of the region.
 
-
 ### -param end [out]
 
 Type: <b>double*</b>
 
 A pointer to a variable that receives the end of the region.
 
-
 ### -param unitType [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_unit_type">MF_TIMED_TEXT_UNIT_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_unit_type">MF_TIMED_TEXT_UNIT_TYPE</a>*</b>
 
-A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_unit_type">MF_TIMED_TEXT_UNIT_TYPE</a>-typed value that specifies the units in which the timed-text region is measured.
-
+A pointer to a variable that receives a <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_unit_type">MF_TIMED_TEXT_UNIT_TYPE</a>-typed value that specifies the units in which the timed-text region is measured.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>

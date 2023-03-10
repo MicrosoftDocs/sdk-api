@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontFamily2.GetFontSet
 title: IDWriteFontFamily2::GetFontSet
 description: Retrieves the underlying font set used by this family.
+helpviewer_keywords: ["IDWriteFontFamily2 interface [Direct Write]","GetFontSet method","IDWriteFontFamily2.GetFontSet","IDWriteFontFamily2::GetFontSet","GetFontSet","GetFontSet method [Direct Write]","GetFontSet method [Direct Write]","IDWriteFontFamily2 interface","directwrite.idwritefontfamily2_getfontset","dwrite_3/IDWriteFontFamily2::GetFontSet"]
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontFamily2 interface [Direct Write],GetFontSet method, IDWriteFontFamily2.GetFontSet, IDWriteFontFamily2::GetFontSet, GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontFamily2 interface, directwrite.idwritefontfamily2_getfontset, dwrite_3/IDWriteFontFamily2::GetFontSet
-f1_keywords:
-- dwrite_3/IDWriteFontFamily2.GetFontSet
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontFamily2::GetFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontFamily2::GetFontSet
+ - dwrite_3/IDWriteFontFamily2::GetFontSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontFamily2::GetFontSet
 ---
 
 ## -description
@@ -50,9 +52,9 @@ Retrieves the underlying font set used by this family.
 
 ### -param fontSet [out]
 
-Type: **[IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1)\*\***
+Type: **[IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md)\*\***
 
-The address of a pointer to an [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1) interface. On successful completion, the function sets the pointer to the font set used by the family.
+The address of a pointer to an [IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md) interface. On successful completion, the function sets the pointer to the font set used by the family.
 
 ## -returns
 

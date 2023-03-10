@@ -2,15 +2,12 @@
 UID: NF:winsafer.SaferComputeTokenFromLevel
 title: SaferComputeTokenFromLevel function (winsafer.h)
 description: Restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
+helpviewer_keywords: ["SAFER_TOKEN_COMPARE_ONLY","SAFER_TOKEN_MAKE_INERT","SAFER_TOKEN_NULL_IF_EQUAL","SAFER_TOKEN_WANT_FLAGS","SaferComputeTokenFromLevel","SaferComputeTokenFromLevel function [Security]","security.safercomputetokenfromlevel","winsafer/SaferComputeTokenFromLevel"]
 old-location: security\safercomputetokenfromlevel.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
 ms.date: 12/05/2018
 ms.keywords: SAFER_TOKEN_COMPARE_ONLY, SAFER_TOKEN_MAKE_INERT, SAFER_TOKEN_NULL_IF_EQUAL, SAFER_TOKEN_WANT_FLAGS, SaferComputeTokenFromLevel, SaferComputeTokenFromLevel function [Security], security.safercomputetokenfromlevel, winsafer/SaferComputeTokenFromLevel
-f1_keywords:
-- winsafer/SaferComputeTokenFromLevel
-dev_langs:
-- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
-api_name:
-- SaferComputeTokenFromLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaferComputeTokenFromLevel
+ - winsafer/SaferComputeTokenFromLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+api_name:
+ - SaferComputeTokenFromLevel
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferComputeTokenFromLevel function
@@ -49,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaferComputeTokenFromLevel</b> function restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
 
-
 ## -parameters
-
-
-
 
 ### -param LevelHandle [in]
 
 <b>SAFER_LEVEL_HANDLE</b> that contains the restrictions to place on the input token. Do not pass handles with a LevelId of <b>SAFER_LEVELID_FULLYTRUSTED</b> or <b>SAFER_LEVELID_DISALLOWED</b> to this function. This is because <b>SAFER_LEVELID_FULLYTRUSTED</b> is unrestricted and <b>SAFER_LEVELID_DISALLOWED</b> does not contain a token.
 
-
 ### -param InAccessToken [in, optional]
 
-Token to be restricted. If this parameter is <b>NULL</b>, the token of the current thread will be used. If the current thread does not contain a token, the token of the current process is used.  
-
+Token to be restricted. If this parameter is <b>NULL</b>, the token of the current thread will be used. If the current thread does not contain a token, the token of the current process is used.
 
 ### -param OutAccessToken [out]
 
 The resulting restricted token.
-
 
 ### -param dwFlags [in]
 
@@ -113,11 +108,11 @@ On output, the value of the <i>lpReserved</i> parameter specifies the result of 
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the system does not check <a href="https://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules  or apply <a href="https://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a>. For <a href="https://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
+If this flag is set, the system does not check <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd723678(v=ws.10)">AppLocker</a> rules  or apply <a href="/previous-versions/windows/it-pro/windows-server-2003/cc779607(v=ws.10)">Software Restriction Policies</a>. For <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd723678(v=ws.10)">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
 
 Set this flag when creating a setup program that must run extracted DLLs during installation.
 
-A token can be queried for existence of this flag by using <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>.
+A token can be queried for existence of this flag by using <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>AppLocker is not supported.
 
@@ -135,8 +130,6 @@ On output, the value of the <i>lpReserved</i> parameter specifies the set of fla
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpReserved [in, out, optional]
 
@@ -144,12 +137,6 @@ If the <b>SAFER_TOKEN_COMPARE_ONLY</b>  flag is set, this parameter, on output, 
 
 If the <b>SAFER_TOKEN_WANT_FLAGS</b> flag is set, and the <b>SAFER_TOKEN_COMPARE_ONLY</b> flag is not set, this parameter is an <b>LPDWORD</b> value that specifies the flags used to create the restricted token.
 
-
 ## -returns
 
-
-
-<b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

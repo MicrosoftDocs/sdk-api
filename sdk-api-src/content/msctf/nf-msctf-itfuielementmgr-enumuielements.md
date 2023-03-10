@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfUIElementMgr.EnumUIElements
 title: ITfUIElementMgr::EnumUIElements (msctf.h)
 description: The ITfUIElementMgr::EnumUIElements method returns IEnumTfUIElements interface pointer to enumerate the ITfUIElement.
+helpviewer_keywords: ["EnumUIElements","EnumUIElements method [Text Services Framework]","EnumUIElements method [Text Services Framework]","ITfUIElementMgr interface","ITfUIElementMgr interface [Text Services Framework]","EnumUIElements method","ITfUIElementMgr.EnumUIElements","ITfUIElementMgr::EnumUIElements","msctf/ITfUIElementMgr::EnumUIElements","tsf.itfuielementmgr_enumuielements"]
 old-location: tsf\itfuielementmgr_enumuielements.htm
 tech.root: TSF
 ms.assetid: cdede376-be18-4deb-ae79-594aebb085a6
 ms.date: 12/05/2018
 ms.keywords: EnumUIElements, EnumUIElements method [Text Services Framework], EnumUIElements method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EnumUIElements method, ITfUIElementMgr.EnumUIElements, ITfUIElementMgr::EnumUIElements, msctf/ITfUIElementMgr::EnumUIElements, tsf.itfuielementmgr_enumuielements
-f1_keywords:
-- msctf/ITfUIElementMgr.EnumUIElements
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfUIElementMgr.EnumUIElements
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElementMgr::EnumUIElements
+ - msctf/ITfUIElementMgr::EnumUIElements
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfUIElementMgr.EnumUIElements
 ---
 
 # ITfUIElementMgr::EnumUIElements
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITfUIElementMgr::EnumUIElements</b> method returns <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface pointer to enumerate the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>.
-
+The <b>ITfUIElementMgr::EnumUIElements</b> method returns <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface pointer to enumerate the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a>.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [in]
 
-[in] A pointer to receive the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface.
-
+[in] A pointer to receive the <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfuielements">IEnumTfUIElements</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-

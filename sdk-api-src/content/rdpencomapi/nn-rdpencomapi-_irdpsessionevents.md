@@ -2,15 +2,12 @@
 UID: NN:rdpencomapi._IRDPSessionEvents
 title: _IRDPSessionEvents (rdpencomapi.h)
 description: Implement this interface to receive notifications when events occur.
+helpviewer_keywords: ["_IRDPSessionEvents","_IRDPSessionEvents interface [RDP]","_IRDPSessionEvents interface [RDP]","described","rdp._irdpsessionevents","rdpencomapi/_IRDPSessionEvents"]
 old-location: rdp\_irdpsessionevents.htm
 tech.root: rdp
 ms.assetid: 89ffdf37-156f-4977-93c4-bf9fe5aec838
 ms.date: 12/05/2018
 ms.keywords: _IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessionEvents interface [RDP],described, rdp._irdpsessionevents, rdpencomapi/_IRDPSessionEvents
-f1_keywords:
-- rdpencomapi/_IRDPSessionEvents
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- _IRDPSessionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IRDPSessionEvents
+ - rdpencomapi/_IRDPSessionEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - _IRDPSessionEvents
 ---
 
 # _IRDPSessionEvents interface
@@ -48,17 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implement this interface to receive notifications when events occur.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

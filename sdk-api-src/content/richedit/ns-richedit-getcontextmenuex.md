@@ -2,15 +2,12 @@
 UID: NS:richedit._getcontextmenuex
 title: GETCONTEXTMENUEX (richedit.h)
 description: Contains context menu information that is passed to the IRichEditOleCallback::GetContextMenu method.
+helpviewer_keywords: ["GCMF_GRIPPER","GCMF_MOUSEMENU","GCMF_SPELLING","GCMF_TOUCHMENU","GETCONTEXTMENUEX","GETCONTEXTMENUEX structure [Windows Controls]","controls.getcontextmenuex","richedit/GETCONTEXTMENUEX"]
 old-location: controls\getcontextmenuex.htm
 tech.root: Controls
 ms.assetid: 6354921F-3C9F-4CBD-AC48-1EB67D1FDEB7
 ms.date: 12/05/2018
 ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
-f1_keywords:
-- richedit/GETCONTEXTMENUEX
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- GETCONTEXTMENUEX
 targetos: Windows
 req.typenames: GETCONTEXTMENUEX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _getcontextmenuex
+ - richedit/_getcontextmenuex
+ - GETCONTEXTMENUEX
+ - richedit/GETCONTEXTMENUEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - GETCONTEXTMENUEX
 ---
 
 # GETCONTEXTMENUEX structure
@@ -48,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains context menu information that is passed to the <a href="https://msdn.microsoft.com/760e0c36-f125-470d-b2eb-c72ed27611e1">IRichEditOleCallback::GetContextMenu</a> method.
-
+Contains context menu information that is passed to the <a href="/windows/win32/api/richole/nf-richole-iricheditolecallback-getcontextmenu">IRichEditOleCallback::GetContextMenu</a> method.
 
 ## -struct-fields
 
-
-
-
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
-The character-position range in the active display. 
-
-
+The character-position range in the active display.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the following content menu flags: 
 
@@ -120,15 +117,12 @@ Get the context menu that is invoked by touch.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
-The screen coordinates for the content menu. 
-
+The screen coordinates for the content menu.
 
 ### -field pvReserved
 
@@ -136,14 +130,6 @@ Type: <b>void*</b>
 
 Not used; must be zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/760e0c36-f125-470d-b2eb-c72ed27611e1">IRichEditOleCallback::GetContextMenu</a>
- 
-
- 
-
+<a href="/windows/win32/api/richole/nf-richole-iricheditolecallback-getcontextmenu">IRichEditOleCallback::GetContextMenu</a>

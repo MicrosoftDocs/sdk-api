@@ -2,15 +2,12 @@
 UID: NS:directxpackedvector.XMFLOAT3SE
 title: XMFLOAT3SE (directxpackedvector.h)
 description: Describes a 3D vector of three floating-point components with 9 bit mantissas, each sharing the same 5-bit exponent.
+helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE structure [DirectX Math Support APIs]","directxpackedvector/XMFLOAT3SE","dxmath.xmfloat3se"]
 old-location: dxmath\xmfloat3se.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3SE
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE structure [DirectX Math Support APIs], directxpackedvector/XMFLOAT3SE, dxmath.xmfloat3se
-f1_keywords:
-- directxpackedvector/XMFLOAT3SE
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,110 +25,57 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMFLOAT3SE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3SE
+ - directxpackedvector/XMFLOAT3SE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMFLOAT3SE
 ---
-
-# XMFLOAT3SE structure
-
 
 ## -description
 
-
 Describes a 3D vector of three floating-point components with 9 bit mantissas, each sharing
 	the same 5-bit exponent.
-    
 
 For a list of additional functionality such as constructors and operators that are available
-	using <code>XMFLOAT3SE</code> when you are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>.
-
+	using <code>XMFLOAT3SE</code> when you are programming in C++, see <a href="/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>.
 
 ## -struct-fields
-
-
-
-
-### -field xm
-
- 
-
-
-### -field ym
-
- 
-
-
-### -field zm
-
- 
-
-
-### -field e
-
- 
-
 
 ### -field v
 
 Unsigned 32-bit integer representing the 3D vector.
-		    
 
-
-### -field XMFLOAT3SE
-
-TBD 
-
-
-### -field operator uint32_t
-
-TBD 
-
-
-### -field operator=
-
-TBD 
-
-
-
-
-#### - e : 5
+### -field e : 5
 
 The 5-bit shared exponent.
-			
 
-
-#### - xm : 9
+### -field xm : 9
 
 The 9-bit x component.
-			
 
-
-#### - ym : 9
+### -field ym : 9
 
 The 9-bit y component.
-			
 
-
-#### - zm : 9
+### -field zm : 9
 
 The 9-bit z component.
-			
-
 
 ## -remarks
-
-
 
 The values of the three components of an instance of <code>XMFLOAT3SE</code> are stored in
 	    the <b>v</b> of the instance in the following format: the <b>e</b> member of the
@@ -182,13 +126,13 @@ Bits 27-31 of <b>Packed</b> are the 5 bit <i>exponent</i> used with
 
 </li>
 </ul>
-As there are no sign bits in the format for storing the components in the <code>XMFLOAT3SE</code>structure, all component values are positive.
+As there are no sign bits in the format for storing the components in the <code>XMFLOAT3SE</code> structure, all component values are positive.
        
 
-<code>XMFLOAT3SE</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="https://docs.microsoft.com/en-us/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3se">XMLoadFloat3SE</a>.
+<code>XMFLOAT3SE</code> can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadfloat3se">XMLoadFloat3SE</a>.
        
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3SE</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3se">XMStoreFloat3SE</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3SE</code> with <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorefloat3se">XMStoreFloat3SE</a>.
        
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -196,20 +140,10 @@ Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLO
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/ovw-xmfloat3se-extensions">XMFLOAT3SE Extensions</a>

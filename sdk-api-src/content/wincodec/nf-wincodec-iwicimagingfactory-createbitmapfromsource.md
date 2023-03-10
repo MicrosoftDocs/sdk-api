@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromSource
 title: IWICImagingFactory::CreateBitmapFromSource (wincodec.h)
 description: Creates a IWICBitmap from a IWICBitmapSource.
+helpviewer_keywords: ["CreateBitmapFromSource","CreateBitmapFromSource method [Windows Imaging Component]","CreateBitmapFromSource method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateBitmapFromSource method","IWICImagingFactory.CreateBitmapFromSource","IWICImagingFactory::CreateBitmapFromSource","WICBitmapCacheOnDemand","WICBitmapCacheOnLoad","WICBitmapNoCache","_wic_codec_iwicimagingfactory_createbitmapfromsource","wic._wic_codec_iwicimagingfactory_createbitmapfromsource","wincodec/IWICImagingFactory::CreateBitmapFromSource"]
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromsource.htm
 tech.root: wic
 ms.assetid: b3b9057f-e39a-4e7b-a3dc-0942d55c25e0
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromSource, CreateBitmapFromSource method [Windows Imaging Component], CreateBitmapFromSource method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromSource method, IWICImagingFactory.CreateBitmapFromSource, IWICImagingFactory::CreateBitmapFromSource, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmapfromsource, wic._wic_codec_iwicimagingfactory_createbitmapfromsource, wincodec/IWICImagingFactory::CreateBitmapFromSource
-f1_keywords:
-- wincodec/IWICImagingFactory.CreateBitmapFromSource
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICImagingFactory.CreateBitmapFromSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICImagingFactory::CreateBitmapFromSource
+ - wincodec/IWICImagingFactory::CreateBitmapFromSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICImagingFactory.CreateBitmapFromSource
 ---
 
 # IWICImagingFactory::CreateBitmapFromSource
@@ -48,27 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> from a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>.
-
+Creates a <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> from a <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>.
 
 ## -parameters
 
-
-
-
 ### -param pIBitmapSource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to create the bitmap from.
-
+The <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to create the bitmap from.
 
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a></b>
 
-The cache options of the new bitmap.  This can be one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a> enumeration.
+The cache options of the new bitmap.  This can be one of the values in the <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCreateCacheOption</a> enumeration.
 
 <table>
 <tr>
@@ -109,23 +105,15 @@ Create a system memory copy when this method is called.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppIBitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
 
 A pointer that receives a pointer to the new bitmap.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

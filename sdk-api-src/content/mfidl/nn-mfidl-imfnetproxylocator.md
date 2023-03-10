@@ -2,15 +2,12 @@
 UID: NN:mfidl.IMFNetProxyLocator
 title: IMFNetProxyLocator (mfidl.h)
 description: Determines the proxy to use when connecting to a server.
+helpviewer_keywords: ["2906b998-f1ca-4c65-b810-cbc360390653","IMFNetProxyLocator","IMFNetProxyLocator interface [Media Foundation]","IMFNetProxyLocator interface [Media Foundation]","described","mf.imfnetproxylocator","mfidl/IMFNetProxyLocator"]
 old-location: mf\imfnetproxylocator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2906b998-f1ca-4c65-b810-cbc360390653
 ms.date: 12/05/2018
 ms.keywords: 2906b998-f1ca-4c65-b810-cbc360390653, IMFNetProxyLocator, IMFNetProxyLocator interface [Media Foundation], IMFNetProxyLocator interface [Media Foundation],described, mf.imfnetproxylocator, mfidl/IMFNetProxyLocator
-f1_keywords:
-- mfidl/IMFNetProxyLocator
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFNetProxyLocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFNetProxyLocator
+ - mfidl/IMFNetProxyLocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFNetProxyLocator
 ---
 
 # IMFNetProxyLocator interface
@@ -49,88 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the proxy to use when connecting to a server. The network source uses this interface.
 
-Applications can create the proxy locator configured by the application by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory">IMFNetProxyLocatorFactory</a> interface and setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfnetsource-proxylocatorfactory-property">MFNETSOURCE_PROXYLOCATORFACTORY</a> property on the source resolver. Otherwise, the network source uses the default Media Foundation implementation.
+Applications can create the proxy locator configured by the application by implementing the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory">IMFNetProxyLocatorFactory</a> interface and setting the <a href="/windows/desktop/medfound/mfnetsource-proxylocatorfactory-property">MFNETSOURCE_PROXYLOCATORFACTORY</a> property on the source resolver. Otherwise, the network source uses the default Media Foundation implementation.
 
-To create the default proxy locator, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator">MFCreateProxyLocator</a>.
-
+To create the default proxy locator, call <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator">MFCreateProxyLocator</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFNetProxyLocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFNetProxyLocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Creates a new instance of the proxy locator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findfirstproxy">FindFirstProxy</a>
-</td>
-<td align="left" width="63%">
-Initializes the proxy locator object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-findnextproxy">FindNextProxy</a>
-</td>
-<td align="left" width="63%">
-Determines the next proxy to use in the list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-getcurrentproxy">GetCurrentProxy</a>
-</td>
-<td align="left" width="63%">
-Retrieves the current proxy information including hostname and port.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocator-registerproxyresult">RegisterProxyResult</a>
-</td>
-<td align="left" width="63%">
-Keeps record of the success or failure of using the current proxy.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMFNetProxyLocator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFNetProxyLocator</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/proxy-support-for-network-sources">Proxy Support for Network Sources</a>

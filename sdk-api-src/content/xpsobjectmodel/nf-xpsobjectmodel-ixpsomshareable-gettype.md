@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetType
 title: IXpsOMShareable::GetType (xpsobjectmodel.h)
 description: Gets the object type of the interface.
+helpviewer_keywords: ["GetType","GetType method [XPS Documents and Packaging]","GetType method [XPS Documents and Packaging]","IXpsOMShareable interface","IXpsOMShareable interface [XPS Documents and Packaging]","GetType method","IXpsOMShareable.GetType","IXpsOMShareable::GetType","xps.ixpsomshareable_gettype","xpsobjectmodel/IXpsOMShareable::GetType"]
 old-location: xps\ixpsomshareable_gettype.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 1d30e11e-1306-4721-b5fc-0419715ba2c8
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [XPS Documents and Packaging], GetType method [XPS Documents and Packaging],IXpsOMShareable interface, IXpsOMShareable interface [XPS Documents and Packaging],GetType method, IXpsOMShareable.GetType, IXpsOMShareable::GetType, xps.ixpsomshareable_gettype, xpsobjectmodel/IXpsOMShareable::GetType
-f1_keywords:
-- xpsobjectmodel/IXpsOMShareable.GetType
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMShareable.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMShareable::GetType
+ - xpsobjectmodel/IXpsOMShareable::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMShareable.GetType
 ---
 
 # IXpsOMShareable::GetType
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the object type of the interface.
-
 
 ## -parameters
 
-
-
-
 ### -param type [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_object_type">XPS_OBJECT_TYPE</a> value that describes the interface that is derived from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>.
-
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_object_type">XPS_OBJECT_TYPE</a> value that describes the interface that is derived from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>.
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomshareable">IXpsOMShareable</a>

@@ -2,15 +2,12 @@
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_STEREO_CAPS
 title: D3D11_VIDEO_PROCESSOR_STEREO_CAPS (d3d11.h)
 description: Defines stereo 3D capabilities for a Microsoft Direct3D 11 video processor.
+helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_STEREO_CAPS","D3D11_VIDEO_PROCESSOR_STEREO_CAPS enumeration [Media Foundation]","D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD","D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED","D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE","D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET","D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED","d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS","d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD","d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED","d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE","d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET","d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED","mf.d3d11_video_processor_stereo_caps"]
 old-location: mf\d3d11_video_processor_stereo_caps.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 352B982A-E950-4593-973E-ECDAFCF2A5F4
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STEREO_CAPS, D3D11_VIDEO_PROCESSOR_STEREO_CAPS enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET, D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET, d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED, mf.d3d11_video_processor_stereo_caps
-f1_keywords:
-- d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11.h
-api_name:
-- D3D11_VIDEO_PROCESSOR_STEREO_CAPS
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_STEREO_CAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_VIDEO_PROCESSOR_STEREO_CAPS
+ - d3d11/D3D11_VIDEO_PROCESSOR_STEREO_CAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11.h
+api_name:
+ - D3D11_VIDEO_PROCESSOR_STEREO_CAPS
 ---
 
 # D3D11_VIDEO_PROCESSOR_STEREO_CAPS enumeration
@@ -48,59 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines stereo 3D capabilities for a Microsoft Direct3D 11 video processor.
-
 
 ## -enum-fields
 
-
-
-
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET:0x1
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> 
  format.
 
-
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED:0x2
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_ROW_INTERLEAVED</b> 
  format.
 
-
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_COLUMN_INTERLEAVED:0x4
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_COLUMN_INTERLEAVED</b> 
  format.
 
-
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_CHECKERBOARD:0x8
 
 The video processor supports the <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_CHECKERBOARD</b> 
  format.
 
+### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE:0x10
 
-### -field D3D11_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE
-
-The video processor can flip one or both views. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_flip_mode">D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>.
-
+The video processor can flip one or both views. For more information, see <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_flip_mode">D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_caps">D3D11_VIDEO_PROCESSOR_CAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_processor_caps">D3D11_VIDEO_PROCESSOR_CAPS</a>
+<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_format">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_stereo_format">D3D11_VIDEO_PROCESSOR_STEREO_FORMAT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>

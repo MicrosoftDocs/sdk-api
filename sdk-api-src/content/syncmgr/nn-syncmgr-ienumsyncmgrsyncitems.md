@@ -2,15 +2,12 @@
 UID: NN:syncmgr.IEnumSyncMgrSyncItems
 title: IEnumSyncMgrSyncItems (syncmgr.h)
 description: Exposes methods that enumerate the sync item objects managed by the handler.
+helpviewer_keywords: ["IEnumSyncMgrSyncItems","IEnumSyncMgrSyncItems interface [Windows Shell]","IEnumSyncMgrSyncItems interface [Windows Shell]","described","_shell_IEnumSyncMgrSyncItems","shell.IEnumSyncMgrSyncItems","syncmgr/IEnumSyncMgrSyncItems"]
 old-location: shell\IEnumSyncMgrSyncItems.htm
 tech.root: shell
 ms.assetid: 0d1695e2-6936-4f53-9594-e0e2bc69afd4
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], IEnumSyncMgrSyncItems interface [Windows Shell],described, _shell_IEnumSyncMgrSyncItems, shell.IEnumSyncMgrSyncItems, syncmgr/IEnumSyncMgrSyncItems
-f1_keywords:
-- syncmgr/IEnumSyncMgrSyncItems
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- IEnumSyncMgrSyncItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncMgrSyncItems
+ - syncmgr/IEnumSyncMgrSyncItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - IEnumSyncMgrSyncItems
 ---
 
 # IEnumSyncMgrSyncItems interface
@@ -48,69 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that enumerate the sync item objects managed by the handler.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncMgrSyncItems</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncMgrSyncItems</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IEnumSyncMgrSyncItems</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-clone">Clone</a>
-</td>
-<td align="left" width="63%">
-Not used. Clones an <b>IEnumSyncMgrSyncItems</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-next">Next</a>
-</td>
-<td align="left" width="63%">
-Gets the next batch of sync items from the handler.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Resets the current position in the enumeration to 0.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrsyncitems-skip">Skip</a>
-</td>
-<td align="left" width="63%">
-Skips forward in the enumeration the specified number of items.
-
-</td>
-</tr>
-</table> 
-
+The <b>IEnumSyncMgrSyncItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncMgrSyncItems</b> also has these types of members:
 
 ## -remarks
 
-
-
-A handler returns a pointer to an <b>IEnumSyncMgrSyncItems</b> interface from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemenumerator">ISyncMgrSyncItemContainer::GetSyncItemEnumerator</a>.
-
-
-
+A handler returns a pointer to an <b>IEnumSyncMgrSyncItems</b> interface from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitemcontainer-getsyncitemenumerator">ISyncMgrSyncItemContainer::GetSyncItemEnumerator</a>.

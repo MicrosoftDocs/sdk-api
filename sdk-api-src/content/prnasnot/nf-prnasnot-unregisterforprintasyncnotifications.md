@@ -2,15 +2,12 @@
 UID: NF:prnasnot.UnRegisterForPrintAsyncNotifications
 title: UnRegisterForPrintAsyncNotifications function (prnasnot.h)
 description: Enables an application that has registered to receive notifications from Print Spooler-hosted printing components to unregister.
+helpviewer_keywords: ["UnRegisterForPrintAsyncNotifications","UnRegisterForPrintAsyncNotifications function [Windows GDI]","_win32_UnRegisterForPrintAsyncNotifications","gdi.unregisterforprintasyncnotifications","prnasnot/UnRegisterForPrintAsyncNotifications"]
 old-location: gdi\unregisterforprintasyncnotifications.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 2b039018-71c0-4110-8c0b-702927f58df4
 ms.date: 12/05/2018
 ms.keywords: UnRegisterForPrintAsyncNotifications, UnRegisterForPrintAsyncNotifications function [Windows GDI], _win32_UnRegisterForPrintAsyncNotifications, gdi.unregisterforprintasyncnotifications, prnasnot/UnRegisterForPrintAsyncNotifications
-f1_keywords:
-- prnasnot/UnRegisterForPrintAsyncNotifications
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WinSpool.lib
 req.dll: Spoolss.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Spoolss.dll
-api_name:
-- UnRegisterForPrintAsyncNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UnRegisterForPrintAsyncNotifications
+ - prnasnot/UnRegisterForPrintAsyncNotifications
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Spoolss.dll
+api_name:
+ - UnRegisterForPrintAsyncNotifications
 ---
 
 # UnRegisterForPrintAsyncNotifications function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables an application that has registered to receive notifications from Print Spooler-hosted printing components to unregister.
-
 
 ## -parameters
 
-
-
-
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 The registration handle to be unregistered.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -133,41 +127,26 @@ if (SUCCEEDED(hr)) {
 ```
 
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
-
-
-
+See <a href="/windows/desktop/api/prnasnot/ne-prnasnot-printasyncnotifyerror">PrintAsyncNotifyError</a> for other possible return values.
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-registerforprintasyncnotifications">RegisterForPrintAsyncNotifications</a> must return <i>hRegistrationHandler</i>.
+A call to <a href="/windows/desktop/api/prnasnot/nf-prnasnot-registerforprintasyncnotifications">RegisterForPrintAsyncNotifications</a> must return <i>hRegistrationHandler</i>.
 
-If the channel is bidirectional, a call to <b>UnRegisterForPrintAsyncNotifications</b> only prevents notifications from communication channels created after that point. To end notifications from the existing channel, the listening application must close the channel with <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a>.
+If the channel is bidirectional, a call to <b>UnRegisterForPrintAsyncNotifications</b> only prevents notifications from communication channels created after that point. To end notifications from the existing channel, the listening application must close the channel with <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a>.
 
-A call to <b>UnRegisterForPrintAsyncNotifications</b> will decrement the reference count of the <i>pCallback</i> object passed to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-registerforprintasyncnotifications">RegisterForPrintAsyncNotifications</a>.
+A call to <b>UnRegisterForPrintAsyncNotifications</b> will decrement the reference count of the <i>pCallback</i> object passed to <a href="/windows/desktop/api/prnasnot/nf-prnasnot-registerforprintasyncnotifications">RegisterForPrintAsyncNotifications</a>.
 
 After this function succeeds, <i>hRegistrationHandler</i> is invalid and must not be used again.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

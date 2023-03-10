@@ -1,16 +1,13 @@
 ---
 UID: NS:iketypes.IKEEXT_POLICY0_
 title: IKEEXT_POLICY0 (iketypes.h)
-description: Is used to store the IKE/AuthIP main mode negotiation policy.
+description: Is used to store the IKE/AuthIP main mode negotiation policy. (IKEEXT_POLICY0)
+helpviewer_keywords: ["IKEEXT_POLICY0","IKEEXT_POLICY0 structure [Filtering]","IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS","IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH","IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY","IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY","fwp.ikeext_policy0","iketypes/IKEEXT_POLICY0"]
 old-location: fwp\ikeext_policy0.htm
 tech.root: fwp
 ms.assetid: 4c33087a-2736-491c-a89f-e4b9ab136026
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_POLICY0, IKEEXT_POLICY0 structure [Filtering], IKEEXT_POLICY_FLAG_DISABLE_DIAGNOSTICS, IKEEXT_POLICY_FLAG_ENABLE_OPTIONAL_DH, IKEEXT_POLICY_FLAG_NO_IMPERSONATION_LUID_VERIFY, IKEEXT_POLICY_FLAG_NO_MACHINE_LUID_VERIFY, fwp.ikeext_policy0, iketypes/IKEEXT_POLICY0
-f1_keywords:
-- iketypes/IKEEXT_POLICY0
-dev_langs:
-- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iketypes.h
-api_name:
-- IKEEXT_POLICY0
 targetos: Windows
 req.typenames: IKEEXT_POLICY0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKEEXT_POLICY0_
+ - iketypes/IKEEXT_POLICY0_
+ - IKEEXT_POLICY0
+ - iketypes/IKEEXT_POLICY0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iketypes.h
+api_name:
+ - IKEEXT_POLICY0
 ---
 
 # IKEEXT_POLICY0 structure
@@ -48,50 +52,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IKEEXT_POLICY0</b> structure is used to store the IKE/AuthIP main mode negotiation policy.
-[IKEEXT_POLICY1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1)a> is available.  For Windows 8, [IKEEXT_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2)a> is available.</div><div> </div>
+[IKEEXT_POLICY1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy1) is available.  For Windows 8, [IKEEXT_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_policy2) is available.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field softExpirationTime
 
 Unused parameter, always set this to 0.
 
-
 ### -field numAuthenticationMethods
 
 Number of authentication methods.
-
 
 ### -field authenticationMethods
 
 Array of acceptable authentication methods.
 
-See  [IKEEXT_AUTHENTICATION_METHOD0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0)a> for more information.
-
+See  [IKEEXT_AUTHENTICATION_METHOD0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method0) for more information.
 
 ### -field initiatorImpersonationType
 
 Type of impersonation. Applies only to AuthIP. 
 
-See <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
-
+See <a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_impersonation_type">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
 
 ### -field numIkeProposals
 
 Number of main mode proposals.
 
-
 ### -field ikeProposals
 
 Array of main mode proposals. 
 
-See [IKEEXT_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0)a> for more information.
-
+See [IKEEXT_PROPOSAL0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_proposal0) for more information.
 
 ### -field flags
 
@@ -149,8 +143,6 @@ Applicable only to  AuthIP.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field maxDynamicFilters
 
@@ -158,16 +150,8 @@ Maximum number of dynamic IPsec filters per remote IP address and per
    transport layer that is allowed to be added for any SA negotiated using 
    this policy. 
 
-Set this to 0 to disable dynamic filter addition. Dynamic filters are added by IKE/AuthIP on responder, when the QM traffic proposed by initiator is a subset of responder's traffic configuration. 
-
+Set this to 0 to disable dynamic filter addition. Dynamic filters are added by IKE/AuthIP on responder, when the QM traffic proposed by initiator is a subset of responder's traffic configuration.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

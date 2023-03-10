@@ -2,15 +2,12 @@
 UID: NF:authz.AuthzFreeCentralAccessPolicyCache
 title: AuthzFreeCentralAccessPolicyCache function (authz.h)
 description: Decreases the CAP cache reference count by one so that the CAP cache can be deallocated.
+helpviewer_keywords: ["AuthzFreeCentralAccessPolicyCache","AuthzFreeCentralAccessPolicyCache function [Security]","authz/AuthzFreeCentralAccessPolicyCache","security.authzfreecentralaccesspolicycache"]
 old-location: security\authzfreecentralaccesspolicycache.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 0F972A95-3CD7-4C86-99DE-5B3D50CE9A34
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeCentralAccessPolicyCache, AuthzFreeCentralAccessPolicyCache function [Security], authz/AuthzFreeCentralAccessPolicyCache, security.authzfreecentralaccesspolicycache
-f1_keywords:
-- authz/AuthzFreeCentralAccessPolicyCache
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzFreeCentralAccessPolicyCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AuthzFreeCentralAccessPolicyCache
+ - authz/AuthzFreeCentralAccessPolicyCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzFreeCentralAccessPolicyCache
 ---
 
 # AuthzFreeCentralAccessPolicyCache function
@@ -48,49 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuthzFreeCentralAccessPolicyCache</b> function frees the cache maintained as a result of <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> evaluating the Central Access Policies (CAP) that applies for the resource.
-
-
-## -parameters
-
-
-
+The <b>AuthzFreeCentralAccessPolicyCache</b> function frees the cache maintained as a result of <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a> evaluating the Central Access Policies (CAP) that applies for the resource.
 
 
 
 ## -returns
 
-
-
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a> and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a> overviews.
-
-
-
+For more information, see the <a href="/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a> and <a href="/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a> overviews.
 
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/centralized-authorization-policy">Centralized Authorization Policy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>
- 
-
- 
-
+<a href="/windows/desktop/SecAuthZ/how-dacls-control-access-to-an-object">How AccessCheck Works</a>

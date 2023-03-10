@@ -2,15 +2,12 @@
 UID: NN:shobjidl.IDynamicHWHandler
 title: IDynamicHWHandler (shobjidl.h)
 description: Called by AutoPlay. Exposes methods that get dynamic information regarding a registered handler prior to displaying it to the user.
+helpviewer_keywords: ["IDynamicHWHandler","IDynamicHWHandler interface [Windows Shell]","IDynamicHWHandler interface [Windows Shell]","described","_shell_IDynamicHWHandler","shell.IDynamicHWHandler","shobjidl/IDynamicHWHandler"]
 old-location: shell\IDynamicHWHandler.htm
 tech.root: shell
 ms.assetid: 924a765f-76b2-4a45-8dc5-74b5e75b437d
 ms.date: 12/05/2018
 ms.keywords: IDynamicHWHandler, IDynamicHWHandler interface [Windows Shell], IDynamicHWHandler interface [Windows Shell],described, _shell_IDynamicHWHandler, shell.IDynamicHWHandler, shobjidl/IDynamicHWHandler
-f1_keywords:
-- shobjidl/IDynamicHWHandler
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- IDynamicHWHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDynamicHWHandler
+ - shobjidl/IDynamicHWHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - IDynamicHWHandler
 ---
 
 # IDynamicHWHandler interface
@@ -48,44 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by AutoPlay. Exposes methods that get dynamic information regarding a registered handler prior to displaying it to the user.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDynamicHWHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDynamicHWHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDynamicHWHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idynamichwhandler-getdynamicinfo">GetDynamicInfo</a>
-</td>
-<td align="left" width="63%">
-Called by the system to determine whether a particular handler will be shown before the AutoPlay dialog is displayed.
-
-</td>
-</tr>
-</table> 
-
+The <b>IDynamicHWHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDynamicHWHandler</b> also has these types of members:
 
 ## -remarks
 
-
-
 Prior to this interface, when an application registered a handler and was displayed in the autoplay prompt, the handler was always shown as long as the content type (for example, mp3 or avi) associated with that handler was found on the media device. The same icon and action string were always displayed.
 
-If a handler implements this interface prior to showing the handler,  AutoPlay will first call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idynamichwhandler-getdynamicinfo">IDynamicHWHandler::GetDynamicInfo</a> to determine if this handler is to be presented to the user. If you want to show the handler, you may specify a different action string than the one supplied by the static handler registration under <b>HKLM</b>.
-
-
-
+If a handler implements this interface prior to showing the handler,  AutoPlay will first call <a href="/windows/desktop/api/shobjidl/nf-shobjidl-idynamichwhandler-getdynamicinfo">IDynamicHWHandler::GetDynamicInfo</a> to determine if this handler is to be presented to the user. If you want to show the handler, you may specify a different action string than the one supplied by the static handler registration under <b>HKLM</b>.

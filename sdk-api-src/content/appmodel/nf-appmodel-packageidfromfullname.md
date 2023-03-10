@@ -2,15 +2,12 @@
 UID: NF:appmodel.PackageIdFromFullName
 title: PackageIdFromFullName function (appmodel.h)
 description: Gets the package identifier (ID) for the specified package full name.
+helpviewer_keywords: ["PackageIdFromFullName","PackageIdFromFullName function [App packaging and management]","appmodel/PackageIdFromFullName","appxpkg.packageidfromfullname"]
 old-location: appxpkg\packageidfromfullname.htm
 tech.root: appxpkg
 ms.assetid: EED832F8-E4F7-4A0F-93E2-451F78F67767
 ms.date: 12/05/2018
 ms.keywords: PackageIdFromFullName, PackageIdFromFullName function [App packaging and management], appmodel/PackageIdFromFullName, appxpkg.packageidfromfullname
-f1_keywords:
-- appmodel/PackageIdFromFullName
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Ext-MS-Win-kernel32-package-l1-1-0.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- PackageIdFromFullName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PackageIdFromFullName
+ - appmodel/PackageIdFromFullName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Ext-MS-Win-kernel32-package-l1-1-0.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - PackageIdFromFullName
 ---
 
 # PackageIdFromFullName function
@@ -56,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package identifier (ID) for the specified package full name.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFullName [in]
 
@@ -71,13 +68,11 @@ Type: <b>PCWSTR</b>
 
 The full name of a package.
 
-
 ### -param flags [in]
 
 Type: <b>const UINT32</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. The <b>PACKAGE_INFORMATION_*</b> flags are supported.
-
+The <a href="/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. The <b>PACKAGE_INFORMATION_*</b> flags are supported.
 
 ### -param bufferLength [in, out]
 
@@ -85,17 +80,13 @@ Type: <b>UINT32*</b>
 
 On input, the size of <i>buffer</i>, in bytes. On output, the size of the data returned, in bytes.
 
-
 ### -param buffer [out, optional]
 
 Type: <b>BYTE*</b>
 
-The package ID, represented as a <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a> structure.
-
+The package ID, represented as a <a href="/windows/desktop/api/appmodel/ns-appmodel-package_id">PACKAGE_ID</a> structure.
 
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -129,14 +120,8 @@ The package is not installed for the user.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>flags</i> specifies <b>PACKAGE_INFORMATION_BASIC</b>, the following fields are retrieved:
 
@@ -159,7 +144,7 @@ If <i>flags</i> specifies <b>PACKAGE_INFORMATION_FULL</b>, the following fields 
 </ul>
 A request for <b>PACKAGE_INFORMATION_FULL</b> succeeds only if the package corresponding to <i>packageFullName</i> is installed for and accessible to the current user. If the package full name is syntactically correct but does not correspond to a package that is installed for and accessible to the current user, the function returns <b>ERROR_NOT_FOUND</b>.
 
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -269,37 +254,26 @@ void ShowPackageId(__in const PACKAGE_ID * packageId)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageid">GetPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromfullname">PackageFamilyNameFromFullName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromfullname">PackageFamilyNameFromFullName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefamilynamefromid">PackageFamilyNameFromId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagefullnamefromid">PackageFullNameFromId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagefullnamefromid">PackageFullNameFromId</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname">PackageNameAndPublisherIdFromFamilyName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname">PackageNameAndPublisherIdFromFamilyName</a>

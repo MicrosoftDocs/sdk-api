@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhGetFormattedCounterArrayA
 title: PdhGetFormattedCounterArrayA function (pdh.h)
-description: Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
+description: Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name. (ANSI)
+helpviewer_keywords: ["PDH_FMT_1000", "PDH_FMT_DOUBLE", "PDH_FMT_LARGE", "PDH_FMT_LONG", "PDH_FMT_NOCAP100", "PDH_FMT_NOSCALE", "PdhGetFormattedCounterArrayA", "pdh/PdhGetFormattedCounterArrayA"]
 old-location: perf\pdhgetformattedcounterarray.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 0f388c7e-d0c8-461d-908c-48af92166996
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterArray, PdhGetFormattedCounterArray function [Perf], PdhGetFormattedCounterArrayA, PdhGetFormattedCounterArrayW, _win32_pdhgetformattedcounterarray, base.pdhgetformattedcounterarray, pdh/PdhGetFormattedCounterArray, pdh/PdhGetFormattedCounterArrayA, pdh/PdhGetFormattedCounterArrayW, perf.pdhgetformattedcounterarray
-f1_keywords:
-- pdh/PdhGetFormattedCounterArray
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhGetFormattedCounterArray
-- PdhGetFormattedCounterArrayA
-- PdhGetFormattedCounterArrayW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhGetFormattedCounterArrayA
+ - pdh/PdhGetFormattedCounterArrayA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhGetFormattedCounterArray
+ - PdhGetFormattedCounterArrayA
+ - PdhGetFormattedCounterArrayW
 ---
 
 # PdhGetFormattedCounterArrayA function
@@ -50,21 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an array of formatted counter values. Use this function when you want to format the counter values of a counter that contains a wildcard character for the instance name.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hCounter [in]
 
 Handle to the counter whose current value you want to format. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
 ### -param dwFormat [in]
 
@@ -148,35 +143,28 @@ Multiply the actual value by 1,000.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwBufferSize [in, out]
 
 Size of the <i>ItemBuffer</i> buffer, in bytes. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
-
 ### -param lpdwItemCount [out]
 
 Number of counter values in the <i>ItemBuffer</i> buffer.
 
-
 ### -param ItemBuffer [out]
 
 Caller-allocated buffer that receives an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue_item_a">PDH_FMT_COUNTERVALUE_ITEM</a> structures; the structures contain the counter values. Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
-
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue_item_a">PDH_FMT_COUNTERVALUE_ITEM</a> structures; the structures contain the counter values. Set to <b>NULL</b> if <i>lpdwBufferSize</i> is zero.
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -217,14 +205,8 @@ The counter handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set <i>ItemBuffer</i> to <b>NULL</b> and <i>lpdwBufferSize</i> to 0), and the second time to get the data.
 
@@ -343,29 +325,26 @@ cleanup:
 
 
 
+
+> [!NOTE]
+> The pdh.h header defines PdhGetFormattedCounterArray as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue_item_a">PDH_FMT_COUNTERVALUE_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue_item_a">PDH_FMT_COUNTERVALUE_ITEM</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcounterarraya">PdhGetRawCounterArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcounterarraya">PdhGetRawCounterArray</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>

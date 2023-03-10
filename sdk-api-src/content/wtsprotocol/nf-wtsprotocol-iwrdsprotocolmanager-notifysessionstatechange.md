@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionStateChange
 title: IWRdsProtocolManager::NotifySessionStateChange (wtsprotocol.h)
 description: Notifies the protocol provider of changes in the state of a session.
+helpviewer_keywords: ["IWRdsProtocolManager interface [Remote Desktop Services]","NotifySessionStateChange method","IWRdsProtocolManager.NotifySessionStateChange","IWRdsProtocolManager::NotifySessionStateChange","NotifySessionStateChange","NotifySessionStateChange method [Remote Desktop Services]","NotifySessionStateChange method [Remote Desktop Services]","IWRdsProtocolManager interface","WTS_CONSOLE_CONNECT","WTS_CONSOLE_DISCONNECT","WTS_REMOTE_CONNECT","WTS_SESSION_LOCK","WTS_SESSION_LOGOFF","WTS_SESSION_REMOTE_CONTROL","WTS_SESSION_UNLOCK","termserv.iwrdsprotocolmanager_notifysessionstatechange","wtsprotocol/IWRdsProtocolManager::NotifySessionStateChange"]
 old-location: termserv\iwrdsprotocolmanager_notifysessionstatechange.htm
 tech.root: TermServ
 ms.assetid: 72438718-1a66-473b-a563-67cfc8095318
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifySessionStateChange method, IWRdsProtocolManager.NotifySessionStateChange, IWRdsProtocolManager::NotifySessionStateChange, NotifySessionStateChange, NotifySessionStateChange method [Remote Desktop Services], NotifySessionStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, WTS_CONSOLE_CONNECT, WTS_CONSOLE_DISCONNECT, WTS_REMOTE_CONNECT, WTS_SESSION_LOCK, WTS_SESSION_LOGOFF, WTS_SESSION_REMOTE_CONTROL, WTS_SESSION_UNLOCK, termserv.iwrdsprotocolmanager_notifysessionstatechange, wtsprotocol/IWRdsProtocolManager::NotifySessionStateChange
-f1_keywords:
-- wtsprotocol/IWRdsProtocolManager.NotifySessionStateChange
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolManager.NotifySessionStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolManager::NotifySessionStateChange
+ - wtsprotocol/IWRdsProtocolManager::NotifySessionStateChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolManager.NotifySessionStateChange
 ---
 
 # IWRdsProtocolManager::NotifySessionStateChange
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the protocol provider of changes in the state of a session.
-
 
 ## -parameters
 
-
-
-
 ### -param SessionId [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_session_id">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
-
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_session_id">WRDS_SESSION_ID</a> structure that uniquely identifies the session.
 
 ### -param EventId [in]
 
@@ -94,23 +90,10 @@ An integer that contains the event ID. The following IDs can be found in Winuser
 
 #### WTS_SESSION_REMOTE_CONTROL (0x9)
 
-
 ## -returns
 
-
-
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>

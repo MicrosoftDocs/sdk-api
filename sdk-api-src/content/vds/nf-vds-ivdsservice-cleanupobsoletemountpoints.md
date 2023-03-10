@@ -2,15 +2,12 @@
 UID: NF:vds.IVdsService.CleanupObsoleteMountPoints
 title: IVdsService::CleanupObsoleteMountPoints (vds.h)
 description: Removes user-mode paths and mounted folders for volumes that no longer exist.
+helpviewer_keywords: ["CleanupObsoleteMountPoints","CleanupObsoleteMountPoints method [VDS]","CleanupObsoleteMountPoints method [VDS]","IVdsService interface","IVdsService interface [VDS]","CleanupObsoleteMountPoints method","IVdsService.CleanupObsoleteMountPoints","IVdsService::CleanupObsoleteMountPoints","base.ivdsservice_cleanupobsoletemountpoints","vds/IVdsService::CleanupObsoleteMountPoints"]
 old-location: base\ivdsservice_cleanupobsoletemountpoints.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 93ed7789-be60-422c-be4f-e70e16d26fce
 ms.date: 12/05/2018
 ms.keywords: CleanupObsoleteMountPoints, CleanupObsoleteMountPoints method [VDS], CleanupObsoleteMountPoints method [VDS],IVdsService interface, IVdsService interface [VDS],CleanupObsoleteMountPoints method, IVdsService.CleanupObsoleteMountPoints, IVdsService::CleanupObsoleteMountPoints, base.ivdsservice_cleanupobsoletemountpoints, vds/IVdsService::CleanupObsoleteMountPoints
-f1_keywords:
-- vds/IVdsService.CleanupObsoleteMountPoints
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsService.CleanupObsoleteMountPoints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsService::CleanupObsoleteMountPoints
+ - vds/IVdsService::CleanupObsoleteMountPoints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsService.CleanupObsoleteMountPoints
 ---
 
 # IVdsService::CleanupObsoleteMountPoints
@@ -49,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Removes user-mode paths and mounted folders for volumes that no longer exist.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method can return standard <b>HRESULT</b> values, such as 
       <b>E_INVALIDARG</b> or <b>E_OUTOFMEMORY</b>, and 
-      <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. 
-      It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> 
-      using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can 
-      originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> 
+      <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. 
+      It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> 
+      using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can 
+      originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> 
       that is being used. Possible return values include the following.
 
 <table>
@@ -105,14 +98,8 @@ VDS failed to initialize. If an application calls this method before the service
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, the registry retains the drive-letter mapping information for uninstalled volumes. If the disk 
     that contains the volume is removed from the computer, the registry entry is retained, so that if the disk and 
@@ -134,19 +121,9 @@ In addition, if the volume contains any mounted folders,
     <b>CleanupObsoleteMountPoints</b> 
     removes them. For example, if <i>Volume1</i> on <i>Disk1</i> is being 
     removed and <i>Volume1</i> is mounted as 
-    <i>x</i>:\<i>MountVolume1</i> on <i>Disk2</i>, the 
-    \<i>MountVolume1</i> folder on <i>Disk2</i> is also deleted.
-
-
-
+    <i>x</i>:&#92;<i>MountVolume1</i> on <i>Disk2</i>, the 
+    &#92;<i>MountVolume1</i> folder on <i>Disk2</i> is also deleted.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>

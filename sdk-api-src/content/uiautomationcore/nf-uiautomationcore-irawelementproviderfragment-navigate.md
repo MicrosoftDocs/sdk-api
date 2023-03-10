@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IRawElementProviderFragment.Navigate
 title: IRawElementProviderFragment::Navigate (uiautomationcore.h)
 description: Retrieves the Microsoft UI Automation element in a specified direction within the UI Automation tree.
+helpviewer_keywords: ["IRawElementProviderFragment interface [Windows Accessibility]","Navigate method","IRawElementProviderFragment.Navigate","IRawElementProviderFragment::Navigate","Navigate","Navigate method [Windows Accessibility]","Navigate method [Windows Accessibility]","IRawElementProviderFragment interface","uiauto.uiauto_IRawElementProviderFragment_Navigate","uiauto_IRawElementProviderFragment_Navigate","uiautomationcore/IRawElementProviderFragment::Navigate","winauto.uiauto_IRawElementProviderFragment_Navigate"]
 old-location: winauto\uiauto_IRawElementProviderFragment_Navigate.htm
 tech.root: WinAuto
 ms.assetid: 9e0caf58-a261-4a2b-8e48-368ea3ad8840
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderFragment interface [Windows Accessibility],Navigate method, IRawElementProviderFragment.Navigate, IRawElementProviderFragment::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IRawElementProviderFragment interface, uiauto.uiauto_IRawElementProviderFragment_Navigate, uiauto_IRawElementProviderFragment_Navigate, uiautomationcore/IRawElementProviderFragment::Navigate, winauto.uiauto_IRawElementProviderFragment_Navigate
-f1_keywords:
-- uiautomationcore/IRawElementProviderFragment.Navigate
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IRawElementProviderFragment.Navigate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderFragment::Navigate
+ - uiautomationcore/IRawElementProviderFragment::Navigate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IRawElementProviderFragment.Navigate
 ---
 
 # IRawElementProviderFragment::Navigate
@@ -48,45 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the Microsoft UI Automation element in a specified direction within the UI Automation tree.
-
 
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-### -param arg1 [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection</a></b>
 
 The direction in which to navigate.
 
-
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>**</b>
 
 Receives a pointer to the provider of the 
 				UI Automation element in the specified direction, or <b>NULL</b> if there is no element in that direction.
 				This parameter is passed uninitialized.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The UI Automation server's implementations of this method define the structure of the UI Automation tree.
 
@@ -139,17 +127,6 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction
 }              
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>

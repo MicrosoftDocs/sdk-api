@@ -2,15 +2,12 @@
 UID: NF:encdec.IXDSCodec.put_CCSubstreamService
 title: IXDSCodec::put_CCSubstreamService (encdec.h)
 description: The put_CCSubstreamService method specifies which line 21 data channels the XDS Codec filter sends to the XDSToRat object. By default, only the Extended Data Services (XDS) channel is supported.
+helpviewer_keywords: ["IXDSCodec interface [Microsoft TV Technologies]","put_CCSubstreamService method","IXDSCodec.put_CCSubstreamService","IXDSCodec::put_CCSubstreamService","IXDSCodecput_CCSubstreamService","encdec/IXDSCodec::put_CCSubstreamService","mstv.ixdscodec_put_ccsubstreamservice","put_CCSubstreamService","put_CCSubstreamService method [Microsoft TV Technologies]","put_CCSubstreamService method [Microsoft TV Technologies]","IXDSCodec interface"]
 old-location: mstv\ixdscodec_put_ccsubstreamservice.htm
 tech.root: mstv
 ms.assetid: e8e4a43a-3e9f-468a-8df3-7ff05d23b20b
 ms.date: 12/05/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],put_CCSubstreamService method, IXDSCodec.put_CCSubstreamService, IXDSCodec::put_CCSubstreamService, IXDSCodecput_CCSubstreamService, encdec/IXDSCodec::put_CCSubstreamService, mstv.ixdscodec_put_ccsubstreamservice, put_CCSubstreamService, put_CCSubstreamService method [Microsoft TV Technologies], put_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface
-f1_keywords:
-- encdec/IXDSCodec.put_CCSubstreamService
-dev_langs:
-- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EncDec.h
-api_name:
-- IXDSCodec.put_CCSubstreamService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXDSCodec::put_CCSubstreamService
+ - encdec/IXDSCodec::put_CCSubstreamService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EncDec.h
+api_name:
+ - IXDSCodec.put_CCSubstreamService
 ---
 
 # IXDSCodec::put_CCSubstreamService
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_CCSubstreamService</b> method specifies which line 21 data channels the XDS Codec filter sends to the <b>XDSToRat</b> object. By default, only the Extended Data Services (XDS) channel is supported.
-
 
 ## -parameters
 
-
-
-
 ### -param SubstreamMask [in]
 
-Bitwise combination of zero or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ks-cc-substream">KS_CC_SUBSTREAM</a> flags, specifying the line 21 services.
-
+Bitwise combination of zero or more <a href="/previous-versions/windows/desktop/mstv/ks-cc-substream">KS_CC_SUBSTREAM</a> flags, specifying the line 21 services.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -96,18 +90,7 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>

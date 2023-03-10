@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageList
 title: ITfInputProcessorProfiles::GetLanguageList (msctf.h)
 description: ITfInputProcessorProfiles::GetLanguageList method
+helpviewer_keywords: ["GetLanguageList","GetLanguageList method [Text Services Framework]","GetLanguageList method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","GetLanguageList method","ITfInputProcessorProfiles.GetLanguageList","ITfInputProcessorProfiles::GetLanguageList","_tsf_itfinputprocessorprofiles_getlanguagelist_ref","msctf/ITfInputProcessorProfiles::GetLanguageList","tsf.itfinputprocessorprofiles_getlanguagelist"]
 old-location: tsf\itfinputprocessorprofiles_getlanguagelist.htm
 tech.root: TSF
 ms.assetid: dffca277-1c2c-4e3d-965f-42e7907ba603
 ms.date: 12/05/2018
 ms.keywords: GetLanguageList, GetLanguageList method [Text Services Framework], GetLanguageList method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetLanguageList method, ITfInputProcessorProfiles.GetLanguageList, ITfInputProcessorProfiles::GetLanguageList, _tsf_itfinputprocessorprofiles_getlanguagelist_ref, msctf/ITfInputProcessorProfiles::GetLanguageList, tsf.itfinputprocessorprofiles_getlanguagelist
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.GetLanguageList
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.GetLanguageList
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::GetLanguageList
+ - msctf/ITfInputProcessorProfiles::GetLanguageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.GetLanguageList
 ---
 
 # ITfInputProcessorProfiles::GetLanguageList
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a list of the installed languages.
 
 ## -parameters
 
-
-
-
 ### -param ppLangId [out]
 
-Pointer to a <b>LANGID</b> pointer that receives the array of identifiers of the currently installed languages. The number of identifiers placed in this array is supplied in <i>pulCount</i>. The array is allocated by this method. The caller must free this memory when it is no longer required using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+Pointer to a <b>LANGID</b> pointer that receives the array of identifiers of the currently installed languages. The number of identifiers placed in this array is supplied in <i>pulCount</i>. The array is allocated by this method. The caller must free this memory when it is no longer required using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pulCount [out]
 
 Pointer to a ULONG value the receives the number of identifiers placed in the array at <i>ppLangId</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,22 +116,11 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>

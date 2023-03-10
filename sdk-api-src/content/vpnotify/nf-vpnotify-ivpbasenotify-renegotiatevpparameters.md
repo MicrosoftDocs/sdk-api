@@ -2,15 +2,12 @@
 UID: NF:vpnotify.IVPBaseNotify.RenegotiateVPParameters
 title: IVPBaseNotify::RenegotiateVPParameters (vpnotify.h)
 description: The RenegotiateVPParameters method initializes the connection to the decoder.
+helpviewer_keywords: ["IVPBaseNotify interface [DirectShow]","RenegotiateVPParameters method","IVPBaseNotify.RenegotiateVPParameters","IVPBaseNotify::RenegotiateVPParameters","IVPBaseNotifyRenegotiateVPParameters","RenegotiateVPParameters","RenegotiateVPParameters method [DirectShow]","RenegotiateVPParameters method [DirectShow]","IVPBaseNotify interface","dshow.ivpbasenotify_renegotiatevpparameters","vpnotify/IVPBaseNotify::RenegotiateVPParameters"]
 old-location: dshow\ivpbasenotify_renegotiatevpparameters.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b35a0e8f-3d4f-443d-b76c-83b44745a86d
 ms.date: 12/05/2018
 ms.keywords: IVPBaseNotify interface [DirectShow],RenegotiateVPParameters method, IVPBaseNotify.RenegotiateVPParameters, IVPBaseNotify::RenegotiateVPParameters, IVPBaseNotifyRenegotiateVPParameters, RenegotiateVPParameters, RenegotiateVPParameters method [DirectShow], RenegotiateVPParameters method [DirectShow],IVPBaseNotify interface, dshow.ivpbasenotify_renegotiatevpparameters, vpnotify/IVPBaseNotify::RenegotiateVPParameters
-f1_keywords:
-- vpnotify/IVPBaseNotify.RenegotiateVPParameters
-dev_langs:
-- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vpnotify.h
-api_name:
-- IVPBaseNotify.RenegotiateVPParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVPBaseNotify::RenegotiateVPParameters
+ - vpnotify/IVPBaseNotify::RenegotiateVPParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vpnotify.h
+api_name:
+ - IVPBaseNotify.RenegotiateVPParameters
 ---
 
 # IVPBaseNotify::RenegotiateVPParameters
@@ -48,51 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RenegotiateVPParameters</code> method initializes the connection to the decoder.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter negotiates various parameters (by using the <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a> interface) with the decoder or driver. Call this method if any of those parameters (such as the video format or size) change. Currently, the Overlay Mixer repeats the whole connection process. You can call this method even while the graph is playing.
+The <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter negotiates various parameters (by using the <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a> interface) with the decoder or driver. Call this method if any of those parameters (such as the video format or size) change. Currently, the Overlay Mixer repeats the whole connection process. You can call this method even while the graph is playing.
 
 Include Vptype.h before Vpnotify.h.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpbasenotify">IVPBaseNotify Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpbasenotify">IVPBaseNotify Interface</a>

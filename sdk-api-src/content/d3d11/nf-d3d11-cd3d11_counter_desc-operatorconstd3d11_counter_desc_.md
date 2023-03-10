@@ -1,7 +1,8 @@
 ---
-UID: NF:d3d11.CD3D11_COUNTER_DESC.operator const D3D11_COUNTER_DESC&
+UID: NF:d3d11.CD3D11_COUNTER_DESC.operator-cast-const-D3D11_COUNTER_DESC&
 title: CD3D11_COUNTER_DESC::operator const D3D11_COUNTER_DESC& (d3d11.h)
 description: This operator returns the address of a D3D11_COUNTER_DESC structure that contains the data from the CD3D11_COUNTER_DESC instance.
+helpviewer_keywords: ["CD3D11_COUNTER_DESC interface [Direct3D 11]","operator const D3D11_COUNTER_DESC& method","CD3D11_COUNTER_DESC.operator const D3D11_COUNTER_DESC&","CD3D11_COUNTER_DESC::operator const D3D11_COUNTER_DESC&","CD3D11_COUNTER_DESC::operator const D3D11_COUNTER_DESC&()","d3d11/CD3D11_COUNTER_DESC::operator const D3D11_COUNTER_DESC&","direct3d11.cd3d11_counter_desc_d3d11_counter_desc__","operator const D3D11_COUNTER_DESC&","operator const D3D11_COUNTER_DESC& method [Direct3D 11]","operator const D3D11_COUNTER_DESC& method [Direct3D 11]","CD3D11_COUNTER_DESC interface"]
 old-location: direct3d11\cd3d11_counter_desc_d3d11_counter_desc__.htm
 tech.root: direct3d11
 ms.assetid: 7EAFE2A3-688D-4FC3-92D5-2E1F32E7168B
@@ -50,10 +51,10 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a> instance.
+This operator returns the address of a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_counter_desc">D3D11_COUNTER_DESC</a> structure that contains  the data from the <a href="/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a> instance.
 
 
-## -parameters
+
 
 
 
@@ -65,8 +66,7 @@ This operator returns the address of a <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a>
+<a href="/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a>
  
 
  
-

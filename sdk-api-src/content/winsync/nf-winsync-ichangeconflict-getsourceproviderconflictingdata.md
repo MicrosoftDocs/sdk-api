@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeConflict.GetSourceProviderConflictingData
 title: IChangeConflict::GetSourceProviderConflictingData (winsync.h)
 description: Gets an object that can be used to retrieve item data for the change item from the source replica.
+helpviewer_keywords: ["GetSourceProviderConflictingData","GetSourceProviderConflictingData method [Windows Sync]","GetSourceProviderConflictingData method [Windows Sync]","IChangeConflict interface","IChangeConflict interface [Windows Sync]","GetSourceProviderConflictingData method","IChangeConflict.GetSourceProviderConflictingData","IChangeConflict::GetSourceProviderConflictingData","winsync.ichangeconflict_getsourceproviderconflictingdata","winsync/IChangeConflict::GetSourceProviderConflictingData"]
 old-location: winsync\ichangeconflict_getsourceproviderconflictingdata.htm
 tech.root: winsync
 ms.assetid: 4227b559-59e9-4b87-beb0-2d47f3d81414
 ms.date: 12/05/2018
 ms.keywords: GetSourceProviderConflictingData, GetSourceProviderConflictingData method [Windows Sync], GetSourceProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetSourceProviderConflictingData method, IChangeConflict.GetSourceProviderConflictingData, IChangeConflict::GetSourceProviderConflictingData, winsync.ichangeconflict_getsourceproviderconflictingdata, winsync/IChangeConflict::GetSourceProviderConflictingData
-f1_keywords:
-- winsync/IChangeConflict.GetSourceProviderConflictingData
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeConflict.GetSourceProviderConflictingData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeConflict::GetSourceProviderConflictingData
+ - winsync/IChangeConflict::GetSourceProviderConflictingData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeConflict.GetSourceProviderConflictingData
 ---
 
 # IChangeConflict::GetSourceProviderConflictingData
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an object that can be used to retrieve item data for the change item from the source replica.
 
-
 ## -parameters
-
-
-
 
 ### -param ppConflictingData [out]
 
 Returns an object that can be used to retrieve item data for the change item from the source replica.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -118,31 +112,15 @@ An internal error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The object that is returned in <i>ppConflictingData</i> can be an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
-
-
-
+The object that is returned in <i>ppConflictingData</i> can be an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever Interface</a>

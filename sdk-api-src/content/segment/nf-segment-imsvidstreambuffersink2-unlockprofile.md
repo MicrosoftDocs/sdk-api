@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferSink2.UnlockProfile
 title: IMSVidStreamBufferSink2::UnlockProfile (segment.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSink2 interface [Microsoft TV Technologies]","UnlockProfile method","IMSVidStreamBufferSink2.UnlockProfile","IMSVidStreamBufferSink2::UnlockProfile","IMSVidStreamBufferSink2UnlockProfile","UnlockProfile","UnlockProfile method [Microsoft TV Technologies]","UnlockProfile method [Microsoft TV Technologies]","IMSVidStreamBufferSink2 interface","mstv.imsvidstreambuffersink2_unlockprofile","segment/IMSVidStreamBufferSink2::UnlockProfile"]
 old-location: mstv\imsvidstreambuffersink2_unlockprofile.htm
 tech.root: mstv
 ms.assetid: 1394c3f9-943d-4b75-b650-fbb04c294e45
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IMSVidStreamBufferSink2.UnlockProfile, IMSVidStreamBufferSink2::UnlockProfile, IMSVidStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IMSVidStreamBufferSink2 interface, mstv.imsvidstreambuffersink2_unlockprofile, segment/IMSVidStreamBufferSink2::UnlockProfile
-f1_keywords:
-- segment/IMSVidStreamBufferSink2.UnlockProfile
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSink2.UnlockProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSink2::UnlockProfile
+ - segment/IMSVidStreamBufferSink2::UnlockProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSink2.UnlockProfile
 ---
 
 # IMSVidStreamBufferSink2::UnlockProfile
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -58,16 +58,8 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 The <b>UnlockProfile</b> method unlocks the stream profile.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -88,18 +80,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink2">IMSVidStreamBufferSink2 Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:natupnp.IStaticPortMappingCollection.get_Item
 title: IStaticPortMappingCollection::get_Item (natupnp.h)
 description: The get_Item method retrieves the specified port mapping from the collection.
+helpviewer_keywords: ["IStaticPortMappingCollection interface [ICS/ICF]","get_Item method","IStaticPortMappingCollection.get_Item","IStaticPortMappingCollection::get_Item","_ics_istaticportmappingcollection_get_item","get_Item","get_Item method [ICS/ICF]","get_Item method [ICS/ICF]","IStaticPortMappingCollection interface","ics.istaticportmappingcollection_get_item","natupnp/IStaticPortMappingCollection::get_Item"]
 old-location: ics\istaticportmappingcollection_get_item.htm
 tech.root: ics
 ms.assetid: 0034e56d-45a1-404a-b129-6ebb951e7d76
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Item method, IStaticPortMappingCollection.get_Item, IStaticPortMappingCollection::get_Item, _ics_istaticportmappingcollection_get_item, get_Item, get_Item method [ICS/ICF], get_Item method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_item, natupnp/IStaticPortMappingCollection::get_Item
-f1_keywords:
-- natupnp/IStaticPortMappingCollection.get_Item
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMappingCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMappingCollection::get_Item
+ - natupnp/IStaticPortMappingCollection::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMappingCollection.get_Item
 ---
 
 # IStaticPortMappingCollection::get_Item
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Item</b> method retrieves the specified port mapping from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param lExternalPort [in]
 
 Specifies the external port for this port mapping.
 
-
 ### -param bstrProtocol [in]
 
 Specifies the protocol. This parameter should be either UDP or TCP.
 
-
 ### -param ppSPM [out]
 
 Pointer to an interface pointer that points to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a> interface for this port mapping.
-
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a> interface for this port mapping.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -176,43 +168,27 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The NAT API with UPnP technology uses the combination of the external port and the protocol to identify the port mapping.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaEvent.GetValue
 title: IMFMediaEvent::GetValue (mfobjects.h)
 description: Retrieves the value associated with the event, if any. The value is retrieved as a PROPVARIANT structure. The actual data type and the meaning of the value depend on the event.
+helpviewer_keywords: ["05e57b40-2565-4312-866e-50f0c7d62c4a","GetValue","GetValue method [Media Foundation]","GetValue method [Media Foundation]","IMFMediaEvent interface","IMFMediaEvent interface [Media Foundation]","GetValue method","IMFMediaEvent.GetValue","IMFMediaEvent::GetValue","mf.imfmediaevent_getvalue","mfobjects/IMFMediaEvent::GetValue"]
 old-location: mf\imfmediaevent_getvalue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 05e57b40-2565-4312-866e-50f0c7d62c4a
 ms.date: 12/05/2018
 ms.keywords: 05e57b40-2565-4312-866e-50f0c7d62c4a, GetValue, GetValue method [Media Foundation], GetValue method [Media Foundation],IMFMediaEvent interface, IMFMediaEvent interface [Media Foundation],GetValue method, IMFMediaEvent.GetValue, IMFMediaEvent::GetValue, mf.imfmediaevent_getvalue, mfobjects/IMFMediaEvent::GetValue
-f1_keywords:
-- mfobjects/IMFMediaEvent.GetValue
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaEvent.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEvent::GetValue
+ - mfobjects/IMFMediaEvent::GetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaEvent.GetValue
 ---
 
 # IMFMediaEvent::GetValue
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the value associated with the event, if any. The value is retrieved as a <b>PROPVARIANT</b> structure. The actual data type and the meaning of the value depend on the event.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pvValue [out]
 
 Pointer to a <b>PROPVARIANT</b> structure. The method fills this structure with the data.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -91,14 +82,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Before calling this method, call <b>PropVariantInit</b> to initialize the <b>PROPVARIANT</b> structure. After the method returns, call <b>PropVariantClear</b> to free the memory that was allocated for the <b>PROPVARIANT</b> data.
 
@@ -146,21 +131,10 @@ HRESULT GetEventObject(IMFMediaEvent *pEvent, Q **ppObject)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>

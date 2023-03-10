@@ -2,15 +2,12 @@
 UID: NF:wlanapi.WlanGetInterfaceCapability
 title: WlanGetInterfaceCapability function (wlanapi.h)
 description: Retrieves the capabilities of an interface.
+helpviewer_keywords: ["WlanGetInterfaceCapability","WlanGetInterfaceCapability function [NativeWIFI]","nwifi.wlangetinterfacecapability","wlanapi/WlanGetInterfaceCapability"]
 old-location: nwifi\wlangetinterfacecapability.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 09f8273a-5259-44fa-b55e-af3282735c0b
 ms.date: 12/05/2018
 ms.keywords: WlanGetInterfaceCapability, WlanGetInterfaceCapability function [NativeWIFI], nwifi.wlangetinterfacecapability, wlanapi/WlanGetInterfaceCapability
-f1_keywords:
-- wlanapi/WlanGetInterfaceCapability
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-api_name:
-- WlanGetInterfaceCapability
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WlanGetInterfaceCapability
+ - wlanapi/WlanGetInterfaceCapability
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+api_name:
+ - WlanGetInterfaceCapability
 ---
 
 # WlanGetInterfaceCapability function
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanGetInterfaceCapability</b> function retrieves the capabilities of an interface.
-
 
 ## -parameters
 
-
-
-
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
 The GUID of this interface.
 
-
 ### -param pReserved
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ### -param ppCapability [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_capability">WLAN_INTERFACE_CAPABILITY</a> structure that contains information about the capabilities of the specified interface.
-
+A <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_capability">WLAN_INTERFACE_CAPABILITY</a> structure that contains information about the capabilities of the specified interface.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -135,16 +126,7 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function to free the memory allocated to <i>ppCapability</i>.
-
-
-
+The caller is responsible for calling the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function to free the memory allocated to <i>ppCapability</i>.

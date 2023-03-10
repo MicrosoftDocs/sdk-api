@@ -1,17 +1,13 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get_ItemByIndex
 title: IAlternativeNames::get_ItemByIndex (certenroll.h)
-description: Retrieves an object from the collection by index number.
+description: The IAlternativeNames::get_ItemByIndex function retrieves an object from the collection by index number.
+helpviewer_keywords: ["IAlternativeNames interface [Security]","ItemByIndex property","IAlternativeNames.ItemByIndex","IAlternativeNames.get_ItemByIndex","IAlternativeNames::ItemByIndex","IAlternativeNames::get_ItemByIndex","ItemByIndex property [Security]","ItemByIndex property [Security]","IAlternativeNames interface","certenroll/IAlternativeNames::ItemByIndex","certenroll/IAlternativeNames::get_ItemByIndex","get_ItemByIndex","security.ialternativenames_itembyindex_property"]
 old-location: security\ialternativenames_itembyindex_property.htm
 tech.root: seccertenroll
 ms.assetid: 778ea065-9a92-4244-be16-23e716ccbb8a
-ms.date: 12/05/2018
+ms.date: 08/01/2022
 ms.keywords: IAlternativeNames interface [Security],ItemByIndex property, IAlternativeNames.ItemByIndex, IAlternativeNames.get_ItemByIndex, IAlternativeNames::ItemByIndex, IAlternativeNames::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IAlternativeNames interface, certenroll/IAlternativeNames::ItemByIndex, certenroll/IAlternativeNames::get_ItemByIndex, get_ItemByIndex, security.ialternativenames_itembyindex_property
-ms.topic: method
-f1_keywords:
-- certenroll/IAlternativeNames.ItemByIndex
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IAlternativeNames.ItemByIndex
-- IAlternativeNames.get_ItemByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAlternativeNames::get_ItemByIndex
+ - certenroll/IAlternativeNames::get_ItemByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IAlternativeNames.ItemByIndex
+ - IAlternativeNames.get_ItemByIndex
 ---
 
 # IAlternativeNames::get_ItemByIndex
@@ -50,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ItemByIndex</b> property retrieves an object from the collection by index number.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a>

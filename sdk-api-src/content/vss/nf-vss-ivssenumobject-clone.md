@@ -2,15 +2,12 @@
 UID: NF:vss.IVssEnumObject.Clone
 title: IVssEnumObject::Clone (vss.h)
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumObject enumerator object.
+helpviewer_keywords: ["Clone","Clone method [VSS]","Clone method [VSS]","IVssEnumObject interface","IVssEnumObject interface [VSS]","Clone method","IVssEnumObject.Clone","IVssEnumObject::Clone","_win32_ivssenumobject_clone","base.ivssenumobject_clone","vss/IVssEnumObject::Clone"]
 old-location: base\ivssenumobject_clone.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 71bf3789-247e-4e3f-8200-a4309a7c2d8c
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumObject interface, IVssEnumObject interface [VSS],Clone method, IVssEnumObject.Clone, IVssEnumObject::Clone, _win32_ivssenumobject_clone, base.ivssenumobject_clone, vss/IVssEnumObject::Clone
-f1_keywords:
-- vss/IVssEnumObject.Clone
-dev_langs:
-- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssEnumObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssEnumObject::Clone
+ - vss/IVssEnumObject::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssEnumObject.Clone
 ---
 
 # IVssEnumObject::Clone
@@ -49,27 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Clone</b> method creates a copy of the 
     specified list of enumerated elements by creating a copy of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> enumerator object.
-
+    <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> enumerator object.
 
 ## -parameters
 
-
-
-
 ### -param ppenum [in, out]
 
-Doubly indirect pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> 
+Doubly indirect pointer to an <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> 
       enumerator object. Set the value of this parameter to <b>NULL</b> before calling this 
       method.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -123,41 +117,25 @@ One of the required pointer parameters is NULL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The cloned enumerator object will refer to the same list of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a> structures.
+    <a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a> structures.
 
-The caller must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the 
+The caller must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the 
     returned interface pointer to deallocate the system resources held by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> enumerator object pointed to by 
+    <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a> enumerator object pointed to by 
     the <i>ppEnum</i> parameter.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>

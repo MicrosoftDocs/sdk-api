@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IBootOptions.get_Emulation
 title: IBootOptions::get_Emulation (imapi2fs.h)
 description: Retrieves the media type that the boot image is intended to emulate.
+helpviewer_keywords: ["IBootOptions interface [IMAPI]","get_Emulation method","IBootOptions.get_Emulation","IBootOptions::get_Emulation","get_Emulation","get_Emulation method [IMAPI]","get_Emulation method [IMAPI]","IBootOptions interface","imapi.ibootoptions_get_emulation","imapi2fs/IBootOptions::get_Emulation"]
 old-location: imapi\ibootoptions_get_emulation.htm
 tech.root: imapi
 ms.assetid: ade69c2b-ff25-4993-bf4c-ee372e3cc1b0
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Emulation method, IBootOptions.get_Emulation, IBootOptions::get_Emulation, get_Emulation, get_Emulation method [IMAPI], get_Emulation method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_emulation, imapi2fs/IBootOptions::get_Emulation
-f1_keywords:
-- imapi2fs/IBootOptions.get_Emulation
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IBootOptions.get_Emulation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBootOptions::get_Emulation
+ - imapi2fs/IBootOptions::get_Emulation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IBootOptions.get_Emulation
 ---
 
 # IBootOptions::get_Emulation
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the media type that the boot image is intended to emulate.
-
 
 ## -parameters
 
-
-
-
 ### -param pVal [out]
 
-Media type that the boot image is intended to emulate. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype">EmulationType</a> enumeration type. 
-
+Media type that the boot image is intended to emulate. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype">EmulationType</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,22 +81,11 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">IBootOptions::put_Emulation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_emulation">IBootOptions::put_Emulation</a>

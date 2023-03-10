@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.get_FileSystemsSupported
 title: IFileSystemImage::get_FileSystemsSupported (imapi2fs.h)
 description: Retrieves the list of file system types that a client can use to build a file system image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_FileSystemsSupported method","IFileSystemImage.get_FileSystemsSupported","IFileSystemImage::get_FileSystemsSupported","get_FileSystemsSupported","get_FileSystemsSupported method [IMAPI]","get_FileSystemsSupported method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_filesystemssupported","imapi2fs/IFileSystemImage::get_FileSystemsSupported"]
 old-location: imapi\ifilesystemimage_get_filesystemssupported.htm
 tech.root: imapi
 ms.assetid: 73bf563b-ad8f-4afe-95c6-3bac3c4dadba
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileSystemsSupported method, IFileSystemImage.get_FileSystemsSupported, IFileSystemImage::get_FileSystemsSupported, get_FileSystemsSupported, get_FileSystemsSupported method [IMAPI], get_FileSystemsSupported method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filesystemssupported, imapi2fs/IFileSystemImage::get_FileSystemsSupported
-f1_keywords:
-- imapi2fs/IFileSystemImage.get_FileSystemsSupported
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.get_FileSystemsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::get_FileSystemsSupported
+ - imapi2fs/IFileSystemImage::get_FileSystemsSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.get_FileSystemsSupported
 ---
 
 # IFileSystemImage::get_FileSystemsSupported
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the list of file system types that a client can use to build a file system image.
-
 
 ## -parameters
 
-
-
-
 ### -param pVal [out]
 
-One or more file system types that a client can use to build a file system image. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
-
+One or more file system types that a client can use to build a file system image. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,30 +81,19 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-getdefaultfilesystemforimport">IFileSystemImage::GetDefaultFileSystemForImport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-getdefaultfilesystemforimport">IFileSystemImage::GetDefaultFileSystemForImport</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate">IFileSystemImage::get_FileSystemsToCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate">IFileSystemImage::get_FileSystemsToCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate">IFileSystemImage::put_FileSystemsToCreate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate">IFileSystemImage::put_FileSystemsToCreate</a>

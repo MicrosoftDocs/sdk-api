@@ -2,15 +2,12 @@
 UID: NS:winbase._FILE_REMOTE_PROTOCOL_INFO
 title: FILE_REMOTE_PROTOCOL_INFO (winbase.h)
 description: Contains file remote protocol information.
+helpviewer_keywords: ["*PFILE_REMOTE_PROTOCOL_INFO","FILE_REMOTE_PROTOCOL_INFO","FILE_REMOTE_PROTOCOL_INFO structure [Files]","PFILE_REMOTE_PROTOCOL_INFO","PFILE_REMOTE_PROTOCOL_INFO structure pointer [Files]","REMOTE_PROTOCOL_FLAG_LOOPBACK","REMOTE_PROTOCOL_FLAG_OFFLINE","REMOTE_PROTOCOL_INFO_FLAG_INTEGRITY","REMOTE_PROTOCOL_INFO_FLAG_MUTUAL_AUTH","REMOTE_PROTOCOL_INFO_FLAG_PERSISTENT_HANDLE","REMOTE_PROTOCOL_INFO_FLAG_PRIVACY","WNNC_NET_10NET","WNNC_NET_3IN1","WNNC_NET_9TILES","WNNC_NET_APPLETALK","WNNC_NET_AS400","WNNC_NET_AVID","WNNC_NET_AVID1","WNNC_NET_BMC","WNNC_NET_BWNFS","WNNC_NET_CLEARCASE","WNNC_NET_COGENT","WNNC_NET_CSC","WNNC_NET_DAV","WNNC_NET_DCE","WNNC_NET_DECORB","WNNC_NET_DFS","WNNC_NET_DISTINCT","WNNC_NET_DOCUSPACE","WNNC_NET_DRIVEONWEB","WNNC_NET_EXIFS","WNNC_NET_EXTENDNET","WNNC_NET_FARALLON","WNNC_NET_FJ_REDIR","WNNC_NET_FOXBAT","WNNC_NET_FRONTIER","WNNC_NET_FTP_NFS","WNNC_NET_GOOGLE","WNNC_NET_HOB_NFS","WNNC_NET_IBMAL","WNNC_NET_INTERGRAPH","WNNC_NET_KNOWARE","WNNC_NET_KWNP","WNNC_NET_LANMAN","WNNC_NET_LANSTEP","WNNC_NET_LANTASTIC","WNNC_NET_LIFENET","WNNC_NET_LOCK","WNNC_NET_LOCUS","WNNC_NET_MANGOSOFT","WNNC_NET_MASFAX","WNNC_NET_MFILES","WNNC_NET_MSNET","WNNC_NET_MS_NFS","WNNC_NET_NDFS","WNNC_NET_NETWARE","WNNC_NET_OBJECT_DIRE","WNNC_NET_OPENAFS","WNNC_NET_PATHWORKS","WNNC_NET_POWERLAN","WNNC_NET_PROTSTOR","WNNC_NET_QUINCY","WNNC_NET_RDR2SAMPLE","WNNC_NET_RIVERFRONT1","WNNC_NET_RIVERFRONT2","WNNC_NET_RSFX","WNNC_NET_SERNET","WNNC_NET_SHIVA","WNNC_NET_SMB","WNNC_NET_SRT","WNNC_NET_STAC","WNNC_NET_SUN_PC_NFS","WNNC_NET_SYMFONET","WNNC_NET_TERMSRV","WNNC_NET_TWINS","WNNC_NET_VINES","WNNC_NET_VMWARE","WNNC_NET_YAHOO","WNNC_NET_ZENWORKS","_FILE_REMOTE_PROTOCOL_INFO","fs.file_remote_protocol_information","winbase/FILE_REMOTE_PROTOCOL_INFO","winbase/PFILE_REMOTE_PROTOCOL_INFO"]
 old-location: fs\file_remote_protocol_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: ddb555ad-0acb-4538-88ce-a871adfc21fc
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_REMOTE_PROTOCOL_INFO, FILE_REMOTE_PROTOCOL_INFO, FILE_REMOTE_PROTOCOL_INFO structure [Files], PFILE_REMOTE_PROTOCOL_INFO, PFILE_REMOTE_PROTOCOL_INFO structure pointer [Files], REMOTE_PROTOCOL_FLAG_LOOPBACK, REMOTE_PROTOCOL_FLAG_OFFLINE, REMOTE_PROTOCOL_INFO_FLAG_INTEGRITY, REMOTE_PROTOCOL_INFO_FLAG_MUTUAL_AUTH, REMOTE_PROTOCOL_INFO_FLAG_PERSISTENT_HANDLE, REMOTE_PROTOCOL_INFO_FLAG_PRIVACY, WNNC_NET_10NET, WNNC_NET_3IN1, WNNC_NET_9TILES, WNNC_NET_APPLETALK, WNNC_NET_AS400, WNNC_NET_AVID, WNNC_NET_AVID1, WNNC_NET_BMC, WNNC_NET_BWNFS, WNNC_NET_CLEARCASE, WNNC_NET_COGENT, WNNC_NET_CSC, WNNC_NET_DAV, WNNC_NET_DCE, WNNC_NET_DECORB, WNNC_NET_DFS, WNNC_NET_DISTINCT, WNNC_NET_DOCUSPACE, WNNC_NET_DRIVEONWEB, WNNC_NET_EXIFS, WNNC_NET_EXTENDNET, WNNC_NET_FARALLON, WNNC_NET_FJ_REDIR, WNNC_NET_FOXBAT, WNNC_NET_FRONTIER, WNNC_NET_FTP_NFS, WNNC_NET_GOOGLE, WNNC_NET_HOB_NFS, WNNC_NET_IBMAL, WNNC_NET_INTERGRAPH, WNNC_NET_KNOWARE, WNNC_NET_KWNP, WNNC_NET_LANMAN, WNNC_NET_LANSTEP, WNNC_NET_LANTASTIC, WNNC_NET_LIFENET, WNNC_NET_LOCK, WNNC_NET_LOCUS, WNNC_NET_MANGOSOFT, WNNC_NET_MASFAX, WNNC_NET_MFILES, WNNC_NET_MSNET, WNNC_NET_MS_NFS, WNNC_NET_NDFS, WNNC_NET_NETWARE, WNNC_NET_OBJECT_DIRE, WNNC_NET_OPENAFS, WNNC_NET_PATHWORKS, WNNC_NET_POWERLAN, WNNC_NET_PROTSTOR, WNNC_NET_QUINCY, WNNC_NET_RDR2SAMPLE, WNNC_NET_RIVERFRONT1, WNNC_NET_RIVERFRONT2, WNNC_NET_RSFX, WNNC_NET_SERNET, WNNC_NET_SHIVA, WNNC_NET_SMB, WNNC_NET_SRT, WNNC_NET_STAC, WNNC_NET_SUN_PC_NFS, WNNC_NET_SYMFONET, WNNC_NET_TERMSRV, WNNC_NET_TWINS, WNNC_NET_VINES, WNNC_NET_VMWARE, WNNC_NET_YAHOO, WNNC_NET_ZENWORKS, _FILE_REMOTE_PROTOCOL_INFO, fs.file_remote_protocol_information, winbase/FILE_REMOTE_PROTOCOL_INFO, winbase/PFILE_REMOTE_PROTOCOL_INFO'
-f1_keywords:
-- winbase/FILE_REMOTE_PROTOCOL_INFO
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- FILE_REMOTE_PROTOCOL_INFO
 targetos: Windows
 req.typenames: FILE_REMOTE_PROTOCOL_INFO, *PFILE_REMOTE_PROTOCOL_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILE_REMOTE_PROTOCOL_INFO
+ - winbase/_FILE_REMOTE_PROTOCOL_INFO
+ - PFILE_REMOTE_PROTOCOL_INFO
+ - winbase/PFILE_REMOTE_PROTOCOL_INFO
+ - FILE_REMOTE_PROTOCOL_INFO
+ - winbase/FILE_REMOTE_PROTOCOL_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - FILE_REMOTE_PROTOCOL_INFO
 ---
 
 # FILE_REMOTE_PROTOCOL_INFO structure
@@ -48,29 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains file remote protocol information. This structure is returned from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
     <b>FileRemoteProtocolInfo</b> is passed in the <i>FileInformationClass</i> 
     parameter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field StructureVersion
 
 Version of this structure. This member should be set to 2 if the communication is between 
      computers running Windows 8, Windows Server 2012, or later and 1 otherwise.
 
-
 ### -field StructureSize
 
 Size of this structure. This member should be set to 
      <code>sizeof(FILE_REMOTE_PROTOCOL_INFO)</code>.
-
 
 ### -field Protocol
 
@@ -349,26 +348,21 @@ Remote protocol (<b>WNNC_NET_*</b>) defined in Wnnc.h or
 
 #### WNNC_NET_NDFS (0x00440000)
 
-
 ### -field ProtocolMajorVersion
 
 Major version of the remote protocol.
-
 
 ### -field ProtocolMinorVersion
 
 Minor version of the remote protocol.
 
-
 ### -field ProtocolRevision
 
 Revision of the remote protocol.
 
-
 ### -field Reserved
 
 Should be set to zero. Do not use this member.
-
 
 ### -field Flags
 
@@ -457,85 +451,49 @@ The remote protocol is using mutual authentication using Kerberos. This is only 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field GenericReserved
 
 Protocol-generic information structure.
 
-
 ### -field GenericReserved.Reserved
 
 Should be set to zero. Do not use this member.
-
 
 ### -field ProtocolSpecificReserved
 
 Protocol-specific information structure.
 
-
 ### -field ProtocolSpecificReserved.Reserved
 
 Should be set to zero. Do not use this member.
 
-
 ### -field ProtocolSpecific
-
 
 ### -field ProtocolSpecific.Smb2
 
-
 ### -field ProtocolSpecific.Smb2.Server
-
 
 ### -field ProtocolSpecific.Smb2.Server.Capabilities
 
- 
-
-
 ### -field ProtocolSpecific.Smb2.Share
-
 
 ### -field ProtocolSpecific.Smb2.Share.Capabilities
 
- 
-
-
 ### -field ProtocolSpecific.Smb2.Share.CachingFlags
-
- 
-
 
 ### -field ProtocolSpecific.Reserved
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The <b>FILE_REMOTE_PROTOCOL_INFO</b> 
     structure is valid only for use with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function.
-
-
-
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>

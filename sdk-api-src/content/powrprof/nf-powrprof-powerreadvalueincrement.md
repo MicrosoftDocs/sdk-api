@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerReadValueIncrement
 title: PowerReadValueIncrement function (powrprof.h)
 description: Retrieves the increment for valid values between the power settings minimum and maximum.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadValueIncrement","PowerReadValueIncrement function","base.powerreadvalueincrement","powrprof/PowerReadValueIncrement"]
 old-location: base\powerreadvalueincrement.htm
-tech.root: power
+tech.root: base
 ms.assetid: f5aa19c5-67ea-4a87-be87-b3bf3d9dd5a4
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadValueIncrement, PowerReadValueIncrement function, base.powerreadvalueincrement, powrprof/PowerReadValueIncrement
-f1_keywords:
-- powrprof/PowerReadValueIncrement
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerReadValueIncrement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerReadValueIncrement
+ - powrprof/PowerReadValueIncrement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerReadValueIncrement
 ---
 
 # PowerReadValueIncrement function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the increment for valid values between the power settings minimum and maximum. If the power setting is not defined with a range of possible values then this function will return an error.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -161,36 +157,20 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting that is being used.
 
-
 ### -param ValueIncrement [out]
 
 A pointer to a variable that receives the increment for the specified power setting.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
      the call failed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

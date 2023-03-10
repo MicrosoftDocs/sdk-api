@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAnalogVideoDecoder.get_VCRHorizontalLocking
 title: IAMAnalogVideoDecoder::get_VCRHorizontalLocking (strmif.h)
 description: The get_VCRHorizontalLocking method indicates whether the decoder is expecting video from a tape source or a broadcast source.
+helpviewer_keywords: ["IAMAnalogVideoDecoder interface [DirectShow]","get_VCRHorizontalLocking method","IAMAnalogVideoDecoder.get_VCRHorizontalLocking","IAMAnalogVideoDecoder::get_VCRHorizontalLocking","IAMAnalogVideoDecoderget_VCRHorizontalLocking","dshow.iamanalogvideodecoder_get_vcrhorizontallocking","get_VCRHorizontalLocking","get_VCRHorizontalLocking method [DirectShow]","get_VCRHorizontalLocking method [DirectShow]","IAMAnalogVideoDecoder interface","strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking"]
 old-location: dshow\iamanalogvideodecoder_get_vcrhorizontallocking.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0b527578-1840-4cb1-b94b-9be27b40fcf4
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_VCRHorizontalLocking method, IAMAnalogVideoDecoder.get_VCRHorizontalLocking, IAMAnalogVideoDecoder::get_VCRHorizontalLocking, IAMAnalogVideoDecoderget_VCRHorizontalLocking, dshow.iamanalogvideodecoder_get_vcrhorizontallocking, get_VCRHorizontalLocking, get_VCRHorizontalLocking method [DirectShow], get_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking
-f1_keywords:
-- strmif/IAMAnalogVideoDecoder.get_VCRHorizontalLocking
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAnalogVideoDecoder.get_VCRHorizontalLocking
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAnalogVideoDecoder::get_VCRHorizontalLocking
+ - strmif/IAMAnalogVideoDecoder::get_VCRHorizontalLocking
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAnalogVideoDecoder.get_VCRHorizontalLocking
 ---
 
 # IAMAnalogVideoDecoder::get_VCRHorizontalLocking
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_VCRHorizontalLocking</code> method indicates whether the decoder is expecting video from a tape source or a broadcast source.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plVCRHorizontalLocking [out]
 
@@ -81,12 +75,8 @@ Pointer to a variable that receives one of the following values.
 <td>The decoder is expecting video from a tape source.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an HRESULT value. Possible values include the following.
 
@@ -118,31 +108,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The timing accuracy of synchronization pulses is typically poorer from a tape source than from a broadcast source. If the returned value is 1, the decoder might relax its sync timing standards.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>

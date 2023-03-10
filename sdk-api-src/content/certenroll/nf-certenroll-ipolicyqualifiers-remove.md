@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Remove
 title: IPolicyQualifiers::Remove (certenroll.h)
-description: Removes an object from the collection by index value.
+description: Removes an object from the collection by index value. (IPolicyQualifiers.Remove)
+helpviewer_keywords: ["IPolicyQualifiers interface [Security]","Remove method","IPolicyQualifiers.Remove","IPolicyQualifiers::Remove","Remove","Remove method [Security]","Remove method [Security]","IPolicyQualifiers interface","certenroll/IPolicyQualifiers::Remove","security.ipolicyqualifiers_remove_method"]
 old-location: security\ipolicyqualifiers_remove_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 6071dbc2-210d-42e2-8431-68eef1e89e24
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifiers interface [Security],Remove method, IPolicyQualifiers.Remove, IPolicyQualifiers::Remove, Remove, Remove method [Security], Remove method [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::Remove, security.ipolicyqualifiers_remove_method
-f1_keywords:
-- certenroll/IPolicyQualifiers.Remove
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IPolicyQualifiers.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPolicyQualifiers::Remove
+ - certenroll/IPolicyQualifiers::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IPolicyQualifiers.Remove
 ---
 
 # IPolicyQualifiers::Remove
@@ -48,42 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Remove</b> method removes an object from the collection by index value.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 A <b>LONG</b> variable that contains the index of the object to remove.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a>

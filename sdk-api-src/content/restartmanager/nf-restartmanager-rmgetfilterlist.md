@@ -2,15 +2,12 @@
 UID: NF:restartmanager.RmGetFilterList
 title: RmGetFilterList function (restartmanager.h)
 description: Lists the modifications to shutdown and restart actions that have already been applied by the RmAddFilter function.
+helpviewer_keywords: ["RmGetFilterList","RmGetFilterList function [Restart Mgr]","restartmanager/RmGetFilterList","rstmgr.rmgetfilterlist"]
 old-location: rstmgr\rmgetfilterlist.htm
 tech.root: rstmgr
 ms.assetid: 61427838-8b23-4105-93fd-55f457fd43a7
 ms.date: 12/05/2018
 ms.keywords: RmGetFilterList, RmGetFilterList function [Restart Mgr], restartmanager/RmGetFilterList, rstmgr.rmgetfilterlist
-f1_keywords:
-- restartmanager/RmGetFilterList
-dev_langs:
-- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rstrtmgr.dll
-api_name:
-- RmGetFilterList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RmGetFilterList
+ - restartmanager/RmGetFilterList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rstrtmgr.dll
+api_name:
+ - RmGetFilterList
 ---
 
 # RmGetFilterList function
@@ -48,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Lists the modifications to shutdown and restart actions that have already been applied by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a> function. The function returns a pointer to a buffer containing information about the modifications which have been applied.
-
+Lists the modifications to shutdown and restart actions that have already been applied by the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a> function. The function returns a pointer to a buffer containing information about the modifications which have been applied.
 
 ## -parameters
-
-
-
 
 ### -param dwSessionHandle [in]
 
 A handle to an existing Restart Manager session.
 
-
 ### -param pbFilterBuf [out, optional]
 
 A pointer to a buffer that contains modification information.
-
 
 ### -param cbFilterBuf [in]
 
 The size of the buffer that contains modification information in bytes.
 
-
 ### -param cbFilterBufNeeded [out]
 
 The number of bytes needed in the buffer.
 
-
 ## -returns
 
-
-
-This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -120,7 +111,7 @@ One or more arguments are not correct. This error value is returned by the Resta
 </dl>
 </td>
 <td width="60%">
-This error value is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetfilterlist">RmGetFilterList</a> function if the <i>pbFilterBuf</i> buffer is too small to hold all the application information in the list or if <i>cbFilterBufNeeded</i> was not specified.
+This error value is returned by the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmgetfilterlist">RmGetFilterList</a> function if the <i>pbFilterBuf</i> buffer is too small to hold all the application information in the list or if <i>cbFilterBufNeeded</i> was not specified.
 
 </td>
 </tr>
@@ -137,27 +128,11 @@ This error is returned when a secondary installer calls this function. This func
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The returned <i>pbFilterBuf</i> buffer has to be typecast to <b>RM_FILTER_INFO</b> to access the filter list.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a>

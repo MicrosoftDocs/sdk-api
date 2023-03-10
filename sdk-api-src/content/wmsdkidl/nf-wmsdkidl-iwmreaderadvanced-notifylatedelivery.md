@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced.NotifyLateDelivery
 title: IWMReaderAdvanced::NotifyLateDelivery (wmsdkidl.h)
 description: The NotifyLateDelivery method is used to notify the reader that it is delivering data to the application too slowly.
+helpviewer_keywords: ["IWMReaderAdvanced interface [windows Media Format]","NotifyLateDelivery method","IWMReaderAdvanced.NotifyLateDelivery","IWMReaderAdvanced::NotifyLateDelivery","IWMReaderAdvancedNotifyLateDelivery","NotifyLateDelivery","NotifyLateDelivery method [windows Media Format]","NotifyLateDelivery method [windows Media Format]","IWMReaderAdvanced interface","wmformat.iwmreaderadvanced_notifylatedelivery","wmsdkidl/IWMReaderAdvanced::NotifyLateDelivery"]
 old-location: wmformat\iwmreaderadvanced_notifylatedelivery.htm
 tech.root: wmformat
 ms.assetid: 65d2470c-e6ce-4f3f-b4f8-0bc65a2a8bfd
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],NotifyLateDelivery method, IWMReaderAdvanced.NotifyLateDelivery, IWMReaderAdvanced::NotifyLateDelivery, IWMReaderAdvancedNotifyLateDelivery, NotifyLateDelivery, NotifyLateDelivery method [windows Media Format], NotifyLateDelivery method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_notifylatedelivery, wmsdkidl/IWMReaderAdvanced::NotifyLateDelivery
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced.NotifyLateDelivery
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced.NotifyLateDelivery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced::NotifyLateDelivery
+ - wmsdkidl/IWMReaderAdvanced::NotifyLateDelivery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced.NotifyLateDelivery
 ---
 
 # IWMReaderAdvanced::NotifyLateDelivery
@@ -51,39 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>NotifyLateDelivery</b> method is used to notify the reader that it is delivering data to the application too slowly.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cnsLateness [in]
 
 <b>QWORD</b> indicating how late the data is, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>

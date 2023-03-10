@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactPropertyCollection.GetPropertyType
 title: IContactPropertyCollection::GetPropertyType (icontact.h)
 description: Retrieves the type for the current property in the enumeration.
+helpviewer_keywords: ["CGD_ARRAY_NODE","CGD_BINARY_PROPERTY","CGD_DATE_PROPERTY","CGD_STRING_PROPERTY","CGD_UNKNOWN_PROPERTY","GetPropertyType","GetPropertyType method [Windows Contacts]","GetPropertyType method [Windows Contacts]","IContactPropertyCollection interface","IContactPropertyCollection interface [Windows Contacts]","GetPropertyType method","IContactPropertyCollection.GetPropertyType","IContactPropertyCollection::GetPropertyType","_wincontacts_IContactPropertyCollection_GetPropertyType","icontact/IContactPropertyCollection::GetPropertyType","wincontacts._wincontacts_IContactPropertyCollection_GetPropertyType"]
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyType.htm
 tech.root: wincontacts
 ms.assetid: 11977b0c-332a-415a-986f-7fb08246413f
 ms.date: 12/05/2018
 ms.keywords: CGD_ARRAY_NODE, CGD_BINARY_PROPERTY, CGD_DATE_PROPERTY, CGD_STRING_PROPERTY, CGD_UNKNOWN_PROPERTY, GetPropertyType, GetPropertyType method [Windows Contacts], GetPropertyType method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyType method, IContactPropertyCollection.GetPropertyType, IContactPropertyCollection::GetPropertyType, _wincontacts_IContactPropertyCollection_GetPropertyType, icontact/IContactPropertyCollection::GetPropertyType, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyType
-f1_keywords:
-- icontact/IContactPropertyCollection.GetPropertyType
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactPropertyCollection.GetPropertyType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactPropertyCollection::GetPropertyType
+ - icontact/IContactPropertyCollection::GetPropertyType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactPropertyCollection.GetPropertyType
 ---
 
 # IContactPropertyCollection::GetPropertyType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type for the current property in the enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwType [in, out]
 
@@ -109,12 +106,8 @@ Specifies the type of property.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -137,7 +130,4 @@ Query is successful.
 </td>
 </tr>
 </table>
- 
-
-
 

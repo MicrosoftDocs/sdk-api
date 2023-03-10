@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidFeatures.get_Item
 title: IMSVidFeatures::get_Item (segment.h)
 description: The get_Item method retrieves the specified item from the collection.
+helpviewer_keywords: ["IMSVidFeatures interface [Microsoft TV Technologies]","get_Item method","IMSVidFeatures.get_Item","IMSVidFeatures::get_Item","IMSVidFeaturesget_Item","get_Item","get_Item method [Microsoft TV Technologies]","get_Item method [Microsoft TV Technologies]","IMSVidFeatures interface","mstv.imsvidfeatures_get_item","segment/IMSVidFeatures::get_Item"]
 old-location: mstv\imsvidfeatures_get_item.htm
 tech.root: mstv
 ms.assetid: f5656ba2-7ba6-44ba-bcab-3678fbd10b07
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Item method, IMSVidFeatures.get_Item, IMSVidFeatures::get_Item, IMSVidFeaturesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get_item, segment/IMSVidFeatures::get_Item
-f1_keywords:
-- segment/IMSVidFeatures.get_Item
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidFeatures.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidFeatures::get_Item
+ - segment/IMSVidFeatures::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidFeatures.get_Item
 ---
 
 # IMSVidFeatures::get_Item
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_Item</b> method retrieves the specified item from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param v [in]
 
 <b>VARIANT</b> that specifies the index of the item to retrieve.
 
-
 ### -param pDB [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a> interface pointer.
-
+Address of a variable that receives an <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a> interface pointer.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -134,29 +127,13 @@ Unexpected error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (VT_I4). The valid range is from 0 to <code>IMSVidFeatures::get_Count - 1</code>.
 
-If the method succeeds, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a> interface has an outstanding reference count. The caller must release the interface.
-
-
-
+If the method succeeds, the <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a> interface has an outstanding reference count. The caller must release the interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/msvidfeatures">IMSVidFeatures Interface</a>

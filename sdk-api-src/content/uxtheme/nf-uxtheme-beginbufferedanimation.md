@@ -2,15 +2,12 @@
 UID: NF:uxtheme.BeginBufferedAnimation
 title: BeginBufferedAnimation function (uxtheme.h)
 description: Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
+helpviewer_keywords: ["BeginBufferedAnimation","BeginBufferedAnimation function [Windows Controls]","_shell_BeginBufferedAnimation","_shell_BeginBufferedAnimation_cpp","controls.BeginBufferedAnimation","controls._shell_BeginBufferedAnimation","uxtheme/BeginBufferedAnimation"]
 old-location: controls\BeginBufferedAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
 ms.date: 12/05/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
-f1_keywords:
-- uxtheme/BeginBufferedAnimation
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- BeginBufferedAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BeginBufferedAnimation
+ - uxtheme/BeginBufferedAnimation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - BeginBufferedAnimation
 ---
 
 # BeginBufferedAnimation function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
-
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the window in which the animations play.
 
-
 ### -param hdcTarget
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A handle of the target DC on which the buffer is animated.
-
 
 ### -param prcTarget
 
@@ -78,63 +72,50 @@ Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b
 
 A pointer to a structure that specifies the area of the target DC in which to draw.
 
-
 ### -param dwFormat
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a></b>
+Type: <b><a href="/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a></b>
 
 The format of the buffer.
 
-
 ### -param pPaintParams [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a>*</b>
+Type: <b><a href="/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a>*</b>
 
 A pointer to a structure that defines the paint operation parameters. This value can be <b>NULL</b>.
 
-
 ### -param pAnimationParams [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_animationparams">BP_ANIMATIONPARAMS</a>*</b>
+Type: <b><a href="/windows/desktop/api/uxtheme/ns-uxtheme-bp_animationparams">BP_ANIMATIONPARAMS</a>*</b>
 
 A pointer to a structure that defines the animation operation parameters.
 
-
 ### -param phdcFrom [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
 
 When this function returns, this value points to the handle of the DC where the application should paint the initial state of the animation, if not <b>NULL</b>.
 
-
 ### -param phdcTo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
 
 When this function returns, this value points to the handle of the DC where the application should paint the final state of the animation, if not <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HANIMATIONBUFFER</b>
 
 A handle to the buffered paint animation.
 
-
-
-
 ## -remarks
 
-
-
-<b>BeginBufferedAnimation</b> will take care of drawing the intermediate frames between those two states by generating multiple <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages.
+<b>BeginBufferedAnimation</b> will take care of drawing the intermediate frames between those two states by generating multiple <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages.
 		
 
-<b>BeginBufferedAnimation</b> starts a timer that generates <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages on which <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-bufferedpaintrenderanimation">BufferedPaintRenderAnimation</a> should be called.  During these messages, <b>BufferedPaintRenderAnimation</b> will return <b>TRUE</b> when it paints an intermediate frame, to signify that the application has no further painting to do.
+<b>BeginBufferedAnimation</b> starts a timer that generates <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages on which <a href="/windows/desktop/api/uxtheme/nf-uxtheme-bufferedpaintrenderanimation">BufferedPaintRenderAnimation</a> should be called.  During these messages, <b>BufferedPaintRenderAnimation</b> will return <b>TRUE</b> when it paints an intermediate frame, to signify that the application has no further painting to do.
 
-If the animation duration is zero, then only <i>phdcTo</i> is returned and <i>phdcFrom</i>  is set to <b>NULL</b>.  In this case, the application should paint the final state using <i>phdcTo</i> to get the behavior similar to <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
+If the animation duration is zero, then only <i>phdcTo</i> is returned and <i>phdcFrom</i>  is set to <b>NULL</b>.  In this case, the application should paint the final state using <i>phdcTo</i> to get the behavior similar to <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 
 
@@ -316,7 +297,3 @@ void BufferedPaint(HDC hdc, const RECT *prcPaint)
 }
 
 ```
-
-
-
-

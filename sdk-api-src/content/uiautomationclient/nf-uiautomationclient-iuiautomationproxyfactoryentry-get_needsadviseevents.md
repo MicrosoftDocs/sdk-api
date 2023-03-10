@@ -1,16 +1,13 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents
 title: IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents (uiautomationclient.h)
-description: Sets or retrieves a value that specifies whether the proxy must be notified when an application has registered for events.
+description: Sets or retrieves a value that specifies whether the proxy must be notified when an application has registered for events. (Get)
+helpviewer_keywords: ["IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","NeedsAdviseEvents property","IUIAutomationProxyFactoryEntry.NeedsAdviseEvents","IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents","IUIAutomationProxyFactoryEntry::NeedsAdviseEvents","IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents","IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents","NeedsAdviseEvents property [Windows Accessibility]","NeedsAdviseEvents property [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","get_NeedsAdviseEvents","uiauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents","uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents","uiautomationclient/IUIAutomationProxyFactoryEntry::NeedsAdviseEvents","uiautomationclient/IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents","uiautomationclient/IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents","winauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents.htm
 tech.root: WinAuto
 ms.assetid: 6a23b850-a2a0-4701-9725-e36213fcead7
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],NeedsAdviseEvents property, IUIAutomationProxyFactoryEntry.NeedsAdviseEvents, IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents, IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents, NeedsAdviseEvents property [Windows Accessibility], NeedsAdviseEvents property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, get_NeedsAdviseEvents, uiauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents, uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents, uiautomationclient/IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents, winauto.uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents
-f1_keywords:
-- uiautomationclient/IUIAutomationProxyFactoryEntry.NeedsAdviseEvents
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationProxyFactoryEntry.NeedsAdviseEvents
-- IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents
-- IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents
+ - uiautomationclient/IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationProxyFactoryEntry.NeedsAdviseEvents
+ - IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents
+ - IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents
 ---
 
 # IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents
@@ -50,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves a value that specifies whether the proxy must be notified when an application has registered for events.
 
 This property is read/write.
-
 
 ## -parameters
 

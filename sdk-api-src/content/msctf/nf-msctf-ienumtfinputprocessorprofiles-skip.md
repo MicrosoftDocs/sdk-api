@@ -2,15 +2,12 @@
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Skip
 title: IEnumTfInputProcessorProfiles::Skip (msctf.h)
 description: The IEnumTfInputProcessorProfiles::Skip method moves the current position forward in the enumeration sequence by the specified number of elements.
+helpviewer_keywords: ["IEnumTfInputProcessorProfiles interface [Text Services Framework]","Skip method","IEnumTfInputProcessorProfiles.Skip","IEnumTfInputProcessorProfiles::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfInputProcessorProfiles interface","msctf/IEnumTfInputProcessorProfiles::Skip","tsf.ienumtfinputprocessorprofiles_skip"]
 old-location: tsf\ienumtfinputprocessorprofiles_skip.htm
 tech.root: TSF
 ms.assetid: 7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac
 ms.date: 12/05/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Skip method, IEnumTfInputProcessorProfiles.Skip, IEnumTfInputProcessorProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Skip, tsf.ienumtfinputprocessorprofiles_skip
-f1_keywords:
-- msctf/IEnumTfInputProcessorProfiles.Skip
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IEnumTfInputProcessorProfiles.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfInputProcessorProfiles::Skip
+ - msctf/IEnumTfInputProcessorProfiles::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IEnumTfInputProcessorProfiles.Skip
 ---
 
 # IEnumTfInputProcessorProfiles::Skip
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Skip</a> method moves the current position forward in the enumeration sequence by the specified number of elements.
-
+The <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfinputprocessorprofiles-next">IEnumTfInputProcessorProfiles::Skip</a> method moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 [in] Contains the number of elements to skip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,7 +90,3 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
-

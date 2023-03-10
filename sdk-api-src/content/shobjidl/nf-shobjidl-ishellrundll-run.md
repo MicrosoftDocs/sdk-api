@@ -1,16 +1,13 @@
 ---
 UID: NF:shobjidl.IShellRunDll.Run
 title: IShellRunDll::Run (shobjidl.h)
-description: Not supported.
+description: Not supported. (IShellRunDll.Run)
+helpviewer_keywords: ["IShellRunDll interface [Windows Shell]","Run method","IShellRunDll.Run","IShellRunDll::Run","Run","Run method [Windows Shell]","Run method [Windows Shell]","IShellRunDll interface","_shell_IShellRunDll_Run","shell.IShellRunDll_Run","shobjidl/IShellRunDll::Run"]
 old-location: shell\IShellRunDll_Run.htm
 tech.root: shell
 ms.assetid: 3506a086-2dda-4455-b03c-f3c85e4ac283
 ms.date: 12/05/2018
 ms.keywords: IShellRunDll interface [Windows Shell],Run method, IShellRunDll.Run, IShellRunDll::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IShellRunDll interface, _shell_IShellRunDll_Run, shell.IShellRunDll_Run, shobjidl/IShellRunDll::Run
-f1_keywords:
-- shobjidl/IShellRunDll.Run
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl.h
-api_name:
-- IShellRunDll.Run
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellRunDll::Run
+ - shobjidl/IShellRunDll::Run
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl.h
+api_name:
+ - IShellRunDll.Run
 ---
 
 # IShellRunDll::Run
@@ -48,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
-
 ## -parameters
-
-
-
 
 ### -param pszArgs [in]
 
 Type: <b>LPCWSTR</b>
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

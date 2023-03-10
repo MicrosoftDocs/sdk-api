@@ -1,16 +1,13 @@
 ---
 UID: NF:resapi.ClusWorkerTerminateEx
 title: ClusWorkerTerminateEx function (resapi.h)
-description: Waits for a worker thread to terminate up to the specified timeout.
+description: Waits for a worker thread to terminate up to the specified timeout. (ClusWorkerTerminateEx)
+helpviewer_keywords: ["ClusWorkerTerminateEx","ClusWorkerTerminateEx function [Failover Cluster]","mscs.clusworkerterminateex","resapi/ClusWorkerTerminateEx"]
 old-location: mscs\clusworkerterminateex.htm
 tech.root: MsCS
 ms.assetid: e2dda7c0-01d4-49e5-bc57-3fa07495d536
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerTerminateEx, ClusWorkerTerminateEx function [Failover Cluster], mscs.clusworkerterminateex, resapi/ClusWorkerTerminateEx
-f1_keywords:
-- resapi/ClusWorkerTerminateEx
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ClusWorkerTerminateEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusWorkerTerminateEx
+ - resapi/ClusWorkerTerminateEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ClusWorkerTerminateEx
 ---
 
 # ClusWorkerTerminateEx function
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for a worker thread to terminate up to the specified timeout.  This function can signal the thread to terminate before wait starts, or just wait passively if specified.
-
 
 ## -parameters
 
-
-
-
 ### -param ClusWorker [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure describing the 
+Pointer to a <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a> structure describing the 
        worker thread to terminate.
-
 
 ### -param TimeoutInMilliseconds [in]
 
 The timeout in milliseconds.
 
-
 ### -param WaitOnly [in]
 
 If set <b>TRUE</b>, the function will wait for up to specified timeout without signaling the thread to terminate; otherwise it will signal the thread to terminate before waiting for the thread.
 
-
 ## -returns
-
-
 
 Returns a system error code on failure.
 
@@ -107,38 +99,27 @@ The worker thread is not terminated within the specified timeout.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clus_worker">CLUS_WORKER</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-clusworkersterminate">ClusWorkersTerminate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkersterminate">ClusWorkersTerminate</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/thread-management-utility-functions">Thread Management Utility Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/thread-management-utility-functions">Thread Management Utility Functions</a>

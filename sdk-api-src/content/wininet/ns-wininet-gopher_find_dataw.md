@@ -1,16 +1,13 @@
 ---
-UID: NS:wininet.__unnamed_struct_18
+UID: NS:wininet.GOPHER_FIND_DATAW
 title: GOPHER_FIND_DATAW (wininet.h)
-description: Contains information retrieved by the GopherFindFirstFile and InternetFindNextFile functions.
+description: Contains information retrieved by the GopherFindFirstFile and InternetFindNextFile functions. (Unicode)
+helpviewer_keywords: ["*LPGOPHER_FIND_DATAW","GOPHER_FIND_DATA","GOPHER_FIND_DATA structure [WinINet]","GOPHER_FIND_DATAA","GOPHER_FIND_DATAW","GOPHER_TYPE_ASK","GOPHER_TYPE_BINARY","GOPHER_TYPE_BITMAP","GOPHER_TYPE_CALENDAR","GOPHER_TYPE_CSO","GOPHER_TYPE_DIRECTORY","GOPHER_TYPE_DOS_ARCHIVE","GOPHER_TYPE_ERROR","GOPHER_TYPE_GIF","GOPHER_TYPE_GOPHER_PLUS","GOPHER_TYPE_HTML","GOPHER_TYPE_IMAGE","GOPHER_TYPE_INDEX_SERVER","GOPHER_TYPE_INLINE","GOPHER_TYPE_MAC_BINHEX","GOPHER_TYPE_MOVIE","GOPHER_TYPE_PDF","GOPHER_TYPE_REDUNDANT","GOPHER_TYPE_SOUND","GOPHER_TYPE_TELNET","GOPHER_TYPE_TEXT_FILE","GOPHER_TYPE_TN3270","GOPHER_TYPE_UNIX_UUENCODED","GOPHER_TYPE_UNKNOWN","LPGOPHER_FIND_DATA","LPGOPHER_FIND_DATA structure pointer [WinINet]","_win32_gopher_find_data","wininet.gopher_find_data","wininet/GOPHER_FIND_DATA","wininet/GOPHER_FIND_DATAA","wininet/GOPHER_FIND_DATAW","wininet/LPGOPHER_FIND_DATA"]
 old-location: wininet\gopher_find_data.htm
 tech.root: wininet
 ms.assetid: 53bcba70-2d6a-465a-86ec-4b11b1474ee1
 ms.date: 12/05/2018
 ms.keywords: '*LPGOPHER_FIND_DATAW, GOPHER_FIND_DATA, GOPHER_FIND_DATA structure [WinINet], GOPHER_FIND_DATAA, GOPHER_FIND_DATAW, GOPHER_TYPE_ASK, GOPHER_TYPE_BINARY, GOPHER_TYPE_BITMAP, GOPHER_TYPE_CALENDAR, GOPHER_TYPE_CSO, GOPHER_TYPE_DIRECTORY, GOPHER_TYPE_DOS_ARCHIVE, GOPHER_TYPE_ERROR, GOPHER_TYPE_GIF, GOPHER_TYPE_GOPHER_PLUS, GOPHER_TYPE_HTML, GOPHER_TYPE_IMAGE, GOPHER_TYPE_INDEX_SERVER, GOPHER_TYPE_INLINE, GOPHER_TYPE_MAC_BINHEX, GOPHER_TYPE_MOVIE, GOPHER_TYPE_PDF, GOPHER_TYPE_REDUNDANT, GOPHER_TYPE_SOUND, GOPHER_TYPE_TELNET, GOPHER_TYPE_TEXT_FILE, GOPHER_TYPE_TN3270, GOPHER_TYPE_UNIX_UUENCODED, GOPHER_TYPE_UNKNOWN, LPGOPHER_FIND_DATA, LPGOPHER_FIND_DATA structure pointer [WinINet], _win32_gopher_find_data, wininet.gopher_find_data, wininet/GOPHER_FIND_DATA, wininet/GOPHER_FIND_DATAA, wininet/GOPHER_FIND_DATAW, wininet/LPGOPHER_FIND_DATA'
-f1_keywords:
-- wininet/GOPHER_FIND_DATA
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- GOPHER_FIND_DATA
-- GOPHER_FIND_DATAA
-- GOPHER_FIND_DATAW
 targetos: Windows
 req.typenames: GOPHER_FIND_DATAW, *LPGOPHER_FIND_DATAW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPGOPHER_FIND_DATAW
+ - wininet/LPGOPHER_FIND_DATAW
+ - GOPHER_FIND_DATAW
+ - wininet/GOPHER_FIND_DATAW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - GOPHER_FIND_DATA
+ - GOPHER_FIND_DATAA
+ - GOPHER_FIND_DATAW
 ---
 
 # GOPHER_FIND_DATAW structure
@@ -50,23 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>GOPHER_FIND_DATA</b> structure is available for use in the operating systems specified in the Requirements section.]
 
 Contains information retrieved by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a> functions.
-
+<a href="/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a> and 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a> functions.
 
 ## -struct-fields
-
-
-
 
 ### -field DisplayString
 
 Friendly name of an object. An application can display this string to allow the user to select the object.
-
 
 ### -field GopherType
 
@@ -318,52 +316,41 @@ Item type is unknown.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field SizeLow
 
-Low 32 bits of the file size. 
-
+Low 32 bits of the file size.
 
 ### -field SizeHigh
 
-High 32 bits of the file size. 
-
+High 32 bits of the file size.
 
 ### -field LastModificationTime
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time when the file was last modified. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time when the file was last modified.
 
 ### -field Locator
 
 File locator. An application can pass the locator string to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gopheropenfilea">GopherOpenFile</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a>. 
-
+<a href="/windows/desktop/api/wininet/nf-wininet-gopheropenfilea">GopherOpenFile</a> or 
+<a href="/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a>.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The wininet.h header defines GOPHER_FIND_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gopherfindfirstfilea">GopherFindFirstFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a>
- 
-
- 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetfindnextfilea">InternetFindNextFile</a>
 

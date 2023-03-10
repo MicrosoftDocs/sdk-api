@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsNewClass0Message
 title: IMbnSmsEvents::OnSmsNewClass0Message (mbnapi.h)
 description: Notification method signaling the arrival of a new class 0/flash message.
+helpviewer_keywords: ["IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsNewClass0Message method","IMbnSmsEvents.OnSmsNewClass0Message","IMbnSmsEvents::OnSmsNewClass0Message","OnSmsNewClass0Message","OnSmsNewClass0Message method [Microsoft Broadband Networks]","OnSmsNewClass0Message method [Microsoft Broadband Networks]","IMbnSmsEvents interface","mbn.imbnsmsevents_onsmsnewclass0message","mbnapi/IMbnSmsEvents::OnSmsNewClass0Message"]
 old-location: mbn\imbnsmsevents_onsmsnewclass0message.htm
 tech.root: mbn
 ms.assetid: e6d13393-557c-462c-a640-2228ab0c9c17
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsNewClass0Message method, IMbnSmsEvents.OnSmsNewClass0Message, IMbnSmsEvents::OnSmsNewClass0Message, OnSmsNewClass0Message, OnSmsNewClass0Message method [Microsoft Broadband Networks], OnSmsNewClass0Message method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsnewclass0message, mbnapi/IMbnSmsEvents::OnSmsNewClass0Message
-f1_keywords:
-- mbnapi/IMbnSmsEvents.OnSmsNewClass0Message
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsEvents.OnSmsNewClass0Message
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsEvents::OnSmsNewClass0Message
+ - mbnapi/IMbnSmsEvents::OnSmsNewClass0Message
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsEvents.OnSmsNewClass0Message
 ---
 
 # IMbnSmsEvents::OnSmsNewClass0Message
@@ -53,54 +55,30 @@ ms.custom: 19H1
 
 Notification method signaling the arrival of a new class 0/flash message.
 
-
 ## -parameters
-
-
-
 
 ### -param sms [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device that received the new message(s).
-
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device that received the new message(s).
 
 ### -param smsFormat [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format">MBN_SMS_FORMAT</a> value that defines the format of the new SMS message.
-
+An <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format">MBN_SMS_FORMAT</a> value that defines the format of the new SMS message.
 
 ### -param readMsgs [in]
 
 An array of new messages.
 
-
 ## -returns
-
-
 
 This method must return <b>S_OK</b>.
 
-
-
-
 ## -remarks
 
+For GSM devices, the calling application should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on each element in <i>readMsgs</i> for an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface.
 
-
-For GSM devices, the calling application should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on each element in <i>readMsgs</i> for an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface.
-
-For CDMA devices, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_TEXT</b>, then the calling application should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a> interface. If <i>smsFormat</i> is <b>MBN_SMS_FORMAT_PDU</b>, then the calling application should call <b>QueryInterface</b> for a <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface. 
-
-
-
+For CDMA devices, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_TEXT</b>, then the calling application should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for a <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a> interface. If <i>smsFormat</i> is <b>MBN_SMS_FORMAT_PDU</b>, then the calling application should call <b>QueryInterface</b> for a <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>

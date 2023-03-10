@@ -2,15 +2,12 @@
 UID: NF:restartmanager.RmStartSession
 title: RmStartSession function (restartmanager.h)
 description: Starts a new Restart Manager session.
+helpviewer_keywords: ["RmStartSession","RmStartSession function [Restart Mgr]","restartmanager/RmStartSession","rstmgr.rmstartsession"]
 old-location: rstmgr\rmstartsession.htm
 tech.root: rstmgr
 ms.assetid: bc79c6e5-49e6-44d3-90f6-b0109fb9611b
 ms.date: 12/05/2018
 ms.keywords: RmStartSession, RmStartSession function [Restart Mgr], restartmanager/RmStartSession, rstmgr.rmstartsession
-f1_keywords:
-- restartmanager/RmStartSession
-dev_langs:
-- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rstrtmgr.dll
-api_name:
-- RmStartSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RmStartSession
+ - restartmanager/RmStartSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rstrtmgr.dll
+api_name:
+ - RmStartSession
 ---
 
 # RmStartSession function
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts a new Restart Manager session. A maximum of 64 Restart Manager sessions per user session can be open on the system at the same time.   When this function starts a session, it returns a session handle and session key that can be used in subsequent calls to the Restart Manager API.
 
-
 ## -parameters
-
-
-
 
 ### -param pSessionHandle [out]
 
 A pointer to the handle of a Restart Manager session. The session handle can be passed in subsequent calls to the Restart Manager API.
 
-
 ### -param dwSessionFlags
 
 Reserved. This parameter should be 0.
-
 
 ### -param strSessionKey [out]
 
 A <b>null</b>-terminated string that contains the session key to the new session. The string must be allocated before calling  the <b>RmStartSession</b> function.
 
-
 ## -returns
 
-
-
-This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
+This is the most recent error received. The function can return one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h. 
 
 <table>
 <tr>
@@ -156,35 +148,19 @@ A Restart Manager operation could not complete because not enough memory was ava
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RmStartSession</b> function returns an error if a session with the same session key already exists.
 
 The <b>RmStartSession</b> function should be called by the primary installer that controls the user interface or that controls the installation sequence of multiple patches in an update.
 
-A secondary installer can join an existing Restart Manager session by calling the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a> function with the session handle and session key returned from the <b>RmStartSession</b> function call of the primary installer.
-
-
-
+A secondary installer can join an existing Restart Manager session by calling the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a> function with the session handle and session key returned from the <b>RmStartSession</b> function call of the primary installer.
 
 ## -see-also
 
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmendsession">RmEndSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmendsession">RmEndSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmjoinsession">RmJoinSession</a>

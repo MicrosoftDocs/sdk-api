@@ -1,16 +1,13 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetUniqueIdentity
 title: IEnhancedStorageACT::GetUniqueIdentity (ehstorapi.h)
-description: Retrieves the unique identity of the Addressable Command Targer (ACT).
+description: Retrieves the unique identity of the Addressable Command Target (ACT).
+helpviewer_keywords: ["GetUniqueIdentity","GetUniqueIdentity method [Enhanced Storage]","GetUniqueIdentity method [Enhanced Storage]","IEnhancedStorageACT interface","IEnhancedStorageACT interface [Enhanced Storage]","GetUniqueIdentity method","IEnhancedStorageACT.GetUniqueIdentity","IEnhancedStorageACT::GetUniqueIdentity","ehstorapi/IEnhancedStorageACT::GetUniqueIdentity","enstor.ienhancedstorageact_getuniqueidentity"]
 old-location: enstor\ienhancedstorageact_getuniqueidentity.htm
 tech.root: enstor
 ms.assetid: 0f8d33af-a771-4cbd-9740-a72fbb7e9b42
 ms.date: 12/05/2018
 ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetUniqueIdentity method, IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT.GetUniqueIdentity
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT.GetUniqueIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT::GetUniqueIdentity
+ - ehstorapi/IEnhancedStorageACT::GetUniqueIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT.GetUniqueIdentity
 ---
 
 # IEnhancedStorageACT::GetUniqueIdentity
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the unique identity of the Addressable Command Targer (ACT).
-
+Retrieves the unique identity of the Addressable Command Target (ACT).
 
 ## -parameters
 
-
-
-
 ### -param ppwszIdentity [out]
 
-Pointer to a string that represents the unique identity of the ACT. 
-
+Pointer to a string that represents the unique identity of the ACT.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,27 +90,11 @@ The unique identity was retrieved successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The memory containing the unique identity of the ACT is allocated by the Enhanced Storage API and must be freed by passing the returned pointer to <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
-
-
+The memory containing the unique identity of the ACT is allocated by the Enhanced Storage API and must be freed by passing the returned pointer to <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>

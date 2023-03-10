@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange.ChangeCase
 title: ITextRange::ChangeCase (tom.h)
 description: Changes the case of letters in this range according to the Type parameter.
+helpviewer_keywords: ["ChangeCase","ChangeCase method [Windows Controls]","ChangeCase method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","ChangeCase method","ITextRange.ChangeCase","ITextRange::ChangeCase","_win32_ITextRange_ChangeCase","_win32_ITextRange_ChangeCase_cpp","controls.ITextRange_ChangeCase","controls._win32_ITextRange_ChangeCase","tom/ITextRange::ChangeCase","tomLowerCase","tomSentenceCase","tomTitleCase","tomToggleCase","tomUpperCase"]
 old-location: controls\ITextRange_ChangeCase.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\changecase.htm
 ms.date: 12/05/2018
 ms.keywords: ChangeCase, ChangeCase method [Windows Controls], ChangeCase method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],ChangeCase method, ITextRange.ChangeCase, ITextRange::ChangeCase, _win32_ITextRange_ChangeCase, _win32_ITextRange_ChangeCase_cpp, controls.ITextRange_ChangeCase, controls._win32_ITextRange_ChangeCase, tom/ITextRange::ChangeCase, tomLowerCase, tomSentenceCase, tomTitleCase, tomToggleCase, tomUpperCase
-f1_keywords:
-- tom/ITextRange.ChangeCase
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.ChangeCase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::ChangeCase
+ - tom/ITextRange::ChangeCase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.ChangeCase
 ---
 
 # ITextRange::ChangeCase
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the case of letters in this range according to the 
 			<i>Type</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param Type [in]
 
@@ -130,31 +127,21 @@ Toggles the case of each letter.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 This method returns an 
-						<b>HRESULT</b> value. If successful, it returns <b>S_OK</b>. Otherwise, it returns S_FALSE. 
-
-
-
+						<b>HRESULT</b> value. If successful, it returns <b>S_OK</b>. Otherwise, it returns S_FALSE.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -162,8 +149,4 @@ This method returns an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

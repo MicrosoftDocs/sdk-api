@@ -2,15 +2,12 @@
 UID: NF:searchapi.ISearchManager.put_UserAgent
 title: ISearchManager::put_UserAgent (searchapi.h)
 description: Sets the user agent string that a user agent passes to website and services to identify itself.
+helpviewer_keywords: ["ISearchManager interface [search]","put_UserAgent method","ISearchManager.put_UserAgent","ISearchManager::put_UserAgent","_search_ISearchManager_put_UserAgent","put_UserAgent","put_UserAgent method [search]","put_UserAgent method [search]","ISearchManager interface","search._search_ISearchManager_put_UserAgent","searchapi/ISearchManager::put_UserAgent"]
 old-location: search\_search_ISearchManager_put_UserAgent.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\put_useragent.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],put_UserAgent method, ISearchManager.put_UserAgent, ISearchManager::put_UserAgent, _search_ISearchManager_put_UserAgent, put_UserAgent, put_UserAgent method [search], put_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_put_UserAgent, searchapi/ISearchManager::put_UserAgent
-f1_keywords:
-- searchapi/ISearchManager.put_UserAgent
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchManager.put_UserAgent
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchManager::put_UserAgent
+ - searchapi/ISearchManager::put_UserAgent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchManager.put_UserAgent
 ---
 
 # ISearchManager::put_UserAgent
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the user agent string that a user agent passes to website and services to identify itself. 
-        
-
+Sets the user agent string that a user agent passes to website and services to identify itself.
 
 ## -parameters
-
-
-
 
 ### -param pszUserAgent [in]
 
 Type: <b>LPCWSTR</b>
 
 The user agent string identifying the user agent.
-                
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 A user agent is a client application that accesses the Internet. User agents include web browsers, search engine crawlers, download managers, and so on, and may be associated with a specific protocol such as File Transfer Protocol (FTP) or Hyper Text Transfer Protocol (HTTP).
 
-Each user agent typially has a user agent string, such as "Mozilla/4.0", that it can pass to websites and services to identify itself.
+Each user agent typically has a user agent string, such as "Mozilla/4.0", that it can pass to websites and services to identify itself.
 
-The ReindexMatchingUrls code sample, available on <a href="https://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="https://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

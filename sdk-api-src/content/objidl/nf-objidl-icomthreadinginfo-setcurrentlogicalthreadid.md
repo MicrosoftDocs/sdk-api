@@ -1,16 +1,13 @@
 ---
 UID: NF:objidl.IComThreadingInfo.SetCurrentLogicalThreadId
 title: IComThreadingInfo::SetCurrentLogicalThreadId (objidl.h)
-description: Sets the GUID of the thread in which the caller is executing.
+description: The IComThreadingInfo::SetCurrentLogicalThreadId method (objidl.h) sets the GUID of the thread in which the caller is executing.
+helpviewer_keywords: ["IComThreadingInfo interface [COM]","SetCurrentLogicalThreadId method","IComThreadingInfo.SetCurrentLogicalThreadId","IComThreadingInfo::SetCurrentLogicalThreadId","SetCurrentLogicalThreadId","SetCurrentLogicalThreadId method [COM]","SetCurrentLogicalThreadId method [COM]","IComThreadingInfo interface","_com_icomthreadinginfo_setcurrentlogicalthreadid","com.icomthreadinginfo_setcurrentlogicalthreadid","objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId"]
 old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
 tech.root: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method, IComThreadingInfo.SetCurrentLogicalThreadId, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
-f1_keywords:
-- objidl/IComThreadingInfo.SetCurrentLogicalThreadId
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IComThreadingInfo.SetCurrentLogicalThreadId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComThreadingInfo::SetCurrentLogicalThreadId
+ - objidl/IComThreadingInfo::SetCurrentLogicalThreadId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IComThreadingInfo.SetCurrentLogicalThreadId
 ---
 
 # IComThreadingInfo::SetCurrentLogicalThreadId
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the GUID of the thread in which the caller is executing.
 
-
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 A reference to a GUID for the caller's thread.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -96,18 +90,7 @@ The caller is not executing in an apartment.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>

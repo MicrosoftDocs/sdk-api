@@ -2,15 +2,12 @@
 UID: NF:uxtheme.GetThemeAnimationTransform
 title: GetThemeAnimationTransform function (uxtheme.h)
 description: Gets an animation transform operation based on storyboard id, target id and transform index.
+helpviewer_keywords: ["GetThemeAnimationTransform","GetThemeAnimationTransform function [Windows Controls]","controls.getthemeanimationtransform","uxtheme/GetThemeAnimationTransform"]
 old-location: controls\getthemeanimationtransform.htm
 tech.root: Controls
 ms.assetid: 3B7691C0-4237-4CE4-9B7C-937089AC5606
 ms.date: 12/05/2018
 ms.keywords: GetThemeAnimationTransform, GetThemeAnimationTransform function [Windows Controls], controls.getthemeanimationtransform, uxtheme/GetThemeAnimationTransform
-f1_keywords:
-- uxtheme/GetThemeAnimationTransform
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
-- xamlpalwp.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-api_name:
-- GetThemeAnimationTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeAnimationTransform
+ - uxtheme/GetThemeAnimationTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+ - xamlpalwp.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+api_name:
+ - GetThemeAnimationTransform
 ---
 
 # GetThemeAnimationTransform function
@@ -51,57 +53,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an animation transform operation
 based on storyboard id, target id and transform
 index.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
 An opened theme handle.
 
-
 ### -param iStoryboardId [in]
 
 A predefined storyboard identifier.
-
 
 ### -param iTargetId [in]
 
 A predefined target identifier.
 
-
 ### -param dwTransformIndex [in]
 
 The zero-based index of a transform operation.
-
 
 ### -param pTransform [out]
 
 A pointer to a buffer to receive a transform structure.
 
-
 ### -param cbSize [in]
 
 The byte size of the buffer pointed by <i>pTransform</i>.
-
 
 ### -param pcbSizeOut [out]
 
 The                                    byte  size of a transform operation structure.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDraw7.SetCooperativeLevel
 title: IDirectDraw7::SetCooperativeLevel (ddraw.h)
 description: Determines the top-level behavior of the application.
+helpviewer_keywords: ["DDSCL_ALLOWMODEX","DDSCL_ALLOWREBOOT","DDSCL_CREATEDEVICEWINDOW","DDSCL_EXCLUSIVE","DDSCL_FPUPRESERVE","DDSCL_FPUSETUP","DDSCL_FULLSCREEN","DDSCL_MULTITHREADED","DDSCL_NORMAL","DDSCL_NOWINDOWCHANGES","DDSCL_SETDEVICEWINDOW","DDSCL_SETFOCUSWINDOW","IDirectDraw7 interface [DirectDraw]","SetCooperativeLevel method","IDirectDraw7.SetCooperativeLevel","IDirectDraw7::SetCooperativeLevel","SetCooperativeLevel","SetCooperativeLevel method [DirectDraw]","SetCooperativeLevel method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::SetCooperativeLevel","directdraw.idirectdraw7_setcooperativelevel"]
 old-location: directdraw\idirectdraw7_setcooperativelevel.htm
 tech.root: directdraw
 ms.assetid: f791732d-9dab-470a-9243-6f71fd3bcd54
 ms.date: 12/05/2018
 ms.keywords: DDSCL_ALLOWMODEX, DDSCL_ALLOWREBOOT, DDSCL_CREATEDEVICEWINDOW, DDSCL_EXCLUSIVE, DDSCL_FPUPRESERVE, DDSCL_FPUSETUP, DDSCL_FULLSCREEN, DDSCL_MULTITHREADED, DDSCL_NORMAL, DDSCL_NOWINDOWCHANGES, DDSCL_SETDEVICEWINDOW, DDSCL_SETFOCUSWINDOW, IDirectDraw7 interface [DirectDraw],SetCooperativeLevel method, IDirectDraw7.SetCooperativeLevel, IDirectDraw7::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [DirectDraw], SetCooperativeLevel method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetCooperativeLevel, directdraw.idirectdraw7_setcooperativelevel
-f1_keywords:
-- ddraw/IDirectDraw7.SetCooperativeLevel
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7.SetCooperativeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7::SetCooperativeLevel
+ - ddraw/IDirectDraw7::SetCooperativeLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7.SetCooperativeLevel
 ---
 
 # IDirectDraw7::SetCooperativeLevel
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines the top-level behavior of the application.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Window handle used for the application. Set to the calling application's top-level window handle (not a handle for any child windows created by the top-level window). This parameter can be NULL when the DDSCL_NORMAL flag is specified in the <i>dwFlags</i> parameter.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 This value consists of one or more of the following flags:
 
@@ -138,10 +134,7 @@ This flag is supported in Windows 98 and Windows 2000 only. Indicates that the <
 
 This flag is supported in Windows 98 and Windows 2000 only. Indicates that the <i>hWnd</i> parameter is the window handle of the focus window for this DirectDraw object. This flag cannot be used with the DDSCL_SETDEVICEWINDOW flag.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -158,11 +151,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_OUTOFMEMORY</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This method must be called by the same thread that created the application window.
 
@@ -174,7 +163,7 @@ An application must set either the DDSCL_EXCLUSIVE or the DDSCL_NORMAL flag.
 
 The DDSCL_EXCLUSIVE flag must be set to call functions that can adversely affect performance of other applications.
 
-Interaction between this method and the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-setdisplaymode">IDirectDraw7::SetDisplayMode</a> method differs from their IDirectDraw counterparts.
+Interaction between this method and the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-setdisplaymode">IDirectDraw7::SetDisplayMode</a> method differs from their IDirectDraw counterparts.
 
 If you use Microsoft Foundation Classes (MFC), the window handle passed to this method must identify the application's top-level window, not a derived child window. To retrieve your MFC application's top-level window handle, you could use the following code:
 
@@ -188,18 +177,8 @@ HWND hwndTop = AfxGetMainWnd()->GetSafeHwnd();
 ```
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>SetCooperativeLevel</b> method.
-
-
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

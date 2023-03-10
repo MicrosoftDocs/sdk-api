@@ -2,15 +2,12 @@
 UID: NF:pdh.PdhGetFormattedCounterValue
 title: PdhGetFormattedCounterValue function (pdh.h)
 description: Computes a displayable value for the specified counter.
+helpviewer_keywords: ["PDH_FMT_1000","PDH_FMT_DOUBLE","PDH_FMT_LARGE","PDH_FMT_LONG","PDH_FMT_NOCAP100","PDH_FMT_NOSCALE","PdhGetFormattedCounterValue","PdhGetFormattedCounterValue function [Perf]","_win32_pdhgetformattedcountervalue","base.pdhgetformattedcountervalue","pdh/PdhGetFormattedCounterValue","perf.pdhgetformattedcountervalue"]
 old-location: perf\pdhgetformattedcountervalue.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: cd104b26-1498-4f95-a411-97d868b43836
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterValue, PdhGetFormattedCounterValue function [Perf], _win32_pdhgetformattedcountervalue, base.pdhgetformattedcountervalue, pdh/PdhGetFormattedCounterValue, perf.pdhgetformattedcountervalue
-f1_keywords:
-- pdh/PdhGetFormattedCounterValue
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhGetFormattedCounterValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhGetFormattedCounterValue
+ - pdh/PdhGetFormattedCounterValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhGetFormattedCounterValue
 ---
 
 # PdhGetFormattedCounterValue function
@@ -48,21 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Computes a displayable value for the specified counter.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hCounter [in]
 
 Handle of the counter for which you want to compute a displayable value. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
 ### -param dwFormat [in]
 
@@ -146,30 +141,24 @@ Multiply the actual value by 1,000.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwType [out]
 
-Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="https://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
-
+Receives the counter type. For a list of counter types, see the Counter Types section of the <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Windows Server 2003 Deployment Kit</a>. This parameter is optional.
 
 ### -param pValue [out]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that receives the counter value.
-
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that receives the counter value.
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -210,53 +199,38 @@ The counter handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The data for the counter is locked (protected) for the duration of the call to 
 <b>PdhGetFormattedCounterValue</b> to prevent any changes during the processing of the call. Reading the data (calling this function successfully) clears the data-changed flag for the counter.
 
-Some counters, such as rate counters, require two counter values in order to compute a displayable value. In this case you must call <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcollectquerydata">PdhCollectQueryData</a> twice before calling 
-<b>PdhGetFormattedCounterValue</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/collecting-performance-data">Collecting Performance Data</a>. 
+Some counters, such as rate counters, require two counter values in order to compute a displayable value. In this case you must call <a href="/windows/desktop/api/pdh/nf-pdh-pdhcollectquerydata">PdhCollectQueryData</a> twice before calling 
+<b>PdhGetFormattedCounterValue</b>. For more information, see <a href="/windows/desktop/PerfCtrs/collecting-performance-data">Collecting Performance Data</a>. 
 
 If 
 the specified counter instance does not exist, the method will return PDH_INVALID_DATA and set the <b>CStatus</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure to PDH_CSTATUS_NO_INSTANCE.
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure to PDH_CSTATUS_NO_INSTANCE.
 
-<b>Prior to Windows Server 2003:  </b>The format call may fail for counters that require only a single value when the instance is not found. Try calling the query and format calls again. If the format call fails the second time, the instance is not found. As an alternative, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a> function with the refresh option set to <b>TRUE</b> to refresh the counter instances before querying and formatting the counter data.
+<b>Prior to Windows Server 2003:  </b>The format call may fail for counters that require only a single value when the instance is not found. Try calling the query and format calls again. If the format call fails the second time, the instance is not found. As an alternative, you can call the <a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a> function with the refresh option set to <b>TRUE</b> to refresh the counter instances before querying and formatting the counter data.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/browsing-performance-counters">Browsing Performance Counters</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/reading-performance-data-from-a-log-file">Reading Performance Data from a Log File</a>.
+<a href="/windows/desktop/PerfCtrs/browsing-performance-counters">Browsing Performance Counters</a> or 
+<a href="/windows/desktop/PerfCtrs/reading-performance-data-from-a-log-file">Reading Performance Data from a Log File</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhcollectquerydata">PdhCollectQueryData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcollectquerydata">PdhCollectQueryData</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhsetcounterscalefactor">PdhSetCounterScaleFactor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhsetcounterscalefactor">PdhSetCounterScaleFactor</a>

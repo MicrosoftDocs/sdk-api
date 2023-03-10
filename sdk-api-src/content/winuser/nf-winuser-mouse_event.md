@@ -2,15 +2,12 @@
 UID: NF:winuser.mouse_event
 title: mouse_event function (winuser.h)
 description: The mouse_event function synthesizes mouse motion and button clicks.
+helpviewer_keywords: ["MOUSEEVENTF_ABSOLUTE","MOUSEEVENTF_HWHEEL","MOUSEEVENTF_LEFTDOWN","MOUSEEVENTF_LEFTUP","MOUSEEVENTF_MIDDLEDOWN","MOUSEEVENTF_MIDDLEUP","MOUSEEVENTF_MOVE","MOUSEEVENTF_RIGHTDOWN","MOUSEEVENTF_RIGHTUP","MOUSEEVENTF_WHEEL","MOUSEEVENTF_XDOWN","MOUSEEVENTF_XUP","XBUTTON1","XBUTTON2","_win32_mouse_event","_win32_mouse_event_cpp","inputdev.mouse_event","mouse_event","mouse_event function [Keyboard and Mouse Input]","winui._win32_mouse_event","winuser/mouse_event"]
 old-location: inputdev\mouse_event.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\mouse_event.htm
 ms.date: 12/05/2018
 ms.keywords: MOUSEEVENTF_ABSOLUTE, MOUSEEVENTF_HWHEEL, MOUSEEVENTF_LEFTDOWN, MOUSEEVENTF_LEFTUP, MOUSEEVENTF_MIDDLEDOWN, MOUSEEVENTF_MIDDLEUP, MOUSEEVENTF_MOVE, MOUSEEVENTF_RIGHTDOWN, MOUSEEVENTF_RIGHTUP, MOUSEEVENTF_WHEEL, MOUSEEVENTF_XDOWN, MOUSEEVENTF_XUP, XBUTTON1, XBUTTON2, _win32_mouse_event, _win32_mouse_event_cpp, inputdev.mouse_event, mouse_event, mouse_event function [Keyboard and Mouse Input], winui._win32_mouse_event, winuser/mouse_event
-f1_keywords:
-- winuser/mouse_event
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- mouse_event
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mouse_event
+ - winuser/mouse_event
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - mouse_event
 ---
 
 # mouse_event function
@@ -48,14 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>mouse_event</b> function synthesizes mouse motion and button clicks.
-<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> instead.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -221,23 +219,20 @@ The values that specify mouse button status are set to indicate changes in statu
 
 You cannot specify both <b>MOUSEEVENTF_WHEEL</b> and either <b>MOUSEEVENTF_XDOWN</b> or <b>MOUSEEVENTF_XUP</b> simultaneously in the 
 						<i>dwFlags</i> parameter, because they both require use of the 
-						<i>dwData</i> field. 
-
+						<i>dwData</i> field.
 
 ### -param dx [in]
 
 Type: <b>DWORD</b>
 
 The mouse's absolute position along the x-axis or its amount of motion since the last mouse event was generated, depending on the setting of <b>MOUSEEVENTF_ABSOLUTE</b>. Absolute data is specified as the mouse's actual x-coordinate; relative data is specified as the number of mickeys moved. A 
-					<i>mickey</i> is the amount that a mouse has to move for it to report that it has moved. 
-
+					<i>mickey</i> is the amount that a mouse has to move for it to report that it has moved.
 
 ### -param dy [in]
 
 Type: <b>DWORD</b>
 
-The mouse's absolute position along the y-axis or its amount of motion since the last mouse event was generated, depending on the setting of <b>MOUSEEVENTF_ABSOLUTE</b>. Absolute data is specified as the mouse's actual y-coordinate; relative data is specified as the number of mickeys moved. 
-
+The mouse's absolute position along the y-axis or its amount of motion since the last mouse event was generated, depending on the setting of <b>MOUSEEVENTF_ABSOLUTE</b>. Absolute data is specified as the mouse's actual y-coordinate; relative data is specified as the number of mickeys moved.
 
 ### -param dwData [in]
 
@@ -286,28 +281,14 @@ Set if the second X button was pressed or released.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwExtraInfo [in]
 
 Type: <b>ULONG_PTR</b>
 
-An additional value associated with the mouse event. An application calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information. 
-
-
-## -returns
-
-
-
-This function has no return value. 
-
-
-
+An additional value associated with the mouse event. An application calls <a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> to obtain this extra information.
 
 ## -remarks
-
-
 
 If the mouse has moved, indicated by <b>MOUSEEVENTF_MOVE</b> being set, 
 				<i>dx</i> and 
@@ -321,32 +302,26 @@ If the <b>MOUSEEVENTF_ABSOLUTE</b> value is not specified,
 				<i>dx</i> and 
 				<i>dy</i> specify relative motions from when the last mouse event was generated (the last reported position). Positive values mean the mouse moved right (or down); negative values mean the mouse moved left (or up). 
 
-Relative mouse motion is subject to the settings for mouse speed and acceleration level. An end user sets these values using the Mouse application in Control Panel. An application obtains and sets these values with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function. 
+Relative mouse motion is subject to the settings for mouse speed and acceleration level. An end user sets these values using the Mouse application in Control Panel. An application obtains and sets these values with the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function. 
 
 The system applies two tests to the specified relative mouse motion when applying acceleration. If the specified distance along either the x or y axis is greater than the first mouse threshold value, and the mouse acceleration level is not zero, the operating system doubles the distance. If the specified distance along either the x- or y-axis is greater than the second mouse threshold value, and the mouse acceleration level is equal to two, the operating system doubles the distance that resulted from applying the first threshold test. It is thus possible for the operating system to multiply relatively-specified mouse motion along the x- or y-axis by up to four times.
 
 Once acceleration has been applied, the system scales the resultant value by the desired mouse speed. Mouse speed can range from 1 (slowest) to 20 (fastest) and represents how much the pointer moves based on the distance the mouse moves. The default value is 10, which results in no additional modification to the mouse motion. 
 
 The <b>mouse_event</b> function is used to synthesize mouse events by applications that need to do so. It is also used by applications that need to obtain more information from the mouse than its position and button state. For example, if a tablet manufacturer wants to pass pen-based information to its own applications, it can write a DLL that communicates directly to the tablet hardware, obtains the extra information, and saves it in a queue. The DLL then calls <b>mouse_event</b> with the standard button and x/y position data, along with, in the <i>dwExtraInfo</i> parameter, some pointer or index to the queued extra information. When the application needs the extra information, it calls the DLL with the pointer or index stored in 
-				<i>dwExtraInfo</i>, and the DLL returns the extra information. 
-
-
-
+				<i>dwExtraInfo</i>, and the DLL returns the extra information.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -358,8 +333,4 @@ The <b>mouse_event</b> function is used to synthesize mouse events by applicatio
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

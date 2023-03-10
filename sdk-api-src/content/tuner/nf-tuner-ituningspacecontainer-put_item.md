@@ -2,15 +2,12 @@
 UID: NF:tuner.ITuningSpaceContainer.put_Item
 title: ITuningSpaceContainer::put_Item (tuner.h)
 description: The put_Item method saves changes to an existing tuning space in the collection.
+helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","put_Item method","ITuningSpaceContainer.put_Item","ITuningSpaceContainer::put_Item","ITuningSpaceContainerput_Item","mstv.ituningspacecontainer_put_item","put_Item","put_Item method [Microsoft TV Technologies]","put_Item method [Microsoft TV Technologies]","ITuningSpaceContainer interface","tuner/ITuningSpaceContainer::put_Item"]
 old-location: mstv\ituningspacecontainer_put_item.htm
 tech.root: mstv
 ms.assetid: 44e82ec9-ffd0-4bc9-88da-b6c135cbd98f
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_Item method, ITuningSpaceContainer.put_Item, ITuningSpaceContainer::put_Item, ITuningSpaceContainerput_Item, mstv.ituningspacecontainer_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_Item
-f1_keywords:
-- tuner/ITuningSpaceContainer.put_Item
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- ITuningSpaceContainer.put_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITuningSpaceContainer::put_Item
+ - tuner/ITuningSpaceContainer::put_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - ITuningSpaceContainer.put_Item
 ---
 
 # ITuningSpaceContainer::put_Item
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_Item</b> method saves changes to an existing tuning space in the collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param varIndex [in]
 
 <b>VARIANT</b> that specifies the index of the tuning space.
 
-
 ### -param TuningSpace [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface of the tuning space.
-
+Pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface of the tuning space.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -119,27 +109,12 @@ Success.
 
 If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
 
-
-
-
 ## -remarks
 
+An application can retrieve an existing tuning space from the collection, modify its properties by calling <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> methods, and then call <b>put_Item</b> to save the changes. The unique name property on the tuning space must match the tuning space at the specified index in the collection; otherwise, the method returns E_INVALIDARG.
 
-
-An application can retrieve an existing tuning space from the collection, modify its properties by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> methods, and then call <b>put_Item</b> to save the changes. The unique name property on the tuning space must match the tuning space at the specified index in the collection; otherwise, the method returns E_INVALIDARG.
-
-To add a new tuning space, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-add">ITuningSpaceContainer::Add</a> method.
-
-
-
+To add a new tuning space, use the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspacecontainer-add">ITuningSpaceContainer::Add</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>

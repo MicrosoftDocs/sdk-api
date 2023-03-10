@@ -1,16 +1,13 @@
 ---
-UID: NS:mapi.__unnamed_struct_4
+UID: NS:mapi.MapiRecipDescW
 title: MapiRecipDescW (mapi.h)
 description: A MapiRecipDescW structure contains information about a message sender or recipient.
+helpviewer_keywords: ["*lpMapiRecipDescW","MAPI_BCC","MAPI_CC","MAPI_ORIG","MAPI_TO","MapiRecipDescW","MapiRecipDescW structure","lpMapiRecipDescW","lpMapiRecipDescW structure pointer","mapi.mapirecipdescw","mapi/MapiRecipDescW","mapi/lpMapiRecipDescW"]
 old-location: mapi\mapirecipdescw.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 70050D1A-DA06-4D3B-90AF-F997E3B332EB
 ms.date: 12/05/2018
 ms.keywords: '*lpMapiRecipDescW, MAPI_BCC, MAPI_CC, MAPI_ORIG, MAPI_TO, MapiRecipDescW, MapiRecipDescW structure, lpMapiRecipDescW, lpMapiRecipDescW structure pointer, mapi.mapirecipdescw, mapi/MapiRecipDescW, mapi/lpMapiRecipDescW'
-f1_keywords:
-- mapi/MapiRecipDescW
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mapi.h
-api_name:
-- MapiRecipDescW
 targetos: Windows
 req.typenames: MapiRecipDescW, *lpMapiRecipDescW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - lpMapiRecipDescW
+ - mapi/lpMapiRecipDescW
+ - MapiRecipDescW
+ - mapi/MapiRecipDescW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mapi.h
+api_name:
+ - MapiRecipDescW
 ---
 
 # MapiRecipDescW structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 A <b>MapiRecipDescW</b> structure contains information about a message sender or recipient.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulReserved
 
 Reserved; must be zero.
-
 
 ### -field ulRecipClass
 
@@ -116,13 +114,10 @@ Indicates the recipient of a blind copy of the message.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpszName
 
-Pointer to the display name of the message recipient or sender. 
-
+Pointer to the display name of the message recipient or sender.
 
 ### -field lpszAddress
 
@@ -132,11 +127,9 @@ Generally, the messaging system provides such addresses for inbound messages. Fo
 
 The format of the address is <i>address type</i>:<i>email address</i>. Two examples of valid addresses are FAX:206-555-1212 and SMTP:M@X.COM.
 
-
 ### -field ulEIDSize
 
 The size, in bytes, of the entry identifier pointed to by the <b>lpEntryID</b> member.
-
 
 ### -field lpEntryID
 
@@ -144,22 +137,15 @@ Pointer to an entry identifier that cannot be deciphered by client applications 
 
 These entry identifiers have meaning only for the service provider. The messaging system uses this member to return valid entry identifiers for all recipients or senders listed in the address book.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
 

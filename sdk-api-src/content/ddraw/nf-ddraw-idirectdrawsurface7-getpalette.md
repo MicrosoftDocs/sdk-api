@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDrawSurface7.GetPalette
 title: IDirectDrawSurface7::GetPalette (ddraw.h)
 description: Retrieves the DirectDrawPalette object that is associated with this surface, and increments the reference count of the returned palette.
+helpviewer_keywords: ["GetPalette","GetPalette method [DirectDraw]","GetPalette method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetPalette method","IDirectDrawSurface7.GetPalette","IDirectDrawSurface7::GetPalette","ddraw/IDirectDrawSurface7::GetPalette","directdraw.idirectdrawsurface7_getpalette"]
 old-location: directdraw\idirectdrawsurface7_getpalette.htm
 tech.root: directdraw
 ms.assetid: 35a667aa-9a69-4c71-9e26-b42359815a0d
@@ -43,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::GetPalette
-
-
 ## -description
-
 
 Retrieves the DirectDrawPalette object that is associated with this surface, and increments the reference count of the returned palette.
 
-
 ## -parameters
 
+### -param unnamedParam1 [out]
 
-
-
-
-
-#### - lplpDDPalette [out]
-
-A pointer to a variable to receive a pointer to the palette object's <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface.
-
+A pointer to a variable to receive a pointer to the palette object's <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface.
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -84,24 +70,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
-
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetPalette</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

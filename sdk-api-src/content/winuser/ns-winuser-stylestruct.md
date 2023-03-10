@@ -2,15 +2,12 @@
 UID: NS:winuser.tagSTYLESTRUCT
 title: STYLESTRUCT (winuser.h)
 description: Contains the styles for a window.
+helpviewer_keywords: ["*LPSTYLESTRUCT","LPSTYLESTRUCT","LPSTYLESTRUCT structure pointer [Windows and Messages]","STYLESTRUCT","STYLESTRUCT structure [Windows and Messages]","_win32_STYLESTRUCT_str","_win32_stylestruct_str_cpp","winmsg.stylestruct","winui._win32_stylestruct_str","winuser/LPSTYLESTRUCT","winuser/STYLESTRUCT"]
 old-location: winmsg\stylestruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\stylestruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSTYLESTRUCT, LPSTYLESTRUCT, LPSTYLESTRUCT structure pointer [Windows and Messages], STYLESTRUCT, STYLESTRUCT structure [Windows and Messages], _win32_STYLESTRUCT_str, _win32_stylestruct_str_cpp, winmsg.stylestruct, winui._win32_stylestruct_str, winuser/LPSTYLESTRUCT, winuser/STYLESTRUCT'
-f1_keywords:
-- winuser/STYLESTRUCT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- STYLESTRUCT
 targetos: Windows
 req.typenames: STYLESTRUCT, *LPSTYLESTRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSTYLESTRUCT
+ - winuser/tagSTYLESTRUCT
+ - LPSTYLESTRUCT
+ - winuser/LPSTYLESTRUCT
+ - STYLESTRUCT
+ - winuser/STYLESTRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - STYLESTRUCT
 ---
 
 # STYLESTRUCT structure
@@ -48,32 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the styles for a window. 
-
+Contains the styles for a window.
 
 ## -struct-fields
-
-
-
 
 ### -field styleOld
 
 Type: <b>DWORD</b>
 
-The previous styles for a window. For more information, see the Remarks. 
-
+The previous styles for a window. For more information, see the Remarks.
 
 ### -field styleNew
 
 Type: <b>DWORD</b>
 
-The new styles for a window. For more information, see the Remarks. 
-
+The new styles for a window. For more information, see the Remarks.
 
 ## -remarks
-
-
 
 The styles in 
 				<b>styleOld</b> and 
@@ -84,13 +81,7 @@ The
 				<b>styleOld</b> and 
 				<b>styleNew</b> members indicate the styles through their bit pattern. Note that several styles are equal to zero; to detect these styles, test for the negation of their inverse style. For example, to see if <b>WS_EX_LEFT</b> is set, you test for ~<b>WS_EX_RIGHT</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -100,16 +91,12 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-stylechanged">WM_STYLECHANGED</a>
+<a href="/windows/desktop/winmsg/wm-stylechanged">WM_STYLECHANGED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-stylechanging">WM_STYLECHANGING</a>
+<a href="/windows/desktop/winmsg/wm-stylechanging">WM_STYLECHANGING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

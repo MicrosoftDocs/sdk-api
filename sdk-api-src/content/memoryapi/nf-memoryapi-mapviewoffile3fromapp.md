@@ -1,16 +1,13 @@
 ---
 UID: NF:memoryapi.MapViewOfFile3FromApp
 title: MapViewOfFile3FromApp function (memoryapi.h)
-description: Maps a view of a file mapping into the address space of a calling Windows Store app.
+description: Maps a view of a file mapping into the address space of a calling Windows Store app. (MapViewOfFile3FromApp)
+helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MapViewOfFile3FromApp","MapViewOfFile3FromApp function","base.mapviewoffile3fromapp","memoryapi/MapViewOfFile3FromApp"]
 old-location: base\mapviewoffile3fromapp.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 5E10E1B2-69D9-4F68-8F06-D411CF7FE2ED
 ms.date: 12/05/2018
 ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3FromApp, MapViewOfFile3FromApp function, base.mapviewoffile3fromapp, memoryapi/MapViewOfFile3FromApp
-f1_keywords:
-- memoryapi/MapViewOfFile3FromApp
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -25,30 +22,34 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: WindowsApp.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- onecore.lib
-api_name:
-- MapViewOfFile3FromApp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapViewOfFile3FromApp
+ - memoryapi/MapViewOfFile3FromApp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - onecore.lib
+api_name:
+ - MapViewOfFile3FromApp
 ---
 
 # MapViewOfFile3FromApp function
 
 
 ## -description
-
 
 Maps a view of a file mapping into the address space of a calling 
     Windows Store app.
@@ -57,23 +58,17 @@ Using this function, you can: for new allocations, specify a range of virtual ad
 
 To specify the NUMA node, see the <i>ExtendedParameters</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param FileMapping [in]
 
 A <b>HANDLE</b> to a section that is to be mapped
                         into the address space of the specified process.
 
-
 ### -param Process [in]
 
 A <b>HANDLE</b> to a process into which the section
                     will be mapped.
-
 
 ### -param BaseAddress [in, optional]
 
@@ -82,12 +77,10 @@ The desired base address of the view.
                   If this parameter is <b>NULL</b>, the system picks the base
                   address.
 
-
 ### -param Offset [in]
 
 The offset from the beginning of the section.
              This must be 64k aligned.
-
 
 ### -param ViewSize [in]
 
@@ -95,7 +88,6 @@ The number of bytes to map. A value of zero (0)
                specifies that the entire section is to be mapped.
 
 The size must always be a multiple of the page size.
-
 
 ### -param AllocationType [in]
 
@@ -126,7 +118,7 @@ Maps a reserved view.
 <td width="60%">
  Replaces a placeholder with a mapped view. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>ViewSize</i> must exactly match those of the placeholder.
 
-After you replace a placeholder with a mapped view, to free that mapped view back to a placeholder, see the <i>UnmapFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile2">UnmapViewOfFile2</a>.
+After you replace a placeholder with a mapped view, to free that mapped view back to a placeholder, see the <i>UnmapFlags</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile2">UnmapViewOfFile2</a>.
 
 A placeholder is a type of reserved memory region.
 
@@ -139,13 +131,11 @@ A placeholder is a type of reserved memory region.
 </dl>
 </td>
 <td width="60%">
-Maps a large page view. See <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>.
+Maps a large page view. See <a href="/windows/desktop/Memory/large-page-support">large page support</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PageProtection [in]
 
@@ -155,30 +145,20 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
        <i>PageProtection</i> parameter has no effect, and should be set to any valid value such as 
        <b>PAGE_READONLY</b>.
 
-
 ### -param ExtendedParameters [in, out, optional]
 
-An optional pointer to one or more  extended parameters of type <a href="https://msdn.microsoft.com/en-us/library/Mt832847(v=VS.85).aspx">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
-
+An optional pointer to one or more extended parameters of type <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
 ### -param ParameterCount [in]
 
 The number of extended parameters pointed to by <i>ExtendedParameters</i>.
 
-
 ## -returns
 
-
-
 Returns the base address of the mapped view, if successful. Otherwise, returns <b>NULL</b> and extended error status is available
-           using <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+           using <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This API helps support high-performance games, and server applications, which have particular requirements around managing their virtual address space. For example, mapping memory on top of a previously reserved region; this is useful for implementing an automatically wrapping ring buffer. And allocating memory with specific alignment; for example, to enable your application to commit large/huge page-mapped regions on demand.
 
@@ -202,51 +182,42 @@ For a code example, see Scenario 1 in <a href="https://msdn.microsoft.com/en-us/
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
+<a href="/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="../memoryapi/nf-memoryapi-mapviewoffile3.md">MapViewOfFile3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt832844(v=VS.85).aspx">MapViewOfFile3</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a>
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>

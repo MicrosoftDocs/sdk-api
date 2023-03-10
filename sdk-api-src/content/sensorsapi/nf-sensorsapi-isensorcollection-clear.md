@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorCollection.Clear
 title: ISensorCollection::Clear (sensorsapi.h)
 description: Empties the sensor collection.
+helpviewer_keywords: ["Clear","Clear method","Clear method","ISensorCollection interface","ISensorCollection interface","Clear method","ISensorCollection.Clear","ISensorCollection::Clear","sensorsapi/ISensorCollection::Clear","winsensors_com_ref.isensorcollection_clear"]
 old-location: winsensors_com_ref\isensorcollection_clear.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 03b2345b-1d06-449e-9ecf-ecce9aa60c08
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISensorCollection interface,Clear method, ISensorCollection.Clear, ISensorCollection::Clear, sensorsapi/ISensorCollection::Clear, winsensors_com_ref.isensorcollection_clear
-f1_keywords:
-- sensorsapi/ISensorCollection.Clear
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorCollection::Clear
+ - sensorsapi/ISensorCollection::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorCollection.Clear
 ---
 
 # ISensorCollection::Clear
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Empties the sensor collection.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -82,27 +75,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method calls <b>Release</b> on all sensor interface pointers in the collection and frees any memory used by the collection.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
 title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass (mfidl.h)
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified branch of the current topology.
+helpviewer_keywords: ["GetTopologyWorkQueueMMCSSClass","GetTopologyWorkQueueMMCSSClass method [Media Foundation]","GetTopologyWorkQueueMMCSSClass method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","GetTopologyWorkQueueMMCSSClass method","IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass","IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass","e815bde7-e17e-4616-8a3f-688f357e8009","mf.imfworkqueueservices_gettopologyworkqueuemmcssclass","mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass"]
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcssclass.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e815bde7-e17e-4616-8a3f-688f357e8009
 ms.date: 12/05/2018
 ms.keywords: GetTopologyWorkQueueMMCSSClass, GetTopologyWorkQueueMMCSSClass method [Media Foundation], GetTopologyWorkQueueMMCSSClass method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],GetTopologyWorkQueueMMCSSClass method, IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass, IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass, e815bde7-e17e-4616-8a3f-688f357e8009, mf.imfworkqueueservices_gettopologyworkqueuemmcssclass, mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
-f1_keywords:
-- mfidl/IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
+ - mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
 ---
 
 # IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified branch of the current topology.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwTopologyWorkQueueId [in]
 
-Identifies the work queue assigned to this topology branch. The application defines this value by setting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-workqueue-id-attribute">MF_TOPONODE_WORKQUEUE_ID</a> attribute on the source node for the branch.
-
+Identifies the work queue assigned to this topology branch. The application defines this value by setting the <a href="/windows/desktop/medfound/mf-toponode-workqueue-id-attribute">MF_TOPONODE_WORKQUEUE_ID</a> attribute on the source node for the branch.
 
 ### -param pwszClass [out]
 
 Pointer to a buffer that receives the name of the MMCSS class. This parameter can be <b>NULL</b>.
 
-
 ### -param pcchClass [in, out]
 
 On input, specifies the size of the <i>pwszClass</i> buffer, in characters. On output, receives the required size of the buffer, in characters. The size includes the terminating null character.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,18 +110,7 @@ The <i>pwszClass</i> buffer is too small to receive the class name.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>

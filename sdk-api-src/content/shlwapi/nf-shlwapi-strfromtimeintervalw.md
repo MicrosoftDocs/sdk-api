@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.StrFromTimeIntervalW
 title: StrFromTimeIntervalW function (shlwapi.h)
-description: Converts a time interval, specified in milliseconds, to a string.
+description: Converts a time interval, specified in milliseconds, to a string. (Unicode)
+helpviewer_keywords: ["StrFromTimeInterval", "StrFromTimeInterval function [Windows Shell]", "StrFromTimeIntervalW", "_win32_StrFromTimeInterval", "shell.StrFromTimeInterval", "shlwapi/StrFromTimeInterval", "shlwapi/StrFromTimeIntervalW"]
 old-location: shell\StrFromTimeInterval.htm
 tech.root: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
 ms.date: 12/05/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
-f1_keywords:
-- shlwapi/StrFromTimeInterval
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- StrFromTimeInterval
-- StrFromTimeIntervalA
-- StrFromTimeIntervalW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StrFromTimeIntervalW
+ - shlwapi/StrFromTimeIntervalW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - StrFromTimeInterval
+ - StrFromTimeIntervalA
+ - StrFromTimeIntervalW
 ---
 
 # StrFromTimeIntervalW function
@@ -51,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a time interval, specified in milliseconds, to a string.
 
-
 ## -parameters
-
-
-
 
 ### -param pszOut [out]
 
@@ -66,20 +63,17 @@ Type: <b>PTSTR</b>
 
 A pointer to a buffer that, when this function returns successfully, receives the converted number.
 
-
 ### -param cchMax
 
 Type: <b>UINT</b>
 
 The size of <i>pszOut</i>, in characters. If <i>cchMax</i> is set to zero, <b>StrFromTimeInterval</b> will return the minimum size of the character buffer needed to hold the converted string. In this case, <i>pszOut</i> will not contain the converted string.
 
-
 ### -param dwTimeMS
 
 Type: <b>DWORD</b>
 
 The time interval, in milliseconds.
-
 
 ### -param digits
 
@@ -127,25 +121,14 @@ The maximum number of significant digits to be represented in <i>pszOut</i>. Som
 <td>1 min</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
 Returns the number of characters in <i>pszOut</i>, excluding the terminating <b>NULL</b> character.
 
-
-
-
 ## -remarks
-
-
 
 The time value returned in <i>pszOut</i> will always be in the form <i>hh</i> hours <i>mm</i> minutes <i>ss</i> seconds. Times that exceed twenty four hours are not converted to days or months. Fractions of seconds are ignored.
 
@@ -206,4 +189,8 @@ The contents of the TimeString Buffer  1 min
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines StrFromTimeInterval as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

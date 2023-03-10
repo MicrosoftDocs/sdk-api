@@ -2,15 +2,12 @@
 UID: NF:netlistmgr.INetworkListManager.SetSimulatedProfileInfo
 title: INetworkListManager::SetSimulatedProfileInfo (netlistmgr.h)
 description: The SetSimulatedProfileInfo method applies a specific set of connection profile values to the internet connection profile in support of the simulation of specific metered internet connection conditions.
+helpviewer_keywords: ["INetworkListManager interface [Network Awareness]","SetSimulatedProfileInfo method","INetworkListManager.SetSimulatedProfileInfo","INetworkListManager::SetSimulatedProfileInfo","SetSimulatedProfileInfo","SetSimulatedProfileInfo method [Network Awareness]","SetSimulatedProfileInfo method [Network Awareness]","INetworkListManager interface","netlistmgr/INetworkListManager::SetSimulatedProfileInfo","nla.inetworklistmanager_setsimulatedprofileinfo"]
 old-location: nla\inetworklistmanager_setsimulatedprofileinfo.htm
 tech.root: nla
 ms.assetid: 168501A6-F8B2-4635-97BB-538994074D2C
 ms.date: 12/05/2018
 ms.keywords: INetworkListManager interface [Network Awareness],SetSimulatedProfileInfo method, INetworkListManager.SetSimulatedProfileInfo, INetworkListManager::SetSimulatedProfileInfo, SetSimulatedProfileInfo, SetSimulatedProfileInfo method [Network Awareness], SetSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::SetSimulatedProfileInfo, nla.inetworklistmanager_setsimulatedprofileinfo
-f1_keywords:
-- netlistmgr/INetworkListManager.SetSimulatedProfileInfo
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkListManager.SetSimulatedProfileInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkListManager::SetSimulatedProfileInfo
+ - netlistmgr/INetworkListManager::SetSimulatedProfileInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkListManager.SetSimulatedProfileInfo
 ---
 
 # INetworkListManager::SetSimulatedProfileInfo
@@ -48,50 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetSimulatedProfileInfo</b> method applies a specific set of connection profile values to the internet connection profile in support of the simulation of specific metered internet connection conditions.
 
-The simulation only applies in an RDP Child Session and does not affect the primary user session.  The simulated internet connection profile is returned via the Windows Runtime API <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>.  
-
+The simulation only applies in an RDP Child Session and does not affect the primary user session.  The simulated internet connection profile is returned via the Windows Runtime API <a href="/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>.
 
 ## -parameters
 
-
-
-
 ### -param pSimulatedInfo
 
-Specific connection profile values to simulate on the current internet connection profile  when calling <a href="https://docs.microsoft.com/en-us/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a> from an RDP Child Session
-
+Specific connection profile values to simulate on the current internet connection profile  when calling <a href="/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a> from an RDP Child Session
 
 ## -returns
 
-
-
 Returns S_OK on success.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/TermServ/child-sessions">Child Sessions (Windows)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/child-sessions">Child Sessions (Windows)</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-clearsimulatedprofileinfo">ClearSimulatedProfileInfo</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_simulated_profile_info">NLM_SIMULATED_PROFILE_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_simulated_profile_info">NLM_SIMULATED_PROFILE_INFO</a>

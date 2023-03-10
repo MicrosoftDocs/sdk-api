@@ -2,15 +2,12 @@
 UID: NS:winnt._TAPE_WRITE_MARKS
 title: TAPE_WRITE_MARKS (winnt.h)
 description: Describes the type and number of tapemarks to write.
+helpviewer_keywords: ["*PTAPE_WRITE_MARKS","PTAPE_WRITE_MARKS","PTAPE_WRITE_MARKS structure pointer [Backup]","TAPE_FILEMARKS","TAPE_LONG_FILEMARKS","TAPE_SETMARKS","TAPE_SHORT_FILEMARKS","TAPE_WRITE_MARKS","TAPE_WRITE_MARKS structure [Backup]","_TAPE_WRITE_MARKS","_win32_tape_write_marks_str","backup.tape_write_marks_str","winnt/PTAPE_WRITE_MARKS","winnt/TAPE_WRITE_MARKS"]
 old-location: backup\tape_write_marks_str.htm
 tech.root: Backup
 ms.assetid: fd2f2a69-7683-430a-a60b-0fc70c1ab60f
 ms.date: 12/05/2018
 ms.keywords: '*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Backup], TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Backup], _TAPE_WRITE_MARKS, _win32_tape_write_marks_str, backup.tape_write_marks_str, winnt/PTAPE_WRITE_MARKS, winnt/TAPE_WRITE_MARKS'
-f1_keywords:
-- winnt/TAPE_WRITE_MARKS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TAPE_WRITE_MARKS
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TAPE_WRITE_MARKS
+ - winnt/_TAPE_WRITE_MARKS
+ - PTAPE_WRITE_MARKS
+ - winnt/PTAPE_WRITE_MARKS
+ - TAPE_WRITE_MARKS
+ - winnt/TAPE_WRITE_MARKS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TAPE_WRITE_MARKS
 ---
 
 # TAPE_WRITE_MARKS structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TAPE_WRITE_MARKS</b> structure describes the type and number of tapemarks to write.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
@@ -114,13 +115,10 @@ Writes short filemarks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Count
 
 Number of tapemarks to write.
-
 
 ### -field Immediate
 

@@ -2,15 +2,12 @@
 UID: NF:unknwn.IUnknown.Release
 title: IUnknown::Release
 description: Decrements the reference count for an interface on a COM object.
+helpviewer_keywords: ["IUnknown interface [COM]","Release method","IUnknown.Release","IUnknown::Release","Release","Release method [COM]","Release method [COM]","IUnknown interface","_com_iunknown_release","com.iunknown_release","unknwn/IUnknown::Release"]
 old-location: com\iunknown_release.htm
 tech.root: com
 ms.assetid: 4b494c6f-f0ee-4c35-ae45-ed956f40dc7a
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],Release method, IUnknown.Release, IUnknown::Release, Release, Release method [COM], Release method [COM],IUnknown interface, _com_iunknown_release, com.iunknown_release, unknwn/IUnknown::Release
-f1_keywords:
-- unknwn/IUnknown.Release
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Unknwn.h
-api_name:
-- IUnknown.Release
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUnknown::Release
+ - unknwn/IUnknown::Release
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Unknwn.h
+api_name:
+ - IUnknown.Release
 ---
 
 ## -description
 
 Decrements the reference count for an interface on a COM object.
 
-## -parameters
+
 
 ## -returns
 
@@ -66,5 +68,4 @@ Call this method when you no longer need to use an interface pointer. If you are
 ## -see-also
 
 * [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown)
-
 

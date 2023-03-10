@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDrawSurface7.AddOverlayDirtyRect
 title: IDirectDrawSurface7::AddOverlayDirtyRect (ddraw.h)
 description: The IDirectDrawSurface7::AddOverlayDirtyRect method is not currently implemented.
+helpviewer_keywords: ["AddOverlayDirtyRect","AddOverlayDirtyRect method [DirectDraw]","AddOverlayDirtyRect method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","AddOverlayDirtyRect method","IDirectDrawSurface7.AddOverlayDirtyRect","IDirectDrawSurface7::AddOverlayDirtyRect","ddraw/IDirectDrawSurface7::AddOverlayDirtyRect","directdraw.idirectdrawsurface7_addoverlaydirtyrect"]
 old-location: directdraw\idirectdrawsurface7_addoverlaydirtyrect.htm
 tech.root: directdraw
 ms.assetid: 4ddd02ff-9e7f-4962-8954-0032f23959cd
@@ -43,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::AddOverlayDirtyRect
-
-
 ## -description
-
 
 The <b>IDirectDrawSurface7::AddOverlayDirtyRect</b> method is not currently implemented.
 
-
 ## -parameters
 
-
-
-
-
-
-#### - lpRect [in]
+### -param unnamedParam1 [in]
 
 A pointer to a <b>RECT</b> structure for the rectangle to update.
 
-
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -81,24 +67,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
-
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>AddOverlayDirtyRect</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

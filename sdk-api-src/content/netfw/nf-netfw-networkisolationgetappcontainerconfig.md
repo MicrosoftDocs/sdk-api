@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.NetworkIsolationGetAppContainerConfig
 title: NetworkIsolationGetAppContainerConfig function (netfw.h)
-description: Is used to retrieve configuration information about one or more app containers.
+description: The NetworkIsolationGetAppContainerConfig function is used to retrieve configuration information about one or more app containers.
+helpviewer_keywords: ["NetworkIsolationGetAppContainerConfig","NetworkIsolationGetAppContainerConfig function [ICS/ICF]","ics.networkisolationgetappcontainerconfig","networkisolation/NetworkIsolationGetAppContainerConfig"]
 old-location: ics\networkisolationgetappcontainerconfig.htm
 tech.root: ics
 ms.assetid: 5ddb9dde-c989-4235-9784-af3168b7a151
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: NetworkIsolationGetAppContainerConfig, NetworkIsolationGetAppContainerConfig function [ICS/ICF], ics.networkisolationgetappcontainerconfig, networkisolation/NetworkIsolationGetAppContainerConfig
-f1_keywords:
-- netfw/NetworkIsolationGetAppContainerConfig
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: Firewallapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- firewallapi.dll
-- API-MS-Win-Net-Isolation-l1-1-0.dll
-- API-MS-Win-Net-Isolation-l1-1-1.dll
-- wfapihost.dll
-api_name:
-- NetworkIsolationGetAppContainerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetworkIsolationGetAppContainerConfig
+ - netfw/NetworkIsolationGetAppContainerConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - firewallapi.dll
+ - API-MS-Win-Net-Isolation-l1-1-0.dll
+ - API-MS-Win-Net-Isolation-l1-1-1.dll
+ - wfapihost.dll
+api_name:
+ - NetworkIsolationGetAppContainerConfig
 ---
 
 # NetworkIsolationGetAppContainerConfig function
@@ -51,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NetworkIsolationGetAppContainerConfig</b> function is used to retrieve configuration information about one or more app containers.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwNumPublicAppCs [out]
 
@@ -66,28 +63,19 @@ Type: <b>DWORD*</b>
 
 The number of app containers in the <b>appContainerSids</b> member.
 
-
 ### -param appContainerSids [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">PSID_AND_ATTRIBUTES</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">PSID_AND_ATTRIBUTES</a>*</b>
 
 The security identifiers (SIDs) of app containers that are allowed to send loopback traffic. Used for debugging purposes.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
-Returns ERROR_SUCCESS if successful, or an error value otherwise. 
-
-
-
+Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 ## -remarks
-
-
 
 Note that it is the calling program's responsibility to free the memory associated with the PSID_AND_ATTRIBUTES structure. The following code sample shows how to call this function. The FreeAppContainerConfig function shows how to free all of the associated memory.
 
@@ -171,7 +159,3 @@ Cleanup:
 }
 
 ```
-
-
-
-

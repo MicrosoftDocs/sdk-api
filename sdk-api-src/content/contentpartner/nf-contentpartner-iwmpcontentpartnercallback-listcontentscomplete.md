@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentPartnerCallback.ListContentsComplete
 title: IWMPContentPartnerCallback::ListContentsComplete (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","ListContentsComplete method","IWMPContentPartnerCallback.ListContentsComplete","IWMPContentPartnerCallback::ListContentsComplete","IWMPContentPartnerCallbackListContentsComplete","ListContentsComplete","ListContentsComplete method [Windows Media Player]","ListContentsComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::ListContentsComplete","wmp.iwmpcontentpartnercallback_listcontentscomplete"]
 old-location: wmp\iwmpcontentpartnercallback_listcontentscomplete.htm
 tech.root: WMP
 ms.assetid: e46a3378-a8e3-40c1-9cca-b6444286b3b5
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ListContentsComplete method, IWMPContentPartnerCallback.ListContentsComplete, IWMPContentPartnerCallback::ListContentsComplete, IWMPContentPartnerCallbackListContentsComplete, ListContentsComplete, ListContentsComplete method [Windows Media Player], ListContentsComplete method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::ListContentsComplete, wmp.iwmpcontentpartnercallback_listcontentscomplete
-f1_keywords:
-- contentpartner/IWMPContentPartnerCallback.ListContentsComplete
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartnerCallback.ListContentsComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartnerCallback::ListContentsComplete
+ - contentpartner/IWMPContentPartnerCallback::ListContentsComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartnerCallback.ListContentsComplete
 ---
 
 # IWMPContentPartnerCallback::ListContentsComplete
@@ -48,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>ListContentsComplete</b> method notifies Windows Media Player that the content partner plug-in is finished adding content to a list.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwListCookie [in]
 
-A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>.
-
+A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>.
 
 ### -param hrSuccess [in]
 
 An <b>HRESULT</b> that indicates whether the overall transfer of list contents succeeded. Any success code indicates that the transfer succeeded; any error code indicates that the transfer failed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -95,27 +85,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Windows Media Player starts retrieving list contents by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>. This starts an asynchronous operation in which the online store plug-in must call <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents">IWMPContentPartnerCallback::AddListContents</a> one or more times to give the Player the requested data. The plug-in must finally call <b>ListContentsComplete</b> to notify the Player that all the data has been provided.
-
-
-
+Windows Media Player starts retrieving list contents by calling <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>. This starts an asynchronous operation in which the online store plug-in must call <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents">IWMPContentPartnerCallback::AddListContents</a> one or more times to give the Player the requested data. The plug-in must finally call <b>ListContentsComplete</b> to notify the Player that all the data has been provided.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>

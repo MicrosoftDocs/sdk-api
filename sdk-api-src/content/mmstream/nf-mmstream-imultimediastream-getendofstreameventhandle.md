@@ -2,15 +2,12 @@
 UID: NF:mmstream.IMultiMediaStream.GetEndOfStreamEventHandle
 title: IMultiMediaStream::GetEndOfStreamEventHandle (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetEndOfStreamEventHandle method retrieves an event that is signaled when the multimedia stream completes playback.
+helpviewer_keywords: ["GetEndOfStreamEventHandle","GetEndOfStreamEventHandle method [DirectShow]","GetEndOfStreamEventHandle method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetEndOfStreamEventHandle method","IMultiMediaStream.GetEndOfStreamEventHandle","IMultiMediaStream::GetEndOfStreamEventHandle","IMultiMediaStreamGetEndOfStreamEventHandle","dshow.imultimediastream_getendofstreameventhandle","mmstream/IMultiMediaStream::GetEndOfStreamEventHandle"]
 old-location: dshow\imultimediastream_getendofstreameventhandle.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e4f59f8-c56e-4768-9047-2793515edfeb
 ms.date: 12/05/2018
 ms.keywords: GetEndOfStreamEventHandle, GetEndOfStreamEventHandle method [DirectShow], GetEndOfStreamEventHandle method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetEndOfStreamEventHandle method, IMultiMediaStream.GetEndOfStreamEventHandle, IMultiMediaStream::GetEndOfStreamEventHandle, IMultiMediaStreamGetEndOfStreamEventHandle, dshow.imultimediastream_getendofstreameventhandle, mmstream/IMultiMediaStream::GetEndOfStreamEventHandle
-f1_keywords:
-- mmstream/IMultiMediaStream.GetEndOfStreamEventHandle
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IMultiMediaStream.GetEndOfStreamEventHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiMediaStream::GetEndOfStreamEventHandle
+ - mmstream/IMultiMediaStream::GetEndOfStreamEventHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IMultiMediaStream.GetEndOfStreamEventHandle
 ---
 
 # IMultiMediaStream::GetEndOfStreamEventHandle
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>GetEndOfStreamEventHandle</code> method retrieves an event that is signaled when the multimedia stream completes playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phEOS [out]
 
 Pointer to a variable that receives a handle to the event. The event is signaled when all of the streams in the multimedia stream object complete playback.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,18 +103,7 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>

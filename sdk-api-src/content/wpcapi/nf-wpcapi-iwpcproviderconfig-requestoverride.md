@@ -2,15 +2,12 @@
 UID: NF:wpcapi.IWPCProviderConfig.RequestOverride
 title: IWPCProviderConfig::RequestOverride (wpcapi.h)
 description: Called for the current provider to enable configuration override.
+helpviewer_keywords: ["IWPCProviderConfig interface","RequestOverride method","IWPCProviderConfig.RequestOverride","IWPCProviderConfig::RequestOverride","RequestOverride","RequestOverride method","RequestOverride method","IWPCProviderConfig interface","WPCFLAG_APPS_RESTRICTED","WPCFLAG_GAMES_BLOCKED","WPCFLAG_HOURS_RESTRICTED","WPCFLAG_LOGGING_REQUIRED","WPCFLAG_NO_RESTRICTION","WPCFLAG_WEB_FILTERED","parcon.iwpcproviderconfig_requestoverride","wpcapi/IWPCProviderConfig::RequestOverride"]
 old-location: parcon\iwpcproviderconfig_requestoverride.htm
 tech.root: parcon
 ms.assetid: 66A75879-9A95-472A-9529-61A57E37B9A0
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderConfig interface,RequestOverride method, IWPCProviderConfig.RequestOverride, IWPCProviderConfig::RequestOverride, RequestOverride, RequestOverride method, RequestOverride method,IWPCProviderConfig interface, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcproviderconfig_requestoverride, wpcapi/IWPCProviderConfig::RequestOverride
-f1_keywords:
-- wpcapi/IWPCProviderConfig.RequestOverride
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCProviderConfig.RequestOverride
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCProviderConfig::RequestOverride
+ - wpcapi/IWPCProviderConfig::RequestOverride
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCProviderConfig.RequestOverride
 ---
 
 # IWPCProviderConfig::RequestOverride
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called for the current provider to enable configuration override.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 A handle to the parent window.
 
-
 ### -param bstrPath [in]
 
 Pointer to a string that contains the path.
-
 
 ### -param dwFlags [in]
 
@@ -143,27 +138,13 @@ Applications are restricted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, the method returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>

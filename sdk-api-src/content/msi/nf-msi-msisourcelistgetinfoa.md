@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiSourceListGetInfoA
 title: MsiSourceListGetInfoA function (msi.h)
-description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context.
+description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context. (ANSI)
+helpviewer_keywords: ["INSTALLPROPERTY_DISKPROMPT", "INSTALLPROPERTY_LASTUSEDSOURCE", "INSTALLPROPERTY_LASTUSEDTYPE", "INSTALLPROPERTY_MEDIAPACKAGEPATH", "INSTALLPROPERTY_PACKAGENAME", "MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiSourceListGetInfoA", "NULL", "User SID", "msi/MsiSourceListGetInfoA"]
 old-location: setup\msisourcelistgetinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 24188c7f-d9b5-4907-861a-9555c34cbd2d
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_DISKPROMPT, INSTALLPROPERTY_LASTUSEDSOURCE, INSTALLPROPERTY_LASTUSEDTYPE, INSTALLPROPERTY_MEDIAPACKAGEPATH, INSTALLPROPERTY_PACKAGENAME, MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListGetInfo, MsiSourceListGetInfo function, MsiSourceListGetInfoA, MsiSourceListGetInfoW, NULL, User SID, msi/MsiSourceListGetInfo, msi/MsiSourceListGetInfoA, msi/MsiSourceListGetInfoW, setup.msisourcelistgetinfo
-f1_keywords:
-- msi/MsiSourceListGetInfo
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSourceListGetInfo
-- MsiSourceListGetInfoA
-- MsiSourceListGetInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListGetInfoA
+ - msi/MsiSourceListGetInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSourceListGetInfo
+ - MsiSourceListGetInfoA
+ - MsiSourceListGetInfoW
 ---
 
 # MsiSourceListGetInfoA function
@@ -50,21 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiSourceListGetInfo</b> function retrieves information about the source list for a product or patch in a specific context.
-			
-		
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCodeOrPatchCode [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
-
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
 
 ### -param szUserSid [in, optional]
 
@@ -143,8 +137,6 @@ The product or patch instance exists in the per-machine context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -180,8 +172,6 @@ The <i>dwOptions</i> value specifies the meaning of <i>szProductCodeOrPatchCode<
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szProperty [in]
 
@@ -248,8 +238,6 @@ The name of the Windows Installer package or patch package on the source.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szValue [out, optional]
 
@@ -261,17 +249,13 @@ If the <i>szValue</i> is set to <b>NULL</b> and <i>pcchValue</i> is set to a val
 
 If <i>szValue</i> and <i>pcchValue</i> are both set to <b>NULL</b>, the function returns ERROR_SUCCESS if the value exists, without  retrieving the value.
 
-
 ### -param pcchValue [in, out, optional]
 
 A pointer to a variable that specifies the number of <b>TCHAR</b> in the <i>szValue</i> buffer. When the function returns, this parameter is set to the size of the requested value whether or not the function copies the value into the specified buffer. The size is returned as the number of <b>TCHAR</b> in the requested value, not including the terminating null character.
 
 This parameter can be set to <b>NULL</b> only if <i>szValue</i> is also <b>NULL</b>, otherwise the function returns ERROR_INVALID_PARAMETER.
 
-
 ## -returns
-
-
 
 The <b>MsiSourceListGetInfo</b> function returns the following values.
 					
@@ -381,37 +365,28 @@ An unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context.
 
-Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
+Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see <a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListGetInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>

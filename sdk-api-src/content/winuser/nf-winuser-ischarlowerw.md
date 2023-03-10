@@ -3,10 +3,6 @@ UID: NF:winuser.IsCharLowerW
 title: IsCharLowerW
 ms.date: 4/26/2019
 ms.keywords: IsCharLowerW
-f1_keywords:
-- IsCharLowerW
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -21,30 +17,35 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - IsCharLowerW
+ - winuser/IsCharLowerW
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- User32.dll
-- API-MS-Win-Core-Stringansi-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-user32-l1-1-0.dll
-- API-MS-Win-DownLevel-user32-l1-1-1.dll
-- mfc120u.dll mfc140u.dll
+ - User32.dll
+ - API-MS-Win-Core-Stringansi-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-user32-l1-1-0.dll
+ - API-MS-Win-DownLevel-user32-l1-1-1.dll
+ - mfc120u.dll mfc140u.dll
 api_name:
-- IsCharLowerW
+ - IsCharLowerW
 ---
 
 ## -description
 
-Determines whether a character is lowercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel. 
+Determines whether a character is lowercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 
 ## -parameters
 
@@ -60,12 +61,12 @@ Type: <b>BOOL</b>
 
 If the character is lowercase, the return value is nonzero.
 
-If the character is not lowercase, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the character is not lowercase, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
+
+> [!NOTE]
+> The winuser.h header defines IsCharLower as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -73,7 +74,7 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ischaruppera">IsCharUpper</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-ischaruppera">IsCharUpper</a>
 
 
 
@@ -81,6 +82,4 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
- 
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

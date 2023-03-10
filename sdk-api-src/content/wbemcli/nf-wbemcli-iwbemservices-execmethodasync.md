@@ -2,15 +2,12 @@
 UID: NF:wbemcli.IWbemServices.ExecMethodAsync
 title: IWbemServices::ExecMethodAsync (wbemcli.h)
 description: Asynchronously executes a method exported by a CIM object.
+helpviewer_keywords: ["ExecMethodAsync","ExecMethodAsync method [Windows Management Instrumentation]","ExecMethodAsync method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","ExecMethodAsync method","IWbemServices.ExecMethodAsync","IWbemServices::ExecMethodAsync","_hmm_iwbemservices_execmethodasync","wbemcli/IWbemServices::ExecMethodAsync","wmi.iwbemservices_execmethodasync"]
 old-location: wmi\iwbemservices_execmethodasync.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 61966c03-80dc-4556-b2fc-97e879cf458c
 ms.date: 12/05/2018
 ms.keywords: ExecMethodAsync, ExecMethodAsync method [Windows Management Instrumentation], ExecMethodAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecMethodAsync method, IWbemServices.ExecMethodAsync, IWbemServices::ExecMethodAsync, _hmm_iwbemservices_execmethodasync, wbemcli/IWbemServices::ExecMethodAsync, wmi.iwbemservices_execmethodasync
-f1_keywords:
-- wbemcli/IWbemServices.ExecMethodAsync
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,33 +25,38 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices.ExecMethodAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices::ExecMethodAsync
+ - wbemcli/IWbemServices::ExecMethodAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices.ExecMethodAsync
 ---
 
 # IWbemServices::ExecMethodAsync
@@ -62,82 +64,64 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemServices::ExecMethodAsync</b> method asynchronously executes a method exported by a CIM object. The call immediately returns to the client while the inbound parameters are forwarded to the appropriate provider where it executes. Information and status are returned to the caller through the supplied object sink.
 
 Methods are not directly implemented by Windows Management, but are exported by method providers. For any given CIM class, the available methods and their parameters are part of the documentation for the provider in question.
 
-
 ## -parameters
-
-
-
 
 ### -param strObjectPath [in]
 
 Valid <b>BSTR</b> containing the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/describing-a-class-object-path">object path</a> of the object for which the method is to be executed. You can invoke a static method using either a class name or an object path to an instance. The method provider can parse the object path parameter to determine the class and instance that contain the method definition.
-
+<a href="/windows/desktop/WmiSdk/describing-a-class-object-path">object path</a> of the object for which the method is to be executed. You can invoke a static method using either a class name or an object path to an instance. The method provider can parse the object path parameter to determine the class and instance that contain the method definition.
 
 ### -param strMethodName [in]
 
 Name of the method for the object.
 
-
 ### -param lFlags [in]
 
 <b>WBEM_FLAG_SEND_STATUS</b> registers with Windows Management a request to receive intermediate status reports through the clients implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior. Note that the <b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b> flag cannot be used here.
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior. Note that the <b>WBEM_FLAG_USE_AMENDED_QUALIFIERS</b> flag cannot be used here.
 
 ### -param pCtx [in]
 
 Typically <b>NULL</b>;  otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider executing the method. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider executing the method. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param pInParams [in]
 
 Can be <b>NULL</b> if no inbound parameters are required to execute the method. Otherwise, this points to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object that contains the properties acting as inbound parameters for the method execution. The contents of the object are method-specific, and are part of the specification for the provider in question. However, the most common object is an instance of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class. For each input parameter to the method to be called, there is one non-system property. Method providers ignore the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> qualifiers attached to each parameter in the method, which are typically used only by browsers and similar applications.
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object that contains the properties acting as inbound parameters for the method execution. The contents of the object are method-specific, and are part of the specification for the provider in question. However, the most common object is an instance of the <a href="/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class. For each input parameter to the method to be called, there is one non-system property. Method providers ignore the <a href="/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> qualifiers attached to each parameter in the method, which are typically used only by browsers and similar applications.
 
 ### -param pResponseHandler [in]
 
 Cannot be <b>NULL</b>. The object sink receives the result of the method call. The outbound parameters are sent to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a>. The most common returned object is an instance of the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class. For more information about return codes, see the Remarks section. When implementing a method provider, you should call 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a>. The most common returned object is an instance of the <a href="/windows/desktop/WmiSdk/--parameters">__Parameters</a> system class. For more information about return codes, see the Remarks section. When implementing a method provider, you should call 
 <b>Indicate</b> to return output parameter information before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> to report the final status.
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> to report the final status.
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="https://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 Other errors are reported asynchronously to the object sink supplied in the <i>pReponseHandler</i> parameter.
 
 COM-specific error codes also may be returned if network problems cause you to lose the remote connection to WMI.
 
-
-
-
 ## -remarks
-
-
 
 A single method provider can supply methods for many classes and instances. Method providers have to deal with a maximum of three return values.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> if error conditions occur.
 
-Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 <table>
 <tr>
@@ -161,8 +145,8 @@ Invoked method (optional)
 </td>
 <td>
 Dependent on the method. The return value is placed in the <b>ReturnValue</b> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__PARAMETERS</a> instance representing the out parameters and returned through a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>.
+<a href="/windows/desktop/WmiSdk/--parameters">__PARAMETERS</a> instance representing the out parameters and returned through a call to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>.
 
 </td>
 </tr>
@@ -173,8 +157,8 @@ Invoked method out parameters (optional)
 </td>
 <td>
 Dependent on the method. Out parameters are placed in non-system properties of a 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--parameters">__PARAMETERS</a> instance and returned through 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>.
+<a href="/windows/desktop/WmiSdk/--parameters">__PARAMETERS</a> instance and returned through 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a>.
 
 </td>
 </tr>
@@ -254,29 +238,18 @@ STDMETHODIMP CMyMethodProvider::ExecMethodAsync(BSTR ObjectPath,
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultobject">IWbemCallResult::GetResultObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultobject">IWbemCallResult::GetResultObject</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">IWbemServices::ExecMethodAsync</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethodasync">IWbemServices::ExecMethodAsync</a>

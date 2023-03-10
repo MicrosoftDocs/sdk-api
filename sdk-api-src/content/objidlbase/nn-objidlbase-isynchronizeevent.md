@@ -1,16 +1,13 @@
 ---
 UID: NN:objidlbase.ISynchronizeEvent
 title: ISynchronizeEvent (objidlbase.h)
-description: Assigns an event handle to a synchronization object.
+description: The ISynchronizeEvent (objidlbase.h) interface assigns an event handle to a synchronization object.
+helpviewer_keywords: ["ISynchronizeEvent","ISynchronizeEvent interface [COM]","ISynchronizeEvent interface [COM]","described","_com_isynchronizeevent","com.isynchronizeevent","objidlbase/ISynchronizeEvent"]
 old-location: com\isynchronizeevent.htm
 tech.root: com
 ms.assetid: b4721498-0455-415a-bf2f-c8c8fdf3b75c
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
-f1_keywords:
-- objidlbase/ISynchronizeEvent
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- ISynchronizeEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISynchronizeEvent
+ - objidlbase/ISynchronizeEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - ISynchronizeEvent
 ---
 
 # ISynchronizeEvent interface
@@ -48,46 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns an event handle to a synchronization object.
 
-The synchronization object can use a handle to manage its activities. For example, the <a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> use handles to identify the event they control. Thus, the logic of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-signal">ISynchronize::Signal</a> method on an event synchronization object can pass its handle to the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> function.
-
+The synchronization object can use a handle to manage its activities. For example, the <a href="/windows/desktop/Sync/wait-functions">wait functions</a> use handles to identify the event they control. Thus, the logic of the <a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-signal">ISynchronize::Signal</a> method on an event synchronization object can pass its handle to the <a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeEvent</b> interface inherits from <b>ISynchronizeHandle</b>. <b>ISynchronizeEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISynchronizeEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle">SetEventHandle</a>
-</td>
-<td align="left" width="63%">
-Assigns an event handle to a synchronization object.
-
-</td>
-</tr>
-</table> 
-
+The <b>ISynchronizeEvent</b> interface inherits from <b>ISynchronizeHandle</b>. <b>ISynchronizeEvent</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>

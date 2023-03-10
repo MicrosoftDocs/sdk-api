@@ -2,15 +2,12 @@
 UID: NF:ctffunc.ITfFnLMProcessor.Reconvert
 title: ITfFnLMProcessor::Reconvert (ctffunc.h)
 description: ITfFnLMProcessor::Reconvert method
+helpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","Reconvert method","ITfFnLMProcessor.Reconvert","ITfFnLMProcessor::Reconvert","Reconvert","Reconvert method [Text Services Framework]","Reconvert method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_reconvert_ref","ctffunc/ITfFnLMProcessor::Reconvert","tsf.itffnlmprocessor_reconvert"]
 old-location: tsf\itffnlmprocessor_reconvert.htm
 tech.root: TSF
 ms.assetid: 1580be2c-d16e-445b-83ba-c033eeb679b7
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],Reconvert method, ITfFnLMProcessor.Reconvert, ITfFnLMProcessor::Reconvert, Reconvert, Reconvert method [Text Services Framework], Reconvert method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_reconvert_ref, ctffunc/ITfFnLMProcessor::Reconvert, tsf.itffnlmprocessor_reconvert
-f1_keywords:
-- ctffunc/ITfFnLMProcessor.Reconvert
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfFnLMProcessor.Reconvert
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnLMProcessor::Reconvert
+ - ctffunc/ITfFnLMProcessor::Reconvert
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfFnLMProcessor.Reconvert
 ---
 
 # ITfFnLMProcessor::Reconvert
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Invokes the reconversion process in the language model text service for a range.
 
 ## -parameters
 
-
-
-
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to reconvert.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to reconvert.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,32 +101,16 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-reconvert">ITfFnReconversion::Reconvet</a>. When <b>ITfFnReconversion::Reconvet</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
-
-
-
+This method is identical to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-reconvert">ITfFnReconversion::Reconvert</a>. When <b>ITfFnReconversion::Reconvert</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
- 
-
- 
-

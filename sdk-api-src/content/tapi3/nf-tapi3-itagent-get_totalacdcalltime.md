@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITAgent.get_TotalACDCallTime
 title: ITAgent::get_TotalACDCallTime (tapi3.h)
-description: The get_TotalACDCallTime gets the number of seconds spent on ACD calls by this agent (across all sessions). This value includes the time spent on the phone plus wrap-up time.
+description: The get_TotalACDCallTime method (tapi3.h) gets the number of seconds spent on ACD calls by this agent (across all sessions).
+helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_TotalACDCallTime method","ITAgent.get_TotalACDCallTime","ITAgent::get_TotalACDCallTime","_tapi3_itagent_get_totalacdcalltime","get_TotalACDCallTime","get_TotalACDCallTime method [TAPI 2.2]","get_TotalACDCallTime method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_totalacdcalltime","tapi3cc/ITAgent::get_TotalACDCallTime"]
 old-location: tapi3\itagent_get_totalacdcalltime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 432e22b7-16c3-447d-bbec-59ab7713039c
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgent interface [TAPI 2.2],get_TotalACDCallTime method, ITAgent.get_TotalACDCallTime, ITAgent::get_TotalACDCallTime, _tapi3_itagent_get_totalacdcalltime, get_TotalACDCallTime, get_TotalACDCallTime method [TAPI 2.2], get_TotalACDCallTime method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_totalacdcalltime, tapi3cc/ITAgent::get_TotalACDCallTime
-f1_keywords:
-- tapi3/ITAgent.get_TotalACDCallTime
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgent.get_TotalACDCallTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgent::get_TotalACDCallTime
+ - tapi3/ITAgent::get_TotalACDCallTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgent.get_TotalACDCallTime
 ---
 
 # ITAgent::get_TotalACDCallTime
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_TotalACDCallTime</b> gets the number of seconds spent on ACD calls by this agent (across all sessions). This value includes the time spent on the phone plus wrap-up time.
 
 The measurement period over which this information is calculated is switch- and/or implementation-specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
-
-
-
 
 ### -param plCallTime [out]
 
 Total call time.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,18 +116,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>

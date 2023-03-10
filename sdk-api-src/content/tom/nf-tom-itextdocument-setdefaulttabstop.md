@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument.SetDefaultTabStop
 title: ITextDocument::SetDefaultTabStop (tom.h)
 description: Sets the default tab stop, which is used when no tab exists beyond the current display position.
+helpviewer_keywords: ["ITextDocument interface [Windows Controls]","SetDefaultTabStop method","ITextDocument.SetDefaultTabStop","ITextDocument::SetDefaultTabStop","SetDefaultTabStop","SetDefaultTabStop method [Windows Controls]","SetDefaultTabStop method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_SetDefaultTabStop","_win32_ITextDocument_SetDefaultTabStop_cpp","controls.ITextDocument_SetDefaultTabStop","controls._win32_ITextDocument_SetDefaultTabStop","tom/ITextDocument::SetDefaultTabStop"]
 old-location: controls\ITextDocument_SetDefaultTabStop.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setdefaulttabstop.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],SetDefaultTabStop method, ITextDocument.SetDefaultTabStop, ITextDocument::SetDefaultTabStop, SetDefaultTabStop, SetDefaultTabStop method [Windows Controls], SetDefaultTabStop method [Windows Controls],ITextDocument interface, _win32_ITextDocument_SetDefaultTabStop, _win32_ITextDocument_SetDefaultTabStop_cpp, controls.ITextDocument_SetDefaultTabStop, controls._win32_ITextDocument_SetDefaultTabStop, tom/ITextDocument::SetDefaultTabStop
-f1_keywords:
-- tom/ITextDocument.SetDefaultTabStop
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument.SetDefaultTabStop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument::SetDefaultTabStop
+ - tom/ITextDocument::SetDefaultTabStop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument.SetDefaultTabStop
 ---
 
 # ITextDocument::SetDefaultTabStop
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the default tab stop, which is used when no tab exists beyond the current display position. 
-
+Sets the default tab stop, which is used when no tab exists beyond the current display position.
 
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>float</b>
 
-New default tab setting, in floating-point points. Default value is 36.0 points, that is, 0.5 inches. 
-
+New default tab setting, in floating-point points. Default value is 36.0 points, that is, 0.5 inches.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -100,21 +94,14 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-addtab">AddTab</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-clearalltabs">ClearAllTabs</a>
 
 
 
@@ -122,27 +109,27 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-deletetab">DeleteTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getdefaulttabstop">GetDefaultTabStop</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-getdefaulttabstop">GetDefaultTabStop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlisttab">GetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-gettab">GetTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-gettabcount">GetTabCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -150,12 +137,8 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttab">SetListTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

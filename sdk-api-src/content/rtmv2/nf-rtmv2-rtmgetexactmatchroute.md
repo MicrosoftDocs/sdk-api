@@ -2,15 +2,12 @@
 UID: NF:rtmv2.RtmGetExactMatchRoute
 title: RtmGetExactMatchRoute function (rtmv2.h)
 description: The RtmGetExactMatchRoute function searches the routing table for a route that exactly matches the specified route.
+helpviewer_keywords: ["RTM_MATCH_FULL","RTM_MATCH_INTERFACE","RTM_MATCH_NEIGHBOUR","RTM_MATCH_NEXTHOP","RTM_MATCH_NONE","RTM_MATCH_OWNER","RTM_MATCH_PREF","RtmGetExactMatchRoute","RtmGetExactMatchRoute function [RAS]","_rtmv2ref_rtmgetexactmatchroute","rras.rtmgetexactmatchroute","rtmv2/RtmGetExactMatchRoute"]
 old-location: rras\rtmgetexactmatchroute.htm
 tech.root: RRAS
 ms.assetid: 5fc9cde7-9912-409f-85ee-c775b4d6ddc0
 ms.date: 12/05/2018
 ms.keywords: RTM_MATCH_FULL, RTM_MATCH_INTERFACE, RTM_MATCH_NEIGHBOUR, RTM_MATCH_NEXTHOP, RTM_MATCH_NONE, RTM_MATCH_OWNER, RTM_MATCH_PREF, RtmGetExactMatchRoute, RtmGetExactMatchRoute function [RAS], _rtmv2ref_rtmgetexactmatchroute, rras.rtmgetexactmatchroute, rtmv2/RtmGetExactMatchRoute
-f1_keywords:
-- rtmv2/RtmGetExactMatchRoute
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetExactMatchRoute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetExactMatchRoute
+ - rtmv2/RtmGetExactMatchRoute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetExactMatchRoute
 ---
 
 # RtmGetExactMatchRoute function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetExactMatchRoute</b> function searches the routing table for a route that exactly matches the specified route. The route to search for is indicated by a network address, subnet mask, and other route-matching criteria. If an exact match is found, the route information is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param DestAddress [in]
 
 Pointer to the destination network address.
-
 
 ### -param MatchingFlags [in]
 
@@ -151,29 +146,24 @@ Match routes that have the same preference.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param RouteInfo [in, out]
 
 On input, <i>RouteInfo</i> is a pointer an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a> structure that contains the criteria that specifies the route to find. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a> structure that contains the criteria that specifies the route to find. 
 
 
 
 
 On output, <i>RouteInfo</i> receives the route information for the route that matched the criteria.
 
-
 ### -param InterfaceIndex [in]
 
 If RTM_MATCH_INTERFACE is specified in <i>MatchingFlags</i>, <i>InterfaceIndex</i> specifies the interface on which the route must be present (that is, the route has a next hop on that interface).
 
-
 ### -param TargetViews [in]
 
 Specifies the views from which to return information. If the client specifies RTM_VIEW_MASK_ANY, destination information is returned from all views; however, no view-specific information is returned.
-
 
 ### -param RouteHandle [out]
 
@@ -186,10 +176,7 @@ On output, <i>RouteHandle</i> receives a pointer to the route handle; otherwise,
 
 If a handle does not need to be returned: On input, <i>RouteHandle</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -217,19 +204,13 @@ The specified route was not found.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
 
-
-
 Consider using 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchdestination">RtmGetExactMatchDestination</a> if you have no route-matching criteria specified in the <i>MatchingFlags</i> parameter.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchdestination">RtmGetExactMatchDestination</a> if you have no route-matching criteria specified in the <i>MatchingFlags</i> parameter.
 
 The following members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a> structure that is passed in the <i>RouteInfo</i> parameter are used to match a route:
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a> structure that is passed in the <i>RouteInfo</i> parameter are used to match a route:
 
 <ul>
 <li><b>Neighbour</b></li>
@@ -238,35 +219,26 @@ The following members of the
 <li><b>RouteOwner</b></li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchdestination">RtmGetExactMatchDestination</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchdestination">RtmGetExactMatchDestination</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetlessspecificdestination">RtmGetLessSpecificDestination</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetlessspecificdestination">RtmGetLessSpecificDestination</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetmostspecificdestination">RtmGetMostSpecificDestination</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetmostspecificdestination">RtmGetMostSpecificDestination</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmisbestroute">RtmIsBestRoute</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmisbestroute">RtmIsBestRoute</a>

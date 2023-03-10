@@ -1,16 +1,13 @@
 ---
-UID: NS:oleauto.__unnamed_struct_0
+UID: NS:oleauto.NUMPARSE
 title: NUMPARSE (oleauto.h)
 description: Specifies numeric parsing information.
+helpviewer_keywords: ["NUMPARSE","NUMPARSE structure [Automation]","NUMPRS_CURRENCY","NUMPRS_DECIMAL","NUMPRS_EXPONENT","NUMPRS_HEX_OCT","NUMPRS_INEXACT","NUMPRS_LEADING_MINUS","NUMPRS_LEADING_PLUS","NUMPRS_LEADING_WHITE","NUMPRS_NEG","NUMPRS_PARENS","NUMPRS_STD","NUMPRS_THOUSANDS","NUMPRS_TRAILING_MINUS","NUMPRS_TRAILING_PLUS","NUMPRS_TRAILING_WHITE","NUMPRS_USE_ALL","_oa96_NUMPARSE","automat.numparse","oleauto/NUMPARSE"]
 old-location: automat\numparse.htm
 tech.root: automat
 ms.assetid: d55034ff-4407-40ba-bee3-8e82cd5c497e
 ms.date: 12/05/2018
 ms.keywords: NUMPARSE, NUMPARSE structure [Automation], NUMPRS_CURRENCY, NUMPRS_DECIMAL, NUMPRS_EXPONENT, NUMPRS_HEX_OCT, NUMPRS_INEXACT, NUMPRS_LEADING_MINUS, NUMPRS_LEADING_PLUS, NUMPRS_LEADING_WHITE, NUMPRS_NEG, NUMPRS_PARENS, NUMPRS_STD, NUMPRS_THOUSANDS, NUMPRS_TRAILING_MINUS, NUMPRS_TRAILING_PLUS, NUMPRS_TRAILING_WHITE, NUMPRS_USE_ALL, _oa96_NUMPARSE, automat.numparse, oleauto/NUMPARSE
-f1_keywords:
-- oleauto/NUMPARSE
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OleAuto.h
-api_name:
-- NUMPARSE
 targetos: Windows
 req.typenames: NUMPARSE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NUMPARSE
+ - oleauto/NUMPARSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OleAuto.h
+api_name:
+ - NUMPARSE
 ---
 
 # NUMPARSE structure
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies numeric parsing information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cDig
 
 On input, the size of the array. On output, the number of items written to the rgbDig array.
-
 
 ### -field dwInFlags
 
@@ -122,7 +118,6 @@ Input flags.
 
 #### NUMPRS_USE_ALL (0x1000)
 
-
 ### -field dwOutFlags
 
 Output flags. Includes all the values for <b>dwInFlags</b>, plus the following values.
@@ -135,26 +130,19 @@ Output flags. Includes all the values for <b>dwInFlags</b>, plus the following v
 
 #### NUMPRS_NEG (0x10000)
 
-
 ### -field cchUsed
 
 Receives the number of characters (from the beginning of the string) that were successfully parsed.
-
 
 ### -field nBaseShift
 
 The number of bits per digit (3 or 4 for octal and hexadecimal numbers, and zero for decimal).
 
-
-
 ### -field nPwr10
 
 The decimal point position.
 
-
 ## -remarks
-
-
 
 The following apply only to decimal numbers:
 
@@ -164,5 +152,4 @@ The following apply only to decimal numbers:
 <li>If there are more non-zero decimal digits than will fit into the digit array, the NUMPRS_INEXACT flag will be set.
 </li>
 </ul>
-
 

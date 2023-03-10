@@ -2,6 +2,7 @@
 UID: NF:tuner.IBroadcastEventEx.FireEx
 title: IBroadcastEventEx::FireEx (tuner.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["FireEx","FireEx method [Microsoft TV Technologies]","FireEx method [Microsoft TV Technologies]","IBroadcastEventEx interface","IBroadcastEventEx interface [Microsoft TV Technologies]","FireEx method","IBroadcastEventEx.FireEx","IBroadcastEventEx::FireEx","IBroadcastEventExFireEx","mstv.ibroadcasteventex_fireex","tuner/IBroadcastEventEx::FireEx"]
 old-location: mstv\ibroadcasteventex_fireex.htm
 tech.root: mstv
 ms.assetid: b9ad8d9d-9827-44f9-9d2b-3f662c32eb9b
@@ -101,7 +102,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-This method is similar to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">IBroadcastEvent::Fire</a>, but it includes four additional parameters for passing implementation-dependent information between the object that fires the event and the objects that wait on the event. The designer who implements the objects must determine what meaning, if any, to assign to these parameters.
+This method is similar to <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcastevent-fire">IBroadcastEvent::Fire</a>, but it includes four additional parameters for passing implementation-dependent information between the object that fires the event and the objects that wait on the event. The designer who implements the objects must determine what meaning, if any, to assign to these parameters.
 
 
 
@@ -111,12 +112,11 @@ This method is similar to <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcasteventex">IBroadcastEventEx Interface</a>
+<a href="/previous-versions/dd376295(v=vs.85)">IBroadcastEventEx Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  
-

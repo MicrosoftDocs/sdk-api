@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorDataReport.GetSensorValues
 title: ISensorDataReport::GetSensorValues (sensorsapi.h)
 description: Retrieves a collection of data field values.
+helpviewer_keywords: ["GetSensorValues","GetSensorValues method","GetSensorValues method","ISensorDataReport interface","ISensorDataReport interface","GetSensorValues method","ISensorDataReport.GetSensorValues","ISensorDataReport::GetSensorValues","sensorsapi/ISensorDataReport::GetSensorValues","winsensors_com_ref.isensordatareport_getsensorvalues"]
 old-location: winsensors_com_ref\isensordatareport_getsensorvalues.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: d7450caf-9b82-41ee-9ea2-d8f4502473ce
 ms.date: 12/05/2018
 ms.keywords: GetSensorValues, GetSensorValues method, GetSensorValues method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValues method, ISensorDataReport.GetSensorValues, ISensorDataReport::GetSensorValues, sensorsapi/ISensorDataReport::GetSensorValues, winsensors_com_ref.isensordatareport_getsensorvalues
-f1_keywords:
-- sensorsapi/ISensorDataReport.GetSensorValues
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorDataReport.GetSensorValues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorDataReport::GetSensorValues
+ - sensorsapi/ISensorDataReport::GetSensorValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorDataReport.GetSensorValues
 ---
 
 # ISensorDataReport::GetSensorValues
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a collection of data field values.
-
 
 ## -parameters
 
-
-
-
 ### -param pKeys [in]
 
-Pointer to the <a href="https://go.microsoft.com/fwlink/p/?linkid=134661">IPortableDeviceKeyCollection</a> interface that contains the data fields for which to retrieve values. Set to <b>NULL</b> to retrieve values for all supported data fields.
-
+Pointer to the <a href="/previous-versions//ms739549(v=vs.85)">IPortableDeviceKeyCollection</a> interface that contains the data fields for which to retrieve values. Set to <b>NULL</b> to retrieve values for all supported data fields.
 
 ### -param ppValues [out]
 
-Address of an <a href="https://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface pointer that receives the pointer to the retrieved values.
-
+Address of an <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface pointer that receives the pointer to the retrieved values.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,29 +106,13 @@ NULL was passed in for ppValues.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>IPortableDeviceKeyCollection</b> and <b>IPortableDeviceValues</b> interfaces are defined by the Windows Portable Devices API.
 
-When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more of the results contained by the <a href="https://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface will be set to an <b>HRESULT</b> error value.
-
-
-
+When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more of the results contained by the <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface will be set to an <b>HRESULT</b> error value.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>

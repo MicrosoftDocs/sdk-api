@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo.ReleaseVarDesc
 title: ITypeInfo::ReleaseVarDesc (oaidl.h)
 description: Releases a VARDESC previously returned by ITypeInfo::GetVarDesc.
+helpviewer_keywords: ["ITypeInfo interface [Automation]","ReleaseVarDesc method","ITypeInfo.ReleaseVarDesc","ITypeInfo::ReleaseVarDesc","ReleaseVarDesc","ReleaseVarDesc method [Automation]","ReleaseVarDesc method [Automation]","ITypeInfo interface","_oa96_ITypeInfo_ReleaseVarDesc","automat.itypeinfo_releasevardesc","oaidl/ITypeInfo::ReleaseVarDesc"]
 old-location: automat\itypeinfo_releasevardesc.htm
 tech.root: automat
 ms.assetid: a0f734d8-9b14-474a-b701-df8ba7641501
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseVarDesc method, ITypeInfo.ReleaseVarDesc, ITypeInfo::ReleaseVarDesc, ReleaseVarDesc, ReleaseVarDesc method [Automation], ReleaseVarDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseVarDesc, automat.itypeinfo_releasevardesc, oaidl/ITypeInfo::ReleaseVarDesc
-f1_keywords:
-- oaidl/ITypeInfo.ReleaseVarDesc
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo.ReleaseVarDesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo::ReleaseVarDesc
+ - oaidl/ITypeInfo::ReleaseVarDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo.ReleaseVarDesc
 ---
 
 # ITypeInfo::ReleaseVarDesc
@@ -48,36 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Releases a VARDESC previously returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">ITypeInfo::GetVarDesc</a>.
-
+Releases a VARDESC previously returned by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-getvardesc">ITypeInfo::GetVarDesc</a>.
 
 ## -parameters
-
-
-
 
 ### -param pVarDesc [in]
 
 The VARDESC to be freed.
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

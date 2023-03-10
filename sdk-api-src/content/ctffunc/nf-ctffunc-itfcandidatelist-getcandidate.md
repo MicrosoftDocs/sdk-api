@@ -2,15 +2,12 @@
 UID: NF:ctffunc.ITfCandidateList.GetCandidate
 title: ITfCandidateList::GetCandidate (ctffunc.h)
 description: ITfCandidateList::GetCandidate method
+helpviewer_keywords: ["GetCandidate","GetCandidate method [Text Services Framework]","GetCandidate method [Text Services Framework]","ITfCandidateList interface","ITfCandidateList interface [Text Services Framework]","GetCandidate method","ITfCandidateList.GetCandidate","ITfCandidateList::GetCandidate","_tsf_itfcandidatelist_getcandidate_ref","ctffunc/ITfCandidateList::GetCandidate","tsf.itfcandidatelist_getcandidate"]
 old-location: tsf\itfcandidatelist_getcandidate.htm
 tech.root: TSF
 ms.assetid: 4cb2127c-cce5-4815-b40b-e6e15058eab5
 ms.date: 12/05/2018
 ms.keywords: GetCandidate, GetCandidate method [Text Services Framework], GetCandidate method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidate method, ITfCandidateList.GetCandidate, ITfCandidateList::GetCandidate, _tsf_itfcandidatelist_getcandidate_ref, ctffunc/ITfCandidateList::GetCandidate, tsf.itfcandidatelist_getcandidate
-f1_keywords:
-- ctffunc/ITfCandidateList.GetCandidate
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tiptsf.dll
-api_name:
-- ITfCandidateList.GetCandidate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateList::GetCandidate
+ - ctffunc/ITfCandidateList::GetCandidate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tiptsf.dll
+api_name:
+ - ITfCandidateList.GetCandidate
 ---
 
 # ITfCandidateList::GetCandidate
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a specific candidate string object.
 
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
 Specifies the zero-based index of the candidate string to obtain.
 
-
 ### -param ppCand [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a> interface pointer that receives the candidate string object. The caller must release this interface when it is no longer required.
-
+Pointer to an <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a> interface pointer that receives the candidate string object. The caller must release this interface when it is no longer required.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,23 +116,12 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString
       </a>
- 
-
- 
-

@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiDirectoryItem.Remove
 title: IFsiDirectoryItem::Remove (imapi2fs.h)
 description: Removes the specified item from the file system image.
+helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","Remove method","IFsiDirectoryItem.Remove","IFsiDirectoryItem::Remove","Remove","Remove method [IMAPI]","Remove method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_remove","imapi2fs/IFsiDirectoryItem::Remove"]
 old-location: imapi\ifsidirectoryitem_remove.htm
 tech.root: imapi
 ms.assetid: bbd45185-439a-4847-8481-7139e81b34fd
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],Remove method, IFsiDirectoryItem.Remove, IFsiDirectoryItem::Remove, Remove, Remove method [IMAPI], Remove method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_remove, imapi2fs/IFsiDirectoryItem::Remove
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem.Remove
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem::Remove
+ - imapi2fs/IFsiDirectoryItem::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem.Remove
 ---
 
 # IFsiDirectoryItem::Remove
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the specified item from the file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
@@ -64,10 +61,7 @@ The path is relative to current directory item.
 
 Specify the full path when calling this method from the root directory item.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -168,39 +162,23 @@ Value: 0xC0AAB100
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is only callable on directory items present in the file system image.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-removetree">IFsiDirectoryItem::RemoveTree</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-removetree">IFsiDirectoryItem::RemoveTree</a>

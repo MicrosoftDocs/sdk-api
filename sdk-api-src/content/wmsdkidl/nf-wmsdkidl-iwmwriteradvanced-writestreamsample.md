@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterAdvanced.WriteStreamSample
 title: IWMWriterAdvanced::WriteStreamSample (wmsdkidl.h)
 description: The WriteStreamSample method writes a stream sample directly into an ASF file, bypassing the normal compression procedures.
+helpviewer_keywords: ["IWMWriterAdvanced interface [windows Media Format]","WriteStreamSample method","IWMWriterAdvanced.WriteStreamSample","IWMWriterAdvanced::WriteStreamSample","IWMWriterAdvancedWriteStreamSample","WriteStreamSample","WriteStreamSample method [windows Media Format]","WriteStreamSample method [windows Media Format]","IWMWriterAdvanced interface","wmformat.iwmwriteradvanced_writestreamsample","wmsdkidl/IWMWriterAdvanced::WriteStreamSample"]
 old-location: wmformat\iwmwriteradvanced_writestreamsample.htm
 tech.root: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],WriteStreamSample method, IWMWriterAdvanced.WriteStreamSample, IWMWriterAdvanced::WriteStreamSample, IWMWriterAdvancedWriteStreamSample, WriteStreamSample, WriteStreamSample method [windows Media Format], WriteStreamSample method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_writestreamsample, wmsdkidl/IWMWriterAdvanced::WriteStreamSample
-f1_keywords:
-- wmsdkidl/IWMWriterAdvanced.WriteStreamSample
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterAdvanced.WriteStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced::WriteStreamSample
+ - wmsdkidl/IWMWriterAdvanced::WriteStreamSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterAdvanced.WriteStreamSample
 ---
 
 # IWMWriterAdvanced::WriteStreamSample
@@ -51,37 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF file, bypassing the normal compression procedures. Use this method when writing a compressed stream if you already have the compressed samples. The most common use of <b>WriteStreamSample</b> is in copying streams from one file to another.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number. Stream numbers are in the range of 1 through 63.
 
-
 ### -param cnsSampleTime [in]
 
 <b>QWORD</b> containing the sample time, in 100-nanosecond units.
-
 
 ### -param msSampleSendTime [in]
 
 <b>DWORD</b> containing the sample send time, in milliseconds. This parameter is not used.
 
-
 ### -param cnsSampleDuration [in]
 
 <b>QWORD</b> containing the sample duration, in 100-nanosecond units. This parameter is not used.
-
 
 ### -param dwFlags [in]
 
@@ -96,7 +86,7 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -111,17 +101,12 @@ The <b>WriteStreamSample</b> method writes a stream sample directly into an ASF 
 <td>This flag is not used by the writer object.</td>
 </tr>
 </table>
- 
-
 
 ### -param pSample [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface representing the sample.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -164,14 +149,8 @@ The sample is not valid. This can occur when an input script stream contains a s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must manually set the WM_SF_CLEANPOINT flag for every video key frame. If you do not specify the key frames, it will not be readable. The first video sample delivered by the reading object is the first sample marked as a clean point.
 
@@ -181,26 +160,16 @@ Normally the application provides samples to an input file on the <b>IWMWriter</
 
 If the output stream has a time code data unit extension and there is no time code extension on the sample, this method will fail in order not to cause problems later when the file is indexed. All other data unit extensions are optional on the sample. That means that this method will succeed if a data unit extension has been specified for the stream but no actual data extension is present in the sample. <b>WriteStreamSample</b> will write zeros into the file for samples that do not have extensions specified on the sample.
 
-You can use both <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> and <b>WriteStreamSample</b> to write uncompressed samples and compressed samples to the same stream. However, problems can arise because the writer cannot accurately gauge the bit rate and buffer window usage for the stream samples. Some samples may be dropped as a result.
-
-
-
+You can use both <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> and <b>WriteStreamSample</b> to write uncompressed samples and compressed samples to the same stream. However, problems can arise because the writer cannot accurately gauge the bit rate and buffer window usage for the stream samples. Some samples may be dropped as a result.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-compressed-samples">Writing Compressed Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/writing-compressed-samples">Writing Compressed Samples</a>

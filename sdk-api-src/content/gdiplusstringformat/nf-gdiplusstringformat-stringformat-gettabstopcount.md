@@ -2,15 +2,12 @@
 UID: NF:gdiplusstringformat.StringFormat.GetTabStopCount
 title: StringFormat::GetTabStopCount (gdiplusstringformat.h)
 description: The StringFormat::GetTabStopCount method gets the number of tab-stop offsets in this StringFormat object.
+helpviewer_keywords: ["GetTabStopCount","GetTabStopCount method [GDI+]","GetTabStopCount method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetTabStopCount method","StringFormat.GetTabStopCount","StringFormat::GetTabStopCount","_gdiplus_CLASS_StringFormat_GetTabStopCount_","gdiplus._gdiplus_CLASS_StringFormat_GetTabStopCount_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStopCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstopcount.htm
 ms.date: 12/05/2018
 ms.keywords: GetTabStopCount, GetTabStopCount method [GDI+], GetTabStopCount method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStopCount method, StringFormat.GetTabStopCount, StringFormat::GetTabStopCount, _gdiplus_CLASS_StringFormat_GetTabStopCount_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStopCount_
-f1_keywords:
-- gdiplusstringformat/StringFormat.GetTabStopCount
-dev_langs:
-- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- StringFormat.GetTabStopCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - StringFormat::GetTabStopCount
+ - gdiplusstringformat/StringFormat::GetTabStopCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - StringFormat.GetTabStopCount
 ---
 
 # StringFormat::GetTabStopCount
@@ -49,27 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>StringFormat::GetTabStopCount</b> method gets the number of tab-stop offsets in this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns an integer that indicates the number of tab stops in this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
-
-
-
+						<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.

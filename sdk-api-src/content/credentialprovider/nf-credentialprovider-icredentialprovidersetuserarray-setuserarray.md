@@ -2,15 +2,12 @@
 UID: NF:credentialprovider.ICredentialProviderSetUserArray.SetUserArray
 title: ICredentialProviderSetUserArray::SetUserArray (credentialprovider.h)
 description: Called by the system during the initialization of a logon or credential UI to retrieve the set of users to show in that UI.
+helpviewer_keywords: ["ICredentialProviderSetUserArray interface [Windows Shell]","SetUserArray method","ICredentialProviderSetUserArray.SetUserArray","ICredentialProviderSetUserArray::SetUserArray","SetUserArray","SetUserArray method [Windows Shell]","SetUserArray method [Windows Shell]","ICredentialProviderSetUserArray interface","credentialprovider/ICredentialProviderSetUserArray::SetUserArray","shell.ICredentialProviderSetUserArray_SetUserArray"]
 old-location: shell\ICredentialProviderSetUserArray_SetUserArray.htm
 tech.root: shell
 ms.assetid: 14A9DFBD-7B44-4983-8B02-5880017B9B04
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderSetUserArray interface [Windows Shell],SetUserArray method, ICredentialProviderSetUserArray.SetUserArray, ICredentialProviderSetUserArray::SetUserArray, SetUserArray, SetUserArray method [Windows Shell], SetUserArray method [Windows Shell],ICredentialProviderSetUserArray interface, credentialprovider/ICredentialProviderSetUserArray::SetUserArray, shell.ICredentialProviderSetUserArray_SetUserArray
-f1_keywords:
-- credentialprovider/ICredentialProviderSetUserArray.SetUserArray
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CredentialProvider.h
-api_name:
-- ICredentialProviderSetUserArray.SetUserArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderSetUserArray::SetUserArray
+ - credentialprovider/ICredentialProviderSetUserArray::SetUserArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CredentialProvider.h
+api_name:
+ - ICredentialProviderSetUserArray.SetUserArray
 ---
 
 # ICredentialProviderSetUserArray::SetUserArray
@@ -48,49 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the system during the initialization of a logon or credential UI to retrieve the set of users to show in that UI.
-
 
 ## -parameters
 
-
-
-
 ### -param users [in]
 
-A pointer to an array object that contains a set of <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a> objects, each representing a user that will appear in the logon or credential UI. This array enables the credential provider to enumerate and query each of the user objects for their SID, their associated credential provider's ID, various forms of the user name, and their logon status string.
-
+A pointer to an array object that contains a set of <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a> objects, each representing a user that will appear in the logon or credential UI. This array enables the credential provider to enumerate and query each of the user objects for their SID, their associated credential provider's ID, various forms of the user name, and their logon status string.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Note that this method does not transfer ownership of the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a> from the credential provider framework. The information it provides is cannot be altered.
-
-
-
+Note that this method does not transfer ownership of the <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a> from the credential provider framework. The information it provides is cannot be altered.
 
 ## -see-also
 
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidersetuserarray">ICredentialProviderSetUserArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidersetuserarray">ICredentialProviderSetUserArray</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a>

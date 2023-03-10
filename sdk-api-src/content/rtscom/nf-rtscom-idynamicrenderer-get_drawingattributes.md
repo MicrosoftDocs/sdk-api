@@ -2,15 +2,12 @@
 UID: NF:rtscom.IDynamicRenderer.get_DrawingAttributes
 title: IDynamicRenderer::get_DrawingAttributes (rtscom.h)
 description: Gets or sets the DrawingAttributes object used by the DynamicRenderer Class object.
+helpviewer_keywords: ["DrawingAttributes property [Tablet PC]","DrawingAttributes property [Tablet PC]","IDynamicRenderer interface","IDynamicRenderer interface [Tablet PC]","DrawingAttributes property","IDynamicRenderer.DrawingAttributes","IDynamicRenderer.get_DrawingAttributes","IDynamicRenderer.put_DrawingAttributes","IDynamicRenderer::DrawingAttributes","IDynamicRenderer::get_DrawingAttributes","IDynamicRenderer::put_DrawingAttributes","d67a85e7-6dfc-4444-bb69-a46e1234d021","get_DrawingAttributes","rtscom/IDynamicRenderer::DrawingAttributes","rtscom/IDynamicRenderer::get_DrawingAttributes","rtscom/IDynamicRenderer::put_DrawingAttributes","tablet.idynamicrenderer_drawingattributes"]
 old-location: tablet\idynamicrenderer_drawingattributes.htm
 tech.root: tablet
 ms.assetid: d67a85e7-6dfc-4444-bb69-a46e1234d021
 ms.date: 12/05/2018
 ms.keywords: DrawingAttributes property [Tablet PC], DrawingAttributes property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DrawingAttributes property, IDynamicRenderer.DrawingAttributes, IDynamicRenderer.get_DrawingAttributes, IDynamicRenderer.put_DrawingAttributes, IDynamicRenderer::DrawingAttributes, IDynamicRenderer::get_DrawingAttributes, IDynamicRenderer::put_DrawingAttributes, d67a85e7-6dfc-4444-bb69-a46e1234d021, get_DrawingAttributes, rtscom/IDynamicRenderer::DrawingAttributes, rtscom/IDynamicRenderer::get_DrawingAttributes, rtscom/IDynamicRenderer::put_DrawingAttributes, tablet.idynamicrenderer_drawingattributes
-f1_keywords:
-- rtscom/IDynamicRenderer.DrawingAttributes
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IDynamicRenderer.DrawingAttributes
-- IDynamicRenderer.get_DrawingAttributes
-- IDynamicRenderer.put_DrawingAttributes
-- IDynamicRenderer.get_DrawingAttributes
-- IDynamicRenderer.put_DrawingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDynamicRenderer::get_DrawingAttributes
+ - rtscom/IDynamicRenderer::get_DrawingAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IDynamicRenderer.DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
 ---
 
 # IDynamicRenderer::get_DrawingAttributes
@@ -52,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Gets or sets the <b>DrawingAttributes</b> object used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
+Gets or sets the <b>DrawingAttributes</b> object used by the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> object.
 
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Enables the caller to set or modify the drawing attributes for the next stroke. Device rendering should not use the dynamic renderer. The sole purpose of the dynamic renderer is to perform real time dynamic rendering as part of a user interface.
 
-When creating an instance of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> class, a default <b>DrawingAttributes</b> instance is created with the following standard attributes:
+When creating an instance of the <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a> class, a default <b>DrawingAttributes</b> instance is created with the following standard attributes:
 
 <ul>
 <li>Color = Black</li>
@@ -84,7 +80,7 @@ When creating an instance of the <a href="https://docs.microsoft.com/previous-ve
 </ul>
 Changes to this property are applied between strokes, when they are starting or ending.
 
-If this property is changed while a user is drawing a stroke, the new drawing attributes are not applied to the current stroke, but take effect on the next stroke drawn. For example, setting this property to <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a> during an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> implementation does not affect an active stroke.
+If this property is changed while a user is drawing a stroke, the new drawing attributes are not applied to the current stroke, but take effect on the next stroke drawn. For example, setting this property to <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusdown">IStylusPlugin::StylusDown Method</a> during an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> implementation does not affect an active stroke.
 
 When a <b>DisplaySettingsChanged</b> event occurs, recalculate the Width and Height properties of the <b>DrawingAttributes</b> object in a <b>DisplaySettingsChanged</b> event handler. This is necessary to account for possible dots per inch (dpi) changes that result from the <b>DisplaySettingsChanged</b> event.
 
@@ -186,26 +182,15 @@ Width
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-idynamicrenderer">IDynamicRenderer Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>

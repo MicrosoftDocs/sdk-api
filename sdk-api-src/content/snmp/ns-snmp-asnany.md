@@ -1,16 +1,13 @@
 ---
-UID: NS:snmp.__unnamed_struct_2
+UID: NS:snmp.AsnAny
 title: AsnAny (snmp.h)
 description: The AsnAny structure contains an SNMP variable type and value. This structure is a member of the SnmpVarBind structure that is used as a parameter in many of the SNMP functions. This structure is not used by the WinSNMP API functions.
+helpviewer_keywords: ["ASN_BITS","ASN_COUNTER32","ASN_COUNTER64","ASN_GAUGE32","ASN_INTEGER","ASN_INTEGER32","ASN_IPADDRESS","ASN_OBJECTIDENTIFIER","ASN_OCTETSTRING","ASN_OPAQUE","ASN_SEQUENCE","ASN_TIMETICKS","ASN_UNSIGNED32","AsnAny","AsnAny structure [SNMP]","AsnObjectSyntax","SNMP_EXCEPTION_ENDOFMIBVIEW","SNMP_EXCEPTION_NOSUCHINSTANCE","SNMP_EXCEPTION_NOSUCHOBJECT","_snmp_asnany_str","snmp.asnany_str","snmp/AsnAny"]
 old-location: snmp\asnany_str.htm
 tech.root: SNMP
 ms.assetid: ce8d002e-f357-499c-b976-f8ebaf1e7142
 ms.date: 12/05/2018
 ms.keywords: ASN_BITS, ASN_COUNTER32, ASN_COUNTER64, ASN_GAUGE32, ASN_INTEGER, ASN_INTEGER32, ASN_IPADDRESS, ASN_OBJECTIDENTIFIER, ASN_OCTETSTRING, ASN_OPAQUE, ASN_SEQUENCE, ASN_TIMETICKS, ASN_UNSIGNED32, AsnAny, AsnAny structure [SNMP], AsnObjectSyntax, SNMP_EXCEPTION_ENDOFMIBVIEW, SNMP_EXCEPTION_NOSUCHINSTANCE, SNMP_EXCEPTION_NOSUCHOBJECT, _snmp_asnany_str, snmp.asnany_str, snmp/AsnAny
-f1_keywords:
-- snmp/AsnAny
-dev_langs:
-- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Snmp.h
-api_name:
-- AsnAny
 targetos: Windows
 req.typenames: AsnAny
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AsnAny
+ - snmp/AsnAny
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Snmp.h
+api_name:
+ - AsnAny
 ---
 
 # AsnAny structure
@@ -48,19 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>AsnAny</b> structure contains an SNMP variable type and value. This structure is a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure that is used as a parameter in many of the SNMP functions. This structure is not used by the 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API</a> functions.
-
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure that is used as a parameter in many of the SNMP functions. This structure is not used by the 
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API</a> functions.
 
 ## -struct-fields
-
-
-
 
 ### -field asnType
 
@@ -234,8 +231,6 @@ Indicates that the end of the MIB view has been reached.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field asnValue
 
@@ -337,97 +332,47 @@ Accesses a timeticks counter variable that is relative to a specific timer event
 </b>
 Accesses an opaque variable.
 
-
 ### -field number
-
- 
-
 
 ### -field unsigned32
 
- 
-
-
 ### -field counter64
-
- 
-
 
 ### -field string
 
- 
-
-
 ### -field bits
-
- 
-
 
 ### -field object
 
- 
-
-
 ### -field sequence
-
- 
-
 
 ### -field address
 
- 
-
-
 ### -field counter
-
- 
-
 
 ### -field gauge
 
- 
-
-
 ### -field ticks
-
- 
-
 
 ### -field arbitrary
 
- 
-
-
-
-
 ## -remarks
-
-
 
 To use the definition of the Unsigned32 type described in RFC 1902, you can specify the ASN_GAUGE32 variable type. Currently the ASN_UNSIGNED32 variable type specifies the UInteger32 type described in RFC 1442.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/SNMP/snmp-structures">SNMP Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-structures">SNMP Structures</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmpextensionmonitor">SnmpExtensionMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmpextensionmonitor">SnmpExtensionMonitor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a>
- 
-
- 
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a>
 

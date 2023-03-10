@@ -2,15 +2,12 @@
 UID: NF:qos2.QOSQueryFlow
 title: QOSQueryFlow function (qos2.h)
 description: Requests information about a specific flow.
+helpviewer_keywords: ["QOSQueryFlow","QOSQueryFlow function [QOS]","QOSQueryFlowFundamentals","QOSQueryOutgoingRate","QOSQueryPacketPriority","QOS_QUERYFLOW_FRESH","qos.qosqueryflow","qos2/QOSQueryFlow"]
 old-location: qos\qosqueryflow.htm
 tech.root: QOS
 ms.assetid: 8cae3ba2-beca-45e2-9526-2d917abc2606
 ms.date: 12/05/2018
 ms.keywords: QOSQueryFlow, QOSQueryFlow function [QOS], QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERYFLOW_FRESH, qos.qosqueryflow, qos2/QOSQueryFlow
-f1_keywords:
-- qos2/QOSQueryFlow
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSQueryFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSQueryFlow
+ - qos2/QOSQueryFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSQueryFlow
 ---
 
 # QOSQueryFlow function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOSQueryFlow</b> function requests information about a specific flow added to the QoS subsystem. This function may be called asynchronously.
-
 
 ## -parameters
 
-
-
-
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
-
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param FlowId [in]
 
 Specifies a flow identifier. A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
-
 
 ### -param Operation [in]
 
@@ -82,7 +77,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_flow_fundamentals">QOS_FLOW_FUNDAMENTALS</a> structure.
+<i>Buffer</i> will contain a <a href="/windows/desktop/api/qos2/ns-qos2-qos_flow_fundamentals">QOS_FLOW_FUNDAMENTALS</a> structure.
 
 </td>
 </tr>
@@ -92,7 +87,7 @@ Specifies which type of flow information is being queried. This parameter specif
 </dl>
 </td>
 <td width="60%">
-<i>Buffer</i> will contain a <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ns-qos2-qos_packet_priority">QOS_PACKET_PRIORITY</a> structure.
+<i>Buffer</i> will contain a <a href="/windows/desktop/api/qos2/ns-qos2-qos_packet_priority">QOS_PACKET_PRIORITY</a> structure.
 
 </td>
 </tr>
@@ -107,8 +102,6 @@ Specifies which type of flow information is being queried. This parameter specif
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Size [in, out]
 
@@ -118,11 +111,9 @@ On function return, if successful, this parameter will specify the number of byt
 
 If this call fails with <b>ERROR_INSUFFICIENT_BUFFER</b>, this parameter will indicate the minimum required <i>Buffer</i> size in order to successfully complete this operation.
 
-
 ### -param Buffer [out]
 
 Pointer to the structure specified by the value of the <i>Operation</i> parameter.
-
 
 ### -param Flags [in, optional]
 
@@ -146,17 +137,12 @@ This flag is only applicable when the <i>Operation</i> parameter is set to <b>QO
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Overlapped [out, optional]
 
 Pointer to an OVERLAPPED structure used for asynchronous output. This must be set to <b>NULL</b> if this function is not being called asynchronously.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
@@ -295,7 +281,7 @@ Indicates that the update flow request was successfully initiated.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -344,18 +330,7 @@ There is currently insufficient data about networking conditions to answer the q
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

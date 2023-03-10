@@ -2,15 +2,12 @@
 UID: NF:shellapi.SHFileOperationA
 title: SHFileOperationA function (shellapi.h)
 description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.
+helpviewer_keywords: ["SHFileOperationA", "shellapi/SHFileOperationA"]
 old-location: shell\SHFileOperation.htm
 tech.root: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
 ms.date: 12/05/2018
 ms.keywords: SHFileOperation, SHFileOperation function [Windows Shell], SHFileOperationA, SHFileOperationW, _win32_SHFileOperation, shell.SHFileOperation, shellapi/SHFileOperation, shellapi/SHFileOperationA, shellapi/SHFileOperationW
-f1_keywords:
-- shellapi/SHFileOperation
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,29 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- SHFileOperation
-- SHFileOperationA
-- SHFileOperationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHFileOperationA
+ - shellapi/SHFileOperationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - SHFileOperation
+ - SHFileOperationA
+ - SHFileOperationW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHFileOperationA function
@@ -52,25 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>.
-
+Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>.
 
 ## -parameters
-
-
-
 
 ### -param lpFileOp [in, out]
 
 Type: <b>LPSHFILEOPSTRUCT</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation. This parameter must contain a valid value that is not <b>NULL</b>. You are responsible for validating the value. If you do not validate it, you will experience unexpected results.
-
+A pointer to an <a href="/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure that contains information this function needs to carry out the specified operation. This parameter must contain a valid value that is not <b>NULL</b>. You are responsible for validating the value. If you do not validate it, you will experience unexpected results.
 
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -78,9 +73,9 @@ Returns zero if successful; otherwise nonzero. Applications normally should simp
 
                     
 
-It is good practice to examine the value of the <b>fAnyOperationsAborted</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a>. <b>SHFileOperation</b> can return 0 for success if the user cancels the operation. If you do not check <b>fAnyOperationsAborted</b> as well as the return value, you cannot know that the function accomplished the full task you asked of it and you might proceed under incorrect assumptions.
+It is good practice to examine the value of the <b>fAnyOperationsAborted</b> member of the <a href="/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a>. <b>SHFileOperation</b> can return 0 for success if the user cancels the operation. If you do not check <b>fAnyOperationsAborted</b> as well as the return value, you cannot know that the function accomplished the full task you asked of it and you might proceed under incorrect assumptions.
 
-Do not use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> with the return values of this function.
+Do not use <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> with the return values of this function.
 
 To examine the nonzero values for troubleshooting purposes, they largely map to those defined in Winerror.h. However, several of its possible return values are based on pre-Win32 error codes, which in some cases overlap the later Winerror.h values without matching their meaning. Those particular values are detailed here, and <i>for these specific values only</i> these meanings should be accepted over the Winerror.h codes. However, these values are provided with these warnings:
 
@@ -223,22 +218,16 @@ To examine the nonzero values for troubleshooting purposes, they largely map to 
 <td>Destination is a root directory and cannot be renamed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You should use fully qualified path names with this function. Using it with relative path names is not thread safe.
 
-With two exceptions, you cannot use <b>SHFileOperation</b> to move special folders from a local drive to a remote computer by specifying a network path. The exceptions are the <b>My Documents</b> (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_PERSONAL</a>, <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_DOCUMENTS</a>) and <b>My Pictures</b> folders (<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL_MYPICTURES</a>).
+With two exceptions, you cannot use <b>SHFileOperation</b> to move special folders from a local drive to a remote computer by specifying a network path. The exceptions are the <b>My Documents</b> (<a href="/windows/desktop/shell/csidl">CSIDL_PERSONAL</a>, <a href="/windows/desktop/shell/csidl">CSIDL_DOCUMENTS</a>) and <b>My Pictures</b> folders (<a href="/windows/desktop/shell/csidl">CSIDL_MYPICTURES</a>).
 
-When used to delete a file, <b>SHFileOperation</b> permanently deletes the file unless you set the <b>FOF_ALLOWUNDO</b> flag in the <b>fFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure pointed to by <i>lpFileOp</i>. Setting that flag sends the file to the Recycle Bin. If you want to simply delete a file and guarantee that it is not placed in the Recycle Bin, use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
+When used to delete a file, <b>SHFileOperation</b> permanently deletes the file unless you set the <b>FOF_ALLOWUNDO</b> flag in the <b>fFlags</b> member of the <a href="/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a> structure pointed to by <i>lpFileOp</i>. Setting that flag sends the file to the Recycle Bin. If you want to simply delete a file and guarantee that it is not placed in the Recycle Bin, use <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
 
-If a copy callback handler is exposed and registered, <b>SHFileOperation</b> calls it unless you set a flag such as <b>FOF_NOCONFIRMATION</b> in the <b>fFlags</b> member of the structure pointed to by <i>lpFileOp</i>. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)">ICopyHook::CopyCallback</a> for details on implementing copy callback handlers.
+If a copy callback handler is exposed and registered, <b>SHFileOperation</b> calls it unless you set a flag such as <b>FOF_NOCONFIRMATION</b> in the <b>fFlags</b> member of the structure pointed to by <i>lpFileOp</i>. See <a href="/previous-versions/windows/desktop/legacy/bb776048(v=vs.85)">ICopyHook::CopyCallback</a> for details on implementing copy callback handlers.
 
 File deletion is recursive unless you set the <b>FOF_NORECURSION</b> flag in <i>lpFileOp</i>.
 
@@ -247,7 +236,7 @@ With Windows 2000 or later, it is possible to <i>connect</i> an HTML file with 
 
 The HTML file must have a .htm or .html extension. You create the connection to the related files by placing the folder that contains them into the same folder as the HTML file. The name of the folder that contains the connected files must be the same as the name of the HTML file followed by "_files" or ".files" (this is case sensitive; for example, ".Files" does not work). An example is given here.
 
-                    <ol>
+<ol>
 <li>Create a file named Test.htm in the C:\Files directory (C:\Files\Test.htm).</li>
 <li>Create a new folder named Test.files in the C:\Files directory (C:\Files\Test.files).</li>
 <li>Populate the folder with a few files. Any file placed in this folder is connected to Test.htm.</li>
@@ -259,7 +248,7 @@ The HTML file must have a .htm or .html extension. You create the connection to 
 File connection is enabled by default. It can be disabled by adding a <b>REG_DWORD</b> entry, NoFileFolderConnection, as shown here:
 
 
-<pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -276,3 +265,6 @@ Note that the use of a folder with a name like "MyFile_files" to define a connec
 
 
 
+
+> [!NOTE]
+> The shellapi.h header defines SHFileOperation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

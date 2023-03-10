@@ -2,15 +2,12 @@
 UID: NF:authz.AuthzInstallSecurityEventSource
 title: AuthzInstallSecurityEventSource function (authz.h)
 description: Installs the specified source as a security event source.
+helpviewer_keywords: ["AuthzInstallSecurityEventSource","AuthzInstallSecurityEventSource function [Security]","authz/AuthzInstallSecurityEventSource","security.authzinstallsecurityeventsource"]
 old-location: security\authzinstallsecurityeventsource.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 77cb5c6c-1634-4449-8d05-ce6357ad4e4b
 ms.date: 12/05/2018
 ms.keywords: AuthzInstallSecurityEventSource, AuthzInstallSecurityEventSource function [Security], authz/AuthzInstallSecurityEventSource, security.authzinstallsecurityeventsource
-f1_keywords:
-- authz/AuthzInstallSecurityEventSource
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzInstallSecurityEventSource
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzInstallSecurityEventSource
+ - authz/AuthzInstallSecurityEventSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzInstallSecurityEventSource
 ---
 
 # AuthzInstallSecurityEventSource function
@@ -48,28 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AuthzInstallSecurityEventSource</b> function installs  the specified source as a security event source.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 This parameter is reserved for future use and must be set to zero.
 
-
 ### -param pRegistration [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that contains information about the security event source to be added.
+A pointer to an <a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure that contains information about the security event source to be added.
 
-The members of the <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure are used as follows to install the security event source in the security log key:
+The members of the <a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a> structure are used as follows to install the security event source in the security log key:
 
 <ul>
-<li>The <b>szEventSourceName</b> member is added as a registry key under <pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<li>The <b>szEventSourceName</b> member is added as a registry key under <pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>
@@ -87,26 +83,14 @@ The members of the <a href="https://docs.microsoft.com/windows/desktop/api/authz
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzuninstallsecurityeventsource">AuthzUninstallSecurityEventSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/authz/nf-authz-authzuninstallsecurityeventsource">AuthzUninstallSecurityEventSource</a>

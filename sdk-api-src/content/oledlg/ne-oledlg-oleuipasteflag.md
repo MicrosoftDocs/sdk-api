@@ -2,15 +2,12 @@
 UID: NE:oledlg.tagOLEUIPASTEFLAG
 title: OLEUIPASTEFLAG (oledlg.h)
 description: Indicates the user options that are available to the user when pasting this format, and within which group or list of choices (Paste, Paste Link, etc.).
+helpviewer_keywords: ["OLEUIPASTEFLAG","OLEUIPASTEFLAG enumeration [COM]","OLEUIPASTE_ENABLEICON","OLEUIPASTE_LINKANYTYPE","OLEUIPASTE_LINKTYPE1","OLEUIPASTE_LINKTYPE2","OLEUIPASTE_LINKTYPE3","OLEUIPASTE_LINKTYPE4","OLEUIPASTE_LINKTYPE5","OLEUIPASTE_LINKTYPE6","OLEUIPASTE_LINKTYPE7","OLEUIPASTE_LINKTYPE8","OLEUIPASTE_PASTE","OLEUIPASTE_PASTEONLY","_ole_OLEUIPASTEFLAG","com.oleuipasteflag","oledlg/OLEUIPASTEFLAG","oledlg/OLEUIPASTE_ENABLEICON","oledlg/OLEUIPASTE_LINKANYTYPE","oledlg/OLEUIPASTE_LINKTYPE1","oledlg/OLEUIPASTE_LINKTYPE2","oledlg/OLEUIPASTE_LINKTYPE3","oledlg/OLEUIPASTE_LINKTYPE4","oledlg/OLEUIPASTE_LINKTYPE5","oledlg/OLEUIPASTE_LINKTYPE6","oledlg/OLEUIPASTE_LINKTYPE7","oledlg/OLEUIPASTE_LINKTYPE8","oledlg/OLEUIPASTE_PASTE","oledlg/OLEUIPASTE_PASTEONLY"]
 old-location: com\oleuipasteflag.htm
 tech.root: com
 ms.assetid: 4467f82b-34be-4d10-816c-b3e4231c92a1
 ms.date: 12/05/2018
 ms.keywords: OLEUIPASTEFLAG, OLEUIPASTEFLAG enumeration [COM], OLEUIPASTE_ENABLEICON, OLEUIPASTE_LINKANYTYPE, OLEUIPASTE_LINKTYPE1, OLEUIPASTE_LINKTYPE2, OLEUIPASTE_LINKTYPE3, OLEUIPASTE_LINKTYPE4, OLEUIPASTE_LINKTYPE5, OLEUIPASTE_LINKTYPE6, OLEUIPASTE_LINKTYPE7, OLEUIPASTE_LINKTYPE8, OLEUIPASTE_PASTE, OLEUIPASTE_PASTEONLY, _ole_OLEUIPASTEFLAG, com.oleuipasteflag, oledlg/OLEUIPASTEFLAG, oledlg/OLEUIPASTE_ENABLEICON, oledlg/OLEUIPASTE_LINKANYTYPE, oledlg/OLEUIPASTE_LINKTYPE1, oledlg/OLEUIPASTE_LINKTYPE2, oledlg/OLEUIPASTE_LINKTYPE3, oledlg/OLEUIPASTE_LINKTYPE4, oledlg/OLEUIPASTE_LINKTYPE5, oledlg/OLEUIPASTE_LINKTYPE6, oledlg/OLEUIPASTE_LINKTYPE7, oledlg/OLEUIPASTE_LINKTYPE8, oledlg/OLEUIPASTE_PASTE, oledlg/OLEUIPASTE_PASTEONLY
-f1_keywords:
-- oledlg/OLEUIPASTEFLAG
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OleDlg.h
-api_name:
-- OLEUIPASTEFLAG
 targetos: Windows
 req.typenames: OLEUIPASTEFLAG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagOLEUIPASTEFLAG
+ - oledlg/tagOLEUIPASTEFLAG
+ - OLEUIPASTEFLAG
+ - oledlg/OLEUIPASTEFLAG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OleDlg.h
+api_name:
+ - OLEUIPASTEFLAG
 ---
 
 # OLEUIPASTEFLAG enumeration
@@ -48,28 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates the user options that are available to the user when pasting this format, and within which group or list of choices (<b>Paste</b>, <b>Paste Link</b>, etc.).
-
 
 ## -enum-fields
 
+### -field OLEUIPASTE_ENABLEICON:2048
 
+If the container does not specify this flag for the entry in the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array passed as input to <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a>, the DisplayAsIcon button will be unchecked and disabled when the user selects the format that corresponds to the entry.
 
+### -field OLEUIPASTE_PASTEONLY:0
 
-### -field OLEUIPASTE_ENABLEICON
+The entry in the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array is valid for pasting only.
 
-If the container does not specify this flag for the entry in the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array passed as input to <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a>, the DisplayAsIcon button will be unchecked and disabled when the user selects the format that corresponds to the entry.
+### -field OLEUIPASTE_PASTE:512
 
-
-### -field OLEUIPASTE_PASTEONLY
-
-The entry in the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array is valid for pasting only.
-
-
-### -field OLEUIPASTE_PASTE
-
-The entry in the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array is valid for pasting. It may also be valid for linking if any of the following linking flags are specified. If it is valid for linking, then the following flags indicate which link types are acceptable by OR'ing together the appropriate OLEUIPASTE_LINKTYPE<i>n</i> values. These values correspond as follows to the array of link types passed to <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a> in the <b>arrLinkTypes</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure:
+The entry in the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array is valid for pasting. It may also be valid for linking if any of the following linking flags are specified. If it is valid for linking, then the following flags indicate which link types are acceptable by OR'ing together the appropriate OLEUIPASTE_LINKTYPE<i>n</i> values. These values correspond as follows to the array of link types passed to <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a> in the <b>arrLinkTypes</b> member of the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipastespeciala">OLEUIPASTESPECIAL</a> structure:
 
 <ul>
 <li>OLEUIPASTE_LINKTYPE1=arrLinkTypes[0]</li>
@@ -83,59 +80,42 @@ The entry in the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/
 </ul>
 The <b>arrLinkTypes</b> array is an array of registered clipboard formats for linking. A maximum of 8 link types is allowed.
 
-
-### -field OLEUIPASTE_LINKANYTYPE
+### -field OLEUIPASTE_LINKANYTYPE:1024
 
 Any link type.
 
-
-### -field OLEUIPASTE_LINKTYPE1
+### -field OLEUIPASTE_LINKTYPE1:1
 
 Link type 1.
 
-
-### -field OLEUIPASTE_LINKTYPE2
+### -field OLEUIPASTE_LINKTYPE2:2
 
 Link type 2.
 
-
-### -field OLEUIPASTE_LINKTYPE3
+### -field OLEUIPASTE_LINKTYPE3:4
 
 Link type 3.
 
-
-### -field OLEUIPASTE_LINKTYPE4
+### -field OLEUIPASTE_LINKTYPE4:8
 
 Link type 4.
 
-
-### -field OLEUIPASTE_LINKTYPE5
+### -field OLEUIPASTE_LINKTYPE5:16
 
 Link type 5.
 
-
-### -field OLEUIPASTE_LINKTYPE6
+### -field OLEUIPASTE_LINKTYPE6:32
 
 Link type 6.
 
-
-### -field OLEUIPASTE_LINKTYPE7
+### -field OLEUIPASTE_LINKTYPE7:64
 
 Link type 7.
 
-
-### -field OLEUIPASTE_LINKTYPE8
+### -field OLEUIPASTE_LINKTYPE8:128
 
 Link type 8.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a>

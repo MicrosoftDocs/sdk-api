@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveryProvider.GetXMLContext
 title: IWSDiscoveryProvider::GetXMLContext (wsddisco.h)
 description: Gets the XML context associated with this provider.
+helpviewer_keywords: ["GetXMLContext","GetXMLContext method","GetXMLContext method","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","GetXMLContext method","IWSDiscoveryProvider.GetXMLContext","IWSDiscoveryProvider::GetXMLContext","ncd.iwsdiscoveryprovider_getxmlcontext","wsddisco/IWSDiscoveryProvider::GetXMLContext"]
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: ee2a862a-9d1d-4099-982e-259b6ab815f6
 ms.date: 12/05/2018
 ms.keywords: GetXMLContext, GetXMLContext method, GetXMLContext method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,GetXMLContext method, IWSDiscoveryProvider.GetXMLContext, IWSDiscoveryProvider::GetXMLContext, ncd.iwsdiscoveryprovider_getxmlcontext, wsddisco/IWSDiscoveryProvider::GetXMLContext
-f1_keywords:
-- wsddisco/IWSDiscoveryProvider.GetXMLContext
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryProvider.GetXMLContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryProvider::GetXMLContext
+ - wsddisco/IWSDiscoveryProvider::GetXMLContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryProvider.GetXMLContext
 ---
 
 # IWSDiscoveryProvider::GetXMLContext
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the  XML context associated with this provider.
 
-
 ## -parameters
-
-
-
 
 ### -param ppContext [out]
 
 Pointer to a pointer variable containing the XML context.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -102,38 +96,23 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The discovery provider has not been created. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a> to create a provider.
+The discovery provider has not been created. Call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a> to create a provider.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Returns an optional context for the XML state of the transaction. If the service layer is used then this should be the context the XML namespaces and types were registered with.
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>method is used.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> must be called before any other <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> method is used.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>

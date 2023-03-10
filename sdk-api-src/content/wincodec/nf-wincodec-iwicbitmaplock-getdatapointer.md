@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICBitmapLock.GetDataPointer
 title: IWICBitmapLock::GetDataPointer (wincodec.h)
 description: Gets the pointer to the top left pixel in the locked rectangle.
+helpviewer_keywords: ["GetDataPointer","GetDataPointer method [Windows Imaging Component]","GetDataPointer method [Windows Imaging Component]","IWICBitmapLock interface","IWICBitmapLock interface [Windows Imaging Component]","GetDataPointer method","IWICBitmapLock.GetDataPointer","IWICBitmapLock::GetDataPointer","_wic_codec_iwicbitmaplock_getdatapointer","wic._wic_codec_iwicbitmaplock_getdatapointer","wincodec/IWICBitmapLock::GetDataPointer"]
 old-location: wic\_wic_codec_iwicbitmaplock_getdatapointer.htm
 tech.root: wic
 ms.assetid: 1fae52ae-b410-48f3-be46-624792f96874
 ms.date: 12/05/2018
 ms.keywords: GetDataPointer, GetDataPointer method [Windows Imaging Component], GetDataPointer method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetDataPointer method, IWICBitmapLock.GetDataPointer, IWICBitmapLock::GetDataPointer, _wic_codec_iwicbitmaplock_getdatapointer, wic._wic_codec_iwicbitmaplock_getdatapointer, wincodec/IWICBitmapLock::GetDataPointer
-f1_keywords:
-- wincodec/IWICBitmapLock.GetDataPointer
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapLock.GetDataPointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapLock::GetDataPointer
+ - wincodec/IWICBitmapLock::GetDataPointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapLock.GetDataPointer
 ---
 
 # IWICBitmapLock::GetDataPointer
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the pointer to the top left pixel in the locked rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param pcbBufferSize [out]
 
@@ -63,28 +60,19 @@ Type: <b>UINT*</b>
 
 A pointer that receives the size of the buffer.
 
-
 ### -param ppbData [out]
 
 Type: <b>BYTE**</b>
 
 A pointer that receives a pointer to the top left pixel in the locked rectangle.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The pointer provided by this method should not be used outside of the lifetime of the lock itself.
 
@@ -93,7 +81,7 @@ The pointer provided by this method should not be used outside of the lifetime o
 
 #### Examples
 
-In the following example, the data pointed to by the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> is zero'd.
+In the following example, the data pointed to by the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a> is zeroed.
 
 
 ```cpp
@@ -163,7 +151,3 @@ In the following example, the data pointed to by the <a href="https://docs.micro
     return hr;
 
 ```
-
-
-
-

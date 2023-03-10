@@ -2,15 +2,12 @@
 UID: NF:imapi2.IWriteEngine2.put_BytesPerSector
 title: IWriteEngine2::put_BytesPerSector (imapi2.h)
 description: Sets the number of bytes to use for each sector during writing.
+helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_BytesPerSector method","IWriteEngine2.put_BytesPerSector","IWriteEngine2::put_BytesPerSector","imapi.iwriteengine2_put_bytespersector","imapi2/IWriteEngine2::put_BytesPerSector","put_BytesPerSector","put_BytesPerSector method [IMAPI]","put_BytesPerSector method [IMAPI]","IWriteEngine2 interface"]
 old-location: imapi\iwriteengine2_put_bytespersector.htm
 tech.root: imapi
 ms.assetid: aac64c0a-4304-4a20-822e-4aa247d3d9e8
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_BytesPerSector method, IWriteEngine2.put_BytesPerSector, IWriteEngine2::put_BytesPerSector, imapi.iwriteengine2_put_bytespersector, imapi2/IWriteEngine2::put_BytesPerSector, put_BytesPerSector, put_BytesPerSector method [IMAPI], put_BytesPerSector method [IMAPI],IWriteEngine2 interface
-f1_keywords:
-- imapi2/IWriteEngine2.put_BytesPerSector
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2.put_BytesPerSector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2::put_BytesPerSector
+ - imapi2/IWriteEngine2::put_BytesPerSector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2.put_BytesPerSector
 ---
 
 # IWriteEngine2::put_BytesPerSector
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the number of bytes to use for each sector during writing. 
-
+Sets the number of bytes to use for each sector during writing.
 
 ## -parameters
 
-
-
-
 ### -param value [in]
 
-Number of bytes to use for each sector during writing. The minimum size is 1 byte and the maximum is MAXLONG bytes. Typically, this value is 2,048 bytes for CD media, although any arbitrary size is supported (such as 2352 or 2448). This value is limited to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize</a>, which is typically 65,536 (64K) bytes.
-
+Number of bytes to use for each sector during writing. The minimum size is 1 byte and the maximum is MAXLONG bytes. Typically, this value is 2,048 bytes for CD media, although any arbitrary size is supported (such as 2352 or 2448). This value is limited to the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize</a>, which is typically 65,536 (64K) bytes.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -100,47 +94,31 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You must specify a logical block size.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2">IWriteEngine2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_bytespersector">IWriteEngine2::get_BytesPerSector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_bytespersector">IWriteEngine2::get_BytesPerSector</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_endingsectorspersecond">IWriteEngine2::get_EndingSectorsPerSecond</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_endingsectorspersecond">IWriteEngine2::get_EndingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_startingsectorspersecond">IWriteEngine2::get_StartingSectorsPerSecond</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_startingsectorspersecond">IWriteEngine2::get_StartingSectorsPerSecond</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_endingsectorspersecond">IWriteEngine2::put_EndingSectorsPerSecond</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_endingsectorspersecond">IWriteEngine2::put_EndingSectorsPerSecond</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">IWriteEngine2::put_StartingSectorsPerSecond</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-put_startingsectorspersecond">IWriteEngine2::put_StartingSectorsPerSecond</a>

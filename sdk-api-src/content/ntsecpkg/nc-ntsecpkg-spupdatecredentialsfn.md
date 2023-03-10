@@ -1,16 +1,13 @@
 ---
 UID: NC:ntsecpkg.SpUpdateCredentialsFn
 title: SpUpdateCredentialsFn (ntsecpkg.h)
-description: Updates the credentials associated with the specified context.
+description: Updates the credentials associated with the specified context. (SpUpdateCredentialsFn)
+helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SpUpdateCredentialsFn","SpUpdateCredentialsFn callback","SpUpdateCredentialsFn callback function [Security]","ntsecpkg/SpUpdateCredentialsFn","security.spupdatecredentialsfn"]
 old-location: security\spupdatecredentialsfn.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 56aba12e-a335-4d16-81b0-7ab521f872e7
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpUpdateCredentialsFn, SpUpdateCredentialsFn callback, SpUpdateCredentialsFn callback function [Security], ntsecpkg/SpUpdateCredentialsFn, security.spupdatecredentialsfn
-f1_keywords:
-- ntsecpkg/SpUpdateCredentialsFn
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpUpdateCredentialsFn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpUpdateCredentialsFn
+ - ntsecpkg/SpUpdateCredentialsFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpUpdateCredentialsFn
 ---
 
 # SpUpdateCredentialsFn callback function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the credentials associated with the specified context.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextHandle [in]
 
 A handle to the context to update.
 
-
-### -param *CredType [in]
+### -param CredType [in]
 
 The type of credential specified by the <i>ContextHandle</i> parameter. This can be one of the following values.
 
@@ -100,42 +96,28 @@ The credential is a certificate.
 </dl>
 </td>
 <td width="60%">
-The credential is authentication data from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+The credential is authentication data from a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param FlatCredUIContextLength [in]
 
 The size, in characters, of the buffer specified by  the <i>FlatCredUIContext</i> parameter.
 
-
 ### -param FlatCredUIContext
 
 A string that specifies the updated credentials.
 
-
 ## -returns
-
-
 
 If the function succeeds, return <b>STATUS_SUCCESS</b>, or an informational status code.
 
 If the function fails, return an <b>NTSTATUS</b> error code that indicates the reason it failed. For more information, see Remarks.
 
-
-
-
 ## -remarks
 
-
-
 A pointer to the <b>SpUpdateCredentialsFn</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.

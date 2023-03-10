@@ -2,15 +2,12 @@
 UID: NF:setupapi.SetupDiDrawMiniIcon
 title: SetupDiDrawMiniIcon function (setupapi.h)
 description: The SetupDiDrawMiniIcon function draws the specified mini-icon at the location requested.
+helpviewer_keywords: ["SetupDiDrawMiniIcon","SetupDiDrawMiniIcon function [Device and Driver Installation]","devinst.setupdidrawminiicon","di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml","setupapi/SetupDiDrawMiniIcon"]
 old-location: devinst\setupdidrawminiicon.htm
 tech.root: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7
 ms.date: 12/05/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
-f1_keywords:
-- setupapi/SetupDiDrawMiniIcon
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiDrawMiniIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiDrawMiniIcon
+ - setupapi/SetupDiDrawMiniIcon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiDrawMiniIcon
 ---
 
 # SetupDiDrawMiniIcon function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiDrawMiniIcon</b> function draws the specified mini-icon at the location requested.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 The handle to the device context in which the mini-icon will be drawn.
 
-
 ### -param rc [in]
 
 The rectangle in the specified device context handle to draw the mini-icon in.
 
-
 ### -param MiniIconIndex [in]
 
-The index of the mini-icon, as retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>. The following predefined indexes for devices can be used:
+The index of the mini-icon, as retrieved from <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> or <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>. The following predefined indexes for devices can be used:
 
 <table>
 <tr>
@@ -207,8 +202,6 @@ The index of the mini-icon, as retrieved from <a href="https://docs.microsoft.co
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -234,23 +227,15 @@ Use the system color index specified in the HIWORD of <i>Flags</i> as the backgr
 
 If set, <b>SetupDiDrawMiniIcon</b> uses the supplied rectangle and stretches the icon to fit.
 
-
 ## -returns
-
-
 
 This function returns the offset from the left side of <i>rc</i> where the string should start. If the draw operation fails, the function returns zero.
 
-
-
-
 ## -remarks
-
-
 
 By default, the icon is centered vertically and forced against the left side of the specified rectangle.
 
-<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i>parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
+<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i> parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
 
 
 ```
@@ -263,22 +248,12 @@ DestroyIcon(hIcon);
 ```
 
 
-For more information about <a href="https://go.microsoft.com/fwlink/p/?linkid=181019">DrawIcon</a> or <a href="https://go.microsoft.com/fwlink/p/?linkid=181020">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
-
-
-
+For more information about <a href="/windows/win32/api/winuser/nf-winuser-drawicon">DrawIcon</a> or <a href="/windows/win32/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>

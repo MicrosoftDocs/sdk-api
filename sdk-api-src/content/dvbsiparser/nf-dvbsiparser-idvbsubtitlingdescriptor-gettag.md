@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetTag
 title: IDvbSubtitlingDescriptor::GetTag (dvbsiparser.h)
 description: Gets the tag for a Digital Video Broadcast (DVB) subtitling descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbSubtitlingDescriptor.GetTag","IDvbSubtitlingDescriptor::GetTag","dvbsiparser/IDvbSubtitlingDescriptor::GetTag","mstv.idvbsubtitlingdescriptor_gettag"]
 old-location: mstv\idvbsubtitlingdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 2b16b66d-5e71-4204-984d-e9a9d677f4a9
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbSubtitlingDescriptor.GetTag, IDvbSubtitlingDescriptor::GetTag, dvbsiparser/IDvbSubtitlingDescriptor::GetTag, mstv.idvbsubtitlingdescriptor_gettag
-f1_keywords:
-- dvbsiparser/IDvbSubtitlingDescriptor.GetTag
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSubtitlingDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSubtitlingDescriptor::GetTag
+ - dvbsiparser/IDvbSubtitlingDescriptor::GetTag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSubtitlingDescriptor.GetTag
 ---
 
 # IDvbSubtitlingDescriptor::GetTag
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the tag for a Digital Video Broadcast (DVB) subtitling descriptor. 
-
+Gets the tag for a Digital Video Broadcast (DVB) subtitling descriptor.
 
 ## -parameters
 
-
-
-
 ### -param pbVal [out]
 
-Receives the subtitling descriptor tag. For subtitling descriptors, this tag value is "0x59". 
-
+Receives the subtitling descriptor tag. For subtitling descriptors, this tag value is "0x59".
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>

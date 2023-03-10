@@ -2,15 +2,12 @@
 UID: NE:inked.InkEditStatus
 title: InkEditStatus (inked.h)
 description: Specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.
+helpviewer_keywords: ["94c3a863-4c8a-4471-be1b-b4d5f8ded374","IES_Collecting","IES_Idle","IES_Recognizing","InkEditStatus","InkEditStatus enumeration [Tablet PC]","inked/IES_Collecting","inked/IES_Idle","inked/IES_Recognizing","inked/InkEditStatus","tablet.inkeditstatus"]
 old-location: tablet\inkeditstatus.htm
 tech.root: tablet
 ms.assetid: 94c3a863-4c8a-4471-be1b-b4d5f8ded374
 ms.date: 12/05/2018
 ms.keywords: 94c3a863-4c8a-4471-be1b-b4d5f8ded374, IES_Collecting, IES_Idle, IES_Recognizing, InkEditStatus, InkEditStatus enumeration [Tablet PC], inked/IES_Collecting, inked/IES_Idle, inked/IES_Recognizing, inked/InkEditStatus, tablet.inkeditstatus
-f1_keywords:
-- inked/InkEditStatus
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- inked.h
-api_name:
-- InkEditStatus
 targetos: Windows
 req.typenames: InkEditStatus
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InkEditStatus
+ - inked/InkEditStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - inked.h
+api_name:
+ - InkEditStatus
 ---
 
 # InkEditStatus enumeration
@@ -48,48 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
-
-
-
+Specifies whether the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
 
 ## -enum-fields
 
+### -field IES_Idle:0
 
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is neither collecting nor recognizing ink.
 
+### -field IES_Collecting:1
 
-### -field IES_Idle
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is collecting ink.
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is neither collecting nor recognizing ink.
+### -field IES_Recognizing:2
 
-
-### -field IES_Collecting
-
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is collecting ink.
-
-
-### -field IES_Recognizing
-
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is recognizing ink.
-
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is recognizing ink.
 
 ## -see-also
 
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
+<a href="/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status Property</a>
- 
-
- 
-
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status Property</a>

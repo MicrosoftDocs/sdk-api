@@ -1,16 +1,13 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_State
 title: ITsSbSession::put_State (sbtsv.h)
-description: Retrieves or specifies the session state.
+description: Retrieves or specifies the session state. (Put)
+helpviewer_keywords: ["ITsSbSession interface [Remote Desktop Services]","State property","ITsSbSession.State","ITsSbSession.put_State","ITsSbSession::State","ITsSbSession::get_State","ITsSbSession::put_State","State property [Remote Desktop Services]","State property [Remote Desktop Services]","ITsSbSession interface","put_State","sbtsv/ITsSbSession::State","sbtsv/ITsSbSession::get_State","sbtsv/ITsSbSession::put_State","termserv.itssbsession_state"]
 old-location: termserv\itssbsession_state.htm
 tech.root: TermServ
 ms.assetid: 4e769ff7-2bd5-4fcb-b2d7-4dedc853482b
 ms.date: 12/05/2018
 ms.keywords: ITsSbSession interface [Remote Desktop Services],State property, ITsSbSession.State, ITsSbSession.put_State, ITsSbSession::State, ITsSbSession::get_State, ITsSbSession::put_State, State property [Remote Desktop Services], State property [Remote Desktop Services],ITsSbSession interface, put_State, sbtsv/ITsSbSession::State, sbtsv/ITsSbSession::get_State, sbtsv/ITsSbSession::put_State, termserv.itssbsession_state
-f1_keywords:
-- sbtsv/ITsSbSession.State
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbSession.State
-- ITsSbSession.get_State
-- ITsSbSession.put_State
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbSession::put_State
+ - sbtsv/ITsSbSession::put_State
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbSession.State
+ - ITsSbSession.get_State
+ - ITsSbSession.put_State
 ---
 
 # ITsSbSession::put_State
@@ -50,26 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or specifies the session state.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a>
- 
-
- 
-
+<a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-tssession_state">TSSESSION_STATE</a>

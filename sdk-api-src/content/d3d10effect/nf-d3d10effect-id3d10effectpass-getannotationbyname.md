@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetAnnotationByName
 title: ID3D10EffectPass::GetAnnotationByName (d3d10effect.h)
-description: Get an annotation by name.
+description: Get an annotation by name. (ID3D10EffectPass.GetAnnotationByName)
+helpviewer_keywords: ["59f7484c-cbd4-a88c-8046-100697ca30be","GetAnnotationByName","GetAnnotationByName method [Direct3D 10]","GetAnnotationByName method [Direct3D 10]","ID3D10EffectPass interface","ID3D10EffectPass interface [Direct3D 10]","GetAnnotationByName method","ID3D10EffectPass.GetAnnotationByName","ID3D10EffectPass::GetAnnotationByName","d3d10effect/ID3D10EffectPass::GetAnnotationByName","direct3d10.id3d10effectpass_getannotationbyname"]
 old-location: direct3d10\id3d10effectpass_getannotationbyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass_getannotationbyname.htm
 ms.date: 12/05/2018
 ms.keywords: 59f7484c-cbd4-a88c-8046-100697ca30be, GetAnnotationByName, GetAnnotationByName method [Direct3D 10], GetAnnotationByName method [Direct3D 10],ID3D10EffectPass interface, ID3D10EffectPass interface [Direct3D 10],GetAnnotationByName method, ID3D10EffectPass.GetAnnotationByName, ID3D10EffectPass::GetAnnotationByName, d3d10effect/ID3D10EffectPass::GetAnnotationByName, direct3d10.id3d10effectpass_getannotationbyname
-f1_keywords:
-- d3d10effect/ID3D10EffectPass.GetAnnotationByName
-dev_langs:
-- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D10Effect.h
-api_name:
-- ID3D10EffectPass.GetAnnotationByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D10EffectPass::GetAnnotationByName
+ - d3d10effect/ID3D10EffectPass::GetAnnotationByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D10Effect.h
+api_name:
+ - ID3D10EffectPass.GetAnnotationByName
 ---
 
 # ID3D10EffectPass::GetAnnotationByName
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Get an annotation by name.
-
 
 ## -parameters
 
-
-
-
 ### -param Name [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The name of the annotation.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>*</b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable</a>*</b>
-
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable Interface</a>.
-
-
-
+A pointer to an <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable Interface</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect">ID3D10Effect Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpass">ID3D10EffectPass</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpass">ID3D10EffectPass</a>

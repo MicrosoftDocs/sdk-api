@@ -2,15 +2,12 @@
 UID: NF:msctf.IEnumTfProperties.Clone
 title: IEnumTfProperties::Clone (msctf.h)
 description: IEnumTfProperties::Clone method
+helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumTfProperties interface","IEnumTfProperties interface [Text Services Framework]","Clone method","IEnumTfProperties.Clone","IEnumTfProperties::Clone","_tsf_ienumtfproperties_clone_ref","msctf/IEnumTfProperties::Clone","tsf.ienumtfproperties_clone"]
 old-location: tsf\ienumtfproperties_clone.htm
 tech.root: TSF
 ms.assetid: ee90f452-7e50-4b9a-b81d-b5d4244f55b4
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfProperties interface, IEnumTfProperties interface [Text Services Framework],Clone method, IEnumTfProperties.Clone, IEnumTfProperties::Clone, _tsf_ienumtfproperties_clone_ref, msctf/IEnumTfProperties::Clone, tsf.ienumtfproperties_clone
-f1_keywords:
-- msctf/IEnumTfProperties.Clone
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfProperties.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfProperties::Clone
+ - msctf/IEnumTfProperties::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfProperties.Clone
 ---
 
 # IEnumTfProperties::Clone
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a> interface pointer that receives the new enumerator.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties</a> interface pointer that receives the new enumerator.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,19 +101,7 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfproperties">IEnumTfProperties
-      </a>
- 
-
- 
-
+[IEnumTfProperties interface](nn-msctf-ienumtfproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md)

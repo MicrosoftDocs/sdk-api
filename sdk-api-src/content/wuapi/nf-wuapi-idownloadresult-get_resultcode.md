@@ -2,15 +2,12 @@
 UID: NF:wuapi.IDownloadResult.get_ResultCode
 title: IDownloadResult::get_ResultCode (wuapi.h)
 description: Gets an OperationResultCodeenumeration that specifies the result of the download.
+helpviewer_keywords: ["IDownloadResult interface [Windows Update Agent]","ResultCode property","IDownloadResult.ResultCode","IDownloadResult.get_ResultCode","IDownloadResult::ResultCode","IDownloadResult::get_ResultCode","ResultCode property [Windows Update Agent]","ResultCode property [Windows Update Agent]","IDownloadResult interface","get_ResultCode","wua.idownloadresult_resultcode","wuapi/IDownloadResult::ResultCode","wuapi/IDownloadResult::get_ResultCode"]
 old-location: wua\idownloadresult_resultcode.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 5c3756b1-ad1a-47c8-98ff-e8e602302662
 ms.date: 12/05/2018
 ms.keywords: IDownloadResult interface [Windows Update Agent],ResultCode property, IDownloadResult.ResultCode, IDownloadResult.get_ResultCode, IDownloadResult::ResultCode, IDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IDownloadResult interface, get_ResultCode, wua.idownloadresult_resultcode, wuapi/IDownloadResult::ResultCode, wuapi/IDownloadResult::get_ResultCode
-f1_keywords:
-- wuapi/IDownloadResult.ResultCode
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IDownloadResult.ResultCode
-- IDownloadResult.get_ResultCode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDownloadResult::get_ResultCode
+ - wuapi/IDownloadResult::get_ResultCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IDownloadResult.ResultCode
+ - IDownloadResult.get_ResultCode
 ---
 
 # IDownloadResult::get_ResultCode
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a>enumeration that specifies the result of the download.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> enumeration that specifies the result of the download.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a>

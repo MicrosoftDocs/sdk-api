@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterNotificationSink
 title: IWSDiscoveryPublisher::RegisterNotificationSink (wsddisco.h)
 description: Attaches a callback notification sink to the discovery publisher.
+helpviewer_keywords: ["IWSDiscoveryPublisher interface","RegisterNotificationSink method","IWSDiscoveryPublisher.RegisterNotificationSink","IWSDiscoveryPublisher::RegisterNotificationSink","RegisterNotificationSink","RegisterNotificationSink method","RegisterNotificationSink method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_registernotificationsink_method","wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink"]
 old-location: ncd\iwsdiscoverypublisher_registernotificationsink_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 75a6c593-298b-45b4-bde5-2a383b7581cc
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterNotificationSink method, IWSDiscoveryPublisher.RegisterNotificationSink, IWSDiscoveryPublisher::RegisterNotificationSink, RegisterNotificationSink, RegisterNotificationSink method, RegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registernotificationsink_method, wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
-f1_keywords:
-- wsddisco/IWSDiscoveryPublisher.RegisterNotificationSink
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryPublisher.RegisterNotificationSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryPublisher::RegisterNotificationSink
+ - wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryPublisher.RegisterNotificationSink
 ---
 
 # IWSDiscoveryPublisher::RegisterNotificationSink
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attaches a callback notification sink to the discovery publisher.
-
 
 ## -parameters
 
-
-
-
 ### -param pSink [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a> object that represents the initialized interface to receive callback notifications. This parameter cannot be <b>NULL</b>.
-
+Pointer to an <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a> object that represents the initialized interface to receive callback notifications. This parameter cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,29 +101,14 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The notification sink receives a callback whenever an inbound query is received. It is possible to register multiple notification sinks with a single publisher.
 
-<div class="alert"><b>Note</b>  <b>RegisterNotificationSink</b> must be called at least once before any other <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> method is used.</div>
+<div class="alert"><b>Note</b>  <b>RegisterNotificationSink</b> must be called at least once before any other <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> method is used.</div>
 <div> </div>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>

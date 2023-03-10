@@ -2,15 +2,12 @@
 UID: NC:routprot.PSET_GLOBAL_INFO
 title: PSET_GLOBAL_INFO (routprot.h)
 description: The SetGlobalInfo function sets the global (as opposed to interface-specific) configuration information kept by the routing protocol. The format of this information is specific to the routing protocol.
+helpviewer_keywords: ["PSET_GLOBAL_INFO","PSET_GLOBAL_INFO callback","PSET_GLOBAL_INFO callback function [RAS]","SetGlobalInfo","_mpr_setglobalinfo","routprot/PSET_GLOBAL_INFO","rras.setglobalinfo"]
 old-location: rras\setglobalinfo.htm
 tech.root: RRAS
 ms.assetid: fd977a71-bfa7-40e4-9afc-4824989f857f
 ms.date: 12/05/2018
 ms.keywords: PSET_GLOBAL_INFO, PSET_GLOBAL_INFO callback, PSET_GLOBAL_INFO callback function [RAS], SetGlobalInfo, _mpr_setglobalinfo, routprot/PSET_GLOBAL_INFO, rras.setglobalinfo
-f1_keywords:
-- routprot/PSET_GLOBAL_INFO
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- PSET_GLOBAL_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSET_GLOBAL_INFO
+ - routprot/PSET_GLOBAL_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - PSET_GLOBAL_INFO
 ---
 
 # PSET_GLOBAL_INFO callback function
@@ -48,39 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetGlobalInfo</b> function sets the global (as opposed to interface-specific) configuration information kept by the routing protocol. The format of this information is specific to the routing protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param GlobalInfo [in]
 
 Pointer to a buffer that specifies the protocol-defined global configuration information.
 
-
 ### -param StructureVersion
-
 
 ### -param StructureSize
 
-
 ### -param StructureCount
 
-
-
-
-
-
-
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -119,29 +104,18 @@ The <i>GlobalInfo</i> parameter is <b>NULL</b>, or one of the parameters in the 
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_global_info">GetGlobalInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_global_info">GetGlobalInfo</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_interface_info">GetInterfaceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_interface_info">GetInterfaceInfo</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterGroupControl
 title: ClusterGroupControl function (clusapi.h)
 description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.
+helpviewer_keywords: ["ClusterGroupControl","ClusterGroupControl function [Failover Cluster]","_wolf_clustergroupcontrol","clusapi/ClusterGroupControl","mscs.clustergroupcontrol"]
 old-location: mscs\clustergroupcontrol.htm
 tech.root: MsCS
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupControl, ClusterGroupControl function [Failover Cluster], _wolf_clustergroupcontrol, clusapi/ClusterGroupControl, mscs.clustergroupcontrol
-f1_keywords:
-- clusapi/ClusterGroupControl
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- ClusterGroupControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterGroupControl
+ - clusapi/ClusterGroupControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - ClusterGroupControl
 ---
 
 # ClusterGroupControl function
@@ -52,128 +54,112 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates an 
-    operation that affects a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>. The operation performed depends on 
-    the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to the 
+    operation that affects a <a href="/previous-versions/windows/desktop/mscs/groups">group</a>. The operation performed depends on 
+    the <a href="/previous-versions/windows/desktop/mscs/control-codes">control code</a> passed to the 
     <i>dwControlCode</i> parameter.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 Handle to the group to be affected.
 
-
 ### -param hHostNode [in, optional]
 
 If non-<b>NULL</b>, handle to the node to perform the operation represented by the control 
-       code. If <b>NULL</b>, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> that owns the 
+       code. If <b>NULL</b>, the <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> that owns the 
        group performs the operation. Specifying <i>hHostNode</i> is optional.
-
 
 ### -param dwControlCode [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-control-codes">group control code</a> specifying the operation to 
+A <a href="/previous-versions/windows/desktop/mscs/group-control-codes">group control code</a> specifying the operation to 
        be performed. For the syntax associated with a control code, refer to  
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a> and the following 
+       <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a> and the following 
        topics:
 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-enum-common-properties">CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-enum-common-properties">CLUSCTL_GROUP_ENUM_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-enum-private-properties">CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-enum-private-properties">CLUSCTL_GROUP_ENUM_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-characteristics">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-characteristics">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-common-properties">CLUSCTL_GROUP_GET_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-common-properties">CLUSCTL_GROUP_GET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-common-property-fmts">CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-common-property-fmts">CLUSCTL_GROUP_GET_COMMON_PROPERTY_FMTS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-flags">CLUSCTL_GROUP_GET_FLAGS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-flags">CLUSCTL_GROUP_GET_FLAGS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-id">CLUSCTL_GROUP_GET_ID</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-id">CLUSCTL_GROUP_GET_ID</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-name">CLUSCTL_GROUP_GET_NAME</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-name">CLUSCTL_GROUP_GET_NAME</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-private-properties">CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-private-properties">CLUSCTL_GROUP_GET_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-private-property-fmts">CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-private-property-fmts">CLUSCTL_GROUP_GET_PRIVATE_PROPERTY_FMTS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-common-properties">CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-common-properties">CLUSCTL_GROUP_GET_RO_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-private-properties">CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-ro-private-properties">CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-query-delete">CLUSCTL_GROUP_QUERY_DELETE</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-query-delete">CLUSCTL_GROUP_QUERY_DELETE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-set-common-properties">CLUSCTL_GROUP_SET_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-set-common-properties">CLUSCTL_GROUP_SET_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-set-private-properties">CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-set-private-properties">CLUSCTL_GROUP_SET_PRIVATE_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-unknown">CLUSCTL_GROUP_UNKNOWN</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-unknown">CLUSCTL_GROUP_UNKNOWN</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-validate-common-properties">CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-validate-common-properties">CLUSCTL_GROUP_VALIDATE_COMMON_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-validate-private-properties">CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-validate-private-properties">CLUSCTL_GROUP_VALIDATE_PRIVATE_PROPERTIES</a>
 </li>
 </ul>
-
-
 
 ### -param lpInBuffer [in, optional]
 
 Pointer to an input buffer containing information needed for the operation, or <b>NULL</b> 
        if no information is needed.
 
-
 ### -param nInBufferSize [in]
 
 The allocated size (in bytes) of the input buffer.
-
 
 ### -param lpOutBuffer [out, optional]
 
 Pointer to an output buffer to receive the data resulting from the operation, or 
        <b>NULL</b> if no data will be returned.
 
-
 ### -param nOutBufferSize [in]
 
 The allocated size (in bytes) of the output buffer.
-
 
 ### -param lpBytesReturned [out, optional]
 
 Returns the actual size (in bytes) of the data resulting from the operation. If this information is not 
        needed, pass <b>NULL</b> for <i>lpBytesReturned</i>.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -215,7 +201,7 @@ The output buffer pointed to by <i>lpOutBuffer</i> was not large enough to hold 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
+<dt><b><a href="/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -226,14 +212,8 @@ The operation was not successful. If the operation required an output buffer, th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <b>ClusterGroupControl</b> returns 
      <b>ERROR_MORE_DATA</b>, set <i>nOutBufferSize</i> to the number of bytes 
@@ -241,13 +221,13 @@ If <b>ClusterGroupControl</b> returns
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
      can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a> and 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
+     <a href="/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a> and 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
 <b>ClusterGroupControl</b> is one of the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-functions">control code functions</a>. For more information on 
+     <a href="/previous-versions/windows/desktop/mscs/control-code-functions">control code functions</a>. For more information on 
      control codes and control code functions, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-control-codes">Using Control Codes</a>.
+     <a href="/previous-versions/windows/desktop/mscs/using-control-codes">Using Control Codes</a>.
 
 
 #### Examples
@@ -255,7 +235,9 @@ Do not pass LPC and RPC handles to the same function call. Otherwise, the call w
 The following code fragment demonstrates a call to 
       <b>ClusterGroupControl</b>.
 
-<pre class="syntax" xml:space="preserve"><code>// Allocate buffer.
+
+``` syntax
+// Allocate buffer.
 lpPropList = LocalAlloc( LPTR, cbAllocated );
 
 // Initial call.
@@ -292,21 +274,14 @@ if ( dwResult == ERROR_MORE_DATA )
 if ( dwResult != ERROR_SUCCESS )
 {
   // Respond to error.
-}</code></pre>
-
+}
+```
 
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mscs/group-control-codes">Group Control Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-control-codes">Group Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>

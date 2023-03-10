@@ -2,15 +2,12 @@
 UID: NF:wia_xp.IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
 title: IWiaDataTransfer::idtEnumWIA_FORMAT_INFO (wia_xp.h)
 description: The IWiaDataTransfer::idtEnumWIA_FORMAT_INFO method creates a banded transfer implementation of the IEnumWIA_FORMAT_INFO interface.
+helpviewer_keywords: ["IWiaDataTransfer interface [WIA]","idtEnumWIA_FORMAT_INFO method","IWiaDataTransfer.idtEnumWIA_FORMAT_INFO","IWiaDataTransfer::idtEnumWIA_FORMAT_INFO","_wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO","idtEnumWIA_FORMAT_INFO","idtEnumWIA_FORMAT_INFO method [WIA]","idtEnumWIA_FORMAT_INFO method [WIA]","IWiaDataTransfer interface","wia._wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO","wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO"]
 old-location: wia\_wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtenumwia_format_info.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtEnumWIA_FORMAT_INFO method, IWiaDataTransfer.idtEnumWIA_FORMAT_INFO, IWiaDataTransfer::idtEnumWIA_FORMAT_INFO, _wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO method [WIA], idtEnumWIA_FORMAT_INFO method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
-f1_keywords:
-- wia_xp/IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
+ - wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
 ---
 
 # IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</b> method creates a banded transfer implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
-
+The <b>IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</b> method creates a banded transfer implementation of the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a>**</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a>**</b>
 
-Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
-
+Receives the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -79,7 +73,7 @@ If it fails for any reason other than those specified in the following table, th
 </tr>
 <tr>
 <td>E_INVALIDARG</td>
-<td>The <i>ppEnum</i> parameter is not the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.</td>
+<td>The <i>ppEnum</i> parameter is not the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.</td>
 </tr>
 <tr>
 <td>E_OUTOFMEMORY</td>
@@ -90,18 +84,9 @@ If it fails for any reason other than those specified in the following table, th
 <td>The enumerator object was successfully created.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method creates the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface that applications use to enumerate an array of <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures. This provides applications with the ability to determine the formats and media types of incoming data when transferring banded data.
 
-
-This method creates the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface that applications use to enumerate an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures. This provides applications with the ability to determine the formats and media types of incoming data when transferring banded data.
-
-Note that applications must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppEnum</i> parameter.
-
-
-
+Note that applications must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppEnum</i> parameter.

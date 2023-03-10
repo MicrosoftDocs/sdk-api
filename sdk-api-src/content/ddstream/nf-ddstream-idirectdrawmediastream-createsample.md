@@ -2,15 +2,12 @@
 UID: NF:ddstream.IDirectDrawMediaStream.CreateSample
 title: IDirectDrawMediaStream::CreateSample (ddstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Creates a stream sample using the specified DirectDraw surface object.
+helpviewer_keywords: ["CreateSample","CreateSample method [DirectShow]","CreateSample method [DirectShow]","IDirectDrawMediaStream interface","IDirectDrawMediaStream interface [DirectShow]","CreateSample method","IDirectDrawMediaStream.CreateSample","IDirectDrawMediaStream::CreateSample","IDirectDrawMediaStreamCreateSample","ddstream/IDirectDrawMediaStream::CreateSample","dshow.idirectdrawmediastream_createsample"]
 old-location: dshow\idirectdrawmediastream_createsample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 85041c71-f9fc-48fc-8fe2-fec21efb831b
 ms.date: 12/05/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IDirectDrawMediaStream interface, IDirectDrawMediaStream interface [DirectShow],CreateSample method, IDirectDrawMediaStream.CreateSample, IDirectDrawMediaStream::CreateSample, IDirectDrawMediaStreamCreateSample, ddstream/IDirectDrawMediaStream::CreateSample, dshow.idirectdrawmediastream_createsample
-f1_keywords:
-- ddstream/IDirectDrawMediaStream.CreateSample
-dev_langs:
-- c++
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ddstream.h
-api_name:
-- IDirectDrawMediaStream.CreateSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawMediaStream::CreateSample
+ - ddstream/IDirectDrawMediaStream::CreateSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ddstream.h
+api_name:
+ - IDirectDrawMediaStream.CreateSample
 ---
 
 # IDirectDrawMediaStream::CreateSample
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 Creates a stream sample using the specified DirectDraw surface object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSurface [in]
 
 Pointer to an existing DirectDraw surface. Use <b>QueryInterface</b> to obtain the <b>IDirectDrawSurface</b> interface from an <b>IDirectDrawSurface7</b> interface pointer.
 
-
 ### -param pRect [in]
 
 Pointer to the clipping rectangle you want to use with the specified surface. Set this parameter to <b>NULL</b> if you want to use the entire surface.
-
 
 ### -param dwFlags [in]
 
@@ -88,17 +80,12 @@ Specifies miscellaneous flags. The following flag is defined:
 <td>If this flag is set, sample updates are performed directly on the surface. When this flag is absent, if the decoder uses delta frames, an extra copy is performed internally. Setting this flag can improve performance but can also introduce tearing.</td>
 </tr>
 </table>
- 
-
 
 ### -param ppSample [out]
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample</a> interface that will point to the newly created sample.
-
+Address of a pointer to an <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample</a> interface that will point to the newly created sample.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -174,33 +161,17 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method creates a sample from the current stream and attaches the sample to this surface.
 
-If the stream doesn't have an allocated surface and the specified surface doesn't match the stream's format, this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">IDirectDrawMediaStream::SetFormat</a> method on the stream so the two will match.
+If the stream doesn't have an allocated surface and the specified surface doesn't match the stream's format, this method calls the <a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">IDirectDrawMediaStream::SetFormat</a> method on the stream so the two will match.
 
 To perform a progressive render, create a single sample and repeatedly use that sample for successive frames of video. Video decompressors use this technique to do partial updates to the previous frame.
 
-The <i>pRect</i> parameter should match the format of the stream (see <a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-getformat">IDirectDrawMediaStream::GetFormat</a>). If the wrong clip rectangle is set or no clip rectangle is set, and the surface size does not match the movie size, the movie might not play. If a primary surface is used, it is advisable to use a clipping rectangle because the primary surface size can change if the user changes display settings.
-
-
-
+The <i>pRect</i> parameter should match the format of the stream (see <a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-getformat">IDirectDrawMediaStream::GetFormat</a>). If the wrong clip rectangle is set or no clip rectangle is set, and the surface size does not match the movie size, the movie might not play. If a primary surface is used, it is advisable to use a clipping rectangle because the primary surface size can change if the user changes display settings.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>

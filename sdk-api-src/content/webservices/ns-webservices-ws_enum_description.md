@@ -2,15 +2,12 @@
 UID: NS:webservices._WS_ENUM_DESCRIPTION
 title: WS_ENUM_DESCRIPTION (webservices.h)
 description: A type description that is used with WS_ENUM_TYPE and is required. It provides information used in serializing and deserializing values of an enumeration.
+helpviewer_keywords: ["WS_ENUM_DESCRIPTION","WS_ENUM_DESCRIPTION structure [Web Services for Windows]","webservices/WS_ENUM_DESCRIPTION","wsw.ws_enum_description"]
 old-location: wsw\ws_enum_description.htm
 tech.root: wsw
 ms.assetid: cf7c9254-c806-4ada-8852-beb6be5e81d9
 ms.date: 12/05/2018
 ms.keywords: WS_ENUM_DESCRIPTION, WS_ENUM_DESCRIPTION structure [Web Services for Windows], webservices/WS_ENUM_DESCRIPTION, wsw.ws_enum_description
-f1_keywords:
-- webservices/WS_ENUM_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_ENUM_DESCRIPTION
 targetos: Windows
 req.typenames: WS_ENUM_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_ENUM_DESCRIPTION
+ - webservices/_WS_ENUM_DESCRIPTION
+ - WS_ENUM_DESCRIPTION
+ - webservices/WS_ENUM_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENUM_DESCRIPTION
 ---
 
 # WS_ENUM_DESCRIPTION structure
@@ -48,17 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-A type description that is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENUM_TYPE</a> and is required. 
+A type description that is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENUM_TYPE</a> and is required. 
                 It provides information used in serializing and deserializing
                 values of an enumeration.
-            
-
 
 ## -struct-fields
-
-
-
 
 ### -field values
 
@@ -68,21 +66,15 @@ Points to an array of enumeration values and their
 
 There must not be duplicate values or names in
                     the array.
-                
-
 
 ### -field valueCount
 
 The number of items in the values array.
-                
-
 
 ### -field maxByteCount
 
 The length, in UTF8 bytes, of the longest name
                     in the values array.
-                
-
 
 ### -field nameIndices
 
@@ -108,14 +100,14 @@ If non-<b>NULL</b>, the following must be true:
 
 ## -remarks
 
-
-
 The following examples illustrates initializing an enum description.  This 
                 example illustrates the use of the nameIndices field, but this field could
                 be <b>NULL</b> instead.
             
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 enum
 {
     Red = 10,
@@ -148,6 +140,6 @@ enumDescription.maxByteCount = 5; // "green"
 enumDescription.values = valueArray;
 enumDescription.valueCount = 3;
 enumDescription.nameIndices = nameIndices;
-</code></pre>
 
+```
 

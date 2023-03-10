@@ -2,15 +2,12 @@
 UID: NF:textserv.ITextServices.OnTxSetCursor
 title: ITextServices::OnTxSetCursor (textserv.h)
 description: Notifies the text services object to set the cursor.
+helpviewer_keywords: ["DVASPECT_CONTENT","DVASPECT_DOCPRINT","ITextServices interface [Windows Controls]","OnTxSetCursor method","ITextServices.OnTxSetCursor","ITextServices::OnTxSetCursor","OnTxSetCursor","OnTxSetCursor method [Windows Controls]","OnTxSetCursor method [Windows Controls]","ITextServices interface","_win32_ITextServices_OnTxSetCursor","_win32_ITextServices_OnTxSetCursor_cpp","controls.ITextServices_OnTxSetCursor","controls._win32_ITextServices_OnTxSetCursor","textserv/ITextServices::OnTxSetCursor"]
 old-location: controls\ITextServices_OnTxSetCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxsetcursor.htm
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_DOCPRINT, ITextServices interface [Windows Controls],OnTxSetCursor method, ITextServices.OnTxSetCursor, ITextServices::OnTxSetCursor, OnTxSetCursor, OnTxSetCursor method [Windows Controls], OnTxSetCursor method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxSetCursor, _win32_ITextServices_OnTxSetCursor_cpp, controls.ITextServices_OnTxSetCursor, controls._win32_ITextServices_OnTxSetCursor, textserv/ITextServices::OnTxSetCursor
-f1_keywords:
-- textserv/ITextServices.OnTxSetCursor
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextServices.OnTxSetCursor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextServices::OnTxSetCursor
+ - textserv/ITextServices::OnTxSetCursor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextServices.OnTxSetCursor
 ---
 
 # ITextServices::OnTxSetCursor
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies the text services object to set the cursor.
-
 
 ## -parameters
 
-
-
-
 ### -param dwDrawAspect [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Draw aspect can be one of the following values.
 
@@ -91,74 +88,62 @@ Renders the object to the <i>hdcDraw</i> device context as though it were printe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lindex
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Not supported.
-
 
 ### -param pvAspect [in]
 
 Type: <b>void*</b>
 
-Information for drawing optimizations. 
-
+Information for drawing optimizations.
 
 ### -param ptd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>*</b>
 
 The target device.
 
-
 ### -param hdcDraw [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-Rendering device context. 
-
+Rendering device context.
 
 ### -param hicTargetDev [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
-Target information context. 
-
+Target information context.
 
 ### -param lprcClient [in]
 
 Type: <b>LPCRECT</b>
 
-The control's client rectangle. The coordinates of the rectangle are in client coordinates of the containing window. <b>NULL</b> is a legal value. 
-
+The control's client rectangle. The coordinates of the rectangle are in client coordinates of the containing window. <b>NULL</b> is a legal value.
 
 ### -param x [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-x position of cursor, in the client coordinates of the containing window. 
-
+x position of cursor, in the client coordinates of the containing window.
 
 ### -param y [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
-y position of cursor, in the client coordinates of the containing window. 
-
+y position of cursor, in the client coordinates of the containing window.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, the return value is <b>S_OK</b>.
 
-If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method fails, the return value is the following <b>HRESULT</b> code. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -177,36 +162,24 @@ One or more illegal parameters.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The text services object may remeasure as a result of this call to determine the correct cursor. The correct cursor is set through <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>.
 
-
-The text services object may remeasure as a result of this call to determine the correct cursor. The correct cursor is set through <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>.
-
-The <i>lprcClient</i> parameter is the client rectangle of the view of the control over which the mouse cursor is positioned. The <i>lprcClient</i> parameter is in device coordinates of the containing window in the same way the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size">WM_SIZE</a> message is. This may not be the view that was rendered last. Furthermore, if the control is in-place active, this may not be the current active view . As a consequence, the text services object should check this rectangle against its current cache's value and determine whether recalculating the lines is necessary or not. The zoom factor should be included in this computation. For a discussion of the zoom factor, see <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>.
+The <i>lprcClient</i> parameter is the client rectangle of the view of the control over which the mouse cursor is positioned. The <i>lprcClient</i> parameter is in device coordinates of the containing window in the same way the <a href="/windows/desktop/winmsg/wm-size">WM_SIZE</a> message is. This may not be the view that was rendered last. Furthermore, if the control is in-place active, this may not be the current active view . As a consequence, the text services object should check this rectangle against its current cache's value and determine whether recalculating the lines is necessary or not. The zoom factor should be included in this computation. For a discussion of the zoom factor, see <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>.
 
 This method should be called only for screen views of the control. Therefore the device context (DC) is not passed in, but should be assumed to be a screen DC.
 
-For more information, see the Remarks in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>.
-
-
-
+For more information, see the Remarks in <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">ITextServices::TxDraw</a>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itextservices">ITextServices</a>
 
 
 
@@ -218,24 +191,20 @@ For more information, see the Remarks in <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itextservices-txdraw">TxDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txgetextent">TxGetExtent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txsetcursor">TxSetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size">WM_SIZE</a>
+<a href="/windows/desktop/winmsg/wm-size">WM_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

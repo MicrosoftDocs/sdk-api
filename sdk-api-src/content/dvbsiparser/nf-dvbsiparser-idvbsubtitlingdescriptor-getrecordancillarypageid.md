@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 title: IDvbSubtitlingDescriptor::GetRecordAncillaryPageID (dvbsiparser.h)
 description: Gets the ancillary page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
+helpviewer_keywords: ["GetRecordAncillaryPageID","GetRecordAncillaryPageID method [Microsoft TV Technologies]","GetRecordAncillaryPageID method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordAncillaryPageID method","IDvbSubtitlingDescriptor.GetRecordAncillaryPageID","IDvbSubtitlingDescriptor::GetRecordAncillaryPageID","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordAncillaryPageID","mstv.idvbsubtitlingdescriptor_getrecordancillarypageid"]
 old-location: mstv\idvbsubtitlingdescriptor_getrecordancillarypageid.htm
 tech.root: mstv
 ms.assetid: ab490087-063d-4e9f-8aa5-679804548d26
 ms.date: 12/05/2018
 ms.keywords: GetRecordAncillaryPageID, GetRecordAncillaryPageID method [Microsoft TV Technologies], GetRecordAncillaryPageID method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordAncillaryPageID method, IDvbSubtitlingDescriptor.GetRecordAncillaryPageID, IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordAncillaryPageID, mstv.idvbsubtitlingdescriptor_getrecordancillarypageid
-f1_keywords:
-- dvbsiparser/IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSubtitlingDescriptor::GetRecordAncillaryPageID
+ - dvbsiparser/IDvbSubtitlingDescriptor::GetRecordAncillaryPageID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 ---
 
 # IDvbSubtitlingDescriptor::GetRecordAncillaryPageID
@@ -48,38 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
- Gets the ancillary page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.  The DVB subtitling segments signalling the ancillary page identifier are decoded if the previous data in the subtitling descriptor matches the user's selection criteria. 
-
+ Gets the ancillary page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.  The DVB subtitling segments signalling the ancillary page identifier are decoded if the previous data in the subtitling descriptor matches the user's selection criteria.
 
 ## -parameters
 
-
-
-
 ### -param bRecordIndex [in]
 
-Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
-
-
+Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
 
 ### -param pwVal [out]
 
 Receives the ancillary page identifier.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 If the subtitling descriptor has no ancillary page, the values in
 the ancillary_page_id and composition_page_id fields of the descriptor are the same.
@@ -87,20 +74,10 @@ the ancillary_page_id and composition_page_id fields of the descriptor are the s
  The ancillary_page_id is never signalled in a composition segment. It may be signalled in color
 lookup table (CLUT) definition segments, object segments, or any other type of segment.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>

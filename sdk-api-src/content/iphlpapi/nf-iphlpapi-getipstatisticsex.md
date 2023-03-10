@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.GetIpStatisticsEx
 title: GetIpStatisticsEx function (iphlpapi.h)
 description: The GetIpStatisticsEx function retrieves the Internet Protocol (IP) statistics for the current computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","GetIpStatisticsEx","GetIpStatisticsEx function [IP Helper]","_iphlp_getipstatisticsex","iphlp.getipstatisticsex","iphlpapi/GetIpStatisticsEx"]
 old-location: iphlp\getipstatisticsex.htm
 tech.root: IpHlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
-f1_keywords:
-- iphlpapi/GetIpStatisticsEx
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetIpStatisticsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIpStatisticsEx
+ - iphlpapi/GetIpStatisticsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetIpStatisticsEx
 ---
 
 # GetIpStatisticsEx function
@@ -48,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetIpStatisticsEx</b> function retrieves the Internet Protocol (IP) statistics for the current computer. The 
 <b>GetIpStatisticsEx</b> function differs from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a> function in that 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a> function in that 
 <b>GetIpStatisticsEx</b> also supports the Internet Protocol version 6 (IPv6) protocol family.
 
-
 ## -parameters
-
-
-
 
 ### -param Statistics [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a> structure that receives the IP statistics for the local computer.
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a> structure that receives the IP statistics for the local computer.
 
 ### -param Family [in]
 
@@ -99,12 +95,8 @@ Internet Protocol version 6 (IPv6).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -145,55 +137,39 @@ This function is not supported on the operating system on which the function cal
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetIpStatisticsEx</b> can be used to obtain the IP statistics for either IPv4 or IPv6 on the local computer. 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a> function returns the statistics for only IPv4 on the local computer.     
-
-
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a> function returns the statistics for only IPv4 on the local computer.
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatistics">GetIpStatistics</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatisticsex">GetUdpStatisticsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatisticsex">GetUdpStatisticsEx</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipstats_lh">MIB_IPSTATS</a>

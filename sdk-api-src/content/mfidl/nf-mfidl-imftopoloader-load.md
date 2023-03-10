@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopoLoader.Load
 title: IMFTopoLoader::Load (mfidl.h)
 description: Creates a fully loaded topology from the input partial topology.
+helpviewer_keywords: ["02ce47db-54a1-456a-a763-c62039aea2c9","IMFTopoLoader interface [Media Foundation]","Load method","IMFTopoLoader.Load","IMFTopoLoader::Load","Load","Load method [Media Foundation]","Load method [Media Foundation]","IMFTopoLoader interface","mf.imftopoloader_load","mfidl/IMFTopoLoader::Load"]
 old-location: mf\imftopoloader_load.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 02ce47db-54a1-456a-a763-c62039aea2c9
 ms.date: 12/05/2018
 ms.keywords: 02ce47db-54a1-456a-a763-c62039aea2c9, IMFTopoLoader interface [Media Foundation],Load method, IMFTopoLoader.Load, IMFTopoLoader::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFTopoLoader interface, mf.imftopoloader_load, mfidl/IMFTopoLoader::Load
-f1_keywords:
-- mfidl/IMFTopoLoader.Load
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopoLoader.Load
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopoLoader::Load
+ - mfidl/IMFTopoLoader::Load
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopoLoader.Load
 ---
 
 # IMFTopoLoader::Load
@@ -49,35 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a fully loaded topology from the input partial topology.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pInputTopo [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the partial topology to be resolved.
-
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the partial topology to be resolved.
 
 ### -param ppOutputTopo [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the completed topology. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the completed topology. The caller must release the interface.
 
 ### -param pCurrentTopo [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the previous full topology. The topology loader can re-use objects from this topology in the new topology. This parameter can be <b>NULL</b>. See Remarks.
-          
-
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the previous full topology. The topology loader can re-use objects from this topology in the new topology. This parameter can be <b>NULL</b>. See Remarks.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -106,19 +96,13 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One or more output nodes contain <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointers. The caller must bind the output nodes to media sinks. See  <a href="https://docs.microsoft.com/windows/desktop/medfound/binding-output-nodes-to-media-sinks">Binding Output Nodes to Media Sinks</a>.
+One or more output nodes contain <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointers. The caller must bind the output nodes to media sinks. See  <a href="/windows/desktop/medfound/binding-output-nodes-to-media-sinks">Binding Output Nodes to Media Sinks</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method creates any intermediate transforms that are needed to complete the topology. It also sets the input and output media types on all of the objects in the topology. If the method succeeds, the full topology is returned in the <i>ppOutputTopo</i> parameter.
       
@@ -126,27 +110,16 @@ This method creates any intermediate transforms that are needed to complete the 
 You can use the <i>pCurrentTopo</i> parameter to provide a full topology that was previously loaded. If this topology contains objects that are needed in the new topology, the topology loader can re-use them without creating them again. This caching can potentially make the process faster. The objects from <i>pCurrentTopo</i> will not be reconfigured, so you can specify a topology that is actively streaming data. For example, while a topology is still running, you can pre-load the next topology.
       
 
-Before calling this method, you must ensure that the output nodes in the partial topology have valid <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> pointers, not <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointers. The Media Session automatically performs this action inside the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> method. However, if you call <b>Load</b> before calling <b>SetTopology</b>, you must bind the output nodes manually. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/binding-output-nodes-to-media-sinks">Binding Output Nodes to Media Sinks</a>.
-      
-
-
-
+Before calling this method, you must ensure that the output nodes in the partial topology have valid <a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamsink">IMFStreamSink</a> pointers, not <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointers. The Media Session automatically performs this action inside the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> method. However, if you call <b>Load</b> before calling <b>SetTopology</b>, you must bind the output nodes manually. For more information, see <a href="/windows/desktop/medfound/binding-output-nodes-to-media-sinks">Binding Output Nodes to Media Sinks</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/advanced-topology-building">Advanced Topology Building</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/advanced-topology-building">Advanced Topology Building</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopoloader">IMFTopoLoader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopoloader">IMFTopoLoader</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

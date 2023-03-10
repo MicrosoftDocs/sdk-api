@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMBufferNegotiation.GetAllocatorProperties
 title: IAMBufferNegotiation::GetAllocatorProperties (strmif.h)
 description: The GetAllocatorProperties method retrieves the allocator properties that the pin is using.
+helpviewer_keywords: ["GetAllocatorProperties","GetAllocatorProperties method [DirectShow]","GetAllocatorProperties method [DirectShow]","IAMBufferNegotiation interface","IAMBufferNegotiation interface [DirectShow]","GetAllocatorProperties method","IAMBufferNegotiation.GetAllocatorProperties","IAMBufferNegotiation::GetAllocatorProperties","IAMBufferNegotiationGetAllocatorProperties","dshow.iambuffernegotiation_getallocatorproperties","strmif/IAMBufferNegotiation::GetAllocatorProperties"]
 old-location: dshow\iambuffernegotiation_getallocatorproperties.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 85bbb900-772c-4091-83e3-f2a5dd198d39
 ms.date: 12/05/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [DirectShow], GetAllocatorProperties method [DirectShow],IAMBufferNegotiation interface, IAMBufferNegotiation interface [DirectShow],GetAllocatorProperties method, IAMBufferNegotiation.GetAllocatorProperties, IAMBufferNegotiation::GetAllocatorProperties, IAMBufferNegotiationGetAllocatorProperties, dshow.iambuffernegotiation_getallocatorproperties, strmif/IAMBufferNegotiation::GetAllocatorProperties
-f1_keywords:
-- strmif/IAMBufferNegotiation.GetAllocatorProperties
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMBufferNegotiation.GetAllocatorProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMBufferNegotiation::GetAllocatorProperties
+ - strmif/IAMBufferNegotiation::GetAllocatorProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMBufferNegotiation.GetAllocatorProperties
 ---
 
 # IAMBufferNegotiation::GetAllocatorProperties
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetAllocatorProperties</code> method retrieves the allocator properties that the pin is using.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pprop [out]
 
-Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure, allocated by the caller, that receives the allocator properties.
-
+Pointer to an [ALLOCATOR_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure, allocated by the caller, that receives the allocator properties.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,31 +102,15 @@ Pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Call this method after the pins connect, to find out the allocator properties that were chosen.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iambuffernegotiation">IAMBufferNegotiation Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iambuffernegotiation">IAMBufferNegotiation Interface</a>

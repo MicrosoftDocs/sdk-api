@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputSetting
 title: IWMSyncReader::GetOutputSetting (wmsdkidl.h)
 description: The GetOutputSetting method retrieves a setting for a particular output by name.
+helpviewer_keywords: ["GetOutputSetting","GetOutputSetting method [windows Media Format]","GetOutputSetting method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputSetting method","IWMSyncReader.GetOutputSetting","IWMSyncReader::GetOutputSetting","IWMSyncReaderGetOutputSetting","wmformat.iwmsyncreader_getoutputsetting","wmsdkidl/IWMSyncReader::GetOutputSetting"]
 old-location: wmformat\iwmsyncreader_getoutputsetting.htm
 tech.root: wmformat
 ms.assetid: b96c84fd-a2e0-4fdb-a9c1-2e42b73f7a3e
 ms.date: 12/05/2018
 ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputSetting method, IWMSyncReader.GetOutputSetting, IWMSyncReader::GetOutputSetting, IWMSyncReaderGetOutputSetting, wmformat.iwmsyncreader_getoutputsetting, wmsdkidl/IWMSyncReader::GetOutputSetting
-f1_keywords:
-- wmsdkidl/IWMSyncReader.GetOutputSetting
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.GetOutputSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::GetOutputSetting
+ - wmsdkidl/IWMSyncReader::GetOutputSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.GetOutputSetting
 ---
 
 # IWMSyncReader::GetOutputSetting
@@ -51,46 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetOutputSetting</b> method retrieves a setting for a particular output by name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 <b>DWORD</b> containing the output number.
 
-
 ### -param pszName [in]
 
-Pointer to a wide-character <b>null</b>-terminated string containing the name of the setting for which you want the value. For a list of global constants representing setting names, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/output-settings">Output Settings</a>.
-
+Pointer to a wide-character <b>null</b>-terminated string containing the name of the setting for which you want the value. For a list of global constants representing setting names, see <a href="/windows/desktop/wmformat/output-settings">Output Settings</a>.
 
 ### -param pType [out]
 
-Pointer to a variable that receives one value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. The value received specifies the type of data in <i>pValue</i>.
-
+Pointer to a variable that receives one value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. The value received specifies the type of data in <i>pValue</i>.
 
 ### -param pValue [out]
 
 Pointer to a byte buffer containing the value. Pass <b>NULL</b> to retrieve the length of the buffer required.
 
-
 ### -param pcbLength [in, out]
 
 On input, pointer to a variable containing the length of <i>pValue</i>. On output, the variable contains the number of bytes in <i>pValue</i> used.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -163,33 +150,17 @@ The buffer size passed as <i>pcbLength</i> is not large enough to contain the se
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should make two calls to <b>GetOutputSetting</b> for each setting you want to retrieve. On the first call, pass <b>NULL</b> as <i>pValue</i>. On return, the value of <i>pcbLength</i> is set to the buffer size required to hold the value of the specified setting. Then you can allocate the required amount of memory for the buffer and pass a pointer to it as <i>pValue</i> on the second call.
 
 If you pass a buffer as <i>pValue</i> that is not large enough to contain the data, an error code of ASF_E_BUFFERTOOSMALL is returned. When returning this error code, the method still sets the value of <i>pcbLength</i> to the correct size of the value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">IWMSyncReader::SetOutputSetting</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">IWMSyncReader::SetOutputSetting</a>

@@ -2,15 +2,12 @@
 UID: NF:tspi.TSPI_lineGetCallInfo
 title: TSPI_lineGetCallInfo function (tspi.h)
 description: The TSPI_lineGetCallInfo function returns detailed information about the specified call.
+helpviewer_keywords: ["TSPI_lineGetCallInfo","TSPI_lineGetCallInfo function [TAPI 2.2]","_tspi_tspi_linegetcallinfo","tspi.tspi_linegetcallinfo","tspi/TSPI_lineGetCallInfo"]
 old-location: tspi\tspi_linegetcallinfo.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9ef43928-05aa-4ec6-bc44-f07a63d8ecdf
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetCallInfo, TSPI_lineGetCallInfo function [TAPI 2.2], _tspi_tspi_linegetcallinfo, tspi.tspi_linegetcallinfo, tspi/TSPI_lineGetCallInfo
-f1_keywords:
-- tspi/TSPI_lineGetCallInfo
-dev_langs:
-- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Tspi.h
-api_name:
-- TSPI_lineGetCallInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TSPI_lineGetCallInfo
+ - tspi/TSPI_lineGetCallInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Tspi.h
+api_name:
+ - TSPI_lineGetCallInfo
 ---
 
 # TSPI_lineGetCallInfo function
@@ -48,44 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TSPI_lineGetCallInfo</b> function returns detailed information about the specified call.
 
-
 ## -parameters
-
-
-
 
 ### -param hdCall
 
 The service provider's handle to the call whose call information is to be retrieved. The call state of <i>hdCall</i> can be any state.
 
-
 ### -param lpCallInfo
 
 A pointer to a variably sized data structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>. Upon successful completion of the request, this structure is filled with call-related information.
-
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>. Upon successful completion of the request, this structure is filled with call-related information.
 
 ## -returns
-
-
 
 Returns zero if the function succeeds or an error number if an error occurs. Possible return values are as follows:
 
 LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_NOMEM, LINEERR_RESOURCEUNAVAIL, LINEERR_OPERATIONUNAVAIL.
 
-
-
-
 ## -remarks
 
-
-
 The following table indicates which members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> data structure are filled in by TAPI and which members are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> data structure are filled in by TAPI and which members are filled in by the service provider. The service provider must preserve (it must not overwrite) the values filled in by TAPI.
 
 <table>
 <tr>
@@ -455,11 +443,12 @@ TAPI fills in the size and offset fields for the <b>dwAppNameSize/Offset</b>, <b
 
 After the service provider returns from the 
 <b>TSPI_lineGetCallInfo</b> function, TAPI sets the <b>dwCallStates</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure as follows:
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure as follows:
 
-<pre class="syntax" xml:space="preserve"><code>LINECALLINFO.dwCallStates |= LINECALLSTATE_UNKNOWN;</code></pre>
+
+``` syntax
+LINECALLINFO.dwCallStates |= LINECALLSTATE_UNKNOWN;
+```
+
 If the service provider models lines as "pools" of channel resources and does inverse multiplexing of a call over several address identifiers, it should consistently choose one of these address identifiers as the primary identifier reported by this function in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> data structure.
-
-
-
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> data structure.

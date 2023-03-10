@@ -2,15 +2,12 @@
 UID: NS:winddi._CLIPOBJ
 title: CLIPOBJ (winddi.h)
 description: The CLIPOBJ structure describes the clip region used when drawing.
+helpviewer_keywords: ["CLIPOBJ","CLIPOBJ structure [Display Devices]","display.clipobj","grstrcts_028034f6-2370-4e77-be77-7bc8e9ee8504.xml","winddi/CLIPOBJ"]
 old-location: display\clipobj.htm
 tech.root: display
 ms.assetid: c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ, CLIPOBJ structure [Display Devices], display.clipobj, grstrcts_028034f6-2370-4e77-be77-7bc8e9ee8504.xml, winddi/CLIPOBJ
-f1_keywords:
-- winddi/CLIPOBJ
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- CLIPOBJ
 targetos: Windows
 req.typenames: CLIPOBJ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLIPOBJ
+ - winddi/_CLIPOBJ
+ - CLIPOBJ
+ - winddi/CLIPOBJ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - CLIPOBJ
 ---
 
 # CLIPOBJ structure
@@ -48,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The CLIPOBJ structure describes the clip region used when drawing. 
-
+The CLIPOBJ structure describes the clip region used when drawing.
 
 ## -struct-fields
-
-
-
 
 ### -field iUniq
 
 Specifies a value that uniquely identifies the clip region. If <b>iUniq</b> is nonzero, the driver uses it as a cache identifier. This allows the driver to recognize a region after downloading and caching it. If the value is zero, the driver should not cache the region because the region will not be used again.
 
-
 ### -field rclBounds
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
-
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
 
 ### -field iDComplexity
 
@@ -107,12 +104,10 @@ Clipping need not be considered; draw the whole figure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iFComplexity
 
-Specifies the complexity of the whole region. This value is used by the driver in deciding whether to cache the region. <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> can be called to determine the exact number of rectangles in the region. This member can be one of the following values:
+Specifies the complexity of the whole region. This value is used by the driver in deciding whether to cache the region. <a href="/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> can be called to determine the exact number of rectangles in the region. This member can be one of the following values:
 
 <table>
 <tr>
@@ -150,8 +145,6 @@ The region consists of, at most, four rectangles.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iMode
 
@@ -183,8 +176,6 @@ The region is stored as rectangles.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fjOptions
 
@@ -206,33 +197,19 @@ OC_BANK_CLIP
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The region, described by CLIPOBJ, can be enumerated as a series of rectangles.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>

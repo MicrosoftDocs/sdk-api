@@ -1,16 +1,13 @@
 ---
 UID: NS:directxmath.XMFLOAT3X3
 title: XMFLOAT3X3 (directxmath.h)
-description: A 3*3 floating point matrix.
+description: A 3x3 floating-point matrix.
+helpviewer_keywords: ["XMFLOAT3X3","XMFLOAT3X3 structure [DirectX Math Support APIs]","directxmath/XMFLOAT3X3","dxmath.xmfloat3x3"]
 old-location: dxmath\xmfloat3x3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3X3
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3X3, XMFLOAT3X3 structure [DirectX Math Support APIs], directxmath/XMFLOAT3X3, dxmath.xmfloat3x3
-f1_keywords:
-- directxmath/XMFLOAT3X3
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,145 +25,85 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT3X3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3X3
+ - directxmath/XMFLOAT3X3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT3X3
 ---
-
-# XMFLOAT3X3 structure
-
 
 ## -description
 
+A 3x3 floating-point matrix.
 
-A 3*3 floating point matrix.
-
-
-
-For a list of additional functionality such as constructors and operators that are available using <code>XMFLOAT3X3</code> when you
-  are programming in C++, see <a href="https://msdn.microsoft.com/aae5e2b4-bc80-4919-80a6-02230796f57e">XMFLOAT3X3 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
-  equivalent <a href="https://msdn.microsoft.com/993fc7e4-4752-4bce-82d0-0a034fdc69c0">D3DDECLTYPE</a>, <a href="https://msdn.microsoft.com/a222e3bb-310c-4019-93ee-6a2da2a46ded">D3DFORMAT</a>, and
-  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> objects.</div><div> </div>
+> [!NOTE]
+> See [Library internals](/windows/win32/dxmath/pg-xnamath-internals) for info about equivalent [D3DDECLTYPE](/windows/win32/direct3d9/d3ddecltype), [D3DFORMAT](/windows/win32/direct3d9/d3dformat), and [DXGI_FORMAT](../dxgiformat/ne-dxgiformat-dxgi_format.md) objects.
 
 ## -struct-fields
-
-
-
 
 ### -field _11
 
 An element of the matrix.
 
-
 ### -field _12
 
 An element of the matrix.
-
 
 ### -field _13
 
 An element of the matrix.
 
-
 ### -field _21
 
 An element of the matrix.
-
 
 ### -field _22
 
 An element of the matrix.
 
-
 ### -field _23
 
 An element of the matrix.
-
 
 ### -field _31
 
 An element of the matrix.
 
-
 ### -field _32
 
 An element of the matrix.
-
 
 ### -field _33
 
 An element of the matrix.
 
-
 ### -field m
 
-A 3*3 array representing the matrix.
-
-
-### -field operator=
-
-TBD 
-
-
-### -field XMFLOAT3X3
-
-TBD 
-
-
-### -field operator()
-
-TBD 
-
-
-
+A 2-dimensional 3x3 array representing the matrix.
 
 ## -remarks
 
+The scalar members of **XMFLOAT3X3** have names that follow the form *_\<row_number\>\<column_number\>* (for example, *_11*). They provide 1-based indexing, where *row_number* specifies the 1-based matrix row (ranging from 1 to 3), and *column_number* specifies the 1-based matrix column (ranging from 1 to 3).
 
+The member *m* is a 2-dimensional 3x3 array. It provides 0-based indexing of the structure's matrix. When accessing *m\[\<row_index\>, \<column_index\>\]*, *\<row_index\>* ranges from 0 to 2, and *\<column_index\>* ranges from 0 to 2.
 
-Scalar members of <code>XMFLOAT3X3</code> are of the form <b>_</b><i>RowCol</i>, and provide one based indexing,
-   where <i>Row</i> specifies the one's based matrix row (running from 1 to 3), and
-   <i>Col</i> specifies the one's based matrix column (running from 1 to 3).
+You can load an [XMMATRIX](./ns-directxmath-xmmatrix.md) from an **XMFLOAT3X3** by using [XMLoadFloat3x3](./nf-directxmath-xmloadfloat3x3.md).
 
-The two dimensional 3*3 array member of <code>XMFLOAT3X3</code>, <b>m</b>, provides zero based indexing of the structure's
-   matrix. When accessing <code>XMFLOAT3X3</code><b>m[</b><i>Row</i><b>,</b><i>Col</i><b>]</b>, <i>Row</i> can run from 0 to 2 and <i>Col</i> can run from 0 to 2.
-
-<code>XMFLOAT3X3</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type"> XMVECTOR</a> by using
-   <a href="https://msdn.microsoft.com/95bb219a-a3ef-42b1-8046-97b18dda21a1">XMLoadFloat3x3</a>.
-
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMFLOAT3X3</code> with
-   <a href="https://msdn.microsoft.com/d2679889-7a6b-4e31-81be-5dc3a3c59efd">XMStoreFloat3x3</a>.
-
-<b>Namespace:</b> Use DirectX
-
-<h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
-Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
-
-
-
+You can store an [XMMATRIX](./ns-directxmath-xmmatrix.md) into an **XMFLOAT3X3** by using [XMStoreFloat3x3](./nf-directxmath-xmstorefloat3x3.md).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
-
-
-
-<a href="https://msdn.microsoft.com/aae5e2b4-bc80-4919-80a6-02230796f57e">XMFLOAT3X3 Extensions</a>
- 
-
- 
-
+[DirectXMath Library structures](/windows/win32/dxmath/ovw-xnamath-reference-structures)

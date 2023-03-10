@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.ISignerCertificate.put_ParentWindow
 title: ISignerCertificate::put_ParentWindow (certenroll.h)
-description: Specifies or retrieves the ID of the window used to display signing certificate information.
+description: Specifies or retrieves the ID of the window used to display signing certificate information. (Put)
+helpviewer_keywords: ["ISignerCertificate interface [Security]","ParentWindow property","ISignerCertificate.ParentWindow","ISignerCertificate.put_ParentWindow","ISignerCertificate::ParentWindow","ISignerCertificate::get_ParentWindow","ISignerCertificate::put_ParentWindow","ParentWindow property [Security]","ParentWindow property [Security]","ISignerCertificate interface","certenroll/ISignerCertificate::ParentWindow","certenroll/ISignerCertificate::get_ParentWindow","certenroll/ISignerCertificate::put_ParentWindow","put_ParentWindow","security.isignercertificate_parentwindow_property"]
 old-location: security\isignercertificate_parentwindow_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a1749c92-11e4-4726-a355-ccdd245b4df8
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],ParentWindow property, ISignerCertificate.ParentWindow, ISignerCertificate.put_ParentWindow, ISignerCertificate::ParentWindow, ISignerCertificate::get_ParentWindow, ISignerCertificate::put_ParentWindow, ParentWindow property [Security], ParentWindow property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::ParentWindow, certenroll/ISignerCertificate::get_ParentWindow, certenroll/ISignerCertificate::put_ParentWindow, put_ParentWindow, security.isignercertificate_parentwindow_property
-f1_keywords:
-- certenroll/ISignerCertificate.ParentWindow
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ISignerCertificate.ParentWindow
-- ISignerCertificate.get_ParentWindow
-- ISignerCertificate.put_ParentWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISignerCertificate::put_ParentWindow
+ - certenroll/ISignerCertificate::put_ParentWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ISignerCertificate.ParentWindow
+ - ISignerCertificate.get_ParentWindow
+ - ISignerCertificate.put_ParentWindow
 ---
 
 # ISignerCertificate::put_ParentWindow
@@ -50,48 +52,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ParentWindow</b> property specifies or retrieves the ID of the window used to display signing certificate information.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-Call this property to specify a window ID before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-initialize">Initialize</a> method. The <b>ParentWindow</b> property internally sets the window ID on the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object. You can retrieve the private key object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_privatekey">PrivateKey</a> property. You can call the following properties to retrieve additional information about the signing certificate object:<ul>
+Call this property to specify a window ID before calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-initialize">Initialize</a> method. The <b>ParentWindow</b> property internally sets the window ID on the  <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> object. You can retrieve the private key object by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_privatekey">PrivateKey</a> property. You can call the following properties to retrieve additional information about the signing certificate object:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_certificate">Certificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_certificate">Certificate</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-put_pin">Pin</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-put_pin">Pin</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_signatureinformation">SignatureInformation</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_signatureinformation">SignatureInformation</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_silent">Silent</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_silent">Silent</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_uicontextmessage">UIContextMessage</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertificate-get_uicontextmessage">UIContextMessage</a>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>

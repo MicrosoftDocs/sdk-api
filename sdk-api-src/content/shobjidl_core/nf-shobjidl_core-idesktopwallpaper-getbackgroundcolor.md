@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IDesktopWallpaper.GetBackgroundColor
 title: IDesktopWallpaper::GetBackgroundColor (shobjidl_core.h)
 description: Retrieves the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
+helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [Windows Shell]","GetBackgroundColor method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetBackgroundColor method","IDesktopWallpaper.GetBackgroundColor","IDesktopWallpaper::GetBackgroundColor","shell.IDesktopWallpaper_GetBackgroundColor","shobjidl_core/IDesktopWallpaper::GetBackgroundColor"]
 old-location: shell\IDesktopWallpaper_GetBackgroundColor.htm
 tech.root: shell
 ms.assetid: 92666512-BE10-4ee7-B670-18F0C714A4C9
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Windows Shell], GetBackgroundColor method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetBackgroundColor method, IDesktopWallpaper.GetBackgroundColor, IDesktopWallpaper::GetBackgroundColor, shell.IDesktopWallpaper_GetBackgroundColor, shobjidl_core/IDesktopWallpaper::GetBackgroundColor
-f1_keywords:
-- shobjidl_core/IDesktopWallpaper.GetBackgroundColor
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDesktopWallpaper.GetBackgroundColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDesktopWallpaper::GetBackgroundColor
+ - shobjidl_core/IDesktopWallpaper::GetBackgroundColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDesktopWallpaper.GetBackgroundColor
 ---
 
 # IDesktopWallpaper::GetBackgroundColor
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
-
 
 ## -parameters
 
-
-
-
 ### -param color [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that, when this method returns successfully, receives the RGB color value. If this method fails, this value is set to 0.
-
+A pointer to a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that, when this method returns successfully, receives the RGB color value. If this method fails, this value is set to 0.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setbackgroundcolor">IDesktopWallpaper::SetBackgroundColor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setbackgroundcolor">IDesktopWallpaper::SetBackgroundColor</a>

@@ -2,15 +2,12 @@
 UID: NN:rdpencomapi.IRDPSRAPITcpConnectionInfo
 title: IRDPSRAPITcpConnectionInfo (rdpencomapi.h)
 description: Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side.
+helpviewer_keywords: ["IRDPSRAPITcpConnectionInfo","IRDPSRAPITcpConnectionInfo interface [RDP]","IRDPSRAPITcpConnectionInfo interface [RDP]","described","rdp.irdpsrapitcpconnectioninfo","rdpencomapi/IRDPSRAPITcpConnectionInfo"]
 old-location: rdp\irdpsrapitcpconnectioninfo.htm
 tech.root: rdp
 ms.assetid: 4d6b1fc8-91b4-4a49-b3aa-ce719ca23d32
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP],described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
-f1_keywords:
-- rdpencomapi/IRDPSRAPITcpConnectionInfo
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPITcpConnectionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPITcpConnectionInfo
+ - rdpencomapi/IRDPSRAPITcpConnectionInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPITcpConnectionInfo
 ---
 
 # IRDPSRAPITcpConnectionInfo interface
@@ -48,17 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side. This interface is exposed through the  <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_connectivityinfo">IRDPSRAPIAttendee::get_ConnectivityInfo</a> method. 
-
+Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side. This interface is exposed through the  <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_connectivityinfo">IRDPSRAPIAttendee::get_ConnectivityInfo</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

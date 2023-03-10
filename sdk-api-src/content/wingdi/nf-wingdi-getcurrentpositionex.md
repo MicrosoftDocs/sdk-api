@@ -2,15 +2,12 @@
 UID: NF:wingdi.GetCurrentPositionEx
 title: GetCurrentPositionEx function (wingdi.h)
 description: The GetCurrentPositionEx function retrieves the current position in logical coordinates.
+helpviewer_keywords: ["GetCurrentPositionEx","GetCurrentPositionEx function [Windows GDI]","_win32_GetCurrentPositionEx","gdi.getcurrentpositionex","wingdi/GetCurrentPositionEx"]
 old-location: gdi\getcurrentpositionex.htm
 tech.root: gdi
 ms.assetid: 23a5ac58-2b88-42d3-ab02-8edb8ef187cc
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPositionEx, GetCurrentPositionEx function [Windows GDI], _win32_GetCurrentPositionEx, gdi.getcurrentpositionex, wingdi/GetCurrentPositionEx
-f1_keywords:
-- wingdi/GetCurrentPositionEx
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetCurrentPositionEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentPositionEx
+ - wingdi/GetCurrentPositionEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetCurrentPositionEx
 ---
 
 # GetCurrentPositionEx function
@@ -50,55 +52,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetCurrentPositionEx</b> function retrieves the current position in logical coordinates.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param lppt [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the logical coordinates of the current position.
-
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the logical coordinates of the current position.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
- 
-
- 
-
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>

@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptSetContextFunctionProperty
 title: BCryptSetContextFunctionProperty function (bcrypt.h)
 description: Sets the value of a named property for a cryptographic function in an existing CNG context.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptSetContextFunctionProperty","BCryptSetContextFunctionProperty function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptSetContextFunctionProperty","security.bcryptsetcontextfunctionproperty"]
 old-location: security\bcryptsetcontextfunctionproperty.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 1e02720b-5210-4127-ab9e-24532a764795
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptSetContextFunctionProperty, BCryptSetContextFunctionProperty function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptSetContextFunctionProperty, security.bcryptsetcontextfunctionproperty
-f1_keywords:
-- bcrypt/BCryptSetContextFunctionProperty
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptSetContextFunctionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptSetContextFunctionProperty
+ - bcrypt/BCryptSetContextFunctionProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptSetContextFunctionProperty
 ---
 
 # BCryptSetContextFunctionProperty function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptSetContextFunctionProperty</b> function sets the value of a named property for a cryptographic function in an existing CNG context.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTable [in]
 
@@ -87,13 +84,10 @@ This value is not available for use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszContext [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the context to set the function property in.
-
 
 ### -param dwInterface [in]
 
@@ -185,32 +179,24 @@ The function exists in the list of Schannel functions.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFunction [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the cryptographic function to set the property for.
 
-
 ### -param pszProperty [in]
 
 A pointer to a null-terminated Unicode string that contains the identifier of the property to set.
-
 
 ### -param cbValue [in]
 
 Contains the size, in bytes, of the <i>pbValue</i> buffer. This is the exact number of bytes that will be stored. If the property value is a string, you should add the size of one character to also store the terminating null character, if needed.
 
-
 ### -param pbValue [in]
 
 The address of a buffer that contains the new property value.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -280,16 +266,8 @@ The specified context or function could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>BCryptSetContextFunctionProperty</b> can be called only in user mode.
-
-
 

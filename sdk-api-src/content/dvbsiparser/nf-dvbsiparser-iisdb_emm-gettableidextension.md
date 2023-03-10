@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IISDB_EMM.GetTableIdExtension
 title: IISDB_EMM::GetTableIdExtension (dvbsiparser.h)
 description: Gets a table_id_extension field identifying a subtable within an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
+helpviewer_keywords: ["GetTableIdExtension","GetTableIdExtension method [Microsoft TV Technologies]","GetTableIdExtension method [Microsoft TV Technologies]","IISDB_EMM interface","IISDB_EMM interface [Microsoft TV Technologies]","GetTableIdExtension method","IISDB_EMM.GetTableIdExtension","IISDB_EMM::GetTableIdExtension","dvbsiparser/IISDB_EMM::GetTableIdExtension","mstv.iisdb_emm_gettableidextension"]
 old-location: mstv\iisdb_emm_gettableidextension.htm
 tech.root: mstv
 ms.assetid: aa0aba5d-181b-4466-8ad1-5db541d36261
 ms.date: 12/05/2018
 ms.keywords: GetTableIdExtension, GetTableIdExtension method [Microsoft TV Technologies], GetTableIdExtension method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetTableIdExtension method, IISDB_EMM.GetTableIdExtension, IISDB_EMM::GetTableIdExtension, dvbsiparser/IISDB_EMM::GetTableIdExtension, mstv.iisdb_emm_gettableidextension
-f1_keywords:
-- dvbsiparser/IISDB_EMM.GetTableIdExtension
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_EMM.GetTableIdExtension
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_EMM::GetTableIdExtension
+ - dvbsiparser/IISDB_EMM::GetTableIdExtension
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_EMM.GetTableIdExtension
 ---
 
 # IISDB_EMM::GetTableIdExtension
@@ -48,38 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a table_id_extension field identifying a subtable within an Integrated Services
   Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 
-
-
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the table_id field value.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_emm">IISDB_EMM</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_emm">IISDB_EMM</a>

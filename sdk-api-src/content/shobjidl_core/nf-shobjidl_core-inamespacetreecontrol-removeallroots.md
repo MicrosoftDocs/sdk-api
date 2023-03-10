@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.INameSpaceTreeControl.RemoveAllRoots
 title: INameSpaceTreeControl::RemoveAllRoots (shobjidl_core.h)
 description: Removes all roots and their children from a tree.
+helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","RemoveAllRoots method","INameSpaceTreeControl.RemoveAllRoots","INameSpaceTreeControl::RemoveAllRoots","RemoveAllRoots","RemoveAllRoots method [Windows Shell]","RemoveAllRoots method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_RemoveAllRoots","shell.INameSpaceTreeControl_RemoveAllRoots","shobjidl_core/INameSpaceTreeControl::RemoveAllRoots"]
 old-location: shell\INameSpaceTreeControl_RemoveAllRoots.htm
 tech.root: shell
 ms.assetid: 9d2eb0c1-c90f-47fb-a322-4267d175df22
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],RemoveAllRoots method, INameSpaceTreeControl.RemoveAllRoots, INameSpaceTreeControl::RemoveAllRoots, RemoveAllRoots, RemoveAllRoots method [Windows Shell], RemoveAllRoots method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_RemoveAllRoots, shell.INameSpaceTreeControl_RemoveAllRoots, shobjidl_core/INameSpaceTreeControl::RemoveAllRoots
-f1_keywords:
-- shobjidl_core/INameSpaceTreeControl.RemoveAllRoots
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- INameSpaceTreeControl.RemoveAllRoots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControl::RemoveAllRoots
+ - shobjidl_core/INameSpaceTreeControl::RemoveAllRoots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - INameSpaceTreeControl.RemoveAllRoots
 ---
 
 # INameSpaceTreeControl::RemoveAllRoots
@@ -48,24 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all roots and their children from a tree.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

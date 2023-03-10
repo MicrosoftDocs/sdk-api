@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMultiMediaStream.AddMediaStream
 title: IAMMultiMediaStream::AddMediaStream (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method adds a new media stream to the filter graph.
+helpviewer_keywords: ["AddMediaStream","AddMediaStream method [DirectShow]","AddMediaStream method [DirectShow]","IAMMultiMediaStream interface","IAMMultiMediaStream interface [DirectShow]","AddMediaStream method","IAMMultiMediaStream.AddMediaStream","IAMMultiMediaStream::AddMediaStream","IAMMultiMediaStreamAddMediaStream","amstream/IAMMultiMediaStream::AddMediaStream","dshow.iammultimediastream_addmediastream"]
 old-location: dshow\iammultimediastream_addmediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3ccfb776-6a4e-48da-857d-6693cf916c40
 ms.date: 12/05/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],AddMediaStream method, IAMMultiMediaStream.AddMediaStream, IAMMultiMediaStream::AddMediaStream, IAMMultiMediaStreamAddMediaStream, amstream/IAMMultiMediaStream::AddMediaStream, dshow.iammultimediastream_addmediastream
-f1_keywords:
-- amstream/IAMMultiMediaStream.AddMediaStream
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMultiMediaStream.AddMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMultiMediaStream::AddMediaStream
+ - amstream/IAMMultiMediaStream::AddMediaStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMultiMediaStream.AddMediaStream
 ---
 
 # IAMMultiMediaStream::AddMediaStream
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>AddMediaStream</code> method adds a new media stream to the filter graph.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pStreamObject [in]
 
 Pointer to the <b>IUnknown</b> interface of an object that is used to create the new media stream. This parameter can be <b>NULL</b>. See Remarks for more information.
 
-
 ### -param PurposeId [in]
 
-Pointer an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mspid">MSPID</a> the specifies the type of media stream to create. This parameter can be <b>NULL</b>.
-
+Pointer an <a href="/windows/desktop/DirectShow/mspid">MSPID</a> the specifies the type of media stream to create. This parameter can be <b>NULL</b>.
 
 ### -param dwFlags [in]
 
@@ -100,17 +92,12 @@ Bitwise combination of zero or more of the following flags.
 <td>Create a stream that stops if there are not samples.</td>
 </tr>
 </table>
- 
-
 
 ### -param ppNewStream [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> interface pointer.
-
+Address of a variable that receives an <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> interface pointer.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -164,14 +151,8 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <i>pPurposeID</i> is <b>NULL</b>, <i>pStreamObject</i> must specify an <b>IMediaStream</b> object. The object's <b>GetInformation</b> method is used to determine the purpose ID, which is then used to create the new media stream.
 
@@ -193,16 +174,6 @@ If neither flag is set, <i>pStreamObject</i> can be any of the following:
 </ul>
 If the method succeeds, the caller must release the returned <b>IMediaStream</b> interface.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>

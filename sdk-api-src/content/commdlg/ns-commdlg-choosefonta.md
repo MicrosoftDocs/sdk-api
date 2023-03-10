@@ -1,16 +1,13 @@
 ---
 UID: NS:commdlg.tagCHOOSEFONTA
 title: CHOOSEFONTA (commdlg.h)
-description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. (ANSI)
+helpviewer_keywords: ["*LPCHOOSEFONTA","BOLD_FONTTYPE","CF_ANSIONLY","CF_APPLY","CF_BOTH","CF_EFFECTS","CF_ENABLEHOOK","CF_ENABLETEMPLATE","CF_ENABLETEMPLATEHANDLE","CF_FIXEDPITCHONLY","CF_FORCEFONTEXIST","CF_INACTIVEFONTS","CF_INITTOLOGFONTSTRUCT","CF_LIMITSIZE","CF_NOFACESEL","CF_NOOEMFONTS","CF_NOSCRIPTSEL","CF_NOSIMULATIONS","CF_NOSIZESEL","CF_NOSTYLESEL","CF_NOVECTORFONTS","CF_NOVERTFONTS","CF_PRINTERFONTS","CF_SCALABLEONLY","CF_SCREENFONTS","CF_SCRIPTSONLY","CF_SELECTSCRIPT","CF_SHOWHELP","CF_TTONLY","CF_USESTYLE","CF_WYSIWYG","CHOOSEFONT","CHOOSEFONT structure [Dialog Boxes]","CHOOSEFONTA","CHOOSEFONTW","ITALIC_FONTTYPE","LPCHOOSEFONT","LPCHOOSEFONT structure pointer [Dialog Boxes]","PRINTER_FONTTYPE","REGULAR_FONTTYPE","SCREEN_FONTTYPE","SIMULATED_FONTTYPE","_win32_CHOOSEFONT_str","_win32_choosefont_str_cpp","commdlg/CHOOSEFONT","commdlg/CHOOSEFONTA","commdlg/CHOOSEFONTW","commdlg/LPCHOOSEFONT","dlgbox.choosefont_str","tagCHOOSEFONTA","tagCHOOSEFONTW","winui._win32_choosefont_str"]
 old-location: dlgbox\choosefont_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\choosefont.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPCHOOSEFONTA, BOLD_FONTTYPE, CF_ANSIONLY, CF_APPLY, CF_BOTH, CF_EFFECTS, CF_ENABLEHOOK, CF_ENABLETEMPLATE, CF_ENABLETEMPLATEHANDLE, CF_FIXEDPITCHONLY, CF_FORCEFONTEXIST, CF_INACTIVEFONTS, CF_INITTOLOGFONTSTRUCT, CF_LIMITSIZE, CF_NOFACESEL, CF_NOOEMFONTS, CF_NOSCRIPTSEL, CF_NOSIMULATIONS, CF_NOSIZESEL, CF_NOSTYLESEL, CF_NOVECTORFONTS, CF_NOVERTFONTS, CF_PRINTERFONTS, CF_SCALABLEONLY, CF_SCREENFONTS, CF_SCRIPTSONLY, CF_SELECTSCRIPT, CF_SHOWHELP, CF_TTONLY, CF_USESTYLE, CF_WYSIWYG, CHOOSEFONT, CHOOSEFONT structure [Dialog Boxes], CHOOSEFONTA, CHOOSEFONTW, ITALIC_FONTTYPE, LPCHOOSEFONT, LPCHOOSEFONT structure pointer [Dialog Boxes], PRINTER_FONTTYPE, REGULAR_FONTTYPE, SCREEN_FONTTYPE, SIMULATED_FONTTYPE, _win32_CHOOSEFONT_str, _win32_choosefont_str_cpp, commdlg/CHOOSEFONT, commdlg/CHOOSEFONTA, commdlg/CHOOSEFONTW, commdlg/LPCHOOSEFONT, dlgbox.choosefont_str, tagCHOOSEFONTA, tagCHOOSEFONTW, winui._win32_choosefont_str'
-f1_keywords:
-- commdlg/CHOOSEFONT
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,73 +25,69 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commdlg.h
-api_name:
-- CHOOSEFONT
-- CHOOSEFONTA
-- CHOOSEFONTW
 targetos: Windows
 req.typenames: CHOOSEFONTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCHOOSEFONTA
+ - commdlg/tagCHOOSEFONTA
+ - CHOOSEFONTA
+ - commdlg/CHOOSEFONTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commdlg.h
+api_name:
+ - CHOOSEFONT
+ - CHOOSEFONTA
+ - CHOOSEFONTW
 ---
 
 # CHOOSEFONTA structure
 
-
 ## -description
 
-
-Contains information that the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function uses to initialize the <b>Font</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. 
-
+Contains information that the <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function uses to initialize the <b>Font</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field lStructSize
 
 Type: <b>DWORD</b>
 
-The length of the structure, in bytes. 
-
+The length of the structure, in bytes.
 
 ### -field hwndOwner
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the dialog box. This member can be any valid window handle, or it can be <b>NULL</b> if the dialog box has no owner. 
-
+A handle to the window that owns the dialog box. This member can be any valid window handle, or it can be <b>NULL</b> if the dialog box has no owner.
 
 ### -field hDC
 
 Type: <b>HDC</b>
 
-This member is ignored by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function.
+This member is ignored by the <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function.
 
-<b>Windows Vista and Windows XP/2000:  </b>A handle to the device context or information context of the printer whose fonts will be listed in the dialog box. This member is used only if the <b>Flags</b> member specifies the <b>CF_PRINTERFONTS</b> or <b>CF_BOTH</b> flag; otherwise, this member is ignored. 
-
+<b>Windows Vista and Windows XP/2000:  </b>A handle to the device context or information context of the printer whose fonts will be listed in the dialog box. This member is used only if the <b>Flags</b> member specifies the <b>CF_PRINTERFONTS</b> or <b>CF_BOTH</b> flag; otherwise, this member is ignored.
 
 ### -field lpLogFont
 
 Type: <b>LPLOGFONT</b>
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. If you set the <b>CF_INITTOLOGFONTSTRUCT</b> flag in the <b>Flags</b> member and initialize the other members, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function initializes the dialog box with a font that matches the <b>LOGFONT</b> members. If the user clicks the <b>OK</b> button, <b>ChooseFont</b> sets the members of the <b>LOGFONT</b> structure based on the user's selections. 
-
+A pointer to a  <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. If you set the <b>CF_INITTOLOGFONTSTRUCT</b> flag in the <b>Flags</b> member and initialize the other members, the <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function initializes the dialog box with a font that matches the <b>LOGFONT</b> members. If the user clicks the <b>OK</b> button, <b>ChooseFont</b> sets the members of the <b>LOGFONT</b> structure based on the user's selections.
 
 ### -field iPointSize
 
 Type: <b>INT</b>
 
-The size of the selected font, in units of 1/10 of a point. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function sets this value after the user closes the dialog box. 
-
+The size of the selected font, in units of 1/10 of a point. The <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> function sets this value after the user closes the dialog box.
 
 ### -field Flags
 
@@ -114,7 +107,7 @@ A set of bit flags that you can use to initialize the <b>Font</b> dialog box. Wh
 </dl>
 </td>
 <td width="60%">
-Causes the dialog box to display the <b>Apply</b> button. You should provide a hook procedure to process <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages for the <b>Apply</b> button. The hook procedure can send the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-choosefont-getlogfont">WM_CHOOSEFONT_GETLOGFONT</a> message to the dialog box to retrieve the address of the  structure that contains the current selections for the font. 
+Causes the dialog box to display the <b>Apply</b> button. You should provide a hook procedure to process <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages for the <b>Apply</b> button. The hook procedure can send the <a href="/windows/desktop/dlgbox/wm-choosefont-getlogfont">WM_CHOOSEFONT_GETLOGFONT</a> message to the dialog box to retrieve the address of the  structure that contains the current selections for the font. 
 
 </td>
 </tr>
@@ -125,7 +118,7 @@ Causes the dialog box to display the <b>Apply</b> button. You should provide a h
 </dl>
 </td>
 <td width="60%">
-This flag is obsolete. To limit font selections to all scripts except those that use the OEM or Symbol character sets, use <b>CF_SCRIPTSONLY</b>. To get the original <b>CF_ANSIONLY</b> behavior, use <b>CF_SELECTSCRIPT</b> and specify <b>ANSI_CHARSET</b> in the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>.
+This flag is obsolete. To limit font selections to all scripts except those that use the OEM or Symbol character sets, use <b>CF_SCRIPTSONLY</b>. To get the original <b>CF_ANSIONLY</b> behavior, use <b>CF_SELECTSCRIPT</b> and specify <b>ANSI_CHARSET</b> in the <b>lfCharSet</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>.
 
 </td>
 </tr>
@@ -149,7 +142,7 @@ This flag is ignored for font enumeration.
 </dl>
 </td>
 <td width="60%">
-Causes the dialog box to display the controls that allow the user to specify strikeout, underline, and text color options. If this flag is set, you can use the <b>rgbColors</b> member to specify the initial text color. You can use the <b>lfStrikeOut</b> and <b>lfUnderline</b> members of the  structure pointed to by <b>lpLogFont</b> to specify the initial settings of the strikeout and underline check boxes. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> can use these members to return the user's selections.
+Causes the dialog box to display the controls that allow the user to specify strikeout, underline, and text color options. If this flag is set, you can use the <b>rgbColors</b> member to specify the initial text color. You can use the <b>lfStrikeOut</b> and <b>lfUnderline</b> members of the  structure pointed to by <b>lpLogFont</b> to specify the initial settings of the strikeout and underline check boxes. <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> can use these members to return the user's selections.
 
 </td>
 </tr>
@@ -194,7 +187,7 @@ Indicates that the <b>hInstance</b> member identifies a data block that contains
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should enumerate and allow selection of only fixed-pitch fonts.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should enumerate and allow selection of only fixed-pitch fonts.
 
 </td>
 </tr>
@@ -206,7 +199,7 @@ Indicates that the <b>hInstance</b> member identifies a data block that contains
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should indicate an error condition if the user attempts to select a font or style that is not listed in the dialog box.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should indicate an error condition if the user attempts to select a font or style that is not listed in the dialog box.
 
 </td>
 </tr>
@@ -218,7 +211,7 @@ Indicates that the <b>hInstance</b> member identifies a data block that contains
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should additionally display fonts that are set to Hide in Fonts Control Panel.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should additionally display fonts that are set to Hide in Fonts Control Panel.
 
 <b>Windows Vista and Windows XP/2000:  </b>This flag is not supported until Windows 7.
 
@@ -232,7 +225,7 @@ Indicates that the <b>hInstance</b> member identifies a data block that contains
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should use the  structure pointed to by the <b>lpLogFont</b> member to initialize the dialog box controls.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should use the  structure pointed to by the <b>lpLogFont</b> member to initialize the dialog box controls.
 
 </td>
 </tr>
@@ -244,7 +237,7 @@ Indicates that the <b>hInstance</b> member identifies a data block that contains
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should select only font sizes within the range specified by the <b>nSizeMin</b> and <b>nSizeMax</b> members.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should select only font sizes within the range specified by the <b>nSizeMin</b> and <b>nSizeMax</b> members.
 
 </td>
 </tr>
@@ -266,7 +259,7 @@ Same as the <b>CF_NOVECTORFONTS</b> flag.
 </dl>
 </td>
 <td width="60%">
-When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the font name combo box. This is useful when there is no single font name that applies to the text selection. 
+When using a <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the font name combo box. This is useful when there is no single font name that applies to the text selection. 
 
 </td>
 </tr>
@@ -277,7 +270,7 @@ When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-w
 </dl>
 </td>
 <td width="60%">
-Disables the <b>Script</b> combo box. When this flag is set, the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure is set to <b>DEFAULT_CHARSET</b> when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns. This flag is used only to initialize the dialog box.
+Disables the <b>Script</b> combo box. When this flag is set, the <b>lfCharSet</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure is set to <b>DEFAULT_CHARSET</b> when <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns. This flag is used only to initialize the dialog box.
 
 </td>
 </tr>
@@ -289,7 +282,7 @@ Disables the <b>Script</b> combo box. When this flag is set, the <b>lfCharSet</b
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should not display or allow selection of font simulations.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should not display or allow selection of font simulations.
 
 </td>
 </tr>
@@ -311,7 +304,7 @@ When using a  structure to initialize the dialog box controls, use this flag to 
 </dl>
 </td>
 <td width="60%">
-When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the <b>Font Style</b> combo box. This is useful when there is no single font style that applies to the text selection. 
+When using a <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure to initialize the dialog box controls, use this flag to prevent the dialog box from displaying an initial selection for the <b>Font Style</b> combo box. This is useful when there is no single font style that applies to the text selection. 
 
 </td>
 </tr>
@@ -323,7 +316,7 @@ When using a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-w
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should not allow vector font selections.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should not allow vector font selections.
 
 </td>
 </tr>
@@ -358,7 +351,7 @@ This flag is ignored for font enumeration.
 </dl>
 </td>
 <td width="60%">
-Specifies that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should allow only the selection of scalable fonts. Scalable fonts include vector fonts, scalable printer fonts, TrueType fonts, and fonts scaled by other technologies.
+Specifies that <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should allow only the selection of scalable fonts. Scalable fonts include vector fonts, scalable printer fonts, TrueType fonts, and fonts scaled by other technologies.
 
 </td>
 </tr>
@@ -383,7 +376,7 @@ This flag is ignored for font enumeration.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should allow selection of fonts for all non-OEM and Symbol character sets, as well as the ANSI character set. This supersedes the <b>CF_ANSIONLY</b> value.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should allow selection of fonts for all non-OEM and Symbol character sets, as well as the ANSI character set. This supersedes the <b>CF_ANSIONLY</b> value.
 
 </td>
 </tr>
@@ -394,7 +387,7 @@ This flag is ignored for font enumeration.
 </dl>
 </td>
 <td width="60%">
-When specified on input, only fonts with the character set identified in the <b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure are displayed. The user will not be allowed to change the character set specified in the <b>Scripts</b> combo box.
+When specified on input, only fonts with the character set identified in the <b>lfCharSet</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure are displayed. The user will not be allowed to change the character set specified in the <b>Scripts</b> combo box.
 
 </td>
 </tr>
@@ -405,7 +398,7 @@ When specified on input, only fonts with the character set identified in the <b>
 </dl>
 </td>
 <td width="60%">
-Causes the dialog box to display the <b>Help</b> button. The <b>hwndOwner</b> member must specify the window to receive the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/helpmsgstring">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
+Causes the dialog box to display the <b>Help</b> button. The <b>hwndOwner</b> member must specify the window to receive the <a href="/windows/desktop/dlgbox/helpmsgstring">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
 
 </td>
 </tr>
@@ -417,7 +410,7 @@ Causes the dialog box to display the <b>Help</b> button. The <b>hwndOwner</b> me
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should only enumerate and allow the selection of TrueType fonts.
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should only enumerate and allow the selection of TrueType fonts.
 
 </td>
 </tr>
@@ -428,9 +421,9 @@ Causes the dialog box to display the <b>Help</b> button. The <b>hwndOwner</b> me
 </dl>
 </td>
 <td width="60%">
-The <b>lpszStyle</b> member is a pointer to a buffer that contains style data that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should use to initialize the <b>Font Style</b> combo box. When the user closes the dialog box, <b>ChooseFont</b> copies style data for the user's selection to this buffer.
+The <b>lpszStyle</b> member is a pointer to a buffer that contains style data that <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should use to initialize the <b>Font Style</b> combo box. When the user closes the dialog box, <b>ChooseFont</b> copies style data for the user's selection to this buffer.
 
-<div class="alert"><b>Note</b>  To globalize your application, you should specify the style by using the <b>lfWeight</b> and <b>lfItalic</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>. The style name may change depending on the system user interface language.</div>
+<div class="alert"><b>Note</b>  To globalize your application, you should specify the style by using the <b>lfWeight</b> and <b>lfItalic</b> members of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure pointed to by <b>lpLogFont</b>. The style name may change depending on the system user interface language.</div>
 <div> </div>
 </td>
 </tr>
@@ -441,63 +434,55 @@ The <b>lpszStyle</b> member is a pointer to a buffer that contains style data th
 </dl>
 </td>
 <td width="60%">
- Obsolete. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> ignores this flag.
+ Obsolete. <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> ignores this flag.
 
-<b>Windows Vista and Windows XP/2000:  </b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should allow only the selection of fonts available on both the printer and the display. If this flag is specified, the <b>CF_SCREENSHOTS</b> and <b>CF_PRINTERFONTS</b>, or <b>CF_BOTH</b> flags should also be specified.
+<b>Windows Vista and Windows XP/2000:  </b><a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> should allow only the selection of fonts available on both the printer and the display. If this flag is specified, the <b>CF_SCREENSHOTS</b> and <b>CF_PRINTERFONTS</b>, or <b>CF_BOTH</b> flags should also be specified.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rgbColors
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-If the <b>CF_EFFECTS</b> flag is set, <b>rgbColors</b> specifies the initial text color. When <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns successfully, this member contains the RGB value of the text color that the user selected. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro. 
-
+If the <b>CF_EFFECTS</b> flag is set, <b>rgbColors</b> specifies the initial text color. When <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns successfully, this member contains the RGB value of the text color that the user selected. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field lCustData
 
 Type: <b>LPARAM</b>
 
-Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">CHOOSEFONT</a> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value. 
-
+Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">CHOOSEFONT</a> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value.
 
 ### -field lpfnHook
 
 Type: <b>LPCFHOOKPROC</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpcfhookproc">CFHookProc</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>CF_ENABLEHOOK</b> flag is set in the <b>Flags</b> member. 
-
+A pointer to a <a href="/windows/desktop/api/commdlg/nc-commdlg-lpcfhookproc">CFHookProc</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>CF_ENABLEHOOK</b> flag is set in the <b>Flags</b> member.
 
 ### -field lpTemplateName
 
 Type: <b>LPCTSTR</b>
 
-The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpTemplateName</b> can be a value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>CF_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member. 
-
+The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpTemplateName</b> can be a value returned by the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>CF_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member.
 
 ### -field hInstance
 
 Type: <b>HINSTANCE</b>
 
-If the <b>CF_ENABLETEMPLATEHANDLE</b> flag is set in the <b>Flags</b> member, <b>hInstance</b> is a handle to a memory object containing a dialog box template. If the <b>CF_ENABLETEMPLATE</b> flag is set, <b>hInstance</b> is a handle to a module that contains a dialog box template named by the <b>lpTemplateName</b> member. If neither <b>CF_ENABLETEMPLATEHANDLE</b> nor <b>CF_ENABLETEMPLATE</b> is set, this member is ignored. 
-
+If the <b>CF_ENABLETEMPLATEHANDLE</b> flag is set in the <b>Flags</b> member, <b>hInstance</b> is a handle to a memory object containing a dialog box template. If the <b>CF_ENABLETEMPLATE</b> flag is set, <b>hInstance</b> is a handle to a module that contains a dialog box template named by the <b>lpTemplateName</b> member. If neither <b>CF_ENABLETEMPLATEHANDLE</b> nor <b>CF_ENABLETEMPLATE</b> is set, this member is ignored.
 
 ### -field lpszStyle
 
 Type: <b>LPTSTR</b>
 
-The style data. If the <b>CF_USESTYLE</b> flag is specified, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> uses the data in this buffer to initialize the <b>Font Style</b> combo box. When the user closes the dialog box, <b>ChooseFont</b> copies the string in the <b>Font Style</b> combo box into this buffer. 
-
+The style data. If the <b>CF_USESTYLE</b> flag is specified, <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> uses the data in this buffer to initialize the <b>Font Style</b> combo box. When the user closes the dialog box, <b>ChooseFont</b> copies the string in the <b>Font Style</b> combo box into this buffer.
 
 ### -field nFontType
 
 Type: <b>WORD</b>
 
-The type of the selected font when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns. This member can be one or more of the following values. 
+The type of the selected font when <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> returns. This member can be one or more of the following values. 
 
 <table>
 <tr>
@@ -511,7 +496,7 @@ The type of the selected font when <a href="https://docs.microsoft.com/previous-
 </dl>
 </td>
 <td width="60%">
-The font weight is bold. This information is duplicated in the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and is equivalent to <b>FW_BOLD</b>.
+The font weight is bold. This information is duplicated in the <b>lfWeight</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and is equivalent to <b>FW_BOLD</b>.
 
 </td>
 </tr>
@@ -522,7 +507,7 @@ The font weight is bold. This information is duplicated in the <b>lfWeight</b> m
 </dl>
 </td>
 <td width="60%">
-The italic font attribute is set. This information is duplicated in the <b>lfItalic</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
+The italic font attribute is set. This information is duplicated in the <b>lfItalic</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 </td>
 </tr>
@@ -544,7 +529,7 @@ The font is a printer font.
 </dl>
 </td>
 <td width="60%">
-The font weight is normal. This information is duplicated in the <b>lfWeight</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and is equivalent to <b>FW_REGULAR</b>.
+The font weight is normal. This information is duplicated in the <b>lfWeight</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure and is equivalent to <b>FW_REGULAR</b>.
 
 </td>
 </tr>
@@ -571,33 +556,26 @@ The font is simulated by the graphics device interface (GDI).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field nSizeMin
 
 Type: <b>INT</b>
 
-The minimum point size a user can select. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> recognizes this member only if the <b>CF_LIMITSIZE</b> flag is specified. 
-
+The minimum point size a user can select. <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> recognizes this member only if the <b>CF_LIMITSIZE</b> flag is specified.
 
 ### -field nSizeMax
 
 Type: <b>INT</b>
 
-The maximum point size a user can select. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> recognizes this member only if the <b>CF_LIMITSIZE</b> flag is specified. 
-
+The maximum point size a user can select. <a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a> recognizes this member only if the <b>CF_LIMITSIZE</b> flag is specified.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)">ChooseFont</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -605,12 +583,13 @@ The maximum point size a user can select. <a href="https://docs.microsoft.com/pr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
 <b>Reference</b>
- 
 
- 
+## -remarks
 
+> [!NOTE]
+> The commdlg.h header defines CHOOSEFONT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRow.Reset
 title: ITextRow::Reset (tom.h)
 description: Resets a row.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","Reset method","ITextRow.Reset","ITextRow::Reset","Reset","Reset method [Windows Controls]","Reset method [Windows Controls]","ITextRow interface","controls.itextrow_reset","tom/ITextRow::Reset"]
 old-location: controls\itextrow_reset.htm
 tech.root: Controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],Reset method, ITextRow.Reset, ITextRow::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextRow interface, controls.itextrow_reset, tom/ITextRow::Reset
-f1_keywords:
-- tom/ITextRow.Reset
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRow.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRow::Reset
+ - tom/ITextRow::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRow.Reset
 ---
 
 # ITextRow::Reset
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets a row.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-The <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomRowUpdate</a> reset value.
-
+The <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomRowUpdate</a> reset value.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -100,18 +94,7 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>

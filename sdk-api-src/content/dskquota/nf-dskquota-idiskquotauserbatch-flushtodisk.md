@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaUserBatch.FlushToDisk
 title: IDiskQuotaUserBatch::FlushToDisk (dskquota.h)
 description: Writes user object changes to disk in a single call to the underlying file system.
+helpviewer_keywords: ["FlushToDisk","FlushToDisk method [Files]","FlushToDisk method [Files]","IDiskQuotaUserBatch interface","IDiskQuotaUserBatch interface [Files]","FlushToDisk method","IDiskQuotaUserBatch.FlushToDisk","IDiskQuotaUserBatch::FlushToDisk","_win32_idiskquotauserbatch_flushtodisk","base.idiskquotauserbatch_flushtodisk","dskquota/IDiskQuotaUserBatch::FlushToDisk","fs.idiskquotauserbatch_flushtodisk"]
 old-location: fs\idiskquotauserbatch_flushtodisk.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2d147224-64d8-4c15-b860-e6dd216cb170
 ms.date: 12/05/2018
 ms.keywords: FlushToDisk, FlushToDisk method [Files], FlushToDisk method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],FlushToDisk method, IDiskQuotaUserBatch.FlushToDisk, IDiskQuotaUserBatch::FlushToDisk, _win32_idiskquotauserbatch_flushtodisk, base.idiskquotauserbatch_flushtodisk, dskquota/IDiskQuotaUserBatch::FlushToDisk, fs.idiskquotauserbatch_flushtodisk
-f1_keywords:
-- dskquota/IDiskQuotaUserBatch.FlushToDisk
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUserBatch.FlushToDisk
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUserBatch::FlushToDisk
+ - dskquota/IDiskQuotaUserBatch::FlushToDisk
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUserBatch.FlushToDisk
 ---
 
 # IDiskQuotaUserBatch::FlushToDisk
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes user object changes to disk in a single call to the underlying file system.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -126,35 +119,19 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 There are limitations on the amount of information that can be written to disk in a single call to the file system. The flush operation may generate multiple calls to the file system. Nonetheless, the batch operation will be more efficient than a single call for each user object.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>

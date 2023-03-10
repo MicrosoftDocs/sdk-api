@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ICrmMonitorLogRecords.GetLogRecordVariants
 title: ICrmMonitorLogRecords::GetLogRecordVariants (comsvcs.h)
 description: Retrieves a structured log record given its numeric index.
+helpviewer_keywords: ["GetLogRecordVariants","GetLogRecordVariants method [COM+]","GetLogRecordVariants method [COM+]","ICrmMonitorLogRecords interface","ICrmMonitorLogRecords interface [COM+]","GetLogRecordVariants method","ICrmMonitorLogRecords.GetLogRecordVariants","ICrmMonitorLogRecords::GetLogRecordVariants","_dtc_ICrmMonitorLogRecords_GetLogRecordVariants","comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants","cos.icrmmonitorlogrecords_getlogrecordvariants"]
 old-location: cos\icrmmonitorlogrecords_getlogrecordvariants.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 4f020d2d-ea2d-48c2-ab79-7b412e77b39f
 ms.date: 12/05/2018
 ms.keywords: GetLogRecordVariants, GetLogRecordVariants method [COM+], GetLogRecordVariants method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecordVariants method, ICrmMonitorLogRecords.GetLogRecordVariants, ICrmMonitorLogRecords::GetLogRecordVariants, _dtc_ICrmMonitorLogRecords_GetLogRecordVariants, comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants, cos.icrmmonitorlogrecords_getlogrecordvariants
-f1_keywords:
-- comsvcs/ICrmMonitorLogRecords.GetLogRecordVariants
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ICrmMonitorLogRecords.GetLogRecordVariants
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICrmMonitorLogRecords::GetLogRecordVariants
+ - comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ICrmMonitorLogRecords.GetLogRecordVariants
 ---
 
 # ICrmMonitorLogRecords::GetLogRecordVariants
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a structured log record given its numeric index.
 
-
 ## -parameters
-
-
-
 
 ### -param IndexNumber [in]
 
 The index of the required log record.
 
-
 ### -param pLogRecord [out]
 
-The log record. See <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-preparerecordvariants">ICrmCompensatorVariants::PrepareRecordVariants</a> for the format.
-
+The log record. See <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-preparerecordvariants">ICrmCompensatorVariants::PrepareRecordVariants</a> for the format.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -134,18 +127,7 @@ The transaction has completed, and the log records have been discarded from the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>

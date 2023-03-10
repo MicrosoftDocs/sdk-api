@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfRange.IsEqualStart
 title: ITfRange::IsEqualStart (msctf.h)
 description: The ITfRange::IsEqualStart method verifies that the start anchor of this range of text matches an anchor of another specified range.
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","IsEqualStart method","ITfRange.IsEqualStart","ITfRange::IsEqualStart","IsEqualStart","IsEqualStart method [Text Services Framework]","IsEqualStart method [Text Services Framework]","ITfRange interface","TF_ANCHOR_END","TF_ANCHOR_START","_tsf_itfrange_isequalstart_ref","msctf/ITfRange::IsEqualStart","tsf.itfrange_isequalstart"]
 old-location: tsf\itfrange_isequalstart.htm
 tech.root: TSF
 ms.assetid: 562c2821-9522-4fb5-ae15-4430cd2711c6
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEqualStart method, ITfRange.IsEqualStart, ITfRange::IsEqualStart, IsEqualStart, IsEqualStart method [Text Services Framework], IsEqualStart method [Text Services Framework],ITfRange interface, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalstart_ref, msctf/ITfRange::IsEqualStart, tsf.itfrange_isequalstart
-f1_keywords:
-- msctf/ITfRange.IsEqualStart
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.IsEqualStart
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::IsEqualStart
+ - msctf/ITfRange::IsEqualStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.IsEqualStart
 ---
 
 # ITfRange::IsEqualStart
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange::IsEqualStart</b> method verifies that the start anchor of this range of text matches an anchor of another specified range.
-
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Edit cookie obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pWith [in]
 
 Pointer to a specified range in which an anchor is to be compared to this range start anchor.
-
 
 ### -param aPos [in]
 
@@ -97,17 +92,12 @@ Compares this range start anchor with the specified range end anchor.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pfEqual [out]
 
 Pointer to a Boolean value. Upon return, <b>TRUE</b> indicates that the specified <i>pWith</i> range anchor matches this range start anchor. <b>FALSE</b> indicates otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -161,56 +151,40 @@ The value of the <i>ec</i> parameter is an invalid cookie, or the caller does no
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is identical to, but more efficient than, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart</a>.
-
-
-
+This method is identical to, but more efficient than, <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-comparestart">ITfRange::CompareStart
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange:IsEqualEnd
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-isequalend">ITfRange:IsEqualEnd
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
+<a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
- 
-
- 
-

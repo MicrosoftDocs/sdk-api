@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDMessageParameters.SetLocalAddress
 title: IWSDMessageParameters::SetLocalAddress (wsdbase.h)
 description: Sets a generic address object representing the source address that should send the message.
+helpviewer_keywords: ["IWSDMessageParameters interface","SetLocalAddress method","IWSDMessageParameters.SetLocalAddress","IWSDMessageParameters::SetLocalAddress","SetLocalAddress","SetLocalAddress method","SetLocalAddress method","IWSDMessageParameters interface","ncd.iwsdmessageparameters_setlocaladdress","wsdbase/IWSDMessageParameters::SetLocalAddress"]
 old-location: ncd\iwsdmessageparameters_setlocaladdress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8266f091-9c88-44eb-a32b-1ff3da5fa10e
 ms.date: 12/05/2018
 ms.keywords: IWSDMessageParameters interface,SetLocalAddress method, IWSDMessageParameters.SetLocalAddress, IWSDMessageParameters::SetLocalAddress, SetLocalAddress, SetLocalAddress method, SetLocalAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress
-f1_keywords:
-- wsdbase/IWSDMessageParameters.SetLocalAddress
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDMessageParameters.SetLocalAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDMessageParameters::SetLocalAddress
+ - wsdbase/IWSDMessageParameters::SetLocalAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDMessageParameters.SetLocalAddress
 ---
 
 # IWSDMessageParameters::SetLocalAddress
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a generic address object representing the source address that should send the message.
-
 
 ## -parameters
 
-
-
-
 ### -param pAddress [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the source address that should send the message.
-
+An <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the source address that should send the message.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -90,18 +84,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

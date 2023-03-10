@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaPropertyBag.EnumProperty
 title: IMediaPropertyBag::EnumProperty (strmif.h)
 description: The EnumProperty method retrieves a property/value pair.
+helpviewer_keywords: ["EnumProperty","EnumProperty method [DirectShow]","EnumProperty method [DirectShow]","IMediaPropertyBag interface","IMediaPropertyBag interface [DirectShow]","EnumProperty method","IMediaPropertyBag.EnumProperty","IMediaPropertyBag::EnumProperty","IMediaPropertyBagEnumProperty","dshow.imediapropertybag_enumproperty","strmif/IMediaPropertyBag::EnumProperty"]
 old-location: dshow\imediapropertybag_enumproperty.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 88cd9016-ef6f-467a-9e84-10b2ac578211
 ms.date: 12/05/2018
 ms.keywords: EnumProperty, EnumProperty method [DirectShow], EnumProperty method [DirectShow],IMediaPropertyBag interface, IMediaPropertyBag interface [DirectShow],EnumProperty method, IMediaPropertyBag.EnumProperty, IMediaPropertyBag::EnumProperty, IMediaPropertyBagEnumProperty, dshow.imediapropertybag_enumproperty, strmif/IMediaPropertyBag::EnumProperty
-f1_keywords:
-- strmif/IMediaPropertyBag.EnumProperty
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaPropertyBag.EnumProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaPropertyBag::EnumProperty
+ - strmif/IMediaPropertyBag::EnumProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaPropertyBag.EnumProperty
 ---
 
 # IMediaPropertyBag::EnumProperty
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>EnumProperty</code> method retrieves a property/value pair.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param iProperty [in]
 
 Index value of the pair.
 
-
 ### -param pvarPropertyName [in, out]
 
 Pointer to a <b>VARIANT</b> that receives the property's name.
-
 
 ### -param pvarPropertyValue [in, out]
 
 Pointer to a <b>VARIANT</b> that receives the property's value.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -143,33 +132,17 @@ Index out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The name is always a string. Set the variant type of the <i>pvarPropertyName</i> parameter to VT_EMPTY or VT_BSTR before calling this method.
 
 The value can be a string (for INFO chunks) or an array of bytes (for DISP chunks). Set the variant type of the <i>pvarPropertyName</i> parameter to VT_EMPTY, VT_BSTR, or (VT_ARRAY | VT_UI1).
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediapropertybag">IMediaPropertyBag Interface</a>

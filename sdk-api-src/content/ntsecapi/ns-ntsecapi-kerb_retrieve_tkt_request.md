@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._KERB_RETRIEVE_TKT_REQUEST
 title: KERB_RETRIEVE_TKT_REQUEST (ntsecapi.h)
 description: Contains information used to retrieve a ticket.
+helpviewer_keywords: ["*PKERB_RETRIEVE_TKT_REQUEST",">127","KERB_ETYPE_DES_CBC_CRC","KERB_ETYPE_DES_CBC_MD4","KERB_ETYPE_DES_CBC_MD5","KERB_ETYPE_NULL","KERB_ETYPE_RC4_HMAC_NT","KERB_ETYPE_RC4_MD4","KERB_RETRIEVE_TICKET_AS_KERB_CRED","KERB_RETRIEVE_TICKET_CACHE_TICKET","KERB_RETRIEVE_TICKET_DONT_USE_CACHE","KERB_RETRIEVE_TICKET_MAX_LIFETIME","KERB_RETRIEVE_TICKET_USE_CACHE_ONLY","KERB_RETRIEVE_TICKET_USE_CREDHANDLE","KERB_RETRIEVE_TICKET_WITH_SEC_CRED","KERB_RETRIEVE_TKT_REQUEST","KERB_RETRIEVE_TKT_REQUEST structure [Security]","PKERB_RETRIEVE_TKT_REQUEST","PKERB_RETRIEVE_TKT_REQUEST structure pointer [Security]","_lsa_kerb_retrieve_tkt_request","ntsecapi/KERB_RETRIEVE_TKT_REQUEST","ntsecapi/PKERB_RETRIEVE_TKT_REQUEST","security.kerb_retrieve_tkt_request"]
 old-location: security\kerb_retrieve_tkt_request.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3b088c94-810b-44c7-887a-58e8dbd13603
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_RETRIEVE_TKT_REQUEST, >127, KERB_ETYPE_DES_CBC_CRC, KERB_ETYPE_DES_CBC_MD4, KERB_ETYPE_DES_CBC_MD5, KERB_ETYPE_NULL, KERB_ETYPE_RC4_HMAC_NT, KERB_ETYPE_RC4_MD4, KERB_RETRIEVE_TICKET_AS_KERB_CRED, KERB_RETRIEVE_TICKET_CACHE_TICKET, KERB_RETRIEVE_TICKET_DONT_USE_CACHE, KERB_RETRIEVE_TICKET_MAX_LIFETIME, KERB_RETRIEVE_TICKET_USE_CACHE_ONLY, KERB_RETRIEVE_TICKET_USE_CREDHANDLE, KERB_RETRIEVE_TICKET_WITH_SEC_CRED, KERB_RETRIEVE_TKT_REQUEST, KERB_RETRIEVE_TKT_REQUEST structure [Security], PKERB_RETRIEVE_TKT_REQUEST, PKERB_RETRIEVE_TKT_REQUEST structure pointer [Security], _lsa_kerb_retrieve_tkt_request, ntsecapi/KERB_RETRIEVE_TKT_REQUEST, ntsecapi/PKERB_RETRIEVE_TKT_REQUEST, security.kerb_retrieve_tkt_request'
-f1_keywords:
-- ntsecapi/KERB_RETRIEVE_TKT_REQUEST
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_RETRIEVE_TKT_REQUEST
 targetos: Windows
 req.typenames: KERB_RETRIEVE_TKT_REQUEST, *PKERB_RETRIEVE_TKT_REQUEST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KERB_RETRIEVE_TKT_REQUEST
+ - ntsecapi/_KERB_RETRIEVE_TKT_REQUEST
+ - PKERB_RETRIEVE_TKT_REQUEST
+ - ntsecapi/PKERB_RETRIEVE_TKT_REQUEST
+ - KERB_RETRIEVE_TKT_REQUEST
+ - ntsecapi/KERB_RETRIEVE_TKT_REQUEST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_RETRIEVE_TKT_REQUEST
 ---
 
 # KERB_RETRIEVE_TKT_REQUEST structure
@@ -48,35 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>KERB_RETRIEVE_TKT_REQUEST</b> structure contains information used to retrieve a ticket.
 
 It is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>.The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a>. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field MessageType
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value indicating the type of request being made. This member must be set to <b>KerbRetrieveEncodedTicketMessage</b>.
-
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> value indicating the type of request being made. This member must be set to <b>KerbRetrieveEncodedTicketMessage</b>.
 
 ### -field LogonId
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
 
 ### -field TargetName
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the target service.
-
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the name of the target service.
 
 ### -field TicketFlags
 
@@ -86,7 +81,6 @@ Contains flags specifying uses for the retrieved ticket. If <b>TicketFlags</b> i
 
 
 If this member is not set to zero, the returned ticket will not be cached.
-
 
 ### -field CacheOptions
 
@@ -116,7 +110,7 @@ Always request a new ticket; do not search the cache.
 
 
 
-If a ticket is obtained, the Kerberos authentication package returns STATUS_SUCCESS in the <i>ProtocolStatus</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+If a ticket is obtained, the Kerberos authentication package returns STATUS_SUCCESS in the <i>ProtocolStatus</i> parameter of the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
 </td>
 </tr>
@@ -145,7 +139,7 @@ Return only a previously cached ticket.
 
 
 
-If such a ticket is not found, the Kerberos authentication package returns STATUS_OBJECT_NAME_NOT_FOUND in the <i>ProtocolStatus</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+If such a ticket is not found, the Kerberos authentication package returns STATUS_OBJECT_NAME_NOT_FOUND in the <i>ProtocolStatus</i> parameter of the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
 </td>
 </tr>
@@ -156,7 +150,7 @@ If such a ticket is not found, the Kerberos authentication package returns STATU
 </dl>
 </td>
 <td width="60%">
-Return the ticket as a Kerberos credential. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a> as KRB_CRED. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84023">http://www.ietf.org</a>. 
+Return the ticket as a Kerberos credential. The Kerberos ticket is defined in Internet <a href="http://www.ietf.org/rfc/rfc4120.txt">RFC 4120</a> as KRB_CRED. For more information, see <a href="https://www.ietf.org/">http://www.ietf.org</a>. 
 
 
 
@@ -208,8 +202,6 @@ Return a fresh ticket with maximum allowed time by the policy. The ticker is cac
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EncryptionType
 
@@ -231,7 +223,7 @@ This member can have one of the following values.
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
+Use <a href="/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
 
 </td>
 </tr>
@@ -271,7 +263,7 @@ Use no encryption.
 </dl>
 </td>
 <td width="60%">
-Use the RC4 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC), as used by Windows.
+Use the RC4 <a href="/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC), as used by Windows.
 
 </td>
 </tr>
@@ -296,10 +288,7 @@ Values greater than 127 are reserved for local values and may change without not
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CredentialsHandle
 
 An SSPI credentials handle used in place of a logon session identifier.
-

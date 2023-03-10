@@ -2,15 +2,12 @@
 UID: NE:d3d12.D3D12_INDIRECT_ARGUMENT_TYPE
 title: D3D12_INDIRECT_ARGUMENT_TYPE (d3d12.h)
 description: Specifies the type of the indirect parameter.
+helpviewer_keywords: ["D3D12_INDIRECT_ARGUMENT_TYPE","D3D12_INDIRECT_ARGUMENT_TYPE enumeration","D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT","D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW","D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH","D3D12_INDIRECT_ARGUMENT_TYPE_DRAW","D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED","D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW","D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW","D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW","D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DRAW","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW","d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW","direct3d12.d3d12_indirect_argument_type"]
 old-location: direct3d12\d3d12_indirect_argument_type.htm
 tech.root: direct3d12
 ms.assetid: 03324A50-BE16-4FC0-BFE7-9EE97C738165
 ms.date: 12/05/2018
 ms.keywords: D3D12_INDIRECT_ARGUMENT_TYPE, D3D12_INDIRECT_ARGUMENT_TYPE enumeration, D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT, D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH, D3D12_INDIRECT_ARGUMENT_TYPE_DRAW, D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED, D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW, D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DRAW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW, d3d12/D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW, direct3d12.d3d12_indirect_argument_type
-f1_keywords:
-- d3d12/D3D12_INDIRECT_ARGUMENT_TYPE
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_INDIRECT_ARGUMENT_TYPE
 targetos: Windows
 req.typenames: D3D12_INDIRECT_ARGUMENT_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_INDIRECT_ARGUMENT_TYPE
+ - d3d12/D3D12_INDIRECT_ARGUMENT_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_INDIRECT_ARGUMENT_TYPE
 ---
 
 # D3D12_INDIRECT_ARGUMENT_TYPE enumeration
@@ -48,78 +50,50 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the type of the indirect parameter.
-        
-
 
 ## -enum-fields
 
-
-
-
-### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW
+### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW:0
 
 Indicates the type is a Draw call.
-
 
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED
 
 Indicates the type is a DrawIndexed call.
 
-
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_DISPATCH
 
 Indicates the type is a Dispatch call.
-
 
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW
 
 Indicates the type is a vertex buffer view.
 
-
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_INDEX_BUFFER_VIEW
 
 Indicates the type is an index buffer view.
-
 
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT
 
 Indicates the type is a constant.
 
-
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT_BUFFER_VIEW
 
 Indicates the type is a constant buffer view (CBV).
-
 
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_SHADER_RESOURCE_VIEW
 
 Indicates the type is a shader resource view (SRV).
 
-
 ### -field D3D12_INDIRECT_ARGUMENT_TYPE_UNORDERED_ACCESS_VIEW
 
 Indicates the type is an unordered access view (UAV).
 
-
 ## -remarks
 
-
-
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc">D3D12_INDIRECT_ARGUMENT_DESC</a> structure.
-        
-
-
-
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_indirect_argument_desc">D3D12_INDIRECT_ARGUMENT_DESC</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>

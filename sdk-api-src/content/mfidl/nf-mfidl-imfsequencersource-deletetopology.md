@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSequencerSource.DeleteTopology
 title: IMFSequencerSource::DeleteTopology (mfidl.h)
 description: Deletes a topology from the queue.
+helpviewer_keywords: ["6ef3512d-f953-46a3-8604-bec3904a962f","DeleteTopology","DeleteTopology method [Media Foundation]","DeleteTopology method [Media Foundation]","IMFSequencerSource interface","IMFSequencerSource interface [Media Foundation]","DeleteTopology method","IMFSequencerSource.DeleteTopology","IMFSequencerSource::DeleteTopology","mf.imfsequencersource_deletetopology","mfidl/IMFSequencerSource::DeleteTopology"]
 old-location: mf\imfsequencersource_deletetopology.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6ef3512d-f953-46a3-8604-bec3904a962f
 ms.date: 12/05/2018
 ms.keywords: 6ef3512d-f953-46a3-8604-bec3904a962f, DeleteTopology, DeleteTopology method [Media Foundation], DeleteTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],DeleteTopology method, IMFSequencerSource.DeleteTopology, IMFSequencerSource::DeleteTopology, mf.imfsequencersource_deletetopology, mfidl/IMFSequencerSource::DeleteTopology
-f1_keywords:
-- mfidl/IMFSequencerSource.DeleteTopology
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSequencerSource.DeleteTopology
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSequencerSource::DeleteTopology
+ - mfidl/IMFSequencerSource::DeleteTopology
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSequencerSource.DeleteTopology
 ---
 
 # IMFSequencerSource::DeleteTopology
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Deletes a topology from the queue.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwId [in]
 
 The sequencer element identifier of the topology to delete.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,22 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource">IMFSequencerSource</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>

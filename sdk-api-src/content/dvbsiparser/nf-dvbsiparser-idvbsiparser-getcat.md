@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSiParser.GetCAT
 title: IDvbSiParser::GetCAT (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCAT","GetCAT method [Microsoft TV Technologies]","GetCAT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetCAT method","IDvbSiParser.GetCAT","IDvbSiParser::GetCAT","IDvbSiParserGetCAT","dvbsiparser/IDvbSiParser::GetCAT","mstv.idvbsiparser_getcat"]
 old-location: mstv\idvbsiparser_getcat.htm
 tech.root: mstv
 ms.assetid: afd6286a-1b05-408f-a752-6fc3a2667e31
 ms.date: 12/05/2018
 ms.keywords: GetCAT, GetCAT method [Microsoft TV Technologies], GetCAT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetCAT method, IDvbSiParser.GetCAT, IDvbSiParser::GetCAT, IDvbSiParserGetCAT, dvbsiparser/IDvbSiParser::GetCAT, mstv.idvbsiparser_getcat
-f1_keywords:
-- dvbsiparser/IDvbSiParser.GetCAT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSiParser.GetCAT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSiParser::GetCAT
+ - dvbsiparser/IDvbSiParser::GetCAT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSiParser.GetCAT
 ---
 
 # IDvbSiParser::GetCAT
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetCAT</b> method retrieves the conditional access table (CAT).
 
-
 ## -parameters
-
-
-
 
 ### -param dwTimeout [in]
 
 Specifies a time-out value, in milliseconds. If the filter does not receive the data within the time-out period, the method fails.
 
-
 ### -param ppCAT [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT</a> interface pointer. The caller must release the interface.
-
+Address of a variable that receives an <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT</a> interface pointer. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,27 +110,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The method returns the first CAT that is marked <i>current</i>; that is, one in which the current_next_indicator bit is 1.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>

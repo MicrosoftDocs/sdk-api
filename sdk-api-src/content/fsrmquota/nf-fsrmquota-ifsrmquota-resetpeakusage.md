@@ -2,15 +2,12 @@
 UID: NF:fsrmquota.IFsrmQuota.ResetPeakUsage
 title: IFsrmQuota::ResetPeakUsage (fsrmquota.h)
 description: Resets the peak usage of this quota to the current usage.
+helpviewer_keywords: ["IFsrmQuota interface [File Server Resource Manager]","ResetPeakUsage method","IFsrmQuota.ResetPeakUsage","IFsrmQuota::ResetPeakUsage","ResetPeakUsage","ResetPeakUsage method [File Server Resource Manager]","ResetPeakUsage method [File Server Resource Manager]","IFsrmQuota interface","fs.ifsrmquota_resetpeakusage","fsrm.ifsrmquota_resetpeakusage","fsrmquota/IFsrmQuota::ResetPeakUsage"]
 old-location: fsrm\ifsrmquota_resetpeakusage.htm
 tech.root: fsrm
 ms.assetid: 5c2b18a9-912a-49cc-bf4f-07f172a328b1
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],ResetPeakUsage method, IFsrmQuota.ResetPeakUsage, IFsrmQuota::ResetPeakUsage, ResetPeakUsage, ResetPeakUsage method [File Server Resource Manager], ResetPeakUsage method [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_resetpeakusage, fsrm.ifsrmquota_resetpeakusage, fsrmquota/IFsrmQuota::ResetPeakUsage
-f1_keywords:
-- fsrmquota/IFsrmQuota.ResetPeakUsage
-dev_langs:
-- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmQuota.ResetPeakUsage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmQuota::ResetPeakUsage
+ - fsrmquota/IFsrmQuota::ResetPeakUsage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmQuota.ResetPeakUsage
 ---
 
 # IFsrmQuota::ResetPeakUsage
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Resets the peak usage of this quota to the current usage.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 The method returns the following return values.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquota">IFsrmQuota</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquota">IFsrmQuota</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>

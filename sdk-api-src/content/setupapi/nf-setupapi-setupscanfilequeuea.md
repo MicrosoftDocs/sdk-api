@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupScanFileQueueA
 title: SetupScanFileQueueA function (setupapi.h)
-description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
+description: The SetupScanFileQueue function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed. (ANSI)
+helpviewer_keywords: ["SPQ_SCAN_FILE_PRESENCE", "SPQ_SCAN_FILE_VALIDITY", "SPQ_SCAN_INFORM_USER", "SPQ_SCAN_PRUNE_COPY_QUEUE", "SPQ_SCAN_PRUNE_DELREN", "SPQ_SCAN_USE_CALLBACK", "SPQ_SCAN_USE_CALLBACKEX", "SPQ_SCAN_USE_CALLBACK_SIGNERINFO", "SetupScanFileQueueA", "setupapi/SetupScanFileQueueA"]
 old-location: setup\setupscanfilequeue.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 4d59bb19-bb4a-4a24-814b-322e46e40fab
 ms.date: 12/05/2018
 ms.keywords: SPQ_SCAN_FILE_PRESENCE, SPQ_SCAN_FILE_VALIDITY, SPQ_SCAN_INFORM_USER, SPQ_SCAN_PRUNE_COPY_QUEUE, SPQ_SCAN_PRUNE_DELREN, SPQ_SCAN_USE_CALLBACK, SPQ_SCAN_USE_CALLBACKEX, SPQ_SCAN_USE_CALLBACK_SIGNERINFO, SetupScanFileQueue, SetupScanFileQueue function [Setup API], SetupScanFileQueueA, SetupScanFileQueueW, _setupapi_setupscanfilequeue, setup.setupscanfilequeue, setupapi/SetupScanFileQueue, setupapi/SetupScanFileQueueA, setupapi/SetupScanFileQueueW
-f1_keywords:
-- setupapi/SetupScanFileQueue
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupScanFileQueue
-- SetupScanFileQueueA
-- SetupScanFileQueueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupScanFileQueueA
+ - setupapi/SetupScanFileQueueA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupScanFileQueue
+ - SetupScanFileQueueA
+ - SetupScanFileQueueW
 ---
 
 # SetupScanFileQueueA function
@@ -50,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupScanFileQueue</b> function scans a setup file queue, performing an operation on each node in its copy list. The operation is specified by a set of flags. This function can be called either before or after the queue has been committed.
 
-
 ## -parameters
-
-
-
 
 ### -param FileQueue [in]
 
 Handle to the setup file queue whose copy list is to be scanned or iterated.
-
 
 ### -param Flags [in]
 
@@ -106,7 +102,7 @@ Target files in the copy queue  are already present on the target with valid sig
 <td width="60%">
 Callback routine for each node of the queue. If the callback routine returns a nonzero value, the queue processing stops and 
 <b>SetupScanFileQueue</b> returns zero. Issue a 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-queuescan">SPFILENOTIFY_QUEUESCAN</a> notification code and a pass a pointer to the target path as <i>Param1</i>.
+<a href="/windows/desktop/SetupApi/spfilenotify-queuescan">SPFILENOTIFY_QUEUESCAN</a> notification code and a pass a pointer to the target path as <i>Param1</i>.
 
 </td>
 </tr>
@@ -118,7 +114,7 @@ Callback routine for each node of the queue. If the callback routine returns a n
 <td width="60%">
 Callback routine for each node of the queue. If the callback routine returns a nonzero value, the queue processing stops and 
 <b>SetupScanFileQueue</b> returns zero. Issue a SPFILENOTIFY_QUEUESCAN_EX notification and pass a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-filepaths_a">FILEPATHS</a> structure as <i>Param1</i>. SPQ_SCAN_USE_CALLBACKEX also checks that the file has a valid signature. Available starting with Windows 2000. On Windows XP only, you can turn off signature checking by combining this flag with SPQ_SCAN_FILE_PRESENCE.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-filepaths_a">FILEPATHS</a> structure as <i>Param1</i>. SPQ_SCAN_USE_CALLBACKEX also checks that the file has a valid signature. Available starting with Windows 2000. On Windows XP only, you can turn off signature checking by combining this flag with SPQ_SCAN_FILE_PRESENCE.
 
 </td>
 </tr>
@@ -150,7 +146,7 @@ Combined with SPQ_SCAN_FILE_PRESENCE, removes present entries from the copy queu
 </td>
 <td width="60%">
 Available starting with Windows XP. Issues SPFILENOTIFY_QUEUESCAN_SIGNERINFO notification and passes a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-filepaths_signerinfo_a">FILEPATHS_SIGNERINFO</a> structure as <i>Param1</i>. Checks each file for a valid signature and reports signature information through the callback function.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-filepaths_signerinfo_a">FILEPATHS_SIGNERINFO</a> structure as <i>Param1</i>. Checks each file for a valid signature and reports signature information through the callback function.
 
 </td>
 </tr>
@@ -165,18 +161,15 @@ Combined with SPQ_SCAN_FILE_PRESENCE or SPQ_SCAN_FILE_VALIDITY, removes entries 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Window [in]
 
 Optional handle to the window to own dialog boxes that are presented. This parameter is not used if the <i>Flags</i> parameter does not contain SPQ_SCAN_FILE_PRESENCE or if <i>Flags</i> does not contain SPQ_SCAN_INFORM_USER.
 
-
 ### -param CallbackRoutine [in]
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a> callback function to be called on each node of the copy queue. The notification code passed to the callback function is 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-queuescan">SPFILENOTIFY_QUEUESCAN</a>. This parameter is required if <i>Flags</i> includes SPQ_SCAN_USE_CALLBACK. 
+Optional pointer to a <a href="/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a> callback function to be called on each node of the copy queue. The notification code passed to the callback function is 
+<a href="/windows/desktop/SetupApi/spfilenotify-queuescan">SPFILENOTIFY_QUEUESCAN</a>. This parameter is required if <i>Flags</i> includes SPQ_SCAN_USE_CALLBACK. 
 
 
 
@@ -189,15 +182,11 @@ Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/se
 
 Optional pointer to a context that contains caller-defined data passed to the callback routine pointed to by <i>CallbackRoutine</i>.
 
-
 ### -param Result [out]
 
 Pointer to a variable that receives the result of the scan operation.
 
-
 ## -returns
-
-
 
 The function returns a nonzero value if all nodes in the queue were processed.
 
@@ -247,34 +236,29 @@ The queue passed the check and, if SPQ_SCAN_INFORM_USER was specified, the user 
  
 
 The function returns zero if an error occurred or the callback function returned nonzero. If <i>Result</i> is nonzero, it is the value returned by the callback function that stopped queue processing. If <i>Result</i> is zero, extended error information can be retrieved by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nc-setupapi-psp_file_callback_a">FileCallback</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdefaultqueuecallbacka">SetupDefaultQueueCallback</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdefaultqueuecallbacka">SetupDefaultQueueCallback</a>
- 
-
- 
-
+> [!NOTE]
+> The setupapi.h header defines SetupScanFileQueue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

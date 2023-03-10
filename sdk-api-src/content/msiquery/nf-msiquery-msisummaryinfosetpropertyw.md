@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoSetPropertyW
 title: MsiSummaryInfoSetPropertyW function (msiquery.h)
-description: The MsiSummaryInfoSetProperty function sets a single summary information property.
+description: The MsiSummaryInfoSetProperty function sets a single summary information property. (Unicode)
+helpviewer_keywords: ["MsiSummaryInfoSetProperty", "MsiSummaryInfoSetProperty function", "MsiSummaryInfoSetPropertyW", "_msi_msisummaryinfosetproperty", "msiquery/MsiSummaryInfoSetProperty", "msiquery/MsiSummaryInfoSetPropertyW", "setup.msisummaryinfosetproperty"]
 old-location: setup\msisummaryinfosetproperty.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoSetProperty, MsiSummaryInfoSetProperty function, MsiSummaryInfoSetPropertyA, MsiSummaryInfoSetPropertyW, _msi_msisummaryinfosetproperty, msiquery/MsiSummaryInfoSetProperty, msiquery/MsiSummaryInfoSetPropertyA, msiquery/MsiSummaryInfoSetPropertyW, setup.msisummaryinfosetproperty
-f1_keywords:
-- msiquery/MsiSummaryInfoSetProperty
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSummaryInfoSetProperty
-- MsiSummaryInfoSetPropertyA
-- MsiSummaryInfoSetPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSummaryInfoSetPropertyW
+ - msiquery/MsiSummaryInfoSetPropertyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSummaryInfoSetProperty
+ - MsiSummaryInfoSetPropertyA
+ - MsiSummaryInfoSetPropertyW
 ---
 
 # MsiSummaryInfoSetPropertyW function
@@ -50,77 +52,58 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSummaryInfoSetProperty</b> function sets a single summary information property.
 
 
-<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-property-descriptions">Summary Property Descriptions</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
+<div class="alert"><b>Note</b>  The meaning of the property value depends on whether the summary information stream is for an installation database (.msi file), transform (.mst file) or patch (.msp file). See <a href="/windows/desktop/Msi/summary-property-descriptions">Summary Property Descriptions</a> and <a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a> for more information about summary information properties.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param hSummaryInfo [in]
 
 Handle to summary information.
 
-
 ### -param uiProperty [in]
 
-Specifies the property ID of the summary property being set. This parameter can be a property ID  listed in the <a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.  This function does not set values for PID_DICTIONARY OR PID_THUMBNAIL property.
-
+Specifies the property ID of the summary property being set. This parameter can be a property ID  listed in the <a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.  This function does not set values for PID_DICTIONARY OR PID_THUMBNAIL property.
 
 ### -param uiDataType [in]
 
 Specifies the type of property to set. This parameter can be a type listed in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.
-
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>.
 
 ### -param iValue [in]
 
 Specifies the integer value.
 
-
 ### -param pftValue [in]
 
 Specifies the file-time value.
-
 
 ### -param szValue [in]
 
 Specifies the text value.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiSummaryInfoSetProperty</b> function returns the following values:
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Summary Information Property Functions</a>
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
+<a href="/windows/desktop/Msi/summaryinfo-summaryinfo">Summaryinfo.Property</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summaryinfo-summaryinfo">Summaryinfo.Property</a>
- 
-
- 
-
+> [!NOTE]
+> The msiquery.h header defines MsiSummaryInfoSetProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

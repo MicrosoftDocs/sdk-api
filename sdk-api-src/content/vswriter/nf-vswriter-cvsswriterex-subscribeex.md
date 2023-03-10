@@ -2,15 +2,12 @@
 UID: NF:vswriter.CVssWriterEx.SubscribeEx
 title: CVssWriterEx::SubscribeEx (vswriter.h)
 description: Causes the writer to subscribe to VSS events.
+helpviewer_keywords: ["CVssWriterEx interface","SubscribeEx method","CVssWriterEx.SubscribeEx","CVssWriterEx::SubscribeEx","SubscribeEx","SubscribeEx method","SubscribeEx method","CVssWriterEx interface","base.cvsswriterex_subscribeex","vswriter/CVssWriterEx::SubscribeEx"]
 old-location: base\cvsswriterex_subscribeex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: b60ca619-c92b-4700-a048-7c74fad3d0e9
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,SubscribeEx method, CVssWriterEx.SubscribeEx, CVssWriterEx::SubscribeEx, SubscribeEx, SubscribeEx method, SubscribeEx method,CVssWriterEx interface, base.cvsswriterex_subscribeex, vswriter/CVssWriterEx::SubscribeEx
-f1_keywords:
-- vswriter/CVssWriterEx.SubscribeEx
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriterEx.SubscribeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriterEx::SubscribeEx
+ - vswriter/CVssWriterEx::SubscribeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriterEx.SubscribeEx
 ---
 
 # CVssWriterEx::SubscribeEx
@@ -49,24 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes the writer to subscribe to VSS events.
 
-
 ## -parameters
-
-
-
 
 ### -param dwUnsubscribeTimeout [in]
 
 The length of time, in milliseconds, that the method will wait before timing out.
 
-
 ### -param dwEventFlags [in]
 
 A bitmask of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 
 
 
 
@@ -75,10 +71,7 @@ The default value for this argument is (<b>VSS_SM_BACKUP_EVENTS_FLAG</b> | <b>VS
 
 This parameter is reserved for future use.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -128,7 +121,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -146,22 +139,11 @@ The writer has previously called this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-subscribe">CVssWriter::Subscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-subscribe">CVssWriter::Subscribe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>

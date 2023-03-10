@@ -2,15 +2,12 @@
 UID: NS:ddrawi._DDCORECAPS
 title: DDCORECAPS (ddrawi.h)
 description: The DDCORECAPS structure specifies the core capabilities of the Microsoft DirectDraw driver and its device, which are exposed to an application through the DirectDraw object.
+helpviewer_keywords: ["*LPDDCORECAPS","DDCORECAPS","DDCORECAPS structure [Display Devices]","ddrawi/DDCORECAPS","ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml","display.ddcorecaps"]
 old-location: display\ddcorecaps.htm
 tech.root: display
 ms.assetid: 529d60b5-658d-4d55-a599-fa35386c01a7
 ms.date: 12/05/2018
 ms.keywords: '*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices], ddrawi/DDCORECAPS, ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml, display.ddcorecaps'
-f1_keywords:
-- ddrawi/DDCORECAPS
-dev_langs:
-- c++
 req.header: ddrawi.h
 req.include-header: Ddrawi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawi.h
-api_name:
-- DDCORECAPS
 targetos: Windows
 req.typenames: DDCORECAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDCORECAPS
+ - ddrawi/_DDCORECAPS
+ - DDCORECAPS
+ - ddrawi/DDCORECAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawi.h
+api_name:
+ - DDCORECAPS
 ---
 
 # DDCORECAPS structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DDCORECAPS structure specifies the core capabilities of the Microsoft DirectDraw driver and its device, which are exposed to an application through the DirectDraw object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the size in bytes of this DDCORECAPS structure.
-
 
 ### -field dwCaps
 
@@ -392,8 +390,6 @@ Supports the use of the application's <b>UpdateOverlayZOrder</b> method as a z-v
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCaps2
 
@@ -410,7 +406,7 @@ DDCAPS2_AUTOFLIPOVERLAY
 
 </td>
 <td>
-The overlay can be automatically flipped to the next surface in the flip chain each time a hardware video port V-sync occurs, allowing the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object and the overlay to double buffer the video without CPU overhead. This option is only valid when the surface is receiving data from hardware video port. If the hardware video port data is noninterlaced or noninterleaved, it flips on every V-sync. If the data is being interleaved in memory, it flips on every other V-sync.
+The overlay can be automatically flipped to the next surface in the flip chain each time a hardware video port V-sync occurs, allowing the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object and the overlay to double buffer the video without CPU overhead. This option is only valid when the surface is receiving data from hardware video port. If the hardware video port data is noninterlaced or noninterleaved, it flips on every V-sync. If the data is being interleaved in memory, it flips on every other V-sync.
 
 </td>
 </tr>
@@ -555,7 +551,7 @@ DDCAPS2_COPYFOURCC
 
 </td>
 <td>
-The driver supports blitting any <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> surface to another surface of the same FOURCC.
+The driver supports blitting any <a href="/windows-hardware/drivers/">FOURCC</a> surface to another surface of the same FOURCC.
 
 </td>
 </tr>
@@ -585,7 +581,7 @@ DDCAPS2_NO2DDURING3DSCENE
 
 </td>
 <td>
-The driver cannot interleave 2D operations such as <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a> on any surfaces that Microsoft Direct3D is using between calls to the <b>IDirect3DDevice::BeginScene</b> and <b>IDirect3DDevice::EndScene</b> methods.
+The driver cannot interleave 2D operations such as <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> or <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a> on any surfaces that Microsoft Direct3D is using between calls to the <b>IDirect3DDevice::BeginScene</b> and <b>IDirect3DDevice::EndScene</b> methods.
 
 </td>
 </tr>
@@ -650,8 +646,6 @@ The display driver can create surfaces wider than the primary surface. Drivers t
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCKeyCaps
 
@@ -853,8 +847,6 @@ Supports overlaying using the color key for the source with this overlay surface
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFXCaps
 
@@ -1126,18 +1118,14 @@ Supports integer stretching (x1, x2, and so on) of a surface along the y-axis (v
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFXAlphaCaps
 
 This member and its flags are obsolete and should not be used by the driver.
 
-
 ### -field dwPalCaps
 
 Specify the driver's palette capabilities. The driver should set the appropriate DDPCAPS_<i>Xxx</i> bit for every capability that it supports. The DDPCAPS_<i>Xxx</i> flags are defined in <i>ddraw.h</i>. The DirectDraw runtime currently ignores these capabilities.
-
 
 ### -field dwSVCaps
 
@@ -1189,38 +1177,30 @@ The stereo view is accomplished with split-screen technology.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwAlphaBltConstBitDepths
 
 Reserved for system use. The driver should ignore this member.
 
-
 ### -field dwAlphaBltPixelBitDepths
 
 Reserved for system use. The driver should ignore this member.
-
 
 ### -field dwAlphaBltSurfaceBitDepths
 
 Reserved for system use. The driver should ignore this member.
 
-
 ### -field dwAlphaOverlayConstBitDepths
 
 Reserved for system use. The driver should ignore this member.
-
 
 ### -field dwAlphaOverlayPixelBitDepths
 
 Reserved for system use. The driver should ignore this member.
 
-
 ### -field dwAlphaOverlaySurfaceBitDepths
 
 Reserved for system use. The driver should ignore this member.
-
 
 ### -field dwZBufferBitDepths
 
@@ -1272,200 +1252,157 @@ The driver supports a 32bpp depth buffer.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwVidMemTotal
 
 Specifies the total amount of display memory, in bytes.
 
-
 ### -field dwVidMemFree
 
-Specifies the number of bytes of free display memory. The driver sets this member once during initialization to the same value it returns in the <b>dwVidMemTotal</b> member. DirectDraw updates it every time the application does a memory allocation. 
-
+Specifies the number of bytes of free display memory. The driver sets this member once during initialization to the same value it returns in the <b>dwVidMemTotal</b> member. DirectDraw updates it every time the application does a memory allocation.
 
 ### -field dwMaxVisibleOverlays
 
 Specifies the maximum number of visible overlays.
 
-
 ### -field dwCurrVisibleOverlays
 
 Specifies the current number of visible overlays.
 
-
 ### -field dwNumFourCCCodes
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> codes that the driver supports.
-
+Specifies the number of <a href="/windows-hardware/drivers/">FOURCC</a> codes that the driver supports.
 
 ### -field dwAlignBoundarySrc
 
 Specifies the source rectangle alignment. This member can be optionally set by the driver. If the driver sets this member, then the overlay source rectangle's top left coordinate value must be a multiple of <b>dwAlignBoundarySrc</b>.
 
-
 ### -field dwAlignSizeSrc
 
 Specifies the size of the source rectangle, in bytes. This member can be optionally set by the driver. If the driver sets this member, then the overlay source rectangle's width must be a multiple of <b>dwAlignSizeSrc</b>.
-
 
 ### -field dwAlignBoundaryDest
 
 Specifies the destination rectangle alignment. This member can be optionally set by the driver. If the driver sets this member, then the overlay destination rectangle's top left coordinate value must be a multiple of <b>dwAlignBoundaryDest</b>.
 
-
 ### -field dwAlignSizeDest
 
 Specifies the destination rectangle byte size. This member can be optionally set by the driver. If the driver sets this member, then the overlay destination rectangle's width must be a multiple of <b>dwAlignSizeDest</b>.
-
 
 ### -field dwAlignStrideAlign
 
 Reserved for system use and should be ignored by the driver.
 
-
 ### -field dwRops
 
 Specifies an array of DD_ROP_SPACE DWORDs that together can hold flags to indicate the ROPs that the driver supports. The driver should set the bitfield for every corresponding ROP that it supports. See the Microsoft Windows SDK documentation for information about ROPs.
 
-
 ### -field ddsCaps
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that describes the types of surfaces the driver supports.
-
+Specifies a <a href="/previous-versions/windows/hardware/drivers/ff550286(v=vs.85)">DDSCAPS</a> structure that describes the types of surfaces the driver supports.
 
 ### -field dwMinOverlayStretch
 
 Specifies the minimum overlay stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300. The display driver must set the minimum factor to the actual minimum to which the graphics hardware can shrink the overlay. If the graphics hardware has no minimum limitation, set to 1.
 
-
 ### -field dwMaxOverlayStretch
 
 Specifies the maximum overlay stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300. The display driver must set the maximum factor to the actual maximum to which the graphics hardware can stretch the overlay. If the graphics hardware has no maximum limitation, set to 32000.
-
 
 ### -field dwMinLiveVideoStretch
 
 Specifies the minimum live video stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300.
 
-
 ### -field dwMaxLiveVideoStretch
 
 Specifies the maximum live video stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300.
-
 
 ### -field dwMinHwCodecStretch
 
 Specifies the minimum hardware codec stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300.
 
-
 ### -field dwMaxHwCodecStretch
 
 Specifies the maximum hardware codec stretch factor multiplied by 1000. For example, a factor of 1.3 should be stored as 1300.
-
 
 ### -field dwReserved1
 
 Reserved for system use. The driver should ignore this member.
 
-
 ### -field dwReserved2
 
 Reserved for system use. The driver should ignore this member.
-
 
 ### -field dwReserved3
 
 Reserved for system use. The driver should ignore this member.
 
-
 ### -field dwSVBCaps
 
 Indicates a set of flags that specify the driver-specific capabilities for system-memory-to-display-memory blits. The driver should bitwise OR the appropriate DDCAPS_<i>Xxx</i> flags (see the <b>dwCaps</b> member) to indicate the types of blit operations it supports when blitting from system memory to display memory.
-
 
 ### -field dwSVBCKeyCaps
 
 Indicates a set of flags that specify driver color-key capabilities for system-memory-to-display-memory blits. The driver should bitwise OR the appropriate DDCKEYCAPS_<i>Xxx</i> flags (see the <b>dwCKeyCaps</b> member) to indicate the types of color key operations it supports when blitting from system memory to display memory.
 
-
 ### -field dwSVBFXCaps
 
 Indicates a set of flags that specify driver FX capabilities for system-memory-to-display-memory blits. The driver should bitwise OR the appropriate DDFXCAPS_<i>Xxx</i> flags (see the <b>dwFXCaps</b> member) to indicate the types of effects it supports when blitting from system memory to display memory.
-
 
 ### -field dwSVBRops
 
 Specifies an array of DD_ROP_SPACE DWORDs that together can hold flags to indicate the ROPs that the driver supports when performing system-memory-to-display-memory blits. The driver should set the bitfield for every corresponding ROP that it supports. See the Microsoft Windows SDK documentation for information about ROPs.
 
-
 ### -field dwVSBCaps
 
 Indicates a set of flags that specify driver-specific capabilities for display-memory-to-system-memory blits. The driver should bitwise OR the appropriate DDCAPS_<i>Xxx</i> flags (see the <b>dwCaps</b> member) to indicate the types of blit operations it supports when blitting from display memory to system memory.
-
 
 ### -field dwVSBCKeyCaps
 
 Indicates a set of flags that specify driver color-key capabilities for display-memory-to-system-memory blits. The driver should bitwise OR the appropriate DDCKEYCAPS_<i>Xxx</i> flags (see the <b>dwCKeyCaps</b> member) to indicate the types of color key operations it supports when blitting from display memory to system memory.
 
-
 ### -field dwVSBFXCaps
 
 Indicates a set of flags that specify driver FX capabilities for display-memory-to-system-memory blits. The driver should bitwise OR the appropriate DDFXCAPS_<i>Xxx</i> flags (see the <b>dwFXCaps</b> member) to indicate the types of effects it supports when blitting from display memory to system memory.
-
 
 ### -field dwVSBRops
 
 Specifies an array of DD_ROP_SPACE DWORDs that together can hold flags to indicate the ROPs that the driver supports when performing display-memory-to-system-memory blits. The driver should set the bitfield for every corresponding ROP that it supports. See the Windows SDK documentation for information about ROPs.
 
-
 ### -field dwSSBCaps
 
 Indicates a set of flags that specify driver-specific capabilities for system-memory-to-system-memory blits. The driver should bitwise OR the appropriate DDCAPS_<i>Xxx</i> flags (see the <b>dwCaps</b> member) to indicate the types of blit operations it supports when blitting from system memory to system memory.
-
 
 ### -field dwSSBCKeyCaps
 
 Indicates a set of flags that specify driver color-key capabilities for system-memory-to-system-memory blits. The driver should bitwise OR the appropriate DDCKEYCAPS_<i>Xxx</i> flags (see the <b>dwCKeyCaps</b> member) to indicate the types of color key operations it supports when blitting from system memory to system memory.
 
-
 ### -field dwSSBFXCaps
 
 Indicates a set of flags that specify driver FX capabilities for system-memory-to-system-memory blits. The driver should bitwise OR the appropriate DDFXCAPS_<i>Xxx</i> flags (see the <b>dwFXCaps</b> member) to indicate the types of effects it supports when blitting from system memory to system memory.
-
 
 ### -field dwSSBRops
 
 Specifies an array of DD_ROP_SPACE DWORDs that together can hold flags to indicate the ROPs that the driver supports when performing system-memory-to-system-memory blits. The driver should set the bitfield for every corresponding ROP that it supports. See the Windows SDK documentation for information about ROPs.
 
-
 ### -field dwMaxVideoPorts
 
-Specifies the maximum number of usable VPE objects. 
-
+Specifies the maximum number of usable VPE objects.
 
 ### -field dwCurrVideoPorts
 
 Specifies the current number of VPE objects used. The driver does not need to fill in this member because it is set by DirectDraw.
 
-
 ### -field dwSVBCaps2
 
-Specifies additional driver-specific capabilities for system-memory-to-display-memory blits. Valid flags are identical to the blit-related flags used with the <b>dwCaps2</b> member. 
-
+Specifies additional driver-specific capabilities for system-memory-to-display-memory blits. Valid flags are identical to the blit-related flags used with the <b>dwCaps2</b> member.
 
 ## -remarks
-
-
 
 This section contains the DirectDraw driver structure whose name has the form DDCORECAPS, which is the form used on Windows 98/Me. This structure is identical to that whose name has the form DDNTCORECAPS which is the form used on Windows 2000 and later versions. The include file <i>dx95type.h</i> contains a type define from DDNTCORECAPS to DDCORECAPS.
 
 This structure mirrors the first entries of the DDCAPS structure, but is of a fixed size and does not grow as DDCAPS does.
 
-The driver initializes DDCORECAPS when it is initializing the other members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
+The driver initializes DDCORECAPS when it is initializing the other members of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in its <a href="/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> structure. The DirectDraw runtime might update some members.
 
-DirectDraw requests additional driver capabilities by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function that is also returned in the DD_HALINFO structure.
-
-
-
+DirectDraw requests additional driver capabilities by calling the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function that is also returned in the DD_HALINFO structure.

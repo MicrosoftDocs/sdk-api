@@ -2,15 +2,12 @@
 UID: NF:wuapi.ICategory.get_Type
 title: ICategory::get_Type (wuapi.h)
 description: Gets the type of the category.
+helpviewer_keywords: ["ICategory interface [Windows Update Agent]","Type property","ICategory.Type","ICategory.get_Type","ICategory::Type","ICategory::get_Type","Type property [Windows Update Agent]","Type property [Windows Update Agent]","ICategory interface","get_Type","wua.icategory_type","wuapi/ICategory::Type","wuapi/ICategory::get_Type"]
 old-location: wua\icategory_type.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 3c3621bd-a76f-473c-8fcc-397370fcc42e
 ms.date: 12/05/2018
 ms.keywords: ICategory interface [Windows Update Agent],Type property, ICategory.Type, ICategory.get_Type, ICategory::Type, ICategory::get_Type, Type property [Windows Update Agent], Type property [Windows Update Agent],ICategory interface, get_Type, wua.icategory_type, wuapi/ICategory::Type, wuapi/ICategory::get_Type
-f1_keywords:
-- wuapi/ICategory.Type
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ICategory.Type
-- ICategory.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICategory::get_Type
+ - wuapi/ICategory::get_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ICategory.Type
+ - ICategory.get_Type
 ---
 
 # ICategory::get_Type
@@ -49,34 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the type of the category.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-
 The following list identifies the possible category types:
-
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a>

@@ -2,15 +2,12 @@
 UID: NS:wcmapi._WCM_USAGE_DATA
 title: WCM_USAGE_DATA (wcmapi.h)
 description: Contains information related to connection usage.
+helpviewer_keywords: ["*PWCM_USAGE_DATA","PWCM_USAGE_DATA","PWCM_USAGE_DATA structure pointer [Windows Connection Manager]","WCM_USAGE_DATA","WCM_USAGE_DATA structure [Windows Connection Manager]","wcm.wcm_usage_data","wcmapi/PWCM_USAGE_DATA","wcmapi/WCM_USAGE_DATA"]
 old-location: wcm\wcm_usage_data.htm
 tech.root: wcm
 ms.assetid: c6a483cf-d392-495f-854d-ccc782b30aa5
 ms.date: 12/05/2018
 ms.keywords: '*PWCM_USAGE_DATA, PWCM_USAGE_DATA, PWCM_USAGE_DATA structure pointer [Windows Connection Manager], WCM_USAGE_DATA, WCM_USAGE_DATA structure [Windows Connection Manager], wcm.wcm_usage_data, wcmapi/PWCM_USAGE_DATA, wcmapi/WCM_USAGE_DATA'
-f1_keywords:
-- wcmapi/WCM_USAGE_DATA
-dev_langs:
-- c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wcmapi.h
-api_name:
-- WCM_USAGE_DATA
 targetos: Windows
 req.typenames: WCM_USAGE_DATA, *PWCM_USAGE_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WCM_USAGE_DATA
+ - wcmapi/_WCM_USAGE_DATA
+ - PWCM_USAGE_DATA
+ - wcmapi/PWCM_USAGE_DATA
+ - WCM_USAGE_DATA
+ - wcmapi/WCM_USAGE_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wcmapi.h
+api_name:
+ - WCM_USAGE_DATA
 ---
 
 # WCM_USAGE_DATA structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WCM_USAGE_DATA</b> structure contains information related to connection  usage.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UsageInMegabytes
 
 Type: <b>DWORD</b>
 
 The connection usage, in megabytes.
-
 
 ### -field LastSyncTime
 

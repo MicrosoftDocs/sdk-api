@@ -1,16 +1,13 @@
 ---
 UID: NF:xenroll.ICEnroll.put_ProviderName
 title: ICEnroll::put_ProviderName (xenroll.h)
-description: The ProviderName property of ICEnroll4 sets or retrieves the name of the cryptographic service provider (CSP) to use.
+description: The ProviderName property of ICEnroll4 sets or retrieves the name of the cryptographic service provider (CSP) to use. (Put)
+helpviewer_keywords: ["CEnroll object [Security]","ProviderName property","ICEnroll interface [Security]","ProviderName property","ICEnroll.ProviderName","ICEnroll.put_ProviderName","ICEnroll2 interface [Security]","ProviderName property","ICEnroll2.ProviderName","ICEnroll2::get_ProviderName","ICEnroll2::put_ProviderName","ICEnroll3 interface [Security]","ProviderName property","ICEnroll3.ProviderName","ICEnroll3::get_ProviderName","ICEnroll3::put_ProviderName","ICEnroll4 interface [Security]","ProviderName property","ICEnroll4.ProviderName","ICEnroll4::ProviderName","ICEnroll4::get_ProviderName","ICEnroll4::put_ProviderName","ICEnroll::get_ProviderName","ICEnroll::put_ProviderName","ProviderName property [Security]","ProviderName property [Security]","CEnroll object","ProviderName property [Security]","ICEnroll interface","ProviderName property [Security]","ICEnroll2 interface","ProviderName property [Security]","ICEnroll3 interface","ProviderName property [Security]","ICEnroll4 interface","put_ProviderName","security.icenroll4_providername","xenroll/ICEnroll2::ProviderName","xenroll/ICEnroll2::get_ProviderName","xenroll/ICEnroll2::put_ProviderName","xenroll/ICEnroll3::ProviderName","xenroll/ICEnroll3::get_ProviderName","xenroll/ICEnroll3::put_ProviderName","xenroll/ICEnroll4::ProviderName","xenroll/ICEnroll4::get_ProviderName","xenroll/ICEnroll4::put_ProviderName","xenroll/ICEnroll::ProviderName","xenroll/ICEnroll::get_ProviderName","xenroll/ICEnroll::put_ProviderName"]
 old-location: security\icenroll4_providername.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 092d5ed1-8d03-45d8-bc7a-3e27035f4b2f
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],ProviderName property, ICEnroll interface [Security],ProviderName property, ICEnroll.ProviderName, ICEnroll.put_ProviderName, ICEnroll2 interface [Security],ProviderName property, ICEnroll2.ProviderName, ICEnroll2::get_ProviderName, ICEnroll2::put_ProviderName, ICEnroll3 interface [Security],ProviderName property, ICEnroll3.ProviderName, ICEnroll3::get_ProviderName, ICEnroll3::put_ProviderName, ICEnroll4 interface [Security],ProviderName property, ICEnroll4.ProviderName, ICEnroll4::ProviderName, ICEnroll4::get_ProviderName, ICEnroll4::put_ProviderName, ICEnroll::get_ProviderName, ICEnroll::put_ProviderName, ProviderName property [Security], ProviderName property [Security],CEnroll object, ProviderName property [Security],ICEnroll interface, ProviderName property [Security],ICEnroll2 interface, ProviderName property [Security],ICEnroll3 interface, ProviderName property [Security],ICEnroll4 interface, put_ProviderName, security.icenroll4_providername, xenroll/ICEnroll2::ProviderName, xenroll/ICEnroll2::get_ProviderName, xenroll/ICEnroll2::put_ProviderName, xenroll/ICEnroll3::ProviderName, xenroll/ICEnroll3::get_ProviderName, xenroll/ICEnroll3::put_ProviderName, xenroll/ICEnroll4::ProviderName, xenroll/ICEnroll4::get_ProviderName, xenroll/ICEnroll4::put_ProviderName, xenroll/ICEnroll::ProviderName, xenroll/ICEnroll::get_ProviderName, xenroll/ICEnroll::put_ProviderName
-f1_keywords:
-- xenroll/ICEnroll4.ProviderName
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,31 +25,36 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.ProviderName
-- ICEnroll4.get_ProviderName
-- ICEnroll4.put_ProviderName
-- ICEnroll3.ProviderName
-- ICEnroll3.get_ProviderName
-- ICEnroll3.put_ProviderName
-- ICEnroll2.ProviderName
-- ICEnroll2.get_ProviderName
-- ICEnroll2.put_ProviderName
-- ICEnroll.ProviderName
-- ICEnroll.get_ProviderName
-- ICEnroll.put_ProviderName
-- CEnroll.ProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::put_ProviderName
+ - xenroll/ICEnroll::put_ProviderName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.ProviderName
+ - ICEnroll4.get_ProviderName
+ - ICEnroll4.put_ProviderName
+ - ICEnroll3.ProviderName
+ - ICEnroll3.get_ProviderName
+ - ICEnroll3.put_ProviderName
+ - ICEnroll2.ProviderName
+ - ICEnroll2.get_ProviderName
+ - ICEnroll2.put_ProviderName
+ - ICEnroll.ProviderName
+ - ICEnroll.get_ProviderName
+ - ICEnroll.put_ProviderName
+ - CEnroll.ProviderName
 ---
 
 # ICEnroll::put_ProviderName
@@ -60,35 +62,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>ProviderName</b> property sets or retrieves the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use.
+The <b>ProviderName</b> property sets or retrieves the name of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use.
 
-If the CSP has not been specified, the default value for this property  is "Microsoft Base Cryptographic Provider", and the <b>ProviderName</b> property is set to an empty string. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+If the CSP has not been specified, the default value for this property  is "Microsoft Base Cryptographic Provider", and the <b>ProviderName</b> property is set to an empty string. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>ProviderName</b> property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-enumcontainers">enumContainers</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-enumcontainers">enumContainers</a>
 </li>
 </ul>
 
@@ -126,7 +122,3 @@ else
 if ( NULL != bstrMyProvName )
     SysFreeString( bstrMyProvName );
 ```
-
-
-
-

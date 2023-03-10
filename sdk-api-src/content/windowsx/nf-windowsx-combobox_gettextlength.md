@@ -2,15 +2,12 @@
 UID: NF:windowsx.ComboBox_GetTextLength
 title: ComboBox_GetTextLength macro (windowsx.h)
 description: Gets the number of characters in the text of a combo box.
+helpviewer_keywords: ["ComboBox_GetTextLength","ComboBox_GetTextLength macro [Windows Controls]","_win32_ComboBox_GetTextLength","_win32_ComboBox_GetTextLength_cpp","controls.ComboBox_GetTextLength","controls._win32_ComboBox_GetTextLength","windowsx/ComboBox_GetTextLength"]
 old-location: controls\ComboBox_GetTextLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettextlength.htm
 ms.date: 12/05/2018
 ms.keywords: ComboBox_GetTextLength, ComboBox_GetTextLength macro [Windows Controls], _win32_ComboBox_GetTextLength, _win32_ComboBox_GetTextLength_cpp, controls.ComboBox_GetTextLength, controls._win32_ComboBox_GetTextLength, windowsx/ComboBox_GetTextLength
-f1_keywords:
-- windowsx/ComboBox_GetTextLength
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ComboBox_GetTextLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComboBox_GetTextLength
+ - windowsx/ComboBox_GetTextLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ComboBox_GetTextLength
 ---
 
 # ComboBox_GetTextLength macro
@@ -48,28 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of characters in the text of a combo box.
-
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
-
 ## -remarks
 
-
-
-The macro expands to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtextlengtha">GetWindowTextLength</a>.
-	
-
-
-
+The macro expands to a call to <a href="/windows/desktop/api/winuser/nf-winuser-getwindowtextlengtha">GetWindowTextLength</a>.

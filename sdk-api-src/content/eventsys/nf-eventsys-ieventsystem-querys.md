@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventSystem.QueryS
 title: IEventSystem::QueryS (eventsys.h)
-description: Retrieves a collection of subscription or event objects from the event data store.
+description: Retrieves a collection of subscription or event objects from the event data store. (IEventSystem.QueryS)
+helpviewer_keywords: ["IEventSystem interface [COM+]","QueryS method","IEventSystem.QueryS","IEventSystem::QueryS","QueryS","QueryS method [COM+]","QueryS method [COM+]","IEventSystem interface","_cos_IEventSystem_QueryS","cos.ieventsystem_querys","eventsys/IEventSystem::QueryS"]
 old-location: cos\ieventsystem_querys.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6bb76b7b-c19c-43bd-a2cc-fbe7b98fa7b9
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],QueryS method, IEventSystem.QueryS, IEventSystem::QueryS, QueryS, QueryS method [COM+], QueryS method [COM+],IEventSystem interface, _cos_IEventSystem_QueryS, cos.ieventsystem_querys, eventsys/IEventSystem::QueryS
-f1_keywords:
-- eventsys/IEventSystem.QueryS
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSystem.QueryS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSystem::QueryS
+ - eventsys/IEventSystem::QueryS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSystem.QueryS
 ---
 
 # IEventSystem::QueryS
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a collection of subscription or event objects from the event data store.
 
-
 ## -parameters
-
-
-
 
 ### -param progID [in]
 
@@ -72,26 +69,23 @@ The ProgID of the object class to be queried. This must be a valid event object 
 
 The query criteria. For details on forming a valid expression for this parameter, see the Remarks section below.
 
-
 ### -param ppInterface [out, retval]
 
 Address of a pointer to the object obtained as a result of the query. This parameter cannot be <b>NULL</b>. Depending on the object specified by the <i>progID</i> parameter, this is a pointer to one of the following interfaces:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 </li>
 </ul>
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_POINTER, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -135,14 +129,8 @@ An invalid field name was used in a query string.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The caller is responsible for freeing memory allocated through the <i>ppInterface</i> parameter. 
 
@@ -162,16 +150,6 @@ Following are some examples of valid query criteria:
 
 "EventClassID == {F89859D1-6565-11D1-88C8-0080C7D771BF} AND MethodName = 'StockPriceChange'"
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>

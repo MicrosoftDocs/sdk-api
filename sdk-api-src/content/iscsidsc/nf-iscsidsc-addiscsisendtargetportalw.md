@@ -1,16 +1,13 @@
 ---
 UID: NF:iscsidsc.AddIScsiSendTargetPortalW
 title: AddIScsiSendTargetPortalW function (iscsidsc.h)
-description: AddIscsiSendTargetPortal function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits SendTargets requests.
+description: AddIscsiSendTargetPortal function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits SendTargets requests. (Unicode)
+helpviewer_keywords: ["AddIScsiSendTargetPortalW", "AddIscsiSendTargetPortal", "AddIscsiSendTargetPortal function [iSCSI Discovery Library API]", "AddIscsiSendTargetPortalW", "ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED", "ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED", "ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED", "ISCSI_SECURITY_FLAG_PFS_ENABLED", "ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_VALID", "iscsidisc.addiscsisendtargetportal", "iscsidsc/AddIscsiSendTargetPortal", "iscsidsc/AddIscsiSendTargetPortalW"]
 old-location: iscsidisc\addiscsisendtargetportal.htm
 tech.root: iSCSIDisc
 ms.assetid: 8ca378bd-400d-40f1-81d2-c8b4135a3d3c
 ms.date: 12/05/2018
 ms.keywords: AddIScsiSendTargetPortalW, AddIscsiSendTargetPortal, AddIscsiSendTargetPortal function [iSCSI Discovery Library API], AddIscsiSendTargetPortalA, AddIscsiSendTargetPortalW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsisendtargetportal, iscsidsc/AddIscsiSendTargetPortal, iscsidsc/AddIscsiSendTargetPortalA, iscsidsc/AddIscsiSendTargetPortalW
-f1_keywords:
-- iscsidsc/AddIscsiSendTargetPortal
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- AddIscsiSendTargetPortal
-- AddIscsiSendTargetPortalA
-- AddIscsiSendTargetPortalW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddIScsiSendTargetPortalW
+ - iscsidsc/AddIScsiSendTargetPortalW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - AddIscsiSendTargetPortal
+ - AddIscsiSendTargetPortalA
+ - AddIscsiSendTargetPortalW
 ---
 
 # AddIScsiSendTargetPortalW function
@@ -50,32 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddIscsiSendTargetPortal</b> function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits <b>SendTargets</b> requests.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param InitiatorInstance [in, optional]
 
 The initiator that the iSCSI initiator service utilizes to transmit <b>SendTargets</b> requests to the specified target portal. If <b>null</b>, the iSCSI initiator service will use any initiator that can reach the target portal.
 
-
 ### -param InitiatorPortNumber [in, optional]
 
-The port number to use for the <b>SendTargets</b> request. This port number corresponds to the source IP address on the Host-Bus Adapter (HBA).  A value of <b>ISCSI_ALL_INITIATOR_PORTS</b> indicates that the initiator must select the appropriate port based upon current routing information. 
-
-
+The port number to use for the <b>SendTargets</b> request. This port number corresponds to the source IP address on the Host-Bus Adapter (HBA).  A value of <b>ISCSI_ALL_INITIATOR_PORTS</b> indicates that the initiator must select the appropriate port based upon current routing information.
 
 ### -param LoginOptions [in, optional]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the login options to use with the target portal.
-
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the login options to use with the target portal.
 
 ### -param SecurityFlags [in, optional]
 
@@ -166,35 +157,24 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Portal
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> that indicates the portal to which SendTargets will be sent for target discovery.
-
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> that indicates the portal to which SendTargets will be sent for target discovery.
 
 ## -returns
 
-
-
 Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appropriate Win32 or iSCSI error code.
-
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
- 
-
- 
-
+> [!NOTE]
+> The iscsidsc.h header defines AddIScsiSendTargetPortal as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

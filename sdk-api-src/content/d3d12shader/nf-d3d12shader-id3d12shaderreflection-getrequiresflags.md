@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetRequiresFlags
 title: ID3D12ShaderReflection::GetRequiresFlags (d3d12shader.h)
-description: Gets a group of flags that indicates the requirements of a shader.
+description: Gets a group of flags that indicates the requirements of a shader. (ID3D12ShaderReflection.GetRequiresFlags)
+helpviewer_keywords: ["GetRequiresFlags","GetRequiresFlags method","GetRequiresFlags method","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","GetRequiresFlags method","ID3D12ShaderReflection.GetRequiresFlags","ID3D12ShaderReflection::GetRequiresFlags","d3d12shader/ID3D12ShaderReflection::GetRequiresFlags","direct3d12.id3d12shaderreflection_getrequiresflags"]
 old-location: direct3d12\id3d12shaderreflection_getrequiresflags.htm
 tech.root: direct3d12
 ms.assetid: ABA7BB9E-AB1D-407A-BB16-97EE74318C1A
 ms.date: 12/05/2018
 ms.keywords: GetRequiresFlags, GetRequiresFlags method, GetRequiresFlags method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetRequiresFlags method, ID3D12ShaderReflection.GetRequiresFlags, ID3D12ShaderReflection::GetRequiresFlags, d3d12shader/ID3D12ShaderReflection::GetRequiresFlags, direct3d12.id3d12shaderreflection_getrequiresflags
-f1_keywords:
-- d3d12shader/ID3D12ShaderReflection.GetRequiresFlags
-dev_langs:
-- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12shader.h
-api_name:
-- ID3D12ShaderReflection.GetRequiresFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12ShaderReflection::GetRequiresFlags
+ - d3d12shader/ID3D12ShaderReflection::GetRequiresFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12shader.h
+api_name:
+ - ID3D12ShaderReflection.GetRequiresFlags
 ---
 
 # ID3D12ShaderReflection::GetRequiresFlags
@@ -48,21 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a group of flags that indicates the requirements of a shader.
-        
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>UINT64</b>
 
@@ -98,19 +90,19 @@ A value that contains a combination of one or more shader requirements #define f
 <tr>
 <td><b>D3D_SHADER_REQUIRES_MINIMUM_PRECISION</b></td>
 <td>Shader requires the graphics driver and hardware to support minimum precision.
-                  For more info, see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/using-hlsl-minimum-precision">Using HLSL minimum precision</a>.
+                  For more info, see <a href="/windows/desktop/direct3dhlsl/using-hlsl-minimum-precision">Using HLSL minimum precision</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_11_1_DOUBLE_EXTENSIONS</b></td>
 <td>Shader requires that the graphics driver and hardware support extended doubles instructions.
-                  For more info, see the <b>ExtendedDoublesShaderInstructions</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
+                  For more info, see the <b>ExtendedDoublesShaderInstructions</b> member of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_11_1_SHADER_EXTENSIONS</b></td>
-<td>Shader requires that the graphics driver and hardware support the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-msad4">msad4</a> intrinsic function in shaders.
-                  For more info, see the <b>SAD4ShaderInstructions</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
+<td>Shader requires that the graphics driver and hardware support the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-msad4">msad4</a> intrinsic function in shaders.
+                  For more info, see the <b>SAD4ShaderInstructions</b> member of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
                 </td>
 </tr>
 <tr>
@@ -126,41 +118,35 @@ A value that contains a combination of one or more shader requirements #define f
 <tr>
 <td><b>D3D_SHADER_REQUIRES_STENCIL_REF</b></td>
 <td>Shader requires a reference value for depth stencil tests.
-                  For more info, see the <b>PSSpecifiedStencilRefSupported</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure,
-                  and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
+                  For more info, see the <b>PSSpecifiedStencilRefSupported</b> member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure,
+                  and <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_INNER_COVERAGE</b></td>
-<td>Shader requires that the graphics driver and hardware support inner coverage.For more info, see the enumeration constants D3D_NAME_INNER_COVERAGE and D3D11_NAME_INNER_COVERAGE in <a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name">D3D_NAME</a>.
+<td>Shader requires that the graphics driver and hardware support inner coverage.For more info, see the enumeration constants D3D_NAME_INNER_COVERAGE and D3D11_NAME_INNER_COVERAGE in <a href="/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_name">D3D_NAME</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_TYPED_UAV_LOAD_ADDITIONAL_FORMATS</b></td>
 <td>Shader requires that the graphics driver and hardware support the loading of additional formats for typed unordered-access views (UAVs).
-                  See the <b>TypedUAVLoadAdditionalFormats</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+                  See the <b>TypedUAVLoadAdditionalFormats</b> member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_ROVS</b></td>
 <td>Shader requires that the graphics driver and hardware support rasterizer ordered views (ROVs).
-                  See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/rasterizer-order-views">Rasterizer Ordered Views</a>.
+                  See <a href="/windows/desktop/direct3d12/rasterizer-order-views">Rasterizer Ordered Views</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_VIEWPORT_AND_RT_ARRAY_INDEX_FROM_ANY_SHADER_FEEDING_RASTERIZER</b></td>
-<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b>of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b> of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Here is how the D3D12Shader.h header defines the shader requirements flags:
         
@@ -184,21 +170,10 @@ Here is how the D3D12Shader.h header defines the shader requirements flags:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/direct3ddxgi/checking-hardware-feature-support">Checking Hardware Feature Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/checking-hardware-feature-support">Checking Hardware Feature Support</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflection">ID3D12ShaderReflection</a>

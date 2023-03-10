@@ -2,15 +2,12 @@
 UID: NF:setupapi.SetupWriteTextLog
 title: SetupWriteTextLog function (setupapi.h)
 description: The SetupWriteTextLog function writes a log entry in a SetupAPI text log.
+helpviewer_keywords: ["SetupWriteTextLog","SetupWriteTextLog function [Device and Driver Installation]","devinst.setupwritetextlog","setupapi/SetupWriteTextLog","setupapilog-ref_42860a5c-0ea7-4185-81eb-76996286cafc.xml"]
 old-location: devinst\setupwritetextlog.htm
 tech.root: devinst
 ms.assetid: 8a59c796-1386-495c-9790-8916d677ebd3
 ms.date: 12/05/2018
 ms.keywords: SetupWriteTextLog, SetupWriteTextLog function [Device and Driver Installation], devinst.setupwritetextlog, setupapi/SetupWriteTextLog, setupapilog-ref_42860a5c-0ea7-4185-81eb-76996286cafc.xml
-f1_keywords:
-- setupapi/SetupWriteTextLog
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-- Ext-MS-Win-setupapi-logging-l1-1-0.dll
-- setupapi.dll
-api_name:
-- SetupWriteTextLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
+f1_keywords:
+ - SetupWriteTextLog
+ - setupapi/SetupWriteTextLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+ - Ext-MS-Win-setupapi-logging-l1-1-0.dll
+ - setupapi.dll
+api_name:
+ - SetupWriteTextLog
 ---
 
 # SetupWriteTextLog function
@@ -51,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupWriteTextLog</b> function writes a log entry in a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-text-logs">SetupAPI text log</a>.
-
+The <b>SetupWriteTextLog</b> function writes a log entry in a <a href="/windows-hardware/drivers/install/setupapi-text-logs">SetupAPI text log</a>.
 
 ## -parameters
 
-
-
-
 ### -param LogToken [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>.
-
+A <a href="/windows-hardware/drivers/install/log-tokens">log token</a> that is either a system-defined log token or was returned by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>.
 
 ### -param Category [in]
 
-A DWORD-typed value that indicates the event category for the log entry. The event categories that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event categories, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/enabling-event-categories-for-a-text-log">Enabling Event Categories for a SetupAPI Text Log</a>. 
-
+A DWORD-typed value that indicates the event category for the log entry. The event categories that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event categories, see <a href="/windows-hardware/drivers/install/enabling-event-categories-for-a-text-log">Enabling Event Categories for a SetupAPI Text Log</a>.
 
 ### -param Flags [in]
 
@@ -76,7 +72,7 @@ A DWORD-typed value that is a bitwise OR of flag values, which specify the follo
 
 <ul>
 <li>
-The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-the-event-level-for-a-text-log">Setting the Event Level for a SetupAPI Text Log</a>. 
+The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="/windows-hardware/drivers/install/setting-the-event-level-for-a-text-log">Setting the Event Level for a SetupAPI Text Log</a>. 
 
 </li>
 <li>
@@ -84,35 +80,26 @@ Whether to include a time stamp in the log entry. The time stamp flag value is T
 
 </li>
 <li>
-The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/writing-indented-log-entries">Writing Indented Log Entries</a>.
+The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="/windows-hardware/drivers/install/writing-indented-log-entries">Writing Indented Log Entries</a>.
 
 </li>
 </ul>
 
 ### -param MessageStr [in]
 
-A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry. The comma-separated parameter list that follows <i>MessageStr</i> must match the format specifiers in the format string. 
+A pointer to a NULL-terminated constant string that contains a <b>printf</b>-compatible format string, which specifies the formatted message to include in the log entry. The comma-separated parameter list that follows <i>MessageStr</i> must match the format specifiers in the format string.
 
+### -param ...
 
-### -param arg5
-
-A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>. 
-
+A comma-separated parameter list that matches the format specifiers in the format string that is supplied by <i>MessageStr</i>.
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
-
-
-If the value of <i>LogToken</i> was returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a> and the corresponding text log section can be found, <b>SetupWriteTextLog</b> writes the log entry in that text log section. If <b>SetupWriteTextLog</b> cannot locate the section, <b>SetupWriteTextLog</b> writes the log entry in the corresponding text log, but does not include the log entry in a section.
+If the value of <i>LogToken</i> was returned by a call to <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a> and the corresponding text log section can be found, <b>SetupWriteTextLog</b> writes the log entry in that text log section. If <b>SetupWriteTextLog</b> cannot locate the section, <b>SetupWriteTextLog</b> writes the log entry in the corresponding text log, but does not include the log entry in a section.
 
 If the value of <i>LogToken</i> is one of the system-defined log tokens listed in the following table, <b>SetupWriteTextLog</b> performs the write operation that is indicated for that log token.
 
@@ -137,7 +124,7 @@ LOG_TOKEN_UNSPECIFIED
 
 </td>
 <td>
-The log entry is written to the application installation text log. The log entry is not included in a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/format-of-a-text-log-section">text log section</a>. 
+The log entry is written to the application installation text log. The log entry is not included in a <a href="/windows-hardware/drivers/install/format-of-a-text-log-section">text log section</a>. 
 
 </td>
 </tr>
@@ -170,40 +157,31 @@ In addition, <b>SetupWriteTextLog</b> does not write a log entry when any of the
 
 <ul>
 <li>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-the-event-level-for-a-text-log">event level set for the text log</a> is less than the event level that is specified for the log entry. 
+The <a href="/windows-hardware/drivers/install/setting-the-event-level-for-a-text-log">event level set for the text log</a> is less than the event level that is specified for the log entry. 
 
 </li>
 <li>
-The event category for the log entry is not enabled for the text log. For more information about event categories, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/enabling-event-categories-for-a-text-log">Enabling Event Categories for a Text Log</a>.
+The event category for the log entry is not enabled for the text log. For more information about event categories, see <a href="/windows-hardware/drivers/install/enabling-event-categories-for-a-text-log">Enabling Event Categories for a Text Log</a>.
 
 </li>
 </ul>
 The maximum length, in characters, of a log entry is 336.
 
-To write information about a SetupAPI-specific error or a Win32 error in a text log, an application can use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlogerror">SetupWriteTextLogError</a>.
+To write information about a SetupAPI-specific error or a Win32 error in a text log, an application can use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlogerror">SetupWriteTextLogError</a>.
 
-For general information about writing log entries in the SetupAPI text logs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-">SetupAPI Logging (Windows Vista and Later)</a>. 
+For general information about writing log entries in the SetupAPI text logs, see <a href="/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-">SetupAPI Logging (Windows Vista and Later)</a>. 
 
-For more information about the operation of <b>SetupWriteTextLog</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/calling-setupwritetextlog">Calling SetupWriteTextLog</a>. 
+For more information about the operation of <b>SetupWriteTextLog</b>, see <a href="/windows-hardware/drivers/install/calling-setupwritetextlog">Calling SetupWriteTextLog</a>. 
 
-For more information about log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/log-tokens">Log Tokens</a>.
+For more information about log tokens, see <a href="/windows-hardware/drivers/install/log-tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>.
-
-
-
+For more information about using log tokens, see <a href="/windows-hardware/drivers/install/setting-and-getting-a-log-token-for-a-thread">Setting and Getting a Log Token for a Thread</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetthreadlogtoken">SetupGetThreadLogToken</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlogerror">SetupWriteTextLogError</a>
- 
-
- 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupwritetextlogerror">SetupWriteTextLogError</a>
 

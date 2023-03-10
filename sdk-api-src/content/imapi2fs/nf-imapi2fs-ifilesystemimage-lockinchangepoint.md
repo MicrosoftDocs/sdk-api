@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.LockInChangePoint
 title: IFileSystemImage::LockInChangePoint (imapi2fs.h)
 description: Locks the file system information at the current change-point level.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","LockInChangePoint method","IFileSystemImage.LockInChangePoint","IFileSystemImage::LockInChangePoint","LockInChangePoint","LockInChangePoint method [IMAPI]","LockInChangePoint method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_lockinchangepoint","imapi2fs/IFileSystemImage::LockInChangePoint"]
 old-location: imapi\ifilesystemimage_lockinchangepoint.htm
 tech.root: imapi
 ms.assetid: ae5d659c-5da7-4478-b65f-64cbe227dbc5
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],LockInChangePoint method, IFileSystemImage.LockInChangePoint, IFileSystemImage::LockInChangePoint, LockInChangePoint, LockInChangePoint method [IMAPI], LockInChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_lockinchangepoint, imapi2fs/IFileSystemImage::LockInChangePoint
-f1_keywords:
-- imapi2fs/IFileSystemImage.LockInChangePoint
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.LockInChangePoint
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::LockInChangePoint
+ - imapi2fs/IFileSystemImage::LockInChangePoint
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.LockInChangePoint
 ---
 
 # IFileSystemImage::LockInChangePoint
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks the file system information at the current change-point level.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -82,37 +75,21 @@ Internal error occurred: <i>%1!ls!</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Once the change point is locked, rollback to earlier change points is not permitted.
 
-Locking the change point does not change the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a> property.
-
-
-
+Locking the change point does not change the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a> property.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-rollbacktochangepoint">IFileSystemImage::RollbackToChangePoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-rollbacktochangepoint">IFileSystemImage::RollbackToChangePoint</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a>

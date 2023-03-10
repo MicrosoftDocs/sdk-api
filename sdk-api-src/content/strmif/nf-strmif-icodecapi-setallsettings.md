@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllSettings
 title: ICodecAPI::SetAllSettings (strmif.h)
-description: The SetAllSettings method reads codec properties from a stream and sets them on the codec.
+description: The SetAllSettings method reads codec properties from a stream and sets them on the codec. (ICodecAPI.SetAllSettings)
+helpviewer_keywords: ["ICodecAPI interface [DirectShow]","SetAllSettings method","ICodecAPI.SetAllSettings","ICodecAPI::SetAllSettings","ICodecAPISetAllSettings","SetAllSettings","SetAllSettings method [DirectShow]","SetAllSettings method [DirectShow]","ICodecAPI interface","dshow.icodecapi_setallsettings","strmif/ICodecAPI::SetAllSettings"]
 old-location: dshow\icodecapi_setallsettings.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 1148e380-a4fc-4392-861e-8ea695060032
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllSettings method, ICodecAPI.SetAllSettings, ICodecAPI::SetAllSettings, ICodecAPISetAllSettings, SetAllSettings, SetAllSettings method [DirectShow], SetAllSettings method [DirectShow],ICodecAPI interface, dshow.icodecapi_setallsettings, strmif/ICodecAPI::SetAllSettings
-f1_keywords:
-- strmif/ICodecAPI.SetAllSettings
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICodecAPI.SetAllSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICodecAPI::SetAllSettings
+ - strmif/ICodecAPI::SetAllSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICodecAPI.SetAllSettings
 ---
 
 # ICodecAPI::SetAllSettings
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetAllSettings</b> method reads codec properties from a stream and sets them on the codec.
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__ICodecAPI0001 [in]
 
 Pointer to the <b>IStream</b> interface of the stream.
-          
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,39 +91,23 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Codecs that implement <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> are  not required to support this method.
-
-
-
+Codecs that implement <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a> are  not required to support this method.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">ICodecAPI::GetValue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">ICodecAPI::GetValue</a>

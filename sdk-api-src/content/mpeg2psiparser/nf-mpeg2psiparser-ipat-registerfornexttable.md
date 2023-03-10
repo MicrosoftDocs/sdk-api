@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.IPAT.RegisterForNextTable
 title: IPAT::RegisterForNextTable (mpeg2psiparser.h)
 description: The RegisterForNextTable method registers the client to be notified when a next table arrives that will replace the current table.
+helpviewer_keywords: ["IPAT interface [Microsoft TV Technologies]","RegisterForNextTable method","IPAT.RegisterForNextTable","IPAT::RegisterForNextTable","IPATRegisterForNextTable","RegisterForNextTable","RegisterForNextTable method [Microsoft TV Technologies]","RegisterForNextTable method [Microsoft TV Technologies]","IPAT interface","mpeg2psiparser/IPAT::RegisterForNextTable","mstv.ipat_registerfornexttable"]
 old-location: mstv\ipat_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 347d8c6f-0934-4ea0-9914-9b4ac47a9306
 ms.date: 12/05/2018
 ms.keywords: IPAT interface [Microsoft TV Technologies],RegisterForNextTable method, IPAT.RegisterForNextTable, IPAT::RegisterForNextTable, IPATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IPAT interface, mpeg2psiparser/IPAT::RegisterForNextTable, mstv.ipat_registerfornexttable
-f1_keywords:
-- mpeg2psiparser/IPAT.RegisterForNextTable
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPAT.RegisterForNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPAT::RegisterForNextTable
+ - mpeg2psiparser/IPAT::RegisterForNextTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPAT.RegisterForNextTable
 ---
 
 # IPAT::RegisterForNextTable
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>RegisterForNextTable</b> method registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hNextTableAvailable [in]
 
-Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-getnexttable">IPAT::GetNextTable</a> method to retrieve the table.
-
+Handle to an event created by the caller. The object signals the event when the <i>next</i> table arrives. When the event is signaled, call the <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-getnexttable">IPAT::GetNextTable</a> method to retrieve the table.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -121,27 +112,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to <i>current</i> tables. Otherwise, the method returns E_ACCESSDENIED.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>

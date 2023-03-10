@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaType.FreeRepresentation
 title: IMFMediaType::FreeRepresentation (mfobjects.h)
 description: Frees memory that was allocated by the IMFMediaType::GetRepresentation method.
+helpviewer_keywords: ["FreeRepresentation","FreeRepresentation method [Media Foundation]","FreeRepresentation method [Media Foundation]","IMFMediaType interface","IMFMediaType interface [Media Foundation]","FreeRepresentation method","IMFMediaType.FreeRepresentation","IMFMediaType::FreeRepresentation","d2007f16-543f-4f05-a44d-b4b4ae8019fb","mf.imfmediatype_freerepresentation","mfobjects/IMFMediaType::FreeRepresentation"]
 old-location: mf\imfmediatype_freerepresentation.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d2007f16-543f-4f05-a44d-b4b4ae8019fb
 ms.date: 12/05/2018
 ms.keywords: FreeRepresentation, FreeRepresentation method [Media Foundation], FreeRepresentation method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],FreeRepresentation method, IMFMediaType.FreeRepresentation, IMFMediaType::FreeRepresentation, d2007f16-543f-4f05-a44d-b4b4ae8019fb, mf.imfmediatype_freerepresentation, mfobjects/IMFMediaType::FreeRepresentation
-f1_keywords:
-- mfobjects/IMFMediaType.FreeRepresentation
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaType.FreeRepresentation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaType::FreeRepresentation
+ - mfobjects/IMFMediaType::FreeRepresentation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaType.FreeRepresentation
 ---
 
 # IMFMediaType::FreeRepresentation
@@ -49,42 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Frees memory that was allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a> method.
-
-
-
+Frees memory that was allocated by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">IMFMediaType::GetRepresentation</a> method.
 
 ## -parameters
 
-
-
-
 ### -param guidRepresentation [in]
 
-GUID that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
-          
-
+GUID that was passed to the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
 
 ### -param pvRepresentation [in]
 
-Pointer to the buffer that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
-          
-
+Pointer to the buffer that was returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation">GetRepresentation</a> method.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -93,15 +76,6 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>

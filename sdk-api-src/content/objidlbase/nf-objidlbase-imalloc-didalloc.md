@@ -1,16 +1,13 @@
 ---
 UID: NF:objidlbase.IMalloc.DidAlloc
 title: IMalloc::DidAlloc (objidlbase.h)
-description: Determines whether this allocator was used to allocate the specified block of memory.
+description: The IMalloc::DidAlloc (objidlbase.h) method determines whether this allocator was used to allocate the specified block of memory.
+helpviewer_keywords: ["DidAlloc","DidAlloc method [COM]","DidAlloc method [COM]","IMalloc interface","IMalloc interface [COM]","DidAlloc method","IMalloc.DidAlloc","IMalloc::DidAlloc","_com_imalloc_didalloc","com.imalloc_didalloc","objidlbase/IMalloc::DidAlloc"]
 old-location: com\imalloc_didalloc.htm
 tech.root: com
 ms.assetid: 085dd7cd-c360-48fa-8713-64dd9057e20d
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: DidAlloc, DidAlloc method [COM], DidAlloc method [COM],IMalloc interface, IMalloc interface [COM],DidAlloc method, IMalloc.DidAlloc, IMalloc::DidAlloc, _com_imalloc_didalloc, com.imalloc_didalloc, objidlbase/IMalloc::DidAlloc
-f1_keywords:
-- objidlbase/IMalloc.DidAlloc
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMalloc.DidAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMalloc::DidAlloc
+ - objidlbase/IMalloc::DidAlloc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMalloc.DidAlloc
 ---
 
 # IMalloc::DidAlloc
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether this allocator was used to allocate the specified block of memory.
 
-
 ## -parameters
-
-
-
 
 ### -param pv [in]
 
 A pointer to the block of memory. If this parameter is a <b>NULL</b> pointer, -1 is returned.
 
-
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -107,18 +101,7 @@ This method cannot determine whether this allocator allocated the block of memor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>

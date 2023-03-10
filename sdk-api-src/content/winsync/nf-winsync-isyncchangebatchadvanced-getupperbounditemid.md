@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetUpperBoundItemId
 title: ISyncChangeBatchAdvanced::GetUpperBoundItemId (winsync.h)
 description: Gets the highest item ID that is represented in the knowledge of any group in the change batch.
+helpviewer_keywords: ["GetUpperBoundItemId","GetUpperBoundItemId method [Windows Sync]","GetUpperBoundItemId method [Windows Sync]","ISyncChangeBatchAdvanced interface","ISyncChangeBatchAdvanced interface [Windows Sync]","GetUpperBoundItemId method","ISyncChangeBatchAdvanced.GetUpperBoundItemId","ISyncChangeBatchAdvanced::GetUpperBoundItemId","winsync.isyncchangebatchadvanced_getupperbounditemid","winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId"]
 old-location: winsync\isyncchangebatchadvanced_getupperbounditemid.htm
 tech.root: winsync
 ms.assetid: 4aa472b1-7dfb-4159-8f50-cc8e5de34dd3
 ms.date: 12/05/2018
 ms.keywords: GetUpperBoundItemId, GetUpperBoundItemId method [Windows Sync], GetUpperBoundItemId method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetUpperBoundItemId method, ISyncChangeBatchAdvanced.GetUpperBoundItemId, ISyncChangeBatchAdvanced::GetUpperBoundItemId, winsync.isyncchangebatchadvanced_getupperbounditemid, winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId
-f1_keywords:
-- winsync/ISyncChangeBatchAdvanced.GetUpperBoundItemId
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatchAdvanced.GetUpperBoundItemId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatchAdvanced::GetUpperBoundItemId
+ - winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatchAdvanced.GetUpperBoundItemId
 ---
 
 # ISyncChangeBatchAdvanced::GetUpperBoundItemId
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the highest item ID that is represented in the knowledge of any group in the change batch.
 
-
 ## -parameters
-
-
-
 
 ### -param pbItemId [in, out]
 
 Returns the highest item ID that is represented in the knowledge of any group in the change batch.
 
-
 ### -param pcbIdSize [in, out]
 
 Specifies the number of bytes in <i>pbItemId</i>. Returns the number of bytes that are necessary to retrieve the ID when <i>pbItemId</i> is too small, or returns the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,18 +105,7 @@ When <i>pbItemId</i> is too small. In this situation, the required number of byt
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchadvanced">ISyncChangeBatchAdvanced Interface</a>

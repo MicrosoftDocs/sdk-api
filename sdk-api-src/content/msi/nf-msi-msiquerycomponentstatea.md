@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiQueryComponentStateA
 title: MsiQueryComponentStateA function (msi.h)
-description: The MsiQueryComponentState function returns the installed state for a component.
+description: The MsiQueryComponentState function returns the installed state for a component. (ANSI)
+helpviewer_keywords: ["INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiQueryComponentStateA", "NULL", "User SID", "msi/MsiQueryComponentStateA"]
 old-location: setup\msiquerycomponentstate.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: d3b387d1-720e-4b54-ba80-731fcabdf676
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiQueryComponentState, MsiQueryComponentState function, MsiQueryComponentStateA, MsiQueryComponentStateW, NULL, User SID, msi/MsiQueryComponentState, msi/MsiQueryComponentStateA, msi/MsiQueryComponentStateW, setup.msiquerycomponentstate
-f1_keywords:
-- msi/MsiQueryComponentState
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiQueryComponentState
-- MsiQueryComponentStateA
-- MsiQueryComponentStateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiQueryComponentStateA
+ - msi/MsiQueryComponentStateA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiQueryComponentState
+ - MsiQueryComponentStateA
+ - MsiQueryComponentStateW
 ---
 
 # MsiQueryComponentStateA function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiQueryComponentState</b> function returns the installed state for a component. This function can query for a component of an instance of a product that is installed under user accounts other than the  current user provided the product is not advertised under the per-user-unmanaged context for a user account other than the current user.  The calling process must have administrative privileges to get information for a product installed for a user other than the current user.
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCode [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product that contains the component.
-
+Specifies the <a href="/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product that contains the component.
 
 ### -param szUserSid [in]
 
@@ -140,13 +136,10 @@ Retrieves the component's state for the per-machine instance of the product.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szComponentCode [in]
 
-Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component</a> table.
-
+Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="/windows/desktop/Msi/component-table">Component</a> table.
 
 ### -param pdwState [out]
 
@@ -178,12 +171,8 @@ The component is installed to run from the source.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>MsiQueryComponentState</b> function returns the following values.
 
@@ -284,34 +273,29 @@ Buffer too small to get the user SID.
  
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
-
-
-
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/component-table">Component</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component</a>
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
+<a href="/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
-
+> [!NOTE]
+> The msi.h header defines MsiQueryComponentState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

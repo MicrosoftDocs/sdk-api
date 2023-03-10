@@ -2,15 +2,12 @@
 UID: NS:qos._QOS_SD_MODE
 title: QOS_SD_MODE (qos.h)
 description: The QOS object QOS_SD_MODE defines the behavior of the traffic control-packet shaper component.
+helpviewer_keywords: ["*LPQOS_SD_MODE","LPQOS_SD_MODE","LPQOS_SD_MODE structure pointer [QOS]","QOS_SD_MODE","QOS_SD_MODE structure [QOS]","TC_NONCONF_BORROW","TC_NONCONF_DISCARD","TC_NONCONF_SHAPE","_gqos_qos_sd_mode","qos.qos_sd_mode","qos/LPQOS_SD_MODE","qos/QOS_SD_MODE"]
 old-location: qos\qos_sd_mode.htm
 tech.root: QOS
 ms.assetid: a1ae9920-3e6f-4611-abce-905df7a516f5
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_SD_MODE, LPQOS_SD_MODE, LPQOS_SD_MODE structure pointer [QOS], QOS_SD_MODE, QOS_SD_MODE structure [QOS], TC_NONCONF_BORROW, TC_NONCONF_DISCARD, TC_NONCONF_SHAPE, _gqos_qos_sd_mode, qos.qos_sd_mode, qos/LPQOS_SD_MODE, qos/QOS_SD_MODE'
-f1_keywords:
-- qos/QOS_SD_MODE
-dev_langs:
-- c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qos.h
-api_name:
-- QOS_SD_MODE
 targetos: Windows
 req.typenames: QOS_SD_MODE, *LPQOS_SD_MODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _QOS_SD_MODE
+ - qos/_QOS_SD_MODE
+ - LPQOS_SD_MODE
+ - qos/LPQOS_SD_MODE
+ - QOS_SD_MODE
+ - qos/QOS_SD_MODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qos.h
+api_name:
+ - QOS_SD_MODE
 ---
 
 # QOS_SD_MODE structure
@@ -48,27 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The QOS object 
 <b>QOS_SD_MODE</b> defines the behavior of the traffic control-packet shaper component.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ObjectHdr
 
 The QOS object 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>. The object type for this QOS object should be 
 <b>QOS_SD_MODE</b>.
-
 
 ### -field ShapeDiscardMode
 
 Specifies the requested behavior of the packet shaper. Note that there are elements of packet handling within these predefined behaviors that depend on the flow settings specified within 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>. 
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>. 
 
 
 
@@ -89,7 +89,7 @@ This mode is currently only available to the TC API. It is not available to user
 
 
 Instructs the packet shaper to borrow remaining available resources after all higher priority flows have been serviced. If the <b>TokenRate</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> is specified for this flow, packets that exceed the value of <b>TokenRate</b> will have their priority demoted to less than SERVICETYPE_BESTEFFORT, as defined in the <b>ServiceType</b> member of the 
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> is specified for this flow, packets that exceed the value of <b>TokenRate</b> will have their priority demoted to less than SERVICETYPE_BESTEFFORT, as defined in the <b>ServiceType</b> member of the 
 <b>FLOWSPEC</b> structure.
 
 </td>
@@ -115,20 +115,11 @@ Instructs the packet shaper to discard all nonconforming packets. TC_NONCONF_DIS
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>

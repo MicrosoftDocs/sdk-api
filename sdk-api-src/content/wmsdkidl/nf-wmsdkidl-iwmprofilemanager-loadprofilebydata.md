@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMProfileManager.LoadProfileByData
 title: IWMProfileManager::LoadProfileByData (wmsdkidl.h)
 description: The LoadProfileByData method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either LoadProfileByID or LoadSystemProfile.
+helpviewer_keywords: ["IWMProfileManager interface [windows Media Format]","LoadProfileByData method","IWMProfileManager.LoadProfileByData","IWMProfileManager::LoadProfileByData","IWMProfileManagerLoadProfileByData","LoadProfileByData","LoadProfileByData method [windows Media Format]","LoadProfileByData method [windows Media Format]","IWMProfileManager interface","wmformat.iwmprofilemanager_loadprofilebydata","wmsdkidl/IWMProfileManager::LoadProfileByData"]
 old-location: wmformat\iwmprofilemanager_loadprofilebydata.htm
 tech.root: wmformat
 ms.assetid: c645b6cc-e10d-4335-91c4-8bfd430ca76b
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadProfileByData method, IWMProfileManager.LoadProfileByData, IWMProfileManager::LoadProfileByData, IWMProfileManagerLoadProfileByData, LoadProfileByData, LoadProfileByData method [windows Media Format], LoadProfileByData method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadprofilebydata, wmsdkidl/IWMProfileManager::LoadProfileByData
-f1_keywords:
-- wmsdkidl/IWMProfileManager.LoadProfileByData
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMProfileManager.LoadProfileByData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfileManager::LoadProfileByData
+ - wmsdkidl/IWMProfileManager::LoadProfileByData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMProfileManager.LoadProfileByData
 ---
 
 # IWMProfileManager::LoadProfileByData
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>LoadProfileByData</b> method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebyid">LoadProfileByID</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile">LoadSystemProfile</a>.
-
-
-
+The <b>LoadProfileByData</b> method creates a profile object and populates it with data from a stored string. You must use this method to manipulate custom profiles. System profiles should be accessed using either <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadprofilebyid">LoadProfileByID</a> or <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-loadsystemprofile">LoadSystemProfile</a>.
 
 ## -parameters
-
-
-
 
 ### -param pwszProfile [in]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the profile. Profile strings are limited to 153600 wide characters.
 
-
 ### -param ppProfile [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
-
+Pointer to a pointer to an <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,27 +108,11 @@ Either the <i>ppProfile</i> or <i>pwszProfile</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This string must match an XML-formatted string created by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-saveprofile">IWMProfileManager::SaveProfile</a>. By convention, when such strings are saved to disk they are given the ".prx" extension.
-
-
-
+This string must match an XML-formatted string created by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager-saveprofile">IWMProfileManager::SaveProfile</a>. By convention, when such strings are saved to disk they are given the ".prx" extension.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>

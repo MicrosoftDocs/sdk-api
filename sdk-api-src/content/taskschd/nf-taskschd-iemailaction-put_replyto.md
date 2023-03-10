@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IEmailAction.put_ReplyTo
 title: IEmailAction::put_ReplyTo (taskschd.h)
-description: Gets or sets the email address that you want to reply to.
+description: Gets or sets the email address that you want to reply to. (Put)
+helpviewer_keywords: ["IEmailAction interface [Task Scheduler]","ReplyTo property","IEmailAction.ReplyTo","IEmailAction.put_ReplyTo","IEmailAction::ReplyTo","IEmailAction::get_ReplyTo","IEmailAction::put_ReplyTo","ReplyTo property [Task Scheduler]","ReplyTo property [Task Scheduler]","IEmailAction interface","put_ReplyTo","taskschd.iemailaction_replyto","taskschd/IEmailAction::ReplyTo","taskschd/IEmailAction::get_ReplyTo","taskschd/IEmailAction::put_ReplyTo"]
 old-location: taskschd\iemailaction_replyto.htm
 tech.root: taskschd
 ms.assetid: 315ec0f3-3a1b-4b83-a934-af1f5d30910a
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IEmailAction interface [Task Scheduler],ReplyTo property, IEmailAction.ReplyTo, IEmailAction.put_ReplyTo, IEmailAction::ReplyTo, IEmailAction::get_ReplyTo, IEmailAction::put_ReplyTo, ReplyTo property [Task Scheduler], ReplyTo property [Task Scheduler],IEmailAction interface, put_ReplyTo, taskschd.iemailaction_replyto, taskschd/IEmailAction::ReplyTo, taskschd/IEmailAction::get_ReplyTo, taskschd/IEmailAction::put_ReplyTo
-f1_keywords:
-- taskschd/IEmailAction.ReplyTo
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IEmailAction.ReplyTo
-- IEmailAction.get_ReplyTo
-- IEmailAction.put_ReplyTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEmailAction::put_ReplyTo
+ - taskschd/IEmailAction::put_ReplyTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IEmailAction.ReplyTo
+ - IEmailAction.get_ReplyTo
+ - IEmailAction.put_ReplyTo
 ---
 
 # IEmailAction::put_ReplyTo
@@ -50,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the email address that you want to reply to.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
- 
-
- 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
 

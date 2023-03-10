@@ -2,15 +2,12 @@
 UID: NN:shobjidl_core.ITaskbarList2
 title: ITaskbarList2 (shobjidl_core.h)
 description: Extends the ITaskbarList interface by exposing a method to mark a window as a full-screen display.
+helpviewer_keywords: ["ITaskbarList2","ITaskbarList2 interface [Windows Shell]","ITaskbarList2 interface [Windows Shell]","described","shell.ITaskbarList2","shell_ITaskbarList2","shobjidl_core/ITaskbarList2"]
 old-location: shell\ITaskbarList2.htm
 tech.root: shell
 ms.assetid: 8af23586-349f-4d21-98cb-0aaa27a586ff
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList2, ITaskbarList2 interface [Windows Shell], ITaskbarList2 interface [Windows Shell],described, shell.ITaskbarList2, shell_ITaskbarList2, shobjidl_core/ITaskbarList2
-f1_keywords:
-- shobjidl_core/ITaskbarList2
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ITaskbarList2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskbarList2
+ - shobjidl_core/ITaskbarList2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ITaskbarList2
 ---
 
 # ITaskbarList2 interface
@@ -48,44 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface by exposing a method to mark a window as a full-screen display.
-
+Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface by exposing a method to mark a window as a full-screen display.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskbarList2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>. <b>ITaskbarList2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITaskbarList2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">MarkFullscreenWindow</a>
-</td>
-<td align="left" width="63%">
-Marks a window as full-screen.
-
-</td>
-</tr>
-</table> 
-
+The <b>ITaskbarList2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>. <b>ITaskbarList2</b> also has these types of members:
 
 ## -remarks
 
+This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface, from which it inherits.
 
-
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface, from which it inherits.
-
-The Shell also automatically attempts to detect full-screen applications, but it is not as reliable as using the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a> method. 
-
-
-
+The Shell also automatically attempts to detect full-screen applications, but it is not as reliable as using the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a> method.

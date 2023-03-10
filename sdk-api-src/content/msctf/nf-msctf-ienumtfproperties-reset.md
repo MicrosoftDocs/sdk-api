@@ -2,15 +2,12 @@
 UID: NF:msctf.IEnumTfProperties.Reset
 title: IEnumTfProperties::Reset (msctf.h)
 description: IEnumTfProperties::Reset method
+helpviewer_keywords: ["IEnumTfProperties interface [Text Services Framework]","Reset method","IEnumTfProperties.Reset","IEnumTfProperties::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfProperties interface","_tsf_ienumtfproperties_reset_ref","msctf/IEnumTfProperties::Reset","tsf.ienumtfproperties_reset"]
 old-location: tsf\ienumtfproperties_reset.htm
 tech.root: TSF
 ms.assetid: 74e9897e-47af-4a48-b6df-a93867ea2909
 ms.date: 12/05/2018
 ms.keywords: IEnumTfProperties interface [Text Services Framework],Reset method, IEnumTfProperties.Reset, IEnumTfProperties::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfProperties interface, _tsf_ienumtfproperties_reset_ref, msctf/IEnumTfProperties::Reset, tsf.ienumtfproperties_reset
-f1_keywords:
-- msctf/IEnumTfProperties.Reset
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfProperties.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfProperties::Reset
+ - msctf/IEnumTfProperties::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfProperties.Reset
 ---
 
 # IEnumTfProperties::Reset
@@ -48,19 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
-## -parameters
-
-
-
+Resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -81,7 +75,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
+[IEnumTfProperties interface](nn-msctf-ienumtfproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md)
 

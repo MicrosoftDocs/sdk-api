@@ -2,15 +2,12 @@
 UID: NE:winioctl._STORAGE_PROTOCOL_ATA_DATA_TYPE
 title: STORAGE_PROTOCOL_ATA_DATA_TYPE
 description: The ATA protocol data type.
+helpviewer_keywords: ["*PSTORAGE_PROTOCOL_ATA_DATA_TYPE","AtaDataTypeIdentify","AtaDataTypeLogPage","AtaDataTypeUnknown","PSTORAGE_PROTOCOL_ATA_DATA_TYPE","PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Files]","STORAGE_PROTOCOL_ATA_DATA_TYPE","STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Files]","fs.storage_protocol_ata_data_type","winioctl/AtaDataTypeIdentify","winioctl/AtaDataTypeLogPage","winioctl/AtaDataTypeUnknown","winioctl/PSTORAGE_PROTOCOL_ATA_DATA_TYPE","winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE"]
 old-location: fs\storage_protocol_ata_data_type.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 999CB5EB-9D19-41B9-B4ED-001B63C1A7EA
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, AtaDataTypeLogPage, AtaDataTypeUnknown, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Files], STORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Files], fs.storage_protocol_ata_data_type, winioctl/AtaDataTypeIdentify, winioctl/AtaDataTypeLogPage, winioctl/AtaDataTypeUnknown, winioctl/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE'
-f1_keywords:
-- winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_PROTOCOL_ATA_DATA_TYPE
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_ATA_DATA_TYPE, *PSTORAGE_PROTOCOL_ATA_DATA_TYPE
 req.redist: 
+f1_keywords:
+ - _STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - winioctl/_STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+ - winioctl/PSTORAGE_PROTOCOL_ATA_DATA_TYPE
+ - STORAGE_PROTOCOL_ATA_DATA_TYPE
+ - winioctl/STORAGE_PROTOCOL_ATA_DATA_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_PROTOCOL_ATA_DATA_TYPE
 ---
 
 # STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration
@@ -48,89 +54,40 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The ATA protocol data type.
 
-
 ## -enum-fields
 
-
-
-
-### -field AtaDataTypeUnknown
+### -field AtaDataTypeUnknown:0
 
 Unknown data type.
-
 
 ### -field AtaDataTypeIdentify
 
 Identify device data type.
 
-
 ### -field AtaDataTypeLogPage
 
 Log page data type.
 
-
 ## -remarks
 
+When using [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) to retrieve protocol-specific information in the [STORAGE_PROTOCOL_DATA_DESCRIPTOR](ns-winioctl-storage_protocol_data_descriptor.md), configure the [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md) structure as follows:
+* Allocate a buffer that can contains both a [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md) and a [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-winioctl-storage_protocol_specific_data.md) structure.
+* Set the **PropertyID** field to **StorageAdapterProtocolSpecificProperty** or **StorageDeviceProtocolSpecificProperty** for a controller or device/namespace request, respectively.
+* Set the **QueryType** field to **PropertyStandardQuery**.
+* Fill the [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-winioctl-storage_protocol_specific_data.md) structure with the desired values. The start of the **STORAGE_PROTOCOL_SPECIFIC_DATA** is the **AdditionalParameters** field of [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md).
 
-
-When using <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve protocol-specific information in the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_data_descriptor">STORAGE_PROTOCOL_DATA_DESCRIPTOR</a>, configure the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> structure as follows:
-
-<ul>
-<li>
-Allocate a buffer that can contains both a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> and a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure.
-
-</li>
-<li>
-Set the <b>PropertyID</b>  field to <b>StorageAdapterProtocolSpecificProperty</b> or <b>StorageDeviceProtocolSpecificProperty</b> for a controller or device/namespace request, respectively.
-
-</li>
-<li>
-Set the <b>QueryType</b>  field to <b>PropertyStandardQuery</b>.
-
-</li>
-<li>
-Fill the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure with the desired values. The start of the <b>STORAGE_PROTOCOL_SPECIFIC_DATA</b> is the <b>AdditionalParameters</b> field of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>.
-
-</li>
-</ul>
-To specify a type of ATA protocol-specific information,  configure the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
-
-<ul>
-<li>
-Set the <b>ProtocolType</b>  field to <b>ProtocolTypeAta</b>.
-
-</li>
-<li>
-Set the <b>DataType</b>  field to an enumeration value defined by <b>STORAGE_PROTOCOL_ATA_DATA_TYPE</b>:<ul>
-<li>Use <b>AtaDataTypeIdentify</b> to identify the ATA drive.</li>
-<li>Use <b>AtaDataTypeLogPage</b> to get log pages from the ATA drive.</li>
-</ul>
-
-
-</li>
-</ul>
-
-
+To specify a type of ATA protocol-specific information,  configure the [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-winioctl-storage_protocol_specific_data.md) structure as follows:
+* Set the **ProtocolType** field to **ProtocolTypeAta**.
+* Set the **DataType** field to an enumeration value defined by **STORAGE_PROTOCOL_ATA_DATA_TYPE**:
+  * Use **AtaDataTypeIdentify** to identify the ATA drive.
+  * Use **AtaDataTypeLogPage** to get log pages from the ATA drive.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
- 
-
- 
+* [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
+* [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
+* [STORAGE_PROTOCOL_SPECIFIC_DATA](ns-winioctl-storage_protocol_specific_data.md)
 

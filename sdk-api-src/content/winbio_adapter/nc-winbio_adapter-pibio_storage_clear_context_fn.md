@@ -1,16 +1,13 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CLEAR_CONTEXT_FN
 title: PIBIO_STORAGE_CLEAR_CONTEXT_FN (winbio_adapter.h)
-description: Prepares the processing pipeline of the biometric unit for a new operation.
+description: The PIBIO_STORAGE_CLEAR_CONTEXT_FN callback function (winbio_adapter.h) prepares the processing pipeline of the biometric unit for a new operation.
+helpviewer_keywords: ["PIBIO_STORAGE_CLEAR_CONTEXT_FN","PIBIO_STORAGE_CLEAR_CONTEXT_FN callback","StorageAdapterClearContext","StorageAdapterClearContext callback function [Windows Biometric Framework API]","secbiomet.storageadapterclearcontext","winbio_adapter/StorageAdapterClearContext"]
 old-location: secbiomet\storageadapterclearcontext.htm
 tech.root: SecBioMet
 ms.assetid: d7022363-01e9-4675-9bd0-e9369d237c3c
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PIBIO_STORAGE_CLEAR_CONTEXT_FN, PIBIO_STORAGE_CLEAR_CONTEXT_FN callback, StorageAdapterClearContext, StorageAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.storageadapterclearcontext, winbio_adapter/StorageAdapterClearContext
-f1_keywords:
-- winbio_adapter/StorageAdapterClearContext
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- StorageAdapterClearContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_STORAGE_CLEAR_CONTEXT_FN
+ - winbio_adapter/PIBIO_STORAGE_CLEAR_CONTEXT_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - StorageAdapterClearContext
 ---
 
 # PIBIO_STORAGE_CLEAR_CONTEXT_FN callback function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to prepare the processing pipeline of the biometric unit for a new operation. This function should flush temporary data from the engine context and place the engine adapter into a well-defined initial state.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -91,19 +85,13 @@ The <i>Pipeline</i> argument cannot be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <b>StorageContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is  <b>NULL</b>.
+The <b>StorageContext</b> member of the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is  <b>NULL</b>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following storage adapter context items should be cleared:
 
@@ -187,17 +175,6 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

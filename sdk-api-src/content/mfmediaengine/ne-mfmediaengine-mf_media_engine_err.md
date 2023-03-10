@@ -2,15 +2,12 @@
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_ERR
 title: MF_MEDIA_ENGINE_ERR (mfmediaengine.h)
 description: Defines error status codes for the Media Engine.
+helpviewer_keywords: ["MF_MEDIA_ENGINE_ERR","MF_MEDIA_ENGINE_ERR enumeration [Media Foundation]","MF_MEDIA_ENGINE_ERR_ABORTED","MF_MEDIA_ENGINE_ERR_DECODE","MF_MEDIA_ENGINE_ERR_ENCRYPTED","MF_MEDIA_ENGINE_ERR_NETWORK","MF_MEDIA_ENGINE_ERR_NOERROR","MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED","mf.mf_media_engine_err","mfmediaengine/MF_MEDIA_ENGINE_ERR","mfmediaengine/MF_MEDIA_ENGINE_ERR_ABORTED","mfmediaengine/MF_MEDIA_ENGINE_ERR_DECODE","mfmediaengine/MF_MEDIA_ENGINE_ERR_ENCRYPTED","mfmediaengine/MF_MEDIA_ENGINE_ERR_NETWORK","mfmediaengine/MF_MEDIA_ENGINE_ERR_NOERROR","mfmediaengine/MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED"]
 old-location: mf\mf_media_engine_err.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: CFA5C2AF-C804-47B4-B76A-907F26CF3DFC
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_ERR, MF_MEDIA_ENGINE_ERR enumeration [Media Foundation], MF_MEDIA_ENGINE_ERR_ABORTED, MF_MEDIA_ENGINE_ERR_DECODE, MF_MEDIA_ENGINE_ERR_ENCRYPTED, MF_MEDIA_ENGINE_ERR_NETWORK, MF_MEDIA_ENGINE_ERR_NOERROR, MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED, mf.mf_media_engine_err, mfmediaengine/MF_MEDIA_ENGINE_ERR, mfmediaengine/MF_MEDIA_ENGINE_ERR_ABORTED, mfmediaengine/MF_MEDIA_ENGINE_ERR_DECODE, mfmediaengine/MF_MEDIA_ENGINE_ERR_ENCRYPTED, mfmediaengine/MF_MEDIA_ENGINE_ERR_NETWORK, mfmediaengine/MF_MEDIA_ENGINE_ERR_NOERROR, mfmediaengine/MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED
-f1_keywords:
-- mfmediaengine/MF_MEDIA_ENGINE_ERR
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfmediaengine.h
-api_name:
-- MF_MEDIA_ENGINE_ERR
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_ERR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MF_MEDIA_ENGINE_ERR
+ - mfmediaengine/MF_MEDIA_ENGINE_ERR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfmediaengine.h
+api_name:
+ - MF_MEDIA_ENGINE_ERR
 ---
 
 # MF_MEDIA_ENGINE_ERR enumeration
@@ -48,67 +50,44 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines error status codes for the Media Engine.
-
 
 ## -enum-fields
 
-
-
-
-### -field MF_MEDIA_ENGINE_ERR_NOERROR
+### -field MF_MEDIA_ENGINE_ERR_NOERROR:0
 
 No error.
 
+### -field MF_MEDIA_ENGINE_ERR_ABORTED:1
 
-### -field MF_MEDIA_ENGINE_ERR_ABORTED
+The process of fetching the media resource was stopped at the user's request.
 
-The process of fetching the media resource was stopped at the user's request. 
+### -field MF_MEDIA_ENGINE_ERR_NETWORK:2
 
+A network error occurred while fetching the media resource.
 
-### -field MF_MEDIA_ENGINE_ERR_NETWORK
+### -field MF_MEDIA_ENGINE_ERR_DECODE:3
 
-A network error occurred while fetching the media resource. 
+An error occurred while decoding the media resource.
 
+### -field MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED:4
 
-### -field MF_MEDIA_ENGINE_ERR_DECODE
+The media resource is not supported.
 
-An error occurred while decoding the media resource. 
-
-
-### -field MF_MEDIA_ENGINE_ERR_SRC_NOT_SUPPORTED
-
-The media resource is not supported. 
-
-
-### -field MF_MEDIA_ENGINE_ERR_ENCRYPTED
+### -field MF_MEDIA_ENGINE_ERR_ENCRYPTED:5
 
 An error occurred while encrypting the media resource.
 
 Supported in Windows 8.1 and later.
 
-
 ## -remarks
-
-
 
 The values greater than zero correspond to error codes defined for the <b>MediaError</b> object  in HTML5.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-geterrorcode">IMFMediaError::GetErrorCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaerror-geterrorcode">IMFMediaError::GetErrorCode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

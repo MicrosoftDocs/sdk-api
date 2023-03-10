@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCreatePropertyStore.IsStoreSerializable
 title: ITfCreatePropertyStore::IsStoreSerializable (msctf.h)
 description: ITfCreatePropertyStore::IsStoreSerializable method
+helpviewer_keywords: ["ITfCreatePropertyStore interface [Text Services Framework]","IsStoreSerializable method","ITfCreatePropertyStore.IsStoreSerializable","ITfCreatePropertyStore::IsStoreSerializable","IsStoreSerializable","IsStoreSerializable method [Text Services Framework]","IsStoreSerializable method [Text Services Framework]","ITfCreatePropertyStore interface","_tsf_itfcreatepropertystore_isstoreserializable_ref","msctf/ITfCreatePropertyStore::IsStoreSerializable","tsf.itfcreatepropertystore_isstoreserializable"]
 old-location: tsf\itfcreatepropertystore_isstoreserializable.htm
 tech.root: TSF
 ms.assetid: f5fdd81f-266b-4ff3-ab44-2d1c89a7aaea
 ms.date: 12/05/2018
 ms.keywords: ITfCreatePropertyStore interface [Text Services Framework],IsStoreSerializable method, ITfCreatePropertyStore.IsStoreSerializable, ITfCreatePropertyStore::IsStoreSerializable, IsStoreSerializable, IsStoreSerializable method [Text Services Framework], IsStoreSerializable method [Text Services Framework],ITfCreatePropertyStore interface, _tsf_itfcreatepropertystore_isstoreserializable_ref, msctf/ITfCreatePropertyStore::IsStoreSerializable, tsf.itfcreatepropertystore_isstoreserializable
-f1_keywords:
-- msctf/ITfCreatePropertyStore.IsStoreSerializable
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tiptsf.dll
-api_name:
-- ITfCreatePropertyStore.IsStoreSerializable
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCreatePropertyStore::IsStoreSerializable
+ - msctf/ITfCreatePropertyStore::IsStoreSerializable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tiptsf.dll
+api_name:
+ - ITfCreatePropertyStore.IsStoreSerializable
 ---
 
 # ITfCreatePropertyStore::IsStoreSerializable
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines if a property store can be stored as persistent data.
 
 ## -parameters
 
-
-
-
 ### -param guidProp [in]
 
-Contains the type identifier of the property. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType</a>.
-
+Contains the type identifier of the property. For more information, see <a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType</a>.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the text covered by the property store.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the text covered by the property store.
 
 ### -param pPropStore [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> object.
-
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> object.
 
 ### -param pfSerializable [out]
 
 Pointer to a <b>BOOL</b> that receives a flag that indicates if the property store can be serialized. Receives nonzero if the property store can be serialized or zero otherwise.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,33 +91,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcreatepropertystore">ITfCreatePropertyStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
- 
-
- 
-
+[ITfCreatePropertyStore interface](nn-msctf-itfcreatepropertystore.md), [ITfPropertyStore interface](nn-msctf-itfpropertystore.md), [ITfPropertyStore::GetType](nf-msctf-itfpropertystore-gettype.md), [ITfRange interface](nn-msctf-itfrange.md)

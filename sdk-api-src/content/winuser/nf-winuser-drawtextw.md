@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.DrawTextW
 title: DrawTextW function (winuser.h)
-description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth).
+description: The DrawText function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth). (DrawTextW)
+helpviewer_keywords: ["DT_BOTTOM", "DT_CALCRECT", "DT_CENTER", "DT_EDITCONTROL", "DT_END_ELLIPSIS", "DT_EXPANDTABS", "DT_EXTERNALLEADING", "DT_HIDEPREFIX", "DT_INTERNAL", "DT_LEFT", "DT_MODIFYSTRING", "DT_NOCLIP", "DT_NOFULLWIDTHCHARBREAK", "DT_NOPREFIX", "DT_PATH_ELLIPSIS", "DT_PREFIXONLY", "DT_RIGHT", "DT_RTLREADING", "DT_SINGLELINE", "DT_TABSTOP", "DT_TOP", "DT_VCENTER", "DT_WORDBREAK", "DT_WORD_ELLIPSIS", "DrawText", "DrawText function [Windows GDI]", "DrawTextW", "_win32_DrawText", "gdi.drawtext", "winuser/DrawText", "winuser/DrawTextW"]
 old-location: gdi\drawtext.htm
 tech.root: gdi
 ms.assetid: fe412280-d797-4abd-8a29-107a9cd96145
 ms.date: 12/05/2018
 ms.keywords: DT_BOTTOM, DT_CALCRECT, DT_CENTER, DT_EDITCONTROL, DT_END_ELLIPSIS, DT_EXPANDTABS, DT_EXTERNALLEADING, DT_HIDEPREFIX, DT_INTERNAL, DT_LEFT, DT_MODIFYSTRING, DT_NOCLIP, DT_NOFULLWIDTHCHARBREAK, DT_NOPREFIX, DT_PATH_ELLIPSIS, DT_PREFIXONLY, DT_RIGHT, DT_RTLREADING, DT_SINGLELINE, DT_TABSTOP, DT_TOP, DT_VCENTER, DT_WORDBREAK, DT_WORD_ELLIPSIS, DrawText, DrawText function [Windows GDI], DrawTextA, DrawTextW, _win32_DrawText, gdi.drawtext, winuser/DrawText, winuser/DrawTextA, winuser/DrawTextW
-f1_keywords:
-- winuser/DrawText
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- DrawText
-- DrawTextA
-- DrawTextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawTextW
+ - winuser/DrawTextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - DrawText
+ - DrawTextA
+ - DrawTextW
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # DrawTextW function
@@ -57,21 +60,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrawText</b> function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth).
 
-To specify additional formatting options, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
-
+To specify additional formatting options, use the <a href="/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
-
 
 ### -param lpchText [in, out]
 
@@ -79,16 +76,13 @@ A pointer to the string that specifies the text to be drawn. If the <i>nCount</i
 
 If <i>uFormat</i> includes DT_MODIFYSTRING, the function could add up to four additional characters to this string. The buffer containing the string should be large enough to accommodate these extra characters.
 
-
 ### -param cchText [in]
 
 The length, in characters, of the string. If <i>nCount</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawText</b> computes the character count automatically.
 
-
 ### -param lprc [in, out]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the rectangle (in logical coordinates) in which the text is to be formatted.
-
 
 ### -param format [in]
 
@@ -269,7 +263,7 @@ Compare with DT_HIDEPREFIX and DT_PREFIXONLY.
 </dl>
 </td>
 <td width="60%">
-For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash.
+For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle. If the string contains backslash (\\) characters, DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash.
 
 The string is not modified unless the DT_MODIFYSTRING flag is specified.
 
@@ -382,23 +376,14 @@ Compare with DT_END_ELLIPSIS and DT_PATH_ELLIPSIS.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the height of the text in logical units. If DT_VCENTER or DT_BOTTOM is specified, the return value is the offset from <code>lpRect-&gt;top</code> to the bottom of the drawn text
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 The <b>DrawText</b> function uses the device context's selected font, text color, and background color to draw the text. Unless the DT_NOCLIP format is used, <b>DrawText</b> clips the text so that it does not appear outside the specified rectangle. Note that text with significant overhang may be clipped, for example, an initial "W" in the text string or text that is in italics. All formatting is assumed to have multiple lines unless the DT_SINGLELINE format is specified.
 
@@ -409,25 +394,26 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines DrawText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString
+<a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString
       </a>
 
 
@@ -437,14 +423,10 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut
+<a href="/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut
+<a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut
       </a>
- 
-
- 
-

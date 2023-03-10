@@ -2,15 +2,12 @@
 UID: NF:shlwapi.StopWatchMode
 title: StopWatchMode function (shlwapi.h)
 description: StopWatchMode may be altered or unavailable.
+helpviewer_keywords: ["StopWatchMode","StopWatchMode function [Windows Shell]","_win32_StopWatchMode","shell.StopWatchMode","shlwapi/StopWatchMode"]
 old-location: shell\StopWatchMode.htm
 tech.root: shell
 ms.assetid: 3db69040-0720-41a3-ba88-db885a2685aa
 ms.date: 12/05/2018
 ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopWatchMode, shell.StopWatchMode, shlwapi/StopWatchMode
-f1_keywords:
-- shlwapi/StopWatchMode
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- StopWatchMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StopWatchMode
+ - shlwapi/StopWatchMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - StopWatchMode
 ---
 
 # StopWatchMode function
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>StopWatchMode</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Retrieves a value that indicates which performance information is being logged.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -161,21 +154,15 @@ Windows XP: Has no effect.
 <td>Logs selected activities of the MSHTML rendering engine. This flag cannot be combined with SPMODE_BROWSER.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To enable performance logging, set the following REG_DWORD registry value. You should restart your computer after setting this value, to ensure that the change has taken effect.
 
 
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -192,15 +179,6 @@ Enabling performance logging degrades performance slightly.
 <div class="alert"><b>Note</b>  When using Windows XP with Service Pack 2 (SP2) and later, performance data is not collected for a process until that process calls the <b>StopWatchMode</b> function for the first time, even if the above registry value has been set to a nonzero value.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-stopwatchflush">StopWatchFlush</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-stopwatchflush">StopWatchFlush</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiEnumProductsW
 title: MsiEnumProductsW function (msi.h)
-description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated.
+description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated. (Unicode)
+helpviewer_keywords: ["MsiEnumProducts", "MsiEnumProducts function", "MsiEnumProductsW", "_msi_msienumproducts", "msi/MsiEnumProducts", "msi/MsiEnumProductsW", "setup.msienumproducts"]
 old-location: setup\msienumproducts.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c05ddc32-2c61-49ab-991f-8f9efae331a4
 ms.date: 12/05/2018
 ms.keywords: MsiEnumProducts, MsiEnumProducts function, MsiEnumProductsA, MsiEnumProductsW, _msi_msienumproducts, msi/MsiEnumProducts, msi/MsiEnumProductsA, msi/MsiEnumProductsW, setup.msienumproducts
-f1_keywords:
-- msi/MsiEnumProducts
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumProducts
-- MsiEnumProductsA
-- MsiEnumProductsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumProductsW
+ - msi/MsiEnumProductsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumProducts
+ - MsiEnumProductsA
+ - MsiEnumProductsW
 ---
 
 # MsiEnumProductsW function
@@ -50,30 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MsiEnumProducts</b> function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine <a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">installation context</a> and advertisements are enumerated.
-
+<b>MsiEnumProducts</b> function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine <a href="/windows/desktop/Msi/installation-context">installation context</a> and advertisements are enumerated.
 
 ## -parameters
-
-
-
 
 ### -param iProductIndex [in]
 
 Specifies the index of the product to retrieve. This parameter should be zero for the first call to the 
 <b>MsiEnumProducts</b> function and then incremented for subsequent calls. Because products are not ordered, any new product has an arbitrary index. This means that the function can return products in any order.
 
-
 ### -param lpProductBuf [out]
 
 Pointer to a buffer that receives the product code. This buffer must be 39 characters long. The first 38 characters are for the GUID, and the last character is for the terminating null character.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -136,14 +129,8 @@ A value was enumerated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To enumerate products, an application should initially call the 
 <b>MsiEnumProducts</b> function with the <i>iProductIndex</i> parameter set to zero. The application should then increment the <i>iProductIndex</i> parameter and call 
@@ -155,17 +142,14 @@ When making multiple calls to
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiEnumProducts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/determining-installation-context">Determining Installation Context</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>

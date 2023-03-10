@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventSystem.Remove
 title: IEventSystem::Remove (eventsys.h)
-description: Removes one or more subscription or event objects from the event data store.
+description: Removes one or more subscription or event objects from the event data store. (IEventSystem.Remove)
+helpviewer_keywords: ["IEventSystem interface [COM+]","Remove method","IEventSystem.Remove","IEventSystem::Remove","Remove","Remove method [COM+]","Remove method [COM+]","IEventSystem interface","_cos_IEventSystem_Remove","cos.ieventsystem_remove","eventsys/IEventSystem::Remove"]
 old-location: cos\ieventsystem_remove.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2774806b-ad50-4219-a196-da82c93b80ac
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],Remove method, IEventSystem.Remove, IEventSystem::Remove, Remove, Remove method [COM+], Remove method [COM+],IEventSystem interface, _cos_IEventSystem_Remove, cos.ieventsystem_remove, eventsys/IEventSystem::Remove
-f1_keywords:
-- eventsys/IEventSystem.Remove
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSystem.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSystem::Remove
+ - eventsys/IEventSystem::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSystem.Remove
 ---
 
 # IEventSystem::Remove
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes one or more subscription or event objects from the event data store.
 
-
 ## -parameters
-
-
-
 
 ### -param progID [in]
 
@@ -72,15 +69,11 @@ The ProgID of the object class to be removed. This must be a valid event object 
 
 The query criteria. For details on forming a valid expression for this parameter, see the Remarks section below.
 
-
 ### -param errorIndex [out]
 
 The location, expressed as an offset, of an error in the <i>queryCriteria</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -135,14 +128,8 @@ Not all of the requested objects could be removed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The query criteria specified by the <i>queryCriteria</i> parameter can be "ALL", to specify a request for all subscription objects, or a Boolean expression denoting one or more conditions a subscription object must meet to be included in the query result. Valid expressions are of the following form:
 
@@ -158,16 +145,6 @@ Following are some examples of valid query criteria:
 
 "EventClassID == {F89859D1-6565-11D1-88C8-0080C7D771BF} AND MethodName = 'StockPriceChange'"
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>

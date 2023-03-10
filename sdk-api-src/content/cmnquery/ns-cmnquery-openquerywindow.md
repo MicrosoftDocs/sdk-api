@@ -1,16 +1,13 @@
 ---
-UID: NS:cmnquery.__unnamed_struct_1
+UID: NS:cmnquery.OPENQUERYWINDOW
 title: OPENQUERYWINDOW (cmnquery.h)
 description: Used with the ICommonQuery::OpenQueryWindow method to initialize the directory service query dialog box.
+helpviewer_keywords: ["*LPOPENQUERYWINDOW","CLSID_DsFindAdvanced","CLSID_DsFindComputer","CLSID_DsFindContainer","CLSID_DsFindDomainController","CLSID_DsFindFrsMembers","CLSID_DsFindObjects","CLSID_DsFindPeople","CLSID_DsFindPrinter","CLSID_DsFindVolume","CLSID_DsFindWriteableDomainController","CLSID_DsQuery","LPOPENQUERYWINDOW","LPOPENQUERYWINDOW structure pointer [Active Directory]","OPENQUERYWINDOW","OPENQUERYWINDOW structure [Active Directory]","OQWF_DEFAULTFORM","OQWF_HIDEMENUS","OQWF_HIDESEARCHUI","OQWF_ISSUEONOPEN","OQWF_LOADQUERY","OQWF_OKCANCEL","OQWF_PARAMISPROPERTYBAG","OQWF_REMOVEFORMS","OQWF_REMOVESCOPES","OQWF_SAVEQUERYONOK","OQWF_SHOWOPTIONAL","OQWF_SINGLESELECT","_glines_openquerywindow","ad.openquerywindow","cmnquery/LPOPENQUERYWINDOW","cmnquery/OPENQUERYWINDOW"]
 old-location: ad\openquerywindow.htm
 tech.root: ad
 ms.assetid: 07ef2af1-230e-41d9-ad19-d002d0579d66
 ms.date: 12/05/2018
 ms.keywords: '*LPOPENQUERYWINDOW, CLSID_DsFindAdvanced, CLSID_DsFindComputer, CLSID_DsFindContainer, CLSID_DsFindDomainController, CLSID_DsFindFrsMembers, CLSID_DsFindObjects, CLSID_DsFindPeople, CLSID_DsFindPrinter, CLSID_DsFindVolume, CLSID_DsFindWriteableDomainController, CLSID_DsQuery, LPOPENQUERYWINDOW, LPOPENQUERYWINDOW structure pointer [Active Directory], OPENQUERYWINDOW, OPENQUERYWINDOW structure [Active Directory], OQWF_DEFAULTFORM, OQWF_HIDEMENUS, OQWF_HIDESEARCHUI, OQWF_ISSUEONOPEN, OQWF_LOADQUERY, OQWF_OKCANCEL, OQWF_PARAMISPROPERTYBAG, OQWF_REMOVEFORMS, OQWF_REMOVESCOPES, OQWF_SAVEQUERYONOK, OQWF_SHOWOPTIONAL, OQWF_SINGLESELECT, _glines_openquerywindow, ad.openquerywindow, cmnquery/LPOPENQUERYWINDOW, cmnquery/OPENQUERYWINDOW'
-f1_keywords:
-- cmnquery/OPENQUERYWINDOW
-dev_langs:
-- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cmnquery.h
-api_name:
-- OPENQUERYWINDOW
 targetos: Windows
 req.typenames: OPENQUERYWINDOW, *LPOPENQUERYWINDOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPOPENQUERYWINDOW
+ - cmnquery/LPOPENQUERYWINDOW
+ - OPENQUERYWINDOW
+ - cmnquery/OPENQUERYWINDOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cmnquery.h
+api_name:
+ - OPENQUERYWINDOW
 ---
 
 # OPENQUERYWINDOW structure
@@ -48,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OPENQUERYWINDOW</b> structure is used with 
-   the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> method to 
+   the <a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a> method to 
    initialize the directory service query dialog box.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 Contains the size, in bytes, of the structure. This member is used for versioning and parameter validation 
       and must be filled in before calling 
-      <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>.
-
+      <a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>.
 
 ### -field dwFlags
 
@@ -103,7 +101,7 @@ Causes the query to be executed when the query dialog box is first displayed.
 #### OQWF_LOADQUERY
 
 Causes the query dialog box to retrieve the query from the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a> interface in the 
+        <a href="/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a> interface in the 
         <b>pPersistQuery</b> member.
 
 
@@ -119,7 +117,7 @@ Causes the query dialog box to display the <b>OK</b> and
 #### OQWF_PARAMISPROPERTYBAG
 
 Indicates that the <b>ppbFormParameters</b> member contains an 
-        <a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface.
+        <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> interface.
 
 
 
@@ -140,7 +138,7 @@ Causes the query dialog box to be created without the scope label and drop-down 
 #### OQWF_SAVEQUERYONOK
 
 Causes the query dialog box, when closed, to save the query to the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a> interface in the 
+        <a href="/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a> interface in the 
         <b>pPersistQuery</b> member.
 
 
@@ -149,7 +147,7 @@ Causes the query dialog box, when closed, to save the query to the
 
 Causes the query dialog box to display optional forms in the form drop-down list. Optional forms are 
         forms that specify the <b>CQFF_ISOPTIONAL</b> flag in the 
-        <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqform">CQFORM</a> 
+        <b>dwFlags</b> member of the <a href="/windows/desktop/api/cmnquery/ns-cmnquery-cqform">CQFORM</a> 
         structure.
 
 
@@ -157,7 +155,6 @@ Causes the query dialog box to display optional forms in the form drop-down list
 #### OQWF_SINGLESELECT
 
 Causes the query dialog box to make the query results list single-selection.
-
 
 ### -field clsidHandler
 
@@ -171,7 +168,6 @@ Contains a <b>CLSID</b> value that specifies the query handler to be used by the
 
 This is the standard directory service query and the only currently supported query.
 
-
 ### -field pHandlerParameters
 
 Pointer to a structure that contains data for the query handler. The type of structure pointed to by this 
@@ -182,9 +178,8 @@ Pointer to a structure that contains data for the query handler. The type of str
 
 #### CLSID_DsQuery
 
-Contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dsqueryinitparams">DSQUERYINITPARAMS</a> 
+Contains a pointer to a <a href="/windows/desktop/api/dsquery/ns-dsquery-dsqueryinitparams">DSQUERYINITPARAMS</a> 
         structure.
-
 
 ### -field clsidDefaultForm
 
@@ -250,18 +245,16 @@ Identifies the <b>Shared Folders</b> query form.
 
 #### CLSID_DsFindWriteableDomainController
 
-Identifies the <b>Domain Controllers</b> query form and displays writeable Domain 
+Identifies the <b>Domain Controllers</b> query form and displays writable Domain 
         Controllers.
-
 
 ### -field pPersistQuery
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a> interface used 
+Pointer to an <a href="/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a> interface used 
       to store and retrieve query data. This data pertains to the query itself, not the results of the query. If 
       <b>dwFlags</b> contains <b>OQWF_LOADQUERY</b>, the query data is obtained 
       from this interface. If <b>dwFlags</b> contains <b>OQWF_SAVEQUERY</b>, 
       the query data is saved to this interface.
-
 
 ### -field pFormParameters
 
@@ -269,10 +262,9 @@ Reserved. Pointer to a structure or interface that provides parameter initializa
        The contents of this pointer is defined by the form class specified by the 
        <b>clsidDefaultForm</b> member.
 
-
 ### -field ppbFormParameters
 
-Pointer to an <a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> interface that 
+Pointer to an <a href="../oaidl/nn-oaidl-ipropertybag.md">IPropertyBag</a> interface that 
        provides parameter initialization data for the form. The contents of this property bag are defined by the form 
        class specified by the <b>clsidDefaultForm</b> member. The following system-supplied forms 
        support this member.
@@ -384,32 +376,24 @@ Read-only Domain Controllers
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/cmnquery/ns-cmnquery-cqform">CQFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/ns-cmnquery-cqform">CQFORM</a>
+<a href="/windows/desktop/api/dsquery/ns-dsquery-dsqueryinitparams">DSQUERYINITPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsquery/ns-dsquery-dsqueryinitparams">DSQUERYINITPARAMS</a>
+<a href="/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-structures-in-active-directory-domain-services">Display Structures in Active Directory Domain Services</a>
+<a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a>
- 
-
- 
+<a href="/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a>
 

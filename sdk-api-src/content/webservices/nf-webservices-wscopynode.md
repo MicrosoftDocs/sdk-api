@@ -2,15 +2,12 @@
 UID: NF:webservices.WsCopyNode
 title: WsCopyNode function (webservices.h)
 description: Copies the current node from the specified XML reader to the specified XML writer.
+helpviewer_keywords: ["WsCopyNode","WsCopyNode function [Web Services for Windows]","webservices/WsCopyNode","wsw.wscopynode"]
 old-location: wsw\wscopynode.htm
 tech.root: wsw
 ms.assetid: 36078f7d-4c1f-4b8a-9f44-cd4949b7de04
 ms.date: 12/05/2018
 ms.keywords: WsCopyNode, WsCopyNode function [Web Services for Windows], webservices/WsCopyNode, wsw.wscopynode
-f1_keywords:
-- webservices/WsCopyNode
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCopyNode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCopyNode
+ - webservices/WsCopyNode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCopyNode
 ---
 
 # WsCopyNode function
@@ -48,40 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Copies the current node from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-reader">XML reader</a> to the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-writer">XML writer</a>. 
-      
-
-
-
+Copies the current node from the specified <a href="/windows/desktop/wsw/xml-reader">XML reader</a> to the specified <a href="/windows/desktop/wsw/xml-writer">XML writer</a>.
 
 ## -parameters
 
-
-
-
 ### -param writer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> to which to copy the XML node.
-        
-
+Pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> to which to copy the XML node.
 
 ### -param reader [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>   from which to copy the XML node.
-        
-
+Pointer to the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a>   from which to copy the XML node.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -124,14 +109,8 @@ A quota was exceeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
         all its children, and the corresponding end element, are copied to the XML writer.
@@ -139,10 +118,6 @@ If the current node type is WS_XML_NODE_TYPE_ELEMENT,the current node,
 
 If the current node type is WS_XML_NODE_TYPE_BOF, nodes are copied
         until a node of type WS_XML_NODE_TYPE_EOF is reached.
-      For information on node types, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE</a> enumeration.
+      For information on node types, see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_node_type">WS_XML_NODE_TYPE</a> enumeration.
 
 The reader will be positioned on the node following the node copied.
-      
-
-
-

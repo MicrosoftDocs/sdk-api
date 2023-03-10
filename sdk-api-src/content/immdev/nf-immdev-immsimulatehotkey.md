@@ -1,16 +1,13 @@
 ---
 UID: NF:immdev.ImmSimulateHotKey
 title: ImmSimulateHotKey function (immdev.h)
-description: Simulates the specified IME hot key, causing the same response as if the user presses the hot key in the specified window.
+description: The ImmSimulateHotKey function (immdev.h) simulates the specified IME hot key, causing the same response as if the user presses the hot key in the specified window.
+helpviewer_keywords: ["ImmSimulateHotKey","ImmSimulateHotKey function [Internationalization for Windows Applications]","_win32_ImmSimulateHotKey","imm/ImmSimulateHotKey","intl.immsimulatehotkey"]
 old-location: intl\immsimulatehotkey.htm
 tech.root: Intl
 ms.assetid: 24d5dd3c-01bd-4665-ad45-9f93edb212b3
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: ImmSimulateHotKey, ImmSimulateHotKey function [Internationalization for Windows Applications], _win32_ImmSimulateHotKey, imm/ImmSimulateHotKey, intl.immsimulatehotkey
-f1_keywords:
-- immdev/ImmSimulateHotKey
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-api_name:
-- ImmSimulateHotKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmSimulateHotKey
+ - immdev/ImmSimulateHotKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+api_name:
+ - ImmSimulateHotKey
 ---
 
 # ImmSimulateHotKey function
@@ -48,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Simulates the specified IME hot key, causing the same response as if the user presses the hot key in the specified window.
 
-
 ## -parameters
-
-
-
 
 ### -param HWND [in]
 
 Handle to the window.
 
-
 ### -param DWORD [in]
 
-Identifier of the IME hot key. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-hot-key-identifiers">IME Hot Key Identifiers</a>.
-
+Identifier of the IME hot key. For more information, see <a href="/windows/desktop/Intl/ime-hot-key-identifiers">IME Hot Key Identifiers</a>.
 
 ## -returns
 
-
-
 Returns a nonzero value if successful, or 0 otherwise.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

@@ -1,13 +1,11 @@
 ---
 UID: NF:windns.DnsServiceFreeInstance
 title: DnsServiceFreeInstance function
-description: Used to free the resources associated with a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
+description: Used to free the resources associated with a [DNS_SERVICE_INSTANCE](../windns/ns-windns-dns_service_instance.md) structure.
+tech.root: dns
+helpviewer_keywords: ["DnsServiceFreeInstance"]
 ms.date: 02/19/2019
 ms.keywords: DnsServiceFreeInstance
-f1_keywords:
-- windns/DnsServiceFreeInstance
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -28,28 +26,32 @@ req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
-topic_type:
-- apiref
-api_type:
-- 
-api_location:
-- windns.h
-api_name:
-- DnsServiceFreeInstance
 ms.custom: 19H1
+f1_keywords:
+ - DnsServiceFreeInstance
+ - windns/DnsServiceFreeInstance
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+api_location:
+ - windns.h
+api_name:
+ - DnsServiceFreeInstance
 ---
 
 ## -description
-Used to free the resources associated with a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure.
+
+Used to free the resources associated with a [DNS_SERVICE_INSTANCE](/windows/win32/api/windns/ns-windns-dns_service_instance) structure.
 
 ## -parameters
 
 ### -param pInstance
-A pointer to the [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure that is to be freed.
 
-## -returns
-This function does not return a value.
+A pointer to the [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instance.md) structure that is to be freed.
 
 ## -remarks
 
 ## -see-also
+

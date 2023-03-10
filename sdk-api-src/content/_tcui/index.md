@@ -4,7 +4,7 @@ title: Title Callable UI
 ms.assetid: 34909415-541e-336f-9e6f-e6238becda31
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Title Callable UI
@@ -18,5 +18,4 @@ To develop Title Callable UI, you need these headers:
  * [gamingtcui.h](../gamingtcui/index.md)
 
 For programming guidance for this technology, see:
-* [Title Callable UI](https://docs.microsoft.com/previous-versions/windows/desktop/tcui)
-
+* [Title Callable UI](/previous-versions/windows/desktop/tcui)

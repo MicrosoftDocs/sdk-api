@@ -2,15 +2,12 @@
 UID: NN:activationregistration.IExeServerActivatableClassRegistration
 title: IExeServerActivatableClassRegistration (activationregistration.h)
 description: Enables getting the registration info for an out-of-process server.
+helpviewer_keywords: ["IExeServerActivatableClassRegistration","IExeServerActivatableClassRegistration interface [Windows Runtime]","IExeServerActivatableClassRegistration interface [Windows Runtime]","described","activationregistration/IExeServerActivatableClassRegistration","winrt.iexeserveractivatableclassregistration"]
 old-location: winrt\iexeserveractivatableclassregistration.htm
 tech.root: WinRT
 ms.assetid: 1D8F7B12-2883-478D-B83D-84AC47D512E4
 ms.date: 12/05/2018
 ms.keywords: IExeServerActivatableClassRegistration, IExeServerActivatableClassRegistration interface [Windows Runtime], IExeServerActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IExeServerActivatableClassRegistration, winrt.iexeserveractivatableclassregistration
-f1_keywords:
-- activationregistration/IExeServerActivatableClassRegistration
-dev_langs:
-- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- activationregistration.h
-api_name:
-- IExeServerActivatableClassRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExeServerActivatableClassRegistration
+ - activationregistration/IExeServerActivatableClassRegistration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - activationregistration.h
+api_name:
+ - IExeServerActivatableClassRegistration
 ---
 
 # IExeServerActivatableClassRegistration interface
@@ -48,56 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables getting  the registration info for an out-of-process server.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExeServerActivatableClassRegistration</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IExeServerActivatableClassRegistration</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IExeServerActivatableClassRegistration</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nf-activationregistration-iexeserveractivatableclassregistration-get_serverregistration">get_ServerRegistration</a>
-</td>
-<td align="left" width="63%">
-Gets the registration details for an out-of-process server.
-
-</td>
-</tr>
-</table> 
-
+The <b>IExeServerActivatableClassRegistration</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IExeServerActivatableClassRegistration</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iactivatableclassregistration">IActivatableClassRegistration</a>
+<a href="/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
+<a href="/windows/desktop/api/activationregistration/nn-activationregistration-iexeserverregistration">IExeServerRegistration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/activationregistration/nn-activationregistration-iexeserverregistration">IExeServerRegistration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

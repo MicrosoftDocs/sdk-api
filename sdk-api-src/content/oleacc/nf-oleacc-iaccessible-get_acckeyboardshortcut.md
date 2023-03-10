@@ -2,15 +2,12 @@
 UID: NF:oleacc.IAccessible.get_accKeyboardShortcut
 title: IAccessible::get_accKeyboardShortcut (oleacc.h)
 description: The IAccessible::get_accKeyboardShortcut method retrieves the specified object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accKeyboardShortcut method","IAccessible.get_accKeyboardShortcut","IAccessible::get_accKeyboardShortcut","_msaa_IAccessible_get_accKeyboardShortcut","get_accKeyboardShortcut","get_accKeyboardShortcut method [Windows Accessibility]","get_accKeyboardShortcut method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_acckeyboardshortcut","oleacc/IAccessible::get_accKeyboardShortcut","winauto.iaccessible_iaccessible__get_acckeyboardshortcut"]
 old-location: winauto\iaccessible_iaccessible__get_acckeyboardshortcut.htm
 tech.root: WinAuto
 ms.assetid: 0d91c791-1e9b-45da-8fa6-b879ac6d11a7
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accKeyboardShortcut method, IAccessible.get_accKeyboardShortcut, IAccessible::get_accKeyboardShortcut, _msaa_IAccessible_get_accKeyboardShortcut, get_accKeyboardShortcut, get_accKeyboardShortcut method [Windows Accessibility], get_accKeyboardShortcut method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_acckeyboardshortcut, oleacc/IAccessible::get_accKeyboardShortcut, winauto.iaccessible_iaccessible__get_acckeyboardshortcut
-f1_keywords:
-- oleacc/IAccessible.get_accKeyboardShortcut
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accKeyboardShortcut
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accKeyboardShortcut
+ - oleacc/IAccessible::get_accKeyboardShortcut
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accKeyboardShortcut
 ---
 
 # IAccessible::get_accKeyboardShortcut
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accKeyboardShortcut</b> method retrieves the specified object's shortcut key or access key, also known as the mnemonic. All objects that have a shortcut key or an access key support this property.
 
-
 ## -parameters
-
-
-
 
 ### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
-Specifies whether the retrieved keyboard shortcut belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
-
+Specifies whether the retrieved keyboard shortcut belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 ### -param pszKeyboardShortcut [out, retval]
 
@@ -70,16 +66,13 @@ Type: <b>BSTR*</b>
 
  Address of a <b>BSTR</b> that receives a localized string that identifies the keyboard shortcut, or <b>NULL</b> if no keyboard shortcut is associated with the specified object.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -120,20 +113,14 @@ The object does not support this property.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An access key is an underlined character in the text of a menu, menu item, or label of a button or some other control. For example, a user can display a menu by pressing the ALT key while also pressing the indicated underlined key, such as ALT+F to open the <u>F</u>ile menu. To use the access key of a menu item, the menu that contains the item must be active.
 
-Controls such as toolbar buttons and menu items often have an associated shortcut key, also known as a keyboard accelerator. Some menu items may have both an access key and a shortcut key, and some may have only one. For example, a menu item called <u>N</u>ew has an access key N and a shortcut key CTRL+N.The menu does not have to be active for the shortcut key to work.
+Controls such as toolbar buttons and menu items often have an associated shortcut key, also known as a keyboard accelerator. Some menu items may have both an access key and a shortcut key, and some may have only one. For example, a menu item called <u>N</u>ew has an access key N and a shortcut key CTRL+N. The menu does not have to be active for the shortcut key to work.
 
-<b>Note to client developers:  </b><p class="note">If this property returns a single character, you cannot assume it is an access key or a keyboard shortcut. With standard menu items, the access key is returned by <b>IAccessible::get_accKeyboardShortcut</b>, and the shortcut key is returned as part of the menu item name returned from <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a>. In general, access keys tend to be defined as ALT + &lt;letter&gt;, and keyboard shortcuts tend to be CTRL + &lt;letter&gt;.
+<b>Note to client developers:  </b><p class="note">If this property returns a single character, you cannot assume it is an access key or a keyboard shortcut. With standard menu items, the access key is returned by <b>IAccessible::get_accKeyboardShortcut</b>, and the shortcut key is returned as part of the menu item name returned from <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a>. In general, access keys tend to be defined as ALT + &lt;letter&gt;, and keyboard shortcuts tend to be CTRL + &lt;letter&gt;.
 
 
 
@@ -170,29 +157,18 @@ HRESULT PrintShortcut(IAccessible* pAcc, long child)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a>
+<a href="/windows/desktop/WinAuto/keyboardshortcut-property">KeyboardShortcut Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/keyboardshortcut-property">KeyboardShortcut Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

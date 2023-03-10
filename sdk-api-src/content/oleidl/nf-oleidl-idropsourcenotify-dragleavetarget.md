@@ -2,15 +2,12 @@
 UID: NF:oleidl.IDropSourceNotify.DragLeaveTarget
 title: IDropSourceNotify::DragLeaveTarget (oleidl.h)
 description: OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
+helpviewer_keywords: ["DragLeaveTarget","DragLeaveTarget method [COM]","DragLeaveTarget method [COM]","IDropSourceNotify interface","IDropSourceNotify interface [COM]","DragLeaveTarget method","IDropSourceNotify.DragLeaveTarget","IDropSourceNotify::DragLeaveTarget","_ole_idropsourcenotify_dragleavetarget","com.idropsourcenotify_dragleavetarget","oleidl/IDropSourceNotify::DragLeaveTarget"]
 old-location: com\idropsourcenotify_dragleavetarget.htm
 tech.root: com
 ms.assetid: 6267db46-92ce-43b8-8e3f-ffd7d2b8a2e8
 ms.date: 12/05/2018
 ms.keywords: DragLeaveTarget, DragLeaveTarget method [COM], DragLeaveTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragLeaveTarget method, IDropSourceNotify.DragLeaveTarget, IDropSourceNotify::DragLeaveTarget, _ole_idropsourcenotify_dragleavetarget, com.idropsourcenotify_dragleavetarget, oleidl/IDropSourceNotify::DragLeaveTarget
-f1_keywords:
-- oleidl/IDropSourceNotify.DragLeaveTarget
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IDropSourceNotify.DragLeaveTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDropSourceNotify::DragLeaveTarget
+ - oleidl/IDropSourceNotify::DragLeaveTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IDropSourceNotify.DragLeaveTarget
 ---
 
 # IDropSourceNotify::DragLeaveTarget
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method returns S_OK on success.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>

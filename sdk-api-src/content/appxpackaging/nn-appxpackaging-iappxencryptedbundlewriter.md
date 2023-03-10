@@ -1,16 +1,13 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedBundleWriter
 title: IAppxEncryptedBundleWriter (appxpackaging.h)
-description: Provides a write-only object model for encrypted bundle packages.
+description: Provides a write-only object model for encrypted bundle packages. (IAppxEncryptedBundleWriter)
+helpviewer_keywords: ["IAppxEncryptedBundleWriter","IAppxEncryptedBundleWriter interface [App packaging and management]","IAppxEncryptedBundleWriter interface [App packaging and management]","described","appxpackaging/IAppxEncryptedBundleWriter","appxpkg.iappxencryptedbundlewriter"]
 old-location: appxpkg\iappxencryptedbundlewriter.htm
 tech.root: appxpkg
 ms.assetid: E88355DA-F7BE-45C7-9DDB-EC39DB2AD280
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedBundleWriter, IAppxEncryptedBundleWriter interface [App packaging and management], IAppxEncryptedBundleWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter, appxpkg.iappxencryptedbundlewriter
-f1_keywords:
-- appxpackaging/IAppxEncryptedBundleWriter
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxEncryptedBundleWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxEncryptedBundleWriter
+ - appxpackaging/IAppxEncryptedBundleWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxEncryptedBundleWriter
 ---
 
 # IAppxEncryptedBundleWriter interface
@@ -48,42 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides a write-only object model for encrypted bundle packages.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedBundleWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedBundleWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAppxEncryptedBundleWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedbundlewriter-addpayloadpackageencrypted">AddPayloadPackageEncrypted</a>
-</td>
-<td align="left" width="63%">
-Encrypts a new payload package to the bundle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedbundlewriter-close">Close</a>
-</td>
-<td align="left" width="63%">
-Writes the bundle manifest and blockmap footprint files to the bundle.
-
-</td>
-</tr>
-</table> 
+The <b>IAppxEncryptedBundleWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedBundleWriter</b> also has these types of members:
 

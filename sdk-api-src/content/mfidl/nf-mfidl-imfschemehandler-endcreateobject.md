@@ -1,16 +1,13 @@
 ---
 UID: NF:mfidl.IMFSchemeHandler.EndCreateObject
 title: IMFSchemeHandler::EndCreateObject (mfidl.h)
-description: Completes an asynchronous request to create an object from a URL.
+description: Completes an asynchronous request to create an object from a URL. (IMFSchemeHandler.EndCreateObject)
+helpviewer_keywords: ["EndCreateObject","EndCreateObject method [Media Foundation]","EndCreateObject method [Media Foundation]","IMFSchemeHandler interface","IMFSchemeHandler interface [Media Foundation]","EndCreateObject method","IMFSchemeHandler.EndCreateObject","IMFSchemeHandler::EndCreateObject","e3f88904-c30f-4d40-ac79-c83b0a06f1fa","mf.imfschemehandler_endcreateobject","mfidl/IMFSchemeHandler::EndCreateObject"]
 old-location: mf\imfschemehandler_endcreateobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e3f88904-c30f-4d40-ac79-c83b0a06f1fa
 ms.date: 12/05/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],EndCreateObject method, IMFSchemeHandler.EndCreateObject, IMFSchemeHandler::EndCreateObject, e3f88904-c30f-4d40-ac79-c83b0a06f1fa, mf.imfschemehandler_endcreateobject, mfidl/IMFSchemeHandler::EndCreateObject
-f1_keywords:
-- mfidl/IMFSchemeHandler.EndCreateObject
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSchemeHandler.EndCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSchemeHandler::EndCreateObject
+ - mfidl/IMFSchemeHandler::EndCreateObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSchemeHandler.EndCreateObject
 ---
 
 # IMFSchemeHandler::EndCreateObject
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Completes an asynchronous request to create an object from a URL.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pResult [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the Invoke method.
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Pass in the same pointer that your callback object received in the Invoke method.
 
 ### -param pObjectType [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
-
+Receives a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
 
 ### -param ppObject [out]
 
 Receives a pointer to the <b>IUnknown</b> interface of the object. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -110,31 +99,15 @@ The operation was canceled.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call this method from inside the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
-
-
-
+Call this method from inside the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>

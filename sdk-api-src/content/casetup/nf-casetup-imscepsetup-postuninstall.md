@@ -2,15 +2,12 @@
 UID: NF:casetup.IMSCEPSetup.PostUnInstall
 title: IMSCEPSetup::PostUnInstall (casetup.h)
 description: Is not implemented. It is reserved for future use.
+helpviewer_keywords: ["IMSCEPSetup interface [Security]","PostUnInstall method","IMSCEPSetup.PostUnInstall","IMSCEPSetup::PostUnInstall","PostUnInstall","PostUnInstall method [Security]","PostUnInstall method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::PostUnInstall","security.imscepsetup_postuninstall"]
 old-location: security\imscepsetup_postuninstall.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8989ebde-0d33-4f9a-a4dc-82562eab5976
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],PostUnInstall method, IMSCEPSetup.PostUnInstall, IMSCEPSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PostUnInstall, security.imscepsetup_postuninstall
-f1_keywords:
-- casetup/IMSCEPSetup.PostUnInstall
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- IMSCEPSetup.PostUnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSCEPSetup::PostUnInstall
+ - casetup/IMSCEPSetup::PostUnInstall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - IMSCEPSetup.PostUnInstall
 ---
 
 # IMSCEPSetup::PostUnInstall
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PostUnInstall</b> method is not implemented. It is reserved for future use.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>

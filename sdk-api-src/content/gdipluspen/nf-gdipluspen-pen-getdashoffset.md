@@ -2,15 +2,12 @@
 UID: NF:gdipluspen.Pen.GetDashOffset
 title: Pen::GetDashOffset (gdipluspen.h)
 description: The Pen::GetDashOffset method gets the distance from the start of the line to the start of the first space in a dashed line.
+helpviewer_keywords: ["GetDashOffset","GetDashOffset method [GDI+]","GetDashOffset method [GDI+]","Pen class","Pen class [GDI+]","GetDashOffset method","Pen.GetDashOffset","Pen::GetDashOffset","_gdiplus_CLASS_Pen_GetDashOffset_","gdiplus._gdiplus_CLASS_Pen_GetDashOffset_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashOffset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashoffset.htm
 ms.date: 12/05/2018
 ms.keywords: GetDashOffset, GetDashOffset method [GDI+], GetDashOffset method [GDI+],Pen class, Pen class [GDI+],GetDashOffset method, Pen.GetDashOffset, Pen::GetDashOffset, _gdiplus_CLASS_Pen_GetDashOffset_, gdiplus._gdiplus_CLASS_Pen_GetDashOffset_
-f1_keywords:
-- gdipluspen/Pen.GetDashOffset
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.GetDashOffset
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::GetDashOffset
+ - gdipluspen/Pen::GetDashOffset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.GetDashOffset
 ---
 
 # Pen::GetDashOffset
@@ -49,32 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Pen::GetDashOffset</b> method gets the distance from the start of the line to the start of the first space in a dashed line.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns a real number that indicates the distance from the start of the line to the start of the dashes.
 
-
-
-
 ## -remarks
-
-
 
 A positive return value shifts the first dash forward along the path, and a negative return value shifts the start of the path forward along the first dash. 
 
@@ -91,29 +78,18 @@ The following example assumes that
 REAL dashOffset = dashPen.GetDashOffset();
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
+<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashoffset">Pen::SetDashOffset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashoffset">Pen::SetDashOffset</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>

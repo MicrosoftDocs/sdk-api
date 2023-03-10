@@ -1,16 +1,13 @@
 ---
 UID: NS:ntmsapi._NTMS_PARTITIONINFORMATIONA
 title: NTMS_PARTITIONINFORMATIONA (ntmsapi.h)
-description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object.
+description: The NTMS_PARTITIONINFORMATION structure defines the properties specific to the side object. (ANSI)
+helpviewer_keywords: ["NTMS_PARTITIONINFORMATION","NTMS_PARTITIONINFORMATION structure [Files]","NTMS_PARTITIONINFORMATIONA","NTMS_PARTITIONINFORMATIONW","NTMS_PARTSTATE_ALLOCATED","NTMS_PARTSTATE_AVAILABLE","NTMS_PARTSTATE_COMPLETE","NTMS_PARTSTATE_DECOMMISIONED","NTMS_PARTSTATE_FOREIGN","NTMS_PARTSTATE_IMPORT","NTMS_PARTSTATE_INCOMPATIBLE","NTMS_PARTSTATE_RESERVED","NTMS_PARTSTATE_UNPREPARED","_NTMS_PARTITIONINFORMATIONA","_NTMS_PARTITIONINFORMATIONW","_zaw_ntms_partitioninformation","base.ntms_partitioninformation","fs.ntms_partitioninformation","ntmsapi/NTMS_PARTITIONINFORMATION"]
 old-location: fs\ntms_partitioninformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 75ba3b8d-4b44-49be-b238-e02e62c3def6
 ms.date: 12/05/2018
 ms.keywords: NTMS_PARTITIONINFORMATION, NTMS_PARTITIONINFORMATION structure [Files], NTMS_PARTITIONINFORMATIONA, NTMS_PARTITIONINFORMATIONW, NTMS_PARTSTATE_ALLOCATED, NTMS_PARTSTATE_AVAILABLE, NTMS_PARTSTATE_COMPLETE, NTMS_PARTSTATE_DECOMMISIONED, NTMS_PARTSTATE_FOREIGN, NTMS_PARTSTATE_IMPORT, NTMS_PARTSTATE_INCOMPATIBLE, NTMS_PARTSTATE_RESERVED, NTMS_PARTSTATE_UNPREPARED, _NTMS_PARTITIONINFORMATIONA, _NTMS_PARTITIONINFORMATIONW, _zaw_ntms_partitioninformation, base.ntms_partitioninformation, fs.ntms_partitioninformation, ntmsapi/NTMS_PARTITIONINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_PARTITIONINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_PARTITIONINFORMATION
-- NTMS_PARTITIONINFORMATIONA
-- NTMS_PARTITIONINFORMATIONW
 targetos: Windows
 req.typenames: NTMS_PARTITIONINFORMATIONA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_PARTITIONINFORMATIONA
+ - ntmsapi/_NTMS_PARTITIONINFORMATIONA
+ - NTMS_PARTITIONINFORMATIONA
+ - ntmsapi/NTMS_PARTITIONINFORMATIONA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_PARTITIONINFORMATION
+ - NTMS_PARTITIONINFORMATIONA
+ - NTMS_PARTITIONINFORMATIONW
 ---
 
 # NTMS_PARTITIONINFORMATIONA structure
@@ -50,27 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_PARTITIONINFORMATION</b> structure defines the properties specific to the side object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PhysicalMedia
 
 Unique physical media identifier for the medium that contains this side.
 
-
 ### -field LogicalMedia
 
 Unique logical media identifier (LMID) for a piece of logical media that contains this side. This parameter is a <b>NULL</b> if the side is not allocated.
-
 
 ### -field State
 
@@ -170,72 +167,57 @@ The media is waiting for a free label to be applied.
 </td>
 <td width="60%">
 The side has been reserved by the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a> function with the <i>dwOption</i> parameter set to NTMS_ALLOCATE_NEW.
+<a href="/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a> function with the <i>dwOption</i> parameter set to NTMS_ALLOCATE_NEW.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Side
 
 Zero-relative value which indicates which side of a multi-sided media this is. For single-sided media, such as tape, this value is always zero. For dual-sided media one NTMS_PARITIONINFORMATION record has this property set to zero - the "A" side - and a second NTMS_PARTITIONINFORMATION record has it set to 1 - the "B" side.
 
-
 ### -field dwOmidLabelIdLength
 
 Length of the label ID string of the on-media identifier.
-
 
 ### -field OmidLabelId
 
 Label ID unique identifier of the on-media identifier.
 
-
 ### -field szOmidLabelType
 
 Label type of the on-media identifier.
-
 
 ### -field szOmidLabelInfo
 
 Label information of the on-media identifier.
 
-
 ### -field dwMountCount
 
 Number of times this media has been mounted into a drive. This is initialized to zero when the objects are created in the database.
-
 
 ### -field dwAllocateCount
 
 Number of times this media has been allocated.
 
-
 ### -field Capacity
 
 Number bytes of storage available on this side.
 
-
 ## -remarks
-
-
 
 The 
 <b>NTMS_PARTITIONINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 
 
+
+
+> [!NOTE]
+> The ntmsapi.h header defines NTMS_PARTITIONINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>

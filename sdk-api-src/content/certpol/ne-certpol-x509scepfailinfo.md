@@ -2,15 +2,12 @@
 UID: NE:certpol.X509SCEPFailInfo
 title: X509SCEPFailInfo (certpol.h)
 description: Describes the nature of an SCEP certificate enrollment failure.
+helpviewer_keywords: ["SCEPFailBadAlgorithm","SCEPFailBadCertId","SCEPFailBadMessageCheck","SCEPFailBadRequest","SCEPFailBadTime","X509SCEPFailInfo","X509SCEPFailInfo enumeration [Security]","certpol/SCEPFailBadAlgorithm","certpol/SCEPFailBadCertId","certpol/SCEPFailBadMessageCheck","certpol/SCEPFailBadRequest","certpol/SCEPFailBadTime","certpol/X509SCEPFailInfo","security.x509scepfailinfo"]
 old-location: security\x509scepfailinfo.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: A2C314FB-A348-41CE-9736-2BDE05F7E70E
 ms.date: 12/05/2018
 ms.keywords: SCEPFailBadAlgorithm, SCEPFailBadCertId, SCEPFailBadMessageCheck, SCEPFailBadRequest, SCEPFailBadTime, X509SCEPFailInfo, X509SCEPFailInfo enumeration [Security], certpol/SCEPFailBadAlgorithm, certpol/SCEPFailBadCertId, certpol/SCEPFailBadMessageCheck, certpol/SCEPFailBadRequest, certpol/SCEPFailBadTime, certpol/X509SCEPFailInfo, security.x509scepfailinfo
-f1_keywords:
-- certpol/X509SCEPFailInfo
-dev_langs:
-- c++
 req.header: certpol.h
 req.include-header: CertEnroll.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- certpol.h
-api_name:
-- X509SCEPFailInfo
 targetos: Windows
 req.typenames: X509SCEPFailInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X509SCEPFailInfo
+ - certpol/X509SCEPFailInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - certpol.h
+api_name:
+ - X509SCEPFailInfo
 ---
 
 # X509SCEPFailInfo enumeration
@@ -48,50 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a> interface.
-
+The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a> interface.
 
 ## -enum-fields
 
+### -field SCEPFailUnknown:-1
 
-
-
-### -field SCEPFailUnknown
-
-
-### -field SCEPFailBadAlgorithm
+### -field SCEPFailBadAlgorithm:0
 
 Failure due to an unrecognized or unsupported algorithm.
 
-
-### -field SCEPFailBadMessageCheck
+### -field SCEPFailBadMessageCheck:1
 
 The integrity check failed.
 
-
-### -field SCEPFailBadRequest
+### -field SCEPFailBadRequest:2
 
 The transaction was not permitted or was not supported.
 
-
-### -field SCEPFailBadTime
+### -field SCEPFailBadTime:3
 
 The signing time attribute from the PKCS7 authenticated attributes was not sufficiently close to the system time.
 
-
-### -field SCEPFailBadCertId
+### -field SCEPFailBadCertId:4
 
 No certificate could be identified.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_failinfo">FailInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-get_failinfo">FailInfo</a>

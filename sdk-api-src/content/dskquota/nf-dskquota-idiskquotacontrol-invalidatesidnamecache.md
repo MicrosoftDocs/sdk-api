@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.InvalidateSidNameCache
 title: IDiskQuotaControl::InvalidateSidNameCache (dskquota.h)
 description: Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (IEnumDiskQuotaUsers::Next, IDiskQuotaControl::FindUserSid, and IDiskQuotaControl::FindUserName) must obtain user names from the domain controller.
+helpviewer_keywords: ["IDiskQuotaControl interface [Files]","InvalidateSidNameCache method","IDiskQuotaControl.InvalidateSidNameCache","IDiskQuotaControl::InvalidateSidNameCache","InvalidateSidNameCache","InvalidateSidNameCache method [Files]","InvalidateSidNameCache method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_invalidatesidnamecache","base.idiskquotacontrol_invalidatesidnamecache","dskquota/IDiskQuotaControl::InvalidateSidNameCache","fs.idiskquotacontrol_invalidatesidnamecache"]
 old-location: fs\idiskquotacontrol_invalidatesidnamecache.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 9bca99e9-2dd7-4e79-ab6a-ad0e821dd9bf
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],InvalidateSidNameCache method, IDiskQuotaControl.InvalidateSidNameCache, IDiskQuotaControl::InvalidateSidNameCache, InvalidateSidNameCache, InvalidateSidNameCache method [Files], InvalidateSidNameCache method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_invalidatesidnamecache, base.idiskquotacontrol_invalidatesidnamecache, dskquota/IDiskQuotaControl::InvalidateSidNameCache, fs.idiskquotacontrol_invalidatesidnamecache
-f1_keywords:
-- dskquota/IDiskQuotaControl.InvalidateSidNameCache
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.InvalidateSidNameCache
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::InvalidateSidNameCache
+ - dskquota/IDiskQuotaControl::InvalidateSidNameCache
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.InvalidateSidNameCache
 ---
 
 # IDiskQuotaControl::InvalidateSidNameCache
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>) must obtain user names from the domain controller. As names are obtained, they are cached.
-
-
-## -parameters
-
-
-
+Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a>, 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>, and 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>) must obtain user names from the domain controller. As names are obtained, they are cached.
 
 
 
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -128,35 +121,19 @@ The SID-to-name cache is not available or could not be exclusively locked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 In general, there is no reason to call this method. It is included to provide a method for programmatically refreshing the entire SID-to-name cache.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

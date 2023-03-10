@@ -2,15 +2,12 @@
 UID: NS:tdh._PROPERTY_DATA_DESCRIPTOR
 title: PROPERTY_DATA_DESCRIPTOR (tdh.h)
 description: Defines the property to retrieve.
+helpviewer_keywords: ["*PPROPERTY_DATA_DESCRIPTOR","PROPERTY_DATA_DESCRIPTOR","PROPERTY_DATA_DESCRIPTOR structure [ETW]","etw.property_data_descriptor_struct","tdh.property_data_descriptor_struct","tdh/PROPERTY_DATA_DESCRIPTOR"]
 old-location: etw\property_data_descriptor_struct.htm
 tech.root: ETW
 ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837
 ms.date: 12/05/2018
 ms.keywords: '*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR structure [ETW], etw.property_data_descriptor_struct, tdh.property_data_descriptor_struct, tdh/PROPERTY_DATA_DESCRIPTOR'
-f1_keywords:
-- tdh/PROPERTY_DATA_DESCRIPTOR
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tdh.h
-api_name:
-- PROPERTY_DATA_DESCRIPTOR
 targetos: Windows
 req.typenames: PROPERTY_DATA_DESCRIPTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROPERTY_DATA_DESCRIPTOR
+ - tdh/_PROPERTY_DATA_DESCRIPTOR
+ - PROPERTY_DATA_DESCRIPTOR
+ - tdh/PROPERTY_DATA_DESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tdh.h
+api_name:
+ - PROPERTY_DATA_DESCRIPTOR
 ---
 
 # PROPERTY_DATA_DESCRIPTOR structure
@@ -48,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the property to retrieve.
-		
-		
-	
-	
-
 
 ## -struct-fields
 
-
-
-
 ### -field PropertyName
 
-Pointer to a null-terminated Unicode string that contains the case-sensitive property name. You can use the <b>NameOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to get the property name.
+Pointer to a null-terminated Unicode string that contains the case-sensitive property name. You can use the <b>NameOffset</b> member of the <a href="/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_PROPERTY_INFO</a> structure to get the property name.
 
-The following table lists the possible values of <i>PropertyName</i> for WPP events. Use the suggested TDH data type when formatting the returned buffer from <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>.
+The following table lists the possible values of <i>PropertyName</i> for WPP events. Use the suggested TDH data type when formatting the returned buffer from <a href="/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>.
 
 <table>
 <tr>
@@ -124,22 +119,16 @@ The following table lists the possible values of <i>PropertyName</i> for WPP eve
 <td>The value of the trace level enabling the trace message.</td>
 </tr>
 </table>
- 
-
 
 ### -field ArrayIndex
 
 Zero-based index for accessing elements of a property array. If the property data is not an array or if you want to address the entire array, specify ULONG_MAX (0xFFFFFFFF).
 
-
 ### -field Reserved
 
 Reserved.
 
-
 ## -remarks
-
-
 
 To describe a structure, set PropertyName to the name of the structure and ArrayIndex to ULONG_MAX. 
 
@@ -147,20 +136,9 @@ To describe a member of a structure, define an array of two <b>PROPERTY_DATA_DES
 
 If the structure is an element of an array of structures, set ArrayIndex in the first descriptor to the zero-based index of the structure in the array.
 
-
-
-
 ## -see-also
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>
 
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhgetpropertysize">TdhGetPropertySize</a>

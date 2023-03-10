@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType (dvbsiparser.h)
 description: Gets the subtitling component type from a DVB subtitling descriptor.
+helpviewer_keywords: ["GetRecordSubtitlingType","GetRecordSubtitlingType method [Microsoft TV Technologies]","GetRecordSubtitlingType method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordSubtitlingType method","IDvbSubtitlingDescriptor.GetRecordSubtitlingType","IDvbSubtitlingDescriptor::GetRecordSubtitlingType","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType","mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype"]
 old-location: mstv\idvbsubtitlingdescriptor_getrecordsubtitlingtype.htm
 tech.root: mstv
 ms.assetid: 5ab91508-9afe-4ab7-957f-5467e87ce7ee
 ms.date: 12/05/2018
 ms.keywords: GetRecordSubtitlingType, GetRecordSubtitlingType method [Microsoft TV Technologies], GetRecordSubtitlingType method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordSubtitlingType method, IDvbSubtitlingDescriptor.GetRecordSubtitlingType, IDvbSubtitlingDescriptor::GetRecordSubtitlingType, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType, mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype
-f1_keywords:
-- dvbsiparser/IDvbSubtitlingDescriptor.GetRecordSubtitlingType
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSubtitlingDescriptor::GetRecordSubtitlingType
+ - dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 ---
 
 # IDvbSubtitlingDescriptor::GetRecordSubtitlingType
@@ -48,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the subtitling component type from a DVB subtitling descriptor. 
-
+Gets the subtitling component type from a DVB subtitling descriptor.
 
 ## -parameters
 
-
-
-
 ### -param bRecordIndex [in]
 
-Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
-
-
+Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
 
 ### -param pbVal [out]
 
@@ -260,29 +255,15 @@ Reserved for future use
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>

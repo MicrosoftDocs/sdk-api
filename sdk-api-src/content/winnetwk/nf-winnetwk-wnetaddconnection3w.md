@@ -1,16 +1,13 @@
 ---
 UID: NF:winnetwk.WNetAddConnection3W
 title: WNetAddConnection3W function (winnetwk.h)
-description: The WNetAddConnection3 function makes a connection to a network resource. The function can redirect a local device to the network resource.
+description: The WNetAddConnection3 function makes a connection to a network resource. The function can redirect a local device to the network resource. (Unicode)
+helpviewer_keywords: ["CONNECT_CMD_SAVECRED", "CONNECT_COMMANDLINE", "CONNECT_INTERACTIVE", "CONNECT_PROMPT", "CONNECT_REDIRECT", "CONNECT_UPDATE_PROFILE", "WNetAddConnection3", "WNetAddConnection3 function [Windows Networking (WNet)]", "WNetAddConnection3W", "_win32_wnetaddconnection3", "dwType", "lpLocalName", "lpProvider", "lpRemoteName", "winnetwk/WNetAddConnection3", "winnetwk/WNetAddConnection3W", "wnet.wnetaddconnection3"]
 old-location: wnet\wnetaddconnection3.htm
 tech.root: WNet
 ms.assetid: 169c7bb4-cb08-424c-af79-2133684a99db
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetAddConnection3, WNetAddConnection3 function [Windows Networking (WNet)], WNetAddConnection3A, WNetAddConnection3W, _win32_wnetaddconnection3, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection3, winnetwk/WNetAddConnection3A, winnetwk/WNetAddConnection3W, wnet.wnetaddconnection3
-f1_keywords:
-- winnetwk/WNetAddConnection3
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetAddConnection3
-- WNetAddConnection3A
-- WNetAddConnection3W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetAddConnection3W
+ - winnetwk/WNetAddConnection3W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetAddConnection3
+ - WNetAddConnection3A
+ - WNetAddConnection3W
 ---
 
 # WNetAddConnection3W function
@@ -50,23 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetAddConnection3</b> function makes a connection to a network resource. The function can redirect a local device to the network resource.
 
 The 
 <b>WNetAddConnection3</b> function is similar to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function. The main difference is that 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function. The main difference is that 
 <b>WNetAddConnection3</b> has an additional parameter, a handle to a window that the provider of network resources can use as an owner window for dialog boxes. The 
 <b>WNetAddConnection2</b> function and the 
 <b>WNetAddConnection3</b> function supersede the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> function.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in]
 
@@ -74,19 +71,18 @@ A handle to a window that the provider of network resources can use as an owner 
 
 The <i>hwndOwner</i> parameter can be <b>NULL</b>. If it is, a call to 
 <b>WNetAddConnection3</b> is equivalent to calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> function.
 
 ### -param lpNetResource [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies details of the proposed connection, such as information about the network resource, the local device, and the network resource provider. 
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies details of the proposed connection, such as information about the network resource, the local device, and the network resource provider. 
 
 
 
 
 You must specify the following members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
 
 <table>
 <tr>
@@ -155,8 +151,7 @@ You should set this member only if you know which network provider you want to u
 
 The 
 <b>WNetAddConnection3</b> function ignores the other members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
-
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
 
 ### -param lpPassword [in]
 
@@ -174,7 +169,6 @@ If the connection fails because of an invalid password and the CONNECT_INTERACTI
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
 
-
 ### -param lpUserName [in]
 
 A pointer to a <b>null</b>-terminated string that specifies a user name for making the connection. 
@@ -187,10 +181,9 @@ If <i>lpUserName</i> is <b>NULL</b>, the function uses the default user name. (T
 The <i>lpUserName</i> parameter is specified when users want to connect to a network resource for which they have been assigned a user name or account other than the default user name or account.
 
 The user-name string represents a 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. It may be specific to a network provider.
+<a href="/windows/desktop/SecGloss/s-gly">security context</a>. It may be specific to a network provider.
 
 <b>Windows Me/98/95:  </b>This parameter must be <b>NULL</b> or an empty string.
-
 
 ### -param dwFlags [in]
 
@@ -233,7 +226,7 @@ This flag forces the redirection of a local device when making the connection.
 
 
 If the <b>lpLocalName</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
 
 If this flag is not set, a local device is automatically chosen for redirection only if the network requires a local device to be redirected.
 
@@ -282,17 +275,13 @@ If this flag is set, and the operating system prompts for a credential, the cred
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -428,7 +417,7 @@ An entry for the device specified by the <b>lpLocalName</b> member is already in
 </td>
 <td width="60%">
 A network-specific error occurred. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function to obtain a description of the error.
 
 </td>
 </tr>
@@ -466,34 +455,28 @@ The network is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona">WNetUseConnection</a> function is similar to the 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona">WNetUseConnection</a> function is similar to the 
 <b>WNetAddConnection3</b> function. The main difference is that 
 <b>WNetUseConnection</b> can automatically select an unused local device to redirect to the network resource.
 
 On Windows Server 2003 and Windows XP, the WNet functions create and delete network drive letters in the MS-DOS device namespace associated with a logon session because MS-DOS devices are identified by AuthenticationID (a  
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. The call to the <b>GetLogicalDrives</b> function does not return network drive letters created by WNet function calls under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
+<a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a>, or LUID, associated with a logon session.) This can affect applications that call one of the WNet functions to create a network drive letter under one user logon, but query for existing network drive letters under a different user logon. An example of this situation could be when a user's second logon is created within a logon session, for example, by calling the 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera">CreateProcessAsUser</a> function, and the second logon runs an application that calls the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> function. The call to the <b>GetLogicalDrives</b> function does not return network drive letters created by WNet function calls under the first logon. Note that in the preceding example the first logon session still exists, and the example could apply to any logon session, including a Terminal Services session. For more information, see 
+<a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem calls the <b>WNetAddConnection3</b> function, then the mapped drive is visible to all user logon sessions.  
 
-For Microsoft network providers, the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv4 address in dotted-decimal notation. An example for a share might be the following:
+For Microsoft network providers, the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv4 address in dotted-decimal notation. An example for a share might be the following:
 
 <code>\\192.168.1.1\share
 </code>
 
-For Microsoft network providers on Windows Vista and later, the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv6 address. However, the IPv6 literal format must be used so that the IPv6 address is parsed correctly. An IPv6 literal address is of the form:
+For Microsoft network providers on Windows Vista and later, the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter can contain an IPv6 address. However, the IPv6 literal format must be used so that the IPv6 address is parsed correctly. An IPv6 literal address is of the form:
 
 ipv6-address with the ':' characters replaced by '-' characters followed by the ".ipv6-literal.net" string.
 
@@ -507,46 +490,43 @@ an example for a share might be the following:
 
 <code>\\2001-4898-9-3-c069-aa97-fe76-2449.ipv6-literal.net\share</code>
 
-Other network providers may support the <b>lpRemoteName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter that contains an IPv4 or IPv6 address, but this is up to specific network provider.
+Other network providers may support the <b>lpRemoteName</b> member of the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by the <i>lpNetResource</i> parameter that contains an IPv4 or IPv6 address, but this is up to specific network provider.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>If the <b>WNetAddConnection3</b> function is called with explicit user credentials specified in the <i>pUsername</i> and <i>lpPassword</i> to establish a connection with a network resource on a specific server and then called again with either of these parameters as <b>NULL</b> (to use the default user name or default password) to the same server, the call with fail. The error returned will be <b>ERROR_BAD_USERNAME</b> or <b>ERROR_INVALID_PASSWORD</b>. 
 
 
 
 
+
+> [!NOTE]
+> The winnetwk.h header defines WNetAddConnection3 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona">WNetUseConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona">WNetUseConnection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
-

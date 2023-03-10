@@ -1,16 +1,13 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodCall
 title: IComMethodEvents::OnMethodCall (comsvcs.h)
-description: Generated when an object's method is called.
+description: Generated when an object's method is called. (IComMethodEvents.OnMethodCall)
+helpviewer_keywords: ["IComMethodEvents interface [COM+]","OnMethodCall method","IComMethodEvents.OnMethodCall","IComMethodEvents::OnMethodCall","OnMethodCall","OnMethodCall method [COM+]","OnMethodCall method [COM+]","IComMethodEvents interface","_dtc_IComMethodEvents_OnMethodCall","comsvcs/IComMethodEvents::OnMethodCall","cos.icommethodevents_onmethodcall"]
 old-location: cos\icommethodevents_onmethodcall.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 5d68fe2c-7032-46d2-b88d-0b4f81c74760
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodCall method, IComMethodEvents.OnMethodCall, IComMethodEvents::OnMethodCall, OnMethodCall, OnMethodCall method [COM+], OnMethodCall method [COM+],IComMethodEvents interface, _dtc_IComMethodEvents_OnMethodCall, comsvcs/IComMethodEvents::OnMethodCall, cos.icommethodevents_onmethodcall
-f1_keywords:
-- comsvcs/IComMethodEvents.OnMethodCall
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComMethodEvents.OnMethodCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComMethodEvents::OnMethodCall
+ - comsvcs/IComMethodEvents::OnMethodCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComMethodEvents.OnMethodCall
 ---
 
 # IComMethodEvents::OnMethodCall
@@ -48,56 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generated when an object's method is called.
-
 
 ## -parameters
 
-
-
-
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
-
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 ### -param oid [in]
 
 The just-in-time (JIT) activated object.
 
-
 ### -param guidCid [in]
 
 The CLSID for the object being called.
-
 
 ### -param guidRid [in]
 
 The identifier of the method being called.
 
-
 ### -param iMeth [in]
 
 The v-table index of the method.
 
-
 ## -returns
-
-
 
 The user verifies the return values from this method.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icommethodevents">IComMethodEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icommethodevents">IComMethodEvents</a>

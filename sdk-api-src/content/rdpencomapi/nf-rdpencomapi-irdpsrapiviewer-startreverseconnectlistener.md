@@ -2,15 +2,12 @@
 UID: NF:rdpencomapi.IRDPSRAPIViewer.StartReverseConnectListener
 title: IRDPSRAPIViewer::StartReverseConnectListener (rdpencomapi.h)
 description: Initiates a listener for accepting reverse connections from the sharer to the viewer, or obtains the connection string that the sharer uses to reverse connect to the viewer.
+helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","StartReverseConnectListener method","IRDPSRAPIViewer.StartReverseConnectListener","IRDPSRAPIViewer::StartReverseConnectListener","StartReverseConnectListener","StartReverseConnectListener method [RDP]","StartReverseConnectListener method [RDP]","IRDPSRAPIViewer interface","rdp.irdpsrapiviewer_startreverseconnectlistener","rdpencomapi/IRDPSRAPIViewer::StartReverseConnectListener"]
 old-location: rdp\irdpsrapiviewer_startreverseconnectlistener.htm
 tech.root: rdp
 ms.assetid: 6e45e21f-f3a5-4a9e-9d63-45d7a1972114
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],StartReverseConnectListener method, IRDPSRAPIViewer.StartReverseConnectListener, IRDPSRAPIViewer::StartReverseConnectListener, StartReverseConnectListener, StartReverseConnectListener method [RDP], StartReverseConnectListener method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_startreverseconnectlistener, rdpencomapi/IRDPSRAPIViewer::StartReverseConnectListener
-f1_keywords:
-- rdpencomapi/IRDPSRAPIViewer.StartReverseConnectListener
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIViewer.StartReverseConnectListener
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIViewer::StartReverseConnectListener
+ - rdpencomapi/IRDPSRAPIViewer::StartReverseConnectListener
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIViewer.StartReverseConnectListener
 ---
 
 # IRDPSRAPIViewer::StartReverseConnectListener
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> interface is no longer available for use for UWP applications as of Windows 10, version 1709. It is still supported for Desktop apps.]
+<p class="CCE_Message">[The <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> interface is no longer available for use for UWP applications as of Windows 10, version 1709. It is still supported for Desktop apps.]
 
 Initiates a listener for accepting reverse connections from the sharer to the viewer, or obtains the connection string that the sharer uses to reverse connect to the viewer.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrConnectionString [in]
 
@@ -65,13 +62,11 @@ Type: <b>BSTR</b>
 
 The connection string that the sharer will use to start the listener.
 
-
 ### -param bstrUserName [in]
 
 Type: <b>BSTR</b>
 
 The user name to use for authentication.
-
 
 ### -param bstrPassword [in]
 
@@ -79,28 +74,19 @@ Type: <b>BSTR</b>
 
 The password to use for authentication.
 
-
 ### -param pbstrReverseConnectString [out]
 
 Type: <b>BSTR*</b>
 
-A pointer to a <b>BSTR</b> that receives the connection string that the sharer can use to reverse connect to the viewer by using the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-connecttoclient">IRDPSRAPISharingSession::ConnectToClient</a> method.
-
+A pointer to a <b>BSTR</b> that receives the connection string that the sharer can use to reverse connect to the viewer by using the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-connecttoclient">IRDPSRAPISharingSession::ConnectToClient</a> method.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return value is an error code.
 
-
-
-
 ## -remarks
-
-
 
 This method is used to perform two separate operations:
 
@@ -116,15 +102,6 @@ The normal sequence of events for this procedure is as follows:
 <li>The viewer sends the connection string obtained in step 1 to the sharer.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>

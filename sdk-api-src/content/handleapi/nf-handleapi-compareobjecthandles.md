@@ -2,15 +2,12 @@
 UID: NF:handleapi.CompareObjectHandles
 title: CompareObjectHandles function (handleapi.h)
 description: Compares two object handles to determine if they refer to the same underlying kernel object.
+helpviewer_keywords: ["CompareObjectHandles","CompareObjectHandles function","base.compareobjecthandles","handleapi/CompareObjectHandles"]
 old-location: base\compareobjecthandles.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 06F22A46-0999-4622-8D62-23465C92A997
 ms.date: 12/05/2018
 ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles
-f1_keywords:
-- handleapi/CompareObjectHandles
-dev_langs:
-- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernelbase.lib
 req.dll: Kernelbase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernelbase.dll
-- api-ms-win-core-handle-l1-1-0.lib
-- api-ms-win-core-handle-l1-1-0.dll
-- Kernel32.dll
-api_name:
-- CompareObjectHandles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CompareObjectHandles
+ - handleapi/CompareObjectHandles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernelbase.dll
+ - api-ms-win-core-handle-l1-1-0.lib
+ - api-ms-win-core-handle-l1-1-0.dll
+ - Kernel32.dll
+api_name:
+ - CompareObjectHandles
 ---
 
 # CompareObjectHandles function
@@ -51,46 +53,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Compares two object handles to determine if they refer to the same underlying kernel object. 
-
+Compares two object handles to determine if they refer to the same underlying kernel object.
 
 ## -parameters
-
-
-
 
 ### -param hFirstObjectHandle [in]
 
 The first object handle to compare.
 
-
 ### -param hSecondObjectHandle [in]
 
 The second object handle to compare.
 
-
 ## -returns
-
-
 
 A Boolean value that indicates if the two handles refer to the same underlying kernel object. TRUE if the same, otherwise FALSE.
 
-
-
-
 ## -remarks
 
-
-
-The <b>CompareObjectHandles</b> function is useful to determine if two kernel handles refer to the same kernel object without imposing a requirement that specific access rights be granted to either handle in order to perform the comparison.  For example, if a process desires to determine whether a process handle is a handle to the current process, a call to <b>CompareObjectHandles</b> (GetCurrentProcess (), hProcess) can be used to determine if hProcess refers to the current process.  Notably, this does not require the use of object-specific access rights, whereas in this example, calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> to check the process IDs of two process handles imposes a requirement that the handles grant PROCESS_QUERY_LIMITED_INFORMATION access. However it is legal for a process handle to not have that access right granted depending on how the handle is intended to be used.
+The <b>CompareObjectHandles</b> function is useful to determine if two kernel handles refer to the same kernel object without imposing a requirement that specific access rights be granted to either handle in order to perform the comparison.  For example, if a process desires to determine whether a process handle is a handle to the current process, a call to <b>CompareObjectHandles</b> (GetCurrentProcess (), hProcess) can be used to determine if hProcess refers to the current process.  Notably, this does not require the use of object-specific access rights, whereas in this example, calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessid">GetProcessId</a> to check the process IDs of two process handles imposes a requirement that the handles grant PROCESS_QUERY_LIMITED_INFORMATION access. However it is legal for a process handle to not have that access right granted depending on how the handle is intended to be used.
 
 
 #### Examples
 
 The following code sample creates three handles, two of which refer to the same object, then compares them to show that identical underlying kernel objects will return TRUE, while non-identical objects will return FALSE.
 
-<pre class="syntax" xml:space="preserve"><code>#include &lt;windows.h&gt;
+
+``` syntax
+#include &lt;windows.h&gt;
 #include &lt;stdio.h&gt;
 #include &lt;wchar.h&gt;
 
@@ -129,17 +119,10 @@ if (CompareObjectHandles (Event1, GetCurrentProcess ()) == FALSE)
 	{	// This message should be printed by the program.
 		wprintf (L"Event1 and the current process refer to different underlying kernel objects.  (Error %lu)\n", GetLastError ());
 	}
-</code></pre>
 
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-and-object-functions">Handle and Object Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/handle-and-object-functions">Handle and Object Functions</a>

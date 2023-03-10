@@ -2,15 +2,12 @@
 UID: NS:mobsync._tagSYNCMGRITEM
 title: SYNCMGRITEM (mobsync.h)
 description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.
+helpviewer_keywords: ["*LPSYNCMGRITEM","LPSYNCMGRITEM","LPSYNCMGRITEM structure pointer [Windows Shell]","SYNCMGRITEM","SYNCMGRITEM structure [Windows Shell]","SYNCMGRITEMSTATE_CHECKED","SYNCMGRITEMSTATE_UNCHECKED","mobsync/LPSYNCMGRITEM","mobsync/SYNCMGRITEM","shell.syncmgr_syncmgritem","syncmgr.syncmgritem"]
 old-location: shell\syncmgr_syncmgritem.htm
 tech.root: shell
 ms.assetid: 84fa1d81-d1b9-44d7-be97-14511ef95528
 ms.date: 12/05/2018
 ms.keywords: '*LPSYNCMGRITEM, LPSYNCMGRITEM, LPSYNCMGRITEM structure pointer [Windows Shell], SYNCMGRITEM, SYNCMGRITEM structure [Windows Shell], SYNCMGRITEMSTATE_CHECKED, SYNCMGRITEMSTATE_UNCHECKED, mobsync/LPSYNCMGRITEM, mobsync/SYNCMGRITEM, shell.syncmgr_syncmgritem, syncmgr.syncmgritem'
-f1_keywords:
-- mobsync/SYNCMGRITEM
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mobsync.h
-api_name:
-- SYNCMGRITEM
 targetos: Windows
 req.typenames: SYNCMGRITEM, *LPSYNCMGRITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _tagSYNCMGRITEM
+ - mobsync/_tagSYNCMGRITEM
+ - LPSYNCMGRITEM
+ - mobsync/LPSYNCMGRITEM
+ - SYNCMGRITEM
+ - mobsync/SYNCMGRITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mobsync.h
+api_name:
+ - SYNCMGRITEM
 ---
 
 # SYNCMGRITEM structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides information about items being enumerated by the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface.
-
+Provides information about items being enumerated by the <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -63,20 +64,17 @@ Type: <b>DWORD</b>
 
 The size of the structure.
 
-
 ### -field dwFlags
 
 Type: <b>DWORD</b>
 
-One or more values from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgritemflags">SYNCMGRITEMFLAGS</a> enumeration.
-
+One or more values from the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgritemflags">SYNCMGRITEMFLAGS</a> enumeration.
 
 ### -field ItemID
 
 Type: <b>GUID</b>
 
 The identifier for this item.
-
 
 ### -field dwItemState
 
@@ -96,13 +94,11 @@ The default is not including this item in synchronization operations.
 
 The default is including this item in synchronization operations.
 
-
 ### -field hIcon
 
 Type: <b>HICON</b>
 
 The icon for this item.
-
 
 ### -field wszItemName
 
@@ -110,21 +106,12 @@ Type: <b>WCHAR[MAX_SYNCMGRITEMNAME]</b>
 
 The name of this item.
 
-
 ### -field ftLastUpdate
 
 Type: <b>FILETIME</b>
 
 The time of the last synchronization for this item.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgritemflags">SYNCMGRITEMFLAGS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgritemflags">SYNCMGRITEMFLAGS</a>

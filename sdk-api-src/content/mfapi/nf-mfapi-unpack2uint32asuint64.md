@@ -2,15 +2,12 @@
 UID: NF:mfapi.Unpack2UINT32AsUINT64
 title: Unpack2UINT32AsUINT64 function (mfapi.h)
 description: Gets the low-order and high-order UINT32 values from a UINT64 value.
+helpviewer_keywords: ["Unpack2UINT32AsUINT64","Unpack2UINT32AsUINT64 function [Media Foundation]","mf.unpack2uint32asuint64","mfapi/Unpack2UINT32AsUINT64"]
 old-location: mf\unpack2uint32asuint64.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 507504c2-85d3-44b6-9972-bcdd3c4227f6
 ms.date: 12/05/2018
 ms.keywords: Unpack2UINT32AsUINT64, Unpack2UINT32AsUINT64 function [Media Foundation], mf.unpack2uint32asuint64, mfapi/Unpack2UINT32AsUINT64
-f1_keywords:
-- mfapi/Unpack2UINT32AsUINT64
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfapi.h
-api_name:
-- Unpack2UINT32AsUINT64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Unpack2UINT32AsUINT64
+ - mfapi/Unpack2UINT32AsUINT64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfapi.h
+api_name:
+ - Unpack2UINT32AsUINT64
 ---
 
 # Unpack2UINT32AsUINT64 function
@@ -48,63 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the low-order and high-order <b>UINT32</b> values from a <b>UINT64</b> value.
 
-
 ## -parameters
-
-
-
 
 ### -param unPacked [in]
 
 The value to convert.
 
-
 ### -param punHigh [out]
 
 Receives the high-order 32 bits.
-
 
 ### -param punLow [out]
 
 Receives the low-order 32 bits.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
-
-
-You can use this function to unpack a <b>UINT64</b> value that you receive from the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">IMFAttributes::GetUINT64</a> method.
-
-
-
+You can use this function to unpack a <b>UINT64</b> value that you receive from the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">IMFAttributes::GetUINT64</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfgetattributeratio">MFGetAttributeRatio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributeratio">MFGetAttributeRatio</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesize">MFGetAttributeSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgetattributesize">MFGetAttributeSize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

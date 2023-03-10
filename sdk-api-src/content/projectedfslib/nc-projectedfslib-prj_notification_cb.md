@@ -2,15 +2,12 @@
 UID: NC:projectedfslib.PRJ_NOTIFICATION_CB
 title: PRJ_NOTIFICATION_CB (projectedfslib.h)
 description: Delivers notifications to the provider about file system operations.
+helpviewer_keywords: ["PRJ_NOTIFICATION_CB","PRJ_NOTIFICATION_CB callback","PRJ_NOTIFICATION_CB callback function","ProjFS.prj_notification_cb","projectedfslib/PRJ_NOTIFICATION_CB"]
 old-location: projfs\prj_notification_cb.htm
 tech.root: ProjFS
 ms.assetid: 7F149A78-2668-4BF2-88D3-1E40CA469AA6
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_CB, PRJ_NOTIFICATION_CB callback, PRJ_NOTIFICATION_CB callback function, ProjFS.prj_notification_cb, projectedfslib/PRJ_NOTIFICATION_CB
-f1_keywords:
-- projectedfslib/PRJ_NOTIFICATION_CB
-dev_langs:
-- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- projectedfslib.h
-api_name:
-- PRJ_NOTIFICATION_CB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - PRJ_NOTIFICATION_CB
+ - projectedfslib/PRJ_NOTIFICATION_CB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - projectedfslib.h
+api_name:
+ - PRJ_NOTIFICATION_CB
 ---
 
 # PRJ_NOTIFICATION_CB callback function
@@ -48,45 +50,36 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
-Delivers notifications to the provider about file system operations. 
-
+Delivers notifications to the provider about file system operations.
 
 ## -parameters
-
-
-
 
 ### -param callbackData [in]
 
 Information about the operation. The following <i>callbackData</i> members are necessary to implement this callback:<dl>
-<dd><b>FilePathName</b>Identifies the path for the file or directory to which the notification pertains.
+<dd><b>FilePathName</b> Identifies the path for the file or directory to which the notification pertains.
 
 </dd>
 </dl>
 
 
-The provider can access this buffer only while the callback is running. If it wishes to pend the operation and it requires data from this buffer, it must make its own copy of it. 
-
+The provider can access this buffer only while the callback is running. If it wishes to pend the operation and it requires data from this buffer, it must make its own copy of it.
 
 ### -param isDirectory [in]
 
 TRUE if the <b>FilePathName</b> field in <i>callbackData</i> refers to a directory, FALSE otherwise.
 
-
 ### -param notification [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification">PRJ_NOTIFICATION</a>value specifying the notification.
-
+A <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification">PRJ_NOTIFICATION</a> value specifying the notification.
 
 ### -param destinationFileName [in, optional]
 
-If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b>or <b>PRJ_NOTIFICATION_PRE_SET_HARDLINK</b>, this points to a null-terminated Unicode string specifying the path, relative to the virtualization root, of the target of the rename or set-hardlink operation.
-
+If <b>notification</b> is <b>PRJ_NOTIFICATION_PRE_RENAME </b> or <b>PRJ_NOTIFICATION_PRE_SET_HARDLINK</b>, this points to a null-terminated Unicode string specifying the path, relative to the virtualization root, of the target of the rename or set-hardlink operation.
 
 ### -param operationParameters [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_notification_parameters">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
+A pointer to a <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_notification_parameters">PRJ_NOTIFICATION_PARAMETERS</a> union specifying extra parameters for certain values of <i>notification</i>:
 
 <b>PRJ_NOTIFICATION_FILE_OPENED</b>, <b>PRJ_NOTIFICATION_NEW_FILE_CREATED</b>, or <b>PRJ_NOTIFICATION_FILE_OVERWRITTEN</b><dl>
 <dd>
@@ -139,11 +132,7 @@ If the provider registered for <b>PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_MODIFIED</b
 </li>
 </ul>
 
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -180,17 +169,9 @@ The provider wishes to complete the operation at a later time.
  
 An appropriate HRESULT error code if the provider fails the operation. For pre-operation notifications (operations with "PRE" in their name), if the provider returns a failure code ProjFS will fail the corresponding operation with the provided error code.
 
-
-
-
 ## -remarks
-
-
 
 This callback is optional. If the provider does not supply an implementation of this callback, it will not receive notifications. 
 
 
-The provider registers for the notifications it wishes to receive when it calls <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing">PrjStartVirtualizing</a>.
-
-
-
+The provider registers for the notifications it wishes to receive when it calls <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjstartvirtualizing">PrjStartVirtualizing</a>.

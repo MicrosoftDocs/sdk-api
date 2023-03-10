@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeUnitException.GetItemId
 title: IChangeUnitException::GetItemId (winsync.h)
 description: Gets the item ID for the item that contains the change unit that is associated with the exception.
+helpviewer_keywords: ["GetItemId","GetItemId method [Windows Sync]","GetItemId method [Windows Sync]","IChangeUnitException interface","IChangeUnitException interface [Windows Sync]","GetItemId method","IChangeUnitException.GetItemId","IChangeUnitException::GetItemId","winsync.ichangeunitexception_getitemid","winsync/IChangeUnitException::GetItemId"]
 old-location: winsync\ichangeunitexception_getitemid.htm
 tech.root: winsync
 ms.assetid: d5c76ecf-bd3f-4a0a-9fba-4fd51591d39f
 ms.date: 12/05/2018
 ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetItemId method, IChangeUnitException.GetItemId, IChangeUnitException::GetItemId, winsync.ichangeunitexception_getitemid, winsync/IChangeUnitException::GetItemId
-f1_keywords:
-- winsync/IChangeUnitException.GetItemId
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitException.GetItemId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitException::GetItemId
+ - winsync/IChangeUnitException::GetItemId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitException.GetItemId
 ---
 
 # IChangeUnitException::GetItemId
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the item ID for the item that contains the change unit that is associated with the exception.
 
-
 ## -parameters
-
-
-
 
 ### -param pbItemId [in, out]
 
 Returns the item ID that contains the change unit that is associated with the exception.
 
-
 ### -param pcbIdSize [in, out]
 
 Specifies the number of bytes in <i>pbItemId</i>. Returns the number of bytes required to retrieve the ID when <i>pbItemId</i> is too small, or the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -109,18 +102,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>

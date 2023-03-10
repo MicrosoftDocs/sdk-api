@@ -2,15 +2,12 @@
 UID: NN:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1
 title: IXpsOMRemoteDictionaryResource1 (xpsobjectmodel_1.h)
 description: Extends IXpsOMRemoteDictionaryResource to provide methods that support OpenXPS documents.
+helpviewer_keywords: ["IXpsOMRemoteDictionaryResource1","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","described","xps.ixpsomremotedictionaryresource1","xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1"]
 old-location: xps\ixpsomremotedictionaryresource1.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4B8DEDC7-4D7A-408F-9B2B-67B6FC87372F
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource1, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1
-f1_keywords:
-- xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1
-dev_langs:
-- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,37 +25,36 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- none
-- none.dll
-api_name:
-- IXpsOMRemoteDictionaryResource1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMRemoteDictionaryResource1
+ - xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - none
+ - none.dll
+api_name:
+ - IXpsOMRemoteDictionaryResource1
 ---
 
 # IXpsOMRemoteDictionaryResource1 interface
 
-
 ## -description
 
-
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> to provide methods that support OpenXPS documents.
-
+Extends <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> to provide methods that support OpenXPS documents.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMRemoteDictionaryResource1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a>. <b>IXpsOMRemoteDictionaryResource1</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IXpsOMRemoteDictionaryResource1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a>. <b>IXpsOMRemoteDictionaryResource1</b> also has these types of members:
 
 ## -members
 
@@ -86,16 +82,8 @@ Serializes the remote dictionary resource to a stream.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a>

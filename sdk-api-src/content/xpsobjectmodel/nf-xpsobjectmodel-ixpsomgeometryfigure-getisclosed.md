@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsClosed
 title: IXpsOMGeometryFigure::GetIsClosed (xpsobjectmodel.h)
 description: Gets a value that indicates whether the figure is closed.
+helpviewer_keywords: ["FALSE","GetIsClosed","GetIsClosed method [XPS Documents and Packaging]","GetIsClosed method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetIsClosed method","IXpsOMGeometryFigure.GetIsClosed","IXpsOMGeometryFigure::GetIsClosed","TRUE","xps.ixpsomgeometryfigure_getisclosed","xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed"]
 old-location: xps\ixpsomgeometryfigure_getisclosed.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: f7ab38b8-b378-4804-9d07-4644161b1450
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsClosed, GetIsClosed method [XPS Documents and Packaging], GetIsClosed method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsClosed method, IXpsOMGeometryFigure.GetIsClosed, IXpsOMGeometryFigure::GetIsClosed, TRUE, xps.ixpsomgeometryfigure_getisclosed, xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.GetIsClosed
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.GetIsClosed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::GetIsClosed
+ - xpsobjectmodel/IXpsOMGeometryFigure::GetIsClosed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.GetIsClosed
 ---
 
 # IXpsOMGeometryFigure::GetIsClosed
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value that indicates whether the figure is closed.
 
-
 ## -parameters
-
-
-
 
 ### -param isClosed [out, retval]
 
@@ -87,14 +84,10 @@ The figure is open.  No line segment will be stroked between the start and end p
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -124,14 +117,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  This value only applies if the <b>PathFigure</b> attribute is used in the <b>Path</b> element that specifies a stroke.
 
@@ -139,24 +126,14 @@ The method succeeded.
 
 This value corresponds to that of the <b>IsClosed</b> element   of the <b>PathFigure</b> element in the document markup.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

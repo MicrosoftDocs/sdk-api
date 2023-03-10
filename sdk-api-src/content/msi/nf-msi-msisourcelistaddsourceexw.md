@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiSourceListAddSourceExW
 title: MsiSourceListAddSourceExW function (msi.h)
-description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.
+description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context. (Unicode)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListAddSourceEx", "MsiSourceListAddSourceEx function", "MsiSourceListAddSourceExW", "NULL", "User SID", "msi/MsiSourceListAddSourceEx", "msi/MsiSourceListAddSourceExW", "setup.msisourcelistaddsourceex"]
 old-location: setup\msisourcelistaddsourceex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListAddSourceEx, MsiSourceListAddSourceEx function, MsiSourceListAddSourceExA, MsiSourceListAddSourceExW, NULL, User SID, msi/MsiSourceListAddSourceEx, msi/MsiSourceListAddSourceExA, msi/MsiSourceListAddSourceExW, setup.msisourcelistaddsourceex
-f1_keywords:
-- msi/MsiSourceListAddSourceEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiSourceListAddSourceEx
-- MsiSourceListAddSourceExA
-- MsiSourceListAddSourceExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListAddSourceExW
+ - msi/MsiSourceListAddSourceExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiSourceListAddSourceEx
+ - MsiSourceListAddSourceExA
+ - MsiSourceListAddSourceExW
 ---
 
 # MsiSourceListAddSourceExW function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiSourceListAddSourceEx</b> function  adds  or reorders the set of sources of a patch or product in a specified context.  It can also create a source list for a patch that does not exist in the specified context.
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCodeOrPatchCode [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
-
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns <b>ERROR_INVALID_PARAMETER</b>. This parameter cannot be <b>NULL</b>.
 
 ### -param szUserSid [in, optional]
 
@@ -142,8 +138,6 @@ The product or patch instance exists in the per-machine context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -195,14 +189,11 @@ The source is a URL type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szSource [in]
 
 Source to add or move. This parameter is expected to contain only the path without the filename. 
-The filename is already registered as "PackageName" and can be manipulated through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>. This argument is required.
-
+The filename is already registered as "PackageName" and can be manipulated through <a href="/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>. This argument is required.
 
 ### -param dwIndex [in, optional]
 
@@ -214,10 +205,7 @@ If <b>MsiSourceListAddSourceEx</b> is called with a new source  and <i>dwIndex</
 
 If <b>MsiSourceListAddSourceEx</b> is called with a new source  and <i>dwIndex</i> set to a  non-zero value greater than the count of sources (<i>N</i>), the new source is appended to the existing list.  If the source already exists, it is moved to the end of the list and the other sources are re-indexed.
 
-
 ## -returns
-
-
 
 The <b>MsiSourceListAddSourceEx</b> function  returns the following values.
 
@@ -304,53 +292,44 @@ Unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context. 
 
-Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
+Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy. For more information, see the <a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListAddSourceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
+<a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
+<a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
+<a href="/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistsetinfoa">MsiSourceListSetInfo</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/source-resiliency">Source Resiliency</a>

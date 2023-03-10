@@ -2,15 +2,12 @@
 UID: NF:searchapi.ISearchManager.get_UserAgent
 title: ISearchManager::get_UserAgent (searchapi.h)
 description: Retrieves the user agent string.
+helpviewer_keywords: ["ISearchManager interface [search]","get_UserAgent method","ISearchManager.get_UserAgent","ISearchManager::get_UserAgent","_search_ISearchManager_get_UserAgent","get_UserAgent","get_UserAgent method [search]","get_UserAgent method [search]","ISearchManager interface","search._search_ISearchManager_get_UserAgent","searchapi/ISearchManager::get_UserAgent"]
 old-location: search\_search_ISearchManager_get_UserAgent.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useragent.htm
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],get_UserAgent method, ISearchManager.get_UserAgent, ISearchManager::get_UserAgent, _search_ISearchManager_get_UserAgent, get_UserAgent, get_UserAgent method [search], get_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_get_UserAgent, searchapi/ISearchManager::get_UserAgent
-f1_keywords:
-- searchapi/ISearchManager.get_UserAgent
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchManager.get_UserAgent
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchManager::get_UserAgent
+ - searchapi/ISearchManager::get_UserAgent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchManager.get_UserAgent
 ---
 
 # ISearchManager::get_UserAgent
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user agent string.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param ppszUserAgent [out, retval]
 
 Type: <b>LPWSTR*</b>
 
 Receives the address of a pointer to the user agent string.
-            
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="https://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

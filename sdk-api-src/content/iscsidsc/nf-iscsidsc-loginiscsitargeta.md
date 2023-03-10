@@ -1,16 +1,13 @@
 ---
 UID: NF:iscsidsc.LoginIScsiTargetA
 title: LoginIScsiTargetA function (iscsidsc.h)
-description: LoginIscsiTarget function establishes a full featured login session with the indicated target.
+description: LoginIscsiTarget function establishes a full featured login session with the indicated target. (ANSI)
+helpviewer_keywords: ["ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED", "ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED", "ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED", "ISCSI_SECURITY_FLAG_PFS_ENABLED", "ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED", "ISCSI_SECURITY_FLAG_VALID", "LoginIScsiTargetA", "LoginIscsiTargetA", "iscsidsc/LoginIscsiTargetA"]
 old-location: iscsidisc\loginiscsitarget.htm
 tech.root: iSCSIDisc
 ms.assetid: e94e72d2-b93c-41f4-aafc-78e6a97d7a26
 ms.date: 12/05/2018
 ms.keywords: ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, LoginIScsiTargetA, LoginIscsiTarget, LoginIscsiTarget function [iSCSI Discovery Library API], LoginIscsiTargetA, LoginIscsiTargetW, iscsidisc.loginiscsitarget, iscsidsc/LoginIscsiTarget, iscsidsc/LoginIscsiTargetA, iscsidsc/LoginIscsiTargetW
-f1_keywords:
-- iscsidsc/LoginIscsiTarget
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- LoginIscsiTarget
-- LoginIscsiTargetA
-- LoginIscsiTargetW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoginIScsiTargetA
+ - iscsidsc/LoginIScsiTargetA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - LoginIscsiTarget
+ - LoginIscsiTargetA
+ - LoginIscsiTargetW
 ---
 
 # LoginIScsiTargetA function
@@ -50,43 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LoginIscsiTarget</b> function establishes a full featured login session with the indicated target.
 
-
 ## -parameters
-
-
-
 
 ### -param TargetName [in]
 
 The name of the target with which to establish a login session. The target must already exist in the list of discovered targets for the iSCSI initiator service.
 
-
 ### -param IsInformationalSession [in]
 
-If <b>true</b>, the <b>LoginIscsiTarget</b> function establishes a login session, but the operation does not report the LUNs on the target to the "Plug and Play" Manager. If the login succeeds, management applications will be able to query the target for information with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireadcapacity">SendScsiReadCapacity</a> functions, but the storage stack will not enumerate the target or load a driver for it. 
+If <b>true</b>, the <b>LoginIscsiTarget</b> function establishes a login session, but the operation does not report the LUNs on the target to the "Plug and Play" Manager. If the login succeeds, management applications will be able to query the target for information with the <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a> and <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireadcapacity">SendScsiReadCapacity</a> functions, but the storage stack will not enumerate the target or load a driver for it. 
 
 If <i>IsInformationalSession</i> is <b>false</b>, <b>LoginIscsiTarget</b> reports the LUNs associated with the target to the "Plug and Play" Manager, and the system loads drivers for the LUNs.
 
-
 ### -param InitiatorInstance [in, optional]
 
-The name of the initiator that logs in to the target. If <i>InitiatorName</i> is <b>null</b>, the iSCSI initiator service selects an initiator. 
-
+The name of the initiator that logs in to the target. If <i>InitiatorName</i> is <b>null</b>, the iSCSI initiator service selects an initiator.
 
 ### -param InitiatorPortNumber [in, optional]
 
 The port number of the Host Bus Adapter (HBA) that initiates the login session. If this parameter is <b>ISCSI_ANY_INITIATOR_PORT</b>, the caller did not specify a port for the initiator HBA to use when logging in to the target. 
 
-If <i>InitiatorName</i> is <b>null</b>, <i>InitiatorPortNumber</i> must be <b>ISCSI_ANY_INITIATOR_PORT</b>. 
-
+If <i>InitiatorName</i> is <b>null</b>, <i>InitiatorPortNumber</i> must be <b>ISCSI_ANY_INITIATOR_PORT</b>.
 
 ### -param TargetPortal [in, optional]
 
-Pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> that indicates the portal that the initiator uses to open the session. The specified portal must belong to a portal group that is associated with the <i>TargetName</i>. If <i>TargetPortal</i> is <b>null</b>, the iSCSI initiator service instructs the initiator to use any portal through which the target is accessible to the initiator. If the caller specifies the value for <i>TargetPortal</i>, the iSCSI initiator service will not verify that the <i>TargetPortal</i> is accessible to the initiator HBA.
-
+Pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> that indicates the portal that the initiator uses to open the session. The specified portal must belong to a portal group that is associated with the <i>TargetName</i>. If <i>TargetPortal</i> is <b>null</b>, the iSCSI initiator service instructs the initiator to use any portal through which the target is accessible to the initiator. If the caller specifies the value for <i>TargetPortal</i>, the iSCSI initiator service will not verify that the <i>TargetPortal</i> is accessible to the initiator HBA.
 
 ### -param SecurityFlags [in, optional]
 
@@ -179,23 +171,18 @@ When set to 1, the other mask values are valid; otherwise, the iSCSI initiator s
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Mappings [in, optional]
 
-An array of structures of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>, each of which holds information that the initiator uses to assign bus, target and LUN numbers to the devices that are associated with the target. If <i>Mappings</i> is <b>null</b>, the initiator will select the bus, target and LUN numbers.
-
+An array of structures of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>, each of which holds information that the initiator uses to assign bus, target and LUN numbers to the devices that are associated with the target. If <i>Mappings</i> is <b>null</b>, the initiator will select the bus, target and LUN numbers.
 
 ### -param LoginOptions [in, optional]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the characteristics of the login session.
-
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the characteristics of the login session.
 
 ### -param KeySize [in, optional]
 
 The size, in bytes, of the target's preshared key specified by the <i>Key</i> parameter.
-
 
 ### -param Key [in, optional]
 
@@ -210,57 +197,41 @@ If <b>true</b>, the initiator should save the characteristics of the login sessi
 
 Whenever the initiator device restarts, it should automatically attempt to re-establish the login session with the same characteristics. If <b>false</b>, the initiator device simply logs in to the target without saving the characteristics of the login session.
 
-
 ### -param UniqueSessionId [out]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that, on return, contains a unique session identifier for the login session. 
-
-
+A pointer to a structure of type <a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that, on return, contains a unique session identifier for the login session.
 
 ### -param UniqueConnectionId [out]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a> that, on return, contains a unique connection identifier for the login session. 
-
-
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a> that, on return, contains a unique connection identifier for the login session.
 
 ## -returns
 
-
-
 Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appropriate Win32 or iSCSI error code.
 
-
-
-
-
 ## -remarks
-
-
 
 The <b>LoginIscsiTarget</b> function either establishes a single login session with a target, or creates a persistent login to a target. If <b>LoginIscsiTarget</b> creates a persistent login, the specified initiator should log in to the target each time the initiator is started, typically at system boot. Callers to <b>LoginIscsiTarget</b> can request the creation of a persistent login by setting the <i>IsPersistent</i> parameter to <b>true</b>.
 
 
 
 
+
+> [!NOTE]
+> The iscsidsc.h header defines LoginIScsiTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
+<a href="/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870817(v=vs.85)">ISCSI_UNIQUE_CONNECTION_ID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>

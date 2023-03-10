@@ -1,16 +1,13 @@
 ---
 UID: NF:comsvcs.ITransactionContextEx.CreateInstance
 title: ITransactionContextEx::CreateInstance (comsvcs.h)
-description: Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
+description: Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object. (ITransactionContextEx.CreateInstance)
+helpviewer_keywords: ["CreateInstance","CreateInstance method [COM+]","CreateInstance method [COM+]","ITransactionContextEx interface","ITransactionContextEx interface [COM+]","CreateInstance method","ITransactionContextEx.CreateInstance","ITransactionContextEx::CreateInstance","_cos_ITransactionContextEx_CreateInstance","comsvcs/ITransactionContextEx::CreateInstance","cos.itransactioncontextex_createinstance"]
 old-location: cos\itransactioncontextex_createinstance.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 49684f80-847b-4613-9148-dd34dc22a476
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],CreateInstance method, ITransactionContextEx.CreateInstance, ITransactionContextEx::CreateInstance, _cos_ITransactionContextEx_CreateInstance, comsvcs/ITransactionContextEx::CreateInstance, cos.itransactioncontextex_createinstance
-f1_keywords:
-- comsvcs/ITransactionContextEx.CreateInstance
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ITransactionContextEx.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransactionContextEx::CreateInstance
+ - comsvcs/ITransactionContextEx::CreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ITransactionContextEx.CreateInstance
 ---
 
 # ITransactionContextEx::CreateInstance
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 A reference to the CLSID of the type of object to be instantiated.
 
-
 ### -param riid [in]
 
 A reference to the interface ID of the interface through which you will communicate with the new object.
-
 
 ### -param pObject [out]
 
 A reference to a new object of the type specified by the <i>rclsid</i> parameter, through the interface specified by the <i>riid</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -107,14 +99,8 @@ The component specified by <i>rclsid</i> is not registered as a COM component.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the Microsoft Distributed Transaction Coordinator is not running and the object is transactional, the object is successfully created. However, method calls to that object will fail with CONTEXT_E_TMNOTAVAILABLE. Objects cannot recover from this condition and should be released.
 
@@ -142,17 +128,6 @@ if (FAILED(hr)) throw(hr);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>

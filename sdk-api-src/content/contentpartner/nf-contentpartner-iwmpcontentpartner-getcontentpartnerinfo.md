@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentPartner.GetContentPartnerInfo
 title: IWMPContentPartner::GetContentPartnerInfo (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetContentPartnerInfo method retrieves specific information about the online store.
+helpviewer_keywords: ["GetContentPartnerInfo","GetContentPartnerInfo method [Windows Media Player]","GetContentPartnerInfo method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetContentPartnerInfo method","IWMPContentPartner.GetContentPartnerInfo","IWMPContentPartner::GetContentPartnerInfo","IWMPContentPartnerGetContentPartnerInfo","contentpartner/IWMPContentPartner::GetContentPartnerInfo","wmp.iwmpcontentpartner_getcontentpartnerinfo"]
 old-location: wmp\iwmpcontentpartner_getcontentpartnerinfo.htm
 tech.root: WMP
 ms.assetid: ca63b65c-9a60-4c5d-a9f2-69d1168c53a5
 ms.date: 12/05/2018
 ms.keywords: GetContentPartnerInfo, GetContentPartnerInfo method [Windows Media Player], GetContentPartnerInfo method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],GetContentPartnerInfo method, IWMPContentPartner.GetContentPartnerInfo, IWMPContentPartner::GetContentPartnerInfo, IWMPContentPartnerGetContentPartnerInfo, contentpartner/IWMPContentPartner::GetContentPartnerInfo, wmp.iwmpcontentpartner_getcontentpartnerinfo
-f1_keywords:
-- contentpartner/IWMPContentPartner.GetContentPartnerInfo
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.GetContentPartnerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::GetContentPartnerInfo
+ - contentpartner/IWMPContentPartner::GetContentPartnerInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.GetContentPartnerInfo
 ---
 
 # IWMPContentPartner::GetContentPartnerInfo
@@ -48,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>GetContentPartnerInfo</b> method retrieves specific information about the online store.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrInfoName [in]
 
 A <b>BSTR</b> that specifies the type of information to retrieve. See Remarks for a list of possible values.
 
-
 ### -param pData [out]
 
 Address of a <b>VARIANT</b> that receives the information.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -95,14 +85,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following list gives the possible values for <i>bstrInfoName</i> along with the corresponding values returned in <i>pData</i>.
 
@@ -142,16 +126,6 @@ g_szContentPartnerInfo_UserName
 
 The <i>pData</i> parameter receives a <b>VT_BSTR</b> that indicates the user name of the user that is currently logged in. Windows Media Player displays this string but does not interpret it.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

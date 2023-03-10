@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeCountEx
 title: IWMHeaderInfo3::GetAttributeCountEx (wmsdkidl.h)
 description: The GetAttributeCountEx method retrieves the total number of attributes associated with a specified stream number.
+helpviewer_keywords: ["GetAttributeCountEx","GetAttributeCountEx method [windows Media Format]","GetAttributeCountEx method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo3 interface [windows Media Format]","GetAttributeCountEx method","IWMHeaderInfo3.GetAttributeCountEx","IWMHeaderInfo3::GetAttributeCountEx","IWMHeaderInfo3GetAttributeCountEx","wmformat.iwmheaderinfo3_getattributecountex","wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx"]
 old-location: wmformat\iwmheaderinfo3_getattributecountex.htm
 tech.root: wmformat
 ms.assetid: 8c56d7b6-4f59-450e-938c-b7d0bd37ea08
 ms.date: 12/05/2018
 ms.keywords: GetAttributeCountEx, GetAttributeCountEx method [windows Media Format], GetAttributeCountEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCountEx method, IWMHeaderInfo3.GetAttributeCountEx, IWMHeaderInfo3::GetAttributeCountEx, IWMHeaderInfo3GetAttributeCountEx, wmformat.iwmheaderinfo3_getattributecountex, wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo3.GetAttributeCountEx
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMHeaderInfo3.GetAttributeCountEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo3::GetAttributeCountEx
+ - wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMHeaderInfo3.GetAttributeCountEx
 ---
 
 # IWMHeaderInfo3::GetAttributeCountEx
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetAttributeCountEx</b> method retrieves the total number of attributes associated with a specified stream number. You can also use this method to get the number of attributes not associated with a specific stream (file-level attributes), or to get the total number of attributes in the file, regardless of stream number.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number for which to retrieve the attribute count. Pass zero to retrieve the count of attributes that apply to the file rather than a specific stream. Pass 0xFFFF to retrieve the total count of all attributes in the file, both stream-specific and file-level.
 
-
 ### -param pcAttributes [out]
 
 Pointer to a <b>WORD</b> containing the number of attributes that exist for the specified stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,27 +108,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The maximum number of attributes for a single stream is 65535, the capacity of the <b>WORD</b> parameter, <i>pcAttributes</i>. If you pass 0xFFFF as <i>wStreamNum</i>, this method will return the total number of attributes for the entire file. This number could potentially be greater than the capacity of <i>pcAttributes</i>. If the number of attributes in the file is greater than 65535, this method will produce unpredictable results. In reality, no file should ever have this many attributes. If your application makes use of an extremely large number of attributes, simply make individual calls to <b>GetAttributeCountEx</b> for each stream and for the file-level attributes.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>

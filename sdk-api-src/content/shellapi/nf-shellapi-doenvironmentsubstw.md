@@ -1,16 +1,13 @@
 ---
 UID: NF:shellapi.DoEnvironmentSubstW
 title: DoEnvironmentSubstW function (shellapi.h)
-description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
+description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values. (Unicode)
+helpviewer_keywords: ["DoEnvironmentSubst", "DoEnvironmentSubst function [Windows Shell]", "DoEnvironmentSubstW", "_win32_DoEnvironmentSubst", "shell.DoEnvironmentSubst", "shellapi/DoEnvironmentSubst", "shellapi/DoEnvironmentSubstW"]
 old-location: shell\DoEnvironmentSubst.htm
 tech.root: shell
 ms.assetid: cdf8bf2d-f446-4e0d-8664-bff2c45f74ec
 ms.date: 12/05/2018
 ms.keywords: DoEnvironmentSubst, DoEnvironmentSubst function [Windows Shell], DoEnvironmentSubstA, DoEnvironmentSubstW, _win32_DoEnvironmentSubst, shell.DoEnvironmentSubst, shellapi/DoEnvironmentSubst, shellapi/DoEnvironmentSubstA, shellapi/DoEnvironmentSubstW
-f1_keywords:
-- shellapi/DoEnvironmentSubst
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- DoEnvironmentSubst
-- DoEnvironmentSubstA
-- DoEnvironmentSubstW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DoEnvironmentSubstW
+ - shellapi/DoEnvironmentSubstW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - DoEnvironmentSubst
+ - DoEnvironmentSubstA
+ - DoEnvironmentSubstW
 ---
 
 # DoEnvironmentSubstW function
@@ -50,18 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
+<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="/windows/win32/api/processenv/nf-processenv-expandenvironmentstringsw">ExpandEnvironmentStrings</a> instead.]
 
 Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
-        
-            
-
 
 ## -parameters
-
-
-
 
 ### -param pszSrc [in, out]
 
@@ -71,13 +66,16 @@ A pointer to a null-terminated string that contains references to one or more en
     					
                         
 
-<pre class="syntax" xml:space="preserve"><code>%VariableName%</code></pre>
+
+``` syntax
+%VariableName%
+```
+
 Any character in the string that is not enclosed in '%' characters is ignored and returned unchanged. Therefore, if your string contains multiple environment variables, you can use any character other than '%' as a separator, including spaces or no separator.
 
 When this function returns successfully, each %<i>VariableName</i>% is replaced with its expanded value. The replacement rules are the same as those used by the command interpreter. If the variable name is not found on the system, the %<i>variableName</i>% is left as it was submitted on entry.
 
 If this function fails due to the expanded string being too large for the buffer, the contents of this buffer are left unchanged.
-
 
 ### -param cchSrc
 
@@ -85,10 +83,7 @@ Type: <b>UINT</b>
 
 The size, in characters, of the buffer pointed to by <i>pszSrc</i>. Note that the buffer must be large enough to hold the returned string.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -98,12 +93,7 @@ If the expanded string fits in the buffer, <b>TRUE</b> is returned in the HIWORD
 
 If the expanded string is too large for the buffer, <b>FALSE</b> is returned in the HIWORD and <i>cchSrc</i> in the LOWORD.
 
-
-
-
 ## -remarks
-
-
 
 Parameters must contain valid, non-<b>NULL</b> values. You must validate these values. Failure to do so can provide unexpected results.
 
@@ -141,7 +131,7 @@ The following are only available to interactive applications.
 <li>USERDOMAIN</li>
 <li>USERNAME</li>
 </ul>
-The environment variables that correspond to file system folders can be mapped to an equivalent <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> or <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>value can be obtained through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
+The environment variables that correspond to file system folders can be mapped to an equivalent <a href="/windows/desktop/shell/csidl">CSIDL</a> or <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> value can be obtained through <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a> or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>. CSIDLs and KNOWNFOLDERIDs are more reliable than environment variable names and should be used whenever possible.
 
 
 #### Examples
@@ -172,3 +162,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 
+
+> [!NOTE]
+> The shellapi.h header defines DoEnvironmentSubst as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

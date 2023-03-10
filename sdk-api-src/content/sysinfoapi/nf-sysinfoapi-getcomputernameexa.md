@@ -1,16 +1,13 @@
 ---
 UID: NF:sysinfoapi.GetComputerNameExA
 title: GetComputerNameExA function (sysinfoapi.h)
-description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
+description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry. (ANSI)
+helpviewer_keywords: ["ComputerNameDnsDomain", "ComputerNameDnsFullyQualified", "ComputerNameDnsHostname", "ComputerNameNetBIOS", "ComputerNamePhysicalDnsDomain", "ComputerNamePhysicalDnsFullyQualified", "ComputerNamePhysicalDnsHostname", "ComputerNamePhysicalNetBIOS", "GetComputerNameExA", "sysinfoapi/GetComputerNameExA"]
 old-location: base\getcomputernameex.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: eae3f75d-7ec7-42ae-b207-e3ebaa33346e
 ms.date: 12/05/2018
 ms.keywords: ComputerNameDnsDomain, ComputerNameDnsFullyQualified, ComputerNameDnsHostname, ComputerNameNetBIOS, ComputerNamePhysicalDnsDomain, ComputerNamePhysicalDnsFullyQualified, ComputerNamePhysicalDnsHostname, ComputerNamePhysicalNetBIOS, GetComputerNameEx, GetComputerNameEx function, GetComputerNameExA, GetComputerNameExW, _win32_getcomputernameex, base.getcomputernameex, sysinfoapi/GetComputerNameEx, sysinfoapi/GetComputerNameExA, sysinfoapi/GetComputerNameExW
-f1_keywords:
-- sysinfoapi/GetComputerNameEx
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,49 +25,46 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetComputerNameEx
-- GetComputerNameExA
-- GetComputerNameExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetComputerNameExA
+ - sysinfoapi/GetComputerNameExA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetComputerNameEx
+ - GetComputerNameExA
+ - GetComputerNameExW
 ---
-
-# GetComputerNameExA function
-
 
 ## -description
 
-
 Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param NameType [in]
 
 The type of name to be retrieved. This parameter is a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a> enumeration type. The following table provides additional information. 
+<a href="/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a> enumeration type. The following table provides additional information. 
 
 
 
@@ -165,8 +159,6 @@ The NetBIOS name of the local computer. If the local computer is a node in a clu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBuffer [out]
 
@@ -177,7 +169,6 @@ A pointer to a buffer that receives the computer name or the cluster virtual ser
 
 The length of the name may be greater than MAX_COMPUTERNAME_LENGTH characters because DNS allows longer names. To ensure that this buffer is large enough, set this parameter to <b>NULL</b> and use the required buffer size returned in the <i>lpnSize</i> parameter.
 
-
 ### -param nSize [in, out]
 
 On input, specifies the size of the buffer, in <b>TCHARs</b>. On output, receives the number of <b>TCHARs</b> copied to the destination buffer, not including the terminating <b>null</b> character. 
@@ -185,19 +176,16 @@ On input, specifies the size of the buffer, in <b>TCHARs</b>. On output, receive
 
 
 
-If the buffer is too small, the function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA. This parameter receives the size of the buffer required,  including the terminating <b>null</b> character.
+If the buffer is too small, the function fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_MORE_DATA. This parameter receives the size of the buffer required,  including the terminating <b>null</b> character.
 
 If <i>lpBuffer</i> is <b>NULL</b>, this parameter must be zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible values include the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible values include the following.
 
 <table>
 <tr>
@@ -216,28 +204,22 @@ The <i>lpBuffer</i> buffer is too small. The <i>lpnSize</i> parameter contains t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If group policy is not set for the local machine, the 
 <b>GetComputerNameEx</b> function retrieves the NetBIOS or DNS names established at system startup. If  group policy is set, the function returns the primary domain name set by group policy. Name changes made by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> functions do not take effect until the user restarts the computer.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a> or 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a> functions do not take effect until the user restarts the computer.
 
 If the local computer is not configured to use DNS names, <b>GetComputerNameEx</b> will not return DNS information. To configure the computer to do this, follow the steps outlined in the operating system help and change the primary DNS suffix of the computer, then restart the computer. 
 
-The behavior of this function can be affected if the local computer is a node in a cluster. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/generic-applications-usenetworkname">UseNetworkName</a>.
+The behavior of this function can be affected if the local computer is a node in a cluster. For more information, see <a href="/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a> and <a href="/previous-versions/windows/desktop/mscs/generic-applications-usenetworkname">UseNetworkName</a>.
 
-If you are working with environments that use different DNS layouts, where the computer's FQDN does not match the FQDN of its domain, use <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> instead. 
+If you are working with environments that use different DNS layouts, where the computer's FQDN does not match the FQDN of its domain, use <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaqueryinformationpolicy">LsaQueryInformationPolicy</a> instead. 
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
@@ -262,7 +244,7 @@ void _tmain(void)
         TEXT("Physical DNS domain"), 
         TEXT("Physical DNS fully-qualified")};
     int cnf = 0;
-    DWORD dwSize = sizeof(buffer);
+    DWORD dwSize = _countof(buffer);
     
     for (cnf = 0; cnf < ComputerNameMax; cnf++)
     {
@@ -284,46 +266,42 @@ void _tmain(void)
 
 
 
+
+> [!NOTE]
+> The sysinfoapi.h header defines GetComputerNameEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ne-sysinfoapi-computer_name_format">COMPUTER_NAME_FORMAT</a>
+<a href="/windows/desktop/SysInfo/computer-names">Computer Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/computer-names">Computer Names</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcomputernamea">GetComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcomputernamea">GetComputerName</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetresourceserviceenvironment">ResUtilSetResourceServiceEnvironment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceserviceenvironment">ResUtilSetResourceServiceEnvironment</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernamea">SetComputerName</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
-		  Information Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

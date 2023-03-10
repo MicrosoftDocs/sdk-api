@@ -2,15 +2,12 @@
 UID: NS:fwpstypes.FWPS_CLASSIFY_OUT0_
 title: FWPS_CLASSIFY_OUT0 (fwpstypes.h)
 description: The FWPS_CLASSIFY_OUT0 structure defines the data that is returned to the caller of a callout's classifyFn callout function.Note  FWPS_CLASSIFY_OUT0 is a specific version of FWPS_CLASSIFY_OUT.
+helpviewer_keywords: ["FWPS_CLASSIFY_OUT0","FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista]","fwpstypes/FWPS_CLASSIFY_OUT0","netvista.fwps_classify_out0","wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml"]
 old-location: netvista\fwps_classify_out0.htm
 tech.root: NetVista
 ms.assetid: 18d84523-bd4c-4f5d-87c7-6fcdcaad6c5d
 ms.date: 12/05/2018
 ms.keywords: FWPS_CLASSIFY_OUT0, FWPS_CLASSIFY_OUT0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_CLASSIFY_OUT0, netvista.fwps_classify_out0, wfp_ref_3_struct_3_fwps_A-E_05656990-cf7c-4fef-a192-88f96860aa02.xml
-f1_keywords:
-- fwpstypes/FWPS_CLASSIFY_OUT0
-dev_langs:
-- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h, Fwpmtypes.h, Fwpmk.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpstypes.h
-api_name:
-- FWPS_CLASSIFY_OUT0
 targetos: Windows
 req.typenames: FWPS_CLASSIFY_OUT0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPS_CLASSIFY_OUT0_
+ - fwpstypes/FWPS_CLASSIFY_OUT0_
+ - FWPS_CLASSIFY_OUT0
+ - fwpstypes/FWPS_CLASSIFY_OUT0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpstypes.h
+api_name:
+ - FWPS_CLASSIFY_OUT0
 ---
 
 # FWPS_CLASSIFY_OUT0 structure
@@ -48,21 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPS_CLASSIFY_OUT0</b> structure defines the data that is returned to the caller of a callout's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function.
-<div class="alert"><b>Note</b>  <b>FWPS_CLASSIFY_OUT0</b> is a specific version of <b>FWPS_CLASSIFY_OUT</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+  <a href="/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function.
+<div class="alert"><b>Note</b>  <b>FWPS_CLASSIFY_OUT0</b> is a specific version of <b>FWPS_CLASSIFY_OUT</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field actionType
 
 An <b>FWP_ACTION_TYPE</b> value that specifies the suggested action to be taken as determined by the
      callout driver's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function. A callout driver
+     <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function. A callout driver
      sets this variable to one of the following values:
      
 
@@ -106,16 +106,13 @@ Write access to this member is controlled by the <b>FWPS_RIGHT_ACTION_WRITE</b> 
      higher weight filter in the filter engine. In such a situation, a callout driver sets this member to
      <b>FWP_ACTION_BLOCK</b>.
 
-
 ### -field outContext
 
 Reserved for system use. Callout drivers must not use this member.
 
-
 ### -field filterId
 
 Reserved for system use. Callout drivers must not use this member.
-
 
 ### -field rights
 
@@ -134,7 +131,6 @@ If this flag is set, a callout driver can write to the
        the 
        <b>actionType</b> member of this structure if it is vetoing an <b>FWP_ACTION_PERMIT</b> action that was
        previously returned by a higher weight filter in the filter engine.
-
 
 ### -field flags
 
@@ -194,10 +190,10 @@ If this flag is not set, a blocking action will be subject to normal event loggi
 
 The filter engine sets this flag when the filter engine's data buffer for stream data is full.
        This can occur if a callout's 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function repeatedly
+       <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function repeatedly
        requests more data by setting the 
        <b>streamAction</b> member of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to <b>FWPS_STREAM_ACTION_NEED_MORE_DATA</b> until the buffer
+       <a href="/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to <b>FWPS_STREAM_ACTION_NEED_MORE_DATA</b> until the buffer
        limit is reached. If this flag is set, the callout driver's 
        <i>classifyFn</i> callout function must either
        permit or block all of the stream data.
@@ -211,38 +207,24 @@ This flag is only applicable at the stream layers.
 
 Stream data was requested after the stream had been disconnected.
 
-
 ### -field reserved
 
 Reserved for system use. Callout drivers must not use this member.
 
-
 ## -remarks
 
-
-
 The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to a callout's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function. A callout driver
+    <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a> callout function. A callout driver
     uses this structure to return data to the caller.
-
-
-
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">FWPS_STREAM_CALLOUT_IO_PACKET0</a>
+<a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">Run-time Filtering Layer Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Run-time Filtering Layer Identifiers</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>

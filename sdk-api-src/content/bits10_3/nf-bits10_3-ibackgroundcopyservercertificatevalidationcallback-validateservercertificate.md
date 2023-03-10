@@ -4,11 +4,8 @@ title: IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertifi
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
 description: A callback method that you implement that will be called so that you can validate the server certificates sent when an HTTPS connection is opened.
+helpviewer_keywords: ["IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate"]
 tech.root: Bits
-f1_keywords:
-- bits10_3/IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,60 +26,75 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
+ - bits10_3/IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- bits10_3.h
+ - bits10_3.h
 api_name:
-- IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
+ - IBackgroundCopyServerCertificateValidationCallback::ValidateServerCertificate
 ---
 
 ## -description
+
 A callback method that you implement that will be called so that you can validate the server certificates sent when an HTTPS connection is opened.
 
 ## -parameters
 
 ### -param job
+
 Type: **[IBackgroundCopyJob](/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob)\***
 
 The job.
 
 ### -param file
+
 Type: **[IBackgroundCopyFile](/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile)\***
 
 The file being transferred.
 
 ### -param certLength
+
 Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
 
 The length in bytes of the certificate data.
 
 ### -param certData
+
 Type: **const [BYTE](/windows/desktop/winprog/windows-data-types) \[\]**
 
 An array of bytes containing the certificate data. The number of bytes must match `certLength`.
 
 ### -param certEncodingType
+
 Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
 
 The certificate encoding type.
 
 ### -param certStoreLength
+
 Type: **[DWORD](/windows/desktop/winprog/windows-data-types)**
 
 The length in bytes of the certificate store data.
 
 ### -param certStoreData
+
 Type: **const [BYTE](/windows/desktop/winprog/windows-data-types) \[\]**
 
 An array of bytes containing the certificate store data. The number of bytes must match `certStoreLength`.
 
 ## -returns
+
 Return **S_OK** to indicate that the certificate is acceptable. Otherwise, return any [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) [error code](/windows/desktop/com/com-error-codes-10) to indicate that the certificate is not acceptable.
 
 ## -remarks
+
 Certificate validation is performed in two phases. The first phase is the operating system (OS) phase where the OS performs a standard set of validation checks on the certificate. After that, if the OS phase passes the certificate, your callback will be called to perform additional validation.
 
 Implement this validation method when you want to perform your own checks on the server certificate. Your own checks are in addition to the normal OS certificate validation checks.
@@ -133,4 +145,6 @@ BITS does not cache certificates that are deemed invalid by the app-provided val
 A job's certificate cache is cleared on every call to **SetServerCertificateValidationInterface**, since it indicates that the app's server certificate validation logic has changed.
 
 ## -see-also
+
 [IBackgroundCopyJobHttpOptions3::SetServerCertificateValidationInterface](/windows/desktop/api/bits10_3/nf-bits10_3-ibackgroundcopyjobhttpoptions3-setservercertificatevalidationinterface)
+

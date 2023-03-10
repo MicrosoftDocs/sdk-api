@@ -2,15 +2,12 @@
 UID: NF:tuner.IAnalogRadioTuningSpace.get_MaxFrequency
 title: IAnalogRadioTuningSpace::get_MaxFrequency (tuner.h)
 description: The get_MaxFrequency method retrieves the maximum frequency for this tuning space.
+helpviewer_keywords: ["IAnalogRadioTuningSpace interface [Microsoft TV Technologies]","get_MaxFrequency method","IAnalogRadioTuningSpace.get_MaxFrequency","IAnalogRadioTuningSpace::get_MaxFrequency","IAnalogRadioTuningSpaceget_MaxFrequency","get_MaxFrequency","get_MaxFrequency method [Microsoft TV Technologies]","get_MaxFrequency method [Microsoft TV Technologies]","IAnalogRadioTuningSpace interface","mstv.ianalogradiotuningspace_get_maxfrequency","tuner/IAnalogRadioTuningSpace::get_MaxFrequency"]
 old-location: mstv\ianalogradiotuningspace_get_maxfrequency.htm
 tech.root: mstv
 ms.assetid: baf4fe54-6e8c-49a7-b99f-4efeb7c65757
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MaxFrequency method, IAnalogRadioTuningSpace.get_MaxFrequency, IAnalogRadioTuningSpace::get_MaxFrequency, IAnalogRadioTuningSpaceget_MaxFrequency, get_MaxFrequency, get_MaxFrequency method [Microsoft TV Technologies], get_MaxFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_maxfrequency, tuner/IAnalogRadioTuningSpace::get_MaxFrequency
-f1_keywords:
-- tuner/IAnalogRadioTuningSpace.get_MaxFrequency
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IAnalogRadioTuningSpace.get_MaxFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAnalogRadioTuningSpace::get_MaxFrequency
+ - tuner/IAnalogRadioTuningSpace::get_MaxFrequency
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IAnalogRadioTuningSpace.get_MaxFrequency
 ---
 
 # IAnalogRadioTuningSpace::get_MaxFrequency
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>get_MaxFrequency</b> method retrieves the maximum frequency for this tuning space.
 
-
 ## -parameters
-
-
-
 
 ### -param MaxFrequencyVal [out]
 
 Pointer to a variable that receives the maximum frequency, in kilohertz (kHz).
 
-
 ## -returns
-
-
 
 Returns E_NOTIMPL.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace Interface</a>

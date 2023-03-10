@@ -7,10 +7,6 @@ tech.root: FileIO
 ms.assetid: 84ca7f8d-6a0a-43d6-9970-9c01099eaad4
 ms.date: 12/05/2018
 ms.keywords: FSCTL_UNLOCK_VOLUME, FSCTL_UNLOCK_VOLUME control, FSCTL_UNLOCK_VOLUME control code [Files], _win32_fsctl_unlock_volume, base.fsctl_unlock_volume, fs.fsctl_unlock_volume, winioctl/FSCTL_UNLOCK_VOLUME
-f1_keywords:
-- winioctl/FSCTL_UNLOCK_VOLUME
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_UNLOCK_VOLUME
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_UNLOCK_VOLUME
+ - winioctl/FSCTL_UNLOCK_VOLUME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_UNLOCK_VOLUME
 ---
 
 # FSCTL_UNLOCK_VOLUME IOCTL
@@ -47,112 +46,41 @@ req.redist:
 
 ## -description
 
-
 Unlocks a volume.
 
 To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,            // handle to a volume
-  FSCTL_UNLOCK_VOLUME,         // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
+  FSCTL_UNLOCK_VOLUME,         // dwIoControlCode
+  NULL,                        // lpInBuffer
+  0,                           // nInBufferSize
+  NULL,                        // lpOutBuffer
+  0,                           // nOutBufferSize
+  (LPDWORD) lpBytesReturned,   // number of bytes returned
   (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
-
-## -ioctlparameters
-
-
-
-
-### -input-buffer
-
-
-
-<text></text>
-
-
-
-
-### -input-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -output-buffer
-
-
-
-<text></text>
-
-
-
-
-### -output-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -status-block
-
-
+);
+```
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-
-
 To lock a volume, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a> control code.
 
-The <i>hDevice</i> handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened for direct access. To retrieve this handle, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string of the following form:
+The <i>hDevice</i> handle passed to <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened for direct access. To retrieve this handle, call 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the <i>lpFileName</i> parameter set to a string of the following form:
 
-\\.\<i>X</i>:
+\\.&#92;<i>X</i>:
 
 where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The application must also specify the <b>FILE_SHARE_READ</b> and <b>FILE_SHARE_WRITE</b> flags in the <i>dwShareMode</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 IIn Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -208,28 +136,18 @@ PNP notification is issued only on the node where the FSCTL was issued.
 
 After acquiring a lock on a CSV volume, you must close the handle used to lock that volume before opening a handle to the volume. Unlocking the volume by using <b>FSCTL_UNLOCK_VOLUME</b> is not sufficient.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>

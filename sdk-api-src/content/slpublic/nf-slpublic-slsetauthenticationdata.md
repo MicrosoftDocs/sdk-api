@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLSetAuthenticationData
 title: SLSetAuthenticationData function (slpublic.h)
 description: Sets authentication data.
+helpviewer_keywords: ["SLSetAuthenticationData","SLSetAuthenticationData function [Security]","security.slsetauthenticationdata","slpublic/SLSetAuthenticationData"]
 old-location: security\slsetauthenticationdata.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 68906873-6c49-4221-ad87-1e1f1463c0d4
 ms.date: 12/05/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
-f1_keywords:
-- slpublic/SLSetAuthenticationData
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLSetAuthenticationData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLSetAuthenticationData
+ - slpublic/SLSetAuthenticationData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLSetAuthenticationData
 ---
 
 # SLSetAuthenticationData function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets authentication data.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param cbValue [in, optional]
 
 Type: <b>UINT</b>
 
 The size, in bytes, of the authentication data in <i>pbValue</i>.
-
 
 ### -param pbValue [in, optional]
 
@@ -77,10 +72,7 @@ Type: <b>const BYTE</b>
 
 A pointer to the authentication data.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -128,7 +120,4 @@ The authentication data format is not supported.
 </td>
 </tr>
 </table>
- 
-
-
 

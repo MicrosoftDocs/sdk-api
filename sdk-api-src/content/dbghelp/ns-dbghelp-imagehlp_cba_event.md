@@ -1,16 +1,13 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_EVENT
 title: IMAGEHLP_CBA_EVENT (dbghelp.h)
-description: Contains information about a debugging event.
+description: The IMAGEHLP_CBA_EVENT structure (dbghelp.h) contains information about a debugging event.
+helpviewer_keywords: ["*PIMAGEHLP_CBA_EVENT","IMAGEHLP_CBA_EVENT","IMAGEHLP_CBA_EVENT structure","IMAGEHLP_CBA_EVENTW","PIMAGEHLP_CBA_EVENT","PIMAGEHLP_CBA_EVENT structure pointer","_IMAGEHLP_CBA_EVENT","_IMAGEHLP_CBA_EVENTW","base.imagehlp_cba_event_str","dbghelp/IMAGEHLP_CBA_EVENT","dbghelp/IMAGEHLP_CBA_EVENTW","dbghelp/PIMAGEHLP_CBA_EVENT","sevAttn","sevFatal","sevInfo","sevProblem"]
 old-location: base\imagehlp_cba_event_str.htm
 tech.root: Debug
 ms.assetid: 1d63007a-7542-4626-99a5-41461e00dbb4
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*PIMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT, IMAGEHLP_CBA_EVENT structure, IMAGEHLP_CBA_EVENTW, PIMAGEHLP_CBA_EVENT, PIMAGEHLP_CBA_EVENT structure pointer, _IMAGEHLP_CBA_EVENT, _IMAGEHLP_CBA_EVENTW, base.imagehlp_cba_event_str, dbghelp/IMAGEHLP_CBA_EVENT, dbghelp/IMAGEHLP_CBA_EVENTW, dbghelp/PIMAGEHLP_CBA_EVENT, sevAttn, sevFatal, sevInfo, sevProblem'
-f1_keywords:
-- dbghelp/IMAGEHLP_CBA_EVENT
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgHelp.h
-api_name:
-- IMAGEHLP_CBA_EVENT
-- IMAGEHLP_CBA_EVENT
-- IMAGEHLP_CBA_EVENTW
 targetos: Windows
 req.typenames: IMAGEHLP_CBA_EVENT, *PIMAGEHLP_CBA_EVENT
 req.redist: DbgHelp.dll 6.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _IMAGEHLP_CBA_EVENT
+ - dbghelp/_IMAGEHLP_CBA_EVENT
+ - PIMAGEHLP_CBA_EVENT
+ - dbghelp/PIMAGEHLP_CBA_EVENT
+ - IMAGEHLP_CBA_EVENT
+ - dbghelp/IMAGEHLP_CBA_EVENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgHelp.h
+api_name:
+ - IMAGEHLP_CBA_EVENT
+ - IMAGEHLP_CBA_EVENT
+ - IMAGEHLP_CBA_EVENTW
 ---
 
 # IMAGEHLP_CBA_EVENT structure
@@ -50,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a debugging event.
 
-
 ## -struct-fields
-
-
-
 
 ### -field severity
 
@@ -113,35 +114,23 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field code
 
 This member is reserved for future use.
 
-
 ### -field desc
 
 A text description of the error.
-
 
 ### -field object
 
 This member is reserved for future use.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbolservercallbackproc">SymbolServerCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbolservercallbackproc">SymbolServerCallback</a>

@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeLib.CreateTypeInfo
 title: ICreateTypeLib::CreateTypeInfo (oaidl.h)
 description: Creates a new type description instance within the type library.
+helpviewer_keywords: ["CreateTypeInfo","CreateTypeInfo method [Automation]","CreateTypeInfo method [Automation]","ICreateTypeLib interface","ICreateTypeLib interface [Automation]","CreateTypeInfo method","ICreateTypeLib.CreateTypeInfo","ICreateTypeLib::CreateTypeInfo","_oa96_ICreateTypeLib_CreateTypeInfo","automat.icreatetypelib_createtypeinfo","oaidl/ICreateTypeLib::CreateTypeInfo"]
 old-location: automat\icreatetypelib_createtypeinfo.htm
 tech.root: automat
 ms.assetid: 5e9678af-661b-4033-bd3f-607c064f4245
 ms.date: 12/05/2018
 ms.keywords: CreateTypeInfo, CreateTypeInfo method [Automation], CreateTypeInfo method [Automation],ICreateTypeLib interface, ICreateTypeLib interface [Automation],CreateTypeInfo method, ICreateTypeLib.CreateTypeInfo, ICreateTypeLib::CreateTypeInfo, _oa96_ICreateTypeLib_CreateTypeInfo, automat.icreatetypelib_createtypeinfo, oaidl/ICreateTypeLib::CreateTypeInfo
-f1_keywords:
-- oaidl/ICreateTypeLib.CreateTypeInfo
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeLib.CreateTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeLib::CreateTypeInfo
+ - oaidl/ICreateTypeLib::CreateTypeInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeLib.CreateTypeInfo
 ---
 
 # ICreateTypeLib::CreateTypeInfo
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new type description instance within the type library.
 
-
 ## -parameters
-
-
-
 
 ### -param szName [in]
 
 The name of the new type.
 
-
 ### -param tkind [in]
 
 TYPEKIND of the type description to be created.
-
 
 ### -param ppCTInfo [out]
 
 The type description.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -162,28 +154,11 @@ Type mismatch.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> to create a new type description instance within the library. An error is returned if the specified name already appears in the library. Valid <i>tkind</i> values are described in TYPEKIND. To get the type information of the type description that is being created, call <code>IUnknown::QueryInterface(IID_ITypeInfo, ...)</code> on the returned <b>ICreateTypeLib</b>. This type information can be used by other type descriptions that reference it by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">ICreateTypeInfo::AddRefTypeInfo</a>.
-
-
-
-
+Use <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> to create a new type description instance within the library. An error is returned if the specified name already appears in the library. Valid <i>tkind</i> values are described in TYPEKIND. To get the type information of the type description that is being created, call <code>IUnknown::QueryInterface(IID_ITypeInfo, ...)</code> on the returned <b>ICreateTypeLib</b>. This type information can be used by other type descriptions that reference it by using <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypeinfo-addreftypeinfo">ICreateTypeInfo::AddRefTypeInfo</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>

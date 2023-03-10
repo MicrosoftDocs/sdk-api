@@ -2,15 +2,12 @@
 UID: NF:shlwapi.StrFormatByteSizeEx
 title: StrFormatByteSizeEx function (shlwapi.h)
 description: Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size.
+helpviewer_keywords: ["StrFormatByteSizeEx","StrFormatByteSizeEx function [Windows Shell]","_win32_StrFormatByteSizeEx","shell.StrFormatByteSizeEx","shlwapi/StrFormatByteSizeEx"]
 old-location: shell\StrFormatByteSizeEx.htm
 tech.root: shell
 ms.assetid: 9ecc6427-e7bb-43ec-ab78-665ef52f8b10
 ms.date: 12/05/2018
 ms.keywords: StrFormatByteSizeEx, StrFormatByteSizeEx function [Windows Shell], _win32_StrFormatByteSizeEx, shell.StrFormatByteSizeEx, shlwapi/StrFormatByteSizeEx
-f1_keywords:
-- shlwapi/StrFormatByteSizeEx
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- StrFormatByteSizeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StrFormatByteSizeEx
+ - shlwapi/StrFormatByteSizeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - StrFormatByteSizeEx
 ---
 
 # StrFormatByteSizeEx function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Extends <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> by offering the option to round to the nearest displayed digit or to discard undisplayed digits.
-
+Converts a numeric value into a string that represents the number in bytes, kilobytes, megabytes, or gigabytes, depending on the size. Extends <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a> by offering the option to round to the nearest displayed digit or to discard undisplayed digits.
 
 ## -parameters
-
-
-
 
 ### -param ull
 
@@ -65,13 +62,11 @@ Type: <b>ULONGLONG</b>
 
 The numeric value to be converted.
 
-
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a></b>
 
-One of the <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
-
+One of the <a href="/windows/win32/api/shlwapi/ne-shlwapi-tagsfbs_flags">SFBS_FLAGS</a> enumeration values that specifies whether to round or truncate undisplayed digits. This value cannot be NULL.
 
 ### -param pszBuf [out]
 
@@ -79,28 +74,19 @@ Type: <b>PWSTR</b>
 
 A pointer to a buffer that receives the converted string.
 
-
 ### -param cchBuf
 
 Type: <b>UINT</b>
 
 The size of the buffer pointed to by <i>pszBuf</i>, in characters.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The following table illustrates how this function converts a numeric value into a text string in relation to the passed flag.
 
@@ -125,24 +111,14 @@ The following table illustrates how this function converts a numeric value into 
 
 In Windows 10, size is reported in base 10 rather than  base 2. For example, 1 KB is 1000 bytes rather than 1024.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesize64a">StrFormatByteSize64</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizea">StrFormatByteSizeA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strformatbytesizew">StrFormatByteSizeW</a>

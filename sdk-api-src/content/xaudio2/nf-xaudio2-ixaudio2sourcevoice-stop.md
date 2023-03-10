@@ -2,15 +2,12 @@
 UID: NF:xaudio2.IXAudio2SourceVoice.Stop
 title: IXAudio2SourceVoice::Stop (xaudio2.h)
 description: Stops consumption of audio by the current voice.
+helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","Stop method","IXAudio2SourceVoice.Stop","IXAudio2SourceVoice::Stop","Stop","Stop method [XAudio2 Audio Mixing APIs]","Stop method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_stop","xaudio2/IXAudio2SourceVoice::Stop"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_stop.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Stop(UINT32,UINT32)
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Stop method, IXAudio2SourceVoice.Stop, IXAudio2SourceVoice::Stop, Stop, Stop method [XAudio2 Audio Mixing APIs], Stop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_stop, xaudio2/IXAudio2SourceVoice::Stop
-f1_keywords:
-- xaudio2/IXAudio2SourceVoice.Stop
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.h
-api_name:
-- IXAudio2SourceVoice.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2SourceVoice::Stop
+ - xaudio2/IXAudio2SourceVoice::Stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.h
+api_name:
+ - IXAudio2SourceVoice.Stop
 ---
 
 # IXAudio2SourceVoice::Stop
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops consumption of audio by the current voice.
 
-
 ## -parameters
-
-
-
 
 ### -param X2DEFAULT
 
 TBD
 
-
-
-
-#### - Flags [in]
+### -param Flags [in]
 
 Flags that control how the voice is stopped. Can be 0 or the following: 
 
@@ -79,28 +73,18 @@ Flags that control how the voice is stopped. Can be 0 or the following:
 <td>Continue emitting effect output after the voice is stopped. </td>
 </tr>
 </table>
- 
 
+### -param OperationSet [in]
 
-#### - OperationSet [in]
-
-Identifies this call as part of a deferred batch. See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information.
-
+Identifies this call as part of a deferred batch. See the <a href="/windows/desktop/xaudio2/xaudio2-operation-sets">XAudio2 Operation Sets</a> overview for more information.
 
 ## -returns
 
-
-
-Returns S_OK if successful, an error code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
-
-
-
+Returns S_OK if successful, an error code otherwise. See <a href="/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
 
 ## -remarks
 
-
-
-All source buffers that are queued on the voice and the current cursor position are preserved. This allows the voice to continue from where it left off, when it is restarted. The <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-flushsourcebuffers">IXAudio2SourceVoice::FlushSourceBuffers</a> method can be used to flush queued source buffers.
+All source buffers that are queued on the voice and the current cursor position are preserved. This allows the voice to continue from where it left off, when it is restarted. The <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-flushsourcebuffers">IXAudio2SourceVoice::FlushSourceBuffers</a> method can be used to flush queued source buffers.
 
 
 
@@ -121,20 +105,10 @@ A voice stopped with the XAUDIO2_PLAY_TAILS flag stops consuming source buffers,
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>

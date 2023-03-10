@@ -2,15 +2,12 @@
 UID: NS:cryptxml._CRYPT_XML_KEY_RSA_KEY_VALUE
 title: CRYPT_XML_KEY_RSA_KEY_VALUE (cryptxml.h)
 description: Defines an RSA key value. The CRYPT_XML_KEY_RSA_KEY_VALUE structure is used as element of the key value union in the CRYPT_XML_KEY_VALUE structure.
+helpviewer_keywords: ["CRYPT_XML_KEY_RSA_KEY_VALUE","CRYPT_XML_KEY_RSA_KEY_VALUE structure [Security]","cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE","security.crypt_xml_key_rsa_key_value"]
 old-location: security\crypt_xml_key_rsa_key_value.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e2b1344d-c108-4255-bd50-06d742ed67a8
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_RSA_KEY_VALUE, CRYPT_XML_KEY_RSA_KEY_VALUE structure [Security], cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE, security.crypt_xml_key_rsa_key_value
-f1_keywords:
-- cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cryptxml.h
-api_name:
-- CRYPT_XML_KEY_RSA_KEY_VALUE
 targetos: Windows
 req.typenames: CRYPT_XML_KEY_RSA_KEY_VALUE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_XML_KEY_RSA_KEY_VALUE
+ - cryptxml/_CRYPT_XML_KEY_RSA_KEY_VALUE
+ - CRYPT_XML_KEY_RSA_KEY_VALUE
+ - cryptxml/CRYPT_XML_KEY_RSA_KEY_VALUE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cryptxml.h
+api_name:
+ - CRYPT_XML_KEY_RSA_KEY_VALUE
 ---
 
 # CRYPT_XML_KEY_RSA_KEY_VALUE structure
@@ -48,21 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure defines an RSA key value.  The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure is used as element of the key value union  in the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
-
+The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure defines an RSA key value.  The <b>CRYPT_XML_KEY_RSA_KEY_VALUE</b> structure is used as element of the key value union  in the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure.
 
 ## -struct-fields
 
-
-
-
 ### -field Modulus
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> modulus data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the <a href="/windows/desktop/SecGloss/p-gly">public key</a> modulus data.
 
 ### -field Exponent
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the public key exponent data.
-
+A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the public key exponent data.

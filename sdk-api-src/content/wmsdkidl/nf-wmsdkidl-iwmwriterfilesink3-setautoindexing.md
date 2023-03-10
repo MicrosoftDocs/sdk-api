@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetAutoIndexing
 title: IWMWriterFileSink3::SetAutoIndexing (wmsdkidl.h)
 description: The SetAutoIndexing method enables or disables automatic indexing of the file.
+helpviewer_keywords: ["IWMWriterFileSink3 interface [windows Media Format]","SetAutoIndexing method","IWMWriterFileSink3.SetAutoIndexing","IWMWriterFileSink3::SetAutoIndexing","IWMWriterFileSink3SetAutoIndexing","SetAutoIndexing","SetAutoIndexing method [windows Media Format]","SetAutoIndexing method [windows Media Format]","IWMWriterFileSink3 interface","wmformat.iwmwriterfilesink3_setautoindexing","wmsdkidl/IWMWriterFileSink3::SetAutoIndexing"]
 old-location: wmformat\iwmwriterfilesink3_setautoindexing.htm
 tech.root: wmformat
 ms.assetid: 6c8f1c25-d752-42b6-87b7-9d6a6e38642f
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetAutoIndexing method, IWMWriterFileSink3.SetAutoIndexing, IWMWriterFileSink3::SetAutoIndexing, IWMWriterFileSink3SetAutoIndexing, SetAutoIndexing, SetAutoIndexing method [windows Media Format], SetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setautoindexing, wmsdkidl/IWMWriterFileSink3::SetAutoIndexing
-f1_keywords:
-- wmsdkidl/IWMWriterFileSink3.SetAutoIndexing
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterFileSink3.SetAutoIndexing
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterFileSink3::SetAutoIndexing
+ - wmsdkidl/IWMWriterFileSink3::SetAutoIndexing
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterFileSink3.SetAutoIndexing
 ---
 
 # IWMWriterFileSink3::SetAutoIndexing
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetAutoIndexing</b> method enables or disables automatic indexing of the file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fDoAutoIndexing [in]
 
 Boolean value that is True to automatically index the file.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,14 +93,8 @@ The header has already been received
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The state of automatic indexing must be set before the header is processed. After the header has been processed, any call to <b>SetAutoIndexing</b> results in an error.
 
@@ -117,24 +102,14 @@ Files are indexed by default. To disable indexing, you must call this method, pa
 
 If you generate an ASF file using bit-rate mutual exclusion for audio content (multiple bit-rate audio), the resulting indexed file will not work with Windows Media Services version 4.1. If you want to stream your file using Windows Media Services 4.1, you must disable automatic indexing before writing the file.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-getautoindexing">IWMWriterFileSink3::GetAutoIndexing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-getautoindexing">IWMWriterFileSink3::GetAutoIndexing</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/working-with-indexes">Working with Indexes</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/working-with-indexes">Working with Indexes</a>

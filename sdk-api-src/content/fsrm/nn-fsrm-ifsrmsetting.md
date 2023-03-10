@@ -2,15 +2,12 @@
 UID: NN:fsrm.IFsrmSetting
 title: IFsrmSetting (fsrm.h)
 description: Used to configure FSRM.
+helpviewer_keywords: ["IFsrmSetting","IFsrmSetting interface [File Server Resource Manager]","IFsrmSetting interface [File Server Resource Manager]","described","fs.ifsrmsetting","fsrm.ifsrmsetting","fsrm/IFsrmSetting"]
 old-location: fsrm\ifsrmsetting.htm
 tech.root: fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
 ms.date: 12/05/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
-f1_keywords:
-- fsrm/IFsrmSetting
-dev_langs:
-- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmSetting
+ - fsrm/IFsrmSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmSetting
 ---
 
 # IFsrmSetting interface
@@ -48,155 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to configure FSRM.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmSetting</b> as the class identifier and 
     <code>__uuidof(IFsrmSetting)</code> as the interface identifier.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul>
-
-## -members
-
-The <b>IFsrmSetting</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-emailtest">EmailTest</a>
-</td>
-<td align="left" width="63%">
-Send a test email to the specified email address.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-getactionrunlimitinterval">GetActionRunLimitInterval</a>
-</td>
-<td align="left" width="63%">
-Gets the time that an action that uses the global run limit interval must wait before the action is run 
-     again.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-setactionrunlimitinterval">SetActionRunLimitInterval</a>
-</td>
-<td align="left" width="63%">
-Sets the time that an action that uses the global run limit interval must wait before the action is run 
-     again.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmSetting</b> interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_adminemail">AdminEmail</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Retrieves or sets the email address for the administrator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_disablecommandline">DisableCommandLine</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Retrieves or sets a value that determines whether FSRM prevents command line actions from running.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_enablescreeningaudit">EnableScreeningAudit</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Retrieves or sets a value that determines whether FSRM keeps audit records of the file screen 
-     violations.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_mailfrom">MailFrom</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Retrieves or sets the default email address from which email messages are sent.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmsetting-get_smtpserver">SmtpServer</a>
-
-
-</td>
-<td align="left" width="10%">
-Read/write
-
-</td>
-<td align="left" width="63%">
-Retrieves or sets the SMTP server that FSRM uses to send email.
-
-</td>
-</tr>
-</table> 
-
+The <b>IFsrmSetting</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmSetting</b> also has these types of members:
 
 ## -remarks
-
-
 
 To create this object from a script, use the program identifier, "Fsrm.FsrmSetting".
 
@@ -370,21 +235,10 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/fsrmsetting">FsrmSetting</a>

@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerCreatePossibleSetting
 title: PowerCreatePossibleSetting function (powrprof.h)
 description: Creates a possible setting value for a specified power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerCreatePossibleSetting","PowerCreatePossibleSetting function","base.powercreatepossiblesetting","powrprof/PowerCreatePossibleSetting"]
 old-location: base\powercreatepossiblesetting.htm
-tech.root: power
+tech.root: base
 ms.assetid: a7297dbe-8ea5-4097-a0b3-2740f99acbaf
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerCreatePossibleSetting, PowerCreatePossibleSetting function, base.powercreatepossiblesetting, powrprof/PowerCreatePossibleSetting
-f1_keywords:
-- powrprof/PowerCreatePossibleSetting
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerCreatePossibleSetting
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerCreatePossibleSetting
+ - powrprof/PowerCreatePossibleSetting
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerCreatePossibleSetting
 ---
 
 # PowerCreatePossibleSetting function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a possible setting value for a specified power setting.
 
-
 ## -parameters
-
-
-
 
 ### -param RootSystemPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in]
 
@@ -160,36 +156,20 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in]
 
 The identifier of the power setting that is being created.
 
-
 ### -param PossibleSettingIndex [in]
 
 The zero-based index for the possible setting being created.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

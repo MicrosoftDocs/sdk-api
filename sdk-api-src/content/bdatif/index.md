@@ -4,9 +4,12 @@ title: Bdatif.h header
 ms.assetid: 2908eece-5a41-3897-a208-4bc229e3e9c4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mstv
 archived: true
+f1_keywords:
+ - bdatif
+ - bdatif/bdatif
 ---
 
 # Bdatif.h header
@@ -14,8 +17,7 @@ archived: true
 
 ## -description
 
-
 This header is used by Microsoft TV Technologies. For more information, see:
 
-- [Microsoft TV Technologies](../_mstv/index.md)
+- [Microsoft TV Technologies](https://learn.microsoft.com/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)
 

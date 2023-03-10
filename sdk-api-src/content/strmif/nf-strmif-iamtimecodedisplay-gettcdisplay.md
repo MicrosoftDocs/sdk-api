@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMTimecodeDisplay.GetTCDisplay
 title: IAMTimecodeDisplay::GetTCDisplay (strmif.h)
 description: The GetTCDisplay method retrieves current settings of the timecode character generator output.
+helpviewer_keywords: ["GetTCDisplay","GetTCDisplay method [DirectShow]","GetTCDisplay method [DirectShow]","IAMTimecodeDisplay interface","IAMTimecodeDisplay interface [DirectShow]","GetTCDisplay method","IAMTimecodeDisplay.GetTCDisplay","IAMTimecodeDisplay::GetTCDisplay","IAMTimecodeDisplayGetTCDisplay","dshow.iamtimecodedisplay_gettcdisplay","strmif/IAMTimecodeDisplay::GetTCDisplay"]
 old-location: dshow\iamtimecodedisplay_gettcdisplay.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3da33500-1b1d-4818-b69b-74f302614349
 ms.date: 12/05/2018
 ms.keywords: GetTCDisplay, GetTCDisplay method [DirectShow], GetTCDisplay method [DirectShow],IAMTimecodeDisplay interface, IAMTimecodeDisplay interface [DirectShow],GetTCDisplay method, IAMTimecodeDisplay.GetTCDisplay, IAMTimecodeDisplay::GetTCDisplay, IAMTimecodeDisplayGetTCDisplay, dshow.iamtimecodedisplay_gettcdisplay, strmif/IAMTimecodeDisplay::GetTCDisplay
-f1_keywords:
-- strmif/IAMTimecodeDisplay.GetTCDisplay
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMTimecodeDisplay.GetTCDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMTimecodeDisplay::GetTCDisplay
+ - strmif/IAMTimecodeDisplay::GetTCDisplay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMTimecodeDisplay.GetTCDisplay
 ---
 
 # IAMTimecodeDisplay::GetTCDisplay
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetTCDisplay</code> method retrieves current settings of the timecode character generator output.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Param [in]
 
@@ -101,8 +95,6 @@ Timecode display characteristic. Specify one of the following items you want to 
 <td>Transparency of characters.</td>
 </tr>
 </table>
- 
-
 
 ### -param pValue [out]
 
@@ -260,33 +252,19 @@ If ED_TCD_BORDER specified in <i>Param</i>, will return one of the following.
 <td>White border for black characters</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodedisplay">IAMTimecodeDisplay Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodedisplay">IAMTimecodeDisplay Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplay">IAMTimecodeDisplay::SetTCDisplay</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-settcdisplay">IAMTimecodeDisplay::SetTCDisplay</a>

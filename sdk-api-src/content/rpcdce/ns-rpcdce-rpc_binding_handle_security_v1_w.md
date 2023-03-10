@@ -1,16 +1,13 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_SECURITY_V1_W
 title: RPC_BINDING_HANDLE_SECURITY_V1_W (rpcdce.h)
-description: Contains the basic security options with which to create an RPC binding handle.
+description: Contains the basic security options with which to create an RPC binding handle. (Unicode)
+helpviewer_keywords: ["*PRPC_BINDING_HANDLE_SECURITY_V1_W","RPC_BINDING_HANDLE_SECURITY","RPC_BINDING_HANDLE_SECURITY structure [RPC]","RPC_BINDING_HANDLE_SECURITY_V1","RPC_BINDING_HANDLE_SECURITY_V1 structure [RPC]","RPC_BINDING_HANDLE_SECURITY_V1_A","RPC_BINDING_HANDLE_SECURITY_V1_W","_RPC_BINDING_HANDLE_SECURITY_V1_A","_RPC_BINDING_HANDLE_SECURITY_V1_W","rpc.rpc_binding_handle_security_v1","rpcdce/RPC_BINDING_HANDLE_SECURITY","rpcdce/RPC_BINDING_HANDLE_SECURITY_V1"]
 old-location: rpc\rpc_binding_handle_security_v1.htm
 tech.root: Rpc
 ms.assetid: b8ea2e96-2e7e-428c-a5cd-dfe9dd341063
 ms.date: 12/05/2018
 ms.keywords: '*PRPC_BINDING_HANDLE_SECURITY_V1_W, RPC_BINDING_HANDLE_SECURITY, RPC_BINDING_HANDLE_SECURITY structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1, RPC_BINDING_HANDLE_SECURITY_V1 structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1_A, RPC_BINDING_HANDLE_SECURITY_V1_W, _RPC_BINDING_HANDLE_SECURITY_V1_A, _RPC_BINDING_HANDLE_SECURITY_V1_W, rpc.rpc_binding_handle_security_v1, rpcdce/RPC_BINDING_HANDLE_SECURITY, rpcdce/RPC_BINDING_HANDLE_SECURITY_V1'
-f1_keywords:
-- rpcdce/RPC_BINDING_HANDLE_SECURITY_V1
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_BINDING_HANDLE_SECURITY_V1
-- RPC_BINDING_HANDLE_SECURITY_V1_A
-- RPC_BINDING_HANDLE_SECURITY_V1_W
 targetos: Windows
 req.typenames: RPC_BINDING_HANDLE_SECURITY_V1_W, *PRPC_BINDING_HANDLE_SECURITY_V1_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RPC_BINDING_HANDLE_SECURITY_V1_W
+ - rpcdce/_RPC_BINDING_HANDLE_SECURITY_V1_W
+ - PRPC_BINDING_HANDLE_SECURITY_V1_W
+ - rpcdce/PRPC_BINDING_HANDLE_SECURITY_V1_W
+ - RPC_BINDING_HANDLE_SECURITY_V1_W
+ - rpcdce/RPC_BINDING_HANDLE_SECURITY_V1_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_BINDING_HANDLE_SECURITY_V1
+ - RPC_BINDING_HANDLE_SECURITY_V1_A
+ - RPC_BINDING_HANDLE_SECURITY_V1_W
 ---
 
 # RPC_BINDING_HANDLE_SECURITY_V1_W structure
@@ -50,32 +56,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RPC_BINDING_HANDLE_SECURITY_V1</b> structure contains the basic security options with which to create an RPC binding handle.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. For <b>RPC_BINDING_HANDLE_SECURITY_V1</b> this must be set to 1.
 
-
 ### -field ServerPrincName
 
-Pointer to a string that contains the server principal name referenced by the binding handle. The content of the name and its syntax are defined by the authentication service in use. 
-
+Pointer to a string that contains the server principal name referenced by the binding handle. The content of the name and its syntax are defined by the authentication service in use.
 
 ### -field AuthnLevel
 
 Level of authentication to be performed on remote procedure calls made using this binding handle. For a list of the RPC-supported authentication levels, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>.
 
 If <i>AuthnSvc</i> is set to RPC_C_AUTHN_NONE, this member must likewise be set to RPC_C_AUTHN_NONE.
-
 
 ### -field AuthnSvc
 
@@ -90,30 +88,24 @@ If RPC_C_AUTHN_DEFAULT is specified, the RPC run-time library uses the RPC_C_AUT
 
 If <i>AuthnLevel</i> is set to RPC_C_AUTHN_NONE, this member must likewise be set to RPC_C_AUTHN_NONE.
 
-
 ### -field AuthIdentity
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the client's authentication and authorization credentials appropriate for the selected authentication and authorization service.
-
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the client's authentication and authorization credentials appropriate for the selected authentication and authorization service.
 
 ### -field SecurityQos
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure that contains the security quality-of-service settings for the binding handle. 
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a> structure that contains the security quality-of-service settings for the binding handle. 
 
 
 
 
 <div class="alert"><b>Note</b>  For a list of the RPC-supported authentication services, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>.</div>
+<a href="/windows/desktop/Rpc/authentication-service-constants">Authentication-Service Constants</a>.</div>
 <div> </div>
 
 ## -remarks
 
-
-
-If this structure is not passed to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a> -- that is, if the <i>Security</i> parameter of <b>RpcBindingCreate</b> is set to <b>NULL</b> -- then the following default security behaviors are assumed:
+If this structure is not passed to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a> -- that is, if the <i>Security</i> parameter of <b>RpcBindingCreate</b> is set to <b>NULL</b> -- then the following default security behaviors are assumed:
 
 
 <ul>
@@ -127,7 +119,7 @@ If the call is local, RPC uses the security mechanisms provided by the Named Pip
 </ul>
 
 
-The following table summarizes the default security settings for the different protocol sequences if the <i>Security</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a> is set to <b>NULL</b>.
+The following table summarizes the default security settings for the different protocol sequences if the <i>Security</i> parameter of <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a> is set to <b>NULL</b>.
 
 <table>
 <tr>
@@ -189,32 +181,23 @@ The following table summarizes the default security settings for the different p
 </table>
  
 
-<div class="alert"><b>Note</b>  If you create your binding handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a> API, the default identity tracking for ncalrpc in the absence of specific security settings is dynamic. <p class="note">If you create a fast binding handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a> API, the default identity tracking for ncalrpc in the absence of specific security settings is static.
+<div class="alert"><b>Note</b>  If you create your binding handle by calling the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a> API, the default identity tracking for ncalrpc in the absence of specific security settings is dynamic. <p class="note">If you create a fast binding handle by calling the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a> API, the default identity tracking for ncalrpc in the absence of specific security settings is static.
 
 <p class="note">You should be aware of the differences in these two APIs if you are switching between them in your application.
 
-<p class="note">After the binding handle is created, the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> APIs can be used to change the settings of the binding handle set with this structure.
+<p class="note">After the binding handle is created, the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> and <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> APIs can be used to change the settings of the binding handle set with this structure.
 
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>

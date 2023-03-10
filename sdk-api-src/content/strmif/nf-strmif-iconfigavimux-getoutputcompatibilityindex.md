@@ -2,16 +2,12 @@
 UID: NF:strmif.IConfigAviMux.GetOutputCompatibilityIndex
 title: IConfigAviMux::GetOutputCompatibilityIndex (strmif.h)
 description: The GetOutputCompatibilityIndex method retrieves the setting for the AVI index format.
+helpviewer_keywords: ["GetOutputCompatibilityIndex","GetOutputCompatibilityIndex method [DirectShow]","GetOutputCompatibilityIndex method [DirectShow]","IConfigAviMux interface","IConfigAviMux interface [DirectShow]","GetOutputCompatibilityIndex method","IConfigAviMux.GetOutputCompatibilityIndex","IConfigAviMux::GetOutputCompatibilityIndex","IConfigAviMuxGetOutputCompatibilityIndex","dshow.iconfigavimux_getoutputcompatibilityindex","strmif/IConfigAviMux::GetOutputCompatibilityIndex"]
 old-location: dshow\iconfigavimux_getoutputcompatibilityindex.htm
 tech.root: DirectShow
 ms.assetid: 723f1662-4f1a-408b-a737-9095e7c14c4f
 ms.date: 12/05/2018
 ms.keywords: GetOutputCompatibilityIndex, GetOutputCompatibilityIndex method [DirectShow], GetOutputCompatibilityIndex method [DirectShow],IConfigAviMux interface, IConfigAviMux interface [DirectShow],GetOutputCompatibilityIndex method, IConfigAviMux.GetOutputCompatibilityIndex, IConfigAviMux::GetOutputCompatibilityIndex, IConfigAviMuxGetOutputCompatibilityIndex, dshow.iconfigavimux_getoutputcompatibilityindex, strmif/IConfigAviMux::GetOutputCompatibilityIndex
-ms.topic: method
-f1_keywords:
-- strmif/IConfigAviMux.GetOutputCompatibilityIndex
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -29,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IConfigAviMux.GetOutputCompatibilityIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigAviMux::GetOutputCompatibilityIndex
+ - strmif/IConfigAviMux::GetOutputCompatibilityIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IConfigAviMux.GetOutputCompatibilityIndex
 ---
 
 # IConfigAviMux::GetOutputCompatibilityIndex
@@ -50,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetOutputCompatibilityIndex</code> method retrieves the setting for the AVI index format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfOldIndex [out]
 
@@ -82,12 +75,8 @@ Receives one of the following values.
 <td>Create an AVI 2.0 index, but not an AVI 1.0 index.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -119,35 +108,19 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The AVI Mux filter always creates an AVI 2.0 index ('indx' format). If the value returned in <i>pfOldIndex</i> is <b>TRUE</b>, the AVI Mux also creates an AVI 1.0 index ('idx1' format), for backward compatibility with Video for Windows.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iconfigavimux">IConfigAviMux Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iconfigavimux">IConfigAviMux Interface</a>
-
-
-
-[IConfigAviMux::SetOutputCompatibilityIndex](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex)
- 
-
- 
-
+[IConfigAviMux::SetOutputCompatibilityIndex](/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex)

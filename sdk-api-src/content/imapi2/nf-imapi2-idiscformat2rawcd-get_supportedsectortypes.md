@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedSectorTypes
 title: IDiscFormat2RawCD::get_SupportedSectorTypes (imapi2.h)
 description: Retrieves the supported data sector types for the current recorder.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_SupportedSectorTypes method","IDiscFormat2RawCD.get_SupportedSectorTypes","IDiscFormat2RawCD::get_SupportedSectorTypes","get_SupportedSectorTypes","get_SupportedSectorTypes method [IMAPI]","get_SupportedSectorTypes method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_supportedsectortypes","imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes"]
 old-location: imapi\idiscformat2rawcd_get_supportedsectortypes.htm
 tech.root: imapi
 ms.assetid: d217e585-3ff4-4f02-8a13-7cfca767f201
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedSectorTypes method, IDiscFormat2RawCD.get_SupportedSectorTypes, IDiscFormat2RawCD::get_SupportedSectorTypes, get_SupportedSectorTypes, get_SupportedSectorTypes method [IMAPI], get_SupportedSectorTypes method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedsectortypes, imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.get_SupportedSectorTypes
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.get_SupportedSectorTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::get_SupportedSectorTypes
+ - imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.get_SupportedSectorTypes
 ---
 
 # IDiscFormat2RawCD::get_SupportedSectorTypes
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the supported data sector types for the current recorder.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 List of data sector types for the current recorder. Each element of the list is a <b>VARIANT</b> of type <b>VT_UI4</b>. The <b>ulVal</b> member of the variant contains the data sector type. 
 
-For a list of values of supported sector types, see <a href="https://docs.microsoft.com/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>.
-
+For a list of values of supported sector types, see <a href="/windows/win32/api/imapi2/ne-imapi2-imapi_format2_raw_cd_data_sector_type">IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE</a>.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -95,7 +89,7 @@ Value: 0x80070057
 </dl>
 </td>
 <td width="60%">
-The returned pointer is not valid. This value can also indicate that the recorder has not yet been set with <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a>. 
+The returned pointer is not valid. This value can also indicate that the recorder has not yet been set with <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_recorder">IDiscFormat2RawCD::put_Recorder</a>. 
 
 Value: 0x80004003
 
@@ -349,22 +343,11 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype">IDiscFormat2RawCD::get_RequestedSectorType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedsectortype">IDiscFormat2RawCD::get_RequestedSectorType</a>

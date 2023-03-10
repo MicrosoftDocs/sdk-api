@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocNetwork.GetSignalQuality
 title: IDot11AdHocNetwork::GetSignalQuality (adhoc.h)
 description: Gets the signal quality values associated with the network's radio.
+helpviewer_keywords: ["GetSignalQuality","GetSignalQuality method [NativeWIFI]","GetSignalQuality method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","GetSignalQuality method","IDot11AdHocNetwork.GetSignalQuality","IDot11AdHocNetwork::GetSignalQuality","adhoc/IDot11AdHocNetwork::GetSignalQuality","nwifi.idot11adhocnetwork_getsignalquality"]
 old-location: nwifi\idot11adhocnetwork_getsignalquality.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: be31a2ed-c9ba-4894-a295-a88e01639891
 ms.date: 12/05/2018
 ms.keywords: GetSignalQuality, GetSignalQuality method [NativeWIFI], GetSignalQuality method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSignalQuality method, IDot11AdHocNetwork.GetSignalQuality, IDot11AdHocNetwork::GetSignalQuality, adhoc/IDot11AdHocNetwork::GetSignalQuality, nwifi.idot11adhocnetwork_getsignalquality
-f1_keywords:
-- adhoc/IDot11AdHocNetwork.GetSignalQuality
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocNetwork.GetSignalQuality
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocNetwork::GetSignalQuality
+ - adhoc/IDot11AdHocNetwork::GetSignalQuality
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocNetwork.GetSignalQuality
 ---
 
 # IDot11AdHocNetwork::GetSignalQuality
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the signal quality values associated with the network's radio.
 
-
 ## -parameters
-
-
-
 
 ### -param puStrengthValue [out]
 
 The current signal strength. This parameter takes a ULONG value between 0 and <i>puStrengthMax</i>.
 
-
 ### -param puStrengthMax [out]
 
 The maximum signal strength value. This parameter takes a ULONG value between 0 and 100. By default, <i>puStrengthMax</i> is set to 100.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -134,27 +127,11 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Signal strength, in this context, is measured on a linear scale. When <i>puStrengthMax</i> is set to the default value of 100, <i>puStrengthValue</i> represents the  percentage of the maximum signal strength currently used for transmission.  
-
-
-
+Signal strength, in this context, is measured on a linear scale. When <i>puStrengthMax</i> is set to the default value of 100, <i>puStrengthValue</i> represents the  percentage of the maximum signal strength currently used for transmission.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>

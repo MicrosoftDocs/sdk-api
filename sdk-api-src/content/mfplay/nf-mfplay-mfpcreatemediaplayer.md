@@ -2,15 +2,12 @@
 UID: NF:mfplay.MFPCreateMediaPlayer
 title: MFPCreateMediaPlayer function (mfplay.h)
 description: Creates a new instance of the MFPlay player object.
+helpviewer_keywords: ["MFPCreateMediaPlayer","MFPCreateMediaPlayer function [Media Foundation]","mf.mfpcreatemediaplayer","mfplay/MFPCreateMediaPlayer"]
 old-location: mf\mfpcreatemediaplayer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 80c668e2-5e93-4af2-871c-646228e18717
 ms.date: 12/05/2018
 ms.keywords: MFPCreateMediaPlayer, MFPCreateMediaPlayer function [Media Foundation], mf.mfpcreatemediaplayer, mfplay/MFPCreateMediaPlayer
-f1_keywords:
-- mfplay/MFPCreateMediaPlayer
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplay.lib
 req.dll: Mfplay.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplay.dll
-api_name:
-- MFPCreateMediaPlayer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFPCreateMediaPlayer
+ - mfplay/MFPCreateMediaPlayer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplay.dll
+api_name:
+ - MFPCreateMediaPlayer
 ---
 
 # MFPCreateMediaPlayer function
@@ -48,91 +50,63 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Creates a new instance of the MFPlay player object.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszURL [in]
 
 Null-terminated string that contains the URL  of a media file to open. This parameter can be <b>NULL</b>. If the parameter is <b>NULL</b>, <i>fStartPlayback</i> must be <b>FALSE</b>.
 
-If this parameter is <b>NULL</b>, you can open a URL later by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a>.
-
+If this parameter is <b>NULL</b>, you can open a URL later by calling <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl">IMFPMediaPlayer::CreateMediaItemFromURL</a>.
 
 ### -param fStartPlayback [in]
 
-If <b>TRUE</b>, playback starts automatically. If <b>FALSE</b>, playback does not start until the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-play">IMFMediaPlayer::Play</a>.
+If <b>TRUE</b>, playback starts automatically. If <b>FALSE</b>, playback does not start until the application calls <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-play">IMFMediaPlayer::Play</a>.
 
 If <i>pwszURL</i> is <b>NULL</b>, this parameter is ignored.
 
-
 ### -param creationOptions [in]
 
-Bitwise <b>OR</b> of zero of more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfplay/ne-mfplay-_mfp_creation_options">_MFP_CREATION_OPTIONS</a> enumeration.
-
+Bitwise <b>OR</b> of zero of more flags from the <a href="/windows/win32/api/mfplay/ne-mfplay-_mfp_creation_options">_MFP_CREATION_OPTIONS</a> enumeration.
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> interface of a callback object, implemented by the application. Use this interface to get event notifications from the MFPlay player object. This parameter can be <b>NULL</b>. If  the parameter is <b>NULL</b>, the application will not receive  event notifications from the player object.
-
+Pointer to the <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayercallback">IMFPMediaPlayerCallback</a> interface of a callback object, implemented by the application. Use this interface to get event notifications from the MFPlay player object. This parameter can be <b>NULL</b>. If  the parameter is <b>NULL</b>, the application will not receive  event notifications from the player object.
 
 ### -param hWnd [in]
 
 A handle to a window where the video will appear. For audio-only playback, this parameter can be <b>NULL</b>.
 
-The window specified by <i>hWnd</i> is used for the first selected video stream in the source. If the source has multiple video streams, you must call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamsink">IMFPMediaItem::SetStreamSink</a> to render any of the video streams after the first.
+The window specified by <i>hWnd</i> is used for the first selected video stream in the source. If the source has multiple video streams, you must call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamsink">IMFPMediaItem::SetStreamSink</a> to render any of the video streams after the first.
 
-If <i>hWnd</i> is <b>NULL</b>, MFPlay will not display any video unless the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamsink">IMFPMediaItem::SetStreamSink</a> to specify a media sink for the video stream. 
-
+If <i>hWnd</i> is <b>NULL</b>, MFPlay will not display any video unless the application calls <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstreamsink">IMFPMediaItem::SetStreamSink</a> to specify a media sink for the video stream.
 
 ### -param ppMediaPlayer [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a> interface. The caller must release the interface. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, <i>fStartPlayback</i> must be <b>TRUE</b> and <i>pwszURL</i> cannot be <b>NULL</b>.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a> interface. The caller must release the interface. This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, <i>fStartPlayback</i> must be <b>TRUE</b> and <i>pwszURL</i> cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Before calling this function, call <b>CoIntialize(Ex)</b> from the same thread to initialize the COM library.
 
-Internally, <b>MFPCreateMediaPlayer</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> to initialize the Microsoft Media Foundation platform. When the player object is destroyed, it calls  <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> to shut down the platform. It is not necessary for an application to call <b>MFStartup</b> or <b>MFShutdown</b> when using MFPlay.
+Internally, <b>MFPCreateMediaPlayer</b> calls <a href="/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> to initialize the Microsoft Media Foundation platform. When the player object is destroyed, it calls  <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> to shut down the platform. It is not necessary for an application to call <b>MFStartup</b> or <b>MFShutdown</b> when using MFPlay.
 
-<div class="alert"><b>Note</b>  If you use other Media Foundation APIs outside the life time of the player object, then your application should call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a>.</div>
+<div class="alert"><b>Note</b>  If you use other Media Foundation APIs outside the life time of the player object, then your application should call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfstartup">MFStartup</a> and <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_Encoder.EnumVideoCapability
 title: IBDA_Encoder::EnumVideoCapability (bdaiface.h)
 description: Gets one of the video formats supported by the device.
+helpviewer_keywords: ["EnumVideoCapability","EnumVideoCapability method [Microsoft TV Technologies]","EnumVideoCapability method [Microsoft TV Technologies]","IBDA_Encoder interface","IBDA_Encoder interface [Microsoft TV Technologies]","EnumVideoCapability method","IBDA_Encoder.EnumVideoCapability","IBDA_Encoder::EnumVideoCapability","PBDA_Encoder_Video_AVC","PBDA_Encoder_Video_H264","PBDA_Encoder_Video_MPEG2PartII","PBDA_Encoder_Video_MPEG4Part10","bdaiface/IBDA_Encoder::EnumVideoCapability","mstv.ibda_encoder_enumvideocapability"]
 old-location: mstv\ibda_encoder_enumvideocapability.htm
 tech.root: mstv
 ms.assetid: 81a780d3-1b1c-4c9a-9b4b-cb82f83fb7d6
 ms.date: 12/05/2018
 ms.keywords: EnumVideoCapability, EnumVideoCapability method [Microsoft TV Technologies], EnumVideoCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumVideoCapability method, IBDA_Encoder.EnumVideoCapability, IBDA_Encoder::EnumVideoCapability, PBDA_Encoder_Video_AVC, PBDA_Encoder_Video_H264, PBDA_Encoder_Video_MPEG2PartII, PBDA_Encoder_Video_MPEG4Part10, bdaiface/IBDA_Encoder::EnumVideoCapability, mstv.ibda_encoder_enumvideocapability
-f1_keywords:
-- bdaiface/IBDA_Encoder.EnumVideoCapability
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_Encoder.EnumVideoCapability
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_Encoder::EnumVideoCapability
+ - bdaiface/IBDA_Encoder::EnumVideoCapability
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_Encoder.EnumVideoCapability
 ---
 
 # IBDA_Encoder::EnumVideoCapability
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets one of the video formats supported by the device.
-
 
 ## -parameters
 
-
-
-
 ### -param FmtIndex [in]
 
-The zero-based index of the video format to retrieve. To get the number of video formats, call <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-querycapabilities">IBDA_Encoder::QueryCapabilities</a>.
-
+The zero-based index of the video format to retrieve. To get the number of video formats, call <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-querycapabilities">IBDA_Encoder::QueryCapabilities</a>.
 
 ### -param MethodID [out]
 
 Receives a value that uniquely identifies this video method.
-
 
 ### -param AlgorithmType [out]
 
@@ -121,59 +116,35 @@ H.264 video.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param VerticalSize [out]
 
 Receives the vertical_size_value field.
 
-
 ### -param HorizontalSize [out]
 
 Receives the horizontal_size_value field.
-
 
 ### -param AspectRatio [out]
 
 Receives the aspect_ratio_information field.
 
-
 ### -param FrameRateCode [out]
 
 Receives the frame_rate_code field.
-
 
 ### -param ProgressiveSequence [out]
 
 Receives the progressive_sequence field.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 The <i>VerticalSize</i>, <i>HorizontalSize</i>, <i>AspectRatio</i>, <i>FrameRateCode</i>, and <i>ProgressiveSequence</i> parameters are interpreted according to the ANSI/SCTE 43 2005 standard.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_encoder">IBDA_Encoder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_encoder">IBDA_Encoder</a>

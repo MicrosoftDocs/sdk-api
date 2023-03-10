@@ -2,15 +2,12 @@
 UID: NS:tdiinfo.TDIEntityID
 title: TDIEntityID (tdiinfo.h)
 description: Contains a part of the TDIObjectID structure to represent information about TDI drivers retrieved using the IOCTL_TCP_QUERY_INFORMATION_EX control code.
+helpviewer_keywords: ["AT_ENTITY","CL_NL_ENTITY","CL_TL_ENTITY","CO_NL_ENTITY","CO_TL_ENTITY","ER_ENTITY","GENERIC_ENTITY","IF_ENTITY","TDIEntityID","TDIEntityID structure [Windows API]","tdiinfo/TDIEntityID","winprog.tdientityid"]
 old-location: winprog\tdientityid.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: d95a96b5-c062-44c5-9a66-b27db531800a
 ms.date: 12/05/2018
 ms.keywords: AT_ENTITY, CL_NL_ENTITY, CL_TL_ENTITY, CO_NL_ENTITY, CO_TL_ENTITY, ER_ENTITY, GENERIC_ENTITY, IF_ENTITY, TDIEntityID, TDIEntityID structure [Windows API], tdiinfo/TDIEntityID, winprog.tdientityid
-f1_keywords:
-- tdiinfo/TDIEntityID
-dev_langs:
-- c++
 req.header: tdiinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- tdiinfo.h
-api_name:
-- TDIEntityID
 targetos: Windows
 req.typenames: TDIEntityID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TDIEntityID
+ - tdiinfo/TDIEntityID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - tdiinfo.h
+api_name:
+ - TDIEntityID
 ---
 
 # TDIEntityID structure
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This structure may be altered or unavailable in future versions of Windows.]
 
-Contains a part of the <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a> structure to represent information about TDI drivers retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
-
+Contains a part of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a> structure to represent information about TDI drivers retrieved using the <a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a> control code.
 
 ## -struct-fields
-
-
-
 
 ### -field tei_entity
 
@@ -149,30 +146,20 @@ Identifies an interface entity.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field tei_instance
 
 An opaque value that can uniquely identify an entity, if a specific one is being addressed.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
+<a href="/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
 			 Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a>

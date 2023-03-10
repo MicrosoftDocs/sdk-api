@@ -2,15 +2,12 @@
 UID: NS:naptypes.tagNetworkSoH
 title: NetworkSoH (naptypes.h)
 description: Defines the wire SoH protocol.
+helpviewer_keywords: ["NetworkSoH","NetworkSoH structure [NAP]","NetworkSoHRequest","NetworkSoHRequest structure [NAP]","NetworkSoHResponse","NetworkSoHResponse structure [NAP]","nap.networksoh_struct","naptypes/NetworkSoH","naptypes/NetworkSoHRequest","naptypes/NetworkSoHResponse"]
 old-location: nap\networksoh_struct.htm
 tech.root: NAP
 ms.assetid: 7b1d4563-4758-40d8-be6c-51533bbcb09e
 ms.date: 12/05/2018
 ms.keywords: NetworkSoH, NetworkSoH structure [NAP], NetworkSoHRequest, NetworkSoHRequest structure [NAP], NetworkSoHResponse, NetworkSoHResponse structure [NAP], nap.networksoh_struct, naptypes/NetworkSoH, naptypes/NetworkSoHRequest, naptypes/NetworkSoHResponse
-f1_keywords:
-- naptypes/NetworkSoH
-dev_langs:
-- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- NapTypes.h
-api_name:
-- NetworkSoH
 targetos: Windows
 req.typenames: NetworkSoH, NetworkSoHRequest, NetworkSoHResponse
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNetworkSoH
+ - naptypes/tagNetworkSoH
+ - NetworkSoH
+ - naptypes/NetworkSoH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - NapTypes.h
+api_name:
+ - NetworkSoH
 ---
 
 # NetworkSoH structure
@@ -48,36 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  The Network Access Protection platform is not available starting with Windows 10</div><div> </div>The <b>NetworkSoH</b> structure defines the wire SoH protocol.
-
 
 ## -struct-fields
 
-
-
-
 ### -field size
 
-The size, in bytes, of the data blob in the range <a href="https://docs.microsoft.com/windows/desktop/NAP/nap-type-constants">minNetworkSoHSize</a> to <b>maxNetworkSoHSize</b>. 
-
+The size, in bytes, of the data blob in the range <a href="/windows/desktop/NAP/nap-type-constants">minNetworkSoHSize</a> to <b>maxNetworkSoHSize</b>.
 
 ### -field data
 
-A pointer to a data blob that contains the <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ns-naptypes-soh">SoH</a> structure in network byte order.
-
+A pointer to a data blob that contains the <a href="/windows/desktop/api/naptypes/ns-naptypes-soh">SoH</a> structure in network byte order.
 
 ## -see-also
 
+<a href="/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>

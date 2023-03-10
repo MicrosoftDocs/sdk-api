@@ -2,15 +2,12 @@
 UID: NF:ctffunc.ITfFnLMProcessor.InvokeFunc
 title: ITfFnLMProcessor::InvokeFunc (ctffunc.h)
 description: ITfFnLMProcessor::InvokeFunc method
+helpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","InvokeFunc method","ITfFnLMProcessor.InvokeFunc","ITfFnLMProcessor::InvokeFunc","InvokeFunc","InvokeFunc method [Text Services Framework]","InvokeFunc method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_invokefunc_ref","ctffunc/ITfFnLMProcessor::InvokeFunc","tsf.itffnlmprocessor_invokefunc"]
 old-location: tsf\itffnlmprocessor_invokefunc.htm
 tech.root: TSF
 ms.assetid: 9545c715-ec31-4360-b8f9-bb0746164878
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],InvokeFunc method, ITfFnLMProcessor.InvokeFunc, ITfFnLMProcessor::InvokeFunc, InvokeFunc, InvokeFunc method [Text Services Framework], InvokeFunc method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_invokefunc_ref, ctffunc/ITfFnLMProcessor::InvokeFunc, tsf.itffnlmprocessor_invokefunc
-f1_keywords:
-- ctffunc/ITfFnLMProcessor.InvokeFunc
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfFnLMProcessor.InvokeFunc
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfFnLMProcessor::InvokeFunc
+ - ctffunc/ITfFnLMProcessor::InvokeFunc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfFnLMProcessor.InvokeFunc
 ---
 
 # ITfFnLMProcessor::InvokeFunc
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Invokes a function of the language model text service.
 
 ## -parameters
 
-
-
-
 ### -param pic [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface that represents context to perform the function on.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface that represents context to perform the function on.
 
 ### -param refguidFunc [in]
 
 Contains a GUID that specifies the function to invoke. Possible values for this parameter are defined by the language model text service provider.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -89,23 +83,12 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>

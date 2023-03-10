@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableDescriptionBytes
 title: IIsdbSIParameterDescriptor::GetTableDescriptionBytes (dvbsiparser.h)
 description: Gets description data from a table descriptor in a service information (SI) parameter descriptor.
+helpviewer_keywords: ["GetTableDescriptionBytes","GetTableDescriptionBytes method [Microsoft TV Technologies]","GetTableDescriptionBytes method [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","GetTableDescriptionBytes method","IIsdbSIParameterDescriptor.GetTableDescriptionBytes","IIsdbSIParameterDescriptor::GetTableDescriptionBytes","dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes","mstv.iisdbsiparameterdescriptor_gettabledescriptionbytes"]
 old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionbytes.htm
 tech.root: mstv
 ms.assetid: dd73b221-b7b5-43c8-bbdf-f1ea559a0a4e
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptionBytes, GetTableDescriptionBytes method [Microsoft TV Technologies], GetTableDescriptionBytes method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableDescriptionBytes method, IIsdbSIParameterDescriptor.GetTableDescriptionBytes, IIsdbSIParameterDescriptor::GetTableDescriptionBytes, dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes, mstv.iisdbsiparameterdescriptor_gettabledescriptionbytes
-f1_keywords:
-- dvbsiparser/IIsdbSIParameterDescriptor.GetTableDescriptionBytes
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbSIParameterDescriptor.GetTableDescriptionBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbSIParameterDescriptor::GetTableDescriptionBytes
+ - dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbSIParameterDescriptor.GetTableDescriptionBytes
 ---
 
 # IIsdbSIParameterDescriptor::GetTableDescriptionBytes
@@ -48,50 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets description data from a table descriptor in a service information (SI) parameter descriptor. 
-
+Gets description data from a table descriptor in a service information (SI) parameter descriptor.
 
 ## -parameters
 
-
-
-
 ### -param bRecordIndex [in]
 
-Zero-based index of the SI table descriptor. To get the number of table descriptors, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getrecordnumberoftable">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a> method.
-
+Zero-based index of the SI table descriptor. To get the number of table descriptors, call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getrecordnumberoftable">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a> method.
 
 ### -param pbBufferLength [in, out]
 
 On input specifies the length of the table descriptor data that is retrieved, in bytes. On output returns the actual data length.
 
-
 ### -param pbBuffer [out]
 
 Receives the table descriptor data.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbsiparameterdescriptor">IIsdbSIParameterDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbsiparameterdescriptor">IIsdbSIParameterDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getrecordnumberoftable">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbsiparameterdescriptor-getrecordnumberoftable">IIsdbSIParameterDescriptor::GetRecordNumberOfTable</a>

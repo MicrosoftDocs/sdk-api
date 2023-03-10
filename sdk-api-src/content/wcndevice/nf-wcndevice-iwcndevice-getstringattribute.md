@@ -2,15 +2,12 @@
 UID: NF:wcndevice.IWCNDevice.GetStringAttribute
 title: IWCNDevice::GetStringAttribute (wcndevice.h)
 description: The IWCNDevice::GetStringAttribute method gets a cached attribute from the device as a string.
+helpviewer_keywords: ["GetStringAttribute","GetStringAttribute method [Windows Connect Now]","GetStringAttribute method [Windows Connect Now]","IWCNDevice interface","IWCNDevice interface [Windows Connect Now]","GetStringAttribute method","IWCNDevice.GetStringAttribute","IWCNDevice::GetStringAttribute","wcn.iwcndevice_getstringattribute","wcndevice/IWCNDevice::GetStringAttribute"]
 old-location: wcn\iwcndevice_getstringattribute.htm
 tech.root: wcn
 ms.assetid: 4ef065be-0046-4ce6-8f81-417a4c8a550a
 ms.date: 12/05/2018
 ms.keywords: GetStringAttribute, GetStringAttribute method [Windows Connect Now], GetStringAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetStringAttribute method, IWCNDevice.GetStringAttribute, IWCNDevice::GetStringAttribute, wcn.iwcndevice_getstringattribute, wcndevice/IWCNDevice::GetStringAttribute
-f1_keywords:
-- wcndevice/IWCNDevice.GetStringAttribute
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcnDevice.h
-api_name:
-- IWCNDevice.GetStringAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCNDevice::GetStringAttribute
+ - wcndevice/IWCNDevice::GetStringAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcnDevice.h
+api_name:
+ - IWCNDevice.GetStringAttribute
 ---
 
 # IWCNDevice::GetStringAttribute
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWCNDevice::GetStringAttribute</b> method gets a cached attribute  from the device as a string.
 
-
 ## -parameters
-
-
-
 
 ### -param AttributeType [in]
 
 A <b>WCN_ATTRIBUTE_TYPE</b> value that represents a specific attribute value (for example,   <b>WCN_PASSWORD_TYPE</b>). If the attribute is not natively a string data type (for example, <b>WCN_TYPE_VERSION</b> is natively an integer, and <b>WNC_TYPE_SSID</b> is natively a blob), this function will fail with <b>HRESULT_FROM_WIN32(ERROR_INVALID_DATATYPE)</b>.
 
-
 ### -param cchMaxString [in]
 
 The size of the buffer <i>wszString</i>, in characters.
-
 
 ### -param wszString [out]
 
 A user-allocated buffer that,  on successful return, contains a <b>NULL</b>-terminated string value of the vendor extension.
 
-
 ## -returns
-
-
 
 ...
 
@@ -128,22 +120,11 @@ This attribute cannot be expressed as a string. For example, if it is an integer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
 
 
 
 <b>WCN_ATTRIBUTE_TYPE</b>
- 
-
- 
-

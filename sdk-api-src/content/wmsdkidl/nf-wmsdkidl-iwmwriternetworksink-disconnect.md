@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Disconnect
 title: IWMWriterNetworkSink::Disconnect (wmsdkidl.h)
 description: The Disconnect method disconnects all clients from the network sink.
+helpviewer_keywords: ["Disconnect","Disconnect method [windows Media Format]","Disconnect method [windows Media Format]","IWMWriterNetworkSink interface","IWMWriterNetworkSink interface [windows Media Format]","Disconnect method","IWMWriterNetworkSink.Disconnect","IWMWriterNetworkSink::Disconnect","IWMWriterNetworkSinkDisconnect","wmformat.iwmwriternetworksink_disconnect","wmsdkidl/IWMWriterNetworkSink::Disconnect"]
 old-location: wmformat\iwmwriternetworksink_disconnect.htm
 tech.root: wmformat
 ms.assetid: cf4f294c-148c-469f-83e7-c2cd1c585aa3
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [windows Media Format], Disconnect method [windows Media Format],IWMWriterNetworkSink interface, IWMWriterNetworkSink interface [windows Media Format],Disconnect method, IWMWriterNetworkSink.Disconnect, IWMWriterNetworkSink::Disconnect, IWMWriterNetworkSinkDisconnect, wmformat.iwmwriternetworksink_disconnect, wmsdkidl/IWMWriterNetworkSink::Disconnect
-f1_keywords:
-- wmsdkidl/IWMWriterNetworkSink.Disconnect
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterNetworkSink.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterNetworkSink::Disconnect
+ - wmsdkidl/IWMWriterNetworkSink::Disconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterNetworkSink.Disconnect
 ---
 
 # IWMWriterNetworkSink::Disconnect
@@ -51,23 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Disconnect</b> method disconnects all clients from the network sink.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, the values shown in the following table.
 
@@ -88,27 +78,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
-
-
-
+This method is equivalent to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a> method, except that it does not release the port.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>

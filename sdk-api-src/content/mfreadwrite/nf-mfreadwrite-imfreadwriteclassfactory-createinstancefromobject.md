@@ -2,15 +2,12 @@
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromObject
 title: IMFReadWriteClassFactory::CreateInstanceFromObject (mfreadwrite.h)
 description: Creates an instance of the sink writer or source reader, given an IUnknown pointer.
+helpviewer_keywords: ["CLSID_MFSinkWriter","CLSID_MFSourceReader","CreateInstanceFromObject","CreateInstanceFromObject method [Media Foundation]","CreateInstanceFromObject method [Media Foundation]","IMFReadWriteClassFactory interface","IMFByteStream","IMFMediaSink","IMFMediaSource","IMFReadWriteClassFactory interface [Media Foundation]","CreateInstanceFromObject method","IMFReadWriteClassFactory.CreateInstanceFromObject","IMFReadWriteClassFactory::CreateInstanceFromObject","mf.imfreadwriteclassfactory_createinstancefromobject","mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject"]
 old-location: mf\imfreadwriteclassfactory_createinstancefromobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 5da582c2-37f9-47ee-b8ea-d21f1323f1df
 ms.date: 12/05/2018
 ms.keywords: CLSID_MFSinkWriter, CLSID_MFSourceReader, CreateInstanceFromObject, CreateInstanceFromObject method [Media Foundation], CreateInstanceFromObject method [Media Foundation],IMFReadWriteClassFactory interface, IMFByteStream, IMFMediaSink, IMFMediaSource, IMFReadWriteClassFactory interface [Media Foundation],CreateInstanceFromObject method, IMFReadWriteClassFactory.CreateInstanceFromObject, IMFReadWriteClassFactory::CreateInstanceFromObject, mf.imfreadwriteclassfactory_createinstancefromobject, mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
-f1_keywords:
-- mfreadwrite/IMFReadWriteClassFactory.CreateInstanceFromObject
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFReadWriteClassFactory.CreateInstanceFromObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFReadWriteClassFactory::CreateInstanceFromObject
+ - mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFReadWriteClassFactory.CreateInstanceFromObject
 ---
 
 # IMFReadWriteClassFactory::CreateInstanceFromObject
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an instance of the sink writer or source reader, given an <b>IUnknown</b> pointer. 
-
+Creates an instance of the sink writer or source reader, given an <b>IUnknown</b> pointer.
 
 ## -parameters
-
-
-
 
 ### -param clsid [in]
 
@@ -72,7 +69,7 @@ The CLSID of the object to create.
 </dl>
 </td>
 <td width="60%">
-Create the sink writer. The <i>ppvObject</i> parameter receives an <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a> interface pointer.
+Create the sink writer. The <i>ppvObject</i> parameter receives an <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriter">IMFSinkWriter</a> interface pointer.
 
 </td>
 </tr>
@@ -82,13 +79,11 @@ Create the sink writer. The <i>ppvObject</i> parameter receives an <a href="http
 </dl>
 </td>
 <td width="60%">
-Create the source reader. The <i>ppvObject</i> parameter receives an <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface pointer.
+Create the source reader. The <i>ppvObject</i> parameter receives an <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface pointer.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param punkObject [in]
 
@@ -101,7 +96,7 @@ A pointer to the <b>IUnknown</b> interface of an object that is used to initiali
 </tr>
 <tr>
 <td width="40%"><a id="IMFByteStream"></a><a id="imfbytestream"></a><a id="IMFBYTESTREAM"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a></b></dt>
+<dt><b><a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +110,7 @@ If <i>clsid</i> is <b>CLSID_MFSourceReader</b>, this byte stream provides the so
 </tr>
 <tr>
 <td width="40%"><a id="IMFMediaSink"></a><a id="imfmediasink"></a><a id="IMFMEDIASINK"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a></b></dt>
+<dt><b><a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -125,7 +120,7 @@ Pointer to a media sink. Applies only when <i>clsid</i> is <b>CLSID_MFSinkWriter
 </tr>
 <tr>
 <td width="40%"><a id="IMFMediaSource"></a><a id="imfmediasource"></a><a id="IMFMEDIASOURCE"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a></b></dt>
+<dt><b><a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,59 +129,37 @@ Pointer to a media source. Applies only when <i>clsid</i> is <b>CLSID_MFSourceRe
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this parameter to configure the sink writer or source reader. For more information, see the following topics:
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. You can use this parameter to configure the sink writer or source reader. For more information, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer-attributes">Sink Writer Attributes</a>
+<a href="/windows/desktop/medfound/sink-writer-attributes">Sink Writer Attributes</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader-attributes">Source Reader Attributes</a>
+<a href="/windows/desktop/medfound/source-reader-attributes">Source Reader Attributes</a>
 </li>
 </ul>
 This parameter can be <b>NULL</b>.
-
 
 ### -param riid [in]
 
 The IID of the requested interface.
 
-
 ### -param ppvObject [out]
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfreadwriteclassfactory">IMFReadWriteClassFactory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfreadwriteclassfactory">IMFReadWriteClassFactory</a>

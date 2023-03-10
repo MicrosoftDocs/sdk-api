@@ -2,15 +2,12 @@
 UID: NF:windns.DnsQueryConfig
 title: DnsQueryConfig function (windns.h)
 description: The DnsQueryConfig function enables application programmers to query for the configuration of the local computer or a specific adapter.
+helpviewer_keywords: ["DnsQueryConfig","DnsQueryConfig function [DNS]","_dns_dnsqueryconfig","dns.dnsqueryconfig","windns/DnsQueryConfig"]
 old-location: dns\dnsqueryconfig.htm
 tech.root: DNS
 ms.assetid: 83de7df8-7e89-42fe-b609-1dc173afc9df
 ms.date: 12/05/2018
 ms.keywords: DnsQueryConfig, DnsQueryConfig function [DNS], _dns_dnsqueryconfig, dns.dnsqueryconfig, windns/DnsQueryConfig
-f1_keywords:
-- windns/DnsQueryConfig
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsQueryConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsQueryConfig
+ - windns/DnsQueryConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsQueryConfig
 ---
 
 # DnsQueryConfig function
@@ -48,37 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DnsQueryConfig</b> function enables application programmers to query for the configuration of the local computer or a specific adapter.
 
-
 ## -parameters
-
-
-
 
 ### -param Config [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
-
+A <a href="/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a> value that specifies the configuration type of the information to be queried.
 
 ### -param Flag [in]
 
 A value that specifies whether to allocate memory for the configuration information. Set <i>Flag</i> to <b>DNS_CONFIG_FLAG_ALLOC </b> to allocate memory; otherwise, set it to 0.  
 
-<div class="alert"><b>Note</b>  Free the allocated memory with <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.</div>
+<div class="alert"><b>Note</b>  Free the allocated memory with <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.</div>
 <div> </div>
 
 ### -param pwsAdapterName [in, optional]
 
 A pointer to a string that represents the adapter name against which the query is run.
 
-
 ### -param pReserved [in, optional]
 
 Reserved for future use.
-
 
 ### -param pBuffer [out]
 
@@ -162,38 +156,23 @@ A pointer to a buffer that receives the query response. The following table show
 <td>PCHAR</td>
 </tr>
 </table>
- 
-
 
 ### -param pBufLen [in, out]
 
 The length of the buffer, in bytes. If the buffer provided is not sufficient, an error is returned and <i>pBufferLength</i> contains the minimum necessary buffer size. Ignored on input if <i>Flag</i> is set to <b>TRUE</b>.
 
-
 ## -returns
-
-
 
 Returns success confirmation upon successful completion. Otherwise, returns the appropriate DNS-specific error code as defined in Winerror.h.
 
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ne-windns-dns_config_type">DNS_CONFIG_TYPE</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>

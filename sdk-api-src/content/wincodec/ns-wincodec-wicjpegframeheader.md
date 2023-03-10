@@ -1,16 +1,13 @@
 ---
 UID: NS:wincodec.WICJpegFrameHeader
 title: WICJpegFrameHeader (wincodec.h)
-description: Represents a JPEG frame header.
+description: Represents a JPEG frame header. (WICJpegFrameHeader)
+helpviewer_keywords: ["WICJpegFrameHeader","WICJpegFrameHeader structure [Windows Imaging Component]","wic.wicjpegframeheader","wincodec/WICJpegFrameHeader"]
 old-location: wic\wicjpegframeheader.htm
 tech.root: wic
 ms.assetid: BB207D78-9E27-49A4-91E4-601CED109389
 ms.date: 12/05/2018
 ms.keywords: WICJpegFrameHeader, WICJpegFrameHeader structure [Windows Imaging Component], wic.wicjpegframeheader, wincodec/WICJpegFrameHeader
-f1_keywords:
-- wincodec/WICJpegFrameHeader
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wincodec.h
-api_name:
-- WICJpegFrameHeader
 targetos: Windows
 req.typenames: WICJpegFrameHeader
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICJpegFrameHeader
+ - wincodec/WICJpegFrameHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wincodec.h
+api_name:
+ - WICJpegFrameHeader
 ---
 
 # WICJpegFrameHeader structure
@@ -48,48 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a JPEG frame header.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Width
 
 The width of the JPEG frame.
 
-
 ### -field Height
 
 The height of the JPEG frame.
-
 
 ### -field TransferMatrix
 
 The transfer matrix of the JPEG frame.
 
-
 ### -field ScanType
 
 The scan type of the JPEG frame.
-
 
 ### -field cComponents
 
 The number of components in the frame.
 
-
 ### -field ComponentIdentifiers
 
 The component identifiers.
 
-
 ### -field SampleFactors
 
-The sample factors. Use one of the following constants, described in <a href="https://docs.microsoft.com/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
+The sample factors. Use one of the following constants, described in <a href="/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
 
 <ul>
 <li>WIC_JPEG_SAMPLE_FACTORS_ONE</li>
@@ -101,7 +92,7 @@ The sample factors. Use one of the following constants, described in <a href="ht
 
 ### -field QuantizationTableIndices
 
-The format of the quantization table indices. Use one of the following constants, described in <a href="https://docs.microsoft.com/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
+The format of the quantization table indices. Use one of the following constants, described in <a href="/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
 
 <ul>
 <li>WIC_JPEG_QUANTIZATION_BASELINE_ONE</li>
@@ -110,20 +101,8 @@ The format of the quantization table indices. Use one of the following constants
 
 ## -remarks
 
-
-
-Get the frame header for an image by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">IWICJpegFrameDecode::GetFrameHeader</a>.
-
-
-
+Get the frame header for an image by calling <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">IWICJpegFrameDecode::GetFrameHeader</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">IWICJpegFrameDecode::GetFrameHeader</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getframeheader">IWICJpegFrameDecode::GetFrameHeader</a>

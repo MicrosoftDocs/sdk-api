@@ -2,15 +2,12 @@
 UID: NS:wlanapi._WLAN_RATE_SET
 title: WLAN_RATE_SET (wlanapi.h)
 description: The set of supported data rates.
+helpviewer_keywords: ["*PWLAN_RATE_SET","PWLAN_RATE_SET","PWLAN_RATE_SET structure pointer [NativeWIFI]","WLAN_RATE_SET","WLAN_RATE_SET structure [NativeWIFI]","nwifi.wlan_rate_set","wlanapi/PWLAN_RATE_SET","wlanapi/WLAN_RATE_SET"]
 old-location: nwifi\wlan_rate_set.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e07a9249-9571-4747-b913-05d319202f8f
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_RATE_SET, PWLAN_RATE_SET, PWLAN_RATE_SET structure pointer [NativeWIFI], WLAN_RATE_SET, WLAN_RATE_SET structure [NativeWIFI], nwifi.wlan_rate_set, wlanapi/PWLAN_RATE_SET, wlanapi/WLAN_RATE_SET'
-f1_keywords:
-- wlanapi/WLAN_RATE_SET
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wlanapi.h
-api_name:
-- WLAN_RATE_SET
 targetos: Windows
 req.typenames: WLAN_RATE_SET, *PWLAN_RATE_SET
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WLAN_RATE_SET
+ - wlanapi/_WLAN_RATE_SET
+ - PWLAN_RATE_SET
+ - wlanapi/PWLAN_RATE_SET
+ - WLAN_RATE_SET
+ - wlanapi/WLAN_RATE_SET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wlanapi.h
+api_name:
+ - WLAN_RATE_SET
 ---
 
 # WLAN_RATE_SET structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The set of supported data rates.
 
-
 ## -struct-fields
-
-
-
 
 ### -field uRateSetLength
 
 The length, in bytes, of <b>usRateSet</b>.
-
 
 ### -field usRateSet
 
@@ -72,14 +72,6 @@ To calculate the data transfer rate in Mbps for an arbitrary array entry rateSet
 
 <code>rate_in_mbps = (rateSet[i] &amp; 0x7FFF) * 0.5</code>
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a>

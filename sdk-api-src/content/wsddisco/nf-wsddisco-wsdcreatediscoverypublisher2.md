@@ -2,15 +2,12 @@
 UID: NF:wsddisco.WSDCreateDiscoveryPublisher2
 title: WSDCreateDiscoveryPublisher2 function (wsddisco.h)
 description: Creates an IWSDiscoveryPublisher object that supports signed messages.
+helpviewer_keywords: ["WSDCreateDiscoveryPublisher2","WSDCreateDiscoveryPublisher2 function","ncd.wsdcreatediscoverypublisher2","wsddisco/WSDCreateDiscoveryPublisher2"]
 old-location: ncd\wsdcreatediscoverypublisher2.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 43c17910-a4b6-4889-ba98-4e125b4a3ac0
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryPublisher2, WSDCreateDiscoveryPublisher2 function, ncd.wsdcreatediscoverypublisher2, wsddisco/WSDCreateDiscoveryPublisher2
-f1_keywords:
-- wsddisco/WSDCreateDiscoveryPublisher2
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDCreateDiscoveryPublisher2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDCreateDiscoveryPublisher2
+ - wsddisco/WSDCreateDiscoveryPublisher2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDCreateDiscoveryPublisher2
 ---
 
 # WSDCreateDiscoveryPublisher2 function
@@ -48,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object that supports signed messages.
-
+Creates an <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object that supports signed messages.
 
 ## -parameters
 
-
-
-
 ### -param pContext [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces.
+An <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces.
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
-
 ### -param pConfigParams [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
-
+An array of <a href="/windows/desktop/api/wsdbase/ns-wsdbase-wsd_config_param">WSD_CONFIG_PARAM</a> structures that contain the parameters for creating the object.
 
 ### -param dwConfigParamCount [in]
 
 The total number of structures passed in <i>pConfigParams</i>.
 
-
 ### -param ppPublisher [out]
 
-Returns a reference to the initialized <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object. Cannot be <b>NULL</b>.
-
+Returns a reference to the initialized <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a> object. Cannot be <b>NULL</b>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -124,7 +115,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

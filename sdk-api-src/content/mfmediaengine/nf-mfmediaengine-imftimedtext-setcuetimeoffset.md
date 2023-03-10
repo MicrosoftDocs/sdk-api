@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedText.SetCueTimeOffset
 title: IMFTimedText::SetCueTimeOffset (mfmediaengine.h)
 description: Sets the offset to the cue time.
+helpviewer_keywords: ["IMFTimedText interface [Media Foundation]","SetCueTimeOffset method","IMFTimedText.SetCueTimeOffset","IMFTimedText::SetCueTimeOffset","SetCueTimeOffset","SetCueTimeOffset method [Media Foundation]","SetCueTimeOffset method [Media Foundation]","IMFTimedText interface","mf.imftimedtext_setcuetimeoffset","mfmediaengine/IMFTimedText::SetCueTimeOffset"]
 old-location: mf\imftimedtext_setcuetimeoffset.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 42406E51-546F-4714-9179-E5D676805DDE
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetCueTimeOffset method, IMFTimedText.SetCueTimeOffset, IMFTimedText::SetCueTimeOffset, SetCueTimeOffset, SetCueTimeOffset method [Media Foundation], SetCueTimeOffset method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setcuetimeoffset, mfmediaengine/IMFTimedText::SetCueTimeOffset
-f1_keywords:
-- mfmediaengine/IMFTimedText.SetCueTimeOffset
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedText.SetCueTimeOffset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedText::SetCueTimeOffset
+ - mfmediaengine/IMFTimedText::SetCueTimeOffset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedText.SetCueTimeOffset
 ---
 
 # IMFTimedText::SetCueTimeOffset
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the offset to the cue time.
 
-
 ## -parameters
-
-
-
 
 ### -param offset [in]
 
@@ -63,25 +60,12 @@ Type: <b>double</b>
 
 The offset to the cue time.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>

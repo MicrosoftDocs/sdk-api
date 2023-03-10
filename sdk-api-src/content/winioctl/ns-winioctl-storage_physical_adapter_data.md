@@ -2,15 +2,12 @@
 UID: NS:winioctl._STORAGE_PHYSICAL_ADAPTER_DATA
 title: STORAGE_PHYSICAL_ADAPTER_DATA
 description: Describes a physical storage adapter.
+helpviewer_keywords: ["*PSTORAGE_PHYSICAL_ADAPTER_DATA","PSTORAGE_PHYSICAL_ADAPTER_DATA","PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files]","STORAGE_PHYSICAL_ADAPTER_DATA","STORAGE_PHYSICAL_ADAPTER_DATA structure [Files]","fs.storage_physical_adapter_data","winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA","winioctl/STORAGE_PHYSICAL_ADAPTER_DATA"]
 old-location: fs\storage_physical_adapter_data.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8CC7CF43-61C8-4561-BA9C-473878818858
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Files], fs.storage_physical_adapter_data, winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA, winioctl/STORAGE_PHYSICAL_ADAPTER_DATA'
-f1_keywords:
-- winioctl/STORAGE_PHYSICAL_ADAPTER_DATA
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_PHYSICAL_ADAPTER_DATA
 targetos: Windows
 req.typenames: STORAGE_PHYSICAL_ADAPTER_DATA, *PSTORAGE_PHYSICAL_ADAPTER_DATA
 req.redist: 
+f1_keywords:
+ - _STORAGE_PHYSICAL_ADAPTER_DATA
+ - winioctl/_STORAGE_PHYSICAL_ADAPTER_DATA
+ - PSTORAGE_PHYSICAL_ADAPTER_DATA
+ - winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA
+ - STORAGE_PHYSICAL_ADAPTER_DATA
+ - winioctl/STORAGE_PHYSICAL_ADAPTER_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_PHYSICAL_ADAPTER_DATA
 ---
 
 # STORAGE_PHYSICAL_ADAPTER_DATA structure
@@ -47,98 +53,50 @@ req.redist:
 
 ## -description
 
-
 Describes a physical storage adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field AdapterId
 
 Specifies the adapter ID.
 
-
 ### -field HealthStatus
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>-typed value. 
-
+A <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>-typed value.
 
 ### -field CommandProtocol
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>-typed value.
-
+A <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>-typed value.
 
 ### -field SpecVersion
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORAGE_SPEC_VERSION</a>-typed value that specifies the supported storage spec version (for example, AHCI 1.3.1).
-
-
-### -field Vendor
-
- 
-
-
-### -field Model
-
- 
-
-
-### -field FirmwareRevision
-
- 
-
-
-### -field PhysicalLocation
-
- 
-
+A <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_spec_version">STORAGE_SPEC_VERSION</a>-typed value that specifies the supported storage spec version (for example, AHCI 1.3.1).
 
 ### -field ExpanderConnected
 
 Indicates whether an expander is connected.
 
-
-### -field Reserved0
-
- 
-
-
-### -field Reserved1
-
- 
-
-
-
-
-#### - FirmwareRevision[16]
+### -field FirmwareRevision [16]
 
 Specifies the firmware revision.
 
-
-#### - Model[40]
+### -field Model [40]
 
 Specifies the adapter model.
 
-
-#### - PhysicalLocation[32]
+### -field PhysicalLocation [32]
 
 Reserved for future use.
 
-
-#### - Reserved0[3]
-
-Reserved.
-
-
-#### - Reserved1[3]
+### -field Reserved0 [3]
 
 Reserved.
 
+### -field Reserved1 [3]
 
-#### - Vendor[8]
+Reserved.
+
+### -field Vendor [8]
 
 Specifies the adapter vendor.
-

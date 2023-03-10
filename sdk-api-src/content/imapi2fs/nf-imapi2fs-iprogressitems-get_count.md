@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IProgressItems.get_Count
 title: IProgressItems::get_Count (imapi2fs.h)
 description: Retrieves the number of progress items in the collection.
+helpviewer_keywords: ["IProgressItems interface [IMAPI]","get_Count method","IProgressItems.get_Count","IProgressItems::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IProgressItems interface","imapi.iprogressitems_get_count","imapi2fs/IProgressItems::get_Count"]
 old-location: imapi\iprogressitems_get_count.htm
 tech.root: imapi
 ms.assetid: 370386fe-17b0-4cf3-9c28-880a85456e19
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get_Count method, IProgressItems.get_Count, IProgressItems::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_count, imapi2fs/IProgressItems::get_Count
-f1_keywords:
-- imapi2fs/IProgressItems.get_Count
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IProgressItems.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressItems::get_Count
+ - imapi2fs/IProgressItems::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IProgressItems.get_Count
 ---
 
 # IProgressItems::get_Count
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of progress items in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param Count [out]
 
 Number of progress items in the collection.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,18 +81,7 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>

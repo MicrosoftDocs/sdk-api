@@ -1,16 +1,13 @@
 ---
 UID: NN:dwrite.IDWriteFontFamily
 title: IDWriteFontFamily (dwrite.h)
-description: Represents a family of related fonts.
+description: Represents a family of related fonts. (IDWriteFontFamily)
+helpviewer_keywords: ["IDWriteFontFamily","IDWriteFontFamily interface [Direct Write]","IDWriteFontFamily interface [Direct Write]","described","directwrite.IDWriteFontFamily","dwrite/IDWriteFontFamily"]
 old-location: directwrite\IDWriteFontFamily.htm
 tech.root: DirectWrite
 ms.assetid: 1fce3d62-af4e-4d2b-a3fd-e534b5fcdb13
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFamily, IDWriteFontFamily interface [Direct Write], IDWriteFontFamily interface [Direct Write],described, directwrite.IDWriteFontFamily, dwrite/IDWriteFontFamily
-f1_keywords:
-- dwrite/IDWriteFontFamily
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFamily
+ - dwrite/IDWriteFontFamily
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFamily
 ---
 
 # IDWriteFontFamily interface
@@ -48,58 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a family of related fonts.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontFamily</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteFontFamily</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames">GetFamilyNames</a>
-</td>
-<td align="left" width="63%">
- Creates a localized strings object that contains the family names for the font family, indexed by locale name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfirstmatchingfont">GetFirstMatchingFont</a>
-</td>
-<td align="left" width="63%">
- Gets the font that best matches the specified properties.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getmatchingfonts">GetMatchingFonts</a>
-</td>
-<td align="left" width="63%">
- Gets a list of fonts in the font family ranked in order of how well they match the specified properties.
-
-</td>
-</tr>
-</table> 
-
+The <b>IDWriteFontFamily</b> interface inherits from <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>. <b>IDWriteFontFamily</b> also has these types of members:
 
 ## -remarks
-
-
 
 A font family is a set of fonts that share the same family name, such as "Times New Roman", but that differ in features. These feature differences include style, such as italic, and weight, such as bold. 
 
@@ -135,17 +92,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontlist">IDWriteFontList</a>
- 
-
- 
 

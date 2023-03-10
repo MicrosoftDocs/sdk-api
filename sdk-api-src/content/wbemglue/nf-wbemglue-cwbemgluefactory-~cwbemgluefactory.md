@@ -1,12 +1,9 @@
 ---
 UID: NF:wbemglue.CWbemGlueFactory.~CWbemGlueFactory
 title: CWbemGlueFactory::~CWbemGlueFactory
-ms.date: 4/26/2019
+ms.date: 08/15/2022
+description: The CWbemGlueFactory::~CWbemGlueFactory function is a destructor for the CWbemGlueFactory class.
 ms.keywords: CWbemGlueFactory::~CWbemGlueFactory
-f1_keywords:
-- wbemglue/CWbemGlueFactory::~CWbemGlueFactory
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -21,30 +18,38 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CWbemGlueFactory::~CWbemGlueFactory
+ - wbemglue/CWbemGlueFactory::~CWbemGlueFactory
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-- sqlmgmprovider.dll
+ - FrameDynOS.dll
+ - FrameDyn.dll
+ - sqlmgmprovider.dll
 api_name:
-- CWbemGlueFactory::~CWbemGlueFactory
+ - CWbemGlueFactory::~CWbemGlueFactory
 ---
 
 ## -description
 
-Destructor for the [CWbemGlueFactory](/windows/win32/api/wbemglue/nl-wbemglue-cwbemgluefactory) class.
+Destructor for the [CWbemGlueFactory](./nl-wbemglue-cwbemgluefactory.md) class.
+
+
 
 ## -remarks
 
 ## -see-also
+
 f1_keywords: 
  - "wbemglue/CWbemGlueFactory.CWbemGlueFactory"

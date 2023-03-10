@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetPartialFile
 title: IVssComponent::GetPartialFile (vswriter.h)
 description: The GetPartialFile method returns information on a partial file associated with this component.
+helpviewer_keywords: ["GetPartialFile","GetPartialFile method [VSS]","GetPartialFile method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetPartialFile method","IVssComponent.GetPartialFile","IVssComponent::GetPartialFile","_win32_ivsscomponent_getpartialfile","base.ivsscomponent_getpartialfile","vswriter/IVssComponent::GetPartialFile"]
 old-location: base\ivsscomponent_getpartialfile.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ed589ae8-2abb-4c3b-9695-12649fc89818
 ms.date: 12/05/2018
 ms.keywords: GetPartialFile, GetPartialFile method [VSS], GetPartialFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPartialFile method, IVssComponent.GetPartialFile, IVssComponent::GetPartialFile, _win32_ivsscomponent_getpartialfile, base.ivsscomponent_getpartialfile, vswriter/IVssComponent::GetPartialFile
-f1_keywords:
-- vswriter/IVssComponent.GetPartialFile
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetPartialFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetPartialFile
+ - vswriter/IVssComponent::GetPartialFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetPartialFile
 ---
 
 # IVssComponent::GetPartialFile
@@ -49,22 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetPartialFile</b> method returns information on a partial file associated with this component.
 
-
 ## -parameters
-
-
-
 
 ### -param iPartialFile [in]
 
 Index number of the partial file. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of partial files associated with a given component. The value of <i>n</i> is returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>.
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>.
 
 ### -param pbstrPath [out]
 
@@ -75,16 +71,13 @@ Pointer to a string containing the path of the partial file.
 
 Users of this method need to check to determine whether this path ends with a backslash ("\").
 
-
 ### -param pbstrFilename [out]
 
 Pointer to a string containing the name of the partial file.
 
-
 ### -param pbstrRange [out]
 
 A pointer to a string containing either a listing of file offsets and lengths that make up the partial file support range (the sections of the file that were backed up), or the name of a file containing such a list.
-
 
 ### -param pbstrMetadata [out]
 
@@ -95,10 +88,7 @@ Pointer to a string containing any additional metadata required by a writer to v
 
 Additional metadata is not required, so <i>pbstrMetadata</i> may also be empty (zero length).
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -159,7 +149,7 @@ The caller is not in the correct state (either backup or restore) for the operat
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -175,16 +165,10 @@ The specified item was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The caller should free the memory held by the <i>pbstrPath</i>, <i>pbstrFilename</i>, <i>pbstrRange</i>, and <i>pbstrMetadata</i> parameters by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrPath</i>, <i>pbstrFilename</i>, <i>pbstrRange</i>, and <i>pbstrMetadata</i> parameters by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 A range indicates a subsection of a given file that is to be backed up, independent of the rest of the file.
 
@@ -203,33 +187,23 @@ A ranges file must be a binary file with the following format:
 A ranges file should have been backed up along with the partial file and typically is restored to the same location that it was backed up from.
 
 However, the location to which a ranges file is restored might be altered by the requester, which uses 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a> to indicate this and to update the Backup Components Document so that <i>pbstrRanges</i> indicates the correct ranges file.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a> to indicate this and to update the Backup Components Document so that <i>pbstrRanges</i> indicates the correct ranges file.
 
 A requester would use the ranges information returned by 
 <b>GetPartialFile</b> to restore the backed-up sections to the appropriate location within the copy of the file on disk at restore time.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrangesfilepath">IVssBackupComponents::SetRangesFilePath</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-addpartialfile">IVssComponent::AddPartialFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>

@@ -2,15 +2,12 @@
 UID: NF:rometadataapi.IMetaDataImport.CountEnum
 title: IMetaDataImport::CountEnum (rometadataapi.h)
 description: Gets the number of elements in the enumeration that was retrieved by the specified enumerator.
+helpviewer_keywords: ["CountEnum","CountEnum method [Windows Runtime]","CountEnum method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","CountEnum method","IMetaDataImport.CountEnum","IMetaDataImport::CountEnum","rometadataapi/IMetaDataImport::CountEnum","winrt.imetadataimport_countenum"]
 old-location: winrt\imetadataimport_countenum.htm
 tech.root: WinRT
 ms.assetid: 67146070-1710-4602-845c-a2a3cd5efdad
 ms.date: 12/05/2018
 ms.keywords: CountEnum, CountEnum method [Windows Runtime], CountEnum method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],CountEnum method, IMetaDataImport.CountEnum, IMetaDataImport::CountEnum, rometadataapi/IMetaDataImport::CountEnum, winrt.imetadataimport_countenum
-f1_keywords:
-- rometadataapi/IMetaDataImport.CountEnum
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataImport.CountEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataImport::CountEnum
+ - rometadataapi/IMetaDataImport::CountEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataImport.CountEnum
 ---
 
 # IMetaDataImport::CountEnum
@@ -48,50 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of elements in the enumeration that was retrieved by the specified enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnum [in]
 
 The handle for the enumerator.
 
-
 ### -param pulCount [out, retval]
 
 The number of elements enumerated.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The handle specified by <i>hEnum</i> is obtained from a previous <b>Enum</b><i>Name</i> call (for example, <a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypedefs">IMetaDataImport::EnumTypeDefs</a>).
-
-
-
+The handle specified by <i>hEnum</i> is obtained from a previous <b>Enum</b><i>Name</i> call (for example, <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimport-enumtypedefs">IMetaDataImport::EnumTypeDefs</a>).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

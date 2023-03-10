@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.SetIpForwardEntry
 title: SetIpForwardEntry function (iphlpapi.h)
 description: The SetIpForwardEntry function modifies an existing route in the local computer's IPv4 routing table.
+helpviewer_keywords: ["SetIpForwardEntry","SetIpForwardEntry function [IP Helper]","_iphlp_setipforwardentry","iphlp.setipforwardentry","iphlpapi/SetIpForwardEntry"]
 old-location: iphlp\setipforwardentry.htm
 tech.root: IpHlp
 ms.assetid: a98de796-8fa2-4835-8d15-07d86d89c348
 ms.date: 12/05/2018
 ms.keywords: SetIpForwardEntry, SetIpForwardEntry function [IP Helper], _iphlp_setipforwardentry, iphlp.setipforwardentry, iphlpapi/SetIpForwardEntry
-f1_keywords:
-- iphlpapi/SetIpForwardEntry
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- SetIpForwardEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetIpForwardEntry
+ - iphlpapi/SetIpForwardEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - SetIpForwardEntry
 ---
 
 # SetIpForwardEntry function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetIpForwardEntry</b> function modifies an existing route in the local computer's IPv4 routing table.
 
-
 ## -parameters
-
-
-
 
 ### -param pRoute [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure that specifies the new information for the existing route. The caller must specify <b>MIB_IPPROTO_NETMGMT</b> for the <b>dwForwardProto</b> member of this structure. The caller must also specify values for the <b>dwForwardIfIndex</b>, <b>dwForwardDest</b>, <b>dwForwardMask</b>, <b>dwForwardNextHop</b>, and <b>dwForwardPolicy</b> members of the structure.
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure that specifies the new information for the existing route. The caller must specify <b>MIB_IPPROTO_NETMGMT</b> for the <b>dwForwardProto</b> member of this structure. The caller must also specify values for the <b>dwForwardIfIndex</b>, <b>dwForwardDest</b>, <b>dwForwardMask</b>, <b>dwForwardNextHop</b>, and <b>dwForwardPolicy</b> members of the structure.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -95,7 +89,7 @@ Access is denied. This error is returned on Windows Vista and Windows Server 2
 </dl>
 </td>
 <td width="60%">
-The system cannot find the file specified. This error is returned on Windows Vista and later if the  network interface specified by the <b>dwForwardIfIndex</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure pointed to by the <i>pRoute</i> parameter could not be found.
+The system cannot find the file specified. This error is returned on Windows Vista and later if the  network interface specified by the <b>dwForwardIfIndex</b>  member of the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure pointed to by the <i>pRoute</i> parameter could not be found.
 
 </td>
 </tr>
@@ -106,8 +100,8 @@ The system cannot find the file specified. This error is returned on Windows Vi
 </dl>
 </td>
 <td width="60%">
-The <i>pRoute</i> parameter is <b>NULL</b>, or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a> is unable to read from the memory pointed to by <i>pRoute</i>, or one of the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure is invalid.
+The <i>pRoute</i> parameter is <b>NULL</b>, or <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a> is unable to read from the memory pointed to by <i>pRoute</i>, or one of the members of the 
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure is invalid.
 
 </td>
 </tr>
@@ -118,7 +112,7 @@ The <i>pRoute</i> parameter is <b>NULL</b>, or <a href="https://docs.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The element is not found. The error is returned on Windows Vista and later when the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a> function and then the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a> function are called for the same IPv4 route table entry. 
+The element is not found. The error is returned on Windows Vista and later when the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a> function and then the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a> function are called for the same IPv4 route table entry. 
 
 </td>
 </tr>
@@ -141,37 +135,31 @@ The request is not supported. This value is returned if the IPv4 transport is no
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>dwForwardProto</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure pointed to by the <i>route</i> parameter must be set to <b>MIB_IPPROTO_NETMGMT</b> otherwise <b>SetIpForwardEntry</b> will fail. Routing protocol identifiers are used to identify route information for the specified routing protocol. For example, <b>MIB_IPPROTO_NETMGMT</b> is used to identify route information for IP  routing set through network management such as the Dynamic Host Configuration Protocol (DHCP), the Simple Network Management Protocol (SNMP), or by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>, or <b>SetIpForwardEntry</b> functions.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure pointed to by the <i>route</i> parameter must be set to <b>MIB_IPPROTO_NETMGMT</b> otherwise <b>SetIpForwardEntry</b> will fail. Routing protocol identifiers are used to identify route information for the specified routing protocol. For example, <b>MIB_IPPROTO_NETMGMT</b> is used to identify route information for IP  routing set through network management such as the Dynamic Host Configuration Protocol (DHCP), the Simple Network Management Protocol (SNMP), or by calls to the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>,  <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>, or <b>SetIpForwardEntry</b> functions.
 
-On Windows Vista and Windows Server 2008, the route metric specified in the <b>dwForwardMetric1</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure pointed to by <i>pRoute</i> parameter represents a combination of the route metric added to the interface metric specified in the <b>Metric</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structure of the associated interface.  So the <b>dwForwardMetric1</b> member of the  <b>MIB_IPFORWARDROW</b> structure should be equal to or greater than <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. If an application would like to set the route metric to 0, then the <b>dwForwardMetric1</b> member of the <b>MIB_IPFORWARDROW</b> structure  should be set equal to the value of the interface metric specified in the <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. An application can retrieve the interface metric by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a> function.
+On Windows Vista and Windows Server 2008, the route metric specified in the <b>dwForwardMetric1</b> member of the  <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure pointed to by <i>pRoute</i> parameter represents a combination of the route metric added to the interface metric specified in the <b>Metric</b> member of the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a> structure of the associated interface.  So the <b>dwForwardMetric1</b> member of the  <b>MIB_IPFORWARDROW</b> structure should be equal to or greater than <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. If an application would like to set the route metric to 0, then the <b>dwForwardMetric1</b> member of the <b>MIB_IPFORWARDROW</b> structure  should be set equal to the value of the interface metric specified in the <b>Metric</b> member of the associated <b>MIB_IPINTERFACE_ROW</b> structure. An application can retrieve the interface metric by calling the <a href="/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a> function.
 
-On Windows Vista and Windows Server 2008, the <b>SetIpForwardEntry</b> function only works on interfaces with a single sub-interface (where the interface LUID and subinterface LUID are the same). The <b>dwForwardIfIndex</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure specifies the interface.
+On Windows Vista and Windows Server 2008, the <b>SetIpForwardEntry</b> function only works on interfaces with a single sub-interface (where the interface LUID and subinterface LUID are the same). The <b>dwForwardIfIndex</b> member of the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure specifies the interface.
 
-The <b>dwForwardAge</b> member the <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure  pointed to by the <i>route</i> parameter is not currently used by <b>SetIpForwardEntry</b>. The <b>dwForwardAge</b> member is used only if the Routing and Remote Access Service (RRAS)is running, and then only for routes of type <b>MIB_IPPROTO_NETMGMT</b> as defined on the <a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a> reference page. When <b>dwForwardAge</b> is set to <b>INFINITE</b>, the route will not be removed based on a timeout
+The <b>dwForwardAge</b> member the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure  pointed to by the <i>route</i> parameter is not currently used by <b>SetIpForwardEntry</b>. The <b>dwForwardAge</b> member is used only if the Routing and Remote Access Service (RRAS)is running, and then only for routes of type <b>MIB_IPPROTO_NETMGMT</b> as defined on the <a href="/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a> reference page. When <b>dwForwardAge</b> is set to <b>INFINITE</b>, the route will not be removed based on a timeout
  
 value. Any other value for <b>dwForwardAge</b> specifies the number of seconds until the TCP/IP stack will remove the route from the network routing table.
 
 A route modified by <b>SetIpForwardEntry</b> will automatically have a default value for <b>dwForwardAge</b> of INFINITE.
 
-A number of members of the <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure  pointed to by the <i>route</i> parameter are not currently used by <b>SetIpForwardEntry</b>. These members include <b>dwForwardPolicy</b>, <b>dwForwardType</b>, <b>dwForwardAge</b>, <b>dwForwardNextHopAS</b>, <b>dwForwardMetric1</b>, <b>dwForwardMetric2</b>, <b>dwForwardMetric3</b>, <b>dwForwardMetric4</b>, and <b>dwForwardMetric5</b>. 
+A number of members of the <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a> structure  pointed to by the <i>route</i> parameter are not currently used by <b>SetIpForwardEntry</b>. These members include <b>dwForwardPolicy</b>, <b>dwForwardType</b>, <b>dwForwardAge</b>, <b>dwForwardNextHopAS</b>, <b>dwForwardMetric1</b>, <b>dwForwardMetric2</b>, <b>dwForwardMetric3</b>, <b>dwForwardMetric4</b>, and <b>dwForwardMetric5</b>. 
 
 To create a new route in the IP routing table, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a> function. To retrieve the IP routing table, call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a> function.
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a> function. To retrieve the IP routing table, call the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a> function.
 
 On Windows Vista and later, the <b>SetIpForwardEntry</b> function can only be called by a user logged on as a member of the Administrators group. If <b>SetIpForwardEntry</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. 
 
@@ -184,7 +172,7 @@ This function can also fail because of user account control (UAC) on Windows Vi
 
 #### Examples
 
-The following example demonstrates how to change the default gateway to NewGateway. Simply calling <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>, changing the gateway and then calling <b>SetIpForwardEntry</b> will not change the route, but rather will just add a new one. If for some reason there are multiple default gateways present, this code will delete them. Note that the new gateway must be viable; otherwise, TCP/IP will ignore the change.
+The following example demonstrates how to change the default gateway to NewGateway. Simply calling <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>, changing the gateway and then calling <b>SetIpForwardEntry</b> will not change the route, but rather will just add a new one. If for some reason there are multiple default gateways present, this code will delete them. Note that the new gateway must be viable; otherwise, TCP/IP will ignore the change.
 
 
 
@@ -194,7 +182,7 @@ The following example demonstrates how to change the default gateway to NewGatew
 
 
 
-<b>Windows Vista and later:  </b>When the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a> function and then <b>SetIpForwardEntry</b> function are called for the same route table entry on Windows Vista and later, ERROR_NOT_FOUND is returned. The proper way to replicate this example on Windows Vista and later is to use the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a> function to create the new route table entry and then delete the old route table entry by calling the <b>DeleteIpForwardEntry</b> function.
+<b>Windows Vista and later:  </b>When the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a> function and then <b>SetIpForwardEntry</b> function are called for the same route table entry on Windows Vista and later, ERROR_NOT_FOUND is returned. The proper way to replicate this example on Windows Vista and later is to use the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a> function to create the new route table entry and then delete the old route table entry by calling the <b>DeleteIpForwardEntry</b> function.
 
 
 
@@ -310,45 +298,34 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipforwardentry">CreateIpForwardEntry</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipforwardentry">DeleteIpForwardEntry</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipinterfaceentry">GetIpInterfaceEntry</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>

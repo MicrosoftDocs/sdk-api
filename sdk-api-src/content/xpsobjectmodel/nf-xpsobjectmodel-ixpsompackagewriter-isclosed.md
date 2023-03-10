@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.IsClosed
 title: IXpsOMPackageWriter::IsClosed (xpsobjectmodel.h)
 description: Gets the status of the IXpsOMPackageWriter interface.
+helpviewer_keywords: ["FALSE","IXpsOMPackageWriter interface [XPS Documents and Packaging]","IsClosed method","IXpsOMPackageWriter.IsClosed","IXpsOMPackageWriter3D interface [XPS Documents and Packaging]","IsClosed method","IXpsOMPackageWriter3D::IsClosed","IXpsOMPackageWriter::IsClosed","IsClosed","IsClosed method [XPS Documents and Packaging]","IsClosed method [XPS Documents and Packaging]","IXpsOMPackageWriter interface","IsClosed method [XPS Documents and Packaging]","IXpsOMPackageWriter3D interface","TRUE","xps.ixpsompackagewriter_isclosed","xpsobjectmodel/IXpsOMPackageWriter3D::IsClosed","xpsobjectmodel/IXpsOMPackageWriter::IsClosed"]
 old-location: xps\ixpsompackagewriter_isclosed.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 7f782432-3d36-466c-b265-9da99d97565e
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPackageWriter interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter.IsClosed, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],IsClosed method, IXpsOMPackageWriter3D::IsClosed, IXpsOMPackageWriter::IsClosed, IsClosed, IsClosed method [XPS Documents and Packaging], IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter interface, IsClosed method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, TRUE, xps.ixpsompackagewriter_isclosed, xpsobjectmodel/IXpsOMPackageWriter3D::IsClosed, xpsobjectmodel/IXpsOMPackageWriter::IsClosed
-f1_keywords:
-- xpsobjectmodel/IXpsOMPackageWriter.IsClosed
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPackageWriter.IsClosed
-- IXpsOMPackageWriter3D.IsClosed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPackageWriter::IsClosed
+ - xpsobjectmodel/IXpsOMPackageWriter::IsClosed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPackageWriter.IsClosed
+ - IXpsOMPackageWriter3D.IsClosed
 ---
 
 # IXpsOMPackageWriter::IsClosed
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the status of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface.
-
+Gets the status of the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param isClosed [out, retval]
 
-A pointer to a Boolean variable that receives the status of the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface.
+A pointer to a Boolean variable that receives the status of the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface.
 
 <table>
 <tr>
@@ -88,14 +85,10 @@ The  package is open and content can be added.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -127,47 +120,32 @@ A severe error occurred and the contents of the XPS OM might be unrecoverable. S
 </table>
  
 
-This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
-
-
-
+This method calls the <a href="/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
 ## -remarks
 
-
-
-If the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface is closed,  operations on the package are not allowed.
-
-
-
+If the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface is closed,  operations on the package are not allowed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
+<a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/dd464658(v=vs.85)">Using the IXpsOMPackageWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd464658(v=vs.85)">Using the IXpsOMPackageWriter Interface</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

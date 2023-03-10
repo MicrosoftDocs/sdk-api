@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteTextLayout.SetLocaleName
 title: IDWriteTextLayout::SetLocaleName (dwrite.h)
 description: Sets the locale name for text within a specified text range.
+helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetLocaleName method","IDWriteTextLayout.SetLocaleName","IDWriteTextLayout::SetLocaleName","SetLocaleName","SetLocaleName method [Direct Write]","SetLocaleName method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetLocaleName","dwrite/IDWriteTextLayout::SetLocaleName"]
 old-location: directwrite\IDWriteTextLayout_SetLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: c00d28dc-5338-438f-9046-5ad54e845e9d
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetLocaleName method, IDWriteTextLayout.SetLocaleName, IDWriteTextLayout::SetLocaleName, SetLocaleName, SetLocaleName method [Direct Write], SetLocaleName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetLocaleName, dwrite/IDWriteTextLayout::SetLocaleName
-f1_keywords:
-- dwrite/IDWriteTextLayout.SetLocaleName
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout.SetLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout::SetLocaleName
+ - dwrite/IDWriteTextLayout::SetLocaleName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout.SetLocaleName
 ---
 
 # IDWriteTextLayout::SetLocaleName
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
  Sets the locale name for text
     within a specified text range.
 
-
 ## -parameters
-
-
-
 
 ### -param localeName [in]
 
@@ -64,32 +61,19 @@ Type: <b>const WCHAR*</b>
 
 A null-terminated locale name string.
 
-
 ### -param textRange
 
 Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 Text range to which this change applies.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
- 
-
- 
 

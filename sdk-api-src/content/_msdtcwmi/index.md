@@ -4,7 +4,7 @@ title: Distributed Transaction Coordinator WMI Provider
 ms.assetid: ef7c9398-7333-3ac3-8703-41dad3372c6d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Distributed Transaction Coordinator WMI Provider
@@ -18,5 +18,4 @@ To develop Distributed Transaction Coordinator WMI Provider, you need these head
  * [wbemcli.h](../wbemcli/index.md)
 
 For programming guidance for this technology, see:
-* [Distributed Transaction Coordinator WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/msdtcwmi)
-
+* [Distributed Transaction Coordinator WMI Provider](/previous-versions/windows/desktop/msdtcwmi)

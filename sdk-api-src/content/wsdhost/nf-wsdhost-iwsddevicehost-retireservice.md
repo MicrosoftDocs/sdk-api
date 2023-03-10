@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDDeviceHost.RetireService
 title: IWSDDeviceHost::RetireService (wsdhost.h)
 description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.
+helpviewer_keywords: ["IWSDDeviceHost interface","RetireService method","IWSDDeviceHost.RetireService","IWSDDeviceHost::RetireService","RetireService","RetireService method","RetireService method","IWSDDeviceHost interface","ncd.iwsddevicehost_retireservice_method","wsdhost/IWSDDeviceHost::RetireService"]
 old-location: ncd\iwsddevicehost_retireservice_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RetireService method, IWSDDeviceHost.RetireService, IWSDDeviceHost::RetireService, RetireService, RetireService method, RetireService method,IWSDDeviceHost interface, ncd.iwsddevicehost_retireservice_method, wsdhost/IWSDDeviceHost::RetireService
-f1_keywords:
-- wsdhost/IWSDDeviceHost.RetireService
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.RetireService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::RetireService
+ - wsdhost/IWSDDeviceHost::RetireService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.RetireService
 ---
 
 # IWSDDeviceHost::RetireService
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Unregisters a service object that was registered using  <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> and removes the service from the device host metadata.
-
+Unregisters a service object that was registered using  <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a> and removes the service from the device host metadata.
 
 ## -parameters
-
-
-
 
 ### -param pszServiceId [in]
 
 The ID of the service to be removed.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -113,32 +107,16 @@ The length in characters of <i>pszServiceId</i> exceeds WSD_MAX_TEXT_LENGTH (819
 </dl>
 </td>
 <td width="60%">
-The method failed. It may have failed because the host has not been initialized. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
+The method failed. It may have failed because the host has not been initialized. Call <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-init">Init</a> to initialize a device host.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The device host releases its reference to the service object after the service is unregistered. The service object will not receive callbacks after <b>RetireService</b> has completed.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

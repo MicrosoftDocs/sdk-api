@@ -1,16 +1,13 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.Flush
 title: IMFSourceReader::Flush (mfreadwrite.h)
-description: Flushes one or more streams.
+description: Flushes one or more streams. (IMFSourceReader.Flush)
+helpviewer_keywords: ["Flush","Flush method [Media Foundation]","Flush method [Media Foundation]","IMFSourceReader interface","IMFSourceReader interface [Media Foundation]","Flush method","IMFSourceReader.Flush","IMFSourceReader::Flush","MF_SOURCE_READER_ALL_STREAMS","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereader_flush","mfreadwrite/IMFSourceReader::Flush"]
 old-location: mf\imfsourcereader_flush.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 34992c64-9956-4b23-a979-df7f678405b5
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],Flush method, IMFSourceReader.Flush, IMFSourceReader::Flush, MF_SOURCE_READER_ALL_STREAMS, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_flush, mfreadwrite/IMFSourceReader::Flush
-f1_keywords:
-- mfreadwrite/IMFSourceReader.Flush
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReader.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReader::Flush
+ - mfreadwrite/IMFSourceReader::Flush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReader.Flush
 ---
 
 # IMFSourceReader::Flush
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flushes one or more streams.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -111,50 +108,31 @@ All streams.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The <b>Flush</b> method discards all queued samples and cancels all pending sample requests.
 
 This method can complete either synchronously or asynchronously.
 
-If you provide a callback pointer when you create the source reader, the method is asynchronous. Otherwise, the method is synchronous. For more information about the setting the callback pointer, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-source-reader-async-callback">MF_SOURCE_READER_ASYNC_CALLBACK</a>.
+If you provide a callback pointer when you create the source reader, the method is asynchronous. Otherwise, the method is synchronous. For more information about the setting the callback pointer, see <a href="/windows/desktop/medfound/mf-source-reader-async-callback">MF_SOURCE_READER_ASYNC_CALLBACK</a>.
 
 In synchronous mode, the method blocks until the operation is complete.
 
-In asynchronous mode, the application's <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">IMFSourceReaderCallback::OnFlush</a> method is called when the flush operation completes. While a flush operation is pending, the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method returns <b>MF_E_NOTACCEPTING</b>.
+In asynchronous mode, the application's <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">IMFSourceReaderCallback::OnFlush</a> method is called when the flush operation completes. While a flush operation is pending, the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method returns <b>MF_E_NOTACCEPTING</b>.
 
-<div class="alert"><b>Note</b>  In Windows 7, there was a bug in the implementation of this method, which causes <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">OnFlush</a> to be called before the flush operation completes. A hotfix is available that fixes this bug. For more information, see <a href="https://support.microsoft.com/help/979567">http://support.microsoft.com/kb/979567</a>.</div>
+<div class="alert"><b>Note</b>  In Windows 7, there was a bug in the implementation of this method, which causes <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onflush">OnFlush</a> to be called before the flush operation completes. A hotfix used to be available that fixed that bug.</div>
 <div> </div>
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

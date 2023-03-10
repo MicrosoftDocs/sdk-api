@@ -1,16 +1,13 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportDel
 title: NetWkstaTransportDel function (lmwksta.h)
-description: Not supported.
+description: Not supported. (NetWkstaTransportDel)
+helpviewer_keywords: ["NetWkstaTransportDel","NetWkstaTransportDel function [Network Management]","USE_FORCE","USE_LOTS_OF_FORCE","USE_NOFORCE","_win32_netwkstatransportdel","lmwksta/NetWkstaTransportDel","netmgmt.netwkstatransportdel"]
 old-location: netmgmt\netwkstatransportdel.htm
 tech.root: NetMgmt
 ms.assetid: 6d0ec459-8d7b-41fe-96dd-203e6a42164f
 ms.date: 12/05/2018
 ms.keywords: NetWkstaTransportDel, NetWkstaTransportDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netwkstatransportdel, lmwksta/NetWkstaTransportDel, netmgmt.netwkstatransportdel
-f1_keywords:
-- lmwksta/NetWkstaTransportDel
-dev_langs:
-- c++
 req.header: lmwksta.h
 req.include-header: Lm.h, Lmwksta.h
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetWkstaTransportDel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetWkstaTransportDel
+ - lmwksta/NetWkstaTransportDel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetWkstaTransportDel
 ---
 
 # NetWkstaTransportDel function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is obsolete. To change the default settings for transport protocols manually, use the <b>Local Area Connection Properties</b> dialog box in the <b>Network and Dial-Up Connections</b> folder.]
 
@@ -56,11 +57,7 @@ Not supported.
 The 
 				<b>NetWkstaTransportDel</b> function unbinds the transport protocol from the redirector. (The redirector is the software on the client computer that generates file requests to the server computer.)
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
@@ -68,13 +65,10 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 
 
 This string must begin with \\.
-					
-
 
 ### -param transportname [in]
 
 Pointer to a string that specifies the name of the transport protocol to disconnect from the redirector.
-
 
 ### -param ucond [in]
 
@@ -118,12 +112,8 @@ Close any open files and delete the connection.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -168,17 +158,9 @@ The network connection does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Only members of the Administrators local group can successfully execute the 
 <b>NetWkstaTransportDel</b> function.
-
-
 

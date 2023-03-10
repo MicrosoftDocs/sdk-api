@@ -1,12 +1,9 @@
 ---
 UID: NS:guiddef._GUID
 title: GUID
-ms.date: 4/26/2019
+description: A GUID structure (guiddef.h) identifies an object such as a COM interfaces, or a COM class object, or a manager entry-point vector (EPV).
+ms.date: 08/12/2022
 ms.keywords: _GUID, GUID
-f1_keywords:
-- _GUID
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -17,21 +14,28 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: GUID
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - _GUID
+ - guiddef/_GUID
+ - GUID
+ - guiddef/GUID
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- guiddef.h
+ - guiddef.h
 api_name:
-- _GUID
-- GUID
+ - _GUID
+ - GUID
 ---
 
 ## -description
@@ -43,15 +47,19 @@ The **GUID** structure stores a GUID.
 ## -struct-fields
 
 ### -field Data1
+
 Specifies the first 8 hexadecimal digits of the GUID.
 
 ### -field Data2
+
 Specifies the first group of 4 hexadecimal digits.
 
 ### -field Data3
+
 Specifies the second group of 4 hexadecimal digits.
 
 ### -field Data4
+
 Array of 8 bytes. The first 2 bytes contain the third group of 4 hexadecimal digits. The remaining 6 bytes contain the final 12 hexadecimal digits.
 
 ## -remarks
@@ -64,4 +72,4 @@ GUIDs are the Microsoft implementation of the distributed computing environment 
 **ACE**  
 **ACL**  
 [UUID](/windows/win32/rpc/rpcdce/ns-rpcdce-uuid)  
-[UUID\_VECTOR](/windows/win32/api/rpcdce/ns-rpcdce-uuid_vector)
+[UUID\_VECTOR](../rpcdce/ns-rpcdce-uuid_vector.md)

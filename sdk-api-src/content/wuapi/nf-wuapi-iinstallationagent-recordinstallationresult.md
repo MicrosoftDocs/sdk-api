@@ -2,15 +2,12 @@
 UID: NF:wuapi.IInstallationAgent.RecordInstallationResult
 title: IInstallationAgent::RecordInstallationResult (wuapi.h)
 description: Records the result for an update. The result is specified by an IStringCollection object.
+helpviewer_keywords: ["IInstallationAgent interface [Windows Update Agent]","RecordInstallationResult method","IInstallationAgent.RecordInstallationResult","IInstallationAgent::RecordInstallationResult","RecordInstallationResult","RecordInstallationResult method [Windows Update Agent]","RecordInstallationResult method [Windows Update Agent]","IInstallationAgent interface","wua.iinstallationagent_recordinstallationresult","wuapi/IInstallationAgent::RecordInstallationResult"]
 old-location: wua\iinstallationagent_recordinstallationresult.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: E2DD54E3-741E-4647-9993-A9476279BD6C
 ms.date: 12/05/2018
 ms.keywords: IInstallationAgent interface [Windows Update Agent],RecordInstallationResult method, IInstallationAgent.RecordInstallationResult, IInstallationAgent::RecordInstallationResult, RecordInstallationResult, RecordInstallationResult method [Windows Update Agent], RecordInstallationResult method [Windows Update Agent],IInstallationAgent interface, wua.iinstallationagent_recordinstallationresult, wuapi/IInstallationAgent::RecordInstallationResult
-f1_keywords:
-- wuapi/IInstallationAgent.RecordInstallationResult
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationAgent.RecordInstallationResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationAgent::RecordInstallationResult
+ - wuapi/IInstallationAgent::RecordInstallationResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationAgent.RecordInstallationResult
 ---
 
 # IInstallationAgent::RecordInstallationResult
@@ -48,46 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Records the result for an update. The result is specified by an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> object.
-
+Records the result for an update. The result is specified by an <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> object.
 
 ## -parameters
-
-
-
 
 ### -param installationResultCookie [in]
 
 A string value that identifies the result cookie.
 
-
 ### -param hresult [in]
 
 The identifier of the result.
 
-
 ### -param extendedReportingData [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that represents a collection of strings that contain the result for an update.
-
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a> interface that represents a collection of strings that contain the result for an update.
 
 ## -returns
 
-
-
-Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
-
-
-
+Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationagent">IInstallationAgent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationagent">IInstallationAgent</a>

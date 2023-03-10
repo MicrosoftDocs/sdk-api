@@ -2,15 +2,12 @@
 UID: NN:evr.IMFVideoDeviceID
 title: IMFVideoDeviceID (evr.h)
 description: Returns the device identifier supported by a video renderer component.
+helpviewer_keywords: ["IMFVideoDeviceID","IMFVideoDeviceID interface [Media Foundation]","IMFVideoDeviceID interface [Media Foundation]","described","c42b75f9-6b72-4aab-92f2-3361ab475ce9","evr/IMFVideoDeviceID","mf.imfvideodeviceid"]
 old-location: mf\imfvideodeviceid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c42b75f9-6b72-4aab-92f2-3361ab475ce9
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDeviceID, IMFVideoDeviceID interface [Media Foundation], IMFVideoDeviceID interface [Media Foundation],described, c42b75f9-6b72-4aab-92f2-3361ab475ce9, evr/IMFVideoDeviceID, mf.imfvideodeviceid
-f1_keywords:
-- evr/IMFVideoDeviceID
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDeviceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDeviceID
+ - evr/IMFVideoDeviceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDeviceID
 ---
 
 # IMFVideoDeviceID interface
@@ -49,48 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the device identifier supported by a video renderer component. This interface is implemented by mixers and presenters for the enhanced video renderer (EVR). If you replace either of these components, the mixer and presenter must report the same device identifier.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoDeviceID</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDeviceID</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFVideoDeviceID</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodeviceid-getdeviceid">GetDeviceID</a>
-</td>
-<td align="left" width="63%">
-Returns the identifier of the video device supported by the EVR mixer or presenter.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMFVideoDeviceID</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDeviceID</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

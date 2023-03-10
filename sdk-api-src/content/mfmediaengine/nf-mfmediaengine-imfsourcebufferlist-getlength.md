@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFSourceBufferList.GetLength
 title: IMFSourceBufferList::GetLength (mfmediaengine.h)
 description: Gets the number of IMFSourceBuffer objects in the list.
+helpviewer_keywords: ["GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFSourceBufferList interface","IMFSourceBufferList interface [Media Foundation]","GetLength method","IMFSourceBufferList.GetLength","IMFSourceBufferList::GetLength","mf.imfsourcebufferlist_getlength","mfmediaengine/IMFSourceBufferList::GetLength"]
 old-location: mf\imfsourcebufferlist_getlength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 551d2f40-85ad-45af-9191-9fb2b2c44913
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFSourceBufferList interface, IMFSourceBufferList interface [Media Foundation],GetLength method, IMFSourceBufferList.GetLength, IMFSourceBufferList::GetLength, mf.imfsourcebufferlist_getlength, mfmediaengine/IMFSourceBufferList::GetLength
-f1_keywords:
-- mfmediaengine/IMFSourceBufferList.GetLength
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBufferList.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBufferList::GetLength
+ - mfmediaengine/IMFSourceBufferList::GetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBufferList.GetLength
 ---
 
 # IMFSourceBufferList::GetLength
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the number of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> objects  in the list.
-
-
-## -parameters
-
-
-
+Gets the number of <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> objects  in the list.
 
 
 
 ## -returns
 
-
-
 The number of source buffers in the list.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist">IMFSourceBufferList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist">IMFSourceBufferList</a>

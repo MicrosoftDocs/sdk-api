@@ -2,15 +2,12 @@
 UID: NF:winbase.GetNumaProcessorNodeEx
 title: GetNumaProcessorNodeEx function (winbase.h)
 description: Retrieves the node number as a USHORT value for the specified logical processor.
+helpviewer_keywords: ["GetNumaProcessorNodeEx","GetNumaProcessorNodeEx function","base.getnumaprocessornodeex","winbase/GetNumaProcessorNodeEx"]
 old-location: base\getnumaprocessornodeex.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 6b843cd8-eeb5-4aa1-aad4-ce98916346b1
 ms.date: 12/05/2018
 ms.keywords: GetNumaProcessorNodeEx, GetNumaProcessorNodeEx function, base.getnumaprocessornodeex, winbase/GetNumaProcessorNodeEx
-f1_keywords:
-- winbase/GetNumaProcessorNodeEx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- GetNumaProcessorNodeEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNumaProcessorNodeEx
+ - winbase/GetNumaProcessorNodeEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - GetNumaProcessorNodeEx
 ---
 
 # GetNumaProcessorNodeEx function
@@ -54,56 +56,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the node number as a <b>USHORT</b> value for the specified logical processor.
-
 
 ## -parameters
 
-
-
-
 ### -param Processor [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure that represents the logical processor and the processor group to which it is assigned.
-
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a> structure that represents the logical processor and the processor group to which it is assigned.
 
 ### -param NodeNumber [out]
 
 A pointer  to a variable to receive the node number. If the specified processor does not exist, this parameter is set to MAXUSHORT.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumaprocessornode">GetNumaProcessorNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaprocessornode">GetNumaProcessorNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-processor_number">PROCESSOR_NUMBER</a>

@@ -2,15 +2,12 @@
 UID: NE:http._HTTP_LOGGING_ROLLOVER_TYPE
 title: HTTP_LOGGING_ROLLOVER_TYPE (http.h)
 description: Defines the log file rollover types.
+helpviewer_keywords: ["*PHTTP_LOGGING_ROLLOVER_TYPE","*PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP]","HTTP_LOGGING_ROLLOVER_TYPE","HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP]","HttpLoggingRolloverDaily","HttpLoggingRolloverHourly","HttpLoggingRolloverMonthly","HttpLoggingRolloverSize","HttpLoggingRolloverWeekly","http.http_logging_rollover_type","http/*PHTTP_LOGGING_ROLLOVER_TYPE","http/HTTP_LOGGING_ROLLOVER_TYPE","http/HttpLoggingRolloverDaily","http/HttpLoggingRolloverHourly","http/HttpLoggingRolloverMonthly","http/HttpLoggingRolloverSize","http/HttpLoggingRolloverWeekly"]
 old-location: http\http_logging_rollover_type.htm
 tech.root: http
 ms.assetid: f1560f05-f7c4-46f1-ad9e-d737d0019b41
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HTTP_LOGGING_ROLLOVER_TYPE, HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, http.http_logging_rollover_type, http/*PHTTP_LOGGING_ROLLOVER_TYPE, http/HTTP_LOGGING_ROLLOVER_TYPE, http/HttpLoggingRolloverDaily, http/HttpLoggingRolloverHourly, http/HttpLoggingRolloverMonthly, http/HttpLoggingRolloverSize, http/HttpLoggingRolloverWeekly'
-f1_keywords:
-- http/HTTP_LOGGING_ROLLOVER_TYPE
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Http.h
-api_name:
-- HTTP_LOGGING_ROLLOVER_TYPE
 targetos: Windows
 req.typenames: HTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _HTTP_LOGGING_ROLLOVER_TYPE
+ - http/_HTTP_LOGGING_ROLLOVER_TYPE
+ - PHTTP_LOGGING_ROLLOVER_TYPE
+ - http/PHTTP_LOGGING_ROLLOVER_TYPE
+ - HTTP_LOGGING_ROLLOVER_TYPE
+ - http/HTTP_LOGGING_ROLLOVER_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Http.h
+api_name:
+ - HTTP_LOGGING_ROLLOVER_TYPE
 ---
 
 # HTTP_LOGGING_ROLLOVER_TYPE enumeration
@@ -48,45 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HTTP_LOGGING_ROLLOVER_TYPE</b> enumeration defines the log file rollover types.
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
-
+This enumeration is used  in the <a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a> structure.
 
 ## -enum-fields
 
-
-
-
 ### -field HttpLoggingRolloverSize
 
-The log files are rolled over when they reach a specified size. 
-
+The log files are rolled over when they reach a specified size.
 
 ### -field HttpLoggingRolloverDaily
 
 The log files are rolled over every day.
 
-
 ### -field HttpLoggingRolloverWeekly
 
 The log files are rolled over every week.
-
 
 ### -field HttpLoggingRolloverMonthly
 
 The log files are rolled over every month.
 
-
 ### -field HttpLoggingRolloverHourly
 
 The log files are rolled over every hour, based on GMT.
 
-
 ## -remarks
-
-
 
 The log files are named based on the rollover type and logging format as shown in  the following table.
 
@@ -208,24 +202,11 @@ The following table lists time element characters and what they represent. <tabl
 <td>The two digit representation of the numerical sequence.</td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/ns-http-http_logging_info">HTTP_LOGGING_INFO</a>

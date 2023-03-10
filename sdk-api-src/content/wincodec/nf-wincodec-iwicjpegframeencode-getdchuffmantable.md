@@ -1,16 +1,13 @@
 ---
 UID: NF:wincodec.IWICJpegFrameEncode.GetDcHuffmanTable
 title: IWICJpegFrameEncode::GetDcHuffmanTable (wincodec.h)
-description: Retrieves a copy of the DC Huffman table for the specified scan and table.
+description: Retrieves a copy of the DC Huffman table for the specified scan and table. (IWICJpegFrameEncode.GetDcHuffmanTable)
+helpviewer_keywords: ["GetDcHuffmanTable","GetDcHuffmanTable method [Windows Imaging Component]","GetDcHuffmanTable method [Windows Imaging Component]","IWICJpegFrameEncode interface","IWICJpegFrameEncode interface [Windows Imaging Component]","GetDcHuffmanTable method","IWICJpegFrameEncode.GetDcHuffmanTable","IWICJpegFrameEncode::GetDcHuffmanTable","wic.iwicjpegframeencode_getdchuffmantable","wincodec/IWICJpegFrameEncode::GetDcHuffmanTable"]
 old-location: wic\iwicjpegframeencode_getdchuffmantable.htm
 tech.root: wic
 ms.assetid: 8ACEFFBD-2F58-427D-8DB9-907A088A127B
 ms.date: 12/05/2018
 ms.keywords: GetDcHuffmanTable, GetDcHuffmanTable method [Windows Imaging Component], GetDcHuffmanTable method [Windows Imaging Component],IWICJpegFrameEncode interface, IWICJpegFrameEncode interface [Windows Imaging Component],GetDcHuffmanTable method, IWICJpegFrameEncode.GetDcHuffmanTable, IWICJpegFrameEncode::GetDcHuffmanTable, wic.iwicjpegframeencode_getdchuffmantable, wincodec/IWICJpegFrameEncode::GetDcHuffmanTable
-f1_keywords:
-- wincodec/IWICJpegFrameEncode.GetDcHuffmanTable
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICJpegFrameEncode.GetDcHuffmanTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICJpegFrameEncode::GetDcHuffmanTable
+ - wincodec/IWICJpegFrameEncode::GetDcHuffmanTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICJpegFrameEncode.GetDcHuffmanTable
 ---
 
 # IWICJpegFrameEncode::GetDcHuffmanTable
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a copy of the DC Huffman table for the specified scan and table.
 
-
 ## -parameters
-
-
-
 
 ### -param scanIndex
 
 The zero-based index of the scan for which data is retrieved.
 
-
 ### -param tableIndex
 
-The index of the DC Huffman table to retrieve. 
-
+The index of the DC Huffman table to retrieve.
 
 ### -param pDcHuffmanTable [out]
 
 A pointer that receives the table data. This parameter must not be NULL.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,18 +109,7 @@ Can occur if <i>pTable</i> is NULL or if <i>tableIndex</i> does not point to a v
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>

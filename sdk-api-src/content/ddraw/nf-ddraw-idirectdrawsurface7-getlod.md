@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDrawSurface7.GetLOD
 title: IDirectDrawSurface7::GetLOD (ddraw.h)
 description: Retrieves the maximum level of detail (LOD) currently set for a managed mipmap surface. This method succeeds only on managed textures.
+helpviewer_keywords: ["GetLOD","GetLOD method [DirectDraw]","GetLOD method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetLOD method","IDirectDrawSurface7.GetLOD","IDirectDrawSurface7::GetLOD","ddraw/IDirectDrawSurface7::GetLOD","directdraw.idirectdrawsurface7_getlod"]
 old-location: directdraw\idirectdrawsurface7_getlod.htm
 tech.root: directdraw
 ms.assetid: 9208372b-47ac-4079-9e4a-28cf51912a93
 ms.date: 12/05/2018
 ms.keywords: GetLOD, GetLOD method [DirectDraw], GetLOD method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetLOD method, IDirectDrawSurface7.GetLOD, IDirectDrawSurface7::GetLOD, ddraw/IDirectDrawSurface7::GetLOD, directdraw.idirectdrawsurface7_getlod
-f1_keywords:
-- ddraw/IDirectDrawSurface7.GetLOD
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,46 +25,37 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.GetLOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::GetLOD
+ - ddraw/IDirectDrawSurface7::GetLOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.GetLOD
 ---
-
-# IDirectDrawSurface7::GetLOD
-
 
 ## -description
 
-
 Retrieves the maximum level of detail (LOD) currently set for a managed mipmap surface. This method succeeds only on managed textures.
-
-
 
 ## -parameters
 
-
-
-
-
-
-#### - lpdwMaxLOD [out]
+### -param unnamedParam1 [out]
 
 A pointer to a variable that receives the maximum LOD value if the call succeeds.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -80,11 +68,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDPARAMS</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 Applications can call this method only for managed textures (those surfaces that were created with the DDSCAPS2_TEXTUREMANAGE flag). If you call <b>GetLOD</b> on a nonmanaged texture, <b>GetLOD</b> fails and returns DDERR_INVALIDOBJECT.
 
@@ -92,18 +76,8 @@ Applications can call this method only for managed textures (those surfaces that
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetLOD</b> method.
-
-
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

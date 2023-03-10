@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.IFileSourceFilter.GetCurFile
 title: IFileSourceFilter::GetCurFile (strmif.h)
-description: The GetCurFile method retrieves the name and media type of the current file.
+description: The GetCurFile method retrieves the name and media type of the current file. (IFileSourceFilter.GetCurFile)
+helpviewer_keywords: ["GetCurFile","GetCurFile method [DirectShow]","GetCurFile method [DirectShow]","IFileSourceFilter interface","IFileSourceFilter interface [DirectShow]","GetCurFile method","IFileSourceFilter.GetCurFile","IFileSourceFilter::GetCurFile","IFileSourceFilterGetCurfile","dshow.ifilesourcefilter_getcurfile","strmif/IFileSourceFilter::GetCurFile"]
 old-location: dshow\ifilesourcefilter_getcurfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 67373df9-06a3-4678-b661-29580df4f359
 ms.date: 12/05/2018
 ms.keywords: GetCurFile, GetCurFile method [DirectShow], GetCurFile method [DirectShow],IFileSourceFilter interface, IFileSourceFilter interface [DirectShow],GetCurFile method, IFileSourceFilter.GetCurFile, IFileSourceFilter::GetCurFile, IFileSourceFilterGetCurfile, dshow.ifilesourcefilter_getcurfile, strmif/IFileSourceFilter::GetCurFile
-f1_keywords:
-- strmif/IFileSourceFilter.GetCurFile
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFileSourceFilter.GetCurFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSourceFilter::GetCurFile
+ - strmif/IFileSourceFilter::GetCurFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFileSourceFilter.GetCurFile
 ---
 
 # IFileSourceFilter::GetCurFile
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetCurFile</code> method retrieves the name and media type of the current file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppszFileName [out]
 
 Address of a pointer that receives the name of the file, as an <b>OLESTR</b> type.
 
-
 ### -param pmt [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the media type. This parameter can by <b>NULL</b>, in which case the method does not return the media type.
-
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that receives the media type. This parameter can by <b>NULL</b>, in which case the method does not return the media type.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -127,33 +117,17 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the filter has not opened a file, the method might succeed but return <b>NULL</b> in the <i>ppszFileName</i> parameter. Check the value when the method returns.
 
-The method allocates the memory for the string returned in <i>ppszFileName</i>, and the memory for the format block in the media type (if any). The caller must free them by calling <b>CoTaskMemFree</b>. For the media type, you can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/freemediatype">FreeMediaType</a> function in the base class library.
-
-
-
+The method allocates the memory for the string returned in <i>ppszFileName</i>, and the memory for the format block in the media type (if any). The caller must free them by calling <b>CoTaskMemFree</b>. For the media type, you can use the <a href="/windows/desktop/DirectShow/freemediatype">FreeMediaType</a> function in the base class library.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter Interface</a>

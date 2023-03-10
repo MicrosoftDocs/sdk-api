@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration
 title: IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration (wmsdkidl.h)
 description: The SetAcceleratedStreamingDuration method sets the accelerated streaming duration. This duration applies to the Fast Start feature of Windows Media Services, which enables content to be played quickly without waiting for lengthy initial buffering.
+helpviewer_keywords: ["IWMReaderNetworkConfig2 interface [windows Media Format]","SetAcceleratedStreamingDuration method","IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration","IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration","IWMReaderNetworkConfig2SetAcceleratedStreamingDuration","SetAcceleratedStreamingDuration","SetAcceleratedStreamingDuration method [windows Media Format]","SetAcceleratedStreamingDuration method [windows Media Format]","IWMReaderNetworkConfig2 interface","wmformat.iwmreadernetworkconfig2_setacceleratedstreamingduration","wmsdkidl/IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration"]
 old-location: wmformat\iwmreadernetworkconfig2_setacceleratedstreamingduration.htm
 tech.root: wmformat
 ms.assetid: c9ad5064-7742-4145-b560-f3e867da609a
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetAcceleratedStreamingDuration method, IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration, IWMReaderNetworkConfig2SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration, SetAcceleratedStreamingDuration method [windows Media Format], SetAcceleratedStreamingDuration method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setacceleratedstreamingduration, wmsdkidl/IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
+ - wmsdkidl/IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig2.SetAcceleratedStreamingDuration
 ---
 
 # IWMReaderNetworkConfig2::SetAcceleratedStreamingDuration
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetAcceleratedStreamingDuration</b> method sets the accelerated streaming duration. This duration applies to the Fast Start feature of Windows Media Services, which enables content to be played quickly without waiting for lengthy initial buffering.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cnsAccelDuration [in]
 
 Specifies the accelerated streaming duration, in 100-nanosecond units. The maximum value is 1,200,000,000. This is the amount of data at the beginning of the content that is streamed at an accelerated rate.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,31 +82,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When using Fast Start, the server running Windows Media Services will send some data at the beginning of the content at a faster rate than that specified by the bit rate of the content.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig2">IWMReaderNetworkConfig2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getacceleratedstreamingduration">IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getacceleratedstreamingduration">IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration</a>

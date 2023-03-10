@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.get_Top
 title: IVideoWindow::get_Top (control.h)
 description: The get_Top method retrieves the video window's y-coordinate.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_Top method","IVideoWindow.get_Top","IVideoWindow::get_Top","IVideoWindowget_Top","control/IVideoWindow::get_Top","dshow.ivideowindow_get_top","get_Top","get_Top method [DirectShow]","get_Top method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_top.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 00baab45-d740-4f74-bd53-eb2ff21c5dcc
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Top method, IVideoWindow.get_Top, IVideoWindow::get_Top, IVideoWindowget_Top, control/IVideoWindow::get_Top, dshow.ivideowindow_get_top, get_Top, get_Top method [DirectShow], get_Top method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_Top
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_Top
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_Top
+ - control/IVideoWindow::get_Top
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_Top
 ---
 
 # IVideoWindow::get_Top
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Top</code> method retrieves the video window's y-coordinate.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pTop [out]
 
 Receives the y-coordinate, in pixels.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -112,26 +102,15 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_top">IVideoWindow::put_Top</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_top">IVideoWindow::put_Top</a>

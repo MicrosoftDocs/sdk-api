@@ -1,16 +1,13 @@
 ---
 UID: NS:winuser.tagHELPWININFOA
 title: HELPWININFOA (winuser.h)
-description: Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the WinHelp function with the HELP_SETWINPOS value.
+description: Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the WinHelp function with the HELP_SETWINPOS value. (ANSI)
+helpviewer_keywords: ["*LPHELPWININFOA","*PHELPWININFOA","HELPWININFO","HELPWININFO structure [Windows Shell]","HELPWININFOA","LPHELPWININFO","LPHELPWININFO structure pointer [Windows Shell]","PHELPWININFO","PHELPWININFO structure pointer [Windows Shell]","_win32_HELPWININFO_str","shell.HELPWININFO_str","tagHELPWININFOA","tagHELPWININFOW","winuser/HELPWININFO","winuser/LPHELPWININFO","winuser/PHELPWININFO"]
 old-location: shell\HELPWININFO_str.htm
 tech.root: shell
 ms.assetid: 0de0bf84-66f3-44bc-b4de-c2de7ca90cb2
 ms.date: 12/05/2018
-ms.keywords: '*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], SW_HIDE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO'
-f1_keywords:
-- winuser/HELPWININFO
-dev_langs:
-- c++
+ms.keywords: '*LPHELPWININFOA, *PHELPWININFOA, HELPWININFO, HELPWININFO structure [Windows Shell], HELPWININFOA, LPHELPWININFO, LPHELPWININFO structure pointer [Windows Shell], PHELPWININFO, PHELPWININFO structure pointer [Windows Shell], _win32_HELPWININFO_str, shell.HELPWININFO_str, tagHELPWININFOA, tagHELPWININFOW, winuser/HELPWININFO, winuser/LPHELPWININFO, winuser/PHELPWININFO'
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- HELPWININFO
 targetos: Windows
 req.typenames: HELPWININFOA, *PHELPWININFOA, *LPHELPWININFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHELPWININFOA
+ - winuser/tagHELPWININFOA
+ - PHELPWININFOA
+ - winuser/PHELPWININFOA
+ - HELPWININFOA
+ - winuser/HELPWININFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - HELPWININFO
 ---
 
 # HELPWININFOA structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-winhelpa">WinHelp</a> function with the HELP_SETWINPOS value.
-
+Contains the size and position of either a primary or secondary Help window. An application can set this information by calling the <a href="/windows/desktop/api/winuser/nf-winuser-winhelpa">WinHelp</a> function with the HELP_SETWINPOS value.
 
 ## -struct-fields
-
-
-
 
 ### -field wStructSize
 
@@ -63,13 +64,11 @@ Type: <b>int</b>
 
 The size of this structure, in bytes.
 
-
 ### -field x
 
 Type: <b>int</b>
 
 X-coordinate of the upper-left corner of the window, in screen coordinates.
-
 
 ### -field y
 
@@ -77,13 +76,11 @@ Type: <b>int</b>
 
 Y-coordinate of the upper-left corner of the window, in screen coordinates.
 
-
 ### -field dx
 
 Type: <b>int</b>
 
 The width of the window, in pixels.
-
 
 ### -field dy
 
@@ -91,73 +88,11 @@ Type: <b>int</b>
 
 The height of the window, in pixels.
 
-
 ### -field wMax
 
 Type: <b>int</b>
 
-Options for display of the window. Several values also determine the activation (focus) state of the window or other windows. This member must be one of the following values.
-
-
-
-#### SW_HIDE
-
-Hides the window and passes activation to another window.
-
-
-
-#### SW_MINIMIZE
-
-Minimizes the specified window and activates the top-level window in the z-order.
-
-
-
-#### SW_RESTORE
-
-Same as <b>SW_SHOWNORMAL</b>.
-
-
-
-#### SW_SHOW
-
-Activates a window and displays it in its current size and position.
-
-
-
-#### SW_SHOWMAXIMIZED
-
-Activates the window and displays it as a maximized window.
-
-
-
-#### SW_SHOWMINIMIZED
-
-Activates the window and displays it as an icon.
-
-
-
-#### SW_SHOWMINNOACTIVE
-
-Displays the window as an icon. The window that is currently active remains active.
-
-
-
-#### SW_SHOWNA
-
-Displays the window in its current state. The window that is currently active remains active.
-
-
-
-#### SW_SHOWNOACTIVATE
-
-Displays a window in its most recent size and position. The window that is currently active remains active.
-
-
-
-#### SW_SHOWNORMAL
-
-Activates and displays the window. Whether the window is minimized or maximized, Windows restores it to its original size and position.
-
+Options for display of the window. It can be any of the values that can be specified in the <i>nCmdShow</i> parameter for the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function.
 
 ### -field rgchMember
 
@@ -165,14 +100,11 @@ Type: <b>TCHAR[2]</b>
 
 The name of the window.
 
-
 ## -remarks
-
-
 
 Windows Help divides the display into 1024 units in both the X and Y directions. To create a secondary window that fills the upper-left quadrant of the display, for example, an application would specify zero for the <b>x</b> and <b>y</b> members and 512 for the <b>dx</b> and <b>dy</b> members.
 
-To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="https://docs.microsoft.com/previous-versions/0w557fh7(v=vs.85)">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
+To calculate <b>wStructSize</b> properly, the actual size of the string to be stored at <b>rgchMember</b> must be known. Since <a href="/previous-versions/0w557fh7(v=vs.85)">sizeof</a>(HELPWININFO) includes two <b>TCHARs</b> by definition, they must be taken into account in the final total. The following example shows the proper calculation of an instance of  <b>wStructSize</b>.
 
                 
 
@@ -204,3 +136,6 @@ if (SUCCEEDED(hr))
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines HELPWININFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

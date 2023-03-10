@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetWriterTime
 title: IWMWriterAdvanced::GetWriterTime (wmsdkidl.h)
 description: The GetWriterTime method retrieves the clock time that the writer is working to.
+helpviewer_keywords: ["GetWriterTime","GetWriterTime method [windows Media Format]","GetWriterTime method [windows Media Format]","IWMWriterAdvanced interface","IWMWriterAdvanced interface [windows Media Format]","GetWriterTime method","IWMWriterAdvanced.GetWriterTime","IWMWriterAdvanced::GetWriterTime","IWMWriterAdvancedGetWriterTime","wmformat.iwmwriteradvanced_getwritertime","wmsdkidl/IWMWriterAdvanced::GetWriterTime"]
 old-location: wmformat\iwmwriteradvanced_getwritertime.htm
 tech.root: wmformat
 ms.assetid: ed15e545-8b37-4098-8e2f-96f4cfb271d3
 ms.date: 12/05/2018
 ms.keywords: GetWriterTime, GetWriterTime method [windows Media Format], GetWriterTime method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetWriterTime method, IWMWriterAdvanced.GetWriterTime, IWMWriterAdvanced::GetWriterTime, IWMWriterAdvancedGetWriterTime, wmformat.iwmwriteradvanced_getwritertime, wmsdkidl/IWMWriterAdvanced::GetWriterTime
-f1_keywords:
-- wmsdkidl/IWMWriterAdvanced.GetWriterTime
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterAdvanced.GetWriterTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterAdvanced::GetWriterTime
+ - wmsdkidl/IWMWriterAdvanced::GetWriterTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterAdvanced.GetWriterTime
 ---
 
 # IWMWriterAdvanced::GetWriterTime
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetWriterTime</b> method retrieves the clock time that the writer is working to.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcnsCurrentTime [out]
 
 Pointer to a variable containing the current time in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,31 +93,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method returns the largest time stamp that the writer can currently process. This time stamp will increase as data is produced by the writer. This method can be used to ensure that data is delivered to the writer at the proper rate.
 
-The time returned is the number of 100-nanosecond units since the call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
+The time returned is the number of 100-nanosecond units since the call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
 
-The writer can be running in real time. Call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-isrealtime">IWMWriterAdvanced::IsRealTime</a> method to ascertain whether this is true.
-
-
-
+The writer can be running in real time. Call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-isrealtime">IWMWriterAdvanced::IsRealTime</a> method to ascertain whether this is true.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:roerrorapi.RoTransformErrorW
 title: RoTransformErrorW function
 description: Reports a transformed error and an informative string to an attached debugger.
+helpviewer_keywords: ["RoTransformErrorW","RoTransformErrorW function [Windows Runtime]","WinRTTransformErrorW","roerrorapi/RoTransformErrorW","roerrorapi/WinRTTransformErrorW","winrt.rotransformerrorw","winrt.winrttransformerrorw"]
 old-location: winrt\rotransformerrorw.htm
 tech.root: WinRT
 ms.assetid: A13265FD-DC14-4552-A9FD-C954A7EA08C9
 ms.date: 12/5/2018
 ms.keywords: RoTransformErrorW, RoTransformErrorW function [Windows Runtime], WinRTTransformErrorW, roerrorapi/RoTransformErrorW, roerrorapi/WinRTTransformErrorW, winrt.rotransformerrorw, winrt.winrttransformerrorw
-f1_keywords:
-- roerrorapi/RoTransformErrorW
-dev_langs:
-- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- roerrorapi.h
-- API-MS-Win-Core-WinRT-error-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-WinRT-error-l1-1-1.dll
-api_name:
-- RoTransformErrorW
-- WinRTTransformErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - RoTransformErrorW
+ - roerrorapi/RoTransformErrorW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - roerrorapi.h
+ - API-MS-Win-Core-WinRT-error-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+api_name:
+ - RoTransformErrorW
+ - WinRTTransformErrorW
 ---
 
 # RoTransformErrorW function
@@ -51,21 +53,15 @@ req.redist:
 
 ## -description
 
-
 Reports a transformed error and an informative string to an attached debugger.
 
-
 ## -parameters
-
-
-
 
 ### -param oldError [in]
 
 Type: <b>HRESULT</b>
 
-The original error code associated with the error condition. 
-
+The original error code associated with the error condition.
 
 ### -param newError [in]
 
@@ -73,13 +69,11 @@ Type: <b>HRESULT</b>
 
 The custom error code to associate with the error condition. If <i>oldError</i> and <i>newError</i>  are the same, or both are success codes, such as <b>S_OK</b>, the function has no effect and returns <b>FALSE</b>.
 
-
 ### -param cchMax [in]
 
 Type: <b>UINT</b>
 
 The maximum number of characters in <i>message</i>, excluding the terminating null character. If the value is 0, the string is read to the first null character or 512 characters, whichever is less. If <i>cchMax</i> is greater than 512, all characters after 512 are ignored.
-
 
 ### -param message [in]
 
@@ -93,10 +87,7 @@ If <i>message</i> is <b>NULL</b>, the function succeeds and reports the generic 
 
 This function does not support embedded null characters, so only the characters before the first null are reported.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
@@ -128,52 +119,35 @@ The  error message was reported successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Use the <b>RoTransformErrorW</b> function  to substitute a custom error code for an existing error condition. For example, if the current error condition is <b>E_FAIL</b>, you can substitute a more specific error code, such as  	<b>E_FILENOTFOUND</b> and report the transformed error to an attached debugger. 
 
-The behavior of the  <b>RoTransformErrorW</b> function is otherwise the same as the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a> function.
+The behavior of the  <b>RoTransformErrorW</b> function is otherwise the same as the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a> function.
 
- If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="https://docs.microsoft.com/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
+ If the <b>UseSetErrorInfo</b> flag is set by calling the <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a> function, and the calling thread has been initialized in COM, the function creates an appropriate error object that supports <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> and  associates it with the COM channel by calling <a href="/windows/win32/api/oleauto/nf-oleauto-seterrorinfo">SetErrorInfo</a>.  If the thread has not been initialized into COM, the call will still succeed with no  error, but the error will not be associated with the COM channel.
 
 
 <div class="alert"><b>Note</b>  This is no ANSI version of the <b>RoTransformErrorW</b> function. Message strings are required to be Unicode.</div>
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/ne-roerrorapi-roerrorreportingflags">RO_ERROR_REPORTING_FLAGS</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags">RoGetErrorReportingFlags</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rooriginateerrorw">RoOriginateErrorW</a>
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags">RoSetErrorReportingFlags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>

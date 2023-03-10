@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.GetAnimation
 title: ITextFont::GetAnimation (tom.h)
 description: Gets the animation type.
+helpviewer_keywords: ["GetAnimation","GetAnimation method [Windows Controls]","GetAnimation method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetAnimation method","ITextFont.GetAnimation","ITextFont::GetAnimation","_win32_ITextFont_GetAnimation","_win32_ITextFont_GetAnimation_cpp","controls.ITextFont_GetAnimation","controls._win32_ITextFont_GetAnimation","tom/ITextFont::GetAnimation"]
 old-location: controls\ITextFont_GetAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getanimation.htm
 ms.date: 12/05/2018
 ms.keywords: GetAnimation, GetAnimation method [Windows Controls], GetAnimation method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetAnimation method, ITextFont.GetAnimation, ITextFont::GetAnimation, _win32_ITextFont_GetAnimation, _win32_ITextFont_GetAnimation_cpp, controls.ITextFont_GetAnimation, controls._win32_ITextFont_GetAnimation, tom/ITextFont::GetAnimation
-f1_keywords:
-- tom/ITextFont.GetAnimation
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.GetAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::GetAnimation
+ - tom/ITextFont::GetAnimation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.GetAnimation
 ---
 
 # ITextFont::GetAnimation
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the animation type.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -64,23 +61,21 @@ Type: <b>long*</b>
 One of the following animation types. 
 					
 
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomNoAnimation</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomLasVegasLights</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomBlinkingBackground</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomSparkleText</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingBlackAnts</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingRedAnts</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomShimmer</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomWipeDown</a>
-<a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomWipeRight</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomNoAnimation</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomLasVegasLights</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomBlinkingBackground</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomSparkleText</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingBlackAnts</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomMarchingRedAnts</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomShimmer</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomWipeDown</a>
+<a href="/windows/win32/api/tom/ne-tom-tomconstants">tomWipeRight</a>
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -110,21 +105,14 @@ The font object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -132,12 +120,8 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setanimation">SetAnimation</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setanimation">SetAnimation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

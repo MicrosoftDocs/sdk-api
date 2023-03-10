@@ -2,15 +2,12 @@
 UID: NF:amstream.IDirectDrawMediaSample.LockMediaSamplePointer
 title: IDirectDrawMediaSample::LockMediaSamplePointer (amstream.h)
 description: The LockMediaSamplePointer method locks the surface that the sample represents.
+helpviewer_keywords: ["IDirectDrawMediaSample interface [DirectShow]","LockMediaSamplePointer method","IDirectDrawMediaSample.LockMediaSamplePointer","IDirectDrawMediaSample::LockMediaSamplePointer","IDirectDrawMediaSampleLockMediaSamplePointer","LockMediaSamplePointer","LockMediaSamplePointer method [DirectShow]","LockMediaSamplePointer method [DirectShow]","IDirectDrawMediaSample interface","amstream/IDirectDrawMediaSample::LockMediaSamplePointer","dshow.idirectdrawmediasample_lockmediasamplepointer"]
 old-location: dshow\idirectdrawmediasample_lockmediasamplepointer.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f711a82d-7560-43f8-8689-7f2fca77ae64
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointer method, IDirectDrawMediaSample.LockMediaSamplePointer, IDirectDrawMediaSample::LockMediaSamplePointer, IDirectDrawMediaSampleLockMediaSamplePointer, LockMediaSamplePointer, LockMediaSamplePointer method [DirectShow], LockMediaSamplePointer method [DirectShow],IDirectDrawMediaSample interface, amstream/IDirectDrawMediaSample::LockMediaSamplePointer, dshow.idirectdrawmediasample_lockmediasamplepointer
-f1_keywords:
-- amstream/IDirectDrawMediaSample.LockMediaSamplePointer
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDirectDrawMediaSample.LockMediaSamplePointer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawMediaSample::LockMediaSamplePointer
+ - amstream/IDirectDrawMediaSample::LockMediaSamplePointer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDirectDrawMediaSample.LockMediaSamplePointer
 ---
 
 # IDirectDrawMediaSample::LockMediaSamplePointer
@@ -49,49 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>LockMediaSamplePointer</code> method locks the surface that the sample represents.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
-
-
-Call this method only after calling <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasample-getsurfaceandreleaselock">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
-
-
-
+Call this method only after calling <a href="/windows/desktop/api/amstream/nf-amstream-idirectdrawmediasample-getsurfaceandreleaselock">IDirectDrawMediaSample::GetSurfaceAndReleaseLock</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample">IDirectDrawMediaSample Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample">IDirectDrawMediaSample Interface</a>

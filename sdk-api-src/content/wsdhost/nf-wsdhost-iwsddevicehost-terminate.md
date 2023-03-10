@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDDeviceHost.Terminate
 title: IWSDDeviceHost::Terminate (wsdhost.h)
 description: Terminates the host and releases any attached services.
+helpviewer_keywords: ["IWSDDeviceHost interface","Terminate method","IWSDDeviceHost.Terminate","IWSDDeviceHost::Terminate","Terminate","Terminate method","Terminate method","IWSDDeviceHost interface","ncd.iwsddevicehost_terminate","wsdhost/IWSDDeviceHost::Terminate"]
 old-location: ncd\iwsddevicehost_terminate.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 2a8df6fb-2834-44f4-9f25-454dcc2ff660
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Terminate method, IWSDDeviceHost.Terminate, IWSDDeviceHost::Terminate, Terminate, Terminate method, Terminate method,IWSDDeviceHost interface, ncd.iwsddevicehost_terminate, wsdhost/IWSDDeviceHost::Terminate
-f1_keywords:
-- wsdhost/IWSDDeviceHost.Terminate
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::Terminate
+ - wsdhost/IWSDDeviceHost::Terminate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.Terminate
 ---
 
 # IWSDDeviceHost::Terminate
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Terminates the host and releases any attached services. If a notification sink was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> method, then the notification sink is released.
-
-
-## -parameters
-
-
-
+Terminates the host and releases any attached services. If a notification sink was passed to the <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">Start</a> method, then the notification sink is released.
 
 
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -93,32 +86,15 @@ The host is uninitialized or the host has already been terminated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Services and notification sinks will not receive messages after the <b>Terminate</b> method has completed.
 
-If this device host was started by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">IWSDDeviceHost::Start</a>, it must first be stopped by calling <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">IWSDDeviceHost::Stop</a> before <b>Terminate</b> can be called.
+If this device host was started by calling <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-start">IWSDDeviceHost::Start</a>, it must first be stopped by calling <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-stop">IWSDDeviceHost::Stop</a> before <b>Terminate</b> can be called.
 
-	<b>Terminate</b> must be called before releasing the <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>.
-
-
-
-
+<b>Terminate</b> must be called before releasing the <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

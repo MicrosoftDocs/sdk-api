@@ -2,15 +2,12 @@
 UID: NS:processthreadsapi._PROCESS_LEAP_SECOND_INFO
 title: PROCESS_LEAP_SECOND_INFO (processthreadsapi.h)
 description: Specifies how the system handles positive leap seconds.
+helpviewer_keywords: ["*PPROCESS_LEAP_SECOND_INFO","PPROCESS_LEAP_SECOND_INFO","PPROCESS_LEAP_SECOND_INFO structure pointer","PROCESS_LEAP_SECOND_INFO","PROCESS_LEAP_SECOND_INFO structure","PROCESS_LEAP_SECOND_INFO_FLAG_ENABLE_SIXTY_SECOND","base.process_leap_second_info","processthreadsapi/PPROCESS_LEAP_SECOND_INFO","processthreadsapi/PROCESS_LEAP_SECOND_INFO"]
 old-location: base\process_leap_second_info.htm
-tech.root: ProcThread
+tech.root: processthreadsapi
 ms.assetid: 63AA6F71-506C-47EA-A7EF-8A8309B84257
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO structure pointer, PROCESS_LEAP_SECOND_INFO, PROCESS_LEAP_SECOND_INFO structure, PROCESS_LEAP_SECOND_INFO_FLAG_ENABLE_SIXTY_SECOND, base.process_leap_second_info, processthreadsapi/PPROCESS_LEAP_SECOND_INFO, processthreadsapi/PROCESS_LEAP_SECOND_INFO'
-f1_keywords:
-- processthreadsapi/PROCESS_LEAP_SECOND_INFO
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- processthreadsapi.h
-api_name:
-- PROCESS_LEAP_SECOND_INFO
 targetos: Windows
 req.typenames: PROCESS_LEAP_SECOND_INFO, *PPROCESS_LEAP_SECOND_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROCESS_LEAP_SECOND_INFO
+ - processthreadsapi/_PROCESS_LEAP_SECOND_INFO
+ - PPROCESS_LEAP_SECOND_INFO
+ - processthreadsapi/PPROCESS_LEAP_SECOND_INFO
+ - PROCESS_LEAP_SECOND_INFO
+ - processthreadsapi/PROCESS_LEAP_SECOND_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - processthreadsapi.h
+api_name:
+ - PROCESS_LEAP_SECOND_INFO
 ---
 
 # PROCESS_LEAP_SECOND_INFO structure
@@ -49,15 +55,10 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Specifies how the system handles positive leap seconds. 
-
+Specifies how the system handles positive leap seconds.
 
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -80,8 +81,6 @@ This value changes the way positive leap seconds are handled by system. Specific
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Reserved
 

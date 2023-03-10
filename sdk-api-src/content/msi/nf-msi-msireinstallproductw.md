@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiReinstallProductW
 title: MsiReinstallProductW function (msi.h)
-description: Reinstalls products.
+description: Reinstalls products. (Unicode)
+helpviewer_keywords: ["MsiReinstallProduct", "MsiReinstallProduct function", "MsiReinstallProductW", "REINSTALLMODE_FILEEQUALVERSION", "REINSTALLMODE_FILEEXACT", "REINSTALLMODE_FILEMISSING", "REINSTALLMODE_FILEOLDERVERSION", "REINSTALLMODE_FILEREPLACE", "REINSTALLMODE_FILEVERIFY", "REINSTALLMODE_MACHINEDATA", "REINSTALLMODE_PACKAGE", "REINSTALLMODE_SHORTCUT", "REINSTALLMODE_USERDATA", "_msi_msireinstallproduct", "msi/MsiReinstallProduct", "msi/MsiReinstallProductW", "setup.msireinstallproduct"]
 old-location: setup\msireinstallproduct.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
 ms.date: 12/05/2018
 ms.keywords: MsiReinstallProduct, MsiReinstallProduct function, MsiReinstallProductA, MsiReinstallProductW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallproduct, msi/MsiReinstallProduct, msi/MsiReinstallProductA, msi/MsiReinstallProductW, setup.msireinstallproduct
-f1_keywords:
-- msi/MsiReinstallProduct
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiReinstallProduct
-- MsiReinstallProductA
-- MsiReinstallProductW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiReinstallProductW
+ - msi/MsiReinstallProductW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiReinstallProduct
+ - MsiReinstallProductA
+ - MsiReinstallProductW
 ---
 
 # MsiReinstallProductW function
@@ -50,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiReinstallProduct</b> function reinstalls products.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product to be reinstalled.
-
 
 ### -param szReinstallMode [in]
 
@@ -121,7 +117,7 @@ Reinstall if the file is missing or is a different version.
 </td>
 <td width="60%">
 Verify the checksum values and reinstall the file if they are missing or corrupt. This flag only repairs files that have msidbFileAttributesChecksum in the Attributes column of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/file-table">File table</a>.
+<a href="/windows/desktop/Msi/file-table">File table</a>.
 
 </td>
 </tr>
@@ -142,7 +138,7 @@ Force all files to be reinstalled, regardless of checksum or version.
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/registry-table">Registry Table</a> that go to the<b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
+<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_CURRENT_USER</b></p>  or <b>HKEY_USERS</b></p> registry hive.
 
 </td>
 </tr>
@@ -153,18 +149,18 @@ Rewrite all required registry entries from the
 </td>
 <td width="60%">
 Rewrite all required registry entries from the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p>or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/class-table">Class Table</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/verb-table">Verb Table</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/publishcomponent-table">PublishComponent Table</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/progid-table">ProgID Table</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/mime-table">MIMET Table</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/icon-table">Icon Table</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/extension-table">Extension Table</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/appid-table">AppID Table</a> regardless of machine or user assignment. Reinstall all 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiprovidequalifiedcomponenta">qualified components</a>.
+<a href="/windows/desktop/Msi/registry-table">Registry Table</a> that go to the <b>HKEY_LOCAL_MACHINE</b></p> or <b>HKEY_CLASSES_ROOT</b></p> registry hive. Rewrite all information from the 
+<a href="/windows/desktop/Msi/class-table">Class Table</a>, 
+<a href="/windows/desktop/Msi/verb-table">Verb Table</a>, 
+<a href="/windows/desktop/Msi/publishcomponent-table">PublishComponent Table</a>, 
+<a href="/windows/desktop/Msi/progid-table">ProgID Table</a>, 
+<a href="/windows/desktop/Msi/mime-table">MIMET Table</a>, 
+<a href="/windows/desktop/Msi/icon-table">Icon Table</a>, 
+<a href="/windows/desktop/Msi/extension-table">Extension Table</a>, and 
+<a href="/windows/desktop/Msi/appid-table">AppID Table</a> regardless of machine or user assignment. Reinstall all 
+<a href="/windows/desktop/api/msi/nf-msi-msiprovidequalifiedcomponenta">qualified components</a>.
 
-When reinstalling an application,  this option runs the <a href="https://docs.microsoft.com/windows/desktop/Msi/registertypelibraries-action">RegisterTypeLibraries</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/installodbc-action">InstallODBC</a> actions.
+When reinstalling an application,  this option runs the <a href="/windows/desktop/Msi/registertypelibraries-action">RegisterTypeLibraries</a> and <a href="/windows/desktop/Msi/installodbc-action">InstallODBC</a> actions.
 
 </td>
 </tr>
@@ -189,12 +185,8 @@ Use to run from the source package and re-cache the local package. Do not use fo
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -282,27 +274,21 @@ The product code does not identify a known product.
  
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
-					
-
-
-
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>
+<a href="/windows/desktop/Msi/reinstallmode">REINSTALLMODE Property</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/reinstallmode">REINSTALLMODE Property</a>
- 
-
- 
-
+> [!NOTE]
+> The msi.h header defines MsiReinstallProduct as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.Add
 title: ICertSrvSetupKeyInformationCollection::Add (casetup.h)
 description: Adds an ICertSrvSetupKeyInformation object to the collection.
+helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertSrvSetupKeyInformationCollection interface","ICertSrvSetupKeyInformationCollection interface [Security]","Add method","ICertSrvSetupKeyInformationCollection.Add","ICertSrvSetupKeyInformationCollection::Add","casetup/ICertSrvSetupKeyInformationCollection::Add","security.icertsrvsetupkeyinformationcollection_add"]
 old-location: security\icertsrvsetupkeyinformationcollection_add.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8f342787-13f7-4bca-8320-61bb5112ee34
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Add method, ICertSrvSetupKeyInformationCollection.Add, ICertSrvSetupKeyInformationCollection::Add, casetup/ICertSrvSetupKeyInformationCollection::Add, security.icertsrvsetupkeyinformationcollection_add
-f1_keywords:
-- casetup/ICertSrvSetupKeyInformationCollection.Add
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetupKeyInformationCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetupKeyInformationCollection::Add
+ - casetup/ICertSrvSetupKeyInformationCollection::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetupKeyInformationCollection.Add
 ---
 
 # ICertSrvSetupKeyInformationCollection::Add
@@ -48,27 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Add</b> method adds an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object to the collection.
-
+The <b>Add</b> method adds an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object to the collection.
 
 ## -parameters
 
-
-
-
 ### -param pIKeyInformation [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object.
-
+A pointer to an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>

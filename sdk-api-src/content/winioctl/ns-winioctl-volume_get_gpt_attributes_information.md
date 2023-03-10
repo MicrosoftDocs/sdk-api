@@ -2,15 +2,12 @@
 UID: NS:winioctl._VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 title: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 description: Contains volume attributes retrieved with the IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code.
+helpviewer_keywords: ["*PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION","GPT_BASIC_DATA_ATTRIBUTE_HIDDEN","GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER","GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY","GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY","PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION","PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure pointer [Files]","VOLUME_GET_GPT_ATTRIBUTES_INFORMATION","VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure [Files]","fs.volume_get_gpt_attributes_information","winioctl/PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION","winioctl/VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"]
 old-location: fs\volume_get_gpt_attributes_information.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: d67590a9-9182-406f-8d15-8d40172cf5e5
 ms.date: 12/05/2018
 ms.keywords: '*PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure pointer [Files], VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure [Files], fs.volume_get_gpt_attributes_information, winioctl/PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, winioctl/VOLUME_GET_GPT_ATTRIBUTES_INFORMATION'
-f1_keywords:
-- winioctl/VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 targetos: Windows
 req.typenames: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, *PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 req.redist: 
+f1_keywords:
+ - _VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+ - winioctl/_VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+ - PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+ - winioctl/PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+ - VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+ - winioctl/VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 ---
 
 # VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure
@@ -47,14 +53,9 @@ req.redist:
 
 ## -description
 
-
-Contains volume attributes retrieved with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_gpt_attributes">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a> control code.
-
+Contains volume attributes retrieved with the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_gpt_attributes">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a> control code.
 
 ## -struct-fields
-
-
-
 
 ### -field GptAttributes
 
@@ -84,7 +85,7 @@ The volume is read-only.
 </dl>
 </td>
 <td width="60%">
-The volume is a shadow copy of another volume. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-service-overview">Volume Shadow Copy Service Overview</a>.
+The volume is a shadow copy of another volume. For more information, see <a href="/windows/desktop/VSS/volume-shadow-copy-service-overview">Volume Shadow Copy Service Overview</a>.
 
 </td>
 </tr>
@@ -111,16 +112,7 @@ The volume is not assigned a default drive letter.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_gpt_attributes">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_gpt_attributes">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_UIContextMessage
 title: IX509PrivateKey::put_UIContextMessage (certenroll.h)
-description: Specifies or retrieves a string that contains user interface text associated with the private key.
+description: Specifies or retrieves a string that contains user interface text associated with the private key. (Put)
+helpviewer_keywords: ["IX509PrivateKey interface [Security]","UIContextMessage property","IX509PrivateKey.UIContextMessage","IX509PrivateKey.put_UIContextMessage","IX509PrivateKey::UIContextMessage","IX509PrivateKey::get_UIContextMessage","IX509PrivateKey::put_UIContextMessage","UIContextMessage property [Security]","UIContextMessage property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::UIContextMessage","certenroll/IX509PrivateKey::get_UIContextMessage","certenroll/IX509PrivateKey::put_UIContextMessage","put_UIContextMessage","security.ix509privatekey_uicontextmessage_property"]
 old-location: security\ix509privatekey_uicontextmessage_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a1a6a474-5ffa-4b68-b84f-b0c9bea30ee5
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],UIContextMessage property, IX509PrivateKey.UIContextMessage, IX509PrivateKey.put_UIContextMessage, IX509PrivateKey::UIContextMessage, IX509PrivateKey::get_UIContextMessage, IX509PrivateKey::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::UIContextMessage, certenroll/IX509PrivateKey::get_UIContextMessage, certenroll/IX509PrivateKey::put_UIContextMessage, put_UIContextMessage, security.ix509privatekey_uicontextmessage_property
-f1_keywords:
-- certenroll/IX509PrivateKey.UIContextMessage
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.UIContextMessage
-- IX509PrivateKey.get_UIContextMessage
-- IX509PrivateKey.put_UIContextMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::put_UIContextMessage
+ - certenroll/IX509PrivateKey::put_UIContextMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.UIContextMessage
+ - IX509PrivateKey.get_UIContextMessage
+ - IX509PrivateKey.put_UIContextMessage
 ---
 
 # IX509PrivateKey::put_UIContextMessage
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>UIContextMessage</b> property specifies or retrieves a string that contains user interface text associated with the private key.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

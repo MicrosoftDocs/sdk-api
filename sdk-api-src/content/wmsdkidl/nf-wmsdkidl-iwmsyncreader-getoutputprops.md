@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputProps
 title: IWMSyncReader::GetOutputProps (wmsdkidl.h)
 description: The GetOutputProps method retrieves the current properties of an uncompressed output stream.
+helpviewer_keywords: ["GetOutputProps","GetOutputProps method [windows Media Format]","GetOutputProps method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputProps method","IWMSyncReader.GetOutputProps","IWMSyncReader::GetOutputProps","IWMSyncReaderGetOutputProps","wmformat.iwmsyncreader_getoutputprops","wmsdkidl/IWMSyncReader::GetOutputProps"]
 old-location: wmformat\iwmsyncreader_getoutputprops.htm
 tech.root: wmformat
 ms.assetid: a5e701ea-8b53-4abe-8b78-7c6fb151d80f
 ms.date: 12/05/2018
 ms.keywords: GetOutputProps, GetOutputProps method [windows Media Format], GetOutputProps method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputProps method, IWMSyncReader.GetOutputProps, IWMSyncReader::GetOutputProps, IWMSyncReaderGetOutputProps, wmformat.iwmsyncreader_getoutputprops, wmsdkidl/IWMSyncReader::GetOutputProps
-f1_keywords:
-- wmsdkidl/IWMSyncReader.GetOutputProps
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.GetOutputProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::GetOutputProps
+ - wmsdkidl/IWMSyncReader::GetOutputProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.GetOutputProps
 ---
 
 # IWMSyncReader::GetOutputProps
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetOutputProps</b> method retrieves the current properties of an uncompressed output stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 <b>DWORD</b> containing the output number.
 
-
 ### -param ppOutput [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps</a> interface, which is created by a successful call to this method.
-
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps</a> interface, which is created by a successful call to this method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,31 +108,15 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Manipulating the object retrieved by a call to <b>GetOutputProps</b> has no effect on the output media stream, unless the application also calls <b>SetOutputProps</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops">IWMSyncReader::SetOutputProps</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops">IWMSyncReader::SetOutputProps</a>

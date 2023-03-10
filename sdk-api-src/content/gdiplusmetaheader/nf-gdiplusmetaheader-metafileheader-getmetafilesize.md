@@ -2,15 +2,12 @@
 UID: NF:gdiplusmetaheader.MetafileHeader.GetMetafileSize
 title: MetafileHeader::GetMetafileSize (gdiplusmetaheader.h)
 description: The MetafileHeader::GetMetafileSize method gets the size, in bytes, of the metafile.
+helpviewer_keywords: ["GetMetafileSize","GetMetafileSize method [GDI+]","GetMetafileSize method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetMetafileSize method","MetafileHeader.GetMetafileSize","MetafileHeader::GetMetafileSize","_gdiplus_CLASS_MetafileHeader_GetMetafileSize_","gdiplus._gdiplus_CLASS_MetafileHeader_GetMetafileSize_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetMetafileSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getmetafilesize.htm
 ms.date: 12/05/2018
 ms.keywords: GetMetafileSize, GetMetafileSize method [GDI+], GetMetafileSize method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetMetafileSize method, MetafileHeader.GetMetafileSize, MetafileHeader::GetMetafileSize, _gdiplus_CLASS_MetafileHeader_GetMetafileSize_, gdiplus._gdiplus_CLASS_MetafileHeader_GetMetafileSize_
-f1_keywords:
-- gdiplusmetaheader/MetafileHeader.GetMetafileSize
-dev_langs:
-- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- MetafileHeader.GetMetafileSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - MetafileHeader::GetMetafileSize
+ - gdiplusmetaheader/MetafileHeader::GetMetafileSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - MetafileHeader.GetMetafileSize
 ---
 
 # MetafileHeader::GetMetafileSize
@@ -49,52 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MetafileHeader::GetMetafileSize</b> method gets the size, in bytes, of the metafile.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns a <b>UINT</b> that specifies the size, in bytes, of the metafile.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>

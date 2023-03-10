@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.ICAT.ConvertNextToCurrent
 title: ICAT::ConvertNextToCurrent (mpeg2psiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","ICAT interface","ICAT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","ICAT.ConvertNextToCurrent","ICAT::ConvertNextToCurrent","ICATConvertNextToCurrent","mpeg2psiparser/ICAT::ConvertNextToCurrent","mstv.icat_convertnexttocurrent"]
 old-location: mstv\icat_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: bdd8f7a6-0c77-4058-bcca-9d712da781e0
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ICAT.ConvertNextToCurrent, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
-f1_keywords:
-- mpeg2psiparser/ICAT.ConvertNextToCurrent
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mpeg2psiparser.h
-api_name:
-- ICAT.ConvertNextToCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICAT::ConvertNextToCurrent
+ - mpeg2psiparser/ICAT::ConvertNextToCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mpeg2psiparser.h
+api_name:
+ - ICAT.ConvertNextToCurrent
 ---
 
 # ICAT::ConvertNextToCurrent
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,16 +58,8 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 The <b>ConvertNextToCurrent</b> method converts a <i>next</i> table to a <i>current</i> table.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -121,27 +113,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-registerforwhencurrent">ICAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
-
-
-
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-registerforwhencurrent">ICAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>

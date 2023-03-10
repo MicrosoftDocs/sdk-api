@@ -2,15 +2,12 @@
 UID: NC:wdsclientapi.PFN_WdsCliCallback
 title: PFN_WdsCliCallback (wdsclientapi.h)
 description: Defines a callback function that WDS can call for progress notification and error messages during a file or image transfer.
+helpviewer_keywords: ["PFN_WdsCliCallback","PFN_WdsCliCallback callback","PFN_WdsCliCallback callback function [Windows Deployment Services]","WDS_CLI_MSG_COMPLETE","WDS_CLI_MSG_PROGRESS","WDS_CLI_MSG_START","WDS_CLI_MSG_TEXT","wds.pfn_wdsclicallback","wdsclientapi/PFN_WdsCliCallback"]
 old-location: wds\pfn_wdsclicallback.htm
 tech.root: wds
 ms.assetid: b071ba1c-5860-4492-ad86-71eaeeb74df4
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsCliCallback, PFN_WdsCliCallback callback, PFN_WdsCliCallback callback function [Windows Deployment Services], WDS_CLI_MSG_COMPLETE, WDS_CLI_MSG_PROGRESS, WDS_CLI_MSG_START, WDS_CLI_MSG_TEXT, wds.pfn_wdsclicallback, wdsclientapi/PFN_WdsCliCallback
-f1_keywords:
-- wdsclientapi/PFN_WdsCliCallback
-dev_langs:
-- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WdsClientAPI.h
-api_name:
-- PFN_WdsCliCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFN_WdsCliCallback
+ - wdsclientapi/PFN_WdsCliCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WdsClientAPI.h
+api_name:
+ - PFN_WdsCliCallback
 ---
 
 ## -description
@@ -109,37 +111,28 @@ The informational message. The <i>lParam</i> parameter is pointer to a debugging
 </td>
 </tr>
 </table>
- 
-
 
 ### -param wParam [in, optional]
 
 This message parameter should always be set to the value of the transfer handle returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
-
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
 
 ### -param lParam [in, optional]
 
 The meaning of the value contained by this parameter depends upon the 
       <i>dwMessageId</i> parameter.
 
-
 ### -param pvUserData [in, optional]
 
 A pointer to optional user information attached to this session by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
 
 ## -remarks
 
-
-
 A callback function can call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicanceltransfer">WdsCliCancelTransfer</a> function to cancel a 
+    <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicanceltransfer">WdsCliCancelTransfer</a> function to cancel a 
     transfer. Although a callback function can also call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliwaitfortransfer">WdsCliWaitForTransfer</a> function, this is not 
+    <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliwaitfortransfer">WdsCliWaitForTransfer</a> function, this is not 
     recommended because no additional callbacks will be received until the current callback is unblocked.
-
-
-

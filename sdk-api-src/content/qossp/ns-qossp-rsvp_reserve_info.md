@@ -2,15 +2,12 @@
 UID: NS:qossp._RSVP_RESERVE_INFO
 title: RSVP_RESERVE_INFO (qossp.h)
 description: The QOS object RSVP_RESERVE_INFO, through the ProviderSpecific buffer, enables RSVP behavior for a given flow to be specified or modified at a granular level, and enables default RSVP style settings for a flow to be overridden.
+helpviewer_keywords: ["*LPRSVP_RESERVE_INFO","LPRSVP_RESERVE_INFO","LPRSVP_RESERVE_INFO structure pointer [QOS]","RSVP_DEFAULT_STYLE","RSVP_FIXED_FILTER_STYLE","RSVP_RESERVE_INFO","RSVP_RESERVE_INFO structure [QOS]","RSVP_SHARED_EXPLICIT_STYLE","RSVP_WILDCARD_SYLE","_gqos_rsvp_reserve_info","qos.rsvp_reserve_info","qossp/LPRSVP_RESERVE_INFO","qossp/RSVP_RESERVE_INFO"]
 old-location: qos\rsvp_reserve_info.htm
 tech.root: QOS
 ms.assetid: 0f43e544-afe3-40dd-81e1-96ae1f343006
 ms.date: 12/05/2018
 ms.keywords: '*LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO structure pointer [QOS], RSVP_DEFAULT_STYLE, RSVP_FIXED_FILTER_STYLE, RSVP_RESERVE_INFO, RSVP_RESERVE_INFO structure [QOS], RSVP_SHARED_EXPLICIT_STYLE, RSVP_WILDCARD_SYLE, _gqos_rsvp_reserve_info, qos.rsvp_reserve_info, qossp/LPRSVP_RESERVE_INFO, qossp/RSVP_RESERVE_INFO'
-f1_keywords:
-- qossp/RSVP_RESERVE_INFO
-dev_langs:
-- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qossp.h
-api_name:
-- RSVP_RESERVE_INFO
 targetos: Windows
 req.typenames: RSVP_RESERVE_INFO, *LPRSVP_RESERVE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RSVP_RESERVE_INFO
+ - qossp/_RSVP_RESERVE_INFO
+ - LPRSVP_RESERVE_INFO
+ - qossp/LPRSVP_RESERVE_INFO
+ - RSVP_RESERVE_INFO
+ - qossp/RSVP_RESERVE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qossp.h
+api_name:
+ - RSVP_RESERVE_INFO
 ---
 
 # RSVP_RESERVE_INFO structure
 
 
 ## -description
-
 
 The QOS object 
 <b>RSVP_RESERVE_INFO</b>, through the ProviderSpecific buffer, enables RSVP behavior for a given flow to be specified or modified at a granular level, and enables default RSVP style settings for a flow to be overridden. Although 
@@ -57,19 +62,15 @@ The QOS object
 
 ## -struct-fields
 
-
-
-
 ### -field ObjectHdr
 
 The QOS object 
 <b>QOS_OBJECT_HDR</b>.
 
-
 ### -field Style
 
 Specifies the RSVP reservation style for a given flow, and can be used to replace default reservation styles placed on a particular type of flow. More information about RSVP reservation styles, and the default settings for certain QOS-enabled socket sessions, can be found under 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/network-driven-qos-components">Network-Driven QOS Components</a>. This member can be one of the following values. 
+<a href="/previous-versions/windows/desktop/qos/network-driven-qos-components">Network-Driven QOS Components</a>. This member can be one of the following values. 
 
 
 
@@ -128,29 +129,18 @@ Implements the default reservation style for the computer.
 
 Can be used by a receiving application to request notification of its reservation request by setting <b>ConfirmRequest</b> to a nonzero value. Such notification is achieved when RSVP-aware devices in the data path between sender and receiver (or vice-versa) transmit an RESV CONFIRMATION message toward the requesting node. Note that an RSVP node is not required to automatically generate RESV CONFIRMATION messages.
 
-
 ### -field PolicyElementList
 
-Pointer to the set of policy elements. Optional policy information, as provided in an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_policy_info">RSVP_POLICY_INFO</a> structure.
-
+Pointer to the set of policy elements. Optional policy information, as provided in an <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_policy_info">RSVP_POLICY_INFO</a> structure.
 
 ### -field NumFlowDesc
 
 Specifies the FLOWDESCRIPTOR count.
 
-
 ### -field FlowDescList
 
 Pointer to the list of FLOWDESCRIPTORs.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>

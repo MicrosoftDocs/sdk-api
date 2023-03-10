@@ -2,15 +2,12 @@
 UID: NF:mtxdm.GetDispenserManager
 title: GetDispenserManager function (mtxdm.h)
 description: Retrieves the dispenser manager's IDispenserManager interface.
+helpviewer_keywords: ["GetDispenserManager","GetDispenserManager function [COM+]","_dtc_GetDispenserManager_Function","cos.getdispensermanager","mtxdm/GetDispenserManager"]
 old-location: cos\getdispensermanager.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: db344236-a8be-49ec-91fd-dfcc0bd4412c
 ms.date: 12/05/2018
 ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetDispenserManager_Function, cos.getdispensermanager, mtxdm/GetDispenserManager
-f1_keywords:
-- mtxdm/GetDispenserManager
-dev_langs:
-- c++
 req.header: mtxdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: MtxDM.lib
 req.dll: MtxDM.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- MtxDM.dll
-api_name:
-- GetDispenserManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDispenserManager
+ - mtxdm/GetDispenserManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - MtxDM.dll
+api_name:
+ - GetDispenserManager
 ---
 
 # GetDispenserManager function
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the dispenser manager's <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface.
-
+Retrieves the dispenser manager's <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface.
 
 ## -parameters
 
+### -param unnamedParam1 [out]
 
-
-
-### -param Arg1 [out]
-
-A pointer to the location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface pointer.
-
+A pointer to the location that receives the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a> interface pointer.
 
 ## -returns
 
-
-
 If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>

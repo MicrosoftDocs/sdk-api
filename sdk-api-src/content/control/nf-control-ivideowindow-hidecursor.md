@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.HideCursor
 title: IVideoWindow::HideCursor (control.h)
 description: The HideCursor method shows or hides the cursor when the mouse is positioned over the video window.
+helpviewer_keywords: ["HideCursor","HideCursor method [DirectShow]","HideCursor method [DirectShow]","IVideoWindow interface","IVideoWindow interface [DirectShow]","HideCursor method","IVideoWindow.HideCursor","IVideoWindow::HideCursor","IVideoWindowHideCursor","OAFALSE","OATRUE","control/IVideoWindow::HideCursor","dshow.ivideowindow_hidecursor"]
 old-location: dshow\ivideowindow_hidecursor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c45da114-6711-427b-8533-4ed339a42ff4
 ms.date: 12/05/2018
 ms.keywords: HideCursor, HideCursor method [DirectShow], HideCursor method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],HideCursor method, IVideoWindow.HideCursor, IVideoWindow::HideCursor, IVideoWindowHideCursor, OAFALSE, OATRUE, control/IVideoWindow::HideCursor, dshow.ivideowindow_hidecursor
-f1_keywords:
-- control/IVideoWindow.HideCursor
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.HideCursor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::HideCursor
+ - control/IVideoWindow::HideCursor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.HideCursor
 ---
 
 # IVideoWindow::HideCursor
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>HideCursor</code> method shows or hides the cursor when the mouse is positioned over the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param HideCursor [in]
 
@@ -91,12 +85,8 @@ Show the cursor.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -139,26 +129,15 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-iscursorhidden">IVideoWindow::IsCursorHidden</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-iscursorhidden">IVideoWindow::IsCursorHidden</a>

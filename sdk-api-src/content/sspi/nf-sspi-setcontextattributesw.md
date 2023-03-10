@@ -1,16 +1,13 @@
 ---
 UID: NF:sspi.SetContextAttributesW
 title: SetContextAttributesW function (sspi.h)
-description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package.
+description: Enables a transport application to set attributes of a security context for a security package. This function is supported only by the Schannel security package. (Unicode)
+helpviewer_keywords: ["SECPKG_ATTR_APP_DATA", "SECPKG_ATTR_DTLS_MTU", "SECPKG_ATTR_EAP_PRF_INFO", "SECPKG_ATTR_EARLY_START", "SECPKG_ATTR_KEYING_MATERIAL_INFO", "SetContextAttributes", "SetContextAttributes function [Security]", "SetContextAttributesW", "security.setcontextattributes", "sspi/SetContextAttributes", "sspi/SetContextAttributesW"]
 old-location: security\setcontextattributes.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: e3246c3e-3e8c-49fe-99d8-dfff1a10ab83
 ms.date: 12/05/2018
 ms.keywords: SECPKG_ATTR_APP_DATA, SECPKG_ATTR_DTLS_MTU, SECPKG_ATTR_EAP_PRF_INFO, SECPKG_ATTR_EARLY_START, SECPKG_ATTR_KEYING_MATERIAL_INFO, SetContextAttributes, SetContextAttributes function [Security], SetContextAttributesA, SetContextAttributesW, security.setcontextattributes, sspi/SetContextAttributes, sspi/SetContextAttributesA, sspi/SetContextAttributesW
-f1_keywords:
-- sspi/SetContextAttributes
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SetContextAttributes
-- SetContextAttributesA
-- SetContextAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetContextAttributesW
+ - sspi/SetContextAttributesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SetContextAttributes
+ - SetContextAttributesA
+ - SetContextAttributesW
 ---
 
 # SetContextAttributesW function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables a transport application to set  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> of a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. This function is supported only by the Schannel security package.
-
+Enables a transport application to set  <a href="/windows/desktop/SecGloss/a-gly">attributes</a> of a security <a href="/windows/desktop/SecGloss/c-gly">context</a> for a <a href="/windows/desktop/SecGloss/s-gly">security package</a>. This function is supported only by the Schannel security package.
 
 ## -parameters
-
-
-
 
 ### -param phContext [in]
 
 A handle to the security context to be set.
-
 
 ### -param ulAttribute [in]
 
@@ -80,7 +76,7 @@ The attribute of the context to be set. This parameter can be one of the followi
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_sessionappdata">SecPkgContext_SessionAppData</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_sessionappdata">SecPkgContext_SessionAppData</a> structure.
 
 Sets application data for the session.
 
@@ -95,9 +91,9 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_eapprfinfo">SecPkgContext_EapPrfInfo</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_eapprfinfo">SecPkgContext_EapPrfInfo</a> structure.
 
-Sets the pseudo-random function (PRF) used by the Extensible Authentication Protocol (EAP). This is the value that is returned by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function when <b>SECPKG_ATTR_EAP_KEY_BLOCK</b> is passed as the value of the <i>ulAttribute</i> parameter.
+Sets the pseudo-random function (PRF) used by the Extensible Authentication Protocol (EAP). This is the value that is returned by a call to the <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a> function when <b>SECPKG_ATTR_EAP_KEY_BLOCK</b> is passed as the value of the <i>ulAttribute</i> parameter.
 
 This attribute is supported only by the Schannel security package.
 
@@ -110,9 +106,9 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_earlystart">SecPkgContext_EarlyStart</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_earlystart">SecPkgContext_EarlyStart</a> structure.
 
-Sets the False Start feature. See  the <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Building a faster and more secure web</a> blog post for information on this feature.
+Sets the False Start feature. See  the <a href="/windows/desktop/winmsg/windows">Building a faster and more secure web</a> blog post for information on this feature.
 
 </td>
 </tr>
@@ -139,29 +135,23 @@ Valid values are between 200 bytes and 64 kilobytes. The default DTLS MTU value 
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_keyingmaterialinfo">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="/windows/desktop/api/schannel/ns-schannel-secpkgcontext_keyingmaterialinfo">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
 
 This attribute is supported only by the Schannel security package in Windows 10 and Windows Server 2016 or later versions.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [in]
 
 A pointer to a structure that contains  values to set  the attributes to. The type of structure pointed to depends on the value specified in the <i>ulAttribute</i> parameter.
 
-
 ### -param cbBuffer [in]
 
 The size, in bytes, of the <i>pBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns SEC_E_OK.
 
@@ -184,7 +174,8 @@ This value is returned by Schannel kernel mode to indicate that this function is
 </td>
 </tr>
 </table>
- 
 
+## -remarks
 
-
+> [!NOTE]
+> The sspi.h header defines SetContextAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

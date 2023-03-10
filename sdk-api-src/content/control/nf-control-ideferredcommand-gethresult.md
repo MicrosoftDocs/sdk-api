@@ -2,15 +2,12 @@
 UID: NF:control.IDeferredCommand.GetHResult
 title: IDeferredCommand::GetHResult (control.h)
 description: The GetHResult method retrieves the return value from the invoked command.
+helpviewer_keywords: ["GetHResult","GetHResult method [DirectShow]","GetHResult method [DirectShow]","IDeferredCommand interface","IDeferredCommand interface [DirectShow]","GetHResult method","IDeferredCommand.GetHResult","IDeferredCommand::GetHResult","IDeferredCommandGetHResult","control/IDeferredCommand::GetHResult","dshow.ideferredcommand_gethresult"]
 old-location: dshow\ideferredcommand_gethresult.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ce047464-d283-4ff4-a5eb-9e394d4ac3fd
 ms.date: 12/05/2018
 ms.keywords: GetHResult, GetHResult method [DirectShow], GetHResult method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],GetHResult method, IDeferredCommand.GetHResult, IDeferredCommand::GetHResult, IDeferredCommandGetHResult, control/IDeferredCommand::GetHResult, dshow.ideferredcommand_gethresult
-f1_keywords:
-- control/IDeferredCommand.GetHResult
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDeferredCommand.GetHResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDeferredCommand::GetHResult
+ - control/IDeferredCommand::GetHResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDeferredCommand.GetHResult
 ---
 
 # IDeferredCommand::GetHResult
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetHResult</code> method retrieves the return value from the invoked command.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phrResult
 
 Receives the <b>HRESULT</b> value.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,22 +102,11 @@ Command has not yet been invoked.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>

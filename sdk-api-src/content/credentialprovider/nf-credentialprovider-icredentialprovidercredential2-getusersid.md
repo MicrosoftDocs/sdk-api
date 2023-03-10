@@ -2,15 +2,12 @@
 UID: NF:credentialprovider.ICredentialProviderCredential2.GetUserSid
 title: ICredentialProviderCredential2::GetUserSid (credentialprovider.h)
 description: Retrieves the security identifier (SID) of the user that is associated with this credential.
+helpviewer_keywords: ["GetUserSid","GetUserSid method [Windows Shell]","GetUserSid method [Windows Shell]","ICredentialProviderCredential2 interface","ICredentialProviderCredential2 interface [Windows Shell]","GetUserSid method","ICredentialProviderCredential2.GetUserSid","ICredentialProviderCredential2::GetUserSid","credentialprovider/ICredentialProviderCredential2::GetUserSid","shell.ICredentialProviderCredential2_GetUserSid"]
 old-location: shell\ICredentialProviderCredential2_GetUserSid.htm
 tech.root: shell
 ms.assetid: 8BCB9019-40C0-4026-B3C9-ECA02B9AC871
 ms.date: 12/05/2018
 ms.keywords: GetUserSid, GetUserSid method [Windows Shell], GetUserSid method [Windows Shell],ICredentialProviderCredential2 interface, ICredentialProviderCredential2 interface [Windows Shell],GetUserSid method, ICredentialProviderCredential2.GetUserSid, ICredentialProviderCredential2::GetUserSid, credentialprovider/ICredentialProviderCredential2::GetUserSid, shell.ICredentialProviderCredential2_GetUserSid
-f1_keywords:
-- credentialprovider/ICredentialProviderCredential2.GetUserSid
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CredentialProvider.h
-api_name:
-- ICredentialProviderCredential2.GetUserSid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderCredential2::GetUserSid
+ - credentialprovider/ICredentialProviderCredential2::GetUserSid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CredentialProvider.h
+api_name:
+ - ICredentialProviderCredential2.GetUserSid
 ---
 
 # ICredentialProviderCredential2::GetUserSid
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the security identifier (SID) of the user that is associated with this credential.
 
-
 ## -parameters
-
-
-
 
 ### -param sid [out]
 
 The address of a pointer to a buffer that, when this method returns successfully, receives the user's SID.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The Logon UI will use the returned SID from this method to associate the credential tile with a user tile. To associate the credential with the "Other user" user tile in the Logon UI, this method should return <b>S_FALSE</b> and a null SID. The "Other user" tile is normally only valid when the PC is joined to a domain.
 
@@ -115,21 +104,10 @@ HRESULT CSampleCredential::GetUserSid(__deref_out PWSTR *ppszSid)
                     
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2">ICredentialProviderCredential2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2">ICredentialProviderCredential2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getsid">ICredentialProviderUser::GetSid</a>
- 
-
- 
-
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getsid">ICredentialProviderUser::GetSid</a>

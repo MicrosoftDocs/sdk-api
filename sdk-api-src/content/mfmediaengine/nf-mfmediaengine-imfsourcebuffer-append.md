@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFSourceBuffer.Append
 title: IMFSourceBuffer::Append (mfmediaengine.h)
 description: Appends the specified media segment to the IMFSourceBuffer.
+helpviewer_keywords: ["Append","Append method [Media Foundation]","Append method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","Append method","IMFSourceBuffer.Append","IMFSourceBuffer::Append","mf.imfsourcebuffer_append","mfmediaengine/IMFSourceBuffer::Append"]
 old-location: mf\imfsourcebuffer_append.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 824fa23d-57d9-411a-af8a-fb65dca124b2
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Media Foundation], Append method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],Append method, IMFSourceBuffer.Append, IMFSourceBuffer::Append, mf.imfsourcebuffer_append, mfmediaengine/IMFSourceBuffer::Append
-f1_keywords:
-- mfmediaengine/IMFSourceBuffer.Append
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBuffer.Append
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBuffer::Append
+ - mfmediaengine/IMFSourceBuffer::Append
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBuffer.Append
 ---
 
 # IMFSourceBuffer::Append
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Appends the specified media segment to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
-
+Appends the specified media segment to the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>.
 
 ## -parameters
-
-
-
 
 ### -param pData [in]
 
 The media data to append.
 
-
 ### -param len [in]
 
 The length of the media data stored in <i>pData</i>.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>

@@ -2,15 +2,12 @@
 UID: NE:interactioncontext.INTERACTION_CONFIGURATION_FLAGS
 title: INTERACTION_CONFIGURATION_FLAGS (interactioncontext.h)
 description: Specifies the interactions to enable when configuring an Interaction Context object.
+helpviewer_keywords: ["INTERACTION_CONFIGURATION_FLAGS","INTERACTION_CONFIGURATION_FLAGS enumeration","INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE","INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_EXACT","INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_HORIZONTAL","INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_REARRANGE","INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SELECT","INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SPEED_BUMP","INTERACTION_CONFIGURATION_FLAG_DRAG","INTERACTION_CONFIGURATION_FLAG_HOLD","INTERACTION_CONFIGURATION_FLAG_HOLD_MOUSE","INTERACTION_CONFIGURATION_FLAG_MANIPULATION","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_EXACT","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_X","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_Y","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION_INERTIA","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING_INERTIA","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_INERTIA","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_X","INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_Y","INTERACTION_CONFIGURATION_FLAG_MAX","INTERACTION_CONFIGURATION_FLAG_NONE","INTERACTION_CONFIGURATION_FLAG_SECONDARY_TAP","INTERACTION_CONFIGURATION_FLAG_TAP","INTERACTION_CONFIGURATION_FLAG_TAP_DOUBLE","input_intcontext.interaction_configuration_flags","interactioncontext.interaction_configuration_flags","interactioncontext/INTERACTION_CONFIGURATION_FLAGS","interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE","interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_EXACT","interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_HORIZONTAL","interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_REARRANGE","interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SELECT","interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SPEED_BUMP","interactioncontext/INTERACTION_CONFIGURATION_FLAG_DRAG","interactioncontext/INTERACTION_CONFIGURATION_FLAG_HOLD","interactioncontext/INTERACTION_CONFIGURATION_FLAG_HOLD_MOUSE","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_EXACT","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_X","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_Y","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION_INERTIA","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING_INERTIA","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_INERTIA","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_X","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_Y","interactioncontext/INTERACTION_CONFIGURATION_FLAG_MAX","interactioncontext/INTERACTION_CONFIGURATION_FLAG_NONE","interactioncontext/INTERACTION_CONFIGURATION_FLAG_SECONDARY_TAP","interactioncontext/INTERACTION_CONFIGURATION_FLAG_TAP","interactioncontext/INTERACTION_CONFIGURATION_FLAG_TAP_DOUBLE"]
 old-location: input_intcontext\interaction_configuration_flags.htm
-tech.root: Input_IntContext
+tech.root: input_intcontext
 ms.assetid: fc26da3a-8769-40c6-a563-1566a46f97f5
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONFIGURATION_FLAGS, INTERACTION_CONFIGURATION_FLAGS enumeration, INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE, INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_EXACT, INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_HORIZONTAL, INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_REARRANGE, INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SELECT, INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SPEED_BUMP, INTERACTION_CONFIGURATION_FLAG_DRAG, INTERACTION_CONFIGURATION_FLAG_HOLD, INTERACTION_CONFIGURATION_FLAG_HOLD_MOUSE, INTERACTION_CONFIGURATION_FLAG_MANIPULATION, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_EXACT, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_X, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_Y, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION_INERTIA, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING_INERTIA, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_INERTIA, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_X, INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_Y, INTERACTION_CONFIGURATION_FLAG_MAX, INTERACTION_CONFIGURATION_FLAG_NONE, INTERACTION_CONFIGURATION_FLAG_SECONDARY_TAP, INTERACTION_CONFIGURATION_FLAG_TAP, INTERACTION_CONFIGURATION_FLAG_TAP_DOUBLE, input_intcontext.interaction_configuration_flags, interactioncontext.interaction_configuration_flags, interactioncontext/INTERACTION_CONFIGURATION_FLAGS, interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE, interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_EXACT, interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_HORIZONTAL, interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_REARRANGE, interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SELECT, interactioncontext/INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SPEED_BUMP, interactioncontext/INTERACTION_CONFIGURATION_FLAG_DRAG, interactioncontext/INTERACTION_CONFIGURATION_FLAG_HOLD, interactioncontext/INTERACTION_CONFIGURATION_FLAG_HOLD_MOUSE, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_EXACT, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_X, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_Y, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION_INERTIA, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING_INERTIA, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_INERTIA, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_X, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_Y, interactioncontext/INTERACTION_CONFIGURATION_FLAG_MAX, interactioncontext/INTERACTION_CONFIGURATION_FLAG_NONE, interactioncontext/INTERACTION_CONFIGURATION_FLAG_SECONDARY_TAP, interactioncontext/INTERACTION_CONFIGURATION_FLAG_TAP, interactioncontext/INTERACTION_CONFIGURATION_FLAG_TAP_DOUBLE
-f1_keywords:
-- interactioncontext/INTERACTION_CONFIGURATION_FLAGS
-dev_langs:
-- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- interactioncontext.h
-api_name:
-- INTERACTION_CONFIGURATION_FLAGS
 targetos: Windows
 req.typenames: INTERACTION_CONFIGURATION_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INTERACTION_CONFIGURATION_FLAGS
+ - interactioncontext/INTERACTION_CONFIGURATION_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - interactioncontext.h
+api_name:
+ - INTERACTION_CONFIGURATION_FLAGS
 ---
 
 # INTERACTION_CONFIGURATION_FLAGS enumeration
@@ -48,168 +50,130 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the interactions to enable when configuring an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
-
+Specifies the interactions to enable when configuring an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ## -enum-fields
 
-
-
-
-### -field INTERACTION_CONFIGURATION_FLAG_NONE
+### -field INTERACTION_CONFIGURATION_FLAG_NONE:0x00000000
 
 No interactions enabled.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION:0x00000001
 
 All manipulations enabled (move, rotate, and scale).
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_X
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_X:0x00000002
 
 Translate (move) along the x-axis.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_Y
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_Y:0x00000004
 
 Translate (move) along the y-axis.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION:0x00000008
 
 Rotation.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING:0x00000010
 
 Scaling.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_INERTIA
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_TRANSLATION_INERTIA:0x00000020
 
 Translation inertia (in direction of move) after contact lifted.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION_INERTIA
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_ROTATION_INERTIA:0x00000040
 
 Rotation inertia after contact lifted.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING_INERTIA
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_SCALING_INERTIA:0x00000080
 
 Scaling inertia after contact lifted.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_X
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_X:0x00000100
 
 Interactions are constrained along the x-axis.
 
 Rails indicate that slight motions off the primary axis of motion are ignored. This makes for a tighter experience for users; when they attempt to pan along a single axis, they are constrained  to the axis.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_Y
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_RAILS_Y:0x00000200
 
 Interactions are constrained along the y-axis.
 
 Rails indicate that slight motions off the primary axis of motion are ignored. This makes for a tighter experience for users; when they attempt to pan along a single axis, they are constrained  to the axis.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_EXACT
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_EXACT:0x00000400
 
 Report exact distance from initial contact to end of the interaction.
 
-By default, a small distance threshold is subtracted from the first manipulation delta reported by the system. This distance threshold is  intended to account for slight movements of the contact when processing a tap gesture. If this flag is set, the distance threshold is not subtracted from the first delta. 
+By default, a small distance threshold is subtracted from the first manipulation delta reported by the system. This distance threshold is  intended to account for slight movements of the contact when processing a tap gesture. If this flag is set, the distance threshold is not subtracted from the first delta.
 
+### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_MULTIPLE_FINGER_PANNING:0x00000800
 
-### -field INTERACTION_CONFIGURATION_FLAG_MANIPULATION_MULTIPLE_FINGER_PANNING
-
-
-### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE
+### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE:0x00000001
 
 All cross-slide interactions enabled.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_HORIZONTAL
+### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_HORIZONTAL:0x00000002
 
 Cross-slide along the x-axis.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SELECT
+### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SELECT:0x00000004
 
 Selection using cross-slide.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SPEED_BUMP
+### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_SPEED_BUMP:0x00000008
 
 Speed bump effect.
 
 A speed bump is a region in which the user experiences a slight drag (or friction) during the swipe or slide gesture.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_REARRANGE
+### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_REARRANGE:0x00000010
 
 Rearrange using cross-slide.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_EXACT
+### -field INTERACTION_CONFIGURATION_FLAG_CROSS_SLIDE_EXACT:0x00000020
 
 Report exact distance from initial contact to end of the interaction.
 
-By default, a small distance threshold is subtracted from the first cross-slide delta reported by the system. This distance threshold is  intended to account for slight movements of the contact when processing a tap gesture. If this flag is set, the distance threshold is not subtracted from the first delta. 
+By default, a small distance threshold is subtracted from the first cross-slide delta reported by the system. This distance threshold is  intended to account for slight movements of the contact when processing a tap gesture. If this flag is set, the distance threshold is not subtracted from the first delta.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_TAP
+### -field INTERACTION_CONFIGURATION_FLAG_TAP:0x00000001
 
 Tap.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_TAP_DOUBLE
+### -field INTERACTION_CONFIGURATION_FLAG_TAP_DOUBLE:0x00000002
 
 Double tap.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_SECONDARY_TAP
+### -field INTERACTION_CONFIGURATION_FLAG_SECONDARY_TAP:0x00000001
 
 Secondary tap.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_HOLD
+### -field INTERACTION_CONFIGURATION_FLAG_HOLD:0x00000001
 
 Hold.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_HOLD_MOUSE
+### -field INTERACTION_CONFIGURATION_FLAG_HOLD_MOUSE:0x00000002
 
 Hold with mouse.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_DRAG
+### -field INTERACTION_CONFIGURATION_FLAG_DRAG:0x00000001
 
 Drag with mouse.
 
-
-### -field INTERACTION_CONFIGURATION_FLAG_MAX
+### -field INTERACTION_CONFIGURATION_FLAG_MAX:0xffffffff
 
 Maximum number of interactions exceeded.
 
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>

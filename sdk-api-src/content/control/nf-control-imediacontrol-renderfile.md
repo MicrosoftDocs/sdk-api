@@ -1,16 +1,13 @@
 ---
 UID: NF:control.IMediaControl.RenderFile
 title: IMediaControl::RenderFile (control.h)
-description: The RenderFile method builds a filter graph that renders the specified file.
+description: The RenderFile method builds a filter graph that renders the specified file. (IMediaControl.RenderFile)
+helpviewer_keywords: ["IMediaControl interface [DirectShow]","RenderFile method","IMediaControl.RenderFile","IMediaControl::RenderFile","IMediaControlRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IMediaControl interface","control/IMediaControl::RenderFile","dshow.imediacontrol_renderfile"]
 old-location: dshow\imediacontrol_renderfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5dfff776-da3f-40a3-86d4-76a5099d6e6f
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],RenderFile method, IMediaControl.RenderFile, IMediaControl::RenderFile, IMediaControlRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IMediaControl interface, control/IMediaControl::RenderFile, dshow.imediacontrol_renderfile
-f1_keywords:
-- control/IMediaControl.RenderFile
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaControl.RenderFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaControl::RenderFile
+ - control/IMediaControl::RenderFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaControl.RenderFile
 ---
 
 # IMediaControl::RenderFile
@@ -49,41 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RenderFile</code> method builds a filter graph that renders the specified file.
 
 
 
-This method is intended for use by Visual Basic 6.0 applications. It was documented for Visual Basic 6.0 as the <b>FilgraphManager.RenderFile</b> method. C++ applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> method instead.
-
+This method is intended for use by Visual Basic 6.0 applications. It was documented for Visual Basic 6.0 as the <b>FilgraphManager.RenderFile</b> method. C++ applications should use the <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> method instead.
 
 ## -parameters
-
-
-
 
 ### -param strFilename [in]
 
 Specifies the name of the file to load.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>

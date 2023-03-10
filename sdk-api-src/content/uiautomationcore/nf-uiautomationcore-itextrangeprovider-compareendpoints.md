@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.ITextRangeProvider.CompareEndpoints
 title: ITextRangeProvider::CompareEndpoints (uiautomationcore.h)
 description: Returns a value that specifies whether two text ranges have identical endpoints.
+helpviewer_keywords: ["CompareEndpoints","CompareEndpoints method [Windows Accessibility]","CompareEndpoints method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","CompareEndpoints method","ITextRangeProvider.CompareEndpoints","ITextRangeProvider::CompareEndpoints","uiauto.uiauto_ITextRangeProvider_CompareEndpoints","uiauto_ITextRangeProvider_CompareEndpoints","uiautomationcore/ITextRangeProvider::CompareEndpoints","winauto.uiauto_ITextRangeProvider_CompareEndpoints"]
 old-location: winauto\uiauto_ITextRangeProvider_CompareEndpoints.htm
 tech.root: WinAuto
 ms.assetid: 88a59d93-f31b-40d5-a8d9-ef114224019b
 ms.date: 12/05/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],CompareEndpoints method, ITextRangeProvider.CompareEndpoints, ITextRangeProvider::CompareEndpoints, uiauto.uiauto_ITextRangeProvider_CompareEndpoints, uiauto_ITextRangeProvider_CompareEndpoints, uiautomationcore/ITextRangeProvider::CompareEndpoints, winauto.uiauto_ITextRangeProvider_CompareEndpoints
-f1_keywords:
-- uiautomationcore/ITextRangeProvider.CompareEndpoints
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ITextRangeProvider.CompareEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRangeProvider::CompareEndpoints
+ - uiautomationcore/ITextRangeProvider::CompareEndpoints
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ITextRangeProvider.CompareEndpoints
 ---
 
 # ITextRangeProvider::CompareEndpoints
@@ -48,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns a value that specifies whether two text ranges have identical endpoints.    
-        
-
+Returns a value that specifies whether two text ranges have identical endpoints.
 
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-### -param arg1 [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
 The endpoint (starting or ending) of the caller's text range.
 
-
 ### -param targetRange [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>*</b>
 
 The text range to be compared.
 
+### -param unnamedParam3 [in]
 
-### -param arg3 [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-textpatternrangeendpoint">TextPatternRangeEndpoint</a></b>
 
 The endpoint (starting or ending) of the target text range.
-
 
 ### -param pRetVal [out, retval]
 
@@ -86,21 +79,13 @@ Type: <b>int*</b>
 Receives a value that indicates whether the two text ranges have identical endpoints.
 				 This parameter is passed uninitialized.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Returns a negative value if the caller's endpoint occurs earlier in the text than the target endpoint. 
 
@@ -108,26 +93,19 @@ Returns a negative value if the caller's endpoint occurs earlier in the text tha
 Returns zero if the caller's endpoint is at the same location as the target endpoint. 
 
 
-Returns a positive value if the caller's endpoint occurs later in the text than the target endpoint. 
-			
-
-
-
+Returns a positive value if the caller's endpoint occurs later in the text than the target endpoint.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
 
 
 
@@ -135,8 +113,4 @@ Returns a positive value if the caller's endpoint occurs later in the text than 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

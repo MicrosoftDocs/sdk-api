@@ -1,16 +1,13 @@
 ---
 UID: NS:winnetwk._DISCDLGSTRUCTA
 title: DISCDLGSTRUCTA (winnetwk.h)
-description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.
+description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt. (ANSI)
+helpviewer_keywords: ["*LPDISCDLGSTRUCTA","DISCDLGSTRUCT","DISCDLGSTRUCT structure [Windows Networking (WNet)]","DISCDLGSTRUCTA","DISCDLGSTRUCTW","DISC_NO_FORCE","DISC_UPDATE_PROFILE","LPDISCDLGSTRUCT","LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)]","_win32_discdlgstruct_str","winnetwk/DISCDLGSTRUCT","winnetwk/DISCDLGSTRUCTA","winnetwk/DISCDLGSTRUCTW","winnetwk/LPDISCDLGSTRUCT","wnet.discdlgstruct_str"]
 old-location: wnet\discdlgstruct_str.htm
 tech.root: WNet
 ms.assetid: ae415815-f247-4217-a4f1-6a7ca9288890
 ms.date: 12/05/2018
 ms.keywords: '*LPDISCDLGSTRUCTA, DISCDLGSTRUCT, DISCDLGSTRUCT structure [Windows Networking (WNet)], DISCDLGSTRUCTA, DISCDLGSTRUCTW, DISC_NO_FORCE, DISC_UPDATE_PROFILE, LPDISCDLGSTRUCT, LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)], _win32_discdlgstruct_str, winnetwk/DISCDLGSTRUCT, winnetwk/DISCDLGSTRUCTA, winnetwk/DISCDLGSTRUCTW, winnetwk/LPDISCDLGSTRUCT, wnet.discdlgstruct_str'
-f1_keywords:
-- winnetwk/DISCDLGSTRUCT
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnetwk.h
-api_name:
-- DISCDLGSTRUCT
-- DISCDLGSTRUCTA
-- DISCDLGSTRUCTW
 targetos: Windows
 req.typenames: DISCDLGSTRUCTA, *LPDISCDLGSTRUCTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DISCDLGSTRUCTA
+ - winnetwk/_DISCDLGSTRUCTA
+ - LPDISCDLGSTRUCTA
+ - winnetwk/LPDISCDLGSTRUCTA
+ - DISCDLGSTRUCTA
+ - winnetwk/DISCDLGSTRUCTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnetwk.h
+api_name:
+ - DISCDLGSTRUCT
+ - DISCDLGSTRUCTA
+ - DISCDLGSTRUCTW
 ---
 
 # DISCDLGSTRUCTA structure
@@ -50,16 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>DISCDLGSTRUCT</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a> function. The structure contains required information for the disconnect attempt.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a> function. The structure contains required information for the disconnect attempt.
 
 ## -struct-fields
-
-
-
 
 ### -field cbStructure
 
@@ -68,13 +69,11 @@ Type: <b>DWORD</b>
 The size, in bytes, of the 
 <b>DISCDLGSTRUCT</b> structure. The caller must supply this value.
 
-
 ### -field hwndOwner
 
 Type: <b>HWND</b>
 
 A handle to the owner window of the dialog box.
-
 
 ### -field lpLocalName
 
@@ -82,13 +81,11 @@ Type: <b>LPTSTR</b>
 
 A pointer to a <b>NULL</b>-terminated  string that specifies the local device name that is redirected to the network resource, such as "F:" or "LPT1".
 
-
 ### -field lpRemoteName
 
 Type: <b>LPTSTR</b>
 
 A pointer to a <b>NULL</b>-terminated  string that specifies the name of the network resource to disconnect. This member can be NULL if the <b>lpLocalName</b> member is specified. When <b>lpLocalName</b> is specified, the connection to the network resource redirected from <b>lpLocalName</b>  is disconnected.
-
 
 ### -field dwFlags
 
@@ -129,24 +126,20 @@ This situation typically occurs when the user has files open over the connection
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog1a">WNetDisconnectDialog1</a>
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
+<a href="/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
- 
-
- 
-
+> [!NOTE]
+> The winnetwk.h header defines DISCDLGSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

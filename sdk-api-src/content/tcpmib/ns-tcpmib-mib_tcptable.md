@@ -2,15 +2,12 @@
 UID: NS:tcpmib._MIB_TCPTABLE
 title: MIB_TCPTABLE (tcpmib.h)
 description: Contains a table of TCP connections for IPv4 on the local computer.
+helpviewer_keywords: ["*PMIB_TCPTABLE","MIB_TCPTABLE","MIB_TCPTABLE structure [MIB]","PMIB_TCPTABLE","PMIB_TCPTABLE structure pointer [MIB]","_mpr_mib_tcptable","iprtrmib/MIB_TCPTABLE","iprtrmib/PMIB_TCPTABLE","mib.mib_tcptable","rras.mib_tcptable","tcpmib/MIB_TCPTABLE","tcpmib/PMIB_TCPTABLE"]
 old-location: mib\mib_tcptable.htm
 tech.root: MIB
 ms.assetid: a8ed8ac2-a72f-4099-ac99-a8b0b77b7b84
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCPTABLE, MIB_TCPTABLE, MIB_TCPTABLE structure [MIB], PMIB_TCPTABLE, PMIB_TCPTABLE structure pointer [MIB], _mpr_mib_tcptable, iprtrmib/MIB_TCPTABLE, iprtrmib/PMIB_TCPTABLE, mib.mib_tcptable, rras.mib_tcptable, tcpmib/MIB_TCPTABLE, tcpmib/PMIB_TCPTABLE'
-f1_keywords:
-- tcpmib/MIB_TCPTABLE
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-- Iprtrmib.h
-api_name:
-- MIB_TCPTABLE
 targetos: Windows
 req.typenames: MIB_TCPTABLE, *PMIB_TCPTABLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCPTABLE
+ - tcpmib/_MIB_TCPTABLE
+ - PMIB_TCPTABLE
+ - tcpmib/PMIB_TCPTABLE
+ - MIB_TCPTABLE
+ - tcpmib/MIB_TCPTABLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_TCPTABLE
 ---
 
 # MIB_TCPTABLE structure
@@ -49,45 +55,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_TCPTABLE</b> structure contains a table of TCP connections for IPv4 on the local computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumEntries
 
 The number of entries in the table.
 
-
 ### -field table
 
 A pointer to a table of TCP connections implemented as an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structures.
-
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structures.
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <b>MIB_TCPTABLE</b> structure. An array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structures are contained in the <b>MIB_TCPTABLE</b> structure. 
-
-
-
-The <b>MIB_TCPTABLE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCPROW</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCPROW</b> array entry should assume  padding may exist. 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <b>MIB_TCPTABLE</b> structure. An array of <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structures are contained in the <b>MIB_TCPTABLE</b> structure. 
 
 
 
-On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+The <b>MIB_TCPTABLE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_TCPROW</b> array entries in the <b>table</b> member. Any access to a <b>MIB_TCPROW</b> array entry should assume  padding may exist. 
+
+
+
+On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 #### Examples
 
-The following example retrieves the TCP connection table for IPv4 as a <b>MIB_TCPTABLE</b> structure and prints the state of each connection represented as a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure.
+The following example retrieves the TCP connection table for IPv4 as a <b>MIB_TCPTABLE</b> structure and prints the state of each connection represented as a <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a> structure.
 
 
 ```cpp
@@ -218,57 +215,46 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable2">GetTcpTable2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable2">GetTcpTable2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row2">MIB_TCP6ROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row2">MIB_TCP6ROW2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow_lh">MIB_TCPROW</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>

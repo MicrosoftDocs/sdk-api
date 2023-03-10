@@ -2,15 +2,12 @@
 UID: NF:strmif.IReferenceClock.AdvisePeriodic
 title: IReferenceClock::AdvisePeriodic (strmif.h)
 description: The AdvisePeriodic method creates a periodic advise request.
+helpviewer_keywords: ["AdvisePeriodic","AdvisePeriodic method [DirectShow]","AdvisePeriodic method [DirectShow]","IReferenceClock interface","IReferenceClock interface [DirectShow]","AdvisePeriodic method","IReferenceClock.AdvisePeriodic","IReferenceClock::AdvisePeriodic","IReferenceClockAdvisePeriodic","dshow.ireferenceclock_adviseperiodic","strmif/IReferenceClock::AdvisePeriodic"]
 old-location: dshow\ireferenceclock_adviseperiodic.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
 ms.date: 12/05/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
-f1_keywords:
-- strmif/IReferenceClock.AdvisePeriodic
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IReferenceClock.AdvisePeriodic
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReferenceClock::AdvisePeriodic
+ - strmif/IReferenceClock::AdvisePeriodic
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IReferenceClock.AdvisePeriodic
 ---
 
 # IReferenceClock::AdvisePeriodic
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>AdvisePeriodic</code> method creates a periodic advise request.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param startTime [in]
 
 Time of the first notification, in 100-nanosecond units. Must be greater than zero and less than MAX_TIME.
 
-
 ### -param periodTime [in]
 
 Time between notifications, in 100-nanosecond units. Must be greater than zero.
-
 
 ### -param hSemaphore [in]
 
 Handle to a semaphore, created by the caller.
 
-
 ### -param pdwAdviseCookie [out]
 
 Pointer to a variable that receives an identifier for the advise request.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -137,20 +125,14 @@ Failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-At each notification time, the clock releases the semaphore specified in the <i>hSemaphore</i> parameter. When no further notifications are required, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">IReferenceClock::Unadvise</a> and pass the <i>pdwAdviseToken</i> value returned from this call.
+At each notification time, the clock releases the semaphore specified in the <i>hSemaphore</i> parameter. When no further notifications are required, call <a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">IReferenceClock::Unadvise</a> and pass the <i>pdwAdviseToken</i> value returned from this call.
 
 The following code example creates an advise request that signals five seconds from the time it is created, and again every second thereafter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -178,19 +160,10 @@ pRefClock-&gt;Unadvise(dwAdviseToken);
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMStreamSelect.Count
 title: IAMStreamSelect::Count (strmif.h)
 description: The Count method retrieves the number of available streams.
+helpviewer_keywords: ["Count","Count method [DirectShow]","Count method [DirectShow]","IAMStreamSelect interface","IAMStreamSelect interface [DirectShow]","Count method","IAMStreamSelect.Count","IAMStreamSelect::Count","IAMStreamSelectCount","dshow.iamstreamselect_count","strmif/IAMStreamSelect::Count"]
 old-location: dshow\iamstreamselect_count.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5104ce98-5b13-409a-9226-0c089ee8bb1e
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [DirectShow], Count method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Count method, IAMStreamSelect.Count, IAMStreamSelect::Count, IAMStreamSelectCount, dshow.iamstreamselect_count, strmif/IAMStreamSelect::Count
-f1_keywords:
-- strmif/IAMStreamSelect.Count
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStreamSelect.Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStreamSelect::Count
+ - strmif/IAMStreamSelect::Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStreamSelect.Count
 ---
 
 # IAMStreamSelect::Count
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Count</code> method retrieves the number of available streams.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcStreams [out]
 
 Receives the number of streams.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,22 +91,11 @@ The pins are not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamselect">IAMStreamSelect Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamstreamselect">IAMStreamSelect Interface</a>

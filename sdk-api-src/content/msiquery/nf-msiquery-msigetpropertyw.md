@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiGetPropertyW
 title: MsiGetPropertyW function (msiquery.h)
-description: The MsiGetProperty function gets the value for an installer property.
+description: The MsiGetProperty function gets the value for an installer property. (Unicode)
+helpviewer_keywords: ["MsiGetProperty", "MsiGetProperty function", "MsiGetPropertyW", "_msi_msigetproperty", "msiquery/MsiGetProperty", "msiquery/MsiGetPropertyW", "setup.msigetproperty"]
 old-location: setup\msigetproperty.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f2844673-3440-4b43-a9d0-31b9e8086f6f
 ms.date: 12/05/2018
 ms.keywords: MsiGetProperty, MsiGetProperty function, MsiGetPropertyA, MsiGetPropertyW, _msi_msigetproperty, msiquery/MsiGetProperty, msiquery/MsiGetPropertyA, msiquery/MsiGetPropertyW, setup.msigetproperty
-f1_keywords:
-- msiquery/MsiGetProperty
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetProperty
-- MsiGetPropertyA
-- MsiGetPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetPropertyW
+ - msiquery/MsiGetPropertyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetProperty
+ - MsiGetPropertyA
+ - MsiGetPropertyW
 ---
 
 # MsiGetPropertyW function
@@ -50,48 +52,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetProperty</b> function gets the value for an installer property.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szName [in]
 
 A null-terminated string that specifies the name of the property.
 
-
 ### -param szValueBuf [out]
 
-Pointer to the buffer that receives the null terminated string containing the value of the property. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szValueBuf</i>. You can get the size of the buffer by passing in an empty string (for example ""). The function will then return ERROR_MORE_DATA and <i>pchValueBuf </i>will contain the required buffer size in TCHARs, not including the terminating null character. On return of ERROR_SUCCESS, <i>pcchValueBuf </i>contains the number of TCHARs written to the buffer, not including the terminating null character.
-
+Pointer to the buffer that receives the null terminated string containing the value of the property. Do not attempt to determine the size of the buffer by passing in a null (value=0) for <i>szValueBuf</i>. You can get the size of the buffer by passing in an empty string (for example ""). The function will then return ERROR_MORE_DATA and <i>pchValueBuf </i> will contain the required buffer size in TCHARs, not including the terminating null character. On return of ERROR_SUCCESS, <i>pcchValueBuf </i> contains the number of TCHARs written to the buffer, not including the terminating null character.
 
 ### -param pcchValueBuf [in, out]
 
-Pointer to the variable that specifies the size, in TCHARs, of the buffer pointed to by the variable <i>szValueBuf</i>. When the function returns ERROR_SUCCESS, this variable contains the size of the data copied to <i>szValueBuf</i>, not including the terminating null character. If <i>szValueBuf </i>is not large enough, the function returns ERROR_MORE_DATA and stores the required size, not including the terminating null character, in the variable pointed to by <i>pchValueBuf</i>.
-
+Pointer to the variable that specifies the size, in TCHARs, of the buffer pointed to by the variable <i>szValueBuf</i>. When the function returns ERROR_SUCCESS, this variable contains the size of the data copied to <i>szValueBuf</i>, not including the terminating null character. If <i>szValueBuf </i> is not large enough, the function returns ERROR_MORE_DATA and stores the required size, not including the terminating null character, in the variable pointed to by <i>pchValueBuf</i>.
 
 ## -returns
 
-
-
 This function returns UINT.
 
-
-
-
 ## -remarks
-
-
 
 If the value for the property retrieved by the 
 <b>MsiGetProperty</b> function is not defined, it is equivalent to a 0-length value. It is not an error.
@@ -138,17 +124,14 @@ UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
 
 
 
+
+> [!NOTE]
+> The msiquery.h header defines MsiGetProperty as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

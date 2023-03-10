@@ -2,15 +2,12 @@
 UID: NF:bits.IBackgroundCopyJob.AddFile
 title: IBackgroundCopyJob::AddFile (bits.h)
 description: Adds a single file to the job.
+helpviewer_keywords: ["AddFile","AddFile method [BITS]","AddFile method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","AddFile method","IBackgroundCopyJob.AddFile","IBackgroundCopyJob::AddFile","_drz_ibackgroundcopyjob_addfile","bits.ibackgroundcopyjob_addfile","bits/IBackgroundCopyJob::AddFile"]
 old-location: bits\ibackgroundcopyjob_addfile.htm
 tech.root: Bits
 ms.assetid: 0dada1d3-49b6-41af-b17f-612f27ea4d56
 ms.date: 12/05/2018
 ms.keywords: AddFile, AddFile method [BITS], AddFile method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],AddFile method, IBackgroundCopyJob.AddFile, IBackgroundCopyJob::AddFile, _drz_ibackgroundcopyjob_addfile, bits.ibackgroundcopyjob_addfile, bits/IBackgroundCopyJob::AddFile
-f1_keywords:
-- bits/IBackgroundCopyJob.AddFile
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyJob.AddFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob::AddFile
+ - bits/IBackgroundCopyJob::AddFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyJob.AddFile
 ---
 
 # IBackgroundCopyJob::AddFile
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
  
 Adds a single file to the job.
 
-
 ## -parameters
-
-
-
 
 ### -param RemoteUrl [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
-
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
 
 ### -param LocalName [in]
 
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
-
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -140,19 +133,13 @@ User does not have permission to write to the specified directory on the client.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To add more than one file at a time to a  job, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a> method. It is more efficient to call the <b>AddFileSet</b> method when adding multiple files to a job than to call the <b>AddFile</b> method in a loop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Bits/adding-files-to-a-job">Adding Files to a Job</a>.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a> method. It is more efficient to call the <b>AddFileSet</b> method when adding multiple files to a job than to call the <b>AddFile</b> method in a loop. For more information, see <a href="/windows/desktop/Bits/adding-files-to-a-job">Adding Files to a Job</a>.
 
-To add a file to a job from which BITS downloads ranges of data from the file, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a> method.
+To add a file to a job from which BITS downloads ranges of data from the file, call the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a> method.
 
 Upload jobs can only contain one file. If you add a second file, the method returns BG_E_TOO_MANY_FILES.
 
@@ -168,41 +155,32 @@ By default, a user can add up to 200 files to a job. This limit does not apply t
 
 <b>Prior to Windows Vista:  </b>There is no limit on the number of files that a user can add to a job.
 
-For scalability concerns, see <a href="https://docs.microsoft.com/windows/desktop/Bits/best-practices-when-using-bits">Best Practices When Using BITS</a>.
+For scalability concerns, see <a href="/windows/desktop/Bits/best-practices-when-using-bits">Best Practices When Using BITS</a>.
 
 
 #### Examples
 
 For an example that adds a single file to a job, see 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/adding-files-to-a-job">Adding Files to a Job</a>.
+<a href="/windows/desktop/Bits/adding-files-to-a-job">Adding Files to a Job</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-enumfiles">IBackgroundCopyJob::EnumFiles</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>

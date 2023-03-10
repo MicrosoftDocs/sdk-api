@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMediaTypeSample.GetActualDataLength
 title: IAMMediaTypeSample::GetActualDataLength (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetActualDataLength method retrieves the data length of the sample, in bytes.
+helpviewer_keywords: ["GetActualDataLength","GetActualDataLength method [DirectShow]","GetActualDataLength method [DirectShow]","IAMMediaTypeSample interface","IAMMediaTypeSample interface [DirectShow]","GetActualDataLength method","IAMMediaTypeSample.GetActualDataLength","IAMMediaTypeSample::GetActualDataLength","IAMMediaTypeSampleGetActualDataLength","amstream/IAMMediaTypeSample::GetActualDataLength","dshow.iammediatypesample_getactualdatalength"]
 old-location: dshow\iammediatypesample_getactualdatalength.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e73672c7-7400-40dd-be65-f6c30c476c91
 ms.date: 12/05/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetActualDataLength method, IAMMediaTypeSample.GetActualDataLength, IAMMediaTypeSample::GetActualDataLength, IAMMediaTypeSampleGetActualDataLength, amstream/IAMMediaTypeSample::GetActualDataLength, dshow.iammediatypesample_getactualdatalength
-f1_keywords:
-- amstream/IAMMediaTypeSample.GetActualDataLength
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaTypeSample.GetActualDataLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaTypeSample::GetActualDataLength
+ - amstream/IAMMediaTypeSample::GetActualDataLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaTypeSample.GetActualDataLength
 ---
 
 # IAMMediaTypeSample::GetActualDataLength
@@ -48,38 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>GetActualDataLength</code> method retrieves the data length of the sample, in bytes.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 Returns the data length of the sample, in bytes.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>

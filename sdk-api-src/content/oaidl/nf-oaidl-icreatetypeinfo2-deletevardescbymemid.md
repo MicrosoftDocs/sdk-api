@@ -1,16 +1,13 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteVarDescByMemId
 title: ICreateTypeInfo2::DeleteVarDescByMemId (oaidl.h)
-description: Deletes the specified VARDESC structure.
+description: Deletes the specified VARDESC structure. (ICreateTypeInfo2.DeleteVarDescByMemId)
+helpviewer_keywords: ["DeleteVarDescByMemId","DeleteVarDescByMemId method [Automation]","DeleteVarDescByMemId method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteVarDescByMemId method","ICreateTypeInfo2.DeleteVarDescByMemId","ICreateTypeInfo2::DeleteVarDescByMemId","_oa96_ICreateTypeInfo2_DeleteVarDescByMemId","automat.icreatetypeinfo2_deletevardescbymemid","oaidl/ICreateTypeInfo2::DeleteVarDescByMemId"]
 old-location: automat\icreatetypeinfo2_deletevardescbymemid.htm
 tech.root: automat
 ms.assetid: 5b69dda9-01b5-45b2-ab92-65a29a2d1f21
 ms.date: 12/05/2018
 ms.keywords: DeleteVarDescByMemId, DeleteVarDescByMemId method [Automation], DeleteVarDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDescByMemId method, ICreateTypeInfo2.DeleteVarDescByMemId, ICreateTypeInfo2::DeleteVarDescByMemId, _oa96_ICreateTypeInfo2_DeleteVarDescByMemId, automat.icreatetypeinfo2_deletevardescbymemid, oaidl/ICreateTypeInfo2::DeleteVarDescByMemId
-f1_keywords:
-- oaidl/ICreateTypeInfo2.DeleteVarDescByMemId
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo2.DeleteVarDescByMemId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo2::DeleteVarDescByMemId
+ - oaidl/ICreateTypeInfo2::DeleteVarDescByMemId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo2.DeleteVarDescByMemId
 ---
 
 # ICreateTypeInfo2::DeleteVarDescByMemId
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified VARDESC structure.
 
-
 ## -parameters
-
-
-
 
 ### -param memid [in]
 
 The member identifier of the VARDESC to be deleted.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -157,18 +150,7 @@ The type library cannot be opened.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>

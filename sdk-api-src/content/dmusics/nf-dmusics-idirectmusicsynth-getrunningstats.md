@@ -2,15 +2,12 @@
 UID: NF:dmusics.IDirectMusicSynth.GetRunningStats
 title: IDirectMusicSynth::GetRunningStats (dmusics.h)
 description: The GetRunningStats method retrieves current information about the state of the synthesizer so that an application can tell how the synth is performing.
+helpviewer_keywords: ["GetRunningStats","GetRunningStats method [Audio Devices]","GetRunningStats method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","GetRunningStats method","IDirectMusicSynth.GetRunningStats","IDirectMusicSynth::GetRunningStats","audio.idirectmusicsynth_getrunningstats","audmp-routines_9669d460-7c3b-4769-bb3e-fdca1d347f07.xml","dmusics/IDirectMusicSynth::GetRunningStats"]
 old-location: audio\idirectmusicsynth_getrunningstats.htm
 tech.root: audio
 ms.assetid: cf3e97f2-6068-4438-b4c7-5e55ba22bd6e
 ms.date: 12/05/2018
 ms.keywords: GetRunningStats, GetRunningStats method [Audio Devices], GetRunningStats method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetRunningStats method, IDirectMusicSynth.GetRunningStats, IDirectMusicSynth::GetRunningStats, audio.idirectmusicsynth_getrunningstats, audmp-routines_9669d460-7c3b-4769-bb3e-fdca1d347f07.xml, dmusics/IDirectMusicSynth::GetRunningStats
-f1_keywords:
-- dmusics/IDirectMusicSynth.GetRunningStats
-dev_langs:
-- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusics.h
-api_name:
-- IDirectMusicSynth.GetRunningStats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectMusicSynth::GetRunningStats
+ - dmusics/IDirectMusicSynth::GetRunningStats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusics.h
+api_name:
+ - IDirectMusicSynth.GetRunningStats
 ---
 
 # IDirectMusicSynth::GetRunningStats
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>GetRunningStats</code> method retrieves current information about the state of the synthesizer so that an application can tell how the synth is performing.
 
-
 ## -parameters
-
-
-
 
 ### -param pStats
 
 Pointer to a DMUS_SYNTHSTATS structure (described in Microsoft Windows SDK documentation). The method writes the synth's statistics into this structure.
 
-
 ## -returns
-
-
 
 <code>GetRunningStats</code> returns S_OK if the call was successful. Otherwise, the method returns an appropriate error code. The following table shows some of the possible return status codes.
 
@@ -118,31 +112,15 @@ Indicates that the synth is not open or not properly configured.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <code>GetRunningStats</code> method returns current information about the state of the synthesizer, including CPU loading, peak volume, and how many notes were stolen (from changing priority levels; see <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>). The method outputs these statistics into a DMUS_SYNTHSTATS structure.
+The <code>GetRunningStats</code> method returns current information about the state of the synthesizer, including CPU loading, peak volume, and how many notes were stolen (from changing priority levels; see <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>). The method outputs these statistics into a DMUS_SYNTHSTATS structure.
 
 An application can call <code>GetRunningStats</code> periodically to get the status of the synthesizer as it runs. All of the running status parameters, with the exception of <i>dwFreeMemory</i>, are refreshed every second.
 
 An application typically accesses <code>GetRunningStats</code> indirectly by calling <b>IDirectMusicPort::GetRunningStats</b>, which is described in the Windows SDK documentation.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>

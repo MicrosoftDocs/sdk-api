@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateLicenseRevocationAgent
 title: WMCreateLicenseRevocationAgent function (wmsdkidl.h)
 description: The WMCreateLicenseRevocationAgent function creates a license revocation object.
+helpviewer_keywords: ["WMCreateLicenseRevocationAgent","WMCreateLicenseRevocationAgent function [windows Media Format]","wmformat.wmcreatelicenserevocationagent","wmsdkidl/WMCreateLicenseRevocationAgent"]
 old-location: wmformat\wmcreatelicenserevocationagent.htm
 tech.root: wmformat
 ms.assetid: 46898846-780f-4a86-93c7-826f55c358ba
 ms.date: 12/05/2018
 ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
-f1_keywords:
-- wmsdkidl/WMCreateLicenseRevocationAgent
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateLicenseRevocationAgent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateLicenseRevocationAgent
+ - wmsdkidl/WMCreateLicenseRevocationAgent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateLicenseRevocationAgent
 ---
 
 # WMCreateLicenseRevocationAgent function
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateLicenseRevocationAgent</b> function creates a license revocation object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pCallback [in]
 
-Address of the <b>IUnknown</b> interface of the object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method used to communicate license revocation status to the application.
-
+Address of the <b>IUnknown</b> interface of the object that implements the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method used to communicate license revocation status to the application.
 
 ### -param ppLicenseRevocationAgent [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent">IWMLicenseRevocationAgent</a> interface of the newly created license revocation agent object.
-
+Address of a variable that receives a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent">IWMLicenseRevocationAgent</a> interface of the newly created license revocation agent object.
 
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -92,18 +82,7 @@ The method returns an HRESULT. Possible values include, but are not limited to, 
 <td>The function is unable to allocate memory for the new object.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

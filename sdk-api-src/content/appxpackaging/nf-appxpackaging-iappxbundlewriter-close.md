@@ -1,16 +1,13 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter.Close
 title: IAppxBundleWriter::Close (appxpackaging.h)
-description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
+description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream. (IAppxBundleWriter.Close)
+helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxBundleWriter interface","IAppxBundleWriter interface [App packaging and management]","Close method","IAppxBundleWriter.Close","IAppxBundleWriter::Close","appxpackaging/IAppxBundleWriter::Close","appxpkg.iappxbundlewriter_close"]
 old-location: appxpkg\iappxbundlewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 9826873D-87AF-4D6B-977B-1C24197C47F8
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter interface, IAppxBundleWriter interface [App packaging and management],Close method, IAppxBundleWriter.Close, IAppxBundleWriter::Close, appxpackaging/IAppxBundleWriter::Close, appxpkg.iappxbundlewriter_close
-f1_keywords:
-- appxpackaging/IAppxBundleWriter.Close
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleWriter.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleWriter::Close
+ - appxpackaging/IAppxBundleWriter::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleWriter.Close
 ---
 
 # IAppxBundleWriter::Close
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -84,18 +77,7 @@ The writer is closed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>

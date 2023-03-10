@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IDesktopWallpaper.SetWallpaper
 title: IDesktopWallpaper::SetWallpaper (shobjidl_core.h)
 description: Sets the desktop wallpaper.
+helpviewer_keywords: ["IDesktopWallpaper interface [Windows Shell]","SetWallpaper method","IDesktopWallpaper.SetWallpaper","IDesktopWallpaper::SetWallpaper","SetWallpaper","SetWallpaper method [Windows Shell]","SetWallpaper method [Windows Shell]","IDesktopWallpaper interface","shell.IDesktopWallpaper_SetWallpaper","shobjidl_core/IDesktopWallpaper::SetWallpaper"]
 old-location: shell\IDesktopWallpaper_SetWallpaper.htm
 tech.root: shell
 ms.assetid: 5E0731DC-8B70-40dc-B90A-97B1E3E4D55D
 ms.date: 12/05/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetWallpaper method, IDesktopWallpaper.SetWallpaper, IDesktopWallpaper::SetWallpaper, SetWallpaper, SetWallpaper method [Windows Shell], SetWallpaper method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetWallpaper, shobjidl_core/IDesktopWallpaper::SetWallpaper
-f1_keywords:
-- shobjidl_core/IDesktopWallpaper.SetWallpaper
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IDesktopWallpaper.SetWallpaper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDesktopWallpaper::SetWallpaper
+ - shobjidl_core/IDesktopWallpaper::SetWallpaper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IDesktopWallpaper.SetWallpaper
 ---
 
 # IDesktopWallpaper::SetWallpaper
@@ -48,45 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the desktop wallpaper.
-
 
 ## -parameters
 
-
-
-
 ### -param monitorID [in]
 
-The ID of the monitor. This value can be obtained through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">GetMonitorDevicePathAt</a>. Set this value to NULL to set the wallpaper image on all monitors.
-
+The ID of the monitor. This value can be obtained through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">GetMonitorDevicePathAt</a>. Set this value to NULL to set the wallpaper image on all monitors.
 
 ### -param wallpaper [in]
 
 The full path of the wallpaper image file.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getwallpaper">IDesktopWallpaper::GetWallpaper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getwallpaper">IDesktopWallpaper::GetWallpaper</a>

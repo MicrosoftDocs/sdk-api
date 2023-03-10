@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputFormat
 title: IWMSyncReader::GetOutputFormat (wmsdkidl.h)
 description: The GetOutputFormat method retrieves the supported formats for a specified output media stream.
+helpviewer_keywords: ["GetOutputFormat","GetOutputFormat method [windows Media Format]","GetOutputFormat method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputFormat method","IWMSyncReader.GetOutputFormat","IWMSyncReader::GetOutputFormat","IWMSyncReaderGetOutputFormat","wmformat.iwmsyncreader_getoutputformat","wmsdkidl/IWMSyncReader::GetOutputFormat"]
 old-location: wmformat\iwmsyncreader_getoutputformat.htm
 tech.root: wmformat
 ms.assetid: 7faac9e7-ad5f-42a4-ba6e-562ae973f81b
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [windows Media Format], GetOutputFormat method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetOutputFormat method, IWMSyncReader.GetOutputFormat, IWMSyncReader::GetOutputFormat, IWMSyncReaderGetOutputFormat, wmformat.iwmsyncreader_getoutputformat, wmsdkidl/IWMSyncReader::GetOutputFormat
-f1_keywords:
-- wmsdkidl/IWMSyncReader.GetOutputFormat
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.GetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::GetOutputFormat
+ - wmsdkidl/IWMSyncReader::GetOutputFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.GetOutputFormat
 ---
 
 # IWMSyncReader::GetOutputFormat
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetOutputFormat</b> method retrieves the supported formats for a specified output media stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 <b>DWORD</b> containing the output number.
 
-
 ### -param dwFormatNum [in]
 
 <b>DWORD</b> containing the format number.
 
-
 ### -param ppProps [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps</a> interface. This object is created by a successful call to this method.
-
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps</a> interface. This object is created by a successful call to this method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -123,27 +112,11 @@ No file is open in the synchronous reader.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To enumerate the supported formats for an output media stream, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputformatcount">GetOutputFormatCount</a> to get the number of formats, and then call <b>GetOutputFormat</b> in succession to get the formats.
-
-
-
+To enumerate the supported formats for an output media stream, call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputformatcount">GetOutputFormatCount</a> to get the number of formats, and then call <b>GetOutputFormat</b> in succession to get the formats.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>

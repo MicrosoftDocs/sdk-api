@@ -2,15 +2,12 @@
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumAssemblyRefs
 title: IMetaDataAssemblyImport::EnumAssemblyRefs (rometadataapi.h)
 description: Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
+helpviewer_keywords: ["EnumAssemblyRefs","EnumAssemblyRefs method [Windows Runtime]","EnumAssemblyRefs method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","EnumAssemblyRefs method","IMetaDataAssemblyImport.EnumAssemblyRefs","IMetaDataAssemblyImport::EnumAssemblyRefs","rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs","winrt.imetadataassemblyimport_enumassemblyrefs"]
 old-location: winrt\imetadataassemblyimport_enumassemblyrefs.htm
 tech.root: WinRT
 ms.assetid: 2b5768ef-47fc-4052-bb68-e279a027c887
 ms.date: 12/05/2018
 ms.keywords: EnumAssemblyRefs, EnumAssemblyRefs method [Windows Runtime], EnumAssemblyRefs method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumAssemblyRefs method, IMetaDataAssemblyImport.EnumAssemblyRefs, IMetaDataAssemblyImport::EnumAssemblyRefs, rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs, winrt.imetadataassemblyimport_enumassemblyrefs
-f1_keywords:
-- rometadataapi/IMetaDataAssemblyImport.EnumAssemblyRefs
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataAssemblyImport.EnumAssemblyRefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataAssemblyImport::EnumAssemblyRefs
+ - rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataAssemblyImport.EnumAssemblyRefs
 ---
 
 # IMetaDataAssemblyImport::EnumAssemblyRefs
@@ -48,40 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
 
-
 ## -parameters
-
-
-
 
 ### -param phEnum [in, out]
 
 A pointer to the enumerator. This must be a null value when the <b>EnumAssemblyRefs</b> method is called for the first time.
 
-
 ### -param rAssemblyRefs [out]
 
 The enumeration of <b>mdAssemblyRef</b> metadata tokens.
-
 
 ### -param cMax [in]
 
 The maximum number of tokens that can be placed in the rAssemblyRefs array.
 
-
 ### -param pcTokens [out]
 
 The number of tokens actually placed in <i>rAssemblyRefs</i>.
 
-
-
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -100,18 +89,7 @@ The number of tokens actually placed in <i>rAssemblyRefs</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>

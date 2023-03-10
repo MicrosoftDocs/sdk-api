@@ -2,15 +2,12 @@
 UID: NF:wuapi.IInstallationJob.RequestAbort
 title: IInstallationJob::RequestAbort (wuapi.h)
 description: Makes a request to cancel the installation or uninstallation.
+helpviewer_keywords: ["IInstallationJob interface [Windows Update Agent]","RequestAbort method","IInstallationJob.RequestAbort","IInstallationJob::RequestAbort","RequestAbort","RequestAbort method [Windows Update Agent]","RequestAbort method [Windows Update Agent]","IInstallationJob interface","wua.iinstallationjob_requestabort","wuapi/IInstallationJob::RequestAbort"]
 old-location: wua\iinstallationjob_requestabort.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: efe0c51c-1193-4a25-88ae-ad74550f42ba
 ms.date: 12/05/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],RequestAbort method, IInstallationJob.RequestAbort, IInstallationJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],IInstallationJob interface, wua.iinstallationjob_requestabort, wuapi/IInstallationJob::RequestAbort
-f1_keywords:
-- wuapi/IInstallationJob.RequestAbort
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IInstallationJob.RequestAbort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInstallationJob::RequestAbort
+ - wuapi/IInstallationJob::RequestAbort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IInstallationJob.RequestAbort
 ---
 
 # IInstallationJob::RequestAbort
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Makes a request to cancel the installation or uninstallation.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>

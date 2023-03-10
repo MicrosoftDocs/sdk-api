@@ -2,15 +2,12 @@
 UID: NF:winddi.EngCreateBitmap
 title: EngCreateBitmap function (winddi.h)
 description: The EngCreateBitmap function requests that GDI create and manage a bitmap.
+helpviewer_keywords: ["EngCreateBitmap","EngCreateBitmap function [Display Devices]","display.engcreatebitmap","gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml","winddi/EngCreateBitmap"]
 old-location: display\engcreatebitmap.htm
 tech.root: display
 ms.assetid: 51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c
 ms.date: 12/05/2018
 ms.keywords: EngCreateBitmap, EngCreateBitmap function [Display Devices], display.engcreatebitmap, gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml, winddi/EngCreateBitmap
-f1_keywords:
-- winddi/EngCreateBitmap
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngCreateBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngCreateBitmap
+ - winddi/EngCreateBitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngCreateBitmap
 ---
 
 # EngCreateBitmap function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EngCreateBitmap</b> function requests that GDI create and manage a bitmap. 
-
+The <b>EngCreateBitmap</b> function requests that GDI create and manage a bitmap.
 
 ## -parameters
 
-
-
-
 ### -param sizl
 
-Specifies a SIZEL structure whose members contain the width and height, in pixels, of the bitmap to be created. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
+Specifies a SIZEL structure whose members contain the width and height, in pixels, of the bitmap to be created. A SIZEL structure is identical to a <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
-If <i>pvBits</i> is not <b>NULL</b>, this value should represent all pixels visible on the device, allowing the device to keep <a href="https://docs.microsoft.com/windows-hardware/drivers/">off-screen memory</a>.
-
+If <i>pvBits</i> is not <b>NULL</b>, this value should represent all pixels visible on the device, allowing the device to keep <a href="/windows-hardware/drivers/">off-screen memory</a>.
 
 ### -param lWidth
 
 Specifies the allocation width of the bitmap, which is the number of bytes that must be added to a pointer to move down one scan line.
-
 
 ### -param iFormat [in]
 
@@ -159,8 +154,6 @@ BMF_8RLE
 </td>
 </tr>
 </table>
- 
-
 
 ### -param fl [in]
 
@@ -197,54 +190,34 @@ BMF_USERMEM
 
 </td>
 <td>
-GDI will allocate the memory for the bitmap from user memory. By default, the memory is allocated from the kernel's address space. This flag should be specified only when the bitmap being created will not be used by other processes. User memory cannot be passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> by the printer driver.
+GDI will allocate the memory for the bitmap from user memory. By default, the memory is allocated from the kernel's address space. This flag should be specified only when the bitmap being created will not be used by other processes. User memory cannot be passed to <a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> by the printer driver.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvBits [in]
 
 Pointer to the first scan line of the bitmap that is to be created. If this parameter is <b>NULL</b>, GDI allocates the storage space for the pixels of the bitmap. If <i>pvBits</i> is not <b>NULL</b>, it is a pointer to the buffer for the bitmap.
 
-
 ## -returns
-
-
 
 If the function completes successfully, the return value is a handle that identifies the created bitmap. Otherwise, the return value is 0. <b>EngCreateBitmap</b> does not log an error code.
 
-
-
-
 ## -remarks
-
-
 
 Storage for the bitmap can optionally be provided by the driver.
 
-The driver should associate the created bitmap as a surface by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a> before returning from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>.
+The driver should associate the created bitmap as a surface by calling <a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a> before returning from <a href="/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>.
 
-The bitmap should be deleted by using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a> when it is no longer needed.
+The bitmap should be deleted by using <a href="/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a> when it is no longer needed.
 
 Frame buffer display drivers should use the <i>pvBits</i> parameter, allowing GDI to do most drawing directly to the display.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>

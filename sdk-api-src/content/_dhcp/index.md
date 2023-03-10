@@ -4,7 +4,7 @@ title: Dynamic Host Configuration Protocol (DHCP)
 ms.assetid: b6e81add-dd29-38a3-a1c3-f32ac92fded0
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Dynamic Host Configuration Protocol (DHCP)
@@ -21,5 +21,4 @@ To develop Dynamic Host Configuration Protocol (DHCP), you need these headers:
  * [dhcpv6csdk.h](../dhcpv6csdk/index.md)
 
 For programming guidance for this technology, see:
-* [Dynamic Host Configuration Protocol (DHCP)](https://docs.microsoft.com/previous-versions/windows/desktop/dhcp)
-
+* [Dynamic Host Configuration Protocol (DHCP)](/previous-versions/windows/desktop/dhcp)

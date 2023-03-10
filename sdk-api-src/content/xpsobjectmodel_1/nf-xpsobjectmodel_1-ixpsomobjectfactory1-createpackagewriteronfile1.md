@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 title: IXpsOMObjectFactory1::CreatePackageWriterOnFile1 (xpsobjectmodel_1.h)
 description: Opens a file for writing the contents of an XPS OM to an XPS package of a specified type. This method produces a package writer for either an MSXPS document or an OpenXPS document.
+helpviewer_keywords: ["CreatePackageWriterOnFile1","CreatePackageWriterOnFile1 method [XPS Documents and Packaging]","CreatePackageWriterOnFile1 method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","FALSE","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","CreatePackageWriterOnFile1 method","IXpsOMObjectFactory1.CreatePackageWriterOnFile1","IXpsOMObjectFactory1::CreatePackageWriterOnFile1","TRUE","xps.ixpsomobjectfactory1_createpackagewriteronfile1","xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1"]
 old-location: xps\ixpsomobjectfactory1_createpackagewriteronfile1.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6ad569a1-8b7a-473c-8bce-ad1fd843ec29
 ms.date: 12/05/2018
 ms.keywords: CreatePackageWriterOnFile1, CreatePackageWriterOnFile1 method [XPS Documents and Packaging], CreatePackageWriterOnFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, FALSE, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageWriterOnFile1 method, IXpsOMObjectFactory1.CreatePackageWriterOnFile1, IXpsOMObjectFactory1::CreatePackageWriterOnFile1, TRUE, xps.ixpsomobjectfactory1_createpackagewriteronfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1
-f1_keywords:
-- xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePackageWriterOnFile1
-dev_langs:
-- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: None
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- none
-- none.dll
-api_name:
-- IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMObjectFactory1::CreatePackageWriterOnFile1
+ - xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnFile1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - none
+ - none.dll
+api_name:
+ - IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 ---
 
 # IXpsOMObjectFactory1::CreatePackageWriterOnFile1
@@ -49,23 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a file for writing the contents of an XPS OM to an XPS package of a specified type. This method produces a package writer for either an MSXPS document or an OpenXPS document.
 
-
 ## -parameters
-
-
-
 
 ### -param fileName
 
 [in] The name of the file to be created.
 
-
 ### -param securityAttributes
 
-[in, unique]    The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
+[in, unique]    The <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two separate but related  members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>: an optional security descriptor</li>
@@ -73,15 +69,13 @@ Opens a file for writing the contents of an XPS OM to an XPS package of a specif
 </ul>
 If  <b>lpSecurityDescriptor</b> is <b>NULL</b>, the file or device associated with the returned handle is assigned a default security descriptor.
 
- For more information about <i>securityAttributes</i>, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
-
+ For more information about <i>securityAttributes</i>, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 ### -param flagsAndAttributes
 
 [in]            Specifies the settings and attributes of the file to be created. For most files, the <b>FILE_ATTRIBUTE_NORMAL</b> value can be used.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> for more information about this parameter.
-
+See <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> for more information about this parameter.
 
 ### -param optimizeMarkupSize
 
@@ -113,83 +107,54 @@ The package writer will not try to perform any optimization.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param interleaving
 
 [in] Specifies whether the content of the XPS OM will be interleaved when it is written to the file.
 
-
 ### -param documentSequencePartName
 
-[in] The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the document sequence in the new file.
-
+[in] The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the document sequence in the new file.
 
 ### -param coreProperties
 
-[in] The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a> interface that contains the core document properties to be given to the new file. This parameter can be set to <b>NULL</b>.
-
+[in] The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a> interface that contains the core document properties to be given to the new file. This parameter can be set to <b>NULL</b>.
 
 ### -param packageThumbnail
 
-[in] The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface that contains the thumbnail image to be assigned to the new file. This parameter can be set to <b>NULL</b>.
-
+[in] The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface that contains the thumbnail image to be assigned to the new file. This parameter can be set to <b>NULL</b>.
 
 ### -param documentSequencePrintTicket
 
-[in] The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface that contains the package-level print ticket to be assigned to the new file. This parameter can be set to <b>NULL</b>.
-
+[in] The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface that contains the package-level print ticket to be assigned to the new file. This parameter can be set to <b>NULL</b>.
 
 ### -param discardControlPartName
 
-[in] The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the name of the discard control part. This parameter can be set to <b>NULL</b>.
-
+[in] The <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the name of the discard control part. This parameter can be set to <b>NULL</b>.
 
 ### -param documentType
 
 [in] Specifies the document type of the package writer. The value of this parameter cannot be XPS_DOCUMENT_TYPE_UNSPECIFIED.
 
-
 ### -param packageWriter
 
-[out, retval]    A pointer to the new  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface created by this method.
-
+[out, retval]    A pointer to the new  <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a> interface created by this method.
 
 ## -returns
-
-
 
 Possible values include, but are not limited to, the following. For information about XPS document API return values that are not listed here, see XPS Document Errors.
 
 S_OK: The method succeeded and packageWriter was set correctly. 
 
-E_INVALIDARG: The document type was not a valid XPS document format. 
-
-
-
-
-
+E_INVALIDARG: The document type was not a valid XPS document format.
 
 ## -remarks
 
-
-
-Use this method to produce a package writer for either an MSXPS document or an OpenXPS document. <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronfile">CreatePackageWriterOnFile</a>,  released in Windows 7, only creates XPS document files in the MSXPS format.
+Use this method to produce a package writer for either an MSXPS document or an OpenXPS document. <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronfile">CreatePackageWriterOnFile</a>,  released in Windows 7, only creates XPS document files in the MSXPS format.
 
 <h3><a id="Additional_References"></a><a id="additional_references"></a><a id="ADDITIONAL_REFERENCES"></a>Additional References</h3>
 Additional References: Legacy method description
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>

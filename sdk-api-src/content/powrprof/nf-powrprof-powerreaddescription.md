@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerReadDescription
 title: PowerReadDescription function (powrprof.h)
 description: Retrieves the description for the specified power setting, subgroup, or scheme.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadDescription","PowerReadDescription function","base.powerreaddescription","powrprof/PowerReadDescription"]
 old-location: base\powerreaddescription.htm
-tech.root: power
+tech.root: base
 ms.assetid: 3c264f4f-fd1b-466b-ba76-fe78593a3628
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadDescription, PowerReadDescription function, base.powerreaddescription, powrprof/PowerReadDescription
-f1_keywords:
-- powrprof/PowerReadDescription
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerReadDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerReadDescription
+ - powrprof/PowerReadDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerReadDescription
 ---
 
 # PowerReadDescription function
@@ -48,33 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the description for the specified power setting, subgroup, or scheme. If the 
     <i>SchemeGuid</i> parameter is not <b>NULL</b> but both the 
     <i>SubGroupOfPowerSettingsGuid</i> and <i>PowerSettingGuid</i> parameters 
     are <b>NULL</b>, the description of the power scheme will be returned. If the 
     <i>SchemeGuid</i> and <i>SubGroupOfPowerSettingsGuid</i> parameters are not 
-    <b>NULL</b>and  the <i>PowerSettingGuid</i> parameter is 
+   <b>NULL</b> and  the <i>PowerSettingGuid</i> parameter is 
     <b>NULL</b>, the description of the subgroup will be returned. If the 
     <i>SchemeGuid</i>, <i>SubGroupOfPowerSettingsGuid</i>, and 
     <i>PowerSettingGuid</i> parameters are not <b>NULL</b>, the description of 
     the power setting will be returned.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemeGuid [in, optional]
 
 The identifier of the power scheme.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -175,20 +170,16 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting that is being used.
-
 
 ### -param Buffer [out, optional]
 
 A pointer to a buffer that receives the description. If this parameter is <b>NULL</b>, 
      the <i>BufferSize</i> 
      parameter receives the required buffer size. The strings returned are all wide (Unicode) strings.
-
 
 ### -param BufferSize [in, out]
 
@@ -200,10 +191,7 @@ If the <i>Buffer</i> parameter is <b>NULL</b>, the function returns ERROR_SUCCES
 If the specified buffer size is not large enough to hold the 
      requested data, the function returns  <b>ERROR_MORE_DATA</b> and the variable receives the required buffer size.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
 	      the call failed. If the buffer size specified by the <i>BufferSize</i> parameter is too small, 
@@ -211,16 +199,6 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
 	      <b>ERROR_SUCCESS</b> and the <b>DWORD</b> pointed 
        to by the <i>BufferSize</i> parameter is filled in with the required buffer size.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

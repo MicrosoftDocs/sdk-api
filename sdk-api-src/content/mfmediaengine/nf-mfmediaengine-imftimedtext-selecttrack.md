@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedText.SelectTrack
 title: IMFTimedText::SelectTrack (mfmediaengine.h)
 description: Selects or deselects a track of text in the timed-text component.
+helpviewer_keywords: ["IMFTimedText interface [Media Foundation]","SelectTrack method","IMFTimedText.SelectTrack","IMFTimedText::SelectTrack","SelectTrack","SelectTrack method [Media Foundation]","SelectTrack method [Media Foundation]","IMFTimedText interface","mf.imftimedtext_selecttrack","mfmediaengine/IMFTimedText::SelectTrack"]
 old-location: mf\imftimedtext_selecttrack.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 868FE620-6FF3-4623-BB61-B47D0290D005
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SelectTrack method, IMFTimedText.SelectTrack, IMFTimedText::SelectTrack, SelectTrack, SelectTrack method [Media Foundation], SelectTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_selecttrack, mfmediaengine/IMFTimedText::SelectTrack
-f1_keywords:
-- mfmediaengine/IMFTimedText.SelectTrack
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedText.SelectTrack
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedText::SelectTrack
+ - mfmediaengine/IMFTimedText::SelectTrack
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedText.SelectTrack
 ---
 
 # IMFTimedText::SelectTrack
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Selects or deselects a track of text in the timed-text component.
 
-
 ## -parameters
-
-
-
 
 ### -param trackId [in]
 
@@ -63,34 +60,18 @@ Type: <b>DWORD</b>
 
 The identifier of the track to select.
 
-
-
-
 ### -param selected [in]
 
 Type: <b>BOOL</b>
 
-Specifies whether to select or deselect a track of text. Specify <b>TRUE</b> to select the track or <b>FALSE</b> to deselect the track. 
-
+Specifies whether to select or deselect a track of text. Specify <b>TRUE</b> to select the track or <b>FALSE</b> to deselect the track.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>

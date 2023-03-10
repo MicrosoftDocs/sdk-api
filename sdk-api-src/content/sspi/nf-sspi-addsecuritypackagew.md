@@ -1,16 +1,13 @@
 ---
 UID: NF:sspi.AddSecurityPackageW
 title: AddSecurityPackageW function (sspi.h)
-description: Adds a security support provider to the list of providers supported by Microsoft Negotiate.
+description: Adds a security support provider to the list of providers supported by Microsoft Negotiate. (Unicode)
+helpviewer_keywords: ["AddSecurityPackage", "AddSecurityPackage function [Security]", "AddSecurityPackageW", "security.addsecuritypackage", "sspi/AddSecurityPackage", "sspi/AddSecurityPackageW"]
 old-location: security\addsecuritypackage.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 35b993d2-87a0-46d0-991f-88358b0cc5e6
 ms.date: 12/05/2018
 ms.keywords: AddSecurityPackage, AddSecurityPackage function [Security], AddSecurityPackageA, AddSecurityPackageW, security.addsecuritypackage, sspi/AddSecurityPackage, sspi/AddSecurityPackageA, sspi/AddSecurityPackageW
-f1_keywords:
-- sspi/AddSecurityPackage
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- AddSecurityPackage
-- AddSecurityPackageA
-- AddSecurityPackageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddSecurityPackageW
+ - sspi/AddSecurityPackageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - AddSecurityPackage
+ - AddSecurityPackageA
+ - AddSecurityPackageW
 ---
 
 # AddSecurityPackageW function
@@ -50,43 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> to the list of providers supported by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
-
+Adds a <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> to the list of providers supported by <a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a>.
 
 ## -parameters
-
-
-
 
 ### -param pszPackageName [in]
 
 The name of the package to add.
 
-
 ### -param pOptions [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-security_package_options">SECURITY_PACKAGE_OPTIONS</a> structure that specifies additional information about the security package.
-
+A pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-security_package_options">SECURITY_PACKAGE_OPTIONS</a> structure that specifies additional information about the security package.
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sspi/nf-sspi-deletesecuritypackagea">DeleteSecurityPackage</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-deletesecuritypackagea">DeleteSecurityPackage</a>
- 
-
- 
-
+> [!NOTE]
+> The sspi.h header defines AddSecurityPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

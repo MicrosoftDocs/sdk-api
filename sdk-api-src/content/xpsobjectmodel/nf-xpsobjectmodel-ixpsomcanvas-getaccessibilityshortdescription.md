@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetAccessibilityShortDescription
 title: IXpsOMCanvas::GetAccessibilityShortDescription (xpsobjectmodel.h)
 description: Gets a short textual description of the object's contents.
+helpviewer_keywords: ["GetAccessibilityShortDescription","GetAccessibilityShortDescription method [XPS Documents and Packaging]","GetAccessibilityShortDescription method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","GetAccessibilityShortDescription method","IXpsOMCanvas.GetAccessibilityShortDescription","IXpsOMCanvas::GetAccessibilityShortDescription","xps.ixpsomcanvas_getaccessibilityshortdescription","xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription"]
 old-location: xps\ixpsomcanvas_getaccessibilityshortdescription.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c07f394d-b10f-45c1-b8b7-cd466507967b
 ms.date: 12/05/2018
 ms.keywords: GetAccessibilityShortDescription, GetAccessibilityShortDescription method [XPS Documents and Packaging], GetAccessibilityShortDescription method [XPS Documents and Packaging],IXpsOMCanvas interface, IXpsOMCanvas interface [XPS Documents and Packaging],GetAccessibilityShortDescription method, IXpsOMCanvas.GetAccessibilityShortDescription, IXpsOMCanvas::GetAccessibilityShortDescription, xps.ixpsomcanvas_getaccessibilityshortdescription, xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription
-f1_keywords:
-- xpsobjectmodel/IXpsOMCanvas.GetAccessibilityShortDescription
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCanvas.GetAccessibilityShortDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCanvas::GetAccessibilityShortDescription
+ - xpsobjectmodel/IXpsOMCanvas::GetAccessibilityShortDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCanvas.GetAccessibilityShortDescription
 ---
 
 # IXpsOMCanvas::GetAccessibilityShortDescription
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a short textual description of the object's contents. This  text is used by accessibility clients to describe the object.
 
-
 ## -parameters
-
-
-
 
 ### -param shortDescription [out, retval]
 
 The short textual description of the object's contents. If this description is not set, a <b>NULL</b> pointer is returned.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,37 +90,21 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The property returned by this method corresponds to the <b>AutomationProperties.Name</b> attribute of the <b>Canvas</b> element in the document markup.
 
 This method allocates the memory used by the string that is returned in <i>shortDescription</i>.  If <i>shortDescription</i> is not <b>NULL</b>, use the <b>CoTaskMemFree</b> function to free the memory.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas">IXpsOMCanvas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcanvas">IXpsOMCanvas</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPreprocess.PreprocessSample
 title: IWMWriterPreprocess::PreprocessSample (wmsdkidl.h)
 description: The PreprocessSample method delivers a sample to the writer for preprocessing.
+helpviewer_keywords: ["IWMWriterPreprocess interface [windows Media Format]","PreprocessSample method","IWMWriterPreprocess.PreprocessSample","IWMWriterPreprocess::PreprocessSample","IWMWriterPreprocessPreprocessSample","PreprocessSample","PreprocessSample method [windows Media Format]","PreprocessSample method [windows Media Format]","IWMWriterPreprocess interface","wmformat.iwmwriterpreprocess_preprocesssample","wmsdkidl/IWMWriterPreprocess::PreprocessSample"]
 old-location: wmformat\iwmwriterpreprocess_preprocesssample.htm
 tech.root: wmformat
 ms.assetid: 95223ace-0c74-48d8-b49a-98b27c7b735f
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPreprocess interface [windows Media Format],PreprocessSample method, IWMWriterPreprocess.PreprocessSample, IWMWriterPreprocess::PreprocessSample, IWMWriterPreprocessPreprocessSample, PreprocessSample, PreprocessSample method [windows Media Format], PreprocessSample method [windows Media Format],IWMWriterPreprocess interface, wmformat.iwmwriterpreprocess_preprocesssample, wmsdkidl/IWMWriterPreprocess::PreprocessSample
-f1_keywords:
-- wmsdkidl/IWMWriterPreprocess.PreprocessSample
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPreprocess.PreprocessSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPreprocess::PreprocessSample
+ - wmsdkidl/IWMWriterPreprocess::PreprocessSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPreprocess.PreprocessSample
 ---
 
 # IWMWriterPreprocess::PreprocessSample
@@ -51,41 +53,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>PreprocessSample</b> method delivers a sample to the writer for preprocessing.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputNum [in]
 
 <b>DWORD</b> containing the input number of the sample.
 
-
 ### -param cnsSampleTime [in]
 
 Specifies the presentation time of the sample in 100-nanosecond units.
-
 
 ### -param dwFlags [in]
 
 Reserved. Set to zero.
 
-
 ### -param pSample [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object that contains the sample.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface on an object that contains the sample.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -135,7 +123,7 @@ The preprocessor is neither waiting to be run nor stopped in the middle of a pas
 
 OR
 
-The preprocessor has already made as many passes as specified by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>.
+The preprocessor has already made as many passes as specified by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpreprocess-setnumpreprocessingpasses">SetNumPreprocessingPasses</a>.
 
 OR
 
@@ -144,27 +132,11 @@ The input specified is not supported for preprocessing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When performing preprocessing, you should pass the samples for the stream to this method one at a time.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>

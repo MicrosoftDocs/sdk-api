@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfRange.Collapse
 title: ITfRange::Collapse (msctf.h)
 description: The ITfRange::Collapse method clears the range of text by moving its start anchor and end anchor to the same position.
+helpviewer_keywords: ["Collapse","Collapse method [Text Services Framework]","Collapse method [Text Services Framework]","ITfRange interface","ITfRange interface [Text Services Framework]","Collapse method","ITfRange.Collapse","ITfRange::Collapse","TF_ANCHOR_END","TF_ANCHOR_START","_tsf_itfrange_collapse_ref","msctf/ITfRange::Collapse","tsf.itfrange_collapse"]
 old-location: tsf\itfrange_collapse.htm
 tech.root: TSF
 ms.assetid: 657b1ffe-a958-4eb0-8014-6c068711b809
 ms.date: 12/05/2018
 ms.keywords: Collapse, Collapse method [Text Services Framework], Collapse method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],Collapse method, ITfRange.Collapse, ITfRange::Collapse, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_collapse_ref, msctf/ITfRange::Collapse, tsf.itfrange_collapse
-f1_keywords:
-- msctf/ITfRange.Collapse
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.Collapse
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::Collapse
+ - msctf/ITfRange::Collapse
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.Collapse
 ---
 
 # ITfRange::Collapse
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange::Collapse</b> method clears the range of text by moving its start anchor and end anchor to the same position.
-
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Edit cookie obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param aPos [in]
 
-
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
+<a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
             </a> enumeration that describes how to collapse the range.
 
 <table>
@@ -94,12 +89,8 @@ The start anchor is moved to the location of the end anchor.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -153,37 +144,26 @@ The cookie in <i>ec</i> is invalid, or the caller does not have a read-only lock
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
+<a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
- 
-
- 
-

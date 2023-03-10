@@ -1,16 +1,13 @@
 ---
 UID: NS:mmeapi.tagMIXERLINEW
 title: MIXERLINEW (mmeapi.h)
-description: The MIXERLINE structure describes the state and metrics of an audio line.
+description: The MIXERLINE structure describes the state and metrics of an audio line. (MIXERLINEW)
+helpviewer_keywords: ["*LPMIXERLINEW","*PMIXERLINEW","MIXERLINE","MIXERLINE structure [Windows Multimedia]","MIXERLINEW","MIXERLINE_COMPONENTTYPE_DST_DIGITAL","MIXERLINE_COMPONENTTYPE_DST_HEADPHONES","MIXERLINE_COMPONENTTYPE_DST_LINE","MIXERLINE_COMPONENTTYPE_DST_MONITOR","MIXERLINE_COMPONENTTYPE_DST_SPEAKERS","MIXERLINE_COMPONENTTYPE_DST_TELEPHONE","MIXERLINE_COMPONENTTYPE_DST_UNDEFINED","MIXERLINE_COMPONENTTYPE_DST_VOICEIN","MIXERLINE_COMPONENTTYPE_DST_WAVEIN","MIXERLINE_COMPONENTTYPE_SRC_ANALOG","MIXERLINE_COMPONENTTYPE_SRC_AUXILIARY","MIXERLINE_COMPONENTTYPE_SRC_COMPACTDISC","MIXERLINE_COMPONENTTYPE_SRC_DIGITAL","MIXERLINE_COMPONENTTYPE_SRC_LINE","MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE","MIXERLINE_COMPONENTTYPE_SRC_PCSPEAKER","MIXERLINE_COMPONENTTYPE_SRC_SYNTHESIZER","MIXERLINE_COMPONENTTYPE_SRC_TELEPHONE","MIXERLINE_COMPONENTTYPE_SRC_UNDEFINED","MIXERLINE_COMPONENTTYPE_SRC_WAVEOUT","MIXERLINE_LINEF_ACTIVE","MIXERLINE_LINEF_DISCONNECTED","MIXERLINE_LINEF_SOURCE","MIXERLINE_TARGETTYPE_AUX","MIXERLINE_TARGETTYPE_MIDIIN","MIXERLINE_TARGETTYPE_MIDIOUT","MIXERLINE_TARGETTYPE_UNDEFINED","MIXERLINE_TARGETTYPE_WAVEIN","MIXERLINE_TARGETTYPE_WAVEOUT","_win32_MIXERLINE_str","mmeapi/MIXERLINE","multimedia.mixerline","tagMIXERLINE","tagMIXERLINEA","tagMIXERLINEW"]
 old-location: multimedia\mixerline.htm
 tech.root: Multimedia
 ms.assetid: a314cdcd-dd52-49f1-92b4-c8e3775dcbe2
 ms.date: 12/05/2018
 ms.keywords: '*LPMIXERLINEW, *PMIXERLINEW, MIXERLINE, MIXERLINE structure [Windows Multimedia], MIXERLINEW, MIXERLINE_COMPONENTTYPE_DST_DIGITAL, MIXERLINE_COMPONENTTYPE_DST_HEADPHONES, MIXERLINE_COMPONENTTYPE_DST_LINE, MIXERLINE_COMPONENTTYPE_DST_MONITOR, MIXERLINE_COMPONENTTYPE_DST_SPEAKERS, MIXERLINE_COMPONENTTYPE_DST_TELEPHONE, MIXERLINE_COMPONENTTYPE_DST_UNDEFINED, MIXERLINE_COMPONENTTYPE_DST_VOICEIN, MIXERLINE_COMPONENTTYPE_DST_WAVEIN, MIXERLINE_COMPONENTTYPE_SRC_ANALOG, MIXERLINE_COMPONENTTYPE_SRC_AUXILIARY, MIXERLINE_COMPONENTTYPE_SRC_COMPACTDISC, MIXERLINE_COMPONENTTYPE_SRC_DIGITAL, MIXERLINE_COMPONENTTYPE_SRC_LINE, MIXERLINE_COMPONENTTYPE_SRC_MICROPHONE, MIXERLINE_COMPONENTTYPE_SRC_PCSPEAKER, MIXERLINE_COMPONENTTYPE_SRC_SYNTHESIZER, MIXERLINE_COMPONENTTYPE_SRC_TELEPHONE, MIXERLINE_COMPONENTTYPE_SRC_UNDEFINED, MIXERLINE_COMPONENTTYPE_SRC_WAVEOUT, MIXERLINE_LINEF_ACTIVE, MIXERLINE_LINEF_DISCONNECTED, MIXERLINE_LINEF_SOURCE, MIXERLINE_TARGETTYPE_AUX, MIXERLINE_TARGETTYPE_MIDIIN, MIXERLINE_TARGETTYPE_MIDIOUT, MIXERLINE_TARGETTYPE_UNDEFINED, MIXERLINE_TARGETTYPE_WAVEIN, MIXERLINE_TARGETTYPE_WAVEOUT, _win32_MIXERLINE_str, mmeapi/MIXERLINE, multimedia.mixerline, tagMIXERLINE, tagMIXERLINEA, tagMIXERLINEW'
-f1_keywords:
-- mmeapi/MIXERLINE
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIXERLINE
-- MIXERLINEW
 targetos: Windows
 req.typenames: MIXERLINEW, *PMIXERLINEW, *LPMIXERLINEW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMIXERLINEW
+ - mmeapi/tagMIXERLINEW
+ - PMIXERLINEW
+ - mmeapi/PMIXERLINEW
+ - MIXERLINEW
+ - mmeapi/MIXERLINEW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIXERLINE
+ - MIXERLINEW
 ---
 
 # MIXERLINEW structure
@@ -49,39 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MIXERLINE</b> structure describes the state and metrics of an audio line.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbStruct
 
-Size, in bytes, of the <b>MIXERLINE</b> structure. This member must be initialized before calling the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function. The size specified in this member must be large enough to contain the <b>MIXERLINE</b> structure. When <b>mixerGetLineInfo</b> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size.
-
+Size, in bytes, of the <b>MIXERLINE</b> structure. This member must be initialized before calling the <a href="/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function. The size specified in this member must be large enough to contain the <b>MIXERLINE</b> structure. When <b>mixerGetLineInfo</b> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size.
 
 ### -field dwDestination
 
-Destination line index. This member ranges from zero to one less than the value specified in the <b>cDestinations</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure retrieved by the <a href="https://docs.microsoft.com/previous-versions/dd757300(v=vs.85)">mixerGetDevCaps</a> function. When the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function is called with the MIXER_GETLINEINFOF_DESTINATION flag, properties for the destination line are returned. (The <b>dwSource</b> member must be set to zero in this case.) When called with the MIXER_GETLINEINFOF_SOURCE flag, the properties for the source given by the <b>dwSource</b> member that is associated with the <b>dwDestination</b> member are returned.
-          
-
+Destination line index. This member ranges from zero to one less than the value specified in the <b>cDestinations</b> member of the <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a> structure retrieved by the <a href="/previous-versions/dd757300(v=vs.85)">mixerGetDevCaps</a> function. When the <a href="/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function is called with the MIXER_GETLINEINFOF_DESTINATION flag, properties for the destination line are returned. (The <b>dwSource</b> member must be set to zero in this case.) When called with the MIXER_GETLINEINFOF_SOURCE flag, the properties for the source given by the <b>dwSource</b> member that is associated with the <b>dwDestination</b> member are returned.
 
 ### -field dwSource
 
-Index for the audio source line associated with the <b>dwDestination</b> member. That is, this member specifies the <i>n</i>th audio source line associated with the specified audio destination line. This member is not used for destination lines and must be set to zero when MIXER_GETLINEINFOF_DESTINATION is specified in the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function. When the MIXER_GETLINEINFOF_SOURCE flag is specified, this member ranges from zero to one less than the value specified in the <b>cConnections</b> member for the audio destination line given in the <b>dwDestination</b> member.
-
+Index for the audio source line associated with the <b>dwDestination</b> member. That is, this member specifies the <i>n</i>th audio source line associated with the specified audio destination line. This member is not used for destination lines and must be set to zero when MIXER_GETLINEINFOF_DESTINATION is specified in the <a href="/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function. When the MIXER_GETLINEINFOF_SOURCE flag is specified, this member ranges from zero to one less than the value specified in the <b>cConnections</b> member for the audio destination line given in the <b>dwDestination</b> member.
 
 ### -field dwLineID
 
 An identifier defined by the mixer device that uniquely refers to the audio line described by the <b>MIXERLINE</b> structure. This identifier is unique for each mixer device and can be in any format. An application should use this identifier only as an abstract handle.
-          
-
 
 ### -field fdwLine
 
@@ -133,13 +125,9 @@ A paused or starved waveform-audio output device is still considered active. In 
 
 If a line cannot be strictly defined as active, the mixer device will always set the MIXERLINE_LINEF_ACTIVE flag.
 
-
-
 ### -field dwUser
 
 Instance data defined by the audio device for the line. This member is intended for custom mixer applications designed specifically for the mixer device returning this information. Other applications should ignore this data.
-          
-
 
 ### -field dwComponentType
 
@@ -371,8 +359,6 @@ Audio line is a source originating from the waveform-audio output digital-to-ana
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cChannels
 
@@ -384,36 +370,25 @@ Channel 1 is assumed to be the left channel; channel 2 is assumed to be the righ
 
 A multichannel line might have one or more uniform controls (controls that affect all channels of a line uniformly) associated with it.
 
-
 ### -field cConnections
 
 Number of connections that are associated with the audio line. This member is used only for audio destination lines and specifies the number of audio source lines that are associated with it. This member is always zero for source lines and for destination lines that do not have any audio source lines associated with them.
-          
-
 
 ### -field cControls
 
 Number of controls associated with the audio line. This value can be zero. If no controls are associated with the line, the line is likely to be a source that might be selected in a MIXERCONTROL_CONTROLTYPE_MUX or MIXERCONTROL_CONTROLTYPE_MIXER but allows no manipulation of the signal.
-          
-
 
 ### -field szShortName
 
 Short string that describes the audio mixer line specified in the <b>dwLineID</b> member. This description should be appropriate as a concise label for the line.
-          
-
 
 ### -field szName
 
 String that describes the audio mixer line specified in the <b>dwLineID</b> member. This description should be appropriate as a complete description for the line.
-          
-
 
 ### -field Target
 
 Target media information.
-          
-
 
 ### -field Target.dwType
 
@@ -463,7 +438,7 @@ The audio line described by the <b>MIXERLINE</b> structure is strictly bound to 
 </dl>
 </td>
 <td width="60%">
-The audio line described by the <b>MIXERLINE</b> structure is not strictly bound to a defined media type. All remaining <b>Target</b> structure members of the <b>MIXERLINE</b> structure should be ignored. An application cannot use the MIXERLINE_TARGETTYPE_UNDEFINED target type when calling the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag.
+The audio line described by the <b>MIXERLINE</b> structure is not strictly bound to a defined media type. All remaining <b>Target</b> structure members of the <b>MIXERLINE</b> structure should be ignored. An application cannot use the MIXERLINE_TARGETTYPE_UNDEFINED target type when calling the <a href="/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag.
                 
 
 </td>
@@ -491,45 +466,30 @@ The audio line described by the <b>MIXERLINE</b> structure is strictly bound to 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Target.dwDeviceID
 
-Current device identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the current media device index of the associated media device. When calling the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag, this member is ignored on input and will be returned to the caller by the audio mixer manager.
-            
-
+Current device identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the current media device index of the associated media device. When calling the <a href="/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function with the MIXER_GETLINEINFOF_TARGETTYPE flag, this member is ignored on input and will be returned to the caller by the audio mixer manager.
 
 ### -field Target.wMid
 
-Manufacturer identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wMid</b> member of the device-capabilities structure for the associated media. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
-            
-
+Manufacturer identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wMid</b> member of the device-capabilities structure for the associated media. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field Target.wPid
 
-Product identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wPid</b> member of the device-capabilities structure for the associated media. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
-            
-
+Product identifier of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This identifier is identical to the <b>wPid</b> member of the device-capabilities structure for the associated media. Product identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field Target.vDriverVersion
 
 Driver version of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This version is identical to the <b>vDriverVersion</b> member of the device-capabilities structure for the associated media.
-            
-
 
 ### -field Target.szPname
 
 Product name of the target media device when the <b>dwType</b> member is a target type other than MIXERLINE_TARGETTYPE_UNDEFINED. This name is identical to the <b>szPname</b> member of the device-capabilities structure for the associated media.
-            
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
+<a href="/windows/desktop/Multimedia/audio-mixer-structures">Audio Mixer Structures</a>
 
 
 
@@ -537,16 +497,17 @@ Audio Mixers
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a>
+<a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercapsa">MIXERCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757300(v=vs.85)">mixerGetDevCaps</a>
+<a href="/previous-versions/dd757300(v=vs.85)">mixerGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a>
- 
+<a href="/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a>
 
- 
+## -remarks
 
+> [!NOTE]
+> The mmeapi.h header defines MIXERLINE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

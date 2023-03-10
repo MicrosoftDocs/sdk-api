@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMClockSlave.SetErrorTolerance
 title: IAMClockSlave::SetErrorTolerance (strmif.h)
 description: The SetErrorTolerance method sets the audio renderer's rate-matching tolerance.
+helpviewer_keywords: ["IAMClockSlave interface [DirectShow]","SetErrorTolerance method","IAMClockSlave.SetErrorTolerance","IAMClockSlave::SetErrorTolerance","IAMClockSlaveSetErrorTolerance","SetErrorTolerance","SetErrorTolerance method [DirectShow]","SetErrorTolerance method [DirectShow]","IAMClockSlave interface","dshow.iamclockslave_seterrortolerance","strmif/IAMClockSlave::SetErrorTolerance"]
 old-location: dshow\iamclockslave_seterrortolerance.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6c93e345-4e4a-4019-9c18-d3d43736fee3
 ms.date: 12/05/2018
 ms.keywords: IAMClockSlave interface [DirectShow],SetErrorTolerance method, IAMClockSlave.SetErrorTolerance, IAMClockSlave::SetErrorTolerance, IAMClockSlaveSetErrorTolerance, SetErrorTolerance, SetErrorTolerance method [DirectShow], SetErrorTolerance method [DirectShow],IAMClockSlave interface, dshow.iamclockslave_seterrortolerance, strmif/IAMClockSlave::SetErrorTolerance
-f1_keywords:
-- strmif/IAMClockSlave.SetErrorTolerance
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMClockSlave.SetErrorTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMClockSlave::SetErrorTolerance
+ - strmif/IAMClockSlave::SetErrorTolerance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMClockSlave.SetErrorTolerance
 ---
 
 # IAMClockSlave::SetErrorTolerance
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetErrorTolerance</code> method sets the audio renderer's rate-matching tolerance.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwTolerance [in]
 
 Specifies the maximum tolerance, in milliseconds. The value must be from 1 to 1000, inclusive.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,33 +102,17 @@ The filter graph is not stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Changing the tolerance has no effect unless the audio renderer is matching rates with a different clock. If the audio renderer is the reference clock, the audio is always synchronized to the clock (by definition).
 
 This method fails if the filter graph is not stopped.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamclockslave">IAMClockSlave Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamclockslave">IAMClockSlave Interface</a>

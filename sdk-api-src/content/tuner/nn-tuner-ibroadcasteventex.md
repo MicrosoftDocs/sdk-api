@@ -2,6 +2,7 @@
 UID: NN:tuner.IBroadcastEventEx
 title: IBroadcastEventEx (tuner.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IBroadcastEventEx","IBroadcastEventEx interface [Microsoft TV Technologies]","IBroadcastEventEx interface [Microsoft TV Technologies]","described","IBroadcastEventExInterface","mstv.ibroadcasteventex","tuner/IBroadcastEventEx"]
 old-location: mstv\ibroadcasteventex.htm
 tech.root: mstv
 ms.assetid: c16ad538-afc6-4530-a2fd-18965b63983b
@@ -53,20 +54,20 @@ ms.custom: 19H1
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
-The <b>IBroadcastEventEx</b> interface is an extended version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface. 
+The <b>IBroadcastEventEx</b> interface is an extended version of the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface. 
 
-Like <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>, the <b>IBroadcastEventEx</b> interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use either of these interfaces.
+Like <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>, the <b>IBroadcastEventEx</b> interface enables an object to receive events from another object without setting up a direct connection point. Applications typically do not need to use either of these interfaces.
 
-For information about implementing a class that can source or sink broadcast events, see the example code in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>.
+For information about implementing a class that can source or sink broadcast events, see the example code in <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent Interface</a>.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBroadcastEventEx</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>. <b>IBroadcastEventEx</b> also has these types of members:
+The <b>IBroadcastEventEx</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>. <b>IBroadcastEventEx</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -77,9 +78,9 @@ The <b>IBroadcastEventEx</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">FireEx</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibroadcasteventex-fireex">FireEx</a>
 </td>
 <td align="left" width="63%">
 Fires an event.
@@ -103,12 +104,11 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
  
 
  
-

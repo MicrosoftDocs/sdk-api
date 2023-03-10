@@ -2,15 +2,12 @@
 UID: NC:routprot.PMIB_SET
 title: PMIB_SET (routprot.h)
 description: The MibSet function passes a SNMP MIB-style Set Request to the routing protocol.
+helpviewer_keywords: ["MibSet","PMIB_SET","PMIB_SET callback","PMIB_SET callback function [RAS]","TBD","_mpr_mibset","routprot/PMIB_SET","rras.mibset"]
 old-location: rras\mibset.htm
 tech.root: RRAS
 ms.assetid: f1df3476-f6c5-4f7e-bc86-83e5f8d0cd57
 ms.date: 12/05/2018
 ms.keywords: MibSet, PMIB_SET, PMIB_SET callback, PMIB_SET callback function [RAS], TBD, _mpr_mibset, routprot/PMIB_SET, rras.mibset
-f1_keywords:
-- routprot/PMIB_SET
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- PMIB_SET
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMIB_SET
+ - routprot/PMIB_SET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - PMIB_SET
 ---
 
 # PMIB_SET callback function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MibSet</b> function passes a SNMP MIB-style Set Request to the routing protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param InputDataSize [in]
 
 Specifies the size of the data for the Set Request.
 
-
 ### -param InputData [in]
 
 Pointer to a buffer that specifies the data for the Set Request.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -109,33 +102,22 @@ The size or content of the data is inappropriate for the request.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_next">MibGetNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_next">MibGetNext</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

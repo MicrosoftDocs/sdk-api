@@ -1,16 +1,13 @@
 ---
 UID: NS:vds._VDS_PORTAL_GROUP_NOTIFICATION
 title: VDS_PORTAL_GROUP_NOTIFICATION (vds.h)
-description: Defines the details of iSCSI portal events.
+description: The VDS_PORTAL_GROUP_NOTIFICATION structure (vds.h) defines the details of iSCSI portal events. 
+helpviewer_keywords: ["VDS_NF_PORTAL_GROUP_ARRIVE","VDS_NF_PORTAL_GROUP_DEPART","VDS_NF_PORTAL_GROUP_MODIFY","VDS_PORTAL_GROUP_NOTIFICATION","VDS_PORTAL_GROUP_NOTIFICATION structure [VDS]","base.vds_portal_group_notification","vds/_VDS_PORTAL_GROUP_NOTIFICATION","vdshwprv/_VDS_PORTAL_GROUP_NOTIFICATION"]
 old-location: base\vds_portal_group_notification.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: db4f947b-996f-4aa0-aed6-0190f00ca58a
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_NF_PORTAL_GROUP_ARRIVE, VDS_NF_PORTAL_GROUP_DEPART, VDS_NF_PORTAL_GROUP_MODIFY, VDS_PORTAL_GROUP_NOTIFICATION, VDS_PORTAL_GROUP_NOTIFICATION structure [VDS], base.vds_portal_group_notification, vds/_VDS_PORTAL_GROUP_NOTIFICATION, vdshwprv/_VDS_PORTAL_GROUP_NOTIFICATION
-f1_keywords:
-- vds/VDS_PORTAL_GROUP_NOTIFICATION
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_PORTAL_GROUP_NOTIFICATION
 targetos: Windows
 req.typenames: VDS_PORTAL_GROUP_NOTIFICATION
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_PORTAL_GROUP_NOTIFICATION
+ - vds/_VDS_PORTAL_GROUP_NOTIFICATION
+ - VDS_PORTAL_GROUP_NOTIFICATION
+ - vds/VDS_PORTAL_GROUP_NOTIFICATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_PORTAL_GROUP_NOTIFICATION
 ---
 
 # VDS_PORTAL_GROUP_NOTIFICATION structure
@@ -49,16 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the details of iSCSI portal events.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulEvent
 
@@ -100,64 +99,49 @@ An existing iSCSI portal group has been deleted.
 </td>
 <td width="60%">
 An existing iSCSI portal group has changed. An example of change that triggers this notification would be 
-        changes to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a> 
+        changes to the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a> 
         structure. Applications are responsible for determining the nature of any changes.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field portalGroupId
 
 The <b>VDS_OBJECT_ID</b> of the iSCSI portal that triggered the event.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this 
+The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a> structure includes this 
     structure as a member.
 
 An application can receive disk events by implementing the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface 
-    pointer as an argument to the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> 
+    <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a> interface and passing the interface 
+    pointer as an argument to the <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a> 
     method.
 
-To get the portal group object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-getproperties">IVdsIscsiPortalGroup::GetProperties</a> method to get the portal group properties.
-
-
-
+To get the portal group object, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> method. You can then use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-getproperties">IVdsIscsiPortalGroup::GetProperties</a> method to get the portal group properties.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsadvisesink">IVdsAdviseSink</a>
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsiportal">IVdsIscsiPortal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsiportal">IVdsIscsiPortal</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-advise">IVdsService::Advise</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>

@@ -2,15 +2,12 @@
 UID: NF:sbtsv.ITsSbGenericNotifySink.GetWaitTimeout
 title: ITsSbGenericNotifySink::GetWaitTimeout (sbtsv.h)
 description: Retrieves the wait timeout.
+helpviewer_keywords: ["GetWaitTimeout","GetWaitTimeout method [Remote Desktop Services]","GetWaitTimeout method [Remote Desktop Services]","ITsSbGenericNotifySink interface","ITsSbGenericNotifySink interface [Remote Desktop Services]","GetWaitTimeout method","ITsSbGenericNotifySink.GetWaitTimeout","ITsSbGenericNotifySink::GetWaitTimeout","sbtsv/ITsSbGenericNotifySink::GetWaitTimeout","termserv.itssbgenericnotifysink_getwaittimeout"]
 old-location: termserv\itssbgenericnotifysink_getwaittimeout.htm
 tech.root: TermServ
 ms.assetid: 685471bd-3228-4fdd-a91f-e8da2a6c3b91
 ms.date: 12/05/2018
 ms.keywords: GetWaitTimeout, GetWaitTimeout method [Remote Desktop Services], GetWaitTimeout method [Remote Desktop Services],ITsSbGenericNotifySink interface, ITsSbGenericNotifySink interface [Remote Desktop Services],GetWaitTimeout method, ITsSbGenericNotifySink.GetWaitTimeout, ITsSbGenericNotifySink::GetWaitTimeout, sbtsv/ITsSbGenericNotifySink::GetWaitTimeout, termserv.itssbgenericnotifysink_getwaittimeout
-f1_keywords:
-- sbtsv/ITsSbGenericNotifySink.GetWaitTimeout
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbGenericNotifySink.GetWaitTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbGenericNotifySink::GetWaitTimeout
+ - sbtsv/ITsSbGenericNotifySink::GetWaitTimeout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbGenericNotifySink.GetWaitTimeout
 ---
 
 # ITsSbGenericNotifySink::GetWaitTimeout
@@ -48,34 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the wait timeout.
-
 
 ## -parameters
 
-
-
-
 ### -param pftTimeout [out]
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbgenericnotifysink">ITsSbGenericNotifySink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbgenericnotifysink">ITsSbGenericNotifySink</a>

@@ -2,15 +2,12 @@
 UID: NE:ipsectypes.IPSEC_AUTH_TYPE_
 title: IPSEC_AUTH_TYPE (ipsectypes.h)
 description: Indicates the type of hash algorithm used in an IPsec SA for data origin authentication and integrity protection.
+helpviewer_keywords: ["IPSEC_AUTH_AES_128","IPSEC_AUTH_AES_192","IPSEC_AUTH_AES_256","IPSEC_AUTH_MAX","IPSEC_AUTH_MD5","IPSEC_AUTH_SHA_1","IPSEC_AUTH_SHA_256","IPSEC_AUTH_TYPE","IPSEC_AUTH_TYPE enumeration [Filtering]","fwp.ipsec_auth_type_enum","ipsectypes/IPSEC_AUTH_AES_128","ipsectypes/IPSEC_AUTH_AES_192","ipsectypes/IPSEC_AUTH_AES_256","ipsectypes/IPSEC_AUTH_MAX","ipsectypes/IPSEC_AUTH_MD5","ipsectypes/IPSEC_AUTH_SHA_1","ipsectypes/IPSEC_AUTH_SHA_256","ipsectypes/IPSEC_AUTH_TYPE"]
 old-location: fwp\ipsec_auth_type_enum.htm
 tech.root: fwp
 ms.assetid: 9130ffa3-b757-42fa-b6bb-d380f2dbdbcb
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_AES_128, IPSEC_AUTH_AES_192, IPSEC_AUTH_AES_256, IPSEC_AUTH_MAX, IPSEC_AUTH_MD5, IPSEC_AUTH_SHA_1, IPSEC_AUTH_SHA_256, IPSEC_AUTH_TYPE, IPSEC_AUTH_TYPE enumeration [Filtering], fwp.ipsec_auth_type_enum, ipsectypes/IPSEC_AUTH_AES_128, ipsectypes/IPSEC_AUTH_AES_192, ipsectypes/IPSEC_AUTH_AES_256, ipsectypes/IPSEC_AUTH_MAX, ipsectypes/IPSEC_AUTH_MD5, ipsectypes/IPSEC_AUTH_SHA_1, ipsectypes/IPSEC_AUTH_SHA_256, ipsectypes/IPSEC_AUTH_TYPE
-f1_keywords:
-- ipsectypes/IPSEC_AUTH_TYPE
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipsectypes.h
-api_name:
-- IPSEC_AUTH_TYPE
 targetos: Windows
 req.typenames: IPSEC_AUTH_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_AUTH_TYPE_
+ - ipsectypes/IPSEC_AUTH_TYPE_
+ - IPSEC_AUTH_TYPE
+ - ipsectypes/IPSEC_AUTH_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipsectypes.h
+api_name:
+ - IPSEC_AUTH_TYPE
 ---
 
 # IPSEC_AUTH_TYPE enumeration
@@ -48,29 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_AUTH_TYPE</b> enumerated type indicates the type of hash algorithm used in an IPsec SA for data origin 
 authentication and integrity protection.
 
-
 ## -enum-fields
 
-
-
-
-### -field IPSEC_AUTH_MD5
+### -field IPSEC_AUTH_MD5:0
 
 Specifies MD5 hash algorithm. 
 
-See <a href="https://go.microsoft.com/fwlink/p/?linkid=84027">RFC 1321</a> for further information.
-
+See <a href="https://www.ietf.org/rfc/rfc1321.txt">RFC 1321</a> for further information.
 
 ### -field IPSEC_AUTH_SHA_1
 
 Specifies SHA 1 hash algorithm. 
 
 See NIST, FIPS PUB 180-1 for more information.
-
 
 ### -field IPSEC_AUTH_SHA_256
 

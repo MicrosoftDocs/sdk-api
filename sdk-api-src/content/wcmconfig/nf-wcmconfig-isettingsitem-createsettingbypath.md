@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.CreateSettingByPath
 title: ISettingsItem::CreateSettingByPath (wcmconfig.h)
 description: Creates a setting object specified by the path.
+helpviewer_keywords: ["CreateSettingByPath","CreateSettingByPath method [SMI]","CreateSettingByPath method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","CreateSettingByPath method","ISettingsItem.CreateSettingByPath","ISettingsItem::CreateSettingByPath","smi.isettingsitem_createsettingbypath","wcmconfig/ISettingsItem::CreateSettingByPath"]
 old-location: smi\isettingsitem_createsettingbypath.htm
 tech.root: SMI
 ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a
 ms.date: 12/05/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],CreateSettingByPath method, ISettingsItem.CreateSettingByPath, ISettingsItem::CreateSettingByPath, smi.isettingsitem_createsettingbypath, wcmconfig/ISettingsItem::CreateSettingByPath
-f1_keywords:
-- wcmconfig/ISettingsItem.CreateSettingByPath
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.CreateSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::CreateSettingByPath
+ - wcmconfig/ISettingsItem::CreateSettingByPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.CreateSettingByPath
 ---
 
 # ISettingsItem::CreateSettingByPath
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a setting object specified by the path.
 
-
 ## -parameters
-
-
-
 
 ### -param Path [in]
 
 A pointer to the path.
 
-
 ### -param Setting [out]
 
-A pointer to the newly created <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> item.
-
+A pointer to the newly created <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> item.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,27 +138,12 @@ Indicates that the path contains an unrecognized XML escape sequence.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
+<div class="alert"><b>Note</b>  When creating a scalar list item, you must set a value on the resulting <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> before releasing it, or it will not be persisted.</div>
 <div> </div>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

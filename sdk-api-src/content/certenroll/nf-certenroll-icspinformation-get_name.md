@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspInformation.get_Name
 title: ICspInformation::get_Name (certenroll.h)
 description: Retrieves the name.
+helpviewer_keywords: ["ICspInformation interface [Security]","Name property","ICspInformation.Name","ICspInformation.get_Name","ICspInformation::Name","ICspInformation::get_Name","Name property [Security]","Name property [Security]","ICspInformation interface","certenroll/ICspInformation::Name","certenroll/ICspInformation::get_Name","get_Name","security.icspinformation_name_property"]
 old-location: security\icspinformation_name_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 86f6993d-c96e-4753-9670-fdcc30e8c019
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Name property, ICspInformation.Name, ICspInformation.get_Name, ICspInformation::Name, ICspInformation::get_Name, Name property [Security], Name property [Security],ICspInformation interface, certenroll/ICspInformation::Name, certenroll/ICspInformation::get_Name, get_Name, security.icspinformation_name_property
-f1_keywords:
-- certenroll/ICspInformation.Name
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformation.Name
-- ICspInformation.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformation::get_Name
+ - certenroll/ICspInformation::get_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformation.Name
+ - ICspInformation.get_Name
 ---
 
 # ICspInformation::get_Name
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Name</b> property retrieves the name. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following list shows the names of some of the Microsoft providers installed on Windows Vista and later. This list is not inclusive:
 
@@ -79,15 +76,6 @@ The following list shows the names of some of the Microsoft providers installed 
 <li>Microsoft Strong Cryptographic Provider</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>

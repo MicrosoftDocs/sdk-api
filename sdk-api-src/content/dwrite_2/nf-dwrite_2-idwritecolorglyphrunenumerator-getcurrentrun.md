@@ -2,15 +2,12 @@
 UID: NF:dwrite_2.IDWriteColorGlyphRunEnumerator.GetCurrentRun
 title: IDWriteColorGlyphRunEnumerator::GetCurrentRun (dwrite_2.h)
 description: Returns the current glyph run of the enumerator.
+helpviewer_keywords: ["GetCurrentRun","GetCurrentRun method [Direct Write]","GetCurrentRun method [Direct Write]","IDWriteColorGlyphRunEnumerator interface","IDWriteColorGlyphRunEnumerator interface [Direct Write]","GetCurrentRun method","IDWriteColorGlyphRunEnumerator.GetCurrentRun","IDWriteColorGlyphRunEnumerator::GetCurrentRun","directwrite.idwritecolorglyphrunenumerator_getcurrentrun","dwrite_2/IDWriteColorGlyphRunEnumerator::GetCurrentRun"]
 old-location: directwrite\idwritecolorglyphrunenumerator_getcurrentrun.htm
 tech.root: DirectWrite
 ms.assetid: F4D89E35-3846-41F0-A724-3648DC9D487E
 ms.date: 12/05/2018
 ms.keywords: GetCurrentRun, GetCurrentRun method [Direct Write], GetCurrentRun method [Direct Write],IDWriteColorGlyphRunEnumerator interface, IDWriteColorGlyphRunEnumerator interface [Direct Write],GetCurrentRun method, IDWriteColorGlyphRunEnumerator.GetCurrentRun, IDWriteColorGlyphRunEnumerator::GetCurrentRun, directwrite.idwritecolorglyphrunenumerator_getcurrentrun, dwrite_2/IDWriteColorGlyphRunEnumerator::GetCurrentRun
-f1_keywords:
-- dwrite_2/IDWriteColorGlyphRunEnumerator.GetCurrentRun
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteColorGlyphRunEnumerator.GetCurrentRun
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteColorGlyphRunEnumerator::GetCurrentRun
+ - dwrite_2/IDWriteColorGlyphRunEnumerator::GetCurrentRun
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteColorGlyphRunEnumerator.GetCurrentRun
 ---
 
 # IDWriteColorGlyphRunEnumerator::GetCurrentRun
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the current glyph run of the enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param colorGlyphRun [out]
 
@@ -63,25 +60,13 @@ Type: <b>const <a href="/windows/win32/api/dwrite_2/ns-dwrite_2-dwrite_color_gly
 
 A pointer to the current glyph run.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/DirectWrite/idwritecolorglyphrunenumerator">IDWriteColorGlyphRunEnumerator</a>
- 
-
- 
 

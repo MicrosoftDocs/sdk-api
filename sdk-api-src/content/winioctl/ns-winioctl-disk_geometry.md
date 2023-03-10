@@ -2,15 +2,12 @@
 UID: NS:winioctl._DISK_GEOMETRY
 title: DISK_GEOMETRY
 description: Describes the geometry of disk devices and media.
+helpviewer_keywords: ["*PDISK_GEOMETRY","DISK_GEOMETRY","DISK_GEOMETRY structure [Files]","_win32_disk_geometry_str","base.disk_geometry_str","fs.disk_geometry_str","winioctl/DISK_GEOMETRY"]
 old-location: fs\disk_geometry_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 5e5955b4-1319-42c9-9df8-9910c05dec69
 ms.date: 12/05/2018
 ms.keywords: '*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Files], _win32_disk_geometry_str, base.disk_geometry_str, fs.disk_geometry_str, winioctl/DISK_GEOMETRY'
-f1_keywords:
-- winioctl/DISK_GEOMETRY
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DISK_GEOMETRY
 targetos: Windows
 req.typenames: DISK_GEOMETRY, *PDISK_GEOMETRY
 req.redist: 
+f1_keywords:
+ - _DISK_GEOMETRY
+ - winioctl/_DISK_GEOMETRY
+ - PDISK_GEOMETRY
+ - winioctl/PDISK_GEOMETRY
+ - DISK_GEOMETRY
+ - winioctl/DISK_GEOMETRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DISK_GEOMETRY
 ---
 
 # DISK_GEOMETRY structure
@@ -47,56 +53,31 @@ req.redist:
 
 ## -description
 
-
 Describes the geometry of disk devices and media.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Cylinders
 
-The number of cylinders. See <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>.
-
+The number of cylinders. See [**LARGE_INTEGER**](../winnt/ns-winnt-large_integer-r1.md).
 
 ### -field MediaType
 
-The type of media. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>.
-
+The type of media. For a list of values, see [MEDIA_TYPE](ne-winioctl-media_type.md).
 
 ### -field TracksPerCylinder
 
 The number of tracks per cylinder.
 
-
 ### -field SectorsPerTrack
 
 The number of sectors per track.
-
 
 ### -field BytesPerSector
 
 The number of bytes per sector.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_geometry">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types">IOCTL_STORAGE_GET_MEDIA_TYPES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
- 
-
- 
+[IOCTL_DISK_GET_DRIVE_GEOMETRY](ni-winioctl-ioctl_disk_get_drive_geometry.md), [IOCTL_STORAGE_GET_MEDIA_TYPES](ni-winioctl-ioctl_storage_get_media_types.md), [MEDIA_TYPE](ne-winioctl-media_type.md)
 

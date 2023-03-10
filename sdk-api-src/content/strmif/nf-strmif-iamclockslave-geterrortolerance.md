@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMClockSlave.GetErrorTolerance
 title: IAMClockSlave::GetErrorTolerance (strmif.h)
 description: The GetErrorTolerance method retrieves the audio renderer's rate-matching tolerance.
+helpviewer_keywords: ["GetErrorTolerance","GetErrorTolerance method [DirectShow]","GetErrorTolerance method [DirectShow]","IAMClockSlave interface","IAMClockSlave interface [DirectShow]","GetErrorTolerance method","IAMClockSlave.GetErrorTolerance","IAMClockSlave::GetErrorTolerance","IAMClockSlaveGetErrorTolerance","dshow.iamclockslave_geterrortolerance","strmif/IAMClockSlave::GetErrorTolerance"]
 old-location: dshow\iamclockslave_geterrortolerance.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a22e17d8-eb96-4e67-bbd7-7c116694c891
 ms.date: 12/05/2018
 ms.keywords: GetErrorTolerance, GetErrorTolerance method [DirectShow], GetErrorTolerance method [DirectShow],IAMClockSlave interface, IAMClockSlave interface [DirectShow],GetErrorTolerance method, IAMClockSlave.GetErrorTolerance, IAMClockSlave::GetErrorTolerance, IAMClockSlaveGetErrorTolerance, dshow.iamclockslave_geterrortolerance, strmif/IAMClockSlave::GetErrorTolerance
-f1_keywords:
-- strmif/IAMClockSlave.GetErrorTolerance
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMClockSlave.GetErrorTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMClockSlave::GetErrorTolerance
+ - strmif/IAMClockSlave::GetErrorTolerance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMClockSlave.GetErrorTolerance
 ---
 
 # IAMClockSlave::GetErrorTolerance
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetErrorTolerance</code> method retrieves the audio renderer's rate-matching tolerance.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwTolerance [out]
 
 Pointer to a variable that receives the maximum tolerance, in milliseconds.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,22 +91,11 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamclockslave">IAMClockSlave Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamclockslave">IAMClockSlave Interface</a>

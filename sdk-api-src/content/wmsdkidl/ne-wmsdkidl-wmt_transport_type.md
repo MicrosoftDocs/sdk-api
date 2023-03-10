@@ -2,15 +2,12 @@
 UID: NE:wmsdkidl.tagWMT_TRANSPORT_TYPE
 title: WMT_TRANSPORT_TYPE (wmsdkidl.h)
 description: The WMT_TRANSPORT_TYPE enumeration type defines the transport types supported by this SDK.
+helpviewer_keywords: ["WMT_TRANSPORT_TYPE","WMT_TRANSPORT_TYPE enumeration [windows Media Format]","WMT_Transport_Type_Reliable","WMT_Transport_Type_Unreliable","wmformat.wmt_transport_type","wmsdkidl/WMT_TRANSPORT_TYPE","wmsdkidl/WMT_Transport_Type_Reliable","wmsdkidl/WMT_Transport_Type_Unreliable"]
 old-location: wmformat\wmt_transport_type.htm
 tech.root: wmformat
 ms.assetid: 1d689487-f71b-4b27-928c-c55bd22579ed
 ms.date: 12/05/2018
 ms.keywords: WMT_TRANSPORT_TYPE, WMT_TRANSPORT_TYPE enumeration [windows Media Format], WMT_Transport_Type_Reliable, WMT_Transport_Type_Unreliable, wmformat.wmt_transport_type, wmsdkidl/WMT_TRANSPORT_TYPE, wmsdkidl/WMT_Transport_Type_Reliable, wmsdkidl/WMT_Transport_Type_Unreliable
-f1_keywords:
-- wmsdkidl/WMT_TRANSPORT_TYPE
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WMT_TRANSPORT_TYPE
 targetos: Windows
 req.typenames: WMT_TRANSPORT_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagWMT_TRANSPORT_TYPE
+ - wmsdkidl/tagWMT_TRANSPORT_TYPE
+ - WMT_TRANSPORT_TYPE
+ - wmsdkidl/WMT_TRANSPORT_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WMT_TRANSPORT_TYPE
 ---
 
 # WMT_TRANSPORT_TYPE enumeration
@@ -48,44 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMT_TRANSPORT_TYPE</b> enumeration type defines the transport types supported by this SDK.
-
-
-
 
 ## -enum-fields
 
-
-
-
-### -field WMT_Transport_Type_Unreliable
+### -field WMT_Transport_Type_Unreliable:0
 
 The transport type is not reliable.
-
 
 ### -field WMT_Transport_Type_Reliable
 
 The transport type is reliable.
 
-
 ## -remarks
-
-
 
 This enumeration indicates the type of data communication protocol (reliable or unreliable).
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

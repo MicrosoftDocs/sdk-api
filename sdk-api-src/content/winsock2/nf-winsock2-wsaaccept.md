@@ -2,15 +2,12 @@
 UID: NF:winsock2.WSAAccept
 title: WSAAccept function (winsock2.h)
 description: The WSAAccept function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.
+helpviewer_keywords: ["WSAAccept","WSAAccept function [Winsock]","_win32_wsaaccept_2","winsock.wsaaccept_2","winsock2/WSAAccept"]
 old-location: winsock\wsaaccept_2.htm
 tech.root: WinSock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252
 ms.date: 12/05/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
-f1_keywords:
-- winsock2/WSAAccept
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSAAccept
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSAAccept
+ - winsock2/WSAAccept
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSAAccept
 ---
 
 ## -description
@@ -52,15 +54,15 @@ The <b>WSAAccept</b> function conditionally accepts a connection based on the re
 ### -param s [in]
 
 A descriptor that identifies a socket that is listening for connections after a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function.
 
 ### -param addr [out]
 
-An optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that receives the address of the connecting entity, as known to the communications layer. The exact format of the <i>addr</i> parameter is determined by the address family established when the socket was created.
+An optional pointer to an <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that receives the address of the connecting entity, as known to the communications layer. The exact format of the <i>addr</i> parameter is determined by the address family established when the socket was created.
 
 ### -param addrlen [in, out]
 
-An optional pointer to an integer that contains the length of the <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to by the <i>addr</i> parameter, in bytes.
+An optional pointer to an integer that contains the length of the <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure pointed to by the <i>addr</i> parameter, in bytes.
 
 ### -param lpfnCondition [in]
 
@@ -74,7 +76,7 @@ Callback data passed back to the application-specified condition function as the
 
 If no error occurs, 
 <b>WSAAccept</b> returns a value of type SOCKET that is a descriptor for the accepted socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 The integer referred to by <i>addrlen</i> initially contains the amount of space pointed to by <i>addr</i>. On return it will contain the actual length in bytes of the address returned.
 
@@ -86,7 +88,7 @@ The integer referred to by <i>addrlen</i> initially contains the amount of space
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,7 +99,7 @@ An attempt was made to access a socket in a way forbidden by its access permissi
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNREFUSED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNREFUSED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +110,7 @@ No connection could be made because the target machine actively refused it. This
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +121,7 @@ An existing connection was forcibly closed by the remote host. This error is ret
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,11 +132,11 @@ The system detected an invalid pointer address in attempting to use a pointer ar
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-A blocking operation was interrupted by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>. This error is returned if a blocking Windows Sockets 1.1 call was canceled through 
+A blocking operation was interrupted by a call to <a href="/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>. This error is returned if a blocking Windows Sockets 1.1 call was canceled through 
 <b>WSACancelBlockingCall</b>.
 
 </td>
@@ -142,7 +144,7 @@ A blocking operation was interrupted by a call to <a href="https://docs.microsof
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -153,32 +155,32 @@ A blocking operation is currently executing. This error is returned if a blockin
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 An invalid argument was supplied.
-								This error is returned if <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> was not invoked prior to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a>, the return value of the condition function is not a valid one, or any case where the specified socket is in an invalid state.
+								This error is returned if <a href="/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> was not invoked prior to 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a>, the return value of the condition function is not a valid one, or any case where the specified socket is in an invalid state.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMFILE</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 Too many open sockets. This error is returned if the queue is nonempty upon entry to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> and there are no socket descriptors available.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> and there are no socket descriptors available.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -189,7 +191,7 @@ A socket operation encountered a dead network. This error is returned if the net
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -200,7 +202,7 @@ An operation on a socket could not be performed because the system lacked suffic
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -211,7 +213,7 @@ An operation was attempted on something that is not a socket. This error is retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -222,7 +224,7 @@ The protocol family has not been configured into the system or no implementation
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -233,11 +235,11 @@ A non-blocking socket operation could not be completed immediately. This error i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-Either the application has not called <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>, or <b>WSAStartup</b> failed. This error is returned of a successful 
+Either the application has not called <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>, or <b>WSAStartup</b> failed. This error is returned of a successful 
 call to the <b>WSAStartup</b> function dit not occur before using this function.
 
 </td>
@@ -245,7 +247,7 @@ call to the <b>WSAStartup</b> function dit not occur before using this function.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -259,8 +261,8 @@ This is usually a temporary error during hostname resolution and means that the 
 
 The <b>WSAAccept</b> function extracts the first connection on the queue of pending connections on socket <i>s</i>, and checks it against the condition function, provided the condition function is specified (that is, not <b>NULL</b>). If the condition function returns CF_ACCEPT, 
 <b>WSAAccept</b> creates a new socket. The newly created socket has the same properties as socket <i>s</i> including asynchronous events registered with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> or with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>. If the condition function returns CF_REJECT, 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a> or with 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>. If the condition function returns CF_REJECT, 
 <b>WSAAccept</b> rejects the connection request. The condition function runs in the same thread as this function does, and should return as soon as possible. If the decision cannot be made immediately, the condition function should return CF_DEFER to indicate that no decision has been made, and no action about this connection request should be taken by the service provider. When the application is ready to take action on the connection request, it will invoke 
 <b>WSAAccept</b> again and return either CF_ACCEPT or CF_REJECT as a return value from the condition function.
 
@@ -268,7 +270,7 @@ A socket in default mode (blocking) will block until a connection is present whe
 <b>WSAAccept</b> and no connections are pending on the queue.
 
 A socket in nonblocking mode (blocking) fails with the error 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a> when an application calls 
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a> when an application calls 
 <b>WSAAccept</b> and no connections are pending on the queue. After 
 <b>WSAAccept</b> succeeds and returns a new socket handle, the accepted socket cannot be used to accept any more connections. The original socket remains open and listens for new connection requests.
 
@@ -293,17 +295,17 @@ ConditionFunc(
 The <b>ConditionFunc</b> is a placeholder for the application-specified callback function. The actual condition function must reside in a DLL or application module. It is exported in the module definition file.
 
 The <i>lpCallerId</i> parameter points to a WSABUF structure that contains the address of the connecting entity, where its <i>len</i> parameter is the length of the buffer in bytes, and its <i>buf</i> parameter is a pointer to the buffer. The <i>lpCallerData</i> is a value parameter that contains any user data. The information in these parameters is sent along with the connection request. If no caller identification or caller data is available, the corresponding parameters will be <b>NULL</b>. Many network protocols do not support connect-time caller data. Most conventional network protocols can be expected to support caller identifier information at connection-request time. The buf portion of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> pointed to by <i>lpCallerId</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family).
+<a href="/windows/desktop/api/ws2def/ns-ws2def-wsabuf">WSABUF</a> pointed to by <i>lpCallerId</i> points to a 
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family).
 
 The <i>lpSQOS</i> parameter references the 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i> specified by the caller, one for each direction, followed by any additional provider-specific parameters. The sending or receiving flow specification values will be ignored as appropriate for any unidirectional sockets. A <b>NULL</b> value indicates that there is no caller-supplied quality of service and that no negotiation is possible. A non-<b>NULL</b> <i>lpSQOS</i> pointer indicates that a quality of service negotiation is to occur or that the provider is prepared to accept the quality of service request without negotiation.
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structures for socket <i>s</i> specified by the caller, one for each direction, followed by any additional provider-specific parameters. The sending or receiving flow specification values will be ignored as appropriate for any unidirectional sockets. A <b>NULL</b> value indicates that there is no caller-supplied quality of service and that no negotiation is possible. A non-<b>NULL</b> <i>lpSQOS</i> pointer indicates that a quality of service negotiation is to occur or that the provider is prepared to accept the quality of service request without negotiation.
 
 The <i>lpGQOS</i> parameter is reserved, and should be <b>NULL</b>. (reserved for future use with socket groups) references the 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the socket group the caller is to create, one for each direction, followed by any additional provider-specific parameters. A <b>NULL</b> value for <i>lpGQOS</i> indicates no caller-specified group quality of service. Quality of service information can be returned if negotiation is to occur.
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the socket group the caller is to create, one for each direction, followed by any additional provider-specific parameters. A <b>NULL</b> value for <i>lpGQOS</i> indicates no caller-specified group quality of service. Quality of service information can be returned if negotiation is to occur.
 
 The <i>lpCalleeId</i> is a parameter that contains the local address of the connected entity. The <i>buf</i> portion of the WSABUF pointed to by <i>lpCalleeId</i> points to a 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family such as struct <b>sockaddr_in</b>).
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. The <b>sockaddr</b> structure is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family such as struct <b>sockaddr_in</b>).
 
 The <i>lpCalleeData</i> is a result parameter used by the condition function to supply user data back to the connecting entity. The <i>lpCalleeData-&gt;len</i> initially contains the length of the buffer allocated by the service provider and pointed to by <i>lpCalleeData-&gt;buf</i>. A value of zero means passing user data back to the caller is not supported. The condition function should copy up to <i>lpCalleeData-&gt;len</i> bytes of data into <i>lpCalleeData-&gt;buf</i>, and then update <i>lpCalleeData-&gt;len</i> to indicate the actual number of bytes transferred. If no user data is to be passed back to the caller, the condition function should set <i>lpCalleeData-&gt;len</i> to zero. The format of all address and user data is specific to the address family to which the socket belongs.
 
@@ -316,7 +318,7 @@ The <i>g</i> parameter is assigned within the condition function to indicate any
 <li>If <i>g</i> = zero, no group operation is performed.</li>
 </ul>
 For unconstrained groups, any set of sockets can be grouped together as long as they are supported by a single service provider. A constrained socket group can consist only of connection-oriented sockets, and requires that connections on all grouped sockets be to the same address on the same host. For newly created socket groups, the new group identifier can be retrieved by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with <i>level</i> parameter set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_ID</b>.  A socket group and its associated socket group ID remain valid until the last socket belonging to this socket group is closed. Socket group IDs are unique across all processes for a given service provider. A socket group and its associated identifier remain valid until the last socket belonging to this socket group is closed. Socket group identifiers are unique across all processes for a given service provider. For more information on socket groups, see the Remarks for the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> functions.
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with <i>level</i> parameter set to <a href="/windows/desktop/WinSock/sol-socket-socket-options">SOL_SOCKET</a> and the <i>optname</i> parameter set to <b>SO_GROUP_ID</b>.  A socket group and its associated socket group ID remain valid until the last socket belonging to this socket group is closed. Socket group IDs are unique across all processes for a given service provider. A socket group and its associated identifier remain valid until the last socket belonging to this socket group is closed. Socket group identifiers are unique across all processes for a given service provider. For more information on socket groups, see the Remarks for the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a> functions.
 
 The <i>dwCallbackData</i> parameter value passed to the condition function is the value passed as the <i>dwCallbackData</i> parameter in the original 
 <b>WSAAccept</b> call. This value is interpreted only by the Windows Socket version 2 client. This allows a client to pass some context information from the 
@@ -384,7 +386,7 @@ int main() {
     /*-----------------------------------------  
      *  Set up the sock addr structure that the listening socket
      *  will be bound to. In this case, the structure holds the
-     */ local IP address and the port specified.
+     * local IP address and the port specified. */
     service.sin_family = AF_INET;
     service.sin_port = htons(port);
     hostent* thisHost;
@@ -394,7 +396,7 @@ int main() {
 
     /*-----------------------------------------
      *  Bind the listening socket to the IP address.
-     */ and port number specified by the sockaddr structure.
+     * and port number specified by the sockaddr structure. */
     error = bind(ListenSocket, (SOCKADDR *) &service, sizeof(SOCKADDR));
     if (error == SOCKET_ERROR) {  
         printf("bind() failed with error: %d\n", WSAGetLastError() );
@@ -414,16 +416,16 @@ int main() {
     printf("Listening...\n");
   
     /*-----------------------------------------
-     *  Accept an incoming connnection request on the
+     *  Accept an incoming connection request on the
      *  listening socket and transfer control to the 
-     */ accepting socket.
+     * accepting socket. */
     AcceptSocket = WSAAccept(ListenSocket, (SOCKADDR*) &saClient, &iClientSize, 
         &ConditionAcceptFunc, NULL);
  
     /*  Now do some work with the AcceptSocket 
      *  At this point, the application could
      *  handle data transfer on the socket, or other socket
-     */ functionality./
+     * functionality.*/
     
     /* Then clean up and quit */
 
@@ -441,28 +443,28 @@ int main() {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>

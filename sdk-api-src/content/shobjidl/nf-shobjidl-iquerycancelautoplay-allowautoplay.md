@@ -2,15 +2,12 @@
 UID: NF:shobjidl.IQueryCancelAutoPlay.AllowAutoPlay
 title: IQueryCancelAutoPlay::AllowAutoPlay (shobjidl.h)
 description: Determines whether to play media inserted by a user and if so using what restrictions.
+helpviewer_keywords: ["ARCONTENT_AUDIOCD","ARCONTENT_AUTOPLAYMUSIC","ARCONTENT_AUTOPLAYPIX","ARCONTENT_AUTOPLAYVIDEO","ARCONTENT_AUTORUNINF","ARCONTENT_BLANKBD","ARCONTENT_BLANKCD","ARCONTENT_BLANKDVD","ARCONTENT_BLURAY","ARCONTENT_CAMERASTORAGE","ARCONTENT_CUSTOMEVENT","ARCONTENT_DVDAUDIO","ARCONTENT_DVDMOVIE","ARCONTENT_MASK","ARCONTENT_NONE","ARCONTENT_PHASE_FINAL","ARCONTENT_PHASE_MASK","ARCONTENT_PHASE_PRESNIFF","ARCONTENT_PHASE_SNIFFING","ARCONTENT_PHASE_UNKNOWN","ARCONTENT_SVCD","ARCONTENT_UNKNOWNCONTENT","ARCONTENT_VCD","AllowAutoPlay","AllowAutoPlay method [Windows Shell]","AllowAutoPlay method [Windows Shell]","IQueryCancelAutoPlay interface","IQueryCancelAutoPlay interface [Windows Shell]","AllowAutoPlay method","IQueryCancelAutoPlay.AllowAutoPlay","IQueryCancelAutoPlay::AllowAutoPlay","_shell_IQueryCancelAutoPlay_AllowAutoPlay","shell.IQueryCancelAutoPlay_AllowAutoPlay","shobjidl/IQueryCancelAutoPlay::AllowAutoPlay"]
 old-location: shell\IQueryCancelAutoPlay_AllowAutoPlay.htm
 tech.root: shell
 ms.assetid: ebc826a2-d7ea-413a-836b-c7e51f13692a
 ms.date: 12/05/2018
 ms.keywords: ARCONTENT_AUDIOCD, ARCONTENT_AUTOPLAYMUSIC, ARCONTENT_AUTOPLAYPIX, ARCONTENT_AUTOPLAYVIDEO, ARCONTENT_AUTORUNINF, ARCONTENT_BLANKBD, ARCONTENT_BLANKCD, ARCONTENT_BLANKDVD, ARCONTENT_BLURAY, ARCONTENT_CAMERASTORAGE, ARCONTENT_CUSTOMEVENT, ARCONTENT_DVDAUDIO, ARCONTENT_DVDMOVIE, ARCONTENT_MASK, ARCONTENT_NONE, ARCONTENT_PHASE_FINAL, ARCONTENT_PHASE_MASK, ARCONTENT_PHASE_PRESNIFF, ARCONTENT_PHASE_SNIFFING, ARCONTENT_PHASE_UNKNOWN, ARCONTENT_SVCD, ARCONTENT_UNKNOWNCONTENT, ARCONTENT_VCD, AllowAutoPlay, AllowAutoPlay method [Windows Shell], AllowAutoPlay method [Windows Shell],IQueryCancelAutoPlay interface, IQueryCancelAutoPlay interface [Windows Shell],AllowAutoPlay method, IQueryCancelAutoPlay.AllowAutoPlay, IQueryCancelAutoPlay::AllowAutoPlay, _shell_IQueryCancelAutoPlay_AllowAutoPlay, shell.IQueryCancelAutoPlay_AllowAutoPlay, shobjidl/IQueryCancelAutoPlay::AllowAutoPlay
-f1_keywords:
-- shobjidl/IQueryCancelAutoPlay.AllowAutoPlay
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IQueryCancelAutoPlay.AllowAutoPlay
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryCancelAutoPlay::AllowAutoPlay
+ - shobjidl/IQueryCancelAutoPlay::AllowAutoPlay
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IQueryCancelAutoPlay.AllowAutoPlay
 ---
 
 # IQueryCancelAutoPlay::AllowAutoPlay
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether to play media inserted by a user and if so using what restrictions.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
 Type: <b>LPCWSTR</b>
 
-The drive letter in the form <b>D:\</b>
-
+The drive letter in the form <b>D:\\</b>
 
 ### -param dwContentType [in]
 
@@ -208,13 +204,11 @@ AutoPlay blank recordable high definition DVD media in the Blu-ray Disc™ forma
 
 <b>Introduced in Windows Vista</b>. A mask that denotes valid ARCONTENT_PHASE values.
 
-
 ### -param pszLabel [in]
 
 Type: <b>LPCWSTR</b>
 
 The media label.
-
 
 ### -param dwSerialNumber [in]
 
@@ -222,27 +216,19 @@ Type: <b>DWORD</b>
 
 The media serial number.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK to allow AutoRun or S_FALSE to cancel AutoRun.
 
-
-
-
 ## -remarks
 
+Applications register an instance of the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a> interface in the running object table (ROT). Before the Shell starts AutoRun or AutoPlay, when the user inserts new media, it checks the ROT for a component implementing <b>IQueryCancelAutoPlay</b>. If it finds one, the Shell calls that implementation's <b>IQueryCancelAutoPlay::AllowAutoPlay</b> method to determine whether it should proceed, and using what restrictions.
 
+Upon presentation of media, the Shell searches the ROT for a component implementing <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a>. If one is found, the class identifier (CLSID) of that component's moniker is extracted. The presence of a ROT registration informs the Shell that the component might want to cancel AutoRun or AutoPlay. For confirmation, the Shell must also find a registry key for that same CLSID at the following location:
 
-Applications register an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a> interface in the running object table (ROT). Before the Shell starts AutoRun or AutoPlay, when the user inserts new media, it checks the ROT for a component implementing <b>IQueryCancelAutoPlay</b>. If it finds one, the Shell calls that implementation's <b>IQueryCancelAutoPlay::AllowAutoPlay</b> method to determine whether it should proceed, and using what restrictions.
-
-Upon presentation of media, the Shell searches the ROT for a component implementing <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a>. If one is found, the class identifier (CLSID) of that component's moniker is extracted. The presence of a ROT registration informs the Shell that the component might want to cancel AutoRun or AutoPlay. For confirmation, the Shell must also find a registry key for that same CLSID at the following location:
-
-				<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows</b>
@@ -255,5 +241,3 @@ Upon presentation of media, the Shell searches the ROT for a component implement
 
 <div class="alert"><b>Note</b>  The CLSID entered as a value under this key should not be encased in curly brackets.</div>
 <div> </div>
-
-

@@ -2,15 +2,12 @@
 UID: NS:wmsdkidl._WMAddressAccessEntry
 title: WM_ADDRESS_ACCESSENTRY (wmsdkidl.h)
 description: The WM_ADDRESS_ACCESSENTRY structure specifies an entry in an IP address access list.
+helpviewer_keywords: ["WM_ADDRESS_ACCESSENTRY","WM_ADDRESS_ACCESSENTRY structure [windows Media Format]","wmformat.wm_address_accessentry","wmsdkidl/WM_ADDRESS_ACCESSENTRY"]
 old-location: wmformat\wm_address_accessentry.htm
 tech.root: wmformat
 ms.assetid: 670c126f-c94b-4fac-b18c-d764f048f401
 ms.date: 12/05/2018
 ms.keywords: WM_ADDRESS_ACCESSENTRY, WM_ADDRESS_ACCESSENTRY structure [windows Media Format], wmformat.wm_address_accessentry, wmsdkidl/WM_ADDRESS_ACCESSENTRY
-f1_keywords:
-- wmsdkidl/WM_ADDRESS_ACCESSENTRY
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WM_ADDRESS_ACCESSENTRY
 targetos: Windows
 req.typenames: WM_ADDRESS_ACCESSENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WMAddressAccessEntry
+ - wmsdkidl/_WMAddressAccessEntry
+ - WM_ADDRESS_ACCESSENTRY
+ - wmsdkidl/WM_ADDRESS_ACCESSENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WM_ADDRESS_ACCESSENTRY
 ---
 
 # WM_ADDRESS_ACCESSENTRY structure
@@ -48,48 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>WM_ADDRESS_ACCESSENTRY </b>structure specifies an entry in an IP address access list.
-
-
-
+The <b>WM_ADDRESS_ACCESSENTRY</b> structure specifies an entry in an IP address access list.
 
 ## -struct-fields
-
-
-
 
 ### -field dwIPAddress
 
 An IPv4 address, in network byte order.
 
-
 ### -field dwMask
 
 An IPv4 address, in network byte order, to use as a bitmask. The bitmask defines which bits in the <b>dwIPAddress</b> field are matched against. For example, if the IP address is 206.73.118.1 and the mask is 255.255.255.0, only the first 24 bits of the address are examined. Thus, any IP addresses in the range 206.73.118.<i>XXX</i> would match this entry.
 
-
 ## -remarks
-
-
 
 You can use the <b>inet_addr</b> function to convert a standard dotted-format string (such as "255.255.255.255") to the correct binary number in network byte order.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCertificateSize
 title: ID3D11CryptoSession::GetCertificateSize (d3d11.h)
-description: Gets the size of the driver's certificate chain.
+description: Gets the size of the driver's certificate chain. (ID3D11CryptoSession.GetCertificateSize)
+helpviewer_keywords: ["GetCertificateSize","GetCertificateSize method [Media Foundation]","GetCertificateSize method [Media Foundation]","ID3D11CryptoSession interface","ID3D11CryptoSession interface [Media Foundation]","GetCertificateSize method","ID3D11CryptoSession.GetCertificateSize","ID3D11CryptoSession::GetCertificateSize","d3d11/ID3D11CryptoSession::GetCertificateSize","mf.id3d11cryptosession_getcertificatesize"]
 old-location: mf\id3d11cryptosession_getcertificatesize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C5FE51B8-A681-4B8C-BFC0-9D0B625292F1
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCertificateSize method, ID3D11CryptoSession.GetCertificateSize, ID3D11CryptoSession::GetCertificateSize, d3d11/ID3D11CryptoSession::GetCertificateSize, mf.id3d11cryptosession_getcertificatesize
-f1_keywords:
-- d3d11/ID3D11CryptoSession.GetCertificateSize
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11CryptoSession.GetCertificateSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11CryptoSession::GetCertificateSize
+ - d3d11/ID3D11CryptoSession::GetCertificateSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11CryptoSession.GetCertificateSize
 ---
 
 # ID3D11CryptoSession::GetCertificateSize
@@ -48,47 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the size of the driver's certificate chain.
 
-
 ## -parameters
-
-
-
 
 ### -param pCertificateSize [out]
 
 Receives the size of the certificate chain, in bytes.
 
-
-
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-To get the certificate, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcertificate">ID3D11CryptoSession::GetCertificate</a>.
-
-
-
+To get the certificate, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11cryptosession-getcertificate">ID3D11CryptoSession::GetCertificate</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a>

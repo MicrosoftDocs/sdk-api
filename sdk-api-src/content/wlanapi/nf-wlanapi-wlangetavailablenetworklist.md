@@ -2,15 +2,12 @@
 UID: NF:wlanapi.WlanGetAvailableNetworkList
 title: WlanGetAvailableNetworkList function (wlanapi.h)
 description: Retrieves the list of available networks on a wireless LAN interface.
+helpviewer_keywords: ["WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES","WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES","WlanGetAvailableNetworkList","WlanGetAvailableNetworkList function [NativeWIFI]","nwifi.wlangetavailablenetworklist","nwifi.wlangetvisiblenetworklist","wlanapi/WlanGetAvailableNetworkList"]
 old-location: nwifi\wlangetavailablenetworklist.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 27353a1b-2a3c-4c3b-b512-917d010ee8dd
 ms.date: 12/05/2018
 ms.keywords: WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES, WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES, WlanGetAvailableNetworkList, WlanGetAvailableNetworkList function [NativeWIFI], nwifi.wlangetavailablenetworklist, nwifi.wlangetvisiblenetworklist, wlanapi/WlanGetAvailableNetworkList
-f1_keywords:
-- wlanapi/WlanGetAvailableNetworkList
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
-api_name:
-- WlanGetAvailableNetworkList
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanGetAvailableNetworkList
+ - wlanapi/WlanGetAvailableNetworkList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+ - WlanGetAvailableNetworkList
 ---
 
 # WlanGetAvailableNetworkList function
@@ -49,26 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanGetAvailableNetworkList</b> function retrieves the list of available networks on a wireless LAN interface.
-
 
 ## -parameters
 
-
-
-
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
 A pointer to the GUID of the wireless LAN interface to be queried.
 
- The GUID of each wireless LAN interface enabled on a local computer can be determined using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function.
-
+ The GUID of each wireless LAN interface enabled on a local computer can be determined using the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function.
 
 ### -param dwFlags [in]
 
@@ -106,24 +101,18 @@ Include all hidden network profiles in the available network list, including pro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved
 
 Reserved for future use.  This parameter must be set to <b>NULL</b>.
 
-
 ### -param ppAvailableNetworkList [out]
 
-A pointer to storage for a pointer to receive the returned list of visible networks in a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> structure.
+A pointer to storage for a pointer to receive the returned list of visible networks in a <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> structure.
 
-The buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> returned is allocated by the <b>WlanGetAvailableNetworkList</b> function if the call succeeds.
-
+The buffer for the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> returned is allocated by the <b>WlanGetAvailableNetworkList</b> function if the call succeeds.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -190,26 +179,18 @@ Not enough memory is available to process this request and allocate memory for t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The <b>WlanGetAvailableNetworkList</b> function allocates memory for the list of available networks returned in the buffer pointed to by the <i>ppAvailableNetworkList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppAvailableNetworkList</i> parameter should be released by calling the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
 
 
-The <b>WlanGetAvailableNetworkList</b> function allocates memory for the list of available networks returned in the buffer pointed to by the <i>ppAvailableNetworkList</i> parameter when the function succeeds. The memory used for the buffer pointed to by <i>ppAvailableNetworkList</i> parameter should be released by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> function after the buffer is no longer needed.
-
-
-There is a hotfix available for  Wireless LAN API for Windows XP with SP2 that can help improve the performance of applications that call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> and <b>WlanGetAvailableNetworkList</b> many times. For more information, see Help and Knowledge Base article 940541, entitled "FIX: The private bytes of the application continuously increase when an application calls the WlanGetAvailableNetworkList function and the WlanFreeMemory function on a Windows XP Service Pack 2-based computer", in the Help and Support Knowledge Base at <a href="https://go.microsoft.com/fwlink/p/?linkid=102216">https://go.microsoft.com/fwlink/p/?linkid=102216</a>.
-
-
+There is a hotfix available for  Wireless LAN API for Windows XP with SP2 that can help improve the performance of applications that call <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a> and <b>WlanGetAvailableNetworkList</b> many times. 
 
 
 #### Examples
 
-The following example enumerates the wireless LAN interfaces on the local computer, retrieves the list of available networks on each wireless LAN interface, and prints values from the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> that contains the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a> entries.
+The following example enumerates the wireless LAN interfaces on the local computer, retrieves the list of available networks on each wireless LAN interface, and prints values from the retrieved <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a> that contains the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a> entries.
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
@@ -478,45 +459,34 @@ int wmain()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanfreememory">WlanFreeMemory</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>

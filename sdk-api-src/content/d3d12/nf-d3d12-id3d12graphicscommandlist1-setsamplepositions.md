@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetSamplePositions
 title: ID3D12GraphicsCommandList1::SetSamplePositions (d3d12.h)
 description: This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
+helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","SetSamplePositions method","ID3D12GraphicsCommandList1.SetSamplePositions","ID3D12GraphicsCommandList1::SetSamplePositions","SetSamplePositions","SetSamplePositions method","SetSamplePositions method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::SetSamplePositions","direct3d12.id3d12graphicscommandlist1_setsamplepositions"]
 old-location: direct3d12\id3d12graphicscommandlist1_setsamplepositions.htm
 tech.root: direct3d12
 ms.assetid: 04627303-20C7-44B1-A62D-45003A13685B
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetSamplePositions method, ID3D12GraphicsCommandList1.SetSamplePositions, ID3D12GraphicsCommandList1::SetSamplePositions, SetSamplePositions, SetSamplePositions method, SetSamplePositions method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetSamplePositions, direct3d12.id3d12graphicscommandlist1_setsamplepositions
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList1.SetSamplePositions
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList1.SetSamplePositions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList1::SetSamplePositions
+ - d3d12/ID3D12GraphicsCommandList1::SetSamplePositions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList1.SetSamplePositions
 ---
 
 # ID3D12GraphicsCommandList1::SetSamplePositions
@@ -48,62 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
 
-
 ## -parameters
-
-
-
 
 ### -param NumSamplesPerPixel [in]
 
 Type: <b>UINT</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
 Specifies the number of samples to take, per pixel. This value can be 1, 2, 4, 8, or 16, otherwise the SetSamplePosition call is dropped. The number of samples must match the sample count configured in the PSO at draw time, otherwise the behavior is undefined.
-
 
 ### -param NumPixels [in]
 
 Type: <b>UINT</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_</code>
 
-Specifies the number of pixels that sample patterns are being specified for. This value can be either 1 or 4, otherwise the SetSamplePosition call is dropped. A value of 1 configures a single sample pattern to be used for each pixel; a value of 4 configures separate sample patterns for each pixel in a 2x2 pixel grid which is repeated over the render-target or viewport space, aligned to even coordintes.
+Specifies the number of pixels that sample patterns are being specified for. This value can be either 1 or 4, otherwise the SetSamplePosition call is dropped. A value of 1 configures a single sample pattern to be used for each pixel; a value of 4 configures separate sample patterns for each pixel in a 2x2 pixel grid which is repeated over the render-target or viewport space, aligned to even coordinates.
 
 Note that the maximum number of combined samples can't exceed 16, otherwise the call is dropped. If NumPixels is set to 4, NumSamplesPerPixel can specify no more than 4 samples.
 
-
 ### -param pSamplePositions [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_sample_position">D3D12_SAMPLE_POSITION</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_sample_position">D3D12_SAMPLE_POSITION</a>*</b>
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-parameters-and-return-values?view=vs-2015">SAL</a>: <code>_In_reads_(NumSamplesPerPixel*NumPixels)</code>
+<a href="/visualstudio/code-quality/annotating-function-parameters-and-return-values">SAL</a>: <code>_In_reads_(NumSamplesPerPixel*NumPixels)</code>
 
 Specifies an array of D3D12_SAMPLE_POSITION elements. The size of the array is NumPixels * NumSamplesPerPixel. If NumPixels is set to 4, then the first group of sample positions corresponds to the upper-left pixel in the 2x2 grid of pixels; the next group of sample positions corresponds to the upper-right pixel, the next group to the lower-left pixel, and the final group to the lower-right pixel.
 
-If centroid interpolation is used during rendering, the order of positions for each pixel determines centroid-sampling prioritiy. That is, the first covered sample in the order specified is chosen as the centroid sample location.
-
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
+If centroid interpolation is used during rendering, the order of positions for each pixel determines centroid-sampling priority. That is, the first covered sample in the order specified is chosen as the centroid sample location.
 
 ## -remarks
 
-
-
 The operational semantics of sample positions are determined by the various draw, copy, resolve, and other operations that can occur.
 
-<b>CommandList:</b> In the absense of any prior calls to SetSamplePositions in a CommandList, samples assume the default position based on the Pipeline State Object (PSO). The default positions are determined either by the SAMPLE_DESC portion of the PSO if it is present, or by the standard sample positions if the RASTERIZER_DESC portion of the PSO has ForcedSampleCount set to a value greater than 0.
+<b>CommandList:</b> In the absence of any prior calls to SetSamplePositions in a CommandList, samples assume the default position based on the Pipeline State Object (PSO). The default positions are determined either by the SAMPLE_DESC portion of the PSO if it is present, or by the standard sample positions if the RASTERIZER_DESC portion of the PSO has ForcedSampleCount set to a value greater than 0.
 
 After SetSamplePosition has been called, subsequent draw calls must use a PSO that specifies a matching sample count either using the SAMPLE_DESC portion of the PSO, or ForcedSampleCount in the RASTERIZER_DESC portion of the PSO.
 
@@ -121,7 +104,7 @@ When clearing the stencil portion of a depth-stencil surface or any region of it
 
 <b>Draw using DepthStencil:</b> When drawing to a depth-stencil surface (read or write) or any region of it, the sample positions must be set to match those used to clear the affected region previously. To use a different sample position, the target region must be cleared first. The pixels outside the clear region are unaffected.
 
-Hardware may store the depth portion or a depth-stencil surface as plane equations, and evaluate them to produce depth values when the application issues a read. Only the rasterizer and output-merger are required to suport programmable sample positions of the depth portion of a depth-stencil surface. Any other read or write of the depth portion that has been rendered with sample positions set may ignore them and instead sample at the standard positions.
+Hardware may store the depth portion or a depth-stencil surface as plane equations, and evaluate them to produce depth values when the application issues a read. Only the rasterizer and output-merger are required to support programmable sample positions of the depth portion of a depth-stencil surface. Any other read or write of the depth portion that has been rendered with sample positions set may ignore them and instead sample at the standard positions.
 
 <b>Resolve RenderTarget:</b> When resolving a render target or any region of it, the sample positions are ignored; these APIs operate only on stored color values.
 
@@ -149,16 +132,6 @@ If an application wants to minimize the decompressed area when only a portion ne
 
 If an application wants to minimize the decompressed area when only a portion needs to be used, or just to preserve compression, ResolveSubresourceRegion() can be called in DECOMPRESS mode with a rect specified.  This will decompress just the relevant area to a separate resource leaving the source intact on some hardware, though on other hardware even the source area is decompressed. The separate explicitly decompressed resource can then be transitioned to the desired state (such as SHADER_RESOURCE).
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>

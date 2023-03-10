@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriptionID
 title: IEventSubscription::put_SubscriptionID (eventsys.h)
-description: The unique ID for the subscription object.
+description: The unique ID for the subscription object. (Put)
+helpviewer_keywords: ["IEventSubscription interface [COM+]","SubscriptionID property","IEventSubscription.SubscriptionID","IEventSubscription.put_SubscriptionID","IEventSubscription::SubscriptionID","IEventSubscription::get_SubscriptionID","IEventSubscription::put_SubscriptionID","SubscriptionID property [COM+]","SubscriptionID property [COM+]","IEventSubscription interface","cos.ieventsubscription_subscriptionid","eventsys/IEventSubscription::SubscriptionID","eventsys/IEventSubscription::get_SubscriptionID","eventsys/IEventSubscription::put_SubscriptionID","put_SubscriptionID"]
 old-location: cos\ieventsubscription_subscriptionid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 923eadb6-2ee8-4db9-952a-69f73367b2f8
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriptionID property, IEventSubscription.SubscriptionID, IEventSubscription.put_SubscriptionID, IEventSubscription::SubscriptionID, IEventSubscription::get_SubscriptionID, IEventSubscription::put_SubscriptionID, SubscriptionID property [COM+], SubscriptionID property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionid, eventsys/IEventSubscription::SubscriptionID, eventsys/IEventSubscription::get_SubscriptionID, eventsys/IEventSubscription::put_SubscriptionID, put_SubscriptionID
-f1_keywords:
-- eventsys/IEventSubscription.SubscriptionID
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSubscription.SubscriptionID
-- IEventSubscription.get_SubscriptionID
-- IEventSubscription.put_SubscriptionID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSubscription::put_SubscriptionID
+ - eventsys/IEventSubscription::put_SubscriptionID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSubscription.SubscriptionID
+ - IEventSubscription.get_SubscriptionID
+ - IEventSubscription.put_SubscriptionID
 ---
 
 # IEventSubscription::put_SubscriptionID
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The unique ID for the subscription object.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>

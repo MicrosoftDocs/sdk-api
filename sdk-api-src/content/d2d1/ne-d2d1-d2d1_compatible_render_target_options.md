@@ -2,15 +2,12 @@
 UID: NE:d2d1.D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 title: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS (d2d1.h)
 description: Specifies additional features supportable by a compatible render target when it is created. This enumeration allows a bitwise combination of its member values.
+helpviewer_keywords: ["D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS","D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS enumeration [Direct2D]","D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE","D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE","d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS","d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE","d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE","direct2d.D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS"]
 old-location: direct2d\D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: c20bf016-2304-4bd3-88ad-42d81e69c302
 ms.date: 12/05/2018
 ms.keywords: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS, D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS enumeration [Direct2D], D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE, D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE, d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS, d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE, d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE, direct2d.D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
-f1_keywords:
-- d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d2d1.h
-api_name:
-- D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 targetos: Windows
 req.typenames: D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
+ - d2d1/D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d2d1.h
+api_name:
+ - D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS
 ---
 
 # D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS enumeration
@@ -48,53 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies additional features supportable by a compatible render target when it is created. 
     This enumeration allows a bitwise combination of its member values.
 
-
 ## -enum-fields
 
-
-
-
-### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE
+### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_NONE:0x00000000
 
 The render target supports no additional features.
 
+### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE:0x00000001
 
-### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE
+The render target supports interoperability with the Windows Graphics Device Interface  (GDI).
 
-The render target supports interoperability with the Windows Graphics Device Interface  (GDI). 
-
-
-### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_FORCE_DWORD
-
-
-
+### -field D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_FORCE_DWORD:0xffffffff
 
 ## -remarks
 
+Use this enumeration when creating a compatible render target with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method. For more information about compatible render targets, see the <a href="/windows/win32/Direct2D/render-targets-overview">Render Targets Overview</a>. 
 
-
-Use this enumeration when creating a compatible render target with the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method. For more information about compatible render targets, see the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/render-targets-overview">Render Targets Overview</a>. 
-
-The <b>D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE</b> option may only be requested if the parent render target was created with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_usage">D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE</a> (for most render targets) or <b>D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE</b> (for render targets created by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method).
-
-
-
+The <b>D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE</b> option may only be requested if the parent render target was created with <a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_render_target_usage">D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE</a> (for most render targets) or <b>D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS_GDI_COMPATIBLE</b> (for render targets created by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a> method).
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createcompatiblerendertarget(constd2d1_size_f_constd2d1_size_u_constd2d1_pixel_format_d2d1_compatible_render_target_options_id2d1bitmaprendertarget)">CreateCompatibleRenderTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/render-targets-overview">Render Targets Overview</a>
- 
-
- 
+<a href="/windows/win32/Direct2D/render-targets-overview">Render Targets Overview</a>
 

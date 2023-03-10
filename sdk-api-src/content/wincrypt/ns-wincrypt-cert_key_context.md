@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_KEY_CONTEXT
 title: CERT_KEY_CONTEXT (wincrypt.h)
 description: Contains data associated with a CERT_KEY_CONTEXT_PROP_ID property.
+helpviewer_keywords: ["*PCERT_KEY_CONTEXT","AT_KEYEXCHANGE","AT_SIGNATURE","CERT_KEY_CONTEXT","CERT_KEY_CONTEXT structure [Security]","CERT_NCRYPT_KEY_SPEC","PCERT_KEY_CONTEXT","PCERT_KEY_CONTEXT structure pointer [Security]","_crypto2_cert_key_context","security.cert_key_context","wincrypt/CERT_KEY_CONTEXT","wincrypt/PCERT_KEY_CONTEXT"]
 old-location: security\cert_key_context.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 796adb9c-ec38-41d0-8f8b-ea1053e9f9f0
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_KEY_CONTEXT, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_KEY_CONTEXT, CERT_KEY_CONTEXT structure [Security], CERT_NCRYPT_KEY_SPEC, PCERT_KEY_CONTEXT, PCERT_KEY_CONTEXT structure pointer [Security], _crypto2_cert_key_context, security.cert_key_context, wincrypt/CERT_KEY_CONTEXT, wincrypt/PCERT_KEY_CONTEXT'
-f1_keywords:
-- wincrypt/CERT_KEY_CONTEXT
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_KEY_CONTEXT
 targetos: Windows
 req.typenames: CERT_KEY_CONTEXT, *PCERT_KEY_CONTEXT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_KEY_CONTEXT
+ - wincrypt/_CERT_KEY_CONTEXT
+ - PCERT_KEY_CONTEXT
+ - wincrypt/PCERT_KEY_CONTEXT
+ - CERT_KEY_CONTEXT
+ - wincrypt/CERT_KEY_CONTEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_KEY_CONTEXT
 ---
 
 # CERT_KEY_CONTEXT structure
@@ -48,36 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_KEY_CONTEXT</b> structure contains data associated with a CERT_KEY_CONTEXT_PROP_ID property.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.hCryptProv
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) handle. This member is used when the <b>dwKeySpec</b> member contains <b>AT_KEYEXCHANGE</b> or <b>AT_SIGNATURE</b>.
-
+A <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) handle. This member is used when the <b>dwKeySpec</b> member contains <b>AT_KEYEXCHANGE</b> or <b>AT_SIGNATURE</b>.
 
 ### -field DUMMYUNIONNAME.hNCryptKey
 
 A CNG CSP handle. This member is used when the <b>dwKeySpec</b> member contains <b>CERT_NCRYPT_KEY_SPEC</b>.
 
 <b>Windows Server 2003 and Windows XP:  </b>This member is not available.
-
 
 ### -field dwKeySpec
 
@@ -126,24 +121,15 @@ Keys associated with a CNG CSP.  The handle to the CNG CSP is set in the <b>hNCr
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>

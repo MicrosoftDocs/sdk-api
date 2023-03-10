@@ -2,15 +2,11 @@
 UID: NS:directml.DML_BUFFER_TENSOR_DESC
 title: DML_BUFFER_TENSOR_DESC
 description: Describes a tensor that will be stored in a Direct3D 12 buffer resource.
+helpviewer_keywords: ["DML_BUFFER_TENSOR_DESC","DML_BUFFER_TENSOR_DESC structure","direct3d12.dml_buffer_tensor_desc","directml/DML_BUFFER_TENSOR_DESC"]
 old-location: direct3d12\dml_buffer_tensor_desc.htm
-tech.root: direct3d12
+tech.root: directml
 ms.assetid: 03EAFF60-1703-47BA-BD77-225BEAC4DFAE
 ms.date: 12/5/2018
-ms.keywords: DML_BUFFER_TENSOR_DESC, DML_BUFFER_TENSOR_DESC structure, direct3d12.dml_buffer_tensor_desc, directml/DML_BUFFER_TENSOR_DESC
-f1_keywords:
-- directml/DML_BUFFER_TENSOR_DESC
-dev_langs:
-- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,38 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DirectML.h
-api_name:
-- DML_BUFFER_TENSOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DML_BUFFER_TENSOR_DESC
+ - directml/DML_BUFFER_TENSOR_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DirectML.h
+api_name:
+ - DML_BUFFER_TENSOR_DESC
 ---
-
-# DML_BUFFER_TENSOR_DESC structure
 
 ## -description
 
-Describes a tensor that will be stored in a Direct3D 12 buffer resource. The corresponding tensor type is [DML_TENSOR_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_tensor_type), and the corresponding binding type is [DML_BINDING_TYPE_BUFFER](/windows/desktop/api/directml/ne-directml-dml_binding_type).
+Describes a tensor that will be stored in a Direct3D 12 buffer resource. The corresponding tensor type is [DML_TENSOR_TYPE_BUFFER](/windows/win32/api/directml/ne-directml-dml_tensor_type), and the corresponding binding type is [DML_BINDING_TYPE_BUFFER](/windows/win32/api/directml/ne-directml-dml_binding_type).
 
 ## -struct-fields
 
 ### -field DataType
 
-Type: [**DML_TENSOR_DATA_TYPE**](/windows/desktop/api/directml/ne-directml-dml_tensor_data_type)
+Type: [**DML_TENSOR_DATA_TYPE**](/windows/win32/api/directml/ne-directml-dml_tensor_data_type)
 
 The type of the values in the tensor.
 
 ### -field Flags
 
-Type: [**DML_TENSOR_FLAGS**](/windows/desktop/api/directml/ne-directml-dml_tensor_flags)
+Type: [**DML_TENSOR_FLAGS**](/windows/win32/api/directml/ne-directml-dml_tensor_flags)
 
 Specifies additional options for the tensor.
 
@@ -87,9 +86,9 @@ If <i>Strides</i> is not specified, each dimension in the tensor is considered t
 
 ### -field TotalTensorSizeInBytes
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
-Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/desktop/direct3d12/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
+Defines a minimum size in bytes for the buffer that will contain this tensor. <i>TotalTensorSizeInBytes</i> must be at least as large as the minimum implied size given the sizes, strides, and data type of the tensor. You can calculate the minimum implied size by calling the [DMLCalcBufferTensorSize](/windows/ai/directml/dml-helper-functions#dmlcalcbuffertensorsize) utility free function.
 
 Providing a <i>TotalTensorSizeInBytes</i> that is larger than the minimum implied size may enable additional optimizations by allowing DirectML to elide bounds checking in some cases if the <i>TotalTensorSizeInBytes</i> defines sufficient padding beyond the end of the tensor data.
 
@@ -111,4 +110,4 @@ Although this member is optional, for best performance we recommend that you ali
 
 ## -see-also
 
-[Binding in DirectML](/windows/desktop/direct3d12/dml-binding)
+[Binding in DirectML](/windows/ai/directml/dml-binding)

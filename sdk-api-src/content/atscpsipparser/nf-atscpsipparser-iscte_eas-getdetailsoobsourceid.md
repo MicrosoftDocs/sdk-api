@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsOOBSourceID
 title: ISCTE_EAS::GetDetailsOOBSourceID (atscpsipparser.h)
 description: The GetDetailsOOBSourceID method returns the source identifier of the virtual details channel for the emergency alert.
+helpviewer_keywords: ["GetDetailsOOBSourceID","GetDetailsOOBSourceID method [Microsoft TV Technologies]","GetDetailsOOBSourceID method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetDetailsOOBSourceID method","ISCTE_EAS.GetDetailsOOBSourceID","ISCTE_EAS::GetDetailsOOBSourceID","ISCTE_EASGetDetailsOOBSourceID","atscpsipparser/ISCTE_EAS::GetDetailsOOBSourceID","mstv.iscte_eas_getdetailsoobsourceid"]
 old-location: mstv\iscte_eas_getdetailsoobsourceid.htm
 tech.root: mstv
 ms.assetid: 50bf2acd-87e1-4b64-bf98-997603d56a0a
 ms.date: 12/05/2018
 ms.keywords: GetDetailsOOBSourceID, GetDetailsOOBSourceID method [Microsoft TV Technologies], GetDetailsOOBSourceID method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsOOBSourceID method, ISCTE_EAS.GetDetailsOOBSourceID, ISCTE_EAS::GetDetailsOOBSourceID, ISCTE_EASGetDetailsOOBSourceID, atscpsipparser/ISCTE_EAS::GetDetailsOOBSourceID, mstv.iscte_eas_getdetailsoobsourceid
-f1_keywords:
-- atscpsipparser/ISCTE_EAS.GetDetailsOOBSourceID
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- ISCTE_EAS.GetDetailsOOBSourceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCTE_EAS::GetDetailsOOBSourceID
+ - atscpsipparser/ISCTE_EAS::GetDetailsOOBSourceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - ISCTE_EAS.GetDetailsOOBSourceID
 ---
 
 # ISCTE_EAS::GetDetailsOOBSourceID
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDetailsOOBSourceID</b> method returns the source identifier of the virtual details channel for the emergency alert.
 
-
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the details_OOB_source_ID field.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -81,7 +74,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -97,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>

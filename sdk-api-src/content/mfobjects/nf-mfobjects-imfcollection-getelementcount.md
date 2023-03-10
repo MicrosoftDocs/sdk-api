@@ -1,16 +1,13 @@
 ---
 UID: NF:mfobjects.IMFCollection.GetElementCount
 title: IMFCollection::GetElementCount (mfobjects.h)
-description: Retrieves the number of objects in the collection.
+description: Retrieves the number of objects in the collection. (IMFCollection.GetElementCount)
+helpviewer_keywords: ["4bd46f66-0542-4185-b50e-163cc3b4e2f8","GetElementCount","GetElementCount method [Media Foundation]","GetElementCount method [Media Foundation]","IMFCollection interface","IMFCollection interface [Media Foundation]","GetElementCount method","IMFCollection.GetElementCount","IMFCollection::GetElementCount","mf.imfcollection_getelementcount","mfobjects/IMFCollection::GetElementCount"]
 old-location: mf\imfcollection_getelementcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4bd46f66-0542-4185-b50e-163cc3b4e2f8
 ms.date: 12/05/2018
 ms.keywords: 4bd46f66-0542-4185-b50e-163cc3b4e2f8, GetElementCount, GetElementCount method [Media Foundation], GetElementCount method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElementCount method, IMFCollection.GetElementCount, IMFCollection::GetElementCount, mf.imfcollection_getelementcount, mfobjects/IMFCollection::GetElementCount
-f1_keywords:
-- mfobjects/IMFCollection.GetElementCount
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFCollection.GetElementCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCollection::GetElementCount
+ - mfobjects/IMFCollection::GetElementCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFCollection.GetElementCount
 ---
 
 # IMFCollection::GetElementCount
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the number of objects in the collection.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcElements [out]
 
 Receives the number of objects in the collection.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>

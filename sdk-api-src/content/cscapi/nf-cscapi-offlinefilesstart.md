@@ -2,15 +2,12 @@
 UID: NF:cscapi.OfflineFilesStart
 title: OfflineFilesStart function (cscapi.h)
 description: Starts the Offline Files service.
+helpviewer_keywords: ["OfflineFilesStart","OfflineFilesStart function [Offline Files]","cscapi/OfflineFilesStart","of.offlinefilesstart"]
 old-location: of\offlinefilesstart.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
-f1_keywords:
-- cscapi/OfflineFilesStart
-dev_langs:
-- c++
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: CscApi.lib
 req.dll: CscApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CscApi.dll
-api_name:
-- OfflineFilesStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OfflineFilesStart
+ - cscapi/OfflineFilesStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CscApi.dll
+api_name:
+ - OfflineFilesStart
 ---
 
 # OfflineFilesStart function
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts the Offline Files service.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns <b>ERROR_SUCCESS</b> if successful or a Win32 error value otherwise.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatusex">OfflineFilesQueryStatusEx</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cscapi/nf-cscapi-offlinefilesquerystatusex">OfflineFilesQueryStatusEx</a>

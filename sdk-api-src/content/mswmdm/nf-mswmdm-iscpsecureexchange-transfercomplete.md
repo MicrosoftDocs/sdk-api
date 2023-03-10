@@ -2,15 +2,12 @@
 UID: NF:mswmdm.ISCPSecureExchange.TransferComplete
 title: ISCPSecureExchange::TransferComplete (mswmdm.h)
 description: The TransferComplete method is called by Windows Media Device Manager to signal the end of a secure transfer of data. In this method, the secure content provider can perform any additional processing required to enable the content on the target device.
+helpviewer_keywords: ["ISCPSecureExchange interface [windows Media Device Manager]","TransferComplete method","ISCPSecureExchange.TransferComplete","ISCPSecureExchange::TransferComplete","ISCPSecureExchangeTransferComplete","TransferComplete","TransferComplete method [windows Media Device Manager]","TransferComplete method [windows Media Device Manager]","ISCPSecureExchange interface","mswmdm/ISCPSecureExchange::TransferComplete","wmdm.iscpsecureexchange_transfercomplete"]
 old-location: wmdm\iscpsecureexchange_transfercomplete.htm
 tech.root: WMDM
 ms.assetid: 8a7a6de0-ab37-4764-8feb-82676e1e62ab
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],TransferComplete method, ISCPSecureExchange.TransferComplete, ISCPSecureExchange::TransferComplete, ISCPSecureExchangeTransferComplete, TransferComplete, TransferComplete method [windows Media Device Manager], TransferComplete method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::TransferComplete, wmdm.iscpsecureexchange_transfercomplete
-f1_keywords:
-- mswmdm/ISCPSecureExchange.TransferComplete
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- ISCPSecureExchange.TransferComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCPSecureExchange::TransferComplete
+ - mswmdm/ISCPSecureExchange::TransferComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - ISCPSecureExchange.TransferComplete
 ---
 
 # ISCPSecureExchange::TransferComplete
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TransferComplete</b> method is called by Windows Media Device Manager to signal the end of a secure transfer of data. In this method, the secure content provider can perform any additional processing required to enable the content on the target device.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
@@ -119,18 +109,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange Interface</a>

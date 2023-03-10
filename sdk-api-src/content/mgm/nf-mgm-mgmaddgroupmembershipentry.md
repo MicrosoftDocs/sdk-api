@@ -2,15 +2,12 @@
 UID: NF:mgm.MgmAddGroupMembershipEntry
 title: MgmAddGroupMembershipEntry function (mgm.h)
 description: The MgmAddGroupMembershipEntry function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface.
+helpviewer_keywords: ["MGM_FORWARD_STATE","MGM_JOIN_STATE_FLAG","MgmAddGroupMembershipEntry","MgmAddGroupMembershipEntry function [RAS]","_mpr_mgmaddgroupmembershipentry","mgm/MgmAddGroupMembershipEntry","rras.mgmaddgroupmembershipentry"]
 old-location: rras\mgmaddgroupmembershipentry.htm
 tech.root: RRAS
 ms.assetid: b767961e-0935-4662-9f54-d82dfa0e7bd0
 ms.date: 12/05/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmAddGroupMembershipEntry, MgmAddGroupMembershipEntry function [RAS], _mpr_mgmaddgroupmembershipentry, mgm/MgmAddGroupMembershipEntry, rras.mgmaddgroupmembershipentry
-f1_keywords:
-- mgm/MgmAddGroupMembershipEntry
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmAddGroupMembershipEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmAddGroupMembershipEntry
+ - mgm/MgmAddGroupMembershipEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmAddGroupMembershipEntry
 ---
 
 # MgmAddGroupMembershipEntry function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmAddGroupMembershipEntry</b> function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface. The receivers can restrict the set of sources from which they should receive multicast data by specifying a source range.
 
 A multicast routing protocol calls this function when it is notified that there are receivers for a multicast group on an interface. The protocol must call this function so that multicast data can be forwarded out over an interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 ### -param dwSourceAddr [in]
 
@@ -75,7 +71,6 @@ Specifies the source address from which to receive multicast data. Specify zero 
 
 To specify a range of source addresses, specify the source network using <i>dwSourceAddr</i>, and specify a subnet mask using <i>dwSourceMask</i>.
 
-
 ### -param dwSourceMask [in]
 
 Specifies the subnet mask that corresponds to <i>dwSourceAddr</i>. The <i>dwSourceAddr</i> and <i>dwSourceMask</i> parameters are used together to define a range of sources from which to receive multicast data. 
@@ -84,8 +79,6 @@ Specifies the subnet mask that corresponds to <i>dwSourceAddr</i>. The <i>dwSour
 
 
 Specify zero for this parameter if zero was specified for <i>dwSourceAddr</i> (a wildcard receiver).
-						
-
 
 ### -param dwGroupAddr [in]
 
@@ -96,7 +89,6 @@ Specifies the multicast group for which to receive data. Specify zero to receive
 
 To specify a range of group addresses, specify the group address using <i>dwGroupAddr</i>, and specify a subnet mask using <i>dwGroupMask</i>.
 
-
 ### -param dwGroupMask [in]
 
 Specifies the subnet mask that corresponds to <i>dwGroupAddr</i>. The <i>dwGroupAddr</i> and <i>dwGroupMask</i> parameters are used together to define a range of multicast groups. 
@@ -106,11 +98,9 @@ Specifies the subnet mask that corresponds to <i>dwGroupAddr</i>. The <i>dwGroup
 
 Specify zero for this parameter if zero was specified for <i>dwGroupAddr</i> (a wildcard receiver).
 
-
 ### -param dwIfIndex [in]
 
 Specifies the interface on which to add the group membership. Multicast data for the specified groups will be forwarded out over this interface.
-
 
 ### -param dwIfNextHopIPAddr [in]
 
@@ -120,7 +110,6 @@ Specifies the address of the next hop that corresponds to the index specified by
 
 
 For broadcast interfaces (such as Ethernet interfaces) or point-to-point interfaces, which are identified by only the value of <i>dwIfIndex</i>, specify zero.
-
 
 ### -param dwFlags [in]
 
@@ -154,12 +143,8 @@ Add the specified interface to the list of outgoing interfaces for the forwardin
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -209,33 +194,17 @@ Not enough memory to complete this operation.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 This version of the MGM API supports only wildcard sources or specific sources, not a range of sources. The same restriction applies to groups, that is, no group ranges are permitted.
 
 When this function is called, the multicast group manager may invoke the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_join_alert_callback">PMGM_JOIN_ALERT_CALLBACK</a> callback to notify other routing protocols that there are new receivers for the specified group.
-
-
-
+<a href="/windows/desktop/api/mgm/nc-mgm-pmgm_join_alert_callback">PMGM_JOIN_ALERT_CALLBACK</a> callback to notify other routing protocols that there are new receivers for the specified group.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmdeletegroupmembershipentry">MgmDeleteGroupMembershipEntry</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_join_alert_callback">PMGM_JOIN_ALERT_CALLBACK</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mgm/nc-mgm-pmgm_join_alert_callback">PMGM_JOIN_ALERT_CALLBACK</a>

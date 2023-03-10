@@ -2,15 +2,12 @@
 UID: NC:mswsock.LPFN_RIORESIZECOMPLETIONQUEUE
 title: LPFN_RIORESIZECOMPLETIONQUEUE
 description: Resizes an I/O completion queue to be either larger or smaller for use with the Winsock registered I/O extensions.
+helpviewer_keywords: ["LPFN_RIORESIZECOMPLETIONQUEUE"]
 old-location: 
 tech.root: WinSock
 ms.assetid: C3C9A6CA-2C2E-4A5F-BDE7-635DF0B93B1A
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIORESIZECOMPLETIONQUEUE
-f1_keywords:
-- mswsock/LPFN_RIORESIZECOMPLETIONQUEUE
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIORESIZECOMPLETIONQUEUE
+ - mswsock/LPFN_RIORESIZECOMPLETIONQUEUE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIORESIZECOMPLETIONQUEUE
+ - LPFN_RIORESIZECOMPLETIONQUEUE
 ---
 
 ## -description
@@ -53,12 +55,9 @@ A descriptor that identifies an existing I/O completion queue to resize.
 
 ### -param QueueSize
 
-
-
-
 ## -returns
 
-If no error occurs, the **RIOResizeCompletionQueue** function returns **TRUE**. Otherwise, a value of **FALSE** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) function.
+If no error occurs, the **RIOResizeCompletionQueue** function returns **TRUE**. Otherwise, a value of **FALSE** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) function.
 
 
 
@@ -74,7 +73,7 @@ The **RIOResizeCompletionQueue** function resizes an I/O completion queue to be 
 I/O completion queues have a required minimum size that is dependent on the number of request queues associated with the completion queue and the number of sends and receives on the request queues. If an application calls the **RIOResizeCompletionQueue** function and tries to set the queue too small for the number of existing completions in the I/O completion queue, the call will fail and the queue will not be resized.
 
 > [!Note]  
-> The function pointer to the **RIOResizeCompletionQueue** function must be obtained at run time by making a call to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
+> The function pointer to the **RIOResizeCompletionQueue** function must be obtained at run time by making a call to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](./ns-mswsock-rio_extension_function_table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
 
  
 
@@ -84,9 +83,8 @@ I/O completion queues have a required minimum size that is dependent on the numb
 
 ## Thread Safety
 
-If multiple threads attempt to access the same [**RIO\_CQ**](/windows/win32/winsock/riocqueue) using the [**RIODequeueCompletion**](/windows/win32/api/mswsock/nc-mswsock-lpfn_riodequeuecompletion) or **RIOResizeCompletionQueue** function, access must be coordinated by a critical section, slim reader writer lock , or similar mutual exclusion mechanism. If the completion queues are not shared, mutual exclusion is not required.
+If multiple threads attempt to access the same [**RIO\_CQ**](/windows/win32/winsock/riocqueue) using the [**RIODequeueCompletion**](./nc-mswsock-lpfn_riodequeuecompletion.md) or **RIOResizeCompletionQueue** function, access must be coordinated by a critical section, slim reader writer lock , or similar mutual exclusion mechanism. If the completion queues are not shared, mutual exclusion is not required.
 
 ## -remarks
 
 ## -see-also
-

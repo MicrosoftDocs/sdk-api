@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_BINARY_DATA
 title: DHCP_BINARY_DATA (dhcpsapi.h)
 description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.
+helpviewer_keywords: ["*LPDHCP_BINARY_DATA","DHCP_BINARY_DATA","DHCP_BINARY_DATA structure [DHCP]","DHCP_CLIENT_UID","DHCP_CLIENT_UID structure [DHCP]","LPDHCP_BINARY_DATA","LPDHCP_BINARY_DATA structure pointer [DHCP]","dhcp.dhcp_binary_data","dhcpsapi/DHCP_CLIENT_UID","dhcpsapi/LPDHCP_BINARY_DATA","dhcpsapi/_DHCP_BINARY_DATA"]
 old-location: dhcp\dhcp_binary_data.htm
 tech.root: DHCP
 ms.assetid: 0afdddb4-12f9-4c0b-937a-2cc311c126b4
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_BINARY_DATA, DHCP_BINARY_DATA, DHCP_BINARY_DATA structure [DHCP], DHCP_CLIENT_UID, DHCP_CLIENT_UID structure [DHCP], LPDHCP_BINARY_DATA, LPDHCP_BINARY_DATA structure pointer [DHCP], dhcp.dhcp_binary_data, dhcpsapi/DHCP_CLIENT_UID, dhcpsapi/LPDHCP_BINARY_DATA, dhcpsapi/_DHCP_BINARY_DATA'
-f1_keywords:
-- dhcpsapi/DHCP_BINARY_DATA
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_BINARY_DATA
 targetos: Windows
 req.typenames: DHCP_BINARY_DATA, *LPDHCP_BINARY_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_BINARY_DATA
+ - dhcpsapi/_DHCP_BINARY_DATA
+ - LPDHCP_BINARY_DATA
+ - dhcpsapi/LPDHCP_BINARY_DATA
+ - DHCP_BINARY_DATA
+ - dhcpsapi/DHCP_BINARY_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_BINARY_DATA
 ---
 
 # DHCP_BINARY_DATA structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_BINARY_DATA</b> structure defines an opaque blob of binary data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DataLength
 
 Specifies the size of <b>Data</b>, in bytes.
-
 
 ### -field Data
 
@@ -86,17 +86,8 @@ The data is formatted as follows:
 <td>The MAC address of the client.</td>
 </tr>
 </table>
- 
-
 
 ### -field Data.size_is
 
- 
-
-
 ### -field Data.size_is.DataLength
-
- 
-
-
 

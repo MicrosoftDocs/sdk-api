@@ -4,7 +4,7 @@ title: Automation
 ms.assetid: fa0e9310-2f3a-3207-9d42-b2f8ad9f6315
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Automation
@@ -21,6 +21,5 @@ To develop Automation, you need these headers:
  * [wia_xp.h](../wia_xp/index.md)
  * [wtypes.h](../wtypes/index.md)
 
-For programming guidance for this technology, see:
-* [Automation](https://docs.microsoft.com/previous-versions/windows/desktop/automat)
 
+This documentation is related to OLE Automation. For information on UI Automation, see [Windows Automation API overview](/windows/win32/winauto/windows-automation-api-portal).

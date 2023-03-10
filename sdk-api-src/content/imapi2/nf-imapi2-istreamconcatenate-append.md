@@ -2,15 +2,12 @@
 UID: NF:imapi2.IStreamConcatenate.Append
 title: IStreamConcatenate::Append (imapi2.h)
 description: Appends a stream to this stream.
+helpviewer_keywords: ["Append","Append method [IMAPI]","Append method [IMAPI]","IStreamConcatenate interface","IStreamConcatenate interface [IMAPI]","Append method","IStreamConcatenate.Append","IStreamConcatenate::Append","imapi.istreamconcatenate_append","imapi2/IStreamConcatenate::Append"]
 old-location: imapi\istreamconcatenate_append.htm
 tech.root: imapi
 ms.assetid: 9871cc35-c955-4fd4-9082-5b6ab60cae7b
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [IMAPI], Append method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append method, IStreamConcatenate.Append, IStreamConcatenate::Append, imapi.istreamconcatenate_append, imapi2/IStreamConcatenate::Append
-f1_keywords:
-- imapi2/IStreamConcatenate.Append
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IStreamConcatenate.Append
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamConcatenate::Append
+ - imapi2/IStreamConcatenate::Append
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IStreamConcatenate.Append
 ---
 
 # IStreamConcatenate::Append
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Appends a stream to this stream.
 
-
 ## -parameters
-
-
-
 
 ### -param stream [in]
 
 An <b>IStream</b> interface of the stream to append to this stream.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,33 +81,17 @@ Value: 0x80004001
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+You must call the <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">IStreamConcatenate::Initialize</a> or <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">IStreamConcatenate::Initialize2</a> method prior to calling this method.
 
-
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize">IStreamConcatenate::Initialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">IStreamConcatenate::Initialize2</a> method prior to calling this method.
-
-To append more than one stream to this stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">IStreamConcatenate::Append2</a> method.
-
-
-
+To append more than one stream to this stream, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">IStreamConcatenate::Append2</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate">IStreamConcatenate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">IStreamConcatenate::Append2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-append2">IStreamConcatenate::Append2</a>

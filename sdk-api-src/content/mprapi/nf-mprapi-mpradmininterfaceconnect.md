@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminInterfaceConnect
 title: MprAdminInterfaceConnect function (mprapi.h)
 description: The MprAdminInterfaceConnect function creates a connection to the specified WAN interface.
+helpviewer_keywords: ["MprAdminInterfaceConnect","MprAdminInterfaceConnect function [RAS]","_mpr_mpradmininterfaceconnect","mprapi/MprAdminInterfaceConnect","rras.mpradmininterfaceconnect"]
 old-location: rras\mpradmininterfaceconnect.htm
 tech.root: RRAS
 ms.assetid: 21440495-9372-42c7-8e40-8f3d5812f187
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceConnect, MprAdminInterfaceConnect function [RAS], _mpr_mpradmininterfaceconnect, mprapi/MprAdminInterfaceConnect, rras.mpradmininterfaceconnect
-f1_keywords:
-- mprapi/MprAdminInterfaceConnect
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminInterfaceConnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminInterfaceConnect
+ - mprapi/MprAdminInterfaceConnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminInterfaceConnect
 ---
 
 # MprAdminInterfaceConnect function
@@ -48,32 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminInterfaceConnect</b> function creates a connection to the specified WAN interface.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprServer [in]
 
 Handle to the router on which to execute this call. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hInterface [in]
 
 Handle to the interface. This handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>.
 
 ### -param hEvent [in]
 
 Handle to an event that is signaled after the attempt to connect the interface has completed. The function initiates the connection attempt and returns immediately. After the event is signaled, you can obtain the result of the connection attempt by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>. 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>. 
 
 
 
@@ -81,7 +76,6 @@ Handle to an event that is signaled after the attempt to connect the interface h
 If this parameter is <b>NULL</b>, and <i>fBlocking</i> is <b>TRUE</b>, then this call is synchronous, that is, the function does not return until the connection attempt has completed.
 
 The calling application must specify <b>NULL</b> for this parameter, if <i>hMprServer</i> specifies a remote router.
-
 
 ### -param fSynchronous [in]
 
@@ -94,10 +88,7 @@ If <i>hEvent</i> is <b>NULL</b>, and this parameter is set to <b>FALSE</b>, the 
 
 If <i>hEvent</i> is not <b>NULL</b>, this parameter is ignored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -193,7 +184,7 @@ The Demand Dial service is currently paused.
 </td>
 <td width="60%">
 The interface is in the process of connecting. The calling application must wait on the <i>hEvent</i> handle, if one was specified. After the event is signaled, you can obtain the state of the connection and any associated error by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>.
 
 </td>
 </tr>
@@ -203,13 +194,7 @@ The interface is in the process of connecting. The calling application must wait
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The following table summarizes the relationship between <i>hEvent</i> and <i>fBlocking</i>.
 
@@ -223,7 +208,7 @@ The following table summarizes the relationship between <i>hEvent</i> and <i>fBl
 <td>Event Handle</td>
 <td>Ignored</td>
 <td>The call returns immediately. A return value of PENDING indicates that the attempt was initiated successfully. Wait on <i>hEvent</i>. When <i>hEvent</i> is signaled, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a> to determine the success or failure of the connection attempt.</td>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a> to determine the success or failure of the connection attempt.</td>
 </tr>
 <tr>
 <td><b>NULL</b></td>
@@ -241,37 +226,26 @@ The following table summarizes the relationship between <i>hEvent</i> and <i>fBl
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedisconnect">MprAdminInterfaceDisconnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedisconnect">MprAdminInterfaceDisconnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

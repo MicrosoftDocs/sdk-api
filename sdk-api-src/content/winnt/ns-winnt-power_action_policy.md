@@ -1,16 +1,13 @@
 ---
-UID: NS:winnt.__unnamed_struct_21
+UID: NS:winnt.POWER_ACTION_POLICY
 title: POWER_ACTION_POLICY (winnt.h)
 description: Contains information used to set the system power state.
+helpviewer_keywords: ["*PPOWER_ACTION_POLICY","POWER_ACTION_CRITICAL","POWER_ACTION_DISABLE_WAKES","POWER_ACTION_LIGHTEST_FIRST","POWER_ACTION_LOCK_CONSOLE","POWER_ACTION_OVERRIDE_APPS","POWER_ACTION_POLICY","POWER_ACTION_POLICY structure","POWER_ACTION_QUERY_ALLOWED","POWER_ACTION_UI_ALLOWED","POWER_FORCE_TRIGGER_RESET","POWER_LEVEL_USER_NOTIFY_EXEC","POWER_LEVEL_USER_NOTIFY_SOUND","POWER_LEVEL_USER_NOTIFY_TEXT","POWER_USER_NOTIFY_BUTTON","POWER_USER_NOTIFY_SHUTDOWN","PPOWER_ACTION_POLICY","PPOWER_ACTION_POLICY structure pointer","_win32_power_action_policy_str","base.power_action_policy_str","winnt/POWER_ACTION_POLICY","winnt/PPOWER_ACTION_POLICY"]
 old-location: base\power_action_policy_str.htm
-tech.root: power
+tech.root: base
 ms.assetid: 70739f46-54be-4748-8993-ffee3b2a8b6c
 ms.date: 12/05/2018
 ms.keywords: '*PPOWER_ACTION_POLICY, POWER_ACTION_CRITICAL, POWER_ACTION_DISABLE_WAKES, POWER_ACTION_LIGHTEST_FIRST, POWER_ACTION_LOCK_CONSOLE, POWER_ACTION_OVERRIDE_APPS, POWER_ACTION_POLICY, POWER_ACTION_POLICY structure, POWER_ACTION_QUERY_ALLOWED, POWER_ACTION_UI_ALLOWED, POWER_FORCE_TRIGGER_RESET, POWER_LEVEL_USER_NOTIFY_EXEC, POWER_LEVEL_USER_NOTIFY_SOUND, POWER_LEVEL_USER_NOTIFY_TEXT, POWER_USER_NOTIFY_BUTTON, POWER_USER_NOTIFY_SHUTDOWN, PPOWER_ACTION_POLICY, PPOWER_ACTION_POLICY structure pointer, _win32_power_action_policy_str, base.power_action_policy_str, winnt/POWER_ACTION_POLICY, winnt/PPOWER_ACTION_POLICY'
-f1_keywords:
-- winnt/POWER_ACTION_POLICY
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- POWER_ACTION_POLICY
 targetos: Windows
 req.typenames: POWER_ACTION_POLICY, *PPOWER_ACTION_POLICY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PPOWER_ACTION_POLICY
+ - winnt/PPOWER_ACTION_POLICY
+ - POWER_ACTION_POLICY
+ - winnt/POWER_ACTION_POLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - POWER_ACTION_POLICY
 ---
 
 # POWER_ACTION_POLICY structure
@@ -48,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information used to set the system power state.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Action
 
 The requested system power state. This member must be one of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_action">POWER_ACTION</a> enumeration type values.
-
+      <a href="/windows/desktop/api/winnt/ne-winnt-power_action">POWER_ACTION</a> enumeration type values.
 
 ### -field Flags
 
@@ -152,13 +150,11 @@ Has no effect.
 <td width="60%">
 Applications can prompt the user for directions on how to prepare for suspension. Sets bit 0 in the 
         <i>Flags</i> parameter passed in the <i>lParam</i> parameter of 
-        <a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>.
+        <a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field EventCode
 
@@ -236,28 +232,20 @@ Indicates a power action of shutdown/off.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/powrprof/ns-powrprof-global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_user_power_policy">GLOBAL_USER_POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_power_policy">MACHINE_POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-user_power_policy">USER_POWER_POLICY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
- 
-
- 
+<a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
 

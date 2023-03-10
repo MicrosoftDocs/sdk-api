@@ -2,15 +2,12 @@
 UID: NF:winsync.IRecoverableError.GetChangeWithRecoverableError
 title: IRecoverableError::GetChangeWithRecoverableError (winsync.h)
 description: Gets the item change that caused the error.
+helpviewer_keywords: ["GetChangeWithRecoverableError","GetChangeWithRecoverableError method [Windows Sync]","GetChangeWithRecoverableError method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetChangeWithRecoverableError method","IRecoverableError.GetChangeWithRecoverableError","IRecoverableError::GetChangeWithRecoverableError","winsync.irecoverableerror_getchangewithrecoverableerror","winsync/IRecoverableError::GetChangeWithRecoverableError"]
 old-location: winsync\irecoverableerror_getchangewithrecoverableerror.htm
 tech.root: winsync
 ms.assetid: c7ddc479-1428-43d9-9a26-4166cf4eec3d
 ms.date: 12/05/2018
 ms.keywords: GetChangeWithRecoverableError, GetChangeWithRecoverableError method [Windows Sync], GetChangeWithRecoverableError method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetChangeWithRecoverableError method, IRecoverableError.GetChangeWithRecoverableError, IRecoverableError::GetChangeWithRecoverableError, winsync.irecoverableerror_getchangewithrecoverableerror, winsync/IRecoverableError::GetChangeWithRecoverableError
-f1_keywords:
-- winsync/IRecoverableError.GetChangeWithRecoverableError
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableError.GetChangeWithRecoverableError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableError::GetChangeWithRecoverableError
+ - winsync/IRecoverableError::GetChangeWithRecoverableError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableError.GetChangeWithRecoverableError
 ---
 
 # IRecoverableError::GetChangeWithRecoverableError
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the item change that caused the error.
 
-
 ## -parameters
-
-
-
 
 ### -param ppChangeWithRecoverableError [out]
 
 Returns the item change that caused the error.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,18 +90,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerror">IRecoverableError Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerror">IRecoverableError Interface</a>

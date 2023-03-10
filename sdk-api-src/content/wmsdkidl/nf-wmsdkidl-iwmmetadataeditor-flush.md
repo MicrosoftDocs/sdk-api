@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMMetadataEditor.Flush
 title: IWMMetadataEditor::Flush (wmsdkidl.h)
 description: The Flush method closes the open file, saving any changes.
+helpviewer_keywords: ["Flush","Flush method [windows Media Format]","Flush method [windows Media Format]","IWMMetadataEditor interface","IWMMetadataEditor interface [windows Media Format]","Flush method","IWMMetadataEditor.Flush","IWMMetadataEditor::Flush","IWMMetadataEditorFlush","wmformat.iwmmetadataeditor_flush","wmsdkidl/IWMMetadataEditor::Flush"]
 old-location: wmformat\iwmmetadataeditor_flush.htm
 tech.root: wmformat
 ms.assetid: b17992f7-ed93-4f62-bf50-8fb2fd41caee
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Flush method, IWMMetadataEditor.Flush, IWMMetadataEditor::Flush, IWMMetadataEditorFlush, wmformat.iwmmetadataeditor_flush, wmsdkidl/IWMMetadataEditor::Flush
-f1_keywords:
-- wmsdkidl/IWMMetadataEditor.Flush
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMMetadataEditor.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMetadataEditor::Flush
+ - wmsdkidl/IWMMetadataEditor::Flush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMMetadataEditor.Flush
 ---
 
 # IWMMetadataEditor::Flush
@@ -51,23 +53,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Flush</b> method closes the open file, saving any changes.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -132,22 +122,11 @@ There is not enough available memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor">IWMMetadataEditor Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-close">IWMMetadataEditor::Close</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-close">IWMMetadataEditor::Close</a>

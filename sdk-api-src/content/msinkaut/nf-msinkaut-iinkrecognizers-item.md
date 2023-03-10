@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRecognizers.Item
 title: IInkRecognizers::Item (msinkaut.h)
 description: Retrieves the IInkRecognizer object at the specified index within the InkRecognizers collection.
+helpviewer_keywords: ["65c169f0-fe61-4609-809c-52c53cfcba7f","IInkRecognizers interface [Tablet PC]","Item method","IInkRecognizers.Item","IInkRecognizers::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkRecognizers interface","msinkaut/IInkRecognizers::Item","tablet.inkrecognizers_item"]
 old-location: tablet\inkrecognizers_item.htm
 tech.root: tablet
 ms.assetid: 65c169f0-fe61-4609-809c-52c53cfcba7f
 ms.date: 12/05/2018
 ms.keywords: 65c169f0-fe61-4609-809c-52c53cfcba7f, IInkRecognizers interface [Tablet PC],Item method, IInkRecognizers.Item, IInkRecognizers::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognizers interface, msinkaut/IInkRecognizers::Item, tablet.inkrecognizers_item
-f1_keywords:
-- msinkaut/IInkRecognizers.Item
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizers.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizers::Item
+ - msinkaut/IInkRecognizers::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizers.Item
 ---
 
 # IInkRecognizers::Item
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object at the specified index within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection.
-
-
-
+Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object at the specified index within the <a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection.
 
 ## -parameters
 
-
-
-
 ### -param Index [in]
 
-The zero-based index of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to get.
-
+The zero-based index of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object to get.
 
 ### -param InkRecognizer [out, retval]
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object at the specified index within the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection.
-
+When this method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object at the specified index within the <a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -207,35 +197,19 @@ The recognizers registry key is corrupted or your environment does not support h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An error occurs if the index doesn't match any existing member of the collection.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="../msinkaut/nn-msinkaut-iinkrecognizers.md">IInkRecognizers</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846803(v=VS.85).aspx">IInkRecognizers</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>

@@ -2,15 +2,12 @@
 UID: NE:mfmediaengine.MF_TIMED_TEXT_TRACK_KIND
 title: MF_TIMED_TEXT_TRACK_KIND (mfmediaengine.h)
 description: Specifies the kind of timed text track.
+helpviewer_keywords: ["MF_TIMED_TEXT_TRACK_KIND","MF_TIMED_TEXT_TRACK_KIND enumeration [Media Foundation]","MF_TIMED_TEXT_TRACK_KIND_CAPTIONS","MF_TIMED_TEXT_TRACK_KIND_METADATA","MF_TIMED_TEXT_TRACK_KIND_SUBTITLES","MF_TIMED_TEXT_TRACK_KIND_UNKNOWN","mf.mf_timed_text_track_kind","mfmediaengine/MF_TIMED_TEXT_TRACK_KIND","mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_CAPTIONS","mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_METADATA","mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_SUBTITLES","mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_UNKNOWN"]
 old-location: mf\mf_timed_text_track_kind.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: FB064449-56D5-48D4-849F-717767F352F5
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_TRACK_KIND, MF_TIMED_TEXT_TRACK_KIND enumeration [Media Foundation], MF_TIMED_TEXT_TRACK_KIND_CAPTIONS, MF_TIMED_TEXT_TRACK_KIND_METADATA, MF_TIMED_TEXT_TRACK_KIND_SUBTITLES, MF_TIMED_TEXT_TRACK_KIND_UNKNOWN, mf.mf_timed_text_track_kind, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_CAPTIONS, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_METADATA, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_SUBTITLES, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_UNKNOWN
-f1_keywords:
-- mfmediaengine/MF_TIMED_TEXT_TRACK_KIND
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfmediaengine.h
-api_name:
-- MF_TIMED_TEXT_TRACK_KIND
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_TRACK_KIND
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MF_TIMED_TEXT_TRACK_KIND
+ - mfmediaengine/MF_TIMED_TEXT_TRACK_KIND
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfmediaengine.h
+api_name:
+ - MF_TIMED_TEXT_TRACK_KIND
 ---
 
 # MF_TIMED_TEXT_TRACK_KIND enumeration
@@ -48,42 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the kind of timed text track.
-
 
 ## -enum-fields
 
-
-
-
-### -field MF_TIMED_TEXT_TRACK_KIND_UNKNOWN
+### -field MF_TIMED_TEXT_TRACK_KIND_UNKNOWN:0
 
 The kind of timed text track is unknown.
 
-
-### -field MF_TIMED_TEXT_TRACK_KIND_SUBTITLES
+### -field MF_TIMED_TEXT_TRACK_KIND_SUBTITLES:1
 
 The kind of timed text track is subtitles.
 
-
-### -field MF_TIMED_TEXT_TRACK_KIND_CAPTIONS
+### -field MF_TIMED_TEXT_TRACK_KIND_CAPTIONS:2
 
 The kind of timed text track is closed captions.
 
-
-### -field MF_TIMED_TEXT_TRACK_KIND_METADATA
+### -field MF_TIMED_TEXT_TRACK_KIND_METADATA:3
 
 The kind of timed text track is metadata.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

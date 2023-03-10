@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedFeaturePages
 title: IDiscRecorder2Ex::GetSupportedFeaturePages (imapi2.h)
 description: Retrieves the list of supported feature pages or the current feature pages of the device.
+helpviewer_keywords: ["GetSupportedFeaturePages","GetSupportedFeaturePages method [IMAPI]","GetSupportedFeaturePages method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetSupportedFeaturePages method","IDiscRecorder2Ex.GetSupportedFeaturePages","IDiscRecorder2Ex::GetSupportedFeaturePages","imapi.idiscrecorder2ex_getsupportedfeaturepages","imapi2/IDiscRecorder2Ex::GetSupportedFeaturePages"]
 old-location: imapi\idiscrecorder2ex_getsupportedfeaturepages.htm
 tech.root: imapi
 ms.assetid: 64fa8ef5-1298-4fd1-b89d-371f13e50d8c
 ms.date: 12/05/2018
 ms.keywords: GetSupportedFeaturePages, GetSupportedFeaturePages method [IMAPI], GetSupportedFeaturePages method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetSupportedFeaturePages method, IDiscRecorder2Ex.GetSupportedFeaturePages, IDiscRecorder2Ex::GetSupportedFeaturePages, imapi.idiscrecorder2ex_getsupportedfeaturepages, imapi2/IDiscRecorder2Ex::GetSupportedFeaturePages
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.GetSupportedFeaturePages
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.GetSupportedFeaturePages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::GetSupportedFeaturePages
+ - imapi2/IDiscRecorder2Ex::GetSupportedFeaturePages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.GetSupportedFeaturePages
 ---
 
 # IDiscRecorder2Ex::GetSupportedFeaturePages
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the list of supported feature pages or the current feature pages of the device. 
-
+Retrieves the list of supported feature pages or the current feature pages of the device.
 
 ## -parameters
-
-
-
 
 ### -param currentFeatureOnly [in]
 
 Set to True to retrieve only current feature pages. Otherwise, False to retrieve all feature pages that the device supports.
 
-
 ### -param featureData [out]
 
-Data buffer that contains one or more feature page types. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type. 
+Data buffer that contains one or more feature page types. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type. 
 
-To get the feature page data associated with the feature page type, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a> method.
+To get the feature page data associated with the feature page type, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a> method.
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
-
 ### -param byteSize [out]
 
-Number of supported feature pages in the <i>featureData</i> data buffer. 
-
+Number of supported feature pages in the <i>featureData</i> data buffer.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -387,34 +379,23 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentfeaturepages">IDiscRecorder2::get_CurrentFeaturePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_currentfeaturepages">IDiscRecorder2::get_CurrentFeaturePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>

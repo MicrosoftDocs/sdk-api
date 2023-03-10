@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetButtonAtPosition
 title: IDvdInfo2::GetButtonAtPosition (strmif.h)
 description: The GetButtonAtPosition method retrieves the button located at the specified point within the display window.
+helpviewer_keywords: ["GetButtonAtPosition","GetButtonAtPosition method [DirectShow]","GetButtonAtPosition method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetButtonAtPosition method","IDvdInfo2.GetButtonAtPosition","IDvdInfo2::GetButtonAtPosition","IDvdInfo2GetButtonAtPosition","dshow.idvdinfo2_getbuttonatposition","strmif/IDvdInfo2::GetButtonAtPosition"]
 old-location: dshow\idvdinfo2_getbuttonatposition.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f9c506b3-c9d9-4dc2-b318-f987ab8636dc
 ms.date: 12/05/2018
 ms.keywords: GetButtonAtPosition, GetButtonAtPosition method [DirectShow], GetButtonAtPosition method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonAtPosition method, IDvdInfo2.GetButtonAtPosition, IDvdInfo2::GetButtonAtPosition, IDvdInfo2GetButtonAtPosition, dshow.idvdinfo2_getbuttonatposition, strmif/IDvdInfo2::GetButtonAtPosition
-f1_keywords:
-- strmif/IDvdInfo2.GetButtonAtPosition
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetButtonAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetButtonAtPosition
+ - strmif/IDvdInfo2::GetButtonAtPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetButtonAtPosition
 ---
 
 # IDvdInfo2::GetButtonAtPosition
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetButtonAtPosition</code> method retrieves the button located at the specified point within the display window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param point [in]
 
 Current mouse pointer position as retrieved through the Win32 WM_MOUSEMOVE message.
 
-
 ### -param pulButtonIndex [out]
 
 Receives the index (from 1 through 36) of the button at the current mouse pointer position.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -127,35 +117,19 @@ No button at <i>point</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is typically called in response to a mouse pointer move within a DVD menu display window. Be sure to check for success in the <b>HRESULT</b> before trying to retrieve the button number; this method only sets the value of <i>puButtonIndex</i> if a button is found at the specified point. DVD buttons do not necessarily have highlighted rectangles, button rectangles can overlap, and button rectangles do not always correspond to the visual representation of the buttons.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

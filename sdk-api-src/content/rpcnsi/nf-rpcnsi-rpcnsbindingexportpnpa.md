@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingExportPnPA
 title: RpcNsBindingExportPnPA function (rpcnsi.h)
-description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play.
+description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play. (ANSI)
+helpviewer_keywords: ["RpcNsBindingExportPnPA", "rpcnsi/RpcNsBindingExportPnPA"]
 old-location: rpc\rpcnsbindingexportpnp.htm
 tech.root: Rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingExportPnP, RpcNsBindingExportPnP function [RPC], RpcNsBindingExportPnPA, RpcNsBindingExportPnPW, _rpc_rpcnsbindingexportpnp, rpc.rpcnsbindingexportpnp, rpcnsi/RpcNsBindingExportPnP, rpcnsi/RpcNsBindingExportPnPA, rpcnsi/RpcNsBindingExportPnPW
-f1_keywords:
-- rpcnsi/RpcNsBindingExportPnP
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsBindingExportPnP
-- RpcNsBindingExportPnPA
-- RpcNsBindingExportPnPW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsBindingExportPnPA
+ - rpcnsi/RpcNsBindingExportPnPA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsBindingExportPnP
+ - RpcNsBindingExportPnPA
+ - RpcNsBindingExportPnPW
 ---
 
 # RpcNsBindingExportPnPA function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsBindingExportPnP</b> function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -69,7 +67,6 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the entry name to which binding handles and object UUIDs are exported. You cannot provide a null or empty string. 
@@ -79,20 +76,15 @@ Pointer to the entry name to which binding handles and object UUIDs are exported
 
 To use the entry name specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultEntry</b>, provide a null pointer or an empty string. In this case, the <i>EntryNameSyntax</i> parameter is ignored and the run-time library uses the default syntax.
 
-
 ### -param IfSpec
 
 Stub-generated data structure specifying the interface to export. A null value indicates there are no binding handles to export (only object UUIDs are to be exported) and <i>BindingVec</i> is ignored.
-
 
 ### -param ObjectVector
 
 Pointer to a vector of object UUIDs offered by the server. The server application constructs this vector. A null value indicates there are no object UUIDs to export (only binding handles are to be exported).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -202,14 +194,10 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsBindingExportPnP</b> function allows a server application to publicly offer an interface in the name-service database that supports Plug and Play bindings for use by any client application.
@@ -219,17 +207,14 @@ Note that the server application should not explicitly supply the binding vector
 
 
 
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsBindingExportPnP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa">RpcNsBindingUnexportPnP</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa">RpcNsBindingUnexportPnP</a>

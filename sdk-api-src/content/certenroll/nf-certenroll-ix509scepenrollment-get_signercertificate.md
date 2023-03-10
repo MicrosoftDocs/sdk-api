@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_SignerCertificate
 title: IX509SCEPEnrollment::get_SignerCertificate (certenroll.h)
-description: Gets or sets the signer certificate for the request.
+description: Gets or sets the signer certificate for the request. (Get)
+helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","SignerCertificate property","IX509SCEPEnrollment.SignerCertificate","IX509SCEPEnrollment.get_SignerCertificate","IX509SCEPEnrollment::SignerCertificate","IX509SCEPEnrollment::get_SignerCertificate","IX509SCEPEnrollment::put_SignerCertificate","SignerCertificate property [Security]","SignerCertificate property [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::SignerCertificate","certenroll/IX509SCEPEnrollment::get_SignerCertificate","certenroll/IX509SCEPEnrollment::put_SignerCertificate","get_SignerCertificate","security.ix509scepenrollment_signercertificate"]
 old-location: security\ix509scepenrollment_signercertificate.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 7d01acc5-158d-4429-a2e8-d179571f9a1c
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],SignerCertificate property, IX509SCEPEnrollment.SignerCertificate, IX509SCEPEnrollment.get_SignerCertificate, IX509SCEPEnrollment::SignerCertificate, IX509SCEPEnrollment::get_SignerCertificate, IX509SCEPEnrollment::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::SignerCertificate, certenroll/IX509SCEPEnrollment::get_SignerCertificate, certenroll/IX509SCEPEnrollment::put_SignerCertificate, get_SignerCertificate, security.ix509scepenrollment_signercertificate
-f1_keywords:
-- certenroll/IX509SCEPEnrollment.SignerCertificate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Certenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.dll
-api_name:
-- IX509SCEPEnrollment.SignerCertificate
-- IX509SCEPEnrollment.get_SignerCertificate
-- IX509SCEPEnrollment.put_SignerCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509SCEPEnrollment::get_SignerCertificate
+ - certenroll/IX509SCEPEnrollment::get_SignerCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.dll
+api_name:
+ - IX509SCEPEnrollment.SignerCertificate
+ - IX509SCEPEnrollment.get_SignerCertificate
+ - IX509SCEPEnrollment.put_SignerCertificate
 ---
 
 # IX509SCEPEnrollment::get_SignerCertificate
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the signer certificate for the request.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-To create a renewal request, you must set this property prior to calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage">CreateRequestMessage</a> method. Otherwise, the <b>CreateRequestMessage</b> method will create a new request and generate a self-signed certificate using the same private key as the inner PKCSV10 reqeust.
-
-
-
+To create a renewal request, you must set this property prior to calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage">CreateRequestMessage</a> method. Otherwise, the <b>CreateRequestMessage</b> method will create a new request and generate a self-signed certificate using the same private key as the inner PKCSV10 reqeust.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>

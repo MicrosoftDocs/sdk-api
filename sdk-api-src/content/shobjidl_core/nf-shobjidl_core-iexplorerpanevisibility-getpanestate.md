@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IExplorerPaneVisibility.GetPaneState
 title: IExplorerPaneVisibility::GetPaneState (shobjidl_core.h)
 description: Gets the visibility state of the given Windows Explorer pane.
+helpviewer_keywords: ["EP_AdvQueryPane","EP_Commands","EP_Commands_Organize","EP_Commands_View","EP_DetailsPane","EP_NavPane","EP_PreviewPane","EP_QueryPane","EP_Ribbon","EP_StatusBar","GetPaneState","GetPaneState method [Windows Shell]","GetPaneState method [Windows Shell]","IExplorerPaneVisibility interface","IExplorerPaneVisibility interface [Windows Shell]","GetPaneState method","IExplorerPaneVisibility.GetPaneState","IExplorerPaneVisibility::GetPaneState","_shell_IExplorerPaneVisibility_GetPaneState","shell.IExplorerPaneVisibility_GetPaneState","shobjidl_core/IExplorerPaneVisibility::GetPaneState"]
 old-location: shell\IExplorerPaneVisibility_GetPaneState.htm
 tech.root: shell
 ms.assetid: 6c051cdc-b7f9-48dc-ba32-38f0f1ee5fda
 ms.date: 12/05/2018
 ms.keywords: EP_AdvQueryPane, EP_Commands, EP_Commands_Organize, EP_Commands_View, EP_DetailsPane, EP_NavPane, EP_PreviewPane, EP_QueryPane, EP_Ribbon, EP_StatusBar, GetPaneState, GetPaneState method [Windows Shell], GetPaneState method [Windows Shell],IExplorerPaneVisibility interface, IExplorerPaneVisibility interface [Windows Shell],GetPaneState method, IExplorerPaneVisibility.GetPaneState, IExplorerPaneVisibility::GetPaneState, _shell_IExplorerPaneVisibility_GetPaneState, shell.IExplorerPaneVisibility_GetPaneState, shobjidl_core/IExplorerPaneVisibility::GetPaneState
-f1_keywords:
-- shobjidl_core/IExplorerPaneVisibility.GetPaneState
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExplorerPaneVisibility.GetPaneState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExplorerPaneVisibility::GetPaneState
+ - shobjidl_core/IExplorerPaneVisibility::GetPaneState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExplorerPaneVisibility.GetPaneState
 ---
 
 # IExplorerPaneVisibility::GetPaneState
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the visibility state of the given Windows Explorer pane.
 
-
 ## -parameters
-
-
-
 
 ### -param ep [in]
 
@@ -123,30 +120,19 @@ Additional fields and options to aid in a search.
 
 <b>Introduced in Windows 8</b>: The ribbon, which is the control that replaced menus and toolbars at the top of many Microsoft applications.
 
-
 ### -param peps [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a>*</b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a>*</b>
 
-When this method returns, contains the visibility state of the given Windows Explorer pane as one of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a> constants.
-
+When this method returns, contains the visibility state of the given Windows Explorer pane as one of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_explorerpanestate">EXPLORERPANESTATE</a> constants.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 If the implementer does not care about the state of a given pane and therefore does not want to change it, then the implementer should return a success code for the method and EPS_DONTCARE for the <i>peps</i> parameter. If the method fails, it is treated as if EPS_DONTCARE was returned for the <i>peps</i> parameter.
-
-
 

@@ -1,15 +1,12 @@
 ---
 UID: NF:resapi.ClusWorkerTerminate
 title: ClusWorkerTerminate
-description: Waits for a worker thread to terminate up to the specified timeout.
+description: Waits for a worker thread to terminate up to the specified timeout. (ClusWorkerTerminate)
+helpviewer_keywords: ["ClusWorkerTerminate"]
 ms.date: 07/01/2019
 tech.root: MsCS
 ms.keywords: ClusWorkerTerminate
 targetos: Windows
-f1_keywords:
-- resapi/ClusWorkerTerminate
-dev_langs:
-- c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -23,20 +20,25 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ClusWorkerTerminate
+ - resapi/ClusWorkerTerminate
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- resutils.dll
+ - resutils.dll
 api_name:
-- ClusWorkerTerminate
+ - ClusWorkerTerminate
 ---
 
 ## -description

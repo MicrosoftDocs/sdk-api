@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDrawSurface7.PageUnlock
 title: IDirectDrawSurface7::PageUnlock (ddraw.h)
 description: Unlocks a system-memory surface, which then allows it to be paged out.
+helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","PageUnlock method","IDirectDrawSurface7.PageUnlock","IDirectDrawSurface7::PageUnlock","PageUnlock","PageUnlock method [DirectDraw]","PageUnlock method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::PageUnlock","directdraw.idirectdrawsurface7_pageunlock"]
 old-location: directdraw\idirectdrawsurface7_pageunlock.htm
 tech.root: directdraw
 ms.assetid: 1a87df37-a53f-4240-a5cb-47b13999c34b
@@ -43,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::PageUnlock
-
-
 ## -description
-
 
 Unlocks a system-memory surface, which then allows it to be paged out.
 
-
 ## -parameters
 
-
-
-
-
-
-#### - dwFlags [in]
+### -param unnamedParam1 [in]
 
 Currently not used and must be set to 0.
 
-
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -82,34 +68,16 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_SURFACELOST</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-A lock count is maintained for each surface and is incremented each time that <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-pagelock">IDirectDrawSurface7::PageLock</a> is called for that surface. The count is decremented when <b>PageUnlock</b> is called. When the count reaches 0, the memory is unlocked, and can then be paged by the operating system.
+A lock count is maintained for each surface and is incremented each time that <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-pagelock">IDirectDrawSurface7::PageLock</a> is called for that surface. The count is decremented when <b>PageUnlock</b> is called. When the count reaches 0, the memory is unlocked, and can then be paged by the operating system.
 
 <b>PageUnlock</b> works only on system-memory surfaces; it does not page-unlock a display-memory surface or an emulated primary surface. If an application calls <b>PageUnlock</b> on a display memory surface, the method does nothing except return DD_OK.
-
-
 
 <b>IDirectDrawSurface7::PageUnlock</b> was not implemented in the <b>IDirectDraw</b> interface version.
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>PageUnlock</b> method.
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGatherMigrationBlob
 title: SLGatherMigrationBlob function (slpublic.h)
 description: Gathers licensing information for the provided file handle. This licensing information can later be applied or deposited using the SLDepositMigrationBlob function.
+helpviewer_keywords: ["SLGatherMigrationBlob","SLGatherMigrationBlob function [Security]","security.slgathermigrationblob","slpublic/SLGatherMigrationBlob"]
 old-location: security\slgathermigrationblob.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 490a5dbd-8c4b-4b25-ae21-f5f58b97a58f
 ms.date: 12/05/2018
 ms.keywords: SLGatherMigrationBlob, SLGatherMigrationBlob function [Security], security.slgathermigrationblob, slpublic/SLGatherMigrationBlob
-f1_keywords:
-- slpublic/SLGatherMigrationBlob
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGatherMigrationBlob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGatherMigrationBlob
+ - slpublic/SLGatherMigrationBlob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGatherMigrationBlob
 ---
 
 # SLGatherMigrationBlob function
@@ -48,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gathers licensing information for the provided file handle. This licensing information  
-	can later be applied or deposited using the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-sldepositmigrationblob">SLDepositMigrationBlob</a> function.
-
+	can later be applied or deposited using the <a href="/windows/desktop/api/slpublic/nf-slpublic-sldepositmigrationblob">SLDepositMigrationBlob</a> function.
 
 ## -parameters
-
-
-
 
 ### -param bMigratableOnly [in]
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if only data that can be migrated should be gathered; <b>FALSE</b> otherwise.
-
 
 ### -param pwszEncryptorUri [in, optional]
 
@@ -73,17 +69,13 @@ The URI of the encrypting session key used to encrypt
 		any sensitive data in the output BLOB. Only valid values are <b>NULL</b> and <b>SL_DEFAULT_MIGRATION_ENCRYPTOR_URI</b>,     
 		which both refer to the same key.
 
-
 ### -param hFile [in]
 
 Type: <b>HANDLE</b>
 
 The handle to the file where the licensing state BLOB should be written.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -119,7 +111,3 @@ Access denied (API requires admin privileges).
 </td>
 </tr>
 </table>
- 
-
-
-

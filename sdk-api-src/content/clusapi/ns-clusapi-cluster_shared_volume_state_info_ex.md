@@ -1,16 +1,13 @@
 ---
 UID: NS:clusapi._CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 title: CLUSTER_SHARED_VOLUME_STATE_INFO_EX (clusapi.h)
-description: Represents information about the state of a Cluster Shared Volume (CSV).
+description: Represents information about the state of a Cluster Shared Volume (CSV). (CLUSTER_SHARED_VOLUME_STATE_INFO_EX)
+helpviewer_keywords: ["*PCLUSTER_SHARED_VOLUME_STATE_INFO_EX","CLUSTER_SHARED_VOLUME_STATE_INFO_EX","CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure [Failover Cluster]","PCLUSTER_SHARED_VOLUME_STATE_INFO_EX","PCLUSTER_SHARED_VOLUME_STATE_INFO_EX structure pointer [Failover Cluster]","RedirectedIOReasonBitLockerInitializing","RedirectedIOReasonFileSystemTiering","RedirectedIOReasonMax","RedirectedIOReasonReFs","RedirectedIOReasonUnsafeFileSystemFilter","RedirectedIOReasonUnsafeVolumeFilter","RedirectedIOReasonUserRequest","VolumeRedirectedIOReasonMax","VolumeRedirectedIOReasonNoDiskConnectivity","VolumeRedirectedIOReasonStorageSpaceNotAttached","VolumeRedirectedIOReasonVolumeReplicationEnabled","clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX","clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO_EX","mscs.cluster_shared_volume_state_info_ex"]
 old-location: mscs\cluster_shared_volume_state_info_ex.htm
 tech.root: MsCS
 ms.assetid: B0926E1A-CA39-44FE-989C-B8BDD86F9683
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX, CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure [Failover Cluster], PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, PCLUSTER_SHARED_VOLUME_STATE_INFO_EX structure pointer [Failover Cluster], RedirectedIOReasonBitLockerInitializing, RedirectedIOReasonFileSystemTiering, RedirectedIOReasonMax, RedirectedIOReasonReFs, RedirectedIOReasonUnsafeFileSystemFilter, RedirectedIOReasonUnsafeVolumeFilter, RedirectedIOReasonUserRequest, VolumeRedirectedIOReasonMax, VolumeRedirectedIOReasonNoDiskConnectivity, VolumeRedirectedIOReasonStorageSpaceNotAttached, VolumeRedirectedIOReasonVolumeReplicationEnabled, clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX, clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO_EX, mscs.cluster_shared_volume_state_info_ex'
-f1_keywords:
-- clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_STATE_INFO_EX, *PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+ - clusapi/_CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+ - PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
+ - clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
+ - CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+ - clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO_EX
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 ---
 
 # CLUSTER_SHARED_VOLUME_STATE_INFO_EX structure
@@ -47,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents information about the state of a Cluster Shared Volume (CSV).
 
-
 ## -struct-fields
-
-
-
 
 ### -field szVolumeName
 
 A Unicode string that contains the volume name of the CSV. The string ends in a terminating null character. The name that is provided can be either the cluster-assigned friendly name or the volume GUID path of the form "\\?\Volume{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}\".
 
-
 ### -field szNodeName
 
 The node name of the node that hosts the CSV.
 
-
 ### -field VolumeState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_state">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
-
+A <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_state">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
 
 ### -field szVolumeFriendlyName
 
 The friendly name of the CSV.
-
 
 ### -field RedirectedIOReason
 
@@ -129,7 +125,6 @@ TBD
 
 All reasons.
 
-
 ### -field VolumeRedirectedIOReason
 
 A bitmask that  specifies the reasons that direct access mode is enabled on the CSV.
@@ -165,18 +160,10 @@ Replication is enabled on the volume.
 
 All reasons.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_shared_volume_state_info">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_shared_volume_state_info">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>

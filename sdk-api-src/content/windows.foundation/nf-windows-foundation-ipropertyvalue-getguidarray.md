@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetGuidArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetGuidArray (windows.foundation.h)
 description: Gets the array of Guid values that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetGuidArray","GetGuidArray method [Windows Runtime]","GetGuidArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetGuidArray method","IPropertyValue.GetGuidArray","IPropertyValue.IPropertyValue","IPropertyValue::GetGuidArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetGuidArray","winrt.ipropertyvalue_getguidarray"]
 old-location: winrt\ipropertyvalue_getguidarray.htm
 tech.root: WinRT
 ms.assetid: 83d19a18-3cd4-4343-8609-12e9a65b8e37
 ms.date: 12/05/2018
 ms.keywords: GetGuidArray, GetGuidArray method [Windows Runtime], GetGuidArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetGuidArray method, IPropertyValue.GetGuidArray, IPropertyValue.IPropertyValue, IPropertyValue::GetGuidArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetGuidArray, winrt.ipropertyvalue_getguidarray
-f1_keywords:
-- windows.foundation/IPropertyValue.GetGuidArray
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetGuidArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetGuidArray
+ - windows.foundation/IPropertyValue::GetGuidArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetGuidArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetGuidArray (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the array of <a href="https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN">Guid</a> values that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the array of <a href="/dotnet/api/system.guid">Guid</a> values that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param __valueSize [out]
 
@@ -63,38 +60,24 @@ Type: <b>UINT32*</b>
 
 The number of values in the array.
 
-
 ### -param value [out]
 
 Type: <b>GUID**</b>
 
-The array of <a href="https://docs.microsoft.com/dotnet/api/system.guid?redirectedfrom=MSDN">Guid</a> values.
+The array of <a href="/dotnet/api/system.guid">Guid</a> values.
 
-The returned pointer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+The returned pointer must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguidarray">IPropertyValueStatics::CreateGuidArray</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createguidarray">IPropertyValueStatics::CreateGuidArray</a>

@@ -2,15 +2,12 @@
 UID: NS:shlobj._SHChangeProductKeyAsIDList
 title: SHChangeProductKeyAsIDList (shlobj.h)
 description: SHChangeProductKeyAsIDList structure
+helpviewer_keywords: ["*LPSHChangeProductKeyAsIDList","SHChangeProductKeyAsIDList","SHChangeProductKeyAsIDList structure [Windows Shell]","_shell_shchangeproductkeyasidlist","shell.SHChangeProductKeyAsIDList","shlobj/SHChangeProductKeyAsIDList"]
 old-location: shell\SHChangeProductKeyAsIDList.htm
 tech.root: shell
 ms.assetid: 98aba08d-518c-4ff9-af3d-c9a92b6fe5ab
 ms.date: 12/05/2018
 ms.keywords: '*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList structure [Windows Shell], _shell_shchangeproductkeyasidlist, shell.SHChangeProductKeyAsIDList, shlobj/SHChangeProductKeyAsIDList'
-f1_keywords:
-- shlobj/SHChangeProductKeyAsIDList
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj.h
-api_name:
-- SHChangeProductKeyAsIDList
 targetos: Windows
 req.typenames: SHChangeProductKeyAsIDList, *LPSHChangeProductKeyAsIDList
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHChangeProductKeyAsIDList
+ - shlobj/_SHChangeProductKeyAsIDList
+ - LPSHChangeProductKeyAsIDList
+ - shlobj/LPSHChangeProductKeyAsIDList
+ - SHChangeProductKeyAsIDList
+ - shlobj/SHChangeProductKeyAsIDList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj.h
+api_name:
+ - SHChangeProductKeyAsIDList
 ---
 
 # SHChangeProductKeyAsIDList structure
@@ -48,9 +54,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This structure is not supported.]
-
 
 ## -struct-fields
 

@@ -2,15 +2,12 @@
 UID: NS:bcrypt._BCRYPT_OAEP_PADDING_INFO
 title: BCRYPT_OAEP_PADDING_INFO (bcrypt.h)
 description: Used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.
+helpviewer_keywords: ["BCRYPT_OAEP_PADDING_INFO","BCRYPT_OAEP_PADDING_INFO structure [Security]","bcrypt/BCRYPT_OAEP_PADDING_INFO","security.bcrypt_oaep_padding_info"]
 old-location: security\bcrypt_oaep_padding_info.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 19f48f2d-e952-4a01-8112-f298c79919b2
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OAEP_PADDING_INFO, BCRYPT_OAEP_PADDING_INFO structure [Security], bcrypt/BCRYPT_OAEP_PADDING_INFO, security.bcrypt_oaep_padding_info
-f1_keywords:
-- bcrypt/BCRYPT_OAEP_PADDING_INFO
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Bcrypt.h
-api_name:
-- BCRYPT_OAEP_PADDING_INFO
 targetos: Windows
 req.typenames: BCRYPT_OAEP_PADDING_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _BCRYPT_OAEP_PADDING_INFO
+ - bcrypt/_BCRYPT_OAEP_PADDING_INFO
+ - BCRYPT_OAEP_PADDING_INFO
+ - bcrypt/BCRYPT_OAEP_PADDING_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Bcrypt.h
+api_name:
+ - BCRYPT_OAEP_PADDING_INFO
 ---
 
 # BCRYPT_OAEP_PADDING_INFO structure
@@ -48,41 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCRYPT_OAEP_PADDING_INFO</b> structure is used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.
-
 
 ## -struct-fields
 
-
-
-
 ### -field pszAlgId
 
-A pointer to a null-terminated Unicode string that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> to use to create the padding. This algorithm must be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a>.
-
+A pointer to a null-terminated Unicode string that identifies the <a href="/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> to use to create the padding. This algorithm must be a <a href="/windows/desktop/SecGloss/h-gly">hashing algorithm</a>.
 
 ### -field pbLabel
 
 The address of a buffer that contains the data to use to create the padding. The <b>cbLabel</b> member contains the size of this buffer.
 
-
 ### -field cbLabel
 
 Contains the number of bytes in the <b>pbLabel</b> buffer to use to create the padding.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdecrypt">BCryptDecrypt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdecrypt">BCryptDecrypt</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a>

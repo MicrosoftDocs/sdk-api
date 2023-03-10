@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaEngine.GetPreload
 title: IMFMediaEngine::GetPreload (mfmediaengine.h)
 description: Gets the preload flag.
+helpviewer_keywords: ["GetPreload","GetPreload method [Media Foundation]","GetPreload method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetPreload method","IMFMediaEngine.GetPreload","IMFMediaEngine::GetPreload","mf.imfmediaengine_getpreload","mfmediaengine/IMFMediaEngine::GetPreload"]
 old-location: mf\imfmediaengine_getpreload.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: AA1942B2-C5BB-46F7-B163-1BCB3372D453
 ms.date: 12/05/2018
 ms.keywords: GetPreload, GetPreload method [Media Foundation], GetPreload method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPreload method, IMFMediaEngine.GetPreload, IMFMediaEngine::GetPreload, mf.imfmediaengine_getpreload, mfmediaengine/IMFMediaEngine::GetPreload
-f1_keywords:
-- mfmediaengine/IMFMediaEngine.GetPreload
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngine.GetPreload
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngine::GetPreload
+ - mfmediaengine/IMFMediaEngine::GetPreload
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngine.GetPreload
 ---
 
 # IMFMediaEngine::GetPreload
@@ -48,42 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the preload flag.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_preload">MF_MEDIA_ENGINE_PRELOAD</a> enumeration value.
-
-
-
+Returns an <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_media_engine_preload">MF_MEDIA_ENGINE_PRELOAD</a> enumeration value.
 
 ## -remarks
 
-
-
 This method corresponds to the <b>preload</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5. The value is a hint to the user-agent whether to preload the media resource.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>

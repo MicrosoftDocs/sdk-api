@@ -1,16 +1,13 @@
 ---
 UID: NS:mmeapi.waveoutcaps_tag
 title: WAVEOUTCAPS (mmeapi.h)
-description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.
+description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device. (WAVEOUTCAPS)
+helpviewer_keywords: ["*LPWAVEOUTCAPS","*NPWAVEOUTCAPS","*PWAVEOUTCAPS","WAVEOUTCAPS","WAVEOUTCAPS structure [Windows Multimedia]","_win32_WAVEOUTCAPS_str","mmeapi/WAVEOUTCAPS","multimedia.waveoutcaps","tagWAVEOUTCAPSA","tagWAVEOUTCAPSW","waveoutcaps_tag"]
 old-location: multimedia\waveoutcaps.htm
 tech.root: Multimedia
 ms.assetid: 756f47fa-c0d1-4729-a0f6-096a1212d0a2
 ms.date: 12/05/2018
 ms.keywords: '*LPWAVEOUTCAPS, *NPWAVEOUTCAPS, *PWAVEOUTCAPS, WAVEOUTCAPS, WAVEOUTCAPS structure [Windows Multimedia], _win32_WAVEOUTCAPS_str, mmeapi/WAVEOUTCAPS, multimedia.waveoutcaps, tagWAVEOUTCAPSA, tagWAVEOUTCAPSW, waveoutcaps_tag'
-f1_keywords:
-- mmeapi/WAVEOUTCAPS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- WAVEOUTCAPS
 targetos: Windows
 req.typenames: WAVEOUTCAPS, *PWAVEOUTCAPS, *NPWAVEOUTCAPS, *LPWAVEOUTCAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - waveoutcaps_tag
+ - mmeapi/waveoutcaps_tag
+ - PWAVEOUTCAPS
+ - mmeapi/PWAVEOUTCAPS
+ - WAVEOUTCAPS
+ - mmeapi/WAVEOUTCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - WAVEOUTCAPS
 ---
 
 # WAVEOUTCAPS structure
@@ -48,37 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WAVEOUTCAPS</b> structure describes the capabilities of a waveform-audio output device.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field wMid
 
-Manufacturer identifier for the device driver for the device. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
-
+Manufacturer identifier for the device driver for the device. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field wPid
 
-Product identifier for the device. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
-
+Product identifier for the device. Product identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field vDriverVersion
 
 Version number of the device driver for the device. The high-order byte is the major version number, and the low-order byte is the minor version number.
 
-
 ### -field szPname
 
 Product name in a null-terminated string.
-
 
 ### -field dwFormats
 
@@ -154,13 +148,10 @@ Standard formats that are supported. Can be a combination of the following:
 <td>96 kHz, stereo, 16-bit</td>
 </tr>
 </table>
- 
-
 
 ### -field wChannels
 
 Number specifying whether the device supports mono (1) or stereo (2) output.
-
 
 ### -field dwSupport
 
@@ -196,34 +187,15 @@ Optional functionality supported by the device. The following values are defined
 <td>Returns sample-accurate position information.</td>
 </tr>
 </table>
- 
-
-
-#### - wReserved1
-
-Packing.
-
 
 ## -remarks
 
-
-
 If a device supports volume changes, the WAVECAPS_VOLUME flag will be set for the <b>dwSupport</b> member. If a device supports separate volume changes on the left and right channels, both the WAVECAPS_VOLUME and the WAVECAPS_LRVOLUME flags will be set for this member.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>

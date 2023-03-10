@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetComponentPathA
 title: MsiGetComponentPathA function (msi.h)
-description: The MsiGetComponentPath function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
+description: The MsiGetComponentPath function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned. (ANSI)
+helpviewer_keywords: ["HKEY_CLASSES_ROOT", "HKEY_CURRENT_USER", "HKEY_LOCAL_MACHINE", "HKEY_USERS", "MsiGetComponentPathA", "msi/MsiGetComponentPathA"]
 old-location: setup\msigetcomponentpath.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 957fd25c-8db6-4f2e-a705-1e8c3b3de6c1
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MsiGetComponentPath, MsiGetComponentPath function, MsiGetComponentPathA, MsiGetComponentPathW, _msi_msigetcomponentpath, msi/MsiGetComponentPath, msi/MsiGetComponentPathA, msi/MsiGetComponentPathW, setup.msigetcomponentpath
-f1_keywords:
-- msi/MsiGetComponentPath
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetComponentPath
-- MsiGetComponentPathA
-- MsiGetComponentPathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetComponentPathA
+ - msi/MsiGetComponentPathA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetComponentPath
+ - MsiGetComponentPathA
+ - MsiGetComponentPathW
 ---
 
 # MsiGetComponentPathA function
@@ -50,35 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetComponentPath</b> function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the client product.
 
-
 ### -param szComponent [in]
 
 Specifies the component ID of the component to be located.
 
-
 ### -param lpPathBuf [out]
 
-Pointer to a variable that receives the path to the component. This parameter can be null. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
+Pointer to a variable that receives the path to the component. This parameter can be null. If the component is a registry key, the registry roots are represented numerically. If this is a registry subkey path, there is a backslash at the end of the Key Path. If this is a registry value key path, there is no backslash at the end. For example, a registry path on a 32-bit operating system of <b>HKEY_CURRENT_USER</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b> is returned as "01:\SOFTWARE\Microsoft\". The registry roots returned on 32-bit operating systems are defined as shown in the following table. 
 
 
 
 
 <div class="alert"><b>Note</b>  On 64-bit operating systems, a value of 20 is added to the numerical registry roots in this table to distinguish them from registry key paths on 32-bit operating systems.
-For example, a registry key path of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>Microsoft</b> is returned as "21:\SOFTWARE\Microsoft\", if the component path is a registry key on a 64-bit operating system.</div>
+For example, a registry key path of <b>HKEY_CURRENT_USER</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b> is returned as "21:\SOFTWARE\Microsoft\", if the component path is a registry key on a 64-bit operating system.</div>
 <div> </div>
 
 
@@ -128,8 +123,6 @@ For example, a registry key path of <b>HKEY_CURRENT_USER</b>\<b>SOFTWARE</b>\<b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcchBuf [in, out]
 
@@ -140,10 +133,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiGetComponentPath</b> function returns the following values.
@@ -232,14 +222,8 @@ The product code or component ID is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Upon success of the 
 <b>MsiGetComponentPath</b> function, the <i>pcchBuf</i> parameter contains the length of the string in <i>lpPathBuf</i>.
@@ -252,17 +236,17 @@ The
 
 
 The application did not properly ensure that the feature was installed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
 
 </li>
 <li>INSTALLSTATE_UNKNOWN 
 
 
 The feature is not published. The application should have determined this earlier by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
+<a href="/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
+<a href="/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
 <b>MsiUseFeature</b> was not called, or its return value was not properly checked.
 
 </li>
@@ -270,13 +254,10 @@ The feature is not published. The application should have determined this earlie
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiGetComponentPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>

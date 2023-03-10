@@ -2,15 +2,12 @@
 UID: NF:drt.DrtDeletePnrpBootstrapResolver
 title: DrtDeletePnrpBootstrapResolver function (drt.h)
 description: DrtDeletePnrpBootstrapResolver function deletes a bootstrap resolver based on the Peer Name Resolution Protocol (PNRP).
+helpviewer_keywords: ["DrtDeletePnrpBootstrapResolver","DrtDeletePnrpBootstrapResolver function [Peer Networking]","drt/DrtDeletePnrpBootstrapResolver","p2p.drtdeletepnrpbootstrapresolver"]
 old-location: p2p\drtdeletepnrpbootstrapresolver.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 0ff7bcc6-548b-475a-8a83-1ca50dbe333d
 ms.date: 12/05/2018
 ms.keywords: DrtDeletePnrpBootstrapResolver, DrtDeletePnrpBootstrapResolver function [Peer Networking], drt/DrtDeletePnrpBootstrapResolver, p2p.drtdeletepnrpbootstrapresolver
-f1_keywords:
-- drt/DrtDeletePnrpBootstrapResolver
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtDeletePnrpBootstrapResolver
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtDeletePnrpBootstrapResolver
+ - drt/DrtDeletePnrpBootstrapResolver
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtDeletePnrpBootstrapResolver
 ---
 
 # DrtDeletePnrpBootstrapResolver function
@@ -48,36 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DrtDeletePnrpBootstrapResolver</b> function deletes a  bootstrap resolver based on the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-namespace-provider-api">Peer Name Resolution Protocol</a> (PNRP).
-
+The <b>DrtDeletePnrpBootstrapResolver</b> function deletes a  bootstrap resolver based on the <a href="/windows/desktop/P2PSdk/pnrp-namespace-provider-api">Peer Name Resolution Protocol</a> (PNRP).
 
 ## -parameters
-
-
-
 
 ### -param pResolver [in]
 
 Pointer to the created PNRP bootstrap resolver to be deleted.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>

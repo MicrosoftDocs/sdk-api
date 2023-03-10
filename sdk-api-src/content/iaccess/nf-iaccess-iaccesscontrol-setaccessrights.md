@@ -2,15 +2,12 @@
 UID: NF:iaccess.IAccessControl.SetAccessRights
 title: IAccessControl::SetAccessRights (iaccess.h)
 description: Replaces the existing access rights on an object with the specified list.
+helpviewer_keywords: ["IAccessControl interface [COM]","SetAccessRights method","IAccessControl.SetAccessRights","IAccessControl::SetAccessRights","SetAccessRights","SetAccessRights method [COM]","SetAccessRights method [COM]","IAccessControl interface","_com_iaccesscontrol_setaccessrights","com.iaccesscontrol_setaccessrights","iaccess/IAccessControl::SetAccessRights"]
 old-location: com\iaccesscontrol_setaccessrights.htm
 tech.root: com
 ms.assetid: 5f4224fe-255f-4eb7-88bb-47501718589b
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],SetAccessRights method, IAccessControl.SetAccessRights, IAccessControl::SetAccessRights, SetAccessRights, SetAccessRights method [COM], SetAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_setaccessrights, com.iaccesscontrol_setaccessrights, iaccess/IAccessControl::SetAccessRights
-f1_keywords:
-- iaccess/IAccessControl.SetAccessRights
-dev_langs:
-- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IAccess.h
-api_name:
-- IAccessControl.SetAccessRights
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessControl::SetAccessRights
+ - iaccess/IAccessControl::SetAccessRights
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IAccess.h
+api_name:
+ - IAccessControl.SetAccessRights
 ---
 
 # IAccessControl::SetAccessRights
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the existing access rights on an object with the specified list.
-
 
 ## -parameters
 
-
-
-
 ### -param pAccessList [in]
 
-A pointer to the [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)a> list that contains an array of access lists to be written to the object.
-
+A pointer to the [ACTRL_ACCESS](../accctrl/ns-accctrl-explicit_access_a.md) list that contains an array of access lists to be written to the object.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>

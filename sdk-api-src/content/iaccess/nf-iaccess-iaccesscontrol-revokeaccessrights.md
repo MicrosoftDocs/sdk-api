@@ -2,15 +2,12 @@
 UID: NF:iaccess.IAccessControl.RevokeAccessRights
 title: IAccessControl::RevokeAccessRights (iaccess.h)
 description: Removes any explicit entries for the list of trustees.
+helpviewer_keywords: ["IAccessControl interface [COM]","RevokeAccessRights method","IAccessControl.RevokeAccessRights","IAccessControl::RevokeAccessRights","RevokeAccessRights","RevokeAccessRights method [COM]","RevokeAccessRights method [COM]","IAccessControl interface","_com_iaccesscontrol_revokeaccessrights","com.iaccesscontrol_revokeaccessrights","iaccess/IAccessControl::RevokeAccessRights"]
 old-location: com\iaccesscontrol_revokeaccessrights.htm
 tech.root: com
 ms.assetid: 09b37002-0ad3-43c2-8a39-b440158310bb
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],RevokeAccessRights method, IAccessControl.RevokeAccessRights, IAccessControl::RevokeAccessRights, RevokeAccessRights, RevokeAccessRights method [COM], RevokeAccessRights method [COM],IAccessControl interface, _com_iaccesscontrol_revokeaccessrights, com.iaccesscontrol_revokeaccessrights, iaccess/IAccessControl::RevokeAccessRights
-f1_keywords:
-- iaccess/IAccessControl.RevokeAccessRights
-dev_langs:
-- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- IAccess.h
-api_name:
-- IAccessControl.RevokeAccessRights
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAccessControl::RevokeAccessRights
+ - iaccess/IAccessControl::RevokeAccessRights
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - IAccess.h
+api_name:
+ - IAccessControl.RevokeAccessRights
 ---
 
 # IAccessControl::RevokeAccessRights
@@ -48,55 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes any explicit entries for the list of trustees.
-
 
 ## -parameters
 
-
-
-
 ### -param lpProperty [in]
 
-The name of the property. If you are using the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this parameter must be <b>NULL</b>.
-
+The name of the property. If you are using the COM implementation of <a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this parameter must be <b>NULL</b>.
 
 ### -param cTrustees [in]
 
-The number of trustees in the list. This parameter cannot be 0. 
-
+The number of trustees in the list. This parameter cannot be 0.
 
 ### -param prgTrustees [in]
 
-A pointer to an array of trustee names. See <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>.
-
+A pointer to an array of trustee names. See <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Even after removing explicit entries, the trustees might still have access entries due to group inclusion.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>

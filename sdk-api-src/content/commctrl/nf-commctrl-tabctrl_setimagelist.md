@@ -2,15 +2,12 @@
 UID: NF:commctrl.TabCtrl_SetImageList
 title: TabCtrl_SetImageList macro (commctrl.h)
 description: Assigns an image list to a tab control. You can use this macro or send the TCM_SETIMAGELIST message explicitly.
+helpviewer_keywords: ["TabCtrl_SetImageList","TabCtrl_SetImageList macro [Windows Controls]","_win32_TabCtrl_SetImageList","_win32_TabCtrl_SetImageList_cpp","commctrl/TabCtrl_SetImageList","controls.TabCtrl_SetImageList","controls._win32_TabCtrl_SetImageList"]
 old-location: controls\TabCtrl_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setimagelist.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetImageList, TabCtrl_SetImageList macro [Windows Controls], _win32_TabCtrl_SetImageList, _win32_TabCtrl_SetImageList_cpp, commctrl/TabCtrl_SetImageList, controls.TabCtrl_SetImageList, controls._win32_TabCtrl_SetImageList
-f1_keywords:
-- commctrl/TabCtrl_SetImageList
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TabCtrl_SetImageList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TabCtrl_SetImageList
+ - commctrl/TabCtrl_SetImageList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TabCtrl_SetImageList
 ---
 
 # TabCtrl_SetImageList macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Assigns an image list to a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-setimagelist">TCM_SETIMAGELIST</a> message explicitly. 
-
+Assigns an image list to a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-setimagelist">TCM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tab control. 
-
+Handle to the tab control.
 
 ### -param himl
 
 Type: <b>HIMAGELIST</b>
 
-Handle to the image list to assign to the tab control. 
-
+Handle to the image list to assign to the tab control.

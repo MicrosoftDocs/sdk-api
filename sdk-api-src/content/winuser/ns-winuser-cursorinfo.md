@@ -2,15 +2,12 @@
 UID: NS:winuser.tagCURSORINFO
 title: CURSORINFO (winuser.h)
 description: Contains global cursor information.
+helpviewer_keywords: ["*LPCURSORINFO","*PCURSORINFO","CURSORINFO","CURSORINFO structure [Menus and Other Resources]","CURSOR_SHOWING","CURSOR_SUPPRESSED","LPCURSORINFO","LPCURSORINFO structure pointer [Menus and Other Resources]","PCURSORINFO","PCURSORINFO structure pointer [Menus and Other Resources]","_win32_CURSORINFO_str","_win32_cursorinfo_str_cpp","menurc.cursorinfo","winui._win32_cursorinfo_str","winuser/CURSORINFO","winuser/LPCURSORINFO","winuser/PCURSORINFO"]
 old-location: menurc\cursorinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorstructures\cursorinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPCURSORINFO, *PCURSORINFO, CURSORINFO, CURSORINFO structure [Menus and Other Resources], CURSOR_SHOWING, CURSOR_SUPPRESSED, LPCURSORINFO, LPCURSORINFO structure pointer [Menus and Other Resources], PCURSORINFO, PCURSORINFO structure pointer [Menus and Other Resources], _win32_CURSORINFO_str, _win32_cursorinfo_str_cpp, menurc.cursorinfo, winui._win32_cursorinfo_str, winuser/CURSORINFO, winuser/LPCURSORINFO, winuser/PCURSORINFO'
-f1_keywords:
-- winuser/CURSORINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- CURSORINFO
 targetos: Windows
 req.typenames: CURSORINFO, *PCURSORINFO, *LPCURSORINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCURSORINFO
+ - winuser/tagCURSORINFO
+ - PCURSORINFO
+ - winuser/PCURSORINFO
+ - CURSORINFO
+ - winuser/CURSORINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - CURSORINFO
 ---
 
 # CURSORINFO structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains global cursor information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
 The size of the structure, in bytes. The caller must set this to <code>sizeof(CURSORINFO)</code>.
-
 
 ### -field flags
 
@@ -109,46 +109,35 @@ The cursor is showing.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hCursor
 
 Type: <b>HCURSOR</b>
 
-A handle to the cursor. 
-
+A handle to the cursor.
 
 ### -field ptScreenPos
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 A   structure that receives the screen coordinates of the cursor.
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

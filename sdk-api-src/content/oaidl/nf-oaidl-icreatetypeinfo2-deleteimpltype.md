@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo2.DeleteImplType
 title: ICreateTypeInfo2::DeleteImplType (oaidl.h)
 description: Deletes the IMPLTYPE flags for the indexed interface.
+helpviewer_keywords: ["DeleteImplType","DeleteImplType method [Automation]","DeleteImplType method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteImplType method","ICreateTypeInfo2.DeleteImplType","ICreateTypeInfo2::DeleteImplType","_oa96_ICreateTypeInfo2_DeleteImplType","automat.icreatetypeinfo2_deleteimpltype","oaidl/ICreateTypeInfo2::DeleteImplType"]
 old-location: automat\icreatetypeinfo2_deleteimpltype.htm
 tech.root: automat
 ms.assetid: c64b70eb-6047-4572-9d5e-f40b3c302f31
 ms.date: 12/05/2018
 ms.keywords: DeleteImplType, DeleteImplType method [Automation], DeleteImplType method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteImplType method, ICreateTypeInfo2.DeleteImplType, ICreateTypeInfo2::DeleteImplType, _oa96_ICreateTypeInfo2_DeleteImplType, automat.icreatetypeinfo2_deleteimpltype, oaidl/ICreateTypeInfo2::DeleteImplType
-f1_keywords:
-- oaidl/ICreateTypeInfo2.DeleteImplType
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo2.DeleteImplType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo2::DeleteImplType
+ - oaidl/ICreateTypeInfo2::DeleteImplType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo2.DeleteImplType
 ---
 
 # ICreateTypeInfo2::DeleteImplType
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the IMPLTYPE flags for the indexed interface.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the interface for which to delete the type flags.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,18 +104,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>

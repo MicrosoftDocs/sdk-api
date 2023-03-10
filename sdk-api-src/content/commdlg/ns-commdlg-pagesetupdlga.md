@@ -1,16 +1,13 @@
 ---
 UID: NS:commdlg.tagPSDA
 title: PAGESETUPDLGA (commdlg.h)
-description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.
+description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure. (ANSI)
+helpviewer_keywords: ["*LPPAGESETUPDLGA","LPPAGESETUPDLG","LPPAGESETUPDLG structure pointer [Dialog Boxes]","PAGESETUPDLG","PAGESETUPDLG structure [Dialog Boxes]","PAGESETUPDLGA","PAGESETUPDLGW","PSD_DEFAULTMINMARGINS","PSD_DISABLEMARGINS","PSD_DISABLEORIENTATION","PSD_DISABLEPAGEPAINTING","PSD_DISABLEPAPER","PSD_DISABLEPRINTER","PSD_ENABLEPAGEPAINTHOOK","PSD_ENABLEPAGESETUPHOOK","PSD_ENABLEPAGESETUPTEMPLATE","PSD_ENABLEPAGESETUPTEMPLATEHANDLE","PSD_INHUNDREDTHSOFMILLIMETERS","PSD_INTHOUSANDTHSOFINCHES","PSD_INWININIINTLMEASURE","PSD_MARGINS","PSD_MINMARGINS","PSD_NONETWORKBUTTON","PSD_NOWARNING","PSD_RETURNDEFAULT","PSD_SHOWHELP","_win32_PAGESETUPDLG_str","_win32_pagesetupdlg_str_cpp","commdlg/LPPAGESETUPDLG","commdlg/PAGESETUPDLG","commdlg/PAGESETUPDLGA","commdlg/PAGESETUPDLGW","dlgbox.pagesetupdlg_str","tagPSDA","tagPSDW","winui._win32_pagesetupdlg_str"]
 old-location: dlgbox\pagesetupdlg_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\pagesetupdlg.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPPAGESETUPDLGA, LPPAGESETUPDLG, LPPAGESETUPDLG structure pointer [Dialog Boxes], PAGESETUPDLG, PAGESETUPDLG structure [Dialog Boxes], PAGESETUPDLGA, PAGESETUPDLGW, PSD_DEFAULTMINMARGINS, PSD_DISABLEMARGINS, PSD_DISABLEORIENTATION, PSD_DISABLEPAGEPAINTING, PSD_DISABLEPAPER, PSD_DISABLEPRINTER, PSD_ENABLEPAGEPAINTHOOK, PSD_ENABLEPAGESETUPHOOK, PSD_ENABLEPAGESETUPTEMPLATE, PSD_ENABLEPAGESETUPTEMPLATEHANDLE, PSD_INHUNDREDTHSOFMILLIMETERS, PSD_INTHOUSANDTHSOFINCHES, PSD_INWININIINTLMEASURE, PSD_MARGINS, PSD_MINMARGINS, PSD_NONETWORKBUTTON, PSD_NOWARNING, PSD_RETURNDEFAULT, PSD_SHOWHELP, _win32_PAGESETUPDLG_str, _win32_pagesetupdlg_str_cpp, commdlg/LPPAGESETUPDLG, commdlg/PAGESETUPDLG, commdlg/PAGESETUPDLGA, commdlg/PAGESETUPDLGW, dlgbox.pagesetupdlg_str, tagPSDA, tagPSDW, winui._win32_pagesetupdlg_str'
-f1_keywords:
-- commdlg/PAGESETUPDLG
-dev_langs:
-- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commdlg.h
-api_name:
-- PAGESETUPDLG
-- PAGESETUPDLGA
-- PAGESETUPDLGW
 targetos: Windows
 req.typenames: PAGESETUPDLGA, *LPPAGESETUPDLGA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPSDA
+ - commdlg/tagPSDA
+ - LPPAGESETUPDLGA
+ - commdlg/LPPAGESETUPDLGA
+ - PAGESETUPDLGA
+ - commdlg/PAGESETUPDLGA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commdlg.h
+api_name:
+ - PAGESETUPDLG
+ - PAGESETUPDLGA
+ - PAGESETUPDLGW
 ---
 
 # PAGESETUPDLGA structure
@@ -50,43 +56,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> function uses to initialize the <b>Page Setup</b> dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure. 
-
+Contains information the <a href="/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> function uses to initialize the <b>Page Setup</b> dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.
 
 ## -struct-fields
-
-
-
 
 ### -field lStructSize
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of this structure. 
-
+The size, in bytes, of this structure.
 
 ### -field hwndOwner
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the dialog box. This member can be any valid window handle, or it can be <b>NULL</b> if the dialog box has no owner. 
-
+A handle to the window that owns the dialog box. This member can be any valid window handle, or it can be <b>NULL</b> if the dialog box has no owner.
 
 ### -field hDevMode
 
 Type: <b>HGLOBAL</b>
 
-A handle to a global memory object that contains a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. On input, if a handle is specified, the values in the corresponding <b>DEVMODE</b> structure are used to initialize the controls in the dialog box. On output, the dialog box sets <b>hDevMode</b> to a global memory handle to a <b>DEVMODE</b> structure that contains values specifying the user's selections. If the user's selections are not available, the dialog box sets <b>hDevMode</b> to <b>NULL</b>. 
-
+A handle to a global memory object that contains a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. On input, if a handle is specified, the values in the corresponding <b>DEVMODE</b> structure are used to initialize the controls in the dialog box. On output, the dialog box sets <b>hDevMode</b> to a global memory handle to a <b>DEVMODE</b> structure that contains values specifying the user's selections. If the user's selections are not available, the dialog box sets <b>hDevMode</b> to <b>NULL</b>.
 
 ### -field hDevNames
 
 Type: <b>HGLOBAL</b>
 
-A handle to a global memory object that contains a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure. This structure contains three strings that specify the driver name, the printer name, and the output port name. On input, if a handle is specified, the strings in the corresponding <b>DEVNAMES</b> structure are used to initialize controls in the dialog box. On output, the dialog box sets 
-					<b>hDevNames</b> to a global memory handle to a <b>DEVNAMES</b> structure that contains strings specifying the user's selections. If the user's selections are not available, the dialog box sets <b>hDevNames</b> to <b>NULL</b>. 
-
+A handle to a global memory object that contains a <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure. This structure contains three strings that specify the driver name, the printer name, and the output port name. On input, if a handle is specified, the strings in the corresponding <b>DEVNAMES</b> structure are used to initialize controls in the dialog box. On output, the dialog box sets 
+					<b>hDevNames</b> to a global memory handle to a <b>DEVNAMES</b> structure that contains strings specifying the user's selections. If the user's selections are not available, the dialog box sets <b>hDevNames</b> to <b>NULL</b>.
 
 ### -field Flags
 
@@ -139,7 +136,7 @@ Disables the orientation controls, preventing the user from setting the page ori
 </dl>
 </td>
 <td width="60%">
-Prevents the dialog box from drawing the contents of the sample page. If you enable a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lppagepainthook">PagePaintHook</a> hook procedure, you can still draw the contents of the sample page.
+Prevents the dialog box from drawing the contents of the sample page. If you enable a <a href="/windows/desktop/api/commdlg/nc-commdlg-lppagepainthook">PagePaintHook</a> hook procedure, you can still draw the contents of the sample page.
 
 </td>
 </tr>
@@ -297,7 +294,7 @@ Prevents the system from displaying a warning message when there is no default p
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> does not display the dialog box. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures that are initialized for the system default printer. <b>PageSetupDlg</b> returns an error if either <b>hDevNames</b> or 	<b>hDevMode</b> is not <b>NULL</b>.
+<a href="/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> does not display the dialog box. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures that are initialized for the system default printer. <b>PageSetupDlg</b> returns an error if either <b>hDevNames</b> or 	<b>hDevMode</b> is not <b>NULL</b>.
 
 </td>
 </tr>
@@ -308,95 +305,83 @@ Prevents the system from displaying a warning message when there is no default p
 </dl>
 </td>
 <td width="60%">
-Causes the dialog box to display the 	<b>Help</b> button. The <b>hwndOwner</b> member must specify the window to receive the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/helpmsgstring">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
+Causes the dialog box to display the 	<b>Help</b> button. The <b>hwndOwner</b> member must specify the window to receive the <a href="/windows/desktop/dlgbox/helpmsgstring">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ptPaperSize
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
-The dimensions of the paper selected by the user. The <b>PSD_INTHOUSANDTHSOFINCHES</b> or <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> flag indicates the units of measurement. 
-
+The dimensions of the paper selected by the user. The <b>PSD_INTHOUSANDTHSOFINCHES</b> or <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> flag indicates the units of measurement.
 
 ### -field rtMinMargin
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The minimum allowable widths for the left, top, right, and bottom margins. The system ignores this member if the <b>PSD_MINMARGINS</b> flag is not set. These values must be less than or equal to the values specified in the <b>rtMargin</b> member. The <b>PSD_INTHOUSANDTHSOFINCHES</b> or <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> flag indicates the units of measurement. 
-
+The minimum allowable widths for the left, top, right, and bottom margins. The system ignores this member if the <b>PSD_MINMARGINS</b> flag is not set. These values must be less than or equal to the values specified in the <b>rtMargin</b> member. The <b>PSD_INTHOUSANDTHSOFINCHES</b> or <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> flag indicates the units of measurement.
 
 ### -field rtMargin
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The widths of the left, top, right, and bottom margins. If you set the <b>PSD_MARGINS</b> flag, <b>rtMargin</b> specifies the initial margin values. When <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> returns, <b>rtMargin</b> contains the margin widths selected by the user. The <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> or <b>PSD_INTHOUSANDTHSOFINCHES</b> flag indicates the units of measurement. 
-
+The widths of the left, top, right, and bottom margins. If you set the <b>PSD_MARGINS</b> flag, <b>rtMargin</b> specifies the initial margin values. When <a href="/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> returns, <b>rtMargin</b> contains the margin widths selected by the user. The <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> or <b>PSD_INTHOUSANDTHSOFINCHES</b> flag indicates the units of measurement.
 
 ### -field hInstance
 
 Type: <b>HINSTANCE</b>
 
-If the <b>PSD_ENABLEPAGESETUPTEMPLATE</b> flag is set in the <b>Flags</b> member, <b>hInstance</b> is a handle to the application or module instance that contains the dialog box template named by the <b>lpPageSetupTemplateName</b> member. 
-
+If the <b>PSD_ENABLEPAGESETUPTEMPLATE</b> flag is set in the <b>Flags</b> member, <b>hInstance</b> is a handle to the application or module instance that contains the dialog box template named by the <b>lpPageSetupTemplateName</b> member.
 
 ### -field lCustData
 
 Type: <b>LPARAM</b>
 
-Application-defined data that the system passes to the hook procedure identified by the <b>lpfnPageSetupHook</b> member. When the system sends the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>PAGESETUPDLG</b> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value. 
-
+Application-defined data that the system passes to the hook procedure identified by the <b>lpfnPageSetupHook</b> member. When the system sends the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>PAGESETUPDLG</b> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value.
 
 ### -field lpfnPageSetupHook
 
 Type: <b>LPPAGESETUPHOOK</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lppagesetuphook">PageSetupHook</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>PSD_ENABLEPAGESETUPHOOK</b> flag is set in the <b>Flags</b> member. 
-
+A pointer to a <a href="/windows/desktop/api/commdlg/nc-commdlg-lppagesetuphook">PageSetupHook</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>PSD_ENABLEPAGESETUPHOOK</b> flag is set in the <b>Flags</b> member.
 
 ### -field lpfnPagePaintHook
 
 Type: <b>LPPAGEPAINTHOOK</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lppagepainthook">PagePaintHook</a> hook procedure that receives <b>WM_PSD_*</b> messages from the dialog box whenever the sample page is redrawn. By processing the messages, the hook procedure can customize the appearance of the sample page. This member is ignored unless the <b>PSD_ENABLEPAGEPAINTHOOK</b> flag is set in the <b>Flags</b> member. 
-
+A pointer to a <a href="/windows/desktop/api/commdlg/nc-commdlg-lppagepainthook">PagePaintHook</a> hook procedure that receives <b>WM_PSD_*</b> messages from the dialog box whenever the sample page is redrawn. By processing the messages, the hook procedure can customize the appearance of the sample page. This member is ignored unless the <b>PSD_ENABLEPAGEPAINTHOOK</b> flag is set in the <b>Flags</b> member.
 
 ### -field lpPageSetupTemplateName
 
 Type: <b>LPCTSTR</b>
 
-The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpPageSetupTemplateName</b> can be a value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>PSD_ENABLEPAGESETUPTEMPLATE</b> flag is set in the <b>Flags</b> member. 
-
+The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpPageSetupTemplateName</b> can be a value returned by the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>PSD_ENABLEPAGESETUPTEMPLATE</b> flag is set in the <b>Flags</b> member.
 
 ### -field hPageSetupTemplate
 
 Type: <b>HGLOBAL</b>
 
-If the <b>PSD_ENABLEPAGESETUPTEMPLATEHANDLE</b> flag is set in the <b>Flags</b> member, <b>hPageSetupTemplate</b> is a handle to a memory object containing a dialog box template. 
-
+If the <b>PSD_ENABLEPAGESETUPTEMPLATEHANDLE</b> flag is set in the <b>Flags</b> member, <b>hPageSetupTemplate</b> is a handle to a memory object containing a dialog box template.
 
 ## -remarks
-
-
 
 If the <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> and <b>PSD_INTHOUSANDTHSOFINCHES</b> flags are not specified, the system queries the <b>LOCALE_IMEASURE</b> value of the default user locale to determine the unit of measure (either hundredths of millimeters or thousandths of inches) for the margin widths and paper size. 
 
 If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer name specified by the 
-				<b>wDeviceOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure is not the same as the name specified by the <b>dmDeviceName</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, the system uses the name specified by <b>wDeviceOffset</b> by default. 
+				<b>wDeviceOffset</b> member of the <a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure is not the same as the name specified by the <b>dmDeviceName</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, the system uses the name specified by <b>wDeviceOffset</b> by default. 
 
 
 
+
+
+> [!NOTE]
+> The commdlg.h header defines PAGESETUPDLG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -404,15 +389,15 @@ If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a>
+<a href="/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
@@ -420,15 +405,15 @@ If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lppagepainthook">PagePaintHook</a>
+<a href="/windows/desktop/api/commdlg/nc-commdlg-lppagepainthook">PagePaintHook</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lppagesetuphook">PageSetupHook</a>
+<a href="/windows/desktop/api/commdlg/nc-commdlg-lppagesetuphook">PageSetupHook</a>
 
 
 
@@ -436,8 +421,4 @@ If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
- 
-
- 
-
+<a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>

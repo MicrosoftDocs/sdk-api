@@ -1,16 +1,13 @@
 ---
 UID: NF:lzexpand.GetExpandedNameA
 title: GetExpandedNameA function (lzexpand.h)
-description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm.
+description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm. (ANSI)
+helpviewer_keywords: ["GetExpandedNameA", "lzexpand/GetExpandedNameA"]
 old-location: fs\getexpandedname.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 173344bc-59ba-46ba-901a-f8a8929bc4ee
 ms.date: 12/05/2018
 ms.keywords: GetExpandedName, GetExpandedName function [Files], GetExpandedNameA, GetExpandedNameW, _win32_getexpandedname, base.getexpandedname, fs.getexpandedname, lzexpand/GetExpandedName, lzexpand/GetExpandedNameA, lzexpand/GetExpandedNameW
-f1_keywords:
-- lzexpand/GetExpandedName
-dev_langs:
-- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Lz32.dll
-api_name:
-- GetExpandedName
-- GetExpandedNameA
-- GetExpandedNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetExpandedNameA
+ - lzexpand/GetExpandedNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Lz32.dll
+api_name:
+ - GetExpandedName
+ - GetExpandedNameA
+ - GetExpandedNameW
 ---
 
 # GetExpandedNameA function
@@ -50,44 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszSource [in]
 
 The name of the compressed file.
 
-
 ### -param lpszBuffer [out]
 
 A pointer to a buffer that receives the original name of the compressed file.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is 1.
 
 If the function fails, the return value is LZERROR_BADVALUE. There is no extended error information for this function; do not call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  <b>GetExpandedName</b> calls neither 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.</div>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
+<a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a thread's last-error code.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The contents of the buffer pointed to by the <i>lpszBuffer</i> parameter is the original file name if the file was compressed by using the <b>/r</b> option. If the <b>/r</b> option was not used, this function duplicates the name in the <i>lpszSource</i> parameter into the <i>lpszBuffer</i> buffer.
 
@@ -154,17 +143,14 @@ Yes
 
 
 
+
+> [!NOTE]
+> The lzexpand.h header defines GetExpandedName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetMetrics
 title: IDWriteTextLayout2::GetMetrics (dwrite_2.h)
-description: Retrieves overall metrics for the formatted string.
+description: Retrieves overall metrics for the formatted string. (IDWriteTextLayout2.GetMetrics)
+helpviewer_keywords: ["GetMetrics","GetMetrics method [Direct Write]","GetMetrics method [Direct Write]","IDWriteTextLayout2 interface","IDWriteTextLayout2 interface [Direct Write]","GetMetrics method","IDWriteTextLayout2.GetMetrics","IDWriteTextLayout2::GetMetrics","directwrite.idwritetextlayout2_getmetrics","dwrite_2/IDWriteTextLayout2::GetMetrics"]
 old-location: directwrite\idwritetextlayout2_getmetrics.htm
 tech.root: DirectWrite
 ms.assetid: EADCD83A-9FF5-44AB-8AB5-35FCB3A84889
 ms.date: 12/05/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetMetrics method, IDWriteTextLayout2.GetMetrics, IDWriteTextLayout2::GetMetrics, directwrite.idwritetextlayout2_getmetrics, dwrite_2/IDWriteTextLayout2::GetMetrics
-f1_keywords:
-- dwrite_2/IDWriteTextLayout2.GetMetrics
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout2.GetMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout2::GetMetrics
+ - dwrite_2/IDWriteTextLayout2::GetMetrics
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout2.GetMetrics
 ---
 
 # IDWriteTextLayout2::GetMetrics
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Retrieves overall metrics for the formatted string.
 
-
 ## -parameters
-
-
-
 
 ### -param textMetrics [out]
 
@@ -63,25 +60,13 @@ Type: <b><a href="/windows/win32/api/dwrite_2/ns-dwrite_2-dwrite_text_metrics1">
 
 When this method returns, contains the measured distances of text and associated content after being formatted.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
- 
-
- 
 

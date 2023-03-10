@@ -2,15 +2,12 @@
 UID: NN:d2d1.ID2D1Mesh
 title: ID2D1Mesh (d2d1.h)
 description: Represents a set of vertices that form a list of triangles.
+helpviewer_keywords: ["ID2D1Mesh","ID2D1Mesh interface [Direct2D]","ID2D1Mesh interface [Direct2D]","described","d2d1/ID2D1Mesh","direct2d.ID2D1Mesh"]
 old-location: direct2d\ID2D1Mesh.htm
 tech.root: Direct2D
 ms.assetid: 2a58fb5f-2281-4f73-a689-cc1350d13c8b
 ms.date: 12/05/2018
 ms.keywords: ID2D1Mesh, ID2D1Mesh interface [Direct2D], ID2D1Mesh interface [Direct2D],described, d2d1/ID2D1Mesh, direct2d.ID2D1Mesh
-f1_keywords:
-- d2d1/ID2D1Mesh
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Mesh
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Mesh
+ - d2d1/ID2D1Mesh
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Mesh
 ---
 
 # ID2D1Mesh interface
@@ -48,48 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a set of vertices that form a list of triangles. 
-
+Represents a set of vertices that form a list of triangles.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Mesh</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Mesh</b> also has these types of members:
+The <b>ID2D1Mesh</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1Mesh</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1Mesh</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1mesh-open">Open</a>
-</td>
-<td align="left" width="63%">
-Opens the mesh for population.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 
-
-
 <h3><a id="Creating_ID2D1Mesh_Objects"></a><a id="creating_id2d1mesh_objects"></a><a id="CREATING_ID2D1MESH_OBJECTS"></a>Creating ID2D1Mesh Objects</h3>
-To create a mesh, call the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createmesh">ID2D1RenderTarget::CreateMesh</a> method on the render target with which the mesh will be used. A mesh can only be used with the render target that created it and the render target's compatible targets.
+To create a mesh, call the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createmesh">ID2D1RenderTarget::CreateMesh</a> method on the render target with which the mesh will be used. A mesh can only be used with the render target that created it and the render target's compatible targets.
 
-A mesh is a device-dependent resource: your application should create meshes after it initializes the render target with which the meshes will be used, and recreate the meshes whenever the render target needs recreated. (For more information about resources, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
+A mesh is a device-dependent resource: your application should create meshes after it initializes the render target with which the meshes will be used, and recreate the meshes whenever the render target needs recreated. (For more information about resources, see <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.)
 
 
-#### Examples
+## Examples
 
 The following code example shows how to use <b>ID2D1Mesh</b>  to represent a set of vertices that form a list of triangles.  
 
@@ -146,15 +124,7 @@ The following code example shows how to use <b>ID2D1Mesh</b>  to represent a set
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
- 
-
- 
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
 

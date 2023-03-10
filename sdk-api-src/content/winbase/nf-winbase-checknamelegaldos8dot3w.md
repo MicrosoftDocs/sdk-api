@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.CheckNameLegalDOS8Dot3W
 title: CheckNameLegalDOS8Dot3W function (winbase.h)
-description: Determines whether the specified name can be used to create a file on a FAT file system.
+description: Determines whether the specified name can be used to create a file on a FAT file system. (Unicode)
+helpviewer_keywords: ["CheckNameLegalDOS8Dot3", "CheckNameLegalDOS8Dot3 function [Files]", "CheckNameLegalDOS8Dot3W", "base.checknamelegaldos8dot3", "fs.checknamelegaldos8dot3", "winbase/CheckNameLegalDOS8Dot3", "winbase/CheckNameLegalDOS8Dot3W"]
 old-location: fs\checknamelegaldos8dot3.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: bb0edcc5-4991-47d0-9ade-6c6776a36f39
 ms.date: 12/05/2018
 ms.keywords: CheckNameLegalDOS8Dot3, CheckNameLegalDOS8Dot3 function [Files], CheckNameLegalDOS8Dot3A, CheckNameLegalDOS8Dot3W, base.checknamelegaldos8dot3, fs.checknamelegaldos8dot3, winbase/CheckNameLegalDOS8Dot3, winbase/CheckNameLegalDOS8Dot3A, winbase/CheckNameLegalDOS8Dot3W
-f1_keywords:
-- winbase/CheckNameLegalDOS8Dot3
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- CheckNameLegalDOS8Dot3
-- CheckNameLegalDOS8Dot3A
-- CheckNameLegalDOS8Dot3W
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CheckNameLegalDOS8Dot3W
+ - winbase/CheckNameLegalDOS8Dot3W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - CheckNameLegalDOS8Dot3
+ - CheckNameLegalDOS8Dot3A
+ - CheckNameLegalDOS8Dot3W
 ---
 
 # CheckNameLegalDOS8Dot3W function
@@ -50,60 +52,43 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the  specified name can be used to create a file on a FAT file 
    system.
 
-
 ## -parameters
-
-
-
 
 ### -param lpName [in]
 
 The file name, in 8.3 format.
-
 
 ### -param lpOemName [out, optional]
 
 A pointer to a buffer that receives the OEM string that corresponds to <i>Name</i>. This 
       parameter can be <b>NULL</b>.
 
-
 ### -param OemNameSize [in]
 
 The size of the <i>lpOemName</i> buffer, in characters. If 
       <i>lpOemName</i> is <b>NULL</b>, this parameter must be 0 (zero).
-
 
 ### -param pbNameContainsSpaces [out, optional]
 
 Indicates whether or not a name contains spaces. This parameter can be <b>NULL</b>. If 
       the name is not a valid 8.3 FAT file system name, this parameter is undefined.
 
-
 ### -param pbNameLegal [out]
 
 If the function succeeds, this parameter indicates whether a file name is a valid 8.3 FAT file name when 
       the current OEM code page is applied to the file name.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function can be used to determine whether or not a file name can be passed to a 16-bit Windows-based 
     application or an MS-DOS-based application.
@@ -174,17 +159,14 @@ Note that SMB 3.0 does not support short names on shares with continuous availab
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines CheckNameLegalDOS8Dot3 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>

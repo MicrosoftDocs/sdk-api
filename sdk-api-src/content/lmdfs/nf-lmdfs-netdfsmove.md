@@ -2,15 +2,12 @@
 UID: NF:lmdfs.NetDfsMove
 title: NetDfsMove function (lmdfs.h)
 description: Renames or moves a DFS link.
+helpviewer_keywords: ["DFS_MOVE_FLAG_REPLACE_IF_EXISTS","NetDfsMove","NetDfsMove function [Distributed File System]","dfs.netdfsmove","fs.netdfsmove","lmdfs/NetDfsMove","netmgmt.netdfsmove"]
 old-location: dfs\netdfsmove.htm
 tech.root: Dfs
 ms.assetid: d9d225ac-26b9-4074-93b6-6294538a3504
 ms.date: 12/05/2018
 ms.keywords: DFS_MOVE_FLAG_REPLACE_IF_EXISTS, NetDfsMove, NetDfsMove function [Distributed File System], dfs.netdfsmove, fs.netdfsmove, lmdfs/NetDfsMove, netmgmt.netdfsmove
-f1_keywords:
-- lmdfs/NetDfsMove
-dev_langs:
-- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetDfsMove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetDfsMove
+ - lmdfs/NetDfsMove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetDfsMove
 ---
 
 # NetDfsMove function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Renames or moves a DFS link.
 
-
 ## -parameters
-
-
-
 
 ### -param OldDfsEntryPath [in]
 
 Pointer to a string that specifies the source path for the move operation. This value must be a DFS link or 
      the path prefix of any DFS link in the DFS namespace.
 
-
 ### -param NewDfsEntryPath [in]
 
 Pointer to a string that specifies the destination path for the move operation. This value must be a path or 
      a DFS link in the same DFS namespace.
-
 
 ### -param Flags [in]
 
@@ -79,22 +74,14 @@ A set of flags that describe actions to take when moving the link.
 
 If the destination path is already an existing DFS link, replace it as part of the move operation.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
-
-
 
 The <b>NetDfsMove</b> function conveniently moves a link from an 
      old name to a new one. In the past, it has been necessary to perform the non-trivial action of deleting an 
@@ -183,24 +170,14 @@ When the move operation succeeds, it is guaranteed that the DFS metadata was suc
      not guarantee that the DFS links were actually created on the root targets or that DFS links can be created on 
      the root targets' storage.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>

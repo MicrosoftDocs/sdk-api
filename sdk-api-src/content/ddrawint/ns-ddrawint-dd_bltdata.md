@@ -2,15 +2,12 @@
 UID: NS:ddrawint._DD_BLTDATA
 title: DD_BLTDATA (ddrawint.h)
 description: The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.
+helpviewer_keywords: ["*PDD_BLTDATA","DD_BLTDATA","DD_BLTDATA structure [Display Devices]","ddrawint/DD_BLTDATA","ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml","display.dd_bltdata"]
 old-location: display\dd_bltdata.htm
 tech.root: display
 ms.assetid: e39bdfc4-89d0-4440-93d3-1b455cc9a8e5
 ms.date: 12/05/2018
 ms.keywords: '*PDD_BLTDATA, DD_BLTDATA, DD_BLTDATA structure [Display Devices], ddrawint/DD_BLTDATA, ddstrcts_0697bd98-66f4-4f58-b407-c3bcc73eee86.xml, display.dd_bltdata'
-f1_keywords:
-- ddrawint/DD_BLTDATA
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddrawint.h
-api_name:
-- DD_BLTDATA
 targetos: Windows
 req.typenames: '*PDD_BLTDATA, DD_BLTDATA'
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DD_BLTDATA
+ - ddrawint/_DD_BLTDATA
+ - PDD_BLTDATA
+ - ddrawint/PDD_BLTDATA
+ - DD_BLTDATA
+ - ddrawint/DD_BLTDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddrawint.h
+api_name:
+ - DD_BLTDATA
 ---
 
 # DD_BLTDATA structure
@@ -48,29 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.  
-
+The DD_BLTDATA structure contains the information relevant to the driver for doing bit block transfers.
 
 ## -struct-fields
 
-
-
-
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
-
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 ### -field lpDDDestSurface
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface on which to blit.
-
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface on which to blit.
 
 ### -field rDest
 
-
-
 ###### 
 
 
@@ -79,18 +76,14 @@ Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/n
 
 
 
-###### 
-
+######
 
 ### -field lpDDSrcSurface
 
 Points to a DD_SURFACE_LOCAL structure that describes the source surface.
 
-
 ### -field rSrc
 
-
-
 ###### 
 
 
@@ -99,8 +92,7 @@ Points to a DD_SURFACE_LOCAL structure that describes the source surface.
 
 
 
-###### 
-
+######
 
 ### -field dwFlags
 
@@ -256,7 +248,7 @@ DDBLT_ROP
 
 </td>
 <td>
-Use the <b>dwROP</b> member in the DDBLTFX structure (defined in the DirectDraw SDK documentation) for the raster operation for this blit. Currently, the only <a href="https://docs.microsoft.com/windows-hardware/drivers/">ROP</a> passed to the driver is SRCCOPY. This ROP is the same as that defined in the Win32 API. See the Microsoft Windows SDK documentation for details.
+Use the <b>dwROP</b> member in the DDBLTFX structure (defined in the DirectDraw SDK documentation) for the raster operation for this blit. Currently, the only <a href="/windows-hardware/drivers/">ROP</a> passed to the driver is SRCCOPY. This ROP is the same as that defined in the Win32 API. See the Microsoft Windows SDK documentation for details.
 
 </td>
 </tr>
@@ -281,17 +273,12 @@ Do not return immediately with the DDERR_WASSTILLDRAWING message if the blitter 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwROPFlags
 
 Unused on Windows 2000 and later and should be ignored by the driver.
 
-
 ### -field bltFX
-
-
 
 ######### 
 
@@ -301,70 +288,48 @@ Unused on Windows 2000 and later and should be ignored by the driver.
 
 
 
-####### 
-
+#######
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
-
+Specifies the location in which the driver writes the return value of the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> callback. A return code of DD_OK indicates success. For more information, see <a href="/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 ### -field Blt
 
 Used by the DirectDraw API and should not be filled in by the driver.
 
-
 ### -field IsClipped
 
 Indicates whether this is a clipped blit. On Windows 2000 and later, this member is always <b>FALSE</b>, indicating that the blit is unclipped.
 
-
 ### -field rOrigDest
 
-<b>Unused for Windows 2000 and later.</b> Specifies a RECTL structure that defines the unclipped destination rectangle. This member is valid only if <b>IsClipped</b> is <b>TRUE</b>. 
-
+<b>Unused for Windows 2000 and later.</b> Specifies a RECTL structure that defines the unclipped destination rectangle. This member is valid only if <b>IsClipped</b> is <b>TRUE</b>.
 
 ### -field rOrigSrc
 
 <b>Unused for Windows 2000 and later.</b> Specifies a RECTL structure that defines the unclipped source rectangle. This member is valid only if <b>IsClipped</b> is <b>TRUE</b>.
 
-
 ### -field dwRectCnt
 
 <b>Unused for Windows 2000 and later.</b>Specifies the number of destination rectangles to which <b>prDestRects</b> points. This member is valid only if <b>IsClipped</b> is <b>TRUE</b>.
-
 
 ### -field prDestRects
 
 <b>Unused for Windows 2000 and later.</b> Points to an array of RECTL structures that describe of destination rectangles. This member is valid only if <b>IsClipped</b> is <b>TRUE</b>.
 
-
 ### -field dwAFlags
 
 Unused and should be ignored by the driver.
-
 
 ### -field ddargbScaleFactors
 
 ARGB scaling factors (AlphaBlt)
 
-
 ## -remarks
 
-
-
-For more information about the DDBLT_PRESENTATION and DDBLT_LAST_PRESENTATION flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/presentation">Presentation</a>. 
-
-
-
+For more information about the DDBLT_PRESENTATION and DDBLT_LAST_PRESENTATION flags, see <a href="/windows-hardware/drivers/display/presentation">Presentation</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>

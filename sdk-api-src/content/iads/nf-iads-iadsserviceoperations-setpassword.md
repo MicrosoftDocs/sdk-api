@@ -2,15 +2,12 @@
 UID: NF:iads.IADsServiceOperations.SetPassword
 title: IADsServiceOperations::SetPassword (iads.h)
 description: The IADsServiceOperations::SetPassword method sets the password for the account used by the service manager. This method is called when the security context for this service is created.
+helpviewer_keywords: ["IADsServiceOperations interface [ADSI]","SetPassword method","IADsServiceOperations.SetPassword","IADsServiceOperations::SetPassword","SetPassword","SetPassword method [ADSI]","SetPassword method [ADSI]","IADsServiceOperations interface","_ds_iadsserviceoperations_setpassword","adsi.iadsserviceoperations__setpassword","adsi.iadsserviceoperations_setpassword","iads/IADsServiceOperations::SetPassword"]
 old-location: adsi\iadsserviceoperations_setpassword.htm
 tech.root: adsi
 ms.assetid: a10684d1-be61-4599-b232-638b416aa127
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],SetPassword method, IADsServiceOperations.SetPassword, IADsServiceOperations::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_setpassword, adsi.iadsserviceoperations__setpassword, adsi.iadsserviceoperations_setpassword, iads/IADsServiceOperations::SetPassword
-f1_keywords:
-- iads/IADsServiceOperations.SetPassword
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsServiceOperations.SetPassword
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsServiceOperations::SetPassword
+ - iads/IADsServiceOperations::SetPassword
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsServiceOperations.SetPassword
 ---
 
 # IADsServiceOperations::SetPassword
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsServiceOperations::SetPassword</b> method sets the password for the account used by the service manager. This method is called when the security context for this service is created.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrNewPassword [in]
 
 The null-terminated Unicode string to be stored as the new password.
 
-
 ## -returns
 
-
-
-This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+This method supports the standard return values, including S_OK. For more information about other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-
-
-The property <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">IADsService::get_ServiceAccountName</a> identifies the account for which this password is to be set.
+The property <a href="/windows/desktop/ADSI/iadsservice-property-methods">IADsService::get_ServiceAccountName</a> identifies the account for which this password is to be set.
 
 
 #### Examples
@@ -159,25 +148,14 @@ Cleanup:
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsservice">IADsService</a>
+<a href="/windows/desktop/ADSI/iadsservice-property-methods">IADsService::get_ServiceAccountName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsservice-property-methods">IADsService::get_ServiceAccountName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsserviceoperations">IADsServiceOperations</a>

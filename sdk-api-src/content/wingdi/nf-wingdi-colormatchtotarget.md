@@ -2,15 +2,12 @@
 UID: NF:wingdi.ColorMatchToTarget
 title: ColorMatchToTarget function (wingdi.h)
 description: The ColorMatchToTarget function enables you to preview colors as they would appear on the target device.
+helpviewer_keywords: ["CS_DELETE_TRANSFORM","CS_DISABLE","CS_ENABLE","ColorMatchToTarget","ColorMatchToTarget function [Windows Color System]","_color_ColorMatchToTarget","wcs.colormatchtotarget","wingdi/ColorMatchToTarget"]
 old-location: wcs\colormatchtotarget.htm
 tech.root: WCS
 ms.assetid: eb922411-0808-4404-bdaf-bf29d0cad379
 ms.date: 12/05/2018
 ms.keywords: CS_DELETE_TRANSFORM, CS_DISABLE, CS_ENABLE, ColorMatchToTarget, ColorMatchToTarget function [Windows Color System], _color_ColorMatchToTarget, wcs.colormatchtotarget, wingdi/ColorMatchToTarget
-f1_keywords:
-- wingdi/ColorMatchToTarget
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- ColorMatchToTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ColorMatchToTarget
+ - wingdi/ColorMatchToTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - ColorMatchToTarget
 ---
 
 # ColorMatchToTarget function
@@ -50,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ColorMatchToTarget</b> function enables you to preview colors as they would appear on the target device.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc
 
 Specifies the device context for previewing, generally the screen.
 
-
 ### -param hdcTarget
 
 Specifies the target device context, generally a printer.
-
 
 ### -param action
 
@@ -110,23 +105,14 @@ If color management is enabled for the target profile, disable it and delete the
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If this function succeeds, the return value is <b>TRUE</b>.
 
 If this function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>ColorMatchToTarget</b> can be used to proof the colors of a color output device on another color output device. Setting the <i>uiAction</i> parameter to CS_ENABLE causes all subsequent drawing commands to the DC to render colors as they would appear on the target device. If <i>uiAction</i> is set to CS_DISABLE, proofing is turned off. However, the current color transform is not deleted from the DC. It is just inactive.
 
@@ -138,20 +124,7 @@ This function cannot be cascaded. While color mapping to the target is enabled b
 <div> </div>
 The <i>uiAction</i> parameter should only be set to CS_DELETE_TRANSFORM if color management is enabled before the <b>ColorMatchToTarget</b> function is called.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
- 
-
- 
-
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)

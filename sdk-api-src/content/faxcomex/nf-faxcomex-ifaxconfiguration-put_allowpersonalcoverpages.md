@@ -1,16 +1,13 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_AllowPersonalCoverPages
 title: IFaxConfiguration::put_AllowPersonalCoverPages (faxcomex.h)
-description: Sets or retrieves a value that indicates whether personal cover pages are allowed.
+description: Sets or retrieves a value that indicates whether personal cover pages are allowed. (Put)
+helpviewer_keywords: ["AllowPersonalCoverPages property [Fax Service]","AllowPersonalCoverPages property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","AllowPersonalCoverPages property","IFaxConfiguration.AllowPersonalCoverPages","IFaxConfiguration.put_AllowPersonalCoverPages","IFaxConfiguration::AllowPersonalCoverPages","IFaxConfiguration::get_AllowPersonalCoverPages","IFaxConfiguration::put_AllowPersonalCoverPages","_mfax_IFaxConfiguration_AllowPersonalCoverPages","fax._mfax_IFaxConfiguration_AllowPersonalCoverPages","faxcomex/IFaxConfiguration::AllowPersonalCoverPages","faxcomex/IFaxConfiguration::get_AllowPersonalCoverPages","faxcomex/IFaxConfiguration::put_AllowPersonalCoverPages","put_AllowPersonalCoverPages"]
 old-location: fax\_mfax_IFaxConfiguration_AllowPersonalCoverPages.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguration\allowpersonalcoverpages.htm
 ms.date: 12/05/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],AllowPersonalCoverPages property, IFaxConfiguration.AllowPersonalCoverPages, IFaxConfiguration.put_AllowPersonalCoverPages, IFaxConfiguration::AllowPersonalCoverPages, IFaxConfiguration::get_AllowPersonalCoverPages, IFaxConfiguration::put_AllowPersonalCoverPages, _mfax_IFaxConfiguration_AllowPersonalCoverPages, fax._mfax_IFaxConfiguration_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::AllowPersonalCoverPages, faxcomex/IFaxConfiguration::get_AllowPersonalCoverPages, faxcomex/IFaxConfiguration::put_AllowPersonalCoverPages, put_AllowPersonalCoverPages
-f1_keywords:
-- faxcomex/IFaxConfiguration.AllowPersonalCoverPages
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxConfiguration.AllowPersonalCoverPages
-- IFaxConfiguration.get_AllowPersonalCoverPages
-- IFaxConfiguration.put_AllowPersonalCoverPages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxConfiguration::put_AllowPersonalCoverPages
+ - faxcomex/IFaxConfiguration::put_AllowPersonalCoverPages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxConfiguration.AllowPersonalCoverPages
+ - IFaxConfiguration.get_AllowPersonalCoverPages
+ - IFaxConfiguration.put_AllowPersonalCoverPages
 ---
 
 # IFaxConfiguration::put_AllowPersonalCoverPages
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves a value that indicates whether personal cover pages are allowed.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>

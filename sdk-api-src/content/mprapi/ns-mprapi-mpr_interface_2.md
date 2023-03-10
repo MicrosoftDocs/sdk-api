@@ -1,16 +1,13 @@
 ---
 UID: NS:mprapi._MPR_INTERFACE_2
 title: MPR_INTERFACE_2 (mprapi.h)
-description: Contains data for a router demand-dial interface.
+description: Contains data for a router demand-dial interface. (MPR_INTERFACE_2)
+helpviewer_keywords: ["*PMPR_INTERFACE_2","MPRDM_DialAll","MPRDM_DialAsNeeded","MPRDT_Atm","MPRDT_FrameRelay","MPRDT_Generic","MPRDT_Irda","MPRDT_Isdn","MPRDT_Modem","MPRDT_Pad","MPRDT_Parallel","MPRDT_SW56","MPRDT_Serial","MPRDT_Sonet","MPRDT_Vpn","MPRDT_X25","MPRET_Direct","MPRET_Phone","MPRET_Vpn","MPRIDS_Disabled","MPRIDS_UseGlobalValue","MPRIO_DisableLcpExtensions","MPRIO_IpHeaderCompression","MPRIO_IpSecPreSharedKey","MPRIO_NetworkLogon","MPRIO_PromoteAlternates","MPRIO_RemoteDefaultGateway","MPRIO_RequireCHAP","MPRIO_RequireDataEncryption","MPRIO_RequireEAP","MPRIO_RequireEncryptedPw","MPRIO_RequireMachineCertificates","MPRIO_RequireMsCHAP","MPRIO_RequireMsCHAP2","MPRIO_RequireMsEncryptedPw","MPRIO_RequirePAP","MPRIO_RequireSPAP","MPRIO_SecureLocalFiles","MPRIO_SharedPhoneNumbers","MPRIO_SpecificIpAddr","MPRIO_SpecificNameServers","MPRIO_SwCompression","MPRIO_UseLogonCredentials","MPRIO_UsePreSharedKeyForIkev2Initiator","MPRIO_UsePreSharedKeyForIkev2Responder","MPRNP_Ip","MPRNP_Ipx","MPR_ET_None","MPR_ET_Optional","MPR_ET_Require","MPR_ET_RequireMax","MPR_INTERFACE_2","MPR_INTERFACE_2 structure [RAS]","MPR_VS_Default","MPR_VS_L2tpFirst","MPR_VS_L2tpOnly","MPR_VS_PptpFirst","MPR_VS_PptpOnly","PMPR_INTERFACE_2","PMPR_INTERFACE_2 structure pointer [RAS]","_mpr_mpr_interface_2","mprapi/MPR_INTERFACE_2","mprapi/PMPR_INTERFACE_2","rras.mpr_interface_2"]
 old-location: rras\mpr_interface_2.htm
 tech.root: RRAS
 ms.assetid: 486f3526-2b0e-4f08-bb85-3aebf10cd52e
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_INTERFACE_2, MPRDM_DialAll, MPRDM_DialAsNeeded, MPRDT_Atm, MPRDT_FrameRelay, MPRDT_Generic, MPRDT_Irda, MPRDT_Isdn, MPRDT_Modem, MPRDT_Pad, MPRDT_Parallel, MPRDT_SW56, MPRDT_Serial, MPRDT_Sonet, MPRDT_Vpn, MPRDT_X25, MPRET_Direct, MPRET_Phone, MPRET_Vpn, MPRIDS_Disabled, MPRIDS_UseGlobalValue, MPRIO_DisableLcpExtensions, MPRIO_IpHeaderCompression, MPRIO_IpSecPreSharedKey, MPRIO_NetworkLogon, MPRIO_PromoteAlternates, MPRIO_RemoteDefaultGateway, MPRIO_RequireCHAP, MPRIO_RequireDataEncryption, MPRIO_RequireEAP, MPRIO_RequireEncryptedPw, MPRIO_RequireMachineCertificates, MPRIO_RequireMsCHAP, MPRIO_RequireMsCHAP2, MPRIO_RequireMsEncryptedPw, MPRIO_RequirePAP, MPRIO_RequireSPAP, MPRIO_SecureLocalFiles, MPRIO_SharedPhoneNumbers, MPRIO_SpecificIpAddr, MPRIO_SpecificNameServers, MPRIO_SwCompression, MPRIO_UseLogonCredentials, MPRIO_UsePreSharedKeyForIkev2Initiator, MPRIO_UsePreSharedKeyForIkev2Responder, MPRNP_Ip, MPRNP_Ipx, MPR_ET_None, MPR_ET_Optional, MPR_ET_Require, MPR_ET_RequireMax, MPR_INTERFACE_2, MPR_INTERFACE_2 structure [RAS], MPR_VS_Default, MPR_VS_L2tpFirst, MPR_VS_L2tpOnly, MPR_VS_PptpFirst, MPR_VS_PptpOnly, PMPR_INTERFACE_2, PMPR_INTERFACE_2 structure pointer [RAS], _mpr_mpr_interface_2, mprapi/MPR_INTERFACE_2, mprapi/PMPR_INTERFACE_2, rras.mpr_interface_2'
-f1_keywords:
-- mprapi/MPR_INTERFACE_2
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- MPR_INTERFACE_2
 targetos: Windows
 req.typenames: MPR_INTERFACE_2, *PMPR_INTERFACE_2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MPR_INTERFACE_2
+ - mprapi/_MPR_INTERFACE_2
+ - PMPR_INTERFACE_2
+ - mprapi/PMPR_INTERFACE_2
+ - MPR_INTERFACE_2
+ - mprapi/MPR_INTERFACE_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - MPR_INTERFACE_2
 ---
 
 # MPR_INTERFACE_2 structure
@@ -48,52 +54,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MPR_INTERFACE_2</b> structure contains data for a router demand-dial interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wszInterfaceName
 
 A pointer to a Unicode string that contains the name of the interface.
 
-
 ### -field hInterface
 
 A handle to the interface.
-
 
 ### -field fEnabled
 
 A value that specifies whether the interface is enabled. This value is <b>TRUE</b> if the interface is enabled, <b>FALSE</b> if the interface is administratively disabled.
 
-
 ### -field dwIfType
 
 A value that identifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">interface type</a>.
-
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">interface type</a>.
 
 ### -field dwConnectionState
 
 A value that describes the current state of the interface, for example, connected, disconnected, or unreachable. For more information and a list of possible states, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
-
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
 
 ### -field fUnReachabilityReasons
 
-A value that describes the reason why  the interface is unreachable. For more information and a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>.
-
+A value that describes the reason why  the interface is unreachable. For more information and a list of possible values, see <a href="/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>.
 
 ### -field dwLastError
 
 A value that contains a nonzero value if the interface fails to connect.
-
 
 ### -field dwfOptions
 
@@ -162,7 +156,7 @@ This flag corresponds to the <b>Use Default Gateway on Remote Network</b> check 
 </dl>
 </td>
 <td width="60%">
-If this flag is set, RRAS disables the PPP LCP extensions defined in <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-request-for-comments">RFC 1570</a>. Disabling the PPP LCP extensions may be necessary to connect to certain older PPP implementations, but it interferes with features such as server callback. Do not set this flag unless it is specifically required.
+If this flag is set, RRAS disables the PPP LCP extensions defined in <a href="/windows/desktop/RRAS/routing-request-for-comments">RFC 1570</a>. Disabling the PPP LCP extensions may be necessary to connect to certain older PPP implementations, but it interferes with features such as server callback. Do not set this flag unless it is specifically required.
 
 </td>
 </tr>
@@ -234,8 +228,8 @@ If this flag is set, RRAS uses the user name, password, and domain of the curren
 <b>MPRIO_RequireMsEncryptedPw</b> is also set.
 
 This setting is ignored by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function where specifying empty strings for the <b>szUserName</b> and <b>szPassword</b> members of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure provides the same result.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function where specifying empty strings for the <b>szUserName</b> and <b>szPassword</b> members of the 
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> structure provides the same result.
 
 This flag corresponds to the <b>Use Current Username and Password</b> check box in the <b>Security</b> dialog box.
 
@@ -339,7 +333,7 @@ If this flag is set, version 2 of the Microsoft Challenge Handshake Authenticati
 </dl>
 </td>
 <td width="60%">
-If this flag is set for <b>dwfOptions</b> in the <b>MPR_INTERFACE_2</b> structure and is used in <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetinfo">MprAdminInterfaceSetInfo</a>, it configures the demand dial interface to use preshared key.
+If this flag is set for <b>dwfOptions</b> in the <b>MPR_INTERFACE_2</b> structure and is used in <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetinfo">MprAdminInterfaceSetInfo</a>, it configures the demand dial interface to use preshared key.
 
 </td>
 </tr>
@@ -374,48 +368,39 @@ Windows 8 or later: If this flag is set, a pre-shared key is used by the respon
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szLocalPhoneNumber
 
 A value that specifies a null-terminated string that contains a telephone number.
 
-
 ### -field szAlternates
 
-A pointer to a list of consecutive null-terminated Unicode strings. The last string is terminated by two consecutive null characters. The strings are alternate phone numbers that the router dials, in the order listed, if the primary number fails to connect. For more information, see <b>szLocalPhoneNumber</b>. 
-
+A pointer to a list of consecutive null-terminated Unicode strings. The last string is terminated by two consecutive null characters. The strings are alternate phone numbers that the router dials, in the order listed, if the primary number fails to connect. For more information, see <b>szLocalPhoneNumber</b>.
 
 ### -field ipaddr
 
 A value that specifies the IP address to be used while this connection is active. This member is ignored unless <b>dwfOptions</b> specifies the 
 <b>MPRIO_SpecificIpAddr</b> flag.
 
-
 ### -field ipaddrDns
 
 A value that specifies the IP address of the DNS server to be used while this connection is active. This member is ignored unless <b>dwfOptions</b> specifies the 
 <b>MPRIO_SpecificNameServers</b> flag.
-
 
 ### -field ipaddrDnsAlt
 
 A value that specifies the IP address of a secondary or backup DNS server to be used while this connection is active. This member is ignored unless <b>dwfOptions</b> specifies the 
 <b>MPRIO_SpecificNameServers</b> flag.
 
-
 ### -field ipaddrWins
 
 A value that specifies the IP address of the WINS server to be used while this connection is active. This member is ignored unless <b>dwfOptions</b> specifies the 
 <b>MPRIO_SpecificNameServers</b> flag.
 
-
 ### -field ipaddrWinsAlt
 
 A value that specifies the IP address of a secondary WINS server to be used while this connection is active. This member is ignored unless <b>dwfOptions</b> specifies the 
 <b>MPRIO_SpecificNameServers</b> flag.
-
 
 ### -field dwfNetProtocols
 
@@ -450,7 +435,6 @@ Negotiate the TCP/IP protocol.
  
 
 <b>64-bit Windows:  </b>The <b>MPRNP_Ipx</b> flag is not supported
-
 
 ### -field szDeviceType
 
@@ -592,14 +576,11 @@ Direct parallel connection through a parallel port.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szDeviceName
 
 Contains a null-terminated string that contains the name of a TAPI device to use with this phone-book entry, for example, "Fabrikam Inc 28800 External". To enumerate all available RAS-capable devices, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumdevicesa">RasEnumDevices</a> function.
-
+<a href="/windows/desktop/api/ras/nf-ras-rasenumdevicesa">RasEnumDevices</a> function.
 
 ### -field szX25PadType
 
@@ -607,33 +588,27 @@ A data type that contains a null-terminated string that identifies the X.25 PAD 
 
 <b>Windows 2000 and Windows NT:  </b>The <b>szX25PadType</b> string maps to a section name in PAD.INF.
 
-
 ### -field szX25Address
 
 Contains a null-terminated string that identifies the X.25 address to connect to. Set this member to an empty string ("") unless the entry should dial using an X.25 PAD or native X.25 device.
-
 
 ### -field szX25Facilities
 
 Contains a null-terminated string that specifies the facilities to request from the X.25 host at connection time. This member is ignored if <b>szX25Address</b> is an empty string ("").
 
-
 ### -field szX25UserData
 
 Contains a null-terminated string that specifies additional connection data supplied to the X.25 host at connection time. This member is ignored if <b>szX25Address</b> is an empty string ("").
-
 
 ### -field dwChannels
 
 Reserved for future use.
 
-
 ### -field dwSubEntries
 
 A value that specifies the number of multilink subentries associated with this entry. When calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>, set this member to zero. To add subentries to a phone-book entry, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetsubentrypropertiesa">RasSetSubEntryProperties</a> function.
-
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>, set this member to zero. To add subentries to a phone-book entry, use the 
+<a href="/windows/desktop/api/ras/nf-ras-rassetsubentrypropertiesa">RasSetSubEntryProperties</a> function.
 
 ### -field dwDialMode
 
@@ -665,8 +640,6 @@ Adjust the number of subentries as bandwidth is required. RRAS uses the <b>dwDia
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwDialExtraPercent
 
@@ -674,13 +647,11 @@ A value that specifies the percentage of the total bandwidth that is available f
 
 This member is ignored unless the <b>dwDialMode</b> member specifies the <b>MPRDM_DialAsNeeded</b> flag.
 
-
 ### -field dwDialExtraSampleSeconds
 
 A value that specifies the time, in seconds, for which current bandwidth usage must exceed the threshold that is specified by <b>dwDialExtraPercent</b> before RRAS dials an additional subentry.
 
 This member is ignored unless the <b>dwDialMode</b> member specifies the <b>MPRDM_DialAsNeeded</b> flag.
-
 
 ### -field dwHangUpExtraPercent
 
@@ -688,13 +659,11 @@ A value that specifies the percentage of the total bandwidth that is available f
 
 This member is ignored unless the <b>dwDialMode</b> member specifies the <b>MPRDM_DialAsNeeded</b> flag.
 
-
 ### -field dwHangUpExtraSampleSeconds
 
 A value that specifies the time, in seconds, for which current bandwidth usage must be less than the threshold that is specified by <b>dwHangUpExtraPercent</b> before RRAS terminates an existing subentry connection.
 
 This member is ignored unless the <b>dwDialMode</b> member specifies the <b>MPRDM_DialAsNeeded</b> flag.
-
 
 ### -field dwIdleDisconnectSeconds
 
@@ -726,8 +695,6 @@ Use the user preference value as the default.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwType
 
@@ -769,8 +736,6 @@ Direct serial or parallel connection.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwEncryptionType
 
@@ -826,26 +791,21 @@ If possible, use encryption.
 
 The value of <b>dwEncryptionType</b> does not affect how passwords are encrypted. Whether passwords are encrypted and how passwords are encrypted is determined by the authentication protocol, for example, PAP, MS-CHAP, or EAP.
 
-
 ### -field dwCustomAuthKey
 
 A value that specifies the authentication key to be provided to an Extensible Authentication Protocol (EAP) vendor.
-
 
 ### -field dwCustomAuthDataSize
 
 A value that specifies the size of the data pointed to by the <b>lpbCustomAuthData</b> member.
 
-
 ### -field lpbCustomAuthData
 
 A pointer to authentication data to use with EAP.
 
-
 ### -field guidId
 
 The globally unique identifier (GUID) that represents this phone-book entry. This member is read-only.
-
 
 ### -field dwVpnStrategy
 
@@ -907,19 +867,15 @@ RAS dials L2TP first, PPTP second.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The 
 <b>MPR_INTERFACE_2</b> structure has a number of members that are similar to members of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure. 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure. 
 
 The following members from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure have no counterpart in 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure have no counterpart in 
 <b>MPR_INTERFACE_2</b>:
 
 <ul>
@@ -930,28 +886,18 @@ The following members from the
 </ul>
 <b>64-bit Windows:  </b>Does not support the IPX protocol.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetinfo">MprAdminInterfaceSetInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetinfo">MprAdminInterfaceSetInfo</a>

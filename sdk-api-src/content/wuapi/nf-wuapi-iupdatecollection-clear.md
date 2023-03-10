@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Clear
 title: IUpdateCollection::Clear (wuapi.h)
-description: Removes all the elements from the collection.
+description: Removes all the elements from the collection. (IUpdateCollection.Clear)
+helpviewer_keywords: ["Clear","Clear method [Windows Update Agent]","Clear method [Windows Update Agent]","IUpdateCollection interface","IUpdateCollection interface [Windows Update Agent]","Clear method","IUpdateCollection.Clear","IUpdateCollection::Clear","wua.iupdatecollection_clear","wuapi/IUpdateCollection::Clear"]
 old-location: wua\iupdatecollection_clear.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Clear method, IUpdateCollection.Clear, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
-f1_keywords:
-- wuapi/IUpdateCollection.Clear
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateCollection::Clear
+ - wuapi/IUpdateCollection::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateCollection.Clear
 ---
 
 # IUpdateCollection::Clear
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all the elements from the collection.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -84,18 +77,7 @@ The collection is read-only.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

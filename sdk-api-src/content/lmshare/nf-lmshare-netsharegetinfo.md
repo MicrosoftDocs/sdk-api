@@ -2,15 +2,12 @@
 UID: NF:lmshare.NetShareGetInfo
 title: NetShareGetInfo function (lmshare.h)
 description: Retrieves information about a particular shared resource on a server.
+helpviewer_keywords: ["0","1","1005","2","501","502","503","NetShareGetInfo","NetShareGetInfo function [Files]","_win32_netsharegetinfo","fs.netsharegetinfo","lmshare/NetShareGetInfo","netmgmt.netsharegetinfo"]
 old-location: fs\netsharegetinfo.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: 672ea208-4048-4d2f-9606-ee3e2133765b
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1005, 2, 501, 502, 503, NetShareGetInfo, NetShareGetInfo function [Files], _win32_netsharegetinfo, fs.netsharegetinfo, lmshare/NetShareGetInfo, netmgmt.netsharegetinfo
-f1_keywords:
-- lmshare/NetShareGetInfo
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetShareGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetShareGetInfo
+ - lmshare/NetShareGetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetShareGetInfo
 ---
 
 # NetShareGetInfo function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about a particular shared resource on a server.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param netname [in]
 
 Pointer to a string that specifies the name of the share for which to return information.
-
 
 ### -param level [in]
 
@@ -85,7 +80,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return the share name. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -96,7 +91,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return information about the shared resource, including the name and type of the resource, and a comment associated with the resource. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -107,7 +102,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return information about the shared resource, including name of the resource, type and permissions, password, and number of connections. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -118,7 +113,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return the name and type of the resource, and a comment associated with the resource. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_501">SHARE_INFO_501</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_501">SHARE_INFO_501</a> structure.
 
 </td>
 </tr>
@@ -129,7 +124,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
  Return information about the shared resource, including name of the resource, type and permissions, number of connections, and other pertinent information. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a> structure.
 
 </td>
 </tr>
@@ -140,7 +135,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies information about the shared resource, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>buf</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -153,29 +148,24 @@ Specifies information about the shared resource, including the name of the resou
 </td>
 <td width="60%">
  Return a value that indicates whether the share is the root volume in a Dfs tree structure. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
 Pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>. 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>. 
 
 
 
 
 This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
-
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -242,27 +232,21 @@ The share name does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows Networking (WNet) functions</a>, which support all types of shares.
+This function applies only to Server Message Block (SMB) shares. For other types of shares, such as Distributed File System (DFS) or WebDAV shares, use <a href="/windows/desktop/WNet/windows-networking-functions">Windows Networking (WNet) functions</a>, which support all types of shares.
 
 For interactive users (users who are logged on locally to the machine), no special group membership is required to execute the <b>NetShareGetInfo</b> function. For non-interactive users, Administrator, Power User, Print Operator, or Server Operator group membership is required to successfully execute the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a> function at levels 2, 502, and 503. No special group membership is required for level 0 or level 1 calls.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a> function at levels 2, 502, and 503. No special group membership is required for level 0 or level 1 calls.
 
 <b>Windows Server 2003 and Windows XP:  </b>For all users, Administrator, Power User, Print Operator, or Server Operator group membership is required to successfully execute the 
 <b>NetShareGetInfo</b> function at levels 2 and 502.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileshare">IADsFileShare</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileshare">IADsFileShare</a>.
 
-If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_2">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
+If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_2">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
 
 
 #### Examples
@@ -270,8 +254,8 @@ If 503 is specified for the <i>level</i> parameter, the remote server specified 
 The following code sample demonstrates how to retrieve information about a particular shared resource using a call to the 
 <b>NetShareGetInfo</b> function. The sample calls 
 <b>NetShareGetInfo</b>, specifying information level 502 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>). If the call succeeds, the code prints the retrieved data. The sample also calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor">IsValidSecurityDescriptor</a> function to validate the <b>shi502_security_descriptor</b> member. Finally, the sample frees the memory allocated for the information buffer.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>). If the call succeeds, the code prints the retrieved data. The sample also calls the 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor">IsValidSecurityDescriptor</a> function to validate the <b>shi502_security_descriptor</b> member. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -333,63 +317,52 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_0">SHARE_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_1">SHARE_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_2">SHARE_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_501">SHARE_INFO_501</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_501">SHARE_INFO_501</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a>
- 
-
- 
-
+<a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_503">SHARE_INFO_503</a>

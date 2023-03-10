@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICryptAttributes.Clear
 title: ICryptAttributes::Clear (certenroll.h)
 description: Removes all ICryptAttribute objects from the collection.
+helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICryptAttributes interface","ICryptAttributes interface [Security]","Clear method","ICryptAttributes.Clear","ICryptAttributes::Clear","certenroll/ICryptAttributes::Clear","security.icryptattributes_clear_method"]
 old-location: security\icryptattributes_clear_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 00d6c72d-0170-4174-9274-5fe217156f28
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Clear method, ICryptAttributes.Clear, ICryptAttributes::Clear, certenroll/ICryptAttributes::Clear, security.icryptattributes_clear_method
-f1_keywords:
-- certenroll/ICryptAttributes.Clear
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICryptAttributes.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICryptAttributes::Clear
+ - certenroll/ICryptAttributes::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICryptAttributes.Clear
 ---
 
 # ICryptAttributes::Clear
@@ -48,51 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Clear</b> method removes all <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a> objects from the collection.
-
-
-## -parameters
-
-
-
+The <b>Clear</b> method removes all <a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a> objects from the collection.
 
 
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>

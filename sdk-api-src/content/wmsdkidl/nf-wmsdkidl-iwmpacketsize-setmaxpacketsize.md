@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMPacketSize.SetMaxPacketSize
 title: IWMPacketSize::SetMaxPacketSize (wmsdkidl.h)
 description: The SetMaxPacketSize method specifies the maximum size of a packet in an ASF file.
+helpviewer_keywords: ["IWMPacketSize interface [windows Media Format]","SetMaxPacketSize method","IWMPacketSize.SetMaxPacketSize","IWMPacketSize2 interface [windows Media Format]","SetMaxPacketSize method","IWMPacketSize2::SetMaxPacketSize","IWMPacketSize::SetMaxPacketSize","IWMPacketSizeSetMaxPacketSize","SetMaxPacketSize","SetMaxPacketSize method [windows Media Format]","SetMaxPacketSize method [windows Media Format]","IWMPacketSize interface","SetMaxPacketSize method [windows Media Format]","IWMPacketSize2 interface","wmformat.iwmpacketsize_setmaxpacketsize","wmsdkidl/IWMPacketSize2::SetMaxPacketSize","wmsdkidl/IWMPacketSize::SetMaxPacketSize"]
 old-location: wmformat\iwmpacketsize_setmaxpacketsize.htm
 tech.root: wmformat
 ms.assetid: a8230c08-e60f-454d-93a5-037685d6151c
 ms.date: 12/05/2018
 ms.keywords: IWMPacketSize interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize.SetMaxPacketSize, IWMPacketSize2 interface [windows Media Format],SetMaxPacketSize method, IWMPacketSize2::SetMaxPacketSize, IWMPacketSize::SetMaxPacketSize, IWMPacketSizeSetMaxPacketSize, SetMaxPacketSize, SetMaxPacketSize method [windows Media Format], SetMaxPacketSize method [windows Media Format],IWMPacketSize interface, SetMaxPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize_setmaxpacketsize, wmsdkidl/IWMPacketSize2::SetMaxPacketSize, wmsdkidl/IWMPacketSize::SetMaxPacketSize
-f1_keywords:
-- wmsdkidl/IWMPacketSize.SetMaxPacketSize
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMPacketSize.SetMaxPacketSize
-- IWMPacketSize2.SetMaxPacketSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPacketSize::SetMaxPacketSize
+ - wmsdkidl/IWMPacketSize::SetMaxPacketSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMPacketSize.SetMaxPacketSize
+ - IWMPacketSize2.SetMaxPacketSize
 ---
 
 # IWMPacketSize::SetMaxPacketSize
@@ -53,26 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>SetMaxPacketSize</b> method specifies the maximum size of a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packet</a> in an ASF file. 
-
-
-
+The <b>SetMaxPacketSize</b> method specifies the maximum size of a <a href="/windows/desktop/wmformat/wmformat-glossary">packet</a> in an ASF file.
 
 ## -parameters
-
-
-
 
 ### -param dwMaxPacketSize [in]
 
 <b>DWORD</b> containing the maximum packet size, in bytes. Set this to zero if the writer is to generate packets of various sizes. Otherwise, it must be a value between 100 bytes and 64 kilobytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,37 +95,21 @@ The <i>dwMaxPacketSize</i> parameter contains an invalid value for the maximum p
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 By default, the maximum packet size is 1400 bytes (chosen because it is below the 1500-byte Ethernet maximum transition unit (MTU) plus the generic routing encapsulation (GRE) tunneling header size). The writer attempts to send 10 packets per second up to but not exceeding the value of the defined maximum packet size.
 
 This method is designed for use with only single bit rate video; it should not be applied to a multiple bit rate stream. Note also that the maximum value applies only to the data; a small amount will be added for the header. For this reason there will be a small variance between the setting specified by this method and the actual maximum packet size reported by other tools for the stream.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize">IWMPacketSize Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize">IWMPacketSize Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2">IWMPacketSize2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2">IWMPacketSize2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize-getmaxpacketsize">IWMPacketSize::GetMaxPacketSize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize-getmaxpacketsize">IWMPacketSize::GetMaxPacketSize</a>

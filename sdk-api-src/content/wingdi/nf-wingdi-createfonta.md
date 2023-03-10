@@ -1,16 +1,13 @@
 ---
 UID: NF:wingdi.CreateFontA
 title: CreateFontA function (wingdi.h)
-description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device.
+description: The CreateFont function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device. (ANSI)
+helpviewer_keywords: ["ANTIALIASED_QUALITY", "CLEARTYPE_QUALITY", "CLIP_CHARACTER_PRECIS", "CLIP_DEFAULT_PRECIS", "CLIP_DFA_DISABLE", "CLIP_DFA_OVERRIDE", "CLIP_EMBEDDED", "CLIP_LH_ANGLES", "CLIP_MASK", "CLIP_STROKE_PRECIS", "CLIP_TT_ALWAYS", "CreateFontA", "DEFAULT_QUALITY", "DRAFT_QUALITY", "FF_DECORATIVE", "FF_DONTCARE", "FF_MODERN", "FF_ROMAN", "FF_SCRIPT", "FF_SWISS", "FW_BLACK", "FW_BOLD", "FW_DEMIBOLD", "FW_DONTCARE", "FW_EXTRABOLD", "FW_EXTRALIGHT", "FW_HEAVY", "FW_LIGHT", "FW_MEDIUM", "FW_NORMAL", "FW_REGULAR", "FW_SEMIBOLD", "FW_THIN", "FW_ULTRABOLD", "FW_ULTRALIGHT", "NONANTIALIASED_QUALITY", "OUT_CHARACTER_PRECIS", "OUT_DEFAULT_PRECIS", "OUT_DEVICE_PRECIS", "OUT_OUTLINE_PRECIS", "OUT_PS_ONLY_PRECIS", "OUT_RASTER_PRECIS", "OUT_STRING_PRECIS", "OUT_STROKE_PRECIS", "OUT_TT_ONLY_PRECIS", "OUT_TT_PRECIS", "PROOF_QUALITY", "wingdi/CreateFontA"]
 old-location: gdi\createfont.htm
 tech.root: gdi
 ms.assetid: 373bac6e-5d4d-4909-8096-2f0e909d2f1d
 ms.date: 12/05/2018
 ms.keywords: ANTIALIASED_QUALITY, CLEARTYPE_QUALITY, CLIP_CHARACTER_PRECIS, CLIP_DEFAULT_PRECIS, CLIP_DFA_DISABLE, CLIP_DFA_OVERRIDE, CLIP_EMBEDDED, CLIP_LH_ANGLES, CLIP_MASK, CLIP_STROKE_PRECIS, CLIP_TT_ALWAYS, CreateFont, CreateFont function [Windows GDI], CreateFontA, CreateFontW, DEFAULT_QUALITY, DRAFT_QUALITY, FF_DECORATIVE, FF_DONTCARE, FF_MODERN, FF_ROMAN, FF_SCRIPT, FF_SWISS, FW_BLACK, FW_BOLD, FW_DEMIBOLD, FW_DONTCARE, FW_EXTRABOLD, FW_EXTRALIGHT, FW_HEAVY, FW_LIGHT, FW_MEDIUM, FW_NORMAL, FW_REGULAR, FW_SEMIBOLD, FW_THIN, FW_ULTRABOLD, FW_ULTRALIGHT, NONANTIALIASED_QUALITY, OUT_CHARACTER_PRECIS, OUT_DEFAULT_PRECIS, OUT_DEVICE_PRECIS, OUT_OUTLINE_PRECIS, OUT_PS_ONLY_PRECIS, OUT_RASTER_PRECIS, OUT_STRING_PRECIS, OUT_STROKE_PRECIS, OUT_TT_ONLY_PRECIS, OUT_TT_PRECIS, PROOF_QUALITY, _win32_CreateFont, gdi.createfont, wingdi/CreateFont, wingdi/CreateFontA, wingdi/CreateFontW
-f1_keywords:
-- wingdi/CreateFont
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- ext-ms-win-gdi-font-l1-1-2.dll
-- Ext-MS-Win-GDI-Font-L1-1-3.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- CreateFont
-- CreateFontA
-- CreateFontW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateFontA
+ - wingdi/CreateFontA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - ext-ms-win-gdi-font-l1-1-2.dll
+ - Ext-MS-Win-GDI-Font-L1-1-3.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - CreateFont
+ - CreateFontA
+ - CreateFontW
 ---
 
 # CreateFontA function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreateFont</b> function creates a logical font with the specified characteristics. The logical font can subsequently be selected as the font for any device.
 
-
 ## -parameters
-
-
-
 
 ### -param cHeight [in]
 
@@ -121,12 +118,9 @@ nHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
 
 ```
 
-
-
 ### -param cWidth [in]
 
 The average width, in logical units, of characters in the requested font. If this value is zero, the font mapper chooses a closest match value. The closest match value is determined by comparing the absolute values of the difference between the current device's aspect ratio and the digitized aspect ratio of available fonts.
-
 
 ### -param cEscapement [in]
 
@@ -136,11 +130,9 @@ When the graphics mode is set to GM_ADVANCED, you can specify the escapement ang
 
 When the graphics mode is set to GM_COMPATIBLE, <i>nEscapement</i> specifies both the escapement and orientation. You should set <i>nEscapement</i> and <i>nOrientation</i> to the same value.
 
-
 ### -param cOrientation [in]
 
 The angle, in tenths of degrees, between each character's base line and the x-axis of the device.
-
 
 ### -param cWeight [in]
 
@@ -304,23 +296,18 @@ The following values are defined for convenience.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bItalic [in]
 
 Specifies an italic font if set to <b>TRUE</b>.
 
-
 ### -param bUnderline [in]
 
 Specifies an underlined font if set to <b>TRUE</b>.
 
-
 ### -param bStrikeOut [in]
 
 A strikeout font if set to <b>TRUE</b>.
-
 
 ### -param iCharSet [in]
 
@@ -369,7 +356,6 @@ DEFAULT_CHARSET is set to a value based on the current system locale. For exampl
 Fonts with other character sets may exist in the operating system. If an application uses a font with an unknown character set, it should not attempt to translate or interpret strings that are rendered with that font.
 
 To ensure consistent results when creating a font, do not specify OEM_CHARSET or DEFAULT_CHARSET. If you specify a typeface name in the <i>lpszFace</i> parameter, make sure that the <i>fdwCharSet</i> value matches the character set of the typeface specified in <i>lpszFace</i>.
-
 
 ### -param iOutPrecision [in]
 
@@ -485,7 +471,6 @@ Instructs the font mapper to choose a TrueType font when the system contains mul
 
 Applications can use the OUT_DEVICE_PRECIS, OUT_RASTER_PRECIS, OUT_TT_PRECIS, and OUT_PS_ONLY_PRECIS values to control how the font mapper chooses a font when the operating system contains more than one font with a specified name. For example, if an operating system contains a font named Symbol in raster and TrueType form, specifying OUT_TT_PRECIS forces the font mapper to choose the TrueType version. Specifying OUT_TT_ONLY_PRECIS forces the font mapper to choose a TrueType font, even if it must substitute a TrueType font of another name.
 
-
 ### -param iClipPrecision [in]
 
 The clipping precision. The clipping precision defines how to clip characters that are partially outside the clipping region. It can be one or more of the following values.
@@ -592,8 +577,6 @@ Not used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param iQuality [in]
 
@@ -668,7 +651,6 @@ Character quality of the font is more important than exact matching of the logic
  
 
 If the output quality is DEFAULT_QUALITY, DRAFT_QUALITY, or PROOF_QUALITY, then the font is antialiased if the SPI_GETFONTSMOOTHING system parameter is <b>TRUE</b>. Users can control this system parameter from the Control Panel. (The precise wording of the setting in the Control panel depends on the version of Windows, but it will be words to the effect of "Smooth edges of screen fonts".)
-
 
 ### -param iPitchAndFamily [in]
 
@@ -753,36 +735,27 @@ An application can specify a value for the <i>fdwPitchAndFamily</i> parameter by
 
 Font families describe the look of a font in a general way. They are intended for specifying fonts when the exact typeface requested is not available.
 
-
 ### -param pszFaceName [in]
 
-A pointer to a null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 characters, including the terminating null character. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> function can be used to enumerate the typeface names of all currently available fonts. For more information, see the Remarks.
+A pointer to a null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 characters, including the terminating null character. The <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> function can be used to enumerate the typeface names of all currently available fonts. For more information, see the Remarks.
 
 If <i>lpszFace</i> is <b>NULL</b> or empty string, GDI uses the first font that matches the other specified attributes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to a logical font.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
 
-
-
-When you no longer need the font, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the font, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 To help protect the copyrights of vendors who provide fonts for Windows, applications should always report the exact name of a selected font. Because available fonts can vary from system to system, do not assume that the selected font is always the same as the requested font. For example, if you request a font named Palatino, but no such font is available on the system, the font mapper will substitute a font that has similar attributes but a different name. Always report the name of the selected font to the user.
 
-To get the appropriate font on different language versions of the OS, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> with the desired font characteristics in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, then retrieve the appropriate typeface name and create the font using <b>CreateFont</b> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>.
+To get the appropriate font on different language versions of the OS, call <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> with the desired font characteristics in the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, then retrieve the appropriate typeface name and create the font using <b>CreateFont</b> or <a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>.
 
-The font mapper for <b>CreateFont</b>,<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a> recognizes both the English and the localized typeface name, regardless of locale.
+The font mapper for <b>CreateFont</b>,<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a> recognizes both the English and the localized typeface name, regardless of locale.
 
 The following situations do not support ClearType antialiasing:
 
@@ -810,49 +783,50 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_PAINT:
         {
         RECT rect;
-        HBRUSH hBrush;
-        HFONT hFont;
+        HFONT hFontOriginal, hFont1, hFont2, hFont3;
         hdc = BeginPaint(hWnd, &ps);
 
             
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 48 pixels in height.
             //The width, when set to 0, will cause the font mapper to choose the closest matching value.
             //The font face name will be Impact.
-            hFont = CreateFont(48,0,0,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
+            hFont1 = CreateFont(48,0,0,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
                 CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY, VARIABLE_PITCH,TEXT("Impact"));
-            SelectObject(hdc, hFont);
+            hFontOriginal = (HFONT)SelectObject(hdc, hFont1);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
             SetRect(&rect, 100,100,700,200);
             SetTextColor(hdc, RGB(255,0,0));
             DrawText(hdc, TEXT("Drawing Text with Impact"), -1,&rect, DT_NOCLIP);
             
-
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
             //The width, when set to 20, will cause the font mapper to choose a font which, in this case, is stretched.
             //The font face name will be Times New Roman.  This time nEscapement is at -300 tenths of a degree (-30 degrees)
-            hFont = CreateFont(36,20,-300,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
+            hFont2 = CreateFont(36,20,-300,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
                 CLIP_DEFAULT_PRECIS,CLEARTYPE_QUALITY, VARIABLE_PITCH,TEXT("Times New Roman"));
-            SelectObject(hdc,hFont);
+            SelectObject(hdc,hFont2);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
             SetRect(&rect, 100, 200, 900, 800);
             SetTextColor(hdc, RGB(0,128,0));
             DrawText(hdc, TEXT("Drawing Text with Times New Roman"), -1,&rect, DT_NOCLIP);
-            
                 
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
             //The width, when set to 10, will cause the font mapper to choose a font which, in this case, is compressed. 
             //The font face name will be Arial. This time nEscapement is at 250 tenths of a degree (25 degrees)
-            hFont = CreateFont(36,10,250,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
+            hFont3 = CreateFont(36,10,250,0,FW_DONTCARE,FALSE,TRUE,FALSE,DEFAULT_CHARSET,OUT_OUTLINE_PRECIS,
                 CLIP_DEFAULT_PRECIS,ANTIALIASED_QUALITY, VARIABLE_PITCH,TEXT("Arial"));
-            SelectObject(hdc,hFont);
+            SelectObject(hdc,hFont3);
 
             //Sets the coordinates for the rectangle in which the text is to be formatted.
             SetRect(&rect, 500, 200, 1400, 600);
             SetTextColor(hdc, RGB(0,0,255));
             DrawText(hdc, TEXT("Drawing Text with Arial"), -1,&rect, DT_NOCLIP);
-            DeleteObject(hFont);    
+
+            SelectObject(hdc,hFontOriginal);
+            DeleteObject(hFont1);
+            DeleteObject(hFont2);
+            DeleteObject(hFont3);
         
         EndPaint(hWnd, &ps);
         break;
@@ -869,26 +843,27 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 ```
 
 
-For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
+For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The wingdi.h header defines CreateFont as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
@@ -896,28 +871,24 @@ For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

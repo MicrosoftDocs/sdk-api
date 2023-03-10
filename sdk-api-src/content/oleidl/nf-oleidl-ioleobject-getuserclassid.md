@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleObject.GetUserClassID
 title: IOleObject::GetUserClassID (oleidl.h)
 description: Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.
+helpviewer_keywords: ["GetUserClassID","GetUserClassID method [COM]","GetUserClassID method [COM]","IOleObject interface","IOleObject interface [COM]","GetUserClassID method","IOleObject.GetUserClassID","IOleObject::GetUserClassID","_ole_ioleobject_getuserclassid","com.ioleobject_getuserclassid","oleidl/IOleObject::GetUserClassID"]
 old-location: com\ioleobject_getuserclassid.htm
 tech.root: com
 ms.assetid: 4b3c0292-0476-4f56-abd2-2f3a82195c67
 ms.date: 12/05/2018
 ms.keywords: GetUserClassID, GetUserClassID method [COM], GetUserClassID method [COM],IOleObject interface, IOleObject interface [COM],GetUserClassID method, IOleObject.GetUserClassID, IOleObject::GetUserClassID, _ole_ioleobject_getuserclassid, com.ioleobject_getuserclassid, oleidl/IOleObject::GetUserClassID
-f1_keywords:
-- oleidl/IOleObject.GetUserClassID
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.GetUserClassID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::GetUserClassID
+ - oleidl/IOleObject::GetUserClassID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.GetUserClassID
 ---
 
 # IOleObject::GetUserClassID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.
-
 
 ## -parameters
 
-
-
-
 ### -param pClsid [out]
 
-Pointer to the class identifier (CLSID) to be returned. An object's CLSID is the binary equivalent of the user-type name returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>.
-
+Pointer to the class identifier (CLSID) to be returned. An object's CLSID is the binary equivalent of the user-type name returned by <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -85,51 +79,35 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>IOleObject::GetUserClassID</b> returns the CLSID associated with the object in the registration database. Normally, this value is identical to the CLSID stored with the object, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a>. For linked objects, this is the CLSID of the last bound link source. If the object is running in an application different from the one in which it was created and for the purpose of being edited is emulating a class that the container application recognizes, the CLSID returned will be that of the class being emulated rather than that of the object's own class.
-
-
-
+<b>IOleObject::GetUserClassID</b> returns the CLSID associated with the object in the registration database. Normally, this value is identical to the CLSID stored with the object, which is returned by <a href="/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a>. For linked objects, this is the CLSID of the last bound link source. If the object is running in an application different from the one in which it was created and for the purpose of being edited is emulating a class that the container application recognizes, the CLSID returned will be that of the class being emulated rather than that of the object's own class.
 
 ## -see-also
 
+<a href="/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-getconvertstg">GetConvertStg</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getusertype">IOleObject::GetUserType</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledoautoconvert">OleDoAutoConvert</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-olesetautoconvert">OleSetAutoConvert</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetautoconvert">OleSetAutoConvert</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-setconvertstg">SetConvertStg</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ole2/nf-ole2-setconvertstg">SetConvertStg</a>

@@ -2,15 +2,12 @@
 UID: NF:iads.IADsAccessControlList.AddAce
 title: IADsAccessControlList::AddAce (iads.h)
 description: The IADsAccessControlList::AddAce method adds an IADsAccessControlEntry object to the IADsAccessControlList object.
+helpviewer_keywords: ["AddAce","AddAce method [ADSI]","AddAce method [ADSI]","IADsAccessControlList interface","IADsAccessControlList interface [ADSI]","AddAce method","IADsAccessControlList.AddAce","IADsAccessControlList::AddAce","_ds_iadsaccesscontrollist_addace","adsi.iadsaccesscontrollist__addace","adsi.iadsaccesscontrollist_addace","iads/IADsAccessControlList::AddAce"]
 old-location: adsi\iadsaccesscontrollist_addace.htm
 tech.root: adsi
 ms.assetid: 663be55a-29d6-4a8a-adf2-024762413fc3
 ms.date: 12/05/2018
 ms.keywords: AddAce, AddAce method [ADSI], AddAce method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],AddAce method, IADsAccessControlList.AddAce, IADsAccessControlList::AddAce, _ds_iadsaccesscontrollist_addace, adsi.iadsaccesscontrollist__addace, adsi.iadsaccesscontrollist_addace, iads/IADsAccessControlList::AddAce
-f1_keywords:
-- iads/IADsAccessControlList.AddAce
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsAccessControlList.AddAce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsAccessControlList::AddAce
+ - iads/IADsAccessControlList::AddAce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsAccessControlList.AddAce
 ---
 
 # IADsAccessControlList::AddAce
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-   The <b>IADsAccessControlList::AddAce</b> method adds an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a> object to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a> object.
-
+   The <b>IADsAccessControlList::AddAce</b> method adds an <a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a> object to the <a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a> object.
 
 ## -parameters
 
-
-
-
 ### -param pAccessControlEntry [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a> object to be added. This parameter cannot be <b>NULL</b>.
-
+Pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of the <a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a> object to be added. This parameter cannot be <b>NULL</b>.
 
 ## -returns
 
-
-
 Returns a standard <b>HRESULT</b> value including the following.
 
-
-
-
 ## -remarks
-
-
 
 Access control entries must appear in the following order in a security descriptor's access control list:
 
@@ -226,21 +215,10 @@ IADsAccessControlEntry *createAce(
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrollist">IADsAccessControlList</a>

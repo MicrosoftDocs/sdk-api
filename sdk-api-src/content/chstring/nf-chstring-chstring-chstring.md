@@ -1,14 +1,12 @@
 ---
 UID: NF:chstring.CHString.CHString
 title: CHString::CHString
-description: 
+description: The CHString::CHString function initializes a new CHString object with the specified data.
+tech.root: wmi
+helpviewer_keywords: ["CHString::CHString"]
 ms.assetid: cb7da79b-f808-4f2d-ac33-559fdc9a9978
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::CHString
-f1_keywords:
-- chstring/CHString::CHString
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,24 +27,32 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::CHString
+ - chstring/CHString::CHString
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::CHString
+ - CHString::CHString
 ---
 
 # CHString::CHString
 
+
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
+The <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
 
 Each of these constructors initializes a new **CHString** object with the specified data.
+
+
 
 ## -remarks
 
@@ -62,7 +68,7 @@ Enables you to construct a **CHString** string from a pointer to unsigned char.
 
 #### Examples
 
-The following code example shows the use of <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)">CHString::CHString</a>:
+The following code example shows the use of <a href="/windows/desktop/api/chstring/nf-chstring-chstring-chstring(constchstring_)">CHString::CHString</a>:
 
 ```cpp
 CHString s1;                    // Empty string

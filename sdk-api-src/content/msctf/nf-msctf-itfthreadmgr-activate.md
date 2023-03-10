@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr.Activate
 title: ITfThreadMgr::Activate (msctf.h)
 description: ITfThreadMgr::Activate method
+helpviewer_keywords: ["Activate","Activate method [Text Services Framework]","Activate method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","Activate method","ITfThreadMgr.Activate","ITfThreadMgr::Activate","_tsf_itfthreadmgr_activate_ref","msctf/ITfThreadMgr::Activate","tsf.itfthreadmgr_activate"]
 old-location: tsf\itfthreadmgr_activate.htm
 tech.root: TSF
 ms.assetid: bd9058c0-55b0-4231-a336-7cea4db75c0f
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],Activate method, ITfThreadMgr.Activate, ITfThreadMgr::Activate, _tsf_itfthreadmgr_activate_ref, msctf/ITfThreadMgr::Activate, tsf.itfthreadmgr_activate
-f1_keywords:
-- msctf/ITfThreadMgr.Activate
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfThreadMgr.Activate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr::Activate
+ - msctf/ITfThreadMgr::Activate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfThreadMgr.Activate
 ---
 
 # ITfThreadMgr::Activate
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Activates TSF for the calling thread.
 
 ## -parameters
 
-
-
-
 ### -param ptid [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
-
+Pointer to a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that receives a client identifier.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,37 +101,21 @@ This method was called while the thread was deactivating.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method can be called more than once from a thread, but each call must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate</a> from the same thread.
-
-
-
+This method can be called more than once from a thread, but each call must be matched with a corresponding call to <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate</a> from the same thread.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-deactivate">ITfThreadMgr::Deactivate
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId
+<a href="/windows/desktop/TSF/tfclientid">TfClientId
       </a>
- 
-
- 
-

@@ -2,15 +2,12 @@
 UID: NF:amsi.AmsiOpenSession
 title: AmsiOpenSession function (amsi.h)
 description: Opens a session within which multiple scan requests can be correlated.
+helpviewer_keywords: ["AmsiOpenSession","AmsiOpenSession function [Antimalware Scan Interface]","amsi.amsiopensession","amsi/AmsiOpenSession"]
 old-location: amsi\amsiopensession.htm
 tech.root: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5
 ms.date: 12/05/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
-f1_keywords:
-- amsi/AmsiOpenSession
-dev_langs:
-- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Amsi.lib
 req.dll: Amsi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- amsi.dll
-api_name:
-- AmsiOpenSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AmsiOpenSession
+ - amsi/AmsiOpenSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - amsi.dll
+api_name:
+ - AmsiOpenSession
 ---
 
 # AmsiOpenSession function
@@ -48,54 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a session within which multiple scan requests can be correlated.
-
 
 ## -parameters
 
-
-
-
 ### -param amsiContext [in]
 
-The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
-
+The handle of type HAMSICONTEXT that was initially received from <a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 ### -param amsiSession [out]
 
 A handle of type HAMSISESSION that must be passed to all subsequent calls to the AMSI API within the session.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-When the app is finished with the session it must call <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiclosesession">AmsiCloseSession</a>.
-
-
-
+When the app is finished with the session it must call <a href="/windows/desktop/api/amsi/nf-amsi-amsiclosesession">AmsiCloseSession</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiclosesession">AmsiCloseSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiclosesession">AmsiCloseSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>

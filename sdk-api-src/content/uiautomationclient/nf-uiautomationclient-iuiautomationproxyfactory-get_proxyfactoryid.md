@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationProxyFactory.get_ProxyFactoryId
 title: IUIAutomationProxyFactory::get_ProxyFactoryId (uiautomationclient.h)
 description: Retrieves the identifier of the proxy factory.
+helpviewer_keywords: ["IUIAutomationProxyFactory interface [Windows Accessibility]","ProxyFactoryId property","IUIAutomationProxyFactory.ProxyFactoryId","IUIAutomationProxyFactory.get_ProxyFactoryId","IUIAutomationProxyFactory::ProxyFactoryId","IUIAutomationProxyFactory::get_ProxyFactoryId","ProxyFactoryId property [Windows Accessibility]","ProxyFactoryId property [Windows Accessibility]","IUIAutomationProxyFactory interface","get_ProxyFactoryId","uiauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId","uiauto_IUIAutomationProxyFactory_ProxyFactoryId","uiautomationclient/IUIAutomationProxyFactory::ProxyFactoryId","uiautomationclient/IUIAutomationProxyFactory::get_ProxyFactoryId","winauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId"]
 old-location: winauto\uiauto_IUIAutomationProxyFactory_ProxyFactoryId.htm
 tech.root: WinAuto
 ms.assetid: 6ca12f18-7826-469c-8d4d-517c54a44138
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactory interface [Windows Accessibility],ProxyFactoryId property, IUIAutomationProxyFactory.ProxyFactoryId, IUIAutomationProxyFactory.get_ProxyFactoryId, IUIAutomationProxyFactory::ProxyFactoryId, IUIAutomationProxyFactory::get_ProxyFactoryId, ProxyFactoryId property [Windows Accessibility], ProxyFactoryId property [Windows Accessibility],IUIAutomationProxyFactory interface, get_ProxyFactoryId, uiauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId, uiauto_IUIAutomationProxyFactory_ProxyFactoryId, uiautomationclient/IUIAutomationProxyFactory::ProxyFactoryId, uiautomationclient/IUIAutomationProxyFactory::get_ProxyFactoryId, winauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId
-f1_keywords:
-- uiautomationclient/IUIAutomationProxyFactory.ProxyFactoryId
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationProxyFactory.ProxyFactoryId
-- IUIAutomationProxyFactory.get_ProxyFactoryId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationProxyFactory::get_ProxyFactoryId
+ - uiautomationclient/IUIAutomationProxyFactory::get_ProxyFactoryId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationProxyFactory.ProxyFactoryId
+ - IUIAutomationProxyFactory.get_ProxyFactoryId
 ---
 
 # IUIAutomationProxyFactory::get_ProxyFactoryId
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the identifier of the proxy factory. 
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationproxyfactory">IUIAutomationProxyFactory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationproxyfactory">IUIAutomationProxyFactory</a>

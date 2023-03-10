@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetPrivateProfileStruct
 title: GetPrivateProfileStruct function (winbase.h)
-description: Retrieves the data associated with a key in the specified section of an initialization file.
+description: The GetPrivateProfileStruct function (winbase.h) retrieves the data associated with a key in the specified section of an initialization file.
+helpviewer_keywords: ["GetPrivateProfileStruct","GetPrivateProfileStruct function","GetPrivateProfileStructA","GetPrivateProfileStructW","_win32_getprivateprofilestruct","base.getprivateprofilestruct","winbase/GetPrivateProfileStruct","winbase/GetPrivateProfileStructA","winbase/GetPrivateProfileStructW"]
 old-location: base\getprivateprofilestruct.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: a14ba43e-d16d-4c52-a8ac-0d4c71229b7b
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileStruct, GetPrivateProfileStruct function, GetPrivateProfileStructA, GetPrivateProfileStructW, _win32_getprivateprofilestruct, base.getprivateprofilestruct, winbase/GetPrivateProfileStruct, winbase/GetPrivateProfileStructA, winbase/GetPrivateProfileStructW
-f1_keywords:
-- winbase/GetPrivateProfileStruct
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- GetPrivateProfileStruct
-- GetPrivateProfileStructA
-- GetPrivateProfileStructW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPrivateProfileStruct
+ - winbase/GetPrivateProfileStruct
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - GetPrivateProfileStruct
+ - GetPrivateProfileStructA
+ - GetPrivateProfileStructW
 ---
 
 # GetPrivateProfileStruct function
@@ -50,66 +52,54 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the data associated with a key in the specified section of an initialization file. As it retrieves the data, the function calculates a checksum and compares it with the checksum calculated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a> function when the data was added to the file.
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a> function when the data was added to the file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpszSection [in]
 
 The name of the section in the initialization file.
 
-
 ### -param lpszKey [in]
 
 The name of the key whose data is to be retrieved.
-
 
 ### -param lpStruct [out]
 
 A pointer to the buffer that receives the data associated with the file, section, and key names.
 
-
 ### -param uSizeStruct [in]
 
 The size of the buffer pointed to by the <i>lpStruct</i> parameter, in bytes.
-
 
 ### -param szFile [in]
 
 The name of the initialization file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 A section in the initialization file must have the following form:
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=data
       .
       .
-      .</code></pre>
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows NT</b>\<b>CurrentVersion</b>\<b>IniFileMapping</b>
+      .
+```
+
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>IniFileMapping</b>
 
 
 
@@ -136,15 +126,6 @@ When looking at values in the registry that specify other registry locations, th
 <li>SYS: - this prefix stands for <b>HKEY_LOCAL_MACHINE\SOFTWARE</b>, and the text after the prefix is relative to that key.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a>

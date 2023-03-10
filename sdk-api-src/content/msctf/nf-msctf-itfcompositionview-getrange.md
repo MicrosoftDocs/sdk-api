@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCompositionView.GetRange
 title: ITfCompositionView::GetRange (msctf.h)
 description: ITfCompositionView::GetRange method
+helpviewer_keywords: ["GetRange","GetRange method [Text Services Framework]","GetRange method [Text Services Framework]","ITfCompositionView interface","ITfCompositionView interface [Text Services Framework]","GetRange method","ITfCompositionView.GetRange","ITfCompositionView::GetRange","_tsf_itfcompositionview_getrange_ref","msctf/ITfCompositionView::GetRange","tsf.itfcompositionview_getrange"]
 old-location: tsf\itfcompositionview_getrange.htm
 tech.root: TSF
 ms.assetid: 31372688-be81-4883-9fc7-ed3f7b2f7934
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [Text Services Framework], GetRange method [Text Services Framework],ITfCompositionView interface, ITfCompositionView interface [Text Services Framework],GetRange method, ITfCompositionView.GetRange, ITfCompositionView::GetRange, _tsf_itfcompositionview_getrange_ref, msctf/ITfCompositionView::GetRange, tsf.itfcompositionview_getrange
-f1_keywords:
-- msctf/ITfCompositionView.GetRange
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCompositionView.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompositionView::GetRange
+ - msctf/ITfCompositionView::GetRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCompositionView.GetRange
 ---
 
 # ITfCompositionView::GetRange
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a range object that contains the text covered by the composition.
 
 ## -parameters
 
-
-
-
 ### -param ppRange [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange</a> interface pointer that receives the range object. It is possible that the range will have zero length.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -128,23 +123,7 @@ The composition has already terminated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcomposition">ITfRange
-      </a>
- 
-
- 
-
+[ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfRange interface](nn-msctf-itfrange.md)

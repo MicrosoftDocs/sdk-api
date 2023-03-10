@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateSigningKeyPair
 title: IWMDRMWriter::GenerateSigningKeyPair (wmsdkidl.h)
 description: The GenerateSigningKeyPair method generates a public and private key pair that are used to sign the DRM header object.
+helpviewer_keywords: ["GenerateSigningKeyPair","GenerateSigningKeyPair method [windows Media Format]","GenerateSigningKeyPair method [windows Media Format]","IWMDRMWriter interface","IWMDRMWriter interface [windows Media Format]","GenerateSigningKeyPair method","IWMDRMWriter.GenerateSigningKeyPair","IWMDRMWriter::GenerateSigningKeyPair","IWMDRMWriterGenerateSigningKeyPair","wmformat.iwmdrmwriter_generatesigningkeypair","wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair"]
 old-location: wmformat\iwmdrmwriter_generatesigningkeypair.htm
 tech.root: wmformat
 ms.assetid: 2ad66a22-b088-423c-b726-63bc6372f3c2
 ms.date: 12/05/2018
 ms.keywords: GenerateSigningKeyPair, GenerateSigningKeyPair method [windows Media Format], GenerateSigningKeyPair method [windows Media Format],IWMDRMWriter interface, IWMDRMWriter interface [windows Media Format],GenerateSigningKeyPair method, IWMDRMWriter.GenerateSigningKeyPair, IWMDRMWriter::GenerateSigningKeyPair, IWMDRMWriterGenerateSigningKeyPair, wmformat.iwmdrmwriter_generatesigningkeypair, wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
-f1_keywords:
-- wmsdkidl/IWMDRMWriter.GenerateSigningKeyPair
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMWriter.GenerateSigningKeyPair
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMWriter::GenerateSigningKeyPair
+ - wmsdkidl/IWMDRMWriter::GenerateSigningKeyPair
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMWriter.GenerateSigningKeyPair
 ---
 
 # IWMDRMWriter::GenerateSigningKeyPair
@@ -51,68 +53,40 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>GenerateSigningKeyPair</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>GenerateSigningKeyPair</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
-The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">key</a> pair that are used to sign the DRM header object.
-
-
-
+The <b>GenerateSigningKeyPair</b> method generates a public and private <a href="/windows/desktop/wmformat/wmformat-glossary">key</a> pair that are used to sign the DRM header object.
 
 ## -parameters
 
-
-
-
 ### -param pwszPrivKey [out]
 
-Pointer to a wide-character <b>null</b>-terminated string containing the private key. Set to <b>NULL</b> to retrieve the size of the string, which is returned in <i>pcwchPrivKeyLength</i>. Use this key to set the <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-headersignprivkey">DRM_HeaderSignPrivKey</a> property.
-
+Pointer to a wide-character <b>null</b>-terminated string containing the private key. Set to <b>NULL</b> to retrieve the size of the string, which is returned in <i>pcwchPrivKeyLength</i>. Use this key to set the <a href="/windows/desktop/wmformat/drm-headersignprivkey">DRM_HeaderSignPrivKey</a> property.
 
 ### -param pcwchPrivKeyLength [in, out]
 
 Pointer to a <b>DWORD</b> containing the size, in wide characters, of <i>pwszPrivKey</i>. This size includes the terminating <b>null</b> character.
 
-
 ### -param pwszPubKey [out]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the public key. Set to <b>NULL</b> to retrieve the size of the string, which is returned in <i>pcwchPubKeyLength</i>. This key is shared only with the license server; it enables the license server to verify the signature of the DRM header object when users attempt to obtain a content license for a file.
-
 
 ### -param pcwchPubKeyLength [in, out]
 
 Pointer to a <b>DWORD</b> containing the size, in wide characters, of <i>pwsPubKey</i>. This size includes the terminating <b>null</b> character.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
-Do not confuse the signature that is applied to the ASF header object, using these keys, with the signature that is applied to the DRM header object by using the <a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-lasignatureprivkey">DRM_LASignaturePrivKey</a> and other properties that make up the digital signature object in the file.
+Do not confuse the signature that is applied to the ASF header object, using these keys, with the signature that is applied to the DRM header object by using the <a href="/windows/desktop/wmformat/drm-lasignatureprivkey">DRM_LASignaturePrivKey</a> and other properties that make up the digital signature object in the file.
 
 The keys generated by this method are the basis for revocation lists, so the number of different key pairs you use will be based on your particular business needs. In general, the same key pair should be used for some set of content that forms a logical group and that shares the same revocation list.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>

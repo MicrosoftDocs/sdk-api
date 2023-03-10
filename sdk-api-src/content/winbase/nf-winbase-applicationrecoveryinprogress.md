@@ -2,15 +2,12 @@
 UID: NF:winbase.ApplicationRecoveryInProgress
 title: ApplicationRecoveryInProgress function (winbase.h)
 description: Indicates that the calling application is continuing to recover data.
+helpviewer_keywords: ["ApplicationRecoveryInProgress","ApplicationRecoveryInProgress function [Recovery]","recovery.applicationrecoveryinprogress","winbase/ApplicationRecoveryInProgress"]
 old-location: recovery\applicationrecoveryinprogress.htm
 tech.root: Recovery
 ms.assetid: 9c765f72-10ad-4d16-a9e5-d73ea5c4f59b
 ms.date: 12/05/2018
 ms.keywords: ApplicationRecoveryInProgress, ApplicationRecoveryInProgress function [Recovery], recovery.applicationrecoveryinprogress, winbase/ApplicationRecoveryInProgress
-f1_keywords:
-- winbase/ApplicationRecoveryInProgress
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- ApplicationRecoveryInProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ApplicationRecoveryInProgress
+ - winbase/ApplicationRecoveryInProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - ApplicationRecoveryInProgress
 ---
 
 # ApplicationRecoveryInProgress function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that  the calling application is continuing to recover data.
 
-
 ## -parameters
-
-
-
 
 ### -param pbCancelled [out]
 
 Indicates whether the user has canceled the recovery process. Set by WER if the user clicks the Cancel button.
 
-
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or one of the following error codes.
 
@@ -96,35 +90,19 @@ The <i>pbCancelled</i> cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The application must call this function within the interval specified when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a> function. If the application fails to call this function within the specified interval, WER terminates the application. The recovery process can continue as long as this function is being called.
+The application must call this function within the interval specified when calling the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a> function. If the application fails to call this function within the specified interval, WER terminates the application. The recovery process can continue as long as this function is being called.
 
 If the user cancels the recovery process, the application should terminate. 
 
-To indicate that the recovery process has been completed, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryfinished">ApplicationRecoveryFinished</a> function.
-
-
-
+To indicate that the recovery process has been completed, call the <a href="/windows/desktop/api/winbase/nf-winbase-applicationrecoveryfinished">ApplicationRecoveryFinished</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-applicationrecoveryfinished">ApplicationRecoveryFinished</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-applicationrecoveryfinished">ApplicationRecoveryFinished</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrecoverycallback">RegisterApplicationRecoveryCallback</a>

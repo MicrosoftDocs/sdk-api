@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFCreateTranscodeSinkActivate
 title: MFCreateTranscodeSinkActivate function (mfidl.h)
 description: Creates the transcode sink activation object.
+helpviewer_keywords: ["MFCreateTranscodeSinkActivate","MFCreateTranscodeSinkActivate function [Media Foundation]","mf.mfcreatetranscodesinkactivate","mfidl/MFCreateTranscodeSinkActivate"]
 old-location: mf\mfcreatetranscodesinkactivate.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: cc9c604d-7f5a-4afb-a2df-b270ef883e68
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeSinkActivate, MFCreateTranscodeSinkActivate function [Media Foundation], mf.mfcreatetranscodesinkactivate, mfidl/MFCreateTranscodeSinkActivate
-f1_keywords:
-- mfidl/MFCreateTranscodeSinkActivate
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateTranscodeSinkActivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateTranscodeSinkActivate
+ - mfidl/MFCreateTranscodeSinkActivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateTranscodeSinkActivate
 ---
 
 # MFCreateTranscodeSinkActivate function
 
 
 ## -description
-
 
 Creates the transcode sink activation object.
 
@@ -56,39 +57,22 @@ The transcode sink activation object can be used to create any of the following 
 <li>3GP file sink</li>
 <li>MP3 file sink</li>
 <li>MP4 file sink</li>
-</ul>The transcode sink activation object exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a> interface.
-
+</ul>The transcode sink activation object exposes the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param ppActivate [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. This interface is used to create the file sink instance from the activation object. Before doing so, query the returned pointer for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a> interface and use that interface to initialize the object.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface. This interface is used to create the file sink instance from the activation object. Before doing so, query the returned pointer for the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a> interface and use that interface to initialize the object.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInsertAtSelection.InsertTextAtSelection
 title: ITfInsertAtSelection::InsertTextAtSelection (msctf.h)
 description: ITfInsertAtSelection::InsertTextAtSelection method
+helpviewer_keywords: ["ITfInsertAtSelection interface [Text Services Framework]","InsertTextAtSelection method","ITfInsertAtSelection.InsertTextAtSelection","ITfInsertAtSelection::InsertTextAtSelection","InsertTextAtSelection","InsertTextAtSelection method [Text Services Framework]","InsertTextAtSelection method [Text Services Framework]","ITfInsertAtSelection interface","TF_IAS_NOQUERY","TF_IAS_NO_DEFAULT_COMPOSITION","TF_IAS_QUERYONLY","_tsf_itfinsertatselection_inserttextatselection_ref","msctf/ITfInsertAtSelection::InsertTextAtSelection","tsf.itfinsertatselection_inserttextatselection"]
 old-location: tsf\itfinsertatselection_inserttextatselection.htm
 tech.root: TSF
 ms.assetid: 1373fe9b-6c51-4514-a7da-c1f872d9b1ce
 ms.date: 12/05/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertTextAtSelection method, ITfInsertAtSelection.InsertTextAtSelection, ITfInsertAtSelection::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITfInsertAtSelection interface, TF_IAS_NOQUERY, TF_IAS_NO_DEFAULT_COMPOSITION, TF_IAS_QUERYONLY, _tsf_itfinsertatselection_inserttextatselection_ref, msctf/ITfInsertAtSelection::InsertTextAtSelection, tsf.itfinsertatselection_inserttextatselection
-f1_keywords:
-- msctf/ITfInsertAtSelection.InsertTextAtSelection
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfInsertAtSelection.InsertTextAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInsertAtSelection::InsertTextAtSelection
+ - msctf/ITfInsertAtSelection::InsertTextAtSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfInsertAtSelection.InsertTextAtSelection
 ---
 
 # ITfInsertAtSelection::InsertTextAtSelection
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Inserts text at the selection or insertion point.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param dwFlags [in]
 
@@ -101,27 +98,20 @@ The manager will not create a default composition if a composition is required. 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pchText [in]
 
 Specifies the text to insert.
 
-
 ### -param cch [in]
 
 Specifies the character count of the text in <i>pchText</i>.
-
 
 ### -param ppRange [out]
 
 Receives the position of the inserted object.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -186,47 +176,31 @@ Selection is read-only.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To insert an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object instead of text, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
-
-
-
+To insert an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object instead of text, use <a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinsertatselection">ITfInsertAtSelection
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinsertatselection">ITfInsertAtSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection
       </a>
- 
-
- 
-

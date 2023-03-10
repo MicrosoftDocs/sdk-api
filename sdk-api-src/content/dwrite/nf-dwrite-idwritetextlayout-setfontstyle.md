@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteTextLayout.SetFontStyle
 title: IDWriteTextLayout::SetFontStyle (dwrite.h)
 description: Sets the font style for text within a text range specified by a DWRITE_TEXT_RANGE structure.
+helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetFontStyle method","IDWriteTextLayout.SetFontStyle","IDWriteTextLayout::SetFontStyle","SetFontStyle","SetFontStyle method [Direct Write]","SetFontStyle method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetFontStyle","dwrite/IDWriteTextLayout::SetFontStyle"]
 old-location: directwrite\IDWriteTextLayout_SetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 688a6c30-5eca-44aa-bcb0-02a3f29647b8
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontStyle method, IDWriteTextLayout.SetFontStyle, IDWriteTextLayout::SetFontStyle, SetFontStyle, SetFontStyle method [Direct Write], SetFontStyle method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontStyle, dwrite/IDWriteTextLayout::SetFontStyle
-f1_keywords:
-- dwrite/IDWriteTextLayout.SetFontStyle
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout.SetFontStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout::SetFontStyle
+ - dwrite/IDWriteTextLayout::SetFontStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout.SetFontStyle
 ---
 
 # IDWriteTextLayout::SetFontStyle
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Sets the font style for  text within a text range specified by a <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param fontStyle
 
@@ -63,28 +60,19 @@ Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_
 
 The  font style to be set   for text within a range specified by <i>textRange</i>.
 
-
 ### -param textRange
 
 Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_text_range">DWRITE_TEXT_RANGE</a></b>
 
 The text range to which this change applies.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The font style can be set to Normal, Italic or Oblique. The following illustration shows  three styles for the Palatino font.  For more information, see <a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style">DWRITE_FONT_STYLE</a>.
 
@@ -109,17 +97,7 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
- 
-
- 
 

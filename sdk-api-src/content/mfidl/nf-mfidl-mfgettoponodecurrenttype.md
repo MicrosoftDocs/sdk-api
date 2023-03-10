@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFGetTopoNodeCurrentType
 title: MFGetTopoNodeCurrentType function (mfidl.h)
 description: Gets the media type for a stream associated with a topology node.
+helpviewer_keywords: ["MFGetTopoNodeCurrentType","MFGetTopoNodeCurrentType function [Media Foundation]","mf.mfgettoponodecurrenttype","mfidl/MFGetTopoNodeCurrentType"]
 old-location: mf\mfgettoponodecurrenttype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2405c6f6-1a3c-42d1-8ec9-4728f522ce42
 ms.date: 12/05/2018
 ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media Foundation], mf.mfgettoponodecurrenttype, mfidl/MFGetTopoNodeCurrentType
-f1_keywords:
-- mfidl/MFGetTopoNodeCurrentType
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFGetTopoNodeCurrentType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFGetTopoNodeCurrentType
+ - mfidl/MFGetTopoNodeCurrentType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFGetTopoNodeCurrentType
 ---
 
 # MFGetTopoNodeCurrentType function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the media type for a stream associated with a topology node.
-
 
 ## -parameters
 
-
-
-
 ### -param pNode
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface.
-
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface.
 
 ### -param dwStreamIndex
 
@@ -84,12 +80,9 @@ The identifier of the stream to query. This parameter is interpreted as follows:
 
 ### -param ppType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,29 +114,13 @@ The stream index is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function gets the actual media type from the object that is associated with the topology node. The <i>pNode</i> parameter should specify a node that belongs to a fully resolved topology.  If the node belongs to a partial topology, the function will probably fail. 
 
-Tee nodes do not have an associated object to query. For tee nodes, the function gets the node's input type, if available. Otherwise, if no input type is available, the function gets the media type of the node's primary output stream. The primary output stream is identified by the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-toponode-primaryoutput-attribute">MF_TOPONODE_PRIMARYOUTPUT</a>  attribute.
-
-
-
+Tee nodes do not have an associated object to query. For tee nodes, the function gets the node's input type, if available. Otherwise, if no input type is available, the function gets the media type of the node's primary output stream. The primary output stream is identified by the <a href="/windows/desktop/medfound/mf-toponode-primaryoutput-attribute">MF_TOPONODE_PRIMARYOUTPUT</a>  attribute.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

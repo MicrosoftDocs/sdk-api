@@ -1,16 +1,13 @@
 ---
 UID: NF:tom.ITextFont.GetSize
 title: ITextFont::GetSize (tom.h)
-description: Gets the font size.
+description: Gets the font size. (ITextFont.GetSize)
+helpviewer_keywords: ["GetSize","GetSize method [Windows Controls]","GetSize method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetSize method","ITextFont.GetSize","ITextFont::GetSize","_win32_ITextFont_GetSize","_win32_ITextFont_GetSize_cpp","controls.ITextFont_GetSize","controls._win32_ITextFont_GetSize","tom/ITextFont::GetSize"]
 old-location: controls\ITextFont_GetSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsize.htm
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Controls], GetSize method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSize method, ITextFont.GetSize, ITextFont::GetSize, _win32_ITextFont_GetSize, _win32_ITextFont_GetSize_cpp, controls.ITextFont_GetSize, controls._win32_ITextFont_GetSize, tom/ITextFont::GetSize
-f1_keywords:
-- tom/ITextFont.GetSize
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::GetSize
+ - tom/ITextFont::GetSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.GetSize
 ---
 
 # ITextFont::GetSize
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the font size.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>float*</b>
 
-The font size, in floating-point points. 
-
+The font size, in floating-point points.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -100,21 +94,14 @@ The font object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -122,12 +109,8 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setsize">SetSize</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setsize">SetSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

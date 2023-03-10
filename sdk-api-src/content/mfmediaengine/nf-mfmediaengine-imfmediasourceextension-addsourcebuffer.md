@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaSourceExtension.AddSourceBuffer
 title: IMFMediaSourceExtension::AddSourceBuffer (mfmediaengine.h)
 description: Adds a IMFSourceBuffer to the collection of buffers associated with the IMFMediaSourceExtension.
+helpviewer_keywords: ["AddSourceBuffer","AddSourceBuffer method [Media Foundation]","AddSourceBuffer method [Media Foundation]","IMFMediaSourceExtension interface","IMFMediaSourceExtension interface [Media Foundation]","AddSourceBuffer method","IMFMediaSourceExtension.AddSourceBuffer","IMFMediaSourceExtension::AddSourceBuffer","mf.imfmediasourceextension_addsourcebuffer","mfmediaengine/IMFMediaSourceExtension::AddSourceBuffer"]
 old-location: mf\imfmediasourceextension_addsourcebuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1ecb7047-4dc9-4657-8a19-12108de299c0
 ms.date: 12/05/2018
 ms.keywords: AddSourceBuffer, AddSourceBuffer method [Media Foundation], AddSourceBuffer method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],AddSourceBuffer method, IMFMediaSourceExtension.AddSourceBuffer, IMFMediaSourceExtension::AddSourceBuffer, mf.imfmediasourceextension_addsourcebuffer, mfmediaengine/IMFMediaSourceExtension::AddSourceBuffer
-f1_keywords:
-- mfmediaengine/IMFMediaSourceExtension.AddSourceBuffer
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaSourceExtension.AddSourceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceExtension::AddSourceBuffer
+ - mfmediaengine/IMFMediaSourceExtension::AddSourceBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaSourceExtension.AddSourceBuffer
 ---
 
 # IMFMediaSourceExtension::AddSourceBuffer
@@ -48,40 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> to the collection of buffers associated with the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
-
+Adds a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> to the collection of buffers associated with the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>.
 
 ## -parameters
 
-
-
-
 ### -param type [in]
-
 
 ### -param pNotify [in]
 
-
 ### -param ppSourceBuffer [out]
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>

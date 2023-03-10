@@ -2,15 +2,12 @@
 UID: NF:winsync.IEnumChangeUnitExceptions.Reset
 title: IEnumChangeUnitExceptions::Reset (winsync.h)
 description: Resets the enumerator to the beginning of the change unit exception set.
+helpviewer_keywords: ["IEnumChangeUnitExceptions interface [Windows Sync]","Reset method","IEnumChangeUnitExceptions.Reset","IEnumChangeUnitExceptions::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumChangeUnitExceptions interface","winsync.ienumchangeunitexceptions_reset","winsync/IEnumChangeUnitExceptions::Reset"]
 old-location: winsync\ienumchangeunitexceptions_reset.htm
 tech.root: winsync
 ms.assetid: 7c9a98e2-c976-42cb-ada3-ee33c11adae8
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Reset method, IEnumChangeUnitExceptions.Reset, IEnumChangeUnitExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_reset, winsync/IEnumChangeUnitExceptions::Reset
-f1_keywords:
-- winsync/IEnumChangeUnitExceptions.Reset
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumChangeUnitExceptions.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumChangeUnitExceptions::Reset
+ - winsync/IEnumChangeUnitExceptions::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumChangeUnitExceptions.Reset
 ---
 
 # IEnumChangeUnitExceptions::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumerator to the beginning of the change unit exception set.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -82,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumchangeunitexceptions">IEnumChangeUnitExceptions Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumchangeunitexceptions">IEnumChangeUnitExceptions Interface</a>

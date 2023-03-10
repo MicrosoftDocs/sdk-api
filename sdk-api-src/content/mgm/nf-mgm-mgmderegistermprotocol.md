@@ -2,15 +2,12 @@
 UID: NF:mgm.MgmDeRegisterMProtocol
 title: MgmDeRegisterMProtocol function (mgm.h)
 description: The MgmDeRegisterMProtocol function deregisters a client handle obtained from a call to MgmRegisterMProtocol.
+helpviewer_keywords: ["MgmDeRegisterMProtocol","MgmDeRegisterMProtocol function [RAS]","_mpr_mgmderegistermprotocol","mgm/MgmDeRegisterMProtocol","rras.mgmderegistermprotocol"]
 old-location: rras\mgmderegistermprotocol.htm
 tech.root: RRAS
 ms.assetid: e9b2613e-4e52-4993-81dd-0be50a072db6
 ms.date: 12/05/2018
 ms.keywords: MgmDeRegisterMProtocol, MgmDeRegisterMProtocol function [RAS], _mpr_mgmderegistermprotocol, mgm/MgmDeRegisterMProtocol, rras.mgmderegistermprotocol
-f1_keywords:
-- mgm/MgmDeRegisterMProtocol
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- MgmDeRegisterMProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MgmDeRegisterMProtocol
+ - mgm/MgmDeRegisterMProtocol
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - MgmDeRegisterMProtocol
 ---
 
 # MgmDeRegisterMProtocol function
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MgmDeRegisterMProtocol</b> function deregisters a client handle obtained from a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 ## -parameters
-
-
-
 
 ### -param hProtocol [in]
 
 Handle to the protocol obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -106,31 +100,15 @@ Invalid handle to a client.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
 
-
-
 A multicast routing protocol must not call this function until it has released ownership of all the interfaces the protocol owns by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>.
-
-
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmreleaseinterfaceownership">MgmReleaseInterfaceOwnership</a>

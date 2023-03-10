@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRMixerControl.GetAlpha
 title: IVMRMixerControl::GetAlpha (strmif.h)
 description: The GetAlpha method retrieves the constant alpha value that is applied to this video stream.
+helpviewer_keywords: ["GetAlpha","GetAlpha method [DirectShow]","GetAlpha method [DirectShow]","IVMRMixerControl interface","IVMRMixerControl interface [DirectShow]","GetAlpha method","IVMRMixerControl.GetAlpha","IVMRMixerControl::GetAlpha","IVMRMixerControlGetAlpha","dshow.ivmrmixercontrol_getalpha","strmif/IVMRMixerControl::GetAlpha"]
 old-location: dshow\ivmrmixercontrol_getalpha.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a0a82a8f-a03a-43d7-8fb0-4c15b0cb7c27
 ms.date: 12/05/2018
 ms.keywords: GetAlpha, GetAlpha method [DirectShow], GetAlpha method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetAlpha method, IVMRMixerControl.GetAlpha, IVMRMixerControl::GetAlpha, IVMRMixerControlGetAlpha, dshow.ivmrmixercontrol_getalpha, strmif/IVMRMixerControl::GetAlpha
-f1_keywords:
-- strmif/IVMRMixerControl.GetAlpha
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl.GetAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl::GetAlpha
+ - strmif/IVMRMixerControl::GetAlpha
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl.GetAlpha
 ---
 
 # IVMRMixerControl::GetAlpha
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetAlpha</code> method retrieves the constant alpha value that is applied to this video stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwStreamID [in]
 
 Specifies the input stream.
 
-
 ### -param pAlpha [out]
 
 Pointer to a variable of type float that receives the current alpha value.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -105,30 +95,19 @@ The pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setalpha">IVMRMixerControl::SetAlpha</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-setalpha">IVMRMixerControl::SetAlpha</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

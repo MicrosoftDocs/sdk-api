@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.SaveAsXML
 title: IVssCreateExpressWriterMetadata::SaveAsXML (vswriter.h)
 description: Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
+helpviewer_keywords: ["IVssCreateExpressWriterMetadata interface","SaveAsXML method","IVssCreateExpressWriterMetadata.SaveAsXML","IVssCreateExpressWriterMetadata::SaveAsXML","SaveAsXML","SaveAsXML method","SaveAsXML method","IVssCreateExpressWriterMetadata interface","base.ivsscreateexpresswritermetadata_saveasxml","vswriter/IVssCreateExpressWriterMetadata::SaveAsXML"]
 old-location: base\ivsscreateexpresswritermetadata_saveasxml.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: c2a1ba98-74a1-4944-ac31-fec364060a75
 ms.date: 12/05/2018
 ms.keywords: IVssCreateExpressWriterMetadata interface,SaveAsXML method, IVssCreateExpressWriterMetadata.SaveAsXML, IVssCreateExpressWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method, SaveAsXML method,IVssCreateExpressWriterMetadata interface, base.ivsscreateexpresswritermetadata_saveasxml, vswriter/IVssCreateExpressWriterMetadata::SaveAsXML
-f1_keywords:
-- vswriter/IVssCreateExpressWriterMetadata.SaveAsXML
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssCreateExpressWriterMetadata.SaveAsXML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssCreateExpressWriterMetadata::SaveAsXML
+ - vswriter/IVssCreateExpressWriterMetadata::SaveAsXML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssCreateExpressWriterMetadata.SaveAsXML
 ---
 
 # IVssCreateExpressWriterMetadata::SaveAsXML
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrXML [in]
 
 A pointer to a string to be used to store the Writer Metadata Document that contains a writer's state information.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -115,7 +109,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -127,25 +121,14 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>

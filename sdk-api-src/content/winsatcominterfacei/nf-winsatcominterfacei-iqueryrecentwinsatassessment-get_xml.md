@@ -2,15 +2,12 @@
 UID: NF:winsatcominterfacei.IQueryRecentWinSATAssessment.get_XML
 title: IQueryRecentWinSATAssessment::get_XML (winsatcominterfacei.h)
 description: Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
+helpviewer_keywords: ["IQueryRecentWinSATAssessment interface [WinSAT]","XML property","IQueryRecentWinSATAssessment.XML","IQueryRecentWinSATAssessment.get_XML","IQueryRecentWinSATAssessment::XML","IQueryRecentWinSATAssessment::get_XML","XML property [WinSAT]","XML property [WinSAT]","IQueryRecentWinSATAssessment interface","get_XML","winsat.iqueryrecentwinsatassessment_xml","winsatcominterfacei/IQueryRecentWinSATAssessment::XML","winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML"]
 old-location: winsat\iqueryrecentwinsatassessment_xml.htm
 tech.root: WinSAT
 ms.assetid: f8a1c664-bea3-4505-bcf0-2b8715dbe7dd
 ms.date: 12/05/2018
 ms.keywords: IQueryRecentWinSATAssessment interface [WinSAT],XML property, IQueryRecentWinSATAssessment.XML, IQueryRecentWinSATAssessment.get_XML, IQueryRecentWinSATAssessment::XML, IQueryRecentWinSATAssessment::get_XML, XML property [WinSAT], XML property [WinSAT],IQueryRecentWinSATAssessment interface, get_XML, winsat.iqueryrecentwinsatassessment_xml, winsatcominterfacei/IQueryRecentWinSATAssessment::XML, winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
-f1_keywords:
-- winsatcominterfacei/IQueryRecentWinSATAssessment.XML
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IQueryRecentWinSATAssessment.XML
-- IQueryRecentWinSATAssessment.get_XML
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQueryRecentWinSATAssessment::get_XML
+ - winsatcominterfacei/IQueryRecentWinSATAssessment::get_XML
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IQueryRecentWinSATAssessment.XML
+ - IQueryRecentWinSATAssessment.get_XML
 ---
 
 # IQueryRecentWinSATAssessment::get_XML
@@ -49,28 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IQueryRecentWinSATAssessment::XML may be altered or unavailable for releases after Windows 8.1.]
 
 Retrieves data from the XML assessment document by using the specified XPath. The query is run against the most recent formal assessment in the WinSAT data store.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-You can use this method to retrieve details of the assessment that are not available in the summary information provided through the API. For details about all the information available in an assessment, see the <a href="https://docs.microsoft.com/windows/desktop/WinSAT/winsat-schema">WinSAT Schema</a>.
+You can use this method to retrieve details of the assessment that are not available in the summary information provided through the API. For details about all the information available in an assessment, see the <a href="/windows/desktop/WinSAT/winsat-schema">WinSAT Schema</a>.
 
 The first formal assessment is run when you initially set up your computer. The initial assessment will remain in the data store for the life of the data store. The WinSAT data store can contain up to 100 formal assessments. When the store reaches capacity, WinSAT will delete the oldest assessment (but not the initial assessment) in the data store for each new formal assessment that is run.
 
 The WinSAT data store contains only formal assessments. If you want to retrieve assessment data from ad hoc assessments, you must save the results to an XML file when you run the assessment (see the <b>-xml</b> command-line argument for details). You can then use the members of the <b>IXMLDOMDocument2</b> interface to query data from the ad hoc assessment.
 
-To retrieve summary information about the assessment, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info">IQueryRecentWinSATAssessment::get_Info</a> method. To retrieve summary information for a subcomponent of the assessment, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo">IProvideWinSATResultsInfo::GetAssessmentInfo</a> method.
+To retrieve summary information about the assessment, call the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info">IQueryRecentWinSATAssessment::get_Info</a> method. To retrieve summary information for a subcomponent of the assessment, call the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo">IProvideWinSATResultsInfo::GetAssessmentInfo</a> method.
 
 
 #### Examples
@@ -98,7 +95,7 @@ void main(void)
 
     hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
 
-    // Get an instance to the most recent formal assessmenet.
+    // Get an instance to the most recent formal assessment.
     hr = CoCreateInstance(__uuidof(CQueryWinSAT),
         NULL,
         CLSCTX_INPROC_SERVER,
@@ -166,25 +163,14 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml">IQueryAllWinSATAssessments::AllXML</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml">IQueryAllWinSATAssessments::AllXML</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>

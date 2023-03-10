@@ -1,16 +1,13 @@
 ---
 UID: NS:richedit._textrange
 title: TEXTRANGEA (richedit.h)
-description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.
+description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character. (ANSI)
+helpviewer_keywords: ["TEXTRANGE","TEXTRANGE structure [Windows Controls]","TEXTRANGEA","TEXTRANGEW","_win32_TEXTRANGE_str","_win32_TEXTRANGE_str_cpp","controls.TEXTRANGE","controls._win32_TEXTRANGE_str","richedit/TEXTRANGE","richedit/TEXTRANGEA","richedit/TEXTRANGEW"]
 old-location: controls\TEXTRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\textrange.htm
 ms.date: 12/05/2018
 ms.keywords: TEXTRANGE, TEXTRANGE structure [Windows Controls], TEXTRANGEA, TEXTRANGEW, _win32_TEXTRANGE_str, _win32_TEXTRANGE_str_cpp, controls.TEXTRANGE, controls._win32_TEXTRANGE_str, richedit/TEXTRANGE, richedit/TEXTRANGEA, richedit/TEXTRANGEW
-f1_keywords:
-- richedit/TEXTRANGE
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- TEXTRANGE
-- TEXTRANGEA
-- TEXTRANGEW
 targetos: Windows
 req.typenames: TEXTRANGEA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _textrange
+ - richedit/_textrange
+ - TEXTRANGEA
+ - richedit/TEXTRANGEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - TEXTRANGE
+ - TEXTRANGEA
+ - TEXTRANGEW
 ---
 
 # TEXTRANGEA structure
@@ -50,35 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 A range of text from a rich edit control. This structure is filled in by the <a href="https://msdn.microsoft.com/18398963-eb2c-4f64-99f5-9614a5d34b52">EM_GETTEXTRANGE</a> message. The buffer pointed to by the <b>lpstrText</b> member must be large enough to receive all characters and the terminating null character.
-
 
 ## -struct-fields
 
-
-
-
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
-The range of characters to retrieve. 
-
+The range of characters to retrieve.
 
 ### -field lpstrText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
-The text. 
-
+The text.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 
@@ -87,7 +81,8 @@ The text.
 
 
 <b>Reference</b>
- 
 
- 
+## -remarks
 
+> [!NOTE]
+> The richedit.h header defines TEXTRANGE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetDiscID
 title: IDvdInfo2::GetDiscID (strmif.h)
 description: The GetDiscID method retrieves a system-generated 64-bit identification number for the specified DVD.
+helpviewer_keywords: ["GetDiscID","GetDiscID method [DirectShow]","GetDiscID method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDiscID method","IDvdInfo2.GetDiscID","IDvdInfo2::GetDiscID","IDvdInfo2GetDiscID","dshow.idvdinfo2_getdiscid","strmif/IDvdInfo2::GetDiscID"]
 old-location: dshow\idvdinfo2_getdiscid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 53c244ff-026f-4838-b805-316ef3d872d1
 ms.date: 12/05/2018
 ms.keywords: GetDiscID, GetDiscID method [DirectShow], GetDiscID method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDiscID method, IDvdInfo2.GetDiscID, IDvdInfo2::GetDiscID, IDvdInfo2GetDiscID, dshow.idvdinfo2_getdiscid, strmif/IDvdInfo2::GetDiscID
-f1_keywords:
-- strmif/IDvdInfo2.GetDiscID
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetDiscID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetDiscID
+ - strmif/IDvdInfo2::GetDiscID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetDiscID
 ---
 
 # IDvdInfo2::GetDiscID
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDiscID</code> method retrieves a system-generated 64-bit identification number for the specified DVD.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pszwPath [in]
 
 Path of the volume to use for the disc ID. Specify <b>NULL</b> to use the current or default DVD volume.
 
-
 ### -param pullDiscID [out]
 
 Receives the 64-bit disc ID.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -111,7 +101,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
@@ -127,35 +117,19 @@ The specified path is not a valid DVD disc.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The DVD Navigator calculates an identifier ID based on file sizes, dates, and other information, and not the BCA (burst cutting area) value. This number is guaranteed to be the same each time the disc is played. The ID applies to all replicated copies of a disc. In other words, all copies of a specific movie will have the same ID. The odds that two separate titles will have the same ID is sufficiently remote that this ID can be considered "unique" for all practical purposes.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

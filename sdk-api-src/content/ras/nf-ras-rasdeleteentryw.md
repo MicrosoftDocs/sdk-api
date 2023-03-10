@@ -1,16 +1,13 @@
 ---
 UID: NF:ras.RasDeleteEntryW
 title: RasDeleteEntryW function (ras.h)
-description: The RasDeleteEntry function deletes an entry from a phone book.
+description: The RasDeleteEntry function deletes an entry from a phone book. (Unicode)
+helpviewer_keywords: ["RasDeleteEntry", "RasDeleteEntry function [RAS]", "RasDeleteEntryW", "_ras_rasdeleteentry", "ras/RasDeleteEntry", "ras/RasDeleteEntryW", "rras.rasdeleteentry"]
 old-location: rras\rasdeleteentry.htm
 tech.root: RRAS
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
 ms.date: 12/05/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
-f1_keywords:
-- ras/RasDeleteEntry
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasDeleteEntry
-- RasDeleteEntryA
-- RasDeleteEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasDeleteEntryW
+ - ras/RasDeleteEntryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasDeleteEntry
+ - RasDeleteEntryA
+ - RasDeleteEntryW
 ---
 
 # RasDeleteEntryW function
@@ -50,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasDeleteEntry</b> function deletes an entry from a phone book.
 
-
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
  Pointer to a null-terminated string that specifies the full path and file name of a phone-book (PBK) file. If this parameter is <b>NULL</b>, the function uses the current default phone-book file. The default phone-book file is the one selected by the user in the <b>User Preferences</b> property sheet of the <b>Dial-Up Networking</b> dialog box. 
 
@@ -69,19 +66,15 @@ The
 
 <b>Windows Me/98/95:  </b>This parameter should always be <b>NULL</b>. Dial-up networking stores phone-book entries in the registry rather than in a phone-book file.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Pointer to a null-terminated string that specifies the name of an existing entry to be deleted.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -112,14 +105,8 @@ The entry name specified in <i>lpszEntry</i> does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The following sample code deletes the phone-book entry specified by the variable <i>lpszEntry</i>.
 
@@ -158,7 +145,7 @@ DWORD __cdecl wmain(){
     dwRet |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
     dwRet |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     if (dwRet != ERROR_SUCCESS){
-        wprintf(L"RASENTRY structure initilization failed");
+        wprintf(L"RASENTRY structure initialization failed");
         HeapFree(GetProcessHeap(), 0, lpentry);
         return 0;
     }
@@ -195,25 +182,22 @@ DWORD __cdecl wmain(){
 
 
 
+
+> [!NOTE]
+> The ras.h header defines RasDeleteEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

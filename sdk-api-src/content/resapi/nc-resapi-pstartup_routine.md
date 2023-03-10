@@ -2,15 +2,12 @@
 UID: NC:resapi.PSTARTUP_ROUTINE
 title: PSTARTUP_ROUTINE (resapi.h)
 description: Loads a resource DLL, returning a structure containing a function table and a version number.
+helpviewer_keywords: ["PSTARTUP_ROUTINE","PSTARTUP_ROUTINE callback function [Failover Cluster]","Startup","Startup callback","Startup callback function [Failover Cluster]","_wolf_startup","mscs.startup","resapi/PSTARTUP_ROUTINE","resapi/Startup"]
 old-location: mscs\startup.htm
 tech.root: MsCS
 ms.assetid: b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3
 ms.date: 12/05/2018
 ms.keywords: PSTARTUP_ROUTINE, PSTARTUP_ROUTINE callback function [Failover Cluster], Startup, Startup callback, Startup callback function [Failover Cluster], _wolf_startup, mscs.startup, resapi/PSTARTUP_ROUTINE, resapi/Startup
-f1_keywords:
-- resapi/Startup
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ResApi.h
-api_name:
-- Startup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSTARTUP_ROUTINE
+ - resapi/PSTARTUP_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ResApi.h
+api_name:
+ - Startup
 ---
 
 # PSTARTUP_ROUTINE callback function
@@ -48,57 +50,44 @@ ms.custom: 19H1
 
 ## -description
 
-
-Loads a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>, returning a structure 
+Loads a <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>, returning a structure 
     containing a function table and a version number. The <b>PSTARTUP_ROUTINE</b> 
     type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param ResourceType [in]
 
 Type of resource being started.
 
-
 ### -param MinVersionSupported [in]
 
-Minimum version of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-api">Resource API</a> supported by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
-
+Minimum version of the <a href="/previous-versions/windows/desktop/mscs/resource-api">Resource API</a> supported by the 
+       <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
 
 ### -param MaxVersionSupported [in]
 
 Maximum version of the Resource API supported by the Cluster service.
 
-
 ### -param SetResourceStatus [in]
 
 Pointer to a callback function that the resource DLL should call to update its status after returning 
-       <b>ERROR_IO_PENDING</b> from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> or 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>. For more information see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>.
-
+       <b>ERROR_IO_PENDING</b> from <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> or 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>. For more information see 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>.
 
 ### -param LogEvent [in]
 
 Pointer to a callback function that the resource DLL should call to report events for the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. For more information see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>.
+       <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. For more information see 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>.
 
+### -param FunctionTable [out]
 
-### -param *FunctionTable [out]
-
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_function_table">CLRES_FUNCTION_TABLE</a> structure 
+Pointer to a <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-clres_function_table">CLRES_FUNCTION_TABLE</a> structure 
        that describes the Resource API version and the specific names for the entry points.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -135,14 +124,9 @@ The resource DLL does not support a version that falls in the range identified b
  
 
 If the operation was not successful, <i>Startup</i> should 
-       return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
-
-
-
+       return one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
-
-
 
 The <i>Startup</i> entry-point function returns a function table 
      that describes both the supported interface version of the Resource API and the entry points for all other 
@@ -155,24 +139,15 @@ If your resource supports more than one version of the Resource API, return a fu
      parameter. If the version of the function table pointed to by the <i>FunctionTable</i> 
      parameter is not within range, your resource cannot be loaded successfully.
 
-For more information see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-startup">Implementing Startup</a>.
+For more information see <a href="/previous-versions/windows/desktop/mscs/implementing-startup">Implementing Startup</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/implementing-startup">Implementing Startup</a>.
+See <a href="/previous-versions/windows/desktop/mscs/implementing-startup">Implementing Startup</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>

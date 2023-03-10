@@ -2,15 +2,12 @@
 UID: NS:winuser.tagGESTUREINFO
 title: GESTUREINFO (winuser.h)
 description: Stores information about a gesture.
+helpviewer_keywords: ["*PGESTUREINFO","GESTUREINFO","GESTUREINFO structure [Windows Touch]","PGESTUREINFO","PGESTUREINFO structure pointer [Windows Touch]","tagGESTUREINFO","wintouch.gestureinfo","winuser/GESTUREINFO","winuser/PGESTUREINFO"]
 old-location: wintouch\gestureinfo.htm
 tech.root: wintouch
 ms.assetid: f5b8b530-ff1e-4d78-a12f-86990fe9ac88
 ms.date: 12/05/2018
 ms.keywords: '*PGESTUREINFO, GESTUREINFO, GESTUREINFO structure [Windows Touch], PGESTUREINFO, PGESTUREINFO structure pointer [Windows Touch], tagGESTUREINFO, wintouch.gestureinfo, winuser/GESTUREINFO, winuser/PGESTUREINFO'
-f1_keywords:
-- winuser/GESTUREINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winuser.h
-api_name:
-- GESTUREINFO
 targetos: Windows
 req.typenames: GESTUREINFO, *PGESTUREINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagGESTUREINFO
+ - winuser/tagGESTUREINFO
+ - PGESTUREINFO
+ - winuser/PGESTUREINFO
+ - GESTUREINFO
+ - winuser/GESTUREINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winuser.h
+api_name:
+ - GESTUREINFO
 ---
 
 # GESTUREINFO structure
@@ -48,63 +54,47 @@ ms.custom: 19H1
 
 ## -description
 
-
  Stores information about a gesture.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size of the structure, in bytes. The caller must set this to <code>sizeof(GESTUREINFO)</code>.
 
-
 ### -field dwFlags
 
 The state of the gesture.  For additional information, see Remarks.
-
 
 ### -field dwID
 
 The identifier of the gesture command.
 
-
 ### -field hwndTarget
 
 A handle to the window that is targeted by this gesture.
-
 
 ### -field ptsLocation
 
 A <b>POINTS</b> structure containing the coordinates associated with the gesture. These coordinates are always relative to the origin of the screen.
 
-
 ### -field dwInstanceID
 
 An internally used identifier for the structure.
-
 
 ### -field dwSequenceID
 
 An internally used identifier for the sequence.
 
-
 ### -field ullArguments
 
-A 64-bit unsigned integer that contains the arguments for gestures that fit into 8 bytes. 
-
+A 64-bit unsigned integer that contains the arguments for gestures that fit into 8 bytes.
 
 ### -field cbExtraArgs
 
 The size, in bytes, of extra arguments that accompany this gesture.
 
-
 ## -remarks
-
-
 
 The <b>HIDWORD</b> of the <b>ullArguments</b> member is always 0, with the following exceptions:
 
@@ -113,7 +103,7 @@ The <b>HIDWORD</b> of the <b>ullArguments</b> member is always 0, with the follo
 <li>For <b>GID_PRESSANDTAP</b>, it is the distance between the two points.</li>
 </ul>
 The <b>GESTUREINFO</b> structure is retrieved by passing the handle to the gesture information structure
-  to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a> function.
+  to the <a href="/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a> function.
 
 The following flags indicate the various states of the gestures and are stored in <b>dwFlags</b>.
   
@@ -265,25 +255,14 @@ The following type is defined to represent a constant pointer to a <b>GESTUREINF
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a>
+<a href="/windows/desktop/wintouch/mtstructures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtstructures">Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a>

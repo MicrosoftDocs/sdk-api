@@ -2,15 +2,12 @@
 UID: NF:fileapi.CreateFile2
 title: CreateFile2 function (fileapi.h)
 description: Creates or opens a file or I/O device.
+helpviewer_keywords: ["0","CREATE_ALWAYS","CREATE_NEW","CreateFile2","CreateFile2 function [Files]","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","OPEN_ALWAYS","OPEN_EXISTING","TRUNCATE_EXISTING","fileapi/CreateFile2","fs.createfile2"]
 old-location: fs\createfile2.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: cd7a81f3-60ee-443a-99f3-a4c8afd365e7
 ms.date: 12/05/2018
 ms.keywords: 0, CREATE_ALWAYS, CREATE_NEW, CreateFile2, CreateFile2 function [Files], FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, OPEN_ALWAYS, OPEN_EXISTING, TRUNCATE_EXISTING, fileapi/CreateFile2, fs.createfile2
-f1_keywords:
-- fileapi/CreateFile2
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,31 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- MinKernelBase.dll
-api_name:
-- CreateFile2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateFile2
+ - fileapi/CreateFile2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - MinKernelBase.dll
+api_name:
+ - CreateFile2
 ---
 
 # CreateFile2 function
 
 
 ## -description
-
 
 Creates or opens a file or I/O device. The most commonly used I/O devices are as follows: file, file stream, 
     directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe. The 
@@ -61,30 +62,26 @@ Creates or opens a file or I/O device. The most commonly used I/O devices are as
 
 When called from a Windows Store app, <b>CreateFile2</b> 
     is simplified. You can open only files or directories inside the 
-    <a href="https://docs.microsoft.com/en-us/uwp/api/windows.storage.applicationdata.localfolder">ApplicationData.LocalFolder</a> or 
-    <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.package.installedlocation">Package.InstalledLocation</a> 
+    <a href="/uwp/api/windows.storage.applicationdata.localfolder">ApplicationData.LocalFolder</a> or 
+    <a href="/uwp/api/windows.applicationmodel.package.installedlocation">Package.InstalledLocation</a> 
     directories. You can't open named pipes or mailslots or create encrypted files 
     (<b>FILE_ATTRIBUTE_ENCRYPTED</b>).
-<div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="https://docs.microsoft.com/previous-versions/windows/br212652(v=win.10)">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 
-    I/O, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a> function.
-
+<div class="alert"><b>Note</b>  We refer here to the app's local folder and the package's installed location, not additional packages in the package graph, like resource packages. <b>CreateFile2</b> doesn't support opening files in additional packages in the package graph. For example, suppose an app has a dependency on <a href="/previous-versions/windows/br212652(v=win.10)">WinJS</a>. The app can call <b>CreateFile2</b> to open a file in its package but not in the <b>WinJS</b> package.</div><div> </div>To perform this operation as a transacted operation, which results in a handle that can be used for transacted 
+    I/O, use the <a href="/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the file or device to be created or opened.
 
 For information on special device names, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
+       <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS-DOS Device Name</a>.
 
 To create a file stream, specify the name of the file, a colon, and then the name of the stream. For more 
-       information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>.
+       information, see <a href="/windows/desktop/FileIO/file-streams">File Streams</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param dwDesiredAccess [in]
@@ -94,10 +91,10 @@ The requested access to the file or device, which can be summarized as read, wri
 The most commonly used values are <b>GENERIC_READ</b>, 
        <b>GENERIC_WRITE</b>, or both 
        (<code>GENERIC_READ | GENERIC_WRITE</code>). For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>, 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>, 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-access-rights-constants">File Access Rights Constants</a>, and 
-       <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>.
+       <a href="/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>, 
+       <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>, 
+       <a href="/windows/desktop/FileIO/file-access-rights-constants">File Access Rights Constants</a>, and 
+       <a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>.
 
 If this parameter is zero, the application can query certain metadata such as file, directory, or device 
        attributes without accessing that file or device, even if <b>GENERIC_READ</b> access would 
@@ -107,8 +104,7 @@ You cannot request an access mode that conflicts with the sharing mode that is s
        <i>dwShareMode</i> parameter in an open request that already has an open handle.
 
 For more information, see the Remarks section of this topic and 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
-
+       <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 ### -param dwShareMode [in]
 
@@ -122,13 +118,13 @@ If this parameter is zero and <b>CreateFile2</b> succeeds, the
 
 You cannot request a sharing mode that conflicts with the access mode that is specified in an existing 
        request that has an open handle. <b>CreateFile2</b> would fail 
-       and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function would return 
+       and the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function would return 
        <b>ERROR_SHARING_VIOLATION</b>.
 
 To enable a process to share a file or device while another process has the file or device open, use a 
        compatible combination of one or more of the following values. For more information about valid combinations of 
        this parameter with the <i>dwDesiredAccess</i> parameter, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
+       <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 <div class="alert"><b>Note</b>  The sharing options for each open handle remain in effect until that handle is closed, regardless of 
        process context.</div>
@@ -204,8 +200,6 @@ If this flag is not specified, but the file or device has been opened for write 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwCreationDisposition [in]
 
@@ -308,36 +302,26 @@ The calling process must open the file with the <b>GENERIC_WRITE</b> bit set as 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pCreateExParams [in, optional]
 
 Pointer to an optional 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is an open handle to the specified file, device, named pipe, or 
        mail slot.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended 
-       error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 To compile an application that uses the <b>CreateFile2</b> 
     function, define the <b>_WIN32_WINNT</b> macro as 0x0602 or later. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 <b>CreateFile2</b> supports file interaction and most other 
     types of I/O devices and mechanisms available to Windows developers. This section attempts to cover the varied 
@@ -350,7 +334,7 @@ To compile an application that uses the <b>CreateFile2</b>
 
 When an application is finished using the object handle returned by 
     <b>CreateFile2</b>, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. This not only 
+    <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle. This not only 
     frees up system resources, but can have wider influence on things like sharing the file or device and committing 
     data to disk. Specifics are noted within this topic as appropriate.
 
@@ -360,12 +344,12 @@ Some file systems, such as the NTFS file system, support compression or encrypti
 
 You cannot use <b>CreateFile2</b> to control compression, 
      decompression, or decryption on a file or directory. For more information, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>, 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>, 
-     and <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
+     <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>, 
+     <a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>, 
+     and <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 If the <b>lpSecurityAttributes</b> member of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> structure 
+     <a href="/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> structure 
      passed in the <i>pCreateExParams</i> parameter is <b>NULL</b>, the handle 
      returned by <b>CreateFile2</b> cannot be inherited by any child 
      processes your application may create. The following information regarding this member also applies:
@@ -378,7 +362,7 @@ If the <b>lpSecurityAttributes</b> member of the
       from its parent directory.</li>
 <li>The target file system must support security on files and directories for the 
       <b>lpSecurityDescriptor</b> member to have an effect on them, which can be determined by 
-      using <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>.</li>
+      using <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>.</li>
 </ul>
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -444,7 +428,7 @@ Yes
 If the call to this function creates a file, there is no change in behavior. Also, consider the following 
       information regarding <b>FILE_FLAG_OPEN_REPARSE_POINT</b> flag for the 
       <b>dwFileFlags</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure passed in the <i>pCreateExParams</i> parameter:
 
 <ul>
@@ -474,17 +458,17 @@ If you rename or delete a file and then restore it shortly afterward, the system
       information to restore. Cached information includes its short/long name pair and creation time.
 
 If you call <b>CreateFile2</b> on a file that is pending deletion 
-      as a result of a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>, the function 
+      as a result of a previous call to <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>, the function 
       fails. The operating system delays file deletion until all handles to the file are closed. 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_ACCESS_DENIED</b>.
 
 The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query file 
       attributes without accessing the file if the application is running with adequate security settings. This is 
       useful to test for the existence of a file without opening it for read and/or write access, or to obtain other 
       statistics about the file or directory. See 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-and-setting-file-information">Obtaining and Setting File Information</a> 
-      and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>.
+      <a href="/windows/desktop/FileIO/obtaining-and-setting-file-information">Obtaining and Setting File Information</a> 
+      and <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>.
 
 When an application creates a file across a network, it is better to use 
       <code>GENERIC_READ | GENERIC_WRITE</code> for 
@@ -494,25 +478,25 @@ When an application creates a file across a network, it is better to use
       <b>ERROR_ACCESS_DENIED</b>.
 
 For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
+      <a href="/windows/desktop/FileIO/creating-and-opening-files">Creating and Opening Files</a>.
 
 <h3><a id="File_Streams"></a><a id="file_streams"></a><a id="FILE_STREAMS"></a>File Streams</h3>
 On NTFS file systems, you can use <b>CreateFile2</b> to create 
       separate streams within a file. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>.
+      <a href="/windows/desktop/FileIO/file-streams">File Streams</a>.
 
 <h3><a id="Directories"></a><a id="directories"></a><a id="DIRECTORIES"></a>Directories</h3>
 An application cannot create a directory by using 
       <b>CreateFile2</b>, therefore only the 
       <b>OPEN_EXISTING</b> value is valid for 
       <i>dwCreationDisposition</i> for this use case. To create a directory, the application must 
-      call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>.
+      call <a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a> or 
+      <a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>.
 
 To open a directory using <b>CreateFile2</b>, specify the 
       <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag as part of <b>dwFileFlags</b> 
       member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure passed in the <i>pCreateExParams</i> parameter. Appropriate security checks still 
       apply when this flag is used without <b>SE_BACKUP_NAME</b> and 
       <b>SE_RESTORE_NAME</b> privileges.
@@ -523,17 +507,14 @@ When using <b>CreateFile2</b> to open a directory during
       Specify the <b>GENERIC_READ</b> access right instead.
 
 For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
+      <a href="/windows/desktop/FileIO/about-directory-management">About Directory Management</a>.
 
 <h3><a id="Physical_Disks_and_Volumes"></a><a id="physical_disks_and_volumes"></a><a id="PHYSICAL_DISKS_AND_VOLUMES"></a>Physical Disks and Volumes</h3>
-Direct access to the disk or to a volume is restricted. For more information, see 
-      "Changes to the file system and to the storage stack to restrict direct disk access and direct volume access in Windows Vista and in Windows Server 2008" 
-      in the Help and Support Knowledge Base at 
-      <a href="https://go.microsoft.com/fwlink/p/?linkid=117121">http://support.microsoft.com/kb/942448</a>.
+Direct access to the disk or to a volume is restricted.
 
 You can use the <b>CreateFile2</b> function to open a physical 
       disk drive or a volume, which returns a direct access storage device (DASD) handle that can be used with the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. This enables you to access 
+      <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function. This enables you to access 
       the disk or volume directly, for example such disk metadata as the partition table. However, this type of access 
       also exposes the disk drive or volume to potential data loss, because an incorrect write to a disk using this 
       mechanism could make its contents inaccessible to the operating system. To ensure data integrity, be sure to 
@@ -544,11 +525,11 @@ The following requirements must be met for such a call to succeed:
 
 <ul>
 <li>The caller must have administrative privileges. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
+       <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+      <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+      <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
@@ -577,18 +558,18 @@ When opening a physical drive <i>x</i>:, the
  
 
 To obtain the physical drive identifier for a volume, open a handle to the volume and call the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>. 
+      <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with 
+      <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>. 
       This control code returns the disk number and offset for each of the volume's one or more extents; a volume can 
       span multiple physical disks.
 
 For an example of opening a physical drive, see 
-      <a href="https://docs.microsoft.com/windows/desktop/DevIO/calling-deviceiocontrol">Calling DeviceIoControl</a>.
+      <a href="/windows/desktop/DevIO/calling-deviceiocontrol">Calling DeviceIoControl</a>.
 
 When opening a volume or removable media drive (for example, a floppy disk drive or flash memory thumb drive), 
       the <i>lpFileName</i> string should be the following form: 
-      "\\.\<i>X</i>:". Do not use a trailing backslash 
-      (\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
+      "\\.&#92;<i>X</i>:". Do not use a trailing backslash 
+      (\\), which indicates the root directory of a drive. The following table shows some examples of drive strings.
 
 <table>
 <tr>
@@ -611,7 +592,7 @@ When opening a volume or removable media drive (for example, a floppy disk drive
  
 
 You can also open a volume by referring to its volume name. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
+      <a href="/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 A volume contains one or more mounted file systems. Volume handles can be opened as noncached at the 
       discretion of the particular file system, even when the noncached option is not specified in 
@@ -624,14 +605,14 @@ A file system may or may not require buffer alignment even though the data is no
       noncached I/O restrictions.
 
 <div class="alert"><b>Note</b>  To read or write to the last few sectors of the volume, you must call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> and specify 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_allow_extended_dasd_io">FSCTL_ALLOW_EXTENDED_DASD_IO</a>. This signals 
+      <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> and specify 
+      <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_allow_extended_dasd_io">FSCTL_ALLOW_EXTENDED_DASD_IO</a>. This signals 
       the file system driver not to perform any I/O boundary checks on partition read or write calls. Instead, 
       boundary checks are performed by the device driver.</div>
 <div> </div>
 <h3><a id="Changer_Device"></a><a id="changer_device"></a><a id="CHANGER_DEVICE"></a>Changer Device</h3>
 The <b>IOCTL_CHANGER_*</b> control codes for 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> accept a handle to a changer device. 
+      <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> accept a handle to a changer device. 
       To open a changer device, use a file name of the following form: 
       "\\.\Changer<i>x</i>" where 
       <i>x</i> is a number that indicates which device to open, starting with zero. To open 
@@ -645,7 +626,7 @@ You can open tape drives by using a file name of the following form:
       open tape drive zero in an application that is written in C or C++, use the following file name: 
       "\\\\.\\TAPE0".
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Backup/backup">Backup</a>.
+For more information, see <a href="/windows/desktop/Backup/backup">Backup</a>.
 
 <h3><a id="Communications_Resources"></a><a id="communications_resources"></a><a id="COMMUNICATIONS_RESOURCES"></a>Communications Resources</h3>
 The <b>CreateFile2</b> function can create a handle to a 
@@ -661,14 +642,14 @@ To specify a COM port number greater than 9, use the following syntax:
       allows COM port numbers to be specified.
 
 For more information about communications, see 
-      <a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications</a>.
+      <a href="/windows/desktop/DevIO/communications-resources">Communications</a>.
 
 <h3><a id="Consoles"></a><a id="consoles"></a><a id="CONSOLES"></a>Consoles</h3>
 The <b>CreateFile2</b> function can create a handle to console 
       input (CONIN$). If the process has an open handle to it as a result of inheritance or 
       duplication, it can also create a handle to the active screen buffer (CONOUT$). The 
       calling process must be attached to an inherited console or one allocated by the 
-      <a href="https://docs.microsoft.com/windows/console/allocconsole">AllocConsole</a> function. For console handles, set the 
+      <a href="/windows/console/allocconsole">AllocConsole</a> function. For console handles, set the 
       <b>CreateFile2</b> parameters as follows.
 
 <table>
@@ -687,13 +668,13 @@ Use the CONIN$ value to specify console input.
 Use the CONOUT$ value to specify console output.
 
 CONIN$ gets a handle to the console input buffer, even if the 
-         <a href="https://docs.microsoft.com/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="https://docs.microsoft.com/windows/console/getstdhandle">GetStdHandle</a>function.
+         <a href="/windows/console/getstdhandle">GetStdHandle</a> function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="https://docs.microsoft.com/windows/console/setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
-         get the standard output handle, use <a href="https://docs.microsoft.com/windows/console/getstdhandle">GetStdHandle</a>.
+         <a href="/windows/console/setstdhandle">SetStdHandle</a> redirects the standard output handle. To 
+         get the standard output handle, use <a href="/windows/console/getstdhandle">GetStdHandle</a>.
 
 </td>
 </tr>
@@ -738,7 +719,7 @@ You should specify <b>OPEN_EXISTING</b> when using
  
 
 Set the members of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
+      <a href="/windows/desktop/api/fileapi/ns-fileapi-createfile2_extended_parameters">CREATEFILE2_EXTENDED_PARAMETERS</a> 
       structure passed in the <i>pCreateExParams</i> parameter as follows.
 
 <table>
@@ -753,7 +734,7 @@ Set the members of the
 </td>
 <td>
 If you want the console to be inherited, the <b>bInheritHandle</b> member of the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure 
+         <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure 
          must be <b>TRUE</b>.
 
 </td>
@@ -800,7 +781,7 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
 <td>"CON"</td>
 <td><code>GENERIC_READ | GENERIC_WRITE</code></td>
 <td>Causes <b>CreateFile2</b> to fail; 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
         <b>ERROR_FILE_NOT_FOUND</b>.</td>
 </tr>
 </table>
@@ -810,19 +791,19 @@ The following table shows various settings of <i>dwDesiredAccess</i> and
 If <b>CreateFile2</b> opens the client end of a mailslot, the 
       function returns <b>INVALID_HANDLE_VALUE</b> if the mailslot client attempts to open a local 
       mailslot before the mailslot server has created it with the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a> function.
+      <a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a> function.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/ipc/mailslots">Mailslots</a>.
+For more information, see <a href="/windows/desktop/ipc/mailslots">Mailslots</a>.
 
 <h3><a id="Pipes"></a><a id="pipes"></a><a id="PIPES"></a>Pipes</h3>
 If <b>CreateFile2</b> opens the client end of a named pipe, the 
       function uses any instance of the named pipe that is in the listening state. The opening process can duplicate 
       the handle as many times as required, but after it is opened, the named pipe instance cannot be opened by 
       another client. The access that is specified when a pipe is opened must be compatible with the access that is 
-      specified in the <i>dwOpenMode</i>parameter of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
+      specified in the <i>dwOpenMode</i> parameter of the 
+      <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 
+If the <a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function was not 
       successfully called on the server prior to this operation, a pipe will not exist and 
       <b>CreateFile2</b> will fail with 
       <b>ERROR_FILE_NOT_FOUND</b>.
@@ -832,93 +813,87 @@ If there is at least one active pipe instance but there are no available listene
      <b>CreateFile2</b> fails with 
      <b>ERROR_PIPE_BUSY</b>.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes</a>.
-
-
-
+For more information, see <a href="/windows/desktop/ipc/pipes">Pipes</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/about-directory-management">About Directory Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/about-directory-management">About Directory Management</a>
+<a href="/windows/desktop/FileIO/about-volume-management">About Volume Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/about-volume-management">About Volume Management</a>
+<a href="/windows/desktop/Backup/backup">Backup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Backup/backup">Backup</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createdirectorya">CreateDirectory</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectoryexa">CreateDirectoryEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createmailslota">CreateMailSlot</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
+<a href="/windows/desktop/FileIO/creating--deleting--and-maintaining-files">Creating, Deleting, and Maintaining Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/creating--deleting--and-maintaining-files">Creating, Deleting, and Maintaining Files</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
+<a href="/windows/desktop/DevIO/device-input-and-output-control-ioctl-">Device Input and Output Control (IOCTL)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-input-and-output-control-ioctl-">Device Input and Output Control (IOCTL)</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-streams">File Streams</a>
+<a href="/windows/desktop/FileIO/file-streams">File Streams</a>
 
 
 
@@ -926,23 +901,23 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/ip
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>
+<a href="/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-concepts">I/O Concepts</a>
+<a href="/windows/desktop/FileIO/i-o-concepts">I/O Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/mailslots">Mailslots</a>
+<a href="/windows/desktop/ipc/mailslots">Mailslots</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-and-setting-file-information">Obtaining and Setting File Information</a>
+<a href="/windows/desktop/FileIO/obtaining-and-setting-file-information">Obtaining and Setting File Information</a>
 
 
 
@@ -950,32 +925,28 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/ip
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes</a>
+<a href="/windows/desktop/ipc/pipes">Pipes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>
+<a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>

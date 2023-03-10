@@ -2,15 +2,12 @@
 UID: NF:syncregistration.ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 title: ISyncProviderConfigUIInfo::GetSyncProviderConfigUI (syncregistration.h)
 description: Creates an instance of a synchronization provider configuration UI.
+helpviewer_keywords: ["GetSyncProviderConfigUI","GetSyncProviderConfigUI method [Windows Sync]","GetSyncProviderConfigUI method [Windows Sync]","ISyncProviderConfigUIInfo interface","ISyncProviderConfigUIInfo interface [Windows Sync]","GetSyncProviderConfigUI method","ISyncProviderConfigUIInfo.GetSyncProviderConfigUI","ISyncProviderConfigUIInfo::GetSyncProviderConfigUI","syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI","winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui"]
 old-location: winsync\isyncproviderconfiguiinfo_getsyncproviderconfigui.htm
 tech.root: winsync
 ms.assetid: eb9a2f2f-4c9f-405c-90f6-b251ab1a652d
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderConfigUI, GetSyncProviderConfigUI method [Windows Sync], GetSyncProviderConfigUI method [Windows Sync],ISyncProviderConfigUIInfo interface, ISyncProviderConfigUIInfo interface [Windows Sync],GetSyncProviderConfigUI method, ISyncProviderConfigUIInfo.GetSyncProviderConfigUI, ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI, winsync.isyncproviderconfiguiinfo_getsyncproviderconfigui
-f1_keywords:
-- syncregistration/ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
+ - syncregistration/ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 ---
 
 # ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an instance of a synchronization provider configuration UI.
 
-
 ## -parameters
-
-
-
 
 ### -param dwClsContext [in]
 
 The context in which the code that manages the newly created object will run. The only context supported is <b>CLSCTX_INPROC_SERVER</b>.
 
-
 ### -param ppSyncProviderConfigUI [out]
 
 The instance of the synchronization provider configuration UI.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -123,18 +116,7 @@ Information stored in the registration store is an unexpected size.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo Interface</a>

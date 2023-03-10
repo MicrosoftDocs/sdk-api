@@ -2,15 +2,12 @@
 UID: NF:directxmath.XMVector2InBounds
 title: XMVector2InBounds function (directxmath.h)
 description: Tests whether the components of a 2D vector are within set bounds.
+helpviewer_keywords: ["Use DirectX..XMVector2InBounds","XMVector2InBounds","XMVector2InBounds method [DirectX Math Support APIs]","dxmath.xmvector2inbounds"]
 old-location: dxmath\xmvector2inbounds.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2InBounds(XMVECTOR,XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2InBounds, XMVector2InBounds, XMVector2InBounds method [DirectX Math Support APIs], dxmath.xmvector2inbounds
-f1_keywords:
-- directxmath/XMVector2InBounds
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- directxmathvector.inl
-api_name:
-- XMVector2InBounds
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMVector2InBounds
+ - directxmath/XMVector2InBounds
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxmathvector.inl
+api_name:
+ - XMVector2InBounds
 ---
 
 # XMVector2InBounds function
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Tests whether the components of a 2D vector are within set bounds.
 
-
 ## -parameters
-
-
-
 
 ### -param V [in]
 
 2D vector to test.
 
-
 ### -param Bounds [in]
 
 2D vector that determines the bounds.
 
-
 ## -returns
-
-
 
 Returns true if both the x and y-components of <i>V</i> are within the set bounds, and false otherwise.
 
-
-
-
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of the function:
 
@@ -93,16 +81,6 @@ return (V.x <= Bounds.x && V.x >= -Bounds.x) &&
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector2-geometric">DirectXMath Library 2D Vector Geometric Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector2-geometric">DirectXMath Library 2D Vector Geometric Functions</a>

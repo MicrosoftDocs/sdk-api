@@ -2,15 +2,12 @@
 UID: NF:msrdc.ISimilarityFileIdTable.GetRecordCount
 title: ISimilarityFileIdTable::GetRecordCount (msrdc.h)
 description: Retrieves the number of records that are stored in a similarity file ID table.
+helpviewer_keywords: ["GetRecordCount","GetRecordCount method [Remote Differential Compression]","GetRecordCount method [Remote Differential Compression]","ISimilarityFileIdTable interface","ISimilarityFileIdTable interface [Remote Differential Compression]","GetRecordCount method","ISimilarityFileIdTable.GetRecordCount","ISimilarityFileIdTable::GetRecordCount","fs.isimilarityfileidtable_getrecordcount","msrdc/ISimilarityFileIdTable::GetRecordCount","rdc.isimilarityfileidtable_getrecordcount"]
 old-location: rdc\isimilarityfileidtable_getrecordcount.htm
 tech.root: rdc
 ms.assetid: 2d95140e-c422-4aa5-aea2-ee777f977c17
 ms.date: 12/05/2018
 ms.keywords: GetRecordCount, GetRecordCount method [Remote Differential Compression], GetRecordCount method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],GetRecordCount method, ISimilarityFileIdTable.GetRecordCount, ISimilarityFileIdTable::GetRecordCount, fs.isimilarityfileidtable_getrecordcount, msrdc/ISimilarityFileIdTable::GetRecordCount, rdc.isimilarityfileidtable_getrecordcount
-f1_keywords:
-- msrdc/ISimilarityFileIdTable.GetRecordCount
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- ISimilarityFileIdTable.GetRecordCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISimilarityFileIdTable::GetRecordCount
+ - msrdc/ISimilarityFileIdTable::GetRecordCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - ISimilarityFileIdTable.GetRecordCount
 ---
 
 # ISimilarityFileIdTable::GetRecordCount
@@ -48,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of records that are stored in a similarity file ID table.
 
-
 ## -parameters
-
-
-
 
 ### -param recordCount [out]
 
 A pointer to a variable that receives the number of records.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success, or an error <b>HRESULT</b> on failure.
 
 This method can also return the following error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>

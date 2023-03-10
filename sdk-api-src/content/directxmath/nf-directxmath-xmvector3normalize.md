@@ -2,15 +2,12 @@
 UID: NF:directxmath.XMVector3Normalize
 title: XMVector3Normalize function (directxmath.h)
 description: Returns the normalized version of a 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3Normalize","XMVector3Normalize","XMVector3Normalize method [DirectX Math Support APIs]","dxmath.xmvector3normalize"]
 old-location: dxmath\xmvector3normalize.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Normalize(XMVECTOR)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Normalize, XMVector3Normalize, XMVector3Normalize method [DirectX Math Support APIs], dxmath.xmvector3normalize
-f1_keywords:
-- directxmath/XMVector3Normalize
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- directxmathvector.inl
-api_name:
-- XMVector3Normalize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMVector3Normalize
+ - directxmath/XMVector3Normalize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxmathvector.inl
+api_name:
+ - XMVector3Normalize
 ---
 
 # XMVector3Normalize function
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the normalized version of a 3D vector.
 
-
 ## -parameters
-
-
-
 
 ### -param V [in]
 
 3D vector.
 
-
 ## -returns
-
-
 
 Returns the normalized version of <i>V</i>.
 
-
-
-
 ## -remarks
-
-
 
 For a vector of length 0, this function returns a zero vector. For a vector with infinite length, it returns a vector of QNaN.
 
@@ -119,20 +108,10 @@ inline XMVECTOR XMVector3NormalizeRobust( FXMVECTOR V )
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-geometric">DirectXMath Library 3D Vector Geometric Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector3-geometric">DirectXMath Library 3D Vector Geometric Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvector3normalizeest">XMVector3NormalizeEst</a>
- 
-
- 
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvector3normalizeest">XMVector3NormalizeEst</a>

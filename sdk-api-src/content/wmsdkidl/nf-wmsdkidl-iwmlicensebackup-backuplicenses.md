@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMLicenseBackup.BackupLicenses
 title: IWMLicenseBackup::BackupLicenses (wmsdkidl.h)
 description: The BackupLicenses method saves copies of the licenses.
+helpviewer_keywords: ["BackupLicenses","BackupLicenses method [windows Media Format]","BackupLicenses method [windows Media Format]","IWMLicenseBackup interface","IWMLicenseBackup interface [windows Media Format]","BackupLicenses method","IWMLicenseBackup.BackupLicenses","IWMLicenseBackup::BackupLicenses","IWMLicenseBackupBackupLicenses","wmformat.iwmlicensebackup_backuplicenses","wmsdkidl/IWMLicenseBackup::BackupLicenses"]
 old-location: wmformat\iwmlicensebackup_backuplicenses.htm
 tech.root: wmformat
 ms.assetid: 714971d7-8ccb-41fa-92b2-802a503ae228
 ms.date: 12/05/2018
 ms.keywords: BackupLicenses, BackupLicenses method [windows Media Format], BackupLicenses method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],BackupLicenses method, IWMLicenseBackup.BackupLicenses, IWMLicenseBackup::BackupLicenses, IWMLicenseBackupBackupLicenses, wmformat.iwmlicensebackup_backuplicenses, wmsdkidl/IWMLicenseBackup::BackupLicenses
-f1_keywords:
-- wmsdkidl/IWMLicenseBackup.BackupLicenses
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMLicenseBackup.BackupLicenses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMLicenseBackup::BackupLicenses
+ - wmsdkidl/IWMLicenseBackup::BackupLicenses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMLicenseBackup.BackupLicenses
 ---
 
 # IWMLicenseBackup::BackupLicenses
@@ -51,20 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>BackupLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>BackupLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>BackupLicenses</b> method saves copies of the licenses.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -82,17 +77,12 @@ The <b>BackupLicenses</b> method saves copies of the licenses.
 <td>Indicates that any existing backup file should be overwritten. If this is not set, and a backup file exists, the NS_E_DRM_BACKUP_EXISTS error code is returned.</td>
 </tr>
 </table>
- 
-
 
 ### -param pCallback [in]
 
-Pointer to an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
-
+Pointer to an object that implements the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -135,33 +125,17 @@ Not enough memory available to perform the task.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>.
+For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>.
 
 This method operates asynchronously, and an <b>IWMStatusCallback</b> object can be used to track progress.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicensebackup">IWMLicenseBackup Interface</a>

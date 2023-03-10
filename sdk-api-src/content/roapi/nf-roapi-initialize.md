@@ -2,15 +2,12 @@
 UID: NF:roapi.Initialize
 title: Initialize function (roapi.h)
 description: Initializes a thread to use Windows Runtime APIs.
+helpviewer_keywords: ["Initialize","Initialize function [COM]","com.initialize","roapi/Initialize"]
 old-location: com\initialize.htm
 tech.root: com
 ms.assetid: 615E552B-46EF-4D94-BF60-A44885731F75
 ms.date: 12/05/2018
 ms.keywords: Initialize, Initialize function [COM], com.initialize, roapi/Initialize
-f1_keywords:
-- roapi/Initialize
-dev_langs:
-- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ROApi.h
-api_name:
-- Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Initialize
+ - roapi/Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ROApi.h
+api_name:
+ - Initialize
 ---
 
 # Initialize function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a thread to use Windows Runtime APIs.
 
-
 ## -parameters
-
-
-
 
 ### -param initType
 
 Specifies the apartment type of the thread to be initialized.
 
-
 ## -returns
-
-
 
 <ul>
 <li><b>S_OK</b> - Successfully initialized for the first time on the current thread</li>
@@ -78,14 +72,10 @@ Specifies the apartment type of the thread to be initialized.
         apartment type from what is specified.</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
 <b>Windows::Foundation::Initialize</b> is changed to create 
-    ASTAs instead of classic STAs for the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a> 
+    ASTAs instead of classic STAs for the <a href="/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a> 
     value <b>RO_INIT_SINGLETHREADED</b>. 
     <b>Windows::Foundation::Initialize</b>(<b>RO_INIT_SINGLETHREADED</b>) 
     is not supported for desktop applications and will return <b>CO_E_NOTSUPPORTED</b> if called 
@@ -97,16 +87,6 @@ For Microsoft DirectX applications, you must initialize the initial thread by us
 For an out-of-process EXE server,  you must initialize the initial thread of the server by using 
     <b>Windows::Foundation::Initialize</b>(<b>RO_INIT_MULTITHREADED</b>).
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/roapi/ne-roapi-ro_init_type">RO_INIT_TYPE</a>

@@ -2,15 +2,12 @@
 UID: NF:netcon.INetConnectionProps.get_MediaType
 title: INetConnectionProps::get_MediaType (netcon.h)
 description: The get_MediaType method retrieves the media type for the connection.
+helpviewer_keywords: ["INetConnectionProps interface [ICS/ICF]","get_MediaType method","INetConnectionProps.get_MediaType","INetConnectionProps::get_MediaType","_ics_inetconnectionprops_get_mediatype","get_MediaType","get_MediaType method [ICS/ICF]","get_MediaType method [ICS/ICF]","INetConnectionProps interface","ics.inetconnectionprops_get_mediatype","netcon/INetConnectionProps::get_MediaType"]
 old-location: ics\inetconnectionprops_get_mediatype.htm
 tech.root: ics
 ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetConnectionProps.get_MediaType, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
-f1_keywords:
-- netcon/INetConnectionProps.get_MediaType
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetConnectionProps.get_MediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetConnectionProps::get_MediaType
+ - netcon/INetConnectionProps::get_MediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetConnectionProps.get_MediaType
 ---
 
 # INetConnectionProps::get_MediaType
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_MediaType</b> method retrieves the media type for the connection.
 
-
 ## -parameters
-
-
-
 
 ### -param pMediaType [out]
 
 Pointer to a variable of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a> that, on successful return, receives a code that specifies the media type for the connection.
-
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a> that, on successful return, receives a code that specifies the media type for the connection.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -168,22 +162,11 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnectionprops">INetConnectionProps</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>

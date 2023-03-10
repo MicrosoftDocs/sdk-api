@@ -2,15 +2,12 @@
 UID: NF:micaut.IMathInputControl.EnableExtendedButtons
 title: IMathInputControl::EnableExtendedButtons (micaut.h)
 description: Determines whether the extended set of control buttons is shown.
+helpviewer_keywords: ["EnableExtendedButtons","EnableExtendedButtons method [Tablet PC]","EnableExtendedButtons method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","EnableExtendedButtons method","IMathInputControl.EnableExtendedButtons","IMathInputControl::EnableExtendedButtons","micaut/IMathInputControl::EnableExtendedButtons","tablet.imathinputcontrol_enableextendedbuttons"]
 old-location: tablet\imathinputcontrol_enableextendedbuttons.htm
 tech.root: tablet
 ms.assetid: e8cdae54-ff0b-4361-bd38-1b99137736ab
 ms.date: 12/05/2018
 ms.keywords: EnableExtendedButtons, EnableExtendedButtons method [Tablet PC], EnableExtendedButtons method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableExtendedButtons method, IMathInputControl.EnableExtendedButtons, IMathInputControl::EnableExtendedButtons, micaut/IMathInputControl::EnableExtendedButtons, tablet.imathinputcontrol_enableextendedbuttons
-f1_keywords:
-- micaut/IMathInputControl.EnableExtendedButtons
-dev_langs:
-- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- micaut.h
-api_name:
-- IMathInputControl.EnableExtendedButtons
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMathInputControl::EnableExtendedButtons
+ - micaut/IMathInputControl::EnableExtendedButtons
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - micaut.h
+api_name:
+ - IMathInputControl.EnableExtendedButtons
 ---
 
 # IMathInputControl::EnableExtendedButtons
@@ -48,32 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the extended set of control buttons is shown.
 
-
 ## -parameters
-
-
-
 
 ### -param Extended [in]
 
 <b>VARIANT_TRUE</b> to show the extended button set; <b>VARIANT_FALSE</b> to show the basic button set.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The basic button set is shown by default.
 
@@ -99,21 +88,10 @@ The following image shows the Math Input Control with extended buttons disabled.
   
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/tablet/customizing-the-math-input-control">Customizing the Math Input Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/customizing-the-math-input-control">Customizing the Math Input Control</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>

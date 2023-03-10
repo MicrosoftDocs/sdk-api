@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarBoolFromUI1
 title: VarBoolFromUI1 function (oleauto.h)
 description: Converts an unsigned char value to a Boolean value.
+helpviewer_keywords: ["VarBoolFromUI1","VarBoolFromUI1 function [Automation]","_oa96_VarBoolFromUI1","automat.varboolfromui1","oleauto/VarBoolFromUI1"]
 old-location: automat\varboolfromui1.htm
 tech.root: automat
 ms.assetid: 50f27808-ab41-4883-9c0f-abb04a0d2d34
 ms.date: 12/05/2018
 ms.keywords: VarBoolFromUI1, VarBoolFromUI1 function [Automation], _oa96_VarBoolFromUI1, automat.varboolfromui1, oleauto/VarBoolFromUI1
-f1_keywords:
-- oleauto/VarBoolFromUI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarBoolFromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarBoolFromUI1
+ - oleauto/VarBoolFromUI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarBoolFromUI1
 ---
 
 # VarBoolFromUI1 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned char value to a Boolean value.
 
-
 ## -parameters
-
-
-
 
 ### -param bIn [in]
 
 The value to convert.
 
-
 ### -param pboolOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

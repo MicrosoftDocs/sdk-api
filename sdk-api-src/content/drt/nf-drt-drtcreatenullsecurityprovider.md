@@ -2,15 +2,12 @@
 UID: NF:drt.DrtCreateNullSecurityProvider
 title: DrtCreateNullSecurityProvider function (drt.h)
 description: DrtCreateNullSecurityProvider function creates a null security provider. This security provider does not require nodes to authenticate keys.
+helpviewer_keywords: ["DrtCreateNullSecurityProvider","DrtCreateNullSecurityProvider function [Distributed Routing Tables]","drt/DrtCreateNullSecurityProvider","p2p.drtcreatenullsecurityprovider"]
 old-location: p2p\drtcreatenullsecurityprovider.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: ba6e766f-784b-4609-8ad5-c1bfb0575f34
 ms.date: 12/05/2018
 ms.keywords: DrtCreateNullSecurityProvider, DrtCreateNullSecurityProvider function [Distributed Routing Tables], drt/DrtCreateNullSecurityProvider, p2p.drtcreatenullsecurityprovider
-f1_keywords:
-- drt/DrtCreateNullSecurityProvider
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtCreateNullSecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtCreateNullSecurityProvider
+ - drt/DrtCreateNullSecurityProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtCreateNullSecurityProvider
 ---
 
 # DrtCreateNullSecurityProvider function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtCreateNullSecurityProvider</b> function creates a null security provider. This security provider does not require nodes to authenticate keys.
-
 
 ## -parameters
 
-
-
-
 ### -param ppSecurityProvider [out]
 
-Pointer to the [DRT_SETTINGS](/windows/win32/api/drt/ns-drt-drt_settings)a> structure.
-
+Pointer to the [DRT_SETTINGS](./ns-drt-drt_settings.md) structure.
 
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -96,22 +90,11 @@ The system cannot allocate memory for the provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_security_provider">DRT_SECURITY_PROVIDER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtdeletenullsecurityprovider">DrtDeleteNullSecurityProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtdeletenullsecurityprovider">DrtDeleteNullSecurityProvider</a>

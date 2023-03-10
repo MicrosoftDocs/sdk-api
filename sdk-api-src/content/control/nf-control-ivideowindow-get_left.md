@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.get_Left
 title: IVideoWindow::get_Left (control.h)
 description: The get_Left method retrieves the video window's x-axis coordinate.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_Left method","IVideoWindow.get_Left","IVideoWindow::get_Left","IVideoWindowget_Left","control/IVideoWindow::get_Left","dshow.ivideowindow_get_left","get_Left","get_Left method [DirectShow]","get_Left method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_left.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6d75c926-588c-4fb2-b537-f27602799b2e
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Left method, IVideoWindow.get_Left, IVideoWindow::get_Left, IVideoWindowget_Left, control/IVideoWindow::get_Left, dshow.ivideowindow_get_left, get_Left, get_Left method [DirectShow], get_Left method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_Left
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_Left
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_Left
+ - control/IVideoWindow::get_Left
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_Left
 ---
 
 # IVideoWindow::get_Left
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Left</code> method retrieves the video window's x-axis coordinate.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pLeft [out]
 
 Receives the x-axis coordinate, in pixels.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -112,26 +102,15 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_left">IVideoWindow::put_Left</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_left">IVideoWindow::put_Left</a>

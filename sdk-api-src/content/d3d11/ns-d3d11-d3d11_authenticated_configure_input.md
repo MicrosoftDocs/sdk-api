@@ -2,15 +2,12 @@
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_INPUT (d3d11.h)
 description: Contains input data for the ID3D11VideoContext::ConfigureAuthenticatedChannel method.
+helpviewer_keywords: ["D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION","D3D11_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCESSIBLE","D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE","D3D11_AUTHENTICATED_CONFIGURE_INPUT","D3D11_AUTHENTICATED_CONFIGURE_INPUT structure [Media Foundation]","D3D11_AUTHENTICATED_CONFIGURE_PROTECTION","D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE","d3d11/D3D11_AUTHENTICATED_CONFIGURE_INPUT","mf.d3d11_authenticated_configure_input"]
 old-location: mf\d3d11_authenticated_configure_input.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 11FC071E-9B73-4960-B675-A43DDF75AA0B
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION, D3D11_AUTHENTICATED_CONFIGURE_ENCRYPTION_WHEN_ACCESSIBLE, D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE, D3D11_AUTHENTICATED_CONFIGURE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_INPUT structure [Media Foundation], D3D11_AUTHENTICATED_CONFIGURE_PROTECTION, D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE, d3d11/D3D11_AUTHENTICATED_CONFIGURE_INPUT, mf.d3d11_authenticated_configure_input
-f1_keywords:
-- d3d11/D3D11_AUTHENTICATED_CONFIGURE_INPUT
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d11.h
-api_name:
-- D3D11_AUTHENTICATED_CONFIGURE_INPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_CONFIGURE_INPUT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11_AUTHENTICATED_CONFIGURE_INPUT
+ - d3d11/D3D11_AUTHENTICATED_CONFIGURE_INPUT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d11.h
+api_name:
+ - D3D11_AUTHENTICATED_CONFIGURE_INPUT
 ---
 
 # D3D11_AUTHENTICATED_CONFIGURE_INPUT structure
@@ -48,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains input data for the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel">ID3D11VideoContext::ConfigureAuthenticatedChannel</a> method.
-
+Contains input data for the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-configureauthenticatedchannel">ID3D11VideoContext::ConfigureAuthenticatedChannel</a> method.
 
 ## -struct-fields
 
-
-
-
 ### -field omac
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_omac">D3D11_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses AES-based one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
-
-
-
+A <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_omac">D3D11_OMAC</a> structure that contains a Message Authentication Code (MAC) of the data. The driver uses AES-based one-key CBC MAC (OMAC) to calculate this value for the block of data that appears after this structure member.
 
 ### -field ConfigureType
 
@@ -83,7 +77,7 @@ Associates a cryptographic session with a decoder device and a Direct3D device.
 
 
 
-Input data: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input">D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT</a>
+Input data: <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_crypto_session_input">D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT</a>
 
 
 </td>
@@ -98,7 +92,7 @@ Sets the level of encryption that is performed before protected content becomes 
 
 
 
-Input data: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_accessible_encryption_input">D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT</a>
+Input data: <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_accessible_encryption_input">D3D11_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION_INPUT</a>
 
 
 </td>
@@ -113,7 +107,7 @@ Initializes the authenticated channel.
 
 
 
-Input data: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input">D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT</a>
+Input data: <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input">D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT</a>
 
 
 </td>
@@ -128,7 +122,7 @@ Enables or disables protection for the device.
 
 
 
-Input data: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_protection_input">D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT</a>
+Input data: <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_protection_input">D3D11_AUTHENTICATED_CONFIGURE_PROTECTION_INPUT</a>
 
 
 </td>
@@ -143,34 +137,21 @@ Enables a process to open a shared resource, or disables a process from opening 
 
 
 
-Input data: <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_shared_resource_input">D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT</a>
+Input data: <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_shared_resource_input">D3D11_AUTHENTICATED_CONFIGURE_SHARED_RESOURCE_INPUT</a>
 
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hChannel
 
-A handle to the authenticated channel. To get the handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11authenticatedchannel-getchannelhandle">ID3D11AuthenticatedChannel::GetChannelHandle</a> method.
-
-
-
+A handle to the authenticated channel. To get the handle, call the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11authenticatedchannel-getchannelhandle">ID3D11AuthenticatedChannel::GetChannelHandle</a> method.
 
 ### -field SequenceNumber
 
 The query sequence number. At the start of the session, generate a cryptographically secure 32-bit random number to use as the starting sequence number. For each query, increment the sequence number by 1.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

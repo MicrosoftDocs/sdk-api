@@ -1,16 +1,13 @@
 ---
 UID: NF:lzexpand.LZOpenFileA
 title: LZOpenFileA function (lzexpand.h)
-description: Creates, opens, reopens, or deletes the specified file.
+description: Creates, opens, reopens, or deletes the specified file. (ANSI)
+helpviewer_keywords: ["LZOpenFileA", "OF_CANCEL", "OF_CREATE", "OF_DELETE", "OF_EXIST", "OF_PARSE", "OF_PROMPT", "OF_READ", "OF_READWRITE", "OF_REOPEN", "OF_SHARE_DENY_NONE", "OF_SHARE_DENY_READ", "OF_SHARE_DENY_WRITE", "OF_SHARE_EXCLUSIVE", "OF_WRITE", "lzexpand/LZOpenFileA"]
 old-location: fs\lzopenfile.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6ab3c81c-88f2-4b87-84b1-5b64848af043
 ms.date: 12/05/2018
 ms.keywords: LZOpenFile, LZOpenFile function [Files], LZOpenFileA, LZOpenFileW, OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_WRITE, _win32_lzopenfile, base.lzopenfile, fs.lzopenfile, lzexpand/LZOpenFile, lzexpand/LZOpenFileA, lzexpand/LZOpenFileW
-f1_keywords:
-- lzexpand/LZOpenFile
-dev_langs:
-- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Lz32.dll
-api_name:
-- LZOpenFile
-- LZOpenFileA
-- LZOpenFileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LZOpenFileA
+ - lzexpand/LZOpenFileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Lz32.dll
+api_name:
+ - LZOpenFile
+ - LZOpenFileA
+ - LZOpenFileW
 ---
 
 # LZOpenFileA function
@@ -50,29 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates, opens, reopens, or deletes the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the file.
 
-
 ### -param lpReOpenBuf [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure that is to receive 
+A pointer to the <a href="/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure that is to receive 
        information about the file when the file is first opened. The structure can be used in subsequent calls to the 
        <b>LZOpenFile</b> function to see the open file.
 
 The <b>szPathName</b> member of this structure contains characters from the original 
        equipment manufacturer (OEM) character set.
-
 
 ### -param wStyle [in]
 
@@ -136,7 +131,7 @@ Opens the file and then closes it to test for a file's existence.
 </dl>
 </td>
 <td width="60%">
-Fills the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure but carries out no 
+Fills the <a href="/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure but carries out no 
         other action.
 
 </td>
@@ -252,12 +247,8 @@ Opens the file for writing only.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds and the value specified by the <i>wStyle</i> parameter is not 
        <b>OF_READ</b>, the return value is a handle identifying the file. If the file is compressed 
@@ -266,11 +257,11 @@ If the function succeeds and the value specified by the <i>wStyle</i> parameter 
 
 If the function fails, the return value is an <b>LZERROR_*</b> code. These codes have 
        values less than zero. There is no extended error information for this function; do not call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  <b>LZOpenFile</b> calls neither 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> nor 
+       <a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>; thus, its failure does not affect a 
        thread's last-error code.</div>
 <div> </div>
 The following is the list of the error codes that <b>LZOpenFile</b> can return upon 
@@ -306,19 +297,13 @@ The maximum number of open compressed files has been exceeded or local memory ca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>wStyle</i> parameter is the <b>OF_READ</b> flag (or 
     <b>OF_READ</b> and any of the <b>OF_SHARE_*</b> flags) and the file is 
     compressed, <b>LZOpenFile</b> calls the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> function, which performs the required initialization for 
+    <a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a> function, which performs the required initialization for 
     the decompression operations.
 
 The handle this function returns is compatible only with the functions in Lz32.dll; it should not be used 
@@ -332,7 +317,7 @@ If <b>LZOpenFile</b> is unable to open the file specified by
     file name extension to indicate that the file is compressed. For example, "MyProgram.exe" 
     compressed might be named "MyProgram.ex_". To determine the name of the file opened (if any), 
     examine the <b>szPathName</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure in the 
+    <a href="/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a> structure in the 
     <i>lpReOpenBuf</i> parameter.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -401,33 +386,30 @@ CsvFs will do redirected IO for compressed files.
 
 
 
+
+> [!NOTE]
+> The lzexpand.h header defines LZOpenFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-compression-and-decompression">File Compression and Decompression</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzclose">LZClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzclose">LZClose</a>
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzinit">LZInit</a>
+<a href="/windows/desktop/api/lzexpand/nf-lzexpand-lzread">LZRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lzexpand/nf-lzexpand-lzread">LZRead</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/ns-winbase-ofstruct">OFSTRUCT</a>

@@ -2,15 +2,12 @@
 UID: NF:msime.IFEDictionary.GetWords
 title: IFEDictionary::GetWords (msime.h)
 description: Gets word entries from a dictionary.
+helpviewer_keywords: ["GetWords","GetWords method [Internationalization for Windows Applications]","GetWords method [Internationalization for Windows Applications]","IFEDictionary interface","IFED_POS_ADJECTIVE","IFED_POS_ADJECTIVE_VERB","IFED_POS_ADNOUN","IFED_POS_ADVERB","IFED_POS_AFFIX","IFED_POS_ALL","IFED_POS_AUXILIARY_VERB","IFED_POS_CONJUNCTION","IFED_POS_DEPENDENT","IFED_POS_IDIOMS","IFED_POS_INDEPENDENT","IFED_POS_INFLECTIONALSUFFIX","IFED_POS_INTERJECTION","IFED_POS_NONE","IFED_POS_NOUN","IFED_POS_PARTICLE","IFED_POS_PREFIX","IFED_POS_SUB_VERB","IFED_POS_SUFFIX","IFED_POS_SYMBOLS","IFED_POS_TANKANJI","IFED_POS_VERB","IFED_REG_ALL","IFED_REG_AUTO","IFED_REG_GRAMMAR","IFED_REG_NONE","IFED_REG_USER","IFED_SELECT_ALL","IFED_SELECT_COMMENT","IFED_SELECT_DISPLAY","IFED_SELECT_NONE","IFED_SELECT_POS","IFED_SELECT_READING","IFEDictionary interface [Internationalization for Windows Applications]","GetWords method","IFEDictionary.GetWords","IFEDictionary::GetWords","NULL","intl.ifedictionary_getwords","msime/IFEDictionary::GetWords"]
 old-location: intl\ifedictionary_getwords.htm
 tech.root: Intl
 ms.assetid: 9FEA7E1C-166B-4CA4-B25E-0406AD60AC0B
 ms.date: 12/05/2018
 ms.keywords: GetWords, GetWords method [Internationalization for Windows Applications], GetWords method [Internationalization for Windows Applications],IFEDictionary interface, IFED_POS_ADJECTIVE, IFED_POS_ADJECTIVE_VERB, IFED_POS_ADNOUN, IFED_POS_ADVERB, IFED_POS_AFFIX, IFED_POS_ALL, IFED_POS_AUXILIARY_VERB, IFED_POS_CONJUNCTION, IFED_POS_DEPENDENT, IFED_POS_IDIOMS, IFED_POS_INDEPENDENT, IFED_POS_INFLECTIONALSUFFIX, IFED_POS_INTERJECTION, IFED_POS_NONE, IFED_POS_NOUN, IFED_POS_PARTICLE, IFED_POS_PREFIX, IFED_POS_SUB_VERB, IFED_POS_SUFFIX, IFED_POS_SYMBOLS, IFED_POS_TANKANJI, IFED_POS_VERB, IFED_REG_ALL, IFED_REG_AUTO, IFED_REG_GRAMMAR, IFED_REG_NONE, IFED_REG_USER, IFED_SELECT_ALL, IFED_SELECT_COMMENT, IFED_SELECT_DISPLAY, IFED_SELECT_NONE, IFED_SELECT_POS, IFED_SELECT_READING, IFEDictionary interface [Internationalization for Windows Applications],GetWords method, IFEDictionary.GetWords, IFEDictionary::GetWords, NULL, intl.ifedictionary_getwords, msime/IFEDictionary::GetWords
-f1_keywords:
-- msime/IFEDictionary.GetWords
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFEDictionary.GetWords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFEDictionary::GetWords
+ - msime/IFEDictionary::GetWords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFEDictionary.GetWords
 ---
 
 # IFEDictionary::GetWords
 
 
 ## -description
-
 
 Gets word entries from a dictionary.
 
@@ -57,15 +58,11 @@ The selection of a word entry can be performed by a combination of<ul>
 <li>A Part of Speech</li>
 </ul>In addition, retrievals by a string with Japanese phonetic characters can be performed by specifying a range in the Hiragana 50-on ordering.
 
-
 ## -parameters
-
-
-
 
 ### -param pwchFirst [in]
 
-A text string against which <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
+A text string against which <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
 
 <table>
 <tr>
@@ -99,12 +96,10 @@ This can be an initial text string when a range of words is to be retrieved, in 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwchLast [in]
 
-A text string that is used to end a text string. This must contain the same value as <b>pwchReading</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure when a retrieval is performed by a single value; that is, not by a range value. The value must be one of the following:
+A text string that is used to end a text string. This must contain the same value as <b>pwchReading</b> in the <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structure when a retrieval is performed by a single value; that is, not by a range value. The value must be one of the following:
 
 <table>
 <tr>
@@ -136,12 +131,10 @@ Hiragana string ending in "*" (specifying only leading characters of text).
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwchDisplay [in]
 
-A display string against which <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
+A display string against which <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> entries are matched; the value must be one of the following:
 
 <table>
 <tr>
@@ -173,8 +166,6 @@ Japanese string ending in "*".
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulPos [in]
 
@@ -312,7 +303,6 @@ Filter(s) on the Microsoft IME public Parts of Speech. This is a combination of 
 
 #### IFED_POS_ALL
 
-
 ### -param ulSelect [in]
 
 Specifies the query output of a word. This is a combination of one or more of the following flags:
@@ -353,10 +343,9 @@ Specifies the query output of a word. This is a combination of one or more of th
 
 #### IFED_SELECT_ALL
 
-
 ### -param ulWordSrc [in]
 
-Specifies the word source. When the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> is a user dictionary, this is a combination of one or more of the following flags:
+Specifies the word source. When the <a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a> is a user dictionary, this is a combination of one or more of the following flags:
 
 <a id="IFED_REG_NONE"></a>
 <a id="ifed_reg_none"></a>
@@ -388,25 +377,19 @@ Specifies the word source. When the <a href="https://docs.microsoft.com/windows/
 
 #### IFED_REG_ALL
 
-
 ### -param pchBuffer [in, out]
 
 Buffer provided by the caller to receive the data.
-
 
 ### -param cbBuffer [in]
 
 The size of <i>pchBuffer</i>.
 
-
 ### -param pcWrd [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
-
+The number of <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures returned in <i>pchBuffer</i>. If more entries are found than <i>pchBuffer</i> can store, <b>IFED_S_MORE_ENTRIES</b> will be returned.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -430,7 +413,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
+The client must call <a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a> to get additional <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a> structures.
 
 </td>
 </tr>
@@ -459,26 +442,15 @@ The client must call <a href="https://docs.microsoft.com/windows/desktop/api/msi
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-nextwords">NextWords</a>

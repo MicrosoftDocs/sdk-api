@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymSearch
 title: SymSearch function (dbghelp.h)
-description: Searches for PDB symbols that meet the specified criteria.
+description: The SymSearch function (dbghelp.h) searches for PDB symbols that meet the specified criteria.
+helpviewer_keywords: ["SYMSEARCH_ALLITEMS","SYMSEARCH_GLOBALSONLY","SYMSEARCH_MASKOBJS","SYMSEARCH_RECURSE","SymSearch","SymSearch function","SymSearchW","base.symsearch","dbghelp/SymSearch","dbghelp/SymSearchW"]
 old-location: base\symsearch.htm
 tech.root: Debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
-f1_keywords:
-- dbghelp/SymSearch
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymSearch
-- SymSearch
-- SymSearchW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymSearch
+ - dbghelp/SymSearch
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymSearch
+ - SymSearch
+ - SymSearchW
 ---
 
 # SymSearch function
@@ -50,57 +52,44 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches for  PDB symbols that meet the specified criteria.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param BaseOfDll [in]
 
 The base address of the module. If this value is zero and <i>Mask</i> contains an exclamation point (!), the function looks across modules. If this value is zero and <i>Mask</i> does not contain an exclamation point, the function uses the scope established by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 ### -param Index [in, optional]
 
 A unique value for the symbol.
 
-
 ### -param SymTag [in, optional]
 
 The PDB classification. These values are defined in Dbghelp.h in the <b>SymTagEnum</b> enumeration type. For  descriptions, see the PDB documentation.
-
 
 ### -param Mask [in, optional]
 
 A wildcard expression that indicates the names of the symbols to be enumerated. To specify a module name, use the !<i>mod</i> syntax.
 
-
 ### -param Address [in, optional]
 
 The address of the symbol.
 
-
 ### -param EnumSymbolsCallback [in]
 
  A 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that receives the symbol information.
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that receives the symbol information.
 
 ### -param UserContext [in, optional]
 
  A user-defined value that is passed to the callback function, or <b>NULL</b>. This parameter is typically used by an application to pass a pointer to a data structure that provides context for the callback function.
-
 
 ### -param Options [in]
 
@@ -158,44 +147,25 @@ Recurse from the top to find all symbols.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 						
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>

@@ -4,8 +4,11 @@ title: Comsvcs.h header
 ms.assetid: 03923598-8e51-32d0-ab59-a6cc44135a18
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winmessenger
+f1_keywords:
+ - comsvcs
+ - comsvcs/comsvcs
 ---
 
 # Comsvcs.h header
@@ -13,8 +16,8 @@ tech.root: winmessenger
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by Windows Messenger. For more information, see:
-
+- [COM+ (Component Services)](../_cos/index.md)
 - [Windows Messenger](../_winmessenger/index.md)
 

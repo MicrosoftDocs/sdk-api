@@ -2,15 +2,12 @@
 UID: NF:wbemcli.IWbemObjectTextSrc.GetText
 title: IWbemObjectTextSrc::GetText (wbemcli.h)
 description: The IWbemObjectTextSrc::GetText method creates a textual representation of an IWbemClassObject object; for example, an XML representation.
+helpviewer_keywords: ["ExcludeSystemProperties","GetText","GetText method [Windows Management Instrumentation]","GetText method [Windows Management Instrumentation]","IWbemObjectTextSrc interface","IWbemObjectTextSrc interface [Windows Management Instrumentation]","GetText method","IWbemObjectTextSrc.GetText","IWbemObjectTextSrc::GetText","IncludeClassOrigin","IncludeQualifiers","LocalOnly","PathLevel","WMI_OBJ_TEXT_CIM_DTD_2_0","WMI_OBJ_TEXT_LAST","WMI_OBJ_TEXT_WMI_DTD_2_0","WMI_OBJ_TEXT_WMI_EXT1","WMI_OBJ_TEXT_WMI_EXT10","WMI_OBJ_TEXT_WMI_EXT2","WMI_OBJ_TEXT_WMI_EXT3","WMI_OBJ_TEXT_WMI_EXT4","WMI_OBJ_TEXT_WMI_EXT5","WMI_OBJ_TEXT_WMI_EXT6","WMI_OBJ_TEXT_WMI_EXT7","WMI_OBJ_TEXT_WMI_EXT8","WMI_OBJ_TEXT_WMI_EXT9","_hmm_iwbemobjecttextsrc_gettext","wbemcli/IWbemObjectTextSrc::GetText","wmi.iwbemobjecttextsrc_gettext"]
 old-location: wmi\iwbemobjecttextsrc_gettext.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: d4c36d19-cf28-43d3-a60a-50970d66bc17
 ms.date: 12/05/2018
 ms.keywords: ExcludeSystemProperties, GetText, GetText method [Windows Management Instrumentation], GetText method [Windows Management Instrumentation],IWbemObjectTextSrc interface, IWbemObjectTextSrc interface [Windows Management Instrumentation],GetText method, IWbemObjectTextSrc.GetText, IWbemObjectTextSrc::GetText, IncludeClassOrigin, IncludeQualifiers, LocalOnly, PathLevel, WMI_OBJ_TEXT_CIM_DTD_2_0, WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_DTD_2_0, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, WMI_OBJ_TEXT_WMI_EXT2, WMI_OBJ_TEXT_WMI_EXT3, WMI_OBJ_TEXT_WMI_EXT4, WMI_OBJ_TEXT_WMI_EXT5, WMI_OBJ_TEXT_WMI_EXT6, WMI_OBJ_TEXT_WMI_EXT7, WMI_OBJ_TEXT_WMI_EXT8, WMI_OBJ_TEXT_WMI_EXT9, _hmm_iwbemobjecttextsrc_gettext, wbemcli/IWbemObjectTextSrc::GetText, wmi.iwbemobjecttextsrc_gettext
-f1_keywords:
-- wbemcli/IWbemObjectTextSrc.GetText
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-api_name:
-- IWbemObjectTextSrc.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemObjectTextSrc::GetText
+ - wbemcli/IWbemObjectTextSrc::GetText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+api_name:
+ - IWbemObjectTextSrc.GetText
 ---
 
 # IWbemObjectTextSrc::GetText
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWbemObjectTextSrc::GetText</b> method creates a textual representation of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object; for example, an XML representation.
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object; for example, an XML representation.
 
 ## -parameters
-
-
-
 
 ### -param lFlags
 
 Reserved. Must be 0L.
 
-
 ### -param pObj
 
 Reference to the object to be represented in text format. This parameter cannot be <b>NULL</b>.
-
 
 ### -param uObjTextFormat
 
@@ -150,7 +145,6 @@ Reserved for future use.
 
 Reserved for future use.
 
-
 ### -param pCtx
 
 Optional. Context object for the operation. The context object can be used to specify whether  certain parts of the object are represented in text; for example, whether to include qualifiers in the textual representation. The context object takes the following optional values.
@@ -205,7 +199,7 @@ A <b>VALUE.OBJECTWITHPATH</b> element is generated.
 
 #### ExcludeSystemProperties (VT_BOOL)
 
-If <b>TRUE</b>, system properties, like <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--namespace">__NAMESPACE</a>, are absent in the output. The default is <b>FALSE</b>.
+If <b>TRUE</b>, system properties, like <a href="/windows/desktop/WmiSdk/--namespace">__NAMESPACE</a>, are absent in the output. The default is <b>FALSE</b>.
 
 
 
@@ -213,27 +207,15 @@ If <b>TRUE</b>, system properties, like <a href="https://docs.microsoft.com/wind
 
 If <b>TRUE</b>, the class origin attribute is set on <b>PROPERTY</b> and <b>METHOD</b> elements. The default is <b>FALSE</b>.
 
-
 ### -param strText
 
-Textual representation of the object. User must free the string using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when finished with <i>strText</i>.
-
+Textual representation of the object. User must free the string using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when finished with <i>strText</i>.
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
-
-
-
 
 ## -remarks
 
-
-
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/representing-objects-in-xml">Representing Objects in XML</a>.
-
-
-
+<a href="/windows/desktop/WmiSdk/representing-objects-in-xml">Representing Objects in XML</a>.

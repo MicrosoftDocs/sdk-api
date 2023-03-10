@@ -2,15 +2,12 @@
 UID: NF:winsafer.SaferCreateLevel
 title: SaferCreateLevel function (winsafer.h)
 description: Opens a SAFER_LEVEL_HANDLE.
+helpviewer_keywords: ["SAFER_LEVELID_CONSTRAINED","SAFER_LEVELID_DISALLOWED","SAFER_LEVELID_FULLYTRUSTED","SAFER_LEVELID_NORMALUSER","SAFER_LEVELID_UNTRUSTED","SAFER_LEVEL_OPEN","SAFER_SCOPEID_MACHINE","SAFER_SCOPEID_USER","SaferCreateLevel","SaferCreateLevel function [Security]","_mnp_safercreatelevel","security.safercreatelevel","winsafer/SaferCreateLevel"]
 old-location: security\safercreatelevel.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 7deb1365-5355-4983-900b-8e4fed009403
 ms.date: 12/05/2018
 ms.keywords: SAFER_LEVELID_CONSTRAINED, SAFER_LEVELID_DISALLOWED, SAFER_LEVELID_FULLYTRUSTED, SAFER_LEVELID_NORMALUSER, SAFER_LEVELID_UNTRUSTED, SAFER_LEVEL_OPEN, SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferCreateLevel, SaferCreateLevel function [Security], _mnp_safercreatelevel, security.safercreatelevel, winsafer/SaferCreateLevel
-f1_keywords:
-- winsafer/SaferCreateLevel
-dev_langs:
-- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
-api_name:
-- SaferCreateLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaferCreateLevel
+ - winsafer/SaferCreateLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
+api_name:
+ - SaferCreateLevel
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferCreateLevel function
@@ -49,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaferCreateLevel</b> function opens a SAFER_LEVEL_HANDLE.
 
-
 ## -parameters
-
-
-
 
 ### -param dwScopeId [in]
 
@@ -90,8 +88,6 @@ The scope of the created level is by user.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwLevelId [in]
 
@@ -160,8 +156,6 @@ Allows programs to execute with access only to resources granted to open well-kn
 </td>
 </tr>
 </table>
- 
-
 
 ### -param OpenFlags [in]
 
@@ -181,28 +175,19 @@ This can be the following value.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
 
 ### -param pLevelHandle [out]
 
-The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safercloselevel">SaferCloseLevel</a> function.
-
+The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="/windows/desktop/api/winsafer/nf-winsafer-safercloselevel">SaferCloseLevel</a> function.
 
 ### -param lpReserved
 
 This parameter is reserved for future use. Set it to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns nonzero if successful or zero otherwise. 
 						
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

@@ -2,15 +2,12 @@
 UID: NN:wuapi.IUpdateServiceCollection
 title: IUpdateServiceCollection (wuapi.h)
 description: Represents a list of IUpdateService interfaces.
+helpviewer_keywords: ["IUpdateServiceCollection","IUpdateServiceCollection interface [Windows Update Agent]","IUpdateServiceCollection interface [Windows Update Agent]","described","wua.iupdateservicecollection","wuapi/IUpdateServiceCollection"]
 old-location: wua\iupdateservicecollection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: ae742fe2-c9f3-4116-b98a-3cf3906cfda2
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection, IUpdateServiceCollection interface [Windows Update Agent], IUpdateServiceCollection interface [Windows Update Agent],described, wua.iupdateservicecollection, wuapi/IUpdateServiceCollection
-f1_keywords:
-- wuapi/IUpdateServiceCollection
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceCollection
+ - wuapi/IUpdateServiceCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceCollection
 ---
 
 # IUpdateServiceCollection interface
@@ -48,17 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interfaces.
-
+Represents a list of <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interfaces.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -1,16 +1,13 @@
 ---
 UID: NN:shobjidl_core.ILaunchTargetMonitor
 title: ILaunchTargetMonitor (shobjidl_core.h)
-description: .
+description: . (ILaunchTargetMonitor)
+helpviewer_keywords: ["ILaunchTargetMonitor","ILaunchTargetMonitor interface [Windows Shell]","ILaunchTargetMonitor interface [Windows Shell]","described","shell.ILaunchTargetMonitor","shobjidl_core/ILaunchTargetMonitor"]
 old-location: shell\ILaunchTargetMonitor.htm
 tech.root: shell
 ms.assetid: 358598D8-6488-4F8E-93CF-C70AD1A46862
 ms.date: 12/05/2018
 ms.keywords: ILaunchTargetMonitor, ILaunchTargetMonitor interface [Windows Shell], ILaunchTargetMonitor interface [Windows Shell],described, shell.ILaunchTargetMonitor, shobjidl_core/ILaunchTargetMonitor
-f1_keywords:
-- shobjidl_core/ILaunchTargetMonitor
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ILaunchTargetMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILaunchTargetMonitor
+ - shobjidl_core/ILaunchTargetMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ILaunchTargetMonitor
 ---
 
 # ILaunchTargetMonitor interface
@@ -48,33 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
+Provides a method for retrieving the target monitor for the application being launched.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILaunchTargetMonitor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetMonitor</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ILaunchTargetMonitor</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ilaunchtargetmonitor-getmonitor">GetMonitor</a>
-</td>
-<td align="left" width="63%">
-Retrieves the target monitor for the application being launched.
-
-</td>
-</tr>
-</table> 
+The <b>ILaunchTargetMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILaunchTargetMonitor</b> also has these types of members:
 

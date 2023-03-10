@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDServiceProxy.BeginGetMetadata
 title: IWSDServiceProxy::BeginGetMetadata (wsdclient.h)
 description: Initiates an asynchronous metadata exchange request with the remote service.
+helpviewer_keywords: ["BeginGetMetadata","BeginGetMetadata method","BeginGetMetadata method","IWSDServiceProxy interface","IWSDServiceProxy interface","BeginGetMetadata method","IWSDServiceProxy.BeginGetMetadata","IWSDServiceProxy::BeginGetMetadata","ncd.iwsdserviceproxy_begingetmetadata","wsdclient/IWSDServiceProxy::BeginGetMetadata"]
 old-location: ncd\iwsdserviceproxy_begingetmetadata.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: bcc0bcaf-76fb-4dca-b946-2826809a53a1
 ms.date: 12/05/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,BeginGetMetadata method, IWSDServiceProxy.BeginGetMetadata, IWSDServiceProxy::BeginGetMetadata, ncd.iwsdserviceproxy_begingetmetadata, wsdclient/IWSDServiceProxy::BeginGetMetadata
-f1_keywords:
-- wsdclient/IWSDServiceProxy.BeginGetMetadata
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDServiceProxy.BeginGetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceProxy::BeginGetMetadata
+ - wsdclient/IWSDServiceProxy::BeginGetMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDServiceProxy.BeginGetMetadata
 ---
 
 # IWSDServiceProxy::BeginGetMetadata
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates an asynchronous metadata exchange request with the remote service.
-
 
 ## -parameters
 
-
-
-
 ### -param ppResult [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that you use to poll for the result, register a callback object, or configure an event to be signaled when the response is received.
-
+An <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that you use to poll for the result, register a callback object, or configure an event to be signaled when the response is received.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -129,27 +123,11 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-endgetmetadata">IWSDServiceProxy::EndGetMetadata</a> to complete the asynchronous operation and to retrieve the metadata.
-
-
-
+Call <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsdserviceproxy-endgetmetadata">IWSDServiceProxy::EndGetMetadata</a> to complete the asynchronous operation and to retrieve the metadata.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>

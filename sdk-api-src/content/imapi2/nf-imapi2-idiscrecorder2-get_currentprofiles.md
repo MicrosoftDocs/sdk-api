@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.get_CurrentProfiles
 title: IDiscRecorder2::get_CurrentProfiles (imapi2.h)
 description: Retrieves all MMC profiles of the device that are marked as current.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_CurrentProfiles method","IDiscRecorder2.get_CurrentProfiles","IDiscRecorder2::get_CurrentProfiles","get_CurrentProfiles","get_CurrentProfiles method [IMAPI]","get_CurrentProfiles method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_currentprofiles","imapi2/IDiscRecorder2::get_CurrentProfiles"]
 old-location: imapi\idiscrecorder2_get_currentprofiles.htm
 tech.root: imapi
 ms.assetid: dd8dd2fd-531b-4ed5-9a28-d6b24469e5e7
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentProfiles method, IDiscRecorder2.get_CurrentProfiles, IDiscRecorder2::get_CurrentProfiles, get_CurrentProfiles, get_CurrentProfiles method [IMAPI], get_CurrentProfiles method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentprofiles, imapi2/IDiscRecorder2::get_CurrentProfiles
-f1_keywords:
-- imapi2/IDiscRecorder2.get_CurrentProfiles
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.get_CurrentProfiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::get_CurrentProfiles
+ - imapi2/IDiscRecorder2::get_CurrentProfiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.get_CurrentProfiles
 ---
 
 # IDiscRecorder2::get_CurrentProfiles
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves all MMC profiles of the device that are marked as current.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-List of supported profiles that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration.
-
+List of supported profiles that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the profile type. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a> enumeration.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -373,26 +367,15 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>

@@ -1,12 +1,12 @@
 {
   "tech": "direct3d12",
   "headers": [
+    "d3d11on12.h",
     "d3d12.h",
     "d3d12sdklayers.h",
     "d3d12shader.h",
-    "d3d11on12.h",
     "d3dx12.h",
-    "directml.h"
+    "windows.graphics.holographic.interop.h"
   ],
   "displayName": "Direct3D 12 Graphics"
 }

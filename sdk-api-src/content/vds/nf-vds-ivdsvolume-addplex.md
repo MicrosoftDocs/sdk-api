@@ -2,15 +2,12 @@
 UID: NF:vds.IVdsVolume.AddPlex
 title: IVdsVolume::AddPlex (vds.h)
 description: Adds a volume as a plex to the current volume.
+helpviewer_keywords: ["AddPlex","AddPlex method [VDS]","AddPlex method [VDS]","IVdsVolume interface","IVdsVolume interface [VDS]","AddPlex method","IVdsVolume.AddPlex","IVdsVolume::AddPlex","base.ivdsvolume_addplex","vds/IVdsVolume::AddPlex"]
 old-location: base\ivdsvolume_addplex.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: b463ad74-400d-4100-83ff-3eb98e6a0db4
 ms.date: 12/05/2018
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],AddPlex method, IVdsVolume.AddPlex, IVdsVolume::AddPlex, base.ivdsvolume_addplex, vds/IVdsVolume::AddPlex
-f1_keywords:
-- vds/IVdsVolume.AddPlex
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsVolume.AddPlex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsVolume::AddPlex
+ - vds/IVdsVolume::AddPlex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsVolume.AddPlex
 ---
 
 # IVdsVolume::AddPlex
@@ -49,35 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Adds a volume as a plex to the 
    current volume.
 
-
 ## -parameters
-
-
-
 
 ### -param VolumeId [in]
 
 The GUID of the volume to be added as a plex.
 
-
 ### -param ppAsync [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface pointer, which VDS 
+The address of an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface pointer, which VDS 
       initializes on return. Callers must release the interface. Use this pointer to cancel, wait for, or query the 
       status of the operation.
 
-
 ## -returns
 
-
-
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -170,14 +163,8 @@ The source volume is smaller than the target volume. If the source volume is lar
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This operation is not valid for basic volumes, which have exactly one plex.
 
@@ -191,27 +178,17 @@ Callers can add a mirrored volume as a new plex to another volume. The resulting
     number to the sum of the original volumes.
      
 
-Implementers must return a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface for 
+Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface for 
      this method, regardless of whether the call initiates an asynchronous operation.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
+<a href="/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/VDS/volume-plex-object">Volume Plex Object</a>
- 
-
- 
-
+<a href="/windows/desktop/VDS/volume-plex-object">Volume Plex Object</a>

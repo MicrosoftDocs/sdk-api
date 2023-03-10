@@ -2,15 +2,12 @@
 UID: NN:indexsrv.IWordFormSink
 title: IWordFormSink (indexsrv.h)
 description: Handles the list of alternative word forms that stemmers generate during query time.
+helpviewer_keywords: ["IWordFormSink","IWordFormSink interface [search]","IWordFormSink interface [search]","described","indexsrv/IWordFormSink","search.iwordformsink"]
 old-location: search\iwordformsink.htm
 tech.root: search
 ms.assetid: 81D52B0C-BADD-48C0-85DB-57CA82D7BBA8
 ms.date: 12/05/2018
 ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
-f1_keywords:
-- indexsrv/IWordFormSink
-dev_langs:
-- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Indexsrv.h
-api_name:
-- IWordFormSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWordFormSink
+ - indexsrv/IWordFormSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Indexsrv.h
+api_name:
+ - IWordFormSink
 ---
 
 # IWordFormSink interface
@@ -48,70 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Handles the list of alternative word forms that stemmers generate during query time.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordFormSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordFormSink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWordFormSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/search/iwordformsink-putphrase">PutAltWord</a>
-</td>
-<td align="left" width="63%">
-Puts an alternative form of a word in the <b>IWordFormSink</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/search/iwordformsink-putword">PutWord</a>
-</td>
-<td align="left" width="63%">
-Puts the original word form in the <b>IWordFormSink</b> object.
-
-</td>
-</tr>
-</table> 
-
+The <b>IWordFormSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordFormSink</b> also has these types of members:
 
 ## -remarks
 
-
-
-Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-generatewordforms">GenerateWordForms</a> method.
+Windows Search creates and initializes instances of the StemSink object. The <b>IWordFormSink</b> object receives the <i>ulMaxTokenSize</i> parameter during initialization. The value for this parameter is determined by the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementation and determines the maximum length, in characters, for a single word that the <b>IWordFormSink</b> handles.
 
 
 
 
-
+<a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a> implementations receive a pointer to the <b>IWordFormSink</b> object in the <a href="/windows/desktop/api/indexsrv/nf-indexsrv-istemmer-generatewordforms">GenerateWordForms</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/indexsrv/nn-indexsrv-istemmer">IStemmer</a>

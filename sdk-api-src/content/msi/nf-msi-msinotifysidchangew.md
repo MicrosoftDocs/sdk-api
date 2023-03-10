@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiNotifySidChangeW
 title: MsiNotifySidChangeW function (msi.h)
-description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs.
+description: The MsiNotifySidChange function notifies and updates the Windows Installer internal information with changes to user SIDs. (Unicode)
+helpviewer_keywords: ["MsiNotifySidChange", "MsiNotifySidChange function", "MsiNotifySidChangeW", "msi/MsiNotifySidChange", "msi/MsiNotifySidChangeW", "setup.msinotifysidchange"]
 old-location: setup\msinotifysidchange.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f35e503e-0bc0-4895-8e88-fc5636774e75
 ms.date: 12/05/2018
 ms.keywords: MsiNotifySidChange, MsiNotifySidChange function, MsiNotifySidChangeA, MsiNotifySidChangeW, msi/MsiNotifySidChange, msi/MsiNotifySidChangeA, msi/MsiNotifySidChangeW, setup.msinotifysidchange
-f1_keywords:
-- msi/MsiNotifySidChange
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiNotifySidChange
-- MsiNotifySidChangeA
-- MsiNotifySidChangeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiNotifySidChangeW
+ - msi/MsiNotifySidChangeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiNotifySidChange
+ - MsiNotifySidChangeA
+ - MsiNotifySidChangeW
 ---
 
 # MsiNotifySidChangeW function
@@ -50,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiNotifySidChange</b> function notifies and updates the Windows Installer internal information  with changes to  user SIDs.
 
-
 ## -parameters
-
-
-
 
 ### -param pOldSid [in]
 
 Null-terminated string that specifies the string value of the previous security identifier(SID).
 
-
 ### -param pNewSid [in]
 
 Null-terminated string that specifies the string value of the new security identifier(SID).
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -125,27 +118,18 @@ Internal failure during execution.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Windows Installer 2.0 and Windows Installer 3.0:  </b>Not supported. This function is available beginning with Windows Installer 3.1.
 
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiNotifySidChange as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>

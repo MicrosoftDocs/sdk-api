@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.StopScreenUpdates
 title: IWTSProtocolConnectionCallback::StopScreenUpdates (wtsprotocol.h)
 description: IWTSProtocolConnectionCallback::StopScreenUpdates is no longer available. Instead, use IWRdsProtocolConnectionCallback::StopScreenUpdates.
+helpviewer_keywords: ["IWTSProtocolConnectionCallback interface [Remote Desktop Services]","StopScreenUpdates method","IWTSProtocolConnectionCallback.StopScreenUpdates","IWTSProtocolConnectionCallback::StopScreenUpdates","StopScreenUpdates","StopScreenUpdates method [Remote Desktop Services]","StopScreenUpdates method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","termserv.iwtsprotocolconnectioncallback_stopscreenupdates","wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates"]
 old-location: termserv\iwtsprotocolconnectioncallback_stopscreenupdates.htm
 tech.root: TermServ
 ms.assetid: 69fab470-8763-405e-96f1-d3b1c5a26422
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],StopScreenUpdates method, IWTSProtocolConnectionCallback.StopScreenUpdates, IWTSProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates
-f1_keywords:
-- wtsprotocol/IWTSProtocolConnectionCallback.StopScreenUpdates
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolConnectionCallback.StopScreenUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolConnectionCallback::StopScreenUpdates
+ - wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolConnectionCallback.StopScreenUpdates
 ---
 
 # IWTSProtocolConnectionCallback::StopScreenUpdates
@@ -48,33 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback::StopScreenUpdates</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-stopscreenupdates">IWRdsProtocolConnectionCallback::StopScreenUpdates</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolConnectionCallback::StopScreenUpdates</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnectioncallback-stopscreenupdates">IWRdsProtocolConnectionCallback::StopScreenUpdates</a>.]
 
 Requests that the Remote Desktop Services service stop updating the client screen.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
-
-
 
 To avoid deadlocks when calling this method:
 
@@ -83,15 +71,6 @@ To avoid deadlocks when calling this method:
 <li>Do not block on this method before replying to another call by the Remote Desktop Services service.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>

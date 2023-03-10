@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingManager.get_INetSharingConfigurationForINetConnection
 title: INetSharingManager::get_INetSharingConfigurationForINetConnection (netcon.h)
 description: The get_INetSharingConfigurationForINetConnection method retrieves an INetSharingConfiguration interface for the specified connection.
+helpviewer_keywords: ["INetSharingManager interface [ICS/ICF]","get_INetSharingConfigurationForINetConnection method","INetSharingManager.get_INetSharingConfigurationForINetConnection","INetSharingManager::get_INetSharingConfigurationForINetConnection","_ics_inetsharingmanager_get_inetsharingconfigurationforinetconnection","get_INetSharingConfigurationForINetConnection","get_INetSharingConfigurationForINetConnection method [ICS/ICF]","get_INetSharingConfigurationForINetConnection method [ICS/ICF]","INetSharingManager interface","ics.inetsharingmanager_get_inetsharingconfigurationforinetconnection","netcon/INetSharingManager::get_INetSharingConfigurationForINetConnection"]
 old-location: ics\inetsharingmanager_get_inetsharingconfigurationforinetconnection.htm
 tech.root: ics
 ms.assetid: 8f774509-0efb-49e5-bf56-61f4810631bd
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_INetSharingConfigurationForINetConnection method, INetSharingManager.get_INetSharingConfigurationForINetConnection, INetSharingManager::get_INetSharingConfigurationForINetConnection, _ics_inetsharingmanager_get_inetsharingconfigurationforinetconnection, get_INetSharingConfigurationForINetConnection, get_INetSharingConfigurationForINetConnection method [ICS/ICF], get_INetSharingConfigurationForINetConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_inetsharingconfigurationforinetconnection, netcon/INetSharingManager::get_INetSharingConfigurationForINetConnection
-f1_keywords:
-- netcon/INetSharingManager.get_INetSharingConfigurationForINetConnection
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingManager.get_INetSharingConfigurationForINetConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingManager::get_INetSharingConfigurationForINetConnection
+ - netcon/INetSharingManager::get_INetSharingConfigurationForINetConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingManager.get_INetSharingConfigurationForINetConnection
 ---
 
 # INetSharingManager::get_INetSharingConfigurationForINetConnection
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_INetSharingConfigurationForINetConnection</b> method retrieves an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for the specified connection.
-
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for the specified connection.
 
 ## -parameters
-
-
-
 
 ### -param pNetConnection
 
 Pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a> interface for an Internet connection.
-					
-
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetconnection">INetConnection</a> interface for an Internet connection.
 
 ### -param ppNetSharingConfiguration [out]
 
 Pointer to an interface pointer that, on successful return, points to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for the connection specified by the <i>pNetConnection</i> parameter.
-
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for the connection specified by the <i>pNetConnection</i> parameter.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -176,26 +168,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager">INetSharingManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager">INetSharingManager</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

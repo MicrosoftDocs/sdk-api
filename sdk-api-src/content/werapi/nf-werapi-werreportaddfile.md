@@ -2,15 +2,12 @@
 UID: NF:werapi.WerReportAddFile
 title: WerReportAddFile function (werapi.h)
 description: Adds a file to the specified report.
+helpviewer_keywords: ["WER_FILE_ANONYMOUS_DATA","WER_FILE_DELETE_WHEN_DONE","WerFileTypeHeapdump","WerFileTypeMicrodump","WerFileTypeMinidump","WerFileTypeOther","WerFileTypeUserDocument","WerReportAddFile","WerReportAddFile function [Windows Error Reporting]","base.werreportaddfile","wer.werreportaddfile","werapi/WerReportAddFile"]
 old-location: wer\werreportaddfile.htm
 tech.root: wer
 ms.assetid: 4b2c2060-a193-4168-90fc-afb95c160569
 ms.date: 12/05/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerFileTypeHeapdump, WerFileTypeMicrodump, WerFileTypeMinidump, WerFileTypeOther, WerFileTypeUserDocument, WerReportAddFile, WerReportAddFile function [Windows Error Reporting], base.werreportaddfile, wer.werreportaddfile, werapi/WerReportAddFile
-f1_keywords:
-- werapi/WerReportAddFile
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wer.dll
-- Ext-MS-Win-wer-reporting-l1-1-0.dll
-- errorhandlingext.dll
-- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
-api_name:
-- WerReportAddFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerReportAddFile
+ - werapi/WerReportAddFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wer.dll
+ - Ext-MS-Win-wer-reporting-l1-1-0.dll
+ - errorhandlingext.dll
+ - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+api_name:
+ - WerReportAddFile
 ---
 
 # WerReportAddFile function
@@ -51,24 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a file to the specified  report.
-
 
 ## -parameters
 
-
-
-
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
-
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ### -param pwzPath [in]
 
 A pointer to a Unicode string that contains the full path to the file to be added. This path can use environment variables. The maximum length of this path is MAX_PATH characters.
-
 
 ### -param repFileType [in]
 
@@ -130,8 +125,6 @@ The document in use by the application at the time of the event. The document is
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFileFlags [in]
 
@@ -163,12 +156,8 @@ Automatically delete the file after the report is submitted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
 
@@ -200,35 +189,19 @@ The specified file is a user-document and is stored on an encrypted file-system;
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Although this function can also be used to add memory dumps (using specific flags) to the error report, the preferred function to use for adding memory dumps is <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>. You should use this function only if you want to collect the dump yourself and then add it to the report. 
-
-
-
+Although this function can also be used to add memory dumps (using specific flags) to the error report, the preferred function to use for adding memory dumps is <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>. You should use this function only if you want to collect the dump yourself and then add it to the report.
 
 ## -see-also
 
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

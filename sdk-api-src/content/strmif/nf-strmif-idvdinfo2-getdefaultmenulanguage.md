@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetDefaultMenuLanguage
 title: IDvdInfo2::GetDefaultMenuLanguage (strmif.h)
 description: The GetDefaultMenuLanguage method retrieves the default menu language.
+helpviewer_keywords: ["GetDefaultMenuLanguage","GetDefaultMenuLanguage method [DirectShow]","GetDefaultMenuLanguage method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDefaultMenuLanguage method","IDvdInfo2.GetDefaultMenuLanguage","IDvdInfo2::GetDefaultMenuLanguage","IDvdInfo2GetDefaultMenuLanguage","dshow.idvdinfo2_getdefaultmenulanguage","strmif/IDvdInfo2::GetDefaultMenuLanguage"]
 old-location: dshow\idvdinfo2_getdefaultmenulanguage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f2ad5bec-fc8c-4fcf-8657-aa1726c28cdc
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMenuLanguage, GetDefaultMenuLanguage method [DirectShow], GetDefaultMenuLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultMenuLanguage method, IDvdInfo2.GetDefaultMenuLanguage, IDvdInfo2::GetDefaultMenuLanguage, IDvdInfo2GetDefaultMenuLanguage, dshow.idvdinfo2_getdefaultmenulanguage, strmif/IDvdInfo2::GetDefaultMenuLanguage
-f1_keywords:
-- strmif/IDvdInfo2.GetDefaultMenuLanguage
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetDefaultMenuLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetDefaultMenuLanguage
+ - strmif/IDvdInfo2::GetDefaultMenuLanguage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetDefaultMenuLanguage
 ---
 
 # IDvdInfo2::GetDefaultMenuLanguage
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDefaultMenuLanguage</code> method retrieves the default menu language.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pLanguage [out]
 
 Receives the language information.
 
-
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -117,7 +108,7 @@ The <i>pLanguage</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
@@ -133,26 +124,15 @@ DVD Navigator is not in a valid domain.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

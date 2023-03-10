@@ -2,15 +2,12 @@
 UID: NF:errhandlingapi.GetLastError
 title: GetLastError function (errhandlingapi.h)
 description: Retrieves the calling thread's last-error code value.
+helpviewer_keywords: ["GetLastError","GetLastError function","_win32_getlasterror","base.getlasterror","errhandlingapi/GetLastError"]
 old-location: base\getlasterror.htm
 tech.root: Debug
 ms.assetid: d852e148-985c-416f-a5a7-27b6914b45d4
 ms.date: 12/05/2018
 ms.keywords: GetLastError, GetLastError function, _win32_getlasterror, base.getlasterror, errhandlingapi/GetLastError
-f1_keywords:
-- errhandlingapi/GetLastError
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-errorhandling-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-errorhandling-l1-1-1.dll
-- API-MS-Win-Core-errorhandling-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
-- vertdll.dll
-api_name:
-- GetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLastError
+ - errhandlingapi/GetLastError
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-errorhandling-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-errorhandling-l1-1-1.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+ - vertdll.dll
+api_name:
+ - GetLastError
 ---
 
 # GetLastError function
@@ -56,43 +58,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the calling thread's last-error code value. The last-error code is maintained on a per-thread basis. Multiple threads do not overwrite each other's last-error code.
 
 <b>Visual Basic:  </b>Applications should call <b>err.LastDllError</b> instead of 
 <b>GetLastError</b>.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 The return value is the calling thread's last-error code.
 
 The Return Value section of the documentation for each function that sets the last-error code notes the conditions under which the function sets the last-error code. Most functions that set the thread's last-error code set it when they fail. However, some functions also set the last-error code when they succeed. If the function is not documented to set the last-error code, the value returned by this function is simply the most recent last-error code to have been set; some functions set the last-error code to 0 on success and others do not.
 
-
-
-
 ## -remarks
 
-
-
 Functions executed by the calling thread set this value by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. You should call the 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> function. You should call the 
 <b>GetLastError</b> function immediately when a function's return value indicates that such a call will return useful data. That is because some functions call 
 <b>SetLastError</b> with a zero when they succeed, wiping out the error code set by the most recently failed function.
 
 To obtain an error string for system error codes, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function. For a complete list of error codes provided by the operating system, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function. For a complete list of error codes provided by the operating system, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 The error codes returned by a function are not part of the Windows API specification and can vary by operating system or device driver. For this reason, we cannot provide the complete list of error codes that can be returned by each function. There are also many functions whose documentation does not include even a partial list of error codes that can be returned.
 
@@ -105,22 +93,17 @@ To convert a system error into an <b>HRESULT</b> value, use the
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>.
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
@@ -128,16 +111,12 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/last-error-code">Last-Error Code</a>
+<a href="/windows/desktop/Debug/last-error-code">Last-Error Code</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>

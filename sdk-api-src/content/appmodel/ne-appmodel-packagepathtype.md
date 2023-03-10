@@ -2,13 +2,10 @@
 UID: NE:appmodel.PackagePathType
 title: PackagePathType
 description: Indicates the type of package folder to retrieve.
+helpviewer_keywords: ["PackagePathType"]
 tech.root: appxpkg
-ms.date: 01/31/19
+ms.date: 01/31/2019
 ms.keywords: PackagePathType
-f1_keywords:
-- appmodel/PackagePathType
-dev_langs:
-- c++
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: appmodel.h
@@ -22,19 +19,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.typenames: 
 req.umdf-ver: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- appmodel.h
-api_name:
-- PackagePathType
 targetos: Windows
 ms.custom: 19H1
+f1_keywords:
+ - PackagePathType
+ - appmodel/PackagePathType
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - appmodel.h
+api_name:
+ - PackagePathType
 ---
 
 # PackagePathType enumeration
+
 
 ## -description
 
@@ -56,10 +59,9 @@ Retrieve the package path in the mutable folder if the application is declared a
 
 ## -remarks
 
-An application has a mutable install folder if it uses the [windows.mutablePackageDirectories extension](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
+An application has a mutable install folder if it uses the [windows.mutablePackageDirectories extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in its package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
 
 ## -see-also
-
 
 [GetCurrentPackageInfo2](nf-appmodel-getcurrentpackageinfo2.md)
 

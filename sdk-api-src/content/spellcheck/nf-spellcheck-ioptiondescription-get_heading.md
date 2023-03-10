@@ -7,10 +7,6 @@ tech.root: Intl
 ms.assetid: 32dd23ea-d7d0-4ebe-af52-0a014b02a0c0
 ms.date: 12/05/2018
 ms.keywords: Heading property [Internationalization for Windows Applications], Heading property [Internationalization for Windows Applications],IOptionDescription interface, IOptionDescription interface [Internationalization for Windows Applications],Heading property, IOptionDescription.Heading, IOptionDescription.get_Heading, IOptionDescription::Heading, IOptionDescription::get_Heading, get_Heading, intl.ioptiondescription_heading, spellcheck/IOptionDescription::Heading, spellcheck/IOptionDescription::get_Heading
-f1_keywords:
-- spellcheck/IOptionDescription.Heading
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- IOptionDescription.Heading
-- IOptionDescription.get_Heading
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOptionDescription::get_Heading
+ - spellcheck/IOptionDescription::get_Heading
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - IOptionDescription.Heading
+ - IOptionDescription.get_Heading
 ---
 
 # IOptionDescription::get_Heading
@@ -49,31 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the heading for the spell checker option.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The heading can be used to group sets of options by placing the header on the first item of that group. This should be in the language of the spell checker or localized to the user's UI language.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>

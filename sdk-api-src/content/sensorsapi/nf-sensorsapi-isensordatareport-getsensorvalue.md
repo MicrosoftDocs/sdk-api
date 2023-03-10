@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorDataReport.GetSensorValue
 title: ISensorDataReport::GetSensorValue (sensorsapi.h)
 description: Retrieves a single data field value from the data report.
+helpviewer_keywords: ["GetSensorValue","GetSensorValue method","GetSensorValue method","ISensorDataReport interface","ISensorDataReport interface","GetSensorValue method","ISensorDataReport.GetSensorValue","ISensorDataReport::GetSensorValue","sensorsapi/ISensorDataReport::GetSensorValue","winsensors_com_ref.isensordatareport_getsensorvalue"]
 old-location: winsensors_com_ref\isensordatareport_getsensorvalue.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: cd4aab72-558c-4f56-a9c1-b10213823c28
 ms.date: 12/05/2018
 ms.keywords: GetSensorValue, GetSensorValue method, GetSensorValue method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValue method, ISensorDataReport.GetSensorValue, ISensorDataReport::GetSensorValue, sensorsapi/ISensorDataReport::GetSensorValue, winsensors_com_ref.isensordatareport_getsensorvalue
-f1_keywords:
-- sensorsapi/ISensorDataReport.GetSensorValue
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorDataReport.GetSensorValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorDataReport::GetSensorValue
+ - sensorsapi/ISensorDataReport::GetSensorValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorDataReport.GetSensorValue
 ---
 
 # ISensorDataReport::GetSensorValue
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a single data field value from the data report.
 
-
 ## -parameters
-
-
-
 
 ### -param pKey [in]
 
 <b>REFPROPERTYKEY</b> indicating the data field to retrieve.
 
-
 ### -param pValue [out]
 
 Address of a <b>PROPVARIANT</b> that receives the data field value.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,33 +106,18 @@ NULL was passed in for pValue.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Platform-defined data field <b>PROPERTYKEY</b>s are defined in Sensors.h.
 
 
 #### Examples
 
-For an example of how to retrieve a sensor data field value, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/retrieving-sensor-data-fields">Retrieving Sensor Data Values</a>.
+For an example of how to retrieve a sensor data field value, see <a href="/windows/desktop/SensorsAPI/retrieving-sensor-data-fields">Retrieving Sensor Data Values</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>

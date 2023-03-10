@@ -1,16 +1,13 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_BoundaryRight
 title: IInertiaProcessor::put_BoundaryRight (manipulations.h)
-description: The BoundaryRight property limits how far towards the right of the screen the target object can move.
+description: The BoundaryRight property limits how far towards the right of the screen the target object can move. (Put)
+helpviewer_keywords: ["BoundaryRight property [Windows Touch]","BoundaryRight property [Windows Touch]","IInertiaProcessor interface","IInertiaProcessor interface [Windows Touch]","BoundaryRight property","IInertiaProcessor.BoundaryRight","IInertiaProcessor.put_BoundaryRight","IInertiaProcessor::BoundaryRight","IInertiaProcessor::get_BoundaryRight","IInertiaProcessor::put_BoundaryRight","manipulations/IInertiaProcessor::BoundaryRight","manipulations/IInertiaProcessor::get_BoundaryRight","manipulations/IInertiaProcessor::put_BoundaryRight","put_BoundaryRight","wintouch.iinertiaprocessor_rightboundary"]
 old-location: wintouch\iinertiaprocessor_rightboundary.htm
 tech.root: wintouch
 ms.assetid: ff8e0602-4e35-40ad-afae-a03046dda954
 ms.date: 12/05/2018
 ms.keywords: BoundaryRight property [Windows Touch], BoundaryRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryRight property, IInertiaProcessor.BoundaryRight, IInertiaProcessor.put_BoundaryRight, IInertiaProcessor::BoundaryRight, IInertiaProcessor::get_BoundaryRight, IInertiaProcessor::put_BoundaryRight, manipulations/IInertiaProcessor::BoundaryRight, manipulations/IInertiaProcessor::get_BoundaryRight, manipulations/IInertiaProcessor::put_BoundaryRight, put_BoundaryRight, wintouch.iinertiaprocessor_rightboundary
-f1_keywords:
-- manipulations/IInertiaProcessor.BoundaryRight
-dev_langs:
-- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- manipulations.h
-api_name:
-- IInertiaProcessor.BoundaryRight
-- IInertiaProcessor.get_BoundaryRight
-- IInertiaProcessor.put_BoundaryRight
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInertiaProcessor::put_BoundaryRight
+ - manipulations/IInertiaProcessor::put_BoundaryRight
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - manipulations.h
+api_name:
+ - IInertiaProcessor.BoundaryRight
+ - IInertiaProcessor.get_BoundaryRight
+ - IInertiaProcessor.put_BoundaryRight
 ---
 
 # IInertiaProcessor::put_BoundaryRight
@@ -50,46 +52,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BoundaryRight</b> property limits how far towards the right of the screen the target object can move.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom">BoundaryBottom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom">BoundaryBottom</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryleft">BoundaryLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryleft">BoundaryLeft</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarytop">BoundaryTop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarytop">BoundaryTop</a>
+<a href="/windows/desktop/wintouch/handling-inertia-in-unmanaged-code">Handling Inertia in Unmanaged Code</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/handling-inertia-in-unmanaged-code">Handling Inertia in Unmanaged Code</a>
+<a href="/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor">IInertiaProcessor</a>
+<a href="/windows/desktop/wintouch/inertia-mechanics">Inertia Mechanics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/inertia-mechanics">Inertia Mechanics</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>

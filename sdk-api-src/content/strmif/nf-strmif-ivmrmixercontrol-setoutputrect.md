@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRMixerControl.SetOutputRect
 title: IVMRMixerControl::SetOutputRect (strmif.h)
 description: The SetOutputRect method sets the position of this stream within the composition rectangle.
+helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetOutputRect method","IVMRMixerControl.SetOutputRect","IVMRMixerControl::SetOutputRect","IVMRMixerControlSetMixingPrefs","SetOutputRect","SetOutputRect method [DirectShow]","SetOutputRect method [DirectShow]","IVMRMixerControl interface","dshow.ivmrmixercontrol_setoutputrect","strmif/IVMRMixerControl::SetOutputRect"]
 old-location: dshow\ivmrmixercontrol_setoutputrect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e7e1689c-03b4-457e-8d4c-6d59a70c42af
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetOutputRect method, IVMRMixerControl.SetOutputRect, IVMRMixerControl::SetOutputRect, IVMRMixerControlSetMixingPrefs, SetOutputRect, SetOutputRect method [DirectShow], SetOutputRect method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setoutputrect, strmif/IVMRMixerControl::SetOutputRect
-f1_keywords:
-- strmif/IVMRMixerControl.SetOutputRect
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl.SetOutputRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl::SetOutputRect
+ - strmif/IVMRMixerControl::SetOutputRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl.SetOutputRect
 ---
 
 # IVMRMixerControl::SetOutputRect
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetOutputRect</code> method sets the position of this stream within the composition rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwStreamID [in]
 
 Specifies the input stream.
 
-
 ### -param pRect [in]
 
-Pointer to a [NORMALIZEDRECT](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-normalizedrect) structure that specifies the position of the rectangle with composition space.
-
+Pointer to a [NORMALIZEDRECT](/windows/win32/api/strmif/ns-strmif-normalizedrect) structure that specifies the position of the rectangle with composition space.
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -105,39 +95,23 @@ The pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Because this rectangle exists in compositional space, there is no such thing as an "invalid" rectangle. For example, set left greater than right to mirror the video in the x direction. Specifying an empty rectangle turns off this stream.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getoutputrect">IVMRMixerControl::GetOutputRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixercontrol-getoutputrect">IVMRMixerControl::GetOutputRect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

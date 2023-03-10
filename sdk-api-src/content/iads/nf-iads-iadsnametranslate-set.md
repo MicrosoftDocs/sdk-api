@@ -2,15 +2,12 @@
 UID: NF:iads.IADsNameTranslate.Set
 title: IADsNameTranslate::Set (iads.h)
 description: Directs the directory service to set up a specified object for name translation.
+helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","Set method","IADsNameTranslate.Set","IADsNameTranslate::Set","Set","Set method [ADSI]","Set method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_set","adsi.iadsnametranslate__set","adsi.iadsnametranslate_set","iads/IADsNameTranslate::Set"]
 old-location: adsi\iadsnametranslate_set.htm
 tech.root: adsi
 ms.assetid: 1c126333-3d5c-4ba3-8c66-de778e26488f
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],Set method, IADsNameTranslate.Set, IADsNameTranslate::Set, Set, Set method [ADSI], Set method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_set, adsi.iadsnametranslate__set, adsi.iadsnametranslate_set, iads/IADsNameTranslate::Set
-f1_keywords:
-- iads/IADsNameTranslate.Set
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsNameTranslate.Set
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsNameTranslate::Set
+ - iads/IADsNameTranslate::Set
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsNameTranslate.Set
 ---
 
 # IADsNameTranslate::Set
@@ -48,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IADsNameTranslate::Set</b> method directs the directory service to set up a specified object for name translation. To set the names and format of multiple objects, use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsnametranslate::SetEx</a>.
-
+The <b>IADsNameTranslate::Set</b> method directs the directory service to set up a specified object for name translation. To set the names and format of multiple objects, use  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsnametranslate::SetEx</a>.
 
 ## -parameters
 
-
-
-
 ### -param lnSetType
 
-The format of the name of a directory object. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
-
+The format of the name of a directory object. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>.
 
 ### -param bstrADsPath
 
 The object name, for example, "CN=Administrator, CN=users, DC=Fabrikam, DC=com".
 
-
 ## -returns
-
-
 
 This method supports the standard <b>HRESULT</b> return values, including:
 
-
-
-
 ## -remarks
 
+Before calling this method to set the object name, you should have established a connection to the directory service using either  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> or  <a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a>.
 
-
-Before calling this method to set the object name, you should have established a connection to the directory service using either  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a>.
-
-You can use the <b>IADsNameTranslate::Set</b> method to set name translation for objects residing on the directory server. When the referral chasing is on, this method will also set any object found on other servers. For more information about referral chasing, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>.
+You can use the <b>IADsNameTranslate::Set</b> method to set name translation for objects residing on the directory server. When the referral chasing is on, this method will also set any object found on other servers. For more information about referral chasing, see  <a href="/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>.
 
 
 #### Examples
@@ -157,37 +145,26 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::Set</b> m
 </html>
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
+<a href="/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsnametranslate-property-methods">IADsNameTranslate Property Methods</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-init">IADsNameTranslate::Init</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-initex">IADsNameTranslate::InitEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsnametranslate-setex">IADsNameTranslate::SetEx</a>

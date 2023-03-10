@@ -1,16 +1,13 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetGestureStatus
 title: IInkCollector::SetGestureStatus (msinkaut.h)
-description: Modifies the interest of the object or control in a known gesture.
+description: Modifies the interest of the object or control in a known gesture. (IInkCollector.SetGestureStatus)
+helpviewer_keywords: ["7bab227f-d095-48e8-856f-6446e62826dd","IInkCollector interface [Tablet PC]","SetGestureStatus method","IInkCollector.SetGestureStatus","IInkCollector::SetGestureStatus","SetGestureStatus","SetGestureStatus method [Tablet PC]","SetGestureStatus method [Tablet PC]","IInkCollector interface","msinkaut/IInkCollector::SetGestureStatus","tablet.inkcollector_setgesturestatus"]
 old-location: tablet\inkcollector_setgesturestatus.htm
 tech.root: tablet
 ms.assetid: 7bab227f-d095-48e8-856f-6446e62826dd
 ms.date: 12/05/2018
 ms.keywords: 7bab227f-d095-48e8-856f-6446e62826dd, IInkCollector interface [Tablet PC],SetGestureStatus method, IInkCollector.SetGestureStatus, IInkCollector::SetGestureStatus, SetGestureStatus, SetGestureStatus method [Tablet PC], SetGestureStatus method [Tablet PC],IInkCollector interface, msinkaut/IInkCollector::SetGestureStatus, tablet.inkcollector_setgesturestatus
-f1_keywords:
-- msinkaut/IInkCollector.SetGestureStatus
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCollector.SetGestureStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCollector::SetGestureStatus
+ - msinkaut/IInkCollector::SetGestureStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCollector.SetGestureStatus
 ---
 
 # IInkCollector::SetGestureStatus
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Modifies the interest of the object or control in a known gesture.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Gesture [in]
 
 The gesture that you want to set the status of.
 
-
 ### -param Listen [in]
 
 <b>VARIANT_TRUE</b> to indicate that the gesture is being used or <b>VARIANT_FALSE</b> if it is being ignored.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -160,47 +150,31 @@ Cannot allocate memory operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To get the interest of the object or control in a known gesture, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus</a> method.
 
+The <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture ID is not supported by the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control and returns an error. Passing invalid Gesture IDs does not return an error for InkEdit, but fails for <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, and <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>.
 
-To get the interest of the object or control in a known gesture, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus</a> method.
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a> gesture ID is not supported by the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control and returns an error. Passing invalid Gesture IDs does not return an error for InkEdit, but fails for <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>.
-
-For the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, this method should only be called if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns <a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkeditstatus">IES_Idle</a>.
-
-
-
+For the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control, this method should only be called if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status</a> property returns <a href="/windows/desktop/api/inked/ne-inked-inkeditstatus">IES_Idle</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/tablet/inkcollector-gesture">Gesture Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture Event</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getgesturestatus">GetGestureStatus Method</a>
+<a href="../msinkaut/nn-msinkaut-iinkcollector.md">IInkCollector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>

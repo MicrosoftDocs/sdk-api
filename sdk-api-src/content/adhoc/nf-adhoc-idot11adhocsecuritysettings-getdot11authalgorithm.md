@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
 title: IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm (adhoc.h)
 description: Gets the authentication algorithm associated with the security settings.
+helpviewer_keywords: ["GetDot11AuthAlgorithm","GetDot11AuthAlgorithm method [NativeWIFI]","GetDot11AuthAlgorithm method [NativeWIFI]","IDot11AdHocSecuritySettings interface","IDot11AdHocSecuritySettings interface [NativeWIFI]","GetDot11AuthAlgorithm method","IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm","IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm","adhoc/IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm","nwifi.idot11adhocsecuritysettings_getdot11authalgorithm"]
 old-location: nwifi\idot11adhocsecuritysettings_getdot11authalgorithm.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 87ba445a-1ad7-49da-aa61-ed72d118e517
 ms.date: 12/05/2018
 ms.keywords: GetDot11AuthAlgorithm, GetDot11AuthAlgorithm method [NativeWIFI], GetDot11AuthAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11AuthAlgorithm method, IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm, IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11authalgorithm
-f1_keywords:
-- adhoc/IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm
+ - adhoc/IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
 ---
 
 # IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the authentication algorithm associated with the security settings. The authentication algorithm is used to authenticate machines and users connecting to the ad hoc network associated with an interface. 
-
+Gets the authentication algorithm associated with the security settings. The authentication algorithm is used to authenticate machines and users connecting to the ad hoc network associated with an interface.
 
 ## -parameters
 
-
-
-
 ### -param pAuth [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> value that specifies the authentication algorithm.
-
+A pointer to a <a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_auth_algorithm">DOT11_ADHOC_AUTH_ALGORITHM</a> value that specifies the authentication algorithm.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -129,22 +123,11 @@ The pointer <i>pAuth</i> is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11cipheralgorithm">IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11cipheralgorithm">IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm</a>

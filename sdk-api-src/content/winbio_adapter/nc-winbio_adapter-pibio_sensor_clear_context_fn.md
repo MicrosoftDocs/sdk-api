@@ -1,16 +1,13 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_CLEAR_CONTEXT_FN
 title: PIBIO_SENSOR_CLEAR_CONTEXT_FN (winbio_adapter.h)
-description: Prepares the processing pipeline of the biometric unit for a new operation.
+description: PIBIO_SENSOR_CLEAR_CONTEXT_FN (winbio_adapter.h) prepares the processing pipeline of the biometric unit for a new operation.
+helpviewer_keywords: ["PIBIO_SENSOR_CLEAR_CONTEXT_FN","PIBIO_SENSOR_CLEAR_CONTEXT_FN callback","SensorAdapterClearContext","SensorAdapterClearContext callback function [Windows Biometric Framework API]","secbiomet.sensoradapterclearcontext","winbio_adapter/SensorAdapterClearContext"]
 old-location: secbiomet\sensoradapterclearcontext.htm
 tech.root: SecBioMet
 ms.assetid: a0743004-aa79-41d8-87c7-2a1b6f00a1f2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: PIBIO_SENSOR_CLEAR_CONTEXT_FN, PIBIO_SENSOR_CLEAR_CONTEXT_FN callback, SensorAdapterClearContext, SensorAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.sensoradapterclearcontext, winbio_adapter/SensorAdapterClearContext
-f1_keywords:
-- winbio_adapter/SensorAdapterClearContext
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- SensorAdapterClearContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_SENSOR_CLEAR_CONTEXT_FN
+ - winbio_adapter/PIBIO_SENSOR_CLEAR_CONTEXT_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - SensorAdapterClearContext
 ---
 
 # PIBIO_SENSOR_CLEAR_CONTEXT_FN callback function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to prepare the processing pipeline of the biometric unit for a new operation. This function should flush temporary data from the sensor context and place the sensor adapter into a well-defined initial state.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -85,14 +79,8 @@ The <i>Pipeline</i> argument cannot be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Your implementation of the <b>SensorAdapterClearContext</b> function should clear the sample buffer.
 
@@ -180,25 +168,14 @@ SensorAdapterClearContext(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a>
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_clear_context_fn">StorageAdapterClearContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_clear_context_fn">StorageAdapterClearContext</a>

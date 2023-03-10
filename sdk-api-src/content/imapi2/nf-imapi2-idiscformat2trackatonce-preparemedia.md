@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.PrepareMedia
 title: IDiscFormat2TrackAtOnce::PrepareMedia (imapi2.h)
-description: Locks the current media for exclusive access.
+description: Locks the current media for exclusive access. (IDiscFormat2TrackAtOnce.PrepareMedia)
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","PrepareMedia method","IDiscFormat2TrackAtOnce.PrepareMedia","IDiscFormat2TrackAtOnce::PrepareMedia","PrepareMedia","PrepareMedia method [IMAPI]","PrepareMedia method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_preparemedia","imapi2/IDiscFormat2TrackAtOnce::PrepareMedia"]
 old-location: imapi\idiscformat2trackatonce_preparemedia.htm
 tech.root: imapi
 ms.assetid: 29a0a857-c515-4265-b0b6-6e2048f3de18
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],PrepareMedia method, IDiscFormat2TrackAtOnce.PrepareMedia, IDiscFormat2TrackAtOnce::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_preparemedia, imapi2/IDiscFormat2TrackAtOnce::PrepareMedia
-f1_keywords:
-- imapi2/IDiscFormat2TrackAtOnce.PrepareMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2TrackAtOnce.PrepareMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2TrackAtOnce::PrepareMedia
+ - imapi2/IDiscFormat2TrackAtOnce::PrepareMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2TrackAtOnce.PrepareMedia
 ---
 
 # IDiscFormat2TrackAtOnce::PrepareMedia
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks the current media for exclusive access.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -409,53 +402,37 @@ Value: 0xC0AA050F
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Before calling this method, you must call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname">IDiscFormat2TrackAtOnce::put_ClientName</a> method. 
 
+Also, you must call the <b>IDiscFormat2TrackAtOnce::PrepareMedia</b> method before calling the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">IDiscFormat2TrackAtOnce::AddAudioTrack</a> method. 
 
-Before calling this method, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_clientname">IDiscFormat2TrackAtOnce::put_ClientName</a> method. 
+After the write is complete or you cancel the write operation, you must call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a> method to release the lock.
 
-Also, you must call the <b>IDiscFormat2TrackAtOnce::PrepareMedia</b> method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-addaudiotrack">IDiscFormat2TrackAtOnce::AddAudioTrack</a> method. 
-
-After the write is complete or you cancel the write operation, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a> method to release the lock.
-
-Note that Media Change Notification (MCN) and the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a> property become read-only until the session is closed.
-
-
-
+Note that Media Change Notification (MCN) and the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a> property become read-only until the session is closed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-put_donotfinalizemedia">IDiscFormat2TrackAtOnce::put_DoNotFinalizeMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">IDiscRecorder2::DisableMcn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-disablemcn">IDiscRecorder2::DisableMcn</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-enablemcn">IDiscRecorder2::EnableMcn</a>

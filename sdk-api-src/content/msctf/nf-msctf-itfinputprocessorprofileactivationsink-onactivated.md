@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfileActivationSink.OnActivated
 title: ITfInputProcessorProfileActivationSink::OnActivated (msctf.h)
 description: The ITfInputProcessorProfileActivationSink::OnActivated method is a callback that is called when an input processor profile is activated or deactivated.
+helpviewer_keywords: ["ITfInputProcessorProfileActivationSink interface [Text Services Framework]","OnActivated method","ITfInputProcessorProfileActivationSink.OnActivated","ITfInputProcessorProfileActivationSink::OnActivated","OnActivated","OnActivated method [Text Services Framework]","OnActivated method [Text Services Framework]","ITfInputProcessorProfileActivationSink interface","TF_IPSINK_FLAG_ACTIVE","TF_PROFILETYPE_INPUTPROCESSOR","TF_PROFILETYPE_KEYBOARDLAYOUT","msctf/ITfInputProcessorProfileActivationSink::OnActivated","tsf.itfinputprocessorprofileactivationsink_onactivated"]
 old-location: tsf\itfinputprocessorprofileactivationsink_onactivated.htm
 tech.root: TSF
 ms.assetid: d171cf73-b409-4501-a956-06867c20f214
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileActivationSink interface [Text Services Framework],OnActivated method, ITfInputProcessorProfileActivationSink.OnActivated, ITfInputProcessorProfileActivationSink::OnActivated, OnActivated, OnActivated method [Text Services Framework], OnActivated method [Text Services Framework],ITfInputProcessorProfileActivationSink interface, TF_IPSINK_FLAG_ACTIVE, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileActivationSink::OnActivated, tsf.itfinputprocessorprofileactivationsink_onactivated
-f1_keywords:
-- msctf/ITfInputProcessorProfileActivationSink.OnActivated
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfileActivationSink.OnActivated
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfileActivationSink::OnActivated
+ - msctf/ITfInputProcessorProfileActivationSink::OnActivated
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfileActivationSink.OnActivated
 ---
 
 # ITfInputProcessorProfileActivationSink::OnActivated
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The ITfInputProcessorProfileActivationSink::OnActivated method is a callback that is called when an input processor profile is activated or deactivated.
 
-
 ## -parameters
-
-
-
 
 ### -param dwProfileType [in]
 
@@ -87,33 +84,26 @@ This is a keyboard layout.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param langid [in]
 
 [in] Specifies the language id of the profile.
 
-
 ### -param clsid [in]
 
 [in] Specifies the CLSID of the text service. If <i>dwProfileType</i> is TF_PROFILETYPE_KEYBOARDLAYOUT, this is CLSID_NULL.
-
 
 ### -param catid [in]
 
 [in] Specifies the category of this text service. This category is GUID_TFCAT_TIP_KEYBOARD, GUID_TFCAT_TIP_SPEECH, GUID_TFCAT_TIP_HANDWRITING or something in GUID_TFCAT_CATEGORY_OF_TIP. If <i>dwProfileType</i> is TF_PROFILETYPE_KEYBOARDLAYOUT, this is GUID_NULL.
 
-
 ### -param guidProfile [in]
 
 [in] Specifies the GUID to identify the profile. If <i>dwProfileType</i> is TF_PROFILETYPE_KEYBOARDLAYOUT, this is GUID_NULL.
 
-
 ### -param hkl [in]
 
 [in] Specifies the keyboard layout handle of this profile. If <i>dwProfileType</i> is TF_PROFILETYPE_ INPUTPROCESSOR, this is <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -135,14 +125,8 @@ This is on if this profile is activated.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The TSF manager ignores the return value of this method.
-
-
 

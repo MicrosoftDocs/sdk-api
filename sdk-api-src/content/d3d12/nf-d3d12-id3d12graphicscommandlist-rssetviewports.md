@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.RSSetViewports
 title: ID3D12GraphicsCommandList::RSSetViewports (d3d12.h)
-description: Bind an array of viewports to the rasterizer stage of the pipeline.
+description: Bind an array of viewports to the rasterizer stage of the pipeline. (ID3D12GraphicsCommandList.RSSetViewports)
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","RSSetViewports method","ID3D12GraphicsCommandList.RSSetViewports","ID3D12GraphicsCommandList::RSSetViewports","RSSetViewports","RSSetViewports method","RSSetViewports method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::RSSetViewports","direct3d12.id3d12graphicscommandlist_rssetviewports"]
 old-location: direct3d12\id3d12graphicscommandlist_rssetviewports.htm
 tech.root: direct3d12
 ms.assetid: 1ACFD260-1CE5-484C-83DD-021E8D895EBB
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,RSSetViewports method, ID3D12GraphicsCommandList.RSSetViewports, ID3D12GraphicsCommandList::RSSetViewports, RSSetViewports, RSSetViewports method, RSSetViewports method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::RSSetViewports, direct3d12.id3d12graphicscommandlist_rssetviewports
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.RSSetViewports
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.RSSetViewports
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::RSSetViewports
+ - d3d12/ID3D12GraphicsCommandList::RSSetViewports
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.RSSetViewports
 ---
 
 # ID3D12GraphicsCommandList::RSSetViewports
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Bind an array of viewports to the rasterizer stage of the pipeline.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param NumViewports [in]
 
@@ -64,44 +60,25 @@ Type: <b>UINT</b>
 
 Number of viewports to bind.
             The range of valid values is (0, D3D12_VIEWPORT_AND_SCISSORRECT_OBJECT_COUNT_PER_PIPELINE).
-          
-
 
 ### -param pViewports [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport">D3D12_VIEWPORT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport">D3D12_VIEWPORT</a>*</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport">D3D12_VIEWPORT</a> structures to bind to the device.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
+An array of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport">D3D12_VIEWPORT</a> structures to bind to the device.
 
 ## -remarks
-
-
 
 All viewports must be set atomically as one operation. Any viewports not defined by the call are disabled.
         
 
-Which viewport to use is determined by the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
+Which viewport to use is determined by the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
-<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_viewport">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
-      </div>
-<div> </div>
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
         
 
 
@@ -163,20 +140,11 @@ void D3D12HelloTriangle::PopulateCommandList()
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

@@ -2,15 +2,12 @@
 UID: NF:ehstorapi.IEnhancedStorageACT.GetAuthorizationState
 title: IEnhancedStorageACT::GetAuthorizationState (ehstorapi.h)
 description: Returns the current authorization state of the ACT.
+helpviewer_keywords: ["GetAuthorizationState","GetAuthorizationState method [Enhanced Storage]","GetAuthorizationState method [Enhanced Storage]","IEnhancedStorageACT interface","IEnhancedStorageACT interface [Enhanced Storage]","GetAuthorizationState method","IEnhancedStorageACT.GetAuthorizationState","IEnhancedStorageACT::GetAuthorizationState","ehstorapi/IEnhancedStorageACT::GetAuthorizationState","enstor.ienhancedstorageact_getauthorizationstate"]
 old-location: enstor\ienhancedstorageact_getauthorizationstate.htm
 tech.root: enstor
 ms.assetid: 79615cae-cdd1-43bc-9954-108084ea692b
 ms.date: 12/05/2018
 ms.keywords: GetAuthorizationState, GetAuthorizationState method [Enhanced Storage], GetAuthorizationState method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetAuthorizationState method, IEnhancedStorageACT.GetAuthorizationState, IEnhancedStorageACT::GetAuthorizationState, ehstorapi/IEnhancedStorageACT::GetAuthorizationState, enstor.ienhancedstorageact_getauthorizationstate
-f1_keywords:
-- ehstorapi/IEnhancedStorageACT.GetAuthorizationState
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageACT.GetAuthorizationState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageACT::GetAuthorizationState
+ - ehstorapi/IEnhancedStorageACT::GetAuthorizationState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageACT.GetAuthorizationState
 ---
 
 # IEnhancedStorageACT::GetAuthorizationState
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the current authorization state of the ACT.
-
 
 ## -parameters
 
-
-
-
 ### -param pState [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a> that specifies the current authorization state of the ACT. 
-
+Pointer to a <a href="/windows/desktop/api/ehstorapi/ns-ehstorapi-act_authorization_state">ACT_AUTHORIZATION_STATE</a> that specifies the current authorization state of the ACT.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,18 +90,7 @@ The current authorization state was retrieved successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>

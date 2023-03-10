@@ -2,12 +2,10 @@
 UID: NE:d3d12.D3D12_DRED_ALLOCATION_TYPE
 title: D3D12_DRED_ALLOCATION_TYPE
 description: Congruent with, and numerically equivalent to, 3D12DDI_HANDLETYPE enumeration values.
+tech.root: direct3d12
+helpviewer_keywords: ["D3D12_DRED_ALLOCATION_TYPE","D3D12_DRED_ALLOCATION_TYPE enumeration","d3d12/D3D12_DRED_ALLOCATION_TYPE","d3d12/D3D12_DRED_ALLOCATION_TYPE enumeration","direct3d12.d3d12_dred_allocation_type"]
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ALLOCATION_TYPE, D3D12_DRED_ALLOCATION_TYPE enumeration, d3d12/D3D12_DRED_ALLOCATION_TYPE, d3d12/D3D12_DRED_ALLOCATION_TYPE enumeration, direct3d12.d3d12_dred_allocation_type
-f1_keywords:
-- d3d12/D3D12_DRED_ALLOCATION_TYPE
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -15,23 +13,29 @@ req.header: d3d12.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_DRED_ALLOCATION_TYPE
 req.umdf-ver: 
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_DRED_ALLOCATION_TYPE
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_DRED_ALLOCATION_TYPE
+ - d3d12/D3D12_DRED_ALLOCATION_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_DRED_ALLOCATION_TYPE
 ---
 
 # D3D12_DRED_ALLOCATION_TYPE enumeration
+
 
 ## -description
 
@@ -99,3 +103,4 @@ Congruent with, and numerically equivalent to, [3D12DDI_HANDLETYPE enumeration](
 
 * [Core enumerations](/windows/desktop/direct3d12/direct3d-12-enumerations)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

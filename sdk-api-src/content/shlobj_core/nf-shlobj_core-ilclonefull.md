@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.ILCloneFull
 title: ILCloneFull function (shlobj_core.h)
 description: Clones a full, or absolute, ITEMIDLIST structure.
+helpviewer_keywords: ["ILCloneFull","ILCloneFull function [Windows Shell]","_shell_ILCloneFull","shell.ILCloneFull","shlobj_core/ILCloneFull"]
 old-location: shell\ILCloneFull.htm
 tech.root: shell
 ms.assetid: 60af0eb7-306a-45f8-b5ce-eb6451f380d5
 ms.date: 12/05/2018
 ms.keywords: ILCloneFull, ILCloneFull function [Windows Shell], _shell_ILCloneFull, shell.ILCloneFull, shlobj_core/ILCloneFull
-f1_keywords:
-- shlobj_core/ILCloneFull
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- shlobj_core.h
-api_name:
-- ILCloneFull
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILCloneFull
+ - shlobj_core/ILCloneFull
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - shlobj_core.h
+api_name:
+ - ILCloneFull
 ---
 
 # ILCloneFull function
@@ -48,38 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Clones a full, or absolute, <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
-
+Clones a full, or absolute, <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
 Type: <b>PCUIDLIST_ABSOLUTE</b>
 
-A pointer to the full, or absolute, <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be cloned.
-
+A pointer to the full, or absolute, <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be cloned.
 
 ## -returns
 
-
-
 Type: <b>PIDLIST_ABSOLUTE</b>
 
-A pointer to a copy of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
-
-
-
+A pointer to a copy of the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i>.
 
 ## -remarks
 
-
-
-When you are finished with the cloned <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, release it with <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to avoid memory leaks.
-
-
-
+When you are finished with the cloned <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure, release it with <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to avoid memory leaks.

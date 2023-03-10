@@ -2,6 +2,7 @@
 UID: NF:shobjidl.IInitializeNetworkFolder.Initialize
 title: IInitializeNetworkFolder::Initialize (shobjidl.h)
 description: Initializes a network folder, as specified.
+helpviewer_keywords: ["IInitializeNetworkFolder interface [Windows Shell]","Initialize method","IInitializeNetworkFolder.Initialize","IInitializeNetworkFolder::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeNetworkFolder interface","_shell_IInitializeNetworkFolder_Initialize","shell.IInitializeNetworkFolder_Initialize","shobjidl/IInitializeNetworkFolder::Initialize"]
 old-location: shell\IInitializeNetworkFolder_Initialize.htm
 tech.root: shell
 ms.assetid: a547b6f9-a4cc-4924-97f3-9fe08e6efc06
@@ -68,7 +69,7 @@ The Shell namespace location for this data source, as an IDList.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The target namespace location, as an IDList. This is used when the data source is aliased into the namespace. This parameter specifies the location of the network item that the data source will represent. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">InitializeEx</a> and in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> see the <i>pidlTargetFolder</i>   definition for more information.
+The target namespace location, as an IDList. This is used when the data source is aliased into the namespace. This parameter specifies the location of the network item that the data source will represent. See <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">InitializeEx</a> and in <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a> see the <i>pidlTargetFolder</i>   definition for more information.
 
 
 
@@ -83,7 +84,7 @@ The display type of the network resource this data source will represent. This i
 
 Type: <b>LPCWSTR</b>
 
-The network resource name. for example, \\server or \\server\share. this is passed to the WNet in the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpRemoteName</i> field. 
+The network resource name. for example, \\server or \\server\share. this is passed to the WNet in the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpRemoteName</i> field. 
 
 
 
@@ -91,7 +92,7 @@ The network resource name. for example, \\server or \\server\share. this is pass
 
 Type: <b>LPCWSTR</b>
 
-Optional network provider, as in the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpProvider</i> field.
+Optional network provider, as in the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpProvider</i> field.
 
 
 
@@ -101,7 +102,7 @@ Optional network provider, as in the <a href="https://docs.microsoft.com/windows
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 
 
@@ -111,20 +112,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iinitializenetworkfolder">IInitializeNetworkFolder</a>
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iinitializenetworkfolder">IInitializeNetworkFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">InitializeEx</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex">InitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>
+<a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-persist_folder_target_info">PERSIST_FOLDER_TARGET_INFO</a>
  
 
  
-

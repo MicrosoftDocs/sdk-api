@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaKeys.get_KeySystem
 title: IMFMediaKeys::get_KeySystem (mfmediaengine.h)
 description: Gets the key system string the IMFMediaKeys object was created with.
+helpviewer_keywords: ["IMFMediaKeys interface [Media Foundation]","get_KeySystem method","IMFMediaKeys.get_KeySystem","IMFMediaKeys::get_KeySystem","get_KeySystem","get_KeySystem method [Media Foundation]","get_KeySystem method [Media Foundation]","IMFMediaKeys interface","mf.imfmediakeys_get_keysystem","mfmediaengine/IMFMediaKeys::get_KeySystem"]
 old-location: mf\imfmediakeys_get_keysystem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d60ee85b-b5fc-4d06-a3a2-f61ff3635d99
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeys interface [Media Foundation],get_KeySystem method, IMFMediaKeys.get_KeySystem, IMFMediaKeys::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeys interface, mf.imfmediakeys_get_keysystem, mfmediaengine/IMFMediaKeys::get_KeySystem
-f1_keywords:
-- mfmediaengine/IMFMediaKeys.get_KeySystem
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaKeys.get_KeySystem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaKeys::get_KeySystem
+ - mfmediaengine/IMFMediaKeys::get_KeySystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaKeys.get_KeySystem
 ---
 
 # IMFMediaKeys::get_KeySystem
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the key system string the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a> object was created with.
-
+Gets the key system string the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a> object was created with.
 
 ## -parameters
-
-
-
 
 ### -param keySystem
 
 The string name of the key system.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a>

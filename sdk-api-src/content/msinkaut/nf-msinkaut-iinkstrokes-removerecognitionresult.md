@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkStrokes.RemoveRecognitionResult
 title: IInkStrokes::RemoveRecognitionResult (msinkaut.h)
 description: Removes the RecognitionResult that is associated with the InkStrokes collection.
+helpviewer_keywords: ["1a1a2027-e0b7-40c5-b396-b6b4039d6b5b","IInkStrokes interface [Tablet PC]","RemoveRecognitionResult method","IInkStrokes.RemoveRecognitionResult","IInkStrokes::RemoveRecognitionResult","RemoveRecognitionResult","RemoveRecognitionResult method [Tablet PC]","RemoveRecognitionResult method [Tablet PC]","IInkStrokes interface","msinkaut/IInkStrokes::RemoveRecognitionResult","tablet.inkstrokes_removerecognitionresult"]
 old-location: tablet\inkstrokes_removerecognitionresult.htm
 tech.root: tablet
 ms.assetid: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b
 ms.date: 12/05/2018
 ms.keywords: 1a1a2027-e0b7-40c5-b396-b6b4039d6b5b, IInkStrokes interface [Tablet PC],RemoveRecognitionResult method, IInkStrokes.RemoveRecognitionResult, IInkStrokes::RemoveRecognitionResult, RemoveRecognitionResult, RemoveRecognitionResult method [Tablet PC], RemoveRecognitionResult method [Tablet PC],IInkStrokes interface, msinkaut/IInkStrokes::RemoveRecognitionResult, tablet.inkstrokes_removerecognitionresult
-f1_keywords:
-- msinkaut/IInkStrokes.RemoveRecognitionResult
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokes.RemoveRecognitionResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokes::RemoveRecognitionResult
+ - msinkaut/IInkStrokes::RemoveRecognitionResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokes.RemoveRecognitionResult
 ---
 
 # IInkStrokes::RemoveRecognitionResult
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Removes the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult">RecognitionResult</a> that is associated with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
-
-
-
-
-## -parameters
-
-
-
+Removes the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-get_recognitionresult">RecognitionResult</a> that is associated with the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,31 +87,15 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To set a recognition result on an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-setresultonstrokes">SetResultOnStrokes</a> method.
-
-
-
+To set a recognition result on an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection, use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-setresultonstrokes">SetResultOnStrokes</a> method.
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

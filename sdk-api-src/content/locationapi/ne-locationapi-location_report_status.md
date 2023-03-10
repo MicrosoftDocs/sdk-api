@@ -2,15 +2,12 @@
 UID: NE:locationapi.LOCATION_REPORT_STATUS
 title: LOCATION_REPORT_STATUS (locationapi.h)
 description: Defines possible status for new reports of a particular report type.
+helpviewer_keywords: ["LOCATION_REPORT_STATUS","LOCATION_REPORT_STATUS enumeration [WinLocation]","REPORT_ACCESS_DENIED","REPORT_ERROR","REPORT_INITIALIZING","REPORT_NOT_SUPPORTED","REPORT_RUNNING","WinLocation_COM_Ref.location_report_status","locationapi/LOCATION_REPORT_STATUS","locationapi/REPORT_ACCESS_DENIED","locationapi/REPORT_ERROR","locationapi/REPORT_INITIALIZING","locationapi/REPORT_NOT_SUPPORTED","locationapi/REPORT_RUNNING"]
 old-location: winlocation_com_ref\location_report_status.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 440e64cb-d09c-47cd-9434-8d4479fa52e2
 ms.date: 12/05/2018
 ms.keywords: LOCATION_REPORT_STATUS, LOCATION_REPORT_STATUS enumeration [WinLocation], REPORT_ACCESS_DENIED, REPORT_ERROR, REPORT_INITIALIZING, REPORT_NOT_SUPPORTED, REPORT_RUNNING, WinLocation_COM_Ref.location_report_status, locationapi/LOCATION_REPORT_STATUS, locationapi/REPORT_ACCESS_DENIED, locationapi/REPORT_ERROR, locationapi/REPORT_INITIALIZING, locationapi/REPORT_NOT_SUPPORTED, locationapi/REPORT_RUNNING
-f1_keywords:
-- locationapi/LOCATION_REPORT_STATUS
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- LocationApi.h
-api_name:
-- LOCATION_REPORT_STATUS
 targetos: Windows
 req.typenames: LOCATION_REPORT_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LOCATION_REPORT_STATUS
+ - locationapi/LOCATION_REPORT_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - LocationApi.h
+api_name:
+ - LOCATION_REPORT_STATUS
 ---
 
 # LOCATION_REPORT_STATUS enumeration
@@ -48,53 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
-Defines possible status for new reports of a particular report type. 
-
+Defines possible status for new reports of a particular report type.
 
 ## -enum-fields
 
-
-
-
-### -field REPORT_NOT_SUPPORTED
+### -field REPORT_NOT_SUPPORTED:0
 
 The requested report type is not supported by the API. No location providers of the requested type are installed.
 
-
-### -field REPORT_ERROR
+### -field REPORT_ERROR:1
 
 There was an error when creating the report, or location providers for the requested type are unable to provide any data. Location providers might be currently unavailable, or location providers cannot obtain any data. For example, this state may occur when a GPS sensor is indoors and no satellites are in view.
 
+### -field REPORT_ACCESS_DENIED:2
 
-### -field REPORT_ACCESS_DENIED
+ No permissions have been granted to access this report type. Call <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">ILocation::RequestPermissions</a>.
 
- No permissions have been granted to access this report type. Call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">ILocation::RequestPermissions</a>.
-
-
-### -field REPORT_INITIALIZING
+### -field REPORT_INITIALIZING:3
 
 The report is being initialized.
 
-
-### -field REPORT_RUNNING
+### -field REPORT_RUNNING:4
 
 The report is running. New location data for the requested report type is available.
 
-
 ## -remarks
 
-
-
-These values represent status for new reports. The most recent reports remain available through <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the reported status. If the status is <b>REPORT_RUNNING</b>, the data in a report is new. Otherwise, <b>ILocation::GetReport</b> provides cached data if cached data is available.
+These values represent status for new reports. The most recent reports remain available through <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the reported status. If the status is <b>REPORT_RUNNING</b>, the data in a report is new. Otherwise, <b>ILocation::GetReport</b> provides cached data if cached data is available.
 
 
 #### Examples
 
-The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_STATUS</b> values from <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">ILocation::GetReportStatus</a>.
+The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_STATUS</b> values from <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">ILocation::GetReportStatus</a>.
 
 
 ```cpp
@@ -133,7 +123,7 @@ The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_S
 ```
 
 
-The following code is a sample implementation of the callback function <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">ILocationEvents::OnStatusChanged</a>.  This implementation prints out messages when there is a  change in the status of latitude/longitude reports.
+The following code is a sample implementation of the callback function <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">ILocationEvents::OnStatusChanged</a>.  This implementation prints out messages when there is a  change in the status of latitude/longitude reports.
 
 
 ```cpp
@@ -170,7 +160,3 @@ STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT
 }
 
 ```
-
-
-
-

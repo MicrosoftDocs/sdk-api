@@ -2,15 +2,12 @@
 UID: NN:imessagedispatcher.IMessageDispatcher
 title: IMessageDispatcher (imessagedispatcher.h)
 description: Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.
+helpviewer_keywords: ["IMessageDispatcher","IMessageDispatcher interface [COM]","IMessageDispatcher interface [COM]","described","com.imessagedispatcher","imessagedispatcher/IMessageDispatcher"]
 old-location: com\imessagedispatcher.htm
 tech.root: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
 ms.date: 12/05/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
-f1_keywords:
-- imessagedispatcher/IMessageDispatcher
-dev_langs:
-- c++
 req.header: imessagedispatcher.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imessagedispatcher.h
-api_name:
-- IMessageDispatcher
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMessageDispatcher
+ - imessagedispatcher/IMessageDispatcher
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imessagedispatcher.h
+api_name:
+ - IMessageDispatcher
 ---
 
 # IMessageDispatcher interface
@@ -48,33 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMessageDispatcher</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMessageDispatcher</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMessageDispatcher</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imessagedispatcher/nf-imessagedispatcher-imessagedispatcher-pumpmessages">PumpMessages</a>
-</td>
-<td align="left" width="63%">
-Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.
-
-</td>
-</tr>
-</table> 
+The <b>IMessageDispatcher</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMessageDispatcher</b> also has these types of members:
 

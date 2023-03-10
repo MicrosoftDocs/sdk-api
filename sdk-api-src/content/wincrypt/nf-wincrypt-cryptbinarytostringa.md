@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptBinaryToStringA
 title: CryptBinaryToStringA function (wincrypt.h)
-description: Converts an array of bytes into a formatted string.
+description: Converts an array of bytes into a formatted string. (ANSI)
+helpviewer_keywords: ["CRYPT_STRING_BASE64", "CRYPT_STRING_BASE64HEADER", "CRYPT_STRING_BASE64REQUESTHEADER", "CRYPT_STRING_BASE64X509CRLHEADER", "CRYPT_STRING_BINARY", "CRYPT_STRING_HEX", "CRYPT_STRING_HEXADDR", "CRYPT_STRING_HEXASCII", "CRYPT_STRING_HEXASCIIADDR", "CRYPT_STRING_HEXRAW", "CRYPT_STRING_NOCR", "CRYPT_STRING_NOCRLF", "CRYPT_STRING_STRICT", "CryptBinaryToStringA", "wincrypt/CryptBinaryToStringA"]
 old-location: security\cryptbinarytostring.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e6bdf931-fba3-4a33-b22e-5f818f565842
 ms.date: 12/05/2018
 ms.keywords: CRYPT_STRING_BASE64, CRYPT_STRING_BASE64HEADER, CRYPT_STRING_BASE64REQUESTHEADER, CRYPT_STRING_BASE64X509CRLHEADER, CRYPT_STRING_BINARY, CRYPT_STRING_HEX, CRYPT_STRING_HEXADDR, CRYPT_STRING_HEXASCII, CRYPT_STRING_HEXASCIIADDR, CRYPT_STRING_HEXRAW, CRYPT_STRING_NOCR, CRYPT_STRING_NOCRLF, CRYPT_STRING_STRICT, CryptBinaryToString, CryptBinaryToString function [Security], CryptBinaryToStringA, CryptBinaryToStringW, _crypto2_cryptbinarytostring, security.cryptbinarytostring, wincrypt/CryptBinaryToString, wincrypt/CryptBinaryToStringA, wincrypt/CryptBinaryToStringW
-f1_keywords:
-- wincrypt/CryptBinaryToString
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptBinaryToString
-- CryptBinaryToStringA
-- CryptBinaryToStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptBinaryToStringA
+ - wincrypt/CryptBinaryToStringA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptBinaryToString
+ - CryptBinaryToStringA
+ - CryptBinaryToStringW
 ---
 
 # CryptBinaryToStringA function
@@ -50,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptBinaryToString</b> function converts an array of bytes into a formatted string.
 
-
 ## -parameters
-
-
-
 
 ### -param pbBinary [in]
 
 A pointer to the array of bytes to be converted into a string.
 
-
 ### -param cbBinary [in]
 
 The number of elements in the <i>pbBinary</i> array.
-
 
 ### -param dwFlags [in]
 
@@ -140,7 +135,7 @@ Hexadecimal only.
 </dl>
 </td>
 <td width="60%">
-Hexadecimal, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
+Hexadecimal, with <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> character display.
 
 </td>
 </tr>
@@ -151,7 +146,7 @@ Hexadecimal, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a
 </dl>
 </td>
 <td width="60%">
-Base64, with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> CRL beginning and ending headers.
+Base64, with <a href="/windows/desktop/SecGloss/x-gly">X.509</a> CRL beginning and ending headers.
 
 </td>
 </tr>
@@ -250,46 +245,32 @@ Only use the line feed (LF) character (0x0A) for a new line. The default behavio
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszString [out, optional]
 
 A pointer to a buffer that receives the converted string. To calculate the number of characters that must be allocated to hold the returned string, set this parameter to <b>NULL</b>. The function will place the required number of characters, including the terminating <b>NULL</b> character, in the value pointed to by <i>pcchString</i>.
 
-
 ### -param pcchString [in, out]
 
 A pointer to a <b>DWORD</b> variable that contains the size, in <b>TCHAR</b>s, of the <i>pszString</i> buffer. If <i>pszString</i> is <b>NULL</b>, the function calculates the length of the return string (including the terminating null character) in <b>TCHAR</b>s and returns it in this parameter. If <i>pszString</i> is not <b>NULL</b> and big enough, the function converts the binary data into a specified string format including the terminating null character, but <i>pcchString</i> receives the length in <b>TCHAR</b>s, not including the terminating null character.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>).
 
-
-
-
 ## -remarks
-
-
 
 With the exception of when <b>CRYPT_STRING_BINARY</b> encoding is used, all strings are appended with a new line sequence. By default, the new line sequence is a CR/LF pair (0x0D/0x0A). If the <i>dwFlags</i> parameter contains the <b>CRYPT_STRING_NOCR</b> flag, then the new line sequence is a LF character (0x0A). If the <i>dwFlags</i> parameter contains the <b>CRYPT_STRING_NOCRLF</b> flag, then no new line sequence is appended to the string.
 
 
 
 
+
+> [!NOTE]
+> The wincrypt.h header defines CryptBinaryToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a>

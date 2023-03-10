@@ -2,15 +2,12 @@
 UID: NF:sbtsv.ITsSbResourcePluginStore.AcquireTargetLock
 title: ITsSbResourcePluginStore::AcquireTargetLock (sbtsv.h)
 description: Locks a target.
+helpviewer_keywords: ["AcquireTargetLock","AcquireTargetLock method [Remote Desktop Services]","AcquireTargetLock method [Remote Desktop Services]","ITsSbResourcePluginStore interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","AcquireTargetLock method","ITsSbResourcePluginStore.AcquireTargetLock","ITsSbResourcePluginStore::AcquireTargetLock","sbtsv/ITsSbResourcePluginStore::AcquireTargetLock","termserv.itssbresourcepluginstore_acquiretargetlock"]
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
 tech.root: TermServ
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6
 ms.date: 12/05/2018
 ms.keywords: AcquireTargetLock, AcquireTargetLock method [Remote Desktop Services], AcquireTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],AcquireTargetLock method, ITsSbResourcePluginStore.AcquireTargetLock, ITsSbResourcePluginStore::AcquireTargetLock, sbtsv/ITsSbResourcePluginStore::AcquireTargetLock, termserv.itssbresourcepluginstore_acquiretargetlock
-f1_keywords:
-- sbtsv/ITsSbResourcePluginStore.AcquireTargetLock
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourcePluginStore.AcquireTargetLock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourcePluginStore::AcquireTargetLock
+ - sbtsv/ITsSbResourcePluginStore::AcquireTargetLock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourcePluginStore.AcquireTargetLock
 ---
 
 # ITsSbResourcePluginStore::AcquireTargetLock
@@ -48,57 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks a target.
 
-
 ## -parameters
-
-
-
 
 ### -param targetName [in]
 
 The name of the target to lock.
 
-
 ### -param dwTimeout [in]
 
 The timeout for the operation, in milliseconds.
 
-
 ### -param ppContext [out]
 
-Returns a pointer to the context of the lock. To release the lock, supply this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock">ReleaseTargetLock</a> method.
-
+Returns a pointer to the context of the lock. To release the lock, supply this pointer to the <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock">ReleaseTargetLock</a> method.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-After the lock is acquired, the calling thread is assumed to have exclusive access to the target object and therefore no other thread (within the same machine) can update it. Therefore the calling thread must call the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock">ReleaseTargetLock</a> method as soon as it has made the necessary updates to the target object.
+After the lock is acquired, the calling thread is assumed to have exclusive access to the target object and therefore no other thread (within the same machine) can update it. Therefore the calling thread must call the <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock">ReleaseTargetLock</a> method as soon as it has made the necessary updates to the target object.
 
 <div class="alert"><b>Important</b>  this lock does not completely prevent target objects from being modified externally if more than one Connection Broker exists in the deployment. The calling thread must be prepared to handle a failure gracefully and retry the target update.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>

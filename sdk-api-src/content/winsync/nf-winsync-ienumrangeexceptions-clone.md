@@ -1,16 +1,13 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Clone
 title: IEnumRangeExceptions::Clone (winsync.h)
-description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+description: Clones the enumerator and returns a new enumerator that is in the same state as the current one. (IEnumRangeExceptions.Clone)
+helpviewer_keywords: ["Clone","Clone method [Windows Sync]","Clone method [Windows Sync]","IEnumRangeExceptions interface","IEnumRangeExceptions interface [Windows Sync]","Clone method","IEnumRangeExceptions.Clone","IEnumRangeExceptions::Clone","winsync.ienumrangeexceptions_clone","winsync/IEnumRangeExceptions::Clone"]
 old-location: winsync\ienumrangeexceptions_clone.htm
 tech.root: winsync
 ms.assetid: b9ba5d49-754f-4eb0-972b-67e9a6a41994
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumRangeExceptions interface, IEnumRangeExceptions interface [Windows Sync],Clone method, IEnumRangeExceptions.Clone, IEnumRangeExceptions::Clone, winsync.ienumrangeexceptions_clone, winsync/IEnumRangeExceptions::Clone
-f1_keywords:
-- winsync/IEnumRangeExceptions.Clone
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IEnumRangeExceptions.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumRangeExceptions::Clone
+ - winsync/IEnumRangeExceptions::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IEnumRangeExceptions.Clone
 ---
 
 # IEnumRangeExceptions::Clone
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Returns the newly cloned enumerator.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -101,18 +95,7 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumrangeexceptions">IEnumRangeExceptions Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumrangeexceptions">IEnumRangeExceptions Interface</a>

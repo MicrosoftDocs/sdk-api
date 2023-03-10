@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiDatabaseMergeA
 title: MsiDatabaseMergeA function (msiquery.h)
-description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.
+description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows. (ANSI)
+helpviewer_keywords: ["MsiDatabaseMergeA", "msiquery/MsiDatabaseMergeA"]
 old-location: setup\msidatabasemerge.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
-f1_keywords:
-- msiquery/MsiDatabaseMerge
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDatabaseMerge
-- MsiDatabaseMergeA
-- MsiDatabaseMergeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDatabaseMergeA
+ - msiquery/MsiDatabaseMergeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDatabaseMerge
+ - MsiDatabaseMergeA
+ - MsiDatabaseMergeW
 ---
 
 # MsiDatabaseMergeA function
@@ -50,34 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MsiDatabaseMerge</b> function merges two databases together, which allows duplicate rows. 
-
+<b>MsiDatabaseMerge</b> function merges two databases together, which allows duplicate rows.
 
 ## -parameters
 
-
-
-
 ### -param hDatabase [in]
 
-The handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
-
+The handle to the database obtained from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
 ### -param hDatabaseMerge [in]
 
-The handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to merge into the base database.
-
+The handle to the database obtained from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to merge into the base database.
 
 ### -param szTableName [in]
 
 The name of the table to receive merge conflict information.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiDatabaseMerge</b> function returns one of the following values:
@@ -144,24 +136,18 @@ Schema difference between the two databases.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>MsiDatabaseMerge</b> function and the <a href="https://docs.microsoft.com/windows/desktop/Msi/database-merge">Merge</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-object">Database</a> object cannot be used to merge a module that is included in the installation package. They should not be used to merge 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-modules">Merge Modules</a> into a Windows Installer package.  To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in the <a href="https://docs.microsoft.com/windows/desktop/Msi/applying-merge-modules">Applying Merge Modules</a> topic.
+The <b>MsiDatabaseMerge</b> function and the <a href="/windows/desktop/Msi/database-merge">Merge</a> method of the 
+<a href="/windows/desktop/Msi/database-object">Database</a> object cannot be used to merge a module that is included in the installation package. They should not be used to merge 
+<a href="/windows/desktop/Msi/merge-modules">Merge Modules</a> into a Windows Installer package.  To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in the <a href="/windows/desktop/Msi/applying-merge-modules">Applying Merge Modules</a> topic.
 
 <b>MsiDatabaseMerge</b> does not copy over embedded 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/cabinet-files">Cabinet Files</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/embedded-transforms">embedded transforms</a> from the reference database into the target database. Embedded data streams that are listed in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/binary-table">Binary Table</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/icon-table">Icon Table</a> are copied from the reference database to the target database. Storage embedded in the reference database are not copied to the target database.
+<a href="/windows/desktop/Msi/cabinet-files">Cabinet Files</a> or 
+<a href="/windows/desktop/Msi/embedded-transforms">embedded transforms</a> from the reference database into the target database. Embedded data streams that are listed in the 
+<a href="/windows/desktop/Msi/binary-table">Binary Table</a> or 
+<a href="/windows/desktop/Msi/icon-table">Icon Table</a> are copied from the reference database to the target database. Storage embedded in the reference database are not copied to the target database.
 
 The 
 <b>MsiDatabaseMerge</b> function merges the data of two databases. These databases must have the same code page. 
@@ -181,7 +167,7 @@ If the data in particular rows differ, this is a row merge conflict, the install
 <tr>
 <td>Table</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/Msi/text">Text</a>
+<a href="/windows/desktop/Msi/text">Text</a>
 </td>
 <td>Y</td>
 <td>N</td>
@@ -189,7 +175,7 @@ If the data in particular rows differ, this is a row merge conflict, the install
 <tr>
 <td>NumRowMergeConflicts</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/Msi/integer">Integer</a>
+<a href="/windows/desktop/Msi/integer">Integer</a>
 </td>
 <td> </td>
 <td>N</td>
@@ -199,22 +185,19 @@ If the data in particular rows differ, this is a row merge conflict, the install
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiDatabaseMerge as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/column-definition-format">Column Definition Format</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/column-definition-format">Column Definition Format</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/database-functions">Database Management Functions</a>

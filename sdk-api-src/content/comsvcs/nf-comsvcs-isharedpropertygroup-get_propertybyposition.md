@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ISharedPropertyGroup.get_PropertyByPosition
 title: ISharedPropertyGroup::get_PropertyByPosition (comsvcs.h)
 description: Retrieves a reference to an existing shared property with the specified index.
+helpviewer_keywords: ["ISharedPropertyGroup interface [COM+]","get_PropertyByPosition method","ISharedPropertyGroup.get_PropertyByPosition","ISharedPropertyGroup::get_PropertyByPosition","_cos_ISharedPropertyGroup_get_PropertyByPosition","comsvcs/ISharedPropertyGroup::get_PropertyByPosition","cos.isharedpropertygroup_get_propertybyposition","get_PropertyByPosition","get_PropertyByPosition method [COM+]","get_PropertyByPosition method [COM+]","ISharedPropertyGroup interface"]
 old-location: cos\isharedpropertygroup_get_propertybyposition.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 186cbf9f-a01b-4331-9f18-645d9e47f106
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroup interface [COM+],get_PropertyByPosition method, ISharedPropertyGroup.get_PropertyByPosition, ISharedPropertyGroup::get_PropertyByPosition, _cos_ISharedPropertyGroup_get_PropertyByPosition, comsvcs/ISharedPropertyGroup::get_PropertyByPosition, cos.isharedpropertygroup_get_propertybyposition, get_PropertyByPosition, get_PropertyByPosition method [COM+], get_PropertyByPosition method [COM+],ISharedPropertyGroup interface
-f1_keywords:
-- comsvcs/ISharedPropertyGroup.get_PropertyByPosition
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISharedPropertyGroup.get_PropertyByPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISharedPropertyGroup::get_PropertyByPosition
+ - comsvcs/ISharedPropertyGroup::get_PropertyByPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISharedPropertyGroup.get_PropertyByPosition
 ---
 
 # ISharedPropertyGroup::get_PropertyByPosition
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a reference to an existing shared property with the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 The numeric index that was used to create the shared property that is retrieved.
 
-
 ### -param ppProperty [out]
 
 A reference to the shared property specified in the <i>Index</i> parameter, or <b>NULL</b> if the property does not exist.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and E_FAIL, as well as the following values.
 
@@ -102,22 +95,11 @@ The shared property with the index specified in the <i>Index</i> parameter does 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>

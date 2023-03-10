@@ -2,15 +2,12 @@
 UID: NF:propvarutil.InitPropVariantFromGUIDAsString
 title: InitPropVariantFromGUIDAsString function (propvarutil.h)
 description: Initializes a PROPVARIANT structure based on a GUID. The structure is initialized as VT_LPWSTR.
+helpviewer_keywords: ["InitPropVariantFromGUIDAsString","InitPropVariantFromGUIDAsString function [Windows Properties]","properties.InitPropVariantFromGUIDAsString","propvarutil/InitPropVariantFromGUIDAsString","shell.InitPropVariantFromGUIDAsString","shell_InitPropVariantFromGUIDAsString"]
 old-location: properties\InitPropVariantFromGUIDAsString.htm
 tech.root: properties
 ms.assetid: bcc343f7-741f-4cdd-bd2f-ae4786faab0e
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromGUIDAsString, InitPropVariantFromGUIDAsString function [Windows Properties], properties.InitPropVariantFromGUIDAsString, propvarutil/InitPropVariantFromGUIDAsString, shell.InitPropVariantFromGUIDAsString, shell_InitPropVariantFromGUIDAsString
-f1_keywords:
-- propvarutil/InitPropVariantFromGUIDAsString
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- InitPropVariantFromGUIDAsString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitPropVariantFromGUIDAsString
+ - propvarutil/InitPropVariantFromGUIDAsString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - InitPropVariantFromGUIDAsString
 ---
 
 # InitPropVariantFromGUIDAsString function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as VT_LPWSTR.
-
+Initializes a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as VT_LPWSTR.
 
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
@@ -63,30 +60,21 @@ Type: <b>REFGUID</b>
 
 Reference to the source <b>GUID</b>.
 
-
 ### -param ppropvar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+When this function returns, contains the initialized <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Creates a VT_LPWSTR <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>, which formats the GUID in a form similar to <code>{c200e360-38c5-11ce-ae62-08002b2b79ef}</code>.
+Creates a VT_LPWSTR <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>, which formats the GUID in a form similar to <code>{c200e360-38c5-11ce-ae62-08002b2b79ef}</code>.
 
 
 #### Examples
@@ -107,29 +95,18 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromclsid">InitPropVariantFromCLSID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromclsid">InitPropVariantFromCLSID</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromguidasbuffer">InitPropVariantFromGUIDAsBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromguidasbuffer">InitPropVariantFromGUIDAsBuffer</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromguidasstring">InitVariantFromGUIDAsString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromguidasstring">InitVariantFromGUIDAsString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a>

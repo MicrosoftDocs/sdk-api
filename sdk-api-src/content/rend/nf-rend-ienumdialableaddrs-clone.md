@@ -1,16 +1,13 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Clone
 title: IEnumDialableAddrs::Clone (rend.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. (IEnumDialableAddrs.Clone)
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumDialableAddrs interface","IEnumDialableAddrs interface [TAPI 2.2]","Clone method","IEnumDialableAddrs.Clone","IEnumDialableAddrs::Clone","_tapi3_ienumdialableaddrs_clone","rend/IEnumDialableAddrs::Clone","tapi3.ienumdialableaddrs_clone"]
 old-location: tapi3\ienumdialableaddrs_clone.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5d05bdfb-007a-451a-bf79-f5a8e4171f85
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDialableAddrs interface, IEnumDialableAddrs interface [TAPI 2.2],Clone method, IEnumDialableAddrs.Clone, IEnumDialableAddrs::Clone, _tapi3_ienumdialableaddrs_clone, rend/IEnumDialableAddrs::Clone, tapi3.ienumdialableaddrs_clone
-f1_keywords:
-- rend/IEnumDialableAddrs.Clone
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- IEnumDialableAddrs.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDialableAddrs::Clone
+ - rend/IEnumDialableAddrs::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - IEnumDialableAddrs.Clone
 ---
 
 # IEnumDialableAddrs::Clone
@@ -48,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>Clone</b> method creates another enumerator that contains the same enumeration state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Pointer to the new 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> object.
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,29 +117,13 @@ Failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> interface returned by <b>IEnumDialableAddrs::Clone</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a> interface returned by <b>IEnumDialableAddrs::Clone</b>. The application must call <b>Release</b> on the 
 <b>IEnumDialableAddrs</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>

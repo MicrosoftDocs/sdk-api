@@ -2,15 +2,12 @@
 UID: NF:vswriter.CVssWriter.IsPartialFileSupportEnabled
 title: CVssWriter::IsPartialFileSupportEnabled (vswriter.h)
 description: The IsPartialFileSupportEnabled method determines whether partial file support is enabled or disabled.
+helpviewer_keywords: ["CVssWriter class [VSS]","IsPartialFileSupportEnabled method","CVssWriter.IsPartialFileSupportEnabled","CVssWriter::IsPartialFileSupportEnabled","IsPartialFileSupportEnabled","IsPartialFileSupportEnabled method [VSS]","IsPartialFileSupportEnabled method [VSS]","CVssWriter class","_win32_cvsswriter_ispartialfilesupportenabled","base.cvsswriter_ispartialfilesupportenabled","vswriter/CVssWriter::IsPartialFileSupportEnabled"]
 old-location: base\cvsswriter_ispartialfilesupportenabled.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: f0552573-6b67-412d-aad0-d182ee50923f
 ms.date: 12/05/2018
 ms.keywords: CVssWriter class [VSS],IsPartialFileSupportEnabled method, CVssWriter.IsPartialFileSupportEnabled, CVssWriter::IsPartialFileSupportEnabled, IsPartialFileSupportEnabled, IsPartialFileSupportEnabled method [VSS], IsPartialFileSupportEnabled method [VSS],CVssWriter class, _win32_cvsswriter_ispartialfilesupportenabled, base.cvsswriter_ispartialfilesupportenabled, vswriter/CVssWriter::IsPartialFileSupportEnabled
-f1_keywords:
-- vswriter/CVssWriter.IsPartialFileSupportEnabled
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.IsPartialFileSupportEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::IsPartialFileSupportEnabled
+ - vswriter/CVssWriter::IsPartialFileSupportEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.IsPartialFileSupportEnabled
 ---
 
 # CVssWriter::IsPartialFileSupportEnabled
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IsPartialFileSupportEnabled</b> method determines whether partial file support is enabled or disabled.
 
 <b>IsPartialFileSupportEnabled</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
-
-
-## -parameters
-
-
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -98,18 +91,7 @@ The requester supports only the backup and restore of entire files.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>

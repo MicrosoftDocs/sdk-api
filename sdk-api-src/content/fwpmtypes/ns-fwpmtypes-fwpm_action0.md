@@ -2,15 +2,12 @@
 UID: NS:fwpmtypes.FWPM_ACTION0_
 title: FWPM_ACTION0 (fwpmtypes.h)
 description: Specifies the action taken if all the filter conditions are true.
+helpviewer_keywords: ["FWPM_ACTION0","FWPM_ACTION0 structure [Filtering]","FWP_ACTION_BLOCK","FWP_ACTION_CALLOUT_INSPECTION","FWP_ACTION_CALLOUT_TERMINATING","FWP_ACTION_CALLOUT_UNKNOWN","FWP_ACTION_PERMIT","fwp.fwpm_action0_struct","fwpmtypes/FWPM_ACTION0"]
 old-location: fwp\fwpm_action0_struct.htm
 tech.root: fwp
 ms.assetid: 070e1324-d41d-4001-bf26-97465bf87f98
 ms.date: 12/05/2018
 ms.keywords: FWPM_ACTION0, FWPM_ACTION0 structure [Filtering], FWP_ACTION_BLOCK, FWP_ACTION_CALLOUT_INSPECTION, FWP_ACTION_CALLOUT_TERMINATING, FWP_ACTION_CALLOUT_UNKNOWN, FWP_ACTION_PERMIT, fwp.fwpm_action0_struct, fwpmtypes/FWPM_ACTION0
-f1_keywords:
-- fwpmtypes/FWPM_ACTION0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_ACTION0
 targetos: Windows
 req.typenames: FWPM_ACTION0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_ACTION0_
+ - fwpmtypes/FWPM_ACTION0_
+ - FWPM_ACTION0
+ - fwpmtypes/FWPM_ACTION0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_ACTION0
 ---
 
 # FWPM_ACTION0 structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FWPM_ACTION0</b> structure specifies the action taken if all the filter conditions are true. 
-
+The <b>FWPM_ACTION0</b> structure specifies the action taken if all the filter conditions are true.
 
 ## -struct-fields
-
-
-
 
 ### -field type
 
@@ -129,8 +128,6 @@ Invoke a callout that may return block or permit.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field filterType
 
@@ -138,37 +135,18 @@ An arbitrary GUID chosen by the policy provider.
 
 Available when the action does not invoke a callout, that is, <b>type</b> does not contain  <b>FWP_ACTION_FLAG_CALLOUT</b>.
 
-
 ### -field calloutKey
 
 The GUID for a valid callout in the layer.
 
 Available when the action invokes a callout, that is, <b>type</b> contains  <b>FWP_ACTION_FLAG_CALLOUT</b>.
 
-
 ### -field bitmapIndex
-
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>FWPM_ACTION0</b> is a specific implementation of FWPM_ACTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>FWPM_ACTION0</b> is a specific implementation of FWPM_ACTION. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

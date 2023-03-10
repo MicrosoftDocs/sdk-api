@@ -2,15 +2,12 @@
 UID: NF:http.HttpShutdownRequestQueue
 title: HttpShutdownRequestQueue function (http.h)
 description: Stops queuing requests for the specified request queue process.
+helpviewer_keywords: ["HttpShutdownRequestQueue","HttpShutdownRequestQueue function [HTTP]","http.httpshutdownrequestqueue","http/HttpShutdownRequestQueue"]
 old-location: http\httpshutdownrequestqueue.htm
 tech.root: http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a
 ms.date: 12/05/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
-f1_keywords:
-- http/HttpShutdownRequestQueue
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpShutdownRequestQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpShutdownRequestQueue
+ - http/HttpShutdownRequestQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpShutdownRequestQueue
 ---
 
 # HttpShutdownRequestQueue function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>HttpShutdownRequestQueue</b> function stops queuing requests for the specified request queue process. Outstanding calls to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> are canceled.
-
+The <b>HttpShutdownRequestQueue</b> function stops queuing requests for the specified request queue process. Outstanding calls to <a href="/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> are canceled.
 
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
 The handle to the request queue that is shut down. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
-
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>
 
@@ -90,25 +84,19 @@ The application does not have permission to shut down the request queue.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>HttpShutdownRequestQueue</b> cancels outstanding requests and stops all processing on the request queue process. The following steps are performed when this function is called:
 
 
 <ol>
 <li>The request queue process is marked  for cleanup and no new requests are routed to the request queue process.</li>
-<li>If the calling process is a controller, outstanding <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordemandstart">HttpWaitForDemandStart</a> calls are canceled.</li>
-<li>Pending <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> calls from the calling process are canceled.</li>
+<li>If the calling process is a controller, outstanding <a href="/windows/desktop/api/http/nf-http-httpwaitfordemandstart">HttpWaitForDemandStart</a> calls are canceled.</li>
+<li>Pending <a href="/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> calls from the calling process are canceled.</li>
 <li>Requests that are already bound to the calling process are canceled.</li>
 <li>The unreceived pending requests that are queued to the request queue process rerouted to another  request queue process. If no other request queue process is available, the pending requests are saved until the request queue is closed, or another non-controller request queue process launches.</li>
-<li>Pending <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> calls initiated by the calling process are canceled.</li>
+<li>Pending <a href="/windows/desktop/api/http/nf-http-httpwaitfordisconnect">HttpWaitForDisconnect</a> calls initiated by the calling process are canceled.</li>
 <li>Outstanding responses indicated by the calling process are not affected, they are properly completed.</li>
 </ol>
 
@@ -117,32 +105,22 @@ Be aware that if the request queue handle is shared by multiple processes,  <b>H
 
 <b>HttpShutdownRequestQueue</b> can be used by applications to recycle request queue processes. For this purpose, <b>HttpShutdownRequestQueue</b> is called prior to terminating a process that shares the request queue with other processes. After <b>HttpShutdownRequestQueue</b>  returns, the process can be safely terminated or recycled.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>

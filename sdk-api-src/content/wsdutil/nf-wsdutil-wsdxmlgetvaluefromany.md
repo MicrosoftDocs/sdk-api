@@ -2,15 +2,12 @@
 UID: NF:wsdutil.WSDXMLGetValueFromAny
 title: WSDXMLGetValueFromAny function (wsdutil.h)
 description: Retrieves a text value from a specified child element of an XML any element.
+helpviewer_keywords: ["WSDXMLGetValueFromAny","WSDXMLGetValueFromAny function","ncd.wsdxmlgetvaluefromany","wsdutil/WSDXMLGetValueFromAny"]
 old-location: ncd\wsdxmlgetvaluefromany.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 544399f6-d98d-4a57-824a-b21567262141
 ms.date: 12/05/2018
 ms.keywords: WSDXMLGetValueFromAny, WSDXMLGetValueFromAny function, ncd.wsdxmlgetvaluefromany, wsdutil/WSDXMLGetValueFromAny
-f1_keywords:
-- wsdutil/WSDXMLGetValueFromAny
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDXMLGetValueFromAny
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDXMLGetValueFromAny
+ - wsdutil/WSDXMLGetValueFromAny
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDXMLGetValueFromAny
 ---
 
 # WSDXMLGetValueFromAny function
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a text value from a specified child element of an XML <b>any</b> element. 
-
+Retrieves a text value from a specified child element of an XML <b>any</b> element.
 
 ## -parameters
-
-
-
 
 ### -param pszNamespace [in]
 
 The namespace of the element to retrieve.
 
-
 ### -param pszName [in]
 
 The name of the element to retrieve.
 
-
 ### -param pAny [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the <b>any</b> element that is the parent of the element to retrieve.
-
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the <b>any</b> element that is the parent of the element to retrieve.
 
 ### -param ppszValue [out]
 
 The text value of the element specified by <i>pszNamespace</i> and <i>pszName</i>.  The memory usage of <i>ppszValue</i> is managed elsewhere.  Consequently, the calling application should not attempt to deallocate <i>ppszValue</i>.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -133,7 +124,3 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-

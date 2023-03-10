@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetApplicationInformation
 title: SLGetApplicationInformation function (slpublic.h)
 description: Gets information about the specified application.
+helpviewer_keywords: ["SLGetApplicationInformation","SLGetApplicationInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","SL_INFO_KEY_IS_KMS","SL_INFO_KEY_KMS_CURRENT_COUNT","SL_INFO_KEY_KMS_FAILED_REQUESTS","SL_INFO_KEY_KMS_LICENSED_REQUESTS","SL_INFO_KEY_KMS_NON_GENUINE_GRACE_REQUESTS","SL_INFO_KEY_KMS_NOTIFICATION_REQUESTS","SL_INFO_KEY_KMS_OOB_GRACE_REQUESTS","SL_INFO_KEY_KMS_OOT_GRACE_REQUESTS","SL_INFO_KEY_KMS_REQUIRED_CLIENT_COUNT","SL_INFO_KEY_KMS_TOTAL_REQUESTS","SL_INFO_KEY_KMS_UNLICENSED_REQUESTS","security.slgetapplicationinformation","slpublic/SLGetApplicationInformation"]
 old-location: security\slgetapplicationinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: f745e1e1-74c8-4563-9c29-d3184d8d4f6d
 ms.date: 12/05/2018
 ms.keywords: SLGetApplicationInformation, SLGetApplicationInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_IS_KMS, SL_INFO_KEY_KMS_CURRENT_COUNT, SL_INFO_KEY_KMS_FAILED_REQUESTS, SL_INFO_KEY_KMS_LICENSED_REQUESTS, SL_INFO_KEY_KMS_NON_GENUINE_GRACE_REQUESTS, SL_INFO_KEY_KMS_NOTIFICATION_REQUESTS, SL_INFO_KEY_KMS_OOB_GRACE_REQUESTS, SL_INFO_KEY_KMS_OOT_GRACE_REQUESTS, SL_INFO_KEY_KMS_REQUIRED_CLIENT_COUNT, SL_INFO_KEY_KMS_TOTAL_REQUESTS, SL_INFO_KEY_KMS_UNLICENSED_REQUESTS, security.slgetapplicationinformation, slpublic/SLGetApplicationInformation
-f1_keywords:
-- slpublic/SLGetApplicationInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetApplicationInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetApplicationInformation
+ - slpublic/SLGetApplicationInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetApplicationInformation
 ---
 
 # SLGetApplicationInformation function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about the specified application.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pApplicationId [in]
 
 Type: <b>const SLID*</b>
 
 A pointer to the application ID.
-
 
 ### -param pwszValueName [in]
 
@@ -202,14 +197,12 @@ Total number of failed KMS requests.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the ppbValue buffer.  The following values are valid.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the ppbValue buffer.  The following values are valid.
 
 <table>
 <tr>
@@ -250,8 +243,6 @@ Binary blob
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbValue [out]
 
@@ -259,18 +250,14 @@ Type: <b>UINT*</b>
 
 A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
-
 ### -param ppbValue [out]
 
 Type: <b>PBYTE*</b>
 
 If successful, the data is returned in the buffer allocated by the SLC.       
-		When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
+		When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -306,7 +293,3 @@ The value for the input key was not found.
 </td>
 </tr>
 </table>
- 
-
-
-

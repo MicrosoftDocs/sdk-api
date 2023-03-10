@@ -2,15 +2,12 @@
 UID: NF:wlanapi.WlanDeleteProfile
 title: WlanDeleteProfile function (wlanapi.h)
 description: Deletes a wireless profile for a wireless interface on the local computer.
+helpviewer_keywords: ["WlanDeleteProfile","WlanDeleteProfile function [NativeWIFI]","nwifi.wlandeleteprofile","wlanapi/WlanDeleteProfile"]
 old-location: nwifi\wlandeleteprofile.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 2d1152ad-8106-4b8f-9856-9e6e36daa063
 ms.date: 12/05/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
-f1_keywords:
-- wlanapi/WlanDeleteProfile
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
-api_name:
-- WlanDeleteProfile
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanDeleteProfile
+ - wlanapi/WlanDeleteProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+ - WlanDeleteProfile
 ---
 
 # WlanDeleteProfile function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanDeleteProfile</b> function deletes a wireless profile for a wireless interface on  the local computer.
-
 
 ## -parameters
 
-
-
-
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
-The GUID of the interface from which to delete the profile.  
-
+The GUID of the interface from which to delete the profile.
 
 ### -param strProfileName [in]
 
@@ -74,15 +69,11 @@ The name of the profile to be deleted. Profile names are case-sensitive. This st
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied name must match the profile name derived automatically from the SSID of the network. For an infrastructure network profile, the SSID must be supplied for the profile name. For an ad hoc network profile, the supplied name must be the SSID of the ad hoc network followed by <code>-adhoc</code>.
 
-
 ### -param pReserved
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -149,14 +140,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlanDeleteProfile</b> function deletes a wireless profile for a wireless interface on  the local computer. 
 
@@ -164,7 +149,7 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanDeleteProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter for the wireless LAN profile has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-To delete a profile at the command line, use the <b>netsh wlan delete profile</b> command. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+To delete a profile at the command line, use the <b>netsh wlan delete profile</b> command. For more information, see <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
 
 #### Examples
@@ -326,33 +311,22 @@ int _cdecl wmain(int argc, WCHAR ** argv)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanrenameprofile">WlanRenameProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanrenameprofile">WlanRenameProfile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>

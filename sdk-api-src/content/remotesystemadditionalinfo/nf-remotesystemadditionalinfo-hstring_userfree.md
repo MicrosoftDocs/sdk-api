@@ -1,16 +1,13 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserFree
 title: HSTRING_UserFree function (remotesystemadditionalinfo.h)
-description: Frees resources on the server side when called by RPC stub files.
+description: The HSTRING_UserFree function frees resources on the server side when called by RPC stub files. (HSTRING_UserFree)
+helpviewer_keywords: ["HSTRING_UserFree","HSTRING_UserFree function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserFree","winrt.hstring_userfree"]
 old-location: winrt\hstring_userfree.htm
 tech.root: WinRT
 ms.assetid: E398921B-3759-47A6-A4F4-9A6CCA7ED686
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserFree, HSTRING_UserFree function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserFree, winrt.hstring_userfree
-f1_keywords:
-- remotesystemadditionalinfo/HSTRING_UserFree
-dev_langs:
-- c++
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- HSTRING_UserFree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HSTRING_UserFree
+ - remotesystemadditionalinfo/HSTRING_UserFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - HSTRING_UserFree
 ---
 
 # HSTRING_UserFree function
@@ -50,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees resources on the server side when called by RPC stub files.
-
 
 ## -parameters
 
-
-
-
-### -param arg1
+### -param unnamedParam1
 
 TBD
 
-
-### -param arg2
+### -param unnamedParam2
 
 TBD
 
@@ -80,23 +76,6 @@ The data used by RPC.
 
 The string.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
- 
-
- 
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

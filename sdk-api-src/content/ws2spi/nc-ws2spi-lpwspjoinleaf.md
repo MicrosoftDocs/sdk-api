@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPWSPJOINLEAF
 title: LPWSPJOINLEAF (ws2spi.h)
 description: The LPWSPJoinLeaf function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
+helpviewer_keywords: ["LPWSPJOINLEAF","WSPJoinLeaf","WSPJoinLeaf function [Winsock]","_win32_wspjoinleaf_2","winsock.wspjoinleaf_2","ws2spi/WSPJoinLeaf"]
 old-location: winsock\wspjoinleaf_2.htm
 tech.root: WinSock
 ms.assetid: 3b0451e2-0e4c-4da7-b16c-37c242632bdd
 ms.date: 12/05/2018
 ms.keywords: LPWSPJOINLEAF, WSPJoinLeaf, WSPJoinLeaf function [Winsock], _win32_wspjoinleaf_2, winsock.wspjoinleaf_2, ws2spi/WSPJoinLeaf
-f1_keywords:
-- ws2spi/WSPJoinLeaf
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WSPJoinLeaf
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPWSPJOINLEAF
+ - ws2spi/LPWSPJOINLEAF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WSPJoinLeaf
 ---
 
 # LPWSPJOINLEAF callback function
 
 
 ## -description
+
 The **WSPJoinLeaf** function joins a leaf node into a multipoint session, exchanges connect data, and specifies needed quality of service based on the supplied flow specifications.
 
 ## -parameters
@@ -60,41 +63,33 @@ Descriptor identifying a multipoint socket.
 Name of the peer to which the socket in the 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure is to be joined.
 
-
 ### -param namelen [in]
 
 Length of the <i>name</i>, in bytes.
-
 
 ### -param lpCallerData [in]
 
 Pointer to the user data that is to be transferred to the peer during multipoint session establishment.
 
-
 ### -param lpCalleeData [out]
 
 Pointer to the user data that is to be transferred back from the peer during multipoint session establishment.
-
 
 ### -param lpSQOS [in]
 
 Pointer to the flow specifications for socket <i>s</i>, one for each direction.
 
-
 ### -param lpGQOS [in]
 
 Reserved.
-
 
 ### -param dwFlags [in]
 
 Flags to indicate that the socket is acting as a sender, receiver, or both.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
-
 
 ## -returns
 
@@ -307,13 +302,7 @@ An attempt to join timed out without establishing a multipoint session.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 This function is used to join a leaf node to a multipoint session, and to perform a number of other ancillary operations that occur at session join time as well. If the socket, <i>s</i>, is unbound, unique values are assigned to the local association by the system, and the socket is marked as bound.
 
@@ -365,12 +354,7 @@ The <i>dwFlags</i> parameter is used to indicate whether the socket will be acti
 <div class="alert">**Note**  When connected sockets break (that is, become closed for whatever reason), they should be discarded and recreated. It is safest to assume that when things go awry for any reason on a connected socket, the Windows Sockets SPI client must discard and recreate the needed sockets in order to return to a stable point.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 [LPWSPAccept](nc-ws2spi-lpwspaccept.md)
 
@@ -393,7 +377,4 @@ The <i>dwFlags</i> parameter is used to indicate whether the socket will be acti
 
 
 [LPWSPSocket](nc-ws2spi-lpwspsocket.md)
- 
-
- 
 

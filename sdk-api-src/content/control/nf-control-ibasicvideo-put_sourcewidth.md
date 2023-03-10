@@ -2,15 +2,12 @@
 UID: NF:control.IBasicVideo.put_SourceWidth
 title: IBasicVideo::put_SourceWidth (control.h)
 description: The put_SourceWidth method sets the width of the source rectangle.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","put_SourceWidth method","IBasicVideo.put_SourceWidth","IBasicVideo::put_SourceWidth","IBasicVideoput_SourceWidth","control/IBasicVideo::put_SourceWidth","dshow.ibasicvideo_put_sourcewidth","put_SourceWidth","put_SourceWidth method [DirectShow]","put_SourceWidth method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_put_sourcewidth.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0747a1fb-42b6-452f-8a92-eb87931c004c
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceWidth method, IBasicVideo.put_SourceWidth, IBasicVideo::put_SourceWidth, IBasicVideoput_SourceWidth, control/IBasicVideo::put_SourceWidth, dshow.ibasicvideo_put_sourcewidth, put_SourceWidth, put_SourceWidth method [DirectShow], put_SourceWidth method [DirectShow],IBasicVideo interface
-f1_keywords:
-- control/IBasicVideo.put_SourceWidth
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo.put_SourceWidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo::put_SourceWidth
+ - control/IBasicVideo::put_SourceWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo.put_SourceWidth
 ---
 
 # IBasicVideo::put_SourceWidth
@@ -49,43 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_SourceWidth</code> method sets the width of the source rectangle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param SourceWidth [in]
 
 Specifies the width, in pixels.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

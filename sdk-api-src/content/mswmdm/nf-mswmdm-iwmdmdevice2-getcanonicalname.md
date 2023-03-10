@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMDevice2.GetCanonicalName
 title: IWMDMDevice2::GetCanonicalName (mswmdm.h)
 description: The GetCanonicalName method retrieves the canonical name of the device.
+helpviewer_keywords: ["GetCanonicalName","GetCanonicalName method [windows Media Device Manager]","GetCanonicalName method [windows Media Device Manager]","IWMDMDevice2 interface","IWMDMDevice2 interface [windows Media Device Manager]","GetCanonicalName method","IWMDMDevice2.GetCanonicalName","IWMDMDevice2::GetCanonicalName","IWMDMDevice2GetPnPName","mswmdm/IWMDMDevice2::GetCanonicalName","wmdm.iwmdmdevice2_getcanonicalname"]
 old-location: wmdm\iwmdmdevice2_getcanonicalname.htm
 tech.root: WMDM
 ms.assetid: 16e18a9e-315f-41a2-b895-e3e478720864
 ms.date: 12/05/2018
 ms.keywords: GetCanonicalName, GetCanonicalName method [windows Media Device Manager], GetCanonicalName method [windows Media Device Manager],IWMDMDevice2 interface, IWMDMDevice2 interface [windows Media Device Manager],GetCanonicalName method, IWMDMDevice2.GetCanonicalName, IWMDMDevice2::GetCanonicalName, IWMDMDevice2GetPnPName, mswmdm/IWMDMDevice2::GetCanonicalName, wmdm.iwmdmdevice2_getcanonicalname
-f1_keywords:
-- mswmdm/IWMDMDevice2.GetCanonicalName
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMDevice2.GetCanonicalName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDevice2::GetCanonicalName
+ - mswmdm/IWMDMDevice2::GetCanonicalName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMDevice2.GetCanonicalName
 ---
 
 # IWMDMDevice2::GetCanonicalName
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetCanonicalName</b> method retrieves the canonical name of the device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszPnPName [out]
 
 Wide-character buffer for the canonical names. This buffer must be allocated and released by the caller.
 
-
 ### -param nMaxChars [in]
 
 Integer specifying the maximum number of characters that can be placed in <i>pwszPnPName</i>, including the termination character.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -127,16 +117,10 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The application can use the retrieved canonical name to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">IWMDeviceManager2::GetDeviceFromCanonicalName</a> to find this device again.
+The application can use the retrieved canonical name to call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">IWMDeviceManager2::GetDeviceFromCanonicalName</a> to find this device again.
 
 The returned canonical name is in the format &lt; <i>PnP Device Path</i> &gt;$&lt; <i>index</i> &gt;, where <i>index</i> is a zero-based index into the device objects returned by the service provider for the specified PnP device path.
 
@@ -170,21 +154,10 @@ if (pIWMDMDevice2 != NULL)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">IWMDeviceManager2::GetDeviceFromCanonicalName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">IWMDeviceManager2::GetDeviceFromCanonicalName</a>

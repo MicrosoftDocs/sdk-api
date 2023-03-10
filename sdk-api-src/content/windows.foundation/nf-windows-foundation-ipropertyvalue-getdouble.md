@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDouble
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetDouble (windows.foundation.h)
 description: Gets the 64-bit floating point value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetDouble","GetDouble method [Windows Runtime]","GetDouble method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetDouble method","IPropertyValue.GetDouble","IPropertyValue.IPropertyValue","IPropertyValue::GetDouble","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetDouble","winrt.ipropertyvalue_getdouble"]
 old-location: winrt\ipropertyvalue_getdouble.htm
 tech.root: WinRT
 ms.assetid: 93EC7793-DAEF-4E1D-A9B8-2D79A3CBBBDC
 ms.date: 12/05/2018
 ms.keywords: GetDouble, GetDouble method [Windows Runtime], GetDouble method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDouble method, IPropertyValue.GetDouble, IPropertyValue.IPropertyValue, IPropertyValue::GetDouble, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDouble, winrt.ipropertyvalue_getdouble
-f1_keywords:
-- windows.foundation/IPropertyValue.GetDouble
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetDouble
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetDouble
+ - windows.foundation/IPropertyValue::GetDouble
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetDouble
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetDouble (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the 64-bit floating point value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the 64-bit floating point value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
@@ -63,10 +60,7 @@ Type: <b>DOUBLE*</b>
 
 The 64-bit floating point value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,27 +100,16 @@ The  property value was returned successfully.
 </dl>
 </td>
 <td width="60%">
-The type of <i>value</i> does not match the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
+The type of <i>value</i> does not match the <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdouble">IPropertyValueStatics::CreateDouble</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createdouble">IPropertyValueStatics::CreateDouble</a>

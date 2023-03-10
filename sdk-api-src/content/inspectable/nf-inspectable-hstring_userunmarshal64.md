@@ -1,16 +1,13 @@
 ---
 UID: NF:inspectable.HSTRING_UserUnmarshal64
 title: HSTRING_UserUnmarshal64 function (inspectable.h)
-description: Unmarshals an HSTRING object from the RPC buffer.
+description: The HSTRING_UserUnmarshal64 function (inspectable.h) unmarshals an HSTRING object from the RPC buffer.
+helpviewer_keywords: ["HSTRING_UserUnmarshal64","HSTRING_UserUnmarshal64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal64","winrt.hstring_userunmarshal64"]
 old-location: winrt\hstring_userunmarshal64.htm
 tech.root: WinRT
 ms.assetid: CD6F7DCD-23D8-4485-9803-142EE9730458
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserUnmarshal64, HSTRING_UserUnmarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal64, winrt.hstring_userunmarshal64
-f1_keywords:
-- inspectable/HSTRING_UserUnmarshal64
-dev_langs:
-- c++
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- HSTRING_UserUnmarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HSTRING_UserUnmarshal64
+ - inspectable/HSTRING_UserUnmarshal64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - HSTRING_UserUnmarshal64
 ---
 
 # HSTRING_UserUnmarshal64 function
@@ -50,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Unmarshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
-
+Unmarshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
-
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 The string.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -108,18 +100,7 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
- 
-
- 
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

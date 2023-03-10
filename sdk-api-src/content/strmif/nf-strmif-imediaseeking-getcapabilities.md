@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaSeeking.GetCapabilities
 title: IMediaSeeking::GetCapabilities (strmif.h)
 description: The GetCapabilities method retrieves all the seeking capabilities of the stream.
+helpviewer_keywords: ["GetCapabilities","GetCapabilities method [DirectShow]","GetCapabilities method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetCapabilities method","IMediaSeeking.GetCapabilities","IMediaSeeking::GetCapabilities","IMediaSeekingGetCapabilities","dshow.imediaseeking_getcapabilities","strmif/IMediaSeeking::GetCapabilities"]
 old-location: dshow\imediaseeking_getcapabilities.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 84dd3c21-9c72-4433-bd03-29520dc138ca
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [DirectShow], GetCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCapabilities method, IMediaSeeking.GetCapabilities, IMediaSeeking::GetCapabilities, IMediaSeekingGetCapabilities, dshow.imediaseeking_getcapabilities, strmif/IMediaSeeking::GetCapabilities
-f1_keywords:
-- strmif/IMediaSeeking.GetCapabilities
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::GetCapabilities
+ - strmif/IMediaSeeking::GetCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.GetCapabilities
 ---
 
 # IMediaSeeking::GetCapabilities
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetCapabilities</code> method retrieves all the seeking capabilities of the stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pCapabilities [out]
 
-Pointer to a variable that receives a bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags.
-
+Pointer to a variable that receives a bitwise combination of <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,18 +91,12 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method returns information on all the seeking capabilities of the stream. Examine <i>pCapabilities</i> by performing a separate bitwise-AND operation on each AM_SEEKING_SEEKING_CAPABILITIES value you are interested in.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -134,19 +119,11 @@ if (dwCaps &amp; AM_SEEKING_CanPlayBackwards)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
- 
-
- 
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
 

@@ -1,16 +1,13 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Skip
 title: IEnumDot11AdHocInterfaces::Skip (adhoc.h)
-description: Skips over the next specified number of elements in the enumeration sequence.
+description: Skips over the next specified number of elements in the enumeration sequence. (IEnumDot11AdHocInterfaces.Skip)
+helpviewer_keywords: ["IEnumDot11AdHocInterfaces interface [NativeWIFI]","Skip method","IEnumDot11AdHocInterfaces.Skip","IEnumDot11AdHocInterfaces::Skip","Skip","Skip method [NativeWIFI]","Skip method [NativeWIFI]","IEnumDot11AdHocInterfaces interface","adhoc/IEnumDot11AdHocInterfaces::Skip","nwifi.ienumdot11adhocinterfaces_skip"]
 old-location: nwifi\ienumdot11adhocinterfaces_skip.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: e5c61005-3de0-420e-a1ff-2c5f08bcc67f
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Skip method, IEnumDot11AdHocInterfaces.Skip, IEnumDot11AdHocInterfaces::Skip, Skip, Skip method [NativeWIFI], Skip method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Skip, nwifi.ienumdot11adhocinterfaces_skip
-f1_keywords:
-- adhoc/IEnumDot11AdHocInterfaces.Skip
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IEnumDot11AdHocInterfaces.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumDot11AdHocInterfaces::Skip
+ - adhoc/IEnumDot11AdHocInterfaces::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IEnumDot11AdHocInterfaces.Skip
 ---
 
 # IEnumDot11AdHocInterfaces::Skip
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips over the next specified number of elements in the enumeration sequence.
-
 
 ## -parameters
 
-
-
-
 ### -param cElt [in]
 
-The number of elements to skip. 
-
-
+The number of elements to skip.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -97,18 +90,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>

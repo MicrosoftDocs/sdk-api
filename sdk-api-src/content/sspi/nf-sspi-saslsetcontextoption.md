@@ -2,15 +2,12 @@
 UID: NF:sspi.SaslSetContextOption
 title: SaslSetContextOption function (sspi.h)
 description: Sets the value of the specified property for the specified SASL context.
+helpviewer_keywords: ["SASL_OPTION_AUTHZ_PROCESSING","SASL_OPTION_AUTHZ_STRING","SASL_OPTION_RECV_SIZE","SASL_OPTION_SEND_SIZE","SaslSetContextOption","SaslSetContextOption function [Security]","security.saslsetcontextoption","sspi/SaslSetContextOption"]
 old-location: security\saslsetcontextoption.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 3c3b1209-b0de-4100-8dfe-53ea314b790b
 ms.date: 12/05/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslSetContextOption, SaslSetContextOption function [Security], security.saslsetcontextoption, sspi/SaslSetContextOption
-f1_keywords:
-- sspi/SaslSetContextOption
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Secur32.dll
-api_name:
-- SaslSetContextOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SaslSetContextOption
+ - sspi/SaslSetContextOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Secur32.dll
+api_name:
+ - SaslSetContextOption
 ---
 
 # SaslSetContextOption function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SaslSetContextOption</b> function sets the value of the specified property for the specified SASL context.
 
-
 ## -parameters
-
-
-
 
 ### -param ContextHandle [in]
 
 Handle of the SASL context.
-
 
 ### -param Option [in]
 
@@ -120,22 +116,16 @@ Maximum message data size that can be transmitted.  This value is  the maximum b
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Value [in]
 
 A pointer to a buffer that contains the value to set to  the requested property. For the data type of the buffer for each value of the <i>Option</i> parameter, see the <i>Option</i> parameter.
 
-
 ### -param Size [in]
 
 The size, in bytes, of the buffer specified by the <i>Value</i> parameter.
 
-
 ## -returns
-
-
 
 If the call is completed successfully, this function returns SEC_E_OK. The following table shows some possible error return values.
 
@@ -178,7 +168,4 @@ The option specified in the <i>Option</i> parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
 

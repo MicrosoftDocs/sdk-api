@@ -2,15 +2,12 @@
 UID: NF:fileapi.SetFileApisToANSI
 title: SetFileApisToANSI function (fileapi.h)
 description: Causes the file I/O functions to use the ANSI character set code page for the current process.
+helpviewer_keywords: ["SetFileApisToANSI","SetFileApisToANSI function [Files]","_win32_setfileapistoansi","base.setfileapistoansi","fileapi/SetFileApisToANSI","fs.setfileapistoansi"]
 old-location: fs\setfileapistoansi.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 72b19773-9663-4cf8-90d3-656ee2785601
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToANSI, SetFileApisToANSI function [Files], _win32_setfileapistoansi, base.setfileapistoansi, fileapi/SetFileApisToANSI, fs.setfileapistoansi
-f1_keywords:
-- fileapi/SetFileApisToANSI
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-Ms-Win-Core-File-L1-2-2.dll
-- KernelBase.dll
-api_name:
-- SetFileApisToANSI
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFileApisToANSI
+ - fileapi/SetFileApisToANSI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-Ms-Win-Core-File-L1-2-2.dll
+ - KernelBase.dll
+api_name:
+ - SetFileApisToANSI
 ---
 
 # SetFileApisToANSI function
@@ -50,30 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes the file I/O functions to use the ANSI character set code page for the current 
     process. This function is useful for 8-bit console input and output operations.
 
 
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
 
 ## -remarks
-
-
 
 The file I/O functions whose code page is set by <b>SetFileApisToANSI</b> are those 
     functions exported by KERNEL32.DLL that accept or return a file name. 
@@ -81,27 +65,27 @@ The file I/O functions whose code page is set by <b>SetFileApisToANSI</b> are th
     computer.
 
 The <b>SetFileApisToANSI</b> function complements the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function, which causes the same set 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function, which causes the same set 
     of file I/O functions to use the OEM character set code page.
 
 The 8-bit console functions use the OEM code page by default. All other functions use the ANSI code page by 
     default. This means that strings returned by the console functions may not be processed correctly by other 
     functions, and vice versa. For example, if the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFileA</a> function returns a string that contains 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFileA</a> function returns a string that contains 
     certain extended ANSI characters, and the 8-bit console functions are set to use the OEM code page, then the 
-    <a href="https://docs.microsoft.com/windows/console/writeconsole">WriteConsoleA</a> function does not display the string 
+    <a href="/windows/console/writeconsole">WriteConsoleA</a> function does not display the string 
     properly.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-arefileapisansi">AreFileApisANSI</a> function to determine 
+Use the <a href="/windows/desktop/api/fileapi/nf-fileapi-arefileapisansi">AreFileApisANSI</a> function to determine 
     which code page the set of file I/O functions is currently using. Use the 
-    <a href="https://docs.microsoft.com/windows/console/setconsolecp">SetConsoleCP</a> and 
-    <a href="https://docs.microsoft.com/windows/console/setconsoleoutputcp">SetConsoleOutputCP</a> functions to set the code page 
+    <a href="/windows/console/setconsolecp">SetConsoleCP</a> and 
+    <a href="/windows/console/setconsoleoutputcp">SetConsoleOutputCP</a> functions to set the code page 
     for the 8-bit console functions.
 
 To solve the problem of code page incompatibility, it is best to use Unicode for console applications. Console 
     applications that use Unicode are much more versatile than those that use 8-bit console functions. Barring that 
     solution, a console application can call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function to cause the 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function to cause the 
     set of file I/O functions to use OEM character set strings rather than ANSI character set strings. Use the 
     <b>SetFileApisToANSI</b> function to set those functions back to the ANSI code 
     page.
@@ -169,42 +153,31 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-arefileapisansi">AreFileApisANSI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-arefileapisansi">AreFileApisANSI</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFileA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFileA</a>
+<a href="/windows/console/setconsolecp">SetConsoleCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/console/setconsolecp">SetConsoleCP</a>
+<a href="/windows/console/setconsoleoutputcp">SetConsoleOutputCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/console/setconsoleoutputcp">SetConsoleOutputCP</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/console/writeconsole">WriteConsoleA</a>
- 
-
- 
-
+<a href="/windows/console/writeconsole">WriteConsoleA</a>

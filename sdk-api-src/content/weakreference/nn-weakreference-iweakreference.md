@@ -2,15 +2,12 @@
 UID: NN:weakreference.IWeakReference
 title: IWeakReference (weakreference.h)
 description: Represents a weak reference to an object.
+helpviewer_keywords: ["IWeakReference","IWeakReference interface [Windows Runtime]","IWeakReference interface [Windows Runtime]","described","weakreference/IWeakReference","winrt.iweakreference"]
 old-location: winrt\iweakreference.htm
 tech.root: WinRT
 ms.assetid: fae8bf21-2a38-4e98-9a11-89c548da9e95
 ms.date: 12/05/2018
 ms.keywords: IWeakReference, IWeakReference interface [Windows Runtime], IWeakReference interface [Windows Runtime],described, weakreference/IWeakReference, winrt.iweakreference
-f1_keywords:
-- weakreference/IWeakReference
-dev_langs:
-- c++
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows
@@ -28,53 +25,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WeakReference.h
-api_name:
-- IWeakReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWeakReference
+ - weakreference/IWeakReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WeakReference.h
+api_name:
+ - IWeakReference
 ---
-
-# IWeakReference interface
-
 
 ## -description
 
-
 Represents a weak reference to an object.
 
+> [!NOTE]
+> With only a few exceptions, weak reference support is on by default for Windows Runtime types that you consume or author in [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/), WRL, and C++/CX. **Windows.UI.Composition** and **Windows.Devices.Input.PenDevice** are examples of exceptions&mdash;that is, namespaces where weak reference support is *not* on for those types.
+> 
+> If you're authoring types, then see [Weak references in C++/WinRT](/windows/uwp/cpp-and-winrt-apis/weak-references#weak-references-in-cwinrt).
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWeakReference</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWeakReference</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWeakReference</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nf-weakreference-iweakreference-resolve(refiid_iinspectable)">Resolve</a>
-</td>
-<td align="left" width="63%">
-Resolves a weak reference by returning a strong reference to the specified object.
-
-</td>
-</tr>
-</table> 
-
+The <b>IWeakReference</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 

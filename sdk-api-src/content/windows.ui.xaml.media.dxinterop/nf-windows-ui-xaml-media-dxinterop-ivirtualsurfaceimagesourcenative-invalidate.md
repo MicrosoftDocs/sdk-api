@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Invalidate
-title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
+title: IVirtualSurfaceImageSourceNative::Invalidate (windows.ui.xaml.media.dxinterop.h)
 description: Invalidates a specific region of the shared surface for drawing.
+helpviewer_keywords: ["IVirtualSurfaceImageSourceNative interface [Windows Runtime]","Invalidate method","IVirtualSurfaceImageSourceNative.Invalidate","IVirtualSurfaceImageSourceNative.xaml","IVirtualSurfaceImageSourceNative::Invalidate","IVirtualSurfaceImageSourceNative::xaml","Invalidate","Invalidate method [Windows Runtime]","Invalidate method [Windows Runtime]","IVirtualSurfaceImageSourceNative interface","windows/IVirtualSurfaceImageSourceNative::Invalidate","winrt.ivirtualsurfaceimagesourcenative_invalidate"]
 old-location: winrt\ivirtualsurfaceimagesourcenative_invalidate.htm
 tech.root: WinRT
 ms.assetid: BC3BC983-9A78-4B0F-927D-06B299031C80
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],Invalidate method, IVirtualSurfaceImageSourceNative.Invalidate, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::Invalidate, IVirtualSurfaceImageSourceNative::xaml, Invalidate, Invalidate method [Windows Runtime], Invalidate method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::Invalidate, winrt.ivirtualsurfaceimagesourcenative_invalidate
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.Invalidate
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -28,60 +25,47 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- IVirtualSurfaceImageSourceNative.Invalidate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVirtualSurfaceImageSourceNative::Invalidate
+ - windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative::Invalidate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - IVirtualSurfaceImageSourceNative.Invalidate
 ---
 
-# IVirtualSurfaceImageSourceNative::xaml
+# IVirtualSurfaceImageSourceNative::Invalidate (windows.ui.xaml.media.dxinterop.h)
 
 
 ## -description
 
-
 Invalidates a specific region of the shared surface for drawing.
 
-
 ## -parameters
-
-
-
 
 ### -param updateRect [in]
 
 The region of the surface to invalidate.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">IVirtualSurfaceImageSourceNative</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">IVirtualSurfaceImageSourceNative</a>

@@ -2,15 +2,12 @@
 UID: NF:processsnapshot.PssQuerySnapshot
 title: PssQuerySnapshot function (processsnapshot.h)
 description: Queries the snapshot.
+helpviewer_keywords: ["PssQuerySnapshot","PssQuerySnapshot function","proc_snap.pssquerysnapshot","processsnapshot/PssQuerySnapshot"]
 old-location: proc_snap\pssquerysnapshot.htm
 tech.root: proc_snap
 ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F
 ms.date: 12/05/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
-f1_keywords:
-- processsnapshot/PssQuerySnapshot
-dev_langs:
-- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- PssQuerySnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PssQuerySnapshot
+ - processsnapshot/PssQuerySnapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - PssQuerySnapshot
 ---
 
 # PssQuerySnapshot function
@@ -50,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the snapshot.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotHandle [in]
 
 A handle to the snapshot to query.
 
-
 ### -param InformationClass [in]
 
-An enumerator member that selects what information to query. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_query_information_class">PSS_QUERY_INFORMATION_CLASS</a>.
-
+An enumerator member that selects what information to query. For more information, see <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_query_information_class">PSS_QUERY_INFORMATION_CLASS</a>.
 
 ### -param Buffer [out]
 
 The information that this function provides.
 
-
 ### -param BufferLength [in]
 
 The size of <i>Buffer</i>, in bytes.
 
-
 ## -returns
-
-
 
 This function returns <b>ERROR_SUCCESS</b> on success or one of the following error codes.
 
@@ -137,18 +128,8 @@ The requested information is not in the snapshot.
 </table>
  
 
-All error codes are defined in winerror.h. Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
-
-
-
+All error codes are defined in winerror.h. Use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a message for an error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>

@@ -2,15 +2,12 @@
 UID: NF:fileapi.ReadFileEx
 title: ReadFileEx function (fileapi.h)
 description: Reads data from the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when reading is completed or canceled and the calling thread is in an alertable wait state.
+helpviewer_keywords: ["ReadFileEx","ReadFileEx function [Files]","_win32_readfileex","base.readfileex","fileapi/ReadFileEx","fs.readfileex","winbase/ReadFileEx"]
 old-location: fs\readfileex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6c1a4de1-6cae-4c35-bfba-0bc252fadbd9
 ms.date: 12/05/2018
 ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.readfileex, fileapi/ReadFileEx, fs.readfileex, winbase/ReadFileEx
-f1_keywords:
-- fileapi/ReadFileEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- ReadFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ReadFileEx
+ - fileapi/ReadFileEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - ReadFileEx
 ---
 
 # ReadFileEx function
@@ -55,19 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads data from the specified file or input/output (I/O) device. It reports its completion status 
     asynchronously, calling the specified completion routine when reading is completed or canceled and the calling 
     thread is in an alertable wait state.
 
 To read data from a file or device synchronously, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> function.
-
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -75,14 +72,13 @@ A handle to the file or I/O device (for example, a file, file stream, physical d
        tape drive, socket, communications resource, mailslot, or pipe).
 
 This parameter can be any handle opened with the <b>FILE_FLAG_OVERLAPPED</b> flag by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, or a socket handle returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> function.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function, or a socket handle returned by the 
+       <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> or 
+       <a href="/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> function.
 
 This handle also must have the <b>GENERIC_READ</b> access right. For more information on 
        access rights, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
-
+       <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param lpBuffer [out, optional]
 
@@ -91,26 +87,24 @@ A pointer to a buffer that receives the data read from the file or device.
 This buffer must remain valid for the duration of the read operation. The application should not use this 
        buffer until the read operation is completed.
 
-
 ### -param nNumberOfBytesToRead [in]
 
 The number of bytes to be read.
 
-
 ### -param lpOverlapped [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> data structure that 
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> data structure that 
        supplies data to be used during the asynchronous (overlapped) file read operation.
 
 For files that support byte offsets, you must specify a byte offset at which to start reading from the file. 
        You specify this offset by setting the <b>Offset</b> and 
        <b>OffsetHigh</b> members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. For files or devices that do not 
+       <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. For files or devices that do not 
        support byte offsets, <b>Offset</b> and <b>OffsetHigh</b> are 
        ignored.
 
 The <b>ReadFileEx</b> function ignores the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure's 
+       <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure's 
        <b>hEvent</b> member. An application is free to use that member for its own purposes in the 
        context of a <b>ReadFileEx</b> call. 
        <b>ReadFileEx</b> signals completion of its read operation by 
@@ -118,30 +112,26 @@ The <b>ReadFileEx</b> function ignores the
        <i>lpCompletionRoutine</i>, so it does not need an event handle.
 
 The <b>ReadFileEx</b> function does use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure's 
+       <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure's 
        <b>Internal</b> and <b>InternalHigh</b> members. An application should 
        not set these members.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> data structure must remain valid for 
+The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> data structure must remain valid for 
        the duration of the read operation. It should not be a variable that can go out of scope while the read 
        operation is pending completion.
-
 
 ### -param lpCompletionRoutine [in]
 
 A pointer to the completion routine to be called when the read operation is complete and the calling thread 
       is in an alertable wait state. For more information about the completion routine, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>.
-
+      <a href="/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function succeeds, the calling thread has an asynchronous I/O operation pending: the overlapped read 
        operation from the file. When this I/O operation completes, and the calling thread is blocked in an alertable 
@@ -151,23 +141,18 @@ If the function succeeds, the calling thread has an asynchronous I/O operation p
 If the function succeeds, and the file reading operation completes, but the calling thread is not in an 
        alertable wait state, the system queues the completion routine call, holding the call until the calling thread 
        enters an alertable wait state. For information about alertable waits and overlapped input/output operations, 
-       see <a href="https://docs.microsoft.com/windows/desktop/Sync/about-synchronization">About Synchronization</a>.
+       see <a href="/windows/desktop/Sync/about-synchronization">About Synchronization</a>.
 
 If <b>ReadFileEx</b> attempts to read past the 
        end-of-file (EOF), the call to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> for that operation returns 
-       <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+       <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> for that operation returns 
+       <b>FALSE</b> and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        returns <b>ERROR_HANDLE_EOF</b>.
-
-
-
 
 ## -remarks
 
-
-
 When using <b>ReadFileEx</b> you should check 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> even when the function returns "success" to 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> even when the function returns "success" to 
     check for conditions that are "successes" but have some outcome you might want to know about. For example, a 
     buffer overflow when calling <b>ReadFileEx</b> will return 
     <b>TRUE</b>, but <b>GetLastError</b> will 
@@ -177,20 +162,20 @@ When using <b>ReadFileEx</b> you should check
 
 The <b>ReadFileEx</b> function may fail if there are too many 
     outstanding asynchronous I/O requests. In the event of such a failure, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can return 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> can return 
     <b>ERROR_INVALID_USER_BUFFER</b> or <b>ERROR_NOT_ENOUGH_MEMORY</b>.
 
 To cancel all pending asynchronous I/O operations, use either:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>—this function only cancels 
+<a href="/windows/desktop/FileIO/cancelio">CancelIo</a>—this function only cancels 
       operations issued by the calling thread for the specified file handle.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>—this function 
+<a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>—this function 
       cancels all operations issued by the threads for the specified file handle.</li>
 </ul>
-Use <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelsynchronousio-func">CancelSynchronousIo</a> to cancel pending 
+Use <a href="/windows/desktop/FileIO/cancelsynchronousio-func">CancelSynchronousIo</a> to cancel pending 
      synchronous I/O operations.
 
 I/O operations that are canceled complete with the error <b>ERROR_OPERATION_ABORTED</b>.
@@ -201,7 +186,7 @@ If part of the file specified by <i>hFile</i> is locked by another process, and 
 
 When attempting to read data from a mailslot whose buffer is too small, 
     <b>ReadFileEx</b> returns <b>FALSE</b>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
     <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 Accessing the input buffer while a read operation is using the buffer may lead to corruption of the data read 
@@ -209,17 +194,17 @@ Accessing the input buffer while a read operation is using the buffer may lead t
     operation is using until the read operation completes.
 
 An application uses the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a> functions to enter an alertable wait state. For more 
+    <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>, 
+    <a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>, 
+    <a href="/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>, and 
+    <a href="/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a> functions to enter an alertable wait state. For more 
     information about alertable waits and overlapped input/output, see 
-    <a href="https://docs.microsoft.com/windows/desktop/Sync/about-synchronization">About Synchronization</a>.
+    <a href="/windows/desktop/Sync/about-synchronization">About Synchronization</a>.
 
 There are strict requirements for successfully working with files opened with 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> using 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> using 
     <b>FILE_FLAG_NO_BUFFERING</b>. For details see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a>.
+    <a href="/windows/desktop/FileIO/file-buffering">File Buffering</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -285,73 +270,64 @@ Yes
 If there is a transaction bound to the file handle, then the function returns data from the transacted view of 
       the file. A transacted read handle is guaranteed to show the same view of a file for the duration of the handle. 
       For additional information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/about-transactional-ntfs">About Transactional NTFS</a>.
+      <a href="/windows/desktop/FileIO/about-transactional-ntfs">About Transactional NTFS</a>.
 
 
 #### Examples
 
 For an example, see 
-    <a href="https://docs.microsoft.com/windows/desktop/ipc/named-pipe-server-using-completion-routines">Named Pipe Server Using Completion Routines</a>.
+    <a href="/windows/desktop/ipc/named-pipe-server-using-completion-routines">Named Pipe Server Using Completion Routines</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/FileIO/cancelio">CancelIo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelio">CancelIo</a>
+<a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>
+<a href="/windows/desktop/FileIO/cancelsynchronousio-func">CancelSynchronousIo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelsynchronousio-func">CancelSynchronousIo</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobjectex">WaitForSingleObjectEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>

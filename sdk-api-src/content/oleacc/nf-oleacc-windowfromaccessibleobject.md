@@ -2,15 +2,12 @@
 UID: NF:oleacc.WindowFromAccessibleObject
 title: WindowFromAccessibleObject function (oleacc.h)
 description: Retrieves the window handle that corresponds to a particular instance of an IAccessible interface.
+helpviewer_keywords: ["WindowFromAccessibleObject","WindowFromAccessibleObject function [Windows Accessibility]","_msaa_WindowFromAccessibleObject","msaa.windowfromaccessibleobject","oleacc/WindowFromAccessibleObject","winauto.windowfromaccessibleobject"]
 old-location: winauto\windowfromaccessibleobject.htm
 tech.root: WinAuto
 ms.assetid: b3a3d3dd-ef84-4323-ab6d-6331d8389f11
 ms.date: 12/05/2018
 ms.keywords: WindowFromAccessibleObject, WindowFromAccessibleObject function [Windows Accessibility], _msaa_WindowFromAccessibleObject, msaa.windowfromaccessibleobject, oleacc/WindowFromAccessibleObject, winauto.windowfromaccessibleobject
-f1_keywords:
-- oleacc/WindowFromAccessibleObject
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Oleacc.dll
-api_name:
-- WindowFromAccessibleObject
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - WindowFromAccessibleObject
+ - oleacc/WindowFromAccessibleObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Oleacc.dll
+api_name:
+ - WindowFromAccessibleObject
 ---
 
 # WindowFromAccessibleObject function
@@ -48,38 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the window handle that corresponds to a particular instance of an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
-
+Retrieves the window handle that corresponds to a particular instance of an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Type: <b>IAccessible*</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
-
+Pointer to the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
 
 ### -param phwnd [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a>*</b>
 
 Address of a variable that receives a handle to the window containing the object specified in <i>pacc</i>. If this value is <b>NULL</b> after the call, the object is not contained within a window; for example, the mouse pointer is not contained within a window.
 
-
 ## -returns
-
-
 
 Type: <b>STDAPI</b>
 
 If successful, returns S_OK.
 
-If not successful, returns the following or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
+If not successful, returns the following or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -98,22 +91,11 @@ An argument is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromwindow">AccessibleObjectFromWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-accessibleobjectfromwindow">AccessibleObjectFromWindow</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>

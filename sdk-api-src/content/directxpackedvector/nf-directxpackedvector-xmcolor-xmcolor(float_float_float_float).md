@@ -2,15 +2,12 @@
 UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(float,float,float,float)
 title: XMCOLOR::XMCOLOR(float,float,float,float) (directxpackedvector.h)
 description: Initializes a new instance of XMCOLOR from four float arguments.
+helpviewer_keywords: ["XMCOLOR","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR structure","XMCOLOR structure [DirectX Math Support APIs]","XMCOLOR constructor","XMCOLOR.XMCOLOR","XMCOLOR.XMCOLOR(float","float","float","float)","XMCOLOR::XMCOLOR","XMCOLOR::XMCOLOR(float","float","float","float)","dxmath.xmcolor_ctor_3"]
 old-location: dxmath\xmcolor_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.#ctor(float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(float,float,float,float), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(float,float,float,float), dxmath.xmcolor_ctor_3
-f1_keywords:
-- directxpackedvector/XMCOLOR.XMCOLOR
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMCOLOR.XMCOLOR
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMCOLOR::XMCOLOR
+ - directxpackedvector/XMCOLOR::XMCOLOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMCOLOR.XMCOLOR
 ---
 
 # XMCOLOR::XMCOLOR(float,float,float,float)
@@ -48,55 +50,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a new instance of <code>XMCOLOR</code> from four <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR </a> from four
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR </a> from four
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param _r
 
 Normalized value for the <i>red</i> channel of a 32-bit ARGB color
 		    stored in the new instance of <code>XMCOLOR</code>. The value of this argument
 		    should be in the range [0.0 - 1.0].
-		    
-
 
 ### -param _g
 
 Normalized value for the <i>green</i> channel of a 32-bit ARGB
 		    color stored in the new instance of <code>XMCOLOR</code>. The value of this
 		    argument should be in the range [0.0 - 1.0].
-		    
-
 
 ### -param _b
 
 Normalized value for the <i>blue</i> channel of a 32-bit ARGB
 		    color stored in the new instance of <code>XMCOLOR</code>. The value of this
 		    argument should be in the range [0.0 - 1.0].
-		    
-
 
 ### -param _a
 
 Normalized value for the <i>alpha</i> channel of a 32-bit ARGB
 		    color stored in the new instance of <code>XMCOLOR</code>. The value of this
 		    argument should be in the range [0.0 - 1.0].
-		    
-
 
 ## -remarks
-
-
 
 During the instantiation of an instance of <code>XMCOLOR</code>, all input arguments to
 	    this constructor are clamped to a range of [0.0, 1.0], multiplied by <code>255.0f</code>,
@@ -104,7 +92,7 @@ During the instantiation of an instance of <code>XMCOLOR</code>, all input argum
 	  
 
 The following pseudocode demonstrates the operation of this constructor, which takes
-	    advantage of the <code>union</code> of the four components of the <code>XMCOLOR</code>vector with an instance of <code>uint32_t</code> in the definition of the structure:
+	    advantage of the <code>union</code> of the four components of the <code>XMCOLOR</code> vector with an instance of <code>uint32_t</code> in the definition of the structure:
 	  
 
 
@@ -128,25 +116,14 @@ The following pseudocode demonstrates the operation of this constructor, which t
     
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>

@@ -1,16 +1,13 @@
 ---
 UID: NC:msacm.ACMFORMATENUMCBW
 title: ACMFORMATENUMCBW (msacm.h)
-description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name.
+description: The ACMFORMATENUMCBW (Unicode) callback function specifies a callback function used with the acmFormatEnum function.
+helpviewer_keywords: ["ACMFORMATENUMCB","ACMFORMATENUMCB callback","ACMFORMATENUMCB callback function [Windows Multimedia]","ACMFORMATENUMCBA","ACMFORMATENUMCBW","_win32_acmFormatEnumCallback","acmFormatEnumCallback","msacm/ACMFORMATENUMCB","msacm/ACMFORMATENUMCBA","msacm/ACMFORMATENUMCBW","multimedia.acmformatenumcallback"]
 old-location: multimedia\acmformatenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: ACMFORMATENUMCB, ACMFORMATENUMCB callback, ACMFORMATENUMCB callback function [Windows Multimedia], ACMFORMATENUMCBA, ACMFORMATENUMCBW, _win32_acmFormatEnumCallback, acmFormatEnumCallback, msacm/ACMFORMATENUMCB, msacm/ACMFORMATENUMCBA, msacm/ACMFORMATENUMCBW, multimedia.acmformatenumcallback
-f1_keywords:
-- msacm/ACMFORMATENUMCB
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Msacm.h
-api_name:
-- ACMFORMATENUMCB
-- ACMFORMATENUMCBA
-- ACMFORMATENUMCBW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ACMFORMATENUMCBW
+ - msacm/ACMFORMATENUMCBW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Msacm.h
+api_name:
+ - ACMFORMATENUMCB
+ - ACMFORMATENUMCBA
+ - ACMFORMATENUMCBW
 ---
 
 # ACMFORMATENUMCBW callback function
@@ -50,36 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>acmFormatEnumCallback</b> function specifies a callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function. The <b>acmFormatEnumCallback</b> name is a placeholder for the application-defined function name.
-
-
-
+The <b>acmFormatEnumCallback</b> function specifies a callback function used with the <a href="/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function. The <b>acmFormatEnumCallback</b> name is a placeholder for the application-defined function name.
 
 ## -parameters
-
-
-
 
 ### -param hadid
 
 Handle to the ACM driver identifier.
 
-
 ### -param pafd
 
-Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure that contains the enumerated format details for a format tag.
-
+Pointer to an [ACMFORMATDETAILS](./nf-msacm-acmformatdetails.md) structure that contains the enumerated format details for a format tag.
 
 ### -param dwInstance
 
-Application-defined value specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function.
-
+Application-defined value specified in the <a href="/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function.
 
 ### -param fdwSupport
 
-Driver support flags specific to the driver identified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure, but they are specific to the format that is being enumerated. This parameter can be a combination of the following values and indicates which operations the driver supports for the format tag.
+Driver support flags specific to the driver identified by [ACMDRIVERDETAILS](./nf-msacm-acmdriverdetails.md) structure, but they are specific to the format that is being enumerated. This parameter can be a combination of the following values and indicates which operations the driver supports for the format tag.
 
 <table>
 <tr>
@@ -106,43 +97,31 @@ Driver support flags specific to the driver identified by [ACMDRIVERDETAILS](/wi
 </tr>
 <tr>
 <td>ACMDRIVERDETAILS_SUPPORTF_HARDWARE</td>
-<td>Driver supports hardware input, output, or both of the specified format tags through a waveform-audio device. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
+<td>Driver supports hardware input, output, or both of the specified format tags through a waveform-audio device. An application should use the <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indexes to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The callback function must return <b>TRUE</b> to continue enumeration or <b>FALSE</b> to stop enumeration.
-
-
-
 
 ## -remarks
 
+The <a href="/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function will return MMSYSERR_NOERROR (zero) if no formats are to be enumerated. Moreover, the callback function will not be called.
+
+The following functions should not be called from within the callback function: <a href="/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatenum">acmFormatEnum</a> function will return MMSYSERR_NOERROR (zero) if no formats are to be enumerated. Moreover, the callback function will not be called.
-
-The following functions should not be called from within the callback function: <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
 
 
 
+> [!NOTE]
+> The msacm.h header defines ACMFORMATENUMCB as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

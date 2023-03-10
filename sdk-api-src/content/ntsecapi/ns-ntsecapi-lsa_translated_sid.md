@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._LSA_TRANSLATED_SID
 title: LSA_TRANSLATED_SID (ntsecapi.h)
 description: Used with the LsaLookupNames function to return information about the SID that identifies an account.
+helpviewer_keywords: ["*PLSA_TRANSLATED_SID","LSA_TRANSLATED_SID","LSA_TRANSLATED_SID structure [Security]","PLSA_TRANSLATED_SID","PLSA_TRANSLATED_SID structure pointer [Security]","SidTypeDomain","SidTypeInvalid","SidTypeUnknown","_LSA_TRANSLATED_SID","_lsa_lsa_translated_sid","ntsecapi/LSA_TRANSLATED_SID","ntsecapi/PLSA_TRANSLATED_SID","security.lsa_translated_sid"]
 old-location: security\lsa_translated_sid.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 1fa8fb74-3e61-4982-aa6b-a0ffe979abd4
 ms.date: 12/05/2018
 ms.keywords: '*PLSA_TRANSLATED_SID, LSA_TRANSLATED_SID, LSA_TRANSLATED_SID structure [Security], PLSA_TRANSLATED_SID, PLSA_TRANSLATED_SID structure pointer [Security], SidTypeDomain, SidTypeInvalid, SidTypeUnknown, _LSA_TRANSLATED_SID, _lsa_lsa_translated_sid, ntsecapi/LSA_TRANSLATED_SID, ntsecapi/PLSA_TRANSLATED_SID, security.lsa_translated_sid'
-f1_keywords:
-- ntsecapi/LSA_TRANSLATED_SID
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- LSA_TRANSLATED_SID
 targetos: Windows
 req.typenames: LSA_TRANSLATED_SID, *PLSA_TRANSLATED_SID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _LSA_TRANSLATED_SID
+ - ntsecapi/_LSA_TRANSLATED_SID
+ - PLSA_TRANSLATED_SID
+ - ntsecapi/PLSA_TRANSLATED_SID
+ - LSA_TRANSLATED_SID
+ - ntsecapi/LSA_TRANSLATED_SID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - LSA_TRANSLATED_SID
 ---
 
 # LSA_TRANSLATED_SID structure
@@ -48,21 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LSA_TRANSLATED_SID</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function to return information about the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> that identifies an account.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function to return information about the 
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> that identifies an account.
 
 ## -struct-fields
-
-
-
 
 ### -field Use
 
 A value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration type that identifies the type of SID. 
+<a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration type that identifies the type of SID. 
 
 
 
@@ -105,40 +106,29 @@ Both <b>DomainIndex</b> and <b>RelativeId</b> members are not valid and must be 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RelativeId
 
 Specifies the relative identifier (RID) of the account's SID. The RID identifies the account relative to the domain referenced by the <b>DomainIndex</b> member. The account's complete SID consists of the domain SID followed by the RID.
 
-
 ### -field DomainIndex
 
 Specifies the zero-based index of an entry in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function. This entry contains the name and SID of the domain in which the account was found. 
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a> structure returned by the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function. This entry contains the name and SID of the domain in which the account was found. 
 
 
 
 
 If there is no corresponding domain for an account, this member contains a negative value.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list">LSA_REFERENCED_DOMAIN_LIST</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>

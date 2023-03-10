@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.GetNetworkParams
 title: GetNetworkParams function (iphlpapi.h)
 description: The GetNetworkParams function retrieves network parameters for the local computer.
+helpviewer_keywords: ["GetNetworkParams","GetNetworkParams function [IP Helper]","_iphlp_getnetworkparams","iphlp.getnetworkparams","iphlpapi/GetNetworkParams"]
 old-location: iphlp\getnetworkparams.htm
 tech.root: IpHlp
 ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.date: 12/05/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
-f1_keywords:
-- iphlpapi/GetNetworkParams
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetNetworkParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNetworkParams
+ - iphlpapi/GetNetworkParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetNetworkParams
 ---
 
 # GetNetworkParams function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetNetworkParams</b> function retrieves network parameters for the local computer.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param pFixedInfo [out]
 
 A pointer to a 
-buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure that receives the network parameters for the local computer, if the function was successful. This buffer must be allocated by the caller prior to calling the <b>GetNetworkParams</b> function.
-
+buffer that contains a <a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure that receives the network parameters for the local computer, if the function was successful. This buffer must be allocated by the caller prior to calling the <b>GetNetworkParams</b> function.
 
 ### -param pOutBufLen [in]
 
 A pointer to a <b>ULONG</b> variable that specifies the size of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure. If this size is insufficient to hold the information, 
+<a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure. If this size is insufficient to hold the information, 
 <b>GetNetworkParams</b> fills in this variable with the required size, and returns an error code of <b>ERROR_BUFFER_OVERFLOW</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -137,23 +129,17 @@ The <b>GetNetworkParams</b> function is not supported by the operating system ru
 </td>
 <td width="60%">
 If the function fails, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure. The  memory for the <b>FIXED_INFO</b> structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
 
-
-The <b>GetNetworkParams</b> function is used to retrieve  network parameters for the local computer. Network parameters are returned  in a <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>structure. The  memory for the <b>FIXED_INFO</b>structure must be allocated by the application. It is the responsibility of the application to free this memory when it is no longer needed. 
-
-In the Microsoft Windows Software Development Kit (SDK), the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
+In the Microsoft Windows Software Development Kit (SDK), the <a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO_WIN2KSP1</a> structure is defined.   When compiling an 
      application if the target platform is Windows 2000 with Service Pack 1 (SP1) and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, 
      <code>_WIN32_WINNT &gt;= 0x0501</code>, or 
      <code>WINVER &gt;= 0x0501</code>), the <b>FIXED_INFO_WIN2KSP1</b> struct is typedefed to the <b>FIXED_INFO</b> structure. When compiling an application if the target 
@@ -161,7 +147,7 @@ In the Microsoft Windows Software Development Kit (SDK), the <a href="https://do
      <b>FIXED_INFO</b> structure is undefined.
 
 The <b>GetNetworkParams</b> function and the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
+     <a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
 
 
 #### Examples
@@ -274,25 +260,14 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-fixed_info_w2ksp1">FIXED_INFO</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
- 
-
- 
-
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>

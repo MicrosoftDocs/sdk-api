@@ -2,15 +2,12 @@
 UID: NF:opmapi.IOPMVideoOutput.Configure
 title: IOPMVideoOutput::Configure (opmapi.h)
 description: Configures a video output.
+helpviewer_keywords: ["Configure","Configure method [Media Foundation]","Configure method [Media Foundation]","IOPMVideoOutput interface","IOPMVideoOutput interface [Media Foundation]","Configure method","IOPMVideoOutput.Configure","IOPMVideoOutput::Configure","mf.iopmvideooutput_iopmvideooutput__configure","opmapi/IOPMVideoOutput::Configure"]
 old-location: mf\iopmvideooutput_iopmvideooutput__configure.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b8eb3561-7e81-4f4c-bcb1-1657f8556aea
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [Media Foundation], Configure method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],Configure method, IOPMVideoOutput.Configure, IOPMVideoOutput::Configure, mf.iopmvideooutput_iopmvideooutput__configure, opmapi/IOPMVideoOutput::Configure
-f1_keywords:
-- opmapi/IOPMVideoOutput.Configure
-dev_langs:
-- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- opmapi.h
-api_name:
-- IOPMVideoOutput.Configure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOPMVideoOutput::Configure
+ - opmapi/IOPMVideoOutput::Configure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - opmapi.h
+api_name:
+ - IOPMVideoOutput.Configure
 ---
 
 # IOPMVideoOutput::Configure
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures a video output. This method sends an Output Protection Manager (OPM) or Certified Output Protection Protocol (COPP) command to the driver.
-
 
 ## -parameters
 
-
-
-
 ### -param pParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a> structure that contains the command. For a list of OPM commands, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-commands">OPM Commands</a>.
-
+Pointer to an <a href="/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a> structure that contains the command. For a list of OPM commands, see <a href="/windows/desktop/medfound/opm-commands">OPM Commands</a>.
 
 ### -param ulAdditionalParametersSize [in]
 
 The size of the <i>pbAdditionalParameters</i> buffer, in bytes.
 
-
 ### -param pbAdditionalParameters [in]
 
 Pointer to a buffer that contains additional information for the command.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method is equivalent to the <b>IAMCertifiedOutputProtection::ProtectionCommand</b> method in COPP.
 
@@ -95,20 +82,10 @@ Some OPM commands require additional configuration information to be passed in t
 <h3><a id="COPP_Semantics"></a><a id="copp_semantics"></a><a id="COPP_SEMANTICS"></a>COPP Semantics</h3>
 The <i>pbAdditionalParameters</i> parameter must be <b>NULL</b>, and <i>ulAdditionalParametersSize</i> must be zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

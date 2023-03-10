@@ -2,15 +2,12 @@
 UID: NF:msopc.IOpcPartSet.CreatePart
 title: IOpcPartSet::CreatePart (msopc.h)
 description: Creates a part object that represents a part and adds a pointer to the object's IOpcPart interface to the set.
+helpviewer_keywords: ["CreatePart","CreatePart method [Open Packaging Conventions]","CreatePart method [Open Packaging Conventions]","IOpcPartSet interface","IOpcPartSet interface [Open Packaging Conventions]","CreatePart method","IOpcPartSet.CreatePart","IOpcPartSet::CreatePart","msopc/IOpcPartSet::CreatePart","opc.iopcpartset_createpart"]
 old-location: opc\iopcpartset_createpart.htm
 tech.root: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
 ms.date: 12/05/2018
 ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreatePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],CreatePart method, IOpcPartSet.CreatePart, IOpcPartSet::CreatePart, msopc/IOpcPartSet::CreatePart, opc.iopcpartset_createpart
-f1_keywords:
-- msopc/IOpcPartSet.CreatePart
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcPartSet.CreatePart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcPartSet::CreatePart
+ - msopc/IOpcPartSet::CreatePart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcPartSet.CreatePart
 ---
 
 # IOpcPartSet::CreatePart
@@ -48,42 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a part object that represents a part and adds a pointer to the object's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface to the set.
-
+Creates a part object that represents a part and adds a pointer to the object's <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> interface to the set.
 
 ## -parameters
 
-
-
-
 ### -param name [in]
 
-A pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of a part URI object that represents the part name of the part.
+A pointer to the  <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of a part URI object that represents the part name of the part.
 
-To create  a part URI object (which implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface) to represent the part name of the part, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">IOpcFactory::CreatePartUri</a> method.
-
+To create  a part URI object (which implements the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface) to represent the part name of the part, call the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">IOpcFactory::CreatePartUri</a> method.
 
 ### -param contentType [in]
 
 The media type of part content.
 
-
 ### -param compressionOptions [in]
 
 A value that describes the way to compress the part content of the part.
 
-
 ### -param part [out, retval]
 
-A pointer to the new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> that represents the part.
+A pointer to the new <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> that represents the part.
 
 This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,7 +112,7 @@ The <i>name</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The value passed in the <i>compressionOptions</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a> enumeration value.
+The value passed in the <i>compressionOptions</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a> enumeration value.
 
 </td>
 </tr>
@@ -145,7 +136,7 @@ A part with the specified part name already exists in the current package.
 </dl>
 </td>
 <td width="60%">
-A content type does not conform to the rules for a valid media type, specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a> (https://go.microsoft.com/fwlink/p/?linkid=143979) and the <i>OPC</i>.
+A content type does not conform to the rules for a valid media type, specified in <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a> (http://www.w3.org/Protocols/rfc2616/rfc2616.html) and the <i>OPC</i>.
 
 </td>
 </tr>
@@ -157,7 +148,7 @@ A content type does not conform to the rules for a valid media type, specified i
 </dl>
 </td>
 <td width="60%">
-Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
+Either the content type of a part differed from the expected content type (specified in the OPC, <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 Part 2</a>), or the part content did not match the part's  content type.
 
 </td>
 </tr>
@@ -168,7 +159,7 @@ Either the content type of a part differed from the expected content type (speci
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>.
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/package-consumption-error-group">Package Consumption Error Group</a>.
         
 
 </td>
@@ -180,20 +171,14 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>.
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/desktop/opc/part-uri-error-group">Part URI Error Group</a>.
         
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 When a part object is created and a pointer to it is added to the set, the part it represents is serialized when the package is serialized.
 
@@ -203,24 +188,18 @@ If part content is compressed prior to the creation of the part object, pass the
 
 Part content that is already compressed will not compress significantly more.
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> provides access to the properties of a part. For details about these properties, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a> and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> topic.
+An <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> provides access to the properties of a part. For details about these properties, see the <a href="/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a> and the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpart">IOpcPart</a> topic.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
-
-
-
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -228,19 +207,19 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">IOpcFactory::CreatePartUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">IOpcFactory::CreatePartUri</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpartset">IOpcPartSet</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpartset">IOpcPartSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
 
 
 
@@ -248,28 +227,24 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>
+<a href="/previous-versions/windows/desktop/opc/parts-overview">Parts Overview</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=143979">RFC 2616: HTTP/1.1</a>
+<a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">RFC 2616: HTTP/1.1</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

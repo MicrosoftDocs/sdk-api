@@ -2,15 +2,12 @@
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0011
 title: XPS_SEGMENT_TYPE (xpsobjectmodel.h)
 description: Describes a line segment.
+helpviewer_keywords: ["XPS_SEGMENT_TYPE","XPS_SEGMENT_TYPE enumeration [XPS Documents and Packaging]","XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE","XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE","XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE","XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE","XPS_SEGMENT_TYPE_BEZIER","XPS_SEGMENT_TYPE_LINE","XPS_SEGMENT_TYPE_QUADRATIC_BEZIER","xps.xps_segment_type","xpsobjectmodel/XPS_SEGMENT_TYPE","xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE","xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE","xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE","xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE","xpsobjectmodel/XPS_SEGMENT_TYPE_BEZIER","xpsobjectmodel/XPS_SEGMENT_TYPE_LINE","xpsobjectmodel/XPS_SEGMENT_TYPE_QUADRATIC_BEZIER"]
 old-location: xps\xps_segment_type.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: dc36e80f-0c49-4317-a545-d50c9cbefd03
 ms.date: 12/05/2018
 ms.keywords: XPS_SEGMENT_TYPE, XPS_SEGMENT_TYPE enumeration [XPS Documents and Packaging], XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE, XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE, XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE, XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE, XPS_SEGMENT_TYPE_BEZIER, XPS_SEGMENT_TYPE_LINE, XPS_SEGMENT_TYPE_QUADRATIC_BEZIER, xps.xps_segment_type, xpsobjectmodel/XPS_SEGMENT_TYPE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE, xpsobjectmodel/XPS_SEGMENT_TYPE_BEZIER, xpsobjectmodel/XPS_SEGMENT_TYPE_LINE, xpsobjectmodel/XPS_SEGMENT_TYPE_QUADRATIC_BEZIER
-f1_keywords:
-- xpsobjectmodel/XPS_SEGMENT_TYPE
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_SEGMENT_TYPE
 targetos: Windows
 req.typenames: XPS_SEGMENT_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0011
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0011
+ - XPS_SEGMENT_TYPE
+ - xpsobjectmodel/XPS_SEGMENT_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_SEGMENT_TYPE
 ---
 
 # XPS_SEGMENT_TYPE enumeration
@@ -48,53 +52,39 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a line segment.
-
 
 ## -enum-fields
 
-
-
-
-### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE
+### -field XPS_SEGMENT_TYPE_ARC_LARGE_CLOCKWISE:1
 
 The line segment is an arc that covers more than 180 degrees and is drawn in a clockwise direction from the start point to the end point.
-
 
 ### -field XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE
 
 The line segment is an arc that covers more than 180 degrees and is drawn in a counterclockwise direction from the start point to the end point.
 
-
 ### -field XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE
 
 The line segment is an arc that covers at most 180 degrees and is drawn in a clockwise direction from the start point to the end point.
-
 
 ### -field XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE
 
 The line segment is an arc that covers at most 180 degrees and is drawn in a counterclockwise direction from the start point to the end point.
 
-
 ### -field XPS_SEGMENT_TYPE_BEZIER
 
 The line segment is a cubic Bezier curve that is drawn between two points.
-
 
 ### -field XPS_SEGMENT_TYPE_LINE
 
 The line segment is a straight line that is drawn between two points.
 
-
 ### -field XPS_SEGMENT_TYPE_QUADRATIC_BEZIER
 
 The line segment is a quadratic Bezier curve that is drawn between two points.
 
-
 ## -remarks
-
-
 
 A geometry segment is described by the start point, the segment type, and additional parameters whose values are determined by the segment type. The coordinates for the start point of the first segment are a property of the geometry figure. The start point of each subsequent segment is the end point of the preceding segment.
 
@@ -142,18 +132,8 @@ XPS_SEGMENT_TYPE_QUADRATIC_BEZIER <img alt="A diagram that shows an example of a
 <td></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

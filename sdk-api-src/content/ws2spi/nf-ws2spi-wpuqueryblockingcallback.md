@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUQueryBlockingCallback
 title: WPUQueryBlockingCallback function (ws2spi.h)
 description: The WPUQueryBlockingCallback function returns a pointer to a callback function the service provider should invoke periodically while servicing blocking operations.
+helpviewer_keywords: ["WPUQueryBlockingCallback","WPUQueryBlockingCallback function [Winsock]","_win32_wpuqueryblockingcallback_2","winsock.wpuqueryblockingcallback_2","ws2spi/WPUQueryBlockingCallback"]
 old-location: winsock\wpuqueryblockingcallback_2.htm
 tech.root: WinSock
 ms.assetid: 08e6215c-536f-4ab2-9d34-096b919ef0be
 ms.date: 12/05/2018
 ms.keywords: WPUQueryBlockingCallback, WPUQueryBlockingCallback function [Winsock], _win32_wpuqueryblockingcallback_2, winsock.wpuqueryblockingcallback_2, ws2spi/WPUQueryBlockingCallback
-f1_keywords:
-- ws2spi/WPUQueryBlockingCallback
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUQueryBlockingCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUQueryBlockingCallback
+ - ws2spi/WPUQueryBlockingCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUQueryBlockingCallback
 ---
 
 # WPUQueryBlockingCallback function
@@ -48,39 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUQueryBlockingCallback** function returns a pointer to a callback function the service provider should invoke periodically while servicing blocking operations.
 
-
 ## -parameters
-
-
-
 
 ### -param dwCatalogEntryId [in]
 
 Descriptor identifying the calling service provider.
 
-
 ### -param lplpfnCallback [out]
 
 Pointer that receives the blocking callback function.
-
 
 ### -param lpdwContext [out]
 
 Pointer that receives a context value that the service provider must pass into the blocking callback.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUQueryBlockingCallback** returns zero and stores a pointer to a blocking callback function in <i>lpfnCallback</i> and an associated context value in <i>lpdwContext</i>. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -120,13 +111,7 @@ The <i>dwCatalogEntryId</i> parameter is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 **WPUQueryBlockingCallback** function returns a pointer to a callback function in <i>lpfnCallback</i> to be invoked periodically during blocking operations. This function also returns a context value in <i>lpdwContext</i> to be passed into the blocking callback.
@@ -147,16 +132,7 @@ The blocking callback will return **TRUE** if the service provider is to continu
 
 Any missing components of the address will default to a reasonable value if possible. For example, a missing port number will default to zero.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">WSPCancelBlockingCall</a>
- 
-
- 
 

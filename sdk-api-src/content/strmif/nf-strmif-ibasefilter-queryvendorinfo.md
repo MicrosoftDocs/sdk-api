@@ -2,15 +2,12 @@
 UID: NF:strmif.IBaseFilter.QueryVendorInfo
 title: IBaseFilter::QueryVendorInfo (strmif.h)
 description: The QueryVendorInfo method retrieves a string containing vendor information.
+helpviewer_keywords: ["IBaseFilter interface [DirectShow]","QueryVendorInfo method","IBaseFilter.QueryVendorInfo","IBaseFilter::QueryVendorInfo","IBaseFilterQueryVendorInfo","QueryVendorInfo","QueryVendorInfo method [DirectShow]","QueryVendorInfo method [DirectShow]","IBaseFilter interface","dshow.ibasefilter_queryvendorinfo","strmif/IBaseFilter::QueryVendorInfo"]
 old-location: dshow\ibasefilter_queryvendorinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7524de26-360e-49c7-b636-7d05cf4d0ad2
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryVendorInfo method, IBaseFilter.QueryVendorInfo, IBaseFilter::QueryVendorInfo, IBaseFilterQueryVendorInfo, QueryVendorInfo, QueryVendorInfo method [DirectShow], QueryVendorInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryvendorinfo, strmif/IBaseFilter::QueryVendorInfo
-f1_keywords:
-- strmif/IBaseFilter.QueryVendorInfo
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBaseFilter.QueryVendorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBaseFilter::QueryVendorInfo
+ - strmif/IBaseFilter::QueryVendorInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBaseFilter.QueryVendorInfo
 ---
 
 # IBaseFilter::QueryVendorInfo
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>QueryVendorInfo</code> method retrieves a string containing vendor information.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pVendorInfo [out]
 
 Address of a variable that receives a pointer to a wide-character string containing the vendor information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,33 +102,17 @@ Method is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is optional; filters are not required to support it.
 
 If the method is supported, it uses the <b>CoTaskMemAlloc</b> function to allocate memory for the string. Call the <b>CoTaskMemFree</b> function to free the memory.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>

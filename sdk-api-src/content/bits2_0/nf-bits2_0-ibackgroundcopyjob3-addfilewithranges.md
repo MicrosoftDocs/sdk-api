@@ -2,15 +2,12 @@
 UID: NF:bits2_0.IBackgroundCopyJob3.AddFileWithRanges
 title: IBackgroundCopyJob3::AddFileWithRanges (bits2_0.h)
 description: Adds a file to a download job and specifies the ranges of the file you want to download.
+helpviewer_keywords: ["AddFileWithRanges","AddFileWithRanges method [BITS]","AddFileWithRanges method [BITS]","IBackgroundCopyJob3 interface","IBackgroundCopyJob3 interface [BITS]","AddFileWithRanges method","IBackgroundCopyJob3.AddFileWithRanges","IBackgroundCopyJob3::AddFileWithRanges","bits.ibackgroundcopyjob3_addfilewithranges","bits2_0/IBackgroundCopyJob3::AddFileWithRanges"]
 old-location: bits\ibackgroundcopyjob3_addfilewithranges.htm
 tech.root: Bits
 ms.assetid: b3601f23-1a69-47db-8943-7515652cf015
 ms.date: 12/05/2018
 ms.keywords: AddFileWithRanges, AddFileWithRanges method [BITS], AddFileWithRanges method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],AddFileWithRanges method, IBackgroundCopyJob3.AddFileWithRanges, IBackgroundCopyJob3::AddFileWithRanges, bits.ibackgroundcopyjob3_addfilewithranges, bits2_0/IBackgroundCopyJob3::AddFileWithRanges
-f1_keywords:
-- bits2_0/IBackgroundCopyJob3.AddFileWithRanges
-dev_langs:
-- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx3.dll
-api_name:
-- IBackgroundCopyJob3.AddFileWithRanges
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob3::AddFileWithRanges
+ - bits2_0/IBackgroundCopyJob3::AddFileWithRanges
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx3.dll
+api_name:
+ - IBackgroundCopyJob3.AddFileWithRanges
 ---
 
 # IBackgroundCopyJob3::AddFileWithRanges
@@ -48,44 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a file to a download job and specifies the ranges of the file you want to download.
-
 
 ## -parameters
 
-
-
-
 ### -param RemoteUrl [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure. 
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure. 
 
 
 
-					Starting with BITS 3.0, the SMB protocol is not supported for ranges.
+Starting with BITS 3.0, the SMB protocol is not supported for ranges.
 
 <b>BITS 2.5 and 2.0:  </b>BITS supports the SMB protocol for ranges.
 
-
 ### -param LocalName [in]
 
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://docs.microsoft.com/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
-
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="/windows/desktop/api/bits/ns-bits-bg_file_info">BG_FILE_INFO</a> structure.
 
 ### -param RangeCount [in]
 
-Number of elements in <i>Ranges</i>. 
-
+Number of elements in <i>Ranges</i>.
 
 ### -param Ranges [in]
 
-Array of one or more <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges. 
-
+Array of one or more <a href="/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges.
 
 ## -returns
-
-
 
 This method returns the following return values, as well as others.
 
@@ -191,14 +182,8 @@ The state of the job cannot be <b>BG_JOB_STATE_CANCELLED</b> or <b>BG_JOB_STATE_
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The ranges are written to the <i>LocalName</i> file in the order given. For example, if <i>Ranges</i> identifies bytes 100-199, 900-999, and 400-499 of the remote file, the local file will be 300 bytes long. Bytes 0-99 of the local file will contain bytes 100-199 of the remote file, bytes 100-199 of the local file will contain bytes 900-999 of the remote file, and bytes 200-299 of the local file will contain bytes 400-499 of the remote file.
 
@@ -235,7 +220,7 @@ For better performance on Windows BranchCache-enabled file transfers, it is reco
 
 #### Examples
 
-The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
+The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
 
 
 ```cpp
@@ -275,29 +260,18 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
     }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/ns-bits2_0-bg_file_range">BG_FILE_RANGE</a>
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-getfileranges">IBackgroundCopyFile2::GetFileRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-getfileranges">IBackgroundCopyFile2::GetFileRanges</a>
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>

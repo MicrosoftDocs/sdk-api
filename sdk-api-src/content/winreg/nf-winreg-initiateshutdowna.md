@@ -1,16 +1,13 @@
 ---
 UID: NF:winreg.InitiateShutdownA
 title: InitiateShutdownA function (winreg.h)
-description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart.
+description: Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart. (ANSI)
+helpviewer_keywords: ["InitiateShutdownA", "SHUTDOWN_FORCE_OTHERS", "SHUTDOWN_FORCE_SELF", "SHUTDOWN_GRACE_OVERRIDE", "SHUTDOWN_HYBRID", "SHUTDOWN_INSTALL_UPDATES", "SHUTDOWN_NOREBOOT", "SHUTDOWN_POWEROFF", "SHUTDOWN_RESTART", "SHUTDOWN_RESTARTAPPS", "winreg/InitiateShutdownA"]
 old-location: base\initiateshutdown.htm
-tech.root: Shutdown
+tech.root: base
 ms.assetid: 9d0d3774-3e4d-4e56-b4c2-d59d74e797a1
 ms.date: 12/05/2018
 ms.keywords: InitiateShutdown, InitiateShutdown function, InitiateShutdownA, InitiateShutdownW, SHUTDOWN_FORCE_OTHERS, SHUTDOWN_FORCE_SELF, SHUTDOWN_GRACE_OVERRIDE, SHUTDOWN_HYBRID, SHUTDOWN_INSTALL_UPDATES, SHUTDOWN_NOREBOOT, SHUTDOWN_POWEROFF, SHUTDOWN_RESTART, SHUTDOWN_RESTARTAPPS, base.initiateshutdown, security.initiateshutdown, winreg/InitiateShutdown, winreg/InitiateShutdownA, winreg/InitiateShutdownW
-f1_keywords:
-- winreg/InitiateShutdown
-dev_langs:
-- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Core-shutdown-l1-1-1.dll
-- advapi32legacy.dll
-- Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
-api_name:
-- InitiateShutdown
-- InitiateShutdownA
-- InitiateShutdownW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitiateShutdownA
+ - winreg/InitiateShutdownA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Core-shutdown-l1-1-1.dll
+ - advapi32legacy.dll
+ - Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
+api_name:
+ - InitiateShutdown
+ - InitiateShutdownA
+ - InitiateShutdownW
 ---
 
 # InitiateShutdownA function
@@ -53,31 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates a shutdown and restart of the specified computer, and restarts any applications that have been registered for restart.
 
-
 ## -parameters
-
-
-
 
 ### -param lpMachineName [in, optional]
 
 The name of the computer to be shut down. If the value of this parameter is <b>NULL</b>, the local computer is shut down.
 
-
 ### -param lpMessage [in, optional]
 
 The message to be displayed in the interactive shutdown dialog box.
-
 
 ### -param dwGracePeriod [in]
 
 The number of seconds to wait before shutting down the computer. If the value of this parameter is zero, the computer is shut down immediately. This value is limited to <b>MAX_SHUTDOWN_TIMEOUT</b>.
 
 If the value of this parameter is greater than zero, and the <i>dwShutdownFlags</i> parameter specifies the flag <b>SHUTDOWN_GRACE_OVERRIDE</b>, the function fails and returns the error code <b>ERROR_BAD_ARGUMENTS</b>.
-
 
 ### -param dwShutdownFlags [in]
 
@@ -185,23 +179,18 @@ The computer is shut down and rebooted.
 </dl>
 </td>
 <td width="60%">
-The system is rebooted using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function with the EWX_RESTARTAPPS flag. This restarts any applications that have been registered for restart using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
+The system is rebooted using the <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> function with the EWX_RESTARTAPPS flag. This restarts any applications that have been registered for restart using the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwReason [in]
 
-The reason for initiating the shutdown. This parameter must be one of the <a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-reason-codes">system shutdown reason codes</a>. 
+The reason for initiating the shutdown. This parameter must be one of the <a href="/windows/desktop/Shutdown/system-shutdown-reason-codes">system shutdown reason codes</a>. 
 If this parameter is zero, the default is an undefined shutdown that is logged as "No title for this reason could be found". By default, it is also an unplanned shutdown. Depending on how the system is configured, an unplanned shutdown triggers the creation of a file that contains the system state information, which can delay shutdown. Therefore, do not use zero for this parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
@@ -306,17 +295,11 @@ One or more users other than the current user are logged on the specified machin
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To shut down the local computer, the calling thread must have the SE_SHUTDOWN_NAME privilege. To shut down a remote computer, the calling thread must have the SE_REMOTE_SHUTDOWN_NAME privilege on the remote computer. By default, users can enable the SE_SHUTDOWN_NAME privilege on the computer they are logged onto, and administrators can enable the SE_REMOTE_SHUTDOWN_NAME privilege on remote computers. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+<a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Common reasons for failure include an invalid or inaccessible computer name or insufficient privilege. The error ERROR_SHUTDOWN_IN_PROGRESS is returned if a shutdown is already in progress on the specified computer. The error ERROR_NOT_READY can be returned if fast-user switching is enabled but no user is logged on.
 
@@ -325,13 +308,10 @@ A non-zero return value does not mean the logoff was or will be successful. The 
 
 
 
+
+> [!NOTE]
+> The winreg.h header defines InitiateShutdown as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
- 
-
- 
-
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>

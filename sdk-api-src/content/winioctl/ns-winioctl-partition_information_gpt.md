@@ -2,15 +2,12 @@
 UID: NS:winioctl._PARTITION_INFORMATION_GPT
 title: PARTITION_INFORMATION_GPT
 description: Contains GUID partition table (GPT) partition information.
+helpviewer_keywords: ["*PPARTITION_INFORMATION_GPT","GPT_ATTRIBUTE_PLATFORM_REQUIRED","GPT_BASIC_DATA_ATTRIBUTE_HIDDEN","GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER","GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY","GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY","PARTITION_BASIC_DATA_GUID","PARTITION_ENTRY_UNUSED_GUID","PARTITION_INFORMATION_GPT","PARTITION_INFORMATION_GPT structure [Files]","PARTITION_LDM_DATA_GUID","PARTITION_LDM_METADATA_GUID","PARTITION_MSFT_RECOVERY_GUID","PARTITION_MSFT_RESERVED_GUID","PARTITION_SYSTEM_GUID","PPARTITION_INFORMATION_GPT","PPARTITION_INFORMATION_GPT structure pointer [Files]","SET_PARTITION_INFORMATION_GPT","_win32_partition_information_gpt_str","base.partition_information_gpt_str","fs.partition_information_gpt_str","winioctl/PARTITION_INFORMATION_GPT","winioctl/PPARTITION_INFORMATION_GPT"]
 old-location: fs\partition_information_gpt_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 373b4eb3-af6d-4112-9787-f14c19972189
 ms.date: 12/05/2018
 ms.keywords: '*PPARTITION_INFORMATION_GPT, GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PARTITION_BASIC_DATA_GUID, PARTITION_ENTRY_UNUSED_GUID, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Files], PARTITION_LDM_DATA_GUID, PARTITION_LDM_METADATA_GUID, PARTITION_MSFT_RECOVERY_GUID, PARTITION_MSFT_RESERVED_GUID, PARTITION_SYSTEM_GUID, PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Files], SET_PARTITION_INFORMATION_GPT, _win32_partition_information_gpt_str, base.partition_information_gpt_str, fs.partition_information_gpt_str, winioctl/PARTITION_INFORMATION_GPT, winioctl/PPARTITION_INFORMATION_GPT'
-f1_keywords:
-- winioctl/PARTITION_INFORMATION_GPT
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- PARTITION_INFORMATION_GPT
 targetos: Windows
 req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 req.redist: 
+f1_keywords:
+ - _PARTITION_INFORMATION_GPT
+ - winioctl/_PARTITION_INFORMATION_GPT
+ - PPARTITION_INFORMATION_GPT
+ - winioctl/PPARTITION_INFORMATION_GPT
+ - PARTITION_INFORMATION_GPT
+ - winioctl/PARTITION_INFORMATION_GPT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - PARTITION_INFORMATION_GPT
 ---
 
 # PARTITION_INFORMATION_GPT structure
@@ -47,14 +53,9 @@ req.redist:
 
 ## -description
 
-
 Contains <b>GUID</b> partition table (GPT) partition information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field PartitionType
 
@@ -81,8 +82,8 @@ The data partition type that is created and recognized by Windows.
 
 Only partitions of this type can be assigned drive letters, receive volume 
          <b>GUID</b> paths, host mounted folders (also called volume mount points), and be 
-         enumerated by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>.
+         enumerated by calls to <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+         <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>.
 
 This value can be set only for basic disks, with one exception. If both 
          <b>PARTITION_BASIC_DATA_GUID</b> and 
@@ -172,13 +173,10 @@ This value can be set for basic and dynamic disks.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PartitionId
 
 The GUID of the partition.
-
 
 ### -field Attributes
 
@@ -201,9 +199,9 @@ This member can be one or more of the following values.
 If this attribute is set, the partition is required by  a computer to function properly.
 
 For example, this attribute must be set for OEM partitions. Note that if this attribute is set, you can use 
-         the <a href="https://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> utility to perform 
+         the <a href="/windows-server/administration/windows-commands/diskpart">DiskPart.exe</a> utility to perform 
          partition operations such as deleting the partition. However, because the partition is not a volume, you 
-         cannot use the <a href="https://go.microsoft.com/fwlink/p/?linkid=103544">DiskPart.exe</a> utility to 
+         cannot use the <a href="/windows-server/administration/windows-commands/diskpart">DiskPart.exe</a> utility to 
          perform volume operations on the partition.
 
 This attribute can be set for basic and dynamic disks. If it is set for a partition on a basic disk and the 
@@ -239,8 +237,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a result, the partition does not receive a drive letter, does not receive a volume 
          <b>GUID</b> path, does not host mounted folders (also called volume mount points), and 
-         is not enumerated by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
+         is not enumerated by calls to <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+         <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
          such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this 
          attribute.
 
@@ -281,7 +279,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only.
 
 Writes to the partition will fail. 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
+         <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
          <b>ERROR_WRITE_PROTECT</b> Win32 error code, which causes the file system to mount as read 
          only, if a file system is present.
 
@@ -293,17 +291,12 @@ Do not set this attribute for dynamic disks. Setting it can cause I/O errors and
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Name
 
 A wide-character string that describes the partition.
 
-
 ## -remarks
-
-
 
 The GPT partition format is required for disks that are used to boot computers that use 
     Extended Firmware Interface (EFI) firmware. GPT data disks can reside on x86, x64, and Itanium-based 
@@ -313,28 +306,18 @@ Starting with
     Windows Server 2003 with SP1, GPT is supported on all Windows platforms, not only platforms that use 
     EFI.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>

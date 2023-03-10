@@ -2,15 +2,12 @@
 UID: NF:lmwksta.NetWkstaTransportEnum
 title: NetWkstaTransportEnum function (lmwksta.h)
 description: The NetWkstaTransportEnum function supplies information about transport protocols that are managed by the redirector, which is the software on the client computer that generates file requests to the server computer.
+helpviewer_keywords: ["0","NetWkstaTransportEnum","NetWkstaTransportEnum function [Network Management]","_win32_netwkstatransportenum","lmwksta/NetWkstaTransportEnum","netmgmt.netwkstatransportenum"]
 old-location: netmgmt\netwkstatransportenum.htm
 tech.root: NetMgmt
 ms.assetid: 08bd22a9-00a7-4563-9353-c070ca9b2500
 ms.date: 12/05/2018
 ms.keywords: 0, NetWkstaTransportEnum, NetWkstaTransportEnum function [Network Management], _win32_netwkstatransportenum, lmwksta/NetWkstaTransportEnum, netmgmt.netwkstatransportenum
-f1_keywords:
-- lmwksta/NetWkstaTransportEnum
-dev_langs:
-- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetWkstaTransportEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetWkstaTransportEnum
+ - lmwksta/NetWkstaTransportEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetWkstaTransportEnum
 ---
 
 # NetWkstaTransportEnum function
@@ -48,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The 
-				<b>NetWkstaTransportEnum</b> function supplies information about transport protocols that are managed by the redirector, which is the software on the client computer that generates file requests to the server computer.
-
+The <b>NetWkstaTransportEnum</b> function supplies information about transport protocols that are managed by the redirector, which is the software on the client computer that generates file requests to the server computer.
 
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 A pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-					
-
 
 ### -param level [in]
 
 The level of information requested for the data. This parameter can be the following value. 
-
-
 
 <table>
 <tr>
@@ -82,50 +74,36 @@ The level of information requested for the data. This parameter can be the follo
 </td>
 <td width="60%">
 Return workstation transport protocol information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_transport_info_0">WKSTA_TRANSPORT_INFO_0</a> structures.
+<a href="/windows/desktop/api/lmwksta/ns-lmwksta-wksta_transport_info_0">WKSTA_TRANSPORT_INFO_0</a> structures.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param bufptr [out]
 
 A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b> or <b>NERR_BufTooSmall</b>.
-
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with <b>ERROR_MORE_DATA</b> or <b>NERR_BufTooSmall</b>.
 
 ### -param prefmaxlen [in]
 
 The preferred maximum length of returned data, in bytes. If you specify <b>MAX_PREFERRED_LENGTH</b>, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns <b>ERROR_MORE_DATA</b> or <b>NERR_BufTooSmall</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
-
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ### -param entriesread [out]
 
 A pointer to a value that receives the count of elements actually enumerated.
 
-
 ### -param totalentries [out]
 
 A pointer to a value that receives the total number of entries that could have been enumerated from the current resume position. Note that applications should consider this value only as a hint.
 
-
-#### - resume_handle [in, out]
-
-A pointer to a value that contains a resume handle which is used to continue an existing workstation transport search. The handle should be zero on the first call and left unchanged for subsequent calls. If the <i>resumehandle</i> parameter is a <b>NULL</b> pointer, no resume handle is stored.
-
-
-#### - resumehandle [in, out]
+### -param resume_handle [in, out]
 
 A pointer to a value that contains a resume handle which is used to continue an existing workstation transport search. The handle should be zero on the first call and left unchanged for subsequent calls. If the <i>resumehandle</i> parameter is a <b>NULL</b> pointer, no resume handle is stored.
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -203,50 +181,34 @@ More entries are available. Specify a large enough buffer to receive all entries
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 No special group membership is required to successfully execute the 
 <b>NetWkstaTransportEnum</b> function.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportadd">NetWkstaTransportAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportadd">NetWkstaTransportAdd</a>
+<a href="/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportdel">NetWkstaTransportDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/nf-lmwksta-netwkstatransportdel">NetWkstaTransportDel</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
+<a href="/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmwksta/ns-lmwksta-wksta_transport_info_0">WKSTA_TRANSPORT_INFO_0</a>
- 
-
- 
-
+<a href="/windows/desktop/api/lmwksta/ns-lmwksta-wksta_transport_info_0">WKSTA_TRANSPORT_INFO_0</a>

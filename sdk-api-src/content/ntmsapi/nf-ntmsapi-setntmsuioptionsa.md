@@ -1,16 +1,13 @@
 ---
 UID: NF:ntmsapi.SetNtmsUIOptionsA
 title: SetNtmsUIOptionsA function (ntmsapi.h)
-description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object.
+description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object. (ANSI)
+helpviewer_keywords: ["NTMS_UIDEST_ADD", "NTMS_UIDEST_DELETE", "NTMS_UIDEST_DELETEALL", "NTMS_UITYPE_ERR", "NTMS_UITYPE_INFO", "NTMS_UITYPE_REQ", "SetNtmsUIOptionsA", "ntmsapi/SetNtmsUIOptionsA"]
 old-location: fs\setntmsuioptions.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 1e76fddc-20b4-4645-9519-2033487dbbc5
 ms.date: 12/05/2018
 ms.keywords: NTMS_UIDEST_ADD, NTMS_UIDEST_DELETE, NTMS_UIDEST_DELETEALL, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, SetNtmsUIOptions, SetNtmsUIOptions function [Files], SetNtmsUIOptionsA, SetNtmsUIOptionsW, _zaw_setntmsuioptions, base.setntmsuioptions, fs.setntmsuioptions, ntmsapi/SetNtmsUIOptions, ntmsapi/SetNtmsUIOptionsA, ntmsapi/SetNtmsUIOptionsW
-f1_keywords:
-- ntmsapi/SetNtmsUIOptions
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SetNtmsUIOptions
-- SetNtmsUIOptionsA
-- SetNtmsUIOptionsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNtmsUIOptionsA
+ - ntmsapi/SetNtmsUIOptionsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SetNtmsUIOptions
+ - SetNtmsUIOptionsA
+ - SetNtmsUIOptionsW
 ---
 
 # SetNtmsUIOptionsA function
@@ -50,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SetNtmsUIOptions</b> function modifies the list of computer names to which the specified type of UI is being directed for the given object.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpObjectId [in]
 
@@ -76,7 +72,6 @@ Unique identifier of the object whose UI is being redirected. The object must be
 
 
 To specify the computer container set the <i>lpObjectId</i> pointer to point to a buffer with the Removable Storage Manager's computer object GUID. To specify a particular library set it to point to a buffer with the library's GUID. To specify an application, pass in a <b>NULL</b> pointer. The identity of the application is determined by the session used in <i>hSession</i>. Note that an application can have multiple sessions open simultaneously. In this case, the value set applies only to the <i>hSession</i> session. In the case of a library or computer instance, settings persist until explicitly changed. Application rows are deleted when the session is closed.
-
 
 ### -param dwType [in]
 
@@ -120,8 +115,6 @@ UI messages that give error information. These include operator requests that ar
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOperation [in]
 
@@ -165,17 +158,12 @@ Clear all destinations from the list. No UI for the object is generated. In this
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszDestination [out]
 
 Multi-string that returns the names of the computers to which the UI is being redirected. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -262,14 +250,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A call to 
 <b>SetNtmsUIOptions</b> adds or removes a destination for a particular instance determined by the <i>lpObjectId</i> and <i>dwType</i> parameters.
@@ -311,17 +293,14 @@ Note that there is no checking of destination strings. A call to with a destinat
 
 
 
+
+> [!NOTE]
+> The ntmsapi.h header defines SetNtmsUIOptions as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsuioptionsa">GetNtmsUIOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsuioptionsa">GetNtmsUIOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>

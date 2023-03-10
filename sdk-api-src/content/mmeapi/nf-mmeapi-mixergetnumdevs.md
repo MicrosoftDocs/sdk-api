@@ -2,15 +2,12 @@
 UID: NF:mmeapi.mixerGetNumDevs
 title: mixerGetNumDevs function (mmeapi.h)
 description: The mixerGetNumDevs function retrieves the number of mixer devices present in the system.
+helpviewer_keywords: ["_win32_mixerGetNumDevs","mixerGetNumDevs","mixerGetNumDevs function [Windows Multimedia]","mmeapi/mixerGetNumDevs","multimedia.mixergetnumdevs"]
 old-location: multimedia\mixergetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: ae3c3a28-1dc1-4e35-99d6-68e629124a89
 ms.date: 12/05/2018
 ms.keywords: _win32_mixerGetNumDevs, mixerGetNumDevs, mixerGetNumDevs function [Windows Multimedia], mmeapi/mixerGetNumDevs, multimedia.mixergetnumdevs
-f1_keywords:
-- mmeapi/mixerGetNumDevs
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- mixerGetNumDevs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mixerGetNumDevs
+ - mmeapi/mixerGetNumDevs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - mixerGetNumDevs
 ---
 
 # mixerGetNumDevs function
@@ -50,40 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mixerGetNumDevs</b> function retrieves the number of mixer devices present in the system.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns the number of mixer devices or zero if no mixer devices are available.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>

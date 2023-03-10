@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.UrlEscapeA
 title: UrlEscapeA function (shlwapi.h)
-description: Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet (&#0034;unsafe&#0034; characters) into their corresponding escape sequences.
+description: Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet (&quot;unsafe&quot; characters) into their corresponding escape sequences. (ANSI)
+helpviewer_keywords: ["URL_BROWSER_MODE", "URL_DONT_ESCAPE_EXTRA_INFO", "URL_ESCAPE_ASCII_URI_COMPONENT", "URL_ESCAPE_AS_UTF8", "URL_ESCAPE_PERCENT", "URL_ESCAPE_SEGMENT_ONLY", "URL_ESCAPE_SPACES_ONLY", "UrlEscapeA", "shlwapi/UrlEscapeA"]
 old-location: shell\UrlEscape.htm
 tech.root: shell
 ms.assetid: 52ee1501-2cd4-4193-8363-0af91673ec88
 ms.date: 12/05/2018
 ms.keywords: URL_BROWSER_MODE, URL_DONT_ESCAPE_EXTRA_INFO, URL_ESCAPE_ASCII_URI_COMPONENT, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SEGMENT_ONLY, URL_ESCAPE_SPACES_ONLY, UrlEscape, UrlEscape function [Windows Shell], UrlEscapeA, UrlEscapeW, _win32_UrlEscape, shell.UrlEscape, shlwapi/UrlEscape, shlwapi/UrlEscapeA, shlwapi/UrlEscapeW
-f1_keywords:
-- shlwapi/UrlEscape
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-url-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- UrlEscape
-- UrlEscapeA
-- UrlEscapeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UrlEscapeA
+ - shlwapi/UrlEscapeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - UrlEscape
+ - UrlEscapeA
+ - UrlEscapeW
 ---
 
 # UrlEscapeA function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet ("unsafe" characters) into their corresponding escape sequences. Surrogate pairs are characters between U+10000 to U+10FFFF (in UTF-32)  or between DC00 to DFFF (in UTF-16). 
-
+Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet ("unsafe" characters) into their corresponding escape sequences. Surrogate pairs are characters between U+10000 to U+10FFFF (in UTF-32)  or between DC00 to DFFF (in UTF-16).
 
 ## -parameters
-
-
-
 
 ### -param pszUrl [in]
 
@@ -69,13 +66,11 @@ Type: <b>PCTSTR</b>
 
 A null-terminated string of maximum length <b>INTERNET_MAX_URL_LENGTH</b> that contains a full or partial URL, as appropriate for the value in <i>dwFlags</i>.
 
-
 ### -param pszEscaped [out]
 
 Type: <b>PTSTR</b>
 
 The buffer that receives the converted string, with the unsafe characters converted to their escape sequences.
-
 
 ### -param pcchEscaped [in, out]
 
@@ -86,7 +81,6 @@ A pointer to a <b>DWORD</b> value that, on entry, contains the number of charact
                         
 
 If an E_POINTER error code is returned, the buffer was too small to hold the result, and the value referenced by <i>pcchEscaped</i> is set to the required number of characters in the buffer. If any other errors are returned, the value referenced by <i>pcchEscaped</i> is undefined.
-
 
 ### -param dwFlags
 
@@ -154,27 +148,23 @@ This flag cannot be combined with <b>URL_ESCAPE_SPACES_ONLY</b> or <b>URL_DONT_E
 
 <b>Windows 8 and later</b>. Percent-encode all ASCII characters outside of the unreserved set from URI RFC 3986 (a-zA-Z0-9-.~_).
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful. If the <i>pcchEscaped</i> buffer was too small to contain the result, E_POINTER is returned, and the value pointed to by <i>pcchEscaped</i> is set to the required buffer size. Otherwise, a standard error value is returned.
 
-
-
-
 ## -remarks
-
-
 
 For the purposes of this document, a typical URL is divided into three sections: the server, the segment, and the query. For example: 
 
                 
 
-<pre class="syntax" xml:space="preserve"><code>http://microsoft.com/test.asp?url=/example/abc.asp?frame=true#fragment</code></pre>
+
+``` syntax
+http://microsoft.com/test.asp?url=/example/abc.asp?frame=true#fragment
+```
+
 The server portion is "http://microsoft.com/". The trailing forward slash is considered part of the server portion.
                 
                 
@@ -287,13 +277,10 @@ Result   = test%2Ft%e%3Cs%20t.asp
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines UrlEscape as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>

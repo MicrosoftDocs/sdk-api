@@ -1,16 +1,13 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserUnmarshal64
 title: LPSAFEARRAY_UserUnmarshal64 function (wia_xp.h)
-description: Unmarshals a SAFEARRAY object from the RPC buffer.
+description: Unmarshals a SAFEARRAY object from the RPC buffer. (LPSAFEARRAY_UserUnmarshal64)
+helpviewer_keywords: ["LPSAFEARRAY_UserUnmarshal64","LPSAFEARRAY_UserUnmarshal64 function [Automation]","automat.lpsafearray_userunmarshal64","wia_xp/LPSAFEARRAY_UserUnmarshal64"]
 old-location: automat\lpsafearray_userunmarshal64.htm
 tech.root: automat
 ms.assetid: 19B52C54-0905-446C-A8D9-C98153931708
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal64, LPSAFEARRAY_UserUnmarshal64 function [Automation], automat.lpsafearray_userunmarshal64, wia_xp/LPSAFEARRAY_UserUnmarshal64
-f1_keywords:
-- wia_xp/LPSAFEARRAY_UserUnmarshal64
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- LPSAFEARRAY_UserUnmarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPSAFEARRAY_UserUnmarshal64
+ - wia_xp/LPSAFEARRAY_UserUnmarshal64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - LPSAFEARRAY_UserUnmarshal64
 ---
 
 # LPSAFEARRAY_UserUnmarshal64 function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Unmarshals a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object from the RPC buffer.
-
+Unmarshals a <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object from the RPC buffer.
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry. The function aligns the buffer pointer, marshals the data, and returns the new buffer position, which is the address of the first byte after the marshaled object.
 
-
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Receives the safe array that contains the data.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -140,12 +132,8 @@ Insufficient memory for this function to perform.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.
+The <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object does not have the correct dimensions, does not have the correct features, or memory cannot be reallocated.
 
 </td>
 </tr>
 </table>
- 
-
-
-

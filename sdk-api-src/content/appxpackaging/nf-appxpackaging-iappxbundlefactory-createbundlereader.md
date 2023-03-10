@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleReader
 title: IAppxBundleFactory::CreateBundleReader (appxpackaging.h)
 description: Creates a read-only bundle object that reads its contents from an IStream object.
+helpviewer_keywords: ["CreateBundleReader","CreateBundleReader method [App packaging and management]","CreateBundleReader method [App packaging and management]","IAppxBundleFactory interface","IAppxBundleFactory interface [App packaging and management]","CreateBundleReader method","IAppxBundleFactory.CreateBundleReader","IAppxBundleFactory::CreateBundleReader","appxpackaging/IAppxBundleFactory::CreateBundleReader","appxpkg.iappxbundlefactory_createbundlereader"]
 old-location: appxpkg\iappxbundlefactory_createbundlereader.htm
 tech.root: appxpkg
 ms.assetid: 3D9F7A0A-EF6A-4C99-B9A0-C618138DB5ED
 ms.date: 12/05/2018
 ms.keywords: CreateBundleReader, CreateBundleReader method [App packaging and management], CreateBundleReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleReader method, IAppxBundleFactory.CreateBundleReader, IAppxBundleFactory::CreateBundleReader, appxpackaging/IAppxBundleFactory::CreateBundleReader, appxpkg.iappxbundlefactory_createbundlereader
-f1_keywords:
-- appxpackaging/IAppxBundleFactory.CreateBundleReader
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleFactory.CreateBundleReader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleFactory::CreateBundleReader
+ - appxpackaging/IAppxBundleFactory::CreateBundleReader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleFactory.CreateBundleReader
 ---
 
 # IAppxBundleFactory::CreateBundleReader
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a read-only bundle object that reads its contents from an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object. 
-
+Creates a read-only bundle object that reads its contents from an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
 
 ## -parameters
 
-
-
-
 ### -param inputStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-The input stream that delivers the content of the package for reading. The stream must support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>. If these methods fail, their error codes might be passed to and returned by this method.
-
+The input stream that delivers the content of the package for reading. The stream must support <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>. If these methods fail, their error codes might be passed to and returned by this method.
 
 ### -param bundleReader [out, retval]
 
@@ -70,10 +66,7 @@ Type: <b>IAppxBundleReader**</b>
 
 A  bundle  reader.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -129,18 +122,7 @@ The bundle manifest is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a>

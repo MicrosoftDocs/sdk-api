@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetStyle
 title: ITextFont::SetStyle (tom.h)
 description: Sets the character style handle of the characters in a range.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetStyle method","ITextFont.SetStyle","ITextFont::SetStyle","SetStyle","SetStyle method [Windows Controls]","SetStyle method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetStyle","_win32_ITextFont_SetStyle_cpp","controls.ITextFont_SetStyle","controls._win32_ITextFont_SetStyle","tom/ITextFont::SetStyle"]
 old-location: controls\ITextFont_SetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontsetstyle.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetStyle method, ITextFont.SetStyle, ITextFont::SetStyle, SetStyle, SetStyle method [Windows Controls], SetStyle method [Windows Controls],ITextFont interface, _win32_ITextFont_SetStyle, _win32_ITextFont_SetStyle_cpp, controls.ITextFont_SetStyle, controls._win32_ITextFont_SetStyle, tom/ITextFont::SetStyle
-f1_keywords:
-- tom/ITextFont.SetStyle
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetStyle
+ - tom/ITextFont::SetStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetStyle
 ---
 
 # ITextFont::SetStyle
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the character style handle of the characters in a range.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-The new character style handle. 
-
+The new character style handle.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -122,34 +116,22 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The Text Object Model (TOM) version 1.0 does not specify the meanings of the style handles. The meanings depend on other facilities of the text system that implements TOM. 
-
-
-
+The Text Object Model (TOM) version 1.0 does not specify the meanings of the style handles. The meanings depend on other facilities of the text system that implements TOM.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getstyle">GetStyle</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-getstyle">GetStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -157,8 +139,4 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

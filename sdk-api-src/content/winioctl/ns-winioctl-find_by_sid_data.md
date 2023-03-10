@@ -1,16 +1,13 @@
 ---
-UID: NS:winioctl.__unnamed_struct_12
+UID: NS:winioctl.FIND_BY_SID_DATA
 title: FIND_BY_SID_DATA
 description: Contains data for the FSCTL_FIND_FILES_BY_SID control code.
+helpviewer_keywords: ["*PFIND_BY_SID_DATA","FIND_BY_SID_DATA","FIND_BY_SID_DATA structure [Files]","PFIND_BY_SID_DATA","PFIND_BY_SID_DATA structure pointer [Files]","base.find_by_sid_data","fs.find_by_sid_data","winioctl/FIND_BY_SID_DATA","winioctl/PFIND_BY_SID_DATA"]
 old-location: fs\find_by_sid_data.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: fd0294a1-be43-4353-8edc-dff8bf0b0787
 ms.date: 12/05/2018
 ms.keywords: '*PFIND_BY_SID_DATA, FIND_BY_SID_DATA, FIND_BY_SID_DATA structure [Files], PFIND_BY_SID_DATA, PFIND_BY_SID_DATA structure pointer [Files], base.find_by_sid_data, fs.find_by_sid_data, winioctl/FIND_BY_SID_DATA, winioctl/PFIND_BY_SID_DATA'
-f1_keywords:
-- winioctl/FIND_BY_SID_DATA
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FIND_BY_SID_DATA
 targetos: Windows
 req.typenames: FIND_BY_SID_DATA, *PFIND_BY_SID_DATA
 req.redist: 
+f1_keywords:
+ - PFIND_BY_SID_DATA
+ - winioctl/PFIND_BY_SID_DATA
+ - FIND_BY_SID_DATA
+ - winioctl/FIND_BY_SID_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FIND_BY_SID_DATA
 ---
 
 # FIND_BY_SID_DATA structure
@@ -47,16 +51,11 @@ req.redist:
 
 ## -description
 
-
 Contains data for the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a> control 
+   <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a> control 
    code.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Restart
 
@@ -64,20 +63,12 @@ Indicates whether to restart the search. This member should be 1 on first call, 
       from the root. For subsequent calls, this member should be zero so the search will resume at the point where it 
       stopped.
 
-
 ### -field Sid
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that specifies the desired creator 
+A <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that specifies the desired creator 
       owner.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
- 
-
- 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
 

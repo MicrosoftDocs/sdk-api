@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.PathCanonicalizeA
 title: PathCanonicalizeA function (shlwapi.h)
-description: Simplifies a path by removing navigation elements such as &#0034;.&#0034; and &#0034;..&#0034; to produce a direct, well-formed path.
+description: Simplifies a path by removing navigation elements such as &quot;.&quot; and &quot;..&quot; to produce a direct, well-formed path. (ANSI)
+helpviewer_keywords: ["PathCanonicalizeA", "shlwapi/PathCanonicalizeA"]
 old-location: shell\PathCanonicalize.htm
 tech.root: shell
 ms.assetid: e9b1e877-2cd6-4dd9-a15b-676cb940daed
 ms.date: 12/05/2018
 ms.keywords: PathCanonicalize, PathCanonicalize function [Windows Shell], PathCanonicalizeA, PathCanonicalizeW, _win32_PathCanonicalize, shell.PathCanonicalize, shlwapi/PathCanonicalize, shlwapi/PathCanonicalizeA, shlwapi/PathCanonicalizeW
-f1_keywords:
-- shlwapi/PathCanonicalize
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathCanonicalize
-- PathCanonicalizeA
-- PathCanonicalizeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathCanonicalizeA
+ - shlwapi/PathCanonicalizeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathCanonicalize
+ - PathCanonicalizeA
+ - PathCanonicalizeW
 ---
 
 # PathCanonicalizeA function
@@ -54,14 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Simplifies a path by removing navigation elements such as "." and ".." to produce a direct, well-formed path.
-<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  Misuse of this function can lead to a buffer overrun. We recommend the use of the safer <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a> or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a> function in its place.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param pszBuf [out]
 
@@ -69,28 +67,19 @@ Type: <b>LPTSTR</b>
 
 A pointer to a string that receives the canonicalized path. You must set the size of this buffer to MAX_PATH to ensure that it is large enough to hold the returned string.
 
-
 ### -param pszPath [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path to be canonicalized.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if a result has been computed and the content of the <i>lpszDst</i> output buffer is valid. Returns <b>FALSE</b> otherwise, and the contents of the buffer pointed to by <i>lpszDst</i> are invalid. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+Returns <b>TRUE</b> if a result has been computed and the content of the <i>lpszDst</i> output buffer is valid. Returns <b>FALSE</b> otherwise, and the contents of the buffer pointed to by <i>lpszDst</i> are invalid. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function allows the user to specify what to remove from a path by inserting special character sequences into the path. The ".." sequence indicates to remove a path segment from the current position to the previous path segment. The "." sequence indicates to skip over the next path segment to the following path segment. The root segment of the path cannot be removed.
 
@@ -193,3 +182,6 @@ The canonicalized path 1 is    : C:\
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines PathCanonicalize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

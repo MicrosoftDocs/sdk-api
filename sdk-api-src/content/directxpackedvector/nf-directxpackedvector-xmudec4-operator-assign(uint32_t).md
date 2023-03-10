@@ -2,13 +2,11 @@
 UID: NF:directxpackedvector.XMUDEC4.operator-assign(uint32_t)
 title: XMUDEC4::operator=
 description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMUDEC4.
+tech.root: dxmath
+helpviewer_keywords: ["XMUDEC4::operator="]
 ms.assetid: fa7526a5-4fff-46f9-a79a-af2a6c5caacb
 ms.date: 05/20/2019
 ms.keywords: XMUDEC4::operator=
-f1_keywords:
-- directxpackedvector/XMUDEC4::operator=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,21 +27,26 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMUDEC4::operator=
+ - directxpackedvector/XMUDEC4::operator=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxpackedvector.h
+ - directxpackedvector.h
 api_name:
-- XMUDEC4::operator=
+ - XMUDEC4::operator=
 ---
 
 # XMUDEC4::operator =  (const uint32_t)
 
+
 ## -description
 
-Assigns the vector component data packed in an instance of **uint32_t** to the current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>.
+Assigns the vector component data packed in an instance of **uint32_t** to the current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>.
 
 This operator assigns the vector component data packed in an instance of **uint32_t** to the current instance of **XMUDEC4**.
 
@@ -70,4 +73,4 @@ The format of Packed is:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>

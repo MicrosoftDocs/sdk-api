@@ -1,16 +1,13 @@
 ---
 UID: NF:appmodel.GetPackagePathByFullName
 title: GetPackagePathByFullName function (appmodel.h)
-description: Gets the path of the specified package.
+description: Gets the path of the specified package. (GetPackagePathByFullName)
+helpviewer_keywords: ["GetPackagePathByFullName","GetPackagePathByFullName function [App packaging and management]","appmodel/GetPackagePathByFullName","appxpkg.getpackagepathbyfullname"]
 old-location: appxpkg\getpackagepathbyfullname.htm
 tech.root: appxpkg
 ms.assetid: 9C25708C-1464-4C59-9740-E9F105116385
 ms.date: 12/05/2018
 ms.keywords: GetPackagePathByFullName, GetPackagePathByFullName function [App packaging and management], appmodel/GetPackagePathByFullName, appxpkg.getpackagepathbyfullname
-f1_keywords:
-- appmodel/GetPackagePathByFullName
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetPackagePathByFullName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPackagePathByFullName
+ - appmodel/GetPackagePathByFullName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetPackagePathByFullName
 ---
 
 # GetPackagePathByFullName function
@@ -51,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the path of the specified package.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFullName [in]
 
 Type: <b>PCWSTR</b>
 
 The full name of the package.
-
 
 ### -param pathLength [in, out]
 
@@ -75,17 +71,13 @@ A pointer to a variable that holds the number of characters (<b>WCHAR</b>s) in t
 
 First you pass <b>NULL</b> to <i>path</i> to get the number of characters. You use this number to allocate memory space for <i>path</i>. Then you pass the address of this memory space to fill <i>path</i>.
 
-
 ### -param path [out, optional]
 
 Type: <b>PWSTR</b>
 
 A pointer to memory space that receives  the package path string, which includes the null-terminator.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -108,11 +100,8 @@ The buffer specified by <i>path</i> is not large enough to hold the data. The re
 </td>
 </tr>
 </table>
- 
-
-
 
 ## -see-also
 
-
 [GetPackagePathByFullName2](nf-appmodel-getpackagepathbyfullname2.md)
+

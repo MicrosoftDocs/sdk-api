@@ -2,15 +2,12 @@
 UID: NF:oleauto.SafeArrayGetIID
 title: SafeArrayGetIID function (oleauto.h)
 description: Gets the GUID of the interface contained within the specified safe array.
+helpviewer_keywords: ["SafeArrayGetIID","SafeArrayGetIID function [Automation]","_oa96_SafeArrayGetIID","automat.safearraygetiid","oleauto/SafeArrayGetIID"]
 old-location: automat\safearraygetiid.htm
 tech.root: automat
 ms.assetid: 9416f7f8-aee0-4e6a-be4f-ca6061adb244
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetIID, SafeArrayGetIID function [Automation], _oa96_SafeArrayGetIID, automat.safearraygetiid, oleauto/SafeArrayGetIID
-f1_keywords:
-- oleauto/SafeArrayGetIID
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- SafeArrayGetIID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SafeArrayGetIID
+ - oleauto/SafeArrayGetIID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - SafeArrayGetIID
 ---
 
 # SafeArrayGetIID function
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the GUID of the interface contained within the specified safe array.
-
 
 ## -parameters
 
-
-
-
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
-
-
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param pguid [out]
 
 The GUID of the interface.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -102,7 +94,3 @@ The argument <i>psa</i> is null or the array descriptor does not have the FADF_H
 </td>
 </tr>
 </table>
- 
-
-
-

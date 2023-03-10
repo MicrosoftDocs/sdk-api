@@ -1,13 +1,11 @@
 ---
 UID: NF:directxcollision.BoundingBox.Intersects
 title: BoundingBox::Intersects
-description: 
-ms.date: 04/22/19
+description: The BoundingBox::Intersects function (directxcollision.h) tests the BoundingBox for intersection with a BoundingSphere.
+tech.root: dxmath
+helpviewer_keywords: ["BoundingBox::Intersects"]
+ms.date: 08/12/2022
 ms.keywords: BoundingBox::Intersects
-f1_keywords:
-- directxcollision/BoundingBox::Intersects
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -22,23 +20,28 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingBox::Intersects
+ - directxcollision/BoundingBox::Intersects
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingBox::Intersects
+ - BoundingBox::Intersects
 ---
 
 # BoundingBox.Intersects(const BoundingSphere&) method
+
 
 ## -description
 
@@ -64,3 +67,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 ## -see-also
 
 [BoundingBox](ns-directxcollision-boundingbox.md)
+

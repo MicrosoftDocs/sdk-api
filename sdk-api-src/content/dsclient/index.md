@@ -4,8 +4,11 @@ title: Dsclient.h header
 ms.assetid: 067265ba-83f1-39aa-a861-5f34057c802f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: ad
+f1_keywords:
+ - dsclient
+ - dsclient/dsclient
 ---
 
 # Dsclient.h header
@@ -13,8 +16,8 @@ tech.root: ad
 
 ## -description
 
-
-This header is used by Active Directory Domain Services. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Active Directory Domain Services](../_ad/index.md)
+- [Microsoft Management Console 2.0](../_mmc/index.md)
 

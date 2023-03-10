@@ -1,16 +1,13 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMMODULES_CALLBACK64
 title: PSYM_ENUMMODULES_CALLBACK64 (dbghelp.h)
-description: An application-defined callback function used with the SymEnumerateModules64 function. It is called once for each enumerated module, and receives the module information.
+description: PSYM_ENUMMODULES_CALLBACK64 (dbghelp.h) is an application-defined callback function used with the SymEnumerateModules64 function.
+helpviewer_keywords: ["PSYM_ENUMMODULES_CALLBACK","PSYM_ENUMMODULES_CALLBACK64","PSYM_ENUMMODULES_CALLBACKW64","SymEnumerateModulesProc64","SymEnumerateModulesProc64 callback","SymEnumerateModulesProc64 callback function","_win32_symenumeratemodulesproc64","base.symenumeratemodulesproc64","dbghelp/SymEnumerateModulesProc64"]
 old-location: base\symenumeratemodulesproc64.htm
 tech.root: Debug
 ms.assetid: 97a82134-7e1b-4c7e-aa55-8347fea4e739
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: PSYM_ENUMMODULES_CALLBACK, PSYM_ENUMMODULES_CALLBACK64, PSYM_ENUMMODULES_CALLBACKW64, SymEnumerateModulesProc64, SymEnumerateModulesProc64 callback, SymEnumerateModulesProc64 callback function, _win32_symenumeratemodulesproc64, base.symenumeratemodulesproc64, dbghelp/SymEnumerateModulesProc64
-f1_keywords:
-- dbghelp/SymEnumerateModulesProc64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- DbgHelp.h
-api_name:
-- SymEnumerateModulesProc64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - PSYM_ENUMMODULES_CALLBACK64
+ - dbghelp/PSYM_ENUMMODULES_CALLBACK64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - DbgHelp.h
+api_name:
+ - SymEnumerateModulesProc64
 ---
 
 # PSYM_ENUMMODULES_CALLBACK64 callback function
@@ -48,49 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a> function. It is called once for each enumerated module, and receives the module information.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a> function. It is called once for each enumerated module, and receives the module information.
 
 The <b>PSYM_ENUMMODULES_CALLBACK64</b> and <b>PSYM_ENUMMODULES_CALLBACKW64</b> types define a pointer to this callback function. 
 <b>SymEnumerateModulesProc64</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param ModuleName [in]
 
 The name of the module.
 
-
 ### -param BaseOfDll [in]
 
 The base address where the module is loaded into memory.
 
-
 ### -param UserContext [in, optional]
 
 The user-defined value specified in 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some type of context.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a>, or <b>NULL</b>. Typically, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some type of context.
 
 ## -returns
-
-
 
 If the return value is <b>TRUE</b>, the enumeration will continue.
 
 If the return value is <b>FALSE</b>, the enumeration will stop.
 
-
-
-
 ## -remarks
-
-
 
 The calling application is called once per module until all modules are enumerated, or until the enumeration callback function returns <b>FALSE</b>.
 
@@ -110,21 +97,10 @@ typedef BOOL
 #endif
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumeratemodules">SymEnumerateModules64</a>

@@ -2,15 +2,12 @@
 UID: NS:dhcpv6csdk._DHCPV6PrefixLeaseInformation
 title: DHCPV6PrefixLeaseInformation (dhcpv6csdk.h)
 description: Information about a prefix lease.
+helpviewer_keywords: ["*LPDHCPV6PrefixLeaseInformation","*PDHCPV6PrefixLeaseInformation","DHCPV6PrefixLeaseInformation","DHCPV6PrefixLeaseInformation structure [DHCP]","LPDHCPV6PrefixLeaseInformation","LPDHCPV6PrefixLeaseInformation structure pointer [DHCP]","PDHCPV6PrefixLeaseInformation","PDHCPV6PrefixLeaseInformation structure pointer [DHCP]","STATUS_NOPREFIX_AVAIL","STATUS_NO_BINDING","STATUS_NO_ERROR","STATUS_UNSPECIFIED_FAILURE","dhcp.dhcpv6prefixleaseinformation","dhcpv6csdk/DHCPV6PrefixLeaseInformation","dhcpv6csdk/LPDHCPV6PrefixLeaseInformation","dhcpv6csdk/PDHCPV6PrefixLeaseInformation"]
 old-location: dhcp\dhcpv6prefixleaseinformation.htm
 tech.root: DHCP
 ms.assetid: d3e76716-a8cc-4618-a85f-d8fb9ca3257e
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation, DHCPV6PrefixLeaseInformation structure [DHCP], LPDHCPV6PrefixLeaseInformation, LPDHCPV6PrefixLeaseInformation structure pointer [DHCP], PDHCPV6PrefixLeaseInformation, PDHCPV6PrefixLeaseInformation structure pointer [DHCP], STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, dhcp.dhcpv6prefixleaseinformation, dhcpv6csdk/DHCPV6PrefixLeaseInformation, dhcpv6csdk/LPDHCPV6PrefixLeaseInformation, dhcpv6csdk/PDHCPV6PrefixLeaseInformation'
-f1_keywords:
-- dhcpv6csdk/DHCPV6PrefixLeaseInformation
-dev_langs:
-- c++
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpv6csdk.h
-api_name:
-- DHCPV6PrefixLeaseInformation
 targetos: Windows
 req.typenames: DHCPV6PrefixLeaseInformation, *PDHCPV6PrefixLeaseInformation, *LPDHCPV6PrefixLeaseInformation
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCPV6PrefixLeaseInformation
+ - dhcpv6csdk/_DHCPV6PrefixLeaseInformation
+ - PDHCPV6PrefixLeaseInformation
+ - dhcpv6csdk/PDHCPV6PrefixLeaseInformation
+ - DHCPV6PrefixLeaseInformation
+ - dhcpv6csdk/DHCPV6PrefixLeaseInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpv6csdk.h
+api_name:
+ - DHCPV6PrefixLeaseInformation
 ---
 
 # DHCPV6PrefixLeaseInformation structure
@@ -48,49 +54,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCPV6PrefixLeaseInformation</b> structure contains information about a prefix lease.
 
-
 ## -struct-fields
-
-
-
 
 ### -field nPrefixes
 
 Number of prefixes.
 
-
 ### -field prefixArray
 
-Pointer to a list <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefix">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
-
+Pointer to a list <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefix">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
 
 ### -field iaid
 
 Identity Association identifier for the prefix operation.
 
-
 ### -field T1
 
 The renewal time for the prefix, in seconds.
-
 
 ### -field T2
 
 The rebind time of the prefix, in seconds.
 
-
 ### -field MaxLeaseExpirationTime
 
 The maximum lease expiration time of all the prefix leases in this structure.
 
-
 ### -field LastRenewalTime
 
 The time at which the last renewal for the prefixes occurred.
-
 
 ### -field status
 
@@ -141,29 +135,20 @@ The DHCPv6 server does not have a binding for the prefix.
 </dl>
 </td>
 <td width="60%">
-The DHCPv6 server does not have a prefix availble to offer the requesting client.
+The DHCPv6 server does not have a prefix available to offer the requesting client.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ServerId
 
 The server DUID from which the prefix is received.  This data is used in subsequent renews.
 
-
 ### -field ServerIdLen
 
 The length of the above DUID data.
 
-
 ## -remarks
 
-
-
 In a prefix delegation scenario, the validation of lease lifetime values (specific status codes, <b>T1</b>, <b>T2</b>, <b>MaxLeaseExpirationTime</b>, and <b>LastRenewalTime</b>) are performed by the calling API, rather than the application consuming the data, as the latter might interpret these values differently.
-
-
-

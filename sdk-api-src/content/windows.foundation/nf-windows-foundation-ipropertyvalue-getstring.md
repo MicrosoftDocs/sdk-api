@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetString
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetString (windows.foundation.h)
 description: Gets the string value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetString","GetString method [Windows Runtime]","GetString method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetString method","IPropertyValue.GetString","IPropertyValue.IPropertyValue","IPropertyValue::GetString","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetString","winrt.ipropertyvalue_getstring"]
 old-location: winrt\ipropertyvalue_getstring.htm
 tech.root: WinRT
 ms.assetid: 56376A64-78F7-4C28-B3A7-9CE6594342E4
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Windows Runtime], GetString method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetString method, IPropertyValue.GetString, IPropertyValue.IPropertyValue, IPropertyValue::GetString, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetString, winrt.ipropertyvalue_getstring
-f1_keywords:
-- windows.foundation/IPropertyValue.GetString
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,45 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetString
+ - windows.foundation/IPropertyValue::GetString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetString
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetString (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the string value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the string value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
 
-
-
-
 ### -param value [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
+Type: <b><a href="/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
 The string value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,27 +100,16 @@ The  property value was returned successfully.
 </dl>
 </td>
 <td width="60%">
-The type of <i>value</i> does not match the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
+The type of <i>value</i> does not match the <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createstring">IPropertyValueStatics::CreateString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createstring">IPropertyValueStatics::CreateString</a>

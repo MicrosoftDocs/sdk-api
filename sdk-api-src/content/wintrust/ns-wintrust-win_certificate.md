@@ -2,15 +2,12 @@
 UID: NS:wintrust._WIN_CERTIFICATE
 title: WIN_CERTIFICATE (wintrust.h)
 description: This structure encapsulates a signature used in verifying executable files.
+helpviewer_keywords: ["*LPWIN_CERTIFICATE","PWIN_CERTIFICATE","PWIN_CERTIFICATE structure pointer [Security]","WIN_CERTIFICATE","WIN_CERTIFICATE structure [Security]","security.win_certificate","wintrust/PWIN_CERTIFICATE","wintrust/WIN_CERTIFICATE"]
 old-location: security\win_certificate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: AC666871-265B-4D09-B7A6-DEC48D4645FD
 ms.date: 12/05/2018
 ms.keywords: '*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE'
-f1_keywords:
-- wintrust/WIN_CERTIFICATE
-dev_langs:
-- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wintrust.h
-api_name:
-- WIN_CERTIFICATE
 targetos: Windows
 req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WIN_CERTIFICATE
+ - wintrust/_WIN_CERTIFICATE
+ - LPWIN_CERTIFICATE
+ - wintrust/LPWIN_CERTIFICATE
+ - WIN_CERTIFICATE
+ - wintrust/WIN_CERTIFICATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wintrust.h
+api_name:
+ - WIN_CERTIFICATE
 ---
 
 # WIN_CERTIFICATE structure
@@ -48,26 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 This structure encapsulates a signature used in verifying executable files.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwLength
 
 Specifies the length, in bytes, of the signature.
-
 
 ### -field wRevision
 
 Specifies the certificate revision.
 
 The only defined certificate revision is <b>WIN_CERT_REVISION_1_0 (0x0100)</b>.
-
 
 ### -field wCertificateType
 
@@ -95,8 +94,6 @@ Specifies the type of certificate.
 <td>The <i>bCertificate</i> member contains <b>PKCS1_MODULE_SIGN</b> fields.</td>
 </tr>
 </table>
- 
-
 
 ### -field bCertificate
 

@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SessionArbitrationEnumeration
 title: IWRdsProtocolConnection::SessionArbitrationEnumeration (wtsprotocol.h)
 description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.
+helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","SessionArbitrationEnumeration method","IWRdsProtocolConnection.SessionArbitrationEnumeration","IWRdsProtocolConnection::SessionArbitrationEnumeration","SessionArbitrationEnumeration","SessionArbitrationEnumeration method [Remote Desktop Services]","SessionArbitrationEnumeration method [Remote Desktop Services]","IWRdsProtocolConnection interface","termserv.iwrdsprotocolconnection_sessionarbitrationenumeration","wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration"]
 old-location: termserv\iwrdsprotocolconnection_sessionarbitrationenumeration.htm
 tech.root: TermServ
 ms.assetid: d0e93014-1f79-47ac-bf3a-c100eb652751
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SessionArbitrationEnumeration method, IWRdsProtocolConnection.SessionArbitrationEnumeration, IWRdsProtocolConnection::SessionArbitrationEnumeration, SessionArbitrationEnumeration, SessionArbitrationEnumeration method [Remote Desktop Services], SessionArbitrationEnumeration method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_sessionarbitrationenumeration, wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration
-f1_keywords:
-- wtsprotocol/IWRdsProtocolConnection.SessionArbitrationEnumeration
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wtsprotocol.h
-api_name:
-- IWRdsProtocolConnection.SessionArbitrationEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsProtocolConnection::SessionArbitrationEnumeration
+ - wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wtsprotocol.h
+api_name:
+ - IWRdsProtocolConnection.SessionArbitrationEnumeration
 ---
 
 # IWRdsProtocolConnection::SessionArbitrationEnumeration
@@ -48,51 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called after arbitration to allow the protocol to specify the sessions to be reconnected. The protocol extension should return <b>E_NOTIMPL</b> to use the default session arbitration.
 
-
 ## -parameters
-
-
-
 
 ### -param hUserToken [in]
 
 A handle that represents the user token.
 
-
 ### -param bSingleSessionPerUserEnabled [in]
 
 Specifies whether a user can only be associated with a single session.
-
 
 ### -param pSessionIdArray [out]
 
 A pointer to a <b>ULONG</b> array that receives the disconnected session identifiers for the user. If this parameter is <b>NULL</b>, the Remote Desktop Services service is requesting the number of elements to allocate this array. Place the number of identifiers in the value pointed to by <i>pdwSessionIdentifierCount</i>.
 
-
 ### -param pdwSessionIdentifierCount [in, out]
 
 A pointer to a <b>ULONG</b> value that receives the number of elements in the <i>pSessionIdArray</i> array.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMPluginControl.IsLegacyDisabled
 title: IAMPluginControl::IsLegacyDisabled (strmif.h)
 description: Queries whether an Audio Compression Manager (ACM) or Video Compression Manager (VCM) codec appears in the blocked list.
+helpviewer_keywords: ["IAMPluginControl interface [DirectShow]","IsLegacyDisabled method","IAMPluginControl.IsLegacyDisabled","IAMPluginControl::IsLegacyDisabled","IsLegacyDisabled","IsLegacyDisabled method [DirectShow]","IsLegacyDisabled method [DirectShow]","IAMPluginControl interface","dshow.iamplugincontrol_islegacydisabled","strmif/IAMPluginControl::IsLegacyDisabled"]
 old-location: dshow\iamplugincontrol_islegacydisabled.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f67c7a78-1e4f-469a-9cbb-80c37bba80b7
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsLegacyDisabled method, IAMPluginControl.IsLegacyDisabled, IAMPluginControl::IsLegacyDisabled, IsLegacyDisabled, IsLegacyDisabled method [DirectShow], IsLegacyDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_islegacydisabled, strmif/IAMPluginControl::IsLegacyDisabled
-f1_keywords:
-- strmif/IAMPluginControl.IsLegacyDisabled
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMPluginControl.IsLegacyDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPluginControl::IsLegacyDisabled
+ - strmif/IAMPluginControl::IsLegacyDisabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMPluginControl.IsLegacyDisabled
 ---
 
 # IAMPluginControl::IsLegacyDisabled
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether an Audio Compression Manager (ACM) or Video Compression Manager (VCM) codec appears in the blocked list.
 
-
 ## -parameters
-
-
-
 
 ### -param dllName [in]
 
 The name of the DLL that implements the codec.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,22 +91,11 @@ The specified DLL is not in the blocked list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>

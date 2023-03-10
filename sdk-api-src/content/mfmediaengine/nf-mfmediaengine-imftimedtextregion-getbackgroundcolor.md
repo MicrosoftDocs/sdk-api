@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetBackgroundColor
 title: IMFTimedTextRegion::GetBackgroundColor (mfmediaengine.h)
 description: Gets the background color of the region.
+helpviewer_keywords: ["GetBackgroundColor","GetBackgroundColor method [Media Foundation]","GetBackgroundColor method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetBackgroundColor method","IMFTimedTextRegion.GetBackgroundColor","IMFTimedTextRegion::GetBackgroundColor","mf.imftimedtextregion_getbackgroundcolor","mfmediaengine/IMFTimedTextRegion::GetBackgroundColor"]
 old-location: mf\imftimedtextregion_getbackgroundcolor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: E92FFB7E-C364-43C8-82CF-C3B4116C4187
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetBackgroundColor method, IMFTimedTextRegion.GetBackgroundColor, IMFTimedTextRegion::GetBackgroundColor, mf.imftimedtextregion_getbackgroundcolor, mfmediaengine/IMFTimedTextRegion::GetBackgroundColor
-f1_keywords:
-- mfmediaengine/IMFTimedTextRegion.GetBackgroundColor
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextRegion.GetBackgroundColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextRegion::GetBackgroundColor
+ - mfmediaengine/IMFTimedTextRegion::GetBackgroundColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextRegion.GetBackgroundColor
 ---
 
 # IMFTimedTextRegion::GetBackgroundColor
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the background color of the region.
-
 
 ## -parameters
 
-
-
-
 ### -param bgColor [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfargb">MFARGB</a>*</b>
+Type: <b><a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfargb">MFARGB</a>*</b>
 
-A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfargb">MFARGB</a> structure that describes the background color.
-
+A pointer to a variable that receives a <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfargb">MFARGB</a> structure that describes the background color.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>

@@ -2,15 +2,12 @@
 UID: NC:prsht.LPFNADDPROPSHEETPAGE
 title: LPFNADDPROPSHEETPAGE (prsht.h)
 description: Specifies an application-defined callback function that a property sheet extension uses to add a page to a property sheet.
+helpviewer_keywords: ["AddPropSheetPageProc","AddPropSheetPageProc callback","AddPropSheetPageProc callback function [Windows Controls]","LPFNADDPROPSHEETPAGE","_win32_AddPropSheetPageProc","_win32_AddPropSheetPageProc_cpp","controls.AddPropSheetPageProc","controls._win32_AddPropSheetPageProc","prsht/AddPropSheetPageProc","prsht/LPFNADDPROPSHEETPAGE"]
 old-location: controls\AddPropSheetPageProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\addpropsheetpageproc.htm
 ms.date: 12/05/2018
 ms.keywords: AddPropSheetPageProc, AddPropSheetPageProc callback, AddPropSheetPageProc callback function [Windows Controls], LPFNADDPROPSHEETPAGE, _win32_AddPropSheetPageProc, _win32_AddPropSheetPageProc_cpp, controls.AddPropSheetPageProc, controls._win32_AddPropSheetPageProc, prsht/AddPropSheetPageProc, prsht/LPFNADDPROPSHEETPAGE
-f1_keywords:
-- prsht/AddPropSheetPageProc
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Prsht.h
-api_name:
-- AddPropSheetPageProc
-- LPFNADDPROPSHEETPAGE
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPFNADDPROPSHEETPAGE
+ - prsht/LPFNADDPROPSHEETPAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Prsht.h
+api_name:
+ - AddPropSheetPageProc
+ - LPFNADDPROPSHEETPAGE
 ---
 
 # LPFNADDPROPSHEETPAGE callback function
@@ -49,57 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies an application-defined callback function that a property sheet extension uses to add a page to a property sheet.
-
 
 ## -parameters
 
-
-
-
-### -param Arg1
-
-
-### -param Arg2
-
-
-
-
-
-
-
-
-#### - hpage
+### -param unnamedParam1
 
 Type: <b>HPROPSHEETPAGE</b>
 
-Handle to a property sheet page.
+Handle to a property sheet page. This parameter is typically called *hPage*.
 
+### -param unnamedParam2
 
-#### - lParam
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
-
-Application-defined 32-bit value.
-
+Application-defined 32-bit value. This parameter is typically called *lParam*.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  This function is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This function is not supported when using the Aero wizard style (<a href="/windows/win32/controls/pss-propsheetheader">PSH_AEROWIZARD</a>).</div>
 <div> </div>
-
-

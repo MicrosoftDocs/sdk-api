@@ -2,15 +2,12 @@
 UID: NS:mfidl._MFRR_COMPONENT_HASH_INFO
 title: MFRR_COMPONENT_HASH_INFO (mfidl.h)
 description: Contains information about a revoked component.
+helpviewer_keywords: ["*PMFRR_COMPONENT_HASH_INFO","MFRR_COMPONENT_HASH_INFO","MFRR_COMPONENT_HASH_INFO structure [Media Foundation]","MF_BOOT_DRIVER_VERIFICATION_FAILED","MF_COMPONENT_CERT_REVOKED","MF_COMPONENT_HS_CERT_REVOKED","MF_COMPONENT_INVALID_EKU","MF_COMPONENT_INVALID_ROOT","MF_COMPONENT_LS_CERT_REVOKED","MF_COMPONENT_REVOKED","MF_GRL_ABSENT","MF_GRL_LOAD_FAILED","MF_INVALID_GRL_SIGNATURE","MF_KERNEL_MODE_COMPONENT_LOAD","MF_MINCRYPT_FAILURE","MF_TEST_SIGNED_COMPONENT_LOADING","MF_USER_MODE_COMPONENT_LOAD","PMFRR_COMPONENT_HASH_INFO","PMFRR_COMPONENT_HASH_INFO structure pointer [Media Foundation]","e23bc68c-b62e-4483-b2a7-a7de7376697f","mf.mfrr_component_hash_info","mfidl/MFRR_COMPONENT_HASH_INFO","mfidl/PMFRR_COMPONENT_HASH_INFO"]
 old-location: mf\mfrr_component_hash_info.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e23bc68c-b62e-4483-b2a7-a7de7376697f
 ms.date: 12/05/2018
 ms.keywords: '*PMFRR_COMPONENT_HASH_INFO, MFRR_COMPONENT_HASH_INFO, MFRR_COMPONENT_HASH_INFO structure [Media Foundation], MF_BOOT_DRIVER_VERIFICATION_FAILED, MF_COMPONENT_CERT_REVOKED, MF_COMPONENT_HS_CERT_REVOKED, MF_COMPONENT_INVALID_EKU, MF_COMPONENT_INVALID_ROOT, MF_COMPONENT_LS_CERT_REVOKED, MF_COMPONENT_REVOKED, MF_GRL_ABSENT, MF_GRL_LOAD_FAILED, MF_INVALID_GRL_SIGNATURE, MF_KERNEL_MODE_COMPONENT_LOAD, MF_MINCRYPT_FAILURE, MF_TEST_SIGNED_COMPONENT_LOADING, MF_USER_MODE_COMPONENT_LOAD, PMFRR_COMPONENT_HASH_INFO, PMFRR_COMPONENT_HASH_INFO structure pointer [Media Foundation], e23bc68c-b62e-4483-b2a7-a7de7376697f, mf.mfrr_component_hash_info, mfidl/MFRR_COMPONENT_HASH_INFO, mfidl/PMFRR_COMPONENT_HASH_INFO'
-f1_keywords:
-- mfidl/MFRR_COMPONENT_HASH_INFO
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MFRR_COMPONENT_HASH_INFO
 targetos: Windows
 req.typenames: MFRR_COMPONENT_HASH_INFO, *PMFRR_COMPONENT_HASH_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFRR_COMPONENT_HASH_INFO
+ - mfidl/_MFRR_COMPONENT_HASH_INFO
+ - PMFRR_COMPONENT_HASH_INFO
+ - mfidl/PMFRR_COMPONENT_HASH_INFO
+ - MFRR_COMPONENT_HASH_INFO
+ - mfidl/MFRR_COMPONENT_HASH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MFRR_COMPONENT_HASH_INFO
 ---
 
 # MFRR_COMPONENT_HASH_INFO structure
@@ -48,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Contains information about a revoked component.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field ulReason
 
@@ -224,31 +222,19 @@ Kernel-mode component.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rgHeaderHash
 
 Contains a hash of the file header.
 
-
 ### -field rgPublicKeyHash
 
 Contains a hash of the public key in the component's certificate.
-
 
 ### -field wszName
 
 File name of the revoked component.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

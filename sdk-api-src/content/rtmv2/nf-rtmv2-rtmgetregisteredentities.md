@@ -2,15 +2,12 @@
 UID: NF:rtmv2.RtmGetRegisteredEntities
 title: RtmGetRegisteredEntities function (rtmv2.h)
 description: The RtmGetRegisteredEntities function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.
+helpviewer_keywords: ["RtmGetRegisteredEntities","RtmGetRegisteredEntities function [RAS]","_rtmv2ref_rtmgetregisteredentities","rras.rtmgetregisteredentities","rtmv2/RtmGetRegisteredEntities"]
 old-location: rras\rtmgetregisteredentities.htm
 tech.root: RRAS
 ms.assetid: 411e15bc-7f47-4ef7-9400-292203b581af
 ms.date: 12/05/2018
 ms.keywords: RtmGetRegisteredEntities, RtmGetRegisteredEntities function [RAS], _rtmv2ref_rtmgetregisteredentities, rras.rtmgetregisteredentities, rtmv2/RtmGetRegisteredEntities
-f1_keywords:
-- rtmv2/RtmGetRegisteredEntities
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetRegisteredEntities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetRegisteredEntities
+ - rtmv2/RtmGetRegisteredEntities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetRegisteredEntities
 ---
 
 # RtmGetRegisteredEntities function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetRegisteredEntities</b> function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param NumEntities [in, out]
 
 On input, <i>NumEntities</i> is a pointer to a <b>UINT</b> value, which specifies the maximum number of clients that can be received by <i>EntityInfos</i>. On output, <i>NumEntities</i> receives the actual number of clients received by <i>EntityInfos</i>.
-
 
 ### -param EntityHandles [out]
 
@@ -78,21 +73,17 @@ If handles must be returned: On input, <i>EntityHandles</i> is a pointer to <b>N
 
 If handles do not need to be returned: On input, <i>EntityHandles</i> is <b>NULL</b>.
 
-
 ### -param EntityInfos [out]
 
 If a pointer must be returned: On input, <i>EntityInfos</i> is a pointer to <b>NULL</b>. On output, <i>EntityInfos</i> receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structures; otherwise, <i>EntityInfos</i> remains unchanged. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structures; otherwise, <i>EntityInfos</i> remains unchanged. 
 
 
 
 
 If a pointer does not need to be returned: On input, <i>EntityInfos</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -115,14 +106,8 @@ The buffer supplied is not large enough to hold all the requested information.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If <b>ERROR_INSUFFICIENT_BUFFER</b> is returned, there may be some data in <i>EntityHandles</i>. The <i>NumEntities</i> parameter specifies how many entities were actually returned.
 
@@ -132,25 +117,15 @@ The
 The RTMv2 API supports only one instance of the routing table manager.
 
 When the entities are no longer required, release them by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>.
 
 For sample code using this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/enumerate-the-registered-entities">Enumerate the Registered Entities</a>.
-
-
-
+<a href="/windows/desktop/RRAS/enumerate-the-registered-entities">Enumerate the Registered Entities</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>

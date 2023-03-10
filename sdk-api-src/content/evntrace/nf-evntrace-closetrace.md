@@ -1,175 +1,151 @@
 ---
 UID: NF:evntrace.CloseTrace
 title: CloseTrace function (evntrace.h)
-description: The CloseTrace function closes a trace.
+description:
+  The CloseTrace function closes a trace processing session that was created
+  with OpenTrace.
+helpviewer_keywords:
+  [
+    "CloseTrace",
+    "CloseTrace function [ETW]",
+    "_evt_closetrace",
+    "base.closetrace",
+    "etw.closetrace",
+    "evntrace/CloseTrace",
+  ]
 old-location: etw\closetrace.htm
 tech.root: ETW
 ms.assetid: 25f4c4d3-0b70-40fe-bf03-8f9ffd82fbec
 ms.date: 12/05/2018
-ms.keywords: CloseTrace, CloseTrace function [ETW], _evt_closetrace, base.closetrace, etw.closetrace, evntrace/CloseTrace
-f1_keywords:
-- evntrace/CloseTrace
-dev_langs:
-- c++
+ms.keywords:
+  CloseTrace, CloseTrace function [ETW], _evt_closetrace, base.closetrace,
+  etw.closetrace, evntrace/CloseTrace
 req.header: evntrace.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Sechost.dll
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
-- API-MS-Win-Eventing-Consumer-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- CloseTrace
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+  Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
+req.dll:
+  Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on
+  Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows
+  Server 2008, Windows Vista and Windows XP
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
+f1_keywords:
+  - CloseTrace
+  - evntrace/CloseTrace
+dev_langs:
+  - c++
+topic_type:
+  - APIRef
+  - kbSyntax
+api_type:
+  - DllExport
+api_location:
+  - Sechost.dll
+  - Advapi32.dll
+  - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+  - API-MS-Win-Eventing-Consumer-l1-1-0.dll
+  - KernelBase.dll
+api_name:
+  - CloseTrace
 ---
 
 # CloseTrace function
 
-
 ## -description
 
-
-The <b>CloseTrace</b> function closes a trace.
-
+The **CloseTrace** function closes a trace processing session that was created
+with [OpenTrace](/windows/win32/api/evntrace/nf-evntrace-opentracea).
 
 ## -parameters
 
-
-
-
 ### -param TraceHandle [in]
 
-Handle to the trace to close. The <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function 
-      returns this handle.
-
+Handle to the trace processing session to close. The
+[OpenTrace](/windows/win32/api/evntrace/nf-evntrace-opentracea) function returns
+this handle.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
-       common errors and their causes.
+If the function fails, the return value is one of the
+[system error codes](/windows/win32/debug/system-error-codes). The following
+are some common errors and their causes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following is true:
+- **ERROR_INVALID_HANDLE**
 
-<ul>
-<li><i>TraceHandle</i> is <b>NULL</b>.</li>
-<li><i>TraceHandle</i> is INVALID_HANDLE_VALUE.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_BUSY</b></dt>
-</dl>
-</td>
-<td width="60%">
-Prior to Windows Vista, you cannot close the trace until the <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function completes.  
+  One of the following is true:
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_CTX_CLOSE_PENDING</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call was successful. The  <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function will stop after it has processed all real-time events in its buffers (it will not receive any new events).
+  - _TraceHandle_ is **0**.
+  - _TraceHandle_ is **INVALID_PROCESSTRACE_HANDLE**.
+  - _TraceHandle_ is not a valid handle.
 
-</td>
-</tr>
-</table>
- 
+- **ERROR_BUSY**
 
+  Prior to Windows Vista, you cannot close the trace until the
+  [ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace) function
+  completes.
 
+- **ERROR_CTX_CLOSE_PENDING**
 
+  The call was successful. The
+  [ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace) function
+  will stop after it has processed all real-time events in its buffers (it will
+  not receive any new events).
 
 ## -remarks
 
+Consumers call this function to close a trace handle returned by **OpenTrace**.
 
+> [!Important]
+> Do not use this function to close the trace handle returned by
+> **StartTrace**.
 
-Consumers call this function.
+If you are processing events from a log file, you call this function only after
+the [ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace)
+function returns. However, if you are processing real-time events, you can call
+this function before **ProcessTrace** returns. (Another way to stop trace
+processing is to return FALSE from
+[BufferCallback](/windows/win32/api/evntrace/nc-evntrace-pevent_trace_buffer_callbacka).)
 
-If you are processing events from a log file, you call this function only after the 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> function returns. However, if you are 
-     processing real-time events, you can call this function before 
-     <b>ProcessTrace</b> returns. If you call this function before 
-     <b>ProcessTrace</b> returns, the 
-     <b>CloseTrace</b> function returns ERROR_CTX_CLOSE_PENDING. The 
-     ERROR_CTX_CLOSE_PENDING code indicates that the <b>CloseTrace</b> 
-     function call was successful; the  <b>ProcessTrace</b> function 
-     will stop processing events after it processes all events in its buffers 
-     (<b>ProcessTrace</b> will not receive any new events after you 
-     call the <b>CloseTrace</b> function). You can call the 
-     <b>CloseTrace</b> function from your 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>, 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a>, or 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/eventclasscallback">EventClassCallback</a> callback.
+If you call this function before **ProcessTrace** returns, the **CloseTrace**
+function returns ERROR_CTX_CLOSE_PENDING. The ERROR_CTX_CLOSE_PENDING code
+indicates that the **CloseTrace** function call was successful; the
+**ProcessTrace** function will stop processing events after it processes all
+previously-queued events (**ProcessTrace** will not receive any new events after
+you call the **CloseTrace** function). You can call the **CloseTrace** function
+from your [BufferCallback](/windows/desktop/ETW/buffercallback),
+[EventCallback](/windows/desktop/ETW/eventcallback), or
+[EventClassCallback](/windows/desktop/ETW/eventclasscallback) callback.
 
-<b>Prior to Windows Vista:  </b>You can call <b>CloseTrace</b> only after <a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a> returns.
+> **Prior to Windows Vista:** You can call **CloseTrace** only after
+> [ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace) returns.
 
+### Examples
 
-#### Examples
-
-For an example that uses <b>CloseTrace</b>, see 
-     <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-mof">Retrieving Event Data Using MOF</a>.
-
-<div class="code"></div>
-
-
+For an example that uses **CloseTrace**, see
+[Retrieving Event Data Using TDH](/windows/desktop/ETW/retrieving-event-data-using-tdh).
 
 ## -see-also
 
+[OpenTrace](/windows/win32/api/evntrace/nf-evntrace-opentracea)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/processtrace">ProcessTrace</a>
- 
-
- 
-
+[ProcessTrace](/windows/win32/api/evntrace/nf-evntrace-processtrace)

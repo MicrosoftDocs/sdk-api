@@ -2,15 +2,12 @@
 UID: NF:http.HttpCloseRequestQueue
 title: HttpCloseRequestQueue function (http.h)
 description: Closes the handle to the specified request queue created by HttpCreateRequestQueue.
+helpviewer_keywords: ["HttpCloseRequestQueue","HttpCloseRequestQueue function [HTTP]","http.httpcloserequestqueue","http/HttpCloseRequestQueue"]
 old-location: http\httpcloserequestqueue.htm
 tech.root: http
 ms.assetid: dfbc2d32-c1f6-41b1-8f4f-9e5e9f6dd9e1
 ms.date: 12/05/2018
 ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.httpcloserequestqueue, http/HttpCloseRequestQueue
-f1_keywords:
-- http/HttpCloseRequestQueue
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpCloseRequestQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpCloseRequestQueue
+ - http/HttpCloseRequestQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpCloseRequestQueue
 ---
 
 # HttpCloseRequestQueue function
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>HttpCloseRequestQueue</b> function closes the handle to the specified request queue created by <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>.
+The <b>HttpCloseRequestQueue</b> function closes the handle to the specified request queue created by <a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>.
 
 The application must close the request queue when it is no longer required.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestQueueHandle [in]
 
 The handle to the request queue that is closed. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
-
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
@@ -90,43 +84,27 @@ The application does not have permission to close the request queue. Only the ap
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Applications  should not call <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> on the request queue handle; instead, they should call <b>HttpCloseRequestQueue</b> to ensure that all the resources are released.
-
-
-
+Applications  should not call <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> on the request queue handle; instead, they should call <b>HttpCloseRequestQueue</b> to ensure that all the resources are released.
 
 ## -see-also
 
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>

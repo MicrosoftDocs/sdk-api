@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprAdminPortReset
 title: MprAdminPortReset function (mprapi.h)
 description: The MprAdminPortReset function resets the communication device attached to the specified port.
+helpviewer_keywords: ["MprAdminPortReset","MprAdminPortReset function [RAS]","_mpr_mpradminportreset","mprapi/MprAdminPortReset","rras.mpradminportreset"]
 old-location: rras\mpradminportreset.htm
 tech.root: RRAS
 ms.assetid: 9fa58bec-ecec-4496-91fa-8c41da7961b3
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortReset, MprAdminPortReset function [RAS], _mpr_mpradminportreset, mprapi/MprAdminPortReset, rras.mpradminportreset
-f1_keywords:
-- mprapi/MprAdminPortReset
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprAdminPortReset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprAdminPortReset
+ - mprapi/MprAdminPortReset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprAdminPortReset
 ---
 
 # MprAdminPortReset function
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprAdminPortReset</b> function resets the communication device attached to the specified port.
 
-
 ## -parameters
-
-
-
 
 ### -param hRasServer [in]
 
 Handle to the RAS server on which to reset the specified port. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param hPort [in]
 
 Handle to the port to be reset. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -133,41 +126,25 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 This function is available on Windows NT 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as <b>RasAdminPortReset</b> rather than 
 <b>MprAdminPortReset</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
-
-
-
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access this function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminportenum">MprAdminPortEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

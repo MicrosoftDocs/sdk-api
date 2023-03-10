@@ -1,16 +1,13 @@
 ---
-UID: NS:fdi_fci_types.__unnamed_struct_0
+UID: NS:fdi_fci_types.ERF
 title: ERF (fdi_fci_types.h)
 description: The ERF structure contains error information from FCI/FDI. The caller should not modify this structure.
+helpviewer_keywords: ["*PERF","ERF","ERF FAR *PERF","ERF FAR *PERF structure [Windows API]","ERF structure [Windows API]","FCIERR_ALLOC_FAIL","FCIERR_BAD_COMPR_TYPE","FCIERR_CAB_FILE","FCIERR_CAB_FORMAT_LIMIT","FCIERR_MCI_FAIL","FCIERR_NONE","FCIERR_OPEN_SRC","FCIERR_READ_SRC","FCIERR_TEMP_FILE","FCIERR_USER_ABORT","FDIERROR_ALLOC_FAIL","FDIERROR_BAD_COMPR_TYPE","FDIERROR_CABINET_NOT_FOUND","FDIERROR_CORRUPT_CABINET","FDIERROR_MDI_FAIL","FDIERROR_NONE","FDIERROR_NOT_A_CABINET","FDIERROR_RESERVE_MISMATCH","FDIERROR_TARGET_FILE","FDIERROR_UNKNOWN_CABINET_VERSION","FDIERROR_USER_ABORT","FDIERROR_WRONG_CABINET","fdi_fci_types/ERF","winprog.erf"]
 old-location: winprog\erf.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b
 ms.date: 12/05/2018
 ms.keywords: '*PERF, ERF, ERF FAR *PERF, ERF FAR *PERF structure [Windows API], ERF structure [Windows API], FCIERR_ALLOC_FAIL, FCIERR_BAD_COMPR_TYPE, FCIERR_CAB_FILE, FCIERR_CAB_FORMAT_LIMIT, FCIERR_MCI_FAIL, FCIERR_NONE, FCIERR_OPEN_SRC, FCIERR_READ_SRC, FCIERR_TEMP_FILE, FCIERR_USER_ABORT, FDIERROR_ALLOC_FAIL, FDIERROR_BAD_COMPR_TYPE, FDIERROR_CABINET_NOT_FOUND, FDIERROR_CORRUPT_CABINET, FDIERROR_MDI_FAIL, FDIERROR_NONE, FDIERROR_NOT_A_CABINET, FDIERROR_RESERVE_MISMATCH, FDIERROR_TARGET_FILE, FDIERROR_UNKNOWN_CABINET_VERSION, FDIERROR_USER_ABORT, FDIERROR_WRONG_CABINET, fdi_fci_types/ERF, winprog.erf'
-f1_keywords:
-- fdi_fci_types/ERF FAR *PERF
-dev_langs:
-- c++
 req.header: fdi_fci_types.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- fdi_fci_types.h
-api_name:
-- ERF FAR *PERF
 targetos: Windows
 req.typenames: ERF
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ERF
+ - fdi_fci_types/ERF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - fdi_fci_types.h
+api_name:
+ - ERF FAR *PERF
 ---
 
 # ERF structure
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This structure contains information required by the <b>Extract</b> function, which is not supported. This documentation is provided for informational purposes only.]
 
 The <b>ERF</b> structure contains error information from FCI/FDI. The caller should not modify this structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field erfOper
 
@@ -329,26 +326,16 @@ FDI aborted.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field erfType
 
 An optional error value filled in by FCI/FDI. For FCI, this is usually the C runtime errno value.
 
-
 ### -field fError
 
 A flag that indicates an error. If <b>TRUE</b>, an error is present.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/extract">Extract</a>
- 
-
- 
+<a href="/windows/desktop/DevNotes/extract">Extract</a>
 

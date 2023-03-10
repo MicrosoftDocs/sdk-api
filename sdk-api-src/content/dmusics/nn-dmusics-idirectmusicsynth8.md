@@ -2,15 +2,12 @@
 UID: NN:dmusics.IDirectMusicSynth8
 title: IDirectMusicSynth8 (dmusics.h)
 description: IDirectMusicSynth8is unsupported and may be altered or unavailable in the future.
+helpviewer_keywords: ["IDirectMusicSynth8","IDirectMusicSynth8 interface [Audio Devices]","IDirectMusicSynth8 interface [Audio Devices]","described","audio.idirectmusicsynth8","dmusics/IDirectMusicSynth8"]
 old-location: audio\idirectmusicsynth8.htm
 tech.root: audio
 ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], IDirectMusicSynth8 interface [Audio Devices],described, audio.idirectmusicsynth8, dmusics/IDirectMusicSynth8
-f1_keywords:
-- dmusics/IDirectMusicSynth8
-dev_langs:
-- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dmusics.h
-api_name:
-- IDirectMusicSynth8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectMusicSynth8
+ - dmusics/IDirectMusicSynth8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dmusics.h
+api_name:
+ - IDirectMusicSynth8
 ---
 
 # IDirectMusicSynth8 interface
@@ -48,6 +50,5 @@ ms.custom: 19H1
 
 ## -description
 
-
-<b>IDirectMusicSynth8</b>is unsupported and may be altered or unavailable in the future.
+<b>IDirectMusicSynth8</b> is unsupported and may be altered or unavailable in the future.
 

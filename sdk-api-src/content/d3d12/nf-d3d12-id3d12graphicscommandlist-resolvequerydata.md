@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveQueryData
 title: ID3D12GraphicsCommandList::ResolveQueryData (d3d12.h)
 description: Extracts data from a query. ResolveQueryData works with all heap types (default, upload, and readback).  ResolveQueryData works with all heap types (default, upload, and readback). .
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResolveQueryData method","ID3D12GraphicsCommandList.ResolveQueryData","ID3D12GraphicsCommandList::ResolveQueryData","ResolveQueryData","ResolveQueryData method","ResolveQueryData method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResolveQueryData","direct3d12.id3d12graphicscommandlist_resolvequerydata"]
 old-location: direct3d12\id3d12graphicscommandlist_resolvequerydata.htm
 tech.root: direct3d12
 ms.assetid: E3154DB7-DDA9-4480-A918-19C3A62944F2
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveQueryData method, ID3D12GraphicsCommandList.ResolveQueryData, ID3D12GraphicsCommandList::ResolveQueryData, ResolveQueryData, ResolveQueryData method, ResolveQueryData method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveQueryData, direct3d12.id3d12graphicscommandlist_resolvequerydata
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ResolveQueryData
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ResolveQueryData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ResolveQueryData
+ - d3d12/ID3D12GraphicsCommandList::ResolveQueryData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ResolveQueryData
 ---
 
 # ID3D12GraphicsCommandList::ResolveQueryData
@@ -48,59 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Extracts data from a query. <b>ResolveQueryData</b> works with all heap types (default, upload, and readback). 
-            
-
-
-
+Extracts data from a query. <b>ResolveQueryData</b> works with all heap types (default, upload, and readback).
 
 ## -parameters
 
-
-
-
 ### -param pQueryHeap [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
 
-Specifies the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the queries to resolve.
-          
-
+Specifies the  <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the queries to resolve.
 
 ### -param Type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
 
-Specifies the type of query, one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
-          
-
+Specifies the type of query, one member of <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
 
 ### -param StartIndex [in]
 
 Type: <b>UINT</b>
 
 Specifies an index of the first query to resolve.
-          
-
 
 ### -param NumQueries [in]
 
 Type: <b>UINT</b>
 
 Specifies the number of queries to resolve.
-          
-
 
 ### -param pDestinationBuffer [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> destination buffer, which must be in the state
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_COPY_DEST</a>.
-          
-
+Specifies an <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> destination buffer, which must be in the state
+            <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_COPY_DEST</a>.
 
 ### -param AlignedDestinationBufferOffset [in]
 
@@ -108,30 +91,21 @@ Type: <b>UINT64</b>
 
 Specifies an alignment offset into the destination buffer.
             Must be a multiple of 8 bytes.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
 
 ## -remarks
 
-
-
-<b>ResolveQueryData</b> performs a batched operation which writes query data into a destination buffer.  Query data is written contiguously to the destination buffer, and the parameter.
+<b>ResolveQueryData</b> performs a batched operation that writes query data into a destination buffer.  Query data is written contiguously to the destination buffer, and the parameter.
         
+<b>ResolveQueryData</b> turns application-opaque query data in an application-opaque query heap into adapter-agnostic values usable by your application. Resolving queries within a heap that have not been completed (so have had [**ID3D12GraphicsCommandList::BeginQuery**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery) called for them, but not [**ID3D12GraphicsCommandList::EndQuery**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery)), or that have been uninitialized, results in undefined behavior and might cause device hangs or removal. The debug layer will emit an error if it detects an application has resolved incomplete or uninitialized queries.
 
-Binary occlusion queries write 64-bits per query.  The least significant bit is either 0 or 1.  The rest of the bits are 0.
-        
+> [!NOTE]
+> Resolving incomplete or uninitialized queries is undefined behavior because the driver might internally store GPUVAs or other data within unresolved queries. And so attempting to resolve these queries on uninitialized data could cause a page fault or device hang. Older versions of the debug layer didn't validate this behavior.
 
-The core runtime will validate the following:
+Binary occlusion queries write 64-bits per query. The least significant bit is either 0 (the object was entirely occluded) or 1 (at least 1 sample of the object would have been drawn). The rest of the bits are 0. Occlusion queries write 64-bits per query. The value is the number of samples that passed testing. Timestamp queries write 64-bits per query, which is a tick value that must be compared to the respective command queue frequency (see [Timing](/windows/win32/direct3d12/timing)).
+
+Pipeline statistics queries write a [**D3D12_QUERY_DATA_PIPELINE_STATISTICS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_data_pipeline_statistics) structure per query. All stream-out statistics queries write a [**D3D12_QUERY_DATA_SO_STATISTICS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_query_data_so_statistics) structure per query.
+
+The core runtime will validate the following.
 
 <ul>
 <li><i>StartIndex</i> and <i>NumQueries</i> are within range.
@@ -147,15 +121,14 @@ The core runtime will validate the following:
 <li>The query type must be supported by the query heap.
           </li>
 </ul>
-The debug layer will issue a warning if the destination buffer is not in the D3D12_RESOURCE_STATE_COPY_DEST state.
-        
+
+The debug layer will issue a warning if the destination buffer is not in the D3D12_RESOURCE_STATE_COPY_DEST state,
+or if any queries being resolved have not had [**ID3D12GraphicsCommandList::EndQuery**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery) called on them.
 
 
-#### Examples
+## Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::ResolveQueryData</b> as follows:
-        
-
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::ResolveQueryData</b> as follows:
 
 ```cpp
 // Fill the command list with all the render commands and dependent state.
@@ -234,20 +207,11 @@ void D3D12PredicationQueries::PopulateCommandList()
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

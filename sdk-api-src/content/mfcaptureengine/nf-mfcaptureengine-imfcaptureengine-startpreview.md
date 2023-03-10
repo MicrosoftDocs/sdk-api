@@ -2,15 +2,12 @@
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartPreview
 title: IMFCaptureEngine::StartPreview (mfcaptureengine.h)
 description: Starts preview.
+helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","StartPreview method","IMFCaptureEngine.StartPreview","IMFCaptureEngine::StartPreview","StartPreview","StartPreview method [Media Foundation]","StartPreview method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_startpreview","mfcaptureengine/IMFCaptureEngine::StartPreview"]
 old-location: mf\imfcaptureengine_startpreview.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C5BCF990-E7F9-48E9-B082-79953F5ED27C
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartPreview method, IMFCaptureEngine.StartPreview, IMFCaptureEngine::StartPreview, StartPreview, StartPreview method [Media Foundation], StartPreview method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startpreview, mfcaptureengine/IMFCaptureEngine::StartPreview
-f1_keywords:
-- mfcaptureengine/IMFCaptureEngine.StartPreview
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureEngine.StartPreview
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureEngine::StartPreview
+ - mfcaptureengine/IMFCaptureEngine::StartPreview
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureEngine.StartPreview
 ---
 
 # IMFCaptureEngine::StartPreview
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Starts preview.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -93,31 +86,15 @@ The preview sink was not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Before calling this method, configure the preview sink by calling <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a>. To get a pointer to the preview sink, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">IMFCaptureEngine::GetSink</a>. 
 
+This method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_ENGINE_PREVIEW_STARTED</b> event through the <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method. The operation can fail asynchronously after the method succeeds. If so, the error code is conveyed through the <b>OnEvent</b> method.
 
-Before calling this method, configure the preview sink by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a>. To get a pointer to the preview sink, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-getsink">IMFCaptureEngine::GetSink</a>. 
-
-This method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_ENGINE_PREVIEW_STARTED</b> event through the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method. The operation can fail asynchronously after the method succeeds. If so, the error code is conveyed through the <b>OnEvent</b> method.
-
-After the preview sink is configured, you can stop and start preview by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoppreview">IMFCaptureEngine::StopPreview</a> and <b>IMFCaptureEngine::StartPreview</b>.
-
-
-
+After the preview sink is configured, you can stop and start preview by calling <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-stoppreview">IMFCaptureEngine::StopPreview</a> and <b>IMFCaptureEngine::StartPreview</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>

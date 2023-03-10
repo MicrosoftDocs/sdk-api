@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaType.GetMajorType
 title: IMFMediaType::GetMajorType (mfobjects.h)
 description: Gets the major type of the format.
+helpviewer_keywords: ["98f0a9ca-4766-4d2b-89b8-d6e30b75f47d","GetMajorType","GetMajorType method [Media Foundation]","GetMajorType method [Media Foundation]","IMFMediaType interface","IMFMediaType interface [Media Foundation]","GetMajorType method","IMFMediaType.GetMajorType","IMFMediaType::GetMajorType","mf.imfmediatype_getmajortype","mfobjects/IMFMediaType::GetMajorType"]
 old-location: mf\imfmediatype_getmajortype.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d
 ms.date: 12/05/2018
 ms.keywords: 98f0a9ca-4766-4d2b-89b8-d6e30b75f47d, GetMajorType, GetMajorType method [Media Foundation], GetMajorType method [Media Foundation],IMFMediaType interface, IMFMediaType interface [Media Foundation],GetMajorType method, IMFMediaType.GetMajorType, IMFMediaType::GetMajorType, mf.imfmediatype_getmajortype, mfobjects/IMFMediaType::GetMajorType
-f1_keywords:
-- mfobjects/IMFMediaType.GetMajorType
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaType.GetMajorType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaType::GetMajorType
+ - mfobjects/IMFMediaType::GetMajorType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaType.GetMajorType
 ---
 
 # IMFMediaType::GetMajorType
@@ -49,25 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the major type of the format.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pguidMajorType [out]
 
-Receives the major type <b>GUID</b>. The major type describes the broad category of the format, such as audio or video. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
-          
-
+Receives the major type <b>GUID</b>. The major type describes the broad category of the format, such as audio or video. For a list of possible values, see <a href="/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -102,16 +94,10 @@ The major type is not set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is equivalent to getting the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a> attribute from the media type.
+This method is equivalent to getting the <a href="/windows/desktop/medfound/mf-mt-major-type-attribute">MF_MT_MAJOR_TYPE</a> attribute from the media type.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -121,15 +107,6 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>

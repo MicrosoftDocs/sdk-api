@@ -2,15 +2,12 @@
 UID: NE:ras._RASPROJECTION_INFO_TYPE
 title: RASPROJECTION_INFO_TYPE (ras.h)
 description: Is used in the RAS_PROJECTION_INFO structure to represent either a RASPPP_PROJECTION_INFO or RASIKEV2_PROJECTION_INFO structure.
+helpviewer_keywords: ["PROJECTION_INFO_TYPE_IKEv2","PROJECTION_INFO_TYPE_PPP","RASPROJECTION_INFO_TYPE","RASPROJECTION_INFO_TYPE enumeration [RAS]","ras/PROJECTION_INFO_TYPE_IKEv2","ras/PROJECTION_INFO_TYPE_PPP","ras/RASPROJECTION_INFO_TYPE","rras.rasprojection_info_type"]
 old-location: rras\rasprojection_info_type.htm
 tech.root: RRAS
 ms.assetid: ac288100-a346-4d9b-9bf4-8144372f54a3
 ms.date: 12/05/2018
 ms.keywords: PROJECTION_INFO_TYPE_IKEv2, PROJECTION_INFO_TYPE_PPP, RASPROJECTION_INFO_TYPE, RASPROJECTION_INFO_TYPE enumeration [RAS], ras/PROJECTION_INFO_TYPE_IKEv2, ras/PROJECTION_INFO_TYPE_PPP, ras/RASPROJECTION_INFO_TYPE, rras.rasprojection_info_type
-f1_keywords:
-- ras/RASPROJECTION_INFO_TYPE
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ras.h
-api_name:
-- RASPROJECTION_INFO_TYPE
 targetos: Windows
 req.typenames: RASPROJECTION_INFO_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RASPROJECTION_INFO_TYPE
+ - ras/_RASPROJECTION_INFO_TYPE
+ - RASPROJECTION_INFO_TYPE
+ - ras/RASPROJECTION_INFO_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ras.h
+api_name:
+ - RASPROJECTION_INFO_TYPE
 ---
 
 # RASPROJECTION_INFO_TYPE enumeration
@@ -48,40 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a> structure to represent either a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
-
+The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a> structure to represent either a <a href="/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> or <a href="/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
 
 ## -enum-fields
 
+### -field PROJECTION_INFO_TYPE_PPP:1
 
-
-
-### -field PROJECTION_INFO_TYPE_PPP
-
-Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure.
-
+Represents a <a href="/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure.
 
 ### -field PROJECTION_INFO_TYPE_IKEv2
 
-Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
-
+Represents a <a href="/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

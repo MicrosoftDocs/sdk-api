@@ -1,16 +1,13 @@
 ---
 UID: NF:strsafe.StringCchLengthW
 title: StringCchLengthW function (strsafe.h)
-description: Determines whether a string exceeds the specified length, in characters.
+description: Determines whether a string exceeds the specified length, in characters. (Unicode)
+helpviewer_keywords: ["StringCchLength", "StringCchLength function [Menus and Other Resources]", "StringCchLengthW", "UnalignedStringCchLength", "_shell_StringCchLength", "_shell_stringcchlength_cpp", "menurc.stringcchlength", "strsafe/StringCchLength", "strsafe/StringCchLengthW", "winui._shell_stringcchlength"]
 old-location: menurc\stringcchlength.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, UnalignedStringCchLength, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
-f1_keywords:
-- strsafe/StringCchLength
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCchLength
-- StringCchLengthA
-- StringCchLengthW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchLengthW
+ - strsafe/StringCchLengthW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCchLength
+ - StringCchLengthA
+ - StringCchLengthW
 ---
 
 # StringCchLengthW function
@@ -50,18 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a  string exceeds the specified length, in characters.
 
 <b>StringCchLength</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192495">strlen, wcslen, _tcslen</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l">strlen, wcslen, _tcslen</a></li>
 </ul>
 
 ## -parameters
-
-
-
 
 ### -param psz [in]
 
@@ -69,13 +67,11 @@ Type: <b>LPCTSTR</b>
 
 The string whose length is to be checked.
 
-
 ### -param cchMax [in]
 
 Type: <b>size_t</b>
 
 The maximum number of characters allowed in <i>psz</i>, including the terminating null character. This value cannot exceed <b>STRSAFE_MAX_CCH</b>.
-
 
 ### -param pcchLength [out]
 
@@ -83,14 +79,11 @@ Type: <b>size_t*</b>
 
 The number of characters in <i>psz</i>, not including the terminating null character. This value is valid only if <i>pcch</i> is not <b>NULL</b> and the function succeeds.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -124,12 +117,7 @@ The value in <i>psz</i> is <b>NULL</b>, <i>cchMax</i> is larger than <b>STRSAFE_
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 Compared to  the functions it replaces, <b>StringCchLength</b> is an additional tool for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns.
 
@@ -160,18 +148,15 @@ Compared to  the functions it replaces, <b>StringCchLength</b> is an additional 
  
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh305644(v=vs.85)">UnalignedStringCchLength</a> is an alias for this function.
+<a href="/previous-versions/windows/desktop/legacy/hh305644(v=vs.85)">UnalignedStringCchLength</a> is an alias for this function.
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCchLength as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>

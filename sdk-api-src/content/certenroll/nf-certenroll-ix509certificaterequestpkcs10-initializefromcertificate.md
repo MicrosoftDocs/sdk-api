@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromCertificate
 title: IX509CertificateRequestPkcs10::InitializeFromCertificate (certenroll.h)
-description: Initializes the certificate request by using an existing certificate.
+description: Initializes the certificate request by using an existing certificate. (IX509CertificateRequestPkcs10.InitializeFromCertificate)
+helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","InitializeFromCertificate method","IX509CertificateRequestPkcs10.InitializeFromCertificate","IX509CertificateRequestPkcs10::InitializeFromCertificate","InheritDefault","InheritExtensionsFlag","InheritNewDefaultKey","InheritNewSimilarKey","InheritPrivateKey","InheritPublicKey","InheritRenewalCertificateFlag","InheritSubjectAltNameFlag","InheritSubjectFlag","InheritTemplateFlag","InheritValidityPeriodFlag","InitializeFromCertificate","InitializeFromCertificate method [Security]","InitializeFromCertificate method [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::InitializeFromCertificate","security.ix509certificaterequestpkcs10_initializefromcertificate_method"]
 old-location: security\ix509certificaterequestpkcs10_initializefromcertificate_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 3f390abc-5c1c-4f9c-a5f4-4d6fec065acf
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs10.InitializeFromCertificate, IX509CertificateRequestPkcs10::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromCertificate, security.ix509certificaterequestpkcs10_initializefromcertificate_method
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.InitializeFromCertificate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.InitializeFromCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::InitializeFromCertificate
+ - certenroll/IX509CertificateRequestPkcs10::InitializeFromCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.InitializeFromCertificate
 ---
 
 # IX509CertificateRequestPkcs10::InitializeFromCertificate
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>InitializeFromCertificate</b> method initializes the certificate request by using an existing certificate. The certificate is contained in a byte array encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The DER-encoded byte array is represented by a string that  is either a pure binary sequence or is Unicode encoded.
-
+The <b>InitializeFromCertificate</b> method initializes the certificate request by using an existing certificate. The certificate is contained in a byte array encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The DER-encoded byte array is represented by a string that  is either a pure binary sequence or is Unicode encoded.
 
 ## -parameters
 
-
-
-
 ### -param Context [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
-
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
 
 ### -param strCertificate [in]
 
@@ -79,12 +75,11 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the DER-encoded  certificate. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
-
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the DER-encoded  certificate. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
 
 ### -param InheritOptions [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509requestinheritoptions">X509RequestInheritOptions</a> enumeration value that specifies how to create the certificate request object from the existing certificate. You can specify how to inherit a key by choosing one of the following values. The default value is <b>InheritDefault</b>.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509requestinheritoptions">X509RequestInheritOptions</a> enumeration value that specifies how to create the certificate request object from the existing certificate. You can specify how to inherit a key by choosing one of the following values. The default value is <b>InheritDefault</b>.
 
 <table>
 <tr>
@@ -163,7 +158,7 @@ You can also use a bitwise-<b>OR</b> operation to combine the key inheritance va
 </dl>
 </td>
 <td width="60%">
-Inherits the renewal certificate. Specifying this flag sets the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate">RenewalCertificate</a> property.
+Inherits the renewal certificate. Specifying this flag sets the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate">RenewalCertificate</a> property.
 
 </td>
 </tr>
@@ -236,15 +231,11 @@ If you set the <i>InheritOptions</i> parameter to zero (0) or specify <b>Inherit
 <li><b>InheritTemplateFlag</b> (if the certificate contains a template extension)</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -263,14 +254,8 @@ The certificate request object has already been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>InitializeFromCertificate</b> method validates the options specified in the <i>InheritOptions</i> parameter and initializes a new PKCS #10  request object by performing the following actions:<ul>
 <li>Copies the renewal certificate, if there is one and you have specified <b>InheritRenewalCertificateFlag</b>, from the input certificate to the new request.</li>
@@ -280,17 +265,6 @@ The <b>InitializeFromCertificate</b> method validates the options specified in t
 <li>Copies the extensions to the new request if you specify <b>InheritExtensionsFlag</b>.</li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>

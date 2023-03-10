@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPWSPSOCKET
 title: LPWSPSOCKET (ws2spi.h)
 description: The LPWSPSocket function creates a socket.
+helpviewer_keywords: ["LPWSPSOCKET","WSPSocket","LPWSPSocket function [Winsock]","_win32_wspsocket_2","winsock.wspsocket_2","ws2spi/LPWSPSocket"]
 old-location: winsock\wspsocket_2.htm
 tech.root: WinSock
 ms.assetid: 16735fd1-289d-425a-8ad2-c20d73888b1b
 ms.date: 12/05/2018
 ms.keywords: LPWSPSOCKET, WSPSocket, LPWSPSocket function [Winsock], _win32_wspsocket_2, winsock.wspsocket_2, ws2spi/LPWSPSocket
-f1_keywords:
-- ws2spi/LPWSPSocket
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- LPWSPSocket
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPWSPSOCKET
+ - ws2spi/LPWSPSOCKET
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - LPWSPSocket
 ---
 
 ## -description
@@ -48,6 +50,7 @@ ms.custom: 19H1
 The **LPWSPSocket** function creates a socket. For info about the part played by **LPWSPSocket** in creating a shared socket, see [Shared sockets](/windows/win32/winsock/shared-sockets-2) and [Shared sockets in the SPI](/windows/win32/winsock/shared-sockets-in-the-spi-2).
 
 ## -parameters
+
 ### -param af [in]
 
 Address family specification.
@@ -267,3 +270,4 @@ This same propagation policy applies when propagating a
 * [LPWSPSendTo](nc-ws2spi-lpwspsendto.md)
 * [LPWSPSetSockOpt](nc-ws2spi-lpwspsetsockopt.md)
 * [LPWSPShutdown](nc-ws2spi-lpwspshutdown.md)
+

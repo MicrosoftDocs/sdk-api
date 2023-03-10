@@ -7,10 +7,6 @@ tech.root: IpHlp
 ms.assetid: 7b34138f-7263-4b73-95df-9e854fd81135
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GAA_FLAG_INCLUDE_ALL_COMPARTMENTS, GAA_FLAG_INCLUDE_ALL_INTERFACES, GAA_FLAG_INCLUDE_GATEWAYS, GAA_FLAG_INCLUDE_PREFIX, GAA_FLAG_INCLUDE_TUNNEL_BINDINGORDER, GAA_FLAG_INCLUDE_WINS_INFO, GAA_FLAG_SKIP_ANYCAST, GAA_FLAG_SKIP_DNS_SERVER, GAA_FLAG_SKIP_FRIENDLY_NAME, GAA_FLAG_SKIP_MULTICAST, GAA_FLAG_SKIP_UNICAST, GetAdaptersAddresses, GetAdaptersAddresses function [IP Helper], _iphlp_getadaptersaddresses, iphlp.getadaptersaddresses, iphlpapi/GetAdaptersAddresses
-f1_keywords:
-- iphlpapi/GetAdaptersAddresses
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetAdaptersAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAdaptersAddresses
+ - iphlpapi/GetAdaptersAddresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetAdaptersAddresses
 ---
 
 # GetAdaptersAddresses function
@@ -48,15 +49,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAdaptersAddresses</b> function retrieves the addresses associated with the adapters on the local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Family [in]
 
@@ -101,8 +97,6 @@ Return only IPv6 addresses associated with adapters with IPv6 enabled.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
@@ -247,29 +241,20 @@ Return the adapter addresses sorted in tunnel binding order. This flag is suppor
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Reserved [in]
 
-This parameter is not currently used, but is reserved for future system use. The calling application should pass <b>NULL</b> for this parameter.  
-					
-
+This parameter is not currently used, but is reserved for future system use. The calling application should pass <b>NULL</b> for this parameter.
 
 ### -param AdapterAddresses [in, out]
 
-A pointer to a buffer that contains a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures on successful return. 
-					
-
+A pointer to a buffer that contains a linked list of <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures on successful return.
 
 ### -param SizePointer [in, out]
 
 A pointer to a variable that specifies the size of the buffer pointed to by <i>AdapterAddresses</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b> (defined to the same value as <b>NO_ERROR</b>).
 
@@ -343,28 +328,22 @@ No addresses were found for the requested parameters.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The  
 <b>GetAdaptersAddresses</b> function can retrieve information for IPv4 and IPv6 addresses. 
 
-Addresses are returned as a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures in the buffer pointed to by the <i>AdapterAddresses</i> parameter. The application that calls the <b>GetAdaptersAddresses</b> function must allocate the amount of memory needed to return the <b>IP_ADAPTER_ADDRESSES</b> structures pointed to by the <i>AdapterAddresses</i> parameter. When these returned structures are no longer required, the application should free the memory allocated. This can be accomplished by calling the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function to allocate memory and later calling the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free the allocated memory, as shown in the example code. Other memory allocation and free functions can be used as long as the same family of functions are used for both the allocation and the free function.
+Addresses are returned as a linked list of <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures in the buffer pointed to by the <i>AdapterAddresses</i> parameter. The application that calls the <b>GetAdaptersAddresses</b> function must allocate the amount of memory needed to return the <b>IP_ADAPTER_ADDRESSES</b> structures pointed to by the <i>AdapterAddresses</i> parameter. When these returned structures are no longer required, the application should free the memory allocated. This can be accomplished by calling the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function to allocate memory and later calling the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> function to free the allocated memory, as shown in the example code. Other memory allocation and free functions can be used as long as the same family of functions are used for both the allocation and the free function.
 
 <b>GetAdaptersAddresses</b> is implemented only as a synchronous function call.  The <b>GetAdaptersAddresses</b> function requires a significant amount of network resources and time to complete since all of the low-level network interface tables must be traversed. 
 
-One method that can be used to determine the memory needed to return the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures pointed to by the <i>AdapterAddresses</i> parameter is to pass too small a buffer size as indicated in the <i>SizePointer</i> parameter in the first call to the <b>GetAdaptersAddresses</b> function,  so the function will fail with <b>ERROR_BUFFER_OVERFLOW</b>. When the return value is <b>ERROR_BUFFER_OVERFLOW</b>, the <i>SizePointer</i> parameter returned points to the required size of the buffer to hold the adapter information. Note that it is possible for the buffer size required for the <b>IP_ADAPTER_ADDRESSES</b> structures pointed to by the <i>AdapterAddresses</i> parameter to change between subsequent calls to the <b>GetAdaptersAddresses</b> function if an adapter address is added or removed.   However, this method of using the <b>GetAdaptersAddresses</b> function is strongly discouraged. This method requires calling the <b>GetAdaptersAddresses</b> function multiple times. 
+One method that can be used to determine the memory needed to return the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structures pointed to by the <i>AdapterAddresses</i> parameter is to pass too small a buffer size as indicated in the <i>SizePointer</i> parameter in the first call to the <b>GetAdaptersAddresses</b> function,  so the function will fail with <b>ERROR_BUFFER_OVERFLOW</b>. When the return value is <b>ERROR_BUFFER_OVERFLOW</b>, the <i>SizePointer</i> parameter returned points to the required size of the buffer to hold the adapter information. Note that it is possible for the buffer size required for the <b>IP_ADAPTER_ADDRESSES</b> structures pointed to by the <i>AdapterAddresses</i> parameter to change between subsequent calls to the <b>GetAdaptersAddresses</b> function if an adapter address is added or removed.   However, this method of using the <b>GetAdaptersAddresses</b> function is strongly discouraged. This method requires calling the <b>GetAdaptersAddresses</b> function multiple times. 
 
 The recommended method of calling the <b>GetAdaptersAddresses</b> function is to pre-allocate a 15KB working buffer pointed to by the <i>AdapterAddresses</i> parameter. On typical computers, this dramatically reduces the chances that the <b>GetAdaptersAddresses</b> function returns <b>ERROR_BUFFER_OVERFLOW</b>, which would require calling  <b>GetAdaptersAddresses</b> function multiple times. The example code illustrates this method of use. 
 
@@ -372,20 +351,20 @@ In versions prior to Windows 10, the order in which adapters appear in the list
 
 If the GAA_FLAG_INCLUDE_ALL_INTERFACES is set, then all NDIS adapters will be retrieved even those addresses associated with adapters not bound to an address family specified in the <i>Family</i> parameter. When this flag is not set, then only the addresses that are bound to an adapter enabled for the address family specified in the <i>Family</i> parameter are returned.
 
-The size of the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>structure was changed on Windows XP with Service Pack 1 (SP1) and later. Several additional members were added to this structure. The size of the <b>IP_ADAPTER_ADDRESSES</b>structure was also changed on Windows Vista and later. A number of additional members were added to this structure. The size of the 
+The size of the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure was changed on Windows XP with Service Pack 1 (SP1) and later. Several additional members were added to this structure. The size of the <b>IP_ADAPTER_ADDRESSES</b> structure was also changed on Windows Vista and later. A number of additional members were added to this structure. The size of the 
      <b>IP_ADAPTER_ADDRESSES</b> structure also changed on 
      Windows Vista with Service Pack 1 (SP1)and later and onWindows Server 2008 and later. One additional member was added to this structure. The <b>Length</b> member of the <b>IP_ADAPTER_ADDRESSES</b> structure returned in the linked list of structures in the buffer pointed to by the <i>AdapterAddresses</i> parameter should be used to determine which version of the <b>IP_ADAPTER_ADDRESSES</b> structure is being used. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function retrieves the interface–to–IPv4 address mapping table on a local computer and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function retrieves the interface–to–IPv4 address mapping table on a local computer and returns this information in an <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a> structure.
 
 On the Platform Software Development Kit (SDK) released for Windows Server 2003 and earlier, the return value for the <b>GetAdaptersAddresses</b> function was defined as a <b>DWORD</b>, rather than a <b>ULONG</b>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure pointed to by the <i>AdapterAddresses</i> parameter. On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>SOCKET_ADDRESS</b> structure is defined in the <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. On the Platform SDK released for Windows Server 2003 and Windows XP, the <b>SOCKET_ADDRESS</b> structure is declared in the <i>Winsock2.h</i> header file. In order to use the <b>IP_ADAPTER_ADDRESSES</b> structure, the <i>Winsock2.h</i> header file must be included before the <i>Iphlpapi.h</i> header file.  
+The <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure is used in the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure pointed to by the <i>AdapterAddresses</i> parameter. On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>SOCKET_ADDRESS</b> structure is defined in the <i>Ws2def.h</i> header file which is automatically included by the <i>Winsock2.h</i> header file. On the Platform SDK released for Windows Server 2003 and Windows XP, the <b>SOCKET_ADDRESS</b> structure is declared in the <i>Winsock2.h</i> header file. In order to use the <b>IP_ADAPTER_ADDRESSES</b> structure, the <i>Winsock2.h</i> header file must be included before the <i>Iphlpapi.h</i> header file.  
 
 
 #### Examples
 
-This example retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure for the adapters associated with the system and prints some members  for each adapter interface.
+This example retrieves the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure for the adapters associated with the system and prints some members  for each adapter interface.
 
 
 ```cpp
@@ -594,49 +573,38 @@ int __cdecl main(int argc, char **argv)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-start-page-2">Windows Sockets</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/windows-sockets-start-page-2">Windows Sockets</a>

@@ -2,15 +2,12 @@
 UID: NN:shobjidl_core.IDragSourceHelper
 title: IDragSourceHelper (shobjidl_core.h)
 description: Exposed by the Shell to allow an application to specify the image that will be displayed during a Shell drag-and-drop operation.
+helpviewer_keywords: ["IDragSourceHelper","IDragSourceHelper interface [Windows Shell]","IDragSourceHelper interface [Windows Shell]","described","_win32_IDragSourceHelper","shell.IDragSourceHelper","shobjidl_core/IDragSourceHelper"]
 old-location: shell\IDragSourceHelper.htm
 tech.root: shell
 ms.assetid: d68ac8fd-4d9c-47ee-bdff-0c5bae6b5e28
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper, IDragSourceHelper interface [Windows Shell], IDragSourceHelper interface [Windows Shell],described, _win32_IDragSourceHelper, shell.IDragSourceHelper, shobjidl_core/IDragSourceHelper
-f1_keywords:
-- shobjidl_core/IDragSourceHelper
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IDragSourceHelper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDragSourceHelper
+ - shobjidl_core/IDragSourceHelper
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IDragSourceHelper
 ---
 
 # IDragSourceHelper interface
@@ -48,67 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposed by the Shell to allow an application to specify the image that will be displayed during a Shell drag-and-drop operation.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragSourceHelper</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDragSourceHelper</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDragSourceHelper</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">InitializeFromBitmap</a>
-</td>
-<td align="left" width="63%">
-Initializes the drag-image manager for a windowless control.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">InitializeFromWindow</a>
-</td>
-<td align="left" width="63%">
-Initializes the drag-image manager for a control with a window.
-
-</td>
-</tr>
-</table> 
-
+The <b>IDragSourceHelper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDragSourceHelper</b> also has these types of members:
 
 ## -remarks
 
-
-
 This interface is exposed by the Shell's drag-image manager. It is not implemented by applications.
 
-Use this interface to specify the image displayed during a Shell drag-and-drop operation. The <b>IDragSourceHelper</b>,  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow">IInitializeWithWindow</a> interfaces are exposed by the drag-image manager object to allow the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface to use custom drag images. To use either of these interfaces, you must create an in-process server drag-image manager object by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with a class identifier (CLSID) of CLSID_DragDropHelper. Get interface pointers using standard Component Object Model (COM) procedures.
+Use this interface to specify the image displayed during a Shell drag-and-drop operation. The <b>IDragSourceHelper</b>,  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>, and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithwindow">IInitializeWithWindow</a> interfaces are exposed by the drag-image manager object to allow the <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface to use custom drag images. To use either of these interfaces, you must create an in-process server drag-image manager object by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> with a class identifier (CLSID) of CLSID_DragDropHelper. Get interface pointers using standard Component Object Model (COM) procedures.
 
 The <b>IDragSourceHelper</b> interface provides the following two ways to specify the bitmap to be used as a drag image.
 
 				
 
 <ul>
-<li>Controls that have a window can register a DI_GETDRAGIMAGE window message for it and initialize the drag-image manager with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">IDragSourceHelper::InitializeFromWindow</a>. When the DI_GETDRAGIMAGE message is received, the handler puts the drag image bitmap information in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shdragimage">SHDRAGIMAGE</a> structure that is passed as the message's <i>lParam</i> value.</li>
-<li>Windowless controls can initialize the drag-image manager with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">IDragSourceHelper::InitializeFromBitmap</a>. This method allows an application to simply specify the bitmap.</li>
+<li>Controls that have a window can register a DI_GETDRAGIMAGE window message for it and initialize the drag-image manager with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">IDragSourceHelper::InitializeFromWindow</a>. When the DI_GETDRAGIMAGE message is received, the handler puts the drag image bitmap information in the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shdragimage">SHDRAGIMAGE</a> structure that is passed as the message's <i>lParam</i> value.</li>
+<li>Windowless controls can initialize the drag-image manager with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">IDragSourceHelper::InitializeFromBitmap</a>. This method allows an application to simply specify the bitmap.</li>
 </ul>
-<div class="alert"><b>Note</b>   The drag-and-drop helper object calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a> to load private formats—used for cross-process support—into the data object. It later retrieves these formats by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>. To support the drag-and-drop helper object, the data object's <b>SetData</b> and <b>GetData</b> implementations must be able to accept and return arbitrary private formats.</div>
+<div class="alert"><b>Note</b>   The drag-and-drop helper object calls <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-setdata">IDataObject::SetData</a> to load private formats—used for cross-process support—into the data object. It later retrieves these formats by calling <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>. To support the drag-and-drop helper object, the data object's <b>SetData</b> and <b>GetData</b> implementations must be able to accept and return arbitrary private formats.</div>
 <div> </div>
-For further discussion of Shell drag-and-drop operations, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776905(v=vs.85)">Transferring Shell Data Using Drag-and-Drop or the Clipboard</a>.
+For further discussion of Shell drag-and-drop operations, see <a href="/previous-versions/windows/desktop/legacy/bb776905(v=vs.85)">Transferring Shell Data Using Drag-and-Drop or the Clipboard</a>.
 
 <div class="alert"><b>Note</b>   Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
-
-

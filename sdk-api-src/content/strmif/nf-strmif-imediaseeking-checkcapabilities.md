@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaSeeking.CheckCapabilities
 title: IMediaSeeking::CheckCapabilities (strmif.h)
 description: The CheckCapabilities method queries whether a stream has specified seeking capabilities.
+helpviewer_keywords: ["CheckCapabilities","CheckCapabilities method [DirectShow]","CheckCapabilities method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","CheckCapabilities method","IMediaSeeking.CheckCapabilities","IMediaSeeking::CheckCapabilities","IMediaSeekingCheckCapabilities","dshow.imediaseeking_checkcapabilities","strmif/IMediaSeeking::CheckCapabilities"]
 old-location: dshow\imediaseeking_checkcapabilities.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432
 ms.date: 12/05/2018
 ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
-f1_keywords:
-- strmif/IMediaSeeking.CheckCapabilities
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.CheckCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::CheckCapabilities
+ - strmif/IMediaSeeking::CheckCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.CheckCapabilities
 ---
 
 # IMediaSeeking::CheckCapabilities
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CheckCapabilities</b> method queries whether a stream has specified seeking capabilities.
-
 
 ## -parameters
 
-
-
-
 ### -param pCapabilities [in, out]
 
-On input, a pointer to a  variable that contains a bitwise <b>OR</b> of one or more <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> attributes. When the method returns, the value indicates which of those attributes are available.
-          
-
+On input, a pointer to a variable that contains a bitwise <b>OR</b> of one or more <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> attributes. When the method returns, the value indicates which of those attributes are available.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
           
@@ -121,22 +114,16 @@ No capabilities in <i>pCapabilities</i> are present.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If you are only interested in a few specific capabilities, calling this method is more efficient than calling <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a>, which checks all the stream's seeking capabilities.
 
-
-If you are only interested in a few specific capabilities, calling this method is more efficient than calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a>, which checks all the stream's seeking capabilities.
-
-To call this method, declare a <b>DWORD</b> variable and set the value to the bitwise-<b>OR</b> combination of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_seeking_seekingcapabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags that you want to test. Pass the address of this value in the <i>pCapabilities</i> parameter. When the method returns, <i>pCapabilities</i> contains a subset of the original bits, indicating which capabilities are present. The return value indicates whether some, none, or all of the requested capabilities are present.
+To call this method, declare a <b>DWORD</b> variable and set the value to the bitwise-<b>OR</b> combination of the <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags that you want to test. Pass the address of this value in the <i>pCapabilities</i> parameter. When the method returns, <i>pCapabilities</i> contains a subset of the original bits, indicating which capabilities are present. The return value indicates whether some, none, or all of the requested capabilities are present.
 
 The following code example shows how to find out whether the stream supports forward seeking, backward seeking, and absolute seeking.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -178,19 +165,11 @@ else if (hr == S_FALSE) // The stream has some of the capabilities.
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
- 
-
- 
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
 

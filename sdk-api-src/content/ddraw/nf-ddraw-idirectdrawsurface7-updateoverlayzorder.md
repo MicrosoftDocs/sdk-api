@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlayZOrder
 title: IDirectDrawSurface7::UpdateOverlayZOrder (ddraw.h)
 description: Sets the z-order of an overlay.
+helpviewer_keywords: ["DDOVERZ_INSERTINBACKOF","DDOVERZ_INSERTINFRONTOF","DDOVERZ_MOVEBACKWARD","DDOVERZ_MOVEFORWARD","DDOVERZ_SENDTOBACK","DDOVERZ_SENDTOFRONT","IDirectDrawSurface7 interface [DirectDraw]","UpdateOverlayZOrder method","IDirectDrawSurface7.UpdateOverlayZOrder","IDirectDrawSurface7::UpdateOverlayZOrder","UpdateOverlayZOrder","UpdateOverlayZOrder method [DirectDraw]","UpdateOverlayZOrder method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::UpdateOverlayZOrder","directdraw.idirectdrawsurface7_updateoverlayzorder"]
 old-location: directdraw\idirectdrawsurface7_updateoverlayzorder.htm
 tech.root: directdraw
 ms.assetid: a95f315f-7a1f-4ca0-bb18-9bd54f2cc78d
 ms.date: 12/05/2018
 ms.keywords: DDOVERZ_INSERTINBACKOF, DDOVERZ_INSERTINFRONTOF, DDOVERZ_MOVEBACKWARD, DDOVERZ_MOVEFORWARD, DDOVERZ_SENDTOBACK, DDOVERZ_SENDTOFRONT, IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayZOrder method, IDirectDrawSurface7.UpdateOverlayZOrder, IDirectDrawSurface7::UpdateOverlayZOrder, UpdateOverlayZOrder, UpdateOverlayZOrder method [DirectDraw], UpdateOverlayZOrder method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayZOrder, directdraw.idirectdrawsurface7_updateoverlayzorder
-f1_keywords:
-- ddraw/IDirectDrawSurface7.UpdateOverlayZOrder
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.UpdateOverlayZOrder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::UpdateOverlayZOrder
+ - ddraw/IDirectDrawSurface7::UpdateOverlayZOrder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.UpdateOverlayZOrder
 ---
 
 # IDirectDrawSurface7::UpdateOverlayZOrder
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the z-order of an overlay.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 One of the following flags that determines the z-order of the overlay:
 
@@ -97,15 +94,11 @@ Moves this overlay to the back of the overlay chain.
 
 Moves this overlay to the front of the overlay chain.
 
+### -param unnamedParam2 [in]
 
-### -param arg2 [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDraw surface to be used as a relative position in the overlay chain. This parameter is needed only for the DDOVERZ_INSERTINBACKOF and DDOVERZ_INSERTINFRONTOF flags.
-
+A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a> interface for the DirectDraw surface to be used as a relative position in the overlay chain. This parameter is needed only for the DDOVERZ_INSERTINBACKOF and DDOVERZ_INSERTINFRONTOF flags.
 
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -119,24 +112,10 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_NOTAOVERLAYSURFACE</li>
 </ul>
 
-
-
 ## -remarks
-
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>UpdateOverlayZOrder</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

@@ -4,7 +4,7 @@ title: Display Devices Reference
 ms.assetid: 4b099f8f-1e3b-398c-9d48-80f65f6c3468
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Display Devices Reference
@@ -25,5 +25,4 @@ To develop Display Devices Reference, you need these headers:
  * [dxmini.h](../dxmini/index.md)
 
 For programming guidance for this technology, see:
-* [Display Devices Reference](https://docs.microsoft.com/windows-hardware/drivers/display/)
-
+* [Display Devices Reference](/windows-hardware/drivers/display/)

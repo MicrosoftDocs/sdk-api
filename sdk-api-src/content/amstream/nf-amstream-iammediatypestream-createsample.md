@@ -2,15 +2,12 @@
 UID: NF:amstream.IAMMediaTypeStream.CreateSample
 title: IAMMediaTypeStream::CreateSample (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The CreateSample method creates a stream sample and optionally specifies the sample buffer.
+helpviewer_keywords: ["CreateSample","CreateSample method [DirectShow]","CreateSample method [DirectShow]","IAMMediaTypeStream interface","IAMMediaTypeStream interface [DirectShow]","CreateSample method","IAMMediaTypeStream.CreateSample","IAMMediaTypeStream::CreateSample","IAMMediaTypeStreamCreateSample","amstream/IAMMediaTypeStream::CreateSample","dshow.iammediatypestream_createsample"]
 old-location: dshow\iammediatypestream_createsample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5bfdbf82-c298-498d-84e4-cd4d8cd13f82
 ms.date: 12/05/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],CreateSample method, IAMMediaTypeStream.CreateSample, IAMMediaTypeStream::CreateSample, IAMMediaTypeStreamCreateSample, amstream/IAMMediaTypeStream::CreateSample, dshow.iammediatypestream_createsample
-f1_keywords:
-- amstream/IAMMediaTypeStream.CreateSample
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IAMMediaTypeStream.CreateSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaTypeStream::CreateSample
+ - amstream/IAMMediaTypeStream::CreateSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IAMMediaTypeStream.CreateSample
 ---
 
 # IAMMediaTypeStream::CreateSample
@@ -48,48 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>CreateSample</code> method creates a stream sample and optionally specifies the sample buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lSampleSize [in]
 
 Size of the sample.
 
-
 ### -param pbBuffer [in]
 
 [optional] Pointer to an array of bytes that contains the sample data, or <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
 Reserved.
 
-
 ### -param pUnkOuter [in]
 
 [optional] Pointer to the interface of an object that aggregates the stream sample.
 
-
 ### -param ppAMMediaTypeSample [in]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample</a> interface pointer that receives a pointer to the created sample.
-
+Address of an <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample</a> interface pointer that receives a pointer to the created sample.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -132,27 +119,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If <i>pUnkOuter</i> is non-<b>NULL</b>, the new stream sample is aggregated into the specified object. Filters that receive the sample can then query it for interfaces supported by the aggregating object.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>

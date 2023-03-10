@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxManifestReader5.GetMainPackageDependencies
 title: IAppxManifestReader5::GetMainPackageDependencies (appxpackaging.h)
 description: Gets a main package dependencies enumerator.
+helpviewer_keywords: ["GetMainPackageDependencies","GetMainPackageDependencies method [App packaging and management]","GetMainPackageDependencies method [App packaging and management]","IAppxManifestReader5 interface","IAppxManifestReader5 interface [App packaging and management]","GetMainPackageDependencies method","IAppxManifestReader5.GetMainPackageDependencies","IAppxManifestReader5::GetMainPackageDependencies","appxpackaging/IAppxManifestReader5::GetMainPackageDependencies","appxpkg.iappxmanifestreader5_getmainpackagedependencies"]
 old-location: appxpkg\iappxmanifestreader5_getmainpackagedependencies.htm
 tech.root: appxpkg
 ms.assetid: E89A6A43-28F6-4A9A-A8B7-3450B68E3DB1
 ms.date: 12/05/2018
 ms.keywords: GetMainPackageDependencies, GetMainPackageDependencies method [App packaging and management], GetMainPackageDependencies method [App packaging and management],IAppxManifestReader5 interface, IAppxManifestReader5 interface [App packaging and management],GetMainPackageDependencies method, IAppxManifestReader5.GetMainPackageDependencies, IAppxManifestReader5::GetMainPackageDependencies, appxpackaging/IAppxManifestReader5::GetMainPackageDependencies, appxpkg.iappxmanifestreader5_getmainpackagedependencies
-f1_keywords:
-- appxpackaging/IAppxManifestReader5.GetMainPackageDependencies
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestReader5.GetMainPackageDependencies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestReader5::GetMainPackageDependencies
+ - appxpackaging/IAppxManifestReader5::GetMainPackageDependencies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestReader5.GetMainPackageDependencies
 ---
 
 # IAppxManifestReader5::GetMainPackageDependencies
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a main package dependencies enumerator.
 
-
 ## -parameters
-
-
-
 
 ### -param mainPackageDependencies [out, retval]
 
 The main package dependencies enumerator.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader5">IAppxManifestReader5</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader5">IAppxManifestReader5</a>

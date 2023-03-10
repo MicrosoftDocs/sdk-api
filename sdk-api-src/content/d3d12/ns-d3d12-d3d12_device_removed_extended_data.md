@@ -2,18 +2,15 @@
 UID: NS:d3d12.D3D12_DEVICE_REMOVED_EXTENDED_DATA
 title: D3D12_DEVICE_REMOVED_EXTENDED_DATA
 description: Represents Device Removed Extended Data (DRED) version 1.0 data.
+helpviewer_keywords: ["D3D12_DEVICE_REMOVED_EXTENDED_DATA","D3D12_DEVICE_REMOVED_EXTENDED_DATA structure","d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA","direct3d12.d3d12_device_removed_extended_data"]
 tech.root: direct3d12
 ms.date: 02/06/2019
 ms.keywords: D3D12_DEVICE_REMOVED_EXTENDED_DATA, D3D12_DEVICE_REMOVED_EXTENDED_DATA structure, d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA, direct3d12.d3d12_device_removed_extended_data
-f1_keywords:
-- d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -26,22 +23,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- d3d12.h
-api_name:
-- D3D12_DEVICE_REMOVED_EXTENDED_DATA
 targetos: Windows
 req.typenames: D3D12_DEVICE_REMOVED_EXTENDED_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_DEVICE_REMOVED_EXTENDED_DATA
+ - d3d12/D3D12_DEVICE_REMOVED_EXTENDED_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12.h
+api_name:
+ - D3D12_DEVICE_REMOVED_EXTENDED_DATA
 ---
 
 # D3D12_DEVICE_REMOVED_EXTENDED_DATA structure
+
 
 ## -description
 
@@ -64,3 +67,4 @@ An output parameter of type pointer to [D3D12_AUTO_BREADCRUMB_NODE](ns-d3d12-d3d
 
 * [Core structures](/windows/desktop/direct3d12/direct3d-12-structures)
 * [Use DRED to diagnose GPU faults](/windows/desktop/direct3d12/use-dred)
+

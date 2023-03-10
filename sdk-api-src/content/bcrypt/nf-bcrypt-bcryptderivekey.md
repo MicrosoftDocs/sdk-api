@@ -1,16 +1,13 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKey
 title: BCryptDeriveKey function (bcrypt.h)
-description: Derives a key from a secret agreement value.
+description: Derives a key from a secret agreement value. (BCryptDeriveKey)
+helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","BCryptDeriveKey","BCryptDeriveKey function [Security]","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","bcrypt/BCryptDeriveKey","security.bcryptderivekey"]
 old-location: security\bcryptderivekey.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 33c3cbf7-6c08-42ed-ac3f-feb71f3a9cbf
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, BCryptDeriveKey, BCryptDeriveKey function [Security], KDF_USE_SECRET_AS_HMAC_KEY_FLAG, bcrypt/BCryptDeriveKey, security.bcryptderivekey
-f1_keywords:
-- bcrypt/BCryptDeriveKey
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptDeriveKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptDeriveKey
+ - bcrypt/BCryptDeriveKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptDeriveKey
 ---
 
 # BCryptDeriveKey function
@@ -49,19 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
+The <b>BCryptDeriveKey</b> function derives a key from a secret agreement value. 
 
-The <b>BCryptDeriveKey</b> function derives a key from a secret agreement value.
-
+For key derivation from a given secret, see <a href="/windows/win32/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>.
 
 ## -parameters
 
-
-
-
 ### -param hSharedSecret [in]
 
-The secret agreement handle to create the key from. This handle is obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a> function.
-
+The secret agreement handle to create the key from. This handle is obtained from the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a> function.
 
 ### -param pwszKDF [in]
 
@@ -89,7 +87,7 @@ The parameters identified by the <i>pParameterList</i> parameter either can or m
 
 </td>
 <td>
-A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
+A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
 
 If this parameter is not specified, the SHA1 hash algorithm is used.
 
@@ -132,7 +130,9 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Prepend = KDF_SECRET_PREPEND[0] + 
+
+``` syntax
+KDF-Prepend = KDF_SECRET_PREPEND[0] + 
     KDF_SECRET_PREPEND[1] + 
     ... +
     KDF_SECRET_PREPEND[n]
@@ -145,12 +145,14 @@ KDF-Append = KDF_SECRET_APPEND[0] +
 KDF-Output = Hash(
     KDF-Prepend + 
     hSharedSecret + 
-    KDF-Append)</code></pre>
+    KDF-Append)
+```
+
 
 
 #### BCRYPT_KDF_HMAC (L"HMAC")
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) key derivation function. 
+Use the <a href="/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) key derivation function. 
 
 If the <i>cbDerivedKey</i> parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the <i>pbDerivedKey</i> buffer. If the <i>cbDerivedKey</i> parameter is greater than the size of the derived key, this function will copy the key to the <i>pbDerivedKey</i> buffer and set the variable pointed to by the <i>pcbResult</i> to the actual number of bytes copied.
 
@@ -168,7 +170,7 @@ The parameters identified by the <i>pParameterList</i> parameter either can or m
 
 </td>
 <td>
-A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
+A null-terminated Unicode string that identifies the hash algorithm to use. This can be one of the standard hash algorithm identifiers from <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered hash algorithm.
 
 If this parameter is not specified, the SHA1 hash algorithm is used.
 
@@ -184,7 +186,7 @@ Optional
 
 </td>
 <td>
-The key to use for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF).
+The key to use for the <a href="/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF).
 
 </td>
 <td>
@@ -225,7 +227,9 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Prepend = KDF_SECRET_PREPEND[0] + 
+
+``` syntax
+KDF-Prepend = KDF_SECRET_PREPEND[0] + 
     KDF_SECRET_PREPEND[1] + 
     ... +
     KDF_SECRET_PREPEND[n]
@@ -239,12 +243,14 @@ KDF-Output = HMAC-Hash(
     KDF_HMAC_KEY,
     KDF-Prepend + 
     hSharedSecret + 
-    KDF-Append)</code></pre>
+    KDF-Append)
+```
+
 
 
 #### BCRYPT_KDF_TLS_PRF (L"TLS_PRF")
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">transport layer security</a> (TLS) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF) key derivation function. The size of the derived key is always 48 bytes, so the <i>cbDerivedKey</i> parameter must be 48.
+Use the <a href="/windows/desktop/SecGloss/t-gly">transport layer security</a> (TLS) <a href="/windows/desktop/SecGloss/p-gly">pseudo-random function</a> (PRF) key derivation function. The size of the derived key is always 48 bytes, so the <i>cbDerivedKey</i> parameter must be 48.
 
 The parameters identified by the <i>pParameterList</i> parameter either can or must contain the following parameters, as indicated by the Required or optional column.
 
@@ -337,10 +343,14 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Output = PRF(
+
+``` syntax
+KDF-Output = PRF(
     hSharedSecret, 
     KDF_TLS_PRF_LABEL, 
-    KDF_TLS_PRF_SEED)</code></pre>
+    KDF_TLS_PRF_SEED)
+```
+
 
 
 #### BCRYPT_KDF_SP80056A_CONCAT (L"SP800_56A_CONCAT")
@@ -431,35 +441,42 @@ Optional
 
 The call to the KDF is made as shown in the following pseudocode.
 
-<pre class="syntax" xml:space="preserve"><code>KDF-Output = SP_800-56A_KDF(
+
+``` syntax
+KDF-Output = SP_800-56A_KDF(
 	   hSharedSecret,
 	   KDF_ALGORITHMID,
 	   KDF_PARTYUINFO,
 	   KDF_PARTYVINFO,
 	   KDF_SUPPPUBINFO,
-	   KDF_SUPPPRIVINFO)</code></pre>
+	   KDF_SUPPPRIVINFO)
+```
+
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
+#### BCRYPT_KDF_RAW_SECRET (L"TRUNCATE")
+
+Returns the little-endian representation of the raw secret without any modification.
+
+If the <i>cbDerivedKey</i> parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the <i>pbDerivedKey</i> buffer. If the <i>cbDerivedKey</i> parameter is greater than the size of the derived key, this function will copy the key to the <i>pbDerivedKey</i> buffer and set the variable pointed to by the <i>pcbResult</i> to the actual number of bytes copied.
+
+<b>Windows 8, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 ### -param pParameterList [in, optional]
 
-The address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
-
+The address of a <a href="/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
 
 ### -param pbDerivedKey [out, optional]
 
 The address of a buffer that receives the key. The <i>cbDerivedKey</i> parameter contains the size of this buffer. If this parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>ULONG</b> pointed to by the <i>pcbResult</i> parameter.
 
-
 ### -param cbDerivedKey [in]
 
 The size, in bytes, of the <i>pbDerivedKey</i> buffer.
 
-
 ### -param pcbResult [out]
 
 A pointer to a <b>ULONG</b> that receives the number of bytes that were copied to the <i>pbDerivedKey</i> buffer. If the <i>pbDerivedKey</i> parameter is <b>NULL</b>, this function will place the required size, in bytes, in the <b>ULONG</b> pointed to by this parameter.
-
 
 ### -param dwFlags [in]
 
@@ -481,12 +498,8 @@ The secret agreement value will also serve as the HMAC key. If this flag is spec
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -545,16 +558,10 @@ One or more parameters are not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure in the <i>pParameterList</i> parameter can contain more than one of the <b>KDF_SECRET_PREPEND</b> and <b>KDF_SECRET_APPEND</b> parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
+The <a href="/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure in the <i>pParameterList</i> parameter can contain more than one of the <b>KDF_SECRET_PREPEND</b> and <b>KDF_SECRET_APPEND</b> parameters. If more than one of these parameters is specified, the parameter values are concatenated in the order in which they are contained in the array before the KDF is called. For example, assume the following parameter values are specified.
 
 
 ```cpp
@@ -581,28 +588,24 @@ Parameter[3].length = sizeof (pbValue3);
 
 If the above parameter values are specified, the concatenated values to the actual KDF are as follows.
 
-<pre class="syntax" xml:space="preserve"><code>Type: KDF_SECRET_PREPEND
+
+``` syntax
+Type: KDF_SECRET_PREPEND
 Value: {0x04, 0x05, 0x20, 0x21, 0x22, 0x23}, length 6
 
 Type: KDF_SECRET_APPEND
 Value: {0x01, 0x10, 0x11, 0x12}, length 4
-</code></pre>
-Depending on what processor modes a provider supports, <b>BCryptDeriveKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hSharedSecret</i> parameter must be located in nonpaged (or locked) memory and must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
+
+```
+
+
+If the <i>pwszKDF</i> parameter is set to <b>BCRYPT_KDF_RAW_SECRET</b>, The returned secret (unlike the other <i>pwszKDF</i> values) will be encoded in little-endian format. It is important to take note of this when using the raw secret in any other CNG functions, as most of them take in big-endian encoded inputs.
+
+
+Depending on what processor modes a provider supports, <b>BCryptDeriveKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hSharedSecret</i> parameter must be located in nonpaged (or locked) memory and must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a>

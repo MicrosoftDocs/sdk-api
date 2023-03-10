@@ -1,16 +1,13 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Reset
 title: IEnumBitsPeerCacheRecords::Reset (bits3_0.h)
-description: Resets the enumeration sequence to the beginning.
+description: Resets the enumeration sequence to the beginning. (IEnumBitsPeerCacheRecords.Reset)
+helpviewer_keywords: ["IEnumBitsPeerCacheRecords interface [BITS]","Reset method","IEnumBitsPeerCacheRecords.Reset","IEnumBitsPeerCacheRecords::Reset","Reset","Reset method [BITS]","Reset method [BITS]","IEnumBitsPeerCacheRecords interface","bits.ienumbitspeercacherecords_reset","bits3_0/IEnumBitsPeerCacheRecords::Reset"]
 old-location: bits\ienumbitspeercacherecords_reset.htm
 tech.root: Bits
 ms.assetid: d1e1dbdc-a90d-4ac8-8b52-8e4f914a81dd
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeerCacheRecords interface [BITS],Reset method, IEnumBitsPeerCacheRecords.Reset, IEnumBitsPeerCacheRecords::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeerCacheRecords interface, bits.ienumbitspeercacherecords_reset, bits3_0/IEnumBitsPeerCacheRecords::Reset
-f1_keywords:
-- bits3_0/IEnumBitsPeerCacheRecords.Reset
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IEnumBitsPeerCacheRecords.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBitsPeerCacheRecords::Reset
+ - bits3_0/IEnumBitsPeerCacheRecords::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IEnumBitsPeerCacheRecords.Reset
 ---
 
 # IEnumBitsPeerCacheRecords::Reset
@@ -49,33 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumeration sequence to the beginning.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT</b> values on error.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>

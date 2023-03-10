@@ -2,15 +2,12 @@
 UID: NF:propvarutil.PropVariantCompare
 title: PropVariantCompare function (propvarutil.h)
 description: Compares two PROPVARIANT structures, based on default comparison units and settings.
+helpviewer_keywords: ["PropVariantCompare","PropVariantCompare function [Windows Properties]","_shell_PropVariantCompare","properties.PropVariantCompare","propvarutil/PropVariantCompare","shell.PropVariantCompare"]
 old-location: properties\PropVariantCompare.htm
 tech.root: properties
 ms.assetid: f296a583-3af2-4165-8b3a-0b47eba8e89d
 ms.date: 12/05/2018
 ms.keywords: PropVariantCompare, PropVariantCompare function [Windows Properties], _shell_PropVariantCompare, properties.PropVariantCompare, propvarutil/PropVariantCompare, shell.PropVariantCompare
-f1_keywords:
-- propvarutil/PropVariantCompare
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Propvarutil.h
-api_name:
-- PropVariantCompare
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantCompare
+ - propvarutil/PropVariantCompare
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Propvarutil.h
+api_name:
+ - PropVariantCompare
 ---
 
 # PropVariantCompare function
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Compares two <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures, based on default comparison units and settings.
-
+Compares two <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures, based on default comparison units and settings.
 
 ## -parameters
-
-
-
 
 ### -param propvar1 [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the first <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+Reference to the first <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param propvar2 [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to the second <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+Reference to the second <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
-
-
 
 Type: <b>INT</b>
 
@@ -83,13 +76,9 @@ Type: <b>INT</b>
 <li>Returns -1 if <i>propvar1</i> is less than <i>propvar2</i></li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-Calling <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompare">PropVariantCompare</a> is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
+Calling <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompare">PropVariantCompare</a> is equivalent to calling <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
 
 This function compares only selected types, not all types.
 
@@ -99,16 +88,6 @@ If the vartypes are different, this function attempts to convert <i>propvar2</i>
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantcompareex">PropVariantCompareEx</a>

@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveSubresource
 title: ID3D12GraphicsCommandList::ResolveSubresource (d3d12.h)
 description: Copy a multi-sampled resource into a non-multi-sampled resource.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResolveSubresource method","ID3D12GraphicsCommandList.ResolveSubresource","ID3D12GraphicsCommandList::ResolveSubresource","ResolveSubresource","ResolveSubresource method","ResolveSubresource method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResolveSubresource","direct3d12.id3d12graphicscommandlist_resolvesubresource"]
 old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
 tech.root: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveSubresource method, ID3D12GraphicsCommandList.ResolveSubresource, ID3D12GraphicsCommandList::ResolveSubresource, ResolveSubresource, ResolveSubresource method, ResolveSubresource method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveSubresource, direct3d12.id3d12graphicscommandlist_resolvesubresource
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.ResolveSubresource
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,99 +25,68 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.ResolveSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::ResolveSubresource
+ - d3d12/ID3D12GraphicsCommandList::ResolveSubresource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.ResolveSubresource
 ---
-
-# ID3D12GraphicsCommandList::ResolveSubresource
-
 
 ## -description
 
-
 Copy a multi-sampled resource into a non-multi-sampled resource.
-
 
 ## -parameters
 
+### -param pDstResource
 
+Type: [in] <b>ID3D12Resource*</b>
 
+Destination resource. Must be a created on a <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a> heap and be single-sampled. See <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
 
-### -param pDstResource [in]
+### -param DstSubresource
 
-Type: <b>ID3D12Resource*</b>
+Type: [in] <b>UINT</b>
 
-Destination resource. Must be a created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a> flag and be single-sampled. See
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
-          
+A zero-based index, that identifies the destination subresource. Use <a href="/windows/win32/direct3d12/d3d12calcsubresource">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
 
+### -param pSrcResource
 
-### -param DstSubresource [in]
-
-Type: <b>UINT</b>
-
-A zero-based index, that identifies the destination subresource. Use <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12calcsubresource">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
-          
-
-
-### -param pSrcResource [in]
-
-Type: <b>ID3D12Resource*</b>
+Type: [in] <b>ID3D12Resource*</b>
 
 Source resource. Must be multisampled.
-          
 
+### -param SrcSubresource
 
-### -param SrcSubresource [in]
-
-Type: <b>UINT</b>
+Type: [in] <b>UINT</b>
 
 The source subresource of the source resource.
-          
 
+### -param Format
 
-### -param Format [in]
+Type: [in] <b>DXGI_FORMAT</b>
 
-Type: <b>DXGI_FORMAT</b>
-
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
-            See remarks.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
+A <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource. See remarks.
 
 ## -remarks
 
-
-
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
-          
+The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
 
-The debug layer will issue an error if the destination buffer is not in the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
-          
-
-This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
+The debug layer will issue an error if the destination buffer is not in the  <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_DEST</a> state.
 
 The source and destination resources must be the same resource type and have the same dimensions. In addition, they must have compatible formats. There are three scenarios for this:
 
@@ -139,7 +105,7 @@ The source and destination resources must be the same resource type and have the
 </tr>
 <tr>
 <td>Source and destination are prestructured and typeless</td>
-<td>Both the source and desintation must have the same typeless format (i.e. both must have DXGI_FORMAT_R32_TYPELESS), and the Format parameter must specify a format that is compatible with the source and destination (i.e. if both are DXGI_FORMAT_R32_TYPELESS then DXGI_FORMAT_R32_FLOAT could be specified in the Format parameter).
+<td>Both the source and destination must have the same typeless format (i.e. both must have DXGI_FORMAT_R32_TYPELESS), and the Format parameter must specify a format that is compatible with the source and destination (i.e. if both are DXGI_FORMAT_R32_TYPELESS then DXGI_FORMAT_R32_FLOAT could be specified in the Format parameter).
               For example, given the DXGI_FORMAT_R16G16B16A16_TYPELESS format:
               
 
@@ -150,22 +116,10 @@ The source and destination resources must be the same resource type and have the
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/subresources">Subresources</a>
- 
-
- 
+<a href="/windows/win32/direct3d12/subresources">Subresources</a>
 

@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRectangle.SetRectangle
 title: IInkRectangle::SetRectangle (msinkaut.h)
 description: Sets the elements of the InkRectangle object in a single call.
+helpviewer_keywords: ["689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf","IInkRectangle interface [Tablet PC]","SetRectangle method","IInkRectangle.SetRectangle","IInkRectangle::SetRectangle","SetRectangle","SetRectangle method [Tablet PC]","SetRectangle method [Tablet PC]","IInkRectangle interface","msinkaut/IInkRectangle::SetRectangle","tablet.inkrectangle_setrectangle"]
 old-location: tablet\inkrectangle_setrectangle.htm
 tech.root: tablet
 ms.assetid: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf
 ms.date: 12/05/2018
 ms.keywords: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf, IInkRectangle interface [Tablet PC],SetRectangle method, IInkRectangle.SetRectangle, IInkRectangle::SetRectangle, SetRectangle, SetRectangle method [Tablet PC], SetRectangle method [Tablet PC],IInkRectangle interface, msinkaut/IInkRectangle::SetRectangle, tablet.inkrectangle_setrectangle
-f1_keywords:
-- msinkaut/IInkRectangle.SetRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRectangle.SetRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRectangle::SetRectangle
+ - msinkaut/IInkRectangle::SetRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRectangle.SetRectangle
 ---
 
 # IInkRectangle::SetRectangle
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Sets the elements of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object in a single call.
-
-
-
+Sets the elements of the <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a> object in a single call.
 
 ## -parameters
-
-
-
 
 ### -param Top [in]
 
 The top of the rectangle.
 
-
 ### -param Left [in]
 
 The left of the rectangle.
-
 
 ### -param Bottom [in]
 
 The bottom of the rectangle.
 
-
 ### -param Right [in]
 
 The right of the rectangle.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -126,47 +114,32 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  The order of the parameters in this method (<i>Top</i>, <i>Left</i>, <i>Bottom</i>, and <i>Right</i>) is different from the expected order (<i>Left</i>, <i>Top</i>, <i>Right</i>, and <i>Bottom</i>).</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_bottom">Bottom Property</a>
+<a href="../msinkaut/nn-msinkaut-iinkrectangle.md">IInkRectangle</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_left">Left Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_right">Right Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top Property</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top Property</a>

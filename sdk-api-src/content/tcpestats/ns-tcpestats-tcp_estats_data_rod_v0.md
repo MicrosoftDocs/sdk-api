@@ -2,15 +2,12 @@
 UID: NS:tcpestats._TCP_ESTATS_DATA_ROD_v0
 title: TCP_ESTATS_DATA_ROD_v0 (tcpestats.h)
 description: Contains read-only dynamic information for extended TCP statistics on data transfer for a TCP connection.
+helpviewer_keywords: ["*PTCP_ESTATS_DATA_ROD_v0","PTCP_ESTATS_DATA_ROD_v0","PTCP_ESTATS_DATA_ROD_v0 structure pointer [IP Helper]","TCP_ESTATS_DATA_ROD_v0","TCP_ESTATS_DATA_ROD_v0 structure [IP Helper]","iphlp.tcp_estats_data_rod_v0","tcpestats/PTCP_ESTATS_DATA_ROD_v0","tcpestats/TCP_ESTATS_DATA_ROD_v0"]
 old-location: iphlp\tcp_estats_data_rod_v0.htm
 tech.root: IpHlp
 ms.assetid: 1e896660-10dd-471a-b4ae-116caa7a9d48
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_DATA_ROD_v0, PTCP_ESTATS_DATA_ROD_v0, PTCP_ESTATS_DATA_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_DATA_ROD_v0, TCP_ESTATS_DATA_ROD_v0 structure [IP Helper], iphlp.tcp_estats_data_rod_v0, tcpestats/PTCP_ESTATS_DATA_ROD_v0, tcpestats/TCP_ESTATS_DATA_ROD_v0'
-f1_keywords:
-- tcpestats/TCP_ESTATS_DATA_ROD_v0
-dev_langs:
-- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpestats.h
-api_name:
-- TCP_ESTATS_DATA_ROD_v0
 targetos: Windows
 req.typenames: TCP_ESTATS_DATA_ROD_v0, *PTCP_ESTATS_DATA_ROD_v0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TCP_ESTATS_DATA_ROD_v0
+ - tcpestats/_TCP_ESTATS_DATA_ROD_v0
+ - PTCP_ESTATS_DATA_ROD_v0
+ - tcpestats/PTCP_ESTATS_DATA_ROD_v0
+ - TCP_ESTATS_DATA_ROD_v0
+ - tcpestats/TCP_ESTATS_DATA_ROD_v0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpestats.h
+api_name:
+ - TCP_ESTATS_DATA_ROD_v0
 ---
 
 # TCP_ESTATS_DATA_ROD_v0 structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TCP_ESTATS_DATA_ROD_v0</b> structure contains read-only dynamic information for extended TCP statistics on data transfer for a TCP connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field DataBytesOut
 
@@ -65,14 +66,12 @@ The number of octets of data contained in transmitted
            segments, including retransmitted data.  Note that this does
            not include TCP headers.
 
-
 ### -field DataSegsOut
 
 Type: <b>ULONG64</b>
 
 The number of segments sent containing a positive length
            data segment.
-
 
 ### -field DataBytesIn
 
@@ -82,7 +81,6 @@ The number of octets contained in received data segments,
            including retransmitted data.  Note that this does not
            include TCP headers.
 
-
 ### -field DataSegsIn
 
 Type: <b>ULONG64</b>
@@ -90,20 +88,17 @@ Type: <b>ULONG64</b>
 The number of segments received containing a positive
  length data segment.
 
-
 ### -field SegsOut
 
 Type: <b>ULONG64</b>
 
 The total number of segments sent.
 
-
 ### -field SegsIn
 
 Type: <b></b>
 
 The total number of segments received.
-
 
 ### -field SoftErrors
 
@@ -115,22 +110,19 @@ The number of segments that fail various consistency tests
            errors cause the generation of a TCP acknowledgment, while
            others are silently discarded.
 
-
 ### -field SoftErrorReason
 
 Type: <b>ULONG</b>
 
 A value that identifies which consistency test most recently
-           failed during TCP input processing.  This object is set every time the <b>SoftErrors</b> member is incremented.  
-
+           failed during TCP input processing.  This object is set every time the <b>SoftErrors</b> member is incremented.
 
 ### -field SndUna
 
 Type: <b>ULONG</b>
 
 The value of the oldest unacknowledged sequence
-           number. Note that this member is a TCP state variable. 
-
+           number. Note that this member is a TCP state variable.
 
 ### -field SndNxt
 
@@ -141,7 +133,6 @@ The next sequence number to be sent.
            a counter), because TCP sometimes retransmits lost data by
            pulling the member back to the missing data.
 
-
 ### -field SndMax
 
 Type: <b>ULONG</b>
@@ -150,15 +141,13 @@ The farthest forward (right most or largest) sequence number to be sent.
            Note that this will be equal to the <b>SndNxt</b> member except
            when the <b>SndNxt</b> member is pulled back during recovery.
 
-
 ### -field ThruBytesAcked
 
 Type: <b>ULONG64</b>
 
 The number of octets for which cumulative acknowledgments
            have been received.  Note that this will be the sum of
-           changes to the <b>SndNxt</b> member. 
-
+           changes to the <b>SndNxt</b> member.
 
 ### -field RcvNxt
 
@@ -169,27 +158,23 @@ The next sequence number to be received.
            a counter), because TCP sometimes retransmits lost data by
            pulling the member back to the missing data.
 
-
 ### -field ThruBytesReceived
 
 Type: <b>ULONG64</b>
 
 The number of octets for which cumulative acknowledgments
            have been sent.  Note that this will be the sum of changes
-           to the <b>RcvNxt</b>member.
-
+           to the <b>RcvNxt</b> member.
 
 ## -remarks
-
-
 
 The <b>TCP_ESTATS_DATA_ROD_v0</b> structure is used as part of the TCP extended statistics feature available on Windows Vista and later. 
 
 The <b>TCP_ESTATS_DATA_ROD_v0</b> is defined as version 0 of the structure for  read-only dynamic information for extended TCP statistics on data transfer for a TCP connection.  This information is available after the connection has been established.
 
-The <b>TCP_ESTATS_DATA_ROD_v0</b> structure is retrieved by calls to  the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsData</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
+The <b>TCP_ESTATS_DATA_ROD_v0</b> structure is retrieved by calls to  the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsData</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
-The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 
@@ -344,28 +329,15 @@ tcpEStatsAppThruOctetsReceived
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>

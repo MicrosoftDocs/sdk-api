@@ -2,15 +2,12 @@
 UID: NF:mmc.IMMCVersionInfo.GetMMCVersion
 title: IMMCVersionInfo::GetMMCVersion (mmc.h)
 description: The GetMMCVersion method retrieves version information for the MMC application.
+helpviewer_keywords: ["GetMMCVersion","GetMMCVersion method [MMC]","GetMMCVersion method [MMC]","IMMCVersionInfo interface","IMMCVersionInfo interface [MMC]","GetMMCVersion method","IMMCVersionInfo.GetMMCVersion","IMMCVersionInfo::GetMMCVersion","_slate_immcversioninfo_getmmcversion","mmc.immcversioninfo_getmmcversion","mmc/IMMCVersionInfo::GetMMCVersion"]
 old-location: mmc\immcversioninfo_getmmcversion.htm
 tech.root: mmc
 ms.assetid: 64b8cdfe-e65e-48c6-bc7a-2349140867a4
 ms.date: 12/05/2018
 ms.keywords: GetMMCVersion, GetMMCVersion method [MMC], GetMMCVersion method [MMC],IMMCVersionInfo interface, IMMCVersionInfo interface [MMC],GetMMCVersion method, IMMCVersionInfo.GetMMCVersion, IMMCVersionInfo::GetMMCVersion, _slate_immcversioninfo_getmmcversion, mmc.immcversioninfo_getmmcversion, mmc/IMMCVersionInfo::GetMMCVersion
-f1_keywords:
-- mmc/IMMCVersionInfo.GetMMCVersion
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IMMCVersionInfo.GetMMCVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMMCVersionInfo::GetMMCVersion
+ - mmc/IMMCVersionInfo::GetMMCVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IMMCVersionInfo.GetMMCVersion
 ---
 
 # IMMCVersionInfo::GetMMCVersion
@@ -48,42 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetMMCVersion</b> method retrieves version information for the MMC application.
 
-
 ## -parameters
-
-
-
 
 ### -param pVersionMajor [out]
 
 The version major number. For example, if *<i>pVersionMajor</i> returns 2, then MMC version 2.x is running.
 
-
 ### -param pVersionMinor [out]
 
 The version minor number. For example, if *<i>pVersionMinor</i> returns 0, then MMC version x.0 is running.
 
-
 ## -returns
-
-
 
 If successful, the return value is S_OK. Other return values indicate an error code.
 
-
-
-
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-immcversioninfo">IMMCVersionInfo</a> interface is introduced in MMC 2.0. For instructions on how to determine the MMC version if MMC 1.x is installed, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/detecting-the-mmc-version-number">Detecting the MMC Version Number</a>.
+<a href="/windows/desktop/api/mmc/nn-mmc-immcversioninfo">IMMCVersionInfo</a> interface is introduced in MMC 2.0. For instructions on how to determine the MMC version if MMC 1.x is installed, see 
+<a href="/previous-versions/windows/desktop/mmc/detecting-the-mmc-version-number">Detecting the MMC Version Number</a>.
 
 
 #### Examples
@@ -132,7 +120,3 @@ if (NULL != pVersionInfo)
     pVersionInfo = NULL;
 }
 ```
-
-
-
-

@@ -2,15 +2,12 @@
 UID: NN:shobjidl_core.IHomeGroup
 title: IHomeGroup (shobjidl_core.h)
 description: Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.
+helpviewer_keywords: ["IHomeGroup","IHomeGroup interface [Windows Shell]","IHomeGroup interface [Windows Shell]","described","_shell_IHomeGroup","shell.IHomeGroup","shobjidl_core/IHomeGroup"]
 old-location: shell\IHomeGroup.htm
 tech.root: shell
 ms.assetid: 97d693c0-1126-4cd3-8aee-b5499b538403
 ms.date: 12/05/2018
 ms.keywords: IHomeGroup, IHomeGroup interface [Windows Shell], IHomeGroup interface [Windows Shell],described, _shell_IHomeGroup, shell.IHomeGroup, shobjidl_core/IHomeGroup
-f1_keywords:
-- shobjidl_core/IHomeGroup
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Provsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Provsvc.dll
-api_name:
-- IHomeGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHomeGroup
+ - shobjidl_core/IHomeGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Provsvc.dll
+api_name:
+ - IHomeGroup
 ---
 
 # IHomeGroup interface
@@ -48,49 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that determine a computer's HomeGroup membership status and display the sharing wizard.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHomeGroup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHomeGroup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IHomeGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-ismember">IsMember</a>
-</td>
-<td align="left" width="63%">
-Determines whether the local computer is a member of a HomeGroup.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ihomegroup-showsharingwizard">ShowSharingWizard</a>
-</td>
-<td align="left" width="63%">
-Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
-
-</td>
-</tr>
-</table> 
-
+The <b>IHomeGroup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHomeGroup</b> also has these types of members:
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Custom implementations of <b>IHomeGroup</b> are not supported; client applications use the implementation provided in Provsvc.dll.
@@ -100,7 +66,4 @@ Use <b>IHomeGroup</b> when there is a need to determine the local computer's Hom
 
 
 
-To create an instance of <b>IHomeGroup</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> and specify <b>CLSID_HomeGroup</b> as the CLSID. <b>CLSID_HomeGroup</b> is defined in Shobjidl.h and Shobjidl.idl.
-
-
-
+To create an instance of <b>IHomeGroup</b>, call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> and specify <b>CLSID_HomeGroup</b> as the CLSID. <b>CLSID_HomeGroup</b> is defined in Shobjidl.h and Shobjidl.idl.

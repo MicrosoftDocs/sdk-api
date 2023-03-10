@@ -2,15 +2,12 @@
 UID: NF:ocidl.IPicture.get_KeepOriginalFormat
 title: IPicture::get_KeepOriginalFormat (ocidl.h)
 description: Retrieves the current value of the picture's KeepOriginalFormat property.
+helpviewer_keywords: ["IPicture interface [COM]","get_KeepOriginalFormat method","IPicture.get_KeepOriginalFormat","IPicture::get_KeepOriginalFormat","_ctrl_ipicture_get_keeporiginalformat","com.ipicture_get_keeporiginalformat","get_KeepOriginalFormat","get_KeepOriginalFormat method [COM]","get_KeepOriginalFormat method [COM]","IPicture interface","ocidl/IPicture::get_KeepOriginalFormat"]
 old-location: com\ipicture_get_keeporiginalformat.htm
 tech.root: com
 ms.assetid: 90befcb7-138f-4c63-a6ec-ec06c89b3317
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_KeepOriginalFormat method, IPicture.get_KeepOriginalFormat, IPicture::get_KeepOriginalFormat, _ctrl_ipicture_get_keeporiginalformat, com.ipicture_get_keeporiginalformat, get_KeepOriginalFormat, get_KeepOriginalFormat method [COM], get_KeepOriginalFormat method [COM],IPicture interface, ocidl/IPicture::get_KeepOriginalFormat
-f1_keywords:
-- ocidl/IPicture.get_KeepOriginalFormat
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPicture.get_KeepOriginalFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPicture::get_KeepOriginalFormat
+ - ocidl/IPicture::get_KeepOriginalFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPicture.get_KeepOriginalFormat
 ---
 
 # IPicture::get_KeepOriginalFormat
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current value of the picture's KeepOriginalFormat property.
 
-
 ## -parameters
-
-
-
 
 ### -param pKeep [out]
 
 A pointer to a variable that receives the value of the property.
 
-
 ## -returns
-
-
 
 This method supports the standard return value E_FAIL, as well as the following value.
 
@@ -96,22 +90,11 @@ The value of <i>pKeep</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">IPicture::put_KeepOriginalFormat</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-put_keeporiginalformat">IPicture::put_KeepOriginalFormat</a>

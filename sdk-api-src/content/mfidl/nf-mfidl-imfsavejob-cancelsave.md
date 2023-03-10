@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSaveJob.CancelSave
 title: IMFSaveJob::CancelSave (mfidl.h)
 description: Cancels the operation started by IMFSaveJob::BeginSave.
+helpviewer_keywords: ["CancelSave","CancelSave method [Media Foundation]","CancelSave method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","CancelSave method","IMFSaveJob.CancelSave","IMFSaveJob::CancelSave","ce3ec53a-eeca-430f-a939-3d941b9b2570","mf.imfsavejob_cancelsave","mfidl/IMFSaveJob::CancelSave"]
 old-location: mf\imfsavejob_cancelsave.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ce3ec53a-eeca-430f-a939-3d941b9b2570
 ms.date: 12/05/2018
 ms.keywords: CancelSave, CancelSave method [Media Foundation], CancelSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],CancelSave method, IMFSaveJob.CancelSave, IMFSaveJob::CancelSave, ce3ec53a-eeca-430f-a939-3d941b9b2570, mf.imfsavejob_cancelsave, mfidl/IMFSaveJob::CancelSave
-f1_keywords:
-- mfidl/IMFSaveJob.CancelSave
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSaveJob.CancelSave
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSaveJob::CancelSave
+ - mfidl/IMFSaveJob::CancelSave
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSaveJob.CancelSave
 ---
 
 # IMFSaveJob::CancelSave
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Cancels the operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">IMFSaveJob::BeginSave</a>.
-
-
-
-
-## -parameters
-
-
-
+Cancels the operation started by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsavejob-beginsave">IMFSaveJob::BeginSave</a>.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,18 +76,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsavejob">IMFSaveJob</a>

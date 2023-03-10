@@ -1,16 +1,13 @@
 ---
 UID: NF:clusapi.OpenClusterGroup
 title: OpenClusterGroup function (clusapi.h)
-description: Opens a failover cluster group and returns a handle to it.
+description: Opens a failover cluster group and returns a handle to it. (OpenClusterGroup)
+helpviewer_keywords: ["OpenClusterGroup","OpenClusterGroup function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_GROUP","PCLUSAPI_OPEN_CLUSTER_GROUP function [Failover Cluster]","_wolf_openclustergroup","clusapi/OpenClusterGroup","clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP","mscs.openclustergroup"]
 old-location: mscs\openclustergroup.htm
 tech.root: MsCS
 ms.assetid: 0c7ef9d9-d32b-448e-9e07-6befb9b3e338
 ms.date: 12/05/2018
 ms.keywords: OpenClusterGroup, OpenClusterGroup function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP, PCLUSAPI_OPEN_CLUSTER_GROUP function [Failover Cluster], _wolf_openclustergroup, clusapi/OpenClusterGroup, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP, mscs.openclustergroup
-f1_keywords:
-- clusapi/OpenClusterGroup
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- OpenClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenClusterGroup
+ - clusapi/OpenClusterGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - OpenClusterGroup
 ---
 
 # OpenClusterGroup function
@@ -52,29 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Opens a failover cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> and returns a handle to 
+Opens a failover cluster <a href="/previous-versions/windows/desktop/mscs/groups">group</a> and returns a handle to 
     it.
 
-
 ## -parameters
-
-
-
 
 ### -param hCluster [in]
 
 Handle to a cluster that includes the group to open.
 
-
 ### -param lpszGroupName [in]
 
 Name of the group to open.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -89,7 +82,7 @@ Name of the group to open.
 </td>
 <td width="60%">
 The operation was not successful. For information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -99,24 +92,14 @@ The operation was not successful. For information about the error, call the func
 If the operation was successful, 
        <b>OpenClusterGroup</b> returns a group handle.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclustergroup">CloseClusterGroup</a>
+<a href="/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-management-functions">Group Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroupex">OpenClusterGroupEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclustergroupex">OpenClusterGroupEx</a>

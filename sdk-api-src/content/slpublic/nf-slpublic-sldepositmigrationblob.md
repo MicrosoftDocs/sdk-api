@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLDepositMigrationBlob
 title: SLDepositMigrationBlob function (slpublic.h)
 description: Deposits licensing information previously collected and gathered using the SLGatherMigrationBlob function.
+helpviewer_keywords: ["SLDepositMigrationBlob","SLDepositMigrationBlob function [Security]","security.sldepositmigrationblob","slpublic/SLDepositMigrationBlob"]
 old-location: security\sldepositmigrationblob.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791
 ms.date: 12/05/2018
 ms.keywords: SLDepositMigrationBlob, SLDepositMigrationBlob function [Security], security.sldepositmigrationblob, slpublic/SLDepositMigrationBlob
-f1_keywords:
-- slpublic/SLDepositMigrationBlob
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLDepositMigrationBlob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLDepositMigrationBlob
+ - slpublic/SLDepositMigrationBlob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLDepositMigrationBlob
 ---
 
 # SLDepositMigrationBlob function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Deposits licensing information previously collected and gathered using the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgathermigrationblob">SLGatherMigrationBlob</a> function.
-
+Deposits licensing information previously collected and gathered using the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgathermigrationblob">SLGatherMigrationBlob</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
@@ -63,10 +60,7 @@ Type: <b>HANDLE</b>
 
 The file handle for the licensing state BLOB.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -102,7 +96,3 @@ Access denied (API requires admin privileges).
 </td>
 </tr>
 </table>
- 
-
-
-

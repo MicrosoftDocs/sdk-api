@@ -2,15 +2,12 @@
 UID: NF:xenroll.IEnroll4.getProviderTypeWStr
 title: IEnroll4::getProviderTypeWStr (xenroll.h)
 description: Retrieves the type of the specified cryptographic service provider (CSP).
+helpviewer_keywords: ["IEnroll4 interface [Security]","getProviderTypeWStr method","IEnroll4.getProviderTypeWStr","IEnroll4::getProviderTypeWStr","getProviderTypeWStr","getProviderTypeWStr method [Security]","getProviderTypeWStr method [Security]","IEnroll4 interface","security.ienroll4_getprovidertypewstr","xenroll/IEnroll4::getProviderTypeWStr"]
 old-location: security\ienroll4_getprovidertypewstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 64d0d96a-b9d4-4b66-8329-2dfc03ba9ce5
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],getProviderTypeWStr method, IEnroll4.getProviderTypeWStr, IEnroll4::getProviderTypeWStr, getProviderTypeWStr, getProviderTypeWStr method [Security], getProviderTypeWStr method [Security],IEnroll4 interface, security.ienroll4_getprovidertypewstr, xenroll/IEnroll4::getProviderTypeWStr
-f1_keywords:
-- xenroll/IEnroll4.getProviderTypeWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll4.getProviderTypeWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll4::getProviderTypeWStr
+ - xenroll/IEnroll4::getProviderTypeWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll4.getProviderTypeWStr
 ---
 
 # IEnroll4::getProviderTypeWStr
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>getProviderTypeWStr</b> method retrieves the type of the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
-
+The <b>getProviderTypeWStr</b> method retrieves the type of the specified <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 ## -parameters
 
-
-
-
 ### -param pwszProvName [in]
 
-A pointer to a null-terminated wide character string that contains the name of the CSP whose type is being requested. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
-
+A pointer to a null-terminated wide character string that contains the name of the CSP whose type is being requested. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ### -param plProvType [out]
 
@@ -82,11 +78,4 @@ A pointer to a <b>LONG</b> value that receives the CSP type. The CSP type is one
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

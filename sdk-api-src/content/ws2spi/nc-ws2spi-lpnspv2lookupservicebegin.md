@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPV2LOOKUPSERVICEBEGIN
 title: LPNSPV2LOOKUPSERVICEBEGIN (ws2spi.h)
 description: Initiates a client query of a namespace version-2 service provider that is constrained by the information contained within a WSAQUERYSET2 structure.
+helpviewer_keywords: ["LPNSPV2LOOKUPSERVICEBEGIN","LUP_ADDRCONFIG","LUP_CONTAINERS","LUP_DEEP","LUP_DISABLE_IDN_ENCODING","LUP_DUAL_ADDR","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_NON_AUTHORITATIVE","LUP_RES_RESERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_PREFERRED_NAMES","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","LUP_SECURE","NSPv2LookupServiceBegin","NSPv2LookupServiceBegin function [Winsock]","winsock.nspv2lookupservicebegin","ws2spi/NSPv2LookupServiceBegin"]
 old-location: winsock\nspv2lookupservicebegin.htm
 tech.root: WinSock
 ms.assetid: 5664b85d-8432-4068-aa97-caa57d9377ac
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP, LUP_DISABLE_IDN_ENCODING, LUP_DUAL_ADDR, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_NON_AUTHORITATIVE, LUP_RES_RESERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_PREFERRED_NAMES, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, LUP_SECURE, NSPv2LookupServiceBegin, NSPv2LookupServiceBegin function [Winsock], winsock.nspv2lookupservicebegin, ws2spi/NSPv2LookupServiceBegin
-f1_keywords:
-- ws2spi/NSPv2LookupServiceBegin
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPv2LookupServiceBegin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPV2LOOKUPSERVICEBEGIN
+ - ws2spi/LPNSPV2LOOKUPSERVICEBEGIN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPv2LookupServiceBegin
 ---
 
 # LPNSPV2LOOKUPSERVICEBEGIN callback function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a> function initiates a client query of a namespace version-2 service provider that is constrained by the information contained within a 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaqueryset2w">WSAQUERYSET2</a> structure.
 
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to the identifier for the namespace service provider to query.
 
-
 ### -param lpqsRestrictions [in]
 
 A pointer to the search criteria. See Remarks.
-
 
 ### -param dwControlFlags [in]
 
@@ -326,23 +321,17 @@ This value is supported on Windows 8 and Windows Server 2012
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpvClientSessionArg [out]
 
 A pointer to the client session.
-
 
 ### -param lphLookup [out]
 
 A pointer to the handle to be used in subsequent calls to 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2lookupservicenextex">NSPv2LookupServiceNextEx</a> in order to retrieve the results set.
 
-
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (that is, 1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -399,14 +388,8 @@ There is not enough memory available to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a> function is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
@@ -497,7 +480,7 @@ The
 <tr>
 <td>**lpafpProtocols**</td>
 <td>An array of 
-<a href="/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissable for the value **AF_UNSPEC** to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family. This member is optional, dependent on the requirements of the NSPv2 service provider.
+<a href="/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a> structures. Only services that use these protocols will be returned. It is permissible for the value **AF_UNSPEC** to appear as a protocol family value, signifying a wildcard. Namespace providers may supply information about any service that uses the corresponding protocol, regardless of address family. This member is optional, dependent on the requirements of the NSPv2 service provider.
 
 </td>
 </tr>
@@ -526,15 +509,8 @@ The
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-afprotocols">AFPROTOCOLS</a>
 
@@ -577,7 +553,4 @@ The
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

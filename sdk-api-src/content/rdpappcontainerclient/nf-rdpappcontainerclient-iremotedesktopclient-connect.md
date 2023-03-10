@@ -2,15 +2,12 @@
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Connect
 title: IRemoteDesktopClient::Connect (rdpappcontainerclient.h)
 description: Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
+helpviewer_keywords: ["Connect","Connect method [Remote Desktop Services]","Connect method [Remote Desktop Services]","IRemoteDesktopClient interface","IRemoteDesktopClient interface [Remote Desktop Services]","Connect method","IRemoteDesktopClient.Connect","IRemoteDesktopClient::Connect","rdpappcontainerclient/IRemoteDesktopClient::Connect","termserv.iremotedesktopclient_connect"]
 old-location: termserv\iremotedesktopclient_connect.htm
 tech.root: TermServ
 ms.assetid: 52dbc0f3-8ba9-45a5-a224-b7de67847bf3
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Remote Desktop Services], Connect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Connect method, IRemoteDesktopClient.Connect, IRemoteDesktopClient::Connect, rdpappcontainerclient/IRemoteDesktopClient::Connect, termserv.iremotedesktopclient_connect
-f1_keywords:
-- rdpappcontainerclient/IRemoteDesktopClient.Connect
-dev_langs:
-- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: MsTscAx.dll
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsTscAx.dll
-api_name:
-- IRemoteDesktopClient.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRemoteDesktopClient::Connect
+ - rdpappcontainerclient/IRemoteDesktopClient::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsTscAx.dll
+api_name:
+ - IRemoteDesktopClient.Connect
 ---
 
 # IRemoteDesktopClient::Connect
@@ -48,36 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
-
-
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>

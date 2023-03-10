@@ -1,16 +1,13 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RequestStoreFlags
 title: ICEnroll::get_RequestStoreFlags (xenroll.h)
-description: Sets or retrieves the registry location used for the request store.
+description: Sets or retrieves the registry location used for the request store. (Get)
+helpviewer_keywords: ["CEnroll object [Security]","RequestStoreFlags property","ICEnroll interface [Security]","RequestStoreFlags property","ICEnroll.RequestStoreFlags","ICEnroll.get_RequestStoreFlags","ICEnroll2 interface [Security]","RequestStoreFlags property","ICEnroll2.RequestStoreFlags","ICEnroll2::get_RequestStoreFlags","ICEnroll2::put_RequestStoreFlags","ICEnroll3 interface [Security]","RequestStoreFlags property","ICEnroll3.RequestStoreFlags","ICEnroll3::get_RequestStoreFlags","ICEnroll3::put_RequestStoreFlags","ICEnroll4 interface [Security]","RequestStoreFlags property","ICEnroll4.RequestStoreFlags","ICEnroll4::RequestStoreFlags","ICEnroll4::get_RequestStoreFlags","ICEnroll4::put_RequestStoreFlags","ICEnroll::get_RequestStoreFlags","ICEnroll::put_RequestStoreFlags","RequestStoreFlags property [Security]","RequestStoreFlags property [Security]","CEnroll object","RequestStoreFlags property [Security]","ICEnroll interface","RequestStoreFlags property [Security]","ICEnroll2 interface","RequestStoreFlags property [Security]","ICEnroll3 interface","RequestStoreFlags property [Security]","ICEnroll4 interface","get_RequestStoreFlags","security.icenroll4_requeststoreflags","xenroll/ICEnroll2::RequestStoreFlags","xenroll/ICEnroll2::get_RequestStoreFlags","xenroll/ICEnroll2::put_RequestStoreFlags","xenroll/ICEnroll3::RequestStoreFlags","xenroll/ICEnroll3::get_RequestStoreFlags","xenroll/ICEnroll3::put_RequestStoreFlags","xenroll/ICEnroll4::RequestStoreFlags","xenroll/ICEnroll4::get_RequestStoreFlags","xenroll/ICEnroll4::put_RequestStoreFlags","xenroll/ICEnroll::RequestStoreFlags","xenroll/ICEnroll::get_RequestStoreFlags","xenroll/ICEnroll::put_RequestStoreFlags"]
 old-location: security\icenroll4_requeststoreflags.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 399870f0-69e1-4a21-a7fa-c3de9ee66876
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RequestStoreFlags property, ICEnroll interface [Security],RequestStoreFlags property, ICEnroll.RequestStoreFlags, ICEnroll.get_RequestStoreFlags, ICEnroll2 interface [Security],RequestStoreFlags property, ICEnroll2.RequestStoreFlags, ICEnroll2::get_RequestStoreFlags, ICEnroll2::put_RequestStoreFlags, ICEnroll3 interface [Security],RequestStoreFlags property, ICEnroll3.RequestStoreFlags, ICEnroll3::get_RequestStoreFlags, ICEnroll3::put_RequestStoreFlags, ICEnroll4 interface [Security],RequestStoreFlags property, ICEnroll4.RequestStoreFlags, ICEnroll4::RequestStoreFlags, ICEnroll4::get_RequestStoreFlags, ICEnroll4::put_RequestStoreFlags, ICEnroll::get_RequestStoreFlags, ICEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],CEnroll object, RequestStoreFlags property [Security],ICEnroll interface, RequestStoreFlags property [Security],ICEnroll2 interface, RequestStoreFlags property [Security],ICEnroll3 interface, RequestStoreFlags property [Security],ICEnroll4 interface, get_RequestStoreFlags, security.icenroll4_requeststoreflags, xenroll/ICEnroll2::RequestStoreFlags, xenroll/ICEnroll2::get_RequestStoreFlags, xenroll/ICEnroll2::put_RequestStoreFlags, xenroll/ICEnroll3::RequestStoreFlags, xenroll/ICEnroll3::get_RequestStoreFlags, xenroll/ICEnroll3::put_RequestStoreFlags, xenroll/ICEnroll4::RequestStoreFlags, xenroll/ICEnroll4::get_RequestStoreFlags, xenroll/ICEnroll4::put_RequestStoreFlags, xenroll/ICEnroll::RequestStoreFlags, xenroll/ICEnroll::get_RequestStoreFlags, xenroll/ICEnroll::put_RequestStoreFlags
-f1_keywords:
-- xenroll/ICEnroll4.RequestStoreFlags
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,31 +25,36 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.RequestStoreFlags
-- ICEnroll4.get_RequestStoreFlags
-- ICEnroll4.put_RequestStoreFlags
-- ICEnroll3.RequestStoreFlags
-- ICEnroll3.get_RequestStoreFlags
-- ICEnroll3.put_RequestStoreFlags
-- ICEnroll2.RequestStoreFlags
-- ICEnroll2.get_RequestStoreFlags
-- ICEnroll2.put_RequestStoreFlags
-- ICEnroll.RequestStoreFlags
-- ICEnroll.get_RequestStoreFlags
-- ICEnroll.put_RequestStoreFlags
-- CEnroll.RequestStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_RequestStoreFlags
+ - xenroll/ICEnroll::get_RequestStoreFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.RequestStoreFlags
+ - ICEnroll4.get_RequestStoreFlags
+ - ICEnroll4.put_RequestStoreFlags
+ - ICEnroll3.RequestStoreFlags
+ - ICEnroll3.get_RequestStoreFlags
+ - ICEnroll3.put_RequestStoreFlags
+ - ICEnroll2.RequestStoreFlags
+ - ICEnroll2.get_RequestStoreFlags
+ - ICEnroll2.put_RequestStoreFlags
+ - ICEnroll.RequestStoreFlags
+ - ICEnroll.get_RequestStoreFlags
+ - ICEnroll.put_RequestStoreFlags
+ - CEnroll.RequestStoreFlags
 ---
 
 # ICEnroll::get_RequestStoreFlags
@@ -60,25 +62,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>RequestStoreFlags</b> property sets or retrieves the registry location used for the request store.
 
- The default value for this property  is CERT_SYSTEM_STORE_CURRENT_USER. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+ The default value for this property  is CERT_SYSTEM_STORE_CURRENT_USER. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The <b>RequestStoreFlags</b> property value is passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> CryptoAPI function  by using its <i>dwFlags</i> parameter.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> CryptoAPI function  by using its <i>dwFlags</i> parameter.
 
 Typically, modification of the <b>RequestStoreFlags</b> property is  performed only in advanced applications.
 
@@ -87,16 +84,16 @@ The <b>RequestStoreFlags</b> property should be set before using the following m
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
 </li>
 </ul>
 
@@ -126,7 +123,3 @@ if ( FAILED ( hr ) )
 else
     printf("Updated RequestStoreFlags\n");
 ```
-
-
-
-

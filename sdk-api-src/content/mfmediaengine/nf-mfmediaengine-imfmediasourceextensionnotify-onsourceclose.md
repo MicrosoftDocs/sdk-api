@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceClose
 title: IMFMediaSourceExtensionNotify::OnSourceClose (mfmediaengine.h)
 description: Used to indicate that the media source has closed.
+helpviewer_keywords: ["IMFMediaSourceExtensionNotify interface [Media Foundation]","OnSourceClose method","IMFMediaSourceExtensionNotify.OnSourceClose","IMFMediaSourceExtensionNotify::OnSourceClose","OnSourceClose","OnSourceClose method [Media Foundation]","OnSourceClose method [Media Foundation]","IMFMediaSourceExtensionNotify interface","mf.imfmediasourceextensionnotify_onsourceclose","mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose"]
 old-location: mf\imfmediasourceextensionnotify_onsourceclose.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d4199b4e-320f-47ec-8434-862fb1c1db8d
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtensionNotify interface [Media Foundation],OnSourceClose method, IMFMediaSourceExtensionNotify.OnSourceClose, IMFMediaSourceExtensionNotify::OnSourceClose, OnSourceClose, OnSourceClose method [Media Foundation], OnSourceClose method [Media Foundation],IMFMediaSourceExtensionNotify interface, mf.imfmediasourceextensionnotify_onsourceclose, mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose
-f1_keywords:
-- mfmediaengine/IMFMediaSourceExtensionNotify.OnSourceClose
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaSourceExtensionNotify.OnSourceClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceExtensionNotify::OnSourceClose
+ - mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaSourceExtensionNotify.OnSourceClose
 ---
 
 # IMFMediaSourceExtensionNotify::OnSourceClose
@@ -48,33 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to indicate that the media source has closed.
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextensionnotify">IMFMediaSourceExtensionNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextensionnotify">IMFMediaSourceExtensionNotify</a>

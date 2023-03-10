@@ -62,6 +62,8 @@ landingContent:
             url: _direct3d11/index.md
           - text: Direct3D 12 Graphics
             url: _direct3d12/index.md
+          - text: DirectML
+            url: _directml/index.md
           - text: DXGI
             url: _direct3ddxgi/index.md
           - text: Windows GDI
@@ -125,7 +127,7 @@ landingContent:
           - text: Human Interface Devices reference
             url: _hid/index.md
           - text: Print DDI reference
-            url: https://docs.microsoft.com/windows-hardware/drivers/print/
+            url: /windows-hardware/drivers/print/
 
 # Card
   - title: Networking and internet
@@ -134,7 +136,7 @@ landingContent:
         links:
           - text: Bluetooth
             url: _bluetooth/index.md
-          - text: Windows HTTP Services (WinHTTP)
+          - text: HTTP Server API
             url: _http/index.md
           - text: IP Helper
             url: _iphlp/index.md
@@ -142,6 +144,8 @@ landingContent:
             url: _netmgmt/index.md
           - text: Remote Procedure Call (RPC)
             url: _rpc/index.md
+          - text: Windows HTTP Services (WinHTTP)
+            url: _winhttp/index.md
           - text: Windows Internet
             url: _wininet/index.md
           - text: Windows Sockets 2
@@ -212,4 +216,5 @@ landingContent:
             url: /windows/win32/midl
           - text: Compression API
             url: _cmpapi/index.md
-
+          - text: Activity Coordinator
+            url: _activity_coordinator/index.md

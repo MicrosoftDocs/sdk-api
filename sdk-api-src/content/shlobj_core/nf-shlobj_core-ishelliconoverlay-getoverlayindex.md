@@ -2,16 +2,12 @@
 UID: NF:shlobj_core.IShellIconOverlay.GetOverlayIndex
 title: IShellIconOverlay::GetOverlayIndex (shlobj_core.h)
 description: Gets the overlay index in the system image list.
+helpviewer_keywords: ["GetOverlayIndex","GetOverlayIndex method [Windows Shell]","GetOverlayIndex method [Windows Shell]","IShellIconOverlay interface","IShellIconOverlay interface [Windows Shell]","GetOverlayIndex method","IShellIconOverlay.GetOverlayIndex","IShellIconOverlay::GetOverlayIndex","_win32_IShellIconOverlay_GetOverlayIndex","shell.IShellIconOverlay_GetOverlayIndex","shlobj_core/IShellIconOverlay::GetOverlayIndex"]
 old-location: shell\IShellIconOverlay_GetOverlayIndex.htm
 tech.root: shell
 ms.assetid: e5bde311-8b5f-4a8b-9fff-5d062c650b95
 ms.date: 12/05/2018
 ms.keywords: GetOverlayIndex, GetOverlayIndex method [Windows Shell], GetOverlayIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIndex method, IShellIconOverlay.GetOverlayIndex, IShellIconOverlay::GetOverlayIndex, _win32_IShellIconOverlay_GetOverlayIndex, shell.IShellIconOverlay_GetOverlayIndex, shlobj_core/IShellIconOverlay::GetOverlayIndex
-ms.topic: method
-f1_keywords:
-- shlobj_core/IShellIconOverlay.GetOverlayIndex
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellIconOverlay.GetOverlayIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellIconOverlay::GetOverlayIndex
+ - shlobj_core/IShellIconOverlay::GetOverlayIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellIconOverlay.GetOverlayIndex
 ---
 
 # IShellIconOverlay::GetOverlayIndex
@@ -49,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the overlay index in the system image list.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in]
 
 Type: <b>PCUITEMID_CHILD</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that identifies the object whose icon is being displayed.
-
+Pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that identifies the object whose icon is being displayed.
 
 ### -param pIndex [in, out]
 
 Type: <b>int*</b>
 
-Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList::SetOverlayImage</a> function.
-
+Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList::SetOverlayImage</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -141,29 +133,13 @@ The calling application passed OI_ASYNC to signify that the operation of calcula
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To retrieve the overlay index in the system image list, call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa">SHGetIconOverlayIndex</a>.
 
-
-To retrieve the overlay index in the system image list, call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa">SHGetIconOverlayIndex</a>.
-
-If you set <i>pIndex</i> to point to OI_ASYNC when you call this method, the Shell icon overlay handler might return E_PENDING instead of storing the overlay index in <i>pIndex</i>. This return value indicates that computing the overlay is a slow operation and should be handled in the background. When an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a> implementation returns E_PENDING, it is called back on a background worker thread without the OI_ASYNC flag. If you do not use OI_ASYNC when you call <b>GetOverlayIndex</b>, the overlay handler must compute the overlay index and store the value in <i>pIndex</i> before returning.
-
-
-
+If you set <i>pIndex</i> to point to OI_ASYNC when you call this method, the Shell icon overlay handler might return E_PENDING instead of storing the overlay index in <i>pIndex</i>. This return value indicates that computing the overlay is a slow operation and should be handled in the background. When an <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a> implementation returns E_PENDING, it is called back on a background worker thread without the OI_ASYNC flag. If you do not use OI_ASYNC when you call <b>GetOverlayIndex</b>, the overlay handler must compute the overlay index and store the value in <i>pIndex</i> before returning.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>

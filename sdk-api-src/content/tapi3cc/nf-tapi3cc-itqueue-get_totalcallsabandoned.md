@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_TotalCallsAbandoned
 title: ITQueue::get_TotalCallsAbandoned (tapi3cc.h)
-description: The get_TotalCallsAbandoned method gets the number of abandoned calls during the current measurement period.
+description: The ITQueue::get_TotalCallsAbandoned method (tapi3cc.h) gets the number of abandoned calls during the current measurement period.
+helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_TotalCallsAbandoned method","ITQueue.get_TotalCallsAbandoned","ITQueue::get_TotalCallsAbandoned","_tapi3_itqueue_get_totalcallsabandoned","get_TotalCallsAbandoned","get_TotalCallsAbandoned method [TAPI 2.2]","get_TotalCallsAbandoned method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_totalcallsabandoned","tapi3cc/ITQueue::get_TotalCallsAbandoned"]
 old-location: tapi3\itqueue_get_totalcallsabandoned.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 2db1309e-f6df-47f8-a695-7bf05d360d99
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsAbandoned method, ITQueue.get_TotalCallsAbandoned, ITQueue::get_TotalCallsAbandoned, _tapi3_itqueue_get_totalcallsabandoned, get_TotalCallsAbandoned, get_TotalCallsAbandoned method [TAPI 2.2], get_TotalCallsAbandoned method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsabandoned, tapi3cc/ITQueue::get_TotalCallsAbandoned
-f1_keywords:
-- tapi3cc/ITQueue.get_TotalCallsAbandoned
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITQueue.get_TotalCallsAbandoned
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITQueue::get_TotalCallsAbandoned
+ - tapi3cc/ITQueue::get_TotalCallsAbandoned
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITQueue.get_TotalCallsAbandoned
 ---
 
 # ITQueue::get_TotalCallsAbandoned
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_TotalCallsAbandoned</b> method gets the number of abandoned calls during the current measurement period. The measurement period is switch or implementation specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
-
-
-
 
 ### -param plCalls [out]
 
 Pointer to the number of calls abandoned.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,18 +114,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>

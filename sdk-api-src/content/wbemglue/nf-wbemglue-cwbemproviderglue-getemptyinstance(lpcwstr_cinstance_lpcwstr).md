@@ -1,16 +1,13 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetEmptyInstance(LPCWSTR,CInstance,LPCWSTR)
 title: CWbemProviderGlue::GetEmptyInstance (wbemglue.h)
-description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class.
+description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class. (overload 1/2)
+helpviewer_keywords: ["CWbemProviderGlue.GetEmptyInstance","CWbemProviderGlue::GetEmptyInstance","CWbemProviderGlue::GetEmptyInstance methods [Windows Management Instrumentation]","GetEmptyInstance","wbemglue/CWbemProviderGlue::GetEmptyInstance","wmi.cwbemproviderglue_getemptyinstance"]
 old-location: wmi\cwbemproviderglue_getemptyinstance.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 2873b466-3782-4d63-a777-5b25e3fb7615
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue.GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance, CWbemProviderGlue::GetEmptyInstance methods [Windows Management Instrumentation], GetEmptyInstance, wbemglue/CWbemProviderGlue::GetEmptyInstance, wmi.cwbemproviderglue_getemptyinstance
-f1_keywords:
-- wbemglue/CWbemProviderGlue::GetEmptyInstance
-dev_langs:
-- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CWbemProviderGlue::GetEmptyInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CWbemProviderGlue::GetEmptyInstance
+ - wbemglue/CWbemProviderGlue::GetEmptyInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CWbemProviderGlue::GetEmptyInstance
 ---
 
 # CWbemProviderGlue::GetEmptyInstance
@@ -49,11 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 <span>The <b>GetEmptyInstance</b> method retrieves a single unpopulated instance of the specified class.
 </span><h3>Overload list</h3><table>
@@ -63,7 +64,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)">GetEmptyInstance(LPCWSTR,CInstance,LPCWSTR)</a>
+<a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)">GetEmptyInstance(LPCWSTR,CInstance,LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Retrieves a single unpopulated instance of the specified class.
@@ -72,7 +73,7 @@ Retrieves a single unpopulated instance of the specified class.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)">GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR)</a>
+<a href="/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getemptyinstance(methodcontext_lpcwstr_cinstance_lpcwstr)">GetEmptyInstance(MethodContext,LPCWSTR,CInstance,LPCWSTR)</a>
 </td>
 <td align="left" width="63%">
 Retrieves a single unpopulated instance of the specified class.
@@ -82,4 +83,3 @@ Retrieves a single unpopulated instance of the specified class.
 </table>
 
 ## -parameters
-

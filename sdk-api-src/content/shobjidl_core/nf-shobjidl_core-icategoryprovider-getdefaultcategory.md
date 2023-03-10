@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ICategoryProvider.GetDefaultCategory
 title: ICategoryProvider::GetDefaultCategory (shobjidl_core.h)
 description: Enables the folder to override the default grouping.
+helpviewer_keywords: ["GetDefaultCategory","GetDefaultCategory method [Windows Shell]","GetDefaultCategory method [Windows Shell]","ICategoryProvider interface","ICategoryProvider interface [Windows Shell]","GetDefaultCategory method","ICategoryProvider.GetDefaultCategory","ICategoryProvider::GetDefaultCategory","inet_ICategoryProvider_GetDefaultCategory","shell.ICategoryProvider_GetDefaultCategory","shobjidl_core/ICategoryProvider::GetDefaultCategory"]
 old-location: shell\ICategoryProvider_GetDefaultCategory.htm
 tech.root: shell
 ms.assetid: b5a5d04c-b666-4063-bf0b-02564aa967ab
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCategory, GetDefaultCategory method [Windows Shell], GetDefaultCategory method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetDefaultCategory method, ICategoryProvider.GetDefaultCategory, ICategoryProvider::GetDefaultCategory, inet_ICategoryProvider_GetDefaultCategory, shell.ICategoryProvider_GetDefaultCategory, shobjidl_core/ICategoryProvider::GetDefaultCategory
-f1_keywords:
-- shobjidl_core/ICategoryProvider.GetDefaultCategory
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ICategoryProvider.GetDefaultCategory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICategoryProvider::GetDefaultCategory
+ - shobjidl_core/ICategoryProvider::GetDefaultCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ICategoryProvider.GetDefaultCategory
 ---
 
 # ICategoryProvider::GetDefaultCategory
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the folder to override the default grouping.
 
-
 ## -parameters
-
-
-
 
 ### -param pguid [out]
 
@@ -63,17 +60,13 @@ Type: <b>GUID*</b>
 
 Not used.
 
-
 ### -param pscid [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
+Type: <b><a href="/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure.
-
+When this method returns, contains a pointer to a <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -96,26 +89,16 @@ There is no default group.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<b>ICategoryProvider::GetDefaultCategory</b> returns an <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure that is used by the default categorizer. The method returns S_FALSE if a default group is not supported.
 
+<b>ICategoryProvider::GetDefaultCategory</b> is called only when a folder is first opened. After that, the user's grouping choice is cached in the <a href="../oaidl/nn-oaidl-ipropertybag.md">property bag</a> storing the state of the view. To force a call to <b>ICategoryProvider::GetDefaultCategory</b> after the folder is first opened, the <b>Shell</b> and <b>ShellNoRoam</b> registry keys must be deleted. They are found in the following location.
 
-<b>ICategoryProvider::GetDefaultCategory</b> returns an <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that is used by the default categorizer. The method returns S_FALSE if a default group is not supported.
-
-<b>ICategoryProvider::GetDefaultCategory</b> is called only when a folder is first opened. After that, the user's grouping choice is cached in the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">property bag</a> storing the state of the view. To force a call to <b>ICategoryProvider::GetDefaultCategory</b> after the folder is first opened, the <b>Shell</b> and <b>ShellNoRoam</b> registry keys must be deleted. They are found in the following location.
-
-                <pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
+<pre><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
       <b>Microsoft</b>
          <b>Windows</b>
             <b>Shell</b>
             <b>ShellNoRoam</b></pre>
-
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.put_EventsEnabled
 title: IRemoteDesktopClientTouchPointer::put_EventsEnabled (rdpappcontainerclient.h)
-description: Whether touch pointer event notifications are enabled for the RDP app container client control.
+description: Whether touch pointer event notifications are enabled for the RDP app container client control. (Put)
+helpviewer_keywords: ["EventsEnabled property [Remote Desktop Services]","EventsEnabled property [Remote Desktop Services]","IRemoteDesktopClientTouchPointer interface","IRemoteDesktopClientTouchPointer interface [Remote Desktop Services]","EventsEnabled property","IRemoteDesktopClientTouchPointer.EventsEnabled","IRemoteDesktopClientTouchPointer.put_EventsEnabled","IRemoteDesktopClientTouchPointer::EventsEnabled","IRemoteDesktopClientTouchPointer::get_EventsEnabled","IRemoteDesktopClientTouchPointer::put_EventsEnabled","put_EventsEnabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled","rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled","termserv.iremotedesktopclienttouchpointer_eventsenabled"]
 old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
 tech.root: TermServ
 ms.assetid: 972e0f05-74fb-4997-a1c2-90ecfa4870a3
 ms.date: 12/05/2018
 ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],EventsEnabled property, IRemoteDesktopClientTouchPointer.EventsEnabled, IRemoteDesktopClientTouchPointer.put_EventsEnabled, IRemoteDesktopClientTouchPointer::EventsEnabled, IRemoteDesktopClientTouchPointer::get_EventsEnabled, IRemoteDesktopClientTouchPointer::put_EventsEnabled, put_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled, termserv.iremotedesktopclienttouchpointer_eventsenabled
-f1_keywords:
-- rdpappcontainerclient/IRemoteDesktopClientTouchPointer.EventsEnabled
-dev_langs:
-- c++
 req.header: rdpappcontainerclient.h
 req.include-header: Rdpappcontainerclient.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: MsTscAx.dll
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsTscAx.dll
-api_name:
-- IRemoteDesktopClientTouchPointer.EventsEnabled
-- IRemoteDesktopClientTouchPointer.get_EventsEnabled
-- IRemoteDesktopClientTouchPointer.put_EventsEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRemoteDesktopClientTouchPointer::put_EventsEnabled
+ - rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsTscAx.dll
+api_name:
+ - IRemoteDesktopClientTouchPointer.EventsEnabled
+ - IRemoteDesktopClientTouchPointer.get_EventsEnabled
+ - IRemoteDesktopClientTouchPointer.put_EventsEnabled
 ---
 
 # IRemoteDesktopClientTouchPointer::put_EventsEnabled
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Whether touch pointer event notifications are enabled for the RDP app container client control. If this property is enabled, the <a href="https://docs.microsoft.com/windows/desktop/TermServ/iremotedesktopclientevents-ontouchpointercursormoved">OnTouchPointerCursorMoved</a> method will handle events when the touch pointer cursor is moved.
+Whether touch pointer event notifications are enabled for the RDP app container client control. If this property is enabled, the <a href="/windows/desktop/TermServ/iremotedesktopclientevents-ontouchpointercursormoved">OnTouchPointerCursorMoved</a> method will handle events when the touch pointer cursor is moved.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">IRemoteDesktopClientTouchPointer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">IRemoteDesktopClientTouchPointer</a>

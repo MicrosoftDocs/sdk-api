@@ -2,15 +2,12 @@
 UID: NS:strmif._AMMediaType
 title: AM_MEDIA_TYPE (strmif.h)
 description: The AM_MEDIA_TYPE structure describes the format of a media sample.
+helpviewer_keywords: ["AM_MEDIA_TYPE","AM_MEDIA_TYPE structure [DirectShow]","AM_MEDIA_TYPEStructure","FORMAT_DvInfo","FORMAT_MPEG2Video","FORMAT_MPEGStreams","FORMAT_MPEGVideo","FORMAT_None","FORMAT_VideoInfo","FORMAT_VideoInfo2","FORMAT_WaveFormatEx","GUID_NULL","_AMMediaType","dshow.am_media_type","strmif/AM_MEDIA_TYPE"]
 old-location: dshow\am_media_type.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 973697d0-2897-48b5-88ca-a88a9650eb02
 ms.date: 12/05/2018
 ms.keywords: AM_MEDIA_TYPE, AM_MEDIA_TYPE structure [DirectShow], AM_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, GUID_NULL, _AMMediaType, dshow.am_media_type, strmif/AM_MEDIA_TYPE
-f1_keywords:
-- strmif/AM_MEDIA_TYPE
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- AM_MEDIA_TYPE
 targetos: Windows
 req.typenames: AM_MEDIA_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AMMediaType
+ - strmif/_AMMediaType
+ - AM_MEDIA_TYPE
+ - strmif/AM_MEDIA_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - AM_MEDIA_TYPE
 ---
 
 # AM_MEDIA_TYPE structure
@@ -48,40 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AM_MEDIA_TYPE</b> structure describes the format of a media sample.
-        
-
 
 ## -struct-fields
 
-
-
-
 ### -field majortype
 
-Globally unique identifier (GUID) that specifies the major type of the media sample. For a list of possible major types, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>.
-
+Globally unique identifier (GUID) that specifies the major type of the media sample. For a list of possible major types, see <a href="/windows/desktop/DirectShow/media-types">Media Types</a>.
 
 ### -field subtype
 
-GUID that specifies the subtype of the media sample. For a list of possible subtypes, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>. For some formats, the value might be MEDIASUBTYPE_None, which means the format does not require a subtype.
-
+GUID that specifies the subtype of the media sample. For a list of possible subtypes, see <a href="/windows/desktop/DirectShow/media-types">Media Types</a>. For some formats, the value might be MEDIASUBTYPE_None, which means the format does not require a subtype.
 
 ### -field bFixedSizeSamples
 
 If <b>TRUE</b>, samples are of a fixed size. This field is informational only. For audio, it is generally set to <b>TRUE</b>. For video, it is usually <b>TRUE</b> for uncompressed video and <b>FALSE</b> for compressed video.
 
-
 ### -field bTemporalCompression
 
 If <b>TRUE</b>, samples are compressed using temporal (interframe) compression. A value of <b>TRUE</b> indicates that not all frames are key frames. This field is informational only.
 
-
 ### -field lSampleSize
 
 Size of the sample in bytes. For compressed data, the value can be zero.
-
 
 ### -field formattype
 
@@ -99,7 +92,7 @@ GUID that specifies the structure used for the format block. The <b>pbFormat</b>
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvinfo">DVINFO</a>
+<a href="/windows/desktop/api/strmif/ns-strmif-dvinfo">DVINFO</a>
 
 
 </td>
@@ -111,7 +104,7 @@ GUID that specifies the structure used for the format block. The <b>pbFormat</b>
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo">MPEG2VIDEOINFO</a>
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo">MPEG2VIDEOINFO</a>
 
 
 </td>
@@ -123,7 +116,7 @@ GUID that specifies the structure used for the format block. The <b>pbFormat</b>
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype">AM_MPEGSYSTEMTYPE</a>
+<a href="/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype">AM_MPEGSYSTEMTYPE</a>
 
 
 </td>
@@ -135,7 +128,7 @@ GUID that specifies the structure used for the format block. The <b>pbFormat</b>
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a>
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a>
 
 
 </td>
@@ -157,7 +150,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>
 
 
 </td>
@@ -169,7 +162,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
 
 
 </td>
@@ -181,7 +174,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 </td>
@@ -197,32 +190,23 @@ None
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pUnk
 
 Not used. Set to <b>NULL</b>.
-          
-
 
 ### -field cbFormat
 
 Size of the format block, in bytes.
-          
-
 
 ### -field pbFormat
 
 Pointer to the format block. The structure type is specified by the <b>formattype</b> member. The format structure must be present, unless <b>formattype</b> is GUID_NULL or FORMAT_None.
           
 
-The <b>pbFormat</b> buffer must be allocated by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. To release the format block, call <a href="https://docs.microsoft.com/windows/desktop/DirectShow/freemediatype">FreeMediaType</a>.
-
+The <b>pbFormat</b> buffer must be allocated by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. To release the format block, call <a href="/windows/desktop/DirectShow/freemediatype">FreeMediaType</a>.
 
 ## -remarks
-
-
 
 When two pins connect, they negotiate a media type, which is defined by an <b>AM_MEDIA_TYPE</b> structure. The media type describes the format of the data that the filters will exchange. If the filters do not agree on a media type, they cannot connect.
 
@@ -230,7 +214,7 @@ The stream type is specified by two <b>GUID</b>s, called the <i>major type</i> a
 
 The <b>AM_MEDIA_TYPE</b> structure is followed by a variable-length block of data that contains format-specific information. The <b>pbFormat</b> member points to this block, called the <i>format block</i>. The layout of the format block depends on the type of data in the stream, and is specified by the <b>formattype</b> member. The format block might be <b>NULL</b>. Check the <b>cbFormat</b> member to determine the size. Cast the <b>pbFormat</b> member to access the format block. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -253,30 +237,20 @@ if (pmt-&gt;formattype == FORMAT_VideoInfo)
 </table></span></div>
 In some situations, you can set the format block to <b>NULL</b> and the format type to GUID_NULL, resulting in a <i>partial media type</i>. This enables you to specify a range of possible formats. For example, you can specify 24-bit RGB (MEDIASUBTYPE_RGB24) without giving an exact width or height.
 
-To obtain detailed information about a specified media type for debugging purposes, use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/displaytype">DisplayType</a> method.
-
-
-
+To obtain detailed information about a specified media type for debugging purposes, use the <a href="/windows/desktop/DirectShow/displaytype">DisplayType</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/about-media-types">About Media Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/about-media-types">About Media Types</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/media-type-functions">Media Type Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-type-functions">Media Type Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-types">Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/media-types">Media Types</a>

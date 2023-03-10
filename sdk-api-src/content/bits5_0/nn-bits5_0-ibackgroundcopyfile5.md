@@ -2,15 +2,12 @@
 UID: NN:bits5_0.IBackgroundCopyFile5
 title: IBackgroundCopyFile5 (bits5_0.h)
 description: Use this interface to get or set generic properties of BITS file transfers.
+helpviewer_keywords: ["IBackgroundCopyFile5","IBackgroundCopyFile5 interface [BITS]","IBackgroundCopyFile5 interface [BITS]","described","bits.ibackgroundcopyfile5","bits5_0/IBackgroundCopyFile5"]
 old-location: bits\ibackgroundcopyfile5.htm
 tech.root: Bits
 ms.assetid: 548b507a-4874-4ccf-829e-13e1ca6cc958
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile5, IBackgroundCopyFile5 interface [BITS], IBackgroundCopyFile5 interface [BITS],described, bits.ibackgroundcopyfile5, bits5_0/IBackgroundCopyFile5
-f1_keywords:
-- bits5_0/IBackgroundCopyFile5
-dev_langs:
-- c++
 req.header: bits5_0.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits5_0.h
-api_name:
-- IBackgroundCopyFile5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile5
+ - bits5_0/IBackgroundCopyFile5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits5_0.h
+api_name:
+ - IBackgroundCopyFile5
 ---
 
 # IBackgroundCopyFile5 interface
@@ -48,69 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use this 
 interface to get or set generic properties of BITS file transfers.
 
 To get an 
 <b>IBackgroundCopyFile5</b> interface pointer, call the <b>IBackgroundCopyFile::QueryInterface</b> method using __uuidof(IBackgroundCopyFile5) for the interface identifier.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyFile5</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBackgroundCopyFile5</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Gets the value of a generic BackgroundCopyFile property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-Sets the value of a generic BackgroundCopyFile property.
-
-</td>
-</tr>
-</table> 
-
+The <b>IBackgroundCopyFile5</b> interface inherits from <a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>. <b>IBackgroundCopyFile5</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyfile2">IBackgroundCopyFile2</a>
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyfile3">IBackgroundCopyFile3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>

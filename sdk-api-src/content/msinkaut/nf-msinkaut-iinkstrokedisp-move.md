@@ -1,16 +1,13 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.Move
 title: IInkStrokeDisp::Move (msinkaut.h)
-description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection.
+description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection. (IInkStrokeDisp.Move)
+helpviewer_keywords: ["2d3425c0-6000-4478-9c67-5fdb8e2316e5","IInkStrokeDisp interface [Tablet PC]","Move method","IInkStrokeDisp.Move","IInkStrokeDisp::Move","Move","Move method [Tablet PC]","Move method [Tablet PC]","IInkStrokeDisp interface","msinkaut/IInkStrokeDisp::Move","tablet.iinkstrokedisp_move"]
 old-location: tablet\iinkstrokedisp_move.htm
 tech.root: tablet
 ms.assetid: 2d3425c0-6000-4478-9c67-5fdb8e2316e5
 ms.date: 12/05/2018
 ms.keywords: 2d3425c0-6000-4478-9c67-5fdb8e2316e5, IInkStrokeDisp interface [Tablet PC],Move method, IInkStrokeDisp.Move, IInkStrokeDisp::Move, Move, Move method [Tablet PC], Move method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::Move, tablet.iinkstrokedisp_move
-f1_keywords:
-- msinkaut/IInkStrokeDisp.Move
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokeDisp.Move
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokeDisp::Move
+ - msinkaut/IInkStrokeDisp::Move
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokeDisp.Move
 ---
 
 # IInkStrokeDisp::Move
@@ -49,44 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Applies a translation to the ink of an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
-
-
-
+Applies a translation to the ink of an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 ## -parameters
-
-
-
 
 ### -param HorizontalComponent [in]
 
 The distance in ink space coordinates to translate the view transform in the X dimension.
 
-
 ### -param VerticalComponent [in]
 
 The distance in ink space coordinates to translate the view transform in the Y dimension.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>

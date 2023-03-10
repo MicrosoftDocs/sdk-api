@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxPackageWriter.Close
 title: IAppxPackageWriter::Close (appxpackaging.h)
 description: Writes footprint files at the end of the app package, and closes the package writer object's output stream.
+helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxPackageWriter interface","IAppxPackageWriter interface [App packaging and management]","Close method","IAppxPackageWriter.Close","IAppxPackageWriter::Close","appxpackaging/IAppxPackageWriter::Close","appxpkg.iappxpackagewriter_close"]
 old-location: appxpkg\iappxpackagewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 294625B2-1141-44EE-A769-365C3B37EBD9
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxPackageWriter interface, IAppxPackageWriter interface [App packaging and management],Close method, IAppxPackageWriter.Close, IAppxPackageWriter::Close, appxpackaging/IAppxPackageWriter::Close, appxpkg.iappxpackagewriter_close
-f1_keywords:
-- appxpackaging/IAppxPackageWriter.Close
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageWriter.Close
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageWriter::Close
+ - appxpackaging/IAppxPackageWriter::Close
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageWriter.Close
 ---
 
 # IAppxPackageWriter::Close
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes footprint files at the end of the app package, and closes the package writer object's output stream.
-
 
 ## -parameters
 
-
-
-
 ### -param manifest [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-The stream that provides the contents of the manifest for the package. The stream must support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
-
+The stream that provides the contents of the manifest for the package. The stream must support <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -100,33 +94,18 @@ The input stream contains a manifest that is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>Close</b> method should be called only after all payload files have been added to the package. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-create-a-package">How to create an app  package</a>.
+For an example, see <a href="/windows/desktop/appxpkg/how-to-create-a-package">How to create an app  package</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>

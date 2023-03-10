@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.DisableNtmsObject
 title: DisableNtmsObject function (ntmsapi.h)
 description: The DisableNtmsObject function disables the specified RSM object.
+helpviewer_keywords: ["DisableNtmsObject","DisableNtmsObject function [Files]","NTMS_DRIVE","NTMS_LIBRARY","NTMS_PHYSICAL_MEDIA","_zaw_disablentmsobject","base.disablentmsobject","fs.disablentmsobject","ntmsapi/DisableNtmsObject"]
 old-location: fs\disablentmsobject.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a
 ms.date: 12/05/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
-f1_keywords:
-- ntmsapi/DisableNtmsObject
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- DisableNtmsObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DisableNtmsObject
+ - ntmsapi/DisableNtmsObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - DisableNtmsObject
 ---
 
 # DisableNtmsObject function
@@ -48,28 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>DisableNtmsObject</b> function disables the specified RSM object.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param dwType [in]
 
 RSM object type. This parameter can be one of the following values from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a> enumeration type. 
+<a href="/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a> enumeration type. 
 
 
 
@@ -109,17 +105,12 @@ Physical media (tape, optical disk, CD, or magnetic cartridge)
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpObjectId [in]
 
 Unique identifier of the RSM object.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -219,14 +210,8 @@ The disable is queued.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>DisableNtmsObject</b> function queues a disable command for the specified object. The function returns successfully when the command is queued. If RSM is busy, the command can take some time to complete. When the medium is disabled, RSM renders all of the media's sides and associated logical media unavailable. All requests to disabled media return errors.
@@ -235,20 +220,10 @@ To remove a drive or media changer from service the drive or media changer must 
 
 All objects contained by a disabled object are also disabled. For example, disabling a piece of physical media disables all sides. Whenever possible, when a drive is disabled, the medium in the drive is removed and placed in its slot.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-enablentmsobject">EnableNtmsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enablentmsobject">EnableNtmsObject</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>

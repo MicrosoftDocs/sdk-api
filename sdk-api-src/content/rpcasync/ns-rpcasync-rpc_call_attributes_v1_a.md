@@ -1,16 +1,13 @@
 ---
 UID: NS:rpcasync.tagRPC_CALL_ATTRIBUTES_V1_A
 title: RPC_CALL_ATTRIBUTES_V1_A (rpcasync.h)
-description: The RPC_CALL_ATTRIBUTES_V1 structure provides parameters to the RpcServerInqCallAttributes function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
+description: The RPC_CALL_ATTRIBUTES_V1 structure provides parameters to the RpcServerInqCallAttributes function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems. (ANSI)
+helpviewer_keywords: ["RPC_CALL_ATTRIBUTES_V1","RPC_CALL_ATTRIBUTES_V1 structure [RPC]","RPC_CALL_ATTRIBUTES_V1_A","RPC_CALL_ATTRIBUTES_V1_W","rpc.rpc_call_attributes_v1","rpcasync/RPC_CALL_ATTRIBUTES_V1","rpcasync/RPC_CALL_ATTRIBUTES_V1_A","rpcasync/RPC_CALL_ATTRIBUTES_V1_W"]
 old-location: rpc\rpc_call_attributes_v1.htm
 tech.root: Rpc
 ms.assetid: 62988900-e794-4d91-861e-f72d854249fe
 ms.date: 12/05/2018
 ms.keywords: RPC_CALL_ATTRIBUTES_V1, RPC_CALL_ATTRIBUTES_V1 structure [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, rpc.rpc_call_attributes_v1, rpcasync/RPC_CALL_ATTRIBUTES_V1, rpcasync/RPC_CALL_ATTRIBUTES_V1_A, rpcasync/RPC_CALL_ATTRIBUTES_V1_W
-f1_keywords:
-- rpcasync/RPC_CALL_ATTRIBUTES_V1
-dev_langs:
-- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcasync.h
-api_name:
-- RPC_CALL_ATTRIBUTES_V1
-- RPC_CALL_ATTRIBUTES_V1_A
-- RPC_CALL_ATTRIBUTES_V1_W
 targetos: Windows
 req.typenames: RPC_CALL_ATTRIBUTES_V1_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagRPC_CALL_ATTRIBUTES_V1_A
+ - rpcasync/tagRPC_CALL_ATTRIBUTES_V1_A
+ - RPC_CALL_ATTRIBUTES_V1_A
+ - rpcasync/RPC_CALL_ATTRIBUTES_V1_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcasync.h
+api_name:
+ - RPC_CALL_ATTRIBUTES_V1
+ - RPC_CALL_ATTRIBUTES_V1_A
+ - RPC_CALL_ATTRIBUTES_V1_W
 ---
 
 # RPC_CALL_ATTRIBUTES_V1_A structure
@@ -50,27 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RPC_CALL_ATTRIBUTES_V1</b> structure provides parameters to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 Version of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function being used by the calling application. See Remarks.
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function being used by the calling application. See Remarks.
 
 ### -field Flags
 
 Bitmask specifying valid flags to request RPC_QUERY_SERVER_PRINCIPAL_NAME or RPC_QUERY_CLIENT_PRINCIPAL_NAME. See Remarks.
-
 
 ### -field ServerPrincipalNameBufferLength
 
@@ -85,11 +82,9 @@ If the protocol sequence does not support retrieving a server principal name, <b
 
 If the RPC_QUERY_SERVER_PRINCIPAL_NAME flag is not specified, <b>ServerPrincipalNameBufferLength</b> is ignored. If <b>ServerPrincipalNameBufferLength</b> is nonzero and <b>ServerPrincipalName</b> is <b>NULL</b>, ERROR_INVALID_PARAMETER is returned.
 
-
 ### -field ServerPrincipalName
 
 Pointer to the server principal name, if requested in <b>Flags</b> and supported by the protocol sequence. Upon any return value other than RPC_S_OK or ERROR_MORE_DATA, the content of <b>ServerPrincipalName</b> is undefined and may have been modified by RPC.
-
 
 ### -field ClientPrincipalNameBufferLength
 
@@ -104,31 +99,24 @@ If the protocol sequence does not support retrieving a client principal name, <b
 
 If the RPC_QUERY_CLIENT_PRINCIPAL_NAME flag is not specified, <b>ClientPrincipalNameBufferLength</b> is ignored. If <b>ClientPrincipalNameBufferLength</b> is nonzero and <b>ClientPrincipalName</b> is <b>NULL</b>, ERROR_INVALID_PARAMETER is returned.
 
-
 ### -field ClientPrincipalName
 
 Pointer to the client principal name, if requested in <b>Flags</b> member and supported by the protocol sequence. Upon any return value other than RPC_S_OK or ERROR_MORE_DATA, the content of <b>ClientPrincipalName</b> is undefined and may have been modified by RPC.
 
-
 ### -field AuthenticationLevel
 
 Authentication level for the call. See 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a> for authentication levels supported by RPC.
-
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a> for authentication levels supported by RPC.
 
 ### -field AuthenticationService
 
 Authentication service, or security provider, used to make the remote procedure call.
 
-
 ### -field NullSession
 
 Specifies whether a <b>Null</b> session is used. Zero indicates the call is not coming over a <b>Null</b> session; any other value indicates a <b>Null</b> session.
 
-
 ## -remarks
-
-
 
 The 
 <b>RPC_CALL_ATTRIBUTES</b> structure uses a versioning scheme to enable the 
@@ -154,7 +142,7 @@ The
 <li>First approach: zero is specified for the <b>ServerPrincipalNameBufferLength</b> or <b>ClientPrincipalNameBufferLength</b> member on the first 
 <b>RpcServerInqCallAttributes</b> function call to retrieve the required buffer length, or to determine whether the protocol supports returning the principal name. Upon retrieving the required buffer length, a buffer is allocated of the required length and a second call is made to get the real length of the buffer.</li>
 <li>Second approach: the caller begins with a reasonable buffer, often allocated on the stack, and if ERROR_MORE_DATA is returned, a buffer of the required length is allocated and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function is called again.</li>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a> function is called again.</li>
 </ul>
 The second method offers the best performance in most cases, since the caller does not need to perform a memory allocation.
 
@@ -172,21 +160,10 @@ Status = RpcServerInqCallAttributes(0, &CallAttributes);
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/authentication-level-constants">Authentication-Level Constants</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>

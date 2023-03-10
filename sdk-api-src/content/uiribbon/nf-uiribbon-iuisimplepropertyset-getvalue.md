@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUISimplePropertySet.GetValue
 title: IUISimplePropertySet::GetValue (uiribbon.h)
 description: Retrieves the value identified by a property key.
+helpviewer_keywords: ["GetValue","GetValue method [Windows Ribbon]","GetValue method [Windows Ribbon]","IUISimplePropertySet interface","IUISimplePropertySet interface [Windows Ribbon]","GetValue method","IUISimplePropertySet.GetValue","IUISimplePropertySet::GetValue","scenicintent_IUISimplePropertySet_GetValue","uiribbon/IUISimplePropertySet::GetValue","windowsribbon.windowsribbon_iuisimplepropertyset_getvalue"]
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset_getvalue.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\getvalue.htm
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Ribbon], GetValue method [Windows Ribbon],IUISimplePropertySet interface, IUISimplePropertySet interface [Windows Ribbon],GetValue method, IUISimplePropertySet.GetValue, IUISimplePropertySet::GetValue, scenicintent_IUISimplePropertySet_GetValue, uiribbon/IUISimplePropertySet::GetValue, windowsribbon.windowsribbon_iuisimplepropertyset_getvalue
-f1_keywords:
-- uiribbon/IUISimplePropertySet.GetValue
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUISimplePropertySet.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUISimplePropertySet::GetValue
+ - uiribbon/IUISimplePropertySet::GetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUISimplePropertySet.GetValue
 ---
 
 # IUISimplePropertySet::GetValue
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value identified by a property key.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param key [in]
 
 Type: <b>REFPROPERTYKEY</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> of interest.
-				
-
+The <a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Key</a> of interest.
 
 ### -param value [out]
 
@@ -73,30 +67,20 @@ Type: <b>PROPVARIANT*</b>
 
 When this method returns, contains a pointer to the value for 
 					<i>key</i>.
-				
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-
 #### Examples
 
-The following example demonstrates a custom implementation of  <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a> for both item and Command galleries.
+The following example demonstrates a custom implementation of  <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a> for both item and Command galleries.
 
-The CItemProperties class in this example is derived from <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
+The CItemProperties class in this example is derived from <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
 
 
 ```cpp
@@ -192,25 +176,14 @@ private:
 };
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset">IUISimplePropertySet</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Keys</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Keys</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

@@ -2,15 +2,12 @@
 UID: NN:mfmediaengine.IMFTimedTextTrackList
 title: IMFTimedTextTrackList (mfmediaengine.h)
 description: Represents a list of timed-text tracks.
+helpviewer_keywords: ["IMFTimedTextTrackList","IMFTimedTextTrackList interface [Media Foundation]","IMFTimedTextTrackList interface [Media Foundation]","described","mf.imftimedtexttracklist","mfmediaengine/IMFTimedTextTrackList"]
 old-location: mf\imftimedtexttracklist.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: EA94A81E-3B1D-4723-B00F-B216991E19E5
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], IMFTimedTextTrackList interface [Media Foundation],described, mf.imftimedtexttracklist, mfmediaengine/IMFTimedTextTrackList
-f1_keywords:
-- mfmediaengine/IMFTimedTextTrackList
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextTrackList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextTrackList
+ - mfmediaengine/IMFTimedTextTrackList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextTrackList
 ---
 
 # IMFTimedTextTrackList interface
@@ -48,62 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a list of timed-text tracks.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextTrackList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextTrackList</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFTimedTextTrackList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttracklist-getlength">GetLength</a>
-</td>
-<td align="left" width="63%">
-Gets the length, in tracks, of the timed-text-track list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttracklist-gettrack">GetTrack</a>
-</td>
-<td align="left" width="63%">
-Gets a text track in the list from the index of the track.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttracklist-gettrackbyid">GetTrackById</a>
-</td>
-<td align="left" width="63%">
-Gets a text track in the list from the identifier of the track.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMFTimedTextTrackList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextTrackList</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

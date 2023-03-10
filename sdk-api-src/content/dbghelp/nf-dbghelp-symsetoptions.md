@@ -2,15 +2,12 @@
 UID: NF:dbghelp.SymSetOptions
 title: SymSetOptions function (dbghelp.h)
 description: Sets the options mask.
+helpviewer_keywords: ["SYMOPT_ALLOW_ABSOLUTE_SYMBOLS","SYMOPT_ALLOW_ZERO_ADDRESS","SYMOPT_AUTO_PUBLICS","SYMOPT_CASE_INSENSITIVE","SYMOPT_DEBUG","SYMOPT_DEFERRED_LOADS","SYMOPT_DISABLE_SYMSRV_AUTODETECT","SYMOPT_EXACT_SYMBOLS","SYMOPT_FAIL_CRITICAL_ERRORS","SYMOPT_FAVOR_COMPRESSED","SYMOPT_FLAT_DIRECTORY","SYMOPT_IGNORE_CVREC","SYMOPT_IGNORE_IMAGEDIR","SYMOPT_IGNORE_NT_SYMPATH","SYMOPT_INCLUDE_32BIT_MODULES","SYMOPT_LOAD_ANYTHING","SYMOPT_LOAD_LINES","SYMOPT_NO_CPP","SYMOPT_NO_IMAGE_SEARCH","SYMOPT_NO_PROMPTS","SYMOPT_NO_PUBLICS","SYMOPT_NO_UNQUALIFIED_LOADS","SYMOPT_OVERWRITE","SYMOPT_PUBLICS_ONLY","SYMOPT_SECURE","SYMOPT_UNDNAME","SymSetOptions","SymSetOptions function","_win32_symsetoptions","base.symsetoptions","dbghelp/SymSetOptions"]
 old-location: base\symsetoptions.htm
 tech.root: Debug
 ms.assetid: 15d72415-829f-4ba3-af80-1f3762cbebda
 ms.date: 12/05/2018
 ms.keywords: SYMOPT_ALLOW_ABSOLUTE_SYMBOLS, SYMOPT_ALLOW_ZERO_ADDRESS, SYMOPT_AUTO_PUBLICS, SYMOPT_CASE_INSENSITIVE, SYMOPT_DEBUG, SYMOPT_DEFERRED_LOADS, SYMOPT_DISABLE_SYMSRV_AUTODETECT, SYMOPT_EXACT_SYMBOLS, SYMOPT_FAIL_CRITICAL_ERRORS, SYMOPT_FAVOR_COMPRESSED, SYMOPT_FLAT_DIRECTORY, SYMOPT_IGNORE_CVREC, SYMOPT_IGNORE_IMAGEDIR, SYMOPT_IGNORE_NT_SYMPATH, SYMOPT_INCLUDE_32BIT_MODULES, SYMOPT_LOAD_ANYTHING, SYMOPT_LOAD_LINES, SYMOPT_NO_CPP, SYMOPT_NO_IMAGE_SEARCH, SYMOPT_NO_PROMPTS, SYMOPT_NO_PUBLICS, SYMOPT_NO_UNQUALIFIED_LOADS, SYMOPT_OVERWRITE, SYMOPT_PUBLICS_ONLY, SYMOPT_SECURE, SYMOPT_UNDNAME, SymSetOptions, SymSetOptions function, _win32_symsetoptions, base.symsetoptions, dbghelp/SymSetOptions
-f1_keywords:
-- dbghelp/SymSetOptions
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymSetOptions
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymSetOptions
+ - dbghelp/SymSetOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymSetOptions
 ---
 
 # SymSetOptions function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the options mask.
 
-
 ## -parameters
-
-
-
 
 ### -param SymOptions [in]
 
@@ -123,7 +120,7 @@ All symbol searches are insensitive to case.
 </dl>
 </td>
 <td width="60%">
-Pass debug output through <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> or the  <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function.
+Pass debug output through <a href="/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> or the  <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function.
 
 </td>
 </tr>
@@ -229,7 +226,7 @@ Ignore the image directory.
 </td>
 <td width="60%">
 Do not use the path specified by <b>_NT_SYMBOL_PATH</b> if the user calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> without a valid path.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> without a valid path.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
@@ -385,26 +382,17 @@ This option has no effect on global or local symbols because they are stored und
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The function returns the current options mask.
 
-
-
-
 ## -remarks
-
-
 
 The options value can be changed any number of times while the library is in use by an application. The option change affects all future calls to the symbol handler.
 
 To get the current options mask, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -412,23 +400,14 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/initializing-the-symbol-handler">Initializing the Symbol Handler</a>.
+<a href="/windows/desktop/Debug/initializing-the-symbol-handler">Initializing the Symbol Handler</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a>

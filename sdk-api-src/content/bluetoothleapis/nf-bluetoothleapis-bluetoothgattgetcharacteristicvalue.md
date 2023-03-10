@@ -2,15 +2,12 @@
 UID: NF:bluetoothleapis.BluetoothGATTGetCharacteristicValue
 title: BluetoothGATTGetCharacteristicValue function (bluetoothleapis.h)
 description: Gets the value of the specified characteristic.
+helpviewer_keywords: ["BluetoothGATTGetCharacteristicValue","BluetoothGATTGetCharacteristicValue function [Bluetooth Devices]","bltooth.bluetoothgattgetcharacteristicvalue","bluetoothleapis/BluetoothGATTGetCharacteristicValue"]
 old-location: bltooth\bluetoothgattgetcharacteristicvalue.htm
 tech.root: bltooth
 ms.assetid: 8C89FCE9-8DCA-4A38-AF67-A46FDDCC9A60
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetCharacteristicValue, BluetoothGATTGetCharacteristicValue function [Bluetooth Devices], bltooth.bluetoothgattgetcharacteristicvalue, bluetoothleapis/BluetoothGATTGetCharacteristicValue
-f1_keywords:
-- bluetoothleapis/BluetoothGATTGetCharacteristicValue
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTGetCharacteristicValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTGetCharacteristicValue
+ - bluetoothleapis/BluetoothGATTGetCharacteristicValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTGetCharacteristicValue
 ---
 
 # BluetoothGATTGetCharacteristicValue function
@@ -49,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothGATTGetCharacteristicValue</b> function gets the value of the specified characteristic.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the service.
 
-
 ### -param Characteristic [in]
 
 Pointer to the parent characteristic of the characteristic value to be retrieved.
-
 
 ### -param CharacteristicValueDataSize [in]
 
 The number of bytes allocated for the <i>CharacteristicValue</i> parameter.
 
-
 ### -param CharacteristicValue [out, optional]
 
 Pointer to buffer into which to return the characteristic value.
 
-
 ### -param CharacteristicValueSizeRequired [out, optional]
 
 Pointer to buffer into which to store the number of bytes needed to return data in the buffer pointed to by <i>CharacteristicValue</i>.
-
 
 ### -param Flags [in]
 
@@ -143,12 +135,8 @@ The characteristic value is to be read from the cache (regardless of whether it 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>BluetoothGATTGetCharacteristicValue</b> function returns the following values:
 
@@ -469,14 +457,8 @@ An error that lies in the reserved range has been received.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The characteristic value is returned from the cache if one is already present. This would be the case most of the time, as all the device attributes are cached at the time of pairing or association.  However, if it is not present, the characteristic value is read directly from the device, and will be cached upon successfully reading it from the device.  If <b>BLUETOOTH_GATT_FLAG_FORCE_READ_FROM_CACHE</b> or <b>BLUETOOTH_GATT_FLAG_FORCE_READ_FROM_DEVICE</b> is present, the characteristic value is read using the specified method.
 
@@ -486,8 +468,8 @@ Profile drivers should pre-allocate  a sufficiently large buffer for the array o
     characteristics to be returned in.  Callers can determine the necessary buffer size by passing a non-<b>NULL</b> value in <i>CharacteristicValueSizeRequired</i> and <b>NULL</b> in <i>CharacteristicValue</i>.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
-    <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
+    <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -547,21 +529,10 @@ The parent service must be present in the
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>

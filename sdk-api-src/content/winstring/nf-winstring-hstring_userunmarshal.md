@@ -1,16 +1,13 @@
 ---
 UID: NF:winstring.HSTRING_UserUnmarshal
 title: HSTRING_UserUnmarshal function (winstring.h)
-description: Unmarshals an HSTRING object from the RPC buffer.
+description: The HSTRING_UserUnmarshal function (winstring.h) unmarshals an HSTRING object from the RPC buffer.
+helpviewer_keywords: ["HSTRING_UserUnmarshal","HSTRING_UserUnmarshal function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserUnmarshal","winrt.hstring_userunmarshal"]
 old-location: winrt\hstring_userunmarshal.htm
 tech.root: WinRT
 ms.assetid: EFE4C76D-4219-43DA-B1F6-4A58ED763686
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: HSTRING_UserUnmarshal, HSTRING_UserUnmarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserUnmarshal, winrt.hstring_userunmarshal
-f1_keywords:
-- winstring/HSTRING_UserUnmarshal
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -28,55 +25,53 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- HSTRING_UserUnmarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HSTRING_UserUnmarshal
+ - winstring/HSTRING_UserUnmarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - HSTRING_UserUnmarshal
 ---
-
-# HSTRING_UserUnmarshal function
-
 
 ## -description
 
-
-Unmarshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
-
+Unmarshals an [**HSTRING**](/windows/win32/winrt/hstring) object from the RPC buffer.
 
 ## -parameters
 
+### -param pFlags
 
-
-
-#### - pFlags [in]
+[in]
 
 The data used by RPC.
 
+### -param pBuffer
 
-#### - pBuffer [in]
+[in]
 
 The current buffer. This pointer may or may not be aligned on entry.
 
+### -param ppidl
 
-#### - ppidl [out]
+[out]
 
 The string.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -108,18 +103,8 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
- 
-
- 
+[**HSTRING**](/windows/win32/winrt/hstring)
 

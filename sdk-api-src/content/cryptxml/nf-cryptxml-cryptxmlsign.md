@@ -2,15 +2,12 @@
 UID: NF:cryptxml.CryptXmlSign
 title: CryptXmlSign function (cryptxml.h)
 description: Creates a cryptographic signature of a SignedInfo element.
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CERT_NCRYPT_KEY_SPEC","CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CRYPT_XML_SIGN_ADD_KEYVALUE","CryptXmlSign","CryptXmlSign function [Security]","cryptxml/CryptXmlSign","security.cryptxmlsign"]
 old-location: security\cryptxmlsign.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 38bd365e-bc63-498c-a650-471429f09d37
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CERT_NCRYPT_KEY_SPEC, CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_SIGN_ADD_KEYVALUE, CryptXmlSign, CryptXmlSign function [Security], cryptxml/CryptXmlSign, security.cryptxmlsign
-f1_keywords:
-- cryptxml/CryptXmlSign
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptxml.dll
-api_name:
-- CryptXmlSign
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlSign
+ - cryptxml/CryptXmlSign
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptxml.dll
+api_name:
+ - CryptXmlSign
 ---
 
 # CryptXmlSign function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptXmlSign</b> function creates a cryptographic signature of  a <b>SignedInfo</b> element.
-
 
 ## -parameters
 
-
-
-
 ### -param hSignature [in]
 
-The handle to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure. 
-
+The handle to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure.
 
 ### -param hKey [in, optional]
 
-The handle of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> used to sign the <b>SignedInfo</b> element.
+The handle of a <a href="/windows/desktop/SecGloss/p-gly">private key</a> used to sign the <b>SignedInfo</b> element.
     This parameter must be <b>NULL</b> for HMAC-based signature algorithms.
-
 
 ### -param dwKeySpec
 
@@ -84,7 +79,7 @@ A <b>DWORD</b> value that specifies the key type. This parameter can be one of t
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key pair</a> is a key exchange pair.
+The <a href="/windows/desktop/SecGloss/k-gly">key pair</a> is a key exchange pair.
 
 </td>
 </tr>
@@ -111,8 +106,6 @@ The key is a Cryptography API: Next Generation (CNG) key.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags
 
@@ -152,8 +145,6 @@ digest  are used.  When this flag is set, no other registered extensions are loa
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwKeyInfoSpec
 
@@ -180,7 +171,7 @@ Is set to  <b>NULL</b>
 
 </td>
 <td>
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure
+Points to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure
 
 </td>
 </tr>
@@ -190,36 +181,30 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-
 
 </td>
 <td>
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure
+Points to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_keyinfo_param">CRYPT_XML_KEYINFO_PARAM</a> structure
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvKeyInfoSpec [in, optional]
 
 A pointer to a structure, the type of which is determined by the value of the <i>dwKeyInfoSpec</i> parameter.
 
-
 ### -param pSignatureMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
-
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the signature method.
 
 ### -param pCanonicalization [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
-
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a>     structure that specifies the canonicalization method.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
 
+## -remarks
 
-
+If a certificate cannot be found CryptXmlSign will create a UI for certificate selection. If this window is generated from a process running in [session 0](https://techcommunity.microsoft.com/t5/ask-the-performance-team/application-compatibility-session-0-isolation/ba-p/372361), the application may unexpectedly terminate.

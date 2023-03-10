@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICImagingFactory.CreateComponentInfo
 title: IWICImagingFactory::CreateComponentInfo (wincodec.h)
 description: Creates a new instance of the IWICComponentInfo class for the given component class identifier (CLSID).
+helpviewer_keywords: ["CreateComponentInfo","CreateComponentInfo method [Windows Imaging Component]","CreateComponentInfo method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateComponentInfo method","IWICImagingFactory.CreateComponentInfo","IWICImagingFactory::CreateComponentInfo","_wic_codec_iwicimagingfactory_createcomponentinfo","wic._wic_codec_iwicimagingfactory_createcomponentinfo","wincodec/IWICImagingFactory::CreateComponentInfo"]
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentinfo.htm
 tech.root: wic
 ms.assetid: c4feebf7-500f-4ab8-85fa-689edfe31846
 ms.date: 12/05/2018
 ms.keywords: CreateComponentInfo, CreateComponentInfo method [Windows Imaging Component], CreateComponentInfo method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentInfo method, IWICImagingFactory.CreateComponentInfo, IWICImagingFactory::CreateComponentInfo, _wic_codec_iwicimagingfactory_createcomponentinfo, wic._wic_codec_iwicimagingfactory_createcomponentinfo, wincodec/IWICImagingFactory::CreateComponentInfo
-f1_keywords:
-- wincodec/IWICImagingFactory.CreateComponentInfo
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICImagingFactory.CreateComponentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICImagingFactory::CreateComponentInfo
+ - wincodec/IWICImagingFactory::CreateComponentInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICImagingFactory.CreateComponentInfo
 ---
 
 # IWICImagingFactory::CreateComponentInfo
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a> class for the given component class identifier (CLSID).
-
+Creates a new instance of the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a> class for the given component class identifier (CLSID).
 
 ## -parameters
-
-
-
 
 ### -param clsidComponent [in]
 
@@ -63,21 +60,14 @@ Type: <b>REFCLSID</b>
 
 The CLSID for the desired component.
 
-
 ### -param ppIInfo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>.
-
+A pointer that receives a pointer to a new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

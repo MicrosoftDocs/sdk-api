@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzScope.AddPropertyItem
 title: IAzScope::AddPropertyItem (azroles.h)
-description: Adds the specified principal to the specified list of principals.
+description: Adds the specified principal to the specified list of principals. (IAzScope.AddPropertyItem)
+helpviewer_keywords: ["AZ_PROP_POLICY_ADMINS","AZ_PROP_POLICY_ADMINS_NAME","AZ_PROP_POLICY_READERS","AZ_PROP_POLICY_READERS_NAME","AddPropertyItem","AddPropertyItem method [Security]","AddPropertyItem method [Security]","AzScope object","AddPropertyItem method [Security]","IAzScope interface","AzScope object [Security]","AddPropertyItem method","IAzScope interface [Security]","AddPropertyItem method","IAzScope.AddPropertyItem","IAzScope::AddPropertyItem","azroles/IAzScope::AddPropertyItem","security.iazscope_addpropertyitem"]
 old-location: security\iazscope_addpropertyitem.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 5170079b-9ea6-417c-87f2-bb8835225911
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzScope object, AddPropertyItem method [Security],IAzScope interface, AzScope object [Security],AddPropertyItem method, IAzScope interface [Security],AddPropertyItem method, IAzScope.AddPropertyItem, IAzScope::AddPropertyItem, azroles/IAzScope::AddPropertyItem, security.iazscope_addpropertyitem
-f1_keywords:
-- azroles/IAzScope.AddPropertyItem
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzScope.AddPropertyItem
-- AzScope.AddPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzScope::AddPropertyItem
+ - azroles/IAzScope::AddPropertyItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzScope.AddPropertyItem
+ - AzScope.AddPropertyItem
 ---
 
 # IAzScope::AddPropertyItem
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AddPropertyItem</b> method adds the specified principal to the specified list of principals.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -73,7 +70,7 @@ Property ID of the  list of principals to which to add the principal specified b
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyadministrator">AddPolicyAdministrator</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyadministrator">AddPolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -83,7 +80,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyadministratorname">AddPolicyAdministratorName</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyadministratorname">AddPolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -93,7 +90,7 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyreader">AddPolicyReader</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyreader">AddPolicyReader</a> method
 
 </td>
 </tr>
@@ -103,13 +100,11 @@ Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Can also be added using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyreadername">AddPolicyReaderName</a> method
+Can also be added using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-addpolicyreadername">AddPolicyReaderName</a> method
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp [in]
 
@@ -117,28 +112,16 @@ Principal to add to the list of principals specified by the <i>lPropId</i> param
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_POLICY_ADMINS or AZ_PROP_POLICY_READERS is specified for the <i>lPropId</i> parameter, the string is the text form of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to add to the list. If AZ_PROP_POLICY_ADMINS_NAME or AZ_PROP_POLICY_READERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format.
-
+If AZ_PROP_POLICY_ADMINS or AZ_PROP_POLICY_READERS is specified for the <i>lPropId</i> parameter, the string is the text form of the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to add to the list. If AZ_PROP_POLICY_ADMINS_NAME or AZ_PROP_POLICY_READERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to add to the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
 
-
-
-
 ## -remarks
 
-
-
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
-
-
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.

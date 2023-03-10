@@ -2,15 +2,12 @@
 UID: NF:drt.DrtDeleteIpv6UdpTransport
 title: DrtDeleteIpv6UdpTransport function (drt.h)
 description: DrtDeleteIpv6UdpTransport function deletes a transport based on the IPv6 UDP protocol.
+helpviewer_keywords: ["DrtDeleteIpv6UdpTransport","DrtDeleteIpv6UdpTransport function [Peer Networking]","drt/DrtDeleteIpv6UdpTransport","p2p.drtdeleteipv6udptransport"]
 old-location: p2p\drtdeleteipv6udptransport.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 9b078f63-36b1-448b-b0c2-d452699157d8
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteIpv6UdpTransport, DrtDeleteIpv6UdpTransport function [Peer Networking], drt/DrtDeleteIpv6UdpTransport, p2p.drtdeleteipv6udptransport
-f1_keywords:
-- drt/DrtDeleteIpv6UdpTransport
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drttransport.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtDeleteIpv6UdpTransport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtDeleteIpv6UdpTransport
+ - drt/DrtDeleteIpv6UdpTransport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtDeleteIpv6UdpTransport
 ---
 
 # DrtDeleteIpv6UdpTransport function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtDeleteIpv6UdpTransport</b> function deletes a  transport based on the IPv6 UDP protocol.
 
-
 ## -parameters
-
-
-
 
 ### -param hTransport [in]
 
 The DRT transport handle specifying the transport to delete.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -113,25 +107,16 @@ The transport is still bound.
 </dl>
 </td>
 <td width="60%">
-All clients have not called <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the transport.
+All clients have not called <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the transport.
 
 </td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  This function may also surface errors returned by underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetcryptkey">PeerIdentityGetCryptKey</a>.</div>
+<div class="alert"><b>Note</b>  This function may also surface errors returned by underlying calls to <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitygetcryptkey">PeerIdentityGetCryptKey</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreateipv6udptransport">DrtCreateIpv6UdpTransport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtcreateipv6udptransport">DrtCreateIpv6UdpTransport</a>

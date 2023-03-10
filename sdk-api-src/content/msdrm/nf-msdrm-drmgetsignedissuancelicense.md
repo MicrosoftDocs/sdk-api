@@ -2,15 +2,12 @@
 UID: NF:msdrm.DRMGetSignedIssuanceLicense
 title: DRMGetSignedIssuanceLicense function (msdrm.h)
 description: Acquires a signed issuance license online or offline, or produces an unsigned issuance license that can be signed later.
+helpviewer_keywords: ["DRMGetSignedIssuanceLicense","DRMGetSignedIssuanceLicense function [Active Directory Rights Management Services SDK 1.0]","DRM_AUTO_GENERATE_KEY","DRM_OWNER_LICENSE_NOPERSIST","DRM_REUSE_KEY","DRM_SERVER_ISSUANCELICENSE","DRM_SIGN_CANCEL","DRM_SIGN_OFFLINE","DRM_SIGN_ONLINE","msdrm/DRMGetSignedIssuanceLicense","rm.drmgetsignedissuancelicense"]
 old-location: rm\drmgetsignedissuancelicense.htm
-tech.root: AdRms_Sdk
+tech.root: rm
 ms.assetid: 3ed180d1-27c9-4f39-b353-1d417636ca62
-ms.date: 12/05/2018
+ms.date: 10/15/2020
 ms.keywords: DRMGetSignedIssuanceLicense, DRMGetSignedIssuanceLicense function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SERVER_ISSUANCELICENSE, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, DRM_SIGN_ONLINE, msdrm/DRMGetSignedIssuanceLicense, rm.drmgetsignedissuancelicense
-f1_keywords:
-- msdrm/DRMGetSignedIssuanceLicense
-dev_langs:
-- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdrm.dll
-api_name:
-- DRMGetSignedIssuanceLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ms.custom: 19H1
+f1_keywords:
+ - DRMGetSignedIssuanceLicense
+ - msdrm/DRMGetSignedIssuanceLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdrm.dll
+api_name:
+ - DRMGetSignedIssuanceLicense
 ---
 
 # DRMGetSignedIssuanceLicense function
@@ -49,32 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The AD RMS SDK leveraging functionality exposed by 
-
-the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
-
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
-
-which leverages functionality exposed by the client in Msipc.dll.]
+> [!NOTE]
+> The AD RMS SDK leveraging functionality exposed by the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, which leverages functionality exposed by the client in Msipc.dll.
 
 The <b>DRMGetSignedIssuanceLicense</b> function acquires a signed issuance license online or offline, or produces an unsigned issuance license that can be signed later.
 
-
 ## -parameters
-
-
-
 
 ### -param hEnv [in]
 
-A handle to a secure environment created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drminitenvironment">DRMInitEnvironment</a> function. The handle is required for offline signing and optional for online signing. Applications that do not use a lockbox should pass <b>NULL</b> for this parameter.
-
+A handle to a secure environment created by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drminitenvironment">DRMInitEnvironment</a> function. The handle is required for offline signing and optional for online signing. Applications that do not use a lockbox should pass <b>NULL</b> for this parameter.
 
 ### -param hIssuanceLicense [in]
 
-A handle to an issuance license to sign, created by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> function.
-
+A handle to an issuance license to sign, created by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> function.
 
 ### -param uFlags [in]
 
@@ -92,7 +82,7 @@ Specifies an online issuance license signing request from an Active Directory Ri
 
 #### DRM_SIGN_OFFLINE
 
-Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/c-gly">client licensor certificate</a> (CLC) obtained during a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
+Specifies an offline issuance license signing request. When signing offline, the issuance license is signed by using the <a href="/previous-versions/windows/desktop/adrms_sdk/c-gly">client licensor certificate</a> (CLC) obtained during a previous call to <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>. To get this certificate from the store, use <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>. Each CLC is tied to the server that issued it; be sure that you are using the correct client licensor certificate for the issuance license you are publishing.
 
 This flag cannot be combined with the <b>DRM_SIGN_ONLINE</b> or <b>DRM_SERVER_ISSUANCELICENSE</b> flags.
 
@@ -100,7 +90,7 @@ This flag cannot be combined with the <b>DRM_SIGN_ONLINE</b> or <b>DRM_SERVER_IS
 
 #### DRM_SERVER_ISSUANCELICENSE
 
-Specifies that the unsigned issuance license be passed to the callback function. The issuance license is never signed, and the action occurs offline. This issuance license can be stored directly or used as input to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetissuancelicensetemplate">DRMGetIssuanceLicenseTemplate</a> to create a template or used in a call to  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/-acquireissuancelicense">AcquireIssuanceLicense</a>.
+Specifies that the unsigned issuance license be passed to the callback function. The issuance license is never signed, and the action occurs offline. This issuance license can be stored directly or used as input to <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetissuancelicensetemplate">DRMGetIssuanceLicenseTemplate</a> to create a template or used in a call to  <a href="/previous-versions/windows/desktop/adrms_sdk/-acquireissuancelicense">AcquireIssuanceLicense</a>.
 
 This flag cannot be combined with the <b>DRM_SIGN_ONLINE</b> or <b>DRM_SIGN_OFFLINE</b> flags.
 
@@ -116,19 +106,19 @@ Cancels an online signing request. Offline requests are processed immediately an
 
 Can be used with one of the preceding flags to have the Active Directory Rights Management Services system generate a content key for you. This key is used in encryption functions. Typically, the key type  is AES and the cipher mode is ECB. If this flag is not specified, you must provide your own content key with a cryptographic system, such as with the CryptoAPI functions from the Platform SDK.
 
-<div class="alert"><b>Note</b>  If you are using the AD RMS client included in  Windows 7,  or if you install the <a href="https://go.microsoft.com/fwlink/p/?linkid=155817">CBC hotfix</a>, the value AES_CBC4K can be used to specify the AES algorithm with cipher-block chaining (CBC) cipher mode. See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a> code examples for more information.</div>
+<div class="alert"><b>Note</b>  If you are using the AD RMS client included in  Windows 7,  or if you install the CBC hotfix, the value AES_CBC4K can be used to specify the AES algorithm with cipher-block chaining (CBC) cipher mode. See the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a> code examples for more information.</div>
 <div> </div>
 
 
 #### DRM_OWNER_LICENSE_NOPERSIST
 
-The owner license is stored in memory instead of the permanent store. The owner license can subsequently be retrieved by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetownerlicense">DRMGetOwnerLicense</a> function.
+The owner license is stored in memory instead of the permanent store. The owner license can subsequently be retrieved by the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetownerlicense">DRMGetOwnerLicense</a> function.
 
 
 
 #### DRM_REUSE_KEY
 
-Causes the content key to be reused. The content key is obtained from the signed issuance license associated with the bound license (<i>hBoundLicense</i>) that is passed in to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a>. You must ensure that the bound license is bound to either the <b>EDITRIGHTSDATA</b> or <b>OWNER</b> right. This flag is available only in Windows 7.
+Causes the content key to be reused. The content key is obtained from the signed issuance license associated with the bound license (<i>hBoundLicense</i>) that is passed in to <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a>. You must ensure that the bound license is bound to either the <b>EDITRIGHTSDATA</b> or <b>OWNER</b> right. This flag is available only in Windows 7.
 
 <div class="alert"><b>Note</b>  This flag must be combined with <b>DRM_SIGN_OFFLINE</b>. You can also optionally combine it with <b>DRM_OWNER_LICENSE_NOPERSIST</b>. These are the only allowed values. The parameters <i>pbSymKey</i> and <i>cbSymKey</i> must be set to 0. See the code sample  in this topic.</div>
 <div> </div>
@@ -139,65 +129,51 @@ Causes the content key to be reused. The content key is obtained from the signed
 
 The content key used to encrypt the document. If this value is <b>NULL</b>, the <i>uFlags</i> parameter must specify <b>DRM_AUTO_GENERATE_KEY</b> or <b>DRM_REUSE_KEY</b>. These <i>uFlags</i> values cause <i>pbSymKey</i> to be ignored.
 
-
 ### -param cbSymKey [in]
 
 The size, in bytes, of the content key. Currently, this parameter can only be 16 unless the <i>uFlags</i> parameter specifies <b>DRM_AUTO_GENERATE_KEY</b> or <b>DRM_REUSE_KEY</b>, in which case this parameter can be zero.
 
-
 ### -param wszSymKeyType [in]
 
-The key type. The value <b>AES</b> specifies the Advanced Encryption Standard (AES) algorithm with the  electronic code book (ECB) cipher mode. If you are using Windows 7, the value <b>AES_CBC4K</b> can be used to specify the AES algorithm with cipher-block chaining (CBC) cipher mode. See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a> code examples for more information.
-
+The key type. The value <b>AES</b> specifies the Advanced Encryption Standard (AES) algorithm with the  electronic code book (ECB) cipher mode. If you are using Windows 7, the value <b>AES_CBC4K</b> can be used to specify the AES algorithm with cipher-block chaining (CBC) cipher mode. See the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a> code examples for more information.
 
 ### -param wszClientLicensorCertificate [in]
 
-A pointer to null-terminated Unicode string that contains a client licensor certificate obtained by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a> function. If you are attempting online signing, this parameter should be <b>NULL</b>. If you are developing a server application that does not use a lockbox and  if you are using the <b>DRM_SERVER_ISSUANCELICENSE</b> flag in <i>uFlags</i>, pass in the server license certificate chain. The server licensor certificate chain can be retrieved by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/-getlicensorcertificate">GetLicensorCertificate</a> SOAP method; however, to make the chain usable, it must be reordered by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmconstructcertificatechain">DRMConstructCertificateChain</a> function.
-
+A pointer to null-terminated Unicode string that contains a client licensor certificate obtained by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a> function. If you are attempting online signing, this parameter should be <b>NULL</b>. If you are developing a server application that does not use a lockbox and  if you are using the <b>DRM_SERVER_ISSUANCELICENSE</b> flag in <i>uFlags</i>, pass in the server license certificate chain. The server licensor certificate chain can be retrieved by using the <a href="/previous-versions/windows/desktop/adrms_sdk/-getlicensorcertificate">GetLicensorCertificate</a> SOAP method; however, to make the chain usable, it must be reordered by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmconstructcertificatechain">DRMConstructCertificateChain</a> function.
 
 ### -param pfnCallback [in]
 
-A pointer to the callback function used to notify the application of an asynchronous request's progress. For the signature of the callback function you must provide, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/nc-msdrmdefs-drmcallback">Callback Prototype</a>.
-
+A pointer to the callback function used to notify the application of an asynchronous request's progress. For the signature of the callback function you must provide, see <a href="/previous-versions/windows/desktop/api/msdrmdefs/nc-msdrmdefs-drmcallback">Callback Prototype</a>.
 
 ### -param wszURL [in]
 
-A pointer to a null-terminated Unicode string that contains the URL of an AD RMS licensing server that was obtained by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetservicelocation">DRMGetServiceLocation</a> function. This string takes the form "<i>ADRMSLicensingServerURL</i>/_wmcs/Licensing". This parameter value is required for online license requests; you can use <b>NULL</b> for offline license requests. This URL is entered in the signed issuance license as the default silent license acquisition URL, which is where an application will automatically go to acquire an end-user license if none is specified in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>.
-
+A pointer to a null-terminated Unicode string that contains the URL of an AD RMS licensing server that was obtained by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetservicelocation">DRMGetServiceLocation</a> function. This string takes the form "<i>ADRMSLicensingServerURL</i>/_wmcs/Licensing". This parameter value is required for online license requests; you can use <b>NULL</b> for offline license requests. This URL is entered in the signed issuance license as the default silent license acquisition URL, which is where an application will automatically go to acquire an end-user license if none is specified in <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>.
 
 ### -param pvContext [in]
 
-A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function">Creating a Callback Function</a>.
-
+A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function">Creating a Callback Function</a>.
 
 ## -returns
 
-
-
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
+The application callback function specified in the <i>pfnCallback</i> parameter will be called with the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-sign-issuance-license">DRM_MSG_SIGN_ISSUANCE_LICENSE</a> message to provide status feedback. This is an asynchronous function that will return either a signed or an unsigned issuance license to the callback function after <b>DRMGetSignedIssuanceLicense</b> has returned.
 
+You request an unsigned issuance license when you want to obtain the string value of an unsigned issuance license from its handle, for example, if you want to call the <a href="/previous-versions/windows/desktop/adrms_sdk/-acquireissuancelicense">AcquireIssuanceLicense</a> SOAP method, or the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetissuancelicensetemplate">DRMGetIssuanceLicenseTemplate</a> function.
 
-The application callback function specified in the <i>pfnCallback</i> parameter will be called with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-sign-issuance-license">DRM_MSG_SIGN_ISSUANCE_LICENSE</a> message to provide status feedback. This is an asynchronous function that will return either a signed or an unsigned issuance license to the callback function after <b>DRMGetSignedIssuanceLicense</b> has returned.
-
-You request an unsigned issuance license when you want to obtain the string value of an unsigned issuance license from its handle, for example, if you want to call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/-acquireissuancelicense">AcquireIssuanceLicense</a> SOAP method, or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetissuancelicensetemplate">DRMGetIssuanceLicenseTemplate</a> function.
-
-The retrieved license is not persisted in the permanent license store; the application must obtain the license in the callback function and handle storage. An application uses this function for publishing. If the issuance license owner (the user referenced in <i>hOwner</i> in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> function) calls this function for a signed issuance license, they will receive a use license (deposited in the license store) as well as a signed issuance license in the callback function.
+The retrieved license is not persisted in the permanent license store; the application must obtain the license in the callback function and handle storage. An application uses this function for publishing. If the issuance license owner (the user referenced in <i>hOwner</i> in the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateissuancelicense">DRMCreateIssuanceLicense</a> function) calls this function for a signed issuance license, they will receive a use license (deposited in the license store) as well as a signed issuance license in the callback function.
 
 When a user calls this function, the issuance license is signed by an AD RMS service (online) or by a client licensor certificate issued by an AD RMS service (offline), and the content key is encrypted by the server's public key. The server licensor certificate of the server that will be signing the unsigned issuance license can take the place of the client licensor certificate when this function is called by a server application that is not using a lockbox. A server application that does not use a lockbox cannot use this function to obtain a signed issuance license offline.
 
 The application can either supply its own content key, or request that AD RMS create one for it. If you are creating your own key, be sure to create a new content key for each piece of content you want to encrypt. AES is currently the only key type supported by AD RMS.
 
-If this call goes out of the caller's intranet to an Internet location that is not on the user's trusted sites list, a security password dialog box will be presented to the user. A URL is considered to be out of the user's domain if the domain of the URL is fully qualified (for example, the fully qualified https://licensing.contoso.com/_wmcs/licensing, instead of the internal URL https://licensing/_wmcs/licensing). Locations inside the user's domain are implicitly trusted; locations outside the user's domain must be explicitly trusted. If an intranet administrator wants to use a service outside the expected user's trust zone, the administrator should consider using a domain group policy to add the company server to the trusted sites for those users.
+If this call goes out of the caller's intranet to an Internet location that is not on the user's trusted sites list, a security password dialog box will be presented to the user. A URL is considered to be out of the user's domain if the domain of the URL is fully qualified (for example, the fully qualified [https://licensing.contoso.com/_wmcs/licensing](), instead of the internal URL [https://licensing/_wmcs/licensing]()). Locations inside the user's domain are implicitly trusted; locations outside the user's domain must be explicitly trusted. If an intranet administrator wants to use a service outside the expected user's trust zone, the administrator should consider using a domain group policy to add the company server to the trusted sites for those users.
 
-An issuance license must contain metadata before it can be signed. Typical metadata contains the ID, type, and name of an item of content. If you create the license from scratch, you must manually add metadata by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetmetadata">DRMSetMetaData</a> function. If you create the license from a template or from an existing license, the metadata contained there is automatically added to the new issuance license, but you should call <b>DRMSetMetaData</b> to assign a new content ID. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-and-using-issuance-licenses">Creating and Using Issuance Licenses</a>.
+An issuance license must contain metadata before it can be signed. Typical metadata contains the ID, type, and name of an item of content. If you create the license from scratch, you must manually add metadata by calling the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetmetadata">DRMSetMetaData</a> function. If you create the license from a template or from an existing license, the metadata contained there is automatically added to the new issuance license, but you should call <b>DRMSetMetaData</b> to assign a new content ID. For more information, see <a href="/previous-versions/windows/desktop/adrms_sdk/creating-and-using-issuance-licenses">Creating and Using Issuance Licenses</a>.
 
 The following code sample shows how to use the <b>DRM_REUSE_KEY</b> value for <i>uFlags</i> to specify that the content key should be reused. This functionality is available only with Windows 7.
 
@@ -591,29 +567,18 @@ e_Exit:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/creating-and-using-issuance-licenses">Creating and Using Issuance Licenses</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-and-using-issuance-licenses">Creating and Using Issuance Licenses</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/offline-signing-code-example">Offline Signing Code Example</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/offline-signing-code-example">Offline Signing Code Example</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/online-signing-code-example">Online Signing Code Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/online-signing-code-example">Online Signing Code Example</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.put_Name
 title: IAzApplicationGroup::put_Name (azroles.h)
-description: Sets or retrieves the name of the application group.
+description: Sets or retrieves the name of the application group. (Put)
+helpviewer_keywords: ["AzApplicationGroup object [Security]","Name property","IAzApplicationGroup interface [Security]","Name property","IAzApplicationGroup.Name","IAzApplicationGroup.put_Name","IAzApplicationGroup::Name","IAzApplicationGroup::get_Name","IAzApplicationGroup::put_Name","Name property [Security]","Name property [Security]","AzApplicationGroup object","Name property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::Name","azroles/IAzApplicationGroup::get_Name","azroles/IAzApplicationGroup::put_Name","put_Name","security.iazapplicationgroup_name"]
 old-location: security\iazapplicationgroup_name.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: a42fb625-d04e-4884-b644-2007f6dc52ba
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Name property, IAzApplicationGroup interface [Security],Name property, IAzApplicationGroup.Name, IAzApplicationGroup.put_Name, IAzApplicationGroup::Name, IAzApplicationGroup::get_Name, IAzApplicationGroup::put_Name, Name property [Security], Name property [Security],AzApplicationGroup object, Name property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Name, azroles/IAzApplicationGroup::get_Name, azroles/IAzApplicationGroup::put_Name, put_Name, security.iazapplicationgroup_name
-f1_keywords:
-- azroles/IAzApplicationGroup.Name
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplicationGroup.Name
-- IAzApplicationGroup.get_Name
-- IAzApplicationGroup.put_Name
-- AzApplicationGroup.Name
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup::put_Name
+ - azroles/IAzApplicationGroup::put_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplicationGroup.Name
+ - IAzApplicationGroup.get_Name
+ - IAzApplicationGroup.put_Name
+ - AzApplicationGroup.Name
 ---
 
 # IAzApplicationGroup::put_Name
@@ -51,20 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Name</b> property sets or retrieves the name of the application group.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The maximum length of the <b>Name</b> property is 64 characters.
-
-
 

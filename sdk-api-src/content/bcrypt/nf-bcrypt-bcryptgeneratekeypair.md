@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptGenerateKeyPair
 title: BCryptGenerateKeyPair function (bcrypt.h)
 description: Creates an empty public/private key pair.
+helpviewer_keywords: ["BCRYPT_DH_ALGORITHM","BCRYPT_DSA_ALGORITHM","BCRYPT_ECDH_P256_ALGORITHM","BCRYPT_ECDH_P384_ALGORITHM","BCRYPT_ECDH_P521_ALGORITHM","BCRYPT_ECDSA_P256_ALGORITHM","BCRYPT_ECDSA_P384_ALGORITHM","BCRYPT_ECDSA_P521_ALGORITHM","BCRYPT_RSA_ALGORITHM","BCryptGenerateKeyPair","BCryptGenerateKeyPair function [Security]","bcrypt/BCryptGenerateKeyPair","security.bcryptgeneratekeypair_func"]
 old-location: security\bcryptgeneratekeypair_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: cdf0de2e-2445-45e3-91ba-89791a0c0642
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DH_ALGORITHM, BCRYPT_DSA_ALGORITHM, BCRYPT_ECDH_P256_ALGORITHM, BCRYPT_ECDH_P384_ALGORITHM, BCRYPT_ECDH_P521_ALGORITHM, BCRYPT_ECDSA_P256_ALGORITHM, BCRYPT_ECDSA_P384_ALGORITHM, BCRYPT_ECDSA_P521_ALGORITHM, BCRYPT_RSA_ALGORITHM, BCryptGenerateKeyPair, BCryptGenerateKeyPair function [Security], bcrypt/BCryptGenerateKeyPair, security.bcryptgeneratekeypair_func
-f1_keywords:
-- bcrypt/BCryptGenerateKeyPair
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptGenerateKeyPair
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptGenerateKeyPair
+ - bcrypt/BCryptGenerateKeyPair
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptGenerateKeyPair
 ---
 
 # BCryptGenerateKeyPair function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>BCryptGenerateKeyPair</b> function creates an empty public/private key pair. After you create a key by using this function, you can use the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function to set its properties; however, the key cannot be used until the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair">BCryptFinalizeKeyPair</a> function is called.
-
+The <b>BCryptGenerateKeyPair</b> function creates an empty public/private key pair. After you create a key by using this function, you can use the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsetproperty">BCryptSetProperty</a> function to set its properties; however, the key cannot be used until the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair">BCryptFinalizeKeyPair</a> function is called.
 
 ## -parameters
 
-
-
-
 ### -param hAlgorithm [in, out]
 
-Handle of an algorithm provider that supports signing, asymmetric encryption, or key agreement. This handle must have been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function.
-
+Handle of an algorithm provider that supports signing, asymmetric encryption, or key agreement. This handle must have been created by using the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function.
 
 ### -param phKey [out]
 
-A pointer to a <b>BCRYPT_KEY_HANDLE</b> that receives the handle of the key. This handle is used in subsequent functions that require a key, such as <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a>. This handle must be released when it is no longer needed by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
-
+A pointer to a <b>BCRYPT_KEY_HANDLE</b> that receives the handle of the key. This handle is used in subsequent functions that require a key, such as <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a>. This handle must be released when it is no longer needed by passing it to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a> function.
 
 ### -param dwLength [in]
 
@@ -93,9 +88,9 @@ The key size must be greater than or equal to 512 bits, less than or equal to 40
 </dl>
 </td>
 <td width="60%">
-Prior to Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 1024 bits, and must be a multiple of 64. 
+Prior to Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 1024 bits, and must be a multiple of 64.
 
-Beginning with Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 3072 bits, and must be a multiple of 64. Processing for key sizes less than or equal to 1024 bits adheres to FIPS-186-2. Processing for key sizes greater than 1024 and less than or equal to 3072 adheres to FIPS 186-3.
+Beginning with Windows 8, the key size must be greater than or equal to 512 bits, less than or equal to 3072 bits, and must be a multiple of 64. Processing for key sizes less than or equal to 1024 bits adheres to FIPS 186-2. Processing for key sizes greater than 1024 and less than or equal to 3072 adheres to FIPS 186-3.
 
 </td>
 </tr>
@@ -170,17 +165,12 @@ The key size must be greater than or equal to 512 bits, less than or equal to 16
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
 A set of flags that modify the behavior of this function. No flags are currently defined, so this parameter should be zero.
 
-
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -239,31 +229,13 @@ The specified provider does not support asymmetric key encryption.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Depending on what processor modes a provider supports, <b>BCryptGenerateKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenerateKeyPair</b> function must refer to nonpaged (or locked) memory.
+Depending on what processor modes a provider supports, <b>BCryptGenerateKeyPair</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hAlgorithm</i> parameter must have been opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag, and any pointers passed to the <b>BCryptGenerateKeyPair</b> function must refer to nonpaged (or locked) memory.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptdestroykey">BCryptDestroyKey</a>

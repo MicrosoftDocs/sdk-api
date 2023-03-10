@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentPartner.Logout
 title: IWMPContentPartner::Logout (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Logout method ends the user's online store session.
+helpviewer_keywords: ["IWMPContentPartner interface [Windows Media Player]","Logout method","IWMPContentPartner.Logout","IWMPContentPartner::Logout","IWMPContentPartnerLogout","Logout","Logout method [Windows Media Player]","Logout method [Windows Media Player]","IWMPContentPartner interface","contentpartner/IWMPContentPartner::Logout","wmp.iwmpcontentpartner_logout"]
 old-location: wmp\iwmpcontentpartner_logout.htm
 tech.root: WMP
 ms.assetid: 8919dd66-1ec0-4551-8132-7067957bb545
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Logout method, IWMPContentPartner.Logout, IWMPContentPartner::Logout, IWMPContentPartnerLogout, Logout, Logout method [Windows Media Player], Logout method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Logout, wmp.iwmpcontentpartner_logout
-f1_keywords:
-- contentpartner/IWMPContentPartner.Logout
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.Logout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::Logout
+ - contentpartner/IWMPContentPartner::Logout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.Logout
 ---
 
 # IWMPContentPartner::Logout
@@ -48,25 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>Logout</b> method ends the user's online store session.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -87,33 +77,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The plug-in must call <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">IWMPContentPartnerCallback::Notify</a> to notify Windows Media Player when the log-in state changes.
+The plug-in must call <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">IWMPContentPartnerCallback::Notify</a> to notify Windows Media Player when the log-in state changes.
 
 The <b>Logout</b> method should delete any cached credentials.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login">IWMPContentPartner::Login</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-login">IWMPContentPartner::Login</a>

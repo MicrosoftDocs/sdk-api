@@ -2,15 +2,12 @@
 UID: NF:wmsbuffer.INSSBuffer.SetLength
 title: INSSBuffer::SetLength (wmsbuffer.h)
 description: The SetLength method specifies the size of the used portion of the buffer.
+helpviewer_keywords: ["INSSBuffer interface [windows Media Format]","SetLength method","INSSBuffer.SetLength","INSSBuffer::SetLength","INSSBufferSetLength","SetLength","SetLength method [windows Media Format]","SetLength method [windows Media Format]","INSSBuffer interface","wmformat.inssbuffer_setlength","wmsbuffer/INSSBuffer::SetLength"]
 old-location: wmformat\inssbuffer_setlength.htm
 tech.root: wmformat
 ms.assetid: 3f0e8d8a-efc7-4f1b-8a42-7907439ed8af
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer interface [windows Media Format],SetLength method, INSSBuffer.SetLength, INSSBuffer::SetLength, INSSBufferSetLength, SetLength, SetLength method [windows Media Format], SetLength method [windows Media Format],INSSBuffer interface, wmformat.inssbuffer_setlength, wmsbuffer/INSSBuffer::SetLength
-f1_keywords:
-- wmsbuffer/INSSBuffer.SetLength
-dev_langs:
-- c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- INSSBuffer.SetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INSSBuffer::SetLength
+ - wmsbuffer/INSSBuffer::SetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - INSSBuffer.SetLength
 ---
 
 # INSSBuffer::SetLength
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>SetLength</b> method specifies the size of the used portion of the buffer. If you are storing a sample in the buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">INSSBuffer::GetBuffer</a> to retrieve the address of the buffer. Then copy your data to that address and use this method to set the length of the used portion of the buffer.
-
-
-
+The <b>SetLength</b> method specifies the size of the used portion of the buffer. If you are storing a sample in the buffer, call <a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">INSSBuffer::GetBuffer</a> to retrieve the address of the buffer. Then copy your data to that address and use this method to set the length of the used portion of the buffer.
 
 ## -parameters
-
-
-
 
 ### -param dwLength [in]
 
 <b>DWORD</b> containing the size of the used portion, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,22 +93,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">INSSBuffer::GetLength</a>

@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509PrivateKey.Verify
 title: IX509PrivateKey::Verify (certenroll.h)
 description: Verifies that a private key exists and can be used by the client but does not open the key.
+helpviewer_keywords: ["IX509PrivateKey interface [Security]","Verify method","IX509PrivateKey.Verify","IX509PrivateKey::Verify","Verify","Verify method [Security]","Verify method [Security]","IX509PrivateKey interface","VerifyAllowUI","VerifyNone","VerifySilent","VerifySmartCardNone","VerifySmartCardSilent","certenroll/IX509PrivateKey::Verify","security.ix509privatekey_verify"]
 old-location: security\ix509privatekey_verify.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 4a792c39-71a7-4289-854d-98e6f749a526
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Verify method, IX509PrivateKey.Verify, IX509PrivateKey::Verify, Verify, Verify method [Security], Verify method [Security],IX509PrivateKey interface, VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, certenroll/IX509PrivateKey::Verify, security.ix509privatekey_verify
-f1_keywords:
-- certenroll/IX509PrivateKey.Verify
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509PrivateKey.Verify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PrivateKey::Verify
+ - certenroll/IX509PrivateKey::Verify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509PrivateKey.Verify
 ---
 
 # IX509PrivateKey::Verify
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Verify</b> method verifies that a private key exists and can be used by the client but does not open the key.
-
 
 ## -parameters
 
-
-
-
 ### -param VerifyType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509privatekeyverify">X509PrivateKeyVerify</a> enumeration value that specifies execution options for the method. This can be one of the following values.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509privatekeyverify">X509PrivateKeyVerify</a> enumeration value that specifies execution options for the method. This can be one of the following values.
 
 <table>
 <tr>
@@ -122,16 +119,12 @@ The method allows a user interface to be displayed.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. Also, this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey">CryptGetUserKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>CryptoAPI functions and can return errors identified in that documentation. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. Also, this method calls the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey">CryptGetUserKey</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> CryptoAPI functions and can return errors identified in that documentation. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -150,27 +143,11 @@ Properties related to the CSP or KSP could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If <b>VerifySilent</b> or <b>VerifySmartCardSilent</b> values are set and the cryptographic provider specifies that a user interface is necessary, the key will not be opened, but the method returns <b>S_OK</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

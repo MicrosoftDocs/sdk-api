@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.LSA_AUDIT_ACCOUNT_LOGON
 title: LSA_AUDIT_ACCOUNT_LOGON (ntsecpkg.h)
 description: The AuditAccountLogon function produces an audit record that represents the mapping of a foreign principal name onto a Windows account.
+helpviewer_keywords: ["AuditAccountLogon","AuditAccountLogon callback function [Security]","LSA_AUDIT_ACCOUNT_LOGON","LSA_AUDIT_ACCOUNT_LOGON callback","_ssp_auditaccountlogon","ntsecpkg/AuditAccountLogon","security.auditaccountlogon"]
 old-location: security\auditaccountlogon.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: dcf2d16b-8352-4d40-9723-c8cf8465431c
 ms.date: 12/05/2018
 ms.keywords: AuditAccountLogon, AuditAccountLogon callback function [Security], LSA_AUDIT_ACCOUNT_LOGON, LSA_AUDIT_ACCOUNT_LOGON callback, _ssp_auditaccountlogon, ntsecpkg/AuditAccountLogon, security.auditaccountlogon
-f1_keywords:
-- ntsecpkg/AuditAccountLogon
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- AuditAccountLogon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_AUDIT_ACCOUNT_LOGON
+ - ntsecpkg/LSA_AUDIT_ACCOUNT_LOGON
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - AuditAccountLogon
 ---
 
 # LSA_AUDIT_ACCOUNT_LOGON callback function
@@ -48,77 +50,49 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuditAccountLogon</b> function produces an audit record that represents the mapping of a foreign <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">principal</a> name onto a Windows account.
-
+The <b>AuditAccountLogon</b> function produces an audit record that represents the mapping of a foreign <a href="/windows/desktop/SecGloss/s-gly">principal</a> name onto a Windows account.
 
 ## -parameters
 
-
-
-
 ### -param AuditId [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security package</a>–defined message identifier. This value is included in the audit record.
-
+<a href="/windows/desktop/SecGloss/s-gly">Security package</a>–defined message identifier. This value is included in the audit record.
 
 ### -param Success [in]
 
 Specifies whether the audit record is generated on success or failure of the logon.
 
-
 ### -param Source [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> specifying the source of the logon attempt.
-
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> specifying the source of the logon attempt.
 
 ### -param ClientName [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> specifying the client name.
-
+Pointer to a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> specifying the client name.
 
 ### -param MappedName [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the Windows account name to which the client name was mapped, if any.
-
+Pointer to a <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> containing the Windows account name to which the client name was mapped, if any.
 
 ### -param Status [in]
 
 An NTSTATUS value specifying any error that occurred.
 
-
 ## -returns
-
-
 
 This function returns STATUS_SUCCESS.
 
-
-
-
 ## -remarks
 
-
-
 A pointer to the <b>AuditAccountLogon</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

@@ -2,15 +2,12 @@
 UID: NE:ipsectypes.IPSEC_TRANSFORM_TYPE_
 title: IPSEC_TRANSFORM_TYPE (ipsectypes.h)
 description: Indicates the type of an IPsec security association (SA) transform.
+helpviewer_keywords: ["IPSEC_TRANSFORM_AH","IPSEC_TRANSFORM_ESP_AUTH","IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER","IPSEC_TRANSFORM_ESP_AUTH_FW","IPSEC_TRANSFORM_ESP_CIPHER","IPSEC_TRANSFORM_TYPE","IPSEC_TRANSFORM_TYPE enumeration [Filtering]","IPSEC_TRANSFORM_TYPE_MAX","fwp.ipsec_transform_type_enum","ipsectypes/IPSEC_TRANSFORM_AH","ipsectypes/IPSEC_TRANSFORM_ESP_AUTH","ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER","ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_FW","ipsectypes/IPSEC_TRANSFORM_ESP_CIPHER","ipsectypes/IPSEC_TRANSFORM_TYPE","ipsectypes/IPSEC_TRANSFORM_TYPE_MAX"]
 old-location: fwp\ipsec_transform_type_enum.htm
 tech.root: fwp
 ms.assetid: 068f17f2-8696-4419-9daa-d8f6486e39a3
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRANSFORM_AH, IPSEC_TRANSFORM_ESP_AUTH, IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, IPSEC_TRANSFORM_ESP_AUTH_FW, IPSEC_TRANSFORM_ESP_CIPHER, IPSEC_TRANSFORM_TYPE, IPSEC_TRANSFORM_TYPE enumeration [Filtering], IPSEC_TRANSFORM_TYPE_MAX, fwp.ipsec_transform_type_enum, ipsectypes/IPSEC_TRANSFORM_AH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER, ipsectypes/IPSEC_TRANSFORM_ESP_AUTH_FW, ipsectypes/IPSEC_TRANSFORM_ESP_CIPHER, ipsectypes/IPSEC_TRANSFORM_TYPE, ipsectypes/IPSEC_TRANSFORM_TYPE_MAX
-f1_keywords:
-- ipsectypes/IPSEC_TRANSFORM_TYPE
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipsectypes.h
-api_name:
-- IPSEC_TRANSFORM_TYPE
 targetos: Windows
 req.typenames: IPSEC_TRANSFORM_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_TRANSFORM_TYPE_
+ - ipsectypes/IPSEC_TRANSFORM_TYPE_
+ - IPSEC_TRANSFORM_TYPE
+ - ipsectypes/IPSEC_TRANSFORM_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipsectypes.h
+api_name:
+ - IPSEC_TRANSFORM_TYPE
 ---
 
 # IPSEC_TRANSFORM_TYPE enumeration
@@ -48,34 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_TRANSFORM_TYPE</b> enumerated type indicates the type of an IPsec security association (SA) transform.
-
 
 ## -enum-fields
 
-
-
-
-### -field IPSEC_TRANSFORM_AH
+### -field IPSEC_TRANSFORM_AH:1
 
 Specifies Authentication Header (AH) transform.
-
 
 ### -field IPSEC_TRANSFORM_ESP_AUTH
 
 Specifies Encapsulating Security Payload (ESP)  authentication-only transform.
 
-
 ### -field IPSEC_TRANSFORM_ESP_CIPHER
 
 Specifies ESP cipher transform.
 
-
 ### -field IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER
 
 Specifies ESP authentication and cipher transform.
-
 
 ### -field IPSEC_TRANSFORM_ESP_AUTH_FW
 
@@ -87,20 +82,10 @@ The initial packet will allow the existing firewall rules to apply to the connec
 <div class="alert"><b>Note</b>  Available only on Windows Server 2008 R2, Windows 7, or later.</div>
 <div> </div>
 
-
-
 ### -field IPSEC_TRANSFORM_TYPE_MAX
 
 Maximum value for testing only.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">WFP Enumerated Types</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-enums">WFP Enumerated Types</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes
 title: IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes (strmif.h)
 description: The GetNumberOfDeinterlaceModes method retrieves the deinterlacing modes available to the VMR for the specified video format.
+helpviewer_keywords: ["GetNumberOfDeinterlaceModes","GetNumberOfDeinterlaceModes method [DirectShow]","GetNumberOfDeinterlaceModes method [DirectShow]","IVMRDeinterlaceControl interface","IVMRDeinterlaceControl interface [DirectShow]","GetNumberOfDeinterlaceModes method","IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes","IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes","IVMRDeinterlaceControlGetNumberOfDeinterlaceModes","dshow.ivmrdeinterlacecontrol_getnumberofdeinterlacemodes","strmif/IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes"]
 old-location: dshow\ivmrdeinterlacecontrol_getnumberofdeinterlacemodes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e6abb00-95fb-453d-9427-178058b217b8
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfDeinterlaceModes, GetNumberOfDeinterlaceModes method [DirectShow], GetNumberOfDeinterlaceModes method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetNumberOfDeinterlaceModes method, IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes, IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes, IVMRDeinterlaceControlGetNumberOfDeinterlaceModes, dshow.ivmrdeinterlacecontrol_getnumberofdeinterlacemodes, strmif/IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes
-f1_keywords:
-- strmif/IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes
+ - strmif/IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes
 ---
 
 # IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes
@@ -49,33 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetNumberOfDeinterlaceModes</b> method retrieves the deinterlacing modes available to the VMR for the specified video format.
-
 
 ## -parameters
 
-
-
-
 ### -param lpVideoDescription [in]
 
-Pointer to a [VMRVideoDesc](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrvideodesc) structure that describes the video.
-
+Pointer to a [VMRVideoDesc](/windows/win32/api/strmif/ns-strmif-vmrvideodesc) structure that describes the video.
 
 ### -param lpdwNumDeinterlaceModes [in, out]
 
 Pointer to a <b>DWORD</b> value. On input, this value specifies the size of the array given in <i>lpDeinterlaceModes</i>. On output, it receives number of GUIDs the method copied into the array.
 
-
 ### -param lpDeinterlaceModes [out]
 
 Address of an array allocated by caller. The method fills the array with GUID values. To determine the size of the array that is needed, set this parameter to <b>NULL</b> and check the value returned in <i>lpdwNumDeinterlaceModes</i>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
 
@@ -129,14 +121,8 @@ The video card does not support hardware deinterlacing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method returns an array of GUIDs, where each GUID represents a deinterlacing mode that is supported in hardware by the graphics device driver. The array is sorted by quality, so the first entry represents the best quality, the second entry represents the next best quality, and so forth.
 
@@ -155,26 +141,16 @@ All drivers are required to support the following mode:
 </table>
  
 
-Drivers can support additional modes and should define their own GUIDs to identify them. For each returned mode, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrdeinterlacecontrol-getdeinterlacemodecaps">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a> method to get information about that mode.
-
-
-
+Drivers can support additional modes and should define their own GUIDs to identify them. For each returned mode, call the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrdeinterlacecontrol-getdeinterlacemodecaps">IVMRDeinterlaceControl::GetDeinterlaceModeCaps</a> method to get information about that mode.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

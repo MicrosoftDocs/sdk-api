@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice.createPartnership
 title: IWMPSyncDevice::createPartnership (wmp.h)
 description: The createPartnership method creates a partnership between Windows Media Player and the device.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","createPartnership method","IWMPSyncDevice.createPartnership","IWMPSyncDevice::createPartnership","IWMPSyncDevicecreatePartnership","createPartnership","createPartnership method [Windows Media Player]","createPartnership method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_createpartnership","wmp/IWMPSyncDevice::createPartnership"]
 old-location: wmp\iwmpsyncdevice_createpartnership.htm
 tech.root: WMP
 ms.assetid: 734a8717-3b7f-4a40-895f-b55cfabd665c
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],createPartnership method, IWMPSyncDevice.createPartnership, IWMPSyncDevice::createPartnership, IWMPSyncDevicecreatePartnership, createPartnership, createPartnership method [Windows Media Player], createPartnership method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_createpartnership, wmp/IWMPSyncDevice::createPartnership
-f1_keywords:
-- wmp/IWMPSyncDevice.createPartnership
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice.createPartnership
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice::createPartnership
+ - wmp/IWMPSyncDevice::createPartnership
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice.createPartnership
 ---
 
 # IWMPSyncDevice::createPartnership
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>createPartnership</b> method creates a partnership between Windows Media Player and the device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param vbShowUI [out]
 
@@ -84,12 +78,8 @@ Note that the events for docking and undocking the Player will occur normally.
 <td>Windows Media Player attempts to create a partnership using a default set of device synchronization playlists. The Player does not change its current visible state or mode.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -154,14 +144,8 @@ The status for the current device is wmpdsManualDevice.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method starts the asynchronous process of creating a partnership. To get the result, you must handle the <b>CreatePartnershipComplete</b> event. If the partnership exists already, this method returns S_OK and no event occurs.
 
@@ -171,24 +155,14 @@ Windows Media Player cannot create a partnership with a device having the status
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents2-createpartnershipcomplete">IWMPEvents2::CreatePartnershipComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents2-createpartnershipcomplete">IWMPEvents2::CreatePartnershipComplete</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">IWMPSyncDevice::get_deviceId</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">IWMPSyncDevice::get_deviceId</a>

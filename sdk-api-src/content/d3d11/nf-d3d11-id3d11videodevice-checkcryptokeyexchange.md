@@ -2,15 +2,12 @@
 UID: NF:d3d11.ID3D11VideoDevice.CheckCryptoKeyExchange
 title: ID3D11VideoDevice::CheckCryptoKeyExchange (d3d11.h)
 description: Gets a cryptographic key-exchange mechanism that is supported by the driver.
+helpviewer_keywords: ["CheckCryptoKeyExchange","CheckCryptoKeyExchange method [Media Foundation]","CheckCryptoKeyExchange method [Media Foundation]","ID3D11VideoDevice interface","D3D11_CRYPTO_TYPE_AES128_CTR","ID3D11VideoDevice interface [Media Foundation]","CheckCryptoKeyExchange method","ID3D11VideoDevice.CheckCryptoKeyExchange","ID3D11VideoDevice::CheckCryptoKeyExchange","d3d11/ID3D11VideoDevice::CheckCryptoKeyExchange","mf.id3d11videodevice_checkcryptokeyexchange"]
 old-location: mf\id3d11videodevice_checkcryptokeyexchange.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: AE2DA6F9-6153-43AF-8E61-26FB9DD5A1D1
 ms.date: 12/05/2018
 ms.keywords: CheckCryptoKeyExchange, CheckCryptoKeyExchange method [Media Foundation], CheckCryptoKeyExchange method [Media Foundation],ID3D11VideoDevice interface, D3D11_CRYPTO_TYPE_AES128_CTR, ID3D11VideoDevice interface [Media Foundation],CheckCryptoKeyExchange method, ID3D11VideoDevice.CheckCryptoKeyExchange, ID3D11VideoDevice::CheckCryptoKeyExchange, d3d11/ID3D11VideoDevice::CheckCryptoKeyExchange, mf.id3d11videodevice_checkcryptokeyexchange
-f1_keywords:
-- d3d11/ID3D11VideoDevice.CheckCryptoKeyExchange
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11VideoDevice.CheckCryptoKeyExchange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11VideoDevice::CheckCryptoKeyExchange
+ - d3d11/ID3D11VideoDevice::CheckCryptoKeyExchange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11VideoDevice.CheckCryptoKeyExchange
 ---
 
 # ID3D11VideoDevice::CheckCryptoKeyExchange
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a cryptographic key-exchange mechanism that is supported by the driver.
 
-
 ## -parameters
-
-
-
 
 ### -param pCryptoType [in]
 
@@ -78,40 +75,23 @@ A pointer to a GUID that specifies the type of encryption to be used. The follow
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pDecoderProfile [in]
 
-A pointer to a GUID that specifies the decoding profile. To get  profiles that the driver supports, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile">ID3D11VideoDevice::GetVideoDecoderProfile</a>. If decoding will not be used, set this parameter to <b>NULL</b>.
-
+A pointer to a GUID that specifies the decoding profile. To get  profiles that the driver supports, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile">ID3D11VideoDevice::GetVideoDecoderProfile</a>. If decoding will not be used, set this parameter to <b>NULL</b>.
 
 ### -param Index [in]
 
-The zero-based index of the key-exchange type. The driver reports the number of types in the <b>KeyExchangeTypeCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_content_protection_caps">D3D11_VIDEO_CONTENT_PROTECTION_CAPS</a> structure.
-
+The zero-based index of the key-exchange type. The driver reports the number of types in the <b>KeyExchangeTypeCount</b> member of the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_video_content_protection_caps">D3D11_VIDEO_CONTENT_PROTECTION_CAPS</a> structure.
 
 ### -param pKeyExchangeType [out]
 
 Receives a GUID that identifies the type of key exchange.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>

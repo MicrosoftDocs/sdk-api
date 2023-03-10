@@ -2,15 +2,12 @@
 UID: NE:wincodec.WICWebpAnimProperties
 title: WICWebpAnimProperties (wincodec.h)
 description: Specifies the animation properties of a WebP image.
+helpviewer_keywords: ["WICWebpAnimLoopCount","WICWebpAnimProperties","WICWebpAnimProperties enumeration [Windows Imaging Component]","wic.wicwebpanimproperties","wincodec/WICWebpAnimLoopCount","wincodec/WICWebpAnimProperties"]
 old-location: wic\wicwebpanimproperties.htm
 tech.root: wic
 ms.assetid: BECCBE42-5546-4243-A0B4-1240992D42DC
 ms.date: 12/05/2018
 ms.keywords: WICWebpAnimLoopCount, WICWebpAnimProperties, WICWebpAnimProperties enumeration [Windows Imaging Component], wic.wicwebpanimproperties, wincodec/WICWebpAnimLoopCount, wincodec/WICWebpAnimProperties
-f1_keywords:
-- wincodec/WICWebpAnimProperties
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WICWebpAnimProperties
 targetos: Windows
 req.typenames: WICWebpAnimProperties
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICWebpAnimProperties
+ - wincodec/WICWebpAnimProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WICWebpAnimProperties
 ---
 
 # WICWebpAnimProperties enumeration
@@ -49,22 +51,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Specifies the animation properties of a WebP image.
 
-
 ## -enum-fields
 
-
-
-
-### -field WICWebpAnimLoopCount
+### -field WICWebpAnimLoopCount:0x1
 
 The number of times the animation loops. A value of 0 indicates that the animation will loop infinitely.
 
-
-### -field WICWebpAnimProperties_FORCE_DWORD
-
-
+### -field WICWebpAnimProperties_FORCE_DWORD:0x7fffffff
 

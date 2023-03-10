@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Seek
 title: IWMDRMTranscryptor::Seek (wmsdkidl.h)
 description: The Seek method sets the DRM transcryptor to read from the specified point in the data stream of the loaded file. Subsequent Read calls generate data beginning at that point.
+helpviewer_keywords: ["IWMDRMTranscryptor interface [windows Media Format]","Seek method","IWMDRMTranscryptor.Seek","IWMDRMTranscryptor::Seek","IWMDRMTranscryptorSeek","Seek","Seek method [windows Media Format]","Seek method [windows Media Format]","IWMDRMTranscryptor interface","wmformat.iwmdrmtranscryptor_seek","wmsdkidl/IWMDRMTranscryptor::Seek"]
 old-location: wmformat\iwmdrmtranscryptor_seek.htm
 tech.root: wmformat
 ms.assetid: 4962741b-d1ca-4296-ad95-d171d165c5d9
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor interface [windows Media Format],Seek method, IWMDRMTranscryptor.Seek, IWMDRMTranscryptor::Seek, IWMDRMTranscryptorSeek, Seek, Seek method [windows Media Format], Seek method [windows Media Format],IWMDRMTranscryptor interface, wmformat.iwmdrmtranscryptor_seek, wmsdkidl/IWMDRMTranscryptor::Seek
-f1_keywords:
-- wmsdkidl/IWMDRMTranscryptor.Seek
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMTranscryptor.Seek
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMTranscryptor::Seek
+ - wmsdkidl/IWMDRMTranscryptor::Seek
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMTranscryptor.Seek
 ---
 
 # IWMDRMTranscryptor::Seek
@@ -49,29 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>Seek</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>Seek</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
-The <b>Seek</b> method sets the DRM transcryptor to read from the specified point in the data stream of the loaded file. Subsequent <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">Read</a> calls generate data beginning at that point.
-
-
-
+The <b>Seek</b> method sets the DRM transcryptor to read from the specified point in the data stream of the loaded file. Subsequent <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">Read</a> calls generate data beginning at that point.
 
 ## -parameters
-
-
-
 
 ### -param hnsTime [in]
 
 Seek time in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -103,16 +95,10 @@ There is no file loaded in the transcryptor.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is asynchronous. It returns immediately, but processing is not complete until a WMT_TRANSCRYPTOR_SEEKED message is sent to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method.
+This method is asynchronous. It returns immediately, but processing is not complete until a WMT_TRANSCRYPTOR_SEEKED message is sent to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> callback method.
 
 If the seek operation fails, no message is sent.
 
@@ -120,20 +106,10 @@ The first successful call to <b>Seek</b> causes the transcryptor to read the ASF
 
 To convert the entire file, call <b>Seek</b> with a presentation time of 0.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">IWMDRMTranscryptor::Read</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">IWMDRMTranscryptor::Read</a>

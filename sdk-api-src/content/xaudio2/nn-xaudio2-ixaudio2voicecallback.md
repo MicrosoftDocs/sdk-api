@@ -2,15 +2,12 @@
 UID: NN:xaudio2.IXAudio2VoiceCallback
 title: IXAudio2VoiceCallback (xaudio2.h)
 description: The IXAudio2VoiceCallback interface contains methods that notify the client when certain events happen in a given IXAudio2SourceVoice.
+helpviewer_keywords: ["IXAudio2VoiceCallback","IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","described","xaudio2.ixaudio2voicecallback","xaudio2/IXAudio2VoiceCallback"]
 old-location: xaudio2\ixaudio2voicecallback.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2voicecallback, xaudio2/IXAudio2VoiceCallback
-f1_keywords:
-- xaudio2/IXAudio2VoiceCallback
-dev_langs:
-- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Xaudio2.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xaudio2.lib
-- xaudio2.dll
-api_name:
-- IXAudio2VoiceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXAudio2VoiceCallback
+ - xaudio2/IXAudio2VoiceCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xaudio2.lib
+ - xaudio2.dll
+api_name:
+ - IXAudio2VoiceCallback
 ---
 
 # IXAudio2VoiceCallback interface
@@ -49,206 +51,99 @@ ms.custom: 19H1
 
 ## -description
 
+The <b>IXAudio2VoiceCallback</b> interface contains methods that notify the client when certain events happen in a given <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>. 
 
-The <b>IXAudio2VoiceCallback</b> interface contains methods that notify the client when certain events happen in a given <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2sourcevoice">IXAudio2SourceVoice</a>. 
-
-This interface should be implemented by the XAudio2 client. XAudio2 calls these methods through an interface pointer provided by the client in the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a> method. Methods in this interface return void, rather than an HRESULT. 
+This interface should be implemented by the XAudio2 client. XAudio2 calls these methods through an interface pointer provided by the client in the <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a> method. Methods in this interface return void, rather than an HRESULT. 
 
 
-See the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a> topic for restrictions on callback implementation.
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>IXAudio2VoiceCallback</b> interface has these methods.
+See the <a href="/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a> topic for restrictions on callback implementation.
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice finishes processing a buffer. 
 
 </td>
 </tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart">OnBufferStart</a>
-</td>
-<td align="left" width="63%">
-Called when the voice is about to start processing a new audio buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend">OnLoopEnd</a>
-</td>
-<td align="left" width="63%">
-Called when the voice reaches the end position of a loop.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend">OnStreamEnd</a>
-</td>
-<td align="left" width="63%">
-Called when the voice has just finished playing a contiguous audio stream.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror">OnVoiceError</a>
-</td>
-<td align="left" width="63%">
-Called when a critical error occurs during voice processing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend">OnVoiceProcessingPassEnd</a>
-</td>
-<td align="left" width="63%">
-Called just after the processing pass for the voice ends.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart">OnVoiceProcessingPassStart</a>
-</td>
-<td align="left" width="63%">
-Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
-
-</td>
-</tr>
-</table> 
-
-
-## -members
-
-The <b>IXAudio2VoiceCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
 <tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferend">OnBufferEnd</a>
-</td>
-<td align="left" width="63%">
-Called when the voice finishes processing a buffer. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart">OnBufferStart</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onbufferstart">OnBufferStart</a>
 </td>
 <td align="left" width="63%">
 Called when the voice is about to start processing a new audio buffer.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend">OnLoopEnd</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onloopend">OnLoopEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice reaches the end position of a loop.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend">OnStreamEnd</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onstreamend">OnStreamEnd</a>
 </td>
 <td align="left" width="63%">
 Called when the voice has just finished playing a contiguous audio stream.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror">OnVoiceError</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceerror">OnVoiceError</a>
 </td>
 <td align="left" width="63%">
 Called when a critical error occurs during voice processing.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend">OnVoiceProcessingPassEnd</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassend">OnVoiceProcessingPassEnd</a>
 </td>
 <td align="left" width="63%">
 Called just after the processing pass for the voice ends.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart">OnVoiceProcessingPassStart</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voicecallback-onvoiceprocessingpassstart">OnVoiceProcessingPassStart</a>
 </td>
 <td align="left" width="63%">
 Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
 
 </td>
 </tr>
-</table>Called when the voice finishes processing a buffer. 
-
-Called when the voice is about to start processing a new audio buffer.
-
-Called when the voice reaches the end position of a loop.
-
-Called when the voice has just finished playing a contiguous audio stream.
-
-Called when a critical error occurs during voice processing.
-
-Called just after the processing pass for the voice ends.
-
-Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
-
- 
-
-Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
-
+</table>
 
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/xaudio2/how-to--stream-a-sound-from-disk">How to: Stream a Sound from Disk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--stream-a-sound-from-disk">How to: Stream a Sound from Disk</a>
+<a href="/windows/desktop/xaudio2/how-to--use-source-voice-callbacks">How to: Use Source Voice Callbacks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--use-source-voice-callbacks">How to: Use Source Voice Callbacks</a>
+<a href="/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/xaudio2/interfaces">XAudio2 Interfaces</a>

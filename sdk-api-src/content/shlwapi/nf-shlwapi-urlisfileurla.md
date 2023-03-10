@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.UrlIsFileUrlA
 title: UrlIsFileUrlA macro (shlwapi.h)
-description: Tests a URL to determine if it is a file URL.
+description: Tests a URL to determine if it is a file URL. (ANSI)
+helpviewer_keywords: ["UrlIsFileUrlA", "shlwapi/UrlIsFileUrlA"]
 old-location: shell\UrlIsFileUrl.htm
 tech.root: shell
 ms.assetid: b122d3e4-47cc-47c0-a30c-6f9d1aa9d174
 ms.date: 12/05/2018
 ms.keywords: UrlIsFileUrl, UrlIsFileUrl function [Windows Shell], UrlIsFileUrlA, UrlIsFileUrlW, _win32_UrlIsFileUrl, shell.UrlIsFileUrl, shlwapi/UrlIsFileUrl, shlwapi/UrlIsFileUrlA, shlwapi/UrlIsFileUrlW
-f1_keywords:
-- shlwapi/UrlIsFileUrl
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-api_name:
-- UrlIsFileUrl
-- UrlIsFileUrlA
-- UrlIsFileUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UrlIsFileUrlA
+ - shlwapi/UrlIsFileUrlA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+api_name:
+ - UrlIsFileUrl
+ - UrlIsFileUrlA
+ - UrlIsFileUrlW
 ---
 
 # UrlIsFileUrlA macro
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Tests a URL to determine if it is a file URL.
 
-
 ## -parameters
-
-
-
 
 ### -param pszURL
 
@@ -65,10 +62,7 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string containing the URL.
 
-
 ## -remarks
-
-
 
 A file URL has the form "File://
 				<i>xxx</i>". <b>UrlIsFileUrl</b> is actually one of the following macros, depending on whether ANSI or Unicode is selected.
@@ -86,13 +80,10 @@ A file URL has the form "File://
 
 
 
+
+> [!NOTE]
+> The shlwapi.h header defines UrlIsFileUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>

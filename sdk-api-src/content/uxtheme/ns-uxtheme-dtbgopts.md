@@ -2,15 +2,12 @@
 UID: NS:uxtheme._DTBGOPTS
 title: DTBGOPTS (uxtheme.h)
 description: Defines the options for the DrawThemeBackgroundEx function.
+helpviewer_keywords: ["*PDTBGOPTS","DTBGOPTS","DTBGOPTS structure [Windows Controls]","DTBG_CLIPRECT","DTBG_COMPUTINGREGION","DTBG_DRAWSOLID","DTBG_MIRRORDC","DTBG_NOMIRROR","DTBG_OMITBORDER","DTBG_OMITCONTENT","DTBG_VALIDBITS","PDTBGOPTS","PDTBGOPTS structure pointer [Windows Controls]","controls.DTBGOPTS","controls.inet_DTBGOPTS","inet_DTBGOPTS","inet_DTBGOPTS_cpp","uxtheme/DTBGOPTS","uxtheme/PDTBGOPTS"]
 old-location: controls\DTBGOPTS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dtbgopts.htm
 ms.date: 12/05/2018
 ms.keywords: '*PDTBGOPTS, DTBGOPTS, DTBGOPTS structure [Windows Controls], DTBG_CLIPRECT, DTBG_COMPUTINGREGION, DTBG_DRAWSOLID, DTBG_MIRRORDC, DTBG_NOMIRROR, DTBG_OMITBORDER, DTBG_OMITCONTENT, DTBG_VALIDBITS, PDTBGOPTS, PDTBGOPTS structure pointer [Windows Controls], controls.DTBGOPTS, controls.inet_DTBGOPTS, inet_DTBGOPTS, inet_DTBGOPTS_cpp, uxtheme/DTBGOPTS, uxtheme/PDTBGOPTS'
-f1_keywords:
-- uxtheme/DTBGOPTS
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uxtheme.h
-api_name:
-- DTBGOPTS
 targetos: Windows
 req.typenames: DTBGOPTS, *PDTBGOPTS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DTBGOPTS
+ - uxtheme/_DTBGOPTS
+ - PDTBGOPTS
+ - uxtheme/PDTBGOPTS
+ - DTBGOPTS
+ - uxtheme/DTBGOPTS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uxtheme.h
+api_name:
+ - DTBGOPTS
 ---
 
 # DTBGOPTS structure
@@ -48,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines the options for the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a> function.
-
+Defines the options for the <a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field dwSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Size of the structure. Set this to sizeof(DTBGOPTS).
 
-
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flags that specify the selected options. This member can be one of the following:
 
@@ -156,8 +156,6 @@ DTBG_CLIPRECT | DTBG_DRAWSOLID | DTBG_OMITBORDER | DTBG_OMITCONTENT | DTBG_COMPU
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rcClip
 
@@ -165,14 +163,6 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> that specifies the bounding rectangle of the clip region.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemebackgroundex">DrawThemeBackgroundEx</a>

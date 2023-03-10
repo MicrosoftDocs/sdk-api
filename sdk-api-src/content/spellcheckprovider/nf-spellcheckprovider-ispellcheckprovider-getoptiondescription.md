@@ -1,16 +1,13 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.GetOptionDescription
 title: ISpellCheckProvider::GetOptionDescription (spellcheckprovider.h)
-description: Retrieves the information (id, description, heading and labels) of a specific option.
+description: Retrieves the information (id, description, heading and labels) of a specific option. (ISpellCheckProvider.GetOptionDescription)
+helpviewer_keywords: ["GetOptionDescription","GetOptionDescription method [Internationalization for Windows Applications]","GetOptionDescription method [Internationalization for Windows Applications]","ISpellCheckProvider interface","ISpellCheckProvider interface [Internationalization for Windows Applications]","GetOptionDescription method","ISpellCheckProvider.GetOptionDescription","ISpellCheckProvider::GetOptionDescription","intl.ispellcheckprovider_getoptiondescription","spellcheckprovider/ISpellCheckProvider::GetOptionDescription"]
 old-location: intl\ispellcheckprovider_getoptiondescription.htm
 tech.root: Intl
 ms.assetid: 0F2ED4B7-AE71-4431-83FE-739F7D0D5CD2
 ms.date: 12/05/2018
 ms.keywords: GetOptionDescription, GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],GetOptionDescription method, ISpellCheckProvider.GetOptionDescription, ISpellCheckProvider::GetOptionDescription, intl.ispellcheckprovider_getoptiondescription, spellcheckprovider/ISpellCheckProvider::GetOptionDescription
-f1_keywords:
-- spellcheckprovider/ISpellCheckProvider.GetOptionDescription
-dev_langs:
-- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheckprovider.h
-api_name:
-- ISpellCheckProvider.GetOptionDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpellCheckProvider::GetOptionDescription
+ - spellcheckprovider/ISpellCheckProvider::GetOptionDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheckprovider.h
+api_name:
+ - ISpellCheckProvider.GetOptionDescription
 ---
 
 # ISpellCheckProvider::GetOptionDescription
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the information (id, description, heading and labels) of a specific option.
 
-
 ## -parameters
-
-
-
 
 ### -param optionId [in]
 
 Identifier of the option to be retrieved.
 
-
 ### -param value [out, retval]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a> interface that contains the information about <i>optionId</i>.
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a> interface that contains the information about <i>optionId</i>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,22 +105,11 @@ Successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>

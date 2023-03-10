@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarCyFromDate
 title: VarCyFromDate function (oleauto.h)
 description: Converts a date value to a currency value.
+helpviewer_keywords: ["VarCyFromDate","VarCyFromDate function [Automation]","_oa96_VarCyFromDate","automat.varcyfromdate","oleauto/VarCyFromDate"]
 old-location: automat\varcyfromdate.htm
 tech.root: automat
 ms.assetid: 636f7c14-0363-4323-aae3-1ceede260ad5
 ms.date: 12/05/2018
 ms.keywords: VarCyFromDate, VarCyFromDate function [Automation], _oa96_VarCyFromDate, automat.varcyfromdate, oleauto/VarCyFromDate
-f1_keywords:
-- oleauto/VarCyFromDate
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarCyFromDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarCyFromDate
+ - oleauto/VarCyFromDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarCyFromDate
 ---
 
 # VarCyFromDate function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a date value to a currency value.
 
-
 ## -parameters
-
-
-
 
 ### -param dateIn [in]
 
 The value to convert.
 
-
 ### -param pcyOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

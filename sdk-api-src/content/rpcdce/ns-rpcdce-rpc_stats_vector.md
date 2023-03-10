@@ -1,16 +1,13 @@
 ---
-UID: NS:rpcdce.__unnamed_struct_0
+UID: NS:rpcdce.RPC_STATS_VECTOR
 title: RPC_STATS_VECTOR (rpcdce.h)
 description: The RPC_STATS_VECTOR structure contains statistics from the RPC run-time library on a per-server basis.
+helpviewer_keywords: ["RPC_C_STATS_CALLS_IN","RPC_C_STATS_CALLS_OUT","RPC_C_STATS_PKTS_IN","RPC_C_STATS_PKTS_OUT","RPC_STATS_VECTOR","RPC_STATS_VECTOR structure [RPC]","_rpc_rpc_stats_vector","rpc.rpc_stats_vector","rpcdce/RPC_STATS_VECTOR"]
 old-location: rpc\rpc_stats_vector.htm
 tech.root: Rpc
 ms.assetid: f2d959a5-530c-4534-9095-ec1a177ead99
 ms.date: 12/05/2018
 ms.keywords: RPC_C_STATS_CALLS_IN, RPC_C_STATS_CALLS_OUT, RPC_C_STATS_PKTS_IN, RPC_C_STATS_PKTS_OUT, RPC_STATS_VECTOR, RPC_STATS_VECTOR structure [RPC], _rpc_rpc_stats_vector, rpc.rpc_stats_vector, rpcdce/RPC_STATS_VECTOR
-f1_keywords:
-- rpcdce/RPC_STATS_VECTOR
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rpcdce.h
-api_name:
-- RPC_STATS_VECTOR
 targetos: Windows
 req.typenames: RPC_STATS_VECTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RPC_STATS_VECTOR
+ - rpcdce/RPC_STATS_VECTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rpcdce.h
+api_name:
+ - RPC_STATS_VECTOR
 ---
 
 # RPC_STATS_VECTOR structure
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RPC_STATS_VECTOR</b> structure contains statistics from the RPC run-time library on a per-server basis.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Count
 
 Number of statistics values present in the array <b>Stats</b>.
-
 
 ### -field Stats
 
@@ -115,31 +111,18 @@ The number of network packets sent by the server.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 The statistics vector contains a count member (<b>Count</b>), followed by an array of statistics. To obtain run-time statistics, an application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>. The RPC run-time library allocates memory for the statistics vector. The application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> to free the statistics vector.
-
-
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>. The RPC run-time library allocates memory for the statistics vector. The application calls 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> to free the statistics vector.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>
- 
-
- 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>
 

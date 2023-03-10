@@ -2,15 +2,12 @@
 UID: NF:wcndevice.IWCNDevice.Connect
 title: IWCNDevice::Connect (wcndevice.h)
 description: The IWCNDevice::Connect method initiates the session.
+helpviewer_keywords: ["Connect","Connect method [Windows Connect Now]","Connect method [Windows Connect Now]","IWCNDevice interface","IWCNDevice interface [Windows Connect Now]","Connect method","IWCNDevice.Connect","IWCNDevice::Connect","wcn.iwcndevice_connect","wcndevice/IWCNDevice::Connect"]
 old-location: wcn\iwcndevice_connect.htm
 tech.root: wcn
 ms.assetid: d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Windows Connect Now], Connect method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],Connect method, IWCNDevice.Connect, IWCNDevice::Connect, wcn.iwcndevice_connect, wcndevice/IWCNDevice::Connect
-f1_keywords:
-- wcndevice/IWCNDevice.Connect
-dev_langs:
-- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WcnDevice.h
-api_name:
-- IWCNDevice.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWCNDevice::Connect
+ - wcndevice/IWCNDevice::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WcnDevice.h
+api_name:
+ - IWCNDevice.Connect
 ---
 
 # IWCNDevice::Connect
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWCNDevice::Connect</b> method initiates the session.
-
 
 ## -parameters
 
-
-
-
 ### -param pNotify [in]
 
-A pointer to the implemented <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a> callback interface which specifies if a connection has been successfully established.
-
+A pointer to the implemented <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a> callback interface which specifies if a connection has been successfully established.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,33 +101,17 @@ The device could not be located on the network.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+After calling this method you may not call any other <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> 'Set' methods.  There is no way to cancel or roll back device settings once a connection has been established.
 
-
-After calling this method you may not call any other <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a> 'Set' methods.  There is no way to cancel or roll back device settings once a connection has been established.
-
-<b>NULL</b>  can be passed via pNotify, in place of  the <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a> callback interface to prevent  notification from being sent when the connect operation is complete.
-
-
-
+<b>NULL</b>  can be passed via pNotify, in place of  the <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a> callback interface to prevent  notification from being sent when the connect operation is complete.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>

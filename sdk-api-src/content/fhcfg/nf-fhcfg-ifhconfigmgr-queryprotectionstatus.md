@@ -2,15 +2,12 @@
 UID: NF:fhcfg.IFhConfigMgr.QueryProtectionStatus
 title: IFhConfigMgr::QueryProtectionStatus (fhcfg.h)
 description: Retrieves the current File History protection state.
+helpviewer_keywords: ["FH_STATE_DISABLED_BY_GP","FH_STATE_FATAL_CONFIG_ERROR","FH_STATE_NOT_TRACKED","FH_STATE_NO_ERROR","FH_STATE_OFF","FH_STATE_STAGING_FULL","FH_STATE_TARGET_ABSENT","FH_STATE_TARGET_ACCESS_DENIED","FH_STATE_TARGET_FULL","FH_STATE_TARGET_FULL_RETENTION_MAX","FH_STATE_TARGET_LOW_SPACE","FH_STATE_TARGET_LOW_SPACE_RETENTION_MAX","FH_STATE_TARGET_VOLUME_DIRTY","FH_STATE_TOO_MUCH_BEHIND","FhConfigMgr class [Windows API]","QueryProtectionStatus method","IFhConfigMgr interface [Windows API]","QueryProtectionStatus method","IFhConfigMgr.QueryProtectionStatus","IFhConfigMgr::QueryProtectionStatus","QueryProtectionStatus","QueryProtectionStatus method [Windows API]","QueryProtectionStatus method [Windows API]","FhConfigMgr class","QueryProtectionStatus method [Windows API]","IFhConfigMgr interface","fhcfg/IFhConfigMgr::QueryProtectionStatus","winprog.ifhconfigmgr_queryprotectionstatus"]
 old-location: winprog\ifhconfigmgr_queryprotectionstatus.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 662B1F54-D50D-4434-BD81-DF600D28B573
 ms.date: 12/05/2018
 ms.keywords: FH_STATE_DISABLED_BY_GP, FH_STATE_FATAL_CONFIG_ERROR, FH_STATE_NOT_TRACKED, FH_STATE_NO_ERROR, FH_STATE_OFF, FH_STATE_STAGING_FULL, FH_STATE_TARGET_ABSENT, FH_STATE_TARGET_ACCESS_DENIED, FH_STATE_TARGET_FULL, FH_STATE_TARGET_FULL_RETENTION_MAX, FH_STATE_TARGET_LOW_SPACE, FH_STATE_TARGET_LOW_SPACE_RETENTION_MAX, FH_STATE_TARGET_VOLUME_DIRTY, FH_STATE_TOO_MUCH_BEHIND, FhConfigMgr class [Windows API],QueryProtectionStatus method, IFhConfigMgr interface [Windows API],QueryProtectionStatus method, IFhConfigMgr.QueryProtectionStatus, IFhConfigMgr::QueryProtectionStatus, QueryProtectionStatus, QueryProtectionStatus method [Windows API], QueryProtectionStatus method [Windows API],FhConfigMgr class, QueryProtectionStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::QueryProtectionStatus, winprog.ifhconfigmgr_queryprotectionstatus
-f1_keywords:
-- fhcfg/IFhConfigMgr.QueryProtectionStatus
-dev_langs:
-- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fhcfg.h
-api_name:
-- IFhConfigMgr.QueryProtectionStatus
-- FhConfigMgr.QueryProtectionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFhConfigMgr::QueryProtectionStatus
+ - fhcfg/IFhConfigMgr::QueryProtectionStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fhcfg.h
+api_name:
+ - IFhConfigMgr.QueryProtectionStatus
+ - FhConfigMgr.QueryProtectionStatus
 ---
 
 # IFhConfigMgr::QueryProtectionStatus
@@ -49,16 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current File History protection state.
 
 > [!NOTE] 
 > **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
-
-
-
 
 ### -param ProtectionState [out]
 
@@ -131,7 +129,7 @@ The current user does not have write permission for the currently assigned targe
 </dl>
 </td>
 <td width="60%">
-The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="https://go.microsoft.com/fwlink/p/?linkid=230711">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
+The currently assigned target has been marked as dirty. Backup copies of file versions will not be created until after the <a href="/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc730714(v=ws.11)">Chkdsk</a> utility is run. This value can be ORed with <b>FH_STATE_RUNNING</b> (0x100) to indicate that a backup cycle is being performed for the current user right now.
 
 </td>
 </tr>
@@ -224,34 +222,23 @@ File History backups are performed regularly, no error conditions are detected, 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ProtectedUntilTime [out]
 
-Receives a pointer to a string allocated with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the date and time until which all files within the File History protection scope are protected. The date and time are formatted per the system locale. If the date and time are unknown, an empty string is returned.
+Receives a pointer to a string allocated with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> containing the date and time until which all files within the File History protection scope are protected. The date and time are formatted per the system locale. If the date and time are unknown, an empty string is returned.
 
 A file is considered protected until a certain point in time if one of the following conditions is true:<ul>
 <li>There is a version of that file that was captured at or after that point in time and was fully copied to the currently assigned backup target before now.</li>
 <li>The file was created or included in the File History protection scope at or after that point in time.</li>
 </ul>
 
-
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code such as one of the values defined in the FhErrors.h header file.
 
-
-
-
 ## -remarks
 
-
-
-The caller is responsible for releasing the memory allocated for <i>ProtectedUntilTime</i> by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on it.
+The caller is responsible for releasing the memory allocated for <i>ProtectedUntilTime</i> by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on it.
 
 The protection state indicates the File History operational state and the date and time until which all files within the protection scope are protected.
 
@@ -263,19 +250,10 @@ If the target is full or disconnected, the File History feature will provide a d
 <li>If the target is low on free space, the degraded level of protection will start once the target becomes full.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>

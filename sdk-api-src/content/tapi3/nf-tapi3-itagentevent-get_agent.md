@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITAgentEvent.get_Agent
 title: ITAgentEvent::get_Agent (tapi3.h)
-description: The get_Agent method gets the interface for the agent on which the event occurred.
+description: The ITAgentEvent::get_Agent method (tapi3.h) gets the interface for the agent on which the event occurred.
+helpviewer_keywords: ["ITAgentEvent interface [TAPI 2.2]","get_Agent method","ITAgentEvent.get_Agent","ITAgentEvent::get_Agent","_tapi3_itagentevent_get_agent","get_Agent","get_Agent method [TAPI 2.2]","get_Agent method [TAPI 2.2]","ITAgentEvent interface","tapi3.itagentevent_get_agent","tapi3cc/ITAgentEvent::get_Agent"]
 old-location: tapi3\itagentevent_get_agent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 90a1684d-5cb0-4d1b-ac38-b03f9f1ff838
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgentEvent interface [TAPI 2.2],get_Agent method, ITAgentEvent.get_Agent, ITAgentEvent::get_Agent, _tapi3_itagentevent_get_agent, get_Agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2],ITAgentEvent interface, tapi3.itagentevent_get_agent, tapi3cc/ITAgentEvent::get_Agent
-f1_keywords:
-- tapi3/ITAgentEvent.get_Agent
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentEvent.get_Agent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentEvent::get_Agent
+ - tapi3/ITAgentEvent::get_Agent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentEvent.get_Agent
 ---
 
 # ITAgentEvent::get_Agent
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Agent</b> method gets the interface for the agent on which the event occurred.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAgent [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,33 +103,17 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentEvent::get_Agent</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentEvent::get_Agent</b>. The application must call <b>Release</b> on the 
 <b>ITAgent</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>

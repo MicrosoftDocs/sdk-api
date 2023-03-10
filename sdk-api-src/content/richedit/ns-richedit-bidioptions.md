@@ -2,15 +2,12 @@
 UID: NS:richedit._bidioptions
 title: BIDIOPTIONS (richedit.h)
 description: Contains bidirectional information about a rich edit control. This structure is used by the EM_GETBIDIOPTIONS and EM_SETBIDIOPTIONS messages to get and set the bidirectional information for a control.
+helpviewer_keywords: ["BIDIOPTIONS","BIDIOPTIONS structure [Windows Controls]","BOE_CONTEXTALIGNMENT","BOE_CONTEXTREADING","BOE_FORCERECALC","BOE_LEGACYBIDICLASS","BOE_NEUTRALOVERRIDE","BOE_PLAINTEXT","BOE_RTLDIR","BOE_UNICODEBIDI","BOM_CONTEXTALIGNMENT","BOM_CONTEXTREADING","BOM_DEFPARADIR","BOM_LEGACYBIDICLASS","BOM_NEUTRALOVERRIDE","BOM_PLAINTEXT","BOM_UNICODEBIDI","_win32_BIDIOPTIONS_str","_win32_BIDIOPTIONS_str_cpp","controls.BIDIOPTIONS","controls._win32_BIDIOPTIONS_str","richedit/BIDIOPTIONS"]
 old-location: controls\BIDIOPTIONS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\bidioptions.htm
 ms.date: 12/05/2018
 ms.keywords: BIDIOPTIONS, BIDIOPTIONS structure [Windows Controls], BOE_CONTEXTALIGNMENT, BOE_CONTEXTREADING, BOE_FORCERECALC, BOE_LEGACYBIDICLASS, BOE_NEUTRALOVERRIDE, BOE_PLAINTEXT, BOE_RTLDIR, BOE_UNICODEBIDI, BOM_CONTEXTALIGNMENT, BOM_CONTEXTREADING, BOM_DEFPARADIR, BOM_LEGACYBIDICLASS, BOM_NEUTRALOVERRIDE, BOM_PLAINTEXT, BOM_UNICODEBIDI, _win32_BIDIOPTIONS_str, _win32_BIDIOPTIONS_str_cpp, controls.BIDIOPTIONS, controls._win32_BIDIOPTIONS_str, richedit/BIDIOPTIONS
-f1_keywords:
-- richedit/BIDIOPTIONS
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- BIDIOPTIONS
 targetos: Windows
 req.typenames: BIDIOPTIONS
 req.redist: Rich Edit 3.0
 ms.custom: 19H1
+f1_keywords:
+ - _bidioptions
+ - richedit/_bidioptions
+ - BIDIOPTIONS
+ - richedit/BIDIOPTIONS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - BIDIOPTIONS
 ---
 
 # BIDIOPTIONS structure
@@ -48,25 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains bidirectional information about a rich edit control. This structure is used by the <a href="https://msdn.microsoft.com/055581c0-ae59-4601-a3e9-416705af429a">EM_GETBIDIOPTIONS</a> and <a href="https://msdn.microsoft.com/b518e423-317a-4654-9d9f-c501028e2a0a">EM_SETBIDIOPTIONS</a> messages to get and set the bidirectional information for a control.
-
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <b>BIDIOPTIONS</b> structure. The rich edit control checks the size of <b>cbSize</b> before sending an <a href="https://msdn.microsoft.com/055581c0-ae59-4601-a3e9-416705af429a">EM_GETBIDIOPTIONS</a> message.
 
-
 ### -field wMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 A set of mask bits that determine which of the <b>wEffects</b> flags will be set to 1 or 0 by the rich edit control. This approach eliminates the need to read the effects flags before changing them.
 
@@ -150,12 +148,10 @@ The BOE_UNICODEBIDI value is valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wEffects
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 A set of flags that indicate the desired or current state of the effects flags. Obsolete bits are valid only for the bidirectional version of Rich Edit 1.0. 
                     
@@ -256,20 +252,11 @@ If this flag is 1, the Unicode Bidi Algorithm (UBA) is used for rich-text contro
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/055581c0-ae59-4601-a3e9-416705af429a">EM_GETBIDIOPTIONS</a>
 
 
 
 <a href="https://msdn.microsoft.com/b518e423-317a-4654-9d9f-c501028e2a0a">EM_SETBIDIOPTIONS</a>
- 
-
- 
-

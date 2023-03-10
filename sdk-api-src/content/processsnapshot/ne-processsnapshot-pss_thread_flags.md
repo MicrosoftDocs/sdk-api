@@ -1,16 +1,13 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_7
+UID: NE:processsnapshot.PSS_THREAD_FLAGS
 title: PSS_THREAD_FLAGS (processsnapshot.h)
 description: Flags that describe a thread.
+helpviewer_keywords: ["PSS_THREAD_FLAGS","PSS_THREAD_FLAGS enumeration","PSS_THREAD_FLAGS_NONE","PSS_THREAD_FLAGS_TERMINATED","proc_snap.pss_thread_flags","processsnapshot/PSS_THREAD_FLAGS","processsnapshot/PSS_THREAD_FLAGS_NONE","processsnapshot/PSS_THREAD_FLAGS_TERMINATED"]
 old-location: proc_snap\pss_thread_flags.htm
 tech.root: proc_snap
 ms.assetid: 8E90F0EA-D50A-431D-9507-B882EB673629
 ms.date: 12/05/2018
 ms.keywords: PSS_THREAD_FLAGS, PSS_THREAD_FLAGS enumeration, PSS_THREAD_FLAGS_NONE, PSS_THREAD_FLAGS_TERMINATED, proc_snap.pss_thread_flags, processsnapshot/PSS_THREAD_FLAGS, processsnapshot/PSS_THREAD_FLAGS_NONE, processsnapshot/PSS_THREAD_FLAGS_TERMINATED
-f1_keywords:
-- processsnapshot/PSS_THREAD_FLAGS
-dev_langs:
-- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- processsnapshot.h
-api_name:
-- PSS_THREAD_FLAGS
 targetos: Windows
 req.typenames: PSS_THREAD_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSS_THREAD_FLAGS
+ - processsnapshot/PSS_THREAD_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - processsnapshot.h
+api_name:
+ - PSS_THREAD_FLAGS
 ---
 
 # PSS_THREAD_FLAGS enumeration
@@ -48,41 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flags that describe a thread.
-
 
 ## -enum-fields
 
-
-
-
-### -field PSS_THREAD_FLAGS_NONE
+### -field PSS_THREAD_FLAGS_NONE:0x0000
 
 No flag.
 
-
-### -field PSS_THREAD_FLAGS_TERMINATED
+### -field PSS_THREAD_FLAGS_TERMINATED:0x0001
 
 The thread terminated.
 
-
 ## -remarks
 
-
-
-There is a <b>PSS_THREAD_FLAGS</b> member in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_thread_entry">PSS_THREAD_ENTRY</a> structure that <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> returns.
-
-
-
+There is a <b>PSS_THREAD_FLAGS</b> member in the <a href="/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_thread_entry">PSS_THREAD_ENTRY</a> structure that <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> returns.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
 

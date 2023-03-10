@@ -2,15 +2,12 @@
 UID: NS:winuser.tagINPUT_TRANSFORM
 title: INPUT_TRANSFORM (winuser.h)
 description: Defines the matrix that represents a transform on a message consumer.
+helpviewer_keywords: ["INPUT_TRANSFORM","INPUT_TRANSFORM structure [Windows and Messages]","_INPUT_TRANSFORM","inputmsg.input_transform","winuser/INPUT_TRANSFORM"]
 old-location: inputmsg\input_transform.htm
 tech.root: InputMsg
 ms.assetid: DE6854F0-17D8-4E4B-97CB-A135910A300C
 ms.date: 12/05/2018
 ms.keywords: INPUT_TRANSFORM, INPUT_TRANSFORM structure [Windows and Messages], _INPUT_TRANSFORM, inputmsg.input_transform, winuser/INPUT_TRANSFORM
-f1_keywords:
-- winuser/INPUT_TRANSFORM
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- INPUT_TRANSFORM
 targetos: Windows
 req.typenames: INPUT_TRANSFORM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagINPUT_TRANSFORM
+ - winuser/tagINPUT_TRANSFORM
+ - INPUT_TRANSFORM
+ - winuser/INPUT_TRANSFORM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - INPUT_TRANSFORM
 ---
 
 # INPUT_TRANSFORM structure
@@ -48,105 +52,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the matrix that represents a transform on a message consumer. This matrix can be used to transform pointer input data from client coordinates to screen coordinates, while the inverse can be used to transform pointer input data from screen coordinates to client coordinates.
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._11
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._12
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._13
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._14
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._21
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._22
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._23
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._24
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._31
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._32
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._33
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._34
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._41
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._42
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._43
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME._44
-
- 
-
 
 ### -field DUMMYUNIONNAME.m
 
@@ -260,18 +204,10 @@ The fourth floating-point column value in the fourth row of the matrix.
 
 A 4x4 matrix, represented as a two-dimensional array.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerinputtransform">GetPointerInputTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinputtransform">GetPointerInputTransform</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/win32/inputmsg/structures">Structures</a>

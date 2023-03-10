@@ -2,15 +2,12 @@
 UID: NF:d2d1_3.ID2D1TransformedImageSource.GetSource
 title: ID2D1TransformedImageSource::GetSource (d2d1_3.h)
 description: Retrieves the source image used to create the transformed image source.
+helpviewer_keywords: ["GetSource","GetSource method [Direct2D]","GetSource method [Direct2D]","ID2D1TransformedImageSource interface","ID2D1TransformedImageSource interface [Direct2D]","GetSource method","ID2D1TransformedImageSource.GetSource","ID2D1TransformedImageSource::GetSource","d2d1_3/ID2D1TransformedImageSource::GetSource","direct2d.id2d1transformedimagesource_getsource"]
 old-location: direct2d\id2d1transformedimagesource_getsource.htm
 tech.root: Direct2D
 ms.assetid: C17D13E4-4BAD-436F-8A82-6568F1AFA751
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method [Direct2D], GetSource method [Direct2D],ID2D1TransformedImageSource interface, ID2D1TransformedImageSource interface [Direct2D],GetSource method, ID2D1TransformedImageSource.GetSource, ID2D1TransformedImageSource::GetSource, d2d1_3/ID2D1TransformedImageSource::GetSource, direct2d.id2d1transformedimagesource_getsource
-f1_keywords:
-- d2d1_3/ID2D1TransformedImageSource.GetSource
-dev_langs:
-- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2D1.lib
 req.dll: D2D1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2D1.dll
-api_name:
-- ID2D1TransformedImageSource.GetSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1TransformedImageSource::GetSource
+ - d2d1_3/ID2D1TransformedImageSource::GetSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2D1.dll
+api_name:
+ - ID2D1TransformedImageSource.GetSource
 ---
 
 # ID2D1TransformedImageSource::GetSource
@@ -48,16 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the source image used to create the transformed image source.
-        This value corresponds to the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createtransformedimagesource">CreateTransformedImageSource</a>.
-      
-
+        This value corresponds to the value passed to <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createtransformedimagesource">CreateTransformedImageSource</a>.
 
 ## -parameters
-
-
-
 
 ### -param imageSource
 
@@ -65,23 +61,6 @@ Type: <b>_Outptr_result_maybenull_**</b>
 
 Retrieves the source image used to create the transformed image source.
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>

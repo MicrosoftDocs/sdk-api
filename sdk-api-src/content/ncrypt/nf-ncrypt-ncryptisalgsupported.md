@@ -2,15 +2,12 @@
 UID: NF:ncrypt.NCryptIsAlgSupported
 title: NCryptIsAlgSupported function (ncrypt.h)
 description: Determines if a CNG key storage provider supports a specific cryptographic algorithm.
+helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptIsAlgSupported","NCryptIsAlgSupported function [Security]","ncrypt/NCryptIsAlgSupported","security.ncryptisalgsupported_func"]
 old-location: security\ncryptisalgsupported_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 99563293-662f-4478-b8da-8526b832012d
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptIsAlgSupported, NCryptIsAlgSupported function [Security], ncrypt/NCryptIsAlgSupported, security.ncryptisalgsupported_func
-f1_keywords:
-- ncrypt/NCryptIsAlgSupported
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptIsAlgSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptIsAlgSupported
+ - ncrypt/NCryptIsAlgSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptIsAlgSupported
 ---
 
 # NCryptIsAlgSupported function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptIsAlgSupported</b> function determines if a CNG key storage provider supports a specific cryptographic algorithm.
-
 
 ## -parameters
 
-
-
-
 ### -param hProvider [in]
 
-The handle of the key storage provider. This handle is obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
-
+The handle of the key storage provider. This handle is obtained with the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 ### -param pszAlgId [in]
 
-A pointer to a null-terminated Unicode string that identifies the cryptographic algorithm in question. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
-
+A pointer to a null-terminated Unicode string that identifies the cryptographic algorithm in question. This can be one of the standard <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
 ### -param dwFlags [in]
 
@@ -87,12 +82,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -162,18 +153,9 @@ The provider does not support the specified algorithm.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the provider supports the algorithm, this function returns <b>ERROR_SUCCESS</b>. If the provider does not support the algorithm, and no other errors occurred, this function returns <b>NTE_NOT_SUPPORTED</b>.
 
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

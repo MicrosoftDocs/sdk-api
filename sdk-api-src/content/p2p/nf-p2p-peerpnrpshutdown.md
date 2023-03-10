@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerPnrpShutdown
 title: PeerPnrpShutdown function (p2p.h)
 description: Shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.
+helpviewer_keywords: ["PeerPnrpShutdown","PeerPnrpShutdown function [Peer Networking]","p2p.peerpnrpshutdown","p2p/PeerPnrpShutdown"]
 old-location: p2p\peerpnrpshutdown.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e617fb5b-ace2-46b4-b165-4cd9cf891ac7
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpShutdown, PeerPnrpShutdown function [Peer Networking], p2p.peerpnrpshutdown, p2p/PeerPnrpShutdown
-f1_keywords:
-- p2p/PeerPnrpShutdown
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerPnrpShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerPnrpShutdown
+ - p2p/PeerPnrpShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerPnrpShutdown
 ---
 
 # PeerPnrpShutdown function
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerPnrpShutdown</b> function shuts down a running instance of the Peer Name Resolution Protocol (PNRP) service and releases all resources associated with it.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 If the function call succeeds, the return value is <b>S_OK</b>. Otherwise, it  returns one of the following values.
 
@@ -93,18 +86,7 @@ There is not enough memory to perform the specified operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a>

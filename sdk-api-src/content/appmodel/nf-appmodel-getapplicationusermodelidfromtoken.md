@@ -2,15 +2,12 @@
 UID: NF:appmodel.GetApplicationUserModelIdFromToken
 title: GetApplicationUserModelIdFromToken function (appmodel.h)
 description: Gets the application user model ID for the specified token.
+helpviewer_keywords: ["GetApplicationUserModelIdFromToken","GetApplicationUserModelIdFromToken function [App packaging and management]","appmodel/GetApplicationUserModelIdFromToken","appxpkg.getapplicationusermodelidfromtoken"]
 old-location: appxpkg\getapplicationusermodelidfromtoken.htm
 tech.root: appxpkg
 ms.assetid: 80036518-927E-4CD0-B499-8EA472AB7E5A
 ms.date: 12/05/2018
 ms.keywords: GetApplicationUserModelIdFromToken, GetApplicationUserModelIdFromToken function [App packaging and management], appmodel/GetApplicationUserModelIdFromToken, appxpkg.getapplicationusermodelidfromtoken
-f1_keywords:
-- appmodel/GetApplicationUserModelIdFromToken
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetApplicationUserModelIdFromToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetApplicationUserModelIdFromToken
+ - appmodel/GetApplicationUserModelIdFromToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetApplicationUserModelIdFromToken
 ---
 
 # GetApplicationUserModelIdFromToken function
@@ -53,33 +55,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the specified token.
-
+Gets the <a href="/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the specified token.
 
 ## -parameters
 
-
-
-
 ### -param token [in]
 
-A token that contains the application identity. This handle must have the <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more info, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
-
+A token that contains the application identity. This handle must have the <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right. For more info, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param applicationUserModelIdLength [in, out]
 
 On input, the size of the  <i>applicationUserModelId</i> buffer, in wide characters. On success, the size of the buffer used, including the null terminator.
 
-
 ### -param applicationUserModelId [out]
 
 A pointer to a buffer that receives the application user model ID.
 
-
 ## -returns
-
-
 
 If the function succeeds it returns <b>ERROR_SUCCESS</b>. Otherwise, the function returns an error code. The possible error codes include the following.
 
@@ -111,16 +103,10 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -214,7 +200,3 @@ void ShowProcessApplicationUserModelId(__in const UINT32 pid, __in HANDLE token)
 }
 
 ```
-
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:iads.IADsContainer.GetObject
 title: IADsContainer::GetObject (iads.h)
 description: Retrieves an interface for a directory object in the container.
+helpviewer_keywords: ["GetObject","GetObject method [ADSI]","GetObject method [ADSI]","IADsContainer interface","IADsContainer interface [ADSI]","GetObject method","IADsContainer.GetObject","IADsContainer::GetObject","_ds_iadscontainer_getobject","adsi.iadscontainer__getobject","adsi.iadscontainer_getobject","iads/IADsContainer::GetObject"]
 old-location: adsi\iadscontainer_getobject.htm
 tech.root: adsi
 ms.assetid: df8b1eae-1138-4e55-af6e-17c6105ca9c1
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],GetObject method, IADsContainer.GetObject, IADsContainer::GetObject, _ds_iadscontainer_getobject, adsi.iadscontainer__getobject, adsi.iadscontainer_getobject, iads/IADsContainer::GetObject
-f1_keywords:
-- iads/IADsContainer.GetObject
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsContainer.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsContainer::GetObject
+ - iads/IADsContainer::GetObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsContainer.GetObject
 ---
 
 # IADsContainer::GetObject
@@ -48,49 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsContainer::GetObject</b> method retrieves an 
 interface for a directory object in the container.
 
-
 ## -parameters
-
-
-
 
 ### -param ClassName [in]
 
 A <b>BSTR</b> that specifies the name of the object class as of the object to retrieve. If this parameter is <b>NULL</b>, the provider returns the first item found in the container.
 
-
 ### -param RelativeName [in]
 
 A <b>BSTR</b> that specifies the relative distinguished name of the object to retrieve.
 
-
 ### -param ppObject [out]
 
-A pointer to a pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the specified object.
-
+A pointer to a pointer to the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface on the specified object.
 
 ## -returns
 
-
-
-This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-
-
 For the LDAP provider, the <i>bstrRelativeName</i> parameter must contain the name prefix, such as "CN=Jeff Smith". The <i>bstrRelativeName</i> parameter can also contain more than one level of name, such as "CN=Jeff Smith,OU=Sales".
 
-In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the desired interface using the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
+In C++, when <b>GetObject</b> has succeeded, the caller must query the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the desired interface using the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method.
 
-The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</b>. If the class name is not valid, including when it contains a blank space, this method will throw an <a href="https://docs.microsoft.com/windows/desktop/ADSI/generic-adsi-error-codes">E_ADS_UNKNOWN_OBJECT</a> error.
+The <i>bstrClassName</i> parameter can be either a valid class name or <b>NULL</b>. If the class name is not valid, including when it contains a blank space, this method will throw an <a href="/windows/desktop/ADSI/generic-adsi-error-codes">E_ADS_UNKNOWN_OBJECT</a> error.
 
 
 #### Examples
@@ -169,25 +156,18 @@ if(pADs)
 CoUninitialize();
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error
   Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
@@ -199,12 +179,8 @@ CoUninitialize();
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

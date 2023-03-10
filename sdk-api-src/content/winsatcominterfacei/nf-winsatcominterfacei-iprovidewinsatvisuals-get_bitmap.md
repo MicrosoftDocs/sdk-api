@@ -2,15 +2,12 @@
 UID: NF:winsatcominterfacei.IProvideWinSATVisuals.get_Bitmap
 title: IProvideWinSATVisuals::get_Bitmap (winsatcominterfacei.h)
 description: Retrieves a bitmap for the WinSAT base score.
+helpviewer_keywords: ["IProvideWinSATVisuals interface [WinSAT]","get_Bitmap method","IProvideWinSATVisuals.get_Bitmap","IProvideWinSATVisuals::get_Bitmap","get_Bitmap","get_Bitmap method [WinSAT]","get_Bitmap method [WinSAT]","IProvideWinSATVisuals interface","winsat.iprovidewinsatvisuals_get_bitmap","winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap"]
 old-location: winsat\iprovidewinsatvisuals_get_bitmap.htm
 tech.root: WinSAT
 ms.assetid: 90188fb1-3125-459e-a475-5042c2ee0a5c
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATVisuals interface [WinSAT],get_Bitmap method, IProvideWinSATVisuals.get_Bitmap, IProvideWinSATVisuals::get_Bitmap, get_Bitmap, get_Bitmap method [WinSAT], get_Bitmap method [WinSAT],IProvideWinSATVisuals interface, winsat.iprovidewinsatvisuals_get_bitmap, winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap
-f1_keywords:
-- winsatcominterfacei/IProvideWinSATVisuals.get_Bitmap
-dev_langs:
-- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Winsatapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Winsatapi.dll
-api_name:
-- IProvideWinSATVisuals.get_Bitmap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProvideWinSATVisuals::get_Bitmap
+ - winsatcominterfacei/IProvideWinSATVisuals::get_Bitmap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Winsatapi.dll
+api_name:
+ - IProvideWinSATVisuals.get_Bitmap
 ---
 
 # IProvideWinSATVisuals::get_Bitmap
@@ -48,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[IProvideWinSATVisuals::get_Bitmap may be altered or unavailable for releases after Windows 8.1.]
 
 Retrieves a bitmap for the WinSAT base score.
 
-
 ## -parameters
-
-
-
 
 ### -param bitmapSize [in]
 
-Determines the size of the bitmap that this method returns. For possible values, see the <a href="https://docs.microsoft.com/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size">WINSAT_BITMAP_SIZE</a> enumeration.
-
+Determines the size of the bitmap that this method returns. For possible values, see the <a href="/windows/win32/api/winsatcominterfacei/ne-winsatcominterfacei-winsat_bitmap_size">WINSAT_BITMAP_SIZE</a> enumeration.
 
 ### -param state [in]
 
-The state of the assessment. To get this value, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">IProvideWinSATResultsInfo::get_AssessmentState</a> method.
-
+The state of the assessment. To get this value, call the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">IProvideWinSATResultsInfo::get_AssessmentState</a> method.
 
 ### -param rating [in]
 
-The base score for the computer. To get this value, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating">IProvideWinSATResultsInfo::get_SystemRating</a> method.
-
+The base score for the computer. To get this value, call the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating">IProvideWinSATResultsInfo::get_SystemRating</a> method.
 
 ### -param pBitmap [out]
 
-The handle to the bitmap. To free the handle when finished, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function.
-
+The handle to the bitmap. To free the handle when finished, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,21 +112,15 @@ The <i>rating</i> value is not valid. Valid values are 1.0 through 9.9.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The bitmap is returned only for the WINSAT_ASSESSMENT_STATE_VALID and WINSAT_ASSESSMENT_STATE_INCOHERENT_WITH_HARDWARE states. The method will succeed (return value is S_OK) if you pass another state value, but the <i>pBitmap</i> parameter will be <b>NULL</b>.
 
 
 #### Examples
 
-The following example shows how to retrieve a bitmap that represents the base score of the assessment. The example uses the <a href="https://docs.microsoft.com/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a> WMI MOF class to get the state and base score that you pass to this method.
+The following example shows how to retrieve a bitmap that represents the base score of the assessment. The example uses the <a href="/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a> WMI MOF class to get the state and base score that you pass to this method.
 
 
 ```cpp
@@ -300,7 +285,7 @@ LRESULT CALLBACK MonitorWndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lpara
 }
 
 // Use the Win32_WinSAT WMI class to retrieve the base score and
-// state of the most recent assessmeent.
+// state of the most recent assessment.
 HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
 {
     HRESULT hr = S_OK;
@@ -435,17 +420,6 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals">IProvideWinSATVisuals</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals">IProvideWinSATVisuals</a>

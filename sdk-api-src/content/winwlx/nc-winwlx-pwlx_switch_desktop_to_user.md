@@ -2,15 +2,12 @@
 UID: NC:winwlx.PWLX_SWITCH_DESKTOP_TO_USER
 title: PWLX_SWITCH_DESKTOP_TO_USER (winwlx.h)
 description: Called by GINA to switch to the application desktop.
+helpviewer_keywords: ["PWLX_SWITCH_DESKTOP_TO_USER","PWLX_SWITCH_DESKTOP_TO_USER callback","WlxSwitchDesktopToUser","WlxSwitchDesktopToUser callback function [Security]","_gina_wlxswitchdesktoptouser","security.wlxswitchdesktoptouser","winwlx/WlxSwitchDesktopToUser"]
 old-location: security\wlxswitchdesktoptouser.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: ec353e23-7e33-4af2-93ea-35801a19d9aa
 ms.date: 12/05/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_USER, PWLX_SWITCH_DESKTOP_TO_USER callback, WlxSwitchDesktopToUser, WlxSwitchDesktopToUser callback function [Security], _gina_wlxswitchdesktoptouser, security.wlxswitchdesktoptouser, winwlx/WlxSwitchDesktopToUser
-f1_keywords:
-- winwlx/WlxSwitchDesktopToUser
-dev_langs:
-- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- winwlx.h
-api_name:
-- WlxSwitchDesktopToUser
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PWLX_SWITCH_DESKTOP_TO_USER
+ - winwlx/PWLX_SWITCH_DESKTOP_TO_USER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - winwlx.h
+api_name:
+ - WlxSwitchDesktopToUser
 ---
 
 # PWLX_SWITCH_DESKTOP_TO_USER callback function
@@ -48,39 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The WlxSwitchDesktopToUser function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to switch to the application desktop.This function is valid only for the currently operating thread.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to switch to the application desktop.This function is valid only for the currently operating thread.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param hWlx [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
-
+Specifies the <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> handle passed to GINA in the 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ## -returns
 
-
-
 The <b>WlxSwitchDesktopToUser</b> function returns zero if the function call succeeds. Otherwise, it returns an error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

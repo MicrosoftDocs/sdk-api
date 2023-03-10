@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfDocumentMgr.GetTop
 title: ITfDocumentMgr::GetTop (msctf.h)
 description: ITfDocumentMgr::GetTop method
+helpviewer_keywords: ["GetTop","GetTop method [Text Services Framework]","GetTop method [Text Services Framework]","ITfDocumentMgr interface","ITfDocumentMgr interface [Text Services Framework]","GetTop method","ITfDocumentMgr.GetTop","ITfDocumentMgr::GetTop","_tsf_itfdocumentmgr_gettop_ref","msctf/ITfDocumentMgr::GetTop","tsf.itfdocumentmgr_gettop"]
 old-location: tsf\itfdocumentmgr_gettop.htm
 tech.root: TSF
 ms.assetid: 5be7635f-ec27-4892-9cfe-dba31e202510
 ms.date: 12/05/2018
 ms.keywords: GetTop, GetTop method [Text Services Framework], GetTop method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetTop method, ITfDocumentMgr.GetTop, ITfDocumentMgr::GetTop, _tsf_itfdocumentmgr_gettop_ref, msctf/ITfDocumentMgr::GetTop, tsf.itfdocumentmgr_gettop
-f1_keywords:
-- msctf/ITfDocumentMgr.GetTop
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfDocumentMgr.GetTop
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfDocumentMgr::GetTop
+ - msctf/ITfDocumentMgr::GetTop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfDocumentMgr.GetTop
 ---
 
 # ITfDocumentMgr::GetTop
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the context at the top of the context stack.
 
 ## -parameters
 
-
-
-
 ### -param ppic [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> pointer that receives the context.
-
+Address of an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> pointer that receives the context.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,33 +101,22 @@ A memory allocation error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-getbase">ITfDocumentMgr::GetBase
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-getbase">ITfDocumentMgr::GetBase
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-push">ITfDocumentMgr::Push
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-push">ITfDocumentMgr::Push
       </a>
- 
-
- 
-

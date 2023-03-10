@@ -2,15 +2,12 @@
 UID: NF:ndhelper.INetDiagHelper.Cleanup
 title: INetDiagHelper::Cleanup (ndhelper.h)
 description: Allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.
+helpviewer_keywords: ["Cleanup","Cleanup method [NDF]","Cleanup method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","Cleanup method","INetDiagHelper.Cleanup","INetDiagHelper::Cleanup","ndf.inetdiaghelpe_cleanup","ndhelper/INetDiagHelper::Cleanup"]
 old-location: ndf\inetdiaghelpe_cleanup.htm
 tech.root: NDF
 ms.assetid: d50d3415-8fa7-404c-8030-8ea7a59820e4
 ms.date: 12/05/2018
 ms.keywords: Cleanup, Cleanup method [NDF], Cleanup method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cleanup method, INetDiagHelper.Cleanup, INetDiagHelper::Cleanup, ndf.inetdiaghelpe_cleanup, ndhelper/INetDiagHelper::Cleanup
-f1_keywords:
-- ndhelper/INetDiagHelper.Cleanup
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelper.Cleanup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelper::Cleanup
+ - ndhelper/INetDiagHelper::Cleanup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelper.Cleanup
 ---
 
 # INetDiagHelper::Cleanup
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Cleanup</b> method allows the Helper Class Extension to clean up resources following a diagnosis or repair operation. 
-
-
-## -parameters
-
-
-
+The <b>Cleanup</b> method allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.
 
 
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -117,25 +110,10 @@ The diagnosis or repair operation has been canceled.
 
 Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Cleanup</b> method is required when building a Helper Class Extension.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

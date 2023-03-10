@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDVB_BAT.GetCountOfTableDescriptors
 title: IDVB_BAT::GetCountOfTableDescriptors (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCountOfTableDescriptors","GetCountOfTableDescriptors method [Microsoft TV Technologies]","GetCountOfTableDescriptors method [Microsoft TV Technologies]","IDVB_BAT interface","IDVB_BAT interface [Microsoft TV Technologies]","GetCountOfTableDescriptors method","IDVB_BAT.GetCountOfTableDescriptors","IDVB_BAT::GetCountOfTableDescriptors","IDVB_BATGetCountOfTableDescriptors","dvbsiparser/IDVB_BAT::GetCountOfTableDescriptors","mstv.idvb_bat_getcountoftabledescriptors"]
 old-location: mstv\idvb_bat_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 8f373cbe-9d07-41c2-83a5-c25bc66f6263
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_BAT.GetCountOfTableDescriptors, IDVB_BAT::GetCountOfTableDescriptors, IDVB_BATGetCountOfTableDescriptors, dvbsiparser/IDVB_BAT::GetCountOfTableDescriptors, mstv.idvb_bat_getcountoftabledescriptors
-f1_keywords:
-- dvbsiparser/IDVB_BAT.GetCountOfTableDescriptors
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_BAT.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_BAT::GetCountOfTableDescriptors
+ - dvbsiparser/IDVB_BAT::GetCountOfTableDescriptors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_BAT.GetCountOfTableDescriptors
 ---
 
 # IDVB_BAT::GetCountOfTableDescriptors
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetCountOfTableDescriptors</b> method returns the number of table-wide descriptors in the BAT.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwVal [out]
 
 Pointer to a variable that receives the number of descriptors.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,18 +95,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT Interface</a>

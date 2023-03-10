@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFSerializePresentationDescriptor
 title: MFSerializePresentationDescriptor function (mfidl.h)
 description: Serializes a presentation descriptor to a byte array.
+helpviewer_keywords: ["MFSerializePresentationDescriptor","MFSerializePresentationDescriptor function [Media Foundation]","f39a0dc8-438e-4723-94e4-a194a0a460e3","mf.mfserializepresentationdescriptor","mfidl/MFSerializePresentationDescriptor"]
 old-location: mf\mfserializepresentationdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f39a0dc8-438e-4723-94e4-a194a0a460e3
 ms.date: 12/05/2018
 ms.keywords: MFSerializePresentationDescriptor, MFSerializePresentationDescriptor function [Media Foundation], f39a0dc8-438e-4723-94e4-a194a0a460e3, mf.mfserializepresentationdescriptor, mfidl/MFSerializePresentationDescriptor
-f1_keywords:
-- mfidl/MFSerializePresentationDescriptor
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFSerializePresentationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFSerializePresentationDescriptor
+ - mfidl/MFSerializePresentationDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFSerializePresentationDescriptor
 ---
 
 # MFSerializePresentationDescriptor function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Serializes a presentation descriptor to a byte array.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pPD
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor to serialize.
-
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor to serialize.
 
 ### -param pcbData
 
 Receives the size of the <i>ppbData</i> array, in bytes.
 
-
 ### -param ppbData
 
-Receives a pointer to an array of bytes containing the serialized presentation descriptor. The caller must free the memory for the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+Receives a pointer to an array of bytes containing the serialized presentation descriptor. The caller must free the memory for the array by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,31 +87,15 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To deserialize the presentation descriptor, pass the byte array to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfdeserializepresentationdescriptor">MFDeserializePresentationDescriptor</a> function.
-
-
-
+To deserialize the presentation descriptor, pass the byte array to the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfdeserializepresentationdescriptor">MFDeserializePresentationDescriptor</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

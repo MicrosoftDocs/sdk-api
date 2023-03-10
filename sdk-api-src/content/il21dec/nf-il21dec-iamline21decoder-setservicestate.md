@@ -2,15 +2,12 @@
 UID: NF:il21dec.IAMLine21Decoder.SetServiceState
 title: IAMLine21Decoder::SetServiceState (il21dec.h)
 description: The SetServiceState method enables or disables closed captions.
+helpviewer_keywords: ["IAMLine21Decoder interface [DirectShow]","SetServiceState method","IAMLine21Decoder.SetServiceState","IAMLine21Decoder::SetServiceState","IAMLine21DecoderSetServiceState","SetServiceState","SetServiceState method [DirectShow]","SetServiceState method [DirectShow]","IAMLine21Decoder interface","dshow.iamline21decoder_setservicestate","il21dec/IAMLine21Decoder::SetServiceState"]
 old-location: dshow\iamline21decoder_setservicestate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 009e7d14-5946-42f0-8832-7fd8c565a877
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetServiceState method, IAMLine21Decoder.SetServiceState, IAMLine21Decoder::SetServiceState, IAMLine21DecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setservicestate, il21dec/IAMLine21Decoder::SetServiceState
-f1_keywords:
-- il21dec/IAMLine21Decoder.SetServiceState
-dev_langs:
-- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMLine21Decoder.SetServiceState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMLine21Decoder::SetServiceState
+ - il21dec/IAMLine21Decoder::SetServiceState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMLine21Decoder.SetServiceState
 ---
 
 # IAMLine21Decoder::SetServiceState
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetServiceState</code> method enables or disables closed captions.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param State
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration, specify whether to enable or disable closed captions.
-
+Member of the <a href="/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration, specify whether to enable or disable closed captions.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,26 +91,15 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>

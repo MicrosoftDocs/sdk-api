@@ -1,16 +1,13 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.put_InboundEventsLevel
 title: IFaxEventLogging::put_InboundEventsLevel (faxcomex.h)
-description: The IFaxEventLogging::get_InboundEventsLevel property indicates the level of detail at which the fax service logs events about inbound fax transmissions in the application log.
+description: The IFaxEventLogging::get_InboundEventsLevel property indicates the level of detail at which the fax service logs events about inbound fax transmissions in the application log. (Put)
+helpviewer_keywords: ["IFaxEventLogging interface [Fax Service]","InboundEventsLevel property","IFaxEventLogging.InboundEventsLevel","IFaxEventLogging.get_InboundEventsLevel","IFaxEventLogging.put_InboundEventsLevel","IFaxEventLogging::InboundEventsLevel","IFaxEventLogging::get_InboundEventsLevel","IFaxEventLogging::put_InboundEventsLevel","InboundEventsLevel property [Fax Service]","InboundEventsLevel property [Fax Service]","IFaxEventLogging interface","_mfax_faxeventlogging.inboundeventslevel","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_inboundeventslevel_cpp","fax._mfax_faxeventlogging_inboundeventslevel","faxcomex/IFaxEventLogging::InboundEventsLevel","faxcomex/IFaxEventLogging::get_InboundEventsLevel","faxcomex/IFaxEventLogging::put_InboundEventsLevel","put_InboundEventsLevel"]
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_inboundeventslevel_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2w18.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],InboundEventsLevel property, IFaxEventLogging.InboundEventsLevel, IFaxEventLogging.get_InboundEventsLevel, IFaxEventLogging.put_InboundEventsLevel, IFaxEventLogging::InboundEventsLevel, IFaxEventLogging::get_InboundEventsLevel, IFaxEventLogging::put_InboundEventsLevel, InboundEventsLevel property [Fax Service], InboundEventsLevel property [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.inboundeventslevel, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_inboundeventslevel_cpp, fax._mfax_faxeventlogging_inboundeventslevel, faxcomex/IFaxEventLogging::InboundEventsLevel, faxcomex/IFaxEventLogging::get_InboundEventsLevel, faxcomex/IFaxEventLogging::put_InboundEventsLevel, put_InboundEventsLevel
-f1_keywords:
-- faxcomex/IFaxEventLogging.InboundEventsLevel
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxEventLogging.InboundEventsLevel
-- IFaxEventLogging.get_InboundEventsLevel
-- IFaxEventLogging.put_InboundEventsLevel
-- IFaxEventLogging.get_InboundEventsLevel
-- IFaxEventLogging.put_InboundEventsLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxEventLogging::put_InboundEventsLevel
+ - faxcomex/IFaxEventLogging::put_InboundEventsLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxEventLogging.InboundEventsLevel
+ - IFaxEventLogging.get_InboundEventsLevel
+ - IFaxEventLogging.put_InboundEventsLevel
+ - IFaxEventLogging.get_InboundEventsLevel
+ - IFaxEventLogging.put_InboundEventsLevel
 ---
 
 # IFaxEventLogging::put_InboundEventsLevel
@@ -52,39 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxEventLogging::get_InboundEventsLevel</b> property indicates the level of detail at which the fax service logs events about inbound fax transmissions in the application log.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-To read or to write to this property, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
-
-
-
+To read or to write to this property, a user must have the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxeventlogging">FaxEventLogging</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxeventlogging">FaxEventLogging</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxeventlogging">IFaxEventLogging</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxeventlogging">IFaxEventLogging</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>

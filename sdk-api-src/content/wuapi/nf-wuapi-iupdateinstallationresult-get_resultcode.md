@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateInstallationResult.get_ResultCode
 title: IUpdateInstallationResult::get_ResultCode (wuapi.h)
-description: Gets an OperationResultCode value that specifies the result of an operation on an update.
+description: Gets an OperationResultCode value that specifies the result of an operation on an update. (IUpdateInstallationResult.get_ResultCode)
+helpviewer_keywords: ["IUpdateInstallationResult interface [Windows Update Agent]","ResultCode property","IUpdateInstallationResult.ResultCode","IUpdateInstallationResult.get_ResultCode","IUpdateInstallationResult::ResultCode","IUpdateInstallationResult::get_ResultCode","ResultCode property [Windows Update Agent]","ResultCode property [Windows Update Agent]","IUpdateInstallationResult interface","get_ResultCode","wua.iupdateinstallationresult_resultcode","wuapi/IUpdateInstallationResult::ResultCode","wuapi/IUpdateInstallationResult::get_ResultCode"]
 old-location: wua\iupdateinstallationresult_resultcode.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d254b49e-fef2-4f46-a013-df736cd94cb3
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstallationResult interface [Windows Update Agent],ResultCode property, IUpdateInstallationResult.ResultCode, IUpdateInstallationResult.get_ResultCode, IUpdateInstallationResult::ResultCode, IUpdateInstallationResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IUpdateInstallationResult interface, get_ResultCode, wua.iupdateinstallationresult_resultcode, wuapi/IUpdateInstallationResult::ResultCode, wuapi/IUpdateInstallationResult::get_ResultCode
-f1_keywords:
-- wuapi/IUpdateInstallationResult.ResultCode
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateInstallationResult.ResultCode
-- IUpdateInstallationResult.get_ResultCode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateInstallationResult::get_ResultCode
+ - wuapi/IUpdateInstallationResult::get_ResultCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateInstallationResult.ResultCode
+ - IUpdateInstallationResult.get_ResultCode
 ---
 
 # IUpdateInstallationResult::get_ResultCode
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> value that specifies the result of an operation on an update.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-operationresultcode">OperationResultCode</a> value that specifies the result of an operation on an update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a>

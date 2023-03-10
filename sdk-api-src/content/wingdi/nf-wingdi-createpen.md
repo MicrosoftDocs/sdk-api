@@ -2,15 +2,12 @@
 UID: NF:wingdi.CreatePen
 title: CreatePen function (wingdi.h)
 description: The CreatePen function creates a logical pen that has the specified style, width, and color. The pen can subsequently be selected into a device context and used to draw lines and curves.
+helpviewer_keywords: ["CreatePen","CreatePen function [Windows GDI]","PS_DASH","PS_DASHDOT","PS_DASHDOTDOT","PS_DOT","PS_INSIDEFRAME","PS_NULL","PS_SOLID","_win32_CreatePen","gdi.createpen","wingdi/CreatePen"]
 old-location: gdi\createpen.htm
 tech.root: gdi
 ms.assetid: 882facd2-7e06-48f6-82e4-f20e4d5adc92
 ms.date: 12/05/2018
 ms.keywords: CreatePen, CreatePen function [Windows GDI], PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_INSIDEFRAME, PS_NULL, PS_SOLID, _win32_CreatePen, gdi.createpen, wingdi/CreatePen
-f1_keywords:
-- wingdi/CreatePen
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- CreatePen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreatePen
+ - wingdi/CreatePen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - CreatePen
 ---
 
 # CreatePen function
@@ -52,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CreatePen</b> function creates a logical pen that has the specified style, width, and color. The pen can subsequently be selected into a device context and used to draw lines and curves.
 
-
 ## -parameters
-
-
-
 
 ### -param iStyle [in]
 
@@ -141,37 +138,26 @@ The pen is solid. When this pen is used in any GDI drawing function that takes a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cWidth [in]
 
 The width of the pen, in logical units. If <i>nWidth</i> is zero, the pen is a single pixel wide, regardless of the current transformation.
 
-<b>CreatePen</b> returns a pen with the specified width bit with the PS_SOLID style if you specify a width greater than one for the following styles: PS_DASH, PS_DOT, PS_DASHDOT, PS_DASHDOTDOT.
-
+<b>CreatePen</b> returns a pen with the specified width but with the PS_SOLID style if you specify a width greater than one for the following styles: PS_DASH, PS_DOT, PS_DASHDOT, PS_DASHDOTDOT.
 
 ### -param color [in]
 
-A color reference for the pen color. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
-
+A color reference for the pen color. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a> structure, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle that identifies a logical pen.
 
 If the function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
 
-
-
-After an application creates a logical pen, it can select that pen into a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
+After an application creates a logical pen, it can select that pen into a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
 
 If the value specified by the <i>nWidth</i> parameter is zero, a line drawn with the created pen always is a single pixel wide regardless of the current transformation.
 
@@ -181,58 +167,51 @@ If the value specified by <i>nWidth</i> is greater than 1 and <i>fnPenStyle</i> 
 
 If the value specified by <i>nWidth</i> is greater than 1, <i>fnPenStyle</i> is PS_INSIDEFRAME, and the color specified by the <i>crColor</i> parameter does not match one of the entries in the logical palette, the system draws lines by using a dithered color. Dithered colors are not available with solid pens.
 
-When you no longer need the pen, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When using an <i>iStyle</i> parameter of PS_DASH, PS_DOT, PS_DASHDOT or PS_DASHDOTDOT, in order to make the gaps between the dashes or dots transparent, use <a href="/windows/win32/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> to set the mode to TRANSPARENT.
+
+When you no longer need the pen, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 <b>ICM:</b> No color management is done at creation. However, color management is performed when the pen is selected into an ICM-enabled device context.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/creating-colored-pens-and-brushes">Creating Colored Pens and Brushes</a>.
+For an example, see <a href="/windows/desktop/gdi/creating-colored-pens-and-brushes">Creating Colored Pens and Brushes</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+<a href="/windows/desktop/gdi/pen-functions">Pen Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pen-functions">Pen Functions</a>
+<a href="/windows/desktop/gdi/pens">Pens Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pens">Pens Overview</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

@@ -7,10 +7,6 @@ tech.root: ETW
 ms.assetid: ab34a433-b641-4408-81d5-c93609204d24
 ms.date: 12/05/2018
 ms.keywords: TdhEnumerateProviderFieldInformation, TdhEnumerateProviderFieldInformation function [ETW], etw.tdhenumerateproviderfieldinformation_func, tdh.tdhenumerateproviderfieldinformation_func, tdh/TdhEnumerateProviderFieldInformation
-f1_keywords:
-- tdh/TdhEnumerateProviderFieldInformation
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +24,26 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- API-MS-Win-Eventing-Tdh-L1-1-0.dll
-- MinTdh.dll
-api_name:
-- TdhEnumerateProviderFieldInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhEnumerateProviderFieldInformation
+ - tdh/TdhEnumerateProviderFieldInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - API-MS-Win-Eventing-Tdh-L1-1-0.dll
+ - MinTdh.dll
+api_name:
+ - TdhEnumerateProviderFieldInformation
 ---
 
 # TdhEnumerateProviderFieldInformation function
@@ -50,38 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified field metadata for a given provider.
-
 
 ## -parameters
 
-
-
-
 ### -param pGuid [in]
 
-GUID that identifies the provider whose information you want to retrieve. 
-
+GUID that identifies the provider whose information you want to retrieve.
 
 ### -param EventFieldType [in]
 
-Specify the type of field for which you want to retrieve information. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-event_field_type">EVENT_FIELD_TYPE</a> enumeration. 
-
+Specify the type of field for which you want to retrieve information. For possible values, see the <a href="/windows/desktop/api/tdh/ne-tdh-event_field_type">EVENT_FIELD_TYPE</a> enumeration.
 
 ### -param pBuffer [out, optional]
 
-User-allocated buffer to receive the field information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a> structure.
-
+User-allocated buffer to receive the field information. For details, see the <a href="/windows/desktop/api/tdh/ns-tdh-provider_field_infoarray">PROVIDER_FIELD_INFOARRAY</a> structure.
 
 ### -param pBufferSize [in, out]
 
 Size, in bytes, of the <i>pBuffer</i> buffer. If the function succeeds, this parameter receives the size of the buffer used. If the buffer is too small, the function returns ERROR_INSUFFICIENT_BUFFER and sets this parameter to the required buffer size. If the buffer size is zero on input, no data is returned in the buffer and this parameter receives the required buffer size.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -146,14 +136,8 @@ The <b>resourceFileName</b> attribute in the manifest contains the location of t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function uses the XML manifest or WMI MOF class to retrieve the information.
 
@@ -263,21 +247,9 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>
 
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviders">TdhEnumerateProviders</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>

@@ -2,15 +2,12 @@
 UID: NS:winnt.JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 title: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 (winnt.h)
 description: Contains extended information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation2 information class.
+helpviewer_keywords: ["JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2","JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure","JOB_OBJECT_LIMIT_CPU_RATE_CONTROL","JOB_OBJECT_LIMIT_IO_RATE_CONTROL","JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH","JOB_OBJECT_LIMIT_JOB_MEMORY_LOW","JOB_OBJECT_LIMIT_JOB_READ_BYTES","JOB_OBJECT_LIMIT_JOB_TIME","JOB_OBJECT_LIMIT_JOB_WRITE_BYTES","JOB_OBJECT_LIMIT_NET_RATE_CONTROL","JOB_OBJECT_LIMIT_RATE_CONTROL","JOB_OBJECT_LIMIT_JOB_READ_BYTES","JOB_OBJECT_LIMIT_JOB_WRITE_BYTES","ToleranceHigh","ToleranceLow","ToleranceMedium","base.jobobject_limit_violation_information_2","winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2"]
 old-location: base\jobobject_limit_violation_information_2.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: B474F74E-B64B-4681-A235-C2DE317BFE0E
 ms.date: 12/05/2018
-ms.keywords: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2, JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, ToleranceHigh, ToleranceLow, ToleranceMedium, base.jobobject_limit_violation_information_2, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
-f1_keywords:
-- winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
-dev_langs:
-- c++
+ms.keywords: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2, JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, ToleranceHigh, ToleranceLow, ToleranceMedium, base.jobobject_limit_violation_information_2, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 targetos: Windows
 req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
+ - winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 ---
 
 # JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains extended information about resource notification limits that have been exceeded for a job object. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> function with the <b>JobObjectLimitViolationInformation2</b> information class.
-
+Contains extended information about resource notification limits that have been exceeded for a job object. This structure is used with the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> function with the <b>JobObjectLimitViolationInformation2</b> information class.
 
 ## -struct-fields
-
-
-
 
 ### -field LimitFlags
 
@@ -166,8 +163,6 @@ The job has notification limit for the extent to which a job can exceed its netw
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ViolationLimitFlags
 
@@ -179,8 +174,8 @@ Flags that identify the notification limits that have been exceeded. This member
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="JOB_OBJECT_LIMIT_READ_BYTES"></a><a id="job_object_limit_read_bytes"></a><dl>
-<dt><b>JOB_OBJECT_LIMIT_READ_BYTES</b></dt>
+<td width="40%"><a id="JOB_OBJECT_LIMIT_JOB_READ_BYTES"></a><a id="job_object_limit_job_read_bytes"></a><dl>
+<dt><b>JOB_OBJECT_LIMIT_JOB_READ_BYTES</b></dt>
 <dt>0x00010000</dt>
 </dl>
 </td>
@@ -190,8 +185,8 @@ The job's I/O read bytes notification limit has been exceeded. The <b>IoReadByte
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="JOB_OBJECT_LIMIT_WRITE_BYTES"></a><a id="job_object_limit_write_bytes"></a><dl>
-<dt><b>JOB_OBJECT_LIMIT_WRITE_BYTES</b></dt>
+<td width="40%"><a id="JOB_OBJECT_LIMI_JOB_WRITE_BYTES"></a><a id="job_object_limit_job_write_bytes"></a><dl>
+<dt><b>JOB_OBJECT_LIMIT_JOB_WRITE_BYTES</b></dt>
 <dt>0x00020000</dt>
 </dl>
 </td>
@@ -278,63 +273,46 @@ The job's network rate control limit has been exceeded. The <b>NetworkRateContro
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IoReadBytes
 
-If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_READ_BYTES</b>, this member contains the total I/O read bytes for all processes in the job at the time the notification was sent.
-
+If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_READ_BYTES</b>, this member contains the total I/O read bytes for all processes in the job at the time the notification was sent.
 
 ### -field IoReadBytesLimit
 
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_READ_BYTES</b>, this member contains the I/O read bytes notification limit in effect for the job.
-
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_READ_BYTES</b>, this member contains the I/O read bytes notification limit in effect for the job.
 
 ### -field IoWriteBytes
 
-If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_WRITE_BYTES</b>, this member contains the total I/O write bytes for all processes in the job at the time the notification was sent.
-
+If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_WRITE_BYTES</b>, this member contains the total I/O write bytes for all processes in the job at the time the notification was sent.
 
 ### -field IoWriteBytesLimit
 
-If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_WRITE_BYTES</b>, this member contains the I/O write bytes notification limit in effect for the job.
-
+If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_WRITE_BYTES</b>, this member contains the I/O write bytes notification limit in effect for the job.
 
 ### -field PerJobUserTime
 
 If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_TIME</b>, this member contains the total user-mode execution time for all processes in the job at the time the notification was sent.
 
-
 ### -field PerJobUserTimeLimit
 
 If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_TIME</b>, this member contains the user-mode execution notification limit in effect for the job.
-
 
 ### -field JobMemory
 
 If the <b>ViolationLimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH</b> or <b>JOB_OBJECT_LIMIT_JOB_MEMORY_LOW</b>, this member contains the committed memory for all processes in the job at the time the notification was sent.
 
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.JobHighMemoryLimit
 
 If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH</b>, this member contains the committed maximum memory limit in effect for the job.
 
-
 ### -field DUMMYUNIONNAME.JobMemoryLimit
 
 If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY</b>, this member contains the committed maximum memory limit in effect for the job.
 
-
 ### -field DUMMYUNIONNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME2.RateControlTolerance
 
@@ -379,8 +357,6 @@ The job exceeded its CPU rate control limits for 60% of the tolerance interval.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME2.CpuRateControlTolerance
 
@@ -425,13 +401,8 @@ The job exceeded its CPU rate control limits for 60% of the tolerance interval.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME3
-
- 
-
 
 ### -field DUMMYUNIONNAME3.RateControlToleranceLimit
 
@@ -476,8 +447,6 @@ The job can exceed its CPU rate control limits for 60% of the tolerance interval
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME3.CpuRateControlToleranceLimit
 
@@ -522,13 +491,10 @@ The job can exceed its CPU rate control limits for 60% of the tolerance interval
 </td>
 </tr>
 </table>
- 
-
 
 ### -field JobLowMemoryLimit
 
 If the <b>LimitFlags</b> member specifies <b>JOB_OBJECT_LIMIT_JOB_MEMORY_LOW</b>, this member contains the committed minimum memory limit in effect for the job.
-
 
 ### -field IoRateControlTolerance
 
@@ -573,8 +539,6 @@ The job exceeded its I/O rate control limits for 60% of the tolerance interval.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IoRateControlToleranceLimit
 
@@ -619,8 +583,6 @@ The job can exceed its I/O rate control limits for 60% of the tolerance interval
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NetRateControlTolerance
 
@@ -665,8 +627,6 @@ The job exceeded its network rate control limits for 60% of the tolerance interv
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NetRateControlToleranceLimit
 
@@ -711,35 +671,21 @@ The job can exceed its network rate control limits for 60% of the tolerance inte
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
+When any notification limit specified in a <a href="/windows/desktop/api/winnt/ns-winnt-jobobject_notification_limit_information_2">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a> structure is exceeded, the system sends a <b>JOB_OBJECT_MSG_NOTIFICATION_LIMIT</b> message to the I/O completion port associated with the job. 
 
-
-When any notification limit specified in a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_notification_limit_information_2">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a> structure is exceeded, the system sends a <b>JOB_OBJECT_MSG_NOTIFICATION_LIMIT</b> message to the I/O completion port associated with the job. 
-
-To retrieve information about the limits that were exceeded, the application monitoring the I/O completion port must call the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> function with the <b>JobObjectLimitViolationInformation2</b> information class and a pointer to a <b>JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2</b> structure. 
-
-
-
+To retrieve information about the limits that were exceeded, the application monitoring the I/O completion port must call the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> function with the <b>JobObjectLimitViolationInformation2</b> information class and a pointer to a <b>JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2</b> structure.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_notification_limit_information_2">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_notification_limit_information_2">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION_2</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

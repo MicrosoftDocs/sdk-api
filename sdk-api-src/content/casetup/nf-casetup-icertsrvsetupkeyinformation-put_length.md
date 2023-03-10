@@ -1,16 +1,13 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_Length
 title: ICertSrvSetupKeyInformation::put_Length (casetup.h)
-description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
+description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP). (Put)
+helpviewer_keywords: ["ICertSrvSetupKeyInformation interface [Security]","Length property","ICertSrvSetupKeyInformation.Length","ICertSrvSetupKeyInformation.put_Length","ICertSrvSetupKeyInformation::Length","ICertSrvSetupKeyInformation::get_Length","ICertSrvSetupKeyInformation::put_Length","Length property [Security]","Length property [Security]","ICertSrvSetupKeyInformation interface","casetup/ICertSrvSetupKeyInformation::Length","casetup/ICertSrvSetupKeyInformation::get_Length","casetup/ICertSrvSetupKeyInformation::put_Length","put_Length","security.icertsrvsetupkeyinformation_length"]
 old-location: security\icertsrvsetupkeyinformation_length.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],Length property, ICertSrvSetupKeyInformation.Length, ICertSrvSetupKeyInformation.put_Length, ICertSrvSetupKeyInformation::Length, ICertSrvSetupKeyInformation::get_Length, ICertSrvSetupKeyInformation::put_Length, Length property [Security], Length property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::Length, casetup/ICertSrvSetupKeyInformation::get_Length, casetup/ICertSrvSetupKeyInformation::put_Length, put_Length, security.icertsrvsetupkeyinformation_length
-f1_keywords:
-- casetup/ICertSrvSetupKeyInformation.Length
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetupKeyInformation.Length
-- ICertSrvSetupKeyInformation.get_Length
-- ICertSrvSetupKeyInformation.put_Length
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetupKeyInformation::put_Length
+ - casetup/ICertSrvSetupKeyInformation::put_Length
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetupKeyInformation.Length
+ - ICertSrvSetupKeyInformation.get_Length
+ - ICertSrvSetupKeyInformation.put_Length
 ---
 
 # ICertSrvSetupKeyInformation::put_Length
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>Length</b> property gets or sets the strength of the key to one of the values supported by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+The <b>Length</b> property gets or sets the strength of the key to one of the values supported by the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>

@@ -2,15 +2,12 @@
 UID: NS:rtmv2._RTM_ROUTE_INFO
 title: RTM_ROUTE_INFO (rtmv2.h)
 description: The RTM_ROUTE_INFO structure is used to exchange route information with the routing table manager. Do not change the read-only information.
+helpviewer_keywords: ["*PRTM_ROUTE_INFO","PRTM_ROUTE_INFO","PRTM_ROUTE_INFO structure pointer [RAS]","RTM_ROUTE_FLAGS_ANY_BCAST","RTM_ROUTE_FLAGS_ANY_MCAST","RTM_ROUTE_FLAGS_ANY_UNICAST","RTM_ROUTE_FLAGS_LIMITED_BC","RTM_ROUTE_FLAGS_LOCAL","RTM_ROUTE_FLAGS_LOCAL_MCAST","RTM_ROUTE_FLAGS_MCAST","RTM_ROUTE_FLAGS_MYSELF","RTM_ROUTE_FLAGS_NET_BCAST","RTM_ROUTE_FLAGS_ONES_NETBC","RTM_ROUTE_FLAGS_ONES_SUBNETBC","RTM_ROUTE_FLAGS_REMOTE","RTM_ROUTE_FLAGS_ZEROS_NETBC","RTM_ROUTE_FLAGS_ZEROS_SUBNETBC","RTM_ROUTE_INFO","RTM_ROUTE_INFO structure [RAS]","RTM_ROUTE_STATE_CREATED","RTM_ROUTE_STATE_DELETED","RTM_ROUTE_STATE_DELETING","_rtmv2ref_rtm_route_info","rras.rtm_route_info","rtmv2/PRTM_ROUTE_INFO","rtmv2/RTM_ROUTE_INFO"]
 old-location: rras\rtm_route_info.htm
 tech.root: RRAS
 ms.assetid: 7d9bf8c0-dc09-440a-b60d-97463c70a745
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_ROUTE_INFO, PRTM_ROUTE_INFO, PRTM_ROUTE_INFO structure pointer [RAS], RTM_ROUTE_FLAGS_ANY_BCAST, RTM_ROUTE_FLAGS_ANY_MCAST, RTM_ROUTE_FLAGS_ANY_UNICAST, RTM_ROUTE_FLAGS_LIMITED_BC, RTM_ROUTE_FLAGS_LOCAL, RTM_ROUTE_FLAGS_LOCAL_MCAST, RTM_ROUTE_FLAGS_MCAST, RTM_ROUTE_FLAGS_MYSELF, RTM_ROUTE_FLAGS_NET_BCAST, RTM_ROUTE_FLAGS_ONES_NETBC, RTM_ROUTE_FLAGS_ONES_SUBNETBC, RTM_ROUTE_FLAGS_REMOTE, RTM_ROUTE_FLAGS_ZEROS_NETBC, RTM_ROUTE_FLAGS_ZEROS_SUBNETBC, RTM_ROUTE_INFO, RTM_ROUTE_INFO structure [RAS], RTM_ROUTE_STATE_CREATED, RTM_ROUTE_STATE_DELETED, RTM_ROUTE_STATE_DELETING, _rtmv2ref_rtm_route_info, rras.rtm_route_info, rtmv2/PRTM_ROUTE_INFO, rtmv2/RTM_ROUTE_INFO'
-f1_keywords:
-- rtmv2/RTM_ROUTE_INFO
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Rtmv2.h
-api_name:
-- RTM_ROUTE_INFO
 targetos: Windows
 req.typenames: RTM_ROUTE_INFO, *PRTM_ROUTE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _RTM_ROUTE_INFO
+ - rtmv2/_RTM_ROUTE_INFO
+ - PRTM_ROUTE_INFO
+ - rtmv2/PRTM_ROUTE_INFO
+ - RTM_ROUTE_INFO
+ - rtmv2/RTM_ROUTE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Rtmv2.h
+api_name:
+ - RTM_ROUTE_INFO
 ---
 
 # RTM_ROUTE_INFO structure
@@ -48,31 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>RTM_ROUTE_INFO</b> structure is used to exchange route information with the routing table manager. Do not change the read-only information. 
-			
-
+<b>RTM_ROUTE_INFO</b> structure is used to exchange route information with the routing table manager. Do not change the read-only information.
 
 ## -struct-fields
-
-
-
 
 ### -field DestHandle
 
 Handle to the destination that owns the route.
 
-
 ### -field RouteOwner
 
 Handle to the client that owns this route.
 
-
 ### -field Neighbour
 
 Handle to the neighbor that informed the routing table manager of this route. This member is <b>NULL</b> for a link-state protocol.
-
 
 ### -field State
 
@@ -116,13 +113,10 @@ Route has been deleted.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Flags1
 
 Flags used for compatibility with RTMv1.
-
 
 ### -field Flags
 
@@ -276,68 +270,55 @@ Indicates that the destination matches an interface's all-zeros broadcast addres
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PrefInfo
 
 Specifies the preference and metric information for this route.
 
-
 ### -field BelongsToViews
 
 Specifies the views in which this route is included.
-
 
 ### -field EntitySpecificInfo
 
 Contains the client-specific information for the client that owns this route.
 
-
 ### -field NextHopsList
 
 Specifies a list of equal-cost next hops.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_list">RTM_NEXTHOP_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_list">RTM_NEXTHOP_LIST</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_pref_info">RTM_PREF_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_pref_info">RTM_PREF_INFO</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmaddroutetodest">RtmAddRouteToDest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmaddroutetodest">RtmAddRouteToDest</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchroute">RtmGetExactMatchRoute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchroute">RtmGetExactMatchRoute</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetrouteinfo">RtmGetRouteInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetrouteinfo">RtmGetRouteInfo</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetroutepointer">RtmGetRoutePointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetroutepointer">RtmGetRoutePointer</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmlockroute">RtmLockRoute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmlockroute">RtmLockRoute</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>

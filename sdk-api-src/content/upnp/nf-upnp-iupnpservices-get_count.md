@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPServices.get_Count
 title: IUPnPServices::get_Count (upnp.h)
 description: The Count property specifies the number of services in the collection.
+helpviewer_keywords: ["IUPnPServices interface [UPnP APIs]","get_Count method","IUPnPServices.get_Count","IUPnPServices::get_Count","_upnp_iupnpservices_count","get_Count","get_Count method [UPnP APIs]","get_Count method [UPnP APIs]","IUPnPServices interface","upnp.iupnpservices_count","upnp/IUPnPServices::get_Count"]
 old-location: upnp\iupnpservices_count.htm
 tech.root: upnp
 ms.assetid: 33d90664-825a-4562-82ae-249b329743ac
 ms.date: 12/05/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Count method, IUPnPServices.get_Count, IUPnPServices::get_Count, _upnp_iupnpservices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_count, upnp/IUPnPServices::get_Count
-f1_keywords:
-- upnp/IUPnPServices.get_Count
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServices.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServices::get_Count
+ - upnp/IUPnPServices::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServices.get_Count
 ---
 
 # IUPnPServices::get_Count
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Count</b> property specifies the number of services in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param plCount [out]
 
 Receives a reference to the number of services in the collection.
 
-
 ## -returns
-
-
 
 For C++: If this property's "get" method succeeds, the return value is S_OK. Otherwise, the method returns one of the COM error codes defined in WinError.h, or one of the following UPnP-specific return values.
 
@@ -97,18 +91,7 @@ Failed to subscribe to the event source.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>

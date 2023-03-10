@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.ReadDvdStructure
 title: IDiscRecorder2Ex::ReadDvdStructure (imapi2.h)
 description: Reads a DVD structure from the media.
+helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","ReadDvdStructure method","IDiscRecorder2Ex.ReadDvdStructure","IDiscRecorder2Ex::ReadDvdStructure","ReadDvdStructure","ReadDvdStructure method [IMAPI]","ReadDvdStructure method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_readdvdstructure","imapi2/IDiscRecorder2Ex::ReadDvdStructure"]
 old-location: imapi\idiscrecorder2ex_readdvdstructure.htm
 tech.root: imapi
 ms.assetid: 6842573a-68e5-47ea-8441-953ab85b9482
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],ReadDvdStructure method, IDiscRecorder2Ex.ReadDvdStructure, IDiscRecorder2Ex::ReadDvdStructure, ReadDvdStructure, ReadDvdStructure method [IMAPI], ReadDvdStructure method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_readdvdstructure, imapi2/IDiscRecorder2Ex::ReadDvdStructure
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.ReadDvdStructure
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.ReadDvdStructure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::ReadDvdStructure
+ - imapi2/IDiscRecorder2Ex::ReadDvdStructure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.ReadDvdStructure
 ---
 
 # IDiscRecorder2Ex::ReadDvdStructure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reads a DVD structure from the media.
 
-
 ## -parameters
-
-
-
 
 ### -param format [in]
 
@@ -68,34 +65,27 @@ Format field of the command packet. Acceptable values range from zero to 0xFF.
 
 Address field of the command packet.
 
-
 ### -param layer [in]
 
 Layer field of the command packet.
-
 
 ### -param agid [in]
 
 Authentication grant ID (AGID) field of the command packet.
 
-
 ### -param data [out]
 
-Data buffer that contains the DVD structure. For details of the contents of the data buffer, see the READ DISC STRUCTURE command in the latest revision of the MMC specification at <a href="https://go.microsoft.com/fwlink/p/?linkid=83843">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
+Data buffer that contains the DVD structure. For details of the contents of the data buffer, see the READ DISC STRUCTURE command in the latest revision of the MMC specification at <a href="https://www.microsoft.com/?ref=go">ftp://ftp.t10.org/t10/drafts/mmc5</a>.
 
 This method removes headers from the buffer.
 
 When done, call the <b>CoTaskMemFree</b> function to free the memory.
 
-
 ### -param count [out]
 
 Size, in bytes, of the data buffer.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -417,31 +407,15 @@ Value: 0xC0AA020E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method removes the complexity of working with the READ DISC STRUCTURE command. For details on the values to specify for the <i>format</i>, <i>address</i>, <i>layer</i>, and <i>agid</i> parameters, see their field descriptions for the READ DISC STRUCTURE command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-senddvdstructure">IDiscRecorder2Ex::SendDvdStructure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-senddvdstructure">IDiscRecorder2Ex::SendDvdStructure</a>

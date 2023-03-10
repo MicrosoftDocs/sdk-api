@@ -2,15 +2,12 @@
 UID: NF:searchapi.ISearchManager.GetIndexerVersionStr
 title: ISearchManager::GetIndexerVersionStr (searchapi.h)
 description: Retrieves the version of the current indexer as a single string.
+helpviewer_keywords: ["GetIndexerVersionStr","GetIndexerVersionStr method [search]","GetIndexerVersionStr method [search]","ISearchManager interface","ISearchManager interface [search]","GetIndexerVersionStr method","ISearchManager.GetIndexerVersionStr","ISearchManager::GetIndexerVersionStr","WDS 2.65 on Windows XP/Windows Server 2003","WDS 2.66 on Windows XP/Windows Server 2003","WDS 3.0 on Windows XP/Windows Server 2003","WDS 3.01 on Windows XP/Windows Server 2003","Windows Search 4.0 Preview on all platforms","Windows Search 4.0 on all platforms","Windows Search on Windows Vista RTM/Windows Server RTM","Windows Search on Windows Vista SP1/Windows Server 2008","_search_ISearchManager_GetIndexerVersionStr","search._search_ISearchManager_GetIndexerVersionStr","searchapi/ISearchManager::GetIndexerVersionStr"]
 old-location: search\_search_ISearchManager_GetIndexerVersionStr.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getindexerversionstr.htm
 ms.date: 12/05/2018
 ms.keywords: GetIndexerVersionStr, GetIndexerVersionStr method [search], GetIndexerVersionStr method [search],ISearchManager interface, ISearchManager interface [search],GetIndexerVersionStr method, ISearchManager.GetIndexerVersionStr, ISearchManager::GetIndexerVersionStr, WDS 2.65 on Windows XP/Windows Server 2003, WDS 2.66 on Windows XP/Windows Server 2003, WDS 3.0 on Windows XP/Windows Server 2003, WDS 3.01 on Windows XP/Windows Server 2003, Windows Search 4.0 Preview on all platforms, Windows Search 4.0 on all platforms, Windows Search on Windows Vista RTM/Windows Server RTM, Windows Search on Windows Vista SP1/Windows Server 2008, _search_ISearchManager_GetIndexerVersionStr, search._search_ISearchManager_GetIndexerVersionStr, searchapi/ISearchManager::GetIndexerVersionStr
-f1_keywords:
-- searchapi/ISearchManager.GetIndexerVersionStr
-dev_langs:
-- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Searchapi.h
-api_name:
-- ISearchManager.GetIndexerVersionStr
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISearchManager::GetIndexerVersionStr
+ - searchapi/ISearchManager::GetIndexerVersionStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Searchapi.h
+api_name:
+ - ISearchManager.GetIndexerVersionStr
 ---
 
 # ISearchManager::GetIndexerVersionStr
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the version of the current indexer as a single string.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszVersionString [out]
 
@@ -111,23 +108,12 @@ Receives the version of the current indexer.
 
 04.00.6001.16503
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://go.microsoft.com/fwlink/p/?linkid=155654">Code Gallery</a> and the <a href="https://go.microsoft.com/fwlink/p/?linkid=129787">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

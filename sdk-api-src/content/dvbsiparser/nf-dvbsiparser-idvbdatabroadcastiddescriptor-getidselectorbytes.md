@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
 title: IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes (dvbsiparser.h)
 description: Gets the data from the selector in a Digital Video Broadcast (DVB) data broadcast ID descriptor. The selector is defined by the broadcast standard for the network.
+helpviewer_keywords: ["GetIDSelectorBytes","GetIDSelectorBytes method [Microsoft TV Technologies]","GetIDSelectorBytes method [Microsoft TV Technologies]","IDvbDataBroadcastIDDescriptor interface","IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies]","GetIDSelectorBytes method","IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes","IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes","dvbsiparser/IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes","mstv.idvbdatabroadcastiddescriptor_getidselectorbytes"]
 old-location: mstv\idvbdatabroadcastiddescriptor_getidselectorbytes.htm
 tech.root: mstv
 ms.assetid: b41614d6-61e4-4548-9c15-63ef100d2ab8
 ms.date: 12/05/2018
 ms.keywords: GetIDSelectorBytes, GetIDSelectorBytes method [Microsoft TV Technologies], GetIDSelectorBytes method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetIDSelectorBytes method, IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes, IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes, mstv.idvbdatabroadcastiddescriptor_getidselectorbytes
-f1_keywords:
-- dvbsiparser/IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes
+ - dvbsiparser/IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbDataBroadcastIDDescriptor.GetIDSelectorBytes
 ---
 
 # IDvbDataBroadcastIDDescriptor::GetIDSelectorBytes
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the data from the selector in a Digital Video Broadcast (DVB) data broadcast ID descriptor. The selector is defined by the broadcast standard for the network.
 
-
 ## -parameters
-
-
-
 
 ### -param pbLen [in, out]
 
 Specifies or gets the number of selector bytes for this descriptor.
 
-
 ### -param pbVal [out]
 
 Receives the selector bytes.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbdatabroadcastiddescriptor">IDvbDataBroadcastIDDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbdatabroadcastiddescriptor">IDvbDataBroadcastIDDescriptor</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_ApplicationData
 title: IAzAuthorizationStore::get_ApplicationData (azroles.h)
-description: Sets or retrieves an opaque field that can be used by the application to store information.
+description: Sets or retrieves an opaque field that can be used by the application to store information. (IAzAuthorizationStore.get_ApplicationData)
+helpviewer_keywords: ["ApplicationData property [Security]","ApplicationData property [Security]","AzAuthorizationStore object","ApplicationData property [Security]","IAzAuthorizationStore interface","AzAuthorizationStore object [Security]","ApplicationData property","IAzAuthorizationStore interface [Security]","ApplicationData property","IAzAuthorizationStore.ApplicationData","IAzAuthorizationStore.get_ApplicationData","IAzAuthorizationStore::ApplicationData","IAzAuthorizationStore::get_ApplicationData","IAzAuthorizationStore::put_ApplicationData","azroles/IAzAuthorizationStore::ApplicationData","azroles/IAzAuthorizationStore::get_ApplicationData","azroles/IAzAuthorizationStore::put_ApplicationData","get_ApplicationData","security.azadminmanager_applicationdata","security.azauthorizationstore_applicationdata"]
 old-location: security\azauthorizationstore_applicationdata.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 21a76185-6bcf-405a-a2c5-5509b51ed16e
 ms.date: 12/05/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzAuthorizationStore object, ApplicationData property [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],ApplicationData property, IAzAuthorizationStore interface [Security],ApplicationData property, IAzAuthorizationStore.ApplicationData, IAzAuthorizationStore.get_ApplicationData, IAzAuthorizationStore::ApplicationData, IAzAuthorizationStore::get_ApplicationData, IAzAuthorizationStore::put_ApplicationData, azroles/IAzAuthorizationStore::ApplicationData, azroles/IAzAuthorizationStore::get_ApplicationData, azroles/IAzAuthorizationStore::put_ApplicationData, get_ApplicationData, security.azadminmanager_applicationdata, security.azauthorizationstore_applicationdata
-f1_keywords:
-- azroles/IAzAuthorizationStore.ApplicationData
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzAuthorizationStore.ApplicationData
-- IAzAuthorizationStore.get_ApplicationData
-- IAzAuthorizationStore.put_ApplicationData
-- AzAuthorizationStore.ApplicationData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore::get_ApplicationData
+ - azroles/IAzAuthorizationStore::get_ApplicationData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzAuthorizationStore.ApplicationData
+ - IAzAuthorizationStore.get_ApplicationData
+ - IAzAuthorizationStore.put_ApplicationData
+ - AzAuthorizationStore.ApplicationData
 ---
 
 # IAzAuthorizationStore::get_ApplicationData
@@ -51,20 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ApplicationData</b> property sets or retrieves an opaque field that can be used by the application to store information.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Important</b>  Policy administrators can read from and write to this property. Applications should not store data in the <b>ApplicationData</b> property that should not be available to the policy administrator.</div>
 <div> </div>
-
 

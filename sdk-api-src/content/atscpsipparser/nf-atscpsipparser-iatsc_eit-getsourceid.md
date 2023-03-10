@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IATSC_EIT.GetSourceId
 title: IATSC_EIT::GetSourceId (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetSourceId","GetSourceId method [Microsoft TV Technologies]","GetSourceId method [Microsoft TV Technologies]","IATSC_EIT interface","IATSC_EIT interface [Microsoft TV Technologies]","GetSourceId method","IATSC_EIT.GetSourceId","IATSC_EIT::GetSourceId","IATSC_EITGetSourceId","atscpsipparser/IATSC_EIT::GetSourceId","mstv.iatsc_eit_getsourceid"]
 old-location: mstv\iatsc_eit_getsourceid.htm
 tech.root: mstv
 ms.assetid: 2ab6709e-3d96-4388-a9b2-97a2f04a4eae
 ms.date: 12/05/2018
 ms.keywords: GetSourceId, GetSourceId method [Microsoft TV Technologies], GetSourceId method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetSourceId method, IATSC_EIT.GetSourceId, IATSC_EIT::GetSourceId, IATSC_EITGetSourceId, atscpsipparser/IATSC_EIT::GetSourceId, mstv.iatsc_eit_getsourceid
-f1_keywords:
-- atscpsipparser/IATSC_EIT.GetSourceId
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_EIT.GetSourceId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_EIT::GetSourceId
+ - atscpsipparser/IATSC_EIT::GetSourceId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_EIT.GetSourceId
 ---
 
 # IATSC_EIT::GetSourceId
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetSourceId</b> method returns the source identifier for the EIT.
 
-
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the source_id field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -102,18 +95,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT Interface</a>

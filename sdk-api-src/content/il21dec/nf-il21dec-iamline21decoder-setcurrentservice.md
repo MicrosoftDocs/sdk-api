@@ -2,15 +2,12 @@
 UID: NF:il21dec.IAMLine21Decoder.SetCurrentService
 title: IAMLine21Decoder::SetCurrentService (il21dec.h)
 description: The SetCurrentService method sets the closed captioning service.
+helpviewer_keywords: ["IAMLine21Decoder interface [DirectShow]","SetCurrentService method","IAMLine21Decoder.SetCurrentService","IAMLine21Decoder::SetCurrentService","IAMLine21DecoderSetCurrentService","SetCurrentService","SetCurrentService method [DirectShow]","SetCurrentService method [DirectShow]","IAMLine21Decoder interface","dshow.iamline21decoder_setcurrentservice","il21dec/IAMLine21Decoder::SetCurrentService"]
 old-location: dshow\iamline21decoder_setcurrentservice.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2f1945c3-644d-4e72-b2b7-a7e068b59d96
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetCurrentService method, IAMLine21Decoder.SetCurrentService, IAMLine21Decoder::SetCurrentService, IAMLine21DecoderSetCurrentService, SetCurrentService, SetCurrentService method [DirectShow], SetCurrentService method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setcurrentservice, il21dec/IAMLine21Decoder::SetCurrentService
-f1_keywords:
-- il21dec/IAMLine21Decoder.SetCurrentService
-dev_langs:
-- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMLine21Decoder.SetCurrentService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMLine21Decoder::SetCurrentService
+ - il21dec/IAMLine21Decoder::SetCurrentService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMLine21Decoder.SetCurrentService
 ---
 
 # IAMLine21Decoder::SetCurrentService
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetCurrentService</code> method sets the closed captioning service.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param Service
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccservice">AM_LINE21_CCSERVICE</a> enumeration that specifies the closed captioning service. The default service is CC1.
-
+Member of the <a href="/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccservice">AM_LINE21_CCSERVICE</a> enumeration that specifies the closed captioning service. The default service is CC1.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -90,26 +81,15 @@ Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desk
 <td>Success</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">IAMLine21Decoder::GetCurrentService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">IAMLine21Decoder::GetCurrentService</a>

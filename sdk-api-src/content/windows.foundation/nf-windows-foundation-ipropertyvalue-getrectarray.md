@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRectArray
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetRectArray (windows.foundation.h)
 description: Gets the array of Rect values that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetRectArray","GetRectArray method [Windows Runtime]","GetRectArray method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetRectArray method","IPropertyValue.GetRectArray","IPropertyValue.IPropertyValue","IPropertyValue::GetRectArray","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetRectArray","winrt.ipropertyvalue_getrectarray"]
 old-location: winrt\ipropertyvalue_getrectarray.htm
 tech.root: WinRT
 ms.assetid: 7e1f39f6-0ccb-4841-ae5e-36adaf72a4ee
 ms.date: 12/05/2018
 ms.keywords: GetRectArray, GetRectArray method [Windows Runtime], GetRectArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRectArray method, IPropertyValue.GetRectArray, IPropertyValue.IPropertyValue, IPropertyValue::GetRectArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRectArray, winrt.ipropertyvalue_getrectarray
-f1_keywords:
-- windows.foundation/IPropertyValue.GetRectArray
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetRectArray
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetRectArray
+ - windows.foundation/IPropertyValue::GetRectArray
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetRectArray
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetRectArray (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a> values that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a> values that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param __valueSize [out]
 
@@ -63,38 +60,24 @@ Type: <b>UINT32*</b>
 
 The number of values in the array.
 
-
 ### -param value [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>**</b>
+Type: <b><a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>**</b>
 
-The array of <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a> values.
+The array of <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a> values.
 
-The returned pointer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+The returned pointer must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrectarray">IPropertyValueStatics::CreateRectArray</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrectarray">IPropertyValueStatics::CreateRectArray</a>

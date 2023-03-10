@@ -2,15 +2,12 @@
 UID: NF:icontact.IContactPropertyCollection.Next
 title: IContactPropertyCollection::Next (icontact.h)
 description: Moves to the next property.
+helpviewer_keywords: ["IContactPropertyCollection interface [Windows Contacts]","Next method","IContactPropertyCollection.Next","IContactPropertyCollection::Next","Next","Next method [Windows Contacts]","Next method [Windows Contacts]","IContactPropertyCollection interface","_wincontacts_IContactPropertyCollection_Next","icontact/IContactPropertyCollection::Next","wincontacts._wincontacts_IContactPropertyCollection_Next"]
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_Next.htm
 tech.root: wincontacts
 ms.assetid: b6e8abad-796d-4ded-be23-45ca107915f1
 ms.date: 12/05/2018
 ms.keywords: IContactPropertyCollection interface [Windows Contacts],Next method, IContactPropertyCollection.Next, IContactPropertyCollection::Next, Next, Next method [Windows Contacts], Next method [Windows Contacts],IContactPropertyCollection interface, _wincontacts_IContactPropertyCollection_Next, icontact/IContactPropertyCollection::Next, wincontacts._wincontacts_IContactPropertyCollection_Next
-f1_keywords:
-- icontact/IContactPropertyCollection.Next
-dev_langs:
-- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wab32.dll
-api_name:
-- IContactPropertyCollection.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContactPropertyCollection::Next
+ - icontact/IContactPropertyCollection::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wab32.dll
+api_name:
+ - IContactPropertyCollection.Next
 ---
 
 # IContactPropertyCollection::Next
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Moves to the next property.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -95,16 +88,9 @@ Could not move, positioned at the end of the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <div class="alert"><b>Note</b>  After S_FALSE, further calls to interface's query methods will fail.</div>
 <div> </div>
-
 

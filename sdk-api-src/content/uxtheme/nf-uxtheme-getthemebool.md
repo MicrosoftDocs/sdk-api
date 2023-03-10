@@ -2,15 +2,12 @@
 UID: NF:uxtheme.GetThemeBool
 title: GetThemeBool function (uxtheme.h)
 description: Retrieves the value of a BOOL property from the SysMetrics section of theme data.
+helpviewer_keywords: ["GetThemeBool","GetThemeBool function [Windows Controls]","TMT_ALWAYSSHOWSIZINGBAR","TMT_AUTOSIZE","TMT_BGFILL","TMT_BORDERONLY","TMT_COMPOSITED","TMT_GLYPHONLY","TMT_GLYPHTRANSPARENT","TMT_INTEGRALSIZING","TMT_MIRRORIMAGE","TMT_SOURCEGROW","TMT_SOURCESHRINK","TMT_TRANSPARENT","TMT_UNIFORMSIZING","TMT_USERPICTURE","controls.GetThemeBool","controls.inet_GetThemeBool","inet_GetThemeBool","inet_GetThemeBool_cpp","uxtheme/GetThemeBool"]
 old-location: controls\GetThemeBool.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebool.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeBool, GetThemeBool function [Windows Controls], TMT_ALWAYSSHOWSIZINGBAR, TMT_AUTOSIZE, TMT_BGFILL, TMT_BORDERONLY, TMT_COMPOSITED, TMT_GLYPHONLY, TMT_GLYPHTRANSPARENT, TMT_INTEGRALSIZING, TMT_MIRRORIMAGE, TMT_SOURCEGROW, TMT_SOURCESHRINK, TMT_TRANSPARENT, TMT_UNIFORMSIZING, TMT_USERPICTURE, controls.GetThemeBool, controls.inet_GetThemeBool, inet_GetThemeBool, inet_GetThemeBool_cpp, uxtheme/GetThemeBool
-f1_keywords:
-- uxtheme/GetThemeBool
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- GetThemeBool
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeBool
+ - uxtheme/GetThemeBool
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - GetThemeBool
 ---
 
 # GetThemeBool function
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of a <b>BOOL</b> property from the SysMetrics section of theme data.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
-
+Handle to a window's specified theme data. Use <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part containing the BOOL property. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
-
+Value of type <b>int</b> that specifies the part containing the BOOL property. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
-
+Value of type <b>int</b> that specifies the state of the part. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iPropId [in]
 
@@ -95,7 +89,7 @@ Value of type <b>int</b> that specifies the property to retrieve. May be one of 
 </dl>
 </td>
 <td width="60%">
-<b>TRUE</b> if the image associated with the part and state have transparent areas. See <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemecolor">GetThemeColor</a> for the definition of the TMT_TRANSPARENTCOLOR value that defines the transparent color.
+<b>TRUE</b> if the image associated with the part and state have transparent areas. See <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemecolor">GetThemeColor</a> for the definition of the TMT_TRANSPARENTCOLOR value that defines the transparent color.
 
 </td>
 </tr>
@@ -145,7 +139,7 @@ Value of type <b>int</b> that specifies the property to retrieve. May be one of 
 </dl>
 </td>
 <td width="60%">
-<b>TRUE</b> if the glyph associated with this part and state have transparent areas. See <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemecolor">GetThemeColor</a> for the definition of the TMT_GLYPHCOLOR value that defines the transparent color.
+<b>TRUE</b> if the glyph associated with this part and state have transparent areas. See <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemecolor">GetThemeColor</a> for the definition of the TMT_GLYPHCOLOR value that defines the transparent color.
 
 </td>
 </tr>
@@ -230,34 +224,19 @@ Value of type <b>int</b> that specifies the property to retrieve. May be one of 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pfVal [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Pointer to a <b>BOOL</b> that receives the retrieved property value.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/property-typedefs">Property Identifiers</a>

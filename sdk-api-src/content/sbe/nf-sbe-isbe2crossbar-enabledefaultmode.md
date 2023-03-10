@@ -2,15 +2,12 @@
 UID: NF:sbe.ISBE2Crossbar.EnableDefaultMode
 title: ISBE2Crossbar::EnableDefaultMode (sbe.h)
 description: Enables or disables the profile default mode and stream default mode for a crossbar in a Stream Buffer Source filter.
+helpviewer_keywords: ["EnableDefaultMode","EnableDefaultMode method [Microsoft TV Technologies]","EnableDefaultMode method [Microsoft TV Technologies]","ISBE2Crossbar interface","ISBE2Crossbar interface [Microsoft TV Technologies]","EnableDefaultMode method","ISBE2Crossbar.EnableDefaultMode","ISBE2Crossbar::EnableDefaultMode","mstv.isbe2crossbar_enabledefaultmode","sbe/ISBE2Crossbar::EnableDefaultMode"]
 old-location: mstv\isbe2crossbar_enabledefaultmode.htm
 tech.root: mstv
 ms.assetid: 5038050b-319d-488a-9cea-a2fc59b90cc8
 ms.date: 12/05/2018
 ms.keywords: EnableDefaultMode, EnableDefaultMode method [Microsoft TV Technologies], EnableDefaultMode method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],EnableDefaultMode method, ISBE2Crossbar.EnableDefaultMode, ISBE2Crossbar::EnableDefaultMode, mstv.isbe2crossbar_enabledefaultmode, sbe/ISBE2Crossbar::EnableDefaultMode
-f1_keywords:
-- sbe/ISBE2Crossbar.EnableDefaultMode
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2Crossbar.EnableDefaultMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2Crossbar::EnableDefaultMode
+ - sbe/ISBE2Crossbar::EnableDefaultMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2Crossbar.EnableDefaultMode
 ---
 
 # ISBE2Crossbar::EnableDefaultMode
@@ -48,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables or disables the profile default mode and stream default mode for a crossbar in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
+Enables or disables the profile default mode and stream default mode for a crossbar in a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
     The <i>profile</i>  describes a set of media types that can be used to create out pins, one media type per output pin. The <i>stream mapping</i> describes the mappings between the streams within a WTV file and filter output pins.
 
  If you do not call the <b>EnableDefaultMode</b> method in your application, the crossbar uses a default profile and a default stream map. In this case, the crossbar is said to be in <i>profile default mode</i> and <i>stream default mode</i>, respectively. You can use the <b>EnableDefaultMode</b> method to disable either mode or both modes, so that you can specify custom profiles or stream mappings. You can also use an <code>EnableDefaultMode(FALSE)</code> call to disable both default modes.
 
-
 ## -parameters
-
-
-
 
 ### -param DefaultFlags [in]
 
@@ -76,7 +73,7 @@ Specifies the default modes for the crossbar. This can be any combination of the
 </dl>
 </td>
 <td width="60%">
-Enables profile default mode. The default profile is used, and you cannot specify custom profiles by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method. If you omit this flag, profile default mode is disabled  so that you can specify a custom output profile.
+Enables profile default mode. The default profile is used, and you cannot specify custom profiles by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method. If you omit this flag, profile default mode is disabled  so that you can specify a custom output profile.
 
 </td>
 </tr>
@@ -87,26 +84,17 @@ Enables profile default mode. The default profile is used, and you cannot specif
 </dl>
 </td>
 <td width="60%">
-Enables stream default mode. The Stream Buffer Enging (SBE) handles the mapping between streams and output pins, and you cannot change these mappings by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a> method. If you omit this flag, stream default mode is disabled,  so that you can specify a custom mapping.
+Enables stream default mode. The Stream Buffer Engine (SBE) handles the mapping between streams and output pins, and you cannot change these mappings by calling the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a> method. If you omit this flag, stream default mode is disabled, so that you can specify a custom mapping.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 In stream default mode, SBE first checks the Windows Media Center TV settings to determine if a preferred language is set. If a preferred language is set:
 
@@ -121,27 +109,18 @@ If no preferred language is set, Windows Media Center is either not present or n
 <li>Otherwise, SBE outputs the default audio stream.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">ISBE2Crossbar::SetOutputProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">ISBE2Crossbar::SetOutputProfile</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2streammap-mapstream">ISBE2StreamMap::MapStream</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>

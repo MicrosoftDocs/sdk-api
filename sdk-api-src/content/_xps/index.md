@@ -4,7 +4,7 @@ title: XPS Documents
 ms.assetid: 047318b5-29f7-3069-a13a-0bf4c2391b71
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # XPS Documents
@@ -22,5 +22,4 @@ To develop XPS Documents, you need these headers:
  * [xpsobjectmodel_2.h](../xpsobjectmodel_2/index.md)
 
 For programming guidance for this technology, see:
-* [Documents and Printing](https://docs.microsoft.com/windows/desktop/printdocs/documents-and-printing)
-
+* [Documents and Printing](/windows/desktop/printdocs/documents-and-printing)

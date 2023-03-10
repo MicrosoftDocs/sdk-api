@@ -2,15 +2,12 @@
 UID: NF:dsattrib.IAttributeGet.GetAttrib
 title: IAttributeGet::GetAttrib (dsattrib.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetAttrib","GetAttrib method [Microsoft TV Technologies]","GetAttrib method [Microsoft TV Technologies]","IAttributeGet interface","IAttributeGet interface [Microsoft TV Technologies]","GetAttrib method","IAttributeGet.GetAttrib","IAttributeGet::GetAttrib","IAttributeGetGetAttrib","dsattrib/IAttributeGet::GetAttrib","mstv.iattributeget_getattrib"]
 old-location: mstv\iattributeget_getattrib.htm
 tech.root: mstv
 ms.assetid: df1aad0c-7e71-4110-8e05-0af33dd04859
 ms.date: 12/05/2018
 ms.keywords: GetAttrib, GetAttrib method [Microsoft TV Technologies], GetAttrib method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetAttrib method, IAttributeGet.GetAttrib, IAttributeGet::GetAttrib, IAttributeGetGetAttrib, dsattrib/IAttributeGet::GetAttrib, mstv.iattributeget_getattrib
-f1_keywords:
-- dsattrib/IAttributeGet.GetAttrib
-dev_langs:
-- c++
 req.header: dsattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dsattrib.h
-api_name:
-- IAttributeGet.GetAttrib
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttributeGet::GetAttrib
+ - dsattrib/IAttributeGet::GetAttrib
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dsattrib.h
+api_name:
+ - IAttributeGet.GetAttrib
 ---
 
 # IAttributeGet::GetAttrib
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,30 +57,21 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetAttrib</b> method returns an attribute value, specified by <b>GUID</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param guidAttribute [in]
 
 <b>GUID</b> that specifies the attribute to retrieve.
 
-
 ### -param pbAttribute [in, out]
 
 Pointer to a buffer that receives the attribute value. This parameter can be <b>NULL</b>.
-
 
 ### -param pdwAttributeLength [in, out]
 
 If <i>pbAttribute</i> is <b>NULL</b>, this parameter receives the size of the attribute data, in bytes. If <i>pbAttribute</i> is non-<b>NULL</b>, this parameter specifies the size of the <i>pbAttribute</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -123,18 +114,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeget">IAttributeGet Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeget">IAttributeGet Interface</a>

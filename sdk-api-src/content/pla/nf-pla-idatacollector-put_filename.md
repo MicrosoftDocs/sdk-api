@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IDataCollector.put_FileName
 title: IDataCollector::put_FileName (pla.h)
-description: Retrieves or sets the base name of the file that will contain the data collector data.
+description: Retrieves or sets the base name of the file that will contain the data collector data. (Put)
+helpviewer_keywords: ["FileName property [PLA]","FileName property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","FileName property","IDataCollector.FileName","IDataCollector.put_FileName","IDataCollector::FileName","IDataCollector::get_FileName","IDataCollector::put_FileName","base.idatacollector_filename","pla.idatacollector_filename","pla/IDataCollector::FileName","pla/IDataCollector::get_FileName","pla/IDataCollector::put_FileName","put_FileName"]
 old-location: pla\idatacollector_filename.htm
 tech.root: PLA
 ms.assetid: 9208baf8-0bc7-45c4-a912-7b59f4c1ca6a
 ms.date: 12/05/2018
 ms.keywords: FileName property [PLA], FileName property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileName property, IDataCollector.FileName, IDataCollector.put_FileName, IDataCollector::FileName, IDataCollector::get_FileName, IDataCollector::put_FileName, base.idatacollector_filename, pla.idatacollector_filename, pla/IDataCollector::FileName, pla/IDataCollector::get_FileName, pla/IDataCollector::put_FileName, put_FileName
-f1_keywords:
-- pla/IDataCollector.FileName
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollector.FileName
-- IDataCollector.get_FileName
-- IDataCollector.put_FileName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollector::put_FileName
+ - pla/IDataCollector::put_FileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollector.FileName
+ - IDataCollector.get_FileName
+ - IDataCollector.put_FileName
 ---
 
 # IDataCollector::put_FileName
@@ -50,22 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the base name of the file that will contain the data collector data.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
+The actual file name used could be different if you specified formatting options in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a> property. The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a> property contains the actual file name used. 
 
-
-The actual file name used could be different if you specified formatting options in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a> property. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_latestoutputlocation">IDataCollector::LatestOutputLocation</a> property contains the actual file name used. 
-
-Do not include the path in the file name; the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">IDataCollectorSet::RootPath</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectory">IDataCollectorSet::Subdirectory</a> properties determine the path to the file.
+Do not include the path in the file name; the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_rootpath">IDataCollectorSet::RootPath</a> and <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectory">IDataCollectorSet::Subdirectory</a> properties determine the path to the file.
 
 The file name extension that you specify depends on the type of data collector. The following table shows the correct extension to use for each data collector. If you specify a different extension, PLA will use it. If you do not specify an extension, PLA adds the correct extension to the file. 
 
@@ -80,7 +77,7 @@ The file name extension that you specify depends on the type of data collector. 
 </tr>
 <tr>
 <td>Performance data collectors</td>
-<td>Can be .blg, .csv, or .tsv depending on the value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iperformancecounterdatacollector-get_logfileformat">IPerformanceCounterDataCollector::LogFileFormat</a> property. </td>
+<td>Can be .blg, .csv, or .tsv depending on the value of the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iperformancecounterdatacollector-get_logfileformat">IPerformanceCounterDataCollector::LogFileFormat</a> property. </td>
 </tr>
 <tr>
 <td>Trace data collectors</td>
@@ -89,26 +86,16 @@ The file name extension that you specify depends on the type of data collector. 
 </table>
  
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">IDataCollector::LogAppend</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logoverwrite">IDataCollector::LogOverwrite</a> properties determine the action taken if the file already exists. 
-
-
-
+The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logappend">IDataCollector::LogAppend</a> and <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logoverwrite">IDataCollector::LogOverwrite</a> properties determine the action taken if the file already exists.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">IDataCollector::FileNameFormatPattern</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">IDataCollector::FileNameFormatPattern</a>

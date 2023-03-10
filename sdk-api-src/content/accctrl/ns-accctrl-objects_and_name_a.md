@@ -1,16 +1,13 @@
 ---
 UID: NS:accctrl._OBJECTS_AND_NAME_A
 title: OBJECTS_AND_NAME_A (accctrl.h)
-description: Contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific access control entry (ACE).
+description: Contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific access control entry (ACE). (ANSI)
+helpviewer_keywords: ["*POBJECTS_AND_NAME_A","ACE_INHERITED_OBJECT_TYPE_PRESENT","ACE_OBJECT_TYPE_PRESENT","OBJECTS_AND_NAME","OBJECTS_AND_NAME structure [Security]","OBJECTS_AND_NAME_","OBJECTS_AND_NAME_A","OBJECTS_AND_NAME_W","POBJECTS_AND_NAME","POBJECTS_AND_NAME structure pointer [Security]","_win32_objects_and_name_str","accctrl/OBJECTS_AND_NAME","accctrl/OBJECTS_AND_NAME_A","accctrl/OBJECTS_AND_NAME_W","accctrl/POBJECTS_AND_NAME","security.objects_and_name"]
 old-location: security\objects_and_name.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: ad91a302-f693-44e9-9655-ec4488ff78c4
 ms.date: 12/05/2018
 ms.keywords: '*POBJECTS_AND_NAME_A, ACE_INHERITED_OBJECT_TYPE_PRESENT, ACE_OBJECT_TYPE_PRESENT, OBJECTS_AND_NAME, OBJECTS_AND_NAME structure [Security], OBJECTS_AND_NAME_, OBJECTS_AND_NAME_A, OBJECTS_AND_NAME_W, POBJECTS_AND_NAME, POBJECTS_AND_NAME structure pointer [Security], _win32_objects_and_name_str, accctrl/OBJECTS_AND_NAME, accctrl/OBJECTS_AND_NAME_A, accctrl/OBJECTS_AND_NAME_W, accctrl/POBJECTS_AND_NAME, security.objects_and_name'
-f1_keywords:
-- accctrl/OBJECTS_AND_NAME
-dev_langs:
-- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- AccCtrl.h
-api_name:
-- OBJECTS_AND_NAME
-- OBJECTS_AND_NAME_A
-- OBJECTS_AND_NAME_W
 targetos: Windows
 req.typenames: OBJECTS_AND_NAME_A, *POBJECTS_AND_NAME_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OBJECTS_AND_NAME_A
+ - accctrl/_OBJECTS_AND_NAME_A
+ - POBJECTS_AND_NAME_A
+ - accctrl/POBJECTS_AND_NAME_A
+ - OBJECTS_AND_NAME_A
+ - accctrl/OBJECTS_AND_NAME_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - AccCtrl.h
+api_name:
+ - OBJECTS_AND_NAME
+ - OBJECTS_AND_NAME_A
+ - OBJECTS_AND_NAME_W
 ---
 
 # OBJECTS_AND_NAME_A structure
@@ -50,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OBJECTS_AND_NAME</b> structure contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
-
+The <b>OBJECTS_AND_NAME</b> structure contains a string that identifies a trustee by name and additional strings that identify the object types of an object-specific <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE).
 
 ## -struct-fields
-
-
-
 
 ### -field ObjectsPresent
 
@@ -96,21 +97,17 @@ The <b>InheritedObjectTypeName</b> member contains a string.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ObjectType
 
 Specifies a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object.
-
+<a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a> enumeration that indicates the type of object.
 
 ### -field ObjectTypeName
 
 A pointer to a null-terminated string that identifies the type of object to which the ACE applies.
 
-This string must be a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
-
+This string must be a valid <a href="/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
 
 ### -field InheritedObjectTypeName
 
@@ -119,56 +116,49 @@ A pointer to a null-terminated string that identifies the type of object that ca
 
 
 
-This string must be a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
+This string must be a valid <a href="/windows/desktop/SecGloss/l-gly">LDAP</a> display name in the Active Directory schema.
 
-If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>structure as well as by any protection against inheritance placed on the child objects.
-
+If the ACE_INHERITED_OBJECT_TYPE_PRESENT bit is not set in the <b>ObjectsPresent</b> member, the <b>InheritedObjectTypeName</b> member is ignored, and all types of child objects can inherit the ACE. Otherwise, only the specified object type can inherit the ACE. In either case, inheritance is also controlled by the inheritance flags in the <a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure as well as by any protection against inheritance placed on the child objects.
 
 ### -field ptstrName
 
 A pointer to a null-terminated string that contains the name of the trustee.
 
-
 ## -remarks
 
+The <b>ptstrName</b> member of a <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure can be a pointer to an <b>OBJECTS_AND_NAME</b> structure. This enables functions such as <a href="/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and <a href="/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> to store object-specific ACE information in the <b>Trustee</b> member of an <a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure.
 
 
-The <b>ptstrName</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure can be a pointer to an <b>OBJECTS_AND_NAME</b> structure. This enables functions such as <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a> and <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> to store object-specific ACE information in the <b>Trustee</b> member of an <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structure.
 
 
 
+> [!NOTE]
+> The accctrl.h header defines OBJECTS_AND_NAME_ as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
+<a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
+<a href="/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a>
+<a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>

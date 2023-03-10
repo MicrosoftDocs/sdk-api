@@ -2,15 +2,12 @@
 UID: NF:mssip.CryptSIPRemoveSignedDataMsg
 title: CryptSIPRemoveSignedDataMsg function (mssip.h)
 description: Removes a specified Authenticode signature.
+helpviewer_keywords: ["CryptSIPRemoveSignedDataMsg","CryptSIPRemoveSignedDataMsg function [Security]","mssip/CryptSIPRemoveSignedDataMsg","security.cryptsipremovesigneddatamsg"]
 old-location: security\cryptsipremovesigneddatamsg.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c3ea46bb-931a-4ca6-93f5-db7e07b4cb7a
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRemoveSignedDataMsg, CryptSIPRemoveSignedDataMsg function [Security], mssip/CryptSIPRemoveSignedDataMsg, security.cryptsipremovesigneddatamsg
-f1_keywords:
-- mssip/CryptSIPRemoveSignedDataMsg
-dev_langs:
-- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSIPRemoveSignedDataMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSIPRemoveSignedDataMsg
+ - mssip/CryptSIPRemoveSignedDataMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSIPRemoveSignedDataMsg
 ---
 
 # CryptSIPRemoveSignedDataMsg function
@@ -48,47 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CryptSIPRemoveSignedDataMsg</b> function removes a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> signature.
-
+The <b>CryptSIPRemoveSignedDataMsg</b> function removes a specified <a href="/windows/desktop/SecGloss/a-gly">Authenticode</a> signature.
 
 ## -parameters
 
-
-
-
 ### -param pSubjectInfo [in]
 
-A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
-
+A pointer to a [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 ### -param dwIndex [in]
 
 This parameter is reserved and should be set to zero.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>

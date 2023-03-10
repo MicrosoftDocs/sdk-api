@@ -1,16 +1,13 @@
 ---
-UID: NE:processsnapshot.__unnamed_enum_5
+UID: NE:processsnapshot.PSS_DUPLICATE_FLAGS
 title: PSS_DUPLICATE_FLAGS (processsnapshot.h)
 description: Duplication flags for use by PssDuplicateSnapshot.
+helpviewer_keywords: ["PSS_DUPLICATE_CLOSE_SOURCE","PSS_DUPLICATE_FLAGS","PSS_DUPLICATE_FLAGS enumeration","PSS_DUPLICATE_NONE","proc_snap.pss_duplicate_flags","processsnapshot/PSS_DUPLICATE_CLOSE_SOURCE","processsnapshot/PSS_DUPLICATE_FLAGS","processsnapshot/PSS_DUPLICATE_NONE"]
 old-location: proc_snap\pss_duplicate_flags.htm
 tech.root: proc_snap
 ms.assetid: CAD06441-750F-42FC-A95A-7CAA79F31348
 ms.date: 12/05/2018
 ms.keywords: PSS_DUPLICATE_CLOSE_SOURCE, PSS_DUPLICATE_FLAGS, PSS_DUPLICATE_FLAGS enumeration, PSS_DUPLICATE_NONE, proc_snap.pss_duplicate_flags, processsnapshot/PSS_DUPLICATE_CLOSE_SOURCE, processsnapshot/PSS_DUPLICATE_FLAGS, processsnapshot/PSS_DUPLICATE_NONE
-f1_keywords:
-- processsnapshot/PSS_DUPLICATE_FLAGS
-dev_langs:
-- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- processsnapshot.h
-api_name:
-- PSS_DUPLICATE_FLAGS
 targetos: Windows
 req.typenames: PSS_DUPLICATE_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PSS_DUPLICATE_FLAGS
+ - processsnapshot/PSS_DUPLICATE_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - processsnapshot.h
+api_name:
+ - PSS_DUPLICATE_FLAGS
 ---
 
 # PSS_DUPLICATE_FLAGS enumeration
@@ -48,33 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Duplication flags for use by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssduplicatesnapshot">PssDuplicateSnapshot</a>.
-
+Duplication flags for use by <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-pssduplicatesnapshot">PssDuplicateSnapshot</a>.
 
 ## -enum-fields
 
-
-
-
-### -field PSS_DUPLICATE_NONE
+### -field PSS_DUPLICATE_NONE:0x00
 
 No flag.
 
+### -field PSS_DUPLICATE_CLOSE_SOURCE:0x01
 
-### -field PSS_DUPLICATE_CLOSE_SOURCE
-
-Free the source handle. This will only succeed if you set the  <b>PSS_CREATE_USE_VM_ALLOCATIONS</b> flag when you called <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psscapturesnapshot">PssCaptureSnapshot</a> to create the snapshot and handle. The handle will be freed  even if duplication fails.
+Free the source handle. This will only succeed if you set the  <b>PSS_CREATE_USE_VM_ALLOCATIONS</b> flag when you called <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psscapturesnapshot">PssCaptureSnapshot</a> to create the snapshot and handle. The handle will be freed  even if duplication fails.
 The close operation does not protect against concurrent access to the same descriptor.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
 

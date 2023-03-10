@@ -1,16 +1,13 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_TerminalServicesInitialProgram
 title: IADsTSUserEx::put_TerminalServicesInitialProgram (tsuserex.h)
-description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
+description: The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server. (Put)
+helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","TerminalServicesInitialProgram property","IADsTSUserEx.TerminalServicesInitialProgram","IADsTSUserEx.put_TerminalServicesInitialProgram","IADsTSUserEx::TerminalServicesInitialProgram","IADsTSUserEx::get_TerminalServicesInitialProgram","IADsTSUserEx::put_TerminalServicesInitialProgram","TerminalServicesInitialProgram property [Remote Desktop Services]","TerminalServicesInitialProgram property [Remote Desktop Services]","IADsTSUserEx interface","put_TerminalServicesInitialProgram","termserv.iadstsuserex_terminalservicesinitialprogram","tsuserex/IADsTSUserEx::TerminalServicesInitialProgram","tsuserex/IADsTSUserEx::get_TerminalServicesInitialProgram","tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram"]
 old-location: termserv\iadstsuserex_terminalservicesinitialprogram.htm
 tech.root: TermServ
 ms.assetid: 43059f13-a1f1-44b2-96ac-2532656a0846
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],TerminalServicesInitialProgram property, IADsTSUserEx.TerminalServicesInitialProgram, IADsTSUserEx.put_TerminalServicesInitialProgram, IADsTSUserEx::TerminalServicesInitialProgram, IADsTSUserEx::get_TerminalServicesInitialProgram, IADsTSUserEx::put_TerminalServicesInitialProgram, TerminalServicesInitialProgram property [Remote Desktop Services], TerminalServicesInitialProgram property [Remote Desktop Services],IADsTSUserEx interface, put_TerminalServicesInitialProgram, termserv.iadstsuserex_terminalservicesinitialprogram, tsuserex/IADsTSUserEx::TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::get_TerminalServicesInitialProgram, tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram
-f1_keywords:
-- tsuserex/IADsTSUserEx.TerminalServicesInitialProgram
-dev_langs:
-- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: Tsuserex.tlb
 req.lib: 
 req.dll: Tsuserex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tsuserex.dll
-api_name:
-- IADsTSUserEx.TerminalServicesInitialProgram
-- IADsTSUserEx.get_TerminalServicesInitialProgram
-- IADsTSUserEx.put_TerminalServicesInitialProgram
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsTSUserEx::put_TerminalServicesInitialProgram
+ - tsuserex/IADsTSUserEx::put_TerminalServicesInitialProgram
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tsuserex.dll
+api_name:
+ - IADsTSUserEx.TerminalServicesInitialProgram
+ - IADsTSUserEx.get_TerminalServicesInitialProgram
+ - IADsTSUserEx.put_TerminalServicesInitialProgram
 ---
 
 # IADsTSUserEx::put_TerminalServicesInitialProgram
@@ -50,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The path and file name of the application that the user wants to start automatically when the user logs on to the Remote Desktop Session Host (RD Session Host) server.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-To set an initial application to start when the user logs on, you must first set this property and then set the <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalservicesworkdirectory">TerminalServicesWorkDirectory</a> property. If you set only the <b>TerminalServicesInitialProgram</b> property, the application starts in the user's session in the default user directory.
+To set an initial application to start when the user logs on, you must first set this property and then set the <a href="/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalservicesworkdirectory">TerminalServicesWorkDirectory</a> property. If you set only the <b>TerminalServicesInitialProgram</b> property, the application starts in the user's session in the default user directory.
 
 
 #### Examples
@@ -85,17 +82,6 @@ Wscript.echo usr.TerminalServicesWorkDirectory
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

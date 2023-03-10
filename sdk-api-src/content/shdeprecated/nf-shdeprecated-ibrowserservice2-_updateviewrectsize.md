@@ -2,15 +2,12 @@
 UID: NF:shdeprecated.IBrowserService2._UpdateViewRectSize
 title: IBrowserService2::_UpdateViewRectSize (shdeprecated.h)
 description: Deprecated. Called to inform other functions involved in the browser view size negotiations that the allowable browser view dimensions have changed.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_UpdateViewRectSize method","IBrowserService2._UpdateViewRectSize","IBrowserService2::_UpdateViewRectSize","_UpdateViewRectSize","_UpdateViewRectSize method [Windows Shell]","_UpdateViewRectSize method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_UpdateViewRectSize","shell.IBrowserService2__UpdateViewRectSize","zone_IBrowserService2__UpdateViewRectSize"]
 old-location: shell\IBrowserService2__UpdateViewRectSize.htm
 tech.root: shell
 ms.assetid: 92860c13-cb67-4499-90fe-2b0254ae25c7
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_UpdateViewRectSize method, IBrowserService2._UpdateViewRectSize, IBrowserService2::_UpdateViewRectSize, _UpdateViewRectSize, _UpdateViewRectSize method [Windows Shell], _UpdateViewRectSize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_UpdateViewRectSize, shell.IBrowserService2__UpdateViewRectSize, zone_IBrowserService2__UpdateViewRectSize
-f1_keywords:
-- shdeprecated/IBrowserService2._UpdateViewRectSize
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._UpdateViewRectSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_UpdateViewRectSize
+ - shdeprecated/IBrowserService2::_UpdateViewRectSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._UpdateViewRectSize
 ---
 
 # IBrowserService2::_UpdateViewRectSize
@@ -49,24 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Called to inform other functions involved in the browser view size negotiations that the allowable browser view dimensions have changed.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

@@ -2,15 +2,12 @@
 UID: NF:mscat.CryptCATCDFClose
 title: CryptCATCDFClose function (mscat.h)
 description: Closes a catalog definition file (CDF) and frees the memory for the corresponding CRYPTCATCDF structure.
+helpviewer_keywords: ["CryptCATCDFClose","CryptCATCDFClose function [Security]","mscat/CryptCATCDFClose","security.cryptcatcdfclose"]
 old-location: security\cryptcatcdfclose.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9f2a1175-f9fe-4f4d-bf6f-e4f4c59739ec
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFClose, CryptCATCDFClose function [Security], mscat/CryptCATCDFClose, security.cryptcatcdfclose
-f1_keywords:
-- mscat/CryptCATCDFClose
-dev_langs:
-- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- CryptCATCDFClose
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptCATCDFClose
+ - mscat/CryptCATCDFClose
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - CryptCATCDFClose
 ---
 
 # CryptCATCDFClose function
@@ -48,51 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CryptCATCDFClose</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure. <b>CryptCATCDFClose</b> is called by <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>.
-
+The [CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure. <b>CryptCATCDFClose</b> is called by <a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>.
 
 ## -parameters
 
-
-
-
 ### -param pCDF [in]
 
-A pointer to a [CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a> structure.
-
+A pointer to a [CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf) structure.
 
 ## -returns
 
-
-
 Upon success, this function returns <b>TRUE</b>. The <b>CryptCATCDFClose</b> function returns <b>FALSE</b> with an <b>ERROR_INVALID_PARAMETER</b> error if it fails.
-
-
-
 
 ## -remarks
 
-
-
 Before closing the catalog output file specified in  <i>pCDF</i>, the <b>CryptCATCDFClose</b> function signs and persists it to the file system.
-
-
-
 
 ## -see-also
 
+[CRYPTCATCDF](/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)
 
 
 
-[CRYPTCATCDF](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatcdf)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/makecat">MakeCat</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/makecat">MakeCat</a>

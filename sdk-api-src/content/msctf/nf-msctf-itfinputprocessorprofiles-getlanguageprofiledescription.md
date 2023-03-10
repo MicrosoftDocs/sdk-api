@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageProfileDescription
 title: ITfInputProcessorProfiles::GetLanguageProfileDescription (msctf.h)
 description: ITfInputProcessorProfiles::GetLanguageProfileDescription method
+helpviewer_keywords: ["GetLanguageProfileDescription","GetLanguageProfileDescription method [Text Services Framework]","GetLanguageProfileDescription method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","GetLanguageProfileDescription method","ITfInputProcessorProfiles.GetLanguageProfileDescription","ITfInputProcessorProfiles::GetLanguageProfileDescription","_tsf_itfinputprocessorprofiles_getlanguageprofiledescription_ref","msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription","tsf.itfinputprocessorprofiles_getlanguageprofiledescription"]
 old-location: tsf\itfinputprocessorprofiles_getlanguageprofiledescription.htm
 tech.root: TSF
 ms.assetid: f5838d26-1065-498c-8361-8929c07fc725
 ms.date: 12/05/2018
 ms.keywords: GetLanguageProfileDescription, GetLanguageProfileDescription method [Text Services Framework], GetLanguageProfileDescription method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetLanguageProfileDescription method, ITfInputProcessorProfiles.GetLanguageProfileDescription, ITfInputProcessorProfiles::GetLanguageProfileDescription, _tsf_itfinputprocessorprofiles_getlanguageprofiledescription_ref, msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription, tsf.itfinputprocessorprofiles_getlanguageprofiledescription
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.GetLanguageProfileDescription
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.GetLanguageProfileDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::GetLanguageProfileDescription
+ - msctf/ITfInputProcessorProfiles::GetLanguageProfileDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.GetLanguageProfileDescription
 ---
 
 # ITfInputProcessorProfiles::GetLanguageProfileDescription
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the description string for a language profile.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the CLSID of the text service to obtain the profile description for.
 
-
 ### -param langid [in]
 
 Contains a <b>LANGID</b> value that specifies which language to obtain the profile description for.
-
 
 ### -param guidProfile [in]
 
 Contains a GUID value that identifies the language to obtain the profile description for.
 
-
 ### -param pbstrProfile [out]
 
-Pointer to a <b>BSTR</b> value that receives the description string. The caller is responsible for freeing this memory using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
-
+Pointer to a <b>BSTR</b> value that receives the description string. The caller is responsible for freeing this memory using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,27 +113,16 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerEnumerate
 title: PowerEnumerate function (powrprof.h)
 description: Enumerates the specified elements in a power scheme.
+helpviewer_keywords: ["ACCESS_INDIVIDUAL_SETTING","ACCESS_SCHEME","ACCESS_SUBGROUP","GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerEnumerate","PowerEnumerate function","base.powerenumerate","powrprof/PowerEnumerate"]
 old-location: base\powerenumerate.htm
-tech.root: power
+tech.root: base
 ms.assetid: 5b2c8263-d916-4909-be56-ec784537bdc3
 ms.date: 12/05/2018
 ms.keywords: ACCESS_INDIVIDUAL_SETTING, ACCESS_SCHEME, ACCESS_SUBGROUP, GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerEnumerate, PowerEnumerate function, base.powerenumerate, powrprof/PowerEnumerate
-f1_keywords:
-- powrprof/PowerEnumerate
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerEnumerate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerEnumerate
+ - powrprof/PowerEnumerate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerEnumerate
 ---
 
 # PowerEnumerate function
@@ -48,27 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the specified elements in a power scheme. This function is normally called in a 
     loop incrementing the <i>Index</i> parameter to retrieve subkeys until they've all been 
     enumerated.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemeGuid [in, optional]
 
 The identifier of the power scheme. If this parameter is <b>NULL</b>, 
       an enumeration of the power policies is returned.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -169,8 +164,6 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AccessFlags [in]
 
@@ -213,7 +206,7 @@ Enumerate subgroups under <i>SchemeGuid</i>. The
 </td>
 <td width="60%">
 Enumerate individual power settings under 
-        <i>SchemeGuid</i>\<i>SubgroupOfPowerSettingsGuid</i>. To enumerate power 
+        <i>SchemeGuid</i>&#92;<i>SubgroupOfPowerSettingsGuid</i>. To enumerate power 
         settings directly under the <i>SchemeGuid</i> key, use 
         <b>NO_SUBGROUP_GUID</b> as the <i>SubgroupOfPowerSettingsGuid</i> 
         parameter.
@@ -221,18 +214,14 @@ Enumerate individual power settings under
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Index [in]
 
 The zero-based index of the scheme, subgroup, or setting that is being enumerated.
 
-
 ### -param Buffer [out, optional]
 
 A pointer to a variable to receive the elements. If this parameter is <b>NULL</b>, the function retrieves the size of the buffer required.
-
 
 ### -param BufferSize [in, out]
 
@@ -241,10 +230,7 @@ A pointer to a variable that on input contains the size of the buffer pointed to
       <b>NULL</b> or if the <i>BufferSize</i> is not large enough, the function 
       will return <b>ERROR_MORE_DATA</b> and the variable receives the required buffer size.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed. If the buffer size passed in the <i>BufferSize</i> parameter is too small, 
@@ -252,20 +238,10 @@ Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero va
       <b>ERROR_MORE_DATA</b> will be returned and the <b>DWORD</b> pointed to 
       by the <i>BufferSize</i> parameter will be filled in with the required buffer size.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IHolder.UntrackResource
 title: IHolder::UntrackResource (comsvcs.h)
 description: Stops tracking a resource.
+helpviewer_keywords: ["IHolder interface [COM+]","UntrackResource method","IHolder.UntrackResource","IHolder::UntrackResource","UntrackResource","UntrackResource method [COM+]","UntrackResource method [COM+]","IHolder interface","_dtc_IHolder_UntrackResource","comsvcs/IHolder::UntrackResource","cos.iholder_untrackresource"]
 old-location: cos\iholder_untrackresource.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 380b09ad-08d6-4d25-8d80-0e56d4295b8f
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],UntrackResource method, IHolder.UntrackResource, IHolder::UntrackResource, UntrackResource, UntrackResource method [COM+], UntrackResource method [COM+],IHolder interface, _dtc_IHolder_UntrackResource, comsvcs/IHolder::UntrackResource, cos.iholder_untrackresource
-f1_keywords:
-- comsvcs/IHolder.UntrackResource
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IHolder.UntrackResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHolder::UntrackResource
+ - comsvcs/IHolder::UntrackResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IHolder.UntrackResource
 ---
 
 # IHolder::UntrackResource
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops tracking a resource.
 
-
 ## -parameters
-
-
-
 
 ### -param __MIDL__IHolder0005 [in]
 
 The handle of the resource to stop tracking.
 
-
 ### -param __MIDL__IHolder0006 [in]
 
-If <b>TRUE</b>, caller is requesting that the resource be destroyed, by calling <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a>. If <b>FALSE</b>, caller destroys the resource.
-
+If <b>TRUE</b>, caller is requesting that the resource be destroyed, by calling <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-destroyresource">IDispenserDriver::DestroyResource</a>. If <b>FALSE</b>, caller destroys the resource.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -112,26 +105,15 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>

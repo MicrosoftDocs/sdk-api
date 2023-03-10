@@ -2,15 +2,12 @@
 UID: NF:recapis.SetCACMode
 title: SetCACMode function (recapis.h)
 description: Specifies character Autocomplete mode for character or word recognition.You cannot turn off character Autocomplete after it is set.
+helpviewer_keywords: ["4f51e2e1-612a-484e-acba-6f3ae268082a","CAC_FULL","CAC_PREFIX","CAC_RANDOM","SetCACMode","SetCACMode function [Tablet PC]","recapis/SetCACMode","tablet.setcacmode"]
 old-location: tablet\setcacmode.htm
 tech.root: tablet
 ms.assetid: 4f51e2e1-612a-484e-acba-6f3ae268082a
 ms.date: 12/05/2018
 ms.keywords: 4f51e2e1-612a-484e-acba-6f3ae268082a, CAC_FULL, CAC_PREFIX, CAC_RANDOM, SetCACMode, SetCACMode function [Tablet PC], recapis/SetCACMode, tablet.setcacmode
-f1_keywords:
-- recapis/SetCACMode
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- SetCACMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetCACMode
+ - recapis/SetCACMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - SetCACMode
 ---
 
 # SetCACMode function
@@ -48,27 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies character Autocomplete mode for character or word recognition.
 
 You cannot turn off character Autocomplete after it is set.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrc
 
 The handle to the recognizer context.
 
-
 ### -param iMode
-
 
 The following table lists the possible character Autocomplete modes.
 
@@ -76,7 +68,7 @@ The following table lists the possible character Autocomplete modes.
 
 <table>
 <tr>
-<th>The haracter Autocomplete mode.</th>
+<th>The character Autocomplete mode.</th>
 <th>Meaning</th>
 </tr>
 <tr>
@@ -110,12 +102,8 @@ Recognition occurs on partial input. The order of the strokes can be arbitrary.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -164,7 +152,7 @@ The recognizer does not support this function.
 </dl>
 </td>
 <td width="60%">
-Either you have not called the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide</a> function before calling this function, or the guide has more than one box.
+Either you have not called the <a href="/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide</a> function before calling this function, or the guide has more than one box.
 
 </td>
 </tr>
@@ -186,12 +174,8 @@ The context is invalid or one of the parameters is an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide</a> was called previously.
+Attempted to set guide when there was already some ink in the reco context, or, in the case of recognizers of East Asian characters, <a href="/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide</a> was called previously.
 
 </td>
 </tr>
 </table>
- 
-
-
-

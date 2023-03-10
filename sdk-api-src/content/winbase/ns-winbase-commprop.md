@@ -2,15 +2,12 @@
 UID: NS:winbase._COMMPROP
 title: COMMPROP (winbase.h)
 description: Contains information about a communications driver.
+helpviewer_keywords: ["*LPCOMMPROP","BAUD_075","BAUD_110","BAUD_115200","BAUD_1200","BAUD_128K","BAUD_134_5","BAUD_14400","BAUD_150","BAUD_1800","BAUD_19200","BAUD_2400","BAUD_300","BAUD_38400","BAUD_4800","BAUD_56K","BAUD_57600","BAUD_600","BAUD_7200","BAUD_9600","BAUD_USER","COMMPROP","COMMPROP structure","DATABITS_16","DATABITS_16X","DATABITS_5","DATABITS_6","DATABITS_7","DATABITS_8","LPCOMMPROP","LPCOMMPROP structure pointer","PARITY_EVEN","PARITY_MARK","PARITY_NONE","PARITY_ODD","PARITY_SPACE","PCF_16BITMODE","PCF_DTRDSR","PCF_INTTIMEOUTS","PCF_PARITY_CHECK","PCF_RLSD","PCF_RTSCTS","PCF_SETXCHAR","PCF_SPECIALCHARS","PCF_TOTALTIMEOUTS","PCF_XONXOFF","PST_FAX","PST_LAT","PST_MODEM","PST_NETWORK_BRIDGE","PST_PARALLELPORT","PST_RS232","PST_RS422","PST_RS423","PST_RS449","PST_SCANNER","PST_TCPIP_TELNET","PST_UNSPECIFIED","PST_X25","SP_BAUD","SP_DATABITS","SP_HANDSHAKING","SP_PARITY","SP_PARITY_CHECK","SP_RLSD","SP_STOPBITS","STOPBITS_10","STOPBITS_15","STOPBITS_20","_COMMPROP","_win32_commprop_str","base.commprop_str","winbase/COMMPROP","winbase/LPCOMMPROP"]
 old-location: base\commprop_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: d50ff606-1939-4e36-ba83-da8f269a3cc8
 ms.date: 12/05/2018
 ms.keywords: '*LPCOMMPROP, BAUD_075, BAUD_110, BAUD_115200, BAUD_1200, BAUD_128K, BAUD_134_5, BAUD_14400, BAUD_150, BAUD_1800, BAUD_19200, BAUD_2400, BAUD_300, BAUD_38400, BAUD_4800, BAUD_56K, BAUD_57600, BAUD_600, BAUD_7200, BAUD_9600, BAUD_USER, COMMPROP, COMMPROP structure, DATABITS_16, DATABITS_16X, DATABITS_5, DATABITS_6, DATABITS_7, DATABITS_8, LPCOMMPROP, LPCOMMPROP structure pointer, PARITY_EVEN, PARITY_MARK, PARITY_NONE, PARITY_ODD, PARITY_SPACE, PCF_16BITMODE, PCF_DTRDSR, PCF_INTTIMEOUTS, PCF_PARITY_CHECK, PCF_RLSD, PCF_RTSCTS, PCF_SETXCHAR, PCF_SPECIALCHARS, PCF_TOTALTIMEOUTS, PCF_XONXOFF, PST_FAX, PST_LAT, PST_MODEM, PST_NETWORK_BRIDGE, PST_PARALLELPORT, PST_RS232, PST_RS422, PST_RS423, PST_RS449, PST_SCANNER, PST_TCPIP_TELNET, PST_UNSPECIFIED, PST_X25, SP_BAUD, SP_DATABITS, SP_HANDSHAKING, SP_PARITY, SP_PARITY_CHECK, SP_RLSD, SP_STOPBITS, STOPBITS_10, STOPBITS_15, STOPBITS_20, _COMMPROP, _win32_commprop_str, base.commprop_str, winbase/COMMPROP, winbase/LPCOMMPROP'
-f1_keywords:
-- winbase/COMMPROP
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- COMMPROP
 targetos: Windows
 req.typenames: COMMPROP, *LPCOMMPROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _COMMPROP
+ - winbase/_COMMPROP
+ - LPCOMMPROP
+ - winbase/LPCOMMPROP
+ - COMMPROP
+ - winbase/COMMPROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - COMMPROP
 ---
 
 # COMMPROP structure
@@ -48,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a communications driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wPacketLength
 
 The size of the entire data packet, regardless of the amount of data requested, in bytes.
 
-
 ### -field wPacketVersion
 
 The version of the structure.
-
 
 ### -field dwServiceMask
 
@@ -73,23 +72,19 @@ A bitmask indicating which services are implemented by this provider. The
       <b>SP_SERIALCOMM</b> value is always specified for communications providers, including modem 
       providers.
 
-
 ### -field dwReserved1
 
 Reserved; do not use.
-
 
 ### -field dwMaxTxQueue
 
 The maximum size of the driver's internal output buffer, in bytes. A value of zero indicates that no 
       maximum value is imposed by the serial provider.
 
-
 ### -field dwMaxRxQueue
 
 The maximum size of the driver's internal input buffer, in bytes. A value of zero indicates that no maximum 
       value is imposed by the serial provider.
-
 
 ### -field dwMaxBaud
 
@@ -322,8 +317,6 @@ Programmable baud rate.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwProvSubType
 
@@ -478,8 +471,6 @@ X.25 standards
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwProvCapabilities
 
@@ -602,8 +593,6 @@ XON/XOFF flow control supported
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwSettableParams
 
@@ -693,13 +682,10 @@ Stop bits
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwSettableBaud
 
 The baud rates that can be used. For values, see the <b>dwMaxBaud</b> member.
-
 
 ### -field wSettableData
 
@@ -778,8 +764,6 @@ Special wide path through serial hardware lines
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wSettableStopParity
 
@@ -880,20 +864,16 @@ Space parity
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCurrentTxQueue
 
 The size of the driver's internal output buffer, in bytes. A value of zero indicates that the value is 
       unavailable.
 
-
 ### -field dwCurrentRxQueue
 
 The size of the driver's internal input buffer, in bytes. A value of zero indicates that the value is 
       unavailable.
-
 
 ### -field dwProvSpec1
 
@@ -901,25 +881,20 @@ Any provider-specific data. Applications should ignore this member unless they h
        about the format of the data required by the provider.
 
 Set this member to <b>COMMPROP_INITIALIZED</b> before calling the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a> function to indicate that the 
+       <a href="/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a> function to indicate that the 
        <b>wPacketLength</b> member is already valid.
-
 
 ### -field dwProvSpec2
 
 Any provider-specific data. Applications should ignore this member unless they have detailed information 
       about the format of the data required by the provider.
 
-
 ### -field wcProvChar
 
 Any provider-specific data. Applications should ignore this member unless they have detailed information 
       about the format of the data required by the provider.
 
-
 ## -remarks
-
-
 
 The contents of the <b>dwProvSpec1</b>, <b>dwProvSpec2</b>, and 
     <b>wcProvChar</b> members depend on the provider subtype (specified by the 
@@ -942,21 +917,10 @@ If the provider subtype is <b>PST_MODEM</b>, these members are used as follows.
 </tr>
 <tr>
 <td><b>wcProvChar</b></td>
-<td>Contains a <a href="https://docs.microsoft.com/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure.</td>
+<td>Contains a <a href="/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a> structure.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getcommproperties">GetCommProperties</a>

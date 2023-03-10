@@ -2,15 +2,12 @@
 UID: NS:cfapi.CF_CALLBACK_REGISTRATION
 title: CF_CALLBACK_REGISTRATION (cfapi.h)
 description: The callbacks to be registered by the sync provider.
+helpviewer_keywords: ["CF_CALLBACK_REGISTRATION","CF_CALLBACK_REGISTRATION structure","cfapi/CF_CALLBACK_REGISTRATION","cloudApi.cf_callback_registration"]
 old-location: cloudapi\cf_callback_registration.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: F1633983-DAB2-4072-AA9E-DC7015E6B988
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_REGISTRATION, CF_CALLBACK_REGISTRATION structure, cfapi/CF_CALLBACK_REGISTRATION, cloudApi.cf_callback_registration
-f1_keywords:
-- cfapi/CF_CALLBACK_REGISTRATION
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_CALLBACK_REGISTRATION
 targetos: Windows
 req.typenames: CF_CALLBACK_REGISTRATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_CALLBACK_REGISTRATION
+ - cfapi/CF_CALLBACK_REGISTRATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_CALLBACK_REGISTRATION
 ---
 
 # CF_CALLBACK_REGISTRATION structure
@@ -48,32 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The callbacks to be registered by the sync provider.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Type
 
-The type of callback to be registered.
-
+The type of callback to be registered. See: [CF_CALLBACK_TYPE](./ne-cfapi-cf_callback_type.md).
 
 ### -field Callback
 
 A pointer to the callback function.
 
-
 ## -remarks
-
-
 
 This callback registration is how a sync provider communicates to the library which functions to call to execute various requests from the platform.
 
 Note that the sync provider only needs to register implemented callbacks, and <b>CF_CALLBACK_REGISTRATION</b> should always end with <b>CF_CALLBACK_REGISTRATION_END</b>.
-
-
 

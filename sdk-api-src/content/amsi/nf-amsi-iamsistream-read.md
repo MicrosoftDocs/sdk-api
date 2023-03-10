@@ -2,15 +2,12 @@
 UID: NF:amsi.IAmsiStream.Read
 title: IAmsiStream::Read (amsi.h)
 description: Requests a buffer-full of content to be read.
+helpviewer_keywords: ["IAmsiStream interface [Antimalware Scan Interface]","Read method","IAmsiStream.Read","IAmsiStream::Read","Read","Read method [Antimalware Scan Interface]","Read method [Antimalware Scan Interface]","IAmsiStream interface","amsi.iamsistream_read","amsi/IAmsiStream::Read"]
 old-location: amsi\iamsistream_read.htm
 tech.root: AMSI
 ms.assetid: ACE164EF-B49D-4AD5-BC1B-9770AFCD1951
 ms.date: 12/05/2018
 ms.keywords: IAmsiStream interface [Antimalware Scan Interface],Read method, IAmsiStream.Read, IAmsiStream::Read, Read, Read method [Antimalware Scan Interface], Read method [Antimalware Scan Interface],IAmsiStream interface, amsi.iamsistream_read, amsi/IAmsiStream::Read
-f1_keywords:
-- amsi/IAmsiStream.Read
-dev_langs:
-- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amsi.h
-api_name:
-- IAmsiStream.Read
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAmsiStream::Read
+ - amsi/IAmsiStream::Read
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amsi.h
+api_name:
+ - IAmsiStream.Read
 ---
 
 # IAmsiStream::Read
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests a buffer-full of content to be read.
 
-
 ## -parameters
-
-
-
 
 ### -param position [in]
 
 The zero-based index into the content at which the read is to begin.
 
-
 ### -param size [in]
 
 The number of bytes to read from the content.
-
 
 ### -param buffer [out]
 
 Buffer into which the content is to be read.
 
-
 ### -param readSize [out]
 
 The number of bytes read into <i>buffer</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,18 +113,7 @@ The object is not initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>

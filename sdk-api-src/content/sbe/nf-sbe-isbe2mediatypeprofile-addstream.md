@@ -2,15 +2,12 @@
 UID: NF:sbe.ISBE2MediaTypeProfile.AddStream
 title: ISBE2MediaTypeProfile::AddStream (sbe.h)
 description: Adds a stream to a media type profile.
+helpviewer_keywords: ["AddStream","AddStream method [Microsoft TV Technologies]","AddStream method [Microsoft TV Technologies]","ISBE2MediaTypeProfile interface","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","AddStream method","ISBE2MediaTypeProfile.AddStream","ISBE2MediaTypeProfile::AddStream","mstv.isbe2mediatypeprofile_addstream","sbe/ISBE2MediaTypeProfile::AddStream"]
 old-location: mstv\isbe2mediatypeprofile_addstream.htm
 tech.root: mstv
 ms.assetid: f847d4f1-e748-4ed5-bc79-cfff90601379
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [Microsoft TV Technologies], AddStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],AddStream method, ISBE2MediaTypeProfile.AddStream, ISBE2MediaTypeProfile::AddStream, mstv.isbe2mediatypeprofile_addstream, sbe/ISBE2MediaTypeProfile::AddStream
-f1_keywords:
-- sbe/ISBE2MediaTypeProfile.AddStream
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sbe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.dll
-api_name:
-- ISBE2MediaTypeProfile.AddStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2MediaTypeProfile::AddStream
+ - sbe/ISBE2MediaTypeProfile::AddStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.dll
+api_name:
+ - ISBE2MediaTypeProfile.AddStream
 ---
 
 # ISBE2MediaTypeProfile::AddStream
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a stream to a media type profile.
-
 
 ## -parameters
 
-
-
-
 ### -param pMediaType [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type of the stream that is added to the profile.
-
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type of the stream that is added to the profile.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -94,22 +88,11 @@ Invalid parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>

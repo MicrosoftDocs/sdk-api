@@ -2,15 +2,12 @@
 UID: NF:dssec.DSCreateSecurityPage
 title: DSCreateSecurityPage function (dssec.h)
 description: Creates a security property page for an Active Directory object.
+helpviewer_keywords: ["DSCreateSecurityPage","DSCreateSecurityPage function [Security]","DSSI_IS_ROOT","DSSI_NO_ACCESS_CHECK","DSSI_NO_EDIT_OWNER","DSSI_NO_EDIT_SACL","DSSI_NO_FILTER","DSSI_NO_READONLY_MESSAGE","DSSI_READ_ONLY","dssec/DSCreateSecurityPage","security.dscreatesecuritypage"]
 old-location: security\dscreatesecuritypage.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 1ebb531f-84a0-4ace-88d1-89e65e18c34a
 ms.date: 12/05/2018
 ms.keywords: DSCreateSecurityPage, DSCreateSecurityPage function [Security], DSSI_IS_ROOT, DSSI_NO_ACCESS_CHECK, DSSI_NO_EDIT_OWNER, DSSI_NO_EDIT_SACL, DSSI_NO_FILTER, DSSI_NO_READONLY_MESSAGE, DSSI_READ_ONLY, dssec/DSCreateSecurityPage, security.dscreatesecuritypage
-f1_keywords:
-- dssec/DSCreateSecurityPage
-dev_langs:
-- c++
 req.header: dssec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: DSSec.lib
 req.dll: DSSec.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- DSSec.dll
-api_name:
-- DSCreateSecurityPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DSCreateSecurityPage
+ - dssec/DSCreateSecurityPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - DSSec.dll
+api_name:
+ - DSCreateSecurityPage
 ---
 
 # DSCreateSecurityPage function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DSCreateSecurityPage</b> function creates a security property page for an Active Directory object. The resulting property page can be added to a property sheet.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszObjectPath [in]
 
 A pointer to a <b>null</b>-terminated wide character string that represents the full Active Directory path for the object.
 
-
 ### -param pwszObjectClass [in, optional]
 
-A pointer to a <b>null</b>-terminated wide character string that represents the object class. This value can be <b>NULL</b>. 
-
+A pointer to a <b>null</b>-terminated wide character string that represents the object class. This value can be <b>NULL</b>.
 
 ### -param dwFlags [in]
 
@@ -105,7 +100,7 @@ No access check is performed.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) property is read-only.
+The <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) property is read-only.
 
 </td>
 </tr>
@@ -154,43 +149,30 @@ Suppress read-only popup messages.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phPage [out]
 
 A pointer to a <b>HPROPSHEETPAGE</b> that returns the created security property page.
 
-
 ### -param pfnReadSD [in, optional]
 
-A pointer to a function used to read the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of the object. This value can be <b>NULL</b>. If <i>pfnReadSD</i> is not <b>NULL</b>, <b>DSCreateSecurityPage</b>  calls the function referenced by <i>pfnReadSD</i> to retrieve the security descriptor of the object.
-
+A pointer to a function used to read the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> of the object. This value can be <b>NULL</b>. If <i>pfnReadSD</i> is not <b>NULL</b>, <b>DSCreateSecurityPage</b>  calls the function referenced by <i>pfnReadSD</i> to retrieve the security descriptor of the object.
 
 ### -param pfnWriteSD [in, optional]
 
 A pointer to  a function used to write the security descriptor of the object. This value can be <b>NULL</b>. If <i>pfnWriteSD</i> is not <b>NULL</b>, <b>DSCreateSecurityPage</b>  calls the function referenced by <i>pfnWriteSD</i> to write the security descriptor of the object.
 
-
 ### -param lpContext [in]
 
 Context to pass to the functions identified by <i>pfnReadSD</i> or <i>pfnWriteSD</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
-
-
 
 The function pointed to by <i>pfnReadSD</i> is defined as follows.
 
@@ -208,7 +190,7 @@ typedef HRESULT (WINAPI *PFNREADOBJECTSECURITY)(
 ```
 
 
-The <b>DSCreateSecurityPage</b> function will free the security descriptor returned in the third parameter above by a  call to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+The <b>DSCreateSecurityPage</b> function will free the security descriptor returned in the third parameter above by a  call to the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 The function pointed to by <i>pfnWriteSD</i> is defined as follows.
 
@@ -225,21 +207,10 @@ typedef HRESULT (WINAPI *PFNWRITEOBJECTSECURITY)(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/basic-security-property-page">Basic Security Property Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/basic-security-property-page">Basic Security Property Page</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>

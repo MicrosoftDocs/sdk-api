@@ -1,15 +1,12 @@
 ---
 UID: NF:shlobj.ICopyHookW.CopyCallback
 title: ICopyHookW::CopyCallback
-description: Determines whether the Shell will be allowed to move, copy, delete, or rename a folder or printer object.
+description: Determines whether the Shell will be allowed to move, copy, delete, or rename a folder or printer object. (Unicode)
+helpviewer_keywords: ["ICopyHookW::CopyCallback"]
 tech.root: shell
 ms.assetid: 50cba486-12b2-4ac7-8bf2-37b5784bb9fe
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: ICopyHookW::CopyCallback
-f1_keywords:
-- shlobj/ICopyHookW::CopyCallback
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,14 +27,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ICopyHookW::CopyCallback
+ - shlobj/ICopyHookW::CopyCallback
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- shlobj.h
+ - shlobj.h
 api_name:
-- ICopyHookW::CopyCallback
+ - ICopyHookW::CopyCallback
 ---
 
 ## -description
@@ -52,11 +54,11 @@ A handle to the window that the copy hook handler should use as the parent for a
 
 ### -param wFunc
 
-The operation to perform. This parameter can be one of the values listed under the **wFunc** member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure.
+The operation to perform. This parameter can be one of the values listed under the **wFunc** member of the [SHFILEOPSTRUCT](/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure.
 
 ### -param wFlags
 
-The flags that control the operation. This parameter can be one or more of the values listed under the *fFlags* member of the [SHFILEOPSTRUCT](https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure. 
+The flags that control the operation. This parameter can be one or more of the values listed under the *fFlags* member of the [SHFILEOPSTRUCT](/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa) structure. 
                         
 For printer copy hooks, this value is one of the following values defined in Shellapi.h.
 
@@ -75,7 +77,7 @@ A pointer to a string that contains the name of the source folder.
 
 ### -param dwSrcAttribs
 
-The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/en-us/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
+The attributes of the source folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](/windows/desktop/FileIO/file-attribute-constants).
 
 ### -param pszDestFile
 
@@ -83,7 +85,7 @@ A pointer to a string that contains the name of the destination folder.
 
 ### -param dwDestAttribs
 
-The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [https://docs.microsoft.com/en-us/windows/desktop/FileIO/file-attribute-constants](File Attribute Constants).
+The attributes of the destination folder. This parameter can be a combination of any of the file attribute flags (FILE_ATTRIBUTE_*) defined in the header files. See [File Attribute Constants](/windows/desktop/FileIO/file-attribute-constants).
 
 ## -returns
 
@@ -107,9 +109,6 @@ Copy hook handlers for printers are registered under the following key.
 
 **HKEY_CLASSES_ROOT/Printers/Shellex/CopyHookHandlers/your_copyhook/{copyhook CLSID value}**
                 
-When this method is called, the Shell initializes the [ICopyHookW](nn-shlobj-icopyhookw.md) interface directly without using an [IShellExtInit](https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.               
+When this method is called, the Shell initializes the [ICopyHookW](nn-shlobj-icopyhookw.md) interface directly without using an [IShellExtInit](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellextinit) interface first.
 
 ## -see-also
-
-
-

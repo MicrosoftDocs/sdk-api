@@ -2,15 +2,12 @@
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0023
 title: XPS_MATRIX (xpsobjectmodel.h)
 description: Describes the left two columns of a 3-by-3 matrix.
+helpviewer_keywords: ["XPS_MATRIX","XPS_MATRIX structure [XPS Documents and Packaging]","xps.xps_matrix","xpsobjectmodel/XPS_MATRIX"]
 old-location: xps\xps_matrix.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0df75410-0e34-4962-8499-879d5153d9af
 ms.date: 12/05/2018
 ms.keywords: XPS_MATRIX, XPS_MATRIX structure [XPS Documents and Packaging], xps.xps_matrix, xpsobjectmodel/XPS_MATRIX
-f1_keywords:
-- xpsobjectmodel/XPS_MATRIX
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_MATRIX
 targetos: Windows
 req.typenames: XPS_MATRIX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0023
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0023
+ - XPS_MATRIX
+ - xpsobjectmodel/XPS_MATRIX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_MATRIX
 ---
 
 # XPS_MATRIX structure
@@ -48,48 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the left two columns of a 3-by-3 matrix.
 
-
 ## -struct-fields
-
-
-
 
 ### -field m11
 
 The value in the left column of the first row of the matrix.
 
-
 ### -field m12
 
 The value in the center column of the first row of the matrix.
-
 
 ### -field m21
 
 The value in the left column of the second row of the matrix.
 
-
 ### -field m22
 
 The value in the center column of the second row of the matrix.
-
 
 ### -field m31
 
 The value in the left column of the third row of the matrix. This value is also the x-offset.
 
-
 ### -field m32
 
 The value in the center column of the third row of the matrix. This value is also the y-offset.
 
-
 ## -remarks
-
-
 
 The values in the third column of the matrix are assumed to be 0, 0, 1.
 
@@ -112,18 +103,8 @@ The following table shows the entire matrix.
 <td> 1 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 

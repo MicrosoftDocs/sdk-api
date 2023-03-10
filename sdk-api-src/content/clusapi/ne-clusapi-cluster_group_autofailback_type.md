@@ -1,16 +1,13 @@
 ---
 UID: NE:clusapi.CLUSTER_GROUP_AUTOFAILBACK_TYPE
 title: CLUSTER_GROUP_AUTOFAILBACK_TYPE (clusapi.h)
-description: Used by the AutoFailbackType group common property to specify whether the group should be failed back to the node identified as its preferred owner when that node comes back online following a failover.
+description: CLUSTER_GROUP_AUTOFAILBACK_TYPE (clusapi.h) is used by the AutoFailbackType group common property to specify whether the group should be failed back to the node identified as its preferred owner when that node comes back online following a failover.
+helpviewer_keywords: ["CGAFT","CGAFT enumeration [Failover Cluster]","CLUSTER_GROUP_AUTOFAILBACK_TYPE","CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster]","ClusterGroupAllowFailback","ClusterGroupFailbackTypeCount","ClusterGroupPreventFailback","_CLUSTER_GROUP_AUTOFAILBACK_TYPE","_CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster]","clusapi/CGAFT","clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE","clusapi/ClusterGroupAllowFailback","clusapi/ClusterGroupFailbackTypeCount","clusapi/ClusterGroupPreventFailback","clusapi/_CLUSTER_GROUP_AUTOFAILBACK_TYPE","msclus/CGAFT","msclus/CLUSTER_GROUP_AUTOFAILBACK_TYPE","msclus/ClusterGroupAllowFailback","msclus/ClusterGroupFailbackTypeCount","msclus/ClusterGroupPreventFailback","msclus/_CLUSTER_GROUP_AUTOFAILBACK_TYPE","mscs.cluster_group_autofailback_type"]
 old-location: mscs\cluster_group_autofailback_type.htm
 tech.root: MsCS
 ms.assetid: d7ba9298-25fc-454b-8583-196f84622cc5
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CGAFT, CGAFT enumeration [Failover Cluster], CLUSTER_GROUP_AUTOFAILBACK_TYPE, CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster], ClusterGroupAllowFailback, ClusterGroupFailbackTypeCount, ClusterGroupPreventFailback, _CLUSTER_GROUP_AUTOFAILBACK_TYPE, _CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster], clusapi/CGAFT, clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE, clusapi/ClusterGroupAllowFailback, clusapi/ClusterGroupFailbackTypeCount, clusapi/ClusterGroupPreventFailback, clusapi/_CLUSTER_GROUP_AUTOFAILBACK_TYPE, msclus/CGAFT, msclus/CLUSTER_GROUP_AUTOFAILBACK_TYPE, msclus/ClusterGroupAllowFailback, msclus/ClusterGroupFailbackTypeCount, msclus/ClusterGroupPreventFailback, msclus/_CLUSTER_GROUP_AUTOFAILBACK_TYPE, mscs.cluster_group_autofailback_type
-f1_keywords:
-- clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUSTER_GROUP_AUTOFAILBACK_TYPE
 targetos: Windows
 req.typenames: CLUSTER_GROUP_AUTOFAILBACK_TYPE, CGAFT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_GROUP_AUTOFAILBACK_TYPE
+ - clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUSTER_GROUP_AUTOFAILBACK_TYPE
 ---
 
 # CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration
@@ -49,50 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-autofailbacktype">AutoFailbackType</a> group 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/common-properties">common property</a> to specify whether the group should be 
-    failed back to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> identified as its preferred owner when that 
-    node comes back online following a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover">failover</a>.
-
+    <a href="/previous-versions/windows/desktop/mscs/groups-autofailbacktype">AutoFailbackType</a> group 
+    <a href="/previous-versions/windows/desktop/mscs/common-properties">common property</a> to specify whether the group should be 
+    failed back to the <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> identified as its preferred owner when that 
+    node comes back online following a <a href="/previous-versions/windows/desktop/mscs/failover">failover</a>.
 
 ## -enum-fields
 
+### -field ClusterGroupPreventFailback:0
 
-
-
-### -field ClusterGroupPreventFailback
-
-Prevents <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failback">failback</a>.
-
+Prevents <a href="/previous-versions/windows/desktop/mscs/failback">failback</a>.
 
 ### -field ClusterGroupAllowFailback
 
 Allows failback (requires a preferred owners list for the group).
 
-
 ### -field ClusterGroupFailbackTypeCount
 
 Defines a maximum group property value. It is not supported by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-autofailbacktype">AutoFailbackType</a> group property.
-
+       <a href="/previous-versions/windows/desktop/mscs/groups-autofailbacktype">AutoFailbackType</a> group property.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mscs/groups-autofailbacktype">AutoFailbackType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups-autofailbacktype">AutoFailbackType</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/common-properties">common property</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/common-properties">common property</a>

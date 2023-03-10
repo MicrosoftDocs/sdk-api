@@ -2,15 +2,12 @@
 UID: NF:commctrl.Pager_SetChild
 title: Pager_SetChild macro (commctrl.h)
 description: Sets the contained window for the pager control.
+helpviewer_keywords: ["Pager_SetChild","Pager_SetChild macro [Windows Controls]","_win32_Pager_SetChild","_win32_Pager_SetChild_cpp","commctrl/Pager_SetChild","controls.Pager_SetChild","controls._win32_Pager_SetChild"]
 old-location: controls\Pager_SetChild.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setchild.htm
 ms.date: 12/05/2018
 ms.keywords: Pager_SetChild, Pager_SetChild macro [Windows Controls], _win32_Pager_SetChild, _win32_Pager_SetChild_cpp, commctrl/Pager_SetChild, controls.Pager_SetChild, controls._win32_Pager_SetChild
-f1_keywords:
-- commctrl/Pager_SetChild
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Pager_SetChild
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Pager_SetChild
+ - commctrl/Pager_SetChild
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Pager_SetChild
 ---
 
 # Pager_SetChild macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the contained window for the pager control. This macro will not change the parent of the contained window; it only assigns a window handle to the pager control for scrolling. In most cases, the contained window will be a child window. If this is the case, the contained window should be a child of the pager control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-setchild">PGM_SETCHILD</a> message explicitly. 
-
+Sets the contained window for the pager control. This macro will not change the parent of the contained window; it only assigns a window handle to the pager control for scrolling. In most cases, the contained window will be a child window. If this is the case, the contained window should be a child of the pager control. You can use this macro or send the <a href="/windows/desktop/Controls/pgm-setchild">PGM_SETCHILD</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the pager control. 
-
+Handle to the pager control.
 
 ### -param hwndChild
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the window to be contained. 
-
+Handle to the window to be contained.

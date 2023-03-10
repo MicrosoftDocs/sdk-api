@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3ds.ITAMMediaFormat.get_MediaFormat
 title: ITAMMediaFormat::get_MediaFormat (tapi3ds.h)
-description: The get_MediaFormat method gets the media format.
+description: The ITAMMediaFormat::get_MediaFormat method (tapi3ds.h) gets the media format.
+helpviewer_keywords: ["ITAMMediaFormat interface [TAPI 2.2]","get_MediaFormat method","ITAMMediaFormat.get_MediaFormat","ITAMMediaFormat::get_MediaFormat","_tapi3_itammediaformat_get_mediaformat","get_MediaFormat","get_MediaFormat method [TAPI 2.2]","get_MediaFormat method [TAPI 2.2]","ITAMMediaFormat interface","tapi3.itammediaformat_get_mediaformat","tapi3ds/ITAMMediaFormat::get_MediaFormat"]
 old-location: tapi3\itammediaformat_get_mediaformat.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 384cd41e-b59a-4ac4-9687-cf0f0738dfe0
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],get_MediaFormat method, ITAMMediaFormat.get_MediaFormat, ITAMMediaFormat::get_MediaFormat, _tapi3_itammediaformat_get_mediaformat, get_MediaFormat, get_MediaFormat method [TAPI 2.2], get_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_get_mediaformat, tapi3ds/ITAMMediaFormat::get_MediaFormat
-f1_keywords:
-- tapi3ds/ITAMMediaFormat.get_MediaFormat
-dev_langs:
-- c++
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAMMediaFormat.get_MediaFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAMMediaFormat::get_MediaFormat
+ - tapi3ds/ITAMMediaFormat::get_MediaFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAMMediaFormat.get_MediaFormat
 ---
 
 # ITAMMediaFormat::get_MediaFormat
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_MediaFormat</b> method gets the media format.
 
-
 ## -parameters
-
-
-
 
 ### -param ppmt [out]
 
 Pointer to an array of 
-<b>AM_MEDIA_TYPE</b> structures. For more information on <b>AM_MEDIA_TYPE</b>, see the DirectX documentation. 
-
+<b>AM_MEDIA_TYPE</b> structures. For more information on <b>AM_MEDIA_TYPE</b>, see the DirectX documentation.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,26 +92,15 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itammediaformat">ITAMMediaFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itammediaformat">ITAMMediaFormat</a>
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat">put_MediaFormat</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat">put_MediaFormat</a>

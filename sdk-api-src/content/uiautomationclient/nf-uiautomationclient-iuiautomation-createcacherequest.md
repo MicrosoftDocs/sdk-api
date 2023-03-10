@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomation.CreateCacheRequest
 title: IUIAutomation::CreateCacheRequest (uiautomationclient.h)
 description: Creates a cache request.
+helpviewer_keywords: ["CreateCacheRequest","CreateCacheRequest method [Windows Accessibility]","CreateCacheRequest method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateCacheRequest method","IUIAutomation.CreateCacheRequest","IUIAutomation::CreateCacheRequest","uiauto.uiauto_IUIAutomation_CreateCacheRequest","uiauto_IUIAutomation_CreateCacheRequest","uiautomationclient/IUIAutomation::CreateCacheRequest","winauto.uiauto_IUIAutomation_CreateCacheRequest"]
 old-location: winauto\uiauto_IUIAutomation_CreateCacheRequest.htm
 tech.root: WinAuto
 ms.assetid: e61aecac-8c08-4f83-b3e6-f4baedcb16c6
 ms.date: 12/05/2018
 ms.keywords: CreateCacheRequest, CreateCacheRequest method [Windows Accessibility], CreateCacheRequest method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateCacheRequest method, IUIAutomation.CreateCacheRequest, IUIAutomation::CreateCacheRequest, uiauto.uiauto_IUIAutomation_CreateCacheRequest, uiauto_IUIAutomation_CreateCacheRequest, uiautomationclient/IUIAutomation::CreateCacheRequest, winauto.uiauto_IUIAutomation_CreateCacheRequest
-f1_keywords:
-- uiautomationclient/IUIAutomation.CreateCacheRequest
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation.CreateCacheRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomation::CreateCacheRequest
+ - uiautomationclient/IUIAutomation::CreateCacheRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation.CreateCacheRequest
 ---
 
 # IUIAutomation::CreateCacheRequest
@@ -48,49 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a cache request.
-
 
 ## -parameters
 
-
-
-
 ### -param cacheRequest [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a>**</b>
 
-The address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a> interface.
-
+The address of a variable that receives a pointer to an <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a> interface.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-After obtaining the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a> interface, use its methods to specify properties and control patterns to be cached when a UI Automation element is obtained. 
-			
-
-
-
+After obtaining the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a> interface, use its methods to specify properties and control patterns to be cached when a UI Automation element is obtained.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cachingforclients">Caching UI Automation Properties and Control Patterns</a>
+<a href="/windows/desktop/WinAuto/uiauto-cachingforclients">Caching UI Automation Properties and Control Patterns</a>
 
 
 
@@ -98,24 +80,20 @@ After obtaining the <a href="https://docs.microsoft.com/windows/desktop/api/uiau
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findallbuildcache">FindAllBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findallbuildcache">FindAllBuildCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirstbuildcache">FindFirstBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-findfirstbuildcache">FindFirstBuildCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtreewalker">IUIAutomationTreeWalker</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

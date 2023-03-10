@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaTimeRange.Clear
 title: IMFMediaTimeRange::Clear (mfmediaengine.h)
 description: Clears the list of time ranges.
+helpviewer_keywords: ["Clear","Clear method [Media Foundation]","Clear method [Media Foundation]","IMFMediaTimeRange interface","IMFMediaTimeRange interface [Media Foundation]","Clear method","IMFMediaTimeRange.Clear","IMFMediaTimeRange::Clear","mf.imfmediatimerange_clear","mfmediaengine/IMFMediaTimeRange::Clear"]
 old-location: mf\imfmediatimerange_clear.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F7CDC73E-CF14-48E2-9C8A-E1944099861A
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],Clear method, IMFMediaTimeRange.Clear, IMFMediaTimeRange::Clear, mf.imfmediatimerange_clear, mfmediaengine/IMFMediaTimeRange::Clear
-f1_keywords:
-- mfmediaengine/IMFMediaTimeRange.Clear
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaTimeRange.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaTimeRange::Clear
+ - mfmediaengine/IMFMediaTimeRange::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaTimeRange.Clear
 ---
 
 # IMFMediaTimeRange::Clear
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears the list of time ranges.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>

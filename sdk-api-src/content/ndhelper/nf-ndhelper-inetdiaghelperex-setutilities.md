@@ -1,16 +1,13 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.SetUtilities
 title: INetDiagHelperEx::SetUtilities (ndhelper.h)
-description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use.
+description: Used by the Network Diagnostics Framework (NDF). This method is reserved for system use. (INetDiagHelperEx.SetUtilities)
+helpviewer_keywords: ["INetDiagHelperEx interface [NDF]","SetUtilities method","INetDiagHelperEx.SetUtilities","INetDiagHelperEx::SetUtilities","SetUtilities","SetUtilities method [NDF]","SetUtilities method [NDF]","INetDiagHelperEx interface","ndf.inetdiaghelperex_setutilities","ndhelper/INetDiagHelperEx::SetUtilities"]
 old-location: ndf\inetdiaghelperex_setutilities.htm
 tech.root: NDF
 ms.assetid: cdc3cdd5-c301-4052-81ec-a4a68248d3a4
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperEx interface [NDF],SetUtilities method, INetDiagHelperEx.SetUtilities, INetDiagHelperEx::SetUtilities, SetUtilities, SetUtilities method [NDF], SetUtilities method [NDF],INetDiagHelperEx interface, ndf.inetdiaghelperex_setutilities, ndhelper/INetDiagHelperEx::SetUtilities
-f1_keywords:
-- ndhelper/INetDiagHelperEx.SetUtilities
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelperEx.SetUtilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelperEx::SetUtilities
+ - ndhelper/INetDiagHelperEx::SetUtilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelperEx.SetUtilities
 ---
 
 # INetDiagHelperEx::SetUtilities
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetUtilities</b> method is  used by the Network Diagnostics Framework (NDF). This method  is reserved for system use.
 
-
 ## -parameters
-
-
-
 
 ### -param pUtilities [in]
 
 Reserved for system use.
 
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 This method  is reserved for system use.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>

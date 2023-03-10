@@ -2,15 +2,12 @@
 UID: NF:iads.IADsPropertyList.Item
 title: IADsPropertyList::Item (iads.h)
 description: The IADsPropertyList::Item method retrieves the specified property item from the list.
+helpviewer_keywords: ["IADsPropertyList interface [ADSI]","Item method","IADsPropertyList.Item","IADsPropertyList::Item","Item","Item method [ADSI]","Item method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_item","adsi.iadspropertylist__item","adsi.iadspropertylist_item","iads/IADsPropertyList::Item"]
 old-location: adsi\iadspropertylist_item.htm
 tech.root: adsi
 ms.assetid: 6e103872-ea2e-4178-9c8a-b958ae3bcf85
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],Item method, IADsPropertyList.Item, IADsPropertyList::Item, Item, Item method [ADSI], Item method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_item, adsi.iadspropertylist__item, adsi.iadspropertylist_item, iads/IADsPropertyList::Item
-f1_keywords:
-- iads/IADsPropertyList.Item
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsPropertyList.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsPropertyList::Item
+ - iads/IADsPropertyList::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsPropertyList.Item
 ---
 
 # IADsPropertyList::Item
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsPropertyList::Item</b> method retrieves the specified property item from the list.
 
-
 ## -parameters
-
-
-
 
 ### -param varIndex [in]
 
 The <b>VARIANT</b> that contains the index or name of the property to be retrieved.
 
-
 ### -param pVariant [in, out]
 
-Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the object which implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> interface for the attribute retrieved.
-
+Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> pointer to the object which implements the  <a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> interface for the attribute retrieved.
 
 ## -returns
 
-
-
-This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+This method supports the standard HRESULT return values, including S_OK. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
-
-
 
 You must clear <i>pVariant</i> using <b>VariantClear</b> when the value returned by the <b>Item</b> method is no longer required.
 
@@ -125,7 +113,7 @@ Cleanup:
 ```
 
 
-The following code example shows how to retrieve the <b>Owner</b> property of a computer using the <b>IADsPropertyList::Item</b> method. For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>.
+The following code example shows how to retrieve the <b>Owner</b> property of a computer using the <b>IADsPropertyList::Item</b> method. For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>.
 
 
 ```cpp
@@ -199,33 +187,22 @@ if(pEntry)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertylist">IADsPropertyList</a>
+<a href="/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertylist-property-methods">IADsPropertyList Property Methods</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

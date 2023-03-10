@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetServiceId
 title: IIsdbEmergencyInformationDescriptor::GetServiceId (dvbsiparser.h)
 description: Gets the identifier for a broadcasting event from an emergency information descriptor.
+helpviewer_keywords: ["GetServiceId","GetServiceId method [Microsoft TV Technologies]","GetServiceId method [Microsoft TV Technologies]","IIsdbEmergencyInformationDescriptor interface","IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies]","GetServiceId method","IIsdbEmergencyInformationDescriptor.GetServiceId","IIsdbEmergencyInformationDescriptor::GetServiceId","dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId","mstv.iisdbemergencyinformationdescriptor_getserviceid"]
 old-location: mstv\iisdbemergencyinformationdescriptor_getserviceid.htm
 tech.root: mstv
 ms.assetid: 298f0637-eea1-4247-a9ff-cbe1a82fb8f6
 ms.date: 12/05/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetServiceId method, IIsdbEmergencyInformationDescriptor.GetServiceId, IIsdbEmergencyInformationDescriptor::GetServiceId, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId, mstv.iisdbemergencyinformationdescriptor_getserviceid
-f1_keywords:
-- dvbsiparser/IIsdbEmergencyInformationDescriptor.GetServiceId
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbEmergencyInformationDescriptor.GetServiceId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbEmergencyInformationDescriptor::GetServiceId
+ - dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbEmergencyInformationDescriptor.GetServiceId
 ---
 
 # IIsdbEmergencyInformationDescriptor::GetServiceId
@@ -48,46 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the identifier for a broadcasting event from an  emergency information descriptor.
-
 
 ## -parameters
 
-
-
-
 ### -param bRecordIndex [in]
 
-Zero-based index of the emergency information descriptor that contains the event identifiers. To get the number of emergency information descriptors, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getcountofrecords">IIsdbEmergencyInformationDescriptor::GetCountOfRecords</a>
-
-
+Zero-based index of the emergency information descriptor that contains the event identifiers. To get the number of emergency information descriptors, call <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getcountofrecords">IIsdbEmergencyInformationDescriptor::GetCountOfRecords</a>
 
 ### -param pwVal [out]
 
 Receives the broadcasting event identifier.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbemergencyinformationdescriptor">IIsdbEmergencyInformationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbemergencyinformationdescriptor">IIsdbEmergencyInformationDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getcountofrecords">IIsdbEmergencyInformationDescriptor::GetCountOfRecords</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbemergencyinformationdescriptor-getcountofrecords">IIsdbEmergencyInformationDescriptor::GetCountOfRecords</a>

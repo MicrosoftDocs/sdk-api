@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertCompareIntegerBlob
 title: CertCompareIntegerBlob function (wincrypt.h)
 description: The CertCompareIntegerBlob function compares two integer BLOBs to determine whether they represent equal numeric values.
+helpviewer_keywords: ["CertCompareIntegerBlob","CertCompareIntegerBlob function [Security]","_crypto2_certcompareintegerblob","security.certcompareintegerblob","wincrypt/CertCompareIntegerBlob"]
 old-location: security\certcompareintegerblob.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 467ce464-2f22-4583-a745-711ba3b05f4f
 ms.date: 12/05/2018
 ms.keywords: CertCompareIntegerBlob, CertCompareIntegerBlob function [Security], _crypto2_certcompareintegerblob, security.certcompareintegerblob, wincrypt/CertCompareIntegerBlob
-f1_keywords:
-- wincrypt/CertCompareIntegerBlob
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertCompareIntegerBlob
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertCompareIntegerBlob
+ - wincrypt/CertCompareIntegerBlob
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertCompareIntegerBlob
 ---
 
 # CertCompareIntegerBlob function
@@ -48,41 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertCompareIntegerBlob</b> function compares two integer <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOBs</a> to determine whether they represent equal numeric values. 
-
+The <b>CertCompareIntegerBlob</b> function compares two integer <a href="/windows/desktop/SecGloss/b-gly">BLOBs</a> to determine whether they represent equal numeric values.
 
 ## -parameters
-
-
-
 
 ### -param pInt1 [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the first integer in the comparison.
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the first integer in the comparison.
 
 ### -param pInt2 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the second integer in the comparison.
-
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the second integer in the comparison.
 
 ## -returns
-
-
 
 If the representations of the integer BLOBs are identical and the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Before doing the comparison, most significant bytes with a value of 0x00 are removed from a positive number. Positive here means that the most significant bit in the next nonzero byte is not set.
 
@@ -112,7 +100,7 @@ Most significant bytes with a value of 0xFF are removed from a negative number. 
 </table>
  
 
-Multiple-byte integers are treated as <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a>. The least significant byte is <i>pbData</i>[0]. The most significant byte is <i>pbData</i>[<i>cbData</i> - 1], that is, 0xFFFFFF88 is stored in four bytes as:
+Multiple-byte integers are treated as <a href="/windows/desktop/SecGloss/l-gly">little-endian</a>. The least significant byte is <i>pbData</i>[0]. The most significant byte is <i>pbData</i>[<i>cbData</i> - 1], that is, 0xFFFFFF88 is stored in four bytes as:
 
 {0x88, 0xFF, 0xFF, 0xFF}
 
@@ -120,27 +108,18 @@ Multiple-byte integers are treated as <a href="https://docs.microsoft.com/window
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-using-certoidtoalgid-and-certcompareintegerblob">Example C Program: Using CertOIDToAlgId and CertCompareIntegerBlob</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-using-certoidtoalgid-and-certcompareintegerblob">Example C Program: Using CertOIDToAlgId and CertCompareIntegerBlob</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

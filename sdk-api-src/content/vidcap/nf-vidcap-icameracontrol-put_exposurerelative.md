@@ -2,15 +2,12 @@
 UID: NF:vidcap.ICameraControl.put_ExposureRelative
 title: ICameraControl::put_ExposureRelative (vidcap.h)
 description: The put_ExposureRelative method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_ExposureRelative method","ICameraControl.put_ExposureRelative","ICameraControl::put_ExposureRelative","ICameraControlput_ExposureRelative","dshow.icameracontrol_put_exposurerelative","put_ExposureRelative","put_ExposureRelative method [DirectShow]","put_ExposureRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_ExposureRelative"]
 old-location: dshow\icameracontrol_put_exposurerelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4afc3f7f-bba2-4160-b917-c792467d6305
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ExposureRelative method, ICameraControl.put_ExposureRelative, ICameraControl::put_ExposureRelative, ICameraControlput_ExposureRelative, dshow.icameracontrol_put_exposurerelative, put_ExposureRelative, put_ExposureRelative method [DirectShow], put_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ExposureRelative
-f1_keywords:
-- vidcap/ICameraControl.put_ExposureRelative
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICameraControl.put_ExposureRelative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICameraControl::put_ExposureRelative
+ - vidcap/ICameraControl::put_ExposureRelative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICameraControl.put_ExposureRelative
 ---
 
 # ICameraControl::put_ExposureRelative
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>put_ExposureRelative</code> method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
-
 
 ## -parameters
 
-
-
-
 ### -param Value [in]
 
-Specifies the relative exposure. To get the range of possible values, call <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-getrange_exposurerelative">ICameraControl::getRange_ExposureRelative</a>.
+Specifies the relative exposure. To get the range of possible values, call <a href="/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-getrange_exposurerelative">ICameraControl::getRange_ExposureRelative</a>.
 
 <table>
 <tr>
@@ -74,7 +71,7 @@ Specifies the relative exposure. To get the range of possible values, call <a hr
 <td>Set the exposure to the default exposure time, which is implementation dependent.</td>
 </tr>
 <tr>
-<td>Postive value</td>
+<td>Positive value</td>
 <td>Increment the exposure time by one step.</td>
 </tr>
 <tr>
@@ -82,34 +79,19 @@ Specifies the relative exposure. To get the range of possible values, call <a hr
 <td>Decrement the exposure time by one step.</td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
-Zero or more flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
-
+Zero or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>. If the CameraControl_Flags_Auto flag is used, the <i>Value</i> parameter is ignored and the camera sets the default value.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>

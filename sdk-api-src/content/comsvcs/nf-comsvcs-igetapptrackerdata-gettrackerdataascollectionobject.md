@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IGetAppTrackerData.GetTrackerDataAsCollectionObject
 title: IGetAppTrackerData::GetTrackerDataAsCollectionObject (comsvcs.h)
 description: Retrieves tracking data for all COM+ applications in the form of a collection object.
+helpviewer_keywords: ["GetTrackerDataAsCollectionObject","GetTrackerDataAsCollectionObject method [COM+]","GetTrackerDataAsCollectionObject method [COM+]","IGetAppTrackerData interface","IGetAppTrackerData interface [COM+]","GetTrackerDataAsCollectionObject method","IGetAppTrackerData.GetTrackerDataAsCollectionObject","IGetAppTrackerData::GetTrackerDataAsCollectionObject","comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject","cos.igetapptrackerdata_gettrackerdataascollectionobject"]
 old-location: cos\igetapptrackerdata_gettrackerdataascollectionobject.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 215523ad-5f18-4529-8b23-afbd1b738fb5
 ms.date: 12/05/2018
 ms.keywords: GetTrackerDataAsCollectionObject, GetTrackerDataAsCollectionObject method [COM+], GetTrackerDataAsCollectionObject method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetTrackerDataAsCollectionObject method, IGetAppTrackerData.GetTrackerDataAsCollectionObject, IGetAppTrackerData::GetTrackerDataAsCollectionObject, comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject, cos.igetapptrackerdata_gettrackerdataascollectionobject
-f1_keywords:
-- comsvcs/IGetAppTrackerData.GetTrackerDataAsCollectionObject
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IGetAppTrackerData.GetTrackerDataAsCollectionObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGetAppTrackerData::GetTrackerDataAsCollectionObject
+ - comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IGetAppTrackerData.GetTrackerDataAsCollectionObject
 ---
 
 # IGetAppTrackerData::GetTrackerDataAsCollectionObject
@@ -48,54 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves tracking data for all COM+ applications in the form of a collection object.
-
 
 ## -parameters
 
-
-
-
 ### -param TopLevelCollection [out]
 
-On return, the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for a collection of tracker data.
-
+On return, the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for a collection of tracker data.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, and S_OK.
-
-
-
 
 ## -remarks
 
-
-
-This method is primarily intended to enable applications that subscribe to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoevents">IComTrackingInfoEvents</a> event interface to add support for <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a> with minimal changes to their code. The object returned by this method is identical to the object sent in calls to subscribers' <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfoevents-onnewtrackinginfo">IComTrackingInfoEvent::OnNewTrackingInfo</a> method, so that code for navigating and parsing this collection may be reused. 
-
-
-
-Applications should not expect this method to return newly updated tracking data any more frequently than the server's suggested polling interval (see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval">IGetAppTrackerData::GetSuggestedPollingInterval</a>). 
+This method is primarily intended to enable applications that subscribe to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfoevents">IComTrackingInfoEvents</a> event interface to add support for <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a> with minimal changes to their code. The object returned by this method is identical to the object sent in calls to subscribers' <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icomtrackinginfoevents-onnewtrackinginfo">IComTrackingInfoEvent::OnNewTrackingInfo</a> method, so that code for navigating and parsing this collection may be reused. 
 
 
 
-Note that the collection object returned by this method does not contain all tracking data that is available by calling the other methods. In particular, recycling details and hang monitoring configuration are not provided. 
+Applications should not expect this method to return newly updated tracking data any more frequently than the server's suggested polling interval (see <a href="/windows/desktop/api/comsvcs/nf-comsvcs-igetapptrackerdata-getsuggestedpollinginterval">IGetAppTrackerData::GetSuggestedPollingInterval</a>). 
 
 
 
-
+Note that the collection object returned by this method does not contain all tracking data that is available by calling the other methods. In particular, recycling details and hang monitoring configuration are not provided.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>

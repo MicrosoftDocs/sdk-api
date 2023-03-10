@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPDVD.resume
 title: IWMPDVD::resume (wmp.h)
 description: The resume method returns to playback mode from menu mode at the same title position as when the menu was invoked.
+helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","resume method","IWMPDVD.resume","IWMPDVD::resume","IWMPDVDresume","resume","resume method [Windows Media Player]","resume method [Windows Media Player]","IWMPDVD interface","wmp.iwmpdvd_resume","wmp/IWMPDVD::resume"]
 old-location: wmp\iwmpdvd_resume.htm
 tech.root: WMP
 ms.assetid: c0817edb-49af-48b8-82d0-a8c0a827f290
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],resume method, IWMPDVD.resume, IWMPDVD::resume, IWMPDVDresume, resume, resume method [Windows Media Player], resume method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_resume, wmp/IWMPDVD::resume
-f1_keywords:
-- wmp/IWMPDVD.resume
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPDVD.resume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPDVD::resume
+ - wmp/IWMPDVD::resume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPDVD.resume
 ---
 
 # IWMPDVD::resume
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>resume</b> method returns to playback mode from menu mode at the same title position as when the menu was invoked.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,27 +75,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>Windows Media Player 10 Mobile: </b>This method always returns S_OK, but does not perform the intended operation.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>

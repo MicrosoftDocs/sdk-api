@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IDataCollector.put_FileNameFormatPattern
 title: IDataCollector::put_FileNameFormatPattern (pla.h)
-description: Retrieves or sets the format pattern to use when decorating the file name.
+description: Retrieves or sets the format pattern to use when decorating the file name. (Put)
+helpviewer_keywords: ["FileNameFormatPattern property [PLA]","FileNameFormatPattern property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","FileNameFormatPattern property","IDataCollector.FileNameFormatPattern","IDataCollector.put_FileNameFormatPattern","IDataCollector::FileNameFormatPattern","IDataCollector::get_FileNameFormatPattern","IDataCollector::put_FileNameFormatPattern","base.idatacollector_filenameformatpattern","pla.idatacollector_filenameformatpattern","pla/IDataCollector::FileNameFormatPattern","pla/IDataCollector::get_FileNameFormatPattern","pla/IDataCollector::put_FileNameFormatPattern","put_FileNameFormatPattern"]
 old-location: pla\idatacollector_filenameformatpattern.htm
 tech.root: PLA
 ms.assetid: 94e6bb13-fb99-4968-8a7f-fbda1f6ea42e
 ms.date: 12/05/2018
 ms.keywords: FileNameFormatPattern property [PLA], FileNameFormatPattern property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileNameFormatPattern property, IDataCollector.FileNameFormatPattern, IDataCollector.put_FileNameFormatPattern, IDataCollector::FileNameFormatPattern, IDataCollector::get_FileNameFormatPattern, IDataCollector::put_FileNameFormatPattern, base.idatacollector_filenameformatpattern, pla.idatacollector_filenameformatpattern, pla/IDataCollector::FileNameFormatPattern, pla/IDataCollector::get_FileNameFormatPattern, pla/IDataCollector::put_FileNameFormatPattern, put_FileNameFormatPattern
-f1_keywords:
-- pla/IDataCollector.FileNameFormatPattern
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollector.FileNameFormatPattern
-- IDataCollector.get_FileNameFormatPattern
-- IDataCollector.put_FileNameFormatPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollector::put_FileNameFormatPattern
+ - pla/IDataCollector::put_FileNameFormatPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollector.FileNameFormatPattern
+ - IDataCollector.get_FileNameFormatPattern
+ - IDataCollector.put_FileNameFormatPattern
 ---
 
 # IDataCollector::put_FileNameFormatPattern
@@ -50,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the format pattern to use when decorating the file name.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-PLA uses the pattern only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a> property is set to <b>plaPattern</b>.
+PLA uses the pattern only if the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a> property is set to <b>plaPattern</b>.
 
 PLA appends the decoration to the file name. Use the following pattern characters to define your own pattern. For example, the pattern "MMMM d, yyyy \a\t h:mmTt" could yield "January 31, 2005 at 4:20AM". If the file name is MyFile, the decorated file name would be "MyFile January 31, 2005 at 4:20AM".
 
@@ -181,26 +178,15 @@ PLA appends the decoration to the file name. Use the following pattern character
 <td>Escaped character, where <i>c</i> is any character. Unrecognized characters, excluding white space, that are not escaped will result in an error.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filename">IDataCollector::FileName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filename">IDataCollector::FileName</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>

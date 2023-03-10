@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.WinHelpA
 title: WinHelpA function (winuser.h)
-description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
+description: Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application. (ANSI)
+helpviewer_keywords: ["WinHelpA", "winuser/WinHelpA"]
 old-location: shell\WinHelp.htm
 tech.root: shell
 ms.assetid: fce80bac-2a44-46e7-a87a-ef93f4599807
 ms.date: 12/05/2018
 ms.keywords: WinHelp, WinHelp function [Windows Shell], WinHelpA, WinHelpW, _win32_WinHelp, shell.WinHelp, winuser/WinHelp, winuser/WinHelpA, winuser/WinHelpW
-f1_keywords:
-- winuser/WinHelp
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,34 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- WinHelp
-- WinHelpA
-- WinHelpW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHelpA
+ - winuser/WinHelpA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - WinHelp
+ - WinHelpA
+ - WinHelpW
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # WinHelpA function
@@ -57,21 +60,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Launches Windows Help (Winhelp.exe) and passes additional data that indicates the nature of the help requested by the application.
 
-
 ## -parameters
-
-
-
 
 ### -param hWndMain
 
 Type: <b>HWND</b>
 
 A handle to the window requesting help. The <b>WinHelp</b> function uses this handle to keep track of which applications have requested help. If the <i>uCommand</i> parameter specifies <b>HELP_CONTEXTMENU</b> or <b>HELP_WM_HELP</b>, <i>hWndMain</i> identifies the control requesting help.
-
 
 ### -param lpszHelp
 
@@ -83,13 +80,11 @@ The address of a null-terminated string containing the path, if necessary, and t
 
 The file name can be followed by an angle bracket (&gt;) and the name of a secondary window if the topic is to be displayed in a secondary window rather than in the primary window. You must define the name of the secondary window in the [WINDOWS] section of the Help project (.hpj) file.
 
-
 ### -param uCommand
 
 Type: <b>UINT</b>
 
 The type of help requested. For a list of possible values and how they affect the value to place in the <i>dwData</i> parameter, see the Remarks section.
-
 
 ### -param dwData
 
@@ -97,21 +92,13 @@ Type: <b>ULONG_PTR</b>
 
 Additional data. The value used depends on the value of the <i>uCommand</i> parameter. For a list of possible <i>dwData</i> values, see the Remarks section.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
-Returns nonzero if successful, or zero otherwise. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+Returns nonzero if successful, or zero otherwise. To retrieve extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Before closing the window that requested help, the application must call <b>WinHelp</b> with the <i>uCommand</i> parameter set to HELP_QUIT. Until all applications have done this, Windows Help will not terminate. Note that calling Windows Help with the HELP_QUIT command is not necessary if you used the HELP_CONTEXTPOPUP command to start Windows Help.
 
@@ -178,7 +165,7 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 <tr>
 <td>HELP_MULTIKEY</td>
 <td>Displays the topic specified by a keyword in an alternative keyword table.</td>
-<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a> structure that specifies a table footnote character and a keyword.</td>
+<td>Address of a <a href="/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a> structure that specifies a table footnote character and a keyword.</td>
 </tr>
 <tr>
 <td>HELP_PARTIALKEY</td>
@@ -198,12 +185,12 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 <tr>
 <td>HELP_SETPOPUP_POS</td>
 <td>Sets the position of the subsequent pop-up window.</td>
-<td>Contains the position data. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632660(v=vs.85)">MAKELONG</a> to concatenate the horizontal and vertical coordinates into a single value. The pop-up window is positioned as if the mouse cursor were at the specified point when the pop-up window was invoked.</td>
+<td>Contains the position data. Use <a href="/previous-versions/windows/desktop/legacy/ms632660(v=vs.85)">MAKELONG</a> to concatenate the horizontal and vertical coordinates into a single value. The pop-up window is positioned as if the mouse cursor were at the specified point when the pop-up window was invoked.</td>
 </tr>
 <tr>
 <td>HELP_SETWINPOS</td>
 <td>Displays the Windows Help window, if it is minimized or in memory, and sets its size and position as specified.</td>
-<td>Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a> structure that specifies the size and position of either a primary or secondary Help window.</td>
+<td>Address of a <a href="/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a> structure that specifies the size and position of either a primary or secondary Help window.</td>
 </tr>
 <tr>
 <td>HELP_TCARD</td>
@@ -221,17 +208,14 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines WinHelp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-helpwininfoa">HELPWININFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a>

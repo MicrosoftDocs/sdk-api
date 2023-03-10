@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_TaskUserTextArguments
 title: IDataCollectorSet::put_TaskUserTextArguments (pla.h)
-description: Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the IDataCollectorSet::TaskArguments property.
+description: Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the IDataCollectorSet::TaskArguments property. (Put)
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","TaskUserTextArguments property","IDataCollectorSet.TaskUserTextArguments","IDataCollectorSet.put_TaskUserTextArguments","IDataCollectorSet::TaskUserTextArguments","IDataCollectorSet::get_TaskUserTextArguments","IDataCollectorSet::put_TaskUserTextArguments","TaskUserTextArguments property [PLA]","TaskUserTextArguments property [PLA]","IDataCollectorSet interface","pla.idatacollectorset_taskusertextarguments","pla/IDataCollectorSet::TaskUserTextArguments","pla/IDataCollectorSet::get_TaskUserTextArguments","pla/IDataCollectorSet::put_TaskUserTextArguments","put_TaskUserTextArguments"]
 old-location: pla\idatacollectorset_taskusertextarguments.htm
 tech.root: PLA
 ms.assetid: 99fb2ed4-525b-4733-a652-b164b2c19980
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskUserTextArguments property, IDataCollectorSet.TaskUserTextArguments, IDataCollectorSet.put_TaskUserTextArguments, IDataCollectorSet::TaskUserTextArguments, IDataCollectorSet::get_TaskUserTextArguments, IDataCollectorSet::put_TaskUserTextArguments, TaskUserTextArguments property [PLA], TaskUserTextArguments property [PLA],IDataCollectorSet interface, pla.idatacollectorset_taskusertextarguments, pla/IDataCollectorSet::TaskUserTextArguments, pla/IDataCollectorSet::get_TaskUserTextArguments, pla/IDataCollectorSet::put_TaskUserTextArguments, put_TaskUserTextArguments
-f1_keywords:
-- pla/IDataCollectorSet.TaskUserTextArguments
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.TaskUserTextArguments
-- IDataCollectorSet.get_TaskUserTextArguments
-- IDataCollectorSet.put_TaskUserTextArguments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::put_TaskUserTextArguments
+ - pla/IDataCollectorSet::put_TaskUserTextArguments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.TaskUserTextArguments
+ - IDataCollectorSet.get_TaskUserTextArguments
+ - IDataCollectorSet.put_TaskUserTextArguments
 ---
 
 # IDataCollectorSet::put_TaskUserTextArguments
@@ -50,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> property.
+Retrieves or sets the command-line arguments that are substituted for the {usertext} substitution variable in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a> property.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-These arguments are included in the command-line arguments passed to the Task Scheduler job only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">TaskArguments</a> property includes the  {usertext} substitution variable. 
+These arguments are included in the command-line arguments passed to the Task Scheduler job only if the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">TaskArguments</a> property includes the  {usertext} substitution variable. 
 
 PLA provides the following substitution variables that you can include in your arguments string. PLA provides the values for the substitution variables when the task is triggered. You do not escape the braces.
 
@@ -74,7 +71,7 @@ PLA provides the following substitution variables that you can include in your a
 </tr>
 <tr>
 <td>{key}</td>
-<td>Space-delimited list of key values that were specified using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a> method.</td>
+<td>Space-delimited list of key values that were specified using the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a> method.</td>
 </tr>
 <tr>
 <td>{logs}</td>
@@ -85,22 +82,11 @@ PLA provides the following substitution variables that you can include in your a
 <td> Indicates whether the set is running (1 for running, 0 for stopped).</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskarguments">IDataCollectorSet::TaskArguments</a>

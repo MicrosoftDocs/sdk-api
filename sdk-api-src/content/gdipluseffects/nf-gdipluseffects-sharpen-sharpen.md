@@ -2,15 +2,12 @@
 UID: NF:gdipluseffects.Sharpen.Sharpen
 title: Sharpen::Sharpen (gdipluseffects.h)
 description: Creates a Sharpen object.
+helpviewer_keywords: ["Sharpen","Sharpen class [GDI+]","Sharpen constructor","Sharpen constructor [GDI+]","Sharpen constructor [GDI+]","Sharpen class","Sharpen.Sharpen","Sharpen::Sharpen","_gdiplus_CLASS_Sharpen_Sharpen_","gdiplus._gdiplus_CLASS_Sharpen_Sharpen_"]
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_Sharpen_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpenconstructors\sharpen.htm
 ms.date: 12/05/2018
 ms.keywords: Sharpen, Sharpen class [GDI+],Sharpen constructor, Sharpen constructor [GDI+], Sharpen constructor [GDI+],Sharpen class, Sharpen.Sharpen, Sharpen::Sharpen, _gdiplus_CLASS_Sharpen_Sharpen_, gdiplus._gdiplus_CLASS_Sharpen_Sharpen_
-f1_keywords:
-- gdipluseffects/Sharpen.Sharpen
-dev_langs:
-- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Sharpen.Sharpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.1
 ms.custom: 19H1
+f1_keywords:
+ - Sharpen::Sharpen
+ - gdipluseffects/Sharpen::Sharpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Sharpen.Sharpen
 ---
 
 # Sharpen::Sharpen
@@ -49,32 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object. 
-
-
-## -parameters
-
-
-
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object.
 
 
 
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-sharpenparams">SharpenParams</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-sharpenparams">SharpenParams</a>

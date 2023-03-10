@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICBitmap.Lock
 title: IWICBitmap::Lock (wincodec.h)
 description: Provides access to a rectangular area of the bitmap.
+helpviewer_keywords: ["IWICBitmap interface [Windows Imaging Component]","Lock method","IWICBitmap.Lock","IWICBitmap::Lock","Lock","Lock method [Windows Imaging Component]","Lock method [Windows Imaging Component]","IWICBitmap interface","WICBitmapLockRead","WICBitmapLockWrite","_wic_codec_iwicbitmap_lock","wic._wic_codec_iwicbitmap_lock","wincodec/IWICBitmap::Lock"]
 old-location: wic\_wic_codec_iwicbitmap_lock.htm
 tech.root: wic
 ms.assetid: 2ab25a00-c89c-4a2c-8e12-8ce81cc21bca
 ms.date: 12/05/2018
 ms.keywords: IWICBitmap interface [Windows Imaging Component],Lock method, IWICBitmap.Lock, IWICBitmap::Lock, Lock, Lock method [Windows Imaging Component], Lock method [Windows Imaging Component],IWICBitmap interface, WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_iwicbitmap_lock, wic._wic_codec_iwicbitmap_lock, wincodec/IWICBitmap::Lock
-f1_keywords:
-- wincodec/IWICBitmap.Lock
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmap.Lock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmap::Lock
+ - wincodec/IWICBitmap::Lock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmap.Lock
 ---
 
 # IWICBitmap::Lock
@@ -48,27 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides access to a rectangular area of the bitmap.
-
 
 ## -parameters
 
-
-
-
 ### -param prcLock [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
 
 The rectangle to be accessed.
-
 
 ### -param flags [in]
 
 Type: <b>DWORD</b>
 
-The access mode you wish to obtain for the lock. This is a bitwise combination of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmaplockflags">WICBitmapLockFlags</a> for read, write, or read and write access.
+The access mode you wish to obtain for the lock. This is a bitwise combination of <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmaplockflags">WICBitmapLockFlags</a> for read, write, or read and write access.
 
 <table>
 <tr>
@@ -96,39 +92,29 @@ The write access lock.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppILock [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>**</b>
 
 A pointer that receives the locked memory location.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Locks are exclusive for writing but can be shared for reading. You cannot call <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> while the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> is locked for writing. Doing so will return an error, since locks are exclusive.
+Locks are exclusive for writing but can be shared for reading. You cannot call <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> while the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> is locked for writing. Doing so will return an error, since locks are exclusive.
 
 
 #### Examples
 
 
 
-In the following example, an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> is created and the image data is cleared using an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>.
+In the following example, an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> is created and the image data is cleared using an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmaplock">IWICBitmapLock</a>.
 
 
 ```cpp
@@ -195,7 +181,3 @@ In the following example, an <a href="https://docs.microsoft.com/windows/desktop
     return hr;
 
 ```
-
-
-
-

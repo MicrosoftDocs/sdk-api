@@ -1,16 +1,13 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyClientConnectionStateChange
 title: ITsSbResourceNotification::NotifyClientConnectionStateChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a client connection.
+description: Notifies registered plug-ins about state changes in a client connection. (ITsSbResourceNotification.NotifyClientConnectionStateChange)
+helpviewer_keywords: ["CONNECTION_REQUEST_CANCELLED","CONNECTION_REQUEST_FAILED","CONNECTION_REQUEST_PENDING","CONNECTION_REQUEST_SUCCEEDED","CONNECTION_REQUEST_TIMEDOUT","ITsSbResourceNotification interface [Remote Desktop Services]","NotifyClientConnectionStateChange method","ITsSbResourceNotification.NotifyClientConnectionStateChange","ITsSbResourceNotification::NotifyClientConnectionStateChange","NotifyClientConnectionStateChange","NotifyClientConnectionStateChange method [Remote Desktop Services]","NotifyClientConnectionStateChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange","termserv.itssbresourcenotification_notifyclientconnectionstatechange"]
 old-location: termserv\itssbresourcenotification_notifyclientconnectionstatechange.htm
 tech.root: TermServ
 ms.assetid: 8c5d6cf4-f99c-46fa-8b8e-008ff8a4d0d7
 ms.date: 12/05/2018
 ms.keywords: CONNECTION_REQUEST_CANCELLED, CONNECTION_REQUEST_FAILED, CONNECTION_REQUEST_PENDING, CONNECTION_REQUEST_SUCCEEDED, CONNECTION_REQUEST_TIMEDOUT, ITsSbResourceNotification interface [Remote Desktop Services],NotifyClientConnectionStateChange method, ITsSbResourceNotification.NotifyClientConnectionStateChange, ITsSbResourceNotification::NotifyClientConnectionStateChange, NotifyClientConnectionStateChange, NotifyClientConnectionStateChange method [Remote Desktop Services], NotifyClientConnectionStateChange method [Remote Desktop Services],ITsSbResourceNotification interface, sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange, termserv.itssbresourcenotification_notifyclientconnectionstatechange
-f1_keywords:
-- sbtsv/ITsSbResourceNotification.NotifyClientConnectionStateChange
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourceNotification.NotifyClientConnectionStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourceNotification::NotifyClientConnectionStateChange
+ - sbtsv/ITsSbResourceNotification::NotifyClientConnectionStateChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourceNotification.NotifyClientConnectionStateChange
 ---
 
 # ITsSbResourceNotification::NotifyClientConnectionStateChange
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Notifies registered plug-ins about state changes in a client connection.
 
-
 ## -parameters
-
-
-
 
 ### -param ChangeType [in]
 
@@ -110,41 +107,22 @@ canceled a connection request
 request was being processed while the 
 RD Connection Broker service was stopping.
 
-
 ### -param pConnection [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> connection object.
-
+A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> connection object.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 RD Connection Broker calls the <b>NotifyClientConnectionStateChange</b> method to notify registered plug-ins about state changes in a client connection.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>

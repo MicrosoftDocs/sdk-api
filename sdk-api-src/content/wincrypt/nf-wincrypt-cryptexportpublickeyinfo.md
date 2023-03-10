@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptExportPublicKeyInfo
 title: CryptExportPublicKeyInfo function (wincrypt.h)
 description: The CryptExportPublicKeyInfo function exports the public key information associated with the corresponding private key of the provider. For an updated version of this function, see CryptExportPublicKeyInfoEx.
+helpviewer_keywords: ["CryptExportPublicKeyInfo","CryptExportPublicKeyInfo function [Security]","_crypto2_cryptexportpublickeyinfo","security.cryptexportpublickeyinfo","wincrypt/CryptExportPublicKeyInfo"]
 old-location: security\cryptexportpublickeyinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ad43a991-aaf5-4272-abab-0a981112e5e4
 ms.date: 12/05/2018
 ms.keywords: CryptExportPublicKeyInfo, CryptExportPublicKeyInfo function [Security], _crypto2_cryptexportpublickeyinfo, security.cryptexportpublickeyinfo, wincrypt/CryptExportPublicKeyInfo
-f1_keywords:
-- wincrypt/CryptExportPublicKeyInfo
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptExportPublicKeyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptExportPublicKeyInfo
+ - wincrypt/CryptExportPublicKeyInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptExportPublicKeyInfo
 ---
 
 # CryptExportPublicKeyInfo function
@@ -48,30 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CryptExportPublicKeyInfo</b> function exports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> information associated with the corresponding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> of the provider. For an updated version of this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfoex">CryptExportPublicKeyInfoEx</a>.
-
+The <b>CryptExportPublicKeyInfo</b> function exports the <a href="/windows/desktop/SecGloss/p-gly">public key</a> information associated with the corresponding <a href="/windows/desktop/SecGloss/p-gly">private key</a> of the provider. For an updated version of this function, see 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpublickeyinfoex">CryptExportPublicKeyInfoEx</a>.
 
 ## -parameters
 
-
-
-
 ### -param hCryptProvOrNCryptKey [in]
 
-Handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use when exporting the public key information. This handle must be an <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in the <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
-
+Handle of the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use when exporting the public key information. This handle must be an <a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a> handle that has been created by using the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function or an <b>NCRYPT_KEY_HANDLE</b> handle that has been created by using the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenkey">NCryptOpenKey</a> function. New applications should always pass in the <b>NCRYPT_KEY_HANDLE</b> handle of a CNG CSP.
 
 ### -param dwKeySpec [in]
 
 Identifies the private key to use from the container of the provider. It can be AT_KEYEXCHANGE or AT_SIGNATURE. This parameter is ignored if an <b>NCRYPT_KEY_HANDLE</b> is used in the <i>hCryptProvOrNCryptKey</i> parameter.
 
-
 ### -param dwCertEncodingType [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">encoding type</a> used. It is always acceptable to specify both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the <a href="/windows/desktop/SecGloss/e-gly">encoding type</a> used. It is always acceptable to specify both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -85,11 +80,10 @@ Currently defined encoding types are:
 ### -param pInfo [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a>  structure to receive the public key information to be exported.
 
 To set the size of this information for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbInfo [in, out]
 
@@ -100,16 +94,14 @@ A pointer to a <b>DWORD</b> that contains the size, in bytes, of the buffer poin
 
 ## -returns
 
-
-
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 <div class="alert"><b>Note</b>  Errors from the called functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey">CryptGetUserKey</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> might be propagated to this function.</div>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetuserkey">CryptGetUserKey</a> and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportkey">CryptExportKey</a> might be propagated to this function.</div>
 <div> </div>
 This function has the following error codes.
 
@@ -143,23 +135,13 @@ Invalid certificate encoding type. Currently only X509_ASN_ENCODING is supported
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
-
-
-
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfo">CryptImportPublicKeyInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfo">CryptImportPublicKeyInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

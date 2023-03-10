@@ -2,15 +2,12 @@
 UID: NN:mbnapi.IMbnSmsReadMsgPdu
 title: IMbnSmsReadMsgPdu (mbnapi.h)
 description: A collection of properties that represent an SMS message read from the device memory.
+helpviewer_keywords: ["IMbnSmsReadMsgPdu","IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","described","mbn.imbnsmsreadmsgpdu","mbnapi/IMbnSmsReadMsgPdu"]
 old-location: mbn\imbnsmsreadmsgpdu.htm
 tech.root: mbn
 ms.assetid: dc0e15c4-6203-4105-9d19-5931b27047d2
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgpdu, mbnapi/IMbnSmsReadMsgPdu
-f1_keywords:
-- mbnapi/IMbnSmsReadMsgPdu
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsReadMsgPdu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsReadMsgPdu
+ - mbnapi/IMbnSmsReadMsgPdu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsReadMsgPdu
 ---
 
 # IMbnSmsReadMsgPdu interface
@@ -53,15 +55,9 @@ ms.custom: 19H1
 
 A collection of properties that represent an SMS message read from the device memory.
 
-
 ## -remarks
 
-
-
 This interface is provided by the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete">OnSmsReadComplete</a> and 
-     <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsnewclass0message">OnSmsNewClass0Message</a> methods of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.
-
-
-
+     <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsreadcomplete">OnSmsReadComplete</a> and 
+     <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsmsevents-onsmsnewclass0message">OnSmsNewClass0Message</a> methods of the 
+     <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a> interface.

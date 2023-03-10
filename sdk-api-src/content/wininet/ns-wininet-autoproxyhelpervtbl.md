@@ -2,15 +2,12 @@
 UID: NS:wininet.AutoProxyHelperVtbl
 title: AutoProxyHelperVtbl (wininet.h)
 description: The AutoProxyHelperVtbl structure creates a v-table of pointers to Proxy AutoConfig (PAC) helper functions.See the Navigator Proxy Auto-Config (PAC) File Format documentation for a specification of the form and use of Proxy Auto-Config helper functions.
+helpviewer_keywords: ["AutoProxyHelperVtbl","AutoProxyHelperVtbl structure [WinINet]","wininet.autoproxyhelpervtbl","wininet/AutoProxyHelperVtbl"]
 old-location: wininet\autoproxyhelpervtbl.htm
 tech.root: wininet
 ms.assetid: df482b8d-38e1-4d0d-a12c-8ba0f2e6423a
 ms.date: 12/05/2018
 ms.keywords: AutoProxyHelperVtbl, AutoProxyHelperVtbl structure [WinINet], wininet.autoproxyhelpervtbl, wininet/AutoProxyHelperVtbl
-f1_keywords:
-- wininet/AutoProxyHelperVtbl
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- AutoProxyHelperVtbl
 targetos: Windows
 req.typenames: AutoProxyHelperVtbl
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AutoProxyHelperVtbl
+ - wininet/AutoProxyHelperVtbl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - AutoProxyHelperVtbl
 ---
 
 # AutoProxyHelperVtbl structure
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AutoProxyHelperVtbl</b> structure creates a v-table of pointers to Proxy AutoConfig (PAC) helper functions.
 
-See the   <a href="https://go.microsoft.com/fwlink/p/?linkid=84541">Navigator Proxy Auto-Config (PAC) File Format</a> documentation for a specification of the form and use of Proxy Auto-Config helper functions.
-
+See the   <a href="https://web.archive.org/web/20060424005037/wp.netscape.com/eng/mozilla/2.0/relnotes/demo/proxy-live.html">Navigator Proxy Auto-Config (PAC) File Format</a> documentation for a specification of the form and use of Proxy Auto-Config helper functions.
 
 ## -struct-fields
-
-
-
 
 ### -field IsResolvable
 
@@ -68,7 +65,6 @@ Tries to resolve a specified host name. This PAC function is described in the sp
 #### lpszHost
 
 Pointer to a string that contains the host name.
-
 
 ### -field GetIPAddress
 
@@ -85,7 +81,6 @@ Pointer to a buffer in which the IP address is to be returned.
 #### lpdwIPAddressSize
 
 Size of the buffer pointed to by <b>lpszIPAddress</b>.
-
 
 ### -field ResolveHostName
 
@@ -108,7 +103,6 @@ Pointer to a buffer in which the IP address is to be returned.
 #### lpdwIPAddressSize
 
 Size of the buffer pointed to by <b>lpszIPAddress</b>.
-
 
 ### -field IsInNet
 
@@ -134,7 +128,6 @@ Pointer to a string representation of the IP address against which to compare; c
 
 Pointer to a string representation of the mask to apply against the address pointed to by <i>lpszIPAddress</i>.
 
-
 ### -field IsResolvableEx
 
 Tries to resolve a specified host name. This PAC function is described in the specification under the same name. Returns <b>TRUE</b> if the host name can be resolved, or <b>FALSE</b> otherwise.
@@ -146,7 +139,6 @@ Tries to resolve a specified host name. This PAC function is described in the sp
 #### lpszHost
 
 String that contains the host name.
-
 
 ### -field GetIPAddressEx
 
@@ -165,7 +157,6 @@ Pointer to a buffer in which the IP address is to be returned.
 #### lpdwIPAddressSize
 
 The size of the buffer pointed to by <i>lpszIPAddress</i>.
-
 
 ### -field ResolveHostNameEx
 
@@ -191,7 +182,6 @@ Pointer to a buffer in which the IP address is to be returned.
 
 Size of the buffer pointed to by <i>lpszIPAddress</i>.
 
-
 ### -field IsInNetEx
 
 Determines whether a specified IP address masked by a specified mask value matches a specified destination address. This PAC function is described in the specification under the same name. 
@@ -209,7 +199,6 @@ Pointer to a string representation of the IP address to mask; corresponds to the
 #### lpszIPPrefix
 
 Pointer so a string containing the IP address prefix.
-
 
 ### -field SortIpList
 
@@ -238,29 +227,17 @@ Pointer to the sorted list.
 
 Pointer to a buffer containing the size of the sorted list.
 
-
 ## -remarks
 
+Together with the <a href="/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a> structure, <b>AutoProxyHelperVtbl</b> serves to create a standard v-table that can be declared and populated using C, without requiring the use of C++.
 
-
-Together with the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a> structure, <b>AutoProxyHelperVtbl</b> serves to create a standard v-table that can be declared and populated using C, without requiring the use of C++.
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-autoproxyhelperfunctions">AutoProxyHelperFunctions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>

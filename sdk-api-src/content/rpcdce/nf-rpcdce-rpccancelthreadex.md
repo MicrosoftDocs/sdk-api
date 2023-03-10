@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcCancelThreadEx
 title: RpcCancelThreadEx function (rpcdce.h)
 description: The RpcCancelThreadEx function stops the execution of a thread.
+helpviewer_keywords: ["RpcCancelThreadEx","RpcCancelThreadEx function [RPC]","_rpc_rpccancelthreadex","rpc.rpccancelthreadex","rpcdce/RpcCancelThreadEx"]
 old-location: rpc\rpccancelthreadex.htm
 tech.root: Rpc
 ms.assetid: ecf00da0-bc26-4762-94e1-9a5e1cdbc32e
 ms.date: 12/05/2018
 ms.keywords: RpcCancelThreadEx, RpcCancelThreadEx function [RPC], _rpc_rpccancelthreadex, rpc.rpccancelthreadex, rpcdce/RpcCancelThreadEx
-f1_keywords:
-- rpcdce/RpcCancelThreadEx
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcCancelThreadEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcCancelThreadEx
+ - rpcdce/RpcCancelThreadEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcCancelThreadEx
 ---
 
 # RpcCancelThreadEx function
+
 
 ## -description
 
@@ -130,3 +133,4 @@ If you are using the named pipes protocol, <a href="/windows/win32/midl/ncacn-np
 <a href="/windows/win32/midl/ncacn-np">ncacn_np</a>
 <a href="/windows/win32/midl/ncadg-mq">ncadg_mq</a>
 <a href="/windows/win32/midl/ncalrpc">ncalrpc</a>
+

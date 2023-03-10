@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnDeviceService.OpenCommandSession
 title: IMbnDeviceService::OpenCommandSession (mbnapi.h)
 description: Opens a command session to a device service on a Mobile Broadband device.
+helpviewer_keywords: ["IMbnDeviceService interface [Microsoft Broadband Networks]","OpenCommandSession method","IMbnDeviceService.OpenCommandSession","IMbnDeviceService::OpenCommandSession","OpenCommandSession","OpenCommandSession method [Microsoft Broadband Networks]","OpenCommandSession method [Microsoft Broadband Networks]","IMbnDeviceService interface","mbn.imbndeviceservice_opencommandsession","mbnapi/IMbnDeviceService::OpenCommandSession"]
 old-location: mbn\imbndeviceservice_opencommandsession.htm
 tech.root: mbn
 ms.assetid: EC4FF42D-EFE9-432C-997F-426B2187BBBE
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],OpenCommandSession method, IMbnDeviceService.OpenCommandSession, IMbnDeviceService::OpenCommandSession, OpenCommandSession, OpenCommandSession method [Microsoft Broadband Networks], OpenCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_opencommandsession, mbnapi/IMbnDeviceService::OpenCommandSession
-f1_keywords:
-- mbnapi/IMbnDeviceService.OpenCommandSession
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceService.OpenCommandSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceService::OpenCommandSession
+ - mbnapi/IMbnDeviceService::OpenCommandSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceService.OpenCommandSession
 ---
 
 # IMbnDeviceService::OpenCommandSession
@@ -53,20 +55,13 @@ ms.custom: 19H1
 
 Opens a command session to a device service on a Mobile Broadband device.
 
-
 ## -parameters
-
-
-
 
 ### -param requestID [out]
 
 A unique request ID assigned by the Mobile Broadband service to identify this request.
 
-
 ## -returns
-
-
 
 The method can return one of the following values.
 
@@ -109,30 +104,13 @@ An error was encountered when executing this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>OpenCommandSession</b> allows an application to open a command session to a the device service on the mobile broadband device.
 
-This is an asynchronous operation and <b>OpenCommandSession</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopencommandsessioncomplete">OnOpenCommandSessionComplete</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
-
-
-
-
+This is an asynchronous operation and <b>OpenCommandSession</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onopencommandsessioncomplete">OnOpenCommandSessionComplete</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>

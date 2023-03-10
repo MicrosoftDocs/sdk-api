@@ -1,16 +1,13 @@
 ---
 UID: NS:cryptdlg.tagCERT_VIEWPROPERTIES_STRUCT_W
 title: CERT_VIEWPROPERTIES_STRUCT_W (cryptdlg.h)
-description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties.
+description: The CERT_VIEWPROPERTIES_STRUCT structure defines information used when the CertViewProperties function is called to display a certificate's properties. (Unicode)
+helpviewer_keywords: ["*PCERT_VIEWPROPERTIES_STRUCT_W","CERT_VIEWPROPERTIES_STRUCT","CERT_VIEWPROPERTIES_STRUCT structure [Security]","CERT_VIEWPROPERTIES_STRUCT_W","CM_ADD_CERT_STORES","CM_ENABLEHOOK","CM_ENABLETEMPLATE","CM_HIDE_ADVANCEPAGE","CM_HIDE_DETAILPAGE","CM_HIDE_TRUSTPAGE","CM_NO_EDITTRUST","CM_NO_NAMECHANGE","CM_SHOW_HELP","CM_SHOW_HELPICON","PCERT_VIEWPROPERTIES_STRUCT","PCERT_VIEWPROPERTIES_STRUCT structure pointer [Security]","cryptdlg/CERT_VIEWPROPERTIES_STRUCT","cryptdlg/PCERT_VIEWPROPERTIES_STRUCT","security.cert_viewproperties_struct"]
 old-location: security\cert_viewproperties_struct.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 3d18526b-1052-4f0c-999b-881a74a94549
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_VIEWPROPERTIES_STRUCT_W, CERT_VIEWPROPERTIES_STRUCT, CERT_VIEWPROPERTIES_STRUCT structure [Security], CERT_VIEWPROPERTIES_STRUCT_W, CM_ADD_CERT_STORES, CM_ENABLEHOOK, CM_ENABLETEMPLATE, CM_HIDE_ADVANCEPAGE, CM_HIDE_DETAILPAGE, CM_HIDE_TRUSTPAGE, CM_NO_EDITTRUST, CM_NO_NAMECHANGE, CM_SHOW_HELP, CM_SHOW_HELPICON, PCERT_VIEWPROPERTIES_STRUCT, PCERT_VIEWPROPERTIES_STRUCT structure pointer [Security], cryptdlg/CERT_VIEWPROPERTIES_STRUCT, cryptdlg/PCERT_VIEWPROPERTIES_STRUCT, security.cert_viewproperties_struct'
-f1_keywords:
-- cryptdlg/CERT_VIEWPROPERTIES_STRUCT
-dev_langs:
-- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CryptDlg.h
-api_name:
-- CERT_VIEWPROPERTIES_STRUCT
-- cert_viewproperties_struct_w
 targetos: Windows
 req.typenames: CERT_VIEWPROPERTIES_STRUCT_W, *PCERT_VIEWPROPERTIES_STRUCT_W
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCERT_VIEWPROPERTIES_STRUCT_W
+ - cryptdlg/tagCERT_VIEWPROPERTIES_STRUCT_W
+ - PCERT_VIEWPROPERTIES_STRUCT_W
+ - cryptdlg/PCERT_VIEWPROPERTIES_STRUCT_W
+ - CERT_VIEWPROPERTIES_STRUCT_W
+ - cryptdlg/CERT_VIEWPROPERTIES_STRUCT_W
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CryptDlg.h
+api_name:
+ - CERT_VIEWPROPERTIES_STRUCT
+ - cert_viewproperties_struct_w
 ---
 
 # CERT_VIEWPROPERTIES_STRUCT_W structure
@@ -49,34 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CERT_VIEWPROPERTIES_STRUCT</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CERT_VIEWPROPERTIES_STRUCT</b> structure defines information used when  the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a> function  is called to display a certificate's properties.
-
+The <b>CERT_VIEWPROPERTIES_STRUCT</b> structure defines information used when  the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a> function  is called to display a certificate's properties.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size, in bytes, of this structure.
 
-
 ### -field hwndParent
 
 A handle to the parent window.
-
 
 ### -field hInstance
 
 A handle to the module instance.
 
-
 ### -field dwFlags
-
 
 Bitwise combination of zero or more of the following values.
 
@@ -198,106 +195,84 @@ Specifies that certificate stores are opened.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szTitle
 
 A pointer to a null-terminated string for the title of the user interface.
 
-
 ### -field pCertContext
 
 Certificate context for the certificate to be shown.
-
 
 ### -field arrayPurposes
 
 A pointer to an array of null-terminated strings that specify the certificate purposes.
 
-
 ### -field cArrayPurposes
 
 Number of elements in the <b>arrayPurposes</b> array. If this value is zero, then no trust status is displayed.
-
 
 ### -field cRootStores
 
 Number of elements in the <b>rghstoreRoots</b> array.
 
-
 ### -field rghstoreRoots
 
 Array of Root certificate store handles.
-
 
 ### -field cStores
 
 Number of elements in the <b>rghstoreCAs</b> array.
 
-
 ### -field rghstoreCAs
 
 Array of other certificate store handles.
-
 
 ### -field cTrustStores
 
 Number of elements in the <b>rghstoreTrust</b> array.
 
-
 ### -field rghstoreTrust
 
 Array of trust certificate store handles.
 
-
 ### -field hprov
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use for verification.
-
+A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use for verification.
 
 ### -field lCustData
 
 Value used for custom data.
 
-
 ### -field dwPad
 
 Padding location.
-
 
 ### -field szHelpFileName
 
 A pointer to a null-terminated string for the Help file name.
 
-
 ### -field dwHelpId
 
 ID for the Help file topic.
-
 
 ### -field nStartPage
 
 Number of the first property page.
 
-
 ### -field cArrayPropSheetPages
 
 Number of elements in the <b>arrayPropSheetPages</b> array.
-
 
 ### -field arrayPropSheetPages
 
 A pointer to an array of <b>PROPSHEETPAGE</b> structures that specify the property pages.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a>
- 
-
- 
-
+> [!NOTE]
+> The cryptdlg.h header defines CERT_VIEWPROPERTIES_STRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

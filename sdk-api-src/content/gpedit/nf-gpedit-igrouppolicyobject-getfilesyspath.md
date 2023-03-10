@@ -2,15 +2,12 @@
 UID: NF:gpedit.IGroupPolicyObject.GetFileSysPath
 title: IGroupPolicyObject::GetFileSysPath (gpedit.h)
 description: The GetFileSysPath method retrieves the file system path to the root of the specified GPO section. The path is in UNC format.
+helpviewer_keywords: ["GPO_SECTION_MACHINE","GPO_SECTION_ROOT","GPO_SECTION_USER","GetFileSysPath","GetFileSysPath method [Group Policy]","GetFileSysPath method [Group Policy]","IGroupPolicyObject interface","IGroupPolicyObject interface [Group Policy]","GetFileSysPath method","IGroupPolicyObject.GetFileSysPath","IGroupPolicyObject::GetFileSysPath","_win32_igrouppolicyobject_getfilesyspath","gpedit/IGroupPolicyObject::GetFileSysPath","policy.igrouppolicyobject_getfilesyspath"]
 old-location: policy\igrouppolicyobject_getfilesyspath.htm
 tech.root: Policy
 ms.assetid: 9f0837ff-31bb-4eaa-82e4-ef127f8e605a
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_ROOT, GPO_SECTION_USER, GetFileSysPath, GetFileSysPath method [Group Policy], GetFileSysPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetFileSysPath method, IGroupPolicyObject.GetFileSysPath, IGroupPolicyObject::GetFileSysPath, _win32_igrouppolicyobject_getfilesyspath, gpedit/IGroupPolicyObject::GetFileSysPath, policy.igrouppolicyobject_getfilesyspath
-f1_keywords:
-- gpedit/IGroupPolicyObject.GetFileSysPath
-dev_langs:
-- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Gpedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpedit.dll
-api_name:
-- IGroupPolicyObject.GetFileSysPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGroupPolicyObject::GetFileSysPath
+ - gpedit/IGroupPolicyObject::GetFileSysPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpedit.dll
+api_name:
+ - IGroupPolicyObject.GetFileSysPath
 ---
 
 # IGroupPolicyObject::GetFileSysPath
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>GetFileSysPath</b> method retrieves the file system path to the root of the specified GPO section. The path is in UNC format.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSection [in]
 
@@ -80,57 +77,37 @@ User section
 
 Computer section
 
-
 ### -param pszPath [out]
 
 Pointer to a buffer that receives the path.
-
 
 ### -param cchMaxPath [in]
 
 Specifies the maximum number of characters that can be stored in the <i>pszPath</i> buffer.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns one of the COM error codes defined in the Platform SDK header file WinError.h.
 
-
-
-
 ## -remarks
 
-
-
 To retrieve the Active Directory path to the root of a GPO section, you can call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getdspath">GetDSPath</a> method.
-
-
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getdspath">GetDSPath</a> method.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getdspath">GetDSPath</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getdspath">GetDSPath</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>

@@ -2,15 +2,12 @@
 UID: NF:mmeapi.midiOutShortMsg
 title: midiOutShortMsg function (mmeapi.h)
 description: The midiOutShortMsg function sends a short MIDI message to the specified MIDI output device.
+helpviewer_keywords: ["_win32_midiOutShortMsg","midiOutShortMsg","midiOutShortMsg function [Windows Multimedia]","mmeapi/midiOutShortMsg","multimedia.midioutshortmsg"]
 old-location: multimedia\midioutshortmsg.htm
 tech.root: Multimedia
 ms.assetid: b46d342a-7bfc-495a-98d3-e0c93ae4fd59
 ms.date: 12/05/2018
 ms.keywords: _win32_midiOutShortMsg, midiOutShortMsg, midiOutShortMsg function [Windows Multimedia], mmeapi/midiOutShortMsg, multimedia.midioutshortmsg
-f1_keywords:
-- mmeapi/midiOutShortMsg
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiOutShortMsg
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiOutShortMsg
+ - mmeapi/midiOutShortMsg
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiOutShortMsg
 ---
 
 # midiOutShortMsg function
@@ -50,22 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiOutShortMsg</b> function sends a short MIDI message to the specified MIDI output device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmo
 
 Handle to the MIDI output device. This parameter can also be the handle of a MIDI stream cast to <b>HMIDIOUT</b>.
-
 
 ### -param dwMsg
 
@@ -135,12 +128,8 @@ The two MIDI data bytes are optional, depending on the MIDI status byte. When a 
 <td>The first byte of MIDI data.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following:
 
@@ -183,29 +172,13 @@ The specified device handle is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is used to send any MIDI message except for system-exclusive or stream messages.
 
 This function might not return until the message has been sent to the output device. You can send short messages while streams are playing on the same device (although you cannot use a running status in this case).
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

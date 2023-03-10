@@ -2,15 +2,12 @@
 UID: NF:winsxs.IAssemblyCache.QueryAssemblyInfo
 title: IAssemblyCache::QueryAssemblyInfo (winsxs.h)
 description: The QueryAssemblyInfo method queries the side-by-side assembly store for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
+helpviewer_keywords: ["IAssemblyCache interface [Side-by-side Assemblies]","QueryAssemblyInfo method","IAssemblyCache.QueryAssemblyInfo","IAssemblyCache::QueryAssemblyInfo","QUERYASMINFO_FLAG_GETSIZE","QUERYASMINFO_FLAG_VALIDATE","QueryAssemblyInfo","QueryAssemblyInfo method [Side-by-side Assemblies]","QueryAssemblyInfo method [Side-by-side Assemblies]","IAssemblyCache interface","setup.iassemblycache_queryassemblyinfo","winsxs/IAssemblyCache::QueryAssemblyInfo"]
 old-location: setup\iassemblycache_queryassemblyinfo.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: fc13e5ac-60cf-43f2-b50e-00be3a1ad270
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCache interface [Side-by-side Assemblies],QueryAssemblyInfo method, IAssemblyCache.QueryAssemblyInfo, IAssemblyCache::QueryAssemblyInfo, QUERYASMINFO_FLAG_GETSIZE, QUERYASMINFO_FLAG_VALIDATE, QueryAssemblyInfo, QueryAssemblyInfo method [Side-by-side Assemblies], QueryAssemblyInfo method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_queryassemblyinfo, winsxs/IAssemblyCache::QueryAssemblyInfo
-f1_keywords:
-- winsxs/IAssemblyCache.QueryAssemblyInfo
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyCache.QueryAssemblyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyCache::QueryAssemblyInfo
+ - winsxs/IAssemblyCache::QueryAssemblyInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyCache.QueryAssemblyInfo
 ---
 
 # IAssemblyCache::QueryAssemblyInfo
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryAssemblyInfo</b> method queries the side-by-side assembly store for assembly information and validates the files in the side-by-side assembly store against the assembly manifest.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in, optional]
 
@@ -92,22 +89,16 @@ Returns the size of all files in the assembly.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszAssemblyName [in]
 
 Pointer to null-terminated string value containing the fully-specified strong name of the assembly to query. If the name is not fully specified, the result of the method is undefined.
 
-
 ### -param pAsmInfo [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/ns-winsxs-assembly_info">ASSEMBLY_INFO</a> structure that receives the information.
-
+Pointer to the <a href="/windows/desktop/api/winsxs/ns-winsxs-assembly_info">ASSEMBLY_INFO</a> structure that receives the information.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -139,18 +130,7 @@ The method did not succeed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblycache">IAssemblyCache</a>

@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnConnectionProfileManager.GetConnectionProfiles
 title: IMbnConnectionProfileManager::GetConnectionProfiles (mbnapi.h)
 description: Gets a list of connection profiles associated with the device.
+helpviewer_keywords: ["GetConnectionProfiles","GetConnectionProfiles method [Microsoft Broadband Networks]","GetConnectionProfiles method [Microsoft Broadband Networks]","IMbnConnectionProfileManager interface","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","GetConnectionProfiles method","IMbnConnectionProfileManager.GetConnectionProfiles","IMbnConnectionProfileManager::GetConnectionProfiles","mbn.imbnconnectionprofilemanager_getconnectionprofiles","mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles"]
 old-location: mbn\imbnconnectionprofilemanager_getconnectionprofiles.htm
 tech.root: mbn
 ms.assetid: 96752181-1135-4dcf-9c07-056dfbf2ca5f
 ms.date: 12/05/2018
 ms.keywords: GetConnectionProfiles, GetConnectionProfiles method [Microsoft Broadband Networks], GetConnectionProfiles method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],GetConnectionProfiles method, IMbnConnectionProfileManager.GetConnectionProfiles, IMbnConnectionProfileManager::GetConnectionProfiles, mbn.imbnconnectionprofilemanager_getconnectionprofiles, mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
-f1_keywords:
-- mbnapi/IMbnConnectionProfileManager.GetConnectionProfiles
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionProfileManager.GetConnectionProfiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionProfileManager::GetConnectionProfiles
+ - mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionProfileManager.GetConnectionProfiles
 ---
 
 # IMbnConnectionProfileManager::GetConnectionProfiles
@@ -53,25 +55,17 @@ ms.custom: 19H1
 
 Gets a list of connection profiles associated with the device.
 
-
 ## -parameters
-
-
-
 
 ### -param mbnInterface [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> that represents the device for which the profile request applies.  If this is <b>NULL</b>, the function will return all of the profiles that are present in the system.
-
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> that represents the device for which the profile request applies.  If this is <b>NULL</b>, the function will return all of the profiles that are present in the system.
 
 ### -param connectionProfiles [out, retval]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> interfaces that represent all the available connection profiles for the device.  If this method returns anything other than <b>S_OK</b>, the array pointer is <b>NULL</b>, otherwise the calling application must eventually free the allocated memory by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=121490">SafeArrayDestroy</a>.
-
+An array of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a> interfaces that represent all the available connection profiles for the device.  If this method returns anything other than <b>S_OK</b>, the array pointer is <b>NULL</b>, otherwise the calling application must eventually free the allocated memory by calling <a href="/windows/win32/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,29 +119,13 @@ The Mobile Broadband service is not running on this system.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+ When this operation is called for a particular device, it returns a list of profiles which have the same subscriber ID as currently reported by device. The <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getsubscriberinformation">GetSubscriberInformation</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> can be used to obtain the subscriber ID associated with the interface.
 
-
- When this operation is called for a particular device, it returns a list of profiles which have the same subscriber ID as currently reported by device. The <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getsubscriberinformation">GetSubscriberInformation</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> can be used to obtain the subscriber ID associated with the interface.
-
-A connection profile is associated with the subscriber ID of the device. For GSM devices the subscriber ID is the International Mobile Subscriber Identity (IMSI) of the SIM.  For CDMA devices it is the Mobile Identification Number (MIN) string or the International Roaming MIN (IRM) string. 
-
-
-
+A connection profile is associated with the subscriber ID of the device. For GSM devices the subscriber ID is the International Mobile Subscriber Identity (IMSI) of the SIM.  For CDMA devices it is the Mobile Identification Number (MIN) string or the International Roaming MIN (IRM) string.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>

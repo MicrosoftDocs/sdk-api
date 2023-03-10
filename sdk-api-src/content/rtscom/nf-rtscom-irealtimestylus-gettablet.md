@@ -2,15 +2,12 @@
 UID: NF:rtscom.IRealTimeStylus.GetTablet
 title: IRealTimeStylus::GetTablet (rtscom.h)
 description: Retrieves an IInkTablet Interface object to the caller.
+helpviewer_keywords: ["38970fc0-ec4c-4068-a146-83edaa040c8c","GetTablet","GetTablet method [Tablet PC]","GetTablet method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetTablet method","IRealTimeStylus.GetTablet","IRealTimeStylus::GetTablet","rtscom/IRealTimeStylus::GetTablet","tablet.irealtimestylus_gettablet"]
 old-location: tablet\irealtimestylus_gettablet.htm
 tech.root: tablet
 ms.assetid: 38970fc0-ec4c-4068-a146-83edaa040c8c
 ms.date: 12/05/2018
 ms.keywords: 38970fc0-ec4c-4068-a146-83edaa040c8c, GetTablet, GetTablet method [Tablet PC], GetTablet method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetTablet method, IRealTimeStylus.GetTablet, IRealTimeStylus::GetTablet, rtscom/IRealTimeStylus::GetTablet, tablet.irealtimestylus_gettablet
-f1_keywords:
-- rtscom/IRealTimeStylus.GetTablet
-dev_langs:
-- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: RTSCom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTSCom.dll
-api_name:
-- IRealTimeStylus.GetTablet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRealTimeStylus::GetTablet
+ - rtscom/IRealTimeStylus::GetTablet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTSCom.dll
+api_name:
+ - IRealTimeStylus.GetTablet
 ---
 
 # IRealTimeStylus::GetTablet
@@ -48,42 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object to the caller.
-
-
-
+Retrieves an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object to the caller.
 
 ## -parameters
 
-
-
-
 ### -param ppiSingleTablet [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object.
-
+A pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object.
 
 ## -returns
 
-
-
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
-
-
-
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-
-
-This method returns, <i>ppiSingleTablet</i> will contain <b>NULL</b> when the RealTimeStylus is receiving data from more that one tablet. For instance, when the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setalltabletsmode">IRealTimeStylus::SetAllTabletsMode Method</a> is called with a value of <b>TRUE</b> on a machine with a digitizer and mouse.
+This method returns, <i>ppiSingleTablet</i> will contain <b>NULL</b> when the RealTimeStylus is receiving data from more that one tablet. For instance, when the <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setalltabletsmode">IRealTimeStylus::SetAllTabletsMode Method</a> is called with a value of <b>TRUE</b> on a machine with a digitizer and mouse.
 
 
 #### Examples
 
-The following C++ example code gets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object and uses that pointer to get the tablet's Plug and Play identifier.
+The following C++ example code gets a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a> object and uses that pointer to get the tablet's Plug and Play identifier.
 
 
 ```cpp
@@ -109,25 +95,14 @@ if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet">IInkTablet Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
 <b>RealTimeStylus Class</b>
- 
-
- 
-

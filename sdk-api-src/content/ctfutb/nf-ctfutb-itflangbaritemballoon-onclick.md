@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfLangBarItemBalloon.OnClick
 title: ITfLangBarItemBalloon::OnClick (ctfutb.h)
 description: ITfLangBarItemBalloon::OnClick method
+helpviewer_keywords: ["ITfLangBarItemBalloon interface [Text Services Framework]","OnClick method","ITfLangBarItemBalloon.OnClick","ITfLangBarItemBalloon::OnClick","OnClick","OnClick method [Text Services Framework]","OnClick method [Text Services Framework]","ITfLangBarItemBalloon interface","_tsf_itflangbaritemballoon_onclick_ref","ctfutb/ITfLangBarItemBalloon::OnClick","tsf.itflangbaritemballoon_onclick"]
 old-location: tsf\itflangbaritemballoon_onclick.htm
 tech.root: TSF
 ms.assetid: 52592a39-8b79-4e9c-9d8b-1100c9f36eca
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBalloon interface [Text Services Framework],OnClick method, ITfLangBarItemBalloon.OnClick, ITfLangBarItemBalloon::OnClick, OnClick, OnClick method [Text Services Framework], OnClick method [Text Services Framework],ITfLangBarItemBalloon interface, _tsf_itflangbaritemballoon_onclick_ref, ctfutb/ITfLangBarItemBalloon::OnClick, tsf.itflangbaritemballoon_onclick
-f1_keywords:
-- ctfutb/ITfLangBarItemBalloon.OnClick
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfLangBarItemBalloon.OnClick
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarItemBalloon::OnClick
+ - ctfutb/ITfLangBarItemBalloon::OnClick
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfLangBarItemBalloon.OnClick
 ---
 
 # ITfLangBarItemBalloon::OnClick
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Not currently used.
 
 ## -parameters
 
-
-
-
 ### -param click [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
-
+Contains one of the <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
 
 ### -param pt [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
-
+Pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that contains the position of the mouse cursor, in screen coordinates, at the time of the click event.
 
 ### -param prcArea [in]
 
 Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the bounding rectangle, in screen coordinates, of the balloon.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -105,21 +98,14 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemballoon">ITfLangBarItemBalloon</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 
@@ -127,9 +113,5 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
+<a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
- 
-
- 
-

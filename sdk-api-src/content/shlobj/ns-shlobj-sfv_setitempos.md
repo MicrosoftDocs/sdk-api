@@ -2,15 +2,12 @@
 UID: NS:shlobj._SFV_SETITEMPOS
 title: SFV_SETITEMPOS (shlobj.h)
 description: Stores position information for an item. Used with message SFVM_SETITEMPOS.
+helpviewer_keywords: ["*LPSFV_SETITEMPOS","SFV_SETITEMPOS","SFV_SETITEMPOS structure [Windows Shell]","_shell_SFV_SETITEMPOS","shell.SFV_SETITEMPOS","shlobj/SFV_SETITEMPOS"]
 old-location: shell\SFV_SETITEMPOS.htm
 tech.root: shell
 ms.assetid: 5ee6ef2b-2d06-42ec-b70e-659c2f137714
 ms.date: 12/05/2018
 ms.keywords: '*LPSFV_SETITEMPOS, SFV_SETITEMPOS, SFV_SETITEMPOS structure [Windows Shell], _shell_SFV_SETITEMPOS, shell.SFV_SETITEMPOS, shlobj/SFV_SETITEMPOS'
-f1_keywords:
-- shlobj/SFV_SETITEMPOS
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj.h
-api_name:
-- SFV_SETITEMPOS
 targetos: Windows
 req.typenames: SFV_SETITEMPOS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SFV_SETITEMPOS
+ - shlobj/_SFV_SETITEMPOS
+ - SFV_SETITEMPOS
+ - shlobj/SFV_SETITEMPOS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj.h
+api_name:
+ - SFV_SETITEMPOS
 ---
 
 # SFV_SETITEMPOS structure
@@ -48,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Stores position information for an item. Used with message <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-setitempos">SFVM_SETITEMPOS</a>.
-
+Stores position information for an item. Used with message <a href="/windows/desktop/shell/sfvm-setitempos">SFVM_SETITEMPOS</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field pidl
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> for the item.
-
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> for the item.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure indicating the position of the item.
-
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure indicating the position of the item.

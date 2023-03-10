@@ -2,15 +2,12 @@
 UID: NS:lmserver._SERVER_INFO_100
 title: SERVER_INFO_100 (lmserver.h)
 description: The SERVER_INFO_100 structure contains information about the specified server, including the name and platform.
+helpviewer_keywords: ["*LPSERVER_INFO_100","*PSERVER_INFO_100","LPSERVER_INFO_100","LPSERVER_INFO_100 structure pointer [Network Management]","PLATFORM_ID_DOS","PLATFORM_ID_NT","PLATFORM_ID_OS2","PLATFORM_ID_OSF","PLATFORM_ID_VMS","PSERVER_INFO_100","PSERVER_INFO_100 structure pointer [Network Management]","SERVER_INFO_100","SERVER_INFO_100 structure [Network Management]","_win32_server_info_100_str","lmserver/LPSERVER_INFO_100","lmserver/PSERVER_INFO_100","lmserver/SERVER_INFO_100","netmgmt.server_info_100_str"]
 old-location: netmgmt\server_info_100_str.htm
 tech.root: NetMgmt
 ms.assetid: b027a669-b4d8-4d42-aedc-94834bf099da
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_100, *PSERVER_INFO_100, LPSERVER_INFO_100, LPSERVER_INFO_100 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PSERVER_INFO_100, PSERVER_INFO_100 structure pointer [Network Management], SERVER_INFO_100, SERVER_INFO_100 structure [Network Management], _win32_server_info_100_str, lmserver/LPSERVER_INFO_100, lmserver/PSERVER_INFO_100, lmserver/SERVER_INFO_100, netmgmt.server_info_100_str'
-f1_keywords:
-- lmserver/SERVER_INFO_100
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmserver.h
-api_name:
-- SERVER_INFO_100
 targetos: Windows
 req.typenames: SERVER_INFO_100, *PSERVER_INFO_100, *LPSERVER_INFO_100
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVER_INFO_100
+ - lmserver/_SERVER_INFO_100
+ - PSERVER_INFO_100
+ - lmserver/PSERVER_INFO_100
+ - SERVER_INFO_100
+ - lmserver/SERVER_INFO_100
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmserver.h
+api_name:
+ - SERVER_INFO_100
 ---
 
 # SERVER_INFO_100 structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>SERVER_INFO_100</b> structure contains information about the specified server, including the name and platform.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sv100_platform_id
 
@@ -128,8 +129,6 @@ The VMS platform.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field sv100_name
 
@@ -137,34 +136,26 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that specifies the name of the server.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserverdiskenum">NetServerDiskEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverdiskenum">NetServerDiskEnum</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>

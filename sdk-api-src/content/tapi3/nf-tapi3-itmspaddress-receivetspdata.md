@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITMSPAddress.ReceiveTSPData
 title: ITMSPAddress::ReceiveTSPData (tapi3.h)
-description: The ReceiveTSPData method is called by TAPI 3 when the TSP sends asynchronous data to the MSP.
+description: The ITMSPAddress::ReceiveTSPData (tapi3.h) method is called by TAPI 3 when the TSP sends asynchronous data to the MSP.
+helpviewer_keywords: ["ITMSPAddress interface [TAPI 2.2]","ReceiveTSPData method","ITMSPAddress.ReceiveTSPData","ITMSPAddress::ReceiveTSPData","ReceiveTSPData","ReceiveTSPData method [TAPI 2.2]","ReceiveTSPData method [TAPI 2.2]","ITMSPAddress interface","_tapi3_itmspaddress_receivetspdata","msp/ITMSPAddress::ReceiveTSPData","tapi3.itmspaddress_receivetspdata"]
 old-location: tapi3\itmspaddress_receivetspdata.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 80b8e0aa-3361-4593-bec0-cbe9186c6c41
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITMSPAddress interface [TAPI 2.2],ReceiveTSPData method, ITMSPAddress.ReceiveTSPData, ITMSPAddress::ReceiveTSPData, ReceiveTSPData, ReceiveTSPData method [TAPI 2.2], ReceiveTSPData method [TAPI 2.2],ITMSPAddress interface, _tapi3_itmspaddress_receivetspdata, msp/ITMSPAddress::ReceiveTSPData, tapi3.itmspaddress_receivetspdata
-f1_keywords:
-- tapi3/ITMSPAddress.ReceiveTSPData
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msp.h
-api_name:
-- ITMSPAddress.ReceiveTSPData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITMSPAddress::ReceiveTSPData
+ - tapi3/ITMSPAddress::ReceiveTSPData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msp.h
+api_name:
+ - ITMSPAddress.ReceiveTSPData
 ---
 
 # ITMSPAddress::ReceiveTSPData
@@ -48,36 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ReceiveTSPData</b> method is called by TAPI 3 when the TSP sends asynchronous data to the MSP. If the TSP sends the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-sendmspdata">LINE_SENDMSPDATA</a> message with the <b>htCall</b> set to <b>NULL</b>, <i>pMSPCall</i> will be <b>NULL</b>. If the TSP does specify the <b>htCall</b>, <i>pMSPCall</i> will correspond to the call created in 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>.
-
+<a href="/windows/desktop/Tapi/line-sendmspdata">LINE_SENDMSPDATA</a> message with the <b>htCall</b> set to <b>NULL</b>, <i>pMSPCall</i> will be <b>NULL</b>. If the TSP does specify the <b>htCall</b>, <i>pMSPCall</i> will correspond to the call created in 
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>.
 
 ## -parameters
 
-
-
-
 ### -param pMSPCall [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the MSP Call object.
-
+Pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the MSP Call object.
 
 ### -param pBuffer
 
 [in, size_is(<i>dwSize</i>)] Pointer to opaque buffer from the TSP.
 
-
 ### -param dwSize [in]
 
 Size, in bytes, of <i>pBuffer</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -142,33 +134,17 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The MSP must free memory in <i>pBuffer</i>.
 
 The semantics of the data passed in the buffer are specific to each TSP/MSP pair. This method simply dispatches the received buffer to the address (<i>pMSPCall</i> == <b>NULL</b>) or the indicated call (<i>pMSPCall</i> != <b>NULL</b>).
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

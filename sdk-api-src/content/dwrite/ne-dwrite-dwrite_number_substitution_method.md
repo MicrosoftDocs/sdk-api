@@ -2,15 +2,12 @@
 UID: NE:dwrite.DWRITE_NUMBER_SUBSTITUTION_METHOD
 title: DWRITE_NUMBER_SUBSTITUTION_METHOD (dwrite.h)
 description: Specifies how to apply number substitution on digits and related punctuation.
+helpviewer_keywords: ["DWRITE_NUMBER_SUBSTITUTION_METHOD","DWRITE_NUMBER_SUBSTITUTION_METHOD enumeration [Direct Write]","DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL","DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE","DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL","DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE","DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL","directwrite.dwrite_number_substitution_method","dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD","dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL","dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE","dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL","dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE","dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL"]
 old-location: directwrite\dwrite_number_substitution_method.htm
 tech.root: DirectWrite
 ms.assetid: 9702007f-ab08-4ad2-9fac-6482e17161ca
 ms.date: 12/05/2018
 ms.keywords: DWRITE_NUMBER_SUBSTITUTION_METHOD, DWRITE_NUMBER_SUBSTITUTION_METHOD enumeration [Direct Write], DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL, DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE, DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL, DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE, DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL, directwrite.dwrite_number_substitution_method, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL
-f1_keywords:
-- dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite.h
-api_name:
-- DWRITE_NUMBER_SUBSTITUTION_METHOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_NUMBER_SUBSTITUTION_METHOD
+ - dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite.h
+api_name:
+ - DWRITE_NUMBER_SUBSTITUTION_METHOD
 ---
 
 # DWRITE_NUMBER_SUBSTITUTION_METHOD enumeration
@@ -48,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how to apply number substitution on digits and related punctuation.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE
 
 Specifies that the substitution method should be determined based on the LOCALE_IDIGITSUBSTITUTION value of the specified text culture.
 
-
 ### -field DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL
 
 If the culture is Arabic or Persian, specifies that the number shapes depend on the context. Either traditional or nominal number shapes are used, depending on the nearest preceding strong character or (if there is none) the reading direction of the paragraph.
-
 
 ### -field DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE
 
 Specifies that code points 0x30-0x39 are always rendered as nominal numeral shapes (ones of the European number), that is, no substitution is performed.
 
-
 ### -field DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL
 
 Specifies that numbers are rendered using the national number shapes as specified by the LOCALE_SNATIVEDIGITS value of the specified text culture.
-
 
 ### -field DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL
 

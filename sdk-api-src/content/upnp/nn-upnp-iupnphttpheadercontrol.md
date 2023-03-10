@@ -2,15 +2,12 @@
 UID: NN:upnp.IUPnPHttpHeaderControl
 title: IUPnPHttpHeaderControl (upnp.h)
 description: Enables the caller to specify additional HTTP headers sent in HTTP requests to a device.
+helpviewer_keywords: ["IUPnPHttpHeaderControl","IUPnPHttpHeaderControl interface [UPnP APIs]","IUPnPHttpHeaderControl interface [UPnP APIs]","described","upnp.iupnphttpheadercontrol","upnp/IUPnPHttpHeaderControl"]
 old-location: upnp\iupnphttpheadercontrol.htm
 tech.root: upnp
 ms.assetid: aed33117-9bfd-4a23-998f-4b8d040d6e3b
 ms.date: 12/05/2018
 ms.keywords: IUPnPHttpHeaderControl, IUPnPHttpHeaderControl interface [UPnP APIs], IUPnPHttpHeaderControl interface [UPnP APIs],described, upnp.iupnphttpheadercontrol, upnp/IUPnPHttpHeaderControl
-f1_keywords:
-- upnp/IUPnPHttpHeaderControl
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPHttpHeaderControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPHttpHeaderControl
+ - upnp/IUPnPHttpHeaderControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPHttpHeaderControl
 ---
 
 # IUPnPHttpHeaderControl interface
@@ -48,61 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IUPnPHttpHeaderControl</b> interface enables the caller to specify additional HTTP headers sent in HTTP requests to a device. 
-
+The <b>IUPnPHttpHeaderControl</b> interface enables the caller to specify additional HTTP headers sent in HTTP requests to a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPHttpHeaderControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPHttpHeaderControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUPnPHttpHeaderControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnphttpheadercontrol-addrequestheaders">AddRequestHeaders</a>
-</td>
-<td align="left" width="63%">
-Adds the supplied HTTP header to an HTTP request.
-
-</td>
-</tr>
-</table> 
-
+The <b>IUPnPHttpHeaderControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPHttpHeaderControl</b> also has these types of members:
 
 ## -remarks
 
-
-
-This interface is obtained by calling QueryInterface on the same object that provides an implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a> interfaces, after which <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnphttpheadercontrol-addrequestheaders">AddRequestHeaders</a> can be called on it.
-
-
-
+This interface is obtained by calling QueryInterface on the same object that provides an implementation of the <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a> or <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a> interfaces, after which <a href="/windows/desktop/api/upnp/nf-upnp-iupnphttpheadercontrol-addrequestheaders">AddRequestHeaders</a> can be called on it.
 
 ## -see-also
 
+<a href="/windows/desktop/UPnP/control-point-api-with-upnp-technology-reference">Control Point API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/UPnP/control-point-api-with-upnp-technology-reference">Control Point API Reference</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>

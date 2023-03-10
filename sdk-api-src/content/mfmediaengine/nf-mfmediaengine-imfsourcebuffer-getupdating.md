@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFSourceBuffer.GetUpdating
 title: IMFSourceBuffer::GetUpdating (mfmediaengine.h)
 description: Gets a value that indicates if Append, AppendByteStream, or Remove is in process.
+helpviewer_keywords: ["GetUpdating","GetUpdating method [Media Foundation]","GetUpdating method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","GetUpdating method","IMFSourceBuffer.GetUpdating","IMFSourceBuffer::GetUpdating","mf.imfsourcebuffer_getupdating","mfmediaengine/IMFSourceBuffer::GetUpdating"]
 old-location: mf\imfsourcebuffer_getupdating.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f1c810d1-05dd-4931-b063-fb86c6bedae3
 ms.date: 12/05/2018
 ms.keywords: GetUpdating, GetUpdating method [Media Foundation], GetUpdating method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetUpdating method, IMFSourceBuffer.GetUpdating, IMFSourceBuffer::GetUpdating, mf.imfsourcebuffer_getupdating, mfmediaengine/IMFSourceBuffer::GetUpdating
-f1_keywords:
-- mfmediaengine/IMFSourceBuffer.GetUpdating
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFSourceBuffer.GetUpdating
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceBuffer::GetUpdating
+ - mfmediaengine/IMFSourceBuffer::GetUpdating
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFSourceBuffer.GetUpdating
 ---
 
 # IMFSourceBuffer::GetUpdating
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets a value that indicates  if <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a> is in process.
-
-
-## -parameters
-
-
-
+Gets a value that indicates  if <a href="/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a> is in process.
 
 
 
 ## -returns
 
-
-
-<b>true</b> if <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="https://docs.microsoft.com/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a>; otherwise, <b>false</b>.
-
-
-
+<b>true</b> if <a href="/windows/desktop/medfound/imfsourcebuffer-append">Append</a>, <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfsourcebuffer-appendbytestream">AppendByteStream</a>, or <a href="/windows/desktop/medfound/imfsourcebuffer-remove">Remove</a>; otherwise, <b>false</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>

@@ -1,16 +1,13 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_1
+UID: NS:iscsidsc.IKE_AUTHENTICATION_PRESHARED_KEY
 title: IKE_AUTHENTICATION_PRESHARED_KEY (iscsidsc.h)
 description: IKE_AUTHENTICATION_PRESHARED_KEY structure contains information about the preshared key used in the Internet Key Exchange (IKE) protocol.
+helpviewer_keywords: ["*PIKE_AUTHENTICATION_PRESHARED_KEY","ID_FQDN","ID_IPV4_ADDR","ID_IPV6_ADDR","ID_USER_FQDN","IKE_AUTHENTICATION_PRESHARED_KEY","IKE_AUTHENTICATION_PRESHARED_KEY structure [iSCSI Discovery Library API]","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","PIKE_AUTHENTICATION_PRESHARED_KEY","PIKE_AUTHENTICATION_PRESHARED_KEY structure pointer [iSCSI Discovery Library API]","iscsidisc.ike_authentication_preshared_key","iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY","iscsidsc/PIKE_AUTHENTICATION_PRESHARED_KEY"]
 old-location: iscsidisc\ike_authentication_preshared_key.htm
 tech.root: iSCSIDisc
 ms.assetid: 52a188b5-6b59-4ea8-89e0-d05440344dde
 ms.date: 12/05/2018
 ms.keywords: '*PIKE_AUTHENTICATION_PRESHARED_KEY, ID_FQDN, ID_IPV4_ADDR, ID_IPV6_ADDR, ID_USER_FQDN, IKE_AUTHENTICATION_PRESHARED_KEY, IKE_AUTHENTICATION_PRESHARED_KEY structure [iSCSI Discovery Library API], ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, PIKE_AUTHENTICATION_PRESHARED_KEY, PIKE_AUTHENTICATION_PRESHARED_KEY structure pointer [iSCSI Discovery Library API], iscsidisc.ike_authentication_preshared_key, iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY, iscsidsc/PIKE_AUTHENTICATION_PRESHARED_KEY'
-f1_keywords:
-- iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iscsidsc.h
-api_name:
-- IKE_AUTHENTICATION_PRESHARED_KEY
 targetos: Windows
 req.typenames: IKE_AUTHENTICATION_PRESHARED_KEY, *PIKE_AUTHENTICATION_PRESHARED_KEY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIKE_AUTHENTICATION_PRESHARED_KEY
+ - iscsidsc/PIKE_AUTHENTICATION_PRESHARED_KEY
+ - IKE_AUTHENTICATION_PRESHARED_KEY
+ - iscsidsc/IKE_AUTHENTICATION_PRESHARED_KEY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iscsidsc.h
+api_name:
+ - IKE_AUTHENTICATION_PRESHARED_KEY
 ---
 
 # IKE_AUTHENTICATION_PRESHARED_KEY structure
@@ -48,15 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IKE_AUTHENTICATION_PRESHARED_KEY</b> structure contains information about the preshared key used in the Internet Key Exchange (IKE) protocol. 
-
-
+The <b>IKE_AUTHENTICATION_PRESHARED_KEY</b> structure contains information about the preshared key used in the Internet Key Exchange (IKE) protocol.
 
 ## -struct-fields
-
-
-
 
 ### -field SecurityFlags
 
@@ -138,8 +136,6 @@ The other mask values are valid; otherwise, security flags are not specified.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IdType
 
@@ -191,23 +187,18 @@ Indicates 16 bytes of binary data that constitute a version 6 IP address.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IdLengthInBytes
 
 The length, in bytes, of the key identifier.
 
-
 ### -field Id
 
 The identifier of the preshared key used in the IKE protocol.
 
-
 ### -field KeyLengthInBytes
 
 The length, in bytes, of the preshared key.
-
 
 ### -field Key
 

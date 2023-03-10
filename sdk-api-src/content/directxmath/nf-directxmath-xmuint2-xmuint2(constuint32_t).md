@@ -1,16 +1,13 @@
 ---
-UID: NF:directxmath.XMUINT2.XMUINT2(const uint32_t)
+UID: NF:directxmath.XMUINT2.XMUINT2(constuint32_t)
 title: XMUINT2::XMUINT2(const uint32_t) (directxmath.h)
 description: Initializes a new instance of XMUINT2 from a two element uint32_t array argument.
+helpviewer_keywords: ["XMUINT2","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 structure","XMUINT2 structure [DirectX Math Support APIs]","XMUINT2 constructor","XMUINT2.XMUINT2","XMUINT2.XMUINT2()","XMUINT2.XMUINT2(const uint32_t)","XMUINT2::XMUINT2","XMUINT2::XMUINT2(const uint32_t)","dxmath.xmuint2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 412fe549-c4b1-48c7-bbaf-a914d7c1e0a1
 ms.date: 05/13/2019
 ms.keywords: XMUINT2, XMUINT2 constructor [DirectX Math Support APIs], XMUINT2 constructor [DirectX Math Support APIs],XMUINT2 structure, XMUINT2 structure [DirectX Math Support APIs],XMUINT2 constructor, XMUINT2.XMUINT2, XMUINT2.XMUINT2(), XMUINT2.XMUINT2(const uint32_t), XMUINT2::XMUINT2, XMUINT2::XMUINT2(const uint32_t), dxmath.xmuint2_ctor_1
-f1_keywords:
-- directxmath/XMUINT2.XMUINT2
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMUINT2.XMUINT2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUINT2::XMUINT2
+ - directxmath/XMUINT2::XMUINT2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMUINT2.XMUINT2
 ---
 
 # XMUINT2::XMUINT2(const uint32_t)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a> from a two element <code>uint32_t</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a> from a two element <code>uint32_t</code> array argument.
 
 This constructor initializes a new instance of **XMUINT2** from a two element <code>uint32_t</code> array argument.
 
@@ -71,6 +74,6 @@ instance.w = pArray[3];
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>
+<a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)">XMUINT2 Constructors</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)">XMUINT2 Constructors</a>

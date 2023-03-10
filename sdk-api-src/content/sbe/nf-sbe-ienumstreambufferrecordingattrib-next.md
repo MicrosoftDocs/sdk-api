@@ -2,15 +2,12 @@
 UID: NF:sbe.IEnumStreamBufferRecordingAttrib.Next
 title: IEnumStreamBufferRecordingAttrib::Next (sbe.h)
 description: The Next method returns a specified number of attributes in the enumeration sequence.
+helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","Next method","IEnumStreamBufferRecordingAttrib.Next","IEnumStreamBufferRecordingAttrib::Next","IEnumStreamBufferRecordingAttribNext","Next","Next method [Microsoft TV Technologies]","Next method [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface","mstv.ienumstreambufferrecordingattrib_next","sbe/IEnumStreamBufferRecordingAttrib::Next"]
 old-location: mstv\ienumstreambufferrecordingattrib_next.htm
 tech.root: mstv
 ms.assetid: 760b2e2c-799d-45e5-9dbd-2407e7431918
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies],Next method, IEnumStreamBufferRecordingAttrib.Next, IEnumStreamBufferRecordingAttrib::Next, IEnumStreamBufferRecordingAttribNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumStreamBufferRecordingAttrib interface, mstv.ienumstreambufferrecordingattrib_next, sbe/IEnumStreamBufferRecordingAttrib::Next
-f1_keywords:
-- sbe/IEnumStreamBufferRecordingAttrib.Next
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IEnumStreamBufferRecordingAttrib.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumStreamBufferRecordingAttrib::Next
+ - sbe/IEnumStreamBufferRecordingAttrib::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IEnumStreamBufferRecordingAttrib.Next
 ---
 
 # IEnumStreamBufferRecordingAttrib::Next
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Next</b> method returns a specified number of attributes in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param cRequest [in]
 
 The number of attributes to retrieve.
 
-
 ### -param pStreamBufferAttribute [in, out]
 
-Pointer to an array of size <i>cRequest</i>. The array is filled with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-streambuffer_attribute">STREAMBUFFER_ATTRIBUTE</a> structures.
-
+Pointer to an array of size <i>cRequest</i>. The array is filled with <a href="/previous-versions/windows/desktop/api/sbe/ns-sbe-streambuffer_attribute">STREAMBUFFER_ATTRIBUTE</a> structures.
 
 ### -param pcReceived [out]
 
 Pointer to a variable that receives the number of attributes that are returned in the <i>pStreamBufferAttribute</i> array. This parameter can be <b>NULL</b> if <i>cRequest</i> is 1.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -128,27 +120,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The caller allocates the array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-streambuffer_attribute">STREAMBUFFER_ATTRIBUTE</a> structures, but the method allocates buffers for the attributes and the attribute names, which are contained in the <b>pszName</b> and <b>pbAttribute</b> members of each structure. The caller must release those buffers, by calling <b>CoTaskMemFree</b>.
-
-
-
+The caller allocates the array of <a href="/previous-versions/windows/desktop/api/sbe/ns-sbe-streambuffer_attribute">STREAMBUFFER_ATTRIBUTE</a> structures, but the method allocates buffers for the attributes and the attribute names, which are contained in the <b>pszName</b> and <b>pbAttribute</b> members of each structure. The caller must release those buffers, by calling <b>CoTaskMemFree</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib Interface</a>

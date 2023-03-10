@@ -2,15 +2,12 @@
 UID: NS:winioctl._FILE_MAKE_COMPATIBLE_BUFFER
 title: FILE_MAKE_COMPATIBLE_BUFFER
 description: Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling FSCTL_MAKE_MEDIA_COMPATIBLE.
+helpviewer_keywords: ["*PFILE_MAKE_COMPATIBLE_BUFFER","FILE_MAKE_COMPATIBLE_BUFFER","FILE_MAKE_COMPATIBLE_BUFFER structure [Files]","PFILE_MAKE_COMPATIBLE_BUFFER","PFILE_MAKE_COMPATIBLE_BUFFER structure pointer [Files]","fs.file_make_compatible_buffer","winioctl/FILE_MAKE_COMPATIBLE_BUFFER","winioctl/PFILE_MAKE_COMPATIBLE_BUFFER"]
 old-location: fs\file_make_compatible_buffer.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1c7b1958-099f-404d-a060-99efc543a3c0
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER structure [Files], PFILE_MAKE_COMPATIBLE_BUFFER, PFILE_MAKE_COMPATIBLE_BUFFER structure pointer [Files], fs.file_make_compatible_buffer, winioctl/FILE_MAKE_COMPATIBLE_BUFFER, winioctl/PFILE_MAKE_COMPATIBLE_BUFFER'
-f1_keywords:
-- winioctl/FILE_MAKE_COMPATIBLE_BUFFER
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FILE_MAKE_COMPATIBLE_BUFFER
 targetos: Windows
 req.typenames: FILE_MAKE_COMPATIBLE_BUFFER, *PFILE_MAKE_COMPATIBLE_BUFFER
 req.redist: 
+f1_keywords:
+ - _FILE_MAKE_COMPATIBLE_BUFFER
+ - winioctl/_FILE_MAKE_COMPATIBLE_BUFFER
+ - PFILE_MAKE_COMPATIBLE_BUFFER
+ - winioctl/PFILE_MAKE_COMPATIBLE_BUFFER
+ - FILE_MAKE_COMPATIBLE_BUFFER
+ - winioctl/FILE_MAKE_COMPATIBLE_BUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FILE_MAKE_COMPATIBLE_BUFFER
 ---
 
 # FILE_MAKE_COMPATIBLE_BUFFER structure
@@ -47,31 +53,18 @@ req.redist:
 
 ## -description
 
-
-Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>.
-
+Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field CloseDisc
 
 If <b>TRUE</b>, indicates the media should be finalized. No new data can be appended to the media.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>

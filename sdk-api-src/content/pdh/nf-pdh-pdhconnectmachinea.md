@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhConnectMachineA
 title: PdhConnectMachineA function (pdh.h)
-description: Connects to the specified computer.
+description: Connects to the specified computer. (ANSI)
+helpviewer_keywords: ["PdhConnectMachineA", "pdh/PdhConnectMachineA"]
 old-location: perf\pdhconnectmachine.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
 ms.date: 12/05/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
-f1_keywords:
-- pdh/PdhConnectMachine
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhConnectMachine
-- PdhConnectMachineA
-- PdhConnectMachineW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhConnectMachineA
+ - pdh/PdhConnectMachineA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhConnectMachine
+ - PdhConnectMachineA
+ - PdhConnectMachineW
 ---
 
 # PdhConnectMachineA function
@@ -50,33 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Connects to the specified computer.
-		
-
-
-
 
 ## -parameters
-
-
-
 
 ### -param szMachineName [in]
 
 <b>Null</b>-terminated string that specifies the name of the computer to connect to. If <b>NULL</b>, PDH connects to the local computer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -106,29 +97,20 @@ Unable to allocate a dynamic memory block. Occurs when there is a serious memory
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Typically, applications do not call this function and instead the connection is made when the application adds the counter to the query.
 
-However, you can use this function if you want to include more than the local computer in the <b>Select counters from computer</b> list on the <b>Browse Counters</b> dialog box. For details, see the <a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
+However, you can use this function if you want to include more than the local computer in the <b>Select counters from computer</b> list on the <b>Browse Counters</b> dialog box. For details, see the <a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhConnectMachine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenummachinesa">PdhEnumMachines</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhenummachinesa">PdhEnumMachines</a>

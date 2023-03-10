@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetScrollMode
 title: IMFTimedTextRegion::GetScrollMode (mfmediaengine.h)
 description: Gets the scroll mode of the region.
+helpviewer_keywords: ["GetScrollMode","GetScrollMode method [Media Foundation]","GetScrollMode method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetScrollMode method","IMFTimedTextRegion.GetScrollMode","IMFTimedTextRegion::GetScrollMode","mf.imftimedtextregion_getscrollmode","mfmediaengine/IMFTimedTextRegion::GetScrollMode"]
 old-location: mf\imftimedtextregion_getscrollmode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 85CD2A7A-23ED-4D5C-AAEC-D5DF9F059897
 ms.date: 12/05/2018
 ms.keywords: GetScrollMode, GetScrollMode method [Media Foundation], GetScrollMode method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetScrollMode method, IMFTimedTextRegion.GetScrollMode, IMFTimedTextRegion::GetScrollMode, mf.imftimedtextregion_getscrollmode, mfmediaengine/IMFTimedTextRegion::GetScrollMode
-f1_keywords:
-- mfmediaengine/IMFTimedTextRegion.GetScrollMode
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextRegion.GetScrollMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextRegion::GetScrollMode
+ - mfmediaengine/IMFTimedTextRegion::GetScrollMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextRegion.GetScrollMode
 ---
 
 # IMFTimedTextRegion::GetScrollMode
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the scroll mode of the region.
-
 
 ## -parameters
 
-
-
-
 ### -param scrollMode [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_scroll_mode">MF_TIMED_TEXT_SCROLL_MODE</a>*</b>
+Type: <b><a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_scroll_mode">MF_TIMED_TEXT_SCROLL_MODE</a>*</b>
 
-A pointer to a variable that receives a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_scroll_mode">MF_TIMED_TEXT_SCROLL_MODE</a>-typed value that specifies the scroll mode of the region.
-
+A pointer to a variable that receives a <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_scroll_mode">MF_TIMED_TEXT_SCROLL_MODE</a>-typed value that specifies the scroll mode of the region.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>

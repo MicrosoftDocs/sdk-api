@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFPresentationClock.Stop
 title: IMFPresentationClock::Stop (mfidl.h)
 description: Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's IMFPresentationClock::GetTime method returns zero.
+helpviewer_keywords: ["54377d65-2af7-410d-b8cf-45f467527a45","IMFPresentationClock interface [Media Foundation]","Stop method","IMFPresentationClock.Stop","IMFPresentationClock::Stop","Stop","Stop method [Media Foundation]","Stop method [Media Foundation]","IMFPresentationClock interface","mf.imfpresentationclock_stop","mfidl/IMFPresentationClock::Stop"]
 old-location: mf\imfpresentationclock_stop.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 54377d65-2af7-410d-b8cf-45f467527a45
 ms.date: 12/05/2018
 ms.keywords: 54377d65-2af7-410d-b8cf-45f467527a45, IMFPresentationClock interface [Media Foundation],Stop method, IMFPresentationClock.Stop, IMFPresentationClock::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_stop, mfidl/IMFPresentationClock::Stop
-f1_keywords:
-- mfidl/IMFPresentationClock.Stop
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFPresentationClock.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPresentationClock::Stop
+ - mfidl/IMFPresentationClock::Stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFPresentationClock.Stop
 ---
 
 # IMFPresentationClock::Stop
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> method returns zero.
-
-
-
-
-## -parameters
-
-
-
+Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-gettime">IMFPresentationClock::GetTime</a> method returns zero.
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -108,33 +98,17 @@ The clock is already stopped.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is valid when the clock is running or paused.
 
-The presentation clock initiates the state change by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop">IMFClockStateSink::OnClockStop</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockStop</b> methods. These calls are made asynchronously.
-
-
-
+The presentation clock initiates the state change by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop">IMFClockStateSink::OnClockStop</a> on the clock's time source. This call is made synchronously. If it fails, the state change does not occur. If the call succeeds, the state changes, and the clock notifies the other state-change subscribers by calling their <b>OnClockStop</b> methods. These calls are made asynchronously.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

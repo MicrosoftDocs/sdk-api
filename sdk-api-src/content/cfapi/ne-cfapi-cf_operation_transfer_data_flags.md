@@ -2,15 +2,12 @@
 UID: NE:cfapi.CF_OPERATION_TRANSFER_DATA_FLAGS
 title: CF_OPERATION_TRANSFER_DATA_FLAGS (cfapi.h)
 description: Flags to transfer data to hydrate a placeholder file or folder.
+helpviewer_keywords: ["CF_OPERATION_TRANSFER_DATA_FLAGS","CF_OPERATION_TRANSFER_DATA_FLAGS enumeration","CF_OPERATION_TRANSFER_DATA_FLAG_NONE","cfapi/CF_OPERATION_TRANSFER_DATA_FLAGS","cfapi/CF_OPERATION_TRANSFER_DATA_FLAG_NONE","cloudApi.cf_operation_transfer_data_flags"]
 old-location: cloudapi\cf_operation_transfer_data_flags.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 6273CB7A-80B9-4E9A-8C3A-5308F59BB335
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_TRANSFER_DATA_FLAGS, CF_OPERATION_TRANSFER_DATA_FLAGS enumeration, CF_OPERATION_TRANSFER_DATA_FLAG_NONE, cfapi/CF_OPERATION_TRANSFER_DATA_FLAGS, cfapi/CF_OPERATION_TRANSFER_DATA_FLAG_NONE, cloudApi.cf_operation_transfer_data_flags
-f1_keywords:
-- cfapi/CF_OPERATION_TRANSFER_DATA_FLAGS
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_OPERATION_TRANSFER_DATA_FLAGS
 targetos: Windows
 req.typenames: CF_OPERATION_TRANSFER_DATA_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_OPERATION_TRANSFER_DATA_FLAGS
+ - cfapi/CF_OPERATION_TRANSFER_DATA_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_OPERATION_TRANSFER_DATA_FLAGS
 ---
 
 # CF_OPERATION_TRANSFER_DATA_FLAGS enumeration
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Flags to transfer data to hydrate a placeholder file or folder.
-
 
 ## -enum-fields
 
-
-
-
-### -field CF_OPERATION_TRANSFER_DATA_FLAG_NONE
+### -field CF_OPERATION_TRANSFER_DATA_FLAG_NONE:0x00000000
 
 No transfer data flag.
 

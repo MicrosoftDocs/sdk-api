@@ -2,15 +2,12 @@
 UID: NF:namedpipeapi.SetNamedPipeHandleState
 title: SetNamedPipeHandleState function (namedpipeapi.h)
 description: Sets the read mode and the blocking mode of the specified named pipe. If the specified handle is to the client end of a named pipe and if the named pipe server process is on a remote computer, the function can also be used to control local buffering.
+helpviewer_keywords: ["PIPE_NOWAIT","PIPE_READMODE_BYTE","PIPE_READMODE_MESSAGE","PIPE_WAIT","SetNamedPipeHandleState","SetNamedPipeHandleState function","_win32_setnamedpipehandlestate","base.setnamedpipehandlestate","namedpipeapi/SetNamedPipeHandleState"]
 old-location: base\setnamedpipehandlestate.htm
-tech.root: ipc
+tech.root: base
 ms.assetid: 1e62c98e-cecb-4f42-9269-e58ca69e5d39
 ms.date: 12/05/2018
 ms.keywords: PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_WAIT, SetNamedPipeHandleState, SetNamedPipeHandleState function, _win32_setnamedpipehandlestate, base.setnamedpipehandlestate, namedpipeapi/SetNamedPipeHandleState
-f1_keywords:
-- namedpipeapi/SetNamedPipeHandleState
-dev_langs:
-- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-NamedPipe-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-NamedPipe-l1-2-1.dll
-- API-MS-Win-Core-NamedPipe-L1-2-2.dll
-api_name:
-- SetNamedPipeHandleState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNamedPipeHandleState
+ - namedpipeapi/SetNamedPipeHandleState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-NamedPipe-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-1.dll
+ - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+api_name:
+ - SetNamedPipeHandleState
 ---
 
 # SetNamedPipeHandleState function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the read mode and the blocking mode of the specified named pipe. If the specified handle is to the client end of a named pipe and if the named pipe server process is on a remote computer, the function can also be used to control local buffering.
 
-
 ## -parameters
-
-
-
 
 ### -param hNamedPipe [in]
 
@@ -75,7 +72,6 @@ Sets the read mode and the blocking mode of the specified named pipe. If the spe
 
 This parameter can also be a handle to an anonymous pipe, as returned by the 
 <a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe">CreatePipe</a> function.
-
 
 ### -param lpMode [in, optional]
 
@@ -147,37 +143,26 @@ Nonblocking mode is enabled. In this mode, <a href="/windows/win32/api/fileapi/n
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpMaxCollectionCount [in, optional]
 
 The maximum number of bytes collected on the client computer before transmission to the server. This parameter must be <b>NULL</b> if the specified pipe handle is to the server end of a named pipe or if client and server processes are on the same machine. This parameter is ignored if the client process specifies the FILE_FLAG_WRITE_THROUGH flag in the <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> function when the handle was created. This parameter can be <b>NULL</b> if the collection count is not being set.
-
 
 ### -param lpCollectDataTimeout [in, optional]
 
 The maximum time, in milliseconds, that can pass before a remote named pipe transfers information over the network. This parameter must be <b>NULL</b> if the specified pipe handle is to the server end of a named pipe or if client and server processes are on the same computer. This parameter is ignored if the client process specified the FILE_FLAG_WRITE_THROUGH flag in the 
 <a href="/windows/win32/api/fileapi/nf-fileapi-createfilew">CreateFile</a> function when the handle was created. This parameter can be <b>NULL</b> if the collection count is not being set.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
 <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-
-
-
 ## -remarks
 
-
-
-<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax `\\.\pipe\LOCAL\` for the pipe name.
 
 
 #### Examples
@@ -187,12 +172,7 @@ For an example, see
 
 <div class="code"></div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a>
 
@@ -223,7 +203,4 @@ For an example, see
 
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>
- 
-
- 
 

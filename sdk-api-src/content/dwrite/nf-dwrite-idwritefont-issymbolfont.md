@@ -1,16 +1,13 @@
 ---
 UID: NF:dwrite.IDWriteFont.IsSymbolFont
 title: IDWriteFont::IsSymbolFont (dwrite.h)
-description: Determines whether the font is a symbol font.
+description: Determines whether the font is a symbol font. (IDWriteFont.IsSymbolFont)
+helpviewer_keywords: ["IDWriteFont interface [Direct Write]","IsSymbolFont method","IDWriteFont.IsSymbolFont","IDWriteFont::IsSymbolFont","IsSymbolFont","IsSymbolFont method [Direct Write]","IsSymbolFont method [Direct Write]","IDWriteFont interface","directwrite.IDWriteFont_IsSymbolFont","dwrite/IDWriteFont::IsSymbolFont"]
 old-location: directwrite\IDWriteFont_IsSymbolFont.htm
 tech.root: DirectWrite
 ms.assetid: 08fcbf51-6a88-4d92-848e-dc159d94d1d1
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont interface [Direct Write],IsSymbolFont method, IDWriteFont.IsSymbolFont, IDWriteFont::IsSymbolFont, IsSymbolFont, IsSymbolFont method [Direct Write], IsSymbolFont method [Direct Write],IDWriteFont interface, directwrite.IDWriteFont_IsSymbolFont, dwrite/IDWriteFont::IsSymbolFont
-f1_keywords:
-- dwrite/IDWriteFont.IsSymbolFont
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFont.IsSymbolFont
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFont::IsSymbolFont
+ - dwrite/IDWriteFont::IsSymbolFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFont.IsSymbolFont
 ---
 
 # IDWriteFont::IsSymbolFont
@@ -48,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
  Determines whether the font is a symbol font.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>BOOL</b>
 
 <b>TRUE</b> if the font is a symbol font; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefont">IDWriteFont</a>
- 
-
- 
 

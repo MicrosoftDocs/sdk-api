@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptExportPKCS8
 title: CryptExportPKCS8 function (wincrypt.h)
-description: Exports the private key in PKCS
+description: Exports the private key in PKCS (CryptExportPKCS8)
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","CryptExportPKCS8","CryptExportPKCS8 function [Security]","security.cryptexportpkcs8","wincrypt/CryptExportPKCS8"]
 old-location: security\cryptexportpkcs8.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: defd0b23-d9c2-4b28-a6a6-1be7487ae656
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 function [Security], security.cryptexportpkcs8, wincrypt/CryptExportPKCS8
-f1_keywords:
-- wincrypt/CryptExportPKCS8
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptExportPKCS8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptExportPKCS8
+ - wincrypt/CryptExportPKCS8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptExportPKCS8
 ---
 
 # CryptExportPKCS8 function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[The <b>CryptExportPKCS8</b>  function is no longer available for use as of Windows Server 2008 and Windows Vista. Instead, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.]
 
-<p class="CCE_Message">[The <b>CryptExportPKCS8</b>  function is no longer available for use as of Windows Server 2008 and Windows Vista. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.]
-
-The <b>CryptExportPKCS8</b> function exports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> in PKCS #8 format. The function is superseded by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>, which also may be altered or unavailable in subsequent versions.
-
+The <b>CryptExportPKCS8</b> function exports the <a href="/windows/desktop/SecGloss/p-gly">private key</a> in PKCS #8 format. The function is superseded by <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>, which also may be altered or unavailable in subsequent versions.
 
 ## -parameters
 
-
-
-
 ### -param hCryptProv [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a>  variable that contains  the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This is a handle to the CSP obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
-
+An <a href="/windows/desktop/SecCrypto/hcryptprov">HCRYPTPROV</a>  variable that contains  the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This is a handle to the CSP obtained by calling <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>.
 
 ### -param dwKeySpec [in]
 
@@ -94,23 +90,18 @@ Keys used to create and verify digital signatures.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszPrivateKeyObjId [in]
 
-An  <b>LPSTR</b>  variable that contains  the private key <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly"> object identifier</a> (OID).
-
+An  <b>LPSTR</b>  variable that contains  the private key <a href="/windows/desktop/SecGloss/o-gly"> object identifier</a> (OID).
 
 ### -param dwFlags [in]
 
 This parameter should be zero if <i>pbPrivateKeyBlob</i> is <b>NULL</b> and 0x8000 otherwise.
 
-
 ### -param pvAuxInfo [in, optional]
 
 This parameter must be set to <b>NULL</b>.
-
 
 ### -param pbPrivateKeyBlob [out, optional]
 
@@ -118,26 +109,22 @@ A pointer to an
 array of <b>BYTE</b> structures to receive the private key  to be exported. 
 
 
-The private key will contain the information in a PKCS #8 PrivateKeyInfo <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) type found in the PKCS #8 standard.
+The private key will contain the information in a PKCS #8 PrivateKeyInfo <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) type found in the PKCS #8 standard.
 
 For memory allocation purposes, you can get the size of the private key  to be exported by setting this parameter to <b>NULL</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbPrivateKeyBlob [in, out]
 
 A pointer to a <b>DWORD</b> that may contain, on input, the size, in  bytes,  of the memory allocation needed to contain the <i>pbPrivateKeyBlob</i>. If <i>pbPrivateKeyBlob</i> is <b>NULL</b>, this parameter will return the size of the memory allocation needed for a second call to the function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes are specific to this function.
 
@@ -171,36 +158,21 @@ If the buffer specified by the <i>pbPrivateKeyBlob</i> parameter is not large en
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  may return an ASN.1 encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
-
-
-
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>  may return an ASN.1 encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -remarks
 
-
-
 This function is only supported for asymmetric keys.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>

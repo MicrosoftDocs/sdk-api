@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetRightToLeft
 title: IMFTimedTextStyle::GetRightToLeft (mfmediaengine.h)
 description: Determines whether the right to left writing mode of the timed-text style is enabled.
+helpviewer_keywords: ["GetRightToLeft","GetRightToLeft method [Media Foundation]","GetRightToLeft method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetRightToLeft method","IMFTimedTextStyle.GetRightToLeft","IMFTimedTextStyle::GetRightToLeft","mf.imftimedtextstyle_getrighttoleft","mfmediaengine/IMFTimedTextStyle::GetRightToLeft"]
 old-location: mf\imftimedtextstyle_getrighttoleft.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6BE5C8A0-F577-4E1D-8DB7-3FFBEF059C18
 ms.date: 12/05/2018
 ms.keywords: GetRightToLeft, GetRightToLeft method [Media Foundation], GetRightToLeft method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetRightToLeft method, IMFTimedTextStyle.GetRightToLeft, IMFTimedTextStyle::GetRightToLeft, mf.imftimedtextstyle_getrighttoleft, mfmediaengine/IMFTimedTextStyle::GetRightToLeft
-f1_keywords:
-- mfmediaengine/IMFTimedTextStyle.GetRightToLeft
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextStyle.GetRightToLeft
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextStyle::GetRightToLeft
+ - mfmediaengine/IMFTimedTextStyle::GetRightToLeft
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextStyle.GetRightToLeft
 ---
 
 # IMFTimedTextStyle::GetRightToLeft
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the right to left writing mode of the timed-text style  is enabled.
 
-
 ## -parameters
-
-
-
 
 ### -param rightToLeft [out]
 
 Type: <b>BOOL*</b>
 
-A pointer to a variable that receives a value that specifies whether the right to left writing mode is enabled. The variable specifies <b>TRUE</b> if the right to left writing mode is enabled; otherwise, <b>FALSE</b>. 
-
+A pointer to a variable that receives a value that specifies whether the right to left writing mode is enabled. The variable specifies <b>TRUE</b> if the right to left writing mode is enabled; otherwise, <b>FALSE</b>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>

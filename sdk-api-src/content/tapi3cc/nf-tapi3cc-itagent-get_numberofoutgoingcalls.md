@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_NumberOfOutgoingCalls
 title: ITAgent::get_NumberOfOutgoingCalls (tapi3cc.h)
-description: The get_NumberOfOutgoingCalls method gets the number of outgoing non-ACD calls handled during by this agent.
+description: The ITAgent::get_NumberOfOutgoingCalls method (tapi3cc.h) gets the number of outgoing non-ACD calls handled during by this agent.
+helpviewer_keywords: ["ITAgent interface [TAPI 2.2]","get_NumberOfOutgoingCalls method","ITAgent.get_NumberOfOutgoingCalls","ITAgent::get_NumberOfOutgoingCalls","_tapi3_itagent_get_numberofoutgoingcalls","get_NumberOfOutgoingCalls","get_NumberOfOutgoingCalls method [TAPI 2.2]","get_NumberOfOutgoingCalls method [TAPI 2.2]","ITAgent interface","tapi3.itagent_get_numberofoutgoingcalls","tapi3cc/ITAgent::get_NumberOfOutgoingCalls"]
 old-location: tapi3\itagent_get_numberofoutgoingcalls.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fb2af58c-0b9e-4b00-8d8c-2fbfb2e0fc95
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgent interface [TAPI 2.2],get_NumberOfOutgoingCalls method, ITAgent.get_NumberOfOutgoingCalls, ITAgent::get_NumberOfOutgoingCalls, _tapi3_itagent_get_numberofoutgoingcalls, get_NumberOfOutgoingCalls, get_NumberOfOutgoingCalls method [TAPI 2.2], get_NumberOfOutgoingCalls method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_numberofoutgoingcalls, tapi3cc/ITAgent::get_NumberOfOutgoingCalls
-f1_keywords:
-- tapi3cc/ITAgent.get_NumberOfOutgoingCalls
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgent.get_NumberOfOutgoingCalls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgent::get_NumberOfOutgoingCalls
+ - tapi3cc/ITAgent::get_NumberOfOutgoingCalls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgent.get_NumberOfOutgoingCalls
 ---
 
 # ITAgent::get_NumberOfOutgoingCalls
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_NumberOfOutgoingCalls</b> method gets the number of outgoing non-ACD calls handled during by this agent.
 
 The measurement period over which this information is calculated is switch- and/or implementation-specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
-
-
-
 
 ### -param plCalls [out]
 
 Total number of outgoing calls.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,18 +116,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>

@@ -1,16 +1,13 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerInterop
 title: IRadialControllerInterop (radialcontrollerinterop.h)
-description: Enables interoperability with a Universal Windows Platform (UWP)&#160;RadialController object and provides access to RadialController members for customizing the interaction experience.
+description: Enables interoperability with a WinRT�RadialController object and provides access to RadialController members for customizing the interaction experience.
+helpviewer_keywords: ["IRadialControllerInterop","IRadialControllerInterop interface","IRadialControllerInterop interface","described","Input_Radial.iradialcontrollerinterop","radialcontrollerinterop/IRadialControllerInterop"]
 old-location: input_radial\iradialcontrollerinterop.htm
-tech.root: Input_Radial
+tech.root: winrt
 ms.assetid: ed701930-fae7-4c42-9e6b-b1cb3fac861c
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerInterop, IRadialControllerInterop interface, IRadialControllerInterop interface,described, Input_Radial.iradialcontrollerinterop, radialcontrollerinterop/IRadialControllerInterop
-f1_keywords:
-- radialcontrollerinterop/IRadialControllerInterop
-dev_langs:
-- c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RadialControllerInterop.h
-api_name:
-- IRadialControllerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRadialControllerInterop
+ - radialcontrollerinterop/IRadialControllerInterop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RadialControllerInterop.h
+api_name:
+ - IRadialControllerInterop
 ---
 
 # IRadialControllerInterop interface
@@ -48,47 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and provides access to <b>RadialController</b> members for customizing the interaction experience.
-
+Enables interoperability with a WinRT <a href="/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and provides access to <b>RadialController</b> members for customizing the interaction experience.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRadialControllerInterop</b> interface inherits from <b>IInspectable</b>. <b>IRadialControllerInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRadialControllerInterop</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/radialcontrollerinterop/nf-radialcontrollerinterop-iradialcontrollerinterop-createforwindow">CreateForWindow</a>
-</td>
-<td align="left" width="63%">
-Instantiates a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.input.radialcontroller">RadialController</a> object and binds it to the active application.
-
-</td>
-</tr>
-</table> 
-
+The <b>IRadialControllerInterop</b> interface inherits from <b>IInspectable</b>. <b>IRadialControllerInterop</b> also has these types of members:
 
 ## -see-also
-
-
-
 
 <b>Developer and UX guidance</b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_radial/radial-controller-interfaces">Radial controller interfaces</a>
+<a href="/previous-versions/windows/desktop/input_radial/radial-controller-interfaces">Radial controller interfaces</a>
 
 
 
@@ -96,16 +70,12 @@ Instantiates a <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.inpu
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832322">Surface Dial interactions</a>
+<a href="/windows/uwp/design/input/windows-wheel-interactions">Surface Dial interactions</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/?linkid=832713">Universal Windows Platform samples (C# and C++)</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/b78d95134ce2d57c848e0a8dc339fc362748fb9c/Samples/RadialController">Universal Windows Platform samples (C# and C++)</a>
 
 
 
-<a href="https://aka.ms/radialcontrollerclassicsample">Windows classic desktop sample</a>
- 
-
- 
-
+<a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/RadialController">Windows classic desktop sample</a>

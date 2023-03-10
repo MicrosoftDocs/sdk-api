@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarCyFromR4
 title: VarCyFromR4 function (oleauto.h)
 description: Converts a float value to a currency value.
+helpviewer_keywords: ["VarCyFromR4","VarCyFromR4 function [Automation]","_oa96_VarCyFromR4","automat.varcyfromr4","oleauto/VarCyFromR4"]
 old-location: automat\varcyfromr4.htm
 tech.root: automat
 ms.assetid: 6ee9eb83-5358-496e-ba4d-8ad529bc42ca
 ms.date: 12/05/2018
 ms.keywords: VarCyFromR4, VarCyFromR4 function [Automation], _oa96_VarCyFromR4, automat.varcyfromr4, oleauto/VarCyFromR4
-f1_keywords:
-- oleauto/VarCyFromR4
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarCyFromR4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarCyFromR4
+ - oleauto/VarCyFromR4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarCyFromR4
 ---
 
 # VarCyFromR4 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a float value to a currency value.
 
-
 ## -parameters
-
-
-
 
 ### -param fltIn [in]
 
 The value to convert.
 
-
 ### -param pcyOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

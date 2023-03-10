@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomation6.RemoveEventHandlerGroup
 title: IUIAutomation6::RemoveEventHandlerGroup (uiautomationclient.h)
 description: Asynchronously removes the specified UI Automation event handler group.
+helpviewer_keywords: ["IUIAutomation6 interface [Windows Accessibility]","RemoveEventHandlerGroup method","IUIAutomation6.RemoveEventHandlerGroup","IUIAutomation6::RemoveEventHandlerGroup","RemoveEventHandlerGroup","RemoveEventHandlerGroup method [Windows Accessibility]","RemoveEventHandlerGroup method [Windows Accessibility]","IUIAutomation6 interface","uiautomationclient/IUIAutomation6::RemoveEventHandlerGroup","winauto.uiauto_IUIAutomation6_RemoveEventHandlerGroup"]
 old-location: winauto\uiauto_IUIAutomation6_RemoveEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 43BDE7F5-67DF-4DE5-AEDE-068421375E07
 ms.date: 12/05/2019
 ms.keywords: IUIAutomation6 interface [Windows Accessibility],RemoveEventHandlerGroup method, IUIAutomation6.RemoveEventHandlerGroup, IUIAutomation6::RemoveEventHandlerGroup, RemoveEventHandlerGroup, RemoveEventHandlerGroup method [Windows Accessibility], RemoveEventHandlerGroup method [Windows Accessibility],IUIAutomation6 interface, uiautomationclient/IUIAutomation6::RemoveEventHandlerGroup, winauto.uiauto_IUIAutomation6_RemoveEventHandlerGroup
-f1_keywords:
-- uiautomationclient/IUIAutomation6.RemoveEventHandlerGroup
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomation6.RemoveEventHandlerGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - IUIAutomation6::RemoveEventHandlerGroup
+ - uiautomationclient/IUIAutomation6::RemoveEventHandlerGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomation6.RemoveEventHandlerGroup
 ---
 
 # IUIAutomation6::RemoveEventHandlerGroup
+
 
 ## -description
 
@@ -65,7 +68,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
-Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading).
+Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](/windows/desktop/WinAuto/uiauto-threading).
 
 It is possible for an event to be delivered to an event handler after the handler has been unsubscribed, if the event is received simultaneously with the request to unsubscribe the event. The best practice is to follow the Component Object Model (COM) standard and avoid destroying the event handler object until its reference count has reached zero. Destroying an event handler immediately after unsubscribing for events may result in an access violation if an event is delivered late.
 

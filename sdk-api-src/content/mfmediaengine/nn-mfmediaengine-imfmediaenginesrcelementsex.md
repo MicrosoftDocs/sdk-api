@@ -2,15 +2,12 @@
 UID: NN:mfmediaengine.IMFMediaEngineSrcElementsEx
 title: IMFMediaEngineSrcElementsEx (mfmediaengine.h)
 description: Extends the IMFMediaEngineSrcElements interface to provide additional capabilities.
+helpviewer_keywords: ["IMFMediaEngineSrcElementsEx","IMFMediaEngineSrcElementsEx interface [Media Foundation]","IMFMediaEngineSrcElementsEx interface [Media Foundation]","described","mf.imfmediaenginesrcelementsex","mfmediaengine/IMFMediaEngineSrcElementsEx"]
 old-location: mf\imfmediaenginesrcelementsex.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f15cb527-0f46-4887-9e02-835f0115bc5b
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], IMFMediaEngineSrcElementsEx interface [Media Foundation],described, mf.imfmediaenginesrcelementsex, mfmediaengine/IMFMediaEngineSrcElementsEx
-f1_keywords:
-- mfmediaengine/IMFMediaEngineSrcElementsEx
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineSrcElementsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineSrcElementsEx
+ - mfmediaengine/IMFMediaEngineSrcElementsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineSrcElementsEx
 ---
 
 # IMFMediaEngineSrcElementsEx interface
@@ -48,53 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a> interface to provide additional capabilities.
-
+Extends the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelements">IMFMediaEngineSrcElements</a> interface to provide additional capabilities.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineSrcElementsEx</b> interface inherits from <b>IMFMediaEngineSrcElements</b>. <b>IMFMediaEngineSrcElementsEx</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMFMediaEngineSrcElementsEx</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-addelementex">AddElementEx</a>
-</td>
-<td align="left" width="63%">
-Provides an enhanced version of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelementsex-getkeysystem">GetKeySystem</a>
-</td>
-<td align="left" width="63%">
-Gets the key system for the given source element index.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMFMediaEngineSrcElementsEx</b> interface inherits from <b>IMFMediaEngineSrcElements</b>. <b>IMFMediaEngineSrcElementsEx</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

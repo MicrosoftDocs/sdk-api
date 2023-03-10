@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMDRMReader2.TryNextLicense
 title: IWMDRMReader2::TryNextLicense (wmsdkidl.h)
 description: The TryNextLicense method sets the reader to evaluate the next applicable license (if present) for the file loaded in the reader.
+helpviewer_keywords: ["IWMDRMReader2 interface [windows Media Format]","TryNextLicense method","IWMDRMReader2.TryNextLicense","IWMDRMReader2::TryNextLicense","IWMDRMReader2TryNextLicense","TryNextLicense","TryNextLicense method [windows Media Format]","TryNextLicense method [windows Media Format]","IWMDRMReader2 interface","wmformat.iwmdrmreader2_trynextlicense","wmsdkidl/IWMDRMReader2::TryNextLicense"]
 old-location: wmformat\iwmdrmreader2_trynextlicense.htm
 tech.root: wmformat
 ms.assetid: 2658abd7-61ca-452f-92ad-93ee5050603d
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],TryNextLicense method, IWMDRMReader2.TryNextLicense, IWMDRMReader2::TryNextLicense, IWMDRMReader2TryNextLicense, TryNextLicense, TryNextLicense method [windows Media Format], TryNextLicense method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_trynextlicense, wmsdkidl/IWMDRMReader2::TryNextLicense
-f1_keywords:
-- wmsdkidl/IWMDRMReader2.TryNextLicense
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMReader2.TryNextLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMReader2::TryNextLicense
+ - wmsdkidl/IWMDRMReader2::TryNextLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMReader2.TryNextLicense
 ---
 
 # IWMDRMReader2::TryNextLicense
@@ -49,8 +51,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>TryNextLicense</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>TryNextLicense</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
@@ -58,17 +59,7 @@ The <b>TryNextLicense</b> method sets the reader to evaluate the next applicable
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -133,18 +124,7 @@ The file opened in the reader is not protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>

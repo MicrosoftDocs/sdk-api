@@ -1,16 +1,13 @@
 ---
 UID: NS:tcpmib._MIB_TCPSTATS2
 title: MIB_TCPSTATS2 (tcpmib.h)
-description: Contains statistics for the TCP protocol running on the local computer.
+description: Contains statistics for the TCP protocol running on the local computer. (MIB_TCPSTATS2)
+helpviewer_keywords: ["*PMIB_TCPSTATS2","MIB_TCPSTATS2","MIB_TCPSTATS2 structure [MIB]","MIB_TCP_RTO_CONSTANT","MIB_TCP_RTO_OTHER","MIB_TCP_RTO_RSRE","MIB_TCP_RTO_VANJ","PMIB_TCPSTATS2","PMIB_TCPSTATS2 structure pointer [MIB]","mib.mib_tcpstats2","tcpmib/MIB_TCPSTATS2","tcpmib/PMIB_TCPSTATS2"]
 old-location: mib\mib_tcpstats2.htm
 tech.root: MIB
 ms.assetid: A32AA866-406B-4BE0-A4F1-5EBC9DFD646D
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCPSTATS2, MIB_TCPSTATS2, MIB_TCPSTATS2 structure [MIB], MIB_TCP_RTO_CONSTANT, MIB_TCP_RTO_OTHER, MIB_TCP_RTO_RSRE, MIB_TCP_RTO_VANJ, PMIB_TCPSTATS2, PMIB_TCPSTATS2 structure pointer [MIB], mib.mib_tcpstats2, tcpmib/MIB_TCPSTATS2, tcpmib/PMIB_TCPSTATS2'
-f1_keywords:
-- tcpmib/MIB_TCPSTATS2
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-api_name:
-- MIB_TCPSTATS2
 targetos: Windows
 req.typenames: MIB_TCPSTATS2, *PMIB_TCPSTATS2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCPSTATS2
+ - tcpmib/_MIB_TCPSTATS2
+ - PMIB_TCPSTATS2
+ - tcpmib/PMIB_TCPSTATS2
+ - MIB_TCPSTATS2
+ - tcpmib/MIB_TCPSTATS2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+api_name:
+ - MIB_TCPSTATS2
 ---
 
 # MIB_TCPSTATS2 structure
@@ -49,21 +55,13 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The 
-<b>MIB_TCPSTATS2</b> structure contains statistics for the TCP protocol running on the local computer. This structure is different from <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcpstats_lh">MIB_TCPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
-
+<b>MIB_TCPSTATS2</b> structure contains statistics for the TCP protocol running on the local computer. This structure is different from <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcpstats_lh">MIB_TCPSTATS</a> structure in that it uses 64-bit counters, rather than 32-bit counters.
 
 ## -struct-fields
 
-
-
-
 ### -field RtoAlgorithm
-
- 
-
 
 ### -field dwRtoMin
 
@@ -71,13 +69,11 @@ Type: <b>DWORD</b>
 
 The minimum RTO value in milliseconds.
 
-
 ### -field dwRtoMax
 
 Type: <b>DWORD</b>
 
 The maximum RTO value in milliseconds.
-
 
 ### -field dwMaxConn
 
@@ -85,14 +81,11 @@ Type: <b>DWORD</b>
 
 The maximum number of connections. If this member is -1, the maximum number of connections is variable.
 
-
 ### -field dwActiveOpens
 
 Type: <b>DWORD</b>
 
 The number of active opens. In an active open, the client is initiating a connection with the server.
-					
-
 
 ### -field dwPassiveOpens
 
@@ -100,13 +93,11 @@ Type: <b>DWORD</b>
 
 The number of passive opens. In a passive open, the server is listening for a connection request from a client.
 
-
 ### -field dwAttemptFails
 
 Type: <b>DWORD</b>
 
 The number of failed connection attempts.
-
 
 ### -field dwEstabResets
 
@@ -114,13 +105,11 @@ Type: <b>DWORD</b>
 
 The number of established connections that were reset.
 
-
 ### -field dwCurrEstab
 
 Type: <b>DWORD</b>
 
 The number of currently established connections.
-
 
 ### -field dw64InSegs
 
@@ -128,13 +117,11 @@ Type: <b>DWORD</b>
 
 The number of segments received.
 
-
 ### -field dw64OutSegs
 
 Type: <b>DWORD64</b>
 
 The number of segments transmitted. This number does not include retransmitted segments.
-
 
 ### -field dwRetransSegs
 
@@ -142,20 +129,17 @@ Type: <b>DWORD64</b>
 
 The number of segments retransmitted.
 
-
 ### -field dwInErrs
 
 Type: <b>DWORD</b>
 
 The number of errors received.
 
-
 ### -field dwOutRsts
 
 Type: <b>DWORD</b>
 
 The number of segments transmitted with the reset flag set.
-
 
 ### -field dwNumConns
 
@@ -220,16 +204,9 @@ Van Jacobson's Algorithm
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex2">GetTcpStatisticsEx2</a> function returns a pointer to a <b>MIB_TCPSTATS2</b> structure. 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex2">GetTcpStatisticsEx2</a> function returns a pointer to a <b>MIB_TCPSTATS2</b> structure. 
 
  This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteFontFace.GetGlyphIndices
 title: IDWriteFontFace::GetGlyphIndices (dwrite.h)
 description: Returns the nominal mapping of UCS4 Unicode code points to glyph indices as defined by the font 'CMAP' table.
+helpviewer_keywords: ["GetGlyphIndices","GetGlyphIndices method [Direct Write]","GetGlyphIndices method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetGlyphIndices method","IDWriteFontFace.GetGlyphIndices","IDWriteFontFace::GetGlyphIndices","directwrite.IDWriteFontFace_GetGlyphIndices","dwrite/IDWriteFontFace::GetGlyphIndices"]
 old-location: directwrite\IDWriteFontFace_GetGlyphIndices.htm
 tech.root: DirectWrite
 ms.assetid: 2dbaec8c-464e-45a5-b420-fa1ec3d224bd
 ms.date: 12/05/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [Direct Write], GetGlyphIndices method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphIndices method, IDWriteFontFace.GetGlyphIndices, IDWriteFontFace::GetGlyphIndices, directwrite.IDWriteFontFace_GetGlyphIndices, dwrite/IDWriteFontFace::GetGlyphIndices
-f1_keywords:
-- dwrite/IDWriteFontFace.GetGlyphIndices
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFace.GetGlyphIndices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFace::GetGlyphIndices
+ - dwrite/IDWriteFontFace::GetGlyphIndices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFace.GetGlyphIndices
 ---
 
 # IDWriteFontFace::GetGlyphIndices
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Returns the nominal mapping of UCS4 Unicode code points to glyph indices as defined by the font 'CMAP' table.
-     
-
 
 ## -parameters
-
-
-
 
 ### -param codePoints [in]
 
@@ -64,13 +60,11 @@ Type: <b>const UINT32*</b>
 
 An array of USC4 code points from which to obtain nominal glyph indices. The array must be allocated and be able to contain the number of elements specified by <i>codePointCount</i>.
 
-
 ### -param codePointCount
 
 Type: <b>UINT32</b>
 
 The number of elements in the <i>codePoints</i> array.
-
 
 ### -param glyphIndices [out]
 
@@ -78,21 +72,13 @@ Type: <b>UINT16*</b>
 
 When this method returns, contains a pointer to an array of nominal glyph indices filled by this function.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Note that this mapping is primarily provided for line layout engines built on top of the physical font API.
      Because of OpenType glyph substitution and line layout character substitution, the nominal conversion does not always correspond
@@ -102,16 +88,7 @@ Note that this mapping is primarily provided for line layout engines built on to
 
  When characters are not present in the font this method returns the index 0, which is the undefined glyph or ".notdef" glyph.  If a character isn't in a font, IDWriteFont::HasCharacter returns false and GetUnicodeRanges doesn't return it in the range.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
- 
-
- 
 

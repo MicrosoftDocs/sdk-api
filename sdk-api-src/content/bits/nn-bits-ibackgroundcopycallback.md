@@ -2,15 +2,12 @@
 UID: NN:bits.IBackgroundCopyCallback
 title: IBackgroundCopyCallback (bits.h)
 description: Implement the IBackgroundCopyCallback interface to receive notification that a job is complete, has been modified, or is in error. Clients use this interface instead of polling for the status of the job.
+helpviewer_keywords: ["IBackgroundCopyCallback","IBackgroundCopyCallback interface [BITS]","IBackgroundCopyCallback interface [BITS]","described","_drz_ibackgroundcopycallback","bits.ibackgroundcopycallback","bits/IBackgroundCopyCallback"]
 old-location: bits\ibackgroundcopycallback.htm
 tech.root: Bits
 ms.assetid: e1aa6775-d1e5-4463-ae0f-32c0498881e1
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback, IBackgroundCopyCallback interface [BITS], IBackgroundCopyCallback interface [BITS],described, _drz_ibackgroundcopycallback, bits.ibackgroundcopycallback, bits/IBackgroundCopyCallback
-f1_keywords:
-- bits/IBackgroundCopyCallback
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.h
-api_name:
-- IBackgroundCopyCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyCallback
+ - bits/IBackgroundCopyCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.h
+api_name:
+ - IBackgroundCopyCallback
 ---
 
 # IBackgroundCopyCallback interface
@@ -48,76 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Implement the 
 <b>IBackgroundCopyCallback</b> interface to 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/registering-a-com-callback">receive notification</a> that a job is complete, has been modified, or is in error. Clients use this interface instead of  <a href="https://docs.microsoft.com/windows/desktop/Bits/polling-for-the-status-of-the-job">polling for the status of the job</a>.
-			
-			
-		
-
+<a href="/windows/desktop/Bits/registering-a-com-callback">receive notification</a> that a job is complete, has been modified, or is in error. Clients use this interface instead of  <a href="/windows/desktop/Bits/polling-for-the-status-of-the-job">polling for the status of the job</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBackgroundCopyCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-joberror">JobError</a>
-</td>
-<td align="left" width="63%">
-Called when an error occurs.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobmodification">JobModification</a>
-</td>
-<td align="left" width="63%">
-Called when a job is modified.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobtransferred">JobTransferred</a>
-</td>
-<td align="left" width="63%">
-Called when all of the files in the job have successfully transferred.
-
-</td>
-</tr>
-</table> 
-
+The <b>IBackgroundCopyCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBackgroundCopyCallback</b> also has these types of members:
 
 ## -remarks
 
-
-
 To receive notifications, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method to specify the interface pointer to your 
 <b>IBackgroundCopyCallback</b> implementation. To specify which notifications you want to receive, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a> method.
 
 BITS will call your callbacks as long as the interface pointer is valid. The notification interface is no longer valid when your application terminates; BITS does not persist the notify interface. As a result, your application's initialization process should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">SetNotifyInterface</a> method on those existing jobs for which you want to receive notification.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">SetNotifyInterface</a> method on those existing jobs for which you want to receive notification.
 
 BITS guarantees to call your callback at least once, even if the registration occurs after the event. For example, if you request notification of a job transfer after the transfer occurred, you will receive the job transferred callback. Also, if a job received a notification and the pointer is subsequently  no longer valid, that job would receive another notification if you later set the interface pointer on that job.
 
 You must implement all methods of the 
-<b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the job modification callback, the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobmodification">JobModification</a> method must still return <b>S_OK</b>.
+<b>IBackgroundCopyCallback</b> interface. For example, if you do not register for the job modification callback, the <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobmodification">JobModification</a> method must still return <b>S_OK</b>.
 
 The JobModification callbacks are launched using low priority threads whereas the JobTransferred and the JobError callbacks are launched using higher priority threads. So it is possible that while some JobModification callbacks are pending the JobTransferred callback is received by the client first although it is launched after the pending JobModification callbacks.
 
@@ -127,7 +81,7 @@ BITS supports up to four simultaneous notifications per user. If one or more app
 
 If an administrator takes ownership of the job, the notification callbacks are made in the context of the user who requested notification.
 
-If your application uses the <a href="https://docs.microsoft.com/windows/desktop/com/single-threaded-apartments">single-threaded apartment</a> model, your callback methods can become reentrant if you call COM objects from inside your callback method. For example, if you call <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">IBackgroundCopyJob::GetProgress</a> from inside your <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobmodification">JobModification</a> callback, BITS can send your job modification callback another notification while you are still processing the current notification. If it is not important to your application to respond to every <a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobmodification">JobModification</a> callback, you could ignore reentrant callbacks as shown in the following example. 
+If your application uses the <a href="/windows/desktop/com/single-threaded-apartments">single-threaded apartment</a> model, your callback methods can become reentrant if you call COM objects from inside your callback method. For example, if you call <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getprogress">IBackgroundCopyJob::GetProgress</a> from inside your <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobmodification">JobModification</a> callback, BITS can send your job modification callback another notification while you are still processing the current notification. If it is not important to your application to respond to every <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopycallback-jobmodification">JobModification</a> callback, you could ignore reentrant callbacks as shown in the following example. 
 
 
 ```cpp
@@ -154,7 +108,7 @@ return hr;
 
 The following example shows an 
 <b>IBackgroundCopyCallback</b> implementation. For an example that calls this implementation, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a> method.
 
 
 ```cpp
@@ -328,25 +282,14 @@ HRESULT CNotifyInterface::JobModification(IBackgroundCopyJob* pJob, DWORD dwRese
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>

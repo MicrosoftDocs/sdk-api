@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IProgressItems.get_Item
 title: IProgressItems::get_Item (imapi2fs.h)
 description: Retrieves the specified progress item from the collection.
+helpviewer_keywords: ["IProgressItems interface [IMAPI]","get_Item method","IProgressItems.get_Item","IProgressItems::get_Item","get_Item","get_Item method [IMAPI]","get_Item method [IMAPI]","IProgressItems interface","imapi.iprogressitems_get_item","imapi2fs/IProgressItems::get_Item"]
 old-location: imapi\iprogressitems_get_item.htm
 tech.root: imapi
 ms.assetid: 74d8e74d-0af6-457a-a16b-f959757b5a86
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get_Item method, IProgressItems.get_Item, IProgressItems::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_item, imapi2fs/IProgressItems::get_Item
-f1_keywords:
-- imapi2fs/IProgressItems.get_Item
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IProgressItems.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProgressItems::get_Item
+ - imapi2fs/IProgressItems::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IProgressItems.get_Item
 ---
 
 # IProgressItems::get_Item
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified progress item from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 Zero-based index number corresponding to a progress item in the collection.
 
-
 ### -param item [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interface associated with the specified index value.
-
+An <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a> interface associated with the specified index value.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -118,39 +111,23 @@ Value: 0x80070057
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To enumerate all progress items, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get__newenum">IProgressItems::get__NewEnum</a> method.
-
-
-
+To enumerate all progress items, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-get__newenum">IProgressItems::get__NewEnum</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitem">IProgressItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromblock">IProgressItems::ProgressItemFromBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromblock">IProgressItems::ProgressItemFromBlock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromdescription">IProgressItems::ProgressItemFromDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromdescription">IProgressItems::ProgressItemFromDescription</a>

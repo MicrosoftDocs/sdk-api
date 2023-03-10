@@ -2,15 +2,12 @@
 UID: NS:iptypes.ip_interface_name_info_w2ksp1
 title: IP_INTERFACE_NAME_INFO_W2KSP1 (iptypes.h)
 description: Contains information about an IPv4 interface on the local computer.
+helpviewer_keywords: ["*PIP_INTERFACE_NAME_INFO","*PIP_INTERFACE_NAME_INFO_W2KSP1","IF_ACCESS_BROADCAST","IF_ACCESS_LOOPBACK","IF_ACCESS_POINT_TO_MULTI_POINT","IF_ACCESS_POINT_TO_POINT","IF_CONNECTION_DEDICATED","IF_CONNECTION_DEMAND","IF_CONNECTION_PASSIVE","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","IP_INTERFACE_NAME_INFO","IP_INTERFACE_NAME_INFO structure [IP Helper]","IP_INTERFACE_NAME_INFO_W2KSP1","iphlp.ip_interface_name_info","iptypes/IP_INTERFACE_NAME_INFO"]
 old-location: iphlp\ip_interface_name_info.htm
 tech.root: IpHlp
 ms.assetid: c113e97d-6f41-490a-a872-20d662fd763b
 ms.date: 12/05/2018
 ms.keywords: '*PIP_INTERFACE_NAME_INFO, *PIP_INTERFACE_NAME_INFO_W2KSP1, IF_ACCESS_BROADCAST, IF_ACCESS_LOOPBACK, IF_ACCESS_POINT_TO_MULTI_POINT, IF_ACCESS_POINT_TO_POINT, IF_CONNECTION_DEDICATED, IF_CONNECTION_DEMAND, IF_CONNECTION_PASSIVE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_INTERFACE_NAME_INFO, IP_INTERFACE_NAME_INFO structure [IP Helper], IP_INTERFACE_NAME_INFO_W2KSP1, iphlp.ip_interface_name_info, iptypes/IP_INTERFACE_NAME_INFO'
-f1_keywords:
-- iptypes/IP_INTERFACE_NAME_INFO
-dev_langs:
-- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iptypes.h
-api_name:
-- IP_INTERFACE_NAME_INFO
 targetos: Windows
 req.typenames: IP_INTERFACE_NAME_INFO_W2KSP1, *PIP_INTERFACE_NAME_INFO_W2KSP1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ip_interface_name_info_w2ksp1
+ - iptypes/ip_interface_name_info_w2ksp1
+ - PIP_INTERFACE_NAME_INFO_W2KSP1
+ - iptypes/PIP_INTERFACE_NAME_INFO_W2KSP1
+ - IP_INTERFACE_NAME_INFO_W2KSP1
+ - iptypes/IP_INTERFACE_NAME_INFO_W2KSP1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iptypes.h
+api_name:
+ - IP_INTERFACE_NAME_INFO
 ---
 
 # IP_INTERFACE_NAME_INFO_W2KSP1 structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IP_INTERFACE_NAME_INFO</b> structure contains information about an IPv4 interface on the local computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Index
 
 Type: <b>ULONG</b>
 
 The index of the IP interface for the active instance.
-
 
 ### -field MediaType
 
@@ -182,8 +182,6 @@ An IEEE 1394 (Firewire) high performance serial bus network interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ConnectionType
 
@@ -235,14 +233,12 @@ The connection type is demand-dial. A connection of this type comes up in respon
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AccessType
 
 Type: <b>UCHAR</b>
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-net_if_access_type">IF_ACCESS_TYPE</a> enumeration that specifies the access type for the interface.
+A value of the <a href="/windows/desktop/api/ifdef/ne-ifdef-net_if_access_type">IF_ACCESS_TYPE</a> enumeration that specifies the access type for the interface.
 
 
 <b>Windows Server 2003, Windows 2000 Server with SP1 and Windows XP/2000:  </b>The possible values for this member are defined in the Ipifcons.h header file.
@@ -309,8 +305,6 @@ The point to multipoint access type. This value indicates support for non-broadc
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DeviceGuid
 
@@ -318,17 +312,13 @@ Type: <b>GUID</b>
 
 The GUID that identifies the underlying device for the interface. This member can be a zero GUID.
 
-
 ### -field InterfaceGuid
 
 Type: <b>GUID</b>
 
 The GUID that identifies the interface mapped to the device. Optional. This member can be a zero GUID.
 
-
 ## -remarks
-
-
 
 In the Microsoft Windows Software Development Kit (SDK), the version of the structure for use on Windows 2000 with Service Pack 1 (SP1) and later is  defined as <b>IP_INTERFACE_NAME_INFO_W2KSP1</b>. When compiling an application if the target platform is Windows 2000 with SP1 and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, <code>_WIN32_WINNT &gt;= 0x0500</code>, or <code>WINVER &gt;= 0x0500</code>), the <b>IP_INTERFACE_NAME_INFO_W2KSP1</b> structure is typedefed to the <b>IP_INTERFACE_NAME_INFO</b> structure. 
 
@@ -336,20 +326,10 @@ The <b>MediaType</b>, <b>ConnectionType</b>, and <b>AccessType</b> members, defi
 
 The optional <b>InterfaceGuid</b> member is often set for dial-up interfaces, and can be used to distinguish multiple dial-up interfaces that share  the same  device GUID.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-nhpallocateandgetinterfaceinfofromstack">NhpAllocateAndGetInterfaceInfoFromStack</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-nhpallocateandgetinterfaceinfofromstack">NhpAllocateAndGetInterfaceInfoFromStack</a>

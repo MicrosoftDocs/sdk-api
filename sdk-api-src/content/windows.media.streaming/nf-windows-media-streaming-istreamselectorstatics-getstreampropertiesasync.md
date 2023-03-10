@@ -2,15 +2,12 @@
 UID: NF:windows.media.streaming.IStreamSelectorStatics.GetStreamPropertiesAsync
 title: IStreamSelectorStatics::streaming (windows.media.streaming.h)
 description: When implemented gets the properties of the stream asynchronously.
+helpviewer_keywords: ["GetStreamPropertiesAsync","GetStreamPropertiesAsync method [Media Streaming API]","GetStreamPropertiesAsync method [Media Streaming API]","IStreamSelectorStatics interface","IStreamSelectorStatics interface [Media Streaming API]","GetStreamPropertiesAsync method","IStreamSelectorStatics.GetStreamPropertiesAsync","IStreamSelectorStatics.streaming","IStreamSelectorStatics::GetStreamPropertiesAsync","IStreamSelectorStatics::streaming","mediastreaming.istreamselectorstatics_getstreampropertiesasync","windows/IStreamSelectorStatics::GetStreamPropertiesAsync"]
 old-location: mediastreaming\istreamselectorstatics_getstreampropertiesasync.htm
 tech.root: mediastreaming
 ms.assetid: 8C1B6DC6-D85E-406F-B6DA-914DC5269666
 ms.date: 12/05/2018
 ms.keywords: GetStreamPropertiesAsync, GetStreamPropertiesAsync method [Media Streaming API], GetStreamPropertiesAsync method [Media Streaming API],IStreamSelectorStatics interface, IStreamSelectorStatics interface [Media Streaming API],GetStreamPropertiesAsync method, IStreamSelectorStatics.GetStreamPropertiesAsync, IStreamSelectorStatics.streaming, IStreamSelectorStatics::GetStreamPropertiesAsync, IStreamSelectorStatics::streaming, mediastreaming.istreamselectorstatics_getstreampropertiesasync, windows/IStreamSelectorStatics::GetStreamPropertiesAsync
-f1_keywords:
-- windows.media.streaming/IStreamSelectorStatics.GetStreamPropertiesAsync
-dev_langs:
-- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- windows.media.streaming.h
-api_name:
-- IStreamSelectorStatics.GetStreamPropertiesAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamSelectorStatics::GetStreamPropertiesAsync
+ - windows.media.streaming/IStreamSelectorStatics::GetStreamPropertiesAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.media.streaming.h
+api_name:
+ - IStreamSelectorStatics.GetStreamPropertiesAsync
 ---
 
 # IStreamSelectorStatics::streaming
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 When implemented gets the properties of the stream asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param storageFile [in]
 
 Windows.Storage.StorageFile
-
 
 ### -param selectorProperties [in]
 
@@ -77,10 +73,7 @@ An IPropertySet containing any of the following allowed values.
 
 ### -param value [out, retval]
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,18 +94,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828953(v=vs.85)">IStreamSelectorStatics</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/hh828953(v=vs.85)">IStreamSelectorStatics</a>

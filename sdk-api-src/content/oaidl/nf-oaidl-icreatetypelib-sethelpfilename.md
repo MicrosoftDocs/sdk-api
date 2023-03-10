@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeLib.SetHelpFileName
 title: ICreateTypeLib::SetHelpFileName (oaidl.h)
 description: Sets the name of the Help file.
+helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetHelpFileName method","ICreateTypeLib.SetHelpFileName","ICreateTypeLib::SetHelpFileName","SetHelpFileName","SetHelpFileName method [Automation]","SetHelpFileName method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetHelpFileName","automat.icreatetypelib_sethelpfilename","oaidl/ICreateTypeLib::SetHelpFileName"]
 old-location: automat\icreatetypelib_sethelpfilename.htm
 tech.root: automat
 ms.assetid: a9dc11b0-1483-4272-84cb-4f885f6cff6f
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpFileName method, ICreateTypeLib.SetHelpFileName, ICreateTypeLib::SetHelpFileName, SetHelpFileName, SetHelpFileName method [Automation], SetHelpFileName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpFileName, automat.icreatetypelib_sethelpfilename, oaidl/ICreateTypeLib::SetHelpFileName
-f1_keywords:
-- oaidl/ICreateTypeLib.SetHelpFileName
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeLib.SetHelpFileName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeLib::SetHelpFileName
+ - oaidl/ICreateTypeLib::SetHelpFileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeLib.SetHelpFileName
 ---
 
 # ICreateTypeLib::SetHelpFileName
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the name of the Help file.
 
-
 ## -parameters
-
-
-
 
 ### -param szHelpFileName [in]
 
 The name of the Help file for the library.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -130,36 +123,19 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each type library can reference a single Help file.
 
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getdocumentation">GetDocumentation</a> method of the created <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a> returns a fully qualified path for the Help file, which is formed by appending the name passed into <i>szHelpFileName</i> to the registered Help directory for the type library. The Help directory is registered under:
+The <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypelib-getdocumentation">GetDocumentation</a> method of the created <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a> returns a fully qualified path for the Help file, which is formed by appending the name passed into <i>szHelpFileName</i> to the registered Help directory for the type library. The Help directory is registered under:
 
 
 
 \TYPELIB\&lt;guid of library&gt;\&lt;Major.Minor version &gt;\HELPDIR
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>

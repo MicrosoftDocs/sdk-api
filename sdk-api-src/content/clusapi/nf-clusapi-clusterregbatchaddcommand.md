@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterRegBatchAddCommand
 title: ClusterRegBatchAddCommand function (clusapi.h)
 description: Adds a command to a batch that will be executed on a cluster registry key.
+helpviewer_keywords: ["CLUSREG_CREATE_KEY","CLUSREG_DELETE_KEY","CLUSREG_DELETE_VALUE","CLUSREG_SET_VALUE","ClusterRegBatchAddCommand","ClusterRegBatchAddCommand function [Failover Cluster]","PCLUSTER_REG_BATCH_ADD_COMMAND","clusapi/ClusterRegBatchAddCommand","mscs.clusterregbatchaddcommand"]
 old-location: mscs\clusterregbatchaddcommand.htm
 tech.root: MsCS
 ms.assetid: 3d59e68a-deb3-443f-9d8f-281cdb15e8b6
 ms.date: 12/05/2018
 ms.keywords: CLUSREG_CREATE_KEY, CLUSREG_DELETE_KEY, CLUSREG_DELETE_VALUE, CLUSREG_SET_VALUE, ClusterRegBatchAddCommand, ClusterRegBatchAddCommand function [Failover Cluster], PCLUSTER_REG_BATCH_ADD_COMMAND, clusapi/ClusterRegBatchAddCommand, mscs.clusterregbatchaddcommand
-f1_keywords:
-- clusapi/ClusterRegBatchAddCommand
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-api_name:
-- ClusterRegBatchAddCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegBatchAddCommand
+ - clusapi/ClusterRegBatchAddCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+ - ClusterRegBatchAddCommand
 ---
 
 # ClusterRegBatchAddCommand function
@@ -50,28 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a command to a batch that will be executed on a cluster registry key. Additional calls 
     to the function will yield additional commands added to the batch. The batch was created by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function and will be 
+    <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function and will be 
     either executed or ignored by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a> function.
-
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hRegBatch [in]
 
 The handle of the batch to which a command will be added.
 
-
 ### -param dwCommand [in]
 
 A command supported by this API that is taken from the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a> enumeration.  The possible 
+       <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a> enumeration.  The possible 
        commands are as follows.
 
 
@@ -80,7 +76,7 @@ A command supported by this API that is taken from the
 
 Sets a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or (if 
          not provided) relative to a key passed into the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
+         <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 
 
@@ -102,22 +98,19 @@ Deletes a key with all values and nested subkeys.  No commands that operate on v
 
 Deletes a value relative to the last executed <b>CLUSREG_CREATE_KEY</b> command or 
          (if not provided) relative to a key passed into  the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
-
+         <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a> function.
 
 ### -param wzName [in, optional]
 
 The name of the value or key relative to the command issued by the <i>dwCommand</i> 
        parameter.
 
-
 ### -param dwOptions [in]
 
 If <i>dwCommand</i> takes the <b>CLUSREG_SET_VALUE</b> command, then 
        this parameter takes one of the standard 
-       <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">registry value types</a>. If not, then 
+       <a href="/windows/desktop/SysInfo/registry-value-types">registry value types</a>. If not, then 
        <i>dwCommand</i> is set to 0.
-
 
 ### -param lpData [in, optional]
 
@@ -125,19 +118,15 @@ A pointer to the data relative to the command issued by <i>dwCommand</i>. The va
        this parameter is <b>NULL</b> for all but the <b>CLUSREG_SET_VALUE</b> 
        command.
 
-
 ### -param cbData [in]
 
 The count, in bytes, of the data relative to the command issued by <i>dwCommand</i>. The 
        value of this parameter is 0 for all but the <b>CLUSREG_SET_VALUE</b> command.
 
-
 ## -returns
 
-
-
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -220,43 +209,27 @@ The parameter is incorrect. This value will be returned if the cluster registry 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>PCLUSTER_REG_BATCH_ADD_COMMAND</b> type defines a pointer to this function.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_reg_command">CLUSTER_REG_COMMAND</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatebatch">ClusterRegCreateBatch</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>

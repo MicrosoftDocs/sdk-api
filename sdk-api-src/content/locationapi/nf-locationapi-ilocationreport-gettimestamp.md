@@ -2,15 +2,12 @@
 UID: NF:locationapi.ILocationReport.GetTimestamp
 title: ILocationReport::GetTimestamp (locationapi.h)
 description: Retrieves the date and time when the report was generated.
+helpviewer_keywords: ["GetTimestamp","GetTimestamp method [WinLocation]","GetTimestamp method [WinLocation]","ILocationReport interface","ILocationReport interface [WinLocation]","GetTimestamp method","ILocationReport.GetTimestamp","ILocationReport::GetTimestamp","WinLocation_COM_Ref.ilocationreport_gettimestamp","locationapi/ILocationReport::GetTimestamp"]
 old-location: winlocation_com_ref\ilocationreport_gettimestamp.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 3573b2e7-fa76-4819-894d-d1215dc625bc
 ms.date: 12/05/2018
 ms.keywords: GetTimestamp, GetTimestamp method [WinLocation], GetTimestamp method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetTimestamp method, ILocationReport.GetTimestamp, ILocationReport::GetTimestamp, WinLocation_COM_Ref.ilocationreport_gettimestamp, locationapi/ILocationReport::GetTimestamp
-f1_keywords:
-- locationapi/ILocationReport.GetTimestamp
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILocationReport.GetTimestamp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocationReport::GetTimestamp
+ - locationapi/ILocationReport::GetTimestamp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILocationReport.GetTimestamp
 ---
 
 # ILocationReport::GetTimestamp
@@ -48,39 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Retrieves the date and time when the report was generated.
 
-
 ## -parameters
-
-
-
 
 ### -param pCreationTime [out]
 
 Address of a <b>SYSTEMTIME</b> that receives the date and time when the report was generated. Time stamps are provided as Coordinated Universal Time (UTC).
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>

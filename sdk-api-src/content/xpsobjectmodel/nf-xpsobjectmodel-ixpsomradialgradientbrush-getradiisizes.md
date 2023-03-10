@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetRadiiSizes
 title: IXpsOMRadialGradientBrush::GetRadiiSizes (xpsobjectmodel.h)
 description: Gets the sizes of the radii that define the ellipse of the radial gradient region.
+helpviewer_keywords: ["GetRadiiSizes","GetRadiiSizes method [XPS Documents and Packaging]","GetRadiiSizes method [XPS Documents and Packaging]","IXpsOMRadialGradientBrush interface","IXpsOMRadialGradientBrush interface [XPS Documents and Packaging]","GetRadiiSizes method","IXpsOMRadialGradientBrush.GetRadiiSizes","IXpsOMRadialGradientBrush::GetRadiiSizes","xps.ixpsomradialgradientbrush_getradiisizes","xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes"]
 old-location: xps\ixpsomradialgradientbrush_getradiisizes.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: c57c125b-7a21-4b94-b4c3-1aa34d615a12
 ms.date: 12/05/2018
 ms.keywords: GetRadiiSizes, GetRadiiSizes method [XPS Documents and Packaging], GetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetRadiiSizes method, IXpsOMRadialGradientBrush.GetRadiiSizes, IXpsOMRadialGradientBrush::GetRadiiSizes, xps.ixpsomradialgradientbrush_getradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
-f1_keywords:
-- xpsobjectmodel/IXpsOMRadialGradientBrush.GetRadiiSizes
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMRadialGradientBrush.GetRadiiSizes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMRadialGradientBrush::GetRadiiSizes
+ - xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMRadialGradientBrush.GetRadiiSizes
 ---
 
 # IXpsOMRadialGradientBrush::GetRadiiSizes
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the sizes of the radii that define the ellipse of the radial gradient region.
-
 
 ## -parameters
 
-
-
-
 ### -param radiiSizes [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure that  receives the sizes of the radii.
 
 <table>
 <tr>
@@ -91,12 +88,9 @@ Size of the radius along the y-axis.
 
 Size is described in XPS units. There are 96 XPS units per inch. For example, a 1" radius is 96 XPS units.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -126,40 +120,25 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The following illustration shows the parts of a radial gradient. <i>radiiSizes.width</i> gets the x-radius, and <i>radiiSizes.height</i> the y-radius.  For a more detailed description of this diagram, see <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>.
+The following illustration shows the parts of a radial gradient. <i>radiiSizes.width</i> gets the x-radius, and <i>radiiSizes.height</i> the y-radius.  For a more detailed description of this diagram, see <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>.
 
 <img alt="A figure that shows the terms used in a radial gradient" src="./images/RadialGradient1.png"/>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomradialgradientbrush">IXpsOMRadialGradientBrush</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
- 
-
- 
-
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>

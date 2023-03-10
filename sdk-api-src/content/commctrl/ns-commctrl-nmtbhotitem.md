@@ -2,15 +2,12 @@
 UID: NS:commctrl.tagNMTBHOTITEM
 title: NMTBHOTITEM (commctrl.h)
 description: Contains information used with the TBN_HOTITEMCHANGE notification code.
+helpviewer_keywords: ["*LPNMTBHOTITEM","HICF_ACCELERATOR","HICF_ARROWKEYS","HICF_DUPACCEL","HICF_ENTERING","HICF_LEAVING","HICF_LMOUSE","HICF_MOUSE","HICF_OTHER","HICF_RESELECT","HICF_TOGGLEDROPDOWN","LPNMTBHOTITEM","LPNMTBHOTITEM structure pointer [Windows Controls]","NMTBHOTITEM","NMTBHOTITEM structure [Windows Controls]","_win32_NMTBHOTITEM","_win32_NMTBHOTITEM_cpp","commctrl/LPNMTBHOTITEM","commctrl/NMTBHOTITEM","controls.NMTBHOTITEM","controls._win32_NMTBHOTITEM"]
 old-location: controls\NMTBHOTITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbhotitem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBHOTITEM, HICF_ACCELERATOR, HICF_ARROWKEYS, HICF_DUPACCEL, HICF_ENTERING, HICF_LEAVING, HICF_LMOUSE, HICF_MOUSE, HICF_OTHER, HICF_RESELECT, HICF_TOGGLEDROPDOWN, LPNMTBHOTITEM, LPNMTBHOTITEM structure pointer [Windows Controls], NMTBHOTITEM, NMTBHOTITEM structure [Windows Controls], _win32_NMTBHOTITEM, _win32_NMTBHOTITEM_cpp, commctrl/LPNMTBHOTITEM, commctrl/NMTBHOTITEM, controls.NMTBHOTITEM, controls._win32_NMTBHOTITEM'
-f1_keywords:
-- commctrl/NMTBHOTITEM
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMTBHOTITEM
 targetos: Windows
 req.typenames: NMTBHOTITEM, *LPNMTBHOTITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMTBHOTITEM
+ - commctrl/tagNMTBHOTITEM
+ - LPNMTBHOTITEM
+ - commctrl/LPNMTBHOTITEM
+ - NMTBHOTITEM
+ - commctrl/NMTBHOTITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMTBHOTITEM
 ---
 
 # NMTBHOTITEM structure
@@ -48,40 +54,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-hotitemchange">TBN_HOTITEMCHANGE</a> notification code. 
-
+Contains information used with the <a href="/windows/desktop/Controls/tbn-hotitemchange">TBN_HOTITEMCHANGE</a> notification code.
 
 ## -struct-fields
 
-
-
-
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
-
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field idOld
 
 Type: <b>int</b>
 
-Command identifier of the previously highlighted item. 
-
+Command identifier of the previously highlighted item.
 
 ### -field idNew
 
 Type: <b>int</b>
 
-Command identifier of the item about to be highlighted. 
-
+Command identifier of the item about to be highlighted.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Flags that indicate why the hot item has changed. This can be one or more of the following values: 
 
@@ -168,7 +166,7 @@ The change in the hot item resulted from a mouse event.
 </dl>
 </td>
 <td width="60%">
-The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="https://docs.microsoft.com/windows/desktop/Controls/tb-sethotitem">TB_SETHOTITEM</a> message. 
+The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the <a href="/windows/desktop/Controls/tb-sethotitem">TB_SETHOTITEM</a> message. 
 
 </td>
 </tr>
@@ -189,10 +187,8 @@ The change in the hot item resulted from the user entering the shortcut key for 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> Causes the button to switch states. 
+<a href="/windows/desktop/Controls/common-control-versions">Version 5.80.</a> Causes the button to switch states. 
 
 </td>
 </tr>
 </table>
- 
-

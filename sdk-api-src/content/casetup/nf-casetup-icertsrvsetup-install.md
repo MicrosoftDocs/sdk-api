@@ -2,15 +2,12 @@
 UID: NF:casetup.ICertSrvSetup.Install
 title: ICertSrvSetup::Install (casetup.h)
 description: Installs a role as configured in the CCertSrvSetup object.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","Install method","ICertSrvSetup.Install","ICertSrvSetup::Install","Install","Install method [Security]","Install method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::Install","security.icertsrvsetup_install"]
 old-location: security\icertsrvsetup_install.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e07b1cdd-ccb6-4398-862b-521ac1d39f66
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],Install method, ICertSrvSetup.Install, ICertSrvSetup::Install, Install, Install method [Security], Install method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::Install, security.icertsrvsetup_install
-f1_keywords:
-- casetup/ICertSrvSetup.Install
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetup.Install
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetup::Install
+ - casetup/ICertSrvSetup::Install
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetup.Install
 ---
 
 # ICertSrvSetup::Install
@@ -48,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Install</b> method installs a role as configured in the <b>CCertSrvSetup</b> object.
-
-
-## -parameters
-
-
-
 
 
 
 ## -remarks
 
+The <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a> method must be called before calling this or any other method on a <b>CCertSrvSetup</b> object.
 
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a> method must be called before calling this or any other method on a <b>CCertSrvSetup</b> object.
-
-Unless the key already exists, the <b>Install</b> method creates a key for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate. If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) requires interaction, it prompts the user. 
-
-
-
+Unless the key already exists, the <b>Install</b> method creates a key for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate. If the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) requires interaction, it prompts the user.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

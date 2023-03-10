@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.PlayNextChapter
 title: IDvdControl2::PlayNextChapter (strmif.h)
 description: The PlayNextChapter method starts playback from the beginning of the next chapter in the current title.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayNextChapter method","IDvdControl2.PlayNextChapter","IDvdControl2::PlayNextChapter","IDvdControl2PlayNextChapter","PlayNextChapter","PlayNextChapter method [DirectShow]","PlayNextChapter method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playnextchapter","strmif/IDvdControl2::PlayNextChapter"]
 old-location: dshow\idvdcontrol2_playnextchapter.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 654841ce-6689-47cc-93fb-bd8de8f4dd3a
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayNextChapter method, IDvdControl2.PlayNextChapter, IDvdControl2::PlayNextChapter, IDvdControl2PlayNextChapter, PlayNextChapter, PlayNextChapter method [DirectShow], PlayNextChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playnextchapter, strmif/IDvdControl2::PlayNextChapter
-f1_keywords:
-- strmif/IDvdControl2.PlayNextChapter
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.PlayNextChapter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::PlayNextChapter
+ - strmif/IDvdControl2::PlayNextChapter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.PlayNextChapter
 ---
 
 # IDvdControl2::PlayNextChapter
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>PlayNextChapter</code> method starts playback from the beginning of the next chapter in the current title.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
-
+Bitwise OR of one or more flags from the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 ### -param ppCmd [out]
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
-
+Receives a pointer to an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -105,16 +95,10 @@ UOP control prohibits the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-After playing the next chapter, the DVD Navigator continues playing, following the branching instructions on the disc. To play only the next chapter, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchaptersautostop">IDvdControl2::PlayChaptersAutoStop</a>.
+After playing the next chapter, the DVD Navigator continues playing, following the branching instructions on the disc. To play only the next chapter, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-playchaptersautostop">IDvdControl2::PlayChaptersAutoStop</a>.
 
 This method is demonstrated in the DVDSample application in <b>CDvdCore::NextChapter</b>.
 
@@ -138,30 +122,19 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>

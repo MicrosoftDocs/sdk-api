@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateUInt8
-title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
+title: IPropertyValueStatics::CreateUInt8 (windows.foundation.h)
 description: Creates a new IPropertyValue object that contains the specified unsigned 8-bit integer value.
+helpviewer_keywords: ["CreateUInt8","CreateUInt8 method [Windows Runtime]","CreateUInt8 method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateUInt8 method","IPropertyValueStatics.CreateUInt8","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateUInt8","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateUInt8","winrt.ipropertyvaluefactory_createuint8","winrt.ipropertyvaluestatics_createuint8"]
 old-location: winrt\ipropertyvaluestatics_createuint8.htm
 tech.root: WinRT
 ms.assetid: 8CDCDB96-7E77-4B63-8417-D669ED4850BF
 ms.date: 12/05/2018
 ms.keywords: CreateUInt8, CreateUInt8 method [Windows Runtime], CreateUInt8 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateUInt8 method, IPropertyValueStatics.CreateUInt8, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateUInt8, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateUInt8, winrt.ipropertyvaluefactory_createuint8, winrt.ipropertyvaluestatics_createuint8
-f1_keywords:
-- windows.foundation/IPropertyValueStatics.CreateUInt8
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValueStatics.CreateUInt8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValueStatics::CreateUInt8
+ - windows.foundation/IPropertyValueStatics::CreateUInt8
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValueStatics.CreateUInt8
 ---
 
-# IPropertyValueStatics::IPropertyValueStatics
+# IPropertyValueStatics::CreateUInt8 (windows.foundation.h)
 
 
 ## -description
 
-
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object that contains  the specified unsigned 8-bit integer value.
-
+Creates a new <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object that contains  the specified unsigned 8-bit integer value.
 
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -63,17 +60,13 @@ Type: <b>BYTE</b>
 
 The unsigned 8-bit integer value to store.
 
-
 ### -param propertyValue [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
+Type: <b><a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>**</b>
 
-A pointer to a new object that contains <i>value</i>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
-
+A pointer to a new object that contains <i>value</i>. Use the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to get the <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> interface for the object.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -113,36 +106,20 @@ The  property value was created successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object could not be created.
+The <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object could not be created.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use the <b>CreateUInt8</b> method to  store a value in an <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8">GetUInt8</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
-
-
-
+Use the <b>CreateUInt8</b> method to  store a value in an <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object. You can add the  <b>IPropertyValue</b> object to a property store. Use the <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8">GetUInt8</a> method to retrieve the value from the  <b>IPropertyValue</b> object.
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8">vGetUInt8</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8">vGetUInt8</a>

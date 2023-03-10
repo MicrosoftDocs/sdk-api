@@ -2,15 +2,12 @@
 UID: NF:imagehlp.SplitSymbols
 title: SplitSymbols function (imagehlp.h)
 description: Strips symbols from the specified image.
+helpviewer_keywords: ["SPLITSYM_EXTRACT_ALL","SPLITSYM_REMOVE_PRIVATE","SPLITSYM_SYMBOLPATH_IS_SRC","SplitSymbols","SplitSymbols function","_win32_splitsymbols","base.splitsymbols","imagehlp/SplitSymbols"]
 old-location: base\splitsymbols.htm
 tech.root: Debug
 ms.assetid: b9b940ce-8349-472e-b802-b477bd195b63
 ms.date: 12/05/2018
 ms.keywords: SPLITSYM_EXTRACT_ALL, SPLITSYM_REMOVE_PRIVATE, SPLITSYM_SYMBOLPATH_IS_SRC, SplitSymbols, SplitSymbols function, _win32_splitsymbols, base.splitsymbols, imagehlp/SplitSymbols
-f1_keywords:
-- imagehlp/SplitSymbols
-dev_langs:
-- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imagehlp.dll
-api_name:
-- SplitSymbols
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SplitSymbols
+ - imagehlp/SplitSymbols
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imagehlp.dll
+api_name:
+ - SplitSymbols
 ---
 
 # SplitSymbols function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Strips symbols from the specified image.
 
-
 ## -parameters
-
-
-
 
 ### -param ImageName [in]
 
 The name of the image from which to split symbols.
 
-
 ### -param SymbolsPath [in]
 
 The subdirectory for storing symbols. This parameter is optional.
 
-
 ### -param SymbolFilePath [out]
 
 The name of the generated symbol file. This file typically has a .dbg extension.
-
 
 ### -param Flags [in]
 
@@ -117,24 +111,15 @@ The symbol file path contains an alternate path to locate the .pdb file.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The 
 <b>SplitSymbols</b> function should be used when stripping symbols from an image. It will create a symbol file that all compatible debuggers understand. The format is defined in WinNT.h and consists of an image header, followed by the array of section headers, the FPO information, and all debugging symbolic information from the image.
@@ -143,16 +128,6 @@ If the <i>SymbolsPath</i> parameter is <b>NULL</b>, the symbol file is stored in
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

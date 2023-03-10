@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
 title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess (functiondiscoveryprovider.h)
 description: Verifies that the provider supports the requested access.
+helpviewer_keywords: ["IFunctionDiscoveryProvider interface","InstancePropertyStoreValidateAccess method","IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess","IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess","InstancePropertyStoreValidateAccess","InstancePropertyStoreValidateAccess method","InstancePropertyStoreValidateAccess method","IFunctionDiscoveryProvider interface","STGM_READ","STGM_READWRITE","STGM_WRITE","functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess","ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess"]
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystorevalidateaccess.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 0ee8d65d-0be3-4171-946a-10a15b8f8eb7
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProvider interface,InstancePropertyStoreValidateAccess method, IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess, IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess, InstancePropertyStoreValidateAccess method, InstancePropertyStoreValidateAccess method,IFunctionDiscoveryProvider interface, STGM_READ, STGM_READWRITE, STGM_WRITE, functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess, ncd.ifunctiondiscoveryprovider_instancepropertystorevalidateaccess
-f1_keywords:
-- functiondiscoveryprovider/IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
+ - functiondiscoveryprovider/IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
 ---
 
 # IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Verifies that the provider supports the  requested access. It is called when <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">OpenPropertyStore</a> is called on a function instance to verify that the provider supports the access mode passed by the <i>dwStgAccess</i> parameter.   
+Verifies that the provider supports the  requested access. It is called when <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">OpenPropertyStore</a> is called on a function instance to verify that the provider supports the access mode passed by the <i>dwStgAccess</i> parameter.   
 
-This method is only called when a provider's <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-initialize">Initialize</a> method returns  a <i>pdwStgAccessCapabilities</i> parameter value of -1. 
-
+This method is only called when a provider's <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-initialize">Initialize</a> method returns  a <i>pdwStgAccessCapabilities</i> parameter value of -1.
 
 ## -parameters
 
-
-
-
 ### -param pIFunctionInstance [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
-
+A pointer to the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface.
 
 ### -param iProviderInstanceContext [in]
 
 The context associated with the specific function instance.
-
 
 ### -param dwStgAccess [in]
 
@@ -93,10 +88,7 @@ The access mode to be verified.  For this method, the following modes are suppor
 
 #### STGM_WRITE
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -134,7 +126,7 @@ The provider does not implement an instance property store.
 </dl>
 </td>
 <td width="60%">
-The method could not open a writeable property store because the caller has insufficient access, the discovery provider does not allow write access to its property store, or another property store is already open for this function instance.
+The method could not open a writable property store because the caller has insufficient access, the discovery provider does not allow write access to its property store, or another property store is already open for this function instance.
 
 </td>
 </tr>
@@ -161,27 +153,11 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The precise meaning of the STG_E_ACCESSDENIED return value is implementation-specific. When you implement the <b>InstancePropertyStoreValidateAccess</b> method, you can return STG_E_ACCESSDENIED for any supplied <i>dwStgAccess</i> mode value on any supplied function instance. 
-
-
-
+The precise meaning of the STG_E_ACCESSDENIED return value is implementation-specific. When you implement the <b>InstancePropertyStoreValidateAccess</b> method, you can return STG_E_ACCESSDENIED for any supplied <i>dwStgAccess</i> mode value on any supplied function instance.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>

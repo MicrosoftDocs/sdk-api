@@ -1,16 +1,13 @@
 ---
 UID: NF:dmerror.MAKE_HRESULT
 title: MAKE_HRESULT macro (dmerror.h)
-description: Creates an HRESULT value from its component pieces.
+description: The MAKE_HRESULT macro (dmerror.h) creates an HRESULT value from its component pieces.
+helpviewer_keywords: ["MAKE_HRESULT","MAKE_HRESULT macro [COM]","_com_MAKE_HRESULT","com.make_hresult","com.make_hresult_macro","dmerror/MAKE_HRESULT"]
 old-location: com\make_hresult_macro.htm
 tech.root: com
 ms.assetid: f9624cbd-35a4-4e44-a796-cf463366299a
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: MAKE_HRESULT, MAKE_HRESULT macro [COM], _com_MAKE_HRESULT, com.make_hresult, com.make_hresult_macro, dmerror/MAKE_HRESULT
-f1_keywords:
-- dmerror/MAKE_HRESULT
-dev_langs:
-- c++
 req.header: dmerror.h
 req.include-header: Winerror.h, Ddrawi.h, Ddrawint.h, Winerror.h, Ddrawi.h, Ddrawint.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dmerror.h
-api_name:
-- MAKE_HRESULT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAKE_HRESULT
+ - dmerror/MAKE_HRESULT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dmerror.h
+api_name:
+ - MAKE_HRESULT
 ---
 
 # MAKE_HRESULT macro
@@ -48,48 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an <b>HRESULT</b> value from its component pieces.
 
-
 ## -parameters
-
-
-
 
 ### -param sev
 
 The severity.
 
-
 ### -param fac
 
 The facility.
-
 
 ### -param code
 
 The code.
 
-
 ## -remarks
-
-
 
 This macro is defined as follows:
 
-<pre class="syntax" xml:space="preserve"><code>#define MAKE_HRESULT(sev,fac,code) \
-    ((HRESULT) (((unsigned long)(sev)&lt;&lt;31) | ((unsigned long)(fac)&lt;&lt;16) | ((unsigned long)(code))) )</code></pre>
 
+``` syntax
+#define MAKE_HRESULT(sev,fac,code) \
+    ((HRESULT) (((unsigned long)(sev)&lt;&lt;31) | ((unsigned long)(fac)&lt;&lt;16) | ((unsigned long)(code))) )
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
- 
-
- 
-
+<a href="/windows/desktop/com/error-handling-in-com">Error Handling</a>

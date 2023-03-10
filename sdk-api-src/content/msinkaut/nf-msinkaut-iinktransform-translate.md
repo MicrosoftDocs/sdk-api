@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkTransform.Translate
 title: IInkTransform::Translate (msinkaut.h)
 description: Applies a translation to a transform.
+helpviewer_keywords: ["3125e27b-a280-43bc-99d7-a6b5697366b2","IInkTransform interface [Tablet PC]","Translate method","IInkTransform.Translate","IInkTransform::Translate","Translate","Translate method [Tablet PC]","Translate method [Tablet PC]","IInkTransform interface","msinkaut/IInkTransform::Translate","tablet.inktransform_translate"]
 old-location: tablet\inktransform_translate.htm
 tech.root: tablet
 ms.assetid: 3125e27b-a280-43bc-99d7-a6b5697366b2
 ms.date: 12/05/2018
 ms.keywords: 3125e27b-a280-43bc-99d7-a6b5697366b2, IInkTransform interface [Tablet PC],Translate method, IInkTransform.Translate, IInkTransform::Translate, Translate, Translate method [Tablet PC], Translate method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::Translate, tablet.inktransform_translate
-f1_keywords:
-- msinkaut/IInkTransform.Translate
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkTransform.Translate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkTransform::Translate
+ - msinkaut/IInkTransform::Translate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkTransform.Translate
 ---
 
 # IInkTransform::Translate
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Applies a translation to a transform.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param HorizontalComponent [in]
 
 The horizontal component of the translation.
 
-
 ### -param VerticalComponent [in]
 
 The vertical component of the translation.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -138,22 +128,11 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinktransform.md">IInkTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>

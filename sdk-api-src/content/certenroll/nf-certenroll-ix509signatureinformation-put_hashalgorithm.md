@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_HashAlgorithm
 title: IX509SignatureInformation::put_HashAlgorithm (certenroll.h)
-description: Specifies and retrieves an object identifier (OID) for the hashing algorithm used in the GetSignatureAlgorithm method.
+description: Specifies and retrieves an object identifier (OID) for the hashing algorithm used in the GetSignatureAlgorithm method. (Put)
+helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","IX509SignatureInformation interface","IX509SignatureInformation interface [Security]","HashAlgorithm property","IX509SignatureInformation.HashAlgorithm","IX509SignatureInformation.put_HashAlgorithm","IX509SignatureInformation::HashAlgorithm","IX509SignatureInformation::get_HashAlgorithm","IX509SignatureInformation::put_HashAlgorithm","certenroll/IX509SignatureInformation::HashAlgorithm","certenroll/IX509SignatureInformation::get_HashAlgorithm","certenroll/IX509SignatureInformation::put_HashAlgorithm","put_HashAlgorithm","security.ix509signatureinformation_hashalgorithm_property"]
 old-location: security\ix509signatureinformation_hashalgorithm_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b5242975-50e5-49d6-be1f-3a09ada03593
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],HashAlgorithm property, IX509SignatureInformation.HashAlgorithm, IX509SignatureInformation.put_HashAlgorithm, IX509SignatureInformation::HashAlgorithm, IX509SignatureInformation::get_HashAlgorithm, IX509SignatureInformation::put_HashAlgorithm, certenroll/IX509SignatureInformation::HashAlgorithm, certenroll/IX509SignatureInformation::get_HashAlgorithm, certenroll/IX509SignatureInformation::put_HashAlgorithm, put_HashAlgorithm, security.ix509signatureinformation_hashalgorithm_property
-f1_keywords:
-- certenroll/IX509SignatureInformation.HashAlgorithm
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509SignatureInformation.HashAlgorithm
-- IX509SignatureInformation.get_HashAlgorithm
-- IX509SignatureInformation.put_HashAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509SignatureInformation::put_HashAlgorithm
+ - certenroll/IX509SignatureInformation::put_HashAlgorithm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509SignatureInformation.HashAlgorithm
+ - IX509SignatureInformation.get_HashAlgorithm
+ - IX509SignatureInformation.put_HashAlgorithm
 ---
 
 # IX509SignatureInformation::put_HashAlgorithm
@@ -50,33 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>HashAlgorithm</b> property specifies and retrieves an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the hashing algorithm used in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method.
+The <b>HashAlgorithm</b> property specifies and retrieves an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the hashing algorithm used in the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-You must set this property before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method. You must also set the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_publickeyalgorithm">PublicKeyAlgorithm</a> property unless you are retrieving a signature algorithm for a null-signed certificate request.  You can also set the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_nullsigned">NullSigned</a>, <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm">AlternateSignatureAlgorithm</a>,  and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_parameters">Parameters</a> properties.
+You must set this property before calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-getsignaturealgorithm">GetSignatureAlgorithm</a> method. You must also set the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_publickeyalgorithm">PublicKeyAlgorithm</a> property unless you are retrieving a signature algorithm for a null-signed certificate request.  You can also set the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_nullsigned">NullSigned</a>, <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_alternatesignaturealgorithm">AlternateSignatureAlgorithm</a>,  and <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509signatureinformation-get_parameters">Parameters</a> properties.
 
 The <b>HashAlgorithm</b> property validates whether the OID you specify represents a hashing algorithm. If the OID is valid, the property also clears the signature property cache.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>

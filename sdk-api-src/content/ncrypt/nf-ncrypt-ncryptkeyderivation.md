@@ -2,15 +2,12 @@
 UID: NF:ncrypt.NCryptKeyDerivation
 title: NCryptKeyDerivation function (ncrypt.h)
 description: Creates a key from another key by using the specified key derivation function.
+helpviewer_keywords: ["BCRYPT_CAPI_AES_FLAG","NCRYPT_SILENT_FLAG","NCryptKeyDerivation","NCryptKeyDerivation function [Security]","ncrypt/NCryptKeyDerivation","security.ncryptkeyderivation"]
 old-location: security\ncryptkeyderivation.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation
-f1_keywords:
-- ncrypt/NCryptKeyDerivation
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptKeyDerivation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptKeyDerivation
+ - ncrypt/NCryptKeyDerivation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptKeyDerivation
 ---
 
 # NCryptKeyDerivation function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptKeyDerivation</b> function creates a key from another key by using the specified key derivation function.  The function returns the key in a byte array.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 Handle of the key derivation function (KDF) key.
 
-
 ### -param pParameterList [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
+The address of a <a href="/windows/win32/api/bcrypt/ns-bcrypt-bcryptbufferdesc">NCryptBufferDesc</a> structure that contains the KDF parameters. The parameters can be specific to a KDF or generic. The following table shows the required and optional parameters for specific KDFs implemented by the Microsoft software key storage provider.
 
 <table>
 <tr>
@@ -164,22 +160,17 @@ CAPI_KDF<ul>
 <li>KDF_GENERIC_PARAMETER = Not Used </li>
 </ul>
 
-
-
 ### -param pbDerivedKey [out]
 
 Address of a buffer that receives the key. The <i>cbDerivedKey</i> parameter contains the size, in bytes, of the key buffer.
-
 
 ### -param cbDerivedKey [in]
 
 Size, in bytes, of the buffer pointed to by the <i>pbDerivedKey</i> parameter.
 
-
 ### -param pcbResult [out]
 
 Pointer to a <b>DWORD</b> that receives the number of bytes copied to the buffer pointed to by the <i>pbDerivedKey</i> parameter.
-
 
 ### -param dwFlags [in]
 
@@ -212,12 +203,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -287,16 +274,10 @@ This function is not supported by the key storage provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You can use the following algorithm identifiers in the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function before calling <b>NCryptKeyDerivation</b>:
+You can use the following algorithm identifiers in the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreatepersistedkey">NCryptCreatePersistedKey</a> function before calling <b>NCryptKeyDerivation</b>:
 
 <ul>
 <li><b>BCRYPT_CAPI_KDF_ALGORITHM</b></li>
@@ -305,19 +286,10 @@ You can use the following algorithm identifiers in the <a href="https://docs.mic
 <li><b>BCRYPT_PBKDF2_ALGORITHM</b></li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptderivekey">NCryptDeriveKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptderivekey">NCryptDeriveKey</a>

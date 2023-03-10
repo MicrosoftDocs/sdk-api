@@ -2,15 +2,12 @@
 UID: NN:d3d11.ID3D11VideoDecoder
 title: ID3D11VideoDecoder (d3d11.h)
 description: Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.
+helpviewer_keywords: ["ID3D11VideoDecoder","ID3D11VideoDecoder interface [Media Foundation]","ID3D11VideoDecoder interface [Media Foundation]","described","d3d11/ID3D11VideoDecoder","mf.id3d11videodecoder"]
 old-location: mf\id3d11videodecoder.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: F25AFA0B-7413-40F0-AFF8-C9B4549305D2
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDecoder, ID3D11VideoDecoder interface [Media Foundation], ID3D11VideoDecoder interface [Media Foundation],described, d3d11/ID3D11VideoDecoder, mf.id3d11videodecoder
-f1_keywords:
-- d3d11/ID3D11VideoDecoder
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d11.h
-api_name:
-- ID3D11VideoDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D11VideoDecoder
+ - d3d11/ID3D11VideoDecoder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d11.h
+api_name:
+ - ID3D11VideoDecoder
 ---
 
 # ID3D11VideoDecoder interface
@@ -48,66 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDecoder</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoDecoder</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D11VideoDecoder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodecoder-getcreationparameters">GetCreationParameters</a>
-</td>
-<td align="left" width="63%">
-Gets the parameters that were used to create the decoder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodecoder-getdriverhandle">GetDriverHandle</a>
-</td>
-<td align="left" width="63%">
-Gets a handle to the driver.
-
-</td>
-</tr>
-</table> 
-
+The <b>ID3D11VideoDecoder</b> interface inherits from <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>. <b>ID3D11VideoDecoder</b> also has these types of members:
 
 ## -remarks
 
-
-
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a>.
-
-
-
+To get a pointer to this interface, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder">ID3D11VideoDevice::CreateVideoDecoder</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-interfaces">Direct3D 11 Video Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>

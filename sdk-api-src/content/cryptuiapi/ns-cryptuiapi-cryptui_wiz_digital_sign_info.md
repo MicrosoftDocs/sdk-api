@@ -2,15 +2,12 @@
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 title: CRYPTUI_WIZ_DIGITAL_SIGN_INFO (cryptuiapi.h)
 description: Contains information about digital signing.
+helpviewer_keywords: ["*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO","0","CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN","CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT","CRYPTUI_WIZ_DIGITAL_SIGN_CERT","CRYPTUI_WIZ_DIGITAL_SIGN_INFO","CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security]","CRYPTUI_WIZ_DIGITAL_SIGN_PVK","CRYPTUI_WIZ_DIGITAL_SIGN_STORE","CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB","CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE","PCRYPTUI_WIZ_DIGITAL_SIGN_INFO","PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security]","cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO","cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO","security.cryptui_wiz_digital_sign_info"]
 old-location: security\cryptui_wiz_digital_sign_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT, CRYPTUI_WIZ_DIGITAL_SIGN_CERT, CRYPTUI_WIZ_DIGITAL_SIGN_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK, CRYPTUI_WIZ_DIGITAL_SIGN_STORE, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security], cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, security.cryptui_wiz_digital_sign_info'
-f1_keywords:
-- cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO
-dev_langs:
-- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Cryptuiapi.h
-api_name:
-- CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 targetos: Windows
 req.typenames: CRYPTUI_WIZ_DIGITAL_SIGN_INFO, *PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+ - cryptuiapi/_CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+ - PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
+ - cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO
+ - CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+ - cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Cryptuiapi.h
+api_name:
+ - CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 ---
 
 # CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure
@@ -48,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_INFO</b> structure contains information about digital signing. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
-
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_INFO</b> structure contains information about digital signing. This structure is used by the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 The size, in bytes, of the structure.
 
-
 ### -field dwSubjectChoice
 
-A value that indicates the entity that is to be signed. This member is required if <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function. This can be one of the following values.
+A value that indicates the entity that is to be signed. This member is required if <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function. This can be one of the following values.
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ A value that indicates the entity that is to be signed. This member is required 
 </dl>
 </td>
 <td width="60%">
-The memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> specified by the <b>pSignBlobInfo</b> member is to be signed.
+The memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> specified by the <b>pSignBlobInfo</b> member is to be signed.
 
 </td>
 </tr>
@@ -104,24 +104,20 @@ The user will be prompted for a file to sign.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwszFileName
 
 A pointer to a null-terminated Unicode string that contains the path and file name of the file to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE</b> is specified for the <b>dwSubjectChoice</b> member.
 
-
 ### -field pSignBlobInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_blob_info">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
-
+A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_blob_info">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
 
 ### -field dwSigningCertChoice
 
 A value that specifies the location of the certificate that is used to sign the entity. The default value is zero. This can be one of the following values.
 
-<div class="alert"><b>Note</b>  If <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function, this value must be either <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> or <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b>.</div>
+<div class="alert"><b>Note</b>  If <b>CRYPTUI_WIZ_NO_UI</b> is specified in the <i>dwFlags</i> parameter of the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function, this value must be either <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> or <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b>.</div>
 <div> </div>
 <table>
 <tr>
@@ -134,7 +130,7 @@ A value that specifies the location of the certificate that is used to sign the 
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <b>pSigningCertContext</b> member.
+The certificate is contained in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure pointed to by the <b>pSigningCertContext</b> member.
 
 </td>
 </tr>
@@ -144,7 +140,7 @@ The certificate is contained in the <a href="https://docs.microsoft.com/windows/
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the certificate store contained in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure pointed to by the <b>pSigningCertStore</b> member.
+The certificate is contained in the certificate store contained in the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure pointed to by the <b>pSigningCertStore</b> member.
 
 </td>
 </tr>
@@ -154,7 +150,7 @@ The certificate is contained in the certificate store contained in the <a href="
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the PVK file contained in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure pointed to by the <b>pSigningCertPvkInfo</b> member.
+The certificate is contained in the PVK file contained in the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure pointed to by the <b>pSigningCertPvkInfo</b> member.
 
 </td>
 </tr>
@@ -169,28 +165,22 @@ The certificates in the My store are used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pSigningCertContext
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
-
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the <a href="/windows/desktop/SecGloss/c-gly">certificate</a> to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 ### -field pSigningCertStore
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
-
+A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_store_info">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 ### -field pSigningCertPvkInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
-
+A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_cert_pvk_info">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 ### -field pwszTimestampURL
 
 A pointer to a null-terminated Unicode string that contains the URL for the time stamp.
-
 
 ### -field dwAdditionalCertChoice
 
@@ -232,21 +222,11 @@ No additional certificates will be included in the signature.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pSignExtInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_extended_info">CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</a> structure that contains extended information about the signature.
-
+A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_extended_info">CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</a> structure that contains extended information about the signature.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
- 
-
- 
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>

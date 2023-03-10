@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMStreamPrioritization.SetPriorityRecords
 title: IWMStreamPrioritization::SetPriorityRecords (wmsdkidl.h)
 description: The SetPriorityRecords method assigns the members of an array as the stream priority list in the stream prioritization object.
+helpviewer_keywords: ["IWMStreamPrioritization interface [windows Media Format]","SetPriorityRecords method","IWMStreamPrioritization.SetPriorityRecords","IWMStreamPrioritization::SetPriorityRecords","IWMStreamPrioritizationSetPriorityRecords","SetPriorityRecords","SetPriorityRecords method [windows Media Format]","SetPriorityRecords method [windows Media Format]","IWMStreamPrioritization interface","wmformat.iwmstreamprioritization_setpriorityrecords","wmsdkidl/IWMStreamPrioritization::SetPriorityRecords"]
 old-location: wmformat\iwmstreamprioritization_setpriorityrecords.htm
 tech.root: wmformat
 ms.assetid: 9bd42132-b391-4941-87db-5ce2254e19cf
 ms.date: 12/05/2018
 ms.keywords: IWMStreamPrioritization interface [windows Media Format],SetPriorityRecords method, IWMStreamPrioritization.SetPriorityRecords, IWMStreamPrioritization::SetPriorityRecords, IWMStreamPrioritizationSetPriorityRecords, SetPriorityRecords, SetPriorityRecords method [windows Media Format], SetPriorityRecords method [windows Media Format],IWMStreamPrioritization interface, wmformat.iwmstreamprioritization_setpriorityrecords, wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
-f1_keywords:
-- wmsdkidl/IWMStreamPrioritization.SetPriorityRecords
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamPrioritization.SetPriorityRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamPrioritization::SetPriorityRecords
+ - wmsdkidl/IWMStreamPrioritization::SetPriorityRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamPrioritization.SetPriorityRecords
 ---
 
 # IWMStreamPrioritization::SetPriorityRecords
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetPriorityRecords</b> method assigns the members of an array as the stream priority list in the stream prioritization object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pRecordArray [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a> structures.
-
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a> structures.
 
 ### -param cRecords [in]
 
 Count of records.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -122,14 +112,8 @@ The method is unable to allocate the memory required to store the array in the s
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Valid arrays contain no duplicate stream numbers. Streams are listed in the array in descending priority order. Any stream that is designated as mandatory must occur in the array before any entries that are optional. If any of these rules are broken, <b>SetPriorityRecords</b> will return E_INVALIDARG.
 
@@ -137,24 +121,14 @@ Valid arrays contain no duplicate stream numbers. Streams are listed in the arra
 
 This method does not verify that the streams specified are valid for the profile.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamprioritization-getpriorityrecords">IWMStreamPrioritization::GetPriorityRecords</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamprioritization-getpriorityrecords">IWMStreamPrioritization::GetPriorityRecords</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record">WM_STREAM_PRIORITY_RECORD</a>

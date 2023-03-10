@@ -2,15 +2,12 @@
 UID: NF:ddrawgdi.DdQueryDisplaySettingsUniqueness
 title: DdQueryDisplaySettingsUniqueness function (ddrawgdi.h)
 description: Returns the current value of an integer that is incremented whenever a mode switch occurs, such as when there is a desktop switch, a Fast User Switch, or a full-screen Microsoft MS-DOS box.
+helpviewer_keywords: ["DdQueryDisplaySettingsUniqueness","DdQueryDisplaySettingsUniqueness function [Windows API]","GdiEntry13","_dxgkernel_ddquerydisplaysettingsuniqueness","ddrawgdi/DdQueryDisplaySettingsUniqueness","ddrawgdi/GdiEntry13","winprog._dxgkernel_ddquerydisplaysettingsuniqueness","winui._dxgkernel_ddquerydisplaysettingsuniqueness"]
 old-location: winprog\_dxgkernel_ddquerydisplaysettingsuniqueness.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddquerydisplaysettingsuniqueness.htm
 ms.date: 12/05/2018
 ms.keywords: DdQueryDisplaySettingsUniqueness, DdQueryDisplaySettingsUniqueness function [Windows API], GdiEntry13, _dxgkernel_ddquerydisplaysettingsuniqueness, ddrawgdi/DdQueryDisplaySettingsUniqueness, ddrawgdi/GdiEntry13, winprog._dxgkernel_ddquerydisplaysettingsuniqueness, winui._dxgkernel_ddquerydisplaysettingsuniqueness
-f1_keywords:
-- ddrawgdi/DdQueryDisplaySettingsUniqueness
-dev_langs:
-- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,30 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: GDI32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- GDI32.dll
-- API-MS-Win-DX-D3DKMT-L1-1-0.dll
-- API-MS-Win-DX-D3DKMT-L1-1-1.dll
-- API-MS-Win-DX-D3DKMT-L1-1-2.dll
-api_name:
-- DdQueryDisplaySettingsUniqueness
-- GdiEntry13
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdQueryDisplaySettingsUniqueness
+ - ddrawgdi/DdQueryDisplaySettingsUniqueness
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - GDI32.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-0.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-1.dll
+ - API-MS-Win-DX-D3DKMT-L1-1-2.dll
+api_name:
+ - DdQueryDisplaySettingsUniqueness
+ - GdiEntry13
 ---
 
 # DdQueryDisplaySettingsUniqueness function
 
 
 ## -description
-
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use 
     the Microsoft DirectDraw and Microsoft Direct3DAPIs; these 
@@ -66,29 +67,11 @@ Returns the current value of an integer that is incremented whenever a mode swit
 <b>GdiEntry13</b> is defined as an alias for this function.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
 The current value of the mode switch integer is returned.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
- 
-
- 
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

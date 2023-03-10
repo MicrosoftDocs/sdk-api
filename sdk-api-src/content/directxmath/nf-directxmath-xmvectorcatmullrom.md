@@ -1,16 +1,13 @@
 ---
 UID: NF:directxmath.XMVectorCatmullRom
 title: XMVectorCatmullRom function (directxmath.h)
-description: Performs a Catmull-Rom interpolation, using the specified position vectors.
+description: Performs a Catmull-Rom interpolation, using the specified position vectors. (XMVectorCatmullRom)
+helpviewer_keywords: ["Use DirectX..XMVectorCatmullRom","XMVectorCatmullRom","XMVectorCatmullRom method [DirectX Math Support APIs]","dxmath.xmvectorcatmullrom"]
 old-location: dxmath\xmvectorcatmullrom.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorCatmullRom(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,float)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCatmullRom, XMVectorCatmullRom, XMVectorCatmullRom method [DirectX Math Support APIs], dxmath.xmvectorcatmullrom
-f1_keywords:
-- directxmath/XMVectorCatmullRom
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- directxmathvector.inl
-api_name:
-- XMVectorCatmullRom
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMVectorCatmullRom
+ - directxmath/XMVectorCatmullRom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - directxmathvector.inl
+api_name:
+ - XMVectorCatmullRom
 ---
 
 # XMVectorCatmullRom function
@@ -48,52 +50,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a Catmull-Rom interpolation, using the specified position vectors.
 
-
 ## -parameters
-
-
-
 
 ### -param Position0 [in]
 
 First position.
 
-
 ### -param Position1 [in]
 
 Second position.
-
 
 ### -param Position2 [in]
 
 Third position.
 
-
 ### -param Position3 [in]
 
 Fourth position.
-
 
 ### -param t [in]
 
 Interpolating control factor.
 
-
 ## -returns
-
-
 
 Returns the results of the Catmull-Rom interpolation.
 
-
-
-
 ## -remarks
-
-
 
 The following pseudocode demonstrates the operation of the function:
 
@@ -121,20 +106,10 @@ return Result;
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-geometric">Geometric Vector Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-geometric">Geometric Vector Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorcatmullromv">XMVectorCatmullRomV</a>
- 
-
- 
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorcatmullromv">XMVectorCatmullRomV</a>

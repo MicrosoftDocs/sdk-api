@@ -2,15 +2,12 @@
 UID: NF:evr9.IMFVideoProcessor.GetFilteringValue
 title: IMFVideoProcessor::GetFilteringValue (evr9.h)
 description: Retrieves the current setting for an image filter.
+helpviewer_keywords: ["1c8d6836-ca62-4d26-be4e-572dc6ff994d","GetFilteringValue","GetFilteringValue method [Media Foundation]","GetFilteringValue method [Media Foundation]","IMFVideoProcessor interface","IMFVideoProcessor interface [Media Foundation]","GetFilteringValue method","IMFVideoProcessor.GetFilteringValue","IMFVideoProcessor::GetFilteringValue","evr9/IMFVideoProcessor::GetFilteringValue","mf.imfvideoprocessor_getfilteringvalue"]
 old-location: mf\imfvideoprocessor_getfilteringvalue.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1c8d6836-ca62-4d26-be4e-572dc6ff994d
 ms.date: 12/05/2018
 ms.keywords: 1c8d6836-ca62-4d26-be4e-572dc6ff994d, GetFilteringValue, GetFilteringValue method [Media Foundation], GetFilteringValue method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetFilteringValue method, IMFVideoProcessor.GetFilteringValue, IMFVideoProcessor::GetFilteringValue, evr9/IMFVideoProcessor::GetFilteringValue, mf.imfvideoprocessor_getfilteringvalue
-f1_keywords:
-- evr9/IMFVideoProcessor.GetFilteringValue
-dev_langs:
-- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoProcessor.GetFilteringValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoProcessor::GetFilteringValue
+ - evr9/IMFVideoProcessor::GetFilteringValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoProcessor.GetFilteringValue
 ---
 
 # IMFVideoProcessor::GetFilteringValue
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the current setting for an image filter.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwProperty [in]
 
-The filter setting to query. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-image-filter-settings">DXVA Image Filter Settings</a>.
-
+The filter setting to query. For a list of possible values, see <a href="/windows/desktop/medfound/dxva-image-filter-settings">DXVA Image Filter Settings</a>.
 
 ### -param pValue [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure that receives the current value.
-
+Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_fixed32">DXVA2_Fixed32</a> structure that receives the current value.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -116,35 +106,19 @@ The media type for the reference stream is not set.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Before calling this method, you must set the media type for the reference stream.
 
-Until the mixer's video processor mode is set, the returned values are all zero. After the processor mode is set, the returned values reflect the current mode. To select a video processor mode, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setvideoprocessormode">IMFVideoProcessor::SetVideoProcessorMode</a>. Otherwise, the EVR automatically selects a mode when streaming begins.
+Until the mixer's video processor mode is set, the returned values are all zero. After the processor mode is set, the returned values reflect the current mode. To select a video processor mode, call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setvideoprocessormode">IMFVideoProcessor::SetVideoProcessorMode</a>. Otherwise, the EVR automatically selects a mode when streaming begins.
 
-To find out which image filters the driver supports, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">IMFVideoProcessor::GetVideoProcessorCaps</a>.
-
-
-
+To find out which image filters the driver supports, call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getvideoprocessorcaps">IMFVideoProcessor::GetVideoProcessorCaps</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>

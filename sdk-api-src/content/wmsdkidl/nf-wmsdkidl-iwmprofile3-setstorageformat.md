@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMProfile3.SetStorageFormat
 title: IWMProfile3::SetStorageFormat (wmsdkidl.h)
 description: The SetStorageFormat method is not implemented.
+helpviewer_keywords: ["IWMProfile3 interface [windows Media Format]","SetStorageFormat method","IWMProfile3.SetStorageFormat","IWMProfile3::SetStorageFormat","IWMProfile3SetStorageFormat","SetStorageFormat","SetStorageFormat method [windows Media Format]","SetStorageFormat method [windows Media Format]","IWMProfile3 interface","wmformat.iwmprofile3_setstorageformat","wmsdkidl/IWMProfile3::SetStorageFormat"]
 old-location: wmformat\iwmprofile3_setstorageformat.htm
 tech.root: wmformat
 ms.assetid: 43cbb36f-ec00-48e5-9182-b69e8c196ab0
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStorageFormat method, IWMProfile3.SetStorageFormat, IWMProfile3::SetStorageFormat, IWMProfile3SetStorageFormat, SetStorageFormat, SetStorageFormat method [windows Media Format], SetStorageFormat method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstorageformat, wmsdkidl/IWMProfile3::SetStorageFormat
-f1_keywords:
-- wmsdkidl/IWMProfile3.SetStorageFormat
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMProfile3.SetStorageFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile3::SetStorageFormat
+ - wmsdkidl/IWMProfile3::SetStorageFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMProfile3.SetStorageFormat
 ---
 
 # IWMProfile3::SetStorageFormat
@@ -51,48 +53,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetStorageFormat</b> method is not implemented.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param nStorageFormat [in]
 
 Storage format.
 
-
 ## -returns
-
-
 
 The method returns E_NOTIMPL.
 
-
-
-
 ## -remarks
 
-
-
-To retrieve the storage format, use the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-containerformat">WM/ContainerFormat</a> attribute.
-
-
-
+To retrieve the storage format, use the <a href="/windows/desktop/wmformat/wm-containerformat">WM/ContainerFormat</a> attribute.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>

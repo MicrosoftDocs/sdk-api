@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_CadenceOff
 title: ITCustomTone::get_CadenceOff (tapi3if.h)
-description: The get_CadenceOff method retrieves the &#0034;off&#0034; duration of the cadence of the custom tone to generate.
+description: The get_CadenceOff method retrieves the &quot;off&quot; duration of the cadence of the custom tone to generate.
+helpviewer_keywords: ["ITCustomTone interface [TAPI 2.2]","get_CadenceOff method","ITCustomTone.get_CadenceOff","ITCustomTone::get_CadenceOff","_tapi3_itcustomtone_get_cadenceoff","get_CadenceOff","get_CadenceOff method [TAPI 2.2]","get_CadenceOff method [TAPI 2.2]","ITCustomTone interface","tapi3.itcustomtone_get_cadenceoff","tapi3if/ITCustomTone::get_CadenceOff"]
 old-location: tapi3\itcustomtone_get_cadenceoff.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 0d561ab6-fc38-4058-9443-d7825eae2dc5
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_CadenceOff method, ITCustomTone.get_CadenceOff, ITCustomTone::get_CadenceOff, _tapi3_itcustomtone_get_cadenceoff, get_CadenceOff, get_CadenceOff method [TAPI 2.2], get_CadenceOff method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_cadenceoff, tapi3if/ITCustomTone::get_CadenceOff
-f1_keywords:
-- tapi3if/ITCustomTone.get_CadenceOff
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCustomTone.get_CadenceOff
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCustomTone::get_CadenceOff
+ - tapi3if/ITCustomTone::get_CadenceOff
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCustomTone.get_CadenceOff
 ---
 
 # ITCustomTone::get_CadenceOff
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_CadenceOff</b> method retrieves the "off" duration of the cadence of the custom tone to generate.
 
-
 ## -parameters
-
-
-
 
 ### -param plCadenceOff [out]
 
 Pointer to a value to receive the "off" duration, in milliseconds, of the cadence of the custom tone. Zero means no off time, that is, a constant tone.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,22 +91,11 @@ The <i>plCadenceOff</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceoff">put_CadenceOff</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceoff">put_CadenceOff</a>

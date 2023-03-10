@@ -2,15 +2,12 @@
 UID: NF:oleacc.IAccessible.get_accState
 title: IAccessible::get_accState (oleacc.h)
 description: The IAccessible::get_accState method retrieves the current state of the specified object. All objects support this property.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accState method","IAccessible.get_accState","IAccessible::get_accState","_msaa_IAccessible_get_accState","get_accState","get_accState method [Windows Accessibility]","get_accState method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_accstate","oleacc/IAccessible::get_accState","winauto.iaccessible_iaccessible__get_accstate"]
 old-location: winauto\iaccessible_iaccessible__get_accstate.htm
 tech.root: WinAuto
 ms.assetid: e6b7e0dd-407a-4e82-889b-31ad999a72ca
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accState method, IAccessible.get_accState, IAccessible::get_accState, _msaa_IAccessible_get_accState, get_accState, get_accState method [Windows Accessibility], get_accState method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accstate, oleacc/IAccessible::get_accState, winauto.iaccessible_iaccessible__get_accstate
-f1_keywords:
-- oleacc/IAccessible.get_accState
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.get_accState
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::get_accState
+ - oleacc/IAccessible::get_accState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.get_accState
 ---
 
 # IAccessible::get_accState
@@ -48,38 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::get_accState</b> method retrieves the current state of the specified object. All objects support this property.
 
-
 ## -parameters
-
-
-
 
 ### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
-Specifies whether the retrieved state information belongs to the object or of one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
-
+Specifies whether the retrieved state information belongs to the object or of one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 ### -param pvarState [out, retval]
 
 Type: <b>VARIANT*</b>
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a> that receives information that describes the object's state. The <b>vt</b> member is VT_I4, and the <b>lVal</b> member is one or more of the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-state-constants">object state constants</a>.
-
+Address of a <a href="/windows/desktop/WinAuto/variant-structure">VARIANT structure</a> that receives information that describes the object's state. The <b>vt</b> member is VT_I4, and the <b>lVal</b> member is one or more of the <a href="/windows/desktop/WinAuto/object-state-constants">object state constants</a>.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -98,16 +91,10 @@ An argument is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If predefined state values are returned, clients call <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-getstatetexta">GetStateText</a> to retrieve a localized string that describes the object's state.
+If predefined state values are returned, clients call <a href="/windows/desktop/api/oleacc/nf-oleacc-getstatetexta">GetStateText</a> to retrieve a localized string that describes the object's state.
 
 The actual state of a child often depends on the state of its ancestors. For example, controls in an application's main window are not focusable when a modal dialog box is open, but the controls may not report this state. To verify the state information of a child object, call <b>get_accState</b> for the parent object.
 
@@ -213,33 +200,22 @@ HRESULT PrintState(IAccessible* pAcc, long childId)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/oleacc/nf-oleacc-getstatetexta">GetStateText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-getstatetexta">GetStateText</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/WinAuto/object-state-constants">Object State Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/object-state-constants">Object State Constants</a>
+<a href="/windows/desktop/WinAuto/state-property">State Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/state-property">State Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

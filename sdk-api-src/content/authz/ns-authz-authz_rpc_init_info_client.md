@@ -2,15 +2,12 @@
 UID: NS:authz._AUTHZ_RPC_INIT_INFO_CLIENT
 title: AUTHZ_RPC_INIT_INFO_CLIENT (authz.h)
 description: Initializes a remote resource manager for a client.
+helpviewer_keywords: ["*PAUTHZ_RPC_INIT_INFO_CLIENT","AUTHZ_RPC_INIT_INFO_CLIENT","AUTHZ_RPC_INIT_INFO_CLIENT structure [Security]","PAUTHZ_RPC_INIT_INFO_CLIENT","PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security]","authz/AUTHZ_RPC_INIT_INFO_CLIENT","authz/PAUTHZ_RPC_INIT_INFO_CLIENT","security.authz_rpc_init_info_client"]
 old-location: security\authz_rpc_init_info_client.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 6859A0CB-F88E-42BF-A350-293D28E908DD
 ms.date: 12/05/2018
 ms.keywords: '*PAUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT structure [Security], PAUTHZ_RPC_INIT_INFO_CLIENT, PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security], authz/AUTHZ_RPC_INIT_INFO_CLIENT, authz/PAUTHZ_RPC_INIT_INFO_CLIENT, security.authz_rpc_init_info_client'
-f1_keywords:
-- authz/AUTHZ_RPC_INIT_INFO_CLIENT
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Authz.h
-api_name:
-- AUTHZ_RPC_INIT_INFO_CLIENT
 targetos: Windows
 req.typenames: AUTHZ_RPC_INIT_INFO_CLIENT, *PAUTHZ_RPC_INIT_INFO_CLIENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AUTHZ_RPC_INIT_INFO_CLIENT
+ - authz/_AUTHZ_RPC_INIT_INFO_CLIENT
+ - PAUTHZ_RPC_INIT_INFO_CLIENT
+ - authz/PAUTHZ_RPC_INIT_INFO_CLIENT
+ - AUTHZ_RPC_INIT_INFO_CLIENT
+ - authz/AUTHZ_RPC_INIT_INFO_CLIENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Authz.h
+api_name:
+ - AUTHZ_RPC_INIT_INFO_CLIENT
 ---
 
 # AUTHZ_RPC_INIT_INFO_CLIENT structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AUTHZ_RPC_INIT_INFO_CLIENT</b> structure initializes a remote resource manager for a client.
-
 
 ## -struct-fields
 
-
-
-
 ### -field version
 
-Version of the structure. The highest currently supported version is AUTHZ_RPC_INIT_INFO_CLIENT_VERSION_V1. 
-
+Version of the structure. The highest currently supported version is AUTHZ_RPC_INIT_INFO_CLIENT_VERSION_V1.
 
 ### -field ObjectUuid
 
@@ -81,29 +81,20 @@ Null-terminated string representation of a protocol sequence. This can be the fo
 
 ### -field NetworkAddr
 
-Null-terminated string representation of a network address. The network-address format is associated with the protocol sequence. 
-
+Null-terminated string representation of a network address. The network-address format is associated with the protocol sequence.
 
 ### -field Endpoint
 
-Null-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a> is a pipe name in the format <b>\</b><i>Pipe</i><b>\</b><i>PipeName</i>.
-
+Null-terminated string representation of an endpoint. The endpoint format and content are associated with the protocol sequence. For example, the endpoint associated with the protocol sequence <a href="/windows/desktop/Midl/ncacn-np">ncacn_np</a> is a pipe name in the format <b>\\</b><i>Pipe</i><b>\\</b><i>PipeName</i>.
 
 ### -field Options
 
 Null-terminated string representation of network options. The option string is associated with the protocol sequence.
 
-
 ### -field ServerSpn
 
 Server Principal Name (SPN) of the server. If this member is missing, it is constructed from <b>NetworkAddr</b> assuming "host" service class.
 
-
 ## -remarks
 
-
-
-For a sample that uses this structure, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Effective-access-rights-dd5b13a8">Effective access rights for files</a>  (http://code.msdn.microsoft.com/windowsdesktop/Effective-access-rights-dd5b13a8).
-
-
-
+For a sample that uses this structure, see the [Effective access rights for files sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Security/EffectiveAccessRights).

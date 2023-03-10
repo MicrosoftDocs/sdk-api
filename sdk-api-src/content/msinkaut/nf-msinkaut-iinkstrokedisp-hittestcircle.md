@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkStrokeDisp.HitTestCircle
 title: IInkStrokeDisp::HitTestCircle (msinkaut.h)
 description: Determines whether a stroke is either completely inside or intersected by a given circle.
+helpviewer_keywords: ["HitTestCircle","HitTestCircle method [Tablet PC]","HitTestCircle method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","HitTestCircle method","IInkStrokeDisp.HitTestCircle","IInkStrokeDisp::HitTestCircle","b87a1bc0-b17b-419b-947e-48746f4903e8","msinkaut/IInkStrokeDisp::HitTestCircle","tablet.iinkstrokedisp_hittestcircle"]
 old-location: tablet\iinkstrokedisp_hittestcircle.htm
 tech.root: tablet
 ms.assetid: b87a1bc0-b17b-419b-947e-48746f4903e8
 ms.date: 12/05/2018
 ms.keywords: HitTestCircle, HitTestCircle method [Tablet PC], HitTestCircle method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],HitTestCircle method, IInkStrokeDisp.HitTestCircle, IInkStrokeDisp::HitTestCircle, b87a1bc0-b17b-419b-947e-48746f4903e8, msinkaut/IInkStrokeDisp::HitTestCircle, tablet.iinkstrokedisp_hittestcircle
-f1_keywords:
-- msinkaut/IInkStrokeDisp.HitTestCircle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokeDisp.HitTestCircle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokeDisp::HitTestCircle
+ - msinkaut/IInkStrokeDisp::HitTestCircle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokeDisp.HitTestCircle
 ---
 
 # IInkStrokeDisp::HitTestCircle
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Determines whether a stroke is either completely inside or intersected by a given circle.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param X [in]
 
 The x-position of the center of the hit-test circle in ink space coordinates.
 
-
 ### -param Y [in]
 
 The y-position of the center of the hit-test circle in ink space coordinates.
-
 
 ### -param Radius [in]
 
 The radius of the circle to use in the hit test.
 
-
 ### -param Intersects [out, retval]
 
 <b>VARIANT_TRUE</b> if the stroke intersects or is inside the circle; otherwise, <b>VARIANT_FALSE</b>
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -137,30 +125,19 @@ Unexpected parameter or property type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections">GetRectangleIntersections Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getrectangleintersections">GetRectangleIntersections Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle">HitTest(Point, Single) Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle">HitTest(Point, Single) Method</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint">NearestPoint Method [IInkStrokeDisp Interface]</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint">NearestPoint Method [IInkStrokeDisp Interface]</a>

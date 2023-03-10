@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRecognitionAlternates.Item
 title: IInkRecognitionAlternates::Item (msinkaut.h)
 description: Retrieves the IInkRecognitionAlternate object at the specified index within the IInkRecognitionAlternates collection.
+helpviewer_keywords: ["63a00f6d-f733-4b25-bfe2-4f841b9694fa","IInkRecognitionAlternates interface [Tablet PC]","Item method","IInkRecognitionAlternates.Item","IInkRecognitionAlternates::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkRecognitionAlternates interface","msinkaut/IInkRecognitionAlternates::Item","tablet.iinkrecognitionalternates_item"]
 old-location: tablet\iinkrecognitionalternates_item.htm
 tech.root: tablet
 ms.assetid: 63a00f6d-f733-4b25-bfe2-4f841b9694fa
 ms.date: 12/05/2018
 ms.keywords: 63a00f6d-f733-4b25-bfe2-4f841b9694fa, IInkRecognitionAlternates interface [Tablet PC],Item method, IInkRecognitionAlternates.Item, IInkRecognitionAlternates::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognitionAlternates interface, msinkaut/IInkRecognitionAlternates::Item, tablet.iinkrecognitionalternates_item
-f1_keywords:
-- msinkaut/IInkRecognitionAlternates.Item
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognitionAlternates.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognitionAlternates::Item
+ - msinkaut/IInkRecognitionAlternates::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognitionAlternates.Item
 ---
 
 # IInkRecognitionAlternates::Item
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection.
-
-
-
+Retrieves the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection.
 
 ## -parameters
 
-
-
-
 ### -param Index [in]
 
-The zero-based index of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object to get.
-
+The zero-based index of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object to get.
 
 ### -param InkRecoAlternate [out, retval]
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object at the specified index within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection.
-
+When this method returns, contains a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate</a> object at the specified index within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates</a> collection.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -207,31 +197,15 @@ The recognizers registry key is corrupted or your environment does not support h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An error occurs if the index doesn't match any existing member of the collection.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate">IInkRecognitionAlternate Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates Interface</a>

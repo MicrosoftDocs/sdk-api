@@ -2,15 +2,12 @@
 UID: NF:winternl.NtCreateFile
 title: NtCreateFile function (winternl.h)
 description: Creates a new file or directory, or opens an existing file, device, directory, or volume.
+helpviewer_keywords: ["DELETE","FILE_APPEND_DATA","FILE_COMPLETE_IF_OPLOCKED","FILE_CREATE","FILE_CREATE_TREE_CONNECTION","FILE_DELETE_ON_CLOSE","FILE_DIRECTORY_FILE","FILE_EXECUTE","FILE_GENERIC_EXECUTE","FILE_GENERIC_READ","FILE_GENERIC_WRITE","FILE_LIST_DIRECTORY","FILE_NON_DIRECTORY_FILE","FILE_NO_EA_KNOWLEDGE","FILE_NO_INTERMEDIATE_BUFFERING","FILE_OPEN","FILE_OPEN_BY_FILE_ID","FILE_OPEN_FOR_BACKUP_INTENT","FILE_OPEN_IF","FILE_OPEN_REPARSE_POINT","FILE_OPEN_REQUIRING_OPLOCK","FILE_OVERWRITE","FILE_OVERWRITE_IF","FILE_RANDOM_ACCESS","FILE_READ_ATTRIBUTES","FILE_READ_DATA","FILE_READ_EA","FILE_RESERVE_OPFILTER","FILE_SEQUENTIAL_ONLY","FILE_SHARE_DELETE","FILE_SHARE_READ","FILE_SHARE_WRITE","FILE_SUPERSEDE","FILE_SYNCHRONOUS_IO_ALERT","FILE_SYNCHRONOUS_IO_NONALERT","FILE_TRAVERSE","FILE_WRITE_ATTRIBUTES","FILE_WRITE_DATA","FILE_WRITE_EA","FILE_WRITE_THROUGH","HANDLE RootDirectory","NtCreateFile","NtCreateFile function [Windows API]","PSECURITY_DESCRIPTOR SecurityDescriptor","PSECURITY_QUALITY_OF_SERVICE SecurityQualityOfService","PUNICODE_STRING ObjectName","READ_CONTROL","SYNCHRONIZE","ULONG Attributes","ULONG Length","WRITE_DAC","WRITE_OWNER","winprog.ntcreatefile","winternl/NtCreateFile"]
 old-location: winprog\ntcreatefile.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 82965665-8531-4cca-bf37-6044e154d43b
 ms.date: 12/05/2018
 ms.keywords: DELETE, FILE_APPEND_DATA, FILE_COMPLETE_IF_OPLOCKED, FILE_CREATE, FILE_CREATE_TREE_CONNECTION, FILE_DELETE_ON_CLOSE, FILE_DIRECTORY_FILE, FILE_EXECUTE, FILE_GENERIC_EXECUTE, FILE_GENERIC_READ, FILE_GENERIC_WRITE, FILE_LIST_DIRECTORY, FILE_NON_DIRECTORY_FILE, FILE_NO_EA_KNOWLEDGE, FILE_NO_INTERMEDIATE_BUFFERING, FILE_OPEN, FILE_OPEN_BY_FILE_ID, FILE_OPEN_FOR_BACKUP_INTENT, FILE_OPEN_IF, FILE_OPEN_REPARSE_POINT, FILE_OPEN_REQUIRING_OPLOCK, FILE_OVERWRITE, FILE_OVERWRITE_IF, FILE_RANDOM_ACCESS, FILE_READ_ATTRIBUTES, FILE_READ_DATA, FILE_READ_EA, FILE_RESERVE_OPFILTER, FILE_SEQUENTIAL_ONLY, FILE_SHARE_DELETE, FILE_SHARE_READ, FILE_SHARE_WRITE, FILE_SUPERSEDE, FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_TRAVERSE, FILE_WRITE_ATTRIBUTES, FILE_WRITE_DATA, FILE_WRITE_EA, FILE_WRITE_THROUGH, HANDLE RootDirectory, NtCreateFile, NtCreateFile function [Windows API], PSECURITY_DESCRIPTOR SecurityDescriptor, PSECURITY_QUALITY_OF_SERVICE SecurityQualityOfService, PUNICODE_STRING ObjectName, READ_CONTROL, SYNCHRONIZE, ULONG Attributes, ULONG Length, WRITE_DAC, WRITE_OWNER, winprog.ntcreatefile, winternl/NtCreateFile
-f1_keywords:
-- winternl/NtCreateFile
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: NtDll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- NtDll.dll
-api_name:
-- NtCreateFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NtCreateFile
+ - winternl/NtCreateFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - NtDll.dll
+api_name:
+ - NtCreateFile
 ---
 
 # NtCreateFile function
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new file or directory, or opens an existing file, device, directory, or 
-    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="https://docs.microsoft.com/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
+    volume.<div class="alert"><b>Note</b>  Before using this function, please read <a href="/windows/desktop/DevNotes/calling-internal-apis">Calling Internal APIs</a>.</div>
 <div> </div>
 
 
 This function is the user-mode equivalent to the <b>ZwCreateFile</b> function documented in the 
     Windows Driver Kit (WDK).
 
-
 ## -parameters
-
-
-
 
 ### -param FileHandle [out]
 
 A pointer to a variable that receives the file handle if the call is successful.
-
 
 ### -param DesiredAccess [in]
 
@@ -300,8 +296,6 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ObjectAttributes [in]
 
@@ -350,7 +344,7 @@ Points to a buffered Unicode string that names the file to be created or opened.
         fully qualified file specification or the name of a device object, unless it is the name of a file relative to 
         the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat 
         or \??\B:\myfile.dat could be the fully qualified file specification, provided that the floppy driver and 
-        overlying file system are already loaded. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+        overlying file system are already loaded. For more information, see <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 </td>
 </tr>
@@ -395,8 +389,6 @@ Specifies the access rights a server should be given to the client's security co
 </td>
 </tr>
 </table>
- 
-
 
 ### -param IoStatusBlock [out]
 
@@ -419,7 +411,6 @@ A pointer to a variable that receives the final completion status and informatio
 The initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being 
       created, overwritten, or superseded.
 
-
 ### -param FileAttributes [in]
 
 The file attributes. Explicitly specified attributes are applied only when the file is created, superseded, 
@@ -429,7 +420,6 @@ The file attributes. Explicitly specified attributes are applied only when the f
       NtDdk.h. For a list of flags that can be used with 
       <b>NtCreateFile</b>, see 
       <b>CreateFile</b>.
-
 
 ### -param ShareAccess [in]
 
@@ -478,7 +468,6 @@ The file can be opened for delete access by other threads' calls to
  
 
 For more information, see the Windows SDK.
-
 
 ### -param CreateDisposition [in]
 
@@ -552,8 +541,6 @@ If the file already exists, open it and overwrite it. If it does not, create the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param CreateOptions [in]
 
@@ -728,7 +715,7 @@ The file is being opened for backup intent. Therefore, the system should check f
 </dl>
 </td>
 <td width="60%">
-This flag allows an application to request a filter opportunistic lock (<a href="https://go.microsoft.com/fwlink/p/?linkid=163447">oplock</a>) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with <b>STATUS_OPLOCK_NOT_GRANTED</b>. For more information, see the Remarks section.
+This flag allows an application to request a filter opportunistic lock (<a href="https://www.microsoft.com/?ref=go">oplock</a>) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with <b>STATUS_OPLOCK_NOT_GRANTED</b>. For more information, see the Remarks section.
 
 </td>
 </tr>
@@ -738,7 +725,7 @@ This flag allows an application to request a filter opportunistic lock (<a href=
 </dl>
 </td>
 <td width="60%">
-The file is being opened and an opportunistic lock (<a href="https://go.microsoft.com/fwlink/p/?linkid=163447">oplock</a>) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation and will fail the create with a return code of <b>STATUS_CANNOT_BREAK_OPLOCK</b> if the result would be to break an existing oplock.  For more information, see the Remarks section.<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
+The file is being opened and an opportunistic lock (<a href="https://www.microsoft.com/?ref=go">oplock</a>) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation and will fail the create with a return code of <b>STATUS_CANNOT_BREAK_OPLOCK</b> if the result would be to break an existing oplock.  For more information, see the Remarks section.<b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
 
 
@@ -752,13 +739,11 @@ This flag is supported on the following file systems: NTFS, FAT, and exFAT.
 </dl>
 </td>
 <td width="60%">
-Complete this operation immediately with an alternate success code of <b>STATUS_OPLOCK_BREAK_IN_PROGRESS</b> if the target file is oplocked, rather than blocking the caller's thread. If the file is <a href="https://go.microsoft.com/fwlink/p/?linkid=163447">oplocked</a>, another caller already has access to the file. This flag is not used by device and intermediate drivers.
+Complete this operation immediately with an alternate success code of <b>STATUS_OPLOCK_BREAK_IN_PROGRESS</b> if the target file is oplocked, rather than blocking the caller's thread. If the file is <a href="https://www.microsoft.com/?ref=go">oplocked</a>, another caller already has access to the file. This flag is not used by device and intermediate drivers.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EaBuffer [in]
 
@@ -772,22 +757,14 @@ Pointer to an EA buffer used to pass extended attributes.
 
 Length of the EA buffer.
 
-
 ## -returns
-
-
 
 <b>NtCreateFile</b> returns either 
       <b>STATUS_SUCCESS</b> or an appropriate error status. If it returns an error status, the 
       caller can find more information about the cause of the failure by checking the 
       <i>IoStatusBlock</i>. To simplify this check, an application can use the <b>NT_SUCCESS</b>, <b>NT_ERROR</b>, and <b>NT_WARNING</b> macros.
 
-
-
-
 ## -remarks
-
-
 
 The handle, given by <b>NtCreateFile</b>, can be used by 
     subsequent calls to manipulate data within the file or the file object's state or attributes.
@@ -934,14 +911,11 @@ The <i>CreateOptions</i> parameter's <b>FILE_RESERVE_OPFILTER</b> flag allows an
 
 NTFS is the only Microsoft file system that implements <b>FILE_RESERVE_OPFILTER</b>.
 
-For more information on oplocks, see <a href="https://go.microsoft.com/fwlink/p/?linkid=163448">Oplock Semantics</a>.
+For more information on oplocks, see <a href="https://msdn.microsoft.com/library/dd445267.aspx">Oplock Semantics</a>.
 
 Note that the WDK header file NtDef.h is necessary for many constant definitions 
     as well as the <b>InitializeObjectAttributes</b> macro. The associated import library, 
-    NtDll.lib is available in the WDK. To obtain the WDK, see <a href="https://go.microsoft.com/fwlink/p/?linkid=156664">Download kits for Windows hardware development</a>. You can also use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
+    NtDll.lib is available in the WDK. To obtain the WDK, see <a href="/windows-hardware/drivers/download-the-wdk">Download kits for Windows hardware development</a>. You can also use the 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and 
+    <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to 
     NtDll.dll.
-
-
-

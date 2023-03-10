@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteTextFormat3.SetAutomaticFontAxes
 title: IDWriteTextFormat3::SetAutomaticFontAxes
 description: Sets the automatic font axis options.
+helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","SetAutomaticFontAxes method","IDWriteTextFormat3.SetAutomaticFontAxes","IDWriteTextFormat3::SetAutomaticFontAxes","SetAutomaticFontAxes","SetAutomaticFontAxes method [Direct Write]","SetAutomaticFontAxes method [Direct Write]","IDWriteTextFormat3 interface","directwrite.idwritetextformat3_setautomaticfontaxes","dwrite_3/IDWriteTextFormat3::SetAutomaticFontAxes"]
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetAutomaticFontAxes method, IDWriteTextFormat3.SetAutomaticFontAxes, IDWriteTextFormat3::SetAutomaticFontAxes, SetAutomaticFontAxes, SetAutomaticFontAxes method [Direct Write], SetAutomaticFontAxes method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setautomaticfontaxes, dwrite_3/IDWriteTextFormat3::SetAutomaticFontAxes
-f1_keywords:
-- dwrite_3/IDWriteTextFormat3.SetAutomaticFontAxes
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteTextFormat3::SetAutomaticFontAxes
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteTextFormat3::SetAutomaticFontAxes
+ - dwrite_3/IDWriteTextFormat3::SetAutomaticFontAxes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteTextFormat3::SetAutomaticFontAxes
 ---
 
 ## -description
@@ -50,7 +52,7 @@ Sets the automatic font axis options.
 
 ### -param automaticFontAxes
 
-Type: **[DWRITE_AUTOMATIC_FONT_AXES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes)**
+Type: **[DWRITE_AUTOMATIC_FONT_AXES](./ne-dwrite_3-dwrite_automatic_font_axes.md)**
 
 Automatic font axis options.
 

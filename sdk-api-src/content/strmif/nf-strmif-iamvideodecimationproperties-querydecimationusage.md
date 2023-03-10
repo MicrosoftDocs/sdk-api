@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMVideoDecimationProperties.QueryDecimationUsage
 title: IAMVideoDecimationProperties::QueryDecimationUsage (strmif.h)
 description: The QueryDecimationUsage method retrieves the current decimation strategy.
+helpviewer_keywords: ["IAMVideoDecimationProperties interface [DirectShow]","QueryDecimationUsage method","IAMVideoDecimationProperties.QueryDecimationUsage","IAMVideoDecimationProperties::QueryDecimationUsage","IAMVideoDecimationPropertiesQueryDecimationUsage","QueryDecimationUsage","QueryDecimationUsage method [DirectShow]","QueryDecimationUsage method [DirectShow]","IAMVideoDecimationProperties interface","dshow.iamvideodecimationproperties_querydecimationusage","strmif/IAMVideoDecimationProperties::QueryDecimationUsage"]
 old-location: dshow\iamvideodecimationproperties_querydecimationusage.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3addb9be-61df-4310-9066-85f75c64aae4
 ms.date: 12/05/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],QueryDecimationUsage method, IAMVideoDecimationProperties.QueryDecimationUsage, IAMVideoDecimationProperties::QueryDecimationUsage, IAMVideoDecimationPropertiesQueryDecimationUsage, QueryDecimationUsage, QueryDecimationUsage method [DirectShow], QueryDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_querydecimationusage, strmif/IAMVideoDecimationProperties::QueryDecimationUsage
-f1_keywords:
-- strmif/IAMVideoDecimationProperties.QueryDecimationUsage
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoDecimationProperties.QueryDecimationUsage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoDecimationProperties::QueryDecimationUsage
+ - strmif/IAMVideoDecimationProperties::QueryDecimationUsage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoDecimationProperties.QueryDecimationUsage
 ---
 
 # IAMVideoDecimationProperties::QueryDecimationUsage
@@ -49,43 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>QueryDecimationUsage</code> method retrieves the current decimation strategy.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lpUsage [out]
 
-Pointer to a variable of type [DECIMATION_USAGE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-decimation_usage) that receives the decimation setting.
-
+Pointer to a variable of type [DECIMATION_USAGE](/windows/desktop/api/strmif/ne-strmif-decimation_usage) that receives the decimation setting.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface. The DirectShow implementation returns S_OK if successful, or E_FAIL or another error code otherwise.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties Interface</a>

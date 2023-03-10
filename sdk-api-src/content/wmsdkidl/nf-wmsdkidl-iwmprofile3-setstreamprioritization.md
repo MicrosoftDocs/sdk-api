@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMProfile3.SetStreamPrioritization
 title: IWMProfile3::SetStreamPrioritization (wmsdkidl.h)
 description: The SetStreamPrioritization method assigns a stream prioritization object to the profile. A profile can contain only one stream prioritization object at a time.
+helpviewer_keywords: ["IWMProfile3 interface [windows Media Format]","SetStreamPrioritization method","IWMProfile3.SetStreamPrioritization","IWMProfile3::SetStreamPrioritization","IWMProfile3SetStreamPrioritization","SetStreamPrioritization","SetStreamPrioritization method [windows Media Format]","SetStreamPrioritization method [windows Media Format]","IWMProfile3 interface","wmformat.iwmprofile3_setstreamprioritization","wmsdkidl/IWMProfile3::SetStreamPrioritization"]
 old-location: wmformat\iwmprofile3_setstreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 16dfb205-2a0b-4dc8-a8f2-8981534018f1
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],SetStreamPrioritization method, IWMProfile3.SetStreamPrioritization, IWMProfile3::SetStreamPrioritization, IWMProfile3SetStreamPrioritization, SetStreamPrioritization, SetStreamPrioritization method [windows Media Format], SetStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_setstreamprioritization, wmsdkidl/IWMProfile3::SetStreamPrioritization
-f1_keywords:
-- wmsdkidl/IWMProfile3.SetStreamPrioritization
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMProfile3.SetStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMProfile3::SetStreamPrioritization
+ - wmsdkidl/IWMProfile3::SetStreamPrioritization
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMProfile3.SetStreamPrioritization
 ---
 
 # IWMProfile3::SetStreamPrioritization
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetStreamPrioritization</b> method assigns a stream prioritization object to the profile. A profile can contain only one stream prioritization object at a time.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pSP [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization</a> interface of the stream prioritization object you want to assign to the profile.
-
+Pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamprioritization">IWMStreamPrioritization</a> interface of the stream prioritization object you want to assign to the profile.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -117,35 +108,19 @@ The method was unable to allocate memory in the profile for the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If there is already a stream prioritization object in the profile, it will be lost.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getstreamprioritization">IWMProfile3::GetStreamPrioritization</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getstreamprioritization">IWMProfile3::GetStreamPrioritization</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removestreamprioritization">IWMProfile3::RemoveStreamPrioritization</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removestreamprioritization">IWMProfile3::RemoveStreamPrioritization</a>

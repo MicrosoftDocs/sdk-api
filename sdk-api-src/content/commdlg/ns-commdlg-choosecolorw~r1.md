@@ -1,12 +1,8 @@
 ---
 UID: NS:commdlg.tagCHOOSECOLORW~r1
 title: CHOOSECOLORW
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: tagCHOOSECOLORW, CHOOSECOLORW
-f1_keywords:
-- commdlg/tagCHOOSECOLORW
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -17,28 +13,38 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: CHOOSECOLORW, *LPCHOOSECOLORW
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - tagCHOOSECOLORW
+ - commdlg/tagCHOOSECOLORW
+ - LPCHOOSECOLORW
+ - commdlg/LPCHOOSECOLORW
+ - CHOOSECOLORW
+ - commdlg/CHOOSECOLORW
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- commdlg.h
+ - commdlg.h
 api_name:
-- tagCHOOSECOLORW
-- CHOOSECOLORW
+ - tagCHOOSECOLORW
+ - CHOOSECOLORW
 ---
 
 # CHOOSECOLORW structure
 
+
 ## -description
 
-Contains information the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a> function uses to initialize the <b>Color</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. 
+Contains information the <a href="/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a> function uses to initialize the <b>Color</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
 ## -struct-fields
 
@@ -46,36 +52,31 @@ Contains information the <a href="https://docs.microsoft.com/previous-versions/w
 
 Type: <b>DWORD</b>
 
-The length, in bytes, of the structure. 
-
+The length, in bytes, of the structure.
 
 ### -field hwndOwner
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the dialog box. This member can be any valid window handle, or it can be <b>NULL</b> if the dialog box has no owner. 
-
+A handle to the window that owns the dialog box. This member can be any valid window handle, or it can be <b>NULL</b> if the dialog box has no owner.
 
 ### -field hInstance
 
 Type: <b>HWND</b>
 
-If the <b>CC_ENABLETEMPLATEHANDLE</b> flag is set in the <b>Flags</b> member, <b>hInstance</b> is a handle to a memory object containing a dialog box template. If the <b>CC_ENABLETEMPLATE</b> flag is set, <b>hInstance</b> is a handle to a module that contains a dialog box template named by the <b>lpTemplateName</b> member. If neither <b>CC_ENABLETEMPLATEHANDLE</b> nor <b>CC_ENABLETEMPLATE</b> is set, this member is ignored. 
-
+If the <b>CC_ENABLETEMPLATEHANDLE</b> flag is set in the <b>Flags</b> member, <b>hInstance</b> is a handle to a memory object containing a dialog box template. If the <b>CC_ENABLETEMPLATE</b> flag is set, <b>hInstance</b> is a handle to a module that contains a dialog box template named by the <b>lpTemplateName</b> member. If neither <b>CC_ENABLETEMPLATEHANDLE</b> nor <b>CC_ENABLETEMPLATE</b> is set, this member is ignored.
 
 ### -field rgbResult
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-If the <b>CC_RGBINIT</b> flag is set, <b>rgbResult</b> specifies the color initially selected when the dialog box is created. If the specified color value is not among the available colors, the system selects the nearest solid color available. If <b>rgbResult</b> is zero or <b>CC_RGBINIT</b> is not set, the initially selected color is black. If the user clicks the <b>OK</b> button, <b>rgbResult</b> specifies the user's color selection. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro. 
-
+If the <b>CC_RGBINIT</b> flag is set, <b>rgbResult</b> specifies the color initially selected when the dialog box is created. If the specified color value is not among the available colors, the system selects the nearest solid color available. If <b>rgbResult</b> is zero or <b>CC_RGBINIT</b> is not set, the initially selected color is black. If the user clicks the <b>OK</b> button, <b>rgbResult</b> specifies the user's color selection. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field lpCustColors
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>*</b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a>*</b>
 
-A pointer to an array of 16  values that contain red, green, blue (RGB) values for the custom color boxes in the dialog box. If the user modifies these colors, the system updates the array with the new RGB values. To preserve new custom colors between calls to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a> function, you should allocate static memory for the array. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro. 
-
+A pointer to an array of 16  values that contain red, green, blue (RGB) values for the custom color boxes in the dialog box. If the user modifies these colors, the system updates the array with the new RGB values. To preserve new custom colors between calls to the <a href="/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a> function, you should allocate static memory for the array. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field Flags
 
@@ -172,7 +173,7 @@ Causes the dialog box to use the color specified in the <b>rgbResult</b> member 
 </dl>
 </td>
 <td width="60%">
-Causes the dialog box to display the Help button. The <b>hwndOwner</b> member must specify the window to receive the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/helpmsgstring">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
+Causes the dialog box to display the Help button. The <b>hwndOwner</b> member must specify the window to receive the <a href="/windows/desktop/dlgbox/helpmsgstring">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
 
 </td>
 </tr>
@@ -189,48 +190,39 @@ Causes the dialog box to display only solid colors in the set of basic colors.
 </tr>
 </table>
 
-
 ### -field lCustData
 
 Type: <b>LPARAM</b>
 
-Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>CHOOSECOLOR</b> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value. 
-
+Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>CHOOSECOLOR</b> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value.
 
 ### -field lpfnHook
 
 Type: <b>LPCCHOOKPROC</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpcchookproc">CCHookProc</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>CC_ENABLEHOOK</b> flag is set in the <b>Flags</b> member. 
-
+A pointer to a <a href="/windows/desktop/api/commdlg/nc-commdlg-lpcchookproc">CCHookProc</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>CC_ENABLEHOOK</b> flag is set in the <b>Flags</b> member.
 
 ### -field lpTemplateName
 
 Type: <b>LPCTSTR</b>
 
-The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpTemplateName</b> can be a value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>CC_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member. 
-
+The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpTemplateName</b> can be a value returned by the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>CC_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member.
 
 ### -field lpEditInfo
-
-
 
 ## -remarks
 
 ## -see-also
 
+<a href="/windows/desktop/api/commdlg/nc-commdlg-lpcchookproc">CCHookProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nc-commdlg-lpcchookproc">CCHookProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)">ChooseColor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -238,12 +230,8 @@ The name of the dialog box template resource in the module identified by the <b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

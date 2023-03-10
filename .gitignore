@@ -32,3 +32,8 @@
 *.app
 
 mwgendiff.config
+
+mwyamldiff.config
+
+# Visual Studio Files
+/.vs

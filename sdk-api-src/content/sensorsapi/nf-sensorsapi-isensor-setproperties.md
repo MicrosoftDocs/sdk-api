@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensor.SetProperties
 title: ISensor::SetProperties (sensorsapi.h)
 description: Specifies sensor properties.
+helpviewer_keywords: ["ISensor interface","SetProperties method","ISensor.SetProperties","ISensor::SetProperties","SetProperties","SetProperties method","SetProperties method","ISensor interface","sensorsapi/ISensor::SetProperties","winsensors_com_ref.isensor_setproperties"]
 old-location: winsensors_com_ref\isensor_setproperties.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: f2bed074-fcee-4dbb-a4c1-d5922d65d3b9
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISensor::SetProperties, SetProperties, SetProperties method, SetProperties method,ISensor interface, sensorsapi/ISensor::SetProperties, winsensors_com_ref.isensor_setproperties
-f1_keywords:
-- sensorsapi/ISensor.SetProperties
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::SetProperties
+ - sensorsapi/ISensor::SetProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.SetProperties
 ---
 
 # ISensor::SetProperties
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies sensor properties.
-
 
 ## -parameters
 
-
-
-
 ### -param pProperties [in]
 
- Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=134660">IPortableDeviceValues</a> interface containing the list of properties and values to set.
-
+ Pointer to an <a href="/previous-versions//ms740012(v=vs.85)">IPortableDeviceValues</a> interface containing the list of properties and values to set.
 
 ### -param ppResults [out]
 
 Address of an <b>IPortableDeviceValues</b> interface that receives the list of properties that were successfully set. Each property has an associated <b>HRESULT</b> value, which indicates whether setting the property succeeded.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,14 +105,8 @@ NULL was passed in for ppResults.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method enables you to specify the values of one or more  properties, such as the sensor make, model, and serial number, by making a single call. 
 
@@ -130,23 +117,14 @@ Not all properties can be set.
 
 #### Examples
 
-For an example of how to set properties, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
+For an example of how to set properties, see <a href="/windows/desktop/SensorsAPI/setting-and-retrieving-sensor-properties">Setting and Retrieving Sensor Properties</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">GetProperties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

@@ -2,15 +2,12 @@
 UID: NF:inputscope.ITfInputScope.GetSRGS
 title: ITfInputScope::GetSRGS (inputscope.h)
 description: ITfInputScope::GetSRGS method
+helpviewer_keywords: ["GetSRGS","GetSRGS method [Text Services Framework]","GetSRGS method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetSRGS method","ITfInputScope.GetSRGS","ITfInputScope::GetSRGS","inputscope/ITfInputScope::GetSRGS","tsf.itfinputscope_getSRGS"]
 old-location: tsf\itfinputscope_getSRGS.htm
 tech.root: TSF
 ms.assetid: 6514d925-b60e-4071-abb2-4c26a122089a
 ms.date: 12/05/2018
 ms.keywords: GetSRGS, GetSRGS method [Text Services Framework], GetSRGS method [Text Services Framework],ITfInputScope interface, ITfInputScope interface [Text Services Framework],GetSRGS method, ITfInputScope.GetSRGS, ITfInputScope::GetSRGS, inputscope/ITfInputScope::GetSRGS, tsf.itfinputscope_getSRGS
-f1_keywords:
-- inputscope/ITfInputScope.GetSRGS
-dev_langs:
-- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputScope.GetSRGS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputScope::GetSRGS
+ - inputscope/ITfInputScope::GetSRGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputScope.GetSRGS
 ---
 
 # ITfInputScope::GetSRGS
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Gets the Speech Recognition Grammar Specification (SRGS) string to be recognized.
 
 ## -parameters
-
-
-
 
 ### -param pbstrSRGS [out]
 
 The xml string. The calling function must call <b>SysFreeString()</b> to free the buffer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -84,16 +79,8 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=161740">http://www.w3.org/TR/speech-grammar</a>
-
-
+<a href="https://www.w3.org/tr/speech-grammar">http://www.w3.org/TR/speech-grammar</a>
 

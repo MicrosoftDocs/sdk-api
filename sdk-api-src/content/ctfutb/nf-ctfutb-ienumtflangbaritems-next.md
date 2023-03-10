@@ -2,15 +2,12 @@
 UID: NF:ctfutb.IEnumTfLangBarItems.Next
 title: IEnumTfLangBarItems::Next (ctfutb.h)
 description: IEnumTfLangBarItems::Next method
+helpviewer_keywords: ["IEnumTfLangBarItems interface [Text Services Framework]","Next method","IEnumTfLangBarItems.Next","IEnumTfLangBarItems::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfLangBarItems interface","_tsf_ienumtflangbaritems_next_ref","ctfutb/IEnumTfLangBarItems::Next","tsf.ienumtflangbaritems_next"]
 old-location: tsf\ienumtflangbaritems_next.htm
 tech.root: TSF
 ms.assetid: 46e24685-581c-4c68-80df-4465e90e3e36
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLangBarItems interface [Text Services Framework],Next method, IEnumTfLangBarItems.Next, IEnumTfLangBarItems::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfLangBarItems interface, _tsf_ienumtflangbaritems_next_ref, ctfutb/IEnumTfLangBarItems::Next, tsf.ienumtflangbaritems_next
-f1_keywords:
-- ctfutb/IEnumTfLangBarItems.Next
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfLangBarItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfLangBarItems::Next
+ - ctfutb/IEnumTfLangBarItems::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfLangBarItems.Next
 ---
 
 # IEnumTfLangBarItems::Next
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the specified number of elements in the enumeration sequence from the current position.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Specifies the number of elements to obtain.
 
-
 ### -param ppItem [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
-
+Pointer to an array of <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetched
 
 [in, out] Pointer to a ULONG value that receives the number of elements obtained. This value can be less than the number of items requested. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,23 +109,12 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
       </a>
- 
-
- 
-

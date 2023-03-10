@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiInstallMissingComponentA
 title: MsiInstallMissingComponentA function (msi.h)
-description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.
+description: The MsiInstallMissingComponent function installs files that are unexpectedly missing. (ANSI)
+helpviewer_keywords: ["INSTALLSTATE_DEFAULT", "INSTALLSTATE_LOCAL", "INSTALLSTATE_SOURCE", "MsiInstallMissingComponentA", "msi/MsiInstallMissingComponentA"]
 old-location: setup\msiinstallmissingcomponent.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 81b44b77-e972-409c-b933-8fcae8887266
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiInstallMissingComponent, MsiInstallMissingComponent function, MsiInstallMissingComponentA, MsiInstallMissingComponentW, _msi_msiinstallmissingcomponent, msi/MsiInstallMissingComponent, msi/MsiInstallMissingComponentA, msi/MsiInstallMissingComponentW, setup.msiinstallmissingcomponent
-f1_keywords:
-- msi/MsiInstallMissingComponent
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiInstallMissingComponent
-- MsiInstallMissingComponentA
-- MsiInstallMissingComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiInstallMissingComponentA
+ - msi/MsiInstallMissingComponentA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiInstallMissingComponent
+ - MsiInstallMissingComponentA
+ - MsiInstallMissingComponentW
 ---
 
 # MsiInstallMissingComponentA function
@@ -50,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiInstallMissingComponent</b> function installs files that are unexpectedly missing.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that owns the component to be installed.
 
-
 ### -param szComponent [in]
 
 Identifies the component to be installed.
-
 
 ### -param eInstallState [in]
 
@@ -112,12 +107,8 @@ The component should be installed according to the installer defaults.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -216,15 +207,9 @@ The product code is unrecognized.
  
 
 For more information about error messages, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
-
-
-
-
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 ## -remarks
-
-
 
 The 
 <b>MsiInstallMissingComponent</b> function resolves the feature(s) that the component belongs to. Then, the product feature that requires the least additional disk space is installed.
@@ -232,13 +217,10 @@ The
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiInstallMissingComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>

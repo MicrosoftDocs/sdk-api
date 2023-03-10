@@ -2,15 +2,12 @@
 UID: NS:winddi._FONTDIFF
 title: FONTDIFF (winddi.h)
 description: The FONTDIFF structure describes all of the characteristics that are different between a base font and one of its simulations.
+helpviewer_keywords: ["FONTDIFF","FONTDIFF structure [Display Devices]","display.fontdiff","grstrcts_f0aab188-5a92-48b3-be9d-464e22f4b260.xml","winddi/FONTDIFF"]
 old-location: display\fontdiff.htm
 tech.root: display
 ms.assetid: c590359b-4652-4673-9e43-bf76a0a45d58
 ms.date: 12/05/2018
 ms.keywords: FONTDIFF, FONTDIFF structure [Display Devices], display.fontdiff, grstrcts_f0aab188-5a92-48b3-be9d-464e22f4b260.xml, winddi/FONTDIFF
-f1_keywords:
-- winddi/FONTDIFF
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- FONTDIFF
 targetos: Windows
 req.typenames: FONTDIFF
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FONTDIFF
+ - winddi/_FONTDIFF
+ - FONTDIFF
+ - winddi/FONTDIFF
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - FONTDIFF
 ---
 
 # FONTDIFF structure
@@ -48,35 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The FONTDIFF structure describes all of the characteristics that are different between a base font and one of its simulations.
-
 
 ## -struct-fields
 
-
-
-
 ### -field jReserved1
 
-
 ### -field jReserved2
-
 
 ### -field jReserved3
 
 Are reserved for system use.
 
-
 ### -field bWeight
 
 Specifies the Panose weight.
 
-
 ### -field usWinWeight
 
-Specifies the weight of the font in the range 0 to 1000 (for example, 400 is normal and 700 is bold). This value is provided to the application in the <b>lfWeight</b> member of the Win32 LOGFONT structure. 
-
+Specifies the weight of the font in the range 0 to 1000 (for example, 400 is normal and 700 is bold). This value is provided to the application in the <b>lfWeight</b> member of the Win32 LOGFONT structure.
 
 ### -field fsSelection
 
@@ -158,42 +152,25 @@ Set if all the characters of the font are underscored by default; otherwise unde
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fwdAveCharWidth
 
 Specifies the arithmetic average of the width of all of the 26 lower case letters 'a' through 'z' of the Latin alphabet and the space character. If any of the 26 lowercase letters are not present, then this member should be set equal to the weighted average of all glyphs in the font.
 
-
 ### -field fwdMaxCharInc
 
 Specifies the maximum character increment of all glyphs in the font.
 
-
 ### -field ptlCaret
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
-
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the direction of the ascender direction of the font. For example, the value for a nonitalicized Latin font is (0,1) while an italicized Latin font might specify a value of (2,5).
 
 ## -remarks
 
-
-
 If a font has already been emboldened, the only possible remaining simulation is italicization, yielding a bold italic simulation. Similarly, an italicized font can only be emboldened, also yielding a bold italic simulation.
 
-For descriptions of the FSHORT and FWORD data types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
-
-
-
+For descriptions of the FSHORT and FWORD data types, see <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Add
 title: IUpdateCollection::Add (wuapi.h)
-description: Adds an item to the collection.
+description: Adds an item to the collection. (IUpdateCollection.Add)
+helpviewer_keywords: ["Add","Add method [Windows Update Agent]","Add method [Windows Update Agent]","IUpdateCollection interface","IUpdateCollection interface [Windows Update Agent]","Add method","IUpdateCollection.Add","IUpdateCollection::Add","wua.iupdatecollection_add","wuapi/IUpdateCollection::Add"]
 old-location: wua\iupdatecollection_add.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 32b25c99-d2a0-4365-a285-f66381cfc3e7
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Update Agent], Add method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Add method, IUpdateCollection.Add, IUpdateCollection::Add, wua.iupdatecollection_add, wuapi/IUpdateCollection::Add
-f1_keywords:
-- wuapi/IUpdateCollection.Add
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateCollection::Add
+ - wuapi/IUpdateCollection::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateCollection.Add
 ---
 
 # IUpdateCollection::Add
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds an item to the collection.
-
 
 ## -parameters
 
-
-
-
 ### -param value [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface to be added to the collection.
-
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface to be added to the collection.
 
 ### -param retval [out]
 
 The index of the added interface in the collection.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -103,18 +96,7 @@ The collection is read-only.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

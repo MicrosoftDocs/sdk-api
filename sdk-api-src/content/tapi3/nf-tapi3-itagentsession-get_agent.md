@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_Agent
 title: ITAgentSession::get_Agent (tapi3.h)
-description: The get_Agent method gets a pointer to the ITAgent interface associated with this session.
+description: The ITAgentSession::get_Agent (tapi3.h) method gets a pointer to the ITAgent interface associated with this session.
+helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_Agent method","ITAgentSession.get_Agent","ITAgentSession::get_Agent","_tapi3_itagentsession_get_agent","get_Agent","get_Agent method [TAPI 2.2]","get_Agent method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_agent","tapi3cc/ITAgentSession::get_Agent"]
 old-location: tapi3\itagentsession_get_agent.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1378f7f1-020e-492c-8f1a-f4e8a9c7c3e2
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_Agent method, ITAgentSession.get_Agent, ITAgentSession::get_Agent, _tapi3_itagentsession_get_agent, get_Agent, get_Agent method [TAPI 2.2], get_Agent method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_agent, tapi3cc/ITAgentSession::get_Agent
-f1_keywords:
-- tapi3/ITAgentSession.get_Agent
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentSession.get_Agent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentSession::get_Agent
+ - tapi3/ITAgentSession::get_Agent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentSession.get_Agent
 ---
 
 # ITAgentSession::get_Agent
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Agent</b> method gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface associated with this session.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface associated with this session.
 
 ## -parameters
-
-
-
 
 ### -param ppAgent [out]
 
 pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,33 +104,17 @@ The <i>ppAgent</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentSession::get_Agent</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentSession::get_Agent</b>. The application must call <b>Release</b> on the 
 <b>ITAgent</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>

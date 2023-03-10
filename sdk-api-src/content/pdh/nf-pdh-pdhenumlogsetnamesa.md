@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhEnumLogSetNamesA
 title: PdhEnumLogSetNamesA function (pdh.h)
-description: Enumerates the names of the log sets within the DSN.
+description: Enumerates the names of the log sets within the DSN. (ANSI)
+helpviewer_keywords: ["PdhEnumLogSetNamesA", "pdh/PdhEnumLogSetNamesA"]
 old-location: perf\pdhenumlogsetnames.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: c74cc8a6-915b-40ed-a88b-bc2147215d52
 ms.date: 12/05/2018
 ms.keywords: PdhEnumLogSetNames, PdhEnumLogSetNames function [Perf], PdhEnumLogSetNamesA, PdhEnumLogSetNamesW, _win32_pdhenumlogsetnames, base.pdhenumlogsetnames, pdh/PdhEnumLogSetNames, pdh/PdhEnumLogSetNamesA, pdh/PdhEnumLogSetNamesW, perf.pdhenumlogsetnames
-f1_keywords:
-- pdh/PdhEnumLogSetNames
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhEnumLogSetNames
-- PdhEnumLogSetNamesA
-- PdhEnumLogSetNamesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhEnumLogSetNamesA
+ - pdh/PdhEnumLogSetNamesA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhEnumLogSetNames
+ - PdhEnumLogSetNamesA
+ - PdhEnumLogSetNamesW
 ---
 
 # PdhEnumLogSetNamesA function
@@ -50,41 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the names of the log sets within the DSN.
-		
-
 
 ## -parameters
 
-
-
-
 ### -param szDataSource [in]
 
-<b>Null</b>-terminated string that specifies the DSN. 
-
+<b>Null</b>-terminated string that specifies the DSN.
 
 ### -param mszDataSetNameList [out]
 
 Caller-allocated buffer that receives the list of <b>null</b>-terminated log set names. The list is terminated with a <b>null</b>-terminator character. Set to <b>NULL</b> if the <i>pcchBufferLength</i> parameter is zero.
 
-
 ### -param pcchBufferLength [in, out]
 
 Size of the <i>mszLogSetNameList</i> buffer, in <b>TCHARs</b>. If zero on input, the function returns PDH_MORE_DATA and sets this parameter to the required buffer size. If the buffer is larger than the required size, the function sets this parameter to the actual size of the buffer that was used. If the specified size on input is greater than zero but less than the required size, you should not rely on the returned size to reallocate the buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -114,16 +105,13 @@ A parameter is not valid. For example, on some releases you could receive this e
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this function twice, the first time to get the required buffer size (set <i>mszLogSetNameList</i> to <b>NULL</b> and <i>pcchBufferLength</i> to 0), and the second time to get the data.
 
 
 
+
+> [!NOTE]
+> The pdh.h header defines PdhEnumLogSetNames as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

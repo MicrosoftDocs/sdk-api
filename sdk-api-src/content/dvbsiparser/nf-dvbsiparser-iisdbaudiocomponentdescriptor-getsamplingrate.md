@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetSamplingRate
 title: IIsdbAudioComponentDescriptor::GetSamplingRate (dvbsiparser.h)
 description: Gets the value of the sampling_rate field from a an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This three-bit field contains a code that indicates the sampling frequency.
+helpviewer_keywords: ["GetSamplingRate","GetSamplingRate method [Microsoft TV Technologies]","GetSamplingRate method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetSamplingRate method","IIsdbAudioComponentDescriptor.GetSamplingRate","IIsdbAudioComponentDescriptor::GetSamplingRate","dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate","mstv.iisdbaudiocomponentdescriptor_getsamplingrate"]
 old-location: mstv\iisdbaudiocomponentdescriptor_getsamplingrate.htm
 tech.root: mstv
 ms.assetid: ccb31b56-10a1-47ee-9d1b-116d860bef11
 ms.date: 12/05/2018
 ms.keywords: GetSamplingRate, GetSamplingRate method [Microsoft TV Technologies], GetSamplingRate method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetSamplingRate method, IIsdbAudioComponentDescriptor.GetSamplingRate, IIsdbAudioComponentDescriptor::GetSamplingRate, dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate, mstv.iisdbaudiocomponentdescriptor_getsamplingrate
-f1_keywords:
-- dvbsiparser/IIsdbAudioComponentDescriptor.GetSamplingRate
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbAudioComponentDescriptor.GetSamplingRate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbAudioComponentDescriptor::GetSamplingRate
+ - dvbsiparser/IIsdbAudioComponentDescriptor::GetSamplingRate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbAudioComponentDescriptor.GetSamplingRate
 ---
 
 # IIsdbAudioComponentDescriptor::GetSamplingRate
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the value of the sampling_rate field from a an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This three-bit field contains a code that indicates the sampling frequency.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
@@ -144,25 +141,11 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbaudiocomponentdescriptor">IIsdbAudioComponentDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbaudiocomponentdescriptor">IIsdbAudioComponentDescriptor</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Invoke
 title: IRpcStubBuffer::Invoke (objidlbase.h)
-description: Invokes the interface that a stub represents.
+description: The IRpcStubBuffer::Invoke (objidlbase.h) method invokes the interface that a stub represents.
+helpviewer_keywords: ["IRpcStubBuffer interface [COM]","Invoke method","IRpcStubBuffer.Invoke","IRpcStubBuffer::Invoke","Invoke","Invoke method [COM]","Invoke method [COM]","IRpcStubBuffer interface","_com_irpcstubbuffer_invoke","com.irpcstubbuffer_invoke","objidlbase/IRpcStubBuffer::Invoke"]
 old-location: com\irpcstubbuffer_invoke.htm
 tech.root: com
 ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke, IRpcStubBuffer::Invoke, Invoke, Invoke method [COM], Invoke method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
-f1_keywords:
-- objidlbase/IRpcStubBuffer.Invoke
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IRpcStubBuffer.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRpcStubBuffer::Invoke
+ - objidlbase/IRpcStubBuffer::Invoke
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IRpcStubBuffer.Invoke
 ---
 
 # IRpcStubBuffer::Invoke
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the interface that a stub represents.
-
 
 ## -parameters
 
-
-
-
 ### -param _prpcmsg [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-rpcolemessage">RPCOLEMESSAGE</a> data structure containing the marshaled invocation arguments.
-
+A pointer to an <a href="/windows/desktop/api/objidl/ns-objidl-rpcolemessage">RPCOLEMESSAGE</a> data structure containing the marshaled invocation arguments.
 
 ### -param _pRpcChannelBuffer [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> interface that controls an RPC marshaling channel.
-
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> interface that controls an RPC marshaling channel.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>

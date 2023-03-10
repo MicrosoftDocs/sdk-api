@@ -2,15 +2,12 @@
 UID: NF:webservices.WsReadMessageEnd
 title: WsReadMessageEnd function (webservices.h)
 description: Read the closing elements of a message from a channel.
+helpviewer_keywords: ["WsReadMessageEnd","WsReadMessageEnd function [Web Services for Windows]","webservices/WsReadMessageEnd","wsw.wsreadmessageend"]
 old-location: wsw\wsreadmessageend.htm
 tech.root: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
 ms.date: 12/05/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
-f1_keywords:
-- webservices/WsReadMessageEnd
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadMessageEnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadMessageEnd
+ - webservices/WsReadMessageEnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadMessageEnd
 ---
 
 # WsReadMessageEnd function
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Read the closing elements of a message from a channel.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The channel to receive for.
-                
-
 
 ### -param message [in]
 
 The message to read the end of.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -479,23 +466,13 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The message must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_READING</a> state.  Upon success, it will
+The message must be in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_READING</a> state.  Upon success, it will
                 transition to <b>WS_MESSAGE_STATE_DONE</b> state.
             
 
-When streaming input is used (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a>), 
+When streaming input is used (<a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a>), 
                 the channel will automatically make sure that there are bytes available before reading the 
                 end of the message (the closing body and envelope tags).
-            
-
-
-

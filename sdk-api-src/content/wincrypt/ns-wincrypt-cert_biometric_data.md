@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_BIOMETRIC_DATA
 title: CERT_BIOMETRIC_DATA (wincrypt.h)
 description: Contains information about biometric data.
+helpviewer_keywords: ["*PCERT_BIOMETRIC_DATA","CERT_BIOMETRIC_DATA","CERT_BIOMETRIC_DATA structure [Security]","CERT_BIOMETRIC_OID_DATA_CHOICE","CERT_BIOMETRIC_PICTURE_TYPE","CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE","CERT_BIOMETRIC_SIGNATURE_TYPE","PCERT_BIOMETRIC_DATA","PCERT_BIOMETRIC_DATA structure pointer [Security]","security.cert_biometric_data","wincrypt/CERT_BIOMETRIC_DATA","wincrypt/PCERT_BIOMETRIC_DATA"]
 old-location: security\cert_biometric_data.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 544297e2-b6a6-4a33-94b6-47066262506a
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA, CERT_BIOMETRIC_DATA structure [Security], CERT_BIOMETRIC_OID_DATA_CHOICE, CERT_BIOMETRIC_PICTURE_TYPE, CERT_BIOMETRIC_PREDEFINED_DATA_CHOICE, CERT_BIOMETRIC_SIGNATURE_TYPE, PCERT_BIOMETRIC_DATA, PCERT_BIOMETRIC_DATA structure pointer [Security], security.cert_biometric_data, wincrypt/CERT_BIOMETRIC_DATA, wincrypt/PCERT_BIOMETRIC_DATA'
-f1_keywords:
-- wincrypt/CERT_BIOMETRIC_DATA
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_BIOMETRIC_DATA
 targetos: Windows
 req.typenames: CERT_BIOMETRIC_DATA, *PCERT_BIOMETRIC_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_BIOMETRIC_DATA
+ - wincrypt/_CERT_BIOMETRIC_DATA
+ - PCERT_BIOMETRIC_DATA
+ - wincrypt/PCERT_BIOMETRIC_DATA
+ - CERT_BIOMETRIC_DATA
+ - wincrypt/CERT_BIOMETRIC_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_BIOMETRIC_DATA
 ---
 
 # CERT_BIOMETRIC_DATA structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_BIOMETRIC_DATA</b> structure contains information about biometric data.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwTypeOfBiometricDataChoice
 
@@ -87,13 +88,8 @@ The biometric data type is identified by the <b>pszObjId</b> member.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.dwPredefined
 
@@ -125,26 +121,15 @@ The biometric data is a signature.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME.pszObjId
 
-The address of a null-terminated ANSI string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the biometric data type. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_OID_DATA_CHOICE</b>. 
-
+The address of a null-terminated ANSI string that contains the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the biometric data type. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_OID_DATA_CHOICE</b>.
 
 ### -field HashedUrl
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
-
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>

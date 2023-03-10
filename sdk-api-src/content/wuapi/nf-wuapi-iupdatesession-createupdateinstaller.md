@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateSession.CreateUpdateInstaller
 title: IUpdateSession::CreateUpdateInstaller (wuapi.h)
 description: Returns an IUpdateInstaller interface for this session.
+helpviewer_keywords: ["CreateUpdateInstaller","CreateUpdateInstaller method [Windows Update Agent]","CreateUpdateInstaller method [Windows Update Agent]","IUpdateSession interface","IUpdateSession interface [Windows Update Agent]","CreateUpdateInstaller method","IUpdateSession.CreateUpdateInstaller","IUpdateSession::CreateUpdateInstaller","wua.iupdatesession_createupdateinstaller","wuapi/IUpdateSession::CreateUpdateInstaller"]
 old-location: wua\iupdatesession_createupdateinstaller.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: e5b5f760-0d25-4506-95d3-63ff4a0b9188
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateInstaller, CreateUpdateInstaller method [Windows Update Agent], CreateUpdateInstaller method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateInstaller method, IUpdateSession.CreateUpdateInstaller, IUpdateSession::CreateUpdateInstaller, wua.iupdatesession_createupdateinstaller, wuapi/IUpdateSession::CreateUpdateInstaller
-f1_keywords:
-- wuapi/IUpdateSession.CreateUpdateInstaller
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSession.CreateUpdateInstaller
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSession::CreateUpdateInstaller
+ - wuapi/IUpdateSession::CreateUpdateInstaller
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSession.CreateUpdateInstaller
 ---
 
 # IUpdateSession::CreateUpdateInstaller
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface for this session.
-
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface for this session.
 
 ## -parameters
 
-
-
-
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface for this session.
-
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface for this session.
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -98,27 +92,11 @@ This  method cannot be called from a remote computer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface can also be created by using the UpdateInstaller coclass.
-
-
-
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a> interface can also be created by using the UpdateInstaller coclass.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>

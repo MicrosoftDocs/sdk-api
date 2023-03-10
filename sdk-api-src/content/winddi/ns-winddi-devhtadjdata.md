@@ -2,15 +2,12 @@
 UID: NS:winddi._DEVHTADJDATA
 title: DEVHTADJDATA (winddi.h)
 description: The DEVHTADJDATA structure is used as input to the HTUI_DeviceColorAdjustment function.
+helpviewer_keywords: ["*PDEVHTADJDATA","DEVHTADJDATA","DEVHTADJDATA structure [Display Devices]","PDEVHTADJDATA","PDEVHTADJDATA structure pointer [Display Devices]","display.devhtadjdata","grstrcts_bd1a058d-3d43-48f3-a87e-7f6f5276ba51.xml","winddi/DEVHTADJDATA","winddi/PDEVHTADJDATA"]
 old-location: display\devhtadjdata.htm
 tech.root: display
 ms.assetid: a90f2283-7bc3-48e4-bb1c-172d9776a284
 ms.date: 12/05/2018
 ms.keywords: '*PDEVHTADJDATA, DEVHTADJDATA, DEVHTADJDATA structure [Display Devices], PDEVHTADJDATA, PDEVHTADJDATA structure pointer [Display Devices], display.devhtadjdata, grstrcts_bd1a058d-3d43-48f3-a87e-7f6f5276ba51.xml, winddi/DEVHTADJDATA, winddi/PDEVHTADJDATA'
-f1_keywords:
-- winddi/DEVHTADJDATA
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DEVHTADJDATA
 targetos: Windows
 req.typenames: DEVHTADJDATA, *PDEVHTADJDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DEVHTADJDATA
+ - winddi/_DEVHTADJDATA
+ - PDEVHTADJDATA
+ - winddi/PDEVHTADJDATA
+ - DEVHTADJDATA
+ - winddi/DEVHTADJDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DEVHTADJDATA
 ---
 
 # DEVHTADJDATA structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DEVHTADJDATA structure is used as input to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function.
-
+The DEVHTADJDATA structure is used as input to the <a href="/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field DeviceFlags
 
@@ -97,34 +98,23 @@ DEVHTADJF_COLOR_DEVICE
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DeviceXDPI
 
 Is the caller-supplied horizontal resolution, in dots per inch, for the device.
 
-
 ### -field DeviceYDPI
 
 Is the caller-supplied vertical resolution, in dots per inch, for the device.
 
-
 ### -field pDefHTInfo
 
-Is a caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devhtinfo">DEVHTINFO</a> structure containing the device's default halftoning properties.
-
+Is a caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-devhtinfo">DEVHTINFO</a> structure containing the device's default halftoning properties.
 
 ### -field pAdjHTInfo
 
-Is a caller-supplied pointer to a DEVHTINFO structure containing the device's current halftoning properties. Before the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function returns, it modifies this structure's contents, if the user has adjusted the halftoning properties. Can be <b>NULL</b> (see the following Remarks section).
-
+Is a caller-supplied pointer to a DEVHTINFO structure containing the device's current halftoning properties. Before the <a href="/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function returns, it modifies this structure's contents, if the user has adjusted the halftoning properties. Can be <b>NULL</b> (see the following Remarks section).
 
 ## -remarks
 
-
-
-If <b>pAdjHTInfo</b> is <b>NULL</b>, or if <b>pAdjHTInfo</b> and <b>pDefHTInfo</b> point to the same buffer, the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function displays the halftoning properties supplied by <b>pDefHTInfo</b> but does not allow the user to modify them.
-
-
-
+If <b>pAdjHTInfo</b> is <b>NULL</b>, or if <b>pAdjHTInfo</b> and <b>pDefHTInfo</b> point to the same buffer, the <a href="/windows/desktop/api/winddi/nf-winddi-htui_devicecoloradjustment">HTUI_DeviceColorAdjustment</a> function displays the halftoning properties supplied by <b>pDefHTInfo</b> but does not allow the user to modify them.

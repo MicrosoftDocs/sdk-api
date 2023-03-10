@@ -1,16 +1,13 @@
 ---
-UID: NS:windns.__unnamed_struct_29
+UID: NS:windns.DNS_NXT_DATAA
 title: DNS_NXT_DATAA (windns.h)
-description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
+description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535. (ANSI)
+helpviewer_keywords: ["*PDNS_NXT_DATA","*PDNS_NXT_DATAA","DNS_NXT_DATA","DNS_NXT_DATA structure [DNS]","DNS_NXT_DATAA","PDNS_NXT_DATA","PDNS_NXT_DATA structure pointer [DNS]","_dns_dns_nxt_data","dns.dns_nxt_data","windns/DNS_NXT_DATA","windns/PDNS_NXT_DATA"]
 old-location: dns\dns_nxt_data.htm
 tech.root: DNS
 ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_NXT_DATA, *PDNS_NXT_DATAA, DNS_NXT_DATA, DNS_NXT_DATA structure [DNS], DNS_NXT_DATAA, PDNS_NXT_DATA, PDNS_NXT_DATA structure pointer [DNS], _dns_dns_nxt_data, dns.dns_nxt_data, windns/DNS_NXT_DATA, windns/PDNS_NXT_DATA'
-f1_keywords:
-- windns/DNS_NXT_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_NXT_DATA
 targetos: Windows
 req.typenames: DNS_NXT_DATAA, *PDNS_NXT_DATAA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_NXT_DATAA
+ - windns/PDNS_NXT_DATAA
+ - DNS_NXT_DATAA
+ - windns/DNS_NXT_DATAA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_NXT_DATA
 ---
 
 # DNS_NXT_DATAA structure
@@ -48,59 +52,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>DNS_NXT_DATA</b> structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of <a href="https://go.microsoft.com/fwlink/p/?linkid=124775">RFC 2535</a>.
-
+<b>DNS_NXT_DATA</b> structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of <a href="https://www.ietf.org/rfc/rfc2535.txt">RFC 2535</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field pNameNext
 
 A pointer to a string that represents the name of the next domain.
 
-
 ### -field wNumTypes
 
 The number of elements in the <b>wTypes</b> array. <b>wNumTypes</b> must be 2 or greater but cannot exceed 8.
 
-
 ### -field size_is
-
- 
-
 
 ### -field size_is.wNumTypes
 
- 
-
-
 ### -field wTypes
 
-A <b>BYTE</b> array that contains a bitmap which specifies the RR types that are present  in the next domain. Each bit in the array corresponds to a <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Record Type</a> as defined in section 5.2 of <a href="https://go.microsoft.com/fwlink/p/?linkid=124775">RFC 2535</a>.
-
+A <b>BYTE</b> array that contains a bitmap which specifies the RR types that are present  in the next domain. Each bit in the array corresponds to a <a href="/windows/desktop/DNS/dns-constants">DNS Record Type</a> as defined in section 5.2 of <a href="https://www.ietf.org/rfc/rfc2535.txt">RFC 2535</a>.
 
 ## -remarks
 
-
-
 The 
 <b>DNS_NXT_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
+
+
+> [!NOTE]
+> The windns.h header defines DNS_NXT_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
- 
-
- 
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 

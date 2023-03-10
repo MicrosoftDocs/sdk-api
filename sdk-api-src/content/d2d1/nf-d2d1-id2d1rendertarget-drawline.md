@@ -2,15 +2,12 @@
 UID: NF:d2d1.ID2D1RenderTarget.DrawLine
 title: ID2D1RenderTarget::DrawLine (d2d1.h)
 description: Draws a line between the specified points using the specified stroke style.
+helpviewer_keywords: ["DrawLine","DrawLine method [Direct2D]","DrawLine method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawLine method","ID2D1RenderTarget.DrawLine","ID2D1RenderTarget::DrawLine","d2d1/ID2D1RenderTarget::DrawLine","direct2d.ID2D1RenderTarget_DrawLine"]
 old-location: direct2d\ID2D1RenderTarget_DrawLine.htm
 tech.root: Direct2D
 ms.assetid: 7eb70308-4142-4d32-a070-9e937579b896
 ms.date: 12/05/2018
 ms.keywords: DrawLine, DrawLine method [Direct2D], DrawLine method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawLine method, ID2D1RenderTarget.DrawLine, ID2D1RenderTarget::DrawLine, d2d1/ID2D1RenderTarget::DrawLine, direct2d.ID2D1RenderTarget_DrawLine
-f1_keywords:
-- d2d1/ID2D1RenderTarget.DrawLine
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget.DrawLine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::DrawLine
+ - d2d1/ID2D1RenderTarget::DrawLine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget.DrawLine
 ---
 
 # ID2D1RenderTarget::DrawLine
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Draws a line between the specified points using the specified stroke style.
-
 
 ## -parameters
 
-
-
-
 ### -param point0
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The start point of the line, in device-independent pixels.
 
-
 ### -param point1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The end point of the line, in device-independent pixels.
 
-
 ### -param brush [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush used to paint the line's stroke.
-
 
 ### -param strokeWidth
 
@@ -84,31 +78,18 @@ Type: <b>FLOAT</b>
 
 The width of the stroke, in device-independent pixels. The value must be greater than or equal to 0.0f. If this parameter isn't specified, it defaults to 1.0f. The stroke is centered on the line.
 
-
 ### -param strokeStyle [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The style of stroke to paint, or <b>NULL</b> to paint a solid line.
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
+This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawLine</b>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
 
 
-This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>DrawLine</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> methods. 
-
-
-#### Examples
+## Examples
 
 The following example uses the <b>DrawLine</b> method to create a grid that spans the width and height of the render target. The width and height information is provided by the <i>rtSize</i> variable.
 
@@ -140,17 +121,7 @@ The following example uses the <b>DrawLine</b> method to create a grid that span
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 

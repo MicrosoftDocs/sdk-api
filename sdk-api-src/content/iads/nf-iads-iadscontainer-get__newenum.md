@@ -2,15 +2,12 @@
 UID: NF:iads.IADsContainer.get__NewEnum
 title: IADsContainer::get__NewEnum (iads.h)
 description: Retrieves an enumerator object for the container.
+helpviewer_keywords: ["IADsContainer interface [ADSI]","get__NewEnum method","IADsContainer.get__NewEnum","IADsContainer::get__NewEnum","_ds_iadscontainer_get__newenum","adsi.iadscontainer__get____newenum","adsi.iadscontainer_get__newenum","get__NewEnum","get__NewEnum method [ADSI]","get__NewEnum method [ADSI]","IADsContainer interface","iads/IADsContainer::get__NewEnum"]
 old-location: adsi\iadscontainer_get__newenum.htm
 tech.root: adsi
 ms.assetid: b268efb8-59cd-41ef-b96c-583ae476432e
 ms.date: 12/05/2018
 ms.keywords: IADsContainer interface [ADSI],get__NewEnum method, IADsContainer.get__NewEnum, IADsContainer::get__NewEnum, _ds_iadscontainer_get__newenum, adsi.iadscontainer__get____newenum, adsi.iadscontainer_get__newenum, get__NewEnum, get__NewEnum method [ADSI], get__NewEnum method [ADSI],IADsContainer interface, iads/IADsContainer::get__NewEnum
-f1_keywords:
-- iads/IADsContainer.get__NewEnum
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsContainer.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsContainer::get__NewEnum
+ - iads/IADsContainer::get__NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsContainer.get__NewEnum
 ---
 
 # IADsContainer::get__NewEnum
@@ -48,39 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for the container. The 
-  enumerator object implements the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface to enumerate the children of the container object.
-
+  enumerator object implements the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface to enumerate the children of the container object.
 
 ## -parameters
 
-
-
-
 ### -param retval [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
-
+Pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
 ## -returns
 
-
-
-This method supports the standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+This method supports the standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
-
-
 
 There are two underscore characters ("__") in the function name between "get" and "NewEnum".
 
 In Visual Basic, use the <b>For</b><b>Each</b>… statement to invoke the <b>IADsContainer::get__NewEnum</b> method implicitly.
 
-In C/C++, use the  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a> helper functions.
+In C/C++, use the  <a href="/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>,  <a href="/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>, and <a href="/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a> helper functions.
 
 
 #### Examples
@@ -154,37 +143,26 @@ while(SUCCEEDED(hr) && lFetch > 0)
 pEnum->Release();
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

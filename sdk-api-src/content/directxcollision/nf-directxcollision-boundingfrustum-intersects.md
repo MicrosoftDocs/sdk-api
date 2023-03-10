@@ -2,12 +2,10 @@
 UID: NF:directxcollision.BoundingFrustum.Intersects
 title: BoundingFrustum::Intersects
 description: Test the BoundingFrustum for intersection with a BoundingSphere.
-ms.date: 04/22/19
+tech.root: dxmath
+helpviewer_keywords: ["BoundingFrustum::Intersects"]
+ms.date: 04/22/2019
 ms.keywords: BoundingFrustum::Intersects
-f1_keywords:
-- directxcollision/BoundingFrustum::Intersects
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -22,23 +20,28 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - BoundingFrustum::Intersects
+ - directxcollision/BoundingFrustum::Intersects
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxcollision.h
+ - directxcollision.h
 api_name:
-- BoundingFrustum::Intersects
+ - BoundingFrustum::Intersects
 ---
 
 # BoundingFrustum.Intersects(const BoundingSphere&) method
+
 
 ## -description
 
@@ -63,4 +66,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)

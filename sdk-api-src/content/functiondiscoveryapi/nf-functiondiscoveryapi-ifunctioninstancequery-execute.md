@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryapi.IFunctionInstanceQuery.Execute
 title: IFunctionInstanceQuery::Execute (functiondiscoveryapi.h)
 description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.
+helpviewer_keywords: ["Execute","Execute method","Execute method","IFunctionInstanceQuery interface","IFunctionInstanceQuery interface","Execute method","IFunctionInstanceQuery.Execute","IFunctionInstanceQuery::Execute","functiondiscoveryapi/IFunctionInstanceQuery::Execute","ncd.ifunctioninstancequery_execute_method"]
 old-location: ncd\ifunctioninstancequery_execute_method.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 42618944-6ae6-45f0-85f9-3c958d719ed2
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,Execute method, IFunctionInstanceQuery.Execute, IFunctionInstanceQuery::Execute, functiondiscoveryapi/IFunctionInstanceQuery::Execute, ncd.ifunctioninstancequery_execute_method
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceQuery.Execute
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceQuery.Execute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceQuery::Execute
+ - functiondiscoveryapi/IFunctionInstanceQuery::Execute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceQuery.Execute
 ---
 
 # IFunctionInstanceQuery::Execute
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Performs the query defined by <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">IFunctionDiscovery::CreateInstanceQuery</a>. 
-
+Performs the query defined by <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">IFunctionDiscovery::CreateInstanceQuery</a>.
 
 ## -parameters
 
-
-
-
 ### -param ppIFunctionInstance [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that receives the requested function instance.
-
+A pointer to an <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface pointer that receives the requested function instance.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -158,46 +152,32 @@ The function instance could not be returned because the key corresponding to the
 </table>
  
 
-A predefined query is a query of a layered <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-categories">category</a>. When a predefined query is executed, each provider that returns a function instance also returns an HRESULT value. The provider HRESULT values  are aggregated, and the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>  method reflects these aggregate results. Results are aggregated as follows:
+A predefined query is a query of a layered <a href="/previous-versions/windows/desktop/fundisc/function-discovery-categories">category</a>. When a predefined query is executed, each provider that returns a function instance also returns an HRESULT value. The provider HRESULT values  are aggregated, and the value returned by the <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>  method reflects these aggregate results. Results are aggregated as follows:
 
 <ul>
-<li>If all providers return S_OK, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns S_OK.</li>
-<li>If at least one provider returns E_PENDING, and all other providers return either S_OK or E_PENDING, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns E_PENDING.</li>
-<li>If all providers return an error value (that is, a value other than S_OK or E_PENDING), <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a> returns the error value returned by the network provider that was last queried. Also, if the client's  <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback routine was provided to <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery">IFunctionDiscovery::CreateInstanceCollectionQuery</a>, an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a>  notification is sent for each provider. Each   <b>OnError</b> notification contains the HRESULT returned by the provider.</li>
-<li>If at least one provider returns an error value, and all other providers return S_OK, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns S_OK. <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a>  notification(s) are sent as described above.</li>
-<li>If at least one provider returns an error value, and at least one provider returns E_PENDING, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a> returns E_PENDING.  <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a> notification(s) are sent as described above.</li>
+<li>If all providers return S_OK, <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns S_OK.</li>
+<li>If at least one provider returns E_PENDING, and all other providers return either S_OK or E_PENDING, <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns E_PENDING.</li>
+<li>If all providers return an error value (that is, a value other than S_OK or E_PENDING), <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a> returns the error value returned by the network provider that was last queried. Also, if the client's  <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback routine was provided to <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancecollectionquery">IFunctionDiscovery::CreateInstanceCollectionQuery</a>, an <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a>  notification is sent for each provider. Each   <b>OnError</b> notification contains the HRESULT returned by the provider.</li>
+<li>If at least one provider returns an error value, and all other providers return S_OK, <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a>   returns S_OK. <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a>  notification(s) are sent as described above.</li>
+<li>If at least one provider returns an error value, and at least one provider returns E_PENDING, <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute">Execute</a> returns E_PENDING.  <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a> notification(s) are sent as described above.</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This method must be must be invoked by the client program to retrieve data from the query object. When called, this method performs the following: 
 
 <ol>
 <li>Retrieves the function instance.</li>
-<li>Initiates the update notification mechanism if the address of the client program's <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback routine is provided to <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">IFunctionDiscovery::CreateInstanceQuery</a>.</li>
+<li>Initiates the update notification mechanism if the address of the client program's <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> callback routine is provided to <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery">IFunctionDiscovery::CreateInstanceQuery</a>.</li>
 </ol>
-Function Discovery network providers only return function instances through the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.  They return no function instances directly when this method is invoked. Instead, <b>Execute</b> simply initiates an entirely asynchronous retrieval operation and returns E_PENDING to indicate that the results will be returned asynchronously.   Notifications must be used to retrieve function instances from Function Discovery network providers.
+Function Discovery network providers only return function instances through the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface.  They return no function instances directly when this method is invoked. Instead, <b>Execute</b> simply initiates an entirely asynchronous retrieval operation and returns E_PENDING to indicate that the results will be returned asynchronously.   Notifications must be used to retrieve function instances from Function Discovery network providers.
 
-If <b>Execute</b> is called twice on the same query object, the first query is terminated before the second query executes. 
-
-
-
+If <b>Execute</b> is called twice on the same query object, the first query is terminated before the second query executes.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-queries">Function Discovery Queries</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancequery">IFunctionInstanceQuery</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancequery">IFunctionInstanceQuery</a>

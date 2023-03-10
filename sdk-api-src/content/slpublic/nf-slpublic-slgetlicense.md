@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetLicense
 title: SLGetLicense function (slpublic.h)
 description: Returns the license file BLOB.
+helpviewer_keywords: ["SLGetLicense","SLGetLicense function [Security]","security.slgetlicense","slpublic/SLGetLicense"]
 old-location: security\slgetlicense.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 68648512-ea63-43b9-af86-b1014c89f1d7
 ms.date: 12/05/2018
 ms.keywords: SLGetLicense, SLGetLicense function [Security], security.slgetlicense, slpublic/SLGetLicense
-f1_keywords:
-- slpublic/SLGetLicense
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetLicense
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetLicense
+ - slpublic/SLGetLicense
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetLicense
 ---
 
 # SLGetLicense function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the license file BLOB.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pLicenseFileId [in]
 
 Type: <b>const SLID*</b>
 
 A pointer to the license file ID.
-
 
 ### -param pcbLicenseFile [out]
 
@@ -77,17 +72,13 @@ Type: <b>UINT*</b>
 
 A pointer to the size, in bytes, of the license file BLOB.
 
-
 ### -param ppbLicenseFile [out]
 
 Type: <b>PBYTE*</b>
 
 The license file BLOB.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -123,7 +114,4 @@ The license file is not installed.
 </td>
 </tr>
 </table>
- 
-
-
 

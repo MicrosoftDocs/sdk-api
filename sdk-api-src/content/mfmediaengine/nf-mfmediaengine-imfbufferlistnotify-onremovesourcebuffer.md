@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFBufferListNotify.OnRemoveSourceBuffer
 title: IMFBufferListNotify::OnRemoveSourceBuffer (mfmediaengine.h)
 description: Indicates that a IMFSourceBuffer has been removed.
+helpviewer_keywords: ["IMFBufferListNotify interface [Media Foundation]","OnRemoveSourceBuffer method","IMFBufferListNotify.OnRemoveSourceBuffer","IMFBufferListNotify::OnRemoveSourceBuffer","OnRemoveSourceBuffer","OnRemoveSourceBuffer method [Media Foundation]","OnRemoveSourceBuffer method [Media Foundation]","IMFBufferListNotify interface","mf.imfbufferlistnotify_onremovesourcebuffer","mfmediaengine/IMFBufferListNotify::OnRemoveSourceBuffer"]
 old-location: mf\imfbufferlistnotify_onremovesourcebuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2b203ba3-d5b8-4ab9-ae3e-74c289d74749
 ms.date: 12/05/2018
 ms.keywords: IMFBufferListNotify interface [Media Foundation],OnRemoveSourceBuffer method, IMFBufferListNotify.OnRemoveSourceBuffer, IMFBufferListNotify::OnRemoveSourceBuffer, OnRemoveSourceBuffer, OnRemoveSourceBuffer method [Media Foundation], OnRemoveSourceBuffer method [Media Foundation],IMFBufferListNotify interface, mf.imfbufferlistnotify_onremovesourcebuffer, mfmediaengine/IMFBufferListNotify::OnRemoveSourceBuffer
-f1_keywords:
-- mfmediaengine/IMFBufferListNotify.OnRemoveSourceBuffer
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFBufferListNotify.OnRemoveSourceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFBufferListNotify::OnRemoveSourceBuffer
+ - mfmediaengine/IMFBufferListNotify::OnRemoveSourceBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFBufferListNotify.OnRemoveSourceBuffer
 ---
 
 # IMFBufferListNotify::OnRemoveSourceBuffer
@@ -48,33 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates that a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been removed.
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
+Indicates that a <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a> has been removed.
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify">IMFBufferListNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify">IMFBufferListNotify</a>

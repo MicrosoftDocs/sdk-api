@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiUseFeatureW
 title: MsiUseFeatureW function (msi.h)
-description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
+description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature. (Unicode)
+helpviewer_keywords: ["MsiUseFeature", "MsiUseFeature function", "MsiUseFeatureW", "_msi_msiusefeature", "msi/MsiUseFeature", "msi/MsiUseFeatureW", "setup.msiusefeature"]
 old-location: setup\msiusefeature.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 7a4dc671-d82e-4775-8198-79b80a4dd9e4
 ms.date: 12/05/2018
 ms.keywords: MsiUseFeature, MsiUseFeature function, MsiUseFeatureA, MsiUseFeatureW, _msi_msiusefeature, msi/MsiUseFeature, msi/MsiUseFeatureA, msi/MsiUseFeatureW, setup.msiusefeature
-f1_keywords:
-- msi/MsiUseFeature
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiUseFeature
-- MsiUseFeatureA
-- MsiUseFeatureW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiUseFeatureW
+ - msi/MsiUseFeatureW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiUseFeature
+ - MsiUseFeatureA
+ - MsiUseFeatureW
 ---
 
 # MsiUseFeatureW function
@@ -50,29 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiUseFeature</b> function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that owns the feature to be used.
 
-
 ### -param szFeature [in]
 
 Identifies the feature to be used.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -162,30 +155,21 @@ The feature is not published.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 <b>MsiUseFeature</b> function should only be used on features known to be published. INSTALLSTATE_UNKNOWN indicates that the program is trying to use a feature that is not published. The application should determine whether the feature is published before calling 
 <b>MsiUseFeature</b> by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application should make these calls while it initializes. An application should only use features that are known to be published.
+<a href="/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
+<a href="/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application should make these calls while it initializes. An application should only use features that are known to be published.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiUseFeature as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>

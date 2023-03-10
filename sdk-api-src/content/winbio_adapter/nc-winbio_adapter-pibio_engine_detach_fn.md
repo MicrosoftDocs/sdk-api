@@ -1,16 +1,13 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_DETACH_FN
 title: PIBIO_ENGINE_DETACH_FN (winbio_adapter.h)
-description: Releases adapter-specific resources attached to the pipeline.
+description: Releases adapter-specific resources attached to the pipeline.E
+helpviewer_keywords: ["EngineAdapterDetach","EngineAdapterDetach callback function [Windows Biometric Framework API]","PIBIO_ENGINE_DETACH_FN","PIBIO_ENGINE_DETACH_FN callback","secbiomet.engineadapterdetach","winbio_adapter/EngineAdapterDetach"]
 old-location: secbiomet\engineadapterdetach.htm
 tech.root: SecBioMet
 ms.assetid: a4bc8ef1-6005-4661-9bb1-20ea08d9a125
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterDetach, EngineAdapterDetach callback function [Windows Biometric Framework API], PIBIO_ENGINE_DETACH_FN, PIBIO_ENGINE_DETACH_FN callback, secbiomet.engineadapterdetach, winbio_adapter/EngineAdapterDetach
-f1_keywords:
-- winbio_adapter/EngineAdapterDetach
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterDetach
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_DETACH_FN
+ - winbio_adapter/PIBIO_ENGINE_DETACH_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterDetach
 ---
 
 # PIBIO_ENGINE_DETACH_FN callback function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework immediately before an engine adapter is removed from the processing pipeline of the biometric unit. The purpose of this function is to release adapter specific resources attached to the pipeline.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -91,27 +85,21 @@ The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <b>EngineContext</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure cannot be <b>NULL</b>.
+The <b>EngineContext</b> field of the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure cannot be <b>NULL</b>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To prevent memory leaks, your implementation of the <i>EngineAdapterDetach</i> function must release the private <b>WINBIO_ENGINE_CONTEXT</b> structure pointed to by the  <b>EngineContext</b> member of the pipeline along with any other resources attached to the engine context.
 
 If the <b>EngineContext</b> field in the pipeline object is <b>NULL</b> when this function is called, the pipeline was not properly initialized and you must return <b>WINBIO_E_INVALID_DEVICE_STATE</b> to notify the Windows Biometric Framework of the problem.
 
-Before returning S_OK, the <i>EngineAdapterDetach</i> function must set the <b>EngineContext</b> field of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure to <b>NULL</b> and the <b>EngineHandle</b> field to <b>INVALID_HANDLE_VALUE</b>.
+Before returning S_OK, the <i>EngineAdapterDetach</i> function must set the <b>EngineContext</b> field of the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure to <b>NULL</b> and the <b>EngineHandle</b> field to <b>INVALID_HANDLE_VALUE</b>.
 
-This function is called after the storage adapter has been removed from the pipeline. Therefore, this function must not call any functions referenced by the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
+This function is called after the storage adapter has been removed from the pipeline. Therefore, this function must not call any functions referenced by the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
 
 
 #### Examples
@@ -198,25 +186,14 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_attach_fn">EngineAdapterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_attach_fn">EngineAdapterAttach</a>
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_detach_fn">SensorAdapterDetach</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_detach_fn">SensorAdapterDetach</a>

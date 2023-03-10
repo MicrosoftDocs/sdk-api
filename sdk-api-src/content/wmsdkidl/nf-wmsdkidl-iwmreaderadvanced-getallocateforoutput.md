@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetAllocateForOutput
 title: IWMReaderAdvanced::GetAllocateForOutput (wmsdkidl.h)
 description: The GetAllocateForOutput method ascertains whether the reader is configured to use the IWMReaderCallbackAdvanced interface to allocate samples delivered by the IWMReaderCallback::OnSample callback.
+helpviewer_keywords: ["GetAllocateForOutput","GetAllocateForOutput method [windows Media Format]","GetAllocateForOutput method [windows Media Format]","IWMReaderAdvanced interface","IWMReaderAdvanced interface [windows Media Format]","GetAllocateForOutput method","IWMReaderAdvanced.GetAllocateForOutput","IWMReaderAdvanced::GetAllocateForOutput","IWMReaderAdvancedGetAllocateForOutput","wmformat.iwmreaderadvanced_getallocateforoutput","wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput"]
 old-location: wmformat\iwmreaderadvanced_getallocateforoutput.htm
 tech.root: wmformat
 ms.assetid: b0da74ff-37d9-4bb3-85f2-f8e1585c2d7f
 ms.date: 12/05/2018
 ms.keywords: GetAllocateForOutput, GetAllocateForOutput method [windows Media Format], GetAllocateForOutput method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetAllocateForOutput method, IWMReaderAdvanced.GetAllocateForOutput, IWMReaderAdvanced::GetAllocateForOutput, IWMReaderAdvancedGetAllocateForOutput, wmformat.iwmreaderadvanced_getallocateforoutput, wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput
-f1_keywords:
-- wmsdkidl/IWMReaderAdvanced.GetAllocateForOutput
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAdvanced.GetAllocateForOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAdvanced::GetAllocateForOutput
+ - wmsdkidl/IWMReaderAdvanced::GetAllocateForOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAdvanced.GetAllocateForOutput
 ---
 
 # IWMReaderAdvanced::GetAllocateForOutput
@@ -51,48 +53,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetAllocateForOutput</b> method ascertains whether the reader is configured to use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced</a> interface to allocate samples delivered by the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a> callback.
-
-
-
+The <b>GetAllocateForOutput</b> method ascertains whether the reader is configured to use the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced</a> interface to allocate samples delivered by the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a> callback.
 
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 <b>DWORD</b> containing the identifying number of the output media stream.
 
-
 ### -param pfAllocate [out]
 
 Pointer to a Boolean value that is set to True if the reader uses <b>IWMReaderCallbackAdvanced</b> to allocate samples.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setallocateforoutput">IWMReaderAdvanced::SetAllocateForOutput</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setallocateforoutput">IWMReaderAdvanced::SetAllocateForOutput</a>

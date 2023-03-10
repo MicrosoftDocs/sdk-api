@@ -4,8 +4,11 @@ title: Http.h header
 ms.assetid: cf08299b-1e99-3340-bb62-837b1f7ec475
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: http
+f1_keywords:
+ - http
+ - http/http
 ---
 
 # Http.h header
@@ -13,8 +16,7 @@ tech.root: http
 
 ## -description
 
+This header is used by HTTP Server API. For more information, see:
 
-This header is used by Windows HTTP Services (WinHTTP). For more information, see:
-
-- [Windows HTTP Services (WinHTTP)](../_http/index.md)
+- [HTTP Server API](../_http/index.md)
 

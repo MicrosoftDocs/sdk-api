@@ -2,15 +2,12 @@
 UID: NS:wbemcli.tag_CompileStatusInfo
 title: WBEM_COMPILE_STATUS_INFO (wbemcli.h)
 description: Describes an error for the IMofCompiler interface.
+helpviewer_keywords: ["WBEM_COMPILE_STATUS_INFO","WBEM_COMPILE_STATUS_INFO structure [Windows Management Instrumentation]","wbemcli/tag_CompileStatusInfo","wmi.wbem_compile_status_info"]
 old-location: wmi\wbem_compile_status_info.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 94B3516F-2DDA-4C93-B48E-67D7FE357F4E
 ms.date: 12/05/2018
 ms.keywords: WBEM_COMPILE_STATUS_INFO, WBEM_COMPILE_STATUS_INFO structure [Windows Management Instrumentation], wbemcli/tag_CompileStatusInfo, wmi.wbem_compile_status_info
-f1_keywords:
-- wbemcli/WBEM_COMPILE_STATUS_INFO
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,18 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- WBEM_COMPILE_STATUS_INFO
 targetos: Windows
 req.typenames: WBEM_COMPILE_STATUS_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tag_CompileStatusInfo
+ - wbemcli/tag_CompileStatusInfo
+ - WBEM_COMPILE_STATUS_INFO
+ - wbemcli/WBEM_COMPILE_STATUS_INFO
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - WBEM_COMPILE_STATUS_INFO
 ---
 
 # WBEM_COMPILE_STATUS_INFO structure
@@ -47,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Describes an error for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a> interface.
-
+Describes an error for the <a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a> interface.
 
 ## -struct-fields
-
-
-
 
 ### -field lPhaseError
 
@@ -84,60 +82,42 @@ argument error
 
 errors occurred while storing the data.
 
-
 ### -field hRes
 
 The actual error code.
-
 
 ### -field ObjectNum
 
 Object that is at fault.
 
-
 ### -field FirstLine
 
 First line number of the object.
-
 
 ### -field LastLine
 
 Last line number of the object.
 
-
 ### -field dwOutFlags
 
 Reserved.
 
-
 ## -remarks
-
-
 
 The   <i>ObjectNum</i>, <i>FirstLine</i>, and <i>LastLine</i> parameters only contain values for errors that relate to a particular class or instance in the file.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilebuffer">CompileBuffer</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-compilefile">CompileFile</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-imofcompiler-createbmof">CreateBMOF</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-imofcompiler">IMofCompiler</a>

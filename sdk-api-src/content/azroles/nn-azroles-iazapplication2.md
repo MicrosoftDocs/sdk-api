@@ -2,15 +2,12 @@
 UID: NN:azroles.IAzApplication2
 title: IAzApplication2 (azroles.h)
 description: Inherits from the IAzApplication interface and implements additional methods to initialize IAzClientContext2 objects.
+helpviewer_keywords: ["IAzApplication2","IAzApplication2 interface [Security]","IAzApplication2 interface [Security]","described","azroles/IAzApplication2","security.iazapplication2"]
 old-location: security\iazapplication2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 58f0627e-fa92-4b3b-a0cd-7e437d451606
 ms.date: 12/05/2018
 ms.keywords: IAzApplication2, IAzApplication2 interface [Security], IAzApplication2 interface [Security],described, azroles/IAzApplication2, security.iazapplication2
-f1_keywords:
-- azroles/IAzApplication2
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication2
+ - azroles/IAzApplication2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication2
 ---
 
 # IAzApplication2 interface
@@ -48,42 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAzApplication2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> interface and implements additional methods to initialize <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> objects.
-
+The <b>IAzApplication2</b> interface inherits from the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> interface and implements additional methods to initialize <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplication2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a>. <b>IAzApplication2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAzApplication2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication2-initializeclientcontext2">InitializeClientContext2</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication2-initializeclientcontextfromtoken2">InitializeClientContextFromToken2</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object pointer from the specified client token.
-
-</td>
-</tr>
-</table> 
+The <b>IAzApplication2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a>. <b>IAzApplication2</b> also has these types of members:
 

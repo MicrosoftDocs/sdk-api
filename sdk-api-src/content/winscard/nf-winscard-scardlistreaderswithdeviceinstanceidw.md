@@ -1,16 +1,13 @@
 ---
 UID: NF:winscard.SCardListReadersWithDeviceInstanceIdW
 title: SCardListReadersWithDeviceInstanceIdW function (winscard.h)
-description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
+description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader. (Unicode)
+helpviewer_keywords: ["SCardListReadersWithDeviceInstanceId", "SCardListReadersWithDeviceInstanceId function [Security]", "SCardListReadersWithDeviceInstanceIdW", "security.scardgetreadernamefromdeviceinstanceid", "security.scardlistreaderswithdeviceinstanceid", "winscard/SCardListReadersWithDeviceInstanceId"]
 old-location: security\scardlistreaderswithdeviceinstanceid.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
 ms.date: 12/05/2018
 ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceInstanceId function [Security], SCardListReadersWithDeviceInstanceIdA, SCardListReadersWithDeviceInstanceIdW, security.scardgetreadernamefromdeviceinstanceid, security.scardlistreaderswithdeviceinstanceid, winscard/SCardListReadersWithDeviceInstanceId
-f1_keywords:
-- winscard/SCardListReadersWithDeviceInstanceId
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winscard.h
-api_name:
-- SCardListReadersWithDeviceInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardListReadersWithDeviceInstanceIdW
+ - winscard/SCardListReadersWithDeviceInstanceIdW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winscard.h
+api_name:
+ - SCardListReadersWithDeviceInstanceId
 ---
 
 # SCardListReadersWithDeviceInstanceIdW function
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SCardListReadersWithDeviceInstanceId</b> function gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
-
 
 ## -parameters
 
-
-
-
 ### -param hContext [in]
 
-Handle that identifies the resource manager context for the query. You can set the resource manager context by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be <b>NULL</b>.
-
+Handle that identifies the resource manager context for the query. You can set the resource manager context by a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be <b>NULL</b>.
 
 ### -param szDeviceInstanceId [in]
 
-Device instance ID of the reader. You can get this value by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetreaderdeviceinstanceida">SCardGetReaderDeviceInstanceId</a> function with the reader name or by calling the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstanceida">SetupDiGetDeviceInstanceId</a> function from the DDK.
-
+Device instance ID of the reader. You can get this value by calling the <a href="/windows/desktop/api/winscard/nf-winscard-scardgetreaderdeviceinstanceida">SCardGetReaderDeviceInstanceId</a> function with the reader name or by calling the <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinstanceida">SetupDiGetDeviceInstanceId</a> function from the DDK.
 
 ### -param mszReaders [out, optional]
 
-A multi-string that contain the smart card readers within the supplied device instance identifier. If this value is <b>NULL</b>, then the function ignores the buffer length supplied in the <i>pcchReaders</i> parameter, writes the length of the buffer that would have been returned if this parameter had not been <b>NULL</b> to <i>pcchReaders</i>, and returns a success code. 
-
+A multi-string that contain the smart card readers within the supplied device instance identifier. If this value is <b>NULL</b>, then the function ignores the buffer length supplied in the <i>pcchReaders</i> parameter, writes the length of the buffer that would have been returned if this parameter had not been <b>NULL</b> to <i>pcchReaders</i>, and returns a success code.
 
 ### -param pcchReaders [in, out]
 
-The length, in characters, of the <i>mszReaders</i> buffer. This parameter receives the actual length of the multiple-string structure, including all terminating null characters. If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>mszReaders</i> is converted to a pointer to a byte pointer, and receives the address of a block of memory that contains the multiple-string structure. When you have finished using this memory, deallocated it by using the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a> function. 
-
+The length, in characters, of the <i>mszReaders</i> buffer. This parameter receives the actual length of the multiple-string structure, including all terminating null characters. If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>mszReaders</i> is converted to a pointer to a byte pointer, and receives the address of a block of memory that contains the multiple-string structure. When you have finished using this memory, deallocated it by using the <a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a> function.
 
 ## -returns
-
-
 
 This function returns different values depending on whether it succeeds or fails.
 
@@ -107,19 +98,13 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
    This function is not redirected. Calling the <b>SCardListReadersWithDeviceInstanceId</b> function when inside a Remote Desktop session fails with the SCARD_E_READER_UNAVAILABLE error code.
 
@@ -183,3 +168,6 @@ default:
 
 
 
+
+> [!NOTE]
+> The winscard.h header defines SCardListReadersWithDeviceInstanceId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

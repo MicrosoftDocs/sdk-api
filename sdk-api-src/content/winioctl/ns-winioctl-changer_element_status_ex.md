@@ -1,16 +1,13 @@
 ---
 UID: NS:winioctl._CHANGER_ELEMENT_STATUS_EX
 title: CHANGER_ELEMENT_STATUS_EX
-description: Represents the status of the specified element.
+description: Represents the status of the specified element. (CHANGER_ELEMENT_STATUS_EX)
+helpviewer_keywords: ["*PCHANGER_ELEMENT_STATUS_EX","CHANGER_ELEMENT_STATUS_EX","CHANGER_ELEMENT_STATUS_EX structure","ELEMENT_STATUS_ACCESS","ELEMENT_STATUS_AVOLTAG","ELEMENT_STATUS_EXCEPT","ELEMENT_STATUS_EXENAB","ELEMENT_STATUS_FULL","ELEMENT_STATUS_ID_VALID","ELEMENT_STATUS_IMPEXP","ELEMENT_STATUS_INENAB","ELEMENT_STATUS_INVERT","ELEMENT_STATUS_LUN_VALID","ELEMENT_STATUS_NOT_BUS","ELEMENT_STATUS_PRODUCT_DATA","ELEMENT_STATUS_PVOLTAG","ELEMENT_STATUS_SVALID","ERROR_DRIVE_NOT_INSTALLED","ERROR_INIT_STATUS_NEEDED","ERROR_LABEL_QUESTIONABLE","ERROR_LABEL_UNREADABLE","ERROR_SLOT_NOT_PRESENT","ERROR_TRAY_MALFUNCTION","ERROR_UNHANDLED_ERROR","PCHANGER_ELEMENT_STATUS_EX","PCHANGER_ELEMENT_STATUS_EX structure pointer","_win32_changer_element_status_ex_str","base.changer_element_status_ex_str","winioctl/CHANGER_ELEMENT_STATUS_EX","winioctl/PCHANGER_ELEMENT_STATUS_EX"]
 old-location: base\changer_element_status_ex_str.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 3780d1eb-b16b-4c51-8bbb-bf0a44606175
 ms.date: 12/05/2018
 ms.keywords: '*PCHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX structure, ELEMENT_STATUS_ACCESS, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_EXCEPT, ELEMENT_STATUS_EXENAB, ELEMENT_STATUS_FULL, ELEMENT_STATUS_ID_VALID, ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_INENAB, ELEMENT_STATUS_INVERT, ELEMENT_STATUS_LUN_VALID, ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_PRODUCT_DATA, ELEMENT_STATUS_PVOLTAG, ELEMENT_STATUS_SVALID, ERROR_DRIVE_NOT_INSTALLED, ERROR_INIT_STATUS_NEEDED, ERROR_LABEL_QUESTIONABLE, ERROR_LABEL_UNREADABLE, ERROR_SLOT_NOT_PRESENT, ERROR_TRAY_MALFUNCTION, ERROR_UNHANDLED_ERROR, PCHANGER_ELEMENT_STATUS_EX, PCHANGER_ELEMENT_STATUS_EX structure pointer, _win32_changer_element_status_ex_str, base.changer_element_status_ex_str, winioctl/CHANGER_ELEMENT_STATUS_EX, winioctl/PCHANGER_ELEMENT_STATUS_EX'
-f1_keywords:
-- winioctl/CHANGER_ELEMENT_STATUS_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- CHANGER_ELEMENT_STATUS_EX
 targetos: Windows
 req.typenames: CHANGER_ELEMENT_STATUS_EX, *PCHANGER_ELEMENT_STATUS_EX
 req.redist: 
+f1_keywords:
+ - _CHANGER_ELEMENT_STATUS_EX
+ - winioctl/_CHANGER_ELEMENT_STATUS_EX
+ - PCHANGER_ELEMENT_STATUS_EX
+ - winioctl/PCHANGER_ELEMENT_STATUS_EX
+ - CHANGER_ELEMENT_STATUS_EX
+ - winioctl/CHANGER_ELEMENT_STATUS_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - CHANGER_ELEMENT_STATUS_EX
 ---
 
 # CHANGER_ELEMENT_STATUS_EX structure
@@ -47,31 +53,24 @@ req.redist:
 
 ## -description
 
-
 Represents the status of the specified element.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Element
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element to which this structure refers.
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element to which this structure refers.
 
 ### -field SrcElementAddress
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element from which the media currently in this element was most recently moved. 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a> structure that represents the element from which the media currently in this element was most recently moved. 
 
 
 
 
 This member is valid only if the <b>Flags</b> member includes ELEMENT_STATUS_SVALID.
-
 
 ### -field Flags
 
@@ -136,7 +135,7 @@ The element supports export of media through the changer's insert/eject port.
 The element contains a piece of media.
 
 Note that this value is valid only if the element type is ChangerDrive, ChangerSlot, or ChangerTransport. If the element type is ChangerIEPort, this value is valid only if the <b>Features0</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a> includes CHANGER_REPORT_IEPORT_STATE.
+<a href="/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a> includes CHANGER_REPORT_IEPORT_STATE.
 
 </td>
 </tr>
@@ -255,8 +254,6 @@ The <b>SourceElement</b> member and ELEMENT_STATUS_INVERT are both valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ExceptionCode
 
@@ -345,28 +342,23 @@ Unknown error condition.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TargetId
 
 For a SCSI changer, specifies the SCSI target ID of the drive at this element address. This member is valid only if the <b>ElementType</b> member of the <b>Element</b> structure is ChangerDrive and the <b>Flags</b> member includes ELEMENT_STATUS_ID_VALID.
 
-
 ### -field Lun
 
 The SCSI logical unit number of the drive at this element address. This member is valid only if the <b>ElementType</b> member of the <b>Element</b> structure is ChangerDrive and the <b>Flags</b> member includes ELEMENT_STATUS_LUN_VALID.
-
 
 ### -field Reserved
 
 Reserved for future use. The value of this member must be zero.
 
-
 ### -field PrimaryVolumeID
 
 The primary volume identifier for the media. If the changer supports a barcode reader and the reader is installed (as indicated by CHANGER_BAR_CODE_SCANNER_INSTALLED in the <b>Features0</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a>), <b>PrimaryVolumeID</b> is the bar code of the media. If the changer does not support a barcode reader, <b>PrimaryVolumeID</b> is the value previously assigned to the media. 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-get_changer_parameters">GET_CHANGER_PARAMETERS</a>), <b>PrimaryVolumeID</b> is the bar code of the media. If the changer does not support a barcode reader, <b>PrimaryVolumeID</b> is the value previously assigned to the media. 
 
 
 
@@ -374,7 +366,6 @@ The primary volume identifier for the media. If the changer supports a barcode r
 This member is valid only if the <b>Flags</b> member includes ELEMENT_STATUS_PVOLTAG.
 
 If the volume identifier is missing or unreadable, this member is cleared.
-
 
 ### -field AlternateVolumeID
 
@@ -385,33 +376,22 @@ An alternate volume identification for the media. This member is valid for two-s
 
 This member is valid only if the <b>Flags</b> member includes ELEMENT_STATUS_AVOLTAG.
 
-
 ### -field VendorIdentification
 
 The vendor identifier.
-
 
 ### -field ProductIdentification
 
 The product identifier.
 
-
 ### -field SerialNumber
 
 The serial number for the drive.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-changer_element">CHANGER_ELEMENT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>

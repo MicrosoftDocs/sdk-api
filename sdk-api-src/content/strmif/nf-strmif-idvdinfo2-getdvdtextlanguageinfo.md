@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo2.GetDVDTextLanguageInfo
 title: IDvdInfo2::GetDVDTextLanguageInfo (strmif.h)
 description: The GetDVDTextLanguageInfo method retrieves information about the text strings for a specified language. The method retrieves the number of strings for that language, the locale identifier, and the character set.
+helpviewer_keywords: ["GetDVDTextLanguageInfo","GetDVDTextLanguageInfo method [DirectShow]","GetDVDTextLanguageInfo method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDTextLanguageInfo method","IDvdInfo2.GetDVDTextLanguageInfo","IDvdInfo2::GetDVDTextLanguageInfo","IDvdInfo2GetDVDTextLanguageInfo","dshow.idvdinfo2_getdvdtextlanguageinfo","strmif/IDvdInfo2::GetDVDTextLanguageInfo"]
 old-location: dshow\idvdinfo2_getdvdtextlanguageinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: af8662af-f306-4142-b563-3b40a98b7fbe
 ms.date: 12/05/2018
 ms.keywords: GetDVDTextLanguageInfo, GetDVDTextLanguageInfo method [DirectShow], GetDVDTextLanguageInfo method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDVDTextLanguageInfo method, IDvdInfo2.GetDVDTextLanguageInfo, IDvdInfo2::GetDVDTextLanguageInfo, IDvdInfo2GetDVDTextLanguageInfo, dshow.idvdinfo2_getdvdtextlanguageinfo, strmif/IDvdInfo2::GetDVDTextLanguageInfo
-f1_keywords:
-- strmif/IDvdInfo2.GetDVDTextLanguageInfo
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdInfo2.GetDVDTextLanguageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo2::GetDVDTextLanguageInfo
+ - strmif/IDvdInfo2::GetDVDTextLanguageInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdInfo2.GetDVDTextLanguageInfo
 ---
 
 # IDvdInfo2::GetDVDTextLanguageInfo
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDVDTextLanguageInfo</code> method retrieves information about the text strings for a specified language. The method retrieves the number of strings for that language, the locale identifier, and the character set.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ulLangIndex [in]
 
-Zero-based index of the language to query. To find the number of text-string languages on the DVD, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages">IDvdInfo2::GetDVDTextNumberOfLanguages</a>.
-
+Zero-based index of the language to query. To find the number of text-string languages on the DVD, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextnumberoflanguages">IDvdInfo2::GetDVDTextNumberOfLanguages</a>.
 
 ### -param pulNumOfStrings [out]
 
 Receives the number of text strings for the specified language.
 
-
 ### -param pLangCode [out]
 
 Receives a <i>locale identifier</i> (LCID) that specifies the language in which the text is written. For example, the LCID for "en-us" is 0x0409.
 
+### -param pbCharacterSet [out]
 
-### -param arg4 [out]
-
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_textcharset">DVD_TextCharSet</a> enumeration. The value specifies the character set of the text string.
-
+Receives a member of the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_textcharset">DVD_TextCharSet</a> enumeration. The value specifies the character set of the text string.
 
 ## -returns
-
-
 
 Returns one of the following <b>HRESULT</b> values.
 
@@ -137,39 +125,23 @@ An unexpected internal error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To get a particular text string, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode">IDvdInfo2::GetDVDTextStringAsUnicode</a> or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative">IDvdInfo2::GetDVDTextStringAsNative</a>.
-
-
-
+To get a particular text string, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasunicode">IDvdInfo2::GetDVDTextStringAsUnicode</a> or <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdvdtextstringasnative">IDvdInfo2::GetDVDTextStringAsNative</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>

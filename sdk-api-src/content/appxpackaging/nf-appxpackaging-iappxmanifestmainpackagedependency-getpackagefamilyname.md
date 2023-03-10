@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxManifestMainPackageDependency.GetPackageFamilyName
 title: IAppxManifestMainPackageDependency::GetPackageFamilyName (appxpackaging.h)
 description: Gets the package family name of the main package dependency from the AppxManifest.xml.
+helpviewer_keywords: ["GetPackageFamilyName","GetPackageFamilyName method [App packaging and management]","GetPackageFamilyName method [App packaging and management]","IAppxManifestMainPackageDependency interface","IAppxManifestMainPackageDependency interface [App packaging and management]","GetPackageFamilyName method","IAppxManifestMainPackageDependency.GetPackageFamilyName","IAppxManifestMainPackageDependency::GetPackageFamilyName","appxpackaging/IAppxManifestMainPackageDependency::GetPackageFamilyName","appxpkg.iappxmanifestmainpackagedependency_getpackagefamilyname"]
 old-location: appxpkg\iappxmanifestmainpackagedependency_getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4F8E3E60-CE14-48C1-8367-10AA293F72F6
 ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management],IAppxManifestMainPackageDependency interface, IAppxManifestMainPackageDependency interface [App packaging and management],GetPackageFamilyName method, IAppxManifestMainPackageDependency.GetPackageFamilyName, IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpackaging/IAppxManifestMainPackageDependency::GetPackageFamilyName, appxpkg.iappxmanifestmainpackagedependency_getpackagefamilyname
-f1_keywords:
-- appxpackaging/IAppxManifestMainPackageDependency.GetPackageFamilyName
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxManifestMainPackageDependency.GetPackageFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxManifestMainPackageDependency::GetPackageFamilyName
+ - appxpackaging/IAppxManifestMainPackageDependency::GetPackageFamilyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxManifestMainPackageDependency.GetPackageFamilyName
 ---
 
 # IAppxManifestMainPackageDependency::GetPackageFamilyName
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package family name of the main package dependency from the AppxManifest.xml.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFamilyName [out, retval]
 
 The package family name of the main package dependency.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestmainpackagedependency">IAppxManifestMainPackageDependency</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestmainpackagedependency">IAppxManifestMainPackageDependency</a>

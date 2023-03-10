@@ -2,15 +2,12 @@
 UID: NN:wuapi.ISystemInformation
 title: ISystemInformation (wuapi.h)
 description: Contains information about the specified computer. This information is relevant to the Windows Update Agent (WUA).
+helpviewer_keywords: ["ISystemInformation","ISystemInformation interface [Windows Update Agent]","ISystemInformation interface [Windows Update Agent]","described","wua.isysteminformation","wuapi/ISystemInformation"]
 old-location: wua\isysteminformation.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: b0aebfd6-1d62-43b3-8c40-2eeb67fab27d
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation, ISystemInformation interface [Windows Update Agent], ISystemInformation interface [Windows Update Agent],described, wua.isysteminformation, wuapi/ISystemInformation
-f1_keywords:
-- wuapi/ISystemInformation
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISystemInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISystemInformation
+ - wuapi/ISystemInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISystemInformation
 ---
 
 # ISystemInformation interface
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the specified computer. This information is relevant to the Windows Update Agent (WUA).
-
 
 ## -remarks
 
-
-
 You can create an instance of this interface by using the SystemInformation coclass. Use the Microsoft.Update.SystemInfo program identifier to create the object.
-
-
 

@@ -4,15 +4,17 @@ title: Hstring.h header
 ms.assetid: 9bd7916a-48da-39a9-aa05-550a15a1f6c4
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: winrt
+f1_keywords:
+ - hstring
+ - hstring/hstring
 ---
 
 # Hstring.h header
 
 
 ## -description
-
 
 This header is used by Windows Runtime C++ reference. For more information, see:
 

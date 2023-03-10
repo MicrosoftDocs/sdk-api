@@ -2,15 +2,12 @@
 UID: NF:winnt.YieldProcessor
 title: YieldProcessor function (winnt.h)
 description: Signals to the processor to give resources to threads that are waiting for them.
+helpviewer_keywords: ["YieldProcessor","YieldProcessor function","base.yieldprocessor","winnt/YieldProcessor"]
 old-location: base\yieldprocessor.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 83a331c1-cfc6-427d-aa80-9583db02ee92
 ms.date: 12/05/2018
 ms.keywords: YieldProcessor, YieldProcessor function, base.yieldprocessor, winnt/YieldProcessor
-f1_keywords:
-- winnt/YieldProcessor
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- YieldProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - YieldProcessor
+ - winnt/YieldProcessor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - YieldProcessor
 ---
 
 # YieldProcessor function
@@ -48,37 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Signals to the processor to give resources to threads that are waiting for them. This macro is only effective on processors that  support technology allowing multiple threads running on a single processor, such as Intel's Hyperthreading technology.
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This function does not return a value.
-
 
 
 
 ## -remarks
 
-
-
 This macro can be called on all processor platforms where Windows is supported, but  it  has no effect on some platforms.  The definition varies from platform to platform. The following are some definitions of this macro in Winnt.h:
 
-<pre class="syntax" xml:space="preserve"><code>#define YieldProcessor() __asm { rep nop }
+
+``` syntax
+#define YieldProcessor() __asm { rep nop }
 
 #define YieldProcessor _mm_pause
 
 #define YieldProcessor __yield
-</code></pre>
+
+```
 
 

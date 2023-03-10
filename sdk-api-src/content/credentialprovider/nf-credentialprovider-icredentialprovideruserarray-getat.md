@@ -2,15 +2,12 @@
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAt
 title: ICredentialProviderUserArray::GetAt (credentialprovider.h)
 description: Retrieves a specified user from the array.
+helpviewer_keywords: ["GetAt","GetAt method [Windows Shell]","GetAt method [Windows Shell]","ICredentialProviderUserArray interface","ICredentialProviderUserArray interface [Windows Shell]","GetAt method","ICredentialProviderUserArray.GetAt","ICredentialProviderUserArray::GetAt","credentialprovider/ICredentialProviderUserArray::GetAt","shell.ICredentialProviderUserArray_GetAt"]
 old-location: shell\ICredentialProviderUserArray_GetAt.htm
 tech.root: shell
 ms.assetid: E768CC54-4392-4d5f-BB90-4AA91E5D8B00
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAt method, ICredentialProviderUserArray.GetAt, ICredentialProviderUserArray::GetAt, credentialprovider/ICredentialProviderUserArray::GetAt, shell.ICredentialProviderUserArray_GetAt
-f1_keywords:
-- credentialprovider/ICredentialProviderUserArray.GetAt
-dev_langs:
-- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Authui.dll
-api_name:
-- ICredentialProviderUserArray.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICredentialProviderUserArray::GetAt
+ - credentialprovider/ICredentialProviderUserArray::GetAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Authui.dll
+api_name:
+ - ICredentialProviderUserArray.GetAt
 ---
 
 # ICredentialProviderUserArray::GetAt
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a specified user from the array.
-
 
 ## -parameters
 
-
-
-
 ### -param userIndex [in]
 
-The 0-based array index of the user. The size of the array can be obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getcount">GetCount</a> method.
-
+The 0-based array index of the user. The size of the array can be obtained through the <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getcount">GetCount</a> method.
 
 ### -param user [out]
 
-The address of a pointer to an object that, when this method returns successfully, represents the specified user. It is the responsibility of the caller to free this object when it is no longer needed by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method.
-
+The address of a pointer to an object that, when this method returns successfully, represents the specified user. It is the responsibility of the caller to free this object when it is no longer needed by calling its <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method.
 
 ## -returns
-
-
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code, including the following:
 
@@ -90,18 +83,7 @@ The index specified in <i>userIndex</i> is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
- 
-
- 
-
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>

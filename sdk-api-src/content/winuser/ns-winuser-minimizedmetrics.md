@@ -2,15 +2,12 @@
 UID: NS:winuser.tagMINIMIZEDMETRICS
 title: MINIMIZEDMETRICS (winuser.h)
 description: Contains the scalable metrics associated with minimized windows.
+helpviewer_keywords: ["*LPMINIMIZEDMETRICS","*PMINIMIZEDMETRICS","ARW_BOTTOMLEFT","ARW_BOTTOMRIGHT","ARW_DOWN","ARW_HIDE","ARW_LEFT","ARW_RIGHT","ARW_TOPLEFT","ARW_TOPRIGHT","ARW_UP","LPMINIMIZEDMETRICS","LPMINIMIZEDMETRICS structure pointer [Windows and Messages]","MINIMIZEDMETRICS","MINIMIZEDMETRICS structure [Windows and Messages]","PMINIMIZEDMETRICS","PMINIMIZEDMETRICS structure pointer [Windows and Messages]","_win32_minimizedmetrics_str","base.minimizedmetrics_str","minimizedmetrics_str_cpp","tagMINIMIZEDMETRICS","winmsg.minimizedmetrics_str","winui.minimizedmetrics_str","winuser/LPMINIMIZEDMETRICS","winuser/MINIMIZEDMETRICS","winuser/PMINIMIZEDMETRICS"]
 old-location: winmsg\minimizedmetrics_str.htm
 tech.root: winmsg
 ms.assetid: 10ae6579-2d66-4e8f-8692-0be8abdbf41a
 ms.date: 12/05/2018
 ms.keywords: '*LPMINIMIZEDMETRICS, *PMINIMIZEDMETRICS, ARW_BOTTOMLEFT, ARW_BOTTOMRIGHT, ARW_DOWN, ARW_HIDE, ARW_LEFT, ARW_RIGHT, ARW_TOPLEFT, ARW_TOPRIGHT, ARW_UP, LPMINIMIZEDMETRICS, LPMINIMIZEDMETRICS structure pointer [Windows and Messages], MINIMIZEDMETRICS, MINIMIZEDMETRICS structure [Windows and Messages], PMINIMIZEDMETRICS, PMINIMIZEDMETRICS structure pointer [Windows and Messages], _win32_minimizedmetrics_str, base.minimizedmetrics_str, minimizedmetrics_str_cpp, tagMINIMIZEDMETRICS, winmsg.minimizedmetrics_str, winui.minimizedmetrics_str, winuser/LPMINIMIZEDMETRICS, winuser/MINIMIZEDMETRICS, winuser/PMINIMIZEDMETRICS'
-f1_keywords:
-- winuser/MINIMIZEDMETRICS
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MINIMIZEDMETRICS
 targetos: Windows
 req.typenames: MINIMIZEDMETRICS, *PMINIMIZEDMETRICS, *LPMINIMIZEDMETRICS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMINIMIZEDMETRICS
+ - winuser/tagMINIMIZEDMETRICS
+ - PMINIMIZEDMETRICS
+ - winuser/PMINIMIZEDMETRICS
+ - MINIMIZEDMETRICS
+ - winuser/MINIMIZEDMETRICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MINIMIZEDMETRICS
 ---
 
 # MINIMIZEDMETRICS structure
@@ -48,35 +54,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the scalable metrics associated with minimized windows. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETMINIMIZEDMETRICS or SPI_SETMINIMIZEDMETRICS action value is specified.
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETMINIMIZEDMETRICS or SPI_SETMINIMIZEDMETRICS action value is specified.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size of the structure, in bytes. The caller must set this to <code>sizeof(MINIMIZEDMETRICS)</code>.
 
-
 ### -field iWidth
 
 The width of minimized windows, in pixels.
-
 
 ### -field iHorzGap
 
 The horizontal space between arranged minimized windows, in pixels.
 
-
 ### -field iVertGap
 
 The vertical space between arranged minimized windows, in pixels.
-
 
 ### -field iArrange
 
@@ -199,16 +196,7 @@ Hide minimized windows by moving them off the visible area of the screen.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

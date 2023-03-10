@@ -1,16 +1,13 @@
 ---
 UID: NF:userenv.DeleteProfileA
 title: DeleteProfileA function (userenv.h)
-description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile.
+description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile. (ANSI)
+helpviewer_keywords: ["DeleteProfileA", "userenv/DeleteProfileA"]
 old-location: shell\DeleteProfile.htm
 tech.root: shell
 ms.assetid: 48a08d9a-4fdc-43ab-8323-c49bc2d0a58d
 ms.date: 12/05/2018
 ms.keywords: DeleteProfile, DeleteProfile function [Windows Shell], DeleteProfileA, DeleteProfileW, _shell_DeleteProfile, shell.DeleteProfile, userenv/DeleteProfile, userenv/DeleteProfileA, userenv/DeleteProfileW
-f1_keywords:
-- userenv/DeleteProfile
-dev_langs:
-- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Userenv.dll
-api_name:
-- DeleteProfile
-- DeleteProfileA
-- DeleteProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteProfileA
+ - userenv/DeleteProfileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Userenv.dll
+api_name:
+ - DeleteProfile
+ - DeleteProfileA
+ - DeleteProfileW
 ---
 
 # DeleteProfileA function
@@ -50,29 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile.
 
-
 ## -parameters
-
-
-
 
 ### -param lpSidString [in]
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a string that specifies the user 
-    <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">SID</a>.
-
+    <a href="/windows/desktop/SecAuthZ/security-identifiers">SID</a>.
 
 ### -param lpProfilePath [in, optional]
 
 Type: <b>LPCTSTR</b>
 
 Pointer to a string that specifies the profile path. If this parameter is <b>NULL</b>, the function obtains the path from the registry.
-
 
 ### -param lpComputerName [in, optional]
 
@@ -87,35 +82,24 @@ Pointer to a string that specifies the name of the computer from which the profi
 
 ## -returns
 
-
-
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). 
 
 
-<b>DeleteProfile</b> might fail when passed the security identifier (SID) of the local system account (S-1-5-18). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=200321">KB890212</a>.
 
 
-
+> [!NOTE]
+> The userenv.h header defines DeleteProfile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>

@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.GetStyle
 title: ITextFont::GetStyle (tom.h)
 description: Gets the character style handle of the characters in a range.
+helpviewer_keywords: ["GetStyle","GetStyle method [Windows Controls]","GetStyle method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetStyle method","ITextFont.GetStyle","ITextFont::GetStyle","_win32_ITextFont_GetStyle","_win32_ITextFont_GetStyle_cpp","controls.ITextFont_GetStyle","controls._win32_ITextFont_GetStyle","tom/ITextFont::GetStyle"]
 old-location: controls\ITextFont_GetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetstyle.htm
 ms.date: 12/05/2018
 ms.keywords: GetStyle, GetStyle method [Windows Controls], GetStyle method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetStyle method, ITextFont.GetStyle, ITextFont::GetStyle, _win32_ITextFont_GetStyle, _win32_ITextFont_GetStyle_cpp, controls.ITextFont_GetStyle, controls._win32_ITextFont_GetStyle, tom/ITextFont::GetStyle
-f1_keywords:
-- tom/ITextFont.GetStyle
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.GetStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::GetStyle
+ - tom/ITextFont::GetStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.GetStyle
 ---
 
 # ITextFont::GetStyle
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the character style handle of the characters in a range.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>long*</b>
 
-The character style handle. 
-
+The character style handle.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -102,30 +96,19 @@ The font object is attached to a range that was deleted.
 </table>
  
 
-For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
-
-
-
+For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
 
-
-
-The Text Object Model (TOM) version 1.0 does not specify the meanings of the style handles. The meanings depend on other facilities of the text system that implements TOM. 
-
-
-
+The Text Object Model (TOM) version 1.0 does not specify the meanings of the style handles. The meanings depend on other facilities of the text system that implements TOM.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -133,12 +116,8 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setstyle">SetStyle</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setstyle">SetStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

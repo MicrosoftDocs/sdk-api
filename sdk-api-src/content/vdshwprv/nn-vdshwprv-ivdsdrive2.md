@@ -1,16 +1,13 @@
 ---
 UID: NN:vdshwprv.IVdsDrive2
 title: IVdsDrive2 (vdshwprv.h)
-description: Provides a method for querying the properties of a drive.
+description: The IVdsDrive2 (vdshwprv.h) interface provides a method for querying the properties of a drive.
+helpviewer_keywords: ["IVdsDrive2","IVdsDrive2 interface","IVdsDrive2 interface","described","base.ivdsdrive2","vds/IVdsDrive2","vdshwprv/IVdsDrive2"]
 old-location: base\ivdsdrive2.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41
-ms.date: 12/05/2018
+ms.date: 08/08/2022
 ms.keywords: IVdsDrive2, IVdsDrive2 interface, IVdsDrive2 interface,described, base.ivdsdrive2, vds/IVdsDrive2, vdshwprv/IVdsDrive2
-f1_keywords:
-- vdshwprv/IVdsDrive2
-dev_langs:
-- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- IVdsDrive2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsDrive2
+ - vdshwprv/IVdsDrive2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - IVdsDrive2
 ---
 
 # IVdsDrive2 interface
@@ -49,35 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides a method for querying the properties of a drive.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDrive2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDrive2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IVdsDrive2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive2-getproperties2">GetProperties2</a>
-</td>
-<td align="left" width="63%">
-Returns the properties of the drive.
-
-</td>
-</tr>
-</table> 
+The <b>IVdsDrive2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDrive2</b> also has these types of members:
 

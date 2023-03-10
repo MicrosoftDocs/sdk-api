@@ -2,15 +2,12 @@
 UID: NF:chstrarr.CHStringArray.Copy
 title: CHStringArray::Copy (chstrarr.h)
 description: The Copy method overwrites the elements of the given array with the elements of another array.
+helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","Copy method","CHStringArray.Copy","CHStringArray::Copy","Copy","Copy method [Windows Management Instrumentation]","Copy method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_copy","chstrarr/CHStringArray::Copy","wmi.chstringarray_copy"]
 old-location: wmi\chstringarray_copy.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 9598340f-c315-4c93-bc8a-2b7c1eaf5a35
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],Copy method, CHStringArray.Copy, CHStringArray::Copy, Copy, Copy method [Windows Management Instrumentation], Copy method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_copy, chstrarr/CHStringArray::Copy, wmi.chstringarray_copy
-f1_keywords:
-- chstrarr/CHStringArray.Copy
-dev_langs:
-- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CHStringArray.Copy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CHStringArray::Copy
+ - chstrarr/CHStringArray::Copy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CHStringArray.Copy
 ---
 
 # CHStringArray::Copy
@@ -49,38 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>Copy</b> method overwrites the elements of the given array with the elements of another array.
 
-
 ## -parameters
-
-
-
 
 ### -param src [ref]
 
 Source of the elements to be copied to the array.
 
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Copy</b> method does not free memory, but it allocates extra memory to accommodate the elements copied to the array.
 
@@ -108,25 +97,14 @@ for (idx=0; idx<size; idx++)
    printf("[%d]: %S\n", idx, a1[idx]);
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-add">CHStringArray::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-add">CHStringArray::Add</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-append">CHStringArray::Append</a>
- 
-
- 
-
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-append">CHStringArray::Append</a>

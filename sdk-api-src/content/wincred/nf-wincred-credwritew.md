@@ -1,16 +1,13 @@
 ---
 UID: NF:wincred.CredWriteW
 title: CredWriteW function (wincred.h)
-description: Creates a new credential or modifies an existing credential in the user's credential set.
+description: Creates a new credential or modifies an existing credential in the user's credential set. (Unicode)
+helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB", "CredWrite", "CredWrite function [Security]", "CredWriteW", "_cred_credwrite", "security.credwrite", "wincred/CredWrite", "wincred/CredWriteW"]
 old-location: security\credwrite.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 9a590347-d610-4916-bf63-60fbec173ac2
 ms.date: 12/05/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWrite, CredWrite function [Security], CredWriteA, CredWriteW, _cred_credwrite, security.credwrite, wincred/CredWrite, wincred/CredWriteA, wincred/CredWriteW
-f1_keywords:
-- wincred/CredWrite
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredWrite
-- CredWriteA
-- CredWriteW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredWriteW
+ - wincred/CredWriteW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredWrite
+ - CredWriteA
+ - CredWriteW
 ---
 
 # CredWriteW function
@@ -54,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CredWrite</b> function creates a new credential or modifies an existing credential in the user's credential set. The new credential is associated with the logon session of the current token. The token must not have the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) disabled.
-
+The <b>CredWrite</b> function creates a new credential or modifies an existing credential in the user's credential set. The new credential is associated with the logon session of the current token. The token must not have the user's <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) disabled.
 
 ## -parameters
 
-
-
-
 ### -param Credential [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure to be written.
-
+A pointer to the <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure to be written.
 
 ### -param Flags [in]
 
@@ -89,16 +85,12 @@ The credential BLOB from an existing credential is preserved with the same crede
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get a more specific status code. The following status codes can be returned.
+If the function fails, it returns <b>FALSE</b>. Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get a more specific status code. The following status codes can be returned.
 
 Other smart card errors can be returned when writing a CRED_TYPE_CERTIFICATE credential.
 
@@ -204,31 +196,22 @@ The wrong PIN was supplied for the CRED_TYPE_CERTIFICATE credential being writte
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function creates a credential if a credential with the specified <b>TargetName</b> and <b>Type</b> does not exist. If a credential with the specified <b>TargetName</b> and <b>Type</b> exists, the new specified credential replaces the existing one.
 
-When this function writes a CRED_TYPE_CERTIFICATE credential, the <i>Credential</i>-&gt;<b>CredentialBlob</b> member specifies the PIN protecting the private key of the certificate specified by the <i>Credential</i>-&gt;<b>UserName</b> member. The credential manager does not maintain the PIN. Rather, the PIN is passed to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) indicated on the certificate for later use by the CSP and the authentication packages. The CSP defines the lifetime of the PIN. Most CSPs flush the PIN when the smart card removal from the smart card reader.
+When this function writes a CRED_TYPE_CERTIFICATE credential, the <i>Credential</i>-&gt;<b>CredentialBlob</b> member specifies the PIN protecting the private key of the certificate specified by the <i>Credential</i>-&gt;<b>UserName</b> member. The credential manager does not maintain the PIN. Rather, the PIN is passed to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) indicated on the certificate for later use by the CSP and the authentication packages. The CSP defines the lifetime of the PIN. Most CSPs flush the PIN when the smart card removal from the smart card reader.
 
-If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function does not support writing to target names that contain wildcards. 
+If the value of the <b>Type</b> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name. This function does not support writing to target names that contain wildcards. 
 
 
 
+
+
+> [!NOTE]
+> The wincred.h header defines CredWrite as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a>

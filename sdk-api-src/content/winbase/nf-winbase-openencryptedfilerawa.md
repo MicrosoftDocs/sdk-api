@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.OpenEncryptedFileRawA
 title: OpenEncryptedFileRawA function (winbase.h)
-description: Opens an encrypted file in order to backup (export) or restore (import) the file.
+description: Opens an encrypted file in order to backup (export) or restore (import) the file. (ANSI)
+helpviewer_keywords: ["CREATE_FOR_DIR", "CREATE_FOR_IMPORT", "OVERWRITE_HIDDEN", "OpenEncryptedFileRawA", "winbase/OpenEncryptedFileRawA"]
 old-location: fs\openencryptedfileraw.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f792f38d-783e-4f39-a9d8-0c378d508d97
 ms.date: 12/05/2018
 ms.keywords: CREATE_FOR_DIR, CREATE_FOR_IMPORT, OVERWRITE_HIDDEN, OpenEncryptedFileRaw, OpenEncryptedFileRaw function [Files], OpenEncryptedFileRawA, OpenEncryptedFileRawW, base.openencryptedfileraw, fs.openencryptedfileraw, winbase/OpenEncryptedFileRaw, winbase/OpenEncryptedFileRawA, winbase/OpenEncryptedFileRawW
-f1_keywords:
-- winbase/OpenEncryptedFileRaw
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
-- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
-api_name:
-- OpenEncryptedFileRaw
-- OpenEncryptedFileRawA
-- OpenEncryptedFileRawW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenEncryptedFileRawA
+ - winbase/OpenEncryptedFileRawA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
+ - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+api_name:
+ - OpenEncryptedFileRaw
+ - OpenEncryptedFileRawA
+ - OpenEncryptedFileRawW
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # OpenEncryptedFileRawA function
@@ -52,20 +55,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an encrypted file in order to backup (export) or restore (import)
 the file.  This is one of a group of Encrypted File System (EFS) functions that is intended  to implement backup and restore functionality, while maintaining files in their encrypted state.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the file to be opened. The string must consist of characters from the Windows character set.
-
 
 ### -param ulFlags [in]
 
@@ -124,52 +121,42 @@ Overwrite a hidden file on import.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvContext [out]
 
 The address of a  context
          block that must be presented in subsequent calls to 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>, or 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.  Do not modify it.
-
+         <a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>, <a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>, or 
+         <a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.  Do not modify it.
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns a nonzero error code defined in
-      WinError.h. You can use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the
+      WinError.h. You can use <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> with the
       <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to get a generic text description of
       the error.
 
-
-
-
 ## -remarks
 
-
-
-The caller must either have read or write access to the file, or it must have backup privilege <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> on the machine on which the files reside in order for the call to succeed.
+The caller must either have read or write access to the file, or it must have backup privilege <a href="/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> on the machine on which the files reside in order for the call to succeed.
 
 To back up an encrypted file, call <b>OpenEncryptedFileRaw</b> to open the
-      file and then call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. When the backup is
-      complete, call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
+      file and then call <a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>. When the backup is
+      complete, call <a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
 
 To restore an encrypted file, call <b>OpenEncryptedFileRaw</b>, specifying
       <b>CREATE_FOR_IMPORT</b> in the <i>ulFlags</i> parameter, and then call
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a> once. When the operation is completed, call
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
+      <a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a> once. When the operation is completed, call
+      <a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>.
 
 <b>OpenEncryptedFileRaw</b> fails if <i>lpFileName</i> exceeds <b>MAX_PATH</b> characters when opening an encrypted file on a remote machine.
 
- If the caller does not have access to the key for the file, the caller needs <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> to export encrypted files or SeRestorePrivilege to import encrypted files.
+ If the caller does not have access to the key for the file, the caller needs <a href="/windows/desktop/SecAuthZ/authorization-constants">SeBackupPrivilege</a> to export encrypted files or SeRestorePrivilege to import encrypted files.
 
 
-The  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> functions handle backup and restore of unencrypted files.
+The  <a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> and <a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> functions handle backup and restore of unencrypted files.
 
 In Windows 8, Windows Server 2012, and later, this function is supported by the following technologies.
 
@@ -236,37 +223,34 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines OpenEncryptedFileRaw as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeencryptedfileraw">CloseEncryptedFileRaw</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>

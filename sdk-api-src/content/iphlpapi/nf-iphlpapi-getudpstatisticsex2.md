@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.GetUdpStatisticsEx2
 title: GetUdpStatisticsEx2 function (iphlpapi.h)
 description: The GetUdpStatisticsEx2 function retrieves the User Datagram Protocol (UDP) statistics for the current computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","GetUdpStatisticsEx2","GetUdpStatisticsEx2 function [IP Helper]","iphlp.getudpstatisticsex2","iphlpapi/GetUdpStatisticsEx2"]
 old-location: iphlp\getudpstatisticsex2.htm
 tech.root: IpHlp
 ms.assetid: 8DE392C5-90EF-490D-B53A-58D75A854138
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx2, GetUdpStatisticsEx2 function [IP Helper], iphlp.getudpstatisticsex2, iphlpapi/GetUdpStatisticsEx2
-f1_keywords:
-- iphlpapi/GetUdpStatisticsEx2
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetUdpStatisticsEx2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetUdpStatisticsEx2
+ - iphlpapi/GetUdpStatisticsEx2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetUdpStatisticsEx2
 ---
 
 # GetUdpStatisticsEx2 function
@@ -48,24 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetUdpStatisticsEx2</b> function retrieves the User Datagram Protocol (UDP) statistics for the current computer. The 
 <b>GetUdpStatisticsEx2</b> function differs from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatisticsex">GetUdpStatisticsEx</a> function in that 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatisticsex">GetUdpStatisticsEx</a> function in that 
 <b>GetUdpStatisticsEx2</b> uses a new output structure that contains 64-bit counters, rather than 32-bit counters.
 
-
 ## -parameters
-
-
-
 
 ### -param Statistics [out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Mt804346(v=VS.85).aspx">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
-
+<a href="../udpmib/ns-udpmib-mib_udpstats2.md">MIB_UDPSTATS2</a> structure that receives the UDP statistics for the local computer.
 
 ### -param Family [in]
 
@@ -99,12 +95,8 @@ Internet Protocol version 6 (IPv6).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -145,43 +137,32 @@ This function is not supported on the operating system on which the function cal
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatisticsex">GetIpStatisticsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipstatisticsex">GetIpStatisticsEx</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex">GetTcpStatisticsEx</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatistics">GetUdpStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getudpstatistics">GetUdpStatistics</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a>

@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IPreviewHandler.DoPreview
 title: IPreviewHandler::DoPreview (shobjidl_core.h)
 description: Directs the preview handler to load data from the source specified in an earlier Initialize method call, and to begin rendering to the previewer window.
+helpviewer_keywords: ["DoPreview","DoPreview method [Windows Shell]","DoPreview method [Windows Shell]","IPreviewHandler interface","IPreviewHandler interface [Windows Shell]","DoPreview method","IPreviewHandler.DoPreview","IPreviewHandler::DoPreview","_shell_IPreviewHandler_DoPreview","shell.IPreviewHandler_DoPreview","shobjidl_core/IPreviewHandler::DoPreview"]
 old-location: shell\IPreviewHandler_DoPreview.htm
 tech.root: shell
 ms.assetid: f6bad84f-9089-4905-ad4d-9b69ff9d11d6
 ms.date: 12/05/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
-f1_keywords:
-- shobjidl_core/IPreviewHandler.DoPreview
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IPreviewHandler.DoPreview
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later
 ms.custom: 19H1
+f1_keywords:
+ - IPreviewHandler::DoPreview
+ - shobjidl_core/IPreviewHandler::DoPreview
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IPreviewHandler.DoPreview
 ---
 
 # IPreviewHandler::DoPreview
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Directs the preview handler to load data from the source specified in an earlier Initialize method call, and to begin rendering to the previewer window.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -128,23 +121,15 @@ Item was corrupt.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If the previewer window has not yet been created, then it must be created after this method has been called. The preview handler is responsible for painting the area specified in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect">IPreviewHandler::SetRect</a>.  If these methods are called while the preview handler is rendering, the window must be reparented/resized without stopping or restarting the rendering of the item.
 
+This method should be called only after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> has been called.
 
-If the previewer window has not yet been created, then it must be created after this method has been called. The preview handler is responsible for painting the area specified in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setrect">IPreviewHandler::SetRect</a>.  If these methods are called while the preview handler is rendering, the window must be reparented/resized without stopping or restarting the rendering of the item.
-
-This method should be called only after <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> has been called.
-
-Aditionally, this method should be called only after <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize">Initialize</a>, <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> has been called.
+Additionally, this method should be called only after <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithitem-initialize">Initialize</a>, <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a>, or <a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithfile-initialize">Initialize</a> has been called.
             
 
 <div class="alert"><b>Note</b>  Do not actually create the previewer window until this method has been called.</div>
 <div> </div>
-
-

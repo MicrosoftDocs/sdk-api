@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_MonthsOfYear
 title: IMonthlyDOWTrigger::put_MonthsOfYear (taskschd.h)
-description: Gets or sets the months of the year during which the task runs.
+description: Gets or sets the months of the year during which the task runs. (IMonthlyDOWTrigger.put_MonthsOfYear)
+helpviewer_keywords: ["IMonthlyDOWTrigger interface [Task Scheduler]","MonthsOfYear property","IMonthlyDOWTrigger.MonthsOfYear","IMonthlyDOWTrigger.put_MonthsOfYear","IMonthlyDOWTrigger::MonthsOfYear","IMonthlyDOWTrigger::get_MonthsOfYear","IMonthlyDOWTrigger::put_MonthsOfYear","MonthsOfYear property [Task Scheduler]","MonthsOfYear property [Task Scheduler]","IMonthlyDOWTrigger interface","put_MonthsOfYear","taskschd.imonthlydowtrigger_monthsofyear","taskschd/IMonthlyDOWTrigger::MonthsOfYear","taskschd/IMonthlyDOWTrigger::get_MonthsOfYear","taskschd/IMonthlyDOWTrigger::put_MonthsOfYear"]
 old-location: taskschd\imonthlydowtrigger_monthsofyear.htm
 tech.root: taskschd
 ms.assetid: cbc246cf-c577-49a5-8a4e-4b00be5c3e9d
 ms.date: 12/05/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],MonthsOfYear property, IMonthlyDOWTrigger.MonthsOfYear, IMonthlyDOWTrigger.put_MonthsOfYear, IMonthlyDOWTrigger::MonthsOfYear, IMonthlyDOWTrigger::get_MonthsOfYear, IMonthlyDOWTrigger::put_MonthsOfYear, MonthsOfYear property [Task Scheduler], MonthsOfYear property [Task Scheduler],IMonthlyDOWTrigger interface, put_MonthsOfYear, taskschd.imonthlydowtrigger_monthsofyear, taskschd/IMonthlyDOWTrigger::MonthsOfYear, taskschd/IMonthlyDOWTrigger::get_MonthsOfYear, taskschd/IMonthlyDOWTrigger::put_MonthsOfYear
-f1_keywords:
-- taskschd/IMonthlyDOWTrigger.MonthsOfYear
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IMonthlyDOWTrigger.MonthsOfYear
-- IMonthlyDOWTrigger.get_MonthsOfYear
-- IMonthlyDOWTrigger.put_MonthsOfYear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMonthlyDOWTrigger::put_MonthsOfYear
+ - taskschd/IMonthlyDOWTrigger::put_MonthsOfYear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IMonthlyDOWTrigger.MonthsOfYear
+ - IMonthlyDOWTrigger.get_MonthsOfYear
+ - IMonthlyDOWTrigger.put_MonthsOfYear
 ---
 
 # IMonthlyDOWTrigger::put_MonthsOfYear
@@ -50,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the months of the year during which the task runs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following table shows the mapping of the bitwise mask used by this property.<table>
 <tr>
@@ -134,22 +131,12 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 
 
-When reading or writing XML for a task, the months of the year of a monthly day-of-week calendar are specified by the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-months-monthlydayofweekscheduletype-element">Months</a> element of the Task Scheduler schema.
-
-
-
+When reading or writing XML for a task, the months of the year of a monthly day-of-week calendar are specified by the <a href="/windows/desktop/TaskSchd/taskschedulerschema-months-monthlydayofweekscheduletype-element">Months</a> element of the Task Scheduler schema.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger">IMonthlyDOWTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger">IMonthlyDOWTrigger</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

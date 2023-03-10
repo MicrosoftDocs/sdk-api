@@ -2,15 +2,12 @@
 UID: NS:lmshare._SHARE_INFO_503
 title: SHARE_INFO_503 (lmshare.h)
 description: Contains information about the shared resource. It is identical to the SHARE_INFO_502 structure, except that it also contains the server name.
+helpviewer_keywords: ["*LPSHARE_INFO_503","*PSHARE_INFO_503","ACCESS_ALL","ACCESS_ATRIB","ACCESS_CREATE","ACCESS_DELETE","ACCESS_EXEC","ACCESS_PERM","ACCESS_READ","ACCESS_WRITE","LPSHARE_INFO_503","LPSHARE_INFO_503 structure pointer [Files]","PSHARE_INFO_503","PSHARE_INFO_503 structure pointer [Files]","SHARE_INFO_503","SHARE_INFO_503 structure [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","fs.share_info_503","fs.share_info_503_str","lmshare/LPSHARE_INFO_503","lmshare/PSHARE_INFO_503","lmshare/SHARE_INFO_503"]
 old-location: fs\share_info_503_str.htm
-tech.root: NetShare
+tech.root: fs
 ms.assetid: 12650bc0-f67d-464e-8386-a0fd53cdc749
 ms.date: 12/05/2018
 ms.keywords: '*LPSHARE_INFO_503, *PSHARE_INFO_503, ACCESS_ALL, ACCESS_ATRIB, ACCESS_CREATE, ACCESS_DELETE, ACCESS_EXEC, ACCESS_PERM, ACCESS_READ, ACCESS_WRITE, LPSHARE_INFO_503, LPSHARE_INFO_503 structure pointer [Files], PSHARE_INFO_503, PSHARE_INFO_503 structure pointer [Files], SHARE_INFO_503, SHARE_INFO_503 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, fs.share_info_503, fs.share_info_503_str, lmshare/LPSHARE_INFO_503, lmshare/PSHARE_INFO_503, lmshare/SHARE_INFO_503'
-f1_keywords:
-- lmshare/SHARE_INFO_503
-dev_langs:
-- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmshare.h
-api_name:
-- SHARE_INFO_503
 targetos: Windows
 req.typenames: SHARE_INFO_503, *PSHARE_INFO_503, *LPSHARE_INFO_503
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SHARE_INFO_503
+ - lmshare/_SHARE_INFO_503
+ - PSHARE_INFO_503
+ - lmshare/PSHARE_INFO_503
+ - SHARE_INFO_503
+ - lmshare/SHARE_INFO_503
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmshare.h
+api_name:
+ - SHARE_INFO_503
 ---
 
 # SHARE_INFO_503 structure
@@ -48,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about the shared resource. It is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a> structure, except that it also contains the server name.
-
+Contains information about the shared resource. It is identical to the <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_502">SHARE_INFO_502</a> structure, except that it also contains the server name.
 
 ## -struct-fields
-
-
-
 
 ### -field shi503_netname
 
 A pointer to a Unicode string specifying the name of a shared resource. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi503_type
 
 A combination of values that specify the type of share. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 One of the following values may be specified. You can isolate these values by using the <b>STYPE_MASK</b> value.
 
@@ -137,7 +137,7 @@ In addition, one or both of the following values may be specified.
 </td>
 <td width="60%">
 Special share reserved for interprocess communication (IPC$) or remote administration of the server (ADMIN$). Can also refer to administrative shares such as C$, D$, E$, and so forth. For more information, see the network 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">share functions</a>.
+<a href="/windows/desktop/NetShare/network-share-functions">share functions</a>.
 
 </td>
 </tr>
@@ -153,17 +153,14 @@ A temporary share.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field shi503_remark
 
 A pointer to a Unicode string specifying an optional comment about the shared resource.
 
-
 ### -field shi503_permissions
 
-Specifies a DWORD value that indicates the shared resource's permissions for servers running with share-level security. Note that Windows does not support share-level security. This member is ignored on a server running user-level security. For more information about controlling access to securable objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">Securable Objects</a>. 
+Specifies a DWORD value that indicates the shared resource's permissions for servers running with share-level security. Note that Windows does not support share-level security. This member is ignored on a server running user-level security. For more information about controlling access to securable objects, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>, <a href="/windows/desktop/SecAuthZ/privileges">Privileges</a>, and <a href="/windows/desktop/SecAuthZ/securable-objects">Securable Objects</a>. 
 
 
 
@@ -171,7 +168,7 @@ Specifies a DWORD value that indicates the shared resource's permissions for ser
 
 
 Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 This member can be any of the following values.
 
@@ -269,25 +266,20 @@ Permission to read, write, create, execute, and delete resources, and to modify 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field shi503_max_uses
 
 Specifies a DWORD value that indicates the maximum number of concurrent connections that the shared resource can accommodate. The number of connections is unlimited if the value specified in this member is –1.
 
-
 ### -field shi503_current_uses
 
 Specifies a DWORD value that indicates the number of current connections to the resource. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi503_path
 
 A pointer to a Unicode string that contains the local path for the shared resource. For disks, this member is the path being shared. For print queues, this member is the name of the print queue being shared. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi503_passwd
 
@@ -297,78 +289,62 @@ A pointer to a Unicode string that specifies the share's password (when the serv
 
 
 This member can be no longer than SHPWLEN+1 bytes (including a terminating null character). Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi503_servername
 
 A pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the shared resource resides. A value of "*" indicates no configured server name.
 
-
 ### -field shi503_reserved
 
 Reserved; must be zero. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi503_security_descriptor
 
 Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> associated with this share.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> associated with this share.
 
 ## -remarks
 
-
-
-The remote server specified in the <b>shi503_servername</b> member must have been bound to a transport protocol using the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> value must have been specified in the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_2">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
-
-
-
+The remote server specified in the <b>shi503_servername</b> member must have been bound to a transport protocol using the <a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> value must have been specified in the <a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_2">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
 
 ## -see-also
 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportaddex">NetServerTransportAddEx</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsessiondel">NetSessionDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiondel">NetSessionDel</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharedelex">NetShareDelEx</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

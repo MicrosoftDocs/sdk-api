@@ -2,15 +2,12 @@
 UID: NF:mi.MI_DestinationOptions_SetTransport
 title: MI_DestinationOptions_SetTransport function (mi.h)
 description: Sets the transport to be used to communicate with the destination machine.
+helpviewer_keywords: ["MI_DESTINATIONOPTIONS_TRANPSORT_HTTPS","MI_DESTINATIONOPTIONS_TRANSPORT_HTTP","MI_DestinationOptions_SetTransport","MI_DestinationOptions_SetTransport function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetTransport","wmi_v2.mi_destinationoptions_settransport"]
 old-location: wmi_v2\mi_destinationoptions_settransport.htm
 tech.root: wmi_v2
 ms.assetid: 998ac6ee-29a4-49bf-8ca1-01b7afddd33f
 ms.date: 12/05/2018
 ms.keywords: MI_DESTINATIONOPTIONS_TRANPSORT_HTTPS, MI_DESTINATIONOPTIONS_TRANSPORT_HTTP, MI_DestinationOptions_SetTransport, MI_DestinationOptions_SetTransport function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetTransport, wmi_v2.mi_destinationoptions_settransport
-f1_keywords:
-- mi/MI_DestinationOptions_SetTransport
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_DestinationOptions_SetTransport
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_DestinationOptions_SetTransport
+ - mi/MI_DestinationOptions_SetTransport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_DestinationOptions_SetTransport
 ---
 
 # MI_DestinationOptions_SetTransport function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the transport to be used to communicate with the destination machine.
-
 
 ## -parameters
 
-
-
-
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object returned from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> function.
-
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object returned from the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a> function.
 
 ### -param transport
 
@@ -78,40 +74,22 @@ HTTP protocol. Even with HTTP, some authentication schemes allow the payload to 
 
 HTTPS protocol where the channel is encrypted. Note the misspelling of "TRANPSORT".
 
-
 ## -returns
 
-
-
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
-
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
-
-
 Not all protocols allow different underlying transports to be selected. If not supported, this setting will be ignored.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_gettransport">MI_DestinationOptions_GetTransport</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_gettransport">MI_DestinationOptions_GetTransport</a>

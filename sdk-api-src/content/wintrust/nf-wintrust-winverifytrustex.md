@@ -2,15 +2,12 @@
 UID: NF:wintrust.WinVerifyTrustEx
 title: WinVerifyTrustEx function (wintrust.h)
 description: Performs a trust verification action on a specified object and takes a pointer to a WINTRUST_DATA structure.
+helpviewer_keywords: ["A valid window handle","DRIVER_ACTION_VERIFY","HTTPSPROV_ACTION","INVALID_HANDLE_VALUE","OFFICESIGN_ACTION_VERIFY","WINTRUST_ACTION_GENERIC_CERT_VERIFY","WINTRUST_ACTION_GENERIC_CHAIN_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WINTRUST_ACTION_TRUSTPROVIDER_TEST","WinVerifyTrustEx","WinVerifyTrustEx function [Security]","Zero","security.winverifytrustex","wintrust/WinVerifyTrustEx"]
 old-location: security\winverifytrustex.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 209c9953-a4a5-4ff0-961f-92e97ccce23d
 ms.date: 12/05/2018
 ms.keywords: A valid window handle, DRIVER_ACTION_VERIFY, HTTPSPROV_ACTION, INVALID_HANDLE_VALUE, OFFICESIGN_ACTION_VERIFY, WINTRUST_ACTION_GENERIC_CERT_VERIFY, WINTRUST_ACTION_GENERIC_CHAIN_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WINTRUST_ACTION_TRUSTPROVIDER_TEST, WinVerifyTrustEx, WinVerifyTrustEx function [Security], Zero, security.winverifytrustex, wintrust/WinVerifyTrustEx
-f1_keywords:
-- wintrust/WinVerifyTrustEx
-dev_langs:
-- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -28,36 +25,35 @@ req.type-library:
 req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- WinVerifyTrustEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinVerifyTrustEx
+ - wintrust/WinVerifyTrustEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - WinVerifyTrustEx
 ---
 
 # WinVerifyTrustEx function
 
-
 ## -description
 
+The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier.
 
-The <b>WinVerifyTrustEx</b> function performs a trust verification action on a specified object and takes a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure. The function passes the inquiry to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>, if one exists, that supports the action identifier. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
-
-For certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
-
+For certificate verification, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -101,12 +97,10 @@ A trust provider can treat any value other than INVALID_HANDLE_VALUE or zero as 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pgActionID [in]
 
-A pointer to a <b>GUID</b> structure that identifies an action and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> that supports that action. This value indicates the type of verification action to be performed on the structure pointed to by <i>pWinTrustData</i>.
+A pointer to a <b>GUID</b> structure that identifies an action and the <a href="/windows/desktop/SecGloss/t-gly">trust provider</a> that supports that action. This value indicates the type of verification action to be performed on the structure pointed to by <i>pWinTrustData</i>.
 
 The WinTrust service is designed to work with trust providers implemented by third parties. Each trust provider provides its own unique set of action identifiers. For information about the action identifiers supported by a trust provider, see the documentation for that trust provider.
 
@@ -161,9 +155,9 @@ Authenticode add-on policy provider.
 <td width="60%">
 Verify
 a certificate chain only.  This is only valid when passing in a
-certificate context in the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> input structures.
+certificate context in the <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> input structures.
 
-<div class="alert"><b>Note</b>  We do not recommend  using this function to perform certificate verification. To perform certificate verification, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.</div>
+<div class="alert"><b>Note</b>  We do not recommend  using this function to perform certificate verification. To perform certificate verification, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> and <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> functions.</div>
 <div> </div>
 </td>
 </tr>
@@ -197,28 +191,25 @@ Verify a file or object using the Authenticode policy provider.
 </td>
 <td width="60%">
 Write
-the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure to a file after calling the
+the <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_data">CRYPT_PROVIDER_DATA</a> structure to a file after calling the
 Authenticode policy provider.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pWinTrustData [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure that contains information that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
+<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure that contains information that the <a href="/windows/desktop/SecGloss/t-gly">trust provider</a> needs to process the specified action identifier. Typically, the structure includes information that identifies the object that the trust provider must evaluate.
 
 The format of the structure depends on the action identifier. For information about the data required for a specific action identifier, see the documentation for the trust provider that supports that action.
 
-
 ## -returns
 
+Note, while the return type is declared as HRESULT this API returns Win32 error codes, do not use SUCCEEDED() or FAILED() to test the result.
 
-
-If the trust provider verifies that the subject is trusted for the specified action, the return value is ERROR_SUCCESS. Otherwise, the function returns a status code from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">trust provider</a>.
+If the trust provider verifies that the subject is trusted for the specified action, the return value is ERROR_SUCCESS. Otherwise, the function returns a status code from the <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>.
 
 For example, a trust provider might indicate that the subject is not trusted, or is trusted but with limitations or warnings. The return value can be a trust provider–specific value described in the documentation for an individual trust provider, or it can be one of the following error codes.
 
@@ -236,7 +227,7 @@ For example, a trust provider might indicate that the subject is not trusted, or
 <td width="60%">
 The subject failed the specified verification action. Most trust providers return a more detailed error code that describes the reason for the failure.
 
-<div class="alert"><b>Note</b>  <p class="note">The <b>TRUST_E_SUBJECT_NOT_TRUSTED</b> return code may be returned depending on the value of the <b>EnableCertPaddingCheck</b> registry key under <b>HKLM\Software\Microsoft\Cryptography\Wintrust\Config</b>. If <b>EnableCertPaddingCheck</b> is set to "1", then an additional check is performed to verify that the <b>WIN_CERTIFICATE</b> structure does not contain extraneous information. The check validates that there is no non-zero data beyond the PKCS #7 structure. The <b>EnableCertPaddingCheck</b> key will be set to "1" by default on June 10, 2014. For more information, please refer to the following security advisory: <a href="https://technet.microsoft.com/library/security/2915720">http://technet.microsoft.com/security/advisory/2915720#section1</a>.
+<div class="alert"><b>Note</b>  <p class="note">The <b>TRUST_E_SUBJECT_NOT_TRUSTED</b> return code may be returned depending on the value of the <b>EnableCertPaddingCheck</b> registry key under <b>HKLM\Software\Microsoft\Cryptography\Wintrust\Config</b>. If <b>EnableCertPaddingCheck</b> is set to "1", then an additional check is performed to verify that the <b>WIN_CERTIFICATE</b> structure does not contain extraneous information. The check validates that there is no non-zero data beyond the PKCS #7 structure. The <b>EnableCertPaddingCheck</b> key will be set to "1" by default on June 10, 2014. For more information, please refer to the following security advisory: <a href="/security-updates/SecurityAdvisories/2014/2915720">http://technet.microsoft.com/security/advisory/2915720#section1</a>.
 
 </div>
 <div> </div>
@@ -276,7 +267,3 @@ The trust provider does not support the form specified for the subject.
 </td>
 </tr>
 </table>
- 
-
-
-

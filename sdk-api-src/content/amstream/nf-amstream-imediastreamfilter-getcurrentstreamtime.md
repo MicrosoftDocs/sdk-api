@@ -2,15 +2,12 @@
 UID: NF:amstream.IMediaStreamFilter.GetCurrentStreamTime
 title: IMediaStreamFilter::GetCurrentStreamTime (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The GetCurrentStreamTime method retrieves the current stream time.
+helpviewer_keywords: ["GetCurrentStreamTime","GetCurrentStreamTime method [DirectShow]","GetCurrentStreamTime method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","GetCurrentStreamTime method","IMediaStreamFilter.GetCurrentStreamTime","IMediaStreamFilter::GetCurrentStreamTime","IMediaStreamFilterGetCurrentStreamTime","amstream/IMediaStreamFilter::GetCurrentStreamTime","dshow.imediastreamfilter_getcurrentstreamtime"]
 old-location: dshow\imediastreamfilter_getcurrentstreamtime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
 ms.date: 12/05/2018
 ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
-f1_keywords:
-- amstream/IMediaStreamFilter.GetCurrentStreamTime
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IMediaStreamFilter.GetCurrentStreamTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaStreamFilter::GetCurrentStreamTime
+ - amstream/IMediaStreamFilter::GetCurrentStreamTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IMediaStreamFilter.GetCurrentStreamTime
 ---
 
 # IMediaStreamFilter::GetCurrentStreamTime
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <b>GetCurrentStreamTime</b> method retrieves the current stream time.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCurrentStreamTime [out]
 
 Pointer to a variable that receives the stream time, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,27 +103,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Stream time is defined only when the graph is running and has a reference clock. Otherwise, *<i>pCurrentStreamTime</i> is set to zero and the method returns S_FALSE.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>

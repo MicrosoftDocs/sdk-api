@@ -2,15 +2,12 @@
 UID: NF:commctrl.ListView_GetOrigin
 title: ListView_GetOrigin macro (commctrl.h)
 description: Gets the current view origin for a list-view control. You can use this macro or send the LVM_GETORIGIN message explicitly.
+helpviewer_keywords: ["ListView_GetOrigin","ListView_GetOrigin macro [Windows Controls]","_win32_ListView_GetOrigin","_win32_ListView_GetOrigin_cpp","commctrl/ListView_GetOrigin","controls.ListView_GetOrigin","controls._win32_ListView_GetOrigin"]
 old-location: controls\ListView_GetOrigin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getorigin.htm
 ms.date: 12/05/2018
 ms.keywords: ListView_GetOrigin, ListView_GetOrigin macro [Windows Controls], _win32_ListView_GetOrigin, _win32_ListView_GetOrigin_cpp, commctrl/ListView_GetOrigin, controls.ListView_GetOrigin, controls._win32_ListView_GetOrigin
-f1_keywords:
-- commctrl/ListView_GetOrigin
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- ListView_GetOrigin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListView_GetOrigin
+ - commctrl/ListView_GetOrigin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - ListView_GetOrigin
 ---
 
 # ListView_GetOrigin macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the current view origin for a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getorigin">LVM_GETORIGIN</a> message explicitly. 
-
+Gets the current view origin for a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getorigin">LVM_GETORIGIN</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the list-view control. 
-
+A handle to the list-view control.
 
 ### -param ppt
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the view origin. 
-
+A pointer to a <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that receives the view origin.

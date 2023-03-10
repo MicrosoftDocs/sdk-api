@@ -2,15 +2,12 @@
 UID: NS:winioctl._CSV_NAMESPACE_INFO
 title: CSV_NAMESPACE_INFO
 description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.
+helpviewer_keywords: ["*PCSV_NAMESPACE_INFO","CSV_NAMESPACE_INFO","CSV_NAMESPACE_INFO structure [Files]","CSV_NAMESPACE_INFO_V1","PCSV_NAMESPACE_INFO","PCSV_NAMESPACE_INFO structure pointer [Files]","fs.csv_namespace_info","winioctl/CSV_NAMESPACE_INFO","winioctl/PCSV_NAMESPACE_INFO"]
 old-location: fs\csv_namespace_info.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4
 ms.date: 12/05/2018
 ms.keywords: '*PCSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO, CSV_NAMESPACE_INFO structure [Files], CSV_NAMESPACE_INFO_V1, PCSV_NAMESPACE_INFO, PCSV_NAMESPACE_INFO structure pointer [Files], fs.csv_namespace_info, winioctl/CSV_NAMESPACE_INFO, winioctl/PCSV_NAMESPACE_INFO'
-f1_keywords:
-- winioctl/CSV_NAMESPACE_INFO
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- CSV_NAMESPACE_INFO
 targetos: Windows
 req.typenames: CSV_NAMESPACE_INFO, *PCSV_NAMESPACE_INFO
 req.redist: 
+f1_keywords:
+ - _CSV_NAMESPACE_INFO
+ - winioctl/_CSV_NAMESPACE_INFO
+ - PCSV_NAMESPACE_INFO
+ - winioctl/PCSV_NAMESPACE_INFO
+ - CSV_NAMESPACE_INFO
+ - winioctl/CSV_NAMESPACE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - CSV_NAMESPACE_INFO
 ---
 
 # CSV_NAMESPACE_INFO structure
@@ -47,15 +53,10 @@ req.redist:
 
 ## -description
 
-
-Contains the output for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file">FSCTL_IS_CSV_FILE</a> 
+Contains the output for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file">FSCTL_IS_CSV_FILE</a> 
     control code that retrieves namespace information for a file.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
@@ -77,35 +78,23 @@ Version 1.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DeviceNumber
 
 The device number of the disk.
 
-
 ### -field StartingOffset
 
 The starting offset of the volume.
-
 
 ### -field SectorSize
 
 The sector size of the disk.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file">FSCTL_IS_CSV_FILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_is_csv_file">FSCTL_IS_CSV_FILE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

@@ -2,15 +2,12 @@
 UID: NS:qossp._CONTROL_SERVICE
 title: CONTROL_SERVICE (qossp.h)
 description: The CONTROL_SERVICE structure contains supported RSVP service types.
+helpviewer_keywords: ["*LPCONTROL_SERVICE","*LPCONTROL_SERVICE structure [QOS]","CONTROL_SERVICE","CONTROL_SERVICE structure [QOS]","SERVICETYPE_BESTEFFORT","SERVICETYPE_CONTROLLEDLOAD","SERVICETYPE_GENERAL_INFORMATION","SERVICETYPE_GUARANTEED","SERVICETYPE_NETWORK_CONTROL","SERVICETYPE_NETWORK_UNAVAILABLE","SERVICETYPE_NOCHANGE","SERVICETYPE_NONCONFORMING","SERVICETYPE_NOTRAFFIC","SERVICETYPE_QUALITATIVE","qos.control_service","qossp/*LPCONTROL_SERVICE","qossp/CONTROL_SERVICE"]
 old-location: qos\control_service.htm
 tech.root: QOS
 ms.assetid: 604d7be8-955b-40a3-9cb4-6cbfbeeaa105
 ms.date: 12/05/2018
 ms.keywords: '*LPCONTROL_SERVICE, *LPCONTROL_SERVICE structure [QOS], CONTROL_SERVICE, CONTROL_SERVICE structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILABLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, qos.control_service, qossp/*LPCONTROL_SERVICE, qossp/CONTROL_SERVICE'
-f1_keywords:
-- qossp/CONTROL_SERVICE
-dev_langs:
-- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Qossp.h
-api_name:
-- CONTROL_SERVICE
 targetos: Windows
 req.typenames: CONTROL_SERVICE, *LPCONTROL_SERVICE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CONTROL_SERVICE
+ - qossp/_CONTROL_SERVICE
+ - LPCONTROL_SERVICE
+ - qossp/LPCONTROL_SERVICE
+ - CONTROL_SERVICE
+ - qossp/CONTROL_SERVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Qossp.h
+api_name:
+ - CONTROL_SERVICE
 ---
 
 # CONTROL_SERVICE structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CONTROL_SERVICE</b> structure contains supported RSVP service types.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Length
 
 Length of the entire structure, in bytes.
-
 
 ### -field Service
 
@@ -172,44 +172,27 @@ Qualitative service.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Overrides
 
-Specifies overrides to service specifications, expressed in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-ad_general_params">AD_GENERAL_PARAMS</a> structure.
-
+Specifies overrides to service specifications, expressed in the form of an <a href="/windows/desktop/api/qossp/ns-qossp-ad_general_params">AD_GENERAL_PARAMS</a> structure.
 
 ### -field Guaranteed
 
 Specifies guaranteed service, and provides service parameters in the form of an <b>AD_GUARANTEED</b> structure.
 
-
 ### -field ParamBuffer
 
-Describes the buffer used, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a> structure.
-
+Describes the buffer used, in the form of a <a href="/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a> structure.
 
 ## -remarks
 
-
-
-The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a> structure is exhausted.
-
-
-
+The <b>Length</b> value can be added to the pointer to the structure to obtain the pointer to the next <b>CONTROL_SERVICE</b> structure in the list, until the <b>NumberOfServices</b> member of the <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a> structure is exhausted.
 
 ## -see-also
 
+<a href="/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-param_buffer">PARAM_BUFFER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qossp/ns-qossp-rsvp_adspec">RSVP_ADSPEC</a>

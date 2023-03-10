@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPage.SetPageDimensions
 title: IXpsOMPage::SetPageDimensions (xpsobjectmodel.h)
 description: Sets dimensions of the page.
+helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetPageDimensions method","IXpsOMPage.SetPageDimensions","IXpsOMPage::SetPageDimensions","SetPageDimensions","SetPageDimensions method [XPS Documents and Packaging]","SetPageDimensions method [XPS Documents and Packaging]","IXpsOMPage interface","pageDimensions.height","pageDimensions.width","xps.ixpsompage_setpagedimensions","xpsobjectmodel/IXpsOMPage::SetPageDimensions"]
 old-location: xps\ixpsompage_setpagedimensions.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4ae0a584-afa2-4288-82f8-c52c46de390f
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetPageDimensions method, IXpsOMPage.SetPageDimensions, IXpsOMPage::SetPageDimensions, SetPageDimensions, SetPageDimensions method [XPS Documents and Packaging], SetPageDimensions method [XPS Documents and Packaging],IXpsOMPage interface, pageDimensions.height, pageDimensions.width, xps.ixpsompage_setpagedimensions, xpsobjectmodel/IXpsOMPage::SetPageDimensions
-f1_keywords:
-- xpsobjectmodel/IXpsOMPage.SetPageDimensions
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPage.SetPageDimensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPage::SetPageDimensions
+ - xpsobjectmodel/IXpsOMPage::SetPageDimensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPage.SetPageDimensions
 ---
 
 # IXpsOMPage::SetPageDimensions
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets dimensions of the page.
 
-
 ## -parameters
-
-
-
 
 ### -param pageDimensions [in]
 
@@ -63,7 +60,7 @@ Dimensions of the page.
 
 Size is described in XPS units. There are 96 XPS units per inch.  For example, the dimensions of an 8.5" by 11.0" page are 816 by 1,056 XPS units.
 
-The  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure has the following properties:
+The  <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a> structure has the following properties:
 
 
 
@@ -72,13 +69,10 @@ The  <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xps
 
 
 ###### 0 ≤ value )
-
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -119,30 +113,19 @@ The page size specified in <i>pageDimensions</i> contains one or more  values th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
- 
-
- 
-
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>

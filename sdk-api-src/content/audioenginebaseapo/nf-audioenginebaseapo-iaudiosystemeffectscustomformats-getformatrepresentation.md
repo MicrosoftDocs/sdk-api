@@ -2,15 +2,12 @@
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatRepresentation
 title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation (audioenginebaseapo.h)
 description: The GetFormatRepresentation method retrieves a string representation of the custom format so that it can be displayed on a user-interface.
+helpviewer_keywords: ["GetFormatRepresentation","GetFormatRepresentation method [Audio Devices]","GetFormatRepresentation method [Audio Devices]","IAudioSystemEffectsCustomFormats interface","IAudioSystemEffectsCustomFormats interface [Audio Devices]","GetFormatRepresentation method","IAudioSystemEffectsCustomFormats.GetFormatRepresentation","IAudioSystemEffectsCustomFormats::GetFormatRepresentation","audio.iaudiosystemeffectscustomformats_getformatrepresentation","audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml","audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation"]
 old-location: audio\iaudiosystemeffectscustomformats_getformatrepresentation.htm
 tech.root: audio
 ms.assetid: 35953b82-8832-4e7b-9186-e336fdc65362
 ms.date: 12/05/2018
 ms.keywords: GetFormatRepresentation, GetFormatRepresentation method [Audio Devices], GetFormatRepresentation method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatRepresentation method, IAudioSystemEffectsCustomFormats.GetFormatRepresentation, IAudioSystemEffectsCustomFormats::GetFormatRepresentation, audio.iaudiosystemeffectscustomformats_getformatrepresentation, audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
-f1_keywords:
-- audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatRepresentation
-dev_langs:
-- c++
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: All levels.
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioenginebaseapo.h
-api_name:
-- IAudioSystemEffectsCustomFormats.GetFormatRepresentation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSystemEffectsCustomFormats::GetFormatRepresentation
+ - audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioenginebaseapo.h
+api_name:
+ - IAudioSystemEffectsCustomFormats.GetFormatRepresentation
 ---
 
 # IAudioSystemEffectsCustomFormats::GetFormatRepresentation
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>GetFormatRepresentation</code> method retrieves a string representation of the custom format so that it can be displayed on a user-interface.
-
 
 ## -parameters
 
-
-
-
 ### -param nFormat [in]
 
-Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
-
+Specifies the index of a supported format. This parameter can be any value in the range from zero to one less than the return value of <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>. In other words, any value in the range from zero to GetFormatCount( ) - 1.
 
 ### -param ppwstrFormatRep [out, optional]
 
 Specifies the address of the buffer that receives a NULL-terminated Unicode string that describes the custom format.
 
-
 ## -returns
-
-
 
 The <code>GetFormatRepresentation</code> method returns S_OK when the call is successful. Otherwise, it returns one of the error codes shown in the following table.
 
@@ -112,35 +105,19 @@ nFormat is out of range
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The sAPO uses <a href="https://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="https://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter. 
-
-
-
+The sAPO uses <a href="/previous-versions/windows/embedded/ms886939(v=msdn.10)">CoTaskMemAlloc</a> to allocate the returned string. The caller must use <a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to delete the buffer that is pointed to by the <i>ppwstrFormatRep</i> parameter.
 
 ## -see-also
 
+<a href="/previous-versions/windows/embedded/ms886939(v=msdn.10)">CoTaskMemAlloc</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=154375">CoTaskMemAlloc</a>
+<a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>

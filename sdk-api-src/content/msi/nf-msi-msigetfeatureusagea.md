@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetFeatureUsageA
 title: MsiGetFeatureUsageA function (msi.h)
-description: The MsiGetFeatureUsage function returns the usage metrics for a product feature.
+description: The MsiGetFeatureUsage function returns the usage metrics for a product feature. (ANSI)
+helpviewer_keywords: ["MsiGetFeatureUsageA", "msi/MsiGetFeatureUsageA"]
 old-location: setup\msigetfeatureusage.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
 ms.date: 12/05/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
-f1_keywords:
-- msi/MsiGetFeatureUsage
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetFeatureUsage
-- MsiGetFeatureUsageA
-- MsiGetFeatureUsageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetFeatureUsageA
+ - msi/MsiGetFeatureUsageA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetFeatureUsage
+ - MsiGetFeatureUsageA
+ - MsiGetFeatureUsageW
 ---
 
 # MsiGetFeatureUsageA function
@@ -50,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetFeatureUsage</b> function returns the usage metrics for a product feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that contains the feature.
 
-
 ### -param szFeature [in]
 
 Specifies the feature code for the feature for which metrics are to be returned.
 
-
 ### -param pdwUseCount [out]
 
 Indicates the number of times the feature has been used.
-
 
 ### -param pwDateUsed [out]
 
@@ -120,12 +114,8 @@ Year offset from 1980 (add 1980 to get actual year)
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>MsiGetFeatureUsage</b> function returns the following values.
@@ -169,18 +159,12 @@ The function completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The msi.h header defines MsiGetFeatureUsage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

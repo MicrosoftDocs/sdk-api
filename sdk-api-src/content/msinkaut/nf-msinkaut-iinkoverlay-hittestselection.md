@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkOverlay.HitTestSelection
 title: IInkOverlay::HitTestSelection (msinkaut.h)
 description: Determines what portion of the selection was hit during a hit test.
+helpviewer_keywords: ["289589fa-84da-40b3-b60e-551ef0114279","HitTestSelection","HitTestSelection method [Tablet PC]","HitTestSelection method [Tablet PC]","IInkOverlay interface","IInkOverlay","IInkOverlay interface [Tablet PC]","HitTestSelection method","IInkOverlay.HitTestSelection","IInkOverlay::HitTestSelection","msinkaut/IInkOverlay::HitTestSelection","tablet.inkoverlay_hittestselection"]
 old-location: tablet\inkoverlay_hittestselection.htm
 tech.root: tablet
 ms.assetid: 289589fa-84da-40b3-b60e-551ef0114279
 ms.date: 12/05/2018
 ms.keywords: 289589fa-84da-40b3-b60e-551ef0114279, HitTestSelection, HitTestSelection method [Tablet PC], HitTestSelection method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],HitTestSelection method, IInkOverlay.HitTestSelection, IInkOverlay::HitTestSelection, msinkaut/IInkOverlay::HitTestSelection, tablet.inkoverlay_hittestselection
-f1_keywords:
-- msinkaut/IInkOverlay.HitTestSelection
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.HitTestSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::HitTestSelection
+ - msinkaut/IInkOverlay::HitTestSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.HitTestSelection
 ---
 
 # IInkOverlay::HitTestSelection
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Determines what portion of the selection was hit during a hit test.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param x [in]
 
 The x-position, in pixels, of the hit test.
 
-
 ### -param y [in]
 
 The y-position, in pixels, of the hit test.
 
-
 ### -param SelArea [out]
 
-The value from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration,which specifies which part of a selection, if any, was hit during a hit test.
-
+The value from the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration,which specifies which part of a selection, if any, was hit during a hit test.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -196,26 +185,15 @@ The west side sizing handle was hit.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>

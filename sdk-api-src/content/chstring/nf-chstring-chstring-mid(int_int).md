@@ -1,14 +1,12 @@
 ---
 UID: NF:chstring.CHString.Mid(int,int)
 title: CHString::Mid
-description: 
+description: The CHString::Mid method extracts a substring of length nCount characters from a CHString string, starting at position nFirst (zero-based). 
+tech.root: wmi
+helpviewer_keywords: ["CHString::Mid"]
 ms.assetid: f79f7b70-0587-4d5d-8a18-c61bd3c69212
-ms.date: 01/30/19
+ms.date: 08/10/2022
 ms.keywords: CHString::Mid
-f1_keywords:
-- chstring/CHString::Mid
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,22 +27,28 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::Mid
+ - chstring/CHString::Mid
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- DllExport
+ - DllExport
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::Mid
+ - CHString::Mid
 ---
 
 # CHString::Mid
 
+
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
+The <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
 
 The **Mid** method extracts a substring of length *nCount* characters from a **CHString** string, starting at position *nFirst* (zero-based).
 The method returns a copy of the extracted substring.
@@ -80,8 +84,8 @@ assert( s.Mid( 2, 3 ) == L"cde" );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-left">CHString::Left</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-left">CHString::Left</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-right">CHString::Right</a>

@@ -2,15 +2,12 @@
 UID: NF:mediaobj.IMediaObject.GetInputStatus
 title: IMediaObject::GetInputStatus (mediaobj.h)
 description: The GetInputStatus method queries whether an input stream can accept more input data.
+helpviewer_keywords: ["GetInputStatus","GetInputStatus method [DirectShow]","GetInputStatus method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetInputStatus method","IMediaObject.GetInputStatus","IMediaObject::GetInputStatus","IMediaObjectGetInputStatus","dshow.imediaobject_getinputstatus","mediaobj/IMediaObject::GetInputStatus"]
 old-location: dshow\imediaobject_getinputstatus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4581307f-cea2-4e88-81a1-972e1998c7a8
 ms.date: 12/05/2018
 ms.keywords: GetInputStatus, GetInputStatus method [DirectShow], GetInputStatus method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStatus method, IMediaObject.GetInputStatus, IMediaObject::GetInputStatus, IMediaObjectGetInputStatus, dshow.imediaobject_getinputstatus, mediaobj/IMediaObject::GetInputStatus
-f1_keywords:
-- mediaobj/IMediaObject.GetInputStatus
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaObject.GetInputStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaObject::GetInputStatus
+ - mediaobj/IMediaObject::GetInputStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaObject.GetInputStatus
 ---
 
 # IMediaObject::GetInputStatus
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetInputStatus</code> method queries whether an input stream can accept more input data.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputStreamIndex
 
 Zero-based index of an input stream on the DMO.
 
-
 ### -param dwFlags [out]
 
 Pointer to a variable that receives either zero or DMO_INPUT_STATUSF_ACCEPT_DATA.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -105,16 +95,10 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the input stream will accept more data, the method returns the DMO_INPUT_STATUSF_ACCEPT_DATA flag in the <i>dwFlags</i> parameter. Otherwise, it sets this parameter to zero. If the stream will accept more data, the application can call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> method.
+If the input stream will accept more data, the method returns the DMO_INPUT_STATUSF_ACCEPT_DATA flag in the <i>dwFlags</i> parameter. Otherwise, it sets this parameter to zero. If the stream will accept more data, the application can call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> method.
 
 The status of an input stream can change only as the result of one of the following method calls.
 
@@ -127,41 +111,30 @@ The status of an input stream can change only as the result of one of the follow
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-discontinuity">IMediaObject::Discontinuity</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-discontinuity">IMediaObject::Discontinuity</a>
 </td>
 <td>Signals a discontinuity on the specified input stream.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-flush">IMediaObject::Flush</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-flush">IMediaObject::Flush</a>
 </td>
 <td>Flushes all internally buffered data.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a>
 </td>
 <td>Delivers a buffer to the specified input stream.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
 </td>
 <td>Generates output from the current input data.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

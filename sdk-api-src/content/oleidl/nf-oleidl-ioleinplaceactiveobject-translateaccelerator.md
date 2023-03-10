@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleInPlaceActiveObject.TranslateAccelerator
 title: IOleInPlaceActiveObject::TranslateAccelerator (oleidl.h)
 description: Processes menu accelerator-key messages from the container's message queue. This method should only be used for objects created by a DLL object application.
+helpviewer_keywords: ["IOleInPlaceActiveObject interface [COM]","TranslateAccelerator method","IOleInPlaceActiveObject.TranslateAccelerator","IOleInPlaceActiveObject::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [COM]","TranslateAccelerator method [COM]","IOleInPlaceActiveObject interface","_ole_ioleinplaceactiveobject_translateaccelerator","com.ioleinplaceactiveobject_translateaccelerator","oleidl/IOleInPlaceActiveObject::TranslateAccelerator"]
 old-location: com\ioleinplaceactiveobject_translateaccelerator.htm
 tech.root: com
 ms.assetid: ce460c52-c7aa-4ee4-955e-76407af7cf1e
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
-f1_keywords:
-- oleidl/IOleInPlaceActiveObject.TranslateAccelerator
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleInPlaceActiveObject.TranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceActiveObject::TranslateAccelerator
+ - oleidl/IOleInPlaceActiveObject::TranslateAccelerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleInPlaceActiveObject.TranslateAccelerator
 ---
 
 # IOleInPlaceActiveObject::TranslateAccelerator
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Processes menu accelerator-key messages from the container's message queue. This method should only be used for objects created by a DLL object application.
-
 
 ## -parameters
 
-
-
-
 ### -param lpmsg [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure for the message that might need to be translated.
-
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure for the message that might need to be translated.
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -118,14 +112,8 @@ An unexpected error has occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 Active in-place objects must always be given the first chance at translating accelerator keystrokes. You can provide this opportunity by calling <b>IOleInPlaceActiveObject::TranslateAccelerator</b> from your container's message loop before doing any other translation. You should apply your own translation only when this method returns S_FALSE.
@@ -135,26 +123,16 @@ If you call <b>IOleInPlaceActiveObject::TranslateAccelerator</b> for an object t
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 An object created by an EXE object application gets keystrokes from its own message pump, so the container does not get those messages.
 
-If you need to implement this method, you can do so by simply wrapping the call to the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a> function.
-
-
-
+If you need to implement this method, you can do so by simply wrapping the call to the <a href="/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>

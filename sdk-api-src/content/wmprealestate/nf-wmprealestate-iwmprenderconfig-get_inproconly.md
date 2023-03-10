@@ -2,15 +2,12 @@
 UID: NF:wmprealestate.IWMPRenderConfig.get_inProcOnly
 title: IWMPRenderConfig::get_inProcOnly (wmprealestate.h)
 description: The get_inProcOnly method retrieves a value indicating whether playback is restricted to the current process.
+helpviewer_keywords: ["IWMPRenderConfig interface [Windows Media Player]","get_inProcOnly method","IWMPRenderConfig.get_inProcOnly","IWMPRenderConfig::get_inProcOnly","IWMPRenderConfiggetInProcOnly","get_inProcOnly","get_inProcOnly method [Windows Media Player]","get_inProcOnly method [Windows Media Player]","IWMPRenderConfig interface","wmp.iwmprenderconfig_get_inproconly","wmprealestate/IWMPRenderConfig::get_inProcOnly"]
 old-location: wmp\iwmprenderconfig_get_inproconly.htm
 tech.root: WMP
 ms.assetid: 71284af6-dc76-4a39-81f4-ed265140aad5
 ms.date: 12/05/2018
 ms.keywords: IWMPRenderConfig interface [Windows Media Player],get_inProcOnly method, IWMPRenderConfig.get_inProcOnly, IWMPRenderConfig::get_inProcOnly, IWMPRenderConfiggetInProcOnly, get_inProcOnly, get_inProcOnly method [Windows Media Player], get_inProcOnly method [Windows Media Player],IWMPRenderConfig interface, wmp.iwmprenderconfig_get_inproconly, wmprealestate/IWMPRenderConfig::get_inProcOnly
-f1_keywords:
-- wmprealestate/IWMPRenderConfig.get_inProcOnly
-dev_langs:
-- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPRenderConfig.get_inProcOnly
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPRenderConfig::get_inProcOnly
+ - wmprealestate/IWMPRenderConfig::get_inProcOnly
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPRenderConfig.get_inProcOnly
 ---
 
 # IWMPRenderConfig::get_inProcOnly
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_inProcOnly</b> method retrieves a value indicating whether playback is restricted to the current process.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfInProc [in]
 
 Pointer to a <b>BOOL</b> that receives the result. <b>TRUE</b> specifies that playback is restricted to the current process.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,29 +79,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Using this method with protected content is not supported.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig">IWMPRenderConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig">IWMPRenderConfig Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:strmif.IResourceManager.CancelRequest
 title: IResourceManager::CancelRequest (strmif.h)
 description: The CancelRequest method cancels the request for a resource.
+helpviewer_keywords: ["CancelRequest","CancelRequest method [DirectShow]","CancelRequest method [DirectShow]","IResourceManager interface","IResourceManager interface [DirectShow]","CancelRequest method","IResourceManager.CancelRequest","IResourceManager::CancelRequest","IResourceManagerCancelRequest","dshow.iresourcemanager_cancelrequest","strmif/IResourceManager::CancelRequest"]
 old-location: dshow\iresourcemanager_cancelrequest.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 49372654-8e69-4a7a-915e-16e791c63fb2
 ms.date: 12/05/2018
 ms.keywords: CancelRequest, CancelRequest method [DirectShow], CancelRequest method [DirectShow],IResourceManager interface, IResourceManager interface [DirectShow],CancelRequest method, IResourceManager.CancelRequest, IResourceManager::CancelRequest, IResourceManagerCancelRequest, dshow.iresourcemanager_cancelrequest, strmif/IResourceManager::CancelRequest
-f1_keywords:
-- strmif/IResourceManager.CancelRequest
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IResourceManager.CancelRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResourceManager::CancelRequest
+ - strmif/IResourceManager::CancelRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IResourceManager.CancelRequest
 ---
 
 # IResourceManager::CancelRequest
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>CancelRequest</code> method cancels the request for a resource.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param idResource [in]
 
 Resource identifier of a pending request.
 
-
 ### -param pConsumer [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> interface that made the request.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> interface that made the request.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -138,31 +128,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method should be called when the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> object that requested the resource has not received it and no longer requires it. If it has already received the resource, it should use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyrelease">IResourceManager::NotifyRelease</a> method.
-
-
-
+This method should be called when the <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> object that requested the resource has not received it and no longer requires it. If it has already received the resource, it should use the <a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyrelease">IResourceManager::NotifyRelease</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

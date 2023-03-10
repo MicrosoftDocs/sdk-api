@@ -2,15 +2,12 @@
 UID: NF:textstor.ITextStoreACP.GetActiveView
 title: ITextStoreACP::GetActiveView (textstor.h)
 description: The ITextStoreACP::GetActiveView method returns a TsViewCookie data type that specifies the current active view.
+helpviewer_keywords: ["GetActiveView","GetActiveView method [Text Services Framework]","GetActiveView method [Text Services Framework]","ITextStoreACP interface","ITextStoreACP interface [Text Services Framework]","GetActiveView method","ITextStoreACP.GetActiveView","ITextStoreACP::GetActiveView","_tsf_itextstoreacp_getactiveview_ref","textstor/ITextStoreACP::GetActiveView","tsf.itextstoreacp_getactiveview"]
 old-location: tsf\itextstoreacp_getactiveview.htm
 tech.root: TSF
 ms.assetid: 7739674e-9524-4530-900c-6e7facc3254f
 ms.date: 12/05/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetActiveView method, ITextStoreACP.GetActiveView, ITextStoreACP::GetActiveView, _tsf_itextstoreacp_getactiveview_ref, textstor/ITextStoreACP::GetActiveView, tsf.itextstoreacp_getactiveview
-f1_keywords:
-- textstor/ITextStoreACP.GetActiveView
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITextStoreACP.GetActiveView
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoreACP::GetActiveView
+ - textstor/ITextStoreACP::GetActiveView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITextStoreACP.GetActiveView
 ---
 
 # ITextStoreACP::GetActiveView
@@ -48,41 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ITextStoreACP::GetActiveView</b> method returns a <a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> data type that specifies the current active view.
-
+The <b>ITextStoreACP::GetActiveView</b> method returns a <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie</a> data type that specifies the current active view.
 
 ## -parameters
-
-
-
 
 ### -param pvcView [out]
 
 Receives the <b>TsViewCookie</b> data type that specifies the current active view.
 
-
 ## -returns
-
-
 
 This method has no return values.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
- 
-
- 
-

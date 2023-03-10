@@ -2,15 +2,12 @@
 UID: NS:ddkmapi._DDFLIPVIDEOPORT
 title: DDFLIPVIDEOPORT (ddkmapi.h)
 description: The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.
+helpviewer_keywords: ["*LPDDFLIPVIDEOPORT","DDFLIPVIDEOPORT","DDFLIPVIDEOPORT structure [Display Devices]","LPDDFLIPVIDEOPORT","LPDDFLIPVIDEOPORT structure pointer [Display Devices]","ddkmapi/DDFLIPVIDEOPORT","ddkmapi/LPDDFLIPVIDEOPORT","ddstrcts_b6a3e4ea-217b-40d5-a829-c9ca62632a3e.xml","display.ddflipvideoport"]
 old-location: display\ddflipvideoport.htm
 tech.root: display
 ms.assetid: c30c100c-8c91-44e2-b75b-92ce73d44047
 ms.date: 12/05/2018
 ms.keywords: '*LPDDFLIPVIDEOPORT, DDFLIPVIDEOPORT, DDFLIPVIDEOPORT structure [Display Devices], LPDDFLIPVIDEOPORT, LPDDFLIPVIDEOPORT structure pointer [Display Devices], ddkmapi/DDFLIPVIDEOPORT, ddkmapi/LPDDFLIPVIDEOPORT, ddstrcts_b6a3e4ea-217b-40d5-a829-c9ca62632a3e.xml, display.ddflipvideoport'
-f1_keywords:
-- ddkmapi/DDFLIPVIDEOPORT
-dev_langs:
-- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ddkmapi.h
-api_name:
-- DDFLIPVIDEOPORT
 targetos: Windows
 req.typenames: DDFLIPVIDEOPORT, *LPDDFLIPVIDEOPORT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DDFLIPVIDEOPORT
+ - ddkmapi/_DDFLIPVIDEOPORT
+ - LPDDFLIPVIDEOPORT
+ - ddkmapi/LPDDFLIPVIDEOPORT
+ - DDFLIPVIDEOPORT
+ - ddkmapi/DDFLIPVIDEOPORT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ddkmapi.h
+api_name:
+ - DDFLIPVIDEOPORT
 ---
 
 # DDFLIPVIDEOPORT structure
@@ -48,38 +54,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port. 
-
+The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.
 
 ## -struct-fields
-
-
-
 
 ### -field hDirectDraw
 
 Specifies the Microsoft DirectDraw handle.
 
-
 ### -field hVideoPort
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object handle.
-
+Specifies the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object handle.
 
 ### -field hCurrentSurface
 
 Specifies the current DirectDrawSurface handle.
 
-
 ### -field hTargetSurface
 
 Specifies the handle of the DirectDrawSurface to which the flip occurs.
 
-
 ### -field dwFlags
 
-Indicates whether the surfaces represent <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> surfaces or regular surfaces. One of the following: 
+Indicates whether the surfaces represent <a href="/windows-hardware/drivers/">VBI</a> surfaces or regular surfaces. One of the following: 
 
 <table>
 <tr>
@@ -107,20 +104,11 @@ Flips the normal video surface.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/ff550618(v=vs.85)">DD_DXAPI_FLIP_VP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550618(v=vs.85)">DD_DXAPI_FLIP_VP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

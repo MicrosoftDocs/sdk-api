@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.get_DaysOfWeek
 title: IWeeklyTrigger::get_DaysOfWeek (taskschd.h)
-description: Gets or sets the days of the week in which the task runs.
+description: Gets or sets the days of the week in which the task runs. (Get)
+helpviewer_keywords: ["DaysOfWeek property [Task Scheduler]","DaysOfWeek property [Task Scheduler]","IWeeklyTrigger interface","IWeeklyTrigger interface [Task Scheduler]","DaysOfWeek property","IWeeklyTrigger.DaysOfWeek","IWeeklyTrigger.get_DaysOfWeek","IWeeklyTrigger::DaysOfWeek","IWeeklyTrigger::get_DaysOfWeek","IWeeklyTrigger::put_DaysOfWeek","get_DaysOfWeek","taskschd.iweeklytrigger_daysofweek","taskschd/IWeeklyTrigger::DaysOfWeek","taskschd/IWeeklyTrigger::get_DaysOfWeek","taskschd/IWeeklyTrigger::put_DaysOfWeek"]
 old-location: taskschd\iweeklytrigger_daysofweek.htm
 tech.root: taskschd
 ms.assetid: 3d4bb891-8620-401e-b1ce-39d593c1038a
 ms.date: 12/05/2018
 ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IWeeklyTrigger interface, IWeeklyTrigger interface [Task Scheduler],DaysOfWeek property, IWeeklyTrigger.DaysOfWeek, IWeeklyTrigger.get_DaysOfWeek, IWeeklyTrigger::DaysOfWeek, IWeeklyTrigger::get_DaysOfWeek, IWeeklyTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.iweeklytrigger_daysofweek, taskschd/IWeeklyTrigger::DaysOfWeek, taskschd/IWeeklyTrigger::get_DaysOfWeek, taskschd/IWeeklyTrigger::put_DaysOfWeek
-f1_keywords:
-- taskschd/IWeeklyTrigger.DaysOfWeek
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IWeeklyTrigger.DaysOfWeek
-- IWeeklyTrigger.get_DaysOfWeek
-- IWeeklyTrigger.put_DaysOfWeek
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWeeklyTrigger::get_DaysOfWeek
+ - taskschd/IWeeklyTrigger::get_DaysOfWeek
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IWeeklyTrigger.DaysOfWeek
+ - IWeeklyTrigger.get_DaysOfWeek
+ - IWeeklyTrigger.put_DaysOfWeek
 ---
 
 # IWeeklyTrigger::get_DaysOfWeek
@@ -50,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the days of the week in which the task runs.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following table shows the mapping of the bitwise mask used by this property.<table>
 <tr>
@@ -109,22 +106,12 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 
 
-When reading or writing your own XML for a task, the days of the week are specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-daysofweek-weeklyscheduletype-element">DaysOfWeek</a> element of the Task Scheduler schema.
-
-
-
+When reading or writing your own XML for a task, the days of the week are specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-daysofweek-weeklyscheduletype-element">DaysOfWeek</a> element of the Task Scheduler schema.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iweeklytrigger">IWeeklyTrigger</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

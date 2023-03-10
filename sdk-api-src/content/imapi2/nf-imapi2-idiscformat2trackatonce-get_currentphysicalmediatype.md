@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType
 title: IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType (imapi2.h)
-description: Retrieves the type of media in the disc device.
+description: Retrieves the type of media in the disc device. (IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType)
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_CurrentPhysicalMediaType method","IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType","IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType method [IMAPI]","get_CurrentPhysicalMediaType method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_currentphysicalmediatype","imapi2/IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType"]
 old-location: imapi\idiscformat2trackatonce_get_currentphysicalmediatype.htm
 tech.root: imapi
 ms.assetid: 8c921a12-9e9d-48af-af3d-0f62aff49e65
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType, IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentphysicalmediatype, imapi2/IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType
-f1_keywords:
-- imapi2/IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType
+ - imapi2/IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType
 ---
 
 # IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type of media in the disc device.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-Type of media in the disc device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>enumeration type.
-
+Type of media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,17 +354,10 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
@@ -378,8 +365,4 @@ IDiscFormat2TrackAtOnce::get_SupportedMediaTypes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>

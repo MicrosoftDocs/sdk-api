@@ -2,15 +2,12 @@
 UID: NF:bits5_0.IBackgroundCopyFile5.SetProperty
 title: IBackgroundCopyFile5::SetProperty (bits5_0.h)
 description: Sets a generic property of a BITS file transfer.
+helpviewer_keywords: ["IBackgroundCopyFile5 interface [BITS]","SetProperty method","IBackgroundCopyFile5.SetProperty","IBackgroundCopyFile5::SetProperty","SetProperty","SetProperty method [BITS]","SetProperty method [BITS]","IBackgroundCopyFile5 interface","bits.ibackgroundcopyfile5_setproperty","bits5_0/IBackgroundCopyFile5::SetProperty"]
 old-location: bits\ibackgroundcopyfile5_setproperty.htm
 tech.root: Bits
 ms.assetid: 7a5809ef-e84f-4566-a5fa-fd63b1dfd15c
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile5 interface [BITS],SetProperty method, IBackgroundCopyFile5.SetProperty, IBackgroundCopyFile5::SetProperty, SetProperty, SetProperty method [BITS], SetProperty method [BITS],IBackgroundCopyFile5 interface, bits.ibackgroundcopyfile5_setproperty, bits5_0/IBackgroundCopyFile5::SetProperty
-f1_keywords:
-- bits5_0/IBackgroundCopyFile5.SetProperty
-dev_langs:
-- c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyFile5.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyFile5::SetProperty
+ - bits5_0/IBackgroundCopyFile5::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyFile5.SetProperty
 ---
 
 # IBackgroundCopyFile5::SetProperty
@@ -49,45 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a generic property of a BITS file transfer.
 
-
 ## -parameters
-
-
-
 
 ### -param PropertyId [in]
 
 Specifies the property to be set.
 
-
 ### -param PropertyValue [out]
 
 A pointer to a union that specifies the value to be set. The union member appropriate for the property ID is used.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nn-bits5_0-ibackgroundcopyfile5">IBackgroundCopyFile5</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">IBackgroundCopyFile5.GetProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">IBackgroundCopyFile5.GetProperty</a>

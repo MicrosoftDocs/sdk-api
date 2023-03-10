@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.SetSnapsToPixels
 title: IXpsOMPath::SetSnapsToPixels (xpsobjectmodel.h)
 description: Sets a Boolean value that indicates whether the path will be snapped to device pixels when that path is being rendered.
+helpviewer_keywords: ["FALSE","IXpsOMPath interface [XPS Documents and Packaging]","SetSnapsToPixels method","IXpsOMPath.SetSnapsToPixels","IXpsOMPath::SetSnapsToPixels","SetSnapsToPixels","SetSnapsToPixels method [XPS Documents and Packaging]","SetSnapsToPixels method [XPS Documents and Packaging]","IXpsOMPath interface","TRUE","xps.ixpsompath_setsnapstopixels","xpsobjectmodel/IXpsOMPath::SetSnapsToPixels"]
 old-location: xps\ixpsompath_setsnapstopixels.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 6b063829-3941-42be-bbe2-49b5a71b695a
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPath interface [XPS Documents and Packaging],SetSnapsToPixels method, IXpsOMPath.SetSnapsToPixels, IXpsOMPath::SetSnapsToPixels, SetSnapsToPixels, SetSnapsToPixels method [XPS Documents and Packaging], SetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, TRUE, xps.ixpsompath_setsnapstopixels, xpsobjectmodel/IXpsOMPath::SetSnapsToPixels
-f1_keywords:
-- xpsobjectmodel/IXpsOMPath.SetSnapsToPixels
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPath.SetSnapsToPixels
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPath::SetSnapsToPixels
+ - xpsobjectmodel/IXpsOMPath::SetSnapsToPixels
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPath.SetSnapsToPixels
 ---
 
 # IXpsOMPath::SetSnapsToPixels
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a Boolean value that indicates whether the path will be snapped to device pixels when that path is being rendered.
 
-
 ## -parameters
-
-
-
 
 ### -param snapsToPixels [in]
 
@@ -87,29 +84,15 @@ Do not snap the path to the device pixels.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

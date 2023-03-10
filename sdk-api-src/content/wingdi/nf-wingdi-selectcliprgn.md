@@ -2,15 +2,12 @@
 UID: NF:wingdi.SelectClipRgn
 title: SelectClipRgn function (wingdi.h)
 description: The SelectClipRgn function selects a region as the current clipping region for the specified device context.
+helpviewer_keywords: ["SelectClipRgn","SelectClipRgn function [Windows GDI]","_win32_SelectClipRgn","gdi.selectcliprgn","wingdi/SelectClipRgn"]
 old-location: gdi\selectcliprgn.htm
 tech.root: gdi
 ms.assetid: 7a4f0b9c-8588-4da8-a030-ed9d8b4ee08d
 ms.date: 12/05/2018
 ms.keywords: SelectClipRgn, SelectClipRgn function [Windows GDI], _win32_SelectClipRgn, gdi.selectcliprgn, wingdi/SelectClipRgn
-f1_keywords:
-- wingdi/SelectClipRgn
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-rgn-l1-1-0.dll
-- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
-- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
-- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SelectClipRgn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SelectClipRgn
+ - wingdi/SelectClipRgn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-rgn-l1-1-0.dll
+ - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+ - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+ - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SelectClipRgn
 ---
 
 # SelectClipRgn function
@@ -53,28 +55,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SelectClipRgn</b> function selects a region as the current clipping region for the specified device context.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param hrgn [in]
 
 A handle to the region to be selected.
 
-
 ## -returns
-
-
 
 The return value specifies the region's complexity and can be one of the following values.
 
@@ -128,14 +121,8 @@ An error occurred. (The previous clipping region is unaffected.)
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only a copy of the selected region is used. The region itself can be selected for any number of other device contexts or it can be deleted.
 
@@ -146,27 +133,18 @@ To remove a device-context's clipping region, specify a <b>NULL</b> region handl
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-output">Clipping Output</a>.
+For an example, see <a href="/windows/desktop/gdi/clipping-output">Clipping Output</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
+<a href="/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extselectcliprgn">ExtSelectClipRgn</a>

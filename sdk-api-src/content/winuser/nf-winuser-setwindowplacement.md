@@ -2,15 +2,12 @@
 UID: NF:winuser.SetWindowPlacement
 title: SetWindowPlacement function (winuser.h)
 description: Sets the show state and the restored, minimized, and maximized positions of the specified window.
+helpviewer_keywords: ["SetWindowPlacement","SetWindowPlacement function [Windows and Messages]","_win32_SetWindowPlacement","_win32_setwindowplacement_cpp","winmsg.setwindowplacement","winui._win32_setwindowplacement","winuser/SetWindowPlacement"]
 old-location: winmsg\setwindowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowplacement.htm
 ms.date: 12/05/2018
 ms.keywords: SetWindowPlacement, SetWindowPlacement function [Windows and Messages], _win32_SetWindowPlacement, _win32_setwindowplacement_cpp, winmsg.setwindowplacement, winui._win32_setwindowplacement, winuser/SetWindowPlacement
-f1_keywords:
-- winuser/SetWindowPlacement
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SetWindowPlacement
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetWindowPlacement
+ - winuser/SetWindowPlacement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetWindowPlacement
+req.apiset: ext-ms-win-ntuser-window-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetWindowPlacement function
@@ -50,66 +53,45 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the show state and the restored, minimized, and maximized positions of the specified window. 
-
+Sets the show state and the restored, minimized, and maximized positions of the specified window.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the window. 
-
+A handle to the window.
 
 ### -param lpwndpl [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> structure that specifies the new show state and window positions.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> structure that specifies the new show state and window positions.
 
- Before calling <b>SetWindowPlacement</b>, set the <b>length</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> structure to sizeof(<b>WINDOWPLACEMENT</b>). <b>SetWindowPlacement</b> fails if the <b>length</b> member is not set correctly.
-
+ Before calling <b>SetWindowPlacement</b>, set the <b>length</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> structure to sizeof(<b>WINDOWPLACEMENT</b>). <b>SetWindowPlacement</b> fails if the <b>length</b> member is not set correctly.
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+If the information specified in <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> would result in a window that is completely off the screen, the system will automatically adjust the coordinates so that the window is visible, taking into account changes in screen resolution and multiple monitor configuration. 
 
-
-If the information specified in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> would result in a window that is completely off the screen, the system will automatically adjust the coordinates so that the window is visible, taking into account changes in screen resolution and multiple monitor configuration. 
-
-The <b>length</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> must be set to <code>sizeof(WINDOWPLACEMENT)</code>. If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>. 
-
-
-
+The <b>length</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> must be set to <code>sizeof(WINDOWPLACEMENT)</code>. If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowplacement">GetWindowPlacement</a>
 
 
 
@@ -117,12 +99,8 @@ The <b>length</b> member of <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

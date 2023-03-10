@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIStreamEndTime
 title: AVIStreamEndTime macro (vfw.h)
 description: The AVIStreamEndTime macro returns the time representing the end of the stream.
+helpviewer_keywords: ["AVIStreamEndTime","AVIStreamEndTime macro [Windows Multimedia]","_win32_AVIStreamEndTime","multimedia.avistreamendtime","vfw/AVIStreamEndTime"]
 old-location: multimedia\avistreamendtime.htm
 tech.root: Multimedia
 ms.assetid: 0fd3c0c7-34cc-4193-8e6a-9866a9d651a2
 ms.date: 12/05/2018
 ms.keywords: AVIStreamEndTime, AVIStreamEndTime macro [Windows Multimedia], _win32_AVIStreamEndTime, multimedia.avistreamendtime, vfw/AVIStreamEndTime
-f1_keywords:
-- vfw/AVIStreamEndTime
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVIStreamEndTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamEndTime
+ - vfw/AVIStreamEndTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVIStreamEndTime
 ---
 
 # AVIStreamEndTime macro
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIStreamEndTime</b> macro returns the time representing the end of the stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pavi
 
-Handle to an open stream. 
-
+Handle to an open stream.
 
 ## -remarks
-
-
 
 The <b>AVIStreamEndTime</b> macro is defined as follows:
 
@@ -79,21 +70,10 @@ The <b>AVIStreamEndTime</b> macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>

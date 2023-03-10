@@ -2,15 +2,12 @@
 UID: NF:structuredquery.ISchemaProvider.Localize
 title: ISchemaProvider::Localize (structuredquery.h)
 description: Localizes the currently loaded schema for a specified locale.
+helpviewer_keywords: ["ISchemaProvider interface [search]","Localize method","ISchemaProvider.Localize","ISchemaProvider::Localize","Localize","Localize method [search]","Localize method [search]","ISchemaProvider interface","_search_ISchemaProvider_Localize","search._search_ISchemaProvider_Localize","structuredquery/ISchemaProvider::Localize"]
 old-location: search\_search_ISchemaProvider_Localize.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\localize.htm
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider interface [search],Localize method, ISchemaProvider.Localize, ISchemaProvider::Localize, Localize, Localize method [search], Localize method [search],ISchemaProvider interface, _search_ISchemaProvider_Localize, search._search_ISchemaProvider_Localize, structuredquery/ISchemaProvider::Localize
-f1_keywords:
-- structuredquery/ISchemaProvider.Localize
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- ISchemaProvider.Localize
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - ISchemaProvider::Localize
+ - structuredquery/ISchemaProvider::Localize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - ISchemaProvider.Localize
 ---
 
 # ISchemaProvider::Localize
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Localizes the currently loaded schema for a specified locale.
 
-
 ## -parameters
-
-
-
 
 ### -param lcid [in]
 
@@ -63,32 +60,20 @@ Type: <b>LCID</b>
 
 The locale to localize for.
 
-
 ### -param pSchemaLocalizerSupport [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a>*</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a> object.
-
+Pointer to an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ischemalocalizersupport">ISchemaLocalizerSupport</a> object.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
+Before this method is called, the loaded schema should typically be a schema that is not localized, such as the one in %SYSTEMROOT%\System32\StructuredQuerySchema.bin. This method makes the loaded schema suitable for parsing queries in the specified locale, using the object specified in the <i>pSchemaLocalizerSupport</i> parameter. The localized schema can then be saved into a schema binary by calling the <a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-savebinary">ISchemaProvider::SaveBinary</a> method.
 
-
-Before this method is called, the loaded schema should typically be a schema that is not localized, such as the one in %SYSTEMROOT%\System32\StructuredQuerySchema.bin. This method makes the loaded schema suitable for parsing queries in the specified locale, using the object specified in the <i>pSchemaLocalizerSupport</i> parameter. The localized schema can then be saved into a schema binary by calling the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-savebinary">ISchemaProvider::SaveBinary</a> method.
-
-Most applications should use <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">CreateLoadedParser</a> to obtain a query parser loaded with a localized schema, instead of using this method explicitly.
-
-
-
+Most applications should use <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">CreateLoadedParser</a> to obtain a query parser loaded with a localized schema, instead of using this method explicitly.

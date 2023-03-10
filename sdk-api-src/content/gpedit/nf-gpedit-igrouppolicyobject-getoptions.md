@@ -2,15 +2,12 @@
 UID: NF:gpedit.IGroupPolicyObject.GetOptions
 title: IGroupPolicyObject::GetOptions (gpedit.h)
 description: The GetOptions method retrieves the options for the GPO.
+helpviewer_keywords: ["GPO_OPTION_DISABLE_MACHINE","GPO_OPTION_DISABLE_USER","GetOptions","GetOptions method [Group Policy]","GetOptions method [Group Policy]","IGroupPolicyObject interface","IGroupPolicyObject interface [Group Policy]","GetOptions method","IGroupPolicyObject.GetOptions","IGroupPolicyObject::GetOptions","_win32_igrouppolicyobject_getoptions","gpedit/IGroupPolicyObject::GetOptions","policy.igrouppolicyobject_getoptions"]
 old-location: policy\igrouppolicyobject_getoptions.htm
 tech.root: Policy
 ms.assetid: a4b86196-04c8-4ec1-bf26-2a33e44020d2
 ms.date: 12/05/2018
 ms.keywords: GPO_OPTION_DISABLE_MACHINE, GPO_OPTION_DISABLE_USER, GetOptions, GetOptions method [Group Policy], GetOptions method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetOptions method, IGroupPolicyObject.GetOptions, IGroupPolicyObject::GetOptions, _win32_igrouppolicyobject_getoptions, gpedit/IGroupPolicyObject::GetOptions, policy.igrouppolicyobject_getoptions
-f1_keywords:
-- gpedit/IGroupPolicyObject.GetOptions
-dev_langs:
-- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Gpedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gpedit.dll
-api_name:
-- IGroupPolicyObject.GetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGroupPolicyObject::GetOptions
+ - gpedit/IGroupPolicyObject::GetOptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gpedit.dll
+api_name:
+ - IGroupPolicyObject.GetOptions
 ---
 
 # IGroupPolicyObject::GetOptions
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
     <b>GetOptions</b> method retrieves the options for the GPO.
 
-
 ## -parameters
-
-
-
 
 ### -param dwOptions [out]
 
@@ -74,47 +71,29 @@ The user portion of the GPO is disabled.
 
 The computer portion of the GPO is disabled.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns one of the COM error codes defined in the Platform SDK header file WinError.h.
 
-
-
-
 ## -remarks
 
-
-
 To set the options for a GPO, you can call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-setoptions">SetOptions</a> method.
-
-
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-setoptions">SetOptions</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-setoptions">SetOptions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-setoptions">SetOptions</a>

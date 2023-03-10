@@ -2,15 +2,12 @@
 UID: NN:bitscfg.IBITSExtensionSetup
 title: IBITSExtensionSetup (bitscfg.h)
 description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.
+helpviewer_keywords: ["IBITSExtensionSetup","IBITSExtensionSetup interface [BITS]","IBITSExtensionSetup interface [BITS]","described","_drz_ibitsextensionsetup","bits.ibitsextensionsetup","bitscfg/IBITSExtensionSetup"]
 old-location: bits\ibitsextensionsetup.htm
 tech.root: Bits
 ms.assetid: 840608ef-9c07-43f7-9cfd-20996a18bb50
 ms.date: 12/05/2018
 ms.keywords: IBITSExtensionSetup, IBITSExtensionSetup interface [BITS], IBITSExtensionSetup interface [BITS],described, _drz_ibitsextensionsetup, bits.ibitsextensionsetup, bitscfg/IBITSExtensionSetup
-f1_keywords:
-- bitscfg/IBITSExtensionSetup
-dev_langs:
-- c++
 req.header: bitscfg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: BitsMgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsMgr.dll
-api_name:
-- IBITSExtensionSetup
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IBITSExtensionSetup
+ - bitscfg/IBITSExtensionSetup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsMgr.dll
+api_name:
+ - IBITSExtensionSetup
 ---
 
 # IBITSExtensionSetup interface
@@ -48,74 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>IBITSExtensionSetup</b> interface to enable or disable BITS uploads to a virtual directory.
 
 This interface is an ADSI extension. To get a pointer to this interface, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> ADSI function as shown in Example Code.
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> ADSI function as shown in Example Code.
 
 If you use this interface from a setup program that also installs the BITS server, you must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject">IBITSExtensionSetupFactory::GetObject</a> method to get a pointer to this interface instead of calling the <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> function.
-
+<a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetupfactory-getobject">IBITSExtensionSetupFactory::GetObject</a> method to get a pointer to this interface instead of calling the <a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBITSExtensionSetup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBITSExtensionSetup</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IBITSExtensionSetup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-disablebitsuploads">DisableBITSUploads</a>
-</td>
-<td align="left" width="63%">
-Disables BITS uploads on the virtual directory to which the ADSI object points.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads">EnableBITSUploads</a>
-</td>
-<td align="left" width="63%">
-Enables BITS uploads on the virtual directory to which the ADSI object points.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptask">GetCleanupTask</a>
-</td>
-<td align="left" width="63%">
-Returns an interface to the cleanup task associated with the virtual directory. The cleanup task removes orphaned files from the virtual directory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptaskname">GetCleanupTaskName</a>
-</td>
-<td align="left" width="63%">
-Returns the cleanup task name associated with the virtual directory.
-
-</td>
-</tr>
-</table> 
-
+The <b>IBITSExtensionSetup</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBITSExtensionSetup</b> also has these types of members:
 
 ## -remarks
-
-
 
 This interface is registered on the server when you install the BITS server extension.
 
@@ -157,17 +105,6 @@ HRESULT SetBITSUploadEnabledSetting(LPWSTR pszPath, bool Enable)
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetupfactory">IBITSExtensionSetupFactory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bitscfg/nn-bitscfg-ibitsextensionsetupfactory">IBITSExtensionSetupFactory</a>

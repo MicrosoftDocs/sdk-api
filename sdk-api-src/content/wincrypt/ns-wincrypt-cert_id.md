@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_ID
 title: CERT_ID (wincrypt.h)
 description: Is used as a flexible means of uniquely identifying a certificate.
+helpviewer_keywords: ["*PCERT_ID","CERT_ID","CERT_ID structure [Security]","CERT_ID_ISSUER_SERIAL_NUMBER","CERT_ID_KEY_IDENTIFIER","CERT_ID_SHA1_HASH","PCERT_ID","PCERT_ID structure pointer [Security]","_crypto2_cert_id","security.cert_id","wincrypt/CERT_ID","wincrypt/PCERT_ID"]
 old-location: security\cert_id.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 9e33f661-c365-4725-8c3f-27b6cdd9a84e
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_ID, CERT_ID, CERT_ID structure [Security], CERT_ID_ISSUER_SERIAL_NUMBER, CERT_ID_KEY_IDENTIFIER, CERT_ID_SHA1_HASH, PCERT_ID, PCERT_ID structure pointer [Security], _crypto2_cert_id, security.cert_id, wincrypt/CERT_ID, wincrypt/PCERT_ID'
-f1_keywords:
-- wincrypt/CERT_ID
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_ID
 targetos: Windows
 req.typenames: CERT_ID, *PCERT_ID
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_ID
+ - wincrypt/_CERT_ID
+ - PCERT_ID
+ - wincrypt/PCERT_ID
+ - CERT_ID
+ - wincrypt/CERT_ID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_ID
 ---
 
 # CERT_ID structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_ID</b> structure is used as a flexible means of uniquely identifying a certificate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwIdChoice
 
@@ -97,27 +98,19 @@ HashId
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.IssuerSerialNumber
 
 A 
-							<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_issuer_serial_number">CERT_ISSUER_SERIAL_NUMBER</a> structure that uniquely identifies a certificate.
-
+							<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_issuer_serial_number">CERT_ISSUER_SERIAL_NUMBER</a> structure that uniquely identifies a certificate.
 
 ### -field DUMMYUNIONNAME.KeyId
 
 A 
-							<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains a certificate key identifier.
-
+							<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains a certificate key identifier.
 
 ### -field DUMMYUNIONNAME.HashId
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains a SHA1 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the certificate to be used as a unique identifier of the certificate.
-
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> that contains a SHA1 <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the certificate to be used as a unique identifier of the certificate.

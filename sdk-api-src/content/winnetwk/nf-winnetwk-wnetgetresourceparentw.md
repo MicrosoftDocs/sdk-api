@@ -1,16 +1,13 @@
 ---
 UID: NF:winnetwk.WNetGetResourceParentW
 title: WNetGetResourceParentW function (winnetwk.h)
-description: The WNetGetResourceParent function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource.
+description: The WNetGetResourceParent function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource. (Unicode)
+helpviewer_keywords: ["WNetGetResourceParent", "WNetGetResourceParent function [Windows Networking (WNet)]", "WNetGetResourceParentW", "_win32_wnetgetresourceparent", "dwType", "lpProvider", "lpRemoteName", "winnetwk/WNetGetResourceParent", "winnetwk/WNetGetResourceParentW", "wnet.wnetgetresourceparent"]
 old-location: wnet\wnetgetresourceparent.htm
 tech.root: WNet
 ms.assetid: 6ad5e2c0-d557-43cc-8ccf-a21160e262f8
 ms.date: 12/05/2018
 ms.keywords: WNetGetResourceParent, WNetGetResourceParent function [Windows Networking (WNet)], WNetGetResourceParentA, WNetGetResourceParentW, _win32_wnetgetresourceparent, dwType, lpProvider, lpRemoteName, winnetwk/WNetGetResourceParent, winnetwk/WNetGetResourceParentA, winnetwk/WNetGetResourceParentW, wnet.wnetgetresourceparent
-f1_keywords:
-- winnetwk/WNetGetResourceParent
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetGetResourceParent
-- WNetGetResourceParentA
-- WNetGetResourceParentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetGetResourceParentW
+ - winnetwk/WNetGetResourceParentW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetGetResourceParent
+ - WNetGetResourceParentA
+ - WNetGetResourceParentW
 ---
 
 # WNetGetResourceParentW function
@@ -50,25 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetGetResourceParent</b> function returns the parent of a network resource in the network browse hierarchy. Browsing begins at the location of the specified network resource.
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a> and 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a> and 
 <b>WNetGetResourceParent</b> functions to move up the network hierarchy. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function to move down the hierarchy.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetopenenuma">WNetOpenEnum</a> function to move down the hierarchy.
 
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource for which the parent name is required. 
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the network resource for which the parent name is required. 
 
 
 
@@ -119,7 +116,6 @@ This member should specify the network provider that owns the resource. This mem
 All other members of the 
 <b>NETRESOURCE</b> structure are ignored.
 
-
 ### -param lpBuffer [out]
 
 Pointer to a buffer to receive a single 
@@ -129,26 +125,22 @@ Pointer to a buffer to receive a single
 
 
 The <b>lpRemoteName</b> member points to the remote name for the parent resource. This name uses the same syntax as the one returned from an enumeration by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function. The caller can perform a string comparison to determine whether the 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function. The caller can perform a string comparison to determine whether the 
 <b>WNetGetResourceParent</b> resource is the same as that returned by 
 <b>WNetEnumResource</b>. If the input resource has no parent on any of the networks, the <b>lpRemoteName</b> member is returned as <b>NULL</b>.
 
 The presence of the RESOURCEUSAGE_CONNECTABLE bit in the <b>dwUsage</b> member indicates that you can connect to the parent resource, but only when it is available on the network.
 
-
 ### -param lpcbBuffer [in, out]
 
 Pointer to a location that, on entry, specifies the size of the <i>lpBuffer</i> buffer, in bytes. If the buffer is too small to hold the result, this location receives the required buffer size, and the function returns ERROR_MORE_DATA.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -211,18 +203,12 @@ The caller does not have the necessary permissions to obtain the name of the par
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The 
 <b>WNetGetResourceParent</b> function is typically used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a> function to parse and interpret a network path typed in by a user.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a> function to parse and interpret a network path typed in by a user.
 
 Unlike the 
 <b>WNetGetResourceInformation</b> function, if the resource includes a parent in its syntax, the 
@@ -230,10 +216,10 @@ Unlike the
 <b>WNetGetResourceParent</b> should typically be used only by applications that display network resources to the user in a hierarchical fashion. The Windows Explorer and the <b>File Open</b> dialog box are two well-known examples of this type of application. Note that no assumptions should be made about the type of resource that will be returned.
 
 You can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>, or 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>, 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>, or 
 <b>WNetGetResourceParent</b> function to return information from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. You can also construct network resource information using the members of the 
+<a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. You can also construct network resource information using the members of the 
 <b>NETRESOURCE</b> structure.
 
 An example of an inappropriate use of 
@@ -242,35 +228,32 @@ An example of an inappropriate use of
 
 
 
+
+> [!NOTE]
+> The winnetwk.h header defines WNetGetResourceParent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetprovidernamea">WNetGetProviderName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetprovidernamea">WNetGetProviderName</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetresourceinformationa">WNetGetResourceInformation</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea">WNetGetUniversalName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetuniversalnamea">WNetGetUniversalName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
-

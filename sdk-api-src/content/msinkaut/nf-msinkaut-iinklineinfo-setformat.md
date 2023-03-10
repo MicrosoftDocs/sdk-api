@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkLineInfo.SetFormat
 title: IInkLineInfo::SetFormat (msinkaut.h)
 description: Specifies the display properties to set on the text ink object (tInk).
+helpviewer_keywords: ["42e16e86-fc90-4089-9ae0-9a896cbeaccc","IInkLineInfo interface [Tablet PC]","SetFormat method","IInkLineInfo.SetFormat","IInkLineInfo::SetFormat","SetFormat","SetFormat method [Tablet PC]","SetFormat method [Tablet PC]","IInkLineInfo interface","msinkaut/IInkLineInfo::SetFormat","tablet.iinklineinfo_setformat"]
 old-location: tablet\iinklineinfo_setformat.htm
 tech.root: tablet
 ms.assetid: 42e16e86-fc90-4089-9ae0-9a896cbeaccc
 ms.date: 12/05/2018
 ms.keywords: 42e16e86-fc90-4089-9ae0-9a896cbeaccc, IInkLineInfo interface [Tablet PC],SetFormat method, IInkLineInfo.SetFormat, IInkLineInfo::SetFormat, SetFormat, SetFormat method [Tablet PC], SetFormat method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetFormat, tablet.iinklineinfo_setformat
-f1_keywords:
-- msinkaut/IInkLineInfo.SetFormat
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkLineInfo.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkLineInfo::SetFormat
+ - msinkaut/IInkLineInfo::SetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkLineInfo.SetFormat
 ---
 
 # IInkLineInfo::SetFormat
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the display properties to set on the text ink object (tInk).
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pim [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> structure which contains the display properties to set on the text ink object.
-
+A pointer to an <a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> structure which contains the display properties to set on the text ink object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,39 +102,23 @@ Could not complete the operation. The display properties are not changed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then the properties of the device context are applied to the ink; otherwise, the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> settings of the text ink object are applied.
-
-
-
+If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then the properties of the device context are applied to the ink; otherwise, the <a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC</a> settings of the text ink object are applied.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC Structure</a>

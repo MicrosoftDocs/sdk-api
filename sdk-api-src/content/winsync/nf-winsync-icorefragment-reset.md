@@ -2,15 +2,12 @@
 UID: NF:winsync.ICoreFragment.Reset
 title: ICoreFragment::Reset (winsync.h)
 description: Resets both the column and range enumerators to the beginning of their respective sets.
+helpviewer_keywords: ["ICoreFragment interface [Windows Sync]","Reset method","ICoreFragment.Reset","ICoreFragment::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","ICoreFragment interface","winsync.icorefragment_reset","winsync/ICoreFragment::Reset"]
 old-location: winsync\icorefragment_reset.htm
 tech.root: winsync
 ms.assetid: b39e9dee-7437-4480-9050-33bc68b41b00
 ms.date: 12/05/2018
 ms.keywords: ICoreFragment interface [Windows Sync],Reset method, ICoreFragment.Reset, ICoreFragment::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragment interface, winsync.icorefragment_reset, winsync/ICoreFragment::Reset
-f1_keywords:
-- winsync/ICoreFragment.Reset
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ICoreFragment.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICoreFragment::Reset
+ - winsync/ICoreFragment::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ICoreFragment.Reset
 ---
 
 # ICoreFragment::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets both the column and range enumerators to the beginning of their respective sets.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,18 +86,7 @@ The knowledge object contained in this object has changed since this object was 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragment">ICoreFragment Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragment">ICoreFragment Interface</a>

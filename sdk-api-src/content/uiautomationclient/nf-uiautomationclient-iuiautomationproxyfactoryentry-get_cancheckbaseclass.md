@@ -1,16 +1,13 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass
 title: IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass (uiautomationclient.h)
-description: Sets or retrieves a value that specifies whether the base class can be checked when searching for a proxy factory.
+description: Sets or retrieves a value that specifies whether the base class can be checked when searching for a proxy factory. (Get)
+helpviewer_keywords: ["CanCheckBaseClass property [Windows Accessibility]","CanCheckBaseClass property [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","CanCheckBaseClass property","IUIAutomationProxyFactoryEntry.CanCheckBaseClass","IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass","IUIAutomationProxyFactoryEntry::CanCheckBaseClass","IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass","IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass","get_CanCheckBaseClass","uiauto.uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass","uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass","uiautomationclient/IUIAutomationProxyFactoryEntry::CanCheckBaseClass","uiautomationclient/IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass","uiautomationclient/IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass","winauto.uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass.htm
 tech.root: WinAuto
 ms.assetid: c5a09754-4974-4742-ace8-55a2f290af83
 ms.date: 12/05/2018
 ms.keywords: CanCheckBaseClass property [Windows Accessibility], CanCheckBaseClass property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],CanCheckBaseClass property, IUIAutomationProxyFactoryEntry.CanCheckBaseClass, IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass, IUIAutomationProxyFactoryEntry::CanCheckBaseClass, IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass, IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass, get_CanCheckBaseClass, uiauto.uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass, uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass, uiautomationclient/IUIAutomationProxyFactoryEntry::CanCheckBaseClass, uiautomationclient/IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass, uiautomationclient/IUIAutomationProxyFactoryEntry::put_CanCheckBaseClass, winauto.uiauto_IUIAutomationProxyFactoryEntry_CanCheckBaseClass
-f1_keywords:
-- uiautomationclient/IUIAutomationProxyFactoryEntry.CanCheckBaseClass
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationProxyFactoryEntry.CanCheckBaseClass
-- IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass
-- IUIAutomationProxyFactoryEntry.put_CanCheckBaseClass
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass
+ - uiautomationclient/IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationProxyFactoryEntry.CanCheckBaseClass
+ - IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass
+ - IUIAutomationProxyFactoryEntry.put_CanCheckBaseClass
 ---
 
 # IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass
@@ -50,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets or retrieves a value that specifies whether the base class can be checked when searching for a proxy factory.
 
 This property is read/write.
-
 
 ## -parameters
 

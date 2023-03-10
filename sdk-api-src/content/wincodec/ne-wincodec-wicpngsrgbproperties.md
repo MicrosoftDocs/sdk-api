@@ -2,15 +2,12 @@
 UID: NE:wincodec.WICPngSrgbProperties
 title: WICPngSrgbProperties (wincodec.h)
 description: Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
+helpviewer_keywords: ["WICPngSrgbProperties","WICPngSrgbProperties enumeration [Windows Imaging Component]","WICPngSrgbRenderingIntent","_wic_codec_wicpngsrgbproperties","wic._wic_codec_wicpngsrgbproperties","wincodec/WICPngSrgbProperties","wincodec/WICPngSrgbRenderingIntent"]
 old-location: wic\_wic_codec_wicpngsrgbproperties.htm
 tech.root: wic
 ms.assetid: ec9bbdb7-9ce2-44bd-bd84-842394ce4c5f
 ms.date: 12/05/2018
 ms.keywords: WICPngSrgbProperties, WICPngSrgbProperties enumeration [Windows Imaging Component], WICPngSrgbRenderingIntent, _wic_codec_wicpngsrgbproperties, wic._wic_codec_wicpngsrgbproperties, wincodec/WICPngSrgbProperties, wincodec/WICPngSrgbRenderingIntent
-f1_keywords:
-- wincodec/WICPngSrgbProperties
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WICPngSrgbProperties
 targetos: Windows
 req.typenames: WICPngSrgbProperties
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICPngSrgbProperties
+ - wincodec/WICPngSrgbProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WICPngSrgbProperties
 ---
 
 # WICPngSrgbProperties enumeration
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
-
 
 ## -enum-fields
 
-
-
-
-### -field WICPngSrgbRenderingIntent
+### -field WICPngSrgbRenderingIntent:0x1
 
 [VT_UI1] Indicates the rendering intent for an sRGB color space image. The rendering intents have the following meaning.
 
@@ -83,10 +80,6 @@ Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
 <td>Absolute colorimetric</td>
 </tr>
 </table>
- 
 
-
-### -field WICPngSrgbProperties_FORCE_DWORD
-
-
+### -field WICPngSrgbProperties_FORCE_DWORD:0x7fffffff
 

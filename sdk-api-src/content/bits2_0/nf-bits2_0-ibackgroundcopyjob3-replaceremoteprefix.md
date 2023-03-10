@@ -2,15 +2,12 @@
 UID: NF:bits2_0.IBackgroundCopyJob3.ReplaceRemotePrefix
 title: IBackgroundCopyJob3::ReplaceRemotePrefix (bits2_0.h)
 description: Replaces the beginning text of all remote names in the download job with the specified string.
+helpviewer_keywords: ["IBackgroundCopyJob3 interface [BITS]","ReplaceRemotePrefix method","IBackgroundCopyJob3.ReplaceRemotePrefix","IBackgroundCopyJob3::ReplaceRemotePrefix","ReplaceRemotePrefix","ReplaceRemotePrefix method [BITS]","ReplaceRemotePrefix method [BITS]","IBackgroundCopyJob3 interface","bits.ibackgroundcopyjob3_replaceremoteprefix","bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix"]
 old-location: bits\ibackgroundcopyjob3_replaceremoteprefix.htm
 tech.root: Bits
 ms.assetid: 5ea62d29-c40e-4bd2-b22a-fce2d9f4eecf
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob3 interface [BITS],ReplaceRemotePrefix method, IBackgroundCopyJob3.ReplaceRemotePrefix, IBackgroundCopyJob3::ReplaceRemotePrefix, ReplaceRemotePrefix, ReplaceRemotePrefix method [BITS], ReplaceRemotePrefix method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_replaceremoteprefix, bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
-f1_keywords:
-- bits2_0/IBackgroundCopyJob3.ReplaceRemotePrefix
-dev_langs:
-- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- BitsPrx3.dll
-api_name:
-- IBackgroundCopyJob3.ReplaceRemotePrefix
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJob3::ReplaceRemotePrefix
+ - bits2_0/IBackgroundCopyJob3::ReplaceRemotePrefix
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - BitsPrx3.dll
+api_name:
+ - IBackgroundCopyJob3.ReplaceRemotePrefix
 ---
 
 # IBackgroundCopyJob3::ReplaceRemotePrefix
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the beginning text of all  remote names in the download job with the specified string.
 
-
 ## -parameters
-
-
-
 
 ### -param OldPrefix [in]
 
 Null-terminated string that identifies the  text to  replace in the remote name. The text must start at the beginning of the remote name.
 
-
 ### -param NewPrefix [in]
 
 Null-terminated string that contains the replacement text.
 
-
 ## -returns
-
-
 
 This method returns the following return values, as well as others.
 
@@ -136,29 +129,23 @@ The state of the job cannot be <b>BG_JOB_STATE_CANCELLED</b> or <b>BG_JOB_STATE_
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Typically, you use this method to change the server portion of the remote name when the server is unavailable or to let  roaming users connect to the closest server. This method changes all matching remote names in the job. To change the remote name of a specific file, use the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a> method.
+Typically, you use this method to change the server portion of the remote name when the server is unavailable or to let  roaming users connect to the closest server. This method changes all matching remote names in the job. To change the remote name of a specific file, use the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a> method.
 
 The <b>ReplaceRemotePrefix</b> method performs a case-sensitive search of all the  remote names in the job. If the beginning text of the remote name matches the string in <i>OldPrefix</i>, BITS replaces the text with the string found in <i>NewPrefix</i>. For example, to change "http://Server/Path/File.ext" to "http://NewServerName/Path/File.ext", set <i>OldPrefix</i> to "http://Server" and <i>NewPrefix</i> to "http://NewServerName". Note that BITS does not perform locale conversions in the search.
 
 If the time stamp or file size of the new remote name is different from the previous remote name or the new server does not support checkpoint resume (for HTTP remote names), BITS restarts the download. Otherwise, the transfer resumes from the same position on the new server. BITS does not restart already transferred files. 
 
-You can use this method to change protocols. However, the resulting URL may not be well formed. For example, changing from \\Server\Dir\File.ext to http://Server\Dir\File.ext may not resolve. Consider using the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a> method instead.
+You can use this method to change protocols. However, the resulting URL may not be well formed. For example, changing from \\Server\Dir\File.ext to http://Server\Dir\File.ext may not resolve. Consider using the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a> method instead.
 
-Note that this method may not find URLs to change if you called the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a> method and set the <b>BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT</b> flag. This policy changes the original URL to the final, redirected URL if the URL is redirected.
+Note that this method may not find URLs to change if you called the <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a> method and set the <b>BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT</b> flag. This policy changes the original URL to the final, redirected URL if the URL is redirected.
 
 
 #### Examples
 
-The following example shows how to call the <b>ReplaceRemotePrefix</b> method to change the server name of a URL. The example assumes the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid and the job contains one or more files.
+The following example shows how to call the <b>ReplaceRemotePrefix</b> method to change the server name of a URL. The example assumes the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid and the job contains one or more files.
 
 
 ```cpp
@@ -195,21 +182,10 @@ The following example shows how to call the <b>ReplaceRemotePrefix</b> method to
      }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits2_0/nn-bits2_0-ibackgroundcopyjob3">IBackgroundCopyJob3</a>

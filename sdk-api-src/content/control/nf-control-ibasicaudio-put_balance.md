@@ -2,15 +2,12 @@
 UID: NF:control.IBasicAudio.put_Balance
 title: IBasicAudio::put_Balance (control.h)
 description: The put_Balance method sets the balance of the audio signal.
+helpviewer_keywords: ["IBasicAudio interface [DirectShow]","put_Balance method","IBasicAudio.put_Balance","IBasicAudio::put_Balance","IBasicAudioput_Balance","control/IBasicAudio::put_Balance","dshow.ibasicaudio_put_balance","put_Balance","put_Balance method [DirectShow]","put_Balance method [DirectShow]","IBasicAudio interface"]
 old-location: dshow\ibasicaudio_put_balance.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 88cf4639-8f32-424f-a097-272c44592f6f
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio interface [DirectShow],put_Balance method, IBasicAudio.put_Balance, IBasicAudio::put_Balance, IBasicAudioput_Balance, control/IBasicAudio::put_Balance, dshow.ibasicaudio_put_balance, put_Balance, put_Balance method [DirectShow], put_Balance method [DirectShow],IBasicAudio interface
-f1_keywords:
-- control/IBasicAudio.put_Balance
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicAudio.put_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicAudio::put_Balance
+ - control/IBasicAudio::put_Balance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicAudio.put_Balance
 ---
 
 # IBasicAudio::put_Balance
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_Balance</code> method sets the balance of the audio signal.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lBalance [in]
 
 Specifies the balance. The value can range from -10,000 to 10,000. The value -10,000 means the right channel is attenuated by 100 dB and is effectively silent. The value 10,000 means the left channel is silent. The neutral value is 0, which means that both channels are at full volume. When one channel is attenuated, the other remains at full volume.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -122,22 +113,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>

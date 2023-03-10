@@ -1,16 +1,13 @@
 ---
 UID: NF:winnt.RtlInitializeSListHead
 title: RtlInitializeSListHead function (winnt.h)
-description: Initializes the head of a singly linked list.
+description: Initializes the head of a singly linked list. (RtlInitializeSListHead)
+helpviewer_keywords: ["RtlInitializeSListHead","RtlInitializeSListHead function","base.rtlinitializeslisthead","winnt/RtlInitializeSListHead"]
 old-location: base\rtlinitializeslisthead.htm
-tech.root: Sync
+tech.root: backup
 ms.assetid: 0f5467e0-6fba-418d-8f00-cb4fa475f7e2
 ms.date: 12/05/2018
 ms.keywords: RtlInitializeSListHead, RtlInitializeSListHead function, base.rtlinitializeslisthead, winnt/RtlInitializeSListHead
-f1_keywords:
-- winnt/RtlInitializeSListHead
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlInitializeSListHead
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlInitializeSListHead
+ - winnt/RtlInitializeSListHead
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlInitializeSListHead
 ---
 
 # RtlInitializeSListHead function
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the head of a singly linked list.
 
-
 ## -parameters
-
-
-
 
 ### -param ListHead [in]
 
 A pointer to an <b>SLIST_HEADER</b> structure that represents the head of a singly linked list. This structure is for system use only.
 
-
 ## -returns
-
-
 
 This function does not return a value.
 
-
-
-
 ## -remarks
 
-
-
-Calls to the <a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-initializeslisthead">InitializeSListHead</a> function are forwarded to the <b>RtlInitializeSListHead</b> function. Applications should call <b>InitializeSListHead</b> instead of calling this function directly.
-
-
-
+Calls to the <a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-initializeslisthead">InitializeSListHead</a> function are forwarded to the <b>RtlInitializeSListHead</b> function. Applications should call <b>InitializeSListHead</b> instead of calling this function directly.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>
- 
-
- 
-
+<a href="/windows/desktop/Sync/interlocked-singly-linked-lists">Interlocked Singly Linked Lists</a>

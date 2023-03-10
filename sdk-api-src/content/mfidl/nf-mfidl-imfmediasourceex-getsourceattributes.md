@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSourceEx.GetSourceAttributes
 title: IMFMediaSourceEx::GetSourceAttributes (mfidl.h)
 description: Gets an attribute store for the media source.
+helpviewer_keywords: ["GetSourceAttributes","GetSourceAttributes method [Media Foundation]","GetSourceAttributes method [Media Foundation]","IMFMediaSourceEx interface","IMFMediaSourceEx interface [Media Foundation]","GetSourceAttributes method","IMFMediaSourceEx.GetSourceAttributes","IMFMediaSourceEx::GetSourceAttributes","mf.imfmediasourceex_getsourceattributes","mfidl/IMFMediaSourceEx::GetSourceAttributes"]
 old-location: mf\imfmediasourceex_getsourceattributes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: A58A2537-1ABD-4EC5-AC84-A5FFA7127CEB
 ms.date: 12/05/2018
 ms.keywords: GetSourceAttributes, GetSourceAttributes method [Media Foundation], GetSourceAttributes method [Media Foundation],IMFMediaSourceEx interface, IMFMediaSourceEx interface [Media Foundation],GetSourceAttributes method, IMFMediaSourceEx.GetSourceAttributes, IMFMediaSourceEx::GetSourceAttributes, mf.imfmediasourceex_getsourceattributes, mfidl/IMFMediaSourceEx::GetSourceAttributes
-f1_keywords:
-- mfidl/IMFMediaSourceEx.GetSourceAttributes
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFMediaSourceEx.GetSourceAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceEx::GetSourceAttributes
+ - mfidl/IMFMediaSourceEx::GetSourceAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFMediaSourceEx.GetSourceAttributes
 ---
 
 # IMFMediaSourceEx::GetSourceAttributes
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an attribute store for the media source.
-
 
 ## -parameters
 
-
-
-
 ### -param ppAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -96,27 +90,11 @@ The media source does not support source-level attributes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the entire source. For stream-level attributes, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes">IMFMediaSourceEx::GetStreamAttributes</a> method instead.
-
-
-
+Use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> pointer to get or set attributes that apply to the entire source. For stream-level attributes, use the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes">IMFMediaSourceEx::GetStreamAttributes</a> method instead.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>

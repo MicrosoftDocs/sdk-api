@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiCreateTransformSummaryInfoA
 title: MsiCreateTransformSummaryInfoA function (msiquery.h)
-description: The MsiCreateTransformSummaryInfo function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using MsiGetLastErrorRecord.
+description: The MsiCreateTransformSummaryInfo function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using MsiGetLastErrorRecord. (ANSI)
+helpviewer_keywords: ["MSITRANSFORM_ERROR_ADDEXISTINGROW", "MSITRANSFORM_ERROR_ADDEXISTINGTABLE", "MSITRANSFORM_ERROR_CHANGECODEPAGE", "MSITRANSFORM_ERROR_DELMISSINGROW", "MSITRANSFORM_ERROR_DELMISSINGTABLE", "MSITRANSFORM_ERROR_UPDATEMISSINGROW", "MSITRANSFORM_VALIDATE_LANGUAGE", "MSITRANSFORM_VALIDATE_MAJORVERSION", "MSITRANSFORM_VALIDATE_MINORVERSION", "MSITRANSFORM_VALIDATE_NEWEQUALBASEVERSION", "MSITRANSFORM_VALIDATE_NEWGREATERBASEVERSION", "MSITRANSFORM_VALIDATE_NEWGREATEREQUALBASEVERSION", "MSITRANSFORM_VALIDATE_NEWLESSBASEVERSION", "MSITRANSFORM_VALIDATE_NEWLESSEQUALBASEVERSION", "MSITRANSFORM_VALIDATE_PRODUCT", "MSITRANSFORM_VALIDATE_UPDATEVERSION", "MSITRANSFORM_VALIDATE_UPGRADECODE", "MsiCreateTransformSummaryInfoA", "msiquery/MsiCreateTransformSummaryInfoA", "none"]
 old-location: setup\msicreatetransformsummaryinfo.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 7ed6738c-f693-477e-a3d7-e4f50d222fdb
 ms.date: 12/05/2018
 ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTABLE, MSITRANSFORM_ERROR_CHANGECODEPAGE, MSITRANSFORM_ERROR_DELMISSINGROW, MSITRANSFORM_ERROR_DELMISSINGTABLE, MSITRANSFORM_ERROR_UPDATEMISSINGROW, MSITRANSFORM_VALIDATE_LANGUAGE, MSITRANSFORM_VALIDATE_MAJORVERSION, MSITRANSFORM_VALIDATE_MINORVERSION, MSITRANSFORM_VALIDATE_NEWEQUALBASEVERSION, MSITRANSFORM_VALIDATE_NEWGREATERBASEVERSION, MSITRANSFORM_VALIDATE_NEWGREATEREQUALBASEVERSION, MSITRANSFORM_VALIDATE_NEWLESSBASEVERSION, MSITRANSFORM_VALIDATE_NEWLESSEQUALBASEVERSION, MSITRANSFORM_VALIDATE_PRODUCT, MSITRANSFORM_VALIDATE_UPDATEVERSION, MSITRANSFORM_VALIDATE_UPGRADECODE, MsiCreateTransformSummaryInfo, MsiCreateTransformSummaryInfo function, MsiCreateTransformSummaryInfoA, MsiCreateTransformSummaryInfoW, _msi_msicreatetransformsummaryinfo, msiquery/MsiCreateTransformSummaryInfo, msiquery/MsiCreateTransformSummaryInfoA, msiquery/MsiCreateTransformSummaryInfoW, none, setup.msicreatetransformsummaryinfo
-f1_keywords:
-- msiquery/MsiCreateTransformSummaryInfo
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiCreateTransformSummaryInfo
-- MsiCreateTransformSummaryInfoA
-- MsiCreateTransformSummaryInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiCreateTransformSummaryInfoA
+ - msiquery/MsiCreateTransformSummaryInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiCreateTransformSummaryInfo
+ - MsiCreateTransformSummaryInfoA
+ - MsiCreateTransformSummaryInfoW
 ---
 
 # MsiCreateTransformSummaryInfoA function
@@ -50,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiCreateTransformSummaryInfo</b> function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
-
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 ## -parameters
-
-
-
 
 ### -param hDatabase [in]
 
 The handle to the database that contains the new database summary information.
 
-
 ### -param hDatabaseReference [in]
 
 The handle to the database that contains the original summary information.
 
-
 ### -param szTransformFile [in]
 
 The name of the transform to which the summary information is added.
-
 
 ### -param iErrorConditions [in]
 
@@ -165,8 +159,6 @@ Transform and database code pages do not match, and their code pages are neutral
 </td>
 </tr>
 </table>
- 
-
 
 ### -param iValidation [in]
 
@@ -342,26 +334,17 @@ UpgradeCode must match base database.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This function returns UINT.
-
-
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> Property and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productversion">ProductVersion</a> Property  must be defined in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/property-table">Property Table</a> of both the base and reference databases. If MSITRANSFORM_VALIDATE_UPGRADECODE is used, the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/upgradecode">UpgradeCode</a> Property must also be defined in both databases. If these conditions are not met, 
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> Property and 
+<a href="/windows/desktop/Msi/productversion">ProductVersion</a> Property  must be defined in the 
+<a href="/windows/desktop/Msi/property-table">Property Table</a> of both the base and reference databases. If MSITRANSFORM_VALIDATE_UPGRADECODE is used, the 
+<a href="/windows/desktop/Msi/upgradecode">UpgradeCode</a> Property must also be defined in both databases. If these conditions are not met, 
 <b>MsiCreateTransformSummaryInfo</b> returns ERROR_INSTALL_PACKAGE_INVALID.
 
 <ul>
@@ -371,17 +354,14 @@ The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">Product
 
 
 
+
+> [!NOTE]
+> The msiquery.h header defines MsiCreateTransformSummaryInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-transforms">Database Transforms</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-transforms">Database Transforms</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>

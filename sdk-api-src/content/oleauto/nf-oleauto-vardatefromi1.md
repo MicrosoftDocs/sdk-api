@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarDateFromI1
 title: VarDateFromI1 function (oleauto.h)
 description: Converts a char value to a date value.
+helpviewer_keywords: ["VarDateFromI1","VarDateFromI1 function [Automation]","_oa96_VarDateFromI1","automat.vardatefromi1","oleauto/VarDateFromI1"]
 old-location: automat\vardatefromi1.htm
 tech.root: automat
 ms.assetid: 90d7fcbd-2a3b-442d-95d8-cb02dedfca52
 ms.date: 12/05/2018
 ms.keywords: VarDateFromI1, VarDateFromI1 function [Automation], _oa96_VarDateFromI1, automat.vardatefromi1, oleauto/VarDateFromI1
-f1_keywords:
-- oleauto/VarDateFromI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarDateFromI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarDateFromI1
+ - oleauto/VarDateFromI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarDateFromI1
 ---
 
 # VarDateFromI1 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a char value to a date value.
 
-
 ## -parameters
-
-
-
 
 ### -param cIn [in]
 
 The value to convert.
 
-
 ### -param pdateOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

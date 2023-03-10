@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW
 title: IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW (dvbsiparser.h)
 description: Gets the service name in string format from a Digital Video Broadcast (DVB) multilingual service name descriptor.
+helpviewer_keywords: ["GetRecordServiceNameW","GetRecordServiceNameW method [Microsoft TV Technologies]","GetRecordServiceNameW method [Microsoft TV Technologies]","IDvbMultilingualServiceNameDescriptor interface","IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies]","GetRecordServiceNameW method","IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW","IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW","dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW","mstv.idvbmultilingualservicenamedescriptor_getrecordservicenamew"]
 old-location: mstv\idvbmultilingualservicenamedescriptor_getrecordservicenamew.htm
 tech.root: mstv
 ms.assetid: dfe9040d-18f1-4a35-a4ed-bb3f84ad8dd7
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceNameW, GetRecordServiceNameW method [Microsoft TV Technologies], GetRecordServiceNameW method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordServiceNameW method, IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW, IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW, mstv.idvbmultilingualservicenamedescriptor_getrecordservicenamew
-f1_keywords:
-- dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW
+ - dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbMultilingualServiceNameDescriptor.GetRecordServiceNameW
 ---
 
 # IDvbMultilingualServiceNameDescriptor::GetRecordServiceNameW
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the service name in string format from a Digital Video Broadcast (DVB) multilingual service name descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param bRecordIndex [in]
 
 Specifies the service record number,
-  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getcountofrecords">IDvbMultilingualServiceNameDescriptor::GetCountOfRecords</a>method to get the number of records in the logical channel descriptor.
-
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getcountofrecords">IDvbMultilingualServiceNameDescriptor::GetCountOfRecords</a> method to get the number of records in the logical channel descriptor.
 
 ### -param convMode [in]
 
@@ -72,33 +68,18 @@ Specifies the string conversion mode to use. This parameter can have any of the 
 <li><b>STRCONV_MODE_ISDB</b></li>
 </ul>
 
-
-
 ### -param pbstrName [out]
 
 Pointer to a buffer that receives the service name string. The caller is responsible for freeing this memory.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbmultilingualservicenamedescriptor">IDvbMultilingualServiceNameDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbmultilingualservicenamedescriptor">IDvbMultilingualServiceNameDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getcountofrecords">IDvbMultilingualServiceNameDescriptor::GetCountOfRecords</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbmultilingualservicenamedescriptor-getcountofrecords">IDvbMultilingualServiceNameDescriptor::GetCountOfRecords</a>

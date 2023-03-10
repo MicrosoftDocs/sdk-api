@@ -1,14 +1,11 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.BeginEvent
 title: ID3D12VideoProcessCommandList::BeginEvent
-description: For internal use only. Not intended to be called directly.
+description: For internal use only. Not intended to be called directly. (ID3D12VideoProcessCommandList::BeginEvent)
+helpviewer_keywords: ["ID3D12VideoProcessCommandList::BeginEvent","BeginEvent","ID3D12VideoProcessCommandList.BeginEvent","ID3D12VideoProcessCommandList::BeginEvent","ID3D12VideoProcessCommandList.BeginEvent"]
 tech.root: mf
 ms.assetid: 4993454e-904d-4de8-9bc7-41b1b9ba77ea
 ms.date: 05/28/2019
-f1_keywords:
-- ID3D12VideoProcessCommandList::BeginEvent
-dev_langs:
-- c++
 ms.keywords: ID3D12VideoProcessCommandList::BeginEvent, BeginEvent, ID3D12VideoProcessCommandList.BeginEvent, ID3D12VideoProcessCommandList::BeginEvent, ID3D12VideoProcessCommandList.BeginEvent
 req.header: d3d12video.h
 req.include-header: 
@@ -28,15 +25,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-topic_type:
-- apiref
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12VideoProcessCommandList::BeginEvent
 targetos: Windows
+f1_keywords:
+ - ID3D12VideoProcessCommandList::BeginEvent
+ - d3d12video/ID3D12VideoProcessCommandList::BeginEvent
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12VideoProcessCommandList::BeginEvent
 ---
 
 # ID3D12VideoProcessCommandList::BeginEvent
@@ -50,19 +52,17 @@ For internal use only. Not intended to be called directly.
 
 ### -param Metadata
 
-Internal. 
+Internal.
 
 ### -param pData
 
-Internal. 
+Internal.
 
 ### -param Size
 
-Internal. 
+Internal.
 
-
-## -returns
-This method returns void.
 ## -remarks
 
 ## -see-also
+

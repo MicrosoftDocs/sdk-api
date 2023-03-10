@@ -2,15 +2,12 @@
 UID: NS:wmsdkidl.__WMT_VIDEOIMAGE_SAMPLE
 title: WMT_VIDEOIMAGE_SAMPLE (wmsdkidl.h)
 description: Describes a sample for a Video Image stream that uses the Windows Media Video 9 Image codec.
+helpviewer_keywords: ["WMT_VIDEOIMAGE_SAMPLE","WMT_VIDEOIMAGE_SAMPLE structure [windows Media Format]","wmformat.wmt_videoimage_sample","wmsdkidl/WMT_VIDEOIMAGE_SAMPLE"]
 old-location: wmformat\wmt_videoimage_sample.htm
 tech.root: wmformat
 ms.assetid: 8572ca63-760e-4bb8-886e-8e46b8dce9e9
 ms.date: 12/05/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE, WMT_VIDEOIMAGE_SAMPLE structure [windows Media Format], wmformat.wmt_videoimage_sample, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
-f1_keywords:
-- wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WMT_VIDEOIMAGE_SAMPLE
 targetos: Windows
 req.typenames: WMT_VIDEOIMAGE_SAMPLE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __WMT_VIDEOIMAGE_SAMPLE
+ - wmsdkidl/__WMT_VIDEOIMAGE_SAMPLE
+ - WMT_VIDEOIMAGE_SAMPLE
+ - wmsdkidl/WMT_VIDEOIMAGE_SAMPLE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WMT_VIDEOIMAGE_SAMPLE
 ---
 
 # WMT_VIDEOIMAGE_SAMPLE structure
@@ -48,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2">WMT_VIDEOIMAGE_SAMPLE2</a>.]
+<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2">WMT_VIDEOIMAGE_SAMPLE2</a>.]
 
 The <b>WMT_VIDEOIMAGE_SAMPLE</b> structure describes a sample for a Video Image stream that uses the Windows Media Video 9 Image codec.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwMagic
 
 Reserved value. Always set to WMT_VIDEOIMAGE_MAGIC_NUMBER.
 
-
 ### -field cbStruct
 
 Size of the structure. Always set to <b>sizeof</b>(<b>WMT_VIDEOIMAGE_SAMPLE</b>).
-
 
 ### -field dwControlFlags
 
@@ -93,10 +90,6 @@ One or more of the following values.<table>
 <td>Indicates that the sample is based, either solely or in part, on the previous image. If this flag is set, the second set of value members will be used. This flag cannot be set if the sample is input only.</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -field dwInputFlagsCur
 
@@ -122,50 +115,38 @@ One or more flags indicating the operation to perform on the current image. The 
 <td>Indicates that the sample uses rotation. This feature is not supported in the current version.</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -field lCurMotionXtoX
 
 <b>LONG</b> value containing the horizontal scaling factor of the current image. A scaling factor of 1 means no horizontal scaling will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lCurMotionYtoX
 
 Not used.
-
 
 ### -field lCurMotionXoffset
 
 <b>LONG</b> value containing the horizontal offset for the current image, in pixels, in relation to the last output sample. An offset of 0 means that no panning will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lCurMotionXtoY
 
 Not used.
-
 
 ### -field lCurMotionYtoY
 
 <b>LONG</b> value containing the vertical scaling factor of the current image. A scaling factor of 1 means no vertical scaling will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lCurMotionYoffset
 
 <b>LONG</b> value containing the vertical offset for the current image, in pixels, in relation to the last output sample. An offset of 0 means that no panning will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
-
 
 ### -field lCurBlendCoef1
 
 <b>LONG</b> value containing the blend coefficient for the current image when combined with the previous image for an output. This coefficient and the coefficient for the previous image must total 1. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lCurBlendCoef2
 
 Not used.
-
 
 ### -field dwInputFlagsPrev
 
@@ -191,58 +172,39 @@ One or more flags indicating the operation to perform on the previous image. The
 <td>Indicates that the sample uses rotation. This feature is not supported in the current version.</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -field lPrevMotionXtoX
 
 <b>LONG</b> value containing the horizontal scaling factor of the previous image. A scaling factor of 1 means no horizontal scaling will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lPrevMotionYtoX
 
 Not used.
-
 
 ### -field lPrevMotionXoffset
 
 <b>LONG</b> value containing the horizontal offset for the previous image, in pixels, in relation to the last output sample. An offset of 0 means that no panning will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lPrevMotionXtoY
 
 Not used.
-
 
 ### -field lPrevMotionYtoY
 
 <b>LONG</b> value containing the vertical scaling factor of the previous image. A scaling factor of 1 means no vertical scaling will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lPrevMotionYoffset
 
 <b>LONG</b> value containing the vertical offset for the previous image, in pixels, in relation to the last output sample. An offset of 0 means that no panning will be performed for this sample. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
-
 
 ### -field lPrevBlendCoef1
 
 <b>LONG</b> value containing the blend coefficient for the previous image when combined with the current image for an output. This coefficient and the coefficient for the current image must total 1. This value must be multiplied by WMT_VIDEOIMAGE_INTEGER_DENOMINATOR before being set in the structure.
 
-
 ### -field lPrevBlendCoef2
 
 Not used.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

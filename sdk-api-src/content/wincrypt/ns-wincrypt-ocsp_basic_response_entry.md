@@ -2,15 +2,12 @@
 UID: NS:wincrypt._OCSP_BASIC_RESPONSE_ENTRY
 title: OCSP_BASIC_RESPONSE_ENTRY (wincrypt.h)
 description: Contains the current certificate status for a single certificate.
+helpviewer_keywords: ["*POCSP_BASIC_RESPONSE_ENTRY","OCSP_BASIC_GOOD_CERT_STATUS","OCSP_BASIC_RESPONSE_ENTRY","OCSP_BASIC_RESPONSE_ENTRY structure [Security]","OCSP_BASIC_REVOKED_CERT_STATUS","OCSP_BASIC_UNKNOWN_CERT_STATUS","POCSP_BASIC_RESPONSE_ENTRY","POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security]","security.ocsp_basic_response_entry","wincrypt/OCSP_BASIC_RESPONSE_ENTRY","wincrypt/POCSP_BASIC_RESPONSE_ENTRY"]
 old-location: security\ocsp_basic_response_entry.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_GOOD_CERT_STATUS, OCSP_BASIC_RESPONSE_ENTRY, OCSP_BASIC_RESPONSE_ENTRY structure [Security], OCSP_BASIC_REVOKED_CERT_STATUS, OCSP_BASIC_UNKNOWN_CERT_STATUS, POCSP_BASIC_RESPONSE_ENTRY, POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security], security.ocsp_basic_response_entry, wincrypt/OCSP_BASIC_RESPONSE_ENTRY, wincrypt/POCSP_BASIC_RESPONSE_ENTRY'
-f1_keywords:
-- wincrypt/OCSP_BASIC_RESPONSE_ENTRY
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- OCSP_BASIC_RESPONSE_ENTRY
 targetos: Windows
 req.typenames: OCSP_BASIC_RESPONSE_ENTRY, *POCSP_BASIC_RESPONSE_ENTRY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OCSP_BASIC_RESPONSE_ENTRY
+ - wincrypt/_OCSP_BASIC_RESPONSE_ENTRY
+ - POCSP_BASIC_RESPONSE_ENTRY
+ - wincrypt/POCSP_BASIC_RESPONSE_ENTRY
+ - OCSP_BASIC_RESPONSE_ENTRY
+ - wincrypt/OCSP_BASIC_RESPONSE_ENTRY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - OCSP_BASIC_RESPONSE_ENTRY
 ---
 
 # OCSP_BASIC_RESPONSE_ENTRY structure
@@ -48,26 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate status for a single certificate. This structure populates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> <b>rgResponseEntry</b> member.
-
+The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate status for a single certificate. This structure populates the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> <b>rgResponseEntry</b> member.
 
 ## -struct-fields
 
-
-
-
 ### -field CertId
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response. 
-
+An <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate of the <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response.
 
 ### -field dwCertStatus
 
 A value that indicates the target certificate revocation status.
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560</a> defines the following possible values for certificate status.
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560</a> defines the following possible values for certificate status.
 
 
 
@@ -110,62 +110,45 @@ The responder has no information for the target certificate.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.pRevokedInfo
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
-
+A pointer to an <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
 
 ### -field ThisUpdate
 
 The date and time at which the response indicated by <i>dwCertStatus</i> is known to be correct.
 
-
 ### -field NextUpdate
 
 The date and time on or before which newer information will be available for the certificate status. A value of zero indicates that the certificate status never expires.
-
 
 ### -field cExtension
 
 The number of elements in the <b>rgExtension</b> array.
 
-
 ### -field rgExtension
 
-An array of pointers to  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
-
+An array of pointers to  <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560 Online Certificate Status Protocol</a>
- 
-
- 
-
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560 Online Certificate Status Protocol</a>

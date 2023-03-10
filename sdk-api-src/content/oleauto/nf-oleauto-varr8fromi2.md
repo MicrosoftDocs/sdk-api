@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarR8FromI2
 title: VarR8FromI2 function (oleauto.h)
 description: Converts a short value to a double value.
+helpviewer_keywords: ["VarR8FromI2","VarR8FromI2 function [Automation]","_oa96_VarR8FromI2","automat.varr8fromi2","oleauto/VarR8FromI2"]
 old-location: automat\varr8fromi2.htm
 tech.root: automat
 ms.assetid: b633a41c-5a47-4b88-b8ce-590b5f6d5169
 ms.date: 12/05/2018
 ms.keywords: VarR8FromI2, VarR8FromI2 function [Automation], _oa96_VarR8FromI2, automat.varr8fromi2, oleauto/VarR8FromI2
-f1_keywords:
-- oleauto/VarR8FromI2
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarR8FromI2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarR8FromI2
+ - oleauto/VarR8FromI2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarR8FromI2
 ---
 
 # VarR8FromI2 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a short value to a double value.
 
-
 ## -parameters
-
-
-
 
 ### -param sIn [in]
 
 The value to convert.
 
-
 ### -param pdblOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

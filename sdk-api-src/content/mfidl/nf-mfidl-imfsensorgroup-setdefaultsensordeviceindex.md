@@ -2,16 +2,12 @@
 UID: NF:mfidl.IMFSensorGroup.SetDefaultSensorDeviceIndex
 title: IMFSensorGroup::SetDefaultSensorDeviceIndex (mfidl.h)
 description: Configures one of the devices in the sensor group as the default device.
+helpviewer_keywords: ["IMFSensorGroup interface [Media Foundation]","SetDefaultSensorDeviceIndex method","IMFSensorGroup.SetDefaultSensorDeviceIndex","IMFSensorGroup::SetDefaultSensorDeviceIndex","SetDefaultSensorDeviceIndex","SetDefaultSensorDeviceIndex method [Media Foundation]","SetDefaultSensorDeviceIndex method [Media Foundation]","IMFSensorGroup interface","mf.imfsensorgroup_setdefaultsensordeviceindex","mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex"]
 old-location: mf\imfsensorgroup_setdefaultsensordeviceindex.htm
 tech.root: medfound
 ms.assetid: 06E2E2DB-8361-49BB-9369-0D0C33DF0C32
 ms.date: 12/05/2018
 ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceIndex method, IMFSensorGroup.SetDefaultSensorDeviceIndex, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
-ms.topic: method
-f1_keywords:
-- mfidl/IMFSensorGroup.SetDefaultSensorDeviceIndex
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -29,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFSensorGroup.SetDefaultSensorDeviceIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorGroup::SetDefaultSensorDeviceIndex
+ - mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFSensorGroup.SetDefaultSensorDeviceIndex
 ---
 
 # IMFSensorGroup::SetDefaultSensorDeviceIndex
@@ -52,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures one of the devices in the sensor group as the default device.
-
 
 ## -parameters
 
-
-
-
 ### -param dwIndex
 
-0-based index of the device to be set as defaut.  The index must be between 0 and the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
-
+0-based index of the device to be set as default.  The index must be between 0 and the value returned by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-getsensordevicecount">GetSensorDeviceCount</a> - 1.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -113,29 +106,13 @@ The sensor group has not been initialized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The term "device" in this context could refer to a physical device, a custom media source, or a frame provider.
 
 If this method is not called, the first device in the Sensor Group (i.e. the device with index 0) will be used.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>

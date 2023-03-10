@@ -2,15 +2,12 @@
 UID: NE:certenroll.X509RequestType
 title: X509RequestType (certenroll.h)
 description: Specifies the certificate request type.
+helpviewer_keywords: ["TypeAny","TypeCertificate","TypeCmc","TypePkcs10","TypePkcs7","X509RequestType","X509RequestType enumeration [Security]","certenroll/TypeAny","certenroll/TypeCertificate","certenroll/TypeCmc","certenroll/TypePkcs10","certenroll/TypePkcs7","certenroll/X509RequestType","security.x509requesttype_enum"]
 old-location: security\x509requesttype_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e7941e88-b825-409a-87b9-a560aa6d5868
 ms.date: 12/05/2018
 ms.keywords: TypeAny, TypeCertificate, TypeCmc, TypePkcs10, TypePkcs7, X509RequestType, X509RequestType enumeration [Security], certenroll/TypeAny, certenroll/TypeCertificate, certenroll/TypeCmc, certenroll/TypePkcs10, certenroll/TypePkcs7, certenroll/X509RequestType, security.x509requesttype_enum
-f1_keywords:
-- certenroll/X509RequestType
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- X509RequestType
 targetos: Windows
 req.typenames: X509RequestType
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - X509RequestType
+ - certenroll/X509RequestType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - X509RequestType
 ---
 
 # X509RequestType enumeration
@@ -48,51 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>X509RequestType</b> enumeration specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> type. This enumeration is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_type">Type</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface.
-
+The <b>X509RequestType</b> enumeration specifies the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> type. This enumeration is returned by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_type">Type</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface.
 
 ## -enum-fields
 
-
-
-
-### -field TypeAny
+### -field TypeAny:0
 
 The type is not defined.
 
+### -field TypePkcs10:1
 
-### -field TypePkcs10
+A PKCS #10 request. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface.
 
-A PKCS #10 request. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> interface.
+### -field TypePkcs7:2
 
+A PKCS #7 request represented by an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
 
-### -field TypePkcs7
+### -field TypeCmc:3
 
-A PKCS #7 request represented by an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a> interface.
+A <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> interface.
 
+### -field TypeCertificate:4
 
-### -field TypeCmc
-
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a> interface.
-
-
-### -field TypeCertificate
-
-A self-signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a> interface.
-
+A self-signed <a href="/windows/desktop/SecGloss/c-gly">certificate</a>. For more information, see the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a> interface.
 
 ## -see-also
 
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>

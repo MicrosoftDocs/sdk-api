@@ -2,15 +2,12 @@
 UID: NN:shlobj_core.IShellFolderViewCB
 title: IShellFolderViewCB (shlobj_core.h)
 description: Exposes a method that allows communication between Windows Explorer and a folder view implemented using the system folder view object (the IShellView object returned through SHCreateShellFolderView) so that the folder view can be notified of events and modify its view accordingly.
+helpviewer_keywords: ["IShellFolderViewCB","IShellFolderViewCB interface [Windows Shell]","IShellFolderViewCB interface [Windows Shell]","described","_win32_IShellFolderViewCB","shell.IShellFolderViewCB","shlobj_core/IShellFolderViewCB"]
 old-location: shell\IShellFolderViewCB.htm
 tech.root: shell
 ms.assetid: 0cd2bce8-d77a-4140-869b-707aaa279796
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewCB, IShellFolderViewCB interface [Windows Shell], IShellFolderViewCB interface [Windows Shell],described, _win32_IShellFolderViewCB, shell.IShellFolderViewCB, shlobj_core/IShellFolderViewCB
-f1_keywords:
-- shlobj_core/IShellFolderViewCB
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellFolderViewCB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellFolderViewCB
+ - shlobj_core/IShellFolderViewCB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellFolderViewCB
 ---
 
 # IShellFolderViewCB interface
@@ -48,44 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Exposes a method that allows communication between Windows Explorer and a folder view implemented using the system folder view object (the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object returned through <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>) so that the folder view can be notified of events and modify its view accordingly.
-
+Exposes a method that allows communication between Windows Explorer and a folder view implemented using the system folder view object (the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> object returned through <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>) so that the folder view can be notified of events and modify its view accordingly.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellFolderViewCB</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellFolderViewCB</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IShellFolderViewCB</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb">MessageSFVCB</a>
-</td>
-<td align="left" width="63%">
-Allows communication between the system folder view object and a system folder view callback object.
-
-</td>
-</tr>
-</table> 
-
+The <b>IShellFolderViewCB</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellFolderViewCB</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfnviewcallback">LPFNVIEWCALLBACK</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfnviewcallback">LPFNVIEWCALLBACK</a>

@@ -1,16 +1,13 @@
 ---
 UID: NN:objidlbase.IMarshal
 title: IMarshal (objidlbase.h)
-description: Enables a COM object to define and manage the marshaling of its interface pointers.
+description: The IMarshal (objidlbase.h) interface enables a COM object to define and manage the marshaling of its interface pointers.
+helpviewer_keywords: ["IMarshal","IMarshal interface [COM]","IMarshal interface [COM]","described","_com_imarshal","com.imarshal","objidlbase/IMarshal"]
 old-location: com\imarshal.htm
 tech.root: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
-f1_keywords:
-- objidlbase/IMarshal
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMarshal
+ - objidlbase/IMarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMarshal
 ---
 
 # IMarshal interface
@@ -48,85 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a COM object to define and manage the marshaling of its interface pointers.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMarshal</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMarshal</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IMarshal</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject">DisconnectObject</a>
-</td>
-<td align="left" width="63%">
-Releases all connections to an object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-getmarshalsizemax">GetMarshalSizeMax</a>
-</td>
-<td align="left" width="63%">
-Retrieves the maximum size of the buffer that will be needed during marshaling.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-getunmarshalclass">GetUnmarshalClass</a>
-</td>
-<td align="left" width="63%">
-Retrieves the <b>CLSID</b> of the unmarshaling code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-marshalinterface">MarshalInterface</a>
-</td>
-<td align="left" width="63%">
-Marshals an interface pointer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-releasemarshaldata">ReleaseMarshalData</a>
-</td>
-<td align="left" width="63%">
-Destroys a marshaled data packet.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface">UnmarshalInterface</a>
-</td>
-<td align="left" width="63%">
-Unmarshals an interface pointer.
-
-</td>
-</tr>
-</table> 
-
+The <b>IMarshal</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMarshal</b> also has these types of members:
 
 ## -remarks
-
-
 
 <i>Marshaling</i> is the process of packaging data into packets for transmission to a different process 
      or computer. Unmarshaling is the process of recovering that data at the receiving end. In any given call, method 
@@ -175,7 +105,7 @@ The <i>interface proxy</i> resides in the client process; the <i>interface stub<
 
 Proxy and stub communicate by means of an RPC (remote procedure call) channel, which utilizes the system's RPC 
       infrastructure for interprocess communication. The RPC channel implements a single interface, 
-      <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>, to which both interface proxies and 
+      <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>, to which both interface proxies and 
       stubs hold a pointer. The proxy and stub call the interface to obtain a marshaling packet, send the data to 
       their counterpart, and destroy the packet when they are done. The interface stub also holds a pointer to the 
       original object.
@@ -198,7 +128,7 @@ Most often, the class to which this <b>CLSID</b> refers is automatically generat
 When created, interface proxies are always aggregated into a larger proxy, which represents the object as a 
       whole. This object proxy also aggregates the COM generic proxy object, which is known as the 
       <i>proxy manager</i>. The proxy manager implements two interfaces: 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and 
+      <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and 
       <b>IMarshal</b>. All of the other interfaces that may be implemented 
       on an object are exposed in its object proxy through the aggregation of individual interface proxies. A client 
       holding a pointer to the object proxy "believes" it holds a pointer to the actual object.
@@ -216,13 +146,13 @@ Interface stubs, by contrast with interface proxies, are not aggregated because 
       state take any particular, well-specified form.
 
 The first time a client requests a pointer to an interface on a particular object, COM loads an 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> stub in the server process and uses it to 
+      <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a> stub in the server process and uses it to 
       marshal the first pointer back to the client. In the client process, COM loads the generic proxy for the class 
       factory object and calls its implementation of <b>IMarshal</b> to 
       unmarshal that first pointer. COM then creates the first interface proxy and hands it a pointer to the RPC 
       channel. Finally, COM returns the <b>IClassFactory</b> pointer 
       to the client, which uses it to call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>, passing it 
+      <a href="/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>, passing it 
       a reference to the interface.
 
 Back in the server process, COM now creates a new instance of the object, along with a stub for the requested 
@@ -232,10 +162,10 @@ Back in the server process, COM now creates a new instance of the object, along 
       appropriate interface stubs and proxies as needed.
 
 When a new interface proxy is created, COM hands it a pointer to the proxy manager's implementation of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, to which it delegates all 
-      <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> calls. Each interface proxy 
+      <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, to which it delegates all 
+      <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> calls. Each interface proxy 
       implements two interfaces of its own: the interface it represents and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>. The interface proxy exposes its own 
+      <a href="/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>. The interface proxy exposes its own 
       interface directly to clients, which can obtain its pointer by calling 
       <b>QueryInterface</b> on the proxy manager. Only COM, 
       however, can call <b>IRpcProxyBuffer</b>, which is used to 
@@ -243,30 +173,30 @@ When a new interface proxy is created, COM hands it a pointer to the proxy manag
       pointer to the <b>IRpcProxyBuffer</b> interface.
 
 On the server side, each interface stub implements 
-      <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>. The server code acting as a stub manager 
-      calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect">IRpcStubBuffer::Connect</a> and passes the 
-      interface stub the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of its object.
+      <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>. The server code acting as a stub manager 
+      calls <a href="/windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect">IRpcStubBuffer::Connect</a> and passes the 
+      interface stub the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer of its object.
 
 When an interface proxy receives a method invocation, it obtains a marshaling packet from its RPC channel 
       through a call to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>. The process 
+      <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>. The process 
       of marshaling the arguments will copy data into the buffer. When marshaling is complete, the interface proxy 
-      invokes <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive">IRpcChannelBuffer::SendReceive</a> to 
+      invokes <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive">IRpcChannelBuffer::SendReceive</a> to 
       send the marshaled packet to the corresponding interface stub. When 
       <b>IRpcChannelBuffer::SendReceive</b> returns, 
       the buffer into which the arguments were marshaled will have been replaced by a new buffer containing the return 
       values marshaled from the interface stub. The interface proxy unmarshals the return values, invokes 
-      <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer">IRpcChannelBuffer::FreeBuffer</a> to free the 
+      <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer">IRpcChannelBuffer::FreeBuffer</a> to free the 
       buffer, and then returns the return values to the original caller of the method.
 
 It is the implementation of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive">IRpcChannelBuffer::SendReceive</a> that 
+      <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive">IRpcChannelBuffer::SendReceive</a> that 
       actually sends the request to the server process and that knows how to identify the server process and, within 
       that process, the object to which the request should be sent. The channel implementation also knows how to 
       forward the request on to the appropriate stub manager in that process. The interface stub unmarshals the 
       arguments from the provided buffer, invokes the indicated method on the server object, and marshals the return 
       values back into a new buffer allocated by a call to 
-      <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>. The channel 
+      <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer">IRpcChannelBuffer::GetBuffer</a>. The channel 
       then transmits the return data packet back to the interface proxy, which is still in the middle of 
       <b>IRpcChannelBuffer::SendReceive</b>, which 
       returns to the interface proxy.
@@ -276,11 +206,11 @@ A particular instance of an interface proxy can be used to service more than one
 
 <ul>
 <li>The IIDs of the affected interfaces must be mapped to the appropriate 
-       <a href="https://docs.microsoft.com/windows/desktop/com/proxystubclsid">ProxyStubClsid</a> in the system registry.</li>
+       <a href="/windows/desktop/com/proxystubclsid">ProxyStubClsid</a> in the system registry.</li>
 <li>The interface proxy must support calls to 
-       <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from one supported interface to 
-       the other interfaces, as usual, as well as from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>.</li>
+       <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> from one supported interface to 
+       the other interfaces, as usual, as well as from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and 
+       <a href="/windows/desktop/api/objidl/nn-objidl-irpcproxybuffer">IRpcProxyBuffer</a>.</li>
 </ul>
 A single instance of an interface stub can also service more than one interface, but only if that set of 
       interfaces has a strict single-inheritance relationship. This restriction exists because the stub can direct 
@@ -290,18 +220,8 @@ A single instance of an interface stub can also service more than one interface,
 At various times, proxies and stubs will have need to allocate or free memory. Interface proxies, for example, 
       will need to allocate memory in which to return out parameters to their caller. In this respect, interface 
       proxies and interface stubs are just normal COM components, in that they should use the standard task allocator. 
-      (See <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>.)
-
-
-
+      (See <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>.)
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istdmarshalinfo">IStdMarshalInfo</a>

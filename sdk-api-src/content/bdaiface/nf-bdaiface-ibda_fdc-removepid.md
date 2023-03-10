@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_FDC.RemovePid
 title: IBDA_FDC::RemovePid (bdaiface.h)
 description: Removes one or more packet identifiers (PIDs) from the MPEG flow.
+helpviewer_keywords: ["IBDA_FDC interface [Microsoft TV Technologies]","RemovePid method","IBDA_FDC.RemovePid","IBDA_FDC::RemovePid","RemovePid","RemovePid method [Microsoft TV Technologies]","RemovePid method [Microsoft TV Technologies]","IBDA_FDC interface","bdaiface/IBDA_FDC::RemovePid","mstv.ibda_fdc_removepid"]
 old-location: mstv\ibda_fdc_removepid.htm
 tech.root: mstv
 ms.assetid: 1277726c-6443-416c-a5d4-044d5f885af7
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemovePid method, IBDA_FDC.RemovePid, IBDA_FDC::RemovePid, RemovePid, RemovePid method [Microsoft TV Technologies], RemovePid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemovePid, mstv.ibda_fdc_removepid
-f1_keywords:
-- bdaiface/IBDA_FDC.RemovePid
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_FDC.RemovePid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_FDC::RemovePid
+ - bdaiface/IBDA_FDC::RemovePid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_FDC.RemovePid
 ---
 
 # IBDA_FDC::RemovePid
@@ -48,45 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes one or more packet identifiers (PIDs) from the MPEG flow.
 
-
 ## -parameters
-
-
-
 
 ### -param PidsToRemove [in]
 
 A comma-separated list of PIDs to remove.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
  This command causes the device to send a delete_flow_req Application Protocol Data Unit (APDU).
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_fdc">IBDA_FDC</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_fdc">IBDA_FDC</a>

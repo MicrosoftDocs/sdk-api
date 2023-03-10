@@ -2,15 +2,12 @@
 UID: NF:strmif.IFilterGraph2.AddSourceFilterForMoniker
 title: IFilterGraph2::AddSourceFilterForMoniker (strmif.h)
 description: The AddSourceFilterForMoniker method creates a source filter from an IMoniker pointer and adds the filter to the graph.
+helpviewer_keywords: ["AddSourceFilterForMoniker","AddSourceFilterForMoniker method [DirectShow]","AddSourceFilterForMoniker method [DirectShow]","IFilterGraph2 interface","IFilterGraph2 interface [DirectShow]","AddSourceFilterForMoniker method","IFilterGraph2.AddSourceFilterForMoniker","IFilterGraph2::AddSourceFilterForMoniker","IFilterGraph2AddSourceFilterForMoniker","dshow.ifiltergraph2_addsourcefilterformoniker","strmif/IFilterGraph2::AddSourceFilterForMoniker"]
 old-location: dshow\ifiltergraph2_addsourcefilterformoniker.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7e398df6-7cb7-4028-be34-3040a2cd1c2b
 ms.date: 12/05/2018
 ms.keywords: AddSourceFilterForMoniker, AddSourceFilterForMoniker method [DirectShow], AddSourceFilterForMoniker method [DirectShow],IFilterGraph2 interface, IFilterGraph2 interface [DirectShow],AddSourceFilterForMoniker method, IFilterGraph2.AddSourceFilterForMoniker, IFilterGraph2::AddSourceFilterForMoniker, IFilterGraph2AddSourceFilterForMoniker, dshow.ifiltergraph2_addsourcefilterformoniker, strmif/IFilterGraph2::AddSourceFilterForMoniker
-f1_keywords:
-- strmif/IFilterGraph2.AddSourceFilterForMoniker
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFilterGraph2.AddSourceFilterForMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterGraph2::AddSourceFilterForMoniker
+ - strmif/IFilterGraph2::AddSourceFilterForMoniker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFilterGraph2.AddSourceFilterForMoniker
 ---
 
 # IFilterGraph2::AddSourceFilterForMoniker
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>AddSourceFilterForMoniker</code> method creates a source filter from an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer and adds the filter to the graph. For example, you can obtain a moniker for a system device, such as a video capture device, and add a video capture filter for that device. (For more information about system device monikers, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface.)
-
-
-
+The <code>AddSourceFilterForMoniker</code> method creates a source filter from an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer and adds the filter to the graph. For example, you can obtain a moniker for a system device, such as a video capture device, and add a video capture filter for that device. (For more information about system device monikers, see the <a href="/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface.)
 
 ## -parameters
 
-
-
-
 ### -param pMoniker [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface.
-
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface.
 
 ### -param pCtx [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> bind context interface.
-
+Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> bind context interface.
 
 ### -param lpcwstrFilterName [in]
 
 Name for the filter.
 
-
 ### -param ppFilter [out]
 
-Receives a pointer to the source filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> pointer. The caller must release the interface.
-
+Receives a pointer to the source filter's <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> pointer. The caller must release the interface.
 
 ## -returns
-
-
 
 Returns and <b>HRESULT</b> value. Possible values include the following.
 
@@ -170,21 +158,15 @@ The media type of this file is not recognized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Filter Graph Manager holds a reference count on the filter until the filter is removed from the graph or the Filter Graph Manager is released.
 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -219,19 +201,10 @@ pMoniker-&gt;Release();
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2 Interface</a>

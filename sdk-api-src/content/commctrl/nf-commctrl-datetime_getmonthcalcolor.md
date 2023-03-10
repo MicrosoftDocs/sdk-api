@@ -2,15 +2,12 @@
 UID: NF:commctrl.DateTime_GetMonthCalColor
 title: DateTime_GetMonthCalColor macro (commctrl.h)
 description: Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_GETMCCOLOR message explicitly.
+helpviewer_keywords: ["DateTime_GetMonthCalColor","DateTime_GetMonthCalColor macro [Windows Controls]","MCSC_BACKGROUND","MCSC_MONTHBK","MCSC_TEXT","MCSC_TITLEBK","MCSC_TITLETEXT","MCSC_TRAILINGTEXT","_win32_DateTime_GetMonthCalColor","_win32_DateTime_GetMonthCalColor_cpp","commctrl/DateTime_GetMonthCalColor","controls.DateTime_GetMonthCalColor","controls._win32_DateTime_GetMonthCalColor"]
 old-location: controls\DateTime_GetMonthCalColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalcolor.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetMonthCalColor, DateTime_GetMonthCalColor macro [Windows Controls], MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, _win32_DateTime_GetMonthCalColor, _win32_DateTime_GetMonthCalColor_cpp, commctrl/DateTime_GetMonthCalColor, controls.DateTime_GetMonthCalColor, controls._win32_DateTime_GetMonthCalColor
-f1_keywords:
-- commctrl/DateTime_GetMonthCalColor
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_GetMonthCalColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_GetMonthCalColor
+ - commctrl/DateTime_GetMonthCalColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_GetMonthCalColor
 ---
 
 # DateTime_GetMonthCalColor macro
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getmccolor">DTM_GETMCCOLOR</a> message explicitly. 
-
+Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-getmccolor">DTM_GETMCCOLOR</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a DTP control. 
-
+A handle to a DTP control.
 
 ### -param iColor
 
@@ -136,5 +132,3 @@ Retrieve the color used to display header day and trailing day text. Header and 
 </td>
 </tr>
 </table>
- 
-

@@ -1,16 +1,13 @@
 ---
 UID: NE:fwptypes.FWP_IP_VERSION_
 title: FWP_IP_VERSION (fwptypes.h)
-description: Specifies the IP version.
+description: Specifies the IP version. (FWP_IP_VERSION)
+helpviewer_keywords: ["FWP_IP_VERSION","FWP_IP_VERSION enumeration [Filtering]","FWP_IP_VERSION_MAX","FWP_IP_VERSION_NONE","FWP_IP_VERSION_V4","FWP_IP_VERSION_V6","fwp.fwp_ip_version_enum","fwptypes/FWP_IP_VERSION","fwptypes/FWP_IP_VERSION_MAX","fwptypes/FWP_IP_VERSION_NONE","fwptypes/FWP_IP_VERSION_V4","fwptypes/FWP_IP_VERSION_V6"]
 old-location: fwp\fwp_ip_version_enum.htm
 tech.root: fwp
 ms.assetid: 1712b83c-f32d-4981-9950-ab870a376182
 ms.date: 12/05/2018
 ms.keywords: FWP_IP_VERSION, FWP_IP_VERSION enumeration [Filtering], FWP_IP_VERSION_MAX, FWP_IP_VERSION_NONE, FWP_IP_VERSION_V4, FWP_IP_VERSION_V6, fwp.fwp_ip_version_enum, fwptypes/FWP_IP_VERSION, fwptypes/FWP_IP_VERSION_MAX, fwptypes/FWP_IP_VERSION_NONE, fwptypes/FWP_IP_VERSION_V4, fwptypes/FWP_IP_VERSION_V6
-f1_keywords:
-- fwptypes/FWP_IP_VERSION
-dev_langs:
-- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwptypes.h
-api_name:
-- FWP_IP_VERSION
 targetos: Windows
 req.typenames: FWP_IP_VERSION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWP_IP_VERSION_
+ - fwptypes/FWP_IP_VERSION_
+ - FWP_IP_VERSION
+ - fwptypes/FWP_IP_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwptypes.h
+api_name:
+ - FWP_IP_VERSION
 ---
 
 # FWP_IP_VERSION enumeration
@@ -48,29 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWP_IP_VERSION</b> enumerated type specifies the IP version.
-
 
 ## -enum-fields
 
-
-
-
-### -field FWP_IP_VERSION_V4
+### -field FWP_IP_VERSION_V4:0
 
 Specifies IPv4.
-
 
 ### -field FWP_IP_VERSION_V6
 
 Specifies IPv6.
 
-
 ### -field FWP_IP_VERSION_NONE
 
 Reserved.
-
 
 ### -field FWP_IP_VERSION_MAX
 

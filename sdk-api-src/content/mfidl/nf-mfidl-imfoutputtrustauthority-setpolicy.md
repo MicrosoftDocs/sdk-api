@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFOutputTrustAuthority.SetPolicy
 title: IMFOutputTrustAuthority::SetPolicy (mfidl.h)
 description: Sets one or more policy objects on the output trust authority (OTA).
+helpviewer_keywords: ["IMFOutputTrustAuthority interface [Media Foundation]","SetPolicy method","IMFOutputTrustAuthority.SetPolicy","IMFOutputTrustAuthority::SetPolicy","SetPolicy","SetPolicy method [Media Foundation]","SetPolicy method [Media Foundation]","IMFOutputTrustAuthority interface","f5102ef3-472f-4a38-889c-e1c25dd46765","mf.imfoutputtrustauthority_setpolicy","mfidl/IMFOutputTrustAuthority::SetPolicy"]
 old-location: mf\imfoutputtrustauthority_setpolicy.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765
 ms.date: 12/05/2018
 ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy method, IMFOutputTrustAuthority.SetPolicy, IMFOutputTrustAuthority::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFOutputTrustAuthority interface, f5102ef3-472f-4a38-889c-e1c25dd46765, mf.imfoutputtrustauthority_setpolicy, mfidl/IMFOutputTrustAuthority::SetPolicy
-f1_keywords:
-- mfidl/IMFOutputTrustAuthority.SetPolicy
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFOutputTrustAuthority.SetPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFOutputTrustAuthority::SetPolicy
+ - mfidl/IMFOutputTrustAuthority::SetPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFOutputTrustAuthority.SetPolicy
 ---
 
 # IMFOutputTrustAuthority::SetPolicy
@@ -49,31 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets one or more policy objects on the output trust authority (OTA).
-        
-
 
 ## -parameters
 
-
-
-
 ### -param ppPolicy [in]
 
-The address of  an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a> pointers.
-          
-
+The address of  an array of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a> pointers.
 
 ### -param nPolicy [in]
 
 The number of elements in the <i>ppPolicy</i> array.
-          
-
 
 ### -param ppbTicket [out]
 
-Receives either a pointer to a buffer allocated by the OTA, or the value <b>NULL</b>. If this parameter receives a non-<b>NULL</b> value, the caller must release the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
+Receives either a pointer to a buffer allocated by the OTA, or the value <b>NULL</b>. If this parameter receives a non-<b>NULL</b> value, the caller must release the buffer by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
 
 <div class="alert"><b>Note</b>  Currently this parameter is reserved. An OTA should set the pointer to <b>NULL</b>.</div>
 <div> </div>
@@ -82,10 +74,7 @@ Receives either a pointer to a buffer allocated by the OTA, or the value <b>NULL
 
 Receives the size of the <i>ppbTicket</i> buffer, in bytes. If <i>ppbTicket</i> receives the value <b>NULL</b>, <i>pcbTicket</i> receives the value zero.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -131,27 +120,11 @@ The OTA does not support the requirements of this policy.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the method returns <b>MF_S_WAIT_FOR_POLICY_SET</b>, the OTA sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mepolicyset">MEPolicySet</a> event when it enforces the policy.
-
-
-
+If the method returns <b>MF_S_WAIT_FOR_POLICY_SET</b>, the OTA sends an <a href="/windows/desktop/medfound/mepolicyset">MEPolicySet</a> event when it enforces the policy.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority">IMFOutputTrustAuthority</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority">IMFOutputTrustAuthority</a>

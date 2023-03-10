@@ -2,15 +2,12 @@
 UID: NF:olectl.DllUnregisterServer
 title: DllUnregisterServer function (olectl.h)
 description: Instructs an in-process server to remove only those entries created through DllRegisterServer.
+helpviewer_keywords: ["DllUnregisterServer","DllUnregisterServer function [COM]","_com_DllUnregisterServer","com.dllunregisterserver","olectl/DllUnregisterServer"]
 old-location: com\dllunregisterserver.htm
 tech.root: com
 ms.assetid: b71137a7-284e-4521-a3b2-9dad9c9d3c54
 ms.date: 12/05/2018
 ms.keywords: DllUnregisterServer, DllUnregisterServer function [COM], _com_DllUnregisterServer, com.dllunregisterserver, olectl/DllUnregisterServer
-f1_keywords:
-- olectl/DllUnregisterServer
-dev_langs:
-- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-api_name:
-- DllUnregisterServer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DllUnregisterServer
+ - olectl/DllUnregisterServer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+api_name:
+ - DllUnregisterServer
 ---
 
 # DllUnregisterServer function
@@ -48,22 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-Instructs an in-process server to remove only those entries created through <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
-
-
-
-
-## -parameters
-
-
-
+Instructs an in-process server to remove only those entries created through <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
 
 
 
 ## -returns
-
-
 
 This function can return the standard return values E_OUTOFMEMORY and E_UNEXPECTED, as well as the following values.
 
@@ -117,27 +108,11 @@ The server was unable to remove the entries of all the object classes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The server must not disturb any entries that it did not create which currently exist for its object classes. For example, between registration and unregistration, the user may have specified a Treat As relationship between this class and another. In that case, unregistration can remove all entries except the <b>TreatAs</b> key and any others that were not explicitly created in <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>. The <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">registry functions</a> specifically disallow the deletion of an entire populated tree in the registry. The server can attempt, as the last step, to remove the CLSID key, but if other entries still exist, the key will remain.
-
-
-
+The server must not disturb any entries that it did not create which currently exist for its object classes. For example, between registration and unregistration, the user may have specified a Treat As relationship between this class and another. In that case, unregistration can remove all entries except the <b>TreatAs</b> key and any others that were not explicitly created in <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>. The <a href="/windows/desktop/SysInfo/registry-functions">registry functions</a> specifically disallow the deletion of an entire populated tree in the registry. The server can attempt, as the last step, to remove the CLSID key, but if other entries still exist, the key will remain.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>

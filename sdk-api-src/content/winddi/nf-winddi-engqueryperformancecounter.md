@@ -2,15 +2,12 @@
 UID: NF:winddi.EngQueryPerformanceCounter
 title: EngQueryPerformanceCounter function (winddi.h)
 description: The EngQueryPerformanceCounter function queries the performance counter.
+helpviewer_keywords: ["EngQueryPerformanceCounter","EngQueryPerformanceCounter function [Display Devices]","display.engqueryperformancecounter","gdifncs_8a5d6431-cd14-42cd-bcd4-2d27342bc08a.xml","winddi/EngQueryPerformanceCounter"]
 old-location: display\engqueryperformancecounter.htm
 tech.root: display
 ms.assetid: 6f351bd7-586e-4fd0-ad20-779b18eaa4dc
 ms.date: 12/05/2018
 ms.keywords: EngQueryPerformanceCounter, EngQueryPerformanceCounter function [Display Devices], display.engqueryperformancecounter, gdifncs_8a5d6431-cd14-42cd-bcd4-2d27342bc08a.xml, winddi/EngQueryPerformanceCounter
-f1_keywords:
-- winddi/EngQueryPerformanceCounter
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngQueryPerformanceCounter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngQueryPerformanceCounter
+ - winddi/EngQueryPerformanceCounter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngQueryPerformanceCounter
 ---
 
 # EngQueryPerformanceCounter function
@@ -48,47 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngQueryPerformanceCounter</b> function queries the performance counter.
 
-
 ## -parameters
-
-
-
 
 ### -param pPerformanceCount [out]
 
 Pointer to a location that receives the performance counter value, in hertz.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 <b>EngQueryPerformanceCounter</b> always returns a 64-bit integer that represents the number of ticks per second. The count begins accumulating when the system is booted.
 
 A driver should call this routine sparingly. Frequent calls to <b>EngQueryPerformanceCounter</b> can degrade the I/O performance for the calling driver and for the system as a whole.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engqueryperformancefrequency">EngQueryPerformanceFrequency</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engqueryperformancefrequency">EngQueryPerformanceFrequency</a>

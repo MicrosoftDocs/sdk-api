@@ -2,15 +2,12 @@
 UID: NF:audiopolicy.IAudioSessionControl2.IsSystemSoundsSession
 title: IAudioSessionControl2::IsSystemSoundsSession (audiopolicy.h)
 description: The IsSystemSoundsSession method indicates whether the session is a system sounds session.
+helpviewer_keywords: ["IAudioSessionControl2 interface [Core Audio]","IsSystemSoundsSession method","IAudioSessionControl2.IsSystemSoundsSession","IAudioSessionControl2::IsSystemSoundsSession","IsSystemSoundsSession","IsSystemSoundsSession method [Core Audio]","IsSystemSoundsSession method [Core Audio]","IAudioSessionControl2 interface","audiopolicy/IAudioSessionControl2::IsSystemSoundsSession","coreaudio.iaudiosessioncontrol2_issystemsoundssession"]
 old-location: coreaudio\iaudiosessioncontrol2_issystemsoundssession.htm
 tech.root: CoreAudio
 ms.assetid: 9060f89c-83b1-433d-96e3-86ae4b1c7e7c
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl2 interface [Core Audio],IsSystemSoundsSession method, IAudioSessionControl2.IsSystemSoundsSession, IAudioSessionControl2::IsSystemSoundsSession, IsSystemSoundsSession, IsSystemSoundsSession method [Core Audio], IsSystemSoundsSession method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::IsSystemSoundsSession, coreaudio.iaudiosessioncontrol2_issystemsoundssession
-f1_keywords:
-- audiopolicy/IAudioSessionControl2.IsSystemSoundsSession
-dev_langs:
-- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audiopolicy.h
-api_name:
-- IAudioSessionControl2.IsSystemSoundsSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioSessionControl2::IsSystemSoundsSession
+ - audiopolicy/IAudioSessionControl2::IsSystemSoundsSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audiopolicy.h
+api_name:
+ - IAudioSessionControl2.IsSystemSoundsSession
 ---
 
 # IAudioSessionControl2::IsSystemSoundsSession
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsSystemSoundsSession</b> method indicates whether the session is a system sounds session.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,18 +86,7 @@ The session is not a system sounds session.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>

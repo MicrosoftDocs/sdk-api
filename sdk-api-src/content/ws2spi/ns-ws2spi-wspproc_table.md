@@ -2,6 +2,8 @@
 UID: NS:ws2spi._WSPPROC_TABLE
 title: WSPPROC_TABLE
 description: Contains a table of pointers to service provider functions.
+tech.root: winsock
+helpviewer_keywords: ["_WSPPROC_TABLE","WSPPROC_TABLE"]
 ms.date: 4/26/2019
 ms.keywords: _WSPPROC_TABLE, WSPPROC_TABLE
 targetos: Windows
@@ -15,8 +17,7 @@ req.lib:
 req.max-support: 
 req.redist: 
 req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
-req.target-min-winversvr: Minimum supported server
-Windows 2000 Server [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
 req.target-type: 
 req.typenames: WSPPROC_TABLE, *LPWSPPROC_TABLE
 req.umdf-ver: 
@@ -30,12 +31,21 @@ api_location:
 api_name:
  - _WSPPROC_TABLE
  - WSPPROC_TABLE
+f1_keywords:
+ - _WSPPROC_TABLE
+ - ws2spi/_WSPPROC_TABLE
+ - LPWSPPROC_TABLE
+ - ws2spi/LPWSPPROC_TABLE
+ - WSPPROC_TABLE
+ - ws2spi/WSPPROC_TABLE
 ---
 
 ## -description
+
 The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions.
 
 ## -struct-fields
+
 ```C++
 } WSPPROC_TABLE, FAR * LPWSPPROC_TABLE;
 ```
@@ -58,20 +68,19 @@ A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWS
 
 ### -field lpWSPCancelBlockingCall
 
-
 A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcancelblockingcall">LPWSPCancelBlockingCall</a></b> function.
 
 ### -field lpWSPCleanup
 
  
 
-A pointer to the [**WSPCleanup**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspcleanup) function.
+A pointer to the [**WSPCleanup**](./nc-ws2spi-lpwspcleanup.md) function.
 
 ### -field lpWSPCloseSocket
 
  
 
-A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> function.
+A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b> function.
 
 ### -field lpWSPConnect
 
@@ -83,36 +92,34 @@ A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">L
 
  
 
-A pointer to the [**WSPDuplicateSocket**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspduplicatesocket) function.
+A pointer to the [**WSPDuplicateSocket**](./nc-ws2spi-lpwspduplicatesocket.md) function.
 
 ### -field lpWSPEnumNetworkEvents
 
  
-A pointer to the [**WSPEnumNetworkEvents**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspenumnetworkevents) function.
+A pointer to the [**WSPEnumNetworkEvents**](./nc-ws2spi-lpwspenumnetworkevents.md) function.
 
 ### -field lpWSPEventSelect
 
  
 
-A pointer to the [**LPWSPEventSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspenumnetworkevents) function.
+A pointer to the [**LPWSPEventSelect**](./nc-ws2spi-lpwspenumnetworkevents.md) function.
 
 ### -field lpWSPGetOverlappedResult
 
  
 
-A pointer to the [**LPWSPGetOverlappedResult**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult) function.
+A pointer to the [**LPWSPGetOverlappedResult**](./nc-ws2spi-lpwspgetoverlappedresult.md) function.
 
 ### -field lpWSPGetPeerName
 
 A pointer to the    function.
 
-
 ### -field lpWSPGetSockName
 
-A pointer to the [**WSPGetSockName**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockname) function.
+A pointer to the [**WSPGetSockName**](./nc-ws2spi-lpwspgetsockname.md) function.
 
 ### -field lpWSPGetSockOpt
-
 
 A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> function.
 
@@ -120,7 +127,7 @@ A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt
 
  
 
-A pointer to the [**WSPGetQOSByName**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetqosbyname) function.
+A pointer to the [**WSPGetQOSByName**](./nc-ws2spi-lpwspgetqosbyname.md) function.
 
 ### -field lpWSPIoctl
 
@@ -150,7 +157,7 @@ A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWS
 
  
 
-A pointer to the [**WSPRecvDisconnect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvdisconnect) function.
+A pointer to the [**WSPRecvDisconnect**](./nc-ws2spi-lpwsprecvdisconnect.md) function.
 
 ### -field lpWSPRecvFrom
 
@@ -162,7 +169,7 @@ A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecvfrom">
 
  
 
-A pointer to the [**LPWSPSelect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspselect) function.
+A pointer to the [**LPWSPSelect**](./nc-ws2spi-lpwspselect.md) function.
 
 ### -field lpWSPSend
 
@@ -174,7 +181,7 @@ A pointer to the <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsend">LPWS
 
  
 
-A pointer to the [**WSPSendDisconnect**](/windows/win32/api/ws2spi/nc-ws2spi-lpwspsenddisconnect) function.
+A pointer to the [**WSPSendDisconnect**](./nc-ws2spi-lpwspsenddisconnect.md) function.
 
 ### -field lpWSPSendTo
 
@@ -207,9 +214,11 @@ A pointer to the <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSP
 A pointer to the <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">LPWSPStringToAddress<a> function.
 
 ## -remarks
+
 The **WSPPROC_TABLE** structure contains a table of pointers to service provider functions that are returned by the <a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a> function.
 
 ## -see-also
+
 **[LPWSPAccept](nc-ws2spi-lpwspaccept.md)**
 
 
@@ -224,7 +233,7 @@ The **WSPPROC_TABLE** structure contains a table of pointers to service provider
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspcleanup">LPWSPCleanup</a></b>
 
-<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>
+<b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b>
 
 <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b>
 
@@ -267,4 +276,3 @@ The **WSPPROC_TABLE** structure contains a table of pointers to service provider
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a>
 
 <a href=" /windows/win32/api/winsock2/nf-winsock2-wsastringtoaddressa">WSAStringToAddress<a>
-

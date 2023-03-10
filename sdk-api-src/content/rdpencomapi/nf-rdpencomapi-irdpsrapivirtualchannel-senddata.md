@@ -2,15 +2,12 @@
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SendData
 title: IRDPSRAPIVirtualChannel::SendData (rdpencomapi.h)
 description: Sends data on the channel.
+helpviewer_keywords: ["CHANNEL_FLAGS_UNCOMPRESSED","IRDPSRAPIVirtualChannel interface [RDP]","SendData method","IRDPSRAPIVirtualChannel.SendData","IRDPSRAPIVirtualChannel::SendData","SendData","SendData method [RDP]","SendData method [RDP]","IRDPSRAPIVirtualChannel interface","rdp.irdpsrapivirtualchannel_senddata","rdpencomapi/IRDPSRAPIVirtualChannel::SendData"]
 old-location: rdp\irdpsrapivirtualchannel_senddata.htm
 tech.root: rdp
 ms.assetid: d861de01-70e3-49b0-91b3-01f6b0051823
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_FLAGS_UNCOMPRESSED, IRDPSRAPIVirtualChannel interface [RDP],SendData method, IRDPSRAPIVirtualChannel.SendData, IRDPSRAPIVirtualChannel::SendData, SendData, SendData method [RDP], SendData method [RDP],IRDPSRAPIVirtualChannel interface, rdp.irdpsrapivirtualchannel_senddata, rdpencomapi/IRDPSRAPIVirtualChannel::SendData
-f1_keywords:
-- rdpencomapi/IRDPSRAPIVirtualChannel.SendData
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIVirtualChannel.SendData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIVirtualChannel::SendData
+ - rdpencomapi/IRDPSRAPIVirtualChannel::SendData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIVirtualChannel.SendData
 ---
 
 # IRDPSRAPIVirtualChannel::SendData
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends data on the channel.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrData [in]
 
@@ -63,13 +60,11 @@ Type: <b>BSTR</b>
 
 The buffer to be sent in a packet on the channel. The maximum size  of the data is CONST_MAX_MESSAGE_SIZE bytes.
 
-
 ### -param lAttendeeId [in]
 
 Type: <b>long</b>
 
 The attendee that should receive the data. To send the data to all attendees, use CONST_ATTENDEE_ID_EVERYONE.
-
 
 ### -param ChannelSendFlags [in]
 
@@ -83,25 +78,12 @@ The channel flags. This parameter can be 0 or the following value.
 
 The data should not be compressed before it is sent because it is in a format that is already compressed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return value is an error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>

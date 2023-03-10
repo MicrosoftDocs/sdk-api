@@ -1,16 +1,13 @@
 ---
 UID: NF:wincred.CredUIPromptForWindowsCredentialsA
 title: CredUIPromptForWindowsCredentialsA function (wincred.h)
-description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer.
+description: Creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer. (ANSI)
+helpviewer_keywords: ["CREDUIWIN_AUTHPACKAGE_ONLY", "CREDUIWIN_CHECKBOX", "CREDUIWIN_ENUMERATE_ADMINS", "CREDUIWIN_ENUMERATE_CURRENT_USER", "CREDUIWIN_GENERIC", "CREDUIWIN_IN_CRED_ONLY", "CREDUIWIN_PACK_32_WOW", "CREDUIWIN_PREPROMPTING", "CREDUIWIN_SECURE_PROMPT", "CredUIPromptForWindowsCredentialsA", "wincred/CredUIPromptForWindowsCredentialsA"]
 old-location: security\creduipromptforwindowscredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 946ac279-d30a-4a6c-a76d-d93597121427
 ms.date: 1/14/2020
 ms.keywords: CREDUIWIN_AUTHPACKAGE_ONLY, CREDUIWIN_CHECKBOX, CREDUIWIN_ENUMERATE_ADMINS, CREDUIWIN_ENUMERATE_CURRENT_USER, CREDUIWIN_GENERIC, CREDUIWIN_IN_CRED_ONLY, CREDUIWIN_PACK_32_WOW, CREDUIWIN_PREPROMPTING, CREDUIWIN_SECURE_PROMPT, CredUIPromptForWindowsCredentials, CredUIPromptForWindowsCredentials function [Security], CredUIPromptForWindowsCredentialsA, CredUIPromptForWindowsCredentialsW, security.creduipromptforwindowscredentials, wincred/CredUIPromptForWindowsCredentials, wincred/CredUIPromptForWindowsCredentialsA, wincred/CredUIPromptForWindowsCredentialsW
-f1_keywords:
-- wincred/CredUIPromptForWindowsCredentials
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-0.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- CredUIPromptForWindowsCredentials
-- CredUIPromptForWindowsCredentialsA
-- CredUIPromptForWindowsCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredUIPromptForWindowsCredentialsA
+ - wincred/CredUIPromptForWindowsCredentialsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-0.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - CredUIPromptForWindowsCredentials
+ - CredUIPromptForWindowsCredentialsA
+ - CredUIPromptForWindowsCredentialsW
 ---
 
 # CredUIPromptForWindowsCredentialsA function
@@ -53,32 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredUIPromptForWindowsCredentials</b> function creates and displays a configurable dialog box that allows users to supply credential information by using any credential provider installed on the local computer.
-
 
 ## -parameters
 
-
-
-
 ### -param pUiInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
+A pointer to a <a href="/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure that contains information for customizing the appearance of the dialog box that this function displays. 
    
 
 
-If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
+If the <b>hwndParent</b> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is not <b>NULL</b>, this function displays a modal dialog box centered on the parent window.
 
-If the <b>hwndParent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
+If the <b>hwndParent</b> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credui_infoa">CREDUI_INFO</a> structure is <b>NULL</b>, the function displays a dialog box centered on the screen.
 
-This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure. 
-
+This function ignores the  <b>hbmBanner</b> member of the <b>CREDUI_INFO</b> structure.
 
 ### -param dwAuthError [in]
 
 A Windows error code, defined in Winerror.h, that is displayed in the dialog box. If credentials previously collected were not valid, the caller uses this parameter to pass the error message from the API that collected the credentials (for example, Winlogon) to this function. The corresponding error message is formatted and displayed in the dialog box. Set the  value of this parameter to zero to display no error message.
-
 
 ### -param pulAuthPackage [in, out]
 
@@ -86,39 +81,33 @@ On input, the value of this parameter is used to specify the authentication pack
 
 
 
-To get the appropriate value to use for this parameter on input, call the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a> function and use the value of the <i>AuthenticationPackage</i> parameter  of that function.
+To get the appropriate value to use for this parameter on input, call the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupauthenticationpackage">LsaLookupAuthenticationPackage</a> function and use the value of the <i>AuthenticationPackage</i> parameter  of that function.
 
 On output, this parameter specifies the authentication package for which the credentials in the <i>ppvOutAuthBuffer</i> buffer are serialized.
-
 
 ### -param pvInAuthBuffer [in, optional]
 
 A pointer to a credential BLOB that is used to populate the credential fields in the dialog box. Set the value of this parameter to <b>NULL</b> to leave the credential fields empty.
 
-
 ### -param ulInAuthBufferSize [in]
 
 The size, in bytes, of the <i>pvInAuthBuffer</i> buffer.
 
-
 ### -param ppvOutAuthBuffer [out]
 
-The address of a pointer that, on output, specifies the credential BLOB. For Kerberos, NTLM, or Negotiate credentials, call the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credunpackauthenticationbuffera">CredUnPackAuthenticationBuffer</a> function to convert this BLOB to string representations of the credentials.  
+The address of a pointer that, on output, specifies the credential BLOB. For Kerberos, NTLM, or Negotiate credentials, call the <a href="/windows/desktop/api/wincred/nf-wincred-credunpackauthenticationbuffera">CredUnPackAuthenticationBuffer</a> function to convert this BLOB to string representations of the credentials.  
 
-When you have finished using the credential BLOB, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function, and free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
-
+When you have finished using the credential BLOB, clear it from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function, and free it by calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ### -param pulOutAuthBufferSize [out]
 
 The size, in bytes, of the <i>ppvOutAuthBuffer</i> buffer.
-
 
 ### -param pfSave [in, out, optional]
 
 A pointer to a Boolean value that, on input, specifies whether the <b>Save</b> check box is selected in the dialog box that this function displays. On output, the value of this parameter specifies whether the <b>Save</b> check box was selected when the user clicks the <b>Submit</b> button in the dialog box. Set this parameter to <b>NULL</b> to ignore the <b>Save</b> check box.
 
 This parameter is ignored if the <b>CREDUIWIN_CHECKBOX</b> flag is not set in the <i>dwFlags</i> parameter.
-
 
 ### -param dwFlags [in]
 
@@ -223,7 +212,7 @@ The credential dialog box should be displayed on the secure desktop. This value 
 </dl>
 </td>
 <td width="60%">
-The credential dialog box is invoked by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a> function, and the client is prompted before a prior handshake. If SSPIPFC_NO_CHECKBOX is passed in the <i>pvInAuthBuffer</i> parameter, then the credential provider should not display the check box.
+The credential dialog box is invoked by the <a href="/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a> function, and the client is prompted before a prior handshake. If SSPIPFC_NO_CHECKBOX is passed in the <i>pvInAuthBuffer</i> parameter, then the credential provider should not display the check box.
 
 <b>Windows Vista:  </b>This value is supported beginning with Windows Vista with SP1.
 
@@ -267,25 +256,19 @@ Windows Hello credentials will be packed in a smart card auth buffer. This only 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>ERROR_SUCCESS</b>. If the function is canceled by the user, it returns <b>ERROR_CANCELLED</b>. Any other return value indicates that the function failed to load.
-
-
-
 
 ## -remarks
 
-
-
 This function does not save credentials.
 
-Applications that use <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">SSPI</a> to authenticate users should not call this function. Instead, call <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a>.
+Applications that use <a href="/windows/desktop/SecAuthN/sspi">SSPI</a> to authenticate users should not call this function. Instead, call <a href="/windows/desktop/api/sspi/nf-sspi-sspipromptforcredentialsa">SspiPromptForCredentials</a>.
 
 
 
+
+> [!NOTE]
+> The wincred.h header defines CredUIPromptForWindowsCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NF:oaidl.IRecordInfo.GetName
 title: IRecordInfo::GetName (oaidl.h)
 description: Gets the name of the record type.
+helpviewer_keywords: ["GetName","GetName method [Automation]","GetName method [Automation]","IRecordInfo interface","IRecordInfo interface [Automation]","GetName method","IRecordInfo.GetName","IRecordInfo::GetName","_oa96_IRecordInfo_GetName","automat.irecordinfo_getname","oaidl/IRecordInfo::GetName"]
 old-location: automat\irecordinfo_getname.htm
 tech.root: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
-f1_keywords:
-- oaidl/IRecordInfo.GetName
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo::GetName
+ - oaidl/IRecordInfo::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo.GetName
 ---
 
 # IRecordInfo::GetName
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has it's own <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
-
+Gets the name of the record type. This is useful if you want to print out the type of the record, because each UDT has its own <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
 
 ## -parameters
-
-
-
 
 ### -param pbstrName [out]
 
 The name.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,27 +115,11 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The caller must free the BSTR by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
-
-
-
+The caller must free the BSTR by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaItem.GetDuration
 title: IMFPMediaItem::GetDuration (mfplay.h)
 description: Gets the duration of the media item.
+helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetDuration method","IMFPMediaItem.GetDuration","IMFPMediaItem::GetDuration","MFP_POSITIONTYPE_100NS","mf.imfpmediaitem_getduration","mfplay/IMFPMediaItem::GetDuration"]
 old-location: mf\imfpmediaitem_getduration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 831f023b-c06f-4099-9f4c-df38f3d1382f
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetDuration method, IMFPMediaItem.GetDuration, IMFPMediaItem::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaitem_getduration, mfplay/IMFPMediaItem::GetDuration
-f1_keywords:
-- mfplay/IMFPMediaItem.GetDuration
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem::GetDuration
+ - mfplay/IMFPMediaItem::GetDuration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem.GetDuration
 ---
 
 # IMFPMediaItem::GetDuration
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Gets the duration of the media item.
 
-
 ## -parameters
-
-
-
 
 ### -param guidPositionType [in]
 
@@ -89,28 +85,18 @@ The value returned in <i>pvDurationValue</i> is a <b>LARGE_INTEGER</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pvDurationValue [out]
 
 Pointer to a <b>PROPVARIANT</b> that receives the duration.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The method returns the total duration of the content, regardless of any values set through <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">IMFPMediaItem::SetStartStopPosition</a>.
+The method returns the total duration of the content, regardless of any values set through <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">IMFPMediaItem::SetStartStopPosition</a>.
 
 
 #### Examples
@@ -136,25 +122,14 @@ HRESULT GetPlaybackDuration(IMFPMediaItem *pItem, ULONGLONG *phnsDuration)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/how-to-get-the-playback-duration">How to Get the Playback Duration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-get-the-playback-duration">How to Get the Playback Duration</a>
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

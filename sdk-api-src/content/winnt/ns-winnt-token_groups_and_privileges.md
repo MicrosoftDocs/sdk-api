@@ -2,15 +2,12 @@
 UID: NS:winnt._TOKEN_GROUPS_AND_PRIVILEGES
 title: TOKEN_GROUPS_AND_PRIVILEGES (winnt.h)
 description: Contains information about the group security identifiers (SIDs) and privileges in an access token.
+helpviewer_keywords: ["*PTOKEN_GROUPS_AND_PRIVILEGES","PTOKEN_GROUPS_AND_PRIVILEGES","PTOKEN_GROUPS_AND_PRIVILEGES structure pointer [Security]","SE_GROUP_ENABLED","SE_GROUP_ENABLED_BY_DEFAULT","SE_GROUP_INTEGRITY","SE_GROUP_INTEGRITY_ENABLED","SE_GROUP_LOGON_ID","SE_GROUP_MANDATORY","SE_GROUP_OWNER","SE_GROUP_RESOURCE","SE_GROUP_USE_FOR_DENY_ONLY","TOKEN_GROUPS_AND_PRIVILEGES","TOKEN_GROUPS_AND_PRIVILEGES structure [Security]","_TOKEN_GROUPS_AND_PRIVILEGES","_win32_token_groups_and_privileges","security.token_groups_and_privileges","winnt/PTOKEN_GROUPS_AND_PRIVILEGES","winnt/TOKEN_GROUPS_AND_PRIVILEGES"]
 old-location: security\token_groups_and_privileges.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 085ccd0a-d6c2-48ca-ad2a-933f22831b14
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_GROUPS_AND_PRIVILEGES, PTOKEN_GROUPS_AND_PRIVILEGES, PTOKEN_GROUPS_AND_PRIVILEGES structure pointer [Security], SE_GROUP_ENABLED, SE_GROUP_ENABLED_BY_DEFAULT, SE_GROUP_INTEGRITY, SE_GROUP_INTEGRITY_ENABLED, SE_GROUP_LOGON_ID, SE_GROUP_MANDATORY, SE_GROUP_OWNER, SE_GROUP_RESOURCE, SE_GROUP_USE_FOR_DENY_ONLY, TOKEN_GROUPS_AND_PRIVILEGES, TOKEN_GROUPS_AND_PRIVILEGES structure [Security], _TOKEN_GROUPS_AND_PRIVILEGES, _win32_token_groups_and_privileges, security.token_groups_and_privileges, winnt/PTOKEN_GROUPS_AND_PRIVILEGES, winnt/TOKEN_GROUPS_AND_PRIVILEGES'
-f1_keywords:
-- winnt/TOKEN_GROUPS_AND_PRIVILEGES
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TOKEN_GROUPS_AND_PRIVILEGES
 targetos: Windows
 req.typenames: TOKEN_GROUPS_AND_PRIVILEGES, *PTOKEN_GROUPS_AND_PRIVILEGES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TOKEN_GROUPS_AND_PRIVILEGES
+ - winnt/_TOKEN_GROUPS_AND_PRIVILEGES
+ - PTOKEN_GROUPS_AND_PRIVILEGES
+ - winnt/PTOKEN_GROUPS_AND_PRIVILEGES
+ - TOKEN_GROUPS_AND_PRIVILEGES
+ - winnt/TOKEN_GROUPS_AND_PRIVILEGES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TOKEN_GROUPS_AND_PRIVILEGES
 ---
 
 # TOKEN_GROUPS_AND_PRIVILEGES structure
@@ -48,31 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>TOKEN_GROUPS_AND_PRIVILEGES</b> structure contains information about the group <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) and privileges in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>.
-
+The <b>TOKEN_GROUPS_AND_PRIVILEGES</b> structure contains information about the group <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) and privileges in an <a href="/windows/desktop/SecGloss/a-gly">access token</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field SidCount
 
 Number of SIDs in the access token.
 
-
 ### -field SidLength
 
 Length, in bytes, required to hold all of the user SIDs and the account SID for the group.
 
-
 ### -field Sids
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that contain a set of SIDs and corresponding attributes.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that contain a set of SIDs and corresponding attributes.
 
-The <b>Attributes</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures can have the following values.
+The <b>Attributes</b> members of the <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures can have the following values.
 
 <table>
 <tr>
@@ -86,7 +85,7 @@ The <b>Attributes</b> members of the <a href="https://docs.microsoft.com/windows
 </dl>
 </td>
 <td width="60%">
-The SID is enabled for access checks. When the system performs an access check, it checks for access-allowed and access-denied <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) that apply to the SID. 
+The SID is enabled for access checks. When the system performs an access check, it checks for access-allowed and access-denied <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) that apply to the SID. 
 
 
 
@@ -139,7 +138,7 @@ The mandatory integrity SID is evaluated during access check.
 </dl>
 </td>
 <td width="60%">
-The SID is a logon SID that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a> associated with an access token.
+The SID is a logon SID that identifies the <a href="/windows/desktop/SecGloss/l-gly">logon session</a> associated with an access token.
 
 </td>
 </tr>
@@ -151,8 +150,8 @@ The SID is a logon SID that identifies the <a href="https://docs.microsoft.com/w
 </td>
 <td width="60%">
 The SID cannot have the SE_GROUP_ENABLED attribute cleared by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups">AdjustTokenGroups</a> function. However, you can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> function to convert a mandatory SID to a deny-only SID.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups">AdjustTokenGroups</a> function. However, you can use the 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> function to convert a mandatory SID to a deny-only SID.
 
 </td>
 </tr>
@@ -186,7 +185,7 @@ The SID identifies a domain-local group.
 </td>
 <td width="60%">
 The SID is a deny-only SID in a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/restricted-tokens">restricted token</a>. When the system performs an access check, it checks for access-denied ACEs that apply to the SID; it ignores access-allowed ACEs for the SID. 
+<a href="/windows/desktop/SecAuthZ/restricted-tokens">restricted token</a>. When the system performs an access check, it checks for access-denied ACEs that apply to the SID; it ignores access-allowed ACEs for the SID. 
 
 
 
@@ -196,105 +195,89 @@ If this attribute is set,  SE_GROUP_ENABLED is not set, and the SID cannot be re
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RestrictedSidCount
 
 Number of restricted SIDs.
 
-
 ### -field RestrictedSidLength
 
 Length, in bytes, required to hold all of the restricted SIDs.
 
-
 ### -field RestrictedSids
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that contain a set of restricted SIDs and corresponding attributes. 
+<a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures that contain a set of restricted SIDs and corresponding attributes. 
 
 
 
 
-The <b>Attributes</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures can have the same values as those listed for the preceding <b>Sids</b> member.
-
+The <b>Attributes</b> members of the <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures can have the same values as those listed for the preceding <b>Sids</b> member.
 
 ### -field PrivilegeCount
 
 Number of privileges.
 
-
 ### -field PrivilegeLength
 
 Length, in bytes, needed to hold the privilege array.
-
 
 ### -field Privileges
 
 Array of privileges.
 
-
 ### -field AuthenticationId
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Locally unique identifier</a> (LUID) of the authenticator of the token.
-
+<a href="/windows/desktop/SecGloss/l-gly">Locally unique identifier</a> (LUID) of the authenticator of the token.
 
 ## -see-also
 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups">AdjustTokenGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokengroups">AdjustTokenGroups</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_control">TOKEN_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_control">TOKEN_CONTROL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_primary_group">TOKEN_PRIMARY_GROUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_primary_group">TOKEN_PRIMARY_GROUP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_source">TOKEN_SOURCE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-token_type">TOKEN_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_type">TOKEN_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>

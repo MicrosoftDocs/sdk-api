@@ -2,15 +2,12 @@
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValue
 title: IWICMetadataWriter::SetValue (wincodecsdk.h)
 description: Sets the given metadata item.
+helpviewer_keywords: ["IWICMetadataWriter interface [Windows Imaging Component]","SetValue method","IWICMetadataWriter.SetValue","IWICMetadataWriter::SetValue","SetValue","SetValue method [Windows Imaging Component]","SetValue method [Windows Imaging Component]","IWICMetadataWriter interface","_wic_codec_iwicmetadatawriter_setvalue","wic._wic_codec_iwicmetadatawriter_setvalue","wincodecsdk/IWICMetadataWriter::SetValue"]
 old-location: wic\_wic_codec_iwicmetadatawriter_setvalue.htm
 tech.root: wic
 ms.assetid: bda3f959-40d1-45df-a82c-3eba2be33859
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValue method, IWICMetadataWriter.SetValue, IWICMetadataWriter::SetValue, SetValue, SetValue method [Windows Imaging Component], SetValue method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvalue, wic._wic_codec_iwicmetadatawriter_setvalue, wincodecsdk/IWICMetadataWriter::SetValue
-f1_keywords:
-- wincodecsdk/IWICMetadataWriter.SetValue
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataWriter.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataWriter::SetValue
+ - wincodecsdk/IWICMetadataWriter::SetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataWriter.SetValue
 ---
 
 # IWICMetadataWriter::SetValue
@@ -48,43 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the given metadata item.
-
 
 ## -parameters
 
-
-
-
 ### -param pvarSchema [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the schema property of the metadata item.
 
-
 ### -param pvarId [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the id property of the metadata item.
 
-
 ### -param pvarValue [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 Pointer to the metadata value to set
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

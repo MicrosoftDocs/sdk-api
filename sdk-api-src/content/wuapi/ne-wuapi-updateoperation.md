@@ -2,15 +2,12 @@
 UID: NE:wuapi.tagUpdateOperation
 title: UpdateOperation (wuapi.h)
 description: Defines operations that can be attempted on an update.
+helpviewer_keywords: ["UpdateOperation","UpdateOperation enumeration [Windows Update Agent]","uoInstallation","uoUninstallation","wua.updateoperation","wuapi/UpdateOperation","wuapi/uoInstallation","wuapi/uoUninstallation"]
 old-location: wua\updateoperation.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 93f38d77-fb8c-4d2e-acc2-f4c06cbc04f8
 ms.date: 12/05/2018
 ms.keywords: UpdateOperation, UpdateOperation enumeration [Windows Update Agent], uoInstallation, uoUninstallation, wua.updateoperation, wuapi/UpdateOperation, wuapi/uoInstallation, wuapi/uoUninstallation
-f1_keywords:
-- wuapi/UpdateOperation
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wuapi.h
-api_name:
-- UpdateOperation
 targetos: Windows
 req.typenames: UpdateOperation
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagUpdateOperation
+ - wuapi/tagUpdateOperation
+ - UpdateOperation
+ - wuapi/UpdateOperation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wuapi.h
+api_name:
+ - UpdateOperation
 ---
 
 # UpdateOperation enumeration
@@ -48,21 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines operations that can be attempted on an update.
-
 
 ## -enum-fields
 
-
-
-
-### -field uoInstallation
+### -field uoInstallation:1
 
 Under the security context of the caller, install the update on the target computer.
 
-
-### -field uoUninstallation
+### -field uoUninstallation:2
 
 Under the security context of the caller, uninstall the updates  from the target computer.
 

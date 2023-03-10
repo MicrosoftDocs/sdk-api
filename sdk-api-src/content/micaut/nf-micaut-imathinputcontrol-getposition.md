@@ -2,15 +2,12 @@
 UID: NF:micaut.IMathInputControl.GetPosition
 title: IMathInputControl::GetPosition (micaut.h)
 description: Retrieves the position and size of the control.
+helpviewer_keywords: ["GetPosition","GetPosition method [Tablet PC]","GetPosition method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","GetPosition method","IMathInputControl.GetPosition","IMathInputControl::GetPosition","micaut/IMathInputControl::GetPosition","tablet.imathinputcontrol_getposition"]
 old-location: tablet\imathinputcontrol_getposition.htm
 tech.root: tablet
 ms.assetid: 4928f92d-7150-434c-abe4-d65a48ce1a56
 ms.date: 12/05/2018
 ms.keywords: GetPosition, GetPosition method [Tablet PC], GetPosition method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPosition method, IMathInputControl.GetPosition, IMathInputControl::GetPosition, micaut/IMathInputControl::GetPosition, tablet.imathinputcontrol_getposition
-f1_keywords:
-- micaut/IMathInputControl.GetPosition
-dev_langs:
-- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- micaut.h
-api_name:
-- IMathInputControl.GetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMathInputControl::GetPosition
+ - micaut/IMathInputControl::GetPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - micaut.h
+api_name:
+ - IMathInputControl.GetPosition
 ---
 
 # IMathInputControl::GetPosition
@@ -48,66 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the position and size of the control.
 
-
 ## -parameters
-
-
-
 
 ### -param Left [out]
 
 The leftmost position of the control.
 
-
 ### -param Top [out]
 
 The highest position of the control.
-
 
 ### -param Right [out]
 
 The rightmost position of the control.
 
-
 ### -param Bottom [out]
 
 The lowest position of the control.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This method returns the control size and position even if the control is not visible.
 
-This method returns the minimal possible width and height of the control if it is  called immediatelly after creation of the control.
-
-
-
+This method returns the minimal possible width and height of the control if it is called immediately after creation of the control.
 
 ## -see-also
 
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a>
- 
-
- 
-
+<a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a>

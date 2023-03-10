@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d11on12.D3D11On12CreateDevice
 title: D3D11On12CreateDevice function (d3d11on12.h)
-description: Creates a device that uses Direct3D 11 functionality in Direct3D 12, specifying a pre-existing D3D12 device to use for D3D11 interop.
+description: Creates a device that uses Direct3D 11 functionality in Direct3D 12, specifying a pre-existing Direct3D 12 device to use for Direct3D 11 interop.
+helpviewer_keywords: ["D3D11On12CreateDevice","D3D11On12CreateDevice function","d3d11on12/D3D11On12CreateDevice","direct3d12.d3d11on12createdevice"]
 old-location: direct3d12\d3d11on12createdevice.htm
 tech.root: direct3d12
 ms.assetid: 6FC2CB44-4AA8-4E89-9E9B-ED1C3C9C64CC
 ms.date: 12/05/2018
 ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3D11On12CreateDevice, direct3d12.d3d11on12createdevice
-f1_keywords:
-- d3d11on12/D3D11On12CreateDevice
-dev_langs:
-- c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,61 +25,49 @@ req.type-library:
 req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D3D11.dll
-api_name:
-- D3D11On12CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D11On12CreateDevice
+ - d3d11on12/D3D11On12CreateDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D3D11.dll
+api_name:
+ - D3D11On12CreateDevice
 ---
-
-# D3D11On12CreateDevice function
-
 
 ## -description
 
-
-Creates a device that uses Direct3D 11 functionality in Direct3D 12, specifying a pre-existing D3D12 device to use for D3D11 interop.
-        
-
+Creates a device that uses Direct3D 11 functionality in Direct3D 12, specifying a pre-existing Direct3D 12 device to use for Direct3D 11 interop.
 
 ## -parameters
-
-
-
 
 ### -param pDevice [in]
 
 Type: <b>IUnknown*</b>
 
-Specifies a pre-existing D3D12 device to use for D3D11 interop.
-            May not be NULL.
-          
-
+Specifies a pre-existing Direct3D 12 device to use for Direct3D 11 interop. May not be NULL.
 
 ### -param Flags
 
 Type: <b>UINT</b>
 
-One or more bitwise OR'ed flags from <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_FLAG</a>. These are the same flags as those used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>.
-            Specifies which runtime <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">layers</a> to enable.
-            <i>Flags</i> must be compatible with device flags, and its <i>NodeMask</i> must be a subset of the <i>NodeMask</i> provided to the present API.
-          
-
+One or more bitwise OR'd flags from <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_FLAG</a>. These are the same flags as those used by <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>. Specifies which runtime <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">layers</a> to enable. <i>Flags</i> must be compatible with device flags, and its <i>NodeMask</i> must be a subset of the <i>NodeMask</i> provided to the present API.
 
 ### -param pFeatureLevels [in, optional]
 
 Type: <b>const D3D_FEATURE_LEVEL*</b>
 
 An array of any of the following:
-            
 
 <ul>
 <li>D3D_FEATURE_LEVEL_12_1</li>
@@ -95,106 +80,66 @@ An array of any of the following:
 <li>D3D_FEATURE_LEVEL_9_2</li>
 <li>D3D_FEATURE_LEVEL_9_1</li>
 </ul>
-The first feature level which is less than or equal to the
-              D3D12 device's feature level will be used to perform D3D11 validation.
-              Creation will fail if no acceptable feature levels are provided.
-              Providing NULL will default to the D3D12 device's feature level.
-            
 
+The first feature level that is less than or equal to the Direct3D 12 device's feature level will be used to perform Direct3D 11 validation. Creation will fail if no acceptable feature levels are provided. Providing NULL will default to the Direct3D 12 device's feature level.
 
 ### -param FeatureLevels
 
 Type: <b>UINT</b>
 
-The size of the feature levels array, in bytes.
-          
-
+The size of (that is, the number of elements in) the *pFeatureLevels* array.
 
 ### -param ppCommandQueues [in, optional]
 
-Type: <b>IUnknown*</b>
+Type: <b>IUnknown* const *</b>
 
-An array of unique queues for D3D11On12 to use.
-            Valid queue types: 3D command queue.
-          
-
+An array of unique queues for D3D11On12 to use. The queues must be of the 3D command queue type.
 
 ### -param NumQueues
 
 Type: <b>UINT</b>
 
-The size of the command queue array, in bytes.
-          
-
+The size of (that is, the number of elements in) the *ppCommandQueues* array.
 
 ### -param NodeMask
 
 Type: <b>UINT</b>
 
-Which node of the D3D12 device to use.
-            Only 1 bit may be set.
-          
-
+Which node of the Direct3D 12 device to use. Only 1 bit may be set.
 
 ### -param ppDevice [out, optional]
 
 Type: <b>ID3D11Device**</b>
 
-Pointer to the returned
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>.
-            May be NULL.
-          
-
+Pointer to the returned <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>. May be NULL.
 
 ### -param ppImmediateContext [out, optional]
 
 Type: <b>ID3D11DeviceContext**</b>
 
-A pointer to the returned
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>.
-            May be NULL.
-          
-
+A pointer to the returned <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>. May be NULL.
 
 ### -param pChosenFeatureLevel [out, optional]
 
 Type: <b>D3D_FEATURE_LEVEL*</b>
 
-A pointer to the returned feature level.
-            May be NULL.
-          
-
+A pointer to the returned feature level. May be NULL.
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> that are documented for
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>.
-            See Direct3D 12 Return Codes.
-          
+This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> that are documented for <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice">D3D11CreateDevice</a>.          
 
-This method returns <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_SDK_COMPONENT_MISSING</a>if you specify <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_DEBUG</a>in <i>Flags</i>and the incorrect version of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">debug layer</a> is installed on your computer.
-            Install the latest Windows SDK to get the correct version.
-          
-
-
-
+This method returns <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_SDK_COMPONENT_MISSING</a> if you specify <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_DEBUG</a> in <i>Flags</i> and the incorrect version of the <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">debug layer</a> is installed on your computer. Install the latest Windows SDK to get the correct version.
 
 ## -remarks
 
+The function signature PFN_D3D11ON12_CREATE_DEVICE is provided as a typedef, so that you can use dynamic linking techniques (<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>) instead of statically linking.
 
+## Examples
 
-The function signature PFN_D3D11ON12_CREATE_DEVICE is provided as a typedef, so that you can use dynamic linking techniques (<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>) instead of statically linking.
-      
-
-
-#### Examples
-
-To render text over D3D12 using D2D via the 11On12 device, load the rendering pipeline dependencies.
-
+To render text over Direct3D 12 using Direct2D via the 11On12 device, load the rendering pipeline dependencies.
 
 ```cpp
 // Load the rendering pipeline dependencies.
@@ -206,10 +151,10 @@ void D3D1211on12::LoadPipeline()
     // Enable the D2D debug layer.
     d2dFactoryOptions.debugLevel = D2D1_DEBUG_LEVEL_INFORMATION;
 
-    // Enable the D3D11 debug layer.
+    // Enable the Direct3D 11 debug layer.
     d3d11DeviceFlags |= D3D11_CREATE_DEVICE_DEBUG;
     
-    // Enable the D3D12 debug layer.
+    // Enable the Direct3D 12 debug layer.
     {
         ComPtr<ID3D12Debug> debugController;
         if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&debugController))))
@@ -300,24 +245,29 @@ void D3D1211on12::LoadPipeline()
     // Create D2D/DWrite components.
     {
         D2D1_DEVICE_CONTEXT_OPTIONS deviceOptions = D2D1_DEVICE_CONTEXT_OPTIONS_NONE;
-        ThrowIfFailed(D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, __uuidof(ID2D1Factory3), &d2dFactoryOptions, &m_d2dFactory));
+        ThrowIfFailed(D2D1CreateFactory(
+            D2D1_FACTORY_TYPE_SINGLE_THREADED,
+            __uuidof(ID2D1Factory3),
+            &d2dFactoryOptions,
+            &m_d2dFactory));
         ComPtr<IDXGIDevice> dxgiDevice;
         ThrowIfFailed(m_d3d11On12Device.As(&dxgiDevice));
         ThrowIfFailed(m_d2dFactory->CreateDevice(dxgiDevice.Get(), &m_d2dDevice));
         ThrowIfFailed(m_d2dDevice->CreateDeviceContext(deviceOptions, &m_d2dDeviceContext));
-        ThrowIfFailed(DWriteCreateFactory(DWRITE_FACTORY_TYPE_SHARED, __uuidof(IDWriteFactory), &m_dWriteFactory));
+        ThrowIfFailed(DWriteCreateFactory(
+            DWRITE_FACTORY_TYPE_SHARED,
+            __uuidof(IDWriteFactory),
+            &m_dWriteFactory));
     }
 
     // Query the desktop's dpi settings, which will be used to create
     // D2D's render targets.
-    float dpiX;
-    float dpiY;
-    m_d2dFactory->GetDesktopDpi(&dpiX, &dpiY);
+    float dpi = GetDpiForWindow(Win32Application::GetHwnd());
     D2D1_BITMAP_PROPERTIES1 bitmapProperties = D2D1::BitmapProperties1(
         D2D1_BITMAP_OPTIONS_TARGET | D2D1_BITMAP_OPTIONS_CANNOT_DRAW,
         D2D1::PixelFormat(DXGI_FORMAT_UNKNOWN, D2D1_ALPHA_MODE_PREMULTIPLIED),
-        dpiX,
-        dpiY
+        dpi,
+        dpi
         );
 
     // Create descriptor heaps.
@@ -329,7 +279,8 @@ void D3D1211on12::LoadPipeline()
         rtvHeapDesc.Flags = D3D12_DESCRIPTOR_HEAP_FLAG_NONE;
         ThrowIfFailed(m_d3d12Device->CreateDescriptorHeap(&rtvHeapDesc, IID_PPV_ARGS(&m_rtvHeap)));
 
-        m_rtvDescriptorSize = m_d3d12Device->GetDescriptorHandleIncrementSize(D3D12_DESCRIPTOR_HEAP_TYPE_RTV);
+        m_rtvDescriptorSize = 
+            m_d3d12Device->GetDescriptorHandleIncrementSize(D3D12_DESCRIPTOR_HEAP_TYPE_RTV);
     }
 
     // Create frame resources.
@@ -343,8 +294,8 @@ void D3D1211on12::LoadPipeline()
             m_d3d12Device->CreateRenderTargetView(m_renderTargets[n].Get(), nullptr, rtvHandle);
 
             // Create a wrapped 11On12 resource of this back buffer. Since we are 
-            // rendering all D3D12 content first and then all D2D content, we specify 
-            // the In resource state as RENDER_TARGET - because D3D12 will have last 
+            // rendering all Direct3D 12 content first and then all D2D content, we specify 
+            // the In resource state as RENDER_TARGET - because Direct3D 12 will have last 
             // used it in this state - and the Out resource state as PRESENT. When 
             // ReleaseWrappedResources() is called on the 11On12 device, the resource 
             // will be transitioned to the PRESENT state.
@@ -368,29 +319,16 @@ void D3D1211on12::LoadPipeline()
 
             rtvHandle.Offset(1, m_rtvDescriptorSize);
 
-            ThrowIfFailed(m_d3d12Device->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&m_commandAllocators[n])));
+            ThrowIfFailed(m_d3d12Device->CreateCommandAllocator(
+                D3D12_COMMAND_LIST_TYPE_DIRECT,
+                IID_PPV_ARGS(&m_commandAllocators[n])));
         }
-    
     }
 }
-
 ```
 
-
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
-          
-
-<div class="code"></div>
-
-
+See the notes about the [Example code in the Direct3D 12 reference content](/windows/win32/direct3d12/notes-on-example-code).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-11-on-12-functions-">11on12 Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d12/direct3d-11-on-12-functions-">11on12 Functions</a>

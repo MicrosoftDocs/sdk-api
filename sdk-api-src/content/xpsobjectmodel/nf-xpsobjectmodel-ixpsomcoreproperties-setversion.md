@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetVersion
 title: IXpsOMCoreProperties::SetVersion (xpsobjectmodel.h)
 description: Sets the version property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetVersion method","IXpsOMCoreProperties.SetVersion","IXpsOMCoreProperties::SetVersion","SetVersion","SetVersion method [XPS Documents and Packaging]","SetVersion method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setversion","xpsobjectmodel/IXpsOMCoreProperties::SetVersion"]
 old-location: xps\ixpsomcoreproperties_setversion.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 1058f228-8b81-4590-b0af-08abe16a1510
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetVersion method, IXpsOMCoreProperties.SetVersion, IXpsOMCoreProperties::SetVersion, SetVersion, SetVersion method [XPS Documents and Packaging], SetVersion method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setversion, xpsobjectmodel/IXpsOMCoreProperties::SetVersion
-f1_keywords:
-- xpsobjectmodel/IXpsOMCoreProperties.SetVersion
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMCoreProperties.SetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMCoreProperties::SetVersion
+ - xpsobjectmodel/IXpsOMCoreProperties::SetVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMCoreProperties.SetVersion
 ---
 
 # IXpsOMCoreProperties::SetVersion
@@ -48,53 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the <b>version</b> property.
 
-
 ## -parameters
-
-
-
 
 ### -param version [in]
 
 The string to be written to the <b>version</b> property. A <b>NULL</b> pointer clears the <b>version</b> property.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 The <b>version</b> property contains the version number of the resource.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcoreproperties">IXpsOMCoreProperties</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">Standard ECMA-376, Office Open XML File Formats</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">Standard ECMA-376, Office Open XML File Formats</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

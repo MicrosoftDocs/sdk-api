@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiDatabaseExportA
 title: MsiDatabaseExportA function (msiquery.h)
-description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File.
+description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File. (ANSI)
+helpviewer_keywords: ["MsiDatabaseExportA", "msiquery/MsiDatabaseExportA"]
 old-location: setup\msidatabaseexport.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseExport, MsiDatabaseExport function, MsiDatabaseExportA, MsiDatabaseExportW, _msi_msidatabaseexport, msiquery/MsiDatabaseExport, msiquery/MsiDatabaseExportA, msiquery/MsiDatabaseExportW, setup.msidatabaseexport
-f1_keywords:
-- msiquery/MsiDatabaseExport
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiDatabaseExport
-- MsiDatabaseExportA
-- MsiDatabaseExportW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDatabaseExportA
+ - msiquery/MsiDatabaseExportA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiDatabaseExport
+ - MsiDatabaseExportA
+ - MsiDatabaseExportW
 ---
 
 # MsiDatabaseExportA function
@@ -50,39 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MsiDatabaseExport</b> function exports a Microsoft Installer table from an open database to a <a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">Text Archive File</a>.
-
+<b>MsiDatabaseExport</b> function exports a Microsoft Installer table from an open database to a <a href="/windows/desktop/Msi/text-archive-files">Text Archive File</a>.
 
 ## -parameters
 
-
-
-
 ### -param hDatabase [in]
 
-The handle to a database  from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
-
+The handle to a database  from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
 ### -param szTableName [in]
 
 The name of the table to export.
 
-
 ### -param szFolderPath [in]
 
 The name of the folder that contains archive files.
-
 
 ### -param szFileName [in]
 
 The name of the exported table archive file.
 
-
 ## -returns
-
-
 
 The 
 <b>MsiDatabaseExport</b> function returns one of the following values:
@@ -148,39 +139,30 @@ The function succeeds.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a table contains streams, 
 <b>MsiDatabaseExport</b> exports each stream to a separate file.
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabaseimporta">MsiDatabaseImport</a>.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msidatabaseimporta">MsiDatabaseImport</a>.
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can get extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can get extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiDatabaseExport as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">Text Archive Files</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/text-archive-files">Text Archive Files</a>

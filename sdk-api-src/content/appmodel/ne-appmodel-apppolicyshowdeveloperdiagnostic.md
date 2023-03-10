@@ -2,15 +2,12 @@
 UID: NE:appmodel.AppPolicyShowDeveloperDiagnostic
 title: AppPolicyShowDeveloperDiagnostic (appmodel.h)
 description: The AppPolicyShowDeveloperDiagnostic enumeration indicates the method used for a process to surface developer information, such as asserts, to the user.
+helpviewer_keywords: ["AppPolicyShowDeveloperDiagnostic","AppPolicyShowDeveloperDiagnostic enumeration [App packaging and management]","AppPolicyShowDeveloperDiagnostic_None","AppPolicyShowDeveloperDiagnostic_ShowUI","appmodel/AppPolicyShowDeveloperDiagnostic","appmodel/AppPolicyShowDeveloperDiagnostic_None","appmodel/AppPolicyShowDeveloperDiagnostic_ShowUI","appxpkg.apppolicyshowdeveloperdiagnostic_enumeration"]
 old-location: appxpkg\apppolicyshowdeveloperdiagnostic_enumeration.htm
 tech.root: appxpkg
 ms.assetid: 4D8E137C-AD50-45E6-9284-98904021678A
 ms.date: 12/05/2018
 ms.keywords: AppPolicyShowDeveloperDiagnostic, AppPolicyShowDeveloperDiagnostic enumeration [App packaging and management], AppPolicyShowDeveloperDiagnostic_None, AppPolicyShowDeveloperDiagnostic_ShowUI, appmodel/AppPolicyShowDeveloperDiagnostic, appmodel/AppPolicyShowDeveloperDiagnostic_None, appmodel/AppPolicyShowDeveloperDiagnostic_ShowUI, appxpkg.apppolicyshowdeveloperdiagnostic_enumeration
-f1_keywords:
-- appmodel/AppPolicyShowDeveloperDiagnostic
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- AppModel.h
-api_name:
-- AppPolicyShowDeveloperDiagnostic
 targetos: Windows
 req.typenames: AppPolicyShowDeveloperDiagnostic
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AppPolicyShowDeveloperDiagnostic
+ - appmodel/AppPolicyShowDeveloperDiagnostic
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - AppModel.h
+api_name:
+ - AppPolicyShowDeveloperDiagnostic
 ---
 
 # AppPolicyShowDeveloperDiagnostic enumeration
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The AppPolicyShowDeveloperDiagnostic enumeration indicates the method used for a process to surface developer information, such as asserts, to the user.
 
-
 ## -enum-fields
-
-
-
 
 ### -field AppPolicyShowDeveloperDiagnostic_None
 
 Indicates that the process does not show developer diagnostics. This value is expected for a UWP app.
-
 
 ### -field AppPolicyShowDeveloperDiagnostic_ShowUI
 

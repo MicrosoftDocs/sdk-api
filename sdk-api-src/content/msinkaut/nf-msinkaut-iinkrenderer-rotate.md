@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRenderer.Rotate
 title: IInkRenderer::Rotate (msinkaut.h)
 description: Applies a rotation to a InkRenderer's view transform.
+helpviewer_keywords: ["1928c81a-c618-4afd-b0eb-06e7b8b80431","IInkRenderer interface [Tablet PC]","Rotate method","IInkRenderer.Rotate","IInkRenderer::Rotate","Rotate","Rotate method [Tablet PC]","Rotate method [Tablet PC]","IInkRenderer interface","msinkaut/IInkRenderer::Rotate","tablet.inkrenderer_rotate"]
 old-location: tablet\inkrenderer_rotate.htm
 tech.root: tablet
 ms.assetid: 1928c81a-c618-4afd-b0eb-06e7b8b80431
 ms.date: 12/05/2018
 ms.keywords: 1928c81a-c618-4afd-b0eb-06e7b8b80431, IInkRenderer interface [Tablet PC],Rotate method, IInkRenderer.Rotate, IInkRenderer::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Rotate, tablet.inkrenderer_rotate
-f1_keywords:
-- msinkaut/IInkRenderer.Rotate
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRenderer.Rotate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRenderer::Rotate
+ - msinkaut/IInkRenderer::Rotate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRenderer.Rotate
 ---
 
 # IInkRenderer::Rotate
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Applies a rotation to a <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a>'s view transform.
-
-
-
+Applies a rotation to a <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a>'s view transform.
 
 ## -parameters
-
-
-
 
 ### -param Degrees [in]
 
 The degrees by which to rotate clockwise.
 
-
 ### -param x [in, optional]
 
 Optional. The x-coordinate of the point in ink space coordinates around which to rotate. The default is zero.
-
 
 ### -param y [in, optional]
 
 Optional. The y-coordinate of the point in ink space coordinates around which to rotate. The default is zero.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,31 +99,15 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If no point is specified, the rotation is centered around the origin.
-
-
-
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkrenderer.md">IInkRenderer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>

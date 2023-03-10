@@ -4,8 +4,11 @@ title: Appmgmt.h header
 ms.assetid: d040762a-4592-355d-9993-a8165023350e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: shell
+f1_keywords:
+ - appmgmt
+ - appmgmt/appmgmt
 ---
 
 # Appmgmt.h header
@@ -13,8 +16,8 @@ tech.root: shell
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by The Windows Shell. For more information, see:
-
+- [Group Policy API](../_policy/index.md)
 - [The Windows Shell](../_shell/index.md)
 

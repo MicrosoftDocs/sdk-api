@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.ISchedule.put_EndDate
 title: ISchedule::put_EndDate (pla.h)
-description: Retrieves or sets the last date that the schedule is valid.
+description: Retrieves or sets the last date that the schedule is valid. (Put)
+helpviewer_keywords: ["EndDate property [PLA]","EndDate property [PLA]","ISchedule interface","ISchedule interface [PLA]","EndDate property","ISchedule.EndDate","ISchedule.put_EndDate","ISchedule::EndDate","ISchedule::get_EndDate","ISchedule::put_EndDate","base.ischedule_enddate","pla.ischedule_enddate","pla/ISchedule::EndDate","pla/ISchedule::get_EndDate","pla/ISchedule::put_EndDate","put_EndDate"]
 old-location: pla\ischedule_enddate.htm
 tech.root: PLA
 ms.assetid: 80a5c1a9-2d0a-4700-824b-1333b5c7c374
 ms.date: 12/05/2018
 ms.keywords: EndDate property [PLA], EndDate property [PLA],ISchedule interface, ISchedule interface [PLA],EndDate property, ISchedule.EndDate, ISchedule.put_EndDate, ISchedule::EndDate, ISchedule::get_EndDate, ISchedule::put_EndDate, base.ischedule_enddate, pla.ischedule_enddate, pla/ISchedule::EndDate, pla/ISchedule::get_EndDate, pla/ISchedule::put_EndDate, put_EndDate
-f1_keywords:
-- pla/ISchedule.EndDate
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- ISchedule.EndDate
-- ISchedule.get_EndDate
-- ISchedule.put_EndDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISchedule::put_EndDate
+ - pla/ISchedule::put_EndDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - ISchedule.EndDate
+ - ISchedule.get_EndDate
+ - ISchedule.put_EndDate
 ---
 
 # ISchedule::put_EndDate
@@ -50,37 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the last date that the schedule is valid.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The end date must be greater than or equal to the start date.
 
 The set cannot be started after the end date, but if the set is running when the end date is reached, it continues to run.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_startdate">ISchedule::StartDate</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_startdate">ISchedule::StartDate</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_SessionStartTime
 title: ITAgentSession::get_SessionStartTime (tapi3.h)
-description: The get_SessionStartTime method gets the time that the session was created.
+description: The ITAgentSession::get_SessionStartTime (tapi3.h) method gets the time that the session was created.
+helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_SessionStartTime method","ITAgentSession.get_SessionStartTime","ITAgentSession::get_SessionStartTime","_tapi3_itagentsession_get_sessionstarttime","get_SessionStartTime","get_SessionStartTime method [TAPI 2.2]","get_SessionStartTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_sessionstarttime","tapi3cc/ITAgentSession::get_SessionStartTime"]
 old-location: tapi3\itagentsession_get_sessionstarttime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 84c73a96-9748-430f-8653-55656eadc617
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_SessionStartTime method, ITAgentSession.get_SessionStartTime, ITAgentSession::get_SessionStartTime, _tapi3_itagentsession_get_sessionstarttime, get_SessionStartTime, get_SessionStartTime method [TAPI 2.2], get_SessionStartTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_sessionstarttime, tapi3cc/ITAgentSession::get_SessionStartTime
-f1_keywords:
-- tapi3/ITAgentSession.get_SessionStartTime
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentSession.get_SessionStartTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentSession::get_SessionStartTime
+ - tapi3/ITAgentSession::get_SessionStartTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentSession.get_SessionStartTime
 ---
 
 # ITAgentSession::get_SessionStartTime
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_SessionStartTime</b> method gets the time that the session was created.
 
-
 ## -parameters
-
-
-
 
 ### -param pdateSessionStart [out]
 
 Pointer to session start time.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -115,7 +109,7 @@ The <i>pdateSessionStart</i> parameter is not a valid pointer.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> for error codes returned from this TAPI 2.1 function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> for error codes returned from this TAPI 2.1 function.
 
 </td>
 </tr>
@@ -131,32 +125,16 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method wraps the TAPI 2.1 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> function.
-
-
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a>

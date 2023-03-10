@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertGetCRLFromStore
 title: CertGetCRLFromStore function (wincrypt.h)
 description: Gets the first or next certificate revocation list (CRL) context from the certificate store for the specified issuer.
+helpviewer_keywords: ["CERT_STORE_BASE_CRL_FLAG","CERT_STORE_DELTA_CRL_FLAG","CERT_STORE_SIGNATURE_FLAG","CERT_STORE_TIME_VALIDITY_FLAG","CertGetCRLFromStore","CertGetCRLFromStore function [Security]","_crypto2_certgetcrlfromstore","security.certgetcrlfromstore","wincrypt/CertGetCRLFromStore"]
 old-location: security\certgetcrlfromstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 7bd21424-4f74-4bac-ab47-00d51ebdca1c
 ms.date: 12/05/2018
 ms.keywords: CERT_STORE_BASE_CRL_FLAG, CERT_STORE_DELTA_CRL_FLAG, CERT_STORE_SIGNATURE_FLAG, CERT_STORE_TIME_VALIDITY_FLAG, CertGetCRLFromStore, CertGetCRLFromStore function [Security], _crypto2_certgetcrlfromstore, security.certgetcrlfromstore, wincrypt/CertGetCRLFromStore
-f1_keywords:
-- wincrypt/CertGetCRLFromStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertGetCRLFromStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertGetCRLFromStore
+ - wincrypt/CertGetCRLFromStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertGetCRLFromStore
 ---
 
 # CertGetCRLFromStore function
@@ -48,33 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertGetCRLFromStore</b> function gets the first or next <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> for the specified issuer. The function also performs the enabled verification checks on the CRL. The new 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of this function.
-
+The <b>CertGetCRLFromStore</b> function gets the first or next <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) <a href="/windows/desktop/SecGloss/c-gly">context</a> from the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> for the specified issuer. The function also performs the enabled verification checks on the CRL. The new 
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
 ## -parameters
-
-
-
 
 ### -param hCertStore [in]
 
 Handle of a certificate store.
 
-
 ### -param pIssuerContext [in, optional]
 
 A pointer to an issuer 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. The <i>pIssuerContext</i> pointer can come from this store or another store, or could have been created by the calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a>. If <b>NULL</b> is passed for this parameter, all the CRLs in the store are found.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>. The <i>pIssuerContext</i> pointer can come from this store or another store, or could have been created by the calling 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a>. If <b>NULL</b> is passed for this parameter, all the CRLs in the store are found.
 
 ### -param pPrevCrlContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>. An issuer can have multiple CRLs. For example, it can generate delta CRLs by using an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a> version 3 extension. This parameter must be <b>NULL</b> on the first call to get the CRL. To get the next CRL for the issuer, the parameter is set to the <b>CRL_CONTEXT</b> returned by a previous call. A non-<b>NULL</b><i>pPrevCrlContext</i> is always freed by this function by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>, even for an error.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>. An issuer can have multiple CRLs. For example, it can generate delta CRLs by using an <a href="/windows/desktop/SecGloss/x-gly">X.509</a> version 3 extension. This parameter must be <b>NULL</b> on the first call to get the CRL. To get the next CRL for the issuer, the parameter is set to the <b>CRL_CONTEXT</b> returned by a previous call. A non-<b>NULL</b><i>pPrevCrlContext</i> is always freed by this function by calling <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>, even for an error.
 
 ### -param pdwFlags [in, out]
 
@@ -141,23 +135,20 @@ If an enabled verification check fails, its flag remains set upon return. If <i>
 If only one of CERT_STORE_BASE_CRL_FLAG or CERT_STORE_DELTA_CRL_FLAG is set, this function returns either a base or delta CRL and the appropriate base or delta flag will be cleared on return. If both flags are set, only one of the flags will be cleared.
 
 For a verification check failure, a pointer to the first or next 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> is still returned and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is not updated.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> is still returned and 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> is not updated.
 
 ## -returns
 
-
-
-If the function succeeds, the return value is a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>.
+If the function succeeds, the return value is a pointer to a read-only <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>.
 
 If the function fails and the first or next CRL is not found, the return value is <b>NULL</b>.
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> must be freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>. However, when the returned <b>CRL_CONTEXT</b> is supplied for <i>pPrevCrlContext</i> on a subsequent call, the function frees it.
+The returned <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> must be freed by calling 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>. However, when the returned <b>CRL_CONTEXT</b> is supplied for <i>pPrevCrlContext</i> on a subsequent call, the function frees it.
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -187,50 +178,33 @@ Either no CRLs existed in the store for the issuer, or the function reached the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext">CertDuplicateCRLContext</a> can be called to make a duplicate CRL.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext">CertDuplicateCRLContext</a> can be called to make a duplicate CRL.
 
 The hexadecimal values of the flags can be combined using a bitwise-<b>OR</b> operation to enable both verifications. For example, to enable both verifications, the <b>DWORD</b> value pointed to by <i>pdwFlags</i> is set to value CERT_STORE_SIGNATURE_FLAG | CERT_STORE_TIME_VALIDITY_FLAG. If the CERT_STORE_SIGNATURE_FLAG verification succeeded, but CERT_STORE_TIME_VALIDITY_FLAG verification failed, the <b>DWORD</b> value pointed to by <i>pdwFlags</i> is set to CERT_STORE_TIME_VALIDITY_FLAG when the function returns.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext">CertDuplicateCRLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext">CertDuplicateCRLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecrlcontext">CertFreeCRLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Revocation List Functions</a>

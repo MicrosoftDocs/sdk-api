@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFByteStreamHandler.CancelObjectCreation
 title: IMFByteStreamHandler::CancelObjectCreation (mfidl.h)
 description: Cancels the current request to create a media source.
+helpviewer_keywords: ["9731dac4-879c-4cbc-97b4-fa596b20c033","CancelObjectCreation","CancelObjectCreation method [Media Foundation]","CancelObjectCreation method [Media Foundation]","IMFByteStreamHandler interface","IMFByteStreamHandler interface [Media Foundation]","CancelObjectCreation method","IMFByteStreamHandler.CancelObjectCreation","IMFByteStreamHandler::CancelObjectCreation","mf.imfbytestreamhandler_cancelobjectcreation","mfidl/IMFByteStreamHandler::CancelObjectCreation"]
 old-location: mf\imfbytestreamhandler_cancelobjectcreation.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9731dac4-879c-4cbc-97b4-fa596b20c033
 ms.date: 12/05/2018
 ms.keywords: 9731dac4-879c-4cbc-97b4-fa596b20c033, CancelObjectCreation, CancelObjectCreation method [Media Foundation], CancelObjectCreation method [Media Foundation],IMFByteStreamHandler interface, IMFByteStreamHandler interface [Media Foundation],CancelObjectCreation method, IMFByteStreamHandler.CancelObjectCreation, IMFByteStreamHandler::CancelObjectCreation, mf.imfbytestreamhandler_cancelobjectcreation, mfidl/IMFByteStreamHandler::CancelObjectCreation
-f1_keywords:
-- mfidl/IMFByteStreamHandler.CancelObjectCreation
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFByteStreamHandler.CancelObjectCreation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamHandler::CancelObjectCreation
+ - mfidl/IMFByteStreamHandler::CancelObjectCreation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFByteStreamHandler.CancelObjectCreation
 ---
 
 # IMFByteStreamHandler::CancelObjectCreation
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Cancels the current request to create a media source.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pIUnknownCancelCookie [in]
 
-Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">IMFByteStreamHandler::BeginCreateObject</a> method.
-
+Pointer to the <b>IUnknown</b> interface that was returned in the <i>ppIUnknownCancelCookie</i> parameter of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">IMFByteStreamHandler::BeginCreateObject</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,31 +80,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You can use this method to cancel a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
-
-
-
+You can use this method to cancel a previous call to <a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject">BeginCreateObject</a>. Because that method is asynchronous, however, it might be completed before the operation can be canceled. Therefore, your callback might still be invoked after you call this method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamhandler">IMFByteStreamHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamhandler">IMFByteStreamHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>

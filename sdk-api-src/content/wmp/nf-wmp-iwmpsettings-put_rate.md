@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSettings.put_rate
 title: IWMPSettings::put_rate (wmp.h)
 description: The put_rate method specifies the current playback rate for video.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_rate method","IWMPSettings.put_rate","IWMPSettings::put_rate","IWMPSettingsput_rate","put_rate","put_rate method [Windows Media Player]","put_rate method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_rate","wmp/IWMPSettings::put_rate"]
 old-location: wmp\iwmpsettings_put_rate.htm
 tech.root: WMP
 ms.assetid: a0c395f0-28d1-4c4d-8274-e26c0f4b1ae2
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_rate method, IWMPSettings.put_rate, IWMPSettings::put_rate, IWMPSettingsput_rate, put_rate, put_rate method [Windows Media Player], put_rate method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_rate, wmp/IWMPSettings::put_rate
-f1_keywords:
-- wmp/IWMPSettings.put_rate
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings.put_rate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings::put_rate
+ - wmp/IWMPSettings::put_rate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings.put_rate
 ---
 
 # IWMPSettings::put_rate
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>put_rate</b> method specifies the current playback rate for video.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dRate [in]
 
 <b>double</b> containing the rate with a default value of 1.0.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The value retrieved by this method acts as a multiplier value that enables you to play a media item at a faster or slower rate. The default value of 1.0 indicates the authored speed.
 
@@ -123,36 +108,26 @@ The playback rate of some digital media formats cannot be altered. Use the <b>IW
 
 <b>Windows Media Player 10 Mobile: </b>This method only accepts a <b>long</b> set to -5.0, 1.0, or 5.0. Otherwise, E_INVALIDARG is returned.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastforward">IWMPControls::fastForward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastforward">IWMPControls::fastForward</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastreverse">IWMPControls::fastReverse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastreverse">IWMPControls::fastReverse</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_isavailable">IWMPSettings::get_isAvailable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_isavailable">IWMPSettings::get_isAvailable</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_rate">IWMPSettings::get_rate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_rate">IWMPSettings::get_rate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>

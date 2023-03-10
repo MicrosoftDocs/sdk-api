@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfLangBarMgr.ShowFloating
 title: ITfLangBarMgr::ShowFloating (ctfutb.h)
 description: ITfLangBarMgr::ShowFloating method
+helpviewer_keywords: ["ITfLangBarMgr interface [Text Services Framework]","ShowFloating method","ITfLangBarMgr.ShowFloating","ITfLangBarMgr::ShowFloating","ShowFloating","ShowFloating method [Text Services Framework]","ShowFloating method [Text Services Framework]","ITfLangBarMgr interface","TF_SFT_DESKBAND","TF_SFT_DOCK","TF_SFT_EXTRAICONSONMINIMIZED","TF_SFT_HIDDEN","TF_SFT_HIGHTRANSPARENCY","TF_SFT_LABELS","TF_SFT_LOWTRANSPARENCY","TF_SFT_MINIMIZED","TF_SFT_NOEXTRAICONSONMINIMIZED","TF_SFT_NOLABELS","TF_SFT_NOTRANSPARENCY","TF_SFT_SHOWNORMAL","_tsf_itflangbarmgr_showfloating_ref","ctfutb/ITfLangBarMgr::ShowFloating","tsf.itflangbarmgr_showfloating"]
 old-location: tsf\itflangbarmgr_showfloating.htm
 tech.root: TSF
 ms.assetid: f49987c7-476d-4add-9d43-83de78693420
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],ShowFloating method, ITfLangBarMgr.ShowFloating, ITfLangBarMgr::ShowFloating, ShowFloating, ShowFloating method [Text Services Framework], ShowFloating method [Text Services Framework],ITfLangBarMgr interface, TF_SFT_DESKBAND, TF_SFT_DOCK, TF_SFT_EXTRAICONSONMINIMIZED, TF_SFT_HIDDEN, TF_SFT_HIGHTRANSPARENCY, TF_SFT_LABELS, TF_SFT_LOWTRANSPARENCY, TF_SFT_MINIMIZED, TF_SFT_NOEXTRAICONSONMINIMIZED, TF_SFT_NOLABELS, TF_SFT_NOTRANSPARENCY, TF_SFT_SHOWNORMAL, _tsf_itflangbarmgr_showfloating_ref, ctfutb/ITfLangBarMgr::ShowFloating, tsf.itflangbarmgr_showfloating
-f1_keywords:
-- ctfutb/ITfLangBarMgr.ShowFloating
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfLangBarMgr.ShowFloating
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarMgr::ShowFloating
+ - ctfutb/ITfLangBarMgr::ShowFloating
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfLangBarMgr.ShowFloating
 ---
 
 # ITfLangBarMgr::ShowFloating
@@ -48,13 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Configures display settings for the floating language bar.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -186,12 +184,8 @@ Dock the language bar in the system task bar. This constant cannot be combined w
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -234,23 +228,12 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
+<a href="/windows/desktop/TSF/tf-sft--constants">TF_SFT_* Constants
       </a>
- 
-
- 
-

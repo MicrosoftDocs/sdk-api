@@ -1,16 +1,13 @@
 ---
 UID: NF:strsafe.StringCbVPrintfExW
 title: StringCbVPrintfExW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. (StringCbVPrintfExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCbVPrintfEx", "StringCbVPrintfEx function [Menus and Other Resources]", "StringCbVPrintfExW", "_shell_StringCbVPrintfEx", "_shell_stringcbvprintfex_cpp", "menurc.stringcbvprintfex", "strsafe/StringCbVPrintfEx", "strsafe/StringCbVPrintfExW", "winui._shell_stringcbvprintfex"]
 old-location: menurc\stringcbvprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintfex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbVPrintfEx, StringCbVPrintfEx function [Menus and Other Resources], StringCbVPrintfExA, StringCbVPrintfExW, _shell_StringCbVPrintfEx, _shell_stringcbvprintfex_cpp, menurc.stringcbvprintfex, strsafe/StringCbVPrintfEx, strsafe/StringCbVPrintfExA, strsafe/StringCbVPrintfExW, winui._shell_stringcbvprintfex
-f1_keywords:
-- strsafe/StringCbVPrintfEx
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCbVPrintfEx
-- StringCbVPrintfExA
-- StringCbVPrintfExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCbVPrintfExW
+ - strsafe/StringCbVPrintfExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCbVPrintfEx
+ - StringCbVPrintfExA
+ - StringCbVPrintfExW
 ---
 
 # StringCbVPrintfExW function
@@ -50,27 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbVPrintfEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+<b>StringCbVPrintfEx</b> adds to the functionality of <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCbVPrintfEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192500">vsprintf, vswprintf, _vstprintf</a></li>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192508">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
+<li><a href="/cpp/c-runtime-library/reference/vsprintf-vsprintf-l-vswprintf-vswprintf-l-vswprintf-l">vsprintf, vswprintf, _vstprintf</a></li>
+<li><a href="/cpp/c-runtime-library/reference/vsnprintf-vsnprintf-vsnprintf-l-vsnwprintf-vsnwprintf-l">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-wvnsprintfa">wvnsprintf</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-wvnsprintfa">wvnsprintf</a>
 </li>
 </ul>
 
 ## -parameters
-
-
-
 
 ### -param pszDest [out]
 
@@ -78,13 +76,11 @@ Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the formatted, null-terminated string created from <i>pszFormat</i> and <i>argList</i>.
 
-
 ### -param cbDest [in]
 
 Type: <b>size_t</b>
 
 The size of the destination buffer, in bytes. This value must be sufficiently large to accommodate the final formatted string plus the terminating null character. The maximum number of bytes allowed is <code>STRSAFE_MAX_CCH * sizeof(TCHAR)</code>.
-
 
 ### -param ppszDestEnd [out, optional]
 
@@ -92,13 +88,11 @@ Type: <b>LPTSTR*</b>
 
 The address of a pointer to the end of <i>pszDest</i>. If <i>ppszDestEnd</i> is non-<b>NULL</b> and any data is copied into the destination buffer, this points to the terminating null character at the end of the string.
 
-
 ### -param pcbRemaining [out, optional]
 
 Type: <b>size_t*</b>
 
 The number of unused bytes in <i>pszDest</i>, including those used for the terminating null character. If <i>pcbRemaining</i> is <b>NULL</b>, the count is not kept or returned.
-
 
 ### -param dwFlags [in]
 
@@ -167,15 +161,12 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFormat [in]
 
 Type: <b>LPCTSTR</b>
 
-The format string. This string must be null-terminated. For more information, see <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
-
+The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
 ### -param argList [in]
 
@@ -183,14 +174,11 @@ Type: <b>va_list</b>
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -235,14 +223,9 @@ The copy operation failed due to insufficient buffer space. Depending on the val
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
 
-
-
-<b>StringCbVPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbVPrintfEx</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCbVPrintfEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCbVPrintfEx</b> always null-terminates a nonzero-length destination buffer.
 
 For more information on va_lists, see the conventions defined in Stdarg.h.
 
@@ -279,25 +262,22 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 
+
+> [!NOTE]
+> The strsafe.h header defines StringCbVPrintfEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>

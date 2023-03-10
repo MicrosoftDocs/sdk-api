@@ -2,15 +2,12 @@
 UID: NF:eventsys.IMultiInterfaceEventControl.SetDefaultQuery
 title: IMultiInterfaceEventControl::SetDefaultQuery (eventsys.h)
 description: Establishes a default query to be used when a publisher filter is not associated with an event method.
+helpviewer_keywords: ["IMultiInterfaceEventControl interface [COM+]","SetDefaultQuery method","IMultiInterfaceEventControl.SetDefaultQuery","IMultiInterfaceEventControl::SetDefaultQuery","SetDefaultQuery","SetDefaultQuery method [COM+]","SetDefaultQuery method [COM+]","IMultiInterfaceEventControl interface","_cos_IMultiInterfaceEventControl_SetDefaultQuery","cos.imultiinterfaceeventcontrol_setdefaultquery","eventsys/IMultiInterfaceEventControl::SetDefaultQuery"]
 old-location: cos\imultiinterfaceeventcontrol_setdefaultquery.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 31d544d4-8cac-46ae-9db7-c5b366ac6b2f
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl interface [COM+],SetDefaultQuery method, IMultiInterfaceEventControl.SetDefaultQuery, IMultiInterfaceEventControl::SetDefaultQuery, SetDefaultQuery, SetDefaultQuery method [COM+], SetDefaultQuery method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetDefaultQuery, cos.imultiinterfaceeventcontrol_setdefaultquery, eventsys/IMultiInterfaceEventControl::SetDefaultQuery
-f1_keywords:
-- eventsys/IMultiInterfaceEventControl.SetDefaultQuery
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IMultiInterfaceEventControl.SetDefaultQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultiInterfaceEventControl::SetDefaultQuery
+ - eventsys/IMultiInterfaceEventControl::SetDefaultQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IMultiInterfaceEventControl.SetDefaultQuery
 ---
 
 # IMultiInterfaceEventControl::SetDefaultQuery
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Establishes a default query to be used when a publisher filter is not associated with an event method.
 
-
 ## -parameters
-
-
-
 
 ### -param eventIID [in]
 
 The interface identifier of the firing interface.
 
-
 ### -param bstrMethodName [in]
 
 The name of the method to which the default query is assigned.
-
 
 ### -param bstrCriteria [in]
 
 A string specifying the query criteria. This parameter cannot be <b>NULL</b>. For details on forming a valid expression for this parameter, see the Remarks section below.
 
-
 ### -param errorIndex [out, retval]
 
 The location, expressed as an offset, of an error in the <i>bstrCriteria</i> parameter.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -144,16 +135,10 @@ An unexpected internal error was detected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is a more specialized form of the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-getsubscriptions">GetSubscriptions</a> is automatically updated whenever the subscription collection changes.
+This method is a more specialized form of the <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-getsubscriptions">GetSubscriptions</a> is automatically updated whenever the subscription collection changes.
 
 The query criteria specified by the <i>bstrCriteria</i> parameter can be "ALL", to specify a request for all subscription objects, or a Boolean expression denoting one or more conditions a subscription object must meet to be included in the query result. Valid expressions are of the following form:
 
@@ -169,16 +154,6 @@ Following are some examples of valid query criteria:
 
 "EventClassID == {F89859D1-6565-11D1-88C8-0080C7D771BF} AND MethodName = 'StockPriceChange'"
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>

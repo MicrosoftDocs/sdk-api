@@ -2,15 +2,12 @@
 UID: NN:certmod.ICertManageModule
 title: ICertManageModule (certmod.h)
 description: Provided to retrieve information about a Certificate Services Policy or Exit module.
+helpviewer_keywords: ["ICertManageModule","ICertManageModule interface [Security]","ICertManageModule interface [Security]","described","_certsrv_icertmanagemodule","certmod/ICertManageModule","security.icertmanagemodule"]
 old-location: security\icertmanagemodule.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645
 ms.date: 12/05/2018
 ms.keywords: ICertManageModule, ICertManageModule interface [Security], ICertManageModule interface [Security],described, _certsrv_icertmanagemodule, certmod/ICertManageModule, security.icertmanagemodule
-f1_keywords:
-- certmod/ICertManageModule
-dev_langs:
-- c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertManageModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertManageModule
+ - certmod/ICertManageModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertManageModule
 ---
 
 # ICertManageModule interface
@@ -49,62 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ICertManageModule</b> interface is provided to retrieve information about a Certificate Services 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/policy-modules">Policy</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/exit-modules">Exit</a> module.
-
+<a href="/windows/desktop/SecCrypto/policy-modules">Policy</a> or 
+<a href="/windows/desktop/SecCrypto/exit-modules">Exit</a> module.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertManageModule</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ICertManageModule</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-configure">Configure</a>
-</td>
-<td align="left" width="63%">
-Invokes module configuration user interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">GetProperty</a>
-</td>
-<td align="left" width="63%">
-Retrieves the value of a property in the module.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-setproperty">SetProperty</a>
-</td>
-<td align="left" width="63%">
-Assigns a value to a property in the module.
-
-</td>
-</tr>
-</table> 
-
+The <b>ICertManageModule</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertManageModule</b> also has these types of members:
 
 ## -remarks
 
-
-
-The <b>ICertManageModule</b> interface provides a method to invoke the module user interface for setting and viewing configuration settings. Writers of Policy and Exit modules should implement the <b>ICertManageModule</b> interface (in addition to the <a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a> interfaces, respectively). An enterprise <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) should always use the Microsoft-provided enterprise policy and exit modules; additional exit modules are permitted for enterprise CAs.
+The <b>ICertManageModule</b> interface provides a method to invoke the module user interface for setting and viewing configuration settings. Writers of Policy and Exit modules should implement the <b>ICertManageModule</b> interface (in addition to the <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a> and <a href="/windows/desktop/api/certexit/nn-certexit-icertexit">ICertExit</a> interfaces, respectively). An enterprise <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) should always use the Microsoft-provided enterprise policy and exit modules; additional exit modules are permitted for enterprise CAs.
 
 The following is an example of what could be used in the DECLARE_REGISTRY macro of a class (CMyCertManagePolicyModule) which implements <b>ICertManageModule</b>.
 
@@ -157,7 +114,3 @@ TEXT(".PolicyManage")
 </td>
 </tr>
 </table>
- 
-
-
-

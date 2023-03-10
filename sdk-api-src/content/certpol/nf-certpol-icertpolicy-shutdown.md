@@ -2,15 +2,12 @@
 UID: NF:certpol.ICertPolicy.ShutDown
 title: ICertPolicy::ShutDown (certpol.h)
 description: Called by the server engine before the server is terminated.
+helpviewer_keywords: ["CCertPolicy object [Security]","ShutDown method","ICertPolicy interface [Security]","ShutDown method","ICertPolicy.ShutDown","ICertPolicy2 interface [Security]","ShutDown method","ICertPolicy2::ShutDown","ICertPolicy::ShutDown","ShutDown","ShutDown method [Security]","ShutDown method [Security]","CCertPolicy object","ShutDown method [Security]","ICertPolicy interface","ShutDown method [Security]","ICertPolicy2 interface","_certsrv_icertpolicy_shutdown","certpol/ICertPolicy2::ShutDown","certpol/ICertPolicy::ShutDown","security.icertpolicy2_shutdown"]
 old-location: security\icertpolicy2_shutdown.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 2a796acb-b179-4b6f-8864-9e96f4049389
 ms.date: 12/05/2018
 ms.keywords: CCertPolicy object [Security],ShutDown method, ICertPolicy interface [Security],ShutDown method, ICertPolicy.ShutDown, ICertPolicy2 interface [Security],ShutDown method, ICertPolicy2::ShutDown, ICertPolicy::ShutDown, ShutDown, ShutDown method [Security], ShutDown method [Security],CCertPolicy object, ShutDown method [Security],ICertPolicy interface, ShutDown method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_shutdown, certpol/ICertPolicy2::ShutDown, certpol/ICertPolicy::ShutDown, security.icertpolicy2_shutdown
-f1_keywords:
-- certpol/ICertPolicy2.ShutDown
-dev_langs:
-- c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertPolicy2.ShutDown
-- ICertPolicy.ShutDown
-- CCertPolicy.ShutDown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPolicy::ShutDown
+ - certpol/ICertPolicy::ShutDown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertPolicy2.ShutDown
+ - ICertPolicy.ShutDown
+ - CCertPolicy.ShutDown
 ---
 
 # ICertPolicy::ShutDown
@@ -51,34 +53,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ShutDown</b> method is called by the server engine before the server is terminated.
 
 When <b>ShutDown</b> is called, the policy module should clean up and stop. It is guaranteed that no requests will arrive after <b>ShutDown</b> is called.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
-
-
 
 When you write custom policy modules, implement this method.
 
@@ -104,21 +92,10 @@ STDMETHODIMP CCertPolicy::ShutDown()
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>

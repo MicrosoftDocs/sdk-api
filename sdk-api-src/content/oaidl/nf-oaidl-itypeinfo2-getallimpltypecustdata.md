@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeInfo2.GetAllImplTypeCustData
 title: ITypeInfo2::GetAllImplTypeCustData (oaidl.h)
 description: Gets all custom data for the specified implementation type.
+helpviewer_keywords: ["GetAllImplTypeCustData","GetAllImplTypeCustData method [Automation]","GetAllImplTypeCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetAllImplTypeCustData method","ITypeInfo2.GetAllImplTypeCustData","ITypeInfo2::GetAllImplTypeCustData","_oa96_ITypeInfo2_GetAllImplTypeCustData","automat.itypeinfo2_getallimpltypecustdata","oaidl/ITypeInfo2::GetAllImplTypeCustData"]
 old-location: automat\itypeinfo2_getallimpltypecustdata.htm
 tech.root: automat
 ms.assetid: 021849d8-ec61-4f35-8302-caa8338a8758
 ms.date: 12/05/2018
 ms.keywords: GetAllImplTypeCustData, GetAllImplTypeCustData method [Automation], GetAllImplTypeCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllImplTypeCustData method, ITypeInfo2.GetAllImplTypeCustData, ITypeInfo2::GetAllImplTypeCustData, _oa96_ITypeInfo2_GetAllImplTypeCustData, automat.itypeinfo2_getallimpltypecustdata, oaidl/ITypeInfo2::GetAllImplTypeCustData
-f1_keywords:
-- oaidl/ITypeInfo2.GetAllImplTypeCustData
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeInfo2.GetAllImplTypeCustData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeInfo2::GetAllImplTypeCustData
+ - oaidl/ITypeInfo2::GetAllImplTypeCustData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeInfo2.GetAllImplTypeCustData
 ---
 
 # ITypeInfo2::GetAllImplTypeCustData
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets all custom data for the specified implementation type.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the implementation type for the custom data.
 
-
-
-
 ### -param pCustData [out]
 
 The custom data items.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,18 +108,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>

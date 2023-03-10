@@ -2,15 +2,12 @@
 UID: NN:ndhelper.INetDiagHelperInfo
 title: INetDiagHelperInfo (ndhelper.h)
 description: The INetDiagHelperInfo interface provides a method that is called by the Network Diagnostics Framework (NDF) when it needs to validate that it has the necessary information for a helper class and that it has chosen the correct helper class.
+helpviewer_keywords: ["INetDiagHelperInfo","INetDiagHelperInfo interface [NDF]","INetDiagHelperInfo interface [NDF]","described","ndf.inetdiaghelperinfo","ndhelper/INetDiagHelperInfo"]
 old-location: ndf\inetdiaghelperinfo.htm
 tech.root: NDF
 ms.assetid: 815e2338-0055-4078-a9a5-197db449c33d
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperInfo, INetDiagHelperInfo interface [NDF], INetDiagHelperInfo interface [NDF],described, ndf.inetdiaghelperinfo, ndhelper/INetDiagHelperInfo
-f1_keywords:
-- ndhelper/INetDiagHelperInfo
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelperInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelperInfo
+ - ndhelper/INetDiagHelperInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelperInfo
 ---
 
 # INetDiagHelperInfo interface
@@ -48,33 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>INetDiagHelperInfo</b> interface provides a method that is called by the Network Diagnostics Framework (NDF) when it needs to validate that it has the necessary information for a helper class and that it has chosen the correct helper class.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetDiagHelperInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperInfo</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>INetDiagHelperInfo</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelperinfo-getattributeinfo">INetDiagHelperInfo::GetAttributeInfo</a>
-</td>
-<td align="left" width="63%">
-Retrieves the list of key parameters required by the Helper Class Extension.
-
-</td>
-</tr>
-</table> 
+The <b>INetDiagHelperInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INetDiagHelperInfo</b> also has these types of members:
 

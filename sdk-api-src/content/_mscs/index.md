@@ -4,7 +4,7 @@ title: Windows Clustering
 ms.assetid: 4a4e5260-2486-38d5-9a4b-e7c5cebf7cdf
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Clustering
@@ -22,5 +22,4 @@ To develop Windows Clustering, you need these headers:
  * [smbclnt.h](../smbclnt/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Clustering](https://docs.microsoft.com/previous-versions/windows/desktop/mscs)
-
+* [Windows Clustering](/previous-versions/windows/desktop/mscs)

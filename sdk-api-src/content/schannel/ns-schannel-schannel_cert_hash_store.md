@@ -2,15 +2,12 @@
 UID: NS:schannel._SCHANNEL_CERT_HASH_STORE
 title: SCHANNEL_CERT_HASH_STORE (schannel.h)
 description: Contains the hash store data for the certificate that Schannel uses in kernel-mode.
+helpviewer_keywords: ["*PSCHANNEL_CERT_HASH_STORE","PSCHANNEL_CERT_HASH_STORE","PSCHANNEL_CERT_HASH_STORE structure pointer [Security]","SCHANNEL_CERT_HASH_STORE","SCHANNEL_CERT_HASH_STORE structure [Security]","SCH_MACHINE_CERT_HASH","schannel/PSCHANNEL_CERT_HASH_STORE","schannel/SCHANNEL_CERT_HASH_STORE","security.schannel_cert_hash_store"]
 old-location: security\schannel_cert_hash_store.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 26902BD9-9426-4061-AC70-67A4F4063511
 ms.date: 12/05/2018
 ms.keywords: '*PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE, PSCHANNEL_CERT_HASH_STORE structure pointer [Security], SCHANNEL_CERT_HASH_STORE, SCHANNEL_CERT_HASH_STORE structure [Security], SCH_MACHINE_CERT_HASH, schannel/PSCHANNEL_CERT_HASH_STORE, schannel/SCHANNEL_CERT_HASH_STORE, security.schannel_cert_hash_store'
-f1_keywords:
-- schannel/SCHANNEL_CERT_HASH_STORE
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- SCHANNEL_CERT_HASH_STORE
 targetos: Windows
 req.typenames: SCHANNEL_CERT_HASH_STORE, *PSCHANNEL_CERT_HASH_STORE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SCHANNEL_CERT_HASH_STORE
+ - schannel/_SCHANNEL_CERT_HASH_STORE
+ - PSCHANNEL_CERT_HASH_STORE
+ - schannel/PSCHANNEL_CERT_HASH_STORE
+ - SCHANNEL_CERT_HASH_STORE
+ - schannel/SCHANNEL_CERT_HASH_STORE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - SCHANNEL_CERT_HASH_STORE
 ---
 
 # SCHANNEL_CERT_HASH_STORE structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the hash store data for the certificate that Schannel uses in kernel-mode.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwLength
 
 The size, in bytes, of this structure.
-
 
 ### -field dwFlags
 
@@ -83,18 +83,14 @@ The certificate hash of the computer.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hProv
 
 Handle to the cryptography provider.
 
-
 ### -field ShaHash
 
 The secure hash algorithm.
-
 
 ### -field pwszStoreName
 

@@ -1,16 +1,13 @@
 ---
 UID: NS:winbase.tagHW_PROFILE_INFOA
 title: HW_PROFILE_INFOA (winbase.h)
-description: Contains information about a hardware profile.
+description: Contains information about a hardware profile. (ANSI)
+helpviewer_keywords: ["*LPHW_PROFILE_INFOA","DOCKINFO_DOCKED","DOCKINFO_UNDOCKED","DOCKINFO_USER_DOCKED","DOCKINFO_USER_SUPPLIED","DOCKINFO_USER_UNDOCKED","HW_PROFILE_INFO","HW_PROFILE_INFO structure","HW_PROFILE_INFOA","HW_PROFILE_INFOW","LPHW_PROFILE_INFO","LPHW_PROFILE_INFO structure pointer","_win32_hw_profile_info_str","base.hw_profile_info_str","tagHW_PROFILE_INFOA","tagHW_PROFILE_INFOW","winbase/HW_PROFILE_INFO","winbase/HW_PROFILE_INFOA","winbase/HW_PROFILE_INFOW","winbase/LPHW_PROFILE_INFO"]
 old-location: base\hw_profile_info_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: b1c8eb4c-8c62-4e3e-a7d2-0888512b3d4c
 ms.date: 12/05/2018
 ms.keywords: '*LPHW_PROFILE_INFOA, DOCKINFO_DOCKED, DOCKINFO_UNDOCKED, DOCKINFO_USER_DOCKED, DOCKINFO_USER_SUPPLIED, DOCKINFO_USER_UNDOCKED, HW_PROFILE_INFO, HW_PROFILE_INFO structure, HW_PROFILE_INFOA, HW_PROFILE_INFOW, LPHW_PROFILE_INFO, LPHW_PROFILE_INFO structure pointer, _win32_hw_profile_info_str, base.hw_profile_info_str, tagHW_PROFILE_INFOA, tagHW_PROFILE_INFOW, winbase/HW_PROFILE_INFO, winbase/HW_PROFILE_INFOA, winbase/HW_PROFILE_INFOW, winbase/LPHW_PROFILE_INFO'
-f1_keywords:
-- winbase/HW_PROFILE_INFO
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbase.h
-api_name:
-- HW_PROFILE_INFO
-- HW_PROFILE_INFOA
-- HW_PROFILE_INFOW
 targetos: Windows
 req.typenames: HW_PROFILE_INFOA, *LPHW_PROFILE_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagHW_PROFILE_INFOA
+ - winbase/tagHW_PROFILE_INFOA
+ - LPHW_PROFILE_INFOA
+ - winbase/LPHW_PROFILE_INFOA
+ - HW_PROFILE_INFOA
+ - winbase/HW_PROFILE_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbase.h
+api_name:
+ - HW_PROFILE_INFO
+ - HW_PROFILE_INFOA
+ - HW_PROFILE_INFOW
 ---
 
 # HW_PROFILE_INFOA structure
@@ -50,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a hardware profile. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> function uses this structure to retrieve the current hardware profile for the local computer.
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> function uses this structure to retrieve the current hardware profile for the local computer.
 
 ## -struct-fields
-
-
-
 
 ### -field dwDockInfo
 
@@ -101,7 +102,7 @@ The computer is undocked. This flag is always set for desktop systems that canno
 </td>
 <td width="60%">
 If this flag is set, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> retrieved the current docking state from information provided by the user in the <b>Hardware Profiles</b> page of the <b>System</b> control panel application. 
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> retrieved the current docking state from information provided by the user in the <b>Hardware Profiles</b> page of the <b>System</b> control panel application. 
 
 
 
@@ -133,13 +134,11 @@ The computer is undocked, according to information provided by the user. This va
 </td>
 </tr>
 </table>
- 
-
 
 ### -field szHwProfileGuid
 
 The globally unique identifier (GUID) string for the current hardware profile. The string returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> encloses the GUID in curly braces, {}; for example: 
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a> encloses the GUID in curly braces, {}; for example: 
 
 
 
@@ -148,19 +147,15 @@ The globally unique identifier (GUID) string for the current hardware profile. T
 
 You can use this string as a registry subkey under your application's configuration settings key in <b>HKEY_CURRENT_USER</b>. This enables you to store settings for each hardware profile.
 
-
 ### -field szHwProfileName
 
 The display name for the current hardware profile.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrenthwprofilea">GetCurrentHwProfile</a>
- 
-
- 
-
+> [!NOTE]
+> The winbase.h header defines HW_PROFILE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

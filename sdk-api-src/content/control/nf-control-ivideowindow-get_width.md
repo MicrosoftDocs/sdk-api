@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.get_Width
 title: IVideoWindow::get_Width (control.h)
 description: The get_Width method retrieves the width of the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_Width method","IVideoWindow.get_Width","IVideoWindow::get_Width","IVideoWindowget_Width","control/IVideoWindow::get_Width","dshow.ivideowindow_get_width","get_Width","get_Width method [DirectShow]","get_Width method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_width.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 179b065a-7269-40fa-8772-b336f27d69de
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Width method, IVideoWindow.get_Width, IVideoWindow::get_Width, IVideoWindowget_Width, control/IVideoWindow::get_Width, dshow.ivideowindow_get_width, get_Width, get_Width method [DirectShow], get_Width method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_Width
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_Width
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_Width
+ - control/IVideoWindow::get_Width
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_Width
 ---
 
 # IVideoWindow::get_Width
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Width</code> method retrieves the width of the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pWidth [out]
 
 Receives the width, in pixels.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -112,26 +102,15 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_width">IVideoWindow::put_Width</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_width">IVideoWindow::put_Width</a>

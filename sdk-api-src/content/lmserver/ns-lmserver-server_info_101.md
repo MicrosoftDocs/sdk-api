@@ -2,15 +2,12 @@
 UID: NS:lmserver._SERVER_INFO_101
 title: SERVER_INFO_101 (lmserver.h)
 description: The SERVER_INFO_101 structure contains information about the specified server, including name, platform, type of server, and associated software.
+helpviewer_keywords: ["*LPSERVER_INFO_101","*PSERVER_INFO_101","LPSERVER_INFO_101","LPSERVER_INFO_101 structure pointer [Network Management]","PLATFORM_ID_DOS","PLATFORM_ID_NT","PLATFORM_ID_OS2","PLATFORM_ID_OSF","PLATFORM_ID_VMS","PSERVER_INFO_101","PSERVER_INFO_101 structure pointer [Network Management]","SERVER_INFO_101","SERVER_INFO_101 structure [Network Management]","SV_TYPE_AFP","SV_TYPE_ALTERNATE_XPORT","SV_TYPE_BACKUP_BROWSER","SV_TYPE_CLUSTER_NT","SV_TYPE_CLUSTER_VS_NT","SV_TYPE_DCE","SV_TYPE_DFS","SV_TYPE_DIALIN_SERVER","SV_TYPE_DOMAIN_BAKCTRL","SV_TYPE_DOMAIN_CTRL","SV_TYPE_DOMAIN_ENUM","SV_TYPE_DOMAIN_MASTER","SV_TYPE_DOMAIN_MEMBER","SV_TYPE_LOCAL_LIST_ONLY","SV_TYPE_MASTER_BROWSER","SV_TYPE_NOVELL","SV_TYPE_NT","SV_TYPE_POTENTIAL_BROWSER","SV_TYPE_PRINTQ_SERVER","SV_TYPE_SERVER","SV_TYPE_SERVER_MFPN","SV_TYPE_SERVER_NT","SV_TYPE_SERVER_OSF","SV_TYPE_SERVER_VMS","SV_TYPE_SQLSERVER","SV_TYPE_TERMINALSERVER","SV_TYPE_TIME_SOURCE","SV_TYPE_WFW","SV_TYPE_WINDOWS","SV_TYPE_WORKSTATION","SV_TYPE_XENIX_SERVER","_win32_server_info_101_str","lmserver/LPSERVER_INFO_101","lmserver/PSERVER_INFO_101","lmserver/SERVER_INFO_101","netmgmt.server_info_101_str"]
 old-location: netmgmt\server_info_101_str.htm
 tech.root: NetMgmt
 ms.assetid: 6e106a51-9f0c-4603-8121-5b0d01a235b4
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVER_INFO_101, *PSERVER_INFO_101, LPSERVER_INFO_101, LPSERVER_INFO_101 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PSERVER_INFO_101, PSERVER_INFO_101 structure pointer [Network Management], SERVER_INFO_101, SERVER_INFO_101 structure [Network Management], SV_TYPE_AFP, SV_TYPE_ALTERNATE_XPORT, SV_TYPE_BACKUP_BROWSER, SV_TYPE_CLUSTER_NT, SV_TYPE_CLUSTER_VS_NT, SV_TYPE_DCE, SV_TYPE_DFS, SV_TYPE_DIALIN_SERVER, SV_TYPE_DOMAIN_BAKCTRL, SV_TYPE_DOMAIN_CTRL, SV_TYPE_DOMAIN_ENUM, SV_TYPE_DOMAIN_MASTER, SV_TYPE_DOMAIN_MEMBER, SV_TYPE_LOCAL_LIST_ONLY, SV_TYPE_MASTER_BROWSER, SV_TYPE_NOVELL, SV_TYPE_NT, SV_TYPE_POTENTIAL_BROWSER, SV_TYPE_PRINTQ_SERVER, SV_TYPE_SERVER, SV_TYPE_SERVER_MFPN, SV_TYPE_SERVER_NT, SV_TYPE_SERVER_OSF, SV_TYPE_SERVER_VMS, SV_TYPE_SQLSERVER, SV_TYPE_TERMINALSERVER, SV_TYPE_TIME_SOURCE, SV_TYPE_WFW, SV_TYPE_WINDOWS, SV_TYPE_WORKSTATION, SV_TYPE_XENIX_SERVER, _win32_server_info_101_str, lmserver/LPSERVER_INFO_101, lmserver/PSERVER_INFO_101, lmserver/SERVER_INFO_101, netmgmt.server_info_101_str'
-f1_keywords:
-- lmserver/SERVER_INFO_101
-dev_langs:
-- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmserver.h
-api_name:
-- SERVER_INFO_101
 targetos: Windows
 req.typenames: SERVER_INFO_101, *PSERVER_INFO_101, *LPSERVER_INFO_101
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVER_INFO_101
+ - lmserver/_SERVER_INFO_101
+ - PSERVER_INFO_101
+ - lmserver/PSERVER_INFO_101
+ - SERVER_INFO_101
+ - lmserver/SERVER_INFO_101
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmserver.h
+api_name:
+ - SERVER_INFO_101
 ---
 
 # SERVER_INFO_101 structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>SERVER_INFO_101</b> structure contains information about the specified server, including name, platform, type of server, and associated software.
 
-
 ## -struct-fields
-
-
-
 
 ### -field sv101_platform_id
 
@@ -128,8 +129,6 @@ The VMS platform.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field sv101_name
 
@@ -137,22 +136,19 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string specifying the name of a server.
 
-
 ### -field sv101_version_major
 
 Type: <b>DWORD</b>
 
 The major version number and the server type. 
 
-The major release version number of the operating system is specified in the least significant 4 bits. The server type is specified in the most significant 4 bits. The <b>MAJOR_VERSION_MASK</b> bitmask defined in the <i>Lmserver.h</i> header should be used by an  application to obtain the major version number from this member. 
-
+The major release version number of the operating system is specified in the least significant 4 bits. The server type is specified in the most significant 4 bits. The <b>MAJOR_VERSION_MASK</b> bitmask defined in the <i>Lmserver.h</i> header should be used by an  application to obtain the major version number from this member.
 
 ### -field sv101_version_minor
 
 Type: <b>DWORD</b>
 
 The minor release version number of the operating system.
-
 
 ### -field sv101_type
 
@@ -514,8 +510,7 @@ A primary domain.
 </table>
  
 
-The <b>SV_TYPE_ALL</b> constant is defined to 0xFFFFFFFF in the <i>Lmserver.h</i> header file. This constant can be used to check for all server types when used with the <a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>function. 
-
+The <b>SV_TYPE_ALL</b> constant is defined to 0xFFFFFFFF in the <i>Lmserver.h</i> header file. This constant can be used to check for all server types when used with the <a href="/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a> function.
 
 ### -field sv101_comment
 
@@ -523,48 +518,35 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string specifying a comment describing the server. The comment can be null.
 
-
 ## -remarks
 
-
-
 To retrieve a value that indicates whether a share is the root volume in a Dfs tree structure, you must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function and specify information level 1005.
-
-
-
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a> function and specify information level 1005.
 
 ## -see-also
 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserversetinfo">NetServerSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserversetinfo">NetServerSetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>

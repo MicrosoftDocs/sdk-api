@@ -2,15 +2,12 @@
 UID: NF:strmif.IEncoderAPI.IsSupported
 title: IEncoderAPI::IsSupported (strmif.h)
 description: The IsSupported method queries whether a given parameter is supported.
+helpviewer_keywords: ["IEncoderAPI interface [Microsoft TV Technologies]","IsSupported method","IEncoderAPI.IsSupported","IEncoderAPI::IsSupported","IEncoderAPIIsSupported","IsSupported","IsSupported method [Microsoft TV Technologies]","IsSupported method [Microsoft TV Technologies]","IEncoderAPI interface","mstv.iencoderapi_issupported","strmif/IEncoderAPI::IsSupported"]
 old-location: mstv\iencoderapi_issupported.htm
 tech.root: mstv
 ms.assetid: bbcbde18-2b2d-48b0-9f52-185648f502ce
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsSupported method, IEncoderAPI.IsSupported, IEncoderAPI::IsSupported, IEncoderAPIIsSupported, IsSupported, IsSupported method [Microsoft TV Technologies], IsSupported method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_issupported, strmif/IEncoderAPI::IsSupported
-f1_keywords:
-- strmif/IEncoderAPI.IsSupported
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEncoderAPI.IsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEncoderAPI::IsSupported
+ - strmif/IEncoderAPI::IsSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEncoderAPI.IsSupported
 ---
 
 # IEncoderAPI::IsSupported
@@ -49,26 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
 
 The <b>IsSupported</b> method queries whether a given parameter is supported.
 
-
 ## -parameters
-
-
-
 
 ### -param Api [in]
 
 Pointer to a GUID that specifies the parameter.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,35 +93,18 @@ The encoder does not support the parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The method returns S_OK if the encoder recognizes the GUID. To check whether the parameter can be read or modified, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-isavailable">IEncoderAPI::IsAvailable</a> method.
+The method returns S_OK if the encoder recognizes the GUID. To check whether the parameter can be read or modified, call the <a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-isavailable">IEncoderAPI::IsAvailable</a> method.
       
 
 Any errors besides those in the table above indicate an inability to process the call.
-      
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>

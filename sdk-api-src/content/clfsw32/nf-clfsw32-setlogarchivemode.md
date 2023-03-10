@@ -2,15 +2,12 @@
 UID: NF:clfsw32.SetLogArchiveMode
 title: SetLogArchiveMode function (clfsw32.h)
 description: Enables or disables log archive support for a specified log.
+helpviewer_keywords: ["CLFS_LOG_ARCHIVE_MODE","ClfsLogArchiveDisabled","ClfsLogArchiveEnabled","SetLogArchiveMode","SetLogArchiveMode function [Files]","clfsw32/SetLogArchiveMode","fs.setlogarchivemode"]
 old-location: fs\setlogarchivemode.htm
-tech.root: Clfs
+tech.root: fs
 ms.assetid: 9f8a9ab9-2873-44c2-aa8d-78514ffe42bb
 ms.date: 12/05/2018
 ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode
-f1_keywords:
-- clfsw32/SetLogArchiveMode
-dev_langs:
-- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClfsW32.lib
 req.dll: ClfsW32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClfsW32.dll
-api_name:
-- SetLogArchiveMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetLogArchiveMode
+ - clfsw32/SetLogArchiveMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClfsW32.dll
+api_name:
+ - SetLogArchiveMode
 ---
 
 # SetLogArchiveMode function
@@ -48,23 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables log archive support for a specified log.
 
-
 ## -parameters
-
-
-
 
 ### -param hLog [in]
 
 A handle to the log that is obtained from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.
-
+      <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>.
 
 ### -param eMode [in]
-
 
 Specifies whether to make the log ephemeral. This parameter can be one of the following values.
 
@@ -98,29 +93,15 @@ Disables ephemeral logs.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
       
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>

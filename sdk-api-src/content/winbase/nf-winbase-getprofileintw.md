@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetProfileIntW
 title: GetProfileIntW function (winbase.h)
-description: Retrieves an integer from a key in the specified section of the Win.ini file.
+description: Retrieves an integer from a key in the specified section of the Win.ini file. (Unicode)
+helpviewer_keywords: ["GetProfileInt", "GetProfileInt function", "GetProfileIntW", "_win32_getprofileint", "base.getprofileint", "winbase/GetProfileInt", "winbase/GetProfileIntW"]
 old-location: base\getprofileint.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 1da809c7-6c15-4d91-93fe-8e9e71f6c5ad
 ms.date: 12/05/2018
 ms.keywords: GetProfileInt, GetProfileInt function, GetProfileIntA, GetProfileIntW, _win32_getprofileint, base.getprofileint, winbase/GetProfileInt, winbase/GetProfileIntA, winbase/GetProfileIntW
-f1_keywords:
-- winbase/GetProfileInt
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- GetProfileInt
-- GetProfileIntA
-- GetProfileIntW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProfileIntW
+ - winbase/GetProfileIntW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - GetProfileInt
+ - GetProfileIntA
+ - GetProfileIntW
 ---
 
 # GetProfileIntW function
@@ -54,43 +56,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an integer from a key in the specified section of the Win.ini file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpAppName [in]
 
 The name of the section containing the key name.
-
 
 ### -param lpKeyName [in]
 
 The name of the key whose value is to be retrieved. This value is in the form of a string; the 
 <b>GetProfileInt</b> function converts the string into an integer and returns the integer.
 
-
 ### -param nDefault [in]
 
 The default value to return if the key name cannot be found in the initialization file.
 
-
 ## -returns
-
-
 
 The return value is the integer equivalent of the string following the key name in Win.ini. If the function cannot find the key, the return value is the default value. If the value of the key is less than zero, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 If the key name consists of digits followed by characters that are not numeric, the function returns only the value of the digits. For example, the function returns 102 for the following line: KeyName=102abc.
 
@@ -125,17 +113,14 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines GetProfileInt as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofileint">GetPrivateProfileInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofileint">GetPrivateProfileInt</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>

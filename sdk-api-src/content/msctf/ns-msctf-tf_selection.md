@@ -2,15 +2,12 @@
 UID: NS:msctf.TF_SELECTION
 title: TF_SELECTION (msctf.h)
 description: The TF_SELECTION structure contains text selection data.
+helpviewer_keywords: ["TF_SELECTION","TF_SELECTION structure [Text Services Framework]","_tsf_tf_selection_ref","msctf/TF_SELECTION","tsf.tf_selection"]
 old-location: tsf\tf_selection.htm
 tech.root: TSF
 ms.assetid: c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54
 ms.date: 12/05/2018
 ms.keywords: TF_SELECTION, TF_SELECTION structure [Text Services Framework], _tsf_tf_selection_ref, msctf/TF_SELECTION, tsf.tf_selection
-f1_keywords:
-- msctf/TF_SELECTION
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msctf.h
-api_name:
-- TF_SELECTION
 targetos: Windows
 req.typenames: TF_SELECTION
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - TF_SELECTION
+ - msctf/TF_SELECTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msctf.h
+api_name:
+ - TF_SELECTION
 ---
 
 # TF_SELECTION structure
@@ -48,51 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>TF_SELECTION</b> structure contains text selection data.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field range
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the selected text.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that specifies the selected text.
 
 ### -field style
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE</a> structure that contains selection data.
-
+A <a href="/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE</a> structure that contains selection data.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getselection">ITfContext::GetSelection
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getselection">ITfContext::GetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-setselection">ITfContext::SetSelection
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-setselection">ITfContext::SetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_selectionstyle">TF_SELECTIONSTYLE
       </a>
- 
-
- 
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.WritePrivateProfileStringW
 title: WritePrivateProfileStringW function (winbase.h)
-description: Copies a string into the specified section of an initialization file.
+description: Copies a string into the specified section of an initialization file. (Unicode)
+helpviewer_keywords: ["WritePrivateProfileString", "WritePrivateProfileString function", "WritePrivateProfileStringW", "_win32_writeprivateprofilestring", "base.writeprivateprofilestring", "winbase/WritePrivateProfileString", "winbase/WritePrivateProfileStringW"]
 old-location: base\writeprivateprofilestring.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f0799092-c6c1-4800-a17a-fcf744b1228f
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
-f1_keywords:
-- winbase/WritePrivateProfileString
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Privateprofile-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Privateprofile-l1-1-1.dll
-- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
-api_name:
-- WritePrivateProfileString
-- WritePrivateProfileStringA
-- WritePrivateProfileStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WritePrivateProfileStringW
+ - winbase/WritePrivateProfileStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Privateprofile-l1-1-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+api_name:
+ - WritePrivateProfileString
+ - WritePrivateProfileStringA
+ - WritePrivateProfileStringW
 ---
 
 # WritePrivateProfileStringW function
@@ -54,33 +56,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies a string into the specified section of an initialization file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpAppName [in]
 
 The name of the section to which the string will be copied. If the section does not exist, it is created. The name of the section is case-independent; the string can be any combination of uppercase and lowercase letters.
-
 
 ### -param lpKeyName [in]
 
 The name of the key to be associated with a string. If the key does not exist in the specified section, it is created. If this parameter is <b>NULL</b>, the entire section, including all entries within the section, is deleted.
 
-
 ### -param lpString [in]
 
-A <b>null</b>-terminated string to be written to the file. If this parameter is <b>NULL</b>, the key pointed to by the <i>lpKeyName</i> parameter is deleted. 
-
-
-
-					
-
+A <b>null</b>-terminated string to be written to the file. If this parameter is <b>NULL</b>, the key pointed to by the <i>lpKeyName</i> parameter is deleted.
 
 ### -param lpFileName [in]
 
@@ -88,30 +79,26 @@ The name of the initialization file.
 
 If the file was created using Unicode characters, the function writes Unicode characters to the file. Otherwise, the function writes ANSI characters.
 
-
 ## -returns
-
-
 
 If the function successfully copies the string to the initialization file, the return value is nonzero.
 
 If the function fails, or if it flushes the cached version of the most recently accessed initialization file, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 A section in the initialization file must have the following form:
 
-<pre class="syntax" xml:space="preserve"><code>[section]
+
+``` syntax
+[section]
 key=string
       .
       .
-      .</code></pre>
+      .
+```
+
 If the <i>lpFileName</i> parameter does not contain a full path and file name for the file, 
 <b>WritePrivateProfileString</b> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
 
@@ -120,7 +107,7 @@ If <i>lpFileName</i> contains a full path and file name and the file does not ex
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>
@@ -180,10 +167,14 @@ The following sample code illustrates the preceding guidelines and is based on s
 <li>There is a section in the .ini file that we want to look like this: 
 
 
-<pre class="syntax" xml:space="preserve"><code>[Section1] 
+
+``` syntax
+[Section1] 
   FirstKey = It all worked out okay. 
   SecondKey = By golly, it works. 
-  ThirdKey = Another test.</code></pre>
+  ThirdKey = Another test.
+```
+
 </li>
 <li>The user will not have to reboot the system in order to have future invocations of the application see the mapping of the .ini file to the registry.</li>
 </ul>
@@ -314,17 +305,14 @@ int main()
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines WritePrivateProfileString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>

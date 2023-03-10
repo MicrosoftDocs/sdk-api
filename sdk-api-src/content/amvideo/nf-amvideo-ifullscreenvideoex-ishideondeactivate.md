@@ -2,15 +2,12 @@
 UID: NF:amvideo.IFullScreenVideoEx.IsHideOnDeactivate
 title: IFullScreenVideoEx::IsHideOnDeactivate (amvideo.h)
 description: The IsHideOnDeactivate method indicates the behavior when the user switches to another application.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsHideOnDeactivate method","IFullScreenVideoEx.IsHideOnDeactivate","IFullScreenVideoEx::IsHideOnDeactivate","IFullScreenVideoIsHideOnDeactivate","IsHideOnDeactivate","IsHideOnDeactivate method [DirectShow]","IsHideOnDeactivate method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::IsHideOnDeactivate","dshow.ifullscreenvideoex_ishideondeactivate"]
 old-location: dshow\ifullscreenvideoex_ishideondeactivate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0196215f-4efe-418a-acf3-445b8224a2ab
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsHideOnDeactivate method, IFullScreenVideoEx.IsHideOnDeactivate, IFullScreenVideoEx::IsHideOnDeactivate, IFullScreenVideoIsHideOnDeactivate, IsHideOnDeactivate, IsHideOnDeactivate method [DirectShow], IsHideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsHideOnDeactivate, dshow.ifullscreenvideoex_ishideondeactivate
-f1_keywords:
-- amvideo/IFullScreenVideoEx.IsHideOnDeactivate
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.IsHideOnDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::IsHideOnDeactivate
+ - amvideo/IFullScreenVideoEx::IsHideOnDeactivate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.IsHideOnDeactivate
 ---
 
 # IFullScreenVideoEx::IsHideOnDeactivate
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IsHideOnDeactivate</code> method indicates the behavior when the user switches to another application. Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -97,22 +87,11 @@ The video window is hidden.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

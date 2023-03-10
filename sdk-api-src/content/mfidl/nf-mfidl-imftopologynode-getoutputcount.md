@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopologyNode.GetOutputCount
 title: IMFTopologyNode::GetOutputCount (mfidl.h)
 description: Retrieves the number of output streams that currently exist on this node.
+helpviewer_keywords: ["GetOutputCount","GetOutputCount method [Media Foundation]","GetOutputCount method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","GetOutputCount method","IMFTopologyNode.GetOutputCount","IMFTopologyNode::GetOutputCount","dc964c38-9dac-491f-9d70-b1ba7b7001ad","mf.imftopologynode_getoutputcount","mfidl/IMFTopologyNode::GetOutputCount"]
 old-location: mf\imftopologynode_getoutputcount.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dc964c38-9dac-491f-9d70-b1ba7b7001ad
 ms.date: 12/05/2018
 ms.keywords: GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputCount method, IMFTopologyNode.GetOutputCount, IMFTopologyNode::GetOutputCount, dc964c38-9dac-491f-9d70-b1ba7b7001ad, mf.imftopologynode_getoutputcount, mfidl/IMFTopologyNode::GetOutputCount
-f1_keywords:
-- mfidl/IMFTopologyNode.GetOutputCount
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode.GetOutputCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode::GetOutputCount
+ - mfidl/IMFTopologyNode::GetOutputCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode.GetOutputCount
 ---
 
 # IMFTopologyNode::GetOutputCount
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the number of output streams that currently exist on this node.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcOutputs [out]
 
 Receives the number of output streams.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,33 +80,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The output streams may or may not be connected to input streams on other nodes. To get the node that is connected to a specific output stream on this node, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutput">IMFTopologyNode::GetOutput</a>.
 
-
-The output streams may or may not be connected to input streams on other nodes. To get the node that is connected to a specific output stream on this node, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-getoutput">IMFTopologyNode::GetOutput</a>.
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput">IMFTopologyNode::ConnectOutput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setoutputpreftype">IMFTopologyNode::SetOutputPrefType</a> methods add new input streams as needed.
-
-
-
+The <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput">IMFTopologyNode::ConnectOutput</a> and <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setoutputpreftype">IMFTopologyNode::SetOutputPrefType</a> methods add new input streams as needed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiOpenProductW
 title: MsiOpenProductW function (msi.h)
-description: The MsiOpenProduct function opens a product for use with the functions that access the product database. The MsiCloseHandle function must be called with the handle when the handle is no longer needed.
+description: The MsiOpenProduct function opens a product for use with the functions that access the product database. The MsiCloseHandle function must be called with the handle when the handle is no longer needed. (Unicode)
+helpviewer_keywords: ["MsiOpenProduct", "MsiOpenProduct function", "MsiOpenProductW", "_msi_msiopenproduct", "msi/MsiOpenProduct", "msi/MsiOpenProductW", "setup.msiopenproduct"]
 old-location: setup\msiopenproduct.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b
 ms.date: 12/05/2018
 ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenProductW, _msi_msiopenproduct, msi/MsiOpenProduct, msi/MsiOpenProductA, msi/MsiOpenProductW, setup.msiopenproduct
-f1_keywords:
-- msi/MsiOpenProduct
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiOpenProduct
-- MsiOpenProductA
-- MsiOpenProductW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiOpenProductW
+ - msi/MsiOpenProductW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiOpenProduct
+ - MsiOpenProductA
+ - MsiOpenProductW
 ---
 
 # MsiOpenProductW function
@@ -50,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiOpenProduct</b> function opens a product for use with the functions that access the product database. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is no longer needed.
-<div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <b>MsiOpenProduct</b> function.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is no longer needed.
+<div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <b>MsiOpenProduct</b> function.
 </div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code of the product to be opened.
 
-
 ### -param hProduct [out]
 
 Pointer to a variable that receives the product handle.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -153,17 +147,11 @@ The product code was unrecognized.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The msi.h header defines MsiOpenProduct as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

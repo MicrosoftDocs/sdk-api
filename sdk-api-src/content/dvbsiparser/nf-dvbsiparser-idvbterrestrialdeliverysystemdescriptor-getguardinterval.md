@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 title: IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetGuardInterval","GetGuardInterval method [Microsoft TV Technologies]","GetGuardInterval method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetGuardInterval method","IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval","IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval","IDvbTerrestrialDeliverySystemDescriptorGetGuardInterval","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval","mstv.idvbterrestrialdeliverysystemdescriptor_getguardinterval"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getguardinterval.htm
 tech.root: mstv
 ms.assetid: e6c3e121-7214-49cc-b88e-6a1269f5bdbd
 ms.date: 12/05/2018
 ms.keywords: GetGuardInterval, GetGuardInterval method [Microsoft TV Technologies], GetGuardInterval method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetGuardInterval method, IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, IDvbTerrestrialDeliverySystemDescriptorGetGuardInterval, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval, mstv.idvbterrestrialdeliverysystemdescriptor_getguardinterval
-f1_keywords:
-- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval
+ - dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 ---
 
 # IDvbTerrestrialDeliverySystemDescriptor::GetGuardInterval
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetGuardInterval</b> method returns the guard interval.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the guard_interval field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbterrestrialdeliverysystemdescriptor">IDvbTerrestrialDeliverySystemDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbterrestrialdeliverysystemdescriptor">IDvbTerrestrialDeliverySystemDescriptor Interface</a>

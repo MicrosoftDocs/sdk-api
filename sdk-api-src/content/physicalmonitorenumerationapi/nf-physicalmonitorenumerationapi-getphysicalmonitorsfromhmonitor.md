@@ -2,15 +2,12 @@
 UID: NF:physicalmonitorenumerationapi.GetPhysicalMonitorsFromHMONITOR
 title: GetPhysicalMonitorsFromHMONITOR function (physicalmonitorenumerationapi.h)
 description: Retrieves the physical monitors associated with an HMONITOR monitor handle.
+helpviewer_keywords: ["GetPhysicalMonitorsFromHMONITOR","GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration]","monitor.getphysicalmonitorsfromhmonitor","physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR"]
 old-location: monitor\getphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: f2ac8a6a-3be9-4155-ad13-c256b96da792
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalMonitorsFromHMONITOR, GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR
-f1_keywords:
-- physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR
-dev_langs:
-- c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- dxva2.dll
-api_name:
-- GetPhysicalMonitorsFromHMONITOR
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPhysicalMonitorsFromHMONITOR
+ - physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - dxva2.dll
+api_name:
+ - GetPhysicalMonitorsFromHMONITOR
 ---
 
 # GetPhysicalMonitorsFromHMONITOR function
@@ -48,51 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the physical monitors associated with an <b>HMONITOR</b> monitor handle.
-
 
 ## -parameters
 
-
-
-
 ### -param hMonitor [in]
 
-A monitor handle. Monitor handles are returned by several Multiple Display Monitor functions, including <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>, which are part of the graphics device interface (GDI).
-          
-
+A monitor handle. Monitor handles are returned by several Multiple Display Monitor functions, including <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> and <a href="/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>, which are part of the graphics device interface (GDI).
 
 ### -param dwPhysicalMonitorArraySize [in]
 
-Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromhmonitor">GetNumberOfPhysicalMonitorsFromHMONITOR</a>.
-          
-
+Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of the array, call <a href="/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-getnumberofphysicalmonitorsfromhmonitor">GetNumberOfPhysicalMonitorsFromHMONITOR</a>.
 
 ### -param pPhysicalMonitorArray [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
-          
-
+Pointer to an array of <a href="/windows/win32/api/physicalmonitorenumerationapi/ns-physicalmonitorenumerationapi-physical_monitor">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
 
 ## -returns
 
-
-
-If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-          
-
-
-
+If the function succeeds, the return value is <b>TRUE</b>. If the function fails, the return value is <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 A single <b>HMONITOR</b> handle can be associated with more than one physical monitor. This function returns a handle and a text description for each physical monitor.
       
 
-When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="https://docs.microsoft.com/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-destroyphysicalmonitors">DestroyPhysicalMonitors</a> function.
+When you are done using the monitor handles, close them by passing the <i>pPhysicalMonitorArray</i> array to the <a href="/windows/desktop/api/physicalmonitorenumerationapi/nf-physicalmonitorenumerationapi-destroyphysicalmonitors">DestroyPhysicalMonitors</a> function.
       
 
 
@@ -135,21 +118,11 @@ if (bSuccess)
 
         // Free the array.
         free(pPhysicalMonitors);
+    }
 }
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Monitor/monitor-configuration-functions">Monitor Configuration Functions</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wtsapi32.WTSGetListenerSecurityA
 title: WTSGetListenerSecurityA function (wtsapi32.h)
-description: Retrieves the security descriptor of a Remote Desktop Services listener.
+description: Retrieves the security descriptor of a Remote Desktop Services listener. (ANSI)
+helpviewer_keywords: ["WTSGetListenerSecurityA", "WTS_SECURITY_ALL_ACCESS", "WTS_SECURITY_CONNECT", "WTS_SECURITY_CURRENT_GUEST_ACCESS", "WTS_SECURITY_CURRENT_USER_ACCESS", "WTS_SECURITY_DISCONNECT", "WTS_SECURITY_GUEST_ACCESS", "WTS_SECURITY_LOGOFF", "WTS_SECURITY_LOGON", "WTS_SECURITY_MESSAGE", "WTS_SECURITY_QUERY_INFORMATION", "WTS_SECURITY_REMOTE_CONTROL", "WTS_SECURITY_RESET", "WTS_SECURITY_SET_INFORMATION", "WTS_SECURITY_USER_ACCESS", "WTS_SECURITY_VIRTUAL_CHANNELS", "wtsapi32/WTSGetListenerSecurityA"]
 old-location: termserv\wtsgetlistenersecurity.htm
 tech.root: TermServ
 ms.assetid: 6e49df9a-679d-4cc1-9297-90cf1e3509fa
 ms.date: 12/05/2018
 ms.keywords: WTSGetListenerSecurity, WTSGetListenerSecurity function [Remote Desktop Services], WTSGetListenerSecurityA, WTSGetListenerSecurityW, WTS_SECURITY_ALL_ACCESS, WTS_SECURITY_CONNECT, WTS_SECURITY_CURRENT_GUEST_ACCESS, WTS_SECURITY_CURRENT_USER_ACCESS, WTS_SECURITY_DISCONNECT, WTS_SECURITY_GUEST_ACCESS, WTS_SECURITY_LOGOFF, WTS_SECURITY_LOGON, WTS_SECURITY_MESSAGE, WTS_SECURITY_QUERY_INFORMATION, WTS_SECURITY_REMOTE_CONTROL, WTS_SECURITY_RESET, WTS_SECURITY_SET_INFORMATION, WTS_SECURITY_USER_ACCESS, WTS_SECURITY_VIRTUAL_CHANNELS, termserv.wtsgetlistenersecurity, wtsapi32/WTSGetListenerSecurity, wtsapi32/WTSGetListenerSecurityA, wtsapi32/WTSGetListenerSecurityW
-f1_keywords:
-- wtsapi32/WTSGetListenerSecurity
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wtsapi32.dll
-api_name:
-- WTSGetListenerSecurity
-- WTSGetListenerSecurityA
-- WTSGetListenerSecurityW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTSGetListenerSecurityA
+ - wtsapi32/WTSGetListenerSecurityA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wtsapi32.dll
+api_name:
+ - WTSGetListenerSecurity
+ - WTSGetListenerSecurityA
+ - WTSGetListenerSecurityW
 ---
 
 # WTSGetListenerSecurityA function
@@ -50,45 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the security descriptor of a Remote Desktop Services listener.
 
-
 ## -parameters
-
-
-
 
 ### -param hServer [in]
 
 A handle to an RD Session Host server. Always set this  parameter to <b>WTS_CURRENT_SERVER_HANDLE</b>.
 
-
 ### -param pReserved [in]
 
 This parameter is reserved. Always set this parameter to <b>NULL</b>.
-
 
 ### -param Reserved [in]
 
 This parameter is reserved. Always set this parameter to zero.
 
-
 ### -param pListenerName [in]
 
 A pointer to a null-terminated string that contains the name of the listener.
 
-
 ### -param SecurityInformation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies the security information  to retrieve. Always enable the  <b>DACL_SECURITY_INFORMATION</b> and <b>SACL_SECURITY_INFORMATION</b> flags.
+A <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> value that specifies the security information  to retrieve. Always enable the  <b>DACL_SECURITY_INFORMATION</b> and <b>SACL_SECURITY_INFORMATION</b> flags.
 
-For more information about possible values, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>.
-
+For more information about possible values, see <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>.
 
 ### -param pSecurityDescriptor [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security information associated with  the listener referenced by the <i>pListenerName</i> parameter. The <b>SECURITY_DESCRIPTOR</b> structure is returned in self-relative format. For more information about possible values, see <b>SECURITY_DESCRIPTOR</b>.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security information associated with  the listener referenced by the <i>pListenerName</i> parameter. The <b>SECURITY_DESCRIPTOR</b> structure is returned in self-relative format. For more information about possible values, see <b>SECURITY_DESCRIPTOR</b>.
 
 
 The discretionary access control list (DACL) of the security descriptor can contain one or more of the following values.
@@ -213,49 +205,36 @@ Combines these values:
 
 The right to use virtual channels.
 
-
 ### -param nLength [in]
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure referenced by the <i>pSecurityDescriptor</i> parameter.
-
+The size, in bytes, of the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure referenced by the <i>pSecurityDescriptor</i> parameter.
 
 ### -param lpnLengthNeeded [out]
 
-A pointer to a variable that receives the number of bytes required to store the complete security descriptor. If this number is less than or equal to the value of the <i>nLength</i> parameter, the security descriptor is copied to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure referenced by the <i>pSecurityDescriptor</i> parameter; otherwise, no action is taken.
-
+A pointer to a variable that receives the number of bytes required to store the complete security descriptor. If this number is less than or equal to the value of the <i>nLength</i> parameter, the security descriptor is copied to the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure referenced by the <i>pSecurityDescriptor</i> parameter; otherwise, no action is taken.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
+If the number of bytes needed for the buffer that receives the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure is unknown, you can call this method with <i>nLength</i> set to zero. The method will then return, in the <i>lpnLengthNeeded</i> parameter, the number of bytes required for the buffer. Allocate the buffer based on this number, and then call the method again, setting <i>pSecurityDescriptor</i> to the newly allocated buffer and <i>nLength</i> to the number returned by the first call.
 
 
-If the number of bytes needed for the buffer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure is unknown, you can call this method with <i>nLength</i> set to zero. The method will then return, in the <i>lpnLengthNeeded</i> parameter, the number of bytes required for the buffer. Allocate the buffer based on this number, and then call the method again, setting <i>pSecurityDescriptor</i> to the newly allocated buffer and <i>nLength</i> to the number returned by the first call.
 
 
 
+> [!NOTE]
+> The wtsapi32.h header defines WTSGetListenerSecurity as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>

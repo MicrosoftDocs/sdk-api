@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspInformations.GetCspStatusesFromOperations
 title: ICspInformations::GetCspStatusesFromOperations (certenroll.h)
 description: Retrieves an ICspStatuses collection by supported key operations and optional provider information.
+helpviewer_keywords: ["GetCspStatusesFromOperations","GetCspStatusesFromOperations method [Security]","GetCspStatusesFromOperations method [Security]","ICspInformations interface","ICspInformations interface [Security]","GetCspStatusesFromOperations method","ICspInformations.GetCspStatusesFromOperations","ICspInformations::GetCspStatusesFromOperations","certenroll/ICspInformations::GetCspStatusesFromOperations","security.icspinformations_getcspstatusesfromoperations_method"]
 old-location: security\icspinformations_getcspstatusesfromoperations_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 7c099357-8299-4664-ba16-7f8936e16054
 ms.date: 12/05/2018
 ms.keywords: GetCspStatusesFromOperations, GetCspStatusesFromOperations method [Security], GetCspStatusesFromOperations method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusesFromOperations method, ICspInformations.GetCspStatusesFromOperations, ICspInformations::GetCspStatusesFromOperations, certenroll/ICspInformations::GetCspStatusesFromOperations, security.icspinformations_getcspstatusesfromoperations_method
-f1_keywords:
-- certenroll/ICspInformations.GetCspStatusesFromOperations
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformations.GetCspStatusesFromOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformations::GetCspStatusesFromOperations
+ - certenroll/ICspInformations::GetCspStatusesFromOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformations.GetCspStatusesFromOperations
 ---
 
 # ICspInformations::GetCspStatusesFromOperations
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetCspStatusesFromOperations</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection by supported key operations and optional provider information. This method is web enabled.
-
+The <b>GetCspStatusesFromOperations</b> method retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection by supported key operations and optional provider information. This method is web enabled.
 
 ## -parameters
 
-
-
-
 ### -param Operations [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-algorithmoperationflags">AlgorithmOperationFlags</a> enumeration value that  specifies the supported operations. This can be a bitwise combination of the following flags:
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-algorithmoperationflags">AlgorithmOperationFlags</a> enumeration value that  specifies the supported operations. This can be a bitwise combination of the following flags:
 
 <ul>
 <li>XCN_NCRYPT_NO_OPERATION</li>
@@ -78,36 +75,22 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenr
 
 ### -param pCspInformation [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface that represents information for a specific provider.
-
+Pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface that represents information for a specific provider.
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> interface that contains the collection.
-
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> interface that contains the collection.
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>

@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingPortMappingProps.get_IPProtocol
 title: INetSharingPortMappingProps::get_IPProtocol (netcon.h)
 description: The get_IPProtocol method retrieves the IP Protocol associated with this port mapping.
+helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_IPProtocol method","INetSharingPortMappingProps.get_IPProtocol","INetSharingPortMappingProps::get_IPProtocol","_ics_inetsharingportmappingprops_get_ipprotocol","get_IPProtocol","get_IPProtocol method [ICS/ICF]","get_IPProtocol method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_ipprotocol","netcon/INetSharingPortMappingProps::get_IPProtocol"]
 old-location: ics\inetsharingportmappingprops_get_ipprotocol.htm
 tech.root: ics
 ms.assetid: a227074e-014b-4b76-b1d7-e1728bd99270
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_IPProtocol method, INetSharingPortMappingProps.get_IPProtocol, INetSharingPortMappingProps::get_IPProtocol, _ics_inetsharingportmappingprops_get_ipprotocol, get_IPProtocol, get_IPProtocol method [ICS/ICF], get_IPProtocol method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_ipprotocol, netcon/INetSharingPortMappingProps::get_IPProtocol
-f1_keywords:
-- netcon/INetSharingPortMappingProps.get_IPProtocol
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingPortMappingProps.get_IPProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingPortMappingProps::get_IPProtocol
+ - netcon/INetSharingPortMappingProps::get_IPProtocol
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingPortMappingProps.get_IPProtocol
 ---
 
 # INetSharingPortMappingProps::get_IPProtocol
@@ -48,17 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_IPProtocol</b> method retrieves the IP Protocol associated with this port mapping.
 
-
 ## -parameters
-
-
-
 
 ### -param pucIPProt [out]
 
@@ -71,10 +68,7 @@ NAT_PROTOCOL_TCP
 
 NAT_PROTOCOL_UDP
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -174,26 +168,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmappingprops">INetSharingPortMappingProps</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmappingprops">INetSharingPortMappingProps</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:traffic.TcSetFlowA
 title: TcSetFlowA function (traffic.h)
-description: The TcSetFlow function sets individual parameters for a given flow.
+description: The TcSetFlow function sets individual parameters for a given flow. (ANSI)
+helpviewer_keywords: ["TcSetFlowA", "traffic/TcSetFlowA"]
 old-location: qos\tcsetflow.htm
 tech.root: QOS
 ms.assetid: 9989e26c-7e79-43b7-a5b8-f203c27b2a1e
 ms.date: 12/05/2018
 ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW
-f1_keywords:
-- traffic/TcSetFlow
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcSetFlow
-- TcSetFlowA
-- TcSetFlowW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcSetFlowA
+ - traffic/TcSetFlowA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcSetFlow
+ - TcSetFlowA
+ - TcSetFlowW
 ---
 
 # TcSetFlowA function
@@ -50,42 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TcSetFlow</b> function sets individual parameters for a given flow.
 
-
 ## -parameters
-
-
-
 
 ### -param pFlowName [in]
 
 Name of the flow being set. The value for this parameter is obtained by a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or the 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
 
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the parameter to be set. A list of available GUIDs can be found in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
-
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
 ### -param BufferSize [in]
 
 Size of the client-provided buffer, in bytes.
 
-
 ### -param Buffer [in]
 
 Pointer to a client-provided buffer. Buffer must contain the value to which the traffic control parameter provided in <i>pGuidParam</i> should be set.
 
-
 ## -returns
-
-
 
 The 
 <b>TcSetFlow</b> function has the following return values.
@@ -173,17 +164,14 @@ The device did not register for this GUID.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use of the 
 <b>TcSetFlow</b> function requires administrative privilege.
 
 
 
+
+> [!NOTE]
+> The traffic.h header defines TcSetFlow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

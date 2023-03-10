@@ -2,15 +2,12 @@
 UID: NF:wincred.CredGetSessionTypes
 title: CredGetSessionTypes function (wincred.h)
 description: The CredGetSessionTypes function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.
+helpviewer_keywords: ["CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_NONE","CRED_PERSIST_SESSION","CredGetSessionTypes","CredGetSessionTypes function [Security]","_cred_credgetsessiontypes","security.credgetsessiontypes","wincred/CredGetSessionTypes"]
 old-location: security\credgetsessiontypes.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 70f8d5e0-235b-4330-8add-566b41c91c17
 ms.date: 12/05/2018
 ms.keywords: CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_NONE, CRED_PERSIST_SESSION, CredGetSessionTypes, CredGetSessionTypes function [Security], _cred_credgetsessiontypes, security.credgetsessiontypes, wincred/CredGetSessionTypes
-f1_keywords:
-- wincred/CredGetSessionTypes
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredGetSessionTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredGetSessionTypes
+ - wincred/CredGetSessionTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredGetSessionTypes
 ---
 
 # CredGetSessionTypes function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredGetSessionTypes</b> function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.
 
-
 ## -parameters
-
-
-
 
 ### -param MaximumPersistCount [in]
 
 Number of elements in the <i>MaximumPersist</i> array. Use CRED_TYPE_MAXIMUM to return all of the currently defined credential types.
-
 
 ### -param MaximumPersist [out]
 
@@ -139,18 +135,11 @@ Any credential can be stored.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
+This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure. The <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function can be called to get a more specific status code. The following status code can be returned:
 
 ERROR_NO_SUCH_LOGON_SESSION
 
 The logon session does not exist or there is no credential set associated with this logon session. Network logon sessions do not have an associated credential set.
-
-
-

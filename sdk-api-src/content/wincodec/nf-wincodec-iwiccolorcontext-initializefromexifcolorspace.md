@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICColorContext.InitializeFromExifColorSpace
 title: IWICColorContext::InitializeFromExifColorSpace (wincodec.h)
 description: Initializes the color context using an Exchangeable Image File (EXIF) color space.
+helpviewer_keywords: ["IWICColorContext interface [Windows Imaging Component]","InitializeFromExifColorSpace method","IWICColorContext.InitializeFromExifColorSpace","IWICColorContext::InitializeFromExifColorSpace","InitializeFromExifColorSpace","InitializeFromExifColorSpace method [Windows Imaging Component]","InitializeFromExifColorSpace method [Windows Imaging Component]","IWICColorContext interface","_wic_codec_iwiccolorcontext_initializefromexifcolorspace","wic._wic_codec_iwiccolorcontext_initializefromexifcolorspace","wincodec/IWICColorContext::InitializeFromExifColorSpace"]
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromexifcolorspace.htm
 tech.root: wic
 ms.assetid: af85abf2-e1cc-4443-9726-a422ba363f71
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromExifColorSpace method, IWICColorContext.InitializeFromExifColorSpace, IWICColorContext::InitializeFromExifColorSpace, InitializeFromExifColorSpace, InitializeFromExifColorSpace method [Windows Imaging Component], InitializeFromExifColorSpace method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefromexifcolorspace, wic._wic_codec_iwiccolorcontext_initializefromexifcolorspace, wincodec/IWICColorContext::InitializeFromExifColorSpace
-f1_keywords:
-- wincodec/IWICColorContext.InitializeFromExifColorSpace
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.lib
-- Windowscodecs.dll
-api_name:
-- IWICColorContext.InitializeFromExifColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICColorContext::InitializeFromExifColorSpace
+ - wincodec/IWICColorContext::InitializeFromExifColorSpace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.lib
+ - Windowscodecs.dll
+api_name:
+ - IWICColorContext.InitializeFromExifColorSpace
 ---
 
 # IWICColorContext::InitializeFromExifColorSpace
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the color context using an Exchangeable Image File (EXIF) color space.
 
-
 ## -parameters
-
-
-
 
 ### -param value [in]
 
@@ -92,26 +89,14 @@ An Adobe RGB color space.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Once a color context has been initialized, it can't be re-initialized.
-
-
-
 

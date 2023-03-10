@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentPhysicalMediaType
 title: IDiscFormat2RawCD::get_CurrentPhysicalMediaType (imapi2.h)
-description: Retrieves the type of media in the disc device.
+description: Retrieves the type of media in the disc device. (IDiscFormat2RawCD.get_CurrentPhysicalMediaType)
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_CurrentPhysicalMediaType method","IDiscFormat2RawCD.get_CurrentPhysicalMediaType","IDiscFormat2RawCD::get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType","get_CurrentPhysicalMediaType method [IMAPI]","get_CurrentPhysicalMediaType method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_currentphysicalmediatype","imapi2/IDiscFormat2RawCD::get_CurrentPhysicalMediaType"]
 old-location: imapi\idiscformat2rawcd_get_currentphysicalmediatype.htm
 tech.root: imapi
 ms.assetid: 76fae45e-c58a-4a25-a2d2-ec99c12374b9
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2RawCD.get_CurrentPhysicalMediaType, IDiscFormat2RawCD::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentphysicalmediatype, imapi2/IDiscFormat2RawCD::get_CurrentPhysicalMediaType
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.get_CurrentPhysicalMediaType
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.get_CurrentPhysicalMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::get_CurrentPhysicalMediaType
+ - imapi2/IDiscFormat2RawCD::get_CurrentPhysicalMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.get_CurrentPhysicalMediaType
 ---
 
 # IDiscFormat2RawCD::get_CurrentPhysicalMediaType
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type of media in the disc device.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-Type of media in the disc device. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>enumeration type.
-
+Type of media in the disc device. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a> enumeration type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -362,26 +356,15 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_supportedmediatypes">IDiscFormat2::get_SupportedMediaTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_supportedmediatypes">IDiscFormat2::get_SupportedMediaTypes</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>

@@ -2,15 +2,12 @@
 UID: NF:windowsx.Edit_GetWordBreakProc
 title: Edit_GetWordBreakProc macro (windowsx.h)
 description: Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the EM_GETWORDBREAKPROC message explicitly.
+helpviewer_keywords: ["Edit_GetWordBreakProc","Edit_GetWordBreakProc macro [Windows Controls]","_win32_Edit_GetWordBreakProc","_win32_Edit_GetWordBreakProc_cpp","controls.Edit_GetWordBreakProc","controls._win32_Edit_GetWordBreakProc","windowsx/Edit_GetWordBreakProc"]
 old-location: controls\Edit_GetWordBreakProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getwordbreakproc.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_GetWordBreakProc, Edit_GetWordBreakProc macro [Windows Controls], _win32_Edit_GetWordBreakProc, _win32_Edit_GetWordBreakProc_cpp, controls.Edit_GetWordBreakProc, controls._win32_Edit_GetWordBreakProc, windowsx/Edit_GetWordBreakProc
-f1_keywords:
-- windowsx/Edit_GetWordBreakProc
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- Edit_GetWordBreakProc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Edit_GetWordBreakProc
+ - windowsx/Edit_GetWordBreakProc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - Edit_GetWordBreakProc
 ---
 
 # Edit_GetWordBreakProc macro
@@ -48,27 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a> message explicitly.
-
+Retrieves the address of an edit or rich edit control's Wordwrap function. You can use this macro or send the <a href="/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
-
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a>.
-
-
-
+For more information, see <a href="/windows/desktop/Controls/em-getwordbreakproc">EM_GETWORDBREAKPROC</a>.

@@ -2,15 +2,12 @@
 UID: NF:pla.ITraceDataProviderCollection.Clear
 title: ITraceDataProviderCollection::Clear (pla.h)
 description: Removes all trace providers from the collection.
+helpviewer_keywords: ["Clear","Clear method [PLA]","Clear method [PLA]","ITraceDataProviderCollection interface","ITraceDataProviderCollection interface [PLA]","Clear method","ITraceDataProviderCollection.Clear","ITraceDataProviderCollection::Clear","base.itracedataprovidercollection_clear","pla.itracedataprovidercollection_clear","pla/ITraceDataProviderCollection::Clear"]
 old-location: pla\itracedataprovidercollection_clear.htm
 tech.root: PLA
 ms.assetid: aee595c2-bffc-4c79-89b3-b83f75e58d89
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Clear method, ITraceDataProviderCollection.Clear, ITraceDataProviderCollection::Clear, base.itracedataprovidercollection_clear, pla.itracedataprovidercollection_clear, pla/ITraceDataProviderCollection::Clear
-f1_keywords:
-- pla/ITraceDataProviderCollection.Clear
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- ITraceDataProviderCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceDataProviderCollection::Clear
+ - pla/ITraceDataProviderCollection::Clear
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - ITraceDataProviderCollection.Clear
 ---
 
 # ITraceDataProviderCollection::Clear
@@ -48,46 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all trace providers from the collection.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns S_OK if successful.
-
-
-
 
 ## -remarks
 
-
-
 Note that by removing the providers from the collection, you are also removing the providers from the trace data collector.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-remove">ITraceDataProviderCollection::Remove</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-remove">ITraceDataProviderCollection::Remove</a>

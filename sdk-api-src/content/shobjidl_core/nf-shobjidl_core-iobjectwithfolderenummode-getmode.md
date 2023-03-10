@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IObjectWithFolderEnumMode.GetMode
 title: IObjectWithFolderEnumMode::GetMode (shobjidl_core.h)
 description: Retrieves the enumeration mode of the parsed item.
+helpviewer_keywords: ["GetMode","GetMode method [Windows Shell]","GetMode method [Windows Shell]","IObjectWithFolderEnumMode interface","IObjectWithFolderEnumMode interface [Windows Shell]","GetMode method","IObjectWithFolderEnumMode.GetMode","IObjectWithFolderEnumMode::GetMode","_shell_IObjectWithFolderEnumMode_GetMode","shell.IObjectWithFolderEnumMode_GetMode","shobjidl_core/IObjectWithFolderEnumMode::GetMode"]
 old-location: shell\IObjectWithFolderEnumMode_GetMode.htm
 tech.root: shell
 ms.assetid: 5d331255-2295-4f7b-b2d6-1238edcc15bb
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [Windows Shell], GetMode method [Windows Shell],IObjectWithFolderEnumMode interface, IObjectWithFolderEnumMode interface [Windows Shell],GetMode method, IObjectWithFolderEnumMode.GetMode, IObjectWithFolderEnumMode::GetMode, _shell_IObjectWithFolderEnumMode_GetMode, shell.IObjectWithFolderEnumMode_GetMode, shobjidl_core/IObjectWithFolderEnumMode::GetMode
-f1_keywords:
-- shobjidl_core/IObjectWithFolderEnumMode.GetMode
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IObjectWithFolderEnumMode.GetMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectWithFolderEnumMode::GetMode
+ - shobjidl_core/IObjectWithFolderEnumMode::GetMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IObjectWithFolderEnumMode.GetMode
 ---
 
 # IObjectWithFolderEnumMode::GetMode
@@ -48,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the enumeration mode of the parsed item.
-
 
 ## -parameters
 
-
-
-
 ### -param pfeMode [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folder_enum_mode">FOLDER_ENUM_MODE</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folder_enum_mode">FOLDER_ENUM_MODE</a>*</b>
 
-Pointer to a value that, when this method returns successfully, receives one of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folder_enum_mode">FOLDER_ENUM_MODE</a> values specifying the enumeration mode.
-
+Pointer to a value that, when this method returns successfully, receives one of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folder_enum_mode">FOLDER_ENUM_MODE</a> values specifying the enumeration mode.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

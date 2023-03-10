@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfUIElementMgr.BeginUIElement
 title: ITfUIElementMgr::BeginUIElement (msctf.h)
 description: The ITfUIElementMgr::BeginUIElement method is called by a text service before showing UI. The value returned determines whether the UI for the text service should be shown or not.
+helpviewer_keywords: ["BeginUIElement","BeginUIElement method [Text Services Framework]","BeginUIElement method [Text Services Framework]","ITfUIElementMgr interface","ITfUIElementMgr interface [Text Services Framework]","BeginUIElement method","ITfUIElementMgr.BeginUIElement","ITfUIElementMgr::BeginUIElement","msctf/ITfUIElementMgr::BeginUIElement","tsf.itfuielementmgr_beginuielement"]
 old-location: tsf\itfuielementmgr_beginuielement.htm
 tech.root: TSF
 ms.assetid: 7c522920-8bd7-4385-b77d-34df26967179
 ms.date: 12/05/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],BeginUIElement method, ITfUIElementMgr.BeginUIElement, ITfUIElementMgr::BeginUIElement, msctf/ITfUIElementMgr::BeginUIElement, tsf.itfuielementmgr_beginuielement
-f1_keywords:
-- msctf/ITfUIElementMgr.BeginUIElement
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfUIElementMgr.BeginUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElementMgr::BeginUIElement
+ - msctf/ITfUIElementMgr::BeginUIElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfUIElementMgr.BeginUIElement
 ---
 
 # ITfUIElementMgr::BeginUIElement
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfUIElementMgr::BeginUIElement</b> method is called by a text service before showing UI. The value returned determines whether the UI for the text service should be shown or not.
-
 
 ## -parameters
 
-
-
-
 ### -param pElement [in]
 
-[in] A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the UIElement object.
-
+[in] A pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfuielement">ITfUIElement</a> interface of the UIElement object.
 
 ### -param pbShow
 
 [in, out] If false is returned, the application may draw the UI by itself and a text service does not show its own UI for this UI element.
 
-
 ### -param pdwUIElementId [out]
 
 [out] A pointer to receive the ID of this UI element.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,12 +115,8 @@ One or more parameters are invalid.
 </dl>
 </td>
 <td width="60%">
-Recursion call of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> interface happened.
+Recursion call of <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> interface happened.
 
 </td>
 </tr>
 </table>
- 
-
-
-

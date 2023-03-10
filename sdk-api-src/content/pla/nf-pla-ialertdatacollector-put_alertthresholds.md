@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IAlertDataCollector.put_AlertThresholds
 title: IAlertDataCollector::put_AlertThresholds (pla.h)
-description: Retrieves or sets a list of performance counters and thresholds to monitor.
+description: Retrieves or sets a list of performance counters and thresholds to monitor. (Put)
+helpviewer_keywords: ["AlertThresholds property [PLA]","AlertThresholds property [PLA]","IAlertDataCollector interface","IAlertDataCollector interface [PLA]","AlertThresholds property","IAlertDataCollector.AlertThresholds","IAlertDataCollector.put_AlertThresholds","IAlertDataCollector::AlertThresholds","IAlertDataCollector::get_AlertThresholds","IAlertDataCollector::put_AlertThresholds","base.ialertdatacollector_alertthresholds","pla.ialertdatacollector_alertthresholds","pla/IAlertDataCollector::AlertThresholds","pla/IAlertDataCollector::get_AlertThresholds","pla/IAlertDataCollector::put_AlertThresholds","put_AlertThresholds"]
 old-location: pla\ialertdatacollector_alertthresholds.htm
 tech.root: PLA
 ms.assetid: e0d504ea-58d4-48fd-9baf-851505d6d3ac
 ms.date: 12/05/2018
 ms.keywords: AlertThresholds property [PLA], AlertThresholds property [PLA],IAlertDataCollector interface, IAlertDataCollector interface [PLA],AlertThresholds property, IAlertDataCollector.AlertThresholds, IAlertDataCollector.put_AlertThresholds, IAlertDataCollector::AlertThresholds, IAlertDataCollector::get_AlertThresholds, IAlertDataCollector::put_AlertThresholds, base.ialertdatacollector_alertthresholds, pla.ialertdatacollector_alertthresholds, pla/IAlertDataCollector::AlertThresholds, pla/IAlertDataCollector::get_AlertThresholds, pla/IAlertDataCollector::put_AlertThresholds, put_AlertThresholds
-f1_keywords:
-- pla/IAlertDataCollector.AlertThresholds
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IAlertDataCollector.AlertThresholds
-- IAlertDataCollector.get_AlertThresholds
-- IAlertDataCollector.put_AlertThresholds
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAlertDataCollector::put_AlertThresholds
+ - pla/IAlertDataCollector::put_AlertThresholds
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IAlertDataCollector.AlertThresholds
+ - IAlertDataCollector.get_AlertThresholds
+ - IAlertDataCollector.put_AlertThresholds
 ---
 
 # IAlertDataCollector::put_AlertThresholds
@@ -50,38 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets a list of performance counters and thresholds to monitor. 
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 You must specify at least one alert threshold. If the counter value crosses the specified threshold value, PLA performs one or more of the following actions:
 
 <ul>
-<li>Logs event 2031 to the  Microsoft-Windows-Diagnosis-PLA/Operational event log if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_eventlog">IAlertDataCollector::EventLog</a>  property is true.</li>
-<li>Starts the task in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_task">IAlertDataCollector::Task</a>  property, if specified.</li>
-<li>Triggers the data collector set specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_triggerdatacollectorset">IAlertDataCollector::TriggerDataCollectorSet</a>  property to run, if specified.</li>
+<li>Logs event 2031 to the  Microsoft-Windows-Diagnosis-PLA/Operational event log if the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_eventlog">IAlertDataCollector::EventLog</a>  property is true.</li>
+<li>Starts the task in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_task">IAlertDataCollector::Task</a>  property, if specified.</li>
+<li>Triggers the data collector set specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ialertdatacollector-get_triggerdatacollectorset">IAlertDataCollector::TriggerDataCollectorSet</a>  property to run, if specified.</li>
 </ul>
 If you use XML to define the alert, you must use "&amp;gt;" for the greater than sign (&gt;) and "&amp;lt;" for the less than sign (&lt;).
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>

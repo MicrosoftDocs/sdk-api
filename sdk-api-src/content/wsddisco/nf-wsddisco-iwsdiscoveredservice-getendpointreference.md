@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetEndpointReference
 title: IWSDiscoveredService::GetEndpointReference (wsddisco.h)
 description: Retrieves a WS-Addressing address referencing an endpoint of the remote device.
+helpviewer_keywords: ["GetEndpointReference","GetEndpointReference method","GetEndpointReference method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetEndpointReference method","IWSDiscoveredService.GetEndpointReference","IWSDiscoveredService::GetEndpointReference","ncd.iwsdiscoveredservice_getendpointreference","wsddisco/IWSDiscoveredService::GetEndpointReference"]
 old-location: ncd\iwsdiscoveredservice_getendpointreference.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 656ff77d-765e-4c30-8e5d-560d121dc368
 ms.date: 12/05/2018
 ms.keywords: GetEndpointReference, GetEndpointReference method, GetEndpointReference method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetEndpointReference method, IWSDiscoveredService.GetEndpointReference, IWSDiscoveredService::GetEndpointReference, ncd.iwsdiscoveredservice_getendpointreference, wsddisco/IWSDiscoveredService::GetEndpointReference
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetEndpointReference
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetEndpointReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetEndpointReference
+ - wsddisco/IWSDiscoveredService::GetEndpointReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetEndpointReference
 ---
 
 # IWSDiscoveredService::GetEndpointReference
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a WS-Addressing address referencing an endpoint of the remote device.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEndpointReference [out]
 
-A WS-Addressing address referencing an endpoint of the remote device. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>. Do not deallocate the output structure.
-
+A WS-Addressing address referencing an endpoint of the remote device. For details, see <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a>. Do not deallocate the output structure.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +95,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
-
-
-
+The resulting pointer value is only valid for the lifetime of the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

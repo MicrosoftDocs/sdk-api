@@ -2,15 +2,12 @@
 UID: NF:cryptuiapi.CryptUIWizImport
 title: CryptUIWizImport function (cryptuiapi.h)
 description: Imports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a certificate store.
+helpviewer_keywords: ["CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS","CRYPTUI_WIZ_IMPORT_ALLOW_CERT","CRYPTUI_WIZ_IMPORT_ALLOW_CRL","CRYPTUI_WIZ_IMPORT_ALLOW_CTL","CRYPTUI_WIZ_IMPORT_NO_CHANGE_DEST_STORE","CRYPTUI_WIZ_IMPORT_REMOTE_DEST_STORE","CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER","CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE","CRYPTUI_WIZ_NO_UI","CRYPTUI_WIZ_NO_UI_EXCEPT_CSP","CryptUIWizImport","CryptUIWizImport function [Security]","cryptuiapi/CryptUIWizImport","security.cryptuiwizimport"]
 old-location: security\cryptuiwizimport.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6b2b9c89-229a-4626-a8b4-fe2b7cc0af86
 ms.date: 12/05/2018
 ms.keywords: CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS, CRYPTUI_WIZ_IMPORT_ALLOW_CERT, CRYPTUI_WIZ_IMPORT_ALLOW_CRL, CRYPTUI_WIZ_IMPORT_ALLOW_CTL, CRYPTUI_WIZ_IMPORT_NO_CHANGE_DEST_STORE, CRYPTUI_WIZ_IMPORT_REMOTE_DEST_STORE, CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER, CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE, CRYPTUI_WIZ_NO_UI, CRYPTUI_WIZ_NO_UI_EXCEPT_CSP, CryptUIWizImport, CryptUIWizImport function [Security], cryptuiapi/CryptUIWizImport, security.cryptuiwizimport
-f1_keywords:
-- cryptuiapi/CryptUIWizImport
-dev_langs:
-- c++
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cryptui.lib
 req.dll: Cryptui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptui.dll
-api_name:
-- CryptUIWizImport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptUIWizImport
+ - cryptuiapi/CryptUIWizImport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptui.dll
+api_name:
+ - CryptUIWizImport
 ---
 
 # CryptUIWizImport function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The  function imports a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a>, a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL), a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> to a certificate store. The import can be performed with or without user interaction.
-
+The  function imports a <a href="/windows/desktop/SecGloss/c-gly">certificate</a>, a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL), a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL), or a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> to a certificate store. The import can be performed with or without user interaction.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -75,9 +72,9 @@ The  function imports a <a href="https://docs.microsoft.com/windows/desktop/SecG
 </dl>
 </td>
 <td width="60%">
-This function will perform the import based on the information in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure pointed to by <i>pImportSrc</i> into the store specified by <i>hDestCertStore</i> without displaying any user interface. If this flag is not specified, this function will display a wizard to guide the user through the import process.
+This function will perform the import based on the information in the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure pointed to by <i>pImportSrc</i> into the store specified by <i>hDestCertStore</i> without displaying any user interface. If this flag is not specified, this function will display a wizard to guide the user through the import process.
 
-Beginning with Windows 8 and Windows Server 2012, if you set this flag and are importing a certificate from a PFX BLOB that was protected to an Active Directory (AD) principal, and the current user, as part of that principal, has permission to decrypt the password embedded in the PFX packet, the importation will succeed without requiring that a password be set in the <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure. For more information about protecting PFX to an AD principal, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.
+Beginning with Windows 8 and Windows Server 2012, if you set this flag and are importing a certificate from a PFX BLOB that was protected to an Active Directory (AD) principal, and the current user, as part of that principal, has permission to decrypt the password embedded in the PFX packet, the importation will succeed without requiring that a password be set in the <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure. For more information about protecting PFX to an AD principal, see the <i>pvPara</i> parameter and the <b>PKCS12_PROTECT_TO_DOMAIN_SIDS</b> flag of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-pfxexportcertstoreex">PFXExportCertStoreEx</a> function.
 
 </td>
 </tr>
@@ -88,7 +85,7 @@ Beginning with Windows 8 and Windows Server 2012, if you set this flag and are
 </dl>
 </td>
 <td width="60%">
-Suppress all user interfaces generated by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs). This option can be overridden by the <b>CRYPTUI_WIZ_NO_UI_EXCEPT_CSP</b> option.
+Suppress all user interfaces generated by <a href="/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs). This option can be overridden by the <b>CRYPTUI_WIZ_NO_UI_EXCEPT_CSP</b> option.
 
 </td>
 </tr>
@@ -185,44 +182,31 @@ Import the object to a remote certificate store.  Set this flag if the <i>hDestC
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hwndParent [in]
 
 The handle of the window to use as the parent of the dialog box that  this function creates. This parameter is ignored if the <b>CRYPTUI_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>.
 
-
 ### -param pwszWizardTitle [in]
 
 A pointer to a null-terminated Unicode string that contains the title to use in the dialog box that this function creates. This parameter is ignored if the <b>CRYPTUI_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>.
 
-
 ### -param pImportSrc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure that contains information about the object to import. This parameter is required if <b>CRYPTUI_WIZ_NO_UI</b> is set in <i>dwFlags</i> and is optional otherwise.
-
+A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a> structure that contains information about the object to import. This parameter is required if <b>CRYPTUI_WIZ_NO_UI</b> is set in <i>dwFlags</i> and is optional otherwise.
 
 ### -param hDestCertStore [in]
 
 A handle to the certificate store to import to. If this parameter is <b>NULL</b> and the <b>CRYPTUI_WIZ_NO_UI</b> flag is not set in <i>dwFlags</i>, the wizard will prompt the user to select a certificate store.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
-
-
 
 If none of following three flags are set in <i>dwFlags</i>, import of any type of content is allowed:
 
@@ -231,28 +215,19 @@ If none of following three flags are set in <i>dwFlags</i>, import of any type o
 <li>CRYPTUI_WIZ_IMPORT_ALLOW_CRL</li>
 <li>CRYPTUI_WIZ_IMPORT_ALLOW_CTL</li>
 </ul>
-The <b>CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE</b> and <b>CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER</b>flags are used to force the content of a PFX <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> into either the local machine store or the current user store.
+The <b>CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE</b> and <b>CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER</b> flags are used to force the content of a PFX <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> into either the local machine store or the current user store.
 If neither of these flags are set and <i>hDestCertStore</i> is <b>NULL</b>:
 
 <ul>
-<li>The private key in the PFX <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> will be forced to be imported into the current user store.</li>
+<li>The private key in the PFX <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> will be forced to be imported into the current user store.</li>
 <li>And if <b>CRYPTUI_WIZ_NO_UI</b> is not set, the wizard prompts the user to select a certificate 
 store from among the current user certificate stores.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_import_src_info">CRYPTUI_WIZ_IMPORT_SRC_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>

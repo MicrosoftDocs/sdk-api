@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.FontCollection.GetFamilyCount
 title: FontCollection::GetFamilyCount (gdiplusheaders.h)
 description: The FontCollection::GetFamilyCount method gets the number of font families contained in this font collection.
+helpviewer_keywords: ["FontCollection class [GDI+]","GetFamilyCount method","FontCollection.GetFamilyCount","FontCollection::GetFamilyCount","GetFamilyCount","GetFamilyCount method [GDI+]","GetFamilyCount method [GDI+]","FontCollection class","_gdiplus_CLASS_FontCollection_GetFamilyCount_","gdiplus._gdiplus_CLASS_FontCollection_GetFamilyCount_"]
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilyCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getfamilycount.htm
 ms.date: 12/05/2018
 ms.keywords: FontCollection class [GDI+],GetFamilyCount method, FontCollection.GetFamilyCount, FontCollection::GetFamilyCount, GetFamilyCount, GetFamilyCount method [GDI+], GetFamilyCount method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetFamilyCount_, gdiplus._gdiplus_CLASS_FontCollection_GetFamilyCount_
-f1_keywords:
-- gdiplusheaders/FontCollection.GetFamilyCount
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- FontCollection.GetFamilyCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - FontCollection::GetFamilyCount
+ - gdiplusheaders/FontCollection::GetFamilyCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - FontCollection.GetFamilyCount
 ---
 
 # FontCollection::GetFamilyCount
@@ -49,32 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FontCollection::GetFamilyCount</b> method gets the number of font families contained in this font collection.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of font families contained in this font collection.
 
-
-
-
 ## -remarks
-
-
 
 A font family consists of a single font type with related styles. An example of a single font type is Arial Regular. An example of a font family is a set of fonts containing Arial Regular, Arial Italic, and Arial Bold style fonts.
 
@@ -83,8 +70,8 @@ A font family consists of a single font type with related styles. An example of 
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object, gets the number of 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> objects contained within the collection, and outputs that number.
+The following example creates a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object, gets the number of 
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> objects contained within the collection, and outputs that number.
 
 
 ```cpp
@@ -111,25 +98,14 @@ VOID Example_GetFamilyCount(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontcollection">FontCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontcollection">FontCollection</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>

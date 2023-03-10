@@ -2,15 +2,12 @@
 UID: NI:winioctl.FSCTL_TXFS_GET_TRANSACTED_VERSION
 title: FSCTL_TXFS_GET_TRANSACTED_VERSION
 description: Returns a TXFS_GET_TRANSACTED_VERSION structure. The structure identifies the most recently committed version of the specified file, the version number of the handle.
+helpviewer_keywords: ["FSCTL_TXFS_GET_TRANSACTED_VERSION","FSCTL_TXFS_GET_TRANSACTED_VERSION control","FSCTL_TXFS_GET_TRANSACTED_VERSION control code [Files]","fs.fsctl_txfs_get_transacted_version","winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION"]
 old-location: fs\fsctl_txfs_get_transacted_version.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 71864348-1266-4ac5-a4b5-b9aaff52b0c5
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_GET_TRANSACTED_VERSION, FSCTL_TXFS_GET_TRANSACTED_VERSION control, FSCTL_TXFS_GET_TRANSACTED_VERSION control code [Files], fs.fsctl_txfs_get_transacted_version, winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION
-f1_keywords:
-- winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_TXFS_GET_TRANSACTED_VERSION
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_TXFS_GET_TRANSACTED_VERSION
+ - winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_TXFS_GET_TRANSACTED_VERSION
 ---
 
 # FSCTL_TXFS_GET_TRANSACTED_VERSION IOCTL
@@ -47,142 +49,60 @@ req.redist:
 
 ## -description
 
+> [!NOTE]
+> Microsoft strongly recommends developers utilize alternative means to achieve your application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more information, and alternatives to TxF, please see [Alternatives to using Transactional NTFS](/windows/desktop/FileIO/deprecation-of-txf).
 
-<p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
-    application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
-    available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
-    information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+Returns a [TXFS_GET_TRANSACTED_VERSION](ns-winioctl-txfs_get_transacted_version.md) structure.  The structure identifies the most recently committed version of the specified file, the version number of the handle. 
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a> structure.  The structure identifies the most recently committed version of the specified file, the version number of the handle. 
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
-To perform this operation, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,              // handle to device
-  FSCTL_TXFS_GET_TRANSACTED_VERSION, // dwIoControlCodeNULL,                          // lpInBuffer0,                             // nInBufferSize(LPVOID) lpOutBuffer,          // output buffer
-  (DWORD) nOutBufferSize,        // size of output buffer
-  (LPDWORD) lpBytesReturned,     // number of bytes returned
-  NULL    // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,                     // handle to device
+  FSCTL_TXFS_GET_TRANSACTED_VERSION,    // dwIoControlCode
+  NULL,                                 // lpInBuffer
+  0,                                    // nInBufferSize
+  (LPVOID) lpOutBuffer,                 // output buffer
+  (DWORD) nOutBufferSize,               // size of output buffer
+  (LPDWORD) lpBytesReturned,            // number of bytes returned
+  NULL                                  // OVERLAPPED structure
+);
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
+**FSCTL_TXFS_GET_TRANSACTED_VERSION** is a synchronous operation.
 
+This control code can be use to track the latest version of a base file. For a specified handle, the base version is always the base value returned when the handle was opened, but the latest version changes based on any commit operations another transaction makes.  If handle is then closed and opened again, base version and latest version are updated to new values and any subsequent commit operations from the other transaction change the latest version.
 
-<b>FSCTL_TXFS_GET_TRANSACTED_VERSION</b> is 
-    a synchronous operation.
+If you attempt to retrieve the version of a resource manager's root, the value **TXFS_TRANSACTED_VERSION_NONTRANSACTED** is returned.
 
-This control code can be use to track the latest version of a base file. For a specified handle, the base 
-    version is always the base value returned when the handle was opened, but the latest version changes based on any 
-    commit operations another transaction makes.  If handle is then closed and opened again, base version and latest 
-    version are updated to new values and any subsequent commit operations from the other transaction  change the 
-    latest version.
-
-If you attempt to retrieve the version of a resource manager's root, the value 
-    <b>TXFS_TRANSACTED_VERSION_NONTRANSACTED</b> is returned.
-
-<b>ReFS:  </b>This code is not supported.
-
-
-
+**ReFS:**  This code is not supported.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-txfs_get_transacted_version">TXFS_GET_TRANSACTED_VERSION</a>
- 
-
- 
-
+* [CreateFile](../fileapi/nf-fileapi-createfilea.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [TXFS_GET_TRANSACTED_VERSION](ns-winioctl-txfs_get_transacted_version.md)

@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprConfigInterfaceSetCustomInfoEx
 title: MprConfigInterfaceSetCustomInfoEx function (mprapi.h)
 description: Sets the custom IKEv2 policy configuration for the specified interface.
+helpviewer_keywords: ["MprConfigInterfaceSetCustomInfoEx","MprConfigInterfaceSetCustomInfoEx function [RAS]","mprapi/MprConfigInterfaceSetCustomInfoEx","rras.mprconfiginterfacesetcustominfoex"]
 old-location: rras\mprconfiginterfacesetcustominfoex.htm
 tech.root: RRAS
 ms.assetid: fff18156-ba94-45b7-86c2-a604823a9b08
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceSetCustomInfoEx, MprConfigInterfaceSetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceSetCustomInfoEx, rras.mprconfiginterfacesetcustominfoex
-f1_keywords:
-- mprapi/MprConfigInterfaceSetCustomInfoEx
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigInterfaceSetCustomInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigInterfaceSetCustomInfoEx
+ - mprapi/MprConfigInterfaceSetCustomInfoEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigInterfaceSetCustomInfoEx
 ---
 
 # MprConfigInterfaceSetCustomInfoEx function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the custom IKEv2 policy configuration for the specified interface.
-
 
 ## -parameters
 
-
-
-
 ### -param hMprConfig [in]
 
-The handle to the router configuration. Obtain this handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a> function.
-
+The handle to the router configuration. Obtain this handle by calling the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a> function.
 
 ### -param hRouterInterface [in]
 
-The handle to the interface configuration being updated. Obtain this handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacecreate">MprConfigInterfaceCreate</a> function, the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegethandle">MprConfigInterfaceGetHandle</a> function, or the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a> function.
-
+The handle to the interface configuration being updated. Obtain this handle by calling the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacecreate">MprConfigInterfaceCreate</a> function, the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegethandle">MprConfigInterfaceGetHandle</a> function, or the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a> function.
 
 ### -param pCustomInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>  structure.
-
+A pointer to a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_if_custominfoex0">MPR_IF_CUSTOMINFOEX</a>  structure.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>. If the function fails, the return value is one of the following error codes.
 
@@ -112,22 +104,11 @@ The interface that corresponds to <i>hRouterInterface</i> is not present in the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

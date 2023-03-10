@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.GetQuotaState
 title: IDiskQuotaControl::GetQuotaState (dskquota.h)
 description: Retrieves a set of flags describing the state of the quota system.
+helpviewer_keywords: ["DISKQUOTA_FILESTATE_INCOMPLETE","DISKQUOTA_FILESTATE_REBUILDING","DISKQUOTA_STATE_DISABLED","DISKQUOTA_STATE_ENFORCE","DISKQUOTA_STATE_TRACK","GetQuotaState","GetQuotaState method [Files]","GetQuotaState method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetQuotaState method","IDiskQuotaControl.GetQuotaState","IDiskQuotaControl::GetQuotaState","_win32_idiskquotacontrol_getquotastate","base.idiskquotacontrol_getquotastate","dskquota/IDiskQuotaControl::GetQuotaState","fs.idiskquotacontrol_getquotastate"]
 old-location: fs\idiskquotacontrol_getquotastate.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1e35be3e-095a-4299-933d-6ebf3ccc5a1c
 ms.date: 12/05/2018
 ms.keywords: DISKQUOTA_FILESTATE_INCOMPLETE, DISKQUOTA_FILESTATE_REBUILDING, DISKQUOTA_STATE_DISABLED, DISKQUOTA_STATE_ENFORCE, DISKQUOTA_STATE_TRACK, GetQuotaState, GetQuotaState method [Files], GetQuotaState method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetQuotaState method, IDiskQuotaControl.GetQuotaState, IDiskQuotaControl::GetQuotaState, _win32_idiskquotacontrol_getquotastate, base.idiskquotacontrol_getquotastate, dskquota/IDiskQuotaControl::GetQuotaState, fs.idiskquotacontrol_getquotastate
-f1_keywords:
-- dskquota/IDiskQuotaControl.GetQuotaState
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.GetQuotaState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::GetQuotaState
+ - dskquota/IDiskQuotaControl::GetQuotaState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.GetQuotaState
 ---
 
 # IDiskQuotaControl::GetQuotaState
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a set of flags describing the state of the quota system.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwState [out]
 
@@ -122,12 +119,8 @@ Quotas are enabled but the limit value is not being enforced. Users may exceed t
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -214,26 +207,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

@@ -2,15 +2,12 @@
 UID: NF:devicetopology.IAudioInputSelector.GetSelection
 title: IAudioInputSelector::GetSelection (devicetopology.h)
 description: The GetSelection method gets the local ID of the part that is connected to the selector input that is currently selected.
+helpviewer_keywords: ["GetSelection","GetSelection method [Core Audio]","GetSelection method [Core Audio]","IAudioInputSelector interface","IAudioInputSelector interface [Core Audio]","GetSelection method","IAudioInputSelector.GetSelection","IAudioInputSelector::GetSelection","IAudioInputSelectorGetSelection","coreaudio.iaudioinputselector_getselection","devicetopology/IAudioInputSelector::GetSelection"]
 old-location: coreaudio\iaudioinputselector_getselection.htm
 tech.root: CoreAudio
 ms.assetid: 38288a63-62a3-4b06-b2e6-dbe8c27e09ad
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Core Audio], GetSelection method [Core Audio],IAudioInputSelector interface, IAudioInputSelector interface [Core Audio],GetSelection method, IAudioInputSelector.GetSelection, IAudioInputSelector::GetSelection, IAudioInputSelectorGetSelection, coreaudio.iaudioinputselector_getselection, devicetopology/IAudioInputSelector::GetSelection
-f1_keywords:
-- devicetopology/IAudioInputSelector.GetSelection
-dev_langs:
-- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Devicetopology.h
-api_name:
-- IAudioInputSelector.GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioInputSelector::GetSelection
+ - devicetopology/IAudioInputSelector::GetSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Devicetopology.h
+api_name:
+ - IAudioInputSelector.GetSelection
 ---
 
 # IAudioInputSelector::GetSelection
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The GetSelection method gets the local ID of the part that is connected to the selector input that is currently selected.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pnIdSelected [out]
 
 Pointer to a <b>UINT</b> variable into which the method writes the local ID of the part that directly links to the currently selected selector input.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -88,35 +79,19 @@ Pointer <i>pnIdSelected</i> is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A local ID is a number that uniquely identifies a part among all parts in a device topology. To obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of a part from its local ID, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a> method.
-
-
-
+A local ID is a number that uniquely identifies a part among all parts in a device topology. To obtain a pointer to the <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart</a> interface of a part from its local ID, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioinputselector">IAudioInputSelector Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudioinputselector">IAudioInputSelector Interface</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getpartbyid">IDeviceTopology::GetPartById</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireSource.GetItemAt
 title: IPhotoAcquireSource::GetItemAt (photoacquire.h)
 description: The GetItemAt method retrieves the IPhotoAcquireItem object at the given index in the list of items.
+helpviewer_keywords: ["GetItemAt","GetItemAt method [Picture Acquisition]","GetItemAt method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetItemAt method","IPhotoAcquireSource.GetItemAt","IPhotoAcquireSource::GetItemAt","IPhotoAcquireSourceGetItemAt","photoacquire/IPhotoAcquireSource::GetItemAt","picacq.iphotoacquiresource_getitemat"]
 old-location: picacq\iphotoacquiresource_getitemat.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: c066464b-1d88-4d43-8bfd-0f60f21db5fd
 ms.date: 12/05/2018
 ms.keywords: GetItemAt, GetItemAt method [Picture Acquisition], GetItemAt method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetItemAt method, IPhotoAcquireSource.GetItemAt, IPhotoAcquireSource::GetItemAt, IPhotoAcquireSourceGetItemAt, photoacquire/IPhotoAcquireSource::GetItemAt, picacq.iphotoacquiresource_getitemat
-f1_keywords:
-- photoacquire/IPhotoAcquireSource.GetItemAt
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSource.GetItemAt
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSource::GetItemAt
+ - photoacquire/IPhotoAcquireSource::GetItemAt
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSource.GetItemAt
 ---
 
 # IPhotoAcquireSource::GetItemAt
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <code>GetItemAt</code> method retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object at the given index in the list of items.
-
-
-
+The <code>GetItemAt</code> method retrieves the <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object at the given index in the list of items.
 
 ## -parameters
-
-
-
 
 ### -param nIndex [in]
 
 Integer value containing the index.
 
-
 ### -param ppPhotoAcquireItem [out]
 
-Pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object.
-
+Pointer to the address of an <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -94,27 +84,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">InitializeItemList</a> to initialize the item list.
-
-
-
+Before calling this method, call <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">InitializeItemList</a> to initialize the item list.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>

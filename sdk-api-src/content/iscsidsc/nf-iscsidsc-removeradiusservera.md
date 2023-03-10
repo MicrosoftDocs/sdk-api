@@ -1,16 +1,13 @@
 ---
 UID: NF:iscsidsc.RemoveRadiusServerA
 title: RemoveRadiusServerA function (iscsidsc.h)
-description: RemoveRadiusServer function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured.
+description: RemoveRadiusServer function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured. (ANSI)
+helpviewer_keywords: ["RemoveRadiusServerA", "iscsidsc/RemoveRadiusServerA"]
 old-location: iscsidisc\removeradiusserver.htm
 tech.root: iSCSIDisc
 ms.assetid: e096a91b-84de-4b7d-a0d6-1364746ec488
 ms.date: 12/05/2018
 ms.keywords: RemoveRadiusServer, RemoveRadiusServer function [iSCSI Discovery Library API], RemoveRadiusServerA, RemoveRadiusServerW, iscsidisc.removeradiusserver, iscsidsc/RemoveRadiusServer, iscsidsc/RemoveRadiusServerA, iscsidsc/RemoveRadiusServerW
-f1_keywords:
-- iscsidsc/RemoveRadiusServer
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- RemoveRadiusServer
-- RemoveRadiusServerA
-- RemoveRadiusServerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveRadiusServerA
+ - iscsidsc/RemoveRadiusServerA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - RemoveRadiusServer
+ - RemoveRadiusServerA
+ - RemoveRadiusServerW
 ---
 
 # RemoveRadiusServerA function
@@ -50,36 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RemoveRadiusServer</b> function removes a Remote Authentication Dial-In User Service (RADIUS) server entry from the RADIUS server list with which an iSCSI initiator is configured.
 
-
 ## -parameters
-
-
-
 
 ### -param Address [in]
 
 A string that represents the IP address or RADIUS server name.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> if the operation is successful. If the operation fails due to a socket connection error, this function will return a Winsock error code.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addradiusservera">AddRadiusServer</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addradiusservera">AddRadiusServer</a>
- 
-
- 
-
+> [!NOTE]
+> The iscsidsc.h header defines RemoveRadiusServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

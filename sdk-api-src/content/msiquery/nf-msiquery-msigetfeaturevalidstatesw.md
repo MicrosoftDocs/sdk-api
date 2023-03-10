@@ -1,16 +1,13 @@
 ---
 UID: NF:msiquery.MsiGetFeatureValidStatesW
 title: MsiGetFeatureValidStatesW function (msiquery.h)
-description: The MsiGetFeatureValidStates function returns a valid installation state.
+description: The MsiGetFeatureValidStates function returns a valid installation state. (Unicode)
+helpviewer_keywords: ["16", "2", "32", "4", "8", "MsiGetFeatureValidStates", "MsiGetFeatureValidStates function", "MsiGetFeatureValidStatesW", "_msi_msigetfeaturevalidstates", "msiquery/MsiGetFeatureValidStates", "msiquery/MsiGetFeatureValidStatesW", "setup.msigetfeaturevalidstates"]
 old-location: setup\msigetfeaturevalidstates.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
 ms.date: 12/05/2018
 ms.keywords: 16, 2, 32, 4, 8, MsiGetFeatureValidStates, MsiGetFeatureValidStates function, MsiGetFeatureValidStatesA, MsiGetFeatureValidStatesW, _msi_msigetfeaturevalidstates, msiquery/MsiGetFeatureValidStates, msiquery/MsiGetFeatureValidStatesA, msiquery/MsiGetFeatureValidStatesW, setup.msigetfeaturevalidstates
-f1_keywords:
-- msiquery/MsiGetFeatureValidStates
-dev_langs:
-- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetFeatureValidStates
-- MsiGetFeatureValidStatesA
-- MsiGetFeatureValidStatesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetFeatureValidStatesW
+ - msiquery/MsiGetFeatureValidStatesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetFeatureValidStates
+ - MsiGetFeatureValidStatesA
+ - MsiGetFeatureValidStatesW
 ---
 
 # MsiGetFeatureValidStatesW function
@@ -50,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetFeatureValidStates</b> function returns a valid installation state.
 
-
 ## -parameters
-
-
-
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
-
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param szFeature [in]
 
 Specifies the feature name.
-
 
 ### -param lpInstallStates [out]
 
@@ -135,25 +130,16 @@ The feature can be configured to use the default location: local or source.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>MsiGetFeatureValidStates</b> function returns the following values:
 
-
-
-
 ## -remarks
 
-
-
 See 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
+<a href="/windows/desktop/Msi/calling-database-functions-from-programs">Calling Database Functions From Programs</a>.
 
 The <b>MsiGetFeatureValidStates</b> function determines state validity by querying all components that are linked to the specified feature without taking into account the current installed state of any component.  
 
@@ -172,27 +158,28 @@ After calling
 <b>MsiGetFeatureValidStates</b> a conditional statement may then be used to test the valid installation states of a feature. For example, the following call to 
 <b>MsiGetFeatureValidStates</b> gets the installation state of Feature1.
 
-<pre class="syntax" xml:space="preserve"><code>MsiGetFeatureValidStates(hProduct, "Feature1", &amp;dwValidStates);</code></pre>
+
+``` syntax
+MsiGetFeatureValidStates(hProduct, "Feature1", &amp;dwValidStates);
+```
+
 If Feature1 has attributes of value 0 (favor local), and Feature1 has one component with attributes of value 0 (local only), the value of dwValidStates after the call is 14. This indicates that INSTALLSTATE_LOCAL, INSTALLSTATE_ABSENT,and INSTALLSTATE_ADVERTISED are valid states for Feature1. The following conditional statement evaluates to True if local is a valid state for this feature.
 
 ( ( dwValidStates &amp; ( 1 &lt;&lt; INSTALLSTATE_LOCAL ) ) == ( 1 &lt;&lt; INSTALLSTATE_LOCAL ) )
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiGetFeatureValidStates as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>

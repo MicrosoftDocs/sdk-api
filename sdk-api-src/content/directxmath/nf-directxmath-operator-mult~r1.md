@@ -1,14 +1,12 @@
 ---
 UID: NF:directxmath.operator-mult~r1
-title: operator*
+title: operator* (multiply)
 description: Multiply an instance of XMVECTOR by a floating point value, returning the result a new instance of XMVECTOR.
+tech.root: dxmath
+helpviewer_keywords: ["operator*"]
 ms.assetid: ebfb61d9-0b98-4e89-a196-bb43881c7252
 ms.date: 05/13/2019
 ms.keywords: operator*
-f1_keywords:
-- directxmath/operator*
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,23 +27,28 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - operator*
+ - directxmath/operator*
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- operator*
+ - operator*
 ---
 
 # operator *(XMVECTOR, float)
+
 
 ## -description
 
 Multiply an instance of **XMVECTOR** by a floating point value, returning the result a new instance of **XMVECTOR**.
 
-The `operator *` multiplies each component of an instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by a floating point value, returning a new **XMVECTOR** instance whose components contain the result.
+The `operator *` multiplies each component of an instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by a floating point value, returning a new **XMVECTOR** instance whose components contain the result.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -79,4 +82,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

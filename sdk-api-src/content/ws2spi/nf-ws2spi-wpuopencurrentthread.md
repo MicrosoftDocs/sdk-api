@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUOpenCurrentThread
 title: WPUOpenCurrentThread function (ws2spi.h)
 description: The WPUOpenCurrentThread function opens a handle to the current thread that can be used with overlapped functions in a layered service provider.
+helpviewer_keywords: ["WPUOpenCurrentThread","WPUOpenCurrentThread function [Winsock]","_win32_wpuopencurrentthread_2","winsock.wpuopencurrentthread_2","ws2spi/WPUOpenCurrentThread"]
 old-location: winsock\wpuopencurrentthread_2.htm
 tech.root: WinSock
 ms.assetid: 92d21f29-240f-407e-89a7-bbbb8f9bf0eb
 ms.date: 12/05/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
-f1_keywords:
-- ws2spi/WPUOpenCurrentThread
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUOpenCurrentThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUOpenCurrentThread
+ - ws2spi/WPUOpenCurrentThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUOpenCurrentThread
 ---
 
 # WPUOpenCurrentThread function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUOpenCurrentThread** function opens a handle to the current thread that can be used with overlapped functions in a layered service provider. This is intended to be used by layered service providers that wish to initiate overlapped I/O from nonapplication threads.
 
-
 ## -parameters
-
-
-
 
 ### -param lpThreadId [out]
 
 Pointer to a 
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WPUOpenCurrentThread** returns the zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -101,13 +94,7 @@ A successful
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 **WPUOpenCurrentThread** function provides a pointer to a 
@@ -125,13 +112,7 @@ Every call to
 **WPUOpenCurrentThread** must have a corresponding call to 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wpuclosethread">WPUCloseThread</a>
 
@@ -142,7 +123,4 @@ Every call to
 
 
 [LPWSPSend](nc-ws2spi-lpwspsend.md)
- 
-
- 
 

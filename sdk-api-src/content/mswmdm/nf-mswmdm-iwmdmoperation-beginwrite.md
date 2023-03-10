@@ -1,16 +1,13 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.BeginWrite
 title: IWMDMOperation::BeginWrite (mswmdm.h)
-description: The BeginWrite method indicates that a &#0034;write to device&#0034; action is beginning. Windows Media Device Manager only calls this method if the application calls IWMDMStorageControl/2/3::Insert/2/3 and passes in this interface.
+description: The BeginWrite method indicates that a &quot;write to device&quot; action is beginning. Windows Media Device Manager only calls this method if the application calls IWMDMStorageControl/2/3::Insert/2/3 and passes in this interface.
+helpviewer_keywords: ["BeginWrite","BeginWrite method [windows Media Device Manager]","BeginWrite method [windows Media Device Manager]","IWMDMOperation interface","IWMDMOperation interface [windows Media Device Manager]","BeginWrite method","IWMDMOperation.BeginWrite","IWMDMOperation::BeginWrite","IWMDMOperationBeginWrite","mswmdm/IWMDMOperation::BeginWrite","wmdm.iwmdmoperation_beginwrite"]
 old-location: wmdm\iwmdmoperation_beginwrite.htm
 tech.root: WMDM
 ms.assetid: 1b35b026-1fc1-44e8-befc-211d3387bc92
 ms.date: 12/05/2018
 ms.keywords: BeginWrite, BeginWrite method [windows Media Device Manager], BeginWrite method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginWrite method, IWMDMOperation.BeginWrite, IWMDMOperation::BeginWrite, IWMDMOperationBeginWrite, mswmdm/IWMDMOperation::BeginWrite, wmdm.iwmdmoperation_beginwrite
-f1_keywords:
-- mswmdm/IWMDMOperation.BeginWrite
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMOperation.BeginWrite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMOperation::BeginWrite
+ - mswmdm/IWMDMOperation::BeginWrite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMOperation.BeginWrite
 ---
 
 # IWMDMOperation::BeginWrite
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>BeginWrite</b> method indicates that a "write to device" action is beginning. Windows Media Device Manager only calls this method if the application calls <b>IWMDMStorageControl/2/3::Insert/2/3</b> and passes in this interface.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The application should return one of the following <b>HRESULT</b> values.
 
@@ -108,16 +98,10 @@ An unspecified error occurred, and the read operation should be cancelled withou
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is called just before the Windows Media Device Manager calls <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a> to begin writing data to the device.
+This method is called just before the Windows Media Device Manager calls <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a> to begin writing data to the device.
 
 
 #### Examples
@@ -143,25 +127,14 @@ HRESULT BeginWrite()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">IWMDMOperation::BeginRead</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginread">IWMDMOperation::BeginRead</a>

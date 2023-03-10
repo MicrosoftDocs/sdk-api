@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPageReference.IsPageLoaded
 title: IXpsOMPageReference::IsPageLoaded (xpsobjectmodel.h)
 description: Gets the referenced page status, which indicates whether the page is loaded.
+helpviewer_keywords: ["FALSE","IXpsOMPageReference interface [XPS Documents and Packaging]","IsPageLoaded method","IXpsOMPageReference.IsPageLoaded","IXpsOMPageReference::IsPageLoaded","IsPageLoaded","IsPageLoaded method [XPS Documents and Packaging]","IsPageLoaded method [XPS Documents and Packaging]","IXpsOMPageReference interface","TRUE","xps.ixpsompagereference_ispageloaded","xpsobjectmodel/IXpsOMPageReference::IsPageLoaded"]
 old-location: xps\ixpsompagereference_ispageloaded.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 12b7d824-65eb-4d24-bfb6-40f55085186c
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMPageReference interface [XPS Documents and Packaging],IsPageLoaded method, IXpsOMPageReference.IsPageLoaded, IXpsOMPageReference::IsPageLoaded, IsPageLoaded, IsPageLoaded method [XPS Documents and Packaging], IsPageLoaded method [XPS Documents and Packaging],IXpsOMPageReference interface, TRUE, xps.ixpsompagereference_ispageloaded, xpsobjectmodel/IXpsOMPageReference::IsPageLoaded
-f1_keywords:
-- xpsobjectmodel/IXpsOMPageReference.IsPageLoaded
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPageReference.IsPageLoaded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPageReference::IsPageLoaded
+ - xpsobjectmodel/IXpsOMPageReference::IsPageLoaded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPageReference.IsPageLoaded
 ---
 
 # IXpsOMPageReference::IsPageLoaded
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the referenced page status,  which indicates whether the  page is loaded.
 
-
 ## -parameters
-
-
-
 
 ### -param isPageLoaded [out, retval]
 
@@ -87,12 +84,8 @@ The page is not loaded.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -124,18 +117,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>

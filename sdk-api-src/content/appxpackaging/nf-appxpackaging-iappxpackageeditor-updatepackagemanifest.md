@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxPackageEditor.UpdatePackageManifest
 title: IAppxPackageEditor::UpdatePackageManifest (appxpackaging.h)
 description: Updates an app package manifest.
+helpviewer_keywords: ["IAppxPackageEditor interface [App packaging and management]","UpdatePackageManifest method","IAppxPackageEditor.UpdatePackageManifest","IAppxPackageEditor::UpdatePackageManifest","UpdatePackageManifest","UpdatePackageManifest method [App packaging and management]","UpdatePackageManifest method [App packaging and management]","IAppxPackageEditor interface","appxpackaging/IAppxPackageEditor::UpdatePackageManifest","appxpkg.iappxpackageeditor_updatepackagemanifest"]
 old-location: appxpkg\iappxpackageeditor_updatepackagemanifest.htm
 tech.root: appxpkg
 ms.assetid: A30B3A7E-28FA-4780-9ED3-4F19887189E8
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdatePackageManifest method, IAppxPackageEditor.UpdatePackageManifest, IAppxPackageEditor::UpdatePackageManifest, UpdatePackageManifest, UpdatePackageManifest method [App packaging and management], UpdatePackageManifest method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdatePackageManifest, appxpkg.iappxpackageeditor_updatepackagemanifest
-f1_keywords:
-- appxpackaging/IAppxPackageEditor.UpdatePackageManifest
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageEditor.UpdatePackageManifest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageEditor::UpdatePackageManifest
+ - appxpackaging/IAppxPackageEditor::UpdatePackageManifest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageEditor.UpdatePackageManifest
 ---
 
 # IAppxPackageEditor::UpdatePackageManifest
@@ -48,51 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates an app package manifest.
-
 
 ## -parameters
 
-
-
-
 ### -param packageStream [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the app package associated with the manifest to be updated.
-
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the app package associated with the manifest to be updated.
 
 ### -param updatedManifestStream [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the updated app package manifest.
-
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the updated app package manifest.
 
 ### -param isPackageEncrypted [in]
 
 Flag to specify whether the package is encrypted.
 
-
 ### -param options [in]
 
 Options for app package manifest validation.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackageeditor">IAppxPackageEditor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackageeditor">IAppxPackageEditor</a>

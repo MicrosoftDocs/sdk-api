@@ -2,15 +2,12 @@
 UID: NS:dxva9typ._DXVABufferInfo
 title: DXVABufferInfo (dxva9typ.h)
 description: Specifies a buffer for the IDirect3DDXVADevice9::Execute method.
+helpviewer_keywords: ["DXVABufferInfo","DXVABufferInfo structure [Media Foundation]","_DXVABufferInfo","dxva9typ/DXVABufferInfo","mf.dxvabufferinfo"]
 old-location: mf\dxvabufferinfo.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 048a3fcf-6076-4500-b5cc-edfe782f467b
 ms.date: 12/05/2018
 ms.keywords: DXVABufferInfo, DXVABufferInfo structure [Media Foundation], _DXVABufferInfo, dxva9typ/DXVABufferInfo, mf.dxvabufferinfo
-f1_keywords:
-- dxva9typ/DXVABufferInfo
-dev_langs:
-- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva9typ.h
-api_name:
-- DXVABufferInfo
 targetos: Windows
 req.typenames: DXVABufferInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVABufferInfo
+ - dxva9typ/_DXVABufferInfo
+ - DXVABufferInfo
+ - dxva9typ/DXVABufferInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva9typ.h
+api_name:
+ - DXVABufferInfo
 ---
 
 # DXVABufferInfo structure
@@ -48,42 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies a buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3ddxvadevice9-execute">IDirect3DDXVADevice9::Execute</a>  method.
-
+        <a href="/windows/desktop/medfound/idirect3ddxvadevice9-execute">IDirect3DDXVADevice9::Execute</a>  method.
 
 ## -struct-fields
-
-
-
 
 ### -field pCompSurface
 
 A pointer to the <b>IDirect3DSurface9</b> interface.
 
-
 ### -field DataOffset
 
 The offset of the relevant data from the beginning of the buffer, in bytes.
-
 
 ### -field DataSize
 
 The size of the relevant data in the buffer, in bytes.
 
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/idirect3ddxvadevice9">IDirect3DDXVADevice9</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/idirect3ddxvadevice9">IDirect3DDXVADevice9</a>

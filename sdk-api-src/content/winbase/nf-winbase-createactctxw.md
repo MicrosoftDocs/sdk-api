@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.CreateActCtxW
 title: CreateActCtxW function (winbase.h)
-description: The CreateActCtx function creates an activation context.
+description: The CreateActCtx function creates an activation context. (Unicode)
+helpviewer_keywords: ["CreateActCtx", "CreateActCtx function [Side-by-side Assemblies]", "CreateActCtxW", "_win32_createactctx", "setup.createactctx", "winbase/CreateActCtx", "winbase/CreateActCtxW"]
 old-location: setup\createactctx.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 11508215-8d8b-4040-a725-88804103fac4
 ms.date: 12/05/2018
 ms.keywords: CreateActCtx, CreateActCtx function [Side-by-side Assemblies], CreateActCtxA, CreateActCtxW, _win32_createactctx, setup.createactctx, winbase/CreateActCtx, winbase/CreateActCtxA, winbase/CreateActCtxW
-f1_keywords:
-- winbase/CreateActCtx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-sidebyside-l1-1-0.dll
-- KernelBase.dll
-- API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- CreateActCtx
-- CreateActCtxA
-- CreateActCtxW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateActCtxW
+ - winbase/CreateActCtxW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-sidebyside-l1-1-0.dll
+ - KernelBase.dll
+ - API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - CreateActCtx
+ - CreateActCtxA
+ - CreateActCtxW
 ---
 
 # CreateActCtxW function
@@ -54,57 +56,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>CreateActCtx</b> function creates an activation context. 
-		
-
+<b>CreateActCtx</b> function creates an activation context.
 
 ## -parameters
-
-
-
 
 ### -param pActCtx [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information about the activation context to be created.
-
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> structure that contains information about the activation context to be created.
 
 ## -returns
-
-
 
 If the function succeeds, it returns a handle to the returned activation context. Otherwise, it returns INVALID_HANDLE_VALUE.
 
 This function sets errors that can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+<a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>. For a complete list of error codes, see 
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
-
-
 Set any undefined bits in <b>dwFlags</b> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> to 0. If any undefined bits are not set to 0, the call to 
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a> to 0. If any undefined bits are not set to 0, the call to 
 <b>CreateActCtx</b> that creates the activation context fails and returns an invalid parameter error code. The handle returned from 
 <b>CreateActCtx</b> is passed in a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a> to activate the context for the current thread.
+<a href="/windows/desktop/api/winbase/nf-winbase-activateactctx">ActivateActCtx</a> to activate the context for the current thread.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CreateActCtx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>

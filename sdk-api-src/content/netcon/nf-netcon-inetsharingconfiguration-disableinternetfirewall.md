@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingConfiguration.DisableInternetFirewall
 title: INetSharingConfiguration::DisableInternetFirewall (netcon.h)
 description: The DisableInternetFirewall method disables Internet Connection Firewall on this connection.
+helpviewer_keywords: ["DisableInternetFirewall","DisableInternetFirewall method [ICS/ICF]","DisableInternetFirewall method [ICS/ICF]","INetSharingConfiguration interface","INetSharingConfiguration interface [ICS/ICF]","DisableInternetFirewall method","INetSharingConfiguration.DisableInternetFirewall","INetSharingConfiguration::DisableInternetFirewall","_ics_inetsharingconfiguration_disableinternetfirewall","ics.inetsharingconfiguration_disableinternetfirewall","netcon/INetSharingConfiguration::DisableInternetFirewall"]
 old-location: ics\inetsharingconfiguration_disableinternetfirewall.htm
 tech.root: ics
 ms.assetid: f0157376-7533-4155-801c-3db82290655d
 ms.date: 12/05/2018
 ms.keywords: DisableInternetFirewall, DisableInternetFirewall method [ICS/ICF], DisableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableInternetFirewall method, INetSharingConfiguration.DisableInternetFirewall, INetSharingConfiguration::DisableInternetFirewall, _ics_inetsharingconfiguration_disableinternetfirewall, ics.inetsharingconfiguration_disableinternetfirewall, netcon/INetSharingConfiguration::DisableInternetFirewall
-f1_keywords:
-- netcon/INetSharingConfiguration.DisableInternetFirewall
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingConfiguration.DisableInternetFirewall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingConfiguration::DisableInternetFirewall
+ - netcon/INetSharingConfiguration::DisableInternetFirewall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingConfiguration.DisableInternetFirewall
 ---
 
 # INetSharingConfiguration::DisableInternetFirewall
@@ -48,23 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>DisableInternetFirewall</b> method disables Internet Connection Firewall on this connection.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -164,14 +157,8 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Calling this method triggers the following notification:
 
@@ -180,29 +167,19 @@ Calling this method triggers the following notification:
 This method returns successfully even if Internet Connection Firewall was not enabled on this connection.
 
 Use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a particular connection.
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a particular connection.
 
 <b>Windows XP with SP2:  </b>Calling this API will disable the firewall on the specified interface, regardless of whether the Windows Firewall is on.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-enableinternetfirewall">INetSharingConfiguration::EnableInternetFirewall</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-enableinternetfirewall">INetSharingConfiguration::EnableInternetFirewall</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-get_internetfirewallenabled">INetSharingConfiguration::get_InternetFirewallEnabled</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-get_internetfirewallenabled">INetSharingConfiguration::get_InternetFirewallEnabled</a>

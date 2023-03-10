@@ -1,16 +1,13 @@
 ---
-UID: NS:wininet.__unnamed_struct_36
+UID: NS:wininet.GOPHER_ATTRIBUTE_TYPE
 title: GOPHER_ATTRIBUTE_TYPE (wininet.h)
 description: Contains the relevant information of a single Gopher attribute for an object.
+helpviewer_keywords: ["*LPGOPHER_ATTRIBUTE_TYPE","GOPHER_ATTRIBUTE_ID_ABSTRACT","GOPHER_ATTRIBUTE_ID_ADMIN","GOPHER_ATTRIBUTE_ID_GEOG","GOPHER_ATTRIBUTE_ID_LOCATION","GOPHER_ATTRIBUTE_ID_MOD_DATE","GOPHER_ATTRIBUTE_ID_ORG","GOPHER_ATTRIBUTE_ID_PROVIDER","GOPHER_ATTRIBUTE_ID_RANGE","GOPHER_ATTRIBUTE_ID_SCORE","GOPHER_ATTRIBUTE_ID_SITE","GOPHER_ATTRIBUTE_ID_TIMEZONE","GOPHER_ATTRIBUTE_ID_TREEWALK","GOPHER_ATTRIBUTE_ID_TTL","GOPHER_ATTRIBUTE_ID_UNKNOWN","GOPHER_ATTRIBUTE_ID_VERSION","GOPHER_ATTRIBUTE_ID_VIEW","GOPHER_ATTRIBUTE_TYPE","GOPHER_ATTRIBUTE_TYPE structure [WinINet]","GOPHER_CATEGORY_ID_ABSTRACT","GOPHER_CATEGORY_ID_ADMIN","GOPHER_CATEGORY_ID_ALL","GOPHER_CATEGORY_ID_INFO","GOPHER_CATEGORY_ID_UNKNOWN","GOPHER_CATEGORY_ID_VERONICA","GOPHER_CATEGORY_ID_VIEWS","LPGOPHER_ATTRIBUTE_TYPE","LPGOPHER_ATTRIBUTE_TYPE structure pointer [WinINet]","_win32_gopher_attribute_type","wininet.gopher_attribute_type","wininet/GOPHER_ATTRIBUTE_TYPE","wininet/LPGOPHER_ATTRIBUTE_TYPE"]
 old-location: wininet\gopher_attribute_type.htm
 tech.root: wininet
 ms.assetid: 01daae8c-9080-4a8d-9f73-3e364ca868fe
 ms.date: 12/05/2018
 ms.keywords: '*LPGOPHER_ATTRIBUTE_TYPE, GOPHER_ATTRIBUTE_ID_ABSTRACT, GOPHER_ATTRIBUTE_ID_ADMIN, GOPHER_ATTRIBUTE_ID_GEOG, GOPHER_ATTRIBUTE_ID_LOCATION, GOPHER_ATTRIBUTE_ID_MOD_DATE, GOPHER_ATTRIBUTE_ID_ORG, GOPHER_ATTRIBUTE_ID_PROVIDER, GOPHER_ATTRIBUTE_ID_RANGE, GOPHER_ATTRIBUTE_ID_SCORE, GOPHER_ATTRIBUTE_ID_SITE, GOPHER_ATTRIBUTE_ID_TIMEZONE, GOPHER_ATTRIBUTE_ID_TREEWALK, GOPHER_ATTRIBUTE_ID_TTL, GOPHER_ATTRIBUTE_ID_UNKNOWN, GOPHER_ATTRIBUTE_ID_VERSION, GOPHER_ATTRIBUTE_ID_VIEW, GOPHER_ATTRIBUTE_TYPE, GOPHER_ATTRIBUTE_TYPE structure [WinINet], GOPHER_CATEGORY_ID_ABSTRACT, GOPHER_CATEGORY_ID_ADMIN, GOPHER_CATEGORY_ID_ALL, GOPHER_CATEGORY_ID_INFO, GOPHER_CATEGORY_ID_UNKNOWN, GOPHER_CATEGORY_ID_VERONICA, GOPHER_CATEGORY_ID_VIEWS, LPGOPHER_ATTRIBUTE_TYPE, LPGOPHER_ATTRIBUTE_TYPE structure pointer [WinINet], _win32_gopher_attribute_type, wininet.gopher_attribute_type, wininet/GOPHER_ATTRIBUTE_TYPE, wininet/LPGOPHER_ATTRIBUTE_TYPE'
-f1_keywords:
-- wininet/GOPHER_ATTRIBUTE_TYPE
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- GOPHER_ATTRIBUTE_TYPE
 targetos: Windows
 req.typenames: GOPHER_ATTRIBUTE_TYPE, *LPGOPHER_ATTRIBUTE_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPGOPHER_ATTRIBUTE_TYPE
+ - wininet/LPGOPHER_ATTRIBUTE_TYPE
+ - GOPHER_ATTRIBUTE_TYPE
+ - wininet/GOPHER_ATTRIBUTE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - GOPHER_ATTRIBUTE_TYPE
 ---
 
 # GOPHER_ATTRIBUTE_TYPE structure
@@ -48,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>GOPHER_ATTRIBUTE_TYPE</b> structure is available for use in the operating systems specified in the Requirements section.]
 
 Contains the relevant information of a single Gopher attribute for an object.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CategoryId
 
@@ -104,7 +103,6 @@ Name of the Gopher category for the attribute. The possible values include:
 
 
 #### GOPHER_CATEGORY_ID_VIEWS
-
 
 ### -field AttributeId
 
@@ -205,7 +203,6 @@ Attribute type. The possible values include:
 
 
 #### GOPHER_ATTRIBUTE_ID_VIEW
-
 
 ### -field AttributeType
 
@@ -308,114 +305,50 @@ A <b>GOPHER_ASK_ATTRIBUTE_TYPE</b> structure.
 
 A <b>GOPHER_UNKNOWN_ATTRIBUTE</b> structure.
 
-
 ### -field Admin
-
- 
-
 
 ### -field ModDate
 
- 
-
-
 ### -field Ttl
-
- 
-
 
 ### -field Score
 
- 
-
-
 ### -field ScoreRange
-
- 
-
 
 ### -field Site
 
- 
-
-
 ### -field Organization
-
- 
-
 
 ### -field Location
 
- 
-
-
 ### -field GeographicalLocation
-
- 
-
 
 ### -field TimeZone
 
- 
-
-
 ### -field Provider
-
- 
-
 
 ### -field Version
 
- 
-
-
 ### -field Abstract
-
- 
-
 
 ### -field View
 
- 
-
-
 ### -field Veronica
-
- 
-
 
 ### -field Ask
 
- 
-
-
 ### -field Unknown
-
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wininet/nc-wininet-gopher_attribute_enumerator">GopherAttributeEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nc-wininet-gopher_attribute_enumerator">GopherAttributeEnumerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-gophergetattributea">GopherGetAttribute</a>
- 
-
- 
+<a href="/windows/desktop/api/wininet/nf-wininet-gophergetattributea">GopherGetAttribute</a>
 

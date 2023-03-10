@@ -2,15 +2,12 @@
 UID: NF:oaidl.IEnumVARIANT.Clone
 title: IEnumVARIANT::Clone (oaidl.h)
 description: Creates a copy of the current state of enumeration.
+helpviewer_keywords: ["Clone","Clone method [Automation]","Clone method [Automation]","IEnumVARIANT interface","IEnumVARIANT interface [Automation]","Clone method","IEnumVARIANT.Clone","IEnumVARIANT::Clone","_oa96_IEnumVARIANT::Clone","automat.ienumvariant_clone","oaidl/IEnumVARIANT::Clone"]
 old-location: automat\ienumvariant_clone.htm
 tech.root: automat
 ms.assetid: 44beac4a-784d-461e-8a4b-71bdcf512fbc
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Automation], Clone method [Automation],IEnumVARIANT interface, IEnumVARIANT interface [Automation],Clone method, IEnumVARIANT.Clone, IEnumVARIANT::Clone, _oa96_IEnumVARIANT::Clone, automat.ienumvariant_clone, oaidl/IEnumVARIANT::Clone
-f1_keywords:
-- oaidl/IEnumVARIANT.Clone
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IEnumVARIANT.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumVARIANT::Clone
+ - oaidl/IEnumVARIANT::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - stdole.dll
+api_name:
+ - IEnumVARIANT.Clone
 ---
 
 # IEnumVARIANT::Clone
@@ -48,25 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a copy of the current state of enumeration.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 The clone enumerator.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -99,14 +91,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Using this function, a particular point in the enumeration sequence can be recorded, and then returned to at a later time. The returned enumerator is of the same actual interface as the one that is being cloned.
 
@@ -146,17 +132,6 @@ error:
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.FileEncryptionStatusA
 title: FileEncryptionStatusA function (winbase.h)
-description: Retrieves the encryption status of the specified file.
+description: Retrieves the encryption status of the specified file. (ANSI)
+helpviewer_keywords: ["FILE_ENCRYPTABLE", "FILE_IS_ENCRYPTED", "FILE_READ_ONLY", "FILE_ROOT_DIR", "FILE_SYSTEM_ATTR", "FILE_SYSTEM_DIR", "FILE_SYSTEM_NOT_SUPPORT", "FILE_UNKNOWN", "FILE_USER_DISALLOWED", "FileEncryptionStatusA", "winbase/FileEncryptionStatusA"]
 old-location: fs\fileencryptionstatus.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 96efe065-de62-4941-811d-610465cd7ef5
 ms.date: 12/05/2018
 ms.keywords: FILE_ENCRYPTABLE, FILE_IS_ENCRYPTED, FILE_READ_ONLY, FILE_ROOT_DIR, FILE_SYSTEM_ATTR, FILE_SYSTEM_DIR, FILE_SYSTEM_NOT_SUPPORT, FILE_UNKNOWN, FILE_USER_DISALLOWED, FileEncryptionStatus, FileEncryptionStatus function [Files], FileEncryptionStatusA, FileEncryptionStatusW, _win32_fileencryptionstatus, base.fileencryptionstatus, fs.fileencryptionstatus, winbase/FileEncryptionStatus, winbase/FileEncryptionStatusA, winbase/FileEncryptionStatusW
-f1_keywords:
-- winbase/FileEncryptionStatus
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- FileEncryptionStatus
-- FileEncryptionStatusA
-- FileEncryptionStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FileEncryptionStatusA
+ - winbase/FileEncryptionStatusA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - FileEncryptionStatus
+ - FileEncryptionStatusA
+ - FileEncryptionStatusW
 ---
 
 # FileEncryptionStatusA function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the encryption status of the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
 The name of the file.
-
 
 ### -param lpStatus [out]
 
@@ -178,24 +174,15 @@ Reserved for future use.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -263,21 +250,18 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines FileEncryptionStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

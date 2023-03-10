@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.GetStyle
 title: ITextPara::GetStyle (tom.h)
 description: Retrieves the style handle to the paragraphs in the specified range.
+helpviewer_keywords: ["GetStyle","GetStyle method [Windows Controls]","GetStyle method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetStyle method","ITextPara.GetStyle","ITextPara::GetStyle","_win32_ITextPara_GetStyle","_win32_ITextPara_GetStyle_cpp","controls.ITextPara_GetStyle","controls._win32_ITextPara_GetStyle","tom/ITextPara::GetStyle"]
 old-location: controls\ITextPara_GetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetstyle.htm
 ms.date: 12/05/2018
 ms.keywords: GetStyle, GetStyle method [Windows Controls], GetStyle method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetStyle method, ITextPara.GetStyle, ITextPara::GetStyle, _win32_ITextPara_GetStyle, _win32_ITextPara_GetStyle_cpp, controls.ITextPara_GetStyle, controls._win32_ITextPara_GetStyle, tom/ITextPara::GetStyle
-f1_keywords:
-- tom/ITextPara.GetStyle
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetStyle
+ - tom/ITextPara::GetStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetStyle
 ---
 
 # ITextPara::GetStyle
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the style handle to the paragraphs in the specified range.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>long*</b>
 
-The paragraph style handle. For more information, see the Remarks. 
-
+The paragraph style handle. For more information, see the Remarks.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetStyle</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetStyle</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -111,14 +105,8 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Text Object Model (TOM) version 1.0 has no way to specify the meanings of user-defined style handles. They depend on other facilities of the text system implementing TOM. Negative style handles are reserved for built-in character and paragraph styles. Currently defined values are listed in the following table. For a description of the following styles, see the Microsoft Word documentation.
 
@@ -396,21 +384,14 @@ The Text Object Model (TOM) version 1.0 has no way to specify the meanings of us
 						</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -418,12 +399,8 @@ The Text Object Model (TOM) version 1.0 has no way to specify the meanings of us
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setstyle">SetStyle</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setstyle">SetStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

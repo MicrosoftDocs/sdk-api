@@ -2,15 +2,12 @@
 UID: NF:sbtsv.ITsSbPlacement.QueryEnvironmentForTarget
 title: ITsSbPlacement::QueryEnvironmentForTarget (sbtsv.h)
 description: Determines whether the specified environment is ready to host the target that was returned by load balancing.
+helpviewer_keywords: ["ITsSbPlacement interface [Remote Desktop Services]","QueryEnvironmentForTarget method","ITsSbPlacement.QueryEnvironmentForTarget","ITsSbPlacement::QueryEnvironmentForTarget","QueryEnvironmentForTarget","QueryEnvironmentForTarget method [Remote Desktop Services]","QueryEnvironmentForTarget method [Remote Desktop Services]","ITsSbPlacement interface","sbtsv/ITsSbPlacement::QueryEnvironmentForTarget","termserv.itssbplacement_queryenvironmentfortarget"]
 old-location: termserv\itssbplacement_queryenvironmentfortarget.htm
 tech.root: TermServ
 ms.assetid: 62320a0b-3f3e-4341-a481-a43af39c06f7
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacement interface [Remote Desktop Services],QueryEnvironmentForTarget method, ITsSbPlacement.QueryEnvironmentForTarget, ITsSbPlacement::QueryEnvironmentForTarget, QueryEnvironmentForTarget, QueryEnvironmentForTarget method [Remote Desktop Services], QueryEnvironmentForTarget method [Remote Desktop Services],ITsSbPlacement interface, sbtsv/ITsSbPlacement::QueryEnvironmentForTarget, termserv.itssbplacement_queryenvironmentfortarget
-f1_keywords:
-- sbtsv/ITsSbPlacement.QueryEnvironmentForTarget
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbPlacement.QueryEnvironmentForTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbPlacement::QueryEnvironmentForTarget
+ - sbtsv/ITsSbPlacement::QueryEnvironmentForTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbPlacement.QueryEnvironmentForTarget
 ---
 
 # ITsSbPlacement::QueryEnvironmentForTarget
@@ -48,62 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the specified environment is ready to host 
 the target that was returned by load balancing.
 
-
 ## -parameters
-
-
-
 
 ### -param pConnection [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> client connection object.
-
+A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> client connection object.
 
 ### -param pPlacementSink [in]
 
- A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a> placement sink object.
-
+ A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a> placement sink object.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Your plug-in should use the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a> object to report the state of the environment to Remote Desktop Connection Broker (RD Connection Broker).
+Your plug-in should use the <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a> object to report the state of the environment to Remote Desktop Connection Broker (RD Connection Broker).
 
 After RD Connection Broker receives a load-balancing result, it calls <b>QueryEnvironmentForTarget</b> 
 to determine whether the environment is present and ready.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacement">ITsSbPlacement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacement">ITsSbPlacement</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a>

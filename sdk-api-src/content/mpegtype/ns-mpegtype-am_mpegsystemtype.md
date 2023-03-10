@@ -2,15 +2,12 @@
 UID: NS:mpegtype.tagAM_MPEGSYSTEMTYPE
 title: AM_MPEGSYSTEMTYPE (mpegtype.h)
 description: The AM_MPEGSYSTEMTYPE structure defines the format block for an MPEG-1 system stream.
+helpviewer_keywords: ["AM_MPEGSYSTEMTYPE","AM_MPEGSYSTEMTYPE structure [DirectShow]","dshow.am_mpegsystemtype","mpegtype/AM_MPEGSYSTEMTYPE"]
 old-location: dshow\am_mpegsystemtype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 218bf0c3-e618-4dcc-8618-34cd1fb5c0a8
 ms.date: 12/05/2018
 ms.keywords: AM_MPEGSYSTEMTYPE, AM_MPEGSYSTEMTYPE structure [DirectShow], dshow.am_mpegsystemtype, mpegtype/AM_MPEGSYSTEMTYPE
-f1_keywords:
-- mpegtype/AM_MPEGSYSTEMTYPE
-dev_langs:
-- c++
 req.header: mpegtype.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mpegtype.h
-api_name:
-- AM_MPEGSYSTEMTYPE
 targetos: Windows
 req.typenames: AM_MPEGSYSTEMTYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagAM_MPEGSYSTEMTYPE
+ - mpegtype/tagAM_MPEGSYSTEMTYPE
+ - AM_MPEGSYSTEMTYPE
+ - mpegtype/AM_MPEGSYSTEMTYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mpegtype.h
+api_name:
+ - AM_MPEGSYSTEMTYPE
 ---
 
 # AM_MPEGSYSTEMTYPE structure
@@ -48,51 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
-        
-
+The <b>AM_MPEGSYSTEMTYPE</b> structure defines the format block for an MPEG-1 system stream. This structure is used when the <b>formattype</b> member of the <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure is FORMAT_MPEG1System.
 
 ## -struct-fields
-
-
-
 
 ### -field dwBitRate
 
 Bits per second.
 
-
 ### -field cStreams
 
 Number of streams.
 
-
 ### -field Streams
 
-List <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegstreamtype">AM_MPEGSTREAMTYPE</a> structures that describe the elementary streams. The number of elements in the list is given by the <b>cStream</b> member. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is variable. Use the <b>AM_MPEGSTREAMTYPE_ELEMENTLENGTH</b> macro to calculate the size of each structure.
-
+List <a href="/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegstreamtype">AM_MPEGSTREAMTYPE</a> structures that describe the elementary streams. The number of elements in the list is given by the <b>cStream</b> member. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is variable. Use the <b>AM_MPEGSTREAMTYPE_ELEMENTLENGTH</b> macro to calculate the size of each structure.
 
 ## -remarks
 
-
-
-The <b>Streams</b> member contains a list of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegstreamtype">AM_MPEGSTREAMTYPE</a> structures. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is aligned to an 8-byte boundary. Given a pointer to an <b>AM_MPEGSTREAMTYPE</b> structure in list, use the <b>AM_MPEGSTREAMTYPE_NEXT</b> macro to get a pointer to the next structure.
-
-
-
+The <b>Streams</b> member contains a list of <a href="/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegstreamtype">AM_MPEGSTREAMTYPE</a> structures. The size of each <b>AM_MPEGSTREAMTYPE</b> structure is aligned to an 8-byte boundary. Given a pointer to an <b>AM_MPEGSTREAMTYPE</b> structure in list, use the <b>AM_MPEGSTREAMTYPE_NEXT</b> macro to get a pointer to the next structure.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-media-types">MEPG-1 Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/mpeg-1-media-types">MEPG-1 Media Types</a>

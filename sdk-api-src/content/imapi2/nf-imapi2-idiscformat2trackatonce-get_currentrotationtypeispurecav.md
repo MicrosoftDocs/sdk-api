@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV
 title: IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV (imapi2.h)
-description: Retrieves the current rotational-speed control used by the recorder.
+description: Retrieves the current rotational-speed control used by the recorder. (IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV)
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_CurrentRotationTypeIsPureCAV method","IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV","IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV","get_CurrentRotationTypeIsPureCAV","get_CurrentRotationTypeIsPureCAV method [IMAPI]","get_CurrentRotationTypeIsPureCAV method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_currentrotationtypeispurecav","imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV"]
 old-location: imapi\idiscformat2trackatonce_get_currentrotationtypeispurecav.htm
 tech.root: imapi
 ms.assetid: 3a80eee3-6b85-432a-878c-c8e4cade7be1
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_CurrentRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV, IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_currentrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
-f1_keywords:
-- imapi2/IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
+ - imapi2/IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2TrackAtOnce.get_CurrentRotationTypeIsPureCAV
 ---
 
 # IDiscFormat2TrackAtOnce::get_CurrentRotationTypeIsPureCAV
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current rotational-speed control used by the recorder.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Is VARIANT_TRUE if constant angular velocity (CAV)  rotational-speed control is in use. Otherwise, VARIANT_FALSE to indicate that another rotational-speed control that the recorder supports is in use.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -373,16 +367,10 @@ Value: 0xC0AA0301
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To retrieve the requested rotational-speed control, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a> method.
+To retrieve the requested rotational-speed control, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a> method.
 
 Rotational-speed control types include the following:
 
@@ -393,23 +381,14 @@ Rotational-speed control types include the following:
 <li>	PCAV (Partial Constant Angular Velocity). The disc speed increases up to a specified velocity. Once reached, the disc spins at the specified velocity for the duration of the disc writing.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-setwritespeed">IDiscFormat2TrackAtOnce::SetWriteSpeed</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_requestedrotationtypeispurecav">IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV</a>

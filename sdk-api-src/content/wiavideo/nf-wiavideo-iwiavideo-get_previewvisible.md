@@ -1,16 +1,13 @@
 ---
 UID: NF:wiavideo.IWiaVideo.get_PreviewVisible
 title: IWiaVideo::get_PreviewVisible (wiavideo.h)
-description: The IWiaVideo::PreviewVisible property specifies whether the video playback is visible in its parent window. This does not affect the WIAVIDEO_STATE of the video.
+description: The IWiaVideo::PreviewVisible property specifies whether the video playback is visible in its parent window. This does not affect the WIAVIDEO_STATE of the video. (Get)
+helpviewer_keywords: ["IWiaVideo interface [WIA]","PreviewVisible property","IWiaVideo.PreviewVisible","IWiaVideo.get_PreviewVisible","IWiaVideo::PreviewVisible","IWiaVideo::get_PreviewVisible","IWiaVideo::put_PreviewVisible","PreviewVisible property [WIA]","PreviewVisible property [WIA]","IWiaVideo interface","_wia_IWiaVideo_PreviewVisible","get_PreviewVisible","wia._wia_IWiaVideo_PreviewVisible","wiavideo/IWiaVideo::PreviewVisible","wiavideo/IWiaVideo::get_PreviewVisible","wiavideo/IWiaVideo::put_PreviewVisible"]
 old-location: wia\_wia_IWiaVideo_PreviewVisible.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\previewvisible.htm
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],PreviewVisible property, IWiaVideo.PreviewVisible, IWiaVideo.get_PreviewVisible, IWiaVideo::PreviewVisible, IWiaVideo::get_PreviewVisible, IWiaVideo::put_PreviewVisible, PreviewVisible property [WIA], PreviewVisible property [WIA],IWiaVideo interface, _wia_IWiaVideo_PreviewVisible, get_PreviewVisible, wia._wia_IWiaVideo_PreviewVisible, wiavideo/IWiaVideo::PreviewVisible, wiavideo/IWiaVideo::get_PreviewVisible, wiavideo/IWiaVideo::put_PreviewVisible
-f1_keywords:
-- wiavideo/IWiaVideo.PreviewVisible
-dev_langs:
-- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Wiavideo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiavideo.dll
-api_name:
-- IWiaVideo.PreviewVisible
-- IWiaVideo.get_PreviewVisible
-- IWiaVideo.put_PreviewVisible
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaVideo::get_PreviewVisible
+ - wiavideo/IWiaVideo::get_PreviewVisible
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiavideo.dll
+api_name:
+ - IWiaVideo.PreviewVisible
+ - IWiaVideo.get_PreviewVisible
+ - IWiaVideo.put_PreviewVisible
 ---
 
 # IWiaVideo::get_PreviewVisible
@@ -50,26 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IWiaVideo::PreviewVisible</b> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://docs.microsoft.com/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> of the video.
+The <b>IWiaVideo::PreviewVisible</b> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a> of the video.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wiavideo/nn-wiavideo-iwiavideo">IWiaVideo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wiavideo/nn-wiavideo-iwiavideo">IWiaVideo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a>
- 
-
- 
-
+<a href="/windows/win32/api/wiavideo/ne-wiavideo-wiavideo_state">WIAVIDEO_STATE</a>

@@ -1,16 +1,13 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_9
+UID: NS:lpmapi.Scope_list_ipv4
 title: Scope_list_ipv4 (lpmapi.h)
 description: The Scope_list_ipv4 structure contains RSVP SCOPE object information.
+helpviewer_keywords: ["Scope_list_ipv4","Scope_list_ipv4 structure [QOS]","lpmapi/Scope_list_ipv4","qos.scope_list_ipv4"]
 old-location: qos\scope_list_ipv4.htm
 tech.root: QOS
 ms.assetid: f1651371-d192-45d9-9a9e-d272b624f40d
 ms.date: 12/05/2018
 ms.keywords: Scope_list_ipv4, Scope_list_ipv4 structure [QOS], lpmapi/Scope_list_ipv4, qos.scope_list_ipv4
-f1_keywords:
-- lpmapi/Scope_list_ipv4
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- Scope_list_ipv4
 targetos: Windows
 req.typenames: Scope_list_ipv4
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Scope_list_ipv4
+ - lpmapi/Scope_list_ipv4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - Scope_list_ipv4
 ---
 
 # Scope_list_ipv4 structure
@@ -48,28 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Scope_list_ipv4</b> structure contains RSVP SCOPE object information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field scopl_ipaddr
 
-Variable-length list of IP sender addresses, expressed as an array of <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structures.
-
+Variable-length list of IP sender addresses, expressed as an array of <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structures.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>
- 
-
- 
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a>
 

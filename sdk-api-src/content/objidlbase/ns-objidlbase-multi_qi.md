@@ -1,16 +1,13 @@
 ---
 UID: NS:objidlbase.tagMULTI_QI
 title: MULTI_QI (objidlbase.h)
-description: Represents an interface in a query for multiple interfaces.
+description: The MULTI_QI (objidlbase.h) structure represents an interface in a query for multiple interfaces.
+helpviewer_keywords: ["MULTI_QI","MULTI_QI structure [COM]","_com_MULTI_QI","com.multi_qi","objidlbase/MULTI_QI","tagMULTI_QI"]
 old-location: com\multi_qi.htm
 tech.root: com
 ms.assetid: 845040c9-fad4-4ac8-856d-d35edbf48ec9
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: MULTI_QI, MULTI_QI structure [COM], _com_MULTI_QI, com.multi_qi, objidlbase/MULTI_QI, tagMULTI_QI
-f1_keywords:
-- objidlbase/MULTI_QI
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- objidlbase.h
-api_name:
-- MULTI_QI
 targetos: Windows
 req.typenames: MULTI_QI
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMULTI_QI
+ - objidlbase/tagMULTI_QI
+ - MULTI_QI
+ - objidlbase/MULTI_QI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - objidlbase.h
+api_name:
+ - MULTI_QI
 ---
 
 # MULTI_QI structure
@@ -48,60 +52,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an interface in a query for multiple interfaces.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pIID
 
 A pointer to an interface identifier.
 
-
 ### -field pItf
 
 A pointer to the interface requested in <b>pIID</b>. This member must be <b>NULL</b> on input.
 
-
 ### -field hr
 
-The return value of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call to locate the requested interface. Common return values include S_OK and E_NOINTERFACE. This member must be 0 on input.
-
+The return value of the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> call to locate the requested interface. Common return values include S_OK and E_NOINTERFACE. This member must be 0 on input.
 
 ## -remarks
 
-
-
-To optimize network performance, most remote activation functions take an array of <b>MULTI_QI</b> structures rather than just a single IID as input and a single pointer to the requested interface on the object as output, as do local activation functions. This allows a set of pointers to interfaces to be returned from the same object in a single round-trip to the server. In network scenarios, requesting multiple interfaces at the time of object construction can save considerable time over using a number of calls to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for unique interfaces, each of which would require a round-trip to the server.
-
- 
-
-
-
+To optimize network performance, most remote activation functions take an array of <b>MULTI_QI</b> structures rather than just a single IID as input and a single pointer to the requested interface on the object as output, as do local activation functions. This allows a set of pointers to interfaces to be returned from the same object in a single round-trip to the server. In network scenarios, requesting multiple interfaces at the time of object construction can save considerable time over using a number of calls to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for unique interfaces, each of which would require a round-trip to the server.
 
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-cogetinstancefromfile">CoGetInstanceFromFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromfile">CoGetInstanceFromFile</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-cogetinstancefromistorage">CoGetInstanceFromIStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cogetinstancefromistorage">CoGetInstanceFromIStorage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>

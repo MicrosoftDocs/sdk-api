@@ -2,15 +2,12 @@
 UID: NF:comadmin.ICatalogObject.IsPropertyReadOnly
 title: ICatalogObject::IsPropertyReadOnly (comadmin.h)
 description: Indicates whether the specified property can be modified using Value.
+helpviewer_keywords: ["ICatalogObject interface [COM+]","IsPropertyReadOnly method","ICatalogObject.IsPropertyReadOnly","ICatalogObject::IsPropertyReadOnly","IsPropertyReadOnly","IsPropertyReadOnly method [COM+]","IsPropertyReadOnly method [COM+]","ICatalogObject interface","_cos_ICatalogObject_IsPropertyReadOnly","comadmin/ICatalogObject::IsPropertyReadOnly","cos.icatalogobject_ispropertyreadonly"]
 old-location: cos\icatalogobject_ispropertyreadonly.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: bd088794-1245-4cb8-a1f7-385354640675
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],IsPropertyReadOnly method, ICatalogObject.IsPropertyReadOnly, ICatalogObject::IsPropertyReadOnly, IsPropertyReadOnly, IsPropertyReadOnly method [COM+], IsPropertyReadOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyReadOnly, comadmin/ICatalogObject::IsPropertyReadOnly, cos.icatalogobject_ispropertyreadonly
-f1_keywords:
-- comadmin/ICatalogObject.IsPropertyReadOnly
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICatalogObject.IsPropertyReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatalogObject::IsPropertyReadOnly
+ - comadmin/ICatalogObject::IsPropertyReadOnly
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICatalogObject.IsPropertyReadOnly
 ---
 
 # ICatalogObject::IsPropertyReadOnly
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates whether the specified property can be modified using <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">Value</a>.
-
+Indicates whether the specified property can be modified using <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">Value</a>.
 
 ## -parameters
-
-
-
 
 ### -param bstrPropName [in]
 
 The name of the property to be modified.
 
-
 ### -param pbRetVal [out, retval]
 
 If this value is True, you cannot modify the property. Otherwise, you can modify the property.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>

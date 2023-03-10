@@ -2,15 +2,12 @@
 UID: NF:drt.DrtGetEventDataSize
 title: DrtGetEventDataSize function (drt.h)
 description: DrtGetEventDataSize function returns the size of the DRT_EVENT_DATA structure associated with a signaled event.
+helpviewer_keywords: ["DrtGetEventDataSize","DrtGetEventDataSize function [Peer Networking]","drt/DrtGetEventDataSize","p2p.drtgeteventdatasize"]
 old-location: p2p\drtgeteventdatasize.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: b73431fc-6b5a-41f7-8616-6d82dc8844f4
 ms.date: 12/05/2018
 ms.keywords: DrtGetEventDataSize, DrtGetEventDataSize function [Peer Networking], drt/DrtGetEventDataSize, p2p.drtgeteventdatasize
-f1_keywords:
-- drt/DrtGetEventDataSize
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtGetEventDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtGetEventDataSize
+ - drt/DrtGetEventDataSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtGetEventDataSize
 ---
 
 # DrtGetEventDataSize function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DrtGetEventDataSize</b> function returns the size of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a> structure associated with a signaled event.
-
+The <b>DrtGetEventDataSize</b> function returns the size of the <a href="/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a> structure associated with a signaled event.
 
 ## -parameters
-
-
-
 
 ### -param hDrt [in]
 
 Handle to the Distributed Routing Table instance for which the event occurred.
 
-
 ### -param pulEventDataLen [out]
 
 The size, in bytes, of the event data.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -123,18 +116,7 @@ There is no more event data available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/ns-drt-drt_event_data">DRT_EVENT_DATA</a>

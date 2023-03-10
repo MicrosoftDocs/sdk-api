@@ -1,16 +1,13 @@
 ---
 UID: NF:ras.RasEnumConnectionsA
 title: RasEnumConnectionsA function (ras.h)
-description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
+description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name. (ANSI)
+helpviewer_keywords: ["RasEnumConnectionsA", "ras/RasEnumConnectionsA"]
 old-location: rras\rasenumconnections.htm
 tech.root: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.date: 12/05/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
-f1_keywords:
-- ras/RasEnumConnections
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
-- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
-api_name:
-- RasEnumConnections
-- RasEnumConnectionsA
-- RasEnumConnectionsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasEnumConnectionsA
+ - ras/RasEnumConnectionsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+ - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+api_name:
+ - RasEnumConnections
+ - RasEnumConnectionsA
+ - RasEnumConnectionsW
 ---
 
 # RasEnumConnectionsA function
@@ -52,29 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RasEnumConnections</b> function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
 
-
 ## -parameters
 
-
-
-
-### -param arg1 [in, out]
+### -param unnamedParam1 [in, out]
 
 Pointer to a buffer that receives, on output, an array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures, one for each RAS connection. 
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures, one for each RAS connection. 
 
 
 
 
 On input, an application must set the <b>dwSize</b> member of the first 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structure in the buffer to sizeof(<b>RASCONN</b>) in order to identify the version of the structure being passed.
 
-
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 Pointer to a variable that, on input, contains the size, in bytes, of the buffer specified by <i>lprasconn</i>. 
 
@@ -89,19 +85,16 @@ On output, the function sets this variable to the number of bytes required to en
 </div>
 <div> </div>
 
-### -param arg3 [out]
+### -param unnamedParam3 [out]
 
 Pointer to a variable that receives the number of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
-
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a> structures written to the buffer specified by <i>lprasconn</i>.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -115,19 +108,13 @@ If the function fails, the return value is from <a href="https://docs.microsoft.
 </dl>
 </td>
 <td width="60%">
-The <i>lprasconn</i> buffer is not large enough. The <i>lpcb</i>parameter is less than the <b>dwSize</b> member in the <i>lprasconn</i>parameter which is should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
+The <i>lprasconn</i> buffer is not large enough. The <i>lpcb</i> parameter is less than the <b>dwSize</b> member in the <i>lprasconn</i> parameter which is should be set prior to calling the function. The function returns the required buffer size in the variable pointed to by <i>lpcb</i>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If a connection was made without specifying a phone-book entry name, the information returned for that connection gives the connection phone number preceded by ".".
 
@@ -195,36 +182,33 @@ DWORD __cdecl wmain(){
 
 <b>Windows Me/98/95:  </b><b>RasEnumConnections</b>  enumerates a connection as <b>Active</b> as soon as it starts dialing.
 
-The most reliable way to enumerate and check for an active connection is to call <b>RasEnumConnections</b> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> to get a connection handle, then call <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a> to determine the actual connection state.
+The most reliable way to enumerate and check for an active connection is to call <b>RasEnumConnections</b> or <a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> to get a connection handle, then call <a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a> to determine the actual connection state.
 
 
 
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RasEnumConnections as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376725(v=vs.85)">RASCONN</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

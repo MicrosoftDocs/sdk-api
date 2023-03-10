@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange.FindText
 title: ITextRange::FindText (tom.h)
 description: Searches up to Count characters for the text given by bstr. The starting position and direction are also specified by Count, and the matching criteria are given by Flags.
+helpviewer_keywords: ["FindText","FindText method [Windows Controls]","FindText method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","FindText method","ITextRange.FindText","ITextRange::FindText","_win32_ITextRange_FindText","_win32_ITextRange_FindText_cpp","controls.ITextRange_FindText","controls._win32_ITextRange_FindText","tom/ITextRange::FindText"]
 old-location: controls\ITextRange_FindText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\findtext.htm
 ms.date: 12/05/2018
 ms.keywords: FindText, FindText method [Windows Controls], FindText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],FindText method, ITextRange.FindText, ITextRange::FindText, _win32_ITextRange_FindText, _win32_ITextRange_FindText_cpp, controls.ITextRange_FindText, controls._win32_ITextRange_FindText, tom/ITextRange::FindText
-f1_keywords:
-- tom/ITextRange.FindText
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.FindText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::FindText
+ - tom/ITextRange::FindText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.FindText
 ---
 
 # ITextRange::FindText
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Searches up to <i>Count</i> characters for the text given by <i>bstr</i>. The starting position and direction are also specified by <i>Count</i>, and the matching criteria are given by <i>Flags</i>. 
-
+Searches up to <i>Count</i> characters for the text given by <i>bstr</i>. The starting position and direction are also specified by <i>Count</i>, and the matching criteria are given by <i>Flags</i>.
 
 ## -parameters
-
-
-
 
 ### -param bstr
 
 Type: <b>BSTR</b>
 
 String to find.
-
 
 ### -param Count
 
@@ -95,8 +91,7 @@ Maximum number of characters to search. It can be one of the following.
 </table>
  
 
-In all cases, if a string is found, the range limits are changed to be those of the matched string and 					<i>pLength</i> is set equal to the length of the string. If the string is not found, the range remains unchanged and <i>pLength</i> is set equal to zero. 
-
+In all cases, if a string is found, the range limits are changed to be those of the matched string and 					<i>pLength</i> is set equal to the length of the string. If the string is not found, the range remains unchanged and <i>pLength</i> is set equal to zero.
 
 ### -param Flags
 
@@ -122,36 +117,26 @@ Flags governing comparisons. It can be 0 (the default) or any combination of the
 <td>Matches regular expressions.</td>
 </tr>
 </table>
- 
-
 
 ### -param pLength
 
 Type: <b>long*</b>
 
-The length of string matched. 
-
+The length of string matched.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns S_FALSE. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
-
-
-
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns S_FALSE. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
-
-
 
 The <b>ITextRange::FindText</b> method can also match special characters by using a caret (^) followed by a special letter. For a list of special characters, see the Special list available in the Microsoft Word 
 				<b>Find and Replace</b> dialog box. For example, <code>^p</code> matches the next paragraph mark. Note, <code>^c</code> can be used to represent the Clipboard contents in the string to be replaced. Thus, using <code>^c</code> in the find string enables you to search for rich text. For more details, see the Word Help files. 
 
-As a comparison with the <b>ITextRange::FindText</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtextstart">ITextRange::FindTextStart</a> method searches forward or backward from the range's Start 
-				<i>cp</i>, and the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtextend">ITextRange::FindTextEnd</a> method searches forward or backward from the range's End 
+As a comparison with the <b>ITextRange::FindText</b> method, the <a href="/windows/desktop/api/tom/nf-tom-itextrange-findtextstart">ITextRange::FindTextStart</a> method searches forward or backward from the range's Start 
+				<i>cp</i>, and the <a href="/windows/desktop/api/tom/nf-tom-itextrange-findtextend">ITextRange::FindTextEnd</a> method searches forward or backward from the range's End 
 				<i>cp</i>. For more details, see the descriptions of these methods.
 
 The following are several code snippets that show the <b>ITextRange::FindText</b> methods.
@@ -243,27 +228,21 @@ Example #4. The following line of code inserts a blank before the first occurren
 
 To do this for all such occurrences, change the If into a While/Wend loop in the above line of code. This an example of a <b>FIND/REPLACE</b> macro that cannot be run with <b>Find and Replace</b> dialog boxes.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtextend">FindTextEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-findtextend">FindTextEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-findtextstart">FindTextStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-findtextstart">FindTextStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -271,8 +250,4 @@ To do this for all such occurrences, change the If into a While/Wend loop in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

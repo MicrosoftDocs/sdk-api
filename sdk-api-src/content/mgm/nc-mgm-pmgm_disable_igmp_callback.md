@@ -2,15 +2,12 @@
 UID: NC:mgm.PMGM_DISABLE_IGMP_CALLBACK
 title: PMGM_DISABLE_IGMP_CALLBACK (mgm.h)
 description: The PMGM_DISABLE_IGMP_CALLBACK callback is a call into IGMP to notify it that a routing protocol is taking or releasing ownership of an interface on which IGMP is enabled.
+helpviewer_keywords: ["MgmDisableIgmpCallback","PMGM_DISABLE_IGMP_CALLBACK","PMGM_DISABLE_IGMP_CALLBACK callback","PMGM_DISABLE_IGMP_CALLBACK callback function [RAS]","_mpr_pmgm_disable_igmp_callback","mgm/PMGM_DISABLE_IGMP_CALLBACK","rras.pmgm_disable_igmp_callback"]
 old-location: rras\pmgm_disable_igmp_callback.htm
 tech.root: RRAS
 ms.assetid: 4f790e1b-b10f-477b-b2bc-75c95560d7f4
 ms.date: 12/05/2018
 ms.keywords: MgmDisableIgmpCallback, PMGM_DISABLE_IGMP_CALLBACK, PMGM_DISABLE_IGMP_CALLBACK callback, PMGM_DISABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_disable_igmp_callback, mgm/PMGM_DISABLE_IGMP_CALLBACK, rras.pmgm_disable_igmp_callback
-f1_keywords:
-- mgm/PMGM_DISABLE_IGMP_CALLBACK
-dev_langs:
-- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mgm.h
-api_name:
-- PMGM_DISABLE_IGMP_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMGM_DISABLE_IGMP_CALLBACK
+ - mgm/PMGM_DISABLE_IGMP_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mgm.h
+api_name:
+ - PMGM_DISABLE_IGMP_CALLBACK
 ---
 
 # PMGM_DISABLE_IGMP_CALLBACK callback function
@@ -48,22 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PMGM_DISABLE_IGMP_CALLBACK</b> callback is a call into IGMP to notify it that a routing protocol is taking or releasing ownership of an interface on which IGMP is enabled.
 
 When this callback is invoked, IGMP should stop adding and deleting group memberships on the specified interface.
 
-
 ## -parameters
-
-
-
 
 ### -param dwIfIndex [in]
 
 Specifies the interface on which to disable IGMP.
-
 
 ### -param dwIfNextHopAddr [in]
 
@@ -74,24 +70,10 @@ Specifies the address of the next hop that corresponds to the index specified by
 
 For broadcast interfaces (such as Ethernet interfaces) or point-to-point interfaces, which are identified by only the value of <i>dwIfIndex</i>, specify zero.
 
-
 ## -returns
-
-
 
 RRAS does not expect the application to return any specific value; any value returned is ignored by RRAS.
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nc-mgm-pmgm_enable_igmp_callback">PMGM_ENABLE_IGMP_CALLBACK</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mgm/nc-mgm-pmgm_enable_igmp_callback">PMGM_ENABLE_IGMP_CALLBACK</a>

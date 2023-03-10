@@ -2,15 +2,12 @@
 UID: NF:strmif.IResourceManager.Register
 title: IResourceManager::Register (strmif.h)
 description: The Register method registers a single named resource with the resource manager.
+helpviewer_keywords: ["IResourceManager interface [DirectShow]","Register method","IResourceManager.Register","IResourceManager::Register","IResourceManagerRegister","Register","Register method [DirectShow]","Register method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_register","strmif/IResourceManager::Register"]
 old-location: dshow\iresourcemanager_register.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 23fa6830-144b-479f-8a8e-b637d82f51d1
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],Register method, IResourceManager.Register, IResourceManager::Register, IResourceManagerRegister, Register, Register method [DirectShow], Register method [DirectShow],IResourceManager interface, dshow.iresourcemanager_register, strmif/IResourceManager::Register
-f1_keywords:
-- strmif/IResourceManager.Register
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IResourceManager.Register
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IResourceManager::Register
+ - strmif/IResourceManager::Register
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IResourceManager.Register
 ---
 
 # IResourceManager::Register
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Register</code> method registers a single named resource with the resource manager.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pName [in]
 
 Named resource.
 
-
 ### -param cResource [in]
 
 Number of resources.
-
 
 ### -param plToken [out]
 
 Pointer to the returned token identifying the resource to be used in additional calls.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation. <b>HRESULT</b> can be one of the following standard constants, or other values not listed.
 
@@ -143,31 +132,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method registers a named resource, which can contain a number of resources, and returns a token to be used when requesting this resource. It is not an error if the resource is already registered; if the number in the <i>cResource</i> parameter is less than what is already registered, resources will be deallocated to the new count. To unregister the resource, pass a count of zero in <i>cResource</i>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

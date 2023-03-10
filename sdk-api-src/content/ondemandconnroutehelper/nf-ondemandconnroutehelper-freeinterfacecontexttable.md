@@ -2,15 +2,12 @@
 UID: NF:ondemandconnroutehelper.FreeInterfaceContextTable
 title: FreeInterfaceContextTable function (ondemandconnroutehelper.h)
 description: This function frees the interface context table retrieved using the GetInterfaceContextTableForHostName function.
+helpviewer_keywords: ["FreeInterfaceContextTable","FreeInterfaceContextTable function [Network Awareness]","nla.freeinterfacecontexttable","ondemandconnroutehelper/FreeInterfaceContextTable"]
 old-location: nla\freeinterfacecontexttable.htm
 tech.root: nla
 ms.assetid: 79623E67-C255-498D-ACDA-8BC2AE925224
 ms.date: 12/05/2018
 ms.keywords: FreeInterfaceContextTable, FreeInterfaceContextTable function [Network Awareness], nla.freeinterfacecontexttable, ondemandconnroutehelper/FreeInterfaceContextTable
-f1_keywords:
-- ondemandconnroutehelper/FreeInterfaceContextTable
-dev_langs:
-- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: OnDemandConnRouteHelper.lib
 req.dll: OnDemandConnRouteHelper.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OnDemandConnRouteHelper.dll
-- API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
-api_name:
-- FreeInterfaceContextTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FreeInterfaceContextTable
+ - ondemandconnroutehelper/FreeInterfaceContextTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OnDemandConnRouteHelper.dll
+ - API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
+api_name:
+ - FreeInterfaceContextTable
 ---
 
 # FreeInterfaceContextTable function
@@ -49,36 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-This function frees the interface context table retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a> function.
-
+This function frees the interface context table retrieved using the <a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a> function.
 
 ## -parameters
 
-
-
-
 ### -param InterfaceContextTable [in]
 
-The interface context table retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a> function.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
+The interface context table retrieved using the <a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-getinterfacecontexttableforhostname">GetInterfaceContextTableForHostName</a>

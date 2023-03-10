@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule.put_LocalAddresses
 title: INetFwRule::put_LocalAddresses (netfw.h)
-description: Specifies the list of local addresses for this rule.
+description: Specifies the list of local addresses for this rule. (Put)
+helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","LocalAddresses property","INetFwRule.LocalAddresses","INetFwRule.put_LocalAddresses","INetFwRule::LocalAddresses","INetFwRule::get_LocalAddresses","INetFwRule::put_LocalAddresses","LocalAddresses property [ICS/ICF]","LocalAddresses property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_localaddresses","netfw/INetFwRule::LocalAddresses","netfw/INetFwRule::get_LocalAddresses","netfw/INetFwRule::put_LocalAddresses","put_LocalAddresses"]
 old-location: ics\inetfwrule_localaddresses.htm
 tech.root: ics
 ms.assetid: e95c6545-770b-430f-a1fc-32dcaac0eaa0
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],LocalAddresses property, INetFwRule.LocalAddresses, INetFwRule.put_LocalAddresses, INetFwRule::LocalAddresses, INetFwRule::get_LocalAddresses, INetFwRule::put_LocalAddresses, LocalAddresses property [ICS/ICF], LocalAddresses property [ICS/ICF],INetFwRule interface, ics.inetfwrule_localaddresses, netfw/INetFwRule::LocalAddresses, netfw/INetFwRule::get_LocalAddresses, netfw/INetFwRule::put_LocalAddresses, put_LocalAddresses
-f1_keywords:
-- netfw/INetFwRule.LocalAddresses
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule.LocalAddresses
-- INetFwRule.get_LocalAddresses
-- INetFwRule.put_LocalAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule::put_LocalAddresses
+ - netfw/INetFwRule::put_LocalAddresses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule.LocalAddresses
+ - INetFwRule.get_LocalAddresses
+ - INetFwRule.put_LocalAddresses
 ---
 
 # INetFwRule::put_LocalAddresses
@@ -50,22 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the list of local addresses for this  rule.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property is optional.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
+Also see the restrictions on changing properties described in the Remarks section of the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
 The <i>localAddrs</i> parameter consists of one or more comma-delimited tokens specifying the local addresses from which the application can listen for traffic.  "*" is the default value. Valid tokens include:
 
@@ -81,15 +78,6 @@ The <i>localAddrs</i> parameter consists of one or more comma-delimited tokens s
 <li>An IPv6 address range in the format of "start address - end address" with no spaces included.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>

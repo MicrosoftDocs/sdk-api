@@ -2,15 +2,12 @@
 UID: NF:adshlp.ADsOpenObject
 title: ADsOpenObject function (adshlp.h)
 description: Binds to an ADSI object using explicit user name and password credentials.
+helpviewer_keywords: ["ADsOpenObject","ADsOpenObject function [ADSI]","_ds_adsopenobject","adshlp/ADsOpenObject","adsi.adsopenobject"]
 old-location: adsi\adsopenobject.htm
 tech.root: adsi
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
 ms.date: 12/05/2018
 ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject
-f1_keywords:
-- adshlp/ADsOpenObject
-dev_langs:
-- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Activeds.dll
-api_name:
-- ADsOpenObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ADsOpenObject
+ - adshlp/ADsOpenObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Activeds.dll
+api_name:
+ - ADsOpenObject
 ---
 
 # ADsOpenObject function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ADsOpenObject</b> function binds to an ADSI object using explicit user name and password credentials.<b>ADsOpenObject</b> is a wrapper function for <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> and is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a> method.
-
+The <b>ADsOpenObject</b> function binds to an ADSI object using explicit user name and password credentials.<b>ADsOpenObject</b> is a wrapper function for <a href="/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> and is equivalent to the <a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a> method.
 
 ## -parameters
-
-
-
 
 ### -param lpszPathName [in]
 
 Type: <b>LPCWSTR</b>
 
-The null-terminated Unicode string that specifies the ADsPath of the ADSI object. For more information and code examples of binding strings for this parameter, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a> and  <a href="https://docs.microsoft.com/windows/desktop/ADSI/winnt-adspath">WinNT ADsPath</a>.
-
+The null-terminated Unicode string that specifies the ADsPath of the ADSI object. For more information and code examples of binding strings for this parameter, see  <a href="/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a> and  <a href="/windows/desktop/ADSI/winnt-adspath">WinNT ADsPath</a>.
 
 ### -param lpszUserName [in]
 
 Type: <b>LPCWSTR</b>
 
-The null-terminated Unicode string that specifies the user name to supply to the directory service to use for credentials. This string should always be in the format "&lt;domain&gt;\&lt;user name&gt;" to avoid ambiguity. For example, if DomainA and DomainB have a trust relationship and both domains have a user with the name "user1", it is not possible to predict which domain <b>ADsOpenObject</b> will use to validate "user1".
-
+The null-terminated Unicode string that specifies the user name to supply to the directory service to use for credentials. This string should always be in the format "&lt;domain\\&gt;&lt;user name&gt;" to avoid ambiguity. For example, if DomainA and DomainB have a trust relationship and both domains have a user with the name "user1", it is not possible to predict which domain <b>ADsOpenObject</b> will use to validate "user1".
 
 ### -param lpszPassword [in]
 
@@ -77,13 +72,11 @@ Type: <b>LPCWSTR</b>
 
 The null-terminated Unicode string that specifies the password to supply to the directory service to use for credentials.
 
-
 ### -param dwReserved [in]
 
 Type: <b>DWORD</b>
 
-Provider-specific authentication flags used to define the binding options. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>.
-
+Provider-specific authentication flags used to define the binding options. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>.
 
 ### -param riid [in]
 
@@ -91,36 +84,27 @@ Type: <b>REFIID</b>
 
 Interface identifier for the requested interface on this object.
 
-
 ### -param ppObject [out]
 
 Type: <b>VOID**</b>
 
 Pointer to a  pointer to the requested interface.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 This method supports the standard <b>HRESULT</b> return values, including the following.
 
-For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-
-
-This function should not be used just to validate user credentials. For more information about validating user credentials, see Microsoft Knowledge Base article 180548 <a href="https://go.microsoft.com/fwlink/p/?linkid=83979">HOWTO: Validate User Credentials on Microsoft Operating Systems</a>.
+This function should not be used just to validate user credentials.
 
 A C/C++ client calls the <b>ADsOpenObject</b> helper function to bind to an ADSI object, using the user name and password supplied as credentials for the appropriate directory service. If <i>lpszUsername</i> and <i>lpszPassword</i> are <b>NULL</b> and <b>ADS_SECURE_AUTHENTICATION</b> is set, ADSI binds to the object using the security context of the calling thread, which is either the security context of the user account under which the application is running or of the client user account that the calling thread impersonates.
 
-The  credentials passed to the <b>ADsOpenObject</b> function are used only with the particular object bound to and do not affect the security context of the calling thread. This means that, in the example below, the call to <b>ADsOpenObject</b> will use different credentials than the call to <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>.
+The  credentials passed to the <b>ADsOpenObject</b> function are used only with the particular object bound to and do not affect the security context of the calling thread. This means that, in the example below, the call to <b>ADsOpenObject</b> will use different credentials than the call to <a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>.
 
 
 ```cpp
@@ -177,37 +161,26 @@ hr = ADsOpenObject(L"LDAP://CN=Jeff,DC=Fabrikam,DC=com",
                    (void**) &pObject);
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
+<a href="/windows/desktop/ADSI/binding-with-adsopenobject-and-iadsopendsobject-opendsobject">ADsOpenObject and IADsOpenDSObject::OpenDsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/binding-with-adsopenobject-and-iadsopendsobject-opendsobject">ADsOpenObject and IADsOpenDSObject::OpenDsObject</a>
+<a href="/windows/desktop/wsw/binding">Binding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wsw/binding">Binding</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>

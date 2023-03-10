@@ -2,15 +2,12 @@
 UID: NF:webservices.WsOpenServiceHost
 title: WsOpenServiceHost function (webservices.h)
 description: Opens a Service Host for communication and starts the Listeners on all the endpoints. Client applications cannot connect to Service endpoints until WsOpenSerivceHost is called.
+helpviewer_keywords: ["WsOpenServiceHost","WsOpenServiceHost function [Web Services for Windows]","webservices/WsOpenServiceHost","wsw.wsopenservicehost"]
 old-location: wsw\wsopenservicehost.htm
 tech.root: wsw
 ms.assetid: 4e6ef553-7f0e-4ed7-bbdd-e85d4e0a095c
 ms.date: 12/05/2018
 ms.keywords: WsOpenServiceHost, WsOpenServiceHost function [Web Services for Windows], webservices/WsOpenServiceHost, wsw.wsopenservicehost
-f1_keywords:
-- webservices/WsOpenServiceHost
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsOpenServiceHost
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsOpenServiceHost
+ - webservices/WsOpenServiceHost
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsOpenServiceHost
 ---
 
 # WsOpenServiceHost function
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Opens a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">Service Host</a> for communication and starts the Listeners on all the endpoints. 
+Opens a <a href="/windows/desktop/wsw/service-host">Service Host</a> for communication and starts the Listeners on all the endpoints. 
             Client applications cannot connect to Service endpoints until <b>WsOpenSerivceHost</b> is called.
-
 
 ## -parameters
 
-
-
-
 ### -param serviceHost [in]
 
-A pointer to the <b>Service Host</b> object to open.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
-                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
-        
-                
-
+A pointer to the <b>Service Host</b> object to open.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
+                    returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
 
 ### -param asyncContext [in, optional]
 
 A pointer  to A WS_ASYNC_CONTEXT object that has information about how to invoke the function asynchronously.  The value is set to <b>NULL</b> if invoking synchronously.
 
-
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -211,18 +200,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Note that all the endpoints listeners have to successfully open before any channel is accepted by service host for communicating 
-                with the client. 
-            
-
-
-
+                with the client.

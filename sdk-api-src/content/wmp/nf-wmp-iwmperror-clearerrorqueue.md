@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPError.clearErrorQueue
 title: IWMPError::clearErrorQueue (wmp.h)
 description: The clearErrorQueue method clears the errors from the error queue.
+helpviewer_keywords: ["IWMPError interface [Windows Media Player]","clearErrorQueue method","IWMPError.clearErrorQueue","IWMPError::clearErrorQueue","IWMPErrorclearErrorQueue","clearErrorQueue","clearErrorQueue method [Windows Media Player]","clearErrorQueue method [Windows Media Player]","IWMPError interface","wmp.iwmperror_clearerrorqueue","wmp/IWMPError::clearErrorQueue"]
 old-location: wmp\iwmperror_clearerrorqueue.htm
 tech.root: WMP
 ms.assetid: 8c965b48-d178-4b41-add7-0b7d208380a3
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],clearErrorQueue method, IWMPError.clearErrorQueue, IWMPError::clearErrorQueue, IWMPErrorclearErrorQueue, clearErrorQueue, clearErrorQueue method [Windows Media Player], clearErrorQueue method [Windows Media Player],IWMPError interface, wmp.iwmperror_clearerrorqueue, wmp/IWMPError::clearErrorQueue
-f1_keywords:
-- wmp/IWMPError.clearErrorQueue
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPError.clearErrorQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPError::clearErrorQueue
+ - wmp/IWMPError::clearErrorQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPError.clearErrorQueue
 ---
 
 # IWMPError::clearErrorQueue
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>clearErrorQueue</b> method clears the errors from the error queue.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,29 +75,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method to clear the error queue after a series of errors has been processed.
 
 You should set a <b>VARIANT_BOOL</b> to <b>FALSE</b> and pass it into <b>IWMPSettings::put_enableErrorDialogs</b> if you choose to display custom error messages.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError Interface</a>

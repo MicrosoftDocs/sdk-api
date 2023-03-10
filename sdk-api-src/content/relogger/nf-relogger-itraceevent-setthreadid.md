@@ -2,15 +2,12 @@
 UID: NF:relogger.ITraceEvent.SetThreadId
 title: ITraceEvent::SetThreadId (relogger.h)
 description: Sets the identifier of a thread that generates an event.
+helpviewer_keywords: ["ITraceEvent interface [ETW]","SetThreadId method","ITraceEvent.SetThreadId","ITraceEvent::SetThreadId","SetThreadId","SetThreadId method [ETW]","SetThreadId method [ETW]","ITraceEvent interface","etw.ievent_setthreadid","relogger/ITraceEvent::SetThreadId"]
 old-location: etw\ievent_setthreadid.htm
 tech.root: ETW
 ms.assetid: 9f5d293e-da87-4b83-9407-fc4179a42a46
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetThreadId method, ITraceEvent.SetThreadId, ITraceEvent::SetThreadId, SetThreadId, SetThreadId method [ETW], SetThreadId method [ETW],ITraceEvent interface, etw.ievent_setthreadid, relogger/ITraceEvent::SetThreadId
-f1_keywords:
-- relogger/ITraceEvent.SetThreadId
-dev_langs:
-- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Relogger.h
-api_name:
-- ITraceEvent.SetThreadId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceEvent::SetThreadId
+ - relogger/ITraceEvent::SetThreadId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Relogger.h
+api_name:
+ - ITraceEvent.SetThreadId
 ---
 
 # ITraceEvent::SetThreadId
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetThreadId</b> method sets the identifier of a thread that generates an event.
 
-
 ## -parameters
-
-
-
 
 ### -param ThreadId [in]
 
@@ -63,25 +60,12 @@ Type: <b>ULONG</b>
 
 Identifier of the thread that generates the event.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>

@@ -2,15 +2,12 @@
 UID: NF:wuapi.IImageInformation.get_Width
 title: IImageInformation::get_Width (wuapi.h)
 description: Gets the width of the image, in pixels.
+helpviewer_keywords: ["IImageInformation interface [Windows Update Agent]","Width property","IImageInformation.Width","IImageInformation.get_Width","IImageInformation::Width","IImageInformation::get_Width","Width property [Windows Update Agent]","Width property [Windows Update Agent]","IImageInformation interface","get_Width","wua.iimageinformation_width","wuapi/IImageInformation::Width","wuapi/IImageInformation::get_Width"]
 old-location: wua\iimageinformation_width.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 90379e21-f67b-4c59-b3bf-da6aeefe5b00
 ms.date: 12/05/2018
 ms.keywords: IImageInformation interface [Windows Update Agent],Width property, IImageInformation.Width, IImageInformation.get_Width, IImageInformation::Width, IImageInformation::get_Width, Width property [Windows Update Agent], Width property [Windows Update Agent],IImageInformation interface, get_Width, wua.iimageinformation_width, wuapi/IImageInformation::Width, wuapi/IImageInformation::get_Width
-f1_keywords:
-- wuapi/IImageInformation.Width
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IImageInformation.Width
-- IImageInformation.get_Width
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageInformation::get_Width
+ - wuapi/IImageInformation::get_Width
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IImageInformation.Width
+ - IImageInformation.get_Width
 ---
 
 # IImageInformation::get_Width
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the width of the image, in pixels.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iimageinformation">IImageInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iimageinformation">IImageInformation</a>

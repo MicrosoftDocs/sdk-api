@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterScopeMatchingRule
 title: IWSDiscoveryPublisher::RegisterScopeMatchingRule (wsddisco.h)
 description: Adds support for a custom scope matching rule.
+helpviewer_keywords: ["IWSDiscoveryPublisher interface","RegisterScopeMatchingRule method","IWSDiscoveryPublisher.RegisterScopeMatchingRule","IWSDiscoveryPublisher::RegisterScopeMatchingRule","RegisterScopeMatchingRule","RegisterScopeMatchingRule method","RegisterScopeMatchingRule method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_registerscopematchingrule_method","wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule"]
 old-location: ncd\iwsdiscoverypublisher_registerscopematchingrule_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 3ceb55de-c8be-43a7-93d7-8f674f9645ef
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterScopeMatchingRule method, IWSDiscoveryPublisher.RegisterScopeMatchingRule, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
-f1_keywords:
-- wsddisco/IWSDiscoveryPublisher.RegisterScopeMatchingRule
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryPublisher.RegisterScopeMatchingRule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryPublisher::RegisterScopeMatchingRule
+ - wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryPublisher.RegisterScopeMatchingRule
 ---
 
 # IWSDiscoveryPublisher::RegisterScopeMatchingRule
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds support for a custom scope matching rule.
-
 
 ## -parameters
 
-
-
-
 ### -param pScopeMatchingRule [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdscopematchingrule">IWSDScopeMatchingRule</a> object that represents a  custom scope matching rule.
-
+Pointer to an <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdscopematchingrule">IWSDScopeMatchingRule</a> object that represents a  custom scope matching rule.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,27 +101,11 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>RegisterScopeMatchingRule</b> allows custom scope matching rules to be defined and added to the existing set defined in the <a href="https://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery specification</a>.
-
-
-
+<b>RegisterScopeMatchingRule</b> allows custom scope matching rules to be defined and added to the existing set defined in the <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery specification</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>

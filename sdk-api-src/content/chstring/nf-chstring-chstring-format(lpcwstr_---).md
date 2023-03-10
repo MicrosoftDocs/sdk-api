@@ -1,14 +1,12 @@
 ---
 UID: NF:chstring.CHString.Format(LPCWSTR,...)
 title: CHString::Format
-description: 
+description: The CHString::Format method formats and stores a series of characters and values in a CHString.
+tech.root: wmi
+helpviewer_keywords: ["CHString::Format"]
 ms.assetid: 2187385b-8e30-4620-be1a-8c95c4d870b1
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::Format
-f1_keywords:
-- chstring/CHString::Format
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,22 +27,28 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::Format
+ - chstring/CHString::Format
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::Format
+ - CHString::Format
 ---
 
 # CHString::Format
 
+
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
+The <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
 
 The **Format** method formats and stores a series of characters and values in a **CHString**.
 
@@ -54,7 +58,7 @@ The **Format** method formats and stores a series of characters and values in a 
 
 Format-control string.
 
-### -param arg2
+### -param ...
 
 Argument list.
 
@@ -90,6 +94,7 @@ A **NULL** character is appended to the end of the written characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">CHString::GetBuffer</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-getbuffer">CHString::GetBuffer</a>
+

@@ -2,15 +2,12 @@
 UID: NF:setupapi.SetupDiBuildClassInfoList
 title: SetupDiBuildClassInfoList function (setupapi.h)
 description: The SetupDiBuildClassInfoList function returns a list of setup class GUIDs that identify the classes that are installed on a local computer.
+helpviewer_keywords: ["SetupDiBuildClassInfoList","SetupDiBuildClassInfoList function [Device and Driver Installation]","devinst.setupdibuildclassinfolist","di-rtns_25e014d5-5a99-42c3-8032-a24acd1856df.xml","setupapi/SetupDiBuildClassInfoList"]
 old-location: devinst\setupdibuildclassinfolist.htm
 tech.root: devinst
 ms.assetid: a01b1f8f-55af-4053-8c31-9329ef36f2ce
 ms.date: 12/05/2018
 ms.keywords: SetupDiBuildClassInfoList, SetupDiBuildClassInfoList function [Device and Driver Installation], devinst.setupdibuildclassinfolist, di-rtns_25e014d5-5a99-42c3-8032-a24acd1856df.xml, setupapi/SetupDiBuildClassInfoList
-f1_keywords:
-- setupapi/SetupDiBuildClassInfoList
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupDiBuildClassInfoList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiBuildClassInfoList
+ - setupapi/SetupDiBuildClassInfoList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupDiBuildClassInfoList
 ---
 
 # SetupDiBuildClassInfoList function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiBuildClassInfoList</b> function returns a list of setup class GUIDs that identify the classes that are installed on a local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -75,16 +72,13 @@ Exclude a class if it has the <b>NoInstallClass</b> value entry in its registry 
 
 Exclude a class if it has the <b>NoDisplayClass</b> value entry in its registry key.
 
-
 ### -param ClassGuidList [out, optional]
 
 A pointer to a GUID-typed array that receives a list of setup class GUIDs. This pointer is optional and can be <b>NULL</b>.
 
-
 ### -param ClassGuidListSize [in]
 
 The number of GUIDs in the array that is pointed to by the <i>ClassGuildList</i> parameter. If <i>ClassGuidList</i> is <b>NULL</b>, <i>ClassGuidSize</i> must be zero.
-
 
 ### -param RequiredSize [out]
 
@@ -92,44 +86,26 @@ A pointer to a DWORD-typed variable that receives the number of GUIDs that are r
 
 If this number is greater than the size of the <i>ClassGuidList</i> array, it indicates how large the <i>ClassGuidList</i> array must be in order to contain all the class GUIDs.
 
-
 ## -returns
 
-
-
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
-
-
-
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by making a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 To retrieve the number of classes that are installed on a local computer, call <b>SetupDiBuildClassInfoList</b> with <i>ClassGuidList</i> set to <b>NULL</b> and <i>ClassGuidSize</i> set to zero. In response to such a call, the function returns the number of classes in <b>*</b><i>RequiredSize</i>.
 
 <b>SetupDiBuildClassInfoList</b> does not return a class GUID for a class if the <b>NoUseClass</b> value entry exists in the registry key of the class.
 
-To retrieve the list of setup class GUIDs installed on a remote system use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolistexa">SetupDiBuildClassInfoListEx</a>. 
-
-
-
+To retrieve the list of setup class GUIDs installed on a remote system use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolistexa">SetupDiBuildClassInfoListEx</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolistexa">SetupDiBuildClassInfoListEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuildclassinfolistexa">SetupDiBuildClassInfoListEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdescriptiona">SetupDiGetClassDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdescriptiona">SetupDiGetClassDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetinfclassa">SetupDiGetINFClass</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetinfclassa">SetupDiGetINFClass</a>

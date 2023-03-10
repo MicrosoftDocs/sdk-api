@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontSet1.CreateFontResource
 title: IDWriteFontSet1::CreateFontResource
 description: Creates the font resource of a single item.
+helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","CreateFontResource method","IDWriteFontSet1.CreateFontResource","IDWriteFontSet1::CreateFontResource","CreateFontResource","CreateFontResource method [Direct Write]","CreateFontResource method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_createfontresource","dwrite_3/IDWriteFontSet1::CreateFontResource"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],CreateFontResource method, IDWriteFontSet1.CreateFontResource, IDWriteFontSet1::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_createfontresource, dwrite_3/IDWriteFontSet1::CreateFontResource
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.CreateFontResource
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::CreateFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::CreateFontResource
+ - dwrite_3/IDWriteFontSet1::CreateFontResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::CreateFontResource
 ---
 
 ## -description
@@ -56,9 +58,9 @@ Zero-based index of the font item in the set.
 
 ### -param fontResource [out]
 
-Type: **[IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource)\*\***
+Type: **[IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md)\*\***
 
-The address of a pointer to an [IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface. On successful completion, the function sets the pointer to a newly created font resource object.
+The address of a pointer to an [IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md) interface. On successful completion, the function sets the pointer to a newly created font resource object.
 
 ## -returns
 

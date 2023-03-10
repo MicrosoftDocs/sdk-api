@@ -2,15 +2,12 @@
 UID: NF:vds.IVdsDisk2.SetSANMode
 title: IVdsDisk2::SetSANMode (vds.h)
 description: Sets the SAN mode of a disk to offline or online.
+helpviewer_keywords: ["IVdsDisk2 interface","SetSANMode method","IVdsDisk2.SetSANMode","IVdsDisk2::SetSANMode","SetSANMode","SetSANMode method","SetSANMode method","IVdsDisk2 interface","base.ivdsdisk2_setsanmode","vds/IVdsDisk2::SetSANMode"]
 old-location: base\ivdsdisk2_setsanmode.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 17bdb6f4-7d85-4aa6-b89b-a752332cc224
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2 interface,SetSANMode method, IVdsDisk2.SetSANMode, IVdsDisk2::SetSANMode, SetSANMode, SetSANMode method, SetSANMode method,IVdsDisk2 interface, base.ivdsdisk2_setsanmode, vds/IVdsDisk2::SetSANMode
-f1_keywords:
-- vds/IVdsDisk2.SetSANMode
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsDisk2.SetSANMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsDisk2::SetSANMode
+ - vds/IVdsDisk2::SetSANMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsDisk2.SetSANMode
 ---
 
 # IVdsDisk2::SetSANMode
@@ -49,29 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
-
-Sets the SAN mode of a disk to offline or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this method is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskonline-online">IVdsDiskOnline::Online</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskonline-offline">IVdsDiskOnline::Offline</a> methods.</div>
+Sets the SAN mode of a disk to offline or online.<div class="alert"><b>Note</b>  Starting with Windows Vista with Service Pack 1 (SP1), this method is superseded by the <a href="/windows/desktop/api/vds/nf-vds-ivdsdiskonline-online">IVdsDiskOnline::Online</a> and <a href="/windows/desktop/api/vds/nf-vds-ivdsdiskonline-offline">IVdsDiskOnline::Offline</a> methods.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param bEnable [in]
 
 Specify <b>TRUE</b> for online or <b>FALSE</b> for offline.
 
-
 ## -returns
 
-
-
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -114,29 +107,13 @@ The online operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Setting the SAN mode of a disk to offline is called "offlining" the disk. Setting it to online is called "onlining" the disk.
 
 <b>Windows Vista:  </b>Setting the SAN mode of a disk to offline also makes the disk read-only. Setting it to online also makes the disk read-write.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdisk2">IVdsDisk2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vds/nn-vds-ivdsdisk2">IVdsDisk2</a>

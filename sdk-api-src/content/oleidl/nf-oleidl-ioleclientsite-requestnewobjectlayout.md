@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleClientSite.RequestNewObjectLayout
 title: IOleClientSite::RequestNewObjectLayout (oleidl.h)
 description: Asks a container to resize the display site for embedded objects.
+helpviewer_keywords: ["IOleClientSite interface [COM]","RequestNewObjectLayout method","IOleClientSite.RequestNewObjectLayout","IOleClientSite::RequestNewObjectLayout","RequestNewObjectLayout","RequestNewObjectLayout method [COM]","RequestNewObjectLayout method [COM]","IOleClientSite interface","_ole_ioleclientsite_requestnewobjectlayout","com.ioleclientsite_requestnewobjectlayout","oleidl/IOleClientSite::RequestNewObjectLayout"]
 old-location: com\ioleclientsite_requestnewobjectlayout.htm
 tech.root: com
 ms.assetid: 68867ddd-fad0-4eef-8e5c-8198366e8e64
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite interface [COM],RequestNewObjectLayout method, IOleClientSite.RequestNewObjectLayout, IOleClientSite::RequestNewObjectLayout, RequestNewObjectLayout, RequestNewObjectLayout method [COM], RequestNewObjectLayout method [COM],IOleClientSite interface, _ole_ioleclientsite_requestnewobjectlayout, com.ioleclientsite_requestnewobjectlayout, oleidl/IOleClientSite::RequestNewObjectLayout
-f1_keywords:
-- oleidl/IOleClientSite.RequestNewObjectLayout
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleClientSite.RequestNewObjectLayout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleClientSite::RequestNewObjectLayout
+ - oleidl/IOleClientSite::RequestNewObjectLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleClientSite.RequestNewObjectLayout
 ---
 
 # IOleClientSite::RequestNewObjectLayout
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Asks a container to resize the display site for embedded objects.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -82,27 +75,11 @@ Client site does not support requests for new layout.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method can either increase or decrease the space. Currently, there is no standard mechanism by which a container can negotiate how much room an object would like. When such a negotiation is defined, responding to this method will be optional for containers.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>

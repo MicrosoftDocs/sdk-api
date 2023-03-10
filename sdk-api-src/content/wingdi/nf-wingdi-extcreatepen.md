@@ -2,15 +2,12 @@
 UID: NF:wingdi.ExtCreatePen
 title: ExtCreatePen function (wingdi.h)
 description: The ExtCreatePen function creates a logical cosmetic or geometric pen that has the specified style, width, and brush attributes.
+helpviewer_keywords: ["ExtCreatePen","ExtCreatePen function [Windows GDI]","PS_ALTERNATE","PS_COSMETIC","PS_DASH","PS_DASHDOT","PS_DASHDOTDOT","PS_DOT","PS_ENDCAP_FLAT","PS_ENDCAP_ROUND","PS_ENDCAP_SQUARE","PS_GEOMETRIC","PS_INSIDEFRAME","PS_JOIN_BEVEL","PS_JOIN_MITER","PS_JOIN_ROUND","PS_NULL","PS_SOLID","PS_USERSTYLE","_win32_ExtCreatePen","gdi.extcreatepen","wingdi/ExtCreatePen"]
 old-location: gdi\extcreatepen.htm
 tech.root: gdi
 ms.assetid: a1e81314-4fe6-481f-af96-24ebf56332cf
 ms.date: 12/05/2018
 ms.keywords: ExtCreatePen, ExtCreatePen function [Windows GDI], PS_ALTERNATE, PS_COSMETIC, PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_ENDCAP_FLAT, PS_ENDCAP_ROUND, PS_ENDCAP_SQUARE, PS_GEOMETRIC, PS_INSIDEFRAME, PS_JOIN_BEVEL, PS_JOIN_MITER, PS_JOIN_ROUND, PS_NULL, PS_SOLID, PS_USERSTYLE, _win32_ExtCreatePen, gdi.extcreatepen, wingdi/ExtCreatePen
-f1_keywords:
-- wingdi/ExtCreatePen
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- ExtCreatePen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ExtCreatePen
+ - wingdi/ExtCreatePen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - ExtCreatePen
 ---
 
 # ExtCreatePen function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ExtCreatePen</b> function creates a logical cosmetic or geometric pen that has the specified style, width, and brush attributes.
 
-
 ## -parameters
-
-
-
 
 ### -param iPenStyle [in]
 
@@ -256,7 +253,7 @@ Joins are beveled.
 </dl>
 </td>
 <td width="60%">
-Joins are mitered when they are within the current limit set by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a> function. If it exceeds this limit, the join is beveled.
+Joins are mitered when they are within the current limit set by the <a href="/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a> function. If it exceeds this limit, the join is beveled.
 
 </td>
 </tr>
@@ -271,18 +268,14 @@ Joins are round.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cWidth [in]
 
 The width of the pen. If the <i>dwPenStyle</i> parameter is PS_GEOMETRIC, the width is given in logical units. If <i>dwPenStyle</i> is PS_COSMETIC, the width must be set to 1.
 
-
 ### -param plbrush [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
-
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
 
 ### -param cStyle [in]
 
@@ -290,28 +283,19 @@ The length, in <b>DWORD</b> units, of the <i>lpStyle</i> array. This value must 
 
 The style count is limited to 16.
 
-
 ### -param pstyle [in]
 
 A pointer to an array. The first value specifies the length of the first dash in a user-defined style, the second value specifies the length of the first space, and so on. This pointer must be <b>NULL</b> if <i>dwPenStyle</i> is not PS_USERSTYLE.
 
 If the <i>lpStyle</i> array is exceeded during line drawing, the pointer is reset to the beginning of the array. When this happens and <i>dwStyleCount</i> is an even number, the pattern of dashes and spaces repeats. However, if <i>dwStyleCount</i> is odd, the pattern reverses when the pointer is reset -- the first element of <i>lpStyle</i> now refers to spaces, the second refers to dashes, and so forth.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle that identifies a logical pen.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 A geometric pen can have any width and can have any of the attributes of a brush, such as dithers and patterns. A cosmetic pen can only be a single pixel wide and must be a solid color, but cosmetic pens are generally faster than geometric pens.
 
@@ -319,7 +303,7 @@ The width of a geometric pen is always specified in world units. The width of a 
 
 End caps and joins are only specified for geometric pens.
 
-After an application creates a logical pen, it can select that pen into a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
+After an application creates a logical pen, it can select that pen into a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
 
 If <i>dwPenStyle</i> is PS_COSMETIC and PS_USERSTYLE, the entries in the <i>lpStyle</i> array specify lengths of dashes and spaces in style units. A style unit is defined by the device where the pen is used to draw a line.
 
@@ -327,64 +311,55 @@ If <i>dwPenStyle</i> is PS_GEOMETRIC and PS_USERSTYLE, the entries in the <i>lpS
 
 If <i>dwPenStyle</i> is PS_ALTERNATE, the style unit is ignored and every other pixel is set.
 
-If the <b>lbStyle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure pointed to by <i>lplb</i> is BS_PATTERN, the bitmap pointed to by the <b>lbHatch</b> member of that structure cannot be a DIB section. A DIB section is a bitmap created by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. If that bitmap is a DIB section, the <b>ExtCreatePen</b> function fails.
+If the <b>lbStyle</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure pointed to by <i>lplb</i> is BS_PATTERN, the bitmap pointed to by the <b>lbHatch</b> member of that structure cannot be a DIB section. A DIB section is a bitmap created by <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. If that bitmap is a DIB section, the <b>ExtCreatePen</b> function fails.
 
-When an application no longer requires a specified pen, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete the pen.
+When an application no longer requires a specified pen, it should call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete the pen.
 
 <b>ICM:</b> No color management is done at pen creation. However, color management is performed when the pen is selected into an ICM-enabled device context.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-pens">Using Pens</a>.
+For an example, see <a href="/windows/desktop/gdi/using-pens">Using Pens</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
+<a href="/windows/desktop/gdi/pen-functions">Pen Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pen-functions">Pen Functions</a>
+<a href="/windows/desktop/gdi/pens">Pens Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pens">Pens Overview</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>

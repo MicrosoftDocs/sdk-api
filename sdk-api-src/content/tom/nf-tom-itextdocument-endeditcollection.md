@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument.EndEditCollection
 title: ITextDocument::EndEditCollection (tom.h)
 description: Turns off edit collection (also called undo grouping).
+helpviewer_keywords: ["EndEditCollection","EndEditCollection method [Windows Controls]","EndEditCollection method [Windows Controls]","ITextDocument interface","ITextDocument interface [Windows Controls]","EndEditCollection method","ITextDocument.EndEditCollection","ITextDocument::EndEditCollection","_win32_ITextDocument_EndEditCollection","_win32_ITextDocument_EndEditCollection_cpp","controls.ITextDocument_EndEditCollection","controls._win32_ITextDocument_EndEditCollection","tom/ITextDocument::EndEditCollection"]
 old-location: controls\ITextDocument_EndEditCollection.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endeditcollection.htm
 ms.date: 12/05/2018
 ms.keywords: EndEditCollection, EndEditCollection method [Windows Controls], EndEditCollection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],EndEditCollection method, ITextDocument.EndEditCollection, ITextDocument::EndEditCollection, _win32_ITextDocument_EndEditCollection, _win32_ITextDocument_EndEditCollection_cpp, controls.ITextDocument_EndEditCollection, controls._win32_ITextDocument_EndEditCollection, tom/ITextDocument::EndEditCollection
-f1_keywords:
-- tom/ITextDocument.EndEditCollection
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument.EndEditCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument::EndEditCollection
+ - tom/ITextDocument::EndEditCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument.EndEditCollection
 ---
 
 # ITextDocument::EndEditCollection
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Turns off edit collection (also called <i>undo grouping</i>). 
-
-
-## -parameters
-
-
-
+Turns off edit collection (also called <i>undo grouping</i>).
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -84,26 +77,14 @@ This method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The screen is unfrozen unless the freeze count is nonzero.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-begineditcollection">BeginEditCollection</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-begineditcollection">BeginEditCollection</a>
 
 
 
@@ -111,11 +92,11 @@ The screen is unfrozen unless the freeze count is nonzero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-freeze">Freeze</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-freeze">Freeze</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -123,8 +104,4 @@ The screen is unfrozen unless the freeze count is nonzero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

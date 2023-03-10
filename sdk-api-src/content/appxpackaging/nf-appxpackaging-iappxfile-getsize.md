@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxFile.GetSize
 title: IAppxFile::GetSize (appxpackaging.h)
 description: Retrieves the uncompressed size of the file.
+helpviewer_keywords: ["GetSize","GetSize method [App packaging and management]","GetSize method [App packaging and management]","IAppxFile interface","IAppxFile interface [App packaging and management]","GetSize method","IAppxFile.GetSize","IAppxFile::GetSize","appxpackaging/IAppxFile::GetSize","appxpkg.iappxfile_getsize"]
 old-location: appxpkg\iappxfile_getsize.htm
 tech.root: appxpkg
 ms.assetid: 73353CE0-98F8-4A8C-A259-A07C125B9EE9
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [App packaging and management], GetSize method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetSize method, IAppxFile.GetSize, IAppxFile::GetSize, appxpackaging/IAppxFile::GetSize, appxpkg.iappxfile_getsize
-f1_keywords:
-- appxpackaging/IAppxFile.GetSize
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxFile.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxFile::GetSize
+ - appxpackaging/IAppxFile::GetSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxFile.GetSize
 ---
 
 # IAppxFile::GetSize
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the uncompressed size of the file.
-
 
 ## -parameters
 
-
-
-
 ### -param size [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
 
 The uncompressed size, in bytes.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>

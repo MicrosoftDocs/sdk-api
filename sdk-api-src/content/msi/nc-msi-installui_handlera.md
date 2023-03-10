@@ -1,16 +1,13 @@
 ---
 UID: NC:msi.INSTALLUI_HANDLERA
 title: INSTALLUI_HANDLERA (msi.h)
-description: The INSTALLUI_HANDLER function prototype defines a callback function that the installer calls for progress notification and error messages.
+description: The INSTALLUI_HANDLER function prototype defines a callback function that the installer calls for progress notification and error messages. (ANSI)
+helpviewer_keywords: ["INSTALLMESSAGE_ACTIONDATA","INSTALLMESSAGE_ACTIONSTART","INSTALLMESSAGE_COMMONDATA","INSTALLMESSAGE_ERROR","INSTALLMESSAGE_FATALEXIT","INSTALLMESSAGE_FILESINUSE","INSTALLMESSAGE_INFO","INSTALLMESSAGE_INITIALIZE","INSTALLMESSAGE_INSTALLEND","INSTALLMESSAGE_INSTALLSTART","INSTALLMESSAGE_OUTOFDISKSPACE","INSTALLMESSAGE_PROGRESS","INSTALLMESSAGE_RESOLVESOURCE","INSTALLMESSAGE_RMFILESINUSE","INSTALLMESSAGE_SHOWDIALOG","INSTALLMESSAGE_TERMINATE","INSTALLMESSAGE_USER","INSTALLMESSAGE_WARNING","INSTALLUI_HANDLER callback","INSTALLUI_HANDLERA","INSTALLUI_HANDLERW","InstalluiHandler","InstalluiHandler callback function","MB_ABORTRETRYIGNORE","MB_DEFBUTTON1","MB_DEFBUTTON2","MB_DEFBUTTON3","MB_ICONEXCLAMATION","MB_ICONWARNING","MB_ICONINFORMATION","MB_ICONASTERISK","MB_ICONQUESTION","MB_ICONSTOP","MB_ICONERROR","MB_ICONHAND","MB_OK","MB_OKCANCEL","MB_RETRYCANCEL","MB_YESNO","MB_YESNOCANCEL","_msi_installui_handler","msi/INSTALLUI_HANDLERA","msi/INSTALLUI_HANDLERW","msi/InstalluiHandler","setup.installui_handler"]
 old-location: setup\installui_handler.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 76d771d4-12d0-4975-88cc-1921a32a2a09
 ms.date: 12/05/2018
 ms.keywords: INSTALLMESSAGE_ACTIONDATA, INSTALLMESSAGE_ACTIONSTART, INSTALLMESSAGE_COMMONDATA, INSTALLMESSAGE_ERROR, INSTALLMESSAGE_FATALEXIT, INSTALLMESSAGE_FILESINUSE, INSTALLMESSAGE_INFO, INSTALLMESSAGE_INITIALIZE, INSTALLMESSAGE_INSTALLEND, INSTALLMESSAGE_INSTALLSTART, INSTALLMESSAGE_OUTOFDISKSPACE, INSTALLMESSAGE_PROGRESS, INSTALLMESSAGE_RESOLVESOURCE, INSTALLMESSAGE_RMFILESINUSE, INSTALLMESSAGE_SHOWDIALOG, INSTALLMESSAGE_TERMINATE, INSTALLMESSAGE_USER, INSTALLMESSAGE_WARNING, INSTALLUI_HANDLER callback, INSTALLUI_HANDLERA, INSTALLUI_HANDLERW, InstalluiHandler, InstalluiHandler callback function, MB_ABORTRETRYIGNORE, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_ICONEXCLAMATION,MB_ICONWARNING, MB_ICONINFORMATION,MB_ICONASTERISK, MB_ICONQUESTION, MB_ICONSTOP,MB_ICONERROR,MB_ICONHAND, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_YESNO, MB_YESNOCANCEL, _msi_installui_handler, msi/INSTALLUI_HANDLERA, msi/INSTALLUI_HANDLERW, msi/InstalluiHandler, setup.installui_handler
-f1_keywords:
-- msi/INSTALLUI_HANDLER
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Msi.h
-api_name:
-- INSTALLUI_HANDLER
-- INSTALLUI_HANDLERA
-- INSTALLUI_HANDLERW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INSTALLUI_HANDLERA
+ - msi/INSTALLUI_HANDLERA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Msi.h
+api_name:
+ - INSTALLUI_HANDLER
+ - INSTALLUI_HANDLERA
+ - INSTALLUI_HANDLERW
 ---
 
 # INSTALLUI_HANDLERA callback function
@@ -50,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>INSTALLUI_HANDLER</b> function prototype defines a callback function that the installer calls for progress notification and error messages. For more information on the usage of this function prototype, a sample code snippet is available in 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/handling-progress-messages-using-msisetexternalui">Handling Progress Messages Using MsiSetExternalUI</a>.
-
+<a href="/windows/desktop/Msi/handling-progress-messages-using-msisetexternalui">Handling Progress Messages Using MsiSetExternalUI</a>.
 
 ## -parameters
-
-
-
 
 ### -param pvContext
 
 Pointer to an application context passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> function. This parameter can be used for error checking.
-
+<a href="/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a> function. This parameter can be used for error checking.
 
 ### -param iMessageType
 
@@ -312,7 +308,7 @@ Request to determine a valid source location
 </dl>
 </td>
 <td width="60%">
-List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer 4.0. For more information about this message see <a href="https://docs.microsoft.com/windows/desktop/Msi/using-restart-manager-with-an-external-ui-">Using Restart Manager with an External UI</a>.
+List of files currently in use that must be closed before being replaced. Available beginning with Windows Installer 4.0. For more information about this message see <a href="/windows/desktop/Msi/using-restart-manager-with-an-external-ui-">Using Restart Manager with an External UI</a>.
 
 </td>
 </tr>
@@ -425,40 +421,28 @@ Sent after installation of product.
 
 The following defaults should be used if any of the preceding messages are missing: MB_OK, no icon, and MB_DEFBUTTON1. There is no default installation message type; a message type is always specified.
 
-
 ### -param szMessage
 
 Specifies the message text.
 
-
 ## -returns
-
-
 
 The following return values map to the buttons specified by the message box style:
 
 IDOK<div> </div>IDCANCEL<div> </div>IDABORT<div> </div>IDRETRY<div> </div>IDIGNORE<div> </div>IDYES<div> </div>IDNO
 
-
-
-
 ## -remarks
 
-
-
 For more information on returning values from an external user interface handler, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/returning-values-from-an-external-user-interface-handler">Returning Values from an External User Interface Handler</a> topic.
+<a href="/windows/desktop/Msi/returning-values-from-an-external-user-interface-handler">Returning Values from an External User Interface Handler</a> topic.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines INSTALLUI_HANDLER as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msi/nf-msi-msisetexternaluia">MsiSetExternalUI</a>

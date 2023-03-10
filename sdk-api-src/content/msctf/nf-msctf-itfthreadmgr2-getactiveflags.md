@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.GetActiveFlags
 title: ITfThreadMgr2::GetActiveFlags (msctf.h)
 description: Gets the active flags of the calling thread.
+helpviewer_keywords: ["GetActiveFlags","GetActiveFlags method [Text Services Framework]","GetActiveFlags method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","GetActiveFlags method","ITfThreadMgr2.GetActiveFlags","ITfThreadMgr2::GetActiveFlags","TF_TMF_ACTIVATED","TF_TMF_COMLESS","TF_TMF_CONSOLE","TF_TMF_IMMERSIVEMODE","TF_TMF_NOACTIVATETIP","TF_TMF_SECUREMODE","TF_TMF_UIELEMENTENABLEDONLY","TF_TMF_WOW16","msctf/ITfThreadMgr2::GetActiveFlags","tsf.itfthreadmgr2_getactiveflags"]
 old-location: tsf\itfthreadmgr2_getactiveflags.htm
 tech.root: TSF
 ms.assetid: F0777E69-C9E2-4E40-9CE0-56084D1C8A41
 ms.date: 12/05/2018
 ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetActiveFlags method, ITfThreadMgr2.GetActiveFlags, ITfThreadMgr2::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_IMMERSIVEMODE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgr2::GetActiveFlags, tsf.itfthreadmgr2_getactiveflags
-f1_keywords:
-- msctf/ITfThreadMgr2.GetActiveFlags
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.GetActiveFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::GetActiveFlags
+ - msctf/ITfThreadMgr2::GetActiveFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.GetActiveFlags
 ---
 
 # ITfThreadMgr2::GetActiveFlags
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the active flags of the calling thread.
 
-
 ## -parameters
-
-
-
 
 ### -param lpdwFlags [out]
 
@@ -147,12 +144,8 @@ TSF is active.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -195,18 +188,7 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

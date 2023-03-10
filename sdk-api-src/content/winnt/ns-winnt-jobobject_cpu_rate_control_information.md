@@ -2,15 +2,12 @@
 UID: NS:winnt._JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 title: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION (winnt.h)
 description: Contains CPU rate control information for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectCpuRateControlInformation information class.
+helpviewer_keywords: ["*PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION","JOBOBJECT_CPU_RATE_CONTROL_INFORMATION","JOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure","JOB_OBJECT_ CPU_RATE_CONTROL_MIN_MAX_RATE","JOB_OBJECT_CPU_RATE_CONTROL_ENABLE","JOB_OBJECT_CPU_RATE_CONTROL_HARD_CAP","JOB_OBJECT_CPU_RATE_CONTROL_NOTIFY","JOB_OBJECT_CPU_RATE_CONTROL_WEIGHT_BASED","PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION","PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure pointer","_JOBOBJECT_CPU_RATE_CONTROL_INFORMATION","base.jobobject_cpu_rate_control_information","winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION","winnt/PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION"]
 old-location: base\jobobject_cpu_rate_control_information.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: eaa5bda2-a37e-441b-a0e4-e00dff6425b2
 ms.date: 12/05/2018
 ms.keywords: '*PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure, JOB_OBJECT_ CPU_RATE_CONTROL_MIN_MAX_RATE, JOB_OBJECT_CPU_RATE_CONTROL_ENABLE, JOB_OBJECT_CPU_RATE_CONTROL_HARD_CAP, JOB_OBJECT_CPU_RATE_CONTROL_NOTIFY, JOB_OBJECT_CPU_RATE_CONTROL_WEIGHT_BASED, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure pointer, _JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, base.jobobject_cpu_rate_control_information, winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, winnt/PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION'
-f1_keywords:
-- winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 targetos: Windows
 req.typenames: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, *PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+ - winnt/_JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+ - PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+ - winnt/PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+ - JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+ - winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 ---
 
 # JOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains CPU rate control information for a job object. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> and <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> functions with the <b>JobObjectCpuRateControlInformation</b> information class.
-
+Contains CPU rate control information for a job object. This structure is used by the <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> and <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a> functions with the <b>JobObjectCpuRateControlInformation</b> information class.
 
 ## -struct-fields
-
-
-
 
 ### -field ControlFlags
 
@@ -128,13 +129,8 @@ If you set <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, you can set neither 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.CpuRate
 
@@ -142,8 +138,7 @@ Specifies the portion of processor cycles that the threads in a job object can u
 
 Set <b>CpuRate</b> to a percentage times 100. For example, to let the job use 20% of the CPU, set <b>CpuRate</b> to 20 times 100, or 2,000.
 
-Do not set <b>CpuRate</b> to 0. If <b>CpuRate</b> is 0,  <a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> returns <b>INVALID_ARGS</b>.
-
+Do not set <b>CpuRate</b> to 0. If <b>CpuRate</b> is 0,  <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> returns <b>INVALID_ARGS</b>.
 
 ### -field DUMMYUNIONNAME.Weight
 
@@ -153,11 +148,7 @@ This member can be a value from 1 through 9, where 1 is the smallest share and 9
 
 If the <b>ControlFlags</b> member specifies <b>JOB_OBJECT_CPU_RATE_CONTROL_MIN_MAX_RATE</b>, this member is not used.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MinRate
 
@@ -165,40 +156,26 @@ Specifies the minimum portion of the processor cycles that the threads in a job 
 
 For the minimum rates to work correctly, the sum of the minimum rates for all of the job objects in the system cannot exceed 10,000, which is the equivalent of 100%.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.MaxRate
 
 Specifies the maximum portion of processor cycles that the threads in a job object can use during each scheduling interval. Specify this rate as a percentage times 100.  For example, to set  a maximum rate of 50%, specify 50 times 100, or  5,000.
 
 After the job reaches this limit for a scheduling interval, no threads associated with the job can run until the next scheduling interval.
 
-
 ## -remarks
-
-
 
 You can set CPU rate control for multiple jobs in a  hierarchy of nested jobs. When you set CPU rate control for a job object, the settings apply to the job and its child jobs in the hierarchy. When you set CPU rate control for a job in a nested hierarchy, the system calculates the corresponding quotas with respect to the CPU rate control of the immediate parent job for the job. In other words, the rates set for the job represent its portion of the CPU rate that is allocated to its parent job.  If a job object does not have a parent with CPU rate control turned on in the chain of its parent jobs, the rate control for the job represents the portion of the CPU for the entire system.
 
-CPU rate control cannot be used by job objects in applications running under <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-portal">Remote Desktop Services</a> (formerly Terminal Services)  if Dynamic Fair Share Scheduling (DFSS) is in effect. 
-
-
-
+CPU rate control cannot be used by job objects in applications running under <a href="/windows/desktop/TermServ/terminal-services-portal">Remote Desktop Services</a> (formerly Terminal Services)  if Dynamic Fair Share Scheduling (DFSS) is in effect.
 
 ## -see-also
 
+<a href="/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-jobobject_notification_limit_information">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

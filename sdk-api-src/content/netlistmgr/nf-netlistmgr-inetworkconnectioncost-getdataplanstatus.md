@@ -2,15 +2,12 @@
 UID: NF:netlistmgr.INetworkConnectionCost.GetDataPlanStatus
 title: INetworkConnectionCost::GetDataPlanStatus (netlistmgr.h)
 description: GetDataPlanStatus method retrieves the status of the data plan associated with a connection.
+helpviewer_keywords: ["GetDataPlanStatus","GetDataPlanStatus method [Network Awareness]","GetDataPlanStatus method [Network Awareness]","INetworkConnectionCost interface","INetworkConnectionCost interface [Network Awareness]","GetDataPlanStatus method","INetworkConnectionCost.GetDataPlanStatus","INetworkConnectionCost::GetDataPlanStatus","netlistmgr/INetworkConnectionCost::GetDataPlanStatus","nla.inetworkconnectioncost_getdataplanstatus"]
 old-location: nla\inetworkconnectioncost_getdataplanstatus.htm
 tech.root: nla
 ms.assetid: 861ED7D2-569A-4B62-BAB6-CA649CA9B524
 ms.date: 12/05/2018
 ms.keywords: GetDataPlanStatus, GetDataPlanStatus method [Network Awareness], GetDataPlanStatus method [Network Awareness],INetworkConnectionCost interface, INetworkConnectionCost interface [Network Awareness],GetDataPlanStatus method, INetworkConnectionCost.GetDataPlanStatus, INetworkConnectionCost::GetDataPlanStatus, netlistmgr/INetworkConnectionCost::GetDataPlanStatus, nla.inetworkconnectioncost_getdataplanstatus
-f1_keywords:
-- netlistmgr/INetworkConnectionCost.GetDataPlanStatus
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- INetworkConnectionCost.GetDataPlanStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetworkConnectionCost::GetDataPlanStatus
+ - netlistmgr/INetworkConnectionCost::GetDataPlanStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - INetworkConnectionCost.GetDataPlanStatus
 ---
 
 # INetworkConnectionCost::GetDataPlanStatus
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDataPlanStatus</b> method retrieves the status of the data plan associated with a connection.
-
 
 ## -parameters
 
-
-
-
 ### -param pDataPlanStatus [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a> structure that describes the status of the data plan associated with the connection. The caller supplies the memory of this structure.
-
+Pointer to an <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a> structure that describes the status of the data plan associated with the connection. The caller supplies the memory of this structure.
 
 ## -returns
-
-
 
 Returns S_OK on success. Otherwise, an HRESULT error code is returned. Possible values include:
 
@@ -96,18 +90,7 @@ Network connectivity is currently unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncost">INetworkConnectionCost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncost">INetworkConnectionCost</a>

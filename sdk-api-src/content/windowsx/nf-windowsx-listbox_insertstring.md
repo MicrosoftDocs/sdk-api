@@ -2,15 +2,12 @@
 UID: NF:windowsx.ListBox_InsertString
 title: ListBox_InsertString macro (windowsx.h)
 description: Adds a string to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
+helpviewer_keywords: ["ListBox_InsertString","ListBox_InsertString macro [Windows Controls]","_win32_ListBox_InsertString","_win32_ListBox_InsertString_cpp","controls.ListBox_InsertString","controls._win32_ListBox_InsertString","windowsx/ListBox_InsertString"]
 old-location: controls\ListBox_InsertString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertstring.htm
 ms.date: 12/05/2018
 ms.keywords: ListBox_InsertString, ListBox_InsertString macro [Windows Controls], _win32_ListBox_InsertString, _win32_ListBox_InsertString_cpp, controls.ListBox_InsertString, controls._win32_ListBox_InsertString, windowsx/ListBox_InsertString
-f1_keywords:
-- windowsx/ListBox_InsertString
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- ListBox_InsertString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ListBox_InsertString
+ - windowsx/ListBox_InsertString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - ListBox_InsertString
 ---
 
 # ListBox_InsertString macro
@@ -48,42 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a> message explicitly.
-
+Adds a string to a list box at the specified location. You can use this macro or send the <a href="/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
-
 
 ### -param index
 
 Type: <b>int</b>
 
-The zero-based index at which to insert the string, or –1 to add it to the end of the list. 
-
+The zero-based index at which to insert the string, or –1 to add it to the end of the list.
 
 ### -param lpsz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The string to add.
 
-
 ## -remarks
 
-
-
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>.
-	
-
-
-
+For more information, see <a href="/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>.

@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_Subject
 title: IX509CertificateRequestPkcs10::get_Subject (certenroll.h)
-description: Specifies or retrieves the X.500 distinguished name of the entity requesting the certificate.
+description: Specifies or retrieves the X.500 distinguished name of the entity requesting the certificate. (Get)
+helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","Subject property","IX509CertificateRequestPkcs10.Subject","IX509CertificateRequestPkcs10.get_Subject","IX509CertificateRequestPkcs10::Subject","IX509CertificateRequestPkcs10::get_Subject","IX509CertificateRequestPkcs10::put_Subject","Subject property [Security]","Subject property [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::Subject","certenroll/IX509CertificateRequestPkcs10::get_Subject","certenroll/IX509CertificateRequestPkcs10::put_Subject","get_Subject","security.ix509certificaterequestpkcs10_subject_property"]
 old-location: security\ix509certificaterequestpkcs10_subject_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 7b521586-f2fc-4b2f-83ab-79f9b972f9a1
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],Subject property, IX509CertificateRequestPkcs10.Subject, IX509CertificateRequestPkcs10.get_Subject, IX509CertificateRequestPkcs10::Subject, IX509CertificateRequestPkcs10::get_Subject, IX509CertificateRequestPkcs10::put_Subject, Subject property [Security], Subject property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::Subject, certenroll/IX509CertificateRequestPkcs10::get_Subject, certenroll/IX509CertificateRequestPkcs10::put_Subject, get_Subject, security.ix509certificaterequestpkcs10_subject_property
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10.Subject
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestPkcs10.Subject
-- IX509CertificateRequestPkcs10.get_Subject
-- IX509CertificateRequestPkcs10.put_Subject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10::get_Subject
+ - certenroll/IX509CertificateRequestPkcs10::get_Subject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10.Subject
+ - IX509CertificateRequestPkcs10.get_Subject
+ - IX509CertificateRequestPkcs10.put_Subject
 ---
 
 # IX509CertificateRequestPkcs10::get_Subject
@@ -50,48 +52,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Subject</b> property specifies or retrieves the X.500 distinguished name of the entity requesting the certificate. This property is web enabled for both input and output.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-You must set this property before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method, and you must initialize the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> object before calling this property. For more information, see any of the following methods:<ul>
+You must set this property before calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method, and you must initialize the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a> object before calling this property. For more information, see any of the following methods:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializedecode">InitializeDecode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializedecode">InitializeDecode</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate">InitializeFromCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromcertificate">InitializeFromCertificate</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromprivatekey">InitializeFromPrivateKey</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromprivatekey">InitializeFromPrivateKey</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefrompublickey">InitializeFromPublicKey</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefrompublickey">InitializeFromPublicKey</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromtemplatename">InitializeFromTemplateName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10-initializefromtemplatename">InitializeFromTemplateName</a>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.DeleteFileTransactedW
 title: DeleteFileTransactedW function (winbase.h)
-description: Deletes an existing file as a transacted operation.
+description: Deletes an existing file as a transacted operation. (Unicode)
+helpviewer_keywords: ["DeleteFileTransacted", "DeleteFileTransacted function [Files]", "DeleteFileTransactedW", "fs.deletefiletransacted", "winbase/DeleteFileTransacted", "winbase/DeleteFileTransactedW"]
 old-location: fs\deletefiletransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
 ms.date: 12/05/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
-f1_keywords:
-- winbase/DeleteFileTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- DeleteFileTransacted
-- DeleteFileTransactedA
-- DeleteFileTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteFileTransactedW
+ - winbase/DeleteFileTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - DeleteFileTransacted
+ - DeleteFileTransactedA
+ - DeleteFileTransactedW
 ---
 
 # DeleteFileTransactedW function
@@ -55,20 +57,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Deletes an existing file as a transacted operation.
 
-
 ## -parameters
-
-
-
 
 ### -param lpFileName [in]
 
@@ -77,33 +74,24 @@ The name of the file to be deleted.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 The file must reside on the local computer; otherwise, the function fails and the last error code is set to 
        <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
 
-
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
-
+      <a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If an application attempts to delete a file that does not exist, the 
     <b>DeleteFileTransacted</b> function fails with 
@@ -117,11 +105,11 @@ The following list identifies some tips for deleting, removing, or closing files
 <li>To delete or rename a file, you must have either delete permission on the file, or delete child permission 
       in the parent directory.</li>
 <li>To recursively delete the files in a directory, use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.</li>
+      <a href="/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a> function.</li>
 <li>To remove an empty directory, use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a> function.</li>
+      <a href="/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a> function.</li>
 <li>To close an open file, use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.</li>
+      <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.</li>
 </ul>
 If you set up a directory with all access except delete and delete child, and the access control lists (ACL) 
       of new files are inherited, then you can create a file without being able to delete it. However, then you can 
@@ -130,7 +118,7 @@ If you set up a directory with all access except delete and delete child, and th
 
 If you request delete permission at the time you create a file, you can delete or rename the file with that 
       handle, but not with any other handle. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+      <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 The <b>DeleteFileTransacted</b> function fails if an 
     application attempts to delete a file that has other handles open for normal I/O or as a memory-mapped file 
@@ -142,7 +130,7 @@ The <b>DeleteFileTransacted</b> function marks a file
     still open after the transaction completes, the file will not be deleted.
 
 <b>Symbolic links:  </b>If the path points to a symbolic link, the symbolic link is deleted, not the target. To delete a target, you 
-      must call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and specify 
+      must call <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> and specify 
       <b>FILE_FLAG_DELETE_ON_CLOSE</b>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -210,29 +198,26 @@ SMB 3.0 does not support TxF.
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines DeleteFileTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>

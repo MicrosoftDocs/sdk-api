@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.CreateEnumUsers
 title: IDiskQuotaControl::CreateEnumUsers (dskquota.h)
 description: Creates an enumerator object for enumerating quota users on the volume.
+helpviewer_keywords: ["CreateEnumUsers","CreateEnumUsers method [Files]","CreateEnumUsers method [Files]","IDiskQuotaControl interface","DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","IDiskQuotaControl interface [Files]","CreateEnumUsers method","IDiskQuotaControl.CreateEnumUsers","IDiskQuotaControl::CreateEnumUsers","_win32_idiskquotacontrol_createenumusers","base.idiskquotacontrol_createenumusers","dskquota/IDiskQuotaControl::CreateEnumUsers","fs.idiskquotacontrol_createenumusers"]
 old-location: fs\idiskquotacontrol_createenumusers.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a29e1955-80e2-442d-9565-c885006be565
 ms.date: 12/05/2018
 ms.keywords: CreateEnumUsers, CreateEnumUsers method [Files], CreateEnumUsers method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],CreateEnumUsers method, IDiskQuotaControl.CreateEnumUsers, IDiskQuotaControl::CreateEnumUsers, _win32_idiskquotacontrol_createenumusers, base.idiskquotacontrol_createenumusers, dskquota/IDiskQuotaControl::CreateEnumUsers, fs.idiskquotacontrol_createenumusers
-f1_keywords:
-- dskquota/IDiskQuotaControl.CreateEnumUsers
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.CreateEnumUsers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::CreateEnumUsers
+ - dskquota/IDiskQuotaControl::CreateEnumUsers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.CreateEnumUsers
 ---
 
 # IDiskQuotaControl::CreateEnumUsers
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an enumerator object for enumerating quota users on the volume. The newly created object implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> interface.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param rgpUserSids [in]
 
 An array of security identifier (SID) pointers representing the user objects to be included in the enumeration. If this value is <b>NULL</b>, all user entries are enumerated.
 
-
 ### -param cpSids [in]
 
 The number of items in the <i>rgpUserSids</i> array. Ignored if <i>rgpUserSids</i> is <b>NULL</b>.
-
 
 ### -param fNameResolution [in]
 
@@ -85,8 +80,8 @@ Indicates how the user account information is to be obtained. The volume's quota
 </td>
 <td width="60%">
 Resolve user account information asynchronously. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns immediately. The caller must implement the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns immediately. The caller must implement the 
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
 <b>IDiskQuotaEvents</b>.
 
 </td>
@@ -110,23 +105,18 @@ Do not resolve user account information.
 </td>
 <td width="60%">
 Resolve user account information synchronously. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns when the information is resolved. If the information exists in the disk quota SID cache, it is returned immediately. Otherwise, the method must locate the information. This can take several seconds.
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns when the information is resolved. If the information exists in the disk quota SID cache, it is returned immediately. Otherwise, the method must locate the information. This can take several seconds.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppEnum [out]
 
 A pointer to a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> enumerator.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> enumerator.
 
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -202,26 +192,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

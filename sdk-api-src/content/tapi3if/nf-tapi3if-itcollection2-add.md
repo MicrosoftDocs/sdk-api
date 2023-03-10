@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITCollection2.Add
 title: ITCollection2::Add (tapi3if.h)
 description: The Add method inserts a new item into the collection at the specified index.
+helpviewer_keywords: ["Add","Add method [TAPI 2.2]","Add method [TAPI 2.2]","ITCollection2 interface","ITCollection2 interface [TAPI 2.2]","Add method","ITCollection2.Add","ITCollection2::Add","_tapi3_itcollection2_add","tapi3.itcollection2_add","tapi3if/ITCollection2::Add"]
 old-location: tapi3\itcollection2_add.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 96c26f76-3835-4140-8379-91171fc4ad37
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [TAPI 2.2], Add method [TAPI 2.2],ITCollection2 interface, ITCollection2 interface [TAPI 2.2],Add method, ITCollection2.Add, ITCollection2::Add, _tapi3_itcollection2_add, tapi3.itcollection2_add, tapi3if/ITCollection2::Add
-f1_keywords:
-- tapi3if/ITCollection2.Add
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCollection2.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCollection2::Add
+ - tapi3if/ITCollection2::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCollection2.Add
 ---
 
 # ITCollection2::Add
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Add</b> method inserts a new item into the collection at the specified index.
 
-
 ## -parameters
-
-
-
 
 ### -param Index [in]
 
 Specifies the location in the collection where the item should be added.
 
-
 ### -param pVariant [in]
 
 Pointer to a <b>VARIANT</b> containing the item to add.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -124,22 +117,11 @@ There is not enough memory to reallocate the collection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-remove">Remove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-remove">Remove</a>

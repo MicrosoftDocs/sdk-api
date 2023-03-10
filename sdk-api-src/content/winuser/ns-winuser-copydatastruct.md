@@ -2,15 +2,12 @@
 UID: NS:winuser.tagCOPYDATASTRUCT
 title: COPYDATASTRUCT (winuser.h)
 description: Contains data to be passed to another application by the WM_COPYDATA message.
+helpviewer_keywords: ["*PCOPYDATASTRUCT","COPYDATASTRUCT","COPYDATASTRUCT structure [Data Exchange]","PCOPYDATASTRUCT","PCOPYDATASTRUCT structure pointer [Data Exchange]","_win32_COPYDATASTRUCT_str","_win32_copydatastruct_str_cpp","dataxchg.copydatastruct","winui._win32_copydatastruct_str","winuser/COPYDATASTRUCT","winuser/PCOPYDATASTRUCT"]
 old-location: dataxchg\copydatastruct.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\datacopy\datacopyreference\datacopystructures\copydatastruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*PCOPYDATASTRUCT, COPYDATASTRUCT, COPYDATASTRUCT structure [Data Exchange], PCOPYDATASTRUCT, PCOPYDATASTRUCT structure pointer [Data Exchange], _win32_COPYDATASTRUCT_str, _win32_copydatastruct_str_cpp, dataxchg.copydatastruct, winui._win32_copydatastruct_str, winuser/COPYDATASTRUCT, winuser/PCOPYDATASTRUCT'
-f1_keywords:
-- winuser/COPYDATASTRUCT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- COPYDATASTRUCT
 targetos: Windows
 req.typenames: COPYDATASTRUCT, *PCOPYDATASTRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCOPYDATASTRUCT
+ - winuser/tagCOPYDATASTRUCT
+ - PCOPYDATASTRUCT
+ - winuser/PCOPYDATASTRUCT
+ - COPYDATASTRUCT
+ - winuser/COPYDATASTRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - COPYDATASTRUCT
 ---
 
 # COPYDATASTRUCT structure
@@ -48,43 +54,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains data to be passed to another application by the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a> message. 
-
+Contains data to be passed to another application by the <a href="/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a> message.
 
 ## -struct-fields
-
-
-
 
 ### -field dwData
 
 Type: <b>ULONG_PTR</b>
 
-The data to be passed to the receiving application. 
-
+The type of the data to be passed to the receiving application. The receiving application defines the valid types.
 
 ### -field cbData
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the data pointed to by the <b>lpData</b> member. 
-
+The size, in bytes, of the data pointed to by the <b>lpData</b> member.
 
 ### -field lpData
 
 Type: <b>PVOID</b>
 
-The data to be passed to the receiving application. This member can be <b>NULL</b>. 
-
+The data to be passed to the receiving application. This member can be <b>NULL</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a>
- 
-
- 
-
+<a href="/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a>

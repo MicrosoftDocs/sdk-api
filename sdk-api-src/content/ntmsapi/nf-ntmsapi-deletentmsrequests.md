@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.DeleteNtmsRequests
 title: DeleteNtmsRequests function (ntmsapi.h)
 description: The DeleteNtmsRequests function deletes a request or a list of requests from the RSM database.
+helpviewer_keywords: ["DeleteNtmsRequests","DeleteNtmsRequests function [Files]","NTMS_LIBREQUEST","NTMS_OPREQUEST","_zaw_deletentmsrequests","base.deletentmsrequests","fs.deletentmsrequests","ntmsapi/DeleteNtmsRequests"]
 old-location: fs\deletentmsrequests.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 5368184a-419c-4cb7-b27f-b55fc26b4e81
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsRequests, DeleteNtmsRequests function [Files], NTMS_LIBREQUEST, NTMS_OPREQUEST, _zaw_deletentmsrequests, base.deletentmsrequests, fs.deletentmsrequests, ntmsapi/DeleteNtmsRequests
-f1_keywords:
-- ntmsapi/DeleteNtmsRequests
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- DeleteNtmsRequests
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteNtmsRequests
+ - ntmsapi/DeleteNtmsRequests
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - DeleteNtmsRequests
 ---
 
 # DeleteNtmsRequests function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>DeleteNtmsRequests</b> function deletes a request or a list of requests from the RSM database. Library or operator requests that are in a completed, failed, refused, or canceled state are removed. Submitted requests, queued requests, waiting requests, and in progress requests cannot be deleted.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpRequestId [in]
 
 List of identifiers of the library and operator requests to be deleted.
-
 
 ### -param dwType [in]
 
@@ -103,17 +98,12 @@ Operator request.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwCount [in]
 
 Number of requests in the list.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -202,27 +192,11 @@ The function executed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An error is not returned if a request or list of requests is not found.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>

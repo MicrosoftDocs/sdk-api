@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Delete
 title: IFunctionInstanceCollection::Delete (functiondiscoveryapi.h)
 description: Removes the specified function instance from the collection.
+helpviewer_keywords: ["Delete","Delete method","Delete method","IFunctionInstanceCollection interface","IFunctionInstanceCollection interface","Delete method","IFunctionInstanceCollection.Delete","IFunctionInstanceCollection::Delete","functiondiscoveryapi/IFunctionInstanceCollection::Delete","ncd.ifunctioninstancecollection_delete"]
 old-location: ncd\ifunctioninstancecollection_delete.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: e7f94912-9656-4a6b-8754-eb37358b5f9d
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Delete method, IFunctionInstanceCollection.Delete, IFunctionInstanceCollection::Delete, functiondiscoveryapi/IFunctionInstanceCollection::Delete, ncd.ifunctioninstancecollection_delete
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceCollection.Delete
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceCollection.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceCollection::Delete
+ - functiondiscoveryapi/IFunctionInstanceCollection::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceCollection.Delete
 ---
 
 # IFunctionInstanceCollection::Delete
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Removes the specified function instance from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param dwIndex [in]
 
 The index number of the item to be removed from the collection.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -109,18 +103,7 @@ The method is unable to allocate the memory required to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>

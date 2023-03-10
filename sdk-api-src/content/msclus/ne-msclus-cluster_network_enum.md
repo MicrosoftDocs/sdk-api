@@ -1,16 +1,13 @@
 ---
 UID: NE:msclus.CLUSTER_NETWORK_ENUM
 title: CLUSTER_NETWORK_ENUM (msclus.h)
-description: Describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions.
+description: CLUSTER_NETWORK_ENUM (msclus.h) describes the type of cluster object being enumerated by the ClusterNetworkEnum and ClusterNetworkOpenEnum functions.
+helpviewer_keywords: ["CLUSTER_NETWORK_ENUM","CLUSTER_NETWORK_ENUM enumeration [Failover Cluster]","CLUSTER_NETWORK_ENUM_ALL","CLUSTER_NETWORK_ENUM_NETINTERFACES","_CLUSTER_NETWORK_ENUM","_CLUSTER_NETWORK_ENUM enumeration [Failover Cluster]","clusapi/CLUSTER_NETWORK_ENUM","clusapi/CLUSTER_NETWORK_ENUM_ALL","clusapi/CLUSTER_NETWORK_ENUM_NETINTERFACES","clusapi/_CLUSTER_NETWORK_ENUM","msclus/CLUSTER_NETWORK_ENUM","msclus/CLUSTER_NETWORK_ENUM_ALL","msclus/CLUSTER_NETWORK_ENUM_NETINTERFACES","msclus/_CLUSTER_NETWORK_ENUM","mscs.cluster_network_enum"]
 old-location: mscs\cluster_network_enum.htm
 tech.root: MsCS
 ms.assetid: f5b02ce2-92d0-4ae7-a5bb-8e5d9c987095
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: CLUSTER_NETWORK_ENUM, CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], CLUSTER_NETWORK_ENUM_ALL, CLUSTER_NETWORK_ENUM_NETINTERFACES, _CLUSTER_NETWORK_ENUM, _CLUSTER_NETWORK_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_NETWORK_ENUM, clusapi/CLUSTER_NETWORK_ENUM_ALL, clusapi/CLUSTER_NETWORK_ENUM_NETINTERFACES, clusapi/_CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM, msclus/CLUSTER_NETWORK_ENUM_ALL, msclus/CLUSTER_NETWORK_ENUM_NETINTERFACES, msclus/_CLUSTER_NETWORK_ENUM, mscs.cluster_network_enum
-f1_keywords:
-- msclus/CLUSTER_NETWORK_ENUM
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUSTER_NETWORK_ENUM
 targetos: Windows
 req.typenames: CLUSTER_NETWORK_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_NETWORK_ENUM
+ - msclus/CLUSTER_NETWORK_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUSTER_NETWORK_ENUM
 ---
 
 # CLUSTER_NETWORK_ENUM enumeration
@@ -49,42 +51,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the type of cluster object being enumerated by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> functions.
-
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a> and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> functions.
 
 ## -enum-fields
 
+### -field CLUSTER_NETWORK_ENUM_NETINTERFACES:0x1
 
-
-
-### -field CLUSTER_NETWORK_ENUM_NETINTERFACES
-
-The object is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
-
+The object is a <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 
 ### -field CLUSTER_NETWORK_ENUM_ALL
 
 All cluster objects on the network.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

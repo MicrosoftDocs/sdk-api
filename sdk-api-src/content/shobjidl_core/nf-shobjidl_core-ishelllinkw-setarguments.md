@@ -1,16 +1,13 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.SetArguments
 title: IShellLinkW::SetArguments (shobjidl_core.h)
-description: Sets the command-line arguments for a Shell link object.
+description: Sets the command-line arguments for a Shell link object. (Unicode)
+helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetArguments method","IShellLink::SetArguments","IShellLinkA interface [Windows Shell]","SetArguments method","IShellLinkA::SetArguments","IShellLinkW interface [Windows Shell]","SetArguments method","IShellLinkW.SetArguments","IShellLinkW::SetArguments","SetArguments","SetArguments method [Windows Shell]","SetArguments method [Windows Shell]","IShellLink interface","SetArguments method [Windows Shell]","IShellLinkA interface","SetArguments method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetArguments","shell.IShellLink_SetArguments","shobjidl_core/IShellLink::SetArguments","shobjidl_core/IShellLinkA::SetArguments","shobjidl_core/IShellLinkW::SetArguments"]
 old-location: shell\IShellLink_SetArguments.htm
 tech.root: shell
 ms.assetid: 5ad5fabd-be12-40bc-a6b3-498bcde7223a
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetArguments method, IShellLink::SetArguments, IShellLinkA interface [Windows Shell],SetArguments method, IShellLinkA::SetArguments, IShellLinkW interface [Windows Shell],SetArguments method, IShellLinkW.SetArguments, IShellLinkW::SetArguments, SetArguments, SetArguments method [Windows Shell], SetArguments method [Windows Shell],IShellLink interface, SetArguments method [Windows Shell],IShellLinkA interface, SetArguments method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetArguments, shell.IShellLink_SetArguments, shobjidl_core/IShellLink::SetArguments, shobjidl_core/IShellLinkA::SetArguments, shobjidl_core/IShellLinkW::SetArguments
-f1_keywords:
-- shobjidl_core/IShellLink.SetArguments
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellLink.SetArguments
-- IShellLinkA.SetArguments
-- IShellLinkW.SetArguments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellLinkW::SetArguments
+ - shobjidl_core/IShellLinkW::SetArguments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellLink.SetArguments
+ - IShellLinkA.SetArguments
+ - IShellLinkW.SetArguments
 ---
 
 # IShellLinkW::SetArguments
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the command-line arguments for a Shell link object.
 
-
 ## -parameters
-
-
-
 
 ### -param pszArgs [in]
 
@@ -65,37 +62,23 @@ Type: <b>LPCTSTR</b>
 
 A pointer to a buffer that contains the new command-line arguments. In the case of a Unicode string, there is no limitation on maximum string length. In the case of an ANSI string, the maximum length of the returned string varies depending on the version of Windows—MAX_PATH prior to Windows 2000 and INFOTIPSIZE (defined in Commctrl.h) in Windows 2000 and later.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This method is useful when creating a link to an application that takes special flags as arguments, such as a compiler.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">IShellLink::GetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">IShellLink::GetArguments</a>
 
 
 
@@ -104,7 +87,3 @@ This method is useful when creating a link to an application that takes special 
 
 
 <b>IShellLinkW</b>
- 
-
- 
-

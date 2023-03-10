@@ -2,15 +2,12 @@
 UID: NF:oaidl.IRecordInfo.PutFieldNoCopy
 title: IRecordInfo::PutFieldNoCopy (oaidl.h)
 description: Passes ownership of the data to the assigned field by placing the actual data into the field.
+helpviewer_keywords: ["IRecordInfo interface [Automation]","PutFieldNoCopy method","IRecordInfo.PutFieldNoCopy","IRecordInfo::PutFieldNoCopy","PutFieldNoCopy","PutFieldNoCopy method [Automation]","PutFieldNoCopy method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_PutFieldNoCopy","automat.irecordinfo_putfieldnocopy","oaidl/IRecordInfo::PutFieldNoCopy"]
 old-location: automat\irecordinfo_putfieldnocopy.htm
 tech.root: automat
 ms.assetid: 9e3c4189-46fa-4c21-abbd-35fdd5df058d
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],PutFieldNoCopy method, IRecordInfo.PutFieldNoCopy, IRecordInfo::PutFieldNoCopy, PutFieldNoCopy, PutFieldNoCopy method [Automation], PutFieldNoCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutFieldNoCopy, automat.irecordinfo_putfieldnocopy, oaidl/IRecordInfo::PutFieldNoCopy
-f1_keywords:
-- oaidl/IRecordInfo.PutFieldNoCopy
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo.PutFieldNoCopy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo::PutFieldNoCopy
+ - oaidl/IRecordInfo::PutFieldNoCopy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo.PutFieldNoCopy
 ---
 
 # IRecordInfo::PutFieldNoCopy
@@ -48,40 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
- Passes ownership of the data to the assigned field by placing the actual data into the field.<b>PutFieldNoCopy</b> is useful for saving resources because it allows you to place your data directly into a record field. <b>PutFieldNoCopy</b> differs from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfield">PutField</a> because it does not copy the data referenced by the variant.
-
+ Passes ownership of the data to the assigned field by placing the actual data into the field.<b>PutFieldNoCopy</b> is useful for saving resources because it allows you to place your data directly into a record field. <b>PutFieldNoCopy</b> differs from <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfield">PutField</a> because it does not copy the data referenced by the variant.
 
 ## -parameters
-
-
-
 
 ### -param wFlags [in]
 
 The only legal values for the wFlags parameter is INVOKE_PROPERTYPUT or INVOKE_PROPERTYPUTREF.
 
-
 ### -param pvData [in, out]
 
-An instance of the record described by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
-
-
+An instance of the record described by <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>.
 
 ### -param szFieldName [in]
 
 The name of the field of the record.
 
-
-
 ### -param pvarField [in]
 
 The variant to be put into the field.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -115,18 +104,7 @@ One or more of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

@@ -2,15 +2,12 @@
 UID: NS:winuser.tagCBTACTIVATESTRUCT
 title: CBTACTIVATESTRUCT (winuser.h)
 description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is activated.
+helpviewer_keywords: ["*LPCBTACTIVATESTRUCT","CBTACTIVATESTRUCT","CBTACTIVATESTRUCT structure [Windows and Messages]","LPCBTACTIVATESTRUCT","LPCBTACTIVATESTRUCT structure pointer [Windows and Messages]","_win32_CBTACTIVATESTRUCT_str","_win32_cbtactivatestruct_str_cpp","winmsg.cbtactivatestruct","winui._win32_cbtactivatestruct_str","winuser/CBTACTIVATESTRUCT","winuser/LPCBTACTIVATESTRUCT"]
 old-location: winmsg\cbtactivatestruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\cbtactivatestruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPCBTACTIVATESTRUCT, CBTACTIVATESTRUCT, CBTACTIVATESTRUCT structure [Windows and Messages], LPCBTACTIVATESTRUCT, LPCBTACTIVATESTRUCT structure pointer [Windows and Messages], _win32_CBTACTIVATESTRUCT_str, _win32_cbtactivatestruct_str_cpp, winmsg.cbtactivatestruct, winui._win32_cbtactivatestruct_str, winuser/CBTACTIVATESTRUCT, winuser/LPCBTACTIVATESTRUCT'
-f1_keywords:
-- winuser/CBTACTIVATESTRUCT
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- CBTACTIVATESTRUCT
 targetos: Windows
 req.typenames: CBTACTIVATESTRUCT, *LPCBTACTIVATESTRUCT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCBTACTIVATESTRUCT
+ - winuser/tagCBTACTIVATESTRUCT
+ - LPCBTACTIVATESTRUCT
+ - winuser/LPCBTACTIVATESTRUCT
+ - CBTACTIVATESTRUCT
+ - winuser/CBTACTIVATESTRUCT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - CBTACTIVATESTRUCT
 ---
 
 # CBTACTIVATESTRUCT structure
@@ -48,35 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is activated. 
-
+Contains information passed to a <b>WH_CBT</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>, before a window is activated.
 
 ## -struct-fields
-
-
-
 
 ### -field fMouse
 
 Type: <b>BOOL</b>
 
-This member is <b>TRUE</b> if a mouse click is causing the activation or <b>FALSE</b> if it is not. 
-
+This member is <b>TRUE</b> if a mouse click is causing the activation or <b>FALSE</b> if it is not.
 
 ### -field hWndActive
 
 Type: <b>HWND</b>
 
-A handle to the active window. 
-
+A handle to the active window.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644977(v=vs.85)">CBTProc</a>
 
 
 
@@ -84,7 +80,7 @@ A handle to the active window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -92,8 +88,4 @@ A handle to the active window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

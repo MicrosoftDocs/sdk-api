@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IExplorerBrowser.BrowseToObject
 title: IExplorerBrowser::BrowseToObject (shobjidl_core.h)
 description: Browses to an object.
+helpviewer_keywords: ["BrowseToObject","BrowseToObject method [Windows Shell]","BrowseToObject method [Windows Shell]","IExplorerBrowser interface","IExplorerBrowser interface [Windows Shell]","BrowseToObject method","IExplorerBrowser.BrowseToObject","IExplorerBrowser::BrowseToObject","SBSP_ABSOLUTE","SBSP_KEEPWORDWHEELTEXT","SBSP_NAVIGATEBACK","SBSP_NAVIGATEFORWARD","SBSP_PARENT","SBSP_RELATIVE","_shell_IExplorerBrowser_BrowseToObject","shell.IExplorerBrowser_BrowseToObject","shobjidl_core/IExplorerBrowser::BrowseToObject"]
 old-location: shell\IExplorerBrowser_BrowseToObject.htm
 tech.root: shell
 ms.assetid: cbfe2348-9fdc-4839-bf8b-b2a65caefa4c
 ms.date: 12/05/2018
 ms.keywords: BrowseToObject, BrowseToObject method [Windows Shell], BrowseToObject method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],BrowseToObject method, IExplorerBrowser.BrowseToObject, IExplorerBrowser::BrowseToObject, SBSP_ABSOLUTE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_PARENT, SBSP_RELATIVE, _shell_IExplorerBrowser_BrowseToObject, shell.IExplorerBrowser_BrowseToObject, shobjidl_core/IExplorerBrowser::BrowseToObject
-f1_keywords:
-- shobjidl_core/IExplorerBrowser.BrowseToObject
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IExplorerBrowser.BrowseToObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IExplorerBrowser::BrowseToObject
+ - shobjidl_core/IExplorerBrowser::BrowseToObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IExplorerBrowser.BrowseToObject
 ---
 
 # IExplorerBrowser::BrowseToObject
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Browses to an object.
-
 
 ## -parameters
 
-
-
-
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 A pointer to an object to browse to. If the object cannot be browsed, an error value is returned.
-
 
 ### -param uFlags [in]
 
@@ -108,29 +104,16 @@ Navigate forward, ignore the PIDL.
 
 <b>Windows Vista and later</b>. This flag indicates that any search text entered by a WordWheel (the Search box in Windows Explorer) should be preserved during this navigation, so that items at the new location are filtered in the same way they were filtered at the previous location.
 
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
+<i>uFlags</i> may be any of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EXPLORER_BROWSER_FILL_FLAGS</a> or any of the flags defined in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-browseobject">BrowseObject</a>'s <i>wFlags</i> parameter, except for flags that indicate navigation.
 
+This method calls <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistidlist-getidlist">GetIDList</a> and browses to the pidl returned.  It operates in the same way as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-browsetoidlist">IExplorerBrowser::BrowseToIDList</a>, except that <i>punk</i> cannot be <b>NULL</b>. Standard usage is to browse to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>. An error will be returned if the object passed in cannot be browsed through. An object that can be browsed through implements either <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist">IPersistIDList</a>.
 
-<i>uFlags</i> may be any of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-explorer_browser_fill_flags">EXPLORER_BROWSER_FILL_FLAGS</a> or any of the flags defined in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-browseobject">BrowseObject</a>'s <i>wFlags</i> parameter, except for flags that indicate navigation.
-
-This method calls <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistidlist-getidlist">GetIDList</a> and browses to the pidl returned.  It operates in the same way as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-browsetoidlist">IExplorerBrowser::BrowseToIDList</a>, except that <i>punk</i> cannot be <b>NULL</b>. Standard usage is to browse to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> or an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>. An error will be returned if the object passed in cannot be browsed through. An object that can be browsed through implements either <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist">IPersistIDList</a>.
-
-The first navigation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> is synchronous. After that, all navigations are asynchronous. As a result, calls to <b>IExplorerBrowser::BrowseToObject</b> will succeed if you properly set up the pending   navigation, but that does not guarantee the navigation will succeed.  To be informed of success and failure, clients should implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents">IExplorerBrowserEvents</a> and respond appropriately in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationcomplete">OnNavigationComplete</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationfailed">OnNavigationFailed</a>.
-
-
-
+The first navigation of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a> is synchronous. After that, all navigations are asynchronous. As a result, calls to <b>IExplorerBrowser::BrowseToObject</b> will succeed if you properly set up the pending   navigation, but that does not guarantee the navigation will succeed.  To be informed of success and failure, clients should implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowserevents">IExplorerBrowserEvents</a> and respond appropriately in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationcomplete">OnNavigationComplete</a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onnavigationfailed">OnNavigationFailed</a>.

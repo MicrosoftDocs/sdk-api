@@ -2,15 +2,12 @@
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_INFO
 title: MINIDUMP_MEMORY_INFO (minidumpapiset.h)
 description: Describes a region of memory.
+helpviewer_keywords: ["*PMINIDUMP_MEMORY_INFO","MEM_COMMIT","MEM_FREE","MEM_IMAGE","MEM_MAPPED","MEM_PRIVATE","MEM_RESERVE","MINIDUMP_MEMORY_INFO","MINIDUMP_MEMORY_INFO structure","PMINIDUMP_MEMORY_INFO","PMINIDUMP_MEMORY_INFO structure pointer","_MINIDUMP_MEMORY_INFO","base.minidump_memory_info_str","minidumpapiset/MINIDUMP_MEMORY_INFO","minidumpapiset/PMINIDUMP_MEMORY_INFO"]
 old-location: base\minidump_memory_info_str.htm
 tech.root: Debug
 ms.assetid: e9a797b9-5cad-48c0-bb33-ca9c13de8239
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_MEMORY_INFO, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, MINIDUMP_MEMORY_INFO, MINIDUMP_MEMORY_INFO structure, PMINIDUMP_MEMORY_INFO, PMINIDUMP_MEMORY_INFO structure pointer, _MINIDUMP_MEMORY_INFO, base.minidump_memory_info_str, minidumpapiset/MINIDUMP_MEMORY_INFO, minidumpapiset/PMINIDUMP_MEMORY_INFO'
-f1_keywords:
-- minidumpapiset/MINIDUMP_MEMORY_INFO
-dev_langs:
-- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minidumpapiset.h
-api_name:
-- MINIDUMP_MEMORY_INFO
 targetos: Windows
 req.typenames: MINIDUMP_MEMORY_INFO, *PMINIDUMP_MEMORY_INFO
 req.redist: DbgHelp.dll 6.3 or later
 ms.custom: 19H1
+f1_keywords:
+ - _MINIDUMP_MEMORY_INFO
+ - minidumpapiset/_MINIDUMP_MEMORY_INFO
+ - PMINIDUMP_MEMORY_INFO
+ - minidumpapiset/PMINIDUMP_MEMORY_INFO
+ - MINIDUMP_MEMORY_INFO
+ - minidumpapiset/MINIDUMP_MEMORY_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minidumpapiset.h
+api_name:
+ - MINIDUMP_MEMORY_INFO
 ---
 
 # MINIDUMP_MEMORY_INFO structure
@@ -48,40 +54,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a region of memory.
 
-
 ## -struct-fields
-
-
-
 
 ### -field BaseAddress
 
 The base address of the region of pages.
 
-
 ### -field AllocationBase
 
 The base address of a range of pages in this region. The page is contained within this memory region.
 
-
 ### -field AllocationProtect
 
 The memory protection when the region was initially allocated. This member can be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-protection">memory protection</a> options, along with PAGE_GUARD or PAGE_NOCACHE, as needed.
-
+<a href="/windows/desktop/Memory/memory-protection">memory protection</a> options, along with PAGE_GUARD or PAGE_NOCACHE, as needed.
 
 ### -field __alignment1
 
 A variable for alignment.
 
-
 ### -field RegionSize
 
 The size of the region beginning at the base address in which all pages have identical attributes, in bytes.
-
 
 ### -field State
 
@@ -128,13 +124,10 @@ Indicates reserved pages where a range of the process's virtual address space is
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Protect
 
 The access protection of the pages in the region. This member is one of the values listed for the <b>AllocationProtect</b> member.
-
 
 ### -field Type
 
@@ -181,21 +174,11 @@ Indicates that the memory pages within the region are private (that is, not shar
 </td>
 </tr>
 </table>
- 
-
 
 ### -field __alignment2
 
 A variable for alignment.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>
- 
-
- 
-
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_info_list">MINIDUMP_MEMORY_INFO_LIST</a>

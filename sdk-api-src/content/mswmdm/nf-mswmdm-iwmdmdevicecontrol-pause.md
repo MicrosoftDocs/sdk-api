@@ -1,16 +1,13 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Pause
 title: IWMDMDeviceControl::Pause (mswmdm.h)
-description: The Pause method pauses the current play or record session at the current position within the content.
+description: The Pause method pauses the current play or record session at the current position within the content. (IWMDMDeviceControl.Pause)
+helpviewer_keywords: ["IWMDMDeviceControl interface [windows Media Device Manager]","Pause method","IWMDMDeviceControl.Pause","IWMDMDeviceControl::Pause","IWMDMDeviceControlPause","Pause","Pause method [windows Media Device Manager]","Pause method [windows Media Device Manager]","IWMDMDeviceControl interface","mswmdm/IWMDMDeviceControl::Pause","wmdm.iwmdmdevicecontrol_pause"]
 old-location: wmdm\iwmdmdevicecontrol_pause.htm
 tech.root: WMDM
 ms.assetid: 420963d1-11ea-4f1d-b5c0-749e99ee7725
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Pause method, IWMDMDeviceControl.Pause, IWMDMDeviceControl::Pause, IWMDMDeviceControlPause, Pause, Pause method [windows Media Device Manager], Pause method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Pause, wmdm.iwmdmdevicecontrol_pause
-f1_keywords:
-- mswmdm/IWMDMDeviceControl.Pause
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMDeviceControl.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMDeviceControl::Pause
+ - mswmdm/IWMDMDeviceControl::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMDeviceControl.Pause
 ---
 
 # IWMDMDeviceControl::Pause
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Pause</b> method pauses the current play or record session at the current position within the content.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,31 +109,15 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The current playback or record session is paused and the current file position is saved. A subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-resume">Resume</a> method restarts the play or record operation at the saved file position.
-
-
-
+The current playback or record session is paused and the current file position is saved. A subsequent call to the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevicecontrol-resume">Resume</a> method restarts the play or record operation at the saved file position.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>

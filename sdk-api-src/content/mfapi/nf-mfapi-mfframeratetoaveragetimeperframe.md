@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFFrameRateToAverageTimePerFrame
 title: MFFrameRateToAverageTimePerFrame function (mfapi.h)
 description: Converts a video frame rate into a frame duration.
+helpviewer_keywords: ["750f6920-3386-4d50-9d59-73e876b406da","MFFrameRateToAverageTimePerFrame","MFFrameRateToAverageTimePerFrame function [Media Foundation]","mf.mfframeratetoaveragetimeperframe","mfapi/MFFrameRateToAverageTimePerFrame"]
 old-location: mf\mfframeratetoaveragetimeperframe.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
 ms.date: 12/05/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
-f1_keywords:
-- mfapi/MFFrameRateToAverageTimePerFrame
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFFrameRateToAverageTimePerFrame
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFFrameRateToAverageTimePerFrame
+ - mfapi/MFFrameRateToAverageTimePerFrame
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFFrameRateToAverageTimePerFrame
 ---
 
 # MFFrameRateToAverageTimePerFrame function
@@ -48,49 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a video frame rate into a frame duration.
 
-
 ## -parameters
-
-
-
 
 ### -param unNumerator [in]
 
 The numerator of the frame rate.
-          
-
 
 ### -param unDenominator [in]
 
 The denominator of the frame rate.
-          
-
 
 ### -param punAverageTimePerFrame [out]
 
 Receives the average duration of a video frame, in 100-nanosecond units.
-          
-
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This function is useful for calculating time stamps on a sample, given the frame rate.
 
-Also, average time per frame is used in the older <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> format structures. This function provides a standard conversion so that all components in the pipeline can use consistent values, if they need to translate between the older format structures and the media type attributes used in Media Foundation.
+Also, average time per frame is used in the older <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> and <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> format structures. This function provides a standard conversion so that all components in the pipeline can use consistent values, if they need to translate between the older format structures and the media type attributes used in Media Foundation.
 
 For certain common frame rates, the function gets the frame duration from a look-up table:
 
@@ -146,24 +130,14 @@ For certain common frame rates, the function gets the frame duration from a look
 Most video content uses one of the frame rates listed here.
       For other frame rates, the function calculates the duration.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfaveragetimeperframetoframerate">MFAverageTimePerFrameToFrameRate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaveragetimeperframetoframerate">MFAverageTimePerFrameToFrameRate</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

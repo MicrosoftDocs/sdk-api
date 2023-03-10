@@ -2,15 +2,12 @@
 UID: NN:uiautomationcore.ISynchronizedInputProvider
 title: ISynchronizedInputProvider (uiautomationcore.h)
 description: Enables Microsoft UI Automation client applications to direct the mouse or keyboard input to a specific UI element.
+helpviewer_keywords: ["ISynchronizedInputProvider","ISynchronizedInputProvider interface [Windows Accessibility]","ISynchronizedInputProvider interface [Windows Accessibility]","described","uiauto.uiauto_ISynchronizedInputProvider","uiauto_ISynchronizedInputProvider","uiautomationcore/ISynchronizedInputProvider","winauto.uiauto_ISynchronizedInputProvider"]
 old-location: winauto\uiauto_ISynchronizedInputProvider.htm
 tech.root: WinAuto
 ms.assetid: 70495eba-172a-432e-951d-1092fd676d5e
 ms.date: 12/05/2018
 ms.keywords: ISynchronizedInputProvider, ISynchronizedInputProvider interface [Windows Accessibility], ISynchronizedInputProvider interface [Windows Accessibility],described, uiauto.uiauto_ISynchronizedInputProvider, uiauto_ISynchronizedInputProvider, uiautomationcore/ISynchronizedInputProvider, winauto.uiauto_ISynchronizedInputProvider
-f1_keywords:
-- uiautomationcore/ISynchronizedInputProvider
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- ISynchronizedInputProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISynchronizedInputProvider
+ - uiautomationcore/ISynchronizedInputProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - ISynchronizedInputProvider
 ---
 
 # ISynchronizedInputProvider interface
@@ -48,42 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enables Microsoft UI Automation client applications to direct the mouse or keyboard input to a specific UI element. 
-
+Enables Microsoft UI Automation client applications to direct the mouse or keyboard input to a specific UI element.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizedInputProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizedInputProvider</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISynchronizedInputProvider</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-isynchronizedinputprovider-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels listening for input.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-isynchronizedinputprovider-startlistening">StartListening</a>
-</td>
-<td align="left" width="63%">
-Starts listening for input of the specified type. 
-
-</td>
-</tr>
-</table> 
+The <b>ISynchronizedInputProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizedInputProvider</b> also has these types of members:
 

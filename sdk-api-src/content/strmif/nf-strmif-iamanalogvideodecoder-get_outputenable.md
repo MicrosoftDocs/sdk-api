@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAnalogVideoDecoder.get_OutputEnable
 title: IAMAnalogVideoDecoder::get_OutputEnable (strmif.h)
 description: The get_OutputEnable method determines whether the video port bus is enabled.
+helpviewer_keywords: ["IAMAnalogVideoDecoder interface [DirectShow]","get_OutputEnable method","IAMAnalogVideoDecoder.get_OutputEnable","IAMAnalogVideoDecoder::get_OutputEnable","IAMAnalogVideoDecoderget_OutputEnable","dshow.iamanalogvideodecoder_get_outputenable","get_OutputEnable","get_OutputEnable method [DirectShow]","get_OutputEnable method [DirectShow]","IAMAnalogVideoDecoder interface","strmif/IAMAnalogVideoDecoder::get_OutputEnable"]
 old-location: dshow\iamanalogvideodecoder_get_outputenable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2379079d-3852-45c7-a290-b3a33ea8af1a
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_OutputEnable method, IAMAnalogVideoDecoder.get_OutputEnable, IAMAnalogVideoDecoder::get_OutputEnable, IAMAnalogVideoDecoderget_OutputEnable, dshow.iamanalogvideodecoder_get_outputenable, get_OutputEnable, get_OutputEnable method [DirectShow], get_OutputEnable method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_OutputEnable
-f1_keywords:
-- strmif/IAMAnalogVideoDecoder.get_OutputEnable
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAnalogVideoDecoder.get_OutputEnable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAnalogVideoDecoder::get_OutputEnable
+ - strmif/IAMAnalogVideoDecoder::get_OutputEnable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAnalogVideoDecoder.get_OutputEnable
 ---
 
 # IAMAnalogVideoDecoder::get_OutputEnable
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_OutputEnable</code> method determines whether the video port bus is enabled.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param plOutputEnable [out]
 
@@ -81,12 +75,8 @@ Pointer to a variable that receives one of the following values.
 <td>Video port bus is enabled.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -118,31 +108,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to devices that use a shared video port bus. If the returned value is 1, the device is actively driving the video port bus. If the value is zero, the device is tri-stated.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>

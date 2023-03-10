@@ -2,15 +2,12 @@
 UID: NF:qos2.QOSNotifyFlow
 title: QOSNotifyFlow function (qos2.h)
 description: Registers the calling application to receive a notification.
+helpviewer_keywords: ["QOSNotifyFlow","QOSNotifyFlow function [QOS]","qos.qosnotifyflow","qos2/QOSNotifyFlow"]
 old-location: qos\qosnotifyflow.htm
 tech.root: QOS
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
 ms.date: 12/05/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
-f1_keywords:
-- qos2/QOSNotifyFlow
-dev_langs:
-- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- qwave.dll
-api_name:
-- QOSNotifyFlow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - QOSNotifyFlow
+ - qos2/QOSNotifyFlow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - qwave.dll
+api_name:
+ - QOSNotifyFlow
 ---
 
 # QOSNotifyFlow function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QOSNotifyFlow</b> function registers the calling application to receive a notification about changes in network characteristics, such as congestion. Notifications may also be sent when a desired throughput is able to be achieved.
-
 
 ## -parameters
 
-
-
-
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
-
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param FlowId [in]
 
 Specifies the flow identifier from which the application wishes to receive notifications. A <b>QOS_FLOWID</b> is an unsigned 32-bit integer.
 
-
 ### -param Operation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/qos2/ne-qos2-qos_notify_flow">QOS_NOTIFY_FLOW</a> value that indicates what the type of  notification being requested.
-
+A <a href="/windows/desktop/api/qos2/ne-qos2-qos_notify_flow">QOS_NOTIFY_FLOW</a> value that indicates what the type of  notification being requested.
 
 ### -param Size [in, out, optional]
 
@@ -80,25 +74,19 @@ On function return, if successful, this parameter will specify the number of byt
 
 If this call fails with <b>ERROR_INSUFFICIENT_BUFFER</b>, this parameter will indicate the minimum required <i>Buffer</i> size in order to successfully complete this operation.
 
-
 ### -param Buffer [in, out]
 
 Pointer to a UINT64 that indicates the bandwidth at which point a notification will be sent.  This parameter is only used if the <i>Operation</i> parameter is set to <b>QOSNotifyAvailable</b>. For the <b>QOSNotifyCongested</b> and <b>QOSNotifyUncongested</b> options, this parameter must be set to <b>NULL</b> on input.
-
 
 ### -param Flags
 
 Reserved for future use.  This parameter must be set to 0.
 
-
 ### -param Overlapped [out, optional]
 
 Pointer to an OVERLAPPED structure used for asynchronous output. This must be se to <b>NULL</b> if this function is not being called asynchronously.
 
-
 ## -returns
-
-
 
 If the function succeeds, a return value of nonzero is sent when the conditions set by the <i>Operation</i> parameter are met.
 
@@ -215,7 +203,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -275,27 +263,11 @@ There is already a request for notifications of the same type pending on this fl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function may be called asynchronously.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

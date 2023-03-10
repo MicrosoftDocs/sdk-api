@@ -1,16 +1,12 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_ADDRESSES_XP
 title: IP_ADAPTER_ADDRESSES_XP (iptypes.h)
-description: The header node for a linked list of addresses for a particular adapter.
+description: The IP_ADAPTER_ADDRESSES_XP structure (iptypes.h) is the header node for a linked list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_addresses.htm
 tech.root: IpHlp
 ms.assetid: a2df3749-6c75-40c0-8952-1656bbe639a6
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: '*PIP_ADAPTER_ADDRESSES, *PIP_ADAPTER_ADDRESSES_XP, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_ADAPTER_ADDRESSES, IP_ADAPTER_ADDRESSES structure [IP Helper], IP_ADAPTER_ADDRESSES_LH, IP_ADAPTER_ADDRESSES_XP, IP_ADAPTER_DDNS_ENABLED, IP_ADAPTER_DHCP_ENABLED, IP_ADAPTER_IPV4_ENABLED, IP_ADAPTER_IPV6_ENABLED, IP_ADAPTER_IPV6_MANAGE_ADDRESS_CONFIG, IP_ADAPTER_IPV6_OTHER_STATEFUL_CONFIG, IP_ADAPTER_NETBIOS_OVER_TCPIP_ENABLED, IP_ADAPTER_NO_MULTICAST, IP_ADAPTER_RECEIVE_ONLY, IP_ADAPTER_REGISTER_ADAPTER_SUFFIX, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, PIP_ADAPTER_ADDRESSES, PIP_ADAPTER_ADDRESSES structure pointer [IP Helper], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_IPHTTPS, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _iphlp_ip_adapter_addresses, iphlp.ip_adapter_addresses, iptypes/IP_ADAPTER_ADDRESSES, iptypes/PIP_ADAPTER_ADDRESSES'
-f1_keywords:
-- iptypes/IP_ADAPTER_ADDRESSES
-dev_langs:
-- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,44 +24,44 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iptypes.h
-api_name:
-- IP_ADAPTER_ADDRESSES
 targetos: Windows
 req.typenames: IP_ADAPTER_ADDRESSES_XP, *PIP_ADAPTER_ADDRESSES_XP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IP_ADAPTER_ADDRESSES_XP
+ - iptypes/_IP_ADAPTER_ADDRESSES_XP
+ - PIP_ADAPTER_ADDRESSES_XP
+ - iptypes/PIP_ADAPTER_ADDRESSES_XP
+ - IP_ADAPTER_ADDRESSES_XP
+ - iptypes/IP_ADAPTER_ADDRESSES_XP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iptypes.h
+api_name:
+ - IP_ADAPTER_ADDRESSES
 ---
 
-# IP_ADAPTER_ADDRESSES_XP structure
-
-
 ## -description
-
 
 The <b>IP_ADAPTER_ADDRESSES</b> structure is the 
    <i>header node</i> for a linked list of addresses for a particular adapter. This structure can simultaneously 
    be used as part of a linked list of 
    <b>IP_ADAPTER_ADDRESSES</b> structures.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Alignment
 
 Type: <b>ULONGLONG</b>
 
 Reserved. Used by the compiler to align the structure.
-
 
 ### -field Length
 
@@ -75,7 +71,6 @@ The length, in bytes, of this structure. Note that the length of the
         <b>IP_ADAPTER_ADDRESSES</b> structure changed on 
         Windows XP with SP1 and later and also on Windows Vista and later.
 
-
 ### -field IfIndex
 
 Type: <b>DWORD</b>
@@ -83,13 +78,11 @@ Type: <b>DWORD</b>
 The index of the IPv4 interface with which these addresses are associated. On Windows Server 2003 and Windows XP, this member is zero if IPv4 is 
         not available on the interface.
 
-
 ### -field Next
 
 Type: <b>struct _IP_ADAPTER_ADDRESSES*</b>
 
 A pointer to the next adapter addresses structure in the list.
-
 
 ### -field AdapterName
 
@@ -99,42 +92,37 @@ An array of characters that contains the name of the adapter with which these ad
       Unlike an adapter's friendly name, the adapter name specified in <b>AdapterName</b> is 
       permanent and cannot be modified by the user.
 
-
 ### -field FirstUnicastAddress
 
 Type: <b>PIP_ADAPTER_UNICAST_ADDRESS</b>
 
 A pointer to the first 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structure in a 
+      <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structure in a 
       linked list of IP unicast addresses for the adapter.
-
 
 ### -field FirstAnycastAddress
 
 Type: <b>PIP_ADAPTER_ANYCAST_ADDRESS</b>
 
 A pointer to the first 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_anycast_address_xp">IP_ADAPTER_ANYCAST_ADDRESS</a> structure in a 
+      <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_anycast_address_xp">IP_ADAPTER_ANYCAST_ADDRESS</a> structure in a 
       linked list of IP anycast addresses for the adapter.
-
 
 ### -field FirstMulticastAddress
 
 Type: <b>PIP_ADAPTER_MULTICAST_ADDRESS</b>
 
 A pointer to the first 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_multicast_address_xp">IP_ADAPTER_MULTICAST_ADDRESS</a> structure 
+      <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_multicast_address_xp">IP_ADAPTER_MULTICAST_ADDRESS</a> structure 
       in a list of IP multicast addresses for the adapter.
-
 
 ### -field FirstDnsServerAddress
 
 Type: <b>PIP_ADAPTER_DNS_SERVER_ADDRESS</b>
 
 A pointer to the first 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_server_address_xp">IP_ADAPTER_DNS_SERVER_ADDRESS</a> structure 
+      <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_server_address_xp">IP_ADAPTER_DNS_SERVER_ADDRESS</a> structure 
       in a linked list of DNS server addresses for the adapter.
-
 
 ### -field DnsSuffix
 
@@ -142,13 +130,11 @@ Type: <b>PWCHAR</b>
 
 The Domain Name System (DNS) suffix associated with this adapter.
 
-
 ### -field Description
 
 Type: <b>PWCHAR</b>
 
 A description for the adapter. This member is read-only.
-
 
 ### -field FriendlyName
 
@@ -160,10 +146,9 @@ A user-friendly name for the adapter. For example: "Local Area Connection 1." Th
       
 
 This member is the ifAlias field used by NDIS as described in 
-       <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">RFC 2863</a>. The ifAlias field can be set by an 
+       <a href="https://www.ietf.org/rfc/rfc2863.txt">RFC 2863</a>. The ifAlias field can be set by an 
        NDIS interface provider when the NDIS driver is installed. For NDIS miniport drivers, this field is set by 
        NDIS.
-
 
 ### -field PhysicalAddress
 
@@ -172,14 +157,12 @@ Type: <b>BYTE[MAX_ADAPTER_ADDRESS_LENGTH]</b>
 The Media Access Control (MAC) address for the adapter. For example, on an Ethernet network this member 
       would specify the Ethernet hardware address.
 
-
 ### -field PhysicalAddressLength
 
 Type: <b>DWORD</b>
 
 The length, in bytes, of the address specified in the <b>PhysicalAddress</b> member. 
       For interfaces that do not have a data-link layer, this value is zero.
-
 
 ### -field Flags
 
@@ -332,15 +315,12 @@ The adapter is enabled for IPv6 managed address configuration.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Mtu
 
 Type: <b>DWORD</b>
 
 The maximum transmission unit (MTU) size, in bytes.
-
 
 ### -field IfType
 
@@ -436,7 +416,7 @@ On Windows Vista and later, wireless network
         cards are reported as <b>IF_TYPE_IEEE80211</b>. On earlier versions of  Windows, wireless 
         network cards are reported as <b>IF_TYPE_ETHERNET_CSMACD</b>. 
 
-On Windows XP with SP3 and on Windows XP with SP2 x86 with the Wireless LAN API for Windows XP with SP2 installed, the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function can be used to enumerate wireless interfaces on the local computer. 
+On Windows XP with SP3 and on Windows XP with SP2 x86 with the Wireless LAN API for Windows XP with SP2 installed, the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a> function can be used to enumerate wireless interfaces on the local computer. 
 
 </td>
 </tr>
@@ -463,15 +443,13 @@ An IEEE 1394 (Firewire) high performance serial bus network interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field OperStatus
 
 Type: <b>IF_OPER_STATUS</b>
 
 The operational status for the interface as defined in RFC 2863.  For more information, see 
-      <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This 
+      <a href="https://www.ietf.org/rfc/rfc2863.txt">http://www.ietf.org/rfc/rfc2863.txt</a>. This 
       member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in 
       the <i>Iftypes.h</i> header file. On Windows Vista and later, the header files 
       were reorganized and this enumeration is defined in the <i>Ifdef.h</i> header file.
@@ -573,8 +551,6 @@ A refinement on the <b>IfOperStatusDown</b> state. This new state indicates that
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Ipv6IfIndex
 
@@ -591,8 +567,8 @@ The interface index for the IPv6 IP address. This member is zero if IPv6 is not 
 Type: <b>DWORD[16]</b>
 
 An array of scope IDs for each scope level used for composing 
-      <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structures. The 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ne-ws2def-scope_level">SCOPE_LEVEL</a> enumeration is used to index the array. On 
+      <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structures. The 
+      <a href="/windows/desktop/api/ws2def/ne-ws2def-scope_level">SCOPE_LEVEL</a> enumeration is used to index the array. On 
       IPv6, a single interface may be assigned multiple IPv6 multicast addresses based on a scope ID.
       
 
@@ -603,363 +579,15 @@ An array of scope IDs for each scope level used for composing
 
 Type: <b>PIP_ADAPTER_PREFIX</b>
 
-A pointer to the first <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> 
+A pointer to the first <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> 
       structure in a linked list of IP adapter prefixes  for the adapter.
       
-
 <div class="alert"><b>Note</b>  This structure member is only available on Windows XP with SP1 and later.</div>
 <div> </div>
 
-#### - CompartmentId
-
-Type: <b>NET_IF_COMPARTMENT_ID</b>
-
-The routing compartment ID for the adapter address.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later. This member is not 
-       currently supported and is reserved for future use.</div>
-<div> </div>
-
-#### - ConnectionType
-
-Type: <b>NET_IF_CONNECTION_TYPE</b>
-
-The interface connection type for the adapter address.
-      
-
-This member can be one of the values from the <b>NET_IF_CONNECTION_TYPE</b> enumeration 
-       type defined in the <i>Ifdef.h</i> header file.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="NET_IF_CONNECTION_DEDICATED"></a><a id="net_if_connection_dedicated"></a><dl>
-<dt><b>NET_IF_CONNECTION_DEDICATED</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-The connection type is dedicated. The connection comes up automatically when media sense is <b>TRUE</b>. For 
-        example, an Ethernet connection is dedicated.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NET_IF_CONNECTION_PASSIVE"></a><a id="net_if_connection_passive"></a><dl>
-<dt><b>NET_IF_CONNECTION_PASSIVE</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The connection type is passive. The remote end must bring up the connection to the local station. For 
-        example, a RAS interface is passive.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NET_IF_CONNECTION_DEMAND"></a><a id="net_if_connection_demand"></a><dl>
-<dt><b>NET_IF_CONNECTION_DEMAND</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-The connection type is demand-dial. A connection of this type comes up in response to a local action 
-        (sending a packet, for example).
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="NET_IF_CONNECTION_MAXIMUM"></a><a id="net_if_connection_maximum"></a><dl>
-<dt><b>NET_IF_CONNECTION_MAXIMUM</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-The maximum possible value for the <b>NET_IF_CONNECTION_TYPE</b> enumeration type. 
-        This is not a legal value for <b>ConnectionType</b> member.
-
-</td>
-</tr>
-</table>
- 
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv4Server
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a></b>
-
-The IPv4 address of the DHCP server for the adapter address. This member is only applicable to an IPv4 
-      adapter address configured using DHCP.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv6ClientDuid
-
-Type: <b>BYTE[MAX_DHCPV6_DUID_LENGTH]</b>
-
-The DHCP unique identifier (DUID) for the DHCPv6 client. This member is only applicable to an IPv6 adapter 
-      address configured using DHCPv6.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv6ClientDuidLength
-
-Type: <b>ULONG</b>
-
-The length, in bytes, of the DHCP unique identifier (DUID) for the DHCPv6 client. This member is only 
-      applicable to an IPv6 adapter address configured using DHCPv6.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv6Iaid
-
-Type: <b>ULONG</b>
-
-The identifier for an identity association chosen by the DHCPv6 client. This member is only applicable to 
-      an IPv6 adapter address configured using DHCPv6.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Dhcpv6Server
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a></b>
-
-The IPv6 address of the DHCPv6 server for the adapter address. This member is only applicable to an IPv6 
-      adapter address configured using DHCPv6. This structure member is not currently supported and is reserved for future use.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - FirstDnsSuffix
-
-Type: <b>PIP_ADAPTER_DNS_SUFFIX</b>
-
-A pointer to the first <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_suffix">IP_ADAPTER_DNS_SUFFIX</a> structure in a linked list of 
-      DNS suffixes for the adapter.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista with SP1and later and on Windows Server 2008  and later.</div>
-<div> </div>
-
-#### - FirstGatewayAddress
-
-Type: <b>PIP_ADAPTER_GATEWAY_ADDRESS_LH</b>
-
-A pointer to the first <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_gateway_address_lh">IP_ADAPTER_GATEWAY_ADDRESS</a> structure in a linked 
-      list of gateways for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - FirstWinsServerAddress
-
-Type: <b>PIP_ADAPTER_WINS_SERVER_ADDRESS_LH</b>
-
-A pointer to the first 
-      <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_wins_server_address_lh">IP_ADAPTER_WINS_SERVER_ADDRESS</a> structure in a linked  list of Windows Internet Name Service  (WINS) server 
-      addresses for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Ipv4Metric
-
-Type: <b>ULONG</b>
-
-The IPv4 interface metric for the adapter address. This member is only applicable to an IPv4 adapter 
-      address.
-
-The actual route metric used to compute the route preferences for IPv4 is the summation of the route metric 
-       offset specified in the <b>Metric</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface 
-       metric specified in this member for IPv4.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Ipv6Metric
-
-Type: <b>ULONG</b>
-
-The IPv6 interface metric for the adapter address. This member is only applicable to an IPv6 adapter 
-      address.
-      
-
-The actual route metric used to compute the route preferences for IPv6 is the summation of the route metric 
-       offset specified in the <b>Metric</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipforward_row2">MIB_IPFORWARD_ROW2</a> structure and the interface 
-       metric specified in this member for IPv4.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - Luid
-
-Type: <b>IF_LUID</b>
-
-The interface LUID for the adapter address.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - NetworkGuid
-
-Type: <b>NET_IF_NETWORK_GUID</b>
-
-The <b>GUID</b> that is associated with the network that the interface belongs to. 
-
-If 
-      the interface provider cannot provide the network GUID, this member can be a zero <b>GUID</b>.
-      In this case, the interface was registered by NDIS in the default network.
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - ReceiveLinkSpeed
-
-Type: <b>ULONG64</b>
-
-The current speed in bits per second of the receive link for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - TransmitLinkSpeed
-
-Type: <b>ULONG64</b>
-
-The current speed in bits per second of the transmit link for the adapter.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-
-#### - TunnelType
-
-Type: <b>TUNNEL_TYPE</b>
-
-The encapsulation method used by a tunnel if the adapter address is a tunnel.
-      
-
-<div class="alert"><b>Note</b>  This structure member is only available on Windows Vista and later.</div>
-<div> </div>
-The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see 
-      <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. 
-      This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined 
-      in the <i>Ifdef.h</i> header file.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="TUNNEL_TYPE_NONE"></a><a id="tunnel_type_none"></a><dl>
-<dt><b>TUNNEL_TYPE_NONE</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Not a tunnel.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TUNNEL_TYPE_OTHER"></a><a id="tunnel_type_other"></a><dl>
-<dt><b>TUNNEL_TYPE_OTHER</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-None of the following tunnel types.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TUNNEL_TYPE_DIRECT"></a><a id="tunnel_type_direct"></a><dl>
-<dt><b>TUNNEL_TYPE_DIRECT</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-A packet is encapsulated directly within a normal IP header, with no intermediate header, and unicast to 
-        the remote tunnel endpoint.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TUNNEL_TYPE_6TO4"></a><a id="tunnel_type_6to4"></a><dl>
-<dt><b>TUNNEL_TYPE_6TO4</b></dt>
-<dt>11</dt>
-</dl>
-</td>
-<td width="60%">
-An IPv6 packet is encapsulated directly within an IPv4 header, with no intermediate header, and unicast 
-        to the destination determined by the 6to4 protocol.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TUNNEL_TYPE_ISATAP"></a><a id="tunnel_type_isatap"></a><dl>
-<dt><b>TUNNEL_TYPE_ISATAP</b></dt>
-<dt>13</dt>
-</dl>
-</td>
-<td width="60%">
-An IPv6 packet is encapsulated directly within an IPv4 header, with no intermediate header, and unicast 
-        to the destination determined by the ISATAP protocol.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TUNNEL_TYPE_TEREDO"></a><a id="tunnel_type_teredo"></a><dl>
-<dt><b>TUNNEL_TYPE_TEREDO</b></dt>
-<dt>14</dt>
-</dl>
-</td>
-<td width="60%">
-Teredo encapsulation for IPv6 packets.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="TUNNEL_TYPE_IPHTTPS"></a><a id="tunnel_type_iphttps"></a><dl>
-<dt><b>TUNNEL_TYPE_IPHTTPS</b></dt>
-<dt>15</dt>
-</dl>
-</td>
-<td width="60%">
-IP over HTTPS encapsulation for IPv6 packets.
-
-<div class="alert"><b>Note</b>  This enumeration value is only available on Windows 7,  Windows Server 2008 R2, and later.</div>
-<div> </div>
-</td>
-</tr>
-</table>
- 
-
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function retrieves 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function retrieves 
      information for IPv4 and IPv6 addresses and returns this information as a linked list of 
      <b>IP_ADAPTER_ADDRESSES</b> structures
 
@@ -1002,22 +630,22 @@ The version of the <b>IP_ADAPTER_ADDRESSES</b>
 The <b>Ipv4Metric</b> and <b>Ipv6Metric</b> members are used to 
      prioritize route metrics for routes connected to multiple interfaces on the local computer.
 
-The order of  linked <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structures pointed to by the <b>FirstUnicastAddress</b> 
-    member that are returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function does not reflect the order that IP addresses were added to an adapter and may vary between versions of Windows. Similarly, the order of linked <b>IP_ADAPTER_ANYCAST_ADDRESS</b> structures pointed to by the <b>FirstAnycastAddress</b> 
+The order of  linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structures pointed to by the <b>FirstUnicastAddress</b> 
+    member that are returned by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function does not reflect the order that IP addresses were added to an adapter and may vary between versions of Windows. Similarly, the order of linked <b>IP_ADAPTER_ANYCAST_ADDRESS</b> structures pointed to by the <b>FirstAnycastAddress</b> 
     member and the order of linked <b>IP_ADAPTER_MULTICAST_ADDRESS</b> structures pointed to by the <b>FirstMulticastAddress 
 </b> 
     member do not reflect the order that IP addresses were added to an adapter and may vary between versions of Windows. 
 
- In addition, the linked <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structures pointed to by the <b>FirstUnicastAddress</b> 
-    member and the linked <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
+ In addition, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a> structures pointed to by the <b>FirstUnicastAddress</b> 
+    member and the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> structures pointed to by the <b>FirstPrefix</b> 
     member are maintained as separate internal linked lists by the operating system. As a result, the order of linked <b>IP_ADAPTER_UNICAST_ADDRESS</b> structures pointed to by the <b>FirstUnicastAddress</b> 
-    member does not have any relationship with the order of linked <b>IP_ADAPTER_PREFIX</b>structures pointed to by the <b>FirstPrefix</b> 
+    member does not have any relationship with the order of linked <b>IP_ADAPTER_PREFIX</b> structures pointed to by the <b>FirstPrefix</b> 
     member. 
 
-On Windows Vista and later, the linked <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
+On Windows Vista and later, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> structures pointed to by the <b>FirstPrefix</b> 
     member include three IP adapter prefixes for each IP address assigned to the adapter. These include the host IP address prefix, the subnet IP address prefix, and the subnet broadcast IP address prefix. In addition, for each adapter there is a multicast address prefix and a broadcast address prefix.
 
-On Windows XP with SP1 and later prior to Windows Vista, the linked <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>structures pointed to by the <b>FirstPrefix</b> 
+On Windows XP with SP1 and later prior to Windows Vista, the linked <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a> structures pointed to by the <b>FirstPrefix</b> 
     member include only a single IP adapter prefix for each IP address assigned to the adapter. 
 
 In the Windows SDK, the version of the structure for use on Windows Vista and later is  defined as 
@@ -1035,7 +663,7 @@ In the Windows SDK, the version of the structure for use on Windows Vista and l
      <b>IP_ADAPTER_ADDRESSES_XP</b> structure is typedefed to 
      the <b>IP_ADAPTER_ADDRESSES</b> structure.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure is used in the 
+The <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a> structure is used in the 
      <b>IP_ADAPTER_ADDRESSES</b> structure. On the 
      Windows SDK released for Windows Vista and later, the organization of header files has 
      changed and the <b>SOCKET_ADDRESS</b> structure is defined 
@@ -1049,10 +677,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-soc
      <i>Iphlpapi.h</i> header file.
 
 
-#### Examples
+## Examples
 
 This example retrieves the <b>IP_ADAPTER_ADDRESSES</b> structure for the adapters associated with the system and prints some members  for each adapter interface.
-
 
 ```cpp
 #include <winsock2.h>
@@ -1234,76 +861,64 @@ int __cdecl main(int argc, char **argv)
     FREE(pAddresses);
     return 0;
 }
-
 ```
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/ifdef/ne-ifdef-if_oper_status">IF_OPER_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-if_oper_status">IF_OPER_STATUS</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_anycast_address_xp">IP_ADAPTER_ANYCAST_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_anycast_address_xp">IP_ADAPTER_ANYCAST_ADDRESS</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_server_address_xp">IP_ADAPTER_DNS_SERVER_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_server_address_xp">IP_ADAPTER_DNS_SERVER_ADDRESS</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_suffix">IP_ADAPTER_DNS_SUFFIX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_dns_suffix">IP_ADAPTER_DNS_SUFFIX</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_gateway_address_lh">IP_ADAPTER_GATEWAY_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_gateway_address_lh">IP_ADAPTER_GATEWAY_ADDRESS</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_multicast_address_xp">IP_ADAPTER_MULTICAST_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_multicast_address_xp">IP_ADAPTER_MULTICAST_ADDRESS</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_prefix_xp">IP_ADAPTER_PREFIX</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_wins_server_address_lh">IP_ADAPTER_WINS_SERVER_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_wins_server_address_lh">IP_ADAPTER_WINS_SERVER_ADDRESS</a>
+<a href="/windows/desktop/api/ws2def/ne-ws2def-scope_level">SCOPE_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ne-ws2def-scope_level">SCOPE_LEVEL</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>

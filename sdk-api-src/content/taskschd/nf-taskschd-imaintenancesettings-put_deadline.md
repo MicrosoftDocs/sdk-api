@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.put_Deadline
 title: IMaintenanceSettings::put_Deadline (taskschd.h)
-description: Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance.
+description: Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance. (Put)
+helpviewer_keywords: ["Deadline property [Task Scheduler]","Deadline property [Task Scheduler]","IMaintenanceSettings interface","IMaintenanceSettings interface [Task Scheduler]","Deadline property","IMaintenanceSettings.Deadline","IMaintenanceSettings.put_Deadline","IMaintenanceSettings::Deadline","IMaintenanceSettings::get_Deadline","IMaintenanceSettings::put_Deadline","put_Deadline","taskschd.imaintenancesettings_deadline","taskschd/IMaintenanceSettings::Deadline","taskschd/IMaintenanceSettings::get_Deadline","taskschd/IMaintenanceSettings::put_Deadline"]
 old-location: taskschd\imaintenancesettings_deadline.htm
 tech.root: taskschd
 ms.assetid: 1F0B77C8-82BA-4A7B-A411-CFEFDC9B4CE5
 ms.date: 12/05/2018
 ms.keywords: Deadline property [Task Scheduler], Deadline property [Task Scheduler],IMaintenanceSettings interface, IMaintenanceSettings interface [Task Scheduler],Deadline property, IMaintenanceSettings.Deadline, IMaintenanceSettings.put_Deadline, IMaintenanceSettings::Deadline, IMaintenanceSettings::get_Deadline, IMaintenanceSettings::put_Deadline, put_Deadline, taskschd.imaintenancesettings_deadline, taskschd/IMaintenanceSettings::Deadline, taskschd/IMaintenanceSettings::get_Deadline, taskschd/IMaintenanceSettings::put_Deadline
-f1_keywords:
-- taskschd/IMaintenanceSettings.Deadline
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Taskschd.dll
-api_name:
-- IMaintenanceSettings.Deadline
-- IMaintenanceSettings.get_Deadline
-- IMaintenanceSettings.put_Deadline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMaintenanceSettings::put_Deadline
+ - taskschd/IMaintenanceSettings::put_Deadline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Taskschd.dll
+api_name:
+ - IMaintenanceSettings.Deadline
+ - IMaintenanceSettings.get_Deadline
+ - IMaintenanceSettings.put_Deadline
 ---
 
 # IMaintenanceSettings::put_Deadline
@@ -50,33 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
+The value of this property must be greater than the value of the <a href="/windows/desktop/api/taskschd/nf-taskschd-imaintenancesettings-get_period">Period</a> property.
 
-
-The value of this property must be greater than the value of the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-imaintenancesettings-get_period">Period</a> property.
-
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-deadline-element">Deadline</a> element of the Task Scheduler schema.
-
-
-
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-deadline-element">Deadline</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>

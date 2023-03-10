@@ -2,15 +2,12 @@
 UID: NF:bluetoothleapis.BluetoothGATTSetCharacteristicValue
 title: BluetoothGATTSetCharacteristicValue function (bluetoothleapis.h)
 description: Writes the specified characteristic value to the Bluetooth device.
+helpviewer_keywords: ["BluetoothGATTSetCharacteristicValue","BluetoothGATTSetCharacteristicValue function [Bluetooth Devices]","bltooth.bluetoothgattsetcharacteristicvalue","bluetoothleapis/BluetoothGATTSetCharacteristicValue"]
 old-location: bltooth\bluetoothgattsetcharacteristicvalue.htm
 tech.root: bltooth
 ms.assetid: 114C1FCD-95F8-4358-8178-C9B283CA7323
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTSetCharacteristicValue, BluetoothGATTSetCharacteristicValue function [Bluetooth Devices], bltooth.bluetoothgattsetcharacteristicvalue, bluetoothleapis/BluetoothGATTSetCharacteristicValue
-f1_keywords:
-- bluetoothleapis/BluetoothGATTSetCharacteristicValue
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTSetCharacteristicValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTSetCharacteristicValue
+ - bluetoothleapis/BluetoothGATTSetCharacteristicValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTSetCharacteristicValue
 ---
 
 # BluetoothGATTSetCharacteristicValue function
@@ -49,34 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothGATTSetCharacteristicValue</b> function writes the specified characteristic value to the Bluetooth device.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the service.
 
-
 ### -param Characteristic [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic.
-
+Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic.
 
 ### -param CharacteristicValue [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a> structure containing the characteristic value.
-
+Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a> structure containing the characteristic value.
 
 ### -param ReliableWriteContext [in, optional]
 
-BTH_LE_GATT_RELIABLE_WRITE_CONTEXT structure containint the context describing the reliable write operation returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
-
+BTH_LE_GATT_RELIABLE_WRITE_CONTEXT structure containing the context describing the reliable write operation returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>.
 
 ### -param Flags [in]
 
@@ -138,12 +131,8 @@ Signed write. Profile drivers must use with <b>BLUETOOTH_GATT_FLAG_WRITE_WITHOUT
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>BluetoothGATTSetCharacteristicValue</b> function returns the following values:
 
@@ -429,20 +418,14 @@ An error that lies in the reserved range has been received.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Calling <b>BluetoothGATTSetCharacteristicValue</b> after <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>, notifies the remote Bluetooth device to store this request into a prepare queue on the device.
+Calling <b>BluetoothGATTSetCharacteristicValue</b> after <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattbeginreliablewrite">BluetoothGATTBeginReliableWrite</a>, notifies the remote Bluetooth device to store this request into a prepare queue on the device.
 
 If signing is required, then the operation must not require a response, and must not occur over a secure channel.
 
-The parent characteristic is returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetcharacteristics">BluetoothGATTGetCharacteristics</a>, and must not be altered.  Behavior is undefined
+The parent characteristic is returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetcharacteristics">BluetoothGATTGetCharacteristics</a>, and must not be altered.  Behavior is undefined
     if the caller does this.
 
 <b>Example</b>
@@ -466,21 +449,10 @@ hr = BluetoothGATTSetCharacteristicValue(hDevice,
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic">BTH_LE_GATT_CHARACTERISTIC</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_characteristic_value">BTH_LE_GATT_CHARACTERISTIC_VALUE</a>

@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICertProperty.InitializeFromCertificate
 title: ICertProperty::InitializeFromCertificate (certenroll.h)
 description: Initializes the object by using a property value associated with an existing certificate.
+helpviewer_keywords: ["ICertProperty interface [Security]","InitializeFromCertificate method","ICertProperty.InitializeFromCertificate","ICertProperty::InitializeFromCertificate","InitializeFromCertificate","InitializeFromCertificate method [Security]","InitializeFromCertificate method [Security]","ICertProperty interface","certenroll/ICertProperty::InitializeFromCertificate","security.icertproperty_initializefromcertificate_method"]
 old-location: security\icertproperty_initializefromcertificate_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 5d23bacc-bbe5-42fa-b4c5-57a6767f79ba
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeFromCertificate method, ICertProperty.InitializeFromCertificate, ICertProperty::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method
-f1_keywords:
-- certenroll/ICertProperty.InitializeFromCertificate
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICertProperty.InitializeFromCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertProperty::InitializeFromCertificate
+ - certenroll/ICertProperty::InitializeFromCertificate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICertProperty.InitializeFromCertificate
 ---
 
 # ICertProperty::InitializeFromCertificate
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>InitializeFromCertificate</b> method initializes the object by using a property value associated with an existing certificate.
 
-
 ## -parameters
-
-
-
 
 ### -param MachineContext [in]
 
 A <b>VARIANT_BOOL</b> value that indicates  whether the certificate store is for the local computer or the current user. Specify <b>VARIANT_TRUE</b> for the computer and <b>VARIANT_FALSE</b> for the user.
 
-
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the certificate contained in the <i>strCertificate</i> parameter.
-
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of Unicode encoding applied to  the certificate contained in the <i>strCertificate</i> parameter.
 
 ### -param strCertificate [in]
 
@@ -84,11 +79,9 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -120,31 +113,15 @@ The certificate was found but the private key could not be loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
- Specify the property to initialize by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_propertyid">PropertyId</a> property. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_rawdata">RawData</a> property to retrieve an encoded string that contains the property.
-
-
-
+ Specify the property to initialize by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_propertyid">PropertyId</a> property. You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperty-get_rawdata">RawData</a> property to retrieve an encoded string that contains the property.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>

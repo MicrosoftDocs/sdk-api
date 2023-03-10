@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiDirectoryItem.AddTree
 title: IFsiDirectoryItem::AddTree (imapi2fs.h)
 description: Adds the contents of a directory tree to the file system image.
+helpviewer_keywords: ["AddTree","AddTree method [IMAPI]","AddTree method [IMAPI]","IFsiDirectoryItem interface","IFsiDirectoryItem interface [IMAPI]","AddTree method","IFsiDirectoryItem.AddTree","IFsiDirectoryItem::AddTree","imapi.ifsidirectoryitem_addtree","imapi2fs/IFsiDirectoryItem::AddTree"]
 old-location: imapi\ifsidirectoryitem_addtree.htm
 tech.root: imapi
 ms.assetid: 4f36538c-fba7-4a0c-a2e9-443b7dc2fdab
 ms.date: 12/05/2018
 ms.keywords: AddTree, AddTree method [IMAPI], AddTree method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddTree method, IFsiDirectoryItem.AddTree, IFsiDirectoryItem::AddTree, imapi.ifsidirectoryitem_addtree, imapi2fs/IFsiDirectoryItem::AddTree
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem.AddTree
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem.AddTree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem::AddTree
+ - imapi2fs/IFsiDirectoryItem::AddTree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem.AddTree
 ---
 
 # IFsiDirectoryItem::AddTree
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the contents of a directory tree to the file system image.
 
-
-
 ## -parameters
-
-
-
 
 ### -param sourceDirectory [in]
 
@@ -64,15 +60,11 @@ String that contains the relative path of the directory tree to create.
 
 Specify the full path when calling this method from the root directory item.
 
-
 ### -param includeBaseDirectory [in]
 
 Set to VARIANT_TRUE to include the directory in <i>sourceDirectory</i> as a subdirectory in the file system image. Otherwise, VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -283,14 +275,10 @@ Value: 0xC0AAB11A
 </table>
  
 
-<div class="alert"><b>Note</b>  Values returned by the  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> functions may also be returned here.</div>
+<div class="alert"><b>Note</b>  Values returned by the  <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a> and <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> functions may also be returned here.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The parent directory for the new subdirectory must already exist within the file system image.
 
@@ -301,32 +289,22 @@ If file or directory collisions occur, the content of the specified source direc
 
 If an exception occurs during processing, the file system image reverts to its previous state.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add">IFsiDirectoryItem::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add">IFsiDirectoryItem::Add</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>

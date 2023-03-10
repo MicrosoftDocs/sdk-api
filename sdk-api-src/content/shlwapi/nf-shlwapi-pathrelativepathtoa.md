@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.PathRelativePathToA
 title: PathRelativePathToA function (shlwapi.h)
-description: Creates a relative path from one file or folder to another.
+description: Creates a relative path from one file or folder to another. (ANSI)
+helpviewer_keywords: ["PathRelativePathToA", "shlwapi/PathRelativePathToA"]
 old-location: shell\PathRelativePathTo.htm
 tech.root: shell
 ms.assetid: 7ed8d50a-2ad4-4ddf-941d-aea593341592
 ms.date: 12/05/2018
 ms.keywords: PathRelativePathTo, PathRelativePathTo function [Windows Shell], PathRelativePathToA, PathRelativePathToW, _win32_PathRelativePathTo, shell.PathRelativePathTo, shlwapi/PathRelativePathTo, shlwapi/PathRelativePathToA, shlwapi/PathRelativePathToW
-f1_keywords:
-- shlwapi/PathRelativePathTo
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
-- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
-api_name:
-- PathRelativePathTo
-- PathRelativePathToA
-- PathRelativePathToW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathRelativePathToA
+ - shlwapi/PathRelativePathToA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+ - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+api_name:
+ - PathRelativePathTo
+ - PathRelativePathToA
+ - PathRelativePathToW
 ---
 
 # PathRelativePathToA function
@@ -54,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a relative path from one file or folder to another.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [out]
 
@@ -69,13 +66,11 @@ Type: <b>LPTSTR</b>
 
 A pointer to a string that receives the relative path. This buffer must be at least MAX_PATH characters in size.
 
-
 ### -param pszFrom [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path that defines the start of the relative path.
-
 
 ### -param dwAttrFrom [in]
 
@@ -83,13 +78,11 @@ Type: <b>DWORD</b>
 
 The file attributes of <i>pszFrom</i>. If this value contains FILE_ATTRIBUTE_DIRECTORY, <i>pszFrom</i> is assumed to be a directory; otherwise, <i>pszFrom</i> is assumed to be a file.
 
-
 ### -param pszTo [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string of maximum length MAX_PATH that contains the path that defines the endpoint of the relative path.
-
 
 ### -param dwAttrTo [in]
 
@@ -97,21 +90,13 @@ Type: <b>DWORD</b>
 
 The file attributes of <i>pszTo</i>. If this value contains FILE_ATTRIBUTE_DIRECTORY, <i>pszTo</i> is assumed to be directory; otherwise, <i>pszTo</i> is assumed to be a file.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function takes a pair of paths and generates a relative path from one to the other. The paths do not have to be fully qualified, but they must have a common prefix, or the function will fail and return <b>FALSE</b>.
 
@@ -162,4 +147,8 @@ The relative path is: ..\..\x\y\file
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathRelativePathTo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -2,15 +2,12 @@
 UID: NF:holographicspaceinterop.IHolographicSpaceInterop.CreateForWindow
 title: IHolographicSpaceInterop::CreateForWindow (holographicspaceinterop.h)
 description: Instantiates a HolographicSpace object and binds it to the current application.
+helpviewer_keywords: ["CreateForWindow","CreateForWindow method","CreateForWindow method","IHolographicSpaceInterop interface","IHolographicSpaceInterop interface","CreateForWindow method","IHolographicSpaceInterop.CreateForWindow","IHolographicSpaceInterop::CreateForWindow","MixedReality.iholographicspaceinterop_createforwindow","holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow"]
 old-location: mixedreality\iholographicspaceinterop_createforwindow.htm
 tech.root: MixedReality
 ms.assetid: 8B7A226E-FB47-4BA2-B13E-B37250C75920
 ms.date: 01/25/2019
 ms.keywords: CreateForWindow, CreateForWindow method, CreateForWindow method,IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,CreateForWindow method, IHolographicSpaceInterop.CreateForWindow, IHolographicSpaceInterop::CreateForWindow, MixedReality.iholographicspaceinterop_createforwindow, holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
-f1_keywords:
-- holographicspaceinterop/IHolographicSpaceInterop.CreateForWindow
-dev_langs:
-- c++
 req.header: holographicspaceinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- HolographicSpaceInterop.h
-api_name:
-- IHolographicSpaceInterop.CreateForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IHolographicSpaceInterop::CreateForWindow
+ - holographicspaceinterop/IHolographicSpaceInterop::CreateForWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - HolographicSpaceInterop.h
+api_name:
+ - IHolographicSpaceInterop.CreateForWindow
 ---
 
 # IHolographicSpaceInterop::CreateForWindow
+
 
 ## -description
 
@@ -142,3 +145,4 @@ UpdateWindow(hWnd);
 * [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace)
 * [Mixed Reality Dev Center](/windows/mixed-reality)
 * [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic)
+

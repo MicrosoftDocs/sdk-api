@@ -1,16 +1,13 @@
 ---
 UID: NF:fileapi.GetDiskFreeSpaceExW
 title: GetDiskFreeSpaceExW function (fileapi.h)
-description: Retrieves information about the amount of space that is available on a disk volume, which is the total amount of space, the total amount of free space, and the total amount of free space available to the user that is associated with the calling thread.
+description: Retrieves information about the amount of space that is available on a disk volume, which is the total amount of space, the total amount of free space, and the total amount of free space available to the user that is associated with the calling thread. (Unicode)
+helpviewer_keywords: ["GetDiskFreeSpaceEx", "GetDiskFreeSpaceEx function [Files]", "GetDiskFreeSpaceExW", "_win32_getdiskfreespaceex", "base.getdiskfreespaceex", "fileapi/GetDiskFreeSpaceEx", "fileapi/GetDiskFreeSpaceExW", "fs.getdiskfreespaceex"]
 old-location: fs\getdiskfreespaceex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a52f2dbd-bda6-4217-9e72-f100f8bbe334
 ms.date: 12/05/2018
 ms.keywords: GetDiskFreeSpaceEx, GetDiskFreeSpaceEx function [Files], GetDiskFreeSpaceExA, GetDiskFreeSpaceExW, _win32_getdiskfreespaceex, base.getdiskfreespaceex, fileapi/GetDiskFreeSpaceEx, fileapi/GetDiskFreeSpaceExA, fileapi/GetDiskFreeSpaceExW, fs.getdiskfreespaceex, winbase/GetDiskFreeSpaceEx, winbase/GetDiskFreeSpaceExA, winbase/GetDiskFreeSpaceExW
-f1_keywords:
-- fileapi/GetDiskFreeSpaceEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetDiskFreeSpaceEx
-- GetDiskFreeSpaceExA
-- GetDiskFreeSpaceExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDiskFreeSpaceExW
+ - fileapi/GetDiskFreeSpaceExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetDiskFreeSpaceEx
+ - GetDiskFreeSpaceExA
+ - GetDiskFreeSpaceExW
 ---
 
 # GetDiskFreeSpaceExW function
@@ -57,16 +59,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the amount of space that is available on a disk volume, which is the total 
     amount of space, the total amount of free space, and the total amount of free space available to the user that is 
     associated with the calling thread.
 
-
 ## -parameters
-
-
-
 
 ### -param lpDirectoryName [in, optional]
 
@@ -83,7 +80,6 @@ This parameter does not have to specify the root directory on a disk. The functi
 The calling application must have <b>FILE_LIST_DIRECTORY</b> access rights for this  
        directory.
 
-
 ### -param lpFreeBytesAvailableToCaller [out, optional]
 
 A pointer to a variable that receives the total number of free bytes on a disk that are available to the user 
@@ -92,7 +88,6 @@ A pointer to a variable that receives the total number of free bytes on a disk t
 This parameter can be <b>NULL</b>.
 
 If per-user quotas are being used, this value may be less than the total number of free bytes on a disk.
-
 
 ### -param lpTotalNumberOfBytes [out, optional]
 
@@ -104,8 +99,7 @@ This parameter can be <b>NULL</b>.
 If per-user quotas are being used, this value may be less than the total number of bytes on a disk.
 
 To determine the total number of bytes on a disk or volume, use 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>.
-
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>.
 
 ### -param lpTotalNumberOfFreeBytes [out, optional]
 
@@ -113,25 +107,17 @@ A pointer to a variable that receives the total number of free bytes on a disk.
 
 This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 The values obtained by this function are of the type 
-    <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>. Do not truncate these values to 32 
+    <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>. Do not truncate these values to 32 
      bits.
 
 The <b>GetDiskFreeSpaceEx</b> function returns zero (0) 
@@ -144,21 +130,18 @@ Symbolic link behavior—If the path points to a symbolic link, the operation is
 
 
 
+
+> [!NOTE]
+> The fileapi.h header defines GetDiskFreeSpaceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-functions">Disk Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-functions">Disk Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>

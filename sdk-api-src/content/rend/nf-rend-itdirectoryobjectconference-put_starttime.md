@@ -2,15 +2,12 @@
 UID: NF:rend.ITDirectoryObjectConference.put_StartTime
 title: ITDirectoryObjectConference::put_StartTime (rend.h)
 description: The put_StartTime method sets the start time of the conference.
+helpviewer_keywords: ["ITDirectoryObjectConference interface [TAPI 2.2]","put_StartTime method","ITDirectoryObjectConference.put_StartTime","ITDirectoryObjectConference::put_StartTime","_tapi3_itdirectoryobjectconference_put_starttime","put_StartTime","put_StartTime method [TAPI 2.2]","put_StartTime method [TAPI 2.2]","ITDirectoryObjectConference interface","rend/ITDirectoryObjectConference::put_StartTime","tapi3.itdirectoryobjectconference_put_starttime"]
 old-location: tapi3\itdirectoryobjectconference_put_starttime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 87ccf59c-3fe6-4247-b7f9-d1fb8bcf4b69
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_StartTime method, ITDirectoryObjectConference.put_StartTime, ITDirectoryObjectConference::put_StartTime, _tapi3_itdirectoryobjectconference_put_starttime, put_StartTime, put_StartTime method [TAPI 2.2], put_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_StartTime, tapi3.itdirectoryobjectconference_put_starttime
-f1_keywords:
-- rend/ITDirectoryObjectConference.put_StartTime
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectoryObjectConference.put_StartTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectoryObjectConference::put_StartTime
+ - rend/ITDirectoryObjectConference::put_StartTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectoryObjectConference.put_StartTime
 ---
 
 # ITDirectoryObjectConference::put_StartTime
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
  The 
 <b>put_StartTime</b> method sets the start time of the conference.
 
-
 ## -parameters
-
-
-
 
 ### -param Date [in]
 
 Conference start time.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -133,22 +127,11 @@ This method is not yet implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_starttime">ITDirectoryObjectConference::get_StartTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-get_starttime">ITDirectoryObjectConference::get_StartTime</a>

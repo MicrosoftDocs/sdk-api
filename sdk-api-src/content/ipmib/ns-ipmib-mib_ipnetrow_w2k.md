@@ -1,16 +1,13 @@
 ---
 UID: NS:ipmib._MIB_IPNETROW_W2K
 title: MIB_IPNETROW_W2K (ipmib.h)
-description: Contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
+description: MIB_IPNETROW_W2K (ipmib.h) contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
+helpviewer_keywords: ["*PMIB_IPNETROW","*PMIB_IPNETROW_W2K","MIB_IPNETROW","MIB_IPNETROW structure [MIB]","MIB_IPNETROW_W2K","MIB_IPNET_TYPE_DYNAMIC","MIB_IPNET_TYPE_INVALID","MIB_IPNET_TYPE_OTHER","MIB_IPNET_TYPE_STATIC","PMIB_IPNETROW","PMIB_IPNETROW structure pointer [MIB]","_mpr_mib_ipnetrow","ipmib/MIB_IPNETROW","ipmib/PMIB_IPNETROW","iprtrmib/MIB_IPNETROW","iprtrmib/PMIB_IPNETROW","mib.mib_ipnetrow","rras.mib_ipnetrow"]
 old-location: mib\mib_ipnetrow.htm
 tech.root: MIB
 ms.assetid: aa9aa9f9-2334-4b08-896f-f4a77caa0f7f
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMIB_IPNETROW, *PMIB_IPNETROW_W2K, MIB_IPNETROW, MIB_IPNETROW structure [MIB], MIB_IPNETROW_W2K, MIB_IPNET_TYPE_DYNAMIC, MIB_IPNET_TYPE_INVALID, MIB_IPNET_TYPE_OTHER, MIB_IPNET_TYPE_STATIC, PMIB_IPNETROW, PMIB_IPNETROW structure pointer [MIB], _mpr_mib_ipnetrow, ipmib/MIB_IPNETROW, ipmib/PMIB_IPNETROW, iprtrmib/MIB_IPNETROW, iprtrmib/PMIB_IPNETROW, mib.mib_ipnetrow, rras.mib_ipnetrow'
-f1_keywords:
-- ipmib/MIB_IPNETROW
-dev_langs:
-- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipmib.h
-- Iprtrmib.h
-api_name:
-- MIB_IPNETROW
 targetos: Windows
 req.typenames: MIB_IPNETROW_W2K, *PMIB_IPNETROW_W2K
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPNETROW_W2K
+ - ipmib/_MIB_IPNETROW_W2K
+ - PMIB_IPNETROW_W2K
+ - ipmib/PMIB_IPNETROW_W2K
+ - MIB_IPNETROW_W2K
+ - ipmib/MIB_IPNETROW_W2K
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_IPNETROW
 ---
 
 # MIB_IPNETROW_W2K structure
@@ -49,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_IPNETROW</b> structure contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwIndex
 
@@ -65,13 +66,11 @@ Type: <b>DWORD</b>
 
 The index of the adapter.
 
-
 ### -field dwPhysAddrLen
 
 Type: <b>DWORD</b>
 
 The length, in bytes, of the physical address.
-
 
 ### -field bPhysAddr
 
@@ -79,13 +78,11 @@ Type: <b>BYTE[MAXLEN_PHYSADDR]</b>
 
 The physical address.
 
-
 ### -field dwAddr
 
 Type: <b>DWORD</b>
 
 The IPv4 address.
-
 
 ### -field dwType
 
@@ -145,37 +142,23 @@ A static ARP type.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
 On the Windows SDK released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IPNETROW</b> structure is defined in the <i>Ipmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnettable">MIB_IPNETTABLE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipnetentry">SetIpNetEntry</a>

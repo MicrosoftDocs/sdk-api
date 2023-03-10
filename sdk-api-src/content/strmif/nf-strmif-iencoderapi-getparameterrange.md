@@ -2,15 +2,12 @@
 UID: NF:strmif.IEncoderAPI.GetParameterRange
 title: IEncoderAPI::GetParameterRange (strmif.h)
 description: The GetParameterRange method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
+helpviewer_keywords: ["GetParameterRange","GetParameterRange method [Microsoft TV Technologies]","GetParameterRange method [Microsoft TV Technologies]","IEncoderAPI interface","IEncoderAPI interface [Microsoft TV Technologies]","GetParameterRange method","IEncoderAPI.GetParameterRange","IEncoderAPI::GetParameterRange","IEncoderAPIGetParameterRange","mstv.iencoderapi_getparameterrange","strmif/IEncoderAPI::GetParameterRange"]
 old-location: mstv\iencoderapi_getparameterrange.htm
 tech.root: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7
 ms.date: 12/05/2018
 ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
-f1_keywords:
-- strmif/IEncoderAPI.GetParameterRange
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IEncoderAPI.GetParameterRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEncoderAPI::GetParameterRange
+ - strmif/IEncoderAPI::GetParameterRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IEncoderAPI.GetParameterRange
 ---
 
 # IEncoderAPI::GetParameterRange
@@ -49,44 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
 
 The <b>GetParameterRange</b> method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
 
-
 ## -parameters
-
-
-
 
 ### -param Api [in]
 
 Pointer to a GUID that specifies the parameter.
-          
-
 
 ### -param ValueMin [out]
 
 Pointer to a <b>VARIANT</b> type that receives the minimum value of the parameter.
-          
-
 
 ### -param ValueMax [out]
 
 Pointer to a <b>VARIANT</b> type that receives the maximum value of the parameter.
-          
-
 
 ### -param SteppingDelta [out]
 
 Pointer to a <b>VARIANT</b> type that receives the stepping delta, which defines the valid increments from <i>ValueMin</i> to <i>ValueMax</i>.
-          
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,14 +105,8 @@ The property supports a list of possible values, not a linear range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The valid range for the parameter is [<i>ValueMax</i>...<i>ValueMax</i>], with increments of <i>SteppingDelta</i>. If a parameter supports a stepped range of values, it must use one of the following variant types:
 
@@ -141,22 +122,11 @@ Any stepping value is valid. If the range has no stepping delta (that is, you ca
       
 
 If <i>Api</i> equals <b>ENCAPIPARAM_BITRATE_MODE</b>, the method returns <b>E_NOTIMPL</b>, because the bitrate mode constants are a list of specific values.
-      
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>

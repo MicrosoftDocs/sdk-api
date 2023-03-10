@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerReadPossibleValue
 title: PowerReadPossibleValue function (powrprof.h)
 description: Retrieves the value for a possible value of a power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadPossibleValue","PowerReadPossibleValue function","base.powerreadpossiblevalue","powrprof/PowerReadPossibleValue"]
 old-location: base\powerreadpossiblevalue.htm
-tech.root: power
+tech.root: base
 ms.assetid: 453f3db0-537d-4f24-a62c-d12b44b5e019
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadPossibleValue, PowerReadPossibleValue function, base.powerreadpossiblevalue, powrprof/PowerReadPossibleValue
-f1_keywords:
-- powrprof/PowerReadPossibleValue
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerReadPossibleValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerReadPossibleValue
+ - powrprof/PowerReadPossibleValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerReadPossibleValue
 ---
 
 # PowerReadPossibleValue function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value for a possible value of a power setting.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to 
      <b>NULL</b>.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -162,64 +158,39 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ### -param Type [out, optional]
 
 A pointer to a variable that receives the type of data for the value. The 
-     possible values are listed in <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. 
+     possible values are listed in <a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. 
      This parameter can be <b>NULL</b> and the type of data is not returned.
-
 
 ### -param PossibleSettingIndex [in]
 
 The zero-based index of the possible setting.
 
-
 ### -param Buffer [out, optional]
 
-A pointer to a buffer that receives the value. If this parameter is <b>NULL</b>, 
-     the <i>BufferSize</i> 
-     parameter receives the required buffer size.
-
+A pointer to a buffer that receives the value. If this parameter is <b>NULL</b>, the <i>BufferSize</i> parameter receives the required buffer size.
 
 ### -param BufferSize [in, out]
 
-A pointer to a variable that contains the size of the buffer pointed to by the 
-     <i>Buffer</i> parameter. 
+A pointer to a variable that contains the size of the buffer pointed to by the  <i>Buffer</i> parameter. 
 
 If the <i>Buffer</i> parameter is <b>NULL</b>, the function returns ERROR_SUCCESS and the variable receives the required buffer size. 
 
-If the specified buffer size is not large enough to hold the 
-     requested data, the function returns  <b>ERROR_MORE_DATA</b> and the variable receives the required buffer size.
-
+If the specified buffer size is not large enough to hold the requested data, the function returns  <b>ERROR_MORE_DATA</b> and the variable receives the required buffer size.
 
 ## -returns
 
-
-
-Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
-      the call failed. If the buffer size specified by the <i>BufferSize</i> parameter is too small, 
+Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if the call failed. If the buffer size specified by the <i>BufferSize</i> parameter is too small, 
        
-      <b>ERROR_MORE_DATA</b> will be returned and the <b>DWORD</b> pointed 
-      to by the <i>BufferSize</i> parameter will be filled in with the required buffer size.
-
-
-
+<b>ERROR_MORE_DATA</b> will be returned and the <b>DWORD</b> pointed to by the <i>BufferSize</i> parameter will be filled in with the required buffer size.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

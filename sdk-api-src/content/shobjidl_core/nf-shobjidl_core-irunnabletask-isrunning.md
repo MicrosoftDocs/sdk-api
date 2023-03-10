@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IRunnableTask.IsRunning
 title: IRunnableTask::IsRunning (shobjidl_core.h)
 description: Requests information on the state of a task, such as thumbnail extraction.
+helpviewer_keywords: ["IRunnableTask interface [Windows Shell]","IsRunning method","IRunnableTask.IsRunning","IRunnableTask::IsRunning","IsRunning","IsRunning method [Windows Shell]","IsRunning method [Windows Shell]","IRunnableTask interface","_win32_IRunnableTask_IsRunning","shell.IRunnableTask_IsRunning","shobjidl_core/IRunnableTask::IsRunning"]
 old-location: shell\IRunnableTask_IsRunning.htm
 tech.root: shell
 ms.assetid: 14117a47-d462-4be1-b440-8d422c938815
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],IsRunning method, IRunnableTask.IsRunning, IRunnableTask::IsRunning, IsRunning, IsRunning method [Windows Shell], IsRunning method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_IsRunning, shell.IRunnableTask_IsRunning, shobjidl_core/IRunnableTask::IsRunning
-f1_keywords:
-- shobjidl_core/IRunnableTask.IsRunning
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IRunnableTask.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRunnableTask::IsRunning
+ - shobjidl_core/IRunnableTask::IsRunning
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IRunnableTask.IsRunning
 ---
 
 # IRunnableTask::IsRunning
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests information on the state of a task, such as thumbnail extraction.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -113,7 +106,7 @@ The task is suspended.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-irunnabletask-kill">IRunnableTask::Kill</a> has been called on the thread, but the thread has not yet completely shut down.
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-irunnabletask-kill">IRunnableTask::Kill</a> has been called on the thread, but the thread has not yet completely shut down.
 
 </td>
 </tr>
@@ -129,16 +122,7 @@ The task is finished.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method must be implemented.
-
-
-

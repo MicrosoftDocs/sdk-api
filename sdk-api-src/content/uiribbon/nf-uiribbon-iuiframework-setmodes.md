@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUIFramework.SetModes
 title: IUIFramework::SetModes (uiribbon.h)
 description: Specifies the application modes to enable.
+helpviewer_keywords: ["IUIFramework interface [Windows Ribbon]","SetModes method","IUIFramework.SetModes","IUIFramework::SetModes","SetModes","SetModes method [Windows Ribbon]","SetModes method [Windows Ribbon]","IUIFramework interface","scenicintent_IUIFramework_SetModes","uiribbon/IUIFramework::SetModes","windowsribbon.windowsribbon_iuiframework_setmodes"]
 old-location: windowsribbon\windowsribbon_iuiframework_setmodes.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\setmodes.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],SetModes method, IUIFramework.SetModes, IUIFramework::SetModes, SetModes, SetModes method [Windows Ribbon], SetModes method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_SetModes, uiribbon/IUIFramework::SetModes, windowsribbon.windowsribbon_iuiframework_setmodes
-f1_keywords:
-- uiribbon/IUIFramework.SetModes
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIFramework.SetModes
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIFramework::SetModes
+ - uiribbon/IUIFramework::SetModes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIFramework.SetModes
 ---
 
 # IUIFramework::SetModes
@@ -49,38 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the application modes to enable. 
-		
-
+Specifies the application modes to enable.
 
 ## -parameters
-
-
-
 
 ### -param iModes
 
 Type: <b>INT32</b>
 
-A bit mask that identifies the modes. 
-				
-
+A bit mask that identifies the modes.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 A mode indicates the functionality required and, therefore, which elements should be displayed (or 
 				hidden) at run time, depending on the state or context of an application. For example, network connectivity 
@@ -91,35 +78,26 @@ A mode indicates the functionality required and, therefore, which elements shoul
 Modes are specified for elements in the Ribbon markup and bound to individual controls at run time.
 			
 
-Modes can be applied to a Ribbon <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-tab">Tab</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-group">Group</a>. 
+Modes can be applied to a Ribbon <a href="/windows/desktop/windowsribbon/windowsribbon-element-tab">Tab</a> and <a href="/windows/desktop/windowsribbon/windowsribbon-element-group">Group</a>. 
 				
 
-<div class="alert"><b>Note</b>  Modes can be applied to <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-button">Button</a>, <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-splitbutton">SplitButton</a>, and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-dropdownbutton">DropDownButton</a> controls when hosted in the left 
+<div class="alert"><b>Note</b>  Modes can be applied to <a href="/windows/desktop/windowsribbon/windowsribbon-element-button">Button</a>, <a href="/windows/desktop/windowsribbon/windowsribbon-element-splitbutton">SplitButton</a>, and <a href="/windows/desktop/windowsribbon/windowsribbon-element-dropdownbutton">DropDownButton</a> controls when hosted in the left 
 				column of the Application Menu. 
 				</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
+<a href="/windows/desktop/windowsribbon/ribbon-applicationmodes">Reconfiguring the Ribbon with Application Modes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-applicationmodes">Reconfiguring the Ribbon with Application Modes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

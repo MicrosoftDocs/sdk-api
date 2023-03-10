@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.ITocEntry.GetSubEntries
 title: ITocEntry::GetSubEntries (wmcodecdsp.h)
 description: The GetSubEntries method gets an array of subentry indices that were set by a previous call to SetSubEntries.
+helpviewer_keywords: ["GetSubEntries","GetSubEntries method [Media Foundation]","GetSubEntries method [Media Foundation]","ITocEntry interface","ITocEntry interface [Media Foundation]","GetSubEntries method","ITocEntry.GetSubEntries","ITocEntry::GetSubEntries","codecapi.itocentry_getsubentries","mf.itocentry_getsubentries","wmcodecdsp/ITocEntry::GetSubEntries"]
 old-location: mf\itocentry_getsubentries.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 583340d7-87f9-40c5-a0dc-3e69bbb96334
 ms.date: 12/05/2018
 ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntries method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetSubEntries method, ITocEntry.GetSubEntries, ITocEntry::GetSubEntries, codecapi.itocentry_getsubentries, mf.itocentry_getsubentries, wmcodecdsp/ITocEntry::GetSubEntries
-f1_keywords:
-- wmcodecdsp/ITocEntry.GetSubEntries
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocEntry.GetSubEntries
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocEntry::GetSubEntries
+ - wmcodecdsp/ITocEntry::GetSubEntries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocEntry.GetSubEntries
 ---
 
 # ITocEntry::GetSubEntries
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetSubEntries</b> method gets an array of subentry indices that were set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>.
-
+The <b>GetSubEntries</b> method gets an array of subentry indices that were set by a previous call to <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>.
 
 ## -parameters
-
-
-
 
 ### -param pdwNumSubEntries [in, out]
 
 If <i>pwSubEntryIndices</i> is <b>NULL</b>, this is an output parameter that receives the number of subentries associated with this entry. If <i>pwSubEntryIndices</i> is not <b>NULL</b>, this is an input parameter that specifies the number of <b>DWORD</b>s in the caller-allocated array pointed to by <i>pwSubEntryIndices</i>.
 
-
 ### -param pwSubEntryIndices [out]
 
 <b>NULL</b>, or a pointer to a caller-allocated array of <b>DWORD</b>s that receives the subentry indices.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,22 +94,11 @@ The method returns this error code if <i>pwSubEntryIndices</i> is not <b>NULL</b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentry">ITocEntry</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setsubentries">SetSubEntries</a>

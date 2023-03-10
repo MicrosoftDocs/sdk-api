@@ -1,16 +1,13 @@
 ---
 UID: NF:ras.RasGetEapUserDataA
 title: RasGetEapUserDataA function (ras.h)
-description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry.
+description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry. (ANSI)
+helpviewer_keywords: ["RasGetEapUserDataA", "ras/RasGetEapUserDataA"]
 old-location: rras\rasgeteapuserdata.htm
 tech.root: RRAS
 ms.assetid: 6b1a1c73-28af-43ff-b79c-c796ddae219c
 ms.date: 12/05/2018
 ms.keywords: RasGetEapUserData, RasGetEapUserData function [RAS], RasGetEapUserDataA, RasGetEapUserDataW, _ras_rasgeteapuserdata, ras/RasGetEapUserData, ras/RasGetEapUserDataA, ras/RasGetEapUserDataW, rras.rasgeteapuserdata
-f1_keywords:
-- ras/RasGetEapUserData
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasGetEapUserData
-- RasGetEapUserDataA
-- RasGetEapUserDataW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetEapUserDataA
+ - ras/RasGetEapUserDataA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasGetEapUserData
+ - RasGetEapUserDataA
+ - RasGetEapUserDataW
 ---
 
 # RasGetEapUserDataA function
@@ -50,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Use the 
 <b>RasGetEapUserData</b> function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry.
 
-
 ## -parameters
-
-
-
 
 ### -param hToken [in]
 
 Handle to a primary or impersonation access token that represents the user for which to retrieve data. This parameter can be <b>NULL</b> if the function is called from a process already running in the user's context.
 
-
 ### -param pszPhonebook [in]
 
 Pointer to a null-terminated string that specifies the full path of the phone-book (PBK) file. If this parameter is <b>NULL</b>, the function  uses the system phone book.
-
 
 ### -param pszEntry [in]
 
 Pointer to a null-terminated string that specifies an existing entry name.
 
-
 ### -param pbEapData [out]
 
 Pointer to a buffer that receives the retrieved EAP data for the user. The caller should allocate the memory for this buffer. If the buffer is not large enough, 
 <b>RasGetEapUserData</b>  returns <b>ERROR_BUFFER_TOO_SMALL</b>, and the <i>pdwSizeofEapData</i> parameter  contains the required size.
-
 
 ### -param pdwSizeofEapData [in, out]
 
@@ -90,14 +83,11 @@ Pointer to a <b>DWORD</b> variable that, on input, specifies the size of the buf
 
 If the buffer specified by the <i>pbEapData</i> parameter is not large enough, <i>pdwSizeofEapData</i> receives, on output, the required size.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -134,7 +124,7 @@ The buffer pointed to by <i>pbEapData</i> is too small to receive the data. The 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to open the specified phone-book file.
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to open the specified phone-book file.
 
 </td>
 </tr>
@@ -146,7 +136,7 @@ The buffer pointed to by <i>pbEapData</i> is too small to receive the data. The 
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> was unable to find the specified entry in the phone book.
 
 </td>
 </tr>
@@ -158,35 +148,29 @@ The buffer pointed to by <i>pbEapData</i> is too small to receive the data. The 
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa377242(v=vs.85)">RASEAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377242(v=vs.85)">RASEAPINFO</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasseteapuserdataa">RasSetEapUserData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasseteapuserdataa">RasSetEapUserData</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The ras.h header defines RasGetEapUserData as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

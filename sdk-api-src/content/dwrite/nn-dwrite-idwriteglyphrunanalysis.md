@@ -2,15 +2,12 @@
 UID: NN:dwrite.IDWriteGlyphRunAnalysis
 title: IDWriteGlyphRunAnalysis (dwrite.h)
 description: Contains low-level information used to render a glyph run.
+helpviewer_keywords: ["IDWriteGlyphRunAnalysis","IDWriteGlyphRunAnalysis interface [Direct Write]","IDWriteGlyphRunAnalysis interface [Direct Write]","described","directwrite.IDWriteGlyphRunAnalysis","dwrite/IDWriteGlyphRunAnalysis"]
 old-location: directwrite\IDWriteGlyphRunAnalysis.htm
 tech.root: DirectWrite
 ms.assetid: d4739b55-1a9b-4346-9b47-d8adb98df163
 ms.date: 12/05/2018
 ms.keywords: IDWriteGlyphRunAnalysis, IDWriteGlyphRunAnalysis interface [Direct Write], IDWriteGlyphRunAnalysis interface [Direct Write],described, directwrite.IDWriteGlyphRunAnalysis, dwrite/IDWriteGlyphRunAnalysis
-f1_keywords:
-- dwrite/IDWriteGlyphRunAnalysis
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteGlyphRunAnalysis
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteGlyphRunAnalysis
+ - dwrite/IDWriteGlyphRunAnalysis
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteGlyphRunAnalysis
 ---
 
 # IDWriteGlyphRunAnalysis interface
@@ -48,58 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
  Contains low-level information used to render a glyph run.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteGlyphRunAnalysis</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteGlyphRunAnalysis</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteGlyphRunAnalysis</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteglyphrunanalysis-createalphatexture">CreateAlphaTexture</a>
-</td>
-<td align="left" width="63%">
- Creates an alpha texture of the specified type for glyphs within a specified bounding rectangle.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteglyphrunanalysis-getalphablendparams">GetAlphaBlendParams</a>
-</td>
-<td align="left" width="63%">
- Gets alpha blending properties required for ClearType blending.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwriteglyphrunanalysis-getalphatexturebounds">GetAlphaTextureBounds</a>
-</td>
-<td align="left" width="63%">
- Gets the bounding rectangle of the physical pixels affected by the glyph run.
-
-</td>
-</tr>
-</table> 
-
+The <b>IDWriteGlyphRunAnalysis</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteGlyphRunAnalysis</b> also has these types of members:
 
 ## -remarks
-
-
 
 The alpha texture can be a   bi-level alpha  texture or a ClearType alpha texture.  
 
@@ -158,7 +115,4 @@ HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalys
 }
 
 ```
-
-
-
 

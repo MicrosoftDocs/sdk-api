@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontSet1.GetFirstFontResources
 title: IDWriteFontSet1::GetFirstFontResources
 description: Retrieves a new font set that contains only the first occurrence of each font resource from the set.
+helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFirstFontResources method","IDWriteFontSet1.GetFirstFontResources","IDWriteFontSet1::GetFirstFontResources","GetFirstFontResources","GetFirstFontResources method [Direct Write]","GetFirstFontResources method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfirstfontresources","dwrite_3/IDWriteFontSet1::GetFirstFontResources"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFirstFontResources method, IDWriteFontSet1.GetFirstFontResources, IDWriteFontSet1::GetFirstFontResources, GetFirstFontResources, GetFirstFontResources method [Direct Write], GetFirstFontResources method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfirstfontresources, dwrite_3/IDWriteFontSet1::GetFirstFontResources
-f1_keywords:
-- dwrite_3/IDWriteFontSet1.GetFirstFontResources
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontSet1::GetFirstFontResources
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontSet1::GetFirstFontResources
+ - dwrite_3/IDWriteFontSet1::GetFirstFontResources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSet1::GetFirstFontResources
 ---
 
 ## -description
@@ -50,9 +52,9 @@ Retrieves a new font set that contains only the first occurrence of each font re
 
 ### -param filteredFontSet [out]
 
-Type: **[IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1)\*\***
+Type: **[IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md)\*\***
 
-The address of a pointer to an [IDWriteFontSet1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset1) interface. On successful completion, the function sets the pointer to a new font set object consisting of single default instances from font resources, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontSet1](./nn-dwrite_3-idwritefontset1.md) interface. On successful completion, the function sets the pointer to a new font set object consisting of single default instances from font resources, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 

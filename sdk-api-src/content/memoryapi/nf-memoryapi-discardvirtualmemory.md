@@ -2,15 +2,12 @@
 UID: NF:memoryapi.DiscardVirtualMemory
 title: DiscardVirtualMemory function (memoryapi.h)
 description: Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application.
+helpviewer_keywords: ["DiscardVirtualMemory","DiscardVirtualMemory function","base.discardvirtualmemory","winbase/DiscardVirtualMemory"]
 old-location: base\discardvirtualmemory.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 942e80cb-5a68-24fa-5d5d-fe3741bee2dc
 ms.date: 12/05/2018
 ms.keywords: DiscardVirtualMemory, DiscardVirtualMemory function, base.discardvirtualmemory, winbase/DiscardVirtualMemory
-f1_keywords:
-- memoryapi/DiscardVirtualMemory
-dev_langs:
-- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -25,27 +22,32 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Kernel32.lib
+req.lib: onecore.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-memory-l1-1-2.dll
-- KernelBase.dll
-- API-MS-Win-Core-memory-l1-1-3.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Memory-L1-1-4.dll
-api_name:
-- DiscardVirtualMemory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DiscardVirtualMemory
+ - memoryapi/DiscardVirtualMemory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-memory-l1-1-2.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-memory-l1-1-3.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Memory-L1-1-4.dll
+api_name:
+ - DiscardVirtualMemory
 ---
 
 # DiscardVirtualMemory function
@@ -53,39 +55,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Discards the memory contents of a range of memory pages, without decommitting the memory.
         The contents of discarded memory is undefined and must be rewritten by the application.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param VirtualAddress [in]
 
 Page-aligned starting address of the memory to discard.
 
-
 ### -param Size [in]
 
 Size, in bytes, of the memory region to discard.  <i>Size</i> must be an integer multiple of the system page size.
 
-
 ## -returns
 
-
-
-ERROR_SUCCESS if successful; a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
-
-
-
+ERROR_SUCCESS if successful; a <a href="/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
 
 ## -remarks
-
-
 
 If <b>DiscardVirtualMemory</b> fails, the contents of the region is not altered.
 
@@ -96,43 +83,34 @@ Use this function to discard memory contents that are no longer needed, while ke
 <div class="alert"><b>Important</b>  Calls to <b>DiscardVirtualMemory</b> will fail if the memory protection is not <b>PAGE_READWRITE</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-reclaimvirtualmemory">ReclaimVirtualMemory</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>

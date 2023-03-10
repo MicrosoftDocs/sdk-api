@@ -1,16 +1,13 @@
 ---
-UID: NS:wininet.__unnamed_struct_4
+UID: NS:wininet.INTERNET_PER_CONN_OPTIONW
 title: INTERNET_PER_CONN_OPTIONW (wininet.h)
-description: Contains the value of an option.
+description: Contains the value of an option. (Unicode)
+helpviewer_keywords: ["*LPINTERNET_PER_CONN_OPTIONW","INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_TIME","INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_URL","INTERNET_PER_CONN_AUTOCONFIG_RELOAD_DELAY_MINS","INTERNET_PER_CONN_AUTOCONFIG_SECONDARY_URL","INTERNET_PER_CONN_AUTOCONFIG_URL","INTERNET_PER_CONN_AUTODISCOVERY_FLAGS","INTERNET_PER_CONN_FLAGS","INTERNET_PER_CONN_FLAGS_UI","INTERNET_PER_CONN_OPTION","INTERNET_PER_CONN_OPTION structure [WinINet]","INTERNET_PER_CONN_OPTIONA","INTERNET_PER_CONN_OPTIONW","INTERNET_PER_CONN_PROXY_BYPASS","INTERNET_PER_CONN_PROXY_SERVER","LPINTERNET_PER_CONN_OPTION","LPINTERNET_PER_CONN_OPTION structure pointer [WinINet]","_inet_internet_per_conn_option_structure","wininet.internet_per_conn_option","wininet/INTERNET_PER_CONN_OPTION","wininet/INTERNET_PER_CONN_OPTIONA","wininet/INTERNET_PER_CONN_OPTIONW","wininet/LPINTERNET_PER_CONN_OPTION"]
 old-location: wininet\internet_per_conn_option.htm
 tech.root: wininet
 ms.assetid: 35cfc768-1f1d-4be9-8d56-c56c7440513e
 ms.date: 12/05/2018
 ms.keywords: '*LPINTERNET_PER_CONN_OPTIONW, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_TIME, INTERNET_PER_CONN_AUTOCONFIG_LAST_DETECT_URL, INTERNET_PER_CONN_AUTOCONFIG_RELOAD_DELAY_MINS, INTERNET_PER_CONN_AUTOCONFIG_SECONDARY_URL, INTERNET_PER_CONN_AUTOCONFIG_URL, INTERNET_PER_CONN_AUTODISCOVERY_FLAGS, INTERNET_PER_CONN_FLAGS, INTERNET_PER_CONN_FLAGS_UI, INTERNET_PER_CONN_OPTION, INTERNET_PER_CONN_OPTION structure [WinINet], INTERNET_PER_CONN_OPTIONA, INTERNET_PER_CONN_OPTIONW, INTERNET_PER_CONN_PROXY_BYPASS, INTERNET_PER_CONN_PROXY_SERVER, LPINTERNET_PER_CONN_OPTION, LPINTERNET_PER_CONN_OPTION structure pointer [WinINet], _inet_internet_per_conn_option_structure, wininet.internet_per_conn_option, wininet/INTERNET_PER_CONN_OPTION, wininet/INTERNET_PER_CONN_OPTIONA, wininet/INTERNET_PER_CONN_OPTIONW, wininet/LPINTERNET_PER_CONN_OPTION'
-f1_keywords:
-- wininet/INTERNET_PER_CONN_OPTION
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- INTERNET_PER_CONN_OPTION
-- INTERNET_PER_CONN_OPTIONA
-- INTERNET_PER_CONN_OPTIONW
 targetos: Windows
 req.typenames: INTERNET_PER_CONN_OPTIONW, *LPINTERNET_PER_CONN_OPTIONW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPINTERNET_PER_CONN_OPTIONW
+ - wininet/LPINTERNET_PER_CONN_OPTIONW
+ - INTERNET_PER_CONN_OPTIONW
+ - wininet/INTERNET_PER_CONN_OPTIONW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - INTERNET_PER_CONN_OPTION
+ - INTERNET_PER_CONN_OPTIONA
+ - INTERNET_PER_CONN_OPTIONW
 ---
 
 # INTERNET_PER_CONN_OPTIONW structure
@@ -50,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the value of an option.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwOption
 
@@ -273,8 +272,6 @@ The connection automatically detects settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value
 
@@ -298,18 +295,11 @@ Pointer to a string value.
 #### ftValue
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ### -field dwValue
 
- 
-
-
 ### -field pszValue
-
- 
-
 
 ### -field ftValue
 
@@ -326,49 +316,44 @@ Unsigned long integer value.
 ##### - Value.ftValue
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 
 ##### - Value.pszValue
 
 Pointer to a string value.
 
-
 ## -remarks
 
-
-
 In Internet Explorer 5, only the ANSI versions of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> will work with the 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> and 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a> will work with the 
 <b>INTERNET_PER_CONN_OPTION</b> structure. The Unicode versions will support the 
 <b>INTERNET_PER_CONN_OPTION</b> structure in later versions of Internet Explorer.
 
 For queries that return strings, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> allocates the memory for the 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a> allocates the memory for the 
 <b>pszValue</b> member of the structure. The calling application must free this memory using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function when it has finished using the string.
+<a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function when it has finished using the string.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The wininet.h header defines INTERNET_PER_CONN_OPTION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_per_conn_option_lista">INTERNET_PER_CONN_OPTION_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_per_conn_option_lista">INTERNET_PER_CONN_OPTION_LIST</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
- 
-
- 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
 

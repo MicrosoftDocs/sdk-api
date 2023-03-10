@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiGetProductCodeW
 title: MsiGetProductCodeW function (msi.h)
-description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
+description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application. (Unicode)
+helpviewer_keywords: ["MsiGetProductCode", "MsiGetProductCode function", "MsiGetProductCodeW", "_msi_msigetproductcode", "msi/MsiGetProductCode", "msi/MsiGetProductCodeW", "setup.msigetproductcode"]
 old-location: setup\msigetproductcode.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode
-f1_keywords:
-- msi/MsiGetProductCode
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiGetProductCode
-- MsiGetProductCodeA
-- MsiGetProductCodeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiGetProductCodeW
+ - msi/MsiGetProductCodeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiGetProductCode
+ - MsiGetProductCodeA
+ - MsiGetProductCodeW
 ---
 
 # MsiGetProductCodeW function
@@ -50,29 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiGetProductCode</b> function returns the product code of an application by using the component code of an installed or advertised component of the application. During initialization, an application must determine under which product code it has been installed or advertised.
 
-
 ## -parameters
-
-
-
 
 ### -param szComponent [in]
 
 This parameter specifies the component code of a component that has been installed by the application. This will be typically the component code of the component containing the executable file of the application.
 
-
 ### -param lpBuf39 [out]
 
 Pointer to a buffer that receives the product code. This buffer must be 39 characters long. The first 38 characters are for the GUID, and the last character is for the terminating null character.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -140,26 +133,17 @@ The specified component is unknown.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 During initialization, an application must determine the product code under which it was installed. An application can be part of different products in different installations. For example, an application can be part of a suite of applications, or it can be installed by itself.
 
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiGetProductCode as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>

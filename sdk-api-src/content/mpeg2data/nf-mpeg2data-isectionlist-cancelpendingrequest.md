@@ -2,15 +2,12 @@
 UID: NF:mpeg2data.ISectionList.CancelPendingRequest
 title: ISectionList::CancelPendingRequest (mpeg2data.h)
 description: The CancelPendingRequest method cancels any pending asynchronous request.
+helpviewer_keywords: ["CancelPendingRequest","CancelPendingRequest method [Microsoft TV Technologies]","CancelPendingRequest method [Microsoft TV Technologies]","ISectionList interface","ISectionList interface [Microsoft TV Technologies]","CancelPendingRequest method","ISectionList.CancelPendingRequest","ISectionList::CancelPendingRequest","ISectionListCancelPendingRequest","mpeg2data/ISectionList::CancelPendingRequest","mstv.isectionlist_cancelpendingrequest"]
 old-location: mstv\isectionlist_cancelpendingrequest.htm
 tech.root: mstv
 ms.assetid: 58e0898d-a84e-49cf-bc18-1fda8351dfc0
 ms.date: 12/05/2018
 ms.keywords: CancelPendingRequest, CancelPendingRequest method [Microsoft TV Technologies], CancelPendingRequest method [Microsoft TV Technologies],ISectionList interface, ISectionList interface [Microsoft TV Technologies],CancelPendingRequest method, ISectionList.CancelPendingRequest, ISectionList::CancelPendingRequest, ISectionListCancelPendingRequest, mpeg2data/ISectionList::CancelPendingRequest, mstv.isectionlist_cancelpendingrequest
-f1_keywords:
-- mpeg2data/ISectionList.CancelPendingRequest
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- ISectionList.CancelPendingRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISectionList::CancelPendingRequest
+ - mpeg2data/ISectionList::CancelPendingRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - ISectionList.CancelPendingRequest
 ---
 
 # ISectionList::CancelPendingRequest
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>CancelPendingRequest</b> method cancels any pending asynchronous request.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -85,18 +75,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>

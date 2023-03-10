@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CRYPT_OID_INFO
 title: CRYPT_OID_INFO (wincrypt.h)
 description: Contains information about an object identifier (OID).
+helpviewer_keywords: ["*PCRYPT_OID_INFO","CCRYPT_OID_INFO","CCRYPT_OID_INFO structure [Security]","CRYPT_ENCRYPT_ALG_OID_GROUP_ID","CRYPT_ENHKEY_USAGE_OID_GROUP_ID","CRYPT_EXT_OR_ATTR_OID_GROUP_ID","CRYPT_HASH_ALG_OID_GROUP_ID","CRYPT_OID_INFO","CRYPT_OID_INFO structure [Security]","CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM","CRYPT_OID_INFO_ECC_WRAP_PARAMETERS_ALGORITHM","CRYPT_OID_INFO_HASH_PARAMETERS_ALGORITHM","CRYPT_OID_INFO_MGF1_PARAMETERS_ALGORITHM","CRYPT_OID_INFO_NO_SIGN_ALGORITHM","CRYPT_OID_INFO_OAEP_PARAMETERS_ALGORITHM","CRYPT_OID_INHIBIT_SIGNATURE_FORMAT_FLAG","CRYPT_OID_NO_NULL_ALGORITHM_PARA_FLAG","CRYPT_OID_PUBKEY_ENCRYPT_ONLY_FLAG","CRYPT_OID_PUBKEY_SIGN_ONLY_FLAG","CRYPT_OID_USE_PUBKEY_PARA_FOR_PKCS7_FLAG","CRYPT_POLICY_OID_GROUP_ID","CRYPT_PUBKEY_ALG_OID_GROUP_ID","CRYPT_RDN_ATTR_OID_GROUP_ID","CRYPT_SIGN_ALG_OID_GROUP_ID","PCCRYPT_OID_INFO","PCCRYPT_OID_INFO structure pointer [Security]","PCRYPT_OID_INFO","PCRYPT_OID_INFO structure pointer [Security]","_crypto2_crypt_oid_info","security.crypt_oid_info","wincrypt/CCRYPT_OID_INFO","wincrypt/CRYPT_OID_INFO","wincrypt/PCCRYPT_OID_INFO","wincrypt/PCRYPT_OID_INFO"]
 old-location: security\crypt_oid_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 06ba0f60-778d-450b-8f71-23471b8c4e2c
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_OID_INFO, CCRYPT_OID_INFO, CCRYPT_OID_INFO structure [Security], CRYPT_ENCRYPT_ALG_OID_GROUP_ID, CRYPT_ENHKEY_USAGE_OID_GROUP_ID, CRYPT_EXT_OR_ATTR_OID_GROUP_ID, CRYPT_HASH_ALG_OID_GROUP_ID, CRYPT_OID_INFO, CRYPT_OID_INFO structure [Security], CRYPT_OID_INFO_ECC_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_ECC_WRAP_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_HASH_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_MGF1_PARAMETERS_ALGORITHM, CRYPT_OID_INFO_NO_SIGN_ALGORITHM, CRYPT_OID_INFO_OAEP_PARAMETERS_ALGORITHM, CRYPT_OID_INHIBIT_SIGNATURE_FORMAT_FLAG, CRYPT_OID_NO_NULL_ALGORITHM_PARA_FLAG, CRYPT_OID_PUBKEY_ENCRYPT_ONLY_FLAG, CRYPT_OID_PUBKEY_SIGN_ONLY_FLAG, CRYPT_OID_USE_PUBKEY_PARA_FOR_PKCS7_FLAG, CRYPT_POLICY_OID_GROUP_ID, CRYPT_PUBKEY_ALG_OID_GROUP_ID, CRYPT_RDN_ATTR_OID_GROUP_ID, CRYPT_SIGN_ALG_OID_GROUP_ID, PCCRYPT_OID_INFO, PCCRYPT_OID_INFO structure pointer [Security], PCRYPT_OID_INFO, PCRYPT_OID_INFO structure pointer [Security], _crypto2_crypt_oid_info, security.crypt_oid_info, wincrypt/CCRYPT_OID_INFO, wincrypt/CRYPT_OID_INFO, wincrypt/PCCRYPT_OID_INFO, wincrypt/PCRYPT_OID_INFO'
-f1_keywords:
-- wincrypt/CRYPT_OID_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_OID_INFO
 targetos: Windows
 req.typenames: CRYPT_OID_INFO, *PCRYPT_OID_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_OID_INFO
+ - wincrypt/_CRYPT_OID_INFO
+ - PCRYPT_OID_INFO
+ - wincrypt/PCRYPT_OID_INFO
+ - CRYPT_OID_INFO
+ - wincrypt/CRYPT_OID_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_OID_INFO
 ---
 
 # CRYPT_OID_INFO structure
@@ -48,31 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPT_OID_INFO</b> structure contains information about an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). These structures give the relationship among an OID identifier, its name, its group, and other information about the OID. These structures can be listed by using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> function. New CRYPT_OID_STRUCTURES can be added by using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a> function.
-
+The <b>CRYPT_OID_INFO</b> structure contains information about an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). These structures give the relationship among an OID identifier, its name, its group, and other information about the OID. These structures can be listed by using 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> function. New CRYPT_OID_STRUCTURES can be added by using 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
 
-
 ### -field pszOID
 
 The OID associated with this OID information.
 
-
 ### -field pwszName
 
 The display name associated with an OID.
-
 
 ### -field dwGroupId
 
@@ -169,18 +167,12 @@ Signature algorithms
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.dwValue
 
 A numeric value associated with this OID information. This member is used with <b>dwGroupId</b> CRYPT_SIGN_ALG_OID_GROUP_ID.
-
 
 ### -field DUMMYUNIONNAME.Algid
 
@@ -201,7 +193,6 @@ This member applies for the following values of <b>dwGroupId</b>:
 ### -field DUMMYUNIONNAME.dwLength
 
 This member is not implemented. It is always set to zero.
-
 
 ### -field ExtraInfo
 
@@ -244,7 +235,7 @@ The following values are used for the flags in the <b>ExtraInfo</b> member.
 <td width="60%">
 This flag is no longer used.
 
-Stop the reformatting of the signature before the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a> function is called or after the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function is called.
+Stop the reformatting of the signature before the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a> function is called or after the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function is called.
 
 </td>
 </tr>
@@ -295,12 +286,10 @@ Include the parameters of the public key algorithm in the <i>digestEncryptionAlg
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwszCNGAlgid
 
-The algorithm identifier string passed to the CNG functions (the BCrypt* and NCrypt* functions that are defined in Bcrypt.h and Ncrypt.h). CNG functions use algorithm identifier strings, such as L"SHA1", instead of the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> data type constants, such as <b>CALG_SHA1</b>.<b>Windows Server 2003 and Windows XP:  </b>This member is not available.
+The algorithm identifier string passed to the CNG functions (the BCrypt* and NCrypt* functions that are defined in Bcrypt.h and Ncrypt.h). CNG functions use algorithm identifier strings, such as L"SHA1", instead of the <a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a> data type constants, such as <b>CALG_SHA1</b>.<b>Windows Server 2003 and Windows XP:  </b>This member is not available.
 
 
 
@@ -399,8 +388,6 @@ The RSAES-OAEP padding hash algorithm is obtained from the encoded parameters of
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pwszCNGExtraAlgid
 
@@ -427,22 +414,14 @@ For ECC curve name public keys, for example, szOID_ECC_CURVE_P256 ("1.2.840.1004
 
 For the other values of <b>dwGroupId</b>, set the <b>pwszCNGExtraAlgid</b> member to the empty string, L"".
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptfindoidinfo">CryptFindOIDInfo</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidinfo">CryptRegisterOIDInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>

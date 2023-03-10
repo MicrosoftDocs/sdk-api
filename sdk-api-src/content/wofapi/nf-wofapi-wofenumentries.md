@@ -2,15 +2,12 @@
 UID: NF:wofapi.WofEnumEntries
 title: WofEnumEntries function (wofapi.h)
 description: Enumerates all the data sources from a specified provider for a specified volume.
+helpviewer_keywords: ["WofEnumEntries","WofEnumEntries function [Files]","fs.wofenumentries","wofapi/WofEnumEntries"]
 old-location: fs\wofenumentries.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B
 ms.date: 12/05/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
-f1_keywords:
-- wofapi/WofEnumEntries
-dev_langs:
-- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wofutil.dll
-api_name:
-- WofEnumEntries
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WofEnumEntries
+ - wofapi/WofEnumEntries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wofutil.dll
+api_name:
+ - WofEnumEntries
 ---
 
 # WofEnumEntries function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Enumerates all the data sources from a specified provider for a specified volume. 
-
+Enumerates all the data sources from a specified provider for a specified volume.
 
 ## -parameters
 
-
-
-
 ### -param VolumeName [in]
 
-The volume name hosting the files for which the backing data sources are requested. 
-
+The volume name hosting the files for which the backing data sources are requested.
 
 ### -param Provider [in]
 
@@ -73,35 +69,19 @@ Indicates which provider’s data sources are being requested.  Supported provid
 <td>Indicates that the function should return the WIM files which are providing data for placeholder files on the specified volume.</td>
 </tr>
 </table>
- 
-
 
 ### -param EnumProc [in]
 
-The callback function for each data source. The enumeration will stop          if <i>EnumProc</i> returns <b>FALSE</b>. 
-
+The callback function for each data source. The enumeration will stop          if <i>EnumProc</i> returns <b>FALSE</b>.
 
 ### -param UserData [in, optional]
 
 User defined data passed to <i>EnumProc</i>.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-enum-overlay">FSCTL_ENUM_OVERLAY</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ifs/fsctl-enum-overlay">FSCTL_ENUM_OVERLAY</a>

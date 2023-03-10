@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.recv
 title: recv function (winsock2.h)
-description: Receives data from a connected socket or a bound connectionless socket.
+description: The recv function (winsock2.h) receives data from a connected socket or a bound connectionless socket. 
+helpviewer_keywords: ["_win32_recv_2","recv","recv function [Winsock]","winsock.recv_2","winsock/recv"]
 old-location: winsock\recv_2.htm
 tech.root: WinSock
 ms.assetid: 8c247cd3-479f-45d0-a038-a24e80cc7c73
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: _win32_recv_2, recv, recv function [Winsock], winsock.recv_2, winsock/recv
-f1_keywords:
-- winsock2/recv
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- recv
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - recv
+ - winsock2/recv
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - recv
 ---
 
 # recv function
@@ -48,45 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>recv</b> function receives data from a connected socket or a bound connectionless socket.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 The descriptor that identifies a connected socket.
 
-
 ### -param buf [out]
 
 A pointer to the buffer to receive the incoming data.
-
 
 ### -param len [in]
 
 The length, in bytes, of the buffer pointed to by the <i>buf</i> parameter.
 
-
 ### -param flags [in]
 
 A set of flags that influences the behavior of this function. See remarks below. See the Remarks section for details on the possible value for this parameter.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>recv</b> returns the number of bytes received and the buffer pointed to by the <i>buf</i> parameter will contain this data received. If the connection has been gracefully closed, the return value is zero.
 
  Otherwise, a value of SOCKET_ERROR is returned, and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -96,19 +87,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +110,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,7 +121,7 @@ The <i>buf</i> parameter is not completely contained in a valid part of the user
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -141,19 +132,19 @@ The socket is not connected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The (blocking) call was canceled through 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -164,7 +155,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -175,7 +166,7 @@ For a connection-oriented socket, this error indicates that the connection has b
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -186,7 +177,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,19 +188,19 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESHUTDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESHUTDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The socket has been shut down; it is not possible to receive on a socket after 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a> has been invoked with <b>how</b> set to SD_RECEIVE or SD_BOTH.
+<a href="/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a> has been invoked with <b>how</b> set to SD_RECEIVE or SD_BOTH.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -220,7 +211,7 @@ The socket is marked as nonblocking and the receive operation would block.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -231,19 +222,19 @@ The message was too large to fit into the specified buffer and was truncated.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The socket has not been bound with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>, or an unknown flag was specified, or MSG_OOB was specified for a socket with SO_OOBINLINE enabled or (for byte stream sockets only) <i>len</i> was zero or negative.
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>, or an unknown flag was specified, or MSG_OOB was specified for a socket with SO_OOBINLINE enabled or (for byte stream sockets only) <i>len</i> was zero or negative.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -254,7 +245,7 @@ The virtual circuit was terminated due to a time-out or other failure. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -265,7 +256,7 @@ The connection has been dropped because of a network failure or because the peer
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -274,14 +265,8 @@ The virtual circuit was reset by the remote side executing a hard or abortive cl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>recv</b> function is used to read incoming data on connection-oriented sockets, or connectionless sockets. When using a connection-oriented protocol, the sockets must be connected before calling 
@@ -289,43 +274,43 @@ The
 <b>recv</b>.
 
 The local address of the socket must be known. For server applications, use an explicit 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function or an implicit 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> function. Explicit binding is discouraged for client applications. For client applications, the socket can become bound implicitly to a local address using 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsajoinleaf">WSAJoinLeaf</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a> function or an implicit 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-accept">accept</a> or 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaaccept">WSAAccept</a> function. Explicit binding is discouraged for client applications. For client applications, the socket can become bound implicitly to a local address using 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a>, 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnect">WSAConnect</a>, 
+<a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>, 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>, or 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsajoinleaf">WSAJoinLeaf</a>.
 
 For connected or connectionless sockets, the 
 <b>recv</b> function restricts the addresses from which received messages are accepted. The function only returns messages from the remote address specified in the connection. Messages from other addresses are (silently) discarded.
 
 For connection-oriented sockets (type SOCK_STREAM for example), calling 
 <b>recv</b> will return as much data as is currently available—up to the size of the buffer specified. If the socket has been configured for in-line reception of OOB data (socket option SO_OOBINLINE) and OOB data is yet unread, only OOB data will be returned. The application can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ioctlsocket">ioctlsocket</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a><b>SIOCATMARK</b> command to determine whether any more OOB data remains to be read.
+<a href="/windows/desktop/api/winsock/nf-winsock-ioctlsocket">ioctlsocket</a> or 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a><b>SIOCATMARK</b> command to determine whether any more OOB data remains to be read.
 
 For connectionless sockets (type SOCK_DGRAM or other message-oriented sockets), data is extracted from the first enqueued datagram (message) from the destination address specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-connect">connect</a> function.
 
 If the datagram or message is larger than the buffer specified, the buffer is filled with the first part of the datagram, and 
 <b>recv</b> generates the error 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMSGSIZE</a>. For unreliable protocols (for example, UDP) the excess data is lost; for reliable protocols, the data is retained by the service provider until it is successfully read by calling 
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEMSGSIZE</a>. For unreliable protocols (for example, UDP) the excess data is lost; for reliable protocols, the data is retained by the service provider until it is successfully read by calling 
 <b>recv</b> with a large enough buffer.
 
 If no incoming data is available at the socket, the 
 <b>recv</b> call blocks and waits for data to arrive according to the blocking rules defined for 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a> with the MSG_PARTIAL flag not set unless the socket is nonblocking. In this case, a value of SOCKET_ERROR is returned with the error code set to 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a>. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a> functions can be used to determine when more data arrives.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a> with the MSG_PARTIAL flag not set unless the socket is nonblocking. In this case, a value of SOCKET_ERROR is returned with the error code set to 
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a>. The 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>, 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>, or 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a> functions can be used to determine when more data arrives.
 
 If the socket is connection oriented and the remote side has shut down the connection gracefully, and all data has been received, a 
 <b>recv</b> will complete immediately with zero bytes received. If the connection has been reset, a 
 <b>recv</b> will fail with the error 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a>.
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a>.
 
 The <i>flags</i> parameter can be used to influence the behavior of the function invocation beyond the options specified for the associated socket. The semantics of this function are determined by the socket options and the <i>flags</i> parameter. The possible value of <i>flags</i> parameter is constructed by using the bitwise OR operator with any of the following values.
 
@@ -336,7 +321,7 @@ The <i>flags</i> parameter can be used to influence the behavior of the function
 </tr>
 <tr>
 <td>MSG_PEEK</td>
-<td>Peeks at the incoming data. The data is copied into the buffer, but is not removed from the input queue.  The function subsequently returns the amount of data that can be read in a single call to the <b>recv</b> (or <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>) function, which may not be the same as the total amount of data queued on the socket.  The amount of data that can actually be read in a single call to the <b>recv</b> (or <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>) function is limited to the data size written in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a> function call.</td>
+<td>Peeks at the incoming data. The data is copied into the buffer, but is not removed from the input queue.</td>
 </tr>
 <tr>
 <td>MSG_OOB</td>
@@ -465,54 +450,44 @@ int __cdecl main() {
 
 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
-For more information, and another example of the <b>recv</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/getting-started-with-winsock">Getting Started With Winsock</a>.
+For more information, and another example of the <b>recv</b> function, see <a href="/windows/desktop/WinSock/getting-started-with-winsock">Getting Started With Winsock</a>.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>
+<a href="/windows/desktop/api/mswsock/nf-mswsock-wsarecvex">WSARecvEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-wsarecvex">WSARecvEx</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>

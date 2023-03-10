@@ -1,16 +1,13 @@
 ---
 UID: NF:winnetwk.WNetOpenEnumW
 title: WNetOpenEnumW function (winnetwk.h)
-description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function.
+description: The WNetOpenEnum function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the WNetEnumResource function. (Unicode)
+helpviewer_keywords: ["0", "RESOURCETYPE_ANY", "RESOURCETYPE_DISK", "RESOURCETYPE_PRINT", "RESOURCEUSAGE_ALL", "RESOURCEUSAGE_ATTACHED", "RESOURCEUSAGE_CONNECTABLE", "RESOURCEUSAGE_CONTAINER", "RESOURCE_CONNECTED", "RESOURCE_CONTEXT", "RESOURCE_GLOBALNET", "RESOURCE_REMEMBERED", "WNetOpenEnum", "WNetOpenEnum function [Windows Networking (WNet)]", "WNetOpenEnumW", "_win32_wnetopenenum", "winnetwk/WNetOpenEnum", "winnetwk/WNetOpenEnumW", "wnet.wnetopenenum"]
 old-location: wnet\wnetopenenum.htm
 tech.root: WNet
 ms.assetid: d99a549a-bf27-497f-a3be-bbe2c668bf90
 ms.date: 12/05/2018
 ms.keywords: 0, RESOURCETYPE_ANY, RESOURCETYPE_DISK, RESOURCETYPE_PRINT, RESOURCEUSAGE_ALL, RESOURCEUSAGE_ATTACHED, RESOURCEUSAGE_CONNECTABLE, RESOURCEUSAGE_CONTAINER, RESOURCE_CONNECTED, RESOURCE_CONTEXT, RESOURCE_GLOBALNET, RESOURCE_REMEMBERED, WNetOpenEnum, WNetOpenEnum function [Windows Networking (WNet)], WNetOpenEnumA, WNetOpenEnumW, _win32_wnetopenenum, winnetwk/WNetOpenEnum, winnetwk/WNetOpenEnumA, winnetwk/WNetOpenEnumW, wnet.wnetopenenum
-f1_keywords:
-- winnetwk/WNetOpenEnum
-dev_langs:
-- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mpr.dll
-api_name:
-- WNetOpenEnum
-- WNetOpenEnumA
-- WNetOpenEnumW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WNetOpenEnumW
+ - winnetwk/WNetOpenEnumW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mpr.dll
+api_name:
+ - WNetOpenEnum
+ - WNetOpenEnumA
+ - WNetOpenEnumW
 ---
 
 # WNetOpenEnumW function
@@ -50,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>WNetOpenEnum</b> function starts an enumeration of network resources or existing connections. You can continue the enumeration by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function.
 
 ## -parameters
-
-
-
 
 ### -param dwScope [in]
 
@@ -113,8 +110,6 @@ Enumerate all remembered (persistent) connections. The function ignores the <i>d
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwType [in]
 
@@ -161,7 +156,6 @@ All print resources.
  
 
 If a network provider cannot distinguish between print and disk resources, it can enumerate all resources.
-
 
 ### -param dwUsage [in]
 
@@ -230,11 +224,10 @@ Setting this value is equivalent to setting RESOURCEUSAGE_CONNECTABLE, RESOURCEU
 
 This parameter is ignored unless the <i>dwScope</i> parameter is equal to RESOURCE_GLOBALNET. For more information, see the following Remarks section.
 
-
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew">NETRESOURCE</a> structure that specifies the container to enumerate. If the <i>dwScope</i> parameter is not RESOURCE_GLOBALNET, this parameter must be <b>NULL</b>. 
 
 
 
@@ -243,7 +236,7 @@ If this parameter is <b>NULL</b>, the root of the network is assumed. (The syste
 
 If this parameter is not <b>NULL</b>, it must point to a 
 <b>NETRESOURCE</b> structure. This structure can be filled in by the application or it can be returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function. The 
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function. The 
 <b>NETRESOURCE</b> structure must specify a container resource; that is, the RESOURCEUSAGE_CONTAINER value must be specified in the <i>dwUsage</i> parameter.
 
 To enumerate all network resources, an application can begin the enumeration by calling 
@@ -253,21 +246,17 @@ To enumerate all network resources, an application can begin the enumeration by 
 <b>WNetEnumResource</b> function is a container resource, you can call 
 <b>WNetOpenEnum</b> to open the resource for further enumeration.
 
-
 ### -param lphEnum [out]
 
 Pointer to an enumeration handle that can be used in a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>.
-
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -315,7 +304,7 @@ The network is unavailable.
 </td>
 <td width="60%">
 A network-specific error occurred. To obtain a description of the error, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
 
 </td>
 </tr>
@@ -331,14 +320,8 @@ A remote network resource name supplied in the <b>NETRESOURCE</b> structure reso
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the <i>dwScope</i> parameter is equal to RESOURCE_CONNECTED, a network connection made using the Microsoft LAN Manager network is omitted from the enumeration if the connection was made by an application running in a different logon session than the application calling the 
 <b>WNetOpenEnum</b> function. This is because connections made using Microsoft LAN Manager are visible only to applications running in the same logon session as the application that made the connection. (To include the connection in the enumeration, it is not sufficient for the application to be running in the user account that created the connection.)
@@ -348,7 +331,9 @@ The exact interpretation of RESOURCE_CONTEXT in the <i>dwScope</i> parameter dep
 The 
 <b>WNetOpenEnum</b> function is used to begin enumeration of the resources in a single container. The following examples show the hierarchical structure of a Microsoft LAN Manager network and a Novell NetWare network and identify the containers.
 
-<pre class="syntax" xml:space="preserve"><code>LanMan (container, in this case the provider) 
+
+``` syntax
+LanMan (container, in this case the provider) 
   ACCOUNTING (container, in this case the domain) 
     \\ACCTSPAY (container, in this case the server) 
       PAYFILES (disk) 
@@ -359,42 +344,41 @@ NetWare (container, in this case the provider)
     SYS (disk, first one on any NetWare server) 
     ANOTHERVOLUME (disk) 
     LASERJET (print) 
-</code></pre>
+
+```
+
 
 #### Examples
 
 For a code sample that illustrates an application-defined function that enumerates all the resources on a network, see 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/enumerating-network-resources">Enumerating Network Resources</a>.
+<a href="/windows/desktop/WNet/enumerating-network-resources">Enumerating Network Resources</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The winnetwk.h header defines WNetOpenEnum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcew">NETRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum">WNetCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcloseenum">WNetCloseEnum</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
- 
-
- 
-

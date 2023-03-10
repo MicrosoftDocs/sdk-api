@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetName
 title: IMFTimedTextStyle::GetName (mfmediaengine.h)
 description: Gets the name of the timed-text style.
+helpviewer_keywords: ["GetName","GetName method [Media Foundation]","GetName method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetName method","IMFTimedTextStyle.GetName","IMFTimedTextStyle::GetName","mf.imftimedtextstyle_getname","mfmediaengine/IMFTimedTextStyle::GetName"]
 old-location: mf\imftimedtextstyle_getname.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: C1B28336-27D1-4592-B583-940C2C9EF9A0
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetName method, IMFTimedTextStyle.GetName, IMFTimedTextStyle::GetName, mf.imftimedtextstyle_getname, mfmediaengine/IMFTimedTextStyle::GetName
-f1_keywords:
-- mfmediaengine/IMFTimedTextStyle.GetName
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextStyle.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextStyle::GetName
+ - mfmediaengine/IMFTimedTextStyle::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextStyle.GetName
 ---
 
 # IMFTimedTextStyle::GetName
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the name of the timed-text style.
 
-
 ## -parameters
-
-
-
 
 ### -param name [out]
 
@@ -63,25 +60,12 @@ Type: <b>LPCWSTR*</b>
 
 A pointer to a variable that receives the null-terminated wide-character string that contains the name of the style.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextstyle">IMFTimedTextStyle</a>

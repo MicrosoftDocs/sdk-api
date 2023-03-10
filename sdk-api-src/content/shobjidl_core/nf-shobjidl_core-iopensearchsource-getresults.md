@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IOpenSearchSource.GetResults
 title: IOpenSearchSource::GetResults (shobjidl_core.h)
 description: Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.
+helpviewer_keywords: ["GetResults","GetResults method [Windows Shell]","GetResults method [Windows Shell]","IOpenSearchSource interface","IOpenSearchSource interface [Windows Shell]","GetResults method","IOpenSearchSource.GetResults","IOpenSearchSource::GetResults","_shell_IOpenSearchSource_GetResults","shell.IOpenSearchSource_GetResults","shobjidl_core/IOpenSearchSource::GetResults"]
 old-location: shell\IOpenSearchSource_GetResults.htm
 tech.root: shell
 ms.assetid: 4fc16c04-cfb6-4f50-8325-bd3fc0b8f557
 ms.date: 12/05/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IOpenSearchSource interface, IOpenSearchSource interface [Windows Shell],GetResults method, IOpenSearchSource.GetResults, IOpenSearchSource::GetResults, _shell_IOpenSearchSource_GetResults, shell.IOpenSearchSource_GetResults, shobjidl_core/IOpenSearchSource::GetResults
-f1_keywords:
-- shobjidl_core/IOpenSearchSource.GetResults
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IOpenSearchSource.GetResults
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpenSearchSource::GetResults
+ - shobjidl_core/IOpenSearchSource::GetResults
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IOpenSearchSource.GetResults
 ---
 
 # IOpenSearchSource::GetResults
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
@@ -63,13 +60,11 @@ Type: <b>HWND</b>
 
 The window handle of the caller.
 
-
 ### -param pszQuery [in]
 
 Type: <b>LPCWSTR</b>
 
 The query as entered by the user. This parameter is equivalent to the OpenSearch {searchTerms} parameter and may be empty.
-
 
 ### -param dwStartIndex [in]
 
@@ -77,13 +72,11 @@ Type: <b>DWORD</b>
 
 The index of the first result being requested. Equivalent to the OpenSearch {startIndex} parameter. See Remarks below.
 
-
 ### -param dwCount [in]
 
 Type: <b>DWORD</b>
 
 The number of results being requested.  Equivalent to the OpenSearch {count} parameter.
-
 
 ### -param riid [in]
 
@@ -91,17 +84,13 @@ Type: <b>REFIID</b>
 
 The IID of the interface being requested. Typically IID_IStream.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 An interface pointer, of type specified by RIID, to the object containing the results in Atom or RSS format.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -114,13 +103,9 @@ Returns S_OK if successful, or an error value otherwise. B_S_ENDOFROWSET optiona
 <li>INET_E_DOWNLOAD_FAILURE (server error)</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-Windows Explorer calls this method with the search query parameters. The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource">IOpenSearchSource</a> implementation returns some or all results after performing required actions, such as providing custom authentication UI or connecting to the data source using a proprietary API.
+Windows Explorer calls this method with the search query parameters. The <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource">IOpenSearchSource</a> implementation returns some or all results after performing required actions, such as providing custom authentication UI or connecting to the data source using a proprietary API.
             
 
 <h3><a id="Paged_Results"></a><a id="paged_results"></a><a id="PAGED_RESULTS"></a>Paged Results</h3>
@@ -131,16 +116,6 @@ The index number identifies the first result on a page of results. It is equival
 
 If a web service returns 20 items on the first page of results, the expected page size is 20.  To get the next 20 items, Windows Explorer would call <b>IOpenSearchSource::GetResults</b> with the value 21 for <i>dwStartIndex</i> and with the value of 20 for <i>dwCount</i>. When a page of results returned by the web service has fewer items than the expected page size, Windows Explorer assumes it has received the last page of results and stops making requests.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource">IOpenSearchSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource">IOpenSearchSource</a>

@@ -2,15 +2,12 @@
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetPortableDevice
 title: IEnhancedStorageSilo::GetPortableDevice (ehstorapi.h)
 description: Obtains an IPortableDevice pointer used to issue commands to the corresponding Enhanced Storage silo driver.
+helpviewer_keywords: ["GetPortableDevice","GetPortableDevice method [Enhanced Storage]","GetPortableDevice method [Enhanced Storage]","IEnhancedStorageSilo interface","IEnhancedStorageSilo interface [Enhanced Storage]","GetPortableDevice method","IEnhancedStorageSilo.GetPortableDevice","IEnhancedStorageSilo::GetPortableDevice","ehstorapi/IEnhancedStorageSilo::GetPortableDevice","enstor.ienhancedstoragesilo_getportabledevice"]
 old-location: enstor\ienhancedstoragesilo_getportabledevice.htm
 tech.root: enstor
 ms.assetid: a95323d1-4329-4a1e-9c8a-adfdd199e9a5
 ms.date: 12/05/2018
 ms.keywords: GetPortableDevice, GetPortableDevice method [Enhanced Storage], GetPortableDevice method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetPortableDevice method, IEnhancedStorageSilo.GetPortableDevice, IEnhancedStorageSilo::GetPortableDevice, ehstorapi/IEnhancedStorageSilo::GetPortableDevice, enstor.ienhancedstoragesilo_getportabledevice
-f1_keywords:
-- ehstorapi/IEnhancedStorageSilo.GetPortableDevice
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnhancedStorageSilo.GetPortableDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnhancedStorageSilo::GetPortableDevice
+ - ehstorapi/IEnhancedStorageSilo::GetPortableDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnhancedStorageSilo.GetPortableDevice
 ---
 
 # IEnhancedStorageSilo::GetPortableDevice
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Obtains an <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
-
+Obtains an <a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice</a> pointer used to issue  commands to the corresponding Enhanced Storage silo driver.
 
 ## -parameters
 
-
-
-
 ### -param ppIPortableDevice [out]
 
-Pointer to a pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a>  object.
-
+Pointer to a pointer to an <a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice</a>  object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -80,7 +74,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-Pointer to <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableDevice</a> was obtained successfully.
+Pointer to <a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice</a> was obtained successfully.
 
 </td>
 </tr>
@@ -96,18 +90,7 @@ Pointer to <a href="https://go.microsoft.com/fwlink/p/?linkid=134792">IPortableD
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>

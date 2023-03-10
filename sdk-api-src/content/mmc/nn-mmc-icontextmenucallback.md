@@ -2,15 +2,12 @@
 UID: NN:mmc.IContextMenuCallback
 title: IContextMenuCallback (mmc.h)
 description: The IContextMenuCallback interface is used to add menu items to a context menu.
+helpviewer_keywords: ["IContextMenuCallback","IContextMenuCallback interface [MMC]","IContextMenuCallback interface [MMC]","described","_slate_icontextmenucallback","mmc.icontextmenucallback","mmc/IContextMenuCallback"]
 old-location: mmc\icontextmenucallback.htm
 tech.root: mmc
 ms.assetid: 141a650f-a829-47b1-abf9-427302d98444
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCallback, IContextMenuCallback interface [MMC], IContextMenuCallback interface [MMC],described, _slate_icontextmenucallback, mmc.icontextmenucallback, mmc/IContextMenuCallback
-f1_keywords:
-- mmc/IContextMenuCallback
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mmcndmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmcndmgr.dll
-api_name:
-- IContextMenuCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenuCallback
+ - mmc/IContextMenuCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmcndmgr.dll
+api_name:
+ - IContextMenuCallback
 ---
 
 # IContextMenuCallback interface
@@ -48,34 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IContextMenuCallback</b> interface is used to add menu items to a context menu.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenuCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IContextMenuCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">AddItem</a>
-</td>
-<td align="left" width="63%">
-Adds one item to the context menu.
-
-</td>
-</tr>
-</table> 
+The <b>IContextMenuCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuCallback</b> also has these types of members:
 

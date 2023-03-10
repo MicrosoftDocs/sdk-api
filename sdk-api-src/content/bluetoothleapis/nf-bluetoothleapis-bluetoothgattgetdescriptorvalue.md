@@ -2,15 +2,12 @@
 UID: NF:bluetoothleapis.BluetoothGATTGetDescriptorValue
 title: BluetoothGATTGetDescriptorValue function (bluetoothleapis.h)
 description: Gets the value of the specified descriptor.
+helpviewer_keywords: ["BluetoothGATTGetDescriptorValue","BluetoothGATTGetDescriptorValue function [Bluetooth Devices]","bltooth.bluetoothgattgetdescriptorvalue","bluetoothleapis/BluetoothGATTGetDescriptorValue"]
 old-location: bltooth\bluetoothgattgetdescriptorvalue.htm
 tech.root: bltooth
 ms.assetid: 06820384-7098-415A-A350-3A755162FAA3
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetDescriptorValue, BluetoothGATTGetDescriptorValue function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptorvalue, bluetoothleapis/BluetoothGATTGetDescriptorValue
-f1_keywords:
-- bluetoothleapis/BluetoothGATTGetDescriptorValue
-dev_langs:
-- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: BluetoothAPIs.lib
 req.dll: BluetoothAPIs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- BluetoothAPIs.dll
-- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
-api_name:
-- BluetoothGATTGetDescriptorValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BluetoothGATTGetDescriptorValue
+ - bluetoothleapis/BluetoothGATTGetDescriptorValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - BluetoothAPIs.dll
+ - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+api_name:
+ - BluetoothGATTGetDescriptorValue
 ---
 
 # BluetoothGATTGetDescriptorValue function
@@ -49,39 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BluetoothGATTGetDescriptorValue</b> function gets the value of the specified descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the service.
 
-
 ### -param Descriptor [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a> structure containing the parent descriptor of the descriptor value to be retrieved.
-
+Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a> structure containing the parent descriptor of the descriptor value to be retrieved.
 
 ### -param DescriptorValueDataSize [in]
 
 The number of bytes allocated for the <i>DescriptorValue</i> parameter.
 
-
 ### -param DescriptorValue [out, optional]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a> structure into which to return the descriptor value.
-
+Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a> structure into which to return the descriptor value.
 
 ### -param DescriptorValueSizeRequired [out, optional]
 
 Pointer to buffer into which to store the number of additional bytes needed to return data in the buffer pointed to by <i>DescriptorValue</i>.
-
 
 ### -param Flags [in]
 
@@ -143,12 +135,8 @@ The descriptor value is to be read from the cache (regardless of whether it is p
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>BluetoothGATTGetDescriptorValue</b> function returns the following values:
 
@@ -470,14 +458,8 @@ An error that lies in the reserved range has been received.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The descriptor value is returned from the cache if one is already present. This would be the case most of the time, as all the device attributes are cached at the time of pairing or association.  However, if it is not present, the descriptor value is read directly from the device, and will be cached upon successfully reading it from the device.  If <b>BLUETOOTH_GATT_FLAG_FORCE_READ_FROM_CACHE</b> or <b>BLUETOOTH_GATT_FLAG_FORCE_READ_FROM_DEVICE</b> is present, the descriptor value is read using the specified method.
 
@@ -487,8 +469,8 @@ Profile drivers should pre-allocate  a sufficiently large buffer for the array o
     descriptor values to be returned in.  Callers can determine the necessary buffer size by passing a non-<b>NULL</b> value in <i>DescriptorValueSizeRequired</i> and <b>NULL</b> in <i>DescriptorValue</i>.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
-    <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
+    <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -539,21 +521,10 @@ The parent service must be present in the
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>

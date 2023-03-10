@@ -2,15 +2,12 @@
 UID: NN:wincodec.IWICMetadataQueryWriter
 title: IWICMetadataQueryWriter (wincodec.h)
 description: Exposes methods for setting or removing metadata blocks and items to an encoder or its image frames using a metadata query expression.
+helpviewer_keywords: ["IWICMetadataQueryWriter","IWICMetadataQueryWriter interface [Windows Imaging Component]","IWICMetadataQueryWriter interface [Windows Imaging Component]","described","_wic_codec_iwicmetadataquerywriter","wic._wic_codec_iwicmetadataquerywriter","wincodec/IWICMetadataQueryWriter"]
 old-location: wic\_wic_codec_iwicmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 065cccc3-778f-42c4-823a-354b08bbd1f1
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataQueryWriter, IWICMetadataQueryWriter interface [Windows Imaging Component], IWICMetadataQueryWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadataquerywriter, wic._wic_codec_iwicmetadataquerywriter, wincodec/IWICMetadataQueryWriter
-f1_keywords:
-- wincodec/IWICMetadataQueryWriter
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataQueryWriter
+ - wincodec/IWICMetadataQueryWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataQueryWriter
 ---
 
 # IWICMetadataQueryWriter interface
@@ -48,51 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods for setting or removing metadata blocks and items to an encoder or its image frames using a metadata query expression.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataQueryWriter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>. <b>IWICMetadataQueryWriter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IWICMetadataQueryWriter</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataquerywriter-removemetadatabyname">RemoveMetadataByName</a>
-</td>
-<td align="left" width="63%">
-Removes a metadata item from a specific location using a metadata query expression.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicmetadataquerywriter-setmetadatabyname">SetMetadataByName</a>
-</td>
-<td align="left" width="63%">
-Sets a metadata item to a specific location.
-
-</td>
-</tr>
-</table> 
-
+The <b>IWICMetadataQueryWriter</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>. <b>IWICMetadataQueryWriter</b> also has these types of members:
 
 ## -remarks
 
-
-
-A metadata query writer uses metadata query expressions to set or remove metadata. For more information on the metadata query language, see the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
+A metadata query writer uses metadata query expressions to set or remove metadata. For more information on the metadata query language, see the <a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>.
 
 
 #### Examples
@@ -124,37 +90,26 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-jpegmetadataencoding">How-to: Re-encode a JPEG Image with Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-jpegmetadataencoding">How-to: Re-encode a JPEG Image with Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>

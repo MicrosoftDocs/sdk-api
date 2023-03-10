@@ -2,15 +2,12 @@
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetFocus
 title: IOleInPlaceSiteWindowless::GetFocus (ocidl.h)
 description: Called by an in-place active, windowless object to determine whether it still has the keyboard focus.
+helpviewer_keywords: ["GetFocus","GetFocus method [COM]","GetFocus method [COM]","IOleInPlaceSiteWindowless interface","IOleInPlaceSiteWindowless interface [COM]","GetFocus method","IOleInPlaceSiteWindowless.GetFocus","IOleInPlaceSiteWindowless::GetFocus","_ole_ioleinplacesitewindowless_getfocus","com.ioleinplacesitewindowless_getfocus","ocidl/IOleInPlaceSiteWindowless::GetFocus"]
 old-location: com\ioleinplacesitewindowless_getfocus.htm
 tech.root: com
 ms.assetid: 282f350c-d196-40c2-880f-55f28dc48f2b
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [COM], GetFocus method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetFocus method, IOleInPlaceSiteWindowless.GetFocus, IOleInPlaceSiteWindowless::GetFocus, _ole_ioleinplacesitewindowless_getfocus, com.ioleinplacesitewindowless_getfocus, ocidl/IOleInPlaceSiteWindowless::GetFocus
-f1_keywords:
-- ocidl/IOleInPlaceSiteWindowless.GetFocus
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleInPlaceSiteWindowless.GetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleInPlaceSiteWindowless::GetFocus
+ - ocidl/IOleInPlaceSiteWindowless::GetFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleInPlaceSiteWindowless.GetFocus
 ---
 
 # IOleInPlaceSiteWindowless::GetFocus
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by an in-place active, windowless object to determine whether it still has the keyboard focus.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -82,27 +75,11 @@ The object does not currently have the keyboard focus.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A windowless object calls this method to find out if it currently has the focus or not. As an alternative to calling this method, the object can cache information about whether it has the keyboard focus or not.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>

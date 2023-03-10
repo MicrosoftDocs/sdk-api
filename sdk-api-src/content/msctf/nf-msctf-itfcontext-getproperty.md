@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContext.GetProperty
 title: ITfContext::GetProperty (msctf.h)
 description: ITfContext::GetProperty method
+helpviewer_keywords: ["GetProperty","GetProperty method [Text Services Framework]","GetProperty method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetProperty method","ITfContext.GetProperty","ITfContext::GetProperty","_tsf_itfcontext_getproperty_ref","msctf/ITfContext::GetProperty","tsf.itfcontext_getproperty"]
 old-location: tsf\itfcontext_getproperty.htm
 tech.root: TSF
 ms.assetid: e5d76443-f767-47fb-be3a-8cbac224d299
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Text Services Framework], GetProperty method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetProperty method, ITfContext.GetProperty, ITfContext::GetProperty, _tsf_itfcontext_getproperty_ref, msctf/ITfContext::GetProperty, tsf.itfcontext_getproperty
-f1_keywords:
-- msctf/ITfContext.GetProperty
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::GetProperty
+ - msctf/ITfContext::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.GetProperty
 ---
 
 # ITfContext::GetProperty
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains a text property.
 
 ## -parameters
 
-
-
-
 ### -param guidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
-
+Specifies the property identifier. This can be a custom identifier or one of the <a href="/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
 
 ### -param ppProp [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> interface pointer that receives the property object.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> interface pointer that receives the property object.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -133,37 +127,11 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An application or text service can define unique properties identified by a GUID. Properties are stored as VARIANT data, so the caller must recognize the format and meaning of unique properties to be able to use them.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
-      </a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfProperty interface](nn-msctf-itfproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)

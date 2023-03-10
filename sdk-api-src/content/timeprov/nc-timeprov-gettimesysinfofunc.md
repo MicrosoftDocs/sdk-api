@@ -2,15 +2,12 @@
 UID: NC:timeprov.GetTimeSysInfoFunc
 title: GetTimeSysInfoFunc (timeprov.h)
 description: Retrieves the system time state information.
+helpviewer_keywords: ["GetTimeSysInfoFunc","GetTimeSysInfoFunc callback","GetTimeSysInfoFunc callback function","TSI_ClockPrecision","TSI_ClockTickSize","TSI_CurrentTime","TSI_LastSyncTime","TSI_LeapFlags","TSI_PhaseOffset","TSI_PollInterval","TSI_ReferenceIdentifier","TSI_RootDelay","TSI_RootDispersion","TSI_Stratum","TSI_TSFlags","TSI_TickCount","_win32_gettimesysinfo","base.gettimesysinfo","timeprov/GetTimeSysInfoFunc"]
 old-location: base\gettimesysinfo.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: e1b527e2-ab7c-4106-b203-e74b4ce2a89b
 ms.date: 12/05/2018
 ms.keywords: GetTimeSysInfoFunc, GetTimeSysInfoFunc callback, GetTimeSysInfoFunc callback function, TSI_ClockPrecision, TSI_ClockTickSize, TSI_CurrentTime, TSI_LastSyncTime, TSI_LeapFlags, TSI_PhaseOffset, TSI_PollInterval, TSI_ReferenceIdentifier, TSI_RootDelay, TSI_RootDispersion, TSI_Stratum, TSI_TSFlags, TSI_TickCount, _win32_gettimesysinfo, base.gettimesysinfo, timeprov/GetTimeSysInfoFunc
-f1_keywords:
-- timeprov/GetTimeSysInfoFunc
-dev_langs:
-- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Timeprov.h
-api_name:
-- GetTimeSysInfoFunc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTimeSysInfoFunc
+ - timeprov/GetTimeSysInfoFunc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Timeprov.h
+api_name:
+ - GetTimeSysInfoFunc
 ---
 
 # GetTimeSysInfoFunc callback function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the system time state information.
 
-
 ## -parameters
-
-
-
 
 ### -param eInfo [in]
 
@@ -216,38 +213,26 @@ The <i>pvInfo</i> parameter is a <b>DWORD</b> value that specifies one of the fo
 </td>
 </tr>
 </table>
- 
 
-
-### -param *pvInfo [out]
+### -param pvInfo [out]
 
 A pointer to a buffer that receives that state information. The format of this data depends on the value of <i>eInfo</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is S_OK. Otherwise, the return value is one of the error codes defined in WinError.h.
 
-
-
-
 ## -remarks
-
-
 
 To ensure accuracy, the time provider should retrieve all time-related information using 
 <b>GetTimeSysInfoFunc</b>. Note that the time values should not be used directly in an NTP packet. They are expressed relative to 12:00 A.M. January 1, 1601, whereas NTP specifies that time values be expressed relative to 12:00 A.M. January 1, 1900.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function returns a pointer to this function.
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function returns a pointer to this function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
+For an example, see <a href="/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
 
 <div class="code"></div>
-
-

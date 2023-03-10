@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDraw7.SetDisplayMode
 title: IDirectDraw7::SetDisplayMode (ddraw.h)
 description: Sets the mode of the display-device hardware.
+helpviewer_keywords: ["IDirectDraw7 interface [DirectDraw]","SetDisplayMode method","IDirectDraw7.SetDisplayMode","IDirectDraw7::SetDisplayMode","SetDisplayMode","SetDisplayMode method [DirectDraw]","SetDisplayMode method [DirectDraw]","IDirectDraw7 interface","ddraw/IDirectDraw7::SetDisplayMode","directdraw.idirectdraw7_setdisplaymode"]
 old-location: directdraw\idirectdraw7_setdisplaymode.htm
 tech.root: directdraw
 ms.assetid: 385918cd-64f1-449c-822a-0034a8184fb9
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],SetDisplayMode method, IDirectDraw7.SetDisplayMode, IDirectDraw7::SetDisplayMode, SetDisplayMode, SetDisplayMode method [DirectDraw], SetDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::SetDisplayMode, directdraw.idirectdraw7_setdisplaymode
-f1_keywords:
-- ddraw/IDirectDraw7.SetDisplayMode
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDraw7.SetDisplayMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDraw7::SetDisplayMode
+ - ddraw/IDirectDraw7::SetDisplayMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDraw7.SetDisplayMode
 ---
 
 # IDirectDraw7::SetDisplayMode
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the mode of the display-device hardware.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Width of the new display mode.
 
-
-### -param arg2 [in]
+### -param unnamedParam2 [in]
 
 Height of the new display mode.
 
-
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 Bits per pixel (bpp) of the new display mode.
 
-
-### -param arg4 [in]
+### -param unnamedParam4 [in]
 
 Refresh rate of the new display mode. Set this value to 0 to request the default refresh rate for the driver.
 
-
-### -param arg5 [in]
+### -param unnamedParam5 [in]
 
 This value consists of flags that describe additional options. Currently, the only valid flag is DDSDM_STANDARDVGAMODE, which causes the method to set Mode 13, instead of Mode X 320x200x8 mode. If you are setting another resolution, bit depth, or a Mode X mode, do not use this flag; instead, set the parameter to 0.
 
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -105,11 +95,7 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 This method must be called by the same thread that created the application window.
 
@@ -121,18 +107,8 @@ As part of the prior-version <b>IDirectDraw</b> interface, this method did not i
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>SetDisplayMode</b> method.
-
-
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

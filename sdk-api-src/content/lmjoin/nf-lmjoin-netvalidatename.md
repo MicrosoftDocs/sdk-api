@@ -2,15 +2,12 @@
 UID: NF:lmjoin.NetValidateName
 title: NetValidateName function (lmjoin.h)
 description: The NetValidateName function verifies that a name is valid for name type specified(computer name, workgroup name, domain name, or DNS computer name).
+helpviewer_keywords: ["NetSetupDnsMachine","NetSetupDomain","NetSetupMachine","NetSetupNonExistentDomain","NetSetupUnknown","NetSetupWorkgroup","NetValidateName","NetValidateName function [Network Management]","_win32_netvalidatename","lmjoin/NetValidateName","netmgmt.netvalidatename"]
 old-location: netmgmt\netvalidatename.htm
 tech.root: NetMgmt
 ms.assetid: 772603df-ec17-4a83-a715-2d9a14d5c2bb
 ms.date: 12/05/2018
 ms.keywords: NetSetupDnsMachine, NetSetupDomain, NetSetupMachine, NetSetupNonExistentDomain, NetSetupUnknown, NetSetupWorkgroup, NetValidateName, NetValidateName function [Network Management], _win32_netvalidatename, lmjoin/NetValidateName, netmgmt.netvalidatename
-f1_keywords:
-- lmjoin/NetValidateName
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetValidateName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetValidateName
+ - lmjoin/NetValidateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetValidateName
 ---
 
 # NetValidateName function
@@ -48,35 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetValidateName</b> function verifies that a name is valid for name type specified(computer name, workgroup name, domain name, or DNS computer name).
 
-
 ## -parameters
-
-
-
 
 ### -param lpServer [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the computer on which to call the function. If this parameter is <b>NULL</b>, the local computer is used.
 
-
 ### -param lpName [in]
 
 A pointer to a constant string that specifies the name to validate. Depending on the value specified in the <i>NameType</i> parameter, the <i>lpName</i>  parameter can point to a computer name, workgroup name, domain name, or DNS computer name.
-
 
 ### -param lpAccount [in]
 
 If the <i>lpName</i> parameter is a domain name, this parameter points to an account name to use when connecting to the domain controller. The string must specify either a domain NetBIOS name and user account (for example, "REDMOND\user") or the user principal name (UPN) of the user in the form of an Internet-style login name (for example, "someone@example.com"). If this parameter is <b>NULL</b>, the caller's context is used.
 
-
 ### -param lpPassword [in]
 
 If the <i>lpAccount</i>  parameter specifies an account name, this parameter must point to the password to use when connecting to the domain controller. Otherwise, this parameter must be <b>NULL</b>.
-
 
 ### -param NameType [in]
 
@@ -164,12 +157,8 @@ This value is supported on Windows 2000 and later. The application must be comp
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -302,14 +291,8 @@ Remote calls are not allowed for this process. This error is returned if a remot
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The
 				<b>NetValidateName</b> function validates a name based on the nametype specified. 
@@ -481,47 +464,36 @@ int wmain(int argc, wchar_t * argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/NetMgmt/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoinableous">NetGetJoinableOUs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoinableous">NetGetJoinableOUs</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
-

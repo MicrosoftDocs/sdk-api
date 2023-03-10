@@ -1,16 +1,13 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RequestStoreType
 title: ICEnroll::get_RequestStoreType (xenroll.h)
-description: Sets or retrieves the type of store to use for the store specified by the RequestStoreName property. This store type is passed directly to the CertOpenStore function.
+description: Sets or retrieves the type of store to use for the store specified by the RequestStoreName property. This store type is passed directly to the CertOpenStore function. (Get)
+helpviewer_keywords: ["CEnroll object [Security]","RequestStoreType property","ICEnroll interface [Security]","RequestStoreType property","ICEnroll.RequestStoreType","ICEnroll.get_RequestStoreType","ICEnroll2 interface [Security]","RequestStoreType property","ICEnroll2.RequestStoreType","ICEnroll2::get_RequestStoreType","ICEnroll2::put_RequestStoreType","ICEnroll3 interface [Security]","RequestStoreType property","ICEnroll3.RequestStoreType","ICEnroll3::get_RequestStoreType","ICEnroll3::put_RequestStoreType","ICEnroll4 interface [Security]","RequestStoreType property","ICEnroll4.RequestStoreType","ICEnroll4::RequestStoreType","ICEnroll4::get_RequestStoreType","ICEnroll4::put_RequestStoreType","ICEnroll::get_RequestStoreType","ICEnroll::put_RequestStoreType","RequestStoreType property [Security]","RequestStoreType property [Security]","CEnroll object","RequestStoreType property [Security]","ICEnroll interface","RequestStoreType property [Security]","ICEnroll2 interface","RequestStoreType property [Security]","ICEnroll3 interface","RequestStoreType property [Security]","ICEnroll4 interface","get_RequestStoreType","security.icenroll4_requeststoretype","sz_CERT_STORE_PROV_SYSTEM","sz_CERT_STORE_PROV_SYSTEM_W","xenroll/ICEnroll2::RequestStoreType","xenroll/ICEnroll2::get_RequestStoreType","xenroll/ICEnroll2::put_RequestStoreType","xenroll/ICEnroll3::RequestStoreType","xenroll/ICEnroll3::get_RequestStoreType","xenroll/ICEnroll3::put_RequestStoreType","xenroll/ICEnroll4::RequestStoreType","xenroll/ICEnroll4::get_RequestStoreType","xenroll/ICEnroll4::put_RequestStoreType","xenroll/ICEnroll::RequestStoreType","xenroll/ICEnroll::get_RequestStoreType","xenroll/ICEnroll::put_RequestStoreType"]
 old-location: security\icenroll4_requeststoretype.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cc0d09bc-3589-454d-a1fe-141af46bc45b
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],RequestStoreType property, ICEnroll interface [Security],RequestStoreType property, ICEnroll.RequestStoreType, ICEnroll.get_RequestStoreType, ICEnroll2 interface [Security],RequestStoreType property, ICEnroll2.RequestStoreType, ICEnroll2::get_RequestStoreType, ICEnroll2::put_RequestStoreType, ICEnroll3 interface [Security],RequestStoreType property, ICEnroll3.RequestStoreType, ICEnroll3::get_RequestStoreType, ICEnroll3::put_RequestStoreType, ICEnroll4 interface [Security],RequestStoreType property, ICEnroll4.RequestStoreType, ICEnroll4::RequestStoreType, ICEnroll4::get_RequestStoreType, ICEnroll4::put_RequestStoreType, ICEnroll::get_RequestStoreType, ICEnroll::put_RequestStoreType, RequestStoreType property [Security], RequestStoreType property [Security],CEnroll object, RequestStoreType property [Security],ICEnroll interface, RequestStoreType property [Security],ICEnroll2 interface, RequestStoreType property [Security],ICEnroll3 interface, RequestStoreType property [Security],ICEnroll4 interface, get_RequestStoreType, security.icenroll4_requeststoretype, sz_CERT_STORE_PROV_SYSTEM, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/ICEnroll2::RequestStoreType, xenroll/ICEnroll2::get_RequestStoreType, xenroll/ICEnroll2::put_RequestStoreType, xenroll/ICEnroll3::RequestStoreType, xenroll/ICEnroll3::get_RequestStoreType, xenroll/ICEnroll3::put_RequestStoreType, xenroll/ICEnroll4::RequestStoreType, xenroll/ICEnroll4::get_RequestStoreType, xenroll/ICEnroll4::put_RequestStoreType, xenroll/ICEnroll::RequestStoreType, xenroll/ICEnroll::get_RequestStoreType, xenroll/ICEnroll::put_RequestStoreType
-f1_keywords:
-- xenroll/ICEnroll4.RequestStoreType
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,31 +25,36 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.RequestStoreType
-- ICEnroll4.get_RequestStoreType
-- ICEnroll4.put_RequestStoreType
-- ICEnroll3.RequestStoreType
-- ICEnroll3.get_RequestStoreType
-- ICEnroll3.put_RequestStoreType
-- ICEnroll2.RequestStoreType
-- ICEnroll2.get_RequestStoreType
-- ICEnroll2.put_RequestStoreType
-- ICEnroll.RequestStoreType
-- ICEnroll.get_RequestStoreType
-- ICEnroll.put_RequestStoreType
-- CEnroll.RequestStoreType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::get_RequestStoreType
+ - xenroll/ICEnroll::get_RequestStoreType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.RequestStoreType
+ - ICEnroll4.get_RequestStoreType
+ - ICEnroll4.put_RequestStoreType
+ - ICEnroll3.RequestStoreType
+ - ICEnroll3.get_RequestStoreType
+ - ICEnroll3.put_RequestStoreType
+ - ICEnroll2.RequestStoreType
+ - ICEnroll2.get_RequestStoreType
+ - ICEnroll2.put_RequestStoreType
+ - ICEnroll.RequestStoreType
+ - ICEnroll.get_RequestStoreType
+ - ICEnroll.put_RequestStoreType
+ - CEnroll.RequestStoreType
 ---
 
 # ICEnroll::get_RequestStoreType
@@ -60,27 +62,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>RequestStoreType</b> property sets or retrieves the type of store to use for the store specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a> property. This store type is passed directly  to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a> property. This store type is passed directly  to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
 
 The default value of  this property is sz_CERT_STORE_PROV_SYSTEM. If the default is not to be used, this property must be set to the same value before calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>/<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a> and again before calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>/<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>/<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a> and again before calls to 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>/<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>.
 
-Only system stores are supported. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+Only system stores are supported. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Typically, modification of the <b>RequestStoreType</b> property is  performed only in advanced applications.
 
@@ -89,16 +86,16 @@ Typically, modification of the <b>RequestStoreType</b> property is  performed on
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
 </li>
 </ul>
 
@@ -133,7 +130,3 @@ if ( FAILED ( hr ) )
 else
     printf( "RequestStoreType was set to %ws\n", bstrNewType );
 ```
-
-
-
-

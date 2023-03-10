@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcndr.RpcSmGetThreadHandle
 title: RpcSmGetThreadHandle function (rpcndr.h)
-description: The RpcSmGetThreadHandle function returns a thread handle, or NULL, for the stub memory&#8211;management environment.
+description: The RpcSmGetThreadHandle function returns a thread handle, or NULL, for the stub memory�management environment.
+helpviewer_keywords: ["RpcSmGetThreadHandle","RpcSmGetThreadHandle function [RPC]","_rpc_rpcsmgetthreadhandle","rpc.rpcsmgetthreadhandle","rpcndr/RpcSmGetThreadHandle"]
 old-location: rpc\rpcsmgetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: 5bf2c93c-8273-484b-a79f-821b2068692d
 ms.date: 12/05/2018
 ms.keywords: RpcSmGetThreadHandle, RpcSmGetThreadHandle function [RPC], _rpc_rpcsmgetthreadhandle, rpc.rpcsmgetthreadhandle, rpcndr/RpcSmGetThreadHandle
-f1_keywords:
-- rpcndr/RpcSmGetThreadHandle
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSmGetThreadHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSmGetThreadHandle
+ - rpcndr/RpcSmGetThreadHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSmGetThreadHandle
 ---
 
 # RpcSmGetThreadHandle function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSmGetThreadHandle</b> function returns a thread handle, or <b>NULL</b>, for the stub memory–management environment.
 
-
 ## -parameters
-
-
-
 
 ### -param pStatus
 
 Pointer to the returned status.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -87,25 +81,21 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Applications call 
 <b>RpcSmGetThreadHandle</b> to obtain a thread handle for the stub memory–management environment. A thread used to manage memory for the stub memory–management environment uses 
 <b>RpcSmGetThreadHandle</b> to receive a handle for its memory environment. In this way, another thread that calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> by using this handle can then use the same memory-management environment.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> by using this handle can then use the same memory-management environment.
 
 The same memory management thread handle must be used by multiple threads calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a> in order to manage the same memory. Before spawning new threads to manage the same memory, the thread that established the memory-management environment (parent thread) calls 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a> in order to manage the same memory. Before spawning new threads to manage the same memory, the thread that established the memory-management environment (parent thread) calls 
 <b>RpcSmGetThreadHandle</b> to obtain a thread handle for this environment. Then, the spawned threads call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> with the new manager handle provided by the parent thread.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> with the new manager handle provided by the parent thread.
 
 Typically a server manager procedure calls 
 <b>RpcSmGetThreadHandle</b> before additional threads are spawned. The stub sets up the memory-management environment for the manager procedure, and the manager calls 
@@ -113,26 +103,16 @@ Typically a server manager procedure calls
 
 A thread can also call 
 <b>RpcSmGetThreadHandle</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> to save and restore its memory-management environment.
-
-
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> to save and restore its memory-management environment.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree">RpcSmFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>

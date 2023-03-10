@@ -1,16 +1,13 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.GetElapsedTime
 title: IUIAnimationStoryboard2::GetElapsedTime (uianimation.h)
-description: Gets the time that has elapsed since the storyboard started playing.
+description: Gets the time that has elapsed since the storyboard started playing. (IUIAnimationStoryboard2.GetElapsedTime)
+helpviewer_keywords: ["GetElapsedTime","GetElapsedTime method [Windows Animation]","GetElapsedTime method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","GetElapsedTime method","IUIAnimationStoryboard2.GetElapsedTime","IUIAnimationStoryboard2::GetElapsedTime","uianimation.iuianimationstoryboard2_getelapsedtime","uianimation/IUIAnimationStoryboard2::GetElapsedTime"]
 old-location: uianimation\iuianimationstoryboard2_getelapsedtime.htm
 tech.root: UIAnimation
 ms.assetid: 014F8A6A-345A-4DA7-8002-20A4683BB3B6
 ms.date: 12/05/2018
 ms.keywords: GetElapsedTime, GetElapsedTime method [Windows Animation], GetElapsedTime method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetElapsedTime method, IUIAnimationStoryboard2.GetElapsedTime, IUIAnimationStoryboard2::GetElapsedTime, uianimation.iuianimationstoryboard2_getelapsedtime, uianimation/IUIAnimationStoryboard2::GetElapsedTime
-f1_keywords:
-- uianimation/IUIAnimationStoryboard2.GetElapsedTime
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationStoryboard2.GetElapsedTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationStoryboard2::GetElapsedTime
+ - uianimation/IUIAnimationStoryboard2::GetElapsedTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationStoryboard2.GetElapsedTime
 ---
 
 # IUIAnimationStoryboard2::GetElapsedTime
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the time that has elapsed since the storyboard started playing.
 
-
 ## -parameters
-
-
-
 
 ### -param elapsedTime [out]
 
 The elapsed time.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 <table>
 <tr>
@@ -85,26 +79,15 @@ The storyboard is not playing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getstatus">IUIAnimationStoryboard2::GetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-getstatus">IUIAnimationStoryboard2::GetStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
- 
-
- 
-
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>

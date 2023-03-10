@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryInqIfIdsW
 title: RpcNsMgmtEntryInqIfIdsW function (rpcnsi.h)
-description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service&#8211;database entry.
+description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service�database entry. (Unicode)
+helpviewer_keywords: ["RpcNsMgmtEntryInqIfIds", "RpcNsMgmtEntryInqIfIds function [RPC]", "RpcNsMgmtEntryInqIfIdsW", "_rpc_rpcnsmgmtentryinqifids", "rpc.rpcnsmgmtentryinqifids", "rpcnsi/RpcNsMgmtEntryInqIfIds", "rpcnsi/RpcNsMgmtEntryInqIfIdsW"]
 old-location: rpc\rpcnsmgmtentryinqifids.htm
 tech.root: Rpc
 ms.assetid: 92f33e1d-a054-4484-903a-c91d3cd549d1
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryInqIfIds, RpcNsMgmtEntryInqIfIds function [RPC], RpcNsMgmtEntryInqIfIdsA, RpcNsMgmtEntryInqIfIdsW, _rpc_rpcnsmgmtentryinqifids, rpc.rpcnsmgmtentryinqifids, rpcnsi/RpcNsMgmtEntryInqIfIds, rpcnsi/RpcNsMgmtEntryInqIfIdsA, rpcnsi/RpcNsMgmtEntryInqIfIdsW
-f1_keywords:
-- rpcnsi/RpcNsMgmtEntryInqIfIds
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsMgmtEntryInqIfIds
-- RpcNsMgmtEntryInqIfIdsA
-- RpcNsMgmtEntryInqIfIdsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsMgmtEntryInqIfIdsW
+ - rpcnsi/RpcNsMgmtEntryInqIfIdsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsMgmtEntryInqIfIds
+ - RpcNsMgmtEntryInqIfIdsA
+ - RpcNsMgmtEntryInqIfIdsW
 ---
 
 # RpcNsMgmtEntryInqIfIdsW function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsMgmtEntryInqIfIds</b> function returns the list of interfaces exported to a name service–database entry. It also returns an interface-identification vector containing the interfaces of binding handles exported by a server to <i>EntryName</i>. This function uses an expiration age of 0, causing an immediate update of the local copy of name-service data.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -69,20 +67,15 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the name service–database entry name for which an interface-identification vector is returned.
-
 
 ### -param IfIdVec
 
 Returns an address of a pointer to the interface-identification vector.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -159,37 +152,30 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 The 
 <b>RpcNsMgmtEntryInqIfIds</b> function returns an interface-identification vector containing the interfaces of binding handles exported by a server to <i>EntryName</i>. This function uses an expiration age of 0, causing an immediate update of the local copy of name-service data. The calling application is responsible for calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a> function to release memory used by the vector.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a> function to release memory used by the vector.
 
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsMgmtEntryInqIfIds as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingexporta">RpcNsBindingExport</a>

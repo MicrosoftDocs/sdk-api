@@ -2,17 +2,14 @@
 UID: NF:securitybaseapi.AddResourceAttributeAce
 title: AddResourceAttributeAce function (securitybaseapi.h)
 description: Adds a SYSTEM_RESOURCE_ATTRIBUTE_ACEaccess control entry (ACE) to the end of a system access control list (SACL).
+helpviewer_keywords: ["AddResourceAttributeAce","AddResourceAttributeAce function [Security]","CONTAINER_INHERIT_ACE","INHERITED_ACE","INHERIT_ONLY_ACE","NO_PROPAGATE_INHERIT_ACE","OBJECT_INHERIT_ACE","security.addresourceattributeace","securitybaseapi/AddResourceAttributeAce"]
 old-location: security\addresourceattributeace.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: AA2064E4-6F76-4D7B-8540-D55A91168825
 ms.date: 12/05/2018
 ms.keywords: AddResourceAttributeAce, AddResourceAttributeAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addresourceattributeace, securitybaseapi/AddResourceAttributeAce
-f1_keywords:
-- securitybaseapi/AddResourceAttributeAce
-dev_langs:
-- c++
 req.header: securitybaseapi.h
-req.include-header: 
+req.include-header: Windows.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 [desktop apps only]
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- AddResourceAttributeAce
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddResourceAttributeAce
+ - securitybaseapi/AddResourceAttributeAce
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - AddResourceAttributeAce
 ---
 
 # AddResourceAttributeAce function
@@ -52,28 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AddResourceAttributeAce</b> function adds a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). A <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure specifies an attribute name and a value-ordered list of elements  that is associated with a resource and potentially used during access checks. The set of standard access rights are defined in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a> topic.
-
+The <b>AddResourceAttributeAce</b> function adds a <a href="/windows/desktop/api/winnt/ns-winnt-system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to the end of a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). A <b>SYSTEM_RESOURCE_ATTRIBUTE_ACE</b> structure specifies an attribute name and a value-ordered list of elements  that is associated with a resource and potentially used during access checks. The set of standard access rights are defined in the <a href="/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a> topic.
 
 ## -parameters
 
-
-
-
 ### -param pAcl [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>. The ACE is in the form of a  <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> structure.
-
+A pointer to an <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). This function adds an ACE to this ACL. The value of this parameter cannot be <b>NULL</b>. The ACE is in the form of a  <a href="/windows/desktop/api/winnt/ns-winnt-system_resource_attribute_ace">SYSTEM_RESOURCE_ATTRIBUTE_ACE</a> structure.
 
 ### -param dwAceRevision [in]
 
 Specifies the revision level of the ACL being modified. This value can be ACL_REVISION or ACL_REVISION_DS. Use ACL_REVISION_DS if the ACL contains object-specific ACEs.
 
-
 ### -param AceFlags [in]
 
-A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE.
+A set of bit flags that control ACE inheritance. The function sets these flags in the <b>AceFlags</b> member of the <a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure of the new ACE.
 
 For consistency with the Windows 8 Advanced File Permissions UI, applications should specify the CONTAINER_INHERIT_ACE and OBJECT_INHERIT_ACE flags in the <i>AceFlags</i> parameter.
 
@@ -143,48 +138,30 @@ The ACE is inherited by non-container objects.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AccessMask [in]
 
 Must be zero for Windows 8 and Windows Server 2012.
 
-
 ### -param pSid [in]
 
 Must be the Everyone SID (S-1-1-0) for Windows 8 and Windows Server 2012.
-
 
 ### -param pAttributeInfo [in]
 
 Specifies the attribute information that will be appended after the SID in the ACE.
 
-
 ### -param pReturnLength [out]
 
 The size, in bytes, of the actual ACL buffer used. If the buffer specified by the <i>pAcl</i> parameter is not big enough, the value of this parameter is the total size required for the ACL buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>
- 
-
- 
-
+<a href="/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>

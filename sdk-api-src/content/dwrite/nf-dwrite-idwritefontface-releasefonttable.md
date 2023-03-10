@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteFontFace.ReleaseFontTable
 title: IDWriteFontFace::ReleaseFontTable (dwrite.h)
 description: Releases the table obtained earlier from TryGetFontTable.
+helpviewer_keywords: ["IDWriteFontFace interface [Direct Write]","ReleaseFontTable method","IDWriteFontFace.ReleaseFontTable","IDWriteFontFace::ReleaseFontTable","ReleaseFontTable","ReleaseFontTable method [Direct Write]","ReleaseFontTable method [Direct Write]","IDWriteFontFace interface","directwrite.IDWriteFontFace_ReleaseFontTable","dwrite/IDWriteFontFace::ReleaseFontTable"]
 old-location: directwrite\IDWriteFontFace_ReleaseFontTable.htm
 tech.root: DirectWrite
 ms.assetid: 6e9b7e30-eae9-476b-89bd-a794e08ba468
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace interface [Direct Write],ReleaseFontTable method, IDWriteFontFace.ReleaseFontTable, IDWriteFontFace::ReleaseFontTable, ReleaseFontTable, ReleaseFontTable method [Direct Write], ReleaseFontTable method [Direct Write],IDWriteFontFace interface, directwrite.IDWriteFontFace_ReleaseFontTable, dwrite/IDWriteFontFace::ReleaseFontTable
-f1_keywords:
-- dwrite/IDWriteFontFace.ReleaseFontTable
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFontFace.ReleaseFontTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFontFace::ReleaseFontTable
+ - dwrite/IDWriteFontFace::ReleaseFontTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFace.ReleaseFontTable
 ---
 
 # IDWriteFontFace::ReleaseFontTable
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Releases the table obtained earlier from <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-trygetfonttable">TryGetFontTable</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param tableContext [in]
 
@@ -63,23 +60,7 @@ Type: <b>void*</b>
 
 A pointer to the opaque context from <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefontface-trygetfonttable">TryGetFontTable</a>.
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontface">IDWriteFontFace</a>
- 
-
- 
 

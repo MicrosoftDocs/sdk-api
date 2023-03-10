@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiItem.FileSystemName
 title: IFsiItem::FileSystemName (imapi2fs.h)
 description: Retrieves the name of the item as modified to conform to the specified file system.
+helpviewer_keywords: ["FileSystemName","FileSystemName method [IMAPI]","FileSystemName method [IMAPI]","IFsiItem interface","IFsiItem interface [IMAPI]","FileSystemName method","IFsiItem.FileSystemName","IFsiItem::FileSystemName","imapi.ifsiitem_filesystemname","imapi2fs/IFsiItem::FileSystemName"]
 old-location: imapi\ifsiitem_filesystemname.htm
 tech.root: imapi
 ms.assetid: a10d9ee1-c05f-4e76-a921-af562dc68121
 ms.date: 12/05/2018
 ms.keywords: FileSystemName, FileSystemName method [IMAPI], FileSystemName method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemName method, IFsiItem.FileSystemName, IFsiItem::FileSystemName, imapi.ifsiitem_filesystemname, imapi2fs/IFsiItem::FileSystemName
-f1_keywords:
-- imapi2fs/IFsiItem.FileSystemName
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiItem.FileSystemName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiItem::FileSystemName
+ - imapi2fs/IFsiItem::FileSystemName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiItem.FileSystemName
 ---
 
 # IFsiItem::FileSystemName
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the name of the item as modified to conform to the specified file system. 
-
+Retrieves the name of the item as modified to conform to the specified file system.
 
 ## -parameters
 
-
-
-
 ### -param fileSystem [in]
 
-File system to which the name should conform. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
-
+File system to which the name should conform. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
 
 ### -param pVal [out]
 
-String that contains the name of the item as it conforms to the specified file system. The name in the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_name">IFsiItem::get_Name</a> property is modified if the characters used and its length do not meet the requirements of the specified file system type.
-
+String that contains the name of the item as it conforms to the specified file system. The name in the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_name">IFsiItem::get_Name</a> property is modified if the characters used and its length do not meet the requirements of the specified file system type.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -105,18 +98,7 @@ Value: 0xC0AAB101
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winineti.DetectAutoProxyUrl
 title: DetectAutoProxyUrl function (winineti.h)
-description: Attempts to determine the location of a WPAD autoproxy script.
+description: The DetectAutoProxyUrl function (winineti.h) attempts to determine the location of a WPAD autoproxy script.
+helpviewer_keywords: ["DetectAutoProxyUrl","DetectAutoProxyUrl function [WinINet]","PROXY_AUTO_DETECT_TYPE_DHCP","PROXY_AUTO_DETECT_TYPE_DNS_A","_inet_detectautoproxyurl_function","wininet.detectautoproxyurl","winineti/DetectAutoProxyUrl"]
 old-location: wininet\detectautoproxyurl.htm
 tech.root: wininet
 ms.assetid: 4e94ab0c-0f39-4e6e-a272-6beff61e97c6
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: DetectAutoProxyUrl, DetectAutoProxyUrl function [WinINet], PROXY_AUTO_DETECT_TYPE_DHCP, PROXY_AUTO_DETECT_TYPE_DNS_A, _inet_detectautoproxyurl_function, wininet.detectautoproxyurl, winineti/DetectAutoProxyUrl
-f1_keywords:
-- winineti/DetectAutoProxyUrl
-dev_langs:
-- c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- DetectAutoProxyUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DetectAutoProxyUrl
+ - winineti/DetectAutoProxyUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - DetectAutoProxyUrl
 ---
 
 # DetectAutoProxyUrl function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to determine the location of a WPAD autoproxy script.
 
-
 ## -parameters
-
-
-
 
 ### -param pszAutoProxyUrl [in, out]
 
 Pointer to a buffer to receive the URL from which a WPAD autoproxy script can be downloaded.
 
-
 ### -param cchAutoProxyUrl [in]
 
 Size of 
 the buffer pointed to by <i>lpszAutoProxyUrl</i>, in bytes.
-
 
 ### -param dwDetectFlags [in]
 
@@ -98,43 +93,25 @@ Use a well qualified name search to identify the proxy.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa384580(v=vs.85)">InternetDeInitializeAutoProxyDll</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa384580(v=vs.85)">InternetDeInitializeAutoProxyDll</a>
+<a href="/windows/desktop/WinInet/internetgetproxyinfo">InternetGetProxyInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/internetgetproxyinfo">InternetGetProxyInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>

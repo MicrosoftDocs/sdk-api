@@ -1,193 +1,143 @@
 ---
 UID: NF:evntprov.EventProviderEnabled
 title: EventProviderEnabled function (evntprov.h)
-description: Determines if the event is enabled for any session.
+description:
+  Determines whether an event provider should generate a particular event based
+  on the event's Level and Keyword.
+helpviewer_keywords:
+  [
+    "EventProviderEnabled",
+    "EventProviderEnabled function [ETW]",
+    "WINEVENT_LEVEL_CRITICAL",
+    "WINEVENT_LEVEL_ERROR",
+    "WINEVENT_LEVEL_INFO",
+    "WINEVENT_LEVEL_VERBOSE",
+    "WINEVENT_LEVEL_WARNING",
+    "base.eventproviderenabled_func",
+    "etw.eventproviderenabled_func",
+    "evntprov/EventProviderEnabled",
+  ]
 old-location: etw\eventproviderenabled_func.htm
 tech.root: ETW
 ms.assetid: 84c035b1-cdc7-47b7-b887-e5b508f17266
 ms.date: 12/05/2018
-ms.keywords: EventProviderEnabled, EventProviderEnabled function [ETW], WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO, WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING, base.eventproviderenabled_func, etw.eventproviderenabled_func, evntprov/EventProviderEnabled
-f1_keywords:
-- evntprov/EventProviderEnabled
-dev_langs:
-- c++
+ms.keywords:
+  EventProviderEnabled, EventProviderEnabled function [ETW],
+  WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO,
+  WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING,
+  base.eventproviderenabled_func, etw.eventproviderenabled_func,
+  evntprov/EventProviderEnabled
 req.header: evntprov.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- API-MS-Win-eventing-provider-l1-1-0.dll
-- API-MS-Win-Eventing-Provider-L1-1-1.dll
-api_name:
-- EventProviderEnabled
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
+f1_keywords:
+  - EventProviderEnabled
+  - evntprov/EventProviderEnabled
+dev_langs:
+  - c++
+topic_type:
+  - APIRef
+  - kbSyntax
+api_type:
+  - DllExport
+api_location:
+  - Advapi32.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+  - KernelBase.dll
+  - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+  - API-MS-Win-eventing-provider-l1-1-0.dll
+  - API-MS-Win-Eventing-Provider-L1-1-1.dll
+api_name:
+  - EventProviderEnabled
 ---
 
 # EventProviderEnabled function
 
-
 ## -description
 
+Determines whether an event provider should generate a particular event based on
+the event's Level and Keyword.
 
-Determines if the event is enabled for any session.
-
+Returns **FALSE** if ETW can quickly determine that no session is listening for a specified event from the given provider. Otherwise returns **TRUE**.
 
 ## -parameters
 
-
-
-
 ### -param RegHandle [in]
 
-Registration handle of the provider. The handle comes from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+Registration handle of the provider. The handle comes from
+[EventRegister](/windows/desktop/api/evntprov/nf-evntprov-eventregister).
 
+If _RegHandle_ is **NULL**, **EventProviderEnabled** will return **FALSE**.
 
 ### -param Level [in]
 
-Level of detail included in the event. Specify one of the following levels that are defined in Winmeta.h. 
-      Higher numbers imply that you get lower levels as well. For example, if you specify TRACE_LEVEL_WARNING, you 
-      also receive all warning, error, and fatal events.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="WINEVENT_LEVEL_CRITICAL"></a><a id="winevent_level_critical"></a><dl>
-<dt><b>WINEVENT_LEVEL_CRITICAL</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Abnormal exit or termination events.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WINEVENT_LEVEL_ERROR"></a><a id="winevent_level_error"></a><dl>
-<dt><b>WINEVENT_LEVEL_ERROR</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Severe error events.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WINEVENT_LEVEL_WARNING"></a><a id="winevent_level_warning"></a><dl>
-<dt><b>WINEVENT_LEVEL_WARNING</b></dt>
-<dt>3</dt>
-</dl>
-</td>
-<td width="60%">
-Warning events such as allocation failures.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WINEVENT_LEVEL_INFO"></a><a id="winevent_level_info"></a><dl>
-<dt><b>WINEVENT_LEVEL_INFO</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-Non-error events such as entry or exit events.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WINEVENT_LEVEL_VERBOSE"></a><a id="winevent_level_verbose"></a><dl>
-<dt><b>WINEVENT_LEVEL_VERBOSE</b></dt>
-<dt>5</dt>
-</dl>
-</td>
-<td width="60%">
-Detailed trace events.
-
-</td>
-</tr>
-</table>
- 
-
+An 8-bit number used to describe an event's severity or importance. See
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
+for more information about event level values.
 
 ### -param Keyword [in]
 
-Bitmask that specifies the event category. This mask should be the same keyword mask that you defined in 
-      the manifest for the event. 
-
+A 64-bit bitmask used to indicate an event's membership in a set of event
+categories. See
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)
+for more information about event keyword values.
 
 ## -returns
 
-
-
-Returns <b>TRUE</b> if the event is enabled for a session; otherwise, returns 
-      <b>FALSE</b>.
-
-
-
+Returns **FALSE** if ETW can quickly determine that no session is listening for a specified event from the given provider. Otherwise returns **TRUE**.
 
 ## -remarks
 
+This API provides a simple way to determine whether an event is enabled (i.e.
+whether any event consumer sessions are interested in receiving the event) based
+on the provider handle, the event level, and the event keyword.
 
+> [!Note]
+> This API performs a conservative quick test. It is possible for this
+> API to return true in certain cases where subsequent in-depth filtering would
+> determine that no sessions need to record the event.
 
-Typically, providers do not call this function to determine if a session is expecting this event; they simply 
-    write the event and ETW determines if the event is logged to the session.
+This API provides functionality similar to the functionality provided by
+[EventEnabled](/windows/desktop/api/evntprov/nf-evntprov-eventenabled). When a
+provider has access to an event's complete
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor),
+the provider should use **EventEnabled**. When a provider has access only to the
+event's Level and Keyword, the provider should use **EventProviderEnabled**.
 
-Providers may want to call this function if they need to perform extra work to generate the event. In this 
-    case, calling this function first (to determine if a session is expecting this event or not) may save resources 
-    and time. 
+Most event providers will not call **EventProviderEnabled** directly:
 
-The provider would call this function if the provider did not generate an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure for the event from the 
-    manifest. If the event descriptor is available, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventenabled">EventEnabled</a> function.
+- The **EventWrite** APIs include their own **EventProviderEnabled** test and
+  return immediately if the event is not enabled.
+- Most ETW providers use an ETW framework (e.g. manifests or TraceLogging)
+  instead of directly calling **EventWrite** or **EventProviderEnabled**. ETW
+  frameworks generally provide their own event-enabled API which should be used
+  instead of calling **EventProviderEnabled**.
+- ETW framework implementations usually check their own provider state rather
+  than calling **EventProviderEnabled**.
 
-
-
+For additional details, see
+[EventEnabled](/windows/desktop/api/evntprov/nf-evntprov-eventenabled).
 
 ## -see-also
 
+[EventEnabled](/windows/desktop/api/evntprov/nf-evntprov-eventenabled)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventenabled">EventEnabled</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>
- 
-
- 
-
+[EVENT_DESCRIPTOR](/windows/desktop/api/evntprov/ns-evntprov-event_descriptor)

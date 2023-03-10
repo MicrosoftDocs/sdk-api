@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICBitmapSource.CopyPixels
 title: IWICBitmapSource::CopyPixels (wincodec.h)
 description: Instructs the object to produce pixels.
+helpviewer_keywords: ["CopyPixels","CopyPixels method [Windows Imaging Component]","CopyPixels method [Windows Imaging Component]","IWICBitmapSource interface","IWICBitmapSource interface [Windows Imaging Component]","CopyPixels method","IWICBitmapSource.CopyPixels","IWICBitmapSource::CopyPixels","_wic_codec_iwicbitmapsource_copypixels","wic._wic_codec_iwicbitmapsource_copypixels","wincodec/IWICBitmapSource::CopyPixels"]
 old-location: wic\_wic_codec_iwicbitmapsource_copypixels.htm
 tech.root: wic
 ms.assetid: d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c
 ms.date: 12/05/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPixels method, IWICBitmapSource.CopyPixels, IWICBitmapSource::CopyPixels, _wic_codec_iwicbitmapsource_copypixels, wic._wic_codec_iwicbitmapsource_copypixels, wincodec/IWICBitmapSource::CopyPixels
-f1_keywords:
-- wincodec/IWICBitmapSource.CopyPixels
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapSource.CopyPixels
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapSource::CopyPixels
+ - wincodec/IWICBitmapSource::CopyPixels
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapSource.CopyPixels
 ---
 
 # IWICBitmapSource::CopyPixels
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Instructs the object to produce pixels.
-
 
 ## -parameters
 
-
-
-
 ### -param prc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
 
 The rectangle to copy. A <b>NULL</b> value specifies the entire bitmap.
-
 
 ### -param cbStride [in]
 
@@ -70,13 +66,11 @@ Type: <b>UINT</b>
 
 The stride of the bitmap
 
-
 ### -param cbBufferSize [in]
 
 Type: <b>UINT</b>
 
 The size of the buffer.
-
 
 ### -param pbBuffer [out]
 
@@ -84,23 +78,15 @@ Type: <b>BYTE*</b>
 
 A pointer to the buffer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-<b>CopyPixels</b> is one of the two main image processing routines (the other being <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a>) triggering the actual processing. 
+<b>CopyPixels</b> is one of the two main image processing routines (the other being <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a>) triggering the actual processing. 
          It instructs the object to produce pixels according to its algorithm - this may involve decoding a portion of a JPEG stored on disk, copying a block of memory, or even analytically computing a complex gradient. 
          The algorithm is completely dependent on the object implementing the interface.
       
@@ -115,12 +101,8 @@ The caller controls the memory management and must provide an output buffer (<i>
          The caller must ensure that there is sufficient buffer to complete the call based on the width, height and pixel format of the bitmap and the sub-rectangle provided to the copy method.
       
 
-If the caller needs to perform numerous copies of an expensive <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> such as a JPEG, it is recommended to create an in-memory <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> first.
+If the caller needs to perform numerous copies of an expensive <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> such as a JPEG, it is recommended to create an in-memory <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> first.
       
 
 <h3><a id="Codec_Developer_Remarks"></a><a id="codec_developer_remarks"></a><a id="CODEC_DEVELOPER_REMARKS"></a>Codec Developer Remarks</h3>
 The callee must only write to the first (prc-&gt;Width*bitsperpixel+7)/8 bytes of each line of the output buffer (in this case, a line is a consecutive string of <i>cbStride</i> bytes).
-      
-
-
-

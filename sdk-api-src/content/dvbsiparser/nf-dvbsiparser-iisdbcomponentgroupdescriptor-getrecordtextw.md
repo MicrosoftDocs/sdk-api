@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordTextW
 title: IIsdbComponentGroupDescriptor::GetRecordTextW (dvbsiparser.h)
 description: Gets the text that describes a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
+helpviewer_keywords: ["GetRecordTextW","GetRecordTextW method [Microsoft TV Technologies]","GetRecordTextW method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetRecordTextW method","IIsdbComponentGroupDescriptor.GetRecordTextW","IIsdbComponentGroupDescriptor::GetRecordTextW","dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTextW","mstv.iisdbcomponentgroupdescriptor_getrecordtextw"]
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordtextw.htm
 tech.root: mstv
 ms.assetid: 0aea8704-cda0-44d5-b06d-79db6ce0114e
 ms.date: 12/05/2018
 ms.keywords: GetRecordTextW, GetRecordTextW method [Microsoft TV Technologies], GetRecordTextW method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetRecordTextW method, IIsdbComponentGroupDescriptor.GetRecordTextW, IIsdbComponentGroupDescriptor::GetRecordTextW, dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTextW, mstv.iisdbcomponentgroupdescriptor_getrecordtextw
-f1_keywords:
-- dvbsiparser/IIsdbComponentGroupDescriptor.GetRecordTextW
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbComponentGroupDescriptor.GetRecordTextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbComponentGroupDescriptor::GetRecordTextW
+ - dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordTextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbComponentGroupDescriptor.GetRecordTextW
 ---
 
 # IIsdbComponentGroupDescriptor::GetRecordTextW
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the text that describes a component group from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param bRecordIndex [in]
 
 Specifies the component group record number,
-  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcomponentgroupdescriptor-getcountofrecords">IIsdbComponentGroupDescriptor::GetCountOfRecords</a>method to get the number of records in the extended event descriptor.
-
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcomponentgroupdescriptor-getcountofrecords">IIsdbComponentGroupDescriptor::GetCountOfRecords</a> method to get the number of records in the extended event descriptor.
 
 ### -param convMode [in]
 
@@ -72,30 +68,14 @@ Specifies the string conversion mode to use. This parameter can have any of the 
 <li><b>STRCONV_MODE_ISDB</b></li>
 </ul>
 
-
-
 ### -param pbstrText [out]
 
 Receives the text that describes the component group, as a <b>BSTR</b>. The caller must free the <b>BSTR</b> by calling <b>SysFreeString</b>.
 
-
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcomponentgroupdescriptor">IIsdbComponentGroupDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcomponentgroupdescriptor">IIsdbComponentGroupDescriptor</a>

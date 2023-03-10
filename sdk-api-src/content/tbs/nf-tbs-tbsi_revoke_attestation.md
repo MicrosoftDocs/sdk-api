@@ -2,15 +2,12 @@
 UID: NF:tbs.Tbsi_Revoke_Attestation
 title: Tbsi_Revoke_Attestation function (tbs.h)
 description: Invalidates the PCRs if the ELAM driver detects a policy-violation (a rootkit, for example).
+helpviewer_keywords: ["Tbsi_Revoke_Attestation","Tbsi_Revoke_Attestation function [TBS]","tbs.tbsi_revoke_attestation","tbs/Tbsi_Revoke_Attestation"]
 old-location: tbs\tbsi_revoke_attestation.htm
 tech.root: TBS
 ms.assetid: 64B6BC8F-5031-4A31-86FD-DECA6203D6E4
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Revoke_Attestation, Tbsi_Revoke_Attestation function [TBS], tbs.tbsi_revoke_attestation, tbs/Tbsi_Revoke_Attestation
-f1_keywords:
-- tbs/Tbsi_Revoke_Attestation
-dev_langs:
-- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tbs.dll
-api_name:
-- Tbsi_Revoke_Attestation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Tbsi_Revoke_Attestation
+ - tbs/Tbsi_Revoke_Attestation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tbs.dll
+api_name:
+ - Tbsi_Revoke_Attestation
 ---
 
 # Tbsi_Revoke_Attestation function
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invalidates the PCRs if the ELAM driver detects a policy-violation (a rootkit, for example).
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -95,14 +88,8 @@ An internal software error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is callable from kernel mode.
 
@@ -111,6 +98,4 @@ You must run this function with administrative rights. This function extends PCR
 As a result, the WBCL files will not reflect the current state of the TPM for the remainder of the time that the TPM is powered up and remote systems will not be able to form trust in the security state of the system.  Note that anti-malware systems will probably perform additional remediation or alerts, but the invalidation step is crucial if attestation is supported.
 
 When the computer goes to hibernation and subsequently resumes, the previous PCR extent will be lost, and the broken trust will not be reflected in the PCR measurements anymore. To address this, the <b>Tbsi_Revoke_Attestation</b> function also increments the monotonic Event Counter located in the TPM. Further TPM attestation validations will notice a gap in the archived WBCL logs’ boot counter values. Upon discovery of such a gap, attestation validation code should fail the validation, just as it would if other required events were not present in the log. Note that the counter in the TPM cannot be rolled back you can't construct the missing WBCL after the fact.
-
-
 

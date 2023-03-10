@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprConfigServerBackup
 title: MprConfigServerBackup function (mprapi.h)
 description: The MprConfigServerBackup function creates a backup of the router-manager, interface, and phone-book configuration for the router.
+helpviewer_keywords: ["MprConfigServerBackup","MprConfigServerBackup function [RAS]","_mpr_mprconfigserverbackup","mprapi/MprConfigServerBackup","rras.mprconfigserverbackup"]
 old-location: rras\mprconfigserverbackup.htm
 tech.root: RRAS
 ms.assetid: 7e318742-78ba-4eb4-818b-939688e79d54
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerBackup, MprConfigServerBackup function [RAS], _mpr_mprconfigserverbackup, mprapi/MprConfigServerBackup, rras.mprconfigserverbackup
-f1_keywords:
-- mprapi/MprConfigServerBackup
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigServerBackup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigServerBackup
+ - mprapi/MprConfigServerBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigServerBackup
 ---
 
 # MprConfigServerBackup function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigServerBackup</b> function creates a backup of the router-manager, interface, and phone-book configuration for the router.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param lpwsPath [in]
 
 Pointer to a <b>null</b>-terminated Unicode string that specifies the path to the directory in which to write the backup files. This path should end with a trailing backslash.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -112,7 +105,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -122,33 +115,22 @@ Use
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverrestore">MprConfigServerRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverrestore">MprConfigServerRestore</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

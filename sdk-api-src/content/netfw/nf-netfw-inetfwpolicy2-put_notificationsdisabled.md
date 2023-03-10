@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_NotificationsDisabled
 title: INetFwPolicy2::put_NotificationsDisabled (netfw.h)
-description: Indicates whether interactive firewall notifications are disabled.
+description: Indicates whether interactive firewall notifications are disabled. (INetFwPolicy2.put_NotificationsDisabled)
+helpviewer_keywords: ["INetFwPolicy2 interface [ICS/ICF]","NotificationsDisabled property","INetFwPolicy2.NotificationsDisabled","INetFwPolicy2.put_NotificationsDisabled","INetFwPolicy2::NotificationsDisabled","INetFwPolicy2::get_NotificationsDisabled","INetFwPolicy2::put_NotificationsDisabled","NotificationsDisabled property [ICS/ICF]","NotificationsDisabled property [ICS/ICF]","INetFwPolicy2 interface","ics.inetfwpolicy2_notificationsdisabled","netfw/INetFwPolicy2::NotificationsDisabled","netfw/INetFwPolicy2::get_NotificationsDisabled","netfw/INetFwPolicy2::put_NotificationsDisabled","put_NotificationsDisabled"]
 old-location: ics\inetfwpolicy2_notificationsdisabled.htm
 tech.root: ics
 ms.assetid: 490442a4-3b60-4891-9d0e-71f8d2147999
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],NotificationsDisabled property, INetFwPolicy2.NotificationsDisabled, INetFwPolicy2.put_NotificationsDisabled, INetFwPolicy2::NotificationsDisabled, INetFwPolicy2::get_NotificationsDisabled, INetFwPolicy2::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_notificationsdisabled, netfw/INetFwPolicy2::NotificationsDisabled, netfw/INetFwPolicy2::get_NotificationsDisabled, netfw/INetFwPolicy2::put_NotificationsDisabled, put_NotificationsDisabled
-f1_keywords:
-- netfw/INetFwPolicy2.NotificationsDisabled
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwPolicy2.NotificationsDisabled
-- INetFwPolicy2.get_NotificationsDisabled
-- INetFwPolicy2.put_NotificationsDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwPolicy2::put_NotificationsDisabled
+ - netfw/INetFwPolicy2::put_NotificationsDisabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwPolicy2.NotificationsDisabled
+ - INetFwPolicy2.get_NotificationsDisabled
+ - INetFwPolicy2.put_NotificationsDisabled
 ---
 
 # INetFwPolicy2::put_NotificationsDisabled
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates whether interactive firewall notifications are disabled.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-When you pass a profile type obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">CurrentProfileTypes</a> property, make sure that you pass only one profile type to <b>get_NotificationsDisabled</b> and <b>put_NotificationsDisabled</b>. Note that <b>get_CurrentProfileTypes</b> can return multiple profiles.
-
-
-
+When you pass a profile type obtained from the <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-get_currentprofiletypes">CurrentProfileTypes</a> property, make sure that you pass only one profile type to <b>get_NotificationsDisabled</b> and <b>put_NotificationsDisabled</b>. Note that <b>get_CurrentProfileTypes</b> can return multiple profiles.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>

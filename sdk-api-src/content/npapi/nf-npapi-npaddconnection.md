@@ -1,16 +1,13 @@
 ---
 UID: NF:npapi.NPAddConnection
 title: NPAddConnection function (npapi.h)
-description: Connects a local device to a network resource.
+description: Connects a local device to a network resource. (NPAddConnection)
+helpviewer_keywords: ["NPAddConnection","NPAddConnection function [Security]","_mnp_npaddconnection","dwType","lpLocalName","lpRemoteName","npapi/NPAddConnection","security.npaddconnection"]
 old-location: security\npaddconnection.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 37a3988c-18ee-400a-85c3-cc3cbdf015ea
 ms.date: 12/05/2018
 ms.keywords: NPAddConnection, NPAddConnection function [Security], _mnp_npaddconnection, dwType, lpLocalName, lpRemoteName, npapi/NPAddConnection, security.npaddconnection
-f1_keywords:
-- npapi/NPAddConnection
-dev_langs:
-- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Npapi.h
-api_name:
-- NPAddConnection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NPAddConnection
+ - npapi/NPAddConnection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Npapi.h
+api_name:
+ - NPAddConnection
 ---
 
 # NPAddConnection function
@@ -48,19 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NPAddConnection</b> function connects a local device to a network resource.
 
-
 ## -parameters
-
-
-
 
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure which specifies the network resource to connect to. The following fields must be set in the <b>NETRESOURCE</b> structure you pass in. The <b>NPAddConnection</b> function ignores the other fields.
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure which specifies the network resource to connect to. The following fields must be set in the <b>NETRESOURCE</b> structure you pass in. The <b>NPAddConnection</b> function ignores the other fields.
 
 <table>
 <tr>
@@ -98,13 +95,10 @@ Specifies the type of resource to connect to. This can be RESOURCETYPE_DISK, RES
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpPassword [in]
 
-Pointer to the password to be used in making the connection, normally the password associated with <i>lpUserName</i>. The <b>NULL</b> value may be passed in to cause the function to use the default password. An empty string may be used to indicate no password. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
-
+Pointer to the password to be used in making the connection, normally the password associated with <i>lpUserName</i>. The <b>NULL</b> value may be passed in to cause the function to use the default password. An empty string may be used to indicate no password. When you have finished using the password, clear it from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -param lpUserName [in]
 
@@ -112,10 +106,7 @@ Pointer to the user name used to make the connection. If <b>NULL</b>, the defaul
 
 For example, if you were logged using the user name "MyAccount" and wanted to connect to a network resource that was available only to a second account, where the user name was "MyOtherAccount", you could specify "MyOtherAccount" in <i>lpUserName</i> in order to connect to the resource. You would also specify the password of this second account in <i>lpPassword</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it should return WN_SUCCESS. Otherwise, it should return an error code, which can be one of the following.
 
@@ -191,7 +182,3 @@ The network is not present.
 </td>
 </tr>
 </table>
- 
-
-
-

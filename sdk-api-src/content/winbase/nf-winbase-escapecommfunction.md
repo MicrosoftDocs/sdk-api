@@ -2,15 +2,12 @@
 UID: NF:winbase.EscapeCommFunction
 title: EscapeCommFunction function (winbase.h)
 description: Directs the specified communications device to perform an extended function.
+helpviewer_keywords: ["CLRBREAK","CLRDTR","CLRRTS","EscapeCommFunction","EscapeCommFunction function","SETBREAK","SETDTR","SETRTS","SETXOFF","SETXON","_win32_escapecommfunction","base.escapecommfunction","winbase/EscapeCommFunction"]
 old-location: base\escapecommfunction.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 27c4ebdf-1c06-4a60-8e49-dcccba10789c
 ms.date: 12/05/2018
 ms.keywords: CLRBREAK, CLRDTR, CLRRTS, EscapeCommFunction, EscapeCommFunction function, SETBREAK, SETDTR, SETRTS, SETXOFF, SETXON, _win32_escapecommfunction, base.escapecommfunction, winbase/EscapeCommFunction
-f1_keywords:
-- winbase/EscapeCommFunction
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-comm-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- EscapeCommFunction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EscapeCommFunction
+ - winbase/EscapeCommFunction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-comm-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - EscapeCommFunction
 ---
 
 # EscapeCommFunction function
@@ -52,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Directs the specified communications device to perform an extended function.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 ### -param dwFunc [in]
 
@@ -84,7 +80,7 @@ The extended function to be performed. This parameter can be one of the followin
 </td>
 <td width="60%">
 Restores character transmission and places the transmission line in a nonbreak state. The CLRBREAK extended function code is identical to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a> function.
 
 </td>
 </tr>
@@ -118,9 +114,9 @@ Clears the RTS (request-to-send) signal.
 </td>
 <td width="60%">
 Suspends character transmission and places the transmission line in a break state until the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a> function is called (or 
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a> function is called (or 
 <b>EscapeCommFunction</b> is called with the CLRBREAK extended function code). The SETBREAK extended function code is identical to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a> function. Note that this extended function does not flush data that has not been transmitted.
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a> function. Note that this extended function does not flush data that has not been transmitted.
 
 </td>
 </tr>
@@ -169,44 +165,30 @@ Causes transmission to act as if an XON character has been received.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommbreak">ClearCommBreak</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommbreak">SetCommBreak</a>

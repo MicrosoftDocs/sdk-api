@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeMiterLimit
 title: IXpsOMPath::SetStrokeMiterLimit (xpsobjectmodel.h)
 description: Sets the miter limit of the path.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeMiterLimit method","IXpsOMPath.SetStrokeMiterLimit","IXpsOMPath::SetStrokeMiterLimit","SetStrokeMiterLimit","SetStrokeMiterLimit method [XPS Documents and Packaging]","SetStrokeMiterLimit method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokemiterlimit","xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit"]
 old-location: xps\ixpsompath_setstrokemiterlimit.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4e33f9f3-119a-4635-b44c-fa002a59fa20
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeMiterLimit method, IXpsOMPath.SetStrokeMiterLimit, IXpsOMPath::SetStrokeMiterLimit, SetStrokeMiterLimit, SetStrokeMiterLimit method [XPS Documents and Packaging], SetStrokeMiterLimit method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokemiterlimit, xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit
-f1_keywords:
-- xpsobjectmodel/IXpsOMPath.SetStrokeMiterLimit
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMPath.SetStrokeMiterLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMPath::SetStrokeMiterLimit
+ - xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMPath.SetStrokeMiterLimit
 ---
 
 # IXpsOMPath::SetStrokeMiterLimit
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the miter limit of the path.
 
-
 ## -parameters
-
-
-
 
 ### -param strokeMiterLimit [in]
 
 The miter limit value to be set. The value must be 1.0 or greater.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,37 +90,21 @@ A value that was passed in <i>strokeMiterLimit</i> was not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
  The miter limit value is the ratio of the maximum miter length  to one-half of the stroke thickness.
 
-The miter limit value describes how to render a mitered line join. This value applies only if the line join style value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN_MITER</a>.
-
-
-
+The miter limit value describes how to render a mitered line join. This value applies only if the line join style value is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN_MITER</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath">IXpsOMPath</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

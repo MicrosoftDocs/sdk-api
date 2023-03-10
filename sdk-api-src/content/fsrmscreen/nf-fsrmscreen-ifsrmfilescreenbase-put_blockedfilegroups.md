@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.put_BlockedFileGroups
 title: IFsrmFileScreenBase::put_BlockedFileGroups (fsrmscreen.h)
-description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen.
+description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen. (Put)
+helpviewer_keywords: ["BlockedFileGroups property [File Server Resource Manager]","BlockedFileGroups property [File Server Resource Manager]","IFsrmFileScreenBase interface","IFsrmFileScreenBase interface [File Server Resource Manager]","BlockedFileGroups property","IFsrmFileScreenBase.BlockedFileGroups","IFsrmFileScreenBase.put_BlockedFileGroups","IFsrmFileScreenBase::BlockedFileGroups","IFsrmFileScreenBase::get_BlockedFileGroups","IFsrmFileScreenBase::put_BlockedFileGroups","fs.ifsrmfilescreenbase_blockedfilegroups","fsrm.ifsrmfilescreenbase_blockedfilegroups","fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups","fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups","fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups","put_BlockedFileGroups"]
 old-location: fsrm\ifsrmfilescreenbase_blockedfilegroups.htm
 tech.root: fsrm
 ms.assetid: 1f75fa45-8de8-42ca-a0f5-5ffe8acea6b8
 ms.date: 12/05/2018
 ms.keywords: BlockedFileGroups property [File Server Resource Manager], BlockedFileGroups property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],BlockedFileGroups property, IFsrmFileScreenBase.BlockedFileGroups, IFsrmFileScreenBase.put_BlockedFileGroups, IFsrmFileScreenBase::BlockedFileGroups, IFsrmFileScreenBase::get_BlockedFileGroups, IFsrmFileScreenBase::put_BlockedFileGroups, fs.ifsrmfilescreenbase_blockedfilegroups, fsrm.ifsrmfilescreenbase_blockedfilegroups, fsrmscreen/IFsrmFileScreenBase::BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::get_BlockedFileGroups, fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups, put_BlockedFileGroups
-f1_keywords:
-- fsrmscreen/IFsrmFileScreenBase.BlockedFileGroups
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileScreenBase.BlockedFileGroups
-- IFsrmFileScreenBase.get_BlockedFileGroups
-- IFsrmFileScreenBase.put_BlockedFileGroups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileScreenBase::put_BlockedFileGroups
+ - fsrmscreen/IFsrmFileScreenBase::put_BlockedFileGroups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileScreenBase.BlockedFileGroups
+ - IFsrmFileScreenBase.get_BlockedFileGroups
+ - IFsrmFileScreenBase.put_BlockedFileGroups
 ---
 
 # IFsrmFileScreenBase::put_BlockedFileGroups
@@ -50,37 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 To specify the blocked group names on a new screen, access this property to get an empty collection and then add the group names to the collection.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/using-templates-to-define-file-screens">Using Templates to Define File Screens</a>.
+For an example, see <a href="/previous-versions/windows/desktop/fsrm/using-templates-to-define-file-screens">Using Templates to Define File Screens</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>

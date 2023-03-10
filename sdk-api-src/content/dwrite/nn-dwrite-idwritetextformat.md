@@ -2,15 +2,12 @@
 UID: NN:dwrite.IDWriteTextFormat
 title: IDWriteTextFormat (dwrite.h)
 description: The IDWriteTextFormat interface describes the font and paragraph properties used to format text, and it describes locale information.
+helpviewer_keywords: ["IDWriteTextFormat","IDWriteTextFormat interface [Direct Write]","IDWriteTextFormat interface [Direct Write]","described","directwrite.IDWriteTextFormat","dwrite/IDWriteTextFormat"]
 old-location: directwrite\IDWriteTextFormat.htm
 tech.root: DirectWrite
 ms.assetid: 64b2cac3-c4cb-4213-b808-7b279d296939
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat, IDWriteTextFormat interface [Direct Write], IDWriteTextFormat interface [Direct Write],described, directwrite.IDWriteTextFormat, dwrite/IDWriteTextFormat
-f1_keywords:
-- dwrite/IDWriteTextFormat
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat
+ - dwrite/IDWriteTextFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat
 ---
 
 # IDWriteTextFormat interface
@@ -48,257 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDWriteTextFormat</b> interface describes the font and paragraph properties used to format text, and it describes locale information.
-        
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteTextFormat</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextFormat</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IDWriteTextFormat</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getflowdirection">GetFlowDirection</a>
-</td>
-<td align="left" width="63%">
- Gets the direction that text lines flow.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontcollection">GetFontCollection</a>
-</td>
-<td align="left" width="63%">
- Gets the current font collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontfamilyname">GetFontFamilyName</a>
-</td>
-<td align="left" width="63%">
- Gets a copy of the font family name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontfamilynamelength">GetFontFamilyNameLength</a>
-</td>
-<td align="left" width="63%">
- Gets the length of the font family name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontsize">GetFontSize</a>
-</td>
-<td align="left" width="63%">
- Gets the font  size in DIP unites.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontstretch">GetFontStretch</a>
-</td>
-<td align="left" width="63%">
- Gets the font stretch of the text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontstyle">GetFontStyle</a>
-</td>
-<td align="left" width="63%">
- Gets the font style of the text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getfontweight">GetFontWeight</a>
-</td>
-<td align="left" width="63%">
- Gets the font weight of the text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getincrementaltabstop">GetIncrementalTabStop</a>
-</td>
-<td align="left" width="63%">
- Gets the  incremental tab stop position.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>
-</td>
-<td align="left" width="63%">
- Gets the line spacing adjustment set for a multiline text paragraph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlocalename">GetLocaleName</a>
-</td>
-<td align="left" width="63%">
- Gets a copy of the locale name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlocalenamelength">GetLocaleNameLength</a>
-</td>
-<td align="left" width="63%">
- Gets the length of the locale name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getparagraphalignment">GetParagraphAlignment</a>
-</td>
-<td align="left" width="63%">
- Gets the alignment option of a paragraph which is  relative to the top and bottom edges of a layout box.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getreadingdirection">GetReadingDirection</a>
-</td>
-<td align="left" width="63%">
- Gets the  current reading direction for text in a paragraph.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-gettextalignment">GetTextAlignment</a>
-</td>
-<td align="left" width="63%">
- Gets the alignment option of text relative to the layout box's leading and trailing edge.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-gettrimming">GetTrimming</a>
-</td>
-<td align="left" width="63%">
- Gets the trimming options for text that overflows the layout box.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getwordwrapping">GetWordWrapping</a>
-</td>
-<td align="left" width="63%">
- Gets the word wrapping option.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setflowdirection">SetFlowDirection</a>
-</td>
-<td align="left" width="63%">
- Sets the  paragraph flow direction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setincrementaltabstop">SetIncrementalTabStop</a>
-</td>
-<td align="left" width="63%">
- Sets a fixed distance between two adjacent tab stops.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a>
-</td>
-<td align="left" width="63%">
- Sets the  line spacing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setparagraphalignment">SetParagraphAlignment</a>
-</td>
-<td align="left" width="63%">
- Sets the alignment option of a paragraph relative to the layout box's top and bottom edge.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setreadingdirection">SetReadingDirection</a>
-</td>
-<td align="left" width="63%">
-Sets the paragraph reading direction.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment">SetTextAlignment</a>
-</td>
-<td align="left" width="63%">
-Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a <b>IDWriteTextFormat</b> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settrimming">SetTrimming</a>
-</td>
-<td align="left" width="63%">
- Sets trimming options for text overflowing the layout width.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setwordwrapping">SetWordWrapping</a>
-</td>
-<td align="left" width="63%">
- Sets the word wrapping option.
-
-</td>
-</tr>
-</table> 
-
+The <b>IDWriteTextFormat</b> interface inherits from the <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDWriteTextFormat</b> also has these types of members:
 
 ## -remarks
-
-
 
 To get a reference to the <b>IDWriteTextFormat</b> interface, the application must call the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createtextformat">IDWriteFactory::CreateTextFormat</a> method as shown in the following code.
 
@@ -337,6 +95,4 @@ This object may not be thread-safe, and it may carry the state of text format ch
 
 <h3><a id="DirectWrite_and_Direct2D"></a><a id="directwrite_and_direct2d"></a><a id="DIRECTWRITE_AND_DIRECT2D"></a>DirectWrite and Direct2D</h3>
 To draw simple text with a single format, <a href="/windows/win32/Direct2D/direct2d-portal">Direct2D</a> provides the  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)">ID2D1RenderTarget::DrawText</a> method, which draws a string using the format information provided by an <b>IDWriteTextFormat</b> object.
-
-
 

@@ -2,15 +2,12 @@
 UID: NS:schannel._SecPkgContext_EapPrfInfo
 title: SecPkgContext_EapPrfInfo (schannel.h)
 description: Specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) Transport Layer Security protocol (TLS) Authentication Protocol.
+helpviewer_keywords: ["*PSecPkgContext_EapPrfInfo","EAP-FAST Keying Material","EAP-TTLSv0 Challenge Data","EAP-TTLSv0 Keying Material","PPP EAP TLS Key Data","PSecPkgContext_EapPrfInfo","PSecPkgContext_EapPrfInfo structure pointer [Security]","SecPkgContext_EapPrfInfo","SecPkgContext_EapPrfInfo structure [Security]","schannel/PSecPkgContext_EapPrfInfo","schannel/SecPkgContext_EapPrfInfo","security.secpkgcontext_eapprfinfo"]
 old-location: security\secpkgcontext_eapprfinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2772b83b-d1d1-4a8e-83d5-1f3dec3d66ac
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_EapPrfInfo, EAP-FAST Keying Material, EAP-TTLSv0 Challenge Data, EAP-TTLSv0 Keying Material, PPP EAP TLS Key Data, PSecPkgContext_EapPrfInfo, PSecPkgContext_EapPrfInfo structure pointer [Security], SecPkgContext_EapPrfInfo, SecPkgContext_EapPrfInfo structure [Security], schannel/PSecPkgContext_EapPrfInfo, schannel/SecPkgContext_EapPrfInfo, security.secpkgcontext_eapprfinfo'
-f1_keywords:
-- schannel/SecPkgContext_EapPrfInfo
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- SecPkgContext_EapPrfInfo
 targetos: Windows
 req.typenames: SecPkgContext_EapPrfInfo, *PSecPkgContext_EapPrfInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_EapPrfInfo
+ - schannel/_SecPkgContext_EapPrfInfo
+ - PSecPkgContext_EapPrfInfo
+ - schannel/PSecPkgContext_EapPrfInfo
+ - SecPkgContext_EapPrfInfo
+ - schannel/SecPkgContext_EapPrfInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - SecPkgContext_EapPrfInfo
 ---
 
 # SecPkgContext_EapPrfInfo structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SecPkgContext_EapPrfInfo</b> structure specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">Transport Layer Security protocol</a> (TLS) Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84050">http://www.ietf.org/rfc/rfc2716.txt</a>.
-
+The <b>SecPkgContext_EapPrfInfo</b> structure specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) <a href="/windows/desktop/SecGloss/t-gly">Transport Layer Security protocol</a> (TLS) Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="https://www.ietf.org/rfc/rfc2716.txt">http://www.ietf.org/rfc/rfc2716.txt</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
 Reserved. Must be set to zero.
-
 
 ### -field cbPrfData
 
@@ -122,12 +122,5 @@ PRF(master_secret, "key expansion", server_random + client_random)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pbPrfData
-
- 
-
-
-

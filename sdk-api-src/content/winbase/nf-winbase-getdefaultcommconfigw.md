@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetDefaultCommConfigW
 title: GetDefaultCommConfigW function (winbase.h)
-description: Retrieves the default configuration for the specified communications device.
+description: Retrieves the default configuration for the specified communications device. (Unicode)
+helpviewer_keywords: ["GetDefaultCommConfig", "GetDefaultCommConfig function", "GetDefaultCommConfigW", "_win32_getdefaultcommconfig", "base.getdefaultcommconfig", "winbase/GetDefaultCommConfig", "winbase/GetDefaultCommConfigW"]
 old-location: base\getdefaultcommconfig.htm
-tech.root: devio
+tech.root: base
 ms.assetid: 04bf5033-17c3-4403-8386-f3144e11423f
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCommConfig, GetDefaultCommConfig function, GetDefaultCommConfigA, GetDefaultCommConfigW, _win32_getdefaultcommconfig, base.getdefaultcommconfig, winbase/GetDefaultCommConfig, winbase/GetDefaultCommConfigA, winbase/GetDefaultCommConfigW
-f1_keywords:
-- winbase/GetDefaultCommConfig
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- GetDefaultCommConfig
-- GetDefaultCommConfigA
-- GetDefaultCommConfigW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetDefaultCommConfigW
+ - winbase/GetDefaultCommConfigW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - GetDefaultCommConfig
+ - GetDefaultCommConfigA
+ - GetDefaultCommConfigW
 ---
 
 # GetDefaultCommConfigW function
@@ -50,62 +52,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the default configuration for the specified communications device.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszName [in]
 
 The name of the device. For example, COM1 through COM9 are serial ports and LPT1 through LPT9 are parallel ports.
 
-
 ### -param lpCC [out]
 
 A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a> structure.
-
+<a href="/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a> structure.
 
 ### -param lpdwSize [in, out]
 
 A pointer to a variable that specifies the size of the buffer pointed to by <i>lpCC</i>, in bytes. Upon return, the variable contains the number of bytes copied if the function succeeds, or the number of bytes required if the buffer was too small.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commconfig">COMMCONFIG</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setdefaultcommconfiga">SetDefaultCommConfig</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdefaultcommconfiga">SetDefaultCommConfig</a>
- 
-
- 
-
+> [!NOTE]
+> The winbase.h header defines GetDefaultCommConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

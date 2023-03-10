@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.put_Caption
 title: IVideoWindow::put_Caption (control.h)
 description: The put_Caption method sets the video window caption.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_Caption method","IVideoWindow.put_Caption","IVideoWindow::put_Caption","IVideoWindowput_Caption","control/IVideoWindow::put_Caption","dshow.ivideowindow_put_caption","put_Caption","put_Caption method [DirectShow]","put_Caption method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_caption.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d16dca01-95ba-4573-b9c4-ab996dcf21e4
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Caption method, IVideoWindow.put_Caption, IVideoWindow::put_Caption, IVideoWindowput_Caption, control/IVideoWindow::put_Caption, dshow.ivideowindow_put_caption, put_Caption, put_Caption method [DirectShow], put_Caption method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_Caption
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_Caption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_Caption
+ - control/IVideoWindow::put_Caption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_Caption
 ---
 
 # IVideoWindow::put_Caption
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_Caption</code> method sets the video window caption.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param strCaption [in]
 
 A <b>BSTR</b> that contains the caption.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -112,26 +102,15 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_caption">IVideoWindow::get_Caption</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_caption">IVideoWindow::get_Caption</a>

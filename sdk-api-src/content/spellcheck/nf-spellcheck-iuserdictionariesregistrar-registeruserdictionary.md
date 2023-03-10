@@ -2,15 +2,12 @@
 UID: NF:spellcheck.IUserDictionariesRegistrar.RegisterUserDictionary
 title: IUserDictionariesRegistrar::RegisterUserDictionary (spellcheck.h)
 description: Registers a file to be used as a user dictionary for the current user, until unregistered.
+helpviewer_keywords: ["IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","RegisterUserDictionary method","IUserDictionariesRegistrar.RegisterUserDictionary","IUserDictionariesRegistrar::RegisterUserDictionary","RegisterUserDictionary","RegisterUserDictionary method [Internationalization for Windows Applications]","RegisterUserDictionary method [Internationalization for Windows Applications]","IUserDictionariesRegistrar interface","intl.iuserdictionariesregistrar_registeruserdictionary","spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary"]
 old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm
 tech.root: Intl
 ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],RegisterUserDictionary method, IUserDictionariesRegistrar.RegisterUserDictionary, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
-f1_keywords:
-- spellcheck/IUserDictionariesRegistrar.RegisterUserDictionary
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- IUserDictionariesRegistrar.RegisterUserDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUserDictionariesRegistrar::RegisterUserDictionary
+ - spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - IUserDictionariesRegistrar.RegisterUserDictionary
 ---
 
 # IUserDictionariesRegistrar::RegisterUserDictionary
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a file to be used as a user dictionary for the current user, until unregistered.
 
-
 ## -parameters
-
-
-
 
 ### -param dictionaryPath [in]
 
 The path of the dictionary file to be registered.
 
-
 ### -param languageTag [in]
 
 The language for which this dictionary should be used. If left empty, it will be used for any language.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,30 +116,14 @@ The file doesn’t exist or isn't valid, or it doesn't have a valid extension (.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The filename must have the extension .dic (added words), .exc (excluded words), or .acl (autocorrect word pairs). The files are  UTF-16 LE plaintext that must start with the appropriate Byte Order Mark (BOM). 
 Each line contains a word (in the Added and Excluded word lists), or an autocorrect pair with the words separated by a vertical bar ("|") (in the AutoCorrect word list). The wordlist in which the dictionary is included is inferred through the file extension.
 
 A file registered for a language subtag will be picked up for all languages that contain it. For example, a dictionary registered for "en" will also be used by an "en-US" spell checker.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>

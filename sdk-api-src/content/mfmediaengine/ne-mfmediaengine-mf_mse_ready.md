@@ -2,15 +2,12 @@
 UID: NE:mfmediaengine.MF_MSE_READY
 title: MF_MSE_READY (mfmediaengine.h)
 description: Defines the different ready states of the Media Source Extension.
+helpviewer_keywords: ["MF_MSE_READY","MF_MSE_READY enumeration [Media Foundation]","MF_MSE_READY_CLOSED","MF_MSE_READY_ENDED","MF_MSE_READY_OPEN","mf.mf_mse_ready","mfmediaengine/MF_MSE_READY","mfmediaengine/MF_MSE_READY_CLOSED","mfmediaengine/MF_MSE_READY_ENDED","mfmediaengine/MF_MSE_READY_OPEN"]
 old-location: mf\mf_mse_ready.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7455B92F-CC2D-4743-935D-F5EBFD834397
 ms.date: 12/05/2018
 ms.keywords: MF_MSE_READY, MF_MSE_READY enumeration [Media Foundation], MF_MSE_READY_CLOSED, MF_MSE_READY_ENDED, MF_MSE_READY_OPEN, mf.mf_mse_ready, mfmediaengine/MF_MSE_READY, mfmediaengine/MF_MSE_READY_CLOSED, mfmediaengine/MF_MSE_READY_ENDED, mfmediaengine/MF_MSE_READY_OPEN
-f1_keywords:
-- mfmediaengine/MF_MSE_READY
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfmediaengine.h
-api_name:
-- MF_MSE_READY
 targetos: Windows
 req.typenames: MF_MSE_READY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MF_MSE_READY
+ - mfmediaengine/MF_MSE_READY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfmediaengine.h
+api_name:
+ - MF_MSE_READY
 ---
 
 # MF_MSE_READY enumeration
@@ -48,37 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the different ready states of the Media Source Extension.
-
 
 ## -enum-fields
 
-
-
-
-### -field MF_MSE_READY_CLOSED
+### -field MF_MSE_READY_CLOSED:1
 
 The media source is closed.
 
-
-### -field MF_MSE_READY_OPEN
+### -field MF_MSE_READY_OPEN:2
 
 The media source is open.
 
-
-### -field MF_MSE_READY_ENDED
+### -field MF_MSE_READY_ENDED:3
 
 The media source is ended.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

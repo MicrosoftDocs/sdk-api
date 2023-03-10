@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.put_NotificationLevel
 title: IAutomaticUpdatesSettings::put_NotificationLevel (wuapi.h)
-description: Gets and sets how users are notified about Automatic Update events.
+description: Gets and sets how users are notified about Automatic Update events. (Put)
+helpviewer_keywords: ["IAutomaticUpdatesSettings interface [Windows Update Agent]","NotificationLevel property","IAutomaticUpdatesSettings.NotificationLevel","IAutomaticUpdatesSettings.put_NotificationLevel","IAutomaticUpdatesSettings::NotificationLevel","IAutomaticUpdatesSettings::get_NotificationLevel","IAutomaticUpdatesSettings::put_NotificationLevel","NotificationLevel property [Windows Update Agent]","NotificationLevel property [Windows Update Agent]","IAutomaticUpdatesSettings interface","put_NotificationLevel","wua.iautomaticupdatessettings_notificationlevel","wuapi/IAutomaticUpdatesSettings::NotificationLevel","wuapi/IAutomaticUpdatesSettings::get_NotificationLevel","wuapi/IAutomaticUpdatesSettings::put_NotificationLevel"]
 old-location: wua\iautomaticupdatessettings_notificationlevel.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: da4fdb8a-8df8-468f-afde-292bbcf6696b
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],NotificationLevel property, IAutomaticUpdatesSettings.NotificationLevel, IAutomaticUpdatesSettings.put_NotificationLevel, IAutomaticUpdatesSettings::NotificationLevel, IAutomaticUpdatesSettings::get_NotificationLevel, IAutomaticUpdatesSettings::put_NotificationLevel, NotificationLevel property [Windows Update Agent], NotificationLevel property [Windows Update Agent],IAutomaticUpdatesSettings interface, put_NotificationLevel, wua.iautomaticupdatessettings_notificationlevel, wuapi/IAutomaticUpdatesSettings::NotificationLevel, wuapi/IAutomaticUpdatesSettings::get_NotificationLevel, wuapi/IAutomaticUpdatesSettings::put_NotificationLevel
-f1_keywords:
-- wuapi/IAutomaticUpdatesSettings.NotificationLevel
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,32 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdatesSettings.NotificationLevel
-- IAutomaticUpdatesSettings.get_NotificationLevel
-- IAutomaticUpdatesSettings.put_NotificationLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdatesSettings::put_NotificationLevel
+ - wuapi/IAutomaticUpdatesSettings::put_NotificationLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdatesSettings.NotificationLevel
+ - IAutomaticUpdatesSettings.get_NotificationLevel
+ - IAutomaticUpdatesSettings.put_NotificationLevel
 ---
 
 # IAutomaticUpdatesSettings::put_NotificationLevel
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>Set</b> is no longer supported. Starting with 
     Windows 10 calls to <b>Set</b> always return 
@@ -62,17 +63,8 @@ Gets and sets how  users are notified about Automatic Update events.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>

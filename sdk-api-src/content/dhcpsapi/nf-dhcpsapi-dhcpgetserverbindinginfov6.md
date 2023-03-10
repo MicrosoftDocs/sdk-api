@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpGetServerBindingInfoV6
 title: DhcpGetServerBindingInfoV6 function (dhcpsapi.h)
 description: Retrieves an array of IPv6 interface binding information specific to the DHCPv6 server.
+helpviewer_keywords: ["DhcpGetServerBindingInfoV6","DhcpGetServerBindingInfoV6 function [DHCP]","dhcp.dhcpgetserverbindinginfov6","dhcpsapi/DhcpGetServerBindingInfoV6"]
 old-location: dhcp\dhcpgetserverbindinginfov6.htm
 tech.root: DHCP
 ms.assetid: 1f33ac24-d547-4913-bc37-51627bb3af6a
 ms.date: 12/05/2018
 ms.keywords: DhcpGetServerBindingInfoV6, DhcpGetServerBindingInfoV6 function [DHCP], dhcp.dhcpgetserverbindinginfov6, dhcpsapi/DhcpGetServerBindingInfoV6
-f1_keywords:
-- dhcpsapi/DhcpGetServerBindingInfoV6
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetServerBindingInfoV6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetServerBindingInfoV6
+ - dhcpsapi/DhcpGetServerBindingInfoV6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetServerBindingInfoV6
 ---
 
 # DhcpGetServerBindingInfoV6 function
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpGetServerBindingInfoV6</b> function retrieves an array of IPv6 interface binding information specific to the DHCPv6 server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param Flags [in]
 
 This parameter is not used, and must be set to 0.
 
-
 ### -param BindElementsInfo [out]
 
-Pointer to the address of a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a> structure that contains the information about the IPv6 interface bindings for the DHCPv6 server.
-
+Pointer to the address of a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a> structure that contains the information about the IPv6 interface bindings for the DHCPv6 server.
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -106,27 +98,11 @@ An error occurred while accessing the DHCP server's database.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller of this function must free the memory pointed to by <i>BindElementsInfo</i>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element_array">DHCPV6_BIND_ELEMENT_ARRAY</a>

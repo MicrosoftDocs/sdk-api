@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.INameSpaceTreeControl.InsertRoot
 title: INameSpaceTreeControl::InsertRoot (shobjidl_core.h)
 description: Inserts a Shell item on a root item in a tree.
+helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","InsertRoot method","INameSpaceTreeControl.InsertRoot","INameSpaceTreeControl::InsertRoot","InsertRoot","InsertRoot method [Windows Shell]","InsertRoot method [Windows Shell]","INameSpaceTreeControl interface","NSTCRS_EXPANDED","NSTCRS_HIDDEN","NSTCRS_VISIBLE","_shell_INameSpaceTreeControl_InsertRoot","shell.INameSpaceTreeControl_InsertRoot","shobjidl_core/INameSpaceTreeControl::InsertRoot"]
 old-location: shell\INameSpaceTreeControl_InsertRoot.htm
 tech.root: shell
 ms.assetid: 5d487896-a2ee-4bf3-82d8-90f23a4ff213
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],InsertRoot method, INameSpaceTreeControl.InsertRoot, INameSpaceTreeControl::InsertRoot, InsertRoot, InsertRoot method [Windows Shell], InsertRoot method [Windows Shell],INameSpaceTreeControl interface, NSTCRS_EXPANDED, NSTCRS_HIDDEN, NSTCRS_VISIBLE, _shell_INameSpaceTreeControl_InsertRoot, shell.INameSpaceTreeControl_InsertRoot, shobjidl_core/INameSpaceTreeControl::InsertRoot
-f1_keywords:
-- shobjidl_core/INameSpaceTreeControl.InsertRoot
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- INameSpaceTreeControl.InsertRoot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControl::InsertRoot
+ - shobjidl_core/INameSpaceTreeControl::InsertRoot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - INameSpaceTreeControl.InsertRoot
 ---
 
 # INameSpaceTreeControl::InsertRoot
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inserts a Shell item on a root item in a tree.
 
-
 ## -parameters
-
-
-
 
 ### -param iIndex [in]
 
@@ -63,20 +60,17 @@ Type: <b>int</b>
 
 The index at which to insert the root.
 
-
 ### -param psiRoot [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the Shell item that is being inserted.
 
-
 ### -param grfEnumFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a></b>
 
-Enumerates the qualities of the root and all of its children. One of the values of type <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a>.
-
+Enumerates the qualities of the root and all of its children. One of the values of type <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a>.
 
 ### -param grfRootStyle [in]
 
@@ -102,21 +96,14 @@ The root is hidden so that only the children are visible. Mutually exclusive wit
 
 The root is expanded upon initialization.
 
-
 ### -param pif [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a> that enables you to filter which items in the tree are displayed. If supplied, every item is customizable with a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> flag. This value can be <b>NULL</b> if no filter is required.
-
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a> that enables you to filter which items in the tree are displayed. If supplied, every item is customizable with a <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a> flag. This value can be <b>NULL</b> if no filter is required.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

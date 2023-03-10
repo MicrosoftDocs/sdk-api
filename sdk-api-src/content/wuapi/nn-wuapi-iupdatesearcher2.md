@@ -1,16 +1,13 @@
 ---
 UID: NN:wuapi.IUpdateSearcher2
 title: IUpdateSearcher2 (wuapi.h)
-description: Searches for updates on a server.
+description: Searches for updates on a server. (IUpdateSearcher2)
+helpviewer_keywords: ["IUpdateSearcher2","IUpdateSearcher2 interface [Windows Update Agent]","IUpdateSearcher2 interface [Windows Update Agent]","described","wua.iupdatesearcher2","wuapi/IUpdateSearcher2"]
 old-location: wua\iupdatesearcher2.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 40afc3d4-24e3-40ad-869a-0f8e90b70b97
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher2, IUpdateSearcher2 interface [Windows Update Agent], IUpdateSearcher2 interface [Windows Update Agent],described, wua.iupdatesearcher2, wuapi/IUpdateSearcher2
-f1_keywords:
-- wuapi/IUpdateSearcher2
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher2
+ - wuapi/IUpdateSearcher2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher2
 ---
 
 # IUpdateSearcher2 interface
@@ -48,26 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches for updates on a server.
-
 
 ## -remarks
 
-
-
-The <b>IUpdateSearcher2</b> interface  may require you to update Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
-
-
-
+The <b>IUpdateSearcher2</b> interface  may require you to update Windows Update Agent (WUA). For more information, see <a href="/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

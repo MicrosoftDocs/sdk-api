@@ -2,15 +2,12 @@
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t)
 title: XMUNIBBLE4::XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t) (directxpackedvector.h)
 description: Initializes a new instance of XMUNIBBLE4 from four int8_t arguments.
+helpviewer_keywords: ["XMUNIBBLE4","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 structure","XMUNIBBLE4 structure [DirectX Math Support APIs]","XMUNIBBLE4 constructor","XMUNIBBLE4.XMUNIBBLE4","XMUNIBBLE4.XMUNIBBLE4()","XMUNIBBLE4.XMUNIBBLE4(uint8_t","uint8_t","uint8_t","uint8_t)","XMUNIBBLE4::XMUNIBBLE4","XMUNIBBLE4::XMUNIBBLE4(uint8_t","uint8_t","uint8_t","uint8_t)","dxmath.xmunibble4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 8e88294c-5e00-48f4-9d08-802dafb85b0e
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4.XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t), dxmath.xmunibble4_ctor_1
-f1_keywords:
-- directxpackedvector/XMUNIBBLE4.XMUNIBBLE4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUNIBBLE4.XMUNIBBLE4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUNIBBLE4::XMUNIBBLE4
+ - directxpackedvector/XMUNIBBLE4::XMUNIBBLE4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUNIBBLE4.XMUNIBBLE4
 ---
 
 # XMUNIBBLE4::XMUNIBBLE4(uint8_t,uint8_t,uint8_t,uint8_t)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from four <code>int8_t</code> arguments.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from four <code>int8_t</code> arguments.
 
 This constructor initializes a new instance of **XMUNIBBLE4** from four <code>int8_t</code> arguments.
 
@@ -98,6 +101,6 @@ instance.v =  ( (uint16_t)_w1 << 12) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
+<a href="/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>

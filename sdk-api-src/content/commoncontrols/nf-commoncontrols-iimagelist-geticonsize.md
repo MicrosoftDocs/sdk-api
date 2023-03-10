@@ -2,15 +2,12 @@
 UID: NF:commoncontrols.IImageList.GetIconSize
 title: IImageList::GetIconSize (commoncontrols.h)
 description: Gets the dimensions of images in an image list. All images in an image list have the same dimensions.
+helpviewer_keywords: ["GetIconSize","GetIconSize method [Windows Controls]","GetIconSize method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","GetIconSize method","IImageList.GetIconSize","IImageList::GetIconSize","comctl_IImageList_GetIconSize","comctl_IImageList_GetIconSize_cpp","commoncontrols/IImageList::GetIconSize","controls.IImageList_GetIconSize","controls.comctl_IImageList_GetIconSize"]
 old-location: controls\IImageList_GetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticonsize.htm
 ms.date: 12/05/2018
 ms.keywords: GetIconSize, GetIconSize method [Windows Controls], GetIconSize method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIconSize method, IImageList.GetIconSize, IImageList::GetIconSize, comctl_IImageList_GetIconSize, comctl_IImageList_GetIconSize_cpp, commoncontrols/IImageList::GetIconSize, controls.IImageList_GetIconSize, controls.comctl_IImageList_GetIconSize
-f1_keywords:
-- commoncontrols/IImageList.GetIconSize
-dev_langs:
-- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Comctl32.dll
-api_name:
-- IImageList.GetIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IImageList::GetIconSize
+ - commoncontrols/IImageList::GetIconSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Comctl32.dll
+api_name:
+ - IImageList.GetIconSize
 ---
 
 # IImageList::GetIconSize
@@ -48,48 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the dimensions of images in an image list. All images in an image list have the same dimensions. 
-		
-
+Gets the dimensions of images in an image list. All images in an image list have the same dimensions.
 
 ## -parameters
-
-
-
 
 ### -param cx [out]
 
 Type: <b>int*</b>
 
-A pointer to an <b>int</b> that receives the width, in pixels, of each image. 
-				
-
+A pointer to an <b>int</b> that receives the width, in pixels, of each image.
 
 ### -param cy [out]
 
 Type: <b>int*</b>
 
-A pointer to an <b>int</b> that receives the height, in pixels, of each image. 
-				
-
+A pointer to an <b>int</b> that receives the height, in pixels, of each image.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-To use <b>IImageList::GetIconSize</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>. 
-
-
-
+To use <b>IImageList::GetIconSize</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

@@ -2,15 +2,12 @@
 UID: NS:winioctl._STORAGE_PROPERTY_QUERY
 title: STORAGE_PROPERTY_QUERY
 description: Indicates the properties of a storage device or adapter to retrieve as the input buffer passed to the IOCTL_STORAGE_QUERY_PROPERTY control code.
+helpviewer_keywords: ["*PSTORAGE_PROPERTY_QUERY","PSTORAGE_PROPERTY_QUERY","PSTORAGE_PROPERTY_QUERY structure pointer [Files]","PropertyExistsQuery","PropertyStandardQuery","STORAGE_PROPERTY_QUERY","STORAGE_PROPERTY_QUERY structure [Files]","fs.storage_property_query","winioctl/PSTORAGE_PROPERTY_QUERY","winioctl/STORAGE_PROPERTY_QUERY"]
 old-location: fs\storage_property_query.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: c97a14ab-628c-41f1-96c3-0f47654d0606
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Files], PropertyExistsQuery, PropertyStandardQuery, STORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY structure [Files], fs.storage_property_query, winioctl/PSTORAGE_PROPERTY_QUERY, winioctl/STORAGE_PROPERTY_QUERY'
-f1_keywords:
-- winioctl/STORAGE_PROPERTY_QUERY
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_PROPERTY_QUERY
 targetos: Windows
 req.typenames: STORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY
 req.redist: 
+f1_keywords:
+ - _STORAGE_PROPERTY_QUERY
+ - winioctl/_STORAGE_PROPERTY_QUERY
+ - PSTORAGE_PROPERTY_QUERY
+ - winioctl/PSTORAGE_PROPERTY_QUERY
+ - STORAGE_PROPERTY_QUERY
+ - winioctl/STORAGE_PROPERTY_QUERY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_PROPERTY_QUERY
 ---
 
 # STORAGE_PROPERTY_QUERY structure
@@ -47,28 +53,22 @@ req.redist:
 
 ## -description
 
-
 Indicates the properties of a storage device or adapter to retrieve as the input buffer passed to the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code.
-
+   <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code.
 
 ## -struct-fields
-
-
-
 
 ### -field PropertyId
 
 Indicates whether the caller is requesting a device descriptor, an adapter descriptor, a write cache 
       property, a device unique ID (DUID), or the device identifiers provided in the device's SCSI vital product data 
       (VPD) page. For a list of the property IDs that can be assigned to this member, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>.
-
+      <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>.
 
 ### -field QueryType
 
 Contains flags indicating the type of query to be performed as enumerated by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_query_type">STORAGE_QUERY_TYPE</a> enumeration.
+      <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_query_type">STORAGE_QUERY_TYPE</a> enumeration.
 
 <table>
 <tr>
@@ -99,58 +99,43 @@ Instructs the port driver to report whether the descriptor is supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AdditionalParameters
 
 Contains an array of bytes that can be used to retrieve additional parameters for specific queries.
 
-
 ## -remarks
 
-
-
 The optional output buffer returned through the <i>lpOutBuffer</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code can 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code can 
      be one of several structures depending on the value of the <b>PropertyId</b> member.  If the 
      <b>QueryType</b> member is set to <b>PropertyExistsQuery</b>, then no 
      structure is returned.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_descriptor">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_property_id">STORAGE_PROPERTY_ID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_query_type">STORAGE_QUERY_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ne-winioctl-storage_query_type">STORAGE_QUERY_TYPE</a>

@@ -1,16 +1,13 @@
 ---
-UID: NF:dwrite_3.IDWriteFactory3.CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
+UID: NF:dwrite_3.IDWriteFactory3.CreateFontFaceReference(WCHARconst,FILETIMEconst,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
 title: IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference) (dwrite_3.h)
-description: Creates a reference to a font given a full path.
+description: Creates a reference to a font given a full path. (overload 2/2)
+helpviewer_keywords: ["CreateFontFaceReference","CreateFontFaceReference method [Direct Write]","CreateFontFaceReference method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontFaceReference method","IDWriteFactory3.CreateFontFaceReference","IDWriteFactory3.CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","IDWriteFactory3::CreateFontFaceReference","IDWriteFactory3::CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","directwrite.idwritefactory3_createfontfacereference","dwrite_3/IDWriteFactory3::CreateFontFaceReference"]
 old-location: directwrite\idwritefactory3_createfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 3ae2150b-af56-65f5-fe38-7ecea16cf0b8
 ms.date: 12/05/2018
 ms.keywords: CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontFaceReference method, IDWriteFactory3.CreateFontFaceReference, IDWriteFactory3.CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference), IDWriteFactory3::CreateFontFaceReference, IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference), directwrite.idwritefactory3_createfontfacereference, dwrite_3/IDWriteFactory3::CreateFontFaceReference
-f1_keywords:
-- dwrite_3/IDWriteFactory3.CreateFontFaceReference
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -28,60 +25,53 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFactory3.CreateFontFaceReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFactory3::CreateFontFaceReference
+ - dwrite_3/IDWriteFactory3::CreateFontFaceReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory3.CreateFontFaceReference
 ---
-
-# IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
-
 
 ## -description
 
-
-Creates a reference to a font given a full path. 
-
+Creates a reference to a font given a full path.
 
 ## -parameters
 
+### -param filePath
 
+Type: [in] <b>WCHAR</b>
 
+Absolute file path. Subsequent operations on the constructed object may fail if the user provided filePath doesn't correspond to a valid file on the disk.
 
-#### - filePath [in]
+### -param lastWriteTime
 
-Type: <b>WCHAR</b>
-
-Absolute file path. Subsequent operations on the constructed object may fail      
-          if the user provided filePath doesn't correspond to a valid file on the disk.
-
-
-#### - lastWriteTime [in, optional]
-
-Type: <b>FILETIME</b>
+Type: [in, optional] <b>FILETIME</b>
 
 Last modified time of the input file path. If the parameter is omitted,      
-          the function will access the font file to obtain its last write time, so the clients are encouraged to specify this value      
-          to avoid extra disk access. Subsequent operations on the constructed object may fail      
-          if the user provided lastWriteTime doesn't match the file on the disk.
-
+the function will access the font file to obtain its last write time, so the clients are encouraged to specify this value      
+to avoid extra disk access. Subsequent operations on the constructed object may fail      
+if the user provided lastWriteTime doesn't match the file on the disk.
 
 ### -param faceIndex
 
 Type: <b>UINT32</b>
 
 The zero based index of a font face in cases when the font files contain a collection of font faces.      
-          If the font files contain a single face, this value should be zero.
-
+If the font files contain a single face, this value should be zero.
 
 ### -param fontSimulations
 
@@ -89,32 +79,18 @@ Type: <b><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations">D
 
 Font face simulation flags for algorithmic emboldening and italicization.
 
+### -param fontFaceReference
 
-### -param fontFaceReference [out]
-
-Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference">IDWriteFontFaceReference</a>**</b>
 
 Contains newly created font face reference object, or nullptr in case of failure.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3">IDWriteFactory3</a>
- 
-
- 
-

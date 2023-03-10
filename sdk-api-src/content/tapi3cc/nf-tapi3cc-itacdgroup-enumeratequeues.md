@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITACDGroup.EnumerateQueues
 title: ITACDGroup::EnumerateQueues (tapi3cc.h)
-description: The EnumerateQueues method enumerates queues currently on the ACD group. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Queues method.
+description: The ITACDGroup::EnumerateQueues method (tapi3cc.h) enumerates queues currently on the ACD group. 
+helpviewer_keywords: ["EnumerateQueues","EnumerateQueues method [TAPI 2.2]","EnumerateQueues method [TAPI 2.2]","ITACDGroup interface","ITACDGroup interface [TAPI 2.2]","EnumerateQueues method","ITACDGroup.EnumerateQueues","ITACDGroup::EnumerateQueues","_tapi3_itacdgroup_enumeratequeues","tapi3.itacdgroup_enumeratequeues","tapi3cc/ITACDGroup::EnumerateQueues"]
 old-location: tapi3\itacdgroup_enumeratequeues.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 1d9e0dcf-ce43-494f-8adc-845d2856bdd1
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: EnumerateQueues, EnumerateQueues method [TAPI 2.2], EnumerateQueues method [TAPI 2.2],ITACDGroup interface, ITACDGroup interface [TAPI 2.2],EnumerateQueues method, ITACDGroup.EnumerateQueues, ITACDGroup::EnumerateQueues, _tapi3_itacdgroup_enumeratequeues, tapi3.itacdgroup_enumeratequeues, tapi3cc/ITACDGroup::EnumerateQueues
-f1_keywords:
-- tapi3cc/ITACDGroup.EnumerateQueues
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITACDGroup.EnumerateQueues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITACDGroup::EnumerateQueues
+ - tapi3cc/ITACDGroup::EnumerateQueues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITACDGroup.EnumerateQueues
 ---
 
 # ITACDGroup::EnumerateQueues
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnumerateQueues</b> method enumerates queues currently on the ACD group. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a> method.
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a> method.
 
 ## -parameters
-
-
-
 
 ### -param ppEnumQueue [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -121,37 +115,21 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface returned by <b>ITACDGroup::EnumerateQueues</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a> interface returned by <b>ITACDGroup::EnumerateQueues</b>. The application must call <b>Release</b> on the 
 <b>IEnumQueue</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumqueue">IEnumQueue</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroup-get_queues">get_Queues</a>

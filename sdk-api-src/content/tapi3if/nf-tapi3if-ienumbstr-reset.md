@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3if.IEnumBstr.Reset
 title: IEnumBstr::Reset (tapi3if.h)
-description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages. (IEnumBstr.Reset)
+helpviewer_keywords: ["IEnumBstr interface [TAPI 2.2]","Reset method","IEnumBstr.Reset","IEnumBstr::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumBstr interface","_tapi3_ienumbstr_reset","tapi3.ienumbstr_reset","tapi3if/IEnumBstr::Reset"]
 old-location: tapi3\ienumbstr_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 52199728-17ab-4c17-bfe5-f51cd1e0b150
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Reset method, IEnumBstr.Reset, IEnumBstr::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_reset, tapi3.ienumbstr_reset, tapi3if/IEnumBstr::Reset
-f1_keywords:
-- tapi3if/IEnumBstr.Reset
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumBstr.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBstr::Reset
+ - tapi3if/IEnumBstr::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumBstr.Reset
 ---
 
 # IEnumBstr::Reset
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -83,7 +76,4 @@ Method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
 

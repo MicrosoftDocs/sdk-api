@@ -2,15 +2,12 @@
 UID: NC:stm.PCREATE_STATIC_SERVICE
 title: PCREATE_STATIC_SERVICE (stm.h)
 description: The CreateStaticService function adds a static service to the table.
+helpviewer_keywords: ["CreateStaticService","CreateStaticService callback function [RAS]","PCREATE_STATIC_SERVICE","PCREATE_STATIC_SERVICE callback","_mpr_createstaticservice","rras.createstaticservice","stm/CreateStaticService"]
 old-location: rras\createstaticservice.htm
 tech.root: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
 ms.date: 12/05/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
-f1_keywords:
-- stm/CreateStaticService
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- CreateStaticService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PCREATE_STATIC_SERVICE
+ - stm/PCREATE_STATIC_SERVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - CreateStaticService
 ---
 
 # PCREATE_STATIC_SERVICE callback function
@@ -48,39 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateStaticService</b> function adds a static service to the table.
 
-
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 Specifies a unique number that identifies the interface associated with the new service.
 
-
 ### -param ServerEntry
-
-
-
-
-
-
-
 
 #### - ServiceEntry [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)">IPX_STATIC_SERVICE_INFO</a> structure that specifies parameters of the static service to be added.
-
+<a href="/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)">IPX_STATIC_SERVICE_INFO</a> structure that specifies parameters of the static service to be added.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -119,29 +105,18 @@ One of the parameters is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/stm/nc-stm-pdelete_static_service">DeleteStaticService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pdelete_static_service">DeleteStaticService</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)">IPX_STATIC_SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374456(v=vs.85)">IPX_STATIC_SERVICE_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

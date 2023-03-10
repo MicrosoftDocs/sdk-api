@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.SpFreeCredentialsHandleFn
 title: SpFreeCredentialsHandleFn (ntsecpkg.h)
 description: Frees credentials acquired by calling the SpAcquireCredentialsHandle function.
+helpviewer_keywords: ["SpFreeCredentialsHandle","SpFreeCredentialsHandle callback function [Security]","SpFreeCredentialsHandleFn","SpFreeCredentialsHandleFn callback","_ssp_spfreecredentialshandle","ntsecpkg/SpFreeCredentialsHandle","security.spfreecredentialshandle"]
 old-location: security\spfreecredentialshandle.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c8364202-d366-47a2-bc4a-c899588a78db
 ms.date: 12/05/2018
 ms.keywords: SpFreeCredentialsHandle, SpFreeCredentialsHandle callback function [Security], SpFreeCredentialsHandleFn, SpFreeCredentialsHandleFn callback, _ssp_spfreecredentialshandle, ntsecpkg/SpFreeCredentialsHandle, security.spfreecredentialshandle
-f1_keywords:
-- ntsecpkg/SpFreeCredentialsHandle
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpFreeCredentialsHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpFreeCredentialsHandleFn
+ - ntsecpkg/SpFreeCredentialsHandleFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpFreeCredentialsHandle
 ---
 
 # SpFreeCredentialsHandleFn callback function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Frees <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> acquired by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a> function.
-
+Frees <a href="/windows/desktop/SecGloss/c-gly">credentials</a> acquired by calling the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a> function.
 
 ## -parameters
-
-
-
 
 ### -param CredentialHandle [in]
 
 A handle to the credentials to free.
 
-
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS.
 
@@ -88,39 +82,23 @@ The handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SSP/APs must implement the <b>SpFreeCredentialsHandle</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpFreeCredentialsHandle</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacquirecredentialshandlefn">SpAcquireCredentialsHandle</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRMonitorConfig9.GetAvailableMonitors
 title: IVMRMonitorConfig9::GetAvailableMonitors (vmr9.h)
 description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
+helpviewer_keywords: ["GetAvailableMonitors","GetAvailableMonitors method [DirectShow]","GetAvailableMonitors method [DirectShow]","IVMRMonitorConfig9 interface","IVMRMonitorConfig9 interface [DirectShow]","GetAvailableMonitors method","IVMRMonitorConfig9.GetAvailableMonitors","IVMRMonitorConfig9::GetAvailableMonitors","IVMRMonitorConfig9GetAvailableMonitors","dshow.ivmrmonitorconfig9_getavailablemonitors","vmr9/IVMRMonitorConfig9::GetAvailableMonitors"]
 old-location: dshow\ivmrmonitorconfig9_getavailablemonitors.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cebd40c2-ea41-4ed1-87d1-37f9d427c539
 ms.date: 12/05/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig9.GetAvailableMonitors, IVMRMonitorConfig9::GetAvailableMonitors, IVMRMonitorConfig9GetAvailableMonitors, dshow.ivmrmonitorconfig9_getavailablemonitors, vmr9/IVMRMonitorConfig9::GetAvailableMonitors
-f1_keywords:
-- vmr9/IVMRMonitorConfig9.GetAvailableMonitors
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMonitorConfig9.GetAvailableMonitors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMonitorConfig9::GetAvailableMonitors
+ - vmr9/IVMRMonitorConfig9::GetAvailableMonitors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMonitorConfig9.GetAvailableMonitors
 ---
 
 # IVMRMonitorConfig9::GetAvailableMonitors
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetAvailableMonitors</code> method retrieves information about the monitors currently available on the system.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pInfo [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9monitorinfo">VMR9MonitorInfo</a> structures that contain information about each monitor on the system.
-
+Pointer to an array of <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9monitorinfo">VMR9MonitorInfo</a> structures that contain information about each monitor on the system.
 
 ### -param dwMaxInfoArraySize [in]
 
 Specifies the maximum number of members in the array.
 
-
 ### -param pdwNumDevices [out]
 
 If <i>pInfo</i> is <b>NULL</b>, this parameter receives the required array size. Otherwise, it receives the actual number of devices retrieved.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -121,33 +110,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method to get a list of Direct Draw device identifiers and their associated monitor information that the mixer can use when connecting to an upstream decoder filter.
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

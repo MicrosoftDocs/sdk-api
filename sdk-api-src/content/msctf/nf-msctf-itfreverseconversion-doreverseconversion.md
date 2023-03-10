@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfReverseConversion.DoReverseConversion
 title: ITfReverseConversion::DoReverseConversion (msctf.h)
 description: Performs a reverse conversion of the specified string.
+helpviewer_keywords: ["DoReverseConversion","DoReverseConversion method [Text Services Framework]","DoReverseConversion method [Text Services Framework]","ITfReverseConversion interface","ITfReverseConversion interface [Text Services Framework]","DoReverseConversion method","ITfReverseConversion.DoReverseConversion","ITfReverseConversion::DoReverseConversion","msctf/ITfReverseConversion::DoReverseConversion","tsf.itfreverseconversion__doreverseconversion"]
 old-location: tsf\itfreverseconversion__doreverseconversion.htm
 tech.root: TSF
 ms.assetid: a2312cd4-316a-42a6-85a5-e5ef819faa79
 ms.date: 12/05/2018
 ms.keywords: DoReverseConversion, DoReverseConversion method [Text Services Framework], DoReverseConversion method [Text Services Framework],ITfReverseConversion interface, ITfReverseConversion interface [Text Services Framework],DoReverseConversion method, ITfReverseConversion.DoReverseConversion, ITfReverseConversion::DoReverseConversion, msctf/ITfReverseConversion::DoReverseConversion, tsf.itfreverseconversion__doreverseconversion
-f1_keywords:
-- msctf/ITfReverseConversion.DoReverseConversion
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfReverseConversion.DoReverseConversion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfReverseConversion::DoReverseConversion
+ - msctf/ITfReverseConversion::DoReverseConversion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfReverseConversion.DoReverseConversion
 ---
 
 # ITfReverseConversion::DoReverseConversion
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>DoReverseConversion</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.]
 
-Performs a reverse conversion of the specified string. 
-
+Performs a reverse conversion of the specified string.
 
 ## -parameters
 
-
-
-
 ### -param lpstr [in]
 
-The string to convert. 
-
+The string to convert.
 
 ### -param ppList [out]
 
- The result of the conversion: a list of the key strokes required to create the string specied by <i>lpstr</i>.  
-
+ The result of the conversion: a list of the key strokes required to create the string specified by <i>lpstr</i>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -114,27 +107,11 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A reverse conversion provides the keystroke sequences required to create the specified string.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a>

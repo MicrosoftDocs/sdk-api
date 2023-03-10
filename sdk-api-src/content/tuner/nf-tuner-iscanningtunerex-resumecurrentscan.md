@@ -2,15 +2,12 @@
 UID: NF:tuner.IScanningTunerEx.ResumeCurrentScan
 title: IScanningTunerEx::ResumeCurrentScan (tuner.h)
 description: This topic applies to Windows Vista and later.
+helpviewer_keywords: ["IScanningTunerEx interface [Microsoft TV Technologies]","ResumeCurrentScan method","IScanningTunerEx.ResumeCurrentScan","IScanningTunerEx::ResumeCurrentScan","IScanningTunerExResumeCurrentScan","ResumeCurrentScan","ResumeCurrentScan method [Microsoft TV Technologies]","ResumeCurrentScan method [Microsoft TV Technologies]","IScanningTunerEx interface","mstv.iscanningtunerex_resumecurrentscan","tuner/IScanningTunerEx::ResumeCurrentScan"]
 old-location: mstv\iscanningtunerex_resumecurrentscan.htm
 tech.root: mstv
 ms.assetid: 9d855ae4-a49c-43d6-9ba0-9f6158f4034f
 ms.date: 12/05/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],ResumeCurrentScan method, IScanningTunerEx.ResumeCurrentScan, IScanningTunerEx::ResumeCurrentScan, IScanningTunerExResumeCurrentScan, ResumeCurrentScan, ResumeCurrentScan method [Microsoft TV Technologies], ResumeCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_resumecurrentscan, tuner/IScanningTunerEx::ResumeCurrentScan
-f1_keywords:
-- tuner/IScanningTunerEx.ResumeCurrentScan
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tuner.h
-api_name:
-- IScanningTunerEx.ResumeCurrentScan
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IScanningTunerEx::ResumeCurrentScan
+ - tuner/IScanningTunerEx::ResumeCurrentScan
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tuner.h
+api_name:
+ - IScanningTunerEx.ResumeCurrentScan
 ---
 
 # IScanningTunerEx::ResumeCurrentScan
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 This topic applies to Windows Vista and later.
         
 
 
 
-The <b>ResumeCurrentScan</b> method resumes scanning the range of frequencies specified in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>.
-
+The <b>ResumeCurrentScan</b> method resumes scanning the range of frequencies specified in <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>.
 
 ## -parameters
-
-
-
 
 ### -param hEvent [in]
 
 Handle to an event created by the application. When the tuner locks onto a signal, it signals this event.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -117,25 +110,10 @@ Success.
 
 When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 When the application calls <b>PerformExhaustiveScan</b>, the tuner scans until it locks onto a signal. Then it sets the application's event handle. To resume scanning for the next valid signal in original range of frequencies, the application can call <b>ResumeCurrentScan</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>

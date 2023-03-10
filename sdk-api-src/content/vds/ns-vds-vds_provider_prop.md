@@ -1,16 +1,13 @@
 ---
 UID: NS:vds._VDS_PROVIDER_PROP
 title: VDS_PROVIDER_PROP (vds.h)
-description: Defines the properties of a provider object.
+description: The VDS_PROVIDER_PROP structure (vds.h) defines the properties of a provider object.
+helpviewer_keywords: ["VDS_PROVIDER_PROP","VDS_PROVIDER_PROP structure [VDS]","base.vds_provider_prop","vds/_VDS_PROVIDER_PROP","vdshwprv/_VDS_PROVIDER_PROP"]
 old-location: base\vds_provider_prop.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
-f1_keywords:
-- vds/VDS_PROVIDER_PROP
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-- VdsHwPrv.h
-api_name:
-- VDS_PROVIDER_PROP
 targetos: Windows
 req.typenames: VDS_PROVIDER_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_PROVIDER_PROP
+ - vds/_VDS_PROVIDER_PROP
+ - VDS_PROVIDER_PROP
+ - vds/VDS_PROVIDER_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+ - VdsHwPrv.h
+api_name:
+ - VDS_PROVIDER_PROP
 ---
 
 # VDS_PROVIDER_PROP structure
@@ -49,49 +53,38 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
-   properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/provider-object">provider object</a>.
-
+   properties of a <a href="/windows/desktop/VDS/provider-object">provider object</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field id
 
 The GUID of the provider object.
 
-
 ### -field pwszName
 
 A string representing the name of the provider.
-
 
 ### -field guidVersionId
 
 The version-specific GUID of the provider.
 
-
 ### -field pwszVersion
 
 A string representing the version of the provider.
 
-
 ### -field type
 
 The provider types enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>.
-
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>.
 
 ### -field ulFlags
 
 The provider flags enumerated by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>.
-
+      <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>.
 
 ### -field ulStripeSizeFlags
 
@@ -105,7 +98,6 @@ The basic provider sets this value to zero. The dynamic stripe size can be any p
 
 <b>Windows Server 2003:  </b>The dynamic provider sets this value to 64k.
 
-
 ### -field sRebuildPriority
 
 The rebuild priority used by software providers to specify the regeneration order when a mirrored or 
@@ -115,36 +107,23 @@ The rebuild priority used by software providers to specify the regeneration orde
 
 This member does not apply to the basic provider and is zero for the dynamic provider.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a> method 
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a> method 
     returns this structure to report the property details of a provider object.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsprovider-getproperties">IVdsProvider::GetProperties</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_flag">VDS_PROVIDER_FLAG</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_type">VDS_PROVIDER_TYPE</a>

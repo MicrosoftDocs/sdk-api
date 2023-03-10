@@ -1,16 +1,13 @@
 ---
 UID: NF:ntdsapi.DsUnBindA
 title: DsUnBindA function (ntdsapi.h)
-description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS).
+description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS). (ANSI)
+helpviewer_keywords: ["DsUnBindA", "ntdsapi/DsUnBindA"]
 old-location: ad\dsunbind.htm
 tech.root: ad
 ms.assetid: 7106d67f-d421-4a7c-b775-440e5944f25e
 ms.date: 12/05/2018
 ms.keywords: DsUnBind, DsUnBind function [Active Directory], DsUnBindA, DsUnBindW, _glines_dsunbind, ad.dsunbind, ntdsapi/DsUnBind, ntdsapi/DsUnBindA, ntdsapi/DsUnBindW
-f1_keywords:
-- ntdsapi/DsUnBind
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-- KernelBase.dll
-- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
-- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
-api_name:
-- DsUnBind
-- DsUnBindA
-- DsUnBindW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsUnBindA
+ - ntdsapi/DsUnBindA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+ - KernelBase.dll
+ - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+ - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+api_name:
+ - DsUnBind
+ - DsUnBindA
+ - DsUnBindW
 ---
 
 # DsUnBindA function
@@ -53,48 +55,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsUnBind</b> function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS).
-
 
 ## -parameters
 
-
-
-
 ### -param phDS [in]
 
-Pointer to a bind handle to the directory service. This handle is provided by a call to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
-
+Pointer to a bind handle to the directory service. This handle is provided by a call to <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a>, <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>, or <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>.
 
 ## -returns
 
-
-
 <b>NO_ERROR</b>
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DsBind</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithspna">DsBindWithSpn</a>
- 
-
- 
-
+> [!NOTE]
+> The ntdsapi.h header defines DsUnBind as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

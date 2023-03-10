@@ -2,15 +2,12 @@
 UID: NF:xenroll.ICEnroll.enumProviders
 title: ICEnroll::enumProviders (xenroll.h)
 description: Retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property. This method was first defined in the ICEnroll interface.
+helpviewer_keywords: ["CEnroll object [Security]","enumProviders method","ICEnroll interface [Security]","enumProviders method","ICEnroll.enumProviders","ICEnroll2 interface [Security]","enumProviders method","ICEnroll2::enumProviders","ICEnroll3 interface [Security]","enumProviders method","ICEnroll3::enumProviders","ICEnroll4 interface [Security]","enumProviders method","ICEnroll4::enumProviders","ICEnroll::enumProviders","enumProviders","enumProviders method [Security]","enumProviders method [Security]","CEnroll object","enumProviders method [Security]","ICEnroll interface","enumProviders method [Security]","ICEnroll2 interface","enumProviders method [Security]","ICEnroll3 interface","enumProviders method [Security]","ICEnroll4 interface","security.icenroll4_enumproviders","xenroll/ICEnroll2::enumProviders","xenroll/ICEnroll3::enumProviders","xenroll/ICEnroll4::enumProviders","xenroll/ICEnroll::enumProviders"]
 old-location: security\icenroll4_enumproviders.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 05188aee-2b03-46bc-89f4-506a019496a4
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],enumProviders method, ICEnroll interface [Security],enumProviders method, ICEnroll.enumProviders, ICEnroll2 interface [Security],enumProviders method, ICEnroll2::enumProviders, ICEnroll3 interface [Security],enumProviders method, ICEnroll3::enumProviders, ICEnroll4 interface [Security],enumProviders method, ICEnroll4::enumProviders, ICEnroll::enumProviders, enumProviders, enumProviders method [Security], enumProviders method [Security],CEnroll object, enumProviders method [Security],ICEnroll interface, enumProviders method [Security],ICEnroll2 interface, enumProviders method [Security],ICEnroll3 interface, enumProviders method [Security],ICEnroll4 interface, security.icenroll4_enumproviders, xenroll/ICEnroll2::enumProviders, xenroll/ICEnroll3::enumProviders, xenroll/ICEnroll4::enumProviders, xenroll/ICEnroll::enumProviders
-f1_keywords:
-- xenroll/ICEnroll4.enumProviders
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- ICEnroll4.enumProviders
-- ICEnroll3.enumProviders
-- ICEnroll2.enumProviders
-- ICEnroll.enumProviders
-- CEnroll.enumProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICEnroll::enumProviders
+ - xenroll/ICEnroll::enumProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - ICEnroll4.enumProviders
+ - ICEnroll3.enumProviders
+ - ICEnroll2.enumProviders
+ - ICEnroll.enumProviders
+ - CEnroll.enumProviders
 ---
 
 # ICEnroll::enumProviders
@@ -52,56 +54,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>enumProviders</b> method retrieves the names of the available <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
-
+The <b>enumProviders</b> method retrieves the names of the available <a href="/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 ## -parameters
-
-
-
 
 ### -param dwIndex [in]
 
 Specifies the ordinal position of the CSP whose name will be retrieved. Specify zero for the first CSP.
 
-
 ### -param dwFlags [in]
 
-Specifies flags that are passed through to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function. This parameter is not currently used; specify zero.
-
+Specifies flags that are passed through to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function. This parameter is not currently used; specify zero.
 
 ### -param pbstrProvName [out]
 
-A pointer to a <b>BSTR</b> variable that receives the name of a CSP with the specified property type. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
-
+A pointer to a <b>BSTR</b> variable that receives the name of a CSP with the specified property type. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
-
-
 <h3>C++</h3>
  The return value is an <b>HRESULT</b>. A value of S_OK indicates success. The value ERROR_NO_MORE_ITEMS is returned when there are no more CSPs with the property type indicated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property.
 
 <h3>VB</h3>
  The return value is a <b>String</b> variable that contains the name of a CSP. An exception is raised if an error is encountered or when there are no more items.
 
-
-
-
 ## -remarks
 
-
-
 If the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property value has not been set, the default value (usually PROV_RSA_FULL) of <b>ProviderType</b> as set in the registry, is used.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a> property value has not been set, the default value (usually PROV_RSA_FULL) of <b>ProviderType</b> as set in the registry, is used.
 
 The <b>enumProviders</b> method  calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumprovidersa">CryptEnumProviders</a> function.
 
 
 #### Examples
@@ -158,37 +145,26 @@ if ( bstrProvName )
     SysFreeString( bstrProvName );
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a>

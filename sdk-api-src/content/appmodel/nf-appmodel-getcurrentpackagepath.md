@@ -1,16 +1,13 @@
 ---
 UID: NF:appmodel.GetCurrentPackagePath
 title: GetCurrentPackagePath function (appmodel.h)
-description: Gets the package path for the calling process.
+description: Gets the package path for the calling process. (GetCurrentPackagePath)
+helpviewer_keywords: ["GetCurrentPackagePath","GetCurrentPackagePath function [App packaging and management]","appmodel/GetCurrentPackagePath","appxpkg.getcurrentpackagepath"]
 old-location: appxpkg\getcurrentpackagepath.htm
 tech.root: appxpkg
 ms.assetid: 46CE81DF-A9D5-492E-AB5E-4F043DC326E2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackagePath, GetCurrentPackagePath function [App packaging and management], appmodel/GetCurrentPackagePath, appxpkg.getcurrentpackagepath
-f1_keywords:
-- appmodel/GetCurrentPackagePath
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-Runtime-l1-1-0.dll
-- kernel32legacy.dll
-- Kernel.AppCore.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- GetCurrentPackagePath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetCurrentPackagePath
+ - appmodel/GetCurrentPackagePath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-Runtime-l1-1-0.dll
+ - kernel32legacy.dll
+ - Kernel.AppCore.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - GetCurrentPackagePath
 ---
 
 # GetCurrentPackagePath function
@@ -53,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the package path for the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param pathLength [in, out]
 
@@ -68,17 +65,13 @@ Type: <b>UINT32*</b>
 
 On input, the size of the <i>path</i> buffer, in characters. On output, the size of the package path returned, in characters, including the null terminator.
 
-
 ### -param path [out, optional]
 
 Type: <b>PWSTR</b>
 
 The package path.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -112,36 +105,27 @@ The buffer is not large enough to hold the data. The required size is specified 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
 
 [GetCurrentPackagePath2](nf-appmodel-getcurrentpackagepath2.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>

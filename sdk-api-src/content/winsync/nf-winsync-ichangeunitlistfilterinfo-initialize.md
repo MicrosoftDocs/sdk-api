@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeUnitListFilterInfo.Initialize
 title: IChangeUnitListFilterInfo::Initialize (winsync.h)
 description: Initializes a new instance of the IChangeUnitListFilterInfo class that contains the specified array of change unit IDs.
+helpviewer_keywords: ["IChangeUnitListFilterInfo interface [Windows Sync]","Initialize method","IChangeUnitListFilterInfo.Initialize","IChangeUnitListFilterInfo::Initialize","Initialize","Initialize method [Windows Sync]","Initialize method [Windows Sync]","IChangeUnitListFilterInfo interface","winsync.ichangeunitlistfilterinfo_initialize","winsync/IChangeUnitListFilterInfo::Initialize"]
 old-location: winsync\ichangeunitlistfilterinfo_initialize.htm
 tech.root: winsync
 ms.assetid: ee3f86dc-8f5a-4b9b-ac06-b836898392ba
 ms.date: 12/05/2018
 ms.keywords: IChangeUnitListFilterInfo interface [Windows Sync],Initialize method, IChangeUnitListFilterInfo.Initialize, IChangeUnitListFilterInfo::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IChangeUnitListFilterInfo interface, winsync.ichangeunitlistfilterinfo_initialize, winsync/IChangeUnitListFilterInfo::Initialize
-f1_keywords:
-- winsync/IChangeUnitListFilterInfo.Initialize
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitListFilterInfo.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitListFilterInfo::Initialize
+ - winsync/IChangeUnitListFilterInfo::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitListFilterInfo.Initialize
 ---
 
 # IChangeUnitListFilterInfo::Initialize
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a new instance of the <b>IChangeUnitListFilterInfo</b> class that contains the specified array of change unit IDs.
 
-
 ## -parameters
-
-
-
 
 ### -param ppbChangeUnitIds [in]
 
 The array of change unit IDs that indicate which change units are included by this filter.
 
-
 ### -param dwChangeUnitCount [in]
 
 The number of change unit IDs that are contained in <i>ppbChangeUnitIds</i>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -122,27 +115,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 An <b>IChangeUnitListFilterInfo</b> object can be reused. Calling <b>Initialize</b> more than one time frees any previously contained array of change unit IDs and replaces it with the array that is specified by <i>ppbChangeUnitIds</i>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>

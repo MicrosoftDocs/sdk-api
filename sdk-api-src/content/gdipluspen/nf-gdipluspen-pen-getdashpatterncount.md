@@ -2,15 +2,12 @@
 UID: NF:gdipluspen.Pen.GetDashPatternCount
 title: Pen::GetDashPatternCount (gdipluspen.h)
 description: The Pen::GetDashPatternCount method gets the number of elements in a dash pattern array.
+helpviewer_keywords: ["GetDashPatternCount","GetDashPatternCount method [GDI+]","GetDashPatternCount method [GDI+]","Pen class","Pen class [GDI+]","GetDashPatternCount method","Pen.GetDashPatternCount","Pen::GetDashPatternCount","_gdiplus_CLASS_Pen_GetDashPatternCount_","gdiplus._gdiplus_CLASS_Pen_GetDashPatternCount_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPatternCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpatterncount.htm
 ms.date: 12/05/2018
 ms.keywords: GetDashPatternCount, GetDashPatternCount method [GDI+], GetDashPatternCount method [GDI+],Pen class, Pen class [GDI+],GetDashPatternCount method, Pen.GetDashPatternCount, Pen::GetDashPatternCount, _gdiplus_CLASS_Pen_GetDashPatternCount_, gdiplus._gdiplus_CLASS_Pen_GetDashPatternCount_
-f1_keywords:
-- gdipluspen/Pen.GetDashPatternCount
-dev_langs:
-- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Pen.GetDashPatternCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Pen::GetDashPatternCount
+ - gdipluspen/Pen::GetDashPatternCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Pen.GetDashPatternCount
 ---
 
 # Pen::GetDashPatternCount
@@ -49,52 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Pen::GetDashPatternCount</b> method gets the number of elements in a dash pattern array.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns an integer that indicates the number of elements in the dash pattern array.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-drawing-a-custom-dashed-line-use">Drawing a Custom Dashed Line</a>
+<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getdashpattern">Pen::GetDashPattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getdashpattern">Pen::GetDashPattern</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashpattern">Pen::SetDashPattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setdashpattern">Pen::SetDashPattern</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>

@@ -1,14 +1,11 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_FILTER_RANGE
 title: D3D12_VIDEO_PROCESS_FILTER_RANGE
-description: Defines the range of supported values for an image filter.
+description: Defines the range of supported values for an image filter. (D3D12_VIDEO_PROCESS_FILTER_RANGE)
+helpviewer_keywords: ["D3D12_VIDEO_PROCESS_FILTER_RANGE","D3D12_VIDEO_PROCESS_FILTER_RANGE",""]
 tech.root: mf
 ms.assetid: d9effd83-7420-45be-b360-eea63db64d1c
 ms.date: 05/28/2019
-f1_keywords:
-- D3D12_VIDEO_PROCESS_FILTER_RANGE
-dev_langs:
-- c++
 ms.keywords: D3D12_VIDEO_PROCESS_FILTER_RANGE, D3D12_VIDEO_PROCESS_FILTER_RANGE,
 req.header: d3d12video.h
 req.include-header: 
@@ -24,18 +21,24 @@ req.ddi-compliance:
 req.unicode-ansi: 
 req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_FILTER_RANGE
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3d12video.h
-api_name:
-- D3D12_VIDEO_PROCESS_FILTER_RANGE
 targetos: Windows
+f1_keywords:
+ - D3D12_VIDEO_PROCESS_FILTER_RANGE
+ - d3d12video/D3D12_VIDEO_PROCESS_FILTER_RANGE
+dev_langs:
+ - c++
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12video.h
+api_name:
+ - D3D12_VIDEO_PROCESS_FILTER_RANGE
 ---
 
 # D3D12_VIDEO_PROCESS_FILTER_RANGE structure
+
 
 ## -description
 
@@ -45,17 +48,18 @@ Defines the range of supported values for an image filter.
 
 ### -field Minimum
 
-The minimum value of the filter. 
- 
+The minimum value of the filter.
+
 ### -field Maximum
 
-The maximum value of the filter. 
- 
+The maximum value of the filter.
+
 ### -field Default
 
-The default value of the filter. 
- 
+The default value of the filter.
+
 ### -field Multiplier
+
  
 A multiplier. Use the following formula to translate the filter setting into the actual filter value: 
 
@@ -73,5 +77,5 @@ In this case, a filter value of 2 would be interpreted by the device as 0.50 (or
 
 The device should use a multiplier that can be represented exactly as a base-2 fraction.
 
-
 ## -see-also
+

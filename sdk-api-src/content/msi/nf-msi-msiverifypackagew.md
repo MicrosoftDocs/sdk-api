@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiVerifyPackageW
 title: MsiVerifyPackageW function (msi.h)
-description: The MsiVerifyPackage function verifies that the given file is an installation package.
+description: The MsiVerifyPackage function verifies that the given file is an installation package. (Unicode)
+helpviewer_keywords: ["MsiVerifyPackage", "MsiVerifyPackage function", "MsiVerifyPackageW", "_msi_msiverifypackage", "msi/MsiVerifyPackage", "msi/MsiVerifyPackageW", "setup.msiverifypackage"]
 old-location: setup\msiverifypackage.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f5b48e5e-cafb-4ab8-8c14-0af5784f2ca6
 ms.date: 12/05/2018
 ms.keywords: MsiVerifyPackage, MsiVerifyPackage function, MsiVerifyPackageA, MsiVerifyPackageW, _msi_msiverifypackage, msi/MsiVerifyPackage, msi/MsiVerifyPackageA, msi/MsiVerifyPackageW, setup.msiverifypackage
-f1_keywords:
-- msi/MsiVerifyPackage
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSI-Misc-l1-1-0.dll
-api_name:
-- MsiVerifyPackage
-- MsiVerifyPackageA
-- MsiVerifyPackageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiVerifyPackageW
+ - msi/MsiVerifyPackageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+api_name:
+ - MsiVerifyPackage
+ - MsiVerifyPackageA
+ - MsiVerifyPackageW
 ---
 
 # MsiVerifyPackageW function
@@ -51,24 +53,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiVerifyPackage</b> function verifies that the given file is an installation package.
 
-
 ## -parameters
-
-
-
 
 ### -param szPackagePath [in]
 
 Specifies the path and file name of the package.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -125,6 +119,8 @@ The file is a package.
 
 <div> </div>
 
+## -remarks
 
-
+> [!NOTE]
+> The msi.h header defines MsiVerifyPackage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

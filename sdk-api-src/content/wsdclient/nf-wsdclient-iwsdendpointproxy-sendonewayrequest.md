@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDEndpointProxy.SendOneWayRequest
 title: IWSDEndpointProxy::SendOneWayRequest (wsdclient.h)
 description: Sends a one-way request message.
+helpviewer_keywords: ["IWSDEndpointProxy interface","SendOneWayRequest method","IWSDEndpointProxy.SendOneWayRequest","IWSDEndpointProxy::SendOneWayRequest","SendOneWayRequest","SendOneWayRequest method","SendOneWayRequest method","IWSDEndpointProxy interface","ncd.iwsdendpointproxy_sendonewayrequest","wsdclient/IWSDEndpointProxy::SendOneWayRequest"]
 old-location: ncd\iwsdendpointproxy_sendonewayrequest.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: e610c68f-1fce-42fa-8527-8ca2d9267c90
 ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy interface,SendOneWayRequest method, IWSDEndpointProxy.SendOneWayRequest, IWSDEndpointProxy::SendOneWayRequest, SendOneWayRequest, SendOneWayRequest method, SendOneWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendonewayrequest, wsdclient/IWSDEndpointProxy::SendOneWayRequest
-f1_keywords:
-- wsdclient/IWSDEndpointProxy.SendOneWayRequest
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDEndpointProxy.SendOneWayRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDEndpointProxy::SendOneWayRequest
+ - wsdclient/IWSDEndpointProxy::SendOneWayRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDEndpointProxy.SendOneWayRequest
 ---
 
 # IWSDEndpointProxy::SendOneWayRequest
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a one-way request message.
 
-
 ## -parameters
-
-
-
 
 ### -param pBody [in]
 
  The body of the message.
 
-
 ### -param pOperation [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform.
-
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -101,27 +94,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is normally only called by generated proxy code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>

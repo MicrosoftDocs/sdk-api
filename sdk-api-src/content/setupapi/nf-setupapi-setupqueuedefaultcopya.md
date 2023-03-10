@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupQueueDefaultCopyA
 title: SetupQueueDefaultCopyA function (setupapi.h)
-description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file.
+description: The SetupQueueDefaultCopy function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file. (ANSI)
+helpviewer_keywords: ["SetupQueueDefaultCopyA", "setupapi/SetupQueueDefaultCopyA"]
 old-location: setup\setupqueuedefaultcopy.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 57e8dc72-5b0e-486c-9819-fa44085580eb
 ms.date: 12/05/2018
 ms.keywords: SetupQueueDefaultCopy, SetupQueueDefaultCopy function [Setup API], SetupQueueDefaultCopyA, SetupQueueDefaultCopyW, _setupapi_setupqueuedefaultcopy, setup.setupqueuedefaultcopy, setupapi/SetupQueueDefaultCopy, setupapi/SetupQueueDefaultCopyA, setupapi/SetupQueueDefaultCopyW
-f1_keywords:
-- setupapi/SetupQueueDefaultCopy
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupQueueDefaultCopy
-- SetupQueueDefaultCopyA
-- SetupQueueDefaultCopyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupQueueDefaultCopyA
+ - setupapi/SetupQueueDefaultCopyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupQueueDefaultCopy
+ - SetupQueueDefaultCopyA
+ - SetupQueueDefaultCopyW
 ---
 
 # SetupQueueDefaultCopyA function
@@ -50,43 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupQueueDefaultCopy</b> function adds a single file to a setup file queue for copying, using the default source media and destination as specified in an INF file.
 
-
 ## -parameters
-
-
-
 
 ### -param QueueHandle [in]
 
 Handle to a setup file queue, as returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenfilequeue">SetupOpenFileQueue</a>.
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupopenfilequeue">SetupOpenFileQueue</a>.
 
 ### -param InfHandle [in]
 
-Handle to an open INF file that contains the <b>SourceDisksFiles</b> and <b>SourceDisksNames</b> sections. If platform-specific sections exist for the user's system (for example, <b>SourceDisksNames.x86</b> and <b>SourceDisksFiles.x86</b>), the platform-specific section will be used. 
-
+Handle to an open INF file that contains the <b>SourceDisksFiles</b> and <b>SourceDisksNames</b> sections. If platform-specific sections exist for the user's system (for example, <b>SourceDisksNames.x86</b> and <b>SourceDisksFiles.x86</b>), the platform-specific section will be used.
 
 ### -param SourceRootPath [in]
 
 Pointer to a null-terminated string that specifies the root directory of the source for this copy such as A:\.
 
-
 ### -param SourceFilename [in]
 
 Pointer to a null-terminated string that specifies the file name of the file to be copied.
 
-
 ### -param TargetFilename [in]
 
 Pointer to a null-terminated string that specifies the file name of the target file.
-
 
 ### -param CopyStyle [in]
 
@@ -118,7 +110,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not equal in version or newer, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
@@ -194,22 +186,14 @@ Examine each file being copied to see if its version resources (or time stamps f
 
 If the user tries to skip a file, warn them that skipping a file may affect the installation. (Used for system-critical files.)
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If a UNC directory is specified as the target directory of a file copy operation, you must ensure it exists before the queue is committed. The setup functions do not check for the existence of and do not create UNC directories. If the target UNC directory does not exist, the file copy will fail.
 
@@ -220,25 +204,22 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 
+
+> [!NOTE]
+> The setupapi.h header defines SetupQueueDefaultCopy as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopysectiona">SetupQueueCopySection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopysectiona">SetupQueueCopySection</a>

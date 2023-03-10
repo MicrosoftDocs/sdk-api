@@ -1,16 +1,13 @@
 ---
 UID: NC:ntsecpkg.SpCompleteAuthTokenFn
 title: SpCompleteAuthTokenFn (ntsecpkg.h)
-description: Completes an authentication token.
+description: Completes an authentication token.S
+helpviewer_keywords: ["SpCompleteAuthToken","SpCompleteAuthToken callback function [Security]","SpCompleteAuthTokenFn","SpCompleteAuthTokenFn callback","_ssp_spcompleteauthtoken","ntsecpkg/SpCompleteAuthToken","security.spcompleteauthtoken"]
 old-location: security\spcompleteauthtoken.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 2e20620a-457d-424c-a6b9-64b571174c98
 ms.date: 12/05/2018
 ms.keywords: SpCompleteAuthToken, SpCompleteAuthToken callback function [Security], SpCompleteAuthTokenFn, SpCompleteAuthTokenFn callback, _ssp_spcompleteauthtoken, ntsecpkg/SpCompleteAuthToken, security.spcompleteauthtoken
-f1_keywords:
-- ntsecpkg/SpCompleteAuthToken
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- SpCompleteAuthToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SpCompleteAuthTokenFn
+ - ntsecpkg/SpCompleteAuthTokenFn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - SpCompleteAuthToken
 ---
 
 # SpCompleteAuthTokenFn callback function
@@ -48,33 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SpCompleteAuthToken</b> function completes an authentication token.
 
 The <b>SpCompleteAuthToken</b> function is the dispatch function for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
-
+<a href="/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function of the 
+<a href="/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 ## -parameters
-
-
-
 
 ### -param ContextHandle [in]
 
 Handle of the context to complete.
 
-
 ### -param InputBuffer [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains package-specific information for the context.
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains package-specific information for the context.
 
 ## -returns
-
-
 
 If the function succeeds, return STATUS_SUCCESS.
 
@@ -97,39 +90,23 @@ The handle is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SSP/APs must implement the <b>SpCompleteAuthToken</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpCompleteAuthToken</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
-
-
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>

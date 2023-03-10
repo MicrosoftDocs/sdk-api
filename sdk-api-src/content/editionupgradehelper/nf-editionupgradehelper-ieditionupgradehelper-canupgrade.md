@@ -2,15 +2,12 @@
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.CanUpgrade
 title: IEditionUpgradeHelper::CanUpgrade (editionupgradehelper.h)
 description: Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
+helpviewer_keywords: ["CanUpgrade","CanUpgrade method [Windows API]","CanUpgrade method [Windows API]","IEditionUpgradeHelper interface","IEditionUpgradeHelper interface [Windows API]","CanUpgrade method","IEditionUpgradeHelper.CanUpgrade","IEditionUpgradeHelper::CanUpgrade","editionupgradehelper/IEditionUpgradeHelper::CanUpgrade","winprog.ieditionupgradehelper_canupgrade"]
 old-location: winprog\ieditionupgradehelper_canupgrade.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 8B2776DC-09DE-4E40-96CC-656C4B09A109
 ms.date: 12/05/2018
 ms.keywords: CanUpgrade, CanUpgrade method [Windows API], CanUpgrade method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],CanUpgrade method, IEditionUpgradeHelper.CanUpgrade, IEditionUpgradeHelper::CanUpgrade, editionupgradehelper/IEditionUpgradeHelper::CanUpgrade, winprog.ieditionupgradehelper_canupgrade
-f1_keywords:
-- editionupgradehelper/IEditionUpgradeHelper.CanUpgrade
-dev_langs:
-- c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- editionupgradehelper.h
-api_name:
-- IEditionUpgradeHelper.CanUpgrade
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEditionUpgradeHelper::CanUpgrade
+ - editionupgradehelper/IEditionUpgradeHelper::CanUpgrade
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - editionupgradehelper.h
+api_name:
+ - IEditionUpgradeHelper.CanUpgrade
 ---
 
 # IEditionUpgradeHelper::CanUpgrade
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
 
-
 ## -parameters
-
-
-
 
 ### -param isAllowed [out]
 
 TRUE if the user has sufficient permissions to upgrade the operating system; otherwise FALSE.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper">IEditionUpgradeHelper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper">IEditionUpgradeHelper</a>

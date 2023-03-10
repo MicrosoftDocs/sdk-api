@@ -2,15 +2,12 @@
 UID: NF:strmif.IMediaSeeking.SetPositions
 title: IMediaSeeking::SetPositions (strmif.h)
 description: The SetPositions method sets the current position and the stop position.
+helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","SetPositions method","IMediaSeeking.SetPositions","IMediaSeeking::SetPositions","IMediaSeekingSetPositions","SetPositions","SetPositions method [DirectShow]","SetPositions method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_setpositions","strmif/IMediaSeeking::SetPositions"]
 old-location: dshow\imediaseeking_setpositions.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: aa1369fd-a57a-4246-bb23-969f6ce3cad8
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetPositions method, IMediaSeeking.SetPositions, IMediaSeeking::SetPositions, IMediaSeekingSetPositions, SetPositions, SetPositions method [DirectShow], SetPositions method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setpositions, strmif/IMediaSeeking::SetPositions
-f1_keywords:
-- strmif/IMediaSeeking.SetPositions
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMediaSeeking.SetPositions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaSeeking::SetPositions
+ - strmif/IMediaSeeking::SetPositions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMediaSeeking.SetPositions
 ---
 
 # IMediaSeeking::SetPositions
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetPositions</code> method sets the current position and the stop position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCurrent [in, out]
 
 [in,out] Pointer to a variable that specifies the current position, in units of the current time format.
 
-
 ### -param dwCurrentFlags [in]
 
 Bitwise combination of flags. See Remarks.
-
 
 ### -param pStop [in, out]
 
 [in,out] Pointer to a variable that specifies the stop time, in units of the current time format.
 
-
 ### -param dwStopFlags [in]
 
 Bitwise combination of flags. See Remarks.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -148,14 +136,8 @@ Method is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>dwCurrentFlags</i> and <i>dwStopFlags</i> parameters define the type of seek. The following flags are defined.
 
@@ -218,17 +200,17 @@ If the AM_SEEKING_ReturnTime flag is specified, the method converts the position
 The AM_SEEKING_Segment and AM_SEEKING_NoFlush flags support seamless looping:
 
 <ul>
-<li>If the AM_SEEKING_Segment flag is present, the source filter sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-end-of-segment">EC_END_OF_SEGMENT</a> event when it reaches the stop position, instead of calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a>. The application can wait for this event and then issue another seek command.</li>
+<li>If the AM_SEEKING_Segment flag is present, the source filter sends an <a href="/windows/desktop/DirectShow/ec-end-of-segment">EC_END_OF_SEGMENT</a> event when it reaches the stop position, instead of calling <a href="/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a>. The application can wait for this event and then issue another seek command.</li>
 <li>If the AM_SEEKING_NoFlush flag is present, the graph does not flush data during the seek. Use this flag with AM_SEEKING_Segment.</li>
 </ul>
-To perform looping, the graph must report AM_SEEKING_CanDoSegments in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a> method. Currently, only the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser Filter</a> supports this feature.
+To perform looping, the graph must report AM_SEEKING_CanDoSegments in the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a> method. Currently, only the <a href="/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser Filter</a> supports this feature.
 
-The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the current time format. The default time format is <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> units (100 nanoseconds). To change time formats, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a> method. If the AM_SEEKING_ReturnTime flag is present, the method converts the outgoing value to <b>REFERENCE_TIME</b> units.
+The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the current time format. The default time format is <a href="/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> units (100 nanoseconds). To change time formats, use the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a> method. If the AM_SEEKING_ReturnTime flag is present, the method converts the outgoing value to <b>REFERENCE_TIME</b> units.
 
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
 If you implement this method, you can check whether the caller is requesting a change in the current or stop position, by using the value AM_SEEKING_PositioningBitsMask to mask out the modifier flags. For example:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>
@@ -249,22 +231,12 @@ else if (dwCurrentPos == AM_SEEKING_RelativePositioning)
 </td>
 </tr>
 </table></span></div>
-For more information, see the source code for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/csourceseeking-setpositions">CSourceSeeking::SetPositions</a> method in the base class library.
-
-
-
+For more information, see the source code for the <a href="/windows/desktop/DirectShow/csourceseeking-setpositions">CSourceSeeking::SetPositions</a> method in the base class library.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>

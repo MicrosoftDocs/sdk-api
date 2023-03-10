@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetFirstRegisteredDevice
 title: IWMDeviceRegistration::GetFirstRegisteredDevice (wmsdkidl.h)
 description: The GetFirstRegisteredDevice method retrieves information about the first device of a specified type that is in the device registration database.
+helpviewer_keywords: ["GetFirstRegisteredDevice","GetFirstRegisteredDevice method [windows Media Format]","GetFirstRegisteredDevice method [windows Media Format]","IWMDeviceRegistration interface","IWMDeviceRegistration interface [windows Media Format]","GetFirstRegisteredDevice method","IWMDeviceRegistration.GetFirstRegisteredDevice","IWMDeviceRegistration::GetFirstRegisteredDevice","IWMDeviceRegistrationGetFirstRegisteredDevice","wmformat.iwmdeviceregistration_getfirstregistereddevice","wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice"]
 old-location: wmformat\iwmdeviceregistration_getfirstregistereddevice.htm
 tech.root: wmformat
 ms.assetid: a11249f5-0604-4de7-9dd2-152d570183c3
 ms.date: 12/05/2018
 ms.keywords: GetFirstRegisteredDevice, GetFirstRegisteredDevice method [windows Media Format], GetFirstRegisteredDevice method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetFirstRegisteredDevice method, IWMDeviceRegistration.GetFirstRegisteredDevice, IWMDeviceRegistration::GetFirstRegisteredDevice, IWMDeviceRegistrationGetFirstRegisteredDevice, wmformat.iwmdeviceregistration_getfirstregistereddevice, wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice
-f1_keywords:
-- wmsdkidl/IWMDeviceRegistration.GetFirstRegisteredDevice
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDeviceRegistration.GetFirstRegisteredDevice
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDeviceRegistration::GetFirstRegisteredDevice
+ - wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDeviceRegistration.GetFirstRegisteredDevice
 ---
 
 # IWMDeviceRegistration::GetFirstRegisteredDevice
@@ -49,34 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>GetFirstRegisteredDevice</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>GetFirstRegisteredDevice</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>GetFirstRegisteredDevice</b> method retrieves information about the first device of a specified type that is in the device registration database.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwRegisterType [in]
 
 The type of device for which to retrieve information. Devices that support Windows Media DRM 10 for Network Devices use the DRM_DEVICE_REGISTER_TYPE_STREAMING register type.
 
-
 ### -param ppDevice [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice</a> interface. This interface provides access to information about the first registered device in the database that matches the type specified by <i>dwRegisterType</i>.
-
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice</a> interface. This interface provides access to information about the first registered device in the database that matches the type specified by <i>dwRegisterType</i>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,29 +110,13 @@ There are no registered devices to enumerate. When this value is returned, the a
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To enumerate registered devices of a given type, begin by calling this method to retrieve the first device entry. Then make repeated calls to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getnextregistereddevice">GetNextRegisteredDevice</a> to get subsequent device entries from the database.
+To enumerate registered devices of a given type, begin by calling this method to retrieve the first device entry. Then make repeated calls to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdeviceregistration-getnextregistereddevice">GetNextRegisteredDevice</a> to get subsequent device entries from the database.
 
 The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used in this release.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>

@@ -2,15 +2,12 @@
 UID: NS:lmat._AT_ENUM
 title: AT_ENUM (lmat.h)
 description: The AT_ENUM structure contains information about a submitted job. The NetScheduleJobEnum function uses this structure to enumerate and return information about an entire queue of submitted jobs.
+helpviewer_keywords: ["*LPAT_ENUM","*PAT_ENUM","AT_ENUM","AT_ENUM structure [Network Management]","JOB_EXEC_ERROR","JOB_NONINTERACTIVE","JOB_RUNS_TODAY","JOB_RUN_PERIODICALLY","LPAT_ENUM","LPAT_ENUM structure pointer [Network Management]","PAT_ENUM","PAT_ENUM structure pointer [Network Management]","_win32_at_enum_str","lmat/AT_ENUM","lmat/LPAT_ENUM","lmat/PAT_ENUM","netmgmt.at_enum_str"]
 old-location: netmgmt\at_enum_str.htm
 tech.root: NetMgmt
 ms.assetid: ed7c5171-b8aa-4a9a-8f31-4d914bcad0b1
 ms.date: 12/05/2018
 ms.keywords: '*LPAT_ENUM, *PAT_ENUM, AT_ENUM, AT_ENUM structure [Network Management], JOB_EXEC_ERROR, JOB_NONINTERACTIVE, JOB_RUNS_TODAY, JOB_RUN_PERIODICALLY, LPAT_ENUM, LPAT_ENUM structure pointer [Network Management], PAT_ENUM, PAT_ENUM structure pointer [Network Management], _win32_at_enum_str, lmat/AT_ENUM, lmat/LPAT_ENUM, lmat/PAT_ENUM, netmgmt.at_enum_str'
-f1_keywords:
-- lmat/AT_ENUM
-dev_langs:
-- c++
 req.header: lmat.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmat.h
-api_name:
-- AT_ENUM
 targetos: Windows
 req.typenames: AT_ENUM, *PAT_ENUM, *LPAT_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AT_ENUM
+ - lmat/_AT_ENUM
+ - PAT_ENUM
+ - lmat/PAT_ENUM
+ - AT_ENUM
+ - lmat/AT_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmat.h
+api_name:
+ - AT_ENUM
 ---
 
 # AT_ENUM structure
@@ -48,16 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>AT_ENUM</b> structure contains information about a submitted job. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a> function uses this structure to enumerate and return information about an entire queue of submitted jobs.
-
+<a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a> function uses this structure to enumerate and return information about an entire queue of submitted jobs.
 
 ## -struct-fields
-
-
-
 
 ### -field JobId
 
@@ -65,13 +66,11 @@ Type: <b>DWORD</b>
 
 The job identifier of a submitted (queued) job.
 
-
 ### -field JobTime
 
 Type: <b>DWORD_PTR</b>
 
 A pointer to the time of day at which the job is scheduled to run. The time is the local time at a computer on which the schedule service is running; it is measured from midnight, and is expressed in milliseconds.
-
 
 ### -field DaysOfMonth
 
@@ -83,8 +82,6 @@ A set of bit flags representing the days of the month. For each bit that is set,
 
 
 The value of the bitmask is zero if the job was scheduled to run only once, at the first occurrence specified in the <b>JobTime</b> member
-						
-
 
 ### -field DaysOfWeek
 
@@ -96,8 +93,6 @@ A set of bit flags representing the days of the week. For each bit that is set, 
 
 
 The value of the bitmask is zero if the job was scheduled to run only once, at the first occurrence specified in the <b>JobTime</b> member.
-						
-
 
 ### -field Flags
 
@@ -151,8 +146,6 @@ This flag is equal to its original value, that is, the value when the job was su
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Command
 
@@ -160,36 +153,23 @@ Type: <b>LPWSTR</b>
 
 A pointer to a Unicode string that contains the name of the command, batch program, or binary file to execute.
 
-
 ## -remarks
 
-
-
 For more information about setting the bit flags to schedule jobs that execute once, jobs that execute multiple times, and jobs that execute periodically without deletion, see 
-the <a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a> function.
-
-
-
+the <a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/schedule-functions">Schedule Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:mfmediacapture.IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
 title: IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings (mfmediacapture.h)
 description: Gets the advanced media capture settings.
+helpviewer_keywords: ["GetAdvancedMediaCaptureSettings","GetAdvancedMediaCaptureSettings method [Media Foundation]","GetAdvancedMediaCaptureSettings method [Media Foundation]","IAdvancedMediaCapture interface","IAdvancedMediaCapture interface [Media Foundation]","GetAdvancedMediaCaptureSettings method","IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings","IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings","mf.iadvancedmediacapture_getadvancedmediacapturesettings","mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings"]
 old-location: mf\iadvancedmediacapture_getadvancedmediacapturesettings.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 88c65141-9cc3-4da3-adee-06727152ba8b
 ms.date: 12/05/2018
 ms.keywords: GetAdvancedMediaCaptureSettings, GetAdvancedMediaCaptureSettings method [Media Foundation], GetAdvancedMediaCaptureSettings method [Media Foundation],IAdvancedMediaCapture interface, IAdvancedMediaCapture interface [Media Foundation],GetAdvancedMediaCaptureSettings method, IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings, IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings, mf.iadvancedmediacapture_getadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
-f1_keywords:
-- mfmediacapture/IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
-dev_langs:
-- c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfmediacapture.h
-api_name:
-- IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
+ - mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfmediacapture.h
+api_name:
+ - IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
 ---
 
 # IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
@@ -48,34 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the advanced media capture settings.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacapture">IAdvancedMediaCapture</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacapture">IAdvancedMediaCapture</a>

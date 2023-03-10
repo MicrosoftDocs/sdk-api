@@ -2,15 +2,12 @@
 UID: NF:winbase.GetApplicationRestartSettings
 title: GetApplicationRestartSettings function (winbase.h)
 description: Retrieves the restart information registered for the specified process.
+helpviewer_keywords: ["GetApplicationRestartSettings","GetApplicationRestartSettings function [Recovery]","recovery.getapplicationrestartsettings","winbase/GetApplicationRestartSettings"]
 old-location: recovery\getapplicationrestartsettings.htm
 tech.root: Recovery
 ms.assetid: bf35437a-9252-4efd-aa3c-be487dafa86e
 ms.date: 12/05/2018
 ms.keywords: GetApplicationRestartSettings, GetApplicationRestartSettings function [Recovery], recovery.getapplicationrestartsettings, winbase/GetApplicationRestartSettings
-f1_keywords:
-- winbase/GetApplicationRestartSettings
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- GetApplicationRestartSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetApplicationRestartSettings
+ - winbase/GetApplicationRestartSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - GetApplicationRestartSettings
 ---
 
 # GetApplicationRestartSettings function
@@ -50,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves  the restart information registered for the specified process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process. This handle must have the PROCESS_VM_READ access right.
 
-
 ### -param pwzCommandline [out, optional]
 
-A pointer to a buffer that receives the restart command line specified by the application when it called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function. The maximum size of the command line, in characters, is RESTART_MAX_CMD_LINE. Can be <b>NULL</b> if <i>pcchSize</i> is zero.
-
+A pointer to a buffer that receives the restart command line specified by the application when it called the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function. The maximum size of the command line, in characters, is RESTART_MAX_CMD_LINE. Can be <b>NULL</b> if <i>pcchSize</i> is zero.
 
 ### -param pcchSize [in, out]
 
@@ -79,15 +74,11 @@ On output, specifies the size of the buffer that was used.
 
 To determine the required buffer size, set <i>pwzCommandLine</i> to <b>NULL</b> and this parameter to zero. The size includes one for the <b>null</b>-terminator character. Note that the function returns S_OK, not HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) in this case.
 
-
 ### -param pdwFlags [out, optional]
 
-A pointer to a variable that receives the flags specified by the application when it called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
-
+A pointer to a variable that receives the flags specified by the application when it called the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
 
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or one of the following error codes.
 
@@ -130,21 +121,15 @@ The <i>pwzCommandLine</i> buffer is too small. The function returns the required
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This information is available only for the current process; you cannot call this function after your program is restarted to get the restart command line. To get the command line after a restart, access the <i>argv</i> parameter of your <b>main</b> function.
 
 
 #### Examples
 
-The following example shows how to get the restart settings specified when you called the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
+The following example shows how to get the restart settings specified when you called the <a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a> function.
 
 
 ```cpp
@@ -223,17 +208,6 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-registerapplicationrestart">RegisterApplicationRestart</a>

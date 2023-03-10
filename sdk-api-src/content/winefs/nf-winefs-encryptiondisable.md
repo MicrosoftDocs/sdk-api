@@ -2,15 +2,12 @@
 UID: NF:winefs.EncryptionDisable
 title: EncryptionDisable function (winefs.h)
 description: Disables or enables encryption of the specified directory and the files in it.
+helpviewer_keywords: ["EncryptionDisable","EncryptionDisable function [Files]","_win32_encryptiondisable","base.encryptiondisable","fs.encryptiondisable","winefs/EncryptionDisable"]
 old-location: fs\encryptiondisable.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 6ff93a90-c1cf-4782-862c-d3d7e294c4b0
 ms.date: 12/05/2018
 ms.keywords: EncryptionDisable, EncryptionDisable function [Files], _win32_encryptiondisable, base.encryptiondisable, fs.encryptiondisable, winefs/EncryptionDisable
-f1_keywords:
-- winefs/EncryptionDisable
-dev_langs:
-- c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- EncryptionDisable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EncryptionDisable
+ - winefs/EncryptionDisable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - EncryptionDisable
 ---
 
 # EncryptionDisable function
@@ -48,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disables or enables encryption of the specified directory and the files in it. It does not 
     affect encryption of subdirectories below the indicated directory.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param DirPath [in]
 
 The name of the directory for which to enable or 
       disable encryption.
 
-
 ### -param Disable [in]
 
 Indicates whether to disable encryption (<b>TRUE</b>) or enable it 
       (<b>FALSE</b>).
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-      
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-Under normal circumstances, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will not encrypt 
+Under normal circumstances, <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will not encrypt 
     files and directories with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute set. It is possible to 
     override the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute and encrypt files. Also, if a file or 
     directory is marked with the <b>FILE_ATTRIBUTE_SYSTEM</b> attribute, it will normally be
@@ -101,13 +87,17 @@ If <b>TRUE</b> is passed in,
     <b>EncryptionDisable</b> will write the following to the 
     Desktop.ini file in the directory (creating it if necessary):
 
-<pre class="syntax" xml:space="preserve"><code>[Encryption]
-Disable=1</code></pre>
+
+``` syntax
+[Encryption]
+Disable=1
+```
+
 If the section already exists but <i>Disable</i> is set to 0, it will be set to 1.
 
-Thereafter, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will fail on the 
+Thereafter, <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a> will fail on the 
     directory and the files in it, and the code that 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns will be 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns will be 
     <b>ERROR_DIR_EFS_DISALLOWED</b>. This function does not affect encryption of subdirectories 
     within the given directory.
 
@@ -115,8 +105,8 @@ The user can also manually add or edit the above lines in the Desktop.ini file a
     same effect.
 
 <b>EncryptionDisable</b> affects only 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>. After the directory is 
+    <a href="/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a> and 
+    <a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>. After the directory is 
     encrypted, any new files and new subdirectories created without the 
     <b>FILE_ATTRIBUTE_SYSTEM</b> attribute will be encrypted.
 
@@ -124,8 +114,12 @@ If <b>FALSE</b> is passed in,
     <b>EncryptionDisable</b> will write the following to the 
     Desktop.ini file:
 
-<pre class="syntax" xml:space="preserve"><code>[Encryption]
-Disable=0</code></pre>
+
+``` syntax
+[Encryption]
+Disable=0
+```
+
 This means that  file encryption is permitted on the files in that directory.
 
 If you try to use <b>EncryptionDisable</b> to set the 
@@ -196,41 +190,30 @@ No
 
 SMB 3.0 does not support EFS on shares with continuous availability capability.
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-encryptfilea">EncryptFile</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fileencryptionstatusa">FileEncryptionStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>

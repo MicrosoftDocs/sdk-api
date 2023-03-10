@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptOpenAlgorithmProvider
 title: BCryptOpenAlgorithmProvider function (bcrypt.h)
 description: Loads and initializes a CNG provider.
+helpviewer_keywords: ["BCRYPT_ALG_HANDLE_HMAC_FLAG","BCRYPT_HASH_REUSABLE_FLAG","BCRYPT_PROV_DISPATCH","BCryptOpenAlgorithmProvider","BCryptOpenAlgorithmProvider function [Security]","MS_PRIMITIVE_PROVIDER","MS_PLATFORM_CRYPTO_PROVIDER","bcrypt/BCryptOpenAlgorithmProvider","security.bcryptopenalgorithmprovider_func"]
 old-location: security\bcryptopenalgorithmprovider_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: aceba9c0-19e6-4f3c-972a-752feed4a9f8
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ALG_HANDLE_HMAC_FLAG, BCRYPT_HASH_REUSABLE_FLAG, BCRYPT_PROV_DISPATCH, BCryptOpenAlgorithmProvider, BCryptOpenAlgorithmProvider function [Security], MS_PRIMITIVE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, bcrypt/BCryptOpenAlgorithmProvider, security.bcryptopenalgorithmprovider_func
-f1_keywords:
-- bcrypt/BCryptOpenAlgorithmProvider
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-- Ksecdd.sys
-api_name:
-- BCryptOpenAlgorithmProvider
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptOpenAlgorithmProvider
+ - bcrypt/BCryptOpenAlgorithmProvider
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+ - Ksecdd.sys
+api_name:
+ - BCryptOpenAlgorithmProvider
 ---
 
 # BCryptOpenAlgorithmProvider function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>BCryptOpenAlgorithmProvider</b> function loads and initializes a CNG provider.
-
 
 ## -parameters
 
-
-
-
 ### -param phAlgorithm [out]
 
-A pointer to a <b>BCRYPT_ALG_HANDLE</b> variable that receives the CNG provider handle. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptclosealgorithmprovider">BCryptCloseAlgorithmProvider</a> function.
-
+A pointer to a <b>BCRYPT_ALG_HANDLE</b> variable that receives the CNG provider handle. When you have finished using this handle, release it by passing it to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptclosealgorithmprovider">BCryptCloseAlgorithmProvider</a> function.
 
 ### -param pszAlgId [in]
 
-A pointer to a null-terminated Unicode string that identifies the requested cryptographic algorithm. This can be one of the standard <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
-
+A pointer to a null-terminated Unicode string that identifies the requested cryptographic algorithm. This can be one of the standard <a href="/windows/desktop/SecCNG/cng-algorithm-identifiers">CNG Algorithm Identifiers</a> or the identifier for another registered algorithm.
 
 ### -param pszImplementation [in]
 
@@ -107,13 +102,11 @@ Identifies the basic Microsoft CNG provider.
 </dl>
 </td>
 <td width="60%">
-Identifies the Microsoft TPM-based CNG algorithm provider.
+Identifies the TPM key storage provider that is provided by Microsoft.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -130,7 +123,7 @@ Flags that modify the behavior of the function. This can be zero or a combinatio
 </dl>
 </td>
 <td width="60%">
-The provider will perform the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) algorithm with the specified hash algorithm. This flag is only used by hash algorithm providers.
+The provider will perform the <a href="/windows/desktop/SecGloss/h-gly">Hash-Based Message Authentication Code</a> (HMAC) algorithm with the specified hash algorithm. This flag is only used by hash algorithm providers.
 
 </td>
 </tr>
@@ -144,7 +137,7 @@ Loads the provider into the nonpaged memory pool. If this flag is not present, t
 
 <div class="alert"><b>Note</b>  This flag is only supported in kernel mode and allows subsequent operations on the provider to be processed at the Dispatch level. If the provider does not support being called at dispatch level, then it will return an error when opened using this flag.</div>
 <div> </div>
-<b>Windows Server 2008 and Windows Vista:  </b>This flag is only supported by the Microsoft algorithm providers and only for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithms</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric key</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic algorithms</a>. 
+<b>Windows Server 2008 and Windows Vista:  </b>This flag is only supported by the Microsoft algorithm providers and only for <a href="/windows/desktop/SecGloss/h-gly">hashing algorithms</a> and <a href="/windows/desktop/SecGloss/s-gly">symmetric key</a> <a href="/windows/desktop/SecGloss/c-gly">cryptographic algorithms</a>. 
 
 
 </td>
@@ -155,19 +148,15 @@ Loads the provider into the nonpaged memory pool. If this flag is not present, t
 </dl>
 </td>
 <td width="60%">
-Creates a reusable hashing object. The object can be used for a new hashing operation immediately after calling <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCNG/creating-a-hash-with-cng">Creating a Hash with CNG</a>.
+Creates a reusable hashing object. The object can be used for a new hashing operation immediately after calling <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfinishhash">BCryptFinishHash</a>. For more information, see <a href="/windows/desktop/SecCNG/creating-a-hash-with-cng">Creating a Hash with CNG</a>.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>This flag is not supported.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -226,18 +215,12 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Because of the number and type of operations that are required to find, load, and initialize an algorithm provider, the <b>BCryptOpenAlgorithmProvider</b> function is a relatively time intensive function. Because of this, we recommend that you cache any algorithm provider handles that you will use more than once, rather than opening and closing the algorithm providers over and over.
 
-<b>BCryptOpenAlgorithmProvider</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a>.
+<b>BCryptOpenAlgorithmProvider</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="/windows/desktop/SecGloss/i-gly">IRQL</a>.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
 
@@ -245,16 +228,6 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 Starting in Windows 10, CNG no longer follows every update to the cryptography configuration. Certain changes, like adding a new default provider or changing the preference order of algorithm providers, may require a reboot. Because of this, you should reboot before calling <b>BCryptOpenAlgorithmProvider</b>    with any newly configured provider.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptclosealgorithmprovider">BCryptCloseAlgorithmProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptclosealgorithmprovider">BCryptCloseAlgorithmProvider</a>

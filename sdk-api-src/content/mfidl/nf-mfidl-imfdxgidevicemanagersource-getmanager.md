@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFDXGIDeviceManagerSource.GetManager
 title: IMFDXGIDeviceManagerSource::GetManager (mfidl.h)
 description: Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
+helpviewer_keywords: ["GetManager","GetManager method [Media Foundation]","GetManager method [Media Foundation]","IMFDXGIDeviceManagerSource interface","IMFDXGIDeviceManagerSource interface [Media Foundation]","GetManager method","IMFDXGIDeviceManagerSource.GetManager","IMFDXGIDeviceManagerSource::GetManager","mf.imfdxgidevicemanagersource_getmanager","mfidl/IMFDXGIDeviceManagerSource::GetManager"]
 old-location: mf\imfdxgidevicemanagersource_getmanager.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 809e89e4-3ed5-4dba-82dc-4ec217b8ef38
 ms.date: 12/05/2018
 ms.keywords: GetManager, GetManager method [Media Foundation], GetManager method [Media Foundation],IMFDXGIDeviceManagerSource interface, IMFDXGIDeviceManagerSource interface [Media Foundation],GetManager method, IMFDXGIDeviceManagerSource.GetManager, IMFDXGIDeviceManagerSource::GetManager, mf.imfdxgidevicemanagersource_getmanager, mfidl/IMFDXGIDeviceManagerSource::GetManager
-f1_keywords:
-- mfidl/IMFDXGIDeviceManagerSource.GetManager
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFDXGIDeviceManagerSource.GetManager
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDXGIDeviceManagerSource::GetManager
+ - mfidl/IMFDXGIDeviceManagerSource::GetManager
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFDXGIDeviceManagerSource.GetManager
 ---
 
 # IMFDXGIDeviceManagerSource::GetManager
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
-
+Gets the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> from the Microsoft Media Foundation video rendering sink.
 
 ## -parameters
 
-
-
-
 ### -param ppManager [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> object.
-
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a> object.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/imfdxgidevicemanagersource">IMFDXGIDeviceManagerSource</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/imfdxgidevicemanagersource">IMFDXGIDeviceManagerSource</a>

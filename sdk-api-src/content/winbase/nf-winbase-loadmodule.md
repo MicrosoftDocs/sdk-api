@@ -2,15 +2,12 @@
 UID: NF:winbase.LoadModule
 title: LoadModule function (winbase.h)
 description: Loads and executes an application or creates a new instance of an existing application.
+helpviewer_keywords: ["LOADPARMS32","LoadModule","LoadModule function","_win32_loadmodule","base.loadmodule","winbase/LoadModule"]
 old-location: base\loadmodule.htm
-tech.root: Dlls
+tech.root: base
 ms.assetid: 80571b80-851a-4272-bfa6-d26e217e714a
 ms.date: 12/05/2018
 ms.keywords: LOADPARMS32, LoadModule, LoadModule function, _win32_loadmodule, base.loadmodule, winbase/LoadModule
-f1_keywords:
-- winbase/LoadModule
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- LoadModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LoadModule
+ - winbase/LoadModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - LoadModule
 ---
 
 # LoadModule function
@@ -48,19 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads and executes an application or creates a new instance of an existing application.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div><div> </div>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpModuleName [in]
 
-The file name of the application to be run. When specifying a path, be sure to use backslashes (\), not forward slashes (/). If the <i>lpModuleName</i> parameter does not contain a directory path, the system searches for the executable file in this order: 
+The file name of the application to be run. When specifying a path, be sure to use backslashes (\\), not forward slashes (/). If the <i>lpModuleName</i> parameter does not contain a directory path, the system searches for the executable file in this order: 
 
 
 
@@ -69,13 +67,13 @@ The file name of the application to be run. When specifying a path, be sure to u
 <li>The directory from which the application loaded.</li>
 <li>The current directory.</li>
 <li>The system directory. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function to get the path of this directory. 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function to get the path of this directory. 
 
 
 </li>
 <li> The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched. The name of this directory is System.</li>
 <li>The Windows directory. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function to get the path of this directory.</li>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function to get the path of this directory.</li>
 <li>The directories that are listed in the PATH environment variable.</li>
 </ol>
 
@@ -86,10 +84,7 @@ A pointer to an application-defined <b>LOADPARMS32</b> structure that defines th
 
 Set all unused members to NULL, except for <b>lpCmdLine</b>, which must point to a null-terminated string if it is not used. For more information, see Remarks.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is greater than 31.
 
@@ -148,24 +143,22 @@ The specified path was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>LOADPARMS32</b> structure has the following form:
 						
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct tagLOADPARMS32 { 
+
+``` syntax
+typedef struct tagLOADPARMS32 { 
   LPSTR lpEnvAddress;  // address of environment strings 
   LPSTR lpCmdLine;     // address of command line 
   LPSTR lpCmdShow;     // how to show new program 
   DWORD dwReserved;    // must be zero 
-} LOADPARMS32;</code></pre>
+} LOADPARMS32;
+```
+
 <table>
 <tr>
 <th>Member</th>
@@ -182,9 +175,9 @@ The <b>LOADPARMS32</b> structure has the following form:
 <tr>
 <td><b>lpCmdShow</b></td>
 <td>Pointer to a structure containing two <b>WORD</b> values. The first value must always be set to two. The second value specifies how the application window is to be shown and is used to supply the <b>wShowWindow</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. See the description of the <i>nCmdShow</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function for a list of acceptable values.</td>
+<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure to the 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function. See the description of the <i>nCmdShow</i> parameter of the 
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function for a list of acceptable values.</td>
 </tr>
 <tr>
 <td><b>dwReserved</b></td>
@@ -194,10 +187,10 @@ The <b>LOADPARMS32</b> structure has the following form:
  
 
 Applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function instead of 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function instead of 
 <b>LoadModule</b>. The 
 <b>LoadModule</b> function calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> by forming the parameters as follows.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> by forming the parameters as follows.
 				
 
 <table>
@@ -250,30 +243,19 @@ Applications should use the
 <td>The handle is immediately closed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-functions">Dynamic-Link Library Functions</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>

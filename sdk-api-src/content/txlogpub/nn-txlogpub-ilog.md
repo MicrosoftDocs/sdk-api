@@ -2,15 +2,12 @@
 UID: NN:txlogpub.ILog
 title: ILog (txlogpub.h)
 description: Provides generic low-level logging functionality.
+helpviewer_keywords: ["ILog","ILog interface [COM]","ILog interface [COM]","described","_com_ilog","com.ilog","txlogpub/ILog"]
 old-location: com\ilog.htm
 tech.root: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3
 ms.date: 12/05/2018
 ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
-f1_keywords:
-- txlogpub/ILog
-dev_langs:
-- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Txlogpub.h
-api_name:
-- ILog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILog
+ - txlogpub/ILog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Txlogpub.h
+api_name:
+ - ILog
 ---
 
 # ILog interface
@@ -48,103 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides generic low-level logging functionality.
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-portal">Common Log File System</a> (CLFS), provides functionality that is a superset of that provided by <b>ILog</b>.
-
+The <a href="/previous-versions/windows/desktop/clfs/common-log-file-system-portal">Common Log File System</a> (CLFS), provides functionality that is a superset of that provided by <b>ILog</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILog</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILog</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ILog</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-appendrecord">AppendRecord</a>
-</td>
-<td align="left" width="63%">
-Write a new record to the end of the log.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-force">Force</a>
-</td>
-<td align="left" width="63%">
-Forces the contents of the log to disk, at least up through the specified LSN.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-getloglimits">GetLogLimits</a>
-</td>
-<td align="left" width="63%">
-Retrieves information about the current bounds of the log.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-readrecord">ReadRecord</a>
-</td>
-<td align="left" width="63%">
-Reads a record from the log.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-readrecordprefix">ReadRecordPrefix</a>
-</td>
-<td align="left" width="63%">
-Reads an initial part of a record from the log.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-setaccesspolicyhint">SetAccessPolicyHint</a>
-</td>
-<td align="left" width="63%">
-Provides a hint to the implementation about the pattern in which records will be read.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-truncateprefix">TruncatePrefix</a>
-</td>
-<td align="left" width="63%">
-Throws away the specified prefix of the log, making it no longer retrievable.
-
-</td>
-</tr>
-</table> 
-
+The <b>ILog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILog</b> also has these types of members:
 
 ## -remarks
-
-
 
 WAL is a technique used by certain applications, such as database management systems, to implement atomic and isolated transactions. This technique involves writing records of changes to the application's resources to a log before you make these changes. This way the changes can be reverted if they are required, for example if the transaction fails or is interrupted. In order for applications to provide transactions that are robust against interruptions such as system crash or power failure, the logging implementation must provide a method for forcing the log; that is, to make sure that previously written records are on disk before continuing.
 
 
 
-Writing records that use <b>ILog</b> is a sequential operation; that is, new records are always appended to the end of the log. Each record appended to the log is assigned a log sequence number (LSN), a numeric identifier which may be used to retrieve the record later. The data type LSN is a typedef for <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>, a signed 64-bit value; however, <b>ILog</b> uses only LSNs with nonnegative values. In addition, LSNs must satisfy the following conditions:
+Writing records that use <b>ILog</b> is a sequential operation; that is, new records are always appended to the end of the log. Each record appended to the log is assigned a log sequence number (LSN), a numeric identifier which may be used to retrieve the record later. The data type LSN is a typedef for <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>, a signed 64-bit value; however, <b>ILog</b> uses only LSNs with nonnegative values. In addition, LSNs must satisfy the following conditions:
 
 
 
@@ -171,28 +92,18 @@ As a performance optimization, some implementations of <b>ILog</b> may buffer re
 In this situation, it would be inappropriate for the <b>ILog</b> implementation to enable additional records to be appended to the log, unless it can guarantee that all records for which it returned a success code are first written to disk. One possible method of error control would be to pin the log in an error state when this situation occurs, permanently disallowing additional writes to the log instance. Callers that do not force the log to disk for each appended record should realize that this situation may occur and be able to handle it appropriately.
 
 <h3><a id="ILog_File-based_Implementation"></a><a id="ilog_file-based_implementation"></a><a id="ILOG_FILE-BASED_IMPLEMENTATION"></a>ILog File-based Implementation</h3>
-The Windows operating system provides a file-based implementation of <b>ILog</b>, which enables you to create a log suited for write-ahead logging on a file. The log uses a file as a circular buffer, which enables unused space to be reused. This may also increase the size of the file that may be needed to fit additional records when the log is full. Changes to the log are made atomically, so that the contents of the log may be recovered after a crash. This implementation uses a buffer in memory for appending log records. As a result, records are not guaranteed to be written to disk when the <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-appendrecord">ILog::AppendRecord</a> method returns, unless the caller requests that the log be forced.
+The Windows operating system provides a file-based implementation of <b>ILog</b>, which enables you to create a log suited for write-ahead logging on a file. The log uses a file as a circular buffer, which enables unused space to be reused. This may also increase the size of the file that may be needed to fit additional records when the log is full. Changes to the log are made atomically, so that the contents of the log may be recovered after a crash. This implementation uses a buffer in memory for appending log records. As a result, records are not guaranteed to be written to disk when the <a href="/windows/desktop/api/txlogpub/nf-txlogpub-ilog-appendrecord">ILog::AppendRecord</a> method returns, unless the caller requests that the log be forced.
 
-Use the following CLSID to create an instance of a file based log (see <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>):
+Use the following CLSID to create an instance of a file based log (see <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>):
 
 CLSID_SimpleFileBasedLog
 ({E16C0593-128F-11D1-97E4-00C04FB9618A}
 ).
 
-The file based implementation of <b>ILog</b> additionally supports the <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ifilebasedloginit">IFileBasedLogInit</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a> interfaces. Use <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ifilebasedloginit-initnew">IFileBasedLogInit::InitNew</a> to create a new log file. Use <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-load">IPersistFile::Load</a> to open an existing log file.
+The file based implementation of <b>ILog</b> additionally supports the <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ifilebasedloginit">IFileBasedLogInit</a> and <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a> interfaces. Use <a href="/windows/desktop/api/txlogpub/nf-txlogpub-ifilebasedloginit-initnew">IFileBasedLogInit::InitNew</a> to create a new log file. Use <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-load">IPersistFile::Load</a> to open an existing log file.
 
 This implementation uses a simple error control policy. If any one of the methods fails because of an error on the file-system level, which includes a disk full error, the log is pinned in an error state. This prevents clients from appending additional records to the file or reading potentially bad records. To continue to use the log file, you must create a new instance of the log.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ifilebasedloginit">IFileBasedLogInit</a>
- 
-
- 
-
+<a href="/windows/desktop/api/txlogpub/nn-txlogpub-ifilebasedloginit">IFileBasedLogInit</a>

@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetName
 title: IMFTimedTextRegion::GetName (mfmediaengine.h)
 description: Gets the name of the region.
+helpviewer_keywords: ["GetName","GetName method [Media Foundation]","GetName method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetName method","IMFTimedTextRegion.GetName","IMFTimedTextRegion::GetName","mf.imftimedtextregion_getname","mfmediaengine/IMFTimedTextRegion::GetName"]
 old-location: mf\imftimedtextregion_getname.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1B3C07CF-0E9C-4C7D-8F41-7A0B168967A3
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetName method, IMFTimedTextRegion.GetName, IMFTimedTextRegion::GetName, mf.imftimedtextregion_getname, mfmediaengine/IMFTimedTextRegion::GetName
-f1_keywords:
-- mfmediaengine/IMFTimedTextRegion.GetName
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextRegion.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextRegion::GetName
+ - mfmediaengine/IMFTimedTextRegion::GetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextRegion.GetName
 ---
 
 # IMFTimedTextRegion::GetName
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the name of the region.
 
-
 ## -parameters
-
-
-
 
 ### -param name [out]
 
@@ -63,25 +60,12 @@ Type: <b>LPCWSTR*</b>
 
 A pointer to a variable that receives the null-terminated wide-character string that contains the name of the region.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>

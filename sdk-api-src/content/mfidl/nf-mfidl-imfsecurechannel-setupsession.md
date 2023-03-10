@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSecureChannel.SetupSession
 title: IMFSecureChannel::SetupSession (mfidl.h)
 description: Passes the encrypted session key to the client.
+helpviewer_keywords: ["IMFSecureChannel interface [Media Foundation]","SetupSession method","IMFSecureChannel.SetupSession","IMFSecureChannel::SetupSession","SetupSession","SetupSession method [Media Foundation]","SetupSession method [Media Foundation]","IMFSecureChannel interface","a4d38056-ea6a-441e-8b77-39ffd316cb5a","mf.imfsecurechannel_setupsession","mfidl/IMFSecureChannel::SetupSession"]
 old-location: mf\imfsecurechannel_setupsession.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: a4d38056-ea6a-441e-8b77-39ffd316cb5a
 ms.date: 12/05/2018
 ms.keywords: IMFSecureChannel interface [Media Foundation],SetupSession method, IMFSecureChannel.SetupSession, IMFSecureChannel::SetupSession, SetupSession, SetupSession method [Media Foundation], SetupSession method [Media Foundation],IMFSecureChannel interface, a4d38056-ea6a-441e-8b77-39ffd316cb5a, mf.imfsecurechannel_setupsession, mfidl/IMFSecureChannel::SetupSession
-f1_keywords:
-- mfidl/IMFSecureChannel.SetupSession
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSecureChannel.SetupSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSecureChannel::SetupSession
+ - mfidl/IMFSecureChannel::SetupSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSecureChannel.SetupSession
 ---
 
 # IMFSecureChannel::SetupSession
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Passes the encrypted session key to the client.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbEncryptedSessionKey [in]
 
 Pointer to a buffer that contains the encrypted session key. This parameter can be <b>NULL</b>.
 
-
 ### -param cbSessionKey [in]
 
 Size of the <i>pbEncryptedSessionKey</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -94,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsecurechannel">IMFSecureChannel</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsecurechannel">IMFSecureChannel</a>

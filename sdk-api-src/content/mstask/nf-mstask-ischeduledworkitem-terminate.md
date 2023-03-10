@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.Terminate
 title: IScheduledWorkItem::Terminate (mstask.h)
 description: This method ends the execution of the work item.
+helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","Terminate method","IScheduledWorkItem.Terminate","IScheduledWorkItem::Terminate","Terminate","Terminate method [Task Scheduler]","Terminate method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_terminate","mstask/IScheduledWorkItem::Terminate","taskschd.ischeduledworkitem_terminate"]
 old-location: taskschd\ischeduledworkitem_terminate.htm
 tech.root: taskschd
 ms.assetid: 8ea2144b-4f51-41db-8eaf-50da83967ea5
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Terminate method, IScheduledWorkItem.Terminate, IScheduledWorkItem::Terminate, Terminate, Terminate method [Task Scheduler], Terminate method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_terminate, mstask/IScheduledWorkItem::Terminate, taskschd.ischeduledworkitem_terminate
-f1_keywords:
-- mstask/IScheduledWorkItem.Terminate
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::Terminate
+ - mstask/IScheduledWorkItem::Terminate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.Terminate
 ---
 
 # IScheduledWorkItem::Terminate
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-This method ends the execution of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
-
-
-## -parameters
-
-
-
+This method ends the execution of the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 
 
 ## -returns
-
-
 
 The 
 <b>Terminate</b> method returns one of the following values.
@@ -107,14 +100,8 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>Terminate</b> method operates asynchronously. It does not wait for the task to terminate before returning a return value.
@@ -124,23 +111,14 @@ If the WM_CLOSE message cannot be sent (for example, the application has no wind
 
 #### Examples
 
-For an example of how to retrieve the task status and terminate a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/terminating-a-task-example">Terminating a Task Example</a>.
+For an example of how to retrieve the task status and terminate a task, see <a href="/windows/desktop/TaskSchd/terminating-a-task-example">Terminating a Task Example</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>

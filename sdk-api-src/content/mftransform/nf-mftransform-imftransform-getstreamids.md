@@ -2,15 +2,12 @@
 UID: NF:mftransform.IMFTransform.GetStreamIDs
 title: IMFTransform::GetStreamIDs (mftransform.h)
 description: Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
+helpviewer_keywords: ["0715c78e-de92-439d-a4f3-078e19f78a8e","GetStreamIDs","GetStreamIDs method [Media Foundation]","GetStreamIDs method [Media Foundation]","IMFTransform interface","IMFTransform interface [Media Foundation]","GetStreamIDs method","IMFTransform.GetStreamIDs","IMFTransform::GetStreamIDs","mf.imftransform_getstreamids","mftransform/IMFTransform::GetStreamIDs"]
 old-location: mf\imftransform_getstreamids.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0715c78e-de92-439d-a4f3-078e19f78a8e
 ms.date: 12/05/2018
 ms.keywords: 0715c78e-de92-439d-a4f3-078e19f78a8e, GetStreamIDs, GetStreamIDs method [Media Foundation], GetStreamIDs method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetStreamIDs method, IMFTransform.GetStreamIDs, IMFTransform::GetStreamIDs, mf.imftransform_getstreamids, mftransform/IMFTransform::GetStreamIDs
-f1_keywords:
-- mftransform/IMFTransform.GetStreamIDs
-dev_langs:
-- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTransform.GetStreamIDs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTransform::GetStreamIDs
+ - mftransform/IMFTransform::GetStreamIDs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTransform.GetStreamIDs
 ---
 
 # IMFTransform::GetStreamIDs
@@ -49,47 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the stream identifiers for the input and output streams on this Media Foundation transform (MFT).
-        
-
 
 ## -parameters
-
-
-
 
 ### -param dwInputIDArraySize [in]
 
 Number of elements in the <i>pdwInputIDs</i> array.
-          
-
 
 ### -param pdwInputIDs [out]
 
-Pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamcount">IMFTransform::GetStreamCount</a>.
+Pointer to an array allocated by the caller. The method fills the array with the input stream identifiers. The array size must be at least equal to the number of input streams. To get the number of input streams, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamcount">IMFTransform::GetStreamCount</a>.
           
 
 If the caller passes an array that is larger than the number of input streams, the MFT must not write values into the extra array entries.
 
-
 ### -param dwOutputIDArraySize [in]
 
 Number of elements in the <i>pdwOutputIDs</i> array.
-          
-
 
 ### -param pdwOutputIDs [out]
 
-Pointer to an array allocated by the caller. The method fills the array with the output stream identifiers. The array size must be at least equal to the number of output streams. To get the number of output streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamcount">GetStreamCount</a>.
+Pointer to an array allocated by the caller. The method fills the array with the output stream identifiers. The array size must be at least equal to the number of output streams. To get the number of output streams, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamcount">GetStreamCount</a>.
           
 
 If the caller passes an array that is larger than the number of output streams, the MFT must not write values into the extra array entries.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -136,16 +124,10 @@ One or both of the arrays is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Stream identifiers are necessary because some MFTs can add or remove streams, so the index of a stream may not be unique. Therefore, <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> methods that operate on streams take stream identifiers.
+Stream identifiers are necessary because some MFTs can add or remove streams, so the index of a stream may not be unique. Therefore, <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> methods that operate on streams take stream identifiers.
       
 
 This method can return <b>E_NOTIMPL</b> if both of the following conditions are true:
@@ -175,22 +157,12 @@ If the client adds an input stream, the client assigns the identifier, so the MF
 By convention, if an MFT has exactly one fixed input stream and one fixed output stream, it should assign the identifier 0 to both streams.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
-
-
-
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetStreamIDs</b>. See <a href="/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>

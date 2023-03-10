@@ -2,15 +2,12 @@
 UID: NN:wuapi.IUpdateLockdown
 title: IUpdateLockdown (wuapi.h)
 description: Restricts access to methods and properties of objects that implements the method of this interface.
+helpviewer_keywords: ["IUpdateLockdown","IUpdateLockdown interface [Windows Update Agent]","IUpdateLockdown interface [Windows Update Agent]","described","wua.iupdatelockdown","wuapi/IUpdateLockdown"]
 old-location: wua\iupdatelockdown.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 918a46f5-a1da-4f47-84f1-b715fc97bb8f
 ms.date: 12/05/2018
 ms.keywords: IUpdateLockdown, IUpdateLockdown interface [Windows Update Agent], IUpdateLockdown interface [Windows Update Agent],described, wua.iupdatelockdown, wuapi/IUpdateLockdown
-f1_keywords:
-- wuapi/IUpdateLockdown
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateLockdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateLockdown
+ - wuapi/IUpdateLockdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateLockdown
 ---
 
 # IUpdateLockdown interface
@@ -48,42 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Restricts access to methods and properties of objects that implements the method of this interface.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateLockdown</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUpdateLockdown</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUpdateLockdown</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatelockdown-lockdown">Lockdown</a>
-</td>
-<td align="left" width="63%">
-Restricts access to the methods and properties of the object that implements this method.
-
-</td>
-</tr>
-</table> 
-
+The <b>IUpdateLockdown</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUpdateLockdown</b> also has these types of members:
 
 ## -remarks
 
-
-
-The <b>IUpdateLockdown</b> interface is derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, not <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
+The <b>IUpdateLockdown</b> interface is derived from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, not <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>. It cannot be accessed by using a script. This interface restricts access to the Windows Update  website.
 
 The following classes implement the <b>IUpdateLockdown</b> interface:
 
@@ -96,5 +71,3 @@ The following classes implement the <b>IUpdateLockdown</b> interface:
 <li>UpdateServiceManager</li>
 <li>WebProxy</li>
 </ul>
-
-

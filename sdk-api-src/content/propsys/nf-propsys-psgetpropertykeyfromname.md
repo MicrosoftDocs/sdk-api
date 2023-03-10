@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: a80301d9-8b4e-4a17-8e24-4362ba3b1ab5
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyKeyFromName, PSGetPropertyKeyFromName function [Windows Properties], properties.PSGetPropertyKeyFromName, propsys/PSGetPropertyKeyFromName, shell.PSGetPropertyKeyFromName, shell_PSGetPropertyKeyFromName
-f1_keywords:
-- propsys/PSGetPropertyKeyFromName
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSGetPropertyKeyFromName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSGetPropertyKeyFromName
+ - propsys/PSGetPropertyKeyFromName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSGetPropertyKeyFromName
 ---
 
 # PSGetPropertyKeyFromName function
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the property key for a canonical property name.
 
-
 ## -parameters
-
-
-
 
 ### -param pszName [in]
 
@@ -63,17 +59,13 @@ Type: <b>PCWSTR</b>
 
 Pointer to a property name as a null-terminated, Unicode string.
 
-
 ### -param ppropkey [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 When this function returns, contains the requested property key.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -118,23 +110,17 @@ The canonical property name does not exist in the schema subsystem cache.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Property keys uniquely identify a property. For example, <code>PKEY_Keywords</code> corresponds to <code>System.Keywords</code>. This function succeeds only for properties registered as part of the property schema.
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a> for a list of legacy property names that are also supported by the function.
+See <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a> for a list of legacy property names that are also supported by the function.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertykeyfromname">PSGetPropertyKeyFromName</a> to obtain the property key for <code>System.Keywords</code>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertykeyfromname">PSGetPropertyKeyFromName</a> to obtain the property key for <code>System.Keywords</code>.
 
 
 ```cpp
@@ -148,29 +134,18 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertykey">IPropertyDescription::GetPropertyKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertykey">IPropertyDescription::GetPropertyKey</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetnamefrompropertykey">PSGetNameFromPropertyKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetnamefrompropertykey">PSGetNameFromPropertyKey</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>

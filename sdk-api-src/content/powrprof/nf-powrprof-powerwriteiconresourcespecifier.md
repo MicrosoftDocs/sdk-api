@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerWriteIconResourceSpecifier
 title: PowerWriteIconResourceSpecifier function (powrprof.h)
 description: Sets the icon resource for the specified power setting, subgroup, or scheme.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteIconResourceSpecifier","PowerWriteIconResourceSpecifier function","base.powerwriteiconresourcespecifier","powrprof/PowerWriteIconResourceSpecifier"]
 old-location: base\powerwriteiconresourcespecifier.htm
-tech.root: power
+tech.root: base
 ms.assetid: 968b068a-f62a-4148-b96c-48f47218f368
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteIconResourceSpecifier, PowerWriteIconResourceSpecifier function, base.powerwriteiconresourcespecifier, powrprof/PowerWriteIconResourceSpecifier
-f1_keywords:
-- powrprof/PowerWriteIconResourceSpecifier
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerWriteIconResourceSpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerWriteIconResourceSpecifier
+ - powrprof/PowerWriteIconResourceSpecifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerWriteIconResourceSpecifier
 ---
 
 # PowerWriteIconResourceSpecifier function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the icon resource for the specified power setting, subgroup, or scheme.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemeGuid [in]
 
 The identifier of the power scheme.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -166,62 +161,40 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ### -param Buffer [in]
 
-The icon resource. 
-
+The icon resource.
 
 ### -param BufferSize [in]
 
 The size of the buffer pointed to by the <i>Buffer</i> parameter.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
 
-
-
-
 ## -remarks
-
-
 
 If the 
     <i>SchemeGuid</i> parameter is not <b>NULL</b> but both the 
     <i>SubGroupOfPowerSettingsGuid</i> and <i>PowerSettingGuid</i> parameters 
     are <b>NULL</b>, the friendly name of the power scheme will be set. If the 
     <i>SchemeGuid</i> and <i>SubGroupOfPowerSettingsGuid</i> parameters are not 
-    <b>NULL</b>and  the <i>PowerSettingGuid</i> parameter is 
+   <b>NULL</b> and  the <i>PowerSettingGuid</i> parameter is 
     <b>NULL</b>, the friendly name of the subgroup will be set. If the 
     <i>SchemeGuid</i>, <i>SubGroupOfPowerSettingsGuid</i>, and 
     <i>PowerSettingGuid</i> parameters are not <b>NULL</b>, the friendly name of 
     the power setting will be set.
 
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
-
-
-
+       <a href="/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

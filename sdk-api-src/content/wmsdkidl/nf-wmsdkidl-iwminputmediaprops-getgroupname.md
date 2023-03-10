@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMInputMediaProps.GetGroupName
 title: IWMInputMediaProps::GetGroupName (wmsdkidl.h)
 description: The GetGroupName method is not implemented, and returns an empty string.
+helpviewer_keywords: ["GetGroupName","GetGroupName method [windows Media Format]","GetGroupName method [windows Media Format]","IWMInputMediaProps interface","IWMInputMediaProps interface [windows Media Format]","GetGroupName method","IWMInputMediaProps.GetGroupName","IWMInputMediaProps::GetGroupName","IWMInputMediaPropsGetGroupName","wmformat.iwminputmediaprops_getgroupname","wmsdkidl/IWMInputMediaProps::GetGroupName"]
 old-location: wmformat\iwminputmediaprops_getgroupname.htm
 tech.root: wmformat
 ms.assetid: 795cd065-62f1-4346-b2ff-f77ec4306d64
 ms.date: 12/05/2018
 ms.keywords: GetGroupName, GetGroupName method [windows Media Format], GetGroupName method [windows Media Format],IWMInputMediaProps interface, IWMInputMediaProps interface [windows Media Format],GetGroupName method, IWMInputMediaProps.GetGroupName, IWMInputMediaProps::GetGroupName, IWMInputMediaPropsGetGroupName, wmformat.iwminputmediaprops_getgroupname, wmsdkidl/IWMInputMediaProps::GetGroupName
-f1_keywords:
-- wmsdkidl/IWMInputMediaProps.GetGroupName
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMInputMediaProps.GetGroupName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMInputMediaProps::GetGroupName
+ - wmsdkidl/IWMInputMediaProps::GetGroupName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMInputMediaProps.GetGroupName
 ---
 
 # IWMInputMediaProps::GetGroupName
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetGroupName</b> method is not implemented, and returns an empty string.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszName [out]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the name. Pass <b>NULL</b> to retrieve the length required for the name.
 
-
 ### -param pcchName [in, out]
 
 On input, a pointer to a variable containing the length of the <i>pwszName</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the length of the name, including the terminating <b>null</b> character.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,18 +108,7 @@ The <i>pwszName</i> parameter is not large enough.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps Interface</a>

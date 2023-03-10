@@ -2,15 +2,12 @@
 UID: NF:webservices.WsReceiveMessage
 title: WsReceiveMessage function (webservices.h)
 description: Receive a message and deserialize the body of the message as a value.
+helpviewer_keywords: ["WsReceiveMessage","WsReceiveMessage function [Web Services for Windows]","webservices/WsReceiveMessage","wsw.wsreceivemessage"]
 old-location: wsw\wsreceivemessage.htm
 tech.root: wsw
 ms.assetid: 3976c02c-d052-4eae-b675-edd317ac6464
 ms.date: 12/05/2018
 ms.keywords: WsReceiveMessage, WsReceiveMessage function [Web Services for Windows], webservices/WsReceiveMessage, wsw.wsreceivemessage
-f1_keywords:
-- webservices/WsReceiveMessage
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReceiveMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReceiveMessage
+ - webservices/WsReceiveMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReceiveMessage
 ---
 
 # WsReceiveMessage function
@@ -48,89 +50,65 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receive a message and deserialize the body of the message as a value.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The channel to receive from.
-                
-
 
 ### -param message [in]
 
 The message object used to receive.
                 
 
-The message should be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> state.
-                
-
+The message should be in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> state.
 
 ### -param messageDescriptions
 
 An array of pointers to message descriptions that specifies the metadata for
                     the expected types of messages.
-                
-
 
 ### -param messageDescriptionCount [in]
 
 The number of items in the messageDescriptions array.
-                
-
 
 ### -param receiveOption [in]
 
-Whether the message is required.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTION</a> for more information.
-                
-
+Whether the message is required.  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTION</a> for more information.
 
 ### -param readBodyOption [in]
 
 Whether the body element is required, and how to allocate the value.  
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
-                
-
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
 
 ### -param heap [in, optional]
 
 The heap to store the deserialized values in.  If the heap is 
                     not required for the given type, then this parameter can be <b>NULL</b>.
-                
-
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
                 
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
+If <a href="/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
                     parameter, and no more messages are available on the channel, 
                     this parameter is not touched.  In this case, the function returns <b>WS_S_END</b>.
-                (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+                (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
-If the bodyElementDescription of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> that
+If the bodyElementDescription of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> that
                     matched is <b>NULL</b>, then this parameter is not touched.  In this case, the
                     parameter does not need to be specified.
-                
-
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
-                
-
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param index
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
+If <a href="/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
                     parameter, and no more messages are available on the channel, 
                     this parameter is untouched.  In this case, the function will
                     return <b>WS_S_END</b>.
@@ -142,24 +120,16 @@ Otherwise, if the function succeeds this will contain the zero-based
 
 This parameter may be <b>NULL</b> if the caller is not interested in the value
                     (for example, if there is only one message description).
-                
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
-                
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -187,7 +157,7 @@ The asynchronous operation is still pending.
 </dl>
 </td>
 <td width="60%">
-The receive option <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTIONAL_MESSAGE</a> was specified and
+The receive option <a href="/windows/desktop/api/webservices/ne-webservices-ws_receive_option">WS_RECEIVE_OPTIONAL_MESSAGE</a> was specified and
                     there are no more messages available for the channel.
                 
 
@@ -201,7 +171,7 @@ The receive option <a href="https://docs.microsoft.com/windows/desktop/api/webse
 </td>
 <td width="60%">
 The received message contained a fault.  The fault can be extracted from the 
-                    <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>.
+                    <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> using <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a>.
                 
 
 </td>
@@ -581,19 +551,13 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function uses metadata about the expected message types in order to deserialize the body.  
-                The metadata is an array of of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>s.
+                The metadata is an array of of pointers to <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>s.
                 Each message description contains an action value, which is used to match against
-                the action of the message, and an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a>which provides the metadata for the body element.
+                the action of the message, and an <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> which provides the metadata for the body element.
             
 
 When the message headers have been received, the function will scan the array
@@ -605,22 +569,18 @@ When the message headers have been received, the function will scan the array
             
 
 In order for a message description to match, the action value must match that of
-                the message exactly.  If the action in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> 
+                the message exactly.  If the action in the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> 
                 is <b>NULL</b>, then the action always matches.  This can be used in the case where there 
                 is no action header in the received message, or if the body is always the same no matter 
                 what the action is.
             
 
 If the body is expected to be empty, the bodyElementDescription field of the 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> may be <b>NULL</b>.
+                <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> may be <b>NULL</b>.
             
 
 If the bodyElementDescription is non-<b>NULL</b>, then this function deserializes the 
-                body as described in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.
+                body as described in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.
             
 
-After a message has been received, it's headers can be inspected using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.
-            
-
-
-
+After a message has been received, its headers can be inspected using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsgetcustomheader">WsGetCustomHeader</a>.

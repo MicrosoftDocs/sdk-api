@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptMsgGetAndVerifySigner
 title: CryptMsgGetAndVerifySigner function (wincrypt.h)
 description: The CryptMsgGetAndVerifySigner function verifies a cryptographic message's signature.
+helpviewer_keywords: ["CMSG_SIGNER_ONLY_FLAG","CMSG_TRUSTED_SIGNER_FLAG","CMSG_USE_SIGNER_INDEX_FLAG","CryptMsgGetAndVerifySigner","CryptMsgGetAndVerifySigner function [Security]","_crypto2_cryptmsggetandverifysigner","security.cryptmsggetandverifysigner","wincrypt/CryptMsgGetAndVerifySigner"]
 old-location: security\cryptmsggetandverifysigner.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 380c9cf3-27a2-4354-b1c8-97cec33f4e44
 ms.date: 12/05/2018
 ms.keywords: CMSG_SIGNER_ONLY_FLAG, CMSG_TRUSTED_SIGNER_FLAG, CMSG_USE_SIGNER_INDEX_FLAG, CryptMsgGetAndVerifySigner, CryptMsgGetAndVerifySigner function [Security], _crypto2_cryptmsggetandverifysigner, security.cryptmsggetandverifysigner, wincrypt/CryptMsgGetAndVerifySigner
-f1_keywords:
-- wincrypt/CryptMsgGetAndVerifySigner
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptMsgGetAndVerifySigner
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptMsgGetAndVerifySigner
+ - wincrypt/CryptMsgGetAndVerifySigner
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptMsgGetAndVerifySigner
 ---
 
 # CryptMsgGetAndVerifySigner function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptMsgGetAndVerifySigner</b> function verifies a cryptographic message's signature.
 
-
 ## -parameters
-
-
-
 
 ### -param hCryptMsg [in]
 
 Handle of a cryptographic message.
 
-
 ### -param cSignerStore [in]
 
 Number of stores in the <i>rghSignerStore</i> array.
 
-
 ### -param rghSignerStore [in, optional]
 
 Array of certificate store handles that can be searched for a signer's certificate.
-
 
 ### -param dwFlags [in]
 
@@ -117,54 +111,38 @@ Only the signer specified by *<i>pdwSignerIndex</i> is returned. Otherwise, iter
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppSigner [out, optional]
 
-If the signature is verified, <i>ppSigner</i> is updated to point to the signer's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>. When you have finished using the certificate, free the context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. This parameter can be <b>NULL</b> if the application has no need for the signer's certificate.
-
+If the signature is verified, <i>ppSigner</i> is updated to point to the signer's <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>. When you have finished using the certificate, free the context by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. This parameter can be <b>NULL</b> if the application has no need for the signer's certificate.
 
 ### -param pdwSignerIndex [in, out, optional]
 
 If the signature is verified, <i>pdwSigner</i> is updated to point to the index of the signer in the array of signers. This parameter can be <b>NULL</b> if the application has no need for the index of the signer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Verification Functions Using CTLs</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Verification Functions Using CTLs</a>

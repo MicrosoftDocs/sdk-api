@@ -2,15 +2,12 @@
 UID: NS:dbghelp._LOADED_IMAGE
 title: LOADED_IMAGE (dbghelp.h)
 description: Contains information about the loaded image.
+helpviewer_keywords: ["*PLOADED_IMAGE","IMAGE_FILE_32BIT_MACHINE","IMAGE_FILE_AGGRESIVE_WS_TRIM","IMAGE_FILE_BYTES_REVERSED_HI","IMAGE_FILE_BYTES_REVERSED_LO","IMAGE_FILE_DEBUG_STRIPPED","IMAGE_FILE_DLL","IMAGE_FILE_EXECUTABLE_IMAGE","IMAGE_FILE_LARGE_ADDRESS_AWARE","IMAGE_FILE_LINE_NUMS_STRIPPED","IMAGE_FILE_LOCAL_SYMS_STRIPPED","IMAGE_FILE_NET_RUN_FROM_SWAP","IMAGE_FILE_RELOCS_STRIPPED","IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP","IMAGE_FILE_SYSTEM","IMAGE_FILE_UP_SYSTEM_ONLY","LOADED_IMAGE","LOADED_IMAGE structure","PLOADED_IMAGE","PLOADED_IMAGE structure pointer","_win32_loaded_image_str","base.loaded_image_str","dbghelp/LOADED_IMAGE","dbghelp/PLOADED_IMAGE"]
 old-location: base\loaded_image_str.htm
 tech.root: Debug
 ms.assetid: 8bfc6b47-23d6-45e1-a733-5b938d6312da
 ms.date: 12/05/2018
 ms.keywords: '*PLOADED_IMAGE, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, LOADED_IMAGE, LOADED_IMAGE structure, PLOADED_IMAGE, PLOADED_IMAGE structure pointer, _win32_loaded_image_str, base.loaded_image_str, dbghelp/LOADED_IMAGE, dbghelp/PLOADED_IMAGE'
-f1_keywords:
-- dbghelp/LOADED_IMAGE
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgHelp.h
-api_name:
-- LOADED_IMAGE
 targetos: Windows
 req.typenames: LOADED_IMAGE, *PLOADED_IMAGE
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _LOADED_IMAGE
+ - dbghelp/_LOADED_IMAGE
+ - PLOADED_IMAGE
+ - dbghelp/PLOADED_IMAGE
+ - LOADED_IMAGE
+ - dbghelp/LOADED_IMAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgHelp.h
+api_name:
+ - LOADED_IMAGE
 ---
 
 # LOADED_IMAGE structure
@@ -48,52 +54,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the loaded image.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ModuleName
 
 The file name of the mapped file.
 
-
 ### -field hFile
 
 A handle to the mapped file.
-
 
 ### -field MappedAddress
 
 The base address of the mapped file.
 
-
 ### -field FileHeader
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
-
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure.
 
 ### -field LastRvaSection
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
 
 ### -field NumberOfSections
 
 The number of COFF section headers.
 
-
 ### -field Sections
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
 
 ### -field Characteristics
 
@@ -270,18 +264,14 @@ Bytes of the word are reversed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field fSystemImage
 
 If the image is a kernel mode executable image, this value is <b>TRUE</b>.
 
-
 ### -field fDOSImage
 
 If the image is a 16-bit executable image, this value is <b>TRUE</b>.
-
 
 ### -field fReadOnly
 
@@ -289,27 +279,21 @@ If the image is read-only, this value is <b>TRUE</b>.
 
 <b>Prior to Windows Vista:  </b>This member is not included in the structure.
 
-
 ### -field Version
 
 The version string.
 
 <b>Prior to Windows Vista:  </b>This member is not included in the structure.
 
-
 ### -field Links
 
 The list of loaded images.
-
 
 ### -field SizeOfImage
 
 The size of the image, in bytes.
 
-
 ## -remarks
-
-
 
 The <b>LIST_ENTRY</b> structure is defined as follows:
 
@@ -321,29 +305,18 @@ typedef struct _LIST_ENTRY {
 } LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>

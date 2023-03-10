@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamName
 title: IWMStreamConfig::GetStreamName (wmsdkidl.h)
 description: The GetStreamName method retrieves the stream name.
+helpviewer_keywords: ["GetStreamName","GetStreamName method [windows Media Format]","GetStreamName method [windows Media Format]","IWMStreamConfig interface","IWMStreamConfig interface [windows Media Format]","GetStreamName method","IWMStreamConfig.GetStreamName","IWMStreamConfig::GetStreamName","IWMStreamConfigGetStreamName","wmformat.iwmstreamconfig_getstreamname","wmsdkidl/IWMStreamConfig::GetStreamName"]
 old-location: wmformat\iwmstreamconfig_getstreamname.htm
 tech.root: wmformat
 ms.assetid: 86c65cfe-d482-461b-a187-ce1ce9a30609
 ms.date: 12/05/2018
 ms.keywords: GetStreamName, GetStreamName method [windows Media Format], GetStreamName method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamName method, IWMStreamConfig.GetStreamName, IWMStreamConfig::GetStreamName, IWMStreamConfigGetStreamName, wmformat.iwmstreamconfig_getstreamname, wmsdkidl/IWMStreamConfig::GetStreamName
-f1_keywords:
-- wmsdkidl/IWMStreamConfig.GetStreamName
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMStreamConfig.GetStreamName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMStreamConfig::GetStreamName
+ - wmsdkidl/IWMStreamConfig::GetStreamName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMStreamConfig.GetStreamName
 ---
 
 # IWMStreamConfig::GetStreamName
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStreamName</b> method retrieves the stream name.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszStreamName [out]
 
 Pointer to a wide-character <b>null</b>-terminated string containing the stream name. Pass <b>NULL</b> to retrieve the length of the name.
 
-
 ### -param pcchStreamName [in, out]
 
 On input, a pointer to a variable containing the length of the <i>pwszStreamName</i> array in wide characters (2 bytes). On output, if the method succeeds, the variable contains the actual length of the name, including the terminating <b>null</b> character.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -118,37 +108,21 @@ The name value contained in the <i>pcchStreamName</i> parameter is too large for
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 You should make two calls to <b>GetStreamName</b>. On the first call, pass <b>NULL</b> as <i>pwszStreamName</i>. On return, the value pointed to by <i>pcchStreamName</i> is set to the number of wide characters, including the terminating <b>null</b> character, required to hold the stream name. Then you can allocate the required amount of memory for the string and pass a pointer to it as <i>pwszStreamName</i> on the second call.
 
-The stream name is not written to the header section of an ASF file. If you obtain the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface from the reader object or synchronous reader object, you cannot retrieve the original stream name.
-
-
-
+The stream name is not written to the header section of an ASF file. If you obtain the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig</a> interface from the reader object or synchronous reader object, you cannot retrieve the original stream name.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamtype">IWMStreamConfig::GetStreamType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamtype">IWMStreamConfig::GetStreamType</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamname">IWMStreamConfig::SetStreamName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamname">IWMStreamConfig::SetStreamName</a>

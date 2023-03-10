@@ -1,16 +1,13 @@
 ---
-UID: NE:wtsdefs.__unnamed_enum_1
+UID: NE:wtsdefs.WTS_RCM_DRAIN_STATE
 title: WTS_RCM_DRAIN_STATE (wtsdefs.h)
 description: Contains information about the drain state of the Remote Desktop Session Host (RD Session Host) server.
+helpviewer_keywords: ["WRDS_RCM_DRAIN_STATE","WRDS_RCM_DRAIN_STATE enumeration [Remote Desktop Services]","WTS_DRAIN_IN_DRAIN","WTS_DRAIN_NOT_IN_DRAIN","WTS_DRAIN_STATE_NONE","WTS_RCM_DRAIN_STATE","WTS_RCM_DRAIN_STATE enumeration [Remote Desktop Services]","termserv.wts_rcm_drain_state","wtsdefs/WRDS_RCM_DRAIN_STATE","wtsdefs/WTS_DRAIN_IN_DRAIN","wtsdefs/WTS_DRAIN_NOT_IN_DRAIN","wtsdefs/WTS_DRAIN_STATE_NONE","wtsdefs/WTS_RCM_DRAIN_STATE"]
 old-location: termserv\wts_rcm_drain_state.htm
 tech.root: TermServ
 ms.assetid: bb033bef-e325-42d0-8879-9a2151e43e91
 ms.date: 12/05/2018
 ms.keywords: WRDS_RCM_DRAIN_STATE, WRDS_RCM_DRAIN_STATE enumeration [Remote Desktop Services], WTS_DRAIN_IN_DRAIN, WTS_DRAIN_NOT_IN_DRAIN, WTS_DRAIN_STATE_NONE, WTS_RCM_DRAIN_STATE, WTS_RCM_DRAIN_STATE enumeration [Remote Desktop Services], termserv.wts_rcm_drain_state, wtsdefs/WRDS_RCM_DRAIN_STATE, wtsdefs/WTS_DRAIN_IN_DRAIN, wtsdefs/WTS_DRAIN_NOT_IN_DRAIN, wtsdefs/WTS_DRAIN_STATE_NONE, wtsdefs/WTS_RCM_DRAIN_STATE
-f1_keywords:
-- wtsdefs/WTS_RCM_DRAIN_STATE
-dev_langs:
-- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wtsdefs.h
-api_name:
-- WTS_RCM_DRAIN_STATE
 targetos: Windows
 req.typenames: WTS_RCM_DRAIN_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WTS_RCM_DRAIN_STATE
+ - wtsdefs/WTS_RCM_DRAIN_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wtsdefs.h
+api_name:
+ - WTS_RCM_DRAIN_STATE
 ---
 
 # WTS_RCM_DRAIN_STATE enumeration
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the drain state of the Remote Desktop Session Host (RD Session Host) server. A server in drain mode will not accept new connections, but it will reconnect users to existing sessions.
 
-
 ## -enum-fields
-
-
-
 
 ### -field WTS_DRAIN_STATE_NONE
 
 There has been no change in the drain state.
 
-
 ### -field WTS_DRAIN_IN_DRAIN
 
 The server is in drain mode, or it is entering drain mode. (It is not accepting new connections.)
-
 
 ### -field WTS_DRAIN_NOT_IN_DRAIN
 
 The server is not in drain mode, or it is exiting drain mode. (It is accepting new connections.)
 
-
 ## -remarks
 
-
-
-This enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WTS_SERVICE_STATE</a> structure.
-
-
+This enumeration type is used by the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WTS_SERVICE_STATE</a> structure.
 

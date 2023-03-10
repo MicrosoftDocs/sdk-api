@@ -2,15 +2,12 @@
 UID: NF:commctrl.TreeView_GetScrollTime
 title: TreeView_GetScrollTime macro (commctrl.h)
 description: Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the TVM_GETSCROLLTIME message explicitly.
+helpviewer_keywords: ["TreeView_GetScrollTime","TreeView_GetScrollTime macro [Windows Controls]","_win32_TreeView_GetScrollTime","_win32_TreeView_GetScrollTime_cpp","commctrl/TreeView_GetScrollTime","controls.TreeView_GetScrollTime","controls._win32_TreeView_GetScrollTime"]
 old-location: controls\TreeView_GetScrollTime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getscrolltime.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetScrollTime, TreeView_GetScrollTime macro [Windows Controls], _win32_TreeView_GetScrollTime, _win32_TreeView_GetScrollTime_cpp, commctrl/TreeView_GetScrollTime, controls.TreeView_GetScrollTime, controls._win32_TreeView_GetScrollTime
-f1_keywords:
-- commctrl/TreeView_GetScrollTime
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TreeView_GetScrollTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeView_GetScrollTime
+ - commctrl/TreeView_GetScrollTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TreeView_GetScrollTime
 ---
 
 # TreeView_GetScrollTime macro
@@ -48,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getscrolltime">TVM_GETSCROLLTIME</a> message explicitly. 
-
+Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getscrolltime">TVM_GETSCROLLTIME</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tree-view control. 
-
+Handle to the tree-view control.
 
 ## -remarks
 
-
-
-The maximum scroll time is the longest amount of time that a scroll operation can take. Scrolling will be adjusted so that the scroll will take place within the maximum scroll time. A scroll operation may take less time than the maximum. 
-
-
-
+The maximum scroll time is the longest amount of time that a scroll operation can take. Scrolling will be adjusted so that the scroll will take place within the maximum scroll time. A scroll operation may take less time than the maximum.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_setscrolltime">TreeView_SetScrollTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_setscrolltime">TreeView_SetScrollTime</a>

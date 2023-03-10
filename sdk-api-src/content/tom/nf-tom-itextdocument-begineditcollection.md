@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument.BeginEditCollection
 title: ITextDocument::BeginEditCollection (tom.h)
 description: Turns on edit collection (also called undo grouping).
+helpviewer_keywords: ["BeginEditCollection","BeginEditCollection method [Windows Controls]","BeginEditCollection method [Windows Controls]","ITextDocument interface","ITextDocument interface [Windows Controls]","BeginEditCollection method","ITextDocument.BeginEditCollection","ITextDocument::BeginEditCollection","_win32_ITextDocument_BeginEditCollection","_win32_ITextDocument_BeginEditCollection_cpp","controls.ITextDocument_BeginEditCollection","controls._win32_ITextDocument_BeginEditCollection","tom/ITextDocument::BeginEditCollection"]
 old-location: controls\ITextDocument_BeginEditCollection.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\begineditcollection.htm
 ms.date: 12/05/2018
 ms.keywords: BeginEditCollection, BeginEditCollection method [Windows Controls], BeginEditCollection method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],BeginEditCollection method, ITextDocument.BeginEditCollection, ITextDocument::BeginEditCollection, _win32_ITextDocument_BeginEditCollection, _win32_ITextDocument_BeginEditCollection_cpp, controls.ITextDocument_BeginEditCollection, controls._win32_ITextDocument_BeginEditCollection, tom/ITextDocument::BeginEditCollection
-f1_keywords:
-- tom/ITextDocument.BeginEditCollection
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument.BeginEditCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument::BeginEditCollection
+ - tom/ITextDocument::BeginEditCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument.BeginEditCollection
 ---
 
 # ITextDocument::BeginEditCollection
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Turns on edit collection (also called <i>undo grouping</i>). 
-
-
-## -parameters
-
-
-
+Turns on edit collection (also called <i>undo grouping</i>).
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -95,39 +88,27 @@ This method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A single 
 				<b>Undo</b> command undoes all changes made while edit collection is turned on.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-endeditcollection">EndEditCollection</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-endeditcollection">EndEditCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-freeze">Freeze</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-freeze">Freeze</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -135,8 +116,4 @@ A single
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

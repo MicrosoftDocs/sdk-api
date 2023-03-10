@@ -4,8 +4,11 @@ title: D3D12Video.h header
 ms.assetid: 
 ms.date: 03/19/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: mf
+f1_keywords:
+ - d3d12video
+ - d3d12video/d3d12video
 ---
 
 # D3D12Video.h header
@@ -13,7 +16,7 @@ tech.root: mf
 
 ## -description
 
+This header is used by Microsoft Media Foundation. For more information, see:
 
-This header is used for media playback. For more information, see:
+- [Microsoft Media Foundation](../_mf/index.md)
 
-- [Microsoft Media Foundation](../_mf)

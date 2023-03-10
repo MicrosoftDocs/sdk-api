@@ -1,16 +1,13 @@
 ---
 UID: NS:winuser.tagSOUNDSENTRYA
 title: SOUNDSENTRYA (winuser.h)
-description: Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
+description: Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated. (ANSI)
+helpviewer_keywords: ["*LPSOUNDSENTRYA","LPSOUNDSENTRY","LPSOUNDSENTRY structure pointer [Windows Accessibility]","SOUNDSENTRY","SOUNDSENTRY structure [Windows Accessibility]","SOUNDSENTRYA","SSF_AVAILABLE","SSF_INDICATOR","SSF_SOUNDSENTRYON","SSGF_DISPLAY","SSGF_NONE","SSTF_BORDER","SSTF_CHARS","SSTF_DISPLAY","SSTF_NONE","SSWF_CUSTOM","SSWF_DISPLAY","SSWF_NONE","SSWF_TITLE","SSWF_WINDOW","_win32_SOUNDSENTRY_str","msaa.soundsentry","tagSOUNDSENTRYA","tagSOUNDSENTRYW","winauto.soundsentry","winuser/LPSOUNDSENTRY","winuser/SOUNDSENTRY"]
 old-location: winauto\soundsentry.htm
 tech.root: WinAuto
 ms.assetid: a6000966-886b-4b9e-8df2-fee79d494f2e
 ms.date: 12/05/2018
 ms.keywords: '*LPSOUNDSENTRYA, LPSOUNDSENTRY, LPSOUNDSENTRY structure pointer [Windows Accessibility], SOUNDSENTRY, SOUNDSENTRY structure [Windows Accessibility], SOUNDSENTRYA, SSF_AVAILABLE, SSF_INDICATOR, SSF_SOUNDSENTRYON, SSGF_DISPLAY, SSGF_NONE, SSTF_BORDER, SSTF_CHARS, SSTF_DISPLAY, SSTF_NONE, SSWF_CUSTOM, SSWF_DISPLAY, SSWF_NONE, SSWF_TITLE, SSWF_WINDOW, _win32_SOUNDSENTRY_str, msaa.soundsentry, tagSOUNDSENTRYA, tagSOUNDSENTRYW, winauto.soundsentry, winuser/LPSOUNDSENTRY, winuser/SOUNDSENTRY'
-f1_keywords:
-- winuser/SOUNDSENTRY
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- SOUNDSENTRY
 targetos: Windows
 req.typenames: SOUNDSENTRYA, *LPSOUNDSENTRYA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagSOUNDSENTRYA
+ - winuser/tagSOUNDSENTRYA
+ - LPSOUNDSENTRYA
+ - winuser/LPSOUNDSENTRYA
+ - SOUNDSENTRYA
+ - winuser/SOUNDSENTRYA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - SOUNDSENTRY
 ---
 
 # SOUNDSENTRYA structure
 
 
 ## -description
-
 
 Contains information about the SoundSentry accessibility feature. When the SoundSentry feature is on, the computer displays a visual indication only when a sound is generated.
 
@@ -59,22 +64,17 @@ Contains information about the SoundSentry accessibility feature. When the Sound
         when a sound is generated through either the multimedia
         sound services or through the computer's speaker.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of this structure.
 
-
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 A set of bit flags that specify properties of the SoundSentry feature. The following bit-flag values are defined:
@@ -120,12 +120,10 @@ If this flag is set, the SoundSentry feature is on.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iFSTextEffect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 <b>Windows 95/98:</b> Specifies the visual signal to present when a text-mode application generates a sound while running in a full-screen virtual machine. This member can be one of the following values:
@@ -186,28 +184,25 @@ No visual signal
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSTextEffectMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>Windows 95/98:</b> Specifies the duration, in milliseconds, of the visual signal that is displayed when a full-screen, text-mode application generates a sound.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSTextEffectColorBits
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>Windows 95/98:</b> Specifies the RGB value of the color to be used when displaying the visual signal shown when a full-screen, text-mode application generates a sound.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSGrafEffect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 <b>Windows 95/98:</b> Specifies the visual signal to present when a graphics-mode application generates a sound while running in a full-screen virtual machine. This member can be one of the following values:
@@ -246,28 +241,25 @@ No visual signal.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSGrafEffectMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>Windows 95/98:</b> Specifies the duration, in milliseconds, of the visual signal that is displayed when a full-screen, graphics-mode application generates a sound.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iFSGrafEffectColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>Windows 95/98:</b> Specifies the RGB value of the color to be used when displaying the visual signal shown when a full-screen, graphics-mode application generates a sound.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field iWindowsEffect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 Specifies the visual signal to display when a sound is generated by a Windows-based application or an MS-DOS application running in a window. This member can be one of the following values:
@@ -335,56 +327,46 @@ Flash the active window.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iWindowsEffectMSec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>Windows 95/98:</b> Specifies the duration, in milliseconds, of the visual signal that is displayed when a Win32-based application (or an application running in a window) generates a sound.
 
 <b>Windows NT/2000:</b> This member is reserved for future use. It must be set to zero.
 
-
 ### -field lpszWindowsEffectDLL
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 This member is reserved for future use. It should be set to <b>NULL</b>.
 
-
 ### -field iWindowsEffectOrdinal
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 This member is reserved for future use. It must be set to zero.
 
-
 ## -remarks
 
+An application uses a <b>SOUNDSENTRY</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETSOUNDSENTRY</b> or <b>SPI_SETSOUNDSENTRY</b>. When using <b>SPI_GETSOUNDSENTRY</b>, an application must specify the <b>cbSize</b> member of the <b>SOUNDSENTRY</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify the <b>cbSize</b>, <b>dwFlags</b>, and <b>iWindowsEffect</b> members when using the <b>SPI_SETSOUNDSENTRY</b> value.
 
 
-An application uses a <b>SOUNDSENTRY</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETSOUNDSENTRY</b> or <b>SPI_SETSOUNDSENTRY</b>. When using <b>SPI_GETSOUNDSENTRY</b>, an application must specify the <b>cbSize</b> member of the <b>SOUNDSENTRY</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify the <b>cbSize</b>, <b>dwFlags</b>, and <b>iWindowsEffect</b> members when using the <b>SPI_SETSOUNDSENTRY</b> value.
 
 
 
+> [!NOTE]
+> The winuser.h header defines SOUNDSENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
+<a href="/previous-versions/windows/desktop/legacy/dd373647(v=vs.85)">SoundSentryProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd373647(v=vs.85)">SoundSentryProc</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

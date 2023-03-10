@@ -1,16 +1,13 @@
 ---
 UID: NN:objidlbase.IProcessInitControl
 title: IProcessInitControl (objidlbase.h)
-description: Specifies the process initialization time-out interval.
+description: The IProcessInitControl (objidlbase.h) interface specifies the process initialization time-out interval.
+helpviewer_keywords: ["IProcessInitControl","IProcessInitControl interface [COM]","IProcessInitControl interface [COM]","described","_com_iprocessinitcontrol","com.iprocessinitcontrol","objidlbase/IProcessInitControl"]
 old-location: com\iprocessinitcontrol.htm
 tech.root: com
 ms.assetid: acce67ef-3290-4892-b56a-77a256776c80
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], IProcessInitControl interface [COM],described, _com_iprocessinitcontrol, com.iprocessinitcontrol, objidlbase/IProcessInitControl
-f1_keywords:
-- objidlbase/IProcessInitControl
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IProcessInitControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProcessInitControl
+ - objidlbase/IProcessInitControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IProcessInitControl
 ---
 
 # IProcessInitControl interface
@@ -48,33 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the process initialization time-out interval.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessInitControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessInitControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IProcessInitControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprocessinitcontrol-resetinitializertimeout">ResetInitializerTimeout</a>
-</td>
-<td align="left" width="63%">
-Sets the process initialization time-out.
-
-</td>
-</tr>
-</table> 
+The <b>IProcessInitControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessInitControl</b> also has these types of members:
 

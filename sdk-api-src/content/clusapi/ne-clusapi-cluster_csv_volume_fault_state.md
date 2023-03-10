@@ -2,15 +2,12 @@
 UID: NE:clusapi._CLUSTER_CSV_VOLUME_FAULT_STATE
 title: CLUSTER_CSV_VOLUME_FAULT_STATE (clusapi.h)
 description: Defines the various fault states for a cluster shared volume (CSV).
+helpviewer_keywords: ["*PCLUSTER_CSV_VOLUME_FAULT_STATE","CLUSTER_CSV_VOLUME_FAULT_STATE","CLUSTER_CSV_VOLUME_FAULT_STATE enumeration [Failover Cluster]","PCLUSTER_CSV_VOLUME_FAULT_STATE","PCLUSTER_CSV_VOLUME_FAULT_STATE enumeration pointer [Failover Cluster]","VolumeStateDismounted","VolumeStateInMaintenance","VolumeStateNoAccess","VolumeStateNoDirectIO","VolumeStateNoFaults","clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE","clusapi/PCLUSTER_CSV_VOLUME_FAULT_STATE","clusapi/VolumeStateDismounted","clusapi/VolumeStateInMaintenance","clusapi/VolumeStateNoAccess","clusapi/VolumeStateNoDirectIO","clusapi/VolumeStateNoFaults","mscs.cluster_csv_volume_fault_state"]
 old-location: mscs\cluster_csv_volume_fault_state.htm
 tech.root: MsCS
 ms.assetid: D3F065E5-3304-4B4E-BD85-04CAC050B001
 ms.date: 12/05/2018
 ms.keywords: '*PCLUSTER_CSV_VOLUME_FAULT_STATE, CLUSTER_CSV_VOLUME_FAULT_STATE, CLUSTER_CSV_VOLUME_FAULT_STATE enumeration [Failover Cluster], PCLUSTER_CSV_VOLUME_FAULT_STATE, PCLUSTER_CSV_VOLUME_FAULT_STATE enumeration pointer [Failover Cluster], VolumeStateDismounted, VolumeStateInMaintenance, VolumeStateNoAccess, VolumeStateNoDirectIO, VolumeStateNoFaults, clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE, clusapi/PCLUSTER_CSV_VOLUME_FAULT_STATE, clusapi/VolumeStateDismounted, clusapi/VolumeStateInMaintenance, clusapi/VolumeStateNoAccess, clusapi/VolumeStateNoDirectIO, clusapi/VolumeStateNoFaults, mscs.cluster_csv_volume_fault_state'
-f1_keywords:
-- clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-api_name:
-- CLUSTER_CSV_VOLUME_FAULT_STATE
 targetos: Windows
 req.typenames: CLUSTER_CSV_VOLUME_FAULT_STATE, *PCLUSTER_CSV_VOLUME_FAULT_STATE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CLUSTER_CSV_VOLUME_FAULT_STATE
+ - clusapi/_CLUSTER_CSV_VOLUME_FAULT_STATE
+ - PCLUSTER_CSV_VOLUME_FAULT_STATE
+ - clusapi/PCLUSTER_CSV_VOLUME_FAULT_STATE
+ - CLUSTER_CSV_VOLUME_FAULT_STATE
+ - clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+api_name:
+ - CLUSTER_CSV_VOLUME_FAULT_STATE
 ---
 
 # CLUSTER_CSV_VOLUME_FAULT_STATE enumeration
@@ -48,51 +54,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the various fault states for a cluster shared volume (CSV).
-
 
 ## -enum-fields
 
-
-
-
-### -field VolumeStateNoFaults
+### -field VolumeStateNoFaults:0x00000000
 
 The CSV has no faults.
 
-
-### -field VolumeStateNoDirectIO
+### -field VolumeStateNoDirectIO:0x00000001
 
 Direct I/O is disabled for the CSV.
 
-
-### -field VolumeStateNoAccess
+### -field VolumeStateNoAccess:0x00000002
 
 The CSV can not be accessed.
 
-
-### -field VolumeStateInMaintenance
+### -field VolumeStateInMaintenance:0x00000004
 
 The CSV is in maintenance mode.
 
-
-### -field VolumeStateDismounted
+### -field VolumeStateDismounted:0x00000008
 
 The CSV is dismounted.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/ns-clusapi-clus_csv_volume_info">CLUS_CSV_VOLUME_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-clus_csv_volume_info">CLUS_CSV_VOLUME_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

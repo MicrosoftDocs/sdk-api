@@ -2,15 +2,12 @@
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetErrorDetails
 title: IRestrictedErrorInfo::GetErrorDetails (restrictederrorinfo.h)
 description: Returns information about an error, including the restricted error description.
+helpviewer_keywords: ["GetErrorDetails","GetErrorDetails method [Windows Runtime]","GetErrorDetails method [Windows Runtime]","IRestrictedErrorInfo interface","IRestrictedErrorInfo interface [Windows Runtime]","GetErrorDetails method","IRestrictedErrorInfo.GetErrorDetails","IRestrictedErrorInfo::GetErrorDetails","restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails","winrt.irestrictederrorinfo_geterrordetails"]
 old-location: winrt\irestrictederrorinfo_geterrordetails.htm
 tech.root: WinRT
 ms.assetid: ecfd97cf-9f8f-4940-9499-a894e0883f04
 ms.date: 12/05/2018
 ms.keywords: GetErrorDetails, GetErrorDetails method [Windows Runtime], GetErrorDetails method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetErrorDetails method, IRestrictedErrorInfo.GetErrorDetails, IRestrictedErrorInfo::GetErrorDetails, restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails, winrt.irestrictederrorinfo_geterrordetails
-f1_keywords:
-- restrictederrorinfo/IRestrictedErrorInfo.GetErrorDetails
-dev_langs:
-- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RestrictedErrorInfo.h
-api_name:
-- IRestrictedErrorInfo.GetErrorDetails
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRestrictedErrorInfo::GetErrorDetails
+ - restrictederrorinfo/IRestrictedErrorInfo::GetErrorDetails
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RestrictedErrorInfo.h
+api_name:
+ - IRestrictedErrorInfo.GetErrorDetails
 ---
 
 # IRestrictedErrorInfo::GetErrorDetails
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns information about an error, including the restricted error description.  
-
+Returns information about an error, including the restricted error description.
 
 ## -parameters
-
-
-
 
 ### -param description [out]
 
@@ -63,13 +60,11 @@ Type: <b>BSTR*</b>
 
 The error description.
 
-
 ### -param error [out]
 
 Type: <b>HRESULT*</b>
 
 The error code associated with the error condition.
-
 
 ### -param restrictedDescription [out]
 
@@ -77,32 +72,16 @@ Type: <b>BSTR*</b>
 
 The restricted error description.
 
-
 ### -param capabilitySid
 
 TBD
 
-
-
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>

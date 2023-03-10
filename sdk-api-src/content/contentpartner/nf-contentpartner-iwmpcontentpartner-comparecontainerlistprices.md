@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentPartner.CompareContainerListPrices
 title: IWMPContentPartner::CompareContainerListPrices (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The CompareContainerListPrices method compares the price of two content container lists.
+helpviewer_keywords: ["CompareContainerListPrices","CompareContainerListPrices method [Windows Media Player]","CompareContainerListPrices method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","CompareContainerListPrices method","IWMPContentPartner.CompareContainerListPrices","IWMPContentPartner::CompareContainerListPrices","IWMPContentPartnerCompareContainerListPrices","contentpartner/IWMPContentPartner::CompareContainerListPrices","wmp.iwmpcontentpartner_comparecontainerlistprices"]
 old-location: wmp\iwmpcontentpartner_comparecontainerlistprices.htm
 tech.root: WMP
 ms.assetid: 4febe7ce-1aa1-4738-a4cc-353f81ca649e
 ms.date: 12/05/2018
 ms.keywords: CompareContainerListPrices, CompareContainerListPrices method [Windows Media Player], CompareContainerListPrices method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],CompareContainerListPrices method, IWMPContentPartner.CompareContainerListPrices, IWMPContentPartner::CompareContainerListPrices, IWMPContentPartnerCompareContainerListPrices, contentpartner/IWMPContentPartner::CompareContainerListPrices, wmp.iwmpcontentpartner_comparecontainerlistprices
-f1_keywords:
-- contentpartner/IWMPContentPartner.CompareContainerListPrices
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.CompareContainerListPrices
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::CompareContainerListPrices
+ - contentpartner/IWMPContentPartner::CompareContainerListPrices
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.CompareContainerListPrices
 ---
 
 # IWMPContentPartner::CompareContainerListPrices
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>CompareContainerListPrices</b> method compares the price of two content container lists.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pListBase [in]
 
 Pointer to the <b>IWMPContentContainerList</b> interface representing the base content container list.
 
-
 ### -param pListCompare [in]
 
 Pointer to the <b>IWMPContentContainerList</b> interface representing the comparison content container list.
-
 
 ### -param pResult [out]
 
 Address of a <b>long</b> that receives the result of the comparison. Return less than 0 when the base price is less than the comparison price; return 0 when the base and comparison lists have equal prices; return greater than 0 when the base price is greater than the comparison price.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,22 +89,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist">IWMPContentContainerList Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist">IWMPContentContainerList Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

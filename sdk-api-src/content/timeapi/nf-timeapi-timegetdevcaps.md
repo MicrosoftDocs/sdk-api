@@ -2,15 +2,12 @@
 UID: NF:timeapi.timeGetDevCaps
 title: timeGetDevCaps function (timeapi.h)
 description: The timeGetDevCaps function queries the timer device to determine its resolution.
+helpviewer_keywords: ["_win32_timeGetDevCaps","mmsystem/timeGetDevCaps","multimedia.timegetdevcaps","timeGetDevCaps","timeGetDevCaps function [Windows Multimedia]","timeapi/timeGetDevCaps"]
 old-location: multimedia\timegetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 7b5a9675-1152-4c9e-bc79-fe9afa5c563c
 ms.date: 12/05/2018
 ms.keywords: _win32_timeGetDevCaps, mmsystem/timeGetDevCaps, multimedia.timegetdevcaps, timeGetDevCaps, timeGetDevCaps function [Windows Multimedia], timeapi/timeGetDevCaps
-f1_keywords:
-- timeapi/timeGetDevCaps
-dev_langs:
-- c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-Time-l1-1-0.dll
-- Kernel32.dll
-- Kernel32legacy.dll
-api_name:
-- timeGetDevCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - timeGetDevCaps
+ - timeapi/timeGetDevCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-Time-l1-1-0.dll
+ - Kernel32.dll
+ - Kernel32legacy.dll
+api_name:
+ - timeGetDevCaps
 ---
 
 # timeGetDevCaps function
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>timeGetDevCaps</b> function queries the timer device to determine its resolution.
-      
-
 
 ## -parameters
 
-
-
-
 ### -param ptc
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
-          
-
+A pointer to a <a href="/windows/desktop/api/timeapi/ns-timeapi-timecaps">TIMECAPS</a> structure. This structure is filled with information about the resolution of the timer device.
 
 ### -param cbtc
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/ns-timeapi-timecaps">TIMECAPS</a> structure.
-          
-
+The size, in bytes, of the <a href="/windows/desktop/api/timeapi/ns-timeapi-timecaps">TIMECAPS</a> structure.
 
 ## -returns
-
-
 
 Returns <b>MMSYSERR_NOERROR</b> if successful or an error code otherwise. Possible error codes include the following.
 
@@ -107,26 +97,15 @@ The <i>ptc</i> parameter is <b>NULL</b>, or the <i>cbtc</i> parameter is invalid
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
+<a href="/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/timer-resolution">Timer Resolution</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/timer-resolution">Timer Resolution</a>

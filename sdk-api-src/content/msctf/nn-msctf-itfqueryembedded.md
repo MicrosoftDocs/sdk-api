@@ -2,15 +2,12 @@
 UID: NN:msctf.ITfQueryEmbedded
 title: ITfQueryEmbedded (msctf.h)
 description: The ITfQueryEmbedded interface is implemented by the TSF manager and used by a text service to determine if a context can accept an embedded object.
+helpviewer_keywords: ["ITfQueryEmbedded","ITfQueryEmbedded interface [Text Services Framework]","ITfQueryEmbedded interface [Text Services Framework]","described","_tsf_itfqueryembedded_ref","msctf/ITfQueryEmbedded","tsf.itfqueryembedded"]
 old-location: tsf\itfqueryembedded.htm
 tech.root: TSF
 ms.assetid: 6e2c3ad5-73c6-481f-9ade-58782e12dfbd
 ms.date: 12/05/2018
 ms.keywords: ITfQueryEmbedded, ITfQueryEmbedded interface [Text Services Framework], ITfQueryEmbedded interface [Text Services Framework],described, _tsf_itfqueryembedded_ref, msctf/ITfQueryEmbedded, tsf.itfqueryembedded
-f1_keywords:
-- msctf/ITfQueryEmbedded
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfQueryEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfQueryEmbedded
+ - msctf/ITfQueryEmbedded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfQueryEmbedded
 ---
 
 # ITfQueryEmbedded interface
@@ -48,40 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfQueryEmbedded</b> interface is implemented by the TSF manager and used by a text service to determine if a context can accept an embedded object.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfQueryEmbedded</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfQueryEmbedded</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfQueryEmbedded</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfqueryembedded-queryinsertembedded">QueryInsertEmbedded</a>
-</td>
-<td align="left" width="63%">
-Determines if the active context can accept an embedded object.
-
-</td>
-</tr>
-</table> 
-
+The <b>ITfQueryEmbedded</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfQueryEmbedded</b> also has these types of members:
 
 ## -remarks
-
-
 
 To obtain an instance of this interface, call the <b>ITfContext::QueryInterface</b> method with IID_ITfQueryEmbedded.
 
@@ -89,7 +64,7 @@ To obtain an instance of this interface, call the <b>ITfContext::QueryInterface<
 #### Examples
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
           </a>
 
 
@@ -110,22 +85,11 @@ if(SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

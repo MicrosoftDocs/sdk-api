@@ -1,16 +1,13 @@
 ---
 UID: NF:comadmin.ICatalogCollection.PopulateByQuery
 title: ICatalogCollection::PopulateByQuery (comadmin.h)
-description: Reserved for future use.
+description: Reserved for future use. (ICatalogCollection.PopulateByQuery)
+helpviewer_keywords: ["ICatalogCollection interface [COM+]","PopulateByQuery method","ICatalogCollection.PopulateByQuery","ICatalogCollection::PopulateByQuery","PopulateByQuery","PopulateByQuery method [COM+]","PopulateByQuery method [COM+]","ICatalogCollection interface","_cos_ICatalogCollection_PopulateByQuery","comadmin/ICatalogCollection::PopulateByQuery","cos.icatalogcollection_populatebyquery"]
 old-location: cos\icatalogcollection_populatebyquery.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 30e4bb16-f99f-4541-a70a-64eb285df7b6
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByQuery method, ICatalogCollection.PopulateByQuery, ICatalogCollection::PopulateByQuery, PopulateByQuery, PopulateByQuery method [COM+], PopulateByQuery method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByQuery, comadmin/ICatalogCollection::PopulateByQuery, cos.icatalogcollection_populatebyquery
-f1_keywords:
-- comadmin/ICatalogCollection.PopulateByQuery
-dev_langs:
-- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComAdmin.h
-api_name:
-- ICatalogCollection.PopulateByQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICatalogCollection::PopulateByQuery
+ - comadmin/ICatalogCollection::PopulateByQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComAdmin.h
+api_name:
+ - ICatalogCollection.PopulateByQuery
 ---
 
 # ICatalogCollection::PopulateByQuery
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reserved for future use.
-
 
 ## -parameters
 
-
-
-
 ### -param bstrQueryString [in]
-
 
 ### -param lQueryType [in]
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -97,18 +90,7 @@ Errors occurred while accessing one or more objects.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

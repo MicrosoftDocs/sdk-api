@@ -2,15 +2,12 @@
 UID: NF:resapi.ClusterClearBackupStateForSharedVolume
 title: ClusterClearBackupStateForSharedVolume function (resapi.h)
 description: Clears the backup state for the cluster shared volume.
+helpviewer_keywords: ["ClusterClearBackupStateForSharedVolume","ClusterClearBackupStateForSharedVolume function [Failover Cluster]","PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME","PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster]","mscs.clusterclearbackupstateforsharedvolume","resapi/ClusterClearBackupStateForSharedVolume","resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME"]
 old-location: mscs\clusterclearbackupstateforsharedvolume.htm
 tech.root: MsCS
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4
 ms.date: 12/05/2018
 ms.keywords: ClusterClearBackupStateForSharedVolume, ClusterClearBackupStateForSharedVolume function [Failover Cluster], PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/ClusterClearBackupStateForSharedVolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
-f1_keywords:
-- resapi/ClusterClearBackupStateForSharedVolume
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.Lib
 req.dll: ResUtils.Dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.Dll
-api_name:
-- ClusterClearBackupStateForSharedVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterClearBackupStateForSharedVolume
+ - resapi/ClusterClearBackupStateForSharedVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.Dll
+api_name:
+ - ClusterClearBackupStateForSharedVolume
 ---
 
 # ClusterClearBackupStateForSharedVolume function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clears the backup state for the cluster shared volume (CSV). The <b>PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME</b> type defines a pointer to this function.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszVolumePathName [in]
 
@@ -63,29 +60,21 @@ Path to a file on a CSV. If the path is not a CSV path,
       <b>ClusterClearBackupStateForSharedVolume</b> 
       will return <b>ERROR_INVALID_PARAMETER</b> (87).
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b> (0).
 
 If the function fails, it returns one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
-
-
-
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
-
-
 
 The 
     <b>ClusterClearBackupStateForSharedVolume</b> 
     function must be called from a node of the cluster.
 
 Normally, when a backup job completes, the CSV "Backup in Progress" state (set by 
-    <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusterpreparesharedvolumeforbackup">ClusterPrepareSharedVolumeForBackup</a>) 
+    <a href="/windows/desktop/api/resapi/nf-resapi-clusterpreparesharedvolumeforbackup">ClusterPrepareSharedVolumeForBackup</a>) 
     is automatically cleared—meaning that the CSV volume is unpinned from this Cluster node and 
     direct I/O is re-enabled. If the backup process is terminated after the call to 
     <b>ClusterPrepareSharedVolumeForBackup</b> 
@@ -104,27 +93,18 @@ Normally, when a backup job completes, the CSV "Backup in Progress" state (set b
      <b>ClusterClearBackupStateForSharedVolume</b>.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backing-up-and-restoring-the-failover-cluster-configuration-using-vss">Backing Up and Restoring the Failover Cluster Configuration Using VSS</a>
+<a href="/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/backup-and-restore-functions">Backup and Restore Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-shared-volume-backup-mode">CLUSCTL_RESOURCE_SET_SHARED_VOLUME_BACKUP_MODE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>

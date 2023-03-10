@@ -2,15 +2,12 @@
 UID: NF:roapi.RoGetApartmentIdentifier
 title: RoGetApartmentIdentifier function (roapi.h)
 description: Gets a unique identifier for the current apartment.
+helpviewer_keywords: ["RoGetApartmentIdentifier","RoGetApartmentIdentifier function [Windows Runtime]","roapi/RoGetApartmentIdentifier","winrt.rogetapartmentidentifier"]
 old-location: winrt\rogetapartmentidentifier.htm
 tech.root: WinRT
 ms.assetid: C10AE81B-21AB-4B0A-9463-A36C7A1893C7
 ms.date: 12/05/2018
 ms.keywords: RoGetApartmentIdentifier, RoGetApartmentIdentifier function [Windows Runtime], roapi/RoGetApartmentIdentifier, winrt.rogetapartmentidentifier
-f1_keywords:
-- roapi/RoGetApartmentIdentifier
-dev_langs:
-- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-l1-1-0.dll
-api_name:
-- RoGetApartmentIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoGetApartmentIdentifier
+ - roapi/RoGetApartmentIdentifier
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-l1-1-0.dll
+api_name:
+ - RoGetApartmentIdentifier
 ---
 
 # RoGetApartmentIdentifier function
@@ -49,44 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a unique identifier for the current apartment.
 
-
 ## -parameters
-
-
-
 
 ### -param apartmentIdentifier [out]
 
 A process-unique identifier for the current apartment.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a>
+<a href="/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rounregisterforapartmentshutdown">RoUnregisterForApartmentShutdown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/roapi/nf-roapi-rounregisterforapartmentshutdown">RoUnregisterForApartmentShutdown</a>

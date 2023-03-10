@@ -2,15 +2,12 @@
 UID: NF:ocidl.IConnectionPoint.GetConnectionInterface
 title: IConnectionPoint::GetConnectionInterface (ocidl.h)
 description: Retrieves the IID of the outgoing interface managed by this connection point.
+helpviewer_keywords: ["GetConnectionInterface","GetConnectionInterface method [COM]","GetConnectionInterface method [COM]","IConnectionPoint interface","IConnectionPoint interface [COM]","GetConnectionInterface method","IConnectionPoint.GetConnectionInterface","IConnectionPoint::GetConnectionInterface","_com_iconnectionpoint_getconnectioninterface","com.iconnectionpoint_getconnectioninterface","ocidl/IConnectionPoint::GetConnectionInterface"]
 old-location: com\iconnectionpoint_getconnectioninterface.htm
 tech.root: com
 ms.assetid: d97bda43-0d4f-4ae2-b3d8-2c47d25de01a
 ms.date: 12/05/2018
 ms.keywords: GetConnectionInterface, GetConnectionInterface method [COM], GetConnectionInterface method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],GetConnectionInterface method, IConnectionPoint.GetConnectionInterface, IConnectionPoint::GetConnectionInterface, _com_iconnectionpoint_getconnectioninterface, com.iconnectionpoint_getconnectioninterface, ocidl/IConnectionPoint::GetConnectionInterface
-f1_keywords:
-- ocidl/IConnectionPoint.GetConnectionInterface
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IConnectionPoint.GetConnectionInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConnectionPoint::GetConnectionInterface
+ - ocidl/IConnectionPoint::GetConnectionInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IConnectionPoint.GetConnectionInterface
 ---
 
 # IConnectionPoint::GetConnectionInterface
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the IID of the outgoing interface managed by this connection point.
 
-
 ## -parameters
-
-
-
 
 ### -param pIID [out]
 
 A pointer to the identifier of the outgoing interface managed by this connection point.
 
-
 ## -returns
-
-
 
 This method can return the standard return value E_UNEXPECTED, as well as the following values.
 
@@ -96,30 +90,14 @@ The address in <i>pIID</i> is not valid. For example, it may be <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Using the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a> interface, a client can obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface. Using that pointer and the <b>GetConnectionInterface</b> method, the client can determine the IID of each connection point enumerated. The IID returned from this method must enable the caller to access this same connection point through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">IConnectionPointContainer::FindConnectionPoint</a>.
+Using the <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a> interface, a client can obtain a pointer to the <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface. Using that pointer and the <b>GetConnectionInterface</b> method, the client can determine the IID of each connection point enumerated. The IID returned from this method must enable the caller to access this same connection point through <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">IConnectionPointContainer::FindConnectionPoint</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 This method must be implemented in any connection point; E_NOTIMPL is not an acceptable return value.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>

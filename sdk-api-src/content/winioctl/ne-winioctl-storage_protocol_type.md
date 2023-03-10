@@ -2,15 +2,12 @@
 UID: NE:winioctl._STORAGE_PROTOCOL_TYPE
 title: STORAGE_PROTOCOL_TYPE
 description: Specifies the protocol of a storage device.
+helpviewer_keywords: ["*PSTORAGE_PROTOCOL_TYPE","PSTORAGE_PROTOCOL_TYPE","PSTORAGE_PROTOCOL_TYPE enumeration pointer [Files]","ProtocolTypeAta","ProtocolTypeMaxReserved","ProtocolTypeNvme","ProtocolTypeProprietary","ProtocolTypeScsi","ProtocolTypeSd","ProtocolTypeUnknown","STORAGE_PROTOCOL_TYPE","_STORAGE_PROTOCOL_TYPE","_STORAGE_PROTOCOL_TYPE enumeration [Files]","fs.storage_protocol_type","winioctl/PSTORAGE_PROTOCOL_TYPE","winioctl/ProtocolTypeAta","winioctl/ProtocolTypeMaxReserved","winioctl/ProtocolTypeNvme","winioctl/ProtocolTypeProprietary","winioctl/ProtocolTypeScsi","winioctl/ProtocolTypeSd","winioctl/ProtocolTypeUnknown","winioctl/_STORAGE_PROTOCOL_TYPE"]
 old-location: fs\storage_protocol_type.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8055B633-99EF-4AAE-AA80-FC09F357BEAB
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL_TYPE, PSTORAGE_PROTOCOL_TYPE enumeration pointer [Files], ProtocolTypeAta, ProtocolTypeMaxReserved, ProtocolTypeNvme, ProtocolTypeProprietary, ProtocolTypeScsi, ProtocolTypeSd, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE, _STORAGE_PROTOCOL_TYPE enumeration [Files], fs.storage_protocol_type, winioctl/PSTORAGE_PROTOCOL_TYPE, winioctl/ProtocolTypeAta, winioctl/ProtocolTypeMaxReserved, winioctl/ProtocolTypeNvme, winioctl/ProtocolTypeProprietary, winioctl/ProtocolTypeScsi, winioctl/ProtocolTypeSd, winioctl/ProtocolTypeUnknown, winioctl/_STORAGE_PROTOCOL_TYPE'
-f1_keywords:
-- winioctl/STORAGE_PROTOCOL_TYPE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- STORAGE_PROTOCOL_TYPE
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_TYPE, *PSTORAGE_PROTOCOL_TYPE
 req.redist: 
+f1_keywords:
+ - _STORAGE_PROTOCOL_TYPE
+ - winioctl/_STORAGE_PROTOCOL_TYPE
+ - PSTORAGE_PROTOCOL_TYPE
+ - winioctl/PSTORAGE_PROTOCOL_TYPE
+ - STORAGE_PROTOCOL_TYPE
+ - winioctl/STORAGE_PROTOCOL_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - STORAGE_PROTOCOL_TYPE
 ---
 
 # STORAGE_PROTOCOL_TYPE enumeration
@@ -47,49 +53,37 @@ req.redist:
 
 ## -description
 
-
 Specifies the protocol of a storage device.
-
 
 ## -enum-fields
 
-
-
-
-### -field ProtocolTypeUnknown
+### -field ProtocolTypeUnknown:0x00
 
 Unknown protocol type.
-
 
 ### -field ProtocolTypeScsi
 
 SCSI protocol type.
 
-
 ### -field ProtocolTypeAta
 
 ATA protocol type.
-
 
 ### -field ProtocolTypeNvme
 
 NVMe protocol type.
 
-
 ### -field ProtocolTypeSd
 
 SD protocol type.
 
-
 ### -field ProtocolTypeUfs
 
-
-### -field ProtocolTypeProprietary
+### -field ProtocolTypeProprietary:0x7E
 
  Vendor-specific protocol type.
 
-
-### -field ProtocolTypeMaxReserved
+### -field ProtocolTypeMaxReserved:0x7F
 
 Reserved.
 

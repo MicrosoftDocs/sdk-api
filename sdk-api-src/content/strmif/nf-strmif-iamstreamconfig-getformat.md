@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMStreamConfig.GetFormat
 title: IAMStreamConfig::GetFormat (strmif.h)
 description: The GetFormat method retrieves the current or preferred output format.
+helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IAMStreamConfig interface","IAMStreamConfig interface [DirectShow]","GetFormat method","IAMStreamConfig.GetFormat","IAMStreamConfig::GetFormat","IAMStreamConfigGetFormat","dshow.iamstreamconfig_getformat","strmif/IAMStreamConfig::GetFormat"]
 old-location: dshow\iamstreamconfig_getformat.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
-f1_keywords:
-- strmif/IAMStreamConfig.GetFormat
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMStreamConfig.GetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMStreamConfig::GetFormat
+ - strmif/IAMStreamConfig::GetFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMStreamConfig.GetFormat
 ---
 
 # IAMStreamConfig::GetFormat
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetFormat</code> method retrieves the current or preferred output format.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppmt [out]
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
-
+Address of a pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -122,25 +113,19 @@ The input pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If the pin is connected, this method returns the format that the pin is currently using. Otherwise, the method returns the pin's preferred format for the next pin connection. If you have already called the <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">IAMStreamConfig::SetFormat</a> method to set the format, <code>GetFormat</code> returns the same format. If not, it returns the first format in the pin's list of preferred formats, as determined by the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">IPin::EnumMediaTypes</a> method.
 
-
-If the pin is connected, this method returns the format that the pin is currently using. Otherwise, the method returns the pin's preferred format for the next pin connection. If you have already called the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-setformat">IAMStreamConfig::SetFormat</a> method to set the format, <code>GetFormat</code> returns the same format. If not, it returns the first format in the pin's list of preferred formats, as determined by the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">IPin::EnumMediaTypes</a> method.
-
-The method allocates the memory for the <b>AM_MEDIA_TYPE</b> structure, fills in the structure, and returns it in the <i>pmt</i> parameter. The caller must release the memory, including the format block. You can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> helper function in the base class library.
+The method allocates the memory for the <b>AM_MEDIA_TYPE</b> structure, fills in the structure, and returns it in the <i>pmt</i> parameter. The caller must release the memory, including the format block. You can use the <a href="/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> helper function in the base class library.
 
 On some compression filters, the method fails if the filter's input pin is not connected.
 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -162,19 +147,10 @@ pConfig-&gt;Release();
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateService.get_ExpirationDate
 title: IUpdateService::get_ExpirationDate (wuapi.h)
 description: Gets the date on which the authorization cabinet file expires.
+helpviewer_keywords: ["ExpirationDate property [Windows Update Agent]","ExpirationDate property [Windows Update Agent]","IUpdateService interface","IUpdateService interface [Windows Update Agent]","ExpirationDate property","IUpdateService.ExpirationDate","IUpdateService.get_ExpirationDate","IUpdateService::ExpirationDate","IUpdateService::get_ExpirationDate","get_ExpirationDate","wua.iupdateservice_expirationdate","wua.iupdateservice_expirydate","wuapi/IUpdateService::ExpirationDate","wuapi/IUpdateService::get_ExpirationDate"]
 old-location: wua\iupdateservice_expirationdate.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: d13444bc-671b-4b3a-a970-0660ef63a4d8
 ms.date: 12/05/2018
 ms.keywords: ExpirationDate property [Windows Update Agent], ExpirationDate property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],ExpirationDate property, IUpdateService.ExpirationDate, IUpdateService.get_ExpirationDate, IUpdateService::ExpirationDate, IUpdateService::get_ExpirationDate, get_ExpirationDate, wua.iupdateservice_expirationdate, wua.iupdateservice_expirydate, wuapi/IUpdateService::ExpirationDate, wuapi/IUpdateService::get_ExpirationDate
-f1_keywords:
-- wuapi/IUpdateService.ExpirationDate
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateService.ExpirationDate
-- IUpdateService.get_ExpirationDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateService::get_ExpirationDate
+ - wuapi/IUpdateService::get_ExpirationDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateService.ExpirationDate
+ - IUpdateService.get_ExpirationDate
 ---
 
 # IUpdateService::get_ExpirationDate
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the date on which the authorization cabinet file expires.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

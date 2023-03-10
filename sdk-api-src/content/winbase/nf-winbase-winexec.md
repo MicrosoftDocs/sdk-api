@@ -2,15 +2,12 @@
 UID: NF:winbase.WinExec
 title: WinExec function (winbase.h)
 description: Runs the specified application.
+helpviewer_keywords: ["WinExec","WinExec function","_win32_winexec","base.winexec","winbase/WinExec"]
 old-location: base\winexec.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 00ac3bd8-59d3-4f7f-8720-e57d05cee056
 ms.date: 12/05/2018
 ms.keywords: WinExec, WinExec function, _win32_winexec, base.winexec, winbase/WinExec
-f1_keywords:
-- winbase/WinExec
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,25 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- WinExec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinExec
+ - winbase/WinExec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - WinExec
+req.apiset: ext-ms-win-kernel32-process-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # WinExec function
@@ -48,15 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Runs the specified application.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows. Applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div><div> </div>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param lpCmdLine [in]
 
@@ -69,21 +68,18 @@ The command line (file name plus optional parameters) for the application to be 
 <li>The directory from which the application loaded.</li>
 <li>The current directory.</li>
 <li>The Windows system directory. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function retrieves the path of this directory.</li>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya">GetSystemDirectory</a> function retrieves the path of this directory.</li>
 <li>The Windows directory. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function retrieves the path of this directory.</li>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a> function retrieves the path of this directory.</li>
 <li>The directories listed in the PATH environment variable.</li>
 </ol>
 
 ### -param uCmdShow [in]
 
 The display options. For a list of the acceptable values, see the description of the <i>nCmdShow</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function.
-
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is greater than 31.
 
@@ -139,42 +135,35 @@ The specified path was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The 
-<b>WinExec</b> function returns when the started process calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
+<b>WinExec</b> function returns when the started process calls the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> function or a time-out limit is reached. To avoid waiting for the time out delay, call the <b>GetMessage</b> function as soon as possible in any process started by a call to 
 <b>WinExec</b>.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The executable name is treated as the first white space-delimited string in <i>lpCmdLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".
 
-<pre class="syntax" xml:space="preserve"><code>WinExec("C:\\Program Files\\MyApp", ...)</code></pre>
+
+``` syntax
+WinExec("C:\\Program Files\\MyApp", ...)
+```
+
 If a malicious user were to create an application called "Program.exe" on a system, any program that incorrectly calls 
 <b>WinExec</b> using the Program Files directory will run this application instead of the intended application.
 
 To avoid this problem, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> rather than 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> rather than 
 <b>WinExec</b>. However, if you must use 
 <b>WinExec</b> for legacy reasons, make sure the application name is enclosed in quotation marks as shown in the example below.
 
-<pre class="syntax" xml:space="preserve"><code>WinExec("\"C:\\Program Files\\MyApp.exe\" -L -S", ...)</code></pre>
 
+``` syntax
+WinExec("\"C:\\Program Files\\MyApp.exe\" -L -S", ...)
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
- 
-
- 
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>

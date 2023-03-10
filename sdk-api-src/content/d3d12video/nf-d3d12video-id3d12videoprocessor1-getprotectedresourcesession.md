@@ -1,12 +1,10 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessor1.GetProtectedResourceSession
 title: ID3D12VideoProcessor1::GetProtectedResourceSession
+description: Gets the ID3D12ProtectedResourceSession that was passed into ID3D12VideoDevice2::CreateVideoProcessor1 when the ID3D12VideoProcessor1 was created.
+tech.root: mf
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoProcessor1::GetProtectedResourceSession
-f1_keywords:
-- ID3D12VideoProcessor1::GetProtectedResourceSession
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -21,33 +19,45 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - ID3D12VideoProcessor1::GetProtectedResourceSession
+ - d3d12video/ID3D12VideoProcessor1::GetProtectedResourceSession
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- d3d12video.h
+ - d3d12video.h
 api_name:
-- ID3D12VideoProcessor1::GetProtectedResourceSession
+ - ID3D12VideoProcessor1::GetProtectedResourceSession
 ---
 
 ## -description
+
+Gets the [ID3D12ProtectedResourceSession](../d3d12/nn-d3d12-id3d12protectedresourcesession.md) that was passed into [ID3D12VideoDevice2::CreateVideoProcessor1](nf-d3d12video-id3d12videodevice2-createvideoprocessor1.md) when the [ID3D12VideoProcessor1](nn-d3d12video-id3d12videoprocessor1.md) was created.
 
 ## -parameters
 
 ### -param riid
 
+The globally unique identifier (GUID) for the **ID3D12ProtectedResourceSession** interface.
+
 ### -param ppProtectedSession
 
+Receives a void pointer representing the **ID3D12ProtectedResourceSession** interface.
+
 ## -returns
+
+This method returns HRESULT.
 
 ## -remarks
 
 ## -see-also
-

@@ -2,15 +2,12 @@
 UID: NF:propvarutil.InitVariantFromInt64Array
 title: InitVariantFromInt64Array function (propvarutil.h)
 description: Initializes a VARIANT structure with an array of 64-bit integer values.
+helpviewer_keywords: ["InitVariantFromInt64Array","InitVariantFromInt64Array function [Windows Properties]","_shell_InitVariantFromInt64Array","properties.InitVariantFromInt64Array","propvarutil/InitVariantFromInt64Array","shell.InitVariantFromInt64Array"]
 old-location: properties\InitVariantFromInt64Array.htm
 tech.root: properties
 ms.assetid: 18e9c804-b5e4-4abe-adcd-eaa402c6c94a
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromInt64Array, InitVariantFromInt64Array function [Windows Properties], _shell_InitVariantFromInt64Array, properties.InitVariantFromInt64Array, propvarutil/InitVariantFromInt64Array, shell.InitVariantFromInt64Array
-f1_keywords:
-- propvarutil/InitVariantFromInt64Array
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- InitVariantFromInt64Array
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - InitVariantFromInt64Array
+ - propvarutil/InitVariantFromInt64Array
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - InitVariantFromInt64Array
 ---
 
 # InitVariantFromInt64Array function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with an array of 64-bit integer values.
-
+Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with an array of 64-bit integer values.
 
 ## -parameters
-
-
-
 
 ### -param prgn [in]
 
 Type: <b>const LONGLONG*</b>
 
 Pointer to the source array of <b>LONGLONG</b> values.
-
 
 ### -param cElems [in]
 
@@ -72,35 +68,26 @@ The number of elements in the array pointed to by <i>prgn</i>.
 
 The number of array elements.
 
-
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
-
+When this function returns, contains the initialized <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 Creates a VT_ARRAY | VT_I8 variant.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromint64array">InitVariantFromInt64Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromint64array">InitVariantFromInt64Array</a>.
 
 
 ```cpp
@@ -116,25 +103,14 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint64vector">InitPropVariantFromInt64Vector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint64vector">InitPropVariantFromInt64Vector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromint64">InitVariantFromInt64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromint64">InitVariantFromInt64</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint64array">VariantToInt64Array</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint64array">VariantToInt64Array</a>

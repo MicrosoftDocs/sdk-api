@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferSink3.get_VideoAnalysisFilter
 title: IMSVidStreamBufferSink3::get_VideoAnalysisFilter (segment.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_VideoAnalysisFilter method","IMSVidStreamBufferSink3.get_VideoAnalysisFilter","IMSVidStreamBufferSink3::get_VideoAnalysisFilter","IMSVidStreamBufferSink3get_VideoAnalysisFilter","get_VideoAnalysisFilter","get_VideoAnalysisFilter method [Microsoft TV Technologies]","get_VideoAnalysisFilter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_videoanalysisfilter","segment/IMSVidStreamBufferSink3::get_VideoAnalysisFilter"]
 old-location: mstv\imsvidstreambuffersink3_get_videoanalysisfilter.htm
 tech.root: mstv
 ms.assetid: 4f4080d3-4092-4a36-9e2e-5a53bffe9ee3
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_VideoAnalysisFilter method, IMSVidStreamBufferSink3.get_VideoAnalysisFilter, IMSVidStreamBufferSink3::get_VideoAnalysisFilter, IMSVidStreamBufferSink3get_VideoAnalysisFilter, get_VideoAnalysisFilter, get_VideoAnalysisFilter method [Microsoft TV Technologies], get_VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_videoanalysisfilter, segment/IMSVidStreamBufferSink3::get_VideoAnalysisFilter
-f1_keywords:
-- segment/IMSVidStreamBufferSink3.get_VideoAnalysisFilter
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSink3.get_VideoAnalysisFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSink3::get_VideoAnalysisFilter
+ - segment/IMSVidStreamBufferSink3::get_VideoAnalysisFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSink3.get_VideoAnalysisFilter
 ---
 
 # IMSVidStreamBufferSink3::get_VideoAnalysisFilter
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -57,33 +57,16 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 Not implemented in this release.
 
-
 ## -parameters
-
-
-
 
 ### -param pszCLSID
 
 Reserved.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 Interface</a>

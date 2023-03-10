@@ -4,7 +4,7 @@ title: Kernel-Mode Driver Reference
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Kernel-Mode Driver Reference
@@ -18,5 +18,4 @@ To develop Kernel-Mode Driver Reference, you need these headers:
  * [ntdef.h](../ntdef/index.md)
 
 For programming guidance for this technology, see:
-* [Kernel-Mode Driver Reference](https://docs.microsoft.com/windows-hardware/drivers/kernel/)
-
+* [Kernel-Mode Driver Reference](/windows-hardware/drivers/kernel/)

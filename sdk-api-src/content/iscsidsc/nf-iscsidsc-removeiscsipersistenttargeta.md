@@ -1,16 +1,13 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiPersistentTargetA
 title: RemoveIScsiPersistentTargetA function (iscsidsc.h)
-description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
+description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal. (ANSI)
+helpviewer_keywords: ["RemoveIScsiPersistentTargetA", "RemoveIscsiPersistentTargetA", "iscsidsc/RemoveIscsiPersistentTargetA"]
 old-location: iscsidisc\removeiscsipersistenttarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 2522f906-2a91-4d5b-8d6b-86e22c707046
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiPersistentTargetA, RemoveIscsiPersistentTarget, RemoveIscsiPersistentTarget function [iSCSI Discovery Library API], RemoveIscsiPersistentTargetA, RemoveIscsiPersistentTargetW, iscsidisc.removeiscsipersistenttarget, iscsidsc/RemoveIscsiPersistentTarget, iscsidsc/RemoveIscsiPersistentTargetA, iscsidsc/RemoveIscsiPersistentTargetW
-f1_keywords:
-- iscsidsc/RemoveIscsiPersistentTarget
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- RemoveIscsiPersistentTarget
-- RemoveIscsiPersistentTargetA
-- RemoveIscsiPersistentTargetW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveIScsiPersistentTargetA
+ - iscsidsc/RemoveIScsiPersistentTargetA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - RemoveIscsiPersistentTarget
+ - RemoveIscsiPersistentTargetA
+ - RemoveIscsiPersistentTargetW
 ---
 
 # RemoveIScsiPersistentTargetA function
@@ -50,73 +52,55 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RemoveIscsiPersistentTarget</b> function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
-
 
 ## -parameters
 
-
-
-
 ### -param InitiatorInstance [in]
 
-The name of the initiator that maintains the persistent login to remove. 
-
+The name of the initiator that maintains the persistent login to remove.
 
 ### -param InitiatorPortNumber [in, optional]
 
-The port number on which the initiator connects to <i>TargetName</i>. If <i>InitiatorPortNumber</i> is <b>ISCSI_ALL_INITIATOR_PORTS</b> the miniport driver for the initiator HBA removes the <i>TargetName</i> from the persistent login lists for all initiator ports. 
-
-
+The port number on which the initiator connects to <i>TargetName</i>. If <i>InitiatorPortNumber</i> is <b>ISCSI_ALL_INITIATOR_PORTS</b> the miniport driver for the initiator HBA removes the <i>TargetName</i> from the persistent login lists for all initiator ports.
 
 ### -param TargetName [in]
 
 The name of the target.
 
-
 ### -param Portal [in]
 
-The portal through which the initiator connects to the target. If <i>Portal</i> is <b>null</b> or contains no information, the miniport driver for the initiator HBA removes persistent logins for the target on all portals. 
-
+The portal through which the initiator connects to the target. If <i>Portal</i> is <b>null</b> or contains no information, the miniport driver for the initiator HBA removes persistent logins for the target on all portals.
 
 ## -returns
 
-
-
 Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appropriate Win32 or iSCSI error code.
-
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addpersistentiscsidevicea">AddPersistentIscsiDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addpersistentiscsidevicea">AddPersistentIscsiDevice</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-clearpersistentiscsidevices">ClearPersistentIscsiDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-clearpersistentiscsidevices">ClearPersistentIscsiDevices</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removepersistentiscsidevicea">RemovePersistentIscsiDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removepersistentiscsidevicea">RemovePersistentIscsiDevice</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsipersistentloginsa">ReportIscsiPersistentLogins</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsipersistentloginsa">ReportIscsiPersistentLogins</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportpersistentiscsidevicesa">ReportPersistentIscsiDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportpersistentiscsidevicesa">ReportPersistentIscsiDevices</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-setuppersistentiscsidevices">SetupPersistentIscsiDevices</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-setuppersistentiscsidevices">SetupPersistentIscsiDevices</a>
- 
-
- 
-
+> [!NOTE]
+> The iscsidsc.h header defines RemoveIScsiPersistentTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

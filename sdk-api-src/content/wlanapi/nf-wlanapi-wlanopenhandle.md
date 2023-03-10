@@ -2,15 +2,12 @@
 UID: NF:wlanapi.WlanOpenHandle
 title: WlanOpenHandle function (wlanapi.h)
 description: Opens a connection to the server.
+helpviewer_keywords: ["WlanOpenHandle","WlanOpenHandle function [NativeWIFI]","nwifi.wlanopenhandle","wlanapi/WlanOpenHandle"]
 old-location: nwifi\wlanopenhandle.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb
 ms.date: 12/05/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
-f1_keywords:
-- wlanapi/WlanOpenHandle
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
-api_name:
-- WlanOpenHandle
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanOpenHandle
+ - wlanapi/WlanOpenHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+ - WlanOpenHandle
 ---
 
 # WlanOpenHandle function
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanOpenHandle</b> function opens a connection to the server.
 
-
 ## -parameters
-
-
-
 
 ### -param dwClientVersion [in]
 
@@ -90,27 +87,20 @@ Client version for Windows Vista and Windows Server 2008
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pReserved
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ### -param pdwNegotiatedVersion [out]
 
 The version of the WLAN API that will be used in this session.  This value is usually the highest version supported by both the client and server.
-
 
 ### -param phClientHandle [out]
 
 A handle for the client to use in this session.  This handle is used by other functions throughout the session.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -166,29 +156,13 @@ Too many handles have been issued by the server.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The version number specified by <i>dwClientVersion</i> and <i>pdwNegotiatedVersion</i> is a composite version number made up of both major and minor versions. The major version is specified by the low-order word, and the minor version is specified by the high-order word. The macros <code>WLAN_API_VERSION_MAJOR(_v)</code> and <code>WLAN_API_VERSION_MINOR(_v)</code> return the major and minor version numbers respectively. You can construct a version number using the macro <code>WLAN_API_MAKE_VERSION(_major, _minor)</code>.
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b><b>WlanOpenHandle</b> will return an error message if the Wireless Zero Configuration (WZC) service has not been started or if the WZC service is not responsive.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a>

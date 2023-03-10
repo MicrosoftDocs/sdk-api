@@ -2,15 +2,12 @@
 UID: NF:imapi2.DDiscMaster2Events.NotifyDeviceAdded
 title: DDiscMaster2Events::NotifyDeviceAdded (imapi2.h)
 description: Receives notification when an optical media device is added to the computer.
+helpviewer_keywords: ["DDiscMaster2Events interface [IMAPI]","NotifyDeviceAdded method","DDiscMaster2Events.NotifyDeviceAdded","DDiscMaster2Events::NotifyDeviceAdded","NotifyDeviceAdded","NotifyDeviceAdded method [IMAPI]","NotifyDeviceAdded method [IMAPI]","DDiscMaster2Events interface","imapi.ddiscmaster2events_notifydeviceadded","imapi2/DDiscMaster2Events::NotifyDeviceAdded"]
 old-location: imapi\ddiscmaster2events_notifydeviceadded.htm
 tech.root: imapi
 ms.assetid: 1f728b33-3788-4fc4-b261-da243b4ff46e
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceAdded method, DDiscMaster2Events.NotifyDeviceAdded, DDiscMaster2Events::NotifyDeviceAdded, NotifyDeviceAdded, NotifyDeviceAdded method [IMAPI], NotifyDeviceAdded method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceadded, imapi2/DDiscMaster2Events::NotifyDeviceAdded
-f1_keywords:
-- imapi2/DDiscMaster2Events.NotifyDeviceAdded
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- DDiscMaster2Events.NotifyDeviceAdded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DDiscMaster2Events::NotifyDeviceAdded
+ - imapi2/DDiscMaster2Events::NotifyDeviceAdded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - DDiscMaster2Events.NotifyDeviceAdded
 ---
 
 # DDiscMaster2Events::NotifyDeviceAdded
@@ -48,47 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-Receives notification when an optical media device is added to the computer. 
-
+Receives notification when an optical media device is added to the computer.
 
 ## -parameters
 
-
-
-
 ### -param object [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a> interface that you can use to enumerate the devices on the computer. 
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a> interface that you can use to enumerate the devices on the computer. 
 
 This parameter is a <b>MsftDiscMaster2</b> object in script.
-
 
 ### -param uniqueId [in]
 
 String that contains an identifier that uniquely identifies the optical media device that was added to the computer.
 
-
 ## -returns
-
-
 
 Return values are ignored.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscmaster2events">DDiscMaster2Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscmaster2events">DDiscMaster2Events</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>

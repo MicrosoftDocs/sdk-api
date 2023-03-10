@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509PolicyServerUrl.SetStringProperty
 title: IX509PolicyServerUrl::SetStringProperty (certenroll.h)
 description: Specifies the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
+helpviewer_keywords: ["IX509PolicyServerUrl interface [Security]","SetStringProperty method","IX509PolicyServerUrl.SetStringProperty","IX509PolicyServerUrl::SetStringProperty","PsFriendlyName","PsPolicyID","SetStringProperty","SetStringProperty method [Security]","SetStringProperty method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::SetStringProperty","security.ix509policyserverurl_setstringproperty"]
 old-location: security\ix509policyserverurl_setstringproperty.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: b02ca192-274a-4d15-8c16-4975134c92b4
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerUrl interface [Security],SetStringProperty method, IX509PolicyServerUrl.SetStringProperty, IX509PolicyServerUrl::SetStringProperty, PsFriendlyName, PsPolicyID, SetStringProperty, SetStringProperty method [Security], SetStringProperty method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::SetStringProperty, security.ix509policyserverurl_setstringproperty
-f1_keywords:
-- certenroll/IX509PolicyServerUrl.SetStringProperty
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.h
-api_name:
-- IX509PolicyServerUrl.SetStringProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509PolicyServerUrl::SetStringProperty
+ - certenroll/IX509PolicyServerUrl::SetStringProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.h
+api_name:
+ - IX509PolicyServerUrl.SetStringProperty
 ---
 
 # IX509PolicyServerUrl::SetStringProperty
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetStringProperty</b> method specifies the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
-
 
 ## -parameters
 
-
-
-
 ### -param propertyId [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-policyserverurlpropertyid">PolicyServerUrlPropertyID</a> value that specifies the string to set. This can be one of the following values.
+A <a href="/windows/desktop/api/certenroll/ne-certenroll-policyserverurlpropertyid">PolicyServerUrlPropertyID</a> value that specifies the string to set. This can be one of the following values.
 
 <table>
 <tr>
@@ -87,21 +84,16 @@ Set a display name for the policy server.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pValue [in]
 
 A <b>BSTR</b> variable that receives the property value.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -131,18 +123,7 @@ Memory could not be allocated for the property value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>

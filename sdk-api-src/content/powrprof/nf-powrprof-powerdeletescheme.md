@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerDeleteScheme
 title: PowerDeleteScheme function (powrprof.h)
 description: Deletes the specified power scheme from the database.
+helpviewer_keywords: ["PowerDeleteScheme","PowerDeleteScheme function","base.powerdeletescheme","powrprof/PowerDeleteScheme"]
 old-location: base\powerdeletescheme.htm
-tech.root: power
+tech.root: base
 ms.assetid: 5f9969a1-e598-4ca8-a5b8-f8bb3410223d
 ms.date: 12/05/2018
 ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletescheme, powrprof/PowerDeleteScheme
-f1_keywords:
-- powrprof/PowerDeleteScheme
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerDeleteScheme
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerDeleteScheme
+ - powrprof/PowerDeleteScheme
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerDeleteScheme
 ---
 
 # PowerDeleteScheme function
@@ -48,42 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified power scheme from the database.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemeGuid [in]
 
 The identifier of the power scheme.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

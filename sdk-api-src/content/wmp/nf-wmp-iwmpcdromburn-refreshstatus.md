@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCdromBurn.refreshStatus
 title: IWMPCdromBurn::refreshStatus (wmp.h)
 description: The refreshStatus method updates the status information for the current burn playlist.
+helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","refreshStatus method","IWMPCdromBurn.refreshStatus","IWMPCdromBurn::refreshStatus","IWMPCdromBurnrefreshStatus","refreshStatus","refreshStatus method [Windows Media Player]","refreshStatus method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_refreshstatus","wmp/IWMPCdromBurn::refreshStatus"]
 old-location: wmp\iwmpcdromburn_refreshstatus.htm
 tech.root: WMP
 ms.assetid: 7a1ca071-0a61-4ef5-b8c1-18336cf5b1b0
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],refreshStatus method, IWMPCdromBurn.refreshStatus, IWMPCdromBurn::refreshStatus, IWMPCdromBurnrefreshStatus, refreshStatus, refreshStatus method [Windows Media Player], refreshStatus method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_refreshstatus, wmp/IWMPCdromBurn::refreshStatus
-f1_keywords:
-- wmp/IWMPCdromBurn.refreshStatus
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCdromBurn.refreshStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCdromBurn::refreshStatus
+ - wmp/IWMPCdromBurn::refreshStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCdromBurn.refreshStatus
 ---
 
 # IWMPCdromBurn::refreshStatus
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>refreshStatus</b> method updates the status information for the current burn playlist.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,14 +75,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You should call this method after you create or change a burn playlist before reading status information or burning the CD. You can test whether a refresh is required by calling <b>get_burnState</b> and checking for wmpbsRefreshStatusPending.
 
@@ -100,24 +84,14 @@ Refreshing the status is a synchronous operation. This means that a lengthy peri
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate">IWMPCdromBurn::get_burnState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-get_burnstate">IWMPCdromBurn::get_burnState</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmpburnstate">WMPBurnState</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/ne-wmp-wmpburnstate">WMPBurnState</a>

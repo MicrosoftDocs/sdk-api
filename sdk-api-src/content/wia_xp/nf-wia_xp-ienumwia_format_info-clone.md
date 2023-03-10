@@ -2,15 +2,12 @@
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Clone
 title: IEnumWIA_FORMAT_INFO::Clone (wia_xp.h)
 description: The IEnumWIA_FORMAT_INFO::Clone method creates an additional instance of the IEnumWIA_FORMAT_INFO interface and returns an interface pointer to the new interface.
+helpviewer_keywords: ["Clone","Clone method [WIA]","Clone method [WIA]","IEnumWIA_FORMAT_INFO interface","IEnumWIA_FORMAT_INFO interface [WIA]","Clone method","IEnumWIA_FORMAT_INFO.Clone","IEnumWIA_FORMAT_INFO::Clone","_wia_IEnumWIA_FORMAT_INFO_Clone","wia._wia_IEnumWIA_FORMAT_INFO_Clone","wia_xp/IEnumWIA_FORMAT_INFO::Clone"]
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Clone.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_format_info\clone.htm
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWIA_FORMAT_INFO interface, IEnumWIA_FORMAT_INFO interface [WIA],Clone method, IEnumWIA_FORMAT_INFO.Clone, IEnumWIA_FORMAT_INFO::Clone, _wia_IEnumWIA_FORMAT_INFO_Clone, wia._wia_IEnumWIA_FORMAT_INFO_Clone, wia_xp/IEnumWIA_FORMAT_INFO::Clone
-f1_keywords:
-- wia_xp/IEnumWIA_FORMAT_INFO.Clone
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaguid.lib
-- Wiaguid.dll
-api_name:
-- IEnumWIA_FORMAT_INFO.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumWIA_FORMAT_INFO::Clone
+ - wia_xp/IEnumWIA_FORMAT_INFO::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaguid.lib
+ - Wiaguid.dll
+api_name:
+ - IEnumWIA_FORMAT_INFO.Clone
 ---
 
 # IEnumWIA_FORMAT_INFO::Clone
@@ -49,38 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface and returns an interface pointer to the new interface.
-
+The <b>IEnumWIA_FORMAT_INFO::Clone</b> method creates an additional instance of the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface and returns an interface pointer to the new interface.
 
 ## -parameters
 
-
-
-
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a>**</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a>**</b>
 
-Pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface. 
-
+Pointer to a new <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnum</i> parameter.
-
-
-
+Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnum</i> parameter.

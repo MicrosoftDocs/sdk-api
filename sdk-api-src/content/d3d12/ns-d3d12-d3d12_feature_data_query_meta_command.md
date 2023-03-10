@@ -2,12 +2,10 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_QUERY_META_COMMAND
 title: D3D12_FEATURE_DATA_QUERY_META_COMMAND
 description: Indicates the level of support that the adapter provides for metacommands.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_QUERY_META_COMMAND"]
+tech.root: direct3d12
 ms.date: 09/19/2019
 ms.keywords: D3D12_FEATURE_DATA_QUERY_META_COMMAND
-f1_keywords:
-- d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -18,20 +16,25 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: D3D12_FEATURE_DATA_QUERY_META_COMMAND
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - D3D12_FEATURE_DATA_QUERY_META_COMMAND
+ - d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- d3d12.h
+ - d3d12.h
 api_name:
-- D3D12_FEATURE_DATA_QUERY_META_COMMAND
+ - D3D12_FEATURE_DATA_QUERY_META_COMMAND
 ---
 
 ## -description
@@ -42,9 +45,9 @@ Indicates the level of support that the adapter provides for metacommands.
 
 ### -field CommandId
 
-Type: <b>[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)</b>
+Type: <b>[GUID](../guiddef/ns-guiddef-guid.md)</b>
 
-The fixed GUID that identfies the metacommand to query about.
+The fixed GUID that identifies the metacommand to query about.
 
 ### -field NodeMask
 

@@ -1,16 +1,13 @@
 ---
 UID: NS:netioapi._MIB_IF_ROW2
 title: MIB_IF_ROW2 (netioapi.h)
-description: Stores information about a particular interface.
+description: Stores information about a particular interface. (MIB_IF_ROW2)
+helpviewer_keywords: ["*PMIB_IF_ROW2","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_FDDI","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_IEEE80216_WMAN","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","IF_TYPE_WWANPP","IF_TYPE_WWANPP2","IfOperStatusDormant","IfOperStatusDown","IfOperStatusLowerLayerDown","IfOperStatusNotPresent","IfOperStatusTesting","IfOperStatusUnknown","IfOperStatusUp","MIB_IF_ROW2","MIB_IF_ROW2 structure [MIB]","MediaConnectStateConnected","MediaConnectStateDisconnected","MediaConnectStateUnknown","NET_IF_ACCESS_BROADCAST","NET_IF_ACCESS_LOOPBACK","NET_IF_ACCESS_MAXIMUM","NET_IF_ACCESS_POINT_TO_MULTI_POINT","NET_IF_ACCESS_POINT_TO_POINT","NET_IF_ADMIN_STATUS_DOWN","NET_IF_ADMIN_STATUS_TESTING","NET_IF_ADMIN_STATUS_UP","NET_IF_CONNECTION_DEDICATED","NET_IF_CONNECTION_DEMAND","NET_IF_CONNECTION_MAXIMUM","NET_IF_CONNECTION_PASSIVE","NET_IF_DIRECTION_MAXIMUM","NET_IF_DIRECTION_RECEIVEONLY","NET_IF_DIRECTION_SENDONLY","NET_IF_DIRECTION_SENDRECEIVE","NdisMedium1394","NdisMedium802_3","NdisMedium802_5","NdisMediumArcnet878_2","NdisMediumArcnetRaw","NdisMediumAtm","NdisMediumBpc","NdisMediumCoWan","NdisMediumDix","NdisMediumFddi","NdisMediumInfiniBand","NdisMediumIrda","NdisMediumLocalTalk","NdisMediumLoopback","NdisMediumNative802_11","NdisMediumTunnel","NdisMediumWan","NdisMediumWiMax","NdisMediumWirelessWan","NdisPhysicalMedium1394","NdisPhysicalMedium802_3","NdisPhysicalMedium802_5","NdisPhysicalMediumBluetooth","NdisPhysicalMediumCableModem","NdisPhysicalMediumDSL","NdisPhysicalMediumFibreChannel","NdisPhysicalMediumInfiniband","NdisPhysicalMediumIrda","NdisPhysicalMediumNative802_11","NdisPhysicalMediumOther","NdisPhysicalMediumPhoneLine","NdisPhysicalMediumPowerLine","NdisPhysicalMediumUWB","NdisPhysicalMediumUnspecified","NdisPhysicalMediumWiMax","NdisPhysicalMediumWiredCoWan","NdisPhysicalMediumWiredWAN","NdisPhysicalMediumWirelessLan","NdisPhysicalMediumWirelessWan","PMIB_IF_ROW2","PMIB_IF_ROW2 structure pointer [MIB]","TUNNEL_TYPE_6TO4","TUNNEL_TYPE_DIRECT","TUNNEL_TYPE_ISATAP","TUNNEL_TYPE_NONE","TUNNEL_TYPE_OTHER","TUNNEL_TYPE_TEREDO","_MIB_IF_ROW2","mib.mib_if_row2","netioapi/MIB_IF_ROW2","netioapi/PMIB_IF_ROW2"]
 old-location: mib\mib_if_row2.htm
 tech.root: MIB
 ms.assetid: e8bb79f9-e7e9-470b-8883-36d08061661b
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IF_ROW2, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_IEEE80216_WMAN, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IF_TYPE_WWANPP, IF_TYPE_WWANPP2, IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, MIB_IF_ROW2, MIB_IF_ROW2 structure [MIB], MediaConnectStateConnected, MediaConnectStateDisconnected, MediaConnectStateUnknown, NET_IF_ACCESS_BROADCAST, NET_IF_ACCESS_LOOPBACK, NET_IF_ACCESS_MAXIMUM, NET_IF_ACCESS_POINT_TO_MULTI_POINT, NET_IF_ACCESS_POINT_TO_POINT, NET_IF_ADMIN_STATUS_DOWN, NET_IF_ADMIN_STATUS_TESTING, NET_IF_ADMIN_STATUS_UP, NET_IF_CONNECTION_DEDICATED, NET_IF_CONNECTION_DEMAND, NET_IF_CONNECTION_MAXIMUM, NET_IF_CONNECTION_PASSIVE, NET_IF_DIRECTION_MAXIMUM, NET_IF_DIRECTION_RECEIVEONLY, NET_IF_DIRECTION_SENDONLY, NET_IF_DIRECTION_SENDRECEIVE, NdisMedium1394, NdisMedium802_3, NdisMedium802_5, NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, NdisMediumBpc, NdisMediumCoWan, NdisMediumDix, NdisMediumFddi, NdisMediumInfiniBand, NdisMediumIrda, NdisMediumLocalTalk, NdisMediumLoopback, NdisMediumNative802_11, NdisMediumTunnel, NdisMediumWan, NdisMediumWiMax, NdisMediumWirelessWan, NdisPhysicalMedium1394, NdisPhysicalMedium802_3, NdisPhysicalMedium802_5, NdisPhysicalMediumBluetooth, NdisPhysicalMediumCableModem, NdisPhysicalMediumDSL, NdisPhysicalMediumFibreChannel, NdisPhysicalMediumInfiniband, NdisPhysicalMediumIrda, NdisPhysicalMediumNative802_11, NdisPhysicalMediumOther, NdisPhysicalMediumPhoneLine, NdisPhysicalMediumPowerLine, NdisPhysicalMediumUWB, NdisPhysicalMediumUnspecified, NdisPhysicalMediumWiMax, NdisPhysicalMediumWiredCoWan, NdisPhysicalMediumWiredWAN, NdisPhysicalMediumWirelessLan, NdisPhysicalMediumWirelessWan, PMIB_IF_ROW2, PMIB_IF_ROW2 structure pointer [MIB], TUNNEL_TYPE_6TO4, TUNNEL_TYPE_DIRECT, TUNNEL_TYPE_ISATAP, TUNNEL_TYPE_NONE, TUNNEL_TYPE_OTHER, TUNNEL_TYPE_TEREDO, _MIB_IF_ROW2, mib.mib_if_row2, netioapi/MIB_IF_ROW2, netioapi/PMIB_IF_ROW2'
-f1_keywords:
-- netioapi/MIB_IF_ROW2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_IF_ROW2
 targetos: Windows
 req.typenames: MIB_IF_ROW2, *PMIB_IF_ROW2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IF_ROW2
+ - netioapi/_MIB_IF_ROW2
+ - PMIB_IF_ROW2
+ - netioapi/PMIB_IF_ROW2
+ - MIB_IF_ROW2
+ - netioapi/MIB_IF_ROW2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_IF_ROW2
 ---
 
 # MIB_IF_ROW2 structure
@@ -48,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_IF_ROW2</b> structure stores information about a particular interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InterfaceLuid
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a></b>
+Type: <b><a href="/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a></b>
 
 The locally unique identifier (LUID) for the network interface.
-
 
 ### -field InterfaceIndex
 
@@ -71,13 +71,11 @@ Type: <b>NET_IFINDEX</b>
 
 The index that identifies the network interface. This index value may change when a network adapter is disabled and then enabled, and should not be considered persistent.
 
-
 ### -field InterfaceGuid
 
 Type: <b>GUID</b>
 
 The GUID for the network interface.
-
 
 ### -field Alias
 
@@ -85,13 +83,11 @@ Type: <b>WCHAR[IF_MAX_STRING_SIZE + 1]</b>
 
 A NULL-terminated Unicode string that  contains the alias name of the network interface.
 
-
 ### -field Description
 
 Type: <b>WCHAR[IF_MAX_STRING_SIZE + 1]</b>
 
 A NULL-terminated Unicode string that contains a description of the network interface.
-
 
 ### -field PhysicalAddressLength
 
@@ -99,33 +95,29 @@ Type: <b>ULONG</b>
 
 The length, in bytes, of the physical hardware address specified by the <b>PhysicalAddress</b> member.
 
-
 ### -field PhysicalAddress
 
 Type: <b> UCHAR[IF_MAX_PHYS_ADDRESS_LENGTH]</b>
 
 The physical hardware address of the adapter for this network interface.
 
-
 ### -field PermanentPhysicalAddress
 
 Type: <b> UCHAR[IF_MAX_PHYS_ADDRESS_LENGTH]</b>
 
-The permanent physical hardware address of the adapter for this network interface. 
-
+The permanent physical hardware address of the adapter for this network interface.
 
 ### -field Mtu
 
 Type: <b>ULONG</b>
 
-The maximum transmission unit (MTU) size, in bytes, for this network interface. 
-
+The maximum transmission unit (MTU) size, in bytes, for this network interface.
 
 ### -field Type
 
 Type: <b>IFTYPE</b>
 
-The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file.
+The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file.
 
 The table below lists common values for the interface type although many other values are possible. 
 
@@ -284,14 +276,12 @@ A mobile broadband interface for CDMA-based devices.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TunnelType
 
 Type: <b>TUNNEL_TYPE</b>
 
-The encapsulation method used by a tunnel if the <b>Type</b> member is <b>IF_TYPE_TUNNEL</b>. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The encapsulation method used by a tunnel if the <b>Type</b> member is <b>IF_TYPE_TUNNEL</b>. The tunnel type is defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. This member can be one of the values from the <b>TUNNEL_TYPE</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>
@@ -373,8 +363,6 @@ Teredo encapsulation.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MediaType
 
@@ -607,8 +595,6 @@ An WiMax network.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PhysicalMediumType
 
@@ -844,8 +830,6 @@ Packets are transferred over a network that is not described by other possible v
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AccessType
 
@@ -918,8 +902,6 @@ The maximum possible value for the <b>NET_IF_ACCESS_TYPE</b> enumeration type. T
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DirectionType
 
@@ -978,13 +960,10 @@ The maximum possible value for the <b>NET_IF_DIRECTION_TYPE</b> enumeration type
 </td>
 </tr>
 </table>
- 
-
 
 ### -field InterfaceAndOperStatusFlags
 
-A set of flags that provide information about the interface. These flags are combined with a bitwise OR operation. If none of the flags applies, then this member is set to zero. 
-
+A set of flags that provide information about the interface. These flags are combined with a bitwise OR operation. If none of the flags applies, then this member is set to zero.
 
 ### -field InterfaceAndOperStatusFlags.HardwareInterface
 
@@ -992,28 +971,24 @@ A set of flags that provide information about the interface. These flags are com
 </b>
 Set if the network interface is for hardware.
 
-
 ### -field InterfaceAndOperStatusFlags.FilterInterface
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network interface is for a filter module.
 
-
 ### -field InterfaceAndOperStatusFlags.ConnectorPresent
 
 <b>Type: <b>BOOLEAN</b>
 </b>
-Set if a connector is present on the network interface. This value is set if there is a physical network adapter. 
-
+Set if a connector is present on the network interface. This value is set if there is a physical network adapter.
 
 ### -field InterfaceAndOperStatusFlags.NotAuthenticated
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the default port for the network interface is not authenticated. If a network interface is not authenticated by the target, then the network interface is not in an operational mode.
-Although this applies to both wired and wireless network connections, authentication is more common for wireless network connections. 
-
+Although this applies to both wired and wireless network connections, authentication is more common for wireless network connections.
 
 ### -field InterfaceAndOperStatusFlags.NotMediaConnected
 
@@ -1021,13 +996,11 @@ Although this applies to both wired and wireless network connections, authentica
 </b>
 Set if the network interface is not in a media-connected state. If a network cable is unplugged for a wired network, this would be set. For a wireless network, this is set for the network adapter that is not connected to a network.
 
-
 ### -field InterfaceAndOperStatusFlags.Paused
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network stack for the network interface is in the paused or pausing state. This does not mean that the computer is in a hibernated state.
-
 
 ### -field InterfaceAndOperStatusFlags.LowPower
 
@@ -1035,19 +1008,17 @@ Set if the network stack for the network interface is in the paused or pausing s
 </b>
 Set if the network interface is in a low power state.
 
-
 ### -field InterfaceAndOperStatusFlags.EndPointInterface
 
 <b>Type: <b>BOOLEAN</b>
 </b>
 Set if the network interface is an endpoint device and not a true network interface that connects to a network. This can be set by devices such as smart phones which use networking infrastructure to communicate to the PC but do not provide connectivity to an external network. It is mandatory for these types of devices to set this flag.
 
-
 ### -field OperStatus
 
 Type: <b>IF_OPER_STATUS</b>
 
-The operational status for the interface as defined in RFC 2863 as  IfOperStatus.  For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The operational status for the interface as defined in RFC 2863 as  IfOperStatus.  For more information, see <a href="https://www.ietf.org/rfc/rfc2863.txt">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>IF_OPER_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>
@@ -1151,14 +1122,12 @@ A refinement on the <b>IfOperStatusDown</b> state.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AdminStatus
 
 Type: <b>NET_IF_ADMIN_STATUS</b>
 
-The administrative status for the interface as defined in RFC 2863. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84054">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>NET_IF_ADMIN_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
+The administrative status for the interface as defined in RFC 2863. For more information, see <a href="https://www.ietf.org/rfc/rfc2863.txt">http://www.ietf.org/rfc/rfc2863.txt</a>. This member can be one of the values from the <b>NET_IF_ADMIN_STATUS</b> enumeration type defined in the <i>Ifdef.h</i> header file.
 
 <table>
 <tr>
@@ -1199,8 +1168,6 @@ The interface is in a test mode, and no network data can be transmitted or recei
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MediaConnectState
 
@@ -1247,15 +1214,12 @@ The interface is not connected to the network.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NetworkGuid
 
 Type: <b>NET_IF_NETWORK_GUID</b>
 
 The GUID that is associated with the network that the interface belongs to.
-
 
 ### -field ConnectionType
 
@@ -1315,8 +1279,6 @@ The maximum possible value for the <b>NET_IF_CONNECTION_TYPE</b> enumeration typ
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TransmitLinkSpeed
 
@@ -1324,13 +1286,11 @@ Type: <b>ULONG64</b>
 
 The speed in bits per second of the transmit link.
 
-
 ### -field ReceiveLinkSpeed
 
 Type: <b>ULONG64</b>
 
 The speed in bits per second of the receive link.
-
 
 ### -field InOctets
 
@@ -1338,13 +1298,11 @@ Type: <b>ULONG64</b>
 
 The number of octets of data received without errors through this interface. This value includes octets in unicast, broadcast, and multicast packets.
 
-
 ### -field InUcastPkts
 
 Type: <b>ULONG64</b>
 
 The number of unicast packets received without errors through this interface.
-
 
 ### -field InNUcastPkts
 
@@ -1352,16 +1310,11 @@ Type: <b>ULONG64</b>
 
 The number of non-unicast packets received without errors through this interface. This value includes broadcast and multicast packets.
 
-
 ### -field InDiscards
 
 Type: <b>ULONG64</b>
 
 The number of inbound packets which were chosen to be discarded even though no errors were detected to prevent the packets from being deliverable to a higher-layer protocol.
-
- 
-
-
 
 ### -field InErrors
 
@@ -1369,13 +1322,11 @@ Type: <b>ULONG64</b>
 
 The number of incoming packets that were discarded because of errors.
 
-
 ### -field InUnknownProtos
 
 Type: <b>ULONG64</b>
 
 The number of incoming packets that were discarded because the protocol was unknown.
-
 
 ### -field InUcastOctets
 
@@ -1383,13 +1334,11 @@ Type: <b>ULONG64</b>
 
 The number of octets of data received without errors in unicast packets through this interface.
 
-
 ### -field InMulticastOctets
 
 Type: <b>ULONG64</b>
 
 The number of octets of data received without errors in multicast packets through this interface.
-
 
 ### -field InBroadcastOctets
 
@@ -1397,13 +1346,11 @@ Type: <b>ULONG64</b>
 
 The number of octets of data received without errors in broadcast packets through this interface.
 
-
 ### -field OutOctets
 
 Type: <b>ULONG64</b>
 
 The number of octets of data transmitted without errors through this interface. This value includes octets in unicast, broadcast, and multicast packets.
-
 
 ### -field OutUcastPkts
 
@@ -1411,13 +1358,11 @@ Type: <b>ULONG64</b>
 
 The number of unicast packets transmitted without errors through this interface.
 
-
 ### -field OutNUcastPkts
 
 Type: <b>ULONG64</b>
 
 The number of non-unicast packets transmitted without errors through this interface. This value includes broadcast and multicast packets.
-
 
 ### -field OutDiscards
 
@@ -1425,13 +1370,11 @@ Type: <b>ULONG64</b>
 
 The number of outgoing packets that were discarded even though they did not have errors.
 
-
 ### -field OutErrors
 
 Type: <b>ULONG64</b>
 
 The number of outgoing packets that were discarded because of errors.
-
 
 ### -field OutUcastOctets
 
@@ -1439,13 +1382,11 @@ Type: <b>ULONG64</b>
 
 The number of octets of data transmitted without errors  in unicast packets through this interface.
 
-
 ### -field OutMulticastOctets
 
 Type: <b>ULONG64</b>
 
 The number of octets of data transmitted without errors in multicast packets through this interface.
-
 
 ### -field OutBroadcastOctets
 
@@ -1453,17 +1394,13 @@ Type: <b>ULONG64</b>
 
 The number of octets of data transmitted without errors in broadcast packets through this interface.
 
-
 ### -field OutQLen
 
 Type: <b>ULONG64</b>
 
 The transmit queue length. This field is not currently used.
 
-
 ## -remarks
-
-
 
 The <b>MIB_IF_ROW2</b> structure is defined on Windows Vista and later. 
 
@@ -1471,36 +1408,26 @@ The values for the <b>Type</b> field are defined in the <i>Ipifcons.h</i> header
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>

@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorManager.RequestPermissions
 title: ISensorManager::RequestPermissions (sensorsapi.h)
 description: Opens a system dialog box to request user permission to access sensor data.
+helpviewer_keywords: ["FALSE","ISensorManager interface","RequestPermissions method","ISensorManager.RequestPermissions","ISensorManager::RequestPermissions","RequestPermissions","RequestPermissions method","RequestPermissions method","ISensorManager interface","TRUE","sensorsapi/ISensorManager::RequestPermissions","winsensors_com_ref.Isensormanager_requestpermissions"]
 old-location: winsensors_com_ref\Isensormanager_requestpermissions.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 6a21820c-4f13-4220-ad13-34d0226597b6
 ms.date: 12/05/2018
 ms.keywords: FALSE, ISensorManager interface,RequestPermissions method, ISensorManager.RequestPermissions, ISensorManager::RequestPermissions, RequestPermissions, RequestPermissions method, RequestPermissions method,ISensorManager interface, TRUE, sensorsapi/ISensorManager::RequestPermissions, winsensors_com_ref.Isensormanager_requestpermissions
-f1_keywords:
-- sensorsapi/ISensorManager.RequestPermissions
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorManager.RequestPermissions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorManager::RequestPermissions
+ - sensorsapi/ISensorManager::RequestPermissions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorManager.RequestPermissions
 ---
 
 # ISensorManager::RequestPermissions
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a system dialog box to request user permission to access sensor data.
 
-
 ## -parameters
-
-
-
 
 ### -param hParent [in]
 
@@ -63,13 +60,11 @@ For Windows 8, if <i>hParent</i> is provided a value, then the dialog will be m
 
 For Windows 7, <b>HWND</b> is handle to a window that can act as a parent to the permissions dialog box. Must be <b>NULL</b> if <i>fModal</i> is <b>TRUE</b>.
 
-
 ### -param pSensors [in]
 
 For Windows 8, this value is not used.
 
-For Windows 7, <i>pSensors</i> is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a> interface that contains the list of sensors for which permission is being requested.
-
+For Windows 7, <i>pSensors</i> is a pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a> interface that contains the list of sensors for which permission is being requested.
 
 ### -param fModal [in]
 
@@ -107,12 +102,8 @@ The <i>hParent</i> parameter is ignored.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The following table describes return codes for  synchronous results.
 
@@ -220,14 +211,8 @@ All sensors in the sensor collection were previously disabled by the user. The d
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Making a synchronous call from the user interface (UI) thread of a Windows application can block the UI thread and make the application less responsive. To prevent this, do not call this method from the UI thread with <i>fModal</i> set to <b>TRUE</b>.
 
@@ -238,7 +223,7 @@ Making a synchronous call from the user interface (UI) thread of a Windows appli
 
 #### Examples
 
-The following example code requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will only prompt the user to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged">ISensorEvents::OnStateChanged</a> event. For additional examles that demonstrate how to request permissions, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>.
+The following example code requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will only prompt the user to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged">ISensorEvents::OnStateChanged</a> event. For additional examples that demonstrate how to request permissions, see <a href="/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>.
 
 
 ```cpp
@@ -255,25 +240,14 @@ if(SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
+<a href="/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>
- 
-
- 
-
+<a href="/windows/desktop/SensorsAPI/requesting-user-permissions">Requesting User Permissions</a>

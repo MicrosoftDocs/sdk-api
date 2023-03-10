@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireSettings.GetAcquisitionTime
 title: IPhotoAcquireSettings::GetAcquisitionTime (photoacquire.h)
 description: The GetAcquisitionTime method retrieves the acquisition time of the current session.
+helpviewer_keywords: ["GetAcquisitionTime","GetAcquisitionTime method [Picture Acquisition]","GetAcquisitionTime method [Picture Acquisition]","IPhotoAcquireSettings interface","IPhotoAcquireSettings interface [Picture Acquisition]","GetAcquisitionTime method","IPhotoAcquireSettings.GetAcquisitionTime","IPhotoAcquireSettings::GetAcquisitionTime","IPhotoAcquireSettingsGetAcquisitionTime","photoacquire/IPhotoAcquireSettings::GetAcquisitionTime","picacq.iphotoacquiresettings_getacquisitiontime"]
 old-location: picacq\iphotoacquiresettings_getacquisitiontime.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 0acafc4d-e4f5-4dce-a192-18d27024ad83
 ms.date: 12/05/2018
 ms.keywords: GetAcquisitionTime, GetAcquisitionTime method [Picture Acquisition], GetAcquisitionTime method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetAcquisitionTime method, IPhotoAcquireSettings.GetAcquisitionTime, IPhotoAcquireSettings::GetAcquisitionTime, IPhotoAcquireSettingsGetAcquisitionTime, photoacquire/IPhotoAcquireSettings::GetAcquisitionTime, picacq.iphotoacquiresettings_getacquisitiontime
-f1_keywords:
-- photoacquire/IPhotoAcquireSettings.GetAcquisitionTime
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSettings.GetAcquisitionTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSettings::GetAcquisitionTime
+ - photoacquire/IPhotoAcquireSettings::GetAcquisitionTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSettings.GetAcquisitionTime
 ---
 
 # IPhotoAcquireSettings::GetAcquisitionTime
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetAcquisitionTime</code> method retrieves the acquisition time of the current session.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pftAcquisitionTime [out]
 
 Specifies acquisition time.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,31 +91,15 @@ A non-NULL value was expected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If not set explicitly, the acquisition time defaults to the current machine time.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setacquisitiontime">SetAcquisitionTime</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setacquisitiontime">SetAcquisitionTime</a>

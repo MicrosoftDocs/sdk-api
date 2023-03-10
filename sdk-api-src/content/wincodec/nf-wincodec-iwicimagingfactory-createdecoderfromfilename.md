@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromFilename
 title: IWICImagingFactory::CreateDecoderFromFilename (wincodec.h)
 description: Creates a new instance of the IWICBitmapDecoder class based on the given file.
+helpviewer_keywords: ["CreateDecoderFromFilename","CreateDecoderFromFilename method [Windows Imaging Component]","CreateDecoderFromFilename method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateDecoderFromFilename method","IWICImagingFactory.CreateDecoderFromFilename","IWICImagingFactory::CreateDecoderFromFilename","_wic_codec_iwicimagingfactory_createdecoderfromfilename","wic._wic_codec_iwicimagingfactory_createdecoderfromfilename","wincodec/IWICImagingFactory::CreateDecoderFromFilename"]
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilename.htm
 tech.root: wic
 ms.assetid: 100c54c7-bb10-47dd-8436-04282ec6b110
 ms.date: 12/05/2018
 ms.keywords: CreateDecoderFromFilename, CreateDecoderFromFilename method [Windows Imaging Component], CreateDecoderFromFilename method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFilename method, IWICImagingFactory.CreateDecoderFromFilename, IWICImagingFactory::CreateDecoderFromFilename, _wic_codec_iwicimagingfactory_createdecoderfromfilename, wic._wic_codec_iwicimagingfactory_createdecoderfromfilename, wincodec/IWICImagingFactory::CreateDecoderFromFilename
-f1_keywords:
-- wincodec/IWICImagingFactory.CreateDecoderFromFilename
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.lib
-- Windowscodecs.dll
-api_name:
-- IWICImagingFactory.CreateDecoderFromFilename
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICImagingFactory::CreateDecoderFromFilename
+ - wincodec/IWICImagingFactory::CreateDecoderFromFilename
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.lib
+ - Windowscodecs.dll
+api_name:
+ - IWICImagingFactory.CreateDecoderFromFilename
 ---
 
 # IWICImagingFactory::CreateDecoderFromFilename
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> class based on the given file.
-
+Creates a new instance of the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> class based on the given file.
 
 ## -parameters
-
-
-
 
 ### -param wzFilename [in]
 
@@ -64,13 +61,11 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a null-terminated string that specifies the name of an object to create or open.
 
-
 ### -param pguidVendor [in]
 
 Type: <b>const GUID*</b>
 
 The GUID for the preferred decoder vendor. Use <b>NULL</b> if no preferred vendor.
-
 
 ### -param dwDesiredAccess [in]
 
@@ -109,30 +104,22 @@ Write access.
 </table>
  
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>.
-
+For more information, see <a href="/windows/desktop/SecAuthZ/generic-access-rights">Generic Access Rights</a>.
 
 ### -param metadataOptions [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicdecodeoptions">WICDecodeOptions</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicdecodeoptions">WICDecodeOptions</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicdecodeoptions">WICDecodeOptions</a> to use when creating the decoder.
-
+The <a href="/windows/desktop/api/wincodec/ne-wincodec-wicdecodeoptions">WICDecodeOptions</a> to use when creating the decoder.
 
 ### -param ppIDecoder [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>**</b>
 
-A pointer that receives a pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>.
-
+A pointer that receives a pointer to the new <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

@@ -1,16 +1,13 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_PrefetchSize
 title: IFaxOutgoingMessageIterator::get_PrefetchSize (faxcomex.h)
-description: The IFaxOutgoingMessageIterator::get_PrefetchSize property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.
+description: The IFaxOutgoingMessageIterator::get_PrefetchSize property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents. (Get)
+helpviewer_keywords: ["IFaxOutgoingMessageIterator interface [Fax Service]","PrefetchSize property","IFaxOutgoingMessageIterator.PrefetchSize","IFaxOutgoingMessageIterator.get_PrefetchSize","IFaxOutgoingMessageIterator.put_PrefetchSize","IFaxOutgoingMessageIterator::PrefetchSize","IFaxOutgoingMessageIterator::get_PrefetchSize","IFaxOutgoingMessageIterator::put_PrefetchSize","PrefetchSize property [Fax Service]","PrefetchSize property [Fax Service]","IFaxOutgoingMessageIterator interface","_mfax_faxoutgoingmessageiterator.prefetchsize","fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp","fax._mfax_faxoutgoingmessageiterator_prefetchsize","faxcomex/IFaxOutgoingMessageIterator::PrefetchSize","faxcomex/IFaxOutgoingMessageIterator::get_PrefetchSize","faxcomex/IFaxOutgoingMessageIterator::put_PrefetchSize","get_PrefetchSize","lDEFAULT_PREFETCH_SIZE"]
 old-location: fax\_mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_12w5.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessageIterator interface [Fax Service],PrefetchSize property, IFaxOutgoingMessageIterator.PrefetchSize, IFaxOutgoingMessageIterator.get_PrefetchSize, IFaxOutgoingMessageIterator.put_PrefetchSize, IFaxOutgoingMessageIterator::PrefetchSize, IFaxOutgoingMessageIterator::get_PrefetchSize, IFaxOutgoingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxOutgoingMessageIterator interface, _mfax_faxoutgoingmessageiterator.prefetchsize, fax._mfax_faxoutgoingmessageiterator_cpp_mfax_faxoutgoingmessageiterator_prefetchsize_cpp, fax._mfax_faxoutgoingmessageiterator_prefetchsize, faxcomex/IFaxOutgoingMessageIterator::PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::get_PrefetchSize, faxcomex/IFaxOutgoingMessageIterator::put_PrefetchSize, get_PrefetchSize, lDEFAULT_PREFETCH_SIZE
-f1_keywords:
-- faxcomex/IFaxOutgoingMessageIterator.PrefetchSize
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxOutgoingMessageIterator.PrefetchSize
-- IFaxOutgoingMessageIterator.get_PrefetchSize
-- IFaxOutgoingMessageIterator.put_PrefetchSize
-- IFaxOutgoingMessageIterator.get_PrefetchSize
-- IFaxOutgoingMessageIterator.put_PrefetchSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxOutgoingMessageIterator::get_PrefetchSize
+ - faxcomex/IFaxOutgoingMessageIterator::get_PrefetchSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxOutgoingMessageIterator.PrefetchSize
+ - IFaxOutgoingMessageIterator.get_PrefetchSize
+ - IFaxOutgoingMessageIterator.put_PrefetchSize
+ - IFaxOutgoingMessageIterator.get_PrefetchSize
+ - IFaxOutgoingMessageIterator.put_PrefetchSize
 ---
 
 # IFaxOutgoingMessageIterator::get_PrefetchSize
@@ -52,34 +54,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxOutgoingMessageIterator::get_PrefetchSize</b> property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessageiterator">FaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessageiterator">FaxOutgoingMessageIterator</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessageiterator">IFaxOutgoingMessageIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessageiterator">IFaxOutgoingMessageIterator</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ldefault-prefetch-size">lDEFAULT_PREFETCH_SIZE</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-ldefault-prefetch-size">lDEFAULT_PREFETCH_SIZE</a>

@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFDeserializePresentationDescriptor
 title: MFDeserializePresentationDescriptor function (mfidl.h)
 description: Deserializes a presentation descriptor from a byte array.
+helpviewer_keywords: ["4f567b86-bce2-49fe-9d43-d1dfa57a86cb","MFDeserializePresentationDescriptor","MFDeserializePresentationDescriptor function [Media Foundation]","mf.mfdeserializepresentationdescriptor","mfidl/MFDeserializePresentationDescriptor"]
 old-location: mf\mfdeserializepresentationdescriptor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb
 ms.date: 12/05/2018
 ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDescriptor, MFDeserializePresentationDescriptor function [Media Foundation], mf.mfdeserializepresentationdescriptor, mfidl/MFDeserializePresentationDescriptor
-f1_keywords:
-- mfidl/MFDeserializePresentationDescriptor
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFDeserializePresentationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFDeserializePresentationDescriptor
+ - mfidl/MFDeserializePresentationDescriptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFDeserializePresentationDescriptor
 ---
 
 # MFDeserializePresentationDescriptor function
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Deserializes a presentation descriptor from a byte array.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param cbData
 
 Size of the <i>pbData</i> array, in bytes.
 
-
 ### -param pbData
 
 Pointer to an array of bytes that contains the serialized presentation descriptor.
 
-
 ### -param ppPD
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor. The caller must release the interface.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,22 +87,11 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfserializepresentationdescriptor">MFSerializePresentationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfserializepresentationdescriptor">MFSerializePresentationDescriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

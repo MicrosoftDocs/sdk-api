@@ -2,15 +2,12 @@
 UID: NF:azroles.IAzApplicationGroup2.RoleAssignments
 title: IAzApplicationGroup2::RoleAssignments (azroles.h)
 description: Gets a collection of IAzRoleAssignment objects associated with this application group.
+helpviewer_keywords: ["IAzApplicationGroup2 interface [Security]","RoleAssignments property","IAzApplicationGroup2.RoleAssignments","IAzApplicationGroup2::RoleAssignments","IAzApplicationGroup2::get_RoleAssignments","RoleAssignments","RoleAssignments property [Security]","RoleAssignments property [Security]","IAzApplicationGroup2 interface","azroles/IAzApplicationGroup2::RoleAssignments","azroles/IAzApplicationGroup2::get_RoleAssignments","security.iazapplicationgroup2_roleassignments_method"]
 old-location: security\iazapplicationgroup2_roleassignments_method.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 4996fb10-7b46-48e4-8028-a24ae4072bec
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroup2 interface [Security],RoleAssignments property, IAzApplicationGroup2.RoleAssignments, IAzApplicationGroup2::RoleAssignments, IAzApplicationGroup2::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplicationGroup2 interface, azroles/IAzApplicationGroup2::RoleAssignments, azroles/IAzApplicationGroup2::get_RoleAssignments, security.iazapplicationgroup2_roleassignments_method
-f1_keywords:
-- azroles/IAzApplicationGroup2.RoleAssignments
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.h
-api_name:
-- IAzApplicationGroup2.RoleAssignments
-- IAzApplicationGroup2.get_RoleAssignments
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplicationGroup2::RoleAssignments
+ - azroles/IAzApplicationGroup2::RoleAssignments
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.h
+api_name:
+ - IAzApplicationGroup2.RoleAssignments
+ - IAzApplicationGroup2.get_RoleAssignments
 ---
 
 # IAzApplicationGroup2::RoleAssignments
@@ -49,11 +51,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b> RoleAssignments</b> method gets a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects associated with this application group.
+The <b> RoleAssignments</b> method gets a collection of <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects associated with this application group.
 
 This property is read-only.
 
-
 ## -parameters
-

@@ -2,15 +2,12 @@
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnGetAccessibilityRole
 title: INameSpaceTreeAccessible::OnGetAccessibilityRole (shobjidl.h)
 description: Gets the accessibility role for a Shell item.
+helpviewer_keywords: ["INameSpaceTreeAccessible interface [Windows Shell]","OnGetAccessibilityRole method","INameSpaceTreeAccessible.OnGetAccessibilityRole","INameSpaceTreeAccessible::OnGetAccessibilityRole","OnGetAccessibilityRole","OnGetAccessibilityRole method [Windows Shell]","OnGetAccessibilityRole method [Windows Shell]","INameSpaceTreeAccessible interface","_shell_INameSpaceTreeAccessible_OnGetAccessibilityRole","shell.INameSpaceTreeAccessible_OnGetAccessibilityRole","shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole"]
 old-location: shell\INameSpaceTreeAccessible_OnGetAccessibilityRole.htm
 tech.root: shell
 ms.assetid: 9de27a09-dc11-46a6-a233-696ccf35aa87
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetAccessibilityRole method, INameSpaceTreeAccessible.OnGetAccessibilityRole, INameSpaceTreeAccessible::OnGetAccessibilityRole, OnGetAccessibilityRole, OnGetAccessibilityRole method [Windows Shell], OnGetAccessibilityRole method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnGetAccessibilityRole, shell.INameSpaceTreeAccessible_OnGetAccessibilityRole, shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole
-f1_keywords:
-- shobjidl/INameSpaceTreeAccessible.OnGetAccessibilityRole
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- INameSpaceTreeAccessible.OnGetAccessibilityRole
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeAccessible::OnGetAccessibilityRole
+ - shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - INameSpaceTreeAccessible.OnGetAccessibilityRole
 ---
 
 # INameSpaceTreeAccessible::OnGetAccessibilityRole
@@ -48,45 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the accessibility role for a Shell item.
-
 
 ## -parameters
 
-
-
-
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
-
+Pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ### -param pvarRole [out]
 
 Type: <b>VARIANT*</b>
 
-When this method returns, contains a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that specifies the role.
-
+When this method returns, contains a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that specifies the role.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This method is called when the accessibility role for a Shell item is retrieved.
-
-
-

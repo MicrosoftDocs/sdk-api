@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.SetRestoreMetadata
 title: IVssComponent::SetRestoreMetadata (vswriter.h)
 description: The SetRestoreMetadata method sets writer-specific metadata for the current component.
+helpviewer_keywords: ["IVssComponent interface [VSS]","SetRestoreMetadata method","IVssComponent.SetRestoreMetadata","IVssComponent::SetRestoreMetadata","SetRestoreMetadata","SetRestoreMetadata method [VSS]","SetRestoreMetadata method [VSS]","IVssComponent interface","_win32_ivsscomponent_setrestoremetadata","base.ivsscomponent_setrestoremetadata","vswriter/IVssComponent::SetRestoreMetadata"]
 old-location: base\ivsscomponent_setrestoremetadata.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 2b329fa8-21ad-4de9-9857-52e14d51d429
 ms.date: 12/05/2018
 ms.keywords: IVssComponent interface [VSS],SetRestoreMetadata method, IVssComponent.SetRestoreMetadata, IVssComponent::SetRestoreMetadata, SetRestoreMetadata, SetRestoreMetadata method [VSS], SetRestoreMetadata method [VSS],IVssComponent interface, _win32_ivsscomponent_setrestoremetadata, base.ivsscomponent_setrestoremetadata, vswriter/IVssComponent::SetRestoreMetadata
-f1_keywords:
-- vswriter/IVssComponent.SetRestoreMetadata
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.SetRestoreMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::SetRestoreMetadata
+ - vswriter/IVssComponent::SetRestoreMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.SetRestoreMetadata
 ---
 
 # IVssComponent::SetRestoreMetadata
@@ -49,27 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetRestoreMetadata</b> method sets writer-specific metadata for the current component.
 
 Only a writer can call this method, and only in the context of implementing 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>.
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>.
 
 ## -parameters
-
-
-
 
 ### -param wszRestoreMetadata [in]
 
 A caller-allocated <b>NULL</b>-terminated wide character string containing the restore metadata for the component.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -130,42 +124,26 @@ Private metadata has already been written for this component.
 </td>
 <td width="60%">
 The method was called outside of the context of a writer handling a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>IVssComponent::SetRestoreMetadata</b> sets private, writer-specific metadata, which can be used by a writer during a restore operation.
 
 The format need not conform to any VSS metadata specification.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoremetadata">IVssComponent::GetRestoreMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoremetadata">IVssComponent::GetRestoreMetadata</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcndr.RpcSsDisableAllocate
 title: RpcSsDisableAllocate function (rpcndr.h)
-description: The RpcSsDisableAllocate function frees resources and memory within the stub memory&#8211;management environment.
+description: The RpcSsDisableAllocate function frees resources and memory within the stub memory�management environment.
+helpviewer_keywords: ["RpcSsDisableAllocate","RpcSsDisableAllocate function [RPC]","_rpc_rpcssdisableallocate","rpc.rpcssdisableallocate","rpcndr/RpcSsDisableAllocate"]
 old-location: rpc\rpcssdisableallocate.htm
 tech.root: Rpc
 ms.assetid: 08121380-ff75-4f18-aae4-fdd01e1dfa8b
 ms.date: 12/05/2018
 ms.keywords: RpcSsDisableAllocate, RpcSsDisableAllocate function [RPC], _rpc_rpcssdisableallocate, rpc.rpcssdisableallocate, rpcndr/RpcSsDisableAllocate
-f1_keywords:
-- rpcndr/RpcSsDisableAllocate
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcSsDisableAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcSsDisableAllocate
+ - rpcndr/RpcSsDisableAllocate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcSsDisableAllocate
 ---
 
 # RpcSsDisableAllocate function
@@ -48,59 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcSsDisableAllocate</b> function frees resources and memory within the stub memory–management environment.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 <b>RpcSsDisableAllocate</b> frees all the resources used by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>. It also releases memory that was allocated by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a> after the call to 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>. It also releases memory that was allocated by a call to 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a> after the call to 
 <b>RpcSsEnableAllocate</b>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a> and 
 <b>RpcSsDisableAllocate</b> must be used together as matching pairs.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>

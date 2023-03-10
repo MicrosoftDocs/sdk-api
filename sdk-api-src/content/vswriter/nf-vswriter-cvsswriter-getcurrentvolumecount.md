@@ -2,15 +2,12 @@
 UID: NF:vswriter.CVssWriter.GetCurrentVolumeCount
 title: CVssWriter::GetCurrentVolumeCount (vswriter.h)
 description: The GetCurrentVolumeCount method returns the number of volumes in the shadow copy set.
+helpviewer_keywords: ["CVssWriter interface [VSS]","GetCurrentVolumeCount method","CVssWriter.GetCurrentVolumeCount","CVssWriter::GetCurrentVolumeCount","GetCurrentVolumeCount","GetCurrentVolumeCount method [VSS]","GetCurrentVolumeCount method [VSS]","CVssWriter interface","_win32_cvsswriter_getcurrentvolumecount","base.cvsswriter_getcurrentvolumecount","vswriter/CVssWriter::GetCurrentVolumeCount"]
 old-location: base\cvsswriter_getcurrentvolumecount.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 5f553a46-10ee-475e-b028-2652c74fbe5d
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],GetCurrentVolumeCount method, CVssWriter.GetCurrentVolumeCount, CVssWriter::GetCurrentVolumeCount, GetCurrentVolumeCount, GetCurrentVolumeCount method [VSS], GetCurrentVolumeCount method [VSS],CVssWriter interface, _win32_cvsswriter_getcurrentvolumecount, base.cvsswriter_getcurrentvolumecount, vswriter/CVssWriter::GetCurrentVolumeCount
-f1_keywords:
-- vswriter/CVssWriter.GetCurrentVolumeCount
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriter.GetCurrentVolumeCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriter::GetCurrentVolumeCount
+ - vswriter/CVssWriter::GetCurrentVolumeCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriter.GetCurrentVolumeCount
 ---
 
 # CVssWriter::GetCurrentVolumeCount
@@ -49,54 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetCurrentVolumeCount</b> method returns the number of volumes in the shadow copy set.
 
 <b>GetCurrentVolumeCount</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
-
-
-## -parameters
-
-
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 
 
 ## -returns
 
-
-
 This method returns the number of volumes returned in the shadow copy set. This value will also be the size of the array of null-terminated wide character strings containing volume names returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumearray">CVssWriter::GetCurrentVolumeArray</a>.
-
-
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumearray">CVssWriter::GetCurrentVolumeArray</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumearray">CVssWriter::GetCurrentVolumeArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumearray">CVssWriter::GetCurrentVolumeArray</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>

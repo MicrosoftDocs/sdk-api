@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.ITaskSettings2.get_UseUnifiedSchedulingEngine
 title: ITaskSettings2::get_UseUnifiedSchedulingEngine (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task.
+description: Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task. (Get)
+helpviewer_keywords: ["ITaskSettings2 interface [Task Scheduler]","UseUnifiedSchedulingEngine property","ITaskSettings2.UseUnifiedSchedulingEngine","ITaskSettings2.get_UseUnifiedSchedulingEngine","ITaskSettings2::UseUnifiedSchedulingEngine","ITaskSettings2::get_UseUnifiedSchedulingEngine","ITaskSettings2::put_UseUnifiedSchedulingEngine","UseUnifiedSchedulingEngine property [Task Scheduler]","UseUnifiedSchedulingEngine property [Task Scheduler]","ITaskSettings2 interface","get_UseUnifiedSchedulingEngine","taskschd.itasksettings2_useunifiedschedulingengine","taskschd/ITaskSettings2::UseUnifiedSchedulingEngine","taskschd/ITaskSettings2::get_UseUnifiedSchedulingEngine","taskschd/ITaskSettings2::put_UseUnifiedSchedulingEngine"]
 old-location: taskschd\itasksettings2_useunifiedschedulingengine.htm
 tech.root: taskschd
 ms.assetid: bc632e8d-e53f-48c0-88cf-294451130752
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings2 interface [Task Scheduler],UseUnifiedSchedulingEngine property, ITaskSettings2.UseUnifiedSchedulingEngine, ITaskSettings2.get_UseUnifiedSchedulingEngine, ITaskSettings2::UseUnifiedSchedulingEngine, ITaskSettings2::get_UseUnifiedSchedulingEngine, ITaskSettings2::put_UseUnifiedSchedulingEngine, UseUnifiedSchedulingEngine property [Task Scheduler], UseUnifiedSchedulingEngine property [Task Scheduler],ITaskSettings2 interface, get_UseUnifiedSchedulingEngine, taskschd.itasksettings2_useunifiedschedulingengine, taskschd/ITaskSettings2::UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::get_UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::put_UseUnifiedSchedulingEngine
-f1_keywords:
-- taskschd/ITaskSettings2.UseUnifiedSchedulingEngine
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskSettings2.UseUnifiedSchedulingEngine
-- ITaskSettings2.get_UseUnifiedSchedulingEngine
-- ITaskSettings2.put_UseUnifiedSchedulingEngine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskSettings2::get_UseUnifiedSchedulingEngine
+ - taskschd/ITaskSettings2::get_UseUnifiedSchedulingEngine
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskSettings2.UseUnifiedSchedulingEngine
+ - ITaskSettings2.get_UseUnifiedSchedulingEngine
+ - ITaskSettings2.put_UseUnifiedSchedulingEngine
 ---
 
 # ITaskSettings2::get_UseUnifiedSchedulingEngine
@@ -50,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-useunifiedschedulingengine-settingstype-element">UseUnifiedSchedulingEngine</a> element of the Task Scheduler schema.
-
-
-
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-useunifiedschedulingengine-settingstype-element">UseUnifiedSchedulingEngine</a> element of the Task Scheduler schema.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings2">ITaskSettings2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings2">ITaskSettings2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

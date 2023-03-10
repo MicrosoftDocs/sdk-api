@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo.GetTitleAttributes
 title: IDvdInfo::GetTitleAttributes (strmif.h)
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for the specified title, including menus.
+helpviewer_keywords: ["GetTitleAttributes","GetTitleAttributes method [DirectShow]","GetTitleAttributes method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetTitleAttributes method","IDvdInfo.GetTitleAttributes","IDvdInfo::GetTitleAttributes","IDvdInfoGetTitleAttributes","dshow.idvdinfo_gettitleattributes","strmif/IDvdInfo::GetTitleAttributes"]
 old-location: dshow\idvdinfo_gettitleattributes.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 012e3860-dfa2-45e8-ab37-2a3a4b2f7f9d
 ms.date: 12/05/2018
 ms.keywords: GetTitleAttributes, GetTitleAttributes method [DirectShow], GetTitleAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleAttributes method, IDvdInfo.GetTitleAttributes, IDvdInfo::GetTitleAttributes, IDvdInfoGetTitleAttributes, dshow.idvdinfo_gettitleattributes, strmif/IDvdInfo::GetTitleAttributes
-f1_keywords:
-- strmif/IDvdInfo.GetTitleAttributes
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IDvdInfo.GetTitleAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo::GetTitleAttributes
+ - strmif/IDvdInfo::GetTitleAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IDvdInfo.GetTitleAttributes
 ---
 
 # IDvdInfo::GetTitleAttributes
@@ -48,33 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
 Retrieves attributes of all video, audio, and subpicture streams for the specified title, including menus.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ulTitle [in]
 
 Requested title number. Specify 0xFFFFFFFF for the current title.
 
-
 ### -param pATR [out]
 
 Pointer to the retrieved attributes structure.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value.
 
@@ -112,7 +102,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Requested action is not supported on this domain (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
+Requested action is not supported on this domain (<a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>).
 
 </td>
 </tr>
@@ -128,31 +118,15 @@ Requested action cannot occur at this point in the movie due to the authoring of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
-
-
-
+This method is valid in any domain. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>

@@ -2,15 +2,12 @@
 UID: NS:winnls._cpinfo
 title: CPINFO (winnls.h)
 description: Contains information about a code page. This structure is used by the GetCPInfo function.
+helpviewer_keywords: ["*LPCPINFO","CPINFO","CPINFO structure [Internationalization for Windows Applications]","LPCPINFO","LPCPINFO structure pointer [Internationalization for Windows Applications]","_win32_CPINFO_str","intl.cpinfo","winnls/CPINFO","winnls/LPCPINFO"]
 old-location: intl\cpinfo.htm
 tech.root: Intl
 ms.assetid: accb7ce8-c1d0-4f89-9390-be26d7014de7
 ms.date: 12/05/2018
 ms.keywords: '*LPCPINFO, CPINFO, CPINFO structure [Internationalization for Windows Applications], LPCPINFO, LPCPINFO structure pointer [Internationalization for Windows Applications], _win32_CPINFO_str, intl.cpinfo, winnls/CPINFO, winnls/LPCPINFO'
-f1_keywords:
-- winnls/CPINFO
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnls.h
-api_name:
-- CPINFO
 targetos: Windows
 req.typenames: CPINFO, *LPCPINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _cpinfo
+ - winnls/_cpinfo
+ - LPCPINFO
+ - winnls/LPCPINFO
+ - CPINFO
+ - winnls/CPINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnls.h
+api_name:
+ - CPINFO
 ---
 
 # CPINFO structure
@@ -48,27 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Contains information about a code page. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a> function.
-
-
-
+Contains information about a code page. This structure is used by the <a href="/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a> function.
 
 ## -struct-fields
 
-
-
-
 ### -field MaxCharSize
 
-Maximum length, in bytes, of a character in the code page. The length can be 1 for a <a href="https://docs.microsoft.com/windows/desktop/Intl/single-byte-character-sets">single-byte character set</a> (SBCS), 2 for a <a href="https://docs.microsoft.com/windows/desktop/Intl/double-byte-character-sets">double-byte character set</a> (DBCS), or a value larger than 2 for other character set types. The function cannot use the size to distinguish an SBCS or a DBCS from other character sets because of other factors, for example, the use of ISCII or ISO-2022-xx code pages.
-
+Maximum length, in bytes, of a character in the code page. The length can be 1 for a <a href="/windows/desktop/Intl/single-byte-character-sets">single-byte character set</a> (SBCS), 2 for a <a href="/windows/desktop/Intl/double-byte-character-sets">double-byte character set</a> (DBCS), or a value larger than 2 for other character set types. The function cannot use the size to distinguish an SBCS or a DBCS from other character sets because of other factors, for example, the use of ISCII or ISO-2022-xx code pages.
 
 ### -field DefaultChar
 
-Default character used when translating character strings to the specific code page. This character is used by the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> function if an explicit default character is not specified. The default is usually the "?" character for the code page.
-
+Default character used when translating character strings to the specific code page. This character is used by the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> function if an explicit default character is not specified. The default is usually the "?" character for the code page.
 
 ### -field LeadByte
 
@@ -79,41 +75,29 @@ A fixed-length array of lead byte ranges, for which the number of lead byte rang
 
 ## -remarks
 
-
-
 Lead bytes are unique to DBCS code pages that allow for more than 256 characters. A lead byte is the first byte of a 2-byte character in a DBCS. On each DBCS code page, the lead bytes occupy a specific range of byte values. This range is different for different code pages.
 
-The lead byte information is not very helpful for most code pages, and is not even provided for many multi-byte encodings, for example, UTF-8 and GB18030. Your applications are discouraged from using this information to predict what the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> function will do. The function might end up using a default character or performing other default behavior if the bytes following the lead byte are not as expected.
+The lead byte information is not very helpful for most code pages, and is not even provided for many multi-byte encodings, for example, UTF-8 and GB18030. Your applications are discouraged from using this information to predict what the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> function will do. The function might end up using a default character or performing other default behavior if the bytes following the lead byte are not as expected.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>, used by the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a> function, provides an extended version of this structure.
-
-
-
+<a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>, used by the <a href="/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a> function, provides an extended version of this structure.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
+<a href="/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
- 
-
- 
-
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>

@@ -2,15 +2,12 @@
 UID: NC:ras.PFNRASFREEBUFFER
 title: PFNRASFREEBUFFER (ras.h)
 description: The custom-scripting DLL calls RasFreeBuffer to release a memory buffer that was allocated by a previous call to RasGetBuffer.
+helpviewer_keywords: ["PFNRASFREEBUFFER","PFNRASFREEBUFFER callback","RasFreeBuffer","RasFreeBuffer callback function [RAS]","_ras_rasfreebuffer","ras/RasFreeBuffer","rras.rasfreebuffer"]
 old-location: rras\rasfreebuffer.htm
 tech.root: RRAS
 ms.assetid: aba43ef9-7f62-48ab-a790-c8592a57f2c2
 ms.date: 12/05/2018
 ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
-f1_keywords:
-- ras/RasFreeBuffer
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ras.h
-api_name:
-- RasFreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFNRASFREEBUFFER
+ - ras/PFNRASFREEBUFFER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ras.h
+api_name:
+ - RasFreeBuffer
 ---
 
 # PFNRASFREEBUFFER callback function
@@ -48,35 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The custom-scripting DLL calls 
 <i>RasFreeBuffer</i> to release a memory buffer that was allocated by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>. 
-
+<a href="/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>.
 
 ## -parameters
 
-
-
-
 ### -param pBufer
-
-
-
-
-
-
-
 
 #### - pBuffer
 
 Pointer to the memory buffer to free. This memory must have been obtained by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>.
-
+<a href="/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
@@ -110,37 +97,21 @@ The handle specified by the <i>hPort</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The custom-scripting DLL calls 
 <i>RasFreeBuffer</i> through a function pointer. The function pointer is passed to the custom-scripting DLL as a parameter when RAS calls the DLL's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
-
-
-
+<a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-custom-scripting">RAS Custom-Scripting</a>
+<a href="/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rascustomscriptexecutefn">RasCustomScriptExecute</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>

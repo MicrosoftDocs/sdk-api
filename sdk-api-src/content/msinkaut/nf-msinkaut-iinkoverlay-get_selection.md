@@ -1,16 +1,13 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_Selection
 title: IInkOverlay::get_Selection (msinkaut.h)
-description: Gets or sets the InkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control.
+description: Gets or sets the InkStrokes collection that is currently selected inside the InkOverlay object or the InkPicture control. (Get)
+helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","Selection property","IInkOverlay.Selection","IInkOverlay.get_Selection","IInkOverlay::Selection","IInkOverlay::get_Selection","IInkOverlay::put_Selection","InkOverlay.get_Selection","InkOverlay.put_Selection","Selection property [Tablet PC]","Selection property [Tablet PC]","IInkOverlay interface","fed95f40-d0c4-43a3-9d15-ce9d4d573b5c","get_Selection","msinkaut/IInkOverlay::Selection","msinkaut/IInkOverlay::get_Selection","msinkaut/IInkOverlay::put_Selection","tablet.inkoverlay_selection"]
 old-location: tablet\inkoverlay_selection.htm
 tech.root: tablet
 ms.assetid: fed95f40-d0c4-43a3-9d15-ce9d4d573b5c
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],Selection property, IInkOverlay.Selection, IInkOverlay.get_Selection, IInkOverlay::Selection, IInkOverlay::get_Selection, IInkOverlay::put_Selection, InkOverlay.get_Selection, InkOverlay.put_Selection, Selection property [Tablet PC], Selection property [Tablet PC],IInkOverlay interface, fed95f40-d0c4-43a3-9d15-ce9d4d573b5c, get_Selection, msinkaut/IInkOverlay::Selection, msinkaut/IInkOverlay::get_Selection, msinkaut/IInkOverlay::put_Selection, tablet.inkoverlay_selection
-f1_keywords:
-- msinkaut/IInkOverlay.Selection
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.Selection
-- IInkOverlay.get_Selection
-- IInkOverlay.put_Selection
-- InkOverlay.get_Selection
-- InkOverlay.put_Selection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::get_Selection
+ - msinkaut/IInkOverlay::get_Selection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.Selection
+ - IInkOverlay.get_Selection
+ - IInkOverlay.put_Selection
+ - InkOverlay.get_Selection
+ - InkOverlay.put_Selection
 ---
 
 # IInkOverlay::get_Selection
@@ -53,54 +55,38 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Gets or sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Gets or sets the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection that is currently selected inside the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object or the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
+To get the bounding rectangle of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection after it has been moved or resized, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox</a> method of the InkStrokes collection returned by this property.
 
+To get the bounding rectangle of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was moved, handle the <a href="/windows/desktop/tablet/inkoverlay-selectionmoved">InkOverlay</a> or the <a href="/windows/desktop/tablet/inkpicture-selectionmoved">InkPicture</a> event.
 
-To get the bounding rectangle of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection after it has been moved or resized, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox</a> method of the InkStrokes collection returned by this property.
-
-To get the bounding rectangle of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was moved, handle the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-selectionmoved">InkOverlay</a> or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionmoved">InkPicture</a> event.
-
-To get the bounding rectangle of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was resized, handle the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-selectionresized">InkOverlay</a> or the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionresized">InkPicture</a> event.
-
-
-
+To get the bounding rectangle of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection before it was resized, handle the <a href="/windows/desktop/tablet/inkoverlay-selectionresized">InkOverlay</a> or the <a href="/windows/desktop/tablet/inkpicture-selectionresized">InkPicture</a> event.
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
+<a href="/windows/desktop/tablet/inkpicture-selectionmoved">SelectionMoved Event [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionmoved">SelectionMoved Event [InkPicture Control]</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-selectionresized">SelectionResized Event [InkPicture Control]</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkpicture-selectionresized">SelectionResized Event [InkPicture Control]</a>

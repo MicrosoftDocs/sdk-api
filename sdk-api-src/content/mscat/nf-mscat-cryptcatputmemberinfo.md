@@ -2,15 +2,12 @@
 UID: NF:mscat.CryptCATPutMemberInfo
 title: CryptCATPutMemberInfo function (mscat.h)
 description: Allocates memory for a catalog member and adds it to the catalog.
+helpviewer_keywords: ["CryptCATPutMemberInfo","CryptCATPutMemberInfo function [Security]","mscat/CryptCATPutMemberInfo","security.cryptcatputmemberinfo"]
 old-location: security\cryptcatputmemberinfo.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
 ms.date: 12/05/2018
 ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], mscat/CryptCATPutMemberInfo, security.cryptcatputmemberinfo
-f1_keywords:
-- mscat/CryptCATPutMemberInfo
-dev_langs:
-- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- CryptCATPutMemberInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptCATPutMemberInfo
+ - mscat/CryptCATPutMemberInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - CryptCATPutMemberInfo
 ---
 
 # CryptCATPutMemberInfo function
@@ -48,60 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CryptCATPutMemberInfo</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>CryptCATPutMemberInfo</b> function allocates memory for a catalog member and adds it to the catalog.
 
-
 ## -parameters
-
-
-
 
 ### -param hCatalog [in]
 
-A handle to the catalog obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
-
+A handle to the catalog obtained from the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
 
 ### -param pwszFileName [in, optional]
 
 A pointer to a null-terminated string for the catalog file name.
 
-
 ### -param pwszReferenceTag [in]
 
 A pointer to a null-terminated string that contains the name of the member.
-
 
 ### -param pgSubjectType [in]
 
 A GUID for the subject type of the member.
 
-
 ### -param dwCertVersion [in]
 
 A value that specifies the certificate version.
-
 
 ### -param cbSIPIndirectData [in]
 
 A value that specifies the number of bytes in the <i>pbSIPIndirectData</i> buffer.
 
-
 ### -param pbSIPIndirectData [in]
 
-A pointer to  a memory buffer for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP)-indirect data.
-
+A pointer to  a memory buffer for <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP)-indirect data.
 
 ## -returns
 
+A pointer to a [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the assigned member. The caller must not free this pointer or any of its members.
 
 
-A pointer to a [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember)a> structure that contains the assigned member. The caller must not free this pointer or any of its members.
-
-
-If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>NULL</b>, additional error information can be obtained by calling the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -133,7 +121,3 @@ The operating system ran out of memory during the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

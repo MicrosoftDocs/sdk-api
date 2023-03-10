@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.IUIAutomationPatternInstance.GetProperty
 title: IUIAutomationPatternInstance::GetProperty (uiautomationcore.h)
 description: The client wrapper object implements the IUIAutomation::get_CurrentX and IUIAutomationElement::get_CachedX methods by calling this function, specifying the property by index.
+helpviewer_keywords: ["GetProperty","GetProperty method [Windows Accessibility]","GetProperty method [Windows Accessibility]","IUIAutomationPatternInstance interface","IUIAutomationPatternInstance interface [Windows Accessibility]","GetProperty method","IUIAutomationPatternInstance.GetProperty","IUIAutomationPatternInstance::GetProperty","uiauto.uiauto_IUIAutomationPatternInstance_GetProperty","uiauto_IUIAutomationPatternInstance_GetProperty","uiautomationcore/IUIAutomationPatternInstance::GetProperty","winauto.uiauto_IUIAutomationPatternInstance_GetProperty"]
 old-location: winauto\uiauto_IUIAutomationPatternInstance_GetProperty.htm
 tech.root: WinAuto
 ms.assetid: cb64569f-799b-4e9a-a9f4-84513b98c941
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Accessibility], GetProperty method [Windows Accessibility],IUIAutomationPatternInstance interface, IUIAutomationPatternInstance interface [Windows Accessibility],GetProperty method, IUIAutomationPatternInstance.GetProperty, IUIAutomationPatternInstance::GetProperty, uiauto.uiauto_IUIAutomationPatternInstance_GetProperty, uiauto_IUIAutomationPatternInstance_GetProperty, uiautomationcore/IUIAutomationPatternInstance::GetProperty, winauto.uiauto_IUIAutomationPatternInstance_GetProperty
-f1_keywords:
-- uiautomationcore/IUIAutomationPatternInstance.GetProperty
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- IUIAutomationPatternInstance.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationPatternInstance::GetProperty
+ - uiautomationcore/IUIAutomationPatternInstance::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - IUIAutomationPatternInstance.GetProperty
 ---
 
 # IUIAutomationPatternInstance::GetProperty
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The client wrapper object implements the <b>IUIAutomation::get_Current</b><i>X</i> and <b>IUIAutomationElement::get_Cached</b><i>X</i> methods by calling this function, specifying the property by index. 
-
+The client wrapper object implements the <b>IUIAutomation::get_Current</b><i>X</i> and <b>IUIAutomationElement::get_Cached</b><i>X</i> methods by calling this function, specifying the property by index.
 
 ## -parameters
 
-
-
-
 ### -param index [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The index of the property. 
-
+The index of the property.
 
 ### -param cached [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if the property should be retrieved from the cache, otherwise <b>FALSE</b>.
 
+### -param unnamedParam3 [in]
 
-### -param arg3 [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-uiautomationtype">UIAutomationType</a></b>
 
 A value indicating the data type of the property.
-
 
 ### -param pPtr [out, retval]
 
@@ -84,25 +78,12 @@ Type: <b>void*</b>
 
 Receives the value of the property.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationpatterninstance">IUIAutomationPatternInstance</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationpatterninstance">IUIAutomationPatternInstance</a>

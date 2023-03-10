@@ -2,15 +2,12 @@
 UID: NF:wsdhost.IWSDDeviceHost.RegisterPortType
 title: IWSDDeviceHost::RegisterPortType (wsdhost.h)
 description: Registers a port type for incoming messages.
+helpviewer_keywords: ["IWSDDeviceHost interface","RegisterPortType method","IWSDDeviceHost.RegisterPortType","IWSDDeviceHost::RegisterPortType","RegisterPortType","RegisterPortType method","RegisterPortType method","IWSDDeviceHost interface","ncd.iwsddevicehost_registerporttype_method","wsdhost/IWSDDeviceHost::RegisterPortType"]
 old-location: ncd\iwsddevicehost_registerporttype_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: d514babb-c502-4d9a-b6c8-f371465cb9e8
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RegisterPortType method, IWSDDeviceHost.RegisterPortType, IWSDDeviceHost::RegisterPortType, RegisterPortType, RegisterPortType method, RegisterPortType method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerporttype_method, wsdhost/IWSDDeviceHost::RegisterPortType
-f1_keywords:
-- wsdhost/IWSDDeviceHost.RegisterPortType
-dev_langs:
-- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDDeviceHost.RegisterPortType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDDeviceHost::RegisterPortType
+ - wsdhost/IWSDDeviceHost::RegisterPortType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDDeviceHost.RegisterPortType
 ---
 
 # IWSDDeviceHost::RegisterPortType
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a port type for incoming messages.  All port types listed in the service host metadata must be registered.
-
 
 ## -parameters
 
-
-
-
 ### -param pPortType [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a> structure that describes the port type. 
-
-
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a> structure that describes the port type.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -108,18 +101,7 @@ The port type specified by   <i>pPortType</i> has already been registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

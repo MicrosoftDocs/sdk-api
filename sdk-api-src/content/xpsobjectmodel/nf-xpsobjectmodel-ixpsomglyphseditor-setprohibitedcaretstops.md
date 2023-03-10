@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetProhibitedCaretStops
 title: IXpsOMGlyphsEditor::SetProhibitedCaretStops (xpsobjectmodel.h)
 description: Sets an array of prohibited caret stop locations.
+helpviewer_keywords: ["IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","SetProhibitedCaretStops method","IXpsOMGlyphsEditor.SetProhibitedCaretStops","IXpsOMGlyphsEditor::SetProhibitedCaretStops","SetProhibitedCaretStops","SetProhibitedCaretStops method [XPS Documents and Packaging]","SetProhibitedCaretStops method [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface","xps.ixpsomglyphseditor_setprohibitedcaretstops","xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops"]
 old-location: xps\ixpsomglyphseditor_setprohibitedcaretstops.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 5f2e1014-d50b-4755-a533-239b6ba9009e
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetProhibitedCaretStops method, IXpsOMGlyphsEditor.SetProhibitedCaretStops, IXpsOMGlyphsEditor::SetProhibitedCaretStops, SetProhibitedCaretStops, SetProhibitedCaretStops method [XPS Documents and Packaging], SetProhibitedCaretStops method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setprohibitedcaretstops, xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops
-f1_keywords:
-- xpsobjectmodel/IXpsOMGlyphsEditor.SetProhibitedCaretStops
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGlyphsEditor.SetProhibitedCaretStops
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGlyphsEditor::SetProhibitedCaretStops
+ - xpsobjectmodel/IXpsOMGlyphsEditor::SetProhibitedCaretStops
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGlyphsEditor.SetProhibitedCaretStops
 ---
 
 # IXpsOMGlyphsEditor::SetProhibitedCaretStops
@@ -48,32 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets an array of prohibited caret stop locations.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param count [in]
 
 The number of prohibited caret stop locations in the array that is referenced by <i>prohibitedCaretStops</i>. A value of 0 clears the property.
 
-
 ### -param prohibitedCaretStops [in]
 
 The array of prohibited caret stop locations to be set. If <i>count</i> is 0, this parameter is ignored and can be set to <b>NULL</b>.
 
-
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -114,35 +105,19 @@ A caret location value is out of order. The location values must be sorted in as
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Each caret stop index corresponds to the scalar values of a UTF-16  <b>UnicodeString</b> property.  Index 0 represents the location just before the first UTF-16 scalar value of <b>UnicodeString</b>; index 1 represents the location between the first and second UTF-16 scalar values, and so on. There is an additional index at the end of <b>UnicodeString</b>. Any unspecified index is a valid caret stop location.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

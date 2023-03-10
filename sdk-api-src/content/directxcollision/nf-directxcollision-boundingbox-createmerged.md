@@ -1,16 +1,13 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateMerged
 title: BoundingBox::CreateMerged
-description: Creates a BoundingBox large enough to contains two specified BoundBox intances.
+description: Creates a BoundingBox large enough to contains two specified BoundBox instances.
+helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","CreateMerged method","BoundingBox.CreateMerged","BoundingBox::CreateMerged","CreateMerged","CreateMerged method [DirectX Math Support APIs]","CreateMerged method [DirectX Math Support APIs]","BoundingBox interface","Use DirectX..BoundingBox.CreateMerged","Use DirectX::::BoundingBox::CreateMerged","dxmath.boundingbox_createmerged"]
 old-location: dxmath\boundingbox_createmerged.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateMerged(BoundingBox@,BoundingBox,BoundingBox)
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],CreateMerged method, BoundingBox.CreateMerged, BoundingBox::CreateMerged, CreateMerged, CreateMerged method [DirectX Math Support APIs], CreateMerged method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.CreateMerged, Use DirectX::::BoundingBox::CreateMerged, dxmath.boundingbox_createmerged
-f1_keywords:
-- directxcollision/BoundingBox.CreateMerged
-dev_langs:
-- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXCollision.h
-api_name:
-- BoundingBox.CreateMerged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BoundingBox::CreateMerged
+ - directxcollision/BoundingBox::CreateMerged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXCollision.h
+api_name:
+ - BoundingBox.CreateMerged
 ---
 
 # BoundingBox::CreateMerged
@@ -48,55 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a BoundingBox large enough to contains two specified BoundBox intances.
-
+Creates a BoundingBox large enough to contains two specified BoundBox instances.
 
 ## -parameters
-
-
-
 
 ### -param Out [out, ref]
 
 The merged BoundingBox.
 
-
 ### -param b1 [in, ref]
 
 A BoundingBox that should be contained in the new BoundingBox.
-
 
 ### -param b2 [in, ref]
 
 A vector describing the plane.
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
-
-
-
-[BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox)
+[BoundingBox](./ns-directxcollision-boundingbox.md)
 
 
 
@@ -105,7 +82,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
- 
-
- 
-

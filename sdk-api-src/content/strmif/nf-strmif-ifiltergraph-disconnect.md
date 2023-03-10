@@ -2,15 +2,12 @@
 UID: NF:strmif.IFilterGraph.Disconnect
 title: IFilterGraph::Disconnect (strmif.h)
 description: The Disconnect method disconnects this pin.
+helpviewer_keywords: ["Disconnect","Disconnect method [DirectShow]","Disconnect method [DirectShow]","IFilterGraph interface","Disconnect method [DirectShow]","IGraphBuilder interface","IFilterGraph interface [DirectShow]","Disconnect method","IFilterGraph.Disconnect","IFilterGraph::Disconnect","IFilterGraphDisconnect","IGraphBuilder interface [DirectShow]","Disconnect method","IGraphBuilder.Disconnect","IGraphBuilder::Disconnect","dshow.ifiltergraph_disconnect","strmif/IFilterGraph::Disconnect","strmif/IGraphBuilder::Disconnect"]
 old-location: dshow\ifiltergraph_disconnect.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8c7d6cb6-b91c-4461-8f2b-38342a88eafc
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IFilterGraph interface, Disconnect method [DirectShow],IGraphBuilder interface, IFilterGraph interface [DirectShow],Disconnect method, IFilterGraph.Disconnect, IFilterGraph::Disconnect, IFilterGraphDisconnect, IGraphBuilder interface [DirectShow],Disconnect method, IGraphBuilder.Disconnect, IGraphBuilder::Disconnect, dshow.ifiltergraph_disconnect, strmif/IFilterGraph::Disconnect, strmif/IGraphBuilder::Disconnect
-f1_keywords:
-- strmif/IFilterGraph.Disconnect
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-- wmp.dll
-api_name:
-- IFilterGraph.Disconnect
-- IGraphBuilder.Disconnect
-- IGraphBuilder.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFilterGraph::Disconnect
+ - strmif/IFilterGraph::Disconnect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+ - wmp.dll
+api_name:
+ - IFilterGraph.Disconnect
+ - IGraphBuilder.Disconnect
+ - IGraphBuilder.Disconnect
 ---
 
 # IFilterGraph::Disconnect
@@ -52,26 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Disconnect</code> method disconnects this pin.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param ppin [in]
 
 Pointer to the pin to disconnect.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -136,33 +127,17 @@ The filter is not stopped, but does not support reconnection while in a running 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method does not completely break the connection. To completely break the connection, both ends must be disconnected.
 
-To remove a filter from the filter graph entirely, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltergraph-removefilter">IFilterGraph::RemoveFilter</a> method.
-
-
-
+To remove a filter from the filter graph entirely, call the <a href="/windows/desktop/api/strmif/nf-strmif-ifiltergraph-removefilter">IFilterGraph::RemoveFilter</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>

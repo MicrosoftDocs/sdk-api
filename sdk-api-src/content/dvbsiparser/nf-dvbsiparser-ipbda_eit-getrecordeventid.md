@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordEventId
 title: IPBDA_EIT::GetRecordEventId (dvbsiparser.h)
 description: Receives the unique identifier from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
+helpviewer_keywords: ["GetRecordEventId","GetRecordEventId method [Microsoft TV Technologies]","GetRecordEventId method [Microsoft TV Technologies]","IPBDA_EIT interface","IPBDA_EIT interface [Microsoft TV Technologies]","GetRecordEventId method","IPBDA_EIT.GetRecordEventId","IPBDA_EIT::GetRecordEventId","dvbsiparser/IPBDA_EIT::GetRecordEventId","mstv.ipbda_eit_getrecordeventid"]
 old-location: mstv\ipbda_eit_getrecordeventid.htm
 tech.root: mstv
 ms.assetid: c34ad3ee-f4f9-4088-88ae-1340ea503cf5
 ms.date: 12/05/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordEventId method, IPBDA_EIT.GetRecordEventId, IPBDA_EIT::GetRecordEventId, dvbsiparser/IPBDA_EIT::GetRecordEventId, mstv.ipbda_eit_getrecordeventid
-f1_keywords:
-- dvbsiparser/IPBDA_EIT.GetRecordEventId
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IPBDA_EIT.GetRecordEventId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPBDA_EIT::GetRecordEventId
+ - dvbsiparser/IPBDA_EIT::GetRecordEventId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IPBDA_EIT.GetRecordEventId
 ---
 
 # IPBDA_EIT::GetRecordEventId
@@ -48,43 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives the unique identifier from an event record in an event information table (EIT) in a Protected Broadcast  Device Architecture (PBDA) transport stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRecordIndex [in]
 
 Specifies the service record number, indexed from zero.
-  Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
-
-
+  Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-ipbda_eit-getcountofrecords">IPBDA_EIT::GetCountOfRecords</a> method to get the number of records in the EIT.
 
 ### -param plwVal [out]
 
 Receives the event identifier.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_eit">IPBDA_EIT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-ipbda_eit">IPBDA_EIT</a>

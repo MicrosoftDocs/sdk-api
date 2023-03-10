@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
 title: IX509CertificateRequestPkcs10V3::put_AttestPrivateKey (certenroll.h)
-description: True if the created private key needs to be attested; otherwise false. If true, it is expected that the AttestationEncryptionCertificate property has been set.
+description: True if the created private key needs to be attested; otherwise false. If true, it is expected that the AttestationEncryptionCertificate property has been set. (Put)
+helpviewer_keywords: ["AttestPrivateKey property [Security]","AttestPrivateKey property [Security]","IX509CertificateRequestPkcs10V3 interface","IX509CertificateRequestPkcs10V3 interface [Security]","AttestPrivateKey property","IX509CertificateRequestPkcs10V3.AttestPrivateKey","IX509CertificateRequestPkcs10V3.put_AttestPrivateKey","IX509CertificateRequestPkcs10V3::AttestPrivateKey","IX509CertificateRequestPkcs10V3::get_AttestPrivateKey","IX509CertificateRequestPkcs10V3::put_AttestPrivateKey","certenroll/IX509CertificateRequestPkcs10V3::AttestPrivateKey","certenroll/IX509CertificateRequestPkcs10V3::get_AttestPrivateKey","certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey","put_AttestPrivateKey","security.ix509certificaterequestpkcs10v3_attestprivatekey"]
 old-location: security\ix509certificaterequestpkcs10v3_attestprivatekey.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 9b3234a2-ec65-4624-8d35-a6f50cb10150
 ms.date: 12/05/2018
 ms.keywords: AttestPrivateKey property [Security], AttestPrivateKey property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestPrivateKey property, IX509CertificateRequestPkcs10V3.AttestPrivateKey, IX509CertificateRequestPkcs10V3.put_AttestPrivateKey, IX509CertificateRequestPkcs10V3::AttestPrivateKey, IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, put_AttestPrivateKey, security.ix509certificaterequestpkcs10v3_attestprivatekey
-f1_keywords:
-- certenroll/IX509CertificateRequestPkcs10V3.AttestPrivateKey
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Certenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.dll
-api_name:
-- IX509CertificateRequestPkcs10V3.AttestPrivateKey
-- IX509CertificateRequestPkcs10V3.get_AttestPrivateKey
-- IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestPkcs10V3::put_AttestPrivateKey
+ - certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.dll
+api_name:
+ - IX509CertificateRequestPkcs10V3.AttestPrivateKey
+ - IX509CertificateRequestPkcs10V3.get_AttestPrivateKey
+ - IX509CertificateRequestPkcs10V3.put_AttestPrivateKey
 ---
 
 # IX509CertificateRequestPkcs10V3::put_AttestPrivateKey
@@ -50,23 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-True if the created private key needs to be attested; otherwise false. If true, it is expected that the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestationencryptioncertificate">AttestationEncryptionCertificate</a> property has been set.
+True if the created private key needs to be attested; otherwise false. If true, it is expected that the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs10v3-get_attestationencryptioncertificate">AttestationEncryptionCertificate</a> property has been set.
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>

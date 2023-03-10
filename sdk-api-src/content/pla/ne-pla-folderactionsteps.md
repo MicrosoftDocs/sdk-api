@@ -2,15 +2,12 @@
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0012
 title: FolderActionSteps (pla.h)
 description: Defines the action that the data manager takes when both the age and size limits are met.
+helpviewer_keywords: ["FolderActionSteps","FolderActionSteps enumeration [PLA]","__MIDL___MIDL_itf_pla_0001_0043_0012","base.folderactionsteps","pla.folderactionsteps","pla/FolderActionSteps","pla/plaCreateCab","pla/plaDeleteCab","pla/plaDeleteData","pla/plaDeleteReport","pla/plaSendCab","plaCreateCab","plaDeleteCab","plaDeleteData","plaDeleteReport","plaSendCab"]
 old-location: pla\folderactionsteps.htm
 tech.root: PLA
 ms.assetid: 94d199a1-36f7-4064-a4fb-90dd26c37960
 ms.date: 12/05/2018
 ms.keywords: FolderActionSteps, FolderActionSteps enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0012, base.folderactionsteps, pla.folderactionsteps, pla/FolderActionSteps, pla/plaCreateCab, pla/plaDeleteCab, pla/plaDeleteData, pla/plaDeleteReport, pla/plaSendCab, plaCreateCab, plaDeleteCab, plaDeleteData, plaDeleteReport, plaSendCab
-f1_keywords:
-- pla/FolderActionSteps
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pla.h
-api_name:
-- FolderActionSteps
 targetos: Windows
 req.typenames: FolderActionSteps
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_pla_0001_0043_0012
+ - pla/__MIDL___MIDL_itf_pla_0001_0043_0012
+ - FolderActionSteps
+ - pla/FolderActionSteps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pla.h
+api_name:
+ - FolderActionSteps
 ---
 
 # FolderActionSteps enumeration
@@ -48,56 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the action that the data manager takes when both the age and size limits are met.
-
 
 ## -enum-fields
 
-
-
-
-### -field plaCreateCab
+### -field plaCreateCab:0x1
 
 Creates a cabinet file. The name of the cabinet file is  <i>nameofthesubfolder</i>.cab.
 
-
-### -field plaDeleteData
+### -field plaDeleteData:0x2
 
 Deletes all files in the folder, except the report and cabinet file.
 
+### -field plaSendCab:0x4
 
-### -field plaSendCab
+Sends the cabinet file to the location specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_sendcabto">IFolderAction::SendCabTo</a> property.
 
-Sends the cabinet file to the location specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_sendcabto">IFolderAction::SendCabTo</a> property.
-
-
-### -field plaDeleteCab
+### -field plaDeleteCab:0x8
 
 Deletes the cabinet file.
 
-
-### -field plaDeleteReport
+### -field plaDeleteReport:0x10
 
 Deletes the report file.
 
-
 ## -remarks
-
-
 
 Specify one or more actions. The data manager applies the actions in the order in which they are defined in this enumeration.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>

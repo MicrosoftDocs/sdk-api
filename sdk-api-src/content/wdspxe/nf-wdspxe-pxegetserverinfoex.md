@@ -1,16 +1,13 @@
 ---
 UID: NF:wdspxe.PxeGetServerInfoEx
 title: PxeGetServerInfoEx function (wdspxe.h)
-description: Returns information about the PXE server.
+description: Returns information about the PXE server. (PxeGetServerInfoEx)
+helpviewer_keywords: ["PXE_GSI_SERVER_DUID","PXE_GSI_TRACE_ENABLED","PxeGetServerInfoEx","PxeGetServerInfoEx function [Windows Deployment Services]","wds.pxegetserverinfoex","wdspxe/PxeGetServerInfoEx"]
 old-location: wds\pxegetserverinfoex.htm
 tech.root: wds
 ms.assetid: E0AD1507-3018-42B5-B4DD-E19CC49FD25F
 ms.date: 12/05/2018
 ms.keywords: PXE_GSI_SERVER_DUID, PXE_GSI_TRACE_ENABLED, PxeGetServerInfoEx, PxeGetServerInfoEx function [Windows Deployment Services], wds.pxegetserverinfoex, wdspxe/PxeGetServerInfoEx
-f1_keywords:
-- wdspxe/PxeGetServerInfoEx
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeGetServerInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeGetServerInfoEx
+ - wdspxe/PxeGetServerInfoEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeGetServerInfoEx
 ---
 
 # PxeGetServerInfoEx function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns information about the PXE server.
 
-For more information about the OPTION_SERVERID option, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://go.microsoft.com/fwlink/p/?linkid=132626">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
-
+For more information about the OPTION_SERVERID option, developers should refer to the Dynamic Host Configuration Protocol for IPv6 (<a href="https://www.ietf.org/rfc/rfc3315.txt">RFC 3315</a>) maintained by The Internet Engineering Task Force (IETF).
 
 ## -parameters
-
-
-
 
 ### -param uInfoType [in]
 
@@ -87,46 +84,29 @@ Returns a <b>BOOL</b> that indicates whether tracing is enabled for the
 </dl>
 </td>
 <td width="60%">
- Returns a byte array that corresponds to the DHCPv6 DUID that is sent to DHCPv6 PXE clients in response packets in the OPTION_SERVERID option.  <b>PXE_GSI_SERVER_DUID</b> cannot be used with <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxegetserverinfo">PxeGetServerInfo</a>.
+ Returns a byte array that corresponds to the DHCPv6 DUID that is sent to DHCPv6 PXE clients in response packets in the OPTION_SERVERID option.  <b>PXE_GSI_SERVER_DUID</b> cannot be used with <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxegetserverinfo">PxeGetServerInfo</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [out]
 
 Address of a buffer that will receive the results of the query. The size and format of the results depends 
       on the value of the <i>uInfoType</i> parameter.
 
-
 ### -param uBufferLen [in]
 
 Size of buffer pointed to by the <i>pBuffer</i> parameter.
-
 
 ### -param puBufferUsed [out]
 
 Size of buffer pointed to by the <i>pBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

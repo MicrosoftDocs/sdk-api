@@ -2,16 +2,12 @@
 UID: NF:atscpsipparser.IATSC_STT.GetTableDescriptorByIndex
 title: IATSC_STT::GetTableDescriptorByIndex (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IATSC_STT interface","IATSC_STT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IATSC_STT.GetTableDescriptorByIndex","IATSC_STT::GetTableDescriptorByIndex","IATSC_STTGetTableDescriptorByIndex","atscpsipparser/IATSC_STT::GetTableDescriptorByIndex","mstv.iatsc_stt_gettabledescriptorbyindex"]
 old-location: mstv\iatsc_stt_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: 9f48ad31-ec6b-4d82-ba74-9901281a1857
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IATSC_STT.GetTableDescriptorByIndex, IATSC_STT::GetTableDescriptorByIndex, IATSC_STTGetTableDescriptorByIndex, atscpsipparser/IATSC_STT::GetTableDescriptorByIndex, mstv.iatsc_stt_gettabledescriptorbyindex
-ms.topic: method
-f1_keywords:
-- atscpsipparser/IATSC_STT.GetTableDescriptorByIndex
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -29,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_STT.GetTableDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_STT::GetTableDescriptorByIndex
+ - atscpsipparser/IATSC_STT::GetTableDescriptorByIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_STT.GetTableDescriptorByIndex
 ---
 
 # IATSC_STT::GetTableDescriptorByIndex
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -58,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetTableDescriptorByIndex</b> method returns a descriptor for the STT.
 
-
 ## -parameters
-
-
-
 
 ### -param dwIndex [in]
 
-Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getcountoftabledescriptors">IATSC_STT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the STT.
-
+Specifies which descriptor to retrieve, indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_stt-getcountoftabledescriptors">IATSC_STT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the STT.
 
 ### -param ppDescriptor [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -119,18 +110,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_stt">IATSC_STT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_stt">IATSC_STT Interface</a>

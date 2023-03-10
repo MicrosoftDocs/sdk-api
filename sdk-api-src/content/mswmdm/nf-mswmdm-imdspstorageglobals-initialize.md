@@ -1,16 +1,13 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.Initialize
 title: IMDSPStorageGlobals::Initialize (mswmdm.h)
-description: The Initialize method formats the storage medium.
+description: The Initialize method formats the storage medium. (IMDSPStorageGlobals.Initialize)
+helpviewer_keywords: ["IMDSPStorageGlobals interface [windows Media Device Manager]","Initialize method","IMDSPStorageGlobals.Initialize","IMDSPStorageGlobals::Initialize","IMDSPStorageGlobalsInitialize","Initialize","Initialize method [windows Media Device Manager]","Initialize method [windows Media Device Manager]","IMDSPStorageGlobals interface","mswmdm/IMDSPStorageGlobals::Initialize","wmdm.imdspstorageglobals_initialize"]
 old-location: wmdm\imdspstorageglobals_initialize.htm
 tech.root: WMDM
 ms.assetid: 661060dc-5a38-4110-80f6-c67e3be8c96b
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorageGlobals interface [windows Media Device Manager],Initialize method, IMDSPStorageGlobals.Initialize, IMDSPStorageGlobals::Initialize, IMDSPStorageGlobalsInitialize, Initialize, Initialize method [windows Media Device Manager], Initialize method [windows Media Device Manager],IMDSPStorageGlobals interface, mswmdm/IMDSPStorageGlobals::Initialize, wmdm.imdspstorageglobals_initialize
-f1_keywords:
-- mswmdm/IMDSPStorageGlobals.Initialize
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPStorageGlobals.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPStorageGlobals::Initialize
+ - mswmdm/IMDSPStorageGlobals::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPStorageGlobals.Initialize
 ---
 
 # IMDSPStorageGlobals::Initialize
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>Initialize</b> method formats the storage medium. This method is optional. However, this method should be implemented if the device supports this functionality. If this method is not implemented, <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities">IMDSPStorageGlobals::GetCapabilities</a> must return WMDM_STORAGECAP_NOT_INITIALIZABLE in addition to any other flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
-
-
-
+The <b>Initialize</b> method formats the storage medium. This method is optional. However, this method should be implemented if the device supports this functionality. If this method is not implemented, <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities">IMDSPStorageGlobals::GetCapabilities</a> must return WMDM_STORAGECAP_NOT_INITIALIZABLE in addition to any other flags. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -parameters
-
-
-
 
 ### -param fuMode [in]
 
@@ -81,17 +75,12 @@ Mode used to initialize the medium. Specify exactly one of the following two mod
 <td>The operation is performed using thread mode processing. The call returns immediately and the operation is performed in a background thread.</td>
 </tr>
 </table>
- 
-
 
 ### -param pProgress [in]
 
 Pointer to an <b>IWMDMProgress</b> interface implemented by an application to track the progress of the formatting operation. This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -100,39 +89,24 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-
-
 If WMDM_MODE_BLOCK is specified, <b>Initialize</b> does not return until formatting is finished. If the WMDM_MODE_THREAD is specified, the call returns immediately and the caller can use the <b>IMDSPStorageGlobals::GetStatus</b> method to track the initializing operation.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorageglobals">IMDSPStorageGlobals Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorageglobals">IMDSPStorageGlobals Interface</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities">IMDSPStorageGlobals::GetCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getcapabilities">IMDSPStorageGlobals::GetCapabilities</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getstatus">IMDSPStorageGlobals::GetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getstatus">IMDSPStorageGlobals::GetStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>

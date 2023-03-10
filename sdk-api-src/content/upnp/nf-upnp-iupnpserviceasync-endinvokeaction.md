@@ -2,15 +2,12 @@
 UID: NF:upnp.IUPnPServiceAsync.EndInvokeAction
 title: IUPnPServiceAsync::EndInvokeAction (upnp.h)
 description: EndInvokeAction method retrieves the results of a previous BeginInvokeAction operation and retrieves the resultant output arguments.
+helpviewer_keywords: ["EndInvokeAction","EndInvokeAction method [UPnP APIs]","EndInvokeAction method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","EndInvokeAction method","IUPnPServiceAsync.EndInvokeAction","IUPnPServiceAsync::EndInvokeAction","upnp.iupnpserviceasync_endinvokeaction","upnp/IUPnPServiceAsync::EndInvokeAction"]
 old-location: upnp\iupnpserviceasync_endinvokeaction.htm
 tech.root: upnp
 ms.assetid: 1B10F8E9-D3C9-432B-B773-77B4BB82224C
 ms.date: 12/05/2018
 ms.keywords: EndInvokeAction, EndInvokeAction method [UPnP APIs], EndInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndInvokeAction method, IUPnPServiceAsync.EndInvokeAction, IUPnPServiceAsync::EndInvokeAction, upnp.iupnpserviceasync_endinvokeaction, upnp/IUPnPServiceAsync::EndInvokeAction
-f1_keywords:
-- upnp/IUPnPServiceAsync.EndInvokeAction
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPServiceAsync.EndInvokeAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPServiceAsync::EndInvokeAction
+ - upnp/IUPnPServiceAsync::EndInvokeAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPServiceAsync.EndInvokeAction
 ---
 
 # IUPnPServiceAsync::EndInvokeAction
@@ -48,37 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EndInvokeAction</b> method retrieves the results of  a previous <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a> operation and retrieves the resultant output arguments.
-
+The <b>EndInvokeAction</b> method retrieves the results of  a previous <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a> operation and retrieves the resultant output arguments.
 
 ## -parameters
-
-
-
 
 ### -param ullRequestID [in, out]
 
 On input, contains a reference to an empty array. On output, receives a reference to the array of service-specific output arguments. In the event the action doesn't have output arguments, this parameter contains an empty array.
 
-<div class="alert"><b>Note</b>  Clear this parameter with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.</div>
+<div class="alert"><b>Note</b>  Clear this parameter with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.</div>
 <div> </div>
 
 ### -param pvOutActionArgs [in, out]
 
 On input contains a reference to an empty array. On output, receives a reference to a VARIANT that contains the return value of the invoked action. 
 
-<div class="alert"><b>Note</b>  Clear this parameter with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.</div>
+<div class="alert"><b>Note</b>  Clear this parameter with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.</div>
 <div> </div>
 
 ### -param pvRetVal [in]
 
-A 64-bit <b>ULONG</b> value that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a> operation initiated prior to this call.
-
+A 64-bit <b>ULONG</b> value that corresponds to the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">BeginInvokeAction</a> operation initiated prior to this call.
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> on success. Otherwise, the method returns a COM error code defined in <b>WinError.h</b> or one of the following values:
 
@@ -160,7 +154,7 @@ An error occurred at the UPnP control-protocol level.
 </dl>
 </td>
 <td width="60%">
-An HTTP error occurred. Use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a> property to obtain the actual HTTP status code.  
+An HTTP error occurred. Use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a> property to obtain the actual HTTP status code.  
 
 <div class="alert"><b>Note</b>  This error code is also returned when the SOAP response exceeds 100 kilobytes.
 </div>
@@ -170,26 +164,17 @@ An HTTP error occurred. Use the <a href="https://docs.microsoft.com/windows/desk
 </table>
  
 
-<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
+<div class="alert"><b>Note</b>  Some values can indicate that an error was received from a UPnP-certified device. For more information, see <a href="/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>
- 
-
- 
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>

@@ -2,15 +2,12 @@
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagReturnObjectAndEPR
 title: IWSManEx::EnumerationFlagReturnObjectAndEPR (wsmandisp.h)
 description: Returns the value of the enumeration constant EnumerationFlagReturnObjectAndEPR for use in the flags parameter of the IWSManSession::Enumerate method.
+helpviewer_keywords: ["EnumerationFlagReturnObjectAndEPR","EnumerationFlagReturnObjectAndEPR method [Windows Remote Management]","EnumerationFlagReturnObjectAndEPR method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagReturnObjectAndEPR method","IWSManEx.EnumerationFlagReturnObjectAndEPR","IWSManEx::EnumerationFlagReturnObjectAndEPR","winrm.iwsmanex_enumerationflagreturnobjectandepr","wsmandisp/IWSManEx::EnumerationFlagReturnObjectAndEPR"]
 old-location: winrm\iwsmanex_enumerationflagreturnobjectandepr.htm
 tech.root: winrm
 ms.assetid: 3ded5083-5f4a-4e07-96d6-7856c0a2f340
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagReturnObjectAndEPR, EnumerationFlagReturnObjectAndEPR method [Windows Remote Management], EnumerationFlagReturnObjectAndEPR method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnObjectAndEPR method, IWSManEx.EnumerationFlagReturnObjectAndEPR, IWSManEx::EnumerationFlagReturnObjectAndEPR, winrm.iwsmanex_enumerationflagreturnobjectandepr, wsmandisp/IWSManEx::EnumerationFlagReturnObjectAndEPR
-f1_keywords:
-- wsmandisp/IWSManEx.EnumerationFlagReturnObjectAndEPR
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManEx.EnumerationFlagReturnObjectAndEPR
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManEx::EnumerationFlagReturnObjectAndEPR
+ - wsmandisp/IWSManEx::EnumerationFlagReturnObjectAndEPR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManEx.EnumerationFlagReturnObjectAndEPR
 ---
 
 # IWSManEx::EnumerationFlagReturnObjectAndEPR
@@ -48,42 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
+The <b>IWSManEx::EnumerationFlagReturnObjectAndEPR</b> method returns the value of the enumeration constant <b>EnumerationFlagReturnObjectAndEPR</b> for use in the <i>flags</i> parameter of the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
-The <b>IWSManEx::EnumerationFlagReturnObjectAndEPR</b> method returns the value of the enumeration constant <b>EnumerationFlagReturnObjectAndEPR</b> for use in the <i>flags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
-
-<b>EnumerationFlagReturnObjectAndEPR</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
-
+<b>EnumerationFlagReturnObjectAndEPR</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
 ## -parameters
-
-
-
 
 ### -param flags [out]
 
 The value of the constant.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>

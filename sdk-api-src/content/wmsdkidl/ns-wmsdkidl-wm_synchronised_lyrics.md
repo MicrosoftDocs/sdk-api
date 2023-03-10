@@ -2,15 +2,12 @@
 UID: NS:wmsdkidl._WMSynchronisedLyrics
 title: WM_SYNCHRONISED_LYRICS (wmsdkidl.h)
 description: The WM_SYNCHRONISED_LYRICS structure is used as the data item for the WM/Lyrics_Synchronised complex metadata attribute.
+helpviewer_keywords: ["WM_SYNCHRONISED_LYRICS","WM_SYNCHRONISED_LYRICS structure [windows Media Format]","wmformat.wm_synchronised_lyrics","wmsdkidl/WM_SYNCHRONISED_LYRICS"]
 old-location: wmformat\wm_synchronised_lyrics.htm
 tech.root: wmformat
 ms.assetid: a8f47fcc-faf7-4a25-817a-f9199db38fbc
 ms.date: 12/05/2018
 ms.keywords: WM_SYNCHRONISED_LYRICS, WM_SYNCHRONISED_LYRICS structure [windows Media Format], wmformat.wm_synchronised_lyrics, wmsdkidl/WM_SYNCHRONISED_LYRICS
-f1_keywords:
-- wmsdkidl/WM_SYNCHRONISED_LYRICS
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmsdkidl.h
-api_name:
-- WM_SYNCHRONISED_LYRICS
 targetos: Windows
 req.typenames: WM_SYNCHRONISED_LYRICS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WMSynchronisedLyrics
+ - wmsdkidl/_WMSynchronisedLyrics
+ - WM_SYNCHRONISED_LYRICS
+ - wmsdkidl/WM_SYNCHRONISED_LYRICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - WM_SYNCHRONISED_LYRICS
 ---
 
 # WM_SYNCHRONISED_LYRICS structure
@@ -48,17 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-lyrics-synchronised">WM/Lyrics_Synchronised</a> complex metadata attribute.
-
-
-
+The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a href="/windows/desktop/wmformat/wm-lyrics-synchronised">WM/Lyrics_Synchronised</a> complex metadata attribute.
 
 ## -struct-fields
-
-
-
 
 ### -field bTimeStampFormat
 
@@ -76,10 +72,6 @@ The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a 
 <td>Time stamps are 32-bit values containing the absolute time of the lyric in milliseconds.</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -field bContentType
 
@@ -125,42 +117,23 @@ The <b>WM_SYNCHRONISED_LYRICS</b> structure is used as the data item for the <a 
 <td>URLs to images</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -field pwszContentDescriptor
 
 Pointer to a wide-character null-terminated string containing data from the encoding application. An individual application can use this member in any way desired.
 
-
 ### -field dwLyricsLen
 
 <b>DWORD</b> containing the length, in bytes, of the lyric data pointed to by <b>pbLyrics</b>.
-
 
 ### -field pbLyrics
 
 Pointer to a <b>BYTE</b> array containing the lyrics. You can break the lyrics into syllables, or divide them in some other way that suits the needs of your application. Each syllable or part is included as a null-terminated, wide-character string followed by a 32-bit time stamp. The unit of measurement for the time stamp is determined by the value of <b>bTimeStampFormat</b>.
 
-
 ## -remarks
-
-
 
 The objects of the Windows Media Format SDK do not validate the values of time stamps for synchronized lyrics. However, the data is checked to ensure that there is a time stamp for every string, and that the data alternates between strings and integers.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

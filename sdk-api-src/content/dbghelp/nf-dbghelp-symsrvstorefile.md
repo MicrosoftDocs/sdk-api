@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymSrvStoreFile
 title: SymSrvStoreFile function (dbghelp.h)
-description: Stores a file in the specified symbol store.
+description: The SymSrvStoreFile function (dbghelp.h) stores a file in the specified symbol store.
+helpviewer_keywords: ["SYMSTOREOPT_COMPRESS","SYMSTOREOPT_OVERWRITE","SYMSTOREOPT_PASS_IF_EXISTS","SYMSTOREOPT_POINTER","SYMSTOREOPT_RETURNINDEX","SymSrvStoreFile","SymSrvStoreFile function","SymSrvStoreFileW","base.symsrvstorefile","dbghelp/SymSrvStoreFile","dbghelp/SymSrvStoreFileW"]
 old-location: base\symsrvstorefile.htm
 tech.root: Debug
 ms.assetid: 308ce0bb-d5ff-4de0-b5b3-9e26aa7b163a
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SYMSTOREOPT_COMPRESS, SYMSTOREOPT_OVERWRITE, SYMSTOREOPT_PASS_IF_EXISTS, SYMSTOREOPT_POINTER, SYMSTOREOPT_RETURNINDEX, SymSrvStoreFile, SymSrvStoreFile function, SymSrvStoreFileW, base.symsrvstorefile, dbghelp/SymSrvStoreFile, dbghelp/SymSrvStoreFileW
-f1_keywords:
-- dbghelp/SymSrvStoreFile
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymSrvStoreFile
-- SymSrvStoreFile
-- SymSrvStoreFileW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymSrvStoreFile
+ - dbghelp/SymSrvStoreFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymSrvStoreFile
+ - SymSrvStoreFile
+ - SymSrvStoreFileW
 ---
 
 # SymSrvStoreFile function
@@ -50,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stores a file in the specified symbol store.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param SrvPath [in, optional]
 
 The symbol store.
 
-
 ### -param File [in]
 
 The name of the file.
-
 
 ### -param Flags [in]
 
@@ -141,25 +135,16 @@ Return the index only.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to a null-terminated string that specifies the full-qualified path to the stored file.
 						
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -167,16 +152,6 @@ This function returns a pointer to a buffer that may be reused by another functi
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>

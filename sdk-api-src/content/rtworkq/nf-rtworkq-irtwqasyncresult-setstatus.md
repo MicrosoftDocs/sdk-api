@@ -1,16 +1,13 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.SetStatus
 title: IRtwqAsyncResult::SetStatus (rtworkq.h)
-description: Sets the status of the asynchronous operation.
+description: Sets the status of the asynchronous operation. (IRtwqAsyncResult.SetStatus)
+helpviewer_keywords: ["IRtwqAsyncResult interface","SetStatus method","IRtwqAsyncResult.SetStatus","IRtwqAsyncResult::SetStatus","SetStatus","SetStatus method","SetStatus method","IRtwqAsyncResult interface","base.irtwqasyncresult_setstatus","rtworkq/IRtwqAsyncResult::SetStatus"]
 old-location: base\irtwqasyncresult_setstatus.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 9F3A74F5-615B-40B2-8E69-145D0ECA22A9
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult interface,SetStatus method, IRtwqAsyncResult.SetStatus, IRtwqAsyncResult::SetStatus, SetStatus, SetStatus method, SetStatus method,IRtwqAsyncResult interface, base.irtwqasyncresult_setstatus, rtworkq/IRtwqAsyncResult::SetStatus
-f1_keywords:
-- rtworkq/IRtwqAsyncResult.SetStatus
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RTWorkQ.dll
-api_name:
-- IRtwqAsyncResult.SetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRtwqAsyncResult::SetStatus
+ - rtworkq/IRtwqAsyncResult::SetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqAsyncResult.SetStatus
 ---
 
 # IRtwqAsyncResult::SetStatus
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the status of the asynchronous operation.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hrStatus [in]
 
 The status of the asynchronous operation.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,18 +79,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>

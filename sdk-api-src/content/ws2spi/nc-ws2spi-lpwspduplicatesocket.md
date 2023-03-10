@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPDUPLICATESOCKET
 title: LPWSPDUPLICATESOCKET
 description: The LPWSPDuplicateSocket function returns a WSAPROTOCOL_INFO structure that can be used to create a new socket descriptor for a shared socket.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPDUPLICATESOCKET"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPDUPLICATESOCKET
 targetos: Windows
@@ -25,33 +27,42 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPDUPLICATESOCKET
+ - LPWSPDUPLICATESOCKET
+f1_keywords:
+ - LPWSPDUPLICATESOCKET
+ - ws2spi/LPWSPDUPLICATESOCKET
 ---
 
 ## -description
+
 The **LPWSPDuplicateSocket** function returns a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure that can be used to create a new socket descriptor for a shared socket.
 
 ## -parameters
 
 ### -param s [in]
+
 Local socket descriptor.
 
 ### -param dwProcessId [in]
+
 Identifier of the target process for which the shared socket will be used.
 
 ### -param lpProtocolInfo [out]
+
 Pointer to a buffer allocated by the client that is large enough to contain a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure. The service provider copies the protocol information structure contents to this buffer.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPDuplicateSocket** returns zero. Otherwise, the value of SOCKET_ERROR is returned, and a specific error number is available in <i>lpErrno</i>.
 
 <table>
@@ -128,11 +139,12 @@ The descriptor is not a socket.
 </table>
 
 ## -remarks
+
 A source process calls **LPWSPDuplicateSocket** to obtain a special <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure. It uses some interprocess communications (IPC) mechanism to pass the contents of this structure to a target process, which in turn uses it in a call to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a></b> to obtain a descriptor for the duplicated socket. Note that the special **WSAPROTOCOL_INFO** structure can only be used once by the target process.
 
 It is the service provider's responsibility to perform whatever operations are needed in the source process context and to create a <b><a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa?redirectedfrom=MSDN">WSAPROTOCOL_INFO</a></b> structure that will be recognized when it subsequently appears as a parameter to <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a></b> in the target processes' context. The provider must then return a socket descriptor that references a common underlying socket. The **dwProviderReserved** member of the **WSAPROTOCOL_INFO** structure is available for the service provider's use and can be used to store any useful context information, including a duplicated handle.
 
-When a new socket descriptor is allocated, an installable file system (IFS) provider must call [WPUModifyIFSHandle](/windows/win32/api/ws2spi/nf-ws2spi-wpumodifyifshandle), and a non-IFS provider must call [WPUCreateSocketHandle](/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle). An IFS provider can use the [DuplicateHandle](/windows/win32/api/handleapi/nf-handleapi-duplicatehandle) function. To ensure proper execution of socket duplication, a non-IFS service provider must use the **LPWSPDuplicateSocket** function.
+When a new socket descriptor is allocated, an installable file system (IFS) provider must call [WPUModifyIFSHandle](./nf-ws2spi-wpumodifyifshandle.md), and a non-IFS provider must call [WPUCreateSocketHandle](./nf-ws2spi-wpucreatesockethandle.md). An IFS provider can use the [DuplicateHandle](../handleapi/nf-handleapi-duplicatehandle.md) function. To ensure proper execution of socket duplication, a non-IFS service provider must use the **LPWSPDuplicateSocket** function.
 
 One possible scenario for establishing and using a shared socket in handoff mode is illustrated in the following.
 
@@ -291,7 +303,7 @@ One possible scenario for establishing and using a shared socket in handoff mode
 <td width="45%">
 <dl>                                              
 <dt>
- 10) <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b>
+ 10) <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b>
 </dt>
 </dl>
 </td>
@@ -306,7 +318,7 @@ One possible scenario for establishing and using a shared socket in handoff mode
 
 The descriptors that reference a shared socket can be used independently as far as I/O is concerned. However, the Windows Sockets interface does not implement any type of access control, so it is up to the processes involved to coordinate their operations on a shared socket. A typical use for shared sockets is to have one process that is responsible for creating sockets and establishing connections, hand off sockets to other processes that are responsible for information exchange.
 
-Since what is duplicated are the socket descriptors and not the underlying socket, all the states associated with a socket are held in common across all the descriptors. For example a <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)?redirectedfrom=MSDN">WSPSetSockOpt</a></b> operation performed using one descriptor is subsequently visible using a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> from any or all descriptors. A process can call <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a> on a duplicated socket and the descriptor will become deallocated. The underlying socket, however, will remain open until **LPWSPClosesocket** is called by the last remaining descriptor.
+Since what is duplicated are the socket descriptors and not the underlying socket, all the states associated with a socket are held in common across all the descriptors. For example a <b><a href="/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a></b> operation performed using one descriptor is subsequently visible using a <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a></b> from any or all descriptors. A process can call <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a> on a duplicated socket and the descriptor will become deallocated. The underlying socket, however, will remain open until **LPWSPClosesocket** is called by the last remaining descriptor.
 
 Notification on shared sockets is subject to the usual constraints of **[LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)** and <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">LPWSPEventSelect</a></b>. Issuing either of these calls using any of the shared descriptors cancels any previous event registration for the socket, regardless of which descriptor was used to make that registration. Thus, for example, a shared socket cannot deliver FD_READ events to process A and FD_WRITE events to process B. For situations when such tight coordination is required, it is suggested that developers use threads instead of separate processes.
 

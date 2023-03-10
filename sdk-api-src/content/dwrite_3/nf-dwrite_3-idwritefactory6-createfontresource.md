@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFactory6.CreateFontResource
 title: IDWriteFactory6::CreateFontResource
 description: Creates a font resource, given a font file and a face index.
+helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontResource method","IDWriteFactory6.CreateFontResource","IDWriteFactory6::CreateFontResource","CreateFontResource","CreateFontResource method [Direct Write]","CreateFontResource method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createfontresource","dwrite_3/IDWriteFactory6::CreateFontResource"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontResource method, IDWriteFactory6.CreateFontResource, IDWriteFactory6::CreateFontResource, CreateFontResource, CreateFontResource method [Direct Write], CreateFontResource method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontresource, dwrite_3/IDWriteFactory6::CreateFontResource
-f1_keywords:
-- dwrite_3/IDWriteFactory6.CreateFontResource
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory6::CreateFontResource
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFactory6::CreateFontResource
+ - dwrite_3/IDWriteFactory6::CreateFontResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory6::CreateFontResource
 ---
 
 ## -description
@@ -50,7 +52,7 @@ Creates a font resource, given a font file and a face index.
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md)\***
 
 A user-provided font file representing the font face.
 
@@ -62,9 +64,9 @@ The zero-based index of a font face in cases when the font file contains a colle
 
 ### -param fontResource
 
-Type: **[IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource)\*\***
+Type: **[IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md)\*\***
 
-The address of a pointer to an [IDWriteFontResource](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontresource) interface. On successful completion, the function sets the pointer to a newly created font resource object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontResource](./nn-dwrite_3-idwritefontresource.md) interface. On successful completion, the function sets the pointer to a newly created font resource object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 

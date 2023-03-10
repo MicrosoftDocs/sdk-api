@@ -2,15 +2,12 @@
 UID: NF:wdsclientapi.WdsCliLog
 title: WdsCliLog function (wdsclientapi.h)
 description: Sends a log event to the WDS server.
+helpviewer_keywords: ["WDS_LOG_LEVEL_DISABLED","WDS_LOG_LEVEL_ERROR","WDS_LOG_LEVEL_INFO","WDS_LOG_LEVEL_WARNING","WDS_LOG_TYPE_CLIENT_APPLY_FINISHED","WDS_LOG_TYPE_CLIENT_APPLY_STARTED","WDS_LOG_TYPE_CLIENT_ERROR","WDS_LOG_TYPE_CLIENT_FINISHED","WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE","WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED","WDS_LOG_TYPE_CLIENT_MAX_CODE","WDS_LOG_TYPE_CLIENT_STARTED","WdsCliLog","WdsCliLog function [Windows Deployment Services]","wds.wdsclilog","wdsclientapi/WdsCliLog"]
 old-location: wds\wdsclilog.htm
 tech.root: wds
 ms.assetid: c4b183c7-5118-4752-a3a4-ef594f133288
 ms.date: 12/05/2018
 ms.keywords: WDS_LOG_LEVEL_DISABLED, WDS_LOG_LEVEL_ERROR, WDS_LOG_LEVEL_INFO, WDS_LOG_LEVEL_WARNING, WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, WDS_LOG_TYPE_CLIENT_APPLY_STARTED, WDS_LOG_TYPE_CLIENT_ERROR, WDS_LOG_TYPE_CLIENT_FINISHED, WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE, WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED, WDS_LOG_TYPE_CLIENT_MAX_CODE, WDS_LOG_TYPE_CLIENT_STARTED, WdsCliLog, WdsCliLog function [Windows Deployment Services], wds.wdsclilog, wdsclientapi/WdsCliLog
-f1_keywords:
-- wdsclientapi/WdsCliLog
-dev_langs:
-- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsClientAPI.dll
-api_name:
-- WdsCliLog
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsCliLog
+ - wdsclientapi/WdsCliLog
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsClientAPI.dll
+api_name:
+ - WdsCliLog
 ---
 
 # WdsCliLog function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a log event to the WDS server.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 A handle to a session   with a WDS server. This was a handle returned by 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a> function.
-
+      the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a> function.
 
 ### -param ulLogLevel [in]
 
@@ -88,7 +84,6 @@ This parameter can have one of the following values.
 
 
 #### WDS_LOG_LEVEL_INFO (3)
-
 
 ### -param ulMessageCode [in]
 
@@ -192,35 +187,21 @@ Used to determine an out-of-range index. Values greater than or equal to
 </td>
 </tr>
 </table>
- 
 
-
-### -param arg4
+### -param ...
 
 The quantity and type of the additional arguments varies with the value of the 
       <i>ulMessageCode</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return is <b>S_OK</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicreatesession">WdsCliCreateSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>
- 
-
- 
+<a href="/windows/desktop/Wds/windows-deployment-services-client-functions">Windows Deployment Services Client Functions</a>
 

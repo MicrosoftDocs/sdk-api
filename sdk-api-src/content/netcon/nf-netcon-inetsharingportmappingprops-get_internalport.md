@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingPortMappingProps.get_InternalPort
 title: INetSharingPortMappingProps::get_InternalPort (netcon.h)
 description: The get_InternalPort method retrieves the internal port associated with this port mapping.
+helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_InternalPort method","INetSharingPortMappingProps.get_InternalPort","INetSharingPortMappingProps::get_InternalPort","_ics_inetsharingportmappingprops_get_port","get_InternalPort","get_InternalPort method [ICS/ICF]","get_InternalPort method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_internalport","ics.inetsharingportmappingprops_get_port","netcon/INetSharingPortMappingProps::get_InternalPort"]
 old-location: ics\inetsharingportmappingprops_get_internalport.htm
 tech.root: ics
 ms.assetid: 53f19eee-98da-4b90-99cd-b0bed4ec6d6f
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps interface [ICS/ICF],get_InternalPort method, INetSharingPortMappingProps.get_InternalPort, INetSharingPortMappingProps::get_InternalPort, _ics_inetsharingportmappingprops_get_port, get_InternalPort, get_InternalPort method [ICS/ICF], get_InternalPort method [ICS/ICF],INetSharingPortMappingProps interface, ics.inetsharingportmappingprops_get_internalport, ics.inetsharingportmappingprops_get_port, netcon/INetSharingPortMappingProps::get_InternalPort
-f1_keywords:
-- netcon/INetSharingPortMappingProps.get_InternalPort
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingPortMappingProps.get_InternalPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingPortMappingProps::get_InternalPort
+ - netcon/INetSharingPortMappingProps::get_InternalPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingPortMappingProps.get_InternalPort
 ---
 
 # INetSharingPortMappingProps::get_InternalPort
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_InternalPort</b> method retrieves the internal port associated with this port mapping.
 
-
 ## -parameters
-
-
-
 
 ### -param pusPort [out]
 
 Pointer to a <b>LONG</b> variable that receives the internal port for this port mapping.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -167,26 +161,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmappingprops">INetSharingPortMappingProps</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingportmappingprops">INetSharingPortMappingProps</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

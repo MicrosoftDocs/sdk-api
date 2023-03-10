@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ITransferSource.MoveItem
 title: ITransferSource::MoveItem (shobjidl_core.h)
 description: Moves the item within the volume/namespace, returning the IShellItem in its new location.
+helpviewer_keywords: ["ITransferSource interface [Windows Shell]","MoveItem method","ITransferSource.MoveItem","ITransferSource::MoveItem","MoveItem","MoveItem method [Windows Shell]","MoveItem method [Windows Shell]","ITransferSource interface","_shell_ITransferSource_MoveItem","shell.ITransferSource_MoveItem","shobjidl_core/ITransferSource::MoveItem"]
 old-location: shell\ITransferSource_MoveItem.htm
 tech.root: shell
 ms.assetid: de59291c-12ad-4639-bc10-d8416a979eb7
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],MoveItem method, ITransferSource.MoveItem, ITransferSource::MoveItem, MoveItem, MoveItem method [Windows Shell], MoveItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_MoveItem, shell.ITransferSource_MoveItem, shobjidl_core/ITransferSource::MoveItem
-f1_keywords:
-- shobjidl_core/ITransferSource.MoveItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferSource.MoveItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferSource::MoveItem
+ - shobjidl_core/ITransferSource::MoveItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferSource.MoveItem
 ---
 
 # ITransferSource::MoveItem
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Moves the item within the volume/namespace, returning the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
-
+Moves the item within the volume/namespace, returning the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
 
 ## -parameters
 
-
-
-
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be moved.
-
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be moved.
 
 ### -param psiParentDst [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the new parent item at the destination.
-
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the new parent item at the destination.
 
 ### -param pszNameDst [in]
 
@@ -77,24 +72,19 @@ Type: <b>LPCWSTR</b>
 
 Pointer to a null-terminated buffer that contains the destination path.
 
-
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a></b>
 
-Flags that control the file operation. One or more of the <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
-
+Flags that control the file operation. One or more of the <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_transfer_source_flags">TRANSFER_SOURCE_FLAGS</a> constants.
 
 ### -param ppsiNew [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
-When this method returns successfully, contains an address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
-
+When this method returns successfully, contains an address of a pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> in its new location.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -156,7 +146,7 @@ The caller should convert a move operation into a copy and delete operation. Thi
 </dl>
 </td>
 <td width="60%">
-When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)</code>.
+When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)</code>.
 
 </td>
 </tr>
@@ -167,12 +157,8 @@ When moving a folder, the caller should convert the move operation into a copy a
 </dl>
 </td>
 <td width="60%">
-When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</code>.
+When moving a folder, the caller should convert the move operation into a copy and delete operation. The destination item must support <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a>. This error is seen as <code>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</code>.
 
 </td>
 </tr>
 </table>
- 
-
-
-

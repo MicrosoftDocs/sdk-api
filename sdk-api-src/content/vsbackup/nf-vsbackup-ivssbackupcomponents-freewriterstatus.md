@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterStatus
 title: IVssBackupComponents::FreeWriterStatus (vsbackup.h)
 description: The FreeWriterStatus method frees system resources allocated during the call to IVssBackupComponents::GatherWriterStatus.
+helpviewer_keywords: ["FreeWriterStatus","FreeWriterStatus method [VSS]","FreeWriterStatus method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","FreeWriterStatus method","IVssBackupComponents.FreeWriterStatus","IVssBackupComponents::FreeWriterStatus","_win32_ivssbackupcomponents_freewriterstatus","base.ivssbackupcomponents_freewriterstatus","vsbackup/IVssBackupComponents::FreeWriterStatus"]
 old-location: base\ivssbackupcomponents_freewriterstatus.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 2bf4c575-f94d-43df-b141-94ed5a55294b
 ms.date: 12/05/2018
 ms.keywords: FreeWriterStatus, FreeWriterStatus method [VSS], FreeWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterStatus method, IVssBackupComponents.FreeWriterStatus, IVssBackupComponents::FreeWriterStatus, _win32_ivssbackupcomponents_freewriterstatus, base.ivssbackupcomponents_freewriterstatus, vsbackup/IVssBackupComponents::FreeWriterStatus
-f1_keywords:
-- vsbackup/IVssBackupComponents.FreeWriterStatus
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.FreeWriterStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::FreeWriterStatus
+ - vsbackup/IVssBackupComponents::FreeWriterStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.FreeWriterStatus
 ---
 
 # IVssBackupComponents::FreeWriterStatus
@@ -49,21 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>FreeWriterStatus</b> method frees system resources allocated during the call to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>.
-
-
-## -parameters
-
-
-
+<b>FreeWriterStatus</b> method frees system resources allocated during the call to <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>.
 
 
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -106,22 +99,11 @@ The backup components object is not initialized, this method has been called dur
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>

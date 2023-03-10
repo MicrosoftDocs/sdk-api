@@ -1,16 +1,13 @@
 ---
 UID: NF:vsbackup.IsVolumeSnapshottedInternal
 title: IsVolumeSnapshottedInternal function (vsbackup.h)
-description: The IsVolumeSnapshotted function determines whether any shadow copies exist for the specified volume.
+description: The IsVolumeSnapshottedInternal function (vsbackup.h) determines whether any shadow copies exist for the specified volume.
+helpviewer_keywords: ["IsVolumeSnapshotted","IsVolumeSnapshotted function [VSS]","IsVolumeSnapshottedInternal","_win32_isvolumesnapshotted","base.isvolumesnapshotted","vsbackup/IsVolumeSnapshotted","vsbackup/IsVolumeSnapshottedInternal"]
 old-location: base\isvolumesnapshotted.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 308eddea-50e2-44c8-858f-315b8960a421
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: IsVolumeSnapshotted, IsVolumeSnapshotted function [VSS], IsVolumeSnapshottedInternal, _win32_isvolumesnapshotted, base.isvolumesnapshotted, vsbackup/IsVolumeSnapshotted, vsbackup/IsVolumeSnapshottedInternal
-f1_keywords:
-- vsbackup/IsVolumeSnapshotted
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: VssApi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VssApi.dll
-- Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
-api_name:
-- IsVolumeSnapshotted
-- IsVolumeSnapshottedInternal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsVolumeSnapshottedInternal
+ - vsbackup/IsVolumeSnapshottedInternal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VssApi.dll
+ - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
+api_name:
+ - IsVolumeSnapshotted
+ - IsVolumeSnapshottedInternal
 ---
 
 # IsVolumeSnapshottedInternal function
@@ -50,25 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsVolumeSnapshotted</b> function determines 
     whether any shadow copies exist for the specified volume.
 <div class="alert"><b>Note</b>  This function is exported as <b>IsVolumeSnapshottedInternal</b>, but you should call <b>IsVolumeSnapshotted</b>, not <b>IsVolumeSnapshottedInternal</b>.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pwszVolumeName [in]
 
-Name of the volume. The name of the volume to be checked must be in one of the following formats and must include a trailing backslash (\):
+Name of the volume. The name of the volume to be checked must be in one of the following formats and must include a trailing backslash (\\):
 
 <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, 
         D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
 ### -param pbSnapshotsPresent [out]
@@ -76,18 +74,14 @@ Name of the volume. The name of the volume to be checked must be in one of the f
 The value of this parameter is <b>TRUE</b> if the volume has a shadow copy, and 
       <b>FALSE</b> if the volume does not have a shadow copy.
 
-
 ### -param plSnapshotCapability [out]
 
 A bit mask (or bitwise OR) of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that 
+      <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a> values that 
       indicates whether certain volume control or file I/O operations are disabled for the given volume if a shadow 
       copy of it exists.
 
-
 ## -returns
-
-
 
 The return values listed here are in addition to the normal COM <b>HRESULT</b>s that may be returned at any time 
        from the function.
@@ -149,7 +143,7 @@ Out of memory or other system resources.
 </td>
 <td width="60%">
 Expected provider error. The provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -172,7 +166,7 @@ The specified volume was not found.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. <b>E_UNEXPECTED</b> is used instead.
 
@@ -187,35 +181,19 @@ Unexpected error. The error code is logged in the error log file. For more infor
 <td width="60%">
 Unexpected provider error. The error code is logged in the event log file. For additional information, 
         see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Before calling this function, the caller must have initialized COM by calling the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function.
+Before calling this function, the caller must have initialized COM by calling the <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function.
 
 If no volume control or file I/O operations are disabled for the selected volume, then the shadow copy 
     capability of the selected volume returned by <i>plSnapshotCapability</i> will be zero.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>

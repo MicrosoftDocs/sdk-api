@@ -1,16 +1,13 @@
 ---
 UID: NS:wtsapi32._WTSUSERCONFIGW
 title: WTSUSERCONFIGW (wtsapi32.h)
-description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
+description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. (Unicode)
+helpviewer_keywords: ["*PWTSUSERCONFIGW","PWTSUSERCONFIG","PWTSUSERCONFIG structure pointer [Remote Desktop Services]","WTSUSERCONFIG","WTSUSERCONFIG structure [Remote Desktop Services]","WTSUSERCONFIGA","WTSUSERCONFIGW","termserv.wtsuserconfig","wtsapi32/PWTSUSERCONFIG","wtsapi32/WTSUSERCONFIG","wtsapi32/WTSUSERCONFIGA","wtsapi32/WTSUSERCONFIGW"]
 old-location: termserv\wtsuserconfig.htm
 tech.root: TermServ
 ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
 ms.date: 12/05/2018
 ms.keywords: '*PWTSUSERCONFIGW, PWTSUSERCONFIG, PWTSUSERCONFIG structure pointer [Remote Desktop Services], WTSUSERCONFIG, WTSUSERCONFIG structure [Remote Desktop Services], WTSUSERCONFIGA, WTSUSERCONFIGW, termserv.wtsuserconfig, wtsapi32/PWTSUSERCONFIG, wtsapi32/WTSUSERCONFIG, wtsapi32/WTSUSERCONFIGA, wtsapi32/WTSUSERCONFIGW'
-f1_keywords:
-- wtsapi32/WTSUSERCONFIG
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wtsapi32.h
-api_name:
-- WTSUSERCONFIG
-- WTSUSERCONFIGA
-- WTSUSERCONFIGW
 targetos: Windows
 req.typenames: WTSUSERCONFIGW, *PWTSUSERCONFIGW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WTSUSERCONFIGW
+ - wtsapi32/_WTSUSERCONFIGW
+ - PWTSUSERCONFIGW
+ - wtsapi32/PWTSUSERCONFIGW
+ - WTSUSERCONFIGW
+ - wtsapi32/WTSUSERCONFIGW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wtsapi32.h
+api_name:
+ - WTSUSERCONFIG
+ - WTSUSERCONFIGA
+ - WTSUSERCONFIGW
 ---
 
 # WTSUSERCONFIGW structure
@@ -50,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
-
+Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server. This structure is used by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
 
 ## -struct-fields
 
-
-
-
 ### -field Source
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function.
-
+A value of the <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a> enumeration type that specifies the  source of configuration information returned by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> function.
 
 ### -field InheritInitialProgram
 
@@ -80,7 +80,6 @@ The client cannot specify the initial program. Instead, the program specified by
 
 The client can specify the initial program.
 
-
 ### -field AllowLogonTerminalServer
 
 A value that indicates whether the user account is permitted to log on to an RD Session Host server. This member can be one of the following values.
@@ -97,26 +96,21 @@ The user cannot log on.
 
 The user can log on.
 
-
 ### -field TimeoutSettingsConnections
 
 The maximum connection duration, in milliseconds. One minute before the connection expires, the server notifies the user about the pending disconnection. When the connection times out, the server takes the action specified by the  <b>BrokenTimeoutSettings</b> member. Every time the user logs on, the timer is reset. A value of zero indicates that the connection timer is disabled.
-
 
 ### -field TimeoutSettingsDisconnections
 
 The maximum duration, in milliseconds, that the server retains a disconnected session before the logon is terminated. A value of zero indicates that the disconnection timer is disabled.
 
-
 ### -field TimeoutSettingsIdle
 
 The amount of time, in milliseconds, that a connection can remain idle. If there is no keyboard or mouse activity for this period of time, the server takes the action specified by the <b>BrokenTimeoutSettings</b> member. A value of zero indicates that the idle timer is disabled.
 
-
 ### -field DeviceClientDrives
 
 This member is reserved.
-
 
 ### -field DeviceClientPrinters
 
@@ -134,7 +128,6 @@ The server does not automatically connect to previously mapped client printers.
 
 The server automatically connects to previously mapped client printers.
 
-
 ### -field ClientDefaultPrinter
 
 A value that indicates whether the client printer is the default printer. This member can be one of the following values.
@@ -150,7 +143,6 @@ The client printer is not the default printer.
 #### 1
 
 The client printer is the default printer.
-
 
 ### -field BrokenTimeoutSettings
 
@@ -168,7 +160,6 @@ The session is disconnected, but it remains on the server.
 
 The session is terminated.
 
-
 ### -field ReconnectSettings
 
 A value that indicates how a disconnected session for this user can be reconnected. This member can be one of the following values.
@@ -184,7 +175,6 @@ The user can log on to any client computer to reconnect to a disconnected sessio
 #### 1
 
 The user must log on to the client computer originally used to establish the disconnected session. If the user logs on to a different client computer, the user gets a new session.
-
 
 ### -field ShadowingSettings
 
@@ -223,10 +213,9 @@ The user of remote control can view the session remotely, with the user's permis
 The user of remote control can view the session remotely but not actively control the session; the 
         user's permission is not required.
 
-
 ### -field TerminalServerRemoteHomeDir
 
-A value that indicates whether the <b>TerminalServerHomeDir</b> member contains a path to a local directory or a network share. You cannot set this member by using the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> function. This member can be one of the following values.
+A value that indicates whether the <b>TerminalServerHomeDir</b> member contains a path to a local directory or a network share. You cannot set this member by using the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> function. This member can be one of the following values.
 
 
 
@@ -240,26 +229,21 @@ The <b>TerminalServerHomeDir</b> member contains a path to a local directory.
 
 The <b>TerminalServerHomeDir</b> member contains a path to a network share, and the <b>TerminalServerHomeDirDrive</b> member contains a drive letter to which this path is mapped.
 
-
 ### -field InitialProgram
 
 A null-terminated string that contains the name of  the program to start immediately after the user logs on to the server.
-
 
 ### -field WorkDirectory
 
 A null-terminated string that contains the path of the working directory for the initial program.
 
-
 ### -field TerminalServerProfilePath
 
 A null-terminated string that contains the profile path that is assigned to the user when the user connects to the server. The directory specified by the path must be created manually, and must exist prior to the logon.
 
-
 ### -field TerminalServerHomeDir
 
 A null-terminated string that contains the path to the home folder of the user's Remote Desktop Services sessions. The folder can be a local folder or a network share.
-
 
 ### -field TerminalServerHomeDirDrive
 
@@ -363,22 +347,19 @@ The <b>TerminalServerHomeDir</b> member contains a path to a local directory.
 
 The <b>TerminalServerHomeDir</b> member contains a path to a network share, and the <b>TerminalServerHomeDirDrive</b> member contains a drive letter to which this path is mapped.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
+<a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_config_source">WTS_CONFIG_SOURCE</a>
- 
-
- 
-
+> [!NOTE]
+> The wtsapi32.h header defines WTSUSERCONFIG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

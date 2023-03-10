@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSensorProfileCollection.FindProfile
 title: IMFSensorProfileCollection::FindProfile (mfidl.h)
 description: Finds a profile based on the specified profile ID.
+helpviewer_keywords: ["FindProfile","FindProfile method [Media Foundation]","FindProfile method [Media Foundation]","IMFSensorProfileCollection interface","IMFSensorProfileCollection interface [Media Foundation]","FindProfile method","IMFSensorProfileCollection.FindProfile","IMFSensorProfileCollection::FindProfile","mf.imfsensorprofilecollection_findprofile","mfidl/IMFSensorProfileCollection::FindProfile"]
 old-location: mf\imfsensorprofilecollection_findprofile.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3EC77F69-717F-404F-9C8C-F420F360CB83
 ms.date: 12/05/2018
 ms.keywords: FindProfile, FindProfile method [Media Foundation], FindProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],FindProfile method, IMFSensorProfileCollection.FindProfile, IMFSensorProfileCollection::FindProfile, mf.imfsensorprofilecollection_findprofile, mfidl/IMFSensorProfileCollection::FindProfile
-f1_keywords:
-- mfidl/IMFSensorProfileCollection.FindProfile
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfsensorgroup.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mfsensorgroup.lib
-- Mfsensorgroup.dll
-api_name:
-- IMFSensorProfileCollection.FindProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSensorProfileCollection::FindProfile
+ - mfidl/IMFSensorProfileCollection::FindProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mfsensorgroup.lib
+ - Mfsensorgroup.dll
+api_name:
+ - IMFSensorProfileCollection.FindProfile
 ---
 
 # IMFSensorProfileCollection::FindProfile
@@ -49,41 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Finds a profile based on the specified profile ID.
 
-
 ## -parameters
-
-
-
 
 ### -param ProfileId [in]
 
 Pointer to the The ID of the profile to find.
 
-
 ### -param ppProfile [out]
 
 On success, returns a double pointer to the profile.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofilecollection">IMFSensorProfileCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofilecollection">IMFSensorProfileCollection</a>

@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509Extensions.AddRange
 title: IX509Extensions::AddRange (certenroll.h)
 description: Adds a range of IX509Extension objects to the collection.
+helpviewer_keywords: ["AddRange","AddRange method [Security]","AddRange method [Security]","IX509Extensions interface","IX509Extensions interface [Security]","AddRange method","IX509Extensions.AddRange","IX509Extensions::AddRange","certenroll/IX509Extensions::AddRange","security.ix509extensions_addrange_method"]
 old-location: security\ix509extensions_addrange_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: e2e11b36-966b-497a-a199-41364314d287
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IX509Extensions interface, IX509Extensions interface [Security],AddRange method, IX509Extensions.AddRange, IX509Extensions::AddRange, certenroll/IX509Extensions::AddRange, security.ix509extensions_addrange_method
-f1_keywords:
-- certenroll/IX509Extensions.AddRange
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509Extensions.AddRange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509Extensions::AddRange
+ - certenroll/IX509Extensions::AddRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509Extensions.AddRange
 ---
 
 # IX509Extensions::AddRange
@@ -48,42 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AddRange</b> method adds a range of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects to the collection.
-
+The <b>AddRange</b> method adds a range of <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a> objects to the collection.
 
 ## -parameters
 
-
-
-
 ### -param pValue [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> interface that contains the collection to add.
-
+Pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> interface that contains the collection to add.
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a>

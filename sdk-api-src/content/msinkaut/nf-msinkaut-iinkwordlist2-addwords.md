@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkWordList2.AddWords
 title: IInkWordList2::AddWords (msinkaut.h)
 description: Adds more than one word to an InkWordList in a single operation.
+helpviewer_keywords: ["65afd260-f2ef-4744-a623-bcec4c742d61","AddWords","AddWords method [Tablet PC]","AddWords method [Tablet PC]","IInkWordList2 interface","IInkWordList2 interface [Tablet PC]","AddWords method","IInkWordList2.AddWords","IInkWordList2::AddWords","msinkaut/IInkWordList2::AddWords","tablet.iinkwordlist2_addwords"]
 old-location: tablet\iinkwordlist2_addwords.htm
 tech.root: tablet
 ms.assetid: 65afd260-f2ef-4744-a623-bcec4c742d61
 ms.date: 12/05/2018
 ms.keywords: 65afd260-f2ef-4744-a623-bcec4c742d61, AddWords, AddWords method [Tablet PC], AddWords method [Tablet PC],IInkWordList2 interface, IInkWordList2 interface [Tablet PC],AddWords method, IInkWordList2.AddWords, IInkWordList2::AddWords, msinkaut/IInkWordList2::AddWords, tablet.iinkwordlist2_addwords
-f1_keywords:
-- msinkaut/IInkWordList2.AddWords
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkWordList2.AddWords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkWordList2::AddWords
+ - msinkaut/IInkWordList2::AddWords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkWordList2.AddWords
 ---
 
 # IInkWordList2::AddWords
@@ -49,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Adds more than one word to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
-
-
-
+Adds more than one word to an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
 
 ## -parameters
 
-
-
-
 ### -param NewWords [in]
 
-A <b>BSTR</b> of <b>NULL</b> separated words terminated by a double <b>NULL</b> containing the words to add to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
+A <b>BSTR</b> of <b>NULL</b> separated words terminated by a double <b>NULL</b> containing the words to add to the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
-For more information about the <b>BSTR</b> data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the <b>BSTR</b> data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -146,35 +137,19 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To access this method, first create and instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>, then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>. Use this pointer to call the <b>AddWords Method</b>.
-
-
-
+To access this method, first create and instance of the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>, then call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>. Use this pointer to call the <b>AddWords Method</b>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>

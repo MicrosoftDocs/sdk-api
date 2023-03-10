@@ -1,16 +1,13 @@
 ---
 UID: NF:slpublic.SLGetPolicyInformation
 title: SLGetPolicyInformation function (slpublic.h)
-description: Gets the policy information after right has been consumed successfully.
+description: Gets the policy information after right has been consumed successfully. (SLGetPolicyInformation)
+helpviewer_keywords: ["SLGetPolicyInformation","SLGetPolicyInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","security.slgetpolicyinformation","slpublic/SLGetPolicyInformation"]
 old-location: security\slgetpolicyinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: a9cfd1a0-e622-4726-918b-264f196a4e85
 ms.date: 12/05/2018
 ms.keywords: SLGetPolicyInformation, SLGetPolicyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, security.slgetpolicyinformation, slpublic/SLGetPolicyInformation
-f1_keywords:
-- slpublic/SLGetPolicyInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetPolicyInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetPolicyInformation
+ - slpublic/SLGetPolicyInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetPolicyInformation
 ---
 
 # SLGetPolicyInformation function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the policy information after right has been consumed successfully.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,19 +60,17 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pwszValueName [in]
 
 Type: <b>PCWSTR</b>
 
 The policy name.
 
-
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 <table>
 <tr>
@@ -116,8 +111,6 @@ Binary BLOB
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbValue [out]
 
@@ -125,18 +118,14 @@ Type: <b>UINT*</b>
 
 A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
-
 ### -param ppbValue [out]
 
 Type: <b>PBYTE*</b>
 
 If successful, the data is returned in the buffer allocated by SLC. 
-		When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
+		When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -184,7 +173,3 @@ The caller does not have permission to run the software.
 </td>
 </tr>
 </table>
- 
-
-
-

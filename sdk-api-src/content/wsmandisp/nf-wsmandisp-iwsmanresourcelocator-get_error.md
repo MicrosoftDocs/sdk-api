@@ -1,16 +1,13 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_Error
 title: IWSManResourceLocator::get_Error (wsmandisp.h)
-description: Gets an XML representation of additional error information.
+description: Gets an XML representation of additional error information. (IWSManResourceLocator.get_Error)
+helpviewer_keywords: ["Error property [Windows Remote Management]","Error property [Windows Remote Management]","IWSManResourceLocator interface","IWSManResourceLocator interface [Windows Remote Management]","Error property","IWSManResourceLocator.Error","IWSManResourceLocator.get_Error","IWSManResourceLocator::Error","IWSManResourceLocator::get_Error","get_Error","winrm.iwsmanresourcelocator_error","wsmandisp/IWSManResourceLocator::Error","wsmandisp/IWSManResourceLocator::get_Error"]
 old-location: winrm\iwsmanresourcelocator_error.htm
 tech.root: winrm
 ms.assetid: 040333f5-32b0-4ec8-8deb-da9fcb2ea46b
 ms.date: 12/05/2018
 ms.keywords: Error property [Windows Remote Management], Error property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],Error property, IWSManResourceLocator.Error, IWSManResourceLocator.get_Error, IWSManResourceLocator::Error, IWSManResourceLocator::get_Error, get_Error, winrm.iwsmanresourcelocator_error, wsmandisp/IWSManResourceLocator::Error, wsmandisp/IWSManResourceLocator::get_Error
-f1_keywords:
-- wsmandisp/IWSManResourceLocator.Error
-dev_langs:
-- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WSMAuto.dll
-api_name:
-- IWSManResourceLocator.Error
-- IWSManResourceLocator.get_Error
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSManResourceLocator::get_Error
+ - wsmandisp/IWSManResourceLocator::get_Error
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WSMAuto.dll
+api_name:
+ - IWSManResourceLocator.Error
+ - IWSManResourceLocator.get_Error
 ---
 
 # IWSManResourceLocator::get_Error
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an XML representation of additional error information.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>

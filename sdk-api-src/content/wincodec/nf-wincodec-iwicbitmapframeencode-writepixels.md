@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICBitmapFrameEncode.WritePixels
 title: IWICBitmapFrameEncode::WritePixels (wincodec.h)
 description: Copies scan-line data from a caller-supplied buffer to the IWICBitmapFrameEncode object.
+helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","WritePixels method","IWICBitmapFrameEncode.WritePixels","IWICBitmapFrameEncode::WritePixels","WritePixels","WritePixels method [Windows Imaging Component]","WritePixels method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_writepixels","wic._wic_codec_iwicbitmapframeencode_writepixels","wincodec/IWICBitmapFrameEncode::WritePixels"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_writepixels.htm
 tech.root: wic
 ms.assetid: 6b430fe0-5230-47dc-95c0-aeabd138cefe
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICBitmapFrameEncode.WritePixels, IWICBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writepixels, wic._wic_codec_iwicbitmapframeencode_writepixels, wincodec/IWICBitmapFrameEncode::WritePixels
-f1_keywords:
-- wincodec/IWICBitmapFrameEncode.WritePixels
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICBitmapFrameEncode.WritePixels
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICBitmapFrameEncode::WritePixels
+ - wincodec/IWICBitmapFrameEncode::WritePixels
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICBitmapFrameEncode.WritePixels
 ---
 
 # IWICBitmapFrameEncode::WritePixels
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Copies scan-line data from a caller-supplied buffer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object.
-
-
+Copies scan-line data from a caller-supplied buffer to the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object.
 
 ## -parameters
-
-
-
 
 ### -param lineCount [in]
 
@@ -64,13 +60,11 @@ Type: <b>UINT</b>
 
 The number of lines to encode.
 
-
 ### -param cbStride [in]
 
 Type: <b>UINT</b>
 
-The <a href="https://docs.microsoft.com/">stride</a> of the image pixels.
-
+The stride of the image pixels.
 
 ### -param cbBufferSize [in]
 
@@ -78,17 +72,13 @@ Type: <b>UINT</b>
 
 The size of the pixel buffer.
 
-
 ### -param pbPixels [in]
 
 Type: <b>BYTE*</b>
 
 A pointer to the pixel buffer.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -122,16 +112,7 @@ The value of <i>lineCount</i> is larger than the number of scan lines in the ima
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Successive <b>WritePixels</b> calls are assumed to be sequential scan-line access in the output image.
-
-
-

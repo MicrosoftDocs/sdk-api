@@ -2,15 +2,12 @@
 UID: NF:objidl.IProcessLock.ReleaseRefOnProcess
 title: IProcessLock::ReleaseRefOnProcess (objidl.h)
 description: Decrements the reference count of the process.
+helpviewer_keywords: ["IProcessLock interface [COM]","ReleaseRefOnProcess method","IProcessLock.ReleaseRefOnProcess","IProcessLock::ReleaseRefOnProcess","ReleaseRefOnProcess","ReleaseRefOnProcess method [COM]","ReleaseRefOnProcess method [COM]","IProcessLock interface","_com_iprocesslock_releaserefonprocess","com.iprocesslock_releaserefonprocess","objidl/IProcessLock::ReleaseRefOnProcess"]
 old-location: com\iprocesslock_releaserefonprocess.htm
 tech.root: com
 ms.assetid: a0943afc-b20f-4082-b561-552370a630a1
 ms.date: 12/05/2018
 ms.keywords: IProcessLock interface [COM],ReleaseRefOnProcess method, IProcessLock.ReleaseRefOnProcess, IProcessLock::ReleaseRefOnProcess, ReleaseRefOnProcess, ReleaseRefOnProcess method [COM], ReleaseRefOnProcess method [COM],IProcessLock interface, _com_iprocesslock_releaserefonprocess, com.iprocesslock_releaserefonprocess, objidl/IProcessLock::ReleaseRefOnProcess
-f1_keywords:
-- objidl/IProcessLock.ReleaseRefOnProcess
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IProcessLock.ReleaseRefOnProcess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProcessLock::ReleaseRefOnProcess
+ - objidl/IProcessLock::ReleaseRefOnProcess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IProcessLock.ReleaseRefOnProcess
 ---
 
 # IProcessLock::ReleaseRefOnProcess
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Decrements the reference count of the process.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method returns the new reference count.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocesslock">IProcessLock</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iprocesslock">IProcessLock</a>

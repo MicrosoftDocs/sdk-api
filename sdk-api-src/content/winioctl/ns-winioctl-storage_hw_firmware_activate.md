@@ -2,15 +2,12 @@
 UID: NS:winioctl._STORAGE_HW_FIRMWARE_ACTIVATE
 title: STORAGE_HW_FIRMWARE_ACTIVATE
 description: This structure contains information about the downloaded firmware to activate.
+helpviewer_keywords: ["*PSTORAGE_HW_FIRMWARE_ACTIVATE","PSTORAGE_HW_FIRMWARE_ACTIVATE","PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Files]","STORAGE_HW_FIRMWARE_ACTIVATE","STORAGE_HW_FIRMWARE_ACTIVATE structure [Files]","fs.storage_hw_firmware_activate","winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE","winioctl/STORAGE_HW_FIRMWARE_ACTIVATE"]
 old-location: fs\storage_hw_firmware_activate.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 2DAAC1FE-2503-4820-9718-9A653B0A05CA
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Files], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Files], fs.storage_hw_firmware_activate, winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE, winioctl/STORAGE_HW_FIRMWARE_ACTIVATE'
-f1_keywords:
-- winioctl/STORAGE_HW_FIRMWARE_ACTIVATE
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winioctl.h
-api_name:
-- STORAGE_HW_FIRMWARE_ACTIVATE
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
 req.redist: 
+f1_keywords:
+ - _STORAGE_HW_FIRMWARE_ACTIVATE
+ - winioctl/_STORAGE_HW_FIRMWARE_ACTIVATE
+ - PSTORAGE_HW_FIRMWARE_ACTIVATE
+ - winioctl/PSTORAGE_HW_FIRMWARE_ACTIVATE
+ - STORAGE_HW_FIRMWARE_ACTIVATE
+ - winioctl/STORAGE_HW_FIRMWARE_ACTIVATE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winioctl.h
+api_name:
+ - STORAGE_HW_FIRMWARE_ACTIVATE
 ---
 
 # STORAGE_HW_FIRMWARE_ACTIVATE structure
@@ -47,24 +53,17 @@ req.redist:
 
 ## -description
 
-
 This structure contains information about the downloaded firmware to activate.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_ACTIVATE).
 
-
 ### -field Size
 
 The size of this structure. This should be set to sizeof(STORAGE_HW_FIRMWARE_ACTIVATE).
-
 
 ### -field Flags
 
@@ -84,50 +83,39 @@ The flags associated with the activation request. The following are valid flags 
 <td>Indicates that the existing firmware image in the specified slot should be activated.</td>
 </tr>
 </table>
- 
-
 
 ### -field Slot
 
 The slot with the firmware image that is to be activated.
 
-
 ### -field Reserved0
 
 Reserved for future use.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_activate">IOCTL_STORAGE_FIRMWARE_ACTIVATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_activate">IOCTL_STORAGE_FIRMWARE_ACTIVATE</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_download">IOCTL_STORAGE_FIRMWARE_DOWNLOAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_download">IOCTL_STORAGE_FIRMWARE_DOWNLOAD</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_get_info">IOCTL_STORAGE_FIRMWARE_GET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_firmware_get_info">IOCTL_STORAGE_FIRMWARE_GET_INFO</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_hw_firmware_download">STORAGE_HW_FIRMWARE_DOWNLOAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_hw_firmware_download">STORAGE_HW_FIRMWARE_DOWNLOAD</a>
+<a href="/windows/desktop/FileIO/storage-hw-firmware-info">STORAGE_HW_FIRMWARE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info">STORAGE_HW_FIRMWARE_INFO</a>
+<a href="/windows/desktop/FileIO/storage-hw-firmware-info-query">STORAGE_HW_FIRMWARE_INFO_QUERY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-info-query">STORAGE_HW_FIRMWARE_INFO_QUERY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/storage-hw-firmware-slot-info">STORAGE_HW_FIRMWARE_SLOT_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/storage-hw-firmware-slot-info">STORAGE_HW_FIRMWARE_SLOT_INFO</a>

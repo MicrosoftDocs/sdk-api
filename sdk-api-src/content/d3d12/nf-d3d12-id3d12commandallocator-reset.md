@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12CommandAllocator.Reset
 title: ID3D12CommandAllocator::Reset (d3d12.h)
 description: Indicates to re-use the memory that is associated with the command allocator.
+helpviewer_keywords: ["ID3D12CommandAllocator interface","Reset method","ID3D12CommandAllocator.Reset","ID3D12CommandAllocator::Reset","Reset","Reset method","Reset method","ID3D12CommandAllocator interface","d3d12/ID3D12CommandAllocator::Reset","direct3d12.id3d12commandallocator_reset"]
 old-location: direct3d12\id3d12commandallocator_reset.htm
 tech.root: direct3d12
 ms.assetid: B7477767-9110-45DE-962F-E56FDB635D17
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandAllocator interface,Reset method, ID3D12CommandAllocator.Reset, ID3D12CommandAllocator::Reset, Reset, Reset method, Reset method,ID3D12CommandAllocator interface, d3d12/ID3D12CommandAllocator::Reset, direct3d12.id3d12commandallocator_reset
-f1_keywords:
-- d3d12/ID3D12CommandAllocator.Reset
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12CommandAllocator.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12CommandAllocator::Reset
+ - d3d12/ID3D12CommandAllocator::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12CommandAllocator.Reset
 ---
 
 # ID3D12CommandAllocator::Reset
@@ -48,36 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates to re-use the memory that is associated with the command allocator.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns <b>E_FAIL</b> if there is an actively recording command list referencing the command allocator.  The debug layer will also issue an error in this case.  
-        See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
-
-
-
+        See <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
 
 ## -remarks
 
-
-
 Apps call <b>Reset</b> to re-use the memory that is associated with a command allocator.  From this call to <b>Reset</b>, the runtime and driver determine that the graphics processing unit (GPU) is no longer executing any command lists that have recorded commands with the command allocator.
 
-Unlike <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset">ID3D12GraphicsCommandList::Reset</a>, it is not recommended that you call <b>Reset</b>  on the command allocator while a command list is still being executed. 
+Unlike <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset">ID3D12GraphicsCommandList::Reset</a>, it is not recommended that you call <b>Reset</b>  on the command allocator while a command list is still being executed. 
 
 The debug layer will issue a warning if it can't prove that there are no pending GPU references to command lists that have recorded commands in the allocator.
 
@@ -86,7 +74,7 @@ The debug layer will issue an error if <b>Reset</b> is called concurrently by mu
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12CommandAllocator::Reset</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12HelloTriangle</a> sample uses <b>ID3D12CommandAllocator::Reset</b> as follows:
         
 
 
@@ -145,19 +133,10 @@ ThrowIfFailed(m_commandList->Close());
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandallocator">ID3D12CommandAllocator</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandallocator">ID3D12CommandAllocator</a>

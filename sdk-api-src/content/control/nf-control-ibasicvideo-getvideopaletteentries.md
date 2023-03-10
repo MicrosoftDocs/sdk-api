@@ -2,15 +2,12 @@
 UID: NF:control.IBasicVideo.GetVideoPaletteEntries
 title: IBasicVideo::GetVideoPaletteEntries (control.h)
 description: The GetVideoPaletteEntries method retrieves the palette colors for the video.
+helpviewer_keywords: ["GetVideoPaletteEntries","GetVideoPaletteEntries method [DirectShow]","GetVideoPaletteEntries method [DirectShow]","IBasicVideo interface","IBasicVideo interface [DirectShow]","GetVideoPaletteEntries method","IBasicVideo.GetVideoPaletteEntries","IBasicVideo::GetVideoPaletteEntries","IBasicVideoGetVideoPaletteEntries","control/IBasicVideo::GetVideoPaletteEntries","dshow.ibasicvideo_getvideopaletteentries"]
 old-location: dshow\ibasicvideo_getvideopaletteentries.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9a022bc5-56f5-41c0-940f-f9074791a353
 ms.date: 12/05/2018
 ms.keywords: GetVideoPaletteEntries, GetVideoPaletteEntries method [DirectShow], GetVideoPaletteEntries method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetVideoPaletteEntries method, IBasicVideo.GetVideoPaletteEntries, IBasicVideo::GetVideoPaletteEntries, IBasicVideoGetVideoPaletteEntries, control/IBasicVideo::GetVideoPaletteEntries, dshow.ibasicvideo_getvideopaletteentries
-f1_keywords:
-- control/IBasicVideo.GetVideoPaletteEntries
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IBasicVideo.GetVideoPaletteEntries
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBasicVideo::GetVideoPaletteEntries
+ - control/IBasicVideo::GetVideoPaletteEntries
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IBasicVideo.GetVideoPaletteEntries
 ---
 
 # IBasicVideo::GetVideoPaletteEntries
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetVideoPaletteEntries</code> method retrieves the palette colors for the video.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param StartIndex [in]
 
 Start index for the palette.
 
-
 ### -param Entries [in]
 
 Number of palette entries to retrieve.
-
 
 ### -param pRetrieved [out]
 
 Pointer to a variable that receives the number of entries returned in <i>pPallette</i>.
 
-
 ### -param pPalette [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures of size <i>Entries</i>. Cast the pointer to a long pointer type. The method fills the array.
-
+Pointer to an array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures of size <i>Entries</i>. Cast the pointer to a long pointer type. The method fills the array.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -137,22 +125,11 @@ The Video Renderer's input pin is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

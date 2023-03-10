@@ -2,15 +2,12 @@
 UID: NF:vfw.IAVIStream.ReadFormat
 title: IAVIStream::ReadFormat (vfw.h)
 description: The ReadFormat method obtains format information from a stream.
+helpviewer_keywords: ["IAVIStream interface [Windows Multimedia]","ReadFormat method","IAVIStream.ReadFormat","IAVIStream::ReadFormat","ReadFormat","ReadFormat method [Windows Multimedia]","ReadFormat method [Windows Multimedia]","IAVIStream interface","_win32_IAVIStream_ReadFormat","multimedia.iavistream_readformat","vfw/IAVIStream::ReadFormat"]
 old-location: multimedia\iavistream_readformat.htm
 tech.root: Multimedia
 ms.assetid: ec684a91-9a16-4e9d-9d52-8b721df24889
 ms.date: 12/05/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadFormat method, IAVIStream.ReadFormat, IAVIStream::ReadFormat, ReadFormat, ReadFormat method [Windows Multimedia], ReadFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadFormat, multimedia.iavistream_readformat, vfw/IAVIStream::ReadFormat
-f1_keywords:
-- vfw/IAVIStream.ReadFormat
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vfw32.lib
-- Vfw32.dll
-api_name:
-- IAVIStream.ReadFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAVIStream::ReadFormat
+ - vfw/IAVIStream::ReadFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vfw32.lib
+ - Vfw32.dll
+api_name:
+ - IAVIStream.ReadFormat
 ---
 
 # IAVIStream::ReadFormat
@@ -49,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>ReadFormat</b> method obtains format information from a stream. Fills and returns a structure with the data in an application-defined buffer. If no buffer is supplied, determines the buffer size needed to retrieve the buffer of format data. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamreadformat">AVIStreamReadFormat</a> function.
-
-
-
+The <b>ReadFormat</b> method obtains format information from a stream. Fills and returns a structure with the data in an application-defined buffer. If no buffer is supplied, determines the buffer size needed to retrieve the buffer of format data. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamreadformat">AVIStreamReadFormat</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lPos
 
 Position of the sample or frame.
 
-
 ### -param lpFormat
 
 Pointer to the buffer for the format data. Specify <b>NULL</b> to request the required size of the buffer.
-
 
 ### -param lpcbFormat
 
@@ -80,19 +72,11 @@ Pointer to a buffer that receives the size, in bytes, of the buffer specified by
 
 Pointer to the interface to a stream.
 
-
 ## -returns
-
-
 
 Returns the HRESULT defined by OLE.
 
-
-
-
 ## -remarks
-
-
 
 The type of data stored in a stream dictates the format information and the structure that contains the format information. A stream handler should return all applicable format information in this structure, including palette information when the format uses a palette. A stream handler should not return stream data with the structure.
 
@@ -109,21 +93,10 @@ HRESULT ReadFormat(LONG lPos, LPVOID lpFormat,
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

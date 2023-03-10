@@ -1,16 +1,13 @@
 ---
 UID: NF:wincred.CredWriteDomainCredentialsW
 title: CredWriteDomainCredentialsW function (wincred.h)
-description: Writes domain credentials to the user's credential set.
+description: Writes domain credentials to the user's credential set. (Unicode)
+helpviewer_keywords: ["CRED_PRESERVE_CREDENTIAL_BLOB", "CredWriteDomainCredentials", "CredWriteDomainCredentials function [Security]", "CredWriteDomainCredentialsW", "_cred_credwritedomaincredentials", "security.credwritedomaincredentials", "wincred/CredWriteDomainCredentials", "wincred/CredWriteDomainCredentialsW"]
 old-location: security\credwritedomaincredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 6b54c14f-a736-4fb0-b4e4-97765a792a5e
 ms.date: 12/05/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWriteDomainCredentials, CredWriteDomainCredentials function [Security], CredWriteDomainCredentialsA, CredWriteDomainCredentialsW, _cred_credwritedomaincredentials, security.credwritedomaincredentials, wincred/CredWriteDomainCredentials, wincred/CredWriteDomainCredentialsA, wincred/CredWriteDomainCredentialsW
-f1_keywords:
-- wincred/CredWriteDomainCredentials
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
-- sechost.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- API-MS-Win-Security-credentials-l1-1-0.dll
-api_name:
-- CredWriteDomainCredentials
-- CredWriteDomainCredentialsA
-- CredWriteDomainCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CredWriteDomainCredentialsW
+ - wincred/CredWriteDomainCredentialsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+ - sechost.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - API-MS-Win-Security-credentials-l1-1-0.dll
+api_name:
+ - CredWriteDomainCredentials
+ - CredWriteDomainCredentialsA
+ - CredWriteDomainCredentialsW
 ---
 
 # CredWriteDomainCredentialsW function
@@ -54,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CredWriteDomainCredentials</b> function writes domain credentials to the user's credential set. The credential set used is the one associated with the logon session of the current token. The token must not have the user's SID disabled.
 
-
 ## -parameters
-
-
-
 
 ### -param TargetInfo [in]
 
 Identifies the target server. At least one of the naming members must be non-<b>NULL</b> and can be <b>NetbiosServerName</b>, <b>DnsServerName</b>, <b>NetbiosDomainName</b>, <b>DnsDomainName</b>, or <b>DnsTreeName</b>.
-
 
 ### -param Credential [in]
 
@@ -76,7 +72,6 @@ Credential to be written.
 
 
 The credential must be one that matches <i>TargetInfo</i> For instance, if the <b>TargetName</b> is a wildcard DNS name, then the <b>TargetName</b> member of the credential must be a postfix of the <b>DnsServerName</b> member from the <i>TargetInfo</i>.
-
 
 ### -param Flags [in]
 
@@ -99,16 +94,12 @@ The credential BLOB should be preserved from the already existing credential wit
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. Call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get a more specific status code. The following status codes can be returned.
+If the function fails, it returns <b>FALSE</b>. Call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get a more specific status code. The following status codes can be returned.
 
 Other smart card errors can be returned when writing a CRED_TYPE_CERTIFICATE credential.
 
@@ -206,20 +197,17 @@ The wrong PIN was supplied for the CRED_TYPE_CERTIFICATE credential being writte
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When this function writes a CRED_TYPE_CERTIFICATE credential, the <i>Credential</i>-&gt;<b>CredentialBlob</b> member specifies the PIN that protects the private key of the certificate specified by the <i>Credential</i>-&gt;<b>UserName</b>. The credential manager does not maintain the PIN. Rather, the PIN is passed to the CSP of the certificate for later use by the CSP and authentication packages. The CSP defines the lifetime of the PIN. For instance, most CSPs flush the PIN upon smart card removal.
 
-<b>CredWriteDomainCredentials</b> differs from <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> in that it handles the idiosyncrasies of domain (CRED_TYPE_DOMAIN_PASSWORD or CRED_TYPE_DOMAIN_CERTIFICATE) credentials. Domain credentials contain more than one target member.
+<b>CredWriteDomainCredentials</b> differs from <a href="/windows/desktop/api/wincred/nf-wincred-credwritea">CredWrite</a> in that it handles the idiosyncrasies of domain (CRED_TYPE_DOMAIN_PASSWORD or CRED_TYPE_DOMAIN_CERTIFICATE) credentials. Domain credentials contain more than one target member.
 
-If the value of the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name.
+If the value of the <b>Type</b> member of the <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a> structure specified by the <i>Credential</i>  parameter is <b>CRED_TYPE_DOMAIN_EXTENDED</b>, a namespace must be specified in the target name.
 
 
 
+
+> [!NOTE]
+> The wincred.h header defines CredWriteDomainCredentials as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

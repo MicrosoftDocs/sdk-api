@@ -2,15 +2,12 @@
 UID: NS:winioctl._FILESYSTEM_STATISTICS_EX
 title: FILESYSTEM_STATISTICS_EX
 description: Contains statistical information from the file system.Support for this structure started with Windows 10.
+helpviewer_keywords: ["*PFILESYSTEM_STATISTICS_EX","FILESYSTEM_STATISTICS_EX","FILESYSTEM_STATISTICS_EX structure [Files]","FILESYSTEM_STATISTICS_TYPE_EXFAT","FILESYSTEM_STATISTICS_TYPE_FAT","FILESYSTEM_STATISTICS_TYPE_NTFS","PFILESYSTEM_STATISTICS_EX","PFILESYSTEM_STATISTICS_EX structure pointer [Files]","fs.filesystem_statistics_ex","winioctl/FILESYSTEM_STATISTICS_EX","winioctl/PFILESYSTEM_STATISTICS_EX"]
 old-location: fs\filesystem_statistics_ex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: E869CF11-E321-478A-948F-226B04D61492
 ms.date: 12/05/2018
 ms.keywords: '*PFILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX, FILESYSTEM_STATISTICS_EX structure [Files], FILESYSTEM_STATISTICS_TYPE_EXFAT, FILESYSTEM_STATISTICS_TYPE_FAT, FILESYSTEM_STATISTICS_TYPE_NTFS, PFILESYSTEM_STATISTICS_EX, PFILESYSTEM_STATISTICS_EX structure pointer [Files], fs.filesystem_statistics_ex, winioctl/FILESYSTEM_STATISTICS_EX, winioctl/PFILESYSTEM_STATISTICS_EX'
-f1_keywords:
-- winioctl/FILESYSTEM_STATISTICS_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FILESYSTEM_STATISTICS_EX
 targetos: Windows
 req.typenames: FILESYSTEM_STATISTICS_EX, *PFILESYSTEM_STATISTICS_EX
 req.redist: 
+f1_keywords:
+ - _FILESYSTEM_STATISTICS_EX
+ - winioctl/_FILESYSTEM_STATISTICS_EX
+ - PFILESYSTEM_STATISTICS_EX
+ - winioctl/PFILESYSTEM_STATISTICS_EX
+ - FILESYSTEM_STATISTICS_EX
+ - winioctl/FILESYSTEM_STATISTICS_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FILESYSTEM_STATISTICS_EX
 ---
 
 # FILESYSTEM_STATISTICS_EX structure
@@ -47,16 +53,9 @@ req.redist:
 
 ## -description
 
-
 Contains statistical information from the file system.Support for this structure started with Windows 10.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field FileSystemType
 
@@ -79,7 +78,7 @@ This member can be one of the following values.
 The file system is an exFAT file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-exfat_statistics">EXFAT_STATISTICS</a> structure.
+         <a href="/windows/desktop/api/winioctl/ns-winioctl-exfat_statistics">EXFAT_STATISTICS</a> structure.
 
 <b>Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Vista with SP1.
 
@@ -95,7 +94,7 @@ If this value is set, this structure is followed by an
 The file system is a FAT file system.
 
 If this value is set, this structure is followed by a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-fat_statistics">FAT_STATISTICS</a> structure.
+         <a href="/windows/desktop/api/winioctl/ns-winioctl-fat_statistics">FAT_STATISTICS</a> structure.
 
 </td>
 </tr>
@@ -109,18 +108,15 @@ If this value is set, this structure is followed by a
 The file system is the NTFS file system.
 
 If this value is set, this structure is followed by an 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a> structure.
+         <a href="/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a> structure.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Version
 
 This member is set to 1 (one).
-
 
 ### -field SizeOfCompleteStructure
 
@@ -129,13 +125,13 @@ The size of this structure plus the size of the file system-specific structure t
 
 This value must be a multiple of 64. For example, if the size of 
        <b>FILESYSTEM_STATISTICS_EX</b> is 0x68, the size of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a> is 0x1D8, and if there are 2 
+       <a href="/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a> is 0x1D8, and if there are 2 
        processors, the buffer allocated must be 0x480.
 
 sizeof(<b>FILESYSTEM_STATISTICS_EX</b>) = 
        0x68
 
-sizeof(<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>) = 0x1D8
+sizeof(<a href="/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>) = 0x1D8
 
 Total Size = 0x240
 
@@ -143,16 +139,13 @@ size of the complete structure = 0x240 (which is the aligned length, a multiple 
 
 multiplied by 2 (the number of processors) = 0x480
 
-
 ### -field UserFileReads
 
 The number of read operations on user files.
 
-
 ### -field UserFileReadBytes
 
 The number of bytes read from user files.
-
 
 ### -field UserDiskReads
 
@@ -160,16 +153,13 @@ The number of read operations on user files.
 
 This value includes sub-read operations.
 
-
 ### -field UserFileWrites
 
 The number of write operations on user files.
 
-
 ### -field UserFileWriteBytes
 
 The number of bytes written to user files.
-
 
 ### -field UserDiskWrites
 
@@ -177,16 +167,13 @@ The number of write operations on user files.
 
 This value includes sub-write operations.
 
-
 ### -field MetaDataReads
 
 The number of read operations on metadata files.
 
-
 ### -field MetaDataReadBytes
 
 The number of bytes read from metadata files.
-
 
 ### -field MetaDataDiskReads
 
@@ -194,16 +181,13 @@ The number of read operations on metadata files.
 
 This value includes sub-read operations.
 
-
 ### -field MetaDataWrites
 
 The number of write operations on metadata files.
 
-
 ### -field MetaDataWriteBytes
 
 The number of bytes written to metadata files.
-
 
 ### -field MetaDataDiskWrites
 
@@ -211,38 +195,25 @@ The number of write operations on metadata files.
 
 This value includes sub-write operations.
 
-
 ## -remarks
-
-
 
 There are two types of files: user and metadata. User files are available for the user. Metadata files are 
     system files that contain information, which the file system uses for its internal organization.
 
 The number of read and write operations measured is the number of paging operations.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ns-winioctl-exfat_statistics">EXFAT_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-exfat_statistics">EXFAT_STATISTICS</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-fat_statistics">FAT_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-fat_statistics">FAT_STATISTICS</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics">FSCTL_FILESYSTEM_GET_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_filesystem_get_statistics">FSCTL_FILESYSTEM_GET_STATISTICS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>

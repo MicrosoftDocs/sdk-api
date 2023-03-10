@@ -1,16 +1,13 @@
 ---
 UID: NN:objidl.IObjContext
 title: IObjContext (objidl.h)
-description: Performs various operations on contexts.
+description: The IObjContext interface (objidl.h) performs various operations on contexts.
+helpviewer_keywords: ["IObjContext","IObjContext interface [COM]","IObjContext interface [COM]","described","_com_iobjcontext","com.iobjcontext","objidlbase/IObjContext"]
 old-location: com\iobjcontext.htm
 tech.root: com
 ms.assetid: 983615a1-cfa2-4137-8c7e-42e2ef6923a8
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IObjContext, IObjContext interface [COM], IObjContext interface [COM],described, _com_iobjcontext, com.iobjcontext, objidlbase/IObjContext
-f1_keywords:
-- objidl/IObjContext
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IObjContext
-- IObjContext.Reserved1
-- IObjContext.Reserved2
-- IObjContext.Reserved3
-- IObjContext.Reserved4
-- IObjContext.Reserved5
-- IObjContext.Reserved6
-- IObjContext.Reserved7
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjContext
+ - objidl/IObjContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IObjContext
+ - IObjContext.Reserved1
+ - IObjContext.Reserved2
+ - IObjContext.Reserved3
+ - IObjContext.Reserved4
+ - IObjContext.Reserved5
+ - IObjContext.Reserved6
+ - IObjContext.Reserved7
 ---
 
 # IObjContext interface
@@ -55,74 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs various operations on contexts.
-
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjContext</b> interface inherits from <b>IContext</b>. <b>IObjContext</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IObjContext</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>Reserved1</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>Reserved2</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>Reserved3</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>Reserved4</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>Reserved5</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>Reserved6</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%"><b>Reserved7</b></td>
-<td align="left" width="63%">
-Reserved for future use.
-
-</td>
-</tr>
-</table> 
+The <b>IObjContext</b> interface inherits from <b>IContext</b>. <b>IObjContext</b> also has these types of members:
 

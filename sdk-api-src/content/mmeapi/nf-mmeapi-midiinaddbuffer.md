@@ -2,15 +2,12 @@
 UID: NF:mmeapi.midiInAddBuffer
 title: midiInAddBuffer function (mmeapi.h)
 description: The midiInAddBuffer function sends an input buffer to a specified opened MIDI input device. This function is used for system-exclusive messages.
+helpviewer_keywords: ["_win32_midiInAddBuffer","midiInAddBuffer","midiInAddBuffer function [Windows Multimedia]","mmeapi/midiInAddBuffer","multimedia.midiinaddbuffer"]
 old-location: multimedia\midiinaddbuffer.htm
 tech.root: Multimedia
 ms.assetid: b673e252-91d0-45b9-a528-079868b47157
 ms.date: 12/05/2018
 ms.keywords: _win32_midiInAddBuffer, midiInAddBuffer, midiInAddBuffer function [Windows Multimedia], mmeapi/midiInAddBuffer, multimedia.midiinaddbuffer
-f1_keywords:
-- mmeapi/midiInAddBuffer
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- midiInAddBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midiInAddBuffer
+ - mmeapi/midiInAddBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - midiInAddBuffer
 ---
 
 # midiInAddBuffer function
@@ -50,36 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>midiInAddBuffer</b> function sends an input buffer to a specified opened MIDI input device. This function is used for system-exclusive messages.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hmi
 
 Handle to the MIDI input device.
 
-
 ### -param pmh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the buffer.
-
+Pointer to a <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the buffer.
 
 ### -param cbmh
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
-
+Size, in bytes, of the <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -144,29 +133,13 @@ The system is unable to allocate or lock memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When the buffer is filled, it is sent back to the application.
 
-The buffer must be prepared by using the <a href="https://docs.microsoft.com/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a> function before it is passed to the <b>midiInAddBuffer</b> function.
-
-
-
+The buffer must be prepared by using the <a href="/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a> function before it is passed to the <b>midiInAddBuffer</b> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:dcomp.IDCompositionSurface.BeginDraw
 title: IDCompositionSurface::BeginDraw (dcomp.h)
 description: Initiates drawing on this Microsoft DirectComposition surface object.
+helpviewer_keywords: ["BeginDraw","BeginDraw method [DirectComposition]","BeginDraw method [DirectComposition]","IDCompositionSurface interface","IDCompositionSurface interface [DirectComposition]","BeginDraw method","IDCompositionSurface.BeginDraw","IDCompositionSurface::BeginDraw","dcomp/IDCompositionSurface::BeginDraw","directcomp.idcompositionsurface_begindraw"]
 old-location: directcomp\idcompositionsurface_begindraw.htm
 tech.root: directcomp
 ms.assetid: 0D7E90A1-90E4-44BE-A4DA-8DA300C81A35
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method [DirectComposition], BeginDraw method [DirectComposition],IDCompositionSurface interface, IDCompositionSurface interface [DirectComposition],BeginDraw method, IDCompositionSurface.BeginDraw, IDCompositionSurface::BeginDraw, dcomp/IDCompositionSurface::BeginDraw, directcomp.idcompositionsurface_begindraw
-f1_keywords:
-- dcomp/IDCompositionSurface.BeginDraw
-dev_langs:
-- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dcomp.dll
-api_name:
-- IDCompositionSurface.BeginDraw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDCompositionSurface::BeginDraw
+ - dcomp/IDCompositionSurface::BeginDraw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionSurface.BeginDraw
 ---
 
 # IDCompositionSurface::BeginDraw
@@ -48,16 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initiates drawing on this Microsoft DirectComposition surface object. The update rectangle must be within the boundaries of the surface; otherwise, this method fails.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param updateRect [in, optional]
 
@@ -65,13 +60,11 @@ Type: <b>const <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b
 
 The rectangle to be updated. If this parameter is NULL, the entire bitmap is updated.
 
-
 ### -param iid [in]
 
 Type: <b>REFIID</b>
 
 The identifier of the interface to retrieve.
-
 
 ### -param updateObject [out]
 
@@ -84,25 +77,17 @@ Receives an interface pointer of the type specified in the <i>iid</i> parameter.
 
 ### -param updateOffset [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a>*</b>
 
 The offset into the surface where the application should draw updated content. This offset will reference the upper left corner of the update rectangle.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. 
-
-
-
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method enables an application to incrementally update the contents of a DirectComposition surface object. The application must use the following sequence:
 
@@ -111,13 +96,13 @@ This method enables an application to incrementally update the contents of a Dir
 <ol>
 <li>Call <b>BeginDraw</b> to initiate the incremental update.</li>
 <li>Use the retrieved surface as a render target and draw the updated contents at the retrieved offset.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a> method to finish the update.</li>
+<li>Call the <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a> method to finish the update.</li>
 </ol>
-The update object returned by this method is either a Direct2D device context or a DXGI surface, depending on the value of the <i>iid</i> parameter and on how the DirectComposition surface object was created. If the <i>iid</i> parameter is __uuidof(ID2D1DeviceContext), then the returned object is a Direct2D device context that already has the DirectComposition surface selected as a render target. Otherwise, it is a DXGI surface which the application may use as a render target. In either case, the returned object is associated with the Direct2D or DXGI device passed by the application to the DCompositionCreateDevice2 function or the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createsurfacefactory">IDCompositionDevice2::CreateSurfaceFactory</a> method.
+The update object returned by this method is either a Direct2D device context or a DXGI surface, depending on the value of the <i>iid</i> parameter and on how the DirectComposition surface object was created. If the <i>iid</i> parameter is __uuidof(ID2D1DeviceContext), then the returned object is a Direct2D device context that already has the DirectComposition surface selected as a render target. Otherwise, it is a DXGI surface which the application may use as a render target. In either case, the returned object is associated with the Direct2D or DXGI device passed by the application to the DCompositionCreateDevice2 function or the <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createsurfacefactory">IDCompositionDevice2::CreateSurfaceFactory</a> method.
 
 
 
-The <i>iid</i> parameter may only be __uuidof(ID2D1DeviceContext) if the DirectComposition surface object was created from a DirectComposition device or surface factory that was, itself, created with an associated Direct2D device. In particular, the application must have called either the DCompositionCreateDevice2 function or the <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createsurfacefactory">IDCompositionDevice2::CreateSurfaceFactory</a> method with a Direct2D device as the <i>renderingDevice</i> parameter. If the DirectComposition surface was created via a surface factory that was not associated with a Direct2D device, or if it was created directly via the IDCompositionDevice2 interface and the device was not directly associated with a Direct2D device, then passing __uuidof(ID2D1DeviceContext) as the iid parameter causes this method to return E_INVALIDARG.
+The <i>iid</i> parameter may only be __uuidof(ID2D1DeviceContext) if the DirectComposition surface object was created from a DirectComposition device or surface factory that was, itself, created with an associated Direct2D device. In particular, the application must have called either the DCompositionCreateDevice2 function or the <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-createsurfacefactory">IDCompositionDevice2::CreateSurfaceFactory</a> method with a Direct2D device as the <i>renderingDevice</i> parameter. If the DirectComposition surface was created via a surface factory that was not associated with a Direct2D device, or if it was created directly via the IDCompositionDevice2 interface and the device was not directly associated with a Direct2D device, then passing __uuidof(ID2D1DeviceContext) as the iid parameter causes this method to return E_INVALIDARG.
 
 
 
@@ -142,22 +127,12 @@ The retrieved surface rectangle does not contain the previous contents of the bi
 
 
 
-Only one DirectComposition surface can be updated at a time. An application must suspend drawing on one surface before beginning or resuming to draw on another surface. If the application calls <b>BeginDraw</b> twice, either for the same surface or for another surface belonging to the same DirectComposition device, without an intervening call to <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>, the second call fails. If the application calls <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-commit">IDCompositionDevice2::Commit</a> without calling <b>EndDraw</b>, the update remains pending. The update takes effect only after the application calls <b>EndDraw</b> and then  calls the <b>IDCompositionDevice2::Commit</b>  method.
-
-
-
+Only one DirectComposition surface can be updated at a time. An application must suspend drawing on one surface before beginning or resuming to draw on another surface. If the application calls <b>BeginDraw</b> twice, either for the same surface or for another surface belonging to the same DirectComposition device, without an intervening call to <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>, the second call fails. If the application calls <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice2-commit">IDCompositionDevice2::Commit</a> without calling <b>EndDraw</b>, the update remains pending. The update takes effect only after the application calls <b>EndDraw</b> and then  calls the <b>IDCompositionDevice2::Commit</b>  method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>

@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertCreateContext
 title: CertCreateContext function (wincrypt.h)
 description: Creates the specified context from the encoded bytes. The context created does not include any extended properties.
+helpviewer_keywords: ["CERT_CREATE_CONTEXT_NOCOPY_FLAG","CERT_CREATE_CONTEXT_NO_ENTRY_FLAG","CERT_CREATE_CONTEXT_NO_HCRYPTMSG_FLAG","CERT_CREATE_CONTEXT_SORTED_FLAG","CERT_STORE_CERTIFICATE_CONTEXT","CERT_STORE_CRL_CONTEXT","CERT_STORE_CTL_CONTEXT","CertCreateContext","CertCreateContext function [Security]","_crypto2_certcreatecontext","security.certcreatecontext","wincrypt/CertCreateContext"]
 old-location: security\certcreatecontext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0911054b-a47a-4046-b121-a236fc4b018b
 ms.date: 12/05/2018
 ms.keywords: CERT_CREATE_CONTEXT_NOCOPY_FLAG, CERT_CREATE_CONTEXT_NO_ENTRY_FLAG, CERT_CREATE_CONTEXT_NO_HCRYPTMSG_FLAG, CERT_CREATE_CONTEXT_SORTED_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CertCreateContext, CertCreateContext function [Security], _crypto2_certcreatecontext, security.certcreatecontext, wincrypt/CertCreateContext
-f1_keywords:
-- wincrypt/CertCreateContext
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertCreateContext
+ - wincrypt/CertCreateContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertCreateContext
 ---
 
 # CertCreateContext function
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertCreateContext</b> function creates the specified context from the encoded bytes. The context created does not include any extended properties.
-
 
 ## -parameters
 
-
-
-
 ### -param dwContextType [in]
 
-Specifies the contexts that can be created. For example, to create a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>, set <i>dwContextType</i> to CERT_STORE_CERTIFICATE_CONTEXT.
+Specifies the contexts that can be created. For example, to create a <a href="/windows/desktop/SecGloss/c-gly">certificate</a> <a href="/windows/desktop/SecGloss/c-gly">context</a>, set <i>dwContextType</i> to CERT_STORE_CERTIFICATE_CONTEXT.
 						
 
 Currently defined context type flags are shown in the following table.
@@ -100,8 +97,6 @@ CTL context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwEncodingType [in]
 
@@ -110,16 +105,13 @@ Specifies the encoding type used. Currently, only X509_ASN_ENCODING and PKCS_7_A
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING.
 
-
 ### -param pbEncoded [in]
 
 A pointer to a buffer that contains the existing encoded context content to be copied.
 
-
 ### -param cbEncoded [in]
 
 The size, in bytes, of the <i>pbEncoded</i> buffer.
-
 
 ### -param dwFlags [in]
 
@@ -149,9 +141,9 @@ The created context points directly to the content pointed to by <i>pbEncoded</i
 The function creates a context with sorted entries. Currently, this flag only applies to a CTL context.
 
 For CTLs, the <b>cCTLEntry</b> member of the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a> structure is always zero. 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl">CertFindSubjectInSortedCTL</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl">CertEnumSubjectInSortedCTL</a> must be called to find or enumerate the CTL entries.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a> structure is always zero. 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl">CertFindSubjectInSortedCTL</a> and 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl">CertEnumSubjectInSortedCTL</a> must be called to find or enumerate the CTL entries.
 
 </td>
 </tr>
@@ -161,7 +153,7 @@ For CTLs, the <b>cCTLEntry</b> member of the returned
 </dl>
 </td>
 <td width="60%">
-By default, when a CTL context is created, a HCRYTPMSG handle to its <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/signeddata">SignedData</a> message is created. This flag can be set to improve performance by not creating this handle. This flag can only be used when <i>dwContextType</i> is CERT_STORE_CTL_CONTEXT.
+By default, when a CTL context is created, a HCRYTPMSG handle to its <a href="/windows/desktop/SecCrypto/signeddata">SignedData</a> message is created. This flag can be set to improve performance by not creating this handle. This flag can only be used when <i>dwContextType</i> is CERT_STORE_CTL_CONTEXT.
 
 </td>
 </tr>
@@ -176,12 +168,10 @@ By default, when a CTL context is created, its entries are decoded. When this fl
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pCreatePara [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure. 
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_create_context_para">CERT_CREATE_CONTEXT_PARA</a> structure. 
 
 
 
@@ -190,41 +180,28 @@ If <i>pCreatePara</i> and its <b>pfnFree</b> member are both non-<b>NULL</b>, th
 
 If <i>pCreatePara</i> or its <b>pfnFree</b> member is <b>NULL</b>, no attempt is made to free <i>pbEncoded</i>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the newly created context. The <b>pvFree</b> member of <i>pCreatePara</i> must be called to free the created context.
 						
 
 If the function fails, the return value is <b>NULL</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_CANCELLED</b>, this means that the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_create_context_sort_func">PFN_CERT_CREATE_CONTEXT_SORT_FUNC</a> callback function returned <b>FALSE</b> to stop the sort.
-
-
-
+If <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_CANCELLED</b>, this means that the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_create_context_sort_func">PFN_CERT_CREATE_CONTEXT_SORT_FUNC</a> callback function returned <b>FALSE</b> to stop the sort.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl">CertEnumSubjectInSortedCTL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumsubjectinsortedctl">CertEnumSubjectInSortedCTL</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl">CertFindSubjectInSortedCTL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinsortedctl">CertFindSubjectInSortedCTL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate and Certificate Store Maintenance Functions</a>

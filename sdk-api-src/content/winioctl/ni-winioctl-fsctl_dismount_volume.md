@@ -7,10 +7,6 @@ tech.root: FileIO
 ms.assetid: 8828760c-9635-4c69-9867-c2f5314841e6
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DISMOUNT_VOLUME, FSCTL_DISMOUNT_VOLUME control, FSCTL_DISMOUNT_VOLUME control code [Files], _win32_fsctl_dismount_volume, base.fsctl_dismount_volume, fs.fsctl_dismount_volume, winioctl/FSCTL_DISMOUNT_VOLUME
-f1_keywords:
-- winioctl/FSCTL_DISMOUNT_VOLUME
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +24,21 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- FSCTL_DISMOUNT_VOLUME
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - FSCTL_DISMOUNT_VOLUME
+ - winioctl/FSCTL_DISMOUNT_VOLUME
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - FSCTL_DISMOUNT_VOLUME
 ---
 
 # FSCTL_DISMOUNT_VOLUME IOCTL
@@ -47,26 +46,20 @@ req.redist:
 
 ## -description
 
-
 Dismounts a volume regardless of whether or not the volume is currently in use. For more information, see the Remarks section.
 
-To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+To perform this operation, call the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
     function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
 <tr>
 <td>
 <pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,              // handle to a volume
-  (DWORD) FSCTL_DISMOUNT_VOLUME, // dwIoControlCode
-  NULL,                          // lpInBuffer
-  0,                             // nInBufferSize
-  NULL,                          // lpOutBuffer
-  0,                             // nOutBufferSize
-  (LPDWORD) lpBytesReturned,     // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
+  (HANDLE) hDevice,            // handle to a volume
+  (DWORD) FSCTL_DISMOUNT_VOLUME,   // dwIoControlCodeNULL,                        // lpInBuffer0,                           // nInBufferSizeNULL,                        // lpOutBuffer0,                           // nOutBufferSize(LPDWORD) lpBytesReturned,   // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped  // OVERLAPPED structure
 );</pre>
 </td>
 </tr>
@@ -74,94 +67,48 @@ To perform this operation, call the <a href="https://docs.microsoft.com/windows/
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -input-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -output-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-
-
-The <b>FSCTL_DISMOUNT_VOLUME</b> control code will attempt to dismount a volume regardless of whether or not any other processes are using the volume, which can have unpredictable results for those processes if they do not hold a lock on the volume. For information about locking a volume, see <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>.
+The <b>FSCTL_DISMOUNT_VOLUME</b> control code will attempt to dismount a volume regardless of whether or not any other processes are using the volume, which can have unpredictable results for those processes if they do not hold a lock on the volume. For information about locking a volume, see <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>.
 
 The <i>hDevice</i> handle passed to 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened 
+     <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> must be a handle to a volume, opened 
      for direct access. To retrieve a volume handle, call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
+     <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> with the 
      <i>lpFileName</i> parameter set to a string of the following form:
 
-\\\\.\\<i>X</i>:
+\\.&#92;<i>X</i>:
 
 where <i>X</i> is a hard-drive partition letter, floppy disk drive, or CD-ROM drive. The 
      application must also specify the <b>FILE_SHARE_READ</b> and 
      <b>FILE_SHARE_WRITE</b> flags in the <i>dwShareMode</i> parameter of 
-     <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+     <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 If the specified volume is a system volume or contains a page file, the operation fails.
 
@@ -175,7 +122,7 @@ A dismounted volume has the following properties:
 <li>The operating system does detect the volume.</li>
 </ul>
 The operating system tries to mount an unmounted volume as soon as an attempt is made to access it. For 
-    example, a call to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> triggers the 
+    example, a call to <a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a> triggers the 
     operating system to mount unmounted volumes.
 
 Dismounting a volume is useful when a volume needs to disappear for a while. For example, an application that 
@@ -247,36 +194,26 @@ See comment
 
 On CsvFs the node where dismount is issued will see a normal dismount sequence. On all other nodes FS will invalidate all the opened files.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume">FSCTL_LOCK_VOLUME</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-control-codes">Volume Management Control Codes</a>

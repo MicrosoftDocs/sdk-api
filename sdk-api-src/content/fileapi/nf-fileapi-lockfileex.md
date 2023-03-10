@@ -2,15 +2,12 @@
 UID: NF:fileapi.LockFileEx
 title: LockFileEx function (fileapi.h)
 description: Locks the specified file for exclusive access by the calling process. This function can operate either synchronously or asynchronously and can request either an exclusive or a shared lock.
+helpviewer_keywords: ["LOCKFILE_EXCLUSIVE_LOCK","LOCKFILE_FAIL_IMMEDIATELY","LockFileEx","LockFileEx function [Files]","_win32_lockfileex","base.lockfileex","fileapi/LockFileEx","fs.lockfileex","winbase/LockFileEx"]
 old-location: fs\lockfileex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 30931ed0-495c-4b50-964a-c507d4ebc2be
 ms.date: 12/05/2018
 ms.keywords: LOCKFILE_EXCLUSIVE_LOCK, LOCKFILE_FAIL_IMMEDIATELY, LockFileEx, LockFileEx function [Files], _win32_lockfileex, base.lockfileex, fileapi/LockFileEx, fs.lockfileex, winbase/LockFileEx
-f1_keywords:
-- fileapi/LockFileEx
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- LockFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LockFileEx
+ - fileapi/LockFileEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - LockFileEx
 ---
 
 # LockFileEx function
@@ -55,20 +57,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locks the specified file  for exclusive access  by the calling process. This function can operate either synchronously or asynchronously and can request either an exclusive or a shared lock.
 
-
 ## -parameters
-
-
-
 
 ### -param hFile [in]
 
 A handle to the file. The handle must have been created with either the <b>GENERIC_READ</b> or <b>GENERIC_WRITE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
-
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param dwFlags [in]
 
@@ -102,46 +98,32 @@ The function returns immediately if it is unable to acquire the requested lock. 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwReserved
 
-Reserved parameter; must be set to zero. 
-               
-
+Reserved parameter; must be set to zero.
 
 ### -param nNumberOfBytesToLockLow [in]
 
 The low-order 32 bits of the length of the byte range to lock.
 
-
 ### -param nNumberOfBytesToLockHigh [in]
 
 The high-order 32 bits of the length of the byte range to lock.
 
-
 ### -param lpOverlapped [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that the function uses with the locking request. This structure, which is required, contains the file offset of the beginning of the lock range. You must initialize the <b>hEvent</b> member to a valid handle or zero.
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that the function uses with the locking request. This structure, which is required, contains the file offset of the beginning of the lock range. You must initialize the <b>hEvent</b> member to a valid handle or zero.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Locking a region of a file is used to acquire shared or exclusive access to the specified region using this file handle. If the file handle is  inherited by a process created by the locking process, the child process is not granted access to the locked region. If the locking process opens the file a second time, it cannot access the specified region through this second handle until it unlocks the region.
 
@@ -149,13 +131,13 @@ Locking a portion of a file for exclusive access denies all other processes both
 
 Locking a portion of a file for shared access denies all processes write access to the specified region of the file, including the process that first locks the region. All processes can read the locked region.
 
-Locking a region of a file does not prevent reading from a mapped file view.
+Locking a region of a file does not prevent reading or writing from a mapped file view.
 
 The 
 <b>LockFileEx</b> function operates asynchronously if the file handle was opened for asynchronous I/O, unless the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag is specified. If an exclusive lock is requested for a range of a file that already has a shared or exclusive lock, the function returns the error <b>ERROR_IO_PENDING</b>. The system will signal the event specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure after the lock is granted. To determine when the lock has been granted, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure after the lock is granted. To determine when the lock has been granted, use the 
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function or one of the 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a>. For more information, see <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
 If the file handle was not opened for asynchronous I/O and the lock is not available, this call waits until the lock is granted or an error occurs, unless the <b>LOCKFILE_FAIL_IMMEDIATELY</b> flag is specified.
 
@@ -223,38 +205,31 @@ Yes
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/locking-and-unlocking-byte-ranges-in-files">Locking and Unlocking Byte Ranges in Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfile">LockFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfile">UnlockFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-unlockfileex">UnlockFileEx</a>

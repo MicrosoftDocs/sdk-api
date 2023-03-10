@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3if.IEnumPhone.Reset
 title: IEnumPhone::Reset (tapi3if.h)
-description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
+description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages. (IEnumPhone.Reset)
+helpviewer_keywords: ["IEnumPhone interface [TAPI 2.2]","Reset method","IEnumPhone.Reset","IEnumPhone::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumPhone interface","_tapi3_ienumphone_reset","tapi3.ienumphone_reset","tapi3if/IEnumPhone::Reset"]
 old-location: tapi3\ienumphone_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 394e1d55-56f2-4233-93ce-a109906414f4
 ms.date: 12/05/2018
 ms.keywords: IEnumPhone interface [TAPI 2.2],Reset method, IEnumPhone.Reset, IEnumPhone::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPhone interface, _tapi3_ienumphone_reset, tapi3.ienumphone_reset, tapi3if/IEnumPhone::Reset
-f1_keywords:
-- tapi3if/IEnumPhone.Reset
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumPhone.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumPhone::Reset
+ - tapi3if/IEnumPhone::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumPhone.Reset
 ---
 
 # IEnumPhone::Reset
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,18 +87,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone">IEnumPhone</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone">IEnumPhone</a>

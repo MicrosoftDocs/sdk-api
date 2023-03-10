@@ -2,15 +2,12 @@
 UID: NF:bcrypt.BCryptUnregisterConfigChangeNotify
 title: BCryptUnregisterConfigChangeNotify function (bcrypt.h)
 description: Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.
+helpviewer_keywords: ["BCryptUnregisterConfigChangeNotify","BCryptUnregisterConfigChangeNotify function [Security]","BCryptUnregisterConfigChangeNotify(HANDLE)","bcrypt/BCryptUnregisterConfigChangeNotify","security.bcryptunregisterconfigchangenotify_handle"]
 old-location: security\bcryptunregisterconfigchangenotify_handle.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: 204d289d-46c0-4815-a628-758310014790
 ms.date: 12/05/2018
 ms.keywords: BCryptUnregisterConfigChangeNotify, BCryptUnregisterConfigChangeNotify function [Security], BCryptUnregisterConfigChangeNotify(HANDLE), bcrypt/BCryptUnregisterConfigChangeNotify, security.bcryptunregisterconfigchangenotify_handle
-f1_keywords:
-- bcrypt/BCryptUnregisterConfigChangeNotify
-dev_langs:
-- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Bcrypt.dll
-api_name:
-- BCryptUnregisterConfigChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCryptUnregisterConfigChangeNotify
+ - bcrypt/BCryptUnregisterConfigChangeNotify
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Bcrypt.dll
+api_name:
+ - BCryptUnregisterConfigChangeNotify
 ---
 
 # BCryptUnregisterConfigChangeNotify function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> function removes a user mode CNG configuration change event handler that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
-
+The <b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> function removes a user mode CNG configuration change event handler that was created by using the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
 
 ## -parameters
 
-
-
-
 ### -param pEvent [in]
 
-The handle of the event to remove. This is the handle that was obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
-
+The handle of the event to remove. This is the handle that was obtained by using the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a> function.
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -112,27 +106,11 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> can be called only in user mode. Code executing in kernel mode must call <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(PRKEVENT)</a>.
-
-
-
+<b>BCryptUnregisterConfigChangeNotify(HANDLE)</b> can be called only in user mode. Code executing in kernel mode must call <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptunregisterconfigchangenotify">BCryptUnregisterConfigChangeNotify(PRKEVENT)</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptregisterconfigchangenotify">BCryptRegisterConfigChangeNotify(HANDLE*)</a>

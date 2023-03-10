@@ -2,15 +2,12 @@
 UID: NF:winuser.DisplayConfigGetDeviceInfo
 title: DisplayConfigGetDeviceInfo function (winuser.h)
 description: The DisplayConfigGetDeviceInfo function retrieves display configuration information about the device.
+helpviewer_keywords: ["CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml","DisplayConfigGetDeviceInfo","DisplayConfigGetDeviceInfo function [Display Devices]","display.displayconfiggetdeviceinfo","winuser/DisplayConfigGetDeviceInfo"]
 old-location: display\displayconfiggetdeviceinfo.htm
 tech.root: display
 ms.assetid: 249dcb1a-4ce3-4478-8331-fb81e91313b0
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo
-f1_keywords:
-- winuser/DisplayConfigGetDeviceInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal
@@ -28,22 +25,28 @@ req.type-library:
 req.lib: User32.lib; OneCoreUAP.lib on Windows 10
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-SysParams-l1-1-0.dll
-- MinUser.dll
-- Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
-api_name:
-- DisplayConfigGetDeviceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DisplayConfigGetDeviceInfo
+ - winuser/DisplayConfigGetDeviceInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-SysParams-l1-1-0.dll
+ - MinUser.dll
+ - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+api_name:
+ - DisplayConfigGetDeviceInfo
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DisplayConfigGetDeviceInfo function
@@ -51,23 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DisplayConfigGetDeviceInfo</b> function retrieves display configuration information about the device.
-
 
 ## -parameters
 
-
-
-
 ### -param requestPacket [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type. 
-
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type.
 
 ## -returns
-
-
 
 The function returns one of the following return codes.
 
@@ -105,7 +100,7 @@ The combination of parameters and flags specified are invalid.
 </dl>
 </td>
 <td width="60%">
-The system is not running a graphics driver that was written according to the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
+The system is not running a graphics driver that was written according to the <a href="/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
 
 </td>
 </tr>
@@ -143,41 +138,29 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Use the <b>DisplayConfigGetDeviceInfo</b> function to obtain additional information about a source or target for an adapter, such as the display name, the preferred display mode, and source device name.
 
+The caller can call <b>DisplayConfigGetDeviceInfo</b> to obtain more friendly names to display in the user interface. The caller can obtain names for the adapter, the source, and the target. The caller can also call <b>DisplayConfigGetDeviceInfo</b> to obtain the best resolution of the connected display device.
 
-Use the <b>DisplayConfigGetDeviceInfo</b>function to obtain additional information about a source or target for an adapter, such as the display name, the preferred display mode, and source device name.
+## Examples
 
-The caller can call <b>DisplayConfigGetDeviceInfo</b>to obtain more friendly names to display in the user interface. The caller can obtain names for the adapter, the source, and the target. The caller can also call <b>DisplayConfigGetDeviceInfo</b>to obtain the best resolution of the connected display device. 
-
-
-
+See <a href="/windows/desktop/api/winuser/nf-winuser-querydisplayconfig#examples">__QueryDisplayConfig__</a> for an example of __DisplayConfigGetDeviceInfo__.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a>

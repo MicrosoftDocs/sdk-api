@@ -2,15 +2,12 @@
 UID: NS:wabdefs._SPropValue
 title: SPropValue (wabdefs.h)
 description: Do not use. Contains the property tag values.
+helpviewer_keywords: ["*LPSPropValue","SPropValue","SPropValue structure [Windows Address Book]","_wab_SPropValue","wab._wab_SPropValue","wabdefs/SPropValue"]
 old-location: wab\_wab_SPropValue.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropvalue.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPSPropValue, SPropValue, SPropValue structure [Windows Address Book], _wab_SPropValue, wab._wab_SPropValue, wabdefs/SPropValue'
-f1_keywords:
-- wabdefs/SPropValue
-dev_langs:
-- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wabdefs.h
-api_name:
-- SPropValue
 targetos: Windows
 req.typenames: SPropValue, *LPSPropValue
 req.redist: 
 req.product: Internet Explorer 4.0
 ms.custom: 19H1
+f1_keywords:
+ - _SPropValue
+ - wabdefs/_SPropValue
+ - LPSPropValue
+ - wabdefs/LPSPropValue
+ - SPropValue
+ - wabdefs/SPropValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wabdefs.h
+api_name:
+ - SPropValue
 ---
 
 # SPropValue structure
@@ -49,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Do not use. Contains the property tag values.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulPropTag
 
@@ -64,11 +65,9 @@ Type: <b>ULONG</b>
 
 Variable of type <b>ULONG</b> that specifies the property tag for the property. Property tags are 32-bit unsigned integers consisting of the property's unique identifier in the high-order 16 bits and the property's type in the low-order 16 bits.
 
-
 ### -field dwAlignPad
 
 Type: <b>ULONG</b>
-
 
 ### -field Value
 
@@ -158,7 +157,7 @@ PT_STRING8
 
 #### bin
 
-<b>Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
+<b>Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
 </b>
 PT_BINARY
 
@@ -246,7 +245,7 @@ PT_MV_SYSTIME
 
 #### MVbin
 
-<b>Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a></b>
+<b>Type: <b><a href="/previous-versions/office/developer/office-2007/cc815398(v=office.12)">SBinaryArray</a></b>
 </b>
 PT_MV_BINARY
 
@@ -298,10 +297,4 @@ PT_ERROR
 </b>
 PT_NULL, PT_OBJECT (no usable value)
 
-
 ### -field _PV
-
- 
-
-
-

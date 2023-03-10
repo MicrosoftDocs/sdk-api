@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IBootOptions.put_Emulation
 title: IBootOptions::put_Emulation (imapi2fs.h)
 description: Sets the media type that the boot image is intended to emulate.
+helpviewer_keywords: ["IBootOptions interface [IMAPI]","put_Emulation method","IBootOptions.put_Emulation","IBootOptions::put_Emulation","imapi.ibootoptions_put_emulation","imapi2fs/IBootOptions::put_Emulation","put_Emulation","put_Emulation method [IMAPI]","put_Emulation method [IMAPI]","IBootOptions interface"]
 old-location: imapi\ibootoptions_put_emulation.htm
 tech.root: imapi
 ms.assetid: 93ed301e-fdea-451c-9ab0-6ea9a7fd45de
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],put_Emulation method, IBootOptions.put_Emulation, IBootOptions::put_Emulation, imapi.ibootoptions_put_emulation, imapi2fs/IBootOptions::put_Emulation, put_Emulation, put_Emulation method [IMAPI], put_Emulation method [IMAPI],IBootOptions interface
-f1_keywords:
-- imapi2fs/IBootOptions.put_Emulation
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IBootOptions.put_Emulation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBootOptions::put_Emulation
+ - imapi2fs/IBootOptions::put_Emulation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IBootOptions.put_Emulation
 ---
 
 # IBootOptions::put_Emulation
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the media type that the boot image is intended to emulate.
-
 
 ## -parameters
 
-
-
-
 ### -param newVal [in]
 
-Media type that the boot image is intended to emulate. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype">EmulationType</a> enumeration type. The default value is <b>EmulationNone</b>, which means the BIOS will not emulate any device type or special sector size for the CD during boot from the CD.
-
+Media type that the boot image is intended to emulate. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-emulationtype">EmulationType</a> enumeration type. The default value is <b>EmulationNone</b>, which means the BIOS will not emulate any device type or special sector size for the CD during boot from the CD.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,22 +81,11 @@ Value: 0xC0AAB14A
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_emulation">IBootOptions::get_Emulation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_emulation">IBootOptions::get_Emulation</a>

@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IMDSPDeviceControl.Stop
 title: IMDSPDeviceControl::Stop (mswmdm.h)
 description: The Stop method stops the current stream.
+helpviewer_keywords: ["IMDSPDeviceControl interface [windows Media Device Manager]","Stop method","IMDSPDeviceControl.Stop","IMDSPDeviceControl::Stop","IMDSPDeviceControlStop","Stop","Stop method [windows Media Device Manager]","Stop method [windows Media Device Manager]","IMDSPDeviceControl interface","mswmdm/IMDSPDeviceControl::Stop","wmdm.imdspdevicecontrol_stop"]
 old-location: wmdm\imdspdevicecontrol_stop.htm
 tech.root: WMDM
 ms.assetid: 31dd1325-2a8d-4a61-a4a5-f585b320e841
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Stop method, IMDSPDeviceControl.Stop, IMDSPDeviceControl::Stop, IMDSPDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Stop, wmdm.imdspdevicecontrol_stop
-f1_keywords:
-- mswmdm/IMDSPDeviceControl.Stop
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IMDSPDeviceControl.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMDSPDeviceControl::Stop
+ - mswmdm/IMDSPDeviceControl::Stop
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IMDSPDeviceControl.Stop
 ---
 
 # IMDSPDeviceControl::Stop
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Stop</b> method stops the current stream.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,18 +109,7 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol">IWMDMDeviceControl Interface</a>

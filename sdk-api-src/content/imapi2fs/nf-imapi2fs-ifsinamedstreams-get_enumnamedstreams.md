@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiNamedStreams.get_EnumNamedStreams
 title: IFsiNamedStreams::get_EnumNamedStreams (imapi2fs.h)
 description: Creates a non-variant enumerator for the collection of the named streams associated with a file in the file system image.
+helpviewer_keywords: ["IFsiNamedStreams interface [IMAPI]","get_EnumNamedStreams method","IFsiNamedStreams.get_EnumNamedStreams","IFsiNamedStreams::get_EnumNamedStreams","get_EnumNamedStreams","get_EnumNamedStreams method [IMAPI]","get_EnumNamedStreams method [IMAPI]","IFsiNamedStreams interface","imapi.ifsinamedstreams_get_enumnamedstreams","imapi2fs/IFsiNamedStreams::get_EnumNamedStreams"]
 old-location: imapi\ifsinamedstreams_get_enumnamedstreams.htm
 tech.root: imapi
 ms.assetid: 99691d12-bff6-4d75-b9ef-bd92f8198ae2
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_EnumNamedStreams method, IFsiNamedStreams.get_EnumNamedStreams, IFsiNamedStreams::get_EnumNamedStreams, get_EnumNamedStreams, get_EnumNamedStreams method [IMAPI], get_EnumNamedStreams method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_enumnamedstreams, imapi2fs/IFsiNamedStreams::get_EnumNamedStreams
-f1_keywords:
-- imapi2fs/IFsiNamedStreams.get_EnumNamedStreams
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiNamedStreams.get_EnumNamedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiNamedStreams::get_EnumNamedStreams
+ - imapi2fs/IFsiNamedStreams::get_EnumNamedStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiNamedStreams.get_EnumNamedStreams
 ---
 
 # IFsiNamedStreams::get_EnumNamedStreams
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a non-variant enumerator for the collection of the named streams associated with a file in the file system image. 
-
+Creates a non-variant enumerator for the collection of the named streams associated with a file in the file system image.
 
 ## -parameters
 
-
-
-
 ### -param NewEnum [out, optional]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumfsiitems">IEnumFsiItems</a> object representing a collection of named streams associated with a file.
-
+Pointer to a pointer to an <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ienumfsiitems">IEnumFsiItems</a> object representing a collection of named streams associated with a file.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -98,27 +92,11 @@ Failed to allocate required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the Windows Feature Pack for Storage. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a>

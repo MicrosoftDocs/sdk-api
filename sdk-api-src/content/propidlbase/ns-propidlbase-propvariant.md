@@ -1,16 +1,13 @@
 ---
 UID: NS:propidlbase.tagPROPVARIANT
 title: PROPVARIANT (propidlbase.h)
-description: Used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set.
+description: The PROPVARIANT structure is used in the ReadMultiple and WriteMultiple methods of IPropertyStorage to define the type tag and the value of a property in a property set. 
+helpviewer_keywords: ["*LPPROPVARIANT","PROPVARIANT","PROPVARIANT structure [Structured Storage]","_stg_propvariant","propidlbase/PROPVARIANT","stg.propvariant","tagPROPVARIANT"]
 old-location: stg\propvariant.htm
 tech.root: Stg
 ms.assetid: e86cc279-826d-4767-8d96-fc8280060ea1
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: '*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT'
-f1_keywords:
-- propidlbase/PROPVARIANT
-dev_langs:
-- c++
 req.header: propidlbase.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- propidlbase.h
-api_name:
-- PROPVARIANT
 targetos: Windows
 req.typenames: PROPVARIANT, *LPPROPVARIANT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagPROPVARIANT
+ - propidlbase/tagPROPVARIANT
+ - LPPROPVARIANT
+ - propidlbase/LPPROPVARIANT
+ - PROPVARIANT
+ - propidlbase/PROPVARIANT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - propidlbase.h
+api_name:
+ - PROPVARIANT
 ---
 
 # PROPVARIANT structure
@@ -48,411 +54,175 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PROPVARIANT</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-readmultiple">ReadMultiple</a> and 
+<a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-writemultiple">WriteMultiple</a> methods of 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> to define the type tag and the value of a property in a property set.
 
-The <b>PROPVARIANT</b> structure is also used by the <a href="https://go.microsoft.com/fwlink/p/?linkid=101713">GetValue</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=101711">SetValue</a> methods of <a href="https://go.microsoft.com/fwlink/p/?linkid=101712">IPropertyStore</a>, which replaces <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=101710">Property Handlers</a>.
+The <b>PROPVARIANT</b> structure is also used by the <a href="/previous-versions/windows/desktop/legacy/bb761473(v=vs.85)">GetValue</a> and <a href="/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)">SetValue</a> methods of <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>, which replaces <a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> as the primary way to program item properties in Windows Vista. For more information, see <a href="/previous-versions//bb776861(v=vs.85)">Property Handlers</a>.
 
 There are five members. The first member, the value-type tag, and the last member, the value of the property, are significant. The middle three members are reserved for future use.
 <div class="alert"><b>Note</b>  The <b>bool</b> member in previous definitions of this structure has been renamed to <b>boolVal</b>, because some compilers now recognize <b>bool</b> as a keyword.</div><div> </div><div class="alert"><b>Note</b>  The 
 <b>PROPVARIANT</b> structure, defined below, includes types that can be serialized in the version 1 property set serialization format. The version 1 format supports all types allowed in the version 0 format plus some additional types. The added types include "Version 1" in the comment field below. Use these types only if a version 1 property set is intended. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
+<a href="/windows/desktop/Stg/version-0-vs--version-1-property-set-serialization">Property Set Serialization</a>.</div><div> </div>The 
 <b>PROPVARIANT</b> structure is defined as follows:
-
 
 ## -struct-fields
 
-
-
-
 ### -field tag_inner_PROPVARIANT
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.vt
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.wReserved1
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.wReserved2
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.wReserved3
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.bVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.iVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.uiVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.lVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.ulVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.intVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.uintVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.hVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.uhVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.fltVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.dblVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.boolVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.scode
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cyVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.date
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.filetime
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.puuid
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pclipdata
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.bstrVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.bstrblobVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.blob
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pszVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pwszVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.punkVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pdispVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pStream
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pStorage
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pVersionedStream
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.parray
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cac
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.caub
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cai
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.caui
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.caul
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cah
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cauh
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.caflt
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cadbl
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cabool
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cascode
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cacy
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cadate
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cafiletime
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cauuid
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.caclipdata
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.cabstr
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.cabstrblob
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.calpstr
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.calpwstr
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.capropvar
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pcVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pbVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.piVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.puiVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.plVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pulVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pintVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.puintVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pfltVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pdblVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pboolVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pdecVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pscode
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pcyVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pdate
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pbstrVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.ppunkVal
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.ppdispVal
-
- 
-
 
 ### -field tag_inner_PROPVARIANT.pparray
 
- 
-
-
 ### -field tag_inner_PROPVARIANT.pvarVal
-
- 
-
 
 ### -field decVal
 
@@ -840,15 +610,16 @@ Reserved for future use.
 
 Reserved for future use.
 
-
 ## -remarks
-
-
 
 The 
 <b>PROPVARIANT</b> structure can also hold a value of <b>VT_DECIMAL</b>:
 
-<pre class="syntax" xml:space="preserve"><code>    DECIMAL       decVal;        //VT_DECIMAL</code></pre>
+
+``` syntax
+    DECIMAL       decVal;        //VT_DECIMAL
+```
+
 However, the value of the <b>DECIMAL</b> structure requires special handling. The <b>DECIMAL</b> structure is the same size as an entire 
 <b>PROPVARIANT</b> structure and does not fit into the union that holds all other types of values. Instead, the value of the <b>DECIMAL</b> structure occupies the entire 
 <b>PROPVARIANT</b> structure, including the reserved fields and the <b>vt</b> member. However, the first member of the <b>DECIMAL</b> structure is not used and is equal in size to the <b>vt</b> member of the 
@@ -858,12 +629,14 @@ However, the value of the <b>DECIMAL</b> structure requires special handling. Th
 <b>PROPVARIANT</b> structure, the value must be loaded into the <b>decVal</b> member and the <b>vt</b> member is set to <b>VT_DECIMAL</b>, just as for any other value.
 
 <b>PROPVARIANT</b> is the fundamental data type by which property values are read and written through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a> interface.
 
 The data type 
 <b>PROPVARIANT</b> is related to the data type <b>VARIANT</b>, defined as part of Automation in OLE2. Several definitions are reused from Automation, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct  tagCY {
+
+``` syntax
+typedef struct  tagCY {
     unsigned long      Lo;
     long               Hi;
     } CY;
@@ -894,26 +667,36 @@ typedef CY             CURRENCY;
 typedef short          VARIANT_BOOL;
 typedef unsigned short VARTYPE;
 typedef double         DATE;
-typedef OLECHAR*       BSTR;</code></pre>
+typedef OLECHAR*       BSTR;
+```
+
 In addition, some types are unique to the 
 <b>PROPVARIANT</b> structure:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct  tagCLIPDATA {
+
+``` syntax
+typedef struct  tagCLIPDATA {
     // cbSize is the size of the buffer pointed to 
     // by pClipData, plus sizeof(ulClipFmt)
     ULONG              cbSize;
     long               ulClipFmt;
     BYTE*              pClipData;
-    } CLIPDATA;</code></pre>
+    } CLIPDATA;
+```
+
 Among the unique 
 <b>PROPVARIANT</b> types are several data types that define counted arrays of other data types. The data types of all counted arrays begin with the letters <b>CA</b>, for example <b>CAUB</b>, and have an <b>OR</b> operator <b>vt</b> value (the VarType of the element and an <b>OR</b> operator with <b>VT_VECTOR</b>). The counted array structure has the following form (where <i>name</i> is the specific name of the counted array).
 
-<pre class="syntax" xml:space="preserve"><code>#define TYPEDEF_CA(type, name) 
+
+``` syntax
+#define TYPEDEF_CA(type, name) 
  
     typedef struct tag ## name {\
         ULONG cElems;\
         type *pElems;\
-        } name</code></pre>
+        } name
+```
+
 <table>
 <tr>
 <th>Propvariant type</th>
@@ -1105,7 +888,7 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>66</td>
 <td><b>pStream</b></td>
 <td>A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface that represents a stream which is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STREAMED_OBJECT</b></td>
@@ -1118,14 +901,14 @@ The only significant difference between <b>VT_BLOB_OBJECT</b> and <b>VT_STREAMED
 <td>67</td>
 <td><b>pStorage</b></td>
 <td>A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface, representing a storage object that is a sibling to the "Contents" stream.</td>
 </tr>
 <tr>
 <td><b>VT_STORED_OBJECT</b></td>
 <td>69</td>
 <td><b>pStorage</b></td>
 <td>As in <b>VT_STORAGE</b>, but indicates that the designated 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> contains a loadable object.</td>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> contains a loadable object.</td>
 </tr>
 <tr>
 <td><b>VT_VERSIONED_STREAM</b></td>
@@ -1216,16 +999,17 @@ Clipboard format identifiers, stored with the tag VT_CF, use one of five represe
 
 If the value of the <b>ulClipFmt</b> member is -1, the data is in the form of a built-in Windows format. In this case, the first <b>DWORD</b> of the buffer pointed to by <b>pClipData</b> is the clipboard format identifier, for example CF_METAFILEPICT. In the case of CF_METAFILEPCT, what follows is a variation on the <b>METAFILEPICT</b> structure (it uses <b>WORD</b>, rather than <b>DWORD</b> data types). That is, this data is in the following form:
 
-<pre class="syntax" xml:space="preserve"><code>struct PACKEDMETA
+
+``` syntax
+struct PACKEDMETA
 {
     WORD mm;
     WORD xExt;
     WORD yExt
     WORD reserved;
-};</code></pre>
+};
+```
+
 After the <b>METAFILEPICT</b> structure is the metafile data, suitable to be passed to the <b>SetMetaFileBitsEx</b> function. This function creates a memory-based, Windows-format metafile from the supplied data. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the <b>SetEnhMetaFileBits</b> function. This function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer. If the function succeeds and the buffer pointer is <b>NULL</b>, the return value is the size of the enhanced metafile in bytes. If the function succeeds and the buffer pointer is a valid pointer, the return value is the number of bytes copied to the buffer. If the function fails, the return value is zero.
 
 When register clipboard formats are placed on or retrieved from the clipboard, they must be in the form of an <b>HGLOBAL</b> value.
-
-
-

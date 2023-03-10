@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiDeterminePatchSequenceA
 title: MsiDeterminePatchSequenceA function (msi.h)
-description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product.
+description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product. (ANSI)
+helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiDeterminePatchSequenceA", "msi/MsiDeterminePatchSequenceA"]
 old-location: setup\msideterminepatchsequence.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f82e7d42-f0cd-4d25-b56f-7e423cb64cfd
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiDeterminePatchSequence, MsiDeterminePatchSequence function, MsiDeterminePatchSequenceA, MsiDeterminePatchSequenceW, msi/MsiDeterminePatchSequence, msi/MsiDeterminePatchSequenceA, msi/MsiDeterminePatchSequenceW, setup.msideterminepatchsequence
-f1_keywords:
-- msi/MsiDeterminePatchSequence
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-- Ext-MS-Win-MSi-Misc-L1-1-0.dll
-api_name:
-- MsiDeterminePatchSequence
-- MsiDeterminePatchSequenceA
-- MsiDeterminePatchSequenceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiDeterminePatchSequenceA
+ - msi/MsiDeterminePatchSequenceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+ - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+api_name:
+ - MsiDeterminePatchSequence
+ - MsiDeterminePatchSequenceA
+ - MsiDeterminePatchSequenceW
 ---
 
 # MsiDeterminePatchSequenceA function
@@ -51,25 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MsiDeterminePatchSequence</b> function takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the  patches to a specified installed product. This function accounts for patches that have already been applied to the product and accounts for obsolete and superseded patches.
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCode [in]
 
-The product that is the target for the set of patches. The value must be the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product.
-
+The product that is the target for the set of patches. The value must be the <a href="/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product.
 
 ### -param szUserSid [in, optional]
 
 Null-terminated string  that specifies  a security identifier (SID) of a user. This parameter restricts the context of enumeration for  this user account. This parameter cannot be   the special SID strings "S-1-1-0" (everyone) or "S-1-5-18" (local system). For the machine context <i>dwContext</i> is set to<b> MSIINSTALLCONTEXT_MACHINE</b> and <i>szUserSid</i> must be <b>NULL</b>. 
 For the current user context <i>szUserSid</i> can be null and  <i>dwContext</i> can be set to <b>MSIINSTALLCONTEXT_USERMANAGED</b> or <b>MSIINSTALLCONTEXT_USERUNMANAGED</b>.
-
 
 ### -param dwContext [in]
 
@@ -111,22 +106,16 @@ Patches are considered for the per-machine installation. When <i>dwContext</i> i
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cPatchInfo [in]
 
 The number of patches in the array.
 
-
 ### -param pPatchInfo [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures.
-
+Pointer to an array of <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structures.
 
 ## -returns
-
-
 
 The <b>MsiDeterminePatchSequence</b> function returns the following values.
 
@@ -263,7 +252,7 @@ The configuration data for a registered patch or product is invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID specified is not registered.
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> GUID specified is not registered.
 
 </td>
 </tr>
@@ -285,7 +274,7 @@ Windows Installer version 3.0 is required to determine the best patch sequence. 
 </dl>
 </td>
 <td width="60%">
-This error can be returned if the function was called from a <a href="https://docs.microsoft.com/windows/desktop/Msi/custom-actions">custom action</a>  or if MSXML 3.0 is not installed.
+This error can be returned if the function was called from a <a href="/windows/desktop/Msi/custom-actions">custom action</a>  or if MSXML 3.0 is not installed.
 
 </td>
 </tr>
@@ -301,50 +290,41 @@ The specified patch is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Users that do not have administrator privileges  can call this function only in their own or machine context. Users that are administrators can call it for other users.
 
 If this function is called from a custom action it fails and returns <b>ERROR_CALL_NOT_IMPLEMENTED</b>. The function requires MSXML version 3.0 to process XML and returns <b>ERROR_CALL_NOT_IMPLEMENTED</b> if MSXML 3.0 is not installed.
 
 
-The <b>MsiDeterminePatchSequence</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
+The <b>MsiDeterminePatchSequence</b> function sets the <b>uStatus</b> and <b>dwOrder</b> members of each <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure pointed to by <i>pPatchInfo</i>. Each structure contains information about a particular patch.
 
-If the function succeeds, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of <b>ERROR_SUCCESS</b> and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
+If the function succeeds, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure of every patch that can be applied  to the product returns with a  <b>uStatus</b> of <b>ERROR_SUCCESS</b> and a <b>dwOrder</b> greater than or equal to zero. The values of <b>dwOrder</b>  greater than or equal to zero indicate the best application sequence for the patches starting with zero.
 
-If the function succeeds, patches excluded from the best patching sequence return a <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  <b>ERROR_SUCCESS</b> indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of <b>ERROR_PATCH_TARGET_NOT_FOUND</b> indicates a patch that is inapplicable to the product.
+If the function succeeds, patches excluded from the best patching sequence return a <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure with a <b>dwOrder</b> equal to -1.  In these cases, a <b>uStatus</b> field of  <b>ERROR_SUCCESS</b> indicates a patch that is  obsolete or superseded for the product.   A <b>uStatus</b> field of <b>ERROR_PATCH_TARGET_NOT_FOUND</b> indicates a patch that is inapplicable to the product.
 
-If the function fails, the <a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, <b>ERROR_PATCH_NO_SEQUENCE</b> is returned for patches that have circular sequencing information.
+If the function fails, the <a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a> structure for every patch  returns a  <b>dwOrder</b> equal to -1.  In this case, the <b>uStatus</b> fields  can contain errors with more information about individual patches. For example, <b>ERROR_PATCH_NO_SEQUENCE</b> is returned for patches that have circular sequencing information.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiDeterminePatchSequence as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/ns-msi-msipatchsequenceinfoa">MSIPATCHSEQUENCEINFO</a>
+<a href="/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msidetermineapplicablepatchesa">MsiDetermineApplicablePatches</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>

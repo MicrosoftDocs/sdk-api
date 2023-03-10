@@ -2,15 +2,12 @@
 UID: NF:oaidl.ITypeLib.GetTypeInfoOfGuid
 title: ITypeLib::GetTypeInfoOfGuid (oaidl.h)
 description: Retrieves the type description that corresponds to the specified GUID.
+helpviewer_keywords: ["GetTypeInfoOfGuid","GetTypeInfoOfGuid method [Automation]","GetTypeInfoOfGuid method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetTypeInfoOfGuid method","ITypeLib.GetTypeInfoOfGuid","ITypeLib::GetTypeInfoOfGuid","_oa96_ITypeLib_GetTypeInfoOfGuid","automat.itypelib_gettypeinfoofguid","oaidl/ITypeLib::GetTypeInfoOfGuid"]
 old-location: automat\itypelib_gettypeinfoofguid.htm
 tech.root: automat
 ms.assetid: 58f96322-f1cd-448c-906d-b7faa65ab9a0
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfoOfGuid, GetTypeInfoOfGuid method [Automation], GetTypeInfoOfGuid method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoOfGuid method, ITypeLib.GetTypeInfoOfGuid, ITypeLib::GetTypeInfoOfGuid, _oa96_ITypeLib_GetTypeInfoOfGuid, automat.itypelib_gettypeinfoofguid, oaidl/ITypeLib::GetTypeInfoOfGuid
-f1_keywords:
-- oaidl/ITypeLib.GetTypeInfoOfGuid
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeLib.GetTypeInfoOfGuid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeLib::GetTypeInfoOfGuid
+ - oaidl/ITypeLib::GetTypeInfoOfGuid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeLib.GetTypeInfoOfGuid
 ---
 
 # ITypeLib::GetTypeInfoOfGuid
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the type description that corresponds to the specified GUID.
 
-
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
 The GUID of the type description.
 
-
 ### -param ppTinfo [out]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface.
-
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -126,18 +119,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>

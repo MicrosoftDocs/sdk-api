@@ -2,15 +2,12 @@
 UID: NS:timezoneapi._TIME_DYNAMIC_ZONE_INFORMATION
 title: DYNAMIC_TIME_ZONE_INFORMATION (timezoneapi.h)
 description: Specifies settings for a time zone and dynamic daylight saving time.
+helpviewer_keywords: ["*PDYNAMIC_TIME_ZONE_INFORMATION","DYNAMIC_TIME_ZONE_INFORMATION","DYNAMIC_TIME_ZONE_INFORMATION structure","PDYNAMIC_TIME_ZONE_INFORMATION","PDYNAMIC_TIME_ZONE_INFORMATION structure pointer","_TIME_DYNAMIC_ZONE_INFORMATION","_TIME_DYNAMIC_ZONE_INFORMATION structure","base.dynamic_time_zone_information","winbase/PDYNAMIC_TIME_ZONE_INFORMATION","winbase/_DYNAMIC_TIME_ZONE_INFORMATION"]
 old-location: base\dynamic_time_zone_information.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: d60b1212-26bc-4fad-afce-9bd9062ca5b0
 ms.date: 12/05/2018
 ms.keywords: '*PDYNAMIC_TIME_ZONE_INFORMATION, DYNAMIC_TIME_ZONE_INFORMATION, DYNAMIC_TIME_ZONE_INFORMATION structure, PDYNAMIC_TIME_ZONE_INFORMATION, PDYNAMIC_TIME_ZONE_INFORMATION structure pointer, _TIME_DYNAMIC_ZONE_INFORMATION, _TIME_DYNAMIC_ZONE_INFORMATION structure, base.dynamic_time_zone_information, winbase/PDYNAMIC_TIME_ZONE_INFORMATION, winbase/_DYNAMIC_TIME_ZONE_INFORMATION'
-f1_keywords:
-- timezoneapi/DYNAMIC_TIME_ZONE_INFORMATION
-dev_langs:
-- c++
 req.header: timezoneapi.h
 req.include-header: Timezoneapi.h, Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- DYNAMIC_TIME_ZONE_INFORMATION
 targetos: Windows
 req.typenames: DYNAMIC_TIME_ZONE_INFORMATION, *PDYNAMIC_TIME_ZONE_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TIME_DYNAMIC_ZONE_INFORMATION
+ - timezoneapi/_TIME_DYNAMIC_ZONE_INFORMATION
+ - PDYNAMIC_TIME_ZONE_INFORMATION
+ - timezoneapi/PDYNAMIC_TIME_ZONE_INFORMATION
+ - DYNAMIC_TIME_ZONE_INFORMATION
+ - timezoneapi/DYNAMIC_TIME_ZONE_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - DYNAMIC_TIME_ZONE_INFORMATION
 ---
 
 # DYNAMIC_TIME_ZONE_INFORMATION structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies settings for  a time zone and dynamic daylight saving time.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Bias
 
@@ -67,18 +68,16 @@ UTC = local time + bias
 
 This member is required.
 
-
 ### -field StandardName
 
 A description for standard time. For example, "EST" could indicate Eastern Standard Time. The string will 
       be returned unchanged by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a> 
+      <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a> 
       function. This string can be empty.
-
 
 ### -field StandardDate
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains a date and 
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains a date and 
        local time when the transition from daylight saving time to standard time occurs on this operating system. If 
        the time zone does not support daylight saving time or if the caller needs to disable daylight saving time, the 
        <b>wMonth</b> member in the 
@@ -102,7 +101,6 @@ If the
        <b>wYear</b> member is not zero, the transition date is absolute; it will only occur one 
        time. Otherwise, it is a relative date that occurs yearly.
 
-
 ### -field StandardBias
 
 The bias value to be used during local time translations that occur during standard time. This member is 
@@ -111,18 +109,16 @@ The bias value to be used during local time translations that occur during stand
 This value is added to the value of the <b>Bias</b> member to form the bias used during 
        standard time. In most time zones, the value of this member is zero.
 
-
 ### -field DaylightName
 
 A description for daylight saving time (DST). For example, "PDT" could indicate Pacific Daylight Time. The 
       string will be  returned unchanged by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a> 
+      <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a> 
       function. This string can be empty.
-
 
 ### -field DaylightDate
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains a 
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains a 
        date and local time when the transition from standard time to daylight saving time occurs on this operating 
        system. If the time zone does not support daylight saving time or if the caller needs to disable daylight 
        saving time, the <b>wMonth</b> member in the 
@@ -139,7 +135,6 @@ To select the correct day in the month, set the <b>wYear</b> member to zero, the
 If the <b>wYear</b> member is not zero, the transition date is absolute; it will only 
        occur one time. Otherwise, it is a relative date that occurs yearly.
 
-
 ### -field DaylightBias
 
 The bias value to be used during local time translations that occur during daylight saving time. This member 
@@ -148,11 +143,9 @@ The bias value to be used during local time translations that occur during dayli
 This value is added to the value of the <b>Bias</b> member to form the bias used during 
        daylight saving time. In most time zones, the value of this member is –60.
 
-
 ### -field TimeZoneKeyName
 
 The name of the time zone registry key on the local computer. For more information, see Remarks.
-
 
 ### -field DynamicDaylightTimeDisabled
 
@@ -160,30 +153,27 @@ Indicates whether dynamic daylight saving time is disabled. Setting this member 
        daylight saving time, causing the system to use a fixed set of transition dates.
 
 To restore dynamic daylight saving time, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> 
+       <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> 
        function with <b>DynamicDaylightTimeDisabled</b> set to <b>FALSE</b>. 
        The system will read the transition dates for the current year at the next time update, the next system reboot, 
        or the end of the calendar year (whichever comes first.)
 
 When calling the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a> 
+       <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a> 
        function, this member is <b>TRUE</b> if the time zone was set using the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation">SetTimeZoneInformation</a> function instead of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> or if 
+       <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-settimezoneinformation">SetTimeZoneInformation</a> function instead of 
+       <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> or if 
        the user has disabled this feature using the Date and Time application in Control 
        Panel.
 
 To disable daylight saving time, set this member to <b>TRUE</b>, clear the 
        <b>StandardDate</b> and <b>DaylightDate</b> members, and call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a>. To 
+       <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a>. To 
        restore daylight saving time, call 
        <b>SetDynamicTimeZoneInformation</b> with 
        <b>DynamicDaylightTimeDisabled</b> set to <b>FALSE</b>.
 
-
 ## -remarks
-
-
 
 Dynamic daylight saving time provides support for time zones whose boundaries for daylight saving time change 
     from year to year. This feature enables easier updating of systems, especially for locales where the yearly DST 
@@ -192,12 +182,12 @@ Dynamic daylight saving time provides support for time zones whose boundaries fo
     to store UTC times and convert them to the current local time zone.
 
 You can set the transition dates for the current year using the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> function. 
+     <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a> function. 
      To set future transition dates, you must add entries to the registry data. The settings for dynamic daylight time 
      are stored in the following registry key:
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>
@@ -231,14 +221,18 @@ Each <b>Dynamic DST</b> key includes the following registry values.
 <td>
 The following time zone information.
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _REG_TZI_FORMAT
+
+``` syntax
+typedef struct _REG_TZI_FORMAT
 {
     LONG Bias;
     LONG StandardBias;
     LONG DaylightBias;
     SYSTEMTIME StandardDate;
     SYSTEMTIME DaylightDate;
-} REG_TZI_FORMAT;</code></pre>
+} REG_TZI_FORMAT;
+```
+
 </td>
 </tr>
 <tr>
@@ -255,28 +249,18 @@ The following time zone information.
  
 
 For more information on other values in the <b>Time Zones</b> key, see 
-     <a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>.
+     <a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>.
 
  Both <b>StandardName</b> and <b>DaylightName</b> are localized according to the current user default UI language.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-getdynamictimezoneinformation">GetDynamicTimeZoneInformation</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a>

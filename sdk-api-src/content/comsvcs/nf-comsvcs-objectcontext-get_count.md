@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ObjectContext.get_Count
 title: ObjectContext::get_Count (comsvcs.h)
 description: Retrieves the number of named context object properties.
+helpviewer_keywords: ["ObjectContext interface [COM+]","get_Count method","ObjectContext.get_Count","ObjectContext::get_Count","_cos_ObjectContext_get_Count","comsvcs/ObjectContext::get_Count","cos.objectcontext_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","ObjectContext interface"]
 old-location: cos\objectcontext_get_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 0844876e-6e21-4fac-9d74-01c221e1d78a
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],get_Count method, ObjectContext.get_Count, ObjectContext::get_Count, _cos_ObjectContext_get_Count, comsvcs/ObjectContext::get_Count, cos.objectcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ObjectContext interface
-f1_keywords:
-- comsvcs/ObjectContext.get_Count
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ObjectContext.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ObjectContext::get_Count
+ - comsvcs/ObjectContext::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ObjectContext.get_Count
 ---
 
 # ObjectContext::get_Count
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of named context object properties.
 
-
 ## -parameters
-
-
-
 
 ### -param plCount [out]
 
 The number of named context object properties.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>

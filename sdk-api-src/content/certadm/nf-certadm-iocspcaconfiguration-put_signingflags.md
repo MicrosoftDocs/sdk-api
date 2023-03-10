@@ -1,16 +1,13 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningFlags
 title: IOCSPCAConfiguration::put_SigningFlags (certadm.h)
-description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration.
+description: Gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a certification authority (CA) configuration. (Put)
+helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","SigningFlags property","IOCSPCAConfiguration.SigningFlags","IOCSPCAConfiguration.put_SigningFlags","IOCSPCAConfiguration::SigningFlags","IOCSPCAConfiguration::get_SigningFlags","IOCSPCAConfiguration::put_SigningFlags","SigningFlags property [Security]","SigningFlags property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::SigningFlags","certadm/IOCSPCAConfiguration::get_SigningFlags","certadm/IOCSPCAConfiguration::put_SigningFlags","put_SigningFlags","security.iocspcaconfiguration_signingflags_method"]
 old-location: security\iocspcaconfiguration_signingflags_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 00575bb5-eb18-44f2-b2a8-f2f2fd361dec
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningFlags property, IOCSPCAConfiguration.SigningFlags, IOCSPCAConfiguration.put_SigningFlags, IOCSPCAConfiguration::SigningFlags, IOCSPCAConfiguration::get_SigningFlags, IOCSPCAConfiguration::put_SigningFlags, SigningFlags property [Security], SigningFlags property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningFlags, certadm/IOCSPCAConfiguration::get_SigningFlags, certadm/IOCSPCAConfiguration::put_SigningFlags, put_SigningFlags, security.iocspcaconfiguration_signingflags_method
-f1_keywords:
-- certadm/IOCSPCAConfiguration.SigningFlags
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPCAConfiguration.SigningFlags
-- IOCSPCAConfiguration.get_SigningFlags
-- IOCSPCAConfiguration.put_SigningFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPCAConfiguration::put_SigningFlags
+ - certadm/IOCSPCAConfiguration::put_SigningFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPCAConfiguration.SigningFlags
+ - IOCSPCAConfiguration.get_SigningFlags
+ - IOCSPCAConfiguration.put_SigningFlags
 ---
 
 # IOCSPCAConfiguration::put_SigningFlags
@@ -50,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SigningFlags</b> property gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
+The <b>SigningFlags</b> property gets or sets a combination of flag values. These values specify the management of signing certificates that belong to a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The following table lists bit flag values for 
 <b>SigningFlags</b>.
@@ -129,16 +126,6 @@ When setting <b>SigningFlags</b>, you must specify one of the values <b>OCSP_SF_
 
 If you specify <b>OCSP_SF_ALLOW_SIGNINGCERT_AUTOENROLLMENT</b>, you must also specify <b>OCSP_SF_AUTODISCOVER_SIGNINGCERT</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

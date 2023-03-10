@@ -1,16 +1,13 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilterFromStream
 title: ILoadFilter::LoadIFilterFromStream (filtereg.h)
-description: Do not use:\_this method is not implemented.
+description: Do not use:\_this method is not implemented. (ILoadFilter.LoadIFilterFromStream)
+helpviewer_keywords: ["ILoadFilter interface [search]","LoadIFilterFromStream method","ILoadFilter.LoadIFilterFromStream","ILoadFilter::LoadIFilterFromStream","LoadIFilterFromStream","LoadIFilterFromStream method [search]","LoadIFilterFromStream method [search]","ILoadFilter interface","filtereg/ILoadFilter::LoadIFilterFromStream","search.iloadfilter_loadifilterfromstream"]
 old-location: search\iloadfilter_loadifilterfromstream.htm
 tech.root: search
 ms.assetid: 6a577306-d5ff-43c1-ab9f-3a7437661d2a
 ms.date: 12/05/2018
 ms.keywords: ILoadFilter interface [search],LoadIFilterFromStream method, ILoadFilter.LoadIFilterFromStream, ILoadFilter::LoadIFilterFromStream, LoadIFilterFromStream, LoadIFilterFromStream method [search], LoadIFilterFromStream method [search],ILoadFilter interface, filtereg/ILoadFilter::LoadIFilterFromStream, search.iloadfilter_loadifilterfromstream
-f1_keywords:
-- filtereg/ILoadFilter.LoadIFilterFromStream
-dev_langs:
-- c++
 req.header: filtereg.h
 req.include-header: Filtereg.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- filtereg.h
-api_name:
-- ILoadFilter.LoadIFilterFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILoadFilter::LoadIFilterFromStream
+ - filtereg/ILoadFilter::LoadIFilterFromStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - filtereg.h
+api_name:
+ - ILoadFilter.LoadIFilterFromStream
 ---
 
 # ILoadFilter::LoadIFilterFromStream
@@ -48,57 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not implemented.
 
 Do not use: this method is not implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param pStm [in]
 
-
 ### -param pFilteredSources [in, out]
-
 
 ### -param pUnkOuter [in]
 
-
 ### -param fUseDefault [in]
-
 
 ### -param pFilterClsid [in, out]
 
-
 ### -param SearchDecSize [in, out]
-
 
 ### -param pwcsSearchDesc [in, out]
 
-
 ### -param ppIFilt [in, out]
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/filtereg/nn-filtereg-iloadfilter">ILoadFilter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/filtereg/nn-filtereg-iloadfilter">ILoadFilter</a>

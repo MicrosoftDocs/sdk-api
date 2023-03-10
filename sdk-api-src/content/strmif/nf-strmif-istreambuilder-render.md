@@ -2,15 +2,12 @@
 UID: NF:strmif.IStreamBuilder.Render
 title: IStreamBuilder::Render (strmif.h)
 description: The Render method completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
+helpviewer_keywords: ["IStreamBuilder interface [DirectShow]","Render method","IStreamBuilder.Render","IStreamBuilder::Render","IStreamBuilderRender","Render","Render method [DirectShow]","Render method [DirectShow]","IStreamBuilder interface","dshow.istreambuilder_render","strmif/IStreamBuilder::Render"]
 old-location: dshow\istreambuilder_render.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7bba9d1a-03a8-4572-a08c-2e12071df73b
 ms.date: 12/05/2018
 ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
-f1_keywords:
-- strmif/IStreamBuilder.Render
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IStreamBuilder.Render
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBuilder::Render
+ - strmif/IStreamBuilder::Render
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IStreamBuilder.Render
 ---
 
 # IStreamBuilder::Render
@@ -49,50 +51,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Render</code> method completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppinOut [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of this pin.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of this pin.
 
 ### -param pGraph [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface of the Filter Graph Manager.
-
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface of the Filter Graph Manager.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value. A return code of S_OK indicates that the stream was successfully rendered.
-
-
-
 
 ## -remarks
 
-
-
 The following code illustrates how to implement this method on an output pin. This example assumes that the filter requires a custom renderer downstream from it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
 {
     CheckPointer(pPin, E_POINTER);
@@ -141,24 +127,15 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
     pMyRenderer-&gt;Release();
     return hr;
 }
-</pre>
+```
 </td>
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>

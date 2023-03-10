@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageData.PrevPage
 title: IShellImageData::PrevPage (shimgdata.h)
 description: Switches to the previous page of a multipage image. Any associated animations are reset.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","PrevPage method","IShellImageData.PrevPage","IShellImageData::PrevPage","PrevPage","PrevPage method [Windows Shell]","PrevPage method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_PrevPage","shell.IShellImageData_PrevPage","shimgdata/IShellImageData::PrevPage"]
 old-location: shell\IShellImageData_PrevPage.htm
 tech.root: shell
 ms.assetid: d3a4f07e-a1c0-4180-a02c-12eaebaaf1d2
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],PrevPage method, IShellImageData.PrevPage, IShellImageData::PrevPage, PrevPage, PrevPage method [Windows Shell], PrevPage method [Windows Shell],IShellImageData interface, _shell_IShellImageData_PrevPage, shell.IShellImageData_PrevPage, shimgdata/IShellImageData::PrevPage
-f1_keywords:
-- shimgdata/IShellImageData.PrevPage
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.PrevPage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::PrevPage
+ - shimgdata/IShellImageData::PrevPage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.PrevPage
 ---
 
 # IShellImageData::PrevPage
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Switches to the previous page of a multipage image. Any associated animations are reset.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -95,7 +88,4 @@ No previous pages are available, the image was not previously decoded, or the de
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -2,15 +2,12 @@
 UID: NF:gdiplusmetaheader.MetafileHeader.GetVersion
 title: MetafileHeader::GetVersion (gdiplusmetaheader.h)
 description: The MetafileHeader::GetVersion method gets the version of the metafile.
+helpviewer_keywords: ["GetVersion","GetVersion method [GDI+]","GetVersion method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetVersion method","MetafileHeader.GetVersion","MetafileHeader::GetVersion","_gdiplus_CLASS_MetafileHeader_GetVersion_","gdiplus._gdiplus_CLASS_MetafileHeader_GetVersion_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetVersion_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getversion.htm
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [GDI+], GetVersion method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetVersion method, MetafileHeader.GetVersion, MetafileHeader::GetVersion, _gdiplus_CLASS_MetafileHeader_GetVersion_, gdiplus._gdiplus_CLASS_MetafileHeader_GetVersion_
-f1_keywords:
-- gdiplusmetaheader/MetafileHeader.GetVersion
-dev_langs:
-- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- MetafileHeader.GetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - MetafileHeader::GetVersion
+ - gdiplusmetaheader/MetafileHeader::GetVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - MetafileHeader.GetVersion
 ---
 
 # MetafileHeader::GetVersion
@@ -49,52 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MetafileHeader::GetVersion</b> method gets the version of the metafile.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>UINT</b>
-</strong>
+Type: <b>UINT</b>
 
 This method returns the version of the metafile. The metafile version indicates whether the metafile is an EMF, EMF+, or WMF metafile. EMF files always have 0x0010000 as the version. EMF+ files currently have 0xdbc01001 as the version. WMF files usually have 0x0300 as the version; however, earlier versions may be 0x0100.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>

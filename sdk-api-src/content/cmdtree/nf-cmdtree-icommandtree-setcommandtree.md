@@ -2,15 +2,12 @@
 UID: NF:cmdtree.ICommandTree.SetCommandTree
 title: ICommandTree::SetCommandTree (cmdtree.h)
 description: The ICommandTree::SetCommandTree method sets a command object's command tree, replacing the existing one or replacing a text command specified with the ICommandText interface.
+helpviewer_keywords: ["ICommandTree interface [Indexing Service]","SetCommandTree method","ICommandTree.SetCommandTree","ICommandTree::SetCommandTree","SetCommandTree","SetCommandTree method [Indexing Service]","SetCommandTree method [Indexing Service]","ICommandTree interface","_idxs_ICommandTree_SetCommandTree","cmdtree/ICommandTree::SetCommandTree","indexsrv.icommandtree_setcommandtree"]
 old-location: indexsrv\icommandtree_setcommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_6omd.htm
 ms.date: 12/05/2018
 ms.keywords: ICommandTree interface [Indexing Service],SetCommandTree method, ICommandTree.SetCommandTree, ICommandTree::SetCommandTree, SetCommandTree, SetCommandTree method [Indexing Service], SetCommandTree method [Indexing Service],ICommandTree interface, _idxs_ICommandTree_SetCommandTree, cmdtree/ICommandTree::SetCommandTree, indexsrv.icommandtree_setcommandtree
-f1_keywords:
-- cmdtree/ICommandTree.SetCommandTree
-dev_langs:
-- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- cmdtree.h
-api_name:
-- ICommandTree.SetCommandTree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICommandTree::SetCommandTree
+ - cmdtree/ICommandTree::SetCommandTree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - cmdtree.h
+api_name:
+ - ICommandTree.SetCommandTree
 ---
 
 # ICommandTree::SetCommandTree
@@ -48,39 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
-
-The <b>ICommandTree::SetCommandTree</b> method sets a command object's command tree, replacing the existing one or replacing a text command specified with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommandText</a> interface. The provided command tree is copied into or transferred to, depending on the <i>fCopy</i> parameter, the command object. Thus, the consumer may delete the original tree or text without affecting the command object. Most error checking is deferred until one of the validation methods, optimization (see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms713621(v=vs.85)">ICommandPrepare</a>), or the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms718095(v=vs.85)">ICommand::Execute</a> method is invoked. This method only verifies that the command tree can indeed be copied into the command object's space.
-
+The <b>ICommandTree::SetCommandTree</b> method sets a command object's command tree, replacing the existing one or replacing a text command specified with the <a href="/previous-versions/windows/desktop/ms709737(v=vs.85)">ICommandText</a> interface. The provided command tree is copied into or transferred to, depending on the <i>fCopy</i> parameter, the command object. Thus, the consumer may delete the original tree or text without affecting the command object. Most error checking is deferred until one of the validation methods, optimization (see <a href="/previous-versions/windows/desktop/ms713621(v=vs.85)">ICommandPrepare</a>), or the <a href="/previous-versions/windows/desktop/ms718095(v=vs.85)">ICommand::Execute</a> method is invoked. This method only verifies that the command tree can indeed be copied into the command object's space.
 
 ## -parameters
-
-
-
 
 ### -param ppRoot [in]
 
 Pointer to the address of the root of the command tree.
 
-
 ### -param dwCommandReuse [in]
 
-A mask of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/dbcommandreuse">DBCOMMANDREUSE</a> from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/ne-cmdtree-dbcommandreuseenum">DBCOMMANDREUSEENUM</a> enumeration that specifies whether a state from the previous command is retained. If a state that was not previously specified is marked for reuse, the flag is ignored and no error occurs. Only DBCOMMANDREUSE_NONE is currently supported.
-
+A mask of type <a href="/previous-versions/windows/desktop/indexsrv/dbcommandreuse">DBCOMMANDREUSE</a> from the <a href="/previous-versions/windows/desktop/api/cmdtree/ne-cmdtree-dbcommandreuseenum">DBCOMMANDREUSEENUM</a> enumeration that specifies whether a state from the previous command is retained. If a state that was not previously specified is marked for reuse, the flag is ignored and no error occurs. Only DBCOMMANDREUSE_NONE is currently supported.
 
 ### -param fCopy [in]
 
-If <b>TRUE</b>, the command tree is copied, and the caller retains ownership of the command tree's memory. If <b>FALSE</b>, the provider takes the entire tree, without copying, and sets the caller's root pointer to a <b>NULL</b> pointer. When the command object needs to deallocate the tree, it will call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a> once for each node in the tree.
+If <b>TRUE</b>, the command tree is copied, and the caller retains ownership of the command tree's memory. If <b>FALSE</b>, the provider takes the entire tree, without copying, and sets the caller's root pointer to a <b>NULL</b> pointer. When the command object needs to deallocate the tree, it will call <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a> once for each node in the tree.
 
 
 
-If <i>fCopy</i> is <b>FALSE</b>, the consumer must not change the command tree without another call to the <b>SetCommandTree</b> method. The effect of any such change is undefined. In particular, the provider can assume that the command tree has not changed between the calls that use the tree, such as <b>SetCommandTree</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms718370(v=vs.85)">ICommandPrepare::Prepare</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms718095(v=vs.85)">ICommand::Execute</a>.
-
+If <i>fCopy</i> is <b>FALSE</b>, the consumer must not change the command tree without another call to the <b>SetCommandTree</b> method. The effect of any such change is undefined. In particular, the provider can assume that the command tree has not changed between the calls that use the tree, such as <b>SetCommandTree</b>, <a href="/previous-versions/windows/desktop/ms718370(v=vs.85)">ICommandPrepare::Prepare</a>, and <a href="/previous-versions/windows/desktop/ms718095(v=vs.85)">ICommand::Execute</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -134,18 +127,7 @@ A rowset was open on the command object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>

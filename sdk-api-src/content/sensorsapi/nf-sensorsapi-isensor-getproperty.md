@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensor.GetProperty
 title: ISensor::GetProperty (sensorsapi.h)
 description: Retrieves a property value.
+helpviewer_keywords: ["GetProperty","GetProperty method","GetProperty method","ISensor interface","ISensor interface","GetProperty method","ISensor.GetProperty","ISensor::GetProperty","sensorsapi/ISensor::GetProperty","winsensors_com_ref.isensor_getproperty"]
 old-location: winsensors_com_ref\isensor_getproperty.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 205f372e-a8ca-4494-a431-84d985ec4f9f
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method, GetProperty method,ISensor interface, ISensor interface,GetProperty method, ISensor.GetProperty, ISensor::GetProperty, sensorsapi/ISensor::GetProperty, winsensors_com_ref.isensor_getproperty
-f1_keywords:
-- sensorsapi/ISensor.GetProperty
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::GetProperty
+ - sensorsapi/ISensor::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.GetProperty
 ---
 
 # ISensor::GetProperty
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a property value.
 
-
 ## -parameters
-
-
-
 
 ### -param key [in]
 
 <b>REFPROPERTYKEY</b> specifying the property value to be retrieved.
 
-
 ### -param pProperty [out]
 
 <b>PROPVARIANT</b> pointer that receives the property value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,27 +106,11 @@ NULL was passed in for pProperty.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To retrieve multiple property values as a collection, call <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">ISensor::GetProperties</a>.
-
-
-
+To retrieve multiple property values as a collection, call <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-getproperties">ISensor::GetProperties</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

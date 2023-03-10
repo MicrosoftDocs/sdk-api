@@ -2,15 +2,12 @@
 UID: NF:dwrite_2.IDWriteTextFormat1.SetVerticalGlyphOrientation
 title: IDWriteTextFormat1::SetVerticalGlyphOrientation (dwrite_2.h)
 description: Sets the orientation of a text format.
+helpviewer_keywords: ["IDWriteTextFormat1 interface [Direct Write]","SetVerticalGlyphOrientation method","IDWriteTextFormat1.SetVerticalGlyphOrientation","IDWriteTextFormat1::SetVerticalGlyphOrientation","SetVerticalGlyphOrientation","SetVerticalGlyphOrientation method [Direct Write]","SetVerticalGlyphOrientation method [Direct Write]","IDWriteTextFormat1 interface","directwrite.idwritetextformat1_setverticalglyphorientation","dwrite_2/IDWriteTextFormat1::SetVerticalGlyphOrientation"]
 old-location: directwrite\idwritetextformat1_setverticalglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: 9B4AC423-368D-429F-BC0F-BDC2F0279C61
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetVerticalGlyphOrientation method, IDWriteTextFormat1.SetVerticalGlyphOrientation, IDWriteTextFormat1::SetVerticalGlyphOrientation, SetVerticalGlyphOrientation, SetVerticalGlyphOrientation method [Direct Write], SetVerticalGlyphOrientation method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setverticalglyphorientation, dwrite_2/IDWriteTextFormat1::SetVerticalGlyphOrientation
-f1_keywords:
-- dwrite_2/IDWriteTextFormat1.SetVerticalGlyphOrientation
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat1.SetVerticalGlyphOrientation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat1::SetVerticalGlyphOrientation
+ - dwrite_2/IDWriteTextFormat1::SetVerticalGlyphOrientation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat1.SetVerticalGlyphOrientation
 ---
 
 # IDWriteTextFormat1::SetVerticalGlyphOrientation
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the orientation of a text format.
 
-
 ## -parameters
-
-
-
 
 ### -param glyphOrientation
 
@@ -63,25 +60,13 @@ Type: <b><a href="/windows/win32/api/dwrite_1/ne-dwrite_1-dwrite_vertical_glyph_
 
 The orientation to apply to the text format.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/DirectWrite/idwritetextformat1">IDWriteTextFormat1</a>
- 
-
- 
 

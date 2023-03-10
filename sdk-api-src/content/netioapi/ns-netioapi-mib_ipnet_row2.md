@@ -2,15 +2,12 @@
 UID: NS:netioapi._MIB_IPNET_ROW2
 title: MIB_IPNET_ROW2 (netioapi.h)
 description: Stores information about a neighbor IP address.
+helpviewer_keywords: ["*PMIB_IPNET_ROW2","MIB_IPNET_ROW2","MIB_IPNET_ROW2 structure [MIB]","NlnsDelay","NlnsIncomplete","NlnsMaximum","NlnsPermanent","NlnsProbe","NlnsReachable","NlnsStale","NlnsUnreachable","PMIB_IPNET_ROW2","PMIB_IPNET_ROW2 structure pointer [MIB]","_MIB_IPNET_ROW2","mib.mib_ipnet_row2","netioapi/MIB_IPNET_ROW2","netioapi/PMIB_IPNET_ROW2"]
 old-location: mib\mib_ipnet_row2.htm
 tech.root: MIB
 ms.assetid: 164dbd93-4464-40f9-989a-17597102b1d8
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPNET_ROW2, MIB_IPNET_ROW2, MIB_IPNET_ROW2 structure [MIB], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PMIB_IPNET_ROW2, PMIB_IPNET_ROW2 structure pointer [MIB], _MIB_IPNET_ROW2, mib.mib_ipnet_row2, netioapi/MIB_IPNET_ROW2, netioapi/PMIB_IPNET_ROW2'
-f1_keywords:
-- netioapi/MIB_IPNET_ROW2
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Netioapi.h
-api_name:
-- MIB_IPNET_ROW2
 targetos: Windows
 req.typenames: MIB_IPNET_ROW2, *PMIB_IPNET_ROW2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IPNET_ROW2
+ - netioapi/_MIB_IPNET_ROW2
+ - PMIB_IPNET_ROW2
+ - netioapi/PMIB_IPNET_ROW2
+ - MIB_IPNET_ROW2
+ - netioapi/MIB_IPNET_ROW2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Netioapi.h
+api_name:
+ - MIB_IPNET_ROW2
 ---
 
 # MIB_IPNET_ROW2 structure
@@ -48,29 +54,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_IPNET_ROW2</b> structure stores information about a neighbor IP address.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Address
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a></b>
+Type: <b><a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a></b>
 
 The neighbor IP address. This member can be an IPv6 address or an IPv4 address.
-
 
 ### -field InterfaceIndex
 
 Type: <b>NET_IFINDEX</b>
 
-The local index value for the network interface associated with this IP address. This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent. 
-
+The local index value for the network interface associated with this IP address. This index value may change when a network adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
 
 ### -field InterfaceLuid
 
@@ -78,13 +77,11 @@ Type: <b>NET_LUID</b>
 
 The locally unique identifier (LUID) for the network interface associated with this IP address.
 
-
 ### -field PhysicalAddress
 
 Type: <b> UCHAR[IF_MAX_PHYS_ADDRESS_LENGTH]</b>
 
-The physical hardware address of the adapter for the network interface associated with this IP address. 
-
+The physical hardware address of the adapter for the network interface associated with this IP address.
 
 ### -field PhysicalAddressLength
 
@@ -92,12 +89,11 @@ Type: <b>ULONG</b>
 
 The length, in bytes, of the physical hardware address specified by the <b>PhysicalAddress</b> member. The maximum value supported is 32 bytes.
 
-
 ### -field State
 
 Type: <b>NL_NEIGHBOR_STATE</b>
 
-The state of a network neighbor IP address as defined in RFC 2461, section 7.3.2. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>. This member can be one of the values from the <b>NL_NEIGHBOR_STATE</b> enumeration type defined in the <i>Nldef.h</i> header file. 
+The state of a network neighbor IP address as defined in RFC 2461, section 7.3.2. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>. This member can be one of the values from the <b>NL_NEIGHBOR_STATE</b> enumeration type defined in the <i>Nldef.h</i> header file. 
 
 <table>
 <tr>
@@ -204,8 +200,6 @@ The maximum possible value for the <b>NL_NEIGHBOR_STATE</b> enumeration type. Th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IsRouter
 
@@ -213,13 +207,11 @@ Type: <b>BOOLEAN</b>
 
 A value that indicates if this IP address is a router.
 
-
 ### -field IsUnreachable
 
 Type: <b>BOOLEAN</b>
 
 A value that indicates if this IP address is unreachable.
-
 
 ### -field Flags
 
@@ -227,9 +219,7 @@ Type: <b>UCHAR</b>
 
 A set of flags that indicate whether the IP address is a router and whether the IP address is unreachable.
 
-
 ### -field ReachabilityTime
-
 
 ### -field ReachabilityTime.LastReachable
 
@@ -238,8 +228,7 @@ A set of flags that indicate whether the IP address is a router and whether the 
 The time, in
                      milliseconds, that a node assumes a neighbor is
                      reachable after having received a reachability
-                     confirmation. 
-
+                     confirmation.
 
 ### -field ReachabilityTime.LastUnreachable
 
@@ -248,49 +237,36 @@ The time, in
 The time, in
                      milliseconds, that a node assumes a neighbor is
                      unreachable after not having received a reachability
-                     confirmation. 
-
+                     confirmation.
 
 ## -remarks
 
-
-
 The <b>MIB_IPNET_ROW2</b> structure is defined on Windows Vista and later. 
 
-The <b>GetIpNetTable2</b> function enumerates the neighbor IP addresses on a local system and returns this information in an <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure. 
+The <b>GetIpNetTable2</b> function enumerates the neighbor IP addresses on a local system and returns this information in an <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a> structure. 
 
-For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84044">http://www.ietf.org/rfc/rfc2461.txt</a>. 
+For IPv4, this includes addresses determined used the Address Resolution Protocol (ARP). For IPv6, this includes addresses determined using the Neighbor Discovery (ND) protocol for IPv6 as specified in RFC 2461. For more information, see <a href="https://www.ietf.org/rfc/rfc2461.txt">http://www.ietf.org/rfc/rfc2461.txt</a>. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2">GetIpNetEntry2</a> function retrieves a single neighbor IP address and returns this information in a <b>MIB_IPNET_ROW2</b> structure.
+The <a href="/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2">GetIpNetEntry2</a> function retrieves a single neighbor IP address and returns this information in a <b>MIB_IPNET_ROW2</b> structure.
 
 Note that the <i>Netioapi.h</i> header file is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Netioapi.h</i> header file should never be used directly.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2">CreateIpNetEntry2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-createipnetentry2">CreateIpNetEntry2</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2">GetIpNetEntry2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnetentry2">GetIpNetEntry2</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getipnettable2">GetIpNetTable2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipnettable2">GetIpNetTable2</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipnet_table2">MIB_IPNET_TABLE2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>

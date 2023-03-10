@@ -2,15 +2,12 @@
 UID: NS:d3d10.D3D10_MAPPED_TEXTURE2D
 title: D3D10_MAPPED_TEXTURE2D (d3d10.h)
 description: Provides access to subresource data in a 2D texture.
+helpviewer_keywords: ["D3D10_MAPPED_TEXTURE2D","D3D10_MAPPED_TEXTURE2D structure [Direct3D 10]","a2002d27-1e59-abab-3507-86a1666a3405","d3d10/D3D10_MAPPED_TEXTURE2D","direct3d10.d3d10_mapped_texture2d"]
 old-location: direct3d10\d3d10_mapped_texture2d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_mapped_texture2d.htm
 ms.date: 12/05/2018
 ms.keywords: D3D10_MAPPED_TEXTURE2D, D3D10_MAPPED_TEXTURE2D structure [Direct3D 10], a2002d27-1e59-abab-3507-86a1666a3405, d3d10/D3D10_MAPPED_TEXTURE2D, direct3d10.d3d10_mapped_texture2d
-f1_keywords:
-- d3d10/D3D10_MAPPED_TEXTURE2D
-dev_langs:
-- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D10.h
-api_name:
-- D3D10_MAPPED_TEXTURE2D
 targetos: Windows
 req.typenames: D3D10_MAPPED_TEXTURE2D
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D10_MAPPED_TEXTURE2D
+ - d3d10/D3D10_MAPPED_TEXTURE2D
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D10.h
+api_name:
+ - D3D10_MAPPED_TEXTURE2D
 ---
 
 # D3D10_MAPPED_TEXTURE2D structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides access to <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> data in a 2D texture.
-
+Provides access to <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> data in a 2D texture.
 
 ## -struct-fields
-
-
-
 
 ### -field pData
 
@@ -63,19 +60,15 @@ Type: <b>void*</b>
 
 Pointer to the data.
 
-
 ### -field RowPitch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
-
+The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
 
 ## -remarks
 
-
-
-This structure is used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">Map</a>.
+This structure is used in a call to <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">Map</a>.
 
 To illustrate the row pitch, assume an uncompressed 2D texture with mipmap levels, as shown in the following illustration.
 
@@ -127,17 +120,6 @@ if( SUCCEEDED( pTexture->Map( D3D10CalcSubresource(2, 0, 3), D3D10_MAP_WRITE_DIS
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>

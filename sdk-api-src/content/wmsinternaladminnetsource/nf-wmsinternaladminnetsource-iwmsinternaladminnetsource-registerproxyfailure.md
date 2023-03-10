@@ -2,15 +2,12 @@
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.RegisterProxyFailure
 title: IWMSInternalAdminNetSource::RegisterProxyFailure (wmsinternaladminnetsource.h)
 description: Registers a proxy failure.
+helpviewer_keywords: ["IWMSInternalAdminNetSource interface [windows Media Format]","RegisterProxyFailure method","IWMSInternalAdminNetSource.RegisterProxyFailure","IWMSInternalAdminNetSource::RegisterProxyFailure","RegisterProxyFailure","RegisterProxyFailure method [windows Media Format]","RegisterProxyFailure method [windows Media Format]","IWMSInternalAdminNetSource interface","wmformat.iwmsinternaladminnetsource_registerproxyfailure","wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure"]
 old-location: wmformat\iwmsinternaladminnetsource_registerproxyfailure.htm
 tech.root: wmformat
 ms.assetid: 50a41a98-2827-425e-91fc-5196996abe98
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource interface [windows Media Format],RegisterProxyFailure method, IWMSInternalAdminNetSource.RegisterProxyFailure, IWMSInternalAdminNetSource::RegisterProxyFailure, RegisterProxyFailure, RegisterProxyFailure method [windows Media Format], RegisterProxyFailure method [windows Media Format],IWMSInternalAdminNetSource interface, wmformat.iwmsinternaladminnetsource_registerproxyfailure, wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure
-f1_keywords:
-- wmsinternaladminnetsource/IWMSInternalAdminNetSource.RegisterProxyFailure
-dev_langs:
-- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSInternalAdminNetSource.RegisterProxyFailure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSInternalAdminNetSource::RegisterProxyFailure
+ - wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSInternalAdminNetSource.RegisterProxyFailure
 ---
 
 # IWMSInternalAdminNetSource::RegisterProxyFailure
@@ -51,41 +53,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Registers a proxy failure.   
-
+Registers a proxy failure.
 
 ## -parameters
-
-
-
 
 ### -param hrParam [in]
 
 The <b>HRESULT</b> code of  the failure.
 
-
 ### -param dwProxyContext [in]
 
 Represents the proxy server.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource">IWMSInternalAdminNetSource Interface</a>

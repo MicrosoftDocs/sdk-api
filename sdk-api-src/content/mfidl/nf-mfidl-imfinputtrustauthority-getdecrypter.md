@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFInputTrustAuthority.GetDecrypter
 title: IMFInputTrustAuthority::GetDecrypter (mfidl.h)
 description: Retrieves a decrypter transform.
+helpviewer_keywords: ["3bc4e2e6-41a8-4751-a7fe-5e1f8c136983","GetDecrypter","GetDecrypter method [Media Foundation]","GetDecrypter method [Media Foundation]","IMFInputTrustAuthority interface","IMFInputTrustAuthority interface [Media Foundation]","GetDecrypter method","IMFInputTrustAuthority.GetDecrypter","IMFInputTrustAuthority::GetDecrypter","mf.imfinputtrustauthority_getdecrypter","mfidl/IMFInputTrustAuthority::GetDecrypter"]
 old-location: mf\imfinputtrustauthority_getdecrypter.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983
 ms.date: 12/05/2018
 ms.keywords: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983, GetDecrypter, GetDecrypter method [Media Foundation], GetDecrypter method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetDecrypter method, IMFInputTrustAuthority.GetDecrypter, IMFInputTrustAuthority::GetDecrypter, mf.imfinputtrustauthority_getdecrypter, mfidl/IMFInputTrustAuthority::GetDecrypter
-f1_keywords:
-- mfidl/IMFInputTrustAuthority.GetDecrypter
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFInputTrustAuthority.GetDecrypter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFInputTrustAuthority::GetDecrypter
+ - mfidl/IMFInputTrustAuthority::GetDecrypter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFInputTrustAuthority.GetDecrypter
 ---
 
 # IMFInputTrustAuthority::GetDecrypter
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a decrypter transform.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param riid [in]
 
-Interface identifier (IID) of the interface being requested. Currently this value must be IID_IMFTransform, which requests the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
-
+Interface identifier (IID) of the interface being requested. Currently this value must be IID_IMFTransform, which requests the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
 
 ### -param ppv [out]
 
 Receives a pointer to the interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -116,31 +106,15 @@ This input trust authority (ITA) does not provide a decrypter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The decrypter should be created in a disabled state, where any calls to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> automatically fail. After the input trust authority (ITA) has verified that it is running inside the protected media path (PMP), the ITA should enable the decrypter.
+The decrypter should be created in a disabled state, where any calls to <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> automatically fail. After the input trust authority (ITA) has verified that it is running inside the protected media path (PMP), the ITA should enable the decrypter.
 
 An ITA is not required to provide a decrypter. If the source content is not encrypted, the method should return MF_E_NOT_PROTECTED. The PMP will then proceed without using a decrypter for that stream.
 
 The ITA must create a new instance of its decrypter for each call to <b>GetDecrypter</b>. Do not return multiple references to the same decrypter. They must be separate instances because the Media Session might place them in two different branches of the topology.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>

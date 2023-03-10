@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcBindingCopy
 title: RpcBindingCopy function (rpcdce.h)
 description: The RpcBindingCopy function copies binding information and creates a new binding handle.
+helpviewer_keywords: ["RpcBindingCopy","RpcBindingCopy function [RPC]","_rpc_rpcbindingcopy","rpc.rpcbindingcopy","rpcdce/RpcBindingCopy"]
 old-location: rpc\rpcbindingcopy.htm
 tech.root: Rpc
 ms.assetid: 835cac4b-9cf8-463a-8eff-d08bbee5f98e
 ms.date: 12/05/2018
 ms.keywords: RpcBindingCopy, RpcBindingCopy function [RPC], _rpc_rpcbindingcopy, rpc.rpcbindingcopy, rpcdce/RpcBindingCopy
-f1_keywords:
-- rpcdce/RpcBindingCopy
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingCopy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingCopy
+ - rpcdce/RpcBindingCopy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingCopy
 ---
 
 # RpcBindingCopy function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingCopy</b> function copies binding information and creates a new binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param SourceBinding
 
 Server binding handle whose referenced binding information is copied.
 
-
 ### -param DestinationBinding
 
 Returns a pointer to the server binding handle that refers to the copied binding information.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -114,14 +107,10 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcBindingCopy</b> function copies the server-binding information referenced by the <i>SourceBinding</i> parameter. 
@@ -137,21 +126,12 @@ Once an application calls
 If an application wants one thread's changes to binding information to affect the binding information used by other threads, the application should share a single binding handle across the threads. In this case, the application is responsible for binding-handle concurrency control.
 
 When an application is finished using the binding handle specified by the <i>DestinationBinding</i> parameter, the application should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to release the memory used by the <i>DestinationBinding</i> binding handle and its referenced binding information.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> function to release the memory used by the <i>DestinationBinding</i> binding handle and its referenced binding information.
 
 <div class="alert"><b>Note</b>  Microsoft RPC supports 
 <b>RpcBindingCopy</b> only in client applications, not in server applications.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>

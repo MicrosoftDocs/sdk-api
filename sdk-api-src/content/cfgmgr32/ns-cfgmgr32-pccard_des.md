@@ -2,15 +2,12 @@
 UID: NS:cfgmgr32.PcCard_Des_s
 title: PCCARD_DES (cfgmgr32.h)
 description: The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+helpviewer_keywords: ["*PPCCARD_DES","PCCARD_DES","PCCARD_DES structure [Device and Driver Installation]","PPCCARD_DES","PPCCARD_DES structure pointer [Device and Driver Installation]","cfgmgr32/PCCARD_DES","cfgmgr32/PPCCARD_DES","cfgmgrst_c82ff49b-4ae5-478d-a981-26d75408b157.xml","devinst.pccard_des"]
 old-location: devinst\pccard_des.htm
 tech.root: devinst
 ms.assetid: d1bf4d50-70e1-4eff-8973-0b83a31f55fc
 ms.date: 12/05/2018
 ms.keywords: '*PPCCARD_DES, PCCARD_DES, PCCARD_DES structure [Device and Driver Installation], PPCCARD_DES, PPCCARD_DES structure pointer [Device and Driver Installation], cfgmgr32/PCCARD_DES, cfgmgr32/PPCCARD_DES, cfgmgrst_c82ff49b-4ae5-478d-a981-26d75408b157.xml, devinst.pccard_des'
-f1_keywords:
-- cfgmgr32/PCCARD_DES
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- cfgmgr32.h
-api_name:
-- PCCARD_DES
 targetos: Windows
 req.typenames: PCCARD_DES, *PPCCARD_DES
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PcCard_Des_s
+ - cfgmgr32/PcCard_Des_s
+ - PPCCARD_DES
+ - cfgmgr32/PPCCARD_DES
+ - PCCARD_DES
+ - cfgmgr32/PCCARD_DES
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - cfgmgr32.h
+api_name:
+ - PCCARD_DES
 ---
 
 # PCCARD_DES structure
@@ -48,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
-
+The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field PCD_Count
 
 Must be 1.
 
-
 ### -field PCD_Type
 
 <i>Not used.</i>
-
 
 ### -field PCD_Flags
 
@@ -158,51 +157,35 @@ Bitmask for the bit within <b>PCD_Flags</b> that specifies 8-bit or 16-bit memor
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PCD_ConfigIndex
 
 The 8-bit index value used to locate the device's configuration.
 
-
 ### -field PCD_Reserved
 
 <i>Not used.</i>
-
 
 ### -field PCD_MemoryCardBase1
 
 <i>Optional</i>, card base address of the first memory window.
 
-
 ### -field PCD_MemoryCardBase2
 
 <i>Optional</i>, card base address of the second memory window.
-
 
 ### -field PCD_MemoryCardBase
 
 This member is currently unused.
 
-
 ### -field PCD_MemoryFlags
 
 This member is currently unused.
-
 
 ### -field PCD_IoFlags
 
 This member is currently unused.
 
-
 ## -see-also
 
-
-
-
-[PCCARD_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)a>
- 
-
- 
-
+[PCCARD_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-pccard_resource)

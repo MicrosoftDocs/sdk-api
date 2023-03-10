@@ -1,14 +1,11 @@
 ---
 UID: NN:dwrite_3.IDWriteFontFace5
 title: IDWriteFontFace5
-description: Contains font face type, appropriate file references, and face identification data.
+description: Contains font face type, appropriate file references, and face identification data. (IDWriteFontFace5)
+helpviewer_keywords: ["IDWriteFontFace5","IDWriteFontFace5 interface [Direct Write]","IDWriteFontFace5 interface [Direct Write]","described","directwrite.idwritefontface5","dwrite_3/IDWriteFontFace5"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5, IDWriteFontFace5 interface [Direct Write], IDWriteFontFace5 interface [Direct Write],described, directwrite.idwritefontface5, dwrite_3/IDWriteFontFace5
-f1_keywords:
-- IDWriteFontFace5
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -20,28 +17,33 @@ req.lib: Dwrite.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: Windows
 req.unicode-ansi: 
+f1_keywords:
+ - IDWriteFontFace5
+ - dwrite_3/IDWriteFontFace5
+dev_langs:
+ - c++
 topic_type:
-- APIRef
-- kbSyntax
+ - APIRef
+ - kbSyntax
 api_type:
-- COM
+ - COM
 api_location:
-- Dwrite.lib
-- Dwrite.dll
+ - Dwrite.lib
+ - Dwrite.dll
 api_name:
-- IDWriteFontFace5
+ - IDWriteFontFace5
 ---
 
 ## -description
 
 Represents an absolute reference to a font face. This interface contains font face type, appropriate file references, and face identification data. It adds new facilities such as comparing two font faces, retrieving font axis values, and retrieving the underlying font resource.
 
-This interface extends [IDWriteFontFace4](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
+This interface extends [IDWriteFontFace4](./nn-dwrite_3-idwritefontface4.md). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
 
 ## -see-also
 
-[IDWriteFontFace4](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface4)
+[IDWriteFontFace4](./nn-dwrite_3-idwritefontface4.md)

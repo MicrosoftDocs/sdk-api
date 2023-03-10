@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
 ms.date: 12/05/2018
 ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
-f1_keywords:
-- propsys/IPropertyDescription.GetSortDescriptionLabel
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyDescription.GetSortDescriptionLabel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyDescription::GetSortDescriptionLabel
+ - propsys/IPropertyDescription::GetSortDescriptionLabel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyDescription.GetSortDescriptionLabel
 ---
 
 # IPropertyDescription::GetSortDescriptionLabel
@@ -48,14 +49,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the localized display string that describes the current sort order.
 
-
 ## -parameters
-
-
-
 
 ### -param fDescending [in]
 
@@ -63,47 +59,28 @@ Type: <b>BOOL*</b>
 
 <b>TRUE</b> if <i>ppszDescription</i> should reference the string "Z on top"; <b>FALSE</b> to reference the string "A on top".
 
-
 ### -param ppszDescription [out]
 
 Type: <b>LPWSTR*</b>
 
 When this method returns, contains the address of a pointer to the sort description as a null-terminated Unicode string.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The string retrieved by this method is determined by flags set in the <i>sortDescription</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-labelinfo">labelInfo</a> element in the property's .propdesc file.
+The string retrieved by this method is determined by flags set in the <i>sortDescription</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-labelinfo">labelInfo</a> element in the property's .propdesc file.
 
 It is the responsibility of the calling application to release <i>ppszDescription</i> when it is no longer needed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
- 
-
- 
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

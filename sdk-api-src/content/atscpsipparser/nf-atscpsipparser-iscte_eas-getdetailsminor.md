@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsMinor
 title: ISCTE_EAS::GetDetailsMinor (atscpsipparser.h)
 description: The GetDetailsMinor method returns the minor channel number for the details channel.
+helpviewer_keywords: ["GetDetailsMinor","GetDetailsMinor method [Microsoft TV Technologies]","GetDetailsMinor method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetDetailsMinor method","ISCTE_EAS.GetDetailsMinor","ISCTE_EAS::GetDetailsMinor","ISCTE_EASGetDetailsMinor","atscpsipparser/ISCTE_EAS::GetDetailsMinor","mstv.iscte_eas_getdetailsminor"]
 old-location: mstv\iscte_eas_getdetailsminor.htm
 tech.root: mstv
 ms.assetid: 59d43d84-2120-4200-b1e7-4603c1693018
 ms.date: 12/05/2018
 ms.keywords: GetDetailsMinor, GetDetailsMinor method [Microsoft TV Technologies], GetDetailsMinor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMinor method, ISCTE_EAS.GetDetailsMinor, ISCTE_EAS::GetDetailsMinor, ISCTE_EASGetDetailsMinor, atscpsipparser/ISCTE_EAS::GetDetailsMinor, mstv.iscte_eas_getdetailsminor
-f1_keywords:
-- atscpsipparser/ISCTE_EAS.GetDetailsMinor
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- ISCTE_EAS.GetDetailsMinor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISCTE_EAS::GetDetailsMinor
+ - atscpsipparser/ISCTE_EAS::GetDetailsMinor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - ISCTE_EAS.GetDetailsMinor
 ---
 
 # ISCTE_EAS::GetDetailsMinor
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDetailsMinor</b> method returns the minor channel number for the details channel.
 
-
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the details_minor_channel_number field.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -81,7 +74,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
+The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-initialize">ISCTE_EAS::Initialize</a> method was not called.
 
 </td>
 </tr>
@@ -97,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>

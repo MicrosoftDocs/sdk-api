@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAudioInputMixer.get_Enable
 title: IAMAudioInputMixer::get_Enable (strmif.h)
 description: The get_Enable method retrieves whether the input is enabled.
+helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Enable method","IAMAudioInputMixer.get_Enable","IAMAudioInputMixer::get_Enable","IAMAudioInputMixerget_Enable","dshow.iamaudioinputmixer_get_enable","get_Enable","get_Enable method [DirectShow]","get_Enable method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Enable"]
 old-location: dshow\iamaudioinputmixer_get_enable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d3ec509c-9990-4803-a4e3-abc88fc8c522
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Enable method, IAMAudioInputMixer.get_Enable, IAMAudioInputMixer::get_Enable, IAMAudioInputMixerget_Enable, dshow.iamaudioinputmixer_get_enable, get_Enable, get_Enable method [DirectShow], get_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Enable
-f1_keywords:
-- strmif/IAMAudioInputMixer.get_Enable
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMAudioInputMixer.get_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAudioInputMixer::get_Enable
+ - strmif/IAMAudioInputMixer::get_Enable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMAudioInputMixer.get_Enable
 ---
 
 # IAMAudioInputMixer::get_Enable
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_Enable</code> method retrieves whether the input is enabled.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pfEnable [out]
 
@@ -81,12 +75,8 @@ Receives one of the following values.
 <td>Input is disabled.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -129,35 +119,19 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method applies to specific input pins on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-capture-filter">Audio Capture Filter</a>, so the filter itself returns E_NOTIMPL.
-
-
-
+This method applies to specific input pins on the <a href="/windows/desktop/DirectShow/audio-capture-filter">Audio Capture Filter</a>, so the filter itself returns E_NOTIMPL.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">IAMAudioInputMixer::put_Enable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_enable">IAMAudioInputMixer::put_Enable</a>

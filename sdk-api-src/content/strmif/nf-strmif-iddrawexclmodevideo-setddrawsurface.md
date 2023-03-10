@@ -2,15 +2,12 @@
 UID: NF:strmif.IDDrawExclModeVideo.SetDDrawSurface
 title: IDDrawExclModeVideo::SetDDrawSurface (strmif.h)
 description: The SetDDrawSurface method specifies the DirectDraw surface to be used in subsequent drawing.
+helpviewer_keywords: ["IDDrawExclModeVideo interface [DirectShow]","SetDDrawSurface method","IDDrawExclModeVideo.SetDDrawSurface","IDDrawExclModeVideo::SetDDrawSurface","IDDrawExclModeVideoSetDDrawSurface","SetDDrawSurface","SetDDrawSurface method [DirectShow]","SetDDrawSurface method [DirectShow]","IDDrawExclModeVideo interface","dshow.iddrawexclmodevideo_setddrawsurface","strmif/IDDrawExclModeVideo::SetDDrawSurface"]
 old-location: dshow\iddrawexclmodevideo_setddrawsurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a897c147-044d-44e2-9029-bd62c74483d2
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDDrawSurface method, IDDrawExclModeVideo.SetDDrawSurface, IDDrawExclModeVideo::SetDDrawSurface, IDDrawExclModeVideoSetDDrawSurface, SetDDrawSurface, SetDDrawSurface method [DirectShow], SetDDrawSurface method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setddrawsurface, strmif/IDDrawExclModeVideo::SetDDrawSurface
-f1_keywords:
-- strmif/IDDrawExclModeVideo.SetDDrawSurface
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDDrawExclModeVideo.SetDDrawSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDDrawExclModeVideo::SetDDrawSurface
+ - strmif/IDDrawExclModeVideo::SetDDrawSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDDrawExclModeVideo.SetDDrawSurface
 ---
 
 # IDDrawExclModeVideo::SetDDrawSurface
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetDDrawSurface</code> method specifies the DirectDraw surface to be used in subsequent drawing.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pDDrawSurface [in]
 
 Pointer to the <b>IDirectDrawSurface</b> interface on the surface to use.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
 
@@ -113,31 +104,15 @@ A DirectDraw error is encountered when trying to set the specified surface on th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A game application can use this to share its DirectDraw surface with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter so that the video can be drawn in a specified surface. This surface must be associated with the object specified in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawobject">IDDrawExclModeVideo::SetDDrawObject</a>.
-
-
-
+A game application can use this to share its DirectDraw surface with the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter so that the video can be drawn in a specified surface. This surface must be associated with the object specified in <a href="/windows/desktop/api/strmif/nf-strmif-iddrawexclmodevideo-setddrawobject">IDDrawExclModeVideo::SetDDrawObject</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>

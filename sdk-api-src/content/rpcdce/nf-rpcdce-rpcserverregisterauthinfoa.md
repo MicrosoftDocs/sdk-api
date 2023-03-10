@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterAuthInfoA
 title: RpcServerRegisterAuthInfoA function (rpcdce.h)
-description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
+description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library. (RpcServerRegisterAuthInfoA)
+helpviewer_keywords: ["RpcServerRegisterAuthInfoA", "rpcdce/RpcServerRegisterAuthInfoA"]
 old-location: rpc\rpcserverregisterauthinfo.htm
 tech.root: Rpc
 ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3
 ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterAuthInfo, RpcServerRegisterAuthInfo function [RPC], RpcServerRegisterAuthInfoA, RpcServerRegisterAuthInfoW, _rpc_rpcserverregisterauthinfo, rpc.rpcserverregisterauthinfo, rpcdce/RpcServerRegisterAuthInfo, rpcdce/RpcServerRegisterAuthInfoA, rpcdce/RpcServerRegisterAuthInfoW
-f1_keywords:
-- rpcdce/RpcServerRegisterAuthInfo
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcServerRegisterAuthInfo
-- RpcServerRegisterAuthInfoA
-- RpcServerRegisterAuthInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcServerRegisterAuthInfoA
+ - rpcdce/RpcServerRegisterAuthInfoA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcServerRegisterAuthInfo
+ - RpcServerRegisterAuthInfoA
+ - RpcServerRegisterAuthInfoW
 ---
 
 # RpcServerRegisterAuthInfoA function
@@ -50,31 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcServerRegisterAuthInfo</b> function registers authentication information with the RPC run-time library.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerPrincName
 
 Pointer to the principal name to use for the server when authenticating remote procedure calls using the service specified by the <i>AuthnSvc</i> parameter. The content of the name and its syntax are defined by the authentication service in use. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a>.
-
+<a href="/windows/desktop/Rpc/principal-names">Principal Names</a>.
 
 ### -param AuthnSvc
 
 Authentication service to use when the server receives a request for a remote procedure call.
 
-
 ### -param GetKeyFn
 
 Address of a server-application-provided routine that returns encryption keys. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_auth_key_retrieval_fn">RPC_AUTH_KEY_RETRIEVAL_FN</a>. 
+<a href="/windows/desktop/api/rpcdce/nc-rpcdce-rpc_auth_key_retrieval_fn">RPC_AUTH_KEY_RETRIEVAL_FN</a>. 
 
 
 
@@ -167,21 +162,15 @@ The RPC run-time library passes the <i>ServerPrincName</i> parameter value from
 If the acquisition function called from 
 <b>RpcServerRegisterAuthInfo</b> returns a status other than RPC_S_OK, then this function fails and returns an error code to the server application. If the acquisition function called by the RPC run-time library while authenticating a client's remote procedure call request returns a status other than RPC_S_OK, the request fails and the RPC run-time library returns an error code to the client application.
 
-
 ### -param Arg
 
 Pointer to a parameter to pass to the <i>GetKeyFn</i> routine, if specified. This parameter can also be used to pass a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure to specify explicit credentials if the authentication service is set to SCHANNEL. 
-
-
+<a href="/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure to specify explicit credentials if the authentication service is set to SCHANNEL. 
 
 
 If the <i>Arg</i> parameter is set to <b>NULL</b>, this function will use the default certificate or credential if it has been set up in the directory service.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -214,32 +203,25 @@ The authentication service is unknown.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server application calls 
 <b>RpcServerRegisterAuthInfo</b> to register an authentication service to use for authenticating remote procedure calls. A server calls this routine once for each authentication service the server wants to register. If the server calls this function more than once for a given authentication service, the results are undefined.
 
 The authentication service that a client application specifies (using 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> or 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a> or 
 <b>RpcServerRegisterAuthInfo</b>) must be one of the authentication services specified by the server application. Otherwise, the client's remote procedure call fails and an RPC_S_UNKNOWN_AUTHN_SERVICE status code is returned.
 
 
 
 
+
+> [!NOTE]
+> The rpcdce.h header defines RpcServerRegisterAuthInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>

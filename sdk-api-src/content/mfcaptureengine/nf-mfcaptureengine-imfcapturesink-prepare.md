@@ -2,15 +2,12 @@
 UID: NF:mfcaptureengine.IMFCaptureSink.Prepare
 title: IMFCaptureSink::Prepare (mfcaptureengine.h)
 description: Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
+helpviewer_keywords: ["IMFCaptureSink interface [Media Foundation]","Prepare method","IMFCaptureSink.Prepare","IMFCaptureSink::Prepare","Prepare","Prepare method [Media Foundation]","Prepare method [Media Foundation]","IMFCaptureSink interface","mf.imfcapturesink_prepare","mfcaptureengine/IMFCaptureSink::Prepare"]
 old-location: mf\imfcapturesink_prepare.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 244FD291-AD1D-4A51-87C3-C98B33978AA1
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],Prepare method, IMFCaptureSink.Prepare, IMFCaptureSink::Prepare, Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
-f1_keywords:
-- mfcaptureengine/IMFCaptureSink.Prepare
-dev_langs:
-- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfcaptureengine.h
-api_name:
-- IMFCaptureSink.Prepare
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCaptureSink::Prepare
+ - mfcaptureengine/IMFCaptureSink::Prepare
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfcaptureengine.h
+api_name:
+ - IMFCaptureSink.Prepare
 ---
 
 # IMFCaptureSink::Prepare
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Prepares the capture sink by loading any required pipeline components, such as encoders, video processors, and media sinks.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -93,31 +86,15 @@ Invalid request.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Calling this method is optional. This method gives the application an opportunity to configure the pipeline components before they are used. The method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_SINK_PREPARED</b> event through the <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method.  After this event is received, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice">IMFCaptureSink::GetService</a> to configure individual components.
 
-
-Calling this method is optional. This method gives the application an opportunity to configure the pipeline components before they are used. The method is asynchronous. If the method returns a success code, the caller will receive an <b>MF_CAPTURE_SINK_PREPARED</b> event through the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengineoneventcallback-onevent">IMFCaptureEngineOnEventCallback::OnEvent</a> method.  After this event is received, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-getservice">IMFCaptureSink::GetService</a> to configure individual components.
-
-Before calling this method, configure the capture sink by adding at least one stream. To add a stream, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a>.
+Before calling this method, configure the capture sink by adding at least one stream. To add a stream, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a>.
 
 The <b>Prepare</b> method fails if the capture sink is currently in use. For example, calling <b>Prepare</b> on the preview sink fails if the capture engine is currently previewing.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>

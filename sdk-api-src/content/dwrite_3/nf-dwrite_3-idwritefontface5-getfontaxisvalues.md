@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontFace5.GetFontAxisValues
 title: IDWriteFontFace5::GetFontAxisValues
 description: Retrieves the list of axis values used by the font.
+helpviewer_keywords: ["IDWriteFontFace5 interface [Direct Write]","GetFontAxisValues method","IDWriteFontFace5.GetFontAxisValues","IDWriteFontFace5::GetFontAxisValues","GetFontAxisValues","GetFontAxisValues method [Direct Write]","GetFontAxisValues method [Direct Write]","IDWriteFontFace5 interface","directwrite.idwritefontface5_getfontaxisvalues","dwrite_3/IDWriteFontFace5::GetFontAxisValues"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],GetFontAxisValues method, IDWriteFontFace5.GetFontAxisValues, IDWriteFontFace5::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_getfontaxisvalues, dwrite_3/IDWriteFontFace5::GetFontAxisValues
-f1_keywords:
-- dwrite_3/IDWriteFontFace5.GetFontAxisValues
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontFace5::GetFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontFace5::GetFontAxisValues
+ - dwrite_3/IDWriteFontFace5::GetFontAxisValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontFace5::GetFontAxisValues
 ---
 
 ## -description
@@ -50,9 +52,9 @@ Retrieves the list of axis values used by the font.
 
 ### -param fontAxisValues [out]
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value)\***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md)\***
 
-A pointer to an array of **DWRITE_FONT_AXIS_VALUE** structures into which **GetFontAxisValues** writes the list of font axis values. You're responsible for managing the size and the lifetime of this array. Call [GetFontAxisValueCount](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontface5-getfontaxisvaluecount) to determine the size of array to allocate.
+A pointer to an array of **DWRITE_FONT_AXIS_VALUE** structures into which **GetFontAxisValues** writes the list of font axis values. You're responsible for managing the size and the lifetime of this array. Call [GetFontAxisValueCount](./nf-dwrite_3-idwritefontface5-getfontaxisvaluecount.md) to determine the size of array to allocate.
 
 ### -param fontAxisValueCount
 
@@ -136,4 +138,3 @@ int main()
 ```
 
 ## -see-also
-

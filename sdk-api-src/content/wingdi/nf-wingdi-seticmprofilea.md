@@ -1,16 +1,13 @@
 ---
 UID: NF:wingdi.SetICMProfileA
 title: SetICMProfileA function (wingdi.h)
-description: The SetICMProfile function sets a specified color profile as the output profile for a specified device context (DC).
+description: The SetICMProfile function sets a specified color profile as the output profile for a specified device context (DC). (ANSI)
+helpviewer_keywords: ["SetICMProfileA", "wingdi/SetICMProfileA"]
 old-location: wcs\seticmprofile.htm
 tech.root: WCS
 ms.assetid: c95f6536-9377-4766-9eb6-004a41bcf6c5
 ms.date: 12/05/2018
 ms.keywords: SetICMProfile, SetICMProfile function [Windows Color System], SetICMProfileA, SetICMProfileW, _color_SetICMProfile, wcs.seticmprofile, wingdi/SetICMProfile, wingdi/SetICMProfileA, wingdi/SetICMProfileW
-f1_keywords:
-- wingdi/SetICMProfile
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- SetICMProfile
-- SetICMProfileA
-- SetICMProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetICMProfileA
+ - wingdi/SetICMProfileA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - SetICMProfile
+ - SetICMProfileA
+ - SetICMProfileW
 ---
 
 # SetICMProfileA function
@@ -52,41 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetICMProfile</b> function sets a specified color profile as the output profile for a specified device context (DC).
 
-
 ## -parameters
-
-
-
 
 ### -param hdc
 
 Specifies a device context in which to set the color profile.
 
-
 ### -param lpFileName
 
 Specifies the path name of the color profile to be set.
 
-
 ## -returns
-
-
 
 If this function succeeds, the return value is <b>TRUE</b>.
 
 If this function fails, the return value is <b>FALSE</b>.
 
-
-
-
 ## -remarks
 
-
-
-<b>SetICMProfile</b> associates a color profile with a device context. It becomes the output profile for that device context. The color profile does not have to be associated with any particular device. Device-independent profiles such as sRGB can also be used. If the color profile is not associated with a hardware device, it will be returned by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>, but not by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>.
+<b>SetICMProfile</b> associates a color profile with a device context. It becomes the output profile for that device context. The color profile does not have to be associated with any particular device. Device-independent profiles such as sRGB can also be used. If the color profile is not associated with a hardware device, it will be returned by <a href="/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>, but not by <a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>.
 
 Note that under Windows 95 or later, the PostScript device driver for printers assumes a CMYK color model. Therefore, all PostScript printers must use a CMYK color profile. Windows 2000 does not have this limitation.
 
@@ -97,25 +85,13 @@ Note that under Windows 95 or later, the PostScript device driver for printers a
 
 
 
+
+> [!NOTE]
+> The wingdi.h header defines SetICMProfile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
- 
-
- 
-
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [EnumICMProfilesW](/windows/win32/api/wingdi/nf-wingdi-enumicmprofilesw)
+* [GetICMProfileW](/windows/win32/api/wingdi/nf-wingdi-geticmprofilew)

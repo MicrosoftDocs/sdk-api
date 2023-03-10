@@ -2,15 +2,12 @@
 UID: NF:winddi.PATHOBJ_bCloseFigure
 title: PATHOBJ_bCloseFigure function (winddi.h)
 description: The PATHOBJ_bCloseFigure function closes an open figure in a path by drawing a line from the current position to the first point of the figure.
+helpviewer_keywords: ["PATHOBJ_bCloseFigure","PATHOBJ_bCloseFigure function [Display Devices]","display.pathobj_bclosefigure","gdifncs_49059159-bb68-43f7-acd1-2ea665e0db93.xml","winddi/PATHOBJ_bCloseFigure"]
 old-location: display\pathobj_bclosefigure.htm
 tech.root: display
 ms.assetid: e44fb1e3-3d6f-4ff4-83a7-b539d2b570aa
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_bCloseFigure, PATHOBJ_bCloseFigure function [Display Devices], display.pathobj_bclosefigure, gdifncs_49059159-bb68-43f7-acd1-2ea665e0db93.xml, winddi/PATHOBJ_bCloseFigure
-f1_keywords:
-- winddi/PATHOBJ_bCloseFigure
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- PATHOBJ_bCloseFigure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PATHOBJ_bCloseFigure
+ - winddi/PATHOBJ_bCloseFigure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - PATHOBJ_bCloseFigure
 ---
 
 # PATHOBJ_bCloseFigure function
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PATHOBJ_bCloseFigure</b> function closes an open figure in a path by drawing a line from the current position to the first point of the figure.
-
 
 ## -parameters
 
-
-
-
 ### -param ppo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that identifies the path to be closed.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that identifies the path to be closed.
 
 ## -returns
 
-
-
 The return value is <b>TRUE</b> if the function is successful.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>

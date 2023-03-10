@@ -2,15 +2,12 @@
 UID: NF:sbtsv.ITsSbProvider.UnRegisterForNotification
 title: ITsSbProvider::UnRegisterForNotification (sbtsv.h)
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
+helpviewer_keywords: ["ITsSbProvider interface [Remote Desktop Services]","UnRegisterForNotification method","ITsSbProvider.UnRegisterForNotification","ITsSbProvider::UnRegisterForNotification","TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE","TSSB_NOTIFY_SESSION_CHANGE","TSSB_NOTIFY_TARGET_CHANGE","UnRegisterForNotification","UnRegisterForNotification method [Remote Desktop Services]","UnRegisterForNotification method [Remote Desktop Services]","ITsSbProvider interface","sbtsv/ITsSbProvider::UnRegisterForNotification","termserv.itssbprovider_unregisterfornotification"]
 old-location: termserv\itssbprovider_unregisterfornotification.htm
 tech.root: TermServ
 ms.assetid: e2fa297e-9923-4e60-9e6e-caa6e4b8c963
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvider interface [Remote Desktop Services],UnRegisterForNotification method, ITsSbProvider.UnRegisterForNotification, ITsSbProvider::UnRegisterForNotification, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, UnRegisterForNotification, UnRegisterForNotification method [Remote Desktop Services], UnRegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, sbtsv/ITsSbProvider::UnRegisterForNotification, termserv.itssbprovider_unregisterfornotification
-f1_keywords:
-- sbtsv/ITsSbProvider.UnRegisterForNotification
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbProvider.UnRegisterForNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbProvider::UnRegisterForNotification
+ - sbtsv/ITsSbProvider::UnRegisterForNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbProvider.UnRegisterForNotification
 ---
 
 # ITsSbProvider::UnRegisterForNotification
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests that  Remote Desktop Connection Broker (RD Connection Broker) not send notifications about specified events.
 
-
 ## -parameters
-
-
-
 
 ### -param notificationType [in]
 
@@ -79,37 +76,18 @@ The owner plug-in has recognized a change in the change in the session's state.
 
 RD Connection Broker has created a connection, or completed a connection request due to a successful logon, time-out, or connection failure.
 
-
 ### -param ResourceToMonitor [in]
 
 This parameter is reserved.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Plug-ins can use the <b>UnRegisterForNotification</b> method to cancel previous requests for notifications.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a>

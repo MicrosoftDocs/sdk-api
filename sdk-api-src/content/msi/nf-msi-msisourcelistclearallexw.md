@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiSourceListClearAllExW
 title: MsiSourceListClearAllExW function (msi.h)
-description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.
+description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance. (Unicode)
+helpviewer_keywords: ["MSICODE_PATCH", "MSICODE_PRODUCT", "MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MSISOURCETYPE_MEDIA", "MSISOURCETYPE_NETWORK", "MSISOURCETYPE_URL", "MsiSourceListClearAllEx", "MsiSourceListClearAllEx function", "MsiSourceListClearAllExW", "msi/MsiSourceListClearAllEx", "msi/MsiSourceListClearAllExW", "setup.msisourcelistclearallex"]
 old-location: setup\msisourcelistclearallex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 3caa16f0-da9e-44a9-82c3-79d881278b81
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_MEDIA, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearAllEx, MsiSourceListClearAllEx function, MsiSourceListClearAllExA, MsiSourceListClearAllExW, msi/MsiSourceListClearAllEx, msi/MsiSourceListClearAllExA, msi/MsiSourceListClearAllExW, setup.msisourcelistclearallex
-f1_keywords:
-- msi/MsiSourceListClearAllEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSourceListClearAllEx
-- MsiSourceListClearAllExA
-- MsiSourceListClearAllExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListClearAllExW
+ - msi/MsiSourceListClearAllExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSourceListClearAllEx
+ - MsiSourceListClearAllExA
+ - MsiSourceListClearAllExW
 ---
 
 # MsiSourceListClearAllExW function
@@ -50,26 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 			<b>MsiSourceListClearAllEx</b> function removes all the existing sources of a given source type for the specified product or patch instance. The patch registration is also removed if the sole source of the patch gets removed and if the patch is not installed as a new patch by any client in the same context. Specifying that <b>MsiSourceListClearAllEx</b> remove the current source for this product or patch forces the installer to search the source list for a source the next time a source is required.
-		
-
 
 ## -parameters
 
-
-
-
 ### -param szProductCodeOrPatchCode [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
-
+The <a href="/windows/desktop/Msi/productcode">ProductCode</a> or patch GUID of the product or patch. Use a null-terminated string. If the string is longer than 39 characters, the function fails and returns ERROR_INVALID_PARAMETER. This parameter cannot be <b>NULL</b>.
 
 ### -param szUserSid [in, optional]
 
  This parameter can be a string SID that specifies the user account that contains the product or patch.  The SID is not validated or resolved. An incorrect SID can return ERROR_UNKNOWN_PRODUCT or ERROR_UNKNOWN_PATCH. When referencing a machine context, <i>szUserSID</i> must be <b>NULL</b> and <i>dwContext</i> must be MSIINSTALLCONTEXT_MACHINE. Using the machine SID ("S-1-5-18") returns ERROR_INVALID PARAMETER. When referencing the current user account, <i>szUserSID</i> can be <b>NULL</b> and <i>dwContext</i> can be  MSIINSTALLCONTEXT_USERMANAGED or MSIINSTALLCONTEXT_USERUNMANAGED.
-
 
 ### -param dwContext [in]
 
@@ -111,8 +105,6 @@ The product or patch instance exists in the per-machine context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwOptions [in]
 
@@ -178,12 +170,8 @@ The source is a URL type.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -279,45 +267,36 @@ Unexpected internal failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Administrators can modify the installation  of   a product or patch   instance that exists  under the machine context or under their own per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under any user's per-user-managed context.  Administrators cannot modify another user's installation of a product or patch instance  that exists  under that other user's per-user-unmanaged context. 
 
-Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy, for more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
+Non-administrators cannot  modify the installation of  a product or patch instance that exists under another user's per-user context (managed or unmanaged.) They can modify the installation of  a product or patch instance that exists under their own per-user-unmanaged context.  They can modify the installation of a product or patch instance under the machine context or their own per-user-managed context only if they are enabled to browse for a product or patch source. Users can be enabled to browse for sources by setting policy, for more information, see <a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListClearAllEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
+<a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
+<a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>

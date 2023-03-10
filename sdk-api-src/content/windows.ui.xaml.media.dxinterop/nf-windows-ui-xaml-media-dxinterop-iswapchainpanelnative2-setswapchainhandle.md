@@ -2,15 +2,12 @@
 UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainPanelNative2.SetSwapChainHandle
 title: ISwapChainPanelNative2::xaml (windows.ui.xaml.media.dxinterop.h)
 description: Sets the DirectX swap chain for SwapChainPanel using a handle to the swap chain.
+helpviewer_keywords: ["ISwapChainPanelNative2 interface [Windows Runtime]","SetSwapChainHandle method","ISwapChainPanelNative2.SetSwapChainHandle","ISwapChainPanelNative2.xaml","ISwapChainPanelNative2::SetSwapChainHandle","ISwapChainPanelNative2::xaml","SetSwapChainHandle","SetSwapChainHandle method [Windows Runtime]","SetSwapChainHandle method [Windows Runtime]","ISwapChainPanelNative2 interface","windows/ISwapChainPanelNative2::SetSwapChainHandle","winrt.iswapchainpanelnative2_setswapchainhandle"]
 old-location: winrt\iswapchainpanelnative2_setswapchainhandle.htm
 tech.root: WinRT
 ms.assetid: eda636d8-a07d-aea5-f81e-0489acc006ef
 ms.date: 12/05/2018
 ms.keywords: ISwapChainPanelNative2 interface [Windows Runtime],SetSwapChainHandle method, ISwapChainPanelNative2.SetSwapChainHandle, ISwapChainPanelNative2.xaml, ISwapChainPanelNative2::SetSwapChainHandle, ISwapChainPanelNative2::xaml, SetSwapChainHandle, SetSwapChainHandle method [Windows Runtime], SetSwapChainHandle method [Windows Runtime],ISwapChainPanelNative2 interface, windows/ISwapChainPanelNative2::SetSwapChainHandle, winrt.iswapchainpanelnative2_setswapchainhandle
-f1_keywords:
-- windows.ui.xaml.media.dxinterop/ISwapChainPanelNative2.SetSwapChainHandle
-dev_langs:
-- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.UI.Xaml.dll
-api_name:
-- ISwapChainPanelNative2.SetSwapChainHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISwapChainPanelNative2::SetSwapChainHandle
+ - windows.ui.xaml.media.dxinterop/ISwapChainPanelNative2::SetSwapChainHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.UI.Xaml.dll
+api_name:
+ - ISwapChainPanelNative2.SetSwapChainHandle
 ---
 
 # ISwapChainPanelNative2::xaml
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the DirectX swap chain for <a href="https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
-
+Sets the DirectX swap chain for <a href="/uwp/api/windows.ui.xaml.controls.swapchainpanel">SwapChainPanel</a> using a handle to the swap chain.
 
 ## -parameters
-
-
-
 
 ### -param swapChainHandle [in]
 
 A shared handle to a swap chain.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 SetSwapChain(HANDLE swapChainHandle) allows a swap chain to be rendered by referencing a shared handle to the swap chain.  
      This enables scenarios where a swap chain is created in one process and needs to be passed to another process.
 
 XAML supports setting a DXGI swap chain as the content of a SwapChainPanel element.  Apps accomplish this by querying for 
-     the <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative">ISwapChainPanelNative</a> interface from a SwapChainPanel instance and calling <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain">SetSwapChain(IDXGISwapChain *swapChain)</a>.  
+     the <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative">ISwapChainPanelNative</a> interface from a SwapChainPanel instance and calling <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nf-windows-ui-xaml-media-dxinterop-iswapchainpanelnative-setswapchain">SetSwapChain(IDXGISwapChain *swapChain)</a>.  
      
 
 This process works for pointers to in process swap chains.  However, this doesn’t work for VoIP apps, which use a two-process model to enable continuing calls on a background process 
@@ -129,17 +118,6 @@ panelNative->SetSwapChainHandle(m_swapChainHandle);
 	
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2">ISwapChainPanelNative2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2">ISwapChainPanelNative2</a>

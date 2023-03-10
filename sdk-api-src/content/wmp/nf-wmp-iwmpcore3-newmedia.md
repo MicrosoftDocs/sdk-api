@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPCore3.newMedia
 title: IWMPCore3::newMedia (wmp.h)
 description: The newMedia method retrieves a pointer to an IWMPMedia interface for a new media item.
+helpviewer_keywords: ["IWMPCore3 interface [Windows Media Player]","newMedia method","IWMPCore3.newMedia","IWMPCore3::newMedia","IWMPCore3newMedia","newMedia","newMedia method [Windows Media Player]","newMedia method [Windows Media Player]","IWMPCore3 interface","wmp.iwmpcore3_newmedia","wmp/IWMPCore3::newMedia"]
 old-location: wmp\iwmpcore3_newmedia.htm
 tech.root: WMP
 ms.assetid: d0ae488f-cdc8-4688-bfc5-b7821216da37
 ms.date: 12/05/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newMedia method, IWMPCore3.newMedia, IWMPCore3::newMedia, IWMPCore3newMedia, newMedia, newMedia method [Windows Media Player], newMedia method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newmedia, wmp/IWMPCore3::newMedia
-f1_keywords:
-- wmp/IWMPCore3.newMedia
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPCore3.newMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPCore3::newMedia
+ - wmp/IWMPCore3::newMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPCore3.newMedia
 ---
 
 # IWMPCore3::newMedia
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>newMedia</b> method retrieves a pointer to an <b>IWMPMedia</b> interface for a new media item.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrURL [in]
 
 <b>BSTR</b> containing the URL.
 
-
 ### -param ppMedia [out]
 
 Pointer to a pointer to an <b>IWMPMedia</b> interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,31 +83,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>bstrURL</i> parameter must not be an empty string or null.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore3">IWMPCore3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore3">IWMPCore3 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>

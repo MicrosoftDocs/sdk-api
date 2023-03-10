@@ -2,15 +2,12 @@
 UID: NS:richedit._selchange
 title: SELCHANGE (richedit.h)
 description: Contains information associated with an EN_SELCHANGE notification code. A rich edit control sends this notification to its parent window when the current selection changes.
+helpviewer_keywords: ["SELCHANGE","SELCHANGE structure [Windows Controls]","SEL_MULTICHAR","SEL_MULTIOBJECT","SEL_OBJECT","SEL_TEXT","_win32_SELCHANGE_str","_win32_SELCHANGE_str_cpp","controls.SELCHANGE","controls._win32_SELCHANGE_str","richedit/SELCHANGE"]
 old-location: controls\SELCHANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\selchange.htm
 ms.date: 12/05/2018
 ms.keywords: SELCHANGE, SELCHANGE structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_SELCHANGE_str, _win32_SELCHANGE_str_cpp, controls.SELCHANGE, controls._win32_SELCHANGE_str, richedit/SELCHANGE
-f1_keywords:
-- richedit/SELCHANGE
-dev_langs:
-- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Richedit.h
-api_name:
-- SELCHANGE
 targetos: Windows
 req.typenames: SELCHANGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _selchange
+ - richedit/_selchange
+ - SELCHANGE
+ - richedit/SELCHANGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Richedit.h
+api_name:
+ - SELCHANGE
 ---
 
 # SELCHANGE structure
@@ -48,32 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information associated with an <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a> notification code. A rich edit control sends this notification to its parent window when the current selection changes.
-
 
 ## -struct-fields
 
-
-
-
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-Notification header. 
-
+Notification header.
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
-New selection range. 
-
+New selection range.
 
 ### -field seltyp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value specifying the contents of the new selection. This member is SEL_EMPTY if the selection is empty or one or more of the following values. 
 
@@ -123,16 +120,7 @@ More than one COM object.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/53d47b53-a73c-4652-889c-2374f8e99382">EN_SELCHANGE</a>
- 
-
- 
-

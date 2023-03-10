@@ -2,15 +2,12 @@
 UID: NF:rometadataresolution.RoResolveNamespace
 title: RoResolveNamespace function (rometadataresolution.h)
 description: Determine the direct children, types, and sub-namespaces of the specified Windows Runtime namespace, from any programming language supported by the Windows Runtime.
+helpviewer_keywords: ["RoResolveNamespace","RoResolveNamespace function [Windows Runtime]","rometadataresolution/RoResolveNamespace","winrt.roresolvenamespace"]
 old-location: winrt\roresolvenamespace.htm
 tech.root: WinRT
 ms.assetid: 597E8B18-B9D9-42E5-B260-595370BEEAC0
 ms.date: 12/05/2018
 ms.keywords: RoResolveNamespace, RoResolveNamespace function [Windows Runtime], rometadataresolution/RoResolveNamespace, winrt.roresolvenamespace
-f1_keywords:
-- rometadataresolution/RoResolveNamespace
-dev_langs:
-- c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: WinTypes.lib
 req.dll: WinTypes.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WinTypes.dll
-- API-MS-Win-ro-typeresolution-l1-1-0.dll
-- Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
-api_name:
-- RoResolveNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoResolveNamespace
+ - rometadataresolution/RoResolveNamespace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WinTypes.dll
+ - API-MS-Win-ro-typeresolution-l1-1-0.dll
+ - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
+api_name:
+ - RoResolveNamespace
 ---
 
 # RoResolveNamespace function
@@ -50,32 +52,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determine the direct children, types, and sub-namespaces of the specified Windows Runtime namespace, from any programming language supported by the Windows Runtime.
-
 
 ## -parameters
 
-
-
-
 ### -param name [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: <b>const <a href="/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 Full namespace for which we are trying to retrieve direct children. This is a required parameter.
 
 If this namespace is empty or <b>nullptr</b>, the <b>RoResolveNamespace</b> function returns top-level namespaces. Both Windows  and other top-level namespaces are in the package graph.
 
-
 ### -param windowsMetaDataDir [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: <b>const <a href="/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 Optional parameter that contains a path to the SDK directory to search for metadata (.winmd) files.
 
 If this parameter is not specified (either empty or <b>nullptr</b>), the function searches in the default Windows metadata directory, %windir%\System32\WinMetadata.
-
 
 ### -param packageGraphDirsCount [in]
 
@@ -83,13 +78,11 @@ Type: <b>const DWORD</b>
 
 Count of paths in the <i>packageGraphDirs</i> array.
 
-
 ### -param packageGraphDirs [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
 
 Count of package paths in the explicit package dependency graph array. The count is ignored if <i>packageGraphDirs</i> is <b>nullptr</b>.
-
 
 ### -param metaDataFilePathsCount [out, optional]
 
@@ -97,13 +90,11 @@ Type: <b>DWORD*</b>
 
 Count of metadata files in the <i>metaDataFilePaths</i> array.
 
-
 ### -param metaDataFilePaths [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
+Type: <b><a href="/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
 
 Optional output parameter that contains callee-allocated array of absolute file paths of all metadata (.winmd) files that could possibly contain direct children of <i>name</i>.
-
 
 ### -param subNamespacesCount [out, optional]
 
@@ -111,17 +102,13 @@ Type: <b>DWORD*</b>
 
 Count of metadata files in the <i>subNamespaces</i> array.
 
-
 ### -param subNamespaces [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
+Type: <b><a href="/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
 
 Optional output parameter that contains a callee-allocated array of names of direct children of the given namespace. This list is a hint of other subnamespaces and is not necessarily complete.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -162,17 +149,6 @@ Indicates one of the following:
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_NO_PACKAGE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace">RoResolveNamespace</a> function  is called from a process that is not in a Windows Store app to resolve a 3rd-party namespace when  <i>packageGraphDirs</i> parameter is <b>nullptr</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
 <dt><b>E_INVALIDARG</b></dt>
 </dl>
 </td>
@@ -188,14 +164,8 @@ Indicates one of the following:
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use the <b>RoResolveNamespace</b> function to explore Windows Runtime namespace hierarchies.
 
@@ -294,7 +264,7 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
     }
     else
     {
-        wprintf(L"Error %x occured while trying to resolve %s!\n", hr, pszName);
+        wprintf(L"Error %x occurred while trying to resolve %s!\n", hr, pszName);
     }
 
     // Clean up resources.
@@ -321,7 +291,3 @@ HRESULT PrintDirectChildrenSubNamespacesAndTypesPaths(PCWSTR pszName)
 }
 
 ```
-
-
-
-

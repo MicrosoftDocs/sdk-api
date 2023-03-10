@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 title: IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber (dvbsiparser.h)
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
+helpviewer_keywords: ["GetRecordLogicalChannelNumber","GetRecordLogicalChannelNumber method [DirectShow]","GetRecordLogicalChannelNumber method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetRecordLogicalChannelNumber method","IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber","dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber","mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber"]
 old-location: mstv\idvblogicalchanneldescriptor_getrecordlogicalchannelnumber.htm
 tech.root: mstv
 ms.assetid: fa74587a-ba11-449c-ba0d-bea371e7f019
 ms.date: 12/05/2018
 ms.keywords: GetRecordLogicalChannelNumber, GetRecordLogicalChannelNumber method [DirectShow], GetRecordLogicalChannelNumber method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordLogicalChannelNumber method, IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber
-f1_keywords:
-- dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,28 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber
+ - dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 ---
 
 # IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber
 
 
 ## -description
-
-
-
 
 <div class="alert"><b>Note</b>  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.</div>
 <div> </div>
@@ -59,40 +58,20 @@ ms.custom: 19H1
 
 The <b>GetRecordLogicalChannelNumber</b> method returns the logical channel number at a specified index in the channel list.
 
-
 ## -parameters
-
-
-
 
 ### -param bRecordIndex [in]
 
-Zero-based index of the logical channel number to return. To get the number of logical channel numbers in the descriptor, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getcountofrecords">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
-          
-
+Zero-based index of the logical channel number to return. To get the number of logical channel numbers in the descriptor, call <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getcountofrecords">IDvbLogicalChannelDescriptor::GetCountOfRecords</a>.
 
 ### -param pwVal [out]
 
 Receives the logical_channel_number field.
-          
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchanneldescriptor">IDvbLogicalChannelDescriptor</a>

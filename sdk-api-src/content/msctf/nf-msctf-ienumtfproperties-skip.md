@@ -2,15 +2,12 @@
 UID: NF:msctf.IEnumTfProperties.Skip
 title: IEnumTfProperties::Skip (msctf.h)
 description: IEnumTfProperties::Skip method
+helpviewer_keywords: ["IEnumTfProperties interface [Text Services Framework]","Skip method","IEnumTfProperties.Skip","IEnumTfProperties::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfProperties interface","_tsf_ienumtfproperties_skip_ref","msctf/IEnumTfProperties::Skip","tsf.ienumtfproperties_skip"]
 old-location: tsf\ienumtfproperties_skip.htm
 tech.root: TSF
 ms.assetid: a20e4c98-eaad-4614-a7af-b25a28f980d6
 ms.date: 12/05/2018
 ms.keywords: IEnumTfProperties interface [Text Services Framework],Skip method, IEnumTfProperties.Skip, IEnumTfProperties::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfProperties interface, _tsf_ienumtfproperties_skip_ref, msctf/IEnumTfProperties::Skip, tsf.ienumtfproperties_skip
-f1_keywords:
-- msctf/IEnumTfProperties.Skip
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfProperties.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfProperties::Skip
+ - msctf/IEnumTfProperties::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfProperties.Skip
 ---
 
 # IEnumTfProperties::Skip
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Contains the number of elements to skip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +90,8 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
+[IEnumTfProperties interface](nn-msctf-ienumtfproperties.md), [ITfProperty interface](nn-msctf-itfproperty.md)
 

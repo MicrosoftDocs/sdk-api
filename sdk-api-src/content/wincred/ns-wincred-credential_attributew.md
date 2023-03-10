@@ -1,16 +1,13 @@
 ---
 UID: NS:wincred._CREDENTIAL_ATTRIBUTEW
 title: CREDENTIAL_ATTRIBUTEW (wincred.h)
-description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
+description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute. (Unicode)
+helpviewer_keywords: ["*PCREDENTIAL_ATTRIBUTEW","CREDENTIAL_ATTRIBUTE","CREDENTIAL_ATTRIBUTE structure [Security]","CREDENTIAL_ATTRIBUTEW","PCREDENTIAL_ATTRIBUTE","PCREDENTIAL_ATTRIBUTE structure pointer [Security]","_cred_credential_attribute","security.credential_attribute","wincred/CREDENTIAL_ATTRIBUTE","wincred/PCREDENTIAL_ATTRIBUTE"]
 old-location: security\credential_attribute.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: eb46766c-5f05-4e4a-9550-173347f156d9
 ms.date: 12/05/2018
 ms.keywords: '*PCREDENTIAL_ATTRIBUTEW, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUTE structure [Security], CREDENTIAL_ATTRIBUTEW, PCREDENTIAL_ATTRIBUTE, PCREDENTIAL_ATTRIBUTE structure pointer [Security], _cred_credential_attribute, security.credential_attribute, wincred/CREDENTIAL_ATTRIBUTE, wincred/PCREDENTIAL_ATTRIBUTE'
-f1_keywords:
-- wincred/CREDENTIAL_ATTRIBUTE
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinCred.h
-api_name:
-- CREDENTIAL_ATTRIBUTE
 targetos: Windows
 req.typenames: CREDENTIAL_ATTRIBUTEW, *PCREDENTIAL_ATTRIBUTEW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREDENTIAL_ATTRIBUTEW
+ - wincred/_CREDENTIAL_ATTRIBUTEW
+ - PCREDENTIAL_ATTRIBUTEW
+ - wincred/PCREDENTIAL_ATTRIBUTEW
+ - CREDENTIAL_ATTRIBUTEW
+ - wincred/CREDENTIAL_ATTRIBUTEW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinCred.h
+api_name:
+ - CREDENTIAL_ATTRIBUTE
 ---
 
 # CREDENTIAL_ATTRIBUTEW structure
@@ -48,19 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CREDENTIAL_ATTRIBUTE</b> structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Keyword.string
-
- 
-
 
 ### -field Keyword
 
@@ -71,31 +69,19 @@ Name of the application-specific attribute. Names should be of the form &lt;Comp
 
 This member cannot be longer than CRED_MAX_STRING_LENGTH (256) characters.
 
-
 ### -field Flags
 
 Identifies characteristics of the credential attribute. This member is reserved and should be originally initialized as zero and not otherwise altered to permit future enhancement.
-
 
 ### -field ValueSize
 
 Length of <b>Value</b> in bytes. This member cannot be larger than CRED_MAX_VALUE_SIZE (256).
 
-
 ### -field ValueSize.range
-
- 
-
 
 ### -field ValueSize.range.0
 
- 
-
-
 ### -field ValueSize.range.CRED_MAX_VALUE_SIZE
-
- 
-
 
 ### -field Value
 
@@ -106,15 +92,12 @@ Data associated with the attribute. By convention, if <b>Value</b> is a text str
 
 Credentials are expected to be portable. The application should take care to ensure that the data in value is portable. It is the responsibility of the application to define the byte-endian and alignment of the data in <b>Value</b>.
 
-
 ### -field Value.size_is
-
- 
-
 
 ### -field Value.size_is.ValueSize
 
- 
+## -remarks
 
-
+> [!NOTE]
+> The wincred.h header defines CREDENTIAL_ATTRIBUTE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

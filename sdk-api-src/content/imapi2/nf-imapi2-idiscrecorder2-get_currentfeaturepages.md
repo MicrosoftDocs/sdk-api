@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.get_CurrentFeaturePages
 title: IDiscRecorder2::get_CurrentFeaturePages (imapi2.h)
 description: Retrieves the list of feature pages of the device that are marked as current.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_CurrentFeaturePages method","IDiscRecorder2.get_CurrentFeaturePages","IDiscRecorder2::get_CurrentFeaturePages","get_CurrentFeaturePages","get_CurrentFeaturePages method [IMAPI]","get_CurrentFeaturePages method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_currentfeaturepages","imapi2/IDiscRecorder2::get_CurrentFeaturePages"]
 old-location: imapi\idiscrecorder2_get_currentfeaturepages.htm
 tech.root: imapi
 ms.assetid: 27504cb3-5c78-4fcb-8d37-ce7e6ac2a006
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentFeaturePages method, IDiscRecorder2.get_CurrentFeaturePages, IDiscRecorder2::get_CurrentFeaturePages, get_CurrentFeaturePages, get_CurrentFeaturePages method [IMAPI], get_CurrentFeaturePages method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentfeaturepages, imapi2/IDiscRecorder2::get_CurrentFeaturePages
-f1_keywords:
-- imapi2/IDiscRecorder2.get_CurrentFeaturePages
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.get_CurrentFeaturePages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::get_CurrentFeaturePages
+ - imapi2/IDiscRecorder2::get_CurrentFeaturePages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.get_CurrentFeaturePages
 ---
 
 # IDiscRecorder2::get_CurrentFeaturePages
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the list of feature pages of the device that are marked as current.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-List of supported feature pages that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the feature page type. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration.
-
+List of supported feature pages that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the feature page type. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -373,30 +367,19 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">IDiscRecorder2::get_SupportedFeaturePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">IDiscRecorder2::get_SupportedFeaturePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>

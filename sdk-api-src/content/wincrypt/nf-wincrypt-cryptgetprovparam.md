@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CryptGetProvParam
 title: CryptGetProvParam function (wincrypt.h)
 description: Retrieves parameters that govern the operations of a cryptographic service provider (CSP).
+helpviewer_keywords: ["CRYPT_FASTSGC","CRYPT_FIRST","CRYPT_NEXT","CRYPT_SGC","CRYPT_SGC_ENUM","CryptGetProvParam","CryptGetProvParam function [Security]","DACL_SECURITY_INFORMATION","GROUP_SECURITY_INFORMATION","OWNER_SECURITY_INFORMATION","PP_ADMIN_PIN","PP_APPLI_CERT","PP_CERTCHAIN","PP_CHANGE_PASSWORD","PP_CONTAINER","PP_CRYPT_COUNT_KEY_USE","PP_ENUMALGS","PP_ENUMALGS_EX","PP_ENUMCONTAINERS","PP_ENUMELECTROOTS","PP_ENUMEX_SIGNING_PROT","PP_ENUMMANDROOTS","PP_IMPTYPE","PP_KEYEXCHANGE_PIN","PP_KEYSET_SEC_DESCR","PP_KEYSET_TYPE","PP_KEYSPEC","PP_KEYSTORAGE","PP_KEYX_KEYSIZE_INC","PP_KEY_TYPE_SUBTYPE","PP_NAME","PP_PROVTYPE","PP_ROOT_CERTSTORE","PP_SESSION_KEYSIZE","PP_SGC_INFO","PP_SIGNATURE_PIN","PP_SIG_KEYSIZE_INC","PP_SMARTCARD_GUID","PP_SMARTCARD_READER","PP_SYM_KEYSIZE","PP_UI_PROMPT","PP_UNIQUE_CONTAINER","PP_USER_CERTSTORE","PP_USE_HARDWARE_RNG","PP_VERSION","SACL_SECURITY_INFORMATION","_crypto2_cryptgetprovparam","security.cryptgetprovparam","wincrypt/CryptGetProvParam"]
 old-location: security\cryptgetprovparam.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c0b7c1c8-aa42-4d40-a7f7-99c0821c8977
 ms.date: 12/05/2018
 ms.keywords: CRYPT_FASTSGC, CRYPT_FIRST, CRYPT_NEXT, CRYPT_SGC, CRYPT_SGC_ENUM, CryptGetProvParam, CryptGetProvParam function [Security], DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, OWNER_SECURITY_INFORMATION, PP_ADMIN_PIN, PP_APPLI_CERT, PP_CERTCHAIN, PP_CHANGE_PASSWORD, PP_CONTAINER, PP_CRYPT_COUNT_KEY_USE, PP_ENUMALGS, PP_ENUMALGS_EX, PP_ENUMCONTAINERS, PP_ENUMELECTROOTS, PP_ENUMEX_SIGNING_PROT, PP_ENUMMANDROOTS, PP_IMPTYPE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_KEYSET_TYPE, PP_KEYSPEC, PP_KEYSTORAGE, PP_KEYX_KEYSIZE_INC, PP_KEY_TYPE_SUBTYPE, PP_NAME, PP_PROVTYPE, PP_ROOT_CERTSTORE, PP_SESSION_KEYSIZE, PP_SGC_INFO, PP_SIGNATURE_PIN, PP_SIG_KEYSIZE_INC, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_SYM_KEYSIZE, PP_UI_PROMPT, PP_UNIQUE_CONTAINER, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, PP_VERSION, SACL_SECURITY_INFORMATION, _crypto2_cryptgetprovparam, security.cryptgetprovparam, wincrypt/CryptGetProvParam
-f1_keywords:
-- wincrypt/CryptGetProvParam
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptGetProvParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetProvParam
+ - wincrypt/CryptGetProvParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptGetProvParam
 ---
 
 # CryptGetProvParam function
@@ -50,20 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetProvParam</b> function retrieves parameters that govern the operations of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
-
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetProvParam</b> function retrieves parameters that govern the operations of a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 ## -parameters
-
-
-
 
 ### -param hProv [in]
 
  A handle of the CSP target of the query. This handle must have been created by using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
-
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
 
 ### -param dwParam [in]
 
@@ -125,8 +121,8 @@ Returns the certificate chain associated with the <i>hProv</i> handle. The retur
 </dl>
 </td>
 <td width="60%">
-The name of the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> as a <b>null</b>-terminated <b>CHAR</b> string. This string is exactly the same as the one passed in the <i>pszContainer</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function to specify the key container to use. The <i>pszContainer</i> parameter can be read to determine the name of the default key container.
+The name of the current <a href="/windows/desktop/SecGloss/k-gly">key container</a> as a <b>null</b>-terminated <b>CHAR</b> string. This string is exactly the same as the one passed in the <i>pszContainer</i> parameter of the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function to specify the key container to use. The <i>pszContainer</i> parameter can be read to determine the name of the default key container.
 
 </td>
 </tr>
@@ -151,7 +147,7 @@ Not implemented by Microsoft CSPs. This behavior may be implemented by other CSP
 </td>
 <td width="60%">
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs">PROV_ENUMALGS</a> structure that contains information about one algorithm supported by the CSP being queried.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs">PROV_ENUMALGS</a> structure that contains information about one algorithm supported by the CSP being queried.
 
 The first time this value is read, the <i>dwFlags</i> parameter must contain the <b>CRYPT_FIRST</b> flag. Doing so causes this function to retrieve the first element in the enumeration. The subsequent elements can then be retrieved by setting the <b>CRYPT_NEXT</b> flag in the <i>dwFlags</i> parameter. When this function fails with the <b>ERROR_NO_MORE_ITEMS</b> error code, the end of the enumeration has been reached.
 
@@ -167,7 +163,7 @@ This function is not thread safe, and all of the available algorithms might not 
 </td>
 <td width="60%">
 A 
-								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure that contains information about one algorithm supported by the CSP being queried. The structure returned contains more information about the algorithm than the structure returned for PP_ENUMALGS.
+								<a href="/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure that contains information about one algorithm supported by the CSP being queried. The structure returned contains more information about the algorithm than the structure returned for PP_ENUMALGS.
 
 The first time this value is read, the <i>dwFlags</i> parameter must contain the <b>CRYPT_FIRST</b> flag. Doing so causes this function to retrieve the first element in the enumeration. The subsequent elements can then be retrieved by setting the <b>CRYPT_NEXT</b> flag in the <i>dwFlags</i> parameter. When this function fails with the <b>ERROR_NO_MORE_ITEMS</b> error code, the end of the enumeration has been reached.
 
@@ -186,7 +182,7 @@ The name of one of the key containers maintained by the CSP in the form of a <b>
 
 The first time this value is read, the <i>dwFlags</i> parameter must contain the <b>CRYPT_FIRST</b> flag. Doing so causes this function to retrieve the first element in the enumeration. The subsequent elements can then be retrieved by setting the <b>CRYPT_NEXT</b> flag in the <i>dwFlags</i> parameter. When this function fails with the <b>ERROR_NO_MORE_ITEMS</b> error code, the end of the enumeration has been reached.
 
-To enumerate key containers associated with a computer, first call <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> using the <b>CRYPT_MACHINE_KEYSET</b> flag, and then use the handle returned from <b>CryptAcquireContext</b> as the <i>hProv</i> parameter in the call to <b>CryptGetProvParam</b>.
+To enumerate key containers associated with a computer, first call <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> using the <b>CRYPT_MACHINE_KEYSET</b> flag, and then use the handle returned from <b>CryptAcquireContext</b> as the <i>hProv</i> parameter in the call to <b>CryptGetProvParam</b>.
 
 This function is not thread safe and all of the available algorithms might not be enumerated if this function is used in a multithreaded context.
 
@@ -210,7 +206,7 @@ This constant is not used.
 </dl>
 </td>
 <td width="60%">
-Indicates that the current CSP supports the <b>dwProtocols</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure. If this function succeeds, the CSP supports the <b>dwProtocols</b> member of the <b>PROV_ENUMALGS_EX</b> structure. If this function fails with an <b>NTE_BAD_TYPE</b> error code, the CSP does not support the <b>dwProtocols</b> member.
+Indicates that the current CSP supports the <b>dwProtocols</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-prov_enumalgs_ex">PROV_ENUMALGS_EX</a> structure. If this function succeeds, the CSP supports the <b>dwProtocols</b> member of the <b>PROV_ENUMALGS_EX</b> structure. If this function fails with an <b>NTE_BAD_TYPE</b> error code, the CSP does not support the <b>dwProtocols</b> member.
 
 </td>
 </tr>
@@ -265,7 +261,7 @@ Specifies that the key exchange PIN is contained in <i>pbData</i>. The PIN is re
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> for the key storage container. The <i>pbData</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor for the key storage container. The security descriptor is returned in self-relative format.
+Retrieves the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> for the key storage container. The <i>pbData</i> parameter is the address of a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that receives the security descriptor for the key storage container. The security descriptor is returned in self-relative format.
 
 </td>
 </tr>
@@ -276,7 +272,7 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly
 </dl>
 </td>
 <td width="60%">
-Determines whether the <i>hProv</i> parameter is a computer key set. The <i>pbData</i> parameter must be a <b>DWORD</b>; the <b>DWORD</b> will be set to the CRYPT_MACHINE_KEYSET flag if that flag was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
+Determines whether the <i>hProv</i> parameter is a computer key set. The <i>pbData</i> parameter must be a <b>DWORD</b>; the <b>DWORD</b> will be set to the CRYPT_MACHINE_KEYSET flag if that flag was passed to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
 
 </td>
 </tr>
@@ -310,7 +306,7 @@ Returns a <b>DWORD</b> value of CRYPT_SEC_DESCR.
 </td>
 <td width="60%">
 The number of bits for the increment length of AT_KEYEXCHANGE. This information is used with information returned in the PP_ENUMALGS_EX value. With the information returned when using PP_ENUMALGS_EX and PP_KEYX_KEYSIZE_INC, the valid key lengths for AT_KEYEXCHANGE can be determined. These key lengths can then be used with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. For example if a CSP enumerates <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_RSA_KEYX</a> (AT_KEYEXCHANGE) with a minimum key length of 512 bits and a maximum of 1024 bits, and returns the increment length as 64 bits, then valid key lengths are 512, 576, 640,… 1024.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>. For example if a CSP enumerates <a href="/windows/desktop/SecGloss/c-gly">CALG_RSA_KEYX</a> (AT_KEYEXCHANGE) with a minimum key length of 512 bits and a maximum of 1024 bits, and returns the increment length as 64 bits, then valid key lengths are 512, 576, 640,… 1024.
 							
 
 </td>
@@ -323,7 +319,7 @@ The number of bits for the increment length of AT_KEYEXCHANGE. This information 
 </td>
 <td width="60%">
 The name of the CSP in the form of a <b>null</b>-terminated <b>CHAR</b> string. This string is identical to the one passed in the <i>pszProvider</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function to specify that the current CSP be used.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function to specify that the current CSP be used.
 
 </td>
 </tr>
@@ -347,7 +343,7 @@ A <b>DWORD</b> value that indicates the provider type of the CSP.
 <td width="60%">
 Obtains the root certificate store for the smart card. This certificate store contains all of the root certificates that are stored on the smart card.
 
-The <i>pbData</i> parameter is the address of an <b>HCERTSTORE</b> variable that receives the handle of the certificate store. When this handle is no longer needed, the caller must close it by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
+The <i>pbData</i> parameter is the address of an <b>HCERTSTORE</b> variable that receives the handle of the certificate store. When this handle is no longer needed, the caller must close it by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 <b>Windows Server 2003 and Windows XP:  </b>This parameter is not supported.
 
@@ -371,7 +367,7 @@ The size, in bits, of the session key.
 </dl>
 </td>
 <td width="60%">
-Used with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">server gated cryptography</a>.
+Used with <a href="/windows/desktop/SecGloss/s-gly">server gated cryptography</a>.
 
 </td>
 </tr>
@@ -382,10 +378,10 @@ Used with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">se
 </dl>
 </td>
 <td width="60%">
-The number of bits for the increment length of AT_SIGNATURE. This information is used with information returned in the PP_ENUMALGS_EX value. With the information returned when using PP_ENUMALGS_EX and PP_SIG_KEYSIZE_INC, the valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key lengths</a> for AT_SIGNATURE can be determined. These key lengths can then be used with 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>.
+The number of bits for the increment length of AT_SIGNATURE. This information is used with information returned in the PP_ENUMALGS_EX value. With the information returned when using PP_ENUMALGS_EX and PP_SIG_KEYSIZE_INC, the valid <a href="/windows/desktop/SecGloss/k-gly">key lengths</a> for AT_SIGNATURE can be determined. These key lengths can then be used with 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>.
 
-For example, if a CSP enumerates <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_RSA_SIGN</a> (AT_SIGNATURE) with a minimum <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key length</a> of 512 bits and a maximum of 1024 bits, and returns the increment length as 64 bits, then valid key lengths are 512, 576, 640,… 1024.
+For example, if a CSP enumerates <a href="/windows/desktop/SecGloss/c-gly">CALG_RSA_SIGN</a> (AT_SIGNATURE) with a minimum <a href="/windows/desktop/SecGloss/k-gly">key length</a> of 512 bits and a maximum of 1024 bits, and returns the increment length as 64 bits, then valid key lengths are 512, 576, 640,… 1024.
 
 </td>
 </tr>
@@ -456,7 +452,7 @@ This query  is not used.
 </td>
 <td width="60%">
 The unique container name of the current key container in the form of a <b>null</b>-terminated <b>CHAR</b> string. For many CSPs, this name is the same name returned when the PP_CONTAINER value is used. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function must work with this container name.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function must work with this container name.
 
 </td>
 </tr>
@@ -468,7 +464,7 @@ The unique container name of the current key container in the form of a <b>null<
 </td>
 <td width="60%">
 Indicates whether a hardware random number generator (RNG) is supported. When <b>PP_USE_HARDWARE_RNG</b> is specified, the function succeeds and returns <b>TRUE</b> if a hardware RNG is supported. The function fails and returns <b>FALSE</b> if a hardware RNG is not supported. If a RNG is supported, <b>PP_USE_HARDWARE_RNG</b> can be set in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> to indicate that the CSP must exclusively use the hardware RNG for this provider context. When <b>PP_USE_HARDWARE_RNG</b> is used, the <i>pbData</i> parameter must be <b>NULL</b> and <i>dwFlags</i> must be zero.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> to indicate that the CSP must exclusively use the hardware RNG for this provider context. When <b>PP_USE_HARDWARE_RNG</b> is used, the <i>pbData</i> parameter must be <b>NULL</b> and <i>dwFlags</i> must be zero.
 
 None of the Microsoft CSPs currently support using a hardware RNG.
 
@@ -483,7 +479,7 @@ None of the Microsoft CSPs currently support using a hardware RNG.
 <td width="60%">
 Obtains the user certificate store for the smart card. This certificate store contains all of the user certificates that are stored on the smart card. The certificates in this store are encoded by using PKCS_7_ASN_ENCODING or X509_ASN_ENCODING encoding and should contain the <b>CERT_KEY_PROV_INFO_PROP_ID</b> property. 
 
-The <i>pbData</i> parameter is the address of an <b>HCERTSTORE</b> variable that receives the handle of an in-memory certificate store. When this handle is no longer needed, the caller must close it by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
+The <i>pbData</i> parameter is the address of an <b>HCERTSTORE</b> variable that receives the handle of an in-memory certificate store. When this handle is no longer needed, the caller must close it by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a> function.
 
 <b>Windows Server 2003 and Windows XP:  </b>This parameter is not supported.
 
@@ -497,22 +493,19 @@ The <i>pbData</i> parameter is the address of an <b>HCERTSTORE</b> variable that
 </td>
 <td width="60%">
 The version number of the CSP. The least significant byte contains the minor version number and the next most significant byte the major version number. Version 2.0 is represented as 0x00000200. To maintain backward compatibility with earlier versions of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a> and the 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a>, the provider names retain the "v1.0" designation in later versions.
+<a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a> and the 
+<a href="/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a>, the provider names retain the "v1.0" designation in later versions.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbData [out]
 
 A pointer to a buffer to receive the data. The form of this data varies depending on the value of <i>dwParam</i>. When <i>dwParam</i> is set to PP_USE_HARDWARE_RNG, <i>pbData</i> must be set to <b>NULL</b>.
 
 This parameter can be <b>NULL</b> to set the size of this information for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pdwDataLen [in, out]
 
@@ -529,7 +522,7 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the buff
 
 ### -param dwFlags [in]
 
-If <i>dwParam</i> is <b>PP_KEYSET_SEC_DESCR</b>, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> where the keys are stored is retrieved. For this case, <i>dwFlags</i> is used to pass in the <b>SECURITY_INFORMATION</b> bit flags that indicate the requested security information, as defined in the Platform SDK. <b>SECURITY_INFORMATION</b> bit flags can be combined with a bitwise-<b>OR</b> operation.
+If <i>dwParam</i> is <b>PP_KEYSET_SEC_DESCR</b>, the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> on the <a href="/windows/desktop/SecGloss/k-gly">key container</a> where the keys are stored is retrieved. For this case, <i>dwFlags</i> is used to pass in the <b>SECURITY_INFORMATION</b> bit flags that indicate the requested security information, as defined in the Platform SDK. <b>SECURITY_INFORMATION</b> bit flags can be combined with a bitwise-<b>OR</b> operation.
 						
 					
 
@@ -625,7 +618,7 @@ Retrieve the next element in the enumeration. When there are no more elements to
 </dl>
 </td>
 <td width="60%">
-Retrieve <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=95434">Microsoft Support Article 875450</a>.
+Retrieve <a href="/windows/desktop/SecGloss/s-gly">server-gated cryptography</a> (SGC) enabled certificates. SGC enabled certificates are no longer supported.
 
 </td>
 </tr>
@@ -650,17 +643,13 @@ This flag is not used.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by NTE are generated by the particular CSP being used. Some possible error codes follow.
 
@@ -742,19 +731,13 @@ The <i>dwParam</i> parameter specifies an unknown value number.
 </dl>
 </td>
 <td width="60%">
-The CSP <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> specified by <i>hProv</i> is not valid.
+The CSP <a href="/windows/desktop/SecGloss/c-gly">context</a> specified by <i>hProv</i> is not valid.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function must not be used on a thread of a multithreaded program.
 
@@ -767,32 +750,33 @@ The following values are returned in <i>pbData</i> if <i>dwParam</i> is PP_IMPTY
 <th>Meaning</th>
 </tr>
 <tr>
-<td>CRYPT_IMPL_HARDWARE1
-
+<td>CRYPT_IMPL_HARDWARE<br/>
+0x01
 </td>
 <td>Implementation is in hardware.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_SOFTWARE2
-
+<td>CRYPT_IMPL_SOFTWARE<br/>
+0x02
 </td>
 <td>Implementation is in software.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_MIXED3
-
+<td>CRYPT_IMPL_MIXED<br/>
+0x03
 </td>
 <td>Implementation involves both hardware and software.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_UNKNOWN4
-
+<td>CRYPT_IMPL_UNKNOWN<br/>
+0x04
 </td>
 <td>Implementation type is unknown.</td>
 </tr>
 <tr>
-<td>CRYPT_IMPL_REMOVABLE8
-
+<td>CRYPT_IMPL_REMOVABLE<br/>
+0x08
+	
 </td>
 <td>Implementation is in removable media.</td>
 </tr>
@@ -801,9 +785,9 @@ The following values are returned in <i>pbData</i> if <i>dwParam</i> is PP_IMPTY
 
 
 
-The <i>dwFlags</i> parameter is used to pass in the <b>SECURITY_INFORMATION</b> bit flags that indicate the requested security information. The pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> is returned in the <i>pbData</i> parameter and the length of the security descriptor is returned in the <i>pdwDataLen</i> parameter. Key-container security is handled with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfilesecuritya">GetFileSecurity</a>.
+The <i>dwFlags</i> parameter is used to pass in the <b>SECURITY_INFORMATION</b> bit flags that indicate the requested security information. The pointer to the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> is returned in the <i>pbData</i> parameter and the length of the security descriptor is returned in the <i>pdwDataLen</i> parameter. Key-container security is handled with 
+<a href="/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a> and 
+<a href="/windows/desktop/api/winbase/nf-winbase-getfilesecuritya">GetFileSecurity</a>.
 
 
 The class of an algorithm enumerated with <i>dwParam</i> set to PP_ENUMALGS or PP_ENUMALGS_EX can be determined. This might be done to display a list of encryption algorithms supported and to disregard the rest. The <b>GET_ALG_CLASS(</b><i>x</i><b>)</b> macro takes an algorithm identifier as an argument and returns a code indicating the general class of that algorithm. Possible return values include:
@@ -824,42 +808,42 @@ The following table lists the algorithms supported by the Microsoft Base Cryptog
 </tr>
 <tr>
 <td>"MD2"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_MD2</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_MD2</a></td>
 <td>ALG_CLASS_HASH</td>
 </tr>
 <tr>
 <td>"MD5"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_MD5</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_MD5</a></td>
 <td>ALG_CLASS_HASH</td>
 </tr>
 <tr>
 <td>"SHA"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_SHA</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_SHA</a></td>
 <td>ALG_CLASS_HASH</td>
 </tr>
 <tr>
 <td>"MAC"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_MAC</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_MAC</a></td>
 <td>ALG_CLASS_HASH</td>
 </tr>
 <tr>
 <td>"RSA_SIGN"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_RSA_SIGN</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_RSA_SIGN</a></td>
 <td>ALG_CLASS_SIGNATURE</td>
 </tr>
 <tr>
 <td>"RSA_KEYX"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_RSA_KEYX</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_RSA_KEYX</a></td>
 <td>ALG_CLASS_KEY_EXCHANGE</td>
 </tr>
 <tr>
 <td>"RC2"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_RC2</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_RC2</a></td>
 <td>ALG_CLASS_DATA_ENCRYPT</td>
 </tr>
 <tr>
 <td>"RC4"</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CALG_RC4</a></td>
+<td><a href="/windows/desktop/SecGloss/c-gly">CALG_RC4</a></td>
 <td>ALG_CLASS_DATA_ENCRYPT</td>
 </tr>
 </table>
@@ -873,9 +857,9 @@ Applications must not use an algorithm with an algorithm identifier that is not 
 #### Examples
 
 The following example shows finding the name of the CSP associated with a cryptographic service provider handle and the name of the key container associated with the handle. For the complete context for this example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-using-cryptacquirecontext">Example C Program: Using CryptAcquireContext</a>. 
+<a href="/windows/desktop/SecCrypto/example-c-program-using-cryptacquirecontext">Example C Program: Using CryptAcquireContext</a>. 
 
-For another example that  uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-enumerating-csp-providers-and-provider-types">Example C Program: Enumerating CSP Providers and Provider Types</a>.
+For another example that  uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-enumerating-csp-providers-and-provider-types">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
 
 ```cpp
@@ -931,45 +915,34 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">Absolute and Self-Relative Security Descriptors</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptderivekey">CryptDeriveKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>

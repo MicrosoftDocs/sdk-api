@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.ImportSnapshots
 title: IVssBackupComponents::ImportSnapshots (vsbackup.h)
 description: Imports shadow copies transported from a different machine.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","ImportSnapshots method","IVssBackupComponents.ImportSnapshots","IVssBackupComponents::ImportSnapshots","ImportSnapshots","ImportSnapshots method [VSS]","ImportSnapshots method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_importsnapshots","base.ivssbackupcomponents_importsnapshots","vsbackup/IVssBackupComponents::ImportSnapshots"]
 old-location: base\ivssbackupcomponents_importsnapshots.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 7f28c841-5448-4ed7-b76e-0aa5376fd8bf
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],ImportSnapshots method, IVssBackupComponents.ImportSnapshots, IVssBackupComponents::ImportSnapshots, ImportSnapshots, ImportSnapshots method [VSS], ImportSnapshots method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_importsnapshots, base.ivssbackupcomponents_importsnapshots, vsbackup/IVssBackupComponents::ImportSnapshots
-f1_keywords:
-- vsbackup/IVssBackupComponents.ImportSnapshots
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.ImportSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::ImportSnapshots
+ - vsbackup/IVssBackupComponents::ImportSnapshots
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.ImportSnapshots
 ---
 
 # IVssBackupComponents::ImportSnapshots
@@ -49,27 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ImportSnapshots</b> method 
     imports shadow copies transported from a different machine.<div class="alert"><b>Note</b>  This method is supported only on Windows Server operating systems and for Volume Shadow Copy Service  hardware providers.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param ppAsync [out]
 
-Doubly indirect pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object 
+Doubly indirect pointer to an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object 
       containing the imported shadow copy status data.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -86,8 +79,8 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to the reference page for 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the error codes 
+        <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to the reference page for 
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the error codes 
         returned in the <i>pHrResult</i> parameter.
 
 </td>
@@ -146,66 +139,51 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Only one shadow copy can be imported at a time. 
 
 The requester is responsible for serializing the import shadow copy operation.
 
-The caller is responsible for releasing the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> 
+The caller is responsible for releasing the <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> 
     interface.
 
 For more information on importing shadow copies, see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/importing-transportable-shadow-copied-volumes">Importing Transportable Shadow 
+    <a href="/windows/desktop/VSS/importing-transportable-shadow-copied-volumes">Importing Transportable Shadow 
     Copied Volumes</a>.
 
 <b>Transportable shadow copies in a cluster:  </b>For details about using transportable shadow copies in a cluster, see 
-     <a href="https://docs.microsoft.com/windows/desktop/VSS/fast-recovery-using-transportable-shadow-copied-volumes">Fast Recovery Using 
+     <a href="/windows/desktop/VSS/fast-recovery-using-transportable-shadow-copied-volumes">Fast Recovery Using 
      Transportable Shadow Copied Volumes</a>. The transportable shadow copy must be 
      imported from outside the cluster as long as the original volume is mounted within the cluster.
 
-<div class="alert"><b>Note</b>   If the shadow copy import fails, the Volume Shadow Copy Service won't clean up LUNs on it's own. The requester has to initiate the cleanup of LUNs.</div>
+<div class="alert"><b>Note</b>   If the shadow copy import fails, the Volume Shadow Copy Service won't clean up LUNs on its own. The requester has to initiate the cleanup of LUNs.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">IVssBackupComponents::InitializeForBackup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">IVssBackupComponents::InitializeForBackup</a>

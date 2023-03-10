@@ -2,15 +2,12 @@
 UID: NF:winsync.IChangeConflict.SetResolveActionForChangeUnit
 title: IChangeConflict::SetResolveActionForChangeUnit (winsync.h)
 description: Sets a conflict resolution action for the conflicting change unit change.
+helpviewer_keywords: ["IChangeConflict interface [Windows Sync]","SetResolveActionForChangeUnit method","IChangeConflict.SetResolveActionForChangeUnit","IChangeConflict::SetResolveActionForChangeUnit","SetResolveActionForChangeUnit","SetResolveActionForChangeUnit method [Windows Sync]","SetResolveActionForChangeUnit method [Windows Sync]","IChangeConflict interface","winsync.ichangeconflict_setresolveactionforchangeunit","winsync/IChangeConflict::SetResolveActionForChangeUnit"]
 old-location: winsync\ichangeconflict_setresolveactionforchangeunit.htm
 tech.root: winsync
 ms.assetid: 8594a888-21a1-4cfb-964c-9c670e3a7438
 ms.date: 12/05/2018
 ms.keywords: IChangeConflict interface [Windows Sync],SetResolveActionForChangeUnit method, IChangeConflict.SetResolveActionForChangeUnit, IChangeConflict::SetResolveActionForChangeUnit, SetResolveActionForChangeUnit, SetResolveActionForChangeUnit method [Windows Sync], SetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, winsync.ichangeconflict_setresolveactionforchangeunit, winsync/IChangeConflict::SetResolveActionForChangeUnit
-f1_keywords:
-- winsync/IChangeConflict.SetResolveActionForChangeUnit
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeConflict.SetResolveActionForChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeConflict::SetResolveActionForChangeUnit
+ - winsync/IChangeConflict::SetResolveActionForChangeUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeConflict.SetResolveActionForChangeUnit
 ---
 
 # IChangeConflict::SetResolveActionForChangeUnit
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets a conflict resolution action for the conflicting change unit change.
 
-
 ## -parameters
-
-
-
 
 ### -param pChangeUnit [in]
 
 The change unit for which to set the conflict resolution action.
 
-
 ### -param resolveAction [in]
 
 The conflict resolution action to set for <i>pChangeUnit</i>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,37 +105,21 @@ When the conflict is an update-delete conflict, or when no conflict exists.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Be aware that setting the conflict resolution action for a change unit on an update-delete conflict is not valid, because this type of conflict must be resolved at the item level.
 
-By setting this action in an event handler for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">ISyncCallback::OnConflict</a>, the event handler specifies how the change applier should handle the conflict.
-
-
-
+By setting this action in an event handler for <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">ISyncCallback::OnConflict</a>, the event handler specifies how the change applier should handle the conflict.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeconflict">IChangeConflict Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">ISyncCallback::OnConflict Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onconflict">ISyncCallback::OnConflict Method</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
- 
-
- 
-
+<a href="/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>

@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler (uiautomationclient.h)
 description: Registers a method (in an event handler group) that handles when the active text position changes.
+helpviewer_keywords: ["AddActiveTextPositionChangedEventHandler","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method [Windows Accessibility]","IUIAutomationEventHandlerGroup interface","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","AddActiveTextPositionChangedEventHandler method","IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler","IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler","uiautomationclient/IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler","winauto.uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: D3A09F61-5536-409E-BFA2-63D6E4A774A2
 ms.date: 12/05/2018
 ms.keywords: AddActiveTextPositionChangedEventHandler, AddActiveTextPositionChangedEventHandler method [Windows Accessibility], AddActiveTextPositionChangedEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddActiveTextPositionChangedEventHandler method, IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler, IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler, winauto.uiauto_IUIAutomationEventHandlerGroup_AddActiveTextPositionChangedEventHandler
-f1_keywords:
-- uiautomationclient/IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler
+ - uiautomationclient/IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationEventHandlerGroup.AddActiveTextPositionChangedEventHandler
 ---
 
 # IUIAutomationEventHandlerGroup::AddActiveTextPositionChangedEventHandler
@@ -48,47 +50,30 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
-Registers a method (in an event handler group) that handles when the active text position changes.<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a> namespaces.</div>
+Registers a method (in an event handler group) that handles when the active text position changes.<div class="alert"><b>Important</b>  Microsoft UI Automation clients should use the handler group methods to register event listeners instead of individual event registration methods defined in the various <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a> namespaces.</div>
 <div> </div>
-
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and descendants.
-
 
 ### -param cacheRequest [in]
 
 A pointer to a cache request, or <b>NULL</b> if no caching is wanted.
 
-
 ### -param handler [in]
 
 A pointer to the object that handles the active text position changed event.
 
-
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Before implementing an event handler, you should be familiar with the threading issues described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
+Before implementing an event handler, you should be familiar with the threading issues described in <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>.
 
 Active text position is indicated by a navigation event within or between read-only text elements (such as web browsers, Portable Document Format (PDF) documents, or <a href="https://en.wikipedia.org/wiki/EPUB">EPUB</a> documents) using  bookmarks (or fragment identifiers to refer to a location within a resource). Examples include:
 
@@ -105,18 +90,8 @@ is invoked, the visual location is updated, but the UI Automation client remains
 
 Similarly, activating a new page URI (with a fragment identifier: (<code>&lt;a href=”www.blah.com#C4”&gt;Jump to Chapter 4&lt;/a&gt;</code>)) loads the new page and jumps to the specified bookmark, but leaves the UI Automation clients   at the top of the page.
 
-For editable text elements, such as <a href="https://docs.microsoft.com/windows/desktop/controls/edit-controls">Edit</a> and <a href="https://docs.microsoft.com/windows/desktop/controls/rich-edit-controls">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
-
-
-
+For editable text elements, such as <a href="/windows/desktop/controls/edit-controls">Edit</a> and <a href="/windows/desktop/controls/rich-edit-controls">Rich Edit</a> controls,  you can listen for a SelectionChanged event.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationeventhandlergroup">IUIAutomationEventHandlerGroup</a>

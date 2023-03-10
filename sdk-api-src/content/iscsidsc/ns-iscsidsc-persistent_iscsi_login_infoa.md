@@ -1,16 +1,13 @@
 ---
-UID: NS:iscsidsc.__unnamed_struct_23
+UID: NS:iscsidsc.PERSISTENT_ISCSI_LOGIN_INFOA
 title: PERSISTENT_ISCSI_LOGIN_INFOA (iscsidsc.h)
-description: PERSISTENT_ISCSI_LOGIN_INFO structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up.
+description: PERSISTENT_ISCSI_LOGIN_INFO structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up. (ANSI)
+helpviewer_keywords: ["*PPERSISTENT_ISCSI_LOGIN_INFOA","ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED","ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED","ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED","ISCSI_SECURITY_FLAG_PFS_ENABLED","ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED","ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED","ISCSI_SECURITY_FLAG_VALID","PERSISTENT_ISCSI_LOGIN_INFO","PERSISTENT_ISCSI_LOGIN_INFO structure [iSCSI Discovery Library API]","PERSISTENT_ISCSI_LOGIN_INFOA","PERSISTENT_ISCSI_LOGIN_INFOW","PPERSISTENT_ISCSI_LOGIN_INFO","PPERSISTENT_ISCSI_LOGIN_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.persistent_iscsi_login_info","iscsidsc/PERSISTENT_ISCSI_LOGIN_INFO","iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOA","iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOW","iscsidsc/PPERSISTENT_ISCSI_LOGIN_INFO"]
 old-location: iscsidisc\persistent_iscsi_login_info.htm
 tech.root: iSCSIDisc
 ms.assetid: adfd57fb-18dc-440f-988e-f2c01698d987
 ms.date: 12/05/2018
 ms.keywords: '*PPERSISTENT_ISCSI_LOGIN_INFOA, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, PERSISTENT_ISCSI_LOGIN_INFO, PERSISTENT_ISCSI_LOGIN_INFO structure [iSCSI Discovery Library API], PERSISTENT_ISCSI_LOGIN_INFOA, PERSISTENT_ISCSI_LOGIN_INFOW, PPERSISTENT_ISCSI_LOGIN_INFO, PPERSISTENT_ISCSI_LOGIN_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.persistent_iscsi_login_info, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFO, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOA, iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOW, iscsidsc/PPERSISTENT_ISCSI_LOGIN_INFO'
-f1_keywords:
-- iscsidsc/PERSISTENT_ISCSI_LOGIN_INFO
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iscsidsc.h
-api_name:
-- PERSISTENT_ISCSI_LOGIN_INFO
-- PERSISTENT_ISCSI_LOGIN_INFOA
-- PERSISTENT_ISCSI_LOGIN_INFOW
 targetos: Windows
 req.typenames: PERSISTENT_ISCSI_LOGIN_INFOA, *PPERSISTENT_ISCSI_LOGIN_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PPERSISTENT_ISCSI_LOGIN_INFOA
+ - iscsidsc/PPERSISTENT_ISCSI_LOGIN_INFOA
+ - PERSISTENT_ISCSI_LOGIN_INFOA
+ - iscsidsc/PERSISTENT_ISCSI_LOGIN_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iscsidsc.h
+api_name:
+ - PERSISTENT_ISCSI_LOGIN_INFO
+ - PERSISTENT_ISCSI_LOGIN_INFOA
+ - PERSISTENT_ISCSI_LOGIN_INFOW
 ---
 
 # PERSISTENT_ISCSI_LOGIN_INFOA structure
@@ -50,43 +54,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PERSISTENT_ISCSI_LOGIN_INFO</b> structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up.
 
-
 ## -struct-fields
-
-
-
 
 ### -field TargetName
 
 A string representing the name of the target the initiator will login to.
 
-
 ### -field IsInformationalSession
 
 If set <b>TRUE</b>, the login session is for informational purposes only and will not result in the enumeration of the specified target on the local computer. For an informational login session, the LUNs on the target are not reported to the Plug and Play Manager and the device drivers for the target are not loaded.
 
-A management application can still access targets not enumerated by the system via the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsiinquiry">SendScsiInquiry</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a>, and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireadcapacity">SendScsiReadCapcity</a> functions.
+A management application can still access targets not enumerated by the system via the <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsiinquiry">SendScsiInquiry</a>, <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a>, and <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireadcapacity">SendScsiReadCapcity</a> functions.
 
 If set <b>FALSE</b>, the LUNs on the target are reported to the Plug and Play manager for enumeration.
-
 
 ### -field InitiatorInstance
 
 A string representing the name of the initiator used to login to the target.
 
-
 ### -field InitiatorPortNumber
 
 The port number of the Host-Bus Adapter (HBA) through which the session login is established. A value of <b>ISCSI_ANY_INITIATOR_PORT</b> indicates that a port on the initiator is not currently specified.
 
-
 ### -field TargetPortal
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> structure that describes the portal used by the Microsoft iSCSI initiator service to log on to the target.
-
+A <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> structure that describes the portal used by the Microsoft iSCSI initiator service to log on to the target.
 
 ### -field SecurityFlags
 
@@ -168,55 +162,47 @@ The other mask values are valid; otherwise, security flags are not specified.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Mappings
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a> structure that contains information about a target, its logical units, HBAs, and buses through which it is reached.
-
+A pointer to a <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a> structure that contains information about a target, its logical units, HBAs, and buses through which it is reached.
 
 ### -field LoginOptions
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> structure that contains the persistent login characteristics.
-
+An <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> structure that contains the persistent login characteristics.
 
 ## -remarks
 
+The <b>PERSISTENT_ISCSI_LOGIN_INFO</b> structure is used in conjunction with the <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsipersistentloginsa">ReportIScsiPersistentLogins</a> function to retrieve the list of targets for which the Microsoft Discovery Service (iscsiexe.exe) automatically opens a login session after the machine boots up.
 
 
-The <b>PERSISTENT_ISCSI_LOGIN_INFO</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsipersistentloginsa">ReportIScsiPersistentLogins</a> function to retrieve the list of targets for which the Microsoft Discovery Service (iscsiexe.exe) automatically opens a login session after the machine boots up.
 
 
 
+> [!NOTE]
+> The iscsidsc.h header defines PERSISTENT_ISCSI_LOGIN_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsipersistentloginsa">ReportIScsiPersistentLogins</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsipersistentloginsa">ReportIScsiPersistentLogins</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsiinquiry">SendScsiInquiry</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsiinquiry">SendScsiInquiry</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireadcapacity">SendScsiReadCapacity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireadcapacity">SendScsiReadCapacity</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a>
 

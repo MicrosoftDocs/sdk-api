@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSession.GetSessionCapabilities
 title: IMFMediaSession::GetSessionCapabilities (mfidl.h)
 description: Retrieves the capabilities of the Media Session, based on the current presentation.
+helpviewer_keywords: ["3534cfb9-23ff-42a6-a3db-b5032d427cf2","GetSessionCapabilities","GetSessionCapabilities method [Media Foundation]","GetSessionCapabilities method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","GetSessionCapabilities method","IMFMediaSession.GetSessionCapabilities","IMFMediaSession::GetSessionCapabilities","MFSESSIONCAP_PAUSE","MFSESSIONCAP_RATE_FORWARD","MFSESSIONCAP_RATE_REVERSE","MFSESSIONCAP_SEEK","MFSESSIONCAP_START","mf.imfmediasession_getsessioncapabilities","mfidl/IMFMediaSession::GetSessionCapabilities"]
 old-location: mf\imfmediasession_getsessioncapabilities.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 3534cfb9-23ff-42a6-a3db-b5032d427cf2
 ms.date: 12/05/2018
 ms.keywords: 3534cfb9-23ff-42a6-a3db-b5032d427cf2, GetSessionCapabilities, GetSessionCapabilities method [Media Foundation], GetSessionCapabilities method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetSessionCapabilities method, IMFMediaSession.GetSessionCapabilities, IMFMediaSession::GetSessionCapabilities, MFSESSIONCAP_PAUSE, MFSESSIONCAP_RATE_FORWARD, MFSESSIONCAP_RATE_REVERSE, MFSESSIONCAP_SEEK, MFSESSIONCAP_START, mf.imfmediasession_getsessioncapabilities, mfidl/IMFMediaSession::GetSessionCapabilities
-f1_keywords:
-- mfidl/IMFMediaSession.GetSessionCapabilities
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSession.GetSessionCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSession::GetSessionCapabilities
+ - mfidl/IMFMediaSession::GetSessionCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSession.GetSessionCapabilities
 ---
 
 # IMFMediaSession::GetSessionCapabilities
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the capabilities of the Media Session, based on the current presentation.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwCaps [out]
 
@@ -121,12 +115,8 @@ The Media Session can be started.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -169,18 +159,7 @@ The Media Session has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>

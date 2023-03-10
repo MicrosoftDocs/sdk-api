@@ -1,16 +1,13 @@
 ---
 UID: NS:tcpmib._MIB_TCPROW_W2K
 title: MIB_TCPROW_W2K (tcpmib.h)
-description: Contains information that descibes an IPv4 TCP connection.
+description: MIB_TCPROW_W2K (tcpmib.h) contains information that describes an IPv4 TCP connection.
+helpviewer_keywords: ["*PMIB_TCPROW","*PMIB_TCPROW_W2K","MIB_TCPROW","MIB_TCPROW structure [MIB]","MIB_TCPROW_LH","MIB_TCPROW_W2K","MIB_TCP_STATE_CLOSED","MIB_TCP_STATE_CLOSE_WAIT","MIB_TCP_STATE_CLOSING","MIB_TCP_STATE_DELETE_TCB","MIB_TCP_STATE_ESTAB","MIB_TCP_STATE_FIN_WAIT1","MIB_TCP_STATE_FIN_WAIT2","MIB_TCP_STATE_LAST_ACK","MIB_TCP_STATE_LISTEN","MIB_TCP_STATE_SYN_RCVD","MIB_TCP_STATE_SYN_SENT","MIB_TCP_STATE_TIME_WAIT","PMIB_TCPROW","PMIB_TCPROW structure pointer [MIB]","_mpr_mib_tcprow","iprtrmib/MIB_TCPROW","iprtrmib/PMIB_TCPROW","mib.mib_tcprow","rras.mib_tcprow","tcpmib/MIB_TCPROW","tcpmib/PMIB_TCPROW"]
 old-location: mib\mib_tcprow.htm
 tech.root: MIB
 ms.assetid: 36364854-caa8-4652-be8e-f741b36d9fd7
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: '*PMIB_TCPROW, *PMIB_TCPROW_W2K, MIB_TCPROW, MIB_TCPROW structure [MIB], MIB_TCPROW_LH, MIB_TCPROW_W2K, MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW, PMIB_TCPROW structure pointer [MIB], _mpr_mib_tcprow, iprtrmib/MIB_TCPROW, iprtrmib/PMIB_TCPROW, mib.mib_tcprow, rras.mib_tcprow, tcpmib/MIB_TCPROW, tcpmib/PMIB_TCPROW'
-f1_keywords:
-- tcpmib/MIB_TCPROW
-dev_langs:
-- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpmib.h
-- Iprtrmib.h
-api_name:
-- MIB_TCPROW
 targetos: Windows
 req.typenames: MIB_TCPROW_W2K, *PMIB_TCPROW_W2K
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_TCPROW_W2K
+ - tcpmib/_MIB_TCPROW_W2K
+ - PMIB_TCPROW_W2K
+ - tcpmib/PMIB_TCPROW_W2K
+ - MIB_TCPROW_W2K
+ - tcpmib/MIB_TCPROW_W2K
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_TCPROW
 ---
 
 # MIB_TCPROW_W2K structure
@@ -49,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_TCPROW</b> structure contains information that descibes an IPv4 TCP connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwState
 
@@ -66,7 +67,7 @@ Type: <b>DWORD</b>
 The state of the TCP connection. This member can be one of the values defined in the <i>Iprtrmib.h</i> header file.
 					
 
-On the Windows SDK released for Windows Vistaand later, the organization of header files has changed. This member can be one of the values from the <b>MIB_TCP_STATE</b> enumeration defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed. This member can be one of the values from the <b>MIB_TCP_STATE</b> enumeration defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 <table>
 <tr>
@@ -222,8 +223,6 @@ The TCP connection is in the delete TCB state that represents the deletion of th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwLocalAddr
 
@@ -231,22 +230,19 @@ Type: <b>DWORD</b>
 
 The local IPv4 address for the TCP connection on the local computer. A value of zero indicates the listener  can accept a connection on any interface.
 
-
 ### -field dwLocalPort
 
 Type: <b>DWORD</b>
 
 The local port number in network byte order for the TCP connection on the local computer.
 
- The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data. 
-
+ The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data.
 
 ### -field dwRemoteAddr
 
 Type: <b>DWORD</b>
 
 The IPv4 address for the TCP connection on the remote computer. When the <b>dwState</b> member is <b>MIB_TCP_STATE_LISTEN</b>, this value has no meaning.
-
 
 ### -field dwRemotePort
 
@@ -256,14 +252,11 @@ The remote port number in network byte order for the TCP connection on the remot
 
 The maximum size of an IP port number is 16 bits, so only the lower 16 bits should be used. The upper 16 bits may contain uninitialized data.
 
-
 ## -remarks
 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a> function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a> structure. 
 
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>function retrieves the IPv4 TCP connection table on the local computer and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a> structure. 
-
-An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-settcpentry">SetTcpEntry</a> function.
+An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b> structure. The <b>MIB_TCPROW</b> structure is also used by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-settcpentry">SetTcpEntry</a> function.
 
   The <b>dwState</b> member indicates the state of the TCP entry in a TCP state diagram. A TCP connection progresses through a series of states during its
   lifetime.  The states are:  LISTEN, SYN-SENT, SYN-RECEIVED,
@@ -271,13 +264,13 @@ An array of <b>MIB_TCPROW</b> structures are contained in the <b>MIB_TCPTABLE</b
   TIME-WAIT, and the fictional state CLOSED.  The CLOSED state is fictional
   because it represents the state when there is no Transmission Control Block, and therefore,
   no connection.  The TCP protocol is described in RFC 793. For more information, see 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84069">http://www.ietf.org/rfc/rfc793.txt</a>. 
+<a href="https://www.ietf.org/rfc/rfc793.txt">http://www.ietf.org/rfc/rfc793.txt</a>. 
 
-The <b>dwLocalAddr</b> and <b>dwRemoteAddr</b> members are stored as a <b>DWORD</b> in the same format as the  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure. In order to use the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. On Windows Vistaand later, the <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a> functions may be used to convert the IPv4 address in the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
+The <b>dwLocalAddr</b> and <b>dwRemoteAddr</b> members are stored as a <b>DWORD</b> in the same format as the  <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure. In order to use the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members, the <a href="/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a> or <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. On Windows Vista and later, the <a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a> or <a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a> functions may be used to convert the IPv4 address in the <b>dwLocalAddr</b> or <b>dwRemoteAddr</b> members to a string without loading the Windows Sockets DLL. 
 
-The <b>dwLocalPort</b>, and <b>dwRemotePort</b> members are in network byte order. In order to use the <b>dwLocalPort</b> or <b>dwRemotePort</b> members, the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. 
+The <b>dwLocalPort</b>, and <b>dwRemotePort</b> members are in network byte order. In order to use the <b>dwLocalPort</b> or <b>dwRemotePort</b> members, the <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a> or <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions in Windows Sockets or similar functions may be needed. 
 
-The <b>MIB_TCPROW</b> structure changed slightly on Windows Vista and later. On Windows Vistaand later, the <b>dwState</b> member is replaced by  a union that contains the following members.
+The <b>MIB_TCPROW</b> structure changed slightly on Windows Vista and later. On Windows Vista and later, the <b>dwState</b> member is replaced by  a union that contains the following members.
 
 
 
@@ -311,7 +304,7 @@ The state of the TCP connection. This member can be one of the values from the <
 
 In the Windows SDK, the version of the structure for use on Windows Vista and later is  defined as <b>MIB_TCPROW_LH</b>. In the Windows SDK, the version of this structure to be used on earlier systems including Windows 2000 and later is defined as <b>MIB_TCPROW_W2K</b>. When compiling an application if the target platform is Windows Vista and later (<code>NTDDI_VERSION &gt;= NTDDI_LONGHORN</code>, <code>_WIN32_WINNT &gt;= 0x0600</code>, or <code>WINVER &gt;= 0x0600</code>), the <b>MIB_TCPROW_LH</b> structure is typedefed to the <b>MIB_TCPROW</b> structure. When compiling an application if the target platform is not Windows Vista and later, the <b>MIB_TCPROW_W2K</b> structure is typedefed to the <b>MIB_TCPROW</b> structure. 
 
-On the Windows SDK released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
+On the Windows SDK released for Windows Vista and later, the organization of header files has changed. This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 
 #### Examples
@@ -447,32 +440,25 @@ int main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table">GetTcp6Table</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcp6table2">GetTcp6Table2</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable">GetTcpTable</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable2">GetTcpTable2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcptable2">GetTcpTable2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6row">MIB_TCP6ROW</a>
 
 
 
@@ -480,52 +466,48 @@ int main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table">MIB_TCP6TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcp6table2">MIB_TCP6TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcprow2">MIB_TCPROW2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable">MIB_TCPTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
+<a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-settcpentry">SetTcpEntry</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-settcpentry">SetTcpEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-ntohl">ntohl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>

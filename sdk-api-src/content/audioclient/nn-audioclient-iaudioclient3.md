@@ -1,16 +1,13 @@
 ---
 UID: NN:audioclient.IAudioClient3
 title: IAudioClient3 (audioclient.h)
-description: The IAudioClient3 interface is derived from the IAudioClient2 interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
+description: The IAudioClient3 interface is derived from the IAudioClient2 interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization of a shared audio stream with a specified periodicity.
+helpviewer_keywords: ["IAudioClient3","IAudioClient3 interface [Core Audio]","IAudioClient3 interface [Core Audio]","described","audioclient/IAudioClient3","coreaudio.iaudioclient3"]
 old-location: coreaudio\iaudioclient3.htm
 tech.root: CoreAudio
 ms.assetid: E8EFE682-E1BC-4D0D-A60E-DD257D6E5894
 ms.date: 12/05/2018
 ms.keywords: IAudioClient3, IAudioClient3 interface [Core Audio], IAudioClient3 interface [Core Audio],described, audioclient/IAudioClient3, coreaudio.iaudioclient3
-f1_keywords:
-- audioclient/IAudioClient3
-dev_langs:
-- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- audioclient.h
-api_name:
-- IAudioClient3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAudioClient3
+ - audioclient/IAudioClient3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - audioclient.h
+api_name:
+ - IAudioClient3
 ---
 
 # IAudioClient3 interface
@@ -48,66 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IAudioClient3</b> interface is derived from the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization a shared audio stream with a specified periodicity.
-
+The <b>IAudioClient3</b> interface is derived from the <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a> interface, with a set of additional methods that enable a Windows Audio Session API (WASAPI) audio client to query for the audio engine's supported periodicities and current periodicity as well as request initialization of a shared audio stream with a specified periodicity.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioClient3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>. <b>IAudioClient3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IAudioClient3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getcurrentsharedmodeengineperiod">GetCurrentSharedModeEnginePeriod</a>
-</td>
-<td align="left" width="63%">
-Returns the current format and periodicity of the audio engine.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod">GetSharedModeEnginePeriod</a>
-</td>
-<td align="left" width="63%">
-Returns the range of periodicities supported by the engine for the specified stream format.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient3-initializesharedaudiostream">InitializeSharedAudioStream</a>
-</td>
-<td align="left" width="63%">
-Initializes a shared stream with the specified periodicity.
-
-</td>
-</tr>
-</table> 
-
+The <b>IAudioClient3</b> interface inherits from <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>. <b>IAudioClient3</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>

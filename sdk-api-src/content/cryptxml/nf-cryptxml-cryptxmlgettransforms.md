@@ -2,15 +2,12 @@
 UID: NF:cryptxml.CryptXmlGetTransforms
 title: CryptXmlGetTransforms function (cryptxml.h)
 description: Returns information about the default transform chain engine.
+helpviewer_keywords: ["CryptXmlGetTransforms","CryptXmlGetTransforms function [Security]","cryptxml/CryptXmlGetTransforms","security.cryptxmlgettransforms"]
 old-location: security\cryptxmlgettransforms.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 676f5216-70bd-455d-9e08-230b2599e166
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], cryptxml/CryptXmlGetTransforms, security.cryptxmlgettransforms
-f1_keywords:
-- cryptxml/CryptXmlGetTransforms
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptxml.dll
-api_name:
-- CryptXmlGetTransforms
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlGetTransforms
+ - cryptxml/CryptXmlGetTransforms
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptxml.dll
+api_name:
+ - CryptXmlGetTransforms
 ---
 
 # CryptXmlGetTransforms function
@@ -48,27 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptXmlGetTransforms</b> function returns information about the default transform chain engine.
-
 
 ## -parameters
 
-
-
-
 ### -param ppConfig [out]
 
-A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_chain_config">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
-
+A pointer to a pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_chain_config">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure to receive the returned transform information.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:shellapi.SHGetNewLinkInfoW
 title: SHGetNewLinkInfoW function (shellapi.h)
-description: Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name.
+description: Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name. (Unicode)
+helpviewer_keywords: ["SHGNLI_NOLNK", "SHGNLI_NOLOCNAME", "SHGNLI_NOUNIQUE", "SHGNLI_PIDL", "SHGNLI_PREFIXNAME", "SHGNLI_USEURLEXT", "SHGetNewLinkInfo", "SHGetNewLinkInfo function [Windows Shell]", "SHGetNewLinkInfoW", "_win32_SHGetNewLinkInfo", "shell.SHGetNewLinkInfo", "shellapi/SHGetNewLinkInfo", "shellapi/SHGetNewLinkInfoW"]
 old-location: shell\SHGetNewLinkInfo.htm
 tech.root: shell
 ms.assetid: ca658d5c-af7b-400c-8f4d-7d4b07bf7f2b
 ms.date: 12/05/2018
 ms.keywords: SHGNLI_NOLNK, SHGNLI_NOLOCNAME, SHGNLI_NOUNIQUE, SHGNLI_PIDL, SHGNLI_PREFIXNAME, SHGNLI_USEURLEXT, SHGetNewLinkInfo, SHGetNewLinkInfo function [Windows Shell], SHGetNewLinkInfoA, SHGetNewLinkInfoW, _win32_SHGetNewLinkInfo, shell.SHGetNewLinkInfo, shellapi/SHGetNewLinkInfo, shellapi/SHGetNewLinkInfoA, shellapi/SHGetNewLinkInfoW
-f1_keywords:
-- shellapi/SHGetNewLinkInfo
-dev_langs:
-- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHGetNewLinkInfo
-- SHGetNewLinkInfoA
-- SHGetNewLinkInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetNewLinkInfoW
+ - shellapi/SHGetNewLinkInfoW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHGetNewLinkInfo
+ - SHGetNewLinkInfoA
+ - SHGetNewLinkInfoW
 ---
 
 # SHGetNewLinkInfoW function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a name for a new shortcut based on the shortcut's proposed target. This function does not create the shortcut, just the name.
 
-
 ## -parameters
-
-
-
 
 ### -param pszLinkTo [in]
 
@@ -65,13 +62,11 @@ Type: <b>LPCTSTR</b>
 
 A pointer to the path and file name of the shortcut's target. If <i>uFlags</i> does not contain the <b>SHGNLI_PIDL</b> value, this parameter is the address of a null-terminated string that contains the target. If <i>uFlags</i> contains the <b>SHGNLI_PIDL</b> value, this parameter is a PIDL that represents the target.
 
-
 ### -param pszDir [in]
 
 Type: <b>LPCTSTR</b>
 
 A pointer to a null-terminated string that contains the path of the folder in which the shortcut would be created.
-
 
 ### -param pszName [out]
 
@@ -79,13 +74,11 @@ Type: <b>LPTSTR</b>
 
 A pointer to a string that receives the null-terminated path and file name for the shortcut. This buffer is assumed to be at least MAX_PATH characters in size.
 
-
 ### -param pfMustCopy [out]
 
 Type: <b>BOOL*</b>
 
 The address of a <b>BOOL</b> value that receives a flag indicating whether the shortcut would be copied. When a shortcut to another shortcut is created, the Shell simply copies the target shortcut and modifies that copied shortcut appropriately. This parameter receives a nonzero value if the target specified in <i>pszLinkTo</i> specifies a shortcut that will cause the target shortcut to be copied. This parameter receives zero if the target does not specify a shortcut that would be copied.
-
 
 ### -param uFlags [in]
 
@@ -115,7 +108,7 @@ The options for the function. This can be zero or a combination of the following
 
 #### SHGNLI_NOLNK (0x000000008)
 
-0x000000008. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
+0x000000008. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
 
 
 
@@ -132,7 +125,7 @@ The options for the function. This can be zero or a combination of the following
 
 ##### - uFlags.SHGNLI_NOLNK (0x000000008)
 
-0x000000008. <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
+0x000000008. <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a> Do not add the .lnk file name extension. You must set the <b>_WIN32_IE</b> macro to 5.01 or greater to use this flag. For more information about versioning, see Shell and Common Controls Versions.
 
 
 ##### - uFlags.SHGNLI_NOLOCNAME (0x000000010)
@@ -159,23 +152,18 @@ The options for the function. This can be zero or a combination of the following
 
 0x000000020. <b>Windows 7 and later</b>. Append a .url file name extension (rather than .lnk) to the name pointed to by <i>pszName</i>. If this flag is not set, the shortcut name uses a .lnk extension unless SHGNLI_NOLNK is set.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
-
-
-
 ## -remarks
-
-
 
 <b>SHGetNewLinkInfo</b> determines whether the destination file system supports long file names. If it does, a long file name is used for the shortcut name. If the destination file system does not support long file names, the shortcut name is returned in an 8.3 format.
 
 
 
+
+> [!NOTE]
+> The shellapi.h header defines SHGetNewLinkInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

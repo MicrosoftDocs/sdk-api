@@ -2,15 +2,12 @@
 UID: NE:wbemdisp.WbemAuthenticationLevelEnum
 title: WbemAuthenticationLevelEnum (wbemdisp.h)
 description: Define the security authentication levels.
+helpviewer_keywords: ["WbemAuthenticationLevelCall","WbemAuthenticationLevelConnect","WbemAuthenticationLevelDefault","WbemAuthenticationLevelEnum","WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation]","WbemAuthenticationLevelNone","WbemAuthenticationLevelPkt","WbemAuthenticationLevelPktIntegrity","WbemAuthenticationLevelPktPrivacy","_hmm_wbemauthenticationlevelenum","wbemdisp/WbemAuthenticationLevelCall","wbemdisp/WbemAuthenticationLevelConnect","wbemdisp/WbemAuthenticationLevelDefault","wbemdisp/WbemAuthenticationLevelEnum","wbemdisp/WbemAuthenticationLevelNone","wbemdisp/WbemAuthenticationLevelPkt","wbemdisp/WbemAuthenticationLevelPktIntegrity","wbemdisp/WbemAuthenticationLevelPktPrivacy","wmi.wbemauthenticationlevelenum"]
 old-location: wmi\wbemauthenticationlevelenum.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 1789b25a-e9a0-42a3-97c2-077e902a2f41
 ms.date: 12/05/2018
 ms.keywords: WbemAuthenticationLevelCall, WbemAuthenticationLevelConnect, WbemAuthenticationLevelDefault, WbemAuthenticationLevelEnum, WbemAuthenticationLevelEnum enumeration [Windows Management Instrumentation], WbemAuthenticationLevelNone, WbemAuthenticationLevelPkt, WbemAuthenticationLevelPktIntegrity, WbemAuthenticationLevelPktPrivacy, _hmm_wbemauthenticationlevelenum, wbemdisp/WbemAuthenticationLevelCall, wbemdisp/WbemAuthenticationLevelConnect, wbemdisp/WbemAuthenticationLevelDefault, wbemdisp/WbemAuthenticationLevelEnum, wbemdisp/WbemAuthenticationLevelNone, wbemdisp/WbemAuthenticationLevelPkt, wbemdisp/WbemAuthenticationLevelPktIntegrity, wbemdisp/WbemAuthenticationLevelPktPrivacy, wmi.wbemauthenticationlevelenum
-f1_keywords:
-- wbemdisp/WbemAuthenticationLevelEnum
-dev_langs:
-- c++
 req.header: wbemdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wbemdisp.h
-api_name:
-- WbemAuthenticationLevelEnum
 targetos: Windows
 req.typenames: WbemAuthenticationLevelEnum
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WbemAuthenticationLevelEnum
+ - wbemdisp/WbemAuthenticationLevelEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wbemdisp.h
+api_name:
+ - WbemAuthenticationLevelEnum
 ---
 
 # WbemAuthenticationLevelEnum enumeration
@@ -48,10 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WbemAuthenticationLevelEnum</b> constants define the security authentication levels. These constants are used with 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a> and in moniker connections to WMI.
+<a href="/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a> and in moniker connections to WMI.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library.
 
@@ -93,109 +94,83 @@ The following WSH script sets the authentication level. To run the script, save 
 ```
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.</li>
+<a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.</li>
 </ul>
 
 ## -enum-fields
 
+### -field wbemAuthenticationLevelDefault:0
 
+### -field wbemAuthenticationLevelNone:1
 
+### -field wbemAuthenticationLevelConnect:2
 
-### -field wbemAuthenticationLevelDefault
+### -field wbemAuthenticationLevelCall:3
 
+### -field wbemAuthenticationLevelPkt:4
 
-### -field wbemAuthenticationLevelNone
+### -field wbemAuthenticationLevelPktIntegrity:5
 
+### -field wbemAuthenticationLevelPktPrivacy:6
 
-### -field wbemAuthenticationLevelConnect
-
-
-### -field wbemAuthenticationLevelCall
-
-
-### -field wbemAuthenticationLevelPkt
-
-
-### -field wbemAuthenticationLevelPktIntegrity
-
-
-### -field wbemAuthenticationLevelPktPrivacy
-
-
-
-
-#### - WbemAuthenticationLevelCall
+### -field WbemAuthenticationLevelCall
 
 Short name: Call
 
 Authenticates only at the beginning of each call when the server receives the request.
 
-
-#### - WbemAuthenticationLevelConnect
+### -field WbemAuthenticationLevelConnect
 
 Short name: Connect
 
 Authenticates the credentials of the client only when the client establishes a relationship with the server.
 
-
-#### - WbemAuthenticationLevelDefault
+### -field WbemAuthenticationLevelDefault
 
 Short name: Default
 
 WMI uses the default Windows Authentication setting.
 
-
-#### - WbemAuthenticationLevelNone
+### -field WbemAuthenticationLevelNone
 
 Short name: None
 
 Uses no authentication.
 
-
-#### - WbemAuthenticationLevelPkt
+### -field WbemAuthenticationLevelPkt
 
 Short name: Pkt
 
 Authenticates that all data received is from the expected client.
 
-
-#### - WbemAuthenticationLevelPktIntegrity
+### -field WbemAuthenticationLevelPktIntegrity
 
 Short name: PktIntegrity
 
 Authenticates and verifies that none of the data transferred between client and server has been modified.
 
-
-#### - WbemAuthenticationLevelPktPrivacy
+### -field WbemAuthenticationLevelPktPrivacy
 
 Short name: PktPrivacy
 
 Authenticates all previous impersonation levels and encrypts the argument value of each remote procedure call.
 
-
 ## -see-also
 
+<a href="/windows/desktop/WmiSdk/constructing-a-moniker-string">Constructing a Moniker String</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/constructing-a-moniker-string">Constructing a Moniker String</a>
+<a href="/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemsecurity">SWbemSecurity</a>
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
+<a href="/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call-in-vbscript">Setting Security on an Asynchronous Call in VBScript</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call-in-vbscript">Setting Security on an Asynchronous Call in VBScript</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript">Setting the Default Process Security Level Using VBScript</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript">Setting the Default Process Security Level Using VBScript</a>

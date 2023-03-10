@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMIndexer2.Configure
 title: IWMIndexer2::Configure (wmsdkidl.h)
 description: The Configure method changes the internal settings of the indexer object.
+helpviewer_keywords: ["Configure","Configure method [windows Media Format]","Configure method [windows Media Format]","IWMIndexer2 interface","IWMIndexer2 interface [windows Media Format]","Configure method","IWMIndexer2.Configure","IWMIndexer2::Configure","IWMIndexer2Configure","wmformat.iwmindexer2_configure","wmsdkidl/IWMIndexer2::Configure"]
 old-location: wmformat\iwmindexer2_configure.htm
 tech.root: wmformat
 ms.assetid: b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86
 ms.date: 12/05/2018
 ms.keywords: Configure, Configure method [windows Media Format], Configure method [windows Media Format],IWMIndexer2 interface, IWMIndexer2 interface [windows Media Format],Configure method, IWMIndexer2.Configure, IWMIndexer2::Configure, IWMIndexer2Configure, wmformat.iwmindexer2_configure, wmsdkidl/IWMIndexer2::Configure
-f1_keywords:
-- wmsdkidl/IWMIndexer2.Configure
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMIndexer2.Configure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMIndexer2::Configure
+ - wmsdkidl/IWMIndexer2::Configure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMIndexer2.Configure
 ---
 
 # IWMIndexer2::Configure
@@ -51,27 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>Configure</b> method changes the internal settings of the indexer object. You can use <b>Configure</b> to activate frame-based indexing or SMPTE time code indexing. <b>Configure</b> does not create an index, it just configures the indexer object. After you have changed the desired settings, you must call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">IWMIndexer::StartIndexing</a> to create the index.
-
-
-
+The <b>Configure</b> method changes the internal settings of the indexer object. You can use <b>Configure</b> to activate frame-based indexing or SMPTE time code indexing. <b>Configure</b> does not create an index, it just configures the indexer object. After you have changed the desired settings, you must call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing">IWMIndexer::StartIndexing</a> to create the index.
 
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number for which an index is to be made. If you pass 0, all streams will be indexed.
 
-
 ### -param nIndexerType [in]
 
-A variable containing one member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_indexer_type">WMT_INDEXER_TYPE</a> enumeration type.
-
+A variable containing one member of the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_indexer_type">WMT_INDEXER_TYPE</a> enumeration type.
 
 ### -param pvInterval [in]
 
@@ -79,17 +71,13 @@ This void pointer must point to a <b>DWORD</b> containing the desired indexing i
 
 If you pass <b>NULL</b>, <b>Configure</b> will use the default value. For temporal indexes, the default value is 3000 milliseconds, for frame-based indexes it is 10 frames.
 
-
 ### -param pvIndexType [in]
 
-This void pointer must point to a <b>WORD</b> value containing one member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_index_type">WMT_INDEX_TYPE</a> enumeration type. If you pass <b>NULL</b>, <b>Configure</b> will use the default value.
+This void pointer must point to a <b>WORD</b> value containing one member of the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_index_type">WMT_INDEX_TYPE</a> enumeration type. If you pass <b>NULL</b>, <b>Configure</b> will use the default value.
 
 The default value is WMT_IT_NEAREST_CLEAN_POINT. Using another index type degrades seeking performance.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,29 +109,13 @@ The method is unable to add the stream number to its internal list.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can call <b>Configure</b> as many times as needed to configure multiple streams in a file. You must make all desired calls to <b>Configure</b> before you start indexing. If you configure and index a file that already has an index, the existing index will be deleted.
 
 If you configure the indexer to build a frame-based index, it will also create a temporal index. This is required for synchronizing audio and video.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2">IWMIndexer2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2">IWMIndexer2 Interface</a>

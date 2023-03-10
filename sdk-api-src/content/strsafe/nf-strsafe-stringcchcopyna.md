@@ -1,16 +1,13 @@
 ---
 UID: NF:strsafe.StringCchCopyNA
 title: StringCchCopyNA function (strsafe.h)
-description: Copies the specified number of characters from one string to another.
+description: Copies the specified number of characters from one string to another. (StringCchCopyNA)
+helpviewer_keywords: ["StringCchCopyNA", "strsafe/StringCchCopyNA"]
 old-location: menurc\stringcchcopyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopyn.htm
 ms.date: 12/05/2018
 ms.keywords: StringCchCopyN, StringCchCopyN function [Menus and Other Resources], StringCchCopyNA, StringCchCopyNW, _shell_StringCchCopyN, _shell_stringcchcopyn_cpp, menurc.stringcchcopyn, strsafe/StringCchCopyN, strsafe/StringCchCopyNA, strsafe/StringCchCopyNW, winui._shell_stringcchcopyn
-f1_keywords:
-- strsafe/StringCchCopyN
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCchCopyN
-- StringCchCopyNA
-- StringCchCopyNW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchCopyNA
+ - strsafe/StringCchCopyNA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCchCopyN
+ - StringCchCopyNA
+ - StringCchCopyNW
 ---
 
 # StringCchCopyNA function
@@ -50,18 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies the specified number of characters from one string to another. The size of the destination buffer is provided to the function to ensure that <b>StringCchCopyN</b> does not write past the end of this buffer.
 
 <b>StringCchCopyN</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192506">strncpy, wcsncpy, _tcsncpy</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strncpy-strncpy-l-wcsncpy-wcsncpy-l-mbsncpy-mbsncpy-l">strncpy, wcsncpy, _tcsncpy</a></li>
 </ul>
 
 ## -parameters
-
-
-
 
 ### -param pszDest [out]
 
@@ -69,13 +67,11 @@ Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the copied characters.
 
-
 ### -param cchDest [in]
 
 Type: <b>size_t</b>
 
 The size of <i>pszDest</i>, in characters. This value must be large enough to hold the copied characters (the length of <i>pszSrc</i> or the value of <i>cchSrc</i>, whichever is smaller) plus 1 to account for the terminating null character. The maximum number of characters allowed is <b>STRSAFE_MAX_CCH</b>.
-
 
 ### -param pszSrc [in]
 
@@ -83,21 +79,17 @@ Type: <b>LPCTSTR</b>
 
 The source string. This string must be readable up to <i>cchSrc</i> characters or a null terminator, whichever comes first.
 
-
 ### -param cchToCopy [in]
 
 Type: <b>size_t</b>
 
 The maximum number of characters to be copied from <i>pszSrc</i> to <i>pszDest</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -142,20 +134,15 @@ The copy operation failed due to insufficient buffer space. The destination buff
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
-
-
 
 <b>StringCchCopyN</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchCopyN</b> always null-terminates and never overflows a valid destination buffer, even if the contents of the source string change during the operation.
 
-While this routine is meant as a replacement for <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/xdsywd25(v=vs.100)">strncpy</a>, there are differences in behavior. If <i>cchSrc</i> is larger than the number of characters in <i>pszSrc</i>, <b>StringCchCopyN</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cchSrc</i> characters have been copied.
+While this routine is meant as a replacement for <a href="/previous-versions/visualstudio/visual-studio-2010/xdsywd25(v=vs.100)">strncpy</a>, there are differences in behavior. If <i>cchSrc</i> is larger than the number of characters in <i>pszSrc</i>, <b>StringCchCopyN</b>—unlike <b>strncpy</b>—does not continue to pad <i>pszDest</i> with null characters until <i>cchSrc</i> characters have been copied.
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchCopyN</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -186,25 +173,22 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
+
+> [!NOTE]
+> The strsafe.h header defines StringCchCopyN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcopyna">StringCbCopyN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">StringCchCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopynexa">StringCchCopyNEx</a>

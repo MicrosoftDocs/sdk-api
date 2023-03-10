@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceService.GetPnPServiceID
 title: IPortableDeviceService::GetPnPServiceID (portabledeviceapi.h)
 description: Retrieves a Plug and Play (PnP) identifier for the service.
+helpviewer_keywords: ["GetPnPServiceID","GetPnPServiceID method [Windows Portable Devices SDK]","GetPnPServiceID method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","GetPnPServiceID method","IPortableDeviceService.GetPnPServiceID","IPortableDeviceService::GetPnPServiceID","portabledeviceapi/IPortableDeviceService::GetPnPServiceID","wpdsdk.iportabledeviceservice_getpnpserviceid"]
 old-location: wpdsdk\iportabledeviceservice_getpnpserviceid.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: c73261a5-1436-4706-8d8b-ff8183429ac4
 ms.date: 12/05/2018
 ms.keywords: GetPnPServiceID, GetPnPServiceID method [Windows Portable Devices SDK], GetPnPServiceID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetPnPServiceID method, IPortableDeviceService.GetPnPServiceID, IPortableDeviceService::GetPnPServiceID, portabledeviceapi/IPortableDeviceService::GetPnPServiceID, wpdsdk.iportabledeviceservice_getpnpserviceid
-f1_keywords:
-- portabledeviceapi/IPortableDeviceService.GetPnPServiceID
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceService.GetPnPServiceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceService::GetPnPServiceID
+ - portabledeviceapi/IPortableDeviceService::GetPnPServiceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceService.GetPnPServiceID
 ---
 
 # IPortableDeviceService::GetPnPServiceID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetPnPServiceID</b> method retrieves a Plug and Play (PnP) identifier for the service.
-
 
 ## -parameters
 
-
-
-
 ### -param ppszPnPServiceID [out]
 
-The retrieved PnP identifier, which is the same identifier that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method.
-
+The retrieved PnP identifier, which is the same identifier that was passed to the <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -103,34 +97,18 @@ A <b>NULL</b> parameter was specified.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method has not yet been called for the service.
+The <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method has not yet been called for the service.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method must be called on the service before a PnP identifier can be retrieved.
+The <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservice-open">Open</a> method must be called on the service before a PnP identifier can be retrieved.
 
 When an application no longer needs the PnP identifier, it should call the <b>CoTaskMemFree</b> function to free the identifier memory.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>

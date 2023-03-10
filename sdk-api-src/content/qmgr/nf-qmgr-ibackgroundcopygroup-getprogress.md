@@ -2,15 +2,12 @@
 UID: NF:qmgr.IBackgroundCopyGroup.GetProgress
 title: IBackgroundCopyGroup::GetProgress (qmgr.h)
 description: Use the GetProgress method to retrieve the progress of the download.
+helpviewer_keywords: ["GetProgress","GetProgress method [BITS]","GetProgress method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","GetProgress method","IBackgroundCopyGroup.GetProgress","IBackgroundCopyGroup::GetProgress","QM_PROGRESS_PERCENT_DONE","QM_PROGRESS_SIZE_DONE","QM_PROGRESS_TIME_DONE","bits.ibackgroundcopygroup_getprogress","qmgr/IBackgroundCopyGroup::GetProgress"]
 old-location: bits\ibackgroundcopygroup_getprogress.htm
 tech.root: Bits
 ms.assetid: a596a005-a3ad-4d2b-b19b-60c2279590da
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProgress method, IBackgroundCopyGroup.GetProgress, IBackgroundCopyGroup::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopygroup_getprogress, qmgr/IBackgroundCopyGroup::GetProgress
-f1_keywords:
-- qmgr/IBackgroundCopyGroup.GetProgress
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyGroup.GetProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyGroup::GetProgress
+ - qmgr/IBackgroundCopyGroup::GetProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyGroup.GetProgress
 ---
 
 # IBackgroundCopyGroup::GetProgress
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>GetProgress</b> method to retrieve the progress of the download.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -99,17 +96,12 @@ Not supported.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwProgress [out]
 
-Progress of the download. The progress represents the number of bytes downloaded or the percent of the download that is complete, depending on <i>dwFlags</i>. 
-
+Progress of the download. The progress represents the number of bytes downloaded or the percent of the download that is complete, depending on <i>dwFlags</i>.
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -141,18 +133,7 @@ You cannot specify QM_PROGRESS_TIME_DONE for the <i>dwFlags</i> parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IMtsGrp.get_Count
 title: IMtsGrp::get_Count (comsvcs.h)
 description: Retrieves the number of running packages in the catalog.
+helpviewer_keywords: ["IMtsGrp interface [COM+]","get_Count method","IMtsGrp.get_Count","IMtsGrp::get_Count","_dtc_IMtsGrp_get_Count","comsvcs/IMtsGrp::get_Count","cos.imtsgrp_get_count","get_Count","get_Count method [COM+]","get_Count method [COM+]","IMtsGrp interface"]
 old-location: cos\imtsgrp_get_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 84d1d2e1-ea06-4e3f-81d9-bb2ed02cf021
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp interface [COM+],get_Count method, IMtsGrp.get_Count, IMtsGrp::get_Count, _dtc_IMtsGrp_get_Count, comsvcs/IMtsGrp::get_Count, cos.imtsgrp_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsGrp interface
-f1_keywords:
-- comsvcs/IMtsGrp.get_Count
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IMtsGrp.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMtsGrp::get_Count
+ - comsvcs/IMtsGrp::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IMtsGrp.get_Count
 ---
 
 # IMtsGrp::get_Count
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of running packages in the catalog.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 The number of running packages.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>

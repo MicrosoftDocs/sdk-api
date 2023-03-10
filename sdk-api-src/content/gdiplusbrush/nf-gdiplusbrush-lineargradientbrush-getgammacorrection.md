@@ -2,15 +2,12 @@
 UID: NF:gdiplusbrush.LinearGradientBrush.GetGammaCorrection
 title: LinearGradientBrush::GetGammaCorrection (gdiplusbrush.h)
 description: The LinearGradientBrush::GetGammaCorrection method determines whether gamma correction is enabled for this LinearGradientBrush object.
+helpviewer_keywords: ["GetGammaCorrection","GetGammaCorrection method [GDI+]","GetGammaCorrection method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetGammaCorrection method","LinearGradientBrush.GetGammaCorrection","LinearGradientBrush::GetGammaCorrection","_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getgammacorrection.htm
 ms.date: 12/05/2018
 ms.keywords: GetGammaCorrection, GetGammaCorrection method [GDI+], GetGammaCorrection method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetGammaCorrection method, LinearGradientBrush.GetGammaCorrection, LinearGradientBrush::GetGammaCorrection, _gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_
-f1_keywords:
-- gdiplusbrush/LinearGradientBrush.GetGammaCorrection
-dev_langs:
-- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- LinearGradientBrush.GetGammaCorrection
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - LinearGradientBrush::GetGammaCorrection
+ - gdiplusbrush/LinearGradientBrush::GetGammaCorrection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - LinearGradientBrush.GetGammaCorrection
 ---
 
 # LinearGradientBrush::GetGammaCorrection
@@ -49,41 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LinearGradientBrush::GetGammaCorrection</b> method determines whether gamma correction is enabled for this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a> object.
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If gamma correction is enabled, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush">LinearGradientBrush</a>

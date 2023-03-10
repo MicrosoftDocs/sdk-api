@@ -1,16 +1,13 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_List_SizeW
 title: CM_Get_Device_Interface_List_SizeW function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function.
+description: The CM_Get_Device_Interface_List_Size function retrieves the buffer size that must be passed to the CM_Get_Device_Interface_List function. (Unicode)
+helpviewer_keywords: ["CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES", "CM_GET_DEVICE_INTERFACE_LIST_PRESENT", "CM_Get_Device_Interface_List_Size", "CM_Get_Device_Interface_List_Size function [Device and Driver Installation]", "CM_Get_Device_Interface_List_SizeW", "cfgmgr32/CM_Get_Device_Interface_List_Size", "cfgmgr32/CM_Get_Device_Interface_List_SizeW", "cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml", "devinst.cm_get_device_interface_list_size"]
 old-location: devinst\cm_get_device_interface_list_size.htm
 tech.root: devinst
 ms.assetid: f3e1ceb7-9812-4339-889f-dade2efb3998
 ms.date: 12/05/2018
 ms.keywords: CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES, CM_GET_DEVICE_INTERFACE_LIST_PRESENT, CM_Get_Device_Interface_List_Size, CM_Get_Device_Interface_List_Size function [Device and Driver Installation], CM_Get_Device_Interface_List_SizeA, CM_Get_Device_Interface_List_SizeW, cfgmgr32/CM_Get_Device_Interface_List_Size, cfgmgr32/CM_Get_Device_Interface_List_SizeA, cfgmgr32/CM_Get_Device_Interface_List_SizeW, cfgmgrfn_91624b8d-408b-4b08-b23c-aecc2c4581d0.xml, devinst.cm_get_device_interface_list_size
-f1_keywords:
-- cfgmgr32/CM_Get_Device_Interface_List_Size
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Cfgmgr32.lib
 req.dll: CfgMgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CfgMgr32.dll
-- API-MS-Win-Devices-Config-L1-1-0.dll
-- API-MS-Win-Devices-Config-L1-1-1.dll
-api_name:
-- CM_Get_Device_Interface_List_Size
-- CM_Get_Device_Interface_List_SizeA
-- CM_Get_Device_Interface_List_SizeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Get_Device_Interface_List_SizeW
+ - cfgmgr32/CM_Get_Device_Interface_List_SizeW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CfgMgr32.dll
+ - API-MS-Win-Devices-Config-L1-1-0.dll
+ - API-MS-Win-Devices-Config-L1-1-1.dll
+api_name:
+ - CM_Get_Device_Interface_List_Size
+ - CM_Get_Device_Interface_List_SizeA
+ - CM_Get_Device_Interface_List_SizeW
 ---
 
 # CM_Get_Device_Interface_List_SizeW function
@@ -52,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CM_Get_Device_Interface_List_Size</b> function retrieves the buffer size 
      that must be passed to the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a> 
+     <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_listw">CM_Get_Device_Interface_List</a> 
      function.
 
-
 ## -parameters
-
-
-
 
 ### -param pulLen [out]
 
@@ -70,22 +67,19 @@ Caller-supplied pointer to a location that receives the required length, in char
            hold the multiple Unicode strings that will be returned by 
            <b>CM_Get_Device_Interface_List</b>.
 
-
 ### -param InterfaceClassGuid [in]
 
 Supplies a GUID that identifies a 
-           <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
-
+           <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ### -param pDeviceID [in, optional]
 
 Caller-supplied pointer to a NULL-terminated string that represents a 
-           <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>. If specified, the 
+           <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a>. If specified, the 
            function retrieves the length of symbolic link names for the device interfaces that are supported by the 
            device, for the specified class. If this value is <b>NULL</b>, or if it points to a 
            zero-length string, the function retrieves the length of symbolic link names for all interfaces that belong 
            to the specified class.
-
 
 ### -param ulFlags [in]
 
@@ -119,27 +113,18 @@ The function provides the size of a list containing device interfaces associated
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>CR_SUCCESS</b>. Otherwise, it 
            returns one of the error codes with the <b>CR_</b> prefix as defined in 
            Cfgmgr32.h.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_listw">CM_Get_Device_Interface_List</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista">CM_Get_Device_Interface_List</a>
- 
-
- 
-
+> [!NOTE]
+> The cfgmgr32.h header defines CM_Get_Device_Interface_List_Size as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(const float)
+UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(constfloat)
 title: XMSHORTN2::XMSHORTN2(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMSHORTN2 from a two element float array argument.
+helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2.XMSHORTN2(const float)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(const float)","dxmath.xmshortn2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: ff110a88-4c5e-4f1a-b04e-c8aa8e00d2b8
 ms.date: 05/06/2019
 ms.keywords: XMSHORTN2, XMSHORTN2 constructor [DirectX Math Support APIs], XMSHORTN2 constructor [DirectX Math Support APIs],XMSHORTN2 structure, XMSHORTN2 structure [DirectX Math Support APIs],XMSHORTN2 constructor, XMSHORTN2.XMSHORTN2, XMSHORTN2.XMSHORTN2(), XMSHORTN2.XMSHORTN2(const float), XMSHORTN2::XMSHORTN2, XMSHORTN2::XMSHORTN2(const float), dxmath.xmshortn2_ctor_1
-f1_keywords:
-- directxpackedvector/XMSHORTN2.XMSHORTN2
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMSHORTN2.XMSHORTN2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMSHORTN2::XMSHORTN2
+ - directxpackedvector/XMSHORTN2::XMSHORTN2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMSHORTN2.XMSHORTN2
 ---
 
 # XMSHORTN2::XMSHORTN2(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn2">XMSHORTN2</a> from a two element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn2">XMSHORTN2</a> from a two element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMSHORTN2** from a two element <code>float</code> array argument.
 
@@ -63,7 +66,7 @@ Two element floating point array containing the values used to initialize the tw
 
 Array elements are mapped to the vector components of a new instance of **XMSHORTN2** as follows:
 
-| Vector Component | Array Element | Range |  |
+| Vector Component | Array Element | Range | Description |
 |------------------|---------------|-------|--|
 | x | pArray[0] | -1.0, 1.0 | During instantiation, pArray[0] is clamped between -1 and 1, multiplied by 32767.0f and assigned to x. |
 | y | pArray[1] | -1.0, 1.0 | During instantiation, pArray[1] is clamped between -1 and 1, multiplied by 32767.0f, and then assigned to y. |
@@ -82,6 +85,6 @@ instance._y = _y1;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn2">XMSHORTN2</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn2">XMSHORTN2</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshortn2-ctor">XMSHORTN2 Constructors</a>
+<a href="/windows/desktop/dxmath/xmshortn2-ctor">XMSHORTN2 Constructors</a>

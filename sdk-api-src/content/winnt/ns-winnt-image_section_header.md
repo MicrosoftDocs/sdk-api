@@ -2,15 +2,12 @@
 UID: NS:winnt._IMAGE_SECTION_HEADER
 title: IMAGE_SECTION_HEADER (winnt.h)
 description: Represents the image section header format.
+helpviewer_keywords: ["*PIMAGE_SECTION_HEADER","IMAGE_SCN_ALIGN_1024BYTES","IMAGE_SCN_ALIGN_128BYTES","IMAGE_SCN_ALIGN_16BYTES","IMAGE_SCN_ALIGN_1BYTES","IMAGE_SCN_ALIGN_2048BYTES","IMAGE_SCN_ALIGN_256BYTES","IMAGE_SCN_ALIGN_2BYTES","IMAGE_SCN_ALIGN_32BYTES","IMAGE_SCN_ALIGN_4096BYTES","IMAGE_SCN_ALIGN_4BYTES","IMAGE_SCN_ALIGN_512BYTES","IMAGE_SCN_ALIGN_64BYTES","IMAGE_SCN_ALIGN_8192BYTES","IMAGE_SCN_ALIGN_8BYTES","IMAGE_SCN_CNT_CODE","IMAGE_SCN_CNT_INITIALIZED_DATA","IMAGE_SCN_CNT_UNINITIALIZED_DATA","IMAGE_SCN_GPREL","IMAGE_SCN_LNK_COMDAT","IMAGE_SCN_LNK_INFO","IMAGE_SCN_LNK_NRELOC_OVFL","IMAGE_SCN_LNK_OTHER","IMAGE_SCN_LNK_REMOVE","IMAGE_SCN_MEM_DISCARDABLE","IMAGE_SCN_MEM_EXECUTE","IMAGE_SCN_MEM_LOCKED","IMAGE_SCN_MEM_NOT_CACHED","IMAGE_SCN_MEM_NOT_PAGED","IMAGE_SCN_MEM_PRELOAD","IMAGE_SCN_MEM_PURGEABLE","IMAGE_SCN_MEM_READ","IMAGE_SCN_MEM_SHARED","IMAGE_SCN_MEM_WRITE","IMAGE_SCN_NO_DEFER_SPEC_EXC","IMAGE_SCN_TYPE_NO_PAD","IMAGE_SECTION_HEADER","IMAGE_SECTION_HEADER structure","PIMAGE_SECTION_HEADER","PIMAGE_SECTION_HEADER structure pointer","_IMAGE_SECTION_HEADER","_win32_image_section_header_str","base.image_section_header_str","winnt/IMAGE_SECTION_HEADER","winnt/PIMAGE_SECTION_HEADER"]
 old-location: base\image_section_header_str.htm
 tech.root: Debug
 ms.assetid: 81ddf56d-66cc-4a0c-9cff-a84376a3223d
 ms.date: 12/05/2018
 ms.keywords: '*PIMAGE_SECTION_HEADER, IMAGE_SCN_ALIGN_1024BYTES, IMAGE_SCN_ALIGN_128BYTES, IMAGE_SCN_ALIGN_16BYTES, IMAGE_SCN_ALIGN_1BYTES, IMAGE_SCN_ALIGN_2048BYTES, IMAGE_SCN_ALIGN_256BYTES, IMAGE_SCN_ALIGN_2BYTES, IMAGE_SCN_ALIGN_32BYTES, IMAGE_SCN_ALIGN_4096BYTES, IMAGE_SCN_ALIGN_4BYTES, IMAGE_SCN_ALIGN_512BYTES, IMAGE_SCN_ALIGN_64BYTES, IMAGE_SCN_ALIGN_8192BYTES, IMAGE_SCN_ALIGN_8BYTES, IMAGE_SCN_CNT_CODE, IMAGE_SCN_CNT_INITIALIZED_DATA, IMAGE_SCN_CNT_UNINITIALIZED_DATA, IMAGE_SCN_GPREL, IMAGE_SCN_LNK_COMDAT, IMAGE_SCN_LNK_INFO, IMAGE_SCN_LNK_NRELOC_OVFL, IMAGE_SCN_LNK_OTHER, IMAGE_SCN_LNK_REMOVE, IMAGE_SCN_MEM_DISCARDABLE, IMAGE_SCN_MEM_EXECUTE, IMAGE_SCN_MEM_LOCKED, IMAGE_SCN_MEM_NOT_CACHED, IMAGE_SCN_MEM_NOT_PAGED, IMAGE_SCN_MEM_PRELOAD, IMAGE_SCN_MEM_PURGEABLE, IMAGE_SCN_MEM_READ, IMAGE_SCN_MEM_SHARED, IMAGE_SCN_MEM_WRITE, IMAGE_SCN_NO_DEFER_SPEC_EXC, IMAGE_SCN_TYPE_NO_PAD, IMAGE_SECTION_HEADER, IMAGE_SECTION_HEADER structure, PIMAGE_SECTION_HEADER, PIMAGE_SECTION_HEADER structure pointer, _IMAGE_SECTION_HEADER, _win32_image_section_header_str, base.image_section_header_str, winnt/IMAGE_SECTION_HEADER, winnt/PIMAGE_SECTION_HEADER'
-f1_keywords:
-- winnt/IMAGE_SECTION_HEADER
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- IMAGE_SECTION_HEADER
 targetos: Windows
 req.typenames: IMAGE_SECTION_HEADER, *PIMAGE_SECTION_HEADER
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IMAGE_SECTION_HEADER
+ - winnt/_IMAGE_SECTION_HEADER
+ - PIMAGE_SECTION_HEADER
+ - winnt/PIMAGE_SECTION_HEADER
+ - IMAGE_SECTION_HEADER
+ - winnt/IMAGE_SECTION_HEADER
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - IMAGE_SECTION_HEADER
 ---
 
 # IMAGE_SECTION_HEADER structure
@@ -48,69 +54,53 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the image section header format.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Name
 
 An 8-byte, null-padded UTF-8 string. There is no terminating null character if the string is exactly eight characters long. For longer names, this member contains a forward slash (/) followed by an ASCII representation of a decimal number that is an offset into the string table. Executable images do not use a string table and do not support section names longer than eight characters.
 
-
 ### -field Misc
-
 
 ### -field Misc.PhysicalAddress
 
 The file address.
 
-
 ### -field Misc.VirtualSize
 
 The total size of the section when loaded into memory, in bytes. If this value is greater than the <b>SizeOfRawData</b> member, the section is filled with zeroes. This field is valid only for executable images and should be set to 0 for object files.
-
 
 ### -field VirtualAddress
 
 The address of the first byte of the section when loaded into memory, relative to the image base. For object files, this is the address of the first byte before relocation is applied.
 
-
 ### -field SizeOfRawData
 
 The size of the initialized data on disk, in bytes. This value must be a multiple of the <b>FileAlignment</b> member of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure. If this value is less than the <b>VirtualSize</b> member, the remainder of the section is filled with zeroes. If the section contains only uninitialized data, the member is zero.
-
+<a href="/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure. If this value is less than the <b>VirtualSize</b> member, the remainder of the section is filled with zeroes. If the section contains only uninitialized data, the member is zero.
 
 ### -field PointerToRawData
 
 A file pointer to the first page within the COFF file. This value must be a multiple of the <b>FileAlignment</b> member of the 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure. If a section contains only uninitialized data, set this member is zero.
-
+<a href="/windows/win32/api/winnt/ns-winnt-image_optional_header32">IMAGE_OPTIONAL_HEADER</a> structure. If a section contains only uninitialized data, set this member is zero.
 
 ### -field PointerToRelocations
 
  A file pointer to the beginning of the relocation entries for the section. If there are no relocations, this value is zero.
 
-
 ### -field PointerToLinenumbers
 
 A file pointer to the beginning of the line-number entries for the section. If there are no COFF line numbers, this value is zero.
-
 
 ### -field NumberOfRelocations
 
 The number of relocation entries for the section. This value is zero for executable images.
 
-
 ### -field NumberOfLinenumbers
 
 The number of line-number entries for the section.
-
 
 ### -field Characteristics
 
@@ -597,32 +587,23 @@ The section can be written to.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatosection">ImageRvaToSection</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagervatova">ImageRvaToVa</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>

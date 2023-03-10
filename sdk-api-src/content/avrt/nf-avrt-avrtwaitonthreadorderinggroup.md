@@ -2,15 +2,12 @@
 UID: NF:avrt.AvRtWaitOnThreadOrderingGroup
 title: AvRtWaitOnThreadOrderingGroup function (avrt.h)
 description: Enables client threads of a thread ordering group to wait until they should execute.
+helpviewer_keywords: ["AvRtWaitOnThreadOrderingGroup","AvRtWaitOnThreadOrderingGroup function","avrt/AvRtWaitOnThreadOrderingGroup","base.avrtwaitonthreadorderinggroup"]
 old-location: base\avrtwaitonthreadorderinggroup.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 11318ce3-d938-4bb5-adb1-28dd15e8cd80
 ms.date: 12/05/2018
 ms.keywords: AvRtWaitOnThreadOrderingGroup, AvRtWaitOnThreadOrderingGroup function, avrt/AvRtWaitOnThreadOrderingGroup, base.avrtwaitonthreadorderinggroup
-f1_keywords:
-- avrt/AvRtWaitOnThreadOrderingGroup
-dev_langs:
-- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avrt.dll
-api_name:
-- AvRtWaitOnThreadOrderingGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AvRtWaitOnThreadOrderingGroup
+ - avrt/AvRtWaitOnThreadOrderingGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avrt.dll
+api_name:
+ - AvRtWaitOnThreadOrderingGroup
 ---
 
 # AvRtWaitOnThreadOrderingGroup function
@@ -48,35 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables client threads of a thread ordering group to wait until they should execute.
-
 
 ## -parameters
 
-
-
-
 ### -param Context [in]
 
-A context handle. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrtcreatethreadorderinggroup">AvRtCreateThreadOrderingGroup</a> or <a href="https://docs.microsoft.com/windows/desktop/api/avrt/nf-avrt-avrtjointhreadorderinggroup">AvRtJoinThreadOrderingGroup</a> function.
-
+A context handle. This handle is returned by the <a href="/windows/desktop/api/avrt/nf-avrt-avrtcreatethreadorderinggroup">AvRtCreateThreadOrderingGroup</a> or <a href="/windows/desktop/api/avrt/nf-avrt-avrtjointhreadorderinggroup">AvRtJoinThreadOrderingGroup</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 When this function returns, the thread should complete its processing for the period and then call the function again.
 
@@ -109,17 +98,6 @@ return 0;
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>
- 
-
- 
-
+<a href="/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>

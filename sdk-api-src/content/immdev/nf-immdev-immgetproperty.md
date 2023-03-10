@@ -1,16 +1,13 @@
 ---
 UID: NF:immdev.ImmGetProperty
 title: ImmGetProperty function (immdev.h)
-description: Retrieves the property and capabilities of the IME associated with the specified input locale.
+description: The ImmGetProperty function (immdev.h) retrieves the property and capabilities of the IME associated with the specified input locale. 
+helpviewer_keywords: ["IGP_CONVERSION","IGP_GETIMEVERSION","IGP_PROPERTY","IGP_SELECT","IGP_SENTENCE","IGP_SETCOMPSTR","IGP_UI","ImmGetProperty","ImmGetProperty function [Internationalization for Windows Applications]","_win32_ImmGetProperty","imm/ImmGetProperty","intl.immgetproperty"]
 old-location: intl\immgetproperty.htm
 tech.root: Intl
 ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
-f1_keywords:
-- immdev/ImmGetProperty
-dev_langs:
-- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imm32.dll
-- Ext-MS-Win-imm-l1-1-0.dll
-- ext-ms-win-imm-l1-1-1.dll
-api_name:
-- ImmGetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ImmGetProperty
+ - immdev/ImmGetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imm32.dll
+ - Ext-MS-Win-imm-l1-1-0.dll
+ - ext-ms-win-imm-l1-1-1.dll
+api_name:
+ - ImmGetProperty
 ---
 
 # ImmGetProperty function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the property and capabilities of the IME associated with the specified input locale.
 
-
 ## -parameters
-
-
-
 
 ### -param HKL [in]
 
 Input locale identifier.
-
 
 ### -param DWORD [in]
 
@@ -144,12 +140,8 @@ User interface capabilities.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns the property or capability value, depending on the value of the <i>dwIndex</i> parameter. If <i>dwIndex</i> is set to IGP_PROPERTY, the function returns one or more of the following values:
 
@@ -180,7 +172,7 @@ Returns the property or capability value, depending on the value of the <i>dwInd
 </tr>
 <tr>
 <td>IME_PROP_ACCEPT_WIDE_VKEY</td>
-<td>If set, the IME processes the injected Unicode that came from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
+<td>If set, the IME processes the injected Unicode that came from the <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function by using VK_PACKET. If clear, the IME might not process the injected Unicode, and might send the injected Unicode to the application directly.</td>
 </tr>
 </table>
  
@@ -194,7 +186,7 @@ If <i>dwIndex</i> is set to IGP_UI, the function returns one or more of the foll
 </tr>
 <tr>
 <td>UI_CAP_2700</td>
-<td>Support text escapement values of 0 or 2700. For more information, see the <b>lfEscapement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.</td>
+<td>Support text escapement values of 0 or 2700. For more information, see the <b>lfEscapement</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.</td>
 </tr>
 <tr>
 <td>UI_CAP_ROT90</td>
@@ -216,15 +208,15 @@ If <i>dwIndex</i> is set to IGP_SETCOMPSTR, the function returns one or more of 
 </tr>
 <tr>
 <td>SCS_CAP_COMPSTR</td>
-<td>Create the composition string by calling the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> function with the SCS_SETSTR value.</td>
+<td>Create the composition string by calling the <a href="/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> function with the SCS_SETSTR value.</td>
 </tr>
 <tr>
 <td>SCS_CAP_MAKEREAD</td>
-<td>Create the reading string from corresponding composition string when using the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> function with SCS_SETSTR and without setting <i>lpRead</i>.</td>
+<td>Create the reading string from corresponding composition string when using the <a href="/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> function with SCS_SETSTR and without setting <i>lpRead</i>.</td>
 </tr>
 <tr>
 <td>SCS_CAP_SETRECONVERTSTRING:</td>
-<td>This IME can support reconversion. Use <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> to do reconversion.</td>
+<td>This IME can support reconversion. Use <a href="/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a> to do reconversion.</td>
 </tr>
 </table>
  
@@ -263,26 +255,15 @@ If <i>dwIndex</i> is set to IGP_GETIMEVERSION, the function returns one or more 
 <td>The IME was created for Windows Me/98/95.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immsetcompositionstringa">ImmSetCompositionString</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

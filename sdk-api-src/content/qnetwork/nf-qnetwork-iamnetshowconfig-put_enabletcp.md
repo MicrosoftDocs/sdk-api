@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableTCP
 title: IAMNetShowConfig::put_EnableTCP (qnetwork.h)
 description: The put_EnableTCP method enables or disables TCP-based streaming.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","put_EnableTCP method","IAMNetShowConfig.put_EnableTCP","IAMNetShowConfig::put_EnableTCP","IAMNetShowConfigput_EnableTCP","dshow.iamnetshowconfig_put_enabletcp","put_EnableTCP","put_EnableTCP method [DirectShow]","put_EnableTCP method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::put_EnableTCP"]
 old-location: dshow\iamnetshowconfig_put_enabletcp.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8e875901-7ccb-4aa5-b283-f75b791e85f1
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableTCP method, IAMNetShowConfig.put_EnableTCP, IAMNetShowConfig::put_EnableTCP, IAMNetShowConfigput_EnableTCP, dshow.iamnetshowconfig_put_enabletcp, put_EnableTCP, put_EnableTCP method [DirectShow], put_EnableTCP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableTCP
-f1_keywords:
-- qnetwork/IAMNetShowConfig.put_EnableTCP
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMNetShowConfig.put_EnableTCP
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMNetShowConfig::put_EnableTCP
+ - qnetwork/IAMNetShowConfig::put_EnableTCP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMNetShowConfig.put_EnableTCP
 ---
 
 # IAMNetShowConfig::put_EnableTCP
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_EnableTCP</code> method enables or disables TCP-based streaming.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param EnableTCP
 
@@ -80,29 +74,15 @@ Specify one of the following values.
 <td>Disable TCP-based streaming.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig">IAMNetShowConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig">IAMNetShowConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enableudp">IAMNetShowConfig::put_EnableUDP</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-put_enableudp">IAMNetShowConfig::put_EnableUDP</a>

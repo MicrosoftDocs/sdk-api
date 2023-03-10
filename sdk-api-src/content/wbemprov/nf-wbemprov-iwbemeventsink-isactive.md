@@ -2,15 +2,12 @@
 UID: NF:wbemprov.IWbemEventSink.IsActive
 title: IWbemEventSink::IsActive (wbemprov.h)
 description: The IWbemEventSink::IsActive method is used by the provider to determine if there is interest in the events that the sink is filtering.
+helpviewer_keywords: ["IWbemEventSink interface [Windows Management Instrumentation]","IsActive method","IWbemEventSink.IsActive","IWbemEventSink::IsActive","IsActive","IsActive method [Windows Management Instrumentation]","IsActive method [Windows Management Instrumentation]","IWbemEventSink interface","_hmm_iwbemeventsink_isactive","wbemprov/IWbemEventSink::IsActive","wmi.iwbemeventsink_isactive"]
 old-location: wmi\iwbemeventsink_isactive.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: dc5afbc1-60da-42ec-9dc3-79b66243690c
 ms.date: 12/05/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],IsActive method, IWbemEventSink.IsActive, IWbemEventSink::IsActive, IsActive, IsActive method [Windows Management Instrumentation], IsActive method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_isactive, wbemprov/IWbemEventSink::IsActive, wmi.iwbemeventsink_isactive
-f1_keywords:
-- wbemprov/IWbemEventSink.IsActive
-dev_langs:
-- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wbemsvc.dll
-api_name:
-- IWbemEventSink.IsActive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemEventSink::IsActive
+ - wbemprov/IWbemEventSink::IsActive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wbemsvc.dll
+api_name:
+ - IWbemEventSink.IsActive
 ---
 
 # IWbemEventSink::IsActive
@@ -48,24 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemEventSink::IsActive</b> method is used by the provider to determine if there is interest in the events that the sink is filtering. In the case of a restricted sink, these events are defined by the queries passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink">GetRestrictedSink</a>. In the case where it is not a restricted sink, these events are defined by the queries in the event provider's registration. In the latter, the sink is always active.
-
-
-## -parameters
-
-
-
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventsink-getrestrictedsink">GetRestrictedSink</a>. In the case where it is not a restricted sink, these events are defined by the queries in the event provider's registration. In the latter, the sink is always active.
 
 
 
 ## -returns
 
-
-
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
-
-
-
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.

@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetGroupType
 title: IIsdbEventGroupDescriptor::GetGroupType (dvbsiparser.h)
 description: Gets a code that describes the event group type from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
+helpviewer_keywords: ["GetGroupType","GetGroupType method [Microsoft TV Technologies]","GetGroupType method [Microsoft TV Technologies]","IIsdbEventGroupDescriptor interface","IIsdbEventGroupDescriptor interface [Microsoft TV Technologies]","GetGroupType method","IIsdbEventGroupDescriptor.GetGroupType","IIsdbEventGroupDescriptor::GetGroupType","dvbsiparser/IIsdbEventGroupDescriptor::GetGroupType","mstv.iisdbeventgroupdescriptor_getgrouptype"]
 old-location: mstv\iisdbeventgroupdescriptor_getgrouptype.htm
 tech.root: mstv
 ms.assetid: 152bae4a-f4e6-4e9e-a1ed-19240cf8108c
 ms.date: 12/05/2018
 ms.keywords: GetGroupType, GetGroupType method [Microsoft TV Technologies], GetGroupType method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetGroupType method, IIsdbEventGroupDescriptor.GetGroupType, IIsdbEventGroupDescriptor::GetGroupType, dvbsiparser/IIsdbEventGroupDescriptor::GetGroupType, mstv.iisdbeventgroupdescriptor_getgrouptype
-f1_keywords:
-- dvbsiparser/IIsdbEventGroupDescriptor.GetGroupType
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbEventGroupDescriptor.GetGroupType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbEventGroupDescriptor::GetGroupType
+ - dvbsiparser/IIsdbEventGroupDescriptor::GetGroupType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbEventGroupDescriptor.GetGroupType
 ---
 
 # IIsdbEventGroupDescriptor::GetGroupType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets a code that describes the event group type from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
@@ -133,25 +130,11 @@ Undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbeventgroupdescriptor">IIsdbEventGroupDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbeventgroupdescriptor">IIsdbEventGroupDescriptor</a>

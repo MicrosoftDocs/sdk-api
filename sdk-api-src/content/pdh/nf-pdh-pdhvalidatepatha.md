@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhValidatePathA
 title: PdhValidatePathA function (pdh.h)
-description: Validates that the counter is present on the computer specified in the counter path.
+description: Validates that the counter is present on the computer specified in the counter path. (ANSI)
+helpviewer_keywords: ["PdhValidatePathA", "pdh/PdhValidatePathA"]
 old-location: perf\pdhvalidatepath.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePath, PdhValidatePath function [Perf], PdhValidatePathA, PdhValidatePathW, _win32_pdhvalidatepath, base.pdhvalidatepath, pdh/PdhValidatePath, pdh/PdhValidatePathA, pdh/PdhValidatePathW, perf.pdhvalidatepath
-f1_keywords:
-- pdh/PdhValidatePath
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhValidatePath
-- PdhValidatePathA
-- PdhValidatePathW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhValidatePathA
+ - pdh/PdhValidatePathA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhValidatePath
+ - PdhValidatePathA
+ - PdhValidatePathW
 ---
 
 # PdhValidatePathA function
@@ -50,31 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Validates that the counter is present on the computer specified in the counter path.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param szFullPathBuffer [in]
 
 Null-terminated string that contains the counter path to validate. The maximum length of a counter path is PDH_MAX_COUNTER_PATH.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -148,18 +141,12 @@ The function is unable to allocate a required temporary buffer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
- 
-
- 
-
+> [!NOTE]
+> The pdh.h header defines PdhValidatePath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

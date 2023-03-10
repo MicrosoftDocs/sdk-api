@@ -1,16 +1,13 @@
 ---
 UID: NF:fileapi.GetTempFileNameW
 title: GetTempFileNameW function (fileapi.h)
-description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
+description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated. (GetTempFileNameW)
+helpviewer_keywords: ["GetTempFileName", "GetTempFileName function [Files]", "GetTempFileNameW", "_win32_gettempfilename", "base.gettempfilename", "fileapi/GetTempFileName", "fileapi/GetTempFileNameW", "fs.gettempfilename"]
 old-location: fs\gettempfilename.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 0a30055f-a3b9-439f-9304-40ee8a07b967
 ms.date: 12/05/2018
 ms.keywords: GetTempFileName, GetTempFileName function [Files], GetTempFileNameA, GetTempFileNameW, _win32_gettempfilename, base.gettempfilename, fileapi/GetTempFileName, fileapi/GetTempFileNameA, fileapi/GetTempFileNameW, fs.gettempfilename, winbase/GetTempFileName, winbase/GetTempFileNameA, winbase/GetTempFileNameW
-f1_keywords:
-- fileapi/GetTempFileName
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- GetTempFileName
-- GetTempFileNameA
-- GetTempFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTempFileNameW
+ - fileapi/GetTempFileNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - GetTempFileName
+ - GetTempFileNameA
+ - GetTempFileNameW
 ---
 
 # GetTempFileNameW function
@@ -57,58 +59,47 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a name for a temporary file. If a unique file name is generated, an empty file is created and 
     the handle to it is released; otherwise, only a file name is generated.
 
-
 ## -parameters
-
-
-
 
 ### -param lpPathName [in]
 
 The directory path for the file name. Applications typically specify a period (.) for the current directory 
-       or the result of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a> function. The string 
+       or the result of the <a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a> function. The string 
        cannot be longer than <b>MAX_PATH</b>–14 characters or
        <b>GetTempFileName</b> will fail. If this parameter is 
        <b>NULL</b>, the function fails.
-
 
 ### -param lpPrefixString [in]
 
 The null-terminated prefix string. The function uses up to the first three characters of this string as the 
        prefix of the file name. This string must consist of characters in the OEM-defined character set.
 
-
 ### -param uUnique [in]
 
 An unsigned integer to be used in creating the temporary file name. For more information, see Remarks.
 
 If <i>uUnique</i> is zero, the function attempts to form a unique file name using the 
-       current system time. If the file already exists, the number is increased by one and the functions tests if this 
+       current system time. If the file already exists, the number is increased by one and the function tests if this 
        file already exists. This continues until a unique filename is found; the function creates a file by that name 
        and closes it.  Note that the function does not attempt  to verify the uniqueness of the file name when 
        <i>uUnique</i> is nonzero.
-
 
 ### -param lpTempFileName [out]
 
 A pointer to the buffer that receives the temporary file name. This buffer should be 
        <b>MAX_PATH</b> characters to accommodate the path plus the terminating null character.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the unique numeric value used in the temporary file 
        name. If the <i>uUnique</i> parameter is nonzero, the return value specifies that same 
        number.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 The following is a possible return value.
@@ -133,19 +124,13 @@ The length of the string pointed to by the <i>lpPathName</i> parameter is more t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetTempFileName</b> function creates a temporary 
     file name of the following form:
 
-<i>&lt;path&gt;</i>\<i>&lt;pre&gt;</i><i>&lt;uuuu&gt;</i>.TMP
+<i>&lt;path&gt;</i>&#92;<i>&lt;pre&gt;</i><i>&lt;uuuu&gt;</i>.TMP
 
 The following table describes the file name syntax.
 
@@ -186,10 +171,10 @@ Due to the algorithm used to generate file names,
     on <b>GUID</b>s.
 
 Temporary files whose names have been created by this function are not automatically deleted. To delete these 
-    files call <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
+    files call <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>.
 
 To avoid problems resulting when converting an ANSI string, an application should call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to create a temporary file.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function to create a temporary file.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -255,35 +240,32 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
+     <a href="/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The fileapi.h header defines GetTempFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettemppatha">GetTempPath</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>

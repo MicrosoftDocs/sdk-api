@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFTUnregisterLocalByCLSID
 title: MFTUnregisterLocalByCLSID function (mfapi.h)
 description: Unregisters a Media Foundation transform (MFT) from the caller's process.
+helpviewer_keywords: ["MFTUnregisterLocalByCLSID","MFTUnregisterLocalByCLSID function [Media Foundation]","mf.mftunregisterlocalbyclsid","mfapi/MFTUnregisterLocalByCLSID"]
 old-location: mf\mftunregisterlocalbyclsid.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ebdf50ad-99cb-4ebf-9050-da0b2d9f26df
 ms.date: 12/05/2018
 ms.keywords: MFTUnregisterLocalByCLSID, MFTUnregisterLocalByCLSID function [Media Foundation], mf.mftunregisterlocalbyclsid, mfapi/MFTUnregisterLocalByCLSID
-f1_keywords:
-- mfapi/MFTUnregisterLocalByCLSID
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFTUnregisterLocalByCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFTUnregisterLocalByCLSID
+ - mfapi/MFTUnregisterLocalByCLSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFTUnregisterLocalByCLSID
 ---
 
 # MFTUnregisterLocalByCLSID function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Unregisters a Media Foundation transform (MFT) from the caller's process.
 
-
 ## -parameters
-
-
-
 
 ### -param clsidMFT [in]
 
 The class identifier (CLSID) of the MFT.
 
-
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,27 +90,11 @@ The MFT specified by the <i>clsidMFT</i> parameter was not registered in this pr
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use this function to unregister a local MFT that was previously registered through the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid">MFTRegisterLocalByCLSID</a> function.
-
-
-
+Use this function to unregister a local MFT that was previously registered through the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid">MFTRegisterLocalByCLSID</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

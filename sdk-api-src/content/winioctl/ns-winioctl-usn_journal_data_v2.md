@@ -1,16 +1,13 @@
 ---
-UID: NS:winioctl.__unnamed_struct_30
+UID: NS:winioctl.USN_JOURNAL_DATA_V2
 title: USN_JOURNAL_DATA_V2
 description: Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the FSCTL_QUERY_USN_JOURNAL control code.
+helpviewer_keywords: ["*PUSN_JOURNAL_DATA_V2","FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE","PUSN_JOURNAL_DATA_V2","PUSN_JOURNAL_DATA_V2 structure pointer [Files]","USN_JOURNAL_DATA_V2","USN_JOURNAL_DATA_V2 structure [Files]","fs.usn_journal_data_v2","winioctl/PUSN_JOURNAL_DATA_V2","winioctl/USN_JOURNAL_DATA_V2"]
 old-location: fs\usn_journal_data_v2.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: BBFA6D14-1423-45B0-83A0-62019D08507F
 ms.date: 12/05/2018
 ms.keywords: '*PUSN_JOURNAL_DATA_V2, FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE, PUSN_JOURNAL_DATA_V2, PUSN_JOURNAL_DATA_V2 structure pointer [Files], USN_JOURNAL_DATA_V2, USN_JOURNAL_DATA_V2 structure [Files], fs.usn_journal_data_v2, winioctl/PUSN_JOURNAL_DATA_V2, winioctl/USN_JOURNAL_DATA_V2'
-f1_keywords:
-- winioctl/USN_JOURNAL_DATA_V2
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- USN_JOURNAL_DATA_V2
 targetos: Windows
 req.typenames: USN_JOURNAL_DATA_V2, *PUSN_JOURNAL_DATA_V2
 req.redist: 
+f1_keywords:
+ - PUSN_JOURNAL_DATA_V2
+ - winioctl/PUSN_JOURNAL_DATA_V2
+ - USN_JOURNAL_DATA_V2
+ - winioctl/USN_JOURNAL_DATA_V2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - USN_JOURNAL_DATA_V2
 ---
 
 # USN_JOURNAL_DATA_V2 structure
@@ -47,14 +51,9 @@ req.redist:
 
 ## -description
 
-
-Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> control code.
-
+Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a> control code.
 
 ## -struct-fields
-
-
-
 
 ### -field UsnJournalID
 
@@ -62,16 +61,13 @@ The current journal identifier. A journal is assigned a new identifier on creati
       a new identifier in the course of its existence. The NTFS file system uses this identifier for an integrity 
       check.
 
-
 ### -field FirstUsn
 
 The number of first record that can be read from the journal.
 
-
 ### -field NextUsn
 
 The number of next record to be written to the journal.
-
 
 ### -field LowestValidUsn
 
@@ -83,18 +79,15 @@ The first record that was written into the journal for this journal instance. En
       some or all files or directories on the volume may have occurred that are not recorded in the change 
       journal.
 
-
 ### -field MaxUsn
 
 The largest USN that the change journal supports. An administrator must delete the change journal as the 
       value of <b>NextUsn</b> approaches this value.
 
-
 ### -field MaximumSize
 
 The target maximum size for the change journal, in bytes. The change journal can grow larger than this 
       value, but it is then truncated at the next NTFS file system checkpoint to less than this value.
-
 
 ### -field AllocationDelta
 
@@ -102,16 +95,13 @@ The number of bytes of disk memory added to the end and removed from the beginni
       each time memory is allocated or deallocated. In other words, allocation and deallocation take place in units of 
       this size. An integer multiple of a cluster size is a reasonable value for this member.
 
-
 ### -field MinSupportedMajorVersion
 
 The minimum version of the USN change journal that the file system supports.
 
-
 ### -field MaxSupportedMajorVersion
 
 The maximum version of the USN change journal that the file system supports.
-
 
 ### -field Flags
 
@@ -145,38 +135,28 @@ Range tracking is turned on for the volume.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RangeTrackChunkSize
 
 The granularity of tracked ranges. Valid only when you also set the <b>Flags</b> member to <b>FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE</b>.
 
-
 ### -field RangeTrackFileSizeThreshold
 
-File size threshold to start tracking range for files with equal or larger size. Valid only when you also set the <b>Flags</b> member to <b>FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE</b>. 
-
+File size threshold to start tracking range for files with equal or larger size. Valid only when you also set the <b>Flags</b> member to <b>FLAG_USN_TRACK_MODIFIED_RANGES_ENABLE</b>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_usn_journal">FSCTL_QUERY_USN_JOURNAL</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-usn_journal_data_v0">USN_JOURNAL_DATA_V0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-usn_journal_data_v0">USN_JOURNAL_DATA_V0</a>
+<a href="/previous-versions/windows/desktop/legacy/hh802707(v=vs.85)">USN_JOURNAL_DATA_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh802707(v=vs.85)">USN_JOURNAL_DATA_V1</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
- 
-
- 
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
 

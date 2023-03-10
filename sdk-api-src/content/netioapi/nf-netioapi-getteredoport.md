@@ -2,15 +2,12 @@
 UID: NF:netioapi.GetTeredoPort
 title: GetTeredoPort function (netioapi.h)
 description: Retrieves the dynamic UDP port number used by the Teredo client on the local computer.
+helpviewer_keywords: ["GetTeredoPort","GetTeredoPort function [IP Helper]","iphlp.getteredoport","netioapi/GetTeredoPort"]
 old-location: iphlp\getteredoport.htm
 tech.root: IpHlp
 ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07
 ms.date: 12/05/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
-f1_keywords:
-- netioapi/GetTeredoPort
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetTeredoPort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTeredoPort
+ - netioapi/GetTeredoPort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetTeredoPort
 ---
 
 # GetTeredoPort function
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>GetTeredoPort</b> function  retrieves the dynamic UDP port number used by the Teredo client on the local computer. 
-
+<b>GetTeredoPort</b> function  retrieves the dynamic UDP port number used by the Teredo client on the local computer.
 
 ## -parameters
 
-
-
-
 ### -param Port [out]
 
-A pointer to the  UDP port number. On successful return, this parameter will be filled with the port number used by the Teredo client. 
-
+A pointer to the  UDP port number. On successful return, this parameter will be filled with the port number used by the Teredo client.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -117,42 +111,26 @@ The request is not supported. This error is returned if no IPv6 stack is on the 
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>GetTeredoPort</b> function is defined on Windows Vista and later. 
 
-The <b>GetTeredoPort</b> function retrieves the current UDP port number used by the Teredo client for the Teredo service port. The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a> function. 
+The <b>GetTeredoPort</b> function retrieves the current UDP port number used by the Teredo client for the Teredo service port. The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <a href="/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a> function. 
 
-The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84066">http://www.ietf.org/rfc/rfc4380.txt</a>.
+The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="https://www.ietf.org/rfc/rfc4380.txt">http://www.ietf.org/rfc/rfc4380.txt</a>.
 
 The <b>GetTeredoPort</b> function is used primarily by firewall applications in order to configure the appropriate exceptions to allow incoming and outgoing Teredo traffic.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange">NotifyTeredoPortChange</a>

@@ -2,15 +2,12 @@
 UID: NF:wmpplug.IWMPPluginUI.SetProperty
 title: IWMPPluginUI::SetProperty (wmpplug.h)
 description: The SetProperty method is called by Windows Media Player to set name/value property pairs for the plug-in.
+helpviewer_keywords: ["IWMPPluginUI interface [Windows Media Player]","SetProperty method","IWMPPluginUI.SetProperty","IWMPPluginUI::SetProperty","IWMPPluginUISetProperty","SetProperty","SetProperty method [Windows Media Player]","SetProperty method [Windows Media Player]","IWMPPluginUI interface","wmp.iwmppluginui_setproperty","wmpplug/IWMPPluginUI::SetProperty"]
 old-location: wmp\iwmppluginui_setproperty.htm
 tech.root: WMP
 ms.assetid: 33b36239-3bda-44d3-8f85-7826bd8d3376
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetProperty method, IWMPPluginUI.SetProperty, IWMPPluginUI::SetProperty, IWMPPluginUISetProperty, SetProperty, SetProperty method [Windows Media Player], SetProperty method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setproperty, wmpplug/IWMPPluginUI::SetProperty
-f1_keywords:
-- wmpplug/IWMPPluginUI.SetProperty
-dev_langs:
-- c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmpplug.h
-api_name:
-- IWMPPluginUI.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPluginUI::SetProperty
+ - wmpplug/IWMPPluginUI::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmpplug.h
+api_name:
+ - IWMPPluginUI.SetProperty
 ---
 
 # IWMPPluginUI::SetProperty
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetProperty</b> method is called by Windows Media Player to set name/value property pairs for the plug-in.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszName [in]
 
@@ -84,26 +78,16 @@ Pointer to a <b>WCHAR</b><b>NULL</b>-terminated string constant containing the n
 <td>The <i>pvarProperty</i> parameter contains an array of <b>IUnknown</b> (<b>VT_ARRAY</b> | <b>VT_UNKNOWN</b>) pointers for <b>Playlist</b> objects that are sent to the plug-in from the library.</td>
 </tr>
 </table>
- 
-
 
 ### -param pvarProperty [in]
 
 Pointer to a <b>VARIANT</b> containing the new value of the property.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 Windows Media Player determines the type and capabilities of a plug-in by checking the Windows registry, and will specify only properties that the plug-in supports.
 
@@ -111,20 +95,10 @@ Windows Media Player determines the type and capabilities of a plug-in by checki
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/media-object">Media Object</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/media-object">Media Object</a>

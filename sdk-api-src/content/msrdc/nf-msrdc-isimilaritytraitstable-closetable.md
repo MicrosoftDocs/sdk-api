@@ -2,15 +2,12 @@
 UID: NF:msrdc.ISimilarityTraitsTable.CloseTable
 title: ISimilarityTraitsTable::CloseTable (msrdc.h)
 description: Closes a similarity traits table.
+helpviewer_keywords: ["CloseTable","CloseTable method [Remote Differential Compression]","CloseTable method [Remote Differential Compression]","ISimilarityTraitsTable interface","ISimilarityTraitsTable interface [Remote Differential Compression]","CloseTable method","ISimilarityTraitsTable.CloseTable","ISimilarityTraitsTable::CloseTable","fs.isimilaritytraitstable_closetable","msrdc/ISimilarityTraitsTable::CloseTable","rdc.isimilaritytraitstable_closetable"]
 old-location: rdc\isimilaritytraitstable_closetable.htm
 tech.root: rdc
 ms.assetid: 941f1e81-035d-4935-bcdf-8c9c6ad9ed4d
 ms.date: 12/05/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],CloseTable method, ISimilarityTraitsTable.CloseTable, ISimilarityTraitsTable::CloseTable, fs.isimilaritytraitstable_closetable, msrdc/ISimilarityTraitsTable::CloseTable, rdc.isimilaritytraitstable_closetable
-f1_keywords:
-- msrdc/ISimilarityTraitsTable.CloseTable
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- ISimilarityTraitsTable.CloseTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISimilarityTraitsTable::CloseTable
+ - msrdc/ISimilarityTraitsTable::CloseTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - ISimilarityTraitsTable.CloseTable
 ---
 
 # ISimilarityTraitsTable::CloseTable
@@ -48,47 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes a similarity traits table.
 
-
 ## -parameters
-
-
-
 
 ### -param isValid [in]
 
 <b>FALSE</b> if the similarity traits table should be deleted when it is closed; otherwise, <b>TRUE</b>.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 If <b>FALSE</b> is specified for the <i>isValid</i> parameter, only the table is deleted; the similarity file is not deleted. The caller is responsible for deleting the similarity file.
 
 When the <b>CloseTable</b> method returns, the table is always closed, even if this method returns an error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>

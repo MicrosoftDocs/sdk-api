@@ -2,15 +2,12 @@
 UID: NF:ctffunc.ITfCandidateList.GetCandidateNum
 title: ITfCandidateList::GetCandidateNum (ctffunc.h)
 description: ITfCandidateList::GetCandidateNum method
+helpviewer_keywords: ["GetCandidateNum","GetCandidateNum method [Text Services Framework]","GetCandidateNum method [Text Services Framework]","ITfCandidateList interface","ITfCandidateList interface [Text Services Framework]","GetCandidateNum method","ITfCandidateList.GetCandidateNum","ITfCandidateList::GetCandidateNum","_tsf_itfcandidatelist_getcandidatenum_ref","ctffunc/ITfCandidateList::GetCandidateNum","tsf.itfcandidatelist_getcandidatenum"]
 old-location: tsf\itfcandidatelist_getcandidatenum.htm
 tech.root: TSF
 ms.assetid: 53b8f8cc-776c-454a-86fa-6fa3b6ac097b
 ms.date: 12/05/2018
 ms.keywords: GetCandidateNum, GetCandidateNum method [Text Services Framework], GetCandidateNum method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],GetCandidateNum method, ITfCandidateList.GetCandidateNum, ITfCandidateList::GetCandidateNum, _tsf_itfcandidatelist_getcandidatenum_ref, ctffunc/ITfCandidateList::GetCandidateNum, tsf.itfcandidatelist_getcandidatenum
-f1_keywords:
-- ctffunc/ITfCandidateList.GetCandidateNum
-dev_langs:
-- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Tiptsf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tiptsf.dll
-api_name:
-- ITfCandidateList.GetCandidateNum
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCandidateList::GetCandidateNum
+ - ctffunc/ITfCandidateList::GetCandidateNum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tiptsf.dll
+api_name:
+ - ITfCandidateList.GetCandidateNum
 ---
 
 # ITfCandidateList::GetCandidateNum
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the number of candidate string objects in the candidate list.
 
 ## -parameters
-
-
-
 
 ### -param pnCnt [out]
 
 Pointer to a <b>ULONG</b> value that receives the number of candidate string objects in the candidate list.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +90,4 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
 

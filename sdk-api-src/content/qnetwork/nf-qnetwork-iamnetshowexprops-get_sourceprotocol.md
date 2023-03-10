@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMNetShowExProps.get_SourceProtocol
 title: IAMNetShowExProps::get_SourceProtocol (qnetwork.h)
 description: The get_SourceProtocol method retrieves the source protocol.
+helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_SourceProtocol method","IAMNetShowExProps.get_SourceProtocol","IAMNetShowExProps::get_SourceProtocol","IAMNetShowExPropsget_SourceProtocol","dshow.iamnetshowexprops_get_sourceprotocol","get_SourceProtocol","get_SourceProtocol method [DirectShow]","get_SourceProtocol method [DirectShow]","IAMNetShowExProps interface","qnetwork/IAMNetShowExProps::get_SourceProtocol"]
 old-location: dshow\iamnetshowexprops_get_sourceprotocol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 498e81fc-90d3-4a24-b672-c7c62b3bfd39
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_SourceProtocol method, IAMNetShowExProps.get_SourceProtocol, IAMNetShowExProps::get_SourceProtocol, IAMNetShowExPropsget_SourceProtocol, dshow.iamnetshowexprops_get_sourceprotocol, get_SourceProtocol, get_SourceProtocol method [DirectShow], get_SourceProtocol method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_SourceProtocol
-f1_keywords:
-- qnetwork/IAMNetShowExProps.get_SourceProtocol
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMNetShowExProps.get_SourceProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMNetShowExProps::get_SourceProtocol
+ - qnetwork/IAMNetShowExProps::get_SourceProtocol
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMNetShowExProps.get_SourceProtocol
 ---
 
 # IAMNetShowExProps::get_SourceProtocol
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_SourceProtocol</code> method retrieves the source protocol.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pSourceProtocol
 
@@ -104,25 +98,11 @@ Pointer to a variable that receives one of the following values.
 <td>File</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowexprops">IAMNetShowExProps Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowexprops">IAMNetShowExProps Interface</a>

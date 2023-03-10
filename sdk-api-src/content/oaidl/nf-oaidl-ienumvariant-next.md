@@ -2,15 +2,12 @@
 UID: NF:oaidl.IEnumVARIANT.Next
 title: IEnumVARIANT::Next (oaidl.h)
 description: Retrieves the specified items in the enumeration sequence.
+helpviewer_keywords: ["IEnumVARIANT interface [Automation]","Next method","IEnumVARIANT.Next","IEnumVARIANT::Next","Next","Next method [Automation]","Next method [Automation]","IEnumVARIANT interface","_oa96_IEnumVARIANT::Next","automat.ienumvariant_next","oaidl/IEnumVARIANT::Next"]
 old-location: automat\ienumvariant_next.htm
 tech.root: automat
 ms.assetid: 691c1624-8d01-41e0-890e-a4782eba1f59
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Next method, IEnumVARIANT.Next, IEnumVARIANT::Next, Next, Next method [Automation], Next method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Next, automat.ienumvariant_next, oaidl/IEnumVARIANT::Next
-f1_keywords:
-- oaidl/IEnumVARIANT.Next
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IEnumVARIANT.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumVARIANT::Next
+ - oaidl/IEnumVARIANT::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - stdole.dll
+api_name:
+ - IEnumVARIANT.Next
 ---
 
 # IEnumVARIANT::Next
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified items in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of elements to be retrieved
 
-
 ### -param rgVar [out]
 
 An array of at least size <i>celt</i> in which the elements are to be returned.
-
 
 ### -param pCeltFetched [out]
 
 The number of elements returned in <i>rgVar</i>, or NULL.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,14 +100,8 @@ The number of elements returned is less than <i>celt</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If fewer than the requested number of elements remain in the sequence, <b>Next</b> returns only the remaining elements. The actual number of elements is returned in <i>pCeltFetched</i>, unless it is null.
 
@@ -167,17 +153,6 @@ error:
 }
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>

@@ -2,15 +2,12 @@
 UID: NF:mpegtype.IMpegAudioDecoder.get_DecoderWordSize
 title: IMpegAudioDecoder::get_DecoderWordSize (mpegtype.h)
 description: Returns the word size used to decode, either eight or 16 bit.
+helpviewer_keywords: ["IMpegAudioDecoder interface [DirectShow]","get_DecoderWordSize method","IMpegAudioDecoder.get_DecoderWordSize","IMpegAudioDecoder::get_DecoderWordSize","IMpegAudioDecodergetDecoderWordSize","dshow.impegaudiodecoder_get_decoderwordsize","get_DecoderWordSize","get_DecoderWordSize method [DirectShow]","get_DecoderWordSize method [DirectShow]","IMpegAudioDecoder interface","mpegtype/IMpegAudioDecoder::get_DecoderWordSize"]
 old-location: dshow\impegaudiodecoder_get_decoderwordsize.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 92528359-cdbf-4490-badd-1ad20643ec1a
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DecoderWordSize method, IMpegAudioDecoder.get_DecoderWordSize, IMpegAudioDecoder::get_DecoderWordSize, IMpegAudioDecodergetDecoderWordSize, dshow.impegaudiodecoder_get_decoderwordsize, get_DecoderWordSize, get_DecoderWordSize method [DirectShow], get_DecoderWordSize method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DecoderWordSize
-f1_keywords:
-- mpegtype/IMpegAudioDecoder.get_DecoderWordSize
-dev_langs:
-- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMpegAudioDecoder.get_DecoderWordSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMpegAudioDecoder::get_DecoderWordSize
+ - mpegtype/IMpegAudioDecoder::get_DecoderWordSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMpegAudioDecoder.get_DecoderWordSize
 ---
 
 # IMpegAudioDecoder::get_DecoderWordSize
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Returns the word size used to decode, either eight or 16 bit.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pWordSize [out]
 
 Indicates the word size; the value is either 8 or 16.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,18 +80,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>

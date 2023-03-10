@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferSource.get_RecordingAttribute
 title: IMSVidStreamBufferSource::get_RecordingAttribute (segment.h)
 description: The get_RecordingAttribute method retrieves the Stream Buffer Source filter that this object manages.
+helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","get_RecordingAttribute method","IMSVidStreamBufferSource.get_RecordingAttribute","IMSVidStreamBufferSource::get_RecordingAttribute","IMSVidStreamBufferSourceget_RecordingAttribute","get_RecordingAttribute","get_RecordingAttribute method [Microsoft TV Technologies]","get_RecordingAttribute method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","mstv.imsvidstreambuffersource_get_recordingattribute","segment/IMSVidStreamBufferSource::get_RecordingAttribute"]
 old-location: mstv\imsvidstreambuffersource_get_recordingattribute.htm
 tech.root: mstv
 ms.assetid: 9e7020c8-778d-4a24-ae29-3e66d4ac165a
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_RecordingAttribute method, IMSVidStreamBufferSource.get_RecordingAttribute, IMSVidStreamBufferSource::get_RecordingAttribute, IMSVidStreamBufferSourceget_RecordingAttribute, get_RecordingAttribute, get_RecordingAttribute method [Microsoft TV Technologies], get_RecordingAttribute method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_recordingattribute, segment/IMSVidStreamBufferSource::get_RecordingAttribute
-f1_keywords:
-- segment/IMSVidStreamBufferSource.get_RecordingAttribute
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSource.get_RecordingAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSource::get_RecordingAttribute
+ - segment/IMSVidStreamBufferSource::get_RecordingAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSource.get_RecordingAttribute
 ---
 
 # IMSVidStreamBufferSource::get_RecordingAttribute
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>get_RecordingAttribute</b> method retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter that this object manages.
-
+The <b>get_RecordingAttribute</b> method retrieves the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter that this object manages.
 
 ## -parameters
-
-
-
 
 ### -param pRecordingAttribute [out]
 
 Receives a pointer to the filter's <b>IUnknown</b> interface.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -86,27 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The caller must release the returned <b>IUnknown</b> interface.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>

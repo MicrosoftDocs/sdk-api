@@ -2,15 +2,12 @@
 UID: NF:wingdi.GdiComment
 title: GdiComment function (wingdi.h)
 description: The GdiComment function copies a comment from a buffer into a specified enhanced-format metafile.
+helpviewer_keywords: ["GdiComment","GdiComment function [Windows GDI]","_win32_GdiComment","gdi.gdicomment","wingdi/GdiComment"]
 old-location: gdi\gdicomment.htm
 tech.root: gdi
 ms.assetid: 80ed11fc-89f8-47ab-8b3b-c817733bd385
 ms.date: 12/05/2018
 ms.keywords: GdiComment, GdiComment function [Windows GDI], _win32_GdiComment, gdi.gdicomment, wingdi/GdiComment
-f1_keywords:
-- wingdi/GdiComment
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GdiComment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GdiComment
+ - wingdi/GdiComment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GdiComment
 ---
 
 # GdiComment function
@@ -50,44 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GdiComment</b> function copies a comment from a buffer into a specified enhanced-format metafile.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to an enhanced-metafile device context.
 
-
 ### -param nSize [in]
 
 The length of the comment buffer, in bytes.
-
 
 ### -param lpData [in]
 
 A pointer to the buffer that contains the comment.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
-
-
 
 A comment can include any kind of private information, for example, the source of a picture and the date it was created. A comment should begin with an application signature, followed by the data.
 
@@ -98,12 +85,14 @@ A public comment is a comment that begins with the comment signature identifier 
 <table>
 <tr>
 <td>GDICOMMENT_WINDOWS_METAFILE</td>
-<td>The GDICOMMENT_WINDOWS_METAFILE public comment contains a Windows-format metafile that is equivalent to an enhanced-format metafile. This comment is written only by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function. The comment record, if given, follows the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a> metafile record. The comment has the following form:</td>
+<td>The GDICOMMENT_WINDOWS_METAFILE public comment contains a Windows-format metafile that is equivalent to an enhanced-format metafile. This comment is written only by the <a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function. The comment record, if given, follows the <a href="/windows/desktop/api/wingdi/ns-wingdi-enhmetaheader">ENHMETAHEADER</a> metafile record. The comment has the following form:</td>
 </tr>
 </table>
  
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 DWORD ident;         // This contains GDICOMMENT_IDENTIFIER.  
 DWORD iComment;      // This contains GDICOMMENT_WINDOWS_METAFILE.  
 DWORD nVersion;      // This contains the version number of the  
@@ -118,7 +107,9 @@ DWORD nChecksum;     // This is the additive DWORD checksum for
 DWORD fFlags;        // This must be zero.  
 DWORD cbWinMetaFile; // This is the size, in bytes. of the  
                      // Windows-format metafile data that follows.  
-</code></pre>
+
+```
+
 <table>
 <tr>
 <td>GDICOMMENT_BEGINGROUP</td>
@@ -127,7 +118,9 @@ DWORD cbWinMetaFile; // This is the size, in bytes. of the
 </table>
  
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 DWORD   ident;         // This contains GDICOMMENT_IDENTIFIER.  
 DWORD   iComment;      // This contains GDICOMMENT_BEGINGROUP.  
 RECTL   rclOutput;     // This is the bounding rectangle for the  
@@ -136,7 +129,9 @@ DWORD   nDescription;  // This is the number of characters in the
                        // optional Unicode description string that  
                        // follows. This is zero if there is no  
                        // description string.  
-</code></pre>
+
+```
+
 <table>
 <tr>
 <td>GDICOMMENT_ENDGROUP</td>
@@ -145,32 +140,27 @@ DWORD   nDescription;  // This is the number of characters in the
 </table>
  
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 DWORD   ident;       // This contains GDICOMMENT_IDENTIFIER.  
 DWORD   iComment;    // This contains GDICOMMENT_ENDGROUP.  
-</code></pre>
 
+```
 
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createenhmetafilea">CreateEnhMetaFile</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>

@@ -1,16 +1,13 @@
 ---
-UID: NS:iptypes.__unnamed_struct_12
+UID: NS:iptypes.FIXED_INFO_W2KSP1
 title: FIXED_INFO_W2KSP1 (iptypes.h)
 description: The FIXED_INFO structure contains information that is the same across all the interfaces on a computer.
+helpviewer_keywords: ["*PFIXED_INFO","*PFIXED_INFO_W2KSP1","BROADCAST_NODETYPE","FIXED_INFO","FIXED_INFO structure [IP Helper]","FIXED_INFO_W2KSP1","HYBRID_NODETYPE","MIXED_NODETYPE","PEER_TO_PEER_NODETYPE","PFIXED_INFO","PFIXED_INFO structure pointer [IP Helper]","_iphlp_fixed_info","iphlp.fixed_info","iptypes/FIXED_INFO","iptypes/PFIXED_INFO"]
 old-location: iphlp\fixed_info.htm
 tech.root: IpHlp
 ms.assetid: 6dcf33c6-33dc-4583-9b04-5231948d3d9a
 ms.date: 12/05/2018
 ms.keywords: '*PFIXED_INFO, *PFIXED_INFO_W2KSP1, BROADCAST_NODETYPE, FIXED_INFO, FIXED_INFO structure [IP Helper], FIXED_INFO_W2KSP1, HYBRID_NODETYPE, MIXED_NODETYPE, PEER_TO_PEER_NODETYPE, PFIXED_INFO, PFIXED_INFO structure pointer [IP Helper], _iphlp_fixed_info, iphlp.fixed_info, iptypes/FIXED_INFO, iptypes/PFIXED_INFO'
-f1_keywords:
-- iptypes/FIXED_INFO
-dev_langs:
-- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iptypes.h
-api_name:
-- FIXED_INFO
 targetos: Windows
 req.typenames: FIXED_INFO_W2KSP1, *PFIXED_INFO_W2KSP1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFIXED_INFO_W2KSP1
+ - iptypes/PFIXED_INFO_W2KSP1
+ - FIXED_INFO_W2KSP1
+ - iptypes/FIXED_INFO_W2KSP1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iptypes.h
+api_name:
+ - FIXED_INFO
 ---
 
 # FIXED_INFO_W2KSP1 structure
@@ -48,16 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FIXED_INFO</b> structure contains information that is the same across all the interfaces on a computer.
-		
-
 
 ## -struct-fields
-
-
-
 
 ### -field HostName
 
@@ -65,13 +63,11 @@ Type: <b>char[MAX_HOSTNAME_LEN + 4]</b>
 
 The hostname for the local computer. This may be the fully qualified hostname (including the domain) for a computer that is joined to a domain.
 
-
 ### -field DomainName
 
 Type: <b>char[MAX_DOMAIN_NAME_LEN + 4]</b>
 
 The domain in which the local computer is registered.
-
 
 ### -field CurrentDnsServer
 
@@ -79,14 +75,12 @@ Type: <b>PIP_ADDR_STRING</b>
 
 Reserved. Use the <b>DnsServerList</b> member to obtain the DNS servers for the local computer.
 
-
 ### -field DnsServerList
 
 Type: <b>IP_ADDR_STRING</b>
 
 A linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
-
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a> structures that specify the set of DNS servers used by the local computer.
 
 ### -field NodeType
 
@@ -153,8 +147,6 @@ A hybrid nodetype.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ScopeId
 
@@ -162,13 +154,11 @@ Type: <b>char[MAX_SCOPE_ID_LEN + 4]</b>
 
 The DHCP scope name.
 
-
 ### -field EnableRouting
 
 Type: <b>UINT</b>
 
 A Boolean value that specifies whether routing is enabled on the local computer.
-
 
 ### -field EnableProxy
 
@@ -176,20 +166,16 @@ Type: <b>UINT</b>
 
 A Boolean value that specifies whether the local computer is acting as an ARP proxy.
 
-
 ### -field EnableDns
 
 Type: <b>UINT</b>
 
 A Boolean value that specifies whether DNS is enabled on the local computer.
 
-
 ## -remarks
 
-
-
 The 
-<b>FIXED_INFO</b> structure is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function.
+<b>FIXED_INFO</b> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function.
 
 In the Microsoft Windows Software Development Kit (SDK), the <b>FIXED_INFO_WIN2KSP1</b> structure is defined.   When compiling an 
      application if the target platform is Windows 2000 with Service Pack 1 (SP1) and later (<code>NTDDI_VERSION &gt;= NTDDI_WIN2KSP1</code>, 
@@ -198,7 +184,7 @@ In the Microsoft Windows Software Development Kit (SDK), the <b>FIXED_INFO_WIN2K
      platform is not Windows 2000 with SP1 and later, the 
      <b>FIXED_INFO</b> structure is undefined.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function and the 
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a> function and the 
      <b>FIXED_INFO</b> structure are supported on  Windows 98and later. But to build an application for a target platform earlier than Windows 2000 with Service Pack 1 (SP1), an earlier version of the Platform Software Development Kit (SDK)  must be used.
 
 
@@ -312,29 +298,19 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnetworkparams">GetNetworkParams</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
- 
-
- 
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
 

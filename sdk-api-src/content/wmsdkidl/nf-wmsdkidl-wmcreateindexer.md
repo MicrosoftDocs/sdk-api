@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateIndexer
 title: WMCreateIndexer function (wmsdkidl.h)
 description: The WMCreateIndexer function creates an indexer object.
+helpviewer_keywords: ["WMCreateIndexer","WMCreateIndexer function [windows Media Format]","wmformat.wmcreateindexer","wmsdkidl/WMCreateIndexer"]
 old-location: wmformat\wmcreateindexer.htm
 tech.root: wmformat
 ms.assetid: 08f83923-ed33-41d2-b7f8-d70627197b31
 ms.date: 12/05/2018
 ms.keywords: WMCreateIndexer, WMCreateIndexer function [windows Media Format], wmformat.wmcreateindexer, wmsdkidl/WMCreateIndexer
-f1_keywords:
-- wmsdkidl/WMCreateIndexer
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateIndexer
+ - wmsdkidl/WMCreateIndexer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateIndexer
 ---
 
 # WMCreateIndexer function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>WMCreateIndexer</b> function creates an indexer object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppIndexer [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer</a> interface of the newly created indexer object.
-
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer</a> interface of the newly created indexer object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,26 +90,15 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer">IWMIndexer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/indexer-object">Indexer Object</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/indexer-object">Indexer Object</a>

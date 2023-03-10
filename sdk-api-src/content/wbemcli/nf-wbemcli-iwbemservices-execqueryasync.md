@@ -2,15 +2,12 @@
 UID: NF:wbemcli.IWbemServices.ExecQueryAsync
 title: IWbemServices::ExecQueryAsync (wbemcli.h)
 description: The IWbemServices::ExecQueryAsync method executes a query to retrieve objects asynchronously.
+helpviewer_keywords: ["ExecQueryAsync","ExecQueryAsync method [Windows Management Instrumentation]","ExecQueryAsync method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","ExecQueryAsync method","IWbemServices.ExecQueryAsync","IWbemServices::ExecQueryAsync","WBEM_FLAG_BIDIRECTIONAL","WBEM_FLAG_DIRECT_READ","WBEM_FLAG_ENSURE_LOCATABLE","WBEM_FLAG_PROTOTYPE","WBEM_FLAG_SEND_STATUS","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_execqueryasync","wbemcli/IWbemServices::ExecQueryAsync","wmi.iwbemservices_execqueryasync"]
 old-location: wmi\iwbemservices_execqueryasync.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: d8b55500-d84c-431b-93c6-99d1f1b845c3
 ms.date: 12/05/2018
 ms.keywords: ExecQueryAsync, ExecQueryAsync method [Windows Management Instrumentation], ExecQueryAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],ExecQueryAsync method, IWbemServices.ExecQueryAsync, IWbemServices::ExecQueryAsync, WBEM_FLAG_BIDIRECTIONAL, WBEM_FLAG_DIRECT_READ, WBEM_FLAG_ENSURE_LOCATABLE, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SEND_STATUS, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_execqueryasync, wbemcli/IWbemServices::ExecQueryAsync, wmi.iwbemservices_execqueryasync
-f1_keywords:
-- wbemcli/IWbemServices.ExecQueryAsync
-dev_langs:
-- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -28,33 +25,38 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fastprox.dll
-- Esscli.dll
-- FrameDyn.dll
-- FrameDynOS.dll
-- Ntevt.dll
-- Stdprov.dll
-- Viewprov.dll
-- Wbemcomn.dll
-- Wbemcore.dll
-- Wbemess.dll
-- Wbemsvc.dll
-- Wmipicmp.dll
-- Wmidcprv.dll
-- Wmipjobj.dll
-- Wmiprvsd.dll
-api_name:
-- IWbemServices.ExecQueryAsync
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemServices::ExecQueryAsync
+ - wbemcli/IWbemServices::ExecQueryAsync
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fastprox.dll
+ - Esscli.dll
+ - FrameDyn.dll
+ - FrameDynOS.dll
+ - Ntevt.dll
+ - Stdprov.dll
+ - Viewprov.dll
+ - Wbemcomn.dll
+ - Wbemcore.dll
+ - Wbemess.dll
+ - Wbemsvc.dll
+ - Wmipicmp.dll
+ - Wmidcprv.dll
+ - Wmipjobj.dll
+ - Wmiprvsd.dll
+api_name:
+ - IWbemServices.ExecQueryAsync
 ---
 
 # IWbemServices::ExecQueryAsync
@@ -62,19 +64,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWbemServices::ExecQueryAsync</b> method executes a query to retrieve objects asynchronously.
 
-
 ## -parameters
-
-
-
 
 ### -param strQueryLanguage [in]
 
 Valid <b>BSTR</b> that contains one of the query languages that Windows Management Instrumentation (WMI) supports. This must be "WQL".
-
 
 ### -param strQuery [in]
 
@@ -84,9 +80,8 @@ Valid <b>BSTR</b> that contains the text of the query. This cannot be
    a simple  query, or  choose to retrieve and enumerate the superset of the query instances.
 
 For more information on building WMI query strings, see 
-   <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the 
-   <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
-
+   <a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a> and the 
+   <a href="/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a> reference.
 
 ### -param lFlags [in]
 
@@ -109,7 +104,7 @@ This flag causes WMI to retain pointers to objects of the enumeration until the 
 #### WBEM_FLAG_SEND_STATUS
 
 This flag registers a request with WMI to receive intermediate status reports through the client's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change.
 
 
 
@@ -129,33 +124,28 @@ This flag is used for prototyping. It does not execute the query, but returns an
 
 This flag causes direct access to the provider for the class specified without regard to its parent class or subclasses.
 
-
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that the provider can use to  return the requested classes or instances. The values in the context object must be specified in the documentation for the provider. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that the provider can use to  return the requested classes or instances. The values in the context object must be specified in the documentation for the provider. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param pResponseHandler [in]
 
 Pointer to the caller's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>. This handler receives the objects in the query result set as they become available. If any error code is returned, then the supplied 
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>. This handler receives the objects in the query result set as they become available. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management Instrumentation (WMI) calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> with the objects any number of times, followed by a single call to <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> to indicate the final status.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> with the objects any number of times, followed by a single call to <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> to indicate the final status.
 
-WMI only calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as on entry. For a detailed explanation of asynchronous calling methods, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
-
+WMI only calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to the pointer when <b>WBEM_S_NO_ERROR</b> returns. When an error code returns, the reference count is the same as on entry. For a detailed explanation of asynchronous calling methods, see 
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 ## -returns
 
-
-
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-When there is a  failure, you can obtain   information from the COM function <a href="https://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+When there is a  failure, you can obtain   information from the COM function <a href="/windows/win32/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a>.
 
 Other error codes are returned to the object sink specified by the <i>pResponseHandler</i> parameter.
 
@@ -163,34 +153,29 @@ COM-specific error codes might be returned if network problems cause you to lose
 
 When finished, an instance provider can report success or failure with either the return code from 
 <b>ExecQueryAsync</b> or through a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> made through <i>pResponseHandler</i>. If you choose to call 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> made through <i>pResponseHandler</i>. If you choose to call 
 <b>SetStatus</b>, the return code sent through <i>pResponseHandler</i> takes precedence.
-
-
-
 
 ## -remarks
 
-
-
 There are limits to the number of AND and OR keywords that can be used in WQL queries.  Large numbers of WQL keywords used in a complex query can cause WMI to return the <b>WBEM_E_QUOTA_VIOLATION</b> error code as an <b>HRESULT</b> value.  The limit of WQL keywords depends on how complex the query is.
 
-The caller's <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method can be called to report intermittent status. The <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set.
+The caller's <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method can be called to report intermittent status. The <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set.
 
 When   a provider does not support query processing, WMI can support it. However, a provider implementation of query processing is probably more efficient than the WMI version. To support queries, your instance provider must implement the 
 <b>ExecQueryAsync</b> method. If a provider supports 
 <b>ExecQueryAsync</b>, WMI sends a simple unary SELECT query directly to the provider through the <i>strQuery</i> parameter and the provider must parse the query and return the relevant instances. The provider must parse the query because WMI does not modify the query—even when the query is written in WQL.
 
-To use WMI for query processing, do not set the <b>QuerySupportLevels</b> property in your <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--instanceproviderregistration">__InstanceProviderRegistration</a>. When you do this, WMI calls your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync">CreateInstanceEnumAsync</a> and post filters the results so that the caller only gets those instances that meet the query criteria.
+To use WMI for query processing, do not set the <b>QuerySupportLevels</b> property in your <a href="/windows/desktop/WmiSdk/--instanceproviderregistration">__InstanceProviderRegistration</a>. When you do this, WMI calls your implementation of <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-createinstanceenumasync">CreateInstanceEnumAsync</a> and post filters the results so that the caller only gets those instances that meet the query criteria.
 
 The following example shows a typical instance provider implementation of 
 <b>ExecQueryAsync</b>. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It may also be called with no intervening calls to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> if error conditions occur.
 
-Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+For more information, see <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a> and <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 ```cpp
@@ -248,11 +233,11 @@ HRESULT CStdProvider::ExecQueryAsync(
 ```
 
 
-In the previous example, the instance provider acquires a thread from WMI to perform the necessary synching operations. You can call the sink <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
+In the previous example, the instance provider acquires a thread from WMI to perform the necessary synching operations. You can call the sink <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="alert"><b>Note</b>  When providers implement 
 <b>ExecQueryAsync</b>, they are expected by default to return the correct result set based on the query. If a provider cannot return the correct result set easily, it may return a superset of the results and request that WMI do post-filtering before delivering the objects to the client to ensure that the result set is correct. To do this, the provider calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> on the sink provided to its 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">SetStatus</a> on the sink provided to its 
 <b>ExecQueryAsync</b> implementation, with the following flags.</div>
 <div> </div>
 
@@ -272,33 +257,22 @@ pSink->SetStatus(WBEM_STATUS_REQUIREMENTS,
     WBEM_REQUIREMENTS_STOP_POSTFILTER, 0, 0);
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execquery">IWbemServices::ExecQuery</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
- 
-
- 
-
+<a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>

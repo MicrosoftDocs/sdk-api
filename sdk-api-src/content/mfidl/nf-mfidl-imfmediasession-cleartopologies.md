@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaSession.ClearTopologies
 title: IMFMediaSession::ClearTopologies (mfidl.h)
 description: Clears all of the presentations that are queued for playback in the Media Session.
+helpviewer_keywords: ["ClearTopologies","ClearTopologies method [Media Foundation]","ClearTopologies method [Media Foundation]","IMFMediaSession interface","IMFMediaSession interface [Media Foundation]","ClearTopologies method","IMFMediaSession.ClearTopologies","IMFMediaSession::ClearTopologies","fcb7e5f1-1095-4766-afed-43ad2279abb4","mf.imfmediasession_cleartopologies","mfidl/IMFMediaSession::ClearTopologies"]
 old-location: mf\imfmediasession_cleartopologies.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: fcb7e5f1-1095-4766-afed-43ad2279abb4
 ms.date: 12/05/2018
 ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTopologies method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],ClearTopologies method, IMFMediaSession.ClearTopologies, IMFMediaSession::ClearTopologies, fcb7e5f1-1095-4766-afed-43ad2279abb4, mf.imfmediasession_cleartopologies, mfidl/IMFMediaSession::ClearTopologies
-f1_keywords:
-- mfidl/IMFMediaSession.ClearTopologies
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaSession.ClearTopologies
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSession::ClearTopologies
+ - mfidl/IMFMediaSession::ClearTopologies
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaSession.ClearTopologies
 ---
 
 # IMFMediaSession::ClearTopologies
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Clears all of the presentations that are queued for playback in the Media Session.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,29 +101,13 @@ The Media Session has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method is asynchronous. When the operation completes, the Media Session sends an <a href="/windows/desktop/medfound/mesessiontopologiescleared">MESessionTopologiesCleared</a> event.
 
-
-This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessiontopologiescleared">MESessionTopologiesCleared</a> event.
-
-This method does not clear the current topology; it only removes topologies that are placed in the queue, waiting for playback. To remove the current topology, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> with the <b>MFSESSION_SETTOPOLOGY_CLEAR_CURRENT</b> flag.
-
-
-
+This method does not clear the current topology; it only removes topologies that are placed in the queue, waiting for playback. To remove the current topology, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> with the <b>MFSESSION_SETTOPOLOGY_CLEAR_CURRENT</b> flag.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>

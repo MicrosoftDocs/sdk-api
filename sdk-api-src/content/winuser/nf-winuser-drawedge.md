@@ -2,15 +2,12 @@
 UID: NF:winuser.DrawEdge
 title: DrawEdge function (winuser.h)
 description: The DrawEdge function draws one or more edges of rectangle.
+helpviewer_keywords: ["BDR_RAISEDINNER","BDR_RAISEDOUTER","BDR_SUNKENINNER","BDR_SUNKENOUTER","BF_ADJUST","BF_BOTTOM","BF_BOTTOMLEFT","BF_BOTTOMRIGHT","BF_DIAGONAL","BF_DIAGONAL_ENDBOTTOMLEFT","BF_DIAGONAL_ENDBOTTOMRIGHT","BF_DIAGONAL_ENDTOPLEFT","BF_DIAGONAL_ENDTOPRIGHT","BF_FLAT","BF_LEFT","BF_MIDDLE","BF_MONO","BF_RECT","BF_RIGHT","BF_SOFT","BF_TOP","BF_TOPLEFT","BF_TOPRIGHT","DrawEdge","DrawEdge function [Windows GDI]","EDGE_BUMP","EDGE_ETCHED","EDGE_RAISED","EDGE_SUNKEN","_win32_DrawEdge","gdi.drawedge","winuser/DrawEdge"]
 old-location: gdi\drawedge.htm
 tech.root: gdi
 ms.assetid: 07d5216e-b577-4ff3-9e3f-eefb486b1ebd
 ms.date: 12/05/2018
 ms.keywords: BDR_RAISEDINNER, BDR_RAISEDOUTER, BDR_SUNKENINNER, BDR_SUNKENOUTER, BF_ADJUST, BF_BOTTOM, BF_BOTTOMLEFT, BF_BOTTOMRIGHT, BF_DIAGONAL, BF_DIAGONAL_ENDBOTTOMLEFT, BF_DIAGONAL_ENDBOTTOMRIGHT, BF_DIAGONAL_ENDTOPLEFT, BF_DIAGONAL_ENDTOPRIGHT, BF_FLAT, BF_LEFT, BF_MIDDLE, BF_MONO, BF_RECT, BF_RIGHT, BF_SOFT, BF_TOP, BF_TOPLEFT, BF_TOPRIGHT, DrawEdge, DrawEdge function [Windows GDI], EDGE_BUMP, EDGE_ETCHED, EDGE_RAISED, EDGE_SUNKEN, _win32_DrawEdge, gdi.drawedge, winuser/DrawEdge
-f1_keywords:
-- winuser/DrawEdge
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- ext-ms-win-ntuser-draw-l1-1-2.dll
-api_name:
-- DrawEdge
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawEdge
+ - winuser/DrawEdge
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - ext-ms-win-ntuser-draw-l1-1-2.dll
+api_name:
+ - DrawEdge
+req.apiset: ext-ms-win-ntuser-draw-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # DrawEdge function
@@ -49,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrawEdge</b> function draws one or more edges of rectangle.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param qrc [in, out]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the logical coordinates of the rectangle.
-
 
 ### -param edge [in]
 
@@ -178,8 +174,6 @@ Combination of BDR_SUNKENOUTER and BDR_SUNKENINNER.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param grfFlags [in]
 
@@ -383,36 +377,22 @@ Top and right side of border rectangle.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
- 
-
- 
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentWriteSpeed
 title: IDiscFormat2RawCD::get_CurrentWriteSpeed (imapi2.h)
-description: Retrieves the drive's current write speed.
+description: Retrieves the drive's current write speed. (IDiscFormat2RawCD.get_CurrentWriteSpeed)
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_CurrentWriteSpeed method","IDiscFormat2RawCD.get_CurrentWriteSpeed","IDiscFormat2RawCD::get_CurrentWriteSpeed","get_CurrentWriteSpeed","get_CurrentWriteSpeed method [IMAPI]","get_CurrentWriteSpeed method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_currentwritespeed","imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed"]
 old-location: imapi\idiscformat2rawcd_get_currentwritespeed.htm
 tech.root: imapi
 ms.assetid: f369f719-7db6-4a79-a5fa-d174bf12acbc
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentWriteSpeed method, IDiscFormat2RawCD.get_CurrentWriteSpeed, IDiscFormat2RawCD::get_CurrentWriteSpeed, get_CurrentWriteSpeed, get_CurrentWriteSpeed method [IMAPI], get_CurrentWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentwritespeed, imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed
-f1_keywords:
-- imapi2/IDiscFormat2RawCD.get_CurrentWriteSpeed
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2RawCD.get_CurrentWriteSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2RawCD::get_CurrentWriteSpeed
+ - imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2RawCD.get_CurrentWriteSpeed
 ---
 
 # IDiscFormat2RawCD::get_CurrentWriteSpeed
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the drive's current write speed.
-
 
 ## -parameters
 
-
-
-
 ### -param value [out]
 
-The write speed of the current media, measured in sectors per second. 
-
+The write speed of the current media, measured in sectors per second.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -373,43 +367,27 @@ Value: 0xC0AA0301
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To retrieve the requested write speed, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed">IDiscFormat2RawCD::get_RequestedWriteSpeed</a> method.
 
-
-To retrieve the requested write speed, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed">IDiscFormat2RawCD::get_RequestedWriteSpeed</a> method.
-
-To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">IDiscFormat2RawCD::get_SupportedWriteSpeeds</a> method.
+To retrieve a list of the write speeds that the recorder and current media supports, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">IDiscFormat2RawCD::get_SupportedWriteSpeeds</a> method.
 
 Note that the write speed is based on the media write speeds. The value of this property can change when a media change occurs.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-setwritespeed">IDiscFormat2RawCD::SetWriteSpeed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-setwritespeed">IDiscFormat2RawCD::SetWriteSpeed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed">IDiscFormat2RawCD::get_RequestedWriteSpeed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_requestedwritespeed">IDiscFormat2RawCD::get_RequestedWriteSpeed</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">IDiscFormat2RawCD::get_SupportedWriteSpeeds</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedwritespeeds">IDiscFormat2RawCD::get_SupportedWriteSpeeds</a>

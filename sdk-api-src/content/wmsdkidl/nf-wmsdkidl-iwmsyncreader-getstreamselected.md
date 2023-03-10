@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.GetStreamSelected
 title: IWMSyncReader::GetStreamSelected (wmsdkidl.h)
 description: The GetStreamSelected method retrieves a flag indicating whether a particular stream is currently selected.
+helpviewer_keywords: ["GetStreamSelected","GetStreamSelected method [windows Media Format]","GetStreamSelected method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetStreamSelected method","IWMSyncReader.GetStreamSelected","IWMSyncReader::GetStreamSelected","IWMSyncReaderGetStreamSelected","wmformat.iwmsyncreader_getstreamselected","wmsdkidl/IWMSyncReader::GetStreamSelected"]
 old-location: wmformat\iwmsyncreader_getstreamselected.htm
 tech.root: wmformat
 ms.assetid: bcde749e-c0fd-4be8-8708-a053854a9275
 ms.date: 12/05/2018
 ms.keywords: GetStreamSelected, GetStreamSelected method [windows Media Format], GetStreamSelected method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetStreamSelected method, IWMSyncReader.GetStreamSelected, IWMSyncReader::GetStreamSelected, IWMSyncReaderGetStreamSelected, wmformat.iwmsyncreader_getstreamselected, wmsdkidl/IWMSyncReader::GetStreamSelected
-f1_keywords:
-- wmsdkidl/IWMSyncReader.GetStreamSelected
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.GetStreamSelected
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::GetStreamSelected
+ - wmsdkidl/IWMSyncReader::GetStreamSelected
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.GetStreamSelected
 ---
 
 # IWMSyncReader::GetStreamSelected
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetStreamSelected</b> method retrieves a flag indicating whether a particular stream is currently selected.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number.
 
-
 ### -param pSelection [out]
 
-Pointer to a variable that receives one member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a> enumeration type on output. This value specifies the selection status for the specified stream.
-
+Pointer to a variable that receives one member of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a> enumeration type on output. This value specifies the selection status for the specified stream.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -129,27 +119,11 @@ No file is open in the synchronous reader.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">IWMReaderAdvanced::GetStreamSelected</a>.
-
-
-
+This method is identical to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">IWMReaderAdvanced::GetStreamSelected</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>

@@ -2,6 +2,7 @@
 UID: NF:tuner.IESEvent.GetEventType
 title: IESEvent::GetEventType (tuner.h)
 description: Gets the GUID that identifies an event that is derived from the IESEvent interface. The GUID is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
+helpviewer_keywords: ["GetEventType","GetEventType method [Microsoft TV Technologies]","GetEventType method [Microsoft TV Technologies]","IESEvent interface","IESEvent interface [Microsoft TV Technologies]","GetEventType method","IESEvent.GetEventType","IESEvent::GetEventType","mstv.iesevent_geteventtype","tuner/IESEvent::GetEventType"]
 old-location: mstv\iesevent_geteventtype.htm
 tech.root: mstv
 ms.assetid: 8418116a-2393-4a1b-8c5b-2356d373e426
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the GUID that identifies an event that is derived from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface. The GUID is contained in an <b>IESEvent</b> object, which ispassed in a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>.
+Gets the GUID that identifies an event that is derived from the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface. The GUID is contained in an <b>IESEvent</b> object, which ispassed in a call to <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>.
 
 
 ## -parameters
@@ -66,7 +67,7 @@ Pointer to the GUID that uniquely identifies the event type.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 
 
@@ -76,12 +77,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>
  
 
  
-

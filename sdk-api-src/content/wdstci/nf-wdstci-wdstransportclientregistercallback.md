@@ -2,15 +2,12 @@
 UID: NF:wdstci.WdsTransportClientRegisterCallback
 title: WdsTransportClientRegisterCallback function (wdstci.h)
 description: Registers a callback with the multicast client.
+helpviewer_keywords: ["WdsTransportClientRegisterCallback","WdsTransportClientRegisterCallback function [Windows Deployment Services]","wds.wdstransportclientregistercallback","wdstci/WdsTransportClientRegisterCallback"]
 old-location: wds\wdstransportclientregistercallback.htm
 tech.root: wds
 ms.assetid: e3c809c4-5681-4979-8633-bb8d3dbde35b
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientRegisterCallback, WdsTransportClientRegisterCallback function [Windows Deployment Services], wds.wdstransportclientregistercallback, wdstci/WdsTransportClientRegisterCallback
-f1_keywords:
-- wdstci/WdsTransportClientRegisterCallback
-dev_langs:
-- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wdstptc.lib
 req.dll: Wdstptc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wdstptc.dll
-api_name:
-- WdsTransportClientRegisterCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsTransportClientRegisterCallback
+ - wdstci/WdsTransportClientRegisterCallback
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wdstptc.dll
+api_name:
+ - WdsTransportClientRegisterCallback
 ---
 
 # WdsTransportClientRegisterCallback function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Registers a callback with the multicast client.
-
 
 ## -parameters
 
-
-
-
 ### -param hSessionKey [in]
 
-Unique handle returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
-
+Unique handle returned by the call to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
 
 ### -param CallbackId [in]
 
-Identifier specifying which callback is being registered. This parameter receives a <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/ne-wdstci-transportclient_callback_id">TRANSPORTCLIENT_CALLBACK_ID</a> enumeration value. 
+Identifier specifying which callback is being registered. This parameter receives a <a href="/windows/desktop/api/wdstci/ne-wdstci-transportclient_callback_id">TRANSPORTCLIENT_CALLBACK_ID</a> enumeration value. 
 
 <table>
 <tr>
@@ -78,7 +74,7 @@ Identifier specifying which callback is being registered. This parameter receive
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstart">PFN_WdsTransportClientSessionStart</a> callback. This callback is required.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstart">PFN_WdsTransportClientSessionStart</a> callback. This callback is required.
 
 </td>
 </tr>
@@ -89,7 +85,7 @@ Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivecontents">PFN_WdsTransportClientReceiveContents</a> callback. This callback is required.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivecontents">PFN_WdsTransportClientReceiveContents</a> callback. This callback is required.
 
 </td>
 </tr>
@@ -100,7 +96,7 @@ Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessioncomplete">PFN_WdsTransportClientSessionComplete</a> callback. This callback is required.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessioncomplete">PFN_WdsTransportClientSessionComplete</a> callback. This callback is required.
 
 </td>
 </tr>
@@ -111,33 +107,20 @@ Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc
 </dl>
 </td>
 <td width="60%">
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivemetadata">PFN_WdsTransportClientReceiveMetadata</a> callback. This callback is optional.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivemetadata">PFN_WdsTransportClientReceiveMetadata</a> callback. This callback is optional.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pfnCallback [in]
 
 Pointer to the function pointer associated with this id.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -remarks
 
-
-
-All callbacks must be registered with the client before the consumer calls <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a>.  Once the session is started, no further callbacks may be registered. 
-
-
-
+All callbacks must be registered with the client before the consumer calls <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a>.  Once the session is started, no further callbacks may be registered.

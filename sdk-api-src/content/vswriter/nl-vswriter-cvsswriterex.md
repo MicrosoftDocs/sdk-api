@@ -2,15 +2,12 @@
 UID: NL:vswriter.CVssWriterEx
 title: CVssWriterEx (vswriter.h)
 description: The CVssWriterEx class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
+helpviewer_keywords: ["CVssWriterEx","CVssWriterEx class","CVssWriterEx class","described","base.cvsswriterex","vswriter/CVssWriterEx"]
 old-location: base\cvsswriterex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 29820c1d-2add-402d-a9ca-9e8674d85f7f
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx, CVssWriterEx class, CVssWriterEx class,described, base.cvsswriterex, vswriter/CVssWriterEx
-f1_keywords:
-- vswriter/CVssWriterEx
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriterEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriterEx
+ - vswriter/CVssWriterEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriterEx
 ---
 
 # CVssWriterEx class
@@ -49,31 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CVssWriterEx</b> class is an abstract base class that defines 
     the interface by which a writer synchronizes its state with VSS and other writers. 
 
-The <b>CVssWriterEx</b> class inherits the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class.
+The <b>CVssWriterEx</b> class inherits the methods of the <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> class.
 
 Every writer must create an instance of the  
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> or <b>CVssWriterEx</b> class.
+    <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> or <b>CVssWriterEx</b> class.
 
 Objects that are derived from <b>CVssWriterEx</b> must supply implementations 
-    for all of the pure virtual methods of both the <b>CVssWriterEx</b> and <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> classes.
+    for all of the pure virtual methods of both the <b>CVssWriterEx</b> and <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> classes.
 
 A writer can override any or all of  the virtual 
-    methods of <b>CVssWriterEx</b> and <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>. However, a writer can override the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">OnIdentifyEx</a> method, but not both.
+    methods of <b>CVssWriterEx</b> and <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>. However, a writer can override the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">OnIdentifyEx</a> method, but not both.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">CVssWriterEx</b> has these types of members:
-
+<b>CVssWriterEx</b> has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>

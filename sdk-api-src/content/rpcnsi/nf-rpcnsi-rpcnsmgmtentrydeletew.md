@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryDeleteW
 title: RpcNsMgmtEntryDeleteW function (rpcnsi.h)
-description: The RpcNsMgmtEntryDelete function deletes a name service&#8211;database entry.
+description: The RpcNsMgmtEntryDelete function deletes a name service�database entry. (Unicode)
+helpviewer_keywords: ["RpcNsMgmtEntryDelete", "RpcNsMgmtEntryDelete function [RPC]", "RpcNsMgmtEntryDeleteW", "_rpc_rpcnsmgmtentrydelete", "rpc.rpcnsmgmtentrydelete", "rpcnsi/RpcNsMgmtEntryDelete", "rpcnsi/RpcNsMgmtEntryDeleteW"]
 old-location: rpc\rpcnsmgmtentrydelete.htm
 tech.root: Rpc
 ms.assetid: 65d04a7c-e42c-4956-a953-b9aec95254e0
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryDelete, RpcNsMgmtEntryDelete function [RPC], RpcNsMgmtEntryDeleteA, RpcNsMgmtEntryDeleteW, _rpc_rpcnsmgmtentrydelete, rpc.rpcnsmgmtentrydelete, rpcnsi/RpcNsMgmtEntryDelete, rpcnsi/RpcNsMgmtEntryDeleteA, rpcnsi/RpcNsMgmtEntryDeleteW
-f1_keywords:
-- rpcnsi/RpcNsMgmtEntryDelete
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsMgmtEntryDelete
-- RpcNsMgmtEntryDeleteA
-- RpcNsMgmtEntryDeleteW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsMgmtEntryDeleteW
+ - rpcnsi/RpcNsMgmtEntryDeleteW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsMgmtEntryDelete
+ - RpcNsMgmtEntryDeleteA
+ - RpcNsMgmtEntryDeleteW
 ---
 
 # RpcNsMgmtEntryDeleteW function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsMgmtEntryDelete</b> function deletes a name service–database entry.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -69,15 +67,11 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the name of the entry to delete.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -165,14 +159,10 @@ Not an RPC entry.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 Management applications use the 
 <b>RpcNsMgmtEntryDelete</b> function only when an entry is no longer needed—for example, when a server is being permanently removed from service.
@@ -183,13 +173,10 @@ Because name-service databases are designed to be relatively stable, frequent us
 
 
 
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsMgmtEntryDelete as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>

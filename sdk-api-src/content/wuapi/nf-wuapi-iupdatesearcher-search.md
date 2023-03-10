@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateSearcher.Search
 title: IUpdateSearcher::Search (wuapi.h)
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
+helpviewer_keywords: ["IUpdateSearcher interface [Windows Update Agent]","Search method","IUpdateSearcher.Search","IUpdateSearcher::Search","Search","Search method [Windows Update Agent]","Search method [Windows Update Agent]","IUpdateSearcher interface","wua.iupdatesearchersearch","wuapi/IUpdateSearcher::Search"]
 old-location: wua\iupdatesearchersearch.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
-f1_keywords:
-- wuapi/IUpdateSearcher.Search
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSearcher.Search
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSearcher::Search
+ - wuapi/IUpdateSearcher::Search
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSearcher.Search
 ---
 
 # IUpdateSearcher::Search
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Performs a synchronous search for updates. The search uses the search options that are currently configured.
 
-
 ## -parameters
-
-
-
 
 ### -param criteria [in]
 
 A string that specifies the search criteria.
 
-
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a> interface that contains the following:
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a> interface that contains the following:
 
 <ul>
 <li>The result of an operation</li>
@@ -72,8 +68,6 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearc
 </ul>
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -91,7 +85,7 @@ This method can also return the following error codes.
 </dl>
 </td>
 <td width="60%">
-You cannot search for updates if the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_serverselection">ServerSelection</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssManagedServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapicommon/ne-wuapicommon-serverselection">ssDefault</a>, and the managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.
+You cannot search for updates if the <a href="/openspecs/windows_protocols/ms-uamg/07e2bfa4-6795-4189-b007-cc50b476181a">ServerSelection</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a> interface is set to <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wuapicommon/ne-wuapicommon-serverselection.md">ssManagedServer</a> or <a href="https://github.com/MicrosoftDocs/sdk-api/blob/docs/sdk-api-src/content/wuapicommon/ne-wuapicommon-serverselection.md">ssDefault</a>, and the managed server on a computer is a Microsoft Software Update Services (SUS) 1.0 server.
 
 </td>
 </tr>
@@ -118,14 +112,8 @@ There is an invalid search criteria.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The string that is used for the <i>criteria</i> parameter must match the custom search language for the <b>Search</b> method.  The string consists of criteria that are evaluated to determine the updates to return.
 
@@ -199,7 +187,7 @@ Finds updates that are intended for deployment by Automatic Updates.
 <td><b>int(bool)</b></td>
 <td><b>=</b></td>
 <td>
-Finds updates where the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_autoselectonwebsites">AutoSelectOnWebSites</a> property has the specified value.
+Finds updates where the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_autoselectonwebsites">AutoSelectOnWebSites</a> property has the specified value.
 
 "AutoSelectOnWebSites=1" finds updates that are flagged to be automatically selected by Windows Update.
 
@@ -212,11 +200,11 @@ Finds updates where the <a href="https://docs.microsoft.com/windows/desktop/api/
 <td><b>string(UUID)</b></td>
 <td><b>=</b>, <b>!=</b></td>
 <td>
-Finds updates for which the value of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> property matches the specified value. Can be used with the <b>!=</b> operator to find all the updates that do not have an <b>UpdateIdentity.UpdateID</b> of the specified value.
+Finds updates for which the value of the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> property matches the specified value. Can be used with the <b>!=</b> operator to find all the updates that do not have an <b>UpdateIdentity.UpdateID</b> of the specified value.
 
-For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that equal 12345678-9abc-def0-1234-56789abcdef0.
+For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that equal 12345678-9abc-def0-1234-56789abcdef0.
 
-For example, "UpdateID!='12345678-9abc-def0-1234-56789abcdef0'" finds updates for  <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that are not equal to 12345678-9abc-def0-1234-56789abcdef0.
+For example, "UpdateID!='12345678-9abc-def0-1234-56789abcdef0'" finds updates for  <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that are not equal to 12345678-9abc-def0-1234-56789abcdef0.
 
 
 
@@ -225,7 +213,7 @@ For example, "UpdateID!='12345678-9abc-def0-1234-56789abcdef0'" finds updates fo
 
 
   
-For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0' and RevisionNumber=100" can be used to find the update for <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that equals 12345678-9abc-def0-1234-56789abcdef0 and whose <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_revisionnumber">UpdateIdentity.RevisionNumber</a> equals 100.
+For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0' and RevisionNumber=100" can be used to find the update for <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that equals 12345678-9abc-def0-1234-56789abcdef0 and whose <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_revisionnumber">UpdateIdentity.RevisionNumber</a> equals 100.
 
 </td>
 </tr>
@@ -234,9 +222,9 @@ For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0' and RevisionNumber
 <td><b>int</b></td>
 <td><b>=</b></td>
 <td>
-Finds updates for which the value of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_revisionnumber">UpdateIdentity.RevisionNumber</a> property matches the specified value.
+Finds updates for which the value of the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_revisionnumber">UpdateIdentity.RevisionNumber</a> property matches the specified value.
 
-For example, "RevisionNumber=2" finds updates where <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_revisionnumber">UpdateIdentity.RevisionNumber</a> equals 2.
+For example, "RevisionNumber=2" finds updates where <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_revisionnumber">UpdateIdentity.RevisionNumber</a> equals 2.
 
 This criterion must be combined with the UpdateID property.
 
@@ -256,7 +244,7 @@ Finds updates that belong to a specified category.
 <td><b>int(bool)</b></td>
 <td><b>=</b></td>
 <td>
-Finds updates that are <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">installed</a> on the destination computer.
+Finds updates that are <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_isinstalled">installed</a> on the destination computer.
 
 "IsInstalled=1" finds updates that are installed on the destination computer.
 
@@ -269,11 +257,11 @@ Finds updates that are <a href="https://docs.microsoft.com/windows/desktop/api/w
 <td><b>int(bool)</b></td>
 <td><b>=</b></td>
 <td>
-Finds updates that are marked as <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_ishidden">hidden</a> on the destination computer.
+Finds updates that are marked as <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_ishidden">hidden</a> on the destination computer.
 
-"IsHidden=1" finds updates that are marked as hidden on a destination computer. When you use this clause, you can set the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">UpdateSearcher.IncludePotentiallySupersededUpdates</a> property to <b>VARIANT_TRUE</b> so that a search returns the hidden updates. The hidden updates might be superseded by other updates in the same results.
+"IsHidden=1" finds updates that are marked as hidden on a destination computer. When you use this clause, you can set the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">UpdateSearcher.IncludePotentiallySupersededUpdates</a> property to <b>VARIANT_TRUE</b> so that a search returns the hidden updates. The hidden updates might be superseded by other updates in the same results.
 
-"IsHidden=0" finds updates that are not marked as hidden. If the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">UpdateSearcher.IncludePotentiallySupersededUpdates</a> property is set to <b>VARIANT_FALSE</b>, it is better to include that clause in the search filter string so that the updates that are superseded by hidden updates are included in the search results. <b>VARIANT_FALSE</b>  is the default value.
+"IsHidden=0" finds updates that are not marked as hidden. If the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">UpdateSearcher.IncludePotentiallySupersededUpdates</a> property is set to <b>VARIANT_FALSE</b>, it is better to include that clause in the search filter string so that the updates that are superseded by hidden updates are included in the search results. <b>VARIANT_FALSE</b>  is the default value.
 
 </td>
 </tr>
@@ -308,20 +296,19 @@ Finds updates that require a computer to be restarted to complete an installatio
 
 The default search criteria for a search are as follows:
 
-<pre class="syntax" xml:space="preserve"><code>( IsInstalled = 0 and IsHidden = 0 )</code></pre>
-To find all the hidden updates (by using the  <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">UpdateSearcher.IncludePotentiallySupersededUpdates</a> property set to <b>VARIANT_TRUE</b>), use the following criterion:
 
-<pre class="syntax" xml:space="preserve"><code> ( IsHidden = 1 )</code></pre>
+``` syntax
+( IsInstalled = 0 and IsHidden = 0 )
+```
 
+To find all the hidden updates (by using the  <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-get_includepotentiallysupersededupdates">UpdateSearcher.IncludePotentiallySupersededUpdates</a> property set to <b>VARIANT_TRUE</b>), use the following criterion:
+
+
+``` syntax
+ ( IsHidden = 1 )
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

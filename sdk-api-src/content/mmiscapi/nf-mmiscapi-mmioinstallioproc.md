@@ -1,16 +1,13 @@
 ---
 UID: NF:mmiscapi.mmioInstallIOProc
 title: mmioInstallIOProc function (mmiscapi.h)
-description: The mmioInstallIOProc function installs or removes a custom I/O procedure. This function also locates an installed I/O procedure, using its corresponding four-character code.
+description: The mmioInstallIOProc function installs or removes a custom I/O procedure and locates an installed I/O procedure, using its corresponding four-character code.
+helpviewer_keywords: ["_win32_mmioInstallIOProc","mmioInstallIOProc","mmioInstallIOProc function [Windows Multimedia]","mmioInstallIOProcA","mmioInstallIOProcW","mmsystem/mmioInstallIOProc","mmsystem/mmioInstallIOProcA","mmsystem/mmioInstallIOProcW","multimedia.mmioinstallioproc"]
 old-location: multimedia\mmioinstallioproc.htm
 tech.root: Multimedia
 ms.assetid: 235b5014-ad6e-4b9e-a063-99022cbcdb5d
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: _win32_mmioInstallIOProc, mmioInstallIOProc, mmioInstallIOProc function [Windows Multimedia], mmioInstallIOProcA, mmioInstallIOProcW, mmsystem/mmioInstallIOProc, mmsystem/mmioInstallIOProcA, mmsystem/mmioInstallIOProcW, multimedia.mmioinstallioproc
-f1_keywords:
-- mmiscapi/mmioInstallIOProc
-dev_langs:
-- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-misc-l1-1-0.dll
-- winmmbase.dll
-- API-MS-Win-mm-misc-l1-1-1.dll
-api_name:
-- mmioInstallIOProc
-- mmioInstallIOProcA
-- mmioInstallIOProcW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - mmioInstallIOProc
+ - mmiscapi/mmioInstallIOProc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-misc-l1-1-0.dll
+ - winmmbase.dll
+ - API-MS-Win-mm-misc-l1-1-1.dll
+api_name:
+ - mmioInstallIOProc
+ - mmioInstallIOProcA
+ - mmioInstallIOProcW
 ---
 
 # mmioInstallIOProc function
@@ -53,27 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>mmioInstallIOProc</b> function installs or removes a custom I/O procedure. This function also locates an installed I/O procedure, using its corresponding four-character code.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fccIOProc
 
 Four-character code identifying the I/O procedure to install, remove, or locate. All characters in this code should be uppercase.
 
-
 ### -param pIOProc
 
-Pointer to the I/O procedure to install. To remove or locate an I/O procedure, set this parameter to <b>NULL</b>. For more information about the I/O procedure, see <a href="https://docs.microsoft.com/previous-versions/dd757332(v=vs.85)">MMIOProc</a>.
-
+Pointer to the I/O procedure to install. To remove or locate an I/O procedure, set this parameter to <b>NULL</b>. For more information about the I/O procedure, see <a href="/previous-versions/dd757332(v=vs.85)">MMIOProc</a>.
 
 ### -param dwFlags
 
@@ -103,14 +95,7 @@ Flag indicating whether the I/O procedure is being installed, removed, or locate
 <td>Removes the specified I/O procedure.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns the address of the I/O procedure installed, removed, or located. Returns <b>NULL</b> if there is an error.
-
-
-

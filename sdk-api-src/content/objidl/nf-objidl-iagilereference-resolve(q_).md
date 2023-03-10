@@ -2,6 +2,7 @@
 UID: NF:objidl.IAgileReference.Resolve(Q,)
 title: IAgileReference::Resolve(Q,) (objidl.h)
 description: Gets the interface ID of an agile reference to an object.
+helpviewer_keywords: ["IAgileReference interface [Windows Runtime]","Resolve method","IAgileReference.Resolve","IAgileReference.Resolve(Q",")","IAgileReference::Resolve","IAgileReference::Resolve(Q",")","Resolve","Resolve method [Windows Runtime]","Resolve method [Windows Runtime]","IAgileReference interface","objidl/IAgileReference::Resolve","winrt.iagilereference_resolve"]
 old-location: winrt\iagilereference_resolve.htm
 tech.root: WinRT
 ms.assetid: 627A7EE4-CFEF-47F6-BA99-51BEB78C5D55
@@ -62,7 +63,7 @@ Gets the interface ID of an agile reference to an object.
 The interface ID of the interface to be retrieved from the agile reference. It is not required to be the same as the registered interface.
 
 
-### -param arg2 [out, retval]
+### -param unnamedParam2 [out, retval]
 
 On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
 
@@ -110,7 +111,7 @@ The requested interface isn't implemented on the registered object.
 
 
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object. Call the <b>Resolve</b> method to localize the object into the apartment in which <b>Resolve</b> is called.
+Call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object. Call the <b>Resolve</b> method to localize the object into the apartment in which <b>Resolve</b> is called.
 
 
 
@@ -120,12 +121,11 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
  
 
  
-

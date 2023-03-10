@@ -1,16 +1,13 @@
 ---
-UID: NS:shlobj.__unnamed_struct_1
+UID: NS:shlobj.BANDINFOSFB
 title: BANDINFOSFB (shlobj.h)
 description: Contains information about a folder band. This structure is used with the IShellFolderBand::GetBandInfoSFB and IShellFolderBand::SetBandInfoSFB methods.
+helpviewer_keywords: ["*PBANDINFOSFB","BANDINFOSFB","BANDINFOSFB structure [Windows Shell]","ISFBVIEWMODE_LARGEICONS","ISFBVIEWMODE_LOGOS","ISFBVIEWMODE_SMALLICONS","ISFB_MASK_BKCOLOR","ISFB_MASK_COLORS","ISFB_MASK_IDLIST","ISFB_MASK_SHELLFOLDER","ISFB_MASK_STATE","ISFB_MASK_VIEWMODE","ISFB_STATE_ALLOWRENAME","ISFB_STATE_BTNMINSIZE","ISFB_STATE_CHANNELBAR","ISFB_STATE_DEBOSSED","ISFB_STATE_DEFAULT","ISFB_STATE_FULLOPEN","ISFB_STATE_NONAMESORT","ISFB_STATE_NOSHOWTEXT","ISFB_STATE_QLINKSMODE","PBANDINFOSFB","PBANDINFOSFB structure pointer [Windows Shell]","_win32_BANDINFOSFB","shell.BANDINFOSFB","shlobj/BANDINFOSFB","shlobj/PBANDINFOSFB"]
 old-location: shell\BANDINFOSFB.htm
 tech.root: shell
 ms.assetid: 7067f563-383d-469f-abcf-3e1ea28dc956
 ms.date: 12/05/2018
 ms.keywords: '*PBANDINFOSFB, BANDINFOSFB, BANDINFOSFB structure [Windows Shell], ISFBVIEWMODE_LARGEICONS, ISFBVIEWMODE_LOGOS, ISFBVIEWMODE_SMALLICONS, ISFB_MASK_BKCOLOR, ISFB_MASK_COLORS, ISFB_MASK_IDLIST, ISFB_MASK_SHELLFOLDER, ISFB_MASK_STATE, ISFB_MASK_VIEWMODE, ISFB_STATE_ALLOWRENAME, ISFB_STATE_BTNMINSIZE, ISFB_STATE_CHANNELBAR, ISFB_STATE_DEBOSSED, ISFB_STATE_DEFAULT, ISFB_STATE_FULLOPEN, ISFB_STATE_NONAMESORT, ISFB_STATE_NOSHOWTEXT, ISFB_STATE_QLINKSMODE, PBANDINFOSFB, PBANDINFOSFB structure pointer [Windows Shell], _win32_BANDINFOSFB, shell.BANDINFOSFB, shlobj/BANDINFOSFB, shlobj/PBANDINFOSFB'
-f1_keywords:
-- shlobj/BANDINFOSFB
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj.h
-api_name:
-- BANDINFOSFB
 targetos: Windows
 req.typenames: BANDINFOSFB, *PBANDINFOSFB
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PBANDINFOSFB
+ - shlobj/PBANDINFOSFB
+ - BANDINFOSFB
+ - shlobj/BANDINFOSFB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj.h
+api_name:
+ - BANDINFOSFB
 ---
 
 # BANDINFOSFB structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a folder band. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb">IShellFolderBand::GetBandInfoSFB</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb">IShellFolderBand::SetBandInfoSFB</a> methods.
-
+Contains information about a folder band. This structure is used with the <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb">IShellFolderBand::GetBandInfoSFB</a> and <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb">IShellFolderBand::SetBandInfoSFB</a> methods.
 
 ## -struct-fields
-
-
-
 
 ### -field dwMask
 
@@ -98,7 +97,6 @@ The <b>pidl</b> member is valid.
 #### ISFB_MASK_COLORS (0x00000020)
 
 The <b>crBtnLt</b> and <b>crBtnDk</b> members are valid.
-
 
 ### -field dwStateMask
 
@@ -160,36 +158,31 @@ The band does not sort by name.
 
 The band reports the minimum size of its button when queried.
 
-
 ### -field dwState
 
 Type: <b>DWORD</b>
 
 State bits. One of the values listed for <b>dwStateMask</b>.
 
-
 ### -field crBkgnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> that contains the background color of the band.
-
+A <a href="/windows/desktop/gdi/colorref">COLORREF</a> that contains the background color of the band.
 
 ### -field crBtnLt
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> that contains the light button color.
-
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> that contains the light button color.
 
 ### -field crBtnDk
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> that contains the dark button color.
-
+<a href="/windows/desktop/gdi/colorref">COLORREF</a> that contains the dark button color.
 
 ### -field wViewMode
 
@@ -215,23 +208,19 @@ Use large icons on the folder band.
 
 <b>Not supported under Windows Vista or later. Not supported under Internet Explorer version 7 or later.</b>
 
-
 ### -field wAlign
 
 Type: <b>WORD</b>
 
-
 ### -field psf
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object.
-
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object.
 
 ### -field pidl
 
 Type: <b>PIDLIST_ABSOLUTE</b>
 
 A PIDL.
-        
 

@@ -2,17 +2,14 @@
 UID: NF:processthreadsapi.SetProcessShutdownParameters
 title: SetProcessShutdownParameters function (processthreadsapi.h)
 description: Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.
+helpviewer_keywords: ["SHUTDOWN_NORETRY","SetProcessShutdownParameters","SetProcessShutdownParameters function","_win32_setprocessshutdownparameters","base.setprocessshutdownparameters","processthreadsapi/SetProcessShutdownParameters","winbase/SetProcessShutdownParameters"]
 old-location: base\setprocessshutdownparameters.htm
-tech.root: ProcThread
+tech.root: processthreadsapi
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e
 ms.date: 12/05/2018
 ms.keywords: SHUTDOWN_NORETRY, SetProcessShutdownParameters, SetProcessShutdownParameters function, _win32_setprocessshutdownparameters, base.setprocessshutdownparameters, processthreadsapi/SetProcessShutdownParameters, winbase/SetProcessShutdownParameters
-f1_keywords:
-- processthreadsapi/SetProcessShutdownParameters
-dev_langs:
-- c++
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps only]
 req.target-min-winversvr: Windows Server 2003 [desktop apps only]
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- SetProcessShutdownParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessShutdownParameters
+ - processthreadsapi/SetProcessShutdownParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - SetProcessShutdownParameters
 ---
 
 # SetProcessShutdownParameters function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLevel [in]
 
@@ -135,7 +132,6 @@ System reserved first shutdown range.
 
 All processes start at shutdown level 0x280.
 
-
 ### -param dwFlags [in]
 
 This parameter can be the following value.
@@ -157,50 +153,31 @@ The system terminates the process without displaying a retry dialog box for the 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function is succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 Applications running in the system security context do not get shut down by the operating system. They get notified of shutdown or logoff through the callback function installable via 
-<a href="https://docs.microsoft.com/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
-
-
-
+<a href="/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>. They also get notified in the order specified by the <i>dwLevel</i> parameter.
 
 ## -see-also
 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters">GetProcessShutdownParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters">GetProcessShutdownParameters</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>
- 
-
- 
-
+<a href="/windows/console/setconsolectrlhandler">SetConsoleCtrlHandler</a>

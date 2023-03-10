@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageData.GetEncoderParams
 title: IShellImageData::GetEncoderParams (shimgdata.h)
 description: Gets the current set of encoder parameters.
+helpviewer_keywords: ["GetEncoderParams","GetEncoderParams method [Windows Shell]","GetEncoderParams method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetEncoderParams method","IShellImageData.GetEncoderParams","IShellImageData::GetEncoderParams","_shell_IShellImageData_GetEncoderParams","shell.IShellImageData_GetEncoderParams","shimgdata/IShellImageData::GetEncoderParams"]
 old-location: shell\IShellImageData_GetEncoderParams.htm
 tech.root: shell
 ms.assetid: 9b664d0f-7bb7-4cdd-8c0c-2ca80faaa764
 ms.date: 12/05/2018
 ms.keywords: GetEncoderParams, GetEncoderParams method [Windows Shell], GetEncoderParams method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetEncoderParams method, IShellImageData.GetEncoderParams, IShellImageData::GetEncoderParams, _shell_IShellImageData_GetEncoderParams, shell.IShellImageData_GetEncoderParams, shimgdata/IShellImageData::GetEncoderParams
-f1_keywords:
-- shimgdata/IShellImageData.GetEncoderParams
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.GetEncoderParams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::GetEncoderParams
+ - shimgdata/IShellImageData::GetEncoderParams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.GetEncoderParams
 ---
 
 # IShellImageData::GetEncoderParams
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current set of encoder parameters.
 
-
 ## -parameters
-
-
-
 
 ### -param pguidFmt [in]
 
@@ -63,17 +60,13 @@ Type: <b>GUID*</b>
 
 A pointer to a GUID that specifies the encoder. This must be an encoder supported by GDI+. If this parameter is <b>NULL</b>, an unhandled exception results.
 
-
 ### -param ppEncParams [out]
 
 Type: <b>EncoderParameters**</b>
 
-The address of a pointer to an array of <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects.
-
+The address of a pointer to an array of <a href="/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -102,7 +95,3 @@ Several circumstances can generate this return value.
 </td>
 </tr>
 </table>
- 
-
-
-

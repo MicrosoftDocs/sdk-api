@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITStreamControl.CreateStream
 title: ITStreamControl::CreateStream (tapi3if.h)
 description: The CreateStream method creates a new media stream.
+helpviewer_keywords: ["CreateStream","CreateStream method [TAPI 2.2]","CreateStream method [TAPI 2.2]","ITStreamControl interface","ITStreamControl interface [TAPI 2.2]","CreateStream method","ITStreamControl.CreateStream","ITStreamControl::CreateStream","_tapi3_itstreamcontrol_createstream","tapi3.itstreamcontrol_createstream","tapi3if/ITStreamControl::CreateStream"]
 old-location: tapi3\itstreamcontrol_createstream.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 402cde43-6b2a-4e4e-bf46-97fcafb7574a
 ms.date: 12/05/2018
 ms.keywords: CreateStream, CreateStream method [TAPI 2.2], CreateStream method [TAPI 2.2],ITStreamControl interface, ITStreamControl interface [TAPI 2.2],CreateStream method, ITStreamControl.CreateStream, ITStreamControl::CreateStream, _tapi3_itstreamcontrol_createstream, tapi3.itstreamcontrol_createstream, tapi3if/ITStreamControl::CreateStream
-f1_keywords:
-- tapi3if/ITStreamControl.CreateStream
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- ITStreamControl.CreateStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITStreamControl::CreateStream
+ - tapi3if/ITStreamControl::CreateStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - ITStreamControl.CreateStream
 ---
 
 # ITStreamControl::CreateStream
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>CreateStream</b> method creates a new media stream.
 
-
 ## -parameters
-
-
-
 
 ### -param lMediaType [in]
 
 Indicates 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> for stream.
-
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a> for stream.
 
 ### -param td [in]
 
 Indicates the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a>.
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a>.
 
 ### -param ppStream [out]
 
 Pointer to pointer for newly created 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -165,45 +157,29 @@ This operation is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Many MSPs do not support dynamic creation of streams, and simply return TAPI_E_MAXSTREAMS in their implementation of this method. Default streams are automatically available when a call is created, so most applications do not have to use this method.
 
 Stream creation or removal may involve interaction with a remote endpoint, resulting in a CMC_REMOTE_REQUEST rather than the CMC_LOCAL_REQUEST messages that are received when a stream is stopped or started.
 
-TAPI calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface returned by <b>ITStreamControl::CreateStream</b>. The application must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
+TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface returned by <b>ITStreamControl::CreateStream</b>. The application must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>ITStream</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>

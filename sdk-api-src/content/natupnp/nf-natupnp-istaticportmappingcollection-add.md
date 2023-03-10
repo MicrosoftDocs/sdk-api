@@ -2,15 +2,12 @@
 UID: NF:natupnp.IStaticPortMappingCollection.Add
 title: IStaticPortMappingCollection::Add (natupnp.h)
 description: The Add method creates a new port mapping and adds it to the collection.
+helpviewer_keywords: ["Add","Add method [ICS/ICF]","Add method [ICS/ICF]","IStaticPortMappingCollection interface","IStaticPortMappingCollection interface [ICS/ICF]","Add method","IStaticPortMappingCollection.Add","IStaticPortMappingCollection::Add","_ics_istaticportmappingcollection_add","ics.istaticportmappingcollection_add","natupnp/IStaticPortMappingCollection::Add"]
 old-location: ics\istaticportmappingcollection_add.htm
 tech.root: ics
 ms.assetid: 5e61629d-80e4-4d44-8e53-12e17b399126
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],IStaticPortMappingCollection interface, IStaticPortMappingCollection interface [ICS/ICF],Add method, IStaticPortMappingCollection.Add, IStaticPortMappingCollection::Add, _ics_istaticportmappingcollection_add, ics.istaticportmappingcollection_add, natupnp/IStaticPortMappingCollection::Add
-f1_keywords:
-- natupnp/IStaticPortMappingCollection.Add
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMappingCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMappingCollection::Add
+ - natupnp/IStaticPortMappingCollection::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMappingCollection.Add
 ---
 
 # IStaticPortMappingCollection::Add
@@ -48,56 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Add</b> method creates a new port mapping and adds it to the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param lExternalPort [in]
 
 Specifies the external port for this port mapping.
 
-
 ### -param bstrProtocol [in]
 
 Specifies the protocol. This parameter should be either UDP or TCP.
-
 
 ### -param lInternalPort [in]
 
 Specifies the internal port for this port mapping.
 
-
 ### -param bstrInternalClient [in]
 
 Specifies the name of the client on the private network that uses this port mapping.
 
-
 ### -param bEnabled [in]
 
 Specifies whether the port is 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-enable">enabled</a>.
-
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmapping-enable">enabled</a>.
 
 ### -param bstrDescription [in]
 
 Specifies a description for this port mapping.
 
-
 ### -param ppSPM [out]
 
 Pointer to an interface pointer that, on successful return, receives a pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a> interface.
-
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a> interface.
 
 ## -returns
-
-
 
 If the method succeeds the return value is <b>S_OK</b>.
 
@@ -197,43 +185,27 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The NAT API with UPnP technology uses the combination of the external port and the protocol to identify the port mapping.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmappingcollection-remove">IStaticPortMappingCollection::Remove</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-istaticportmappingcollection-remove">IStaticPortMappingCollection::Remove</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

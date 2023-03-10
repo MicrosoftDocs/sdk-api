@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_OTHER_LOGOTYPE_INFO
 title: CERT_OTHER_LOGOTYPE_INFO (wincrypt.h)
 description: Contains information about logo types that are not predefined.
+helpviewer_keywords: ["*PCERT_OTHER_LOGOTYPE_INFO","CERT_OTHER_LOGOTYPE_INFO","CERT_OTHER_LOGOTYPE_INFO structure [Security]","PCERT_OTHER_LOGOTYPE_INFO","PCERT_OTHER_LOGOTYPE_INFO structure pointer [Security]","security.cert_other_logotype_info","szOID_BACKGROUND_OTHER_LOGOTYPE","szOID_LOYALTY_OTHER_LOGOTYPE","wincrypt/CERT_OTHER_LOGOTYPE_INFO","wincrypt/PCERT_OTHER_LOGOTYPE_INFO"]
 old-location: security\cert_other_logotype_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 104cc412-a268-4b5f-bb9d-9df27f4df6b7
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO, CERT_OTHER_LOGOTYPE_INFO structure [Security], PCERT_OTHER_LOGOTYPE_INFO, PCERT_OTHER_LOGOTYPE_INFO structure pointer [Security], security.cert_other_logotype_info, szOID_BACKGROUND_OTHER_LOGOTYPE, szOID_LOYALTY_OTHER_LOGOTYPE, wincrypt/CERT_OTHER_LOGOTYPE_INFO, wincrypt/PCERT_OTHER_LOGOTYPE_INFO'
-f1_keywords:
-- wincrypt/CERT_OTHER_LOGOTYPE_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_OTHER_LOGOTYPE_INFO
 targetos: Windows
 req.typenames: CERT_OTHER_LOGOTYPE_INFO, *PCERT_OTHER_LOGOTYPE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_OTHER_LOGOTYPE_INFO
+ - wincrypt/_CERT_OTHER_LOGOTYPE_INFO
+ - PCERT_OTHER_LOGOTYPE_INFO
+ - wincrypt/PCERT_OTHER_LOGOTYPE_INFO
+ - CERT_OTHER_LOGOTYPE_INFO
+ - wincrypt/CERT_OTHER_LOGOTYPE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_OTHER_LOGOTYPE_INFO
 ---
 
 # CERT_OTHER_LOGOTYPE_INFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_OTHER_LOGOTYPE_INFO</b> structure contains information about logo types that are not predefined.
 
-
 ## -struct-fields
-
-
-
 
 ### -field pszObjId
 
@@ -89,10 +90,7 @@ The logo is a background logo.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field LogotypeInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the logo type information.
-
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_info">CERT_LOGOTYPE_INFO</a> structure that contains the logo type information.

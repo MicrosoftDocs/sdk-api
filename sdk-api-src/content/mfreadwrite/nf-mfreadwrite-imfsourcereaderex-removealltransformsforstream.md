@@ -2,15 +2,12 @@
 UID: NF:mfreadwrite.IMFSourceReaderEx.RemoveAllTransformsForStream
 title: IMFSourceReaderEx::RemoveAllTransformsForStream (mfreadwrite.h)
 description: Removes all of the Media Foundation transforms (MFTs) for a specified stream, with the exception of the decoder.
+helpviewer_keywords: ["IMFSourceReaderEx interface [Media Foundation]","RemoveAllTransformsForStream method","IMFSourceReaderEx.RemoveAllTransformsForStream","IMFSourceReaderEx::RemoveAllTransformsForStream","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","RemoveAllTransformsForStream","RemoveAllTransformsForStream method [Media Foundation]","RemoveAllTransformsForStream method [Media Foundation]","IMFSourceReaderEx interface","mf.imfsourcereaderex_removealltransformsforstream","mfreadwrite/IMFSourceReaderEx::RemoveAllTransformsForStream"]
 old-location: mf\imfsourcereaderex_removealltransformsforstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6C0617CA-8F85-4854-9E4B-8F4300FAE8E3
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderEx interface [Media Foundation],RemoveAllTransformsForStream method, IMFSourceReaderEx.RemoveAllTransformsForStream, IMFSourceReaderEx::RemoveAllTransformsForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, RemoveAllTransformsForStream, RemoveAllTransformsForStream method [Media Foundation], RemoveAllTransformsForStream method [Media Foundation],IMFSourceReaderEx interface, mf.imfsourcereaderex_removealltransformsforstream, mfreadwrite/IMFSourceReaderEx::RemoveAllTransformsForStream
-f1_keywords:
-- mfreadwrite/IMFSourceReaderEx.RemoveAllTransformsForStream
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReaderEx.RemoveAllTransformsForStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReaderEx::RemoveAllTransformsForStream
+ - mfreadwrite/IMFSourceReaderEx::RemoveAllTransformsForStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReaderEx.RemoveAllTransformsForStream
 ---
 
 # IMFSourceReaderEx::RemoveAllTransformsForStream
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all of the Media Foundation transforms (MFTs) for a specified stream, with the exception of the decoder.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -100,12 +97,8 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -148,29 +141,13 @@ The <i>dwStreamIndex</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Calling this method can reset the current output type for the stream. To get the new output type, call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a>.
 
-
-Calling this method can reset the current output type for the stream. To get the new output type, call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype">IMFSourceReader::GetCurrentMediaType</a>.
-
-In asynchronous mode, this method fails if a sample request is pending. In that case, wait for the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">OnReadSample</a> callback to be invoked before calling the method. For more information about using the Source Reader in asynchronous mode, see <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a>.
-
-
-
+In asynchronous mode, this method fails if a sample request is pending. In that case, wait for the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereadercallback-onreadsample">OnReadSample</a> callback to be invoked before calling the method. For more information about using the Source Reader in asynchronous mode, see <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>

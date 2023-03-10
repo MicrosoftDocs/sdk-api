@@ -2,15 +2,12 @@
 UID: NF:winstring.WindowsPreallocateStringBuffer
 title: WindowsPreallocateStringBuffer function (winstring.h)
 description: Allocates a mutable character buffer for use in HSTRING creation.
+helpviewer_keywords: ["WindowsPreallocateStringBuffer","WindowsPreallocateStringBuffer function [Windows Runtime]","winrt.windowspreallocatestringbuffer","winstring/WindowsPreallocateStringBuffer"]
 old-location: winrt\windowspreallocatestringbuffer.htm
 tech.root: WinRT
 ms.assetid: 83ebde70-458c-4617-a7fd-a281915f6206
 ms.date: 12/05/2018
 ms.keywords: WindowsPreallocateStringBuffer, WindowsPreallocateStringBuffer function [Windows Runtime], winrt.windowspreallocatestringbuffer, winstring/WindowsPreallocateStringBuffer
-f1_keywords:
-- winstring/WindowsPreallocateStringBuffer
-dev_langs:
-- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -28,61 +25,53 @@ req.type-library:
 req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ComBase.dll
-- API-MS-Win-Core-WinRT-String-l1-1-0.dll
-- API-MS-Win-Core-WinRT-String-L1-1-1.dll
-api_name:
-- WindowsPreallocateStringBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WindowsPreallocateStringBuffer
+ - winstring/WindowsPreallocateStringBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ComBase.dll
+ - API-MS-Win-Core-WinRT-String-l1-1-0.dll
+ - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+api_name:
+ - WindowsPreallocateStringBuffer
 ---
-
-# WindowsPreallocateStringBuffer function
-
 
 ## -description
 
-
-Allocates a mutable character buffer for use in <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> creation.
-
+Allocates a mutable character buffer for use in [**HSTRING**](/windows/win32/winrt/hstring) creation.
 
 ## -parameters
 
+### -param length
 
-
-
-### -param length [in]
-
-Type: <b>UINT32</b>
+Type: [in] <b>UINT32</b>
 
 The size of the buffer to allocate. A value of zero corresponds to the empty string.
 
+### -param charBuffer
 
-### -param charBuffer [out]
-
-Type: <b>WCHAR**</b>
+Type: [out] <b>WCHAR**</b>
 
 The mutable buffer that holds the characters. Note that the buffer already contains a terminating <b>NULL</b> character.
 
+### -param bufferHandle
 
-### -param bufferHandle [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>*</b>
+Type: [out] <b><a href="/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>*</b>
 
 The preallocated string buffer, or <b>NULL</b> if  <i>length</i> is 0.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -100,7 +89,7 @@ This function can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> was created successfully.
+The  [**HSTRING**](/windows/win32/winrt/hstring) was created successfully.
 
 </td>
 </tr>
@@ -122,7 +111,7 @@ The  <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING<
 </dl>
 </td>
 <td width="60%">
-The requested <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> allocation size is too large.
+The requested [**HSTRING**](/windows/win32/winrt/hstring) allocation size is too large.
 
 </td>
 </tr>
@@ -133,34 +122,25 @@ The requested <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring"
 </dl>
 </td>
 <td width="60%">
-Failed to allocate the <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> buffer.
+Failed to allocate the [**HSTRING**](/windows/win32/winrt/hstring) buffer.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Use the <b>WindowsPreallocateStringBuffer</b> function to create a mutable character buffer that you can manipulate prior to committing it to  an immutable [**HSTRING**](/windows/win32/winrt/hstring). When you have finished populating the <i>mutableBuffer</i> with your string, call the <a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>  function with the <i>bufferHandle</i> parameter  to create the <b>HSTRING</b>. You must write exactly <i>length</i> characters into the buffer.
+<b>Windows 10 Version 1803, Windows Server Version 1803, and later</b>: You are permitted to write a null terminator after <i>length</i> characters.
 
+Call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a> function to discard the mutable buffer prior to promotion. If the buffer has already been promoted by a call to <a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>, call the <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to discard the string. If the <b>WindowsPromoteStringBuffer</b> call fails, you can call the <b>WindowsDeleteStringBuffer</b> function to discard the mutable buffer.
 
-Use the <b>WindowsPreallocateStringBuffer</b> function to create a mutable character buffer that you can manipulate prior to committing it to  an immutable <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>. When you have finished populating the <i>mutableBuffer</i> with your string, call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>  function with the <i>bufferHandle</i> parameter  to create the <b>HSTRING</b>. You must write exactly <i>length</i> characters into the buffer.
-
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a> function to discard the mutable buffer prior to promotion. If the buffer has already been promoted by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>, call the <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> function to discard the string. If the <b>WindowsPromoteStringBuffer</b> call fails, you can call the <b>WindowsDeleteStringBuffer</b> function to discard the mutable buffer.
-
-
-
-
-#### Examples
+## Examples
 
 The following code example demonstrates how to use the <b>WindowsPreallocateStringBuffer</b> function.
 
-
 ```cpp
-#include <WinrtString.h>
+#include <winstring.h>
 
 int main()
 {
@@ -172,41 +152,21 @@ int main()
 
     if (SUCCEEDED(hr))
     {
+        CopyMemory(strBuffer, L"1234567890", 10 * sizeof(wchar_t));
         hr = WindowsPromoteStringBuffer(hStringBuffer, &hString);
     }
 
     WindowsDeleteString(hString);  
 }
-
 ```
-
-
-
-
 
 ## -see-also
 
+[**HSTRING**](/windows/win32/winrt/hstring)
 
+<a href="/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>
 
+<a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a>
 
-<b></b>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring-buffer">HSTRING_BUFFER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestringbuffer">WindowsDeleteStringBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>
- 
-
- 
+<a href="/windows/desktop/api/winstring/nf-winstring-windowspromotestringbuffer">WindowsPromoteStringBuffer</a>
 

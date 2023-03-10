@@ -2,15 +2,12 @@
 UID: NF:winbase.SetTapePosition
 title: SetTapePosition function (winbase.h)
 description: Sets the tape position on the specified device.
+helpviewer_keywords: ["SetTapePosition","SetTapePosition function [Backup]","TAPE_ABSOLUTE_BLOCK","TAPE_LOGICAL_BLOCK","TAPE_REWIND","TAPE_SPACE_END_OF_DATA","TAPE_SPACE_FILEMARKS","TAPE_SPACE_RELATIVE_BLOCKS","TAPE_SPACE_SEQUENTIAL_FMKS","TAPE_SPACE_SEQUENTIAL_SMKS","TAPE_SPACE_SETMARKS","_win32_settapeposition","backup.settapeposition","base.settapeposition","winbase/SetTapePosition"]
 old-location: backup\settapeposition.htm
 tech.root: Backup
 ms.assetid: e1962aa5-c187-4fef-886c-36a8b096829f
 ms.date: 12/05/2018
 ms.keywords: SetTapePosition, SetTapePosition function [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _win32_settapeposition, backup.settapeposition, base.settapeposition, winbase/SetTapePosition
-f1_keywords:
-- winbase/SetTapePosition
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- SetTapePosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetTapePosition
+ - winbase/SetTapePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - SetTapePosition
 ---
 
 # SetTapePosition function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetTapePosition</b> function sets the tape position on the specified device.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device on which to set the tape position. This handle is created by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function.
 
 ### -param dwPositionMethod [in]
 
@@ -175,32 +171,24 @@ Moves the tape forward (or backward) the number of setmarks specified by <i>dwOf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwPartition [in]
 
 Partition to position within. If <i>dwPartition</i> is zero, the current partition is used. Partitions are numbered logically from 1 through n, where 1 is the first partition on the tape and n is the last.
 
-
 ### -param dwOffsetLow [in]
 
 Low-order bits of the block address or count for the position operation specified by the <i>dwPositionMethod</i> parameter.
-
 
 ### -param dwOffsetHigh [in]
 
 High-order bits of the block address or count for the position operation specified by the <i>dwPositionMethod</i> parameter. If the high-order bits are not required, this parameter should be zero.
 
-
 ### -param bImmediate [in]
 
 Indicates whether to return as soon as the move operation begins. If this parameter is <b>TRUE</b>, the function returns immediately; if <b>FALSE</b>, the function does not return until the move operation has been completed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -392,38 +380,22 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the offset specified by <i>dwOffsetLow</i> and <i>dwOffsetHigh</i> specifies the number of blocks, filemarks, or setmarks to move, a positive offset moves the tape forward to the end of the last block, filemark, or setmark. A negative offset moves the tape backward to the beginning of the last block, filemark, or setmark. If the offset is zero, the tape does not move.
 
 To obtain information about the status, capabilities, and capacities of tape drives and media, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function.
-
-
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeposition">GetTapePosition</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeposition">GetTapePosition</a>

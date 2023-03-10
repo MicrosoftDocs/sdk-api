@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMSyncReader.GetNextSample
 title: IWMSyncReader::GetNextSample (wmsdkidl.h)
 description: The GetNextSample method retrieves the next sample from the file.
+helpviewer_keywords: ["GetNextSample","GetNextSample method [windows Media Format]","GetNextSample method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetNextSample method","IWMSyncReader.GetNextSample","IWMSyncReader::GetNextSample","IWMSyncReaderGetNextSample","wmformat.iwmsyncreader_getnextsample","wmsdkidl/IWMSyncReader::GetNextSample"]
 old-location: wmformat\iwmsyncreader_getnextsample.htm
 tech.root: wmformat
 ms.assetid: 948047b3-3b87-4381-9320-c9602716ade2
 ms.date: 12/05/2018
 ms.keywords: GetNextSample, GetNextSample method [windows Media Format], GetNextSample method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetNextSample method, IWMSyncReader.GetNextSample, IWMSyncReader::GetNextSample, IWMSyncReaderGetNextSample, wmformat.iwmsyncreader_getnextsample, wmsdkidl/IWMSyncReader::GetNextSample
-f1_keywords:
-- wmsdkidl/IWMSyncReader.GetNextSample
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMSyncReader.GetNextSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMSyncReader::GetNextSample
+ - wmsdkidl/IWMSyncReader::GetNextSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMSyncReader.GetNextSample
 ---
 
 # IWMSyncReader::GetNextSample
@@ -51,37 +53,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetNextSample</b> method retrieves the next sample from the file.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param wStreamNum [in]
 
-<b>WORD </b>containing the stream number for which you would like a sample. If you pass zero, the next sample in the file is returned, regardless of stream number.
-
+<b>WORD</b> containing the stream number for which you would like a sample. If you pass zero, the next sample in the file is returned, regardless of stream number.
 
 ### -param ppSample [out]
 
 Pointer to a buffer that receives the sample. Set to <b>NULL</b> to retrieve the sample time without getting the sample. If set to <b>NULL</b>, <i>pcnsDuration</i> and <i>pdwFlags</i> must both be set to <b>NULL</b> as well.
 
-
 ### -param pcnsSampleTime [out]
 
 Pointer to a <b>QWORD</b> variable that receives the sample time in 100-nanosecond units.
 
-
 ### -param pcnsDuration [out]
 
 Pointer to <b>QWORD</b> variable that receives the duration of the sample in 100-nanosecond units.
-
 
 ### -param pdwFlags [out]
 
@@ -96,7 +86,7 @@ Pointer to a <b>DWORD</b> containing one or more of the following flags.
 </tr>
 <tr>
 <td>No flag set</td>
-<td>None of the conditions for the other flags applies. For example, a <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
+<td>None of the conditions for the other flags applies. For example, a <a href="/windows/desktop/wmformat/wmformat-glossary">delta frame</a> in most cases would not have any flags set for it.</td>
 </tr>
 <tr>
 <td>WM_SF_CLEANPOINT</td>
@@ -111,22 +101,16 @@ Pointer to a <b>DWORD</b> containing one or more of the following flags.
 <td>Some data has been lost between the previous sample and the sample with this flag set.</td>
 </tr>
 </table>
- 
-
 
 ### -param pdwOutputNum [out]
 
 Pointer to a <b>DWORD</b> that receives the output number.
 
-
 ### -param pwStreamNum [out]
 
 Pointer to a <b>WORD</b> that receives the stream number.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -207,20 +191,14 @@ OR
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Both compressed and uncompressed samples are delivered by this method, depending upon whether you have called <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples">SetReadStreamSamples</a> for the streams in the file. This is the only method to retrieve samples using the synchronous reader.
 
+To begin receiving samples from anywhere in the file other than the beginning, you must first specify a range for playback. To specify a playback range based on presentation times, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange">SetRange</a> method. To set a range using frame numbers, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">SetRangeByFrame</a> method. When you have received all of the samples in the file, or in the range if you specified one, the next call made to <b>GetNextSample</b> returns NS_E_NO_MORE_SAMPLES.
 
-Both compressed and uncompressed samples are delivered by this method, depending upon whether you have called <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setreadstreamsamples">SetReadStreamSamples</a> for the streams in the file. This is the only method to retrieve samples using the synchronous reader.
-
-To begin receiving samples from anywhere in the file other than the beginning, you must first specify a range for playback. To specify a playback range based on presentation times, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrange">SetRange</a> method. To set a range using frame numbers, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setrangebyframe">SetRangeByFrame</a> method. When you have received all of the samples in the file, or in the range if you specified one, the next call made to <b>GetNextSample</b> returns NS_E_NO_MORE_SAMPLES.
-
-The timeline is presentation time if no output setting is specified. To get early delivery for a stream, use <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a>.
+The timeline is presentation time if no output setting is specified. To get early delivery for a stream, use <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a>.
 
 You can call <b>GetNextSample</b> in one of three ways:
 
@@ -231,22 +209,13 @@ You can call <b>GetNextSample</b> in one of three ways:
 </ul>
 You can also use <i>GetNextSample</i> to retrieve precise times for video frames when reading compressed data. For more information, see To Retrieve Accurate Presentation Times for Compressed Samples by Frame.
 
-<div class="alert"><b>Note</b>  To ensure that you get correct sample durations from this method, you must configure the output for the stream. Call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a> method to set the g_wszVideoSampleDurations setting to <b>TRUE</b>. Subsequent calls to <b>GetNextSample</b> will return correct sample durations.</div>
+<div class="alert"><b>Note</b>  To ensure that you get correct sample durations from this method, you must configure the output for the stream. Call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting">SetOutputSetting</a> method to set the g_wszVideoSampleDurations setting to <b>TRUE</b>. Subsequent calls to <b>GetNextSample</b> will return correct sample durations.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>

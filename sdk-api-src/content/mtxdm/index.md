@@ -4,15 +4,17 @@ title: Mtxdm.h header
 ms.assetid: 4a1670f8-f5e8-3669-b72e-8e77ccbb84cd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: cos
+f1_keywords:
+ - mtxdm
+ - mtxdm/mtxdm
 ---
 
 # Mtxdm.h header
 
 
 ## -description
-
 
 This header is used by COM+ (Component Services). For more information, see:
 

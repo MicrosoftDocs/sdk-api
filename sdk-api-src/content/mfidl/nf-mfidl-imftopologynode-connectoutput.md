@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopologyNode.ConnectOutput
 title: IMFTopologyNode::ConnectOutput (mfidl.h)
 description: Connects an output stream from this node to the input stream of another node.
+helpviewer_keywords: ["2340fd87-27ea-4f98-97e3-48b9506251a9","ConnectOutput","ConnectOutput method [Media Foundation]","ConnectOutput method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","ConnectOutput method","IMFTopologyNode.ConnectOutput","IMFTopologyNode::ConnectOutput","mf.imftopologynode_connectoutput","mfidl/IMFTopologyNode::ConnectOutput"]
 old-location: mf\imftopologynode_connectoutput.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2340fd87-27ea-4f98-97e3-48b9506251a9
 ms.date: 12/05/2018
 ms.keywords: 2340fd87-27ea-4f98-97e3-48b9506251a9, ConnectOutput, ConnectOutput method [Media Foundation], ConnectOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],ConnectOutput method, IMFTopologyNode.ConnectOutput, IMFTopologyNode::ConnectOutput, mf.imftopologynode_connectoutput, mfidl/IMFTopologyNode::ConnectOutput
-f1_keywords:
-- mfidl/IMFTopologyNode.ConnectOutput
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopologyNode.ConnectOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopologyNode::ConnectOutput
+ - mfidl/IMFTopologyNode::ConnectOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopologyNode.ConnectOutput
 ---
 
 # IMFTopologyNode::ConnectOutput
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Connects an output stream from this node to the input stream of another node.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwOutputIndex [in]
 
 Zero-based index of the output stream on this node.
 
-
 ### -param pDownstreamNode [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to connect to.
-
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface of the node to connect to.
 
 ### -param dwInputIndexOnDownstreamNode [in]
 
 Zero-based index of the input stream on the other node.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -121,14 +110,8 @@ Invalid parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Node connections represent data flow from one node to the next. The streams are logical, and are specified by index.
 
@@ -146,24 +129,14 @@ A node cannot be connected to itself. If <i>pDownstreamNode</i> specifies the sa
 
 </li>
 </ul>
-However, if the method succeeds, it does not guarantee that the node connection is valid. It is possible to create a partial topology that the topology loader cannot resolve. If so, the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopoloader-load">IMFTopoLoader::Load</a> method will fail.
+However, if the method succeeds, it does not guarantee that the node connection is valid. It is possible to create a partial topology that the topology loader cannot resolve. If so, the <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopoloader-load">IMFTopoLoader::Load</a> method will fail.
 
-To break an existing node connection, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-disconnectoutput">IMFTopologyNode::DisconnectOutput</a>.
-
-
-
+To break an existing node connection, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-disconnectoutput">IMFTopologyNode::DisconnectOutput</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

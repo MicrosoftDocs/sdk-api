@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkStrokes.Add
 title: IInkStrokes::Add (msinkaut.h)
 description: Adds an IInkStrokeDisp object or InkStrokes collection to an existing InkStrokes collection.
+helpviewer_keywords: ["5ea0932a-ba21-4c6a-a3bc-c122b5805e86","Add","Add method [Tablet PC]","Add method [Tablet PC]","IInkStrokes interface","IInkStrokes interface [Tablet PC]","Add method","IInkStrokes.Add","IInkStrokes::Add","msinkaut/IInkStrokes::Add","tablet.inkstrokes_add"]
 old-location: tablet\inkstrokes_add.htm
 tech.root: tablet
 ms.assetid: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86
 ms.date: 12/05/2018
 ms.keywords: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86, Add, Add method [Tablet PC], Add method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Add method, IInkStrokes.Add, IInkStrokes::Add, msinkaut/IInkStrokes::Add, tablet.inkstrokes_add
-f1_keywords:
-- msinkaut/IInkStrokes.Add
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokes.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokes::Add
+ - msinkaut/IInkStrokes::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokes.Add
 ---
 
 # IInkStrokes::Add
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection to an existing InkStrokes collection.
-
-
-
+Adds an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object or <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection to an existing InkStrokes collection.
 
 ## -parameters
 
-
-
-
 ### -param InkStroke [in]
 
- The stroke to add to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
-
+ The stroke to add to the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,7 +97,7 @@ A parameter contained an invalid pointer.
 </dl>
 </td>
 <td width="60%">
-Cannot allocate <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a> handler helper object.
+Cannot allocate <a href="/windows/desktop/tablet/inkcollector-stroke">Stroke</a> handler helper object.
 
 </td>
 </tr>
@@ -128,7 +119,7 @@ An exception occurred inside the method.
 </dl>
 </td>
 <td width="60%">
-IInkStrokeDisp* does not point to a compatible <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
+IInkStrokeDisp* does not point to a compatible <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
 
 </td>
 </tr>
@@ -139,46 +130,30 @@ IInkStrokeDisp* does not point to a compatible <a href="https://docs.microsoft.c
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> being added does not match the <b>InkDisp</b> object of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
+The <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> being added does not match the <b>InkDisp</b> object of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  The stroke must already exist within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, and cannot belong to another <b>InkDisp</b> object. Also, this method does not copy or otherwise alter the <b>InkDisp</b> object, but merely adds this stroke to the collection.</div>
+<div class="alert"><b>Note</b>  The stroke must already exist within the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object, and cannot belong to another <b>InkDisp</b> object. Also, this method does not copy or otherwise alter the <b>InkDisp</b> object, but merely adds this stroke to the collection.</div>
 <div> </div>
-Use this method to add one stroke to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection. To add one collection of strokes to another, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes</a> method.
-
-
-
+Use this method to add one stroke to an <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection. To add one collection of strokes to another, use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-addstrokes">AddStrokes Method</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

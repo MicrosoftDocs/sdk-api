@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetLength
 title: IIsdbCAServiceDescriptor::GetLength (dvbsiparser.h)
 description: Gets the body length of conditional access (CA) service descriptor, in bytes.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbCAServiceDescriptor interface","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbCAServiceDescriptor.GetLength","IIsdbCAServiceDescriptor::GetLength","dvbsiparser/IIsdbCAServiceDescriptor::GetLength","mstv.iisdbcaservicedescriptor_getlength"]
 old-location: mstv\iisdbcaservicedescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: dfa6a372-8e9f-4f38-80ea-ad27c9423cc5
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbCAServiceDescriptor.GetLength, IIsdbCAServiceDescriptor::GetLength, dvbsiparser/IIsdbCAServiceDescriptor::GetLength, mstv.iisdbcaservicedescriptor_getlength
-f1_keywords:
-- dvbsiparser/IIsdbCAServiceDescriptor.GetLength
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbCAServiceDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbCAServiceDescriptor::GetLength
+ - dvbsiparser/IIsdbCAServiceDescriptor::GetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbCAServiceDescriptor.GetLength
 ---
 
 # IIsdbCAServiceDescriptor::GetLength
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the body length of conditional access (CA) service descriptor, in bytes. 
-
+Gets the body length of conditional access (CA) service descriptor, in bytes.
 
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the descriptor length.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcaservicedescriptor">IIsdbCAServiceDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcaservicedescriptor">IIsdbCAServiceDescriptor</a>

@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeLib.SetLibFlags
 title: ICreateTypeLib::SetLibFlags (oaidl.h)
 description: Sets library flags.
+helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetLibFlags method","ICreateTypeLib.SetLibFlags","ICreateTypeLib::SetLibFlags","SetLibFlags","SetLibFlags method [Automation]","SetLibFlags method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetLibFlags","automat.icreatetypelib_setlibflags","oaidl/ICreateTypeLib::SetLibFlags"]
 old-location: automat\icreatetypelib_setlibflags.htm
 tech.root: automat
 ms.assetid: fc72635c-853f-4a0a-9869-263e4aa39b8b
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLibFlags method, ICreateTypeLib.SetLibFlags, ICreateTypeLib::SetLibFlags, SetLibFlags, SetLibFlags method [Automation], SetLibFlags method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLibFlags, automat.icreatetypelib_setlibflags, oaidl/ICreateTypeLib::SetLibFlags
-f1_keywords:
-- oaidl/ICreateTypeLib.SetLibFlags
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeLib.SetLibFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeLib::SetLibFlags
+ - oaidl/ICreateTypeLib::SetLibFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeLib.SetLibFlags
 ---
 
 # ICreateTypeLib::SetLibFlags
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets library flags.
 
-
 ## -parameters
-
-
-
 
 ### -param uLibFlags [in]
 
 The flags to set.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -129,27 +123,11 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Valid <i>uLibFlags</i> values are listed in <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-libflags">LIBFLAGS</a>. 
-
-
-
+Valid <i>uLibFlags</i> values are listed in <a href="/windows/desktop/api/oaidl/ne-oaidl-libflags">LIBFLAGS</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.Skip
 title: IEnumBackgroundCopyGroups::Skip (qmgr.h)
-description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence. (IEnumBackgroundCopyGroups.Skip)
+helpviewer_keywords: ["IEnumBackgroundCopyGroups interface [BITS]","Skip method","IEnumBackgroundCopyGroups.Skip","IEnumBackgroundCopyGroups::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBackgroundCopyGroups interface","bits.ienumbackgroundcopygroups_skip","qmgr/IEnumBackgroundCopyGroups::Skip"]
 old-location: bits\ienumbackgroundcopygroups_skip.htm
 tech.root: Bits
 ms.assetid: 27e907d0-1b2a-44d2-b401-0b28d5a8b340
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Skip method, IEnumBackgroundCopyGroups.Skip, IEnumBackgroundCopyGroups::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_skip, qmgr/IEnumBackgroundCopyGroups::Skip
-f1_keywords:
-- qmgr/IEnumBackgroundCopyGroups.Skip
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IEnumBackgroundCopyGroups.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBackgroundCopyGroups::Skip
+ - qmgr/IEnumBackgroundCopyGroups::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IEnumBackgroundCopyGroups.Skip
 ---
 
 # IEnumBackgroundCopyGroups::Skip
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>IEnumBackgroundCopyGroups</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
+<p class="CCE_Message">[<b>IEnumBackgroundCopyGroups</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
 Use the <b>Skip</b> method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of elements to skip.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -98,18 +92,7 @@ Skipped less than the number of requested elements.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopygroups">IEnumBackgroundCopyGroups</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopygroups">IEnumBackgroundCopyGroups</a>

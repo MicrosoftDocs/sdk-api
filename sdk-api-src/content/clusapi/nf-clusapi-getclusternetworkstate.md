@@ -2,15 +2,12 @@
 UID: NF:clusapi.GetClusterNetworkState
 title: GetClusterNetworkState function (clusapi.h)
 description: Current state of a network.
+helpviewer_keywords: ["GetClusterNetworkState","GetClusterNetworkState function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_NETWORK_STATE","PCLUSAPI_GET_CLUSTER_NETWORK_STATE function [Failover Cluster]","_wolf_getclusternetworkstate","clusapi/GetClusterNetworkState","clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_STATE","mscs.getclusternetworkstate"]
 old-location: mscs\getclusternetworkstate.htm
 tech.root: MsCS
 ms.assetid: 7fdbc0cf-fa7b-4b48-bd3c-46f174fc514a
 ms.date: 12/05/2018
 ms.keywords: GetClusterNetworkState, GetClusterNetworkState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NETWORK_STATE, PCLUSAPI_GET_CLUSTER_NETWORK_STATE function [Failover Cluster], _wolf_getclusternetworkstate, clusapi/GetClusterNetworkState, clusapi/PCLUSAPI_GET_CLUSTER_NETWORK_STATE, mscs.getclusternetworkstate
-f1_keywords:
-- clusapi/GetClusterNetworkState
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- GetClusterNetworkState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClusterNetworkState
+ - clusapi/GetClusterNetworkState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - GetClusterNetworkState
 ---
 
 # GetClusterNetworkState function
@@ -48,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns 
-    the current state of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_STATE</b> type defines a pointer to this function.
-
+    the current state of a <a href="/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_STATE</b> type defines a pointer to this function.
 
 ## -parameters
-
-
-
 
 ### -param hNetwork [in]
 
 Handle to the network for which state information should be returned.
 
-
 ## -returns
-
-
 
 <b>GetClusterNetworkState</b> returns the current 
        state of the network, which is represented by one of the following values enumerated by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a> enumeration.
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a> enumeration.
 
 <table>
 <tr>
@@ -97,7 +91,7 @@ All of the network interfaces on the network are unavailable, which means that t
 </dl>
 </td>
 <td width="60%">
-The network is not operational; none of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> on the 
+The network is not operational; none of the <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> on the 
         network can communicate.
 
 </td>
@@ -136,27 +130,16 @@ The network is operational; all of the nodes in the cluster can communicate.
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>

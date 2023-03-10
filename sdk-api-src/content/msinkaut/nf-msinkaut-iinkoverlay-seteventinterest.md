@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkOverlay.SetEventInterest
 title: IInkOverlay::SetEventInterest (msinkaut.h)
 description: Sets a value that indicates whether an object or control has interest in a specified event.
+helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","SetEventInterest method","IInkOverlay.SetEventInterest","IInkOverlay::SetEventInterest","SetEventInterest","SetEventInterest method [Tablet PC]","SetEventInterest method [Tablet PC]","IInkOverlay interface","df25efbb-5229-4211-948f-3a213154a967","msinkaut/IInkOverlay::SetEventInterest","tablet.inkoverlay_seteventinterest"]
 old-location: tablet\inkoverlay_seteventinterest.htm
 tech.root: tablet
 ms.assetid: 046eb6be-ac7c-4cf8-82e8-f58d9d826682
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],SetEventInterest method, IInkOverlay.SetEventInterest, IInkOverlay::SetEventInterest, SetEventInterest, SetEventInterest method [Tablet PC], SetEventInterest method [Tablet PC],IInkOverlay interface, df25efbb-5229-4211-948f-3a213154a967, msinkaut/IInkOverlay::SetEventInterest, tablet.inkoverlay_seteventinterest
-f1_keywords:
-- msinkaut/IInkOverlay.SetEventInterest
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.SetEventInterest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::SetEventInterest
+ - msinkaut/IInkOverlay::SetEventInterest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.SetEventInterest
 ---
 
 # IInkOverlay::SetEventInterest
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets a value that indicates whether an object or control has interest in a specified event.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param EventId [in]
 
-The event to be listened for. Possible values for <i>EventID</i> appear in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest</a> enumeration type.
-
+The event to be listened for. Possible values for <i>EventID</i> appear in the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest</a> enumeration type.
 
 ### -param Listen [in]
 
 <b>VARIANT_TRUE</b> if the event is being used and <b>VARIANT_FALSE</b> if it is being ignored.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -127,57 +117,41 @@ An exception occurred during processing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+All ink collector  events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="/windows/desktop/tablet/inkcollector-stroke">Stroke</a>, <a href="/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a>, and <a href="/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a>.
 
-
-All ink collector  events can be toggled by using this method. Most of these events are turned off by default for performance reasons. The only events that are on by default are <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange</a>, and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursoroutofrange">CursorOutOfRange</a>.
-
-Use the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a>, <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
-
-
-
+Use the <a href="/windows/desktop/tablet/inkcollector-newpackets">NewPackets</a>, <a href="/windows/desktop/tablet/inkcollector-newinairpackets">NewInAirPackets</a> and <a href="/windows/desktop/tablet/inkcollector-cursordown">CursorDown</a> events carefully, in particular because they may have an adverse effect on ink performance if too much code is executed in the event handlers.
 
 ## -see-also
 
+<a href="/windows/desktop/tablet/inkcollector-cursordown">CursorDown Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursordown">CursorDown Event</a>
+<a href="/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-cursorinrange">CursorInRange Event</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest">GetEventInterest Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-geteventinterest">GetEventInterest Method</a>
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkcollectoreventinterest">InkCollectorEventInterest Enumeration</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkcollector-newpackets">NewPackets Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-newpackets">NewPackets Event</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-stroke">Stroke Event</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkcollector-stroke">Stroke Event</a>

@@ -2,15 +2,12 @@
 UID: NF:tuner.IBDACreateTuneRequestEx.CreateTuneRequestEx
 title: IBDACreateTuneRequestEx::CreateTuneRequestEx (tuner.h)
 description: Creates a new tuning request for a tuning space. This method enables the caller to specify a particular type of tuning request.
+helpviewer_keywords: ["CreateTuneRequestEx","CreateTuneRequestEx method [Microsoft TV Technologies]","CreateTuneRequestEx method [Microsoft TV Technologies]","IBDACreateTuneRequestEx interface","IBDACreateTuneRequestEx interface [Microsoft TV Technologies]","CreateTuneRequestEx method","IBDACreateTuneRequestEx.CreateTuneRequestEx","IBDACreateTuneRequestEx::CreateTuneRequestEx","mstv.ibdacreatetunerequestex_createtunerequestex","tuner/IBDACreateTuneRequestEx::CreateTuneRequestEx"]
 old-location: mstv\ibdacreatetunerequestex_createtunerequestex.htm
 tech.root: mstv
 ms.assetid: bf378da2-be79-484e-84c6-bf1669b50218
 ms.date: 12/05/2018
 ms.keywords: CreateTuneRequestEx, CreateTuneRequestEx method [Microsoft TV Technologies], CreateTuneRequestEx method [Microsoft TV Technologies],IBDACreateTuneRequestEx interface, IBDACreateTuneRequestEx interface [Microsoft TV Technologies],CreateTuneRequestEx method, IBDACreateTuneRequestEx.CreateTuneRequestEx, IBDACreateTuneRequestEx::CreateTuneRequestEx, mstv.ibdacreatetunerequestex_createtunerequestex, tuner/IBDACreateTuneRequestEx::CreateTuneRequestEx
-f1_keywords:
-- tuner/IBDACreateTuneRequestEx.CreateTuneRequestEx
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IBDACreateTuneRequestEx.CreateTuneRequestEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDACreateTuneRequestEx::CreateTuneRequestEx
+ - tuner/IBDACreateTuneRequestEx::CreateTuneRequestEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IBDACreateTuneRequestEx.CreateTuneRequestEx
 ---
 
 # IBDACreateTuneRequestEx::CreateTuneRequestEx
@@ -48,47 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a new tuning  request for a tuning space. This method enables the caller to specify a particular type of tuning request.
-
 
 ## -parameters
 
-
-
-
 ### -param TuneRequestIID [in]
 
-GUID that identifies the type of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> object expected by the caller. If this value is <b>NULL</b>, this method behaves the same as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a> and creates an empty (uninitialized) <b>ITuneRequest</b> object.
-          
-
+GUID that identifies the type of <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> object expected by the caller. If this value is <b>NULL</b>, this method behaves the same as <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a> and creates an empty (uninitialized) <b>ITuneRequest</b> object.
 
 ### -param TuneRequest [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the new tuning request object. The caller must release the interface. If the <i>TuneRequestIID</i> argument is <b>NULL</b>, this address is set to <b>NULL</b> also.
-          
-
+Address of a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface of the new tuning request object. The caller must release the interface. If the <i>TuneRequestIID</i> argument is <b>NULL</b>, this address is set to <b>NULL</b> also.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacreatetunerequestex">IBDACreateTuneRequestEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacreatetunerequestex">IBDACreateTuneRequestEx</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituningspace-createtunerequest">ITuningSpace::CreateTuneRequest</a>

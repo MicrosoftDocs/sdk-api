@@ -2,15 +2,12 @@
 UID: NS:iptypes._IP_ADAPTER_INFO
 title: IP_ADAPTER_INFO (iptypes.h)
 description: Contains information about a particular network adapter on the local computer.
+helpviewer_keywords: ["*PIP_ADAPTER_INFO","IF_TYPE_IEEE80211","IF_TYPE_ISO88025_TOKENRING","IP_ADAPTER_INFO","IP_ADAPTER_INFO structure [IP Helper]","MIB_IF_TYPE_ETHERNET","MIB_IF_TYPE_LOOPBACK","MIB_IF_TYPE_OTHER","MIB_IF_TYPE_PPP","MIB_IF_TYPE_SLIP","PIP_ADAPTER_INFO","PIP_ADAPTER_INFO structure pointer [IP Helper]","_iphlp_ip_adapter_info","iphlp.ip_adapter_info","iptypes/IP_ADAPTER_INFO","iptypes/PIP_ADAPTER_INFO"]
 old-location: iphlp\ip_adapter_info.htm
 tech.root: IpHlp
 ms.assetid: f8035801-ca0c-4d86-bfc5-8e2d746af1b4
 ms.date: 12/05/2018
 ms.keywords: '*PIP_ADAPTER_INFO, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IP_ADAPTER_INFO, IP_ADAPTER_INFO structure [IP Helper], MIB_IF_TYPE_ETHERNET, MIB_IF_TYPE_LOOPBACK, MIB_IF_TYPE_OTHER, MIB_IF_TYPE_PPP, MIB_IF_TYPE_SLIP, PIP_ADAPTER_INFO, PIP_ADAPTER_INFO structure pointer [IP Helper], _iphlp_ip_adapter_info, iphlp.ip_adapter_info, iptypes/IP_ADAPTER_INFO, iptypes/PIP_ADAPTER_INFO'
-f1_keywords:
-- iptypes/IP_ADAPTER_INFO
-dev_langs:
-- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iptypes.h
-api_name:
-- IP_ADAPTER_INFO
 targetos: Windows
 req.typenames: IP_ADAPTER_INFO, *PIP_ADAPTER_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IP_ADAPTER_INFO
+ - iptypes/_IP_ADAPTER_INFO
+ - PIP_ADAPTER_INFO
+ - iptypes/PIP_ADAPTER_INFO
+ - IP_ADAPTER_INFO
+ - iptypes/IP_ADAPTER_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iptypes.h
+api_name:
+ - IP_ADAPTER_INFO
 ---
 
 # IP_ADAPTER_INFO structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IP_ADAPTER_INFO</b> structure contains information about a particular network adapter on the local computer.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Next
 
@@ -64,13 +65,11 @@ Type: <b>struct _IP_ADAPTER_INFO*</b>
 
 A pointer to the next adapter in the list of adapters.
 
-
 ### -field ComboIndex
 
 Type: <b>DWORD</b>
 
-Reserved. 
-
+Reserved.
 
 ### -field AdapterName
 
@@ -78,13 +77,11 @@ Type: <b>char[MAX_ADAPTER_NAME_LENGTH + 4]</b>
 
 An ANSI character string of the name of the adapter.
 
-
 ### -field Description
 
 Type: <b>char[MAX_ADAPTER_DESCRIPTION_LENGTH + 4]</b>
 
 An ANSI character string that contains the description of the adapter.
-
 
 ### -field AddressLength
 
@@ -92,13 +89,11 @@ Type: <b>UINT</b>
 
 The length, in bytes,  of the hardware address for the adapter.
 
-
 ### -field Address
 
 Type: <b>BYTE[MAX_ADAPTER_ADDRESS_LENGTH]</b>
 
 The hardware address for the adapter represented as a <b>BYTE</b> array.
-
 
 ### -field Index
 
@@ -107,7 +102,6 @@ Type: <b>DWORD</b>
 The adapter index. 
 
 The adapter index  may change when an adapter is disabled and then enabled, or under other circumstances, and should not be considered persistent.
-
 
 ### -field Type
 
@@ -203,8 +197,6 @@ An IEEE 802.11 wireless network interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DhcpEnabled
 
@@ -212,14 +204,11 @@ Type: <b>UINT</b>
 
 An option value  that specifies whether the dynamic host configuration protocol (DHCP) is enabled for this adapter.
 
-
 ### -field CurrentIpAddress
 
 Type: <b>PIP_ADDR_STRING</b>
 
 Reserved.
-					
-
 
 ### -field IpAddressList
 
@@ -227,13 +216,11 @@ Type: <b>IP_ADDR_STRING</b>
 
 The list of IPv4 addresses associated with this adapter represented as  a linked list of <b>IP_ADDR_STRING</b> structures. An adapter can have multiple IPv4 addresses assigned to it.
 
-
 ### -field GatewayList
 
 Type: <b>IP_ADDR_STRING</b>
 
 The IPv4 address of the gateway for this adapter represented as  a linked list of <b>IP_ADDR_STRING</b> structures. An adapter can have multiple IPv4 gateway addresses assigned to it. This list usually contains a single entry for IPv4 address of the default gateway for this adapter.
-
 
 ### -field DhcpServer
 
@@ -243,13 +230,11 @@ The IPv4 address of the DHCP server for this adapter represented as  a linked li
 
 This member is only valid when the <b>DhcpEnabled</b> member is nonzero.
 
-
 ### -field HaveWins
 
 Type: <b>BOOL</b>
 
 An option value that specifies whether this adapter uses the Windows Internet Name Service (WINS).
-
 
 ### -field PrimaryWinsServer
 
@@ -259,7 +244,6 @@ The IPv4 address of the primary WINS server represented as  a linked list of <b>
 
 This member is only valid when the <b>HaveWins</b> member is <b>TRUE</b>.
 
-
 ### -field SecondaryWinsServer
 
 Type: <b>IP_ADDR_STRING</b>
@@ -267,7 +251,6 @@ Type: <b>IP_ADDR_STRING</b>
 The IPv4 address of the secondary WINS server represented as  a linked list of <b>IP_ADDR_STRING</b> structures. An adapter can have multiple secondary WINS server addresses assigned to it. 
 
 This member is only valid when the <b>HaveWins</b> member is <b>TRUE</b>.
-
 
 ### -field LeaseObtained
 
@@ -277,7 +260,6 @@ The time when the current DHCP lease was obtained.
 
 This member is only valid when the <b>DhcpEnabled</b> member is nonzero.
 
-
 ### -field LeaseExpires
 
 Type: <b>time_t</b>
@@ -286,18 +268,15 @@ The time when the current DHCP lease expires.
 
 This member is only valid when the <b>DhcpEnabled</b> member is nonzero.
 
-
 ## -remarks
-
-
 
 The 
 <b>IP_ADAPTER_INFO</b> structure is limited to IPv4 information about a particular network adapter on the local computer. The 
-<b>IP_ADAPTER_INFO</b> structure is retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>function.
+<b>IP_ADAPTER_INFO</b> structure is retrieved by calling the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a> function.
 
 When using Visual Studio 2005 and later, the <b>time_t</b> datatype defaults to an 8-byte datatype, not the 4-byte datatype used for the <b>LeaseObtained</b> and <b>LeaseExpires</b> members on a 32-bit platform. To properly use the <b>IP_ADAPTER_INFO</b> structure on a 32-bit platform, define <b>_USE_32BIT_TIME_T</b> (use <code>-D _USE_32BIT_TIME_T</code> as an option, for example) when compiling the application to force the <b>time_t</b> datatype to a 4-byte datatype.
 
-For use on Windows XP and later, the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure contains both IPv4 and IPv6 information. The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function retrieves IPv4 and IPv6 adapter information. 
+For use on Windows XP and later, the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure contains both IPv4 and IPv6 information. The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function retrieves IPv4 and IPv6 adapter information. 
 
 
 #### Examples
@@ -360,7 +339,7 @@ int __cdecl main()
     if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &ulOutBufLen)) == NO_ERROR) {
         pAdapter = pAdapterInfo;
         while (pAdapter) {
-            printf("\tComboIndex: \t5d\n", pAdapter->ComboIndex);
+            printf("\tComboIndex: \t%d\n", pAdapter->ComboIndex);
             printf("\tAdapter Name: \t%s\n", pAdapter->AdapterName);
             printf("\tAdapter Desc: \t%s\n", pAdapter->Description);
             printf("\tAdapter Addr: \t");
@@ -465,41 +444,30 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_address_string">IP_ADDRESS_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_address_string">IP_ADDRESS_STRING</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>

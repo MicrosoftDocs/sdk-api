@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.AddLoggingUrl
 title: IWMReaderNetworkConfig::AddLoggingUrl (wmsdkidl.h)
 description: The AddLoggingUrl method specifies a server that receive logging information from the reader object.
+helpviewer_keywords: ["AddLoggingUrl","AddLoggingUrl method [windows Media Format]","AddLoggingUrl method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","AddLoggingUrl method","IWMReaderNetworkConfig.AddLoggingUrl","IWMReaderNetworkConfig::AddLoggingUrl","IWMReaderNetworkConfigAddLoggingUrl","wmformat.iwmreadernetworkconfig_addloggingurl","wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl"]
 old-location: wmformat\iwmreadernetworkconfig_addloggingurl.htm
 tech.root: wmformat
 ms.assetid: 471b17c8-20e4-44f3-88ee-48a35cd8930c
 ms.date: 12/05/2018
 ms.keywords: AddLoggingUrl, AddLoggingUrl method [windows Media Format], AddLoggingUrl method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],AddLoggingUrl method, IWMReaderNetworkConfig.AddLoggingUrl, IWMReaderNetworkConfig::AddLoggingUrl, IWMReaderNetworkConfigAddLoggingUrl, wmformat.iwmreadernetworkconfig_addloggingurl, wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.AddLoggingUrl
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.AddLoggingUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::AddLoggingUrl
+ - wmsdkidl/IWMReaderNetworkConfig::AddLoggingUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.AddLoggingUrl
 ---
 
 # IWMReaderNetworkConfig::AddLoggingUrl
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AddLoggingUrl</b> method specifies a server that receive logging information from the reader object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszUrl [in]
 
 Specifies a string containing the URL.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,31 +104,15 @@ Unable to create or add the URL.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When the reader streams content from a server, it automatically sends logging information to that server. Use the <b>AddLoggingUrl</b> method to specify additional servers that will receive the logging information.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>

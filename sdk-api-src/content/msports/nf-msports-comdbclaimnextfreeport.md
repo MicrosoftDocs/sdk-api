@@ -2,15 +2,12 @@
 UID: NF:msports.ComDBClaimNextFreePort
 title: ComDBClaimNextFreePort function (msports.h)
 description: ComDBClaimNextFreePort returns the lowest COM port number that is not already in use.
+helpviewer_keywords: ["ComDBClaimNextFreePort","ComDBClaimNextFreePort function [Serial Ports]","comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml","msports/ComDBClaimNextFreePort","serports.comdbclaimnextfreeport"]
 old-location: serports\comdbclaimnextfreeport.htm
 tech.root: serports
 ms.assetid: b32b42e8-d38c-4bb5-bf8a-96538a03cb5b
 ms.date: 12/05/2018
 ms.keywords: ComDBClaimNextFreePort, ComDBClaimNextFreePort function [Serial Ports], comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml, msports/ComDBClaimNextFreePort, serports.comdbclaimnextfreeport
-f1_keywords:
-- msports/ComDBClaimNextFreePort
-dev_langs:
-- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msports.dll
-api_name:
-- ComDBClaimNextFreePort
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComDBClaimNextFreePort
+ - msports/ComDBClaimNextFreePort
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msports.dll
+api_name:
+ - ComDBClaimNextFreePort
 ---
 
 # ComDBClaimNextFreePort function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>ComDBClaimNextFreePort</b> returns the lowest COM port number that is not already in use.
-
 
 ## -parameters
 
-
-
-
 ### -param HComDB [in]
 
-Handle to the COM port database that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
-
+Handle to the COM port database that is returned by <a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 ### -param ComNumber [out]
 
-Pointer to the COM port number that the routine returns to the caller. This pointer must be non-NULL. A port number is an integer that ranges from 1 to COMDB_MAX_PORTS_ARBITRATED. 
-
+Pointer to the COM port number that the routine returns to the caller. This pointer must be non-NULL. A port number is an integer that ranges from 1 to COMDB_MAX_PORTS_ARBITRATED.
 
 ## -returns
-
-
 
 <b>ComDBClaimNextFreePort</b> returns one of the following status values.
 
@@ -145,35 +138,19 @@ An internal error occurred; call <b>GetLastError</b> to get extended error infor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <i>Claiming</i> a COM port number in the COM port database logs the port number as "in use". Note that the database does not contain information about the caller or device that claims a port number.
 
 <b>ComDBClaimNextFreePort</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
-
-
-
+For more information, see <a href="/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbclaimport">ComDBClaimPort</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbreleaseport">ComDBReleasePort</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msports/nf-msports-comdbreleaseport">ComDBReleasePort</a>

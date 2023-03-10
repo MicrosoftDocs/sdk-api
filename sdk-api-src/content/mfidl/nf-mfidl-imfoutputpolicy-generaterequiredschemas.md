@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFOutputPolicy.GenerateRequiredSchemas
 title: IMFOutputPolicy::GenerateRequiredSchemas (mfidl.h)
 description: Retrieves a list of the output protection systems that the output trust authority (OTA) must enforce, along with configuration data for each protection system.
+helpviewer_keywords: ["23f5f0df-e2cc-4593-8c3e-dca3638161e2","GenerateRequiredSchemas","GenerateRequiredSchemas method [Media Foundation]","GenerateRequiredSchemas method [Media Foundation]","IMFOutputPolicy interface","IMFOutputPolicy interface [Media Foundation]","GenerateRequiredSchemas method","IMFOutputPolicy.GenerateRequiredSchemas","IMFOutputPolicy::GenerateRequiredSchemas","MFCONNECTOR_AGP","MFCONNECTOR_COMPONENT","MFCONNECTOR_COMPOSITE","MFCONNECTOR_DISPLAYPORT_EMBEDDED","MFCONNECTOR_DISPLAYPORT_EXTERNAL","MFCONNECTOR_DVI","MFCONNECTOR_D_JPN","MFCONNECTOR_HDMI","MFCONNECTOR_LVDS","MFCONNECTOR_MIRACAST","MFCONNECTOR_PCI","MFCONNECTOR_PCIX","MFCONNECTOR_PCI_Express","MFCONNECTOR_SDI","MFCONNECTOR_SPDIF","MFCONNECTOR_SVIDEO","MFCONNECTOR_UDI_EMBEDDED","MFCONNECTOR_UDI_EXTERNAL","MFCONNECTOR_UNKNOWN","MFCONNECTOR_VGA","MFOUTPUTATTRIBUTE_BUS","MFOUTPUTATTRIBUTE_BUSIMPLEMENTATION","MFOUTPUTATTRIBUTE_COMPRESSED","MFOUTPUTATTRIBUTE_DIGITAL","MFOUTPUTATTRIBUTE_NONSTANDARDIMPLEMENTATION","MFOUTPUTATTRIBUTE_SOFTWARE","MFOUTPUTATTRIBUTE_VIDEO","mf.imfoutputpolicy_generaterequiredschemas","mfidl/IMFOutputPolicy::GenerateRequiredSchemas"]
 old-location: mf\imfoutputpolicy_generaterequiredschemas.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 23f5f0df-e2cc-4593-8c3e-dca3638161e2
 ms.date: 12/05/2018
 ms.keywords: 23f5f0df-e2cc-4593-8c3e-dca3638161e2, GenerateRequiredSchemas, GenerateRequiredSchemas method [Media Foundation], GenerateRequiredSchemas method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GenerateRequiredSchemas method, IMFOutputPolicy.GenerateRequiredSchemas, IMFOutputPolicy::GenerateRequiredSchemas, MFCONNECTOR_AGP, MFCONNECTOR_COMPONENT, MFCONNECTOR_COMPOSITE, MFCONNECTOR_DISPLAYPORT_EMBEDDED, MFCONNECTOR_DISPLAYPORT_EXTERNAL, MFCONNECTOR_DVI, MFCONNECTOR_D_JPN, MFCONNECTOR_HDMI, MFCONNECTOR_LVDS, MFCONNECTOR_MIRACAST, MFCONNECTOR_PCI, MFCONNECTOR_PCIX, MFCONNECTOR_PCI_Express, MFCONNECTOR_SDI, MFCONNECTOR_SPDIF, MFCONNECTOR_SVIDEO, MFCONNECTOR_UDI_EMBEDDED, MFCONNECTOR_UDI_EXTERNAL, MFCONNECTOR_UNKNOWN, MFCONNECTOR_VGA, MFOUTPUTATTRIBUTE_BUS, MFOUTPUTATTRIBUTE_BUSIMPLEMENTATION, MFOUTPUTATTRIBUTE_COMPRESSED, MFOUTPUTATTRIBUTE_DIGITAL, MFOUTPUTATTRIBUTE_NONSTANDARDIMPLEMENTATION, MFOUTPUTATTRIBUTE_SOFTWARE, MFOUTPUTATTRIBUTE_VIDEO, mf.imfoutputpolicy_generaterequiredschemas, mfidl/IMFOutputPolicy::GenerateRequiredSchemas
-f1_keywords:
-- mfidl/IMFOutputPolicy.GenerateRequiredSchemas
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFOutputPolicy.GenerateRequiredSchemas
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFOutputPolicy::GenerateRequiredSchemas
+ - mfidl/IMFOutputPolicy::GenerateRequiredSchemas
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFOutputPolicy.GenerateRequiredSchemas
 ---
 
 # IMFOutputPolicy::GenerateRequiredSchemas
@@ -49,15 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of the output protection systems that the output trust authority (OTA) must enforce, along with configuration data for each protection system.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param dwAttributes [in]
 
@@ -147,8 +143,6 @@ The output sends video data. If this flag is absent, the output sends audio data
 </td>
 </tr>
 </table>
- 
-
 
 ### -param guidOutputSubType [in]
 
@@ -384,52 +378,27 @@ Supported in Windows 8.1 and later.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param rgGuidProtectionSchemasSupported [in]
 
 Pointer to an array of GUID values that specify which output protection systems are supported by the OTA that is calling this method.
-          
-
 
 ### -param cProtectionSchemasSupported [in]
 
 Number of elements in the <i>rgGuidProtectionSchemasSupported</i> array.
-          
-
 
 ### -param ppRequiredProtectionSchemas [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of a collection object. The caller must release the interface. Each object in the collection is an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputschema">IMFOutputSchema</a> pointer. Each <b>IMFOutputSchema</b> pointer defines an output protection system that the OTA must enforce.
-          
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of a collection object. The caller must release the interface. Each object in the collection is an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputschema">IMFOutputSchema</a> pointer. Each <b>IMFOutputSchema</b> pointer defines an output protection system that the OTA must enforce.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The video OTA returns  the <b>MFCONNECTOR_UNKNOWN</b> connector type unless the Direct3D device is in full-screen mode. (Direct3D windowed mode is not generally a secure video mode.) You can override this behavior by implementing a custom EVR presenter that implements the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a> interface.
-
-
-
+The video OTA returns  the <b>MFCONNECTOR_UNKNOWN</b> connector type unless the Direct3D device is in full-screen mode. (Direct3D windowed mode is not generally a secure video mode.) You can override this behavior by implementing a custom EVR presenter that implements the <a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a>

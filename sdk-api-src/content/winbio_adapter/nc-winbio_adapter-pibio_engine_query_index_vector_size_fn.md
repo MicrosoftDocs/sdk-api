@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
 title: PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN (winbio_adapter.h)
 description: Retrieves the size of the index vector used by the engine adapter.
+helpviewer_keywords: ["EngineAdapterQueryIndexVectorSize","EngineAdapterQueryIndexVectorSize callback function [Windows Biometric Framework API]","PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN","PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN callback","secbiomet.engineadapterqueryindexvectorsize","winbio_adapter/EngineAdapterQueryIndexVectorSize"]
 old-location: secbiomet\engineadapterqueryindexvectorsize.htm
 tech.root: SecBioMet
 ms.assetid: 07e9f956-1bae-4011-92a0-6c5ed0d105a0
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterQueryIndexVectorSize, EngineAdapterQueryIndexVectorSize callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN, PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN callback, secbiomet.engineadapterqueryindexvectorsize, winbio_adapter/EngineAdapterQueryIndexVectorSize
-f1_keywords:
-- winbio_adapter/EngineAdapterQueryIndexVectorSize
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterQueryIndexVectorSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
+ - winbio_adapter/PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterQueryIndexVectorSize
 ---
 
 # PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN callback function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework  to retrieve the size of the index vector used by the engine adapter.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param IndexElementCount [out]
 
 Address of a variable that receives the number of array elements in the index vector.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -90,14 +83,8 @@ A mandatory pointer parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The index vector is used by the engine adapter to index the available biometric templates.
 
@@ -152,17 +139,6 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

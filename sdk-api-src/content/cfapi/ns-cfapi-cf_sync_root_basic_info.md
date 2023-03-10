@@ -2,15 +2,12 @@
 UID: NS:cfapi.CF_SYNC_ROOT_BASIC_INFO
 title: CF_SYNC_ROOT_BASIC_INFO (cfapi.h)
 description: Basic sync root information.
+helpviewer_keywords: ["CF_SYNC_ROOT_BASIC_INFO","CF_SYNC_ROOT_BASIC_INFO structure","cfapi/CF_SYNC_ROOT_BASIC_INFO","cloudApi.cf_sync_root_basic_info"]
 old-location: cloudapi\cf_sync_root_basic_info.htm
-tech.root: cfApi
+tech.root: cloudapi
 ms.assetid: 7499D9DD-BAF6-449A-A34E-CEAE3EE10543
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_BASIC_INFO, CF_SYNC_ROOT_BASIC_INFO structure, cfapi/CF_SYNC_ROOT_BASIC_INFO, cloudApi.cf_sync_root_basic_info
-f1_keywords:
-- cfapi/CF_SYNC_ROOT_BASIC_INFO
-dev_langs:
-- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CfApi.h
-api_name:
-- CF_SYNC_ROOT_BASIC_INFO
 targetos: Windows
 req.typenames: CF_SYNC_ROOT_BASIC_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CF_SYNC_ROOT_BASIC_INFO
+ - cfapi/CF_SYNC_ROOT_BASIC_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CfApi.h
+api_name:
+ - CF_SYNC_ROOT_BASIC_INFO
 ---
 
 # CF_SYNC_ROOT_BASIC_INFO structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Basic sync root information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SyncRootFileId
 

@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.put_ClientApplicationID
 title: IUpdateServiceManager2::put_ClientApplicationID (wuapi.h)
-description: Gets and sets the identifier of the current client application.
+description: Gets and sets the identifier of the current client application. (Put)
+helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateServiceManager2 interface","IUpdateServiceManager2 interface [Windows Update Agent]","ClientApplicationID property","IUpdateServiceManager2.ClientApplicationID","IUpdateServiceManager2.put_ClientApplicationID","IUpdateServiceManager2::ClientApplicationID","IUpdateServiceManager2::get_ClientApplicationID","IUpdateServiceManager2::put_ClientApplicationID","put_ClientApplicationID","wua.iupdateservicemanager2_clientapplicationid","wuapi/IUpdateServiceManager2::ClientApplicationID","wuapi/IUpdateServiceManager2::get_ClientApplicationID","wuapi/IUpdateServiceManager2::put_ClientApplicationID"]
 old-location: wua\iupdateservicemanager2_clientapplicationid.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 6783b7fc-ebb7-4b68-b71c-23e65ef61504
 ms.date: 12/05/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],ClientApplicationID property, IUpdateServiceManager2.ClientApplicationID, IUpdateServiceManager2.put_ClientApplicationID, IUpdateServiceManager2::ClientApplicationID, IUpdateServiceManager2::get_ClientApplicationID, IUpdateServiceManager2::put_ClientApplicationID, put_ClientApplicationID, wua.iupdateservicemanager2_clientapplicationid, wuapi/IUpdateServiceManager2::ClientApplicationID, wuapi/IUpdateServiceManager2::get_ClientApplicationID, wuapi/IUpdateServiceManager2::put_ClientApplicationID
-f1_keywords:
-- wuapi/IUpdateServiceManager2.ClientApplicationID
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceManager2.ClientApplicationID
-- IUpdateServiceManager2.get_ClientApplicationID
-- IUpdateServiceManager2.put_ClientApplicationID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceManager2::put_ClientApplicationID
+ - wuapi/IUpdateServiceManager2::put_ClientApplicationID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceManager2.ClientApplicationID
+ - IUpdateServiceManager2.get_ClientApplicationID
+ - IUpdateServiceManager2.put_ClientApplicationID
 ---
 
 # IUpdateServiceManager2::put_ClientApplicationID
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets and sets the identifier of the current client application.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Returns the Unknown value if the client application has not set the property.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a>

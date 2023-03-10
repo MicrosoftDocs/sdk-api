@@ -2,15 +2,12 @@
 UID: NF:winsync.ICoreFragmentInspector.Reset
 title: ICoreFragmentInspector::Reset (winsync.h)
 description: Resets the enumerator to the beginning of the knowledge.
+helpviewer_keywords: ["ICoreFragmentInspector interface [Windows Sync]","Reset method","ICoreFragmentInspector.Reset","ICoreFragmentInspector::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","ICoreFragmentInspector interface","winsync.icorefragmentinspector_reset","winsync/ICoreFragmentInspector::Reset"]
 old-location: winsync\icorefragmentinspector_reset.htm
 tech.root: winsync
 ms.assetid: 57621ce0-c484-4687-9f2f-98d285b041ca
 ms.date: 12/05/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],Reset method, ICoreFragmentInspector.Reset, ICoreFragmentInspector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_reset, winsync/ICoreFragmentInspector::Reset
-f1_keywords:
-- winsync/ICoreFragmentInspector.Reset
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ICoreFragmentInspector.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICoreFragmentInspector::Reset
+ - winsync/ICoreFragmentInspector::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ICoreFragmentInspector.Reset
 ---
 
 # ICoreFragmentInspector::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Resets the enumerator to the beginning of the knowledge.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -93,18 +86,7 @@ The knowledge object that is associated with this object has changed since this 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>

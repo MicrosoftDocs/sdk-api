@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_FLUSH_INFO
 title: CRYPTNET_URL_CACHE_FLUSH_INFO (wincrypt.h)
 description: Contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
+helpviewer_keywords: ["*PCRYPTNET_URL_CACHE_FLUSH_INFO","CRYPTNET_URL_CACHE_DEFAULT_FLUSH","CRYPTNET_URL_CACHE_DISABLE_FLUSH","CRYPTNET_URL_CACHE_FLUSH_INFO","CRYPTNET_URL_CACHE_FLUSH_INFO structure [Security]","PCRYPTNET_URL_CACHE_FLUSH_INFO","PCRYPTNET_URL_CACHE_FLUSH_INFO structure pointer [Security]","security.cryptnet_url_cache_flush_info","wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO","wincrypt/PCRYPTNET_URL_CACHE_FLUSH_INFO"]
 old-location: security\cryptnet_url_cache_flush_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 68b52dbe-c521-4281-9a00-d91ee14dd697
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_DEFAULT_FLUSH, CRYPTNET_URL_CACHE_DISABLE_FLUSH, CRYPTNET_URL_CACHE_FLUSH_INFO, CRYPTNET_URL_CACHE_FLUSH_INFO structure [Security], PCRYPTNET_URL_CACHE_FLUSH_INFO, PCRYPTNET_URL_CACHE_FLUSH_INFO structure pointer [Security], security.cryptnet_url_cache_flush_info, wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO, wincrypt/PCRYPTNET_URL_CACHE_FLUSH_INFO'
-f1_keywords:
-- wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPTNET_URL_CACHE_FLUSH_INFO
 targetos: Windows
 req.typenames: CRYPTNET_URL_CACHE_FLUSH_INFO, *PCRYPTNET_URL_CACHE_FLUSH_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPTNET_URL_CACHE_FLUSH_INFO
+ - wincrypt/_CRYPTNET_URL_CACHE_FLUSH_INFO
+ - PCRYPTNET_URL_CACHE_FLUSH_INFO
+ - wincrypt/PCRYPTNET_URL_CACHE_FLUSH_INFO
+ - CRYPTNET_URL_CACHE_FLUSH_INFO
+ - wincrypt/CRYPTNET_URL_CACHE_FLUSH_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPTNET_URL_CACHE_FLUSH_INFO
 ---
 
 # CRYPTNET_URL_CACHE_FLUSH_INFO structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPTNET_URL_CACHE_FLUSH_INFO</b> structure contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pFlushInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> method as the <i>pAuxInfo</i> parameter.
-
+The <b>CRYPTNET_URL_CACHE_FLUSH_INFO</b> structure contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pFlushInfo</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> method as the <i>pAuxInfo</i> parameter.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure.
-
 
 ### -field dwExemptSeconds
 
@@ -103,19 +103,11 @@ Disable cache flushing for a retrieved URL.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ExpireTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time the object expires.
-
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time the object expires.
 
 ## -remarks
 
-
-
-The <b>dwExemptSeconds</b> member is added to the <b>ExpireTime</b> member to determine the flush time. If the <b>pLastSyncTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure  is after the <b>ExpireTime</b> member, the <b>pLastSyncTime</b> member  determines the flush time.
-
-
-
+The <b>dwExemptSeconds</b> member is added to the <b>ExpireTime</b> member to determine the flush time. If the <b>pLastSyncTime</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure  is after the <b>ExpireTime</b> member, the <b>pLastSyncTime</b> member  determines the flush time.

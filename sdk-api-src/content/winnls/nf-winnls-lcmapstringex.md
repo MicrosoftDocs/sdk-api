@@ -2,15 +2,12 @@
 UID: NF:winnls.LCMapStringEx
 title: LCMapStringEx function (winnls.h)
 description: For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.Note  The application should call this function in preference to LCMapString if designed to run only on Windows Vista and later.
+helpviewer_keywords: ["LCMAP_BYTEREV","LCMAP_FULLWIDTH","LCMAP_HALFWIDTH","LCMAP_HIRAGANA","LCMAP_KATAKANA","LCMAP_LINGUISTIC_CASING","LCMAP_LOWERCASE","LCMAP_SIMPLIFIED_CHINESE","LCMAP_SORTKEY","LCMAP_TITLECASE","LCMAP_TRADITIONAL_CHINESE","LCMAP_UPPERCASE","LCMapStringEx","LCMapStringEx function [Internationalization for Windows Applications]","LINGUISTIC_IGNORECASE","LINGUISTIC_IGNOREDIACRITIC","NORM_IGNORECASE","NORM_IGNOREKANATYPE","NORM_IGNORENONSPACE","NORM_IGNORESYMBOLS","NORM_IGNOREWIDTH","NORM_LINGUISTIC_CASING","SORT_DIGITSASNUMBERS","SORT_STRINGSORT","_win32_LCMapStringEx","intl.lcmapstringex","winnls/LCMapStringEx"]
 old-location: intl\lcmapstringex.htm
 tech.root: Intl
 ms.assetid: 725e4e75-c328-40bc-a594-20a295a487c6
 ms.date: 07/22/2019
 ms.keywords: LCMAP_BYTEREV, LCMAP_FULLWIDTH, LCMAP_HALFWIDTH, LCMAP_HIRAGANA, LCMAP_KATAKANA, LCMAP_LINGUISTIC_CASING, LCMAP_LOWERCASE, LCMAP_SIMPLIFIED_CHINESE, LCMAP_SORTKEY, LCMAP_TITLECASE, LCMAP_TRADITIONAL_CHINESE, LCMAP_UPPERCASE, LCMapStringEx, LCMapStringEx function [Internationalization for Windows Applications], LINGUISTIC_IGNORECASE, LINGUISTIC_IGNOREDIACRITIC, NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, NORM_LINGUISTIC_CASING, SORT_DIGITSASNUMBERS, SORT_STRINGSORT, _win32_LCMapStringEx, intl.lcmapstringex, winnls/LCMapStringEx
-f1_keywords:
-- winnls/LCMapStringEx
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- LCMapStringEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LCMapStringEx
+ - winnls/LCMapStringEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - LCMapStringEx
 ---
 
 # LCMapStringEx function
@@ -55,30 +57,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> if designed to run only on Windows Vista and later.</div>
+For a locale specified by name, maps an input character string to another using a specified transformation, or generates a sort key for the input string.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
-
-
 
 ## -parameters
 
-
-
-
 ### -param lpLocaleName [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
+Pointer to a <a href="/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
@@ -229,13 +225,10 @@ Treat punctuation the same as symbols.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpSrcStr [in]
 
 Pointer to a source string that the function maps or uses for sort key generation. This string cannot have a size of 0.
-
 
 ### -param cchSrc [in]
 
@@ -245,17 +238,25 @@ The application can set this parameter to any negative value to specify that the
 
 The application cannot set this parameter to 0.
 
-
 ### -param lpDestStr [out, optional]
 
-Pointer to a buffer in which this function retrieves the mapped string or sort key. If the application specifies LCMAP_SORTKEY, the function stores a sort key in the buffer as an opaque array of byte values that can include embedded 0 bytes.
+Pointer to a buffer in which this function retrieves the mapped string or a sort key.
 
-<div class="alert"><b>Note</b>  If the function fails, the destination buffer might contain either partial results or no results at all. In this case, it is recommended for your application to consider any results invalid.</div>
-<div> </div>
+If the application is using the function to generate a sort key (LCMAP_SORTKEY):
+
+- The sort key is stored in the buffer and treated as an opaque array of bytes. The stored values can include embedded 0 bytes at any position.
+- The destination string can contain an odd number of bytes. The LCMAP_BYTEREV flag only reverses an even number of bytes. The last byte (odd-positioned) in the sort key is not reversed.
+
+If the caller explicitly requests a subset of the string, the destination string does not include a terminating null character unless the caller specified it in *cchDest*.
+
+If this function fails, the destination buffer might contain either partial results or no results at all. In this case, all results should be considered invalid.
+
+> [!NOTE]
+> When setting LCMAP_UPPERCASE or LCMAP_LOWERCASE, the destination string can use the same buffer as the source string. However, this is strongly discouraged, as some conditions may cause the returned cased string to be a different length.
 
 ### -param cchDest [in]
 
-Size, in characters, of the buffer indicated by <i>lpDestStr</i>. If the application is using the function for string mapping, it supplies a character count for this parameter. If space for a terminating null character is included in <i>cchSrc</i>, <i>cchDest</i> must also include space for a terminating null character.
+Size, in characters, of the destination string indicated by <i>lpDestStr</i>. If the application is using the function for string mapping, it supplies a character count for this parameter. If space for a terminating null character is included in <i>cchSrc</i>, <i>cchDest</i> must also include space for a terminating null character.
 
 If the application is using the function to generate a sort key, it supplies a byte count for the size. This byte count must include space for the sort key 0x00 terminator.
 
@@ -263,7 +264,7 @@ The application can set <i>cchDest</i> to 0. In this case, the function does not
 
 ### -param lpVersionInformation [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
+Pointer to an <a href="/windows/desktop/api/winnls/ns-winnls-nlsversioninfoex">NLSVERSIONINFOEX</a> structure that contains the version information about the relevant NLS capability; usually retrieved from <a href="/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>.
 
 **Windows Vista, Windows 7:** Reserved; must set to NULL.
 
@@ -280,9 +281,11 @@ Reserved; must be 0.
 
 ## -returns
 
-Returns the number of characters or bytes in the translated string or sort key, including a terminating null character, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key, including a terminating null character if the input was null terminated.
+If the function succeeds when used for string mapping, it returns the number of characters in the translated string (see *cchSrc* and *cchDest* for more details).
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+If the function succeeds when used for string mapping it returns the number of bytes in the sort key.
+
+This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -292,26 +295,29 @@ This function returns 0 if it does not succeed. To get extended error informatio
 
 ## -remarks
 
-The application can use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> to generate a sort key. To do this, the application specifies  LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
+The application can use <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> to generate a sort key. To do this, the application specifies  LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter. For more information, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
-Another way for your application to use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> is in mapping strings. In this case, the application does not specify LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter, but supplies some other combination of flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
+> [!NOTE]
+> Sort keys are opaque byte streams. Callers should treat them as a byte array of the length returned by the API and not rely on any internal structure that may appear to be present. Zero, one or more of the bytes in the returned sort key could be 0. Absence or presence of a zero byte should not be expected.
 
-<b>Beginning in Windows Vista:</b> This function can handle data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+Another way for your application to use <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> or <b>LCMapStringEx</b> is in mapping strings. In this case, the application does not specify LCMAP_SORTKEY for the <i>dwMapFlags</i> parameter, but supplies some other combination of flags. For more information, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
+<b>Beginning in Windows Vista:</b> This function can handle data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-findnlsstringex">FindNLSStringEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-findnlsstringex">FindNLSStringEx</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getnlsversionex">GetNLSVersionEx</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
+<a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

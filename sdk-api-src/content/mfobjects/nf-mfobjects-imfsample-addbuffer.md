@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFSample.AddBuffer
 title: IMFSample::AddBuffer (mfobjects.h)
 description: Adds a buffer to the end of the list of buffers in the sample.
+helpviewer_keywords: ["61c2a1dc-b9fe-4296-bf33-d54006cad32b","AddBuffer","AddBuffer method [Media Foundation]","AddBuffer method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","AddBuffer method","IMFSample.AddBuffer","IMFSample::AddBuffer","mf.imfsample_addbuffer","mfobjects/IMFSample::AddBuffer"]
 old-location: mf\imfsample_addbuffer.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 61c2a1dc-b9fe-4296-bf33-d54006cad32b
 ms.date: 12/05/2018
 ms.keywords: 61c2a1dc-b9fe-4296-bf33-d54006cad32b, AddBuffer, AddBuffer method [Media Foundation], AddBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],AddBuffer method, IMFSample.AddBuffer, IMFSample::AddBuffer, mf.imfsample_addbuffer, mfobjects/IMFSample::AddBuffer
-f1_keywords:
-- mfobjects/IMFSample.AddBuffer
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSample.AddBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSample::AddBuffer
+ - mfobjects/IMFSample::AddBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSample.AddBuffer
 ---
 
 # IMFSample::AddBuffer
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a buffer to the end of the list of buffers in the sample.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pBuffer [in]
 
-Pointer to the buffer's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface.
-
+Pointer to the buffer's <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,14 +91,8 @@ NULL pointer argument.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For uncompressed video data, each buffer should contain a single video frame, and samples should not contain multiple frames. In general, storing multiple buffers in a sample is discouraged.
 
@@ -116,19 +103,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>

@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandNoData
 title: IDiscRecorder2Ex::SendCommandNoData (imapi2.h)
 description: Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.
+helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SendCommandNoData method","IDiscRecorder2Ex.SendCommandNoData","IDiscRecorder2Ex::SendCommandNoData","SendCommandNoData","SendCommandNoData method [IMAPI]","SendCommandNoData method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_sendcommandnodata","imapi2/IDiscRecorder2Ex::SendCommandNoData"]
 old-location: imapi\idiscrecorder2ex_sendcommandnodata.htm
 tech.root: imapi
 ms.assetid: 7dc645d5-795d-4f31-a4cf-30875e930e10
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandNoData method, IDiscRecorder2Ex.SendCommandNoData, IDiscRecorder2Ex::SendCommandNoData, SendCommandNoData, SendCommandNoData method [IMAPI], SendCommandNoData method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandnodata, imapi2/IDiscRecorder2Ex::SendCommandNoData
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.SendCommandNoData
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.SendCommandNoData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::SendCommandNoData
+ - imapi2/IDiscRecorder2Ex::SendCommandNoData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.SendCommandNoData
 ---
 
 # IDiscRecorder2Ex::SendCommandNoData
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.
 
-
 ## -parameters
-
-
-
 
 ### -param Cdb [in]
 
 Command packet to send to the device.
 
-
 ### -param CdbSize [in]
 
 Size, in bytes, of the command packet to send. Must be between 6 and 16 bytes.
-
 
 ### -param SenseBuffer [out]
 
 Sense data returned by the recording device.
 
-
 ### -param Timeout [in]
 
 Time limit, in seconds, allowed for the send command to receive a result.
 
-
 ## -returns
-
-
 
 S_OK or one of the following values can be returned on success, but other success codes may be returned as a result of implementation:
 
@@ -411,14 +402,8 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For details of the contents of the command packet and sense data, see the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
@@ -479,24 +464,14 @@ Some very early devices used vendor-unique opcodes and therefore some opcodes ca
 
 0x02, 0x05, 0x06, 0x09, 0x0C, 0x0D, 0x0E, 0x0F, 0x10, 0x13, 0x14, 0x19, 0x20, 0x21, 0x22, 0x23, 0x24, 0x26, 0x27, 0x29, 0x2C, 0x2D
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandgetdatafromdevice">IDiscRecorder2Ex::SendCommandGetDataFromDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandgetdatafromdevice">IDiscRecorder2Ex::SendCommandGetDataFromDevice</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice">IDiscRecorder2Ex::SendCommandSendDataToDevice</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice">IDiscRecorder2Ex::SendCommandSendDataToDevice</a>

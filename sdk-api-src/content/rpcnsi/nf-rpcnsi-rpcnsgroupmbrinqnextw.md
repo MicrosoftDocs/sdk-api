@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqNextW
 title: RpcNsGroupMbrInqNextW function (rpcnsi.h)
-description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
+description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time. (Unicode)
+helpviewer_keywords: ["RpcNsGroupMbrInqNext", "RpcNsGroupMbrInqNext function [RPC]", "RpcNsGroupMbrInqNextW", "_rpc_rpcnsgroupmbrinqnext", "rpc.rpcnsgroupmbrinqnext", "rpcnsi/RpcNsGroupMbrInqNext", "rpcnsi/RpcNsGroupMbrInqNextW"]
 old-location: rpc\rpcnsgroupmbrinqnext.htm
 tech.root: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
-f1_keywords:
-- rpcnsi/RpcNsGroupMbrInqNext
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsGroupMbrInqNext
-- RpcNsGroupMbrInqNextA
-- RpcNsGroupMbrInqNextW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsGroupMbrInqNextW
+ - rpcnsi/RpcNsGroupMbrInqNextW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsGroupMbrInqNext
+ - RpcNsGroupMbrInqNextA
+ - RpcNsGroupMbrInqNextW
 ---
 
 # RpcNsGroupMbrInqNextW function
@@ -50,37 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsGroupMbrInqNext</b> function returns one entry name from a group at a time.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param InquiryContext
 
 Name service handle.
 
-
 ### -param MemberName
 
 Returns the address of a pointer to an RPC group member name. The syntax of the returned name was specified by the <i>MemberNameSyntax</i> parameter in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a> function. 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a> function. 
 
 
 
 
 Specify a null value to prevent 
 <b>RpcNsGroupMbrInqNext</b> from returning the <i>MemberName</i> parameter. In this case, the application does not call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> function.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -135,24 +129,20 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 The 
 <b>RpcNsGroupMbrInqNext</b> function returns one member of the RPC group specified by the <i>GroupName</i> parameter in 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>. An application can view all the members of an RPC group set by repeatedly calling 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>. An application can view all the members of an RPC group set by repeatedly calling 
 <b>RpcNsGroupMbrInqNext</b>. When all the group members have been viewed, this function returns an RPC_S_NO_MORE_MEMBERS status code. The returned group members are unordered.
 
 On each call to 
 <b>RpcNsGroupMbrInqNext</b> that returns a member name, the RPC run-time library allocates memory for the returned <i>MemberName</i>. The application is responsible for calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> for each returned <i>MemberName</i> string. After viewing the RPC group's members, the application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a> to release the inquiry context.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> for each returned <i>MemberName</i> string. After viewing the RPC group's members, the application must call 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a> to release the inquiry context.
 
 The order in which group members are returned can be different for each viewing of a group. This means that the order in which group members are returned to an application can be different each time the application is run.
 
@@ -161,21 +151,18 @@ The order in which group members are returned can be different for each viewing 
 
 
 
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsGroupMbrInqNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina">RpcNsGroupMbrInqBegin</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>

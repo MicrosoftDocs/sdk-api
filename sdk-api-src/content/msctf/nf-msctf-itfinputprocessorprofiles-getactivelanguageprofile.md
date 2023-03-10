@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfiles.GetActiveLanguageProfile
 title: ITfInputProcessorProfiles::GetActiveLanguageProfile (msctf.h)
 description: ITfInputProcessorProfiles::GetActiveLanguageProfile method
+helpviewer_keywords: ["GetActiveLanguageProfile","GetActiveLanguageProfile method [Text Services Framework]","GetActiveLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","GetActiveLanguageProfile method","ITfInputProcessorProfiles.GetActiveLanguageProfile","ITfInputProcessorProfiles::GetActiveLanguageProfile","_tsf_itfinputprocessorprofiles_getactivelanguageprofile_ref","msctf/ITfInputProcessorProfiles::GetActiveLanguageProfile","tsf.itfinputprocessorprofiles_getactivelanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_getactivelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 446bfda3-63d9-4070-b758-bdaf267c9911
 ms.date: 12/05/2018
 ms.keywords: GetActiveLanguageProfile, GetActiveLanguageProfile method [Text Services Framework], GetActiveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetActiveLanguageProfile method, ITfInputProcessorProfiles.GetActiveLanguageProfile, ITfInputProcessorProfiles::GetActiveLanguageProfile, _tsf_itfinputprocessorprofiles_getactivelanguageprofile_ref, msctf/ITfInputProcessorProfiles::GetActiveLanguageProfile, tsf.itfinputprocessorprofiles_getactivelanguageprofile
-f1_keywords:
-- msctf/ITfInputProcessorProfiles.GetActiveLanguageProfile
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfiles.GetActiveLanguageProfile
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfiles::GetActiveLanguageProfile
+ - msctf/ITfInputProcessorProfiles::GetActiveLanguageProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfiles.GetActiveLanguageProfile
 ---
 
 # ITfInputProcessorProfiles::GetActiveLanguageProfile
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the identifier of the currently active language profile for a specific text service.
 
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 Contains the text service CLSID.
 
-
 ### -param plangid [out]
 
 Pointer to a <b>LANGID</b> value that receives the active profile language identifier.
 
-
 ### -param pguidProfile [out]
 
-Pointer to a <b>GUID</b> value that receives the language profile identifier. This is the value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
-
+Pointer to a <b>GUID</b> value that receives the language profile identifier. This is the value specified in <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -138,23 +131,12 @@ A memory allocation error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
- 
-
- 
-

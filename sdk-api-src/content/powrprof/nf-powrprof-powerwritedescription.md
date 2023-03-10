@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerWriteDescription
 title: PowerWriteDescription function (powrprof.h)
 description: Sets the description for the specified power setting, subgroup, or scheme.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteDescription","PowerWriteDescription function","base.powerwritedescription","powrprof/PowerWriteDescription"]
 old-location: base\powerwritedescription.htm
-tech.root: power
+tech.root: base
 ms.assetid: 42ee26ac-1a9c-4390-92e8-879b401168c7
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteDescription, PowerWriteDescription function, base.powerwritedescription, powrprof/PowerWriteDescription
-f1_keywords:
-- powrprof/PowerWriteDescription
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerWriteDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerWriteDescription
+ - powrprof/PowerWriteDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerWriteDescription
 ---
 
 # PowerWriteDescription function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the description for the specified power setting, subgroup, or scheme.
 
-
 ## -parameters
-
-
-
 
 ### -param RootPowerKey [in, optional]
 
 This parameter is reserved for future use and must be set to <b>NULL</b>.
 
-
 ### -param SchemeGuid [in]
 
 The identifier of the power scheme.
-
 
 ### -param SubGroupOfPowerSettingsGuid [in, optional]
 
@@ -166,62 +161,40 @@ Settings in this subgroup control PCI Express settings.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PowerSettingGuid [in, optional]
 
 The identifier of the power setting.
 
-
 ### -param Buffer [in]
 
 The description, in wide (Unicode) characters.
-
 
 ### -param BufferSize [in]
 
 The size of the buffer pointed to by the <i>Buffer</i> parameter.
 
-
 ## -returns
-
-
 
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
        the call failed.
 
-
-
-
 ## -remarks
-
-
 
 If the 
     <i>SchemeGuid</i> parameter is not <b>NULL</b> but both the 
     <i>SubGroupOfPowerSettingsGuid</i> and <i>PowerSettingGuid</i> parameters 
     are <b>NULL</b>, the description of the power scheme will be set. If the 
     <i>SchemeGuid</i> and <i>SubGroupOfPowerSettingsGuid</i> parameters are not 
-    <b>NULL</b>and  the <i>PowerSettingGuid</i> parameter is 
+   <b>NULL</b> and  the <i>PowerSettingGuid</i> parameter is 
     <b>NULL</b>, the description of the subgroup will be set. If the 
     <i>SchemeGuid</i>, <i>SubGroupOfPowerSettingsGuid</i>, and 
     <i>PowerSettingGuid</i> parameters are not <b>NULL</b>, the description of 
     the power setting will be set.
 
 Changes to the settings for the active power scheme do not take effect until you call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
-
-
-
+       <a href="/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

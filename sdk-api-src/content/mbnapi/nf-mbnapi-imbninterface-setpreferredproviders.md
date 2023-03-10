@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnInterface.SetPreferredProviders
 title: IMbnInterface::SetPreferredProviders (mbnapi.h)
 description: Updates the preferred providers list for the device.
+helpviewer_keywords: ["IMbnInterface interface [Microsoft Broadband Networks]","SetPreferredProviders method","IMbnInterface.SetPreferredProviders","IMbnInterface::SetPreferredProviders","SetPreferredProviders","SetPreferredProviders method [Microsoft Broadband Networks]","SetPreferredProviders method [Microsoft Broadband Networks]","IMbnInterface interface","mbn.imbninterface_setpreferredproviders","mbnapi/IMbnInterface::SetPreferredProviders"]
 old-location: mbn\imbninterface_setpreferredproviders.htm
 tech.root: mbn
 ms.assetid: 2ea95b4a-07d9-40d6-bb82-091b49c965c4
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],SetPreferredProviders method, IMbnInterface.SetPreferredProviders, IMbnInterface::SetPreferredProviders, SetPreferredProviders, SetPreferredProviders method [Microsoft Broadband Networks], SetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_setpreferredproviders, mbnapi/IMbnInterface::SetPreferredProviders
-f1_keywords:
-- mbnapi/IMbnInterface.SetPreferredProviders
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnInterface.SetPreferredProviders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnInterface::SetPreferredProviders
+ - mbnapi/IMbnInterface::SetPreferredProviders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnInterface.SetPreferredProviders
 ---
 
 # IMbnInterface::SetPreferredProviders
@@ -53,25 +55,17 @@ ms.custom: 19H1
 
 Updates the preferred providers list for the device.
 
-
 ## -parameters
-
-
-
 
 ### -param preferredProviders [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of preferred providers.    
-
+An array of <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structures that contains the list of preferred providers.
 
 ### -param requestID [out]
 
 Pointer to the request ID set by the operating system for this request.  The asynchronous response will contain this same <i>requestID</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,31 +119,14 @@ The interface is invalid. Most likely because the Mobile Broadband device has be
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <b>SetPreferredProviders</b> method initiates an update of the preferred provider list for the interface. This is an asynchronous operation, and the method call returns immediately. If this method returns successfully (with <b>S_OK</b>), then the operating system will notify the calling application about the completion status of this operation by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsetpreferredproviderscomplete">OnSetPreferredProvidersComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
+The <b>SetPreferredProviders</b> method initiates an update of the preferred provider list for the interface. This is an asynchronous operation, and the method call returns immediately. If this method returns successfully (with <b>S_OK</b>), then the operating system will notify the calling application about the completion status of this operation by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onsetpreferredproviderscomplete">OnSetPreferredProvidersComplete</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>.
 
 
 If the device is removed from the system before this operation is complete, then there is no guarantee that the completion notification will be received by the calling application.
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>

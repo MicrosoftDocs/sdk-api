@@ -2,15 +2,12 @@
 UID: NF:intsafe.LongPtrMult
 title: LongPtrMult function (intsafe.h)
 description: Multiplies two values of type LONG_PTR.
+helpviewer_keywords: ["LongPtrMult","LongPtrMult function [Windows Shell]","intsafe/LongPtrMult","shell.LongPtrMult"]
 old-location: shell\LongPtrMult.htm
 tech.root: shell
 ms.assetid: c2b86515-fe03-439a-bfe4-d92750b29279
 ms.date: 12/05/2018
 ms.keywords: LongPtrMult, LongPtrMult function [Windows Shell], intsafe/LongPtrMult, shell.LongPtrMult
-f1_keywords:
-- intsafe/LongPtrMult
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- LongPtrMult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LongPtrMult
+ - intsafe/LongPtrMult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - LongPtrMult
 ---
 
 # LongPtrMult function
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Multiplies two values of type <b>LONG_PTR</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param lMultiplicand [in]
 
 The first value.
 
-
 ### -param lMultiplier [in]
 
 The second value.
-
 
 ### -param plResult [out]
 
 The result.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

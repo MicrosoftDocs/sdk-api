@@ -2,15 +2,12 @@
 UID: NF:rpcproxy.NdrStubForwardingFunction
 title: NdrStubForwardingFunction function (rpcproxy.h)
 description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.
+helpviewer_keywords: ["NdrStubForwardingFunction","NdrStubForwardingFunction function [RPC]","rpc.ndrstubforwardingfunction","rpcproxy/NdrStubForwardingFunction"]
 old-location: rpc\ndrstubforwardingfunction.htm
 tech.root: Rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
 ms.date: 12/05/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
-f1_keywords:
-- rpcproxy/NdrStubForwardingFunction
-dev_langs:
-- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -25,22 +22,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RpcRT4.dll
-api_name:
-- NdrStubForwardingFunction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdrStubForwardingFunction
+ - rpcproxy/NdrStubForwardingFunction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - NdrStubForwardingFunction
 ---
 
 # NdrStubForwardingFunction function
@@ -48,47 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdrStubForwardingFunction</b> function is the entry point for server-side object methods that are defined in a base interface.
-
 
 ## -parameters
 
-
-
-
 ### -param This [in]
 
-Pointer to an instance of the CStdStubBuffer object, implementing <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.  
-
+Pointer to an instance of the CStdStubBuffer object, implementing <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>, for the DCOM interface.
 
 ### -param pChannel [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE. 
-
+Pointer to <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a> for the DCOM interface, often provided by OLE.
 
 ### -param pmsg [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/rpcdcep/ns-rpcdcep-rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request.
-
+Pointer to an <a href="/windows/desktop/api/rpcdcep/ns-rpcdcep-rpc_message">RPC_MESSAGE</a> structure that  contains information about the RPC request.
 
 ### -param pdwStubPhase [out]
 
 Pointer to a flag that tracks the current interpreter call's activity.
 
-
-## -returns
-
-
-
-This function has no return value. Throws an exception upon error.
-
-
-
-
 ## -remarks
-
-
 
 The <i>pdwStubPhase</i> parameter is used by the object interface to determine exception handling behavior. The following table describes possible values for the <i>pdwStubPhase</i> parameter.
 
@@ -142,6 +124,3 @@ HRESULT Operation();
 
 
 In this example, where <b>IFunctionSample</b> and <b>IOperation</b> are defined in different .idl files. <b>IFunctionSample</b> is the base interface and <b>IOperation</b> is the derived interface. <b>IOperation</b> can aggregate <b>IOperation</b> without implementing <b>IOperation::FunctionSample</b>. When the client calls <b>IOperation::FunctionSample</b>, in the server side, RPC forwards the call to <b>IFunctionSample:FunctionSample</b>.
-
-
-

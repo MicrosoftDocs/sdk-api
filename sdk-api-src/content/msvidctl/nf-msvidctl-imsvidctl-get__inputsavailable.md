@@ -2,15 +2,12 @@
 UID: NF:msvidctl.IMSVidCtl.get__InputsAvailable
 title: IMSVidCtl::get__InputsAvailable (msvidctl.h)
 description: The get__InputsAvailable method retrieves the input devices that are available in a specified category.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","get__InputsAvailable method","IMSVidCtl.get__InputsAvailable","IMSVidCtl::get__InputsAvailable","IMSVidCtlget__InputsAvailable","get__InputsAvailable","get__InputsAvailable method [Microsoft TV Technologies]","get__InputsAvailable method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_get__inputsavailable","msvidctl/IMSVidCtl::get__InputsAvailable"]
 old-location: mstv\imsvidctl_get__inputsavailable.htm
 tech.root: mstv
 ms.assetid: 2d77eca3-aec9-423d-8d02-92e6f9ab5167
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get__InputsAvailable method, IMSVidCtl.get__InputsAvailable, IMSVidCtl::get__InputsAvailable, IMSVidCtlget__InputsAvailable, get__InputsAvailable, get__InputsAvailable method [Microsoft TV Technologies], get__InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get__inputsavailable, msvidctl/IMSVidCtl::get__InputsAvailable
-f1_keywords:
-- msvidctl/IMSVidCtl.get__InputsAvailable
-dev_langs:
-- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msvidctl.h
-api_name:
-- IMSVidCtl.get__InputsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidCtl::get__InputsAvailable
+ - msvidctl/IMSVidCtl::get__InputsAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msvidctl.h
+api_name:
+ - IMSVidCtl.get__InputsAvailable
 ---
 
 # IMSVidCtl::get__InputsAvailable
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>get__InputsAvailable</b> method retrieves the input devices that are available in a specified category. 
-
+The <b>get__InputsAvailable</b> method retrieves the input devices that are available in a specified category.
 
 ## -parameters
-
-
-
 
 ### -param CategoryGuid [in]
 
@@ -81,28 +78,18 @@ Pointer to a GUID that specifies the category to enumerate. Supported categories
 <td>Miscellaneous devices (file source, DVD).</td>
 </tr>
 </table>
- 
-
 
 ### -param pVal [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices</a> interface pointer. The caller must release the interface.
-
+Receives an <a href="/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices</a> interface pointer. The caller must release the interface.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
-
-
-
 
 ## -remarks
 
-
-
-This method returns a read-only collection of input devices. Use the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices</a> pointer to enumerate the collection.
+This method returns a read-only collection of input devices. Use the returned <a href="/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices</a> pointer to enumerate the collection.
 
 
 #### Examples
@@ -132,21 +119,10 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputactive">IMSVidCtl::get_InputActive</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputactive">IMSVidCtl::get_InputActive</a>

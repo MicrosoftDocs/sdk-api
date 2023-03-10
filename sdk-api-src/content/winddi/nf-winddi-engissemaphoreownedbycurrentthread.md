@@ -2,15 +2,12 @@
 UID: NF:winddi.EngIsSemaphoreOwnedByCurrentThread
 title: EngIsSemaphoreOwnedByCurrentThread function (winddi.h)
 description: The EngIsSemaphoreOwnedByCurrentThread function determines whether the currently executing thread holds the specified semaphore.
+helpviewer_keywords: ["EngIsSemaphoreOwnedByCurrentThread","EngIsSemaphoreOwnedByCurrentThread function [Display Devices]","display.engissemaphoreownedbycurrentthread","gdifncs_6c3dcc33-1798-4dc5-a64f-a9bb85f5cf81.xml","winddi/EngIsSemaphoreOwnedByCurrentThread"]
 old-location: display\engissemaphoreownedbycurrentthread.htm
 tech.root: display
 ms.assetid: ce5d8ceb-0137-4ca9-b718-2e3de650249d
 ms.date: 12/05/2018
 ms.keywords: EngIsSemaphoreOwnedByCurrentThread, EngIsSemaphoreOwnedByCurrentThread function [Display Devices], display.engissemaphoreownedbycurrentthread, gdifncs_6c3dcc33-1798-4dc5-a64f-a9bb85f5cf81.xml, winddi/EngIsSemaphoreOwnedByCurrentThread
-f1_keywords:
-- winddi/EngIsSemaphoreOwnedByCurrentThread
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngIsSemaphoreOwnedByCurrentThread
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngIsSemaphoreOwnedByCurrentThread
+ - winddi/EngIsSemaphoreOwnedByCurrentThread
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngIsSemaphoreOwnedByCurrentThread
 ---
 
 # EngIsSemaphoreOwnedByCurrentThread function
@@ -48,48 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>EngIsSemaphoreOwnedByCurrentThread</b> function determines whether the currently executing thread holds the specified semaphore.
 
-
 ## -parameters
-
-
-
 
 ### -param hsem [in]
 
 Handle to the semaphore.
 
-
 ## -returns
-
-
 
 <b>EngIsSemaphoreOwnedByCurrentThread</b> returns <b>TRUE</b> if the currently executing thread holds the specified semaphore, and <b>FALSE</b> if it does not.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engacquiresemaphore">EngAcquireSemaphore</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatesemaphore">EngCreateSemaphore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatesemaphore">EngCreateSemaphore</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engissemaphoreowned">EngIsSemaphoreOwned</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engissemaphoreowned">EngIsSemaphoreOwned</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engreleasesemaphore">EngReleaseSemaphore</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engreleasesemaphore">EngReleaseSemaphore</a>

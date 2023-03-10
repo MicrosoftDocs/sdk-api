@@ -1,16 +1,13 @@
 ---
 UID: NF:objidl.IContext.RemoveProperty
 title: IContext::RemoveProperty (objidl.h)
-description: Removes the specified context property from the context.
+description: The IContext::RemoveProperty method (objidl.h) removes the specified context property from the context.
+helpviewer_keywords: ["IContext interface [COM]","RemoveProperty method","IContext.RemoveProperty","IContext::RemoveProperty","RemoveProperty","RemoveProperty method [COM]","RemoveProperty method [COM]","IContext interface","_com_icontext_removeproperty","com.icontext_removeproperty","objidlbase/IContext::RemoveProperty"]
 old-location: com\icontext_removeproperty.htm
 tech.root: com
 ms.assetid: bb5b282a-d337-4371-b1c2-1b429a5bf135
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IContext interface [COM],RemoveProperty method, IContext.RemoveProperty, IContext::RemoveProperty, RemoveProperty, RemoveProperty method [COM], RemoveProperty method [COM],IContext interface, _com_icontext_removeproperty, com.icontext_removeproperty, objidlbase/IContext::RemoveProperty
-f1_keywords:
-- objidl/IContext.RemoveProperty
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IContext.RemoveProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContext::RemoveProperty
+ - objidl/IContext::RemoveProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IContext.RemoveProperty
 ---
 
 # IContext::RemoveProperty
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes the specified context property from the context.
 
-
 ## -parameters
-
-
-
 
 ### -param rPolicyId [in]
 
 The GUID that uniquely identifies the context property to be removed.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>

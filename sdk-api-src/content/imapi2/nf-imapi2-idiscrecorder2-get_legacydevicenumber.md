@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.get_LegacyDeviceNumber
 title: IDiscRecorder2::get_LegacyDeviceNumber (imapi2.h)
 description: Retrieves the legacy device number for a CD or DVD device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_LegacyDeviceNumber method","IDiscRecorder2.get_LegacyDeviceNumber","IDiscRecorder2::get_LegacyDeviceNumber","get_LegacyDeviceNumber","get_LegacyDeviceNumber method [IMAPI]","get_LegacyDeviceNumber method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_legacydevicenumber","imapi2/IDiscRecorder2::get_LegacyDeviceNumber"]
 old-location: imapi\idiscrecorder2_get_legacydevicenumber.htm
 tech.root: imapi
 ms.assetid: 14ec2007-3648-49b6-a96e-b682d592c2f1
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_LegacyDeviceNumber method, IDiscRecorder2.get_LegacyDeviceNumber, IDiscRecorder2::get_LegacyDeviceNumber, get_LegacyDeviceNumber, get_LegacyDeviceNumber method [IMAPI], get_LegacyDeviceNumber method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_legacydevicenumber, imapi2/IDiscRecorder2::get_LegacyDeviceNumber
-f1_keywords:
-- imapi2/IDiscRecorder2.get_LegacyDeviceNumber
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.get_LegacyDeviceNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::get_LegacyDeviceNumber
+ - imapi2/IDiscRecorder2::get_LegacyDeviceNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.get_LegacyDeviceNumber
 ---
 
 # IDiscRecorder2::get_LegacyDeviceNumber
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves  the legacy device number for a CD or DVD device.
 
-
 ## -parameters
-
-
-
 
 ### -param legacyDeviceNumber [out]
 
@@ -63,10 +60,7 @@ Zero-based index number of the device, based on the order the device was install
 
 This value can change during PNP activity when devices are added or removed from the computer,  or across boot sessions and should not be considered a unique identifier for the device.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -102,22 +96,11 @@ Value: 0x80004005
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumepathnames">IDiscRecorder2::get_VolumePathNames</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_volumepathnames">IDiscRecorder2::get_VolumePathNames</a>

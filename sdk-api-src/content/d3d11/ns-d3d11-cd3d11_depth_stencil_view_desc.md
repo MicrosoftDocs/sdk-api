@@ -2,15 +2,12 @@
 UID: NS:d3d11.CD3D11_DEPTH_STENCIL_VIEW_DESC
 title: CD3D11_DEPTH_STENCIL_VIEW_DESC (d3d11.h)
 description: Represents a depth-stencil view and provides convenience methods for creating depth-stencil views.
+helpviewer_keywords: ["CD3D11_DEPTH_STENCIL_VIEW_DESC","CD3D11_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 11]","d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC","direct3d11.cd3d11_depth_stencil_view_desc"]
 old-location: direct3d11\cd3d11_depth_stencil_view_desc.htm
 tech.root: direct3d11
 ms.assetid: 4DD04DF8-75C3-430C-9AFA-E3344B053D6E
 ms.date: 12/05/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_VIEW_DESC, CD3D11_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 11], d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC, direct3d11.cd3d11_depth_stencil_view_desc
-f1_keywords:
-- d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC
-dev_langs:
-- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D11.h
-api_name:
-- CD3D11_DEPTH_STENCIL_VIEW_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CD3D11_DEPTH_STENCIL_VIEW_DESC
+ - d3d11/CD3D11_DEPTH_STENCIL_VIEW_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D11.h
+api_name:
+ - CD3D11_DEPTH_STENCIL_VIEW_DESC
 ---
 
 # CD3D11_DEPTH_STENCIL_VIEW_DESC structure
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a depth-stencil view and provides convenience methods for creating depth-stencil views.
-
 
 ## -struct-fields
 
-
 ## -remarks
-
-
 
 Here is how D3D11.h defines <b>CD3D11_DEPTH_STENCIL_VIEW_DESC</b>:
 
-<div class="code"><span codelanguage=""><table>
+<div class="code"><span><table>
 <tr>
 <th></th>
 </tr>
@@ -195,15 +192,6 @@ struct CD3D11_DEPTH_STENCIL_VIEW_DESC : public D3D11_DEPTH_STENCIL_VIEW_DESC
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/cd3d11-helper-classes">CD3D11 Helper Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/direct3d11/cd3d11-helper-classes">CD3D11 Helper Structures</a>

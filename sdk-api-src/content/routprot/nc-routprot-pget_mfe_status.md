@@ -2,15 +2,12 @@
 UID: NC:routprot.PGET_MFE_STATUS
 title: PGET_MFE_STATUS (routprot.h)
 description: The router manager calls the GetMfeStatus function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.
+helpviewer_keywords: ["GetMfeStatus","GetMfeStatus callback function [RAS]","MFE_NO_ERROR","MFE_OIF_PRUNED","MFE_OLD_ROUTER","MFE_PRUNED_UPSTREAM","MFE_REACHED_CORE","PGET_MFE_STATUS","PGET_MFE_STATUS callback","_mpr_getmfestatus","routprot/GetMfeStatus","rras.getmfestatus"]
 old-location: rras\getmfestatus.htm
 tech.root: RRAS
 ms.assetid: 518eb335-13b9-4980-90fc-11cdd7ef8f1a
 ms.date: 12/05/2018
 ms.keywords: GetMfeStatus, GetMfeStatus callback function [RAS], MFE_NO_ERROR, MFE_OIF_PRUNED, MFE_OLD_ROUTER, MFE_PRUNED_UPSTREAM, MFE_REACHED_CORE, PGET_MFE_STATUS, PGET_MFE_STATUS callback, _mpr_getmfestatus, routprot/GetMfeStatus, rras.getmfestatus
-f1_keywords:
-- routprot/GetMfeStatus
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- GetMfeStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PGET_MFE_STATUS
+ - routprot/PGET_MFE_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - GetMfeStatus
 ---
 
 # PGET_MFE_STATUS callback function
@@ -48,32 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The router manager calls the 
 <b>GetMfeStatus</b> function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PGET_MFE_STATUS</a> type defines a pointer to this callback function. <i>GetMfeStatus</i> is a placeholder for the application-defined function name.
-
+The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PGET_MFE_STATUS</a> type defines a pointer to this callback function. <i>GetMfeStatus</i> is a placeholder for the application-defined function name.
 
 ## -parameters
-
-
-
 
 ### -param InterfaceIndex [in]
 
 Specifies the index of the interface for this MFE.
 
-
 ### -param GroupAddress [in]
 
 Specifies the multicast group address for this MFE.
 
-
 ### -param SourceAddress [in]
 
 Specifies the multicast source address for this MFE.
-
 
 ### -param StatusCode [out]
 
@@ -102,7 +96,7 @@ None of the following values apply.
 </dl>
 </td>
 <td width="60%">
-The local computer on this router is an rendezvous point (RP)/core router for the multicast group.
+The local computer on this router is a rendezvous point (RP)/core router for the multicast group.
 
 </td>
 </tr>
@@ -137,12 +131,8 @@ This value should be set only by the owner of the incoming interface. The value 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value should be NO_ERROR.
 
@@ -181,28 +171,11 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 <div> </div>
 
-
-
-
-
 ## -remarks
 
-
-
 Only multicast routing protocols need implement this function. Non-multicast routing protocols should pass <b>NULL</b> as the pointer value for this function in 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
-
-
-
-
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_neighbors">GetNeighbors</a>
- 
-
- 
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_neighbors">GetNeighbors</a>

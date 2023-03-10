@@ -2,15 +2,12 @@
 UID: NF:structuredquery.IQueryParser.SetMultiOption
 title: IQueryParser::SetMultiOption (structuredquery.h)
 description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.
+helpviewer_keywords: ["IQueryParser interface [search]","SetMultiOption method","IQueryParser.SetMultiOption","IQueryParser::SetMultiOption","SetMultiOption","SetMultiOption method [search]","SetMultiOption method [search]","IQueryParser interface","_search_IQueryParser_SetMultiOption","search._search_IQueryParser_SetMultiOption","structuredquery/IQueryParser::SetMultiOption"]
 old-location: search\_search_IQueryParser_SetMultiOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm
 ms.date: 12/05/2018
 ms.keywords: IQueryParser interface [search],SetMultiOption method, IQueryParser.SetMultiOption, IQueryParser::SetMultiOption, SetMultiOption, SetMultiOption method [search], SetMultiOption method [search],IQueryParser interface, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
-f1_keywords:
-- structuredquery/IQueryParser.SetMultiOption
-dev_langs:
-- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Structuredquery.h
-api_name:
-- IQueryParser.SetMultiOption
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IQueryParser::SetMultiOption
+ - structuredquery/IQueryParser::SetMultiOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Structuredquery.h
+api_name:
+ - IQueryParser.SetMultiOption
 ---
 
 # IQueryParser::SetMultiOption
@@ -48,46 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets a complex option, such as a specified condition generator, to use when parsing an input string. 
-
+Sets a complex option, such as a specified condition generator, to use when parsing an input string.
 
 ## -parameters
 
-
-
-
 ### -param option [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a></b>
+Type: <b><a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a></b>
 
 The complex option to be set.
-        
-
 
 ### -param pszOptionKey [in]
 
 Type: <b>LPCWSTR</b>
 
-A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
-        
-
+A Unicode string that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
 
 ### -param pOptionValue [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
-        
-
+Pointer to a <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_multioption">PROPVARIANT</a> that is interpreted differently for each value of the <i>option</i> parameter. For more information, see <a href="/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_multioption">STRUCTURED_QUERY_MULTIOPTION</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

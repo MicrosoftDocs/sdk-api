@@ -1,16 +1,13 @@
 ---
 UID: NF:tom.ITextStory.GetActive
 title: ITextStory::GetActive (tom.h)
-description: Sets the active state of a story.
+description: Sets the active state of a story. (ITextStory.GetActive)
+helpviewer_keywords: ["GetActive","GetActive method [Windows Controls]","GetActive method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetActive method","ITextStory.GetActive","ITextStory::GetActive","controls.itextstory_getactive","tom/ITextStory::GetActive","tomDisplayActive","tomDisplayUIActive","tomInactive","tomUIActive"]
 old-location: controls\itextstory_getactive.htm
 tech.root: Controls
 ms.assetid: 7bae9458-ee68-486a-a37f-2cc899400882
 ms.date: 12/05/2018
 ms.keywords: GetActive, GetActive method [Windows Controls], GetActive method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetActive method, ITextStory.GetActive, ITextStory::GetActive, controls.itextstory_getactive, tom/ITextStory::GetActive, tomDisplayActive, tomDisplayUIActive, tomInactive, tomUIActive
-f1_keywords:
-- tom/ITextStory.GetActive
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tom.h
-api_name:
-- ITextStory.GetActive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStory::GetActive
+ - tom/ITextStory::GetActive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tom.h
+api_name:
+ - ITextStory.GetActive
 ---
 
 # ITextStory::GetActive
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the active state of a story.
 
-
 ## -parameters
-
-
-
 
 ### -param pValue [out, retval]
 
@@ -109,31 +106,17 @@ The story has display and UI activity.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstory-setactive">ITextStory::SetActive</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nf-tom-itextstory-setactive">ITextStory::SetActive</a>

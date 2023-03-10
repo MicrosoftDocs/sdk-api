@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.GetAdaptersInfo
 title: GetAdaptersInfo function (iphlpapi.h)
 description: The GetAdaptersInfo function retrieves adapter information for the local computer.
+helpviewer_keywords: ["GetAdaptersInfo","GetAdaptersInfo function [IP Helper]","_iphlp_getadaptersinfo","iphlp.getadaptersinfo","iphlpapi/GetAdaptersInfo"]
 old-location: iphlp\getadaptersinfo.htm
 tech.root: IpHlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59
 ms.date: 12/05/2018
 ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getadaptersinfo, iphlp.getadaptersinfo, iphlpapi/GetAdaptersInfo
-f1_keywords:
-- iphlpapi/GetAdaptersInfo
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- GetAdaptersInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetAdaptersInfo
+ - iphlpapi/GetAdaptersInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - GetAdaptersInfo
 ---
 
 # GetAdaptersInfo function
@@ -48,34 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAdaptersInfo</b> function retrieves adapter information for the local computer.
 
-<b>On Windows XP and later:  </b>Use the  
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function instead of <b>GetAdaptersInfo</b>.
-
+<b>On Windows XP and later:  </b>Use the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function instead of <b>GetAdaptersInfo</b>.
 
 ## -parameters
-
-
-
 
 ### -param AdapterInfo [out]
 
 A pointer to a buffer that receives a linked list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_info">IP_ADAPTER_INFO</a> structures.
-
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_info">IP_ADAPTER_INFO</a> structures.
 
 ### -param SizePointer [in, out]
 
 A pointer to a <b>ULONG</b> variable that specifies the size of the buffer pointed to by the <i>pAdapterInfo</i> parameter. If this size is insufficient to hold the adapter information, 
 <b>GetAdaptersInfo</b> fills in this variable with the required size, and returns an error code of <b>ERROR_BUFFER_OVERFLOW</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b> (defined to the same value as <b>NO_ERROR</b>).
 
@@ -137,7 +129,7 @@ No adapter information exists for the local computer.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a> function is not supported by the operating system running on the local computer.
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a> function is not supported by the operating system running on the local computer.
 
 </td>
 </tr>
@@ -149,32 +141,25 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi
 </td>
 <td width="60%">
 If the function fails, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The  
-<b>GetAdaptersInfo</b> function can retrieve information only for IPv4 addresses. 
+The <b>GetAdaptersInfo</b> function can retrieve information only for IPv4 addresses. 
 
 In versions prior to Windows 10, the order in which adapters appear in the list returned by this function can be controlled from the Network Connections folder: select the Advanced Settings menu item from the Advanced menu. Starting with Windows 10, the order is unspecified.
 
 The 
 <b>GetAdaptersInfo</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a> functions do not return information about the IPv4 loopback interface. Information on the loopback interface is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function.
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a> functions do not return information about the IPv4 loopback interface. Information on the loopback interface is returned by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a> function.
 
 <b>On Windows XP and later:  </b>The list of adapters returned by 
 <b>GetAdaptersInfo</b> includes unidirectional adapters. To generate a list of adapters that can both send and receive data, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUniDirectionalAdapterInfo</a>, and exclude the returned adapters from the list returned by 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUniDirectionalAdapterInfo</a>, and exclude the returned adapters from the list returned by 
 <b>GetAdaptersInfo</b>.
 
 
@@ -343,45 +328,34 @@ int __cdecl main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getinterfaceinfo">GetInterfaceInfo</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getnumberofinterfaces">GetNumberOfInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getnumberofinterfaces">GetNumberOfInterfaces</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUniDirectionalAdapterInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getunidirectionaladapterinfo">GetUniDirectionalAdapterInfo</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_info">IP_ADAPTER_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_info">IP_ADAPTER_INFO</a>

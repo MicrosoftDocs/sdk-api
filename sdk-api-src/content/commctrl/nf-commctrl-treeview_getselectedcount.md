@@ -2,15 +2,12 @@
 UID: NF:commctrl.TreeView_GetSelectedCount
 title: TreeView_GetSelectedCount macro (commctrl.h)
 description: TreeView_GetSelectedCount macro
+helpviewer_keywords: ["TreeView_GetSelectedCount","TreeView_GetSelectedCount macro [Windows Controls]","_shell_TreeView_GetSelectedCount","_shell_TreeView_GetSelectedCount_cpp","commctrl/TreeView_GetSelectedCount","controls.TreeView_GetSelectedCount","controls._shell_TreeView_GetSelectedCount"]
 old-location: controls\TreeView_GetSelectedCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getselectedcount.htm
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetSelectedCount, TreeView_GetSelectedCount macro [Windows Controls], _shell_TreeView_GetSelectedCount, _shell_TreeView_GetSelectedCount_cpp, commctrl/TreeView_GetSelectedCount, controls.TreeView_GetSelectedCount, controls._shell_TreeView_GetSelectedCount
-f1_keywords:
-- commctrl/TreeView_GetSelectedCount
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TreeView_GetSelectedCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TreeView_GetSelectedCount
+ - commctrl/TreeView_GetSelectedCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TreeView_GetSelectedCount
 ---
 
 # TreeView_GetSelectedCount macro
@@ -48,17 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tree-view control. 
-
+Handle to the tree-view control.

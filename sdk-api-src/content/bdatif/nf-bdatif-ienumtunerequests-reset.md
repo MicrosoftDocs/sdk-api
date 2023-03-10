@@ -2,15 +2,12 @@
 UID: NF:bdatif.IEnumTuneRequests.Reset
 title: IEnumTuneRequests::Reset (bdatif.h)
 description: The Reset method sets the enumerator to the first item in the collection.
+helpviewer_keywords: ["IEnumTuneRequests interface [Microsoft TV Technologies]","Reset method","IEnumTuneRequests.Reset","IEnumTuneRequests::Reset","IEnumTuneRequestsReset","Reset","Reset method [Microsoft TV Technologies]","Reset method [Microsoft TV Technologies]","IEnumTuneRequests interface","bdatif/IEnumTuneRequests::Reset","mstv.ienumtunerequests_reset"]
 old-location: mstv\ienumtunerequests_reset.htm
 tech.root: mstv
 ms.assetid: bb06a6b3-83a6-4deb-8394-1c17cf97c1b2
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Reset method, IEnumTuneRequests.Reset, IEnumTuneRequests::Reset, IEnumTuneRequestsReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Reset, mstv.ienumtunerequests_reset
-f1_keywords:
-- bdatif/IEnumTuneRequests.Reset
-dev_langs:
-- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdatif.h
-api_name:
-- IEnumTuneRequests.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTuneRequests::Reset
+ - bdatif/IEnumTuneRequests::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdatif.h
+api_name:
+ - IEnumTuneRequests.Reset
 ---
 
 # IEnumTuneRequests::Reset
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Reset</b> method sets the enumerator to the first item in the collection.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -85,22 +75,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumtunerequests">IEnumTuneRequests Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumtunerequests">IEnumTuneRequests Interface</a>

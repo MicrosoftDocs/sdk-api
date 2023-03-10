@@ -2,15 +2,12 @@
 UID: NF:mssip.CryptSIPCreateIndirectData
 title: CryptSIPCreateIndirectData function (mssip.h)
 description: Returns a SIP_INDIRECT_DATA structure that contains a hash of the supplied SIP_SUBJECTINFO structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.
+helpviewer_keywords: ["CryptSIPCreateIndirectData","CryptSIPCreateIndirectData function [Security]","mssip/CryptSIPCreateIndirectData","security.cryptsipcreateindirectdata"]
 old-location: security\cryptsipcreateindirectdata.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc
 ms.date: 12/05/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
-f1_keywords:
-- mssip/CryptSIPCreateIndirectData
-dev_langs:
-- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptSIPCreateIndirectData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptSIPCreateIndirectData
+ - mssip/CryptSIPCreateIndirectData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptSIPCreateIndirectData
 ---
 
 # CryptSIPCreateIndirectData function
@@ -48,38 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-The [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure, the digest algorithm, and  an encoding attribute. The hash can be used as an indirect reference to the data.
-
+The [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure, the digest algorithm, and  an encoding attribute. The hash can be used as an indirect reference to the data.
 
 ## -parameters
 
-
-
-
 ### -param pSubjectInfo [in]
 
-A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains the subject to which the indirect data reference will point.
-
+A pointer to a [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains the subject to which the indirect data reference will point.
 
 ### -param pcbIndirectData [in, out]
 
-A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a> structure.
-
+A pointer to a [SIP_INDIRECT_DATA](/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure.
 
 ### -param pIndirectData [out]
 
-A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a> structure to receive the catalog item.
-
+A pointer to a [SIP_INDIRECT_DATA](/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure to receive the catalog item.
 
 ## -returns
-
-
 
 The return value is <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>.
 
 
-If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
+If this function returns <b>FALSE</b>, additional error information can be obtained by calling the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> will return one of the following error codes.
 
 
 
@@ -95,7 +87,7 @@ If this function returns <b>FALSE</b>, additional error information can be obtai
 </dl>
 </td>
 <td width="60%">
-The file or data format is not correct for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) type.
+The file or data format is not correct for the specified <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) type.
 
 </td>
 </tr>
@@ -144,17 +136,8 @@ The subject type is not recognized.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If <i>pcbIndirectData</i> points to a <b>DWORD</b> and <i>pIndirectData</i> points to <b>NULL</b>, the size of the data will be returned
 in <i>pcbIndirectData</i>.
-
-
-

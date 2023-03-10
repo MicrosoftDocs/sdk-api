@@ -4,15 +4,17 @@ title: D3D10Sdklayers.h header
 ms.assetid: 2da45479-107f-3773-bc5f-b7c8cfb3189f
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: direct3d10
+f1_keywords:
+ - d3d10sdklayers
+ - d3d10sdklayers/d3d10sdklayers
 ---
 
 # D3D10Sdklayers.h header
 
 
 ## -description
-
 
 This header is used by Direct3D 10 Graphics. For more information, see:
 

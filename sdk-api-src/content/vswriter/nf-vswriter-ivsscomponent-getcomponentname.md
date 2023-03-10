@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetComponentName
 title: IVssComponent::GetComponentName (vswriter.h)
 description: The GetComponentName method returns the logical name of this component.
+helpviewer_keywords: ["GetComponentName","GetComponentName method [VSS]","GetComponentName method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetComponentName method","IVssComponent.GetComponentName","IVssComponent::GetComponentName","_win32_ivsscomponent_getcomponentname","base.ivsscomponent_getcomponentname","vswriter/IVssComponent::GetComponentName"]
 old-location: base\ivsscomponent_getcomponentname.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.date: 12/05/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
-f1_keywords:
-- vswriter/IVssComponent.GetComponentName
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetComponentName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetComponentName
+ - vswriter/IVssComponent::GetComponentName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetComponentName
 ---
 
 # IVssComponent::GetComponentName
@@ -49,26 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetComponentName</b> method returns the logical name of this component.
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrName [out]
 
 Pointer to a string containing the logical name of the component.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -129,32 +123,16 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The caller should free the memory held by the <i>pwszName</i> parameter by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
-
-
-
+The caller should free the memory held by the <i>pwszName</i> parameter by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

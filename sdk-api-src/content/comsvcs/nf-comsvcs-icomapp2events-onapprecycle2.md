@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IComApp2Events.OnAppRecycle2
 title: IComApp2Events::OnAppRecycle2 (comsvcs.h)
 description: Generated when the server application process is marked for recycling termination.
+helpviewer_keywords: ["CRR_ACTIVATION_LIMIT","CRR_CALL_LIMIT","CRR_LIFETIME_LIMIT","CRR_MEMORY_LIMIT","CRR_NO_REASON_SUPPLIED","CRR_RECYCLED_FROM_UI","IComApp2Events interface [COM+]","OnAppRecycle2 method","IComApp2Events.OnAppRecycle2","IComApp2Events::OnAppRecycle2","OnAppRecycle2","OnAppRecycle2 method [COM+]","OnAppRecycle2 method [COM+]","IComApp2Events interface","_dtc_IComApp2Events_OnAppRecycle2","comsvcs/IComApp2Events::OnAppRecycle2","cos.icomapp2events_onapprecycle2"]
 old-location: cos\icomapp2events_onapprecycle2.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 36be1f17-05cc-4c0a-97aa-84abd46de801
 ms.date: 12/05/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, IComApp2Events interface [COM+],OnAppRecycle2 method, IComApp2Events.OnAppRecycle2, IComApp2Events::OnAppRecycle2, OnAppRecycle2, OnAppRecycle2 method [COM+], OnAppRecycle2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppRecycle2, comsvcs/IComApp2Events::OnAppRecycle2, cos.icomapp2events_onapprecycle2
-f1_keywords:
-- comsvcs/IComApp2Events.OnAppRecycle2
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComApp2Events.OnAppRecycle2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComApp2Events::OnAppRecycle2
+ - comsvcs/IComApp2Events::OnAppRecycle2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComApp2Events.OnAppRecycle2
 ---
 
 # IComApp2Events::OnAppRecycle2
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generated when the server application process is marked for recycling termination.
-
 
 ## -parameters
 
-
-
-
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
-
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 ### -param guidApp [in]
 
 The application ID.
 
-
 ### -param guidProcess [in]
 
 The process ID.
-
 
 ### -param lReason [in]
 
@@ -148,25 +142,11 @@ An administrator decided to recycle the process through the Component Services a
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The user verifies the return values from this method.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomapp2events">IComApp2Events</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomapp2events">IComApp2Events</a>

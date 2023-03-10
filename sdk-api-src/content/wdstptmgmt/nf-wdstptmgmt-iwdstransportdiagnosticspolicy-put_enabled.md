@@ -1,16 +1,13 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.put_Enabled
 title: IWdsTransportDiagnosticsPolicy::put_Enabled (wdstptmgmt.h)
-description: Receives or sets a value that enables a WDS client to configure diagnostic logging on the server.
+description: Receives or sets a value that enables a WDS client to configure diagnostic logging on the server. (Put)
+helpviewer_keywords: ["Enabled property [Windows Deployment Services]","Enabled property [Windows Deployment Services]","IWdsTransportDiagnosticsPolicy interface","IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services]","Enabled property","IWdsTransportDiagnosticsPolicy.Enabled","IWdsTransportDiagnosticsPolicy.put_Enabled","IWdsTransportDiagnosticsPolicy::Enabled","IWdsTransportDiagnosticsPolicy::get_Enabled","IWdsTransportDiagnosticsPolicy::put_Enabled","put_Enabled","wds.iwdstransportdiagnosticspolicy_enabled","wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled","wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled","wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled"]
 old-location: wds\iwdstransportdiagnosticspolicy_enabled.htm
 tech.root: wds
 ms.assetid: 82932331-7e4c-4729-a6df-0d1abdb1861d
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Windows Deployment Services], Enabled property [Windows Deployment Services],IWdsTransportDiagnosticsPolicy interface, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],Enabled property, IWdsTransportDiagnosticsPolicy.Enabled, IWdsTransportDiagnosticsPolicy.put_Enabled, IWdsTransportDiagnosticsPolicy::Enabled, IWdsTransportDiagnosticsPolicy::get_Enabled, IWdsTransportDiagnosticsPolicy::put_Enabled, put_Enabled, wds.iwdstransportdiagnosticspolicy_enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::get_Enabled, wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled
-f1_keywords:
-- wdstptmgmt/IWdsTransportDiagnosticsPolicy.Enabled
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportDiagnosticsPolicy.Enabled
-- IWdsTransportDiagnosticsPolicy.get_Enabled
-- IWdsTransportDiagnosticsPolicy.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportDiagnosticsPolicy::put_Enabled
+ - wdstptmgmt/IWdsTransportDiagnosticsPolicy::put_Enabled
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportDiagnosticsPolicy.Enabled
+ - IWdsTransportDiagnosticsPolicy.get_Enabled
+ - IWdsTransportDiagnosticsPolicy.put_Enabled
 ---
 
 # IWdsTransportDiagnosticsPolicy::put_Enabled
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives or sets a value that enables a WDS client to configure diagnostic logging on the server. 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportdiagnosticspolicy">IWdsTransportDiagnosticsPolicy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportdiagnosticspolicy">IWdsTransportDiagnosticsPolicy</a>

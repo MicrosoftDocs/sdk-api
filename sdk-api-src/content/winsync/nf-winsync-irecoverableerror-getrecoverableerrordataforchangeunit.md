@@ -2,15 +2,12 @@
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChangeUnit
 title: IRecoverableError::GetRecoverableErrorDataForChangeUnit (winsync.h)
 description: Gets additional data about the recoverable error for a specified change unit.
+helpviewer_keywords: ["GetRecoverableErrorDataForChangeUnit","GetRecoverableErrorDataForChangeUnit method [Windows Sync]","GetRecoverableErrorDataForChangeUnit method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetRecoverableErrorDataForChangeUnit method","IRecoverableError.GetRecoverableErrorDataForChangeUnit","IRecoverableError::GetRecoverableErrorDataForChangeUnit","winsync.irecoverableerror_getrecoverableerrordataforchangeunit","winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit"]
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchangeunit.htm
 tech.root: winsync
 ms.assetid: 609ecdb0-b135-474f-b959-9ab6f427e5d6
 ms.date: 12/05/2018
 ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChangeUnit method, IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
-f1_keywords:
-- winsync/IRecoverableError.GetRecoverableErrorDataForChangeUnit
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableError.GetRecoverableErrorDataForChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableError::GetRecoverableErrorDataForChangeUnit
+ - winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableError.GetRecoverableErrorDataForChangeUnit
 ---
 
 # IRecoverableError::GetRecoverableErrorDataForChangeUnit
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets additional data about the recoverable error for a specified change unit.
 
-
 ## -parameters
-
-
-
 
 ### -param pChangeUnit [in]
 
 The change unit that is associated with the error.
 
-
 ### -param phrError [out]
 
 Returns the error code that is associated with the error that prevented the change unit data from being applied.
-
 
 ### -param ppErrorData [out]
 
 Returns additional information about the error.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -106,18 +98,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerror">IRecoverableError Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerror">IRecoverableError Interface</a>

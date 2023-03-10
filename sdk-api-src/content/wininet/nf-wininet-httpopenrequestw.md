@@ -1,16 +1,13 @@
 ---
 UID: NF:wininet.HttpOpenRequestW
 title: HttpOpenRequestW function (wininet.h)
-description: Creates an HTTP request handle.
+description: Creates an HTTP request handle. (Unicode)
+helpviewer_keywords: ["HttpOpenRequest", "HttpOpenRequest function [WinINet]", "HttpOpenRequestW", "_inet_httpopenrequest_function", "wininet.httpopenrequest", "wininet/HttpOpenRequest", "wininet/HttpOpenRequestW"]
 old-location: wininet\httpopenrequest.htm
 tech.root: wininet
 ms.assetid: caaff8e8-7db9-4d6d-8ba2-d8d19475173a
 ms.date: 12/05/2018
 ms.keywords: HTTP/1.0, HTTP/1.1, HttpOpenRequest, HttpOpenRequest function [WinINet], HttpOpenRequestA, HttpOpenRequestW, _inet_httpopenrequest_function, wininet.httpopenrequest, wininet/HttpOpenRequest, wininet/HttpOpenRequestA, wininet/HttpOpenRequestW
-f1_keywords:
-- wininet/HttpOpenRequest
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- HttpOpenRequest
-- HttpOpenRequestA
-- HttpOpenRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpOpenRequestW
+ - wininet/HttpOpenRequestW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - HttpOpenRequest
+ - HttpOpenRequestA
+ - HttpOpenRequestW
 ---
 
 # HttpOpenRequestW function
@@ -50,31 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an HTTP request handle.
-
 
 ## -parameters
 
-
-
-
 ### -param hConnect [in]
 
-A 
-						handle to an HTTP session returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
-
+A handle to an HTTP session returned by 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
 
 ### -param lpszVerb [in]
 
 A pointer to a <b>null</b>-terminated string that contains the HTTP verb to use in the request. If this parameter is <b>NULL</b>, the function uses GET as the HTTP verb.
 
-
 ### -param lpszObjectName [in]
 
 A pointer to a <b>null</b>-terminated string that contains the name of the target object of the specified HTTP verb. This is generally a file name, an executable module, or a search specifier.
-
 
 ### -param lpszVersion [in]
 
@@ -108,25 +101,20 @@ HTTP version 1.1
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpszReferrer [in]
 
 A pointer to a <b>null</b>-terminated string that specifies the URL of the document from which the URL in the request (<i>lpszObjectName</i>) was obtained. If this parameter is <b>NULL</b>, no referrer is specified.
 
-
 ### -param lplpszAcceptTypes [in]
 
 A pointer to a <b>null</b>-terminated array of strings that indicates media types accepted by the client. Here is an example.
 
-<code>PCTSTR rgpszAcceptTypes[] = {_T(“text/*”), NULL};</code>
+<code>PCTSTR rgpszAcceptTypes[] = {_T("text/*"), NULL};</code>
 
  Failing to properly terminate the array with a NULL pointer will cause a crash.
 
-If this parameter is <b>NULL</b>, no types are accepted by the client. Servers generally interpret a lack of accept types to indicate that the client accepts only documents of type "text/*" (that is, only text documents—no pictures or other binary files). For more information and  a list of valid media types, see  
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84521">ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types</a>.
-
+If this parameter is <b>NULL</b>, no types are accepted by the client. Servers generally interpret a lack of accept types to indicate that the client accepts only documents of type "text/*" (that is, only text documents—no pictures or other binary files). <!--For more information and  a list of valid media types, see  ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/media-types. -->
 
 ### -param dwFlags [in]
 
@@ -244,7 +232,7 @@ Does not attempt authentication automatically.
 </td>
 <td width="60%">
 Does not automatically handle redirection in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a>.
+<a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a>.
 
 </td>
 </tr>
@@ -328,27 +316,17 @@ Uses secure transaction semantics. This translates to using Secure Sockets Layer
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwContext [in]
 
   A pointer to a variable that contains the application-defined value that associates this operation with any application data.
 
-
 ## -returns
 
-
-
 Returns an HTTP request handle if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The <b>HttpOpenRequest</b> function creates a new HTTP request handle and stores the specified parameters in that handle. An HTTP request handle holds a request to be sent to an HTTP server and contains all RFC822/MIME/HTTP headers to be sent as part of the request.
 
@@ -361,30 +339,25 @@ On Windows 7, Windows Server 2008 R2, and later, the <i>lpszVersion</i> param
 
 
 After the calling application has finished using the 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle returned by 
+<a href="/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle returned by 
 <b>HttpOpenRequest</b>, it must be closed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> function.
 
-<b>Note</b>   When a request is sent in asynchronous mode (the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> specifies <b>INTERNET_FLAG_ASYNC</b>), and the <i>dwContext</i> parameter is zero (<b>INTERNET_NO_CALLBACK</b>), the callback function set with <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> on the request handle will not be invoked, however, the call will still be performed in asynchronous mode. 
+<b>Note</b>   When a request is sent in asynchronous mode (the <i>dwFlags</i> parameter of <a href="/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> specifies <b>INTERNET_FLAG_ASYNC</b>), and the <i>dwContext</i> parameter is zero (<b>INTERNET_NO_CALLBACK</b>), the callback function set with <a href="/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> on the request handle will not be invoked, however, the call will still be performed in asynchronous mode. 
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
+> [!NOTE]
+> The wininet.h header defines HttpOpenRequest as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

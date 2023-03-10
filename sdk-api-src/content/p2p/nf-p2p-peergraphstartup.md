@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerGraphStartup
 title: PeerGraphStartup function (p2p.h)
 description: The PeerGraphStartup function indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.
+helpviewer_keywords: ["PeerGraphStartup","PeerGraphStartup function [Peer Networking]","p2p.peergraphstartup","p2p/PeerGraphStartup"]
 old-location: p2p\peergraphstartup.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 00ffdec7-f084-4170-a4a1-e6112bab4d61
 ms.date: 12/05/2018
 ms.keywords: PeerGraphStartup, PeerGraphStartup function [Peer Networking], p2p.peergraphstartup, p2p/PeerGraphStartup
-f1_keywords:
-- p2p/PeerGraphStartup
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphStartup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphStartup
+ - p2p/PeerGraphStartup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphStartup
 ---
 
 # PeerGraphStartup function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PeerGraphStartup</b> function  indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.  <b>PeerGraphStartup</b> must be called before any other peer graphing functions. It must be matched by a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphshutdown">PeerGraphShutdown</a>.
-
+The <b>PeerGraphStartup</b> function  indicates to the Peer Graphing Infrastructure what version of the Peer protocols the calling application requires.  <b>PeerGraphStartup</b> must be called before any other peer graphing functions. It must be matched by a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphshutdown">PeerGraphShutdown</a>.
 
 ## -parameters
-
-
-
 
 ### -param wVersionRequested [in]
 
 Specify PEER_GRAPH_VERSION.
 
-
 ### -param pVersionData [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_version_data">PEER_VERSION_DATA</a> structure that receives the 
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_version_data">PEER_VERSION_DATA</a> structure that receives the 
 version of the Peer Infrastructure installed on the local computer.
 
-
 ## -returns
-
-
 
 Returns S_OK if the operation succeeds; otherwise, the function returns one of the following values:
 
@@ -102,22 +95,11 @@ The version requested is not supported by the Peer Infrastructure .dll installed
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_version_data">PEER_VERSION_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_version_data">PEER_VERSION_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphshutdown">PeerGraphShutdown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphshutdown">PeerGraphShutdown</a>

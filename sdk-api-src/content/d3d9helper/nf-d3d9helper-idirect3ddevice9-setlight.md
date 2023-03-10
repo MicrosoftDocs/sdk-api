@@ -1,16 +1,13 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetLight
 title: IDirect3DDevice9::SetLight (d3d9helper.h)
-description: Assigns a set of lighting properties for this device.
+description: The IDirect3DDevice9::SetLight method (d3d9helper.h) assigns a set of lighting properties for this device.
+helpviewer_keywords: ["01be5e3b-cd10-6899-0e92-5f0874741380","IDirect3DDevice9 interface [Direct3D 9]","SetLight method","IDirect3DDevice9.SetLight","IDirect3DDevice9::SetLight","SetLight","SetLight method [Direct3D 9]","SetLight method [Direct3D 9]","IDirect3DDevice9 interface","d3d9helper/IDirect3DDevice9::SetLight","direct3d9.idirect3ddevice9__setlight"]
 old-location: direct3d9\idirect3ddevice9__setlight.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setlight.htm
-ms.date: 12/05/2018
+ms.date: 08/11/2022
 ms.keywords: 01be5e3b-cd10-6899-0e92-5f0874741380, IDirect3DDevice9 interface [Direct3D 9],SetLight method, IDirect3DDevice9.SetLight, IDirect3DDevice9::SetLight, SetLight, SetLight method [Direct3D 9], SetLight method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetLight, direct3d9.idirect3ddevice9__setlight
-f1_keywords:
-- d3d9helper/IDirect3DDevice9.SetLight
-dev_langs:
-- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: D3D9.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D9.lib
-- D3D9.dll
-api_name:
-- IDirect3DDevice9.SetLight
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirect3DDevice9::SetLight
+ - d3d9helper/IDirect3DDevice9::SetLight
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D9.lib
+ - D3D9.dll
+api_name:
+ - IDirect3DDevice9.SetLight
 ---
 
 # IDirect3DDevice9::SetLight
@@ -49,49 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Assigns a set of lighting properties for this device.
-
 
 ## -parameters
 
-
-
-
 ### -param Index [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-Zero-based index of the set of lighting properties to set. If a set of lighting properties exists at this index, it is overwritten by the new properties specified in pLight. 
+Zero-based index of the set of lighting properties to set. If a set of lighting properties exists at this index, it is overwritten by the new properties specified in pLight.
 
+### -param unnamedParam2 [in]
 
-### -param arg2 [in]
+Type: <b>const <a href="/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a>*</b>
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a>*</b>
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure, containing the lighting parameters to set. 
-
+Pointer to a <a href="/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure, containing the lighting parameters to set.
 
 ## -returns
-
-
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
-
-
-
 ## -remarks
 
+Set light properties by preparing a <a href="/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure and then calling the <b>IDirect3DDevice9::SetLight</b> method. The <b>IDirect3DDevice9::SetLight</b> method accepts the index at which the device should place the set of light properties to its internal list of light properties, and the address of a prepared <b>D3DLIGHT9</b> structure that defines those properties. You can call <b>IDirect3DDevice9::SetLight</b> with new information as needed to update the light's illumination properties.
 
-
-Set light properties by preparing a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dlight9">D3DLIGHT9</a> structure and then calling the <b>IDirect3DDevice9::SetLight</b> method. The 
-    
-    <b>IDirect3DDevice9::SetLight</b> method accepts the index at which the device should place the set of light properties to its internal list of light properties, and the address of a prepared <b>D3DLIGHT9</b> structure that defines those properties. You can call <b>IDirect3DDevice9::SetLight</b> with new information as needed to update the light's illumination properties.
-
-The system allocates memory to accommodate a set of lighting properties each time you call the <b>IDirect3DDevice9::SetLight</b> method with an index that has never been assigned properties. Applications can set a number of lights, with only a subset of the assigned lights enabled at a time. Check the MaxActiveLights member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure when you retrieve device capabilities to determine the maximum number of active lights supported by that device. If you no longer need a light, you can disable it or overwrite it with a new set of light properties.
+The system allocates memory to accommodate a set of lighting properties each time you call the <b>IDirect3DDevice9::SetLight</b> method with an index that has never been assigned properties. Applications can set a number of lights, with only a subset of the assigned lights enabled at a time. Check the MaxActiveLights member of the <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9">D3DCAPS9</a> structure when you retrieve device capabilities to determine the maximum number of active lights supported by that device. If you no longer need a light, you can disable it or overwrite it with a new set of light properties.
 
 The following example prepares and sets properties for a white point-light whose emitted light will not attenuate over distance.
 
@@ -140,30 +126,20 @@ else
 ```
 
 
-Enable a light source by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a> method for the device.
-
-
-
+Enable a light source by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a> method for the device.
 
 ## -see-also
 
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight">IDirect3DDevice9::GetLight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlight">IDirect3DDevice9::GetLight</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable">IDirect3DDevice9::GetLightEnable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getlightenable">IDirect3DDevice9::GetLightEnable</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a>

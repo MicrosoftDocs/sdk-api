@@ -2,15 +2,12 @@
 UID: NN:uiautomationclient.IUIAutomationPropertyCondition
 title: IUIAutomationPropertyCondition (uiautomationclient.h)
 description: Represents a condition based on a property value that is used to find UI Automation elements.
+helpviewer_keywords: ["IUIAutomationPropertyCondition","IUIAutomationPropertyCondition interface [Windows Accessibility]","IUIAutomationPropertyCondition interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationPropertyCondition","uiauto_IUIAutomationPropertyCondition","uiautomationclient/IUIAutomationPropertyCondition","winauto.uiauto_IUIAutomationPropertyCondition"]
 old-location: winauto\uiauto_IUIAutomationPropertyCondition.htm
 tech.root: WinAuto
 ms.assetid: fedf003e-0921-4f9e-b1a8-c8faae9e95a4
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPropertyCondition, IUIAutomationPropertyCondition interface [Windows Accessibility], IUIAutomationPropertyCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPropertyCondition, uiauto_IUIAutomationPropertyCondition, uiautomationclient/IUIAutomationPropertyCondition, winauto.uiauto_IUIAutomationPropertyCondition
-f1_keywords:
-- uiautomationclient/IUIAutomationPropertyCondition
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationPropertyCondition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationPropertyCondition
+ - uiautomationclient/IUIAutomationPropertyCondition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationPropertyCondition
 ---
 
 # IUIAutomationPropertyCondition interface
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a condition based on a property value that is used to find UI Automation elements.
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>

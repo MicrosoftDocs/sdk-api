@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFactory6.CreateFontSetBuilder
 title: IDWriteFactory6::CreateFontSetBuilder
 description: Creates an empty font set builder, ready to add font instances to, and create a custom font set.
+helpviewer_keywords: ["IDWriteFactory6 interface [Direct Write]","CreateFontSetBuilder method","IDWriteFactory6.CreateFontSetBuilder","IDWriteFactory6::CreateFontSetBuilder","CreateFontSetBuilder","CreateFontSetBuilder method [Direct Write]","CreateFontSetBuilder method [Direct Write]","IDWriteFactory6 interface","directwrite.idwritefactory6_createfontsetbuilder","dwrite_3/IDWriteFactory6::CreateFontSetBuilder"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFactory6 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory6.CreateFontSetBuilder, IDWriteFactory6::CreateFontSetBuilder, CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory6 interface, directwrite.idwritefactory6_createfontsetbuilder, dwrite_3/IDWriteFactory6::CreateFontSetBuilder
-f1_keywords:
-- dwrite_3/IDWriteFactory6.CreateFontSetBuilder
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory6::CreateFontSetBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFactory6::CreateFontSetBuilder
+ - dwrite_3/IDWriteFactory6::CreateFontSetBuilder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory6::CreateFontSetBuilder
 ---
 
 ## -description
@@ -50,9 +52,9 @@ Creates an empty font set builder, ready to add font instances to, and create a 
 
 ### -param fontSetBuilder
 
-Type: **[IDWriteFontSetBuilder2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2)\*\***
+Type: **[IDWriteFontSetBuilder2](./nn-dwrite_3-idwritefontsetbuilder2.md)\*\***
 
-The address of a pointer to an [IDWriteFontSetBuilder2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2) interface. On successful completion, the function sets the pointer to a newly created font set builder object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontSetBuilder2](./nn-dwrite_3-idwritefontsetbuilder2.md) interface. On successful completion, the function sets the pointer to a newly created font set builder object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 

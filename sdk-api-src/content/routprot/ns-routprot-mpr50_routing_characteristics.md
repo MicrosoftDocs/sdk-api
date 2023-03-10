@@ -1,16 +1,13 @@
 ---
 UID: NS:routprot._MPR50_ROUTING_CHARACTERISTICS
 title: MPR50_ROUTING_CHARACTERISTICS (routprot.h)
-description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager.
+description: The MPR_ROUTING_CHARACTERISTICS structure contains information used to register routing protocols with the router manager. (MPR50_ROUTING_CHARACTERISTICS)
+helpviewer_keywords: ["*PMPR_ROUTING_CHARACTERISTICS","DEMAND_UPDATE_ROUTES","DEMAND_UPDATE_SERVICES","MPR50_ROUTING_CHARACTERISTICS","MPR50_ROUTING_CHARACTERISTICS structure [RAS]","MPR_ROUTING_CHARACTERISTICS","MPR_ROUTING_CHARACTERISTICS structure [RAS]","PMPR_ROUTING_CHARACTERISTICS","PMPR_ROUTING_CHARACTERISTICS structure pointer [RAS]","ROUTING","SERVICES","_mpr_mpr_routing_characteristics","routprot/MPR_ROUTING_CHARACTERISTICS","routprot/PMPR_ROUTING_CHARACTERISTICS","rras.mpr_routing_characteristics"]
 old-location: rras\mpr_routing_characteristics.htm
 tech.root: RRAS
 ms.assetid: 7046c4c2-b0bd-4459-b361-e46ce876823f
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_ROUTING_CHARACTERISTICS, DEMAND_UPDATE_ROUTES, DEMAND_UPDATE_SERVICES, MPR50_ROUTING_CHARACTERISTICS, MPR50_ROUTING_CHARACTERISTICS structure [RAS], MPR_ROUTING_CHARACTERISTICS, MPR_ROUTING_CHARACTERISTICS structure [RAS], PMPR_ROUTING_CHARACTERISTICS, PMPR_ROUTING_CHARACTERISTICS structure pointer [RAS], ROUTING, SERVICES, _mpr_mpr_routing_characteristics, routprot/MPR_ROUTING_CHARACTERISTICS, routprot/PMPR_ROUTING_CHARACTERISTICS, rras.mpr_routing_characteristics'
-f1_keywords:
-- routprot/MPR50_ROUTING_CHARACTERISTICS
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Routprot.h
-api_name:
-- MPR50_ROUTING_CHARACTERISTICS
 targetos: Windows
 req.typenames: MPR50_ROUTING_CHARACTERISTICS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MPR50_ROUTING_CHARACTERISTICS
+ - routprot/_MPR50_ROUTING_CHARACTERISTICS
+ - MPR50_ROUTING_CHARACTERISTICS
+ - routprot/MPR50_ROUTING_CHARACTERISTICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Routprot.h
+api_name:
+ - MPR50_ROUTING_CHARACTERISTICS
 ---
 
 # MPR50_ROUTING_CHARACTERISTICS structure
@@ -48,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MPR_ROUTING_CHARACTERISTICS</b> structure contains information used to register routing protocols with the router manager.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVersion
 
@@ -69,11 +68,9 @@ On output, the routing protocol should specify the version of RRAS that it requi
 
 The symbol MS_ROUTER_VERSION in the header file Routprot.h is defined to be the RRAS version for a given implementation.
 
-
 ### -field dwProtocolId
 
 Specifies the routing protocol that the router manager requests the DLL to register. (A common name space is used for all protocol families.)
-
 
 ### -field fSupportedFunctionality
 
@@ -133,196 +130,156 @@ The protocol is able to perform autostatic updates of services when requested by
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pfnStartProtocol
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstart_protocol">StartProtocol</a> function for this routing protocol.
 
 ### -field pfnStartComplete
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstart_complete">StartComplete</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstart_complete">StartComplete</a> function for this routing protocol.
 
 ### -field pfnStopProtocol
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a> function for this routing protocol.
 
 ### -field pfnGetGlobalInfo
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_global_info">GetGlobalInfo</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_global_info">GetGlobalInfo</a> function for this routing protocol.
 
 ### -field pfnSetGlobalInfo
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_global_info">SetGlobalInfo</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pset_global_info">SetGlobalInfo</a> function for this routing protocol.
 
 ### -field pfnQueryPower
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pquery_power">QueryPower</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pquery_power">QueryPower</a> function for this routing protocol.
 
 ### -field pfnSetPower
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_power">SetPower</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pset_power">SetPower</a> function for this routing protocol.
 
 ### -field pfnAddInterface
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-padd_interface">AddInterface</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-padd_interface">AddInterface</a> function for this routing protocol.
 
 ### -field pfnDeleteInterface
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdelete_interface">DeleteInterface</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pdelete_interface">DeleteInterface</a> function for this routing protocol.
 
 ### -field pfnInterfaceStatus
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pinterface_status">InterfaceStatus</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pinterface_status">InterfaceStatus</a> function for this routing protocol.
 
 ### -field pfnGetInterfaceInfo
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_interface_info">GetInterfaceInfo</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_interface_info">GetInterfaceInfo</a> function for this routing protocol.
 
 ### -field pfnSetInterfaceInfo
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_interface_info">SetInterfaceInfo</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pset_interface_info">SetInterfaceInfo</a> function for this routing protocol.
 
 ### -field pfnGetEventMessage
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_event_message">GetEventMessage</a> function for this routing protocol.
 
 ### -field pfnUpdateRoutes
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a> function for this routing protocol.
 
 ### -field pfnConnectClient
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pconnect_client">ConnectClient</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pconnect_client">ConnectClient</a> function for this routing protocol.
 
 ### -field pfnDisconnectClient
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdisconnect_client">DisconnectClient</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pdisconnect_client">DisconnectClient</a> function for this routing protocol.
 
 ### -field pfnGetNeighbors
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_neighbors">GetNeighbors</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_neighbors">GetNeighbors</a> function for this routing protocol.
 
 ### -field pfnGetMfeStatus
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pget_mfe_status">GetMfeStatus</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pget_mfe_status">GetMfeStatus</a> function for this routing protocol.
 
 ### -field pfnMibCreateEntry
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_create">MibCreate</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_create">MibCreate</a> function for this routing protocol.
 
 ### -field pfnMibDeleteEntry
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_delete">MibDelete</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_delete">MibDelete</a> function for this routing protocol.
 
 ### -field pfnMibGetEntry
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get">MibGet</a> function for this routing protocol.
 
 ### -field pfnMibSetEntry
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_set">MibSet</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_set">MibSet</a> function for this routing protocol.
 
 ### -field pfnMibGetFirstEntry
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_first">MibGetFirst</a> function for this routing protocol.
 
 ### -field pfnMibGetNextEntry
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_next">MibGetNext</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_next">MibGetNext</a> function for this routing protocol.
 
 ### -field pfnMibSetTrapInfo
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_set_trap_info">MibSetTrapInfo</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_set_trap_info">MibSetTrapInfo</a> function for this routing protocol.
 
 ### -field pfnMibGetTrapInfo
 
 Pointer to an implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_trap_info">MibGetTrapInfo</a> function for this routing protocol.
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_trap_info">MibGetTrapInfo</a> function for this routing protocol.
 
 ## -remarks
 
-
-
 Most of the members of this structure are pointers to functions implemented in the routing protocol DLL. The routing protocol fills in the address values for these pointers during a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a> function.
+<a href="/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a> function.
 
 For a complete description of a particular function pointed to by one of the structure members, see the reference page for that function.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/protocol-identifiers">Protocol Identifiers</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pregister_protocol">RegisterProtocol</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>

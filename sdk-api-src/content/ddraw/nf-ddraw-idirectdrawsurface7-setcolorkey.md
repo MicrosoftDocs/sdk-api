@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDrawSurface7.SetColorKey
 title: IDirectDrawSurface7::SetColorKey (ddraw.h)
 description: Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.
+helpviewer_keywords: ["DDCKEY_COLORSPACE","DDCKEY_DESTBLT","DDCKEY_DESTOVERLAY","DDCKEY_SRCBLT","DDCKEY_SRCOVERLAY","IDirectDrawSurface7 interface [DirectDraw]","SetColorKey method","IDirectDrawSurface7.SetColorKey","IDirectDrawSurface7::SetColorKey","SetColorKey","SetColorKey method [DirectDraw]","SetColorKey method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetColorKey","directdraw.idirectdrawsurface7_setcolorkey"]
 old-location: directdraw\idirectdrawsurface7_setcolorkey.htm
 tech.root: directdraw
 ms.assetid: 36f2510e-d12a-40af-b65c-aa36ce46a942
 ms.date: 12/05/2018
 ms.keywords: DDCKEY_COLORSPACE, DDCKEY_DESTBLT, DDCKEY_DESTOVERLAY, DDCKEY_SRCBLT, DDCKEY_SRCOVERLAY, IDirectDrawSurface7 interface [DirectDraw],SetColorKey method, IDirectDrawSurface7.SetColorKey, IDirectDrawSurface7::SetColorKey, SetColorKey, SetColorKey method [DirectDraw], SetColorKey method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetColorKey, directdraw.idirectdrawsurface7_setcolorkey
-f1_keywords:
-- ddraw/IDirectDrawSurface7.SetColorKey
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.SetColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::SetColorKey
+ - ddraw/IDirectDrawSurface7::SetColorKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.SetColorKey
 ---
 
 # IDirectDrawSurface7::SetColorKey
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 A value that can be set to one of the following flags to specify the requested color key:
 
@@ -91,15 +88,11 @@ A color key or color space to be used as a source color key for bitblt operation
 
 A color key or color space to be used as a source color key for overlay operations.
 
+### -param unnamedParam2 [in]
 
-### -param arg2 [in]
-
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcolorkey">DDCOLORKEY</a> structure that contains the new color key values for the DirectDrawSurface object. This value can be NULL to remove a previously set color key.
-
+A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddcolorkey">DDCOLORKEY</a> structure that contains the new color key values for the DirectDrawSurface object. This value can be NULL to remove a previously set color key.
 
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -119,28 +112,14 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_WASSTILLDRAWING</li>
 </ul>
 
-
-
 ## -remarks
-
-
 
 For transparent bitblt operations and overlays, set destination color on the destination surface and source color on the source surface.
 
-
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetColorKey</b> method.
 
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

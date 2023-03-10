@@ -2,15 +2,12 @@
 UID: NF:oaidl.IEnumVARIANT.Skip
 title: IEnumVARIANT::Skip (oaidl.h)
 description: Attempts to skip over the next celt elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumVARIANT interface [Automation]","Skip method","IEnumVARIANT.Skip","IEnumVARIANT::Skip","Skip","Skip method [Automation]","Skip method [Automation]","IEnumVARIANT interface","_oa96_IEnumVARIANT::Skip","automat.ienumvariant_skip","oaidl/IEnumVARIANT::Skip"]
 old-location: automat\ienumvariant_skip.htm
 tech.root: automat
 ms.assetid: 5fe6951f-1e21-4a3d-8694-96efb15e6d11
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT interface [Automation],Skip method, IEnumVARIANT.Skip, IEnumVARIANT::Skip, Skip, Skip method [Automation], Skip method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Skip, automat.ienumvariant_skip, oaidl/IEnumVARIANT::Skip
-f1_keywords:
-- oaidl/IEnumVARIANT.Skip
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IEnumVARIANT.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumVARIANT::Skip
+ - oaidl/IEnumVARIANT::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - stdole.dll
+api_name:
+ - IEnumVARIANT.Skip
 ---
 
 # IEnumVARIANT::Skip
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attempts to skip over the next celt elements in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of elements to skip.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,18 +91,7 @@ The end of the sequence was reached before skipping the requested number of elem
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>

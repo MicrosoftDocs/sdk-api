@@ -2,15 +2,12 @@
 UID: NF:strmif.IDistributorNotify.Pause
 title: IDistributorNotify::Pause (strmif.h)
 description: The Pause method is called when the filter graph is entering a paused state.
+helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","Pause method","IDistributorNotify.Pause","IDistributorNotify::Pause","IDistributorNotifyPause","Pause","Pause method [DirectShow]","Pause method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_pause","strmif/IDistributorNotify::Pause"]
 old-location: dshow\idistributornotify_pause.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d8fcb5c0-4530-4084-adba-170a647588b1
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Pause method, IDistributorNotify.Pause, IDistributorNotify::Pause, IDistributorNotifyPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_pause, strmif/IDistributorNotify::Pause
-f1_keywords:
-- strmif/IDistributorNotify.Pause
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDistributorNotify.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDistributorNotify::Pause
+ - strmif/IDistributorNotify::Pause
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDistributorNotify.Pause
 ---
 
 # IDistributorNotify::Pause
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Pause</code> method is called when the filter graph is entering a paused state.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -97,31 +87,15 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is called before the filters are notified.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>

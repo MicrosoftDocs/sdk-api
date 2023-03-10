@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPriority
 title: SetThreadpoolCallbackPriority function (winbase.h)
-description: Specifies the priority of a callback function relative to other work items in the same thread pool.
+description: Specifies the priority of a callback function relative to other work items in the same thread pool. (SetThreadpoolCallbackPriority)
+helpviewer_keywords: ["SetThreadpoolCallbackPriority","SetThreadpoolCallbackPriority function","TP_CALLBACK_PRIORITY_HIGH","TP_CALLBACK_PRIORITY_LOW","TP_CALLBACK_PRIORITY_NORMAL","base.setthreadpoolcallbackpriority","winbase/SetThreadpoolCallbackPriority"]
 old-location: base\setthreadpoolcallbackpriority.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: c24d3e9b-5a4e-43e1-a903-b612d022aa97
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPriority, SetThreadpoolCallbackPriority function, TP_CALLBACK_PRIORITY_HIGH, TP_CALLBACK_PRIORITY_LOW, TP_CALLBACK_PRIORITY_NORMAL, base.setthreadpoolcallbackpriority, winbase/SetThreadpoolCallbackPriority
-f1_keywords:
-- winbase/SetThreadpoolCallbackPriority
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinBase.h
-api_name:
-- SetThreadpoolCallbackPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadpoolCallbackPriority
+ - winbase/SetThreadpoolCallbackPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinBase.h
+api_name:
+ - SetThreadpoolCallbackPriority
 ---
 
 # SetThreadpoolCallbackPriority function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the priority of a callback function relative to other work items in the same thread pool.
-
 
 ## -parameters
 
-
-
-
 ### -param pcbe [in, out]
 
-A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
-
+A <b>TP_CALLBACK_ENVIRON</b> structure that defines the callback environment. The <a href="/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
 
 ### -param Priority [in]
 
@@ -102,27 +98,11 @@ The callback should run at normal priority.
 </td>
 </tr>
 </table>
- 
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
 
 ## -remarks
-
-
 
 Higher priority callbacks are guaranteed to be run first by the first available worker thread, but they are not guaranteed to finish before lower priority callbacks.
 
 This function is implemented as an inline function.
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= _WIN32_WINNT_WIN7. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+To compile an application that uses this function, set _WIN32_WINNT &gt;= _WIN32_WINNT_WIN7. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

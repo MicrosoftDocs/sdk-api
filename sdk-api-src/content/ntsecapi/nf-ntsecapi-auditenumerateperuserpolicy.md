@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.AuditEnumeratePerUserPolicy
 title: AuditEnumeratePerUserPolicy function (ntsecapi.h)
 description: Enumerates users for whom per-user auditing policy is specified.
+helpviewer_keywords: ["AuditEnumeratePerUserPolicy","AuditEnumeratePerUserPolicy function [Security]","ntsecapi/AuditEnumeratePerUserPolicy","security.auditenumerateperuserpolicy_func"]
 old-location: security\auditenumerateperuserpolicy_func.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 4b13f021-ba08-4eb8-9c7a-0512992ef272
 ms.date: 12/05/2018
 ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [Security], ntsecapi/AuditEnumeratePerUserPolicy, security.auditenumerateperuserpolicy_func
-f1_keywords:
-- ntsecapi/AuditEnumeratePerUserPolicy
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-audit-l1-1-1.dll
-- sechost.dll
-api_name:
-- AuditEnumeratePerUserPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AuditEnumeratePerUserPolicy
+ - ntsecapi/AuditEnumeratePerUserPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-audit-l1-1-1.dll
+ - sechost.dll
+api_name:
+ - AuditEnumeratePerUserPolicy
 ---
 
 # AuditEnumeratePerUserPolicy function
@@ -50,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuditEnumeratePerUserPolicy</b> function enumerates users for whom per-user auditing policy is specified. 
-
+The <b>AuditEnumeratePerUserPolicy</b> function enumerates users for whom per-user auditing policy is specified.
 
 ## -parameters
 
-
-
-
 ### -param ppAuditSidArray [out]
 
-A pointer to a single buffer that contains both an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_audit_sid_array">POLICY_AUDIT_SID_ARRAY</a> structures and the structures themselves. The <b>POLICY_AUDIT_SID_ARRAY</b> structures specify the users for whom per-user audit policy is specified. 
+A pointer to a single buffer that contains both an array of pointers to <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-policy_audit_sid_array">POLICY_AUDIT_SID_ARRAY</a> structures and the structures themselves. The <b>POLICY_AUDIT_SID_ARRAY</b> structures specify the users for whom per-user audit policy is specified. 
 
-When you have finished using this buffer, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditfree">AuditFree</a> function.
-
+When you have finished using this buffer, free it by calling the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditfree">AuditFree</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
 
 <table>
 <tr>
@@ -105,16 +99,7 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To successfully call this function, the caller must have <b>SeSecurityPrivilege</b> or have <b>AUDIT_ENUMERATE_USERS</b> access on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>.
-
-
-
+To successfully call this function, the caller must have <b>SeSecurityPrivilege</b> or have <b>AUDIT_ENUMERATE_USERS</b> access on the <a href="/windows/desktop/SecGloss/a-gly">Audit security object</a>.

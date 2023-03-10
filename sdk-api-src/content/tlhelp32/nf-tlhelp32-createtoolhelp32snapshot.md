@@ -2,15 +2,12 @@
 UID: NF:tlhelp32.CreateToolhelp32Snapshot
 title: CreateToolhelp32Snapshot function (tlhelp32.h)
 description: Takes a snapshot of the specified processes, as well as the heaps, modules, and threads used by these processes.
+helpviewer_keywords: ["CreateToolhelp32Snapshot","CreateToolhelp32Snapshot function [ToolHelp]","TH32CS_INHERIT","TH32CS_SNAPALL","TH32CS_SNAPHEAPLIST","TH32CS_SNAPMODULE","TH32CS_SNAPMODULE32","TH32CS_SNAPPROCESS","TH32CS_SNAPTHREAD","_win32_createtoolhelp32snapshot","base.createtoolhelp32snapshot","tlhelp32/CreateToolhelp32Snapshot","toolhelp.createtoolhelp32snapshot"]
 old-location: toolhelp\createtoolhelp32snapshot.htm
 tech.root: ToolHelp
 ms.assetid: df643c25-7558-424c-b187-b3f86ba51358
 ms.date: 12/05/2018
 ms.keywords: CreateToolhelp32Snapshot, CreateToolhelp32Snapshot function [ToolHelp], TH32CS_INHERIT, TH32CS_SNAPALL, TH32CS_SNAPHEAPLIST, TH32CS_SNAPMODULE, TH32CS_SNAPMODULE32, TH32CS_SNAPPROCESS, TH32CS_SNAPTHREAD, _win32_createtoolhelp32snapshot, base.createtoolhelp32snapshot, tlhelp32/CreateToolhelp32Snapshot, toolhelp.createtoolhelp32snapshot
-f1_keywords:
-- tlhelp32/CreateToolhelp32Snapshot
-dev_langs:
-- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-toolhelp-l1-1-0.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-ToolHelp-L1-1-1.dll
-api_name:
-- CreateToolhelp32Snapshot
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateToolhelp32Snapshot
+ - tlhelp32/CreateToolhelp32Snapshot
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-toolhelp-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+api_name:
+ - CreateToolhelp32Snapshot
 ---
 
 # CreateToolhelp32Snapshot function
@@ -51,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Takes a snapshot of the specified processes, as well as the heaps, modules, and threads used by these processes.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -100,7 +97,7 @@ Includes all processes and threads in the system, plus the heaps and modules of 
 </td>
 <td width="60%">
 Includes all heaps of the process specified in <i>th32ProcessID</i> in the snapshot. To enumerate the heaps, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>.
 
 </td>
 </tr>
@@ -112,7 +109,7 @@ Includes all heaps of the process specified in <i>th32ProcessID</i> in the snaps
 </td>
 <td width="60%">
 Includes all modules of the process specified in <i>th32ProcessID</i> in the snapshot. To enumerate the modules, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>. If the function fails with <b>ERROR_BAD_LENGTH</b>, retry the function until it succeeds.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>. If the function fails with <b>ERROR_BAD_LENGTH</b>, retry the function until it succeeds.
 
 <b>64-bit Windows:  </b>Using this flag in a 32-bit process includes the 32-bit modules of the process specified in <i>th32ProcessID</i>, while using it in a 64-bit process includes the 64-bit modules. To include the 32-bit modules of the process specified in <i>th32ProcessID</i> from a 64-bit process, use the <b>TH32CS_SNAPMODULE32</b> flag.
 
@@ -137,7 +134,7 @@ Includes all 32-bit modules of the process specified in <i>th32ProcessID</i> in 
 </td>
 <td width="60%">
 Includes all processes in the system in the snapshot. To enumerate the processes, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>.
 
 </td>
 </tr>
@@ -149,16 +146,14 @@ Includes all processes in the system in the snapshot. To enumerate the processes
 </td>
 <td width="60%">
 Includes all threads in the system in the snapshot. To enumerate the threads, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>.
 
 To identify the threads that belong to a specific process, compare its process identifier to the <b>th32OwnerProcessID</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a> structure when enumerating the threads.
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-threadentry32">THREADENTRY32</a> structure when enumerating the threads.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param th32ProcessID [in]
 
@@ -168,22 +163,14 @@ If the specified process is the Idle process or one of the CSRSS processes, this
 
 If the specified process is a 64-bit process and the caller is a 32-bit process, this function fails and the last error code is <b>ERROR_PARTIAL_COPY</b> (299).
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns an open handle to the specified snapshot.
 
 If the function fails, it returns <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include <b>ERROR_BAD_LENGTH</b>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include <b>ERROR_BAD_LENGTH</b>.
 
 ## -remarks
-
-
 
 The snapshot taken by this function is examined by the other tool help functions to provide their results. Access to the snapshot is read only. The snapshot handle acts as an object handle and is subject to the same rules regarding which processes and threads it is valid in.
 
@@ -192,54 +179,45 @@ To enumerate the heap or module states for all processes, specify <b>TH32CS_SNAP
 
 When taking snapshots that include heaps and modules for a process other than the current process, the <b>CreateToolhelp32Snapshot</b> function can fail or return incorrect information for a variety of reasons. For example, if the loader data table in the target process is corrupted or not initialized, or if the module list changes during the function call as a result of DLLs being loaded or unloaded, the function might fail with <b>ERROR_BAD_LENGTH</b> or other error code. Ensure that the target process was not started in a suspended state,  and try calling the function again.  If the function fails with <b>ERROR_BAD_LENGTH</b> when called with <b>TH32CS_SNAPMODULE</b> or <b>TH32CS_SNAPMODULE32</b>,   call the function again until it succeeds. 
 
-The <b>TH32CS_SNAPMODULE</b> and <b>TH32CS_SNAPMODULE32</b> flags do not retrieve handles for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> or similar flags. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+The <b>TH32CS_SNAPMODULE</b> and <b>TH32CS_SNAPMODULE32</b> flags do not retrieve handles for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> or similar flags. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 
 To destroy the snapshot, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function.
 
-Note that you can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the full name of an executable image for both 32- and 64-bit processes from a 32-bit process.
+Note that you can use the <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the full name of an executable image for both 32- and 64-bit processes from a 32-bit process.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/taking-a-snapshot-and-viewing-processes">Taking a Snapshot and Viewing Processes</a>.
+<a href="/windows/desktop/ToolHelp/taking-a-snapshot-and-viewing-processes">Taking a Snapshot and Viewing Processes</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-module32first">Module32First</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-process32first">Process32First</a>
+<a href="/windows/desktop/ToolHelp/snapshots-of-the-system">Snapshots of the System</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/snapshots-of-the-system">Snapshots of the System</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-thread32first">Thread32First</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>

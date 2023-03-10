@@ -2,15 +2,12 @@
 UID: NC:stm.PGET_SERVICE_COUNT
 title: PGET_SERVICE_COUNT (stm.h)
 description: The GetServiceCount function returns the number of services in the table.
+helpviewer_keywords: ["GetServiceCount","GetServiceCount callback function [RAS]","PGET_SERVICE_COUNT","PGET_SERVICE_COUNT callback","_mpr_getservicecount","rras.getservicecount","stm/GetServiceCount"]
 old-location: rras\getservicecount.htm
 tech.root: RRAS
 ms.assetid: 44ba90c0-a019-4aca-92e2-1e795cbd335d
 ms.date: 12/05/2018
 ms.keywords: GetServiceCount, GetServiceCount callback function [RAS], PGET_SERVICE_COUNT, PGET_SERVICE_COUNT callback, _mpr_getservicecount, rras.getservicecount, stm/GetServiceCount
-f1_keywords:
-- stm/GetServiceCount
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- GetServiceCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PGET_SERVICE_COUNT
+ - stm/PGET_SERVICE_COUNT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - GetServiceCount
 ---
 
 # PGET_SERVICE_COUNT callback function
@@ -48,28 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetServiceCount</b> function returns the number of services in the table.
 
-
 ## -parameters
 
-
-
-
-### -param Arg1
-
-
-
-
-
-
-
+### -param unnamedParam1
 
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of services in the table.
 
@@ -99,7 +87,7 @@ Operation succeeded but no services are available.
 </td>
 <td width="60%">
 No services are available in the table or the operation failed. Call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> to obtain more information.
+<a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> to obtain more information.
 
 </td>
 </tr>
@@ -109,25 +97,14 @@ No services are available in the table or the operation failed. Call
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

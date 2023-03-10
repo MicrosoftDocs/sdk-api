@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_LongestEverWaitTime
 title: ITQueue::get_LongestEverWaitTime (tapi3cc.h)
-description: The get_LongestEverWaitTime method gets the longest time any call waited in the queue (in seconds) during the current measurement period.
+description: The ITQueue::get_LongestEverWaitTime method (tapi3cc.h) gets the longest time any call waited in the queue (in seconds) during the current measurement period.
+helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_LongestEverWaitTime method","ITQueue.get_LongestEverWaitTime","ITQueue::get_LongestEverWaitTime","_tapi3_itqueue_get_longesteverwaittime","get_LongestEverWaitTime","get_LongestEverWaitTime method [TAPI 2.2]","get_LongestEverWaitTime method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_longesteverwaittime","tapi3cc/ITQueue::get_LongestEverWaitTime"]
 old-location: tapi3\itqueue_get_longesteverwaittime.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 686ea264-a826-4205-a422-7d1dc3d430f8
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],get_LongestEverWaitTime method, ITQueue.get_LongestEverWaitTime, ITQueue::get_LongestEverWaitTime, _tapi3_itqueue_get_longesteverwaittime, get_LongestEverWaitTime, get_LongestEverWaitTime method [TAPI 2.2], get_LongestEverWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_longesteverwaittime, tapi3cc/ITQueue::get_LongestEverWaitTime
-f1_keywords:
-- tapi3cc/ITQueue.get_LongestEverWaitTime
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITQueue.get_LongestEverWaitTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITQueue::get_LongestEverWaitTime
+ - tapi3cc/ITQueue::get_LongestEverWaitTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITQueue.get_LongestEverWaitTime
 ---
 
 # ITQueue::get_LongestEverWaitTime
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_LongestEverWaitTime</b> method gets the longest time any call waited in the queue (in seconds) during the current measurement period. The measurement period is switch or implementation specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
-
-
-
 
 ### -param plWaitTime [out]
 
 Pointer to the wait time.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -120,18 +114,7 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>

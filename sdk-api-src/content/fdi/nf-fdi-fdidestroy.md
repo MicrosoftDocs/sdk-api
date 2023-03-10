@@ -2,15 +2,12 @@
 UID: NF:fdi.FDIDestroy
 title: FDIDestroy function (fdi.h)
 description: The FDIDestroy function deletes an open FDI context.
+helpviewer_keywords: ["FDIDestroy","FDIDestroy function [Windows API]","fdi/FDIDestroy","winprog.fdidestroy"]
 old-location: winprog\fdidestroy.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: fe3b8045-a476-4a21-b732-0d4799798faf
 ms.date: 12/05/2018
 ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winprog.fdidestroy
-f1_keywords:
-- fdi/FDIDestroy
-dev_langs:
-- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cabinet.dll
-api_name:
-- FDIDestroy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FDIDestroy
+ - fdi/FDIDestroy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cabinet.dll
+api_name:
+ - FDIDestroy
 ---
 
 # FDIDestroy function
@@ -48,38 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FDIDestroy</b> function deletes an open FDI context.
-
 
 ## -parameters
 
-
-
-
 ### -param hfdi [in]
 
- A valid FDI context handle returned by  the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a> function.
-
+ A valid FDI context handle returned by  the <a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a> function.
 
 ## -returns
 
-
-
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
-
-
-
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FDI context.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>

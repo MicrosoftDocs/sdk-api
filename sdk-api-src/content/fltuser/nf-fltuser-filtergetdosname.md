@@ -2,15 +2,12 @@
 UID: NF:fltuser.FilterGetDosName
 title: FilterGetDosName function (fltuser.h)
 description: The FilterGetDosName function returns the MS-DOS device name that corresponds to the given volume name.
+helpviewer_keywords: ["FilterGetDosName","FilterGetDosName function [Installable File System Drivers]","FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml","fltuser/FilterGetDosName","ifsk.filtergetdosname"]
 old-location: ifsk\filtergetdosname.htm
 tech.root: ifsk
 ms.assetid: f7c14e1f-c57f-4780-9936-3a47a4c0ca12
 ms.date: 12/05/2018
 ms.keywords: FilterGetDosName, FilterGetDosName function [Installable File System Drivers], FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml, fltuser/FilterGetDosName, ifsk.filtergetdosname
-f1_keywords:
-- fltuser/FilterGetDosName
-dev_langs:
-- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltLib.dll
-api_name:
-- FilterGetDosName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterGetDosName
+ - fltuser/FilterGetDosName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltLib.dll
+api_name:
+ - FilterGetDosName
 ---
 
 # FilterGetDosName function
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FilterGetDosName</b> function returns the MS-DOS device name that corresponds to the given volume name. 
-
+The <b>FilterGetDosName</b> function returns the MS-DOS device name that corresponds to the given volume name.
 
 ## -parameters
-
-
-
 
 ### -param lpVolumeName [in]
 
 Pointer to a NULL-terminated wide-character string containing the volume name. 
 
-The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\) is optional. 
+The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\\) is optional. 
 
 <ul>
 <li>
@@ -81,56 +78,36 @@ A nonpersistent device name (also called a <i>target name</i> or an <i>NT device
 
 </li>
 </ul>
-This parameter is required and cannot be <b>NULL</b>. 
-
+This parameter is required and cannot be <b>NULL</b>.
 
 ### -param lpDosName [out]
 
-Pointer to a caller-allocated buffer that receives the MS-DOS device name as a NULL-terminated wide-character string. 
-
+Pointer to a caller-allocated buffer that receives the MS-DOS device name as a NULL-terminated wide-character string.
 
 ### -param dwDosNameBufferSize [in]
 
-Size, in wide characters, of the buffer that <i>lpDosName </i>points to. 
-
+Size, in wide characters, of the buffer that <i>lpDosName </i> points to.
 
 ## -returns
 
-
-
-<b>FilterGetDosName</b> returns S_OK if successful. Otherwise, it returns an error value. 
-
-
-
+<b>FilterGetDosName</b> returns S_OK if successful. Otherwise, it returns an error value.
 
 ## -remarks
 
-
-
-<b>FilterGetDosName</b> returns the volume's drive letter if it has one. If no drive letter is assigned to the volume, <b>FilterGetDosName</b> returns a path to a volume mount point (also called a <i>mount point name</i>). If no drive letters or mount points are defined for the volume, <b>FilterGetDosName</b> returns S_OK, and <i>lpDosName</i> receives <b>NULL</b>. 
-
-
-
+<b>FilterGetDosName</b> returns the volume's drive letter if it has one. If no drive letter is assigned to the volume, <b>FilterGetDosName</b> returns a path to a volume mount point (also called a <i>mount point name</i>). If no drive letters or mount points are defined for the volume, <b>FilterGetDosName</b> returns S_OK, and <i>lpDosName</i> receives <b>NULL</b>.
 
 ## -see-also
 
+<a href="/windows/win32/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=139080">DefineDosDevice</a>
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumename">FltGetVolumeName</a>
+<a href="/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioqueryfiledosdevicename">IoQueryFileDosDeviceName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioqueryfiledosdevicename">IoQueryFileDosDeviceName</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=139081">QueryDosDevice</a>
- 
-
- 
-
+<a href="/windows/win32/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfReverseConversionMgr.GetReverseConversion
 title: ITfReverseConversionMgr::GetReverseConversion (msctf.h)
 description: Retrieves an ITfReverseConversion object that can perform reverse conversions.
+helpviewer_keywords: ["GetReverseConversion","GetReverseConversion method [Text Services Framework]","GetReverseConversion method [Text Services Framework]","ITfReverseConversionMgr interface","ITfReverseConversionMgr interface [Text Services Framework]","GetReverseConversion method","ITfReverseConversionMgr.GetReverseConversion","ITfReverseConversionMgr::GetReverseConversion","TF_RCM_COMLESS","TF_RCM_HINT_COLLISION","TF_RCM_HINT_READING_LENGTH","TF_RCM_VKEY","msctf/ITfReverseConversionMgr::GetReverseConversion","tsf.itfreverseconversionmgr_getreverseconversion"]
 old-location: tsf\itfreverseconversionmgr_getreverseconversion.htm
 tech.root: TSF
 ms.assetid: 959bd98f-5b97-4bb8-a62d-9adfada25746
 ms.date: 12/05/2018
 ms.keywords: GetReverseConversion, GetReverseConversion method [Text Services Framework], GetReverseConversion method [Text Services Framework],ITfReverseConversionMgr interface, ITfReverseConversionMgr interface [Text Services Framework],GetReverseConversion method, ITfReverseConversionMgr.GetReverseConversion, ITfReverseConversionMgr::GetReverseConversion, TF_RCM_COMLESS, TF_RCM_HINT_COLLISION, TF_RCM_HINT_READING_LENGTH, TF_RCM_VKEY, msctf/ITfReverseConversionMgr::GetReverseConversion, tsf.itfreverseconversionmgr_getreverseconversion
-f1_keywords:
-- msctf/ITfReverseConversionMgr.GetReverseConversion
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfReverseConversionMgr.GetReverseConversion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfReverseConversionMgr::GetReverseConversion
+ - msctf/ITfReverseConversionMgr::GetReverseConversion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfReverseConversionMgr.GetReverseConversion
 ---
 
 # ITfReverseConversionMgr::GetReverseConversion
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>GetReverseConversion</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For internal use only.]
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> object that can perform reverse conversions. 
-
+Retrieves an <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> object that can perform reverse conversions.
 
 ## -parameters
 
-
-
-
 ### -param langid [in]
 
- The language ID of the profile to which the target strings belong. 
-
+ The language ID of the profile to which the target strings belong.
 
 ### -param guidProfile [in]
 
- The GUID of the profile to which the target strings belong. 
-
+ The GUID of the profile to which the target strings belong.
 
 ### -param dwflag [in]
 
@@ -94,7 +89,7 @@ Activate the reverse conversion interface without COM.
 </dl>
 </td>
 <td width="60%">
-The output should be an array of virtual key codes (instead of chracter key codes). 
+The output should be an array of virtual key codes (instead of character key codes). 
 
 </td>
 </tr>
@@ -121,17 +116,12 @@ The reverse conversion should prioritize the order of entries in the output list
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppReverseConversion [out]
 
- A pointer to the address of the ITfReverseConversion object that can perform the specified reverse conversion. 
-
+ A pointer to the address of the ITfReverseConversion object that can perform the specified reverse conversion.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -147,7 +137,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-An <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> for the specified <i>langid</i> and <i>guidProfile</i> combination is available.
+An <a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a> for the specified <i>langid</i> and <i>guidProfile</i> combination is available.
 
 </td>
 </tr>
@@ -174,29 +164,13 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A reverse conversion provides the keystroke sequences required to create the specified string.
 
-When niether the <b>TF_RCM_HINT_COLLISION</b> or <b>TF_RCM_HINT_READING_LENGTH</b> flag is  specified for <i>dwflag</i>, the IME might not arrange the output in any sort of order. 
-
-
-
+When neither the <b>TF_RCM_HINT_COLLISION</b> or <b>TF_RCM_HINT_READING_LENGTH</b> flag is  specified for <i>dwflag</i>, the IME might not arrange the output in any sort of order.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversionmgr">ITfReverseConversionMgr</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversionmgr">ITfReverseConversionMgr</a>

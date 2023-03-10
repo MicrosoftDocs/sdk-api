@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensor.GetFriendlyName
 title: ISensor::GetFriendlyName (sensorsapi.h)
 description: Retrieves the sensor name that is intended to be seen by the user.
+helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method","GetFriendlyName method","ISensor interface","ISensor interface","GetFriendlyName method","ISensor.GetFriendlyName","ISensor::GetFriendlyName","sensorsapi/ISensor::GetFriendlyName","winsensors_com_ref.isensor_getfriendlyname"]
 old-location: winsensors_com_ref\isensor_getfriendlyname.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 380a1a93-01f7-4d5b-9916-156728fd94ed
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method, GetFriendlyName method,ISensor interface, ISensor interface,GetFriendlyName method, ISensor.GetFriendlyName, ISensor::GetFriendlyName, sensorsapi/ISensor::GetFriendlyName, winsensors_com_ref.isensor_getfriendlyname
-f1_keywords:
-- sensorsapi/ISensor.GetFriendlyName
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.GetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::GetFriendlyName
+ - sensorsapi/ISensor::GetFriendlyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.GetFriendlyName
 ---
 
 # ISensor::GetFriendlyName
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the sensor name that is intended to be seen by the user.
 
-
 ## -parameters
-
-
-
 
 ### -param pFriendlyName [out]
 
 Address of a <b>BSTR</b> that receives the friendly name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -107,18 +101,7 @@ NULL was passed in for pFriendlyName.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

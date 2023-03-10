@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ITransferAdviseSink.SubStreamFailure
 title: ITransferAdviseSink::SubStreamFailure (shobjidl_core.h)
 description: Called when there is a failure that involves secondary streams and user interaction is needed.
+helpviewer_keywords: ["ITransferAdviseSink interface [Windows Shell]","SubStreamFailure method","ITransferAdviseSink.SubStreamFailure","ITransferAdviseSink::SubStreamFailure","SubStreamFailure","SubStreamFailure method [Windows Shell]","SubStreamFailure method [Windows Shell]","ITransferAdviseSink interface","_shell_ITransferAdviseSink_SubStreamFailure","shell.ITransferAdviseSink_SubStreamFailure","shobjidl_core/ITransferAdviseSink::SubStreamFailure"]
 old-location: shell\ITransferAdviseSink_SubStreamFailure.htm
 tech.root: shell
 ms.assetid: 4cca3bc0-45c6-40ee-8050-7035faa1e601
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],SubStreamFailure method, ITransferAdviseSink.SubStreamFailure, ITransferAdviseSink::SubStreamFailure, SubStreamFailure, SubStreamFailure method [Windows Shell], SubStreamFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_SubStreamFailure, shell.ITransferAdviseSink_SubStreamFailure, shobjidl_core/ITransferAdviseSink::SubStreamFailure
-f1_keywords:
-- shobjidl_core/ITransferAdviseSink.SubStreamFailure
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ITransferAdviseSink.SubStreamFailure
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITransferAdviseSink::SubStreamFailure
+ - shobjidl_core/ITransferAdviseSink::SubStreamFailure
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ITransferAdviseSink.SubStreamFailure
 ---
 
 # ITransferAdviseSink::SubStreamFailure
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when there is a failure that involves secondary streams and user interaction is needed.
-
 
 ## -parameters
 
-
-
-
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that caused the failure.
-
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that caused the failure.
 
 ### -param pszStreamName [in]
 
@@ -70,17 +66,13 @@ Type: <b>LPCWSTR</b>
 
 The name of the data that will be lost in the operation.
 
-
 ### -param hrError [in]
 
 Type: <b>HRESULT</b>
 
 The error code that was generated. It must be handled by the copy engine.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -147,7 +139,3 @@ The user clicked <b>Cancel</b>. The entire copy job is being terminated. The han
 </td>
 </tr>
 </table>
- 
-
-
-

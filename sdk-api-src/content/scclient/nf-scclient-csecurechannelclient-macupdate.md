@@ -2,15 +2,12 @@
 UID: NF:scclient.CSecureChannelClient.MACUpdate
 title: CSecureChannelClient::MACUpdate (scclient.h)
 description: The MACUpdate method adds a value to a message authentication code (MAC).
+helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","MACUpdate method","CSecureChannelClient.MACUpdate","CSecureChannelClient::MACUpdate","CSecureChannelClientMACUpdate","MACUpdate","MACUpdate method [windows Media Device Manager]","MACUpdate method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::MACUpdate","wmdm.csecurechannelclient_macupdate"]
 old-location: wmdm\csecurechannelclient_macupdate.htm
 tech.root: WMDM
 ms.assetid: b868d422-535d-44f5-9713-bfa049da8a4e
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACUpdate method, CSecureChannelClient.MACUpdate, CSecureChannelClient::MACUpdate, CSecureChannelClientMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACUpdate, wmdm.csecurechannelclient_macupdate
-f1_keywords:
-- scclient/CSecureChannelClient.MACUpdate
-dev_langs:
-- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelClient.MACUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelClient::MACUpdate
+ - scclient/CSecureChannelClient::MACUpdate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelClient.MACUpdate
 ---
 
 # CSecureChannelClient::MACUpdate
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MACUpdate</b> method adds a value to a message authentication code (MAC).
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hMAC [in]
 
-Handle to the array specifying the MAC for the current parameter data. This handle is returned from the <a href="https://docs.microsoft.com/previous-versions/bb231592(v=vs.85)">MACInit</a> method. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
-
+Handle to the array specifying the MAC for the current parameter data. This handle is returned from the <a href="/previous-versions/bb231592(v=vs.85)">MACInit</a> method. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
 
 ### -param pbData [in]
 
 Pointer to the parameter data to add to the MAC value.
 
-
 ### -param dwDataLen
 
 <b>DWORD</b> specifying the length of the data to which <i>pbData</i> points.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -87,7 +76,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -109,21 +98,15 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-An application calls <b>MACUpdate</b> repeatedly with each piece of data to add to the MAC. <b>MACInit</b> must always be called before <b>MACUpdate</b>, and <a href="https://docs.microsoft.com/previous-versions/bb231591(v=vs.85)">MACFinal</a> must always be called after <b>MACUpdate</b>. <b>MACInit</b> acquires the MAC handle, <b>phMAC</b>, to be used by the <b>MACUpdate</b> and <b>MACFinal</b> methods.
+An application calls <b>MACUpdate</b> repeatedly with each piece of data to add to the MAC. <b>MACInit</b> must always be called before <b>MACUpdate</b>, and <a href="/previous-versions/bb231591(v=vs.85)">MACFinal</a> must always be called after <b>MACUpdate</b>. <b>MACInit</b> acquires the MAC handle, <b>phMAC</b>, to be used by the <b>MACUpdate</b> and <b>MACFinal</b> methods.
 
 
 #### Examples
 
-The following example code checks the MAC received by a call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
+The following example code checks the MAC received by a call to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getrights">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
 
 
 ```cpp
@@ -149,21 +132,10 @@ if (SUCCEEDED(hr))
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/message-authentication">Message Authentication</a>
- 
-
- 
-
+<a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>

@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensor.SetEventInterest
 title: ISensor::SetEventInterest (sensorsapi.h)
 description: Specifies the list of sensor events to receive.
+helpviewer_keywords: ["ISensor interface","SetEventInterest method","ISensor.SetEventInterest","ISensor::SetEventInterest","SetEventInterest","SetEventInterest method","SetEventInterest method","ISensor interface","sensorsapi/ISensor::SetEventInterest","winsensors_com_ref.isensor_seteventinterest"]
 old-location: winsensors_com_ref\isensor_seteventinterest.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: d3c2d8b9-6511-41ff-9734-92f47825bbcd
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetEventInterest method, ISensor.SetEventInterest, ISensor::SetEventInterest, SetEventInterest, SetEventInterest method, SetEventInterest method,ISensor interface, sensorsapi/ISensor::SetEventInterest, winsensors_com_ref.isensor_seteventinterest
-f1_keywords:
-- sensorsapi/ISensor.SetEventInterest
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.SetEventInterest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::SetEventInterest
+ - sensorsapi/ISensor::SetEventInterest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.SetEventInterest
 ---
 
 # ISensor::SetEventInterest
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the list of sensor events to receive.
 
-
 ## -parameters
-
-
-
 
 ### -param pValues [in]
 
 Pointer to an array of <b>GUID</b>s. Each <b>GUID</b> represents an event to receive. Set to <b>NULL</b> to receive all data-updated events and all custom events.
 
-
 ### -param count [in]
 
 The count of <b>GUID</b>s in the array pointed to by <i>pValues</i>. Set to zero when <i>pValues</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,37 +83,22 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Each sensor event is represented by a <b>GUID</b>. This method takes, as an array of <b>GUID</b>s, the list of events that you want to receive.
 
 
 #### Examples
 
-For an example of how to set event interest, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
+For an example of how to set event interest, see <a href="/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest">GetEventInterest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest">GetEventInterest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

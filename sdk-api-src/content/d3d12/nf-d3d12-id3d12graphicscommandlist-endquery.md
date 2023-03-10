@@ -2,15 +2,12 @@
 UID: NF:d3d12.ID3D12GraphicsCommandList.EndQuery
 title: ID3D12GraphicsCommandList::EndQuery (d3d12.h)
 description: Ends a running query.
+helpviewer_keywords: ["EndQuery","EndQuery method","EndQuery method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","EndQuery method","ID3D12GraphicsCommandList.EndQuery","ID3D12GraphicsCommandList::EndQuery","d3d12/ID3D12GraphicsCommandList::EndQuery","direct3d12.id3d12graphicscommandlist_endquery"]
 old-location: direct3d12\id3d12graphicscommandlist_endquery.htm
 tech.root: direct3d12
 ms.assetid: 591B277C-44C7-4C21-86B1-239F6A71308D
 ms.date: 12/05/2018
 ms.keywords: EndQuery, EndQuery method, EndQuery method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,EndQuery method, ID3D12GraphicsCommandList.EndQuery, ID3D12GraphicsCommandList::EndQuery, d3d12/ID3D12GraphicsCommandList::EndQuery, direct3d12.id3d12graphicscommandlist_endquery
-f1_keywords:
-- d3d12/ID3D12GraphicsCommandList.EndQuery
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- d3d12.dll
-api_name:
-- ID3D12GraphicsCommandList.EndQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12GraphicsCommandList::EndQuery
+ - d3d12/ID3D12GraphicsCommandList::EndQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d3d12.dll
+api_name:
+ - ID3D12GraphicsCommandList.EndQuery
 ---
 
 # ID3D12GraphicsCommandList::EndQuery
@@ -48,61 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 Ends a running query.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param pQueryHeap [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a>*</b>
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the query.
-          
-
+Specifies the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12queryheap">ID3D12QueryHeap</a> containing the query.
 
 ### -param Type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a></b>
 
-Specifies one member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
-          
-
+Specifies one member of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_query_type">D3D12_QUERY_TYPE</a>.
 
 ### -param Index [in]
 
 Type: <b>UINT</b>
 
 Specifies the index of the query in the query heap.
-          
-
-
-## -returns
-
-
-
-This method does not return a value.
-          
-
-
-
 
 ## -remarks
 
-
-
-Refer to the remarks for <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery">BeginQuery</a>, and to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a>.
+See <a href="/windows/desktop/direct3d12/queries">Queries</a> for more information about D3D12 queries.
         
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::EndQuery</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::EndQuery</b> as follows:
         
 
 
@@ -183,20 +161,11 @@ void D3D12PredicationQueries::PopulateCommandList()
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

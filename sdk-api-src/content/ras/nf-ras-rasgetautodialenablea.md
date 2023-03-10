@@ -1,16 +1,13 @@
 ---
 UID: NF:ras.RasGetAutodialEnableA
 title: RasGetAutodialEnableA function (ras.h)
-description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
+description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location. (ANSI)
+helpviewer_keywords: ["RasGetAutodialEnableA", "ras/RasGetAutodialEnableA"]
 old-location: rras\rasgetautodialenable.htm
 tech.root: RRAS
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
 ms.date: 12/05/2018
 ms.keywords: RasGetAutodialEnable, RasGetAutodialEnable function [RAS], RasGetAutodialEnableA, RasGetAutodialEnableW, _ras_rasgetautodialenable, ras/RasGetAutodialEnable, ras/RasGetAutodialEnableA, ras/RasGetAutodialEnableW, rras.rasgetautodialenable
-f1_keywords:
-- ras/RasGetAutodialEnable
-dev_langs:
-- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rasapi32.dll
-api_name:
-- RasGetAutodialEnable
-- RasGetAutodialEnableA
-- RasGetAutodialEnableW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RasGetAutodialEnableA
+ - ras/RasGetAutodialEnableA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rasapi32.dll
+api_name:
+ - RasGetAutodialEnable
+ - RasGetAutodialEnableA
+ - RasGetAutodialEnableW
 ---
 
 # RasGetAutodialEnableA function
@@ -50,52 +52,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>RasGetAutodialEnable</b> function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location. For more information about TAPI dialing locations, see the <a href="https://docs.microsoft.com/windows/desktop/Tapi/telephony-application-programming-interfaces">TAPI Programmer's Reference</a> in the Platform Software Development Kit (SDK).
-
+<b>RasGetAutodialEnable</b> function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location. For more information about TAPI dialing locations, see the <a href="/windows/desktop/Tapi/telephony-application-programming-interfaces">TAPI Programmer's Reference</a> in the Platform Software Development Kit (SDK).
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 Specifies the identifier of a TAPI dialing location.
 
-
-### -param arg2 [out]
+### -param unnamedParam2 [out]
 
 Pointer to a BOOL variable that receives a nonzero value if AutoDial is enabled for the specified dialing location, or zero if it is not enabled.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
-
-
-
+If the function fails, the return value is from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 ## -see-also
 
+<a href="/windows/desktop/api/ras/nf-ras-rassetautodialenablea">RasSetAutodialEnable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetautodialenablea">RasSetAutodialEnable</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
- 
-
- 
-
+> [!NOTE]
+> The ras.h header defines RasGetAutodialEnable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

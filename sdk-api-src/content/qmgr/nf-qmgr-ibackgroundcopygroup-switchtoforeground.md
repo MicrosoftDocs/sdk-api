@@ -2,15 +2,12 @@
 UID: NF:qmgr.IBackgroundCopyGroup.SwitchToForeground
 title: IBackgroundCopyGroup::SwitchToForeground (qmgr.h)
 description: Use the SwitchToForeground method to download the group in the foreground instead of the background.
+helpviewer_keywords: ["IBackgroundCopyGroup interface [BITS]","SwitchToForeground method","IBackgroundCopyGroup.SwitchToForeground","IBackgroundCopyGroup::SwitchToForeground","SwitchToForeground","SwitchToForeground method [BITS]","SwitchToForeground method [BITS]","IBackgroundCopyGroup interface","bits.ibackgroundcopygroup_switchtoforeground","qmgr/IBackgroundCopyGroup::SwitchToForeground"]
 old-location: bits\ibackgroundcopygroup_switchtoforeground.htm
 tech.root: Bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SwitchToForeground method, IBackgroundCopyGroup.SwitchToForeground, IBackgroundCopyGroup::SwitchToForeground, SwitchToForeground, SwitchToForeground method [BITS], SwitchToForeground method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_switchtoforeground, qmgr/IBackgroundCopyGroup::SwitchToForeground
-f1_keywords:
-- qmgr/IBackgroundCopyGroup.SwitchToForeground
-dev_langs:
-- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyGroup.SwitchToForeground
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyGroup::SwitchToForeground
+ - qmgr/IBackgroundCopyGroup::SwitchToForeground
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyGroup.SwitchToForeground
 ---
 
 # IBackgroundCopyGroup::SwitchToForeground
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
 
-<p class="CCE_Message">[<b>IBackgroundCopyGroup</b> is available for use in the operating systems specified in the Requirements section.  It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/Bits/bits-interfaces">BITS interfaces</a>.]
-
-Use the <b>SwitchToForeground</b> method to download the group in the foreground instead of the background. 
-
-
-## -parameters
-
-
-
+Use the <b>SwitchToForeground</b> method to download the group in the foreground instead of the background.
 
 
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -84,18 +77,7 @@ Successfully switched the group to foreground processing.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>

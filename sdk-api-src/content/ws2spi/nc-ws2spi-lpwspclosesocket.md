@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPCLOSESOCKET
 title: LPWSPCLOSESOCKET
 description: The LPWSPCloseSocket function closes a socket.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPCLOSESOCKET"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPCLOSESOCKET
 targetos: Windows
@@ -25,27 +27,34 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPCLOSESOCKET
+ - LPWSPCLOSESOCKET
+f1_keywords:
+ - LPWSPCLOSESOCKET
+ - ws2spi/LPWSPCLOSESOCKET
 ---
 
 ## -description
+
 The **LPWSPCloseSocket** function closes a socket.
 
 ## -parameters
 
 ### -param s [in]
+
 Descriptor identifying a socket.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPCloseSocket** returns zero. Otherwise, a value of SOCKET_ERROR is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -97,9 +106,10 @@ The descriptor is not a socket.
 Socket is marked as nonblocking and SO_LINGER is set to a nonzero time-out value.
 </td>
 </tr>
-</table>                                          
+</table>
 
 ## -remarks
+
 This function closes a socket. More precisely, it releases the socket descriptor <i>s</i>, so further references to <i>s</i> should fail with the error <a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAENOTSOCK">WSAENOTSOCK</a>. If this is the last reference to an underlying socket, the associated naming information and queued data are discarded. Any blocking or asynchronous calls pending on the socket (issued by any thread in this process) are canceled without posting any notification messages. Any pending overlapped operations issued by any thread in this process are also canceled. Whatever completion action was specified for these overlapped operations is performed (for example, event, completion routine, or completion port). In this case, the pending overlapped operations fail with the error status <a href="/windows/win32/winsock/windows-sockets-error-codes-2#wsa_operation_aborted">WSA_OPERATION_ABORTED
 </a>. FD_CLOSE will not be posted after **LPWSPCloseSocket** is called.
 
@@ -146,10 +156,11 @@ If SO_DONTLINGER is set on a stream socket (that is, the **l_onoff** member of t
 Note that in this case the Winsock provider is allowed to retain any resources associated with the socket until such time as the graceful disconnect has completed or the provider terminates the connection due to an inability to complete the operation in a provider-determined amount of time. This can affect Winsock clients that expect to use all available sockets. This is the default behavior; SO_DONTLINGER is set by default.
 
 ## -see-also
+
 [LPWSPAccept](nc-ws2spi-lpwspaccept.md)
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspioctl">LPWSPIoctl</a>
 
-<a href="https://docs.microsoft.com/en-us/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)?redirectedfrom=MSDN">WSPSetSockOpt</a>
+<a href="/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a>
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspsocket">LPWSPSocket</a>

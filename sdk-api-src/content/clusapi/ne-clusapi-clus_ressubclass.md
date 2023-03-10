@@ -1,16 +1,13 @@
 ---
 UID: NE:clusapi.CLUS_RESSUBCLASS
 title: CLUS_RESSUBCLASS (clusapi.h)
-description: Identifies a resource subclass that manages a shared resource.
+description: CLUS_RESSUBCLASS (clusapi.h) identifies a resource subclass that manages a shared resource.
+helpviewer_keywords: ["CLUS_RESSUBCLASS","CLUS_RESSUBCLASS enumeration [Failover Cluster]","CLUS_RESSUBCLASS_SHARED","_CLUS_RESSUBCLASS","_CLUS_RESSUBCLASS enumeration [Failover Cluster]","clusapi/CLUS_RESSUBCLASS","clusapi/CLUS_RESSUBCLASS_SHARED","clusapi/_CLUS_RESSUBCLASS","msclus/CLUS_RESSUBCLASS","msclus/CLUS_RESSUBCLASS_SHARED","msclus/_CLUS_RESSUBCLASS","mscs.clus_ressubclass"]
 old-location: mscs\clus_ressubclass.htm
 tech.root: MsCS
 ms.assetid: 2e10a529-a12d-4259-a18a-be96471ab3a5
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: CLUS_RESSUBCLASS, CLUS_RESSUBCLASS enumeration [Failover Cluster], CLUS_RESSUBCLASS_SHARED, _CLUS_RESSUBCLASS, _CLUS_RESSUBCLASS enumeration [Failover Cluster], clusapi/CLUS_RESSUBCLASS, clusapi/CLUS_RESSUBCLASS_SHARED, clusapi/_CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS, msclus/CLUS_RESSUBCLASS_SHARED, msclus/_CLUS_RESSUBCLASS, mscs.clus_ressubclass
-f1_keywords:
-- clusapi/CLUS_RESSUBCLASS
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUS_RESSUBCLASS
 targetos: Windows
 req.typenames: CLUS_RESSUBCLASS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUS_RESSUBCLASS
+ - clusapi/CLUS_RESSUBCLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUS_RESSUBCLASS
 ---
 
 # CLUS_RESSUBCLASS enumeration
@@ -49,40 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies a resource subclass that manages a shared resource.
-
 
 ## -enum-fields
 
-
-
-
-### -field CLUS_RESSUBCLASS_SHARED
+### -field CLUS_RESSUBCLASS_SHARED:0x80000000
 
 Identifies a resource subclass that manages a shared resource, such as a disk on a shared SCSI bus. The 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
+      <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> function with the 
+      <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
       control code can retrieve a 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a> structure that contains 
+      <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a> structure that contains 
       this information.
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>

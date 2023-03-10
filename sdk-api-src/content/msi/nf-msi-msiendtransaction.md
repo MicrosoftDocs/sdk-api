@@ -2,15 +2,12 @@
 UID: NF:msi.MsiEndTransaction
 title: MsiEndTransaction function (msi.h)
 description: The MsiEndTransaction function can commit or roll back all the installations belonging to the transaction opened by the MsiBeginTransaction function.
+helpviewer_keywords: ["MsiEndTransaction","MsiEndTransaction function [Setup API]","msi/MsiEndTransaction","setup.msiendtransaction"]
 old-location: setup\msiendtransaction.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 70912430-63d7-4087-858c-fb13f47008e2
 ms.date: 12/05/2018
 ms.keywords: MsiEndTransaction, MsiEndTransaction function [Setup API], msi/MsiEndTransaction, setup.msiendtransaction
-f1_keywords:
-- msi/MsiEndTransaction
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEndTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEndTransaction
+ - msi/MsiEndTransaction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEndTransaction
 ---
 
 # MsiEndTransaction function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
+The  <b>MsiEndTransaction</b> function can commit or roll back all the installations belonging to the transaction opened by the <a href="/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function. This function should be called by the current owner of the transaction. 
 
-The  <b>MsiEndTransaction</b> function can commit or roll back all the installations belonging to the transaction opened by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function. This function should be called by the current owner of the transaction. 
-
-<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-0">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
-
+<b><a href="/windows/desktop/Msi/not-supported-in-windows-installer-4-0">Windows Installer 4.0 and earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 4.5.
 
 ## -parameters
-
-
-
 
 ### -param dwTransactionState [in]
 
@@ -75,7 +72,7 @@ The value of this parameter determines whether the installer commits or rolls ba
 </dl>
 </td>
 <td width="60%">
-Performs a <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-installation">Rollback Installation</a> to undo changes to the system belonging to the transaction opened by the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function.
+Performs a <a href="/windows/desktop/Msi/rollback-installation">Rollback Installation</a> to undo changes to the system belonging to the transaction opened by the <a href="/windows/desktop/api/msi/nf-msi-msibegintransactiona">MsiBeginTransaction</a> function.
 
 </td>
 </tr>
@@ -86,17 +83,13 @@ Performs a <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-inst
 </dl>
 </td>
 <td width="60%">
-Commits all changes to the system belonging to the transaction. Runs any <a href="https://docs.microsoft.com/windows/desktop/Msi/commit-custom-actions">Commit Custom Actions</a> and commits to the system any changes to Win32 or common language runtime assemblies. Deletes the rollback script, and after using this option, the transaction's changes can no longer be undone with a  <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-installation">Rollback Installation</a>.  
+Commits all changes to the system belonging to the transaction. Runs any <a href="/windows/desktop/Msi/commit-custom-actions">Commit Custom Actions</a> and commits to the system any changes to Win32 or common language runtime assemblies. Deletes the rollback script, and after using this option, the transaction's changes can no longer be undone with a  <a href="/windows/desktop/Msi/rollback-installation">Rollback Installation</a>.  
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The <b>MsiEndTransaction</b> function returns the following values.
 					
@@ -146,23 +139,12 @@ An installation belonging to the transaction is still in progress.
 </dl>
 </td>
 <td width="60%">
-An installation belonging to the transaction did not complete. During the installation, the <a href="https://docs.microsoft.com/windows/desktop/Msi/disablerollback-action">DisableRollback</a> action disabled <a href="https://docs.microsoft.com/windows/desktop/Msi/rollback-installation">rollback installations</a> of the package. The installer rolls back the installation up to the point where rollback was disabled, and the function returns this error.
+An installation belonging to the transaction did not complete. During the installation, the <a href="/windows/desktop/Msi/disablerollback-action">DisableRollback</a> action disabled <a href="/windows/desktop/Msi/rollback-installation">rollback installations</a> of the package. The installer rolls back the installation up to the point where rollback was disabled, and the function returns this error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple Package Installations</a>

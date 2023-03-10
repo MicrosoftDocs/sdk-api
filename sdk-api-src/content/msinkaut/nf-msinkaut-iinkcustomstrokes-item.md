@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkCustomStrokes.Item
 title: IInkCustomStrokes::Item (msinkaut.h)
 description: Retrieves the InkStrokes Collection at the location specified within the IInkCustomStrokes Interface.
+helpviewer_keywords: ["14cdc466-2acf-4af0-8fbc-74233edf3884","IInkCustomStrokes interface [Tablet PC]","Item method","IInkCustomStrokes.Item","IInkCustomStrokes::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkCustomStrokes interface","msinkaut/IInkCustomStrokes::Item","tablet.iinkcustomstrokes_item"]
 old-location: tablet\iinkcustomstrokes_item.htm
 tech.root: tablet
 ms.assetid: 14cdc466-2acf-4af0-8fbc-74233edf3884
 ms.date: 12/05/2018
 ms.keywords: 14cdc466-2acf-4af0-8fbc-74233edf3884, IInkCustomStrokes interface [Tablet PC],Item method, IInkCustomStrokes.Item, IInkCustomStrokes::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCustomStrokes interface, msinkaut/IInkCustomStrokes::Item, tablet.iinkcustomstrokes_item
-f1_keywords:
-- msinkaut/IInkCustomStrokes.Item
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkCustomStrokes.Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkCustomStrokes::Item
+ - msinkaut/IInkCustomStrokes::Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkCustomStrokes.Item
 ---
 
 # IInkCustomStrokes::Item
@@ -49,33 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Retrieves the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> at the location specified within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>.
-
-
-
+Retrieves the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> at the location specified within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>.
 
 ## -parameters
 
-
-
-
 ### -param Identifier [in]
 
-The numeric index or string name of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> to return from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection.
-          
-
+The numeric index or string name of the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> to return from the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes</a> collection.
 
 ### -param Strokes [out, retval]
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> at the location specified within the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>.
-          
-
+When this method returns, contains a pointer to the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a> at the location specified within the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -206,37 +194,21 @@ The recognizers registry key is corrupted or your environment does not support h
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An error occurs if the identifier doesn't match any existing member of the collection.
 
 This method takes an input argument of type <b>VARIANT</b>. The subtype of this variable must be <b>BSTR</b> or <b>Long</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes">IInkCustomStrokes Interface</a>
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-item">Item Method [InkStrokes Collection]</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-item">Item Method [InkStrokes Collection]</a>

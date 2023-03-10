@@ -1,182 +1,174 @@
 ---
 UID: NF:evntrace.FlushTraceA
 title: FlushTraceA function (evntrace.h)
-description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
+description: The FlushTraceA (ANSI) function (evntrace.h) causes an event tracing session to immediately deliver buffered events for the specified session.
+helpviewer_keywords:
+  [
+    "FlushTrace",
+    "FlushTrace function [ETW]",
+    "FlushTraceA",
+    "FlushTraceW",
+    "_evt_flushtrace",
+    "base.flushtrace",
+    "etw.flushtrace",
+    "evntrace/FlushTrace",
+    "evntrace/FlushTraceA",
+    "evntrace/FlushTraceW",
+  ]
 old-location: etw\flushtrace.htm
 tech.root: ETW
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
-ms.date: 12/05/2018
-ms.keywords: FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW, _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace, evntrace/FlushTraceA, evntrace/FlushTraceW
-f1_keywords:
-- evntrace/FlushTrace
-dev_langs:
-- c++
+ms.date: 08/04/2022
+ms.keywords:
+  FlushTrace, FlushTrace function [ETW], FlushTraceA, FlushTraceW,
+  _evt_flushtrace, base.flushtrace, etw.flushtrace, evntrace/FlushTrace,
+  evntrace/FlushTraceA, evntrace/FlushTraceW
 req.header: evntrace.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
 req.unicode-ansi: FlushTraceW (Unicode) and FlushTraceA (ANSI)
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-eventing-Legacy-l1-1-0.dll
-- advapi32legacy.dll
-api_name:
-- FlushTrace
-- FlushTraceA
-- FlushTraceW
+req.irql:
 targetos: Windows
-req.typenames: 
-req.redist: 
+req.typenames:
+req.redist:
 ms.custom: 19H1
+f1_keywords:
+  - FlushTraceA
+  - evntrace/FlushTraceA
+dev_langs:
+  - c++
+topic_type:
+  - APIRef
+  - kbSyntax
+api_type:
+  - DllExport
+api_location:
+  - Advapi32.dll
+  - API-MS-Win-eventing-Legacy-l1-1-0.dll
+  - advapi32legacy.dll
+api_name:
+  - FlushTrace
+  - FlushTraceA
+  - FlushTraceW
 ---
 
 # FlushTraceA function
 
-
 ## -description
 
+The **FlushTrace** function causes an event tracing session to immediately
+deliver buffered events for the specified session. By default, an event tracing
+session will deliver events when an the buffer is full, the session's FlushTimer
+expires, or the session is closed.
 
-The 
-<b>FlushTrace</b> function causes an event tracing session to immediately deliver buffered events for the specified session. (An event tracing session does not deliver events until an active buffer is full.) 
-
-The <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function supersedes this function.
-
+This function is obsolete. The
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) function
+supersedes this function.
 
 ## -parameters
 
-
-
-
 ### -param TraceHandle [in]
 
-Handle to the event tracing session for whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionHandle</i> if <i>SessionName</i> is <b>NULL</b>. However, ETW ignores the handle if <i>SessionName</i> is not <b>NULL</b>. The handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function.
-
+Handle to the event tracing session to be flushed, or 0. You must specify a
+non-zero _TraceHandle_ if _InstanceName_ is **NULL**. This parameter will be
+used only if _InstanceName_ is **NULL**. The handle is returned by the
+[StartTrace](/windows/win32/api/evntrace/nf-evntrace-starttracea).
 
 ### -param InstanceName [in]
 
-Pointer to a null-terminated string that specifies the name of the event tracing session whose buffers you want to flush, or <b>NULL</b>. You must specify <i>SessionName</i> if <i>SessionHandle</i> is <b>NULL</b>.
+Name of the event tracing session to be flushed, or **NULL**. You must specify
+_InstanceName_ if _TraceHandle_ is 0.
 
-To specify the NT Kernel Logger session, set <i>SessionName</i> to <b>KERNEL_LOGGER_NAME</b>.
-
+To specify the NT Kernel Logger session, set _InstanceName_ to
+**KERNEL_LOGGER_NAME**.
 
 ### -param Properties [in, out]
 
-Pointer to an 
-initialized <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. 
+Pointer to an initialized
+[EVENT_TRACE_PROPERTIES](/windows/desktop/ETW/event-trace-properties) structure.
 
+If you are using a newly initialized structure, you only need to set the
+**Wnode.BufferSize**, **Wnode.Guid**, **LoggerNameOffset**, and
+**LogFileNameOffset** members of the structure. You can use the maximum session
+name (1024 characters) and maximum log file name (1024 characters) lengths to
+calculate the buffer size and offsets if not known.
 
-
-
-If you are using a newly initialized structure, you only need to set the <b>Wnode.BufferSize</b>, <b>Wnode.Guid</b>,  <b>LoggerNameOffset</b>, and <b>LogFileNameOffset</b> members of the structure. You can use the maximum session name (1024 characters) and maximum log file name (1024 characters) lengths to calculate the buffer size and offsets if not known. 
-
-On output, the structure receives the property settings and session statistics of the event tracing session, which  reflect the state of the session after the flush.
-
+On output, the structure receives the property settings and session statistics
+of the event tracing session, which reflect the state of the session after the
+flush.
 
 ## -returns
 
-
-
 If the function succeeds, the return value is ERROR_SUCCESS.
-						
 
-If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+If the function fails, the return value is one of the
+[system error codes](/windows/win32/debug/system-error-codes). The following
+table includes some common errors and their causes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following is true: 
+- **ERROR_INVALID_PARAMETER**
 
+  One of the following is true:
 
+  - _Properties_ is **NULL**.
+  - _InstanceName_ and _TraceHandle_ are both **NULL**.
+  - _InstanceName_ is **NULL** and _TraceHandle_ is not a valid handle.
 
+- **ERROR_BAD_LENGTH**
 
-<ul>
-<li><i>Properties</i> is <b>NULL</b>.</li>
-<li><i>SessionName</i> and <i>SessionHandle</i> are both <b>NULL</b>.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_BAD_LENGTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the following is true:
+  One of the following is true:
 
-<ul>
-<li>The <b>Wnode.BufferSize</b> member of <i>Properties</i> specifies an incorrect size.</li>
-<li><i>Properties</i> does not have sufficient space allocated to hold a copy of the session name and log file name (if used).</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can control event tracing sessions. To grant a restricted user the ability to control trace sessions, add them to the Performance Log Users group.
+  - The **Wnode.BufferSize** member of _Properties_ specifies an incorrect size.
+  - _Properties_ does not have sufficient space allocated to hold a copy of the
+    session name and log file name (if used).
 
-<b>Windows XP and Windows 2000:  </b>Anyone can control a trace session.
+- **ERROR_ACCESS_DENIED**
 
-</td>
-</tr>
-</table>
- 
+  Only users with administrative privileges, users in the Performance Log Users
+  group, and services running as LocalSystem, LocalService, NetworkService can
+  control event tracing sessions. To grant a restricted user the ability to
+  control trace sessions, add them to the Performance Log Users group.
 
-
-
+  **Windows XP and Windows 2000:** Anyone can control a trace session.
 
 ## -remarks
 
+Event trace controllers call this function.
 
+This function is obsolete. Instead, use
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea) with
+_ControlCode_ set to **EVENT_TRACE_CONTROL_FLUSH**.
 
-Controllers call this function.
+This function can be used with an in-memory session (a session started with the
+**EVENT_TRACE_BUFFERING_MODE** flag) to write the data from the trace to a file.
 
-Typically, you do not need to flush buffers yourself. However, you may want to flush buffers if the event rate is low and you are delivering events in real time.
+You do not normally need to flush file-based or real-time sessions because ETW
+will automatically flush a buffer when it is full (i.e. when it does not have
+room for the next event), when the trace session's FlushTimer expires, or when
+the trace session is closed.
 
-Note that it is not safe to flush buffers from DllMain.
+Do not call **FlushTrace** from DllMain (may cause deadlock).
 
-
-
+> [!NOTE]
+> The evntrace.h header defines FlushTrace as an alias which
+> automatically selects the ANSI or Unicode version of this function based on
+> the definition of the UNICODE preprocessor constant. Mixing usage of the
+> encoding-neutral alias with code that not encoding-neutral can lead to
+> mismatches that result in compilation or runtime errors. For more information,
+> see
+> [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
- 
-
- 
-
+[ControlTrace](/windows/win32/api/evntrace/nf-evntrace-controltracea)

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCategoryMgr.IsEqualTfGuidAtom
 title: ITfCategoryMgr::IsEqualTfGuidAtom (msctf.h)
 description: ITfCategoryMgr::IsEqualTfGuidAtom method
+helpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","IsEqualTfGuidAtom method","ITfCategoryMgr.IsEqualTfGuidAtom","ITfCategoryMgr::IsEqualTfGuidAtom","IsEqualTfGuidAtom","IsEqualTfGuidAtom method [Text Services Framework]","IsEqualTfGuidAtom method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_isequaltfguidatom_ref","msctf/ITfCategoryMgr::IsEqualTfGuidAtom","tsf.itfcategorymgr_isequaltfguidatom"]
 old-location: tsf\itfcategorymgr_isequaltfguidatom.htm
 tech.root: TSF
 ms.assetid: 813916f6-610f-4031-bb17-67d7f5ffed6f
 ms.date: 12/05/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],IsEqualTfGuidAtom method, ITfCategoryMgr.IsEqualTfGuidAtom, ITfCategoryMgr::IsEqualTfGuidAtom, IsEqualTfGuidAtom, IsEqualTfGuidAtom method [Text Services Framework], IsEqualTfGuidAtom method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_isequaltfguidatom_ref, msctf/ITfCategoryMgr::IsEqualTfGuidAtom, tsf.itfcategorymgr_isequaltfguidatom
-f1_keywords:
-- msctf/ITfCategoryMgr.IsEqualTfGuidAtom
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCategoryMgr.IsEqualTfGuidAtom
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCategoryMgr::IsEqualTfGuidAtom
+ - msctf/ITfCategoryMgr::IsEqualTfGuidAtom
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCategoryMgr.IsEqualTfGuidAtom
 ---
 
 # ITfCategoryMgr::IsEqualTfGuidAtom
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Determines whether the specified atom represents the specified GUID in the internal table.
 
 ## -parameters
-
-
-
 
 ### -param guidatom [in]
 
 Specifies an atom that represents a GUID in the internal table.
 
-
 ### -param rguid [in]
 
 Specifies the address of the GUID to compare with the atom in the internal table.
-
 
 ### -param pfEqual [out]
 
 Pointer to a Boolean variable that receives an indication of whether the atom represents the GUID.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -116,35 +109,12 @@ The specified <i>pfEqual</i> parameter was <b>NULL</b> on input.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the atom specified by the <i>guidatom</i> parameter represents the <b>GUID</b> specified by the <i>rguid</i> parameter, the <i>pfEqual</i> parameter receives a nonzero value. Otherwise, the <i>pfEqual</i> parameter receives zero.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcategorymgr">ITfCategoryMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-getguid">ITfCategoryMgr::GetGUID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcategorymgr-registerguid">ITfCategoryMgr::RegisterGUID</a>
- 
-
- 
+[ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUID](nf-msctf-itfcategorymgr-getguid.md), [ITfCategoryMgr::RegisterGUID](nf-msctf-itfcategorymgr-registerguid.md)
 

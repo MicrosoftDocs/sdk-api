@@ -2,15 +2,12 @@
 UID: NF:winsync.IClockVector.GetClockVectorElements
 title: IClockVector::GetClockVectorElements (winsync.h)
 description: Returns an enumerator that iterates through the clock vector elements.
+helpviewer_keywords: ["GetClockVectorElements","GetClockVectorElements method [Windows Sync]","GetClockVectorElements method [Windows Sync]","IClockVector interface","IClockVector interface [Windows Sync]","GetClockVectorElements method","IClockVector.GetClockVectorElements","IClockVector::GetClockVectorElements","winsync.iclockvector_getclockvectorelements","winsync/IClockVector::GetClockVectorElements"]
 old-location: winsync\iclockvector_getclockvectorelements.htm
 tech.root: winsync
 ms.assetid: a0712a2b-5aeb-458d-bc0f-c18eeb7ba9ff
 ms.date: 12/05/2018
 ms.keywords: GetClockVectorElements, GetClockVectorElements method [Windows Sync], GetClockVectorElements method [Windows Sync],IClockVector interface, IClockVector interface [Windows Sync],GetClockVectorElements method, IClockVector.GetClockVectorElements, IClockVector::GetClockVectorElements, winsync.iclockvector_getclockvectorelements, winsync/IClockVector::GetClockVectorElements
-f1_keywords:
-- winsync/IClockVector.GetClockVectorElements
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IClockVector.GetClockVectorElements
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClockVector::GetClockVectorElements
+ - winsync/IClockVector::GetClockVectorElements
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IClockVector.GetClockVectorElements
 ---
 
 # IClockVector::GetClockVectorElements
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns an enumerator that iterates through the clock vector elements.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 The IID of the enumeration interface that is requested. Must be either <b>IID_IEnumClockVector</b> or <b>IID_IEnumFeedClockVector</b>.
 
-
 ### -param ppiEnumClockVector [out]
 
 Returns an object that implements <i>riid</i> and that can enumerate the clock vector elements.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,18 +113,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iclockvector">IClockVector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iclockvector">IClockVector Interface</a>

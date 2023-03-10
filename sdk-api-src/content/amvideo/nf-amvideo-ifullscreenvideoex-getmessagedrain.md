@@ -2,15 +2,12 @@
 UID: NF:amvideo.IFullScreenVideoEx.GetMessageDrain
 title: IFullScreenVideoEx::GetMessageDrain (amvideo.h)
 description: The GetMessageDrain method retrieves the window that receives mouse and keyboard messages, if any.
+helpviewer_keywords: ["GetMessageDrain","GetMessageDrain method [DirectShow]","GetMessageDrain method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","GetMessageDrain method","IFullScreenVideoEx.GetMessageDrain","IFullScreenVideoEx::GetMessageDrain","IFullScreenVideoGetMessageDrain","amvideo/IFullScreenVideoEx::GetMessageDrain","dshow.ifullscreenvideoex_getmessagedrain"]
 old-location: dshow\ifullscreenvideoex_getmessagedrain.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c1a83ad9-be4b-4adf-a316-d5dfb3df05ef
 ms.date: 12/05/2018
 ms.keywords: GetMessageDrain, GetMessageDrain method [DirectShow], GetMessageDrain method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMessageDrain method, IFullScreenVideoEx.GetMessageDrain, IFullScreenVideoEx::GetMessageDrain, IFullScreenVideoGetMessageDrain, amvideo/IFullScreenVideoEx::GetMessageDrain, dshow.ifullscreenvideoex_getmessagedrain
-f1_keywords:
-- amvideo/IFullScreenVideoEx.GetMessageDrain
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.GetMessageDrain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::GetMessageDrain
+ - amvideo/IFullScreenVideoEx::GetMessageDrain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.GetMessageDrain
 ---
 
 # IFullScreenVideoEx::GetMessageDrain
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetMessageDrain</code> method retrieves the window that receives mouse and keyboard messages, if any.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwnd [out]
 
 Pointer to a variable that receives the handle of the window. If no window has been designated to receive messages, this parameter receives the value <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,35 +91,19 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method is equivalent to the <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method.
 
+The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_messagedrain">IVideoWindow::put_MessageDrain</a>.
 
-This method is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method.
-
-The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_messagedrain">IVideoWindow::put_MessageDrain</a>.
-
-Applications do not need to use this method. Use the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method on the Filter Graph Manager instead.
-
-
-
+Applications do not need to use this method. Use the <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method on the Filter Graph Manager instead.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

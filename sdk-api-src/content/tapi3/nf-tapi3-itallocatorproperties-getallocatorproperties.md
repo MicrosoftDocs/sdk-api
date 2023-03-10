@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITAllocatorProperties.GetAllocatorProperties
 title: ITAllocatorProperties::GetAllocatorProperties (tapi3.h)
-description: The GetAllocatorProperties method gets the current values for the allocator properties after connection and provides the negotiated values. This method is invalid before connection. The MST will accept any values suggested by the connected filters.
+description: The ITAllocatorProperties::GetAllocatorProperties (tapi3.h) method gets the values for the allocator properties after connection and provides the negotiated values.
+helpviewer_keywords: ["GetAllocatorProperties","GetAllocatorProperties method [TAPI 2.2]","GetAllocatorProperties method [TAPI 2.2]","ITAllocatorProperties interface","ITAllocatorProperties interface [TAPI 2.2]","GetAllocatorProperties method","ITAllocatorProperties.GetAllocatorProperties","ITAllocatorProperties::GetAllocatorProperties","_tapi3_itallocatorproperties_getallocatorproperties","tapi3.itallocatorproperties_getallocatorproperties","tapi3ds/ITAllocatorProperties::GetAllocatorProperties"]
 old-location: tapi3\itallocatorproperties_getallocatorproperties.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 67360904-a632-43cf-9f67-50bbdbb62f48
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [TAPI 2.2], GetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetAllocatorProperties method, ITAllocatorProperties.GetAllocatorProperties, ITAllocatorProperties::GetAllocatorProperties, _tapi3_itallocatorproperties_getallocatorproperties, tapi3.itallocatorproperties_getallocatorproperties, tapi3ds/ITAllocatorProperties::GetAllocatorProperties
-f1_keywords:
-- tapi3/ITAllocatorProperties.GetAllocatorProperties
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAllocatorProperties.GetAllocatorProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAllocatorProperties::GetAllocatorProperties
+ - tapi3/ITAllocatorProperties::GetAllocatorProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAllocatorProperties.GetAllocatorProperties
 ---
 
 # ITAllocatorProperties::GetAllocatorProperties
@@ -48,37 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetAllocatorProperties</b> method gets the current values for the allocator properties after connection and provides the negotiated values. This method is invalid before connection. The MST will accept any values suggested by the connected filters.
 
-
 ## -parameters
-
-
-
 
 ### -param pAllocProperties [out]
 
 Pointer to current allocator values.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties">ITAllocatorProperties</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties">ITAllocatorProperties</a>

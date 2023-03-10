@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymEnumerateModulesW64
 title: SymEnumerateModulesW64 function (dbghelp.h)
-description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function.
+description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function. (SymEnumerateModulesW64)
+helpviewer_keywords: ["SymEnumerateModules","SymEnumerateModules function","SymEnumerateModules64","SymEnumerateModules64 function","SymEnumerateModulesW64","_win32_symenumeratemodules64","base.symenumeratemodules64","dbghelp/SymEnumerateModules","dbghelp/SymEnumerateModules64","dbghelp/SymEnumerateModulesW64"]
 old-location: base\symenumeratemodules64.htm
 tech.root: Debug
 ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e
 ms.date: 12/05/2018
 ms.keywords: SymEnumerateModules, SymEnumerateModules function, SymEnumerateModules64, SymEnumerateModules64 function, SymEnumerateModulesW64, _win32_symenumeratemodules64, base.symenumeratemodules64, dbghelp/SymEnumerateModules, dbghelp/SymEnumerateModules64, dbghelp/SymEnumerateModulesW64
-f1_keywords:
-- dbghelp/SymEnumerateModules64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymEnumerateModules64
-- SymEnumerateModules64
-- SymEnumerateModulesW64
-- SymEnumerateModules
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymEnumerateModulesW64
+ - dbghelp/SymEnumerateModulesW64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymEnumerateModules64
+ - SymEnumerateModules64
+ - SymEnumerateModulesW64
+ - SymEnumerateModules
 ---
 
 # SymEnumerateModulesW64 function
@@ -51,52 +53,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates all modules that have been loaded for the process by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a> or <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmoduleex">SymLoadModuleEx</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param EnumModulesCallback [in]
 
 The enumeration callback function. This function is called once per module. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enummodules_callback">SymEnumerateModulesProc64</a>.
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enummodules_callback">SymEnumerateModulesProc64</a>.
 
 ### -param UserContext [in, optional]
 
 A user-defined value or <b>NULL</b>. This value is simply passed to the callback function. Normally, this parameter is used by an application to pass a pointer to a data structure that lets the callback function establish some type of context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 The 
 <b>SymEnumerateModules64</b> function enumerates all modules that have been loaded for the process by 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>, even if the symbol loading is deferred. The enumeration callback function is called once for each module and is passed the module information.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>, even if the symbol loading is deferred. The enumeration callback function is called once for each module and is passed the module information.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -120,7 +107,7 @@ SymEnumerateModulesW64(
 
 
 This function supersedes the <b>SymEnumerateModules</b> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymEnumerateModules</b> is defined as follows in Dbghelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymEnumerateModules</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -142,31 +129,22 @@ SymEnumerateModules(
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/enumerating-symbol-modules">Enumerating Symbol Modules</a>.
+<a href="/windows/desktop/Debug/enumerating-symbol-modules">Enumerating Symbol Modules</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enummodules_callback">SymEnumerateModulesProc64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enummodules_callback">SymEnumerateModulesProc64</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>

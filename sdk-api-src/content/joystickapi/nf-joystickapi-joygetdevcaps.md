@@ -1,16 +1,13 @@
 ---
 UID: NF:joystickapi.joyGetDevCaps
 title: joyGetDevCaps function (joystickapi.h)
-description: The joyGetDevCaps function queries a joystick to determine its capabilities.
+description: The joyGetDevCaps function (joystickapi.h) queries a joystick to determine its capabilities. uJoyID is the identifier of the joystick to be queried.
+helpviewer_keywords: ["_win32_joyGetDevCaps","joGetDevCapsA","joyGetDevCaps","joyGetDevCaps function [Windows Multimedia]","joyGetDevCapsW","joystickapi/joGetDevCapsA","joystickapi/joyGetDevCaps","joystickapi/joyGetDevCapsW","multimedia.joygetdevcaps"]
 old-location: multimedia\joygetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 706cab9d-7d04-4151-80df-badd1d446a80
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: _win32_joyGetDevCaps, joGetDevCapsA, joyGetDevCaps, joyGetDevCaps function [Windows Multimedia], joyGetDevCapsW, joystickapi/joGetDevCapsA, joystickapi/joyGetDevCaps, joystickapi/joyGetDevCapsW, multimedia.joygetdevcaps
-f1_keywords:
-- joystickapi/joyGetDevCaps
-dev_langs:
-- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-joystick-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- joyGetDevCaps
-- joGetDevCapsA
-- joyGetDevCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - joyGetDevCaps
+ - joystickapi/joyGetDevCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-joystick-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - joyGetDevCaps
+ - joGetDevCapsA
+ - joyGetDevCapsW
 ---
 
 # joyGetDevCaps function
@@ -52,36 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>joyGetDevCaps</b> function queries a joystick to determine its capabilities.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param uJoyID
 
-Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range from -1 to 15. A value of -1 enables retrieval of the <b>szRegKey</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure whether a device is present or not. 
-
+Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range from -1 to 15. A value of -1 enables retrieval of the <b>szRegKey</b> member of the <a href="/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure whether a device is present or not.
 
 ### -param pjc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure to contain the capabilities of the joystick.
-
+Pointer to a <a href="/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure to contain the capabilities of the joystick.
 
 ### -param cbjc
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure.
-
+Size, in bytes, of the <a href="/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure.
 
 ## -returns
-
-
 
 Returns JOYERR_NOERROR if successful or one of the following error values:
 
@@ -113,35 +102,18 @@ An invalid parameter was passed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use the <a href="https://docs.microsoft.com/previous-versions/dd757106(v=vs.85)">joyGetNumDevs</a> function to determine the number of joystick devices supported by the driver.
+Use the <a href="/previous-versions/dd757106(v=vs.85)">joyGetNumDevs</a> function to determine the number of joystick devices supported by the driver.
       
 
-This method fails when passed an invalid value for the <i>cbjc</i> parameter. 
-      
-
-
-
+This method fails when passed an invalid value for the <i>cbjc</i> parameter.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/joysticks">Joysticks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/joysticks">Joysticks</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>

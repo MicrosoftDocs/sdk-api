@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFByteStreamTimeSeek.IsTimeSeekSupported
 title: IMFByteStreamTimeSeek::IsTimeSeekSupported (mfidl.h)
 description: Queries whether the byte stream supports time-based seeking.
+helpviewer_keywords: ["IMFByteStreamTimeSeek interface [Media Foundation]","IsTimeSeekSupported method","IMFByteStreamTimeSeek.IsTimeSeekSupported","IMFByteStreamTimeSeek::IsTimeSeekSupported","IsTimeSeekSupported","IsTimeSeekSupported method [Media Foundation]","IsTimeSeekSupported method [Media Foundation]","IMFByteStreamTimeSeek interface","mf.imfbytestreamtimeseek_istimeseeksupported","mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported"]
 old-location: mf\imfbytestreamtimeseek_istimeseeksupported.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 92FCE0EF-046C-4639-958E-731795C5A123
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],IsTimeSeekSupported method, IMFByteStreamTimeSeek.IsTimeSeekSupported, IMFByteStreamTimeSeek::IsTimeSeekSupported, IsTimeSeekSupported, IsTimeSeekSupported method [Media Foundation], IsTimeSeekSupported method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_istimeseeksupported, mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported
-f1_keywords:
-- mfidl/IMFByteStreamTimeSeek.IsTimeSeekSupported
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFByteStreamTimeSeek.IsTimeSeekSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFByteStreamTimeSeek::IsTimeSeekSupported
+ - mfidl/IMFByteStreamTimeSeek::IsTimeSeekSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFByteStreamTimeSeek.IsTimeSeekSupported
 ---
 
 # IMFByteStreamTimeSeek::IsTimeSeekSupported
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether the byte stream supports time-based seeking.
 
-
 ## -parameters
-
-
-
 
 ### -param pfTimeSeekIsSupported [out]
 
 Receives the value <b>TRUE</b> if the byte stream supports time-based seeking, or <b>FALSE</b> otherwise.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>

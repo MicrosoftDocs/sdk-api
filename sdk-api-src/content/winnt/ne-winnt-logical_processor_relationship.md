@@ -2,15 +2,12 @@
 UID: NE:winnt._LOGICAL_PROCESSOR_RELATIONSHIP
 title: LOGICAL_PROCESSOR_RELATIONSHIP (winnt.h)
 description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
+helpviewer_keywords: ["LOGICAL_PROCESSOR_RELATIONSHIP","LOGICAL_PROCESSOR_RELATIONSHIP enumeration","RelationAll","RelationCache","RelationGroup","RelationNumaNode","RelationProcessorCore","RelationProcessorPackage","base.logical_processor_relationship","winnt/LOGICAL_PROCESSOR_RELATIONSHIP","winnt/RelationAll","winnt/RelationCache","winnt/RelationGroup","winnt/RelationNumaNode","winnt/RelationProcessorCore","winnt/RelationProcessorPackage"]
 old-location: base\logical_processor_relationship.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
-ms.date: 12/05/2018
-ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
-f1_keywords:
-- winnt/LOGICAL_PROCESSOR_RELATIONSHIP
-dev_langs:
-- c++
+ms.date: 27/02/2023
+ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, RelationProcessorDie, RelationProcessorModule, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinNT.h
-api_name:
-- LOGICAL_PROCESSOR_RELATIONSHIP
 targetos: Windows
 req.typenames: LOGICAL_PROCESSOR_RELATIONSHIP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _LOGICAL_PROCESSOR_RELATIONSHIP
+ - winnt/_LOGICAL_PROCESSOR_RELATIONSHIP
+ - LOGICAL_PROCESSOR_RELATIONSHIP
+ - winnt/LOGICAL_PROCESSOR_RELATIONSHIP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinNT.h
+api_name:
+ - LOGICAL_PROCESSOR_RELATIONSHIP
 ---
 
 # LOGICAL_PROCESSOR_RELATIONSHIP enumeration
@@ -48,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents the relationship between the processor set identified in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)a>  structure.
-
+Represents the relationship between the processor set identified in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](./ns-winnt-system_logical_processor_information_ex.md)  structure.
 
 ## -enum-fields
-
-
-
 
 ### -field RelationProcessorCore
 
 The specified logical processors share a single processor core.
 
-
 ### -field RelationNumaNode
 
-The specified logical processors  are part of the same NUMA node.
-
+The specified logical processors are part of the same NUMA node.
 
 ### -field RelationCache
 
-The specified logical processors  share a cache. 
+The specified logical processors share a cache. 
 
 <b>Windows Server 2003:  </b>This value is not supported until Windows Server 2003 with SP1 and Windows XP Professional x64 Edition.
-
 
 ### -field RelationProcessorPackage
 
@@ -80,55 +76,53 @@ The specified logical processors share a physical package (a single package sock
 
 <b>Windows Server 2003:  </b>This value is not supported until Windows Server 2003 with SP1 and Windows XP Professional x64 Edition.
 
-
 ### -field RelationGroup
 
-The specified logical processors share a single <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a>.
+The specified logical processors share a single <a href="/windows/desktop/ProcThread/processor-groups">processor group</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This value is not supported until Windows Server 2008 R2.
 
+### -field RelationProcessorDie
 
-### -field RelationAll
+The specified logical processors share a single processor die.
+
+### -field RelationNumaNodeEx
+
+**Introduced in Windows Server 2022 (21H2, build 20348).** Requests that the full affinity be returned. Unlike the other relation types, **RelationNumaNodeEx** is not used on input. It is simply a request for **RelationNumaNode** with full group information.
+
+### -field RelationModule
+
+**Introduced in Windows 11 (21H2, build 22000).** The specified logical processors share a single processor module.
+
+### -field RelationAll:0xffff
 
 On input, retrieves information about all possible relationship types. This value is not used on output.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This value is not supported  until Windows Server 2008 R2.
 
-
 ## -remarks
 
-
-
-The value specified by this enumeration indicates the relationship represented in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)a>  structure. 
+The value specified by this enumeration indicates the relationship represented in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](./ns-winnt-system_logical_processor_information_ex.md)  structure. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>.
+For an example, see <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
- 
-
- 
-
+<a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>

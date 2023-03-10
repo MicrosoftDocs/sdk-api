@@ -1,16 +1,13 @@
 ---
 UID: NF:mmeapi.auxGetDevCaps
 title: auxGetDevCaps function (mmeapi.h)
-description: The auxGetDevCaps function retrieves the capabilities of a given auxiliary output device.
+description: The auxGetDevCaps function (mmeapi.h) retrieves the capabilities of a given auxiliary output device.
+helpviewer_keywords: ["_win32_auxGetDevCaps","auxGetDevCaps","auxGetDevCaps function [Windows Multimedia]","auxGetDevCapsA","auxGetDevCapsW","mmeapi/auxGetDevCaps","mmeapi/auxGetDevCapsA","mmeapi/auxGetDevCapsW","multimedia.auxgetdevcaps"]
 old-location: multimedia\auxgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c0920425-fb42-4112-b0c1-f4b607b9e794
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: _win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps
-f1_keywords:
-- mmeapi/auxGetDevCaps
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winmm.dll
-- API-MS-Win-mm-mme-l1-1-0.dll
-- winmmbase.dll
-api_name:
-- auxGetDevCaps
-- auxGetDevCapsA
-- auxGetDevCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - auxGetDevCaps
+ - mmeapi/auxGetDevCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winmm.dll
+ - API-MS-Win-mm-mme-l1-1-0.dll
+ - winmmbase.dll
+api_name:
+ - auxGetDevCaps
+ - auxGetDevCapsA
+ - auxGetDevCapsW
 ---
 
 # auxGetDevCaps function
@@ -52,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>auxGetDevCaps</b> function retrieves the capabilities of a given auxiliary output device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param uDeviceID
 
@@ -80,22 +74,16 @@ Identifier of the auxiliary output device to be queried. Specify a valid device 
 <td>Auxiliary audio mapper. The function returns an error if no auxiliary audio mapper is installed.</td>
 </tr>
 </table>
- 
-
 
 ### -param pac
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure to be filled with information about the capabilities of the device.
-
+Pointer to an <a href="/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure to be filled with information about the capabilities of the device.
 
 ### -param cbac
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure.
-
+Size, in bytes, of the <a href="/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure.
 
 ## -returns
-
-
 
 Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error values include the following.
 
@@ -116,31 +104,15 @@ Specified device identifier is out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The device identifier in <i>uDeviceID</i> varies from zero to one less than the number of devices present. AUX_MAPPER may also be used. Use the <a href="https://docs.microsoft.com/previous-versions/dd756713(v=vs.85)">auxGetNumDevs</a> function to determine the number of auxiliary output devices present in the system.
-
-
-
+The device identifier in <i>uDeviceID</i> varies from zero to one less than the number of devices present. AUX_MAPPER may also be used. Use the <a href="/previous-versions/dd756713(v=vs.85)">auxGetNumDevs</a> function to determine the number of auxiliary output devices present in the system.
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

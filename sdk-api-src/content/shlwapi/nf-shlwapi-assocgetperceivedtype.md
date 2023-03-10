@@ -2,15 +2,12 @@
 UID: NF:shlwapi.AssocGetPerceivedType
 title: AssocGetPerceivedType function (shlwapi.h)
 description: Retrieves a file's perceived type based on its extension.
+helpviewer_keywords: ["AssocGetPerceivedType","AssocGetPerceivedType function [Windows Shell]","PERCEIVEDFLAG_GDIPLUS","PERCEIVEDFLAG_HARDCODED","PERCEIVEDFLAG_NATIVESUPPORT","PERCEIVEDFLAG_SOFTCODED","PERCEIVEDFLAG_UNDEFINED","PERCEIVEDFLAG_WMSDK","PERCEIVEDFLAG_ZIPFOLDER","_shell_AssocGetPerceivedType","shell.AssocGetPerceivedType","shlwapi/AssocGetPerceivedType"]
 old-location: shell\AssocGetPerceivedType.htm
 tech.root: shell
 ms.assetid: d37f1574-b261-43bf-9712-05a569ab4246
 ms.date: 12/05/2018
 ms.keywords: AssocGetPerceivedType, AssocGetPerceivedType function [Windows Shell], PERCEIVEDFLAG_GDIPLUS, PERCEIVEDFLAG_HARDCODED, PERCEIVEDFLAG_NATIVESUPPORT, PERCEIVEDFLAG_SOFTCODED, PERCEIVEDFLAG_UNDEFINED, PERCEIVEDFLAG_WMSDK, PERCEIVEDFLAG_ZIPFOLDER, _shell_AssocGetPerceivedType, shell.AssocGetPerceivedType, shlwapi/AssocGetPerceivedType
-f1_keywords:
-- shlwapi/AssocGetPerceivedType
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-IE-l1-1-0.dll
-api_name:
-- AssocGetPerceivedType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AssocGetPerceivedType
+ - shlwapi/AssocGetPerceivedType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-IE-l1-1-0.dll
+api_name:
+ - AssocGetPerceivedType
 ---
 
 # AssocGetPerceivedType function
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a file's perceived type based on its extension.
 
-
 ## -parameters
-
-
-
 
 ### -param pszExt [in]
 
@@ -64,13 +61,11 @@ Type: <b>PCWSTR</b>
 
 A pointer to a buffer that contains the file's extension. This should include the leading period, for example ".txt".
 
-
 ### -param ptype [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a>*</b>
+Type: <b><a href="/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a> value that indicates the perceived type.
-
+A pointer to a <a href="/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED</a> value that indicates the perceived type.
 
 ### -param pflag [out]
 
@@ -82,7 +77,7 @@ A pointer to a value that indicates the source of the perceived type information
 
 #### PERCEIVEDFLAG_UNDEFINED (0x0000)
 
-No perceived type was found (<a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED_TYPE_UNSPECIFIED</a>).
+No perceived type was found (<a href="/windows/desktop/api/shtypes/ne-shtypes-perceived">PERCEIVED_TYPE_UNSPECIFIED</a>).
 
 
 
@@ -120,30 +115,18 @@ The perceived type is supported by the Windows Media SDK.
 
 The perceived type is supported by Windows compressed folders.
 
-
 ### -param ppszType [out, optional]
 
 Type: <b>PWSTR*</b>
 
 If the function returns a success code, this contains the address of a pointer to a buffer that receives the perceived type string, for instance "text" or "video". This value can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This function first compares the extension against a hard-coded set of extensions known to Windows. If that search fails to reveal a match, the registered associations under HKEY_CLASSES_ROOT are searched for a key that matches the extension and contains a PerceivedType value. If that value is found, the extension set is again searched for a match. If again no match is found, the perceived type is determined to be PERCEIVED_TYPE_CUSTOM. If either a key that matches the extension or a PerceivedType value is not found, the perceived type is reported as PERCEIVED_TYPE_UNSPECIFIED.
-
-
-

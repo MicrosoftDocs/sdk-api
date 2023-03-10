@@ -2,15 +2,12 @@
 UID: NE:certenroll.ObjectIdGroupId
 title: ObjectIdGroupId (certenroll.h)
 description: Specifies the category or group to which an object identifier (OID) belongs.
+helpviewer_keywords: ["ObjectIdGroupId","ObjectIdGroupId enumeration [Security]","XCN_CRYPT_ANY_GROUP_ID","XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID","XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID","XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID","XCN_CRYPT_FIRST_ALG_OID_GROUP_ID","XCN_CRYPT_HASH_ALG_OID_GROUP_ID","XCN_CRYPT_KEY_LENGTH_MASK","XCN_CRYPT_LAST_ALG_OID_GROUP_ID","XCN_CRYPT_LAST_OID_GROUP_ID","XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG","XCN_CRYPT_POLICY_OID_GROUP_ID","XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID","XCN_CRYPT_RDN_ATTR_OID_GROUP_ID","XCN_CRYPT_SIGN_ALG_OID_GROUP_ID","XCN_CRYPT_TEMPLATE_OID_GROUP_ID","certenroll/ObjectIdGroupId","certenroll/XCN_CRYPT_ANY_GROUP_ID","certenroll/XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID","certenroll/XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID","certenroll/XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID","certenroll/XCN_CRYPT_FIRST_ALG_OID_GROUP_ID","certenroll/XCN_CRYPT_HASH_ALG_OID_GROUP_ID","certenroll/XCN_CRYPT_KEY_LENGTH_MASK","certenroll/XCN_CRYPT_LAST_ALG_OID_GROUP_ID","certenroll/XCN_CRYPT_LAST_OID_GROUP_ID","certenroll/XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG","certenroll/XCN_CRYPT_POLICY_OID_GROUP_ID","certenroll/XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID","certenroll/XCN_CRYPT_RDN_ATTR_OID_GROUP_ID","certenroll/XCN_CRYPT_SIGN_ALG_OID_GROUP_ID","certenroll/XCN_CRYPT_TEMPLATE_OID_GROUP_ID","security.objectidgroupid_enum"]
 old-location: security\objectidgroupid_enum.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 66a70cad-ce72-461b-8d71-605a62dd35b4
 ms.date: 12/05/2018
 ms.keywords: ObjectIdGroupId, ObjectIdGroupId enumeration [Security], XCN_CRYPT_ANY_GROUP_ID, XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID, XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID, XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID, XCN_CRYPT_FIRST_ALG_OID_GROUP_ID, XCN_CRYPT_HASH_ALG_OID_GROUP_ID, XCN_CRYPT_KEY_LENGTH_MASK, XCN_CRYPT_LAST_ALG_OID_GROUP_ID, XCN_CRYPT_LAST_OID_GROUP_ID, XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG, XCN_CRYPT_POLICY_OID_GROUP_ID, XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID, XCN_CRYPT_RDN_ATTR_OID_GROUP_ID, XCN_CRYPT_SIGN_ALG_OID_GROUP_ID, XCN_CRYPT_TEMPLATE_OID_GROUP_ID, certenroll/ObjectIdGroupId, certenroll/XCN_CRYPT_ANY_GROUP_ID, certenroll/XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID, certenroll/XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID, certenroll/XCN_CRYPT_FIRST_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_HASH_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_KEY_LENGTH_MASK, certenroll/XCN_CRYPT_LAST_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_LAST_OID_GROUP_ID, certenroll/XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG, certenroll/XCN_CRYPT_POLICY_OID_GROUP_ID, certenroll/XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_RDN_ATTR_OID_GROUP_ID, certenroll/XCN_CRYPT_SIGN_ALG_OID_GROUP_ID, certenroll/XCN_CRYPT_TEMPLATE_OID_GROUP_ID, security.objectidgroupid_enum
-f1_keywords:
-- certenroll/ObjectIdGroupId
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- CertEnroll.h
-api_name:
-- ObjectIdGroupId
 targetos: Windows
 req.typenames: ObjectIdGroupId
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ObjectIdGroupId
+ - certenroll/ObjectIdGroupId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - CertEnroll.h
+api_name:
+ - ObjectIdGroupId
 ---
 
 # ObjectIdGroupId enumeration
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ObjectIdGroupId</b> enumeration type specifies the category or group to which an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) belongs. This enumeration is used when calling <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object.
-
+The <b>ObjectIdGroupId</b> enumeration type specifies the category or group to which an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) belongs. This enumeration is used when calling <a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object.
 
 ## -enum-fields
 
-
-
-
-### -field XCN_CRYPT_ANY_GROUP_ID
+### -field XCN_CRYPT_ANY_GROUP_ID:0
 
 The group OID is not identified. All OID groups will be included when searching.
 
-
-### -field XCN_CRYPT_HASH_ALG_OID_GROUP_ID
+### -field XCN_CRYPT_HASH_ALG_OID_GROUP_ID:1
 
 Hashing algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_OIWSEC_sha (1.3.14.3.2.18)</li>
@@ -72,9 +68,7 @@ Hashing algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_RSA_MD5 (1.2.840.113549.2.5)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID
+### -field XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID:2
 
 Symmetric encryption algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_NIST_AES128_CBC (2.16.840.1.101.3.4.1.2)</li>
@@ -91,9 +85,7 @@ Symmetric encryption algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_RSA_SMIMEalgCMSRC2wrap (1.2.840.113549.1.9.16.3.7)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID
+### -field XCN_CRYPT_PUBKEY_ALG_OID_GROUP_ID:3
 
 Asymmetric encryption algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_ANSI_X942_DH (1.2.840.10046.2.1)</li>
@@ -113,9 +105,7 @@ Asymmetric encryption algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_X957_DSA (1.2.840.10040.4.1)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_SIGN_ALG_OID_GROUP_ID
+### -field XCN_CRYPT_SIGN_ALG_OID_GROUP_ID:4
 
 Signing algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_ECDSA_SHA1 (1.2.840.10045.4.1)</li>
@@ -148,9 +138,7 @@ Signing algorithm group. This includes the following OIDs:<ul>
 <li>XCN_OID_X957_SHA1DSA (1.2.840.10040.4.3)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_RDN_ATTR_OID_GROUP_ID
+### -field XCN_CRYPT_RDN_ATTR_OID_GROUP_ID:5
 
 Relative distinguished name (RDN) group. This includes the following OIDs:<ul>
 <li>XCN_OID_COMMON_NAME (2.5.4.3)</li>
@@ -175,9 +163,7 @@ Relative distinguished name (RDN) group. This includes the following OIDs:<ul>
 <li>XCN_OID_DN_QUALIFIER (2.5.4.46)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID
+### -field XCN_CRYPT_EXT_OR_ATTR_OID_GROUP_ID:6
 
 Extension and attribute group. This includes the following OIDs:<ul>
 <li>XCN_OID_CTL (1.3.6.1.4.1.311.10.1)</li>
@@ -272,9 +258,7 @@ Extension and attribute group. This includes the following OIDs:<ul>
 <li>XCN_OID_STREET_ADDRESS (2.5.4.9)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID
+### -field XCN_CRYPT_ENHKEY_USAGE_OID_GROUP_ID:7
 
 Enhanced key usage (EKU) extension group. This includes the following OIDs:<ul>
 <li>XCN_OID_PKIX_KP_SERVER_AUTH (1.3.6.1.5.5.7.3.1)</li>
@@ -311,9 +295,7 @@ Enhanced key usage (EKU) extension group. This includes the following OIDs:<ul>
 <li>XCN_OID_PKIX_KP_OCSP_SIGNING (1.3.6.1.5.5.7.3.9)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_POLICY_OID_GROUP_ID
+### -field XCN_CRYPT_POLICY_OID_GROUP_ID:8
 
 Issuance policy group. This includes the following OIDs. The <i>x.y.z</i> portion of each OID represents a randomly generated numeric sequence that is unique for each forest.<ul>
 <li>XCN_OID_ANY_CERT_POLICY (2.5.29.32.0)</li>
@@ -322,66 +304,51 @@ Issuance policy group. This includes the following OIDs. The <i>x.y.z</i> portio
 <li>High Assurance (1.3.6.1.4.1.311.21.8.x.y.z.1.402)</li>
 </ul>
 
-
-
-### -field XCN_CRYPT_TEMPLATE_OID_GROUP_ID
+### -field XCN_CRYPT_TEMPLATE_OID_GROUP_ID:9
 
 Certificate template group. The OIDs in this group identify the certificate templates that are available to the client, and all begin with 1.3.6.1.4.1.311.21.8. but are completed by randomly generated numeric sequences that are unique for each forest.
 
+### -field XCN_CRYPT_KDF_OID_GROUP_ID:10
 
-### -field XCN_CRYPT_KDF_OID_GROUP_ID
-
-
-### -field XCN_CRYPT_LAST_OID_GROUP_ID
+### -field XCN_CRYPT_LAST_OID_GROUP_ID:10
 
 Equivalent to XCN_CRYPT_TEMPLATE_OID_GROUP_ID. You can use this value to iterate through the group OIDs.
 
-
-### -field XCN_CRYPT_FIRST_ALG_OID_GROUP_ID
+### -field XCN_CRYPT_FIRST_ALG_OID_GROUP_ID:1
 
 Equivalent to XCN_CRYPT_HASH_ALG_OID_GROUP_ID. You can use this value to iterate through the group algorithm OIDs.
 
-
-### -field XCN_CRYPT_LAST_ALG_OID_GROUP_ID
+### -field XCN_CRYPT_LAST_ALG_OID_GROUP_ID:4
 
 Equivalent to XCN_CRYPT_SIGN_ALG_OID_GROUP_ID. You can use this value to iterate through the group algorithm OIDs.
 
+### -field XCN_CRYPT_GROUP_ID_MASK:0xffff
 
-### -field XCN_CRYPT_GROUP_ID_MASK
+### -field XCN_CRYPT_OID_PREFER_CNG_ALGID_FLAG:0x40000000
 
-
-### -field XCN_CRYPT_OID_PREFER_CNG_ALGID_FLAG
-
-
-### -field XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG
+### -field XCN_CRYPT_OID_DISABLE_SEARCH_DS_FLAG:0x80000000
 
 Not supported.
 
+### -field XCN_CRYPT_OID_INFO_OID_GROUP_BIT_LEN_MASK:0xfff0000
 
-### -field XCN_CRYPT_OID_INFO_OID_GROUP_BIT_LEN_MASK
+### -field XCN_CRYPT_OID_INFO_OID_GROUP_BIT_LEN_SHIFT:16
+
+### -field XCN_CRYPT_KEY_LENGTH_MASK:0xfff0000
+
+Enables addition of a key length to the upper 16 bits of the XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID group ID. For example, to use the <a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> method to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
 
 
-### -field XCN_CRYPT_OID_INFO_OID_GROUP_BIT_LEN_SHIFT
-
-
-### -field XCN_CRYPT_KEY_LENGTH_MASK
-
-Enables addition of a key length to the upper 16 bits of the XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID group ID. For example, to use the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a> method to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a> object from a 192-bit AES algorithm, specify "AES" for the <i>strAlgorithmName</i> parameter, shift the length left by 16, and perform a bitwise-<b>OR</b> combination on the shifted bit length and the <i>GroupId</i> value.
-
-<pre class="syntax" xml:space="preserve"><code>DWORD dwBitLen = 192;
+``` syntax
+DWORD dwBitLen = 192;
 
 ObjectIdGroupId GroupId = 
         (ObjectIdGroupId) (XCN_CRYPT_ENCRYPT_ALG_OID_GROUP_ID | 
         (XCN_CRYPT_KEY_LENGTH_MASK &amp; (dwBitLen &lt;&lt; 16)));
-</code></pre>
+
+```
+
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>

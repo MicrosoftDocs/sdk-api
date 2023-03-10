@@ -2,15 +2,12 @@
 UID: NS:wincrypt._SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 title: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS (wincrypt.h)
 description: The SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure checks if any certificates in the chain have weak cryptography and checks if a third party root certificate is compliant with the Microsoft Root Program requirements.
+helpviewer_keywords: ["*PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS","CERT_CHAIN_POLICY_SSL_F12_ERROR_LEVEL","CERT_CHAIN_POLICY_SSL_F12_NONE_CATEGORY","CERT_CHAIN_POLICY_SSL_F12_ROOT_PROGRAM_CATEGORY","CERT_CHAIN_POLICY_SSL_F12_SUCCESS_LEVEL","CERT_CHAIN_POLICY_SSL_F12_WARNING_LEVEL","CERT_CHAIN_POLICY_SSL_F12_WEAK_CRYPTO_CATEGORY","PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS","PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security]","SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS","SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security]","security.ssl_f12_extra_cert_chain_policy_status","wincrypt/PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS","wincrypt/SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS"]
 old-location: security\ssl_f12_extra_cert_chain_policy_status.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: A78598AA-1C5F-49E9-9A0D-6B6C838F7DDD
 ms.date: 12/05/2018
 ms.keywords: '*PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_CHAIN_POLICY_SSL_F12_ERROR_LEVEL, CERT_CHAIN_POLICY_SSL_F12_NONE_CATEGORY, CERT_CHAIN_POLICY_SSL_F12_ROOT_PROGRAM_CATEGORY, CERT_CHAIN_POLICY_SSL_F12_SUCCESS_LEVEL, CERT_CHAIN_POLICY_SSL_F12_WARNING_LEVEL, CERT_CHAIN_POLICY_SSL_F12_WEAK_CRYPTO_CATEGORY, PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], security.ssl_f12_extra_cert_chain_policy_status, wincrypt/PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS'
-f1_keywords:
-- wincrypt/SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 targetos: Windows
 req.typenames: SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, *PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - wincrypt/_SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - wincrypt/PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+ - wincrypt/SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 ---
 
 # SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure
@@ -49,20 +55,14 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</b> structure checks if any certificates in the chain have weak  cryptography and checks if a third party root certificate is compliant with the Microsoft Root Program requirements. An error string will be provided if either condition is not met.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 <b>DWORD</b> value that specifies the size, in bytes, of this structure. This value must be set to a value greater than or equal to sizeof(SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS).
-
 
 ### -field dwErrorLevel
 
@@ -107,8 +107,6 @@ Certificate error level.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwErrorCategory
 
@@ -155,26 +153,15 @@ Errors in this category with the <b>dwErrorLevel</b>: <b>CERT_CHAIN_POLICY_SSL_F
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwReserved
 
 <b>DWORD</b> value reserved for future use.
 
-
 ### -field wszErrorText
 
 The error string provided if any certificates in the chain have weak cryptography or if the third party root certificate is not compliant with the Microsoft Root Program requirements.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a>

@@ -2,15 +2,12 @@
 UID: NF:tom.ITextStoryRanges._NewEnum
 title: ITextStoryRanges::_NewEnum (tom.h)
 description: Retrieves an IEnumVARIANT enumerator interface for this collection of stories.
+helpviewer_keywords: ["ITextStoryRanges interface [Windows Controls]","_NewEnum method","ITextStoryRanges._NewEnum","ITextStoryRanges::_NewEnum","_NewEnum","_NewEnum method [Windows Controls]","_NewEnum method [Windows Controls]","ITextStoryRanges interface","_win32_ITextStoryRanges__NewEnum","_win32_ITextStoryRanges__NewEnum_cpp","controls.ITextStoryRanges__NewEnum","controls._win32_ITextStoryRanges__NewEnum","tom/ITextStoryRanges::_NewEnum"]
 old-location: controls\ITextStoryRanges__NewEnum.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\_newenum.htm
 ms.date: 12/05/2018
 ms.keywords: ITextStoryRanges interface [Windows Controls],_NewEnum method, ITextStoryRanges._NewEnum, ITextStoryRanges::_NewEnum, _NewEnum, _NewEnum method [Windows Controls], _NewEnum method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges__NewEnum, _win32_ITextStoryRanges__NewEnum_cpp, controls.ITextStoryRanges__NewEnum, controls._win32_ITextStoryRanges__NewEnum, tom/ITextStoryRanges::_NewEnum
-f1_keywords:
-- tom/ITextStoryRanges._NewEnum
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextStoryRanges._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStoryRanges::_NewEnum
+ - tom/ITextStoryRanges::_NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextStoryRanges._NewEnum
 ---
 
 # ITextStoryRanges::_NewEnum
@@ -48,30 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an 
 			<b>IEnumVARIANT</b> enumerator interface for this collection of stories.
 
-
 ## -parameters
-
-
-
 
 ### -param ppunkEnum
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
-The pointer to the enumerator interface. 
-
+The pointer to the enumerator interface.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -101,14 +95,8 @@ Failure for some other reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This definition together with the implementation of 
 				<b>IEnumVARIANT</b>, enables one to support the following Microsoft Visual Basic for Applications (VBA) code.
@@ -127,20 +115,13 @@ This definition together with the implementation of
     Next
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>
 
 
 
@@ -148,8 +129,4 @@ This definition together with the implementation of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

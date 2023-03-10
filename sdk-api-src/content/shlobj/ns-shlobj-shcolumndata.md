@@ -1,16 +1,13 @@
 ---
-UID: NS:shlobj.__unnamed_struct_4
+UID: NS:shlobj.SHCOLUMNDATA
 title: SHCOLUMNDATA (shlobj.h)
 description: Contains information that identifies a particular file. It is used by IColumnProvider::GetItemData when requesting data for a particular file.
+helpviewer_keywords: ["*LPSHCOLUMNDATA","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_REPARSE_POINT","FILE_ATTRIBUTE_SPARSE_FILE","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","LPSHCOLUMNDATA","LPSHCOLUMNDATA structure pointer [Windows Shell]","SHCDF_UPDATEITEM","SHCOLUMNDATA","SHCOLUMNDATA structure [Windows Shell]","_win32_SHCOLUMNDATA_str","shell.SHCOLUMNDATA_str","shlobj/LPSHCOLUMNDATA","shlobj/SHCOLUMNDATA"]
 old-location: shell\SHCOLUMNDATA_str.htm
 tech.root: shell
 ms.assetid: 3a0c9231-2871-4314-9db3-7e5609e08359
 ms.date: 12/05/2018
 ms.keywords: '*LPSHCOLUMNDATA, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, LPSHCOLUMNDATA, LPSHCOLUMNDATA structure pointer [Windows Shell], SHCDF_UPDATEITEM, SHCOLUMNDATA, SHCOLUMNDATA structure [Windows Shell], _win32_SHCOLUMNDATA_str, shell.SHCOLUMNDATA_str, shlobj/LPSHCOLUMNDATA, shlobj/SHCOLUMNDATA'
-f1_keywords:
-- shlobj/SHCOLUMNDATA
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj.h
-api_name:
-- SHCOLUMNDATA
 targetos: Windows
 req.typenames: SHCOLUMNDATA, *LPSHCOLUMNDATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPSHCOLUMNDATA
+ - shlobj/LPSHCOLUMNDATA
+ - SHCOLUMNDATA
+ - shlobj/SHCOLUMNDATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj.h
+api_name:
+ - SHCOLUMNDATA
 ---
 
 # SHCOLUMNDATA structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information that identifies a particular file. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a> when requesting data for a particular file.
-
+Contains information that identifies a particular file. It is used by <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a> when requesting data for a particular file.
 
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -67,8 +66,7 @@ Flags used to specify the nature of the request.
 
 #### SHCDF_UPDATEITEM
 
-The file specified by <b>wszFile</b> is a new file or a file that has changed since the last call to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a>. Any cached data should be flushed and recalculated. Column handlers that do not cache data, or that display data that is stored separately from the file, can ignore this flag.
-
+The file specified by <b>wszFile</b> is a new file or a file that has changed since the last call to <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata">IColumnProvider::GetItemData</a>. Any cached data should be flushed and recalculated. Column handlers that do not cache data, or that display data that is stored separately from the file, can ignore this flag.
 
 ### -field dwFileAttributes
 
@@ -148,13 +146,11 @@ The file or directory is part of, or is used exclusively by, the operating syste
 
 The file is being used for temporary storage. File systems attempt to keep all of the data in memory for quicker access rather than flushing the data back to mass storage. A temporary file should be deleted by the application as soon as it is no longer needed.
 
-
 ### -field dwReserved
 
 Type: <b>ULONG</b>
 
 Reserved. Set to <b>NULL</b>.
-
 
 ### -field pwszExt
 
@@ -162,21 +158,13 @@ Type: <b>WCHAR*</b>
 
 A pointer to a null-terminated Unicode string with a file name extension.
 
-
 ### -field wszFile
 
 Type: <b>WCHAR[MAX_PATH]</b>
 
 A null-terminated Unicode string containing a fully qualified file path.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
- 
-
- 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 

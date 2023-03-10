@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITAgentHandlerEvent.get_AgentHandler
 title: ITAgentHandlerEvent::get_AgentHandler (tapi3.h)
-description: The get_AgentHandler method gets the ITAgentHandler interface pointer.
+description: The get_AgentHandler method (tapi3.h) gets the ITAgentHandler interface pointer.
+helpviewer_keywords: ["ITAgentHandlerEvent interface [TAPI 2.2]","get_AgentHandler method","ITAgentHandlerEvent.get_AgentHandler","ITAgentHandlerEvent::get_AgentHandler","_tapi3_itagenthandlerevent_get_agenthandler","get_AgentHandler","get_AgentHandler method [TAPI 2.2]","get_AgentHandler method [TAPI 2.2]","ITAgentHandlerEvent interface","tapi3.itagenthandlerevent_get_agenthandler","tapi3cc/ITAgentHandlerEvent::get_AgentHandler"]
 old-location: tapi3\itagenthandlerevent_get_agenthandler.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 7288edb3-e7df-4e31-815d-dc8fc44bb5bc
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ITAgentHandlerEvent interface [TAPI 2.2],get_AgentHandler method, ITAgentHandlerEvent.get_AgentHandler, ITAgentHandlerEvent::get_AgentHandler, _tapi3_itagenthandlerevent_get_agenthandler, get_AgentHandler, get_AgentHandler method [TAPI 2.2], get_AgentHandler method [TAPI 2.2],ITAgentHandlerEvent interface, tapi3.itagenthandlerevent_get_agenthandler, tapi3cc/ITAgentHandlerEvent::get_AgentHandler
-f1_keywords:
-- tapi3/ITAgentHandlerEvent.get_AgentHandler
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentHandlerEvent.get_AgentHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentHandlerEvent::get_AgentHandler
+ - tapi3/ITAgentHandlerEvent::get_AgentHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentHandlerEvent.get_AgentHandler
 ---
 
 # ITAgentHandlerEvent::get_AgentHandler
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_AgentHandler</b> method gets the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface pointer.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface pointer.
 
 ## -parameters
-
-
-
 
 ### -param ppAgentHandler [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface on which the event occurred.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface on which the event occurred.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,33 +104,17 @@ The <i>ppAgentHandler</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface returned by <b>ITAgentHandlerEvent::get_AgentHandler</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a> interface returned by <b>ITAgentHandlerEvent::get_AgentHandler</b>. The application must call <b>Release</b> on the 
 <b>ITAgentHandler</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>

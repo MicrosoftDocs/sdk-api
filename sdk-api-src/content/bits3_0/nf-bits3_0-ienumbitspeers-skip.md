@@ -1,16 +1,13 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Skip
 title: IEnumBitsPeers::Skip (bits3_0.h)
-description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence. (IEnumBitsPeers.Skip)
+helpviewer_keywords: ["IEnumBitsPeers interface [BITS]","Skip method","IEnumBitsPeers.Skip","IEnumBitsPeers::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBitsPeers interface","bits.ienumbitspeers_skip","bits3_0/IEnumBitsPeers::Skip"]
 old-location: bits\ienumbitspeers_skip.htm
 tech.root: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Skip method, IEnumBitsPeers.Skip, IEnumBitsPeers::Skip, Skip, Skip method [BITS], Skip method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_skip, bits3_0/IEnumBitsPeers::Skip
-f1_keywords:
-- bits3_0/IEnumBitsPeers.Skip
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IEnumBitsPeers.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumBitsPeers::Skip
+ - bits3_0/IEnumBitsPeers::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IEnumBitsPeers.Skip
 ---
 
 # IEnumBitsPeers::Skip
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of elements to skip.
 
-
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -97,18 +91,7 @@ Skipped less than the number of requested elements.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a>

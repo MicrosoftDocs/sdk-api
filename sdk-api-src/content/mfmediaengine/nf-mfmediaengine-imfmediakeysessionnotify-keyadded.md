@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaKeySessionNotify.KeyAdded
 title: IMFMediaKeySessionNotify::KeyAdded (mfmediaengine.h)
 description: Notifies the application that the key has been added.
+helpviewer_keywords: ["IMFMediaKeySessionNotify interface [Media Foundation]","KeyAdded method","IMFMediaKeySessionNotify.KeyAdded","IMFMediaKeySessionNotify::KeyAdded","KeyAdded","KeyAdded method [Media Foundation]","KeyAdded method [Media Foundation]","IMFMediaKeySessionNotify interface","mf.imfmediakeysessionnotify_keyadded","mfmediaengine/IMFMediaKeySessionNotify::KeyAdded"]
 old-location: mf\imfmediakeysessionnotify_keyadded.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: e61e2a0d-59a5-4776-ba07-d323f1c944a4
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyAdded method, IMFMediaKeySessionNotify.KeyAdded, IMFMediaKeySessionNotify::KeyAdded, KeyAdded, KeyAdded method [Media Foundation], KeyAdded method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keyadded, mfmediaengine/IMFMediaKeySessionNotify::KeyAdded
-f1_keywords:
-- mfmediaengine/IMFMediaKeySessionNotify.KeyAdded
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaKeySessionNotify.KeyAdded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaKeySessionNotify::KeyAdded
+ - mfmediaengine/IMFMediaKeySessionNotify::KeyAdded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaKeySessionNotify.KeyAdded
 ---
 
 # IMFMediaKeySessionNotify::KeyAdded
@@ -48,42 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Notifies the application that the key has been added.  
-
-
-## -parameters
-
-
-
-
-
-
-## -returns
-
-
-
-This method does not return a value.
-
+Notifies the application that the key has been added.
 
 
 
 ## -remarks
 
-
-
 <b>KeyAdded</b> can also be called if the keys requested for the session have already been acquired.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysessionnotify">IMFMediaKeySessionNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysessionnotify">IMFMediaKeySessionNotify</a>

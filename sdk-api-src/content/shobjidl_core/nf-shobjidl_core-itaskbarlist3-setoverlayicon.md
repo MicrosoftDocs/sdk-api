@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ITaskbarList3.SetOverlayIcon
 title: ITaskbarList3::SetOverlayIcon (shobjidl_core.h)
 description: Applies an overlay to a taskbar button to indicate application status or a notification to the user.
+helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","SetOverlayIcon method","ITaskbarList3.SetOverlayIcon","ITaskbarList3::SetOverlayIcon","SetOverlayIcon","SetOverlayIcon method [Windows Shell]","SetOverlayIcon method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_SetOverlayIcon","shell.ITaskbarList3_SetOverlayIcon","shobjidl_core/ITaskbarList3::SetOverlayIcon"]
 old-location: shell\ITaskbarList3_SetOverlayIcon.htm
 tech.root: shell
 ms.assetid: 77857109-64b6-428e-b2b1-ee757784532a
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetOverlayIcon method, ITaskbarList3.SetOverlayIcon, ITaskbarList3::SetOverlayIcon, SetOverlayIcon, SetOverlayIcon method [Windows Shell], SetOverlayIcon method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetOverlayIcon, shell.ITaskbarList3_SetOverlayIcon, shobjidl_core/ITaskbarList3::SetOverlayIcon
-f1_keywords:
-- shobjidl_core/ITaskbarList3.SetOverlayIcon
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Explorerframe.dll
-api_name:
-- ITaskbarList3.SetOverlayIcon
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskbarList3::SetOverlayIcon
+ - shobjidl_core/ITaskbarList3::SetOverlayIcon
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Explorerframe.dll
+api_name:
+ - ITaskbarList3.SetOverlayIcon
 ---
 
 # ITaskbarList3::SetOverlayIcon
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Applies an overlay to a taskbar button to indicate application status or a notification to the user.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
 The handle of the window whose associated taskbar button receives the overlay. This handle must belong to a calling process associated with the button's application and must be a valid <b>HWND</b> or the call is ignored.
-
 
 ### -param hIcon [in]
 
@@ -82,28 +78,19 @@ This value can be <b>NULL</b>. How a <b>NULL</b> value is handled depends on whe
 
 It is the responsibility of the calling application to free <i>hIcon</i> when it is no longer needed. This can generally be done after you call <b>SetOverlayIcon</b> because the taskbar makes and uses its own copy of the icon.
 
-
 ### -param pszDescription [in]
 
 Type: <b>LPCWSTR</b>
 
 A pointer to a string that provides an alt text version of the information conveyed by the overlay, for accessibility purposes.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 In versions of Windows earlier than Windows 7, applications often used icons in the notification area of the taskbar to display application status and notifications to the user. The Windows 7 taskbar allows an application to provide that same sort of user feedback through its taskbar button, centralizing more of the application information in one place. These overlays are similar to existing overlays used for shortcut icons or security notifications, displayed at the lower-right corner of the button.
 
@@ -118,28 +105,18 @@ Because a single overlay is applied to the taskbar button instead of to the indi
 
 If Windows Explorer shuts down unexpectedly, overlays are not restored when Windows Explorer is restored. The application should wait to receive the <b>TaskbarButtonCreated</b> message that indicates that Windows Explorer has restarted and the taskbar button has been re-created, and then call <b>SetOverlayIcon</b> again to reapply the overlay.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
- 
-
- 
-
+<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>

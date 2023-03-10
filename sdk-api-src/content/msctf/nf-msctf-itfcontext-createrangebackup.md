@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContext.CreateRangeBackup
 title: ITfContext::CreateRangeBackup (msctf.h)
 description: ITfContext::CreateRangeBackup method
+helpviewer_keywords: ["CreateRangeBackup","CreateRangeBackup method [Text Services Framework]","CreateRangeBackup method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","CreateRangeBackup method","ITfContext.CreateRangeBackup","ITfContext::CreateRangeBackup","_tsf_itfcontext_createrangebackup_ref","msctf/ITfContext::CreateRangeBackup","tsf.itfcontext_createrangebackup"]
 old-location: tsf\itfcontext_createrangebackup.htm
 tech.root: TSF
 ms.assetid: c3b52170-af1b-407b-9160-1265ae3c9afc
 ms.date: 12/05/2018
 ms.keywords: CreateRangeBackup, CreateRangeBackup method [Text Services Framework], CreateRangeBackup method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],CreateRangeBackup method, ITfContext.CreateRangeBackup, ITfContext::CreateRangeBackup, _tsf_itfcontext_createrangebackup_ref, msctf/ITfContext::CreateRangeBackup, tsf.itfcontext_createrangebackup
-f1_keywords:
-- msctf/ITfContext.CreateRangeBackup
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContext.CreateRangeBackup
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContext::CreateRangeBackup
+ - msctf/ITfContext::CreateRangeBackup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContext.CreateRangeBackup
 ---
 
 # ITfContext::CreateRangeBackup
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a backup of a range.
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Contains an edit cookie that identifies the edit session. This is the value passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pRange [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object to be backed up.
-
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object to be backed up.
 
 ### -param ppBackup [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup</a> interface pointer that receives the backup of <i>pRange</i>.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup</a> interface pointer that receives the backup of <i>pRange</i>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -149,51 +142,11 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method creates a copy of the range that it can use to restore the data in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore</a>.
-
-
-
+This method creates a copy of the range that it can use to restore the data in <a href="/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangebackup">ITfRangeBackup
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrangebackup-restore">ITfRangeBackup::Restore
-      </a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges: Clones and Backups</a>
- 
-
- 
-
+[ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfRangeBackup interface](nn-msctf-itfrangebackup.md), [ITfRangeBackup::Restore](nf-msctf-itfrangebackup-restore.md), [Ranges: Clones and Backups](/windows/desktop/TSF/ranges)

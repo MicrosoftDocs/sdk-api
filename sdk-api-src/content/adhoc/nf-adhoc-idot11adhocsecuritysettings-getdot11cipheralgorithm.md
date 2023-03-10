@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
 title: IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm (adhoc.h)
 description: Gets the cipher algorithm associated with the security settings.
+helpviewer_keywords: ["GetDot11CipherAlgorithm","GetDot11CipherAlgorithm method [NativeWIFI]","GetDot11CipherAlgorithm method [NativeWIFI]","IDot11AdHocSecuritySettings interface","IDot11AdHocSecuritySettings interface [NativeWIFI]","GetDot11CipherAlgorithm method","IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm","IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm","adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm","nwifi.idot11adhocsecuritysettings_getdot11cipheralgorithm"]
 old-location: nwifi\idot11adhocsecuritysettings_getdot11cipheralgorithm.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 46bf39e3-351f-41c2-8f68-886fce8a83bd
 ms.date: 12/05/2018
 ms.keywords: GetDot11CipherAlgorithm, GetDot11CipherAlgorithm method [NativeWIFI], GetDot11CipherAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11CipherAlgorithm method, IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm, IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11cipheralgorithm
-f1_keywords:
-- adhoc/IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
+ - adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
 ---
 
 # IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the cipher algorithm associated with the security settings. The cipher algorithm is used to encrypt and decrypt information sent on the ad hoc network associated with an interface.
-
 
 ## -parameters
 
-
-
-
 ### -param pCipher [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a> value that specifies the cipher algorithm.
-
+A pointer to a <a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_cipher_algorithm">DOT11_ADHOC_CIPHER_ALGORITHM</a> value that specifies the cipher algorithm.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -129,22 +123,11 @@ The pointer <i>pCipher</i> is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocsecuritysettings-getdot11authalgorithm">IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm</a>

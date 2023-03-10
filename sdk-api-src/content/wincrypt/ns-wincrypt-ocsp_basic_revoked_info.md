@@ -2,15 +2,12 @@
 UID: NS:wincrypt._OCSP_BASIC_REVOKED_INFO
 title: OCSP_BASIC_REVOKED_INFO (wincrypt.h)
 description: Contains the reason a certificate was revoked.
+helpviewer_keywords: ["*POCSP_BASIC_REVOKED_INFO","CRL_REASON_AFFILIATION_CHANGED","CRL_REASON_CA_COMPROMISE","CRL_REASON_CERTIFICATE_HOLD","CRL_REASON_CESSATION_OF_OPERATION","CRL_REASON_KEY_COMPROMISE","CRL_REASON_REMOVE_FROM_CRL","CRL_REASON_SUPERSEDED","CRL_REASON_UNSPECIFIED","OCSP_BASIC_REVOKED_INFO","OCSP_BASIC_REVOKED_INFO structure [Security]","POCSP_BASIC_REVOKED_INFO","POCSP_BASIC_REVOKED_INFO structure pointer [Security]","security.ocsp_basic_revoked_info","wincrypt/OCSP_BASIC_REVOKED_INFO","wincrypt/POCSP_BASIC_REVOKED_INFO"]
 old-location: security\ocsp_basic_revoked_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 4475cf2a-bf25-427d-8e53-5e5b96dd676a
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_BASIC_REVOKED_INFO, CRL_REASON_AFFILIATION_CHANGED, CRL_REASON_CA_COMPROMISE, CRL_REASON_CERTIFICATE_HOLD, CRL_REASON_CESSATION_OF_OPERATION, CRL_REASON_KEY_COMPROMISE, CRL_REASON_REMOVE_FROM_CRL, CRL_REASON_SUPERSEDED, CRL_REASON_UNSPECIFIED, OCSP_BASIC_REVOKED_INFO, OCSP_BASIC_REVOKED_INFO structure [Security], POCSP_BASIC_REVOKED_INFO, POCSP_BASIC_REVOKED_INFO structure pointer [Security], security.ocsp_basic_revoked_info, wincrypt/OCSP_BASIC_REVOKED_INFO, wincrypt/POCSP_BASIC_REVOKED_INFO'
-f1_keywords:
-- wincrypt/OCSP_BASIC_REVOKED_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- OCSP_BASIC_REVOKED_INFO
 targetos: Windows
 req.typenames: OCSP_BASIC_REVOKED_INFO, *POCSP_BASIC_REVOKED_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OCSP_BASIC_REVOKED_INFO
+ - wincrypt/_OCSP_BASIC_REVOKED_INFO
+ - POCSP_BASIC_REVOKED_INFO
+ - wincrypt/POCSP_BASIC_REVOKED_INFO
+ - OCSP_BASIC_REVOKED_INFO
+ - wincrypt/OCSP_BASIC_REVOKED_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - OCSP_BASIC_REVOKED_INFO
 ---
 
 # OCSP_BASIC_REVOKED_INFO structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OCSP_BASIC_REVOKED_INFO</b> structure contains the reason a certificate was revoked. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure uses this structure.
-
+The <b>OCSP_BASIC_REVOKED_INFO</b> structure contains the reason a certificate was revoked. The <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a> structure uses this structure.
 
 ## -struct-fields
 
-
-
-
 ### -field RevocationDate
 
-Date that the certificate was revoked. For more information, see the <b>RevocationDate</b> member description for <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>.
-
+Date that the certificate was revoked. For more information, see the <b>RevocationDate</b> member description for <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>.
 
 ### -field dwCrlReasonCode
 
@@ -89,7 +89,7 @@ No reason was specified for revocation.
 </dl>
 </td>
 <td width="60%">
-It is known or suspected that the subject's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> or other aspects of the subject validated in the certificate are compromised.
+It is known or suspected that the subject's <a href="/windows/desktop/SecGloss/p-gly">private key</a> or other aspects of the subject validated in the certificate are compromised.
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ It is known or suspected that the subject's <a href="https://docs.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-It is known or suspected that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA's) private key or other aspects of the CA validated in the certificate are compromised.
+It is known or suspected that the <a href="/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA's) private key or other aspects of the CA validated in the certificate are compromised.
 
 </td>
 </tr>
@@ -155,25 +155,16 @@ The certificate has been placed on hold.
 </dl>
 </td>
 <td width="60%">
-The certificate has been removed from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
+The certificate has been removed from the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL).
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_entry">CRL_ENTRY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a>

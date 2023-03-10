@@ -2,15 +2,12 @@
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0077_0002
 title: ADS_SECURITY_INFO_ENUM (iads.h)
 description: Specifies the available options for examining security data of an object.
+helpviewer_keywords: ["ADS_SECURITY_INFO_DACL","ADS_SECURITY_INFO_ENUM","ADS_SECURITY_INFO_ENUM enumeration [ADSI]","ADS_SECURITY_INFO_GROUP","ADS_SECURITY_INFO_OWNER","ADS_SECURITY_INFO_SACL","_ds_ads_security_info_enum","adsi.ads__security__info__enum","adsi.ads_security_info_enum","iads/ADS_SECURITY_INFO_DACL","iads/ADS_SECURITY_INFO_ENUM","iads/ADS_SECURITY_INFO_GROUP","iads/ADS_SECURITY_INFO_OWNER","iads/ADS_SECURITY_INFO_SACL"]
 old-location: adsi\ads_security_info_enum.htm
 tech.root: adsi
 ms.assetid: 9cd1bb86-313d-4499-97ae-0b53a13a804b
 ms.date: 12/05/2018
 ms.keywords: ADS_SECURITY_INFO_DACL, ADS_SECURITY_INFO_ENUM, ADS_SECURITY_INFO_ENUM enumeration [ADSI], ADS_SECURITY_INFO_GROUP, ADS_SECURITY_INFO_OWNER, ADS_SECURITY_INFO_SACL, _ds_ads_security_info_enum, adsi.ads__security__info__enum, adsi.ads_security_info_enum, iads/ADS_SECURITY_INFO_DACL, iads/ADS_SECURITY_INFO_ENUM, iads/ADS_SECURITY_INFO_GROUP, iads/ADS_SECURITY_INFO_OWNER, iads/ADS_SECURITY_INFO_SACL
-f1_keywords:
-- iads/ADS_SECURITY_INFO_ENUM
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iads.h
-api_name:
-- ADS_SECURITY_INFO_ENUM
 targetos: Windows
 req.typenames: ADS_SECURITY_INFO_ENUM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_ads_0001_0077_0002
+ - iads/__MIDL___MIDL_itf_ads_0001_0077_0002
+ - ADS_SECURITY_INFO_ENUM
+ - iads/ADS_SECURITY_INFO_ENUM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iads.h
+api_name:
+ - ADS_SECURITY_INFO_ENUM
 ---
 
 # ADS_SECURITY_INFO_ENUM enumeration
@@ -48,42 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ADS_SECURITY_INFO_ENUM</b> enumeration specifies the available options for examining security data of an object.
-
 
 ## -enum-fields
 
-
-
-
-### -field ADS_SECURITY_INFO_OWNER
+### -field ADS_SECURITY_INFO_OWNER:0x1
 
 Reads or sets the owner data.
 
-
-### -field ADS_SECURITY_INFO_GROUP
+### -field ADS_SECURITY_INFO_GROUP:0x2
 
 Reads or sets the group data.
 
-
-### -field ADS_SECURITY_INFO_DACL
+### -field ADS_SECURITY_INFO_DACL:0x4
 
 Reads or sets the discretionary access-control list data.
 
-
-### -field ADS_SECURITY_INFO_SACL
+### -field ADS_SECURITY_INFO_SACL:0x8
 
 Reads or sets the system access-control list data.
 
-
 ## -remarks
-
-
 
 The options defined in this enumeration are bit-masks. More than one option can be set using appropriate bitwise operations.
 
-To read the security data for an object, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface, supplying the security data options listed in this enumeration.
+To read the security data for an object, use the  <a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a> interface, supplying the security data options listed in this enumeration.
 
 The following list lists common flag combinations and their use.
 
@@ -234,29 +227,18 @@ void TestObjectOptions()
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions::GetOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-getoption">IADsObjectOptions::GetOption</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsobjectoptions-setoption">IADsObjectOptions::SetOption</a>

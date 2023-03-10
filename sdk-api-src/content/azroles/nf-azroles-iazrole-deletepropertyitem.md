@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzRole.DeletePropertyItem
 title: IAzRole::DeletePropertyItem (azroles.h)
-description: Removes the specified entity from the specified list.
+description: Removes the specified entity from the specified list. (IAzRole.DeletePropertyItem)
+helpviewer_keywords: ["AZ_PROP_ROLE_APP_MEMBERS","AZ_PROP_ROLE_MEMBERS","AZ_PROP_ROLE_MEMBERS_NAME","AZ_PROP_ROLE_OPERATIONS","AZ_PROP_ROLE_TASKS","AzRole object [Security]","DeletePropertyItem method","DeletePropertyItem","DeletePropertyItem method [Security]","DeletePropertyItem method [Security]","AzRole object","DeletePropertyItem method [Security]","IAzRole interface","IAzRole interface [Security]","DeletePropertyItem method","IAzRole.DeletePropertyItem","IAzRole::DeletePropertyItem","azroles/IAzRole::DeletePropertyItem","security.iazrole_deletepropertyitem"]
 old-location: security\iazrole_deletepropertyitem.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 79315dbc-70b4-4667-8187-9b26b971baee
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_ROLE_APP_MEMBERS, AZ_PROP_ROLE_MEMBERS, AZ_PROP_ROLE_MEMBERS_NAME, AZ_PROP_ROLE_OPERATIONS, AZ_PROP_ROLE_TASKS, AzRole object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzRole object, DeletePropertyItem method [Security],IAzRole interface, IAzRole interface [Security],DeletePropertyItem method, IAzRole.DeletePropertyItem, IAzRole::DeletePropertyItem, azroles/IAzRole::DeletePropertyItem, security.iazrole_deletepropertyitem
-f1_keywords:
-- azroles/IAzRole.DeletePropertyItem
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzRole.DeletePropertyItem
-- AzRole.DeletePropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzRole::DeletePropertyItem
+ - azroles/IAzRole::DeletePropertyItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzRole.DeletePropertyItem
+ - AzRole.DeletePropertyItem
 ---
 
 # IAzRole::DeletePropertyItem
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DeletePropertyItem</b> method removes the specified entity from the specified list.
 
-
 ## -parameters
-
-
-
 
 ### -param lPropId [in]
 
@@ -73,7 +70,7 @@ Property ID of the  list from which to remove the entity specified by the <i>var
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deleteappmember">DeleteAppMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deleteappmember">DeleteAppMember</a> method
 
 </td>
 </tr>
@@ -83,7 +80,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deletemember">DeleteMember</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deletemember">DeleteMember</a> method
 
 </td>
 </tr>
@@ -93,7 +90,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deletemembername">DeleteMemberName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deletemembername">DeleteMemberName</a> method
 
 </td>
 </tr>
@@ -103,7 +100,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deleteoperation">DeleteOperation</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deleteoperation">DeleteOperation</a> method
 
 </td>
 </tr>
@@ -113,13 +110,11 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazrole-deletetask">DeleteTask</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-deletetask">DeleteTask</a> method
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param varProp [in]
 
@@ -127,19 +122,12 @@ Entity to remove from the list  specified by the <i>lPropId</i> parameter.
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_ROLE_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to remove from the list. If AZ_PROP_ROLE_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If AZ_PROP_ROLE_APP_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list.
-
+If AZ_PROP_ROLE_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to remove from the list. If AZ_PROP_ROLE_MEMBERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If AZ_PROP_ROLE_APP_MEMBERS is specified for the <i>lPropId</i> parameter, the string is the  <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object to remove from the list.
 
 ### -param varReserved [in, optional]
 
 Reserved for future use.
 
-
 ## -returns
 
-
-
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-
-
-

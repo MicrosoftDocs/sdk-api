@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.put_Formats
 title: IFsrmReportJob::put_Formats (fsrmreports.h)
-description: Retrieves or sets an array of formats that determine the content format of the reports.
+description: Retrieves or sets an array of formats that determine the content format of the reports. (Put)
+helpviewer_keywords: ["Formats property [File Server Resource Manager]","Formats property [File Server Resource Manager]","IFsrmReportJob interface","IFsrmReportJob interface [File Server Resource Manager]","Formats property","IFsrmReportJob.Formats","IFsrmReportJob.put_Formats","IFsrmReportJob::Formats","IFsrmReportJob::get_Formats","IFsrmReportJob::put_Formats","fs.ifsrmreportjob_formats","fsrm.ifsrmreportjob_formats","fsrmreports/IFsrmReportJob::Formats","fsrmreports/IFsrmReportJob::get_Formats","fsrmreports/IFsrmReportJob::put_Formats","put_Formats"]
 old-location: fsrm\ifsrmreportjob_formats.htm
 tech.root: fsrm
 ms.assetid: 9d0f7a7f-ad25-4d44-bc11-67da7685142a
 ms.date: 12/05/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],Formats property, IFsrmReportJob.Formats, IFsrmReportJob.put_Formats, IFsrmReportJob::Formats, IFsrmReportJob::get_Formats, IFsrmReportJob::put_Formats, fs.ifsrmreportjob_formats, fsrm.ifsrmreportjob_formats, fsrmreports/IFsrmReportJob::Formats, fsrmreports/IFsrmReportJob::get_Formats, fsrmreports/IFsrmReportJob::put_Formats, put_Formats
-f1_keywords:
-- fsrmreports/IFsrmReportJob.Formats
-dev_langs:
-- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmReportJob.Formats
-- IFsrmReportJob.get_Formats
-- IFsrmReportJob.put_Formats
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmReportJob::put_Formats
+ - fsrmreports/IFsrmReportJob::put_Formats
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmReportJob.Formats
+ - IFsrmReportJob.get_Formats
+ - IFsrmReportJob.put_Formats
 ---
 
 # IFsrmReportJob::put_Formats
@@ -50,18 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets an array of formats that determine the content format of the reports.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Each report in the job is generated in each of the specified formats.
 
@@ -78,19 +75,10 @@ If the report type is <b>FsrmReportType_ExportReport</b>, you can specify only t
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-report-job">Defining a Report Job</a>.
+For an example, see <a href="/previous-versions/windows/desktop/fsrm/defining-a-report-job">Defining a Report Job</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>

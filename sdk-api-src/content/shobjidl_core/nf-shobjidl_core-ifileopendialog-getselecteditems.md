@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IFileOpenDialog.GetSelectedItems
 title: IFileOpenDialog::GetSelectedItems (shobjidl_core.h)
 description: Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
+helpviewer_keywords: ["GetSelectedItems","GetSelectedItems method [Windows Shell]","GetSelectedItems method [Windows Shell]","IFileOpenDialog interface","IFileOpenDialog interface [Windows Shell]","GetSelectedItems method","IFileOpenDialog.GetSelectedItems","IFileOpenDialog::GetSelectedItems","shell.IFileOpenDialog_GetSelectedItems","shell_IFileOpenDialog_GetSelectedItems","shobjidl_core/IFileOpenDialog::GetSelectedItems"]
 old-location: shell\IFileOpenDialog_GetSelectedItems.htm
 tech.root: shell
 ms.assetid: 5fc53607-60d2-4d23-b11e-779c26c02b0f
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows Shell], GetSelectedItems method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetSelectedItems method, IFileOpenDialog.GetSelectedItems, IFileOpenDialog::GetSelectedItems, shell.IFileOpenDialog_GetSelectedItems, shell_IFileOpenDialog_GetSelectedItems, shobjidl_core/IFileOpenDialog::GetSelectedItems
-f1_keywords:
-- shobjidl_core/IFileOpenDialog.GetSelectedItems
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileOpenDialog.GetSelectedItems
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileOpenDialog::GetSelectedItems
+ - shobjidl_core/IFileOpenDialog::GetSelectedItems
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileOpenDialog.GetSelectedItems
 ---
 
 # IFileOpenDialog::GetSelectedItems
@@ -48,39 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the currently selected items in the dialog. These items may be items selected in the view, or text selected in the file name edit box.
-
 
 ## -parameters
 
-
-
-
 ### -param ppsai [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> through which the selected items can be accessed.
-
+The address of a pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> through which the selected items can be accessed.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This method can be used for single item or multiple item selections. If the user has entered new text in the file name field, this can be a time-consuming operation. When the application calls this method, the application parses the text in the <code>filename</code> field. For example, if this is a network share, the operation could take some time. However, this operation will not block the UI, since the user should able to stop the operation, which will result in <b>IFileOpenDialog::GetSelectedItems</b> returning a failure code).
-            
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationCustomNavigationPattern.Navigate
 title: IUIAutomationCustomNavigationPattern::Navigate (uiautomationclient.h)
 description: Gets the next element in the specified direction within the logical UI tree.
+helpviewer_keywords: ["IUIAutomationCustomNavigationPattern interface [Windows Accessibility]","Navigate method","IUIAutomationCustomNavigationPattern.Navigate","IUIAutomationCustomNavigationPattern::Navigate","Navigate","Navigate method [Windows Accessibility]","Navigate method [Windows Accessibility]","IUIAutomationCustomNavigationPattern interface","uiautomationclient/IUIAutomationCustomNavigationPattern::Navigate","winauto.uiauto_IUIAutomationCustomNavigationPattern_Navigate"]
 old-location: winauto\uiauto_IUIAutomationCustomNavigationPattern_Navigate.htm
 tech.root: WinAuto
 ms.assetid: 82481F62-9FBB-42C8-BDCB-2462FEEB5A0F
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCustomNavigationPattern interface [Windows Accessibility],Navigate method, IUIAutomationCustomNavigationPattern.Navigate, IUIAutomationCustomNavigationPattern::Navigate, Navigate, Navigate method [Windows Accessibility], Navigate method [Windows Accessibility],IUIAutomationCustomNavigationPattern interface, uiautomationclient/IUIAutomationCustomNavigationPattern::Navigate, winauto.uiauto_IUIAutomationCustomNavigationPattern_Navigate
-f1_keywords:
-- uiautomationclient/IUIAutomationCustomNavigationPattern.Navigate
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationCustomNavigationPattern.Navigate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationCustomNavigationPattern::Navigate
+ - uiautomationclient/IUIAutomationCustomNavigationPattern::Navigate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationCustomNavigationPattern.Navigate
 ---
 
 # IUIAutomationCustomNavigationPattern::Navigate
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the next element in the specified direction within the logical UI tree.
-
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The specified direction.
-
 
 ### -param pRetVal [out, retval]
 
 The next element as specified by the <i>direction</i> parameter.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcustomnavigationpattern">IUIAutomationCustomNavigationPattern</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcustomnavigationpattern">IUIAutomationCustomNavigationPattern</a>

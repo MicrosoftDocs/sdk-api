@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDrawSurface7.ReleaseDC
 title: IDirectDrawSurface7::ReleaseDC (ddraw.h)
 description: Releases the handle of a device context that was previously obtained by using the IDirectDrawSurface7::GetDC method.
+helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","ReleaseDC method","IDirectDrawSurface7.ReleaseDC","IDirectDrawSurface7::ReleaseDC","ReleaseDC","ReleaseDC method [DirectDraw]","ReleaseDC method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::ReleaseDC","directdraw.idirectdrawsurface7_releasedc"]
 old-location: directdraw\idirectdrawsurface7_releasedc.htm
 tech.root: directdraw
 ms.assetid: 170d5194-9327-4632-a87f-39aa8a0ccf74
@@ -43,35 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::ReleaseDC
-
-
 ## -description
 
-
-Releases the handle of a device context that was previously obtained by using the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method.
-
-
+Releases the handle of a device context that was previously obtained by using the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method.
 
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-
-
-#### - hDC [in]
-
-The handle of a device context that was previously obtained by <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a>.
-
+The handle of a device context that was previously obtained by <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a>.
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -83,26 +68,12 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-<b>ReleaseDC</b> also unlocks the surface that was previously locked when the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method was called.
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>ReleaseDC</b> method.
-
+<b>ReleaseDC</b> also unlocks the surface that was previously locked when the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc">IDirectDrawSurface7::GetDC</a> method was called.
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

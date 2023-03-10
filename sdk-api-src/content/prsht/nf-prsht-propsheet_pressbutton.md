@@ -2,15 +2,12 @@
 UID: NF:prsht.PropSheet_PressButton
 title: PropSheet_PressButton macro (prsht.h)
 description: Simulates the selection of a property sheet button. You can use this macro or send the PSM_PRESSBUTTON message explicitly.
+helpviewer_keywords: ["PSBTN_APPLYNOW","PSBTN_BACK","PSBTN_CANCEL","PSBTN_FINISH","PSBTN_HELP","PSBTN_NEXT","PSBTN_OK","PropSheet_PressButton","PropSheet_PressButton macro [Windows Controls]","_win32_PropSheet_PressButton","_win32_PropSheet_PressButton_cpp","controls.PropSheet_PressButton","controls._win32_PropSheet_PressButton","prsht/PropSheet_PressButton"]
 old-location: controls\PropSheet_PressButton.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_pressbutton.htm
 ms.date: 12/05/2018
 ms.keywords: PSBTN_APPLYNOW, PSBTN_BACK, PSBTN_CANCEL, PSBTN_FINISH, PSBTN_HELP, PSBTN_NEXT, PSBTN_OK, PropSheet_PressButton, PropSheet_PressButton macro [Windows Controls], _win32_PropSheet_PressButton, _win32_PropSheet_PressButton_cpp, controls.PropSheet_PressButton, controls._win32_PropSheet_PressButton, prsht/PropSheet_PressButton
-f1_keywords:
-- prsht/PropSheet_PressButton
-dev_langs:
-- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Prsht.h
-api_name:
-- PropSheet_PressButton
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PropSheet_PressButton
+ - prsht/PropSheet_PressButton
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Prsht.h
+api_name:
+ - PropSheet_PressButton
 ---
 
 # PropSheet_PressButton macro
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Simulates the selection of a property sheet button. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-pressbutton">PSM_PRESSBUTTON</a> message explicitly.
-
+Simulates the selection of a property sheet button. You can use this macro or send the <a href="/windows/desktop/Controls/psm-pressbutton">PSM_PRESSBUTTON</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
-
 
 ### -param iButton
 
@@ -146,5 +142,3 @@ Selects the OK button.
 </td>
 </tr>
 </table>
- 
-

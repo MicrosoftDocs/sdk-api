@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.IEnumAgentHandler.Reset
 title: IEnumAgentHandler::Reset (tapi3.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The IEnumAgentHandler::Reset method (tapi3.h) resets the enumeration sequence to the beginning.
+helpviewer_keywords: ["IEnumAgentHandler interface [TAPI 2.2]","Reset method","IEnumAgentHandler.Reset","IEnumAgentHandler::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumAgentHandler interface","_tapi3_ienumagenthandler_reset","tapi3.ienumagenthandler_reset","tapi3cc/IEnumAgentHandler::Reset"]
 old-location: tapi3\ienumagenthandler_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: cb113db5-718d-4c5e-92ad-4eb605911c71
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Reset method, IEnumAgentHandler.Reset, IEnumAgentHandler::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_reset, tapi3.ienumagenthandler_reset, tapi3cc/IEnumAgentHandler::Reset
-f1_keywords:
-- tapi3/IEnumAgentHandler.Reset
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAgentHandler.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAgentHandler::Reset
+ - tapi3/IEnumAgentHandler::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAgentHandler.Reset
 ---
 
 # IEnumAgentHandler::Reset
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets the enumeration sequence to the beginning.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,18 +87,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a>

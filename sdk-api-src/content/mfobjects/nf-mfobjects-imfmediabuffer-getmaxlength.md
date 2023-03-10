@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFMediaBuffer.GetMaxLength
 title: IMFMediaBuffer::GetMaxLength (mfobjects.h)
 description: Retrieves the allocated size of the buffer.
+helpviewer_keywords: ["GetMaxLength","GetMaxLength method [Media Foundation]","GetMaxLength method [Media Foundation]","IMFMediaBuffer interface","IMFMediaBuffer interface [Media Foundation]","GetMaxLength method","IMFMediaBuffer.GetMaxLength","IMFMediaBuffer::GetMaxLength","f0697f1d-18d6-4406-9f19-8cbaac08ad47","mf.imfmediabuffer_getmaxlength","mfobjects/IMFMediaBuffer::GetMaxLength"]
 old-location: mf\imfmediabuffer_getmaxlength.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f0697f1d-18d6-4406-9f19-8cbaac08ad47
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Media Foundation], GetMaxLength method [Media Foundation],IMFMediaBuffer interface, IMFMediaBuffer interface [Media Foundation],GetMaxLength method, IMFMediaBuffer.GetMaxLength, IMFMediaBuffer::GetMaxLength, f0697f1d-18d6-4406-9f19-8cbaac08ad47, mf.imfmediabuffer_getmaxlength, mfobjects/IMFMediaBuffer::GetMaxLength
-f1_keywords:
-- mfobjects/IMFMediaBuffer.GetMaxLength
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaBuffer.GetMaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaBuffer::GetMaxLength
+ - mfobjects/IMFMediaBuffer::GetMaxLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaBuffer.GetMaxLength
 ---
 
 # IMFMediaBuffer::GetMaxLength
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the allocated size of the buffer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcbMaxLength [out]
 
 Receives the allocated size of the buffer, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,16 +80,10 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The buffer might or might not contain any valid data, and if there is valid data in the buffer, it might be smaller than the buffer's allocated size. To get the length of the valid data, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a>.
+The buffer might or might not contain any valid data, and if there is valid data in the buffer, it might be smaller than the buffer's allocated size. To get the length of the valid data, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -107,19 +92,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>

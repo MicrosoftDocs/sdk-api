@@ -2,15 +2,12 @@
 UID: NF:directxpackedvector.XMU565.XMU565(uint8_t,uint8_t,uint8_t)
 title: XMU565::XMU565(uint8_t,uint8_t,uint8_t) (directxpackedvector.h)
 description: Initializes a new instance of XMU565 from three int8_t arguments.
+helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565.XMU565(uint8_t","uint8_t","uint8_t)","XMU565::XMU565","XMU565::XMU565(uint8_t","uint8_t","uint8_t)","dxmath.xmu565_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 184982ed-d1e7-462c-9cac-0393228bf64d
 ms.date: 05/06/2019
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565.XMU565(uint8_t,uint8_t,uint8_t), XMU565::XMU565, XMU565::XMU565(uint8_t,uint8_t,uint8_t), dxmath.xmu565_ctor_1
-f1_keywords:
-- directxpackedvector/XMU565.XMU565
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMU565.XMU565
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMU565::XMU565
+ - directxpackedvector/XMU565::XMU565
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMU565.XMU565
 ---
 
 # XMU565::XMU565(uint8_t,uint8_t,uint8_t)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a> from three <code>int8_t</code> arguments.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a> from three <code>int8_t</code> arguments.
 
 This constructor initializes a new instance of <wdcml:xref rid="dxmath.xmu565" targtype="struct">XMU565 </wdcml:xref> from three <code>int8_t</code> arguments.
 
@@ -90,6 +93,6 @@ instance.v= ((z & 0x1F) << 11) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
+<a href="/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>

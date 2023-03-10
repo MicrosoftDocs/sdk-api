@@ -2,15 +2,12 @@
 UID: NF:effects.IWMPEffects2.Create
 title: IWMPEffects2::Create (effects.h)
 description: The Create method is called by Windows Media Player to instantiate a visualization window.
+helpviewer_keywords: ["Create","Create method [Windows Media Player]","Create method [Windows Media Player]","IWMPEffects2 interface","IWMPEffects2 interface [Windows Media Player]","Create method","IWMPEffects2.Create","IWMPEffects2::Create","IWMPEffectsCreate","effects/IWMPEffects2::Create","wmp.iwmpeffects2_create"]
 old-location: wmp\iwmpeffects2_create.htm
 tech.root: WMP
 ms.assetid: a0bc4e45-7174-4dbd-a902-06c685c9a9ac
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Media Player], Create method [Windows Media Player],IWMPEffects2 interface, IWMPEffects2 interface [Windows Media Player],Create method, IWMPEffects2.Create, IWMPEffects2::Create, IWMPEffectsCreate, effects/IWMPEffects2::Create, wmp.iwmpeffects2_create
-f1_keywords:
-- effects/IWMPEffects2.Create
-dev_langs:
-- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- effects.h
-api_name:
-- IWMPEffects2.Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPEffects2::Create
+ - effects/IWMPEffects2::Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - effects.h
+api_name:
+ - IWMPEffects2.Create
 ---
 
 # IWMPEffects2::Create
@@ -48,54 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Create</b> method is called by Windows Media Player to instantiate a visualization window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 <b>HWND</b> handle to the parent window hosting the visualization window.
 
-
 ## -returns
-
-
 
 This method returns an <b>HRESULT</b>.
 
-
-
-
 ## -remarks
-
-
 
 A visualization that implements <b>IWMPEffects2</b> is rendered in its own window unless it will be displayed in a clipped device context, in which case it is rendered windowless. For a visualization that is rendered windowless, Windows Media Player calls this method with a <b>NULL</b> value for the <i>hwndParent</i> parameter. If your visualization does not support windowless mode (for example, when using Direct3D), it should return a failure <b>HRESULT</b> value. In this case, your visualization will not be available in skins that clip the display region.
 
 If you create a visualization for Windows Media Player using the Direct3D® component of Microsoft DirectX®, you must set the <b>D3DCREATE_FPU_PRESERVE</b> flag when calling <b>IDirect3D8::CreateDevice</b>. Failure to set this flag for visualizations that use Direct3D may yield unexpected results.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects2">IWMPEffects2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">IWMPEffects2::Destroy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-destroy">IWMPEffects2::Destroy</a>

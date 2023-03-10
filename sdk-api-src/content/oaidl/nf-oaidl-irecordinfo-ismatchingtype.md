@@ -2,15 +2,12 @@
 UID: NF:oaidl.IRecordInfo.IsMatchingType
 title: IRecordInfo::IsMatchingType (oaidl.h)
 description: Determines whether the record that is passed in matches that of the current record information.
+helpviewer_keywords: ["IRecordInfo interface [Automation]","IsMatchingType method","IRecordInfo.IsMatchingType","IRecordInfo::IsMatchingType","IsMatchingType","IsMatchingType method [Automation]","IsMatchingType method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_IsMatchingType","automat.irecordinfo_ismatchingtype","oaidl/IRecordInfo::IsMatchingType"]
 old-location: automat\irecordinfo_ismatchingtype.htm
 tech.root: automat
 ms.assetid: 3db29912-3864-4750-b255-77dcffe711cf
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],IsMatchingType method, IRecordInfo.IsMatchingType, IRecordInfo::IsMatchingType, IsMatchingType, IsMatchingType method [Automation], IsMatchingType method [Automation],IRecordInfo interface, _oa96_IRecordInfo_IsMatchingType, automat.irecordinfo_ismatchingtype, oaidl/IRecordInfo::IsMatchingType
-f1_keywords:
-- oaidl/IRecordInfo.IsMatchingType
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IRecordInfo.IsMatchingType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecordInfo::IsMatchingType
+ - oaidl/IRecordInfo::IsMatchingType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IRecordInfo.IsMatchingType
 ---
 
 # IRecordInfo::IsMatchingType
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the record that is passed in matches that of the current record information.
 
-
 ## -parameters
-
-
-
 
 ### -param pRecordInfo [in]
 
 The information of the record.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -96,18 +90,7 @@ The record that is passed in does not match the current record information.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

@@ -2,15 +2,12 @@
 UID: NC:mfapi.MFPERIODICCALLBACK
 title: MFPERIODICCALLBACK (mfapi.h)
 description: Callback function for the MFAddPeriodicCallback function.
+helpviewer_keywords: ["9449fa04-867c-4f27-a05c-ff0d6e912c53","MFPERIODICCALLBACK","MFPERIODICCALLBACK callback","MFPERIODICCALLBACK callback function [Media Foundation]","mf.mfperiodiccallback_callback","mfapi/MFPERIODICCALLBACK"]
 old-location: mf\mfperiodiccallback_callback.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 9449fa04-867c-4f27-a05c-ff0d6e912c53
 ms.date: 12/05/2018
 ms.keywords: 9449fa04-867c-4f27-a05c-ff0d6e912c53, MFPERIODICCALLBACK, MFPERIODICCALLBACK callback, MFPERIODICCALLBACK callback function [Media Foundation], mf.mfperiodiccallback_callback, mfapi/MFPERIODICCALLBACK
-f1_keywords:
-- mfapi/MFPERIODICCALLBACK
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- mfapi.h
-api_name:
-- MFPERIODICCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFPERIODICCALLBACK
+ - mfapi/MFPERIODICCALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - mfapi.h
+api_name:
+ - MFPERIODICCALLBACK
 ---
 
 # MFPERIODICCALLBACK callback function
@@ -48,43 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
-
-
-
+Callback function for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 
 ## -parameters
 
+### -param pContext [in]
 
-
-
-### -param *pContext [in]
-
-Pointer to the <b>IUnknown</b> interface, or <b>NULL</b>. This pointer is specified by the caller in the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
+Pointer to the <b>IUnknown</b> interface, or <b>NULL</b>. This pointer is specified by the caller in the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

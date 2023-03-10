@@ -2,15 +2,12 @@
 UID: NN:portabledeviceapi.IPortableDeviceDataStream
 title: IPortableDeviceDataStream (portabledeviceapi.h)
 description: The IPortableDeviceDataStream interface exposes additional methods on an IStream that is used for data transfers.
+helpviewer_keywords: ["IPortableDeviceDataStream","IPortableDeviceDataStream interface [Windows Portable Devices SDK]","IPortableDeviceDataStream interface [Windows Portable Devices SDK]","described","IPortableDeviceDataStreamInterface","portabledeviceapi/IPortableDeviceDataStream","wpdsdk.iportabledevicedatastream"]
 old-location: wpdsdk\iportabledevicedatastream.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: d7bd955a-886f-4081-bfc3-cd2d7e2cfb24
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], IPortableDeviceDataStream interface [Windows Portable Devices SDK],described, IPortableDeviceDataStreamInterface, portabledeviceapi/IPortableDeviceDataStream, wpdsdk.iportabledevicedatastream
-f1_keywords:
-- portabledeviceapi/IPortableDeviceDataStream
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceDataStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceDataStream
+ - portabledeviceapi/IPortableDeviceDataStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceDataStream
 ---
 
 # IPortableDeviceDataStream interface
@@ -49,45 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>IPortableDeviceDataStream</b> interface exposes additional methods on an <b>IStream</b> that is used for data transfers. It is obtained by calling <b>QueryInterface</b> on the <b>IStream</b> that is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getstream">IPortableDeviceResources::GetStream</a> or <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">IPortableDeviceContent::CreateObjectWithPropertiesAndData</a>.
-
-
-
+The <b>IPortableDeviceDataStream</b> interface exposes additional methods on an <b>IStream</b> that is used for data transfers. It is obtained by calling <b>QueryInterface</b> on the <b>IStream</b> that is retrieved by <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceresources-getstream">IPortableDeviceResources::GetStream</a> or <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">IPortableDeviceContent::CreateObjectWithPropertiesAndData</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceDataStream</b> interface inherits from <b>IStream</b>. <b>IPortableDeviceDataStream</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPortableDeviceDataStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicedatastream-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels a call in progress on this interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicedatastream-getobjectid">GetObjectID</a>
-</td>
-<td align="left" width="63%">
-Retrieves the object ID of the resource that was written to the device.
-
-</td>
-</tr>
-</table> 
+The <b>IPortableDeviceDataStream</b> interface inherits from <b>IStream</b>. <b>IPortableDeviceDataStream</b> also has these types of members:
 

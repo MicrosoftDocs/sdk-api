@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509SCEPEnrollment.ProcessResponseMessage
 title: IX509SCEPEnrollment::ProcessResponseMessage (certenroll.h)
 description: Process a response message and return the disposition of the message.
+helpviewer_keywords: ["IX509SCEPEnrollment interface [Security]","ProcessResponseMessage method","IX509SCEPEnrollment.ProcessResponseMessage","IX509SCEPEnrollment::ProcessResponseMessage","ProcessResponseMessage","ProcessResponseMessage method [Security]","ProcessResponseMessage method [Security]","IX509SCEPEnrollment interface","certenroll/IX509SCEPEnrollment::ProcessResponseMessage","security.ix509scepenrollment_processresponsemessage"]
 old-location: security\ix509scepenrollment_processresponsemessage.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 4254fdf3-473f-4f22-a08f-13481fd9f779
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],ProcessResponseMessage method, IX509SCEPEnrollment.ProcessResponseMessage, IX509SCEPEnrollment::ProcessResponseMessage, ProcessResponseMessage, ProcessResponseMessage method [Security], ProcessResponseMessage method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ProcessResponseMessage, security.ix509scepenrollment_processresponsemessage
-f1_keywords:
-- certenroll/IX509SCEPEnrollment.ProcessResponseMessage
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certenroll.dll
-api_name:
-- IX509SCEPEnrollment.ProcessResponseMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509SCEPEnrollment::ProcessResponseMessage
+ - certenroll/IX509SCEPEnrollment::ProcessResponseMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certenroll.dll
+api_name:
+ - IX509SCEPEnrollment.ProcessResponseMessage
 ---
 
 # IX509SCEPEnrollment::ProcessResponseMessage
@@ -48,49 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Process a response message and return the disposition of the message.
-
 
 ## -parameters
 
-
-
-
 ### -param strResponse [in]
-
 
 ### -param Encoding [in]
 
-
 ### -param pDisposition [out, retval]
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initialize">Initialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage">CreateRequestMessage</a> methods or the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initializeforpending">InitializeForPending</a> method before calling this method.
-
-
-
+You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initialize">Initialize</a> and <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-createrequestmessage">CreateRequestMessage</a> methods or the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509scepenrollment-initializeforpending">InitializeForPending</a> method before calling this method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>

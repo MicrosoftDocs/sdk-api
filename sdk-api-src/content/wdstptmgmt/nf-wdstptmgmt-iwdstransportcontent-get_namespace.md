@@ -2,15 +2,12 @@
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Namespace
 title: IWdsTransportContent::get_Namespace (wdstptmgmt.h)
 description: Receives a pointer to an object of an IWdsTransportNamespace interface that represents the namespace associated with this content.
+helpviewer_keywords: ["IWdsTransportContent interface [Windows Deployment Services]","Namespace property","IWdsTransportContent.Namespace","IWdsTransportContent.get_Namespace","IWdsTransportContent::Namespace","IWdsTransportContent::get_Namespace","Namespace property [Windows Deployment Services]","Namespace property [Windows Deployment Services]","IWdsTransportContent interface","get_Namespace","wds.iwdstransportcontent_namespace","wdstptmgmt/IWdsTransportContent::Namespace","wdstptmgmt/IWdsTransportContent::get_Namespace"]
 old-location: wds\iwdstransportcontent_namespace.htm
 tech.root: wds
 ms.assetid: 8b116f8d-bcbc-4313-9527-07f871e00842
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Namespace property, IWdsTransportContent.Namespace, IWdsTransportContent.get_Namespace, IWdsTransportContent::Namespace, IWdsTransportContent::get_Namespace, Namespace property [Windows Deployment Services], Namespace property [Windows Deployment Services],IWdsTransportContent interface, get_Namespace, wds.iwdstransportcontent_namespace, wdstptmgmt/IWdsTransportContent::Namespace, wdstptmgmt/IWdsTransportContent::get_Namespace
-f1_keywords:
-- wdstptmgmt/IWdsTransportContent.Namespace
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportContent.Namespace
-- IWdsTransportContent.get_Namespace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportContent::get_Namespace
+ - wdstptmgmt/IWdsTransportContent::get_Namespace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportContent.Namespace
+ - IWdsTransportContent.get_Namespace
 ---
 
 # IWdsTransportContent::get_Namespace
@@ -49,26 +51,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Receives a pointer to an object of an  <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that represents the namespace associated with this content.
+Receives a pointer to an object of an  <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that represents the namespace associated with this content.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontent">IWdsTransportContent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontent">IWdsTransportContent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>

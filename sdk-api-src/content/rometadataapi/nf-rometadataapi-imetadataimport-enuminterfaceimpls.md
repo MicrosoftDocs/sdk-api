@@ -2,15 +2,12 @@
 UID: NF:rometadataapi.IMetaDataImport.EnumInterfaceImpls
 title: IMetaDataImport::EnumInterfaceImpls (rometadataapi.h)
 description: Enumerates MethodDef tokens representing interface implementations.
+helpviewer_keywords: ["EnumInterfaceImpls","EnumInterfaceImpls method [Windows Runtime]","EnumInterfaceImpls method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumInterfaceImpls method","IMetaDataImport.EnumInterfaceImpls","IMetaDataImport::EnumInterfaceImpls","rometadataapi/IMetaDataImport::EnumInterfaceImpls","winrt.imetadataimport_enuminterfaceimpls"]
 old-location: winrt\imetadataimport_enuminterfaceimpls.htm
 tech.root: WinRT
 ms.assetid: 37f3eada-7719-4303-a9c7-57ee396a5dc5
 ms.date: 12/05/2018
 ms.keywords: EnumInterfaceImpls, EnumInterfaceImpls method [Windows Runtime], EnumInterfaceImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumInterfaceImpls method, IMetaDataImport.EnumInterfaceImpls, IMetaDataImport::EnumInterfaceImpls, rometadataapi/IMetaDataImport::EnumInterfaceImpls, winrt.imetadataimport_enuminterfaceimpls
-f1_keywords:
-- rometadataapi/IMetaDataImport.EnumInterfaceImpls
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataImport.EnumInterfaceImpls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataImport::EnumInterfaceImpls
+ - rometadataapi/IMetaDataImport::EnumInterfaceImpls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataImport.EnumInterfaceImpls
 ---
 
 # IMetaDataImport::EnumInterfaceImpls
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates MethodDef tokens representing interface implementations.
 
-
 ## -parameters
-
-
-
 
 ### -param phEnum [in, out]
 
 A pointer to the enumerator.
 
-
 ### -param td [in]
 
 The token of the TypeDef whose MethodDef tokens representing interface implementations are to be enumerated.
-
 
 ### -param rImpls [out]
 
 The array used to store the MethodDef tokens.
 
-
 ### -param cMax [in]
 
 The maximum size of the <i>rImpls</i> array.
-
 
 ### -param pcImpls [out, retval]
 
 The actual number of tokens returned in <i>rImpls</i>.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -103,18 +93,7 @@ The actual number of tokens returned in <i>rImpls</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

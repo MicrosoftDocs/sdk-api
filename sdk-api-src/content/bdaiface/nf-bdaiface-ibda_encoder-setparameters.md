@@ -2,15 +2,12 @@
 UID: NF:bdaiface.IBDA_Encoder.SetParameters
 title: IBDA_Encoder::SetParameters (bdaiface.h)
 description: Sets the parameters for the Encoder Service.
+helpviewer_keywords: ["IBDA_Encoder interface [Microsoft TV Technologies]","SetParameters method","IBDA_Encoder.SetParameters","IBDA_Encoder::SetParameters","PBDA_Encoder_BitrateMode_Average","PBDA_Encoder_BitrateMode_Constant","PBDA_Encoder_BitrateMode_Variable","SetParameters","SetParameters method [Microsoft TV Technologies]","SetParameters method [Microsoft TV Technologies]","IBDA_Encoder interface","bdaiface/IBDA_Encoder::SetParameters","mstv.ibda_encoder_setparameters"]
 old-location: mstv\ibda_encoder_setparameters.htm
 tech.root: mstv
 ms.assetid: 0ee90121-b52b-47dc-b954-e7ba0b14f75c
 ms.date: 12/05/2018
 ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],SetParameters method, IBDA_Encoder.SetParameters, IBDA_Encoder::SetParameters, PBDA_Encoder_BitrateMode_Average, PBDA_Encoder_BitrateMode_Constant, PBDA_Encoder_BitrateMode_Variable, SetParameters, SetParameters method [Microsoft TV Technologies], SetParameters method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::SetParameters, mstv.ibda_encoder_setparameters
-f1_keywords:
-- bdaiface/IBDA_Encoder.SetParameters
-dev_langs:
-- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- bdaiface.h
-api_name:
-- IBDA_Encoder.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBDA_Encoder::SetParameters
+ - bdaiface/IBDA_Encoder::SetParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - bdaiface.h
+api_name:
+ - IBDA_Encoder.SetParameters
 ---
 
 # IBDA_Encoder::SetParameters
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the parameters for the Encoder Service.
 
-
 ## -parameters
-
-
-
 
 ### -param AudioBitrateMode [in]
 
@@ -100,55 +97,35 @@ Average bit rate (ABR) mode.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param AudioBitrate [in]
 
 The audio bit rate.
 
-
 ### -param AudioMethodID [in]
 
 The active audio encoder method.
-
 
 ### -param AudioProgram [in]
 
 The audio program number.
 
-
 ### -param VideoBitrateMode [in]
 
 The video compression mode. For a list of values, see <i>AudioBitrateMode</i>.
-
 
 ### -param VideoBitrate [in]
 
 The video bit rate.
 
-
 ### -param VideoMethodID [in]
 
 The active video encoder method.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_encoder">IBDA_Encoder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_encoder">IBDA_Encoder</a>

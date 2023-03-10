@@ -2,15 +2,12 @@
 UID: NF:fwpmu.FwpmEngineGetOption0
 title: FwpmEngineGetOption0 function (fwpmu.h)
 description: Retrieves a filter engine option.
+helpviewer_keywords: ["FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND","FWPM_ENGINE_OPTION_PACKET_QUEUE_NONE","FWPM_ENGINE_OPTION_PACKET_QUEUE_OUTBOUND","FWPM_NET_EVENT_KEYWORD_INBOUND_BCAST","FWPM_NET_EVENT_KEYWORD_INBOUND_MCAST","FwpmEngineGetOption0","FwpmEngineGetOption0 function [Filtering]","fwp.fwpmenginegetoption0","fwpmu/FwpmEngineGetOption0"]
 old-location: fwp\fwpmenginegetoption0.htm
 tech.root: fwp
 ms.assetid: e243f0d6-fb15-4c26-b41d-e33e96daf294
 ms.date: 12/05/2018
 ms.keywords: FWPM_ENGINE_OPTION_PACKET_QUEUE_INBOUND, FWPM_ENGINE_OPTION_PACKET_QUEUE_NONE, FWPM_ENGINE_OPTION_PACKET_QUEUE_OUTBOUND, FWPM_NET_EVENT_KEYWORD_INBOUND_BCAST, FWPM_NET_EVENT_KEYWORD_INBOUND_MCAST, FwpmEngineGetOption0, FwpmEngineGetOption0 function [Filtering], fwp.fwpmenginegetoption0, fwpmu/FwpmEngineGetOption0
-f1_keywords:
-- fwpmu/FwpmEngineGetOption0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmEngineGetOption0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmEngineGetOption0
+ - fwpmu/FwpmEngineGetOption0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmEngineGetOption0
 ---
 
 # FwpmEngineGetOption0 function
@@ -48,32 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FwpmEngineGetOption0</b> function retrieves a filter engine option.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
-
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param option [in]
 
-Type: [FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)a></b>
+Type: [FWPM_ENGINE_OPTION](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)</b>
 
 The option to be retrieved.
 
-
 ### -param value [out]
 
-Type: [FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>**</b>
+Type: [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)**</b>
 
 The option value. The data    type contained in the <i>value</i> parameter will be <b>FWP_UINT32</b>.
 
@@ -236,13 +231,7 @@ If <i>option</i> is <b>FWPM_ENGINE_TXN_WATCHDOG_TIMEOUT_IN_MSEC</b>  (available 
 
 The <b>FWPM_ENGINE_NAME_CACHE</b>  option is reserved for internal use.
 
-
-
-
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -271,7 +260,7 @@ The option was retrieved successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -288,20 +277,14 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The caller must free the returned object by a call to <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
 
+The caller needs <a href="/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ</a> access to the filter engine. See <a href="/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
-The caller must free the returned object by a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>.
-
-The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ</a> access to the filter engine. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
-
-<b>FwpmEngineGetOption0</b> is a specific implementation of FwpmEngineGetOption. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmEngineGetOption0</b> is a specific implementation of FwpmEngineGetOption. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 
 #### Examples
@@ -355,25 +338,14 @@ void main()
 
 ```
 
-
-
-
-
 ## -see-also
 
+[FWPM_ENGINE_OPTION](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)
 
 
 
-[FWPM_ENGINE_OPTION](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_engine_option)a>
+[FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
 
 
 
-[FWP_VALUE0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginesetoption0">FwpmEngineSetOption0</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmenginesetoption0">FwpmEngineSetOption0</a>

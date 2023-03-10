@@ -2,15 +2,12 @@
 UID: NF:propsys.PSRefreshPropertySchema
 title: PSRefreshPropertySchema function (propsys.h)
 description: Not supported.It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so.
+helpviewer_keywords: ["PSRefreshPropertySchema","PSRefreshPropertySchema function [Windows Properties]","properties.PSRefreshPropertySchema","propsys/PSRefreshPropertySchema","shell.PSRefreshPropertySchema","shell_PSRefreshPropertySchema"]
 old-location: properties\PSRefreshPropertySchema.htm
 tech.root: properties
 ms.assetid: 07efbf66-3594-4b9d-b959-278dc9000572
 ms.date: 12/05/2018
 ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows Properties], properties.PSRefreshPropertySchema, propsys/PSRefreshPropertySchema, shell.PSRefreshPropertySchema, shell_PSRefreshPropertySchema
-f1_keywords:
-- propsys/PSRefreshPropertySchema
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSRefreshPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSRefreshPropertySchema
+ - propsys/PSRefreshPropertySchema
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSRefreshPropertySchema
 ---
 
 # PSRefreshPropertySchema function
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,7 +90,4 @@ The calling context does not have proper privileges.
 </td>
 </tr>
 </table>
- 
-
-
 

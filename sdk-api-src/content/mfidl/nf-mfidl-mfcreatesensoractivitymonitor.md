@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFCreateSensorActivityMonitor
 title: MFCreateSensorActivityMonitor function (mfidl.h)
 description: Initializes a new instance of the IMFSensorActivityMonitor interface.
+helpviewer_keywords: ["MFCreateSensorActivityMonitor","MFCreateSensorActivityMonitor function [Media Foundation]","mf.mfcreatesensoractivitymonitor","mfidl/MFCreateSensorActivityMonitor"]
 old-location: mf\mfcreatesensoractivitymonitor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
-f1_keywords:
-- mfidl/MFCreateSensorActivityMonitor
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,25 @@ req.type-library:
 req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.lib
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfsensorgroup.lib
-api_name:
-- MFCreateSensorActivityMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateSensorActivityMonitor
+ - mfidl/MFCreateSensorActivityMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfsensorgroup.lib
+ - mfplat.dll
+api_name:
+ - MFCreateSensorActivityMonitor
 ---
 
 # MFCreateSensorActivityMonitor function
@@ -48,28 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a> interface.
-
+Initializes a new instance of the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param pCallback [in]
 
-An implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a> interface through which the system delivers <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreport">IMFSensorActivitiesReport</a> objects.
-
+An implementation of the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a> interface through which the system delivers <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreport">IMFSensorActivitiesReport</a> objects.
 
 ### -param ppActivityMonitor [out]
 
-A pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a>.
-
+A pointer to the new <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -103,7 +97,3 @@ The <i>ppActivityMonitor</i> parameter is null.
 </td>
 </tr>
 </table>
- 
-
-
-

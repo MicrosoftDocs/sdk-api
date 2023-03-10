@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetContext
 title: IWSDHttpMessageParameters::SetContext (wsdbase.h)
 description: Sets the private transmission context for the current transaction.
+helpviewer_keywords: ["IWSDHttpMessageParameters interface","SetContext method","IWSDHttpMessageParameters.SetContext","IWSDHttpMessageParameters::SetContext","SetContext","SetContext method","SetContext method","IWSDHttpMessageParameters interface","ncd.iwsdhttpmessageparameters_setcontext","wsdbase/IWSDHttpMessageParameters::SetContext"]
 old-location: ncd\iwsdhttpmessageparameters_setcontext.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 8e1bbfbe-b7a7-4235-bb2d-8ee0ef301871
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetContext method, IWSDHttpMessageParameters.SetContext, IWSDHttpMessageParameters::SetContext, SetContext, SetContext method, SetContext method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setcontext, wsdbase/IWSDHttpMessageParameters::SetContext
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters.SetContext
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters.SetContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters::SetContext
+ - wsdbase/IWSDHttpMessageParameters::SetContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters.SetContext
 ---
 
 # IWSDHttpMessageParameters::SetContext
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the private transmission context for the current transaction.
 
-
 ## -parameters
-
-
-
 
 ### -param pContext [in]
 
 Pointer to the desired private transmission context for the current transaction.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -90,18 +84,7 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>

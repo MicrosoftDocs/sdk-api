@@ -2,15 +2,12 @@
 UID: NF:wingdi.CombineRgn
 title: CombineRgn function (wingdi.h)
 description: The CombineRgn function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.
+helpviewer_keywords: ["CombineRgn","CombineRgn function [Windows GDI]","RGN_AND","RGN_COPY","RGN_DIFF","RGN_OR","RGN_XOR","_win32_CombineRgn","gdi.combinergn","wingdi/CombineRgn"]
 old-location: gdi\combinergn.htm
 tech.root: gdi
 ms.assetid: ef9fc4f3-737e-4c10-a80b-8ae2097c17d1
 ms.date: 12/05/2018
 ms.keywords: CombineRgn, CombineRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_CombineRgn, gdi.combinergn, wingdi/CombineRgn
-f1_keywords:
-- wingdi/CombineRgn
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
-- api-ms-win-gdi-ie-rgn-l1-1-0.dll
-- ie_shims.dll
-- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
-api_name:
-- CombineRgn
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CombineRgn
+ - wingdi/CombineRgn
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+ - api-ms-win-gdi-ie-rgn-l1-1-0.dll
+ - ie_shims.dll
+ - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+api_name:
+ - CombineRgn
 ---
 
 # CombineRgn function
@@ -52,29 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CombineRgn</b> function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.
 
-
 ## -parameters
-
-
-
 
 ### -param hrgnDst [in]
 
 A handle to a new region with dimensions defined by combining two other regions. (This region must exist before <b>CombineRgn</b> is called.)
 
-
 ### -param hrgnSrc1 [in]
 
 A handle to the first of two regions to be combined.
 
-
 ### -param hrgnSrc2 [in]
 
 A handle to the second of two regions to be combined.
-
 
 ### -param iMode [in]
 
@@ -136,12 +130,8 @@ Creates the union of two combined regions except for any overlapping areas.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The return value specifies the type of the resulting region. It can be one of the following values.
 
@@ -195,59 +185,43 @@ No region is created.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The three regions need not be distinct. For example, the <i>hrgnSrc1</i> parameter can equal the <i>hrgnDest</i> parameter.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn">CreateEllipticRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createellipticrgn">CreateEllipticRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createellipticrgnindirect">CreateEllipticRgnIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createellipticrgnindirect">CreateEllipticRgnIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn">CreatePolyPolygonRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn">CreatePolyPolygonRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createroundrectrgn">CreateRoundRectRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createroundrectrgn">CreateRoundRectRgn</a>
+<a href="/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/regions">Regions Overview</a>

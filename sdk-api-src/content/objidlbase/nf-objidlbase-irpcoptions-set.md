@@ -1,16 +1,13 @@
 ---
 UID: NF:objidlbase.IRpcOptions.Set
 title: IRpcOptions::Set (objidlbase.h)
-description: Sets the value of an RPC binding option property.
+description: The IRpcOptions::Set (objidlbase.h) method sets the value of an RPC binding option property.
+helpviewer_keywords: ["IRpcOptions interface [COM]","Set method","IRpcOptions.Set","IRpcOptions::Set","Set","Set method [COM]","Set method [COM]","IRpcOptions interface","_com_irpcoptions_set","com.irpcoptions_set","objidlbase/IRpcOptions::Set"]
 old-location: com\irpcoptions_set.htm
 tech.root: com
 ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOptions::Set, Set, Set method [COM], Set method [COM],IRpcOptions interface, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
-f1_keywords:
-- objidlbase/IRpcOptions.Set
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IRpcOptions.Set
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRpcOptions::Set
+ - objidlbase/IRpcOptions::Set
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IRpcOptions.Set
 ---
 
 # IRpcOptions::Set
@@ -48,55 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the value of an RPC binding option property.
 
-
 ## -parameters
-
-
-
 
 ### -param pPrx [in]
 
 A pointer to the proxy whose property is being set.
 
-
 ### -param dwProperty [in]
 
 An identifier of the property to be set, which must be COMBND_RPCTIMEOUT.
-
 
 ### -param dwValue [in]
 
 The new value of the property.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
 
-
-
-
 ## -remarks
 
-
-
-See <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a> for a table of the possible values of the COMBND_RPCTIMEOUT property.
-
-
-
+See <a href="/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a> for a table of the possible values of the COMBND_RPCTIMEOUT property.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcoptions">IRpcOptions</a>

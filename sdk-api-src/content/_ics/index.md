@@ -4,7 +4,7 @@ title: Windows Firewall Technologies
 ms.assetid: 9d94480c-7b4f-37ab-b155-d62cf72d1a3e
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Firewall Technologies
@@ -22,5 +22,4 @@ To develop Windows Firewall Technologies, you need these headers:
  * [networkisolation.h](../networkisolation/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Firewall Technologies](https://docs.microsoft.com/previous-versions/windows/desktop/ics)
-
+* [Windows Firewall Technologies](/previous-versions/windows/desktop/ics)

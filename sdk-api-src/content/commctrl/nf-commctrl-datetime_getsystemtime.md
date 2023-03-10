@@ -2,15 +2,12 @@
 UID: NF:commctrl.DateTime_GetSystemtime
 title: DateTime_GetSystemtime macro (commctrl.h)
 description: Gets the currently selected time from a date and time picker (DTP) control and places it in a specified SYSTEMTIME structure. You can use this macro, or send the DTM_GETSYSTEMTIME message explicitly.
+helpviewer_keywords: ["DateTime_GetSystemtime","DateTime_GetSystemtime macro [Windows Controls]","_win32_DateTime_GetSystemtime","_win32_DateTime_GetSystemtime_cpp","commctrl/DateTime_GetSystemtime","controls.DateTime_GetSystemtime","controls._win32_DateTime_GetSystemtime"]
 old-location: controls\DateTime_GetSystemtime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getsystemtime.htm
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetSystemtime, DateTime_GetSystemtime macro [Windows Controls], _win32_DateTime_GetSystemtime, _win32_DateTime_GetSystemtime_cpp, commctrl/DateTime_GetSystemtime, controls.DateTime_GetSystemtime, controls._win32_DateTime_GetSystemtime
-f1_keywords:
-- commctrl/DateTime_GetSystemtime
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- DateTime_GetSystemtime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DateTime_GetSystemtime
+ - commctrl/DateTime_GetSystemtime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - DateTime_GetSystemtime
 ---
 
 # DateTime_GetSystemtime macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the currently selected time from a date and time picker (DTP) control and places it in a specified <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. You can use this macro, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> message explicitly. 
-
+Gets the currently selected time from a date and time picker (DTP) control and places it in a specified <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. You can use this macro, or send the <a href="/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to a DTP control. 
-
+A handle to a DTP control.
 
 ### -param pst
 
 Type: <b>LPSYSTEMTIME</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> returns GDT_VALID, this structure will contain the currently selected time. Otherwise, it will not contain valid information. This parameter must be a valid pointer; it cannot be <b>NULL</b>. 
-
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. If <a href="/windows/desktop/Controls/dtm-getsystemtime">DTM_GETSYSTEMTIME</a> returns GDT_VALID, this structure will contain the currently selected time. Otherwise, it will not contain valid information. This parameter must be a valid pointer; it cannot be <b>NULL</b>.

@@ -2,15 +2,12 @@
 UID: NF:xamlom.IVisualTreeService.GetCollectionCount
 title: IVisualTreeService::GetCollectionCount (xamlom.h)
 description: Gets the count of a collection.
+helpviewer_keywords: ["GetCollectionCount","GetCollectionCount method","GetCollectionCount method","IVisualTreeService interface","IVisualTreeService interface","GetCollectionCount method","IVisualTreeService.GetCollectionCount","IVisualTreeService::GetCollectionCount","xaml_diagnostics.ivisualtreeservice_getcollectioncount","xamlom/IVisualTreeService::GetCollectionCount"]
 old-location: xaml_diagnostics\ivisualtreeservice_getcollectioncount.htm
 tech.root: xaml_diagnostics
 ms.assetid: BB6D0885-27BD-4DF6-A48A-570345F1EE14
 ms.date: 12/05/2018
 ms.keywords: GetCollectionCount, GetCollectionCount method, GetCollectionCount method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionCount method, IVisualTreeService.GetCollectionCount, IVisualTreeService::GetCollectionCount, xaml_diagnostics.ivisualtreeservice_getcollectioncount, xamlom/IVisualTreeService::GetCollectionCount
-f1_keywords:
-- xamlom/IVisualTreeService.GetCollectionCount
-dev_langs:
-- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xamlom.h
-api_name:
-- IVisualTreeService.GetCollectionCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVisualTreeService::GetCollectionCount
+ - xamlom/IVisualTreeService::GetCollectionCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xamlom.h
+api_name:
+ - IVisualTreeService.GetCollectionCount
 ---
 
 # IVisualTreeService::GetCollectionCount
@@ -48,51 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the count of a collection.
 
-
 ## -parameters
-
-
-
 
 ### -param instanceHandle [in]
 
 A handle to the collection object.
 
-
 ### -param pCollectionSize [out]
 
 The number of elements in the collection.
 
-
 ## -returns
-
-
 
 If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
 
-
-
 For any collection method, the caller should query the properties of a known element
-    and should only call this method if the property has <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit::IsValueCollection</a>set.
-
-
-
+    and should only call this method if the property has <a href="/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit::IsValueCollection</a>set.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService</a>

@@ -4,8 +4,11 @@ title: Prsht.h header
 ms.assetid: 2f4492e5-5cb3-3f55-92f5-79a73f0d9c5b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: controls
+f1_keywords:
+ - prsht
+ - prsht/prsht
 ---
 
 # Prsht.h header
@@ -13,8 +16,8 @@ tech.root: controls
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by Windows Controls. For more information, see:
-
+- [Microsoft Management Console 2.0](../_mmc/index.md)
 - [Windows Controls](../_controls/index.md)
 

@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
 title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart (winsync.h)
 description: Gets the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
+helpviewer_keywords: ["GetForgottenKnowledgeRecoveryRangeStart","GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync]","GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync]","ISyncSessionState interface","ISyncSessionState interface [Windows Sync]","GetForgottenKnowledgeRecoveryRangeStart method","ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart","ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart","winsync.isyncsessionstate_getforgottenknowledgerecoveryrangestart","winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart"]
 old-location: winsync\isyncsessionstate_getforgottenknowledgerecoveryrangestart.htm
 tech.root: winsync
 ms.assetid: a6d6434a-d4cf-4b92-958c-5ff8022a9531
 ms.date: 12/05/2018
 ms.keywords: GetForgottenKnowledgeRecoveryRangeStart, GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync], GetForgottenKnowledgeRecoveryRangeStart method [Windows Sync],ISyncSessionState interface, ISyncSessionState interface [Windows Sync],GetForgottenKnowledgeRecoveryRangeStart method, ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart, ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart, winsync.isyncsessionstate_getforgottenknowledgerecoveryrangestart, winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
-f1_keywords:
-- winsync/ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
+ - winsync/ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
 ---
 
 # ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
 
-
 ## -parameters
-
-
-
 
 ### -param pbRangeStart [in, out]
 
 Returns the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
 
-
 ### -param pcbRangeStart [in, out]
 
 Specifies the number of bytes in <i>pbRangeStart</i>. Returns the number of bytes required to retrieve the range value when <i>pcbRangeStart</i> is too small, or the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,18 +105,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate">ISyncSessionState Interface</a>

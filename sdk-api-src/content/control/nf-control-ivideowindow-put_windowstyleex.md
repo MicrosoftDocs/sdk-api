@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.put_WindowStyleEx
 title: IVideoWindow::put_WindowStyleEx (control.h)
 description: The put_WindowStyleEx method sets the extended window styles on the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_WindowStyleEx method","IVideoWindow.put_WindowStyleEx","IVideoWindow::put_WindowStyleEx","IVideoWindowput_WindowStyleEx","control/IVideoWindow::put_WindowStyleEx","dshow.ivideowindow_put_windowstyleex","put_WindowStyleEx","put_WindowStyleEx method [DirectShow]","put_WindowStyleEx method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_windowstyleex.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 19d56e9d-6f6d-46aa-b46f-a62302b41d2f
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyleEx method, IVideoWindow.put_WindowStyleEx, IVideoWindow::put_WindowStyleEx, IVideoWindowput_WindowStyleEx, control/IVideoWindow::put_WindowStyleEx, dshow.ivideowindow_put_windowstyleex, put_WindowStyleEx, put_WindowStyleEx method [DirectShow], put_WindowStyleEx method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.put_WindowStyleEx
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.put_WindowStyleEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::put_WindowStyleEx
+ - control/IVideoWindow::put_WindowStyleEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.put_WindowStyleEx
 ---
 
 # IVideoWindow::put_WindowStyleEx
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>put_WindowStyleEx</code> method sets the extended window styles on the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param WindowStyleEx [in]
 
 One or more flags from the GWL_EXSTYLE value of the Windows <b>SetWindowLong</b> function.
 
-
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -100,39 +91,23 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is a thin wrapper over the <b>SetWindowLong</b> function and must be treated with care. In particular, you should retrieve the current styles and then add or remove flags. With some exceptions, flags allowed by the Windows <b>CreateWindow</b> function are acceptable. However, do not use this method to change the window size.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_windowstyleex">IVideoWindow::get_WindowStyleEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_windowstyleex">IVideoWindow::get_WindowStyleEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyle">IVideoWindow::put_WindowStyle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyle">IVideoWindow::put_WindowStyle</a>

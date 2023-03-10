@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzApplication.get_Name
 title: IAzApplication::get_Name (azroles.h)
-description: Sets or retrieves the name of the application.
+description: Sets or retrieves the name of the application. (Get)
+helpviewer_keywords: ["AzApplication object [Security]","Name property","IAzApplication interface [Security]","Name property","IAzApplication.Name","IAzApplication.get_Name","IAzApplication::Name","IAzApplication::get_Name","IAzApplication::put_Name","Name property [Security]","Name property [Security]","AzApplication object","Name property [Security]","IAzApplication interface","azroles/IAzApplication::Name","azroles/IAzApplication::get_Name","azroles/IAzApplication::put_Name","get_Name","security.iazapplication_name"]
 old-location: security\iazapplication_name.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: f94a902a-9187-486c-9442-6defa9893532
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],Name property, IAzApplication interface [Security],Name property, IAzApplication.Name, IAzApplication.get_Name, IAzApplication::Name, IAzApplication::get_Name, IAzApplication::put_Name, Name property [Security], Name property [Security],AzApplication object, Name property [Security],IAzApplication interface, azroles/IAzApplication::Name, azroles/IAzApplication::get_Name, azroles/IAzApplication::put_Name, get_Name, security.iazapplication_name
-f1_keywords:
-- azroles/IAzApplication.Name
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication.Name
-- IAzApplication.get_Name
-- IAzApplication.put_Name
-- AzApplication.Name
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication::get_Name
+ - azroles/IAzApplication::get_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication.Name
+ - IAzApplication.get_Name
+ - IAzApplication.put_Name
+ - AzApplication.Name
 ---
 
 # IAzApplication::get_Name
@@ -51,20 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Name</b> property sets or retrieves the name of the application.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The maximum length of the <b>Name</b> property is 512 characters.
-
-
 

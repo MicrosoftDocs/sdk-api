@@ -2,15 +2,12 @@
 UID: NF:wuapi.IAutomaticUpdatesSettings.Save
 title: IAutomaticUpdatesSettings::Save (wuapi.h)
 description: Applies the current Automatic Updates settings.
+helpviewer_keywords: ["IAutomaticUpdatesSettings interface [Windows Update Agent]","Save method","IAutomaticUpdatesSettings.Save","IAutomaticUpdatesSettings::Save","Save","Save method [Windows Update Agent]","Save method [Windows Update Agent]","IAutomaticUpdatesSettings interface","wua.iautomaticupdatessettings_save","wuapi/IAutomaticUpdatesSettings::Save"]
 old-location: wua\iautomaticupdatessettings_save.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: fb54b900-345a-4b36-b16d-52790c0266f6
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Save method, IAutomaticUpdatesSettings.Save, IAutomaticUpdatesSettings::Save, Save, Save method [Windows Update Agent], Save method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_save, wuapi/IAutomaticUpdatesSettings::Save
-f1_keywords:
-- wuapi/IAutomaticUpdatesSettings.Save
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdatesSettings.Save
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdatesSettings::Save
+ - wuapi/IAutomaticUpdatesSettings::Save
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdatesSettings.Save
 ---
 
 # IAutomaticUpdatesSettings::Save
 
 
 ## -description
-
 
 <p class="CCE_Message">[<b>AutomaticUpdatesSettings::Save</b> is no longer supported. Starting with 
     Windows 10 calls to <b>Save</b> always return 
@@ -58,41 +59,17 @@ Applies the current Automatic Updates settings.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code.
 
-
-
-
 ## -remarks
 
+Saving settings with a <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a> value other than Disabled  starts the Automatic Updates service.
 
-
-Saving settings with a <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-get_notificationlevel">NotificationLevel</a> value other than Disabled  starts the Automatic Updates service.
-
-<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <b>Save</b> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlScheduledInstallation</a>).</div>
+<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <b>Save</b> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlScheduledInstallation</a>).</div>
 <div> </div>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>

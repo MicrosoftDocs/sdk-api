@@ -1,16 +1,13 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_ENTRY_INFOW
 title: INTERNET_CACHE_ENTRY_INFOW (wininet.h)
-description: Contains information about an entry in the Internet cache.
+description: Contains information about an entry in the Internet cache. (Unicode)
+helpviewer_keywords: ["*LPINTERNET_CACHE_ENTRY_INFOW","COOKIE_CACHE_ENTRY","EDITED_CACHE_ENTRY","INTERNET_CACHE_ENTRY_INFO","INTERNET_CACHE_ENTRY_INFO structure [WinINet]","INTERNET_CACHE_ENTRY_INFOA","INTERNET_CACHE_ENTRY_INFOW","LPINTERNET_CACHE_ENTRY_INFO","LPINTERNET_CACHE_ENTRY_INFO structure pointer [WinINet]","NORMAL_CACHE_ENTRY","SPARSE_CACHE_ENTRY","STICKY_CACHE_ENTRY","TRACK_OFFLINE_CACHE_ENTRY","TRACK_ONLINE_CACHE_ENTRY","URLHISTORY_CACHE_ENTRY","_inet_internet_cache_entry_info_structure","wininet.internet_cache_entry_info","wininet/INTERNET_CACHE_ENTRY_INFO","wininet/INTERNET_CACHE_ENTRY_INFOA","wininet/INTERNET_CACHE_ENTRY_INFOW","wininet/LPINTERNET_CACHE_ENTRY_INFO"]
 old-location: wininet\internet_cache_entry_info.htm
 tech.root: wininet
 ms.assetid: 7bda08e0-5df0-4087-a5cd-3a25c6ae5ade
 ms.date: 12/05/2018
 ms.keywords: '*LPINTERNET_CACHE_ENTRY_INFOW, COOKIE_CACHE_ENTRY, EDITED_CACHE_ENTRY, INTERNET_CACHE_ENTRY_INFO, INTERNET_CACHE_ENTRY_INFO structure [WinINet], INTERNET_CACHE_ENTRY_INFOA, INTERNET_CACHE_ENTRY_INFOW, LPINTERNET_CACHE_ENTRY_INFO, LPINTERNET_CACHE_ENTRY_INFO structure pointer [WinINet], NORMAL_CACHE_ENTRY, SPARSE_CACHE_ENTRY, STICKY_CACHE_ENTRY, TRACK_OFFLINE_CACHE_ENTRY, TRACK_ONLINE_CACHE_ENTRY, URLHISTORY_CACHE_ENTRY, _inet_internet_cache_entry_info_structure, wininet.internet_cache_entry_info, wininet/INTERNET_CACHE_ENTRY_INFO, wininet/INTERNET_CACHE_ENTRY_INFOA, wininet/INTERNET_CACHE_ENTRY_INFOW, wininet/LPINTERNET_CACHE_ENTRY_INFO'
-f1_keywords:
-- wininet/INTERNET_CACHE_ENTRY_INFO
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- INTERNET_CACHE_ENTRY_INFO
-- INTERNET_CACHE_ENTRY_INFOA
-- INTERNET_CACHE_ENTRY_INFOW
 targetos: Windows
 req.typenames: INTERNET_CACHE_ENTRY_INFOW, *LPINTERNET_CACHE_ENTRY_INFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _INTERNET_CACHE_ENTRY_INFOW
+ - wininet/_INTERNET_CACHE_ENTRY_INFOW
+ - LPINTERNET_CACHE_ENTRY_INFOW
+ - wininet/LPINTERNET_CACHE_ENTRY_INFOW
+ - INTERNET_CACHE_ENTRY_INFOW
+ - wininet/INTERNET_CACHE_ENTRY_INFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - INTERNET_CACHE_ENTRY_INFO
+ - INTERNET_CACHE_ENTRY_INFOA
+ - INTERNET_CACHE_ENTRY_INFOW
 ---
 
 # INTERNET_CACHE_ENTRY_INFOW structure
@@ -50,29 +56,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about an entry in the Internet cache.
-
 
 ## -struct-fields
 
-
-
-
 ### -field dwStructSize
 
-Size of this structure, in bytes. This value can be used to help determine the version of the cache system. 
-
+Size of this structure, in bytes. This value can be used to help determine the version of the cache system.
 
 ### -field lpszSourceUrlName
 
-Pointer to a null-terminated string that contains the URL name. The string occupies the memory area at the end of this structure. 
-
+Pointer to a null-terminated string that contains the URL name. The string occupies the memory area at the end of this structure.
 
 ### -field lpszLocalFileName
 
-Pointer to a null-terminated string that contains the local file name. The string occupies the memory area at the end of this structure. 
-
+Pointer to a null-terminated string that contains the local file name. The string occupies the memory area at the end of this structure.
 
 ### -field CacheEntryType
 
@@ -116,7 +114,7 @@ Partial response cache entry.
 <td width="60%">
 Sticky cache entry that is exempt from scavenging for the amount of time specified by 
 <b>dwExemptDelta</b>. The default value set by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-commiturlcacheentrya">CommitUrlCacheEntryA</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-commiturlcacheentryw">CommitUrlCacheEntryW</a> is one day. 
+<a href="/windows/desktop/api/wininet/nf-wininet-commiturlcacheentrya">CommitUrlCacheEntryA</a> and <a href="/windows/desktop/api/wininet/nf-wininet-commiturlcacheentryw">CommitUrlCacheEntryW</a> is one day. 
 
 </td>
 </tr>
@@ -184,120 +182,96 @@ Visited link cache entry.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwUseCount
 
-Current number of WinINEet callers using the cache entry. 
-
+Current number of WinINEet callers using the cache entry.
 
 ### -field dwHitRate
 
-Number of times the cache entry was retrieved. 
-
+Number of times the cache entry was retrieved.
 
 ### -field dwSizeLow
 
-Low-order portion of the file size, in <b>bytes</b>. 
-
+Low-order portion of the file size, in <b>bytes</b>.
 
 ### -field dwSizeHigh
 
-High-order portion of the file size, in <b>bytes</b>. 
-
+High-order portion of the file size, in <b>bytes</b>.
 
 ### -field LastModifiedTime
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last modified time of this URL, in Greenwich mean time format. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last modified time of this URL, in Greenwich mean time format.
 
 ### -field ExpireTime
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the expiration time of this file, in Greenwich mean time format. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the expiration time of this file, in Greenwich mean time format.
 
 ### -field LastAccessTime
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last accessed time, in Greenwich mean time format. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last accessed time, in Greenwich mean time format.
 
 ### -field LastSyncTime
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last time the cache was synchronized. 
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last time the cache was synchronized.
 
 ### -field lpHeaderInfo
 
-Pointer to a buffer that contains the header information. The buffer occupies the memory at the end of this structure. 
-
+Pointer to a buffer that contains the header information. The buffer occupies the memory at the end of this structure.
 
 ### -field dwHeaderInfoSize
 
 Size of the 
-<b>lpHeaderInfo</b> buffer, in <b>TCHARs</b>. 
-
+<b>lpHeaderInfo</b> buffer, in <b>TCHARs</b>.
 
 ### -field lpszFileExtension
 
-Pointer to a string that contains the file name extension used to retrieve the data as a file. The string occupies the memory area at the end of this structure. 
-
+Pointer to a string that contains the file name extension used to retrieve the data as a file. The string occupies the memory area at the end of this structure.
 
 ### -field dwReserved
 
-
 ### -field dwExemptDelta
 
-Exemption time from the last accessed time, in seconds. 
-
+Exemption time from the last accessed time, in seconds.
 
 ## -remarks
 
-
-
 There is no cache entry size limit, so applications that need to enumerate the cache must be prepared to allocate variable-sized buffers. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-b-using-buffers">Using Buffers</a>.
+<a href="/windows/desktop/WinInet/appendix-b-using-buffers">Using Buffers</a>.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The wininet.h header defines INTERNET_CACHE_ENTRY_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentrya">FindFirstUrlCacheEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentrya">FindFirstUrlCacheEntry</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentryexa">FindFirstUrlCacheEntryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentryexa">FindFirstUrlCacheEntryEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentryexa">FindNextUrlCacheEntryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentryexa">FindNextUrlCacheEntryEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoa">GetUrlCacheEntryInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoa">GetUrlCacheEntryInfo</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoexa">GetUrlCacheEntryInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoexa">GetUrlCacheEntryInfoEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-seturlcacheentryinfoa">SetUrlCacheEntryInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wininet/nf-wininet-seturlcacheentryinfoa">SetUrlCacheEntryInfo</a>

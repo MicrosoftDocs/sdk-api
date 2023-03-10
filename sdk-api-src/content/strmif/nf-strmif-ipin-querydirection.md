@@ -2,15 +2,12 @@
 UID: NF:strmif.IPin.QueryDirection
 title: IPin::QueryDirection (strmif.h)
 description: The QueryDirection method gets the direction of the pin (input or output).
+helpviewer_keywords: ["IPin interface [DirectShow]","QueryDirection method","IPin.QueryDirection","IPin::QueryDirection","IPinQueryDirection","QueryDirection","QueryDirection method [DirectShow]","QueryDirection method [DirectShow]","IPin interface","dshow.ipin_querydirection","strmif/IPin::QueryDirection"]
 old-location: dshow\ipin_querydirection.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cc36b5d6-bcca-403d-b840-ceabbf159f5d
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryDirection method, IPin.QueryDirection, IPin::QueryDirection, IPinQueryDirection, QueryDirection, QueryDirection method [DirectShow], QueryDirection method [DirectShow],IPin interface, dshow.ipin_querydirection, strmif/IPin::QueryDirection
-f1_keywords:
-- strmif/IPin.QueryDirection
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.QueryDirection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::QueryDirection
+ - strmif/IPin::QueryDirection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.QueryDirection
 ---
 
 # IPin::QueryDirection
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>QueryDirection</b> method gets the direction of the pin (input or output).
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pPinDir [out]
 
-Receives a member of the [PIN_DIRECTION](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-pin_direction) enumerated type.
-          
-
+Receives a member of the [PIN_DIRECTION](/windows/desktop/api/strmif/ne-strmif-pin_direction) enumerated type.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -101,22 +91,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

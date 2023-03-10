@@ -2,19 +2,16 @@
 UID: NF:dwrite_3.IDWriteFontCollection2.GetMatchingFonts
 title: IDWriteFontCollection2::GetMatchingFonts
 description: Retrieves a list of fonts in the specified font family, ranked in order of how well they match the specified axis values.
+helpviewer_keywords: ["IDWriteFontCollection2 interface [Direct Write]","GetMatchingFonts method","IDWriteFontCollection2.GetMatchingFonts","IDWriteFontCollection2::GetMatchingFonts","GetMatchingFonts","GetMatchingFonts method [Direct Write]","GetMatchingFonts method [Direct Write]","IDWriteFontCollection2 interface","directwrite.idwritefontcollection2_getmatchingfont","dwrite_3/IDWriteFontCollection2::GetMatchingFonts"]
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetMatchingFonts method, IDWriteFontCollection2.GetMatchingFonts, IDWriteFontCollection2::GetMatchingFonts, GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getmatchingfont, dwrite_3/IDWriteFontCollection2::GetMatchingFonts
-f1_keywords:
-- dwrite_3/IDWriteFontCollection2.GetMatchingFonts
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFontCollection2::GetMatchingFonts
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFontCollection2::GetMatchingFonts
+ - dwrite_3/IDWriteFontCollection2::GetMatchingFonts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontCollection2::GetMatchingFonts
 ---
 
 ## -description
@@ -56,7 +58,7 @@ Name of the font family. The name is not case-sensitive, but must otherwise exac
 
 ### -param fontAxisValues
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) const \***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md) const \***
 
 A pointer to an array containing a list of font axis values. The array should be the size (the number of elements) indicated by the *fontAxisValueCount* argument.
 
@@ -68,9 +70,9 @@ The number of font axis values contained in the *fontAxisValues* array.
 
 ### -param fontList [out]
 
-Type: **[IDWriteFontList2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2)\*\***
+Type: **[IDWriteFontList2](./nn-dwrite_3-idwritefontlist2.md)\*\***
 
-The address of a pointer to an [IDWriteFontList2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontlist2) interface. On successful completion, the function sets the pointer to a newly created font list object.
+The address of a pointer to an [IDWriteFontList2](./nn-dwrite_3-idwritefontlist2.md) interface. On successful completion, the function sets the pointer to a newly created font list object.
 
 ## -returns
 
@@ -80,6 +82,6 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 
 ## -remarks
 
-If no fonts match, an empty list object is returned (calling [IDWriteFontList::GetFontCount](/windows/win32/api/dwrite/nf-dwrite-idwritefontlist-getfontcount) on it returns 0), but the function doesn't return an error.
+If no fonts match, an empty list object is returned (calling [IDWriteFontList::GetFontCount](../dwrite/nf-dwrite-idwritefontlist-getfontcount.md) on it returns 0), but the function doesn't return an error.
 
 ## -see-also

@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeLib.SetName
 title: ICreateTypeLib::SetName (oaidl.h)
 description: Sets the name of the type library.
+helpviewer_keywords: ["ICreateTypeLib interface [Automation]","SetName method","ICreateTypeLib.SetName","ICreateTypeLib::SetName","SetName","SetName method [Automation]","SetName method [Automation]","ICreateTypeLib interface","_oa96_ICreateTypeLib_SetName","automat.icreatetypelib_setname","oaidl/ICreateTypeLib::SetName"]
 old-location: automat\icreatetypelib_setname.htm
 tech.root: automat
 ms.assetid: b533d2a1-f008-4345-8545-aebe14aa44f5
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetName method, ICreateTypeLib.SetName, ICreateTypeLib::SetName, SetName, SetName method [Automation], SetName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetName, automat.icreatetypelib_setname, oaidl/ICreateTypeLib::SetName
-f1_keywords:
-- oaidl/ICreateTypeLib.SetName
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeLib.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeLib::SetName
+ - oaidl/ICreateTypeLib::SetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeLib.SetName
 ---
 
 # ICreateTypeLib::SetName
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the name of the type library.
 
-
 ## -parameters
-
-
-
 
 ### -param szName [in]
 
 The name to be assigned to the library.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -129,18 +123,7 @@ The state of the type library is not valid for this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>

@@ -1,16 +1,13 @@
 ---
 UID: NS:shlobj_core._FILEGROUPDESCRIPTORW
 title: FILEGROUPDESCRIPTORW (shlobj_core.h)
-description: Defines the CF_FILEGROUPDESCRIPTOR clipboard format.
+description: Defines the CF_FILEGROUPDESCRIPTOR clipboard format. (Unicode)
+helpviewer_keywords: ["*LPFILEGROUPDESCRIPTORW","FILEGROUPDESCRIPTOR","FILEGROUPDESCRIPTOR structure [Windows Shell]","FILEGROUPDESCRIPTORA","FILEGROUPDESCRIPTORW","LPFILEGROUPDESCRIPTOR","LPFILEGROUPDESCRIPTOR structure pointer [Windows Shell]","_FILEGROUPDESCRIPTORA","_FILEGROUPDESCRIPTORW","_win32_FILEGROUPDESCRIPTOR","shell.FILEGROUPDESCRIPTOR","shlobj_core/FILEGROUPDESCRIPTOR","shlobj_core/LPFILEGROUPDESCRIPTOR"]
 old-location: shell\FILEGROUPDESCRIPTOR.htm
 tech.root: shell
 ms.assetid: 9357ab73-086c-44db-8f89-e14240647e89
 ms.date: 12/05/2018
 ms.keywords: '*LPFILEGROUPDESCRIPTORW, FILEGROUPDESCRIPTOR, FILEGROUPDESCRIPTOR structure [Windows Shell], FILEGROUPDESCRIPTORA, FILEGROUPDESCRIPTORW, LPFILEGROUPDESCRIPTOR, LPFILEGROUPDESCRIPTOR structure pointer [Windows Shell], _FILEGROUPDESCRIPTORA, _FILEGROUPDESCRIPTORW, _win32_FILEGROUPDESCRIPTOR, shell.FILEGROUPDESCRIPTOR, shlobj_core/FILEGROUPDESCRIPTOR, shlobj_core/LPFILEGROUPDESCRIPTOR'
-f1_keywords:
-- shlobj_core/FILEGROUPDESCRIPTOR
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj_core.h
-api_name:
-- FILEGROUPDESCRIPTOR
-- FILEGROUPDESCRIPTORA
-- FILEGROUPDESCRIPTORW
 targetos: Windows
 req.typenames: FILEGROUPDESCRIPTORW, *LPFILEGROUPDESCRIPTORW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILEGROUPDESCRIPTORW
+ - shlobj_core/_FILEGROUPDESCRIPTORW
+ - LPFILEGROUPDESCRIPTORW
+ - shlobj_core/LPFILEGROUPDESCRIPTORW
+ - FILEGROUPDESCRIPTORW
+ - shlobj_core/FILEGROUPDESCRIPTORW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj_core.h
+api_name:
+ - FILEGROUPDESCRIPTOR
+ - FILEGROUPDESCRIPTORA
+ - FILEGROUPDESCRIPTORW
 ---
 
 # FILEGROUPDESCRIPTORW structure
@@ -50,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the CF_FILEGROUPDESCRIPTOR clipboard format.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cItems
 
@@ -65,10 +66,13 @@ Type: <b>UINT</b>
 
 The number of elements in <b>fgd</b>.
 
-
 ### -field fgd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora">FILEDESCRIPTOR</a>[1]</b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora">FILEDESCRIPTOR</a>[1]</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora">FILEDESCRIPTOR</a> structures that contain the file information.
+An array of <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora">FILEDESCRIPTOR</a> structures that contain the file information.
 
+## -remarks
+
+> [!NOTE]
+> The shlobj_core.h header defines FILEGROUPDESCRIPTOR as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

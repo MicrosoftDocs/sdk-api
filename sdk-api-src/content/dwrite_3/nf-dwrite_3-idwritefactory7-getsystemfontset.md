@@ -1,20 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory7.GetSystemFontSet
 title: IDWriteFactory7::GetSystemFontSet
-description: Retrieves the set of system fonts.
+description: Retrieves the set of system fonts. (IDWriteFactory7::GetSystemFontSet)
+helpviewer_keywords: ["IDWriteFactory7 interface [Direct Write]","GetSystemFontSet method","IDWriteFactory7.GetSystemFontSet","IDWriteFactory7::GetSystemFontSet","GetSystemFontSet","GetSystemFontSet method [Direct Write]","GetSystemFontSet method [Direct Write]","IDWriteFactory7 interface","directwrite.idwritefactory7_getsystemfontset","dwrite_3/IDWriteFactory7::GetSystemFontSet"]
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: IDWriteFactory7 interface [Direct Write],GetSystemFontSet method, IDWriteFactory7.GetSystemFontSet, IDWriteFactory7::GetSystemFontSet, GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory7 interface, directwrite.idwritefactory7_getsystemfontset, dwrite_3/IDWriteFactory7::GetSystemFontSet
-f1_keywords:
-- dwrite_3/IDWriteFactory7.GetSystemFontSet
-dev_langs:
-- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,19 +24,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dwrite.lib
-- Dwrite.dll
-api_name:
-- IDWriteFactory7::GetSystemFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IDWriteFactory7::GetSystemFontSet
+ - dwrite_3/IDWriteFactory7::GetSystemFontSet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory7::GetSystemFontSet
 ---
 
 ## -description
@@ -56,9 +58,9 @@ Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
 
 ### -param fontSet
 
-Type: **[IDWriteFontSet2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2)\*\***
+Type: **[IDWriteFontSet2](./nn-dwrite_3-idwritefontset2.md)\*\***
 
-The address of a pointer to an [IDWriteFontSet2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset2) interface. On successful completion, the function sets the pointer to the font set object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontSet2](./nn-dwrite_3-idwritefontset2.md) interface. On successful completion, the function sets the pointer to the font set object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 

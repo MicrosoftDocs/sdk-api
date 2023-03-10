@@ -2,15 +2,12 @@
 UID: NE:mfidl._MFCLOCK_RELATIONAL_FLAGS
 title: MFCLOCK_RELATIONAL_FLAGS (mfidl.h)
 description: Defines properties of a clock.
+helpviewer_keywords: ["MFCLOCK_RELATIONAL_FLAGS","MFCLOCK_RELATIONAL_FLAGS enumeration [Media Foundation]","MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD","d70b432c-6ebd-405c-993f-12c4540736d7","mf.mfclock_relational_flags","mfidl/MFCLOCK_RELATIONAL_FLAGS","mfidl/MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD"]
 old-location: mf\mfclock_relational_flags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d70b432c-6ebd-405c-993f-12c4540736d7
 ms.date: 12/05/2018
 ms.keywords: MFCLOCK_RELATIONAL_FLAGS, MFCLOCK_RELATIONAL_FLAGS enumeration [Media Foundation], MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD, d70b432c-6ebd-405c-993f-12c4540736d7, mf.mfclock_relational_flags, mfidl/MFCLOCK_RELATIONAL_FLAGS, mfidl/MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD
-f1_keywords:
-- mfidl/MFCLOCK_RELATIONAL_FLAGS
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mfidl.h
-api_name:
-- MFCLOCK_RELATIONAL_FLAGS
 targetos: Windows
 req.typenames: MFCLOCK_RELATIONAL_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MFCLOCK_RELATIONAL_FLAGS
+ - mfidl/_MFCLOCK_RELATIONAL_FLAGS
+ - MFCLOCK_RELATIONAL_FLAGS
+ - mfidl/MFCLOCK_RELATIONAL_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mfidl.h
+api_name:
+ - MFCLOCK_RELATIONAL_FLAGS
 ---
 
 # MFCLOCK_RELATIONAL_FLAGS enumeration
@@ -48,34 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Defines properties of a clock.
-
-
-
 
 ## -enum-fields
 
+### -field MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD:0x1
 
-
-
-### -field MFCLOCK_RELATIONAL_FLAG_JITTER_NEVER_AHEAD
-
-Jitter values are always negative. In other words, the time returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">IMFClock::GetCorrelatedTime</a> might jitter behind the actual clock time, but will never jitter ahead of the actual time. If this flag is not present, the clock might jitter in either direction.
-
+Jitter values are always negative. In other words, the time returned by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclock-getcorrelatedtime">IMFClock::GetCorrelatedTime</a> might jitter behind the actual clock time, but will never jitter ahead of the actual time. If this flag is not present, the clock might jitter in either direction.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/ns-mfidl-mfclock_properties">MFCLOCK_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfclock_properties">MFCLOCK_PROPERTIES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

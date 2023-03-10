@@ -2,15 +2,12 @@
 UID: NF:vidcap.IKsTopologyInfo.get_NodeName
 title: IKsTopologyInfo::get_NodeName (vidcap.h)
 description: The get_NodeName method returns the name of the node.
+helpviewer_keywords: ["IKsTopologyInfo interface [DirectShow]","get_NodeName method","IKsTopologyInfo.get_NodeName","IKsTopologyInfo::get_NodeName","IKsTopologyInfoget_NodeName","dshow.ikstopologyinfo_get_nodename","get_NodeName","get_NodeName method [DirectShow]","get_NodeName method [DirectShow]","IKsTopologyInfo interface","vidcap/IKsTopologyInfo::get_NodeName"]
 old-location: dshow\ikstopologyinfo_get_nodename.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 3e24ef6f-e49d-4397-a9b8-a46fcf576a01
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeName method, IKsTopologyInfo.get_NodeName, IKsTopologyInfo::get_NodeName, IKsTopologyInfoget_NodeName, dshow.ikstopologyinfo_get_nodename, get_NodeName, get_NodeName method [DirectShow], get_NodeName method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeName
-f1_keywords:
-- vidcap/IKsTopologyInfo.get_NodeName
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vidcap.h
-api_name:
-- IKsTopologyInfo.get_NodeName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKsTopologyInfo::get_NodeName
+ - vidcap/IKsTopologyInfo::get_NodeName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vidcap.h
+api_name:
+ - IKsTopologyInfo.get_NodeName
 ---
 
 # IKsTopologyInfo::get_NodeName
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>get_NodeName</code> method returns the name of the node.
-
 
 ## -parameters
 
-
-
-
 ### -param dwNodeId [in]
 
-Index of the node. To find the number of nodes, call the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numnodes">IKsTopologyInfo::get_NumNodes</a> method.
-
+Index of the node. To find the number of nodes, call the <a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-get_numnodes">IKsTopologyInfo::get_NumNodes</a> method.
 
 ### -param pwchNodeName [out]
 
 Pointer to a wide-character array that receives the name. To find the required buffer size, set this parameter to <b>NULL</b>. The size is returned in the <i>pdwNameLen</i> parameter.
 
-
 ### -param dwBufSize [in]
 
 Size of the <i>pwchNodeName</i> array, in bytes.
-
 
 ### -param pdwNameLen [out]
 
 Receives the buffer size required to hold the name, in bytes. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,14 +102,8 @@ The buffer is not large enough.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To find the buffer size for the name, call the method once with <b>NULL</b> for the <i>pwchNodeName</i> parameter and zero for the <i>dwBufSize</i> parameter. The method returns the buffer size in <i>pdwNameLen</i>. The method's return value, in this case, is HRESULT_FROM_WIN32(ERROR_MORE_DATA). Then allocate the array and call the method again.
 
@@ -152,21 +137,10 @@ if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
- 
-
- 
-
+<a href="/windows/windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:ehstorapi.IEnumEnhancedStorageACT.GetACTs
 title: IEnumEnhancedStorageACT::GetACTs (ehstorapi.h)
 description: Returns an enumeration of all the Addressable Command Targets (ACT) currently connected to the system. If at least one ACT is present, the Enhanced Storage API allocates an array of 1 or more IEnumEnhancedStorageACT pointers.
+helpviewer_keywords: ["GetACTs","GetACTs method [Enhanced Storage]","GetACTs method [Enhanced Storage]","IEnumEnhancedStorageACT interface","IEnumEnhancedStorageACT interface [Enhanced Storage]","GetACTs method","IEnumEnhancedStorageACT.GetACTs","IEnumEnhancedStorageACT::GetACTs","ehstorapi/IEnumEnhancedStorageACT::GetACTs","enstor.ienumenhancedstorageact_getacts"]
 old-location: enstor\ienumenhancedstorageact_getacts.htm
 tech.root: enstor
 ms.assetid: 139bb8ed-faca-4fe7-ab6f-63c71d25a711
 ms.date: 12/05/2018
 ms.keywords: GetACTs, GetACTs method [Enhanced Storage], GetACTs method [Enhanced Storage],IEnumEnhancedStorageACT interface, IEnumEnhancedStorageACT interface [Enhanced Storage],GetACTs method, IEnumEnhancedStorageACT.GetACTs, IEnumEnhancedStorageACT::GetACTs, ehstorapi/IEnumEnhancedStorageACT::GetACTs, enstor.ienumenhancedstorageact_getacts
-f1_keywords:
-- ehstorapi/IEnumEnhancedStorageACT.GetACTs
-dev_langs:
-- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EhStorAPI.h
-api_name:
-- IEnumEnhancedStorageACT.GetACTs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumEnhancedStorageACT::GetACTs
+ - ehstorapi/IEnumEnhancedStorageACT::GetACTs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EhStorAPI.h
+api_name:
+ - IEnumEnhancedStorageACT.GetACTs
 ---
 
 # IEnumEnhancedStorageACT::GetACTs
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns an enumeration of all the Addressable Command Targets (ACT) currently connected to the system. If at least one ACT is present, the Enhanced Storage API allocates an array of 1 or more <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a> pointers.
-
+Returns an enumeration of all the Addressable Command Targets (ACT) currently connected to the system. If at least one ACT is present, the Enhanced Storage API allocates an array of 1 or more <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a> pointers.
 
 ## -parameters
 
-
-
-
 ### -param pppIEnhancedStorageACTs [out]
 
-Array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> interface pointers that represent the ACTs for all devices connected to the system. This array is allocated within the API.
-
+Array of <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> interface pointers that represent the ACTs for all devices connected to the system. This array is allocated within the API.
 
 ### -param pcEnhancedStorageACTs
 
-Count of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> pointers returned. This is the dimension of the  array represented by <i>pppIEnhancedStorageACTs</i>.
-
+Count of <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> pointers returned. This is the dimension of the  array represented by <i>pppIEnhancedStorageACTs</i>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,27 +105,11 @@ Operation failed due to insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The memory containing the array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> interfaces is allocated by the Enhanced Storage API and must be freed by passing the returned pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> method.
-
-
-
+The memory containing the array of <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a> interfaces is allocated by the Enhanced Storage API and must be freed by passing the returned pointer to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>

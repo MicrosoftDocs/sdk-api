@@ -2,15 +2,12 @@
 UID: NF:winsync.IFeedClockVector.GetUpdateCount
 title: IFeedClockVector::GetUpdateCount (winsync.h)
 description: Gets the number of updates that have been made to the FeedSync item.
+helpviewer_keywords: ["GetUpdateCount","GetUpdateCount method [Windows Sync]","GetUpdateCount method [Windows Sync]","IFeedClockVector interface","IFeedClockVector interface [Windows Sync]","GetUpdateCount method","IFeedClockVector.GetUpdateCount","IFeedClockVector::GetUpdateCount","winsync.ifeedclockvector_getupdatecount","winsync/IFeedClockVector::GetUpdateCount"]
 old-location: winsync\ifeedclockvector_getupdatecount.htm
 tech.root: winsync
 ms.assetid: a8cf6b0f-2049-4047-b72d-34530ae82605
 ms.date: 12/05/2018
 ms.keywords: GetUpdateCount, GetUpdateCount method [Windows Sync], GetUpdateCount method [Windows Sync],IFeedClockVector interface, IFeedClockVector interface [Windows Sync],GetUpdateCount method, IFeedClockVector.GetUpdateCount, IFeedClockVector::GetUpdateCount, winsync.ifeedclockvector_getupdatecount, winsync/IFeedClockVector::GetUpdateCount
-f1_keywords:
-- winsync/IFeedClockVector.GetUpdateCount
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IFeedClockVector.GetUpdateCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFeedClockVector::GetUpdateCount
+ - winsync/IFeedClockVector::GetUpdateCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IFeedClockVector.GetUpdateCount
 ---
 
 # IFeedClockVector::GetUpdateCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of updates that have been made to the FeedSync item.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwUpdateCount [out]
 
 Returns the number of updates that have been made to the FeedSync item. This value corresponds to the <b>updates</b> attribute of the FeedSync item.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,18 +90,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvector">IFeedClockVector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ifeedclockvector">IFeedClockVector Interface</a>

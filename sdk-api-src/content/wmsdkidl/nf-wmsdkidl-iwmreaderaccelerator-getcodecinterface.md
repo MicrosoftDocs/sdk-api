@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderAccelerator.GetCodecInterface
 title: IWMReaderAccelerator::GetCodecInterface (wmsdkidl.h)
 description: The GetCodecInterface method is used to retrieve a pointer to the IWMCodecAMVideoAccelerator interface exposed on the decoder DMO.
+helpviewer_keywords: ["GetCodecInterface","GetCodecInterface method [windows Media Format]","GetCodecInterface method [windows Media Format]","IWMReaderAccelerator interface","IWMReaderAccelerator interface [windows Media Format]","GetCodecInterface method","IWMReaderAccelerator.GetCodecInterface","IWMReaderAccelerator::GetCodecInterface","IWMReaderAcceleratorGetCodecInterface","wmformat.iwmreaderaccelerator_getcodecinterface","wmsdkidl/IWMReaderAccelerator::GetCodecInterface"]
 old-location: wmformat\iwmreaderaccelerator_getcodecinterface.htm
 tech.root: wmformat
 ms.assetid: e38c02bb-335c-4f93-9e98-1a9dc65a37c5
 ms.date: 12/05/2018
 ms.keywords: GetCodecInterface, GetCodecInterface method [windows Media Format], GetCodecInterface method [windows Media Format],IWMReaderAccelerator interface, IWMReaderAccelerator interface [windows Media Format],GetCodecInterface method, IWMReaderAccelerator.GetCodecInterface, IWMReaderAccelerator::GetCodecInterface, IWMReaderAcceleratorGetCodecInterface, wmformat.iwmreaderaccelerator_getcodecinterface, wmsdkidl/IWMReaderAccelerator::GetCodecInterface
-f1_keywords:
-- wmsdkidl/IWMReaderAccelerator.GetCodecInterface
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderAccelerator.GetCodecInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderAccelerator::GetCodecInterface
+ - wmsdkidl/IWMReaderAccelerator::GetCodecInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderAccelerator.GetCodecInterface
 ---
 
 # IWMReaderAccelerator::GetCodecInterface
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DMO</a>.
-
-
-
+The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="/windows/desktop/api/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="/windows/desktop/wmformat/wmformat-glossary">DMO</a>.
 
 ## -parameters
-
-
-
 
 ### -param dwOutputNum [in]
 
 <b>DWORD</b> containing the output number.
 
-
 ### -param riid [in]
 
 Reference to the IID of the interface to obtain. The value must be IID_IWMCodecAMVideoAccelerator.
-
 
 ### -param ppvCodecInterface [out]
 
 Address of a pointer that receives the interface specified by <i>riid</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,22 +101,11 @@ The WM Reader has no pointer to the codec.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator">IWMReaderAccelerator Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator">IWMReaderAccelerator Interface</a>

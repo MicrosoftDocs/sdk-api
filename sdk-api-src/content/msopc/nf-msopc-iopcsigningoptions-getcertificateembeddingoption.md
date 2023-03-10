@@ -2,15 +2,12 @@
 UID: NF:msopc.IOpcSigningOptions.GetCertificateEmbeddingOption
 title: IOpcSigningOptions::GetCertificateEmbeddingOption (msopc.h)
 description: Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
+helpviewer_keywords: ["GetCertificateEmbeddingOption","GetCertificateEmbeddingOption method [Open Packaging Conventions]","GetCertificateEmbeddingOption method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetCertificateEmbeddingOption method","IOpcSigningOptions.GetCertificateEmbeddingOption","IOpcSigningOptions::GetCertificateEmbeddingOption","msopc/IOpcSigningOptions::GetCertificateEmbeddingOption","opc.iopcsigningoptions_getcertificateembeddingoption"]
 old-location: opc\iopcsigningoptions_getcertificateembeddingoption.htm
 tech.root: OPC
 ms.assetid: 86f83829-0507-4918-ae7f-71738f985068
 ms.date: 12/05/2018
 ms.keywords: GetCertificateEmbeddingOption, GetCertificateEmbeddingOption method [Open Packaging Conventions], GetCertificateEmbeddingOption method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateEmbeddingOption method, IOpcSigningOptions.GetCertificateEmbeddingOption, IOpcSigningOptions::GetCertificateEmbeddingOption, msopc/IOpcSigningOptions::GetCertificateEmbeddingOption, opc.iopcsigningoptions_getcertificateembeddingoption
-f1_keywords:
-- msopc/IOpcSigningOptions.GetCertificateEmbeddingOption
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcSigningOptions.GetCertificateEmbeddingOption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcSigningOptions::GetCertificateEmbeddingOption
+ - msopc/IOpcSigningOptions::GetCertificateEmbeddingOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcSigningOptions.GetCertificateEmbeddingOption
 ---
 
 # IOpcSigningOptions::GetCertificateEmbeddingOption
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
 
-
 ## -parameters
-
-
-
 
 ### -param embeddingOption [out, retval]
 
 A value that specifies the location of the certificate.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,50 +85,38 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <i>embeddingOption</i> parameter is not a valid <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> enum value.
+The <i>embeddingOption</i> parameter is not a valid <a href="/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a> enum value.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The default location of the certificate is <b>OPC_CERTIFICATE_IN_CERTIFICATE_PART</b>. To change this value, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setcertificateembeddingoption">IOpcSigningOptions::SetCertificateEmbeddingOption</a> method.
+The default location of the certificate is <b>OPC_CERTIFICATE_IN_CERTIFICATE_PART</b>. To change this value, call the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setcertificateembeddingoption">IOpcSigningOptions::SetCertificateEmbeddingOption</a> method.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
-
-
-
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcsigningoptions">IOpcSigningOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_certificate_embedding_option">OPC_CERTIFICATE_EMBEDDING_OPTION</a>
 
 
 
@@ -142,28 +124,24 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

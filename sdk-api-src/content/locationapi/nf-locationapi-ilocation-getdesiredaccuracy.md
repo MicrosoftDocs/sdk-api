@@ -2,15 +2,12 @@
 UID: NF:locationapi.ILocation.GetDesiredAccuracy
 title: ILocation::GetDesiredAccuracy (locationapi.h)
 description: Retrieves the current requested accuracy setting.
+helpviewer_keywords: ["GetDesiredAccuracy","GetDesiredAccuracy method [WinLocation]","GetDesiredAccuracy method [WinLocation]","ILocation interface","ILocation interface [WinLocation]","GetDesiredAccuracy method","ILocation.GetDesiredAccuracy","ILocation::GetDesiredAccuracy","locationapi/ILocation::GetDesiredAccuracy","winlocation.ilocation_getdesiredaccuracy"]
 old-location: winlocation\ilocation_getdesiredaccuracy.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: caa34e34-7370-4e42-9c0f-00498f5fc37d
 ms.date: 12/05/2018
 ms.keywords: GetDesiredAccuracy, GetDesiredAccuracy method [WinLocation], GetDesiredAccuracy method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetDesiredAccuracy method, ILocation.GetDesiredAccuracy, ILocation::GetDesiredAccuracy, locationapi/ILocation::GetDesiredAccuracy, winlocation.ilocation_getdesiredaccuracy
-f1_keywords:
-- locationapi/ILocation.GetDesiredAccuracy
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILocation.GetDesiredAccuracy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocation::GetDesiredAccuracy
+ - locationapi/ILocation::GetDesiredAccuracy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILocation.GetDesiredAccuracy
 ---
 
 # ILocation::GetDesiredAccuracy
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Retrieves the current requested accuracy setting.
 
-
 ## -parameters
-
-
-
 
 ### -param reportType [in]
 
 <b>REFIID</b> that specifies the report type for which to get the requested accuracy.
 
+### -param unnamedParam2 [out]
 
-### -param arg2 [out]
-
-The address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> that receives the accuracy value. If the report is not registered, this will be set to <b>NULL</b>.
-
+The address of a <a href="/previous-versions/windows/desktop/legacy/dd756639(v=vs.85)">LOCATION_DESIRED_ACCURACY</a> that receives the accuracy value. If the report is not registered, this will be set to <b>NULL</b>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,18 +108,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>

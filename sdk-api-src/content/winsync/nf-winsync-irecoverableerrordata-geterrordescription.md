@@ -2,15 +2,12 @@
 UID: NF:winsync.IRecoverableErrorData.GetErrorDescription
 title: IRecoverableErrorData::GetErrorDescription (winsync.h)
 description: Gets the description of the error.
+helpviewer_keywords: ["GetErrorDescription","GetErrorDescription method [Windows Sync]","GetErrorDescription method [Windows Sync]","IRecoverableErrorData interface","IRecoverableErrorData interface [Windows Sync]","GetErrorDescription method","IRecoverableErrorData.GetErrorDescription","IRecoverableErrorData::GetErrorDescription","winsync.irecoverableerrordata_geterrordescription","winsync/IRecoverableErrorData::GetErrorDescription"]
 old-location: winsync\irecoverableerrordata_geterrordescription.htm
 tech.root: winsync
 ms.assetid: 9bd268aa-683d-4a77-966c-7cba0348d034
 ms.date: 12/05/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [Windows Sync], GetErrorDescription method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetErrorDescription method, IRecoverableErrorData.GetErrorDescription, IRecoverableErrorData::GetErrorDescription, winsync.irecoverableerrordata_geterrordescription, winsync/IRecoverableErrorData::GetErrorDescription
-f1_keywords:
-- winsync/IRecoverableErrorData.GetErrorDescription
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IRecoverableErrorData.GetErrorDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRecoverableErrorData::GetErrorDescription
+ - winsync/IRecoverableErrorData::GetErrorDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IRecoverableErrorData.GetErrorDescription
 ---
 
 # IRecoverableErrorData::GetErrorDescription
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the description of the error.
 
-
 ## -parameters
-
-
-
 
 ### -param pszErrorDescription [in, out]
 
 Returns the description of the error.
 
-
 ### -param pcchErrorDescription [in, out]
 
 Specifies the number of characters in <i>pszErrorDescription</i>. Returns the required number of characters for <i>pszErrorDescription</i> when <i>pcchErrorDescription</i> is too small; otherwise, returns the number of characters written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -120,18 +113,7 @@ Invalid pointer.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerrordata">IRecoverableErrorData Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerrordata">IRecoverableErrorData Interface</a>

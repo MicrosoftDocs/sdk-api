@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaThreshold
 title: IDiskQuotaControl::GetDefaultQuotaThreshold (dskquota.h)
 description: Retrieves the default quota warning threshold for the volume.
+helpviewer_keywords: ["GetDefaultQuotaThreshold","GetDefaultQuotaThreshold method [Files]","GetDefaultQuotaThreshold method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetDefaultQuotaThreshold method","IDiskQuotaControl.GetDefaultQuotaThreshold","IDiskQuotaControl::GetDefaultQuotaThreshold","_win32_idiskquotacontrol_getdefaultquotathreshold","base.idiskquotacontrol_getdefaultquotathreshold","dskquota/IDiskQuotaControl::GetDefaultQuotaThreshold","fs.idiskquotacontrol_getdefaultquotathreshold"]
 old-location: fs\idiskquotacontrol_getdefaultquotathreshold.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e57ec1c0-cece-4379-a695-a33c832ea7af
 ms.date: 12/05/2018
 ms.keywords: GetDefaultQuotaThreshold, GetDefaultQuotaThreshold method [Files], GetDefaultQuotaThreshold method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaThreshold method, IDiskQuotaControl.GetDefaultQuotaThreshold, IDiskQuotaControl::GetDefaultQuotaThreshold, _win32_idiskquotacontrol_getdefaultquotathreshold, base.idiskquotacontrol_getdefaultquotathreshold, dskquota/IDiskQuotaControl::GetDefaultQuotaThreshold, fs.idiskquotacontrol_getdefaultquotathreshold
-f1_keywords:
-- dskquota/IDiskQuotaControl.GetDefaultQuotaThreshold
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.GetDefaultQuotaThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::GetDefaultQuotaThreshold
+ - dskquota/IDiskQuotaControl::GetDefaultQuotaThreshold
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.GetDefaultQuotaThreshold
 ---
 
 # IDiskQuotaControl::GetDefaultQuotaThreshold
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the default quota warning threshold for the volume. This threshold is applied automatically to new users of the volume.
 
-
 ## -parameters
-
-
-
 
 ### -param pllThreshold [out]
 
 The default warning threshold value, in bytes.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -151,26 +145,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

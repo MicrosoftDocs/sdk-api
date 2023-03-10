@@ -2,15 +2,12 @@
 UID: NS:wincrypt._OCSP_RESPONSE_INFO
 title: OCSP_RESPONSE_INFO (wincrypt.h)
 description: Indicates the success or failure of the corresponding online certificate status protocol (OCSP) request. For successful requests, it contains the type and value of response information.
+helpviewer_keywords: ["*POCSP_RESPONSE_INFO","OCSP_INTERNAL_ERROR_RESPONSE","OCSP_MALFORMED_REQUEST_RESPONSE","OCSP_RESPONSE_INFO","OCSP_RESPONSE_INFO structure [Security]","OCSP_SIG_REQUIRED_RESPONSE","OCSP_SUCCESSFUL_RESPONSE","OCSP_TRY_LATER_RESPONSE","OCSP_UNAUTHORIZED_RESPONSE","POCSP_RESPONSE_INFO","POCSP_RESPONSE_INFO structure pointer [Security]","security.ocsp_response_info","szOID_PKIX_OCSP_BASIC_SIGNED_RESPONSE","wincrypt/OCSP_RESPONSE_INFO","wincrypt/POCSP_RESPONSE_INFO"]
 old-location: security\ocsp_response_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: e3829739-dd10-4886-8048-cd1b1b712d56
 ms.date: 12/05/2018
 ms.keywords: '*POCSP_RESPONSE_INFO, OCSP_INTERNAL_ERROR_RESPONSE, OCSP_MALFORMED_REQUEST_RESPONSE, OCSP_RESPONSE_INFO, OCSP_RESPONSE_INFO structure [Security], OCSP_SIG_REQUIRED_RESPONSE, OCSP_SUCCESSFUL_RESPONSE, OCSP_TRY_LATER_RESPONSE, OCSP_UNAUTHORIZED_RESPONSE, POCSP_RESPONSE_INFO, POCSP_RESPONSE_INFO structure pointer [Security], security.ocsp_response_info, szOID_PKIX_OCSP_BASIC_SIGNED_RESPONSE, wincrypt/OCSP_RESPONSE_INFO, wincrypt/POCSP_RESPONSE_INFO'
-f1_keywords:
-- wincrypt/OCSP_RESPONSE_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- OCSP_RESPONSE_INFO
 targetos: Windows
 req.typenames: OCSP_RESPONSE_INFO, *POCSP_RESPONSE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OCSP_RESPONSE_INFO
+ - wincrypt/_OCSP_RESPONSE_INFO
+ - POCSP_RESPONSE_INFO
+ - wincrypt/POCSP_RESPONSE_INFO
+ - OCSP_RESPONSE_INFO
+ - wincrypt/OCSP_RESPONSE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - OCSP_RESPONSE_INFO
 ---
 
 # OCSP_RESPONSE_INFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OCSP_RESPONSE_INFO</b> structure indicates the success or failure of the corresponding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request. For successful requests, it contains the type and value of response information.
-
+The <b>OCSP_RESPONSE_INFO</b> structure indicates the success or failure of the corresponding <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) request. For successful requests, it contains the type and value of response information.
 
 ## -struct-fields
-
-
-
 
 ### -field dwStatus
 
@@ -149,8 +150,6 @@ The client is not authorized to request a response from this responder service.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pszObjId
 
@@ -177,34 +176,19 @@ The following table lists possible values for <b>pszObjId</b>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Value
 
-An array of bytes that contain data encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER), as specified by <b>pszObjId</b>.
-
+An array of bytes that contain data encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER), as specified by <b>pszObjId</b>.
 
 ## -remarks
 
-
-
 OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCODING</b> or <b>PKCS_7_ASN_ENCODING</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_signed_response_info">OCSP_BASIC_SIGNED_RESPONSE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_signed_response_info">OCSP_BASIC_SIGNED_RESPONSE_INFO</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=91156">RFC 2560  Online Certificate Status Protocol</a>
- 
-
- 
-
+<a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>

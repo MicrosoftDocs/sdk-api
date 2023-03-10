@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument.Open
 title: ITextDocument::Open (tom.h)
 description: Opens a specified document. There are parameters to specify access and sharing privileges, creation and conversion of the file, as well as the code page for the file.
+helpviewer_keywords: ["ITextDocument interface [Windows Controls]","Open method","ITextDocument.Open","ITextDocument::Open","Open","Open method [Windows Controls]","Open method [Windows Controls]","ITextDocument interface","_win32_ITextDocument_Open","_win32_ITextDocument_Open_cpp","controls.ITextDocument_Open","controls._win32_ITextDocument_Open","tom/ITextDocument::Open","tomCreateAlways","tomCreateNew","tomHTML","tomOpenAlways","tomOpenExisting","tomPasteFile","tomRTF","tomReadOnly","tomShareDenyRead","tomShareDenyWrite","tomText","tomTruncateExisting","tomWordDocument"]
 old-location: controls\ITextDocument_Open.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\open.htm
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Open method, ITextDocument.Open, ITextDocument::Open, Open, Open method [Windows Controls], Open method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Open, _win32_ITextDocument_Open_cpp, controls.ITextDocument_Open, controls._win32_ITextDocument_Open, tom/ITextDocument::Open, tomCreateAlways, tomCreateNew, tomHTML, tomOpenAlways, tomOpenExisting, tomPasteFile, tomRTF, tomReadOnly, tomShareDenyRead, tomShareDenyWrite, tomText, tomTruncateExisting, tomWordDocument
-f1_keywords:
-- tom/ITextDocument.Open
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument.Open
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument::Open
+ - tom/ITextDocument::Open
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument.Open
 ---
 
 # ITextDocument::Open
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a specified document. There are parameters to specify access and sharing privileges, creation and conversion of the file, as well as the code page for the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pVar [in]
 
 Type: <b>VARIANT*</b>
 
-A <b>VARIANT</b> that specifies the name of the file to open. 
-
+A <b>VARIANT</b> that specifies the name of the file to open.
 
 ### -param Flags
 
@@ -171,17 +167,13 @@ These values are mutually exclusive.
 
 #### tomWordDocument
 
-
 ### -param CodePage
 
 Type: <b>long</b>
 
-The code page to use for the file. Zero (the default value) means <b>CP_ACP</b> (ANSI code page) unless the file begins with a Unicode BOM 0xfeff, in which case the file is considered to be Unicode. Note that code page 1200 is Unicode, <b>CP_UTF8</b> is UTF-8. 
-
+The code page to use for the file. Zero (the default value) means <b>CP_ACP</b> (ANSI code page) unless the file begins with a Unicode BOM 0xfeff, in which case the file is considered to be Unicode. Note that code page 1200 is Unicode, <b>CP_UTF8</b> is UTF-8.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -237,24 +229,18 @@ Feature not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If a document is created with the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-new">ITextDocument::New</a> method and the zero values are used, then the Text Object Model (TOM) engine has to choose which flags and code page to use. UTF-8 Rich Text Format (RTF) (defined below) is an attractive default.
+If a document is created with the <a href="/windows/desktop/api/tom/nf-tom-itextdocument-new">ITextDocument::New</a> method and the zero values are used, then the Text Object Model (TOM) engine has to choose which flags and code page to use. UTF-8 Rich Text Format (RTF) (defined below) is an attractive default.
 
 Microsoft Rich Edit 3.0 defines a control word, \urtf8, which should be used instead of \rtf1. This means the file is encoded in UTF-8. On input, RTF files contain the relevant code-page information, but this can be changed for saving purposes, thereby allowing one version to be translated to another.
 
 If the tomPasteFile flag is not set in the <i>Flags</i> parameter, the method first closes the current document after saving any unsaved changes.
 
-A file is recognized as a Unicode text file if it starts with the Unicode BOM 0xfeff. The <b>ITextDocument::Open</b> method strips off this Unicode BOM on input and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-save">ITextDocument::Save</a> applies it on output. See the comments on the <b>ITextDocument::Save</b> method, which discuss putting the Unicode BOM at the beginning of Unicode plain-text files. The conversion values <b>tomRTF</b>, <b>tomHTML</b>, and <b>tomWordDocument</b> are used primarily for the <b>ITextDocument::Save</b> method, since these formats are easily recognized on input. 
+A file is recognized as a Unicode text file if it starts with the Unicode BOM 0xfeff. The <b>ITextDocument::Open</b> method strips off this Unicode BOM on input and <a href="/windows/desktop/api/tom/nf-tom-itextdocument-save">ITextDocument::Save</a> applies it on output. See the comments on the <b>ITextDocument::Save</b> method, which discuss putting the Unicode BOM at the beginning of Unicode plain-text files. The conversion values <b>tomRTF</b>, <b>tomHTML</b>, and <b>tomWordDocument</b> are used primarily for the <b>ITextDocument::Save</b> method, since these formats are easily recognized on input. 
 
-Errors are reported by negative values, but because file operations have many kinds of errors, you may not need all of the error information provided. In particular, you may not care (or you may already know) which file facility is used, namely Windows (<code>pVar.vt = VT_BSTR</code>) or OLE storage for <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>. By masking off bit 18 of an <b>HRESULT</b> value, you can ignore the difference and compare to its <b>STG_E_xxx</b> value. For example:
+Errors are reported by negative values, but because file operations have many kinds of errors, you may not need all of the error information provided. In particular, you may not care (or you may already know) which file facility is used, namely Windows (<code>pVar.vt = VT_BSTR</code>) or OLE storage for <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>. By masking off bit 18 of an <b>HRESULT</b> value, you can ignore the difference and compare to its <b>STG_E_xxx</b> value. For example:
 
 
 
@@ -274,28 +260,21 @@ if(hr == STG_E_FILENOTFOUND)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -307,12 +286,8 @@ if(hr == STG_E_FILENOTFOUND)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-save">Save</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-save">Save</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

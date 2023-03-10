@@ -2,15 +2,12 @@
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderInfo
 title: ISyncProviderRegistration::GetSyncProviderInfo (syncregistration.h)
 description: Returns an ISyncProviderInfo object for the specific synchronization provider instance ID.
+helpviewer_keywords: ["GetSyncProviderInfo","GetSyncProviderInfo method [Windows Sync]","GetSyncProviderInfo method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","GetSyncProviderInfo method","ISyncProviderRegistration.GetSyncProviderInfo","ISyncProviderRegistration::GetSyncProviderInfo","syncregistration/ISyncProviderRegistration::GetSyncProviderInfo","winsync.isyncproviderregistration_getsyncproviderinfo"]
 old-location: winsync\isyncproviderregistration_getsyncproviderinfo.htm
 tech.root: winsync
 ms.assetid: 894d2314-2210-4a16-a7e6-1ee74638c035
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderInfo, GetSyncProviderInfo method [Windows Sync], GetSyncProviderInfo method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderInfo method, ISyncProviderRegistration.GetSyncProviderInfo, ISyncProviderRegistration::GetSyncProviderInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderInfo, winsync.isyncproviderregistration_getsyncproviderinfo
-f1_keywords:
-- syncregistration/ISyncProviderRegistration.GetSyncProviderInfo
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- ISyncProviderRegistration.GetSyncProviderInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncProviderRegistration::GetSyncProviderInfo
+ - syncregistration/ISyncProviderRegistration::GetSyncProviderInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - ISyncProviderRegistration.GetSyncProviderInfo
 ---
 
 # ISyncProviderRegistration::GetSyncProviderInfo
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> object for the specific synchronization provider instance ID.
-
+Returns an <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> object for the specific synchronization provider instance ID.
 
 ## -parameters
-
-
-
 
 ### -param pguidInstanceId [in]
 
 The unique instance ID of the synchronization provider.
 
-
 ### -param ppProviderInfo [out]
 
 The synchronization provider information object.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -112,35 +105,19 @@ The specified instance ID does not match a registered synchronization provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-By calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderinfo-getsyncprovider">GetSyncProvider</a>method of the <b>ISyncProviderInfo</b> object that is returned by this method,  you can get and set the properties of the synchronization provider, and  obtain the synchronization provider's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider</a> instance.
-
-
-
+By calling the <a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderinfo-getsyncprovider">GetSyncProvider</a> method of the <b>ISyncProviderInfo</b> object that is returned by this method,  you can get and set the properties of the synchronization provider, and  obtain the synchronization provider's <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider</a> instance.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>

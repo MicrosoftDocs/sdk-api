@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUIApplication.OnCreateUICommand
 title: IUIApplication::OnCreateUICommand (uiribbon.h)
 description: Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an IUICommandHandler.
+helpviewer_keywords: ["IUIApplication interface [Windows Ribbon]","OnCreateUICommand method","IUIApplication.OnCreateUICommand","IUIApplication::OnCreateUICommand","OnCreateUICommand","OnCreateUICommand method [Windows Ribbon]","OnCreateUICommand method [Windows Ribbon]","IUIApplication interface","scenicintent_IUIApplication_OnCreateUICommand","uiribbon/IUIApplication::OnCreateUICommand","windowsribbon.windowsribbon_iuiapplication_oncreateuicommand"]
 old-location: windowsribbon\windowsribbon_iuiapplication_oncreateuicommand.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\oncreateuicommand.htm
 ms.date: 12/05/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnCreateUICommand method, IUIApplication.OnCreateUICommand, IUIApplication::OnCreateUICommand, OnCreateUICommand, OnCreateUICommand method [Windows Ribbon], OnCreateUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnCreateUICommand, uiribbon/IUIApplication::OnCreateUICommand, windowsribbon.windowsribbon_iuiapplication_oncreateuicommand
-f1_keywords:
-- uiribbon/IUIApplication.OnCreateUICommand
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIApplication.OnCreateUICommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIApplication::OnCreateUICommand
+ - uiribbon/IUIApplication::OnCreateUICommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIApplication.OnCreateUICommand
 ---
 
 # IUIApplication::OnCreateUICommand
@@ -49,56 +51,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>.
-		
-
+Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>.
 
 ## -parameters
-
-
-
 
 ### -param commandId [in]
 
 Type: <b>UINT32</b>
 
 The ID for the Command, which is specified in the markup resource file.
-				
-
 
 ### -param typeID [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">UI_COMMANDTYPE</a></b>
+Type: <b><a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">UI_COMMANDTYPE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">Command type</a> that is associated with a specific control.
-				
-
+The <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">Command type</a> that is associated with a specific control.
 
 ### -param commandHandler [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>**</b>
 
 When this method returns, contains the address of a pointer to an 
-					<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a> object. This object is a host application 
+					<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a> object. This object is a host application 
 					Command handler that is bound to one or more Commands.
-				
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This callback notification is sent by the Ribbon framework to the host application for each Command declaration encountered 
 				while processing the markup resource file.
@@ -162,19 +145,10 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

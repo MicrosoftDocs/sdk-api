@@ -2,15 +2,12 @@
 UID: NF:errhandlingapi.SetErrorMode
 title: SetErrorMode function (errhandlingapi.h)
 description: Controls whether the system will handle the specified types of serious errors or whether the process will handle them.
+helpviewer_keywords: ["SEM_FAILCRITICALERRORS","SEM_NOALIGNMENTFAULTEXCEPT","SEM_NOGPFAULTERRORBOX","SEM_NOOPENFILEERRORBOX","SetErrorMode","SetErrorMode function","_win32_seterrormode","base.seterrormode","errhandlingapi/SetErrorMode"]
 old-location: base\seterrormode.htm
 tech.root: Debug
 ms.assetid: b88f5577-9124-433c-a7e8-a7f713b7b27d
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOALIGNMENTFAULTEXCEPT, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetErrorMode, SetErrorMode function, _win32_seterrormode, base.seterrormode, errhandlingapi/SetErrorMode
-f1_keywords:
-- errhandlingapi/SetErrorMode
-dev_langs:
-- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-errorhandling-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-errorhandling-l1-1-1.dll
-- API-MS-Win-Core-errorhandling-l1-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
-api_name:
-- SetErrorMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetErrorMode
+ - errhandlingapi/SetErrorMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-errorhandling-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-errorhandling-l1-1-1.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+api_name:
+ - SetErrorMode
 ---
 
 # SetErrorMode function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls whether the system will handle the specified types of serious errors or whether the process will handle them.
 
-
 ## -parameters
-
-
-
 
 ### -param uMode [in]
 
@@ -129,34 +126,25 @@ The system does not display the Windows Error Reporting dialog.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <b>OF_PROMPT</b> flag.
+The <a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <b>OF_PROMPT</b> flag.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 The return value is the previous state of the error-mode bit flags.
-
-
-
 
 ## -remarks
 
-
-
-Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A child process inherits the error mode of its parent process. To retrieve the process error mode, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a> function.
+Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A child process inherits the error mode of its parent process. To retrieve the process error mode, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a> function.
 
 Because the error mode is set for the entire process, you must ensure that multi-threaded applications do not set different error-mode flags. Doing so can lead to inconsistent error handling.
 
 The system does not make alignment faults visible to an application on all processor architectures. Therefore, specifying SEM_NOALIGNMENTFAULTEXCEPT is not an error on such architectures, but the system is free to silently ignore the request. This means that code sequences such as the following are not always valid on x86 computers:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -171,34 +159,22 @@ ASSERT(fuOldErrorMode == SEM_NOALIGNMENTFAULTEXCEPT);</pre>
 <b>Itanium:  </b>An application must explicitly call 
 <b>SetErrorMode</b> with SEM_NOALIGNMENTFAULTEXCEPT to have the system automatically fix alignment faults. The default setting is for the system to make alignment faults visible to an application.
 
-<b>Visual Studio 2005:  </b>When declaring a pointer to a structure that may not have aligned data, you can use the <b>__unaligned</b> keyword to indicate that the type must be read one byte at a time. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=83885">Windows Data Alignment</a>.
+<b>Visual Studio 2005:  </b>When declaring a pointer to a structure that may not have aligned data, you can use the <b>__unaligned</b> keyword to indicate that the type must be read one byte at a time. For more information, see <a href="https://msdn.microsoft.com/library/Aa290049.aspx">Windows Data Alignment</a>.
 
-<b>Windows 7:  </b>Callers should favor <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> over <b>SetErrorMode</b> since it is less disruptive to the normal behavior of the system.  
-
-
-
-
-
+<b>Windows 7:  </b>Callers should favor <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> over <b>SetErrorMode</b> since it is less disruptive to the normal behavior of the system.
 
 ## -see-also
 
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+<a href="/windows/desktop/Debug/error-mode">Error Mode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-mode">Error Mode</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>

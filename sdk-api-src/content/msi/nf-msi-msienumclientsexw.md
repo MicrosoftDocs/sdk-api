@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiEnumClientsExW
 title: MsiEnumClientsExW function (msi.h)
-description: The MsiEnumClientsEx function enumerates the installed applications that use a specified component. The function retrieves a product code for an application each time it is called.
+description: The MsiEnumClientsEx function enumerates the installed applications that use a specified component. The function retrieves a product code for an application each time it is called. (Unicode)
+helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE", "MSIINSTALLCONTEXT_USERMANAGED", "MSIINSTALLCONTEXT_USERUNMANAGED", "MsiEnumClientsEx", "MsiEnumClientsEx function [Setup API]", "MsiEnumClientsExW", "NULL", "User SID", "msi/MsiEnumClientsEx", "msi/MsiEnumClientsExW", "s-1-1-0", "setup.msienumclientsex"]
 old-location: setup\msienumclientsex.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: f7677202-1b3d-4039-86d3-242c3ce984e4
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumClientsEx, MsiEnumClientsEx function [Setup API], MsiEnumClientsExA, MsiEnumClientsExW, NULL, User SID, msi/MsiEnumClientsEx, msi/MsiEnumClientsExA, msi/MsiEnumClientsExW, s-1-1-0, setup.msienumclientsex
-f1_keywords:
-- msi/MsiEnumClientsEx
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnumClientsEx
-- MsiEnumClientsExA
-- MsiEnumClientsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnumClientsExW
+ - msi/MsiEnumClientsExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnumClientsEx
+ - MsiEnumClientsExA
+ - MsiEnumClientsExW
 ---
 
 # MsiEnumClientsExW function
@@ -50,25 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>MsiEnumClientsEx</b> function enumerates the installed applications that use a specified component. The function retrieves a  <a href="https://docs.microsoft.com/windows/desktop/Msi/product-codes">product code</a> for an application each time it is called.
+<b>MsiEnumClientsEx</b> function enumerates the installed applications that use a specified component. The function retrieves a  <a href="/windows/desktop/Msi/product-codes">product code</a> for an application each time it is called.
 
 
-<b><a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
-
-
-
+<b><a href="/windows/desktop/Msi/not-supported-in-windows-installer-4-5">Windows Installer 4.5 or earlier</a>:  </b>Not supported. This function is available beginning with Windows Installer 5.0.
 
 ## -parameters
-
-
-
 
 ### -param szComponent [in]
 
 The component code GUID that identifies the component. The function enumerates the applications that use this component.
-
 
 ### -param szUserSid [in, optional]
 
@@ -165,19 +159,14 @@ Include applications installed in the per-machine installation context. When <i>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwProductIndex [in]
 
 Specifies the index of the application to retrieve.  The value of this parameter must be zero (0) in the first call to the function.  For each subsequent call, the index must be incremented by 1.  The index should only be incremented if the previous call to the function returns <b>ERROR_SUCCESS</b>.
 
-
-
 ### -param szProductBuf [out, optional]
 
 A string value that receives the product code for the application. The length of the buffer at this location should be large enough to hold a  null-terminated string value containing the product code. The first 38 <b>TCHAR</b> characters receives the GUID for the component, and the 39th character receives a terminating  NULL character.
-
 
 ### -param pdwInstalledContext [out, optional]
 
@@ -227,8 +216,6 @@ The application is in the per-machine installation installation context.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szSid [out, optional]
 
@@ -267,8 +254,6 @@ The SID for the user that installed the product.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcchSid [in, out, optional]
 
@@ -278,12 +263,7 @@ Pointer to a location in memory that contains a variable that specifies the numb
 
 This parameter can be set to <b>NULL</b> only if <i>szSid</i> is also <b>NULL</b>, otherwise the function returns <b>ERROR_INVALID_PARAMETER</b>. If <i>szSid</i> and <i>pcchSid</i> are both set to <b>NULL</b>, the function returns <b>ERROR_SUCCESS</b> if the SID exists, without retrieving the SID value.
 
-
-
-
 ## -returns
-
-
 
 The <b>MsiEnumClientsEx</b> function returns one of the following values.
 
@@ -299,7 +279,7 @@ The <b>MsiEnumClientsEx</b> function returns one of the following values.
 </dl>
 </td>
 <td width="60%">
-Administrtator privileges are required to enumerate components of applications installed by users other than the current user. 
+Administratator privileges are required to enumerate components of applications installed by users other than the current user. 
 
 </td>
 </tr>
@@ -370,7 +350,8 @@ The function failed.
 </td>
 </tr>
 </table>
- 
 
+## -remarks
 
-
+> [!NOTE]
+> The msi.h header defines MsiEnumClientsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

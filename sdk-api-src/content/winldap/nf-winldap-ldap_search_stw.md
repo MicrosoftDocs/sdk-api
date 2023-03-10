@@ -1,16 +1,13 @@
 ---
 UID: NF:winldap.ldap_search_stW
 title: ldap_search_stW function (winldap.h)
-description: The ldap_search_st function synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched. An additional parameter specifies a local time-out for the search.
+description: The ldap_search_stW (Unicode) function (winldap.h) synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched.  
+helpviewer_keywords: ["LDAP_SCOPE_BASE", "LDAP_SCOPE_ONELEVEL", "LDAP_SCOPE_SUBTREE", "_ldap_ldap_search_st", "ldap.ldap__search__st", "ldap.ldap_search_st", "ldap_search_st", "ldap_search_st function [LDAP]", "ldap_search_stW", "winldap/ldap_search_st", "winldap/ldap_search_stW"]
 old-location: ldap\ldap_search_st.htm
 tech.root: ldap
 ms.assetid: af2ab469-fa72-4a57-912c-42d9a6721806
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_st, ldap.ldap__search__st, ldap.ldap_search_st, ldap_search_st, ldap_search_st function [LDAP], ldap_search_stA, ldap_search_stW, winldap/ldap_search_st, winldap/ldap_search_stA, winldap/ldap_search_stW
-f1_keywords:
-- winldap/ldap_search_st
-dev_langs:
-- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wldap32.dll
-api_name:
-- ldap_search_st
-- ldap_search_stA
-- ldap_search_stW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ldap_search_stW
+ - winldap/ldap_search_stW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wldap32.dll
+api_name:
+ - ldap_search_st
+ - ldap_search_stA
+ - ldap_search_stW
 ---
 
 # ldap_search_stW function
@@ -50,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ldap_search_st</b> function synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched. An additional parameter  specifies a local time-out for the search. The function is identical to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_s">ldap_search_s</a>, except for the additional local time-out parameter.
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_s">ldap_search_s</a>, except for the additional local time-out parameter.
 
 ## -parameters
-
-
-
 
 ### -param ld [in]
 
 Session handle.
 
-
 ### -param base [in]
 
 Pointer to a null-terminated string that contains the distinguished name of the entry at which to start the search.
-
 
 ### -param scope [in]
 
@@ -92,31 +87,26 @@ Search all entries in the first level below the base entry, excluding the base e
 
 Search the base entry and all entries in the tree below the base.
 
-
 ### -param filter [in]
 
 Pointer to a null-terminated string that specifies the search filter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/search-filter-syntax">Search Filter Syntax</a>.
-
+<a href="/windows/desktop/ADSI/search-filter-syntax">Search Filter Syntax</a>.
 
 ### -param attrs [in]
 
 A null-terminated array of null-terminated strings that indicate which attributes to return for each matching entry. Pass <b>NULL</b> to retrieve all available attributes.
 
-
 ### -param attrsonly [in]
 
 Boolean value that must be zero if both attribute types and values are to be returned, nonzero if only types are required.
-
 
 ### -param timeout [in]
 
 The local search time-out value, in seconds.
 
-
 ### -param res [out]
 
-Contains the results of the search upon completion of the call. Can also contain partial results or extended data when the function call fails with an error code. Any results returned must be freed with a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>when  no longer required by the application.
+Contains the results of the search upon completion of the call. Can also contain partial results or extended data when the function call fails with an error code. Any results returned must be freed with a call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a> when  no longer required by the application.
 
 
 ##### - scope.LDAP_SCOPE_BASE
@@ -133,32 +123,24 @@ Search all entries in the first level below the base entry, excluding the base e
 
 Search the base entry and all entries in the tree below the base.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code, however <b>ldap_search_st</b> can fail and can still allocate <i>pMsg</i>. For example, both <b>LDAP_PARTIAL_RESULTS</b> and <b>LDAP_REFERRAL</b> error code allocate <i>pMsg</i>. For more information, see the following code example. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
-
-
-
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
-
-
 
 The <b>ldap_search_st</b> function initiates a synchronous search operation.
 
 Use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_DEREF</b> options that determine how the search is performed. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. The <i>timeout</i> parameter in <b>ldap_search_st</b> overrides the <b>LDAP_OPT_TIMELIMIT</b>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a> function with the <i>ld</i> session handle to set the <b>LDAP_OPT_SIZELIMIT</b> and <b>LDAP_OPT_DEREF</b> options that determine how the search is performed. For more information, see 
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. The <i>timeout</i> parameter in <b>ldap_search_st</b> overrides the <b>LDAP_OPT_TIMELIMIT</b>.
 
 Upon completion of the search operation, <b>ldap_search_st</b> returns to the caller. Use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a> or 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a> to have the operation performed asynchronously.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a> or 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a> to have the operation performed asynchronously.
 
 Multithreading: Calls to <b>ldap_search_st</b> are thread-safe.
 
@@ -216,45 +198,42 @@ else
 
 
 
+
+> [!NOTE]
+> The winldap.h header defines ldap_search_st as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search">ldap_search</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext">ldap_search_ext</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_s">ldap_search_s</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_s">ldap_search_s</a>

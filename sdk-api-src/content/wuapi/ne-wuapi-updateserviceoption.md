@@ -2,15 +2,12 @@
 UID: NE:wuapi.tagUpdateServiceOption
 title: UpdateServiceOption (wuapi.h)
 description: Defines the options that affect how the service registration for a scan package service is removed.
+helpviewer_keywords: ["UpdateServiceOption","UpdateServiceOption enumeration [Windows Update Agent]","usoNonVolatileService","wua.updateserviceoption","wuapi/UpdateServiceOption","wuapi/usoNonVolatileService"]
 old-location: wua\updateserviceoption.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07
 ms.date: 12/05/2018
 ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Update Agent], usoNonVolatileService, wua.updateserviceoption, wuapi/UpdateServiceOption, wuapi/usoNonVolatileService
-f1_keywords:
-- wuapi/UpdateServiceOption
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wuapi.h
-api_name:
-- UpdateServiceOption
 targetos: Windows
 req.typenames: UpdateServiceOption
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagUpdateServiceOption
+ - wuapi/tagUpdateServiceOption
+ - UpdateServiceOption
+ - wuapi/UpdateServiceOption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wuapi.h
+api_name:
+ - UpdateServiceOption
 ---
 
 # UpdateServiceOption enumeration
@@ -48,40 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the options that  affect how the service registration for a scan package service is removed.
-
 
 ## -enum-fields
 
+### -field usoNonVolatileService:0x1
 
+Indicates that you must call the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">IUpdateServiceManager::RemoveService</a> method to remove the service registration. 
 
-
-### -field usoNonVolatileService
-
-Indicates that you must call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">IUpdateServiceManager::RemoveService</a> method to remove the service registration. 
-
-Failure to call the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">RemoveService</a> method before releasing the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface causes a resource leak.
-
+Failure to call the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-removeservice">RemoveService</a> method before releasing the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface causes a resource leak.
 
 ## -remarks
 
+If you do not specify <b>usoNonVolatileService</b>, the service registration is automatically removed when you release the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface.
 
-
-If you do not specify <b>usoNonVolatileService</b>, the service registration is automatically removed when you release the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface.
-
-The <b>UpdateServiceOption</b> enumeration  may require that you update Windows Update Agent (WUA). For more information, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
-
-
-
+The <b>UpdateServiceOption</b> enumeration  may require that you update Windows Update Agent (WUA). For more information, see <a href="/windows/desktop/Wua_Sdk/updating-the-windows-update-agent">Updating Windows Update Agent</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice">IUpdateServiceManager::AddScanPackageService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateservicemanager-addscanpackageservice">IUpdateServiceManager::AddScanPackageService</a>

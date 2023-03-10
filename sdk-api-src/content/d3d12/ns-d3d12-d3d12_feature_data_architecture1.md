@@ -2,15 +2,12 @@
 UID: NS:d3d12.D3D12_FEATURE_DATA_ARCHITECTURE1
 title: D3D12_FEATURE_DATA_ARCHITECTURE1 (d3d12.h)
 description: Provides detail about each adapter's architectural details, so that your application can better optimize for certain adapter properties.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_ARCHITECTURE1","D3D12_FEATURE_DATA_ARCHITECTURE1 structure","d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1","direct3d12.d3d12_feature_data_architecture1"]
 old-location: direct3d12\d3d12_feature_data_architecture1.htm
 tech.root: direct3d12
 ms.assetid: 635091FE-2756-4648-958E-0C13BDD50851
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE1, D3D12_FEATURE_DATA_ARCHITECTURE1 structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1, direct3d12.d3d12_feature_data_architecture1
-f1_keywords:
-- d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_FEATURE_DATA_ARCHITECTURE1
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_ARCHITECTURE1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_FEATURE_DATA_ARCHITECTURE1
+ - d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_FEATURE_DATA_ARCHITECTURE1
 ---
 
 # D3D12_FEATURE_DATA_ARCHITECTURE1 structure
@@ -48,57 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 Provides detail about each adapter's architectural details, so that your application can better optimize for certain adapter properties.
 <div class="alert"><b>Note</b>  This structure, introduced in Windows 10, version 1703 (Creators' Update), supersedes the <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_architecture">D3D12_FEATURE_DATA_ARCHITECTURE</a> structure. If your application targets  Windows 10, version 1703 (Creators' Update) or higher, then use <b>D3D12_FEATURE_DATA_ARCHITECTURE1</b> (and <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE_ARCHITECTURE1</a>).</div><div> </div>
 
 ## -struct-fields
-
-
-
 
 ### -field NodeIndex
 
 In multi-adapter operation, this indicates which physical adapter of the device is relevant.
             See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
             <b>NodeIndex</b> is filled out by the application before calling <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a>, as the application can retrieve details about the architecture of each adapter.
-          
-
 
 ### -field TileBasedRenderer
 
 Specifies whether the hardware and driver support a tile-based renderer.
             The runtime sets this member to <b>TRUE</b> if the hardware and driver support a tile-based renderer.
-          
-
 
 ### -field UMA
 
 Specifies whether the hardware and driver support UMA.
             The runtime sets this member to <b>TRUE</b> if the hardware and driver support UMA.
-          
-
 
 ### -field CacheCoherentUMA
 
 Specifies whether the hardware and driver support cache-coherent UMA.
             The runtime sets this member to <b>TRUE</b> if the hardware and driver support cache-coherent UMA.
-          
-
 
 ### -field IsolatedMMU
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes">SAL</a>: <code>_Out_</code>
 
 Specifies whether the hardware and driver support isolated Memory Management Unit (MMU).
             The runtime sets this member to <b>TRUE</b> if the GPU honors CPU page table properties like <b>MEM_WRITE_WATCH</b> (for more information, see <a href="/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>) and <b>PAGE_READONLY</b> (for more information, see <a href="/windows/win32/Memory/memory-protection-constants">Memory Protection Constants</a>).
 
-If <b>TRUE</b>, the application must take care to no use memory with these page table properties with the GPU, as the GPU might trigger these page table properties in unexpected ways. For example, GPU write operations might be coarser than the application expects, particularly writes from within shaders. Certain write-watch pages migth appear dirty, even when it isn't obvious how GPU writes may have affected them. GPU operations associated with upload and readback heap usage scenarios work well with write-watch pages, but might occasionally generate false positives that can be safely ignored.
-
+If <b>TRUE</b>, the application must take care to no use memory with these page table properties with the GPU, as the GPU might trigger these page table properties in unexpected ways. For example, GPU write operations might be coarser than the application expects, particularly writes from within shaders. Certain write-watch pages might appear dirty, even when it isn't obvious how GPU writes may have affected them. GPU operations associated with upload and readback heap usage scenarios work well with write-watch pages, but might occasionally generate false positives that can be safely ignored.
 
 ## -remarks
-
-
 
 <h3><a id="How_to_use_UMA_and_CacheCoherentUMA"></a><a id="how_to_use_uma_and_cachecoherentuma"></a><a id="HOW_TO_USE_UMA_AND_CACHECOHERENTUMA"></a>How to use UMA and CacheCoherentUMA</h3>
 D3D12 apps should be concerned about managing memory residency and providing the optimal heap properties.
@@ -135,7 +122,8 @@ When <b>CacheCoherentUMA</b> is <b>false</b>, a single residency budget is avail
           
 
 When <b>CacheCoherentUMA</b> is true, applications can more strongly entertain abandoning the attribution of heaps and using the custom heap equivalent of upload heaps everywhere.
-            Zero-copy UMA optimizations are more generally encouraged as more scenarios will just benefit from shared usage.
+            Zero-copy UMA optimizations such those offered by 
+            <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12resource-writetosubresource">WriteToSubresource</a> are more generally encouraged as more scenarios will just benefit from shared usage.
             The memory model is very conducive to more scenarios and wider adoption.
             Some corner cases may still exist where benefits are not easily obtained, but they should be much rarer and less detrimental than other options.
             For advanced developers: <b>CacheCoherentUMA</b> means that a significant amount of the caches in the memory hierarchy are also unified or integrated between the CPU and GPU.
@@ -147,22 +135,11 @@ The low-level details should be ignored by a vast majority of single-adapter app
             As usual, single-adapter applications can simplify the landscape and ensure that the CPU writes to upload heaps use patterns that are write-combine-friendly.
             The lower-level details help reinforce the concepts for multi-adapter applications.
             Multi-adapter applications likely need to understand adapter architecture properties well enough to choose the optimal custom heap properties to efficiently move data between adapters.
-          
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
 <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
- 
-
- 
-

@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnMultiCarrier.ScanNetwork
 title: IMbnMultiCarrier::ScanNetwork (mbnapi.h)
 description: Scans the network to get a list of visible providers for a multi-carrier device.
+helpviewer_keywords: ["IMbnMultiCarrier interface [Microsoft Broadband Networks]","ScanNetwork method","IMbnMultiCarrier.ScanNetwork","IMbnMultiCarrier::ScanNetwork","ScanNetwork","ScanNetwork method [Microsoft Broadband Networks]","ScanNetwork method [Microsoft Broadband Networks]","IMbnMultiCarrier interface","mbn.imbnmulticarrier_scannetwork","mbnapi/IMbnMultiCarrier::ScanNetwork"]
 old-location: mbn\imbnmulticarrier_scannetwork.htm
 tech.root: mbn
 ms.assetid: D249B5D4-B2C3-436A-B38A-041289422F12
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],ScanNetwork method, IMbnMultiCarrier.ScanNetwork, IMbnMultiCarrier::ScanNetwork, ScanNetwork, ScanNetwork method [Microsoft Broadband Networks], ScanNetwork method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_scannetwork, mbnapi/IMbnMultiCarrier::ScanNetwork
-f1_keywords:
-- mbnapi/IMbnMultiCarrier.ScanNetwork
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnMultiCarrier.ScanNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnMultiCarrier::ScanNetwork
+ - mbnapi/IMbnMultiCarrier::ScanNetwork
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnMultiCarrier.ScanNetwork
 ---
 
 # IMbnMultiCarrier::ScanNetwork
@@ -53,20 +55,13 @@ ms.custom: 19H1
 
 Scans the network to get a list of visible providers for a multi-carrier device.
 
-
 ## -parameters
-
-
-
 
 ### -param requestID [out]
 
-Pointer to the request ID set by the operating system for this request.  The asynchronous response from <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete">OnScanNetworkComplete</a> will contain this same <i>requestID</i>.
-
+Pointer to the request ID set by the operating system for this request.  The asynchronous response from <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete">OnScanNetworkComplete</a> will contain this same <i>requestID</i>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -131,33 +126,17 @@ The operation is not supported by the device. This may be returned by devices wh
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method initiates a network scan operation. When completed successfully, it populates the operating system's cache of visible providers and applications can call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> to get a list of visible networks.
 
+This is a time consuming operation. Therefore, applications should first call <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a> and should call <b>ScanNetwork</b> only when the cached information is old.
 
-This method initiates a network scan operation. When completed successfully, it populates the operating system's cache of visible providers and applications can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a> to get a list of visible networks.
-
-This is a time consuming operation. Therefore, applications should first call <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrier-getvisibleproviders">GetVisibleProviders</a> and should call <b>ScanNetwork</b> only when the cached information is old.
-
-This is an asynchronous operation and <b>ScanNetwork</b> will return immediately. If this method returns successfully (with <b>S_OK</b>),  then upon completion of the scan operation, the operating system will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete">OnScanNetworkComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a> to notify the application of operation completion.
+This is an asynchronous operation and <b>ScanNetwork</b> will return immediately. If this method returns successfully (with <b>S_OK</b>),  then upon completion of the scan operation, the operating system will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnmulticarrierevents-onscannetworkcomplete">OnScanNetworkComplete</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a> to notify the application of operation completion.
 
 If the device is removed from the system before this operation is complete, there is no guarantee that the completion notification will be received by the application.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>

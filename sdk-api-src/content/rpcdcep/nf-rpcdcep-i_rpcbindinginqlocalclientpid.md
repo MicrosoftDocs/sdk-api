@@ -2,15 +2,12 @@
 UID: NF:rpcdcep.I_RpcBindingInqLocalClientPID
 title: I_RpcBindingInqLocalClientPID function (rpcdcep.h)
 description: Obtains a client process ID.
+helpviewer_keywords: ["I_RpcBindingInqLocalClientPID","I_RpcBindingInqLocalClientPID function [RPC]","rpc.i_rpcbindinginqlocalclientpid","rpcdcep/I_RpcBindingInqLocalClientPID"]
 old-location: rpc\i_rpcbindinginqlocalclientpid.htm
 tech.root: Rpc
 ms.assetid: af31dc1e-51b9-4789-a97f-d51ae34850cf
 ms.date: 12/05/2018
 ms.keywords: I_RpcBindingInqLocalClientPID, I_RpcBindingInqLocalClientPID function [RPC], rpc.i_rpcbindinginqlocalclientpid, rpcdcep/I_RpcBindingInqLocalClientPID
-f1_keywords:
-- rpcdcep/I_RpcBindingInqLocalClientPID
-dev_langs:
-- c++
 req.header: rpcdcep.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- I_RpcBindingInqLocalClientPID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - I_RpcBindingInqLocalClientPID
+ - rpcdcep/I_RpcBindingInqLocalClientPID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - I_RpcBindingInqLocalClientPID
 ---
 
 # I_RpcBindingInqLocalClientPID function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The <b>I_RpcBindingInqLocalClientPID</b> function is available for use in the operating systems specified in the Requirements section. Instead, call <a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>.]
+<p class="CCE_Message">[The <b>I_RpcBindingInqLocalClientPID</b> function is available for use in the operating systems specified in the Requirements section. Instead, call <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>.]
 
 The <b>I_RpcBindingInqLocalClientPID</b> function obtains a client process ID.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding [in, optional]
 
-<b>RPC_BINDING_HANDLE</b> that specifies the binding handle for an explicit RPC binding from the client to a server application. 
-
+<b>RPC_BINDING_HANDLE</b> that specifies the binding handle for an explicit RPC binding from the client to a server application.
 
 ### -param Pid [out]
 
 Contains the process ID of the client that issued the call upon return.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -115,16 +108,9 @@ The RPC binding handle is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 The client process ID is only returned in <i>ClientBinding</i> when the "ncalrpc" protocol sequence is used. Until the process terminates, the process ID value uniquely identifies it on the client. When the process terminates, the process ID can be used by new processes.
-
-
-

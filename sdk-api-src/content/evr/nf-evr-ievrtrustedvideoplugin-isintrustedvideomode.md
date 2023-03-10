@@ -2,15 +2,12 @@
 UID: NF:evr.IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode (evr.h)
 description: Queries whether the plug-in has any transient vulnerabilities at this time.
+helpviewer_keywords: ["43242898-4812-4faa-8e0a-6e60455c9f3b","IEVRTrustedVideoPlugin interface [Media Foundation]","IsInTrustedVideoMode method","IEVRTrustedVideoPlugin.IsInTrustedVideoMode","IEVRTrustedVideoPlugin::IsInTrustedVideoMode","IsInTrustedVideoMode","IsInTrustedVideoMode method [Media Foundation]","IsInTrustedVideoMode method [Media Foundation]","IEVRTrustedVideoPlugin interface","evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode","mf.ievrtrustedvideoplugin_isintrustedvideomode"]
 old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 43242898-4812-4faa-8e0a-6e60455c9f3b
 ms.date: 12/05/2018
 ms.keywords: 43242898-4812-4faa-8e0a-6e60455c9f3b, IEVRTrustedVideoPlugin interface [Media Foundation],IsInTrustedVideoMode method, IEVRTrustedVideoPlugin.IsInTrustedVideoMode, IEVRTrustedVideoPlugin::IsInTrustedVideoMode, IsInTrustedVideoMode, IsInTrustedVideoMode method [Media Foundation], IsInTrustedVideoMode method [Media Foundation],IEVRTrustedVideoPlugin interface, evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode, mf.ievrtrustedvideoplugin_isintrustedvideomode
-f1_keywords:
-- evr/IEVRTrustedVideoPlugin.IsInTrustedVideoMode
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEVRTrustedVideoPlugin::IsInTrustedVideoMode
+ - evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 ---
 
 # IEVRTrustedVideoPlugin::IsInTrustedVideoMode
@@ -49,24 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether the plug-in has any transient vulnerabilities at this time.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pYes [out]
 
 Receives a Boolean value. If <b>TRUE</b>, the plug-in has no transient vulnerabilities at the moment and can receive protected content. If <b>FALSE</b>, the plug-in has a transient vulnerability. If the method fails, the EVR treats the value as <b>FALSE</b> (untrusted).
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -87,14 +80,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method provides a way for the plug-in to report temporary conditions that would cause the input trust authority (ITA) to distrust the plug-in. For example, if an EVR presenter is in windowed mode, it is vulnerable to GDI screen captures.
 
@@ -102,7 +89,7 @@ To disable screen capture in Direct3D, the plug-in must do the following:
 
 <ul>
 <li>
-Create the Direct3D device in full-screen exlusive mode.
+Create the Direct3D device in full-screen exclusive mode.
 
 </li>
 <li>
@@ -116,26 +103,16 @@ If these conditions are met, the presenter can return <b>TRUE</b> in the <i>pYes
 
 The EVR calls this method whenever the device changes. If the plug-in returns <b>FALSE</b>, the EVR treats this condition as if the plug-in had a new output connector of unknown type. The policy object can then allow or block playback, depending on the ITA's policy.
 
-This method should be used only to report transient conditions. A plug-in that is never in a trusted state should not implement the <a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a> interface at all.
-
-
-
+This method should be used only to report transient conditions. A plug-in that is never in a trusted state should not implement the <a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a> interface at all.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin">IEVRTrustedVideoPlugin</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

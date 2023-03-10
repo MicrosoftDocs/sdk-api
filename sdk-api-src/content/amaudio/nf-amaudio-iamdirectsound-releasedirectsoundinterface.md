@@ -2,15 +2,12 @@
 UID: NF:amaudio.IAMDirectSound.ReleaseDirectSoundInterface
 title: IAMDirectSound::ReleaseDirectSoundInterface (amaudio.h)
 description: The ReleaseDirectSoundInterface method is not implemented.
+helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleaseDirectSoundInterface method","IAMDirectSound.ReleaseDirectSoundInterface","IAMDirectSound::ReleaseDirectSoundInterface","IAMDirectSoundReleaseDirectSoundInterface","ReleaseDirectSoundInterface","ReleaseDirectSoundInterface method [DirectShow]","ReleaseDirectSoundInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleaseDirectSoundInterface","dshow.iamdirectsound_releasedirectsoundinterface"]
 old-location: dshow\iamdirectsound_releasedirectsoundinterface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: fa02546b-7306-46ef-82a3-c6c1d89423e5
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],ReleaseDirectSoundInterface method, IAMDirectSound.ReleaseDirectSoundInterface, IAMDirectSound::ReleaseDirectSoundInterface, IAMDirectSoundReleaseDirectSoundInterface, ReleaseDirectSoundInterface, ReleaseDirectSoundInterface method [DirectShow], ReleaseDirectSoundInterface method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::ReleaseDirectSoundInterface, dshow.iamdirectsound_releasedirectsoundinterface
-f1_keywords:
-- amaudio/IAMDirectSound.ReleaseDirectSoundInterface
-dev_langs:
-- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMDirectSound.ReleaseDirectSoundInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMDirectSound::ReleaseDirectSoundInterface
+ - amaudio/IAMDirectSound::ReleaseDirectSoundInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMDirectSound.ReleaseDirectSoundInterface
 ---
 
 # IAMDirectSound::ReleaseDirectSoundInterface
@@ -49,41 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ReleaseDirectSoundInterface</code> method is not implemented.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lpds [in]
-
 
 ## -returns
 
-
-
 Returns E_NOTIMPL.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>

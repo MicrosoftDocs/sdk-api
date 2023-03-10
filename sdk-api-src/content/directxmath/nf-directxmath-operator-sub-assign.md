@@ -2,13 +2,11 @@
 UID: NF:directxmath.operator-sub-assign
 title: operator-=
 description: Subtracts a floating point value from the current instance of XMVECTOR, returning the result in the updated current instance.
+tech.root: dxmath
+helpviewer_keywords: ["operator-="]
 ms.assetid: f5172526-34b5-4190-ba11-87e17fd1bd35
 ms.date: 05/13/2019
 ms.keywords: operator-=
-f1_keywords:
-- directxmath/operator-=
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,22 +27,28 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - operator-=
+ - directxmath/operator-=
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- operator-=
+ - operator-=
 ---
 
 # operator -=
 
+
 ## -description
+
 Subtracts a floating point value from the current instance of **XMVECTOR**, returning the result in the updated current instance.
 
-The `operator -=` subtracts a specified floating point value from each component of the current instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> and returns a reference to the updated current instance.
+The `operator -=` subtracts a specified floating point value from each component of the current instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> and returns a reference to the updated current instance.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -77,4 +81,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

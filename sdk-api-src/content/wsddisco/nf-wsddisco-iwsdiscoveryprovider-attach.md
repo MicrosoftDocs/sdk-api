@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveryProvider.Attach
 title: IWSDiscoveryProvider::Attach (wsddisco.h)
 description: Attaches a callback interface to the discovery provider.
+helpviewer_keywords: ["Attach","Attach method","Attach method","IWSDiscoveryProvider interface","IWSDiscoveryProvider interface","Attach method","IWSDiscoveryProvider.Attach","IWSDiscoveryProvider::Attach","ncd.iwsdiscoveryprovider_attach_method","wsddisco/IWSDiscoveryProvider::Attach"]
 old-location: ncd\iwsdiscoveryprovider_attach_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
 ms.date: 12/05/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
-f1_keywords:
-- wsddisco/IWSDiscoveryProvider.Attach
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveryProvider.Attach
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryProvider::Attach
+ - wsddisco/IWSDiscoveryProvider::Attach
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveryProvider.Attach
 ---
 
 # IWSDiscoveryProvider::Attach
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Attaches a callback interface to the discovery provider.
 
-
 ## -parameters
-
-
-
 
 ### -param pSink [in]
 
 Interface to receive callback notifications.  Search results as well as the Hello and Bye messages are communicated to this interface via the callbacks.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,27 +101,12 @@ A callback interface has already been attached to the provider.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  Attach must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>method is used, except for <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-setaddressfamily">SetAddressFamily</a>.</div>
+<div class="alert"><b>Note</b>  Attach must be called before any other <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a> method is used, except for <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-setaddressfamily">SetAddressFamily</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>

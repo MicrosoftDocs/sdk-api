@@ -2,15 +2,12 @@
 UID: NF:winddi.EngMapFile
 title: EngMapFile function (winddi.h)
 description: The EngMapFile function creates or opens a file and maps it into system space.
+helpviewer_keywords: ["EngMapFile","EngMapFile function [Display Devices]","display.engmapfile","gdifncs_efc9de46-c5dc-446b-9686-8cf868bfa1e9.xml","winddi/EngMapFile"]
 old-location: display\engmapfile.htm
 tech.root: display
 ms.assetid: 6887f7e1-f94f-421c-be7a-14a41d621ce1
 ms.date: 12/05/2018
 ms.keywords: EngMapFile, EngMapFile function [Display Devices], display.engmapfile, gdifncs_efc9de46-c5dc-446b-9686-8cf868bfa1e9.xml, winddi/EngMapFile
-f1_keywords:
-- winddi/EngMapFile
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngMapFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngMapFile
+ - winddi/EngMapFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngMapFile
 ---
 
 # EngMapFile function
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EngMapFile</b> function creates or opens a file and maps it into <a href="https://docs.microsoft.com/windows-hardware/drivers/">system space</a>.
-
+The <b>EngMapFile</b> function creates or opens a file and maps it into <a href="/windows-hardware/drivers/">system space</a>.
 
 ## -parameters
-
-
-
 
 ### -param pwsz [in]
 
 Pointer to a null-terminated string that contains the fully qualified name of the file to be mapped. An example of a fully qualified file name string is <i>L"\\??\\c:\\test.dat".</i>
 
-
 ### -param cjSize [in]
 
 Specifies the number of bytes of the file to map.
 
-
 ### -param piFile [out]
 
-Pointer to a memory location that receives an identifier for the mapped file, provided that the mapping succeeded. If the mapping did not succeed, the memory location receives the value zero. When the mapped file needs to be released, this value should be passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>.
-
+Pointer to a memory location that receives an identifier for the mapped file, provided that the mapping succeeded. If the mapping did not succeed, the memory location receives the value zero. When the mapped file needs to be released, this value should be passed to <a href="/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>.
 
 ## -returns
 
-
-
 <b>EngMapFile</b> returns a pointer to the mapped view of the file if it succeeds. Otherwise, it returns <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the file already exists, <b>EngMapFile</b> opens and maps it for read/write. If the file does not exist, <b>EngMapFile</b> creates and maps it for read/write.
 
@@ -105,20 +92,10 @@ When <i>cjSize</i> is less than the size of the file, GDI truncates the file to 
 </ul>
 A driver can read and write to the file through the returned pointer.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletefile">EngDeleteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletefile">EngDeleteFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engunmapfile">EngUnmapFile</a>

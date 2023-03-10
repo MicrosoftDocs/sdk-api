@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.InjectNtmsCleaner
 title: InjectNtmsCleaner function (ntmsapi.h)
 description: The InjectNtmsCleaner function allows a cleaner cartridge to be inserted into the specified library unit.
+helpviewer_keywords: ["InjectNtmsCleaner","InjectNtmsCleaner function [Files]","NTMS_INJECT_START","NTMS_INJECT_STOP","_zaw_injectntmscleaner","base.injectntmscleaner","fs.injectntmscleaner","ntmsapi/InjectNtmsCleaner"]
 old-location: fs\injectntmscleaner.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 973441cb-2ec4-4a8d-8e75-3c6d01552a59
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsCleaner, InjectNtmsCleaner function [Files], NTMS_INJECT_START, NTMS_INJECT_STOP, _zaw_injectntmscleaner, base.injectntmscleaner, fs.injectntmscleaner, ntmsapi/InjectNtmsCleaner
-f1_keywords:
-- ntmsapi/InjectNtmsCleaner
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- InjectNtmsCleaner
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InjectNtmsCleaner
+ - ntmsapi/InjectNtmsCleaner
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - InjectNtmsCleaner
 ---
 
 # InjectNtmsCleaner function
@@ -48,38 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>InjectNtmsCleaner</b> function allows a cleaner cartridge to be inserted into the specified library unit.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpLibrary [in]
 
 Unique identifier of a library object.
 
-
 ### -param lpInjectOperation [in, out]
 
 GUID of the insert process library operation. If <i>dwAction</i> is NTMS_INJECT_START, this parameter receives the GUID for the operation. If <i>dwAction</i> is NTMS_INJECT_STOP, this parameter must be set to the GUID for the operation to be stopped.
 
-
 ### -param dwNumberOfCleansLeft [out]
 
 Number of cleaning cycles left on the inserted cleaning cartridge.
-
 
 ### -param dwAction [in]
 
@@ -113,12 +106,8 @@ Terminates the insertion prior to the time-out event lapsing. (For libraries wit
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -201,7 +190,7 @@ This library has no slot reserved as a cleaner slot.
 </td>
 <td width="60%">
 A cleaner slot is reserved but already has a cleaner cartridge. The cleaner cartridge must be ejected first, using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmscleaner">EjectNtmsCleaner</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmscleaner">EjectNtmsCleaner</a> function.
 
 </td>
 </tr>
@@ -228,14 +217,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function returns to the application as soon as the insert request is queued.
 
@@ -246,32 +229,22 @@ If an NTMS_IEPORT object is available, the NTMS_IEPORT object directs the cartri
 
 If there is no NTMS_IEPORT object, a door access is performed. In this case, the operator is directed to place the media into the reserved slot.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-cleanntmsdrive">CleanNtmsDrive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-cleanntmsdrive">CleanNtmsDrive</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Cleaner Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Cleaner Management Functions</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmscleaner">EjectNtmsCleaner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmscleaner">EjectNtmsCleaner</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-releasentmscleanerslot">ReleaseNtmsCleanerSlot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-releasentmscleanerslot">ReleaseNtmsCleanerSlot</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-reserventmscleanerslot">ReserveNtmsCleanerSlot</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-reserventmscleanerslot">ReserveNtmsCleanerSlot</a>

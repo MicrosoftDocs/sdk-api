@@ -2,15 +2,12 @@
 UID: NF:rtmv2.RtmGetRouteInfo
 title: RtmGetRouteInfo function (rtmv2.h)
 description: The RtmGetRouteInfo function returns information for the specified route.
+helpviewer_keywords: ["RtmGetRouteInfo","RtmGetRouteInfo function [RAS]","_rtmv2ref_rtmgetrouteinfo","rras.rtmgetrouteinfo","rtmv2/RtmGetRouteInfo"]
 old-location: rras\rtmgetrouteinfo.htm
 tech.root: RRAS
 ms.assetid: 13fc70de-f6cd-4e7a-b79d-c2fe811e08a4
 ms.date: 12/05/2018
 ms.keywords: RtmGetRouteInfo, RtmGetRouteInfo function [RAS], _rtmv2ref_rtmgetrouteinfo, rras.rtmgetrouteinfo, rtmv2/RtmGetRouteInfo
-f1_keywords:
-- rtmv2/RtmGetRouteInfo
-dev_langs:
-- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rtm.dll
-api_name:
-- RtmGetRouteInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtmGetRouteInfo
+ - rtmv2/RtmGetRouteInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rtm.dll
+api_name:
+ - RtmGetRouteInfo
 ---
 
 # RtmGetRouteInfo function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtmGetRouteInfo</b> function returns information for the specified route.
 
-
 ## -parameters
-
-
-
 
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param RouteHandle [in]
 
 Handle to the route to find.
-
 
 ### -param RouteInfo [out]
 
@@ -78,21 +73,17 @@ If a pointer must be returned: On input, <i>RouteInfo</i> is a pointer to <b>NUL
 
 If a pointer does not need to be returned: On input, <i>RouteInfo</i> is <b>NULL</b>.
 
-
 ### -param DestAddress [out]
 
 If a pointer must be returned: On input, <i>DestAddress</i> is a pointer to <b>NULL</b>. On output, <i>DestAddress</i> receives a pointer to the destination's 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure; otherwise, <i>DestAddress</i> remains unchanged. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a> structure; otherwise, <i>DestAddress</i> remains unchanged. 
 
 
 
 
 If a pointer does not need to be returned: On input, <i>DestAddress</i> is <b>NULL</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -120,35 +111,19 @@ The handle is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -remarks
 
-
-
 When the routes are no longer required, release them by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>.
-
-
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_net_address">RTM_NET_ADDRESS</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>

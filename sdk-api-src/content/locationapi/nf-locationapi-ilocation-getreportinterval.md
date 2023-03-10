@@ -2,15 +2,12 @@
 UID: NF:locationapi.ILocation.GetReportInterval
 title: ILocation::GetReportInterval (locationapi.h)
 description: Retrieves the requested amount of time, in milliseconds, between report events.
+helpviewer_keywords: ["GetReportInterval","GetReportInterval method [WinLocation]","GetReportInterval method [WinLocation]","ILocation interface","ILocation interface [WinLocation]","GetReportInterval method","ILocation.GetReportInterval","ILocation::GetReportInterval","WinLocation_COM_Ref.ilocation_getreportinterval","locationapi/ILocation::GetReportInterval"]
 old-location: winlocation_com_ref\ilocation_getreportinterval.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: c7bcd665-317c-428a-aa20-0d09c8d7a813
 ms.date: 12/05/2018
 ms.keywords: GetReportInterval, GetReportInterval method [WinLocation], GetReportInterval method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportInterval method, ILocation.GetReportInterval, ILocation::GetReportInterval, WinLocation_COM_Ref.ilocation_getreportinterval, locationapi/ILocation::GetReportInterval
-f1_keywords:
-- locationapi/ILocation.GetReportInterval
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILocation.GetReportInterval
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILocation::GetReportInterval
+ - locationapi/ILocation::GetReportInterval
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILocation.GetReportInterval
 ---
 
 # ILocation::GetReportInterval
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Retrieves the requested amount of time, in milliseconds, between report events.
 
-
 ## -parameters
-
-
-
 
 ### -param reportType [in]
 
 <b>REFIID</b> that specifies the report type for which to get the interval.
 
-
 ### -param pMilliseconds [out]
 
 The address of a <b>DWORD</b> that receives the report interval value, in milliseconds. If the report is not registered, this will be set to <b>NULL</b>. If this value is set to zero, no minimum interval is specified and your application receives events at the location sensor's default interval.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -126,16 +119,10 @@ The caller is not registered to receive events for the specified report type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-registerforreport">RegisterForReport</a> before calling this method.
+You must call <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-registerforreport">RegisterForReport</a> before calling this method.
 
 
 #### Examples
@@ -149,17 +136,6 @@ DWORD reportInterval = 0;
 HRESULT hr = spLocation->GetReportInterval(IID_ILatLongReport, &reportInterval);
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>

@@ -1,16 +1,13 @@
 ---
-UID: NF:wbemtime.WBEMTime.GetLocalOffsetForDate(const time_t &)
+UID: NF:wbemtime.WBEMTime.GetLocalOffsetForDate(consttime_t&)
 title: WBEMTime::GetLocalOffsetForDate(const time_t &) (wbemtime.h)
-description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &#8211;) between GMT and local time for the FILETIME supplied in the argument.
+description: The GetLocalOffsetForDate method returns the offset in minutes (+ or �) between GMT and local time for the FILETIME supplied in the argument. (overload 4/4)
+helpviewer_keywords: ["GetLocalOffsetForDate","GetLocalOffsetForDate method [Windows Management Instrumentation]","GetLocalOffsetForDate method [Windows Management Instrumentation]","WBEMTime interface","WBEMTime interface [Windows Management Instrumentation]","GetLocalOffsetForDate method","WBEMTime.GetLocalOffsetForDate","WBEMTime.GetLocalOffsetForDate(const time_t &)","WBEMTime::GetLocalOffsetForDate","WBEMTime::GetLocalOffsetForDate(const FILETIME*)","WBEMTime::GetLocalOffsetForDate(const time_t &)","wbemtime/WBEMTime::GetLocalOffsetForDate","wmi.wbemtime_getlocaloffsetfordate_const_filetime__"]
 old-location: wmi\wbemtime_getlocaloffsetfordate_const_filetime__.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: fd40907d-c4df-4eb0-8516-45def3d5d01f
 ms.date: 12/05/2018
 ms.keywords: GetLocalOffsetForDate, GetLocalOffsetForDate method [Windows Management Instrumentation], GetLocalOffsetForDate method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetLocalOffsetForDate method, WBEMTime.GetLocalOffsetForDate, WBEMTime.GetLocalOffsetForDate(const time_t &), WBEMTime::GetLocalOffsetForDate, WBEMTime::GetLocalOffsetForDate(const FILETIME*), WBEMTime::GetLocalOffsetForDate(const time_t &), wbemtime/WBEMTime::GetLocalOffsetForDate, wmi.wbemtime_getlocaloffsetfordate_const_filetime__
-f1_keywords:
-- wbemtime/WBEMTime.GetLocalOffsetForDate
-dev_langs:
-- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- WBEMTime.GetLocalOffsetForDate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WBEMTime::GetLocalOffsetForDate
+ - wbemtime/WBEMTime::GetLocalOffsetForDate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - WBEMTime.GetLocalOffsetForDate
 ---
 
 # WBEMTime::GetLocalOffsetForDate(const time_t &)
@@ -49,20 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetLocalOffsetForDate</b> method returns the offset in minutes (+ or –) between GMT and local time for the FILETIME supplied in the argument.
 
-
 ## -parameters
-
-
-
 
 ### -param t
 
@@ -75,21 +72,10 @@ TBD
 
 Pointer to a MFC <b>FILETIME</b> structure that represents the number of 100-nanosecond intervals since January 1, 1601 as a 64-bit value.
 
-
 ## -returns
-
-
 
 Returns the offset in minutes (+ or -) between GMT and local time for the time supplied in the argument.
 
-
-
-
 ## -remarks
 
-
-
-These are public static functions which permit their usage anywhere without having a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object.
-
-
-
+These are public static functions which permit their usage anywhere without having a <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object.

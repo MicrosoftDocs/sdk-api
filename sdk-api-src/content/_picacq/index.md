@@ -4,7 +4,7 @@ title: Picture Acquisition
 ms.assetid: 86a76f0e-8064-3a99-8f1b-7963c2adaaea
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Picture Acquisition
@@ -18,5 +18,4 @@ To develop Picture Acquisition, you need these headers:
  * [photoacquire.h](../photoacquire/index.md)
 
 For programming guidance for this technology, see:
-* [Picture Acquisition](https://docs.microsoft.com/previous-versions/dd370838(v=vs.85))
-
+* [Picture Acquisition](/previous-versions/dd370838(v=vs.85))

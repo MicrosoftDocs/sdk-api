@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt64
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetInt64 (windows.foundation.h)
 description: Gets the signed 64-bit integer value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetInt64","GetInt64 method [Windows Runtime]","GetInt64 method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetInt64 method","IPropertyValue.GetInt64","IPropertyValue.IPropertyValue","IPropertyValue::GetInt64","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetInt64","winrt.ipropertyvalue_getint64"]
 old-location: winrt\ipropertyvalue_getint64.htm
 tech.root: WinRT
 ms.assetid: FA3EB6F4-8D5A-4DBE-9A49-D21BC5A57EF3
 ms.date: 12/05/2018
 ms.keywords: GetInt64, GetInt64 method [Windows Runtime], GetInt64 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt64 method, IPropertyValue.GetInt64, IPropertyValue.IPropertyValue, IPropertyValue::GetInt64, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt64, winrt.ipropertyvalue_getint64
-f1_keywords:
-- windows.foundation/IPropertyValue.GetInt64
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetInt64
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetInt64
+ - windows.foundation/IPropertyValue::GetInt64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetInt64
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetInt64 (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the signed 64-bit integer value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the signed 64-bit integer value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
@@ -63,10 +60,7 @@ Type: <b>INT64*</b>
 
 The signed 64-bit integer value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,27 +100,16 @@ The  property value was returned successfully.
 </dl>
 </td>
 <td width="60%">
-The type of <i>value</i> does not match the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
+The type of <i>value</i> does not match the <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64">IPropertyValueStatics::CreateInt64</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint64">IPropertyValueStatics::CreateInt64</a>

@@ -2,15 +2,12 @@
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.CapturePropagationContext
 title: ILanguageExceptionErrorInfo2::CapturePropagationContext (restrictederrorinfo.h)
 description: Captures the context of an exception across a language boundary and across threads.
+helpviewer_keywords: ["CapturePropagationContext","CapturePropagationContext method [Windows Runtime]","CapturePropagationContext method [Windows Runtime]","ILanguageExceptionErrorInfo2 interface","ILanguageExceptionErrorInfo2 interface [Windows Runtime]","CapturePropagationContext method","ILanguageExceptionErrorInfo2.CapturePropagationContext","ILanguageExceptionErrorInfo2::CapturePropagationContext","restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext","winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext"]
 old-location: winrt\ilanguageexceptionerrorinfo2_capturepropagationcontext.htm
 tech.root: WinRT
 ms.assetid: 60026962-4E6C-4906-97D9-46BD2BCA3AC6
 ms.date: 12/05/2018
 ms.keywords: CapturePropagationContext, CapturePropagationContext method [Windows Runtime], CapturePropagationContext method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],CapturePropagationContext method, ILanguageExceptionErrorInfo2.CapturePropagationContext, ILanguageExceptionErrorInfo2::CapturePropagationContext, restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext, winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext
-f1_keywords:
-- restrictederrorinfo/ILanguageExceptionErrorInfo2.CapturePropagationContext
-dev_langs:
-- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- restrictederrorinfo.h
-api_name:
-- ILanguageExceptionErrorInfo2.CapturePropagationContext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILanguageExceptionErrorInfo2::CapturePropagationContext
+ - restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - restrictederrorinfo.h
+api_name:
+ - ILanguageExceptionErrorInfo2.CapturePropagationContext
 ---
 
 # ILanguageExceptionErrorInfo2::CapturePropagationContext
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Captures the context of an exception across a language boundary and across threads.
 
-
 ## -parameters
-
-
-
 
 ### -param languageException [in]
 
 An error object that's apartment-agile, in-proc, and marshal-by-value across processes.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 <b>CapturePropagationContext</b> is utilized by a language projection at re-throw of an error. This includes when an error is received at a language boundary. As such, utilizing <b>CapturePropagationContext</b> helps ensure that the back trace for an exception is captured for a current re-throw. This is to also help ensure that relevant debugging information is not lost when an exception crosses a language border.
 
-Generally speaking, the method creates a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> objects that provide additional error information regarding how the exception propagated. This information is exposed as stowed exceptions referenced by the exception record during crash dump analysis. Using this linked list, you can observe the back trace for all language boundaries and threads that the exception propagated through, including where the error originated from.  
+Generally speaking, the method creates a linked list of <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a> objects that provide additional error information regarding how the exception propagated. This information is exposed as stowed exceptions referenced by the exception record during crash dump analysis. Using this linked list, you can observe the back trace for all language boundaries and threads that the exception propagated through, including where the error originated from.  
 
 
 
@@ -149,17 +138,6 @@ HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooE
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo2">ILanguageExceptionErrorInfo2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo2">ILanguageExceptionErrorInfo2</a>

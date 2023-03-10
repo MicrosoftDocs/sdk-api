@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPDVD.get_isAvailable
 title: IWMPDVD::get_isAvailable (wmp.h)
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
+helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","get_isAvailable method","IWMPDVD.get_isAvailable","IWMPDVD::get_isAvailable","IWMPDVDget_isAvailable","get_isAvailable","get_isAvailable method [Windows Media Player]","get_isAvailable method [Windows Media Player]","IWMPDVD interface","wmp.iwmpdvd_get_isavailable","wmp/IWMPDVD::get_isAvailable"]
 old-location: wmp\iwmpdvd_get_isavailable.htm
 tech.root: WMP
 ms.assetid: bc8ce504-c387-4e3b-a227-926ae26ea78b
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_isAvailable method, IWMPDVD.get_isAvailable, IWMPDVD::get_isAvailable, IWMPDVDget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_isavailable, wmp/IWMPDVD::get_isAvailable
-f1_keywords:
-- wmp/IWMPDVD.get_isAvailable
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPDVD.get_isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPDVD::get_isAvailable
+ - wmp/IWMPDVD::get_isAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPDVD.get_isAvailable
 ---
 
 # IWMPDVD::get_isAvailable
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>get_isAvailable</b> method indicates whether a specified type of information is available or a specified action can be performed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrItem [in]
 
@@ -96,17 +90,12 @@ The <b>get_isAvailable</b> method indicates whether a specified type of informat
 <td>Determines whether the <b>IWMPDVD::topMenu</b> method is available. Commonly called the root menu.</td>
 </tr>
 </table>
- 
-
 
 ### -param pIsAvailable [out]
 
 Pointer to a <b>VARIANT_BOOL</b> that indicates whether the specified parameter is available.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -127,14 +116,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The DVD features of Windows Media Player will not work on computers that do not have a DVD decoder installed. You can determine whether a decoder is available by calling the <b>get_isAvailable</b> method and passing in the <b>BSTR</b> value "dvdDecoder".
 
@@ -142,32 +125,22 @@ Every DVD is authored differently. The methods available during DVD playback and
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>VARIANT_BOOL</b> set to <b>FALSE</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-back">IWMPDVD::back</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-back">IWMPDVD::back</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-resume">IWMPDVD::resume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-resume">IWMPDVD::resume</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-titlemenu">IWMPDVD::titleMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-titlemenu">IWMPDVD::titleMenu</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">IWMPDVD::topMenu</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">IWMPDVD::topMenu</a>

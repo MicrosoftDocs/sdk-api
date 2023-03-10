@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IRegTreeItem.GetCheckState
 title: IRegTreeItem::GetCheckState (shobjidl_core.h)
 description: Gets the state of a check box item in a tree-view control.
+helpviewer_keywords: ["FALSE","GetCheckState","GetCheckState method [Windows Shell]","GetCheckState method [Windows Shell]","IRegTreeItem interface","IRegTreeItem interface [Windows Shell]","GetCheckState method","IRegTreeItem.GetCheckState","IRegTreeItem::GetCheckState","TRUE","_win32_IRegTreeItem_GetCheckState","shell.IRegTreeItem_GetCheckState","shobjidl_core/IRegTreeItem::GetCheckState"]
 old-location: shell\IRegTreeItem_GetCheckState.htm
 tech.root: shell
 ms.assetid: bfeff83e-8872-4df2-a519-1335be6e443c
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetCheckState, GetCheckState method [Windows Shell], GetCheckState method [Windows Shell],IRegTreeItem interface, IRegTreeItem interface [Windows Shell],GetCheckState method, IRegTreeItem.GetCheckState, IRegTreeItem::GetCheckState, TRUE, _win32_IRegTreeItem_GetCheckState, shell.IRegTreeItem_GetCheckState, shobjidl_core/IRegTreeItem::GetCheckState
-f1_keywords:
-- shobjidl_core/IRegTreeItem.GetCheckState
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IRegTreeItem.GetCheckState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegTreeItem::GetCheckState
+ - shobjidl_core/IRegTreeItem::GetCheckState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IRegTreeItem.GetCheckState
 ---
 
 # IRegTreeItem::GetCheckState
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the state of a check box item in a tree-view control.
 
-
 ## -parameters
-
-
-
 
 ### -param pbCheck [out]
 
@@ -75,29 +72,16 @@ The check box is checked.
 
 The check box is not checked.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem">IRegTreeItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iregtreeitem">IRegTreeItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-controls">Tree-View Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/tree-view-controls">Tree-View Controls</a>

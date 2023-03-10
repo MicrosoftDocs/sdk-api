@@ -1,16 +1,13 @@
 ---
 UID: NF:mfidl.IMFSeekInfo.GetNearestKeyFrames
 title: IMFSeekInfo::GetNearestKeyFrames (mfidl.h)
-description: For a particular seek position, gets the two nearest key frames.
+description: For a particular seek position, gets the two nearest key frames. (IMFSeekInfo.GetNearestKeyFrames)
+helpviewer_keywords: ["GetNearestKeyFrames","GetNearestKeyFrames method [Media Foundation]","GetNearestKeyFrames method [Media Foundation]","IMFSeekInfo interface","IMFSeekInfo interface [Media Foundation]","GetNearestKeyFrames method","IMFSeekInfo.GetNearestKeyFrames","IMFSeekInfo::GetNearestKeyFrames","mf.imfseekinfo_getnearestkeyframes","mfidl/IMFSeekInfo::GetNearestKeyFrames"]
 old-location: mf\imfseekinfo_getnearestkeyframes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 72A7161A-09CA-4582-B240-1442D70936D7
 ms.date: 12/05/2018
 ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation],IMFSeekInfo interface, IMFSeekInfo interface [Media Foundation],GetNearestKeyFrames method, IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
-f1_keywords:
-- mfidl/IMFSeekInfo.GetNearestKeyFrames
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFSeekInfo.GetNearestKeyFrames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSeekInfo::GetNearestKeyFrames
+ - mfidl/IMFSeekInfo::GetNearestKeyFrames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFSeekInfo.GetNearestKeyFrames
 ---
 
 # IMFSeekInfo::GetNearestKeyFrames
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 For a particular seek position, gets the two nearest key frames.
-
 
 ## -parameters
 
-
-
-
 ### -param pguidTimeFormat [in]
 
-A pointer to a GUID that specifies the time format. The time format defines the units for the other parameters of this method. If the value is <b>GUID_NULL</b>, the time format is 100-nanosecond units. Some media sources might support additional time format GUIDs. 
-
+A pointer to a GUID that specifies the time format. The time format defines the units for the other parameters of this method. If the value is <b>GUID_NULL</b>, the time format is 100-nanosecond units. Some media sources might support additional time format GUIDs.
 
 ### -param pvarStartPosition [in]
 
 The seek position. The units for this parameter are specified by <i>pguidTimeFormat</i>.
 
-
 ### -param pvarPreviousKeyFrame [out]
 
 Receives the position of the nearest key frame that appears earlier than <i>pvarStartPosition</i>. The units for this parameter are specified by <i>pguidTimeFormat</i>.
 
-
 ### -param pvarNextKeyFrame [out]
 
-Receives the position of the nearest key frame that appears earlier than <i>pvarStartPosition</i>. The units for this parameter are specified by <i>pguidTimeFormat</i>.
-
+Receives the position of the nearest key frame that appears later than <i>pvarStartPosition</i>. The units for this parameter are specified by <i>pguidTimeFormat</i>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,27 +102,11 @@ The time format specified in <i>pguidTimeFormat</i> is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If an application seeks to a non–key frame, the decoder must start decoding from the previous key frame. This can increase latency, because several frames might get decoded before the requested frame is reached. To reduce latency, an application can call this method to find the two key frames that are closest to the desired time, and then seek to one of those key frames. 
-
-
-
+If an application seeks to a non–key frame, the decoder must start decoding from the previous key frame. This can increase latency, because several frames might get decoded before the requested frame is reached. To reduce latency, an application can call this method to find the two key frames that are closest to the desired time, and then seek to one of those key frames.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfseekinfo">IMFSeekInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfseekinfo">IMFSeekInfo</a>

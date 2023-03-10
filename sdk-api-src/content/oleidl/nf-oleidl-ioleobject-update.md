@@ -2,15 +2,12 @@
 UID: NF:oleidl.IOleObject.Update
 title: IOleObject::Update (oleidl.h)
 description: Updates an object handler's or link object's data or view caches.
+helpviewer_keywords: ["IOleObject interface [COM]","Update method","IOleObject.Update","IOleObject::Update","Update","Update method [COM]","Update method [COM]","IOleObject interface","_ole_ioleobject_update","com.ioleobject_update","oleidl/IOleObject::Update"]
 old-location: com\ioleobject_update.htm
 tech.root: com
 ms.assetid: 1743f99b-4c3b-47be-b77b-1d3378a44903
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],Update method, IOleObject.Update, IOleObject::Update, Update, Update method [COM], Update method [COM],IOleObject interface, _ole_ioleobject_update, com.ioleobject_update, oleidl/IOleObject::Update
-f1_keywords:
-- oleidl/IOleObject.Update
-dev_langs:
-- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OleIdl.h
-api_name:
-- IOleObject.Update
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleObject::Update
+ - oleidl/IOleObject::Update
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OleIdl.h
+api_name:
+ - IOleObject.Update
 ---
 
 # IOleObject::Update
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates an object handler's or link object's data or view caches.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method returns S_OK on success. Other possible return values include the following.
 
@@ -115,14 +108,8 @@ Some caches were not updated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>Update</b> method provides a way for containers to keep data updated in their linked and embedded objects. A link object can become out-of-date if the link source has been updated. An embedded object that contains links to other objects can also become out of date. An embedded object that does not contain links cannot become out of date because its data is not linked to another source.
 
@@ -131,20 +118,10 @@ When a container calls a link object's <b>IOleObject::Update</b> method, the lin
 
 When a container calls an embedded object's <b>IOleObject::Update</b> method, it is requesting the object to update all link objects it may contain. In response, the object handler recursively calls <b>IOleObject::Update</b> for each of its own linked objects, running each one as needed.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-isuptodate">IOleObject::IsUpToDate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-isuptodate">IOleObject::IsUpToDate</a>

@@ -2,15 +2,12 @@
 UID: NS:winnt._ENCLAVE_CREATE_INFO_VBS
 title: ENCLAVE_CREATE_INFO_VBS (winnt.h)
 description: Contains architecture-specific information to use to create an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.
+helpviewer_keywords: ["*PENCLAVE_CREATE_INFO_VBS","ENCLAVE_CREATE_INFO_VBS","ENCLAVE_CREATE_INFO_VBS structure","ENCLAVE_VBS_FLAG_DEBUG","PENCLAVE_CREATE_INFO_VBS","PENCLAVE_CREATE_INFO_VBS structure pointer","base.enclave_create_info_vbs","winnt/ENCLAVE_CREATE_INFO_VBS","winnt/PENCLAVE_CREATE_INFO_VBS"]
 old-location: base\enclave_create_info_vbs.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 5AD6D695-92D6-47AC-A43C-D3A37D28C76C
 ms.date: 12/05/2018
 ms.keywords: '*PENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS structure, ENCLAVE_VBS_FLAG_DEBUG, PENCLAVE_CREATE_INFO_VBS, PENCLAVE_CREATE_INFO_VBS structure pointer, base.enclave_create_info_vbs, winnt/ENCLAVE_CREATE_INFO_VBS, winnt/PENCLAVE_CREATE_INFO_VBS'
-f1_keywords:
-- winnt/ENCLAVE_CREATE_INFO_VBS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winnt.h
-api_name:
-- ENCLAVE_CREATE_INFO_VBS
 targetos: Windows
 req.typenames: ENCLAVE_CREATE_INFO_VBS, *PENCLAVE_CREATE_INFO_VBS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _ENCLAVE_CREATE_INFO_VBS
+ - winnt/_ENCLAVE_CREATE_INFO_VBS
+ - PENCLAVE_CREATE_INFO_VBS
+ - winnt/PENCLAVE_CREATE_INFO_VBS
+ - ENCLAVE_CREATE_INFO_VBS
+ - winnt/ENCLAVE_CREATE_INFO_VBS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winnt.h
+api_name:
+ - ENCLAVE_CREATE_INFO_VBS
 ---
 
 # ENCLAVE_CREATE_INFO_VBS structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains architecture-specific information to use to create an enclave when the enclave type is <b>ENCLAVE_TYPE_VBS</b>, which specifies a virtualization-based security (VBS) enclave.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
@@ -89,21 +90,11 @@ The enclave does not permit debugging.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field OwnerID
 
 The identifier of the owner of the enclave.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
- 
-
- 
-
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>

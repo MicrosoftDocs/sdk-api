@@ -2,15 +2,12 @@
 UID: NF:vidcap.ISelector.get_SourceNodeId
 title: ISelector::get_SourceNodeId (vidcap.h)
 description: The get_SourceNodeId method returns the index of the active source node.
+helpviewer_keywords: ["ISelector interface [DirectShow]","get_SourceNodeId method","ISelector.get_SourceNodeId","ISelector::get_SourceNodeId","ISelectorget_SourceNodeId","dshow.iselector_get_sourcenodeid","get_SourceNodeId","get_SourceNodeId method [DirectShow]","get_SourceNodeId method [DirectShow]","ISelector interface","vidcap/ISelector::get_SourceNodeId"]
 old-location: dshow\iselector_get_sourcenodeid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ae2b0e1a-1527-4634-b2f9-47c9519b55a6
 ms.date: 12/05/2018
 ms.keywords: ISelector interface [DirectShow],get_SourceNodeId method, ISelector.get_SourceNodeId, ISelector::get_SourceNodeId, ISelectorget_SourceNodeId, dshow.iselector_get_sourcenodeid, get_SourceNodeId, get_SourceNodeId method [DirectShow], get_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::get_SourceNodeId
-f1_keywords:
-- vidcap/ISelector.get_SourceNodeId
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Vidcap.h
-api_name:
-- ISelector.get_SourceNodeId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISelector::get_SourceNodeId
+ - vidcap/ISelector::get_SourceNodeId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Vidcap.h
+api_name:
+ - ISelector.get_SourceNodeId
 ---
 
 # ISelector::get_SourceNodeId
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>get_SourceNodeId</code> method returns the index of the active source node.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwPinId [out]
 
 Receives the index of the source node that is currently active.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,22 +79,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-iselector">ISelector Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-iselector">ISelector Interface</a>

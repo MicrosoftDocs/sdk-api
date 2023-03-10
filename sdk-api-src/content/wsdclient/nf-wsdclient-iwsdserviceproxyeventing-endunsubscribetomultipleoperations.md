@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations (wsdclient.h)
 description: Completes an asynchronous cancellation request for a subscription to a collection of notifications or solicit/response events.
+helpviewer_keywords: ["EndUnsubscribeToMultipleOperations","EndUnsubscribeToMultipleOperations method","EndUnsubscribeToMultipleOperations method","IWSDServiceProxyEventing interface","IWSDServiceProxyEventing interface","EndUnsubscribeToMultipleOperations method","IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations","IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations","ncd.iwsdserviceproxyeventing_endunsubscribetomultipleoperations","wsdclient/IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations"]
 old-location: ncd\iwsdserviceproxyeventing_endunsubscribetomultipleoperations.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 62f42441-11b0-46ce-9a4e-03b34d8b4c9b
 ms.date: 12/05/2018
 ms.keywords: EndUnsubscribeToMultipleOperations, EndUnsubscribeToMultipleOperations method, EndUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
-f1_keywords:
-- wsdclient/IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
+ - wsdclient/IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations
 ---
 
 # IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
@@ -48,47 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Completes an  asynchronous cancellation request for a subscription to  a collection of notifications or solicit/response events.
-
 
 ## -parameters
 
-
-
-
 ### -param pOperations [in]
 
-Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specifies the operations from which to unsubscribe. 
-
-
+Pointer to an array of references to <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specifies the operations from which to unsubscribe.
 
 ### -param dwOperationCount [in]
 
 The number of elements in the array in <i>pOperations</i>.
 
-
 ### -param pResult [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that will represent the result of the requests upon completion.
-
+Pointer to an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> interface that will represent the result of the requests upon completion.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>

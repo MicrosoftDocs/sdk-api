@@ -2,15 +2,12 @@
 UID: NF:iads.IADsClass.Qualifiers
 title: IADsClass::Qualifiers (iads.h)
 description: Returns a collection of ADSI objects that describe additional qualifiers for this schema class.
+helpviewer_keywords: ["IADsClass interface [ADSI]","Qualifiers method","IADsClass.Qualifiers","IADsClass::Qualifiers","Qualifiers","Qualifiers method [ADSI]","Qualifiers method [ADSI]","IADsClass interface","_ds_iadsclass_qualifiers","adsi.iadsclass__qualifiers","adsi.iadsclass_qualifiers","iads/IADsClass::Qualifiers"]
 old-location: adsi\iadsclass_qualifiers.htm
 tech.root: adsi
 ms.assetid: d05e4278-2dfb-4832-a97d-eb35253ae535
 ms.date: 12/05/2018
 ms.keywords: IADsClass interface [ADSI],Qualifiers method, IADsClass.Qualifiers, IADsClass::Qualifiers, Qualifiers, Qualifiers method [ADSI], Qualifiers method [ADSI],IADsClass interface, _ds_iadsclass_qualifiers, adsi.iadsclass__qualifiers, adsi.iadsclass_qualifiers, iads/IADsClass::Qualifiers
-f1_keywords:
-- iads/IADsClass.Qualifiers
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADsClass.Qualifiers
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsClass::Qualifiers
+ - iads/IADsClass::Qualifiers
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADsClass.Qualifiers
 ---
 
 # IADsClass::Qualifiers
@@ -48,34 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADsClass::Qualifiers</b> method is an optional method that returns a collection of ADSI objects that describe additional qualifiers for this schema class.
-
 
 ## -parameters
 
-
-
-
 ### -param ppQualifiers [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> pointer variable that receives the interface pointer to the ADSI collection object that represents additional limits for this schema class.
-
+Address of an <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> pointer variable that receives the interface pointer to the ADSI collection object that represents additional limits for this schema class.
 
 ## -returns
 
-
-
 This method supports the standard return values, as well as the following.
 
-For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
-
-
 
 The qualifier objects are provider-specific. When supported, this method can be used to obtain extended schema data.
 
@@ -110,21 +99,10 @@ Cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iadsclass">IADsClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsclass">IADsClass</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsproperty-qualifiers">IADsProperty::Qualifiers</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsproperty-qualifiers">IADsProperty::Qualifiers</a>

@@ -2,15 +2,12 @@
 UID: NF:fltuser.FilterDetach
 title: FilterDetach function (fltuser.h)
 description: The FilterDetach function detaches the given minifilter instance from the given volume.
+helpviewer_keywords: ["FilterDetach","FilterDetach function [Installable File System Drivers]","FltWin32ApiRef_ee7eb095-922a-48c6-943a-0a54fb0789f1.xml","fltuser/FilterDetach","ifsk.filterdetach"]
 old-location: ifsk\filterdetach.htm
 tech.root: ifsk
 ms.assetid: 798b1672-ea3a-418b-a52d-d57b15ed9426
 ms.date: 12/05/2018
 ms.keywords: FilterDetach, FilterDetach function [Installable File System Drivers], FltWin32ApiRef_ee7eb095-922a-48c6-943a-0a54fb0789f1.xml, fltuser/FilterDetach, ifsk.filterdetach
-f1_keywords:
-- fltuser/FilterDetach
-dev_langs:
-- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- FltLib.dll
-api_name:
-- FilterDetach
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FilterDetach
+ - fltuser/FilterDetach
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - FltLib.dll
+api_name:
+ - FilterDetach
 ---
 
 # FilterDetach function
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>FilterDetach</b> function detaches the given minifilter instance from the given volume. 
-
+The <b>FilterDetach</b> function detaches the given minifilter instance from the given volume.
 
 ## -parameters
 
-
-
-
 ### -param lpFilterName [in]
 
-Pointer to a null-terminated wide-character string containing the name of the minifilter whose instance is to be detached from the stack. This parameter is required and cannot be <b>NULL</b>. 
-
+Pointer to a null-terminated wide-character string containing the name of the minifilter whose instance is to be detached from the stack. This parameter is required and cannot be <b>NULL</b>.
 
 ### -param lpVolumeName [in]
 
 Pointer to a null-terminated wide-character string containing the name of the volume to which the instance is currently attached. 
 
-The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\) is optional. 
+The <i>lpVolumeName</i> input string can be any of the following. The trailing backslash (\\) is optional. 
 
 <ul>
 <li>
@@ -86,51 +82,32 @@ A nonpersistent device name (also called a <i>target name</i> or an <i>NT device
 
 </li>
 </ul>
-This parameter is required and cannot be <b>NULL</b>. 
-
+This parameter is required and cannot be <b>NULL</b>.
 
 ### -param lpInstanceName [in, optional]
 
-Pointer to a null-terminated wide-character string containing the instance name for the instance to be removed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the highest matching instance is removed. 
-
+Pointer to a null-terminated wide-character string containing the instance name for the instance to be removed. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, the highest matching instance is removed.
 
 ## -returns
 
-
-
-<b>FilterDetach</b> returns S_OK if successful. Otherwise, it returns an error value. 
-
-
-
+<b>FilterDetach</b> returns S_OK if successful. Otherwise, it returns an error value.
 
 ## -remarks
 
-
-
-<b>FilterDetach</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
+<b>FilterDetach</b> is the Win32 equivalent of <a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
 
 <b>FilterDetach</b> detaches a minifilter instance from a volume and tears down the instance. 
 
-To attach a minifilter instance to a volume, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>. 
-
-
-
+To attach a minifilter instance to a volume, call <a href="/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a> or <a href="/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>

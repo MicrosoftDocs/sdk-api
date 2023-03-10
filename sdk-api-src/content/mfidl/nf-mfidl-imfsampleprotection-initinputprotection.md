@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSampleProtection.InitInputProtection
 title: IMFSampleProtection::InitInputProtection (mfidl.h)
 description: Initializes sample protection on the downstream component.
+helpviewer_keywords: ["2bd43f33-8528-4e78-97d5-2af39a2ac06b","IMFSampleProtection interface [Media Foundation]","InitInputProtection method","IMFSampleProtection.InitInputProtection","IMFSampleProtection::InitInputProtection","InitInputProtection","InitInputProtection method [Media Foundation]","InitInputProtection method [Media Foundation]","IMFSampleProtection interface","mf.imfsampleprotection_initinputprotection","mfidl/IMFSampleProtection::InitInputProtection"]
 old-location: mf\imfsampleprotection_initinputprotection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2bd43f33-8528-4e78-97d5-2af39a2ac06b
 ms.date: 12/05/2018
 ms.keywords: 2bd43f33-8528-4e78-97d5-2af39a2ac06b, IMFSampleProtection interface [Media Foundation],InitInputProtection method, IMFSampleProtection.InitInputProtection, IMFSampleProtection::InitInputProtection, InitInputProtection, InitInputProtection method [Media Foundation], InitInputProtection method [Media Foundation],IMFSampleProtection interface, mf.imfsampleprotection_initinputprotection, mfidl/IMFSampleProtection::InitInputProtection
-f1_keywords:
-- mfidl/IMFSampleProtection.InitInputProtection
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSampleProtection.InitInputProtection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSampleProtection::InitInputProtection
+ - mfidl/IMFSampleProtection::InitInputProtection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSampleProtection.InitInputProtection
 ---
 
 # IMFSampleProtection::InitInputProtection
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Initializes sample protection on the downstream component.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwVersion [in]
 
-Specifies the version number of the sample protection scheme. The version number is specified as a <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration value.
-
+Specifies the version number of the sample protection scheme. The version number is specified as a <a href="/windows/desktop/api/mfidl/ne-mfidl-sample_protection_version">SAMPLE_PROTECTION_VERSION</a> enumeration value.
 
 ### -param dwInputId [in]
 
-Identifier of the input stream. The identifier corresponds to the output stream identifier returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
-
+Identifier of the input stream. The identifier corresponds to the output stream identifier returned by the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.
 
 ### -param pbSeed [in]
 
-Pointer to a buffer that contains the initialization data provided by the upstream component. To retrieve this buffer, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-initoutputprotection">IMFSampleProtection::InitOutputProtection</a>.
-
+Pointer to a buffer that contains the initialization data provided by the upstream component. To retrieve this buffer, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsampleprotection-initoutputprotection">IMFSampleProtection::InitOutputProtection</a>.
 
 ### -param cbSeed [in]
 
 Size of the <i>pbSeed</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -104,18 +92,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>

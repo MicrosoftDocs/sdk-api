@@ -2,15 +2,12 @@
 UID: NF:mswmdm.IWMDMStorage.SetAttributes
 title: IWMDMStorage::SetAttributes (mswmdm.h)
 description: The SetAttributes method sets the attributes of the storage.
+helpviewer_keywords: ["IWMDMStorage interface [windows Media Device Manager]","SetAttributes method","IWMDMStorage.SetAttributes","IWMDMStorage::SetAttributes","IWMDMStorageSetAttributes","SetAttributes","SetAttributes method [windows Media Device Manager]","SetAttributes method [windows Media Device Manager]","IWMDMStorage interface","mswmdm/IWMDMStorage::SetAttributes","wmdm.iwmdmstorage_setattributes"]
 old-location: wmdm\iwmdmstorage_setattributes.htm
 tech.root: WMDM
 ms.assetid: 7484e29a-5faf-4a11-9fc1-75aa5c9d72ef
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage interface [windows Media Device Manager],SetAttributes method, IWMDMStorage.SetAttributes, IWMDMStorage::SetAttributes, IWMDMStorageSetAttributes, SetAttributes, SetAttributes method [windows Media Device Manager], SetAttributes method [windows Media Device Manager],IWMDMStorage interface, mswmdm/IWMDMStorage::SetAttributes, wmdm.iwmdmstorage_setattributes
-f1_keywords:
-- mswmdm/IWMDMStorage.SetAttributes
-dev_langs:
-- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- IWMDMStorage.SetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDMStorage::SetAttributes
+ - mswmdm/IWMDMStorage::SetAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - IWMDMStorage.SetAttributes
 ---
 
 # IWMDMStorage::SetAttributes
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetAttributes</b> method sets the attributes of the storage.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwAttributes [in]
 
@@ -121,17 +115,12 @@ The <b>SetAttributes</b> method sets the attributes of the storage.
 <td>This is a read-only file.</td>
 </tr>
 </table>
- 
-
 
 ### -param pFormat [in]
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies audio information about the object.
-
+Optional pointer to a <a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a> structure that specifies audio information about the object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -140,31 +129,16 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
-
-
-
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-
-
-Many of the attributes listed for <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">GetAttributes</a> cannot be set, and so are not listed in the attribute table for <b>SetAttributes</b>.
-
-
-
+Many of the attributes listed for <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">GetAttributes</a> cannot be set, and so are not listed in the attribute table for <b>SetAttributes</b>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes">IWMDMStorage::GetAttributes</a>

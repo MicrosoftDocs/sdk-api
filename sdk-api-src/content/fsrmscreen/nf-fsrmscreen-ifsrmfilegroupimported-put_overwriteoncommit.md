@@ -1,16 +1,13 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupImported.put_OverwriteOnCommit
 title: IFsrmFileGroupImported::put_OverwriteOnCommit (fsrmscreen.h)
-description: Retrieves or sets a value that determines whether a file group is overwritten if it exists.
+description: Retrieves or sets a value that determines whether a file group is overwritten if it exists. (Put)
+helpviewer_keywords: ["IFsrmFileGroupImported interface [File Server Resource Manager]","OverwriteOnCommit property","IFsrmFileGroupImported.OverwriteOnCommit","IFsrmFileGroupImported.put_OverwriteOnCommit","IFsrmFileGroupImported::OverwriteOnCommit","IFsrmFileGroupImported::get_OverwriteOnCommit","IFsrmFileGroupImported::put_OverwriteOnCommit","OverwriteOnCommit property [File Server Resource Manager]","OverwriteOnCommit property [File Server Resource Manager]","IFsrmFileGroupImported interface","fs.ifsrmfilegroupimported_overwriteoncommit","fsrm.ifsrmfilegroupimported_overwriteoncommit","fsrmscreen/IFsrmFileGroupImported::OverwriteOnCommit","fsrmscreen/IFsrmFileGroupImported::get_OverwriteOnCommit","fsrmscreen/IFsrmFileGroupImported::put_OverwriteOnCommit","put_OverwriteOnCommit"]
 old-location: fsrm\ifsrmfilegroupimported_overwriteoncommit.htm
 tech.root: fsrm
 ms.assetid: 16fc9ae3-a9c5-4312-86b3-8bfe8ef5fb5d
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroupImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmFileGroupImported.OverwriteOnCommit, IFsrmFileGroupImported.put_OverwriteOnCommit, IFsrmFileGroupImported::OverwriteOnCommit, IFsrmFileGroupImported::get_OverwriteOnCommit, IFsrmFileGroupImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmFileGroupImported interface, fs.ifsrmfilegroupimported_overwriteoncommit, fsrm.ifsrmfilegroupimported_overwriteoncommit, fsrmscreen/IFsrmFileGroupImported::OverwriteOnCommit, fsrmscreen/IFsrmFileGroupImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileGroupImported::put_OverwriteOnCommit, put_OverwriteOnCommit
-f1_keywords:
-- fsrmscreen/IFsrmFileGroupImported.OverwriteOnCommit
-dev_langs:
-- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: SrmSvc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SrmSvc.dll
-api_name:
-- IFsrmFileGroupImported.OverwriteOnCommit
-- IFsrmFileGroupImported.get_OverwriteOnCommit
-- IFsrmFileGroupImported.put_OverwriteOnCommit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsrmFileGroupImported::put_OverwriteOnCommit
+ - fsrmscreen/IFsrmFileGroupImported::put_OverwriteOnCommit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SrmSvc.dll
+api_name:
+ - IFsrmFileGroupImported.OverwriteOnCommit
+ - IFsrmFileGroupImported.get_OverwriteOnCommit
+ - IFsrmFileGroupImported.put_OverwriteOnCommit
 ---
 
 # IFsrmFileGroupImported::put_OverwriteOnCommit
@@ -50,30 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a> class.]
 
 Retrieves or sets a value that determines whether a file group is overwritten if it exists.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilegroupimported">IFsrmFileGroupImported</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilegroupimported">IFsrmFileGroupImported</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>

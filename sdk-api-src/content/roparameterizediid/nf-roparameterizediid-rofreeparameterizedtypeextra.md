@@ -2,15 +2,12 @@
 UID: NF:roparameterizediid.RoFreeParameterizedTypeExtra
 title: RoFreeParameterizedTypeExtra function (roparameterizediid.h)
 description: Frees the handle allocated by RoGetParameterizedTypeInstanceIID.
+helpviewer_keywords: ["RoFreeParameterizedTypeExtra","RoFreeParameterizedTypeExtra function [Windows Runtime]","roparameterizediid/RoFreeParameterizedTypeExtra","winrt.rofreeparameterizedtypeextra"]
 old-location: winrt\rofreeparameterizedtypeextra.htm
 tech.root: WinRT
 ms.assetid: A9A063F3-D6E0-4383-B9AD-EA115FC3A8FD
 ms.date: 12/05/2018
 ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function [Windows Runtime], roparameterizediid/RoFreeParameterizedTypeExtra, winrt.rofreeparameterizedtypeextra
-f1_keywords:
-- roparameterizediid/RoFreeParameterizedTypeExtra
-dev_langs:
-- c++
 req.header: roparameterizediid.h
 req.include-header: Paraminstanceapi.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Runtimeobject.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- runtimeobject.lib
-- runtimeobject.dll
-- API-MS-Win-Core-WinRT-roparameterizediid-l1-1-0.dll
-- ComBase.dll
-api_name:
-- RoFreeParameterizedTypeExtra
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RoFreeParameterizedTypeExtra
+ - roparameterizediid/RoFreeParameterizedTypeExtra
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - runtimeobject.lib
+ - runtimeobject.dll
+ - API-MS-Win-Core-WinRT-roparameterizediid-l1-1-0.dll
+ - ComBase.dll
+api_name:
+ - RoFreeParameterizedTypeExtra
 ---
 
 # RoFreeParameterizedTypeExtra function
@@ -51,14 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Frees the handle allocated by <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a>.
-
+Frees the handle allocated by <a href="/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a>.
 
 ## -parameters
-
-
-
 
 ### -param extra [in]
 
@@ -66,14 +63,8 @@ Type: <b>ROPARAMIIDHANDLE</b>
 
 A handle to the IID.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

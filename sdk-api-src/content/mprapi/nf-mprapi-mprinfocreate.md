@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprInfoCreate
 title: MprInfoCreate function (mprapi.h)
 description: The MprInfoCreate function creates a new information header.
+helpviewer_keywords: ["MprInfoCreate","MprInfoCreate function [RAS]","_mpr_mprinfocreate","mprapi/MprInfoCreate","rras.mprinfocreate"]
 old-location: rras\mprinfocreate.htm
 tech.root: RRAS
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
 ms.date: 12/05/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
-f1_keywords:
-- mprapi/MprInfoCreate
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprInfoCreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprInfoCreate
+ - mprapi/MprInfoCreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprInfoCreate
 ---
 
 # MprInfoCreate function
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprInfoCreate</b> function creates a new information header.
 
-
 ## -parameters
-
-
-
 
 ### -param dwVersion [in]
 
 Specifies the version of the information header structure to be created. The only value currently supported is RTR_INFO_BLOCK_VERSION, as declared in Mprapi.h.
 
-
 ### -param lplpNewHeader [out]
 
 Pointer to the allocated and initialized header.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -111,7 +104,7 @@ The requested memory allocation could not be completed.
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -121,21 +114,10 @@ The call failed. Use
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>

@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfSystemLangBarItemText.GetItemText
 title: ITfSystemLangBarItemText::GetItemText (ctfutb.h)
 description: The ITfSystemLangBarItemText::GetItemText method obtains the text displayed for the system language bar menu.
+helpviewer_keywords: ["GetItemText","GetItemText method [Text Services Framework]","GetItemText method [Text Services Framework]","ITfSystemLangBarItemText interface","ITfSystemLangBarItemText interface [Text Services Framework]","GetItemText method","ITfSystemLangBarItemText.GetItemText","ITfSystemLangBarItemText::GetItemText","ctfutb/ITfSystemLangBarItemText::GetItemText","tsf.itfsystemlangbaritemtext_getitemtext"]
 old-location: tsf\itfsystemlangbaritemtext_getitemtext.htm
 tech.root: TSF
 ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b
 ms.date: 12/05/2018
 ms.keywords: GetItemText, GetItemText method [Text Services Framework], GetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ITfSystemLangBarItemText interface [Text Services Framework],GetItemText method, ITfSystemLangBarItemText.GetItemText, ITfSystemLangBarItemText::GetItemText, ctfutb/ITfSystemLangBarItemText::GetItemText, tsf.itfsystemlangbaritemtext_getitemtext
-f1_keywords:
-- ctfutb/ITfSystemLangBarItemText.GetItemText
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfSystemLangBarItemText.GetItemText
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSystemLangBarItemText::GetItemText
+ - ctfutb/ITfSystemLangBarItemText::GetItemText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfSystemLangBarItemText.GetItemText
 ---
 
 # ITfSystemLangBarItemText::GetItemText
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfSystemLangBarItemText::GetItemText</b> method obtains the text displayed for the system language bar menu.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrText [out]
 
 [out] A pointer to BSTR that contains the current description.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,7 +101,4 @@ A parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

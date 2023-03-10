@@ -2,15 +2,12 @@
 UID: NF:lmalert.NetAlertRaise
 title: NetAlertRaise function (lmalert.h)
 description: The NetAlertRaise function notifies all registered clients when a particular event occurs.
+helpviewer_keywords: ["ALERT_ADMIN_EVENT","ALERT_ERRORLOG_EVENT","ALERT_MESSAGE_EVENT","ALERT_PRINT_EVENT","ALERT_USER_EVENT","NetAlertRaise","NetAlertRaise function [Network Management]","_win32_netalertraise","lmalert/NetAlertRaise","netmgmt.netalertraise"]
 old-location: netmgmt\netalertraise.htm
 tech.root: NetMgmt
 ms.assetid: 11367a72-c21d-4044-98cf-a7a30cc43a8b
 ms.date: 12/05/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaise, NetAlertRaise function [Network Management], _win32_netalertraise, lmalert/NetAlertRaise, netmgmt.netalertraise
-f1_keywords:
-- lmalert/NetAlertRaise
-dev_langs:
-- c++
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetAlertRaise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetAlertRaise
+ - lmalert/NetAlertRaise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetAlertRaise
 ---
 
 # NetAlertRaise function
@@ -48,22 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is not supported as of Windows Vista because the alerter service is not supported.]
 
 The
 				<b>NetAlertRaise</b> function notifies all registered clients when a particular event occurs.
 
 To simplify sending an alert message, you can call the extended function 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> instead. 
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a> instead. 
 <b>NetAlertRaiseEx</b> does not require that you specify a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure.
-
+<a href="/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure.
 
 ## -parameters
-
-
-
 
 ### -param AlertType [in]
 
@@ -127,38 +124,32 @@ An application or resource was used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Buffer [in]
 
 A pointer to the data to send to the clients listening for the interrupting message. The data should begin with a fixed-length 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure followed by additional message data in one 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure. Finally, the buffer should include any required variable-length information. For more information, see the code sample in the following Remarks section. 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure followed by additional message data in one 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>, 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>, 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>, or 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a> structure. Finally, the buffer should include any required variable-length information. For more information, see the code sample in the following Remarks section. 
 
 
 
 
 The calling application must allocate and free the memory for all structures and variable data. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
-
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 ### -param BufferSize [in]
 
 The size, in bytes, of the message buffer.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code and a can be one of the following error codes. For a list of all possible error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 <table>
 <tr>
@@ -172,7 +163,7 @@ If the function fails, the return value is a system error code and a can be one 
 </dl>
 </td>
 <td width="60%">
-A parameter is incorrect. This error is returned if the <i>AlertEventName</i>  parameter is <b>NULL</b> or an empty string, the <i>Buffer</i>  parameter is <b>NULL</b>, or the <i>BufferSize</i>  parameter is less than the size of the <a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure plus the fixed size for the additional message data structure. 
+A parameter is incorrect. This error is returned if the <i>AlertEventName</i>  parameter is <b>NULL</b> or an empty string, the <i>Buffer</i>  parameter is <b>NULL</b>, or the <i>BufferSize</i>  parameter is less than the size of the <a href="/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> structure plus the fixed size for the additional message data structure. 
 
 </td>
 </tr>
@@ -188,14 +179,8 @@ The request is not supported. This error is returned on Windows Vista and later
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 No special group membership is required to successfully execute the 
 <b>NetAlertRaise</b> function.
@@ -208,15 +193,15 @@ The alerter service must be running on the client computer when you call the
 
 The following code sample demonstrates how to raise an administrative alert by calling the 
 <b>NetAlertRaise</b> function and specifying 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a> structures. First, the sample calculates the size of the message buffer. Then it allocates the buffer with a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. The code assigns values to the members of the 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a> and 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a> structures. First, the sample calculates the size of the message buffer. Then it allocates the buffer with a call to the 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function. The code assigns values to the members of the 
 <b>STD_ALERT</b> and the 
 <b>ADMIN_OTHER_INFO</b> portions of the buffer. The sample retrieves a pointer to the 
 <b>ADMIN_OTHER_INFO</b> structure by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-alert_other_info">ALERT_OTHER_INFO</a> macro. It also retrieves a pointer to the variable data portion of the buffer by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-alert_var_data">ALERT_VAR_DATA</a> macro. Finally, the code sample frees the memory allocated for the buffer with a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
+<a href="/windows/desktop/api/lmalert/nf-lmalert-alert_other_info">ALERT_OTHER_INFO</a> macro. It also retrieves a pointer to the variable data portion of the buffer by calling the 
+<a href="/windows/desktop/api/lmalert/nf-lmalert-alert_var_data">ALERT_VAR_DATA</a> macro. Finally, the code sample frees the memory allocated for the buffer with a call to the 
+<a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
 
 
 ```cpp
@@ -320,59 +305,48 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-admin_other_info">ADMIN_OTHER_INFO</a>
+<a href="/windows/desktop/api/lmalert/nf-lmalert-alert_other_info">ALERT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-alert_other_info">ALERT_OTHER_INFO</a>
+<a href="/windows/desktop/api/lmalert/nf-lmalert-alert_var_data">ALERT_VAR_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-alert_var_data">ALERT_VAR_DATA</a>
+<a href="/windows/desktop/NetMgmt/alert-functions">Alert Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/alert-functions">Alert Functions</a>
+<a href="/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-errlog_other_info">ERRLOG_OTHER_INFO</a>
+<a href="/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/nf-lmalert-netalertraiseex">NetAlertRaiseEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
+<a href="/windows/desktop/api/lmalert/ns-lmalert-print_other_info">PRINT_OTHER_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a>
+<a href="/windows/desktop/api/lmalert/ns-lmalert-std_alert">STD_ALERT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>

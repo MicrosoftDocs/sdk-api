@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.DeleteAll
 title: IFunctionInstanceCollection::DeleteAll (functiondiscoveryapi.h)
 description: Removes all function instances from the collection.
+helpviewer_keywords: ["DeleteAll","DeleteAll method","DeleteAll method","IFunctionInstanceCollection interface","IFunctionInstanceCollection interface","DeleteAll method","IFunctionInstanceCollection.DeleteAll","IFunctionInstanceCollection::DeleteAll","functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll","ncd.ifunctioninstancecollection_deleteall"]
 old-location: ncd\ifunctioninstancecollection_deleteall.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 4d56a16a-d44a-4c7c-931d-b5f6708cb7d6
 ms.date: 12/05/2018
 ms.keywords: DeleteAll, DeleteAll method, DeleteAll method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,DeleteAll method, IFunctionInstanceCollection.DeleteAll, IFunctionInstanceCollection::DeleteAll, functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll, ncd.ifunctioninstancecollection_deleteall
-f1_keywords:
-- functiondiscoveryapi/IFunctionInstanceCollection.DeleteAll
-dev_langs:
-- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FunDisc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunDisc.dll
-api_name:
-- IFunctionInstanceCollection.DeleteAll
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFunctionInstanceCollection::DeleteAll
+ - functiondiscoveryapi/IFunctionInstanceCollection::DeleteAll
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunDisc.dll
+api_name:
+ - IFunctionInstanceCollection.DeleteAll
 ---
 
 # IFunctionInstanceCollection::DeleteAll
@@ -48,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Removes all function instances from the collection.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>

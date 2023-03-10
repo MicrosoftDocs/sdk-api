@@ -2,15 +2,12 @@
 UID: NN:d2d1.ID2D1HwndRenderTarget
 title: ID2D1HwndRenderTarget (d2d1.h)
 description: Renders drawing instructions to a window.
+helpviewer_keywords: ["ID2D1HwndRenderTarget","ID2D1HwndRenderTarget interface [Direct2D]","ID2D1HwndRenderTarget interface [Direct2D]","described","d2d1/ID2D1HwndRenderTarget","direct2d.ID2D1HwndRenderTarget"]
 old-location: direct2d\ID2D1HwndRenderTarget.htm
 tech.root: Direct2D
 ms.assetid: 860342cc-989c-4432-b879-07f3da07d50a
 ms.date: 12/05/2018
 ms.keywords: ID2D1HwndRenderTarget, ID2D1HwndRenderTarget interface [Direct2D], ID2D1HwndRenderTarget interface [Direct2D],described, d2d1/ID2D1HwndRenderTarget, direct2d.ID2D1HwndRenderTarget
-f1_keywords:
-- d2d1/ID2D1HwndRenderTarget
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1HwndRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1HwndRenderTarget
+ - d2d1/ID2D1HwndRenderTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1HwndRenderTarget
 ---
 
 # ID2D1HwndRenderTarget interface
@@ -48,69 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Renders drawing instructions to a window.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1HwndRenderTarget</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>. <b>ID2D1HwndRenderTarget</b> also has these types of members:
+The <b>ID2D1HwndRenderTarget</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>. <b>ID2D1HwndRenderTarget</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ID2D1HwndRenderTarget</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1hwndrendertarget-checkwindowstate">CheckWindowState</a>
-</td>
-<td align="left" width="63%">
-Indicates whether the HWND associated with this render target is occluded.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1hwndrendertarget-gethwnd">GetHwnd</a>
-</td>
-<td align="left" width="63%">
-Returns the HWND associated with this render target.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">Resize</a>
-</td>
-<td align="left" width="63%">Overloaded. Changes the size of the render target to the specified pixel size.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 
-
-
-As is the case with other render targets, you must call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a>  before issuing drawing commands. After you've finished drawing, call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> to indicate that drawing is finished and to release access to the buffer backing the render target.
+As is the case with other render targets, you must call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a>  before issuing drawing commands. After you've finished drawing, call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> to indicate that drawing is finished and to release access to the buffer backing the render target.
 
 For <b>ID2D1HwndRenderTarget</b>, the only side effect of <b>BeginDraw</b> is changing the state of the render target to allow drawing commands to be issued.
 
 <b>EndDraw</b> flushes any batched drawing commands. If no errors have occurred, then it also presents the buffer, causing it to appear on the associated window. Finally, <b>EndDraw</b> returns the HRESULT of the first error that occurred in drawing or presenting, as well as the tag state at the time the error occurred.
 
-<b>ID2D1HwndRenderTarget</b> objects are double buffered, so drawing commands issued do not appear immediately, but rather are performed on an offscreen surface. When <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> is called, if there have been no rendering errors, the offscreen buffer is presented. If there have been rendering errors in the batch flushed by <b>EndDraw</b>, then the buffer is not presented, and the application must call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and re-draw the frame. <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">Flush</a> can be used to check for errors before calling <b>EndDraw</b> if an application wants the frame to be presented regardless of errors.
+<b>ID2D1HwndRenderTarget</b> objects are double buffered, so drawing commands issued do not appear immediately, but rather are performed on an offscreen surface. When <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> is called, if there have been no rendering errors, the offscreen buffer is presented. If there have been rendering errors in the batch flushed by <b>EndDraw</b>, then the buffer is not presented, and the application must call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a> and re-draw the frame. <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">Flush</a> can be used to check for errors before calling <b>EndDraw</b> if an application wants the frame to be presented regardless of errors.
 
 
 
-A hardware render target's back-buffer is the size specified by <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">GetPixelSize</a>. If <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-resize">Resize</a> to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
+A hardware render target's back-buffer is the size specified by <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1hwndrendertarget-resize(constd2d1_size_u)">GetPixelSize</a>. If <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> presents the buffer, this bitmap is stretched to cover the surface where it is presented: the entire client area of the window. This stretch is performed using bilinear filtering if the render target is rendering in hardware and using nearest-neighbor filtering if the rendering target is using software. (Typically, an application will call Resize to ensure the pixel size of the render target and the pixel size of the destination match, and no scaling is necessary, though this is not a requirement.)
 
 
 
@@ -118,18 +79,18 @@ In the case where a window straddles adapters, Direct2D ensures that the portion
 
 
 
-If the adapter a render target is on has been removed or the driver upgraded while the application is running, this is returned as an error in the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> call. In this case, the application should create a new render target and resources as necessary.
+If the adapter a render target is on has been removed or the driver upgraded while the application is running, this is returned as an error in the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> call. In this case, the application should create a new render target and resources as necessary.
 
 
 <h3><a id="Creating_ID2D1HwndRenderTarget_Objects"></a><a id="creating_id2d1hwndrendertarget_objects"></a><a id="CREATING_ID2D1HWNDRENDERTARGET_OBJECTS"></a>Creating ID2D1HwndRenderTarget Objects</h3>
-To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">ID2D1Factory::CreateHwndRenderTarget</a> method.
+To create an <b>ID2D1HwndRenderTarget</b>, use the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">ID2D1Factory::CreateHwndRenderTarget</a> method.
 
-Your application should create render targets once and hold onto them for the life of the application or until the render target's  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created).
+Your application should create render targets once and hold onto them for the life of the application or until the render target's  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="/windows/win32/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created).
 
 
-#### Examples
+## Examples
 
-The following example uses the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
+The following example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createhwndrendertarget(constd2d1_render_target_properties_constd2d1_hwnd_render_target_properties_id2d1hwndrendertarget)">CreateHwndRenderTarget</a> method to create an <b>ID2D1HwndRenderTarget</b>.
 
 
 ```cpp
@@ -209,15 +170,7 @@ Code has been omitted from this example.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 

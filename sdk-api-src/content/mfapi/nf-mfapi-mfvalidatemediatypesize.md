@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFValidateMediaTypeSize
 title: MFValidateMediaTypeSize function (mfapi.h)
 description: Validates the size of a buffer for a video format block.
+helpviewer_keywords: ["782b59ca-bfa8-4217-9b72-50a78937775a","FORMAT_DvInfo","FORMAT_MFVideoFormat","FORMAT_MPEG2Video","FORMAT_MPEGStreams","FORMAT_MPEGVideo","FORMAT_VideoInfo","FORMAT_VideoInfo2","FORMAT_WaveFormatEx","MFValidateMediaTypeSize","MFValidateMediaTypeSize function [Media Foundation]","mf.mfvalidatemediatypesize","mfapi/MFValidateMediaTypeSize"]
 old-location: mf\mfvalidatemediatypesize.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a
 ms.date: 12/05/2018
 ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideoFormat, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, MFValidateMediaTypeSize, MFValidateMediaTypeSize function [Media Foundation], mf.mfvalidatemediatypesize, mfapi/MFValidateMediaTypeSize
-f1_keywords:
-- mfapi/MFValidateMediaTypeSize
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFValidateMediaTypeSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFValidateMediaTypeSize
+ - mfapi/MFValidateMediaTypeSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFValidateMediaTypeSize
 ---
 
 # MFValidateMediaTypeSize function
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Validates the size of a buffer for a video format block.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param FormatType [in]
 
@@ -118,22 +114,15 @@ GUID that specifies the type of format block. It must be one of the following va
 
 #### FORMAT_WaveFormatEx
 
-
 ### -param pBlock [in]
 
 Pointer to a buffer that contains the format block.
-          
-
 
 ### -param cbSize [in]
 
 Size of the <i>pBlock</i> buffer, in bytes.
-          
-
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -179,14 +168,8 @@ This function does not support the specified format type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -195,15 +178,6 @@ This function is available on the following platforms if the Windows Media Forma
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

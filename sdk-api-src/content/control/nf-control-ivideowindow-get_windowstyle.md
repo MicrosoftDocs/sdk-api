@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.get_WindowStyle
 title: IVideoWindow::get_WindowStyle (control.h)
 description: The get_WindowStyle method retrieves the window styles on the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_WindowStyle method","IVideoWindow.get_WindowStyle","IVideoWindow::get_WindowStyle","IVideoWindowget_WindowStyle","control/IVideoWindow::get_WindowStyle","dshow.ivideowindow_get_windowstyle","get_WindowStyle","get_WindowStyle method [DirectShow]","get_WindowStyle method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_windowstyle.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ae4ae516-743f-4a27-90d5-108ca26aadd4
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyle method, IVideoWindow.get_WindowStyle, IVideoWindow::get_WindowStyle, IVideoWindowget_WindowStyle, control/IVideoWindow::get_WindowStyle, dshow.ivideowindow_get_windowstyle, get_WindowStyle, get_WindowStyle method [DirectShow], get_WindowStyle method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_WindowStyle
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_WindowStyle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_WindowStyle
+ - control/IVideoWindow::get_WindowStyle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_WindowStyle
 ---
 
 # IVideoWindow::get_WindowStyle
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_WindowStyle</code> method retrieves the window styles on the video window.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param WindowStyle [out]
 
 Receives the window style flags.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -112,39 +102,23 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method calls the Windows <b>GetWindowLong</b> function with the value GWL_STYLE.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-get_windowstyleex">IVideoWindow::get_WindowStyleEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_windowstyleex">IVideoWindow::get_WindowStyleEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyle">IVideoWindow::put_WindowStyle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyle">IVideoWindow::put_WindowStyle</a>

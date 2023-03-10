@@ -1,16 +1,13 @@
 ---
 UID: NF:windns.DnsValidateName
 title: DnsValidateName macro (windns.h)
-description: The DnsValidateName function validates the status of a specified DNS name.
+description: The DnsValidateName macro (windns.h) function validates the status of a specified DNS name.
+helpviewer_keywords: ["DnsValidateName","DnsValidateName function [DNS]","DnsValidateName_A","DnsValidateName_UTF8","DnsValidateName_W","_dns_dnsvalidatename","dns.dnsvalidatename","windns/DnsValidateName","windns/DnsValidateName_A","windns/DnsValidateName_UTF8","windns/DnsValidateName_W"]
 old-location: dns\dnsvalidatename.htm
 tech.root: DNS
 ms.assetid: efdbd217-6936-42c1-a1eb-8655a62513ee
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: DnsValidateName, DnsValidateName function [DNS], DnsValidateName_A, DnsValidateName_UTF8, DnsValidateName_W, _dns_dnsvalidatename, dns.dnsvalidatename, windns/DnsValidateName, windns/DnsValidateName_A, windns/DnsValidateName_UTF8, windns/DnsValidateName_W
-f1_keywords:
-- windns/DnsValidateName
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,29 +25,33 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsValidateName
-- DnsValidateName_A
-- DnsValidateName_W
-- DnsValidateName_UTF8
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsValidateName
+ - windns/DnsValidateName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsValidateName
+ - DnsValidateName_A
+ - DnsValidateName_W
+ - DnsValidateName_UTF8
 ---
 
 # DnsValidateName macro
 
 
 ## -description
-
 
 The 
 <b>DnsValidateName</b> function validates the status of a specified DNS name. Like many DNS functions, the 
@@ -72,13 +73,9 @@ The
 
 ## -parameters
 
-
-
-
 ### -param p
 
 TBD
-
 
 ### -param f
 
@@ -91,17 +88,14 @@ TBD
 
 #### - Format [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
+A <a href="/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
 
 
 #### - pszName [in]
 
 A pointer to a string that represents the DNS name to be examined.
 
-
 ## -remarks
-
-
 
 To verify the status of the Computer Host (single label), use the 
 <b>DnsValidateName</b> function type with <b>DnsNameHostnameLabel</b> in <i>Format</i>.
@@ -154,27 +148,18 @@ The
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsnamecompare">DnsNameCompare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsnamecompare">DnsNameCompare</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>

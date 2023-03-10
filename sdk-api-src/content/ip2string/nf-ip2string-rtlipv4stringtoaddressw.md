@@ -1,16 +1,13 @@
 ---
 UID: NF:ip2string.RtlIpv4StringToAddressW
 title: RtlIpv4StringToAddressW function (ip2string.h)
-description: Converts a string representation of an IPv4 address to a binary IPv4 address.
+description: Converts a string representation of an IPv4 address to a binary IPv4 address. (Unicode)
+helpviewer_keywords: ["RtlIpv4StringToAddress", "RtlIpv4StringToAddress function [IP Helper]", "RtlIpv4StringToAddressW", "ip2string/RtlIpv4StringToAddress", "ip2string/RtlIpv4StringToAddressW", "iphlp.rtlipv4stringtoaddress"]
 old-location: iphlp\rtlipv4stringtoaddress.htm
 tech.root: IpHlp
 ms.assetid: 79896c13-a671-423e-975e-98a4ccfa1eb8
 ms.date: 12/05/2018
 ms.keywords: RtlIpv4StringToAddress, RtlIpv4StringToAddress function [IP Helper], RtlIpv4StringToAddressA, RtlIpv4StringToAddressW, ip2string/RtlIpv4StringToAddress, ip2string/RtlIpv4StringToAddressA, ip2string/RtlIpv4StringToAddressW, iphlp.rtlipv4stringtoaddress
-f1_keywords:
-- ip2string/RtlIpv4StringToAddress
-dev_langs:
-- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlIpv4StringToAddress
-- RtlIpv4StringToAddressA
-- RtlIpv4StringToAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlIpv4StringToAddressW
+ - ip2string/RtlIpv4StringToAddressW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlIpv4StringToAddress
+ - RtlIpv4StringToAddressA
+ - RtlIpv4StringToAddressW
 ---
 
 # RtlIpv4StringToAddressW function
@@ -50,21 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtlIpv4StringToAddress</b> function  converts a string representation of an IPv4 address to a binary IPv4 address.
 
-
-
 ## -parameters
-
-
-
 
 ### -param S [in]
 
-A pointer to a buffer containing the <b>NULL</b>-terminated string representation of the IPv4 address. 
-
+A pointer to a buffer containing the <b>NULL</b>-terminated string representation of the IPv4 address.
 
 ### -param Strict [in]
 
@@ -72,21 +67,16 @@ A value that indicates whether the string must be an IPv4 address represented in
              If this parameter is <b>FALSE</b>, any of four possible forms are allowed, with decimal,
              octal, or hexadecimal notation. See the Remarks section for details.
 
-
 ### -param Terminator [out]
 
 A parameter that receives a pointer to the character that terminated
         the converted string. This can be used by the caller to extract more information from the string.
 
-
 ### -param Addr [out]
 
 A pointer where the binary representation of the IPv4 address is to be stored.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>STATUS_SUCCESS</b>.
 
@@ -118,19 +108,13 @@ This error code is defined in the Ntstatus.h header file.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>RtlIpv4StringToAddress</b> function is used to convert a string representation of the IPv4 address to an IPv4 address returned in network order (bytes ordered from
     left to right). 
@@ -164,72 +148,69 @@ When both UNICODE and _UNICODE are not defined, <b>RtlIpv4StringToAddress</b> is
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
+The <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">IN_ADDR</a> structure is defined in the <i>Inaddr.h</i> header file.
 
-An import library containing the <b>RtlIpv4StringToAddress</b> function is not included in the Microsoft Windows Software Development Kit (SDK) released for Windows Vista. The <b>RtlIpv4StringToAddress</b> function is included in the <i>Ntdll.lib</i> import library included in the Windows Driver Kit (WDK). An application could also use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to retrieve the function pointer from the <i>Ntdll.dll</i> and call this function.
+An import library containing the <b>RtlIpv4StringToAddress</b> function is not included in the Microsoft Windows Software Development Kit (SDK) released for Windows Vista. The <b>RtlIpv4StringToAddress</b> function is included in the <i>Ntdll.lib</i> import library included in the Windows Driver Kit (WDK). An application could also use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to retrieve the function pointer from the <i>Ntdll.dll</i> and call this function.
 
 
 
+
+
+> [!NOTE]
+> The ip2string.h header defines RtlIpv4StringToAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetntopw">InetNtop</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetptonw">InetPton</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-inetptonw">InetPton</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa">RtlIpv4AddressToString</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringexw">RtlIpv4AddressToStringEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressexw">RtlIpv4StringToAddressEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressexw">RtlIpv4StringToAddressEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringa">RtlIpv6AddressToString</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6addresstostringexw">RtlIpv6AddressToStringEx</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa">RtlIpv6StringToAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa">RtlIpv6StringToAddress</a>
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw">RtlIpv6StringToAddressEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw">RtlIpv6StringToAddressEx</a>
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a>

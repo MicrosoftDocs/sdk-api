@@ -2,15 +2,12 @@
 UID: NF:iphlpapi.SetIfEntry
 title: SetIfEntry function (iphlpapi.h)
 description: The SetIfEntry function sets the administrative status of an interface.
+helpviewer_keywords: ["MIB_IF_ADMIN_STATUS_DOWN","MIB_IF_ADMIN_STATUS_UP","SetIfEntry","SetIfEntry function [IP Helper]","_iphlp_setifentry","iphlp.setifentry","iphlpapi/SetIfEntry"]
 old-location: iphlp\setifentry.htm
 tech.root: IpHlp
 ms.assetid: 67a18ef2-a7af-4fc1-8416-053aa8388f9e
 ms.date: 12/05/2018
 ms.keywords: MIB_IF_ADMIN_STATUS_DOWN, MIB_IF_ADMIN_STATUS_UP, SetIfEntry, SetIfEntry function [IP Helper], _iphlp_setifentry, iphlp.setifentry, iphlpapi/SetIfEntry
-f1_keywords:
-- iphlpapi/SetIfEntry
-dev_langs:
-- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- SetIfEntry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetIfEntry
+ - iphlpapi/SetIfEntry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - SetIfEntry
 ---
 
 # SetIfEntry function
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>SetIfEntry</b> function sets the administrative status of an interface.
 
-
 ## -parameters
-
-
-
 
 ### -param pIfRow [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure. The <b>dwIndex</b> member of this structure specifies the interface on which to set administrative status. The <b>dwAdminStatus</b> member specifies the new administrative status. The <b>dwAdminStatus</b> member can be one of the following values. 
+<a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure. The <b>dwIndex</b> member of this structure specifies the interface on which to set administrative status. The <b>dwAdminStatus</b> member specifies the new administrative status. The <b>dwAdminStatus</b> member can be one of the following values. 
 
 
 
@@ -91,12 +88,8 @@ The interface is administratively disabled.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -125,7 +118,7 @@ Access is denied. This error is returned on Windows Vista and later under sever
 </dl>
 </td>
 <td width="60%">
-The system cannot find the file specified. This error is returned on Windows Vista and later if the  network interface specified by the <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter could not be found.
+The system cannot find the file specified. This error is returned on Windows Vista and later if the  network interface specified by the <b>dwIndex</b>  member of the <a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter could not be found.
 
 </td>
 </tr>
@@ -136,7 +129,7 @@ The system cannot find the file specified. This error is returned on Windows Vi
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> pointer is passed in the <i>pIfRow</i> parameter, or the <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> pointed to by the <i>pIfRow</i> parameter was unspecified. This error is also returned on Windows Server 2003 and earlier if the  network interface specified by the <b>dwIndex</b>  member of the <b>MIB_IFROW</b> structure pointed to by the <i>pIfRow</i> parameter could not be found.  
+An invalid parameter was passed to the function. This error is returned if a <b>NULL</b> pointer is passed in the <i>pIfRow</i> parameter, or the <b>dwIndex</b>  member of the <a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> pointed to by the <i>pIfRow</i> parameter was unspecified. This error is also returned on Windows Server 2003 and earlier if the  network interface specified by the <b>dwIndex</b>  member of the <b>MIB_IFROW</b> structure pointed to by the <i>pIfRow</i> parameter could not be found.  
 
 </td>
 </tr>
@@ -159,26 +152,20 @@ The request is not supported. This error is returned on Windows Server 2003 and
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>SetIfEntry</b> function is used to set the administrative status of an interface on a local computer. 
 
-The <b>dwIndex</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter must be initialized to the interface index.
+The <b>dwIndex</b> member in the <a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> structure pointed to by the <i>pIfRow</i> parameter must be initialized to the interface index.
 
 
-The <b>SetIfEntry</b> function will fail if the  <b>dwIndex</b>  member of the <a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> pointed to by the <i>pIfRow</i> parameter does not match an existing interface on the local computer. 
+The <b>SetIfEntry</b> function will fail if the  <b>dwIndex</b>  member of the <a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a> pointed to by the <i>pIfRow</i> parameter does not match an existing interface on the local computer. 
 
 On Windows Vista and later, the <b>SetIfEntry</b> function can only be called by a user logged on as a member of the Administrators group. If <b>SetIfEntry</b> is called by a user that is not a member of the Administrators group, the function call will fail and <b>ERROR_ACCESS_DENIED</b> is returned. 
 
@@ -189,14 +176,9 @@ The <b>SetIfEntry</b> function can also fail because of user account control (UA
 <div class="alert"><b>Note</b>   On Windows NT 4.0 and Windows 2000 and later, this function executes a privileged operation. For this function to execute successfully, the caller must be logged on as a member of the Administrators group or the NetworkConfigurationOperators group.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getifentry">GetIfEntry</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getifentry">GetIfEntry</a>
 
 
 
@@ -204,20 +186,16 @@ The <b>SetIfEntry</b> function can also fail because of user account control (UA
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
+<a href="/windows/desktop/api/ifmib/ns-ifmib-mib_ifrow">MIB_IFROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>

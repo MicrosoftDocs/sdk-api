@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRFilterConfig.GetNumberOfStreams
 title: IVMRFilterConfig::GetNumberOfStreams (strmif.h)
 description: The GetNumberOfStreams method retrieves the number of input streams being mixed.
+helpviewer_keywords: ["GetNumberOfStreams","GetNumberOfStreams method [DirectShow]","GetNumberOfStreams method [DirectShow]","IVMRFilterConfig interface","IVMRFilterConfig interface [DirectShow]","GetNumberOfStreams method","IVMRFilterConfig.GetNumberOfStreams","IVMRFilterConfig::GetNumberOfStreams","IVMRFilterConfigGetNumberOfStreams","dshow.ivmrfilterconfig_getnumberofstreams","strmif/IVMRFilterConfig::GetNumberOfStreams"]
 old-location: dshow\ivmrfilterconfig_getnumberofstreams.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e031c427-23bb-4243-bb38-0837a6db8c2c
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetNumberOfStreams method, IVMRFilterConfig.GetNumberOfStreams, IVMRFilterConfig::GetNumberOfStreams, IVMRFilterConfigGetNumberOfStreams, dshow.ivmrfilterconfig_getnumberofstreams, strmif/IVMRFilterConfig::GetNumberOfStreams
-f1_keywords:
-- strmif/IVMRFilterConfig.GetNumberOfStreams
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRFilterConfig.GetNumberOfStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRFilterConfig::GetNumberOfStreams
+ - strmif/IVMRFilterConfig::GetNumberOfStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRFilterConfig.GetNumberOfStreams
 ---
 
 # IVMRFilterConfig::GetNumberOfStreams
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetNumberOfStreams</code> method retrieves the number of input streams being mixed.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwMaxStreams [out]
 
 Pointer to a double word that receives the number of streams being mixed, which is equal to the number of input pins on the VMR.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
@@ -89,30 +80,19 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrfilterconfig">IVMRFilterConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrfilterconfig">IVMRFilterConfig Interface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams">IVMRFilterConfig::SetNumberOfStreams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams">IVMRFilterConfig::SetNumberOfStreams</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

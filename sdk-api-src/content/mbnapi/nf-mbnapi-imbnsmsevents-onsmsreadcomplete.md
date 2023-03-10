@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsReadComplete
 title: IMbnSmsEvents::OnSmsReadComplete (mbnapi.h)
 description: Notification method indicating the completion of a message read operation.
+helpviewer_keywords: ["E_MBN_BAD_SIM","E_MBN_PIN_REQUIRED","E_MBN_SIM_NOT_INSERTED","E_MBN_SMS_FILTER_NOT_SUPPORTED","E_MBN_SMS_INVALID_MEMORY_INDEX","E_MBN_SMS_MEMORY_FAILURE","HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)","IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsReadComplete method","IMbnSmsEvents.OnSmsReadComplete","IMbnSmsEvents::OnSmsReadComplete","OnSmsReadComplete","OnSmsReadComplete method [Microsoft Broadband Networks]","OnSmsReadComplete method [Microsoft Broadband Networks]","IMbnSmsEvents interface","S_OK","mbn.imbnsmsevents_onsmsreadcomplete","mbnapi/IMbnSmsEvents::OnSmsReadComplete"]
 old-location: mbn\imbnsmsevents_onsmsreadcomplete.htm
 tech.root: mbn
 ms.assetid: 58478c9d-6df2-466b-85bc-1c571f4429ce
 ms.date: 12/05/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_FILTER_NOT_SUPPORTED, E_MBN_SMS_INVALID_MEMORY_INDEX, E_MBN_SMS_MEMORY_FAILURE, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsReadComplete method, IMbnSmsEvents.OnSmsReadComplete, IMbnSmsEvents::OnSmsReadComplete, OnSmsReadComplete, OnSmsReadComplete method [Microsoft Broadband Networks], OnSmsReadComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmsreadcomplete, mbnapi/IMbnSmsEvents::OnSmsReadComplete
-f1_keywords:
-- mbnapi/IMbnSmsEvents.OnSmsReadComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsEvents.OnSmsReadComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsEvents::OnSmsReadComplete
+ - mbnapi/IMbnSmsEvents::OnSmsReadComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsEvents.OnSmsReadComplete
 ---
 
 # IMbnSmsEvents::OnSmsReadComplete
@@ -53,36 +55,27 @@ ms.custom: 19H1
 
 Notification method indicating the completion of a message read operation.
 
-
 ## -parameters
-
-
-
 
 ### -param sms [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the message store that completed the operation.
-
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the message store that completed the operation.
 
 ### -param smsFormat [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format">MBN_SMS_FORMAT</a> value that defines the format of the SMS message.
-
+An <a href="/windows/desktop/api/mbnapi/ne-mbnapi-mbn_sms_format">MBN_SMS_FORMAT</a> value that defines the format of the SMS message.
 
 ### -param readMsgs [in]
 
 An array of messages read from the device.
 
-
 ### -param moreMsgs [in]
 
 A Boolean value that indicates whether there are more messages still being processed.  If this is <b>TRUE</b>, then <b>OnSmsReadComplete</b> will be called repeatedly until there are not more messages and <i>moreMsgs</i> is <b>FALSE</b>.
 
-
 ### -param requestID [in]
 
 A request ID assigned by the Mobile Broadband service to identify the message read operation.
-
 
 ### -param status [in]
 
@@ -176,38 +169,19 @@ The device does not support the requested filter.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
-
-
-
 
 ## -remarks
 
+For GSM devices, the calling application should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the each element in <i>readMsgs</i> for an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface.
 
+  For CDMA devices, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_TEXT</b>,  the application should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a> interface; otherwise, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_PDU</b>, the application should call <b>QueryInterface</b> for an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface.
 
-For GSM devices, the calling application should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the each element in <i>readMsgs</i> for an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface.
-
-  For CDMA devices, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_TEXT</b>,  the application should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> for an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a> interface; otherwise, if <i>smsFormat</i> is <b>MBN_SMS_FORMAT_PDU</b>, the application should call <b>QueryInterface</b> for an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a> interface.
-
-If a read request results in a large amount of messages being read, then <b>OnSmsReadComplete</b> may be called repeatedly until <i>moreMsgs</i> indicates there are no more messages to be read. 
-
-
-
+If a read request results in a large amount of messages being read, then <b>OnSmsReadComplete</b> may be called repeatedly until <i>moreMsgs</i> indicates there are no more messages to be read.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>

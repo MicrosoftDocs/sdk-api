@@ -2,15 +2,12 @@
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION_EX
 title: DRIVE_LAYOUT_INFORMATION_EX
 description: Contains extended information about a drive's partitions.
+helpviewer_keywords: ["*PDRIVE_LAYOUT_INFORMATION_EX","DRIVE_LAYOUT_INFORMATION_EX","DRIVE_LAYOUT_INFORMATION_EX structure [Files]","PARTITION_STYLE_GPT","PARTITION_STYLE_MBR","PARTITION_STYLE_RAW","PDRIVE_LAYOUT_INFORMATION_EX","PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files]","_win32_drive_layout_information_ex_str","base.drive_layout_information_ex_str","fs.drive_layout_information_ex_str","winioctl/DRIVE_LAYOUT_INFORMATION_EX","winioctl/PDRIVE_LAYOUT_INFORMATION_EX"]
 old-location: fs\drive_layout_information_ex_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 381c87a8-fe40-4251-a4df-dddc9e2a126d
 ms.date: 12/05/2018
 ms.keywords: '*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files], _win32_drive_layout_information_ex_str, base.drive_layout_information_ex_str, fs.drive_layout_information_ex_str, winioctl/DRIVE_LAYOUT_INFORMATION_EX, winioctl/PDRIVE_LAYOUT_INFORMATION_EX'
-f1_keywords:
-- winioctl/DRIVE_LAYOUT_INFORMATION_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- DRIVE_LAYOUT_INFORMATION_EX
 targetos: Windows
 req.typenames: DRIVE_LAYOUT_INFORMATION_EX, *PDRIVE_LAYOUT_INFORMATION_EX
 req.redist: 
+f1_keywords:
+ - _DRIVE_LAYOUT_INFORMATION_EX
+ - winioctl/_DRIVE_LAYOUT_INFORMATION_EX
+ - PDRIVE_LAYOUT_INFORMATION_EX
+ - winioctl/PDRIVE_LAYOUT_INFORMATION_EX
+ - DRIVE_LAYOUT_INFORMATION_EX
+ - winioctl/DRIVE_LAYOUT_INFORMATION_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - DRIVE_LAYOUT_INFORMATION_EX
 ---
 
 # DRIVE_LAYOUT_INFORMATION_EX structure
@@ -47,124 +53,39 @@ req.redist:
 
 ## -description
 
-
 Contains extended information about a drive's partitions.
-
 
 ## -struct-fields
 
-
-
-
 ### -field PartitionStyle
 
-The style of the partitions on the drive enumerated by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a> enumeration.
+The style of the partitions on the drive enumerated by the [**PARTITION_STYLE**](ne-winioctl-partition_style.md) enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PARTITION_STYLE_MBR"></a><a id="partition_style_mbr"></a><dl>
-<dt><b>PARTITION_STYLE_MBR</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Master boot record (MBR) format.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PARTITION_STYLE_GPT"></a><a id="partition_style_gpt"></a><dl>
-<dt><b>PARTITION_STYLE_GPT</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-GUID Partition Table (GPT) format.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PARTITION_STYLE_RAW"></a><a id="partition_style_raw"></a><dl>
-<dt><b>PARTITION_STYLE_RAW</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Partition not formatted in either of the recognized formats—MBR or GPT.
-
-</td>
-</tr>
-</table>
- 
-
+| Style | Value | Meaning |
+| --- | --- | --- |
+| **PARTITION_STYLE_MBR** | 0 | Master boot record (MBR) format.|
+| **PARTITION_STYLE_GPT** | 1 | GUID Partition Table (GPT) format. |
+| **PARTITION_STYLE_RAW** | 2 | Partition not formatted in either of the recognized formats—MBR or GPT. |
 
 ### -field PartitionCount
 
-The number of partitions on the drive. On hard disks with the MBR layout, this value will always be a 
-      multiple of 4. Any partitions that are actually unused will have a partition type of 
-      <b>PARTITION_ENTRY_UNUSED</b> (0) set in the <b>PartitionType</b> member 
-      of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_mbr">PARTITION_INFORMATION_MBR</a> structure 
-      of the <b>Mbr</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structure of the 
-      <b>PartitionEntry</b> member of this structure.
-
+The number of partitions on the drive. On hard disks with the MBR layout, this value will always be a multiple of 4. Any partitions that are actually unused will have a partition type of **PARTITION_ENTRY_UNUSED** (0) set in the **PartitionType** member of the [**PARTITION_INFORMATION_MBR**](ns-winioctl-partition_information_mbr.md) structure of the **Mbr** member of the [**PARTITION_INFORMATION_EX**](ns-winioctl-partition_information_ex.md) structure of the **PartitionEntry** member of this structure.
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.Mbr
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a> 
-       structure containing information about the master boot record type partitioning on the drive.
-
+A [**DRIVE_LAYOUT_INFORMATION_MBR**](ns-winioctl-drive_layout_information_mbr.md) structure containing information about the master boot record type partitioning on the drive.
 
 ### -field DUMMYUNIONNAME.Gpt
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a> 
-       structure containing information about the GUID disk partition type partitioning on the drive.
-
+A [**DRIVE_LAYOUT_INFORMATION_GPT**](ns-winioctl-drive_layout_information_gpt.md) structure containing information about the GUID disk partition type partitioning on the drive.
 
 ### -field PartitionEntry
 
-A variable-sized array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structures, one 
-      structure for each partition on the drive.
-
+A variable-sized array of [**PARTITION_INFORMATION_EX**](ns-winioctl-partition_information_ex.md) structures, one structure for each partition on the drive.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_gpt">DRIVE_LAYOUT_INFORMATION_GPT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-drive_layout_information_mbr">DRIVE_LAYOUT_INFORMATION_MBR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout_ex">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
- 
-
- 
+[DRIVE_LAYOUT_INFORMATION_GPT](ns-winioctl-drive_layout_information_gpt.md), [DRIVE_LAYOUT_INFORMATION_MBR](ns-winioctl-drive_layout_information_mbr.md), [IOCTL_DISK_GET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_get_drive_layout_ex.md), [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout.md), [PARTITION_INFORMATION_EX](ns-winioctl-partition_information_ex.md), [PARTITION_INFORMATION](ns-winioctl-partition_information.md)
 

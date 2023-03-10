@@ -2,15 +2,12 @@
 UID: NF:gdipluslinecaps.AdjustableArrowCap.GetMiddleInset
 title: AdjustableArrowCap::GetMiddleInset (gdipluslinecaps.h)
 description: The AdjustableArrowCap::GetMiddleInset method gets the value of the inset. The middle inset is the number of units that the midpoint of the base shifts towards the vertex.
+helpviewer_keywords: ["AdjustableArrowCap class [GDI+]","GetMiddleInset method","AdjustableArrowCap.GetMiddleInset","AdjustableArrowCap::GetMiddleInset","GetMiddleInset","GetMiddleInset method [GDI+]","GetMiddleInset method [GDI+]","AdjustableArrowCap class","_gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_","gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_"]
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getmiddleinset.htm
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetMiddleInset method, AdjustableArrowCap.GetMiddleInset, AdjustableArrowCap::GetMiddleInset, GetMiddleInset, GetMiddleInset method [GDI+], GetMiddleInset method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_
-f1_keywords:
-- gdipluslinecaps/AdjustableArrowCap.GetMiddleInset
-dev_langs:
-- c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- AdjustableArrowCap.GetMiddleInset
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - AdjustableArrowCap::GetMiddleInset
+ - gdipluslinecaps/AdjustableArrowCap::GetMiddleInset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - AdjustableArrowCap.GetMiddleInset
 ---
 
 # AdjustableArrowCap::GetMiddleInset
@@ -49,32 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AdjustableArrowCap::GetMiddleInset</b> method gets the value of the inset. The middle inset is the number of units that the midpoint of the base shifts towards the vertex.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>REAL</b>
-</strong>
+Type: <b>REAL</b>
 
 This method returns the inset value.
 
-
-
-
 ## -remarks
-
-
 
 The middle inset is the number of units that the midpoint of the base shifts towards the vertex. A middle inset of zero results in no shift — the base is a straight line, giving the arrow a triangular shape. A positive (greater than zero) middle inset results in a shift the specified number of units toward the vertex — the base is an arrow shape that points toward the vertex, giving the arrow cap a V-shape. A negative (less than zero) middle inset results in a shift the specified number of units away from the vertex — the base becomes an arrow shape that points away from the vertex, giving the arrow either a diamond shape (if the absolute value of the middle inset is equal to the height) or distorted diamond shape. If the middle inset is equal to or greater than the height of the arrow cap, the cap does not appear at all. The value of the middle inset affects the arrow cap only if the arrow cap is filled. The middle inset defaults to zero when an 
 				<b>AdjustableArrowCap</b> object is constructed.
@@ -117,7 +104,4 @@ VOID Example_GetMiddleInset(HDC hdc)
    graphics.DrawLine(&arrowPen, Point(0, 40), Point(100, 40));
 }
 ```
-
-
-
 

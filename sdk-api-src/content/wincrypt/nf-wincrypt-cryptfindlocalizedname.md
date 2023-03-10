@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptFindLocalizedName
 title: CryptFindLocalizedName function (wincrypt.h)
-description: Finds the localized name for the specified name, such as the localize name of the &#0034;Root&#0034; system store.
+description: Finds the localized name for the specified name, such as the localize name of the &quot;Root&quot; system store.
+helpviewer_keywords: ["CryptFindLocalizedName","CryptFindLocalizedName function [Security]","_crypto2_cryptfindlocalizedname","security.cryptfindlocalizedname","wincrypt/CryptFindLocalizedName"]
 old-location: security\cryptfindlocalizedname.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c
 ms.date: 12/05/2018
 ms.keywords: CryptFindLocalizedName, CryptFindLocalizedName function [Security], _crypto2_cryptfindlocalizedname, security.cryptfindlocalizedname, wincrypt/CryptFindLocalizedName
-f1_keywords:
-- wincrypt/CryptFindLocalizedName
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CryptFindLocalizedName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptFindLocalizedName
+ - wincrypt/CryptFindLocalizedName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CryptFindLocalizedName
 ---
 
 # CryptFindLocalizedName function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptFindLocalizedName</b> function finds the localized name for the specified name, such as the localize name of the "Root" system store. This function can be used before displaying any UI that included a name that might have a localized form.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszCryptName [in]
 
@@ -69,22 +66,14 @@ A pointer to a specified name. An internal table is searched to compare a predef
 
 ## -returns
 
-
-
 If the specified name is found, a pointer to the localized name is returned. The returned pointer must not be freed.
 						
 
 If the specified name is not found, <b>NULL</b> is returned.
 
-
-
-
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to register additional localized strings.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to register additional localized strings.
 
 <i>dwEncodingType</i> = CRYPT_LOCALIZED_NAME_ENCODING_TYPE
 
@@ -101,7 +90,7 @@ If the specified name is not found, <b>NULL</b> is returned.
 <i>cbValueData</i> = (wcslen(Unicode localized string) + 1) * sizeof(WCHAR)
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to unregister the localized strings.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> can be called as follows to unregister the localized strings.
 
 <i>pbValueData</i> = <b>NULL</b>
 
@@ -138,23 +127,14 @@ NAME_FUNC
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-setting-and-getting-certificate-store-properties">Example C Program: Setting and Getting Certificate Store Properties</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

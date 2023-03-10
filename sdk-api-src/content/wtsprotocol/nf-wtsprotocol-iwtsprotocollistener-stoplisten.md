@@ -2,15 +2,12 @@
 UID: NF:wtsprotocol.IWTSProtocolListener.StopListen
 title: IWTSProtocolListener::StopListen (wtsprotocol.h)
 description: IWTSProtocolListener::StopListen is no longer available. Instead, use IWRdsProtocolListener::StopListen.
+helpviewer_keywords: ["IWTSProtocolListener interface [Remote Desktop Services]","StopListen method","IWTSProtocolListener.StopListen","IWTSProtocolListener::StopListen","StopListen","StopListen method [Remote Desktop Services]","StopListen method [Remote Desktop Services]","IWTSProtocolListener interface","termserv.iwtsprotocollistener_stoplisten","wtsprotocol/IWTSProtocolListener::StopListen"]
 old-location: termserv\iwtsprotocollistener_stoplisten.htm
 tech.root: TermServ
 ms.assetid: 5c5b09d3-74d6-4067-b18b-ed2a54af4153
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StopListen method, IWTSProtocolListener.StopListen, IWTSProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_stoplisten, wtsprotocol/IWTSProtocolListener::StopListen
-f1_keywords:
-- wtsprotocol/IWTSProtocolListener.StopListen
-dev_langs:
-- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wtsprotocol.h
-api_name:
-- IWTSProtocolListener.StopListen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWTSProtocolListener::StopListen
+ - wtsprotocol/IWTSProtocolListener::StopListen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wtsprotocol.h
+api_name:
+ - IWTSProtocolListener.StopListen
 ---
 
 # IWTSProtocolListener::StopListen
@@ -48,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>IWTSProtocolListener::StopListen</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-stoplisten">IWRdsProtocolListener::StopListen</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolListener::StopListen</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistener-stoplisten">IWRdsProtocolListener::StopListen</a>.]
 
 Notifies the protocol to stop listening for client connection requests.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a>

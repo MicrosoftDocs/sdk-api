@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfInputProcessorProfileMgr.UnregisterProfile
 title: ITfInputProcessorProfileMgr::UnregisterProfile (msctf.h)
 description: The ITfInputProcessorProfileMgr::UnregisterProfile method unregisters the text service and the profile.
+helpviewer_keywords: ["ITfInputProcessorProfileMgr interface [Text Services Framework]","UnregisterProfile method","ITfInputProcessorProfileMgr.UnregisterProfile","ITfInputProcessorProfileMgr::UnregisterProfile","TF_URP_ALLPROFILES","TF_URP_LOCALPROCESS","TF_URP_LOCALTHREAD","UnregisterProfile","UnregisterProfile method [Text Services Framework]","UnregisterProfile method [Text Services Framework]","ITfInputProcessorProfileMgr interface","msctf/ITfInputProcessorProfileMgr::UnregisterProfile","tsf.itfinputprocessorprofilemgr_unregisterprofile"]
 old-location: tsf\itfinputprocessorprofilemgr_unregisterprofile.htm
 tech.root: TSF
 ms.assetid: 7b05beea-991a-406f-a08d-28cdd87c9d7d
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileMgr interface [Text Services Framework],UnregisterProfile method, ITfInputProcessorProfileMgr.UnregisterProfile, ITfInputProcessorProfileMgr::UnregisterProfile, TF_URP_ALLPROFILES, TF_URP_LOCALPROCESS, TF_URP_LOCALTHREAD, UnregisterProfile, UnregisterProfile method [Text Services Framework], UnregisterProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, msctf/ITfInputProcessorProfileMgr::UnregisterProfile, tsf.itfinputprocessorprofilemgr_unregisterprofile
-f1_keywords:
-- msctf/ITfInputProcessorProfileMgr.UnregisterProfile
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfInputProcessorProfileMgr.UnregisterProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfInputProcessorProfileMgr::UnregisterProfile
+ - msctf/ITfInputProcessorProfileMgr::UnregisterProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfInputProcessorProfileMgr.UnregisterProfile
 ---
 
 # ITfInputProcessorProfileMgr::UnregisterProfile
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfInputProcessorProfileMgr::UnregisterProfile</b> method unregisters the text service and the profile.
 
-
 ## -parameters
-
-
-
 
 ### -param rclsid [in]
 
 [in] CLSID of the text service.
 
-
 ### -param langid [in]
 
 [in] The language id of the profile.
 
-
 ### -param guidProfile [in]
 
 [in] The GUID to identify the profile.
-
 
 ### -param dwFlags [in]
 
@@ -112,12 +106,8 @@ The profile was registered on the local thread.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -160,7 +150,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

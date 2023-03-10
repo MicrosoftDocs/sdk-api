@@ -2,15 +2,12 @@
 UID: NE:codecapi.eAVEncVideoSourceScanType
 title: eAVEncVideoSourceScanType (codecapi.h)
 description: Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the AVEncVideoForceSourceScanType property.
+helpviewer_keywords: ["codecapi/eAVEncVideoSourceScanType","codecapi/eAVEncVideoSourceScan_Automatic","codecapi/eAVEncVideoSourceScan_Interlaced","codecapi/eAVEncVideoSourceScan_Progressive","dshow.eavencvideosourcescantype","eAVEncVideoSourceScanType","eAVEncVideoSourceScanType enumeration [DirectShow]","eAVEncVideoSourceScanTypeEnumeration","eAVEncVideoSourceScan_Automatic","eAVEncVideoSourceScan_Interlaced","eAVEncVideoSourceScan_Progressive"]
 old-location: dshow\eavencvideosourcescantype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f191f4de-2549-4223-b40d-828df467b691
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoSourceScanType, codecapi/eAVEncVideoSourceScan_Automatic, codecapi/eAVEncVideoSourceScan_Interlaced, codecapi/eAVEncVideoSourceScan_Progressive, dshow.eavencvideosourcescantype, eAVEncVideoSourceScanType, eAVEncVideoSourceScanType enumeration [DirectShow], eAVEncVideoSourceScanTypeEnumeration, eAVEncVideoSourceScan_Automatic, eAVEncVideoSourceScan_Interlaced, eAVEncVideoSourceScan_Progressive
-f1_keywords:
-- codecapi/eAVEncVideoSourceScanType
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVEncVideoSourceScanType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVEncVideoSourceScanType
+ - codecapi/eAVEncVideoSourceScanType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVEncVideoSourceScanType
 ---
 
 # eAVEncVideoSourceScanType enumeration
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoforcesourcescantype-property">AVEncVideoForceSourceScanType</a> property.
-
-
-
+Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideoforcesourcescantype-property">AVEncVideoForceSourceScanType</a> property.
 
 ## -enum-fields
 
-
-
-
-### -field eAVEncVideoSourceScan_Automatic
+### -field eAVEncVideoSourceScan_Automatic:0
 
 Use the media type on the encoder's input pin to determine whether the frames are progressive or interlaced.
 
-
-### -field eAVEncVideoSourceScan_Interlaced
+### -field eAVEncVideoSourceScan_Interlaced:1
 
 Input frames are interlaced.
 
-
-### -field eAVEncVideoSourceScan_Progressive
+### -field eAVEncVideoSourceScan_Progressive:2
 
 Input frames are progressive.
 
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryCreateA
 title: RpcNsMgmtEntryCreateA function (rpcnsi.h)
-description: The RpcNsMgmtEntryCreate function creates a name service&#8211;database entry.
+description: The RpcNsMgmtEntryCreate function creates a name service�database entry. (ANSI)
+helpviewer_keywords: ["RpcNsMgmtEntryCreateA", "rpcnsi/RpcNsMgmtEntryCreateA"]
 old-location: rpc\rpcnsmgmtentrycreate.htm
 tech.root: Rpc
 ms.assetid: 32de2395-174a-4e14-82db-9043db817708
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtEntryCreate, RpcNsMgmtEntryCreate function [RPC], RpcNsMgmtEntryCreateA, RpcNsMgmtEntryCreateW, _rpc_rpcnsmgmtentrycreate, rpc.rpcnsmgmtentrycreate, rpcnsi/RpcNsMgmtEntryCreate, rpcnsi/RpcNsMgmtEntryCreateA, rpcnsi/RpcNsMgmtEntryCreateW
-f1_keywords:
-- rpcnsi/RpcNsMgmtEntryCreate
-dev_langs:
-- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcns4.dll
-api_name:
-- RpcNsMgmtEntryCreate
-- RpcNsMgmtEntryCreateA
-- RpcNsMgmtEntryCreateW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcNsMgmtEntryCreateA
+ - rpcnsi/RpcNsMgmtEntryCreateA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcns4.dll
+api_name:
+ - RpcNsMgmtEntryCreate
+ - RpcNsMgmtEntryCreateA
+ - RpcNsMgmtEntryCreateW
 ---
 
 # RpcNsMgmtEntryCreateA function
@@ -50,15 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcNsMgmtEntryCreate</b> function creates a name service–database entry.
 <div class="alert"><b>Note</b>  This function is not supported on Windows Vista and later operating systems.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param EntryNameSyntax
 
@@ -69,15 +67,11 @@ Syntax of <i>EntryName</i>.
 
 To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\NameService\DefaultSyntax</b>, provide a value of RPC_C_NS_SYNTAX_DEFAULT.
 
-
 ### -param EntryName
 
 Pointer to the name of the entry to create.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -154,14 +148,10 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 The 
 <b>RpcNsMgmtEntryCreate</b> function creates an entry in the name-service database. A management application can call 
@@ -172,13 +162,10 @@ The
 
 
 
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsMgmtEntryCreate as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrydeletea">RpcNsMgmtEntryDelete</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrydeletea">RpcNsMgmtEntryDelete</a>

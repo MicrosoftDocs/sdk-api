@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get_Count
 title: IUpdateCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.
+description: Gets the number of elements in the collection. (IUpdateCollection.get_Count)
+helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IUpdateCollection interface","IUpdateCollection interface [Windows Update Agent]","Count property","IUpdateCollection.Count","IUpdateCollection.get_Count","IUpdateCollection::Count","IUpdateCollection::get_Count","get_Count","wua.iupdatecollection_count","wuapi/IUpdateCollection::Count","wuapi/IUpdateCollection::get_Count"]
 old-location: wua\iupdatecollection_count.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: f0d8de56-c51e-4165-a6bb-ea7eec70c567
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Count property, IUpdateCollection.Count, IUpdateCollection.get_Count, IUpdateCollection::Count, IUpdateCollection::get_Count, get_Count, wua.iupdatecollection_count, wuapi/IUpdateCollection::Count, wuapi/IUpdateCollection::get_Count
-f1_keywords:
-- wuapi/IUpdateCollection.Count
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateCollection.Count
-- IUpdateCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateCollection::get_Count
+ - wuapi/IUpdateCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateCollection.Count
+ - IUpdateCollection.get_Count
 ---
 
 # IUpdateCollection::get_Count
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of elements in the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

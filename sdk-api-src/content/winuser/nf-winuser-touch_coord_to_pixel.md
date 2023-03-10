@@ -2,15 +2,12 @@
 UID: NF:winuser.TOUCH_COORD_TO_PIXEL
 title: TOUCH_COORD_TO_PIXEL macro (winuser.h)
 description: Converts touch coordinates to pixels.
+helpviewer_keywords: ["TOUCH_COORD_TO_PIXEL","TOUCH_COORD_TO_PIXEL macro [Windows Touch]","wintouch.touch_coord_to_pixel","winuser/TOUCH_COORD_TO_PIXEL"]
 old-location: wintouch\touch_coord_to_pixel.htm
 tech.root: wintouch
 ms.assetid: 719b6800-aeda-424a-86ea-d8c307bd6ad2
 ms.date: 12/05/2018
 ms.keywords: TOUCH_COORD_TO_PIXEL, TOUCH_COORD_TO_PIXEL macro [Windows Touch], wintouch.touch_coord_to_pixel, winuser/TOUCH_COORD_TO_PIXEL
-f1_keywords:
-- winuser/TOUCH_COORD_TO_PIXEL
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winuser.h
-api_name:
-- TOUCH_COORD_TO_PIXEL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TOUCH_COORD_TO_PIXEL
+ - winuser/TOUCH_COORD_TO_PIXEL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winuser.h
+api_name:
+ - TOUCH_COORD_TO_PIXEL
 ---
 
 # TOUCH_COORD_TO_PIXEL macro
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts touch coordinates to pixels.
 
-
 ## -parameters
-
-
-
 
 ### -param l
 
 The value to be converted from touch coordinates to pixels.
 
-
 ## -remarks
-
-
 
 The <b>TOUCH_COORD_TO_PIXEL</b> macro is used to convert from touch coordinates (currently centipixels) to pixels. 
   Touch coordinates are finer grained than pixels so that application developers can use subpixel granularity
@@ -109,17 +103,6 @@ case WM_TOUCH:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/touch-macros">Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/touch-macros">Macros</a>

@@ -1,16 +1,13 @@
 ---
 UID: NE:networkisolation._NETISO_ERROR_TYPE
 title: NETISO_ERROR_TYPE (networkisolation.h)
-description: Specifies the type of error related to a network isolation operation.
+description: The NETISO_ERROR_TYPE enumeration specifies the type of error related to a network isolation operation. (NETISO_ERROR_TYPE)
+helpviewer_keywords: ["NETISO_ERROR_TYPE","NETISO_ERROR_TYPE enumeration [ICS/ICF]","NETISO_ERROR_TYPE_INTERNET_CLIENT","NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER","NETISO_ERROR_TYPE_MAX","NETISO_ERROR_TYPE_NONE","NETISO_ERROR_TYPE_PRIVATE_NETWORK","ics.netiso_error_type","networkisolation/NETISO_ERROR_TYPE","networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT","networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER","networkisolation/NETISO_ERROR_TYPE_MAX","networkisolation/NETISO_ERROR_TYPE_NONE","networkisolation/NETISO_ERROR_TYPE_PRIVATE_NETWORK"]
 old-location: ics\netiso_error_type.htm
 tech.root: ics
 ms.assetid: 0daa9d07-8a65-4254-b197-a37e6e04ce32
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: NETISO_ERROR_TYPE, NETISO_ERROR_TYPE enumeration [ICS/ICF], NETISO_ERROR_TYPE_INTERNET_CLIENT, NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER, NETISO_ERROR_TYPE_MAX, NETISO_ERROR_TYPE_NONE, NETISO_ERROR_TYPE_PRIVATE_NETWORK, ics.netiso_error_type, networkisolation/NETISO_ERROR_TYPE, networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT, networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER, networkisolation/NETISO_ERROR_TYPE_MAX, networkisolation/NETISO_ERROR_TYPE_NONE, networkisolation/NETISO_ERROR_TYPE_PRIVATE_NETWORK
-f1_keywords:
-- networkisolation/NETISO_ERROR_TYPE
-dev_langs:
-- c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- networkisolation.h
-api_name:
-- NETISO_ERROR_TYPE
 targetos: Windows
 req.typenames: NETISO_ERROR_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NETISO_ERROR_TYPE
+ - networkisolation/_NETISO_ERROR_TYPE
+ - NETISO_ERROR_TYPE
+ - networkisolation/NETISO_ERROR_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - networkisolation.h
+api_name:
+ - NETISO_ERROR_TYPE
 ---
 
 # NETISO_ERROR_TYPE enumeration
@@ -48,47 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NETISO_ERROR_TYPE</b> enumerated type specifies the type of error related to a network isolation operation.
-
 
 ## -enum-fields
 
-
-
-
-### -field NETISO_ERROR_TYPE_NONE
+### -field NETISO_ERROR_TYPE_NONE:0x00
 
 No error.
 
-
-### -field NETISO_ERROR_TYPE_PRIVATE_NETWORK
+### -field NETISO_ERROR_TYPE_PRIVATE_NETWORK:0x01
 
 The failure was caused because the privateNetworkClientServer capability is missing.
 
-
-### -field NETISO_ERROR_TYPE_INTERNET_CLIENT
+### -field NETISO_ERROR_TYPE_INTERNET_CLIENT:0x02
 
 The failure was caused because the internetClient capability is missing.
 
-
-### -field NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER
+### -field NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER:0x03
 
 The failure was caused because the internetClientServer capability is missing.
 
-
-### -field NETISO_ERROR_TYPE_MAX
+### -field NETISO_ERROR_TYPE_MAX:0x04
 
 Maximum value for testing purposes.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo">NetworkIsolationDiagnoseConnectFailureAndGetInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo">NetworkIsolationDiagnoseConnectFailureAndGetInfo</a>

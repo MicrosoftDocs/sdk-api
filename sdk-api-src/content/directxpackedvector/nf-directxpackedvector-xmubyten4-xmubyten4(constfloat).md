@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(const float)
+UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(constfloat)
 title: XMUBYTEN4::XMUBYTEN4(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMUBYTEN4 from a four element float array argument.
+helpviewer_keywords: ["XMUBYTEN4","XMUBYTEN4 constructor [DirectX Math Support APIs]","XMUBYTEN4 constructor [DirectX Math Support APIs]","XMUBYTEN4 structure","XMUBYTEN4 structure [DirectX Math Support APIs]","XMUBYTEN4 constructor","XMUBYTEN4.XMUBYTEN4","XMUBYTEN4.XMUBYTEN4()","XMUBYTEN4.XMUBYTEN4(const float)","XMUBYTEN4::XMUBYTEN4","XMUBYTEN4::XMUBYTEN4(const float)","dxmath.xmubyten4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 0b4ee605-ef9d-458b-af9a-83f27c9f4cb5
 ms.date: 05/06/2019
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(), XMUBYTEN4.XMUBYTEN4(const float), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(const float), dxmath.xmubyten4_ctor_1
-f1_keywords:
-- directxpackedvector/XMUBYTEN4.XMUBYTEN4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMUBYTEN4.XMUBYTEN4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMUBYTEN4::XMUBYTEN4
+ - directxpackedvector/XMUBYTEN4::XMUBYTEN4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUBYTEN4.XMUBYTEN4
 ---
 
 # XMUBYTEN4::XMUBYTEN4(const float)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9f43-9c958a8d1aa3">XMUBYTEN4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMUBYTEN4** from a from a four element <code>float</code> array argument.
 
@@ -61,7 +64,7 @@ Four element **float** array containing the values used to initialize the four c
 
 ## -remarks
 
-| Vector Component | Array Element | Range |  |
+| Vector Component | Array Element | Range | Description |
 |------------------|---------------|-------|--|
 | x | pArray[0] | 0.0, 1.0 | During instantiation, pArray[0] is clamped between 0 and 1, multiplied by 255.0f and assigned to x. |
 | y | pArray[1] | 0.0, 1.0 | During instantiation, pArray[1] is clamped between 0 and 1, multiplied by 255.0f, and then assigned to y. |
@@ -88,6 +91,6 @@ instance.w = (uint8_t)_w1;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
+<a href="/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>

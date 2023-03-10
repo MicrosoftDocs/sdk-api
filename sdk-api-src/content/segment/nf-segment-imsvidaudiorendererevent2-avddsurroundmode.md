@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDDSurroundMode
 title: IMSVidAudioRendererEvent2::AVDDSurroundMode (segment.h)
 description: Indicates a change in the AVDDSurroundMode codec property.
+helpviewer_keywords: ["AVDDSurroundMode","AVDDSurroundMode method [Microsoft TV Technologies]","AVDDSurroundMode method [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","AVDDSurroundMode method","IMSVidAudioRendererEvent2.AVDDSurroundMode","IMSVidAudioRendererEvent2::AVDDSurroundMode","mstv.imsvidaudiorendererevent2_avddsurroundmode","segment/IMSVidAudioRendererEvent2::AVDDSurroundMode"]
 old-location: mstv\imsvidaudiorendererevent2_avddsurroundmode.htm
 tech.root: mstv
 ms.assetid: 30a4d8d7-ee77-43bb-b1fc-5be13a9b6872
 ms.date: 12/05/2018
 ms.keywords: AVDDSurroundMode, AVDDSurroundMode method [Microsoft TV Technologies], AVDDSurroundMode method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDDSurroundMode method, IMSVidAudioRendererEvent2.AVDDSurroundMode, IMSVidAudioRendererEvent2::AVDDSurroundMode, mstv.imsvidaudiorendererevent2_avddsurroundmode, segment/IMSVidAudioRendererEvent2::AVDDSurroundMode
-f1_keywords:
-- segment/IMSVidAudioRendererEvent2.AVDDSurroundMode
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidAudioRendererEvent2.AVDDSurroundMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidAudioRendererEvent2::AVDDSurroundMode
+ - segment/IMSVidAudioRendererEvent2::AVDDSurroundMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidAudioRendererEvent2.AVDDSurroundMode
 ---
 
 # IMSVidAudioRendererEvent2::AVDDSurroundMode
@@ -48,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Indicates a change in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avddsurroundmode-property">AVDDSurroundMode</a> codec  property.
-
-
-## -parameters
-
-
-
+Indicates a change in the <a href="/windows/desktop/DirectShow/avddsurroundmode-property">AVDDSurroundMode</a> codec  property.
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/avddsurroundmode-property">AVDDSurroundMode Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avddsurroundmode-property">AVDDSurroundMode Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidaudiorendererevent2">IMSVidAudioRendererEvent2</a>

@@ -2,15 +2,12 @@
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorCustomRates
 title: PDXVAHDSW_GetVideoProcessorCustomRates (dxvahd.h)
 description: Gets the custom rates that a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports.
+helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessorCustomRates","PDXVAHDSW_GetVideoProcessorCustomRates callback","PDXVAHDSW_GetVideoProcessorCustomRates callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates","mf.pdxvahdsw_getvideoprocessorcustomrates"]
 old-location: mf\pdxvahdsw_getvideoprocessorcustomrates.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0b633dcc-c6eb-47e5-b43b-b2a6cb66abf6
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorCustomRates, PDXVAHDSW_GetVideoProcessorCustomRates callback, PDXVAHDSW_GetVideoProcessorCustomRates callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates, mf.pdxvahdsw_getvideoprocessorcustomrates
-f1_keywords:
-- dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates
-dev_langs:
-- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dxvahd.h
-api_name:
-- PDXVAHDSW_GetVideoProcessorCustomRates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDXVAHDSW_GetVideoProcessorCustomRates
+ - dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dxvahd.h
+api_name:
+ - PDXVAHDSW_GetVideoProcessorCustomRates
 ---
 
 # PDXVAHDSW_GetVideoProcessorCustomRates callback function
@@ -48,65 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the custom rates that a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 A handle to the plug-in DXVA-HD device.
 
-
-### -param *pVPGuid [in]
+### -param pVPGuid [in]
 
 A GUID that identifies the video processor to query.
-
 
 ### -param Count [in]
 
 The number of rates to retrieve.
 
+### -param pRates [out]
 
-### -param *pRates [out]
-
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_custom_rate_data">DXVAHD_CUSTOM_RATE_DATA</a> structures. The <i>Count</i> parameter specifies the number of elements in the array. The function fills the array with a list of custom rates.
-
-
-
+A pointer to an array of <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_custom_rate_data">DXVAHD_CUSTOM_RATE_DATA</a> structures. The <i>Count</i> parameter specifies the number of elements in the array. The function fills the array with a list of custom rates.
 
 ## -returns
 
-
-
-If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this callback function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

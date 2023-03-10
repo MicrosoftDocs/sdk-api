@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ICommDlgBrowser2.GetViewFlags
 title: ICommDlgBrowser2::GetViewFlags (shobjidl_core.h)
 description: Called when the view must determine if special customization needs to be made for the common dialog browser.
+helpviewer_keywords: ["CDB2GVF_ADDSHIELD","CDB2GVF_ALLOWPREVIEWPANE","CDB2GVF_ISFILESAVE","CDB2GVF_ISFOLDERPICKER","CDB2GVF_NOINCLUDEITEM","CDB2GVF_NOSELECTVERB","CDB2GVF_SHOWALLFILES","GetViewFlags","GetViewFlags method [Windows Shell]","GetViewFlags method [Windows Shell]","ICommDlgBrowser2 interface","ICommDlgBrowser2 interface [Windows Shell]","GetViewFlags method","ICommDlgBrowser2.GetViewFlags","ICommDlgBrowser2::GetViewFlags","_win32_ICommDlgBrowser2_GetViewFlags","shell.ICommDlgBrowser2_GetViewFlags","shobjidl_core/ICommDlgBrowser2::GetViewFlags"]
 old-location: shell\ICommDlgBrowser2_GetViewFlags.htm
 tech.root: shell
 ms.assetid: cb22504c-9f76-44c4-b81d-fc15d1b95143
 ms.date: 12/05/2018
 ms.keywords: CDB2GVF_ADDSHIELD, CDB2GVF_ALLOWPREVIEWPANE, CDB2GVF_ISFILESAVE, CDB2GVF_ISFOLDERPICKER, CDB2GVF_NOINCLUDEITEM, CDB2GVF_NOSELECTVERB, CDB2GVF_SHOWALLFILES, GetViewFlags, GetViewFlags method [Windows Shell], GetViewFlags method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetViewFlags method, ICommDlgBrowser2.GetViewFlags, ICommDlgBrowser2::GetViewFlags, _win32_ICommDlgBrowser2_GetViewFlags, shell.ICommDlgBrowser2_GetViewFlags, shobjidl_core/ICommDlgBrowser2::GetViewFlags
-f1_keywords:
-- shobjidl_core/ICommDlgBrowser2.GetViewFlags
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- ICommDlgBrowser2.GetViewFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICommDlgBrowser2::GetViewFlags
+ - shobjidl_core/ICommDlgBrowser2::GetViewFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - ICommDlgBrowser2.GetViewFlags
 ---
 
 # ICommDlgBrowser2::GetViewFlags
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called when the view must determine if special customization needs to be made for the common dialog browser.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags
 
@@ -91,7 +88,7 @@ A pointer to a <b>DWORD</b> value that controls the behavior of the view when in
 
 #### CDB2GVF_NOINCLUDEITEM (0x00000010)
 
-0x00000010. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-includeobject">IncludeObject</a> should not be called.
+0x00000010. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-includeobject">IncludeObject</a> should not be called.
 
 
 
@@ -105,25 +102,12 @@ A pointer to a <b>DWORD</b> value that controls the behavior of the view when in
 
 0x00000040. <b>Windows 7 and later</b>. Displays a UAC shield on the selected item when CDB2GVF_NOSELECTVERB is not specified.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser2">ICommDlgBrowser2</a>

@@ -2,15 +2,12 @@
 UID: NF:shdeprecated.IBrowserService2._UIActivateView
 title: IBrowserService2::_UIActivateView (shdeprecated.h)
 description: Deprecated. Allows a derived class to request that the base class update the browser view.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_UIActivateView method","IBrowserService2._UIActivateView","IBrowserService2::_UIActivateView","_UIActivateView","_UIActivateView method [Windows Shell]","_UIActivateView method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_UIActivateView","shell.IBrowserService2__UIActivateView","zone_IBrowserService2__UIActivateView"]
 old-location: shell\IBrowserService2__UIActivateView.htm
 tech.root: shell
 ms.assetid: 9c8439f8-5931-4aca-8085-2707b6f964f0
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_UIActivateView method, IBrowserService2._UIActivateView, IBrowserService2::_UIActivateView, _UIActivateView, _UIActivateView method [Windows Shell], _UIActivateView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_UIActivateView, shell.IBrowserService2__UIActivateView, zone_IBrowserService2__UIActivateView
-f1_keywords:
-- shdeprecated/IBrowserService2._UIActivateView
-dev_langs:
-- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdeprecated.h
-api_name:
-- IBrowserService2._UIActivateView
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Internet Explorer 5.0
 ms.custom: 19H1
+f1_keywords:
+ - IBrowserService2::_UIActivateView
+ - shdeprecated/IBrowserService2::_UIActivateView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdeprecated.h
+api_name:
+ - IBrowserService2._UIActivateView
 ---
 
 # IBrowserService2::_UIActivateView
@@ -49,29 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deprecated. Allows a derived class to request that the base class update the browser view.
 
-
 ## -parameters
-
-
-
 
 ### -param uState [in]
 
 Type: <b>UINT</b>
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration declaring the browser view's state value.
-
+A member of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-svuia_status">SVUIA_STATUS</a> enumeration declaring the browser view's state value.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

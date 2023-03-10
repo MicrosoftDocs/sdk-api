@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensor.GetCategory
 title: ISensor::GetCategory (sensorsapi.h)
 description: Retrieves the identifier of the sensor category.
+helpviewer_keywords: ["GetCategory","GetCategory method","GetCategory method","ISensor interface","ISensor interface","GetCategory method","ISensor.GetCategory","ISensor::GetCategory","sensorsapi/ISensor::GetCategory","winsensors_com_ref.isensor_getcategory"]
 old-location: winsensors_com_ref\isensor_getcategory.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 3a4eab1c-ec6f-4d6e-8479-1fa7f87537f7
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,ISensor interface, ISensor interface,GetCategory method, ISensor.GetCategory, ISensor::GetCategory, sensorsapi/ISensor::GetCategory, winsensors_com_ref.isensor_getcategory
-f1_keywords:
-- sensorsapi/ISensor.GetCategory
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.GetCategory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::GetCategory
+ - sensorsapi/ISensor::GetCategory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.GetCategory
 ---
 
 # ISensor::GetCategory
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the identifier of the sensor category.
 
-
 ## -parameters
-
-
-
 
 ### -param pSensorCategory [out]
 
 Address of a <b>SENSOR_CATEGORY_ID</b> that receives the sensor category ID.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -108,31 +102,15 @@ NULL was passed in for pSensorCategory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A <b>SENSOR_CATEGORY_ID</b> is a <b>GUID</b> that uniquely identifies the sensor category.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>
- 
-
- 
-
+<a href="/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>

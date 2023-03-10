@@ -2,15 +2,12 @@
 UID: NF:dinputd.IDirectInputEffectDriver.SendForceFeedbackCommand
 title: IDirectInputEffectDriver::SendForceFeedbackCommand (dinputd.h)
 description: The IDirectInputEffectDriver::SendForceFeedbackCommand method changes the force-feedback state for the device.
+helpviewer_keywords: ["IDirectInputEffectDriver interface [Human Input Devices]","SendForceFeedbackCommand method","IDirectInputEffectDriver.SendForceFeedbackCommand","IDirectInputEffectDriver::SendForceFeedbackCommand","SendForceFeedbackCommand","SendForceFeedbackCommand method [Human Input Devices]","SendForceFeedbackCommand method [Human Input Devices]","IDirectInputEffectDriver interface","di_ref_48773665-821d-428e-a637-7dc77a85cd39.xml","dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand","hid.idirectinputeffectdriver_sendforcefeedbackcommand"]
 old-location: hid\idirectinputeffectdriver_sendforcefeedbackcommand.htm
 tech.root: hid
 ms.assetid: 9a872712-32aa-40b6-9d0f-c51d841342cb
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],SendForceFeedbackCommand method, IDirectInputEffectDriver.SendForceFeedbackCommand, IDirectInputEffectDriver::SendForceFeedbackCommand, SendForceFeedbackCommand, SendForceFeedbackCommand method [Human Input Devices], SendForceFeedbackCommand method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_48773665-821d-428e-a637-7dc77a85cd39.xml, dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand, hid.idirectinputeffectdriver_sendforcefeedbackcommand
-f1_keywords:
-- dinputd/IDirectInputEffectDriver.SendForceFeedbackCommand
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dinputd.h
-api_name:
-- IDirectInputEffectDriver.SendForceFeedbackCommand
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectInputEffectDriver::SendForceFeedbackCommand
+ - dinputd/IDirectInputEffectDriver::SendForceFeedbackCommand
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dinputd.h
+api_name:
+ - IDirectInputEffectDriver.SendForceFeedbackCommand
 ---
 
 # IDirectInputEffectDriver::SendForceFeedbackCommand
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b>method changes the force-feedback state for the device. 
-
+The <b>IDirectInputEffectDriver::SendForceFeedbackCommand </b> method changes the force-feedback state for the device.
 
 ## -parameters
 
+### -param unnamedParam1
 
+Indicates the external joystick number being addressed.
 
-
-### -param arg1
-
-Indicates the external joystick number being addressed. 
-
-
-### -param arg2
+### -param unnamedParam2
 
 Indicates which of the following commands is being sent: 
 
@@ -102,14 +98,9 @@ Indicates that the device's force-feedback actuators should be enabled.
 
 #### DISFFC_SETACTUATORSOFF
 
-Indicates that the device's force-feedback actuators should be disabled. If successful, force feedback effects are "muted". Note that time continues to elapse while actuators are off. For example, suppose an effect of five seconds' duration is started. After one second, actuators are turned off. After two more seconds, actuators are turned back on. The effect should then play for two additional seconds. 
-
+Indicates that the device's force-feedback actuators should be disabled. If successful, force feedback effects are "muted". Note that time continues to elapse while actuators are off. For example, suppose an effect of five seconds' duration is started. After one second, actuators are turned off. After two more seconds, actuators are turned back on. The effect should then play for two additional seconds.
 
 ## -returns
 
-
-
 Returns S_OK if successful; otherwise, returns an error code.
-
-
 

@@ -1,16 +1,13 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.GetParameters
 title: IWICDdsEncoder::GetParameters (wincodec.h)
-description: Gets DDS-specific data.
+description: Gets DDS-specific data. (IWICDdsEncoder.GetParameters)
+helpviewer_keywords: ["GetParameters","GetParameters method [Windows Imaging Component]","GetParameters method [Windows Imaging Component]","IWICDdsEncoder interface","IWICDdsEncoder interface [Windows Imaging Component]","GetParameters method","IWICDdsEncoder.GetParameters","IWICDdsEncoder::GetParameters","wic.iwicddsencoder_getparameters","wincodec/IWICDdsEncoder::GetParameters"]
 old-location: wic\iwicddsencoder_getparameters.htm
 tech.root: wic
 ms.assetid: 2172A086-D0F6-4CFE-849C-A2EF1E89C050
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [Windows Imaging Component], GetParameters method [Windows Imaging Component],IWICDdsEncoder interface, IWICDdsEncoder interface [Windows Imaging Component],GetParameters method, IWICDdsEncoder.GetParameters, IWICDdsEncoder::GetParameters, wic.iwicddsencoder_getparameters, wincodec/IWICDdsEncoder::GetParameters
-f1_keywords:
-- wincodec/IWICDdsEncoder.GetParameters
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICDdsEncoder.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICDdsEncoder::GetParameters
+ - wincodec/IWICDdsEncoder::GetParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICDdsEncoder.GetParameters
 ---
 
 # IWICDdsEncoder::GetParameters
@@ -48,53 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets DDS-specific data.
-
 
 ## -parameters
 
-
-
-
 ### -param pParameters [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>*</b>
 
 Points to the structure where the information is returned.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-An application can call <b>GetParameters</b> to obtain the default DDS parameters, modify some or all of them, and then call <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-setparameters">SetParameters</a>.
-
-
-
+An application can call <b>GetParameters</b> to obtain the default DDS parameters, modify some or all of them, and then call <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicddsencoder-setparameters">SetParameters</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicddsencoder">IWICDdsEncoder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicddsencoder">IWICDdsEncoder</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteVarDesc
 title: ICreateTypeInfo2::DeleteVarDesc (oaidl.h)
-description: Deletes the specified VARDESC structure.
+description: Deletes the specified VARDESC structure. (ICreateTypeInfo2.DeleteVarDesc)
+helpviewer_keywords: ["DeleteVarDesc","DeleteVarDesc method [Automation]","DeleteVarDesc method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteVarDesc method","ICreateTypeInfo2.DeleteVarDesc","ICreateTypeInfo2::DeleteVarDesc","_oa96_ICreateTypeInfo2_DeleteVarDesc","automat.icreatetypeinfo2_deletevardesc","oaidl/ICreateTypeInfo2::DeleteVarDesc"]
 old-location: automat\icreatetypeinfo2_deletevardesc.htm
 tech.root: automat
 ms.assetid: 0fcf55d9-2592-4fed-9612-48085eb7791b
 ms.date: 12/05/2018
 ms.keywords: DeleteVarDesc, DeleteVarDesc method [Automation], DeleteVarDesc method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDesc method, ICreateTypeInfo2.DeleteVarDesc, ICreateTypeInfo2::DeleteVarDesc, _oa96_ICreateTypeInfo2_DeleteVarDesc, automat.icreatetypeinfo2_deletevardesc, oaidl/ICreateTypeInfo2::DeleteVarDesc
-f1_keywords:
-- oaidl/ICreateTypeInfo2.DeleteVarDesc
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo2.DeleteVarDesc
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo2::DeleteVarDesc
+ - oaidl/ICreateTypeInfo2::DeleteVarDesc
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo2.DeleteVarDesc
 ---
 
 # ICreateTypeInfo2::DeleteVarDesc
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes the specified VARDESC structure.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index number of the VARDESC structure.
 
-
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -157,18 +150,7 @@ The type library cannot be opened.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>

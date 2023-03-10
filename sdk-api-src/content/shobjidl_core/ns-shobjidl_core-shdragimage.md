@@ -2,15 +2,12 @@
 UID: NS:shobjidl_core.SHDRAGIMAGE
 title: SHDRAGIMAGE (shobjidl_core.h)
 description: Contains the information needed to create a drag image.
+helpviewer_keywords: ["*LPSHDRAGIMAGE","LPSHDRAGIMAGE","LPSHDRAGIMAGE structure pointer [Windows Shell]","SHDRAGIMAGE","SHDRAGIMAGE structure [Windows Shell]","_win32_SHDRAGIMAGE_str","shell.SHDRAGIMAGE_str","shobjidl_core/LPSHDRAGIMAGE","shobjidl_core/SHDRAGIMAGE"]
 old-location: shell\SHDRAGIMAGE_str.htm
 tech.root: shell
 ms.assetid: e0dd76b2-fd5c-41e8-b540-db90a2f0dcec
 ms.date: 12/05/2018
 ms.keywords: '*LPSHDRAGIMAGE, LPSHDRAGIMAGE, LPSHDRAGIMAGE structure pointer [Windows Shell], SHDRAGIMAGE, SHDRAGIMAGE structure [Windows Shell], _win32_SHDRAGIMAGE_str, shell.SHDRAGIMAGE_str, shobjidl_core/LPSHDRAGIMAGE, shobjidl_core/SHDRAGIMAGE'
-f1_keywords:
-- shobjidl_core/SHDRAGIMAGE
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shobjidl_core.h
-api_name:
-- SHDRAGIMAGE
 targetos: Windows
 req.typenames: SHDRAGIMAGE, *LPSHDRAGIMAGE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHDRAGIMAGE
+ - shobjidl_core/SHDRAGIMAGE
+ - LPSHDRAGIMAGE
+ - shobjidl_core/LPSHDRAGIMAGE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - SHDRAGIMAGE
 ---
 
 # SHDRAGIMAGE structure
@@ -48,28 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the information needed to create a drag image.
-
 
 ## -struct-fields
 
-
-
-
 ### -field sizeDragImage
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure with the length and width of the drag image.
-
+A <a href="/windows/win32/api/windef/ns-windef-size">SIZE</a> structure with the length and width of the drag image.
 
 ### -field ptOffset
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the location of the cursor within the drag image. The structure should contain the offset from the upper-left corner of the drag image to the location of the cursor.
-
+A <a href="/windows/win32/api/windef/ns-windef-point">POINT</a> structure that specifies the location of the cursor within the drag image. The structure should contain the offset from the upper-left corner of the drag image to the location of the cursor.
 
 ### -field hbmpDragImage
 
@@ -77,17 +74,13 @@ Type: <b>HBITMAP</b>
 
 The drag image's bitmap handle.
 
-
 ### -field crColorKey
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a></b>
 
 The color used by the control to fill the background of the drag image.
 
-
 ## -remarks
-
-
 
 In Windows Vista this structure is defined in Shobjidl.idl. Prior to that, it was defined in Shlobj.h.
 
@@ -103,19 +96,10 @@ Use the following procedure to create the drag image.
 <div class="alert"><b>Note</b>  Turn off antialiasing when drawing text. Otherwise, artifacts could occur at the edges, between the text color and the color key.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">IDragSourceHelper::InitializeFromBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">IDragSourceHelper::InitializeFromBitmap</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">IDragSourceHelper::InitializeFromWindow</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">IDragSourceHelper::InitializeFromWindow</a>

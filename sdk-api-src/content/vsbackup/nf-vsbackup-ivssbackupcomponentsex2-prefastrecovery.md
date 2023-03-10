@@ -1,16 +1,13 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.PreFastRecovery
 title: IVssBackupComponentsEx2::PreFastRecovery (vsbackup.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IVssBackupComponentsEx2.PreFastRecovery)
+helpviewer_keywords: ["IVssBackupComponentsEx2 interface","PreFastRecovery method","IVssBackupComponentsEx2.PreFastRecovery","IVssBackupComponentsEx2::PreFastRecovery","PreFastRecovery","PreFastRecovery method","PreFastRecovery method","IVssBackupComponentsEx2 interface","base.ivssbackupcomponentsex2_prefastrecovery","vsbackup/IVssBackupComponentsEx2::PreFastRecovery"]
 old-location: base\ivssbackupcomponentsex2_prefastrecovery.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: ba06e324-0f17-4184-bc53-dcb82fb49292
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2 interface,PreFastRecovery method, IVssBackupComponentsEx2.PreFastRecovery, IVssBackupComponentsEx2::PreFastRecovery, PreFastRecovery, PreFastRecovery method, PreFastRecovery method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_prefastrecovery, vsbackup/IVssBackupComponentsEx2::PreFastRecovery
-f1_keywords:
-- vsbackup/IVssBackupComponentsEx2.PreFastRecovery
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsBackup.h
-api_name:
-- IVssBackupComponentsEx2.PreFastRecovery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponentsEx2::PreFastRecovery
+ - vsbackup/IVssBackupComponentsEx2::PreFastRecovery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsBackup.h
+api_name:
+ - IVssBackupComponentsEx2.PreFastRecovery
 ---
 
 # IVssBackupComponentsEx2::PreFastRecovery
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 This method is reserved for future use.
 
-
 ## -parameters
-
-
-
 
 ### -param SnapshotSetID
 
 This parameter is reserved for future use.
 
-
 ### -param dwPreFastRecoveryFlags
 
 This parameter is reserved for future use.
 
-
 ### -param ppAsync
 
 This parameter is reserved for future use.
-
-
 

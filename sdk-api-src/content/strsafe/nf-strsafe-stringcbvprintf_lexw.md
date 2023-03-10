@@ -1,16 +1,13 @@
 ---
 UID: NF:strsafe.StringCbVPrintf_lExW
 title: StringCbVPrintf_lExW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCbVPrintf_lExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCbVPrintf_lEx", "StringCbVPrintf_lEx function [Menus and Other Resources]", "StringCbVPrintf_lExW", "menurc.stringcbvprintf_lex", "strsafe/StringCbVPrintf_lEx", "strsafe/StringCbVPrintf_lExW"]
 old-location: menurc\stringcbvprintf_lex.htm
 tech.root: menurc
 ms.assetid: 34db0546-cede-4329-8364-137bca118755
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbVPrintf_lEx, StringCbVPrintf_lEx function [Menus and Other Resources], StringCbVPrintf_lExA, StringCbVPrintf_lExW, menurc.stringcbvprintf_lex, strsafe/StringCbVPrintf_lEx, strsafe/StringCbVPrintf_lExA, strsafe/StringCbVPrintf_lExW
-f1_keywords:
-- strsafe/StringCbVPrintf_lEx
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- StrSafe.h
-api_name:
-- StringCbVPrintf_lEx
-- StringCbVPrintf_lExA
-- StringCbVPrintf_lExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCbVPrintf_lExW
+ - strsafe/StringCbVPrintf_lExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - StrSafe.h
+api_name:
+ - StringCbVPrintf_lEx
+ - StringCbVPrintf_lExA
+ - StringCbVPrintf_lExW
 ---
 
 # StringCbVPrintf_lExW function
@@ -50,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCbVPrintf_lEx</b> is similar to <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a> but includes a parameter for locale information.
-
+<b>StringCbVPrintf_lEx</b> is similar to <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a> but includes a parameter for locale information.
 
 ## -parameters
-
-
-
 
 ### -param pszDest [out]
 
 The destination buffer, which receives the formatted, null-terminated string created from <i>pszFormat</i> and <i>argList</i>.
 
-
 ### -param cbDest [in]
 
 The size of the destination buffer, in bytes. This value must be sufficiently large to accommodate the final formatted string plus the terminating null character. The maximum number of bytes allowed is <code>STRSAFE_MAX_CCH * sizeof(TCHAR)</code>.
-
 
 ### -param ppszDestEnd [out]
 
 The address of a pointer to the end of <i>pszDest</i>. If <i>ppszDestEnd</i> is non-<b>NULL</b> and any data is copied into the destination buffer, this points to the terminating null character at the end of the string.
 
-
 ### -param pcbRemaining [out, optional]
 
 The number of unused bytes in <i>pszDest</i>, including those used for the terminating null character. If <i>pcbRemaining</i> is <b>NULL</b>, the count is not kept or returned.
-
 
 ### -param dwFlags [in]
 
@@ -146,29 +139,22 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFormat [in]
 
-The format string. This string must be null-terminated. For more information, see <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
-
+The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
 ### -param locale [in]
 
 The locale object. For more information, see <b>_create_locale</b>.
 
-
 ### -param argList [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
-
 ## -returns
 
-
-
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -209,14 +195,8 @@ The copy operation failed due to insufficient buffer space. Depending on the val
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For more information on va_lists, see the conventions defined in Stdarg.h.
 
@@ -230,3 +210,6 @@ In order to use this function, you must define the following macro in your heade
 
 
 
+
+> [!NOTE]
+> The strsafe.h header defines StringCbVPrintf_lEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

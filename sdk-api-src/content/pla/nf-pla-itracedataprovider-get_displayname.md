@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_DisplayName
 title: ITraceDataProvider::get_DisplayName (pla.h)
-description: Retrieves or sets the display name of the provider.
+description: Retrieves or sets the display name of the provider. (Get)
+helpviewer_keywords: ["DisplayName property [PLA]","DisplayName property [PLA]","ITraceDataProvider interface","ITraceDataProvider interface [PLA]","DisplayName property","ITraceDataProvider.DisplayName","ITraceDataProvider.get_DisplayName","ITraceDataProvider::DisplayName","ITraceDataProvider::get_DisplayName","ITraceDataProvider::put_DisplayName","base.itracedataprovider_displayname","get_DisplayName","pla.itracedataprovider_displayname","pla/ITraceDataProvider::DisplayName","pla/ITraceDataProvider::get_DisplayName","pla/ITraceDataProvider::put_DisplayName"]
 old-location: pla\itracedataprovider_displayname.htm
 tech.root: PLA
 ms.assetid: 1a162b71-d4e3-4259-9980-bf40766983b1
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [PLA], DisplayName property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],DisplayName property, ITraceDataProvider.DisplayName, ITraceDataProvider.get_DisplayName, ITraceDataProvider::DisplayName, ITraceDataProvider::get_DisplayName, ITraceDataProvider::put_DisplayName, base.itracedataprovider_displayname, get_DisplayName, pla.itracedataprovider_displayname, pla/ITraceDataProvider::DisplayName, pla/ITraceDataProvider::get_DisplayName, pla/ITraceDataProvider::put_DisplayName
-f1_keywords:
-- pla/ITraceDataProvider.DisplayName
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- ITraceDataProvider.DisplayName
-- ITraceDataProvider.get_DisplayName
-- ITraceDataProvider.put_DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceDataProvider::get_DisplayName
+ - pla/ITraceDataProvider::get_DisplayName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - ITraceDataProvider.DisplayName
+ - ITraceDataProvider.get_DisplayName
+ - ITraceDataProvider.put_DisplayName
 ---
 
 # ITraceDataProvider::get_DisplayName
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the display name of the provider.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>

@@ -2,15 +2,12 @@
 UID: NF:ncrypt.NCryptSetProperty
 title: NCryptSetProperty function (ncrypt.h)
 description: Sets the value for a named property for a CNG key storage object.
+helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GROUP_SECURITY_INFORMATION","LABEL_SECURITY_INFORMATION","NCRYPT_PERSIST_FLAG","NCRYPT_PERSIST_ONLY_FLAG","NCRYPT_SILENT_FLAG","NCryptSetProperty","NCryptSetProperty function [Security]","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","ncrypt/NCryptSetProperty","security.ncryptsetproperty_func"]
 old-location: security\ncryptsetproperty_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
 ms.date: 12/05/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, NCRYPT_PERSIST_FLAG, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptSetProperty, NCryptSetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptSetProperty, security.ncryptsetproperty_func
-f1_keywords:
-- ncrypt/NCryptSetProperty
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptSetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptSetProperty
+ - ncrypt/NCryptSetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptSetProperty
 ---
 
 # NCryptSetProperty function
@@ -48,34 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptSetProperty</b> function sets the value for a named property for a CNG key storage object.
 
-
 ## -parameters
-
-
-
 
 ### -param hObject [in]
 
 The handle of the key storage object to set the property for.
 
-
 ### -param pszProperty [in]
 
-A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">Key Storage Property Identifiers</a> or a custom property identifier.
-
+A pointer to a null-terminated Unicode string that contains the name of the property to set. This can be one of the predefined <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">Key Storage Property Identifiers</a> or a custom property identifier.
 
 ### -param pbInput [in]
 
 The address of a buffer that contains the new property value. The <i>cbInput</i> parameter contains the size of this buffer.
 
-
 ### -param cbInput [in]
 
 The size, in bytes, of the <i>pbInput</i> buffer.
-
 
 ### -param dwFlags [in]
 
@@ -135,7 +128,7 @@ For the <b>NCRYPT_SECURITY_DESCR_PROPERTY</b> property, this parameter must also
 </dl>
 </td>
 <td width="60%">
-Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object's owner. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a> function to set the owner SID in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object's owner. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a> function to set the owner SID in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -145,7 +138,7 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secu
 </dl>
 </td>
 <td width="60%">
-Set the SID of the object's primary group. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup">SetSecurityDescriptorGroup</a> function to set the group SID in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the SID of the object's primary group. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup">SetSecurityDescriptorGroup</a> function to set the group SID in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -155,7 +148,7 @@ Set the SID of the object's primary group. Use the <a href="https://docs.microso
 </dl>
 </td>
 <td width="60%">
-Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the DACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the DACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -165,7 +158,7 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">disc
 </dl>
 </td>
 <td width="60%">
-Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+Set the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 </td>
 </tr>
@@ -175,17 +168,13 @@ Set the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">syst
 </dl>
 </td>
 <td width="60%">
-Set the mandatory label access control entry in the SACL of the object. Use the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> function to set the SACL in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="https://go.microsoft.com/fwlink/p/?linkid=168187">Windows Integrity Mechanism Design</a>.
+Set the mandatory label access control entry in the SACL of the object. Use the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a> function to set the SACL in the <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. For more information about the mandatory label access control entry, see <a href="/previous-versions/dotnet/articles/bb625963(v=msdn.10)">Windows Integrity Mechanism Design</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -266,16 +255,7 @@ The specified property is not supported for the object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

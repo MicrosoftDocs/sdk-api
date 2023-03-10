@@ -2,15 +2,12 @@
 UID: NS:wsdtypes._WSD_APP_SEQUENCE
 title: WSD_APP_SEQUENCE (wsdtypes.h)
 description: Represents application sequence information relating to WS-Discovery messages.
+helpviewer_keywords: ["WSD_APP_SEQUENCE","WSD_APP_SEQUENCE structure","ncd.wsd_app_sequence_struct","wsdtypes/WSD_APP_SEQUENCE"]
 old-location: ncd\wsd_app_sequence_struct.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: e9aa8e2f-0162-4f2e-ad70-54b6352105f9
 ms.date: 12/05/2018
 ms.keywords: WSD_APP_SEQUENCE, WSD_APP_SEQUENCE structure, ncd.wsd_app_sequence_struct, wsdtypes/WSD_APP_SEQUENCE
-f1_keywords:
-- wsdtypes/WSD_APP_SEQUENCE
-dev_langs:
-- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WsdTypes.h
-api_name:
-- WSD_APP_SEQUENCE
 targetos: Windows
 req.typenames: WSD_APP_SEQUENCE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WSD_APP_SEQUENCE
+ - wsdtypes/_WSD_APP_SEQUENCE
+ - WSD_APP_SEQUENCE
+ - wsdtypes/WSD_APP_SEQUENCE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WsdTypes.h
+api_name:
+ - WSD_APP_SEQUENCE
 ---
 
 # WSD_APP_SEQUENCE structure
@@ -48,47 +52,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents application sequence information relating to WS-Discovery messages.
 
-
 ## -struct-fields
-
-
-
 
 ### -field InstanceId
 
 The instance identifier.
 
-
 ### -field SequenceId
 
 The sequence identifier.
-
 
 ### -field MessageNumber
 
 The message number.
 
-
 ## -remarks
 
-
-
-The application sequencing header block allows a receiver to maintain the sequence messages that contain this header block though they may have been received out of order. This allows proper sequencing of <a href="https://docs.microsoft.com/windows/desktop/WsdApi/hello-message">Hello</a> and <a href="https://docs.microsoft.com/windows/desktop/WsdApi/bye-message">Bye</a> messages from a target service.
+The application sequencing header block allows a receiver to maintain the sequence messages that contain this header block though they may have been received out of order. This allows proper sequencing of <a href="/windows/desktop/WsdApi/hello-message">Hello</a> and <a href="/windows/desktop/WsdApi/bye-message">Bye</a> messages from a target service.
 
 The normative outline for the application sequence header block is:
 
 
 
-<pre class="syntax" xml:space="preserve"><code>&lt;s:Envelope ...&gt; 
+
+``` syntax
+&lt;s:Envelope ...&gt; 
   &lt;s:Header ...&gt; 
     &lt;d:AppSequence InstanceId='xs:nonNegativeInteger' [SequenceId='xs:anyURI']? MessageNumber='xs:nonNegativeInteger' ... /&gt;
   &lt;/s:Header&gt; 
   &lt;s:Body ...&gt; ... 
   &lt;/s:Body&gt; 
-&lt;/s:Envelope&gt;</code></pre>
+&lt;/s:Envelope&gt;
+```
+
 The following describes normative constraints of this outline. 
 
 
@@ -107,16 +105,6 @@ This setting identifies a sequence within the context of an instance identifier.
 
 This setting identifies a message within the context of a sequence identifier and an instance identifier. must be incremented by a value of at least 1 for each message sent. Retransmission of this message at the transport level must maintain this value.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/appsequence-validation-rules">AppSequence Validation Rules</a>
- 
-
- 
-
+<a href="/windows/desktop/WsdApi/appsequence-validation-rules">AppSequence Validation Rules</a>

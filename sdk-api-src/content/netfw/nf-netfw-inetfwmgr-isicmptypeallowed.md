@@ -2,15 +2,12 @@
 UID: NF:netfw.INetFwMgr.IsIcmpTypeAllowed
 title: INetFwMgr::IsIcmpTypeAllowed (netfw.h)
 description: Determines whether the specified ICMP type is allowed.
+helpviewer_keywords: ["INetFwMgr interface [ICS/ICF]","IsIcmpTypeAllowed method","INetFwMgr.IsIcmpTypeAllowed","INetFwMgr::IsIcmpTypeAllowed","IsIcmpTypeAllowed","IsIcmpTypeAllowed method [ICS/ICF]","IsIcmpTypeAllowed method [ICS/ICF]","INetFwMgr interface","ics.inetfwmgr_isicmptypeallowed","netfw/INetFwMgr::IsIcmpTypeAllowed"]
 old-location: ics\inetfwmgr_isicmptypeallowed.htm
 tech.root: ics
 ms.assetid: 9ff5ef3b-581e-4ce5-9424-dafb08cfe067
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],IsIcmpTypeAllowed method, INetFwMgr.IsIcmpTypeAllowed, INetFwMgr::IsIcmpTypeAllowed, IsIcmpTypeAllowed, IsIcmpTypeAllowed method [ICS/ICF], IsIcmpTypeAllowed method [ICS/ICF],INetFwMgr interface, ics.inetfwmgr_isicmptypeallowed, netfw/INetFwMgr::IsIcmpTypeAllowed
-f1_keywords:
-- netfw/INetFwMgr.IsIcmpTypeAllowed
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwMgr.IsIcmpTypeAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwMgr::IsIcmpTypeAllowed
+ - netfw/INetFwMgr::IsIcmpTypeAllowed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwMgr.IsIcmpTypeAllowed
 ---
 
 # INetFwMgr::IsIcmpTypeAllowed
@@ -49,16 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Determines whether the specified ICMP type is allowed.
 
-
 ## -parameters
-
-
-
 
 ### -param ipVersion [in]
 
@@ -66,7 +63,6 @@ IP version of the traffic. This cannot be <b>NET_FW_IP_VERSION_ANY</b>.
 
 IP version of the traffic. 
    This cannot be <b>NET_FW_IP_VERSION_ANY</b>.
-
 
 ### -param localAddress [in]
 
@@ -80,13 +76,11 @@ Either a dotted-decimal IPv4 address or an IPv6 hex
    the address passed to bind. If <i>localAddress</i> is <b>NULL</b>, the function
    determines whether the port is allowed for all interfaces.
 
-
 ### -param type [in]
 
-ICMP type. For a list of possible ICMP types, see <a href="https://go.microsoft.com/fwlink/p/?linkid=109532">ICMP Type Numbers</a>.
+ICMP type. For a list of possible ICMP types, see <a href="https://www.iana.org/assignments/icmp-parameters">ICMP Type Numbers</a>.
 
 ICMP type.
-
 
 ### -param allowed [out]
 
@@ -95,7 +89,6 @@ Indicates by a value of VARIANT_TRUE or VARIANT_FALSE whether the port is allowe
 
 Indicates by a value of VARIANT_TRUE or VARIANT_FALSE whether the port is allowed for at least some local
    interfaces and remote addresses.
-
 
 ### -param restricted [out]
 
@@ -107,10 +100,7 @@ Indicates by a value of VARIANT_TRUE or VARIANT_FALSE whether some local interfa
    are blocked for this port. For example, if the port is restricted to the
    local subnet only.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 <table>
@@ -220,31 +210,15 @@ The method failed because a pointer was not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-isrulegroupenabled">INetFwPolicy2::IsRuleGroupEnabled</a> method is generally recommended in place of this method.
-
-
-
+The <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2-isrulegroupenabled">INetFwPolicy2::IsRuleGroupEnabled</a> method is generally recommended in place of this method.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwmgr">INetFwMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwmgr">INetFwMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_FW_IP_VERSION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_FW_IP_VERSION</a>

@@ -2,17 +2,14 @@
 UID: NF:processthreadsapi.SetThreadStackGuarantee
 title: SetThreadStackGuarantee function (processthreadsapi.h)
 description: Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
+helpviewer_keywords: ["SetThreadStackGuarantee","SetThreadStackGuarantee function","base.setthreadstackguarantee","processthreadsapi/SetThreadStackGuarantee","winbase/SetThreadStackGuarantee"]
 old-location: base\setthreadstackguarantee.htm
-tech.root: ProcThread
+tech.root: processthreadsapi
 ms.assetid: 42595cba-413b-4b71-8d32-f873ed78c39c
 ms.date: 12/05/2018
 ms.keywords: SetThreadStackGuarantee, SetThreadStackGuarantee function, base.setthreadstackguarantee, processthreadsapi/SetThreadStackGuarantee, winbase/SetThreadStackGuarantee
-f1_keywords:
-- processthreadsapi/SetThreadStackGuarantee
-dev_langs:
-- c++
 req.header: processthreadsapi.h
-req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.include-header: Windows.h on Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 req.target-min-winversvr: Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
-- KernelBase.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
-- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
-- api-ms-win-downlevel-kernel32-l1-1-0.dll
-- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
-api_name:
-- SetThreadStackGuarantee
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadStackGuarantee
+ - processthreadsapi/SetThreadStackGuarantee
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+ - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+ - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+api_name:
+ - SetThreadStackGuarantee
 ---
 
 # SetThreadStackGuarantee function
@@ -55,14 +57,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions. This is useful for handling stack overflow exceptions; the application can safely use the specified number of bytes during exception handling.
 
-
 ## -parameters
-
-
-
 
 ### -param StackSizeInBytes [in, out]
 
@@ -74,45 +71,27 @@ If the specified size is less than the current size, the function succeeds but i
 
 This value cannot be larger than the reserved stack size.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+If the function is successful, the application can handle possible EXCEPTION_STACK_OVERFLOW exceptions using <a href="/windows/desktop/Debug/structured-exception-handling">structured exception handling</a>. To resume execution after handling a stack overflow, you must perform certain recovery steps. If you are using the Microsoft C/C++ compiler, call the <b>_resetstkoflw</b> function. If you are using another compiler, see the documentation for the compiler for information on recovering from stack overflows.
 
-
-If the function is successful, the application can handle possible EXCEPTION_STACK_OVERFLOW exceptions using <a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling">structured exception handling</a>. To resume execution after handling a stack overflow, you must perform certain recovery steps. If you are using the Microsoft C/C++ compiler, call the <b>_resetstkoflw</b> function. If you are using another compiler, see the documentation for the compiler for information on recovering from stack overflows.
-
-To set the stack guarantee for a fiber, you must first call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function to execute the fiber. After you set the guarantee for this fiber, it is used by the fiber no matter which thread executes the fiber.
-
-
-
+To set the stack guarantee for a fiber, you must first call the <a href="/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function to execute the fiber. After you set the guarantee for this fiber, it is used by the fiber no matter which thread executes the fiber.
 
 ## -see-also
 
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
- 
-
- 
-
+<a href="/windows/desktop/ProcThread/multiple-threads">Threads</a>

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFVideoSampleAllocator.UninitializeSampleAllocator
 title: IMFVideoSampleAllocator::UninitializeSampleAllocator (mfidl.h)
 description: Releases all of the video samples that have been allocated.
+helpviewer_keywords: ["7bcb0425-00ac-4fdc-83a8-2b2686979a1d","IMFVideoSampleAllocator interface [Media Foundation]","UninitializeSampleAllocator method","IMFVideoSampleAllocator.UninitializeSampleAllocator","IMFVideoSampleAllocator::UninitializeSampleAllocator","UninitializeSampleAllocator","UninitializeSampleAllocator method [Media Foundation]","UninitializeSampleAllocator method [Media Foundation]","IMFVideoSampleAllocator interface","mf.imfvideosampleallocator_uninitializesampleallocator","mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator"]
 old-location: mf\imfvideosampleallocator_uninitializesampleallocator.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d
 ms.date: 12/05/2018
 ms.keywords: 7bcb0425-00ac-4fdc-83a8-2b2686979a1d, IMFVideoSampleAllocator interface [Media Foundation],UninitializeSampleAllocator method, IMFVideoSampleAllocator.UninitializeSampleAllocator, IMFVideoSampleAllocator::UninitializeSampleAllocator, UninitializeSampleAllocator, UninitializeSampleAllocator method [Media Foundation], UninitializeSampleAllocator method [Media Foundation],IMFVideoSampleAllocator interface, mf.imfvideosampleallocator_uninitializesampleallocator, mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator
-f1_keywords:
-- mfidl/IMFVideoSampleAllocator.UninitializeSampleAllocator
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFVideoSampleAllocator.UninitializeSampleAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoSampleAllocator::UninitializeSampleAllocator
+ - mfidl/IMFVideoSampleAllocator::UninitializeSampleAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFVideoSampleAllocator.UninitializeSampleAllocator
 ---
 
 # IMFVideoSampleAllocator::UninitializeSampleAllocator
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Releases all of the video samples that have been allocated.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -86,18 +76,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>

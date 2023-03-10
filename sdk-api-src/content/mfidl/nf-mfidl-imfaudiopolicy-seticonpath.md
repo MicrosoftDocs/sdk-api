@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFAudioPolicy.SetIconPath
 title: IMFAudioPolicy::SetIconPath (mfidl.h)
 description: Sets the icon resource for the audio session. The Windows volume control displays this icon.
+helpviewer_keywords: ["098ad6ae-b1fe-4e74-b494-572770906b14","IMFAudioPolicy interface [Media Foundation]","SetIconPath method","IMFAudioPolicy.SetIconPath","IMFAudioPolicy::SetIconPath","SetIconPath","SetIconPath method [Media Foundation]","SetIconPath method [Media Foundation]","IMFAudioPolicy interface","mf.imfaudiopolicy_seticonpath","mfidl/IMFAudioPolicy::SetIconPath"]
 old-location: mf\imfaudiopolicy_seticonpath.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 098ad6ae-b1fe-4e74-b494-572770906b14
 ms.date: 12/05/2018
 ms.keywords: 098ad6ae-b1fe-4e74-b494-572770906b14, IMFAudioPolicy interface [Media Foundation],SetIconPath method, IMFAudioPolicy.SetIconPath, IMFAudioPolicy::SetIconPath, SetIconPath, SetIconPath method [Media Foundation], SetIconPath method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_seticonpath, mfidl/IMFAudioPolicy::SetIconPath
-f1_keywords:
-- mfidl/IMFAudioPolicy.SetIconPath
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFAudioPolicy.SetIconPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFAudioPolicy::SetIconPath
+ - mfidl/IMFAudioPolicy::SetIconPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFAudioPolicy.SetIconPath
 ---
 
 # IMFAudioPolicy::SetIconPath
@@ -49,35 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the icon resource for the audio session. The Windows volume control displays this icon.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
 A wide-character string that specifies the icon. See Remarks.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The icon path has the format "path,index" or "path,-id", where <i>path</i> is the fully qualified path to a DLL, executable file, or icon file; <i>index</i> is the zero-based index of the icon within the file; and <i>id</i> is a resource identifier. Note that resource identifiers are preceded by a minus sign (-) to distinguish them from indexes. The path can contain environment variables, such as "%windir%". For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath">IAudioSessionControl::SetIconPath</a> in the Windows SDK.
+The icon path has the format "path,index" or "path,-id", where <i>path</i> is the fully qualified path to a DLL, executable file, or icon file; <i>index</i> is the zero-based index of the icon within the file; and <i>id</i> is a resource identifier. Note that resource identifiers are preceded by a minus sign (-) to distinguish them from indexes. The path can contain environment variables, such as "%windir%". For more information, see <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath">IAudioSessionControl::SetIconPath</a> in the Windows SDK.
 
 
 #### Examples
@@ -139,21 +127,10 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy">IMFAudioPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy">IMFAudioPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>

@@ -2,15 +2,12 @@
 UID: NF:sbe.IStreamBufferSink2.UnlockProfile
 title: IStreamBufferSink2::UnlockProfile (sbe.h)
 description: The UnlockProfile method unlocks the Stream Buffer Sink filter's profile. After the profile is unlocked, you can change the name of the stub file.
+helpviewer_keywords: ["IStreamBufferSink2 interface [Microsoft TV Technologies]","UnlockProfile method","IStreamBufferSink2.UnlockProfile","IStreamBufferSink2::UnlockProfile","IStreamBufferSink2UnlockProfile","UnlockProfile","UnlockProfile method [Microsoft TV Technologies]","UnlockProfile method [Microsoft TV Technologies]","IStreamBufferSink2 interface","mstv.istreambuffersink2_unlockprofile","sbe/IStreamBufferSink2::UnlockProfile"]
 old-location: mstv\istreambuffersink2_unlockprofile.htm
 tech.root: mstv
 ms.assetid: 71214ca2-2613-4dbe-a72b-37d4f768ab6b
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IStreamBufferSink2.UnlockProfile, IStreamBufferSink2::UnlockProfile, IStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IStreamBufferSink2 interface, mstv.istreambuffersink2_unlockprofile, sbe/IStreamBufferSink2::UnlockProfile
-f1_keywords:
-- sbe/IStreamBufferSink2.UnlockProfile
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferSink2.UnlockProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferSink2::UnlockProfile
+ - sbe/IStreamBufferSink2::UnlockProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferSink2.UnlockProfile
 ---
 
 # IStreamBufferSink2::UnlockProfile
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>UnlockProfile</b> method unlocks the Stream Buffer Sink filter's profile. After the profile is unlocked, you can change the name of the stub file.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -93,29 +86,13 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The filter graph must be stopped when you call this method. If the recording session has not been started, this method invalidates the recording. To re-create the recording, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a> again. If the profile is not already locked, the <b>UnlockProfile</b> method has no effect and returns S_FALSE.
+The filter graph must be stopped when you call this method. If the recording session has not been started, this method invalidates the recording. To re-create the recording, call <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a> again. If the profile is not already locked, the <b>UnlockProfile</b> method has no effect and returns S_FALSE.
 
 If the graph is running, stopping the graph automatically unlocks the profile without the need to call <b>UnlockProfile</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2 Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2 Interface</a>

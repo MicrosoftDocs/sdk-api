@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Insert
 title: IUpdateCollection::Insert (wuapi.h)
-description: Inserts an item into the collection at the specified position.
+description: Inserts an item into the collection at the specified position. (IUpdateCollection.Insert)
+helpviewer_keywords: ["IUpdateCollection interface [Windows Update Agent]","Insert method","IUpdateCollection.Insert","IUpdateCollection::Insert","Insert","Insert method [Windows Update Agent]","Insert method [Windows Update Agent]","IUpdateCollection interface","wua.iupdatecollection_insert","wuapi/IUpdateCollection::Insert"]
 old-location: wua\iupdatecollection_insert.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 165f251e-9171-4464-8608-8f365b6598b3
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],Insert method, IUpdateCollection.Insert, IUpdateCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_insert, wuapi/IUpdateCollection::Insert
-f1_keywords:
-- wuapi/IUpdateCollection.Insert
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateCollection.Insert
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateCollection::Insert
+ - wuapi/IUpdateCollection::Insert
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateCollection.Insert
 ---
 
 # IUpdateCollection::Insert
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Inserts an item into the collection at the specified position.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The position at which a new interface will be inserted.
 
-
 ### -param value [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface that will be inserted.
-
+The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface that will be inserted.
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -114,18 +107,7 @@ An index is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

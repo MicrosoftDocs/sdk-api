@@ -2,15 +2,12 @@
 UID: NF:uxtheme.GetThemeSysColorBrush
 title: GetThemeSysColorBrush function (uxtheme.h)
 description: Retrieves a system color brush.
+helpviewer_keywords: ["GetThemeSysColorBrush","GetThemeSysColorBrush function [Windows Controls]","TMT_ACTIVEBORDER","TMT_ACTIVECAPTION","TMT_APPWORKSPACE","TMT_BACKGROUND","TMT_BTNFACE","TMT_BTNHIGHLIGHT","TMT_BTNSHADOW","TMT_BTNTEXT","TMT_BUTTONALTERNATEFACE","TMT_CAPTIONTEXT","TMT_DKSHADOW3D","TMT_GRADIENTACTIVECAPTION","TMT_GRADIENTINACTIVECAPTION","TMT_GRAYTEXT","TMT_HIGHLIGHT","TMT_HIGHLIGHTTEXT","TMT_HOTTRACKING","TMT_INACTIVEBORDER","TMT_INACTIVECAPTION","TMT_INACTIVECAPTIONTEXT","TMT_INFOBK","TMT_INFOTEXT","TMT_LIGHT3D","TMT_MENUBAR","TMT_MENUHILIGHT","TMT_MENUTEXT","TMT_SCROLLBAR","TMT_WINDOW","TMT_WINDOWFRAME","TMT_WINDOWTEXT","controls.GetThemeSysColorBrush","controls.inet_GetThemeSysColorBrush","inet_GetThemeSysColorBrush","inet_GetThemeSysColorBrush_cpp","uxtheme/GetThemeSysColorBrush"]
 old-location: controls\GetThemeSysColorBrush.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolorbrush.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysColorBrush, GetThemeSysColorBrush function [Windows Controls], TMT_ACTIVEBORDER, TMT_ACTIVECAPTION, TMT_APPWORKSPACE, TMT_BACKGROUND, TMT_BTNFACE, TMT_BTNHIGHLIGHT, TMT_BTNSHADOW, TMT_BTNTEXT, TMT_BUTTONALTERNATEFACE, TMT_CAPTIONTEXT, TMT_DKSHADOW3D, TMT_GRADIENTACTIVECAPTION, TMT_GRADIENTINACTIVECAPTION, TMT_GRAYTEXT, TMT_HIGHLIGHT, TMT_HIGHLIGHTTEXT, TMT_HOTTRACKING, TMT_INACTIVEBORDER, TMT_INACTIVECAPTION, TMT_INACTIVECAPTIONTEXT, TMT_INFOBK, TMT_INFOTEXT, TMT_LIGHT3D, TMT_MENUBAR, TMT_MENUHILIGHT, TMT_MENUTEXT, TMT_SCROLLBAR, TMT_WINDOW, TMT_WINDOWFRAME, TMT_WINDOWTEXT, controls.GetThemeSysColorBrush, controls.inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush_cpp, uxtheme/GetThemeSysColorBrush
-f1_keywords:
-- uxtheme/GetThemeSysColorBrush
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- GetThemeSysColorBrush
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeSysColorBrush
+ - uxtheme/GetThemeSysColorBrush
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - GetThemeSysColorBrush
 ---
 
 # GetThemeSysColorBrush function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a system color brush.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
 Type: <b>HTHEME</b>
 
 Handle to theme data.
-
 
 ### -param iColorId [in]
 
@@ -376,28 +372,16 @@ The color of the menu bar.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBRUSH</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBRUSH</a></b>
 
 Handle to brush data.
 
-
-
-
 ## -remarks
-
-
 
 If the theme data handle is not a <b>NULL</b> handle, <b>GetThemeSysColorBrush</b> returns the brush that matches the specified color from the SysMetrics section of the visual style. If the theme data handle is <b>NULL</b>, the function returns the brush matching the global system color.
 
 
-The brush handle that is returned by this function should be released when it is no longer needed using <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>. 
-
-
-
+The brush handle that is returned by this function should be released when it is no longer needed using <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>.

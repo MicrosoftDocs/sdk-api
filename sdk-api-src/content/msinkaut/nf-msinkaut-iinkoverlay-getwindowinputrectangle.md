@@ -1,16 +1,13 @@
 ---
 UID: NF:msinkaut.IInkOverlay.GetWindowInputRectangle
 title: IInkOverlay::GetWindowInputRectangle (msinkaut.h)
-description: Gets the window rectangle, in pixels, within which ink is drawn.
+description: Gets the window rectangle, in pixels, within which ink is drawn. (IInkOverlay.GetWindowInputRectangle)
+helpviewer_keywords: ["0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c","GetWindowInputRectangle","GetWindowInputRectangle method [Tablet PC]","GetWindowInputRectangle method [Tablet PC]","IInkOverlay interface","IInkOverlay","IInkOverlay interface [Tablet PC]","GetWindowInputRectangle method","IInkOverlay.GetWindowInputRectangle","IInkOverlay::GetWindowInputRectangle","msinkaut/IInkOverlay::GetWindowInputRectangle","tablet.inkoverlay_getwindowinputrectangle"]
 old-location: tablet\inkoverlay_getwindowinputrectangle.htm
 tech.root: tablet
 ms.assetid: e0e4cabe-f8f1-48b5-a12a-789b7c9c5973
 ms.date: 12/05/2018
 ms.keywords: 0f47b4c7-7ba1-44a6-8f62-9e97c318bd2c, GetWindowInputRectangle, GetWindowInputRectangle method [Tablet PC], GetWindowInputRectangle method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],GetWindowInputRectangle method, IInkOverlay.GetWindowInputRectangle, IInkOverlay::GetWindowInputRectangle, msinkaut/IInkOverlay::GetWindowInputRectangle, tablet.inkoverlay_getwindowinputrectangle
-f1_keywords:
-- msinkaut/IInkOverlay.GetWindowInputRectangle
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkOverlay.GetWindowInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkOverlay::GetWindowInputRectangle
+ - msinkaut/IInkOverlay::GetWindowInputRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkOverlay.GetWindowInputRectangle
 ---
 
 # IInkOverlay::GetWindowInputRectangle
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Gets the window rectangle, in pixels, within which ink is drawn.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param WindowInputRectangle [out]
 
-The rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle</a>, on which ink is drawn.
-
+The rectangle, of type <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle</a>, on which ink is drawn.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,39 +113,23 @@ An exception occurs inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You must first allocate the rectangle before passing it on to this method.
 
 By default, the window input rectangle is set to {0,0,0,0}. This default rectangle maps to the size of the entire window.
 
-If you call <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getwindowinputrectangle">GetWindowInputRectangle</a> before you call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle">SetWindowInputRectangle</a> method, this method gets a rectangle with the default coordinates.
-
-
-
+If you call <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-getwindowinputrectangle">GetWindowInputRectangle</a> before you call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle">SetWindowInputRectangle</a> method, this method gets a rectangle with the default coordinates.
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkoverlay.md">IInkOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle">SetWindowInputRectangle Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setwindowinputrectangle">SetWindowInputRectangle Method</a>

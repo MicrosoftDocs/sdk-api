@@ -2,15 +2,12 @@
 UID: NF:drt.DrtGetInstanceName
 title: DrtGetInstanceName function (drt.h)
 description: DrtGetInstanceName function retrieves the full name of the Distributed Routing Table instance that corresponds to the specified DRT handle.
+helpviewer_keywords: ["DrtGetInstanceName","DrtGetInstanceName function [Distributed Routing Tables]","drt/DrtGetInstanceName","p2p.drtgetinstancename"]
 old-location: p2p\drtgetinstancename.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: f69b745c-d990-42cf-8994-9640bcb7d1bf
 ms.date: 12/05/2018
 ms.keywords: DrtGetInstanceName, DrtGetInstanceName function [Distributed Routing Tables], drt/DrtGetInstanceName, p2p.drtgetinstancename
-f1_keywords:
-- drt/DrtGetInstanceName
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtGetInstanceName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtGetInstanceName
+ - drt/DrtGetInstanceName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtGetInstanceName
 ---
 
 # DrtGetInstanceName function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtGetInstanceName</b> function retrieves the full name of the Distributed Routing Table instance that corresponds to the specified DRT handle.
 
-
 ## -parameters
-
-
-
 
 ### -param hDrt [in]
 
 Handle to the DRT instance.
 
-
 ### -param ulcbInstanceNameSize [in, out]
 
 The length of the <i>pwzDrtInstanceName</i> buffer.
-
 
 ### -param pwzDrtInstanceName [out]
 
 Contains the complete name of the DRT instance associated with <i>hDRT</i>.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -117,18 +109,7 @@ The <i>pwzDrtInstanceName</i> buffer is insufficient in size.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>

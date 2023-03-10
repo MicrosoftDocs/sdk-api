@@ -2,15 +2,12 @@
 UID: NF:vidcap.ICameraControl.getRange_ZoomRelative
 title: ICameraControl::getRange_ZoomRelative (vidcap.h)
 description: The getRange_ZoomRelative method returns the range of relative zoom levels supported by the camera. The relative zoom indicates the direction in which the lens is moving.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_ZoomRelative method","ICameraControl.getRange_ZoomRelative","ICameraControl::getRange_ZoomRelative","ICameraControlgetRange_ZoomRelative","dshow.icameracontrol_getrange_zoomrelative","getRange_ZoomRelative","getRange_ZoomRelative method [DirectShow]","getRange_ZoomRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_ZoomRelative"]
 old-location: dshow\icameracontrol_getrange_zoomrelative.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ea3460b8-b956-4dc9-bed7-f28714e1df11
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_ZoomRelative method, ICameraControl.getRange_ZoomRelative, ICameraControl::getRange_ZoomRelative, ICameraControlgetRange_ZoomRelative, dshow.icameracontrol_getrange_zoomrelative, getRange_ZoomRelative, getRange_ZoomRelative method [DirectShow], getRange_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_ZoomRelative
-f1_keywords:
-- vidcap/ICameraControl.getRange_ZoomRelative
-dev_langs:
-- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICameraControl.getRange_ZoomRelative
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICameraControl::getRange_ZoomRelative
+ - vidcap/ICameraControl::getRange_ZoomRelative
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICameraControl.getRange_ZoomRelative
 ---
 
 # ICameraControl::getRange_ZoomRelative
@@ -49,60 +51,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <code>getRange_ZoomRelative</code> method returns the range of relative zoom levels supported by the camera. The relative zoom indicates the direction in which the lens is moving.
 
-
 ## -parameters
-
-
-
 
 ### -param pMin [out]
 
 Receives the minimum relative zoom.
 
-
 ### -param pMax [out]
 
 Receives the maximum relative zoom.
-
 
 ### -param pSteppingDelta [out]
 
 Receives the smallest step between settings.
 
-
 ### -param pDefault [out]
 
 Receives the default relative zoom.
 
-
 ### -param pCapsFlag [out]
 
-Receives one or more flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
-
+Receives one or more flags. See <a href="/windows/win32/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>

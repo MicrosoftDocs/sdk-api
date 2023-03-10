@@ -2,15 +2,12 @@
 UID: NF:wpcapi.IWPCWebSettings.GetSettings
 title: IWPCWebSettings::GetSettings (wpcapi.h)
 description: Retrieves the web restrictions settings.
+helpviewer_keywords: ["GetSettings","GetSettings method","GetSettings method","IWPCWebSettings interface","IWPCWebSettings interface","GetSettings method","IWPCWebSettings.GetSettings","IWPCWebSettings::GetSettings","WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED","WPCFLAG_WEB_SETTING_NOTBLOCKED","parcon.iwpcwebsettings_getsettings","wpcapi/IWPCWebSettings::GetSettings"]
 old-location: parcon\iwpcwebsettings_getsettings.htm
 tech.root: parcon
 ms.assetid: bf0c1a54-ac36-45f4-8005-1847dc00bf7f
 ms.date: 12/05/2018
 ms.keywords: GetSettings, GetSettings method, GetSettings method,IWPCWebSettings interface, IWPCWebSettings interface,GetSettings method, IWPCWebSettings.GetSettings, IWPCWebSettings::GetSettings, WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED, WPCFLAG_WEB_SETTING_NOTBLOCKED, parcon.iwpcwebsettings_getsettings, wpcapi/IWPCWebSettings::GetSettings
-f1_keywords:
-- wpcapi/IWPCWebSettings.GetSettings
-dev_langs:
-- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wpcapi.h
-api_name:
-- IWPCWebSettings.GetSettings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWPCWebSettings::GetSettings
+ - wpcapi/IWPCWebSettings::GetSettings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wpcapi.h
+api_name:
+ - IWPCWebSettings.GetSettings
 ---
 
 # IWPCWebSettings::GetSettings
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the web restrictions settings.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwSettings [out]
 
@@ -89,25 +86,11 @@ Downloads are blocked.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wpcapi/nn-wpcapi-iwpcwebsettings">IWPCWebSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcwebsettings">IWPCWebSettings</a>

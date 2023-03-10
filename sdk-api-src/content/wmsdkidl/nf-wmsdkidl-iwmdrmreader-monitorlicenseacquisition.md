@@ -1,16 +1,13 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.MonitorLicenseAcquisition
 title: IWMDRMReader::MonitorLicenseAcquisition (wmsdkidl.h)
-description: The MonitorLicenseAcquisition method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
+description: The MonitorLicenseAcquisition method, in nonsilent license acquisition, informs the application when a license has been successfully acquired.
+helpviewer_keywords: ["IWMDRMReader interface [windows Media Format]","MonitorLicenseAcquisition method","IWMDRMReader.MonitorLicenseAcquisition","IWMDRMReader::MonitorLicenseAcquisition","IWMDRMReaderMonitorLicenseAcquisition","MonitorLicenseAcquisition","MonitorLicenseAcquisition method [windows Media Format]","MonitorLicenseAcquisition method [windows Media Format]","IWMDRMReader interface","wmformat.iwmdrmreader_monitorlicenseacquisition","wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition"]
 old-location: wmformat\iwmdrmreader_monitorlicenseacquisition.htm
 tech.root: wmformat
 ms.assetid: 0b15dce6-7591-479a-b28e-5006418a1c7b
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],MonitorLicenseAcquisition method, IWMDRMReader.MonitorLicenseAcquisition, IWMDRMReader::MonitorLicenseAcquisition, IWMDRMReaderMonitorLicenseAcquisition, MonitorLicenseAcquisition, MonitorLicenseAcquisition method [windows Media Format], MonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_monitorlicenseacquisition, wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
-f1_keywords:
-- wmsdkidl/IWMDRMReader.MonitorLicenseAcquisition
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMReader.MonitorLicenseAcquisition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMReader::MonitorLicenseAcquisition
+ - wmsdkidl/IWMDRMReader::MonitorLicenseAcquisition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMReader.MonitorLicenseAcquisition
 ---
 
 # IWMDRMReader::MonitorLicenseAcquisition
@@ -49,62 +51,36 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>MonitorLicenseAcquisition</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>MonitorLicenseAcquisition</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
-The <b>MonitorLicenseAcquisition</b> method, in non-silent license acquisition, informs the application when a license has been successfully acquired.
-
-
-
-
-## -parameters
-
-
-
+The <b>MonitorLicenseAcquisition</b> method, in nonsilent license acquisition, informs the application when a license has been successfully acquired.
 
 
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
+This method should be used whenever nonsilent license acquisition has been initiated for DRM version 7 content. It is an asynchronous call that returns immediately. This method creates a thread that periodically checks the local license store to determine when the requested license has been received. To cancel the attempt, call <b>CancelMonitorLicenseAcquisition</b>.
 
-
-This method should be used whenever non-silent license acquisition has been initiated for DRM version 7 content. It is an asynchronous call that returns immediately. This method creates a thread that periodically checks the local license store to determine when the requested license has been received. To cancel the attempt, call <b>CancelMonitorLicenseAcquisition</b>.
-
-When the license acquisition is completed (whether successful or otherwise), the application is notified through a <b>WMT_LICENSE_ACQUIRE</b> event that is sent to the application's <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method.
-
-
-
+When the license acquisition is completed (whether successful or otherwise), the application is notified through a <b>WMT_LICENSE_ACQUIRE</b> event that is sent to the application's <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/handling-license-acquisition-events">Handling License Acquisition Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/handling-license-acquisition-events">Handling License Acquisition Events</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader">IWMDRMReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelmonitorlicenseacquisition">IWMDRMReader::CancelMonitorLicenseAcquisition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelmonitorlicenseacquisition">IWMDRMReader::CancelMonitorLicenseAcquisition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>

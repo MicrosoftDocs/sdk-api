@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.IsNetDrive
 title: IsNetDrive function (shlobj_core.h)
 description: Tests whether a drive is a network drive.
+helpviewer_keywords: ["IsNetDrive","IsNetDrive function [Windows Shell]","_win32_IsNetDrive","shell.IsNetDrive","shlobj_core/IsNetDrive"]
 old-location: shell\IsNetDrive.htm
 tech.root: shell
 ms.assetid: 44e02665-648a-4cf0-9dc0-038e54d08a49
 ms.date: 12/05/2018
 ms.keywords: IsNetDrive, IsNetDrive function [Windows Shell], _win32_IsNetDrive, shell.IsNetDrive, shlobj_core/IsNetDrive
-f1_keywords:
-- shlobj_core/IsNetDrive
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- IsNetDrive
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsNetDrive
+ - shlobj_core/IsNetDrive
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - IsNetDrive
 ---
 
 # IsNetDrive function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a> instead.]
+<p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows. Use <a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> or <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona">WNetGetConnection</a> instead.]
 
 Tests whether a drive is a network drive.
 
-
 ## -parameters
-
-
-
 
 ### -param iDrive [in]
 
@@ -65,10 +62,7 @@ Type: <b>int</b>
 
 An integer that indicates which drive letter you want to test. Set it to 0 for  A:, 1 for B:, and so on.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
@@ -113,7 +107,3 @@ The specified drive is a network drive that is disconnected or in an error state
 </td>
 </tr>
 </table>
- 
-
-
-

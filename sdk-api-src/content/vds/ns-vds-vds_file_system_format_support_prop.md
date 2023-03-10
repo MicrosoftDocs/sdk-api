@@ -2,15 +2,12 @@
 UID: NS:vds._VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP (vds.h)
 description: Provides information about file systems that are supported for formatting volumes.
+helpviewer_keywords: ["*PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP","PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP","PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure pointer","VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP","VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure","base.vds_file_system_format_support_prop","vds/PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP","vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP"]
 old-location: base\vds_file_system_format_support_prop.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 0a0863d3-a97f-4be5-bba4-15d6bbbf03a5
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure pointer, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure, base.vds_file_system_format_support_prop, vds/PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP'
-f1_keywords:
-- vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 targetos: Windows
 req.typenames: VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, *PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
+ - vds/_VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
+ - PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
+ - vds/PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
+ - VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
+ - vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 ---
 
 # VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure
@@ -48,36 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides information about file systems that are supported for formatting volumes.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ulFlags
 
-Bitwise-OR of any of the values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a> enumeration.
-
+Bitwise-OR of any of the values defined in the <a href="/windows/desktop/api/vds/ne-vds-vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a> enumeration.
 
 ### -field usRevision
 
 The revision of the file system, if any.  This member is expressed as a 16-bit binary-coded decimal number, where a decimal point is implied between the second and third digits. For example, a value of 0x0250 indicates revision 2.50.
 
-
 ### -field ulDefaultUnitAllocationSize
 
 Default allocation unit size, in bytes, that will be used by the file system for formatting the volume.  This value must be a power of 2 and must also appear in the <b>rgulAllowedUnitAllocationSizes</b> member.
 
-
 ### -field rgulAllowedUnitAllocationSizes
 
 A zero-terminated array of allocation unit sizes, in bytes, that are supported by the file system for formatting the volume.  The case where the array will not be zero-terminated is if there are MAX_FS_ALLOWED_CLUSTER_SIZES_SIZE number of elements in the array.  Each of the values in the array must be a power of 2.
-
 
 ### -field wszName
 
@@ -144,41 +141,27 @@ Universal Disk Format (UDF) file system
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
-
-
-
+If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf2-formatpartitionex2">IVdsDiskPartitionMF2::FormatPartitionEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf2-formatpartitionex2">IVdsDiskPartitionMF2::FormatPartitionEx2</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf-querypartitionfilesystemformatsupport">IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdiskpartitionmf-querypartitionfilesystemformatsupport">IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">IVdsVolumeMF2::FormatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">IVdsVolumeMF2::FormatEx</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-queryfilesystemformatsupport">IVdsVolumeMF2::QueryFileSystemFormatSupport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-queryfilesystemformatsupport">IVdsVolumeMF2::QueryFileSystemFormatSupport</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vds/ne-vds-vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>

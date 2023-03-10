@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IISDB_CDT.GetDataModule
 title: IISDB_CDT::GetDataModule (dvbsiparser.h)
 description: Receives the data module from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
+helpviewer_keywords: ["GetDataModule","GetDataModule method [Microsoft TV Technologies]","GetDataModule method [Microsoft TV Technologies]","IISDB_CDT interface","IISDB_CDT interface [Microsoft TV Technologies]","GetDataModule method","IISDB_CDT.GetDataModule","IISDB_CDT::GetDataModule","dvbsiparser/IISDB_CDT::GetDataModule","mstv.iisdb_cdt_getdatamodule"]
 old-location: mstv\iisdb_cdt_getdatamodule.htm
 tech.root: mstv
 ms.assetid: b7ff7e8a-17bd-46aa-bf9b-74f3e33a7ce2
 ms.date: 12/05/2018
 ms.keywords: GetDataModule, GetDataModule method [Microsoft TV Technologies], GetDataModule method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDataModule method, IISDB_CDT.GetDataModule, IISDB_CDT::GetDataModule, dvbsiparser/IISDB_CDT::GetDataModule, mstv.iisdb_cdt_getdatamodule
-f1_keywords:
-- dvbsiparser/IISDB_CDT.GetDataModule
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_CDT.GetDataModule
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_CDT::GetDataModule
+ - dvbsiparser/IISDB_CDT::GetDataModule
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_CDT.GetDataModule
 ---
 
 # IISDB_CDT::GetDataModule
@@ -48,39 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Receives the data module from
   an Integrated Services Digital Broadcasting (ISDB)
-  common data table (CDT). 
-
+  common data table (CDT).
 
 ## -parameters
-
-
-
 
 ### -param pbData [out]
 
 Pointer to a memory block allocated to receive the data module.
 The caller is responsible for freeing this memory.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_cdt">IISDB_CDT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_cdt">IISDB_CDT</a>

@@ -2,15 +2,12 @@
 UID: NS:dbghelp._IMAGE_DEBUG_INFORMATION
 title: IMAGE_DEBUG_INFORMATION (dbghelp.h)
 description: Contains debugging information.
+helpviewer_keywords: ["*PIMAGE_DEBUG_INFORMATION","IMAGE_DEBUG_INFORMATION","IMAGE_DEBUG_INFORMATION structure","IMAGE_FILE_32BIT_MACHINE","IMAGE_FILE_AGGRESIVE_WS_TRIM","IMAGE_FILE_BYTES_REVERSED_HI","IMAGE_FILE_BYTES_REVERSED_LO","IMAGE_FILE_DEBUG_STRIPPED","IMAGE_FILE_DLL","IMAGE_FILE_EXECUTABLE_IMAGE","IMAGE_FILE_LARGE_ADDRESS_AWARE","IMAGE_FILE_LINE_NUMS_STRIPPED","IMAGE_FILE_LOCAL_SYMS_STRIPPED","IMAGE_FILE_MACHINE_AMD64","IMAGE_FILE_MACHINE_I386","IMAGE_FILE_MACHINE_IA64","IMAGE_FILE_NET_RUN_FROM_SWAP","IMAGE_FILE_RELOCS_STRIPPED","IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP","IMAGE_FILE_SYSTEM","IMAGE_FILE_UP_SYSTEM_ONLY","PIMAGE_DEBUG_INFORMATION","PIMAGE_DEBUG_INFORMATION structure pointer","_IMAGE_DEBUG_INFORMATION","_win32_image_debug_information_str","base.image_debug_information_str","dbghelp/IMAGE_DEBUG_INFORMATION","dbghelp/PIMAGE_DEBUG_INFORMATION"]
 old-location: base\image_debug_information_str.htm
 tech.root: Debug
 ms.assetid: f8db7695-4967-45c0-a6bf-019e825bd9ab
 ms.date: 12/05/2018
 ms.keywords: '*PIMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION structure, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, PIMAGE_DEBUG_INFORMATION, PIMAGE_DEBUG_INFORMATION structure pointer, _IMAGE_DEBUG_INFORMATION, _win32_image_debug_information_str, base.image_debug_information_str, dbghelp/IMAGE_DEBUG_INFORMATION, dbghelp/PIMAGE_DEBUG_INFORMATION'
-f1_keywords:
-- dbghelp/IMAGE_DEBUG_INFORMATION
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- DbgHelp.h
-api_name:
-- IMAGE_DEBUG_INFORMATION
 targetos: Windows
 req.typenames: IMAGE_DEBUG_INFORMATION, *PIMAGE_DEBUG_INFORMATION
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - _IMAGE_DEBUG_INFORMATION
+ - dbghelp/_IMAGE_DEBUG_INFORMATION
+ - PIMAGE_DEBUG_INFORMATION
+ - dbghelp/PIMAGE_DEBUG_INFORMATION
+ - IMAGE_DEBUG_INFORMATION
+ - dbghelp/IMAGE_DEBUG_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - DbgHelp.h
+api_name:
+ - IMAGE_DEBUG_INFORMATION
 ---
 
 # IMAGE_DEBUG_INFORMATION structure
@@ -48,22 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains debugging information.
 <div class="alert"><b>Note</b>  This structure is used by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a> functions, which are 
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a> and 
+    <a href="/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a> functions, which are 
     provided only for backward compatibility.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field List
 
 A linked list of <b>LIST_ENTRY</b> structures.
-
 
 ### -field ReservedSize
 
@@ -71,11 +72,9 @@ The size of the memory allocated for the
       <b>IMAGE_DEBUG_INFORMATION</b> structure and all 
       debugging information, in bytes.
 
-
 ### -field ReservedMappedBase
 
 The base address of the image.
-
 
 ### -field ReservedMachine
 
@@ -120,8 +119,6 @@ x64 (AMD64 or EM64T)
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ReservedCharacteristics
 
@@ -298,146 +295,116 @@ Bytes of the word are reversed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ReservedCheckSum
 
 The checksum of the image.
 
-
 ### -field ImageBase
 
 The requested base address of the image.
-
 
 ### -field SizeOfImage
 
 The size of the image, in bytes.
 
-
 ### -field ReservedNumberOfSections
 
 The number of COFF section headers.
 
-
 ### -field ReservedSections
 
 A pointer to the first COFF section header. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>.
-
+      <a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>.
 
 ### -field ReservedExportedNamesSize
 
 The size of the <b>ExportedNames</b> member, in bytes.
 
-
 ### -field ReservedExportedNames
 
 A pointer to a series of null-terminated strings that name all the functions exported from the image.
-
 
 ### -field ReservedNumberOfFunctionTableEntries
 
 The number of entries contained in the <b>FunctionTableEntries</b> member.
 
-
 ### -field ReservedFunctionTableEntries
 
 A pointer to the first function table entry. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>.
-
+      <a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>.
 
 ### -field ReservedLowestFunctionStartingAddress
 
 The lowest function table starting address.
 
-
 ### -field ReservedHighestFunctionEndingAddress
 
 The highest function table ending address.
-
 
 ### -field ReservedNumberOfFpoTableEntries
 
 The number of entries contained in the <b>FpoTableEntries</b> member.
 
-
 ### -field ReservedFpoTableEntries
 
 A pointer to the first FPO entry. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>.
-
+      <a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>.
 
 ### -field SizeOfCoffSymbols
 
 The size of the COFF symbol table, in bytes.
 
-
 ### -field CoffSymbols
 
 A pointer to the COFF symbol table.
-
 
 ### -field ReservedSizeOfCodeViewSymbols
 
 The size of the CodeView symbol table, in bytes.
 
-
 ### -field ReservedCodeViewSymbols
 
 A pointer to the beginning of the CodeView symbol table.
-
 
 ### -field ImageFilePath
 
 The relative path to the image file name.
 
-
 ### -field ImageFileName
 
 The image file name.
-
 
 ### -field ReservedDebugFilePath
 
 The full path to the symbol file.
 
-
 ### -field ReservedTimeDateStamp
 
 The timestamp of the image. This represents the date and time the image was created by the linker.
-
 
 ### -field ReservedRomImage
 
 This value is <b>TRUE</b> if the image is a ROM image.
 
-
 ### -field ReservedDebugDirectory
 
 A pointer to the first debug directory. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>.
-
+      <a href="/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>.
 
 ### -field ReservedNumberOfDebugDirectories
 
 The number of entries contained in the <b>DebugDirectory</b> member.
 
-
 ### -field ReservedOriginalFunctionTableBaseAddress
 
 The original function table base address.
-
 
 ### -field Reserved
 
 This member is reserved for use by the operating system.
 
-
 ## -remarks
-
-
 
 The <b>LIST_ENTRY</b> structure is defined as follows:
 
@@ -449,41 +416,30 @@ typedef struct _LIST_ENTRY {
 } LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_coff_symbols_header">IMAGE_COFF_SYMBOLS_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_coff_symbols_header">IMAGE_COFF_SYMBOLS_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_debug_directory">IMAGE_DEBUG_DIRECTORY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-mapdebuginformation">MapDebugInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-unmapdebuginformation">UnmapDebugInformation</a>

@@ -2,15 +2,12 @@
 UID: NF:webservices.WsOpenServiceProxy
 title: WsOpenServiceProxy function (webservices.h)
 description: Opens a Service Proxy to a Service endpoint.
+helpviewer_keywords: ["WsOpenServiceProxy","WsOpenServiceProxy function [Web Services for Windows]","webservices/WsOpenServiceProxy","wsw.wsopenserviceproxy"]
 old-location: wsw\wsopenserviceproxy.htm
 tech.root: wsw
 ms.assetid: b8a0afc7-2004-419d-8ab2-ce197c7e396d
 ms.date: 12/05/2018
 ms.keywords: WsOpenServiceProxy, WsOpenServiceProxy function [Web Services for Windows], webservices/WsOpenServiceProxy, wsw.wsopenserviceproxy
-f1_keywords:
-- webservices/WsOpenServiceProxy
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsOpenServiceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsOpenServiceProxy
+ - webservices/WsOpenServiceProxy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsOpenServiceProxy
 ---
 
 # WsOpenServiceProxy function
@@ -48,45 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens a Service Proxy to a Service endpoint.
             
 
 On success client applications can make calls using the Service Proxy. 
-            The behavior of WsOpenServiceProxy is governed by the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">channel binding</a> used. 
-
+            The behavior of WsOpenServiceProxy is governed by the  <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">channel binding</a> used.
 
 ## -parameters
 
-
-
-
 ### -param serviceProxy [in]
 
-A pointer to the <b>Service Proxy</b> to open.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> object
+A pointer to the <b>Service Proxy</b> to open.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-service-proxy">WS_SERVICE_PROXY</a> object
                     and the referenced value may not be <b>NULL</b>.
-                
-
 
 ### -param address [in]
 
 A pointer to the address of the endpoint.
 
-
 ### -param asyncContext [in, optional]
 
 A pointer  to A WS_ASYNC_CONTEXT object that has information about how to invoke the function asynchronously.  The value is set to <b>NULL</b> if invoking synchronously.
 
-
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
-                
-
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -420,7 +409,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-

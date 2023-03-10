@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxBundleReader.GetFootprintFile
 title: IAppxBundleReader::GetFootprintFile (appxpackaging.h)
 description: Retrieves the specified type of footprint file from the bundle.
+helpviewer_keywords: ["GetFootprintFile","GetFootprintFile method [App packaging and management]","GetFootprintFile method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetFootprintFile method","IAppxBundleReader.GetFootprintFile","IAppxBundleReader::GetFootprintFile","appxpackaging/IAppxBundleReader::GetFootprintFile","appxpkg.iappxbundlereader_getfootprintfile"]
 old-location: appxpkg\iappxbundlereader_getfootprintfile.htm
 tech.root: appxpkg
 ms.assetid: BD60CD3E-2C08-4B97-B311-00C0EEBEF752
 ms.date: 12/05/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetFootprintFile method, IAppxBundleReader.GetFootprintFile, IAppxBundleReader::GetFootprintFile, appxpackaging/IAppxBundleReader::GetFootprintFile, appxpkg.iappxbundlereader_getfootprintfile
-f1_keywords:
-- appxpackaging/IAppxBundleReader.GetFootprintFile
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleReader.GetFootprintFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleReader::GetFootprintFile
+ - appxpackaging/IAppxBundleReader::GetFootprintFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleReader.GetFootprintFile
 ---
 
 # IAppxBundleReader::GetFootprintFile
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified type of footprint file from the bundle.
-
 
 ## -parameters
 
-
-
-
 ### -param fileType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a></b>
 
 The type of footprint file to be retrieved.
 
-
 ### -param footprintFile [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>**</b>
 
 The file object that corresponds to the footprint file of <i>fileType</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -91,7 +84,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 </dl>
 </td>
 <td width="60%">
-The <i>fileType</i> parameter is not a valid value in the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a> enumeration.
+The <i>fileType</i> parameter is not a valid value in the <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE</a> enumeration.
 
 </td>
 </tr>
@@ -105,23 +98,12 @@ The <i>fileType</i> parameter is not a valid value in the <a href="https://docs.
 The bundle doesn't contain a footprint file of the specified type.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile">GetFootprintFile</a> can return this error for the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getfootprintfile">GetFootprintFile</a> can return this error for the <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_bundle_footprint_file_type">APPX_BUNDLE_FOOTPRINT_FILE_TYPE_SIGNATURE</a> type.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>

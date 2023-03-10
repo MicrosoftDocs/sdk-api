@@ -1,16 +1,13 @@
 ---
 UID: NS:wincred._CREDENTIALA
 title: CREDENTIALA (wincred.h)
-description: The CREDENTIAL structure contains an individual credential.
+description: The CREDENTIAL structure contains an individual credential. (ANSI)
+helpviewer_keywords: ["*PCREDENTIALA","CREDENTIAL","CREDENTIAL structure [Security]","CREDENTIALA","CREDENTIALW","CRED_FLAGS_PROMPT_NOW","CRED_FLAGS_USERNAME_TARGET","CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_SESSION","CRED_TYPE_DOMAIN_CERTIFICATE","CRED_TYPE_DOMAIN_EXTENDED","CRED_TYPE_DOMAIN_PASSWORD","CRED_TYPE_DOMAIN_VISIBLE_PASSWORD","CRED_TYPE_GENERIC","CRED_TYPE_GENERIC_CERTIFICATE","CRED_TYPE_MAXIMUM","CRED_TYPE_MAXIMUM_EX","PCREDENTIAL","PCREDENTIAL structure pointer [Security]","_cred_credential","security.credential","wincred/CREDENTIAL","wincred/CREDENTIALA","wincred/CREDENTIALW","wincred/PCREDENTIAL"]
 old-location: security\credential.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
 ms.date: 12/05/2018
 ms.keywords: '*PCREDENTIALA, CREDENTIAL, CREDENTIAL structure [Security], CREDENTIALA, CREDENTIALW, CRED_FLAGS_PROMPT_NOW, CRED_FLAGS_USERNAME_TARGET, CRED_PERSIST_ENTERPRISE, CRED_PERSIST_LOCAL_MACHINE, CRED_PERSIST_SESSION, CRED_TYPE_DOMAIN_CERTIFICATE, CRED_TYPE_DOMAIN_EXTENDED, CRED_TYPE_DOMAIN_PASSWORD, CRED_TYPE_DOMAIN_VISIBLE_PASSWORD, CRED_TYPE_GENERIC, CRED_TYPE_GENERIC_CERTIFICATE, CRED_TYPE_MAXIMUM, CRED_TYPE_MAXIMUM_EX, PCREDENTIAL, PCREDENTIAL structure pointer [Security], _cred_credential, security.credential, wincred/CREDENTIAL, wincred/CREDENTIALA, wincred/CREDENTIALW, wincred/PCREDENTIAL'
-f1_keywords:
-- wincred/CREDENTIAL
-dev_langs:
-- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinCred.h
-api_name:
-- CREDENTIAL
-- CREDENTIALA
-- CREDENTIALW
 targetos: Windows
 req.typenames: CREDENTIALA, *PCREDENTIALA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CREDENTIALA
+ - wincred/_CREDENTIALA
+ - PCREDENTIALA
+ - wincred/PCREDENTIALA
+ - CREDENTIALA
+ - wincred/CREDENTIALA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinCred.h
+api_name:
+ - CREDENTIAL
+ - CREDENTIALA
+ - CREDENTIALW
 ---
 
 # CREDENTIALA structure
@@ -50,17 +56,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CREDENTIAL</b> structure contains an individual credential.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Flags
-
 
 A bit member that identifies characteristics of the credential. Undefined bits should be initialized as zero and not otherwise altered to permit future enhancement.
 
@@ -93,18 +93,15 @@ If <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b> or <b>CRED_TYPE_DOMAIN_CERTIF
 </dl>
 </td>
 <td width="60%">
-Bit is set if this credential has a <b>TargetName</b> member set to the same value as the <b>UserName</b> member. Such a credential is one designed to store the <b>CredentialBlob</b> for a specific user. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> function.
+Bit is set if this credential has a <b>TargetName</b> member set to the same value as the <b>UserName</b> member. Such a credential is one designed to store the <b>CredentialBlob</b> for a specific user. For more information, see the <a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> function.
 
 This bit can only be specified if <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b> or <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Type
-
 
 The type of the credential. This member cannot be changed after the credential is created. The following values are valid.
 
@@ -216,8 +213,6 @@ The extended maximum number of supported credential types that now allow new app
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TargetName
 
@@ -234,7 +229,9 @@ If the <b>TargetName</b> is a domain name that contains a wildcard character seq
 If <b>TargetName</b> is a DNS domain name that contains a wildcard character sequence, the <b>TargetAlias</b> member can be a NetBIOS domain name that uses a wildcard sequence for the same domain.
 
 
-If <b>TargetName</b>  specifies a DFS share, for example, <i>DfsRoot</i><b>\</b><i>DfsShare</i>, then this credential matches the specific DFS share and any servers reached through that DFS share.
+
+If <b>TargetName</b>  specifies a DFS share, for example, <i>DfsRoot</i><b>\\</b><i>DfsShare</i>, then this credential matches the specific DFS share and any servers reached through that DFS share.
+
 
 If <b>TargetName</b> is a single asterisk (*), this credential matches any server name.
 
@@ -246,21 +243,17 @@ If the <b>Type</b> is CRED_TYPE_GENERIC, this member should identify the service
 
 This member is case-insensitive.
 
-
 ### -field Comment
 
 A string comment from the user that describes this credential. This member cannot be longer than <b>CRED_MAX_STRING_LENGTH</b> (256) characters.
-
 
 ### -field LastWritten
 
 The time, in Coordinated Universal Time (Greenwich Mean Time), of the last modification of the credential. For write operations, the value of this member is ignored.
 
-
 ### -field CredentialBlobSize
 
-The size, in bytes, of the <b>CredentialBlob</b> member. This member cannot be larger than <b>CRED_MAX_CREDENTIAL_BLOB_SIZE</b> (512) bytes.
-
+The size, in bytes, of the <b>CredentialBlob</b> member. This member cannot be larger than <b>CRED_MAX_CREDENTIAL_BLOB_SIZE</b> (5*512) bytes.
 
 ### -field CredentialBlob
 
@@ -274,9 +267,7 @@ If the <b>Type</b> member is <b>CRED_TYPE_GENERIC</b>, this member is defined by
 
 Credentials are expected to be portable. Applications should ensure that the data in <b>CredentialBlob</b> is portable. The application defines the byte-endian and alignment of the data in <b>CredentialBlob</b>.
 
-
 ### -field Persist
-
 
 Defines the persistence of this credential. This member can be read and written.
 
@@ -327,25 +318,20 @@ This option can be implemented as locally persisted credential if the administra
 </td>
 </tr>
 </table>
- 
-
 
 ### -field AttributeCount
 
 The number of application-defined attributes to be associated with the credential. This member can be read and written. Its value cannot be greater than <b>CRED_MAX_ATTRIBUTES</b> (64).
 
-
 ### -field Attributes
 
 Application-defined attributes that are associated with the credential. This member can be read and written.
-
 
 ### -field TargetAlias
 
 Alias for the <b>TargetName</b> member. This member can be read and written. It cannot be longer than <b>CRED_MAX_STRING_LENGTH</b> (256) characters.
 
 If the credential <b>Type</b> is <b>CRED_TYPE_GENERIC</b>, this member can be non-<b>NULL</b>, but the credential manager ignores the member.
-
 
 ### -field UserName
 
@@ -354,11 +340,15 @@ The user name of the account used to connect to <b>TargetName</b>.
 
 
 
-If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a <i>DomainName</i><b>\</b><i>UserName</i> or a UPN.
+If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_PASSWORD</b>, this member can be either a <i>DomainName</i><b></b><i>UserName</i> or a UPN.
 
-If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this member must be a marshaled certificate reference created by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with a CertCredential.
+If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this member must be a marshaled certificate reference created by calling <a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a> with a CertCredential.
 
 If the credential <b>Type</b> is <b>CRED_TYPE_GENERIC</b>, this member can be non-<b>NULL</b>, but the credential manager ignores the member.
 
 This member cannot be longer than <b>CRED_MAX_USERNAME_LENGTH</b> (513) characters.
 
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CREDENTIAL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

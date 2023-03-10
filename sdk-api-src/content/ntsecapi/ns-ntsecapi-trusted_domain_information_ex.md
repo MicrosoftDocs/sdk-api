@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._TRUSTED_DOMAIN_INFORMATION_EX
 title: TRUSTED_DOMAIN_INFORMATION_EX (ntsecapi.h)
 description: Used to retrieve extended information about a trusted domain.
+helpviewer_keywords: ["*PTRUSTED_DOMAIN_INFORMATION_EX","0x00100000 to 0xFFF00000","0x5 - 0x000FFFFF","PTRUSTED_DOMAIN_INFORMATION_EX","PTRUSTED_DOMAIN_INFORMATION_EX structure pointer [Security]","TRUSTED_DOMAIN_INFORMATION_EX","TRUSTED_DOMAIN_INFORMATION_EX structure [Security]","TRUST_ATTRIBUTE_CROSS_ORGANIZATION","TRUST_ATTRIBUTE_FILTER_SIDS","TRUST_ATTRIBUTE_FOREST_TRANSITIVE","TRUST_ATTRIBUTE_NON_TRANSITIVE","TRUST_ATTRIBUTE_TREAT_AS_EXTERNAL","TRUST_ATTRIBUTE_UPLEVEL_ONLY","TRUST_ATTRIBUTE_WITHIN_FOREST","TRUST_DIRECTION_BIDIRECTIONAL","TRUST_DIRECTION_DISABLED","TRUST_DIRECTION_INBOUND","TRUST_DIRECTION_OUTBOUND","TRUST_TYPE_DCE","TRUST_TYPE_DOWNLEVEL","TRUST_TYPE_MIT","TRUST_TYPE_UPLEVEL","_TRUSTED_DOMAIN_INFORMATION_EX","_lsa_trusted_domain_information_ex","ntsecapi/PTRUSTED_DOMAIN_INFORMATION_EX","ntsecapi/TRUSTED_DOMAIN_INFORMATION_EX","security.trusted_domain_information_ex"]
 old-location: security\trusted_domain_information_ex.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: acf9a2b5-f301-4e6a-a515-df338658ad56
 ms.date: 12/05/2018
 ms.keywords: '*PTRUSTED_DOMAIN_INFORMATION_EX, 0x00100000 to 0xFFF00000, 0x5 - 0x000FFFFF, PTRUSTED_DOMAIN_INFORMATION_EX, PTRUSTED_DOMAIN_INFORMATION_EX structure pointer [Security], TRUSTED_DOMAIN_INFORMATION_EX, TRUSTED_DOMAIN_INFORMATION_EX structure [Security], TRUST_ATTRIBUTE_CROSS_ORGANIZATION, TRUST_ATTRIBUTE_FILTER_SIDS, TRUST_ATTRIBUTE_FOREST_TRANSITIVE, TRUST_ATTRIBUTE_NON_TRANSITIVE, TRUST_ATTRIBUTE_TREAT_AS_EXTERNAL, TRUST_ATTRIBUTE_UPLEVEL_ONLY, TRUST_ATTRIBUTE_WITHIN_FOREST, TRUST_DIRECTION_BIDIRECTIONAL, TRUST_DIRECTION_DISABLED, TRUST_DIRECTION_INBOUND, TRUST_DIRECTION_OUTBOUND, TRUST_TYPE_DCE, TRUST_TYPE_DOWNLEVEL, TRUST_TYPE_MIT, TRUST_TYPE_UPLEVEL, _TRUSTED_DOMAIN_INFORMATION_EX, _lsa_trusted_domain_information_ex, ntsecapi/PTRUSTED_DOMAIN_INFORMATION_EX, ntsecapi/TRUSTED_DOMAIN_INFORMATION_EX, security.trusted_domain_information_ex'
-f1_keywords:
-- ntsecapi/TRUSTED_DOMAIN_INFORMATION_EX
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- TRUSTED_DOMAIN_INFORMATION_EX
 targetos: Windows
 req.typenames: TRUSTED_DOMAIN_INFORMATION_EX, *PTRUSTED_DOMAIN_INFORMATION_EX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TRUSTED_DOMAIN_INFORMATION_EX
+ - ntsecapi/_TRUSTED_DOMAIN_INFORMATION_EX
+ - PTRUSTED_DOMAIN_INFORMATION_EX
+ - ntsecapi/PTRUSTED_DOMAIN_INFORMATION_EX
+ - TRUSTED_DOMAIN_INFORMATION_EX
+ - ntsecapi/TRUSTED_DOMAIN_INFORMATION_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - TRUSTED_DOMAIN_INFORMATION_EX
 ---
 
 # TRUSTED_DOMAIN_INFORMATION_EX structure
@@ -48,31 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TRUSTED_DOMAIN_INFORMATION_EX</b> structure is used to retrieve extended information about a trusted domain. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a> function uses this structure when its <i>InformationClass</i> parameter is set to TrustedDomainInformationEx.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a> function uses this structure when its <i>InformationClass</i> parameter is set to TrustedDomainInformationEx.
 
 ## -struct-fields
-
-
-
 
 ### -field Name
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the trusted domain. This is the DNS domain name.  For non-Microsoft trusted domains, this is the identifying name of the domain.
-
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the trusted domain. This is the DNS domain name.  For non-Microsoft trusted domains, this is the identifying name of the domain.
 
 ### -field FlatName
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the flat name of the trusted domain. For non-Microsoft trusted domains, this is the identifying name of the domain or it is <b>NULL</b>.
-
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the flat name of the trusted domain. For non-Microsoft trusted domains, this is the identifying name of the domain or it is <b>NULL</b>.
 
 ### -field Sid
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the trusted domain. For non-Microsoft trusted domains, this member can be <b>NULL</b>.
-
+Pointer to the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the trusted domain. For non-Microsoft trusted domains, this member can be <b>NULL</b>.
 
 ### -field TrustDirection
 
@@ -124,8 +122,6 @@ Both domains trust each other.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TrustType
 
@@ -197,8 +193,6 @@ Provider-specific trust levels.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field TrustAttributes
 
@@ -280,36 +274,27 @@ Trust is treated as external for trust boundary purposes.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacreatetrusteddomainex">LsaCreateTrustedDomainEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacreatetrusteddomainex">LsaCreateTrustedDomainEx</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo">LsaQueryTrustedDomainInfo</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname">LsaQueryTrustedDomainInfoByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname">LsaQueryTrustedDomainInfoByName</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininfobyname">LsaSetTrustedDomainInfoByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsasettrusteddomaininfobyname">LsaSetTrustedDomainInfoByName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>

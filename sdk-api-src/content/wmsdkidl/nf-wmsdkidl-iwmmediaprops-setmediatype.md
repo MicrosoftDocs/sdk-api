@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMMediaProps.SetMediaType
 title: IWMMediaProps::SetMediaType (wmsdkidl.h)
 description: The SetMediaType method specifies the media type.
+helpviewer_keywords: ["IWMMediaProps interface [windows Media Format]","SetMediaType method","IWMMediaProps.SetMediaType","IWMMediaProps::SetMediaType","IWMMediaPropsSetMediaType","SetMediaType","SetMediaType method [windows Media Format]","SetMediaType method [windows Media Format]","IWMMediaProps interface","wmformat.iwmmediaprops_setmediatype","wmsdkidl/IWMMediaProps::SetMediaType"]
 old-location: wmformat\iwmmediaprops_setmediatype.htm
 tech.root: wmformat
 ms.assetid: 7a89bf24-6b76-4645-8f39-f1979029d67e
 ms.date: 12/05/2018
 ms.keywords: IWMMediaProps interface [windows Media Format],SetMediaType method, IWMMediaProps.SetMediaType, IWMMediaProps::SetMediaType, IWMMediaPropsSetMediaType, SetMediaType, SetMediaType method [windows Media Format], SetMediaType method [windows Media Format],IWMMediaProps interface, wmformat.iwmmediaprops_setmediatype, wmsdkidl/IWMMediaProps::SetMediaType
-f1_keywords:
-- wmsdkidl/IWMMediaProps.SetMediaType
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMMediaProps.SetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMediaProps::SetMediaType
+ - wmsdkidl/IWMMediaProps::SetMediaType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMMediaProps.SetMediaType
 ---
 
 # IWMMediaProps::SetMediaType
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>SetMediaType</b> method specifies the media type.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pType [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure describing the input, stream, or output.
-
+Pointer to the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type">WM_MEDIA_TYPE</a> structure describing the input, stream, or output.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -113,31 +104,15 @@ There is not enough available memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-It is possible to successfully set a media type in this method that will ultimately be rejected as invalid when the profile is set on the writer. For a list of tests that the writer performs on the profile, see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile">IWMWriter::SetProfile</a>.
-
-
-
+It is possible to successfully set a media type in this method that will ultimately be rejected as invalid when the profile is set on the writer. For a list of tests that the writer performs on the profile, see <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile">IWMWriter::SetProfile</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype">IWMMediaProps::GetMediaType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype">IWMMediaProps::GetMediaType</a>

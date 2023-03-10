@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriterPushSink.Connect
 title: IWMWriterPushSink::Connect (wmsdkidl.h)
 description: The Connect method connects to a publishing point on a Windows Media server.
+helpviewer_keywords: ["Connect","Connect method [windows Media Format]","Connect method [windows Media Format]","IWMWriterPushSink interface","IWMWriterPushSink interface [windows Media Format]","Connect method","IWMWriterPushSink.Connect","IWMWriterPushSink::Connect","IWMWriterPushSinkConnect","wmformat.iwmwriterpushsink_connect","wmsdkidl/IWMWriterPushSink::Connect"]
 old-location: wmformat\iwmwriterpushsink_connect.htm
 tech.root: wmformat
 ms.assetid: 5934697e-5d7c-4681-a424-9ad764dfeab1
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [windows Media Format], Connect method [windows Media Format],IWMWriterPushSink interface, IWMWriterPushSink interface [windows Media Format],Connect method, IWMWriterPushSink.Connect, IWMWriterPushSink::Connect, IWMWriterPushSinkConnect, wmformat.iwmwriterpushsink_connect, wmsdkidl/IWMWriterPushSink::Connect
-f1_keywords:
-- wmsdkidl/IWMWriterPushSink.Connect
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriterPushSink.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriterPushSink::Connect
+ - wmsdkidl/IWMWriterPushSink::Connect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriterPushSink.Connect
 ---
 
 # IWMWriterPushSink::Connect
@@ -51,36 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>Connect</b> method connects to a publishing point on a Windows Media server.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszURL [in]
 
 Wide-character string that contains the URL of the publishing point on the Windows Media server. For example, if the URL is "http://MyServer/MyPublishingPoint", the push sink connects to the publishing point named MyPublishingPoint on the server named MyServer. The default port number is 80. If the server is using a different port, specify the port number in the URL. For example, "http://MyServer:8080/MyPublishingPoint" specifies port number 8080.
 
-
 ### -param pwszTemplateURL [in]
 
 Optional wide-character string that contains the URL of an existing publishing point to use as a template. This parameter can be <b>NULL</b>.
-
 
 ### -param fAutoDestroy [in]
 
 Boolean value that specifies whether to remove the publishing point after the push sink disconnects from the server.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -145,27 +134,11 @@ Host name is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the publishing point specified in <i>pwsURL</i> does not exist, the server creates a new publishing point. The caller must have write and create permissions on the server. The new publishing point has the same configuration as the publishing point specified in the <i>pwszTemplateURL</i> parameter. If <i>pwszTemplateURL</i> is <b>NULL</b>, the new publishing point has the same configuration as the server's default publishing point.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink Interface</a>

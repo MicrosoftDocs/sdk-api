@@ -2,15 +2,12 @@
 UID: NF:certadm.IOCSPAdmin.GetMyRoles
 title: IOCSPAdmin::GetMyRoles (certadm.h)
 description: Gets the access mask of privilege roles for a user on a given Online Certificate Status Protocol (OCSP) responder server.
+helpviewer_keywords: ["GetMyRoles","GetMyRoles method [Security]","GetMyRoles method [Security]","IOCSPAdmin interface","IOCSPAdmin interface [Security]","GetMyRoles method","IOCSPAdmin.GetMyRoles","IOCSPAdmin::GetMyRoles","certadm/IOCSPAdmin::GetMyRoles","security.iocspadmin_getmyroles_method"]
 old-location: security\iocspadmin_getmyroles_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b5a35e95-ec40-4154-8db9-fe5cd41960cb
 ms.date: 12/05/2018
 ms.keywords: GetMyRoles, GetMyRoles method [Security], GetMyRoles method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetMyRoles method, IOCSPAdmin.GetMyRoles, IOCSPAdmin::GetMyRoles, certadm/IOCSPAdmin::GetMyRoles, security.iocspadmin_getmyroles_method
-f1_keywords:
-- certadm/IOCSPAdmin.GetMyRoles
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPAdmin.GetMyRoles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPAdmin::GetMyRoles
+ - certadm/IOCSPAdmin::GetMyRoles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPAdmin.GetMyRoles
 ---
 
 # IOCSPAdmin::GetMyRoles
@@ -48,42 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetMyRoles</b> method gets the access mask of privilege roles for a user on a given Online Certificate Status Protocol (OCSP) responder server.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrServerName [in]
 
 A string that contains the responder-server name.
 
-
 ### -param pRoles [out]
 
 A pointer to the 32-bit access mask.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The 32-bit access mask.
 
-
-
 ## -remarks
-
-
 
 The OCSP responder server defines the following masks for access privilege roles.
 
@@ -160,15 +149,6 @@ Examples of privileges a user might have, depending on the  mask:
 <li>Configure a  response format.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>

@@ -2,15 +2,12 @@
 UID: NF:evalcom2.IValidate.OpenCUB
 title: IValidate::OpenCUB (evalcom2.h)
 description: The OpenCUB method opens an Internal Consistency Evaluator (ICE) file that is to be used for validation.
+helpviewer_keywords: ["IValidate interface","OpenCUB method","IValidate.OpenCUB","IValidate::OpenCUB","OpenCUB","OpenCUB method","OpenCUB method","IValidate interface","evalcom2/IValidate::OpenCUB","setup.ivalidate_opencub"]
 old-location: setup\ivalidate_opencub.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: cadf3c6e-6fbb-4d46-b9a8-4f2508f1e8bc
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,OpenCUB method, IValidate.OpenCUB, IValidate::OpenCUB, OpenCUB, OpenCUB method, OpenCUB method,IValidate interface, evalcom2/IValidate::OpenCUB, setup.ivalidate_opencub
-f1_keywords:
-- evalcom2/IValidate.OpenCUB
-dev_langs:
-- c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Evalcom2.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Evalcom2.dll
-api_name:
-- IValidate.OpenCUB
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IValidate::OpenCUB
+ - evalcom2/IValidate::OpenCUB
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Evalcom2.dll
+api_name:
+ - IValidate.OpenCUB
 ---
 
 # IValidate::OpenCUB
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OpenCUB</b> method opens an  <a href="https://docs.microsoft.com/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> file that is to be used for validation.  
-
+The <b>OpenCUB</b> method opens an  <a href="/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> file that is to be used for validation.
 
 ## -parameters
 
-
-
-
 ### -param szCUBFile [in]
 
-The fully qualified path to the <a href="https://docs.microsoft.com/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> file to be used for validation.
-
+The fully qualified path to the <a href="/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> file to be used for validation.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,35 +112,19 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> file typically has a .cub file name extension.
-
-
-
+The <a href="/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluator (ICE)</a> file typically has a .cub file name extension.
 
 ## -see-also
 
+<a href="/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
+<a href="/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>

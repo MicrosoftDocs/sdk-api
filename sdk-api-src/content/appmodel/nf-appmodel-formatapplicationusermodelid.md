@@ -2,15 +2,12 @@
 UID: NF:appmodel.FormatApplicationUserModelId
 title: FormatApplicationUserModelId function (appmodel.h)
 description: Constructs an application user model ID from the package family name and the package relative application ID (PRAID).
+helpviewer_keywords: ["FormatApplicationUserModelId","FormatApplicationUserModelId function [App packaging and management]","appmodel/FormatApplicationUserModelId","appxpkg.formatapplicationusermodelid"]
 old-location: appxpkg\formatapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: F48D19C2-6373-41FC-A99D-E3CCB68D6C6C
 ms.date: 12/05/2018
 ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function [App packaging and management], appmodel/FormatApplicationUserModelId, appxpkg.formatapplicationusermodelid
-f1_keywords:
-- appmodel/FormatApplicationUserModelId
-dev_langs:
-- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-AppModel-RunTime-l1-1-1.dll
-- Kernel.AppCore.dll
-- Ext-MS-Win-Kernel32-package-l1-1-2.dll
-- ext-ms-win-kernel32-package-l1-1-1.dll
-- API-MS-Win-AppModel-Runtime-L1-1-2.dll
-api_name:
-- FormatApplicationUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FormatApplicationUserModelId
+ - appmodel/FormatApplicationUserModelId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-AppModel-RunTime-l1-1-1.dll
+ - Kernel.AppCore.dll
+ - Ext-MS-Win-Kernel32-package-l1-1-2.dll
+ - ext-ms-win-kernel32-package-l1-1-1.dll
+ - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+api_name:
+ - FormatApplicationUserModelId
 ---
 
 # FormatApplicationUserModelId function
@@ -53,14 +55,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Constructs an <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> from the <i>package family name</i> and the <i>package relative application ID</i> (PRAID). 
-
+Constructs an <a href="/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> from the <i>package family name</i> and the <i>package relative application ID</i> (PRAID).
 
 ## -parameters
-
-
-
 
 ### -param packageFamilyName [in]
 
@@ -68,13 +65,11 @@ Type: <b>PCWSTR</b>
 
 The package family name.
 
-
 ### -param packageRelativeApplicationId [in]
 
 Type: <b>PCWSTR</b>
 
 The package-relative app ID (PRAID).
-
 
 ### -param applicationUserModelIdLength [in, out]
 
@@ -84,17 +79,13 @@ A pointer to a variable that holds the number of characters (<b>WCHAR</b>s) in t
 
 First you pass <b>NULL</b> to <i>applicationUserModelId</i> to get the number of characters. You use this number to allocate memory space for <i>applicationUserModelId</i>. Then you pass the address of this memory space to fill <i>applicationUserModelId</i>.
 
-
 ### -param applicationUserModelId [out, optional]
 
 Type: <b>PWSTR</b>
 
 A pointer to memory space that receives  the app user model ID string, which includes the null-terminator.
 
-
 ## -returns
-
-
 
 Type: <b>LONG</b>
 
@@ -128,7 +119,3 @@ The buffer specified by <i>applicationUserModelId</i> is not large enough to hol
 </td>
 </tr>
 </table>
- 
-
-
-

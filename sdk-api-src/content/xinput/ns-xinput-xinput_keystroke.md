@@ -2,15 +2,12 @@
 UID: NS:xinput._XINPUT_KEYSTROKE
 title: XINPUT_KEYSTROKE (xinput.h)
 description: Specifies keystroke data returned by XInputGetKeystroke.
+helpviewer_keywords: ["*PXINPUT_KEYSTROKE","PXINPUT_KEYSTROKE","PXINPUT_KEYSTROKE structure pointer [XInput Game Controller APIs]","XINPUT_KEYSTROKE","XINPUT_KEYSTROKE structure [XInput Game Controller APIs]","xinput.xinput_keystroke","xinput/PXINPUT_KEYSTROKE","xinput/XINPUT_KEYSTROKE"]
 old-location: xinput\xinput_keystroke.htm
 tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_KEYSTROKE
 ms.date: 12/05/2018
 ms.keywords: '*PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE, PXINPUT_KEYSTROKE structure pointer [XInput Game Controller APIs], XINPUT_KEYSTROKE, XINPUT_KEYSTROKE structure [XInput Game Controller APIs], xinput.xinput_keystroke, xinput/PXINPUT_KEYSTROKE, xinput/XINPUT_KEYSTROKE'
-f1_keywords:
-- xinput/XINPUT_KEYSTROKE
-dev_langs:
-- c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- XInput.h
-api_name:
-- XINPUT_KEYSTROKE
 targetos: Windows
 req.typenames: XINPUT_KEYSTROKE, *PXINPUT_KEYSTROKE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _XINPUT_KEYSTROKE
+ - xinput/_XINPUT_KEYSTROKE
+ - PXINPUT_KEYSTROKE
+ - xinput/PXINPUT_KEYSTROKE
+ - XINPUT_KEYSTROKE
+ - xinput/XINPUT_KEYSTROKE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - XInput.h
+api_name:
+ - XINPUT_KEYSTROKE
 ---
 
 # XINPUT_KEYSTROKE structure
@@ -48,24 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies keystroke data returned by <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>.
-
+Specifies keystroke data returned by <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field VirtualKey
 
 Virtual-key code of the key, button, or stick movement. See XInput.h for a list of valid virtual-key (VK_xxx) codes. Also, see Remarks.
 
-
 ### -field Unicode
 
 This member is unused and the value is zero.
-
 
 ### -field Flags
 
@@ -89,22 +88,16 @@ Flags that indicate the keyboard state at the time of the input event. This memb
 <td>A repeat of a held key. </td>
 </tr>
 </table>
- 
-
 
 ### -field UserIndex
 
 Index of the signed-in gamer associated with the device. Can be a value in the range 0–3.
 
-
 ### -field HidCode
 
 HID code corresponding to the input. If there is no corresponding HID code, this value is zero.
 
-
 ## -remarks
-
-
 
 Future devices may return HID codes and virtual key values that are not supported on current devices, and are currently undefined. Applications should ignore these unexpected values.
 
@@ -260,18 +253,7 @@ The valid virtual-key (VK_xxx) codes are defined in XInput.h. In addition to cod
 <td>Right thumbstick down and left </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>

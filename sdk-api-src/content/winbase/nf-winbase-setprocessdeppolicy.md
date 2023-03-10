@@ -2,15 +2,12 @@
 UID: NF:winbase.SetProcessDEPPolicy
 title: SetProcessDEPPolicy function (winbase.h)
 description: Changes data execution prevention (DEP) and DEP-ATL thunk emulation settings for a 32-bit process.
+helpviewer_keywords: ["PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION","PROCESS_DEP_ENABLE","SetProcessDEPPolicy","SetProcessDEPPolicy function","base.setprocessdeppolicy","winbase/SetProcessDEPPolicy"]
 old-location: base\setprocessdeppolicy.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 17c9f522-fd64-4061-9212-8fc91cc96b18
 ms.date: 12/05/2018
 ms.keywords: PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION, PROCESS_DEP_ENABLE, SetProcessDEPPolicy, SetProcessDEPPolicy function, base.setprocessdeppolicy, winbase/SetProcessDEPPolicy
-f1_keywords:
-- winbase/SetProcessDEPPolicy
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-api_name:
-- SetProcessDEPPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessDEPPolicy
+ - winbase/SetProcessDEPPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+api_name:
+ - SetProcessDEPPolicy
 ---
 
 # SetProcessDEPPolicy function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes data execution prevention (DEP) and DEP-ATL thunk emulation settings for a 32-bit process.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -101,36 +98,27 @@ Disables DEP-ATL thunk emulation for the current process, which prevents the sys
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 If the function succeeds, it returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function,  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns <b>FALSE</b>. To retrieve error values defined for this function,  call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 The <b>SetProcessDEPPolicy</b>  function overrides the system DEP policy for the current process unless its DEP policy was specified at process creation. The system DEP policy setting must be OptIn or OptOut. If the system DEP policy is AlwaysOff or AlwaysOn, <b>SetProcessDEPPolicy</b> returns an error. After DEP is enabled for a process, subsequent calls to <b>SetProcessDEPPolicy</b> are ignored. 
 
-DEP policy specified at process creation with the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY</a> attribute cannot be changed for the life of the process. In this case, calls to <b>SetProcessDEPPolicy</b> fail with <b>ERROR_ACCESS_DENIED</b>.
+DEP policy specified at process creation with the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY</a> attribute cannot be changed for the life of the process. In this case, calls to <b>SetProcessDEPPolicy</b> fail with <b>ERROR_ACCESS_DENIED</b>.
 
 <b>SetProcessDEPPolicy</b> is supported for 32-bit processes only. If this function is called on a 64-bit process, it fails with <b>ERROR_NOT_SUPPORTED</b>.
 
-Applications written to ATL 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application. DEP-ATL thunk emulation allows an application that would otherwise trigger an NX fault to run with DEP enabled. For information about ATL versions, see <a href="https://go.microsoft.com/fwlink/p/?linkid=95266">ATL and MFC Version Numbers</a>.
+Applications written to ATL 7.1 and earlier can attempt to execute code on pages marked as non-executable, which triggers an NX fault and terminates the application. DEP-ATL thunk emulation allows an application that would otherwise trigger an NX fault to run with DEP enabled. For information about ATL versions, see <a href="/previous-versions/visualstudio/visual-studio-2008/3z02ch3k(v=vs.90)">ATL and MFC Version Numbers</a>.
 
 If DEP-ATL thunk emulation is enabled, the system intercepts NX faults, emulates the instructions, and handles the exceptions so the application can continue to run. If DEP-ATL thunk emulation is disabled by setting <b>PROCESS_DEP_DISABLE_ATL_THUNK_EMULATION</b> for the process, NX faults are not intercepted, which is useful when testing applications for compatibility with DEP.
 
 The following table summarizes the interactions between system DEP policy, DEP-ATL thunk emulation, and  <b>SetProcessDEPPolicy</b>.
-To get the system DEP policy setting, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a> function.
+To get the system DEP policy setting, use the <a href="/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a> function.
 
 <table>
 <tr>
@@ -230,26 +218,16 @@ If DEP is disabled for the current process, DEP-ATL thunk emulation is automatic
 </table>
  
 
-To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
-
-
+To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessdeppolicy">GetProcessDEPPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessdeppolicy">GetProcessDEPPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a>

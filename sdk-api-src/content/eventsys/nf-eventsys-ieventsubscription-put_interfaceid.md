@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_InterfaceID
 title: IEventSubscription::put_InterfaceID (eventsys.h)
-description: The identifier for a particular interface for which the subscriber wants to receive events.
+description: The identifier for a particular interface for which the subscriber wants to receive events. (Put)
+helpviewer_keywords: ["IEventSubscription interface [COM+]","InterfaceID property","IEventSubscription.InterfaceID","IEventSubscription.put_InterfaceID","IEventSubscription::InterfaceID","IEventSubscription::get_InterfaceID","IEventSubscription::put_InterfaceID","InterfaceID property [COM+]","InterfaceID property [COM+]","IEventSubscription interface","cos.ieventsubscription_interfaceid","eventsys/IEventSubscription::InterfaceID","eventsys/IEventSubscription::get_InterfaceID","eventsys/IEventSubscription::put_InterfaceID","put_InterfaceID"]
 old-location: cos\ieventsubscription_interfaceid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 13e88201-98c3-476e-bc75-34aed0b9ce9e
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],InterfaceID property, IEventSubscription.InterfaceID, IEventSubscription.put_InterfaceID, IEventSubscription::InterfaceID, IEventSubscription::get_InterfaceID, IEventSubscription::put_InterfaceID, InterfaceID property [COM+], InterfaceID property [COM+],IEventSubscription interface, cos.ieventsubscription_interfaceid, eventsys/IEventSubscription::InterfaceID, eventsys/IEventSubscription::get_InterfaceID, eventsys/IEventSubscription::put_InterfaceID, put_InterfaceID
-f1_keywords:
-- eventsys/IEventSubscription.InterfaceID
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSubscription.InterfaceID
-- IEventSubscription.get_InterfaceID
-- IEventSubscription.put_InterfaceID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSubscription::put_InterfaceID
+ - eventsys/IEventSubscription::put_InterfaceID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSubscription.InterfaceID
+ - IEventSubscription.get_InterfaceID
+ - IEventSubscription.put_InterfaceID
 ---
 
 # IEventSubscription::put_InterfaceID
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The identifier for a particular interface for which the subscriber wants to receive events.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>

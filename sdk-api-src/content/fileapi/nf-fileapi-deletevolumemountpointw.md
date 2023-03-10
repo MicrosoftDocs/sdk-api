@@ -1,16 +1,13 @@
 ---
 UID: NF:fileapi.DeleteVolumeMountPointW
 title: DeleteVolumeMountPointW function (fileapi.h)
-description: Deletes a drive letter or mounted folder.
+description: Deletes a drive letter or mounted folder. (DeleteVolumeMountPointW)
+helpviewer_keywords: ["DeleteVolumeMountPoint","DeleteVolumeMountPoint function [Files]","DeleteVolumeMountPointA","DeleteVolumeMountPointW","_win32_deletevolumemountpoint","base.deletevolumemountpoint","fileapi/DeleteVolumeMountPoint","fileapi/DeleteVolumeMountPointA","fileapi/DeleteVolumeMountPointW","fs.deletevolumemountpoint","winbase/DeleteVolumeMountPoint","winbase/DeleteVolumeMountPointA","winbase/DeleteVolumeMountPointW"]
 old-location: fs\deletevolumemountpoint.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: b1a0a273-fa7f-4794-8b50-c74f00b0228d
 ms.date: 12/05/2018
 ms.keywords: DeleteVolumeMountPoint, DeleteVolumeMountPoint function [Files], DeleteVolumeMountPointA, DeleteVolumeMountPointW, _win32_deletevolumemountpoint, base.deletevolumemountpoint, fileapi/DeleteVolumeMountPoint, fileapi/DeleteVolumeMountPointA, fileapi/DeleteVolumeMountPointW, fs.deletevolumemountpoint, winbase/DeleteVolumeMountPoint, winbase/DeleteVolumeMountPointA, winbase/DeleteVolumeMountPointW
-f1_keywords:
-- fileapi/DeleteVolumeMountPoint
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- DeleteVolumeMountPoint
-- DeleteVolumeMountPointA
-- DeleteVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteVolumeMountPointW
+ - fileapi/DeleteVolumeMountPointW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - DeleteVolumeMountPoint
+ - DeleteVolumeMountPointA
+ - DeleteVolumeMountPointW
 ---
 
 # DeleteVolumeMountPointW function
@@ -59,36 +61,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes a drive letter or mounted folder.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszVolumeMountPoint [in]
 
 The drive letter or mounted folder to be deleted. A trailing backslash is required, for example, 
       "X:\" or "Y:\MountX\".
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Deleting a mounted folder does not cause the underlying directory to be deleted.
 
@@ -162,35 +151,26 @@ SMB does not support volume management functions. For CsvFs, a new mount point w
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/unmounting-a-volume-at-a-mount-point">Unmounting a Volume at a Mount Point</a>.
+     <a href="/windows/desktop/FileIO/unmounting-a-volume-at-a-mount-point">Unmounting a Volume at a Mount Point</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

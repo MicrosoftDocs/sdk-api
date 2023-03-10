@@ -2,15 +2,12 @@
 UID: NF:winuser.SetProcessDefaultLayout
 title: SetProcessDefaultLayout function (winuser.h)
 description: Changes the default layout when windows are created with no parent or owner only for the currently running process.
+helpviewer_keywords: ["LAYOUT_RTL","SetProcessDefaultLayout","SetProcessDefaultLayout function [Windows and Messages]","_win32_SetProcessDefaultLayout","_win32_setprocessdefaultlayout_cpp","winmsg.setprocessdefaultlayout","winui._win32_setprocessdefaultlayout","winuser/SetProcessDefaultLayout"]
 old-location: winmsg\setprocessdefaultlayout.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setprocessdefaultlayout.htm
 ms.date: 12/05/2018
 ms.keywords: LAYOUT_RTL, SetProcessDefaultLayout, SetProcessDefaultLayout function [Windows and Messages], _win32_SetProcessDefaultLayout, _win32_setprocessdefaultlayout_cpp, winmsg.setprocessdefaultlayout, winui._win32_setprocessdefaultlayout, winuser/SetProcessDefaultLayout
-f1_keywords:
-- winuser/SetProcessDefaultLayout
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- SetProcessDefaultLayout
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetProcessDefaultLayout
+ - winuser/SetProcessDefaultLayout
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - SetProcessDefaultLayout
+req.apiset: ext-ms-win-ntuser-window-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetProcessDefaultLayout function
@@ -53,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the default layout when windows are created with no parent or owner only for the currently running process.
 
-
 ## -parameters
-
-
-
 
 ### -param dwDefaultLayout [in]
 
@@ -85,26 +83,16 @@ Sets the default horizontal layout to be right to left.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The layout specifies how text and graphics are laid out; the default is left to right. The <b>SetProcessDefaultLayout</b> function changes layout to be right to left, which is the standard in Arabic and Hebrew cultures. 
 
@@ -146,21 +134,15 @@ After the <b>LAYOUT_RTL</b> flag is selected, flags normally specifying right or
 </table>
  
 
-If using this function with a mirrored window, note that the <b>SetProcessDefaultLayout</b> function does not mirror the whole process and all the device contexts (DCs) created in it. It mirrors only the mirrored window's DCs. To mirror any DC, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> function.
-
-
-
+If using this function with a mirrored window, note that the <b>SetProcessDefaultLayout</b> function does not mirror the whole process and all the device contexts (DCs) created in it. It mirrors only the mirrored window's DCs. To mirror any DC, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a> function.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getprocessdefaultlayout">GetProcessDefaultLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getprocessdefaultlayout">GetProcessDefaultLayout</a>
 
 
 
@@ -172,12 +154,8 @@ If using this function with a mirrored window, note that the <b>SetProcessDefaul
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setlayout">SetLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

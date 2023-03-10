@@ -1,16 +1,13 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetClockVector
 title: IChangeUnitException::GetClockVector (winsync.h)
-description: Gets the clock vector that is associated with this exception.
+description: Gets the clock vector that is associated with this exception. (IChangeUnitException.GetClockVector)
+helpviewer_keywords: ["GetClockVector","GetClockVector method [Windows Sync]","GetClockVector method [Windows Sync]","IChangeUnitException interface","IChangeUnitException interface [Windows Sync]","GetClockVector method","IChangeUnitException.GetClockVector","IChangeUnitException::GetClockVector","winsync.ichangeunitexception_getclockvector","winsync/IChangeUnitException::GetClockVector"]
 old-location: winsync\ichangeunitexception_getclockvector.htm
 tech.root: winsync
 ms.assetid: 1cf95acf-23ab-49c8-bd63-7aff9bad8f25
 ms.date: 12/05/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetClockVector method, IChangeUnitException.GetClockVector, IChangeUnitException::GetClockVector, winsync.ichangeunitexception_getclockvector, winsync/IChangeUnitException::GetClockVector
-f1_keywords:
-- winsync/IChangeUnitException.GetClockVector
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IChangeUnitException.GetClockVector
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IChangeUnitException::GetClockVector
+ - winsync/IChangeUnitException::GetClockVector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IChangeUnitException.GetClockVector
 ---
 
 # IChangeUnitException::GetClockVector
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the clock vector that is associated with this exception.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 The IID of the object to retrieve. Must be <b>IID_IEnumClockVector</b>.
 
-
 ### -param ppUnk [out]
 
 Returns an object that implements <i>riid</i> and that represents the clock vector that is associated with this exception.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -98,22 +91,11 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitexception">IChangeUnitException Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumclockvector">IEnumClockVector Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumclockvector">IEnumClockVector Interface</a>

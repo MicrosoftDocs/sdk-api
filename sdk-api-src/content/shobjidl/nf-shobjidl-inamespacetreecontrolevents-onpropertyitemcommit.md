@@ -1,16 +1,13 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnPropertyItemCommit
 title: INameSpaceTreeControlEvents::OnPropertyItemCommit (shobjidl.h)
-description: Not implemented.
+description: Not implemented. (INameSpaceTreeControlEvents.OnPropertyItemCommit)
+helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnPropertyItemCommit method","INameSpaceTreeControlEvents.OnPropertyItemCommit","INameSpaceTreeControlEvents::OnPropertyItemCommit","OnPropertyItemCommit","OnPropertyItemCommit method [Windows Shell]","OnPropertyItemCommit method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnPropertyItemCommit","shell.INameSpaceTreeControlEvents_OnPropertyItemCommit","shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit"]
 old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm
 tech.root: shell
 ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnPropertyItemCommit method, INameSpaceTreeControlEvents.OnPropertyItemCommit, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
-f1_keywords:
-- shobjidl/INameSpaceTreeControlEvents.OnPropertyItemCommit
-dev_langs:
-- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl.h
-api_name:
-- INameSpaceTreeControlEvents.OnPropertyItemCommit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControlEvents::OnPropertyItemCommit
+ - shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl.h
+api_name:
+ - INameSpaceTreeControlEvents.OnPropertyItemCommit
 ---
 
 # INameSpaceTreeControlEvents::OnPropertyItemCommit
@@ -48,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not implemented.
-
 
 ## -parameters
 
-
-
-
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 Not used.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
 Returns E_NOTIMPL.
-
-
-

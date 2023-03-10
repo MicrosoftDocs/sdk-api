@@ -2,15 +2,12 @@
 UID: NF:winuser.GetNextWindow
 title: GetNextWindow macro (winuser.h)
 description: Retrieves a handle to the next or previous window in the Z-Order. The next window is below the specified window; the previous window is above.
+helpviewer_keywords: ["GW_HWNDNEXT","GW_HWNDPREV","GetNextWindow","GetNextWindow function [Windows and Messages]","_win32_GetNextWindow","_win32_getnextwindow_cpp","winmsg.getnextwindow","winui._win32_getnextwindow","winuser/GetNextWindow"]
 old-location: winmsg\getnextwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getnextwindow.htm
 ms.date: 12/05/2018
 ms.keywords: GW_HWNDNEXT, GW_HWNDPREV, GetNextWindow, GetNextWindow function [Windows and Messages], _win32_GetNextWindow, _win32_getnextwindow_cpp, winmsg.getnextwindow, winui._win32_getnextwindow, winuser/GetNextWindow
-f1_keywords:
-- winuser/GetNextWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- GetNextWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetNextWindow
+ - winuser/GetNextWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - GetNextWindow
 ---
 
 # GetNextWindow macro
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a handle to the next or previous window in the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a>. The next window is below the specified window; the previous window is above.
+Retrieves a handle to the next or previous window in the <a href="/windows/desktop/winmsg/window-features">Z-Order</a>. The next window is below the specified window; the previous window is above.
 
 If the specified window is a topmost window, the function searches for a topmost window. If the specified window is a top-level window, the function searches for a top-level window. If the specified window is a child window, the function searches for a child window.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to a window. The window handle retrieved is relative to this window, based on the value of the <i>wCmd</i> parameter. 
-
+A handle to a window. The window handle retrieved is relative to this window, based on the value of the <i>wCmd</i> parameter.
 
 ### -param wCmd [in]
 
@@ -100,33 +96,28 @@ Returns a handle to the window above the given window.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
+This function is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
 
 
-This function is implemented as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
-
-<pre class="syntax" xml:space="preserve"><code>#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)</code></pre>
-
+``` syntax
+#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)
+```
 
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettopwindow">GetTopWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-gettopwindow">GetTopWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -134,8 +125,4 @@ This function is implemented as a call to the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

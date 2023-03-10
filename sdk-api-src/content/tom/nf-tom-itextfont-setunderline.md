@@ -2,15 +2,12 @@
 UID: NF:tom.ITextFont.SetUnderline
 title: ITextFont::SetUnderline (tom.h)
 description: Sets the type of underlining for the characters in a range.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetUnderline method","ITextFont.SetUnderline","ITextFont::SetUnderline","SetUnderline","SetUnderline method [Windows Controls]","SetUnderline method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetUnderline","_win32_ITextFont_SetUnderline_cpp","controls.ITextFont_SetUnderline","controls._win32_ITextFont_SetUnderline","tom/ITextFont::SetUnderline","tomDash","tomDashDot","tomDashDotDot","tomDotted","tomDouble","tomDoubleWave","tomHair","tomHeavyWave","tomLongDash","tomNone","tomSingle","tomThick","tomThickDash","tomThickDashDot","tomThickDashDotDot","tomThickDotted","tomThickLongDash","tomWave","tomWords"]
 old-location: controls\ITextFont_SetUnderline.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setunderline.htm
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetUnderline method, ITextFont.SetUnderline, ITextFont::SetUnderline, SetUnderline, SetUnderline method [Windows Controls], SetUnderline method [Windows Controls],ITextFont interface, _win32_ITextFont_SetUnderline, _win32_ITextFont_SetUnderline_cpp, controls.ITextFont_SetUnderline, controls._win32_ITextFont_SetUnderline, tom/ITextFont::SetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
-f1_keywords:
-- tom/ITextFont.SetUnderline
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextFont.SetUnderline
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextFont::SetUnderline
+ - tom/ITextFont::SetUnderline
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextFont.SetUnderline
 ---
 
 # ITextFont::SetUnderline
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the
-
-			type of underlining for the characters in a range.
-
+Sets thevtype of underlining for the characters in a range.
 
 ## -parameters
-
-
-
 
 ### -param Value [in]
 
 Type: <b>long</b>
 
-The
-
-			type of underlining. It can be one of the following values.
+The type of underlining. It can be one of the following values.
 
 <a id="tomNone"></a>
 <a id="tomnone"></a>
@@ -200,14 +193,11 @@ The
 
 #### tomThickLongDash
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -259,25 +249,18 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-getunderline">GetUnderline</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-getunderline">GetUnderline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -285,8 +268,4 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

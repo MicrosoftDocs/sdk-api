@@ -2,15 +2,12 @@
 UID: NF:shlwapi.SHGetViewStatePropertyBag
 title: SHGetViewStatePropertyBag function (shlwapi.h)
 description: SHGetViewStatePropertyBag may be altered or unavailable.
+helpviewer_keywords: ["SHGVSPB_ALLFOLDERS","SHGVSPB_ALLUSERS","SHGVSPB_FOLDER","SHGVSPB_FOLDERNODEFAULTS","SHGVSPB_GLOBALDEFAULTS","SHGVSPB_INHERIT","SHGVSPB_NOAUTODEFAULTS","SHGVSPB_PERFOLDER","SHGVSPB_PERUSER","SHGVSPB_ROAM","SHGVSPB_USERDEFAULTS","SHGetViewStatePropertyBag","SHGetViewStatePropertyBag function [Windows Shell]","shell.SHGetViewStatePropertyBag","shell_SHGetViewStatePropertyBag","shlwapi/SHGetViewStatePropertyBag"]
 old-location: shell\SHGetViewStatePropertyBag.htm
 tech.root: shell
 ms.assetid: 6852867a-30a5-4d4e-b790-3746104e3ed8
 ms.date: 12/05/2018
 ms.keywords: SHGVSPB_ALLFOLDERS, SHGVSPB_ALLUSERS, SHGVSPB_FOLDER, SHGVSPB_FOLDERNODEFAULTS, SHGVSPB_GLOBALDEFAULTS, SHGVSPB_INHERIT, SHGVSPB_NOAUTODEFAULTS, SHGVSPB_PERFOLDER, SHGVSPB_PERUSER, SHGVSPB_ROAM, SHGVSPB_USERDEFAULTS, SHGetViewStatePropertyBag, SHGetViewStatePropertyBag function [Windows Shell], shell.SHGetViewStatePropertyBag, shell_SHGetViewStatePropertyBag, shlwapi/SHGetViewStatePropertyBag
-f1_keywords:
-- shlwapi/SHGetViewStatePropertyBag
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- SHGetViewStatePropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHGetViewStatePropertyBag
+ - shlwapi/SHGetViewStatePropertyBag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - SHGetViewStatePropertyBag
 ---
 
 # SHGetViewStatePropertyBag function
@@ -50,16 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHGetViewStatePropertyBag</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Retrieves a property bag in which the view state information for a folder can be stored and subsequently retrieved. The user's settings are kept for the next time the user visits the folder.
 
-
 ## -parameters
-
-
-
 
 ### -param pidl [in, optional]
 
@@ -67,13 +64,11 @@ Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A PIDL of the folder for which you are requesting properties. This parameter must be <b>NULL</b> if the SHGVSPB_ALLFOLDERS flag is passed.
 
-
 ### -param pszBagName [in, optional]
 
 Type: <b>PCWSTR</b>
 
 A pointer to a string that contains the name of the requested property bag.
-
 
 ### -param dwFlags
 
@@ -130,7 +125,7 @@ The following flags are optional.
 
 #### SHGVSPB_ROAM
 
-Allows the property bag to roam. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profiles</a>. This flag cannot be combined with SHGVSPB_ALLFOLDERS.
+Allows the property bag to roam. See <a href="/previous-versions/windows/desktop/legacy/bb776897(v=vs.85)">Roaming User Profiles</a>. This flag cannot be combined with SHGVSPB_ALLFOLDERS.
 
 
 
@@ -169,13 +164,11 @@ Combines SHGVSPB_ALLUSERS and SHGVSPB_ALLFOLDERS.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is named SHGVSPB_GLOBALDEAFAULTS.
 
-
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
 A reference to the IID of the interface to retrieve through <i>ppv</i>.
-
 
 ### -param ppv [out]
 
@@ -183,25 +176,14 @@ Type: <b>void**</b>
 
 When this method returns successfully, contains the interface pointer requested in <i>riid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Critical information should not be stored in the view state property bag because the system keeps only a limited number of view states. If a folder is not visited for a long time, its view state is eventually deleted.
 
-We recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
-
-
-
+We recommend that you use the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args">IID_PPV_ARGS</a> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.

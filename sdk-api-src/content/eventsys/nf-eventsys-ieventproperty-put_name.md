@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventProperty.put_Name
 title: IEventProperty::put_Name (eventsys.h)
-description: The name of the event property.
+description: The name of the event property. (Put)
+helpviewer_keywords: ["IEventProperty interface [COM]","Name property","IEventProperty.Name","IEventProperty.put_Name","IEventProperty::Name","IEventProperty::get_Name","IEventProperty::put_Name","Name property [COM]","Name property [COM]","IEventProperty interface","_com_ieventproperty_name","com.ieventproperty_name","eventsys/IEventProperty::Name","eventsys/IEventProperty::get_Name","eventsys/IEventProperty::put_Name","put_Name"]
 old-location: com\ieventproperty_name.htm
 tech.root: com
 ms.assetid: 9bc083fe-3a11-400b-83c2-d0ac4bb8d0c5
 ms.date: 12/05/2018
 ms.keywords: IEventProperty interface [COM],Name property, IEventProperty.Name, IEventProperty.put_Name, IEventProperty::Name, IEventProperty::get_Name, IEventProperty::put_Name, Name property [COM], Name property [COM],IEventProperty interface, _com_ieventproperty_name, com.ieventproperty_name, eventsys/IEventProperty::Name, eventsys/IEventProperty::get_Name, eventsys/IEventProperty::put_Name, put_Name
-f1_keywords:
-- eventsys/IEventProperty.Name
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventProperty.Name
-- IEventProperty.get_Name
-- IEventProperty.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventProperty::put_Name
+ - eventsys/IEventProperty::put_Name
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventProperty.Name
+ - IEventProperty.get_Name
+ - IEventProperty.put_Name
 ---
 
 # IEventProperty::put_Name
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The name of the event property.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventproperty">IEventProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventproperty">IEventProperty</a>

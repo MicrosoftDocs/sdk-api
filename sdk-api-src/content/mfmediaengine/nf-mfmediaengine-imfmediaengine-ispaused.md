@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaEngine.IsPaused
 title: IMFMediaEngine::IsPaused (mfmediaengine.h)
 description: Queries whether playback is currently paused.
+helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","IsPaused method","IMFMediaEngine.IsPaused","IMFMediaEngine::IsPaused","IsPaused","IsPaused method [Media Foundation]","IsPaused method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_ispaused","mfmediaengine/IMFMediaEngine::IsPaused"]
 old-location: mf\imfmediaengine_ispaused.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: A2E9C498-FEEB-4506-9E69-59028A6B4EE5
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsPaused method, IMFMediaEngine.IsPaused, IMFMediaEngine::IsPaused, IsPaused, IsPaused method [Media Foundation], IsPaused method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_ispaused, mfmediaengine/IMFMediaEngine::IsPaused
-f1_keywords:
-- mfmediaengine/IMFMediaEngine.IsPaused
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngine.IsPaused
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngine::IsPaused
+ - mfmediaengine/IMFMediaEngine::IsPaused
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngine.IsPaused
 ---
 
 # IMFMediaEngine::IsPaused
@@ -48,42 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether playback is currently paused.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if playback is paused, or  <b>FALSE</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
 This method corresponds to the <b>paused</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>

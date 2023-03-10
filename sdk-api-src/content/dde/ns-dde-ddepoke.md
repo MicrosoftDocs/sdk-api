@@ -1,16 +1,13 @@
 ---
-UID: NS:dde.__unnamed_struct_3
+UID: NS:dde.DDEPOKE
 title: DDEPOKE (dde.h)
 description: Contains the data, and information about the data, sent as part of a WM_DDE_POKE message.
+helpviewer_keywords: ["CF_BITMAP","CF_DIB","CF_DIF","CF_ENHMETAFILE","CF_METAFILEPICT","CF_OEMTEXT","CF_PALETTE","CF_PENDATA","CF_RIFF","CF_SYLK","CF_TEXT","CF_TIFF","CF_UNICODETEXT","CF_WAVE","DDEPOKE","DDEPOKE structure [Data Exchange]","_win32_DDEPOKE_str","_win32_ddepoke_str_cpp","dataxchg.ddepoke","dde/DDEPOKE","winui._win32_ddepoke_str"]
 old-location: dataxchg\ddepoke.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddepoke.htm
 ms.date: 12/05/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEPOKE, DDEPOKE structure [Data Exchange], _win32_DDEPOKE_str, _win32_ddepoke_str_cpp, dataxchg.ddepoke, dde/DDEPOKE, winui._win32_ddepoke_str
-f1_keywords:
-- dde/DDEPOKE
-dev_langs:
-- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dde.h
-api_name:
-- DDEPOKE
 targetos: Windows
 req.typenames: DDEPOKE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DDEPOKE
+ - dde/DDEPOKE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dde.h
+api_name:
+ - DDEPOKE
 ---
 
 # DDEPOKE structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains the data, and information about the data, sent as part of a <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message. 
-
+Contains the data, and information about the data, sent as part of a <a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message.
 
 ## -struct-fields
-
-
-
 
 ### -field unused
 
@@ -63,13 +60,11 @@ Type: <b>unsigned short</b>
 
 Unused.
 
-
 ### -field fRelease
 
 Type: <b>unsigned short</b>
 
-Indicates whether the application receiving the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data. 
-
+Indicates whether the application receiving the <a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a> message should free the data. If this value is nonzero, the application should free the data.
 
 ### -field fReserved
 
@@ -77,11 +72,7 @@ Type: <b>unsigned short</b>
 
 Reserved.
 
-
 ### -field usFlags
-
- 
-
 
 ### -field cfFormat
 
@@ -146,21 +137,16 @@ The format of the data. The format should be a standard or registered clipboard 
 
 #### CF_UNICODETEXT (13)
 
-
 ### -field Value
 
 Type: <b>BYTE[1]</b>
 
 Contains the data. The length and type of data depend on the value of the 
-					<b>cfFormat</b> member. 
-
+					<b>cfFormat</b> member.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
+<a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -172,8 +158,5 @@ Contains the data. The length and type of data depend on the value of the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
- 
-
- 
+<a href="/windows/desktop/dataxchg/wm-dde-poke">WM_DDE_POKE</a>
 

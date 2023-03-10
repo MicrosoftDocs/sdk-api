@@ -2,15 +2,12 @@
 UID: NF:objbase.GetClassFile
 title: GetClassFile function (objbase.h)
 description: Returns the CLSID associated with the specified file name.
+helpviewer_keywords: ["GetClassFile","GetClassFile function [COM]","_com_GetClassFile","com.getclassfile","objbase/GetClassFile"]
 old-location: com\getclassfile.htm
 tech.root: com
 ms.assetid: dc3cb263-7b9a-45f9-8eab-3a88aa9392db
 ms.date: 12/05/2018
 ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.getclassfile, objbase/GetClassFile
-f1_keywords:
-- objbase/GetClassFile
-dev_langs:
-- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,26 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
-api_name:
-- GetClassFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetClassFile
+ - objbase/GetClassFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+api_name:
+ - GetClassFile
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # GetClassFile function
@@ -49,28 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the CLSID associated with the specified file name.
 
-
 ## -parameters
-
-
-
 
 ### -param szFilename [in]
 
 A pointer to the filename for which you are requesting the associated CLSID.
 
-
 ### -param pclsid [out]
 
 A pointer to the location where the associated CLSID is written on return.
 
-
 ## -returns
-
-
 
 This function can return any of the file system errors, as well as the following values.
 
@@ -113,16 +107,10 @@ The specified extension in the registry is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When given a file name, <b>GetClassFile</b> finds the CLSID associated with that file. Examples of its use are in the <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a> function, which is passed a file name and requires an associated CLSID, and in the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>, which, when a link to a file-based document is activated, calls <b>GetClassFile</b> to locate the object application that can open the file. 
+When given a file name, <b>GetClassFile</b> finds the CLSID associated with that file. Examples of its use are in the <a href="/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a> function, which is passed a file name and requires an associated CLSID, and in the OLE implementation of <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>, which, when a link to a file-based document is activated, calls <b>GetClassFile</b> to locate the object application that can open the file. 
 
 
 
@@ -130,7 +118,7 @@ When given a file name, <b>GetClassFile</b> finds the CLSID associated with that
 
 <ol>
 <li>
-If the file contains a storage object, as determined by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile">StgIsStorageFile</a> function, <b>GetClassFile</b> returns the CLSID that was written with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setclass">IStorage::SetClass</a> method.
+If the file contains a storage object, as determined by a call to the <a href="/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile">StgIsStorageFile</a> function, <b>GetClassFile</b> returns the CLSID that was written with the <a href="/windows/desktop/api/objidl/nf-objidl-istorage-setclass">IStorage::SetClass</a> method.
 
 </li>
 <li>
@@ -142,7 +130,7 @@ The value of the <i>offset</i> item is an offset from the beginning or end of th
 
 Each pattern in the registry is compared to the file in the order of the patterns in the database. The first pattern where each of the value items matches the result of the AND operation determines the CLSID of the file. For example, the pattern contained in the following entries of the registry requires that the first four bytes be AB CD 12 34 and that the last four bytes be FE FE FE FE:
 
-<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT </b>
+<pre><b>HKEY_CLASSES_ROOT </b>
    <b>FileType</b>
       <b>{12345678-0000-0001-C000-000000000095}</b>
          <b>0</b> = 0, 4, FFFFFFFF, ABCD1234 
@@ -160,15 +148,6 @@ If all strategies fail, the function returns MK_E_INVALIDEXTENSION.
 </li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>
- 
-
- 
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>

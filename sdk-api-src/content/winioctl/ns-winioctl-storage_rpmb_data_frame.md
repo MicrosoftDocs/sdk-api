@@ -1,12 +1,9 @@
 ---
 UID: NS:winioctl._STORAGE_RPMB_DATA_FRAME
 title: STORAGE_RPMB_DATA_FRAME
-ms.date: 4/26/2019
+description: The STORAGE_RPMB_DATA_FRAME structure (winioctl.h) allows an application to use data from IOCTL_STORAGE_QUERY_PROPERTY to create a RPMB frame.
+ms.date: 08/09/2022
 ms.keywords: _STORAGE_RPMB_DATA_FRAME, STORAGE_RPMB_DATA_FRAME
-f1_keywords:
-- _STORAGE_RPMB_DATA_FRAME
-dev_langs:
-- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -17,33 +14,41 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.target-type: 
 req.typenames: STORAGE_RPMB_DATA_FRAME, *PSTORAGE_RPMB_DATA_FRAME
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - _STORAGE_RPMB_DATA_FRAME
+ - winioctl/_STORAGE_RPMB_DATA_FRAME
+ - PSTORAGE_RPMB_DATA_FRAME
+ - winioctl/PSTORAGE_RPMB_DATA_FRAME
+ - STORAGE_RPMB_DATA_FRAME
+ - winioctl/STORAGE_RPMB_DATA_FRAME
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- HeaderDef
+ - HeaderDef
 api_location:
-- winioctl.h
+ - winioctl.h
 api_name:
-- _STORAGE_RPMB_DATA_FRAME
-- STORAGE_RPMB_DATA_FRAME
+ - _STORAGE_RPMB_DATA_FRAME
+ - STORAGE_RPMB_DATA_FRAME
 ---
 
 ## -description
 
-Using the information from <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>, an application can create an RPMB frame to perform one of the following actions:
+Using the information from <a href="/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>, an application can create an RPMB frame to perform one of the following actions:
 •	Program Authentication Key
 •	Query RPMB Write Counter
 •	Authenticated Write
 •	Authenticated Read
 •	Authenticated Device Configuration Write
 •	Authenticated Device Configuration Read
-
 
 ## -struct-fields
 

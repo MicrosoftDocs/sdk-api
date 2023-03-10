@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.IGraphBuilder.RenderFile
 title: IGraphBuilder::RenderFile (strmif.h)
-description: The RenderFile method builds a filter graph that renders the specified file.
+description: The RenderFile method builds a filter graph that renders the specified file. (IGraphBuilder.RenderFile)
+helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","RenderFile method","IGraphBuilder.RenderFile","IGraphBuilder::RenderFile","IGraphBuilderRenderFile","RenderFile","RenderFile method [DirectShow]","RenderFile method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_renderfile","strmif/IGraphBuilder::RenderFile"]
 old-location: dshow\igraphbuilder_renderfile.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 449aec08-c03e-41d6-8c04-0e871e532d11
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],RenderFile method, IGraphBuilder.RenderFile, IGraphBuilder::RenderFile, IGraphBuilderRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_renderfile, strmif/IGraphBuilder::RenderFile
-f1_keywords:
-- strmif/IGraphBuilder.RenderFile
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IGraphBuilder.RenderFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGraphBuilder::RenderFile
+ - strmif/IGraphBuilder::RenderFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IGraphBuilder.RenderFile
 ---
 
 # IGraphBuilder::RenderFile
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>RenderFile</code> method builds a filter graph that renders the specified file.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpcwstrFile [in]
 
 Specifies a wide-character string that contains the name of a media file.
 
-
 ### -param lpcwstrPlayList [in]
 
 Reserved. Must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -270,18 +260,12 @@ Cannot play back the file: the format is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If the <i>lpwstrFile</i> parameter specifies a media file, the method builds a filter graph for default playback. First it adds a source filter that can read the file, using the same process as the <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-addsourcefilter">IGraphBuilder::AddSourceFilter</a> method. Then it renders the output pins on the source filter, adding intermediate filters if necessary. It tries filters in the same order as the <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method.
 
-
-If the <i>lpwstrFile</i> parameter specifies a media file, the method builds a filter graph for default playback. First it adds a source filter that can read the file, using the same process as the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-addsourcefilter">IGraphBuilder::AddSourceFilter</a> method. Then it renders the output pins on the source filter, adding intermediate filters if necessary. It tries filters in the same order as the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method.
-
-During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-pin_info).
+During the connection process, the Filter Graph Manager ignores pins on intermediate filters if the pin name begins with a tilde (~). For more information, see [PIN_INFO](/windows/desktop/api/strmif/ns-strmif-pin_info).
 
 Note that the <code>RenderFile</code> method does not remove any filters from the graph. If you call <code>RenderFile</code> twice, the second call simply adds more filters to the graph. When you run the graph, both sources will play at the same time.
 
@@ -290,7 +274,7 @@ Note that the <code>RenderFile</code> method does not remove any filters from th
 
 The following example renders an AVI file for default playback:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -302,9 +286,9 @@ hr = pGraph-&gt;RenderFile(L"C:\\Media\\Example.avi", 0);
 </td>
 </tr>
 </table></span></div>
-The following example downloads an AVI file over HTTP, using the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter:
+The following example downloads an AVI file over HTTP, using the <a href="/windows/desktop/DirectShow/file-source--url--filter">File Source (URL)</a> filter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -317,19 +301,10 @@ hr = pGraph-&gt;RenderFile(L"http://example.microsoft.com/Example.avi", 0);
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:securitybaseapi.SetPrivateObjectSecurityEx
 title: SetPrivateObjectSecurityEx function (securitybaseapi.h)
 description: Modifies the security descriptor of a private object maintained by the resource manager calling this function.
+helpviewer_keywords: ["SEF_AVOID_OWNER_CHECK","SEF_AVOID_OWNER_RESTRICTION","SEF_AVOID_PRIVILEGE_CHECK","SEF_DACL_AUTO_INHERIT","SEF_DEFAULT_GROUP_FROM_PARENT","SEF_DEFAULT_OWNER_FROM_PARENT","SEF_MACL_NO_EXECUTE_UP","SEF_MACL_NO_READ_UP","SEF_MACL_NO_WRITE_UP","SEF_SACL_AUTO_INHERIT","SetPrivateObjectSecurityEx","SetPrivateObjectSecurityEx function [Security]","_win32_setprivateobjectsecurityex","security.setprivateobjectsecurityex","securitybaseapi/SetPrivateObjectSecurityEx"]
 old-location: security\setprivateobjectsecurityex.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: eb3a751f-741e-448f-b812-5f16a4040b5e
 ms.date: 12/05/2018
 ms.keywords: SEF_AVOID_OWNER_CHECK, SEF_AVOID_OWNER_RESTRICTION, SEF_AVOID_PRIVILEGE_CHECK, SEF_DACL_AUTO_INHERIT, SEF_DEFAULT_GROUP_FROM_PARENT, SEF_DEFAULT_OWNER_FROM_PARENT, SEF_MACL_NO_EXECUTE_UP, SEF_MACL_NO_READ_UP, SEF_MACL_NO_WRITE_UP, SEF_SACL_AUTO_INHERIT, SetPrivateObjectSecurityEx, SetPrivateObjectSecurityEx function [Security], _win32_setprivateobjectsecurityex, security.setprivateobjectsecurityex, securitybaseapi/SetPrivateObjectSecurityEx
-f1_keywords:
-- securitybaseapi/SetPrivateObjectSecurityEx
-dev_langs:
-- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
-- KernelBase.dll
-- API-MS-Win-Security-base-l1-1-0.dll
-- API-MS-Win-Security-base-l1-2-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Security-Base-L1-2-1.dll
-api_name:
-- SetPrivateObjectSecurityEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetPrivateObjectSecurityEx
+ - securitybaseapi/SetPrivateObjectSecurityEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+ - KernelBase.dll
+ - API-MS-Win-Security-base-l1-1-0.dll
+ - API-MS-Win-Security-base-l1-2-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Security-Base-L1-2-1.dll
+api_name:
+ - SetPrivateObjectSecurityEx
 ---
 
 # SetPrivateObjectSecurityEx function
@@ -54,36 +56,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetPrivateObjectSecurityEx</b> function modifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of a private object maintained by the resource manager calling this function. The <b>SetPrivateObjectSecurityEx</b> function has a flags parameter that specifies whether the resource manager supports automatic inheritance of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
-
+The <b>SetPrivateObjectSecurityEx</b> function modifies the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> of a private object maintained by the resource manager calling this function. The <b>SetPrivateObjectSecurityEx</b> function has a flags parameter that specifies whether the resource manager supports automatic inheritance of <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
 ## -parameters
-
-
-
 
 ### -param SecurityInformation [in]
 
 The parts of the security descriptor to set. This value can be a combination of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
 ### -param ModificationDescriptor [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. The parts of this security descriptor indicated by the <i>SecurityInformation</i> parameter are applied to the <i>ObjectsSecurityDescriptor</i> security descriptor.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. The parts of this security descriptor indicated by the <i>SecurityInformation</i> parameter are applied to the <i>ObjectsSecurityDescriptor</i> security descriptor.
 
 ### -param ObjectsSecurityDescriptor [in, out]
 
-A pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. This security descriptor must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> form. **The memory for the security descriptor must be allocated from the process heap (GetProcessHeap) with the HeapAlloc function.**
+A pointer to a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure. This security descriptor must be in <a href="/windows/desktop/SecGloss/s-gly">self-relative</a> form. **The memory for the security descriptor must be allocated from the process heap (GetProcessHeap) with the HeapAlloc function.**
 
 
 
 
 On input, this is the current security descriptor of the private object. The function modifies it to produce the new security descriptor. If necessary, the <b>SetPrivateObjectSecurityEx</b> function allocates additional memory to produce a larger security descriptor.
-
 
 ### -param AutoInheritFlags [in]
 
@@ -101,7 +95,7 @@ Specifies automatic inheritance of ACEs. If the protected server does not implem
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
+The new <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) contains ACEs inherited from the DACL of 
         the object's parent, as well as any explicit ACEs specified in the DACL of 
         <i>ModificationDescriptor</i>. If this flag is not set, the new DACL does not inherit ACEs.
 
@@ -114,7 +108,7 @@ The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">disc
 </dl>
 </td>
 <td width="60%">
-The new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
+The new <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) contains ACEs inherited from the SACL of 
         the security descriptor associated with the object's parent, as well as any explicit ACEs specified in the SACL of 
         <i>ModificationDescriptor</i>. If this flag is not set, the new SACL does not inherit ACEs.
 
@@ -211,44 +205,33 @@ Any restrictions  specified by the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the specific and standard access rights that correspond to each of the generic access rights.
-
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure that specifies the specific and standard access rights that correspond to each of the generic access rights.
 
 ### -param Token [in, optional]
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> for the client on whose behalf the private object's security is being modified. This parameter is required to ensure that the client has provided a legitimate value for a new owner <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID). The token must be open for TOKEN_QUERY access.
-
+Identifies the <a href="/windows/desktop/SecGloss/a-gly">access token</a> for the client on whose behalf the private object's security is being modified. This parameter is required to ensure that the client has provided a legitimate value for a new owner <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID). The token must be open for TOKEN_QUERY access.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns nonzero.
       
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 If the <i>AutoInheritFlags</i> parameter is zero, <b>SetPrivateObjectSecurityEx</b> is identical to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a> function.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a> function.
 
 This function is intended for use by resource managers only. To implement the standard Windows access control semantics for updating security descriptors, a resource manager should verify that the following conditions are met before calling <b>SetPrivateObjectSecurityEx</b>:
 
 <ul>
-<li>If the object's owner is being set, the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> must have either WRITE_OWNER permission or be the object's owner.</li>
+<li>If the object's owner is being set, the calling <a href="/windows/desktop/SecGloss/p-gly">process</a> must have either WRITE_OWNER permission or be the object's owner.</li>
 <li>If the object's DACL is being set, the calling process must have either WRITE_DAC permission or be the object's owner.</li>
 <li>If the object's SACL is being set, the SE_SECURITY_NAME privilege must be enabled for the calling process.</li>
 </ul>
@@ -259,7 +242,7 @@ The process calling this function should not be impersonating a client because c
 If <i>AutoInheritFlags</i> specifies the SEF_DACL_AUTO_INHERIT bit, the function applies the following rules to the DACL to create the new security descriptor from the current descriptor:
 
 <ul>
-<li>If the SE_DACL_PROTECTED flag is not set in the control bits of  either the current security descriptor or the <i>ModificationDescriptor</i>, the function constructs the output security descriptor from the inherited ACEs of the current security descriptor and noninherited ACEs of <i>ModificationDescriptor</i>. That is, it is impossible to change an inherited ACE by changing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) on an object. This behavior preserves the inherited ACEs as they were inherited from the parent container. 
+<li>If the SE_DACL_PROTECTED flag is not set in the control bits of  either the current security descriptor or the <i>ModificationDescriptor</i>, the function constructs the output security descriptor from the inherited ACEs of the current security descriptor and noninherited ACEs of <i>ModificationDescriptor</i>. That is, it is impossible to change an inherited ACE by changing the <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL) on an object. This behavior preserves the inherited ACEs as they were inherited from the parent container. 
 
 
 An ACL editor should make inherited ACEs unavailable to prevent them from being modified.
@@ -282,7 +265,7 @@ If <i>AutoInheritFlags</i> specifies the SEF_SACL_AUTO_INHERIT bit, the function
 For both DACLs and SACLs, certain types of ACEs in the input <i>ObjectsSecurityDescriptor</i> and in <i>ModificationDescriptor</i> will be replaced by two ACEs in the output <i>ObjectsSecurityDescriptor</i>. Specifically, an inheritable ACE that contains at least one of the following mappable elements will result in two ACEs in the output <i>ObjectsSecurityDescriptor</i>. Mappable elements include:
 
 <ul>
-<li>Generic access rights in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> structure</li>
+<li>Generic access rights in the <a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> structure</li>
 <li>Creator Owner SID or Creator Group SID as the ACE subject identifier</li>
 </ul>
 ACEs with any of these mappable elements will result in the following two ACEs in the output <i>ObjectsSecurityDescriptor</i>:
@@ -321,66 +304,57 @@ A resource manager that is setting the Owner on a subtree of objects can avoid t
 
 <div class="alert"><b>Note</b>  The SEF_AVOID_PRIVILEGE_CHECK bit as used in the 
 <b>SetPrivateObjectSecurityEx</b> function is equivalent to the SEF_AVOID_OWNER_CHECK bit used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function.</div>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a> function.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurityex">CreatePrivateObjectSecurityEx</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-destroyprivateobjectsecurity">DestroyPrivateObjectSecurity</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity">GetPrivateObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getprivateobjectsecurity">GetPrivateObjectSecurity</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity">SetKernelObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity">SetKernelObjectSecurity</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>

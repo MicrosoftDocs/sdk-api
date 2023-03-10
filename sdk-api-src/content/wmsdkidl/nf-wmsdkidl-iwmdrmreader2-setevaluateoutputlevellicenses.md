@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMDRMReader2.SetEvaluateOutputLevelLicenses
 title: IWMDRMReader2::SetEvaluateOutputLevelLicenses (wmsdkidl.h)
 description: The SetEvaluateOutputLevelLicenses method sets the reader to evaluate licenses that use output protection levels (OPLs).
+helpviewer_keywords: ["IWMDRMReader2 interface [windows Media Format]","SetEvaluateOutputLevelLicenses method","IWMDRMReader2.SetEvaluateOutputLevelLicenses","IWMDRMReader2::SetEvaluateOutputLevelLicenses","IWMDRMReader2SetEvaluateOutputLevelLicenses","SetEvaluateOutputLevelLicenses","SetEvaluateOutputLevelLicenses method [windows Media Format]","SetEvaluateOutputLevelLicenses method [windows Media Format]","IWMDRMReader2 interface","wmformat.iwmdrmreader2_setevaluateoutputlevellicenses","wmsdkidl/IWMDRMReader2::SetEvaluateOutputLevelLicenses"]
 old-location: wmformat\iwmdrmreader2_setevaluateoutputlevellicenses.htm
 tech.root: wmformat
 ms.assetid: 5a146ec4-a733-483c-8b08-2bee0081bd96
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader2 interface [windows Media Format],SetEvaluateOutputLevelLicenses method, IWMDRMReader2.SetEvaluateOutputLevelLicenses, IWMDRMReader2::SetEvaluateOutputLevelLicenses, IWMDRMReader2SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses, SetEvaluateOutputLevelLicenses method [windows Media Format], SetEvaluateOutputLevelLicenses method [windows Media Format],IWMDRMReader2 interface, wmformat.iwmdrmreader2_setevaluateoutputlevellicenses, wmsdkidl/IWMDRMReader2::SetEvaluateOutputLevelLicenses
-f1_keywords:
-- wmsdkidl/IWMDRMReader2.SetEvaluateOutputLevelLicenses
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMDRMReader2.SetEvaluateOutputLevelLicenses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMDRMReader2::SetEvaluateOutputLevelLicenses
+ - wmsdkidl/IWMDRMReader2::SetEvaluateOutputLevelLicenses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMDRMReader2.SetEvaluateOutputLevelLicenses
 ---
 
 # IWMDRMReader2::SetEvaluateOutputLevelLicenses
@@ -49,29 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<b>SetEvaluateOutputLevelLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://go.microsoft.com/fwlink/p/?linkid=325240">Microsoft PlayReady</a>.
+<p class="CCE_Message">[<b>SetEvaluateOutputLevelLicenses</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://www.microsoft.com/PlayReady/">Microsoft PlayReady</a>.
 ]
 
 
 The <b>SetEvaluateOutputLevelLicenses</b> method sets the reader to evaluate licenses that use output protection levels (OPLs).
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param fEvaluate [in]
 
 Flag specifying whether to handle files with licenses that use output protection levels.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -92,31 +84,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If your application supports reading DRM-protected files with licenses that use output protection levels, you must call this method and set <i>fEvaluate</i> to <b>TRUE</b>. The call must be made before opening the file.
 
-When a file is opened with OPL support enabled, you must call either <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getcopyoutputlevels">GetCopyOutputLevels</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getplayoutputlevels">GetPlayOutputLevels</a>, depending on the actions your application performs. These methods provide minimum OPLs for the associated action.
+When a file is opened with OPL support enabled, you must call either <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getcopyoutputlevels">GetCopyOutputLevels</a> or <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getplayoutputlevels">GetPlayOutputLevels</a>, depending on the actions your application performs. These methods provide minimum OPLs for the associated action.
 
 If you do not call this method, the reader object will not open DRM-protected files that have licenses specifying output protection levels.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>

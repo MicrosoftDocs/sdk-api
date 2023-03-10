@@ -2,15 +2,12 @@
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyFromScope
 title: IMetaDataAssemblyImport::GetAssemblyFromScope (rometadataapi.h)
 description: Gets a pointer to the assembly in the current scope.
+helpviewer_keywords: ["GetAssemblyFromScope","GetAssemblyFromScope method [Windows Runtime]","GetAssemblyFromScope method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetAssemblyFromScope method","IMetaDataAssemblyImport.GetAssemblyFromScope","IMetaDataAssemblyImport::GetAssemblyFromScope","rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope","winrt.imetadataassemblyimport_getassemblyfromscope"]
 old-location: winrt\imetadataassemblyimport_getassemblyfromscope.htm
 tech.root: WinRT
 ms.assetid: b7b7d650-2db6-4e7c-92e0-5d0055a0a5a9
 ms.date: 12/05/2018
 ms.keywords: GetAssemblyFromScope, GetAssemblyFromScope method [Windows Runtime], GetAssemblyFromScope method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetAssemblyFromScope method, IMetaDataAssemblyImport.GetAssemblyFromScope, IMetaDataAssemblyImport::GetAssemblyFromScope, rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope, winrt.imetadataassemblyimport_getassemblyfromscope
-f1_keywords:
-- rometadataapi/IMetaDataAssemblyImport.GetAssemblyFromScope
-dev_langs:
-- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- rometadataapi.h
-api_name:
-- IMetaDataAssemblyImport.GetAssemblyFromScope
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMetaDataAssemblyImport::GetAssemblyFromScope
+ - rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - rometadataapi.h
+api_name:
+ - IMetaDataAssemblyImport.GetAssemblyFromScope
 ---
 
 # IMetaDataAssemblyImport::GetAssemblyFromScope
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to the assembly in the current scope.
 
-
 ## -parameters
-
-
-
 
 ### -param ptkAssembly [out]
 
 A pointer to the retrieved <b>mdAssembly</b> token that identifies the assembly.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>

@@ -2,15 +2,12 @@
 UID: NF:mstask.ITask.GetParameters
 title: ITask::GetParameters (mstask.h)
 description: This method retrieves the task's command-line parameters.
+helpviewer_keywords: ["GetParameters","GetParameters method [Task Scheduler]","GetParameters method [Task Scheduler]","ITask interface","ITask interface [Task Scheduler]","GetParameters method","ITask.GetParameters","ITask::GetParameters","_msb_itask_getparameters","mstask/ITask::GetParameters","taskschd.itask_getparameters"]
 old-location: taskschd\itask_getparameters.htm
 tech.root: taskschd
 ms.assetid: f59118d6-b430-4fcd-9c78-e6b5a65c151a
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [Task Scheduler], GetParameters method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetParameters method, ITask.GetParameters, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
-f1_keywords:
-- mstask/ITask.GetParameters
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- ITask.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - ITask::GetParameters
+ - mstask/ITask::GetParameters
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - ITask.GetParameters
 ---
 
 # ITask::GetParameters
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-This method retrieves the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task's</a> command-line parameters.
-
+This method retrieves the <a href="/windows/desktop/TaskSchd/t">task's</a> command-line parameters.
 
 ## -parameters
-
-
-
 
 ### -param ppwszParameters [out]
 
 A pointer to a null-terminated string that contains the command-line parameters for the task. The method that invokes 
 <b>GetParameters</b> is responsible for freeing this string using the <b>CoTaskMemFree</b> function.
 
-
 ## -returns
-
-
 
 The 
 <b>GetParameters</b> method returns one of the following values.
@@ -111,22 +105,11 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-setparameters">SetParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-setparameters">SetParameters</a>

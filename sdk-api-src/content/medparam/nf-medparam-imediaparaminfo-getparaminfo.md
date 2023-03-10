@@ -2,15 +2,12 @@
 UID: NF:medparam.IMediaParamInfo.GetParamInfo
 title: IMediaParamInfo::GetParamInfo (medparam.h)
 description: The GetParamInfo method retrieves information about a specified parameter.
+helpviewer_keywords: ["GetParamInfo","GetParamInfo method [DirectShow]","GetParamInfo method [DirectShow]","IMediaParamInfo interface","IMediaParamInfo interface [DirectShow]","GetParamInfo method","IMediaParamInfo.GetParamInfo","IMediaParamInfo::GetParamInfo","IMediaParamInfoGetParamInfo","dshow.imediaparaminfo_getparaminfo","medparam/IMediaParamInfo::GetParamInfo"]
 old-location: dshow\imediaparaminfo_getparaminfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 80fdb9c2-d979-4671-981a-54d968b23042
 ms.date: 12/05/2018
 ms.keywords: GetParamInfo, GetParamInfo method [DirectShow], GetParamInfo method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamInfo method, IMediaParamInfo.GetParamInfo, IMediaParamInfo::GetParamInfo, IMediaParamInfoGetParamInfo, dshow.imediaparaminfo_getparaminfo, medparam/IMediaParamInfo::GetParamInfo
-f1_keywords:
-- medparam/IMediaParamInfo.GetParamInfo
-dev_langs:
-- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaParamInfo.GetParamInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaParamInfo::GetParamInfo
+ - medparam/IMediaParamInfo::GetParamInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaParamInfo.GetParamInfo
 ---
 
 # IMediaParamInfo::GetParamInfo
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetParamInfo</code> method retrieves information about a specified parameter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwParamIndex [in]
 
 Zero-based index of the parameter.
 
-
 ### -param pInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo">MP_PARAMINFO</a> structure that is filled with the parameter information.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo">MP_PARAMINFO</a> structure that is filled with the parameter information.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,27 +106,11 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamcount">GetParamCount</a> method to retrieve the number of parameters that the object supports.
-
-
-
+Call the <a href="/windows/desktop/api/medparam/nf-medparam-imediaparaminfo-getparamcount">GetParamCount</a> method to retrieve the number of parameters that the object supports.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>

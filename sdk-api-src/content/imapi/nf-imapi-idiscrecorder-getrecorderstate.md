@@ -2,15 +2,12 @@
 UID: NF:imapi.IDiscRecorder.GetRecorderState
 title: IDiscRecorder::GetRecorderState (imapi.h)
 description: Retrieves the disc recorder state.
+helpviewer_keywords: ["GetRecorderState","GetRecorderState method [IMAPI]","GetRecorderState method [IMAPI]","IDiscRecorder interface","IDiscRecorder interface [IMAPI]","GetRecorderState method","IDiscRecorder.GetRecorderState","IDiscRecorder::GetRecorderState","RECORDER_BURNING","RECORDER_DOING_NOTHING","RECORDER_OPENED","_win32_idiscrecorder_getrecorderstate","base.idiscrecorder_getrecorderstate","imapi.idiscrecorder_getrecorderstate","imapi/IDiscRecorder::GetRecorderState"]
 old-location: imapi\idiscrecorder_getrecorderstate.htm
 tech.root: imapi
 ms.assetid: 7fa57f8b-33c4-475c-958c-1e2c4973e23a
 ms.date: 12/05/2018
 ms.keywords: GetRecorderState, GetRecorderState method [IMAPI], GetRecorderState method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderState method, IDiscRecorder.GetRecorderState, IDiscRecorder::GetRecorderState, RECORDER_BURNING, RECORDER_DOING_NOTHING, RECORDER_OPENED, _win32_idiscrecorder_getrecorderstate, base.idiscrecorder_getrecorderstate, imapi.idiscrecorder_getrecorderstate, imapi/IDiscRecorder::GetRecorderState
-f1_keywords:
-- imapi/IDiscRecorder.GetRecorderState
-dev_langs:
-- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Actxprxy.dll
-api_name:
-- IDiscRecorder.GetRecorderState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder::GetRecorderState
+ - imapi/IDiscRecorder::GetRecorderState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Actxprxy.dll
+api_name:
+ - IDiscRecorder.GetRecorderState
 ---
 
 # IDiscRecorder::GetRecorderState
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the disc recorder state.
 
-
 ## -parameters
-
-
-
 
 ### -param pulDevStateFlags [out]
 
@@ -97,25 +94,11 @@ One of the following values.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>

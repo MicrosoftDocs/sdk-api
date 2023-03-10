@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.ClearUserAssociations
 title: IApplicationAssociationRegistration::ClearUserAssociations (shobjidl_core.h)
 description: Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist. Not intended for use in Windows 8.
+helpviewer_keywords: ["ClearUserAssociations","ClearUserAssociations method [Windows Shell]","ClearUserAssociations method [Windows Shell]","IApplicationAssociationRegistration interface","IApplicationAssociationRegistration interface [Windows Shell]","ClearUserAssociations method","IApplicationAssociationRegistration.ClearUserAssociations","IApplicationAssociationRegistration::ClearUserAssociations","_shell_IApplicationAssociationRegistration_ClearUserAssociations","shell.IApplicationAssociationRegistration_ClearUserAssociations","shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations"]
 old-location: shell\IApplicationAssociationRegistration_ClearUserAssociations.htm
 tech.root: shell
 ms.assetid: dcc0990a-f678-47bb-9462-905940ac87d6
 ms.date: 12/05/2018
 ms.keywords: ClearUserAssociations, ClearUserAssociations method [Windows Shell], ClearUserAssociations method [Windows Shell],IApplicationAssociationRegistration interface, IApplicationAssociationRegistration interface [Windows Shell],ClearUserAssociations method, IApplicationAssociationRegistration.ClearUserAssociations, IApplicationAssociationRegistration::ClearUserAssociations, _shell_IApplicationAssociationRegistration_ClearUserAssociations, shell.IApplicationAssociationRegistration_ClearUserAssociations, shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations
-f1_keywords:
-- shobjidl_core/IApplicationAssociationRegistration.ClearUserAssociations
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IApplicationAssociationRegistration.ClearUserAssociations
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApplicationAssociationRegistration::ClearUserAssociations
+ - shobjidl_core/IApplicationAssociationRegistration::ClearUserAssociations
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IApplicationAssociationRegistration.ClearUserAssociations
 ---
 
 # IApplicationAssociationRegistration::ClearUserAssociations
@@ -48,39 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes all per-user associations for the current user. This results in a reversion to machine defaults, if they exist. Not intended for use in Windows 8.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/shell/default-programs">Default Programs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/default-programs">Default Programs</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>

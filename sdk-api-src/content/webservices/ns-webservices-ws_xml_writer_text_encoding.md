@@ -2,15 +2,12 @@
 UID: NS:webservices._WS_XML_WRITER_TEXT_ENCODING
 title: WS_XML_WRITER_TEXT_ENCODING (webservices.h)
 description: Indicates that the reader should emit bytes as textual xml.
+helpviewer_keywords: ["WS_XML_WRITER_TEXT_ENCODING","WS_XML_WRITER_TEXT_ENCODING structure [Web Services for Windows]","webservices/WS_XML_WRITER_TEXT_ENCODING","wsw.ws_xml_writer_text_encoding"]
 old-location: wsw\ws_xml_writer_text_encoding.htm
 tech.root: wsw
 ms.assetid: 916e693b-9804-4c93-869d-0c3b576e5b61
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_TEXT_ENCODING, WS_XML_WRITER_TEXT_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_TEXT_ENCODING, wsw.ws_xml_writer_text_encoding
-f1_keywords:
-- webservices/WS_XML_WRITER_TEXT_ENCODING
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_WRITER_TEXT_ENCODING
 targetos: Windows
 req.typenames: WS_XML_WRITER_TEXT_ENCODING
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_XML_WRITER_TEXT_ENCODING
+ - webservices/_WS_XML_WRITER_TEXT_ENCODING
+ - WS_XML_WRITER_TEXT_ENCODING
+ - webservices/WS_XML_WRITER_TEXT_ENCODING
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_WRITER_TEXT_ENCODING
 ---
 
 # WS_XML_WRITER_TEXT_ENCODING structure
@@ -48,24 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that the reader should emit bytes as textual xml.
-      
-
 
 ## -struct-fields
 
-
-
-
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
-        
-
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
 
 ### -field charSet
 
-Indicates the text encoding of the bytes.  This may not be <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a>.
-        
-
+Indicates the text encoding of the bytes.  This may not be <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a>.

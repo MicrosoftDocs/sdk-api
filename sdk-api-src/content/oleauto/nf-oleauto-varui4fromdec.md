@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarUI4FromDec
 title: VarUI4FromDec function (oleauto.h)
 description: Converts a decimal value to an unsigned long value.
+helpviewer_keywords: ["VarUI4FromDec","VarUI4FromDec function [Automation]","_oa96_VarUI4FromDec","automat.varui4fromdec","oleauto/VarUI4FromDec"]
 old-location: automat\varui4fromdec.htm
 tech.root: automat
 ms.assetid: dd36f6f5-7f33-43a7-99b1-16497e26bebb
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromDec, VarUI4FromDec function [Automation], _oa96_VarUI4FromDec, automat.varui4fromdec, oleauto/VarUI4FromDec
-f1_keywords:
-- oleauto/VarUI4FromDec
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI4FromDec
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI4FromDec
+ - oleauto/VarUI4FromDec
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI4FromDec
 ---
 
 # VarUI4FromDec function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a decimal value to an unsigned long value.
 
-
 ## -parameters
-
-
-
 
 ### -param pdecIn [in]
 
 The value to convert.
 
-
 ### -param pulOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

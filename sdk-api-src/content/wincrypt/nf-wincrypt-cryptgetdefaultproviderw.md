@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultProviderW
 title: CryptGetDefaultProviderW function (wincrypt.h)
-description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
+description: Finds the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user. (Unicode)
+helpviewer_keywords: ["CRYPT_MACHINE_DEFAULT", "CRYPT_USER_DEFAULT", "CryptGetDefaultProvider", "CryptGetDefaultProvider function [Security]", "CryptGetDefaultProviderW", "_crypto2_cryptgetdefaultprovider", "security.cryptgetdefaultprovider", "wincrypt/CryptGetDefaultProvider", "wincrypt/CryptGetDefaultProviderW"]
 old-location: security\cryptgetdefaultprovider.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
 ms.date: 12/05/2018
 ms.keywords: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptGetDefaultProvider, CryptGetDefaultProvider function [Security], CryptGetDefaultProviderA, CryptGetDefaultProviderW, _crypto2_cryptgetdefaultprovider, security.cryptgetdefaultprovider, wincrypt/CryptGetDefaultProvider, wincrypt/CryptGetDefaultProviderA, wincrypt/CryptGetDefaultProviderW
-f1_keywords:
-- wincrypt/CryptGetDefaultProvider
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-Security-cryptoapi-l1-1-0.dll
-- cryptsp.dll
-api_name:
-- CryptGetDefaultProvider
-- CryptGetDefaultProviderA
-- CryptGetDefaultProviderW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptGetDefaultProviderW
+ - wincrypt/CryptGetDefaultProviderW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-Security-cryptoapi-l1-1-0.dll
+ - cryptsp.dll
+api_name:
+ - CryptGetDefaultProvider
+ - CryptGetDefaultProviderA
+ - CryptGetDefaultProviderW
 ---
 
 # CryptGetDefaultProviderW function
@@ -52,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetDefaultProvider</b> function finds the default <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) of a specified provider type for the local computer or current user. The name of the default CSP for the provider type specified in the <i>dwProvType</i> parameter is returned in the <i>pszProvName</i> buffer.
-
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptGetDefaultProvider</b> function finds the default <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) of a specified provider type for the local computer or current user. The name of the default CSP for the provider type specified in the <i>dwProvType</i> parameter is returned in the <i>pszProvName</i> buffer.
 
 ## -parameters
-
-
-
 
 ### -param dwProvType [in]
 
@@ -69,38 +66,37 @@ Defined provider types are  as follows:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-rsa-full">PROV_RSA_FULL</a>
+<a href="/windows/desktop/SecCrypto/prov-rsa-full">PROV_RSA_FULL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-rsa-sig">PROV_RSA_SIG</a>
+<a href="/windows/desktop/SecCrypto/prov-rsa-sig">PROV_RSA_SIG</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-dss">PROV_DSS</a>
+<a href="/windows/desktop/SecCrypto/prov-dss">PROV_DSS</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-dss-dh">PROV_DSS_DH</a>
+<a href="/windows/desktop/SecCrypto/prov-dss-dh">PROV_DSS_DH</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-dh-schannel">PROV_DH_SCHANNEL</a>
+<a href="/windows/desktop/SecCrypto/prov-dh-schannel">PROV_DH_SCHANNEL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-fortezza">PROV_FORTEZZA</a>
+<a href="/windows/desktop/SecCrypto/prov-fortezza">PROV_FORTEZZA</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-ms-exchange">PROV_MS_EXCHANGE</a>
+<a href="/windows/desktop/SecCrypto/prov-ms-exchange">PROV_MS_EXCHANGE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-rsa-schannel">PROV_RSA_SCHANNEL</a>
+<a href="/windows/desktop/SecCrypto/prov-rsa-schannel">PROV_RSA_SCHANNEL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/prov-ssl">PROV_SSL</a>
+<a href="/windows/desktop/SecCrypto/prov-ssl">PROV_SSL</a>
 </li>
 </ul>
 
 ### -param pdwReserved [in]
 
 This parameter is reserved for future use and must be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -134,16 +130,13 @@ Returns the computer default CSP of the specified type.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszProvName [out]
 
 A pointer to a null-terminated character string buffer to receive the name of the default CSP.
 
 To find the size of the buffer for memory allocation purposes, this parameter can be <b>NULL</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
-
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbProvName [in, out]
 
@@ -154,13 +147,11 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the buff
 
 ## -returns
 
-
-
 If the function succeeds, the return value is nonzero (<b>TRUE</b>).
 						
 
 If the function fails, the return value is zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error code prefaced by NTE is generated by the particular CSP being used. Possible error codes include the following.
 
@@ -214,21 +205,15 @@ The <i>dwFlags</i> parameter has an unrecognized value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This function determines which installed CSP is currently set as the default for the local computer or current user. This information is often displayed to the user.
 
 
 #### Examples
 
-The following example retrieves the name of the default CSP for the PROV_RSA_FULL provider type. For another example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-enumerating-csp-providers-and-provider-types">Example C Program: Enumerating CSP Providers and Provider Types</a>.
+The following example retrieves the name of the default CSP for the PROV_RSA_FULL provider type. For another example that uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-enumerating-csp-providers-and-provider-types">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
 
 ```cpp
@@ -292,21 +277,18 @@ void main()
 
 
 
+
+> [!NOTE]
+> The wincrypt.h header defines CryptGetDefaultProvider as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera">CryptSetProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovidera">CryptSetProvider</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa">CryptSetProviderEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetproviderexa">CryptSetProviderEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>

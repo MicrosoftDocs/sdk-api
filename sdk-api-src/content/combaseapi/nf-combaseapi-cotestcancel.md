@@ -2,15 +2,12 @@
 UID: NF:combaseapi.CoTestCancel
 title: CoTestCancel function (combaseapi.h)
 description: Determines whether the call being executed on the server has been canceled by the client.
+helpviewer_keywords: ["CoTestCancel","CoTestCancel function [COM]","_com_CoTestCancel","com.cotestcancel","combaseapi/CoTestCancel"]
 old-location: com\cotestcancel.htm
 tech.root: com
 ms.assetid: 9432621a-be31-4b8b-83b6-069539ba06b4
 ms.date: 12/05/2018
 ms.keywords: CoTestCancel, CoTestCancel function [COM], _com_CoTestCancel, com.cotestcancel, combaseapi/CoTestCancel
-f1_keywords:
-- combaseapi/CoTestCancel
-dev_langs:
-- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ole32.dll
-- API-MS-Win-Core-Com-l1-1-0.dll
-- ComBase.dll
-- API-MS-Win-Core-Com-l1-1-1.dll
-- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
-api_name:
-- CoTestCancel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CoTestCancel
+ - combaseapi/CoTestCancel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ole32.dll
+ - API-MS-Win-Core-Com-l1-1-0.dll
+ - ComBase.dll
+ - API-MS-Win-Core-Com-l1-1-1.dll
+ - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+api_name:
+ - CoTestCancel
 ---
 
 # CoTestCancel function
@@ -52,20 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the call being executed on the server has been canceled by the client.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This function can return the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEMORY, and E_UNEXPECTED, as well as the following values.
 
@@ -97,31 +90,15 @@ The call has been canceled by the client.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Server objects should call <b>CoTestCancel</b> at least once before returning to detect client cancellation requests. Doing so can save the server unnecessary work if the client has issued a cancellation request, and it can reduce the client's wait time if it has set the cancel timeout as RPC_C_CANCEL_INFINITE_TIMEOUT. Furthermore, if the server object detects a cancellation request before returning from a pending call, it can clean up any memory, marshaled interfaces, or handles it has created or obtained. 
 
-<b>CoTestCancel</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a> interface on the current cancel object and then calls <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel">ICancelMethodCalls::TestCancel</a>. Objects that implement custom marshaling should first call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext">CoSwitchCallContext</a> to install the appropriate call context object.
+<b>CoTestCancel</b> calls <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a> to obtain the <a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a> interface on the current cancel object and then calls <a href="/windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel">ICancelMethodCalls::TestCancel</a>. Objects that implement custom marshaling should first call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext">CoSwitchCallContext</a> to install the appropriate call context object.
 
 This function does not test cancellation for asynchronous calls.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>

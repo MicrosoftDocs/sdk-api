@@ -2,15 +2,12 @@
 UID: NF:pnpxassoc.IPNPXAssociation.Delete
 title: IPNPXAssociation::Delete (pnpxassoc.h)
 description: Removes an entry from the association database.
+helpviewer_keywords: ["Delete","Delete method","Delete method","IPNPXAssociation interface","IPNPXAssociation interface","Delete method","IPNPXAssociation.Delete","IPNPXAssociation::Delete","ncd.ipnpxassociation_delete","pnpxassoc/IPNPXAssociation::Delete"]
 old-location: ncd\ipnpxassociation_delete.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: cc00c135-140d-4e05-9180-779917d88688
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXAssociation interface, IPNPXAssociation interface,Delete method, IPNPXAssociation.Delete, IPNPXAssociation::Delete, ncd.ipnpxassociation_delete, pnpxassoc/IPNPXAssociation::Delete
-f1_keywords:
-- pnpxassoc/IPNPXAssociation.Delete
-dev_langs:
-- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- pnpxassoc.h
-api_name:
-- IPNPXAssociation.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPNPXAssociation::Delete
+ - pnpxassoc/IPNPXAssociation::Delete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - pnpxassoc.h
+api_name:
+ - IPNPXAssociation.Delete
 ---
 
 # IPNPXAssociation::Delete
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Removes an entry from the association database.
 
-
 ## -parameters
-
-
-
 
 ### -param pszSubcategory [in, optional]
 
 The subcategory of the association database in which the entry is stored.  This parameter can be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -98,33 +92,17 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This method modifies the association database entry corresponding to the function instance from which the <a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a> interface was obtained. 
 
-
-This method modifies the association database entry corresponding to the function instance from which the <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a> interface was obtained. 
-
-To mark a device as unavailable for use without deleting the association database entry, call <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>.
-
-
-
+To mark a device as unavailable for use without deleting the association database entry, call <a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxassociation-unassociate">IPNPXAssociation::Unassociate</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxdeviceassociation-delete">IPNPXDeviceAssociation::Delete</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxdeviceassociation-delete">IPNPXDeviceAssociation::Delete</a>

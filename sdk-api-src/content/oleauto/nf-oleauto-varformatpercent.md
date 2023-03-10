@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarFormatPercent
 title: VarFormatPercent function (oleauto.h)
 description: Formats a variant containing percentages into a string form.
+helpviewer_keywords: ["VarFormatPercent","VarFormatPercent function [Automation]","_oa96_VarFormatPercent","automat.varformatpercent","oleauto/VarFormatPercent"]
 old-location: automat\varformatpercent.htm
 tech.root: automat
 ms.assetid: 3b0e4f05-6ca4-4685-bdaa-dd44a6a7d89e
 ms.date: 12/05/2018
 ms.keywords: VarFormatPercent, VarFormatPercent function [Automation], _oa96_VarFormatPercent, automat.varformatpercent, oleauto/VarFormatPercent
-f1_keywords:
-- oleauto/VarFormatPercent
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarFormatPercent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarFormatPercent
+ - oleauto/VarFormatPercent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarFormatPercent
 ---
 
 # VarFormatPercent function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Formats a variant containing percentages into a string form.
 
-
 ## -parameters
-
-
-
 
 ### -param pvarIn [in]
 
 The variant containing the value to format.
 
-
-
 ### -param iNumDig [in]
 
 The number of digits to pad to after the decimal point. Specify -1 to use the system default value.
-
 
 ### -param iIncLead [in]
 
@@ -111,8 +105,6 @@ Do not include the leading digit.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param iUseParens [in]
 
@@ -157,8 +149,6 @@ Do not use parentheses.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param iGroup [in]
 
@@ -205,22 +195,16 @@ Do not group thousands.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
 VAR_CALENDAR_HIJRI is the only flag that can be set.
 
-
 ### -param pbstrOut [out]
 
 Receives the formatted string that represents the variant.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -252,16 +236,7 @@ One or more of the arguments is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This function uses the user's default locale while calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
-
-
-
+This function uses the user's default locale while calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-vartokenizeformatstring">VarTokenizeFormatString</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.

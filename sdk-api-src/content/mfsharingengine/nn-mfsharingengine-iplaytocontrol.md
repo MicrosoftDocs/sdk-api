@@ -2,15 +2,12 @@
 UID: NN:mfsharingengine.IPlayToControl
 title: IPlayToControl (mfsharingengine.h)
 description: Enables the PlayToConnection object to connect to a media element.
+helpviewer_keywords: ["IPlayToControl","IPlayToControl interface [Media Foundation]","IPlayToControl interface [Media Foundation]","described","mf.iplaytocontrol","mfsharingengine/IPlayToControl"]
 old-location: mf\iplaytocontrol.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254
 ms.date: 12/05/2018
 ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
-f1_keywords:
-- mfsharingengine/IPlayToControl
-dev_langs:
-- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfsharingengine.h
-api_name:
-- IPlayToControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPlayToControl
+ - mfsharingengine/IPlayToControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfsharingengine.h
+api_name:
+ - IPlayToControl
 ---
 
 # IPlayToControl interface
@@ -48,53 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables the <b>PlayToConnection</b> object to connect to a media element.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlayToControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPlayToControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-connect">Connect</a>
-</td>
-<td align="left" width="63%">
-Connects the media element to the media sharing engine.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrol-disconnect">Disconnect</a>
-</td>
-<td align="left" width="63%">
-Disconnects the media element from the media sharing engine.
-
-</td>
-</tr>
-</table> 
-
+The <b>IPlayToControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPlayToControl</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

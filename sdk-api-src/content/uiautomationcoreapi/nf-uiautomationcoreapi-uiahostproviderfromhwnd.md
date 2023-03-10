@@ -2,15 +2,12 @@
 UID: NF:uiautomationcoreapi.UiaHostProviderFromHwnd
 title: UiaHostProviderFromHwnd function (uiautomationcoreapi.h)
 description: Gets the host provider for a window.
+helpviewer_keywords: ["UiaHostProviderFromHwnd","UiaHostProviderFromHwnd function [Windows Accessibility]","uiauto.uiauto_UiaHostProviderFromHwndFunction","uiauto_UiaHostProviderFromHwndFunction","uiautomationcoreapi/UiaHostProviderFromHwnd","winauto.uiauto_UiaHostProviderFromHwndFunction"]
 old-location: winauto\uiauto_UiaHostProviderFromHwndFunction.htm
 tech.root: WinAuto
 ms.assetid: 8cc8a8d8-a4e0-477e-bf3b-2fd5df2b9db1
 ms.date: 12/05/2018
 ms.keywords: UiaHostProviderFromHwnd, UiaHostProviderFromHwnd function [Windows Accessibility], uiauto.uiauto_UiaHostProviderFromHwndFunction, uiauto_UiaHostProviderFromHwndFunction, uiautomationcoreapi/UiaHostProviderFromHwnd, winauto.uiauto_UiaHostProviderFromHwndFunction
-f1_keywords:
-- uiautomationcoreapi/UiaHostProviderFromHwnd
-dev_langs:
-- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Uiautomationcore.dll
-- Ext-MS-Win-uiacore-l1-1-0.dll
-- Ext-MS-Win-UIaCore-l1-1-1.dll
-- Ext-MS-Win-UIaCore-l1-1-2.dll
-- Ext-MS-Win-UiaCore-L1-1-3.dll
-api_name:
-- UiaHostProviderFromHwnd
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UiaHostProviderFromHwnd
+ - uiautomationcoreapi/UiaHostProviderFromHwnd
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Uiautomationcore.dll
+ - Ext-MS-Win-uiacore-l1-1-0.dll
+ - Ext-MS-Win-UIaCore-l1-1-1.dll
+ - Ext-MS-Win-UIaCore-l1-1-2.dll
+ - Ext-MS-Win-UiaCore-L1-1-3.dll
+api_name:
+ - UiaHostProviderFromHwnd
 ---
 
 # UiaHostProviderFromHwnd function
@@ -52,45 +54,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the host provider for a window.
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The window containing the element served by the provider.
 
-
 ### -param ppProvider [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>**</b>
 
 The host provider for the window.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-The object retrieved by this function is useful only for responding to calls to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_hostrawelementprovider">IRawElementProviderSimple::get_HostRawElementProvider</a> method. You cannot use the object to raise events, provide properties, and so on.  If you need to raise events or provide properties, you must create a provider object that fully implements the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interface.
+The object retrieved by this function is useful only for responding to calls to the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple-get_hostrawelementprovider">IRawElementProviderSimple::get_HostRawElementProvider</a> method. You cannot use the object to raise events, provide properties, and so on.  If you need to raise events or provide properties, you must create a provider object that fully implements the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interface.
 
 
 #### Examples
@@ -106,17 +94,6 @@ HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProvid
 } 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-functions">Functions for Providers</a>

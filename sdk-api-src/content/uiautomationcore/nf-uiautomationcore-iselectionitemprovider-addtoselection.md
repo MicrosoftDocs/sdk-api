@@ -1,16 +1,13 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.AddToSelection
 title: ISelectionItemProvider::AddToSelection (uiautomationcore.h)
-description: Adds the current element to the collection of selected items.
+description: Adds the current element to the collection of selected items. (ISelectionItemProvider.AddToSelection)
+helpviewer_keywords: ["AddToSelection","AddToSelection method [Windows Accessibility]","AddToSelection method [Windows Accessibility]","ISelectionItemProvider interface","ISelectionItemProvider interface [Windows Accessibility]","AddToSelection method","ISelectionItemProvider.AddToSelection","ISelectionItemProvider::AddToSelection","uiauto.uiauto_ISelectionItemProvider_AddToSelection","uiauto_ISelectionItemProvider_AddToSelection","uiautomationcore/ISelectionItemProvider::AddToSelection","winauto.uiauto_ISelectionItemProvider_AddToSelection"]
 old-location: winauto\uiauto_ISelectionItemProvider_AddToSelection.htm
 tech.root: WinAuto
 ms.assetid: 7c54d57f-7cca-4068-80d9-995c46de1962
 ms.date: 12/05/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],ISelectionItemProvider interface, ISelectionItemProvider interface [Windows Accessibility],AddToSelection method, ISelectionItemProvider.AddToSelection, ISelectionItemProvider::AddToSelection, uiauto.uiauto_ISelectionItemProvider_AddToSelection, uiauto_ISelectionItemProvider_AddToSelection, uiautomationcore/ISelectionItemProvider::AddToSelection, winauto.uiauto_ISelectionItemProvider_AddToSelection
-f1_keywords:
-- uiautomationcore/ISelectionItemProvider.AddToSelection
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.h
-api_name:
-- ISelectionItemProvider.AddToSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISelectionItemProvider::AddToSelection
+ - uiautomationcore/ISelectionItemProvider::AddToSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.h
+api_name:
+ - ISelectionItemProvider.AddToSelection
 ---
 
 # ISelectionItemProvider::AddToSelection
@@ -48,53 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds the current element to the collection of selected items.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 If the result of a call to <b>ISelectionItemProvider::AddToSelection</b> is that a single item is selected, then 
-			send an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementSelectedEventId</a> event for that element; otherwise send an <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementAddedToSelectionEventId</a> or 
-			<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementRemovedFromSelectionEventId</a> event as appropriate. 
+			send an <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementSelectedEventId</a> event for that element; otherwise send an <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementAddedToSelectionEventId</a> or 
+			<a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_ElementRemovedFromSelectionEventId</a> event as appropriate. 
 
 <div class="alert"><b>Note</b>  This rule does not depend on whether the container allows single or multiple selection, 
 			or on what method was used to change the selection. Only the result matters.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider">ISelectionItemProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionitemprovider">ISelectionItemProvider</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

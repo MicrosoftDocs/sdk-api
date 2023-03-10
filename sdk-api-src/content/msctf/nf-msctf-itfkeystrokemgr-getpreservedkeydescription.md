@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfKeystrokeMgr.GetPreservedKeyDescription
 title: ITfKeystrokeMgr::GetPreservedKeyDescription (msctf.h)
 description: ITfKeystrokeMgr::GetPreservedKeyDescription method
+helpviewer_keywords: ["GetPreservedKeyDescription","GetPreservedKeyDescription method [Text Services Framework]","GetPreservedKeyDescription method [Text Services Framework]","ITfKeystrokeMgr interface","ITfKeystrokeMgr interface [Text Services Framework]","GetPreservedKeyDescription method","ITfKeystrokeMgr.GetPreservedKeyDescription","ITfKeystrokeMgr::GetPreservedKeyDescription","_tsf_itfkeystrokemgr_getpreservedkeydescription_ref","msctf/ITfKeystrokeMgr::GetPreservedKeyDescription","tsf.itfkeystrokemgr_getpreservedkeydescription"]
 old-location: tsf\itfkeystrokemgr_getpreservedkeydescription.htm
 tech.root: TSF
 ms.assetid: 5ae2b56f-0dd9-4f37-a677-20b53c7200c7
 ms.date: 12/05/2018
 ms.keywords: GetPreservedKeyDescription, GetPreservedKeyDescription method [Text Services Framework], GetPreservedKeyDescription method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKeyDescription method, ITfKeystrokeMgr.GetPreservedKeyDescription, ITfKeystrokeMgr::GetPreservedKeyDescription, _tsf_itfkeystrokemgr_getpreservedkeydescription_ref, msctf/ITfKeystrokeMgr::GetPreservedKeyDescription, tsf.itfkeystrokemgr_getpreservedkeydescription
-f1_keywords:
-- msctf/ITfKeystrokeMgr.GetPreservedKeyDescription
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfKeystrokeMgr.GetPreservedKeyDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfKeystrokeMgr::GetPreservedKeyDescription
+ - msctf/ITfKeystrokeMgr::GetPreservedKeyDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfKeystrokeMgr.GetPreservedKeyDescription
 ---
 
 # ITfKeystrokeMgr::GetPreservedKeyDescription
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the description string of an existing preserved key.
 
 ## -parameters
-
-
-
 
 ### -param rguid [in]
 
 Contains the command GUID of the preserved key.
 
-
 ### -param pbstrDesc [out]
 
-Pointer to a BSTR value the receives the description string. The caller must free this memory using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
-
+Pointer to a BSTR value the receives the description string. The caller must free this memory using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -111,31 +105,15 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Preserved keys are registered by TSF text services and provide keyboard shortcuts to common commands implemented by the TSF text service.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

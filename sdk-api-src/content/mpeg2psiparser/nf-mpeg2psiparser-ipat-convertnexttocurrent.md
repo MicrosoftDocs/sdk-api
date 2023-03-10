@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.IPAT.ConvertNextToCurrent
 title: IPAT::ConvertNextToCurrent (mpeg2psiparser.h)
 description: The ConvertNextToCurrent method converts a next table to a current table.
+helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","IPAT.ConvertNextToCurrent","IPAT::ConvertNextToCurrent","IPATConvertNextToCurrent","mpeg2psiparser/IPAT::ConvertNextToCurrent","mstv.ipat_convertnexttocurrent"]
 old-location: mstv\ipat_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: 89a493b9-93d3-435f-a4dc-24f8f8e2d1bf
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPAT.ConvertNextToCurrent, IPAT::ConvertNextToCurrent, IPATConvertNextToCurrent, mpeg2psiparser/IPAT::ConvertNextToCurrent, mstv.ipat_convertnexttocurrent
-f1_keywords:
-- mpeg2psiparser/IPAT.ConvertNextToCurrent
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPAT.ConvertNextToCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPAT::ConvertNextToCurrent
+ - mpeg2psiparser/IPAT::ConvertNextToCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPAT.ConvertNextToCurrent
 ---
 
 # IPAT::ConvertNextToCurrent
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ConvertNextToCurrent</b> method converts a <i>next</i> table to a <i>current</i> table.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,27 +108,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-registerforwhencurrent">IPAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
-
-
-
+This method applies only to <i>next</i> tables that have become current. Before calling this method, call <a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-ipat-registerforwhencurrent">IPAT::RegisterForWhenCurrent</a> and wait for the event to be signaled.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT Interface</a>

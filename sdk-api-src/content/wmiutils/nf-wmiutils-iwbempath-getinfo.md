@@ -2,15 +2,12 @@
 UID: NF:wmiutils.IWbemPath.GetInfo
 title: IWbemPath::GetInfo (wmiutils.h)
 description: The IWbemPath::GetInfo method returns details about a path that has been placed into a parser object.
+helpviewer_keywords: ["GetInfo","GetInfo method [Windows Management Instrumentation]","GetInfo method [Windows Management Instrumentation]","IWbemPath interface","IWbemPath interface [Windows Management Instrumentation]","GetInfo method","IWbemPath.GetInfo","IWbemPath::GetInfo","WBEMPATH_INFO_ANON_LOCAL_MACHINE","WBEMPATH_INFO_CIM_COMPLIANT","WBEMPATH_INFO_CONTAINS_SINGLETON","WBEMPATH_INFO_HAS_IMPLIED_KEY","WBEMPATH_INFO_HAS_MACHINE_NAME","WBEMPATH_INFO_HAS_SUBSCOPES","WBEMPATH_INFO_HAS_V2_REF_PATHS","WBEMPATH_INFO_IS_CLASS_REF","WBEMPATH_INFO_IS_COMPOUND","WBEMPATH_INFO_IS_INST_REF","WBEMPATH_INFO_IS_PARENT","WBEMPATH_INFO_IS_SINGLETON","WBEMPATH_INFO_NATIVE_PATH","WBEMPATH_INFO_PATH_HAD_SERVER","WBEMPATH_INFO_SERVER_NAMESPACE_ONLY","WBEMPATH_INFO_V1_COMPLIANT","WBEMPATH_INFO_V2_COMPLIANT","WBEMPATH_INFO_WMI_PATH","_hmm_iwbempath_getinfo","wmi.iwbempath_getinfo","wmiutils/IWbemPath::GetInfo"]
 old-location: wmi\iwbempath_getinfo.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 64f91184-668c-49ec-b8f9-aeeb7227ea6b
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Windows Management Instrumentation], GetInfo method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetInfo method, IWbemPath.GetInfo, IWbemPath::GetInfo, WBEMPATH_INFO_ANON_LOCAL_MACHINE, WBEMPATH_INFO_CIM_COMPLIANT, WBEMPATH_INFO_CONTAINS_SINGLETON, WBEMPATH_INFO_HAS_IMPLIED_KEY, WBEMPATH_INFO_HAS_MACHINE_NAME, WBEMPATH_INFO_HAS_SUBSCOPES, WBEMPATH_INFO_HAS_V2_REF_PATHS, WBEMPATH_INFO_IS_CLASS_REF, WBEMPATH_INFO_IS_COMPOUND, WBEMPATH_INFO_IS_INST_REF, WBEMPATH_INFO_IS_PARENT, WBEMPATH_INFO_IS_SINGLETON, WBEMPATH_INFO_NATIVE_PATH, WBEMPATH_INFO_PATH_HAD_SERVER, WBEMPATH_INFO_SERVER_NAMESPACE_ONLY, WBEMPATH_INFO_V1_COMPLIANT, WBEMPATH_INFO_V2_COMPLIANT, WBEMPATH_INFO_WMI_PATH, _hmm_iwbempath_getinfo, wmi.iwbempath_getinfo, wmiutils/IWbemPath::GetInfo
-f1_keywords:
-- wmiutils/IWbemPath.GetInfo
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmiutils.dll
-api_name:
-- IWbemPath.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWbemPath::GetInfo
+ - wmiutils/IWbemPath::GetInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmiutils.dll
+api_name:
+ - IWbemPath.GetInfo
 ---
 
 # IWbemPath::GetInfo
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IWbemPath::GetInfo</b> method returns details about a path that has been placed into a parser object.
 
-
 ## -parameters
-
-
-
 
 ### -param uRequestedInfo [in]
 
 Reserved for future use. Must be 0 (zero).
-
 
 ### -param puResponse [out]
 
@@ -162,7 +158,7 @@ There is no class portion of the path.
 #### WBEMPATH_INFO_NATIVE_PATH
 
 Path parser was initialized using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a>.
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a>.
 
 
 
@@ -175,26 +171,13 @@ Reserved. Do not use.
 #### WBEMPATH_INFO_PATH_HAD_SERVER
 
 Server name was set by either 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setserver">SetServer</a>.
-
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> or 
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setserver">SetServer</a>.
 
 ## -returns
 
-
-
 This method returns one of the following values.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>

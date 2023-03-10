@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorCollection.Add
 title: ISensorCollection::Add (sensorsapi.h)
 description: Adds a sensor to the collection.
+helpviewer_keywords: ["Add","Add method","Add method","ISensorCollection interface","ISensorCollection interface","Add method","ISensorCollection.Add","ISensorCollection::Add","sensorsapi/ISensorCollection::Add","winsensors_com_ref.isensorcollection_add"]
 old-location: winsensors_com_ref\isensorcollection_add.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 7f563d5d-2943-4cbd-bfb5-c347ec270e85
 ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,ISensorCollection interface, ISensorCollection interface,Add method, ISensorCollection.Add, ISensorCollection::Add, sensorsapi/ISensorCollection::Add, winsensors_com_ref.isensorcollection_add
-f1_keywords:
-- sensorsapi/ISensorCollection.Add
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorCollection::Add
+ - sensorsapi/ISensorCollection::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorCollection.Add
 ---
 
 # ISensorCollection::Add
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a sensor to the collection.
-
 
 ## -parameters
 
-
-
-
 ### -param pSensor [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface for the sensor to add to the collection.
-
+Pointer to the <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface for the sensor to add to the collection.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -97,18 +91,7 @@ The sensor collection already contains a sensor with the specified ID.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>

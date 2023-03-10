@@ -2,15 +2,12 @@
 UID: NF:iwstdec.IAMWstDecoder.SetRedrawAlways
 title: IAMWstDecoder::SetRedrawAlways (iwstdec.h)
 description: Downstream filters use the SetRedrawAlways method to determine whether the whole output bitmap should be redrawn for each sample.
+helpviewer_keywords: ["IAMWstDecoder interface [DirectShow]","SetRedrawAlways method","IAMWstDecoder.SetRedrawAlways","IAMWstDecoder::SetRedrawAlways","IAMWstDecoderSetRedrawAlways","SetRedrawAlways","SetRedrawAlways method [DirectShow]","SetRedrawAlways method [DirectShow]","IAMWstDecoder interface","dshow.iamwstdecoder_setredrawalways","iwstdec/IAMWstDecoder::SetRedrawAlways"]
 old-location: dshow\iamwstdecoder_setredrawalways.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4663a9c0-3d08-4f25-8742-458081536f98
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetRedrawAlways method, IAMWstDecoder.SetRedrawAlways, IAMWstDecoder::SetRedrawAlways, IAMWstDecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setredrawalways, iwstdec/IAMWstDecoder::SetRedrawAlways
-f1_keywords:
-- iwstdec/IAMWstDecoder.SetRedrawAlways
-dev_langs:
-- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMWstDecoder.SetRedrawAlways
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMWstDecoder::SetRedrawAlways
+ - iwstdec/IAMWstDecoder::SetRedrawAlways
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMWstDecoder.SetRedrawAlways
 ---
 
 # IAMWstDecoder::SetRedrawAlways
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Downstream filters use the <code>SetRedrawAlways</code> method to determine whether the whole output bitmap should be redrawn for each sample.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bOption [in]
 
@@ -81,29 +75,15 @@ Specifies a <b>BOOL</b> to assign whether the whole output bitmap should be redr
 <td>Do not redraw the whole output bitmap for each sample.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 When the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder Interface</a>

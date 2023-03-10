@@ -2,15 +2,12 @@
 UID: NF:fwpmu.FwpmConnectionSubscribe0
 title: FwpmConnectionSubscribe0 function (fwpmu.h)
 description: Is used to request the delivery of notifications about changes to a connection object.
+helpviewer_keywords: ["FwpmConnectionSubscribe0","FwpmConnectionSubscribe0 function [Filtering]","fwp.fwpmconnectionsubscribe0","fwpmu/FwpmConnectionSubscribe0"]
 old-location: fwp\fwpmconnectionsubscribe0.htm
 tech.root: fwp
 ms.assetid: 86fe40b0-aada-44e1-91dd-0e825589159d
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionSubscribe0, FwpmConnectionSubscribe0 function [Filtering], fwp.fwpmconnectionsubscribe0, fwpmu/FwpmConnectionSubscribe0
-f1_keywords:
-- fwpmu/FwpmConnectionSubscribe0
-dev_langs:
-- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -28,55 +25,49 @@ req.type-library:
 req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Fwpuclnt.dll
-api_name:
-- FwpmConnectionSubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FwpmConnectionSubscribe0
+ - fwpmu/FwpmConnectionSubscribe0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Fwpuclnt.dll
+api_name:
+ - FwpmConnectionSubscribe0
 ---
-
-# FwpmConnectionSubscribe0 function
-
 
 ## -description
 
-
 The <b>FwpmConnectionSubscribe0</b> function is used to request the delivery of notifications about changes to a connection object.
 
-
 ## -parameters
-
-
-
 
 ### -param engineHandle [in]
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
-
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param subscription [in]
 
-Type: [FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>*</b>
+Type: **[FWPM_CONNECTION_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)\***
 
 The notifications which will be delivered.
 
-
 ### -param callback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0">FWPM_CONNECTION_CALLBACK0</a></b>
+Type: <b><a href="/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0">FWPM_CONNECTION_CALLBACK0</a></b>
 
 Function pointer that will be invoked when a notification is ready for delivery.
-
 
 ### -param context [in, optional]
 
@@ -84,17 +75,13 @@ Type: <b>void*</b>
 
 Optional context pointer. This pointer is passed to the <i>callback</i> function along with details of the event.
 
-
 ### -param eventsHandle [out]
 
 Type: <b>HANDLE*</b>
 
 Handle to the newly created subscription.
 
-
 ## -returns
-
-
 
 Type: <b>DWORD</b>
 
@@ -123,7 +110,7 @@ The subscription was created successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -140,38 +127,22 @@ Failure to communicate with the remote or local firewall engine.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function cannot be called from within a transaction. It will fail
-with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
+with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_SUBSCRIBE</a> access to the connection object's container.
-
-
-
+The caller needs <a href="/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_SUBSCRIBE</a> access to the connection object's container.
 
 ## -see-also
 
+<a href="/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0">FWPM_CONNECTION_CALLBACK0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_connection_callback0">FWPM_CONNECTION_CALLBACK0</a>
+[FWPM_CONNECTION_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)
 
 
 
-[FWPM_CONNECTION_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionunsubscribe0">FwpmConnectionUnsubscribe0</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionunsubscribe0">FwpmConnectionUnsubscribe0</a>

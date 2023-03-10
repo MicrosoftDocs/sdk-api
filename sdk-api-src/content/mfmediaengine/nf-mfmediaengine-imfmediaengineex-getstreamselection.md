@@ -1,16 +1,13 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetStreamSelection
 title: IMFMediaEngineEx::GetStreamSelection (mfmediaengine.h)
-description: Queries whether a stream is selected to play.
+description: Queries whether a stream is selected to play. (IMFMediaEngineEx.GetStreamSelection)
+helpviewer_keywords: ["FALSE","GetStreamSelection","GetStreamSelection method [Media Foundation]","GetStreamSelection method [Media Foundation]","IMFMediaEngineEx interface","IMFMediaEngineEx interface [Media Foundation]","GetStreamSelection method","IMFMediaEngineEx.GetStreamSelection","IMFMediaEngineEx::GetStreamSelection","TRUE","mf.imfmediaengineex_getstreamselection","mfmediaengine/IMFMediaEngineEx::GetStreamSelection"]
 old-location: mf\imfmediaengineex_getstreamselection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 93EA1E19-4333-484D-96C8-3244F7C040EF
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetStreamSelection method, IMFMediaEngineEx.GetStreamSelection, IMFMediaEngineEx::GetStreamSelection, TRUE, mf.imfmediaengineex_getstreamselection, mfmediaengine/IMFMediaEngineEx::GetStreamSelection
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx.GetStreamSelection
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx.GetStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx::GetStreamSelection
+ - mfmediaengine/IMFMediaEngineEx::GetStreamSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx.GetStreamSelection
 ---
 
 # IMFMediaEngineEx::GetStreamSelection
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether a stream is selected to play.
-
 
 ## -parameters
 
-
-
-
 ### -param dwStreamIndex [in]
 
-The zero-based index of the stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getnumberofstreams">IMFMediaEngineEx::GetNumberOfStreams</a>.
-
+The zero-based index of the stream. To get the number of streams, call <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getnumberofstreams">IMFMediaEngineEx::GetNumberOfStreams</a>.
 
 ### -param pEnabled [out]
 
@@ -93,25 +89,11 @@ The stream is not selected. During playback, this stream will not play.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>

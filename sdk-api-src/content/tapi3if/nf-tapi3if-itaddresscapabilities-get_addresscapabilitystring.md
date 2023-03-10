@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITAddressCapabilities.get_AddressCapabilityString
 title: ITAddressCapabilities::get_AddressCapabilityString (tapi3if.h)
 description: The get_AddressCapabilityString method gets the capability string for a given ADDRESS_CAPABILITY_STRING.
+helpviewer_keywords: ["ITAddressCapabilities interface [TAPI 2.2]","get_AddressCapabilityString method","ITAddressCapabilities.get_AddressCapabilityString","ITAddressCapabilities::get_AddressCapabilityString","_tapi3_itaddresscapabilities_get_addresscapabilitystring","get_AddressCapabilityString","get_AddressCapabilityString method [TAPI 2.2]","get_AddressCapabilityString method [TAPI 2.2]","ITAddressCapabilities interface","tapi3.itaddresscapabilities_get_addresscapabilitystring","tapi3if/ITAddressCapabilities::get_AddressCapabilityString"]
 old-location: tapi3\itaddresscapabilities_get_addresscapabilitystring.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9ec4c25e-700b-4aed-97ff-e7cb420fdf96
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_AddressCapabilityString method, ITAddressCapabilities.get_AddressCapabilityString, ITAddressCapabilities::get_AddressCapabilityString, _tapi3_itaddresscapabilities_get_addresscapabilitystring, get_AddressCapabilityString, get_AddressCapabilityString method [TAPI 2.2], get_AddressCapabilityString method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_addresscapabilitystring, tapi3if/ITAddressCapabilities::get_AddressCapabilityString
-f1_keywords:
-- tapi3if/ITAddressCapabilities.get_AddressCapabilityString
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAddressCapabilities.get_AddressCapabilityString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAddressCapabilities::get_AddressCapabilityString
+ - tapi3if/ITAddressCapabilities::get_AddressCapabilityString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAddressCapabilities.get_AddressCapabilityString
 ---
 
 # ITAddressCapabilities::get_AddressCapabilityString
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_AddressCapabilityString</b> method gets the capability string for a given 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability_string">ADDRESS_CAPABILITY_STRING</a>.
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-address_capability_string">ADDRESS_CAPABILITY_STRING</a>.
 
 ## -parameters
-
-
-
 
 ### -param AddressCapString [in]
 
 Descriptor for desired address capability string.
 
-
 ### -param ppCapabilityString [out]
 
 Pointer to <b>BSTR</b> value of address capability. <b>NULL</b> is a possible return value if the TSP does not provide a value for <i>AddressCapString</i>.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -136,37 +129,20 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppCapabilityString</i> parameter.
-			
-
-
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppCapabilityString</i> parameter.
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-address_capability_string">ADDRESS_CAPABILITY_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-address_capability_string">ADDRESS_CAPABILITY_STRING</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>

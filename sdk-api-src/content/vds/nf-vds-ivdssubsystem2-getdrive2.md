@@ -1,16 +1,13 @@
 ---
 UID: NF:vds.IVdsSubSystem2.GetDrive2
 title: IVdsSubSystem2::GetDrive2 (vds.h)
-description: Returns the specified drive. This method is identical to the IVdsSubSystem::GetDrive method, except that it includes the enclosure number as a parameter.
+description: The IVdsSubSystem2::GetDrive2 method (vds.h) returns the specified drive and includes the enclosure number as a parameter.
+helpviewer_keywords: ["GetDrive2","GetDrive2 method","GetDrive2 method","IVdsSubSystem2 interface","IVdsSubSystem2 interface","GetDrive2 method","IVdsSubSystem2.GetDrive2","IVdsSubSystem2::GetDrive2","base.ivdssubsystem2_getdrive2","vds/IVdsSubSystem2::GetDrive2","vdshwprv/IVdsSubSystem2::GetDrive2"]
 old-location: base\ivdssubsystem2_getdrive2.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 5646da50-5ebd-44d8-b2e1-b3e96b9a6d3c
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: GetDrive2, GetDrive2 method, GetDrive2 method,IVdsSubSystem2 interface, IVdsSubSystem2 interface,GetDrive2 method, IVdsSubSystem2.GetDrive2, IVdsSubSystem2::GetDrive2, base.ivdssubsystem2_getdrive2, vds/IVdsSubSystem2::GetDrive2, vdshwprv/IVdsSubSystem2::GetDrive2
-f1_keywords:
-- vds/IVdsSubSystem2.GetDrive2
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsSubSystem2.GetDrive2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsSubSystem2::GetDrive2
+ - vds/IVdsSubSystem2::GetDrive2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsSubSystem2.GetDrive2
 ---
 
 # IVdsSubSystem2::GetDrive2
@@ -49,43 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
-
-Returns the specified drive. This method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">IVdsSubSystem::GetDrive</a> method, except that it includes the enclosure number as a parameter.
-
+Returns the specified drive. This method is identical to the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">IVdsSubSystem::GetDrive</a> method, except that it includes the enclosure number as a parameter.
 
 ## -parameters
-
-
-
 
 ### -param sBusNumber [in]
 
 The number of the bus to which the drive is connected.
 
-
 ### -param sSlotNumber [in]
 
 The number of the slot the drive occupies.
 
-
 ### -param ulEnclosureNumber [in]
 
-The number of the enclosure that contains the drive. This parameter corresponds to the <b>ulEnclosureNumber</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop2">VDS_DRIVE_PROP2</a> structure.
-
+The number of the enclosure that contains the drive. This parameter corresponds to the <b>ulEnclosureNumber</b> member of the <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop2">VDS_DRIVE_PROP2</a> structure.
 
 ### -param ppDrive [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsdrive">IVdsDrive</a> interface pointer. Callers 
+The address of an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsdrive">IVdsDrive</a> interface pointer. Callers 
       must release the interface.
-
 
 ## -returns
 
-
-
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -101,8 +92,8 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 </td>
 <td width="60%">
 There is a software or communication problem inside a provider that caches information about 
-        the array. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> 
-        method followed by the  <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> 
+        the array. Use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> 
+        method followed by the  <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> 
         method to restore the cache.
        
 
@@ -147,38 +138,27 @@ Another operation is in progress; this operation cannot proceed until the previo
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsdrive2">IVdsDrive2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsdrive2">IVdsDrive2</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem2">IVdsSubSystem2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem2">IVdsSubSystem2</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">IVdsSubSystem::GetDrive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-getdrive">IVdsSubSystem::GetDrive</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querydrives">IVdsSubSystem::QueryDrives</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querydrives">IVdsSubSystem::QueryDrives</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateServiceCollection.get_Count
 title: IUpdateServiceCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.
+description: Gets the number of elements in the collection. (IUpdateServiceCollection.get_Count)
+helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IUpdateServiceCollection interface","IUpdateServiceCollection interface [Windows Update Agent]","Count property","IUpdateServiceCollection.Count","IUpdateServiceCollection.get_Count","IUpdateServiceCollection::Count","IUpdateServiceCollection::get_Count","get_Count","wua.iupdateservicecollection_count","wuapi/IUpdateServiceCollection::Count","wuapi/IUpdateServiceCollection::get_Count"]
 old-location: wua\iupdateservicecollection_count.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: c52afc93-ac73-46d5-9f32-9d2bb8e65176
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateServiceCollection interface, IUpdateServiceCollection interface [Windows Update Agent],Count property, IUpdateServiceCollection.Count, IUpdateServiceCollection.get_Count, IUpdateServiceCollection::Count, IUpdateServiceCollection::get_Count, get_Count, wua.iupdateservicecollection_count, wuapi/IUpdateServiceCollection::Count, wuapi/IUpdateServiceCollection::get_Count
-f1_keywords:
-- wuapi/IUpdateServiceCollection.Count
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateServiceCollection.Count
-- IUpdateServiceCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateServiceCollection::get_Count
+ - wuapi/IUpdateServiceCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateServiceCollection.Count
+ - IUpdateServiceCollection.get_Count
 ---
 
 # IUpdateServiceCollection::get_Count
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the number of elements in the collection.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a>

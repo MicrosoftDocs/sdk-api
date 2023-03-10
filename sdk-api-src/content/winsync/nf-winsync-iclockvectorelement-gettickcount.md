@@ -2,15 +2,12 @@
 UID: NF:winsync.IClockVectorElement.GetTickCount
 title: IClockVectorElement::GetTickCount (winsync.h)
 description: Gets the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.
+helpviewer_keywords: ["GetTickCount","GetTickCount method [Windows Sync]","GetTickCount method [Windows Sync]","IClockVectorElement interface","IClockVectorElement interface [Windows Sync]","GetTickCount method","IClockVectorElement.GetTickCount","IClockVectorElement::GetTickCount","winsync.iclockvectorelement_gettickcount","winsync/IClockVectorElement::GetTickCount"]
 old-location: winsync\iclockvectorelement_gettickcount.htm
 tech.root: winsync
 ms.assetid: 927d769b-c100-4f5f-a243-c5ca53b4d528
 ms.date: 12/05/2018
 ms.keywords: GetTickCount, GetTickCount method [Windows Sync], GetTickCount method [Windows Sync],IClockVectorElement interface, IClockVectorElement interface [Windows Sync],GetTickCount method, IClockVectorElement.GetTickCount, IClockVectorElement::GetTickCount, winsync.iclockvectorelement_gettickcount, winsync/IClockVectorElement::GetTickCount
-f1_keywords:
-- winsync/IClockVectorElement.GetTickCount
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IClockVectorElement.GetTickCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClockVectorElement::GetTickCount
+ - winsync/IClockVectorElement::GetTickCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IClockVectorElement.GetTickCount
 ---
 
 # IClockVectorElement::GetTickCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.
 
-
 ## -parameters
-
-
-
 
 ### -param pullTickCount [out]
 
 Returns the tick count that defines the upper bound on the range of tick counts that are contained in this clock vector element.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -96,18 +90,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iclockvectorelement">IClockVectorElement Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iclockvectorelement">IClockVectorElement Interface</a>

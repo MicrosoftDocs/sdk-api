@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFCreateMP3MediaSink
 title: MFCreateMP3MediaSink function (mfidl.h)
 description: Creates the MP3 media sink.
+helpviewer_keywords: ["MFCreateMP3MediaSink","MFCreateMP3MediaSink function [Media Foundation]","mf.mfcreatemp3mediasink","mfidl/MFCreateMP3MediaSink"]
 old-location: mf\mfcreatemp3mediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b555e9c8-5a2a-452d-8edf-c41c0e24296b
 ms.date: 12/05/2018
 ms.keywords: MFCreateMP3MediaSink, MFCreateMP3MediaSink function [Media Foundation], mf.mfcreatemp3mediasink, mfidl/MFCreateMP3MediaSink
-f1_keywords:
-- mfidl/MFCreateMP3MediaSink
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateMP3MediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateMP3MediaSink
+ - mfidl/MFCreateMP3MediaSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateMP3MediaSink
 ---
 
 # MFCreateMP3MediaSink function
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates the MP3 media sink.
-
 
 ## -parameters
 
-
-
-
 ### -param pTargetByteStream [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream.  The media sink writes the MP3 file to this byte stream. The byte stream must be writable.
-
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream.  The media sink writes the MP3 file to this byte stream. The byte stream must be writable.
 
 ### -param ppMediaSink [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface of the MP3 media sink.. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface of the MP3 media sink.. The caller must release the interface.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 The MP3  media sink takes compressed MP3
 audio samples as input, and writes an MP3 file with ID3 headers as output. The MP3 media sink does not perform MP3 audio encoding.
@@ -116,17 +104,6 @@ HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

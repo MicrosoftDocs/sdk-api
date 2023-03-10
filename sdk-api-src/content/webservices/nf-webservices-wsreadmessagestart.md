@@ -2,15 +2,12 @@
 UID: NF:webservices.WsReadMessageStart
 title: WsReadMessageStart function (webservices.h)
 description: Read the headers of the next message from the channel, and prepare to read the body elements.
+helpviewer_keywords: ["WsReadMessageStart","WsReadMessageStart function [Web Services for Windows]","webservices/WsReadMessageStart","wsw.wsreadmessagestart"]
 old-location: wsw\wsreadmessagestart.htm
 tech.root: wsw
 ms.assetid: e4f92e99-f272-47b5-8eaa-56713b22df7e
 ms.date: 12/05/2018
 ms.keywords: WsReadMessageStart, WsReadMessageStart function [Web Services for Windows], webservices/WsReadMessageStart, wsw.wsreadmessagestart
-f1_keywords:
-- webservices/WsReadMessageStart
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsReadMessageStart
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsReadMessageStart
+ - webservices/WsReadMessageStart
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsReadMessageStart
 ---
 
 # WsReadMessageStart function
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Read the headers of the next message from the channel, and prepare to read the body elements.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The channel to receive from.
-                
-
 
 ### -param message [in]
 
 The message to receive into.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
 
-
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -503,39 +490,29 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This reads the start of the next message from the channel, including the headers of
                 the message.
             
 
-This function is like <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> but is used with channels.
+This function is like <a href="/windows/desktop/api/webservices/nf-webservices-wsreadenvelopestart">WsReadEnvelopeStart</a> but is used with channels.
             
 
 Upon success, the headers will be stored in the message and can be accessed in a random-access
-                fashion (for example, using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>).
+                fashion (for example, using <a href="/windows/desktop/api/webservices/nf-webservices-wsgetheader">WsGetHeader</a>).
             
 
-The message must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> state.  Upon success,
+The message must be in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> state.  Upon success,
                 the message will have transitioned to <b>WS_MESSAGE_STATE_READING</b> state.
             
 
-To deserialize an element of the message body, use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.  To read
+To deserialize an element of the message body, use <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.  To read
                 directly from the XML Reader of the message, first get the reader using
-                the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_READER</a> property.
+                the <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_BODY_READER</a> property.
             
 
-If the channel input is streamed (<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a>), then
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> must be called to receive the next part of the body before
+If the channel input is streamed (<a href="/windows/desktop/api/webservices/ne-webservices-ws_transfer_mode">WS_STREAMED_INPUT_TRANSFER_MODE</a>), then
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsfillbody">WsFillBody</a> must be called to receive the next part of the body before
                 it is actually read.
-            
-
-
-

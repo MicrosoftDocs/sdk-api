@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireSettings.SetSequencePaddingWidth
 title: IPhotoAcquireSettings::SetSequencePaddingWidth (photoacquire.h)
 description: The SetSequencePaddingWidth method sets a value indicating how wide sequential fields in filenames will be.
+helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetSequencePaddingWidth method","IPhotoAcquireSettings.SetSequencePaddingWidth","IPhotoAcquireSettings::SetSequencePaddingWidth","IPhotoAcquireSettingsSetSequencePaddingWidth","SetSequencePaddingWidth","SetSequencePaddingWidth method [Picture Acquisition]","SetSequencePaddingWidth method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetSequencePaddingWidth","picacq.iphotoacquiresettings_setsequencepaddingwidth"]
 old-location: picacq\iphotoacquiresettings_setsequencepaddingwidth.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 2c90c109-1522-4722-a691-6f0f3caa50ec
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetSequencePaddingWidth method, IPhotoAcquireSettings.SetSequencePaddingWidth, IPhotoAcquireSettings::SetSequencePaddingWidth, IPhotoAcquireSettingsSetSequencePaddingWidth, SetSequencePaddingWidth, SetSequencePaddingWidth method [Picture Acquisition], SetSequencePaddingWidth method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetSequencePaddingWidth, picacq.iphotoacquiresettings_setsequencepaddingwidth
-f1_keywords:
-- photoacquire/IPhotoAcquireSettings.SetSequencePaddingWidth
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireSettings.SetSequencePaddingWidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireSettings::SetSequencePaddingWidth
+ - photoacquire/IPhotoAcquireSettings::SetSequencePaddingWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireSettings.SetSequencePaddingWidth
 ---
 
 # IPhotoAcquireSettings::SetSequencePaddingWidth
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetSequencePaddingWidth</code> method sets a value indicating how wide sequential fields in filenames will be.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwWidth [in]
 
 Double word value containing the width of sequential fields.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,36 +80,27 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the format string specified in <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method sets the width allotted for the sequential token. For example, given the template <code>$(GroupTag)$(AcquisitionSequence).$(OriginalExtension)</code>, if padding is set to 0, a file name might appear as <pre class="syntax" xml:space="preserve"><code>"Image1.jpg"</code></pre> If padding is set to 3, the file name may appear as <pre class="syntax" xml:space="preserve"><code>"Image   1.jpg"</code></pre>
-
-
-
+If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the format string specified in <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFileNameTemplate</a> contains a sequential token, this method sets the width allotted for the sequential token. For example, given the template <code>$(GroupTag)$(AcquisitionSequence).$(OriginalExtension)</code>, if padding is set to 0, a file name might appear as 
+``` syntax
+"Image1.jpg"
+```
+ If padding is set to 3, the file name may appear as 
+``` syntax
+"Image   1.jpg"
+```
 
 
 ## -see-also
 
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getsequencepaddingwidth">GetSequencePaddingWidth</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getsequencepaddingwidth">GetSequencePaddingWidth</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencezeropadding">SetSequenceZeroPadding</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencezeropadding">SetSequenceZeroPadding</a>

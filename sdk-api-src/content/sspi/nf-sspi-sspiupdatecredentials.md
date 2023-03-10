@@ -1,16 +1,13 @@
 ---
 UID: NF:sspi.SspiUpdateCredentials
 title: SspiUpdateCredentials function (sspi.h)
-description: Updates the credentials associated with the specified context.
+description: Updates the credentials associated with the specified context. (SspiUpdateCredentials)
+helpviewer_keywords: ["SEC_WINNT_AUTH_DATA_TYPE_CERT","SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA","SEC_WINNT_AUTH_DATA_TYPE_PASSWORD","SspiUpdateCredentials","SspiUpdateCredentials function [Security]","security.sspiupdatecredentials","sspi/SspiUpdateCredentials"]
 old-location: security\sspiupdatecredentials.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: d00dc076-f0fc-44e9-8083-75ad715cf0c7
 ms.date: 12/05/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SspiUpdateCredentials, SspiUpdateCredentials function [Security], security.sspiupdatecredentials, sspi/SspiUpdateCredentials
-f1_keywords:
-- sspi/SspiUpdateCredentials
-dev_langs:
-- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Credui.dll
-- Ext-MS-Win-security-credui-l1-1-1.dll
-- AnalogCredUI.dll
-api_name:
-- SspiUpdateCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SspiUpdateCredentials
+ - sspi/SspiUpdateCredentials
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Credui.dll
+ - Ext-MS-Win-security-credui-l1-1-1.dll
+ - AnalogCredUI.dll
+api_name:
+ - SspiUpdateCredentials
 ---
 
 # SspiUpdateCredentials function
@@ -50,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates the credentials associated with the specified context.
-
 
 ## -parameters
 
-
-
-
 ### -param ContextHandle [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure retrieved during a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
-
+A pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a> structure retrieved during a previous call to the <a href="/windows/desktop/api/sspi/nf-sspi-sspiunmarshalcreduicontext">SspiUnmarshalCredUIContext</a> function.
 
 ### -param CredType [in]
 
@@ -102,31 +98,22 @@ The credential is a certificate.
 </dl>
 </td>
 <td width="60%">
-The credential is authentication data from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
+The credential is authentication data from a <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP).
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param FlatCredUIContextLength [in]
 
 The size, in bytes, of the <i>FlatCredUIContext</i> buffer.
 
-
 ### -param FlatCredUIContext [in]
 
 The values with which to update the specified credentials.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-
-
-

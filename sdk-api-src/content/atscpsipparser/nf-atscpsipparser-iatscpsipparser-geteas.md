@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IAtscPsipParser.GetEAS
 title: IAtscPsipParser::GetEAS (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetEAS","GetEAS method [Microsoft TV Technologies]","GetEAS method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetEAS method","IAtscPsipParser.GetEAS","IAtscPsipParser::GetEAS","IAtscPsipParserGetEAS","atscpsipparser/IAtscPsipParser::GetEAS","mstv.iatscpsipparser_geteas"]
 old-location: mstv\iatscpsipparser_geteas.htm
 tech.root: mstv
 ms.assetid: e53b93e3-7269-45aa-8b19-75f78fb44c41
 ms.date: 12/05/2018
 ms.keywords: GetEAS, GetEAS method [Microsoft TV Technologies], GetEAS method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEAS method, IAtscPsipParser.GetEAS, IAtscPsipParser::GetEAS, IAtscPsipParserGetEAS, atscpsipparser/IAtscPsipParser::GetEAS, mstv.iatscpsipparser_geteas
-f1_keywords:
-- atscpsipparser/IAtscPsipParser.GetEAS
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IAtscPsipParser.GetEAS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAtscPsipParser::GetEAS
+ - atscpsipparser/IAtscPsipParser::GetEAS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IAtscPsipParser.GetEAS
 ---
 
 # IAtscPsipParser::GetEAS
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,11 +57,7 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetEAS</b> method retrieves the emergency alert message (EAS) table.
 
-
 ## -parameters
-
-
-
 
 ### -param pid [in]
 
@@ -72,12 +68,9 @@ Specifies the packet identifier (PID) for the requested EAS.
 
 ### -param ppEAS [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS</a> interface pointer. The caller must release the interface.
-
+Receives an <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS</a> interface pointer. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -142,27 +135,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The method fails if the filter does not receive a matching table within a predetermined length of time.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>

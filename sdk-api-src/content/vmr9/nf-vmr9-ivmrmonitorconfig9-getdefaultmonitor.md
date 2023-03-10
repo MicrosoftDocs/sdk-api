@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRMonitorConfig9.GetDefaultMonitor
 title: IVMRMonitorConfig9::GetDefaultMonitor (vmr9.h)
 description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.
+helpviewer_keywords: ["GetDefaultMonitor","GetDefaultMonitor method [DirectShow]","GetDefaultMonitor method [DirectShow]","IVMRMonitorConfig9 interface","IVMRMonitorConfig9 interface [DirectShow]","GetDefaultMonitor method","IVMRMonitorConfig9.GetDefaultMonitor","IVMRMonitorConfig9::GetDefaultMonitor","IVMRMonitorConfig9GetDefaultMonitor","dshow.ivmrmonitorconfig9_getdefaultmonitor","vmr9/IVMRMonitorConfig9::GetDefaultMonitor"]
 old-location: dshow\ivmrmonitorconfig9_getdefaultmonitor.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a5d5bf77-5261-42eb-b79b-d72dfb2d9f21
 ms.date: 12/05/2018
 ms.keywords: GetDefaultMonitor, GetDefaultMonitor method [DirectShow], GetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetDefaultMonitor method, IVMRMonitorConfig9.GetDefaultMonitor, IVMRMonitorConfig9::GetDefaultMonitor, IVMRMonitorConfig9GetDefaultMonitor, dshow.ivmrmonitorconfig9_getdefaultmonitor, vmr9/IVMRMonitorConfig9::GetDefaultMonitor
-f1_keywords:
-- vmr9/IVMRMonitorConfig9.GetDefaultMonitor
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMonitorConfig9.GetDefaultMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMonitorConfig9::GetDefaultMonitor
+ - vmr9/IVMRMonitorConfig9::GetDefaultMonitor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMonitorConfig9.GetDefaultMonitor
 ---
 
 # IVMRMonitorConfig9::GetDefaultMonitor
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetDefaultMonitor</code> method retrieves the default monitor that all future instances of the VMR will use for video playback.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param puDev [out]
 
 Pointer that receives an index that identifies the default monitor on the system.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include the following.
 
@@ -111,37 +102,21 @@ The allocator-presenter has not been loaded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use this method on a multi-monitor system to determine which is the default Direct3D device the overlay mixer filter will use when connecting to an upstream filter.
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setdefaultmonitor">IVMRMonitorConfig9::SetDefaultMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setdefaultmonitor">IVMRMonitorConfig9::SetDefaultMonitor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

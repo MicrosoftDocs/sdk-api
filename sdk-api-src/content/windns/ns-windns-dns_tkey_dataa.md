@@ -1,16 +1,13 @@
 ---
-UID: NS:windns.__unnamed_struct_36
+UID: NS:windns.DNS_TKEY_DATAA
 title: DNS_TKEY_DATAA (windns.h)
-description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.
+description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930. (ANSI)
+helpviewer_keywords: ["*PDNS_TKEY_DATA","*PDNS_TKEY_DATAA","DNS_RCODE_BADKEY","DNS_RCODE_BADSIG","DNS_RCODE_BADTIME","DNS_TKEY_DATA","DNS_TKEY_DATA structure [DNS]","DNS_TKEY_DATAA","DNS_TKEY_MODE_DIFFIE_HELLMAN","DNS_TKEY_MODE_GSS","DNS_TKEY_MODE_RESOLVER_ASSIGN","DNS_TKEY_MODE_SERVER_ASSIGN","PDNS_TKEY_DATA","PDNS_TKEY_DATA structure pointer [DNS]","_dns_dns_tkey_data","dns.dns_tkey_data","windns/DNS_TKEY_DATA","windns/PDNS_TKEY_DATA"]
 old-location: dns\dns_tkey_data.htm
 tech.root: DNS
 ms.assetid: 4dad3449-3e41-47d9-89c2-10fa6e51573b
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_TKEY_DATA, *PDNS_TKEY_DATAA, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TKEY_DATA, DNS_TKEY_DATA structure [DNS], DNS_TKEY_DATAA, DNS_TKEY_MODE_DIFFIE_HELLMAN, DNS_TKEY_MODE_GSS, DNS_TKEY_MODE_RESOLVER_ASSIGN, DNS_TKEY_MODE_SERVER_ASSIGN, PDNS_TKEY_DATA, PDNS_TKEY_DATA structure pointer [DNS], _dns_dns_tkey_data, dns.dns_tkey_data, windns/DNS_TKEY_DATA, windns/PDNS_TKEY_DATA'
-f1_keywords:
-- windns/DNS_TKEY_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_TKEY_DATA
 targetos: Windows
 req.typenames: DNS_TKEY_DATAA, *PDNS_TKEY_DATAA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_TKEY_DATAA
+ - windns/PDNS_TKEY_DATAA
+ - DNS_TKEY_DATAA
+ - windns/DNS_TKEY_DATAA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_TKEY_DATA
 ---
 
 # DNS_TKEY_DATAA structure
@@ -48,45 +52,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>DNS_TKEY_DATA</b> structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in <a href="https://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>.
-
+<b>DNS_TKEY_DATA</b> structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field pNameAlgorithm
 
-A pointer to a string that represents the name of the key as defined in section 2.1 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>.
-
+A pointer to a string that represents the name of the key as defined in section 2.1 of <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>.
 
 ### -field pAlgorithmPacket
 
-A pointer to a string representing the name of the   algorithm as defined in section 2.3 of <a href="https://go.microsoft.com/fwlink/p/?linkid=90397">RFC 2930</a>. <b>pKey</b> is used to derive the algorithm specific keys.
-
+A pointer to a string representing the name of the   algorithm as defined in section 2.3 of <a href="https://www.ietf.org/rfc/rfc2930.txt">RFC 2930</a>. <b>pKey</b> is used to derive the algorithm specific keys.
 
 ### -field pKey
 
 A pointer to the variable-length shared-secret key.
 
-
 ### -field pOtherData
 
 Reserved. Do not use.
-
 
 ### -field dwCreateTime
 
 The date and time at which the key was created, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
 
-
 ### -field dwExpireTime
 
 The expiration date of the key, expressed in seconds since the beginning of January 1, 1970, Greenwich Mean Time (GMT), excluding leap seconds.
-
 
 ### -field wMode
 
@@ -138,8 +131,6 @@ The key is assigned by the DNS resolver and is not negotiated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wError
 
@@ -156,7 +147,7 @@ An error, expressed in expanded RCODE format that covers TSIG and TKEY RR proces
 </dl>
 </td>
 <td width="60%">
-The <b>pSignature</b> of the <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a> RR is bad.
+The <b>pSignature</b> of the <a href="/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a> RR is bad.
 
 </td>
 </tr>
@@ -181,51 +172,41 @@ A timestamp is bad.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wKeyLength
 
 Length, in bytes, of the <b>pKey</b> member.
 
-
 ### -field wOtherLength
 
 The length, in bytes, of the <b>pOtherData</b> member.
-
 
 ### -field cAlgNameLength
 
 The length, in bytes, of the <b>pNameAlgorithm</b> member.
 
-
 ### -field bPacketPointers
 
 Reserved. Do not use.
 
-
 ## -remarks
-
-
 
 The 
 <b>DNS_TKEY_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
+
+
+> [!NOTE]
+> The windns.h header defines DNS_TKEY_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a>
- 
-
- 
+<a href="/windows/win32/api/windns/ns-windns-dns_tsig_dataw">DNS_TSIG_DATA</a>
 

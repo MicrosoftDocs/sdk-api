@@ -2,15 +2,12 @@
 UID: NF:evr.IMFVideoDisplayControl.SetBorderColor
 title: IMFVideoDisplayControl::SetBorderColor (evr.h)
 description: Sets the border color for the video.
+helpviewer_keywords: ["4a3647a8-4789-4f18-979b-4a9ee1ce7b71","IMFVideoDisplayControl interface [Media Foundation]","SetBorderColor method","IMFVideoDisplayControl.SetBorderColor","IMFVideoDisplayControl::SetBorderColor","SetBorderColor","SetBorderColor method [Media Foundation]","SetBorderColor method [Media Foundation]","IMFVideoDisplayControl interface","evr/IMFVideoDisplayControl::SetBorderColor","mf.imfvideodisplaycontrol_setbordercolor"]
 old-location: mf\imfvideodisplaycontrol_setbordercolor.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71
 ms.date: 12/05/2018
 ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl interface [Media Foundation],SetBorderColor method, IMFVideoDisplayControl.SetBorderColor, IMFVideoDisplayControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetBorderColor, mf.imfvideodisplaycontrol_setbordercolor
-f1_keywords:
-- evr/IMFVideoDisplayControl.SetBorderColor
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFVideoDisplayControl.SetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoDisplayControl::SetBorderColor
+ - evr/IMFVideoDisplayControl::SetBorderColor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFVideoDisplayControl.SetBorderColor
 ---
 
 # IMFVideoDisplayControl::SetBorderColor
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the border color for the video.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Clr [in]
 
 Specifies the border color as a <b>COLORREF</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,37 +91,21 @@ The video renderer has been shut down.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+By default, if the video window straddles two monitors, the enhanced video renderer (EVR) clips the video to one monitor and draws the border color on the remaining portion of the window. (To change the clipping behavior, call <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs">IMFVideoDisplayControl::SetRenderingPrefs</a>.)
 
-
-By default, if the video window straddles two monitors, the enhanced video renderer (EVR) clips the video to one monitor and draws the border color on the remaining portion of the window. (To change the clipping behavior, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs">IMFVideoDisplayControl::SetRenderingPrefs</a>.)
-
-The border color is not used for letterboxing. To change the letterbox color, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setbackgroundcolor">IMFVideoProcessor::SetBackgroundColor</a>.
-
-
-
+The border color is not used for letterboxing. To change the letterbox color, call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setbackgroundcolor">IMFVideoProcessor::SetBackgroundColor</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

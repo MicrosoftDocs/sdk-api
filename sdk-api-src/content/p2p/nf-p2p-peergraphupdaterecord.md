@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerGraphUpdateRecord
 title: PeerGraphUpdateRecord function (p2p.h)
 description: The PeerGraphUpdateRecord function updates a record in the peer graph and then floods the record to each node in the peer graph.
+helpviewer_keywords: ["PeerGraphUpdateRecord","PeerGraphUpdateRecord function [Peer Networking]","p2p.peergraphupdaterecord","p2p/PeerGraphUpdateRecord"]
 old-location: p2p\peergraphupdaterecord.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 9007095f-4f2a-4e92-895b-9a4033f0f7b9
 ms.date: 12/05/2018
 ms.keywords: PeerGraphUpdateRecord, PeerGraphUpdateRecord function [Peer Networking], p2p.peergraphupdaterecord, p2p/PeerGraphUpdateRecord
-f1_keywords:
-- p2p/PeerGraphUpdateRecord
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2PGraph.dll
-api_name:
-- PeerGraphUpdateRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGraphUpdateRecord
+ - p2p/PeerGraphUpdateRecord
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2PGraph.dll
+api_name:
+ - PeerGraphUpdateRecord
 ---
 
 # PeerGraphUpdateRecord function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PeerGraphUpdateRecord</b> function updates a record in the peer graph and then floods the record to each node in the peer graph.
 
-
 ## -parameters
-
-
-
 
 ### -param hGraph [in]
 
 Handle to the peer graph.
 
-
 ### -param pRecord [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure that contains the  new data for the record.
-
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure that contains the  new data for the record.
 
 ## -returns
-
-
 
 If the function call succeeds, the return value is S_OK. Otherwise, it  returns one of the following values.
 
@@ -118,7 +111,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -134,16 +127,10 @@ The specified record was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The following members of the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure can be modified:
+The following members of the  <a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure can be modified:
 
 <ul>
 <li><b>pwzAttributes</b></li>
@@ -177,17 +164,6 @@ This code snippet shows how to update a record.
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>

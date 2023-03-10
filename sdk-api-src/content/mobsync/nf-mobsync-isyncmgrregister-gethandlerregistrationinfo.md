@@ -2,15 +2,12 @@
 UID: NF:mobsync.ISyncMgrRegister.GetHandlerRegistrationInfo
 title: ISyncMgrRegister::GetHandlerRegistrationInfo (mobsync.h)
 description: Called by the registered application's handler to get current registration information.
+helpviewer_keywords: ["GetHandlerRegistrationInfo","GetHandlerRegistrationInfo method [Windows Shell]","GetHandlerRegistrationInfo method [Windows Shell]","ISyncMgrRegister interface","ISyncMgrRegister interface [Windows Shell]","GetHandlerRegistrationInfo method","ISyncMgrRegister.GetHandlerRegistrationInfo","ISyncMgrRegister::GetHandlerRegistrationInfo","mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo","shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo","syncmgr.isyncmgrregister_gethandlerregistrationinfo"]
 old-location: shell\syncmgr_isyncmgrregister_gethandlerregistrationinfo.htm
 tech.root: shell
 ms.assetid: 35241829-58b8-448a-ae69-1d43b4d0ba10
 ms.date: 12/05/2018
 ms.keywords: GetHandlerRegistrationInfo, GetHandlerRegistrationInfo method [Windows Shell], GetHandlerRegistrationInfo method [Windows Shell],ISyncMgrRegister interface, ISyncMgrRegister interface [Windows Shell],GetHandlerRegistrationInfo method, ISyncMgrRegister.GetHandlerRegistrationInfo, ISyncMgrRegister::GetHandlerRegistrationInfo, mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo, shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo, syncmgr.isyncmgrregister_gethandlerregistrationinfo
-f1_keywords:
-- mobsync/ISyncMgrRegister.GetHandlerRegistrationInfo
-dev_langs:
-- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Mobsync.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mobsync.dll
-api_name:
-- ISyncMgrRegister.GetHandlerRegistrationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrRegister::GetHandlerRegistrationInfo
+ - mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mobsync.dll
+api_name:
+ - ISyncMgrRegister.GetHandlerRegistrationInfo
 ---
 
 # ISyncMgrRegister::GetHandlerRegistrationInfo
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the registered application's handler to get current registration information.
-   
-
 
 ## -parameters
-
-
-
 
 ### -param clsidHandler [in]
 
@@ -64,17 +60,13 @@ Type: <b>REFCLSID</b>
 
 The CLSID of the handler.
 
-
 ### -param pdwSyncMgrRegisterFlags [in, out]
 
 Type: <b>LPDWORD</b>
 
-Returns registration flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/ne-mobsync-syncmgrregisterflags">SYNCMGRREGISTERFLAGS</a> enumeration that indicate events for which the handler is registered to be notified.
-
+Returns registration flags from the <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrregisterflags">SYNCMGRREGISTERFLAGS</a> enumeration that indicate events for which the handler is registered to be notified.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -108,18 +100,7 @@ Call was not successful, the handler is not registered.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>

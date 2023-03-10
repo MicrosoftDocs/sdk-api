@@ -2,15 +2,12 @@
 UID: NF:wuapi.IAutomaticUpdatesSettings.Refresh
 title: IAutomaticUpdatesSettings::Refresh (wuapi.h)
 description: Retrieves the latest Automatic Updates settings.
+helpviewer_keywords: ["IAutomaticUpdatesSettings interface [Windows Update Agent]","Refresh method","IAutomaticUpdatesSettings.Refresh","IAutomaticUpdatesSettings::Refresh","Refresh","Refresh method [Windows Update Agent]","Refresh method [Windows Update Agent]","IAutomaticUpdatesSettings interface","wua.iautomaticupdatessettings_refresh","wuapi/IAutomaticUpdatesSettings::Refresh"]
 old-location: wua\iautomaticupdatessettings_refresh.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 308426d9-d524-406a-931c-1fdb854aa4fb
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Refresh method, IAutomaticUpdatesSettings.Refresh, IAutomaticUpdatesSettings::Refresh, Refresh, Refresh method [Windows Update Agent], Refresh method [Windows Update Agent],IAutomaticUpdatesSettings interface, wua.iautomaticupdatessettings_refresh, wuapi/IAutomaticUpdatesSettings::Refresh
-f1_keywords:
-- wuapi/IAutomaticUpdatesSettings.Refresh
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IAutomaticUpdatesSettings.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAutomaticUpdatesSettings::Refresh
+ - wuapi/IAutomaticUpdatesSettings::Refresh
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IAutomaticUpdatesSettings.Refresh
 ---
 
 # IAutomaticUpdatesSettings::Refresh
@@ -48,44 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the latest Automatic Updates settings.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code.
-
-
-
 
 ## -remarks
 
+Calling <b>Refresh</b>  resets any setting changes that have not been saved by using the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-save">Save</a> method.
 
-
-Calling <b>Refresh</b>  resets any setting changes that have not been saved by using the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-save">Save</a> method.
-
-<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-save">IAutomaticUpdatesSettings::Save</a> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlScheduledInstallation</a>).</div>
+<div class="alert"><b>Note</b>  On Windows RT, you can no longer use the <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-save">IAutomaticUpdatesSettings::Save</a> method to configure Windows Update settings programmatically. The configuration operation fails if you use <b>Save</b> to set any value other than 4 (<a href="/windows/desktop/api/wuapi/ne-wuapi-automaticupdatesnotificationlevel">aunlScheduledInstallation</a>).</div>
 <div> </div>
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>

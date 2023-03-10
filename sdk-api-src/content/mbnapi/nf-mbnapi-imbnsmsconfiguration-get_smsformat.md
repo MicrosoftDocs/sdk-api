@@ -1,16 +1,13 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_SmsFormat
 title: IMbnSmsConfiguration::get_SmsFormat (mbnapi.h)
-description: Format in which newly received SMS should be reported by the device.
+description: Format in which newly received SMS should be reported by the device. (Get)
+helpviewer_keywords: ["IMbnSmsConfiguration interface [Microsoft Broadband Networks]","SmsFormat property","IMbnSmsConfiguration.SmsFormat","IMbnSmsConfiguration.get_SmsFormat","IMbnSmsConfiguration::SmsFormat","IMbnSmsConfiguration::get_SmsFormat","IMbnSmsConfiguration::put_SmsFormat","SmsFormat property [Microsoft Broadband Networks]","SmsFormat property [Microsoft Broadband Networks]","IMbnSmsConfiguration interface","get_SmsFormat","mbn.imbnsmsconfiguration_smsformat","mbnapi/IMbnSmsConfiguration::SmsFormat","mbnapi/IMbnSmsConfiguration::get_SmsFormat","mbnapi/IMbnSmsConfiguration::put_SmsFormat"]
 old-location: mbn\imbnsmsconfiguration_smsformat.htm
 tech.root: mbn
 ms.assetid: bfa2ca4d-6ff2-45df-8b18-a7e1498b1fdf
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsConfiguration interface [Microsoft Broadband Networks],SmsFormat property, IMbnSmsConfiguration.SmsFormat, IMbnSmsConfiguration.get_SmsFormat, IMbnSmsConfiguration::SmsFormat, IMbnSmsConfiguration::get_SmsFormat, IMbnSmsConfiguration::put_SmsFormat, SmsFormat property [Microsoft Broadband Networks], SmsFormat property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, get_SmsFormat, mbn.imbnsmsconfiguration_smsformat, mbnapi/IMbnSmsConfiguration::SmsFormat, mbnapi/IMbnSmsConfiguration::get_SmsFormat, mbnapi/IMbnSmsConfiguration::put_SmsFormat
-f1_keywords:
-- mbnapi/IMbnSmsConfiguration.SmsFormat
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: Mbnapi.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnSmsConfiguration.SmsFormat
-- IMbnSmsConfiguration.get_SmsFormat
-- IMbnSmsConfiguration.put_SmsFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnSmsConfiguration::get_SmsFormat
+ - mbnapi/IMbnSmsConfiguration::get_SmsFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnSmsConfiguration.SmsFormat
+ - IMbnSmsConfiguration.get_SmsFormat
+ - IMbnSmsConfiguration.put_SmsFormat
 ---
 
 # IMbnSmsConfiguration::get_SmsFormat
@@ -57,17 +59,8 @@ Format in which newly received SMS should be reported by the device.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>

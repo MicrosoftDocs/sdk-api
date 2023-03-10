@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.put_MaxScriptEngines
 title: IAzAuthorizationStore::put_MaxScriptEngines (azroles.h)
-description: Sets or retrieves the maximum number of Business Rule (BizRule) script engines that will be cached.
+description: Sets or retrieves the maximum number of Business Rule (BizRule) script engines that will be cached. (Put)
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","MaxScriptEngines property","IAzAuthorizationStore interface [Security]","MaxScriptEngines property","IAzAuthorizationStore.MaxScriptEngines","IAzAuthorizationStore.put_MaxScriptEngines","IAzAuthorizationStore::MaxScriptEngines","IAzAuthorizationStore::get_MaxScriptEngines","IAzAuthorizationStore::put_MaxScriptEngines","MaxScriptEngines property [Security]","MaxScriptEngines property [Security]","AzAuthorizationStore object","MaxScriptEngines property [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::MaxScriptEngines","azroles/IAzAuthorizationStore::get_MaxScriptEngines","azroles/IAzAuthorizationStore::put_MaxScriptEngines","put_MaxScriptEngines","security.azauthorizationstore_maxscriptengines"]
 old-location: security\azauthorizationstore_maxscriptengines.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: d18fe030-5177-4516-b4bf-6fea78abea52
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],MaxScriptEngines property, IAzAuthorizationStore interface [Security],MaxScriptEngines property, IAzAuthorizationStore.MaxScriptEngines, IAzAuthorizationStore.put_MaxScriptEngines, IAzAuthorizationStore::MaxScriptEngines, IAzAuthorizationStore::get_MaxScriptEngines, IAzAuthorizationStore::put_MaxScriptEngines, MaxScriptEngines property [Security], MaxScriptEngines property [Security],AzAuthorizationStore object, MaxScriptEngines property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::MaxScriptEngines, azroles/IAzAuthorizationStore::get_MaxScriptEngines, azroles/IAzAuthorizationStore::put_MaxScriptEngines, put_MaxScriptEngines, security.azauthorizationstore_maxscriptengines
-f1_keywords:
-- azroles/IAzAuthorizationStore.MaxScriptEngines
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzAuthorizationStore.MaxScriptEngines
-- IAzAuthorizationStore.get_MaxScriptEngines
-- IAzAuthorizationStore.put_MaxScriptEngines
-- AzAuthorizationStore.MaxScriptEngines
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzAuthorizationStore::put_MaxScriptEngines
+ - azroles/IAzAuthorizationStore::put_MaxScriptEngines
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzAuthorizationStore.MaxScriptEngines
+ - IAzAuthorizationStore.get_MaxScriptEngines
+ - IAzAuthorizationStore.put_MaxScriptEngines
+ - AzAuthorizationStore.MaxScriptEngines
 ---
 
 # IAzAuthorizationStore::put_MaxScriptEngines
@@ -51,11 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MaxScriptEngines</b> property sets or retrieves the maximum number of Business Rule (BizRule) script engines that will be cached.
 
 This property is read/write.
-
 
 ## -parameters
 

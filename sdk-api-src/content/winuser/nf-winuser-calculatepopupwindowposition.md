@@ -2,15 +2,12 @@
 UID: NF:winuser.CalculatePopupWindowPosition
 title: CalculatePopupWindowPosition function (winuser.h)
 description: Calculates an appropriate pop-up window position using the specified anchor point, pop-up window size, flags, and the optional exclude rectangle.
+helpviewer_keywords: ["CalculatePopupWindowPosition","CalculatePopupWindowPosition function [Windows and Messages]","TPM_BOTTOMALIGN","TPM_CENTERALIGN","TPM_HORIZONTAL","TPM_LEFTALIGN","TPM_RIGHTALIGN","TPM_TOPALIGN","TPM_VCENTERALIGN","TPM_VERTICAL","TPM_WORKAREA","_win32_CalculatePopupWindowPosition","_win32_calculatepopupwindowposition_cpp","winmsg.calculatepopupwindowposition","winui._win32_calculatepopupwindowposition","winuser/CalculatePopupWindowPosition"]
 old-location: winmsg\calculatepopupwindowposition.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\calculatepopupwindowposition.htm
 ms.date: 12/05/2018
 ms.keywords: CalculatePopupWindowPosition, CalculatePopupWindowPosition function [Windows and Messages], TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_LEFTALIGN, TPM_RIGHTALIGN, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERTICAL, TPM_WORKAREA, _win32_CalculatePopupWindowPosition, _win32_calculatepopupwindowposition_cpp, winmsg.calculatepopupwindowposition, winui._win32_calculatepopupwindowposition, winuser/CalculatePopupWindowPosition
-f1_keywords:
-- winuser/CalculatePopupWindowPosition
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- CalculatePopupWindowPosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CalculatePopupWindowPosition
+ - winuser/CalculatePopupWindowPosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - CalculatePopupWindowPosition
 ---
 
 # CalculatePopupWindowPosition function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Calculates an appropriate pop-up window position using the specified anchor point, pop-up window size, flags, and the optional exclude rectangle. When the specified pop-up window size is smaller than the desktop window size, use the <b>CalculatePopupWindowPosition</b> function to ensure that the pop-up window is fully visible on the desktop window, regardless of the specified anchor point.
 
-
 ## -parameters
-
-
-
 
 ### -param anchorPoint [in]
 
@@ -63,19 +60,17 @@ Type: <b>const POINT*</b>
 
 The specified anchor point.
 
-
 ### -param windowSize [in]
 
 Type: <b>const SIZE*</b>
 
 The specified window size.
 
-
 ### -param flags [in]
 
 Type: <b>UINT</b>
 
-Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> function.
+Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> function.
 
 
 Use one of the following flags to specify how the function positions the pop-up window horizontally. 
@@ -250,14 +245,12 @@ Restricts the pop-up window
 						the pop-up window is restricted to the work area only if the 
 						input point is within the work area. 
 						For more information, see the <b>rcWork</b> 
-						and <b>rcMonitor</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
+						and <b>rcMonitor</b> members of the <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure.
 						
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param excludeRect [in, optional]
 
@@ -266,54 +259,31 @@ Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 A pointer to a structure that specifies the exclude rectangle. 
 				It can be <b>NULL</b>.
 
-
 ### -param popupWindowPosition [out]
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
 A pointer to a structure that specifies the pop-up window position.
-				
-
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>BOOL</b>
-</strong>
+Type: <b>BOOL</b>
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. 
-				To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+				To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-<b>TPM_WORKAREA</b> is supported for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> functions.
-		 
-
-
-
-
+<b>TPM_WORKAREA</b> is supported for the <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> and <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a> functions.
 
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenuex">TrackPopupMenuEx</a>

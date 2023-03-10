@@ -2,15 +2,12 @@
 UID: NF:drt.DrtUpdateKey
 title: DrtUpdateKey function (drt.h)
 description: DrtUpdateKey function updates the application data associated with a registered key.
+helpviewer_keywords: ["DrtUpdateKey","DrtUpdateKey function [Distributed Routing Tables]","drt/DrtUpdateKey","p2p.drtupdatekey"]
 old-location: p2p\drtupdatekey.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: e7e65246-ebe0-4fdf-924c-8c19cfb1322e
 ms.date: 12/05/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey
-f1_keywords:
-- drt/DrtUpdateKey
-dev_langs:
-- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- drt.dll
-api_name:
-- DrtUpdateKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrtUpdateKey
+ - drt/DrtUpdateKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - drt.dll
+api_name:
+ - DrtUpdateKey
 ---
 
 # DrtUpdateKey function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrtUpdateKey</b> function updates the application data associated with a registered key.
-
 
 ## -parameters
 
-
-
-
 ### -param hKeyRegistration [in]
 
-The DRT handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function specifying a registered key within the DRT instance.
-
+The DRT handle returned by the <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a> function specifying a registered key within the DRT instance.
 
 ### -param pAppData [in]
 
 The new application data to associate with the key.
 
-
 ## -returns
-
-
 
 This function returns S_OK on success. Other possible values include:
 
@@ -116,22 +109,11 @@ The system is out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtunregisterkey">DrtUnregisterKey</a>
- 
-
- 
-
+<a href="/windows/desktop/api/drt/nf-drt-drtunregisterkey">DrtUnregisterKey</a>

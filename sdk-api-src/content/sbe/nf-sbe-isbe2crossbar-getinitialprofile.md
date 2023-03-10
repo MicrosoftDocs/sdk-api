@@ -2,15 +2,12 @@
 UID: NF:sbe.ISBE2Crossbar.GetInitialProfile
 title: ISBE2Crossbar::GetInitialProfile (sbe.h)
 description: Gets the initial profile that lists the media types that are present in the currently loaded WTV file.
+helpviewer_keywords: ["GetInitialProfile","GetInitialProfile method [Microsoft TV Technologies]","GetInitialProfile method [Microsoft TV Technologies]","ISBE2Crossbar interface","ISBE2Crossbar interface [Microsoft TV Technologies]","GetInitialProfile method","ISBE2Crossbar.GetInitialProfile","ISBE2Crossbar::GetInitialProfile","mstv.isbe2crossbar_getinitialprofile","sbe/ISBE2Crossbar::GetInitialProfile"]
 old-location: mstv\isbe2crossbar_getinitialprofile.htm
 tech.root: mstv
 ms.assetid: 6a4bec40-2c6d-49fb-8977-3c3db2b2b4df
 ms.date: 12/05/2018
 ms.keywords: GetInitialProfile, GetInitialProfile method [Microsoft TV Technologies], GetInitialProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],GetInitialProfile method, ISBE2Crossbar.GetInitialProfile, ISBE2Crossbar::GetInitialProfile, mstv.isbe2crossbar_getinitialprofile, sbe/ISBE2Crossbar::GetInitialProfile
-f1_keywords:
-- sbe/ISBE2Crossbar.GetInitialProfile
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbe.h
-api_name:
-- ISBE2Crossbar.GetInitialProfile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISBE2Crossbar::GetInitialProfile
+ - sbe/ISBE2Crossbar::GetInitialProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbe.h
+api_name:
+ - ISBE2Crossbar.GetInitialProfile
 ---
 
 # ISBE2Crossbar::GetInitialProfile
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the initial profile that lists the media types that are present in the currently loaded WTV file. The media types in the profile correspond to the active pins on a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter at the time the currently loaded  WTV file is created. The profile is fixed per loaded WTV file and does not change while the filter has a WTV file loaded . However, if the crossbar  is not in default profile mode, you can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method to set a new profile for the crossbar. To disable default profile mode, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag. 
-
+Gets the initial profile that lists the media types that are present in the currently loaded WTV file. The media types in the profile correspond to the active pins on a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter at the time the currently loaded  WTV file is created. The profile is fixed per loaded WTV file and does not change while the filter has a WTV file loaded . However, if the crossbar  is not in default profile mode, you can call the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method to set a new profile for the crossbar. To disable default profile mode, call the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-enabledefaultmode">EnableDefaultMode</a> method without the DEF_MODE_PROFILE flag.
 
 ## -parameters
 
-
-
-
 ### -param ppProfile [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a> interface that implements the profile.
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a> interface that implements the profile.
           
-          The caller is responsible for releasing this interface. You can use this pointer to create a custom profile that you pass to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method.
-
+          The caller is responsible for releasing this interface. You can use this pointer to create a custom profile that you pass to the <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2crossbar-setoutputprofile">SetOutputProfile</a> method.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -109,30 +103,19 @@ Empty initial profiles.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2crossbar">ISBE2Crossbar</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2spanningevent">ISBE2SpanningEvent </a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2spanningevent">ISBE2SpanningEvent </a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink2 Filter</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink2 Filter</a>

@@ -2,15 +2,12 @@
 UID: NF:xenroll.IEnroll4.removePendingRequestWStr
 title: IEnroll4::removePendingRequestWStr (xenroll.h)
 description: Removes a pending request from the client's request store.
+helpviewer_keywords: ["IEnroll4 interface [Security]","removePendingRequestWStr method","IEnroll4.removePendingRequestWStr","IEnroll4::removePendingRequestWStr","removePendingRequestWStr","removePendingRequestWStr method [Security]","removePendingRequestWStr method [Security]","IEnroll4 interface","security.ienroll4_removependingrequestwstr","xenroll/IEnroll4::removePendingRequestWStr"]
 old-location: security\ienroll4_removependingrequestwstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 0e00fad2-dc06-421d-9a8c-27c5a951466c
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],removePendingRequestWStr method, IEnroll4.removePendingRequestWStr, IEnroll4::removePendingRequestWStr, removePendingRequestWStr, removePendingRequestWStr method [Security], removePendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_removependingrequestwstr, xenroll/IEnroll4::removePendingRequestWStr
-f1_keywords:
-- xenroll/IEnroll4.removePendingRequestWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll4.removePendingRequestWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll4::removePendingRequestWStr
+ - xenroll/IEnroll4::removePendingRequestWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll4.removePendingRequestWStr
 ---
 
 # IEnroll4::removePendingRequestWStr
@@ -48,30 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>removePendingRequestWStr</b> method removes a pending request from the client's request store.  This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
-
+The <b>removePendingRequestWStr</b> method removes a pending request from the client's request store.  This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
-
-
-
 ### -param thumbPrintBlob [in]
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the thumbprint, or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>, of the certificate data.
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the thumbprint, or <a href="/windows/desktop/SecGloss/h-gly">hash</a>, of the certificate data.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

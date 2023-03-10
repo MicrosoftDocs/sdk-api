@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel
 title: IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel (dvbsiparser.h)
 description: Gets the value of the quality_flag field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor. This field indicates the quality level of the hierarchical stream construction.
+helpviewer_keywords: ["GetQualityLevel","GetQualityLevel method [Microsoft TV Technologies]","GetQualityLevel method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetQualityLevel method","IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel","IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel","mstv.iisdbhierarchicaltransmissiondescriptor_getqualitylevel"]
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getqualitylevel.htm
 tech.root: mstv
 ms.assetid: 4890c3aa-487f-41c7-9202-636ded2ec46b
 ms.date: 12/05/2018
 ms.keywords: GetQualityLevel, GetQualityLevel method [Microsoft TV Technologies], GetQualityLevel method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetQualityLevel method, IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel, IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel, mstv.iisdbhierarchicaltransmissiondescriptor_getqualitylevel
-f1_keywords:
-- dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel
+ - dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbHierarchicalTransmissionDescriptor.GetQualityLevel
 ---
 
 # IIsdbHierarchicalTransmissionDescriptor::GetQualityLevel
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the value of the quality_flag field  from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor. This field indicates the quality level of the hierarchical stream construction.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the quality_flag field value. A value of 1 indicates a high-quality stream; a value of 0 indicates a low-quality stream.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbhierarchicaltransmissiondescriptor">IIsdbHierarchicalTransmissionDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbhierarchicaltransmissiondescriptor">IIsdbHierarchicalTransmissionDescriptor</a>

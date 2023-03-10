@@ -2,15 +2,12 @@
 UID: NS:fwpmtypes.FWPM_PROVIDER0_
 title: FWPM_PROVIDER0 (fwpmtypes.h)
 description: Stores the state associated with a policy provider.
+helpviewer_keywords: ["FWPM_PROVIDER0","FWPM_PROVIDER0 structure [Filtering]","FWPM_PROVIDER_FLAG_DISABLED","FWPM_PROVIDER_FLAG_PERSISTENT","fwp.fwpm_provider0_struct","fwpmtypes/FWPM_PROVIDER0"]
 old-location: fwp\fwpm_provider0_struct.htm
 tech.root: fwp
 ms.assetid: 692714fd-14f1-4f8b-a033-1f30b6d0b95a
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER0, FWPM_PROVIDER0 structure [Filtering], FWPM_PROVIDER_FLAG_DISABLED, FWPM_PROVIDER_FLAG_PERSISTENT, fwp.fwpm_provider0_struct, fwpmtypes/FWPM_PROVIDER0
-f1_keywords:
-- fwpmtypes/FWPM_PROVIDER0
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_PROVIDER0
 targetos: Windows
 req.typenames: FWPM_PROVIDER0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_PROVIDER0_
+ - fwpmtypes/FWPM_PROVIDER0_
+ - FWPM_PROVIDER0
+ - fwpmtypes/FWPM_PROVIDER0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_PROVIDER0
 ---
 
 # FWPM_PROVIDER0 structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_PROVIDER0</b> structure stores the state associated with a policy provider.
 
-
 ## -struct-fields
-
-
-
 
 ### -field providerKey
 
@@ -64,11 +63,9 @@ Uniquely identifies the provider.
 If the GUID is zero-initialized in the
    call to Add, Base Filtering Engine (BFE) will generate one.
 
-
 ### -field displayData
 
-Allows providers to be annotated in a human-readable form.  The [FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a> structure is required.
-
+Allows providers to be annotated in a human-readable form.  The [FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0) structure is required.
 
 ### -field flags
 
@@ -102,40 +99,24 @@ Provider's filters were disabled when the BFE started because the provider has n
 </td>
 </tr>
 </table>
- 
-
 
 ### -field providerData
 
-An [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a> structure that contains optional provider-specific data that allows providers to store additional context info with the object.
-
+An [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob) structure that contains optional provider-specific data that allows providers to store additional context info with the object.
 
 ### -field serviceName
 
 Optional name of the Windows service hosting the provider. This allows
    BFE to detect that a provider has been disabled.
 
-
 ## -remarks
 
-
-
-<b>FWPM_PROVIDER0</b> is a specific implementation of FWPM_PROVIDER. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>FWPM_PROVIDER0</b> is a specific implementation of FWPM_PROVIDER. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
+[FWPM_DISPLAY_DATA0](/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)
 
 
 
-[FWPM_DISPLAY_DATA0](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwpm_display_data0)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

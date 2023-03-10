@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.Metafile.SetDownLevelRasterizationLimit
 title: Metafile::SetDownLevelRasterizationLimit (gdiplusheaders.h)
 description: Sets the resolution for certain brush bitmaps that are stored in this metafile.
+helpviewer_keywords: ["Metafile class [GDI+]","SetDownLevelRasterizationLimit method","Metafile.SetDownLevelRasterizationLimit","Metafile::SetDownLevelRasterizationLimit","SetDownLevelRasterizationLimit","SetDownLevelRasterizationLimit method [GDI+]","SetDownLevelRasterizationLimit method [GDI+]","Metafile class","_gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_","gdiplus._gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\setdownlevelrasterizationlimit.htm
 ms.date: 12/05/2018
 ms.keywords: Metafile class [GDI+],SetDownLevelRasterizationLimit method, Metafile.SetDownLevelRasterizationLimit, Metafile::SetDownLevelRasterizationLimit, SetDownLevelRasterizationLimit, SetDownLevelRasterizationLimit method [GDI+], SetDownLevelRasterizationLimit method [GDI+],Metafile class, _gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_, gdiplus._gdiplus_CLASS_Metafile_SetDownLevelRasterizationLimit_
-f1_keywords:
-- gdiplusheaders/Metafile.SetDownLevelRasterizationLimit
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Metafile.SetDownLevelRasterizationLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Metafile::SetDownLevelRasterizationLimit
+ - gdiplusheaders/Metafile::SetDownLevelRasterizationLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Metafile.SetDownLevelRasterizationLimit
 ---
 
 # Metafile::SetDownLevelRasterizationLimit
@@ -49,56 +51,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the resolution for certain brush bitmaps that are stored in this metafile.
 
-
 ## -parameters
-
-
-
 
 ### -param metafileRasterizationLimitDpi [in]
 
 Type: <b>UINT</b>
 
-Non-negative integer that specifies the resolution in dpi. If you set this parameter equal to 0, the resolution is set to match the resolution of the device context handle that was passed to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-metafile(constmetafile_)">Metafile</a> constructor. If you set this parameter to a value greater than 0 but less than 10, the resolution is left unchanged.
-
+Non-negative integer that specifies the resolution in dpi. If you set this parameter equal to 0, the resolution is set to match the resolution of the device context handle that was passed to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-metafile(constmetafile_)">Metafile</a> constructor. If you set this parameter to a value greater than 0 but less than 10, the resolution is left unchanged.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
+If the method succeeds, it returns OK, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-</strong>
-
-If the method succeeds, it returns OK, which is an element of the 
-
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-
-
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
-
-
-The purpose of this method is to prevent metafiles from becoming too large as a result of texture and gradient brushes being stored at high resolution. Suppose you construct a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object (for recording an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfOnly</a> metafile) based on the device context of a printer that has a resolution of 600 dpi. Also suppose you create a path gradient brush or a texture brush based on a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object that has a resolution of 96 dpi. If the bitmap that represents that brush is stored in the metafile with a resolution of 96 dpi, it will require much less space than if it is stored with a resolution of 600 dpi.
+The purpose of this method is to prevent metafiles from becoming too large as a result of texture and gradient brushes being stored at high resolution. Suppose you construct a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object (for recording an <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfOnly</a> metafile) based on the device context of a printer that has a resolution of 600 dpi. Also suppose you create a path gradient brush or a texture brush based on a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object that has a resolution of 96 dpi. If the bitmap that represents that brush is stored in the metafile with a resolution of 96 dpi, it will require much less space than if it is stored with a resolution of 600 dpi.
 
 The default rasterization limit for metafiles is 96 dpi. So if you do not call this method at all, path gradient brush and texture brush bitmaps are stored with a resolution of 96 dpi.
 
-The rasterization limit has an effect on metafiles of type <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfOnly</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfPlusDual</a>, but it has no effect on metafiles of type <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfPlusOnly</a>.
+The rasterization limit has an effect on metafiles of type <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfOnly</a> and <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfPlusDual</a>, but it has no effect on metafiles of type <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfTypeEmfPlusOnly</a>.
 
 
 #### Examples
 
 
 
-The following example constructs a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object based on the device context of a printer. The code creates a texture brush based on an a BMP file and then records an ellipse filled with that brush. Assume that the printer has a resolution of 600 dpi and the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object has a resolution of 96 dpi.
+The following example constructs a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object based on the device context of a printer. The code creates a texture brush based on an a BMP file and then records an ellipse filled with that brush. Assume that the printer has a resolution of 600 dpi and the <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object has a resolution of 96 dpi.
 
 
 ```cpp
@@ -131,29 +115,18 @@ Metafile metafile(L"Metafile.emf", hdcPrint, EmfTypeEmfOnly);
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-emftype">EmfType</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-getdownlevelrasterizationlimit">Metafile::GetDownLevelRasterizationLimit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-metafile-getdownlevelrasterizationlimit">Metafile::GetDownLevelRasterizationLimit</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-recording-metafiles-use">Recording Metafiles</a>

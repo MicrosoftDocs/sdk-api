@@ -2,15 +2,12 @@
 UID: NF:werapi.WerReportCloseHandle
 title: WerReportCloseHandle function (werapi.h)
 description: Closes the specified report.
+helpviewer_keywords: ["WerReportCloseHandle","WerReportCloseHandle function [Windows Error Reporting]","base.werreportclosehandle","wer.werreportclosehandle","werapi/WerReportCloseHandle"]
 old-location: wer\werreportclosehandle.htm
 tech.root: wer
 ms.assetid: b7326003-cd25-4988-9ed4-31c2e030beec
 ms.date: 12/05/2018
 ms.keywords: WerReportCloseHandle, WerReportCloseHandle function [Windows Error Reporting], base.werreportclosehandle, wer.werreportclosehandle, werapi/WerReportCloseHandle
-f1_keywords:
-- werapi/WerReportCloseHandle
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wer.dll
-- Ext-MS-Win-wer-reporting-l1-1-0.dll
-- errorhandlingext.dll
-- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
-api_name:
-- WerReportCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerReportCloseHandle
+ - werapi/WerReportCloseHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wer.dll
+ - Ext-MS-Win-wer-reporting-l1-1-0.dll
+ - errorhandlingext.dll
+ - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+api_name:
+ - WerReportCloseHandle
 ---
 
 # WerReportCloseHandle function
@@ -51,44 +53,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Closes the specified report.
-
 
 ## -parameters
 
-
-
-
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
-
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ## -returns
 
-
-
 This function returns <b>S_OK</b> on success or an error code on failure.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

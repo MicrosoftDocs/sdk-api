@@ -2,15 +2,12 @@
 UID: NF:msctf.IEnumTfLanguageProfiles.Skip
 title: IEnumTfLanguageProfiles::Skip (msctf.h)
 description: IEnumTfLanguageProfiles::Skip method
+helpviewer_keywords: ["IEnumTfLanguageProfiles interface [Text Services Framework]","Skip method","IEnumTfLanguageProfiles.Skip","IEnumTfLanguageProfiles::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfLanguageProfiles interface","_tsf_ienumtflanguageprofiles_skip_ref","msctf/IEnumTfLanguageProfiles::Skip","tsf.ienumtflanguageprofiles_skip"]
 old-location: tsf\ienumtflanguageprofiles_skip.htm
 tech.root: TSF
 ms.assetid: 67e6d841-a3e9-4e55-ac35-9197f256d9bf
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Skip method, IEnumTfLanguageProfiles.Skip, IEnumTfLanguageProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_skip_ref, msctf/IEnumTfLanguageProfiles::Skip, tsf.ienumtflanguageprofiles_skip
-f1_keywords:
-- msctf/IEnumTfLanguageProfiles.Skip
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumTfLanguageProfiles.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumTfLanguageProfiles::Skip
+ - msctf/IEnumTfLanguageProfiles::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumTfLanguageProfiles.Skip
 ---
 
 # IEnumTfLanguageProfiles::Skip
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Moves the current position forward in the enumeration sequence by the specified number of elements.
 
 ## -parameters
-
-
-
 
 ### -param ulCount [in]
 
 Contains the number of elements to skip.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,7 +90,8 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
- 
 
+## -see-also
 
+[IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)
 

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFRemoteProxy.GetRemoteObject
 title: IMFRemoteProxy::GetRemoteObject (mfidl.h)
 description: Retrieves a pointer to the remote object for which this object is a proxy.
+helpviewer_keywords: ["2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3","GetRemoteObject","GetRemoteObject method [Media Foundation]","GetRemoteObject method [Media Foundation]","IMFRemoteProxy interface","IMFRemoteProxy interface [Media Foundation]","GetRemoteObject method","IMFRemoteProxy.GetRemoteObject","IMFRemoteProxy::GetRemoteObject","mf.imfremoteproxy_getremoteobject","mfidl/IMFRemoteProxy::GetRemoteObject"]
 old-location: mf\imfremoteproxy_getremoteobject.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3
 ms.date: 12/05/2018
 ms.keywords: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3, GetRemoteObject, GetRemoteObject method [Media Foundation], GetRemoteObject method [Media Foundation],IMFRemoteProxy interface, IMFRemoteProxy interface [Media Foundation],GetRemoteObject method, IMFRemoteProxy.GetRemoteObject, IMFRemoteProxy::GetRemoteObject, mf.imfremoteproxy_getremoteobject, mfidl/IMFRemoteProxy::GetRemoteObject
-f1_keywords:
-- mfidl/IMFRemoteProxy.GetRemoteObject
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFRemoteProxy.GetRemoteObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFRemoteProxy::GetRemoteObject
+ - mfidl/IMFRemoteProxy::GetRemoteObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFRemoteProxy.GetRemoteObject
 ---
 
 # IMFRemoteProxy::GetRemoteObject
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves a pointer to the remote object for which this object is a proxy.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 Interface identifier (IID) of the requested interface.
 
-
 ### -param ppv [out]
 
 Receives a pointer to the requested interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an HRESULT. Possible values include, but are not limited to, those in the following table.
 
@@ -94,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfremoteproxy">IMFRemoteProxy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfremoteproxy">IMFRemoteProxy</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:clusapi.OnlineClusterResourceEx
 title: OnlineClusterResourceEx function (clusapi.h)
-description: Brings an offline or failed resource online.
+description: Brings an offline or failed resource online. (OnlineClusterResourceEx)
+helpviewer_keywords: ["CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS","CLUSAPI_RESOURCE_ONLINE_BEST_POSSIBLE_NODE","CLUSAPI_RESOURCE_ONLINE_DO_NOT_UPDATE_PERSISTENT_STATE","CLUSAPI_RESOURCE_ONLINE_NECESSARY_FOR_QUORUM","OnlineClusterResourceEx","OnlineClusterResourceEx function [Failover Cluster]","clusapi/OnlineClusterResourceEx","mscs.onlineclusterresourceex"]
 old-location: mscs\onlineclusterresourceex.htm
 tech.root: MsCS
 ms.assetid: 8A41D266-0FBD-4063-9C79-E22924129989
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_GROUP_ONLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_ONLINE_BEST_POSSIBLE_NODE, CLUSAPI_RESOURCE_ONLINE_DO_NOT_UPDATE_PERSISTENT_STATE, CLUSAPI_RESOURCE_ONLINE_NECESSARY_FOR_QUORUM, OnlineClusterResourceEx, OnlineClusterResourceEx function [Failover Cluster], clusapi/OnlineClusterResourceEx, mscs.onlineclusterresourceex
-f1_keywords:
-- clusapi/OnlineClusterResourceEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-api_name:
-- OnlineClusterResourceEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OnlineClusterResourceEx
+ - clusapi/OnlineClusterResourceEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+ - OnlineClusterResourceEx
 ---
 
 # OnlineClusterResourceEx function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Brings an offline or failed  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> online.
-
+Brings an offline or failed  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> online.
 
 ## -parameters
-
-
-
 
 ### -param hResource [in]
 
 The handle to the resource to bring online.
-
 
 ### -param dwOnlineFlags [in]
 
@@ -101,25 +97,20 @@ The cluster service is to determine the node that will host the resource when it
 
 The server is  not to  ignore locked mode for the resource.
 
-
 ### -param lpInBuffer [in, optional]
 
 A pointer to the input buffer that receives instructions for the operation. The <i>lpInBuffer</i>  parameter is formatted as a property list.
-
 
 ### -param cbInBufferSize [in]
 
 The size of <i>lpInBuffer</i>, in bytes.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -133,23 +124,12 @@ the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug
 </dl>
 </td>
 <td width="60%">
-The resource or one of the resources that  it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> entry point function.
+The resource or one of the resources that  it depends on has returned <b>ERROR_IO_PENDING</b> from its  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> entry point function.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>

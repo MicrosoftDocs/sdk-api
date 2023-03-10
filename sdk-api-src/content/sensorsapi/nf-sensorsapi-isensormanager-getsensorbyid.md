@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensorManager.GetSensorByID
 title: ISensorManager::GetSensorByID (sensorsapi.h)
 description: Retrieves a pointer to the specified sensor.
+helpviewer_keywords: ["GetSensorByID","GetSensorByID method","GetSensorByID method","ISensorManager interface","ISensorManager interface","GetSensorByID method","ISensorManager.GetSensorByID","ISensorManager::GetSensorByID","sensorsapi/ISensorManager::GetSensorByID","winsensors_com_ref.isensormanager_getsensorbyid"]
 old-location: winsensors_com_ref\isensormanager_getsensorbyid.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 453f46f3-43e1-466d-9f46-165b7d2bcd56
 ms.date: 12/05/2018
 ms.keywords: GetSensorByID, GetSensorByID method, GetSensorByID method,ISensorManager interface, ISensorManager interface,GetSensorByID method, ISensorManager.GetSensorByID, ISensorManager::GetSensorByID, sensorsapi/ISensorManager::GetSensorByID, winsensors_com_ref.isensormanager_getsensorbyid
-f1_keywords:
-- sensorsapi/ISensorManager.GetSensorByID
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensorManager.GetSensorByID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensorManager::GetSensorByID
+ - sensorsapi/ISensorManager::GetSensorByID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensorManager.GetSensorByID
 ---
 
 # ISensorManager::GetSensorByID
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a pointer to the specified sensor.
 
-
 ## -parameters
-
-
-
 
 ### -param sensorID [in]
 
 The ID of the sensor to retrieve.
 
-
 ### -param ppSensor [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface pointer that receives a pointer to the requested sensor. Will be <b>NULL</b> if the requested sensor cannot be found.
-
+Address of an <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a> interface pointer that receives a pointer to the requested sensor. Will be <b>NULL</b> if the requested sensor cannot be found.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -124,22 +117,11 @@ NULL was passed in for ppSensor.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager">ISensorManager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>
- 
-
- 
-
+<a href="/windows/desktop/SensorsAPI/retrieving-a-sensor">Retrieving a Sensor Object</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.FormatMessageW
 title: FormatMessageW function (winbase.h)
-description: Formats a message string.
+description: The FormatMessageW (Unicode) function (winbase.h) formats a message string.
+helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER", "FORMAT_MESSAGE_ARGUMENT_ARRAY", "FORMAT_MESSAGE_FROM_HMODULE", "FORMAT_MESSAGE_FROM_STRING", "FORMAT_MESSAGE_FROM_SYSTEM", "FORMAT_MESSAGE_IGNORE_INSERTS", "FORMAT_MESSAGE_MAX_WIDTH_MASK", "FormatMessage", "FormatMessage function", "FormatMessageW", "_win32_formatmessage", "base.formatmessage", "winbase/FormatMessage", "winbase/FormatMessageW"]
 old-location: base\formatmessage.htm
 tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: FORMAT_MESSAGE_ALLOCATE_BUFFER, FORMAT_MESSAGE_ARGUMENT_ARRAY, FORMAT_MESSAGE_FROM_HMODULE, FORMAT_MESSAGE_FROM_STRING, FORMAT_MESSAGE_FROM_SYSTEM, FORMAT_MESSAGE_IGNORE_INSERTS, FORMAT_MESSAGE_MAX_WIDTH_MASK, FormatMessage, FormatMessage function, FormatMessageA, FormatMessageW, _win32_formatmessage, base.formatmessage, winbase/FormatMessage, winbase/FormatMessageA, winbase/FormatMessageW
-f1_keywords:
-- winbase/FormatMessage
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,35 +25,39 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-Core-misc-l1-1-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- FormatMessage
-- FormatMessageA
-- FormatMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FormatMessageW
+ - winbase/FormatMessageW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - FormatMessage
+ - FormatMessageA
+ - FormatMessageW
 ---
 
 # FormatMessageW function
 
 
 ## -description
-
 
 Formats a message string. The function requires a message definition as input. The message 
     definition can come from a buffer passed into the function. It can come from a message table resource in an 
@@ -65,11 +66,7 @@ Formats a message string. The function requires a message definition as input. T
     identifier and a language identifier. The function copies the formatted message text to an output buffer, 
     processing any embedded insert sequences if requested.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -97,12 +94,12 @@ The function allocates a buffer large enough to hold the formatted message, and 
          cast the pointer to an <b>LPTSTR</b> (for example, 
          <code>(LPTSTR)&amp;lpBuffer</code>). The <i>nSize</i> 
          parameter specifies the minimum number of <b>TCHARs</b> to allocate for an output 
-         message buffer. The caller should use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> 
+         message buffer. The caller should use the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> 
          function to free the buffer when it is no longer needed.
 
 If the length of the formatted message exceeds 128K bytes, then 
          <b>FormatMessage</b> will fail and a subsequent call to 
-         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
+         <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
          <b>ERROR_MORE_DATA</b>.
 
 In previous versions of Windows, this value was not available for use when compiling Windows Store apps. As of Windows 10 this value can be used. 
@@ -110,12 +107,6 @@ In previous versions of Windows, this value was not available for use when compi
 <b>Windows Server 2003 and Windows XP:  </b><p class="note">If the length of the formatted message exceeds 128K bytes, then 
            <b>FormatMessage</b> will not automatically fail with an 
            error of <b>ERROR_MORE_DATA</b>.
-
-
-
-<b>Windows 10:  </b><b> LocalAlloc()</b> has different options: <b>LMEM_FIXED</b>, and  <b>LMEM_MOVABLE</b>. <b>FormatMessage()</b> uses <b>LMEM_FIXED</b>, so <b>HeapFree</b> can be used. If <b>LMEM_MOVABLE</b> is used, <b>HeapFree</b> cannot be used.
-
-
 
 </td>
 </tr>
@@ -179,7 +170,7 @@ The function should search the system message-table resource(s) for the requeste
          flag cannot be used with <b>FORMAT_MESSAGE_FROM_STRING</b>.
 
 If this flag is specified, an application can pass the result of the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the message text 
+         <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to retrieve the message text 
          for a system-defined error.
 
 </td>
@@ -191,7 +182,7 @@ If this flag is specified, an application can pass the result of the
 </dl>
 </td>
 <td width="60%">
-Insert sequences in the message definition are to be ignored and passed through to the output buffer 
+Insert sequences in the message definition such as %1 are to be ignored and passed through to the output buffer 
         unchanged. This flag is useful for fetching a message for later formatting. If this flag is set, the 
         <i>Arguments</i> parameter is ignored.
 
@@ -242,7 +233,6 @@ If the low-order byte is a nonzero value other than
       a string delimited by white space across a line break. The function stores hard-coded line breaks in the message 
       definition text into the output buffer. Hard-coded line breaks are coded with the %n escape sequence.
 
-
 ### -param lpSource [in, optional]
 
 The location of the message definition. The type of this parameter depends upon the settings in the 
@@ -282,16 +272,14 @@ Pointer to a string that consists of unformatted message text. It will be scanne
 If neither of these flags is set in <i>dwFlags</i>, then 
        <i>lpSource</i> is ignored.
 
-
 ### -param dwMessageId [in]
 
 The message identifier for the requested message. This parameter is ignored if 
       <i>dwFlags</i> includes <b>FORMAT_MESSAGE_FROM_STRING</b>.
 
-
 ### -param dwLanguageId [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> for the requested 
+The <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> for the requested 
        message. This parameter is ignored if <i>dwFlags</i> includes 
        <b>FORMAT_MESSAGE_FROM_STRING</b>.
 
@@ -314,17 +302,15 @@ If <b>FormatMessage</b> does not locate a message for any
        of the preceding <b>LANGIDs</b>, it returns any language message string that is present. 
        If that fails, it returns <b>ERROR_RESOURCE_LANG_NOT_FOUND</b>.
 
-
 ### -param lpBuffer [out]
 
 A pointer to a buffer that receives the null-terminated string that specifies the formatted message. If 
        <i>dwFlags</i> includes <b>FORMAT_MESSAGE_ALLOCATE_BUFFER</b>, the 
-       function allocates a buffer using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> 
+       function allocates a buffer using the <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> 
        function, and places the pointer to the buffer at the address specified in 
        <i>lpBuffer</i>.
 
 This buffer cannot be larger than 64K bytes.
-
 
 ### -param nSize [in]
 
@@ -334,7 +320,6 @@ If the <b>FORMAT_MESSAGE_ALLOCATE_BUFFER</b> flag is not set, this parameter spe
        <b>TCHARs</b> to allocate for an output buffer.
 
 The output buffer cannot be larger than 64K bytes.
-
 
 ### -param Arguments [in, optional]
 
@@ -357,23 +342,15 @@ If you do not have a pointer of type
        flag and pass a pointer to an array of <b>DWORD_PTR</b> values; those values are input to 
        the message formatted as the insert values. Each insert must have a corresponding element in the array.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the number of <b>TCHARs</b> stored in the 
        output buffer, excluding the terminating null character.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 Within the message text, several escape sequences are supported for dynamically formatting the message. These 
     escape sequences and their meanings are shown in the following tables. All escape sequences start with the percent 
@@ -393,10 +370,10 @@ Within the message text, several escape sequences are supported for dynamically 
 <tr>
 <td>%<i>n</i>!<i>format string</i>!</td>
 <td>
-Identifies an insert. The value of <i>n</i> can be in the range from 1 through 99. The 
+Identifies an insert sequence. The value of <i>n</i> can be in the range from 1 through 99. The 
         format string (which must be surrounded by exclamation marks) is optional and defaults to !s! if not 
         specified. For more information, see 
-        <a href="https://go.microsoft.com/fwlink/p/?linkid=83949">Format Specification Fields</a>.
+        <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Fields</a>.
 
 The format string can include a width and precision specifier for strings and a width specifier for 
         integers. Use an asterisk (*) to specify the width and precision. For example, %1!*.*s! or %1!*u!.
@@ -426,13 +403,13 @@ Repeating insert numbers when the source string contains width and precision spe
         resulting in an access violation).
 
 Floating-point format specifiers—e, E, f, and g—are not supported. 
-        The workaround is to use the <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> 
+        The workaround is to use the <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> 
         function to format the floating-point number into a temporary buffer, then use that buffer as the insert 
         string.
 
 Inserts that use the I64 prefix are treated as two 32-bit arguments. They must be used before subsequent 
         arguments are used. Note that it may be easier for you to use 
-        <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> instead of this prefix.
+        <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a> instead of this prefix.
 
 </td>
 </tr>
@@ -498,8 +475,8 @@ If this function is called without <b>FORMAT_MESSAGE_IGNORE_INSERTS</b>, the
 
 The <b>FormatMessage</b> function can be used to obtain 
      error message strings for the system error codes returned by 
-     <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>.
+     <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. For an example, see 
+     <a href="/windows/desktop/Debug/retrieving-the-last-error-code">Retrieving the Last-Error Code</a>.
 
 <div class="code"></div>
 The following example shows how to use an argument array and the width and precision specifiers.
@@ -606,21 +583,18 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines FormatMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WES/message-compiler--mc-exe-">Message Compiler</a>
+<a href="/windows/desktop/WES/message-compiler--mc-exe-">Message Compiler</a>
 
 
 
 Message Tables
- 
-
- 
-

@@ -2,15 +2,12 @@
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Flags
 title: IRDPSRAPIWindow::get_Flags (rdpencomapi.h)
 description: Returns the flags on the current window.
+helpviewer_keywords: ["Flags property [RDP]","Flags property [RDP]","IRDPSRAPIWindow interface","Flags property [RDP]","RDPSRAPIWindow object","IRDPSRAPIWindow interface [RDP]","Flags property","IRDPSRAPIWindow.Flags","IRDPSRAPIWindow.get_Flags","IRDPSRAPIWindow::Flags","IRDPSRAPIWindow::get_Flags","RDPSRAPIWindow object [RDP]","Flags property","get_Flags","rdp.irdpsrapiwindow_flags","rdpencomapi/IRDPSRAPIWindow::Flags","rdpencomapi/IRDPSRAPIWindow::get_Flags"]
 old-location: rdp\irdpsrapiwindow_flags.htm
 tech.root: rdp
 ms.assetid: 64215325-fb94-4708-9391-5ef86c2c0076
 ms.date: 12/05/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIWindow interface, Flags property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Flags property, IRDPSRAPIWindow.Flags, IRDPSRAPIWindow.get_Flags, IRDPSRAPIWindow::Flags, IRDPSRAPIWindow::get_Flags, RDPSRAPIWindow object [RDP],Flags property, get_Flags, rdp.irdpsrapiwindow_flags, rdpencomapi/IRDPSRAPIWindow::Flags, rdpencomapi/IRDPSRAPIWindow::get_Flags
-f1_keywords:
-- rdpencomapi/IRDPSRAPIWindow.Flags
-dev_langs:
-- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: RdpEncomAPI.tlb
 req.lib: 
 req.dll: RdpEncom.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- RdpEncom.dll
-api_name:
-- IRDPSRAPIWindow.Flags
-- IRDPSRAPIWindow.get_Flags
-- RDPSRAPIWindow.Flags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRDPSRAPIWindow::get_Flags
+ - rdpencomapi/IRDPSRAPIWindow::get_Flags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RdpEncom.dll
+api_name:
+ - IRDPSRAPIWindow.Flags
+ - IRDPSRAPIWindow.get_Flags
+ - RDPSRAPIWindow.Flags
 ---
 
 # IRDPSRAPIWindow::get_Flags
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Returns the flags on the current window. Flags are one of the values of the enumeration type <a href="https://docs.microsoft.com/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpsrapi_wnd_flags">RDPSRAPI_WND_FLAGS</a>.
+Returns the flags on the current window. Flags are one of the values of the enumeration type <a href="/windows/win32/api/rdpencomapi/ne-rdpencomapi-rdpsrapi_wnd_flags">RDPSRAPI_WND_FLAGS</a>.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>

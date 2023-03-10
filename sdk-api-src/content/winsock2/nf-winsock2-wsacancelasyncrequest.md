@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock2.WSACancelAsyncRequest
 title: WSACancelAsyncRequest function (winsock2.h)
-description: The WSACancelAsyncRequest function cancels an incomplete asynchronous operation.
+description: The WSACancelAsyncRequest function (winsock2.h) cancels an incomplete asynchronous operation. 
+helpviewer_keywords: ["WSACancelAsyncRequest","WSACancelAsyncRequest function [Winsock]","_win32_wsacancelasyncrequest_2","winsock.wsacancelasyncrequest_2","winsock/WSACancelAsyncRequest"]
 old-location: winsock\wsacancelasyncrequest_2.htm
 tech.root: WinSock
 ms.assetid: 0e53eccf-ef85-43ec-a02c-12896471a7a9
-ms.date: 12/05/2018
+ms.date: 08/03/2022
 ms.keywords: WSACancelAsyncRequest, WSACancelAsyncRequest function [Winsock], _win32_wsacancelasyncrequest_2, winsock.wsacancelasyncrequest_2, winsock/WSACancelAsyncRequest
-f1_keywords:
-- winsock2/WSACancelAsyncRequest
-dev_langs:
-- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSACancelAsyncRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSACancelAsyncRequest
+ - winsock2/WSACancelAsyncRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSACancelAsyncRequest
 ---
 
 # WSACancelAsyncRequest function
@@ -48,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>WSACancelAsyncRequest</b> function cancels an incomplete asynchronous operation.
 
-
 ## -parameters
-
-
-
 
 ### -param hAsyncTaskHandle [in]
 
 Handle that specifies the asynchronous operation to be canceled.
 
-
 ## -returns
-
-
 
 The value returned by 
 <b>WSACancelAsyncRequest</b> is zero if the operation was successfully canceled. Otherwise, the value SOCKET_ERROR is returned, and a specific error number can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -79,19 +73,19 @@ The value returned by
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,7 +96,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -113,7 +107,7 @@ Indicates that the specified asynchronous task handle was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +118,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -136,61 +130,47 @@ The asynchronous routine being canceled has already completed.
  
 
 <div class="alert"><b>Note</b>  It is unclear whether the application can usefully distinguish between 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a>, since in both cases the error indicates that there is no asynchronous operation in progress with the indicated handle. (Trivial exception: zero is always an invalid asynchronous task handle.) The Windows Sockets specification does not prescribe how a conformant Windows Sockets provider should distinguish between the two cases. For maximum portability, a Windows Sockets application should treat the two errors as equivalent.</div>
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a> and 
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a>, since in both cases the error indicates that there is no asynchronous operation in progress with the indicated handle. (Trivial exception: zero is always an invalid asynchronous task handle.) The Windows Sockets specification does not prescribe how a conformant Windows Sockets provider should distinguish between the two cases. For maximum portability, a Windows Sockets application should treat the two errors as equivalent.</div>
 <div> </div>
-
-
 
 ## -remarks
 
-
-
 The 
 <b>WSACancelAsyncRequest</b> function is used to cancel an asynchronous operation that was initiated by one of the <b>WSAAsyncGetXByY</b> functions such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname">WSAAsyncGetHostByName</a>. The operation to be canceled is identified by the <i>hAsyncTaskHandle</i> parameter, which should be set to the asynchronous task handle as returned by the initiating <b>WSAAsyncGetXByY</b> function.
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname">WSAAsyncGetHostByName</a>. The operation to be canceled is identified by the <i>hAsyncTaskHandle</i> parameter, which should be set to the asynchronous task handle as returned by the initiating <b>WSAAsyncGetXByY</b> function.
 
 An attempt to cancel an existing asynchronous <b>WSAAsyncGetXByY</b> operation can fail with an error code of 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a> for two reasons. First, the original operation has already completed and the application has dealt with the resultant message. Second, the original operation has already completed but the resultant message is still waiting in the application window queue.
-
-
-
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEALREADY</a> for two reasons. First, the original operation has already completed and the application has dealt with the resultant message. Second, the original operation has already completed but the resultant message is still waiting in the application window queue.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyaddr">WSAAsyncGetHostByAddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyaddr">WSAAsyncGetHostByAddr</a>
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname">WSAAsyncGetHostByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname">WSAAsyncGetHostByName</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname">WSAAsyncGetProtoByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobyname">WSAAsyncGetProtoByName</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobynumber">WSAAsyncGetProtoByNumber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobynumber">WSAAsyncGetProtoByNumber</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyname">WSAAsyncGetServByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyname">WSAAsyncGetServByName</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyport">WSAAsyncGetServByPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetservbyport">WSAAsyncGetServByPort</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

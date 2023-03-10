@@ -1,16 +1,13 @@
 ---
-UID: NS:windns.__unnamed_struct_34
+UID: NS:windns.DNS_ATMA_DATA
 title: DNS_ATMA_DATA (windns.h)
 description: The DNS_ATMA_DATA structure represents a DNS ATM address (ATMA) resource record (RR).
+helpviewer_keywords: ["*PDNS_ATMA_DATA","DNS_ATMA_DATA","DNS_ATMA_DATA structure [DNS]","DNS_ATMA_FORMAT_AESA","DNS_ATMA_FORMAT_E164","PDNS_ATMA_DATA","PDNS_ATMA_DATA structure pointer [DNS]","_dns_dns_atma_data","dns.dns_atma_data","windns/DNS_ATMA_DATA","windns/PDNS_ATMA_DATA"]
 old-location: dns\dns_atma_data.htm
 tech.root: DNS
 ms.assetid: 09df3990-36bd-4656-b5cd-792e521adf9d
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_ATMA_DATA, DNS_ATMA_DATA, DNS_ATMA_DATA structure [DNS], DNS_ATMA_FORMAT_AESA, DNS_ATMA_FORMAT_E164, PDNS_ATMA_DATA, PDNS_ATMA_DATA structure pointer [DNS], _dns_dns_atma_data, dns.dns_atma_data, windns/DNS_ATMA_DATA, windns/PDNS_ATMA_DATA'
-f1_keywords:
-- windns/DNS_ATMA_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_ATMA_DATA
 targetos: Windows
 req.typenames: DNS_ATMA_DATA, *PDNS_ATMA_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_ATMA_DATA
+ - windns/PDNS_ATMA_DATA
+ - DNS_ATMA_DATA
+ - windns/DNS_ATMA_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_ATMA_DATA
 ---
 
 # DNS_ATMA_DATA structure
@@ -48,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>DNS_ATMA_DATA</b> structure represents a DNS ATM address (ATMA) resource record (RR).
 
-
 ## -struct-fields
-
-
-
 
 ### -field AddressType
 
@@ -89,32 +88,18 @@ An address of the form: +358.400.1234567\0.  The null-terminated hex characters 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Address
 
 A <b>BYTE</b> array that contains the ATM address whose format is specified by <b>AddressType</b>.
 
-
 ## -remarks
-
-
 
 The 
 <b>DNS_ATMA_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
-
-
-
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
- 
-
- 
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 

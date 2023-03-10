@@ -2,15 +2,12 @@
 UID: NS:webservices._WS_XML_DICTIONARY
 title: WS_XML_DICTIONARY (webservices.h)
 description: Represents a set of unique strings. This information is used by the binary encoding to write a more compact xml document.
+helpviewer_keywords: ["WS_XML_DICTIONARY","WS_XML_DICTIONARY structure [Web Services for Windows]","webservices/WS_XML_DICTIONARY","wsw.ws_xml_dictionary"]
 old-location: wsw\ws_xml_dictionary.htm
 tech.root: wsw
 ms.assetid: 2cba47fd-a049-4e50-99dd-20ccf91c9e0f
 ms.date: 12/05/2018
 ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
-f1_keywords:
-- webservices/WS_XML_DICTIONARY
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_XML_DICTIONARY
 targetos: Windows
 req.typenames: WS_XML_DICTIONARY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_XML_DICTIONARY
+ - webservices/_WS_XML_DICTIONARY
+ - WS_XML_DICTIONARY
+ - webservices/WS_XML_DICTIONARY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_XML_DICTIONARY
 ---
 
 # WS_XML_DICTIONARY structure
@@ -48,35 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a set of unique strings.  This information is used by the binary
         encoding to write a more compact xml document.
-      
-
 
 ## -struct-fields
-
-
-
 
 ### -field guid
 
 A guid that uniquely identifies the set of strings represented by the dictionary.
           The guid is never transmitted or persisted, and needs to only be unique for the lifetime of the process.
-        
-
 
 ### -field strings
 
 The set of unique strings that comprise the dictionary.
-          
-
 
 ### -field stringCount
 
 Specifies the number of strings in the dictionary.
-          
-
 
 ### -field isConst
 
@@ -85,12 +77,8 @@ Indicates if the dictionary and its contents are declared const and that they wi
         
 
 If this is <b>TRUE</b>, then the strings can be manipulated more efficiently.
-        
-
 
 ## -remarks
-
-
 
 All strings and values within a dictionary must be unique.  Dictionaries are
         always assumed to be well-formed, so it is up to the creator of the dictionary
@@ -100,7 +88,9 @@ All strings and values within a dictionary must be unique.  Dictionaries are
 A dictionary might be declared as:
       
 
-<pre class="syntax" xml:space="preserve"><code>struct PurchaseOrderDictionary
+
+``` syntax
+struct PurchaseOrderDictionary
 {
     WS_XML_DICTIONARY dictionary;
     WS_XML_STRING quantity;
@@ -122,10 +112,15 @@ static PurchaseOrderDictionary purchaseOrderDictionary =
     WS_XML_STRING_DICTIONARY_VALUE("PurchaseOrder",      &amp;purchaseOrderDictionary.dictionary, 2),
     WS_XML_STRING_DICTIONARY_VALUE("http://example.com", &amp;purchaseOrderDictionary.dictionary, 3),
 };
-</code></pre>
+
+```
+
 Strings from the dictionary might be used as:
       
 
-<pre class="syntax" xml:space="preserve"><code>WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.purchaseOrder, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);</code></pre>
+
+``` syntax
+WsWriteStartElement(xmlWriter, NULL, &amp;purchaseOrderDictionary.purchaseOrder, &amp;purchaseOrderDictionary.purchaseOrderNamespace, error);
+```
 
 

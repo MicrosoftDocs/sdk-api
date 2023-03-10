@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCEnumProtocols32
 title: WSCEnumProtocols32 function (ws2spi.h)
 description: Retrieves information about available transport protocols.Note  This call is a strictly 32-bit version of WSCEnumProtocols for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
+helpviewer_keywords: ["WSCEnumProtocols32","WSCEnumProtocols32 function [Winsock]","winsock.wscenumprotocols32","ws2spi/WSCEnumProtocols32"]
 old-location: winsock\wscenumprotocols32.htm
 tech.root: WinSock
 ms.assetid: f46042f6-0b14-4a14-abc1-4e40c34b1599
 ms.date: 12/05/2018
 ms.keywords: WSCEnumProtocols32, WSCEnumProtocols32 function [Winsock], winsock.wscenumprotocols32, ws2spi/WSCEnumProtocols32
-f1_keywords:
-- ws2spi/WSCEnumProtocols32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCEnumProtocols32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCEnumProtocols32
+ - ws2spi/WSCEnumProtocols32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCEnumProtocols32
 ---
 
 # WSCEnumProtocols32 function
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The **WSCEnumProtocols32** function retrieves information about available transport protocols.<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpiProtocols [in]
 
 Null-terminated array of <i>iProtocol</i> values. This parameter is optional; if <i>lpiProtocols</i> is null, information on all available protocols is returned. Otherwise, information is retrieved only for those protocols listed in the array.
 
-
 ### -param lpProtocolBuffer [out]
 
 Buffer that is filled with 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaprotocol_infow">WSAPROTOCOL_INFOW</a> structures.
-
 
 ### -param lpdwBufferLength [in, out]
 
@@ -76,15 +70,11 @@ On input, size of the <i>lpProtocolBuffer</i> buffer passed to
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>, in bytes. On output, the minimum buffer size, in bytes, that can be passed to 
 **WSCEnumProtocols** to retrieve all the requested information.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 **WSCEnumProtocols32** returns the number of protocols to be reported on. Otherwise, a value of SOCKET_ERROR is returned and a specific error code is available in <i>lpErrno</i>.
@@ -129,14 +119,8 @@ Buffer length was too small to receive all the relevant
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCEnumProtocols32** is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
@@ -327,14 +311,7 @@ int wmain()
 
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
 
@@ -345,7 +322,4 @@ int wmain()
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols">WSCEnumProtocols</a>
- 
-
- 
 

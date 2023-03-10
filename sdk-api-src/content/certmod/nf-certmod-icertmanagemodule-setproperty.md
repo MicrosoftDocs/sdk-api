@@ -2,15 +2,12 @@
 UID: NF:certmod.ICertManageModule.SetProperty
 title: ICertManageModule::SetProperty (certmod.h)
 description: Allows a module to set a property value.
+helpviewer_keywords: ["CCertManageModule object [Security]","SetProperty method","Copyright","Description","File Version","ICertManageModule interface [Security]","SetProperty method","ICertManageModule.SetProperty","ICertManageModule::SetProperty","Name","Product Version","SetProperty","SetProperty method [Security]","SetProperty method [Security]","CCertManageModule object","SetProperty method [Security]","ICertManageModule interface","_certsrv_icertmanagemodule_setproperty","certmod/ICertManageModule::SetProperty","security.icertmanagemodule_setproperty"]
 old-location: security\icertmanagemodule_setproperty.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
 ms.date: 12/05/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty
-f1_keywords:
-- certmod/ICertManageModule.SetProperty
-dev_langs:
-- c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertManageModule.SetProperty
-- CCertManageModule.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertManageModule::SetProperty
+ - certmod/ICertManageModule::SetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertManageModule.SetProperty
+ - CCertManageModule.SetProperty
 ---
 
 # ICertManageModule::SetProperty
@@ -50,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetProperty</b> method allows a module to set a property value.
-
 
 ## -parameters
 
-
-
-
 ### -param strConfig [in]
 
-Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
-
+Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ### -param strStorageLocation [in]
 
 The location that provides storage for the property values, as described in the definition of <i>strStorageLocation</i> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>.
-
+<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>.
 
 ### -param strPropertyName [in]
 
@@ -131,36 +126,25 @@ Version of the module.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Flags [in]
 
 This parameter is reserved and must be set to zero.
 
-
 ### -param pvarProperty [in]
 
 A value that is being assigned to the property specified by <i>strPropertyName</i>.
 
-
 ## -returns
-
-
 
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
-
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-
-
-This method is intended for future functionality. A minimal implementation is required, however, to meet the requirements of the <a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface.
+This method is intended for future functionality. A minimal implementation is required, however, to meet the requirements of the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface.
 
 
 #### Examples
@@ -183,29 +167,18 @@ HRESULT CCertManagePolicyModule::SetProperty(
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>CCertManageModule</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>
+<a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>

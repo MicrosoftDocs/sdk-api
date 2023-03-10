@@ -2,15 +2,12 @@
 UID: NF:rend.ITDirectoryObject.get_ObjectType
 title: ITDirectoryObject::get_ObjectType (rend.h)
 description: The get_ObjectType method gets a DIRECTORY_OBJECT_TYPE descriptor of the object.
+helpviewer_keywords: ["ITDirectoryObject interface [TAPI 2.2]","get_ObjectType method","ITDirectoryObject.get_ObjectType","ITDirectoryObject::get_ObjectType","_tapi3_itdirectoryobject_get_objecttype","get_ObjectType","get_ObjectType method [TAPI 2.2]","get_ObjectType method [TAPI 2.2]","ITDirectoryObject interface","rend/ITDirectoryObject::get_ObjectType","tapi3.itdirectoryobject_get_objecttype"]
 old-location: tapi3\itdirectoryobject_get_objecttype.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: b71f5286-d97d-4129-942b-fa4d4ef0943e
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_ObjectType method, ITDirectoryObject.get_ObjectType, ITDirectoryObject::get_ObjectType, _tapi3_itdirectoryobject_get_objecttype, get_ObjectType, get_ObjectType method [TAPI 2.2], get_ObjectType method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_ObjectType, tapi3.itdirectoryobject_get_objecttype
-f1_keywords:
-- rend/ITDirectoryObject.get_ObjectType
-dev_langs:
-- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Rend.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Rend.dll
-api_name:
-- ITDirectoryObject.get_ObjectType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITDirectoryObject::get_ObjectType
+ - rend/ITDirectoryObject::get_ObjectType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Rend.dll
+api_name:
+ - ITDirectoryObject.get_ObjectType
 ---
 
 # ITDirectoryObject::get_ObjectType
@@ -48,28 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Rendezvous IP Telephony Conferencing controls and interfaces are not available for use in Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The RTC Client API
 provides similar functionality.]
 
 The 
 <b>get_ObjectType</b> method gets a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a> descriptor of the object.
-
+<a href="/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a> descriptor of the object.
 
 ## -parameters
-
-
-
 
 ### -param pObjectType [out]
 
 Pointer to descriptor of directory object type.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,22 +95,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>

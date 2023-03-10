@@ -1,16 +1,13 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Clone
 title: IEnumSyncProviderConfigUIInfos::Clone (syncregistration.h)
-description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
+description: Clones the enumerator and returns a new enumerator that is in the same state as the current one. (IEnumSyncProviderConfigUIInfos.Clone)
+helpviewer_keywords: ["Clone","Clone method [Windows Sync]","Clone method [Windows Sync]","IEnumSyncProviderConfigUIInfos interface","IEnumSyncProviderConfigUIInfos interface [Windows Sync]","Clone method","IEnumSyncProviderConfigUIInfos.Clone","IEnumSyncProviderConfigUIInfos::Clone","syncregistration/IEnumSyncProviderConfigUIInfos::Clone","winsync.ienumsyncproviderconfiguiinfos_clone"]
 old-location: winsync\ienumsyncproviderconfiguiinfos_clone.htm
 tech.root: winsync
 ms.assetid: 30f2a85a-86c2-4547-a18f-448a01d64d9b
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, IEnumSyncProviderConfigUIInfos interface [Windows Sync],Clone method, IEnumSyncProviderConfigUIInfos.Clone, IEnumSyncProviderConfigUIInfos::Clone, syncregistration/IEnumSyncProviderConfigUIInfos::Clone, winsync.ienumsyncproviderconfiguiinfos_clone
-f1_keywords:
-- syncregistration/IEnumSyncProviderConfigUIInfos.Clone
-dev_langs:
-- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncregistration.h
-api_name:
-- IEnumSyncProviderConfigUIInfos.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumSyncProviderConfigUIInfos::Clone
+ - syncregistration/IEnumSyncProviderConfigUIInfos::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncregistration.h
+api_name:
+ - IEnumSyncProviderConfigUIInfos.Clone
 ---
 
 # IEnumSyncProviderConfigUIInfos::Clone
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 
-
 ## -parameters
-
-
-
 
 ### -param ppEnum [out]
 
 Returns the newly cloned enumerator.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -107,18 +101,7 @@ There was not enough memory available to clone the enumerator.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderconfiguiinfos">IEnumSyncProviderConfigUIInfos Interface</a>

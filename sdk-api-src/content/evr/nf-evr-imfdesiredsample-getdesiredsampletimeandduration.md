@@ -2,15 +2,12 @@
 UID: NF:evr.IMFDesiredSample.GetDesiredSampleTimeAndDuration
 title: IMFDesiredSample::GetDesiredSampleTimeAndDuration (evr.h)
 description: Called by the mixer to get the time and duration of the sample requested by the presenter.
+helpviewer_keywords: ["095202ed-0272-4bda-a268-6a407ef74a94","GetDesiredSampleTimeAndDuration","GetDesiredSampleTimeAndDuration method [Media Foundation]","GetDesiredSampleTimeAndDuration method [Media Foundation]","IMFDesiredSample interface","IMFDesiredSample interface [Media Foundation]","GetDesiredSampleTimeAndDuration method","IMFDesiredSample.GetDesiredSampleTimeAndDuration","IMFDesiredSample::GetDesiredSampleTimeAndDuration","evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration","mf.imfdesiredsample_getdesiredsampletimeandduration"]
 old-location: mf\imfdesiredsample_getdesiredsampletimeandduration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 095202ed-0272-4bda-a268-6a407ef74a94
 ms.date: 12/05/2018
 ms.keywords: 095202ed-0272-4bda-a268-6a407ef74a94, GetDesiredSampleTimeAndDuration, GetDesiredSampleTimeAndDuration method [Media Foundation], GetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],GetDesiredSampleTimeAndDuration method, IMFDesiredSample.GetDesiredSampleTimeAndDuration, IMFDesiredSample::GetDesiredSampleTimeAndDuration, evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration, mf.imfdesiredsample_getdesiredsampletimeandduration
-f1_keywords:
-- evr/IMFDesiredSample.GetDesiredSampleTimeAndDuration
-dev_langs:
-- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- strmiids.lib
-- strmiids.dll
-api_name:
-- IMFDesiredSample.GetDesiredSampleTimeAndDuration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDesiredSample::GetDesiredSampleTimeAndDuration
+ - evr/IMFDesiredSample::GetDesiredSampleTimeAndDuration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - strmiids.lib
+ - strmiids.dll
+api_name:
+ - IMFDesiredSample.GetDesiredSampleTimeAndDuration
 ---
 
 # IMFDesiredSample::GetDesiredSampleTimeAndDuration
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Called by the mixer to get the time and duration of the sample requested by the presenter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param phnsSampleTime [out]
 
 Receives the desired sample time that should be mixed.
 
-
 ### -param phnsSampleDuration [out]
 
 Receives the sample duration that should be mixed.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,27 +90,16 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-No time stamp was set for this sample. See <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfdesiredsample-clear">IMFDesiredSample::Clear</a>.
+No time stamp was set for this sample. See <a href="/windows/desktop/api/evr/nf-evr-imfdesiredsample-clear">IMFDesiredSample::Clear</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
- 
-
- 
-
+<a href="/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>

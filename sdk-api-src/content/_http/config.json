@@ -3,8 +3,7 @@
   "headers": [
     "httpserv.h",
     "http.h",
-    "httpp.h",
-    "winhttp.h"
+    "httpp.h"
   ],
-  "displayName": "Windows HTTP Services (WinHTTP)"
+  "displayName": "HTTP Server API"
 }

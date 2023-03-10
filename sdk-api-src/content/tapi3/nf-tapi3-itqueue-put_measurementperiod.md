@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3.ITQueue.put_MeasurementPeriod
 title: ITQueue::put_MeasurementPeriod (tapi3.h)
-description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
+description: The ITQueue::put_MeasurementPeriod (tapi3.h) method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
+helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","put_MeasurementPeriod method","ITQueue.put_MeasurementPeriod","ITQueue::put_MeasurementPeriod","_tapi3_itqueue_put_measurementperiod","put_MeasurementPeriod","put_MeasurementPeriod method [TAPI 2.2]","put_MeasurementPeriod method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_put_measurementperiod","tapi3cc/ITQueue::put_MeasurementPeriod"]
 old-location: tapi3\itqueue_put_measurementperiod.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 9e32b2ae-c4e5-4624-b970-673c950dee3b
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],put_MeasurementPeriod method, ITQueue.put_MeasurementPeriod, ITQueue::put_MeasurementPeriod, _tapi3_itqueue_put_measurementperiod, put_MeasurementPeriod, put_MeasurementPeriod method [TAPI 2.2], put_MeasurementPeriod method [TAPI 2.2],ITQueue interface, tapi3.itqueue_put_measurementperiod, tapi3cc/ITQueue::put_MeasurementPeriod
-f1_keywords:
-- tapi3/ITQueue.put_MeasurementPeriod
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITQueue.put_MeasurementPeriod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITQueue::put_MeasurementPeriod
+ - tapi3/ITQueue::put_MeasurementPeriod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITQueue.put_MeasurementPeriod
 ---
 
 # ITQueue::put_MeasurementPeriod
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>put_MeasurementPeriod</b> method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
 
-
 ## -parameters
-
-
-
 
 ### -param lPeriod [in]
 
 Measurement period (in seconds).
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -126,39 +120,23 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> for error codes returned from this TAPI 2.1 function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> for error codes returned from this TAPI 2.1 function.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>ITQueue::put_MeasurementPeriod</b> method is a COM wrapper for the TAPI 2.1 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetqueuemeasurementperiod">lineSetQueueMeasurementPeriod</a> function.
 
 This method will accept negative values for the measurement period, but this will normally result in unreliable statistics.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>

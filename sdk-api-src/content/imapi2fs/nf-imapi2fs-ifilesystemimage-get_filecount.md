@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.get_FileCount
 title: IFileSystemImage::get_FileCount (imapi2fs.h)
 description: Retrieves the number of files in the file system image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_FileCount method","IFileSystemImage.get_FileCount","IFileSystemImage::get_FileCount","get_FileCount","get_FileCount method [IMAPI]","get_FileCount method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_filecount","imapi2fs/IFileSystemImage::get_FileCount"]
 old-location: imapi\ifilesystemimage_get_filecount.htm
 tech.root: imapi
 ms.assetid: b2545f85-84c9-4f01-98d7-fd6b37fcda5a
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileCount method, IFileSystemImage.get_FileCount, IFileSystemImage::get_FileCount, get_FileCount, get_FileCount method [IMAPI], get_FileCount method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filecount, imapi2fs/IFileSystemImage::get_FileCount
-f1_keywords:
-- imapi2fs/IFileSystemImage.get_FileCount
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.get_FileCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::get_FileCount
+ - imapi2fs/IFileSystemImage::get_FileCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.get_FileCount
 ---
 
 # IFileSystemImage::get_FileCount
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of files in the file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Number of files in the file system image.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,18 +81,7 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>

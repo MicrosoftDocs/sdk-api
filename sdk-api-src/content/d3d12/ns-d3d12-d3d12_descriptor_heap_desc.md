@@ -2,15 +2,12 @@
 UID: NS:d3d12.D3D12_DESCRIPTOR_HEAP_DESC
 title: D3D12_DESCRIPTOR_HEAP_DESC (d3d12.h)
 description: Describes the descriptor heap.
+helpviewer_keywords: ["D3D12_DESCRIPTOR_HEAP_DESC","D3D12_DESCRIPTOR_HEAP_DESC structure","d3d12/D3D12_DESCRIPTOR_HEAP_DESC","direct3d12.d3d12_descriptor_heap_desc"]
 old-location: direct3d12\d3d12_descriptor_heap_desc.htm
 tech.root: direct3d12
 ms.assetid: 060ED49E-12B2-4DAE-A9DC-5BAB96B8E8ED
 ms.date: 12/05/2018
 ms.keywords: D3D12_DESCRIPTOR_HEAP_DESC, D3D12_DESCRIPTOR_HEAP_DESC structure, d3d12/D3D12_DESCRIPTOR_HEAP_DESC, direct3d12.d3d12_descriptor_heap_desc
-f1_keywords:
-- d3d12/D3D12_DESCRIPTOR_HEAP_DESC
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3D12.h
-api_name:
-- D3D12_DESCRIPTOR_HEAP_DESC
 targetos: Windows
 req.typenames: D3D12_DESCRIPTOR_HEAP_DESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - D3D12_DESCRIPTOR_HEAP_DESC
+ - d3d12/D3D12_DESCRIPTOR_HEAP_DESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3D12.h
+api_name:
+ - D3D12_DESCRIPTOR_HEAP_DESC
 ---
 
 # D3D12_DESCRIPTOR_HEAP_DESC structure
@@ -48,32 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the descriptor heap.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
 A <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the types of descriptors in the heap.
-          
-
 
 ### -field NumDescriptors
 
 The number of descriptors in the heap.
-          
-
 
 ### -field Flags
 
 A combination of <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_descriptor_heap_flags">D3D12_DESCRIPTOR_HEAP_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies options for the heap.
-          
-
 
 ### -field NodeMask
 
@@ -82,12 +73,8 @@ For single-adapter operation, set this to zero.
             Each bit in the mask corresponds to a single node.
             Only one bit must be set.
             See <a href="/windows/win32/direct3d12/multi-engine">Multi-adapter systems</a>.
-          
-
 
 ## -remarks
-
-
 
 This structure is used by the following:
         
@@ -101,12 +88,7 @@ This structure is used by the following:
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/win32/direct3d12/direct3d-12-structures">Core Structures</a>
 
@@ -117,7 +99,4 @@ This structure is used by the following:
 
 
 <a href="/windows/win32/direct3d12/descriptor-heaps">Descriptor Heaps</a>
- 
-
- 
 

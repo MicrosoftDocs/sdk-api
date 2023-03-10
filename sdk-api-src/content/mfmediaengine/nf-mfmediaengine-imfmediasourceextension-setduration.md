@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaSourceExtension.SetDuration
 title: IMFMediaSourceExtension::SetDuration (mfmediaengine.h)
 description: Sets the duration of the media source in 100-nanosecond units.
+helpviewer_keywords: ["IMFMediaSourceExtension interface [Media Foundation]","SetDuration method","IMFMediaSourceExtension.SetDuration","IMFMediaSourceExtension::SetDuration","SetDuration","SetDuration method [Media Foundation]","SetDuration method [Media Foundation]","IMFMediaSourceExtension interface","mf.imfmediasourceextension_setduration","mfmediaengine/IMFMediaSourceExtension::SetDuration"]
 old-location: mf\imfmediasourceextension_setduration.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dc3dc600-ca81-40da-9edb-0af283ba9221
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension interface [Media Foundation],SetDuration method, IMFMediaSourceExtension.SetDuration, IMFMediaSourceExtension::SetDuration, SetDuration, SetDuration method [Media Foundation], SetDuration method [Media Foundation],IMFMediaSourceExtension interface, mf.imfmediasourceextension_setduration, mfmediaengine/IMFMediaSourceExtension::SetDuration
-f1_keywords:
-- mfmediaengine/IMFMediaSourceExtension.SetDuration
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaSourceExtension.SetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaSourceExtension::SetDuration
+ - mfmediaengine/IMFMediaSourceExtension::SetDuration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaSourceExtension.SetDuration
 ---
 
 # IMFMediaSourceExtension::SetDuration
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the duration of the media source in 100-nanosecond units.
 
-
 ## -parameters
-
-
-
 
 ### -param duration [in]
 
 The duration of the media source in 100-nanosecond units.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>

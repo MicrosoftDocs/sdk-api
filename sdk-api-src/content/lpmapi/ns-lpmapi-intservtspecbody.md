@@ -1,16 +1,13 @@
 ---
-UID: NS:lpmapi.__unnamed_struct_23
+UID: NS:lpmapi.IntServTspecBody
 title: IntServTspecBody (lpmapi.h)
 description: The IntServTspecBody structure contains information for an RSVP Tspec.
+helpviewer_keywords: ["IntServTspecBody","IntServTspecBody structure [QOS]","lpmapi/IntServTspecBody","qos.intservtspecbody"]
 old-location: qos\intservtspecbody.htm
 tech.root: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506
 ms.date: 12/05/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
-f1_keywords:
-- lpmapi/IntServTspecBody
-dev_langs:
-- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lpmapi.h
-api_name:
-- IntServTspecBody
 targetos: Windows
 req.typenames: IntServTspecBody
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IntServTspecBody
+ - lpmapi/IntServTspecBody
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lpmapi.h
+api_name:
+ - IntServTspecBody
 ---
 
 # IntServTspecBody structure
@@ -48,63 +50,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>IntServTspecBody</b> structure contains information for an RSVP Tspec.
 
-
 ## -struct-fields
-
-
-
 
 ### -field st_mh
 
-Header for the corresponding Tspec object, expressed as  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
-
+Header for the corresponding Tspec object, expressed as  <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
 
 ### -field tspec_u
 
-
-
 #### gen_stspec
 
-Generic Tspec, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a> structure.
+Generic Tspec, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a> structure.
 
 
 
 #### qual_stspec
 
-Qualitative Tspec, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a> structure.
-
+Qualitative Tspec, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a> structure.
 
 ### -field gen_stspec
 
- 
-
-
 ### -field qual_stspec
-
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-gentspec">GenTspec</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a>
- 
-
- 
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualtspec">QualTspec</a>
 

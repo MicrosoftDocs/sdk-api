@@ -2,15 +2,12 @@
 UID: NF:vds.IVdsPack.MigrateDisks
 title: IVdsPack::MigrateDisks (vds.h)
 description: Migrates a set of disks from one pack to another pack.
+helpviewer_keywords: ["IVdsPack interface [VDS]","MigrateDisks method","IVdsPack.MigrateDisks","IVdsPack::MigrateDisks","MigrateDisks","MigrateDisks method [VDS]","MigrateDisks method [VDS]","IVdsPack interface","base.ivdspack_migratedisks","vds/IVdsPack::MigrateDisks"]
 old-location: base\ivdspack_migratedisks.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: c7e85c4c-fb7c-48de-abd7-8d65ecb9a1fa
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],MigrateDisks method, IVdsPack.MigrateDisks, IVdsPack::MigrateDisks, MigrateDisks, MigrateDisks method [VDS], MigrateDisks method [VDS],IVdsPack interface, base.ivdspack_migratedisks, vds/IVdsPack::MigrateDisks
-f1_keywords:
-- vds/IVdsPack.MigrateDisks
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsPack.MigrateDisks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsPack::MigrateDisks
+ - vds/IVdsPack::MigrateDisks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsPack.MigrateDisks
 ---
 
 # IVdsPack::MigrateDisks
@@ -49,43 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Migrates a set of disks 
    from one pack to another pack.
 
-
 ## -parameters
-
-
-
 
 ### -param pDiskArray [in]
 
 A pointer to an array of GUIDs; one for each disk.
 
-
 ### -param lNumberOfDisks [in]
 
 The number of disks to migrate.
 
-
 ### -param TargetPack [in]
 
 The GUID of the pack object.
-
 
 ### -param bForce [in]
 
 If this parameter is set to <b>TRUE</b>, VDS ignores all errors from this method and attempts to migrate the disks unconditionally. If it is set to <b>FALSE</b>, the 
       operation does not proceed. In some cases, a forced migration can cause data loss.
 
-
 ### -param bQueryOnly [in]
 
 If this parameter is set to <b>TRUE</b>, the migration does not occur. If it is set to <b>FALSE</b>, the operation proceeds.
-
 
 ### -param pResults [out]
 
@@ -96,17 +88,13 @@ If a disk can be migrated, or was migrated successfully, the corresponding array
       <b>S_OK</b>; otherwise, it receives the warning code or error code that was returned by the provider. For the list 
       of additional result codes, see Return Values.
 
-
 ### -param pbRebootNeeded [out]
 
 If this parameter is set to <b>TRUE</b>, you must restart the computer to complete the operation. If it is set to <b>FALSE</b>, the operation completes without restarting.
 
-
 ## -returns
 
-
-
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -256,14 +244,8 @@ A volume on the selected disk cannot be opened.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 VDS implements this method.
 
@@ -274,24 +256,14 @@ You should force this operation when converting a basic disk to dynamic disk for
     operation despite the space limitation. Likewise, if an OEM partition is in the middle of a MBR disk with free 
     space or data volumes on either side.
 
-After migrating dynamic disks to a dynamic pack, you should use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a> method to determine whether the source or destination pack is now the online pack.
+After migrating dynamic disks to a dynamic pack, you should use the <a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a> method to determine whether the source or destination pack is now the online pack.
 
-For information about using the <b>MigrateDisks</b> method to add foreign disks to a pack, see <a href="https://docs.microsoft.com/windows/desktop/VDS/adding-foreign-disks-to-a-pack">Adding Foreign Disks to a Pack</a>.
-
-
-
+For information about using the <b>MigrateDisks</b> method to add foreign disks to a pack, see <a href="/windows/desktop/VDS/adding-foreign-disks-to-a-pack">Adding Foreign Disks to a Pack</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vds/nn-vds-ivdspack">IVdsPack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdspack">IVdsPack</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamingMediaSink
 title: MFCreateASFStreamingMediaSink function (wmcontainer.h)
-description: Creates an activation object for the ASF streaming sink.
+description: Creates an activation object for the ASF streaming sink. (MFCreateASFStreamingMediaSink)
+helpviewer_keywords: ["MFCreateASFStreamingMediaSink","MFCreateASFStreamingMediaSink function [Media Foundation]","mf.mfcreateasfstreamingmediasink","wmcontainer/MFCreateASFStreamingMediaSink"]
 old-location: mf\mfcreateasfstreamingmediasink.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: bfa34529-e1f9-462b-9c99-b65cd526d364
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFStreamingMediaSink, MFCreateASFStreamingMediaSink function [Media Foundation], mf.mfcreateasfstreamingmediasink, wmcontainer/MFCreateASFStreamingMediaSink
-f1_keywords:
-- wmcontainer/MFCreateASFStreamingMediaSink
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFCreateASFStreamingMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFCreateASFStreamingMediaSink
+ - wmcontainer/MFCreateASFStreamingMediaSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFCreateASFStreamingMediaSink
 ---
 
 # MFCreateASFStreamingMediaSink function
@@ -48,46 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates an activation object for the ASF streaming sink.
 
 The  ASF streaming sink enables  an application to write streaming Advanced Systems Format (ASF)  packets to an HTTP byte stream.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param pIByteStream
 
  A pointer to a byte stream object in which the ASF media sink writes the streamed content.
 
-
 ### -param ppIMediaSink
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface of the ASF streaming-media sink object. To create the media sink, the application must call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> on the received pointer. The caller must release the interface pointer.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface of the ASF streaming-media sink object. To create the media sink, the application must call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> on the received pointer. The caller must release the interface pointer.
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-To create the ASF streaming sink in another process, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamingmediasinkactivate">MFCreateASFStreamingMediaSinkActivate</a>.
+To create the ASF streaming sink in another process, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamingmediasinkactivate">MFCreateASFStreamingMediaSinkActivate</a>.
       
 
-An application can get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a> by calling <b>IUnknown::QueryInterface</b> on the media sink object received in the <i>ppIMediaSink</i> parameter. The ContentInfo object is used to set the encoder configuration settings, provide stream properties supplied by an ASF profile, and add metadata information. These configuration settings populate the various ASF header objects of the encoded ASF file. For more information, see  
-<a href="https://docs.microsoft.com/windows/desktop/medfound/setting-properties-in-the-contentinfo-object">Setting Properties in the ContentInfo Object</a>.
+An application can get a pointer to the <a href="/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a> by calling <b>IUnknown::QueryInterface</b> on the media sink object received in the <i>ppIMediaSink</i> parameter. The ContentInfo object is used to set the encoder configuration settings, provide stream properties supplied by an ASF profile, and add metadata information. These configuration settings populate the various ASF header objects of the encoded ASF file. For more information, see  
+<a href="/windows/desktop/medfound/setting-properties-in-the-contentinfo-object">Setting Properties in the ContentInfo Object</a>.
 
 
 #### Examples
@@ -160,21 +147,10 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamingmediasinkactivate">MFCreateASFStreamingMediaSinkActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfstreamingmediasinkactivate">MFCreateASFStreamingMediaSinkActivate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

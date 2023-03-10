@@ -2,15 +2,12 @@
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetColorInterpolationMode
 title: IXpsOMGradientBrush::GetColorInterpolationMode (xpsobjectmodel.h)
 description: Gets the gamma function to be used for color interpolation.
+helpviewer_keywords: ["GetColorInterpolationMode","GetColorInterpolationMode method [XPS Documents and Packaging]","GetColorInterpolationMode method [XPS Documents and Packaging]","IXpsOMGradientBrush interface","IXpsOMGradientBrush interface [XPS Documents and Packaging]","GetColorInterpolationMode method","IXpsOMGradientBrush.GetColorInterpolationMode","IXpsOMGradientBrush::GetColorInterpolationMode","xps.ixpsomgradientbrush_getcolorinterpolationmode","xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode"]
 old-location: xps\ixpsomgradientbrush_getcolorinterpolationmode.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 4e58c019-d89d-472d-9b6f-b335b184f998
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [XPS Documents and Packaging], GetColorInterpolationMode method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetColorInterpolationMode method, IXpsOMGradientBrush.GetColorInterpolationMode, IXpsOMGradientBrush::GetColorInterpolationMode, xps.ixpsomgradientbrush_getcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode
-f1_keywords:
-- xpsobjectmodel/IXpsOMGradientBrush.GetColorInterpolationMode
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGradientBrush.GetColorInterpolationMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGradientBrush::GetColorInterpolationMode
+ - xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGradientBrush.GetColorInterpolationMode
 ---
 
 # IXpsOMGradientBrush::GetColorInterpolationMode
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the gamma function to be used for color interpolation.
-
 
 ## -parameters
 
-
-
-
 ### -param colorInterpolationMode [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a> value that describes the gamma function to be used for color interpolation.
-
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a> value that describes the gamma function to be used for color interpolation.
 
 ## -returns
 
-
-
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -96,30 +90,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush">IXpsOMGradientBrush</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a>
- 
-
- 
-
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_color_interpolation">XPS_COLOR_INTERPOLATION</a>

@@ -2,15 +2,12 @@
 UID: NF:werapi.WerReportSetParameter
 title: WerReportSetParameter function (werapi.h)
 description: Sets the parameters that uniquely identify an event for the specified report.
+helpviewer_keywords: ["WER_P0","WER_P1","WER_P2","WER_P3","WER_P4","WER_P5","WER_P6","WER_P7","WER_P8","WER_P9","WerReportSetParameter","WerReportSetParameter function [Windows Error Reporting]","base.werreportsetparameter","wer.werreportsetparameter","werapi/WerReportSetParameter"]
 old-location: wer\werreportsetparameter.htm
 tech.root: wer
 ms.assetid: accf423d-6f03-41e2-b5e9-4a0b630bc918
 ms.date: 12/05/2018
 ms.keywords: WER_P0, WER_P1, WER_P2, WER_P3, WER_P4, WER_P5, WER_P6, WER_P7, WER_P8, WER_P9, WerReportSetParameter, WerReportSetParameter function [Windows Error Reporting], base.werreportsetparameter, wer.werreportsetparameter, werapi/WerReportSetParameter
-f1_keywords:
-- werapi/WerReportSetParameter
-dev_langs:
-- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wer.dll
-- Ext-MS-Win-wer-reporting-l1-1-0.dll
-- errorhandlingext.dll
-- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
-api_name:
-- WerReportSetParameter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WerReportSetParameter
+ - werapi/WerReportSetParameter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wer.dll
+ - Ext-MS-Win-wer-reporting-l1-1-0.dll
+ - errorhandlingext.dll
+ - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+api_name:
+ - WerReportSetParameter
 ---
 
 # WerReportSetParameter function
@@ -51,19 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the parameters that uniquely identify an event for the specified report.
-
 
 ## -parameters
 
-
-
-
 ### -param hReportHandle [in]
 
-A handle to the report. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
-
+A handle to the report. This handle is returned by the <a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a> function.
 
 ### -param dwparamID [in]
 
@@ -129,20 +125,15 @@ The identifier of the parameter to be set. This parameter can be one of the foll
 
 #### WER_P9
 
-
 ### -param pwzName [in, optional]
 
 A pointer to a Unicode string that contains the name of the parameter. If this parameter is <b>NULL</b>, the default name is P<i>x</i>, where <i>x</i> matches the integer portion of the value specified in <i>dwparamID</i>.
-
 
 ### -param pwzValue [in]
 
 The parameter value.
 
-
 ## -returns
-
-
 
 This function returns <b>S_OK</b> on success or an error code on failure, including the following error code.
 
@@ -174,35 +165,19 @@ The length of one or more string arguments has exceeded its limit.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Each report supports parameters P0 through P9. This function sets one parameter at a time. If parameter P<i>x</i> is set, then all parameters from P0 and P<i>x</i> must be set.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportcreate">WerReportCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

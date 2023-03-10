@@ -1,16 +1,13 @@
 ---
 UID: NF:ntdsapi.DsReplicaSyncA
 title: DsReplicaSyncA function (ntdsapi.h)
-description: Synchronizes a destination naming context (NC) with one of its sources.
+description: Synchronizes a destination naming context (NC) with one of its sources. (ANSI)
+helpviewer_keywords: ["DS_REPSYNC_ADD_REFERENCE", "DS_REPSYNC_ALL_SOURCES", "DS_REPSYNC_ASYNCHRONOUS_OPERATION", "DS_REPSYNC_FORCE", "DS_REPSYNC_FULL", "DS_REPSYNC_INTERSITE_MESSAGING", "DS_REPSYNC_NO_DISCARD", "DS_REPSYNC_PERIODIC", "DS_REPSYNC_URGENT", "DS_REPSYNC_WRITEABLE", "DsReplicaSyncA", "ntdsapi/DsReplicaSyncA"]
 old-location: ad\dsreplicasync.htm
 tech.root: ad
 ms.assetid: 20c7f96d-f298-4321-a6f5-910c25e418db
 ms.date: 12/05/2018
 ms.keywords: DS_REPSYNC_ADD_REFERENCE, DS_REPSYNC_ALL_SOURCES, DS_REPSYNC_ASYNCHRONOUS_OPERATION, DS_REPSYNC_FORCE, DS_REPSYNC_FULL, DS_REPSYNC_INTERSITE_MESSAGING, DS_REPSYNC_NO_DISCARD, DS_REPSYNC_PERIODIC, DS_REPSYNC_URGENT, DS_REPSYNC_WRITEABLE, DsReplicaSync, DsReplicaSync function [Active Directory], DsReplicaSyncA, DsReplicaSyncW, _glines_dsreplicasync, ad.dsreplicasync, ntdsapi/DsReplicaSync, ntdsapi/DsReplicaSyncA, ntdsapi/DsReplicaSyncW
-f1_keywords:
-- ntdsapi/DsReplicaSync
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsReplicaSync
-- DsReplicaSyncA
-- DsReplicaSyncW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsReplicaSyncA
+ - ntdsapi/DsReplicaSyncA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsReplicaSync
+ - DsReplicaSyncA
+ - DsReplicaSyncW
 ---
 
 # DsReplicaSyncA function
@@ -50,31 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsReplicaSync</b> function synchronizes a destination naming context (NC) with one of its sources.
 
-
 ## -parameters
-
-
-
 
 ### -param hDS [in]
 
 Contains a directory service handle obtained from either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
 
 ### -param NameContext [in]
 
 Pointer to a constant null-terminated string that specifies the distinguished name of the destination NC.
 
-
 ### -param pUuidDsaSrc [in]
 
 Pointer to the UUID of a source that replicates to the destination NC.
-
 
 ### -param Options [in]
 
@@ -144,21 +138,13 @@ Indicates this operation is a notification of an update marked urgent.
 
 Replica is writable. Otherwise, it is read-only.
 
-
 ## -returns
-
-
 
 If the function performs its operation successfully, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is one of the standard Win32 API errors.
 
-
-
-
 ## -remarks
-
-
 
 The server that <b>DsReplicaSync</b> executes on is called the destination. The destination naming context is brought up-to-date with respect to a source system, identified by the UUID of the source system NTDS Settings object. The destination system must already be configured so that the source system is one of the systems from which it receives replication data.
 
@@ -167,29 +153,26 @@ The server that <b>DsReplicaSync</b> executes on is called the destination. The 
 
 
 
+
+> [!NOTE]
+> The ntdsapi.h header defines DsReplicaSync as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaadda">DsReplicaAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaadda">DsReplicaAdd</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicadela">DsReplicaDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicadela">DsReplicaDel</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicamodifya">DsReplicaModify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicamodifya">DsReplicaModify</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa">DsReplicaUpdateRefs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa">DsReplicaUpdateRefs</a>

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IObjectContextInfo.GetTransactionId
 title: IObjectContextInfo::GetTransactionId (comsvcs.h)
 description: Retrieves the identifier of the current transaction.
+helpviewer_keywords: ["GetTransactionId","GetTransactionId method [COM+]","GetTransactionId method [COM+]","IObjectContextInfo interface","IObjectContextInfo interface [COM+]","GetTransactionId method","IObjectContextInfo.GetTransactionId","IObjectContextInfo::GetTransactionId","_cos_IObjectContextInfo_GetTransactionId","comsvcs/IObjectContextInfo::GetTransactionId","cos.iobjectcontextinfo_gettransactionid"]
 old-location: cos\iobjectcontextinfo_gettransactionid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: c8aa6fe8-acb2-4e00-a7fc-605bb56969e6
 ms.date: 12/05/2018
 ms.keywords: GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetTransactionId method, IObjectContextInfo.GetTransactionId, IObjectContextInfo::GetTransactionId, _cos_IObjectContextInfo_GetTransactionId, comsvcs/IObjectContextInfo::GetTransactionId, cos.iobjectcontextinfo_gettransactionid
-f1_keywords:
-- comsvcs/IObjectContextInfo.GetTransactionId
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IObjectContextInfo.GetTransactionId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IObjectContextInfo::GetTransactionId
+ - comsvcs/IObjectContextInfo::GetTransactionId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IObjectContextInfo.GetTransactionId
 ---
 
 # IObjectContextInfo::GetTransactionId
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the identifier of the current transaction.
 
-
 ## -parameters
-
-
-
 
 ### -param pGuid [out]
 
 A GUID that identifies the current transaction.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -80,7 +74,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 </dl>
 </td>
 <td width="60%">
-The method completed succesfully.
+The method completed successfully.
 
 </td>
 </tr>
@@ -96,27 +90,11 @@ The object is not executing in a transaction.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Objects in the same transaction share the same transaction identifier.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>

@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.SHValidateUNC
 title: SHValidateUNC function (shlobj_core.h)
 description: SHValidateUNC may be altered or unavailable.
+helpviewer_keywords: ["SHValidateUNC","SHValidateUNC function [Windows Shell]","VALIDATEUNC_CONNECT","VALIDATEUNC_NOUI","VALIDATEUNC_PERSIST","VALIDATEUNC_PRINT","VALIDATEUNC_VALID","_win32_SHValidateUNC","shell.SHValidateUNC","shlobj_core/SHValidateUNC"]
 old-location: shell\SHValidateUNC.htm
 tech.root: shell
 ms.assetid: 42394650-5571-4165-84f1-19a26fb4a1b8
 ms.date: 12/05/2018
 ms.keywords: SHValidateUNC, SHValidateUNC function [Windows Shell], VALIDATEUNC_CONNECT, VALIDATEUNC_NOUI, VALIDATEUNC_PERSIST, VALIDATEUNC_PRINT, VALIDATEUNC_VALID, _win32_SHValidateUNC, shell.SHValidateUNC, shlobj_core/SHValidateUNC
-f1_keywords:
-- shlobj_core/SHValidateUNC
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-api_name:
-- SHValidateUNC
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SHValidateUNC
+ - shlobj_core/SHValidateUNC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+api_name:
+ - SHValidateUNC
 ---
 
 # SHValidateUNC function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>SHValidateUNC</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Validates a Universal Naming Convention (UNC) path by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>. The function makes it possible for the user to type a remote network access (RNA) UNC application or document name from the <b>Run</b> dialog box on the <b>Start</b> menu.
-
+Validates a Universal Naming Convention (UNC) path by calling <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>. The function makes it possible for the user to type a remote network access (RNA) UNC application or document name from the <b>Run</b> dialog box on the <b>Start</b> menu.
 
 ## -parameters
-
-
-
 
 ### -param hwndOwner [in, optional]
 
@@ -65,13 +62,11 @@ Type: <b>HWND</b>
 
 Handle of the parent window, used to display UI. If this is not needed, this value can be set to <b>NULL</b>.
 
-
 ### -param pszFile [in, out]
 
 Type: <b>PWSTR</b>
 
 A pointer to a null-terminated Unicode string that specifies the UNC path to validate. Note: This string must not be a constant string.
-
 
 ### -param fConnect
 
@@ -109,14 +104,8 @@ Validate as a print share rather than disk share.
 
 Mask value used to verify that the flags passed to <b>SHValidateUNC</b> are valid.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if the UNC path exists; <b>FALSE</b> if the UNC path does not exist or if some other failure occurred.
-
-
-

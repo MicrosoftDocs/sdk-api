@@ -2,15 +2,12 @@
 UID: NS:windows.foundation.Point
 title: Point (windows.foundation.h)
 description: Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane.
+helpviewer_keywords: ["Point","Point structure [Windows Runtime]","windows/Point","winrt.point"]
 old-location: winrt\point.htm
 tech.root: WinRT
 ms.assetid: 0cdd5b17-2f7e-4e17-896c-7d7784c8643d
 ms.date: 12/05/2018
 ms.keywords: Point, Point structure [Windows Runtime], windows/Point, winrt.point
-f1_keywords:
-- windows.foundation/Point
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windows.Foundation.h
-api_name:
-- Point
 targetos: Windows
 req.typenames: Point
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Point
+ - windows.foundation/Point
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - Point
 ---
 
 # Point structure
@@ -48,64 +50,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents an ordered pair of floating-point x- and y-coordinates that defines a point in a two-dimensional plane.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Point.X
-
- 
-
 
 ### -field Point.Y
 
- 
-
-
-
-
-#### - X
+### -field X
 
 Type: <b>float</b>
 
-The horizontal position of the point. 
+The horizontal position of the point.
 
-
-
-
-#### - Y
+### -field Y
 
 Type: <b>float</b>
 
-The vertical position of the point. 
-
-
-
+The vertical position of the point.
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpoint">CreatePoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpoint">CreatePoint</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpointarray">CreatePointArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpointarray">CreatePointArray</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpoint">IPropertyValue::GetPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpoint">IPropertyValue::GetPoint</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpointarray">IPropertyValue::GetPointArray</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpointarray">IPropertyValue::GetPointArray</a>

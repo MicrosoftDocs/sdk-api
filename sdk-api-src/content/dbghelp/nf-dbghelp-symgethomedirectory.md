@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymGetHomeDirectory
 title: SymGetHomeDirectory function (dbghelp.h)
-description: Retrieves the home directory used by Dbghelp.
+description: The SymGetHomeDirectory function (dbghelp.h) retrieves the home directory used by Dbghelp.
+helpviewer_keywords: ["SymGetHomeDirectory","SymGetHomeDirectory function","SymGetHomeDirectoryW","base.symgethomedirectory","dbghelp/SymGetHomeDirectory","dbghelp/SymGetHomeDirectoryW","hdBase","hdSrc","hdSym"]
 old-location: base\symgethomedirectory.htm
 tech.root: Debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: SymGetHomeDirectory, SymGetHomeDirectory function, SymGetHomeDirectoryW, base.symgethomedirectory, dbghelp/SymGetHomeDirectory, dbghelp/SymGetHomeDirectoryW, hdBase, hdSrc, hdSym
-f1_keywords:
-- dbghelp/SymGetHomeDirectory
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymGetHomeDirectory
-- SymGetHomeDirectory
-- SymGetHomeDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymGetHomeDirectory
+ - dbghelp/SymGetHomeDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymGetHomeDirectory
+ - SymGetHomeDirectory
+ - SymGetHomeDirectoryW
 ---
 
 # SymGetHomeDirectory function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the home directory used by Dbghelp.
 
-
 ## -parameters
-
-
-
 
 ### -param type [in]
 
@@ -102,53 +99,32 @@ The symbol directory.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dir [out]
 
 A pointer to a string that receives the directory.
 
-
 ### -param size [in]
 
 The size of the output buffer, in characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is a pointer to the <i>dir</i> parameter.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsethomedirectory">SymSetHomeDirectory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsethomedirectory">SymSetHomeDirectory</a>

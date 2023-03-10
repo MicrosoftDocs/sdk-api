@@ -2,15 +2,12 @@
 UID: NF:schannel.SslGetServerIdentity
 title: SslGetServerIdentity function (schannel.h)
 description: Gets the identity of the server.
+helpviewer_keywords: ["SslGetServerIdentity","SslGetServerIdentity function [Security]","schannel/SslGetServerIdentity","security.sslgetserveridentity"]
 old-location: security\sslgetserveridentity.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D
 ms.date: 12/05/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
-f1_keywords:
-- schannel/SslGetServerIdentity
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Schannel.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Schannel.dll
-api_name:
-- SslGetServerIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SslGetServerIdentity
+ - schannel/SslGetServerIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Schannel.dll
+api_name:
+ - SslGetServerIdentity
 ---
 
 # SslGetServerIdentity function
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SslGetServerIdentity</b> function gets the identity of the server. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
-
+The <b>SslGetServerIdentity</b> function gets the identity of the server. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
 
 ## -parameters
-
-
-
 
 ### -param ClientHello [in]
 
 The message from the client.
 
-
 ### -param ClientHelloSize [in]
 
 The size of the client message.
 
-
 ### -param ServerIdentity [out]
 
-The pointer inside the message where the server name starts. 
-
+The pointer inside the message where the server name starts.
 
 ### -param ServerIdentitySize [out]
 
 The length of the server name.
 
-
 ### -param Flags [in]
 
 This parameter is reserved and must be zero.
 
-
 ## -returns
-
-
 
 The status of the call to the function.
 
@@ -127,7 +117,3 @@ The  <i>ServerIdentitySize</i> parameter is smaller than the <i>ClientHelloSize<
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMMetadataEditor2.OpenEx
 title: IWMMetadataEditor2::OpenEx (wmsdkidl.h)
 description: The OpenEx method opens a file for use by the metadata editor object. OpenEx opens ASF files and MP3 files, though the metadata editor has limited capabilities when working with MP3 files.
+helpviewer_keywords: ["IWMMetadataEditor2 interface [windows Media Format]","OpenEx method","IWMMetadataEditor2.OpenEx","IWMMetadataEditor2::OpenEx","IWMMetadataEditor2OpenEx","OpenEx","OpenEx method [windows Media Format]","OpenEx method [windows Media Format]","IWMMetadataEditor2 interface","wmformat.iwmmetadataeditor2_openex","wmsdkidl/IWMMetadataEditor2::OpenEx"]
 old-location: wmformat\iwmmetadataeditor2_openex.htm
 tech.root: wmformat
 ms.assetid: e35f5f85-659e-4a1f-8bfd-4ad3e946d733
 ms.date: 12/05/2018
 ms.keywords: IWMMetadataEditor2 interface [windows Media Format],OpenEx method, IWMMetadataEditor2.OpenEx, IWMMetadataEditor2::OpenEx, IWMMetadataEditor2OpenEx, OpenEx, OpenEx method [windows Media Format], OpenEx method [windows Media Format],IWMMetadataEditor2 interface, wmformat.iwmmetadataeditor2_openex, wmsdkidl/IWMMetadataEditor2::OpenEx
-f1_keywords:
-- wmsdkidl/IWMMetadataEditor2.OpenEx
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMMetadataEditor2.OpenEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMMetadataEditor2::OpenEx
+ - wmsdkidl/IWMMetadataEditor2::OpenEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMMetadataEditor2.OpenEx
 ---
 
 # IWMMetadataEditor2::OpenEx
@@ -51,27 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>OpenEx</b> method opens a file for use by the metadata editor object. <b>OpenEx</b> opens ASF files and MP3 files, though the metadata editor has limited capabilities when working with MP3 files.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pwszFilename [in]
 
 Pointer to a wide-character null-terminated string containing the file name.
 
-
 ### -param dwDesiredAccess [in]
 
 <b>DWORD</b> containing the desired access type. This can be set to GENERIC_READ or GENERIC_WRITE. For read/write access, pass both values combined with a bitwise <b>OR</b>. When using GENERIC_READ, you must also pass a valid sharing mode as <i>dwShareMode</i>. Failure to do so will result in an error.
-
 
 ### -param dwShareMode [in]
 
@@ -93,12 +85,8 @@ Pointer to a wide-character null-terminated string containing the file name.
 <td>(NTFS only) Subsequent open operations on the file will succeed only if it is being deleted.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -138,31 +126,15 @@ The access mode requested is not available with this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The parameters <i>dwDesiredAccess</i> and <i>dwShareMode</i> are identical to those used in the <b>OpenFile</b> function defined in the Platform SDK. In the case of <b>OpenEx</b>, however, only a limited set of values are valid for <i>dwDesiredAccess</i>. Using any value other than those specified will result in an error.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor2">IWMMetadataEditor2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmetadataeditor2">IWMMetadataEditor2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-open">IWMMetadataEditor::Open</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-open">IWMMetadataEditor::Open</a>

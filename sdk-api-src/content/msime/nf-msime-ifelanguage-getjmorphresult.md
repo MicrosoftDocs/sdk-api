@@ -2,15 +2,12 @@
 UID: NF:msime.IFELanguage.GetJMorphResult
 title: IFELanguage::GetJMorphResult (msime.h)
 description: Gets morphological analysis results.
+helpviewer_keywords: ["FELANG_CLMN_FIXD","FELANG_CLMN_FIXR","FELANG_CLMN_NOPBREAK","FELANG_CLMN_NOWBREAK","FELANG_CLMN_PBREAK","FELANG_CLMN_WBREAK","FELANG_CMODE_AUTOMATIC","FELANG_CMODE_BESTFIRST","FELANG_CMODE_BOPOMOFO","FELANG_CMODE_CONVERSATION","FELANG_CMODE_FULLWIDTHOUT","FELANG_CMODE_HALFWIDTHOUT","FELANG_CMODE_HANGUL","FELANG_CMODE_HIRAGANAOUT","FELANG_CMODE_KATAKANAOUT","FELANG_CMODE_MERGECAND","FELANG_CMODE_MONORUBY","FELANG_CMODE_NAME","FELANG_CMODE_NOINVISIBLECHAR","FELANG_CMODE_NONE","FELANG_CMODE_NOPRUNING","FELANG_CMODE_PHRASEPREDICT","FELANG_CMODE_PINYIN","FELANG_CMODE_PLAURALCLAUSE","FELANG_CMODE_PRECONV","FELANG_CMODE_RADICAL","FELANG_CMODE_ROMAN","FELANG_CMODE_SINGLECONVERT","FELANG_CMODE_UNKNOWNREADING","FELANG_CMODE_USENOREVWORDS","FELANG_REQ_CONV","FELANG_REQ_RECONV","FELANG_REQ_REV","GetJMorphResult","GetJMorphResult method [Internationalization for Windows Applications]","GetJMorphResult method [Internationalization for Windows Applications]","IFELanguage interface","IFELanguage interface [Internationalization for Windows Applications]","GetJMorphResult method","IFELanguage.GetJMorphResult","IFELanguage::GetJMorphResult","intl.ifelanguage_getjmorphresult","msime/IFELanguage::GetJMorphResult"]
 old-location: intl\ifelanguage_getjmorphresult.htm
 tech.root: Intl
 ms.assetid: CCE546B2-88CE-4B54-8EBF-FCA2C5ADFBB4
 ms.date: 12/05/2018
 ms.keywords: FELANG_CLMN_FIXD, FELANG_CLMN_FIXR, FELANG_CLMN_NOPBREAK, FELANG_CLMN_NOWBREAK, FELANG_CLMN_PBREAK, FELANG_CLMN_WBREAK, FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMOFO, FELANG_CMODE_CONVERSATION, FELANG_CMODE_FULLWIDTHOUT, FELANG_CMODE_HALFWIDTHOUT, FELANG_CMODE_HANGUL, FELANG_CMODE_HIRAGANAOUT, FELANG_CMODE_KATAKANAOUT, FELANG_CMODE_MERGECAND, FELANG_CMODE_MONORUBY, FELANG_CMODE_NAME, FELANG_CMODE_NOINVISIBLECHAR, FELANG_CMODE_NONE, FELANG_CMODE_NOPRUNING, FELANG_CMODE_PHRASEPREDICT, FELANG_CMODE_PINYIN, FELANG_CMODE_PLAURALCLAUSE, FELANG_CMODE_PRECONV, FELANG_CMODE_RADICAL, FELANG_CMODE_ROMAN, FELANG_CMODE_SINGLECONVERT, FELANG_CMODE_UNKNOWNREADING, FELANG_CMODE_USENOREVWORDS, FELANG_REQ_CONV, FELANG_REQ_RECONV, FELANG_REQ_REV, GetJMorphResult, GetJMorphResult method [Internationalization for Windows Applications], GetJMorphResult method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],GetJMorphResult method, IFELanguage.GetJMorphResult, IFELanguage::GetJMorphResult, intl.ifelanguage_getjmorphresult, msime/IFELanguage::GetJMorphResult
-f1_keywords:
-- msime/IFELanguage.GetJMorphResult
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFELanguage.GetJMorphResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFELanguage::GetJMorphResult
+ - msime/IFELanguage::GetJMorphResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFELanguage.GetJMorphResult
 ---
 
 # IFELanguage::GetJMorphResult
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets morphological analysis results.
 
-
 ## -parameters
-
-
-
 
 ### -param dwRequest [in]
 
@@ -78,7 +75,6 @@ The conversion request. It can be one of the following values:
 
 
 #### FELANG_REQ_REV
-
 
 ### -param dwCMode [in]
 
@@ -243,7 +239,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
 
 
 </td>
@@ -255,7 +251,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
 
 
 </td>
@@ -267,7 +263,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
 
 
 </td>
@@ -279,7 +275,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
 
 
 </td>
@@ -291,7 +287,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
 
 
 </td>
@@ -303,7 +299,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
 
 
 </td>
@@ -329,20 +325,16 @@ Remove invisible chars (for example, the tone mark).
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cwchInput [in]
 
 The number of characters in <i>pwchInput</i>.
-
 
 ### -param pwchInput [in]
 
 Input characters to be converted by the morphology engine. This must be a UNICODE string.
 
 Set this parameter to <b>NULL</b> to get the next entry for the previously input string, with the next rank. The order in which next entries are returned is defined by the implementation.
-
 
 ### -param pfCInfo [in]
 
@@ -384,18 +376,14 @@ The information for each column, where  each <i>pfCInfo[x]</i> corresponds to <i
 
 #### FELANG_CLMN_FIXD
 
-
 ### -param ppResult [out]
 
 The address of a MORRSLT structure that receives the morphology result data.
 
 <b>GetJMorphResult</b> allocates memory using the OLE task allocator for the returned data, and sets the <i>pResult</i> to point to the memory.
-The application must free the memory pointed to by <i>pResult</i>, by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-
+The application must free the memory pointed to by <i>pResult</i>, by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -460,18 +448,7 @@ Mutex timeout is occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>

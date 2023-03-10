@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_ENGINE_VERIFY_FEATURE_SET_FN
 title: PIBIO_ENGINE_VERIFY_FEATURE_SET_FN (winbio_adapter.h)
 description: Compares the template in the current feature set with a specific template in the database.
+helpviewer_keywords: ["EngineAdapterVerifyFeatureSet","EngineAdapterVerifyFeatureSet callback function [Windows Biometric Framework API]","PIBIO_ENGINE_VERIFY_FEATURE_SET_FN","PIBIO_ENGINE_VERIFY_FEATURE_SET_FN callback","secbiomet.engineadapterverifyfeatureset","winbio_adapter/EngineAdapterVerifyFeatureSet"]
 old-location: secbiomet\engineadapterverifyfeatureset.htm
 tech.root: SecBioMet
 ms.assetid: 64107d5b-3071-4bd4-9c2c-dd06006aec4d
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterVerifyFeatureSet, EngineAdapterVerifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_VERIFY_FEATURE_SET_FN, PIBIO_ENGINE_VERIFY_FEATURE_SET_FN callback, secbiomet.engineadapterverifyfeatureset, winbio_adapter/EngineAdapterVerifyFeatureSet
-f1_keywords:
-- winbio_adapter/EngineAdapterVerifyFeatureSet
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterVerifyFeatureSet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_VERIFY_FEATURE_SET_FN
+ - winbio_adapter/PIBIO_ENGINE_VERIFY_FEATURE_SET_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterVerifyFeatureSet
 ---
 
 # PIBIO_ENGINE_VERIFY_FEATURE_SET_FN callback function
@@ -48,58 +50,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to compare the template in the current feature set with a specific template in the database. If the templates are equivalent, the engine adapter must set the Boolean value pointed to by the <i>Match</i> parameter to <b>TRUE</b>, return the matched template in the <i>PayloadBlob</i> parameter,  and return a hash of the template in the <i>HashValue</i> parameter.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param Identity [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains a GUID or SID that is expected to match that of the template recovered from the database.
-
-
+Pointer to a  <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains a GUID or SID that is expected to match that of the template recovered from the database.
 
 ### -param SubFactor [in]
 
 A <b>WINBIO_BIOMETRIC_SUBTYPE</b> value that is expected to match that of the template recovered from the database.
 See the Remarks section for more details.
 
-
 ### -param Match [out]
 
 Pointer to a Boolean value that specifies whether the <i>Identity</i> and <i>SubFactor</i> parameters match those of the template recovered from the database. <b>TRUE</b> specifies that these values match.
 
-
-
-### -param *PayloadBlob [out]
+### -param PayloadBlob [out]
 
 Address of a variable that receives a pointer to the payload data saved with the template. If there is no payload data, set this value to <b>NULL</b>.
-
-
 
 ### -param PayloadBlobSize [out]
 
 Pointer to a value that receives the size, in bytes, of the buffer specified in the <i>PayloadBlob</i> parameter. If there is no payload data stored with the template, set this value to zero.
 
-
-### -param *HashValue [out]
+### -param HashValue [out]
 
 Address of a variable that receives a pointer to the hash of the template. If the engine adapter does not support hash generation, set this value to <b>NULL</b>.
-
 
 ### -param HashSize [out]
 
 Pointer to a value that contains the size, in bytes, of the hash specified by the <i>HashValue</i> parameter. If the engine adapter does not support hash generation, set this value to zero.
-
 
 ### -param RejectDetail [out]
 
@@ -119,8 +105,6 @@ Pointer to a <b>WINBIO_REJECT_DETAIL</b> value that receives additional informat
 </ul>
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -175,14 +159,8 @@ The feature set in the pipeline matches one stored in the database but it does n
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>SubFactor</i> parameter specifies the sub-factor associated with the biometric template. The Windows Biometric Framework supports only fingerprint capture and can use the following constants to represent sub-type information.
 
@@ -203,11 +181,11 @@ The <i>SubFactor</i> parameter specifies the sub-factor associated with the biom
 
 </div>
 <div> </div>
-The algorithm used to generate the template hash is the one selected by the most recent call, on this pipeline, to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn">EngineAdapterSetHashAlgorithm</a> function.
+The algorithm used to generate the template hash is the one selected by the most recent call, on this pipeline, to the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_set_hash_algorithm_fn">EngineAdapterSetHashAlgorithm</a> function.
 
 The hash value returned by this function, if any, is the hash of the enrollment template found in the database, not the matching template attached to the pipeline.
 
-The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the engine adapter after the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn">EngineAdapterIdentifyFeatureSet</a> function returns successfully. The engine adapter must keep the buffer address valid, for this pipeline, until the next call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a>.
+The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the engine adapter after the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn">EngineAdapterIdentifyFeatureSet</a> function returns successfully. The engine adapter must keep the buffer address valid, for this pipeline, until the next call to <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_clear_context_fn">EngineAdapterClearContext</a>.
 
 
 #### Examples
@@ -386,21 +364,10 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn">EngineAdapterIdentifyFeatureSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_fn">EngineAdapterIdentifyFeatureSet</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

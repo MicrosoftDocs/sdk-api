@@ -2,15 +2,12 @@
 UID: NF:imapi2.IMultisessionSequential.get_NextWritableAddress
 title: IMultisessionSequential::get_NextWritableAddress (imapi2.h)
 description: Retrieves the next writable address on the media, including used sectors.
+helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_NextWritableAddress method","IMultisessionSequential.get_NextWritableAddress","IMultisessionSequential::get_NextWritableAddress","get_NextWritableAddress","get_NextWritableAddress method [IMAPI]","get_NextWritableAddress method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_nextwritableaddress","imapi2/IMultisessionSequential::get_NextWritableAddress"]
 old-location: imapi\imultisessionsequential_get_nextwritableaddress.htm
 tech.root: imapi
 ms.assetid: 52bc2a66-e2ac-473b-8b17-1c2d642a76f8
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_NextWritableAddress method, IMultisessionSequential.get_NextWritableAddress, IMultisessionSequential::get_NextWritableAddress, get_NextWritableAddress, get_NextWritableAddress method [IMAPI], get_NextWritableAddress method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_nextwritableaddress, imapi2/IMultisessionSequential::get_NextWritableAddress
-f1_keywords:
-- imapi2/IMultisessionSequential.get_NextWritableAddress
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionSequential.get_NextWritableAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionSequential::get_NextWritableAddress
+ - imapi2/IMultisessionSequential::get_NextWritableAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionSequential.get_NextWritableAddress
 ---
 
 # IMultisessionSequential::get_NextWritableAddress
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the next writable address on the media, including used sectors.
 
-
 ## -parameters
-
-
-
 
 ### -param value
 
 Sector number that identifies the next available sector that can record data or audio.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,18 +354,7 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential">IMultisessionSequential</a>

@@ -2,15 +2,12 @@
 UID: NF:oleauto.DispGetParam
 title: DispGetParam function (oleauto.h)
 description: Retrieves a parameter from the DISPPARAMS structure, checking both named parameters and positional parameters, and coerces the parameter to the specified type.
+helpviewer_keywords: ["DispGetParam","DispGetParam function [Automation]","_oa96_DispGetParam","automat.dispgetparam","oleauto/DispGetParam"]
 old-location: automat\dispgetparam.htm
 tech.root: automat
 ms.assetid: 72cdb768-4791-4606-8e5d-72cd003e854a
 ms.date: 12/05/2018
 ms.keywords: DispGetParam, DispGetParam function [Automation], _oa96_DispGetParam, automat.dispgetparam, oleauto/DispGetParam
-f1_keywords:
-- oleauto/DispGetParam
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- DispGetParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DispGetParam
+ - oleauto/DispGetParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - DispGetParam
 ---
 
 # DispGetParam function
@@ -48,44 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a parameter from the DISPPARAMS structure, checking both named parameters and positional parameters, and coerces the parameter to the specified type.
-
 
 ## -parameters
 
-
-
-
 ### -param pdispparams [in]
 
-The parameters passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>.
-
+The parameters passed to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>.
 
 ### -param position
 
 The position of the parameter in the parameter list. <b>DispGetParam</b> starts at the end of the array, so if position is 0, the last parameter in the array is returned.
 
-
 ### -param vtTarg
 
 The type the argument should be coerced to.
-
 
 ### -param pvarResult [out]
 
 the variant to pass the parameter into.
 
-
 ### -param puArgErr [out, optional]
 
-On return, the index of the argument that caused a DISP_E_TYPEMISMATCH error. This pointer is returned to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> to indicate the position of the argument in DISPPARAMS that caused the error.
-
-
+On return, the index of the argument that caused a DISP_E_TYPEMISMATCH error. This pointer is returned to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> to indicate the position of the argument in DISPPARAMS that caused the error.
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -177,14 +166,8 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The output parameter <i>pvarResult</i> must be a valid variant. Any existing contents are released in the standard way. The contents of the variant are freed with <b>VariantFree</b>.
 
@@ -274,29 +257,18 @@ CPoint::Invoke(
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
+<a href="/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>

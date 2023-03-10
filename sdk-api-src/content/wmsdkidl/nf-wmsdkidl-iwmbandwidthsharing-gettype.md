@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMBandwidthSharing.GetType
 title: IWMBandwidthSharing::GetType (wmsdkidl.h)
 description: The GetType method retrieves the type of sharing for the bandwidth sharing object.
+helpviewer_keywords: ["GetType","GetType method [windows Media Format]","GetType method [windows Media Format]","IWMBandwidthSharing interface","IWMBandwidthSharing interface [windows Media Format]","GetType method","IWMBandwidthSharing.GetType","IWMBandwidthSharing::GetType","IWMBandwidthSharingGetType","wmformat.iwmbandwidthsharing_gettype","wmsdkidl/IWMBandwidthSharing::GetType"]
 old-location: wmformat\iwmbandwidthsharing_gettype.htm
 tech.root: wmformat
 ms.assetid: acef383f-83cb-45be-80fa-1339b391f32b
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Format], GetType method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetType method, IWMBandwidthSharing.GetType, IWMBandwidthSharing::GetType, IWMBandwidthSharingGetType, wmformat.iwmbandwidthsharing_gettype, wmsdkidl/IWMBandwidthSharing::GetType
-f1_keywords:
-- wmsdkidl/IWMBandwidthSharing.GetType
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMBandwidthSharing.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMBandwidthSharing::GetType
+ - wmsdkidl/IWMBandwidthSharing::GetType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMBandwidthSharing.GetType
 ---
 
 # IWMBandwidthSharing::GetType
@@ -51,17 +53,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetType</b> method retrieves the type of sharing for the bandwidth sharing object.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pguidType [out]
 
@@ -83,12 +77,8 @@ Pointer to a globally unique identifier specifying the type of combined stream t
 <td>The constituent streams can be active simultaneously.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -120,31 +110,15 @@ The pointer passed is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The settings of a bandwidth sharing object are purely informational. They are not checked for accuracy.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing">IWMBandwidthSharing Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype">IWMBandwidthSharing::SetType</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbandwidthsharing-settype">IWMBandwidthSharing::SetType</a>

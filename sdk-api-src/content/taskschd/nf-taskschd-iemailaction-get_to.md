@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IEmailAction.get_To
 title: IEmailAction::get_To (taskschd.h)
-description: Gets or sets the email address or addresses that you want to send the email to.
+description: Gets or sets the email address or addresses that you want to send the email to. (Get)
+helpviewer_keywords: ["IEmailAction interface [Task Scheduler]","To property","IEmailAction.To","IEmailAction.get_To","IEmailAction::To","IEmailAction::get_To","IEmailAction::put_To","To property [Task Scheduler]","To property [Task Scheduler]","IEmailAction interface","get_To","taskschd.iemailaction_to","taskschd/IEmailAction::To","taskschd/IEmailAction::get_To","taskschd/IEmailAction::put_To"]
 old-location: taskschd\iemailaction_to.htm
 tech.root: taskschd
 ms.assetid: 5144875a-6854-4907-89cd-6438f6adcc49
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IEmailAction interface [Task Scheduler],To property, IEmailAction.To, IEmailAction.get_To, IEmailAction::To, IEmailAction::get_To, IEmailAction::put_To, To property [Task Scheduler], To property [Task Scheduler],IEmailAction interface, get_To, taskschd.iemailaction_to, taskschd/IEmailAction::To, taskschd/IEmailAction::get_To, taskschd/IEmailAction::put_To
-f1_keywords:
-- taskschd/IEmailAction.To
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IEmailAction.To
-- IEmailAction.get_To
-- IEmailAction.put_To
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEmailAction::get_To
+ - taskschd/IEmailAction::get_To
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IEmailAction.To
+ - IEmailAction.get_To
+ - IEmailAction.put_To
 ---
 
 # IEmailAction::get_To
@@ -50,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the email address or addresses that you want to send the email to.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
- 
-
- 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
 

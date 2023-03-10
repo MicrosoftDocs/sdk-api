@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.Region.GetHRGN
 title: Region::GetHRGN (gdiplusheaders.h)
 description: The Region::GetHRGN method creates a Windows Graphics Device Interface (GDI) region from this region.
+helpviewer_keywords: ["GetHRGN","GetHRGN method [GDI+]","GetHRGN method [GDI+]","Region class","Region class [GDI+]","GetHRGN method","Region.GetHRGN","Region::GetHRGN","_gdiplus_CLASS_Region_GetHRGN_g_","gdiplus._gdiplus_CLASS_Region_GetHRGN_g_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_GetHRGN_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\gethrgn.htm
 ms.date: 12/05/2018
 ms.keywords: GetHRGN, GetHRGN method [GDI+], GetHRGN method [GDI+],Region class, Region class [GDI+],GetHRGN method, Region.GetHRGN, Region::GetHRGN, _gdiplus_CLASS_Region_GetHRGN_g_, gdiplus._gdiplus_CLASS_Region_GetHRGN_g_
-f1_keywords:
-- gdiplusheaders/Region.GetHRGN
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Region.GetHRGN
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Region::GetHRGN
+ - gdiplusheaders/Region::GetHRGN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Region.GetHRGN
 ---
 
 # Region::GetHRGN
@@ -49,40 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Region::GetHRGN</b> method creates a Windows Graphics Device Interface (GDI) region from this region.
-
 
 ## -parameters
 
-
-
-
 ### -param g [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region. 
-
+Pointer to a <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region.
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>HRGN</b>
-</strong>
+Type: <b>HRGN</b>
 
 This method returns a Windows handle to a GDI region that is created from this region.
 
-
-
-
 ## -remarks
 
-
-
 It is the caller's responsibility to call the GDI function 
-				<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> to free the GDI region when it is no longer needed.
+				<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> to free the GDI region when it is no longer needed.
 
 
 #### Examples
@@ -124,29 +112,18 @@ VOID Example_GetHRGN(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>

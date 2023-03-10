@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.GetFocus
 title: ITfThreadMgr2::GetFocus (msctf.h)
 description: Returns the document manager that has the input focus.
+helpviewer_keywords: ["GetFocus","GetFocus method [Text Services Framework]","GetFocus method [Text Services Framework]","ITfThreadMgr2 interface","ITfThreadMgr2 interface [Text Services Framework]","GetFocus method","ITfThreadMgr2.GetFocus","ITfThreadMgr2::GetFocus","msctf/ITfThreadMgr2::GetFocus","tsf.itfthreadmgr2_getfocus"]
 old-location: tsf\itfthreadmgr2_getfocus.htm
 tech.root: TSF
 ms.assetid: A4106774-1817-4308-BD7E-C303AED2B576
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],GetFocus method, ITfThreadMgr2.GetFocus, ITfThreadMgr2::GetFocus, msctf/ITfThreadMgr2::GetFocus, tsf.itfthreadmgr2_getfocus
-f1_keywords:
-- msctf/ITfThreadMgr2.GetFocus
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.GetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::GetFocus
+ - msctf/ITfThreadMgr2::GetFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.GetFocus
 ---
 
 # ITfThreadMgr2::GetFocus
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the document manager that has the input focus.
-
 
 ## -parameters
 
-
-
-
 ### -param ppdimFocus [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface that receives the document manager with the current input focus. Receives <b>NULL</b> if no document manager has the focus.
-
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface that receives the document manager with the current input focus. Receives <b>NULL</b> if no document manager has the focus.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -107,18 +101,7 @@ No document manager has focus. <i>ppdimFocus</i> be set to <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

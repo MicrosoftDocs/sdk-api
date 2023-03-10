@@ -2,15 +2,12 @@
 UID: NF:uxtheme.EnableTheming
 title: EnableTheming function (uxtheme.h)
 description: Windows Vista through Windows 7:\_Enables or disables visual styles for the current user in the current and later sessions.Windows 8 and later:\_This function does nothing. Visual styles are always enabled in Windows 8 and later.
+helpviewer_keywords: ["EnableTheming","EnableTheming function [Windows Controls]","controls.EnableTheming","controls.inet_EnableTheming","inet_EnableTheming","inet_EnableTheming_cpp","uxtheme/EnableTheming"]
 old-location: controls\EnableTheming.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enabletheming.htm
 ms.date: 12/05/2018
 ms.keywords: EnableTheming, EnableTheming function [Windows Controls], controls.EnableTheming, controls.inet_EnableTheming, inet_EnableTheming, inet_EnableTheming_cpp, uxtheme/EnableTheming
-f1_keywords:
-- uxtheme/EnableTheming
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- EnableTheming
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnableTheming
+ - uxtheme/EnableTheming
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - EnableTheming
 ---
 
 # EnableTheming function
@@ -48,20 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>Windows Vista through Windows 7</b>: Enables or disables visual styles for the current user in the current and later sessions.
 
 <b>Windows 8 and later</b>: This function does nothing. Visual styles are always enabled in Windows 8 and later.
 
-
 ## -parameters
-
-
-
 
 ### -param fEnable [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Receives one of the following values.
 
@@ -97,16 +94,9 @@ Disables visual styles and turns visual styles off.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

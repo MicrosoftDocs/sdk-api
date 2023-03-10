@@ -4,8 +4,11 @@ title: Shellscalingapi.h header
 ms.assetid: d748591d-610c-3f80-98ea-e0680533f5c1
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: hidpi
+f1_keywords:
+ - shellscalingapi
+ - shellscalingapi/shellscalingapi
 ---
 
 # Shellscalingapi.h header
@@ -13,8 +16,8 @@ tech.root: hidpi
 
 ## -description
 
-
-This header is used by High DPI. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [High DPI](../_hidpi/index.md)
+- [The Windows Shell](../_shell/index.md)
 

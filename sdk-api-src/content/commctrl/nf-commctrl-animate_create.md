@@ -2,15 +2,12 @@
 UID: NF:commctrl.Animate_Create
 title: Animate_Create macro (commctrl.h)
 description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.
+helpviewer_keywords: ["Animate_Create","Animate_Create macro [Windows Controls]","_win32_Animate_Create","_win32_Animate_Create_cpp","commctrl/Animate_Create","controls.Animate_Create","controls._win32_Animate_Create"]
 old-location: controls\Animate_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
 ms.date: 12/05/2018
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
-f1_keywords:
-- commctrl/Animate_Create
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- Animate_Create
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Animate_Create
+ - commctrl/Animate_Create
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - Animate_Create
 ---
 
 # Animate_Create macro
@@ -48,48 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an animation control. <b>Animate_Create</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the animation control. 
-
+Creates an animation control. <b>Animate_Create</b> calls the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function to create the animation control.
 
 ## -parameters
 
-
-
-
 ### -param hwndP
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the parent window. 
-
+A handle to the parent window.
 
 ### -param id
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The child window identifier of the animation control. 
-
+The child window identifier of the animation control.
 
 ### -param dwStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The window styles. For a list of the animation control style values, see <a href="https://docs.microsoft.com/windows/desktop/Controls/animation-control-styles">Animation Control Styles</a>. 
-
+The window styles. For a list of the animation control style values, see <a href="/windows/desktop/Controls/animation-control-styles">Animation Control Styles</a>.
 
 ### -param hInstance
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
-A handle to the instance of the module that is creating the animation control. 
-
+A handle to the instance of the module that is creating the animation control.
 
 ## -remarks
 
-
-
-The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="https://docs.microsoft.com/windows/desktop/Controls/animation-control-styles">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip. 
-
-
-
+The <b>Animate_Create</b> macro sets the width and height of the animation control to zero if the <a href="/windows/desktop/Controls/animation-control-styles">ACS_CENTER</a> style is specified. If the <b>ACS_CENTER</b> style is not specified, <b>Animate_Create</b> sets the width and height based on the dimensions of a frame in the AVI clip.

@@ -2,15 +2,12 @@
 UID: NF:amvideo.IFullScreenVideoEx.IsModeAvailable
 title: IFullScreenVideoEx::IsModeAvailable (amvideo.h)
 description: The IsModeAvailable method queries whether a specified display mode is available.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","IsModeAvailable method","IFullScreenVideoEx.IsModeAvailable","IFullScreenVideoEx::IsModeAvailable","IFullScreenVideoIsModeAvailable","IsModeAvailable","IsModeAvailable method [DirectShow]","IsModeAvailable method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::IsModeAvailable","dshow.ifullscreenvideoex_ismodeavailable"]
 old-location: dshow\ifullscreenvideoex_ismodeavailable.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
-f1_keywords:
-- amvideo/IFullScreenVideoEx.IsModeAvailable
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.IsModeAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::IsModeAvailable
+ - amvideo/IFullScreenVideoEx::IsModeAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.IsModeAvailable
 ---
 
 # IFullScreenVideoEx::IsModeAvailable
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IsModeAvailable</code> method queries whether a specified display mode is available.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Mode [in]
 
 Index of the display mode.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,35 +102,19 @@ The display mode is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The Full Screen Renderer supports a static set of display modes. However, the video card on the user's system might not support every mode. If a particular display mode is not supported by the video card, this method returns S_FALSE. Even if a particular mode is available, it will not necessarily be used for video playback. The mode must also be compatible with the filters in the filter graph.
 
-You can disable a display mode by calling the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setenabled">IFullScreenVideoEx::SetEnabled</a> method. The Full Screen Renderer will not use a disabled mode, even if the video card supports it.
+You can disable a display mode by calling the <a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-setenabled">IFullScreenVideoEx::SetEnabled</a> method. The Full Screen Renderer will not use a disabled mode, even if the video card supports it.
 
-Display modes are indexed from zero. The <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-countmodes">IFullScreenVideoEx::CountModes</a> method returns the number of modes.
-
-
-
+Display modes are indexed from zero. The <a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-countmodes">IFullScreenVideoEx::CountModes</a> method returns the number of modes.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

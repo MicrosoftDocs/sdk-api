@@ -1,16 +1,13 @@
 ---
 UID: NF:wdspxe.PxeGetServerInfo
 title: PxeGetServerInfo function (wdspxe.h)
-description: Returns information about the PXE server.
+description: Returns information about the PXE server. (PxeGetServerInfo)
+helpviewer_keywords: ["PXE_GSI_TRACE_ENABLED","PxeGetServerInfo","PxeGetServerInfo function [Windows Deployment Services]","wds.pxegetserverinfo","wdspxe/PxeGetServerInfo"]
 old-location: wds\pxegetserverinfo.htm
 tech.root: wds
 ms.assetid: 68fb12ff-c73c-4e36-8f62-de8a04a9afb0
 ms.date: 12/05/2018
 ms.keywords: PXE_GSI_TRACE_ENABLED, PxeGetServerInfo, PxeGetServerInfo function [Windows Deployment Services], wds.pxegetserverinfo, wdspxe/PxeGetServerInfo
-f1_keywords:
-- wdspxe/PxeGetServerInfo
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeGetServerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeGetServerInfo
+ - wdspxe/PxeGetServerInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeGetServerInfo
 ---
 
 # PxeGetServerInfo function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns information about the PXE server.
 
-
 ## -parameters
-
-
-
 
 ### -param uInfoType [in]
 
@@ -79,36 +76,20 @@ Returns a <b>BOOL</b> that indicates whether tracing is enabled for the
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [out]
 
 Address of a buffer that will receive the results of the query. The size and format of the results depends 
       on the value of the <i>uInfoType</i> parameter.
 
-
 ### -param uBufferLen [in]
 
 Size of buffer pointed to by the <i>pBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

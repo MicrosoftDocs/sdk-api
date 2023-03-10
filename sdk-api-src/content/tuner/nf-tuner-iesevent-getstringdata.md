@@ -2,6 +2,7 @@
 UID: NF:tuner.IESEvent.GetStringData
 title: IESEvent::GetStringData (tuner.h)
 description: Gets the data from an event that is derived from the IESEvent interface, in Unicode string format. The data is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
+helpviewer_keywords: ["GetStringData","GetStringData method [Microsoft TV Technologies]","GetStringData method [Microsoft TV Technologies]","IESEvent interface","IESEvent interface [Microsoft TV Technologies]","GetStringData method","IESEvent.GetStringData","IESEvent::GetStringData","mstv.iesevent_getstringdata","tuner/IESEvent::GetStringData"]
 old-location: mstv\iesevent_getstringdata.htm
 tech.root: mstv
 ms.assetid: 6a1c98af-a753-40e5-bea8-825863f94172
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the data from an event  that is derived from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface, in Unicode string format. The data is contained in an <b>IESEvent</b> object, which ispassed in a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>.
+Gets the data from an event  that is derived from the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface, in Unicode string format. The data is contained in an <b>IESEvent</b> object, which ispassed in a call to <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">IESEventService::FireESEvent</a>.
 
 
 ## -parameters
@@ -68,7 +69,7 @@ Pointer to a buffer that receives the data that is passed with the <b>IESEvent</
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 
 
@@ -78,12 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">FireESEvent</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventservice-fireesevent">FireESEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>
  
 
  
-

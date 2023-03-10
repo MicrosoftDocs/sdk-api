@@ -2,15 +2,12 @@
 UID: NF:winuser.UserHandleGrantAccess
 title: UserHandleGrantAccess function (winuser.h)
 description: Grants or denies access to a handle to a User object to a job that has a user-interface restriction.
+helpviewer_keywords: ["UserHandleGrantAccess","UserHandleGrantAccess function","_win32_userhandlegrantaccess","base.userhandlegrantaccess","winuser/UserHandleGrantAccess"]
 old-location: base\userhandlegrantaccess.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
 ms.date: 12/05/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess
-f1_keywords:
-- winuser/UserHandleGrantAccess
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- UserHandleGrantAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UserHandleGrantAccess
+ - winuser/UserHandleGrantAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - UserHandleGrantAccess
 ---
 
 # UserHandleGrantAccess function
@@ -48,81 +50,56 @@ ms.custom: 19H1
 
 ## -description
 
-
 Grants or denies access to a handle to a User object to a job that has a user-interface restriction. When access is granted, all processes associated with the job can subsequently recognize and use the handle. When access is denied, the processes can no longer use the handle. For more information see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/user-objects">User Objects</a>.
-
+<a href="/windows/desktop/SysInfo/user-objects">User Objects</a>.
 
 ## -parameters
-
-
-
 
 ### -param hUserHandle [in]
 
 A handle to the User object.
 
-
 ### -param hJob [in]
 
 A handle to the job to be granted access to the User handle. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle.
-
+<a href="/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle.
 
 ### -param bGrant [in]
 
 If this parameter is TRUE, all processes associated with the job can recognize and use the handle. If the parameter is FALSE, the processes cannot use the handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 The 
 <b>UserHandleGrantAccess</b> function can be called only from a process not associated with the job specified by the <i>hJob</i> parameter. The User handle must not be owned by a process or thread associated with the job.
 
 To create user-interface restrictions, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the JobObjectBasicUIRestrictions job information class.
-
-
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the JobObjectBasicUIRestrictions job information class.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a>
+<a href="/windows/desktop/ProcThread/job-objects">Job Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-objects">Job Objects</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

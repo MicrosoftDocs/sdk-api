@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventSystem.RemoveS
 title: IEventSystem::RemoveS (eventsys.h)
-description: Removes one or more subscription or event objects from the event data store.
+description: Removes one or more subscription or event objects from the event data store. (IEventSystem.RemoveS)
+helpviewer_keywords: ["IEventSystem interface [COM+]","RemoveS method","IEventSystem.RemoveS","IEventSystem::RemoveS","RemoveS","RemoveS method [COM+]","RemoveS method [COM+]","IEventSystem interface","_cos_IEventSystem_RemoveS","cos.ieventsystem_removes","eventsys/IEventSystem::RemoveS"]
 old-location: cos\ieventsystem_removes.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 6c3d2972-bfc4-43f2-a131-f3b3010a3c91
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],RemoveS method, IEventSystem.RemoveS, IEventSystem::RemoveS, RemoveS, RemoveS method [COM+], RemoveS method [COM+],IEventSystem interface, _cos_IEventSystem_RemoveS, cos.ieventsystem_removes, eventsys/IEventSystem::RemoveS
-f1_keywords:
-- eventsys/IEventSystem.RemoveS
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSystem.RemoveS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSystem::RemoveS
+ - eventsys/IEventSystem::RemoveS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSystem.RemoveS
 ---
 
 # IEventSystem::RemoveS
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes one or more subscription or event objects from the event data store.
 
-
 ## -parameters
-
-
-
 
 ### -param progID [in]
 
@@ -72,10 +69,7 @@ The ProgID of the object class to be removed. This must be a valid event object 
 
 The query criteria. For details on forming a valid expression for this parameter, see the Remarks section below.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -130,14 +124,8 @@ Not all of the requested objects could be removed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The query criteria specified by the <i>queryCriteria</i> parameter can be "ALL", to specify a request for all subscription objects, or a Boolean expression denoting one or more conditions a subscription object must meet to be included in the query result. Valid expressions are of the following form:
 
@@ -153,16 +141,6 @@ Following are some examples of valid query criteria:
 
 "EventClassID == {F89859D1-6565-11D1-88C8-0080C7D771BF} AND MethodName = 'StockPriceChange'"
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>

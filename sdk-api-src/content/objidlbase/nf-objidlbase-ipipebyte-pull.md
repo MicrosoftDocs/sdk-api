@@ -1,16 +1,13 @@
 ---
 UID: NF:objidlbase.IPipeByte.Pull
 title: IPipeByte::Pull (objidlbase.h)
-description: Retrieves data of the byte type from the pipe source.
+description: The IPipeByte::Pull (objidlbase.h) method retrieves data of the byte type from the pipe source.
+helpviewer_keywords: ["IPipeByte interface [COM]","Pull method","IPipeByte.Pull","IPipeByte::Pull","Pull","Pull method [COM]","Pull method [COM]","IPipeByte interface","_com_ipipebyte_pull","com.ipipebyte_pull","objidlbase/IPipeByte::Pull"]
 old-location: com\ipipebyte_pull.htm
 tech.root: com
 ms.assetid: 07d4d4cd-de41-41bc-af71-ff12affcbbbe
-ms.date: 12/05/2018
+ms.date: 08/13/2022
 ms.keywords: IPipeByte interface [COM],Pull method, IPipeByte.Pull, IPipeByte::Pull, Pull, Pull method [COM], Pull method [COM],IPipeByte interface, _com_ipipebyte_pull, com.ipipebyte_pull, objidlbase/IPipeByte::Pull
-f1_keywords:
-- objidlbase/IPipeByte.Pull
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IPipeByte.Pull
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPipeByte::Pull
+ - objidlbase/IPipeByte::Pull
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IPipeByte.Pull
 ---
 
 # IPipeByte::Pull
@@ -48,55 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves data of the byte type from the pipe source.
 
-
 ## -parameters
-
-
-
 
 ### -param buf [out]
 
 A pointer to the memory buffer that receives the data. The buffer must be able to hold at least the number of bytes specified in <i>cRequest</i>.
 
-
 ### -param cRequest [in]
 
 The number of bytes requested.
-
 
 ### -param pcReturned [out]
 
 The actual number of bytes returned.
 
-
 ## -returns
-
-
 
 This method returns S_OK to indicate that the data was retrieved successfully.
 
-
-
-
 ## -remarks
-
-
 
 When the <b>Pull</b> method is called, data is requested from the provider of the pipe. The caller must provide a buffer that will hold at least the number of bytes specified in the <i>cRequest</i> parameter. The proxy will unmarshal the data into the provided buffer and set the number of bytes actually provided in <i>pcReturned</i>. The <i>pcReturned</i> parameter can be less than or equal to <i>cRequest</i>, but it will never be greater. When <i>pcReturned</i> is 0, it indicates that there is no more data.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipipebyte">IPipeByte</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipipebyte">IPipeByte</a>

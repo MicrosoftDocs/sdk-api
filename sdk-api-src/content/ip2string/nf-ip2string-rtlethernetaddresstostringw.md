@@ -1,16 +1,13 @@
 ---
 UID: NF:ip2string.RtlEthernetAddressToStringW
 title: RtlEthernetAddressToStringW function (ip2string.h)
-description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address.
+description: Converts a binary Ethernet address to a string representation of the Ethernet MAC address. (Unicode)
+helpviewer_keywords: ["RtlEthernetAddressToString", "RtlEthernetAddressToString function [IP Helper]", "RtlEthernetAddressToStringW", "ip2string/RtlEthernetAddressToString", "ip2string/RtlEthernetAddressToStringW", "iphlp.rtlethernetaddresstostring"]
 old-location: iphlp\rtlethernetaddresstostring.htm
 tech.root: IpHlp
 ms.assetid: 5DE1A1EF-86B3-4414-A21F-90635B48242A
 ms.date: 12/05/2018
 ms.keywords: RtlEthernetAddressToString, RtlEthernetAddressToString function [IP Helper], RtlEthernetAddressToStringA, RtlEthernetAddressToStringW, ip2string/RtlEthernetAddressToString, ip2string/RtlEthernetAddressToStringA, ip2string/RtlEthernetAddressToStringW, iphlp.rtlethernetaddresstostring
-f1_keywords:
-- ip2string/RtlEthernetAddressToString
-dev_langs:
-- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- RtlEthernetAddressToString
-- RtlEthernetAddressToStringA
-- RtlEthernetAddressToStringW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtlEthernetAddressToStringW
+ - ip2string/RtlEthernetAddressToStringW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - RtlEthernetAddressToString
+ - RtlEthernetAddressToStringA
+ - RtlEthernetAddressToStringW
 ---
 
 # RtlEthernetAddressToStringW function
@@ -50,42 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RtlEthernetAddressToString</b> function  converts a binary Ethernet address to a string representation of the Ethernet MAC address.
 
-
-
 ## -parameters
-
-
-
 
 ### -param Addr [in]
 
 The Ethernet address in binary format. The Ethernet address is in network order (bytes ordered from
     left to right).
 
-
-
 ### -param S [out]
 
 A pointer to a buffer in which to store the <b>NULL</b>-terminated string representation of the Ethernet address. This buffer should be large enough to hold at least 18 characters.
 
-
 ## -returns
-
-
 
 A pointer to the NULL character inserted at the end of the string representation of the Ethernet MAC address.
 This can be used by the caller to easily append more information to the string.
 
-
-
-
 ## -remarks
-
-
 
 The <b>RtlEthernetAddressToString</b> function is used to convert a binary Ethernet address to the string representation of the Ethernet address in Ethernet EUI-48 data-link layer address format (also commonly known as a MAC address). The string represents a numeric Ethernet address
     expressed in the non-DIX standard "-'' notation.
@@ -108,13 +94,10 @@ The <b>DL_EUI48</b> data type is defined in the <i>Mstcpip.h</i>  header file.
 
 
 
+
+> [!NOTE]
+> The ip2string.h header defines RtlEthernetAddressToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa">RtlEthernetStringToAddress</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ip2string/nf-ip2string-rtlethernetstringtoaddressa">RtlEthernetStringToAddress</a>

@@ -2,15 +2,12 @@
 UID: NF:uianimation.IUIAnimationTransition.IsDurationKnown
 title: IUIAnimationTransition::IsDurationKnown (uianimation.h)
 description: Determines whether a transition's duration is currently known.
+helpviewer_keywords: ["IUIAnimationTransition interface [Windows Animation]","IsDurationKnown method","IUIAnimationTransition.IsDurationKnown","IUIAnimationTransition::IsDurationKnown","IsDurationKnown","IsDurationKnown method [Windows Animation]","IsDurationKnown method [Windows Animation]","IUIAnimationTransition interface","uianimation.iuianimationtransition_isdurationknown","uianimation/IUIAnimationTransition::IsDurationKnown"]
 old-location: uianimation\iuianimationtransition_isdurationknown.htm
 tech.root: UIAnimation
 ms.assetid: 5cb22573-a318-4682-bc82-0a81c9dbdcbe
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],IsDurationKnown method, IUIAnimationTransition.IsDurationKnown, IUIAnimationTransition::IsDurationKnown, IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_isdurationknown, uianimation/IUIAnimationTransition::IsDurationKnown
-f1_keywords:
-- uianimation/IUIAnimationTransition.IsDurationKnown
-dev_langs:
-- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAnimation.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAnimation.dll
-api_name:
-- IUIAnimationTransition.IsDurationKnown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAnimationTransition::IsDurationKnown
+ - uianimation/IUIAnimationTransition::IsDurationKnown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAnimation.dll
+api_name:
+ - IUIAnimationTransition.IsDurationKnown
 ---
 
 # IUIAnimationTransition::IsDurationKnown
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether a transition's duration is currently known.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Returns S_OK if the duration is known, S_FALSE if the duration is not known, or an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+Returns S_OK if the duration is known, S_FALSE if the duration is not known, or an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 <table>
 <tr>
@@ -82,37 +75,22 @@ The storyboard for this transition is currently in schedule.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method should not be called when the storyboard to which the transition has been added is scheduled or playing.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>.
+For an example, see <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransition">IUIAnimationTransition</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransition-getduration">IUIAnimationTransition::GetDuration</a>

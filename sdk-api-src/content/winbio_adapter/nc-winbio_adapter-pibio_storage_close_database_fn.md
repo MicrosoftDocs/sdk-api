@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_STORAGE_CLOSE_DATABASE_FN
 title: PIBIO_STORAGE_CLOSE_DATABASE_FN (winbio_adapter.h)
 description: Closes the database associated with the pipeline and frees all related resources.
+helpviewer_keywords: ["PIBIO_STORAGE_CLOSE_DATABASE_FN","PIBIO_STORAGE_CLOSE_DATABASE_FN callback","StorageAdapterCloseDatabase","StorageAdapterCloseDatabase callback function [Windows Biometric Framework API]","secbiomet.storageadapterclosedatabase","winbio_adapter/StorageAdapterCloseDatabase"]
 old-location: secbiomet\storageadapterclosedatabase.htm
 tech.root: SecBioMet
 ms.assetid: ddb8d0b8-e975-4ee2-bb8c-423b1304c467
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CLOSE_DATABASE_FN, PIBIO_STORAGE_CLOSE_DATABASE_FN callback, StorageAdapterCloseDatabase, StorageAdapterCloseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapterclosedatabase, winbio_adapter/StorageAdapterCloseDatabase
-f1_keywords:
-- winbio_adapter/StorageAdapterCloseDatabase
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- StorageAdapterCloseDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_STORAGE_CLOSE_DATABASE_FN
+ - winbio_adapter/PIBIO_STORAGE_CLOSE_DATABASE_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - StorageAdapterCloseDatabase
 ---
 
 # PIBIO_STORAGE_CLOSE_DATABASE_FN callback function
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to close the database associated with the pipeline and free all related resources.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -97,14 +90,8 @@ An unspecified problem has caused the request to fail.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The Windows Biometric Framework does not mandate a particular caching policy, but if the database maintains an in-memory cache of records, this function should flush unwritten records to storage.
 
@@ -185,29 +172,18 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_create_database_fn">StorageAdapterCreateDatabase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_create_database_fn">StorageAdapterCreateDatabase</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_erase_database_fn">StorageAdapterEraseDatabase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_erase_database_fn">StorageAdapterEraseDatabase</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>

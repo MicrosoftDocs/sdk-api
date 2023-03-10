@@ -2,15 +2,12 @@
 UID: NN:msctf.ITfActiveLanguageProfileNotifySink
 title: ITfActiveLanguageProfileNotifySink (msctf.h)
 description: The ITfActiveLanguageProfileNotifySink interface is implemented by an application to receive a notification when the active language or text service changes.
+helpviewer_keywords: ["ITfActiveLanguageProfileNotifySink","ITfActiveLanguageProfileNotifySink interface [Text Services Framework]","ITfActiveLanguageProfileNotifySink interface [Text Services Framework]","described","_tsf_itfactivelanguageprofilenotifysink_ref","msctf/ITfActiveLanguageProfileNotifySink","tsf.itfactivelanguageprofilenotifysink"]
 old-location: tsf\itfactivelanguageprofilenotifysink.htm
 tech.root: TSF
 ms.assetid: c70141e8-c948-44f4-914e-454327aadf2b
 ms.date: 12/05/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink, ITfActiveLanguageProfileNotifySink interface [Text Services Framework], ITfActiveLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itfactivelanguageprofilenotifysink_ref, msctf/ITfActiveLanguageProfileNotifySink, tsf.itfactivelanguageprofilenotifysink
-f1_keywords:
-- msctf/ITfActiveLanguageProfileNotifySink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Imekrcic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imekrcic.dll
-api_name:
-- ITfActiveLanguageProfileNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfActiveLanguageProfileNotifySink
+ - msctf/ITfActiveLanguageProfileNotifySink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imekrcic.dll
+api_name:
+ - ITfActiveLanguageProfileNotifySink
 ---
 
 # ITfActiveLanguageProfileNotifySink interface
@@ -48,61 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfActiveLanguageProfileNotifySink</b> interface is implemented by an application to receive a notification when the active language or text service changes.
 
-To install the advise sink, obtain an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> object by calling <b>ITfThreadMgr::QueryInterface</b> with IID_ITfActiveLanguageProfileNotifySink. Then call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfActiveLanguageProfileNotifySink.
-
+To install the advise sink, obtain an <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object from an <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a> object by calling <b>ITfThreadMgr::QueryInterface</b> with IID_ITfActiveLanguageProfileNotifySink. Then call <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfActiveLanguageProfileNotifySink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfActiveLanguageProfileNotifySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfActiveLanguageProfileNotifySink</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfActiveLanguageProfileNotifySink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfactivelanguageprofilenotifysink-onactivated">OnActivated</a>
-</td>
-<td align="left" width="63%">
-Called when the active language or text service changes.
-
-</td>
-</tr>
-</table> 
-
+The <b>ITfActiveLanguageProfileNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfActiveLanguageProfileNotifySink</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource
+<a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetNextItem
 title: INameSpaceTreeControl::GetNextItem (shobjidl_core.h)
 description: Retrieves the next item in the tree according to which method is requested.
+helpviewer_keywords: ["GetNextItem","GetNextItem method [Windows Shell]","GetNextItem method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetNextItem method","INameSpaceTreeControl.GetNextItem","INameSpaceTreeControl::GetNextItem","NSTCGNI_CHILD","NSTCGNI_FIRSTVISIBLE","NSTCGNI_LASTVISIBLE","NSTCGNI_NEXT","NSTCGNI_NEXTVISIBLE","NSTCGNI_PARENT","NSTCGNI_PREV","NSTCGNI_PREVVISIBLE","_shell_INameSpaceTreeControl_GetNextItem","shell.INameSpaceTreeControl_GetNextItem","shobjidl_core/INameSpaceTreeControl::GetNextItem"]
 old-location: shell\INameSpaceTreeControl_GetNextItem.htm
 tech.root: shell
 ms.assetid: 71ede595-14b6-4e59-854a-af75c02093f8
 ms.date: 12/05/2018
 ms.keywords: GetNextItem, GetNextItem method [Windows Shell], GetNextItem method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetNextItem method, INameSpaceTreeControl.GetNextItem, INameSpaceTreeControl::GetNextItem, NSTCGNI_CHILD, NSTCGNI_FIRSTVISIBLE, NSTCGNI_LASTVISIBLE, NSTCGNI_NEXT, NSTCGNI_NEXTVISIBLE, NSTCGNI_PARENT, NSTCGNI_PREV, NSTCGNI_PREVVISIBLE, _shell_INameSpaceTreeControl_GetNextItem, shell.INameSpaceTreeControl_GetNextItem, shobjidl_core/INameSpaceTreeControl::GetNextItem
-f1_keywords:
-- shobjidl_core/INameSpaceTreeControl.GetNextItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- INameSpaceTreeControl.GetNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INameSpaceTreeControl::GetNextItem
+ - shobjidl_core/INameSpaceTreeControl::GetNextItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - INameSpaceTreeControl.GetNextItem
 ---
 
 # INameSpaceTreeControl::GetNextItem
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the next item in the tree according to which method is requested.
-
 
 ## -parameters
 
-
-
-
 ### -param psi [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 The Shell item for which the next item is being retrieved. This value can be <b>NULL</b>.
-
 
 ### -param nstcgi [in]
 
@@ -118,30 +114,18 @@ The absolute first visible item in the tree (not relative to the given item).
 
 The absolute last visible item in the tree (not relative to the given item).
 
-
 ### -param ppsiNext [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
-The address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that fits the criteria for the next item that was requested.
-
+The address of a pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that fits the criteria for the next item that was requested.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 If there is no next item for the type selected, this function returns E_FAIL with <b>NULL</b> for the returned item, <i>ppsiNext</i>.
-
-
-

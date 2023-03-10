@@ -2,15 +2,12 @@
 UID: NF:subscriptionservices.WMPNotifySubscriptionPluginAddRemove
 title: WMPNotifySubscriptionPluginAddRemove function (subscriptionservices.h)
 description: The WMPNotifySubscriptionPluginAddRemove function notifies Windows Media Player that a COM object has been installed or uninstalled.
+helpviewer_keywords: ["WMPNotifyPluginAddRemove_Subscriptions","WMPNotifySubscriptionPluginAddRemove","WMPNotifySubscriptionPluginAddRemove function [Windows Media Player]","contentpartner/WMPNotifySubscriptionPluginAddRemove","wmp.wmpnotifysubscriptionpluginaddremove"]
 old-location: wmp\wmpnotifysubscriptionpluginaddremove.htm
 tech.root: WMP
 ms.assetid: 5217142d-fe1a-4d9f-a4e4-5d9e103ee573
 ms.date: 12/05/2018
 ms.keywords: WMPNotifyPluginAddRemove_Subscriptions, WMPNotifySubscriptionPluginAddRemove, WMPNotifySubscriptionPluginAddRemove function [Windows Media Player], contentpartner/WMPNotifySubscriptionPluginAddRemove, wmp.wmpnotifysubscriptionpluginaddremove
-f1_keywords:
-- subscriptionservices/WMPNotifySubscriptionPluginAddRemove
-dev_langs:
-- c++
 req.header: subscriptionservices.h
 req.include-header: Subscriptionservices.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- contentpartner.h
-api_name:
-- WMPNotifySubscriptionPluginAddRemove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMPNotifySubscriptionPluginAddRemove
+ - subscriptionservices/WMPNotifySubscriptionPluginAddRemove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - contentpartner.h
+api_name:
+ - WMPNotifySubscriptionPluginAddRemove
 ---
 
 # WMPNotifySubscriptionPluginAddRemove function
@@ -48,42 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WMPNotifySubscriptionPluginAddRemove</b> function notifies Windows Media Player that a COM object has been installed or uninstalled.
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div><div> </div>
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 The return value indicates whether the function call succeeded.
-
-
-
 
 ## -remarks
 
-
-
-This function is typically called by a plug-in in its <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a> and <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a> methods. It alerts Windows Media Player to enumerate registered online store objects.
-
-
-
+This function is typically called by a plug-in in its <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a> and <a href="/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a> methods. It alerts Windows Media Player to enumerate registered online store objects.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>

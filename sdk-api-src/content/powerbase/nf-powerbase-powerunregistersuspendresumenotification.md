@@ -2,15 +2,12 @@
 UID: NF:powerbase.PowerUnregisterSuspendResumeNotification
 title: PowerUnregisterSuspendResumeNotification function (powerbase.h)
 description: Cancels a registration to receive notification when the system is suspended or resumed.
+helpviewer_keywords: ["PowerUnregisterSuspendResumeNotification","PowerUnregisterSuspendResumeNotification function","base.powerunregistersuspendresumenotification","powerbase/PowerUnregisterSuspendResumeNotification"]
 old-location: base\powerunregistersuspendresumenotification.htm
-tech.root: power
+tech.root: base
 ms.assetid: 5680e6bd-1694-4d5f-94ea-41b24149c741
 ms.date: 12/05/2018
 ms.keywords: PowerUnregisterSuspendResumeNotification, PowerUnregisterSuspendResumeNotification function, base.powerunregistersuspendresumenotification, powerbase/PowerUnregisterSuspendResumeNotification
-f1_keywords:
-- powerbase/PowerUnregisterSuspendResumeNotification
-dev_langs:
-- c++
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Powrprof.dll
-- API-MS-Win-power-base-l1-1-0.dll
-api_name:
-- PowerUnregisterSuspendResumeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerUnregisterSuspendResumeNotification
+ - powerbase/PowerUnregisterSuspendResumeNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Powrprof.dll
+ - API-MS-Win-power-base-l1-1-0.dll
+api_name:
+ - PowerUnregisterSuspendResumeNotification
 ---
 
 # PowerUnregisterSuspendResumeNotification function
@@ -49,36 +51,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels a registration to receive notification when the system is suspended or resumed.
-
 
 ## -parameters
 
-
-
-
 ### -param RegistrationHandle [in, out]
 
-A handle to a registration obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a> function.
-
+A handle to a registration obtained by calling the <a href="/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a> function.
 
 ## -returns
 
-
-
 Returns ERROR_SUCCESS (zero) if the call was successful, and a nonzero value if the call failed.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>

@@ -2,15 +2,12 @@
 UID: NF:lmaccess.NetUserModalsGet
 title: NetUserModalsGet function (lmaccess.h)
 description: The NetUserModalsGet function retrieves global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
+helpviewer_keywords: ["0","1","2","3","NetUserModalsGet","NetUserModalsGet function [Network Management]","_win32_netusermodalsget","lmaccess/NetUserModalsGet","netmgmt.netusermodalsget"]
 old-location: netmgmt\netusermodalsget.htm
 tech.root: NetMgmt
 ms.assetid: 5bb18144-82a6-4e9b-8321-c06a667bdd03
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetUserModalsGet, NetUserModalsGet function [Network Management], _win32_netusermodalsget, lmaccess/NetUserModalsGet, netmgmt.netusermodalsget
-f1_keywords:
-- lmaccess/NetUserModalsGet
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetUserModalsGet
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetUserModalsGet
+ - lmaccess/NetUserModalsGet
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetUserModalsGet
 ---
 
 # NetUserModalsGet function
@@ -48,24 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetUserModalsGet</b> function retrieves global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in, optional]
 
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. For more information, see the following Remarks section. 
-
-
-
-					
-
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. For more information, see the following Remarks section.
 
 ### -param level [in]
 
@@ -85,7 +77,7 @@ The information level of the data requested. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return global password parameters. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -96,7 +88,7 @@ Return global password parameters. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return logon server and domain controller information. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -107,7 +99,7 @@ Return logon server and domain controller information. The <i>bufptr</i> paramet
 </td>
 <td width="60%">
 Return domain name and identifier. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure. For more information, see the following Remarks section.
 
 </td>
 </tr>
@@ -118,7 +110,7 @@ Return domain name and identifier. The <i>bufptr</i> parameter points to a
 </td>
 <td width="60%">
 Return lockout information. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a> structure.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a> structure.
 
 </td>
 </tr>
@@ -128,19 +120,15 @@ Return lockout information. The <i>bufptr</i> parameter points to a
 A null session logon can call 
 <b>NetUserModalsGet</b> anonymously at information levels 0 and 3.
 
-
 ### -param bufptr [out]
 
 A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. 
 
-The buffer for this data is allocated by the system and the application must call the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function to free the allocated memory when the data returned is no longer needed. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
-
+The buffer for this data is allocated by the system and the application must call the <a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function to free the allocated memory when the data returned is no longer needed. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -218,35 +206,29 @@ The computer name is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management user modal functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdomain">IADsDomain</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsdomain">IADsDomain</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+<a href="/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the Domain object is used to perform the access check for this function.
 
 To retrieve the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">security identifier</a> (SID) of the domain to which the computer belongs, call the 
+<a href="/windows/desktop/SecAuthZ/security-identifiers">security identifier</a> (SID) of the domain to which the computer belongs, call the 
 <b>NetUserModalsGet</b> function specifying a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure and <b>NULL</b> in the <i>servername</i> parameter. If the computer isn't a member of a domain, the function returns a <b>NULL</b> pointer.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a> structure and <b>NULL</b> in the <i>servername</i> parameter. If the computer isn't a member of a domain, the function returns a <b>NULL</b> pointer.
 
 
 #### Examples
 
 The following code sample demonstrates how to retrieve global information for all users and global groups with a call to the 
 <b>NetUserModalsGet</b> function. The sample calls 
-<b>NetUserModalsGet</b>, specifying information level 0 (<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>). If the call succeeds, the sample prints global password information. Finally, the code sample frees the memory allocated for the information buffer.
+<b>NetUserModalsGet</b>, specifying information level 0 (<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>). If the call succeeds, the sample prints global password information. Finally, the code sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -310,48 +292,37 @@ int wmain(int argc, wchar_t *argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusermodalsset">NetUserModalsSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusermodalsset">NetUserModalsSet</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_0">USER_MODALS_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_1">USER_MODALS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_2">USER_MODALS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-user_modals_info_3">USER_MODALS_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-modal-functions">User Modals
+<a href="/windows/desktop/NetMgmt/user-modal-functions">User Modals
 		  Functions</a>
- 
-
- 
-

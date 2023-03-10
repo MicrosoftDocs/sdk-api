@@ -1,16 +1,13 @@
 ---
 UID: NF:strsafe.StringCchVPrintf_lExW
 title: StringCchVPrintf_lExW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
+description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer. (StringCchVPrintf_lExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchVPrintf_lEx", "StringCchVPrintf_lEx function [Menus and Other Resources]", "StringCchVPrintf_lExW", "menurc.stringcchvprintf_lex", "strsafe/StringCchVPrintf_lEx", "strsafe/StringCchVPrintf_lExW"]
 old-location: menurc\stringcchvprintf_lex.htm
 tech.root: menurc
 ms.assetid: 9ba9b785-806d-4a94-9ff4-81307dc6d8b9
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchVPrintf_lEx, StringCchVPrintf_lEx function [Menus and Other Resources], StringCchVPrintf_lExA, StringCchVPrintf_lExW, menurc.stringcchvprintf_lex, strsafe/StringCchVPrintf_lEx, strsafe/StringCchVPrintf_lExA, strsafe/StringCchVPrintf_lExW
-f1_keywords:
-- strsafe/StringCchVPrintf_lEx
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- StrSafe.h
-api_name:
-- StringCchVPrintf_lEx
-- StringCchVPrintf_lExA
-- StringCchVPrintf_lExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchVPrintf_lExW
+ - strsafe/StringCchVPrintf_lExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - StrSafe.h
+api_name:
+ - StringCchVPrintf_lEx
+ - StringCchVPrintf_lExA
+ - StringCchVPrintf_lExW
 ---
 
 # StringCchVPrintf_lExW function
@@ -50,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 
-<b>StringCchVPrintf_lEx</b> is similar to <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a> but includes a parameter for locale information.
-
+<b>StringCchVPrintf_lEx</b> is similar to <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a> but includes a parameter for locale information.
 
 ## -parameters
-
-
-
 
 ### -param pszDest [out]
 
 The destination buffer, which receives the formatted, null-terminated string created from <i>pszFormat</i> and <i>argList</i>.
 
-
 ### -param cchDest [in]
 
 The size of the destination buffer, in characters. This value must be sufficiently large to accommodate the final formatted string plus 1 to account for the terminating null character. The maximum number of characters allowed is <b>STRSAFE_MAX_CCH</b>.
-
 
 ### -param ppszDestEnd [out]
 
 The address of a pointer to the end of <i>pszDest</i>. If <i>ppszDestEnd</i> is non-<b>NULL</b> and any data is copied into the destination buffer, this points to the terminating null character at the end of the string.
 
-
 ### -param pcchRemaining [out, optional]
 
 The number of unused characters in <i>pszDest</i>, including the terminating null character. If <i>pcchRemaining</i> is <b>NULL</b>, the count is not kept or returned.
-
 
 ### -param dwFlags [in]
 
@@ -146,29 +139,22 @@ As in the case of <b>STRSAFE_NULL_ON_FAILURE</b>, if the function fails, <i>pszD
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFormat [in]
 
-The format string. This string must be null-terminated. For more information, see <a href="https://docs.microsoft.com/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
-
+The format string. This string must be null-terminated. For more information, see <a href="/cpp/c-runtime-library/format-specification-syntax-printf-and-wprintf-functions">Format Specification Syntax</a>.
 
 ### -param locale [in]
 
 The locale object. For more information, see <b>_create_locale</b>.
 
-
 ### -param argList [in]
 
 The arguments to be inserted into the <i>pszFormat</i> string.
 
-
 ## -returns
 
-
-
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -209,14 +195,8 @@ The copy operation failed due to insufficient buffer space. Depending on the val
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 For more information on va_lists, see the conventions defined in Stdarg.h.
 
@@ -230,3 +210,6 @@ In order to use this function, you must define the following macro in your heade
 
 
 
+
+> [!NOTE]
+> The strsafe.h header defines StringCchVPrintf_lEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

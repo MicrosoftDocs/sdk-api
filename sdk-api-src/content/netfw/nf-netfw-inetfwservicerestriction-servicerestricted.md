@@ -2,15 +2,12 @@
 UID: NF:netfw.INetFwServiceRestriction.ServiceRestricted
 title: INetFwServiceRestriction::ServiceRestricted (netfw.h)
 description: The ServiceRestricted method indicates whether service restriction rules are enabled to limit traffic to the resources specified by the firewall rules.
+helpviewer_keywords: ["INetFwServiceRestriction interface [ICS/ICF]","ServiceRestricted method","INetFwServiceRestriction.ServiceRestricted","INetFwServiceRestriction::ServiceRestricted","ServiceRestricted","ServiceRestricted method [ICS/ICF]","ServiceRestricted method [ICS/ICF]","INetFwServiceRestriction interface","ics.inetfwservicerestriction_servicerestricted","netfw/INetFwServiceRestriction::ServiceRestricted"]
 old-location: ics\inetfwservicerestriction_servicerestricted.htm
 tech.root: ics
 ms.assetid: 38fe5a68-44ab-4bcb-8673-ebb1e87e446f
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction interface [ICS/ICF],ServiceRestricted method, INetFwServiceRestriction.ServiceRestricted, INetFwServiceRestriction::ServiceRestricted, ServiceRestricted, ServiceRestricted method [ICS/ICF], ServiceRestricted method [ICS/ICF],INetFwServiceRestriction interface, ics.inetfwservicerestriction_servicerestricted, netfw/INetFwServiceRestriction::ServiceRestricted
-f1_keywords:
-- netfw/INetFwServiceRestriction.ServiceRestricted
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwServiceRestriction.ServiceRestricted
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwServiceRestriction::ServiceRestricted
+ - netfw/INetFwServiceRestriction::ServiceRestricted
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwServiceRestriction.ServiceRestricted
 ---
 
 # INetFwServiceRestriction::ServiceRestricted
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ServiceRestricted</b> method indicates whether service restriction rules are enabled to limit traffic to the resources specified by the firewall rules.
 
-
 ## -parameters
-
-
-
 
 ### -param serviceName [in]
 
 Name of the service being queried concerning service restriction state.
 
-
 ### -param appName [in]
 
 Name of the application being queried concerning service restriction state.
-
 
 ### -param serviceRestricted [out]
 
 Indicates whether service restriction rules are in place to restrict the specified service.  If true (<b>VARIANT_TRUE</b>), service is restricted.  Otherwise, service is not restricted to the resources specified by firewall rules.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 If the method succeeds the return value is S_OK.
@@ -188,18 +180,7 @@ The method failed due to an invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>

@@ -2,15 +2,12 @@
 UID: NF:winddi.DrvQueryDriverInfo
 title: DrvQueryDriverInfo function (winddi.h)
 description: The DrvQueryDriverInfo function returns requested driver-specific information.
+helpviewer_keywords: ["DrvQueryDriverInfo","DrvQueryDriverInfo function [Display Devices]","ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml","display.drvquerydriverinfo","winddi/DrvQueryDriverInfo"]
 old-location: display\drvquerydriverinfo.htm
 tech.root: display
 ms.assetid: 94691c91-f6e9-4f48-8da2-bde5354ed94c
 ms.date: 12/05/2018
 ms.keywords: DrvQueryDriverInfo, DrvQueryDriverInfo function [Display Devices], ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml, display.drvquerydriverinfo, winddi/DrvQueryDriverInfo
-f1_keywords:
-- winddi/DrvQueryDriverInfo
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvQueryDriverInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvQueryDriverInfo
+ - winddi/DrvQueryDriverInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryDriverInfo
 ---
 
 # DrvQueryDriverInfo function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvQueryDriverInfo</b> function returns requested driver-specific information.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMode
 
@@ -77,8 +74,6 @@ The caller is querying whether the driver executes in user mode or in kernel mod
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pBuffer [out]
 
@@ -105,34 +100,19 @@ One DWORD
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cbBuf
 
 Caller-supplied value representing the size, in bytes, of the buffer pointed to by <i>pBuffer</i>.
 
-
 ### -param pcbNeeded [out]
 
 Caller-supplied pointer to a location to receive the minimum buffer size, in bytes, required to contain the requested information.
 
-
 ## -returns
-
-
 
 If the operation succeeds, the function should return <b>TRUE</b>; otherwise it should return <b>FALSE</b>.
 
-
-
-
 ## -remarks
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">Printer graphics DLLs</a> that execute in user mode must export a <b>DrvQueryDriverInfo</b> function. If the function is not exported, the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/local-print-provider">local print provider</a> assumes the graphics DLL executes in kernel mode.
-
-
-
+<a href="/windows-hardware/drivers/print/printer-graphics-dll">Printer graphics DLLs</a> that execute in user mode must export a <b>DrvQueryDriverInfo</b> function. If the function is not exported, the <a href="/windows-hardware/drivers/print/local-print-provider">local print provider</a> assumes the graphics DLL executes in kernel mode.

@@ -2,15 +2,12 @@
 UID: NF:medparam.IMediaParams.FlushEnvelope
 title: IMediaParams::FlushEnvelope (medparam.h)
 description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.
+helpviewer_keywords: ["FlushEnvelope","FlushEnvelope method [DirectShow]","FlushEnvelope method [DirectShow]","IMediaParams interface","IMediaParams interface [DirectShow]","FlushEnvelope method","IMediaParams.FlushEnvelope","IMediaParams::FlushEnvelope","IMediaParamsFlushEnvelope","dshow.imediaparams_flushenvelope","medparam/IMediaParams::FlushEnvelope"]
 old-location: dshow\imediaparams_flushenvelope.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 574d6573-ea5d-4419-ad65-f5f7d711e720
 ms.date: 12/05/2018
 ms.keywords: FlushEnvelope, FlushEnvelope method [DirectShow], FlushEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],FlushEnvelope method, IMediaParams.FlushEnvelope, IMediaParams::FlushEnvelope, IMediaParamsFlushEnvelope, dshow.imediaparams_flushenvelope, medparam/IMediaParams::FlushEnvelope
-f1_keywords:
-- medparam/IMediaParams.FlushEnvelope
-dev_langs:
-- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dmoguids.lib
-- Dmoguids.dll
-api_name:
-- IMediaParams.FlushEnvelope
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaParams::FlushEnvelope
+ - medparam/IMediaParams::FlushEnvelope
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dmoguids.lib
+ - Dmoguids.dll
+api_name:
+ - IMediaParams.FlushEnvelope
 ---
 
 # IMediaParams::FlushEnvelope
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>FlushEnvelope</code> method flushes envelope data for a specified parameter over the specified time range.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwParamIndex [in]
 
 Zero-based index of the parameter, or DWORD_ALLPARAMS to flush envelope data from every parameter.
 
-
 ### -param refTimeStart [in]
 
 Start time of the envelope data to flush.
-
 
 ### -param refTimeEnd [in]
 
 Stop time of the envelope data to flush.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -110,14 +99,8 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the time span specified by <i>refTimeStart</i> and <i>refTimeEnd</i> overlaps an envelope segment, the entire segment is flushed. On the other hand, if it falls on the boundary of an envelope segment, the entire segment is retained. Thus:
 
@@ -127,18 +110,8 @@ If the time span specified by <i>refTimeStart</i> and <i>refTimeEnd</i> overlaps
 <li>If the start time equals the end time of an envelope segment, the segment is retained.</li>
 <li>If the end time equals the start time of an envelope segment, the segment is retained.</li>
 </ul>
-To enumerate the parameters supported by this object, along with their index values, use the <a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
-
-
-
+To enumerate the parameters supported by this object, along with their index values, use the <a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>

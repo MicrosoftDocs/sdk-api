@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.get_ACDGroups
 title: ITAgentHandler::get_ACDGroups (tapi3cc.h)
-description: The get_ACDGroups method creates a collection of ACD groups currently associated with the agent handler.
+description: The ITAgentHandler::get_ACDGroups method (tapi3cc.h) creates a collection of ACD groups currently associated with the agent handler.
+helpviewer_keywords: ["ITAgentHandler interface [TAPI 2.2]","get_ACDGroups method","ITAgentHandler.get_ACDGroups","ITAgentHandler::get_ACDGroups","_tapi3_itagenthandler_get_acdgroups","get_ACDGroups","get_ACDGroups method [TAPI 2.2]","get_ACDGroups method [TAPI 2.2]","ITAgentHandler interface","tapi3.itagenthandler_get_acdgroups","tapi3cc/ITAgentHandler::get_ACDGroups"]
 old-location: tapi3\itagenthandler_get_acdgroups.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 72dcc4c8-fac6-4635-995e-18a5693da99b
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_ACDGroups method, ITAgentHandler.get_ACDGroups, ITAgentHandler::get_ACDGroups, _tapi3_itagenthandler_get_acdgroups, get_ACDGroups, get_ACDGroups method [TAPI 2.2], get_ACDGroups method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_acdgroups, tapi3cc/ITAgentHandler::get_ACDGroups
-f1_keywords:
-- tapi3cc/ITAgentHandler.get_ACDGroups
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITAgentHandler.get_ACDGroups
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITAgentHandler::get_ACDGroups
+ - tapi3cc/ITAgentHandler::get_ACDGroups
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITAgentHandler.get_ACDGroups
 ---
 
 # ITAgentHandler::get_ACDGroups
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_ACDGroups</b> method creates a collection of ACD groups currently associated with the agent handler. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups">EnumerateACDGroups</a> method.
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups">EnumerateACDGroups</a> method.
 
 ## -parameters
-
-
-
 
 ### -param pVariant [out]
 
 Pointer to <b>VARIANT</b> containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a> interface pointers (ACD group objects).
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a> interface pointers (ACD group objects).
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,41 +116,25 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a> interface returned by <b>ITAgentHandler::get_ACDGroups</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a> interface returned by <b>ITAgentHandler::get_ACDGroups</b>. The application must call <b>Release</b> on the 
 <b>ITACDGroup</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups">EnumerateACDGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandler-enumerateacdgroups">EnumerateACDGroups</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetFarmProperty
 title: ITsSbResourcePluginStore::GetFarmProperty (sbtsv.h)
-description: Retrieves a property of a farm.
+description: Retrieves a property of a farm. (ITsSbResourcePluginStoreEx.GetFarmProperty)
+helpviewer_keywords: ["GetFarmProperty","GetFarmProperty method [Remote Desktop Services]","GetFarmProperty method [Remote Desktop Services]","ITsSbResourcePluginStore interface","GetFarmProperty method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","GetFarmProperty method","ITsSbResourcePluginStore.GetFarmProperty","ITsSbResourcePluginStore::GetFarmProperty","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","GetFarmProperty method","ITsSbResourcePluginStoreEx::GetFarmProperty","sbtsv/ITsSbResourcePluginStore::GetFarmProperty","sbtsv/ITsSbResourcePluginStoreEx::GetFarmProperty","termserv.itssbresourcepluginstore_getfarmproperty"]
 old-location: termserv\itssbresourcepluginstore_getfarmproperty.htm
 tech.root: TermServ
 ms.assetid: 83cf8f54-99c2-46fb-b882-e2f3c31240e9
 ms.date: 12/05/2018
 ms.keywords: GetFarmProperty, GetFarmProperty method [Remote Desktop Services], GetFarmProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, GetFarmProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],GetFarmProperty method, ITsSbResourcePluginStore.GetFarmProperty, ITsSbResourcePluginStore::GetFarmProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],GetFarmProperty method, ITsSbResourcePluginStoreEx::GetFarmProperty, sbtsv/ITsSbResourcePluginStore::GetFarmProperty, sbtsv/ITsSbResourcePluginStoreEx::GetFarmProperty, termserv.itssbresourcepluginstore_getfarmproperty
-f1_keywords:
-- sbtsv/ITsSbResourcePluginStore.GetFarmProperty
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbResourcePluginStore.GetFarmProperty
-- ITsSbResourcePluginStoreEx.GetFarmProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbResourcePluginStore::GetFarmProperty
+ - sbtsv/ITsSbResourcePluginStore::GetFarmProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbResourcePluginStore.GetFarmProperty
+ - ITsSbResourcePluginStoreEx.GetFarmProperty
 ---
 
 # ITsSbResourcePluginStore::GetFarmProperty
@@ -49,50 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a property of a farm.
 
-
 ## -parameters
-
-
-
 
 ### -param farmName [in]
 
 The name of the farm.
 
-
 ### -param propertyName [in]
 
 The name of the property to retrieve.
-
 
 ### -param pVarValue [in]
 
 Returns a pointer to the value of the property.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a>
- 
-
- 
-
+<a href="/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a>

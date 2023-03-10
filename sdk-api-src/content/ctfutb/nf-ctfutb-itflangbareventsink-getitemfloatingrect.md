@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfLangBarEventSink.GetItemFloatingRect
 title: ITfLangBarEventSink::GetItemFloatingRect (ctfutb.h)
 description: ITfLangBarEventSink::GetItemFloatingRect method
+helpviewer_keywords: ["GetItemFloatingRect","GetItemFloatingRect method [Text Services Framework]","GetItemFloatingRect method [Text Services Framework]","ITfLangBarEventSink interface","ITfLangBarEventSink interface [Text Services Framework]","GetItemFloatingRect method","ITfLangBarEventSink.GetItemFloatingRect","ITfLangBarEventSink::GetItemFloatingRect","_tsf_itflangbareventsink_getitemfloatingrect_ref","ctfutb/ITfLangBarEventSink::GetItemFloatingRect","tsf.itflangbareventsink_getitemfloatingrect"]
 old-location: tsf\itflangbareventsink_getitemfloatingrect.htm
 tech.root: TSF
 ms.assetid: 05747d41-1342-4189-b654-ceb8fadcadd5
 ms.date: 12/05/2018
 ms.keywords: GetItemFloatingRect, GetItemFloatingRect method [Text Services Framework], GetItemFloatingRect method [Text Services Framework],ITfLangBarEventSink interface, ITfLangBarEventSink interface [Text Services Framework],GetItemFloatingRect method, ITfLangBarEventSink.GetItemFloatingRect, ITfLangBarEventSink::GetItemFloatingRect, _tsf_itflangbareventsink_getitemfloatingrect_ref, ctfutb/ITfLangBarEventSink::GetItemFloatingRect, tsf.itflangbareventsink_getitemfloatingrect
-f1_keywords:
-- ctfutb/ITfLangBarEventSink.GetItemFloatingRect
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msutb.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msutb.dll
-api_name:
-- ITfLangBarEventSink.GetItemFloatingRect
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfLangBarEventSink::GetItemFloatingRect
+ - ctfutb/ITfLangBarEventSink::GetItemFloatingRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msutb.dll
+api_name:
+ - ITfLangBarEventSink.GetItemFloatingRect
 ---
 
 # ITfLangBarEventSink::GetItemFloatingRect
@@ -48,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Not currently used.
 
 ## -parameters
-
-
-
 
 ### -param dwThreadId [in]
 
 Not currently used.
 
-
 ### -param rguid [in]
 
 Not currently used.
-
 
 ### -param prc [out]
 
 Not currently used.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiEnableLogA
 title: MsiEnableLogA function (msi.h)
-description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
+description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process. (ANSI)
+helpviewer_keywords: ["INSTALLLOGATTRIBUTES_APPEND", "INSTALLLOGATTRIBUTES_FLUSHEACHLINE", "INSTALLLOGMODE_ACTIONDATA", "INSTALLLOGMODE_ACTIONSTART", "INSTALLLOGMODE_COMMONDATA", "INSTALLLOGMODE_ERROR", "INSTALLLOGMODE_EXTRADEBUG", "INSTALLLOGMODE_FATALEXIT", "INSTALLLOGMODE_INFO", "INSTALLLOGMODE_LOGONLYONERROR", "INSTALLLOGMODE_OUTOFDISKSPACE", "INSTALLLOGMODE_PROPERTYDUMP", "INSTALLLOGMODE_RESOLVESOURCE", "INSTALLLOGMODE_USER", "INSTALLLOGMODE_VERBOSE", "INSTALLLOGMODE_WARNING", "MsiEnableLogA", "msi/MsiEnableLogA"]
 old-location: setup\msienablelog.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
 ms.date: 12/05/2018
 ms.keywords: INSTALLLOGATTRIBUTES_APPEND, INSTALLLOGATTRIBUTES_FLUSHEACHLINE, INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_EXTRADEBUG, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_INFO, INSTALLLOGMODE_LOGONLYONERROR, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROPERTYDUMP, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_USER, INSTALLLOGMODE_VERBOSE, INSTALLLOGMODE_WARNING, MsiEnableLog, MsiEnableLog function, MsiEnableLogA, MsiEnableLogW, _msi_msienablelog, msi/MsiEnableLog, msi/MsiEnableLogA, msi/MsiEnableLogW, setup.msienablelog
-f1_keywords:
-- msi/MsiEnableLog
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiEnableLog
-- MsiEnableLogA
-- MsiEnableLogW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiEnableLogA
+ - msi/MsiEnableLogA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiEnableLog
+ - MsiEnableLogA
+ - MsiEnableLogW
 ---
 
 # MsiEnableLogA function
@@ -50,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiEnableLog</b> function sets the log mode for all subsequent installations that are initiated in the calling process.
 
-
 ## -parameters
-
-
-
 
 ### -param dwLogMode [in]
 
@@ -214,13 +211,10 @@ Logging information is collected but is is less frequently saved to the log file
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szLogFile [in]
 
 Specifies the string that holds the full path to the log file. Entering a null disables logging, in which case <i>dwlogmode</i> is ignored. If a path is supplied, then <i>dwlogmode</i> must not be zero.
-
 
 ### -param dwLogAttributes [in]
 
@@ -248,17 +242,13 @@ If this value is set, the installer appends the existing log specified by <i>szL
 </td>
 <td width="60%">
 Forces the log buffer to be flushed after each line. If this value is not set, the installer flushes the log buffer after 20 lines by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a>.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-flushfilebuffers">FlushFileBuffers</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -288,34 +278,25 @@ The function succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For a description of the Logging policy, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/system-policy">System Policy</a>.
+<a href="/windows/desktop/Msi/system-policy">System Policy</a>.
 
 The path to the log file location must already exist when using this function. The Installer does not create the directory structure for the log file.
 
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiEnableLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/logging">Logging</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/logging">Logging</a>

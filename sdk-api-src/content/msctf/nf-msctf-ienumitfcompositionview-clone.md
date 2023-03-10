@@ -2,15 +2,12 @@
 UID: NF:msctf.IEnumITfCompositionView.Clone
 title: IEnumITfCompositionView::Clone (msctf.h)
 description: IEnumITfCompositionView::Clone method
+helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IEnumITfCompositionView interface","IEnumITfCompositionView interface [Text Services Framework]","Clone method","IEnumITfCompositionView.Clone","IEnumITfCompositionView::Clone","_tsf_ienumitfcompositionview_clone_ref","msctf/IEnumITfCompositionView::Clone","tsf.ienumitfcompositionview_clone"]
 old-location: tsf\ienumitfcompositionview_clone.htm
 tech.root: TSF
 ms.assetid: 536b89ee-c2bd-4713-aa2c-2a2e4841a8de
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumITfCompositionView interface, IEnumITfCompositionView interface [Text Services Framework],Clone method, IEnumITfCompositionView.Clone, IEnumITfCompositionView::Clone, _tsf_ienumitfcompositionview_clone_ref, msctf/IEnumITfCompositionView::Clone, tsf.ienumitfcompositionview_clone
-f1_keywords:
-- msctf/IEnumITfCompositionView.Clone
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- IEnumITfCompositionView.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IEnumITfCompositionView::Clone
+ - msctf/IEnumITfCompositionView::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - IEnumITfCompositionView.Clone
 ---
 
 # IEnumITfCompositionView::Clone
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Creates a copy of the enumerator object.
 
 ## -parameters
 
-
-
-
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a> interface pointer that receives the new enumerator.
-
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a> interface pointer that receives the new enumerator.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,19 +90,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView
-      </a>
- 
-
- 
-
+[IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md)

@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellTaskScheduler.AddTask
 title: IShellTaskScheduler::AddTask (shobjidl_core.h)
 description: Adds a task to the scheduler's background queue.
+helpviewer_keywords: ["AddTask","AddTask method [Windows Shell]","AddTask method [Windows Shell]","IShellTaskScheduler interface","IShellTaskScheduler interface [Windows Shell]","AddTask method","IShellTaskScheduler.AddTask","IShellTaskScheduler::AddTask","ITSAT_DEFAULT_PRIORITY","ITSAT_MAX_PRIORITY","ITSAT_MIN_PRIORITY","_win32_IShellTaskScheduler_AddTask","shell.IShellTaskScheduler_AddTask","shobjidl_core/IShellTaskScheduler::AddTask"]
 old-location: shell\IShellTaskScheduler_AddTask.htm
 tech.root: shell
 ms.assetid: 227b5013-a550-46cc-bae2-af60776cba22
 ms.date: 12/05/2018
 ms.keywords: AddTask, AddTask method [Windows Shell], AddTask method [Windows Shell],IShellTaskScheduler interface, IShellTaskScheduler interface [Windows Shell],AddTask method, IShellTaskScheduler.AddTask, IShellTaskScheduler::AddTask, ITSAT_DEFAULT_PRIORITY, ITSAT_MAX_PRIORITY, ITSAT_MIN_PRIORITY, _win32_IShellTaskScheduler_AddTask, shell.IShellTaskScheduler_AddTask, shobjidl_core/IShellTaskScheduler::AddTask
-f1_keywords:
-- shobjidl_core/IShellTaskScheduler.AddTask
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellTaskScheduler.AddTask
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellTaskScheduler::AddTask
+ - shobjidl_core/IShellTaskScheduler::AddTask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellTaskScheduler.AddTask
 ---
 
 # IShellTaskScheduler::AddTask
@@ -48,35 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a task to the scheduler's background queue.
-
 
 ## -parameters
 
-
-
-
 ### -param prt [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a>*</b>
 
-A pointer to an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a> interface representing the task to add to the queue.
-
+A pointer to an instance of an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a> interface representing the task to add to the queue.
 
 ### -param rtoid [in]
 
 Type: <b>REFTASKOWNERID</b>
 
-A GUID identifying the owner of the task. This information can be used to group tasks for later <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-counttasks">counting</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-removetasks">removal</a> by owner.
-
+A GUID identifying the owner of the task. This information can be used to group tasks for later <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-counttasks">counting</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelltaskscheduler-removetasks">removal</a> by owner.
 
 ### -param lParam [in]
 
 Type: <b>DWORD_PTR</b>
 
 A pointer to a user-defined <b>DWORD</b> value allowing the task to be identified within the tasks owned by <i>rtoid</i>. This is used to identify single tasks or to subgroup them, for instance associating the task with a particular item such as an item in a ListView. This parameter can be zero.
-
 
 ### -param dwPriority [in]
 
@@ -102,14 +96,8 @@ High priority.
 
 Low priority.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

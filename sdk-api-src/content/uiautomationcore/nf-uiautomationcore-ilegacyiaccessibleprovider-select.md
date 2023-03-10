@@ -2,15 +2,12 @@
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.Select
 title: ILegacyIAccessibleProvider::Select (uiautomationcore.h)
 description: Selects the element.
+helpviewer_keywords: ["ILegacyIAccessibleProvider interface [Windows Accessibility]","Select method","ILegacyIAccessibleProvider.Select","ILegacyIAccessibleProvider::Select","Select","Select method [Windows Accessibility]","Select method [Windows Accessibility]","ILegacyIAccessibleProvider interface","uiauto.uiauto_ILegacyIAccessibleProvider_Select","uiauto_ILegacyIAccessibleProvider_Select","uiautomationcore/ILegacyIAccessibleProvider::Select","winauto.uiauto_ILegacyIAccessibleProvider_Select"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Select.htm
 tech.root: WinAuto
 ms.assetid: 9cdb3f88-c4aa-4a04-94e3-5549c389ad1f
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Select method, ILegacyIAccessibleProvider.Select, ILegacyIAccessibleProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_Select, uiauto_ILegacyIAccessibleProvider_Select, uiautomationcore/ILegacyIAccessibleProvider::Select, winauto.uiauto_ILegacyIAccessibleProvider_Select
-f1_keywords:
-- uiautomationcore/ILegacyIAccessibleProvider.Select
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Uiautomationcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uiautomationcore.dll
-api_name:
-- ILegacyIAccessibleProvider.Select
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILegacyIAccessibleProvider::Select
+ - uiautomationcore/ILegacyIAccessibleProvider::Select
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uiautomationcore.dll
+api_name:
+ - ILegacyIAccessibleProvider.Select
 ---
 
 # ILegacyIAccessibleProvider::Select
@@ -48,42 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Selects the element.
 
-
 ## -parameters
-
-
-
 
 ### -param flagsSelect [in]
 
 Type: <b>long</b>
 
-Specifies which selection or focus operations are to be performed. This parameter must have a combination of the values described in <a href="https://docs.microsoft.com/windows/desktop/WinAuto/selflag">SELFLAG Constants</a>.
-
-
-
+Specifies which selection or focus operations are to be performed. This parameter must have a combination of the values described in <a href="/windows/desktop/WinAuto/selflag">SELFLAG Constants</a>.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>

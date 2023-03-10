@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_SubdirectoryFormatPattern
 title: IDataCollectorSet::put_SubdirectoryFormatPattern (pla.h)
-description: Retrieves or sets a format pattern to use when decorating the folder name.
+description: Retrieves or sets a format pattern to use when decorating the folder name. (Put)
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SubdirectoryFormatPattern property","IDataCollectorSet.SubdirectoryFormatPattern","IDataCollectorSet.put_SubdirectoryFormatPattern","IDataCollectorSet::SubdirectoryFormatPattern","IDataCollectorSet::get_SubdirectoryFormatPattern","IDataCollectorSet::put_SubdirectoryFormatPattern","SubdirectoryFormatPattern property [PLA]","SubdirectoryFormatPattern property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_subdirectoryformatpattern","pla.idatacollectorset_get_subdirectoryformatpattern","pla/IDataCollectorSet::SubdirectoryFormatPattern","pla/IDataCollectorSet::get_SubdirectoryFormatPattern","pla/IDataCollectorSet::put_SubdirectoryFormatPattern","put_SubdirectoryFormatPattern"]
 old-location: pla\idatacollectorset_get_subdirectoryformatpattern.htm
 tech.root: PLA
 ms.assetid: 83b7df10-8b00-4d64-bf71-2c68e037ab3f
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SubdirectoryFormatPattern property, IDataCollectorSet.SubdirectoryFormatPattern, IDataCollectorSet.put_SubdirectoryFormatPattern, IDataCollectorSet::SubdirectoryFormatPattern, IDataCollectorSet::get_SubdirectoryFormatPattern, IDataCollectorSet::put_SubdirectoryFormatPattern, SubdirectoryFormatPattern property [PLA], SubdirectoryFormatPattern property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectoryformatpattern, pla.idatacollectorset_get_subdirectoryformatpattern, pla/IDataCollectorSet::SubdirectoryFormatPattern, pla/IDataCollectorSet::get_SubdirectoryFormatPattern, pla/IDataCollectorSet::put_SubdirectoryFormatPattern, put_SubdirectoryFormatPattern
-f1_keywords:
-- pla/IDataCollectorSet.SubdirectoryFormatPattern
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataCollectorSet.SubdirectoryFormatPattern
-- IDataCollectorSet.get_SubdirectoryFormatPattern
-- IDataCollectorSet.put_SubdirectoryFormatPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataCollectorSet::put_SubdirectoryFormatPattern
+ - pla/IDataCollectorSet::put_SubdirectoryFormatPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataCollectorSet.SubdirectoryFormatPattern
+ - IDataCollectorSet.get_SubdirectoryFormatPattern
+ - IDataCollectorSet.put_SubdirectoryFormatPattern
 ---
 
 # IDataCollectorSet::put_SubdirectoryFormatPattern
@@ -50,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets a format pattern to use when decorating the folder name.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-PLA uses the pattern only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a> property is set to <b>plaPattern</b>.
+PLA uses the pattern only if the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a> property is set to <b>plaPattern</b>.
 
 Use the following pattern characters to define your own pattern to append to the file name. For example, the pattern "MMMM d, yyyy \a\t h:mmTt" could yield "January 31, 2005 at 4:20AM". 
 
@@ -181,22 +178,11 @@ Use the following pattern characters to define your own pattern to append to the
 <td>Escaped character, where <i>c</i> is any character. Unrecognized characters, excluding white space, that are not escaped will result in an error.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a>

@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.SetModePage
 title: IDiscRecorder2Ex::SetModePage (imapi2.h)
 description: Sets the mode page data for the device.
+helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SetModePage method","IDiscRecorder2Ex.SetModePage","IDiscRecorder2Ex::SetModePage","SetModePage","SetModePage method [IMAPI]","SetModePage method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_setmodepage","imapi2/IDiscRecorder2Ex::SetModePage"]
 old-location: imapi\idiscrecorder2ex_setmodepage.htm
 tech.root: imapi
 ms.assetid: 7ca1e8c0-d75d-40a7-8b2e-5c240c410031
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SetModePage method, IDiscRecorder2Ex.SetModePage, IDiscRecorder2Ex::SetModePage, SetModePage, SetModePage method [IMAPI], SetModePage method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_setmodepage, imapi2/IDiscRecorder2Ex::SetModePage
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.SetModePage
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.SetModePage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::SetModePage
+ - imapi2/IDiscRecorder2Ex::SetModePage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.SetModePage
 ---
 
 # IDiscRecorder2Ex::SetModePage
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the mode page data for the device. 
-
+Sets the mode page data for the device.
 
 ## -parameters
 
-
-
-
 ### -param requestType [in]
 
-Type of mode page data to send. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
-
+Type of mode page data to send. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
 
 ### -param data [in]
 
@@ -68,15 +64,11 @@ Data buffer that contains the mode page data to send to the media. Do not includ
 
 For details on specifying the fields of  the mode page data, see the MODE SELECT (10) command in the latest revision of the MMC specification at ftp://ftp.t10.org/t10/drafts/mmc5.
 
-
 ### -param byteSize [in]
 
 Size, in bytes, of the data buffer.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -385,34 +377,23 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmodepage">IDiscRecorder2Ex::GetModePage</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
 
 
 
 IMAPI_MODE_PAGE_TYPE
- 
-
- 
-

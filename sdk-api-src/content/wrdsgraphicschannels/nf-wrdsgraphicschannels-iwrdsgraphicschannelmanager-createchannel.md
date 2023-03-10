@@ -2,15 +2,12 @@
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelManager.CreateChannel
 title: IWRdsGraphicsChannelManager::CreateChannel (wrdsgraphicschannels.h)
 description: Used to create a graphics virtual channel.
+helpviewer_keywords: ["CreateChannel","CreateChannel method [Remote Desktop Services]","CreateChannel method [Remote Desktop Services]","IWRdsGraphicsChannelManager interface","IWRdsGraphicsChannelManager interface [Remote Desktop Services]","CreateChannel method","IWRdsGraphicsChannelManager.CreateChannel","IWRdsGraphicsChannelManager::CreateChannel","termserv.iwrdsgraphicschannelmanager_createchannel","wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel"]
 old-location: termserv\iwrdsgraphicschannelmanager_createchannel.htm
 tech.root: TermServ
 ms.assetid: 2dcce4ac-aa1d-4bdf-9c95-8737f924d0e9
 ms.date: 12/05/2018
 ms.keywords: CreateChannel, CreateChannel method [Remote Desktop Services], CreateChannel method [Remote Desktop Services],IWRdsGraphicsChannelManager interface, IWRdsGraphicsChannelManager interface [Remote Desktop Services],CreateChannel method, IWRdsGraphicsChannelManager.CreateChannel, IWRdsGraphicsChannelManager::CreateChannel, termserv.iwrdsgraphicschannelmanager_createchannel, wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
-f1_keywords:
-- wrdsgraphicschannels/IWRdsGraphicsChannelManager.CreateChannel
-dev_langs:
-- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wrdsgraphicschannels.h
-api_name:
-- IWRdsGraphicsChannelManager.CreateChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWRdsGraphicsChannelManager::CreateChannel
+ - wrdsgraphicschannels/IWRdsGraphicsChannelManager::CreateChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wrdsgraphicschannels.h
+api_name:
+ - IWRdsGraphicsChannelManager.CreateChannel
 ---
 
 # IWRdsGraphicsChannelManager::CreateChannel
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to create a graphics virtual channel.
 
-
 ## -parameters
-
-
-
 
 ### -param pszChannelName [in]
 
@@ -93,39 +90,24 @@ The video-optimized bitmap remote geometry channel.
 
 The video-optimized bitmap remote control channel.
 
-
 ### -param channelType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a></b>
+Type: <b><a href="/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a></b>
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
-
+A value of the <a href="/windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype">WRdsGraphicsChannelType</a> enumeration that specifies what type of channel to create. If the specified type of channel cannot be created, this method should return a channel object rather than fail.
 
 ### -param ppVirtualChannel [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>**</b>
+Type: <b><a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a> interface pointer that receives the channel object.
-
+The address of an <a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannel">IWRdsGraphicsChannel</a> interface pointer that receives the channel object.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelmanager">IWRdsGraphicsChannelManager</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelmanager">IWRdsGraphicsChannelManager</a>

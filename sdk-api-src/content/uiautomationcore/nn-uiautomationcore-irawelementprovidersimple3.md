@@ -2,15 +2,12 @@
 UID: NN:uiautomationcore.IRawElementProviderSimple3
 title: IRawElementProviderSimple3 (uiautomationcore.h)
 description: Extends the IRawElementProviderSimple2 interface to enable retrieving metadata about how accessible technology should say the preferred content type.
+helpviewer_keywords: ["IRawElementProviderSimple3","IRawElementProviderSimple3 interface [Windows Accessibility]","IRawElementProviderSimple3 interface [Windows Accessibility]","described","uiautomationcore/IRawElementProviderSimple3","winauto.uiauto_IRawElementProviderSimple3"]
 old-location: winauto\uiauto_IRawElementProviderSimple3.htm
 tech.root: WinAuto
 ms.assetid: 33D6DD52-B6D4-4AD4-AED9-9BFA6230C86B
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderSimple3, IRawElementProviderSimple3 interface [Windows Accessibility], IRawElementProviderSimple3 interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderSimple3, winauto.uiauto_IRawElementProviderSimple3
-f1_keywords:
-- uiautomationcore/IRawElementProviderSimple3
-dev_langs:
-- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IRawElementProviderSimple3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRawElementProviderSimple3
+ - uiautomationcore/IRawElementProviderSimple3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IRawElementProviderSimple3
 ---
 
 # IRawElementProviderSimple3 interface
@@ -48,40 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a> interface to enable retrieving metadata about how accessible technology should say the preferred content type.
-
+Extends the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a> interface to enable retrieving metadata about how accessible technology should say the preferred content type.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderSimple3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>. <b>IRawElementProviderSimple3</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IRawElementProviderSimple3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementprovidersimple3-getmetadatavalue">GetMetadataValue</a>
-</td>
-<td align="left" width="63%">
-Gets metadata from the UI Automation element that indicates how the information should be interpreted.
-
-</td>
-</tr>
-</table> 
-
+The <b>IRawElementProviderSimple3</b> interface inherits from <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>. <b>IRawElementProviderSimple3</b> also has these types of members:
 
 ## -remarks
-
-
 
 Screen reading accessibility tools like Narrator use a speech synthesizer to read what an app is showing.  Speech synthesizers usually read the provided content well based on the content description.
 
@@ -103,15 +78,6 @@ The ability to mark the "10" as a number and the "-100" as a number helps active
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple2">IRawElementProviderSimple2</a>

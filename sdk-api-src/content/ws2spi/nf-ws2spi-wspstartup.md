@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSPStartup
 title: WSPStartup function (ws2spi.h)
 description: The WSPStartup function initiates use of a Windows Sockets service provider interface (SPI) by a client.
+helpviewer_keywords: ["WSPStartup","WSPStartup function [Winsock]","_win32_wspstartup_2","winsock.wspstartup_2","ws2spi/WSPStartup"]
 old-location: winsock\wspstartup_2.htm
 tech.root: WinSock
 ms.assetid: 9ebfe81c-bed6-4bde-b1dd-5eaefbaac9cf
 ms.date: 12/05/2018
 ms.keywords: WSPStartup, WSPStartup function [Winsock], _win32_wspstartup_2, winsock.wspstartup_2, ws2spi/WSPStartup
-f1_keywords:
-- ws2spi/WSPStartup
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WSPStartup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSPStartup
+ - ws2spi/WSPStartup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WSPStartup
 ---
 
 # WSPStartup function
@@ -48,46 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WSPStartup** function initiates use of a Windows Sockets service provider interface  (SPI) by a client.
 
-
 ## -parameters
-
-
-
 
 ### -param wVersionRequested [in]
 
 The highest version of Windows Sockets SPI support that the caller can use. The high-order byte specifies the minor version (revision) number; the low-order byte specifies the major version number.
-
 
 ### -param lpWSPData [out]
 
 A pointer to a 
 [WSPDATA](ns-ws2spi-wspdata.md) data structure that receives information about the Windows Sockets service provider.
 
-
 ### -param lpProtocolInfo [in]
 
 A pointer to a 
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a> structure that defines the characteristics of the desired protocol. This is especially useful when a single provider DLL is capable of instantiating multiple different service providers.
 
-
 ### -param UpcallTable [in]
 
-The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table passed in a [WSPUpCallTable](ns-ws2spi-wspupcalltable.md) structure. 
-
+The Winsock 2 DLL (Ws2_32.dll) upcall dispatch table passed in a [WSPUpCallTable](ns-ws2spi-wspupcalltable.md) structure.
 
 ### -param lpProcTable [out]
 
-A pointer to the table of SPI function pointers. This table is returned as an [WSPProc_Table](ns-ws2spi-wspproc_table.md) structure. 
-
+A pointer to the table of SPI function pointers. This table is returned as an [WSPProc_Table](ns-ws2spi-wspproc_table.md) structure.
 
 ## -returns
-
-
 
 The 
 **WSPStartup** function returns zero if successful. Otherwise, it returns one of the error codes listed below.
@@ -154,14 +144,8 @@ The <i>lpWSPData</i> or <i>lpProcTable</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Windows Sockets 2  transport service providers are DLLs with a single exported procedure entry point,  **WSPStartup**, used for the service provider initialization function. All other service provider functions are made accessible to the Winsock 2 DLL via the service provider's dispatch table passed in the <i>lpProcTable</i> parameter to the **WSPStartup** function.  Service provider DLL's are loaded into memory by the WinSock 2 DLL only when needed, and are unloaded when their services are no longer required.
 
@@ -439,10 +423,8 @@ This same propagation policy applies when propagating a
 [LPWSPSocket](nc-ws2spi-lpwspsocket.md), or 
 [LPWSPStringToAddress](nc-ws2spi-lpwspstringtoaddress.md).
 
-
-
-
 ## -see-also
+
 <a href="/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa">WSAProtocol_Info</a>
 
 [LPWSPAddressToString](nc-ws2spi-lpwspaddresstostring.md)
@@ -464,6 +446,4 @@ This same propagation policy applies when propagating a
 [LPWSPSocket](nc-ws2spi-lpwspsocket.md)
 
 [WSPUpCallTable](ns-ws2spi-wspupcalltable.md)
-
- 
 

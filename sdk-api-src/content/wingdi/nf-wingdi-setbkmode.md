@@ -2,15 +2,12 @@
 UID: NF:wingdi.SetBkMode
 title: SetBkMode function (wingdi.h)
 description: The SetBkMode function sets the background mix mode of the specified device context. The background mix mode is used with text, hatched brushes, and pen styles that are not solid lines.
+helpviewer_keywords: ["OPAQUE","SetBkMode","SetBkMode function [Windows GDI]","TRANSPARENT","_win32_SetBkMode","gdi.setbkmode","wingdi/SetBkMode"]
 old-location: gdi\setbkmode.htm
 tech.root: gdi
 ms.assetid: 60e4467a-14ab-421e-b174-4b9c0134ce72
 ms.date: 12/05/2018
 ms.keywords: OPAQUE, SetBkMode, SetBkMode function [Windows GDI], TRANSPARENT, _win32_SetBkMode, gdi.setbkmode, wingdi/SetBkMode
-f1_keywords:
-- wingdi/SetBkMode
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Draw-l1-1-1.dll
-- ext-ms-win-gdi-draw-l1-1-2.dll
-- Ext-MS-Win-GDI-Draw-L1-1-3.dll
-- GDI32Full.dll
-api_name:
-- SetBkMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetBkMode
+ - wingdi/SetBkMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Draw-l1-1-1.dll
+ - ext-ms-win-gdi-draw-l1-1-2.dll
+ - Ext-MS-Win-GDI-Draw-L1-1-3.dll
+ - GDI32Full.dll
+api_name:
+ - SetBkMode
 ---
 
 # SetBkMode function
@@ -52,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetBkMode</b> function sets the background mix mode of the specified device context. The background mix mode is used with text, hatched brushes, and pen styles that are not solid lines.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
-
 
 ### -param mode [in]
 
@@ -96,30 +92,21 @@ Background remains untouched.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the previous background mode.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
 
-
-
-The <b>SetBkMode</b> function affects the line styles for lines drawn using a pen created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a> function. <b>SetBkMode</b> does not affect lines drawn using a pen created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> function.
+The <b>SetBkMode</b> function affects the line styles for lines drawn using a pen created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a> function. <b>SetBkMode</b> does not affect lines drawn using a pen created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> function.
 
 
 #### Examples
 
-To see how to make the background of a  hatch brush transparent or opaque, refer to the example shown in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>   topic.
+To see how to make the background of a  hatch brush transparent or opaque, refer to the example shown in the <a href="/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>   topic.
 
 The next example draws a string 36 times, rotating it 10 degrees 
 counterclockwise each time. It also sets the background mode to transparent to make the text visible.
@@ -217,31 +204,22 @@ LocalFree((LOCALHANDLE) plf);
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbkmode">GetBkMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbkmode">GetBkMode</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

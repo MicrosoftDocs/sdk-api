@@ -2,15 +2,12 @@
 UID: NC:batclass.BCLASS_QUERY_INFORMATION_CALLBACK
 title: BCLASS_QUERY_INFORMATION_CALLBACK (batclass.h)
 description: BatteryMiniQueryInformation returns information about the given battery device.
+helpviewer_keywords: ["BCLASS_QUERY_INFORMATION_CALLBACK","BCLASS_QUERY_INFORMATION_CALLBACK callback","BatteryMiniQueryInformation","BatteryMiniQueryInformation callback function [Battery Devices]","bat-mini_89cb050e-0a2e-4fad-b6fa-c2977703c782.xml","batclass/BatteryMiniQueryInformation","battery.batteryminiqueryinformation"]
 old-location: battery\batteryminiqueryinformation.htm
 tech.root: battery
 ms.assetid: bd96b79a-5670-4aaf-b72c-619818c2a2e7
 ms.date: 12/05/2018
 ms.keywords: BCLASS_QUERY_INFORMATION_CALLBACK, BCLASS_QUERY_INFORMATION_CALLBACK callback, BatteryMiniQueryInformation, BatteryMiniQueryInformation callback function [Battery Devices], bat-mini_89cb050e-0a2e-4fad-b6fa-c2977703c782.xml, batclass/BatteryMiniQueryInformation, battery.batteryminiqueryinformation
-f1_keywords:
-- batclass/BatteryMiniQueryInformation
-dev_langs:
-- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Batclass.h
-api_name:
-- BatteryMiniQueryInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BCLASS_QUERY_INFORMATION_CALLBACK
+ - batclass/BCLASS_QUERY_INFORMATION_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Batclass.h
+api_name:
+ - BatteryMiniQueryInformation
 ---
 
 # BCLASS_QUERY_INFORMATION_CALLBACK callback function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 <i>BatteryMiniQueryInformation</i> returns information about the given battery device.
 
-
 ## -parameters
-
-
-
 
 ### -param Context [in]
 
 A pointer to the context area allocated by the miniclass driver for the battery device.
 
-
 ### -param BatteryTag [in]
 
 A pointer to a battery tag previously returned by <i>BatteryMiniQueryTag</i>.
-
 
 ### -param Level [in]
 
@@ -84,7 +79,6 @@ The type of battery information to be returned. Possible values are:
 ### -param AtRate [in]
 
 The rate of drain, in negative milliwatts, used to calculate the time to discharge the battery. This parameter is meaningful only when <i>Level</i> is <b>BatteryEstimatedTime</b>; this parameter is ignored for all other values of <i>Level</i>.
-
 
 ### -param Buffer [out]
 
@@ -144,22 +138,17 @@ Return a Unicode string that uniquely identifies the battery, typically a concat
 
 #### BatterySerialNumber
 
-Return a Unicode string that contains the battery's serial number. 
-
+Return a Unicode string that contains the battery's serial number.
 
 ### -param BufferLength [in]
 
 The length, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
-
 ### -param ReturnedLength [out]
 
 The number of bytes returned in the buffer pointed to by <i>Buffer</i>.
 
-
 ## -returns
-
-
 
 <i>BatteryMiniQueryInformation</i> returns one of the following:
 
@@ -171,11 +160,11 @@ The number of bytes returned in the buffer pointed to by <i>Buffer</i>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_SUCCESS </b></dt>
+<dt><b>STATUS_SUCCESS</b></dt>
 </dl>
 </td>
 <td width="60%">
-The battery designated by <i>BatteryTag </i>is currently installed and the requested information has been returned. 
+The battery designated by <i>BatteryTag</i> is currently installed and the requested information has been returned. 
 
 </td>
 </tr>
@@ -186,14 +175,14 @@ The battery designated by <i>BatteryTag </i>is currently installed and the reque
 </dl>
 </td>
 <td width="60%">
-The battery designated by <i>BatteryTag </i>is not present.
+The battery designated by <i>BatteryTag</i> is not present.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST </b></dt>
+<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,50 +197,34 @@ The <i>Level</i> parameter specifies information that this battery does not supp
 </dl>
 </td>
 <td width="60%">
-The <i>Level </i>parameter is not one of the enumerators listed.
+The <i>Level </i> parameter is not one of the enumerators listed.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The battery class driver calls a miniclass driver's <i>BatteryMiniQueryInformation</i> routine to get various types of information about the battery. The information returned depends upon the <i>Level </i> parameter. Not all batteries support all the possible types of information that the class driver might request. Miniclass drivers should return STATUS_INVALID_DEVICE_REQUEST for any such requests.
 
+If <i>Level </i> specifies <b>BatteryInformation</b>, the miniclass driver must return a BATTERY_INFORMATION structure in the buffer pointed to by <i>Buffer</i>. This structure contains status information about the battery, including its capabilities, technology (whether the battery is rechargeable), and chemistry; theoretical and actual full-charged capacity; critical bias; number of charge/discharge cycles; and the capacity levels at which warning alerts occur.
 
-The battery class driver calls a miniclass driver's <i>BatteryMiniQueryInformation</i> routine to get various types of information about the battery. The information returned depends upon the <i>Level </i>parameter. Not all batteries support all the possible types of information that the class driver might request. Miniclass drivers should return STATUS_INVALID_DEVICE_REQUEST for any such requests.
-
-If <i>Level </i>specifies <b>BatteryInformation</b>, the miniclass driver must return a BATTERY_INFORMATION structure in the buffer pointed to by <i>Buffer</i>. This structure contains status information about the battery, including its capabilities, technology (whether the battery is rechargeable), and chemistry; theoretical and actual full-charged capacity; critical bias; number of charge/discharge cycles; and the capacity levels at which warning alerts occur.
-
-If <i>Level </i>specifies <b>BatteryGranularityInformation</b>, the miniclass driver can return an array of one to four elements, formatted as BATTERY_REPORTING_SCALE structures. Each element of the array consists of a granularity value and a remaining capacity value, in milliwatt-hours. The granularity indicates the precision of measurement and thus is an indicator of the accuracy of the capacity. 
+If <i>Level </i> specifies <b>BatteryGranularityInformation</b>, the miniclass driver can return an array of one to four elements, formatted as BATTERY_REPORTING_SCALE structures. Each element of the array consists of a granularity value and a remaining capacity value, in milliwatt-hours. The granularity indicates the precision of measurement and thus is an indicator of the accuracy of the capacity. 
 
 Most types of batteries report capacity on a single scale. Miniclass drivers for these batteries return only one entry, giving the remaining capacity and the precision of the scale. Some batteries, however, have two scales: a gross scale that measures whether capacity is greater or less than fifty percent, and a finer scale that applies as capacity approaches zero. Miniclass drivers for such batteries should return two entries describing the two scales.
 
-If <i>Level</i> specifies <b>BatteryEstimatedTime</b>, the miniclass driver must use the optional <i>AtRate </i>parameter to estimate the amount of time remaining to use the battery. The <i>AtRate</i> parameter specifies a drain rate, in negative milliwatts. 
+If <i>Level</i> specifies <b>BatteryEstimatedTime</b>, the miniclass driver must use the optional <i>AtRate </i> parameter to estimate the amount of time remaining to use the battery. The <i>AtRate</i> parameter specifies a drain rate, in negative milliwatts. 
 
 If <i>Level</i> specifies <b>BatteryUniqueId</b>, the miniclass driver must return a string that uniquely identifies this particular battery. For control method and smart batteries, the unique ID is the concatenation of the manufacture name, the device name, the manufacture date, and the ASCII representation of the battery's serial number. This value is not meant to be displayed.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/ff536283(v=vs.85)">BATTERY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/e9326d96-bd96-4493-a0b2-abe6b8f2401a">BATTERY_INFORMATION</a>
+<a href="/previous-versions/ff536284(v=vs.85)">BATTERY_MANUFACTURE_DATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ab9caa3-344a-49c8-8f40-75d9c251be04">BATTERY_MANUFACTURE_DATE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a>
- 
-
- 
-
+<a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a>

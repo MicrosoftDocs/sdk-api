@@ -1,16 +1,13 @@
 ---
 UID: NS:vfw._AVIFILEINFOW
 title: AVIFILEINFOW (vfw.h)
-description: The AVIFILEINFO structure contains global information for an entire AVI file.
+description: The AVIFILEINFO structure contains global information for an entire AVI file. (Unicode)
+helpviewer_keywords: ["*LPAVIFILEINFOW","AVIFILECAPS_ALLKEYFRAMES","AVIFILECAPS_CANREAD","AVIFILECAPS_CANWRITE","AVIFILECAPS_NOCOMPRESSION","AVIFILEINFO","AVIFILEINFO structure [Windows Multimedia]","AVIFILEINFOA","AVIFILEINFOW","AVIFILEINFO_COPYRIGHTED","AVIFILEINFO_HASINDEX","AVIFILEINFO_ISINTERLEAVED","AVIFILEINFO_MUSTUSEINDEX","AVIFILEINFO_WASCAPTUREFILE","multimedia.avifileinfo_COLLISION510","multimedia.avifileinfo_struct","vfw/AVIFILEINFO"]
 old-location: multimedia\avifileinfo_struct.htm
 tech.root: Multimedia
 ms.assetid: d3fda342-2ade-41b1-b709-c194f132e015
 ms.date: 12/05/2018
 ms.keywords: '*LPAVIFILEINFOW, AVIFILECAPS_ALLKEYFRAMES, AVIFILECAPS_CANREAD, AVIFILECAPS_CANWRITE, AVIFILECAPS_NOCOMPRESSION, AVIFILEINFO, AVIFILEINFO structure [Windows Multimedia], AVIFILEINFOA, AVIFILEINFOW, AVIFILEINFO_COPYRIGHTED, AVIFILEINFO_HASINDEX, AVIFILEINFO_ISINTERLEAVED, AVIFILEINFO_MUSTUSEINDEX, AVIFILEINFO_WASCAPTUREFILE, multimedia.avifileinfo_COLLISION510, multimedia.avifileinfo_struct, vfw/AVIFILEINFO'
-f1_keywords:
-- vfw/AVIFILEINFO
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVIFILEINFO
 targetos: Windows
 req.typenames: AVIFILEINFOW, *LPAVIFILEINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _AVIFILEINFOW
+ - vfw/_AVIFILEINFOW
+ - LPAVIFILEINFOW
+ - vfw/LPAVIFILEINFOW
+ - AVIFILEINFOW
+ - vfw/AVIFILEINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVIFILEINFO
 ---
 
 # AVIFILEINFOW structure
@@ -48,22 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIFILEINFO</b> structure contains global information for an entire AVI file.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field dwMaxBytesPerSec
 
 Approximate maximum data rate of the AVI file.
-
 
 ### -field dwFlags
 
@@ -125,8 +122,6 @@ The AVI file contains copyrighted data and software. When this flag is used, sof
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwCaps
 
@@ -178,13 +173,10 @@ The AVI file does not use a compression method.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwStreams
 
 Number of streams in the file. For example, a file with audio and video has at least two streams.
-
 
 ### -field dwSuggestedBufferSize
 
@@ -192,16 +184,13 @@ Suggested buffer size, in bytes, for reading the file. Generally, this size shou
 
 If the buffer size is too small or is set to zero, the playback software will have to reallocate memory during playback, reducing performance.
 
-
 ### -field dwWidth
 
 Width, in pixels, of the AVI file.
 
-
 ### -field dwHeight
 
 Height, in pixels, of the AVI file.
-
 
 ### -field dwScale
 
@@ -209,38 +198,31 @@ Time scale applicable for the entire file. Dividing <b>dwRate</b> by <b>dwScale<
 
 Any stream can define its own time scale to supersede the file time scale.
 
-
 ### -field dwRate
 
 Rate in an integer format. To obtain the rate in samples per second, divide this value by the value in <b>dwScale</b>.
-
 
 ### -field dwLength
 
 Length of the AVI file. The units are defined by <b>dwRate</b> and <b>dwScale</b>.
 
-
 ### -field dwEditCount
 
 Number of streams that have been added to or deleted from the AVI file.
-
 
 ### -field szFileType
 
 Null-terminated string containing descriptive information for the file type.
 
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
+<a href="/windows/desktop/Multimedia/avifile-structures">AVIFile Structures</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-structures">AVIFile Structures</a>
- 
-
- 
-
+> [!NOTE]
+> The vfw.h header defines AVIFILEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

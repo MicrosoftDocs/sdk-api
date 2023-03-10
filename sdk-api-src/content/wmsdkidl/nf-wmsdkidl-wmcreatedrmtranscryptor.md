@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.WMCreateDRMTranscryptor
 title: WMCreateDRMTranscryptor function (wmsdkidl.h)
 description: Creates a DRM transcryptor object.
+helpviewer_keywords: ["WMCreateDRMTranscryptor","WMCreateDRMTranscryptor function [windows Media Format]","wmformat.wmcreatedrmtranscryptor","wmsdkidl/WMCreateDRMTranscryptor"]
 old-location: wmformat\wmcreatedrmtranscryptor.htm
 tech.root: wmformat
 ms.assetid: b8d7607f-5fd0-4f4a-b626-d08324aaa805
 ms.date: 12/05/2018
 ms.keywords: WMCreateDRMTranscryptor, WMCreateDRMTranscryptor function [windows Media Format], wmformat.wmcreatedrmtranscryptor, wmsdkidl/WMCreateDRMTranscryptor
-f1_keywords:
-- wmsdkidl/WMCreateDRMTranscryptor
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wmvcore.dll
-api_name:
-- WMCreateDRMTranscryptor
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WMCreateDRMTranscryptor
+ - wmsdkidl/WMCreateDRMTranscryptor
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wmvcore.dll
+api_name:
+ - WMCreateDRMTranscryptor
 ---
 
 # WMCreateDRMTranscryptor function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Creates a DRM transcryptor object.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ppTranscryptor [out]
 
-Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
-
+Address of a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmtranscryptor">IWMDRMTranscryptor</a> interface of the newly created DRM transcryptor object.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -99,18 +90,7 @@ The function is unable to allocate memory for the new object.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

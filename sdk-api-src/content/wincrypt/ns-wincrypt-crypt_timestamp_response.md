@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CRYPT_TIMESTAMP_RESPONSE
 title: CRYPT_TIMESTAMP_RESPONSE (wincrypt.h)
 description: Is used internally to encapsulate an Abstract Syntax Notation One (ASN.1) Distinguished Encoding Rules (DER) encoded response.
+helpviewer_keywords: ["*PCRYPT_TIMESTAMP_RESPONSE","CRYPT_TIMESTAMP_RESPONSE","CRYPT_TIMESTAMP_RESPONSE structure [Security]","PCRYPT_TIMESTAMP_RESPONSE","PCRYPT_TIMESTAMP_RESPONSE structure pointer [Security]","TIMESTAMP_FAILURE_BAD_ALG","TIMESTAMP_FAILURE_BAD_FORMAT","TIMESTAMP_FAILURE_BAD_REQUEST","TIMESTAMP_FAILURE_EXTENSION_NOT_SUPPORTED","TIMESTAMP_FAILURE_INFO_NOT_AVAILABLE","TIMESTAMP_FAILURE_POLICY_NOT_SUPPORTED","TIMESTAMP_FAILURE_SYSTEM_FAILURE","TIMESTAMP_FAILURE_TIME_NOT_AVAILABLE","TIMESTAMP_STATUS_GRANTED","TIMESTAMP_STATUS_GRANTED_WITH_MODS","TIMESTAMP_STATUS_REJECTED","TIMESTAMP_STATUS_REVOCATION_WARNING","TIMESTAMP_STATUS_REVOKED","TIMESTAMP_STATUS_WAITING","security.crypt_timestamp_response","wincrypt/CRYPT_TIMESTAMP_RESPONSE","wincrypt/PCRYPT_TIMESTAMP_RESPONSE"]
 old-location: security\crypt_timestamp_response.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 81647cb7-e5da-4a8b-a50f-83bedd9c0aba
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE, CRYPT_TIMESTAMP_RESPONSE structure [Security], PCRYPT_TIMESTAMP_RESPONSE, PCRYPT_TIMESTAMP_RESPONSE structure pointer [Security], TIMESTAMP_FAILURE_BAD_ALG, TIMESTAMP_FAILURE_BAD_FORMAT, TIMESTAMP_FAILURE_BAD_REQUEST, TIMESTAMP_FAILURE_EXTENSION_NOT_SUPPORTED, TIMESTAMP_FAILURE_INFO_NOT_AVAILABLE, TIMESTAMP_FAILURE_POLICY_NOT_SUPPORTED, TIMESTAMP_FAILURE_SYSTEM_FAILURE, TIMESTAMP_FAILURE_TIME_NOT_AVAILABLE, TIMESTAMP_STATUS_GRANTED, TIMESTAMP_STATUS_GRANTED_WITH_MODS, TIMESTAMP_STATUS_REJECTED, TIMESTAMP_STATUS_REVOCATION_WARNING, TIMESTAMP_STATUS_REVOKED, TIMESTAMP_STATUS_WAITING, security.crypt_timestamp_response, wincrypt/CRYPT_TIMESTAMP_RESPONSE, wincrypt/PCRYPT_TIMESTAMP_RESPONSE'
-f1_keywords:
-- wincrypt/CRYPT_TIMESTAMP_RESPONSE
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CRYPT_TIMESTAMP_RESPONSE
 targetos: Windows
 req.typenames: CRYPT_TIMESTAMP_RESPONSE, *PCRYPT_TIMESTAMP_RESPONSE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CRYPT_TIMESTAMP_RESPONSE
+ - wincrypt/_CRYPT_TIMESTAMP_RESPONSE
+ - PCRYPT_TIMESTAMP_RESPONSE
+ - wincrypt/PCRYPT_TIMESTAMP_RESPONSE
+ - CRYPT_TIMESTAMP_RESPONSE
+ - wincrypt/CRYPT_TIMESTAMP_RESPONSE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CRYPT_TIMESTAMP_RESPONSE
 ---
 
 # CRYPT_TIMESTAMP_RESPONSE structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CRYPT_TIMESTAMP_RESPONSE</b> structure is used internally to encapsulate  an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded response.
-
+The <b>CRYPT_TIMESTAMP_RESPONSE</b> structure is used internally to encapsulate  an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) encoded response.
 
 ## -struct-fields
-
-
-
 
 ### -field dwStatus
 
@@ -142,22 +143,18 @@ The message in the <b>ContentInfo</b> member is a notification that a revocation
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cFreeText
 
 Optional. The length, in characters, of the string pointed to by the <b>rgFreeText</b> member.
 
-
 ### -field rgFreeText
 
 Optional. A pointer to a string that contains the text information about request failure.
 
-
 ### -field FailureInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the reason why the time stamp request was rejected. Each flag is encoded as a bit in the structure.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the reason why the time stamp request was rejected. Each flag is encoded as a bit in the structure.
 
 <table>
 <tr>
@@ -253,10 +250,7 @@ The request cannot be handled due to a system failure.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ContentInfo
 
-A <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DER_BLOB</a> structure that encapsulates a signed data content type in Cryptographic Message Syntax (CMS) format.
-
+A <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DER_BLOB</a> structure that encapsulates a signed data content type in Cryptographic Message Syntax (CMS) format.

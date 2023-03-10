@@ -2,15 +2,12 @@
 UID: NN:comsvcs.IServiceComTIIntrinsicsConfig
 title: IServiceComTIIntrinsicsConfig (comsvcs.h)
 description: Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.
+helpviewer_keywords: ["IServiceComTIIntrinsicsConfig","IServiceComTIIntrinsicsConfig interface [COM+]","IServiceComTIIntrinsicsConfig interface [COM+]","described","_cos_IServiceComTIIntrinsicsConfig","comsvcs/IServiceComTIIntrinsicsConfig","cos.iservicecomtiintrinsicsconfig"]
 old-location: cos\iservicecomtiintrinsicsconfig.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: dafa74f9-21fb-4495-911a-60183d36d83c
 ms.date: 12/05/2018
 ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+],described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig
-f1_keywords:
-- comsvcs/IServiceComTIIntrinsicsConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServiceComTIIntrinsicsConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServiceComTIIntrinsicsConfig
+ - comsvcs/IServiceComTIIntrinsicsConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServiceComTIIntrinsicsConfig
 ---
 
 # IServiceComTIIntrinsicsConfig interface
@@ -48,44 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> function. The COMTI eases the task of wrapping mainframe transactions and business logic as COM components.
-
+Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-coenterservicedomain">CoEnterServiceDomain</a> function. The COMTI eases the task of wrapping mainframe transactions and business logic as COM components.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceComTIIntrinsicsConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceComTIIntrinsicsConfig</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IServiceComTIIntrinsicsConfig</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig">ComTIIntrinsicsConfig</a>
-</td>
-<td align="left" width="63%">
-Configures the COMTI intrinsics for the enclosed work.
-
-</td>
-</tr>
-</table> 
-
+The <b>IServiceComTIIntrinsicsConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IServiceComTIIntrinsicsConfig</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/cossdk/cserviceconfig">CServiceConfig</a>

@@ -2,15 +2,12 @@
 UID: NF:certpol.ICertPolicy.VerifyRequest
 title: ICertPolicy::VerifyRequest (certpol.h)
 description: Notifies the policy module that a new request has entered the system.
+helpviewer_keywords: ["CCertPolicy object [Security]","VerifyRequest method","ICertPolicy interface [Security]","VerifyRequest method","ICertPolicy.VerifyRequest","ICertPolicy2 interface [Security]","VerifyRequest method","ICertPolicy2::VerifyRequest","ICertPolicy::VerifyRequest","VR_INSTANT_BAD","VR_INSTANT_OK","VR_PENDING","VerifyRequest","VerifyRequest method [Security]","VerifyRequest method [Security]","CCertPolicy object","VerifyRequest method [Security]","ICertPolicy interface","VerifyRequest method [Security]","ICertPolicy2 interface","_certsrv_icertpolicy_verifyrequest","certpol/ICertPolicy2::VerifyRequest","certpol/ICertPolicy::VerifyRequest","security.icertpolicy2_verifyrequest"]
 old-location: security\icertpolicy2_verifyrequest.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 860f0eb0-5b23-44bd-8416-687a94962f1b
 ms.date: 12/05/2018
 ms.keywords: CCertPolicy object [Security],VerifyRequest method, ICertPolicy interface [Security],VerifyRequest method, ICertPolicy.VerifyRequest, ICertPolicy2 interface [Security],VerifyRequest method, ICertPolicy2::VerifyRequest, ICertPolicy::VerifyRequest, VR_INSTANT_BAD, VR_INSTANT_OK, VR_PENDING, VerifyRequest, VerifyRequest method [Security], VerifyRequest method [Security],CCertPolicy object, VerifyRequest method [Security],ICertPolicy interface, VerifyRequest method [Security],ICertPolicy2 interface, _certsrv_icertpolicy_verifyrequest, certpol/ICertPolicy2::VerifyRequest, certpol/ICertPolicy::VerifyRequest, security.icertpolicy2_verifyrequest
-f1_keywords:
-- certpol/ICertPolicy2.VerifyRequest
-dev_langs:
-- c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certidl.lib
-- Certidl.dll
-api_name:
-- ICertPolicy2.VerifyRequest
-- ICertPolicy.VerifyRequest
-- CCertPolicy.VerifyRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertPolicy::VerifyRequest
+ - certpol/ICertPolicy::VerifyRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certidl.lib
+ - Certidl.dll
+api_name:
+ - ICertPolicy2.VerifyRequest
+ - ICertPolicy.VerifyRequest
+ - CCertPolicy.VerifyRequest
 ---
 
 # ICertPolicy::VerifyRequest
@@ -51,40 +53,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>VerifyRequest</b> method notifies the policy module that a new request has entered the system. The policy module can then interact with that request by passing <i>Context</i> as a parameter when retrieving or setting properties on the request or associated certificate.
 
 The returned disposition value indicates whether the request has been accepted, denied, or has been sent to the administration queue for later evaluation.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
-Represents the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
-
+Represents the name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ### -param Context [in]
 
-Identifies the request and associated certificate under construction. The certificate server passes the context to this method. 
-
+Identifies the request and associated certificate under construction. The certificate server passes the context to this method.
 
 ### -param bNewRequest [in]
 
 If set to <b>TRUE</b>, specifies that the request is new. If set to <b>FALSE</b>, the request is being resubmitted to the policy module as a result of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ICertAdmin::ResubmitRequest</a> call. A value of <b>FALSE</b> can be used to indicate that the administrator wants the request to be issued or that request properties set by the administrator should be examined.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ICertAdmin::ResubmitRequest</a> call. A value of <b>FALSE</b> can be used to indicate that the administrator wants the request to be issued or that request properties set by the administrator should be examined.
 
 Note that <b>TRUE</b> is defined (in a Microsoft header file) for C/C++ programmers as one, while  Visual Basic defines the <b>True</b> keyword as negative one. As a result, Visual Basic developers must use one (instead of <b>True</b>) to set this parameter to <b>TRUE</b>. However, to set this parameter to <b>FALSE</b>, Visual Basic developers can use zero or <b>False</b>.
-
 
 ### -param Flags [in]
 
 This parameter is reserved and must be set to zero.
-
 
 ### -param pDisposition [out, retval]
 
@@ -129,17 +122,13 @@ Add the request to the queue to accept or deny the request at a later  time.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value specifies the disposition, which must be one of the following values.
@@ -183,17 +172,11 @@ Add the request to the queue to accept or deny the request at a later  time.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>VerifyRequest</b> is free to spawn off other processes or access an external database to do the request verification. If the verification requires out-of-band processing or human intervention, <b>VerifyRequest</b> can notify another process or leave any notice of the incoming request required. After the out-of-band processing is complete, a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ResubmitRequest</a> can be made, or the provided administration tool can be used to resubmit the request to the Policy Module. The policy module can examine the request again, access any necessary external data, and return a value to indicate the certificate should be issued or denied.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ResubmitRequest</a> can be made, or the provided administration tool can be used to resubmit the request to the Policy Module. The policy module can examine the request again, access any necessary external data, and return a value to indicate the certificate should be issued or denied.
 
 When you write custom policy modules, you must implement <b>VerifyRequest</b> functionality in your modules.
 
@@ -296,25 +279,14 @@ error:
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>

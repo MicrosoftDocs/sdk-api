@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarUI1FromUI4
 title: VarUI1FromUI4 function (oleauto.h)
 description: Converts an unsigned long value to an unsigned char value.
+helpviewer_keywords: ["VarUI1FromUI4","VarUI1FromUI4 function [Automation]","_oa96_VarUI1FromUI4","automat.varui1fromui4","oleauto/VarUI1FromUI4"]
 old-location: automat\varui1fromui4.htm
 tech.root: automat
 ms.assetid: cae3a6c7-abf8-4ead-a36c-2a71624cb641
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromUI4, VarUI1FromUI4 function [Automation], _oa96_VarUI1FromUI4, automat.varui1fromui4, oleauto/VarUI1FromUI4
-f1_keywords:
-- oleauto/VarUI1FromUI4
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarUI1FromUI4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarUI1FromUI4
+ - oleauto/VarUI1FromUI4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarUI1FromUI4
 ---
 
 # VarUI1FromUI4 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned long value to an unsigned char value.
 
-
 ## -parameters
-
-
-
 
 ### -param ulIn [in]
 
 The value to convert.
 
-
 ### -param pbOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

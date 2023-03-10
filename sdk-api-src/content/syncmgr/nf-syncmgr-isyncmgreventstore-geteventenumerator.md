@@ -2,15 +2,12 @@
 UID: NF:syncmgr.ISyncMgrEventStore.GetEventEnumerator
 title: ISyncMgrEventStore::GetEventEnumerator (syncmgr.h)
 description: Gets an enumerator for a handler's events.
+helpviewer_keywords: ["GetEventEnumerator","GetEventEnumerator method [Windows Shell]","GetEventEnumerator method [Windows Shell]","ISyncMgrEventStore interface","ISyncMgrEventStore interface [Windows Shell]","GetEventEnumerator method","ISyncMgrEventStore.GetEventEnumerator","ISyncMgrEventStore::GetEventEnumerator","_shell_ISyncMgrEventStore_GetEventEnumerator","shell.ISyncMgrEventStore_GetEventEnumerator","syncmgr/ISyncMgrEventStore::GetEventEnumerator"]
 old-location: shell\ISyncMgrEventStore_GetEventEnumerator.htm
 tech.root: shell
 ms.assetid: 8b634811-cb6d-47b2-b534-1baea23a5297
 ms.date: 12/05/2018
 ms.keywords: GetEventEnumerator, GetEventEnumerator method [Windows Shell], GetEventEnumerator method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventEnumerator method, ISyncMgrEventStore.GetEventEnumerator, ISyncMgrEventStore::GetEventEnumerator, _shell_ISyncMgrEventStore_GetEventEnumerator, shell.ISyncMgrEventStore_GetEventEnumerator, syncmgr/ISyncMgrEventStore::GetEventEnumerator
-f1_keywords:
-- syncmgr/ISyncMgrEventStore.GetEventEnumerator
-dev_langs:
-- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Syncmgr.h
-api_name:
-- ISyncMgrEventStore.GetEventEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncMgrEventStore::GetEventEnumerator
+ - syncmgr/ISyncMgrEventStore::GetEventEnumerator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Syncmgr.h
+api_name:
+ - ISyncMgrEventStore.GetEventEnumerator
 ---
 
 # ISyncMgrEventStore::GetEventEnumerator
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an enumerator for a handler's events.
-
 
 ## -parameters
 
-
-
-
 ### -param ppenum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a>**</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a>**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a> instance that can be used to access the handler's events.
-
+When this method returns, contains the address of a pointer to an <a href="/windows/desktop/api/syncmgr/nn-syncmgr-ienumsyncmgrevents">IEnumSyncMgrEvents</a> instance that can be used to access the handler's events.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method is called by Sync Center when the user navigates to the Sync Results folder or clicks the <b>Errors</b> link for a handler.
 
@@ -98,7 +87,3 @@ STDMETHODIMP CMyDeviceEventStore::GetEventEnumerator(
 }
 
 ```
-
-
-
-

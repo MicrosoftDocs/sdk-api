@@ -1,16 +1,13 @@
 ---
 UID: NS:oledlg.tagOLEUIBUSYA
 title: OLEUIBUSYA (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed.
+description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed. (ANSI)
+helpviewer_keywords: ["*LPOLEUIBUSYA","*POLEUIBUSYA","BZ_DISABLECANCELBUTTON","BZ_DISABLERETRYBUTTON","BZ_DISABLESWITCHTOBUTTON","BZ_NOTRESPONDINGDIALOG","LPOLEUIBUSY","LPOLEUIBUSY structure pointer [COM]","OLEUIBUSY","OLEUIBUSY structure [COM]","OLEUIBUSYA","OLEUIBUSYW","POLEUIBUSY","POLEUIBUSY structure pointer [COM]","_ole_OLEUIBUSY_str","com.oleuibusy_struct","oledlg/LPOLEUIBUSY","oledlg/OLEUIBUSY","oledlg/OLEUIBUSYA","oledlg/OLEUIBUSYW","oledlg/POLEUIBUSY"]
 old-location: com\oleuibusy_struct.htm
 tech.root: com
 ms.assetid: 53c30da9-36f3-40f0-8176-15df1a34bdb8
 ms.date: 12/05/2018
 ms.keywords: '*LPOLEUIBUSYA, *POLEUIBUSYA, BZ_DISABLECANCELBUTTON, BZ_DISABLERETRYBUTTON, BZ_DISABLESWITCHTOBUTTON, BZ_NOTRESPONDINGDIALOG, LPOLEUIBUSY, LPOLEUIBUSY structure pointer [COM], OLEUIBUSY, OLEUIBUSY structure [COM], OLEUIBUSYA, OLEUIBUSYW, POLEUIBUSY, POLEUIBUSY structure pointer [COM], _ole_OLEUIBUSY_str, com.oleuibusy_struct, oledlg/LPOLEUIBUSY, oledlg/OLEUIBUSY, oledlg/OLEUIBUSYA, oledlg/OLEUIBUSYW, oledlg/POLEUIBUSY'
-f1_keywords:
-- oledlg/OLEUIBUSY
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OleDlg.h
-api_name:
-- OLEUIBUSY
-- OLEUIBUSYA
-- OLEUIBUSYW
 targetos: Windows
 req.typenames: OLEUIBUSYA, *POLEUIBUSYA, *LPOLEUIBUSYA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagOLEUIBUSYA
+ - oledlg/tagOLEUIBUSYA
+ - POLEUIBUSYA
+ - oledlg/POLEUIBUSYA
+ - OLEUIBUSYA
+ - oledlg/OLEUIBUSYA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OleDlg.h
+api_name:
+ - OLEUIBUSY
+ - OLEUIBUSYA
+ - OLEUIBUSYW
 ---
 
 # OLEUIBUSYA structure
@@ -50,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information that the OLE User Interface Library uses to initialize the <b>Busy</b> dialog box, and space for the library to return information when the dialog box is dismissed.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbStruct
 
 The size of the structure, in bytes. This field must be filled on input.
-
 
 ### -field dwFlags
 
@@ -114,62 +114,48 @@ Input only. This flag generates a <b>Not Responding</b> dialog box instead of a 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hWndOwner
 
 The window that owns the dialog box. This member should not be <b>NULL</b>.
 
-
 ### -field lpszCaption
 
 A pointer to a string to be used as the title of the dialog box. If <b>NULL</b>, then the library uses <b>Busy</b>.
 
-
 ### -field lpfnHook
 
-Pointer to a hook function that processes messages intended for the dialog box. The hook function must return zero to pass a message that it didn't process back to the dialog box procedure in the library. The hook function must return a nonzero value to prevent the library's dialog box procedure from processing a message it has already processed. 
-
+Pointer to a hook function that processes messages intended for the dialog box. The hook function must return zero to pass a message that it didn't process back to the dialog box procedure in the library. The hook function must return a nonzero value to prevent the library's dialog box procedure from processing a message it has already processed.
 
 ### -field lCustData
 
-Application-defined data that the library passes to the hook function pointed to by the <b>lpfnHook</b> member. The library passes a pointer to the <b>OLEUIBUSY</b> structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member. 
-
+Application-defined data that the library passes to the hook function pointed to by the <b>lpfnHook</b> member. The library passes a pointer to the <b>OLEUIBUSY</b> structure in the <i>lParam</i> parameter of the WM_INITDIALOG message; this pointer can be used to retrieve the <b>lCustData</b> member.
 
 ### -field hInstance
 
 Instance that contains a dialog box template specified by the <b>lpTemplateName</b> member.
 
-
 ### -field lpszTemplate
 
 Pointer to a null-terminated string that specifies the name of the resource file for the dialog box template that is to be substituted for the library's <b>Busy</b> dialog box template.
-
 
 ### -field hResource
 
 Customized template handle.
 
-
 ### -field hTask
 
 Input only. Handle to the task that is blocking.
-
 
 ### -field lphWndDialog
 
 Pointer to the dialog box's <b>HWND</b>.
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a>
- 
-
- 
-
+> [!NOTE]
+> The oledlg.h header defines OLEUIBUSY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

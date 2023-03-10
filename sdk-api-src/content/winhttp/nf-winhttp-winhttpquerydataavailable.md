@@ -2,15 +2,12 @@
 UID: NF:winhttp.WinHttpQueryDataAvailable
 title: WinHttpQueryDataAvailable function (winhttp.h)
 description: Returns the amount of data, in bytes, available to be read with WinHttpReadData.
+helpviewer_keywords: ["WinHttpQueryDataAvailable","WinHttpQueryDataAvailable function [WinHTTP]","http.winhttpquerydataavailable","winhttp.winhttpquerydataavailable_function","winhttp/WinHttpQueryDataAvailable"]
 old-location: http\winhttpquerydataavailable.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
-f1_keywords:
-- winhttp/WinHttpQueryDataAvailable
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,54 +25,47 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpQueryDataAvailable
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpQueryDataAvailable
+ - winhttp/WinHttpQueryDataAvailable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpQueryDataAvailable
 ---
-
-# WinHttpQueryDataAvailable function
-
 
 ## -description
 
-
 The <b>WinHttpQueryDataAvailable</b> function returns the amount of data, in bytes, available to be read with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>.
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>.
 
 ## -parameters
-
-
-
 
 ### -param hRequest [in]
 
 A valid 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>. <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> must have been called for this handle and have completed before <b>WinHttpQueryDataAvailable</b> is called.
-
+<a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>. <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> must have been called for this handle and have completed before <b>WinHttpQueryDataAvailable</b> is called.
 
 ### -param lpdwNumberOfBytesAvailable [out]
 
 A pointer to an unsigned long integer variable that receives the number of available bytes. When WinHTTP is used in asynchronous mode, always set this parameter to <b>NULL</b> and retrieve data in the callback function; not doing so can cause a memory fault.
 
-
 ## -returns
 
-
-
 Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get extended error data, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -160,54 +150,52 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function can operate either synchronously or asynchronously.  If it returns <b>FALSE</b>, it failed and you can call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. If it returns <b>TRUE</b>, use the WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE completion to determine whether this function was successful and the value of the parameters.  The WINHTTP_CALLBACK_STATUS_REQUEST_ERROR completion indicates that the operation completed asynchronously, but failed.
+Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function can operate either synchronously or asynchronously.  If it returns <b>FALSE</b>, it failed and you can call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information. If it returns <b>TRUE</b>, use the WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE completion to determine whether this function was successful and the value of the parameters.  The WINHTTP_CALLBACK_STATUS_REQUEST_ERROR completion indicates that the operation completed asynchronously, but failed.
 
 <div class="alert"><b>Warning</b>  When WinHTTP is used in asynchronous mode, always set the <i>lpdwNumberOfBytesAvailable</i> parameter to <b>NULL</b> and retrieve the bytes available in the callback function; otherwise, a memory fault can occur.</div>
 <div> </div>
 This function returns the number of bytes of data that are available to read immediately by a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>. If no data is available and the end of the file has not been reached, one of two things happens.  If the session is synchronous, the request waits until data becomes available. If the session is asynchronous, the function returns <b>TRUE</b>, and when data becomes available, calls the callback function with WINHTTP_STATUS_CALLBACK_DATA_AVAILABLE and indicates the number of bytes immediately available  to read by calling <b>WinHttpReadData</b>.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>. If no data is available and the end of the file has not been reached, one of two things happens.  If the session is synchronous, the request waits until data becomes available. If the session is asynchronous, the function returns <b>TRUE</b>, and when data becomes available, calls the callback function with WINHTTP_STATUS_CALLBACK_DATA_AVAILABLE and indicates the number of bytes immediately available  to read by calling <b>WinHttpReadData</b>.
 
 The amount of data that remains is not recalculated until all available data indicated by the call to 
 <b>WinHttpQueryDataAvailable</b> is read.
 
-Use the return value of <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a> to determine when a response has been completely read. 
+Use the return value of <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a> to determine when a response has been completely read. 
 
 <div class="alert"><b>Important</b>  Do not use the return value of <b>WinHttpQueryDataAvailable</b> to determine whether the end of a response has been reached, because not all servers terminate responses properly, and an improperly terminated response causes <b>WinHttpQueryDataAvailable</b> to anticipate more data.</div>
 <div> </div>
 For 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handles created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> function and sent by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>, a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> must be made on the handle before 
+<a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handles created by the 
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a> function and sent by 
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>, a call to 
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreceiveresponse">WinHttpReceiveResponse</a> must be made on the handle before 
 <b>WinHttpQueryDataAvailable</b> can be used.
 
 If a status callback function has been installed with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>, then those of the following notifications  that  have been set in the <i>dwNotificationFlags</i> parameter of <b>WinHttpSetStatusCallback</b> indicate progress in checking for available data:
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a>, then those of the following notifications  that  have been set in the <i>dwNotificationFlags</i> parameter of <b>WinHttpSetStatusCallback</b> indicate progress in checking for available data:
 
 <ul>
 <li>WINHTTP_CALLBACK_STATUS_RECEIVING_RESPONSE</li>
 <li>WINHTTP_CALLBACK_STATUS_RESPONSE_RECEIVED</li>
 <li>WINHTTP_CALLBACK_STATUS_DATA_AVAILABLE</li>
 </ul>
-<div class="alert"><b>Note</b>  For more information about Windows XP and Windows 2000, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>
+<div class="alert"><b>Note</b>  For more information about Windows XP and Windows 2000, see <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a>.</div>
 <div> </div>
 
-#### Examples
+## Examples
 
 The following example shows how to use secure transaction semantics to download a resource from an HTTPS server. The sample code initializes the WinHTTP API, selects a target HTTPS server, and then opens and sends a request for this secure resource.  
 <b>WinHttpQueryDataAvailable</b> is used with the request handle to determine how much data is available for download, then 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a> is used to read that data.  This process repeats until the entire document has been retrieved and displayed.
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a> is used to read that data.  This process repeats until the entire document has been retrieved and displayed.
 
+> [!IMPORTANT]
+> If you want some data as quickly as possible (that is, you're processing and parsing data as you receive it), then you should call **WinHttpQueryDataAvailable** and [WinHttpReadData](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddata). If you're trying to download the entire response as quickly as possible, then call **WinHttpReadData** directly, because **WinHttpReadData** tries to fill your buffer before completing.
+> 
+> Also, the code example below allocates on every loop iteration. For production code, where performance is important, you could instead start with an appropriately-sized buffer (perhaps 1 megabyte), and resize that if necessary. In practice, **WinHttpQueryDataAvailable** returns no more than 8 kilobytes.
 
 ```cpp
 
@@ -296,45 +284,34 @@ The following example shows how to use secure transaction semantics to download 
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpconnect">WinHttpConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpconnect">WinHttpConnect</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpreaddata">WinHttpReadData</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>

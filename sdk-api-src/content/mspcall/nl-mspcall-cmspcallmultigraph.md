@@ -2,15 +2,12 @@
 UID: NL:mspcall.CMSPCallMultiGraph
 title: CMSPCallMultiGraph (mspcall.h)
 description: Derived from CMSPCallBase, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than CMSPCallBase. Defined in MSPcall.h.
+helpviewer_keywords: ["CMSPCallMultiGraph","CMSPCallMultiGraph class [TAPI 2.2]","CMSPCallMultiGraph class [TAPI 2.2]","described","_tapi3_cmspcallmultigraph","mspcall/CMSPCallMultiGraph","tapi3.cmspcallmultigraph"]
 old-location: tapi3\cmspcallmultigraph.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 86512d40-380b-4e98-840d-b7be99a86623
 ms.date: 12/05/2018
 ms.keywords: CMSPCallMultiGraph, CMSPCallMultiGraph class [TAPI 2.2], CMSPCallMultiGraph class [TAPI 2.2],described, _tapi3_cmspcallmultigraph, mspcall/CMSPCallMultiGraph, tapi3.cmspcallmultigraph
-f1_keywords:
-- mspcall/CMSPCallMultiGraph
-dev_langs:
-- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mspcall.h
-api_name:
-- CMSPCallMultiGraph
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CMSPCallMultiGraph
+ - mspcall/CMSPCallMultiGraph
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mspcall.h
+api_name:
+ - CMSPCallMultiGraph
 ---
 
 # CMSPCallMultiGraph class
@@ -48,42 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Derived from 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than 
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than 
 <b>CMSPCallBase</b>. Defined in MSPcall.h.
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-type-definitions">CMSPCallMultiGraph Type Definitions</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-type-definitions">CMSPCallMultiGraph Type Definitions</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-members">CMSPCallMultiGraph Members</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-members">CMSPCallMultiGraph Members</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-mspi-methods-implemented">CMSPCallMultiGraph MSPI Methods Implemented</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-mspi-methods-implemented">CMSPCallMultiGraph MSPI Methods Implemented</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-public-methods-called-by-mspaddress-object">CMSPCallMultiGraph Public Methods, Called by MSPAddress Object</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-public-methods-called-by-mspaddress-object">CMSPCallMultiGraph Public Methods, Called by MSPAddress Object</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-public-methods-called-by-thread-pool">CMSPCallMultiGraph Public Methods, Called by Thread Pool</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-public-methods-called-by-thread-pool">CMSPCallMultiGraph Public Methods, Called by Thread Pool</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-overriden-ccomobject-methods">CMSPCallMultiGraph Overriden CComObject Methods</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-overriden-ccomobject-methods">CMSPCallMultiGraph Overridden CComObject Methods</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspcallmultigraph-protected-helper-methods">CMSPCallMultiGraph Protected Helper Methods</a>
+<a href="/windows/desktop/Tapi/cmspcallmultigraph-protected-helper-methods">CMSPCallMultiGraph Protected Helper Methods</a>
 </li>
-</ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPCallMultiGraph</b> has these types of members:
-
+</ul><b>CMSPCallMultiGraph</b> has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>

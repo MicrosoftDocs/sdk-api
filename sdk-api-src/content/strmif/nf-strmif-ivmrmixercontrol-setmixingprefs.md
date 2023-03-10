@@ -2,15 +2,12 @@
 UID: NF:strmif.IVMRMixerControl.SetMixingPrefs
 title: IVMRMixerControl::SetMixingPrefs (strmif.h)
 description: Sets the mixing preferences for the stream.
+helpviewer_keywords: ["IVMRMixerControl interface [DirectShow]","SetMixingPrefs method","IVMRMixerControl.SetMixingPrefs","IVMRMixerControl::SetMixingPrefs","IVMRMixerControlSetOutputRect","SetMixingPrefs","SetMixingPrefs method [DirectShow]","SetMixingPrefs method [DirectShow]","IVMRMixerControl interface","dshow.ivmrmixercontrol_setmixingprefs","strmif/IVMRMixerControl::SetMixingPrefs"]
 old-location: dshow\ivmrmixercontrol_setmixingprefs.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: b0bd2086-af22-4530-921d-b7c56471d142
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetMixingPrefs method, IVMRMixerControl.SetMixingPrefs, IVMRMixerControl::SetMixingPrefs, IVMRMixerControlSetOutputRect, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setmixingprefs, strmif/IVMRMixerControl::SetMixingPrefs
-f1_keywords:
-- strmif/IVMRMixerControl.SetMixingPrefs
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRMixerControl.SetMixingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRMixerControl::SetMixingPrefs
+ - strmif/IVMRMixerControl::SetMixingPrefs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRMixerControl.SetMixingPrefs
 ---
 
 # IVMRMixerControl::SetMixingPrefs
@@ -49,35 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the mixing preferences for the stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwMixerPrefs [in]
 
-Bitwise <b>OR</b> combination of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-vmrmixerprefs">VMRMixerPrefs</a> flags.
-
+Bitwise <b>OR</b> combination of <a href="/windows/desktop/api/strmif/ne-strmif-vmrmixerprefs">VMRMixerPrefs</a> flags.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
-
-
-
 ## -remarks
-
-
 
 The flags for the mixing preferences are divided into three groups: decimation, filtering, and render target. The VMRMixerPrefs enumeration defines bitmasks to isolate these flags:
 
@@ -88,7 +74,7 @@ The flags for the mixing preferences are divided into three groups: decimation, 
 </ul>
 You must specify a valid flag for each group. If you want to change a single flag, you can get the current preferences, remove the flag you don't want, and add the flag you want. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -113,24 +99,14 @@ pMixControl-&gt;SetMixingPrefs(dwPrefs);
 </table></span></div>
 If the VMR is in renderless mode, you must set the allocator-presenter before calling <code>SetMixingPrefs</code>. Otherwise, the VMR cannot determine the capabilities of the Direct3D device.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixercontrol">IVMRMixerControl Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

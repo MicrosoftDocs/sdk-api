@@ -2,15 +2,12 @@
 UID: NN:d2d1.ID2D1TransformedGeometry
 title: ID2D1TransformedGeometry (d2d1.h)
 description: Represents a geometry that has been transformed.
+helpviewer_keywords: ["ID2D1TransformedGeometry","ID2D1TransformedGeometry interface [Direct2D]","ID2D1TransformedGeometry interface [Direct2D]","described","d2d1/ID2D1TransformedGeometry","direct2d.ID2D1TransformedGeometry"]
 old-location: direct2d\ID2D1TransformedGeometry.htm
 tech.root: Direct2D
 ms.assetid: 5d48eab6-1229-4e54-bfab-602b471b23a4
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformedGeometry, ID2D1TransformedGeometry interface [Direct2D], ID2D1TransformedGeometry interface [Direct2D],described, d2d1/ID2D1TransformedGeometry, direct2d.ID2D1TransformedGeometry
-f1_keywords:
-- d2d1/ID2D1TransformedGeometry
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1TransformedGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1TransformedGeometry
+ - d2d1/ID2D1TransformedGeometry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1TransformedGeometry
 ---
 
 # ID2D1TransformedGeometry interface
@@ -48,61 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a geometry that has been transformed.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1TransformedGeometry</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1TransformedGeometry</b> also has these types of members:
+The <b>ID2D1TransformedGeometry</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>. <b>ID2D1TransformedGeometry</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>ID2D1TransformedGeometry</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1transformedgeometry-getsourcegeometry">GetSourceGeometry</a>
-</td>
-<td align="left" width="63%">
-Retrieves the source geometry of this transformed geometry object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1transformedgeometry-gettransform">GetTransform</a>
-</td>
-<td align="left" width="63%">
-Retrieves the matrix used to transform the <b>ID2D1TransformedGeometry</b> object's source geometry.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
-
-
 
 Using an <b>ID2D1TransformedGeometry</b> rather than transforming a geometry by using a render target's transform enables you to transform a geometry without transforming its stroke.
 
 <h3><a id="Creating_ID2D1TransformedGeometry_Objects"></a><a id="creating_id2d1transformedgeometry_objects"></a><a id="CREATING_ID2D1TRANSFORMEDGEOMETRY_OBJECTS"></a>Creating ID2D1TransformedGeometry Objects</h3>
-To create an <b>ID2D1TransformedGeometry</b>, call the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f_id2d1transformedgeometry)">ID2D1Factory::CreateTransformedGeometry</a> method.
+To create an <b>ID2D1TransformedGeometry</b>, call the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f_id2d1transformedgeometry)">ID2D1Factory::CreateTransformedGeometry</a> method.
 
-Direct2D geometries are immutable and device-independent resources created by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/resources-and-resource-domains">Resources Overview</a>.
+Direct2D geometries are immutable and device-independent resources created by <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>.  In general, you should create geometries once and retain them for the life of the application, or until they need to be modified. For more information about device-independent and device-dependent resources, see  the <a href="/windows/win32/Direct2D/resources-and-resource-domains">Resources Overview</a>.
 
 
-#### Examples
+## Examples
 
-The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
+The following example creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
 <img alt="Illustration of a rectangle" src="./images/transformedgeometry2_step1.png"/>
 
@@ -132,7 +101,7 @@ m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 ```
 
 
-The next example uses the <a href="https://docs.microsoft.com/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f_id2d1transformedgeometry)">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
+The next example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createtransformedgeometry(id2d1geometry_constd2d1_matrix_3x2_f_id2d1transformedgeometry)">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="./images/transformedgeometry2_step3.png"/>
 
@@ -161,17 +130,7 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
- 
-
- 
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
 

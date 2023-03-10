@@ -1,16 +1,13 @@
 ---
 UID: NF:vswriter.CreateWriter
 title: CreateWriter function (vswriter.h)
-description: This function is reserved for system use.
+description: This function is reserved for system use. (CreateWriter)
+helpviewer_keywords: ["CreateWriter","CreateWriter function","base.createwriter","vswriter/CreateWriter"]
 old-location: base\createwriter.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: d459f025-3c47-4c9b-9fed-2da31aa63102
 ms.date: 12/05/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter
-f1_keywords:
-- vswriter/CreateWriter
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- vswriter.h
-api_name:
-- CreateWriter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateWriter
+ - vswriter/CreateWriter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - vswriter.h
+api_name:
+ - CreateWriter
 ---
 
 # CreateWriter function
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 This function is reserved for system use.
 
-
 ## -parameters
-
-
-
 
 ### -param pWriter
 
 This parameter is reserved for system use.
 
-
 ### -param pWriterImpl
 
 This parameter is reserved for system use.
-
-
 

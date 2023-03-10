@@ -1,16 +1,13 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.CreateMediaKeys
 title: IMFMediaEngineClassFactoryEx::CreateMediaKeys (mfmediaengine.h)
-description: Creates a media keys object based on the specified key system.
+description: Creates a media keys object based on the specified key system. (IMFMediaEngineClassFactoryEx.CreateMediaKeys)
+helpviewer_keywords: ["CreateMediaKeys","CreateMediaKeys method [Media Foundation]","CreateMediaKeys method [Media Foundation]","IMFMediaEngineClassFactoryEx interface","IMFMediaEngineClassFactoryEx interface [Media Foundation]","CreateMediaKeys method","IMFMediaEngineClassFactoryEx.CreateMediaKeys","IMFMediaEngineClassFactoryEx::CreateMediaKeys","mf.imfmediaengineclassfactoryex_createmediakeys","mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys"]
 old-location: mf\imfmediaengineclassfactoryex_createmediakeys.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 40b2b978-f12c-4066-acf5-e0c68b0fa928
 ms.date: 12/05/2018
 ms.keywords: CreateMediaKeys, CreateMediaKeys method [Media Foundation], CreateMediaKeys method [Media Foundation],IMFMediaEngineClassFactoryEx interface, IMFMediaEngineClassFactoryEx interface [Media Foundation],CreateMediaKeys method, IMFMediaEngineClassFactoryEx.CreateMediaKeys, IMFMediaEngineClassFactoryEx::CreateMediaKeys, mf.imfmediaengineclassfactoryex_createmediakeys, mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys
-f1_keywords:
-- mfmediaengine/IMFMediaEngineClassFactoryEx.CreateMediaKeys
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineClassFactoryEx.CreateMediaKeys
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineClassFactoryEx::CreateMediaKeys
+ - mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineClassFactoryEx.CreateMediaKeys
 ---
 
 # IMFMediaEngineClassFactoryEx::CreateMediaKeys
@@ -48,56 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a media keys object based on the specified key system.
 
-
 ## -parameters
-
-
-
 
 ### -param keySystem
 
 The media keys system.
 
-
 ### -param cdmStorePath
 
 Points to a location to store Content Decryption Module (CDM) data which might be locked by multiple process and so might be incompatible with store app suspension.
-
 
 ### -param ppKeys
 
 The media keys.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
  Checks if <i>keySystem</i> is a supported key system and creates the related Content Decryption Module (CDM).
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactoryex">IMFMediaEngineClassFactoryEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactoryex">IMFMediaEngineClassFactoryEx</a>

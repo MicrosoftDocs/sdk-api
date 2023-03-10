@@ -2,15 +2,12 @@
 UID: NF:ndfapi.NdfCloseIncident
 title: NdfCloseIncident function (ndfapi.h)
 description: Used to close an Network Diagnostics Framework (NDF) incident following its resolution.
+helpviewer_keywords: ["NdfCloseIncident","NdfCloseIncident function [NDF]","ndf.ndfcloseincident","ndfapi/NdfCloseIncident"]
 old-location: ndf\ndfcloseincident.htm
 tech.root: NDF
 ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383
 ms.date: 12/05/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
-f1_keywords:
-- ndfapi/NdfCloseIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfCloseIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfCloseIncident
+ - ndfapi/NdfCloseIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfCloseIncident
 ---
 
 # NdfCloseIncident function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfCloseIncident</b> function is used to close an Network Diagnostics Framework (NDF) incident following its resolution.
 
-
 ## -parameters
-
-
-
 
 ### -param handle [in]
 
@@ -63,10 +60,7 @@ Type: <b>NDFHANDLE</b>
 
 Handle to the NDF incident that is being closed.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -89,26 +83,15 @@ The operation succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreateincident">NdfCreateIncident</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreateincident">NdfCreateIncident</a>
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewinsockincident">NdfCreateWinSockIncident</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewinsockincident">NdfCreateWinSockIncident</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>

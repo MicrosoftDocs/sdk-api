@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUICollection.Add
 title: IUICollection::Add (uiribbon.h)
 description: Adds an item to the end of the IUICollection.
+helpviewer_keywords: ["Add","Add method [Windows Ribbon]","Add method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","Add method","IUICollection.Add","IUICollection::Add","scenicintent_IUICollection_Add","uiribbon/IUICollection::Add","windowsribbon.windowsribbon_iuicollection_add"]
 old-location: windowsribbon\windowsribbon_iuicollection_add.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\add.htm
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Ribbon], Add method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],Add method, IUICollection.Add, IUICollection::Add, scenicintent_IUICollection_Add, uiribbon/IUICollection::Add, windowsribbon.windowsribbon_iuicollection_add
-f1_keywords:
-- uiribbon/IUICollection.Add
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUICollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUICollection::Add
+ - uiribbon/IUICollection::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUICollection.Add
 ---
 
 # IUICollection::Add
@@ -49,45 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds an item to the end of the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
-
+Adds an item to the end of the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
 
 ## -parameters
 
-
-
-
 ### -param item [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-Pointer to the item that is added to the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
-				
-
+Pointer to the item that is added to the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-gallerysample">Gallery Sample</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>

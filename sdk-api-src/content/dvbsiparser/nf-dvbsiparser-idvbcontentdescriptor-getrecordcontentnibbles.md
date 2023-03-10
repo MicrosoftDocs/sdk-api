@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetRecordContentNibbles
 title: IDvbContentDescriptor::GetRecordContentNibbles (dvbsiparser.h)
 description: Gets the two 4-bit fields that make up a DVB-defined identifier for a content descriptor.
+helpviewer_keywords: ["GetRecordContentNibbles","GetRecordContentNibbles method [Microsoft TV Technologies]","GetRecordContentNibbles method [Microsoft TV Technologies]","IDvbContentDescriptor interface","IDvbContentDescriptor interface [Microsoft TV Technologies]","GetRecordContentNibbles method","IDvbContentDescriptor.GetRecordContentNibbles","IDvbContentDescriptor::GetRecordContentNibbles","dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles","mstv.idvbcontentdescriptor_getrecordcontentnibbles"]
 old-location: mstv\idvbcontentdescriptor_getrecordcontentnibbles.htm
 tech.root: mstv
 ms.assetid: 2b05403a-cf9e-4f23-907f-ffb90b6fc5e3
 ms.date: 12/05/2018
 ms.keywords: GetRecordContentNibbles, GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetRecordContentNibbles method, IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
-f1_keywords:
-- dvbsiparser/IDvbContentDescriptor.GetRecordContentNibbles
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbContentDescriptor.GetRecordContentNibbles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbContentDescriptor::GetRecordContentNibbles
+ - dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbContentDescriptor.GetRecordContentNibbles
 ---
 
 # IDvbContentDescriptor::GetRecordContentNibbles
@@ -48,43 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the two 4-bit fields that make up a DVB-defined identifier for a content descriptor.
-
 
 ## -parameters
 
-
-
-
 ### -param bRecordIndex [in]
 
-Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentdescriptor-getcountofrecords">IDvbContentDescriptor::GetCountOfRecords</a>
-
-
+Zero-based index of the descriptor to return. To get the number of descriptors, call <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentdescriptor-getcountofrecords">IDvbContentDescriptor::GetCountOfRecords</a>
 
 ### -param pbValLevel1 [out]
 
 Gets the most-significant four bits of the content identifier.
 
-
 ### -param pbValLevel2 [out]
 
 Gets the least-significant four bits of the content identifier.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 For a list of content descriptors associated with the values returned in the <i>dwVal1</i> and <i>dwVal2</i> parameters, see Table 28 in Section 6.2.9 of the DVB standard document titled  
       <i>Digital Video Broadcasting (DVB);
@@ -92,16 +78,6 @@ Specification for Service Information (SI) in DVB systems (DVB Document A038 Rev
 
 and countries.)
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentdescriptor">IDvbContentDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbcontentdescriptor">IDvbContentDescriptor</a>

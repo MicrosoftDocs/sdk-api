@@ -2,15 +2,12 @@
 UID: NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream
 title: ISpatialAudioClient::ActivateSpatialAudioStream (spatialaudioclient.h)
 description: Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.
+helpviewer_keywords: ["ActivateSpatialAudioStream","ActivateSpatialAudioStream method [Core Audio]","ActivateSpatialAudioStream method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","ActivateSpatialAudioStream method","ISpatialAudioClient.ActivateSpatialAudioStream","ISpatialAudioClient::ActivateSpatialAudioStream","coreaudio.ispatialaudioclient_activatespatialaudiostream","spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream"]
 old-location: coreaudio\ispatialaudioclient_activatespatialaudiostream.htm
 tech.root: CoreAudio
 ms.assetid: CBBB5A62-D342-4FB7-890C-9FE37949CC07
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioStream, ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],ActivateSpatialAudioStream method, ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
-f1_keywords:
-- spatialaudioclient/ISpatialAudioClient.ActivateSpatialAudioStream
-dev_langs:
-- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- spatialaudioclient.h
-api_name:
-- ISpatialAudioClient.ActivateSpatialAudioStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISpatialAudioClient::ActivateSpatialAudioStream
+ - spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - spatialaudioclient.h
+api_name:
+ - ISpatialAudioClient.ActivateSpatialAudioStream
 ---
 
 # ISpatialAudioClient::ActivateSpatialAudioStream
@@ -48,52 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
-Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.  
-
-
+Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.
 
 ## -parameters
 
-
-
-
 ### -param activationParams [in]
 
-The structure defining the activation parameters for the spatial audio stream. The <b>vt</b> field should be set to VT_BLOB and the <b>blob</b> field should be  populated with a <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a> or a <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams">SpatialAudioObjectRenderStreamForMetadataActivationParams</a>.
-
+The structure defining the activation parameters for the spatial audio stream. The <b>vt</b> field should be set to VT_BLOB and the <b>blob</b> field should be  populated with a <a href="/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a> or a <a href="/windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams">SpatialAudioObjectRenderStreamForMetadataActivationParams</a>.
 
 ### -param riid [in]
 
 The UUID of the spatial audio stream interface to activate.
 
-
 ### -param stream [out]
 
 A pointer to the pointer which receives the activated spatial audio interface.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK.
 
-
-
-
 ## -remarks
-
-
 
 This method supports activation of the following spatial audio stream interfaces:
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata">ISpatialAudioObjectRenderStreamForMetadata</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectrenderstreamformetadata">ISpatialAudioObjectRenderStreamForMetadata</a>
 
 
 
@@ -131,25 +117,14 @@ hr = spatialAudioClient->ActivateSpatialAudioStream(&activationParams, __uuidof(
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
+<a href="/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams">SpatialAudioObjectRenderStreamActivationParams</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams">SpatialAudioObjectRenderStreamForMetadataActivationParams</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spatialaudiometadata/ns-spatialaudiometadata-spatialaudioobjectrenderstreamformetadataactivationparams">SpatialAudioObjectRenderStreamForMetadataActivationParams</a>

@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetLength
 title: IDvbServiceListDescriptor::GetLength (dvbsiparser.h)
 description: Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbServiceListDescriptor.GetLength","IDvbServiceListDescriptor::GetLength","dvbsiparser/IDvbServiceListDescriptor::GetLength","mstv.idvbservicelistdescriptor_getlength"]
 old-location: mstv\idvbservicelistdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 06c161ce-b830-4375-8ed6-19403857f433
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbServiceListDescriptor.GetLength, IDvbServiceListDescriptor::GetLength, dvbsiparser/IDvbServiceListDescriptor::GetLength, mstv.idvbservicelistdescriptor_getlength
-f1_keywords:
-- dvbsiparser/IDvbServiceListDescriptor.GetLength
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbServiceListDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbServiceListDescriptor::GetLength
+ - dvbsiparser/IDvbServiceListDescriptor::GetLength
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbServiceListDescriptor.GetLength
 ---
 
 # IDvbServiceListDescriptor::GetLength
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor. 
-
+Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor.
 
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Receives the descriptor length.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbservicelistdescriptor">IDvbServiceListDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbservicelistdescriptor">IDvbServiceListDescriptor</a>

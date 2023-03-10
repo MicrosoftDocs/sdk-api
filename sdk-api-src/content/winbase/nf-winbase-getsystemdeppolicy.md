@@ -2,15 +2,12 @@
 UID: NF:winbase.GetSystemDEPPolicy
 title: GetSystemDEPPolicy function (winbase.h)
 description: Gets the data execution prevention (DEP) policy setting for the system.
+helpviewer_keywords: ["GetSystemDEPPolicy","GetSystemDEPPolicy function","base.getsystemdeppolicy","winbase/GetSystemDEPPolicy"]
 old-location: base\getsystemdeppolicy.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 82cb1d4e-c0e5-4601-aa55-9171a106c286
 ms.date: 12/05/2018
 ms.keywords: GetSystemDEPPolicy, GetSystemDEPPolicy function, base.getsystemdeppolicy, winbase/GetSystemDEPPolicy
-f1_keywords:
-- winbase/GetSystemDEPPolicy
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- kernel32.dll
-api_name:
-- GetSystemDEPPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetSystemDEPPolicy
+ - winbase/GetSystemDEPPolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+api_name:
+ - GetSystemDEPPolicy
 ---
 
 # GetSystemDEPPolicy function
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the data execution prevention (DEP) policy setting for the system.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This function returns a value of type <b>DEP_SYSTEM_POLICY_TYPE</b>, which can be one of the following values.
 
@@ -119,41 +112,25 @@ DEP is automatically enabled for operating system components and all processes. 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The system-wide DEP policy is configured at boot time according to the policy setting in the boot configuration data.  To change the system-wide DEP policy setting, use the <a href="/windows-hardware/drivers/devtest/bcdedit--set">BCDEdit /set</a> command to set the <b>nx</b> boot entry option.
 
-
-The system-wide DEP policy is configured at boot time according to the policy setting in the boot configuration data.  To change the system-wide DEP policy setting, use the <a href="https://go.microsoft.com/fwlink/p/?linkid=93291">BCDEdit /set</a> command to set the <b>nx</b> boot entry option.
-
-If the system DEP policy is OptIn or OptOut, DEP can be selectively enabled or disabled for the current process by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessdeppolicy">SetProcessDEPPolicy</a> function. This function works only for 32-bit processes.
+If the system DEP policy is OptIn or OptOut, DEP can be selectively enabled or disabled for the current process by calling the <a href="/windows/desktop/api/winbase/nf-winbase-setprocessdeppolicy">SetProcessDEPPolicy</a> function. This function works only for 32-bit processes.
 
 A user with administrative privileges can disable DEP for selected applications by using the <b>System</b> Control Panel application. If the system DEP policy is OptOut, DEP is disabled for these applications.
 
-The Application Compatibility Toolkit can be used to create a list of individual applications that are exempt from DEP. If the system DEP policy is OptOut, DEP is automatically disabled for applications on the list. 
-
-
-
+The Application Compatibility Toolkit can be used to create a list of individual applications that are exempt from DEP. If the system DEP policy is OptOut, DEP is automatically disabled for applications on the list.
 
 ## -see-also
 
+<a href="/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">Data Execution Prevention</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessdeppolicy">GetProcessDEPPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessdeppolicy">GetProcessDEPPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getsystemdeppolicy">GetSystemDEPPolicy</a>

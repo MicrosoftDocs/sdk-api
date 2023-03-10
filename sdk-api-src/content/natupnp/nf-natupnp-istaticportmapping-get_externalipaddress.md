@@ -2,15 +2,12 @@
 UID: NF:natupnp.IStaticPortMapping.get_ExternalIPAddress
 title: IStaticPortMapping::get_ExternalIPAddress (natupnp.h)
 description: The get_ExternalIPAddress method retrieves the external IP address for this port mapping on the NAT computer.
+helpviewer_keywords: ["IStaticPortMapping interface [ICS/ICF]","get_ExternalIPAddress method","IStaticPortMapping.get_ExternalIPAddress","IStaticPortMapping::get_ExternalIPAddress","_ics_istaticportmapping_get_externalipaddress","get_ExternalIPAddress","get_ExternalIPAddress method [ICS/ICF]","get_ExternalIPAddress method [ICS/ICF]","IStaticPortMapping interface","ics.istaticportmapping_get_externalipaddress","natupnp/IStaticPortMapping::get_ExternalIPAddress"]
 old-location: ics\istaticportmapping_get_externalipaddress.htm
 tech.root: ics
 ms.assetid: 4641f827-5408-4a4b-8454-41e960926621
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalIPAddress method, IStaticPortMapping.get_ExternalIPAddress, IStaticPortMapping::get_ExternalIPAddress, _ics_istaticportmapping_get_externalipaddress, get_ExternalIPAddress, get_ExternalIPAddress method [ICS/ICF], get_ExternalIPAddress method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalipaddress, natupnp/IStaticPortMapping::get_ExternalIPAddress
-f1_keywords:
-- natupnp/IStaticPortMapping.get_ExternalIPAddress
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMapping.get_ExternalIPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMapping::get_ExternalIPAddress
+ - natupnp/IStaticPortMapping::get_ExternalIPAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMapping.get_ExternalIPAddress
 ---
 
 # IStaticPortMapping::get_ExternalIPAddress
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_ExternalIPAddress</b> method retrieves the external IP address for this port mapping on the NAT computer.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that receives the external IP address for this port mapping on the NAT computer.
-
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that receives the external IP address for this port mapping on the NAT computer.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -166,26 +160,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmapping">IStaticPortMapping</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

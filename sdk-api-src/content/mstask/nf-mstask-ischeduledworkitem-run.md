@@ -2,15 +2,12 @@
 UID: NF:mstask.IScheduledWorkItem.Run
 title: IScheduledWorkItem::Run (mstask.h)
 description: Sends a request to the Task Scheduler service to run the work item.
+helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","Run method","IScheduledWorkItem.Run","IScheduledWorkItem::Run","Run","Run method [Task Scheduler]","Run method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_run","mstask/IScheduledWorkItem::Run","taskschd.ischeduledworkitem_run"]
 old-location: taskschd\ischeduledworkitem_run.htm
 tech.root: taskschd
 ms.assetid: f533fcf6-8ece-442f-b6d5-3702321db9e9
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],Run method, IScheduledWorkItem.Run, IScheduledWorkItem::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_run, mstask/IScheduledWorkItem::Run, taskschd.ischeduledworkitem_run
-f1_keywords:
-- mstask/IScheduledWorkItem.Run
-dev_langs:
-- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mstask.dll
-api_name:
-- IScheduledWorkItem.Run
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IScheduledWorkItem::Run
+ - mstask/IScheduledWorkItem::Run
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mstask.dll
+api_name:
+ - IScheduledWorkItem.Run
 ---
 
 # IScheduledWorkItem::Run
@@ -48,22 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
-
-Sends a request to the Task Scheduler service to run the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
-
-
-## -parameters
-
-
-
+Sends a request to the Task Scheduler service to run the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 
 
 ## -returns
-
-
 
 The 
 <b>Run</b> method returns one of the following values.
@@ -107,45 +100,30 @@ Not enough memory is available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>Run</b> is an asynchronous operation. A return code of S_OK means that the request to run the work item has been made; it does not mean that the work item has started running. There may be a delay of a few seconds after 
 <b>Run</b> returns before the work item actually starts running.
 
 To determine whether the work item is running, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>.
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>.
 
 
 #### Examples
 
-For an example of how to start a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/starting-a-task-example">Starting a Task Example</a>.
+For an example of how to start a task, see <a href="/windows/desktop/TaskSchd/starting-a-task-example">Starting a Task Example</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getstatus">IScheduledWorkItem::GetStatus</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>

@@ -2,15 +2,12 @@
 UID: NF:wdspxe.PxeTrace
 title: PxeTrace function (wdspxe.h)
 description: Adds a trace entry to the PXE log.
+helpviewer_keywords: ["PXE_TRACE_ERROR","PXE_TRACE_FATAL","PXE_TRACE_INFO","PXE_TRACE_VERBOSE","PXE_TRACE_WARNING","PxeTrace","PxeTrace function [Windows Deployment Services]","wds.pxetrace","wdspxe/PxeTrace"]
 old-location: wds\pxetrace.htm
 tech.root: wds
 ms.assetid: 220f15bf-f33a-4706-a52d-f11c40f49ac0
 ms.date: 12/05/2018
 ms.keywords: PXE_TRACE_ERROR, PXE_TRACE_FATAL, PXE_TRACE_INFO, PXE_TRACE_VERBOSE, PXE_TRACE_WARNING, PxeTrace, PxeTrace function [Windows Deployment Services], wds.pxetrace, wdspxe/PxeTrace
-f1_keywords:
-- wdspxe/PxeTrace
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeTrace
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeTrace
+ - wdspxe/PxeTrace
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeTrace
 ---
 
 # PxeTrace function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds a trace entry to the PXE log.
 
-
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 <b>HANDLE</b> passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
-
+      <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
 
 ### -param Severity [in]
 
@@ -128,40 +124,25 @@ The trace message indicates a fatal error condition.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pszFormat [in]
 
 Address of a buffer that contains a printf-style format string.
 
-
-### -param arg4
+### -param ...
 
 Optional arguments. The number and type of argument parameters depend on the format control string pointed 
       to by the <i>pszFormat</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
 

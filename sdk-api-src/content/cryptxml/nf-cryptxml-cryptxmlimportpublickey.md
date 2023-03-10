@@ -2,15 +2,12 @@
 UID: NF:cryptxml.CryptXmlImportPublicKey
 title: CryptXmlImportPublicKey function (cryptxml.h)
 description: Imports the public key specified by the supplied handle.
+helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CryptXmlImportPublicKey","CryptXmlImportPublicKey function [Security]","cryptxml/CryptXmlImportPublicKey","security.cryptxmlimportpublickey"]
 old-location: security\cryptxmlimportpublickey.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 599e8bbd-a41f-4781-850d-6590d22d9c3c
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlImportPublicKey, CryptXmlImportPublicKey function [Security], cryptxml/CryptXmlImportPublicKey, security.cryptxmlimportpublickey
-f1_keywords:
-- cryptxml/CryptXmlImportPublicKey
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptxml.dll
-api_name:
-- CryptXmlImportPublicKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlImportPublicKey
+ - cryptxml/CryptXmlImportPublicKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptxml.dll
+api_name:
+ - CryptXmlImportPublicKey
 ---
 
 # CryptXmlImportPublicKey function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The CryptXmlImportPublicKey function imports the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> specified by the supplied handle.
-
+The CryptXmlImportPublicKey function imports the <a href="/windows/desktop/SecGloss/p-gly">public key</a> specified by the supplied handle.
 
 ## -parameters
-
-
-
 
 ### -param dwFlags
 
@@ -80,26 +77,17 @@ digest  are used.  When this flag is set, no other registered extensions are loa
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pKeyValue [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure to receive the imported key.
-
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_value">CRYPT_XML_KEY_VALUE</a> structure to receive the imported key.
 
 ### -param phKey [out]
 
 A pointer to the handle of the key to import.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-
-
-

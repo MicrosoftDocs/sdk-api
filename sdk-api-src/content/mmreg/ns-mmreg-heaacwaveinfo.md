@@ -2,15 +2,12 @@
 UID: NS:mmreg.heaacwaveinfo_tag
 title: HEAACWAVEINFO (mmreg.h)
 description: Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.
+helpviewer_keywords: ["*LPHEAACWAVEINFO","*NPHEAACWAVEINFO","*PHEAACWAVEINFO","HEAACWAVEINFO","HEAACWAVEINFO structure [DirectShow]","PHEAACWAVEINFO","PHEAACWAVEINFO structure pointer [DirectShow]","dshow.heaacwaveinfo","heaacwaveinfo_tag","mmreg/HEAACWAVEINFO","mmreg/PHEAACWAVEINFO"]
 old-location: dshow\heaacwaveinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: a9b888fb-b4a5-44c3-a715-687cc751063d
 ms.date: 12/05/2018
 ms.keywords: '*LPHEAACWAVEINFO, *NPHEAACWAVEINFO, *PHEAACWAVEINFO, HEAACWAVEINFO, HEAACWAVEINFO structure [DirectShow], PHEAACWAVEINFO, PHEAACWAVEINFO structure pointer [DirectShow], dshow.heaacwaveinfo, heaacwaveinfo_tag, mmreg/HEAACWAVEINFO, mmreg/PHEAACWAVEINFO'
-f1_keywords:
-- mmreg/HEAACWAVEINFO
-dev_langs:
-- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmreg.h
-api_name:
-- HEAACWAVEINFO
 targetos: Windows
 req.typenames: HEAACWAVEINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - heaacwaveinfo_tag
+ - mmreg/heaacwaveinfo_tag
+ - HEAACWAVEINFO
+ - mmreg/HEAACWAVEINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmreg.h
+api_name:
+ - HEAACWAVEINFO
 ---
 
 # HEAACWAVEINFO structure
@@ -48,22 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wfx
 
 A <b>WAVEFORMATEX</b> structure that describes the core AAC stream,
  without SBR or PS extensions. See Remarks.
-
-
-
 
 ### -field wPayloadType
 
@@ -123,13 +119,10 @@ The stream contains an MPEG-4 audio transport stream with a synchronization laye
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wAudioProfileLevelIndication
 
 Contains the value of the <b>audioProfileLevelIndication</b> field, as defined by ISO/IEC 14496-3 (MPEG-4 Audio). If the value is unknown, set this member to zero or 0xFE ("no audio profile specified").
-
 
 ### -field wStructType
 
@@ -149,7 +142,7 @@ Defines the data that follows this structure. Currently the following value is d
 <td width="60%">
 The data that follows the <b>HEAACWAVEINFO</b> structure contains the value of AudioSpecificConfig(), as defined by ISO/IEC 14496-3. 
 
-The size of the data is <code>wfx.cbSize - sizeof(HEAACWAVEINFO) + sizeof(WAVEFORMATEX)</code>. If the size is greater than zero, you can access the data by casting the <b>HEAACWAVEINFO</b> structure to a <a href="https://docs.microsoft.com/windows/desktop/api/mmreg/ns-mmreg-heaacwaveformat">HEAACWAVEFORMAT</a> structure.
+The size of the data is <code>wfx.cbSize - sizeof(HEAACWAVEINFO) + sizeof(WAVEFORMATEX)</code>. If the size is greater than zero, you can access the data by casting the <b>HEAACWAVEINFO</b> structure to a <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveformat">HEAACWAVEFORMAT</a> structure.
 
 </td>
 </tr>
@@ -158,20 +151,15 @@ The size of the data is <code>wfx.cbSize - sizeof(HEAACWAVEINFO) + sizeof(WAVEFO
 
 All other values for this member are reserved.
 
-
 ### -field wReserved1
 
 Reserved. Set to zero.
-
 
 ### -field dwReserved2
 
 Reserved. Set to zero.
 
-
 ## -remarks
-
-
 
 This format structure is used to describe MPEG-2 AAC and MPEG-4 HE-AAC streams, including HE-AAC version 1 and HE-AAC version 2.
 
@@ -217,9 +205,3 @@ The <b>WAVEFORMATEX</b> structure defined in the <b>wfx</b> member contains the 
 <td>Specifies the size, in bytes, of the format data after the <b>WAVEFORMATEX</b> structure.</td>
 </tr>
 </table>
- 
-
-
-
-
-

@@ -2,15 +2,12 @@
 UID: NE:fwpmtypes.FWPM_FIELD_TYPE_
 title: FWPM_FIELD_TYPE (fwpmtypes.h)
 description: Provides additional information about how the field's data should be interpreted.
+helpviewer_keywords: ["FWPM_FIELD_FLAGS","FWPM_FIELD_IP_ADDRESS","FWPM_FIELD_RAW_DATA","FWPM_FIELD_TYPE","FWPM_FIELD_TYPE enumeration [Filtering]","FWPM_FIELD_TYPE_MAX","fwp.fwpm_field_type_enum","fwpmtypes/FWPM_FIELD_FLAGS","fwpmtypes/FWPM_FIELD_IP_ADDRESS","fwpmtypes/FWPM_FIELD_RAW_DATA","fwpmtypes/FWPM_FIELD_TYPE","fwpmtypes/FWPM_FIELD_TYPE_MAX"]
 old-location: fwp\fwpm_field_type_enum.htm
 tech.root: fwp
 ms.assetid: 46983847-7c68-4ee7-946e-ea62f34d1a38
 ms.date: 12/05/2018
 ms.keywords: FWPM_FIELD_FLAGS, FWPM_FIELD_IP_ADDRESS, FWPM_FIELD_RAW_DATA, FWPM_FIELD_TYPE, FWPM_FIELD_TYPE enumeration [Filtering], FWPM_FIELD_TYPE_MAX, fwp.fwpm_field_type_enum, fwpmtypes/FWPM_FIELD_FLAGS, fwpmtypes/FWPM_FIELD_IP_ADDRESS, fwpmtypes/FWPM_FIELD_RAW_DATA, fwpmtypes/FWPM_FIELD_TYPE, fwpmtypes/FWPM_FIELD_TYPE_MAX
-f1_keywords:
-- fwpmtypes/FWPM_FIELD_TYPE
-dev_langs:
-- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Fwpmtypes.h
-api_name:
-- FWPM_FIELD_TYPE
 targetos: Windows
 req.typenames: FWPM_FIELD_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FWPM_FIELD_TYPE_
+ - fwpmtypes/FWPM_FIELD_TYPE_
+ - FWPM_FIELD_TYPE
+ - fwpmtypes/FWPM_FIELD_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Fwpmtypes.h
+api_name:
+ - FWPM_FIELD_TYPE
 ---
 
 # FWPM_FIELD_TYPE enumeration
@@ -48,25 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FWPM_FIELD_TYPE</b> enumerated type provides additional information about how the field's data should be
 interpreted.
 
-
 ## -enum-fields
 
-
-
-
-### -field FWPM_FIELD_RAW_DATA
+### -field FWPM_FIELD_RAW_DATA:0
 
 Value contains raw data.
-
 
 ### -field FWPM_FIELD_IP_ADDRESS
 
 Value contains an IP address.
-
 
 ### -field FWPM_FIELD_FLAGS
 

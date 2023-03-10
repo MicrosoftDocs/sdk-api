@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhSelectDataSourceA
 title: PdhSelectDataSourceA function (pdh.h)
-description: Displays a dialog window that prompts the user to specify the source of the performance data.
+description: Displays a dialog window that prompts the user to specify the source of the performance data. (ANSI)
+helpviewer_keywords: ["0", "PDH_FLAGS_FILE_BROWSER_ONLY", "PdhSelectDataSourceA", "pdh/PdhSelectDataSourceA"]
 old-location: perf\pdhselectdatasource.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 211d4504-e1f9-48a0-8ddd-613f2f183c59
 ms.date: 12/05/2018
 ms.keywords: 0, PDH_FLAGS_FILE_BROWSER_ONLY, PdhSelectDataSource, PdhSelectDataSource function [Perf], PdhSelectDataSourceA, PdhSelectDataSourceW, _win32_pdhselectdatasource, base.pdhselectdatasource, pdh/PdhSelectDataSource, pdh/PdhSelectDataSourceA, pdh/PdhSelectDataSourceW, perf.pdhselectdatasource
-f1_keywords:
-- pdh/PdhSelectDataSource
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhSelectDataSource
-- PdhSelectDataSourceA
-- PdhSelectDataSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhSelectDataSourceA
+ - pdh/PdhSelectDataSourceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhSelectDataSource
+ - PdhSelectDataSourceA
+ - PdhSelectDataSourceW
 ---
 
 # PdhSelectDataSourceA function
@@ -50,20 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a dialog window that prompts the user to specify the source of the performance data.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hWndOwner [in]
 
 Owner of the dialog window. This can be <b>NULL</b> if there is no owner (the desktop becomes the owner).
-
 
 ### -param dwFlags [in]
 
@@ -97,8 +92,6 @@ Display the data source selection dialog box. The dialog box lets the user selec
 </td>
 </tr>
 </table>
- 
-
 
 ### -param szDataSource [out]
 
@@ -106,22 +99,18 @@ Caller-allocated buffer that receives a <b>null</b>-terminated string that conta
 
 If the user selected a real time source, the buffer is empty.
 
-
 ### -param pcchBufferLength [in, out]
 
 Maximum size of the <i>szDataSource</i> buffer, in <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -151,18 +140,12 @@ A zero-length buffer was passed in the <i>szDataSource</i> parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhisrealtimequery">PdhIsRealTimeQuery</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhisrealtimequery">PdhIsRealTimeQuery</a>
- 
-
- 
-
+> [!NOTE]
+> The pdh.h header defines PdhSelectDataSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

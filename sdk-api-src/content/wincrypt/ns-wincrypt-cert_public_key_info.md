@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_PUBLIC_KEY_INFO
 title: CERT_PUBLIC_KEY_INFO (wincrypt.h)
 description: Contains a public key and its algorithm.
+helpviewer_keywords: ["*PCERT_PUBLIC_KEY_INFO","CERT_PUBLIC_KEY_INFO","CERT_PUBLIC_KEY_INFO structure [Security]","PCERT_PUBLIC_KEY_INFO","PCERT_PUBLIC_KEY_INFO structure pointer [Security]","_crypto2_cert_public_key_info","security.cert_public_key_info","wincrypt/CERT_PUBLIC_KEY_INFO","wincrypt/PCERT_PUBLIC_KEY_INFO"]
 old-location: security\cert_public_key_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bab6c147-b7cd-408a-acac-90f05921e065
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_PUBLIC_KEY_INFO, CERT_PUBLIC_KEY_INFO, CERT_PUBLIC_KEY_INFO structure [Security], PCERT_PUBLIC_KEY_INFO, PCERT_PUBLIC_KEY_INFO structure pointer [Security], _crypto2_cert_public_key_info, security.cert_public_key_info, wincrypt/CERT_PUBLIC_KEY_INFO, wincrypt/PCERT_PUBLIC_KEY_INFO'
-f1_keywords:
-- wincrypt/CERT_PUBLIC_KEY_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_PUBLIC_KEY_INFO
 targetos: Windows
 req.typenames: CERT_PUBLIC_KEY_INFO, *PCERT_PUBLIC_KEY_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_PUBLIC_KEY_INFO
+ - wincrypt/_CERT_PUBLIC_KEY_INFO
+ - PCERT_PUBLIC_KEY_INFO
+ - wincrypt/PCERT_PUBLIC_KEY_INFO
+ - CERT_PUBLIC_KEY_INFO
+ - wincrypt/CERT_PUBLIC_KEY_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_PUBLIC_KEY_INFO
 ---
 
 # CERT_PUBLIC_KEY_INFO structure
@@ -48,57 +54,42 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_PUBLIC_KEY_INFO</b> structure contains a public key and its algorithm.
-
 
 ## -struct-fields
 
-
-
-
 ### -field Algorithm
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the public key algorithm type and associated additional parameters.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the public key algorithm type and associated additional parameters.
 
 ### -field PublicKey
 
 BLOB containing an encoded public key.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcomparepublickeyinfo">CertComparePublicKeyInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcomparepublickeyinfo">CertComparePublicKeyInfo</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex">CryptImportPublicKeyInfoEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex">CryptImportPublicKeyInfoEx</a>

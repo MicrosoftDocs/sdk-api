@@ -2,6 +2,7 @@
 UID: NN:tuner.IESEvents
 title: IESEvents (tuner.h)
 description: Implements event handling for devices that have registered to receive specific events derived from the IESEvent interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
+helpviewer_keywords: ["IESEvents","IESEvents interface [Microsoft TV Technologies]","IESEvents interface [Microsoft TV Technologies]","described","mstv.iesevents","tuner/IESEvents"]
 old-location: mstv\iesevents.htm
 tech.root: mstv
 ms.assetid: 1921f632-bb3b-4833-aa25-9caa3d65363f
@@ -49,15 +50,15 @@ ms.custom: 19H1
 ## -description
 
 
-Implements event handling for devices that have registered to receive specific events derived from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
+Implements event handling for devices that have registered to receive specific events derived from the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a> interface. In a Protected Broadcast Driver Architecture graph, Media Sink Devices implement this interface to register for events.
       
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IESEvents</b> also has these types of members:
+The <b>IESEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IESEvents</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -68,12 +69,12 @@ The <b>IESEvents</b> interface has these methods.
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevents-oneseventreceived">OnESEventReceived</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesevents-oneseventreceived">OnESEventReceived</a>
 </td>
 <td align="left" width="63%">
-Defines a handler for events derived from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>.
+Defines a handler for events derived from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>.
           
 
 </td>
@@ -86,6 +87,3 @@ Defines a handler for events derived from <a href="https://docs.microsoft.com/pr
 
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESEvents)</code>.
-
-
-

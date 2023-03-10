@@ -2,15 +2,12 @@
 UID: NF:certview.ICertView.OpenView
 title: ICertView::OpenView (certview.h)
 description: Opens a view to a Certificate Services database and instantiates an instance of an IEnumCERTVIEWROW object.
+helpviewer_keywords: ["CCertView object [Security]","OpenView method","ICertView interface [Security]","OpenView method","ICertView.OpenView","ICertView2 interface [Security]","OpenView method","ICertView2::OpenView","ICertView::OpenView","OpenView","OpenView method [Security]","OpenView method [Security]","CCertView object","OpenView method [Security]","ICertView interface","OpenView method [Security]","ICertView2 interface","certview/ICertView2::OpenView","certview/ICertView::OpenView","security.icertview2_openview"]
 old-location: security\icertview2_openview.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d68a5463-f711-4737-b0ad-889f7e4855d5
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],OpenView method, ICertView interface [Security],OpenView method, ICertView.OpenView, ICertView2 interface [Security],OpenView method, ICertView2::OpenView, ICertView::OpenView, OpenView, OpenView method [Security], OpenView method [Security],CCertView object, OpenView method [Security],ICertView interface, OpenView method [Security],ICertView2 interface, certview/ICertView2::OpenView, certview/ICertView::OpenView, security.icertview2_openview
-f1_keywords:
-- certview/ICertView2.OpenView
-dev_langs:
-- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertView2.OpenView
-- ICertView.OpenView
-- CCertView.OpenView
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertView::OpenView
+ - certview/ICertView::OpenView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertView2.OpenView
+ - ICertView.OpenView
+ - CCertView.OpenView
 ---
 
 # ICertView::OpenView
@@ -50,50 +52,37 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>OpenView</b> method opens a view to a Certificate Services database and instantiates an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> object.
-
+The <b>OpenView</b> method opens a view to a Certificate Services database and instantiates an instance of an <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> object.
 
 ## -parameters
 
-
-
-
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> type.
-
+A pointer to a pointer of <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> type.
 
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is an <a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> object.
-
-
-
+ The return value is an <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> object.
 
 ## -remarks
 
-
-
 Before calling the <b>OpenView</b> method, it is necessary to establish a connection with a Certificate Services server by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> method first.
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> method first.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> object returned by this call represents a row-enumeration sequence whose internal index is pointing to the beginning of the sequence. To look at the first row in the sequence, call the  
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-next">IEnumCERTVIEWROW::Next</a> method, which moves the internal index to the first row.
+<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a> object returned by this call represents a row-enumeration sequence whose internal index is pointing to the beginning of the sequence. To look at the first row in the sequence, call the  
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-next">IEnumCERTVIEWROW::Next</a> method, which moves the internal index to the first row.
 
 To view a nondefault column set or a subset of the rows, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setresultcolumn">SetResultColumn</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setrestriction">SetRestriction</a> after calling <a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> and before calling <b>OpenView</b>.
+<a href="/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">SetResultColumnCount</a>, 
+<a href="/windows/desktop/api/certview/nf-certview-icertview-setresultcolumn">SetResultColumn</a>, and 
+<a href="/windows/desktop/api/certview/nf-certview-icertview-setrestriction">SetRestriction</a> after calling <a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">OpenConnection</a> and before calling <b>OpenView</b>.
 
 
 #### Examples
@@ -115,33 +104,22 @@ if (NULL != pEnumRow)
     pEnumRow->Release();
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
+<a href="/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView::OpenConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-openconnection">ICertView::OpenConnection</a>
+<a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-ienumcertviewrow-next">IEnumCERTVIEWROW::Next</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-next">IEnumCERTVIEWROW::Next</a>

@@ -2,15 +2,12 @@
 UID: NS:sysinfoapi._SYSTEM_INFO
 title: SYSTEM_INFO (sysinfoapi.h)
 description: Contains information about the current computer system. This includes the architecture and type of the processor, the number of processors in the system, the page size, and other such information.
+helpviewer_keywords: ["*LPSYSTEM_INFO","PROCESSOR_AMD_X8664","PROCESSOR_ARCHITECTURE_AMD64","PROCESSOR_ARCHITECTURE_ARM","PROCESSOR_ARCHITECTURE_ARM64","PROCESSOR_ARCHITECTURE_IA64","PROCESSOR_ARCHITECTURE_INTEL","PROCESSOR_ARCHITECTURE_UNKNOWN","PROCESSOR_ARM","PROCESSOR_INTEL_386","PROCESSOR_INTEL_486","PROCESSOR_INTEL_IA64","PROCESSOR_INTEL_PENTIUM","SYSTEM_INFO","SYSTEM_INFO structure","_SYSTEM_INFO","_win32_system_info_str","base.system_info_str","sysinfoapi/_SYSTEM_INFO"]
 old-location: base\system_info_str.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 971293b8-0af0-4bdf-a7d7-6b1bb80a469c
 ms.date: 12/05/2018
 ms.keywords: '*LPSYSTEM_INFO, PROCESSOR_AMD_X8664, PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_ARM, PROCESSOR_ARCHITECTURE_ARM64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, PROCESSOR_ARCHITECTURE_UNKNOWN, PROCESSOR_ARM, PROCESSOR_INTEL_386, PROCESSOR_INTEL_486, PROCESSOR_INTEL_IA64, PROCESSOR_INTEL_PENTIUM, SYSTEM_INFO, SYSTEM_INFO structure, _SYSTEM_INFO, _win32_system_info_str, base.system_info_str, sysinfoapi/_SYSTEM_INFO'
-f1_keywords:
-- sysinfoapi/SYSTEM_INFO
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- sysinfoapi.h
-api_name:
-- SYSTEM_INFO
 targetos: Windows
 req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SYSTEM_INFO
+ - sysinfoapi/_SYSTEM_INFO
+ - LPSYSTEM_INFO
+ - sysinfoapi/LPSYSTEM_INFO
+ - SYSTEM_INFO
+ - sysinfoapi/SYSTEM_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - sysinfoapi.h
+api_name:
+ - SYSTEM_INFO
 ---
 
 # SYSTEM_INFO structure
@@ -48,29 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about the current computer system. This includes the architecture and type of the processor, the number of processors in the system, the page size, and other such information.
-
 
 ## -struct-fields
 
-
-
-
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.dwOemId
 
 An obsolete member that is retained for compatibility. Applications should use the <b>wProcessorArchitecture</b> branch of the union.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.wProcessorArchitecture
 
@@ -148,40 +142,33 @@ Unknown architecture.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.wReserved
 
 This member is reserved for future use.
 
-
 ### -field dwPageSize
 
 The page size and the granularity of page protection and commitment. This is the page size used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function.
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function.
 
 ### -field lpMinimumApplicationAddress
 
 A pointer to the lowest memory address accessible to applications and dynamic-link libraries (DLLs).
 
-
 ### -field lpMaximumApplicationAddress
 
 A pointer to the highest memory address accessible to applications and DLLs.
-
 
 ### -field dwActiveProcessorMask
 
  A mask representing the set of processors configured into the system. Bit 0 is processor 0; bit 31 is processor 31.
 
-
 ### -field dwNumberOfProcessors
 
-The number of logical processors in the current group. To retrieve this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
+The number of logical processors in the current group. To retrieve the current processor group, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a> function.
 
-<div class="alert"><b>Note</b>  For information about the  physical processors shared by logical processors, call <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> with the <i>RelationshipType</i> parameter set to RelationProcessorPackage (3).</div>
+<div class="alert"><b>Note</b>  For information about the  physical processors shared by logical processors, call <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a> with the <i>RelationshipType</i> parameter set to RelationProcessorPackage (3).</div>
 <div> </div>
 
 ### -field dwProcessorType
@@ -214,21 +201,18 @@ An obsolete member that is retained for compatibility. Use the <b>wProcessorArch
 
 #### PROCESSOR_ARM (Reserved)
 
-
 ### -field dwAllocationGranularity
 
-The granularity for the starting address at which virtual memory can be allocated. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>.
-
+The granularity for the starting address at which virtual memory can be allocated. For more information, see <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>.
 
 ### -field wProcessorLevel
 
 The architecture-dependent processor level. It should be used only for display purposes. To determine the feature set of a processor, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a> function.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-isprocessorfeaturepresent">IsProcessorFeaturePresent</a> function.
 
 If <b>wProcessorArchitecture</b> is PROCESSOR_ARCHITECTURE_INTEL, <b>wProcessorLevel</b> is defined by the CPU vendor.
 
 If <b>wProcessorArchitecture</b> is PROCESSOR_ARCHITECTURE_IA64, <b>wProcessorLevel</b> is set to 1.
-
 
 ### -field wProcessorRevision
 
@@ -266,28 +250,19 @@ If <i>xx</i> is not equal to 0xFF, <i>xx</i> + 'A' is the stepping letter and <i
 <td>Reserved.</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>

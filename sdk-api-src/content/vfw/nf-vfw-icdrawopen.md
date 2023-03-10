@@ -2,15 +2,12 @@
 UID: NF:vfw.ICDrawOpen
 title: ICDrawOpen macro (vfw.h)
 description: The ICDrawOpen macro opens a driver that can draw images with the specified format.
+helpviewer_keywords: ["ICDrawOpen","ICDrawOpen macro [Windows Multimedia]","_win32_ICDrawOpen","multimedia.icdrawopen","vfw/ICDrawOpen"]
 old-location: multimedia\icdrawopen.htm
 tech.root: Multimedia
 ms.assetid: b625a5f7-8212-4339-a1a6-37736def40a0
 ms.date: 12/05/2018
 ms.keywords: ICDrawOpen, ICDrawOpen macro [Windows Multimedia], _win32_ICDrawOpen, multimedia.icdrawopen, vfw/ICDrawOpen
-f1_keywords:
-- vfw/ICDrawOpen
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDrawOpen
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDrawOpen
+ - vfw/ICDrawOpen
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDrawOpen
 ---
 
 # ICDrawOpen macro
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>ICDrawOpen</b> macro opens a driver that can draw images with the specified format.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param fccType
 
-Four-character code indicating the type of driver to open. For video streams, the value of this parameter is "VIDC" or ICTYPE_VIDEO. 
-
+Four-character code indicating the type of driver to open. For video streams, the value of this parameter is "VIDC" or ICTYPE_VIDEO.
 
 ### -param fccHandler
 
-Four-character code indicating the preferred stream handler to use. Typically, this information is stored in the stream header in an AVI file. 
-
+Four-character code indicating the preferred stream handler to use. Typically, this information is stored in the stream header in an AVI file.
 
 ### -param lpbiIn
 
-Pointer to the structure defining the input format. A driver handle will not be returned unless it can decompress this format. For images, this parameter refers to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure. 
-
+Pointer to the structure defining the input format. A driver handle will not be returned unless it can decompress this format. For images, this parameter refers to a <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure.
 
 ## -remarks
-
-
 
 The <b>ICDrawOpen</b> macro is defined as follows:
 
@@ -89,21 +78,10 @@ The <b>ICDrawOpen</b> macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

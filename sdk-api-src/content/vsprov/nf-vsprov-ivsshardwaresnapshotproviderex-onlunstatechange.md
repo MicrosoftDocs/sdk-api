@@ -2,15 +2,12 @@
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.OnLunStateChange
 title: IVssHardwareSnapshotProviderEx::OnLunStateChange (vsprov.h)
 description: The VSS service calls this method to notify hardware providers of a LUN state change.
+helpviewer_keywords: ["IVssHardwareSnapshotProviderEx interface","OnLunStateChange method","IVssHardwareSnapshotProviderEx.OnLunStateChange","IVssHardwareSnapshotProviderEx::OnLunStateChange","OnLunStateChange","OnLunStateChange method","OnLunStateChange method","IVssHardwareSnapshotProviderEx interface","VSS_ONLUNSTATECHANGE_DO_MASK_LUNS","VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY","VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY","VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE","base.ivsshardwaresnapshotproviderex_onlunstatechange","vsprov/IVssHardwareSnapshotProviderEx::OnLunStateChange"]
 old-location: base\ivsshardwaresnapshotproviderex_onlunstatechange.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 7546eca0-db52-4c4b-9b5a-a3cfdf2a98af
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,OnLunStateChange method, IVssHardwareSnapshotProviderEx.OnLunStateChange, IVssHardwareSnapshotProviderEx::OnLunStateChange, OnLunStateChange, OnLunStateChange method, OnLunStateChange method,IVssHardwareSnapshotProviderEx interface, VSS_ONLUNSTATECHANGE_DO_MASK_LUNS, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_POST_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_LUN_PRE_RECOVERY, VSS_ONLUNSTATECHANGE_NOTIFY_READ_WRITE, base.ivsshardwaresnapshotproviderex_onlunstatechange, vsprov/IVssHardwareSnapshotProviderEx::OnLunStateChange
-f1_keywords:
-- vsprov/IVssHardwareSnapshotProviderEx.OnLunStateChange
-dev_langs:
-- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsProv.h
-api_name:
-- IVssHardwareSnapshotProviderEx.OnLunStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssHardwareSnapshotProviderEx::OnLunStateChange
+ - vsprov/IVssHardwareSnapshotProviderEx::OnLunStateChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsProv.h
+api_name:
+ - IVssHardwareSnapshotProviderEx.OnLunStateChange
 ---
 
 # IVssHardwareSnapshotProviderEx::OnLunStateChange
@@ -48,33 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The VSS service calls this method to notify hardware providers of a LUN state change.
 <div class="alert"><b>Note</b>  Hardware providers are only supported on Windows Server operating systems.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param pSnapshotLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
-
+A pointer to an array of <i>dwCount</i> <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the shadow copy volume.
 
 ### -param pOriginalLuns [in]
 
-A pointer to an array of <i>dwCount</i> <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the original volume.
-
+A pointer to an array of <i>dwCount</i> <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a> structures,  one for each LUN that contributes to the original volume.
 
 ### -param dwCount [in]
 
 Number of elements in the <i>pSnapshotLuns</i> array. This is also the number of elements in the <i>pOriginalLuns</i> array.
 
-
 ### -param dwFlags [in]
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that provide information about the state change that the shadow copy LUNs have undergone. The following table describes how each flag is used in this parameter.
+A bitmask of <a href="/windows/desktop/api/vss/ne-vss-vss_hardware_options">_VSS_HARDWARE_OPTIONS</a> flags that provide information about the state change that the shadow copy LUNs have undergone. The following table describes how each flag is used in this parameter.
 
 <table>
 <tr>
@@ -126,12 +121,8 @@ The shadow copy LUNs must be masked from the current machine but not deleted.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -190,18 +181,7 @@ An unexpected provider error occurred. If this is returned, the error must be de
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotproviderex">IVssHardwareSnapshotProviderEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotproviderex">IVssHardwareSnapshotProviderEx</a>

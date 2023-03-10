@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxBundleManifestReader2.GetOptionalBundles
 title: IAppxBundleManifestReader2::GetOptionalBundles (appxpackaging.h)
 description: Retrieves an object that represents the &lt;OptionalBundles&gt; element under the root &lt;Bundle&gt; element.
+helpviewer_keywords: ["GetOptionalBundles","GetOptionalBundles method [App packaging and management]","GetOptionalBundles method [App packaging and management]","IAppxBundleManifestReader2 interface","IAppxBundleManifestReader2 interface [App packaging and management]","GetOptionalBundles method","IAppxBundleManifestReader2.GetOptionalBundles","IAppxBundleManifestReader2::GetOptionalBundles","appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles","appxpkg.iappxbundlemanifestreader2_getoptionalbundles"]
 old-location: appxpkg\iappxbundlemanifestreader2_getoptionalbundles.htm
 tech.root: appxpkg
 ms.assetid: 26246BB1-7FE7-462F-9731-D8AD32373184
 ms.date: 12/05/2018
 ms.keywords: GetOptionalBundles, GetOptionalBundles method [App packaging and management], GetOptionalBundles method [App packaging and management],IAppxBundleManifestReader2 interface, IAppxBundleManifestReader2 interface [App packaging and management],GetOptionalBundles method, IAppxBundleManifestReader2.GetOptionalBundles, IAppxBundleManifestReader2::GetOptionalBundles, appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles, appxpkg.iappxbundlemanifestreader2_getoptionalbundles
-f1_keywords:
-- appxpackaging/IAppxBundleManifestReader2.GetOptionalBundles
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBundleManifestReader2.GetOptionalBundles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBundleManifestReader2::GetOptionalBundles
+ - appxpackaging/IAppxBundleManifestReader2::GetOptionalBundles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBundleManifestReader2.GetOptionalBundles
 ---
 
 # IAppxBundleManifestReader2::GetOptionalBundles
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves an object that represents the &lt;OptionalBundles&gt; element under the root &lt;Bundle&gt; element. 
-
+Retrieves an object that represents the &lt;OptionalBundles&gt; element under the root &lt;Bundle&gt; element.
 
 ## -parameters
-
-
-
 
 ### -param optionalBundles [out, retval]
 
 The optional bundle.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader2">IAppxBundleManifestReader2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader2">IAppxBundleManifestReader2</a>

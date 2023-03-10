@@ -1,16 +1,13 @@
 ---
 UID: NF:propsys.IPropertySystem.RegisterPropertySchema
 title: IPropertySystem::RegisterPropertySchema (propsys.h)
-description: Informs the schema subsystem of the addition of a property description schema file.
+description: Informs the schema subsystem of the addition of a property description schema file. (IPropertySystem.RegisterPropertySchema)
+helpviewer_keywords: ["IPropertySystem interface [Windows Properties]","RegisterPropertySchema method","IPropertySystem.RegisterPropertySchema","IPropertySystem::RegisterPropertySchema","RegisterPropertySchema","RegisterPropertySchema method [Windows Properties]","RegisterPropertySchema method [Windows Properties]","IPropertySystem interface","properties.IPropertySystem_RegisterPropertySchema","propsys/IPropertySystem::RegisterPropertySchema","shell.IPropertySystem_RegisterPropertySchema","shell_IPropertySystem_RegisterPropertySchema"]
 old-location: properties\IPropertySystem_RegisterPropertySchema.htm
 tech.root: properties
 ms.assetid: 752cc873-3fa8-4e05-97e7-41e90f059e4f
 ms.date: 12/05/2018
 ms.keywords: IPropertySystem interface [Windows Properties],RegisterPropertySchema method, IPropertySystem.RegisterPropertySchema, IPropertySystem::RegisterPropertySchema, RegisterPropertySchema, RegisterPropertySchema method [Windows Properties], RegisterPropertySchema method [Windows Properties],IPropertySystem interface, properties.IPropertySystem_RegisterPropertySchema, propsys/IPropertySystem::RegisterPropertySchema, shell.IPropertySystem_RegisterPropertySchema, shell_IPropertySystem_RegisterPropertySchema
-f1_keywords:
-- propsys/IPropertySystem.RegisterPropertySchema
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.dll
-api_name:
-- IPropertySystem.RegisterPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IPropertySystem::RegisterPropertySchema
+ - propsys/IPropertySystem::RegisterPropertySchema
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.dll
+api_name:
+ - IPropertySystem.RegisterPropertySchema
 ---
 
 # IPropertySystem::RegisterPropertySchema
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Informs the schema subsystem of the addition of a property description schema file.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
@@ -63,10 +60,7 @@ Type: <b>LPCWSTR</b>
 
 Pointer to the file path for the .propdesc file on the local machine.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -111,29 +105,13 @@ Indicates one or more of the property descriptions in the schema was not registe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method informs the schema subsystem of the addition of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local computer. Call this method only when the file has first been installed on the computer. Typically, a setup application calls this method after installing the .propdesc file, which should be stored in the install directory of the application under "Program Files". Multiple calls may be made to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-registerpropertyschema">IPropertySystem::RegisterPropertySchema</a> in order to batch-register multiple schema files.
+This method informs the schema subsystem of the addition of a property description schema (.propdesc) file, using a file path to the .propdesc file on the local computer. Call this method only when the file has first been installed on the computer. Typically, a setup application calls this method after installing the .propdesc file, which should be stored in the install directory of the application under "Program Files". Multiple calls may be made to <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-registerpropertyschema">IPropertySystem::RegisterPropertySchema</a> in order to batch-register multiple schema files.
 
 If a failure is encountered that prevents a property description from getting loaded, the cause will be recorded in the application event log. This method fails with E_ACCESSDENIED if the calling context does not have proper privileges, which include write access to HKLM (HKEY_LOCAL_MACHINE). It is the responsibility of the calling application to obtain privileges via limited user account (LUA) mechanisms.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>

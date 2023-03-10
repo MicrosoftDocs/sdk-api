@@ -2,15 +2,12 @@
 UID: NF:msopc.IOpcUri.CombinePartUri
 title: IOpcUri::CombinePartUri (msopc.h)
 description: Forms the part name of the part that is referenced by the specified relative URI.
+helpviewer_keywords: ["CombinePartUri","CombinePartUri method [Open Packaging Conventions]","CombinePartUri method [Open Packaging Conventions]","IOpcUri interface","IOpcUri interface [Open Packaging Conventions]","CombinePartUri method","IOpcUri.CombinePartUri","IOpcUri::CombinePartUri","msopc/IOpcUri::CombinePartUri","opc.iopcuri_combineparturi"]
 old-location: opc\iopcuri_combineparturi.htm
 tech.root: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588
 ms.date: 12/05/2018
 ms.keywords: CombinePartUri, CombinePartUri method [Open Packaging Conventions], CombinePartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],CombinePartUri method, IOpcUri.CombinePartUri, IOpcUri::CombinePartUri, msopc/IOpcUri::CombinePartUri, opc.iopcuri_combineparturi
-f1_keywords:
-- msopc/IOpcUri.CombinePartUri
-dev_langs:
-- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msopc.h
-api_name:
-- IOpcUri.CombinePartUri
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpcUri::CombinePartUri
+ - msopc/IOpcUri::CombinePartUri
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msopc.h
+api_name:
+ - IOpcUri.CombinePartUri
 ---
 
 # IOpcUri::CombinePartUri
@@ -48,37 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Forms the part name of the part that is referenced by the specified relative URI.
         The specified relative URI of the part is resolved against the URI represented as the current OPC URI object.
-      
-
 
 ## -parameters
 
-
-
-
 ### -param relativeUri [in]
 
-A pointer to the  <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a> interface of the relative URI of the part.
+A pointer to the  <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a> interface of the relative URI of the part.
 
 To form the part URI object that represents the part name, this input URI is resolved against the URI represented as the current OPC URI object. Therefore, the input URI must be relative to the URI represented by the current OPC URI object.
 
-This URI may include a fragment component; however, the fragment will be ignored and will not be included in the part name to be formed. A fragment component is preceded by a '#', as described in <a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
-
+This URI may include a fragment component; however, the fragment will be ignored and will not be included in the part name to be formed. A fragment component is preceded by a '#', as described in <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986: URI Generic Syntax</a>.
 
 ### -param combinedUri [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of the part URI object that represents the part name.
+A pointer to the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface of the part URI object that represents the part name.
             
 
 The part URI object is formed by resolving the relative URI in <i>relativeUri</i> against the URI represented by the current OPC URI object.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
             
@@ -106,7 +98,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function returned an invalid size.
+The <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function returned an invalid size.
               
 
 </td>
@@ -130,7 +122,7 @@ At least one of the <i>relativeUri</i>, and <i>combinedUri</i> parameters is <b>
 </dl>
 </td>
 <td width="60%">
-The size of the buffer required by the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function changed unexpectedly.
+The size of the buffer required by the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function changed unexpectedly.
               
 
 </td>
@@ -156,7 +148,7 @@ The part name does not conform to the rules specified in the <i>OPC</i> standard
 </dl>
 </td>
 <td width="60%">
-A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in <a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>.
+A part name cannot be an absolute URI. An absolute URI begins with a schema component followed by a ":", as described in <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986: URI Generic Syntax</a>.
 
 </td>
 </tr>
@@ -168,7 +160,7 @@ A part name cannot be an absolute URI. An absolute URI begins with a schema comp
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function.
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775085(v=vs.85)">CoInternetCombineUrl</a> function.
               
 
 </td>
@@ -181,7 +173,7 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)">CreateUri</a> function.
+An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775098(v=vs.85)">CreateUri</a> function.
               
 
 </td>
@@ -194,30 +186,24 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from a  <a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-reference">WinINet</a> API.
+An <b>HRESULT</b> error code from a  <a href="/windows/desktop/WinInet/wininet-reference">WinINet</a> API.
               
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Example input and output:
 
 
 <table>
 <tr>
-<th>Input relative <a href="https://go.microsoft.com/fwlink/p/?linkid=116163">IUri</a></th>
-<th>Current <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
+<th>Input relative <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a></th>
+<th>Current <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
 </th>
-<th>Formed <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
+<th>Formed <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 </th>
 </tr>
 <tr>
@@ -240,27 +226,21 @@ Example input and output:
 
 
 
-For information about how to use this method to help resolve a part name, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>.
+For information about how to use this method to help resolve a part name, see <a href="/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>.
 
 <h3><a id="Support_on__Previous_Windows_Versions"></a><a id="support_on__previous_windows_versions"></a><a id="SUPPORT_ON__PREVIOUS_WINDOWS_VERSIONS"></a>Support on  Previous Windows Versions</h3>
-The behavior and performance of this method is the same on all supported Windows versions. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>, and <a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>.
+The behavior and performance of this method is the same on all supported Windows versions. For more information, see <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>, and <a href="/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
-
-
-
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?linkid=123375">ECMA-376 OpenXML</a>
+<a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a>
 
 
 
@@ -268,11 +248,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
 
 
 
@@ -280,23 +260,23 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>
+<a href="/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=143950">RFC 3986: URI Generic Syntax</a>
+<a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986: URI Generic Syntax</a>
 
 
 
@@ -304,8 +284,4 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>

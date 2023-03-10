@@ -2,15 +2,12 @@
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SetSignatureOriginPartName
 title: IXpsSignatureManager::SetSignatureOriginPartName (xpsdigitalsignature.h)
 description: Sets the part name of the signature origin part.
+helpviewer_keywords: ["IXpsSignatureManager interface [XPS Documents and Packaging]","SetSignatureOriginPartName method","IXpsSignatureManager.SetSignatureOriginPartName","IXpsSignatureManager::SetSignatureOriginPartName","SetSignatureOriginPartName","SetSignatureOriginPartName method [XPS Documents and Packaging]","SetSignatureOriginPartName method [XPS Documents and Packaging]","IXpsSignatureManager interface","xps.ixpssignaturemanager_setsignatureoriginpartname","xpsdigitalsignature/IXpsSignatureManager::SetSignatureOriginPartName"]
 old-location: xps\ixpssignaturemanager_setsignatureoriginpartname.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 686f31e1-3c61-449d-91f7-67f72d88a4b7
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SetSignatureOriginPartName method, IXpsSignatureManager.SetSignatureOriginPartName, IXpsSignatureManager::SetSignatureOriginPartName, SetSignatureOriginPartName, SetSignatureOriginPartName method [XPS Documents and Packaging], SetSignatureOriginPartName method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_setsignatureoriginpartname, xpsdigitalsignature/IXpsSignatureManager::SetSignatureOriginPartName
-f1_keywords:
-- xpsdigitalsignature/IXpsSignatureManager.SetSignatureOriginPartName
-dev_langs:
-- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsdigitalsignature.h
-api_name:
-- IXpsSignatureManager.SetSignatureOriginPartName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsSignatureManager::SetSignatureOriginPartName
+ - xpsdigitalsignature/IXpsSignatureManager::SetSignatureOriginPartName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsdigitalsignature.h
+api_name:
+ - IXpsSignatureManager.SetSignatureOriginPartName
 ---
 
 # IXpsSignatureManager::SetSignatureOriginPartName
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the part name of the signature origin part.
-
 
 ## -parameters
 
-
-
-
 ### -param signatureOriginPartName [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the signature origin part.
-
+A pointer to an <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a> interface that contains the part name of the signature origin part.
 
 ## -returns
 
-
-
-If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code shown in the table that follows or an <b>HRESULT</b> error code that is returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignaturemanager-setsignatureoriginpartname">IOpcDigitalSignatureManager::SetSignatureOriginPartName</a>.
+If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code shown in the table that follows or an <b>HRESULT</b> error code that is returned by <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcdigitalsignaturemanager-setsignatureoriginpartname">IOpcDigitalSignatureManager::SetSignatureOriginPartName</a>.
 
 <table>
 <tr>
@@ -96,35 +90,19 @@ An XPS package was not loaded into the digital signature manager before calling 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The part name cannot be set if any signatures exist.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
+<a href="/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager">IXpsSignatureManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssignaturemanager">IXpsSignatureManager</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

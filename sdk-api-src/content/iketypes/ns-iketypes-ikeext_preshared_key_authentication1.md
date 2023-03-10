@@ -1,16 +1,13 @@
 ---
 UID: NS:iketypes.IKEEXT_PRESHARED_KEY_AUTHENTICATION1__
 title: IKEEXT_PRESHARED_KEY_AUTHENTICATION1 (iketypes.h)
-description: Stores information needed for pre-shared key authentication.
+description: Stores information needed for pre-shared key authentication. (IKEEXT_PRESHARED_KEY_AUTHENTICATION1)
+helpviewer_keywords: ["IKEEXT_PRESHARED_KEY_AUTHENTICATION1","IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure [Filtering]","IKEEXT_PSK_FLAG_LOCAL_AUTH_ONLY","IKEEXT_PSK_FLAG_REMOTE_AUTH_ONLY","fwp.ikeext_preshared_key_authentication1","iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1"]
 old-location: fwp\ikeext_preshared_key_authentication1.htm
 tech.root: fwp
 ms.assetid: b2009797-f5fd-4d14-8a59-832f9a0acff1
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_PRESHARED_KEY_AUTHENTICATION1, IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure [Filtering], IKEEXT_PSK_FLAG_LOCAL_AUTH_ONLY, IKEEXT_PSK_FLAG_REMOTE_AUTH_ONLY, fwp.ikeext_preshared_key_authentication1, iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1
-f1_keywords:
-- iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1
-dev_langs:
-- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iketypes.h
-api_name:
-- IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 targetos: Windows
 req.typenames: IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IKEEXT_PRESHARED_KEY_AUTHENTICATION1__
+ - iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1__
+ - IKEEXT_PRESHARED_KEY_AUTHENTICATION1
+ - iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iketypes.h
+api_name:
+ - IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 ---
 
 # IKEEXT_PRESHARED_KEY_AUTHENTICATION1 structure
@@ -48,19 +52,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION1</b> structure stores information needed for pre-shared key authentication.
-[IKEEXT_PRESHARED_KEY_AUTHENTICATION0](/windows/win32/api/iketypes/ns-iketypes-ikeext_eap_authentication0)a> is available.</div><div> </div>
+[IKEEXT_PRESHARED_KEY_AUTHENTICATION0](./ns-iketypes-ikeext_eap_authentication0.md) is available.</div><div> </div>
 
 ## -struct-fields
 
-
-
-
 ### -field presharedKey
 
-The pre-shared key specified by [FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>.
-
+The pre-shared key specified by [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob).
 
 ### -field flags
 
@@ -96,20 +95,11 @@ Applicable only to IKEv2.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+[FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)
 
 
 
-[FWP_BYTE_BLOB](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_byte_blob)a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API Structures</a>

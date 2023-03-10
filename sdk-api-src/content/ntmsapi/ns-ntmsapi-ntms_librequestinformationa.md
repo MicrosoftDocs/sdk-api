@@ -1,16 +1,13 @@
 ---
 UID: NS:ntmsapi._NTMS_LIBREQUESTINFORMATIONA
 title: NTMS_LIBREQUESTINFORMATIONA (ntmsapi.h)
-description: The NTMS_LIBREQUESTINFORMATION structure defines the properties specific to a work request, which are queued to RSM.
+description: The NTMS_LIBREQUESTINFORMATION structure defines the properties specific to a work request, which are queued to RSM. (ANSI)
+helpviewer_keywords: ["NTMS_LIBREQUESTINFORMATION","NTMS_LIBREQUESTINFORMATION structure [Files]","NTMS_LIBREQUESTINFORMATIONA","NTMS_LIBREQUESTINFORMATIONW","NTMS_LM_CANCELLED","NTMS_LM_CLASSIFY","NTMS_LM_CLEANDRIVE","NTMS_LM_DISABLEDRIVE","NTMS_LM_DISABLELIBRARY","NTMS_LM_DISABLEMEDIA","NTMS_LM_DISMOUNT","NTMS_LM_DOORACCESS","NTMS_LM_EJECT","NTMS_LM_EJECTCLEANER","NTMS_LM_ENABLEDRIVE","NTMS_LM_ENABLELIBRARY","NTMS_LM_ENABLEMEDIA","NTMS_LM_FAILED","NTMS_LM_INJECT","NTMS_LM_INJECTCLEANER","NTMS_LM_INPROCESS","NTMS_LM_INVALID","NTMS_LM_INVENTORY","NTMS_LM_MOUNT","NTMS_LM_PASSED","NTMS_LM_PROCESSOMID","NTMS_LM_QUEUED","NTMS_LM_RELEASECLEANER","NTMS_LM_REMOVE","NTMS_LM_RESERVECLEANER","NTMS_LM_UPDATEOMID","NTMS_LM_WAITING","NTMS_LM_WRITESCRATCH","_NTMS_LIBREQUESTINFORMATIONA","_NTMS_LIBREQUESTINFORMATIONW","_zaw_ntms_librequestinformation","base.ntms_librequestinformation","fs.ntms_librequestinformation","ntmsapi/NTMS_LIBREQUESTINFORMATION"]
 old-location: fs\ntms_librequestinformation.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: 0250ed88-410c-4fe3-8188-5e6253d45dc4
 ms.date: 12/05/2018
 ms.keywords: NTMS_LIBREQUESTINFORMATION, NTMS_LIBREQUESTINFORMATION structure [Files], NTMS_LIBREQUESTINFORMATIONA, NTMS_LIBREQUESTINFORMATIONW, NTMS_LM_CANCELLED, NTMS_LM_CLASSIFY, NTMS_LM_CLEANDRIVE, NTMS_LM_DISABLEDRIVE, NTMS_LM_DISABLELIBRARY, NTMS_LM_DISABLEMEDIA, NTMS_LM_DISMOUNT, NTMS_LM_DOORACCESS, NTMS_LM_EJECT, NTMS_LM_EJECTCLEANER, NTMS_LM_ENABLEDRIVE, NTMS_LM_ENABLELIBRARY, NTMS_LM_ENABLEMEDIA, NTMS_LM_FAILED, NTMS_LM_INJECT, NTMS_LM_INJECTCLEANER, NTMS_LM_INPROCESS, NTMS_LM_INVALID, NTMS_LM_INVENTORY, NTMS_LM_MOUNT, NTMS_LM_PASSED, NTMS_LM_PROCESSOMID, NTMS_LM_QUEUED, NTMS_LM_RELEASECLEANER, NTMS_LM_REMOVE, NTMS_LM_RESERVECLEANER, NTMS_LM_UPDATEOMID, NTMS_LM_WAITING, NTMS_LM_WRITESCRATCH, _NTMS_LIBREQUESTINFORMATIONA, _NTMS_LIBREQUESTINFORMATIONW, _zaw_ntms_librequestinformation, base.ntms_librequestinformation, fs.ntms_librequestinformation, ntmsapi/NTMS_LIBREQUESTINFORMATION
-f1_keywords:
-- ntmsapi/NTMS_LIBREQUESTINFORMATION
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntmsapi.h
-api_name:
-- NTMS_LIBREQUESTINFORMATION
-- NTMS_LIBREQUESTINFORMATIONA
-- NTMS_LIBREQUESTINFORMATIONW
 targetos: Windows
 req.typenames: NTMS_LIBREQUESTINFORMATIONA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NTMS_LIBREQUESTINFORMATIONA
+ - ntmsapi/_NTMS_LIBREQUESTINFORMATIONA
+ - NTMS_LIBREQUESTINFORMATIONA
+ - ntmsapi/NTMS_LIBREQUESTINFORMATIONA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntmsapi.h
+api_name:
+ - NTMS_LIBREQUESTINFORMATION
+ - NTMS_LIBREQUESTINFORMATIONA
+ - NTMS_LIBREQUESTINFORMATIONW
 ---
 
 # NTMS_LIBREQUESTINFORMATIONA structure
@@ -50,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>NTMS_LIBREQUESTINFORMATION</b> structure defines the properties specific to a work request, which are queued to RSM.
 
-
 ## -struct-fields
-
-
-
 
 ### -field OperationCode
 
@@ -294,13 +293,10 @@ Write a free label.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field OperationOption
 
 Work item options (command specific).
-
 
 ### -field State
 
@@ -384,95 +380,75 @@ Operation is not valid.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field PartitionId
 
 Unique identifier of a side being serviced.
 
-
 ### -field DriveId
 
 Unique identifier of a drive being serviced.
-
 
 ### -field PhysMediaId
 
 Unique identifier of a piece of physical media being serviced.
 
-
 ### -field Library
 
 Library for this request.
-
 
 ### -field SlotId
 
 Unique identifier of a slot of the piece of physical media being serviced.
 
-
 ### -field TimeQueued
 
 System time that this request was queued to RSM.
-
 
 ### -field TimeCompleted
 
 System time that this request was completed by RSM.
 
-
 ### -field szApplication
 
 Application that submitted the operator request.
-
 
 ### -field szUser
 
 Interactive user logged on to the computer that submitted the operator request.
 
-
 ### -field szComputer
 
 Computer that submitted the operator request.
 
-
 ### -field dwErrorCode
 
 Error return for requests that return with state NTMS_LM_FAILED. This is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
-
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ### -field WorkItemId
 
 Associated work item ID for this request. This is currently used to contain the work item ID to be canceled on an NTMS_LM_REMOVE request.
 
-
 ### -field dwPriority
 
 Priority of the work item.
 
-
 ## -remarks
-
-
 
 The 
 <b>NTMS_LIBREQUESTINFORMATION</b> structure is included in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a> structure.
 
 GUID in the work times may become not valid over time. For example, an eject of a free medium deletes the PMID after the media is ejected. However the work item is not updated upon completion of the eject.
 
 
 
 
+
+> [!NOTE]
+> The ntmsapi.h header defines NTMS_LIBREQUESTINFORMATION as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>

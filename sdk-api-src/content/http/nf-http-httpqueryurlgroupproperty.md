@@ -2,15 +2,12 @@
 UID: NF:http.HttpQueryUrlGroupProperty
 title: HttpQueryUrlGroupProperty function (http.h)
 description: Queries a property on the specified URL Group.
+helpviewer_keywords: ["HttpQueryUrlGroupProperty","HttpQueryUrlGroupProperty function [HTTP]","HttpServerAuthenticationProperty","HttpServerChannelBindProperty","HttpServerQosProperty","HttpServerStateProperty","HttpServerTimeoutsProperty","http.httpqueryurlgroupproperty","http/HttpQueryUrlGroupProperty"]
 old-location: http\httpqueryurlgroupproperty.htm
 tech.root: http
 ms.assetid: f3e8fde0-5a78-46aa-8c6c-cea957d12356
 ms.date: 12/05/2018
 ms.keywords: HttpQueryUrlGroupProperty, HttpQueryUrlGroupProperty function [HTTP], HttpServerAuthenticationProperty, HttpServerChannelBindProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, http.httpqueryurlgroupproperty, http/HttpQueryUrlGroupProperty
-f1_keywords:
-- http/HttpQueryUrlGroupProperty
-dev_langs:
-- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Httpapi.dll
-api_name:
-- HttpQueryUrlGroupProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HttpQueryUrlGroupProperty
+ - http/HttpQueryUrlGroupProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Httpapi.dll
+api_name:
+ - HttpQueryUrlGroupProperty
 ---
 
 # HttpQueryUrlGroupProperty function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HttpQueryUrlGroupProperty</b> function queries a property on the specified URL Group.
 
-
 ## -parameters
-
-
-
 
 ### -param UrlGroupId [in]
 
 The ID of the URL Group for which the property setting is returned.
 
-
 ### -param Property [in]
 
-A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is queried. This can be one of the following:
+A member of the  <a href="/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is queried. This can be one of the following:
 
 <table>
 <tr>
@@ -107,7 +103,7 @@ Queries the current state of the URL Group. The state can be either enabled or d
 </dl>
 </td>
 <td width="60%">
-This value maps to the generic <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to either <b>HttpQosSettingTypeBandwidth</b> or  <b>HttpQosSettingTypeConnectionLimit</b>. If <b>HttpQosSettingTypeBandwidth</b>, queries the bandwidth throttling for the URL Group. If <b>HttpQosSettingTypeConnectionLimit</b>, queries the maximum number of outstanding connections served for a URL group at any time.
+This value maps to the generic <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to either <b>HttpQosSettingTypeBandwidth</b> or  <b>HttpQosSettingTypeConnectionLimit</b>. If <b>HttpQosSettingTypeBandwidth</b>, queries the bandwidth throttling for the URL Group. If <b>HttpQosSettingTypeConnectionLimit</b>, queries the maximum number of outstanding connections served for a URL group at any time.
 
 </td>
 </tr>
@@ -122,8 +118,6 @@ Queries the channel binding token (CBT) properties.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PropertyInformation [out]
 
@@ -137,43 +131,38 @@ A pointer to the buffer that receives the property information.
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerAuthenticationProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerQosProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerTimeoutsProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerChannelBindProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param PropertyInformationLength [in]
 
 The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i> parameter.
-
 
 ### -param ReturnLength [out, optional]
 
@@ -181,10 +170,7 @@ The size, in bytes, returned in the  <i>pPropertyInformation</i> buffer.
 
 If the output buffer is too small, the call fails with a return value of <b>ERROR_MORE_DATA</b>. The value pointed to by <i>pReturnLength</i> can be used to determine the minimum length of the buffer required for the call to succeed.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>NO_ERROR</b>.
 
@@ -226,47 +212,31 @@ The size, in bytes, of the buffer pointed to by the  <i>pPropertyInformation</i>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Querying the <b>HttpServerLoggingProperty</b> is not supported.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>

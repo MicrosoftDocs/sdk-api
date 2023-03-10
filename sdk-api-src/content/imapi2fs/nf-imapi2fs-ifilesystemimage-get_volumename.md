@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeName
 title: IFileSystemImage::get_VolumeName (imapi2fs.h)
 description: Retrieves the volume name for this file system image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_VolumeName method","IFileSystemImage.get_VolumeName","IFileSystemImage::get_VolumeName","get_VolumeName","get_VolumeName method [IMAPI]","get_VolumeName method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_volumename","imapi2fs/IFileSystemImage::get_VolumeName"]
 old-location: imapi\ifilesystemimage_get_volumename.htm
 tech.root: imapi
 ms.assetid: 95d5738b-a720-4f47-b3a0-97f7474b051a
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeName method, IFileSystemImage.get_VolumeName, IFileSystemImage::get_VolumeName, get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumename, imapi2fs/IFileSystemImage::get_VolumeName
-f1_keywords:
-- imapi2fs/IFileSystemImage.get_VolumeName
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFileSystemImage.get_VolumeName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileSystemImage::get_VolumeName
+ - imapi2fs/IFileSystemImage::get_VolumeName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFileSystemImage.get_VolumeName
 ---
 
 # IFileSystemImage::get_VolumeName
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the volume name for this file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 String that contains the volume name for this file system image.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,35 +81,19 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To set the volume name, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a> method.
-
-
-
+To set the volume name, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename">IFileSystemImage::get_ImportedVolumeName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename">IFileSystemImage::get_ImportedVolumeName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a>

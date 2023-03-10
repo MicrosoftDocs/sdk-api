@@ -2,15 +2,12 @@
 UID: NF:wuapi.ISearchJob.CleanUp
 title: ISearchJob::CleanUp (wuapi.h)
 description: Waits for an asynchronous operation to complete and then releases all the callbacks.
+helpviewer_keywords: ["CleanUp","CleanUp method [Windows Update Agent]","CleanUp method [Windows Update Agent]","ISearchJob interface","ISearchJob interface [Windows Update Agent]","CleanUp method","ISearchJob.CleanUp","ISearchJob::CleanUp","wua.isearchjob_cleanup","wuapi/ISearchJob::CleanUp"]
 old-location: wua\isearchjob_cleanup.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 35f345ac-cf5b-4ba6-9422-5d9da449bcdd
 ms.date: 12/05/2018
 ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],CleanUp method, ISearchJob.CleanUp, ISearchJob::CleanUp, wua.isearchjob_cleanup, wuapi/ISearchJob::CleanUp
-f1_keywords:
-- wuapi/ISearchJob.CleanUp
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISearchJob.CleanUp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchJob::CleanUp
+ - wuapi/ISearchJob::CleanUp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISearchJob.CleanUp
 ---
 
 # ISearchJob::CleanUp
@@ -48,43 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Waits for an asynchronous operation to complete and then releases all the callbacks.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code.
-
-
-
 
 ## -remarks
 
-
-
-When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
-
-
-
-
+When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>

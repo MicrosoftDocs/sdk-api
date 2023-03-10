@@ -2,15 +2,12 @@
 UID: NF:comsvcs.ISelectCOMLBServer.Init
 title: ISelectCOMLBServer::Init (comsvcs.h)
 description: Initializes the load balancing server object.
+helpviewer_keywords: ["ISelectCOMLBServer interface [COM+]","Init method","ISelectCOMLBServer.Init","ISelectCOMLBServer::Init","Init","Init method [COM+]","Init method [COM+]","ISelectCOMLBServer interface","_cos_ISelectCOMLBServer_Init","comsvcs/ISelectCOMLBServer::Init","cos.iselectcomlbserver_init"]
 old-location: cos\iselectcomlbserver_init.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 1b435b7f-9ddc-40c9-afb5-f5e46e782bd7
 ms.date: 12/05/2018
 ms.keywords: ISelectCOMLBServer interface [COM+],Init method, ISelectCOMLBServer.Init, ISelectCOMLBServer::Init, Init, Init method [COM+], Init method [COM+],ISelectCOMLBServer interface, _cos_ISelectCOMLBServer_Init, comsvcs/ISelectCOMLBServer::Init, cos.iselectcomlbserver_init
-f1_keywords:
-- comsvcs/ISelectCOMLBServer.Init
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- ISelectCOMLBServer.Init
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISelectCOMLBServer::Init
+ - comsvcs/ISelectCOMLBServer::Init
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - ISelectCOMLBServer.Init
 ---
 
 # ISelectCOMLBServer::Init
@@ -48,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes the load balancing server object.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, E_FAIL, and S_OK.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomlbarguments">ICOMLBArguments</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomlbarguments">ICOMLBArguments</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iselectcomlbserver">ISelectCOMLBServer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iselectcomlbserver">ISelectCOMLBServer</a>

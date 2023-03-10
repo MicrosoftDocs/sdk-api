@@ -2,15 +2,12 @@
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileSize
 title: IBitsPeerCacheRecord::GetFileSize (bits3_0.h)
 description: Gets the size of the file.
+helpviewer_keywords: ["GetFileSize","GetFileSize method [BITS]","GetFileSize method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetFileSize method","IBitsPeerCacheRecord.GetFileSize","IBitsPeerCacheRecord::GetFileSize","bits.ibitspeercacherecord_getfilesize","bits3_0/IBitsPeerCacheRecord::GetFileSize"]
 old-location: bits\ibitspeercacherecord_getfilesize.htm
 tech.root: Bits
 ms.assetid: 3b997cd0-a947-4ce7-b047-85268ea46b70
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [BITS], GetFileSize method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileSize method, IBitsPeerCacheRecord.GetFileSize, IBitsPeerCacheRecord::GetFileSize, bits.ibitspeercacherecord_getfilesize, bits3_0/IBitsPeerCacheRecord::GetFileSize
-f1_keywords:
-- bits3_0/IBitsPeerCacheRecord.GetFileSize
-dev_langs:
-- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBitsPeerCacheRecord.GetFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBitsPeerCacheRecord::GetFileSize
+ - bits3_0/IBitsPeerCacheRecord::GetFileSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBitsPeerCacheRecord.GetFileSize
 ---
 
 # IBitsPeerCacheRecord::GetFileSize
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the size of the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Size of the file, in bytes.
 
-
 ## -returns
-
-
 
 The method returns the following return values.
 
@@ -86,18 +80,7 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>

@@ -2,15 +2,12 @@
 UID: NF:uxtheme.GetThemeSysFont
 title: GetThemeSysFont function (uxtheme.h)
 description: Retrieves the LOGFONT of a system font.
+helpviewer_keywords: ["GetThemeSysFont","GetThemeSysFont function [Windows Controls]","TMT_CAPTIONFONT","TMT_ICONTITLEFONT","TMT_MENUFONT","TMT_MSGBOXFONT","TMT_SMALLCAPTIONFONT","TMT_STATUSFONT","controls.GetThemeSysFont","controls.inet_GetThemeSysFont","inet_GetThemeSysFont","inet_GetThemeSysFont_cpp","uxtheme/GetThemeSysFont"]
 old-location: controls\GetThemeSysFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysfont.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysFont, GetThemeSysFont function [Windows Controls], TMT_CAPTIONFONT, TMT_ICONTITLEFONT, TMT_MENUFONT, TMT_MSGBOXFONT, TMT_SMALLCAPTIONFONT, TMT_STATUSFONT, controls.GetThemeSysFont, controls.inet_GetThemeSysFont, inet_GetThemeSysFont, inet_GetThemeSysFont_cpp, uxtheme/GetThemeSysFont
-f1_keywords:
-- uxtheme/GetThemeSysFont
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- GetThemeSysFont
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeSysFont
+ - uxtheme/GetThemeSysFont
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - GetThemeSysFont
 ---
 
 # GetThemeSysFont function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> of a system font.
-
+Retrieves the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> of a system font.
 
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
 Type: <b>HTHEME</b>
 
 Handle to theme data.
-
 
 ### -param iFontId [in]
 
@@ -136,37 +132,23 @@ The font used for icons.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param plf [out]
 
 Type: <b>LOGFONTW*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that receives the font information from this function.
-
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure that receives the font information from this function.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 This function requires vssym32.h and uxtheme.h.
 
-If the theme data handle is not a <b>NULL</b> handle, this function returns the desired <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> from the SysMetrics section of the visual style. If the theme data handle is <b>NULL</b>, the function returns the value of the global system metric of the same type.
+If the theme data handle is not a <b>NULL</b> handle, this function returns the desired <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> from the SysMetrics section of the visual style. If the theme data handle is <b>NULL</b>, the function returns the value of the global system metric of the same type.
 
 The font is scaled in dots per inch for the current logical screen.
-
-
-

@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSettings2.requestMediaAccessRights
 title: IWMPSettings2::requestMediaAccessRights (wmp.h)
 description: The requestMediaAccessRights method requests a specified level of access to the library.
+helpviewer_keywords: ["IWMPSettings2 interface [Windows Media Player]","requestMediaAccessRights method","IWMPSettings2.requestMediaAccessRights","IWMPSettings2::requestMediaAccessRights","IWMPSettings2requestMediaAccessRights","requestMediaAccessRights","requestMediaAccessRights method [Windows Media Player]","requestMediaAccessRights method [Windows Media Player]","IWMPSettings2 interface","wmp.iwmpsettings2_requestmediaaccessrights","wmp/IWMPSettings2::requestMediaAccessRights"]
 old-location: wmp\iwmpsettings2_requestmediaaccessrights.htm
 tech.root: WMP
 ms.assetid: 925a4c0b-d613-4248-a341-bfc51d02cb85
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings2 interface [Windows Media Player],requestMediaAccessRights method, IWMPSettings2.requestMediaAccessRights, IWMPSettings2::requestMediaAccessRights, IWMPSettings2requestMediaAccessRights, requestMediaAccessRights, requestMediaAccessRights method [Windows Media Player], requestMediaAccessRights method [Windows Media Player],IWMPSettings2 interface, wmp.iwmpsettings2_requestmediaaccessrights, wmp/IWMPSettings2::requestMediaAccessRights
-f1_keywords:
-- wmp/IWMPSettings2.requestMediaAccessRights
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSettings2.requestMediaAccessRights
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSettings2::requestMediaAccessRights
+ - wmp/IWMPSettings2::requestMediaAccessRights
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSettings2.requestMediaAccessRights
 ---
 
 # IWMPSettings2::requestMediaAccessRights
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>requestMediaAccessRights</b> method requests a specified level of access to the library.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrDesiredAccess [in]
 
@@ -84,17 +78,12 @@ The <b>requestMediaAccessRights</b> method requests a specified level of access 
 <td>Read/Write access rights.</td>
 </tr>
 </table>
- 
-
 
 ### -param pvbAccepted [out]
 
 Pointer to a <b>VARIANT_BOOL</b> indicating whether the requested access rights were granted.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,14 +104,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A webpage must first request permission from the user to read information from or write data to the library. Invoking this method prompts the user with a dialog box that requests the specified permission level. This means that certain methods, properties, and events will be inaccessible from code if the appropriate access rights have not been granted. The current access rights level can be retrieved by using <b>IWMPSettings2::get_mediaAccessRights</b>.
 
@@ -130,20 +113,10 @@ Applications running on the user's computer are not required to use this method.
 
 <b>Windows Media Player 10 Mobile: </b>This method always retrieves a <b>VARIANT_BOOL</b> set to <b>TRUE</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings2">IWMPSettings2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings2">IWMPSettings2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights">IWMPSettings2::get_mediaAccessRights</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-get_mediaaccessrights">IWMPSettings2::get_mediaAccessRights</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetCustData
 title: ITypeLib2::GetCustData (oaidl.h)
-description: Gets the custom data.
+description: Gets the custom data. (ITypeLib2.GetCustData)
+helpviewer_keywords: ["GetCustData","GetCustData method [Automation]","GetCustData method [Automation]","ITypeLib2 interface","ITypeLib2 interface [Automation]","GetCustData method","ITypeLib2.GetCustData","ITypeLib2::GetCustData","_oa96_ITypeLib2_GetCustData","automat.itypelib2_getcustdata","oaidl/ITypeLib2::GetCustData"]
 old-location: automat\itypelib2_getcustdata.htm
 tech.root: automat
 ms.assetid: e2f29070-6768-4734-a3e2-c9258375b33c
 ms.date: 12/05/2018
 ms.keywords: GetCustData, GetCustData method [Automation], GetCustData method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetCustData method, ITypeLib2.GetCustData, ITypeLib2::GetCustData, _oa96_ITypeLib2_GetCustData, automat.itypelib2_getcustdata, oaidl/ITypeLib2::GetCustData
-f1_keywords:
-- oaidl/ITypeLib2.GetCustData
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ITypeLib2.GetCustData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITypeLib2::GetCustData
+ - oaidl/ITypeLib2::GetCustData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ITypeLib2.GetCustData
 ---
 
 # ITypeLib2::GetCustData
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the custom data.
 
-
 ## -parameters
-
-
-
 
 ### -param guid [in]
 
 The GUID used to identify the data.
 
-
 ### -param pVarVal [out]
 
 The retrieved data.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -115,18 +108,7 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>

@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IFolderView.GetSelectionMarkedItem
 title: IFolderView::GetSelectionMarkedItem (shobjidl_core.h)
 description: Gets the index of an item in the folder's view which has been marked by using the SVSI_SELECTIONMARK in IFolderView::SelectItem.
+helpviewer_keywords: ["GetSelectionMarkedItem","GetSelectionMarkedItem method [Windows Shell]","GetSelectionMarkedItem method [Windows Shell]","IFolderView interface","IFolderView interface [Windows Shell]","GetSelectionMarkedItem method","IFolderView.GetSelectionMarkedItem","IFolderView::GetSelectionMarkedItem","_shell_IFolderView_GetSelectionMarkedItem","shell.IFolderView_GetSelectionMarkedItem","shobjidl_core/IFolderView::GetSelectionMarkedItem"]
 old-location: shell\IFolderView_GetSelectionMarkedItem.htm
 tech.root: shell
 ms.assetid: 86416704-c2e3-4782-a566-b49cbd0e7696
 ms.date: 12/05/2018
 ms.keywords: GetSelectionMarkedItem, GetSelectionMarkedItem method [Windows Shell], GetSelectionMarkedItem method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetSelectionMarkedItem method, IFolderView.GetSelectionMarkedItem, IFolderView::GetSelectionMarkedItem, _shell_IFolderView_GetSelectionMarkedItem, shell.IFolderView_GetSelectionMarkedItem, shobjidl_core/IFolderView::GetSelectionMarkedItem
-f1_keywords:
-- shobjidl_core/IFolderView.GetSelectionMarkedItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IFolderView.GetSelectionMarkedItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView::GetSelectionMarkedItem
+ - shobjidl_core/IFolderView::GetSelectionMarkedItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IFolderView.GetSelectionMarkedItem
 ---
 
 # IFolderView::GetSelectionMarkedItem
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the index of an item in the folder's view which has been marked by using the SVSI_SELECTIONMARK in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectitem">IFolderView::SelectItem</a>.
-
+Gets the index of an item in the folder's view which has been marked by using the SVSI_SELECTIONMARK in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectitem">IFolderView::SelectItem</a>.
 
 ## -parameters
-
-
-
 
 ### -param piItem [out]
 
@@ -63,29 +60,16 @@ Type: <b>int*</b>
 
 A pointer to the index of the marked item.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectitem">IFolderView::SelectItem</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectitem">IFolderView::SelectItem</a>

@@ -2,15 +2,12 @@
 UID: NF:winnls.SetThreadPreferredUILanguages
 title: SetThreadPreferredUILanguages function (winnls.h)
 description: Sets the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.
+helpviewer_keywords: ["MUI_COMPLEX_SCRIPT_FILTER","MUI_CONSOLE_FILTER","MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","MUI_RESET_FILTERS","SetThreadPreferredUILanguages","SetThreadPreferredUILanguages function [Internationalization for Windows Applications]","_win32_SetThreadPreferredUILanguages","intl.setthreadpreferreduilanguages","winnls/SetThreadPreferredUILanguages"]
 old-location: intl\setthreadpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 32a8117c-2cb2-4559-8e86-9fad5b28aa5b
 ms.date: 12/05/2018
 ms.keywords: MUI_COMPLEX_SCRIPT_FILTER, MUI_CONSOLE_FILTER, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_RESET_FILTERS, SetThreadPreferredUILanguages, SetThreadPreferredUILanguages function [Internationalization for Windows Applications], _win32_SetThreadPreferredUILanguages, intl.setthreadpreferreduilanguages, winnls/SetThreadPreferredUILanguages
-f1_keywords:
-- winnls/SetThreadPreferredUILanguages
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Localization-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-Localization-l1-2-1.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-Localization-L1-2-2.dll
-api_name:
-- SetThreadPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetThreadPreferredUILanguages
+ - winnls/SetThreadPreferredUILanguages
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Localization-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Localization-l1-2-1.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-Localization-L1-2-2.dll
+api_name:
+ - SetThreadPreferredUILanguages
 ---
 
 # SetThreadPreferredUILanguages function
@@ -54,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-Sets the thread preferred UI languages for the current thread. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
+Sets the thread preferred UI languages for the current thread. For more information, see <a href="/windows/desktop/Intl/user-interface-language-management">User Interface Language Management</a>.
 
 
 <div class="alert"><b>Note</b>  This function is also used by the operating system to identify languages that are safe to use on the Windows console.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -87,7 +83,7 @@ We recommend that you use MUI_LANGUAGE_NAME instead of MUI_LANGUAGE_ID.
 </dl>
 </td>
 <td width="60%">
-The input parameter language strings are in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a> format.
+The input parameter language strings are in <a href="/windows/desktop/Intl/language-identifiers">language identifier</a> format.
 
 </td>
 </tr>
@@ -97,7 +93,7 @@ The input parameter language strings are in <a href="https://docs.microsoft.com/
 </dl>
 </td>
 <td width="60%">
-The input parameter language strings are in <a href="https://docs.microsoft.com/windows/desktop/Intl/language-names">language name</a> format.
+The input parameter language strings are in <a href="/windows/desktop/Intl/language-names">language name</a> format.
 
 </td>
 </tr>
@@ -118,7 +114,7 @@ The following <i>filtering flags</i> specify filtering for the language list. Th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> should replace with the appropriate fallback all languages having <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">complex scripts</a>. When this flag is specified, <b>NULL</b> must be passed for all other parameters.
+<a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> should replace with the appropriate fallback all languages having <a href="/windows/desktop/Intl/uniscribe-glossary">complex scripts</a>. When this flag is specified, <b>NULL</b> must be passed for all other parameters.
 
 </td>
 </tr>
@@ -129,7 +125,7 @@ The following <i>filtering flags</i> specify filtering for the language list. Th
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> should replace with the appropriate fallback all languages that cannot display properly in a console window with the current operating system settings. When this flag is specified, <b>NULL</b> must be passed for all other parameters.
+<a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> should replace with the appropriate fallback all languages that cannot display properly in a console window with the current operating system settings. When this flag is specified, <b>NULL</b> must be passed for all other parameters.
 
 </td>
 </tr>
@@ -139,13 +135,11 @@ The following <i>filtering flags</i> specify filtering for the language list. Th
 </dl>
 </td>
 <td width="60%">
-Reset the filtering for the language list by removing any other filter settings. When this flag is specified, <b>NULL</b> must be passed for all other parameters. After setting this flag, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> to retrieve the complete unfiltered list.
+Reset the filtering for the language list by removing any other filter settings. When this flag is specified, <b>NULL</b> must be passed for all other parameters. After setting this flag, the application can call <a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> to retrieve the complete unfiltered list.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pwszLanguagesBuffer [in, optional]
 
@@ -156,24 +150,15 @@ If an application clears a language list, it should specify either a format flag
 
 When the application specifies one of the filtering flags, it must set this parameter to <b>NULL</b>. In this case, the function succeeds, but does not reset the thread preferred languages.
 
-
 ### -param pulNumLanguages [out, optional]
 
 Pointer to the number of languages that the function has set in the thread preferred UI languages list. When the application specifies one of the filtering flags, the function must set this parameter to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns <b>TRUE</b> if the function succeeds or <b>FALSE</b> otherwise.
 
-
-
-
 ## -remarks
-
-
 
 When the application loads resources after a call to this function, the thread-specific preferences take priority over the languages preferred by the user.
 
@@ -189,30 +174,30 @@ When MUI_LANGUAGE_ID is specified, the hexadecimal values in the language list m
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
-Calling this function with an empty language list and setting the MUI_CONSOLE_FILTER flag has the same effect as calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a> with the language identifier set to 0. The language is set appropriately for use in a console window.
+Calling this function with an empty language list and setting the MUI_CONSOLE_FILTER flag has the same effect as calling <a href="/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a> with the language identifier set to 0. The language is set appropriately for use in a console window.
 
-After this function returns, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> to verify and examine the resulting language list. When MUI_CONSOLE_FILTER or MUI_COMPLEX_FILTER has been set by <b>SetThreadPreferredUILanguages</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> function replaces with the fallback the languages the console cannot display using the current operating system language setting. The fallback for a language is determined based on the value of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-sconsolefallbackname">LOCALE_SCONSOLEFALLBACKNAME</a> for the language.
+After this function returns, the application can call <a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> to verify and examine the resulting language list. When MUI_CONSOLE_FILTER or MUI_COMPLEX_FILTER has been set by <b>SetThreadPreferredUILanguages</b>, the <a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> function replaces with the fallback the languages the console cannot display using the current operating system language setting. The fallback for a language is determined based on the value of <a href="/windows/desktop/Intl/locale-sconsolefallbackname">LOCALE_SCONSOLEFALLBACKNAME</a> for the language.
 
-Setting the MUI_COMPLEX_SCRIPT_FILTER flag in the call to <b>SetThreadPreferredUILanguages</b> causes <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>  to remove languages that the console cannot display with languages that can only be rendered using <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>, and insert the fallback language as the ultimate fallback. Examples of such languages are Arabic or the various Indic languages.
+Setting the MUI_COMPLEX_SCRIPT_FILTER flag in the call to <b>SetThreadPreferredUILanguages</b> causes <a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>  to remove languages that the console cannot display with languages that can only be rendered using <a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>, and insert the fallback language as the ultimate fallback. Examples of such languages are Arabic or the various Indic languages.
 
-Setting the MUI_CONSOLE_FILTER flag in the call to <b>SetThreadPreferredUILanguages</b> causes <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> to remove languages the console cannot display with the current system setting and insert the fallback language as the ultimate fallback, because the console is limited to displaying characters from a single <a href="https://docs.microsoft.com/windows/desktop/Intl/code-pages">code page</a>. For example, if the user language is Japanese (Japan), but the current console code page is the code page for Russian (Russia), the console displays Japanese-language text mostly as a series of character-not-found symbols. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> chooses a language from the fallback list that will be legible in the console.
+Setting the MUI_CONSOLE_FILTER flag in the call to <b>SetThreadPreferredUILanguages</b> causes <a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> to remove languages the console cannot display with the current system setting and insert the fallback language as the ultimate fallback, because the console is limited to displaying characters from a single <a href="/windows/desktop/Intl/code-pages">code page</a>. For example, if the user language is Japanese (Japan), but the current console code page is the code page for Russian (Russia), the console displays Japanese-language text mostly as a series of character-not-found symbols. <a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a> chooses a language from the fallback list that will be legible in the console.
 
-<div class="alert"><b>Note</b>  Resource-loading functions, such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a>, also make calls to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>.</div>
+<div class="alert"><b>Note</b>  Resource-loading functions, such as <a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>, <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>, and <a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a>, also make calls to <a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>.</div>
 <div> </div>
 To change the code page, the application uses the <b>setlocale</b> function, or equivalent.
 
@@ -228,29 +213,18 @@ To change the code page, the application uses the <b>setlocale</b> function, or 
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getthreadpreferreduilanguages">GetThreadPreferredUILanguages</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setthreaduilanguage">SetThreadUILanguage</a>

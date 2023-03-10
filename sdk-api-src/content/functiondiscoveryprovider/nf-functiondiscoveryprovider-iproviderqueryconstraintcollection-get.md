@@ -2,15 +2,12 @@
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Get
 title: IProviderQueryConstraintCollection::Get (functiondiscoveryprovider.h)
 description: Gets the value of the specified query constraint, by name.
+helpviewer_keywords: ["Get","Get method","Get method","IProviderQueryConstraintCollection interface","IProviderQueryConstraintCollection interface","Get method","IProviderQueryConstraintCollection.Get","IProviderQueryConstraintCollection::Get","functiondiscoveryprovider/IProviderQueryConstraintCollection::Get","ncd.iproviderqueryconstraintcollection_get"]
 old-location: ncd\iproviderqueryconstraintcollection_get.htm
-tech.root: FunDisc
+tech.root: ncd
 ms.assetid: 30b66ed6-ef02-4a47-baa0-dc48b6d84187
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,Get method, IProviderQueryConstraintCollection.Get, IProviderQueryConstraintCollection::Get, functiondiscoveryprovider/IProviderQueryConstraintCollection::Get, ncd.iproviderqueryconstraintcollection_get
-f1_keywords:
-- functiondiscoveryprovider/IProviderQueryConstraintCollection.Get
-dev_langs:
-- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FunctionDiscoveryProvider.h
-api_name:
-- IProviderQueryConstraintCollection.Get
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IProviderQueryConstraintCollection::Get
+ - functiondiscoveryprovider/IProviderQueryConstraintCollection::Get
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FunctionDiscoveryProvider.h
+api_name:
+ - IProviderQueryConstraintCollection.Get
 ---
 
 # IProviderQueryConstraintCollection::Get
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 Gets the value of the specified query constraint, by name.
 
-
 ## -parameters
-
-
-
 
 ### -param pszConstraintName [in]
 
 The constraint name.
 
-
 ### -param ppszConstraintValue [out]
 
 The constraint value.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -114,18 +107,7 @@ The <i>pszConstraintName</i> or <i>ppszConstraintValue</i> parameter is <b>NULL<
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>

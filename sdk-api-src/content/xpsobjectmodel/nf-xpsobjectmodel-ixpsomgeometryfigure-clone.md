@@ -1,16 +1,13 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.Clone
 title: IXpsOMGeometryFigure::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.
+description: Makes a deep copy of the interface. (IXpsOMGeometryFigure.Clone)
+helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","Clone method","IXpsOMGeometryFigure.Clone","IXpsOMGeometryFigure::Clone","xps.ixpsomgeometryfigure_clone","xpsobjectmodel/IXpsOMGeometryFigure::Clone"]
 old-location: xps\ixpsomgeometryfigure_clone.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 97876b95-7b68-4c91-ab15-0708bad3876f
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],Clone method, IXpsOMGeometryFigure.Clone, IXpsOMGeometryFigure::Clone, xps.ixpsomgeometryfigure_clone, xpsobjectmodel/IXpsOMGeometryFigure::Clone
-f1_keywords:
-- xpsobjectmodel/IXpsOMGeometryFigure.Clone
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- xpsobjectmodel.h
-api_name:
-- IXpsOMGeometryFigure.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IXpsOMGeometryFigure::Clone
+ - xpsobjectmodel/IXpsOMGeometryFigure::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - IXpsOMGeometryFigure.Clone
 ---
 
 # IXpsOMGeometryFigure::Clone
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Makes a deep copy of the interface.
 
-
 ## -parameters
-
-
-
 
 ### -param geometryFigure [out, retval]
 
 A pointer to the copy of the interface.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -107,31 +101,15 @@ Not enough memory to perform this operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The owner of the copy is <b>NULL</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigure">IXpsOMGeometryFigure</a>
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

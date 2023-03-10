@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkExtendedProperties.Add
 title: IInkExtendedProperties::Add (msinkaut.h)
 description: Creates and adds an IInkExtendedProperty object to the IInkExtendedProperties collection.
+helpviewer_keywords: ["4fff6945-b46e-4e72-af45-ca066e73338e","Add","Add method [Tablet PC]","Add method [Tablet PC]","IInkExtendedProperties interface","IInkExtendedProperties interface [Tablet PC]","Add method","IInkExtendedProperties.Add","IInkExtendedProperties::Add","msinkaut/IInkExtendedProperties::Add","tablet.iinkextendedproperties_add"]
 old-location: tablet\iinkextendedproperties_add.htm
 tech.root: tablet
 ms.assetid: 4fff6945-b46e-4e72-af45-ca066e73338e
 ms.date: 12/05/2018
 ms.keywords: 4fff6945-b46e-4e72-af45-ca066e73338e, Add, Add method [Tablet PC], Add method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Add method, IInkExtendedProperties.Add, IInkExtendedProperties::Add, msinkaut/IInkExtendedProperties::Add, tablet.iinkextendedproperties_add
-f1_keywords:
-- msinkaut/IInkExtendedProperties.Add
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkExtendedProperties.Add
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkExtendedProperties::Add
+ - msinkaut/IInkExtendedProperties::Add
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkExtendedProperties.Add
 ---
 
 # IInkExtendedProperties::Add
@@ -49,42 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Creates and adds an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
-
-
-
+Creates and adds an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 ## -parameters
 
-
-
-
 ### -param Guid [in]
 
- The name of the new <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object. The name is expressed as a BSTR that represents the globally unique identifier (GUID) in the following format:
+ The name of the new <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object. The name is expressed as a BSTR that represents the globally unique identifier (GUID) in the following format:
 
 {dfc71f44-354b-4ca1-93d7-7459410b6343} (Including curly braces)
 
-For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the BSTR data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param Data [in]
 
- The data for the new <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object.
+ The data for the new <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
-
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param InkExtendedProperty [out, retval]
 
-When this method returns, contains a poitner to the new extended property.
-
+When this method returns, contains a pointer to the new extended property.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -160,16 +149,10 @@ The stroke is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  You cannot store an empty <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object. The object must contain data before it can be stored. For example, if you try to add extended properties to a stroke for later use, an exception is thrown if the extended property contains no data.</div>
+<div class="alert"><b>Note</b>  You cannot store an empty <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object. The object must contain data before it can be stored. For example, if you try to add extended properties to a stroke for later use, an exception is thrown if the extended property contains no data.</div>
 <div> </div>
 The following types are acceptable:
 
@@ -178,24 +161,15 @@ The following types are acceptable:
 <li>Arrays of integers, floats, large integers, doubles, dates, or decimals</li>
 <li>Booleans (but not arrays of Booleans)</li>
 <li>BSTRs (but not arrays of BSTRs)</li>
-<li>Arrays of Variants. All arrays of variants passed as an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> must be of the same type and be all numeric. For example, variant arrays of BSTRS, arrays of arrays, VT_NULL and VT_EMPTY are not supported.</li>
+<li>Arrays of Variants. All arrays of variants passed as an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> must be of the same type and be all numeric. For example, variant arrays of BSTRS, arrays of arrays, VT_NULL and VT_EMPTY are not supported.</li>
 </ul>
-<div class="alert"><b>Note</b>  If you call this method with the <i>Guid</i> parameter set to a GUID that already exists in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection, the new data will replace the existing extended property for that GUID instead of adding a second element.</div>
+<div class="alert"><b>Note</b>  If you call this method with the <i>Guid</i> parameter set to a GUID that already exists in the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection, the new data will replace the existing extended property for that GUID instead of adding a second element.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

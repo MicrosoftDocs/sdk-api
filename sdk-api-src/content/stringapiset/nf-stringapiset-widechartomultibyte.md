@@ -2,15 +2,12 @@
 UID: NF:stringapiset.WideCharToMultiByte
 title: WideCharToMultiByte function (stringapiset.h)
 description: Maps a UTF-16 (wide character) string to a new character string.
+helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_SYMBOL","CP_THREAD_ACP","CP_UTF7","CP_UTF8","WC_COMPOSITECHECK","WC_ERR_INVALID_CHARS","WC_NO_BEST_FIT_CHARS","WideCharToMultiByte","WideCharToMultiByte function [Internationalization for Windows Applications]","_win32_WideCharToMultiByte","intl.widechartomultibyte","stringapiset/WideCharToMultiByte"]
 old-location: intl\widechartomultibyte.htm
 tech.root: Intl
 ms.assetid: b8c13444-86ab-479c-ac04-9b184d9eebf6
-ms.date: 12/05/2018
+ms.date: 08/05/2022
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, WC_COMPOSITECHECK, WC_ERR_INVALID_CHARS, WC_NO_BEST_FIT_CHARS, WideCharToMultiByte, WideCharToMultiByte function [Internationalization for Windows Applications], _win32_WideCharToMultiByte, intl.widechartomultibyte, stringapiset/WideCharToMultiByte
-f1_keywords:
-- stringapiset/WideCharToMultiByte
-dev_langs:
-- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-String-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- WideCharToMultiByte
 targetos: Windows
 req.typenames: 
 req.redist: 
-ms.custom: 19H1
+ms.custom: snippet-project
+f1_keywords:
+ - WideCharToMultiByte
+ - stringapiset/WideCharToMultiByte
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-String-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - WideCharToMultiByte
 ---
 
 # WideCharToMultiByte function
@@ -52,27 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Maps a UTF-16 (wide character) string to a new character string. The new character string is not necessarily from a multibyte character set.
         <div class="alert"><b>Caution</b>  Using the <b>WideCharToMultiByte</b> function incorrectly can compromise the security of your application. Calling this function can easily cause a buffer overrun because the size of the input buffer indicated by <i>lpWideCharStr</i> equals the number of characters in the Unicode string, while the size of the output buffer indicated by <i>lpMultiByteStr</i> equals the number of bytes. To avoid a buffer overrun, your application must specify a buffer size appropriate for the data type the buffer receives.
 
-<p class="note">Data converted from UTF-16 to non-Unicode encodings is subject to data loss, because a code page might not be able to represent every character used in the specific Unicode data. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.
+<p class="note">Data converted from UTF-16 to non-Unicode encodings is subject to data loss, because a code page might not be able to represent every character used in the specific Unicode data. For more information, see <a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a>.
 
 </div>
 <div> </div>
 <div class="alert"><b>Note</b>  The ANSI code pages can be different on different computers, or can be changed for a single computer, leading to data corruption. For the most consistent results, applications should use Unicode, such as UTF-8 or UTF-16, instead of a specific code page, unless legacy standards or data formats prevent the use of Unicode. If using Unicode is not possible, applications should tag the data stream with the appropriate encoding name when protocols allow it. HTML and XML files allow tagging, but text files do not.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param CodePage [in]
 
-Code page to use in performing the conversion. This parameter can be set to the value of any code page that is installed or available in the operating system. For a list of code pages, see <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>. Your application can also specify one of the values shown in the following table.
+Code page to use in performing the conversion. This parameter can be set to the value of any code page that is installed or available in the operating system. For a list of code pages, see <a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a>. Your application can also specify one of the values shown in the following table.
 
 <table>
 <tr>
@@ -160,8 +156,6 @@ UTF-8. With this value set, <i>lpDefaultChar</i> and <i>lpUsedDefaultChar</i> mu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwFlags [in]
 
@@ -181,8 +175,7 @@ Flags indicating the conversion type. The application can specify a combination 
 Convert composite characters, consisting of a base character and a nonspacing character, each with different character values. Translate these characters to precomposed characters, which have a single character value for a base-nonspacing character combination. For example, in the character è, the e is the base character and the accent grave mark is the nonspacing character.<div class="alert"><b>Note</b>  Windows normally represents Unicode strings with precomposed data, making the use of the WC_COMPOSITECHECK flag unnecessary.</div>
 <div> </div>
 
-
-Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see  <a href="https://docs.microsoft.com/">WC_COMPOSITECHECK and related flags</a> in the Remarks section.
+Your application can combine WC_COMPOSITECHECK with any one of the following flags, with the default being WC_SEPCHARS. These flags determine the behavior of the function when no precomposed mapping for a base-nonspacing character combination in a Unicode string is available. If none of these flags is supplied, the function behaves as if the WC_SEPCHARS flag is set. For more information, see WC_COMPOSITECHECK and related flags in the [Remarks](#remarks) section.
 
 <table>
 <tr>
@@ -208,7 +201,7 @@ Your application can combine WC_COMPOSITECHECK with any one of the following fla
 </dl>
 </td>
 <td width="60%">
-<b>Windows Vista and later:</b> Fail (by returning 0 and setting the last-error code to  ERROR_NO_UNICODE_TRANSLATION) if an invalid input character is encountered. You can retrieve the last-error code with a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If this flag is not set, the function replaces illegal sequences with U+FFFD (encoded as appropriate for the specified codepage) and succeeds by returning the length of the converted string. Note that this flag only applies when <i>CodePage</i> is specified as CP_UTF8 or 54936. It cannot be used with other code page values.
+<b>Windows Vista and later:</b> Fail (by returning 0 and setting the last-error code to  ERROR_NO_UNICODE_TRANSLATION) if an invalid input character is encountered. You can retrieve the last-error code with a call to <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If this flag is not set, the function replaces illegal sequences with U+FFFD (encoded as appropriate for the specified codepage) and succeeds by returning the length of the converted string. Note that this flag only applies when <i>CodePage</i> is specified as CP_UTF8 or 54936. It cannot be used with other code page values.
 
 </td>
 </tr>
@@ -247,40 +240,27 @@ For the code pages listed below, <i>dwFlags</i> must be 0. Otherwise, the functi
 
 Pointer to the Unicode string to convert.
 
-
 ### -param cchWideChar [in]
 
 Size, in characters, of the string indicated by <i>lpWideCharStr</i>. Alternatively, this parameter can be set to -1 if the string is null-terminated. If <i>cchWideChar</i> is set to 0, the function fails.
 
-If this parameter is -1, the function processes the entire input string, including the terminating null 
+If this parameter is -1, the function processes the entire input string, including the terminating null character. Therefore, the resulting character string has a terminating null character, and the length returned by the function includes this character.
 
-character. Therefore, the resulting character string has a terminating null character, and the length 
-
-returned by the function includes this character.
-
-If this parameter is set to a positive integer, the function processes exactly the specified number of 
-
-characters. If the provided size does not include a terminating null character, the resulting character 
-
-string is not null-terminated, and the returned length does not include this character.
-
+If this parameter is set to a positive integer, the function processes exactly the specified number of characters. If the provided size does not include a terminating null character, the resulting character string is not null-terminated, and the returned length does not include this character.
 
 ### -param lpMultiByteStr [out, optional]
 
 Pointer to a buffer that receives the converted string.
 
-
 ### -param cbMultiByte [in]
 
-Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this parameter is set to 0, the function returns the required buffer size for <i>lpMultiByteStr</i> and makes no use of the output parameter itself.
-
+Size, in bytes, of the buffer indicated by <i>lpMultiByteStr</i>. If this value is 0, the function returns the required buffer size, in bytes, including any terminating null character, and makes no use of the <i>lpMultiByteStr</i> buffer.
 
 ### -param lpDefaultChar [in, optional]
 
-Pointer to the character to use if a character cannot be represented in the specified code page. The application sets this parameter to <b>NULL</b> if the function is to use a system default value. To obtain the system default character, the application can call the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a> function.
+Pointer to the character to use if a character cannot be represented in the specified code page. The application sets this parameter to <b>NULL</b> if the function is to use a system default value. To obtain the system default character, the application can call the <a href="/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a> or <a href="/windows/desktop/api/winnls/nf-winnls-getcpinfoexa">GetCPInfoEx</a> function.
 
 For the CP_UTF7 and CP_UTF8 settings for <i>CodePage</i>, this parameter must be set to <b>NULL</b>. Otherwise, the function fails with ERROR_INVALID_PARAMETER.
-
 
 ### -param lpUsedDefaultChar [out, optional]
 
@@ -288,14 +268,11 @@ Pointer to a flag that indicates if the function has used a default character in
 
 For the CP_UTF7 and CP_UTF8 settings for <i>CodePage</i>, this parameter must be set to <b>NULL</b>. Otherwise, the function fails with ERROR_INVALID_PARAMETER.
 
-
 ## -returns
-
-
 
 If successful, returns the number of bytes written to the buffer pointed to by <i>lpMultiByteStr</i>. If the function succeeds and <i>cbMultiByte</i> is 0, the return value is the required size, in bytes, for the buffer indicated by <i>lpMultiByteStr</i>. Also see <i>dwFlags</i> for info about how the WC_ERR_INVALID_CHARS flag affects the return value when invalid sequences are input.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -304,13 +281,9 @@ The function returns 0 if it does not succeed. To get extended error information
 <li>ERROR_NO_UNICODE_TRANSLATION. Invalid Unicode was found in a string.</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
-The <i>lpMultiByteStr</i> and <i>lpWideCharStr</i> pointers must not be the same. If they are the same, the function fails, and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_PARAMETER.
+The <i>lpMultiByteStr</i> and <i>lpWideCharStr</i> pointers must not be the same. If they are the same, the function fails, and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_PARAMETER.
 
 <b>WideCharToMultiByte</b> does not null-terminate an output string if the input string length is explicitly specified without a terminating null character. To null-terminate an output string for this function, the application should pass in -1 or explicitly count the terminating null character for the input string.
 
@@ -347,35 +320,59 @@ The <b>WideCharToMultiByte</b> function operates most efficiently when both <i>l
 </table>
  
 
-Starting with Windows Vista, this function fully conforms with the Unicode 4.1 specification for UTF-8 and UTF-16. The function used on earlier operating systems encodes or decodes lone <a href="https://docs.microsoft.com/windows/desktop/Intl/surrogates-and-supplementary-characters">surrogate</a> halves or mismatched surrogate pairs. Code written in earlier versions of Windows that rely on this behavior to encode random non-text binary data might run into problems. However, code that uses this function to produce valid UTF-8 strings will behave the same way as on earlier Windows operating systems.
+Starting with Windows Vista, this function fully conforms with the Unicode 4.1 specification for UTF-8 and UTF-16. The function used on earlier operating systems encodes or decodes lone <a href="/windows/desktop/Intl/surrogates-and-supplementary-characters">surrogate</a> halves or mismatched surrogate pairs. Code written in earlier versions of Windows that rely on this behavior to encode random non-text binary data might run into problems. However, code that uses this function to produce valid UTF-8 strings will behave the same way as on earlier Windows operating systems.
 
 <b>Starting with Windows 8: </b><b>WideCharToMultiByte</b>  is declared in Stringapiset.h. Before Windows 8, it was declared in Winnls.h.
 
 <h3><a id="wc_compositecheck_and_related_flags"></a><a id="WC_COMPOSITECHECK_AND_RELATED_FLAGS"></a>WC_COMPOSITECHECK and related flags</h3>
-As discussed in <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>, Unicode allows multiple representations of the same string (interpreted linguistically). For example, Capital A with dieresis (umlaut) can be represented either precomposed as a single Unicode code point "Ä" (U+00C4) or decomposed as the combination of Capital A and the combining dieresis character ("A" + "¨", that is U+0041 U+0308). However, most code pages provide only composed characters.
+As discussed in <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>, Unicode allows multiple representations of the same string (interpreted linguistically). For example, Capital A with dieresis (umlaut) can be represented either precomposed as a single Unicode code point "Ä" (U+00C4) or decomposed as the combination of Capital A and the combining dieresis character ("A" + "¨", that is U+0041 U+0308). However, most code pages provide only composed characters.
 
-The WC_COMPOSITECHECK flag causes the <b>WideCharToMultiByte</b> function to test for decomposed Unicode characters and attempts to compose them before converting them to the requested code page. This flag is only available for conversion to <a href="https://docs.microsoft.com/windows/desktop/Intl/single-byte-character-sets">single byte (SBCS)</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/double-byte-character-sets">double byte (DBCS)</a> code pages (code pages &lt; 50000, excluding code page 42). If your application needs to convert decomposed Unicode data to single byte or double byte code pages, this flag might be useful. However, not all characters can be converted this way and it is more reliable to save and store such data as Unicode.
+The WC_COMPOSITECHECK flag causes the <b>WideCharToMultiByte</b> function to test for decomposed Unicode characters and attempts to compose them before converting them to the requested code page. This flag is only available for conversion to <a href="/windows/desktop/Intl/single-byte-character-sets">single byte (SBCS)</a> or <a href="/windows/desktop/Intl/double-byte-character-sets">double byte (DBCS)</a> code pages (code pages &lt; 50000, excluding code page 42). If your application needs to convert decomposed Unicode data to single byte or double byte code pages, this flag might be useful. However, not all characters can be converted this way and it is more reliable to save and store such data as Unicode.
 
 When an application is using WC_COMPOSITECHECK, some character combinations might remain incomplete or might have additional nonspacing characters left over. For example, A + ¨ + ¨ combines to Ä + ¨. Using the WC_DISCARDNS flag causes the function to discard additional nonspacing characters. Using the WC_DEFAULTCHAR flag causes the function to use the default replacement character (typically "?") instead. Using the WC_SEPCHARS flag causes the function to attempt to convert each additional nonspacing character to the target code page. Usually this flag also causes the use of the replacement character ("?"). However, for code page 1258 (Vietnamese) and 20269, nonspacing characters exist and can be used. The conversions for these code pages are not perfect. Some combinations do not convert correctly to code page 1258, and WC_COMPOSITECHECK corrupts data in code page 20269. As mentioned earlier, it is more reliable to design your application to save and store such data as Unicode.
 
+## Examples
 
-
+```cpp
+ISDSC_STATUS DiscpUnicodeToAnsiSize(
+    IN __in PWCHAR UnicodeString,
+    OUT ULONG *AnsiSizeInBytes
+    )
+/*++
+Routine Description:
+    This routine will return the length needed to represent the unicode
+    string as ANSI
+Arguments:
+    UnicodeString is the unicode string whose ansi length is returned
+    *AnsiSizeInBytes is number of bytes needed to represent unicode
+        string as ANSI
+Return Value:
+    ERROR_SUCCESS or error code
+--*/
+{
+    _try
+    {
+        *AnsiSizeInBytes = WideCharToMultiByte(CP_ACP,
+                                               0,
+                                               UnicodeString,
+                                               -1,
+                                               NULL,
+                                               0, NULL, NULL);
+    } _except(EXCEPTION_EXECUTE_HANDLER) {
+        return(ERROR_NOACCESS);
+    }
+    return((*AnsiSizeInBytes == 0) ? GetLastError() : ERROR_SUCCESS);
+}
+```
 
 ## -see-also
 
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
+<a href="/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-functions">Unicode and Character Set Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/unicode-and-character-sets">Unicode and Character Sets</a>

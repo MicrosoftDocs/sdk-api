@@ -2,15 +2,12 @@
 UID: NF:tdh.TdhGetEventInformation
 title: TdhGetEventInformation function (tdh.h)
 description: Retrieves metadata about an event.
+helpviewer_keywords: ["TdhGetEventInformation","TdhGetEventInformation function [ETW]","etw.tdhgeteventinformation_func","tdh.tdhgeteventinformation_func","tdh/TdhGetEventInformation"]
 old-location: etw\tdhgeteventinformation_func.htm
 tech.root: ETW
 ms.assetid: 81542550-79aa-4d67-a472-ac3ee3a3ce63
 ms.date: 12/05/2018
 ms.keywords: TdhGetEventInformation, TdhGetEventInformation function [ETW], etw.tdhgeteventinformation_func, tdh.tdhgeteventinformation_func, tdh/TdhGetEventInformation
-f1_keywords:
-- tdh/TdhGetEventInformation
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- API-MS-Win-Eventing-Tdh-L1-1-0.dll
-- MinTdh.dll
-api_name:
-- TdhGetEventInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhGetEventInformation
+ - tdh/TdhGetEventInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - API-MS-Win-Eventing-Tdh-L1-1-0.dll
+ - MinTdh.dll
+api_name:
+ - TdhGetEventInformation
 ---
 
 # TdhGetEventInformation function
@@ -50,43 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves metadata about an event.
-
 
 ## -parameters
 
-
-
-
 ### -param Event [in]
 
-The event record passed to your <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure.
-
+The event record passed to your <a href="/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback. For details, see the <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure.
 
 ### -param TdhContextCount [in]
 
 Number of elements in <i>pTdhContext</i>.
 
-
 ### -param TdhContext [in]
 
-Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
-
+Array of context values for WPP or classic ETW events only; otherwise, <b>NULL</b>. For details, see the <a href="/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a> structure.  The array must not contain duplicate context types.
 
 ### -param Buffer [out]
 
-User-allocated buffer to receive the event information. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure.
-
+User-allocated buffer to receive the event information. For details, see the <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a> structure.
 
 ### -param BufferSize [in, out]
 
 Size, in bytes, of the <i>pBuffer</i> buffer. If the function succeeds, this parameter receives the size of the buffer used. If the buffer is too small, the function returns ERROR_INSUFFICIENT_BUFFER and sets this parameter to the required buffer size. If the buffer size is zero on input, no data is returned in the buffer and this parameter receives the required buffer size.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -151,37 +141,21 @@ The WMI service is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If the event is a WPP or legacy ETW event, you can specify context information that is used to help parse the event information. The event is a WPP event if the EVENT_HEADER_FLAG_TRACE_MESSAGE flag is set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> (see the <b>EventHeader</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>). The event is a legacy ETW event if the EVENT_HEADER_FLAG_CLASSIC_HEADER flag is set.
+If the event is a WPP or legacy ETW event, you can specify context information that is used to help parse the event information. The event is a WPP event if the EVENT_HEADER_FLAG_TRACE_MESSAGE flag is set in the <b>Flags</b> member of <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> (see the <b>EventHeader</b> member of <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>). The event is a legacy ETW event if the EVENT_HEADER_FLAG_CLASSIC_HEADER flag is set.
 
 
 #### Examples
 
-For an example that shows how to retrieve metadata about an event, see <a href="https://docs.microsoft.com/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a>.
+For an example that shows how to retrieve metadata about an event, see <a href="/windows/desktop/ETW/using-tdhformatproperty-to-consume-event-data">Using TdhFormatProperty to Consume Event Data</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a>
 
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventmapinformation">TdhGetEventMapInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhgetproperty">TdhGetProperty</a>

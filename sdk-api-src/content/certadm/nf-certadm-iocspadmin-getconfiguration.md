@@ -2,15 +2,12 @@
 UID: NF:certadm.IOCSPAdmin.GetConfiguration
 title: IOCSPAdmin::GetConfiguration (certadm.h)
 description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.
+helpviewer_keywords: ["GetConfiguration","GetConfiguration method [Security]","GetConfiguration method [Security]","IOCSPAdmin interface","IOCSPAdmin interface [Security]","GetConfiguration method","IOCSPAdmin.GetConfiguration","IOCSPAdmin::GetConfiguration","certadm/IOCSPAdmin::GetConfiguration","security.iocspadmin_getconfiguration_method"]
 old-location: security\iocspadmin_getconfiguration_method.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
 ms.date: 12/05/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Security], GetConfiguration method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetConfiguration method, IOCSPAdmin.GetConfiguration, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
-f1_keywords:
-- certadm/IOCSPAdmin.GetConfiguration
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPAdmin.GetConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPAdmin::GetConfiguration
+ - certadm/IOCSPAdmin::GetConfiguration
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPAdmin.GetConfiguration
 ---
 
 # IOCSPAdmin::GetConfiguration
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetConfiguration</b> method connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an <b>OCSPAdmin</b> object with the configuration information from the server.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrServerName [in]
 
 A string that contains the responder-server name.
-
 
 ### -param bForce [in]
 
@@ -83,23 +79,16 @@ A string that contains the responder-server name.
 
 ## -returns
 
-
-
 <h3>VB</h3>
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 If the method returns <b>HRESULT_FROM_WIN32(ERROR_INVALID_STATE)</b>, the configuration is already initialized.
 
 If the method returns <b>E_INVALIDARG</b>, the <i>pVal</i> parameter was set to <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The following table lists the effects of the <i>bForce</i> parameter value on the method call.
 
@@ -183,16 +172,6 @@ This method attempts to read the configuration from a running instance of an OCS
 
 The method fails if you try to call it more than once for a given <b>OCSPAdmin</b> object. Each instance of <b>OCSPAdmin</b> corresponds to one responder server. To connect to another server in an array of OCSP responder servers, create a new instance of an <b>OCSPAdmin</b> object.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>

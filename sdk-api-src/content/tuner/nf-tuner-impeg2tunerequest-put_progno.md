@@ -2,15 +2,12 @@
 UID: NF:tuner.IMPEG2TuneRequest.put_ProgNo
 title: IMPEG2TuneRequest::put_ProgNo (tuner.h)
 description: The put_ProgNo method sets the program number ID.
+helpviewer_keywords: ["IMPEG2TuneRequest interface [Microsoft TV Technologies]","put_ProgNo method","IMPEG2TuneRequest.put_ProgNo","IMPEG2TuneRequest::put_ProgNo","IMPEG2TuneRequestput_ProgNo","mstv.impeg2tunerequest_put_progno","put_ProgNo","put_ProgNo method [Microsoft TV Technologies]","put_ProgNo method [Microsoft TV Technologies]","IMPEG2TuneRequest interface","tuner/IMPEG2TuneRequest::put_ProgNo"]
 old-location: mstv\impeg2tunerequest_put_progno.htm
 tech.root: mstv
 ms.assetid: 08fc9cc1-52b7-4782-96a1-af00a76ff6c6
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],put_ProgNo method, IMPEG2TuneRequest.put_ProgNo, IMPEG2TuneRequest::put_ProgNo, IMPEG2TuneRequestput_ProgNo, mstv.impeg2tunerequest_put_progno, put_ProgNo, put_ProgNo method [Microsoft TV Technologies], put_ProgNo method [Microsoft TV Technologies],IMPEG2TuneRequest interface, tuner/IMPEG2TuneRequest::put_ProgNo
-f1_keywords:
-- tuner/IMPEG2TuneRequest.put_ProgNo
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IMPEG2TuneRequest.put_ProgNo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMPEG2TuneRequest::put_ProgNo
+ - tuner/IMPEG2TuneRequest::put_ProgNo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IMPEG2TuneRequest.put_ProgNo
 ---
 
 # IMPEG2TuneRequest::put_ProgNo
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_ProgNo</b> method sets the program number ID.
 
-
 ## -parameters
-
-
-
 
 ### -param ProgNo [in]
 
 Specifies the program number ID.
 
-
 ## -returns
-
-
 
 Returns S_OK if successful. If the method fails, error information can be retrieved using the standard COM <b>IErrorInfo</b> interface.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequest">IMPEG2TuneRequest Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequest">IMPEG2TuneRequest Interface</a>

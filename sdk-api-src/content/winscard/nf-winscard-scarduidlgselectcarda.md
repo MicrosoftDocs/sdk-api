@@ -1,16 +1,13 @@
 ---
 UID: NF:winscard.SCardUIDlgSelectCardA
 title: SCardUIDlgSelectCardA function (winscard.h)
-description: Displays the smart card Select Card dialog box.
+description: Displays the smart card Select Card dialog box. (ANSI)
+helpviewer_keywords: ["SCardUIDlgSelectCardA", "winscard/SCardUIDlgSelectCardA"]
 old-location: security\scarduidlgselectcard.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
 ms.date: 12/05/2018
 ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW
-f1_keywords:
-- winscard/SCardUIDlgSelectCard
-dev_langs:
-- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Scarddlg.lib
 req.dll: Scarddlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Scarddlg.dll
-api_name:
-- SCardUIDlgSelectCard
-- SCardUIDlgSelectCardA
-- SCardUIDlgSelectCardW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SCardUIDlgSelectCardA
+ - winscard/SCardUIDlgSelectCardA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Scarddlg.dll
+api_name:
+ - SCardUIDlgSelectCard
+ - SCardUIDlgSelectCardA
+ - SCardUIDlgSelectCardW
 ---
 
 # SCardUIDlgSelectCardA function
@@ -50,39 +52,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SCardUIDlgSelectCard</b> function displays the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a><b> Select Card</b> dialog box.
-
+The <b>SCardUIDlgSelectCard</b> function displays the <a href="/windows/desktop/SecGloss/s-gly">smart card</a><b> Select Card</b> dialog box.
 
 ## -parameters
 
-
-
-
-### -param Arg1 [in]
+### -param unnamedParam1 [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.
-
+<a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.
 
 ## -returns
-
-
 
 If the function successfully displays the 
 						<b>Select Card</b> dialog box, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
-
-
-
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 ## -remarks
 
-
-
-The <b>SCardUIDlgSelectCard</b> function provides a method for connecting to a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a>. When called, this function performs a search for appropriate smart cards matching the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencard_search_criteriaa">OPENCARD_SEARCH_CRITERIA</a> member specified by the <i>pDlgStruc</i> parameter. Depending on the <b>dwFlags</b> member of <b>pDlgStruc</b>, this function takes the following actions.
+The <b>SCardUIDlgSelectCard</b> function provides a method for connecting to a specific <a href="/windows/desktop/SecGloss/s-gly">smart card</a>. When called, this function performs a search for appropriate smart cards matching the <a href="/windows/desktop/api/winscard/ns-winscard-opencard_search_criteriaa">OPENCARD_SEARCH_CRITERIA</a> member specified by the <i>pDlgStruc</i> parameter. Depending on the <b>dwFlags</b> member of <b>pDlgStruc</b>, this function takes the following actions.
 
 <table>
 <tr>
@@ -123,7 +112,7 @@ Selects the first available card.
  
 
 This function replaces 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-getopencardnamea">GetOpenCardName</a>. The <b>GetOpenCardName</b> function is maintained for backward compatibility with version 1.0 of the Microsoft Smart Card Base Components.
+<a href="/windows/desktop/api/winscard/nf-winscard-getopencardnamea">GetOpenCardName</a>. The <b>GetOpenCardName</b> function is maintained for backward compatibility with version 1.0 of the Microsoft Smart Card Base Components.
 
 
 #### Examples
@@ -176,13 +165,10 @@ else
 
 
 
+
+> [!NOTE]
+> The winscard.h header defines SCardUIDlgSelectCard as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winscard/ns-winscard-opencardname_exa">OPENCARDNAME_EX</a>

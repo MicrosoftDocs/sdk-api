@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnRegistrationEvents.OnPacketServiceStateChange
 title: IMbnRegistrationEvents::OnPacketServiceStateChange (mbnapi.h)
 description: Notification method called by the Mobile Broadband service to indicate a change in the device packet service state.
+helpviewer_keywords: ["IMbnRegistrationEvents interface [Microsoft Broadband Networks]","OnPacketServiceStateChange method","IMbnRegistrationEvents.OnPacketServiceStateChange","IMbnRegistrationEvents::OnPacketServiceStateChange","OnPacketServiceStateChange","OnPacketServiceStateChange method [Microsoft Broadband Networks]","OnPacketServiceStateChange method [Microsoft Broadband Networks]","IMbnRegistrationEvents interface","mbn.imbnregistrationevents_onpacketservicestatechange","mbnapi/IMbnRegistrationEvents::OnPacketServiceStateChange"]
 old-location: mbn\imbnregistrationevents_onpacketservicestatechange.htm
 tech.root: mbn
 ms.assetid: 19199009-a4ac-4bf9-adfc-46c06d861485
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistrationEvents interface [Microsoft Broadband Networks],OnPacketServiceStateChange method, IMbnRegistrationEvents.OnPacketServiceStateChange, IMbnRegistrationEvents::OnPacketServiceStateChange, OnPacketServiceStateChange, OnPacketServiceStateChange method [Microsoft Broadband Networks], OnPacketServiceStateChange method [Microsoft Broadband Networks],IMbnRegistrationEvents interface, mbn.imbnregistrationevents_onpacketservicestatechange, mbnapi/IMbnRegistrationEvents::OnPacketServiceStateChange
-f1_keywords:
-- mbnapi/IMbnRegistrationEvents.OnPacketServiceStateChange
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnRegistrationEvents.OnPacketServiceStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnRegistrationEvents::OnPacketServiceStateChange
+ - mbnapi/IMbnRegistrationEvents::OnPacketServiceStateChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnRegistrationEvents.OnPacketServiceStateChange
 ---
 
 # IMbnRegistrationEvents::OnPacketServiceStateChange
@@ -53,43 +55,21 @@ ms.custom: 19H1
 
 Notification method called by the Mobile Broadband service to indicate a change in the device packet service state.
 
-
 ## -parameters
-
-
-
 
 ### -param newInterface [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface that represents the device whose packet service state has changed.
-
+Pointer to an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface that represents the device whose packet service state has changed.
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
-
-
-
 
 ## -remarks
 
-
-
 The <b>OnPacketServiceStateChange</b> method is called by the Mobile Broadband service to signal a change in the packet service state of the device. This can occur if	there is a change in the current data class, the available data class, or a packet attach network error.
-An application can use the passed <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface to get updated state values.
-
-
-
+An application can use the passed <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a> interface to get updated state values.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>

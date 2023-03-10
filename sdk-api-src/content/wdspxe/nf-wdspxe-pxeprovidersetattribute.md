@@ -2,15 +2,12 @@
 UID: NF:wdspxe.PxeProviderSetAttribute
 title: PxeProviderSetAttribute function (wdspxe.h)
 description: Specifies attributes for the provider.
+helpviewer_keywords: ["PXE_PROV_ATTR_FILTER","PXE_PROV_ATTR_FILTER_IPV6","PXE_PROV_ATTR_IPV6_CAPABLE","PXE_PROV_FILTER_ALL","PXE_PROV_FILTER_DHCP_ONLY","PXE_PROV_FILTER_PXE_ONLY","PxeProviderSetAttribute","PxeProviderSetAttribute function [Windows Deployment Services]","wds.pxeprovidersetattribute","wdspxe/PxeProviderSetAttribute"]
 old-location: wds\pxeprovidersetattribute.htm
 tech.root: wds
 ms.assetid: 01f7b50b-966b-4ff9-b933-851eaf1f1411
 ms.date: 12/05/2018
 ms.keywords: PXE_PROV_ATTR_FILTER, PXE_PROV_ATTR_FILTER_IPV6, PXE_PROV_ATTR_IPV6_CAPABLE, PXE_PROV_FILTER_ALL, PXE_PROV_FILTER_DHCP_ONLY, PXE_PROV_FILTER_PXE_ONLY, PxeProviderSetAttribute, PxeProviderSetAttribute function [Windows Deployment Services], wds.pxeprovidersetattribute, wdspxe/PxeProviderSetAttribute
-f1_keywords:
-- wdspxe/PxeProviderSetAttribute
-dev_langs:
-- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WdsPxe.dll
-api_name:
-- PxeProviderSetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PxeProviderSetAttribute
+ - wdspxe/PxeProviderSetAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WdsPxe.dll
+api_name:
+ - PxeProviderSetAttribute
 ---
 
 # PxeProviderSetAttribute function
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies attributes for the provider.
 
-
 ## -parameters
-
-
-
 
 ### -param hProvider [in]
 
 <b>HANDLE</b> passed to 
-      the <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
-
+      the <a href="/windows/desktop/Wds/pxeproviderinitialize">PxeProviderInitialize</a> function.
 
 ### -param Attribute [in]
 
@@ -106,8 +102,6 @@ Pointer to a <b>BOOL</b> value that is TRUE to indicate the provider is capable 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pParameterBuffer [in]
 
@@ -159,34 +153,19 @@ Provider will see only DHCP packets that specify the DHCP Vendor Class Identifie
 </td>
 </tr>
 </table>
- 
-
 
 ### -param uParamLen [in]
 
 The size of the buffer pointed to by the <i>pParameterBuffer</i> parameter.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

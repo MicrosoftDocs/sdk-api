@@ -2,15 +2,12 @@
 UID: NC:mswsock.LPFN_RIOCREATEREQUESTQUEUE
 title: LPFN_RIOCREATEREQUESTQUEUE
 description: Creates a registered I/O socket descriptor using a specified socket and I/O completion queues for use with the Winsock registered I/O extensions.
+helpviewer_keywords: ["LPFN_RIOCREATEREQUESTQUEUE"]
 old-location: 
 tech.root: WinSock
 ms.assetid: CB69E0B6-519D-4268-A09B-196BBB6EB460
-ms.date: 01/30/19
+ms.date: 01/30/2019
 ms.keywords: LPFN_RIOCREATEREQUESTQUEUE
-f1_keywords:
-- mswsock/LPFN_RIOCREATEREQUESTQUEUE
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,14 +28,19 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - LPFN_RIOCREATEREQUESTQUEUE
+ - mswsock/LPFN_RIOCREATEREQUESTQUEUE
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- mswsock.h
+ - mswsock.h
 api_name:
-- LPFN_RIOCREATEREQUESTQUEUE
+ - LPFN_RIOCREATEREQUESTQUEUE
 ---
 
 ## -description
@@ -91,7 +93,7 @@ The socket context to associate with this request queue.
 
 ## -returns
 
-If no error occurs, the **RIOCreateRequestQueue** function returns a descriptor referencing a new request queue. Otherwise, a value of **RIO\_INVALID\_RQ** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) function.
+If no error occurs, the **RIOCreateRequestQueue** function returns a descriptor referencing a new request queue. Otherwise, a value of **RIO\_INVALID\_RQ** is returned, and a specific error code can be retrieved by calling the [**WSAGetLastError**](../winsock/nf-winsock-wsagetlasterror.md) function.
 
 
 
@@ -102,27 +104,23 @@ If no error occurs, the **RIOCreateRequestQueue** function returns a descriptor 
 | <dl> <dt>**[WSAENOTSOCK](/windows/win32/winsock/windows-sockets-error-codes-2#wsaenotsock)**</dt> </dl>     | The descriptor is not a socket. This error is returned if the *Socket* parameter is not a valid socket.<br/>                                                                                                                                                                                                                                                                                         |
 | <dl> <dt>**[WSAEOPNOTSUPP](/windows/win32/winsock/windows-sockets-error-codes-2#wsaeopnotsupp)**</dt> </dl> | The attempted operation is not supported for the type of object referenced. This error is returned for a socket in the *Socket* parameter for an unsupported socket type (**SOCK\_RAW**, for example)<br/>                                                                                                                                                                                           |
 
-
-
- 
-
 ## -remarks
 
-The **RIOCreateRequestQueue** function creates a registered I/O socket descriptor using a specified socket and I/O completion queues. An application must call **RIOCreateRequestQueue** to obtain a [**RIO\_RQ**](/windows/win32/winsock/riorqueue) for a Winsock socket before the application can use the [**RIOSend**](/windows/win32/winsock/riosend), [**RIOSendEx**](/windows/win32/winsock/riosendex), [**RIOReceive**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceive), or [**RIOReceiveEx**](/windows/win32/api/mswsock/nc-mswsock-lpfn_rioreceiveex) functions. In order to obtain a **RIO\_RQ**, the Winsock socket must be associated with completion queues for send and receive, although the same completion queue can be used for both.
+The **RIOCreateRequestQueue** function creates a registered I/O socket descriptor using a specified socket and I/O completion queues. An application must call **RIOCreateRequestQueue** to obtain a [**RIO\_RQ**](/windows/win32/winsock/riorqueue) for a Winsock socket before the application can use the [**RIOSend**](./nc-mswsock-lpfn_riosend.md), [**RIOSendEx**](./nc-mswsock-lpfn_riosendex.md), [**RIOReceive**](./nc-mswsock-lpfn_rioreceive.md), or [**RIOReceiveEx**](./nc-mswsock-lpfn_rioreceiveex.md) functions. In order to obtain a **RIO\_RQ**, the Winsock socket must be associated with completion queues for send and receive, although the same completion queue can be used for both.
 
 Due to the finite size of completion queues, a socket may only be associated with a completion queue for send and receive operations if it guarantees not to exceed the capacity for total queued completions. Therefore, socket specific limits are established by the call to the **RIOCreateRequestQueue** function. These limits are used both during the **RIOCreateRequestQueue** call to verify sufficient space in the completion queues to accommodate the socket requests and during request initiation time to make sure that the request does not cause the socket to exceed its limits.
 
-The send and receive queues can be associated with multiple sockets. The sizes of the send and receive queues must be greater than or equal to the send and receive sizes of all attached sockets. As request queues are closed by closing the sockets using the the [**closesocket**](/windows/win32/api/winsock/nf-winsock-closesocket) function, those slots will be freed up for use by other sockets.
+The send and receive queues can be associated with multiple sockets. The sizes of the send and receive queues must be greater than or equal to the send and receive sizes of all attached sockets. As request queues are closed by closing the sockets using the the [**closesocket**](../winsock/nf-winsock-closesocket.md) function, those slots will be freed up for use by other sockets.
 
 > [!Note]  
 > For purposes of efficiency, access to the completion queues ([**RIO\_CQ**](/windows/win32/winsock/riocqueue) structs) and request queues ([**RIO\_RQ**](/windows/win32/winsock/riorqueue) structs) are not protected by synchronization primitives. If you need to access a completion or request queue from multiple threads, access should be coordinated by a critical section, slim reader write lock or similar mechanism. This locking is not needed for access by a single thread. Different threads can access separate requests/completion queues without locks. The need for synchronization occurs only when multiple threads try to access the same queue. Synchronization is also required if multiple threads issue sends and receives on the same socket because the send and receive operations use the socket’s request queue.
 
  
 
-When an application is finished using the [**RIO\_RQ**](/windows/win32/winsock/riorqueue), the application should call the [**closesocket**](/windows/win32/api/winsock/nf-winsock-closesocket) function to close the socket and free the associated resources.
+When an application is finished using the [**RIO\_RQ**](/windows/win32/winsock/riorqueue), the application should call the [**closesocket**](../winsock/nf-winsock-closesocket.md) function to close the socket and free the associated resources.
 
 > [!Note]  
-> The function pointer to the **RIOCreateRequestQueue** function must be obtained at run time by making a call to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
+> The function pointer to the **RIOCreateRequestQueue** function must be obtained at run time by making a call to the [**WSAIoctl**](../winsock2/nf-winsock2-wsaioctl.md) function with the **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** opcode specified. The input buffer passed to the **WSAIoctl** function must contain **WSAID\_MULTIPLE\_RIO**, a globally unique identifier (GUID) whose value identifies the Winsock registered I/O extension functions. On success, the output returned by the **WSAIoctl** function contains a pointer to the [**RIO\_EXTENSION\_FUNCTION\_TABLE**](./ns-mswsock-rio_extension_function_table.md) structure that contains pointers to the Winsock registered I/O extension functions. The **SIO\_GET\_MULTIPLE\_EXTENSION\_FUNCTION\_POINTER** IOCTL is defined in the *Ws2def.h* header file. The **WSAID\_MULTIPLE\_RIO** GUID is defined in the *Mswsock.h* header file.
 
  
 
@@ -130,6 +128,4 @@ When an application is finished using the [**RIO\_RQ**](/windows/win32/winsock/r
 
 **Windows 8.1** and **Windows Server 2012 R2**: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
 ## -see-also
-

@@ -2,15 +2,12 @@
 UID: NF:dxgidebug.IDXGIInfoQueue.SetMuteDebugOutput
 title: IDXGIInfoQueue::SetMuteDebugOutput (dxgidebug.h)
 description: Turns the debug output on or off.
+helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","SetMuteDebugOutput method","IDXGIInfoQueue.SetMuteDebugOutput","IDXGIInfoQueue::SetMuteDebugOutput","SetMuteDebugOutput","SetMuteDebugOutput method [DXGI]","SetMuteDebugOutput method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_setmutedebugoutput","dxgidebug/IDXGIInfoQueue::SetMuteDebugOutput"]
 old-location: direct3ddxgi\idxgiinfoqueue_setmutedebugoutput.htm
 tech.root: direct3ddxgi
 ms.assetid: F01E8BCC-CF82-4008-9829-C7EE4AD2973C
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetMuteDebugOutput method, IDXGIInfoQueue.SetMuteDebugOutput, IDXGIInfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method [DXGI], SetMuteDebugOutput method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setmutedebugoutput, dxgidebug/IDXGIInfoQueue::SetMuteDebugOutput
-f1_keywords:
-- dxgidebug/IDXGIInfoQueue.SetMuteDebugOutput
-dev_langs:
-- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: DXGIDebug.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGIDebug.dll
-api_name:
-- IDXGIInfoQueue.SetMuteDebugOutput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIInfoQueue::SetMuteDebugOutput
+ - dxgidebug/IDXGIInfoQueue::SetMuteDebugOutput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGIDebug.dll
+api_name:
+ - IDXGIInfoQueue.SetMuteDebugOutput
 ---
 
 # IDXGIInfoQueue::SetMuteDebugOutput
@@ -48,50 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Turns the debug output on or off.
-
 
 ## -parameters
 
-
-
-
 ### -param Producer [in]
 
- A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the mute status.
-
+ A <a href="/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the mute status.
 
 ### -param bMute [in]
 
 A Boolean value that specifies whether to turn the debug output on or off (<b>TRUE</b> for on, <b>FALSE</b> for off).
 
-
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>

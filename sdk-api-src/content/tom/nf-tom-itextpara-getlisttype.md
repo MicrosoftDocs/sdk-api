@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.GetListType
 title: ITextPara::GetListType (tom.h)
 description: Retrieves the kind of numbering to use with paragraphs.
+helpviewer_keywords: ["GetListType","GetListType method [Windows Controls]","GetListType method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetListType method","ITextPara.GetListType","ITextPara::GetListType","_win32_ITextPara_GetListType","_win32_ITextPara_GetListType_cpp","controls.ITextPara_GetListType","controls._win32_ITextPara_GetListType","tom/ITextPara::GetListType","tomListBullet","tomListMinus","tomListNone","tomListNumberAsArabic","tomListNumberAsLCLetter","tomListNumberAsLCRoman","tomListNumberAsSequence","tomListNumberAsUCLetter","tomListNumberAsUCRoman","tomListNumberedArabic1","tomListNumberedArabic2","tomListNumberedArabicWide","tomListNumberedBlackCircleWingding","tomListNumberedChS","tomListNumberedChT","tomListNumberedCircle","tomListNumberedHebrew","tomListNumberedHindiAlpha","tomListNumberedHindiAlpha1","tomListNumberedHindiNum","tomListNumberedJpnChs","tomListNumberedJpnKor","tomListNumberedThaiAlpha","tomListNumberedThaiNum","tomListNumberedWhiteCircleWingding","tomListParentheses","tomListPeriod","tomListPlain"]
 old-location: controls\ITextPara_GetListType.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttype.htm
 ms.date: 12/05/2018
 ms.keywords: GetListType, GetListType method [Windows Controls], GetListType method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListType method, ITextPara.GetListType, ITextPara::GetListType, _win32_ITextPara_GetListType, _win32_ITextPara_GetListType_cpp, controls.ITextPara_GetListType, controls._win32_ITextPara_GetListType, tom/ITextPara::GetListType, tomListBullet, tomListMinus, tomListNone, tomListNumberAsArabic, tomListNumberAsLCLetter, tomListNumberAsLCRoman, tomListNumberAsSequence, tomListNumberAsUCLetter, tomListNumberAsUCRoman, tomListNumberedArabic1, tomListNumberedArabic2, tomListNumberedArabicWide, tomListNumberedBlackCircleWingding, tomListNumberedChS, tomListNumberedChT, tomListNumberedCircle, tomListNumberedHebrew, tomListNumberedHindiAlpha, tomListNumberedHindiAlpha1, tomListNumberedHindiNum, tomListNumberedJpnChs, tomListNumberedJpnKor, tomListNumberedThaiAlpha, tomListNumberedThaiNum, tomListNumberedWhiteCircleWingding, tomListParentheses, tomListPeriod, tomListPlain
-f1_keywords:
-- tom/ITextPara.GetListType
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetListType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetListType
+ - tom/ITextPara::GetListType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetListType
 ---
 
 # ITextPara::GetListType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the kind of numbering to use with paragraphs. 
-
+Retrieves the kind of numbering to use with paragraphs.
 
 ## -parameters
-
-
-
 
 ### -param pValue
 
@@ -264,14 +261,11 @@ By default, numbers are followed by a right parenthesis, for example: 1). Howeve
 
 #### tomListPlain
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If <b>ITextPara::GetListType</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetListType</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -301,18 +295,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Values above 32 correspond to Unicode values for bullets. 
 
-The mobile Microsoft Office version of the rich edit control uses <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomIgnoreNumberStyle</a> to suppress setting the style.
+The mobile Microsoft Office version of the rich edit control uses <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomIgnoreNumberStyle</a> to suppress setting the style.
 
 The following Microsoft Visual Basic for Applications (VBA) example numbers the paragraphs in a range, starting with the number 2 and following the numbers with a period.
             
@@ -324,25 +312,19 @@ The following Microsoft Visual Basic for Applications (VBA) example numbers the 
 ```
 
 
-For an example of <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="https://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
-
-
-
+For an example of <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="https://www.unicode.org/standard/standard.html">Unicode Standard</a> has examples of many more numbering sequences.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getliststart">GetListStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getliststart">GetListStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -350,16 +332,12 @@ For an example of <a href="https://docs.microsoft.com/windows/win32/api/tom/ne-t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setliststart">SetListStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setlisttype">SetListType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

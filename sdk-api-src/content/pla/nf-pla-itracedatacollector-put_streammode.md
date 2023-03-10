@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_StreamMode
 title: ITraceDataCollector::put_StreamMode (pla.h)
-description: Retrieves or sets the logging mode of the trace session.
+description: Retrieves or sets the logging mode of the trace session. (Put)
+helpviewer_keywords: ["ITraceDataCollector interface [PLA]","StreamMode property","ITraceDataCollector.StreamMode","ITraceDataCollector.put_StreamMode","ITraceDataCollector::StreamMode","ITraceDataCollector::get_StreamMode","ITraceDataCollector::put_StreamMode","StreamMode property [PLA]","StreamMode property [PLA]","ITraceDataCollector interface","base.itracedatacollector_streammode","pla.itracedatacollector_streammode","pla/ITraceDataCollector::StreamMode","pla/ITraceDataCollector::get_StreamMode","pla/ITraceDataCollector::put_StreamMode","put_StreamMode"]
 old-location: pla\itracedatacollector_streammode.htm
 tech.root: PLA
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceDataCollector.StreamMode, ITraceDataCollector.put_StreamMode, ITraceDataCollector::StreamMode, ITraceDataCollector::get_StreamMode, ITraceDataCollector::put_StreamMode, StreamMode property [PLA], StreamMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_streammode, pla.itracedatacollector_streammode, pla/ITraceDataCollector::StreamMode, pla/ITraceDataCollector::get_StreamMode, pla/ITraceDataCollector::put_StreamMode, put_StreamMode
-f1_keywords:
-- pla/ITraceDataCollector.StreamMode
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- ITraceDataCollector.StreamMode
-- ITraceDataCollector.get_StreamMode
-- ITraceDataCollector.put_StreamMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceDataCollector::put_StreamMode
+ - pla/ITraceDataCollector::put_StreamMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - ITraceDataCollector.StreamMode
+ - ITraceDataCollector.get_StreamMode
+ - ITraceDataCollector.put_StreamMode
 ---
 
 # ITraceDataCollector::put_StreamMode
@@ -50,26 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the logging mode of the trace session.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-streammode">StreamMode</a>
- 
-
- 
-
+<a href="/windows/win32/api/pla/ne-pla-streammode">StreamMode</a>

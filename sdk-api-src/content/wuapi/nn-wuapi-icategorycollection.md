@@ -2,15 +2,12 @@
 UID: NN:wuapi.ICategoryCollection
 title: ICategoryCollection (wuapi.h)
 description: Represents an ordered read-only list of ICategory interfaces.
+helpviewer_keywords: ["ICategoryCollection","ICategoryCollection interface [Windows Update Agent]","ICategoryCollection interface [Windows Update Agent]","described","wua.icategorycollection","wuapi/ICategoryCollection"]
 old-location: wua\icategorycollection.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 2d43ee74-f3c7-4c94-8e83-e497d3aa81ee
 ms.date: 12/05/2018
 ms.keywords: ICategoryCollection, ICategoryCollection interface [Windows Update Agent], ICategoryCollection interface [Windows Update Agent],described, wua.icategorycollection, wuapi/ICategoryCollection
-f1_keywords:
-- wuapi/ICategoryCollection
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ICategoryCollection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICategoryCollection
+ - wuapi/ICategoryCollection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ICategoryCollection
 ---
 
 # ICategoryCollection interface
@@ -48,17 +50,8 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ICategoryCollection</b> interface represents an ordered read-only list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a> interfaces.
-
+The <b>ICategoryCollection</b> interface represents an ordered read-only list of <a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a> interfaces.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

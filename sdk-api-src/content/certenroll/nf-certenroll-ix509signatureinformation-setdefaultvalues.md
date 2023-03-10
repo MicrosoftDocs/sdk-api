@@ -2,15 +2,12 @@
 UID: NF:certenroll.IX509SignatureInformation.SetDefaultValues
 title: IX509SignatureInformation::SetDefaultValues (certenroll.h)
 description: Specifies a default hashing algorithm used to create a digest of the certificate request prior to signing.
+helpviewer_keywords: ["IX509SignatureInformation interface [Security]","SetDefaultValues method","IX509SignatureInformation.SetDefaultValues","IX509SignatureInformation::SetDefaultValues","SetDefaultValues","SetDefaultValues method [Security]","SetDefaultValues method [Security]","IX509SignatureInformation interface","certenroll/IX509SignatureInformation::SetDefaultValues","security.ix509signatureinformation_setdefaultvalues_method"]
 old-location: security\ix509signatureinformation_setdefaultvalues_method.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 123e65e8-62bb-4bc7-9e15-113780be81e3
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],SetDefaultValues method, IX509SignatureInformation.SetDefaultValues, IX509SignatureInformation::SetDefaultValues, SetDefaultValues, SetDefaultValues method [Security], SetDefaultValues method [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::SetDefaultValues, security.ix509signatureinformation_setdefaultvalues_method
-f1_keywords:
-- certenroll/IX509SignatureInformation.SetDefaultValues
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509SignatureInformation.SetDefaultValues
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509SignatureInformation::SetDefaultValues
+ - certenroll/IX509SignatureInformation::SetDefaultValues
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509SignatureInformation.SetDefaultValues
 ---
 
 # IX509SignatureInformation::SetDefaultValues
@@ -48,24 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetDefaultValues</b> method specifies a default hashing algorithm used to create a digest of the certificate request prior to  signing.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -85,27 +78,11 @@ The hashing algorithm  OID could not be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the hash algorithm is already set, this method performs no action. If the hash algorithm has not been specified, this method sets it to XCN_OID_OIWSEC_sha1 and clears the signature algorithm cache.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>

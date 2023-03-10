@@ -2,15 +2,12 @@
 UID: NN:documenttarget.IPrintDocumentPackageTarget
 title: IPrintDocumentPackageTarget (documenttarget.h)
 description: Allows users to enumerate the supported package target types and to create one with a given type ID. IPrintDocumentPackageTarget also supports the tracking of the package printing progress and cancelling.
+helpviewer_keywords: ["IPrintDocumentPackageTarget","IPrintDocumentPackageTarget interface [XPS Documents and Packaging]","IPrintDocumentPackageTarget interface [XPS Documents and Packaging]","described","documenttarget/IPrintDocumentPackageTarget","xps.iprintdocumentpackagetarget"]
 old-location: xps\iprintdocumentpackagetarget.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 0F63C626-DB58-4952-BBB3-7E3901429C35
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageTarget, IPrintDocumentPackageTarget interface [XPS Documents and Packaging], IPrintDocumentPackageTarget interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTarget, xps.iprintdocumentpackagetarget
-f1_keywords:
-- documenttarget/IPrintDocumentPackageTarget
-dev_langs:
-- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -28,36 +25,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- documenttarget.h
-api_name:
-- IPrintDocumentPackageTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintDocumentPackageTarget
+ - documenttarget/IPrintDocumentPackageTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - documenttarget.h
+api_name:
+ - IPrintDocumentPackageTarget
 ---
 
 # IPrintDocumentPackageTarget interface
 
-
 ## -description
-
 
 Allows users to enumerate the supported package target types and to create one with a given type ID. <b>IPrintDocumentPackageTarget</b> also supports the tracking of the package printing progress and cancelling.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDocumentPackageTarget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDocumentPackageTarget</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The <b>IPrintDocumentPackageTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDocumentPackageTarget</b> also has these types of members:
 
 ## -members
 
@@ -95,4 +91,3 @@ Enumerates the supported target types.
 </td>
 </tr>
 </table> 
-

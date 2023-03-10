@@ -2,15 +2,12 @@
 UID: NE:winevt._EVT_SEEK_FLAGS
 title: EVT_SEEK_FLAGS (winevt.h)
 description: Defines the relative position in the result set from which to seek.
+helpviewer_keywords: ["EVT_SEEK_FLAGS","EVT_SEEK_FLAGS enumeration [EventLog]","EvtSeekOriginMask","EvtSeekRelativeToBookmark","EvtSeekRelativeToCurrent","EvtSeekRelativeToFirst","EvtSeekRelativeToLast","EvtSeekStrict","wes.evt_seek_flags","winevt/EVT_SEEK_FLAGS","winevt/EvtSeekOriginMask","winevt/EvtSeekRelativeToBookmark","winevt/EvtSeekRelativeToCurrent","winevt/EvtSeekRelativeToFirst","winevt/EvtSeekRelativeToLast","winevt/EvtSeekStrict"]
 old-location: wes\evt_seek_flags.htm
 tech.root: wes
 ms.assetid: 5340815b-b94a-488b-bfa1-01dcbc15e505
 ms.date: 12/05/2018
 ms.keywords: EVT_SEEK_FLAGS, EVT_SEEK_FLAGS enumeration [EventLog], EvtSeekOriginMask, EvtSeekRelativeToBookmark, EvtSeekRelativeToCurrent, EvtSeekRelativeToFirst, EvtSeekRelativeToLast, EvtSeekStrict, wes.evt_seek_flags, winevt/EVT_SEEK_FLAGS, winevt/EvtSeekOriginMask, winevt/EvtSeekRelativeToBookmark, winevt/EvtSeekRelativeToCurrent, winevt/EvtSeekRelativeToFirst, winevt/EvtSeekRelativeToLast, winevt/EvtSeekStrict
-f1_keywords:
-- winevt/EVT_SEEK_FLAGS
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinEvt.h
-api_name:
-- EVT_SEEK_FLAGS
 targetos: Windows
 req.typenames: EVT_SEEK_FLAGS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _EVT_SEEK_FLAGS
+ - winevt/_EVT_SEEK_FLAGS
+ - EVT_SEEK_FLAGS
+ - winevt/EVT_SEEK_FLAGS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinEvt.h
+api_name:
+ - EVT_SEEK_FLAGS
 ---
 
 # EVT_SEEK_FLAGS enumeration
@@ -48,36 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the relative position in the result set from which to seek.
-
 
 ## -enum-fields
 
-
-
-
-### -field EvtSeekRelativeToFirst
+### -field EvtSeekRelativeToFirst:1
 
 Seek to the specified offset from the first entry in the result set. The offset must be a positive value.
 
-
-### -field EvtSeekRelativeToLast
+### -field EvtSeekRelativeToLast:2
 
 Seek to the specified offset from the last entry in the result set. The offset must be a negative value.
 
-
-### -field EvtSeekRelativeToCurrent
+### -field EvtSeekRelativeToCurrent:3
 
 Seek to the specified offset from the current entry in the result set. The offset can be a positive or negative value.
 
-
-### -field EvtSeekRelativeToBookmark
+### -field EvtSeekRelativeToBookmark:4
 
 Seek to the specified offset from the bookmarked entry in the result set. The offset can be a positive or negative value.
 
-
-### -field EvtSeekOriginMask
+### -field EvtSeekOriginMask:7
 
 A bitmask that you can use to determine which of the following flags is set:
 
@@ -87,14 +82,11 @@ A bitmask that you can use to determine which of the following flags is set:
 <li>EvtSeekRelativeToBookmark</li>
 </ul>
 
-### -field EvtSeekStrict
+### -field EvtSeekStrict:0x10000
 
 Force the function to fail if the event does not exist.
 
-
 ## -remarks
-
-
 
 If the offset or bookmark seeks past the boundary of the result set (past the first or last record), and EvtSeekStrict is not set, seek will return the last record within the boundary.
 
@@ -146,18 +138,7 @@ If the bookmark is within the boundaries of the result set (based on event recor
 <td>8</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.CreateDirectoryTransactedW
 title: CreateDirectoryTransactedW function (winbase.h)
-description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.
+description: Creates a new directory as a transacted operation, with the attributes of a specified template directory. (Unicode)
+helpviewer_keywords: ["CreateDirectoryTransacted", "CreateDirectoryTransacted function [Files]", "CreateDirectoryTransactedW", "fs.createdirectorytransacted", "winbase/CreateDirectoryTransacted", "winbase/CreateDirectoryTransactedW"]
 old-location: fs\createdirectorytransacted.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
 ms.date: 12/05/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
-f1_keywords:
-- winbase/CreateDirectoryTransacted
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- Kernel32Legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- CreateDirectoryTransacted
-- CreateDirectoryTransactedA
-- CreateDirectoryTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateDirectoryTransactedW
+ - winbase/CreateDirectoryTransactedW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - Ext-MS-Win-Kernel32-Transacted-l1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - Kernel32Legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - CreateDirectoryTransacted
+ - CreateDirectoryTransactedA
+ - CreateDirectoryTransactedW
 ---
 
 # CreateDirectoryTransactedW function
@@ -55,23 +57,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[Microsoft strongly recommends developers utilize alternative means to achieve your 
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Creates a new directory as a transacted operation, with the attributes of a specified template 
     directory. If the underlying file system supports security on files and directories, the function 
     applies a specified security descriptor to the new directory. The new directory retains the other attributes of 
     the specified template directory.
 
-
 ## -parameters
-
-
-
 
 ### -param lpTemplateDirectory [in, optional]
 
@@ -81,11 +78,10 @@ The path of the directory to use as a template when creating the new directory. 
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 The directory must reside on the local computer; otherwise, the function fails and the last error code is set 
        to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
-
 
 ### -param lpNewDirectory [in]
 
@@ -94,12 +90,11 @@ The path of the directory to be created.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 ### -param lpSecurityAttributes [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> 
        structure. The <b>lpSecurityDescriptor</b> member of the structure specifies a security 
        descriptor for the new directory.
 
@@ -108,24 +103,20 @@ If <i>lpSecurityAttributes</i> is <b>NULL</b>, the directory gets a
        are inherited from its parent directory.
 
 The target file system must support security on files and directories for this parameter to have an effect. 
-       This is indicated when <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> 
+       This is indicated when <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a> 
        returns <b>FS_PERSISTENT_ACLS</b>.
-
 
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
-
+      <a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible errors include the 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible errors include the 
        following.
 
 <table>
@@ -168,14 +159,8 @@ One or more intermediate directories do not exist. This function only creates th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>CreateDirectoryTransacted</b> function 
     allows you to create directories that inherit stream information from other directories. This function is useful, 
@@ -190,7 +175,7 @@ This function fails with <b>ERROR_EFS_NOT_ALLOWED_IN_TRANSACTION</b> if you try 
     child directory with a parent directory that has encryption disabled.
 
 You can obtain a handle to a directory by calling the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a> function with the 
+    <a href="/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a> function with the 
      <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag set.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -258,33 +243,30 @@ SMB 3.0 does not support TxF.
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines CreateDirectoryTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfiletransacteda">CreateFileTransacted</a>
+<a href="/windows/desktop/FileIO/creating-and-deleting-directories">Creating and Deleting Directories</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-deleting-directories">Creating and Deleting Directories</a>
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a>
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>

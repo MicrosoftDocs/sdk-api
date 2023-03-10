@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_OwnerSID
 title: IEventSubscription::get_OwnerSID (eventsys.h)
-description: The security ID of the subscription's creator.
+description: The security ID of the subscription's creator. (Get)
+helpviewer_keywords: ["IEventSubscription interface [COM+]","OwnerSID property","IEventSubscription.OwnerSID","IEventSubscription.get_OwnerSID","IEventSubscription::OwnerSID","IEventSubscription::get_OwnerSID","IEventSubscription::put_OwnerSID","OwnerSID property [COM+]","OwnerSID property [COM+]","IEventSubscription interface","cos.ieventsubscription_ownersid","eventsys/IEventSubscription::OwnerSID","eventsys/IEventSubscription::get_OwnerSID","eventsys/IEventSubscription::put_OwnerSID","get_OwnerSID"]
 old-location: cos\ieventsubscription_ownersid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: ab914aa3-04fc-424e-b799-c6268c014080
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],OwnerSID property, IEventSubscription.OwnerSID, IEventSubscription.get_OwnerSID, IEventSubscription::OwnerSID, IEventSubscription::get_OwnerSID, IEventSubscription::put_OwnerSID, OwnerSID property [COM+], OwnerSID property [COM+],IEventSubscription interface, cos.ieventsubscription_ownersid, eventsys/IEventSubscription::OwnerSID, eventsys/IEventSubscription::get_OwnerSID, eventsys/IEventSubscription::put_OwnerSID, get_OwnerSID
-f1_keywords:
-- eventsys/IEventSubscription.OwnerSID
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSubscription.OwnerSID
-- IEventSubscription.get_OwnerSID
-- IEventSubscription.put_OwnerSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSubscription::get_OwnerSID
+ - eventsys/IEventSubscription::get_OwnerSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSubscription.OwnerSID
+ - IEventSubscription.get_OwnerSID
+ - IEventSubscription.put_OwnerSID
 ---
 
 # IEventSubscription::get_OwnerSID
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The security ID of the subscription's creator.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>

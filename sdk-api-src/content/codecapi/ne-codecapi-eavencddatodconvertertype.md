@@ -2,15 +2,12 @@
 UID: NE:codecapi.eAVEncDDAtoDConverterType
 title: eAVEncDDAtoDConverterType (codecapi.h)
 description: Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the AVEncDDAtoDConverterType property.
+helpviewer_keywords: ["codecapi/eAVEncDDAtoDConverterType","codecapi/eAVEncDDAtoDConverterType_HDCD","codecapi/eAVEncDDAtoDConverterType_Standard","dshow.eavencddatodconvertertype","eAVEncDDAtoDConverterType","eAVEncDDAtoDConverterType enumeration [DirectShow]","eAVEncDDAtoDConverterType_HDCD","eAVEncDDAtoDConverterType_Standard"]
 old-location: dshow\eavencddatodconvertertype.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 74f7a54a-dae8-46d0-bc99-c42fa548f4f1
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDAtoDConverterType, codecapi/eAVEncDDAtoDConverterType_HDCD, codecapi/eAVEncDDAtoDConverterType_Standard, dshow.eavencddatodconvertertype, eAVEncDDAtoDConverterType, eAVEncDDAtoDConverterType enumeration [DirectShow], eAVEncDDAtoDConverterType_HDCD, eAVEncDDAtoDConverterType_Standard
-f1_keywords:
-- codecapi/eAVEncDDAtoDConverterType
-dev_langs:
-- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- codecapi.h
-api_name:
-- eAVEncDDAtoDConverterType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - eAVEncDDAtoDConverterType
+ - codecapi/eAVEncDDAtoDConverterType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - codecapi.h
+api_name:
+ - eAVEncDDAtoDConverterType
 ---
 
 # eAVEncDDAtoDConverterType enumeration
@@ -48,39 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencddatodconvertertype-property">AVEncDDAtoDConverterType</a> property.
-
-
-
+Specifies the type of analog-to-digital (A/D) conversion for a Dolby Digital audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencddatodconvertertype-property">AVEncDDAtoDConverterType</a> property.
 
 ## -enum-fields
 
-
-
-
-### -field eAVEncDDAtoDConverterType_Standard
+### -field eAVEncDDAtoDConverterType_Standard:0
 
 Standard.
 
-
-### -field eAVEncDDAtoDConverterType_HDCD
+### -field eAVEncDDAtoDConverterType_HDCD:1
 
 High Definition Compatible Digital (HDCD).
 
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

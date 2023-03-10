@@ -4,15 +4,17 @@ title: Ual.h header
 ms.assetid: fa81b147-e0d7-36ae-8648-c11cf8644f80
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: ual
+f1_keywords:
+ - ual
+ - ual/ual
 ---
 
 # Ual.h header
 
 
 ## -description
-
 
 This header is used by User Access Logging. For more information, see:
 

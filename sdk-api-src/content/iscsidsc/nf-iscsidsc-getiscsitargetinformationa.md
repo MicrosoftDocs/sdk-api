@@ -1,16 +1,13 @@
 ---
 UID: NF:iscsidsc.GetIScsiTargetInformationA
 title: GetIScsiTargetInformationA function (iscsidsc.h)
-description: GetIscsiTargetInformation function retrieves information about the specified target.
+description: GetIscsiTargetInformation function retrieves information about the specified target. (ANSI)
+helpviewer_keywords: ["GetIScsiTargetInformationA", "GetIscsiTargetInformationA", "iscsidsc/GetIscsiTargetInformationA"]
 old-location: iscsidisc\getiscsitargetinformation.htm
 tech.root: iSCSIDisc
 ms.assetid: 3db31d0b-ed08-432b-9c28-a700c4a9d369
 ms.date: 12/05/2018
 ms.keywords: GetIScsiTargetInformationA, GetIscsiTargetInformation, GetIscsiTargetInformation function [iSCSI Discovery Library API], GetIscsiTargetInformationA, GetIscsiTargetInformationW, iscsidisc.getiscsitargetinformation, iscsidsc/GetIscsiTargetInformation, iscsidsc/GetIscsiTargetInformationA, iscsidsc/GetIscsiTargetInformationW
-f1_keywords:
-- iscsidsc/GetIscsiTargetInformation
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- GetIscsiTargetInformation
-- GetIscsiTargetInformationA
-- GetIscsiTargetInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIScsiTargetInformationA
+ - iscsidsc/GetIScsiTargetInformationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - GetIscsiTargetInformation
+ - GetIscsiTargetInformationA
+ - GetIscsiTargetInformationW
 ---
 
 # GetIScsiTargetInformationA function
@@ -50,53 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetIscsiTargetInformation</b> function retrieves information about the specified target.
 
-
-
 ## -parameters
-
-
-
 
 ### -param TargetName [in]
 
 The name of the target for which information is retrieved.
 
-
 ### -param DiscoveryMechanism [in, optional]
 
 A text description of the mechanism that was used to discover the target (for example, "iSNS:", "SendTargets:" or "HBA:"). A value of <b>null</b> indicates that no discovery mechanism is specified.
 
-
 ### -param InfoClass [in]
 
-A value of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-target_information_class">TARGET_INFORMATION_CLASS</a> that indicates the type of information to retrieve.
-
+A value of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-target_information_class">TARGET_INFORMATION_CLASS</a> that indicates the type of information to retrieve.
 
 ### -param BufferSize [in, out]
 
-A pointer to a location that, on input, contains the size (in bytes) of the buffer that <i>Buffer</i> points to. If the operation succeeds, the location receives the number of bytes retrieved. If the operation fails, the location receives the size of the buffer required to contain the output data. 
-
+A pointer to a location that, on input, contains the size (in bytes) of the buffer that <i>Buffer</i> points to. If the operation succeeds, the location receives the number of bytes retrieved. If the operation fails, the location receives the size of the buffer required to contain the output data.
 
 ### -param Buffer [out]
 
-The buffer that contains the output data. The output data consists in <b>null</b>-terminated strings, with a double <b>null</b> termination after the last string. 
-
+The buffer that contains the output data. The output data consists in <b>null</b>-terminated strings, with a double <b>null</b> termination after the last string.
 
 ## -returns
 
-
-
 Returns ERROR_SUCCESS if successful and ERROR_INSUFFICIENT_BUFFER if the buffer size at Buffer was insufficient to contain the output data. Otherwise, <b>GetIscsiTargetInformation</b> returns the appropriate Win32 or iSCSI error code on failure.
 
-
-
-
 ## -remarks
-
-
 
 The iSCSI initiator service can acquire information about a single target through multiple discovery mechanisms and initiators, and the information can be different in each case, so the iSCSI initiator service maintains a list of <i>target instances</i> which are organized according to the discovery method.
 
@@ -109,25 +93,22 @@ Since the information associated with a target is relative to the way in which i
 
 
 
+
+> [!NOTE]
+> The iscsidsc.h header defines GetIScsiTargetInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-targetprotocoltype">TARGETPROTOCOLTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-targetprotocoltype">TARGETPROTOCOLTYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-target_information_class">TARGET_INFORMATION_CLASS</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ne-iscsidsc-target_information_class">TARGET_INFORMATION_CLASS</a>

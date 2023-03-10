@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyCount
 title: IWMPropertyVault::GetPropertyCount (wmsdkidl.h)
 description: The GetPropertyCount method retrieves a count of all the properties in the property vault.
+helpviewer_keywords: ["GetPropertyCount","GetPropertyCount method [windows Media Format]","GetPropertyCount method [windows Media Format]","IWMPropertyVault interface","IWMPropertyVault interface [windows Media Format]","GetPropertyCount method","IWMPropertyVault.GetPropertyCount","IWMPropertyVault::GetPropertyCount","IWMPropertyVaultGetPropertyCount","wmformat.iwmpropertyvault_getpropertycount","wmsdkidl/IWMPropertyVault::GetPropertyCount"]
 old-location: wmformat\iwmpropertyvault_getpropertycount.htm
 tech.root: wmformat
 ms.assetid: 2045183d-8683-416f-bda0-87c5fecf8c11
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyCount method, IWMPropertyVault.GetPropertyCount, IWMPropertyVault::GetPropertyCount, IWMPropertyVaultGetPropertyCount, wmformat.iwmpropertyvault_getpropertycount, wmsdkidl/IWMPropertyVault::GetPropertyCount
-f1_keywords:
-- wmsdkidl/IWMPropertyVault.GetPropertyCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMPropertyVault.GetPropertyCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPropertyVault::GetPropertyCount
+ - wmsdkidl/IWMPropertyVault::GetPropertyCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMPropertyVault.GetPropertyCount
 ---
 
 # IWMPropertyVault::GetPropertyCount
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPropertyCount</b> method retrieves a count of all the properties in the property vault.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwCount [out]
 
 Pointer to a <b>DWORD</b> that will receive the property count.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,18 +93,7 @@ pdwCount is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>

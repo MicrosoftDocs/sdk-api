@@ -2,15 +2,12 @@
 UID: NS:schannel._SecPkgContext_EapKeyBlock
 title: SecPkgContext_EapKeyBlock (schannel.h)
 description: Contains key data used by the EAP TLS Authentication Protocol.
+helpviewer_keywords: ["*PSecPkgContext_EapKeyBlock","PSecPkgContext_EapKeyBlock","PSecPkgContext_EapKeyBlock structure pointer [Security]","SecPkgContext_EapKeyBlock","SecPkgContext_EapKeyBlock structure [Security]","schannel/PSecPkgContext_EapKeyBlock","schannel/SecPkgContext_EapKeyBlock","security.secpkgcontext_eapkeyblock"]
 old-location: security\secpkgcontext_eapkeyblock.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: c1b1f1d1-20f9-4a16-a279-b9cc95ff4e64
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock, PSecPkgContext_EapKeyBlock structure pointer [Security], SecPkgContext_EapKeyBlock, SecPkgContext_EapKeyBlock structure [Security], schannel/PSecPkgContext_EapKeyBlock, schannel/SecPkgContext_EapKeyBlock, security.secpkgcontext_eapkeyblock'
-f1_keywords:
-- schannel/SecPkgContext_EapKeyBlock
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Schannel.h
-api_name:
-- SecPkgContext_EapKeyBlock
 targetos: Windows
 req.typenames: SecPkgContext_EapKeyBlock, *PSecPkgContext_EapKeyBlock
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_EapKeyBlock
+ - schannel/_SecPkgContext_EapKeyBlock
+ - PSecPkgContext_EapKeyBlock
+ - schannel/PSecPkgContext_EapKeyBlock
+ - SecPkgContext_EapKeyBlock
+ - schannel/SecPkgContext_EapKeyBlock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Schannel.h
+api_name:
+ - SecPkgContext_EapKeyBlock
 ---
 
 # SecPkgContext_EapKeyBlock structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SecPkgContext_EapKeyBlock</b> structure contains key data used by the EAP TLS Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84050">http://www.ietf.org/rfc/rfc2716.txt</a>.
-
+The <b>SecPkgContext_EapKeyBlock</b> structure contains key data used by the EAP TLS Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="https://www.ietf.org/rfc/rfc2716.txt">http://www.ietf.org/rfc/rfc2716.txt</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field rgbKeys
 
 An array of 128 bytes that contain key data used by the EAP TLS Authentication Protocol.
-
 
 ### -field rgbIVs
 

@@ -2,15 +2,12 @@
 UID: NF:pdh.PdhFormatFromRawValue
 title: PdhFormatFromRawValue function (pdh.h)
 description: Computes a displayable value for the given raw counter values.
+helpviewer_keywords: ["PDH_FMT_1000","PDH_FMT_DOUBLE","PDH_FMT_LARGE","PDH_FMT_LONG","PDH_FMT_NOCAP100","PDH_FMT_NOSCALE","PdhFormatFromRawValue","PdhFormatFromRawValue function [Perf]","_win32_pdhformatfromrawvalue","base.pdhformatfromrawvalue","pdh/PdhFormatFromRawValue","perf.pdhformatfromrawvalue"]
 old-location: perf\pdhformatfromrawvalue.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 13027af4-2e76-4c2f-88e8-a2554a16fae3
 ms.date: 12/05/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhFormatFromRawValue, PdhFormatFromRawValue function [Perf], _win32_pdhformatfromrawvalue, base.pdhformatfromrawvalue, pdh/PdhFormatFromRawValue, perf.pdhformatfromrawvalue
-f1_keywords:
-- pdh/PdhFormatFromRawValue
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhFormatFromRawValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhFormatFromRawValue
+ - pdh/PdhFormatFromRawValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhFormatFromRawValue
 ---
 
 # PdhFormatFromRawValue function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Computes a displayable value for the given raw counter values.
-		
-
 
 ## -parameters
 
-
-
-
 ### -param dwCounterType [in]
 
-Type of counter. Typically, you call <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> to retrieve the counter type at the time you call <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a> to retrieve the raw counter value.
+Type of counter. Typically, you call <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a> to retrieve the counter type at the time you call <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a> to retrieve the raw counter value.
 
-For a list of counter types, see the Counter Types section of the <a href="https://go.microsoft.com/fwlink/p/?linkid=84422">Windows Server 2003 Deployment Kit</a>. (The constant values are defined in Winperf.h.)
+For a list of counter types, see the Counter Types section of the <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">Windows Server 2003 Deployment Kit</a>. (The constant values are defined in Winperf.h.)
 
-Note that you cannot specify base types, for example, PERF_LARGE_RAW_BASE. 
-
+Note that you cannot specify base types, for example, PERF_LARGE_RAW_BASE.
 
 ### -param dwFormat [in]
 
@@ -149,71 +144,53 @@ Multiply the final value by 1,000.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pTimeBase [in]
 
-Pointer to the time base, if necessary for the format conversion. If time base information is not necessary for the format conversion, the value of this parameter is ignored. To retrieve the time base of the counter, call <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcountertimebase">PdhGetCounterTimeBase</a>.
-
+Pointer to the time base, if necessary for the format conversion. If time base information is not necessary for the format conversion, the value of this parameter is ignored. To retrieve the time base of the counter, call <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetcountertimebase">PdhGetCounterTimeBase</a>.
 
 ### -param pRawValue1 [in]
 
-Raw counter value used to compute the displayable counter value. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>. 
-
+Raw counter value used to compute the displayable counter value. For details, see <a href="/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>.
 
 ### -param pRawValue2 [in]
 
-Raw counter value used to compute the displayable counter value. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>. Some counters, for example, rate counters, require two raw values to calculate a displayable value. If the counter type does not require a second value, set this parameter to <b>NULL</b>. This value must be the older of the two raw values.
-
+Raw counter value used to compute the displayable counter value. For details, see <a href="/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>. Some counters, for example, rate counters, require two raw values to calculate a displayable value. If the counter type does not require a second value, set this parameter to <b>NULL</b>. This value must be the older of the two raw values.
 
 ### -param pFmtValue [out]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that receives the calculated counter value.
-
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a> structure that receives the calculated counter value.
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. 
-
-
-
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_fmt_countervalue">PDH_FMT_COUNTERVALUE</a>
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcounterinfoa">PdhGetCounterInfo</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetcountertimebase">PdhGetCounterTimeBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetcountertimebase">PdhGetCounterTimeBase</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhreadrawlogrecord">PdhReadRawLogRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhreadrawlogrecord">PdhReadRawLogRecord</a>

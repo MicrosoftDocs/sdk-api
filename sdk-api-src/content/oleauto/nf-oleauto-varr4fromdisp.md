@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarR4FromDisp
 title: VarR4FromDisp function (oleauto.h)
 description: Converts the default property of an IDispatch instance to a float value.
+helpviewer_keywords: ["VarR4FromDisp","VarR4FromDisp function [Automation]","_oa96_VarR4FromDisp","automat.varr4fromdisp","oleauto/VarR4FromDisp"]
 old-location: automat\varr4fromdisp.htm
 tech.root: automat
 ms.assetid: 9ce82c5e-cdcd-45f8-9b58-1dfbbfccd65d
 ms.date: 12/05/2018
 ms.keywords: VarR4FromDisp, VarR4FromDisp function [Automation], _oa96_VarR4FromDisp, automat.varr4fromdisp, oleauto/VarR4FromDisp
-f1_keywords:
-- oleauto/VarR4FromDisp
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarR4FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarR4FromDisp
+ - oleauto/VarR4FromDisp
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarR4FromDisp
 ---
 
 # VarR4FromDisp function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a float value.
-
+Converts the default property of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a float value.
 
 ## -parameters
-
-
-
 
 ### -param pdispIn
 
 The value to convert.
 
-
 ### -param lcid [in]
 
 The locale identifier.
-
 
 ### -param pfltOut [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -152,7 +144,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-

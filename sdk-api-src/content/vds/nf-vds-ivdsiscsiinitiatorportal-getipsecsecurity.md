@@ -1,16 +1,13 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorPortal.GetIpsecSecurity
 title: IVdsIscsiInitiatorPortal::GetIpsecSecurity (vds.h)
-description: Not supported.This method is reserved for future use.
+description: Not supported.This method is reserved for future use. (IVdsIscsiInitiatorPortal.GetIpsecSecurity)
+helpviewer_keywords: ["GetIpsecSecurity","GetIpsecSecurity method [VDS]","GetIpsecSecurity method [VDS]","IVdsIscsiInitiatorPortal interface","IVdsIscsiInitiatorPortal interface [VDS]","GetIpsecSecurity method","IVdsIscsiInitiatorPortal.GetIpsecSecurity","IVdsIscsiInitiatorPortal::GetIpsecSecurity","base.ivdsiscsiinitiatorportal_getipsecsecurity","vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity"]
 old-location: base\ivdsiscsiinitiatorportal_getipsecsecurity.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 755ff0fb-c61f-4427-b7dc-a91dd203fb64
 ms.date: 12/05/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method [VDS], GetIpsecSecurity method [VDS],IVdsIscsiInitiatorPortal interface, IVdsIscsiInitiatorPortal interface [VDS],GetIpsecSecurity method, IVdsIscsiInitiatorPortal.GetIpsecSecurity, IVdsIscsiInitiatorPortal::GetIpsecSecurity, base.ivdsiscsiinitiatorportal_getipsecsecurity, vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity
-f1_keywords:
-- vds/IVdsIscsiInitiatorPortal.GetIpsecSecurity
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsIscsiInitiatorPortal.GetIpsecSecurity
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1
 ms.custom: 19H1
+f1_keywords:
+ - IVdsIscsiInitiatorPortal::GetIpsecSecurity
+ - vds/IVdsIscsiInitiatorPortal::GetIpsecSecurity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsIscsiInitiatorPortal.GetIpsecSecurity
 ---
 
 # IVdsIscsiInitiatorPortal::GetIpsecSecurity
@@ -49,34 +51,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Not supported.
 
 This method
   is reserved for future use.
-  
-
 
 ## -parameters
-
-
-
 
 ### -param targetPortalId [in]
 
 Reserved for future use.
 
-
 ### -param pullSecurityFlags [out]
 
 Reserved for future use.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -97,7 +89,3 @@ This method is not supported in this release.
 </td>
 </tr>
 </table>
- 
-
-
-

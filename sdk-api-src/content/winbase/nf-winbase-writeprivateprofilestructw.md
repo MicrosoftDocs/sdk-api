@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.WritePrivateProfileStructW
 title: WritePrivateProfileStructW function (winbase.h)
-description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.
+description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data. (Unicode)
+helpviewer_keywords: ["WritePrivateProfileStruct", "WritePrivateProfileStruct function", "WritePrivateProfileStructW", "_win32_writeprivateprofilestruct", "base.writeprivateprofilestruct", "winbase/WritePrivateProfileStruct", "winbase/WritePrivateProfileStructW"]
 old-location: base\writeprivateprofilestruct.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71
 ms.date: 12/05/2018
 ms.keywords: WritePrivateProfileStruct, WritePrivateProfileStruct function, WritePrivateProfileStructA, WritePrivateProfileStructW, _win32_writeprivateprofilestruct, base.writeprivateprofilestruct, winbase/WritePrivateProfileStruct, winbase/WritePrivateProfileStructA, winbase/WritePrivateProfileStructW
-f1_keywords:
-- winbase/WritePrivateProfileStruct
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- WritePrivateProfileStruct
-- WritePrivateProfileStructA
-- WritePrivateProfileStructW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WritePrivateProfileStructW
+ - winbase/WritePrivateProfileStructW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - WritePrivateProfileStruct
+ - WritePrivateProfileStructA
+ - WritePrivateProfileStructW
 ---
 
 # WritePrivateProfileStructW function
@@ -50,35 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestruct">GetPrivateProfileStruct</a> function uses the checksum to ensure the integrity of the data.
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestruct">GetPrivateProfileStruct</a> function uses the checksum to ensure the integrity of the data.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpszSection [in]
 
-The name of the section to which the string will be copied. If the section does not exist, it is created. The name of the section is case independent, the string can be any combination of uppercase and lowercase letters.
-
+The name of the section to which the struct data will be copied. If the section does not exist, it is created. The name of the section is case independent.
 
 ### -param lpszKey [in]
 
-The name of the key to be associated with a string. If the key does not exist in the specified section, it is created. If this parameter is <b>NULL</b>, the entire section, including all keys and entries within the section, is deleted.
-
+The name of the key to be associated with a struct. If the key does not exist in the specified section, it is created. If this parameter is <b>NULL</b>, the entire section, including all keys and entries within the section, is deleted.
 
 ### -param lpStruct [in]
 
 The data to be copied. If this parameter is <b>NULL</b>, the key is deleted.
 
-
 ### -param uSizeStruct [in]
 
 The size of the buffer pointed to by the <i>lpStruct</i> parameter, in bytes.
-
 
 ### -param szFile [in]
 
@@ -86,41 +80,39 @@ The  name of the initialization file. If this parameter is <b>NULL</b>, the info
 
 If the file was created using Unicode characters, the function writes Unicode characters to the file. Otherwise, the function writes ANSI characters.
 
-
 ## -returns
 
-
-
-If the function successfully copies the string to the initialization file, the return value is nonzero.
+If the function successfully copies the struct to the initialization file, the return value is nonzero.
 
 If the function fails, or if it flushes the cached version of the most recently accessed initialization file, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 A section in the initialization file must have the following form:
 				
 			
 
-<pre class="syntax" xml:space="preserve"><code>[section]
-key=string
+
+
+``` syntax
+[section]
+key=struct
+
       .
       .
-      .</code></pre>
+      .
+```
+
 If the <i>szFile</i> parameter does not contain a full path and file name for the file, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a> searches the Windows directory for the file. If the file does not exist, this function creates the file in the Windows directory.
 
 If <i>szFile</i> contains a full path and file name and the file does not exist, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a> creates the file. The specified directory must already exist.
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a> creates the file. The specified directory must already exist.
 
 The system keeps a cached version of the most recent registry file mapping to improve performance. If all parameters are <b>NULL</b>, the function flushes the cache. While the system is editing the cached version of the file, processes that edit the file itself will use the original file until the cache has been cleared.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
       <b>Microsoft</b>
          <b>Windows NT</b>
@@ -154,17 +146,14 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines WritePrivateProfileStruct as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilestring">GetPrivateProfileString</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>

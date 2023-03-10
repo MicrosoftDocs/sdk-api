@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.GetValue
 title: ISettingsItem::GetValue (wcmconfig.h)
 description: Gets the current value from the item.
+helpviewer_keywords: ["GetValue","GetValue method [SMI]","GetValue method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetValue method","ISettingsItem.GetValue","ISettingsItem::GetValue","smi.isettingsitem_getvalue","wcmconfig/ISettingsItem::GetValue"]
 old-location: smi\isettingsitem_getvalue.htm
 tech.root: SMI
 ms.assetid: 11b61570-d1ed-4dcf-b533-873096ae80b9
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [SMI], GetValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValue method, ISettingsItem.GetValue, ISettingsItem::GetValue, smi.isettingsitem_getvalue, wcmconfig/ISettingsItem::GetValue
-f1_keywords:
-- wcmconfig/ISettingsItem.GetValue
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::GetValue
+ - wcmconfig/ISettingsItem::GetValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.GetValue
 ---
 
 # ISettingsItem::GetValue
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the current value from the item.
 
-
 ## -parameters
-
-
-
 
 ### -param Value [out]
 
 The value of the item.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -118,18 +112,7 @@ Indicates that there is no value for the item.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

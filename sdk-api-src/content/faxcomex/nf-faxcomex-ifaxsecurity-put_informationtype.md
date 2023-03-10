@@ -1,16 +1,13 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.put_InformationType
 title: IFaxSecurity::put_InformationType (faxcomex.h)
-description: The IFaxSecurity::InformationType property represents the security information type.
+description: The IFaxSecurity::InformationType property represents the security information type. (Put)
+helpviewer_keywords: ["IFaxSecurity interface [Fax Service]","InformationType property","IFaxSecurity.InformationType","IFaxSecurity.put_InformationType","IFaxSecurity::InformationType","IFaxSecurity::get_InformationType","IFaxSecurity::put_InformationType","InformationType property [Fax Service]","InformationType property [Fax Service]","IFaxSecurity interface","_mfax_faxsecurity.informationtype_cpp","fax._mfax_faxsecurity_informationtype_cpp","faxcomex/IFaxSecurity::InformationType","faxcomex/IFaxSecurity::get_InformationType","faxcomex/IFaxSecurity::put_InformationType","put_InformationType"]
 old-location: fax\_mfax_faxsecurity_informationtype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4up1_cpp.htm
 ms.date: 12/05/2018
 ms.keywords: IFaxSecurity interface [Fax Service],InformationType property, IFaxSecurity.InformationType, IFaxSecurity.put_InformationType, IFaxSecurity::InformationType, IFaxSecurity::get_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.informationtype_cpp, fax._mfax_faxsecurity_informationtype_cpp, faxcomex/IFaxSecurity::InformationType, faxcomex/IFaxSecurity::get_InformationType, faxcomex/IFaxSecurity::put_InformationType, put_InformationType
-f1_keywords:
-- faxcomex/IFaxSecurity.InformationType
-dev_langs:
-- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Fxscomex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Fxscomex.dll
-api_name:
-- IFaxSecurity.InformationType
-- IFaxSecurity.get_InformationType
-- IFaxSecurity.put_InformationType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFaxSecurity::put_InformationType
+ - faxcomex/IFaxSecurity::put_InformationType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Fxscomex.dll
+api_name:
+ - IFaxSecurity.InformationType
+ - IFaxSecurity.get_InformationType
+ - IFaxSecurity.put_InformationType
 ---
 
 # IFaxSecurity::put_InformationType
@@ -50,22 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IFaxSecurity::InformationType</b> property represents the security information type.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
+The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">IFaxSecurity::Descriptor</a> property or when refreshing the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity">IFaxSecurity</a> object using the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-refresh-vb">IFaxSecurity::Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>IFaxSecurity</b> object using the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">IFaxSecurity::Save</a> method.
 
-
-The information type is a bitwise combination that indicates what security information will be retrieved from the server when requesting a security descriptor using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">IFaxSecurity::Descriptor</a> property or when refreshing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity">IFaxSecurity</a> object using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-refresh-vb">IFaxSecurity::Refresh</a> method. The information type also determines what information is sent to the fax server when you save changes to the <b>IFaxSecurity</b> object using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">IFaxSecurity::Save</a> method.
-
-The bits are specified in the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure, defined in Winnt.h. Each item of security information is designated by a bit flag. The following values specify the bits applicable to the fax service.
+The bits are specified in the <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure, defined in Winnt.h. Each item of security information is designated by a bit flag. The following values specify the bits applicable to the fax service.
 
 <table class="clsStd">
 <tr>
@@ -91,7 +88,4 @@ The bits are specified in the <a href="https://docs.microsoft.com/windows/deskto
 </table>
  
 
-You should set the <b>IFaxSecurity::InformationType</b> property before you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">IFaxSecurity::get_Descriptor</a> method to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">IFaxSecurity::Save</a> method. If you do not set the <b>IFaxSecurity::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
-
-
-
+You should set the <b>IFaxSecurity::InformationType</b> property before you call the <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">IFaxSecurity::get_Descriptor</a> method to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">IFaxSecurity::Save</a> method. If you do not set the <b>IFaxSecurity::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.

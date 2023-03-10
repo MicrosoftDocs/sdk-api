@@ -4,7 +4,7 @@ title: Windows Server Backup
 ms.assetid: d329838b-7159-34cd-b2ce-9c345c166b33
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Windows Server Backup
@@ -19,5 +19,4 @@ To develop Windows Server Backup, you need these headers:
  * [wsbonline.h](../wsbonline/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Server Backup](https://docs.microsoft.com/previous-versions/windows/desktop/wsb)
-
+* [Windows Server Backup](/previous-versions/windows/desktop/wsb)

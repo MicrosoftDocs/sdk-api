@@ -2,15 +2,12 @@
 UID: NF:authz.AuthzUnregisterSecurityEventSource
 title: AuthzUnregisterSecurityEventSource function (authz.h)
 description: Unregisters a security event source with the Local Security Authority (LSA).
+helpviewer_keywords: ["AuthzUnregisterSecurityEventSource","AuthzUnregisterSecurityEventSource function [Security]","authz/AuthzUnregisterSecurityEventSource","security.authzunregistersecurityeventsource"]
 old-location: security\authzunregistersecurityeventsource.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 3ca3086b-f9c9-4305-aaf3-c41b5dba30ad
 ms.date: 12/05/2018
 ms.keywords: AuthzUnregisterSecurityEventSource, AuthzUnregisterSecurityEventSource function [Security], authz/AuthzUnregisterSecurityEventSource, security.authzunregistersecurityeventsource
-f1_keywords:
-- authz/AuthzUnregisterSecurityEventSource
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzUnregisterSecurityEventSource
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzUnregisterSecurityEventSource
+ - authz/AuthzUnregisterSecurityEventSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzUnregisterSecurityEventSource
 ---
 
 # AuthzUnregisterSecurityEventSource function
@@ -48,52 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuthzUnregisterSecurityEventSource</b> function unregisters a security event source with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
-
+The <b>AuthzUnregisterSecurityEventSource</b> function unregisters a security event source with the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
 
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
 This parameter is reserved for future use. Set this parameter to zero.
 
-
 ### -param phEventProvider [in, out]
 
 A pointer to a handle to the security event source to unregister.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-This function deallocates any resources and closes any RPC connections associated with a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function.
-
-
-
+This function deallocates any resources and closes any RPC connections associated with a previous call to the <a href="/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a>

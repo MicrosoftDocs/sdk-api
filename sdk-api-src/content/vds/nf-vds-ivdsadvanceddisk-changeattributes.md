@@ -2,15 +2,12 @@
 UID: NF:vds.IVdsAdvancedDisk.ChangeAttributes
 title: IVdsAdvancedDisk::ChangeAttributes (vds.h)
 description: Modifies the attributes of the partition.
+helpviewer_keywords: ["ChangeAttributes","ChangeAttributes method [VDS]","ChangeAttributes method [VDS]","IVdsAdvancedDisk interface","IVdsAdvancedDisk interface [VDS]","ChangeAttributes method","IVdsAdvancedDisk.ChangeAttributes","IVdsAdvancedDisk::ChangeAttributes","base.ivdsadvanceddisk_changeattributes","vds/IVdsAdvancedDisk::ChangeAttributes"]
 old-location: base\ivdsadvanceddisk_changeattributes.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 0345a4b1-bbe1-4e59-9a04-bb40ff6db954
 ms.date: 12/05/2018
 ms.keywords: ChangeAttributes, ChangeAttributes method [VDS], ChangeAttributes method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],ChangeAttributes method, IVdsAdvancedDisk.ChangeAttributes, IVdsAdvancedDisk::ChangeAttributes, base.ivdsadvanceddisk_changeattributes, vds/IVdsAdvancedDisk::ChangeAttributes
-f1_keywords:
-- vds/IVdsAdvancedDisk.ChangeAttributes
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Uuid.lib
-- Uuid.dll
-api_name:
-- IVdsAdvancedDisk.ChangeAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVdsAdvancedDisk::ChangeAttributes
+ - vds/IVdsAdvancedDisk::ChangeAttributes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Uuid.lib
+ - Uuid.dll
+api_name:
+ - IVdsAdvancedDisk.ChangeAttributes
 ---
 
 # IVdsAdvancedDisk::ChangeAttributes
@@ -49,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Modifies the attributes of the partition.
 
-
 ## -parameters
-
-
-
 
 ### -param ullOffset [in]
 
 The partition offset.
 
-
 ### -param para [in]
 
-The attribute parameters defined by  the <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a> structure.
-
+The attribute parameters defined by  the <a href="/windows/desktop/api/vds/ns-vds-change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a> structure.
 
 ## -returns
 
-
-
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -129,35 +122,19 @@ The partition does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 For GPT disks, this method changes the hidden, read only, and no drive letter  attributes. For MBR disks, the method controls whether the boot indicator bit is active.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vds/ns-vds-change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-change_attributes_parameters">CHANGE_ATTRIBUTES_PARAMETERS</a>
+<a href="/windows/desktop/VDS/disk-object">Disk Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsadvanceddisk">IVdsAdvancedDisk</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vds/nn-vds-ivdsadvanceddisk">IVdsAdvancedDisk</a>

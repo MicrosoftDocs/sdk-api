@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnDeviceServicesContext.get_MaxCommandSize
 title: IMbnDeviceServicesContext::get_MaxCommandSize (mbnapi.h)
 description: The maximum length, in bytes, of data that can be associated with a device service SET or QUERY command.
+helpviewer_keywords: ["IMbnDeviceServicesContext interface [Microsoft Broadband Networks]","MaxCommandSize property","IMbnDeviceServicesContext.MaxCommandSize","IMbnDeviceServicesContext.get_MaxCommandSize","IMbnDeviceServicesContext::MaxCommandSize","IMbnDeviceServicesContext::get_MaxCommandSize","MaxCommandSize property [Microsoft Broadband Networks]","MaxCommandSize property [Microsoft Broadband Networks]","IMbnDeviceServicesContext interface","get_MaxCommandSize","mbn.imbndeviceservicescontext_maxcommandsize","mbnapi/IMbnDeviceServicesContext::MaxCommandSize","mbnapi/IMbnDeviceServicesContext::get_MaxCommandSize"]
 old-location: mbn\imbndeviceservicescontext_maxcommandsize.htm
 tech.root: mbn
 ms.assetid: FCCE3CA1-ECD2-4964-952F-D4A077959519
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxCommandSize property, IMbnDeviceServicesContext.MaxCommandSize, IMbnDeviceServicesContext.get_MaxCommandSize, IMbnDeviceServicesContext::MaxCommandSize, IMbnDeviceServicesContext::get_MaxCommandSize, MaxCommandSize property [Microsoft Broadband Networks], MaxCommandSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxCommandSize, mbn.imbndeviceservicescontext_maxcommandsize, mbnapi/IMbnDeviceServicesContext::MaxCommandSize, mbnapi/IMbnDeviceServicesContext::get_MaxCommandSize
-f1_keywords:
-- mbnapi/IMbnDeviceServicesContext.MaxCommandSize
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceServicesContext.MaxCommandSize
-- IMbnDeviceServicesContext.get_MaxCommandSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceServicesContext::get_MaxCommandSize
+ - mbnapi/IMbnDeviceServicesContext::get_MaxCommandSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceServicesContext.MaxCommandSize
+ - IMbnDeviceServicesContext.get_MaxCommandSize
 ---
 
 # IMbnDeviceServicesContext::get_MaxCommandSize
@@ -56,17 +58,8 @@ The maximum length, in bytes, of data that can be associated with a device servi
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a>

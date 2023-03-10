@@ -2,15 +2,12 @@
 UID: NF:winnls.EnumSystemGeoNames
 title: EnumSystemGeoNames function (winnls.h)
 description: Enumerates the two-letter International Organization for Standardization (ISO) 3166-1 codes or numeric United Nations (UN) Series M, Number 49 (M.49) codes for geographical locations that are available on the operating system.
+helpviewer_keywords: ["EnumSystemGeoNames","EnumSystemGeoNames function [Internationalization for Windows Applications]","intl.enumsystemgeonames","winnls/EnumSystemGeoNames"]
 old-location: intl\enumsystemgeonames.htm
 tech.root: Intl
 ms.assetid: 0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E
 ms.date: 12/05/2018
 ms.keywords: EnumSystemGeoNames, EnumSystemGeoNames function [Internationalization for Windows Applications], intl.enumsystemgeonames, winnls/EnumSystemGeoNames
-f1_keywords:
-- winnls/EnumSystemGeoNames
-dev_langs:
-- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- EnumSystemGeoNames
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnumSystemGeoNames
+ - winnls/EnumSystemGeoNames
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - EnumSystemGeoNames
 ---
 
 # EnumSystemGeoNames function
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the two-letter International Organization for Standardization (ISO) 3166-1 codes or numeric United Nations (UN) Series M, Number 49  (M.49) codes for geographical locations that are available on the operating system.
 
-
 ## -parameters
-
-
-
 
 ### -param geoClass [in]
 
 The geographical location class for which to enumerate the available two-letter ISO 3166-1 or numeric UN M.49 codes.
 
-
 ### -param geoEnumProc [in]
 
-Pointer to the application-defined callback function <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>. The <b>EnumSystemGeoNames</b> function calls this callback function for each of the two-letter ISO 3166-1 or numeric UN M.49 codes for geographical locations that are available on the operating system until callback function returns <b>FALSE</b>.
-
+Pointer to the application-defined callback function <a href="/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>. The <b>EnumSystemGeoNames</b> function calls this callback function for each of the two-letter ISO 3166-1 or numeric UN M.49 codes for geographical locations that are available on the operating system until callback function returns <b>FALSE</b>.
 
 ### -param data [in, optional]
 
 Application-specific information to pass to the callback function that the <i>genEnumProc</i> parameter specifies.
 
-
 ## -returns
 
-
-
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <table>
 <tr>
@@ -106,39 +98,23 @@ A parameter value was not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For information about two-letter ISO 3166-1 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859039">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://go.microsoft.com/fwlink/p/?linkid=859018">Standard country or area codes for statistical use (M49)</a>.
-
-
-
+For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.org/iso-3166-country-codes.html">Country Codes - ISO 3166</a>.  For information about numeric UN M.49 codes, see <a href="https://unstats.un.org/unsd/methodology/m49/">Standard country or area codes for statistical use (M49)</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winnls/nf-winnls-enumsystemgeoid">EnumSystemGeoID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumsystemgeoid">EnumSystemGeoID</a>
+<a href="/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nc-winnls-geo_enumnameproc">Geo_EnumNameProc</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

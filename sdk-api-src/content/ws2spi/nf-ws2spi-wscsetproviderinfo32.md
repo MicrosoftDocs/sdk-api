@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WSCSetProviderInfo32
 title: WSCSetProviderInfo32 function (ws2spi.h)
 description: Sets the data value for specified information class for a layered service provider (LSP).
+helpviewer_keywords: ["WSCSetProviderInfo32","WSCSetProviderInfo32 function [Winsock]","winsock.wscsetproviderinfo32","ws2spi/WSCSetProviderInfo32"]
 old-location: winsock\wscsetproviderinfo32.htm
 tech.root: WinSock
 ms.assetid: adb2737f-5327-4306-bd57-f165f339f911
 ms.date: 12/05/2018
 ms.keywords: WSCSetProviderInfo32, WSCSetProviderInfo32 function [Winsock], winsock.wscsetproviderinfo32, ws2spi/WSCSetProviderInfo32
-f1_keywords:
-- ws2spi/WSCSetProviderInfo32
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- WSCSetProviderInfo32
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSCSetProviderInfo32
+ - ws2spi/WSCSetProviderInfo32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - WSCSetProviderInfo32
 ---
 
 # WSCSetProviderInfo32 function
@@ -48,51 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert">**Note**  Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>.</div><div> </div>The 
 **WSCSetProviderInfo32** function sets the data value for specified information class  for a layered service provider (LSP).<div class="alert">**Note**  This call is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a> for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs.</div>
 <div> </div>
 
-
-
 ## -parameters
-
-
-
 
 ### -param lpProviderId [in]
 
 A pointer to a globally unique identifier (GUID)  for the provider.
 
-
 ### -param InfoType [in]
 
 The information class to be set for this LSP protocol entry.
-
 
 ### -param Info [in]
 
 A pointer to a buffer that contains the information class data to set for the LSP protocol entry.
 
-
 ### -param InfoSize [in]
 
-The size, in bytes, of the buffer pointed to by the <i>Info </i>parameter.
-
+The size, in bytes, of the buffer pointed to by the <i>Info</i> parameter.
 
 ### -param Flags [in]
 
 The flags used to modify the behavior of the **WSCSetProviderInfo32** function call.
 
-
 ### -param lpErrno [out]
 
 A pointer to the error code if the function fails.
 
-
 ## -returns
-
-
 
 If no error occurs, **WSCSetProviderInfo32** returns **ERROR_SUCCESS** (zero). Otherwise, it returns **SOCKET_ERROR**, and a specific error code is returned in the <i>lpErrno</i> parameter.
 
@@ -157,14 +145,8 @@ A nonrecoverable error occurred. This error is returned under several conditions
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 **WSCSetProviderInfo32** is a strictly 32-bit version of <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscsetproviderinfo">WSCSetProviderInfo</a>. On a 64-bit computer, all calls not specifically 32-bit (for example, all functions that do not end in "32") operate on the native 64-bit catalog. Processes that execute on a 64-bit computer must use the specific 32-bit function calls to operate on a strictly 32-bit catalog and preserve compatibility. The definitions and semantics of the specific 32-bit calls are the same as their native counterparts.
 
@@ -240,13 +222,7 @@ If an LSP does not have category set, it is considered to be in the All Other ca
 The **WSCSetProviderInfo32** function can only be called by a user logged on as a member of the Administrators group. If **WSCSetProviderInfo32** is called by a user that is not a member of the Administrators group, the function call will fail and **WSANO_RECOVERY** is returned in the <i>lpErrno</i> parameter. 
  This function can also fail because of user account control (UAC). If an application  that contains this function is executed by a user logged on as a member of the Administrators group other than the built-in Administrator, this call will fail unless the application has been marked in the manifest file with a **requestedExecutionLevel** set to **requireAdministrator**. If the application on Windows Vista or Windows Server 2008 lacks this manifest file, a user logged on as a member of the Administrators group other than the built-in Administrator must then be executing the application in an enhanced shell as the built-in Administrator (RunAs administrator) for this function to succeed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/WinSock/categorizing-layered-service-providers-and-applications">Categorizing Layered Service Providers and Applications</a>
 
@@ -273,7 +249,3 @@ The **WSCSetProviderInfo32** function can only be called by a user logged on as 
 
 
 <a href="/windows/desktop/api/ws2spi/ne-ws2spi-wsc_provider_info_type">WSC_PROVIDER_INFO_TYPE</a>
- 
-
- 
-

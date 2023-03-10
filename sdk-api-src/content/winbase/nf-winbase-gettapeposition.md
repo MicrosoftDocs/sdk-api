@@ -2,15 +2,12 @@
 UID: NF:winbase.GetTapePosition
 title: GetTapePosition function (winbase.h)
 description: Retrieves the current address of the tape, in logical or absolute blocks.
+helpviewer_keywords: ["GetTapePosition","GetTapePosition function [Backup]","TAPE_ABSOLUTE_POSITION","TAPE_LOGICAL_POSITION","_win32_gettapeposition","backup.gettapeposition","base.gettapeposition","winbase/GetTapePosition"]
 old-location: backup\gettapeposition.htm
 tech.root: Backup
 ms.assetid: f4ce1436-ee16-4e05-b7a0-30ea79688e79
 ms.date: 12/05/2018
 ms.keywords: GetTapePosition, GetTapePosition function [Backup], TAPE_ABSOLUTE_POSITION, TAPE_LOGICAL_POSITION, _win32_gettapeposition, backup.gettapeposition, base.gettapeposition, winbase/GetTapePosition
-f1_keywords:
-- winbase/GetTapePosition
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- GetTapePosition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetTapePosition
+ - winbase/GetTapePosition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - GetTapePosition
 ---
 
 # GetTapePosition function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetTapePosition</b> function retrieves the current address of the tape, in logical or absolute blocks.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in]
 
 Handle to the device on which to get the tape position. This handle is created by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 ### -param dwPositionType [in]
 
@@ -98,27 +94,20 @@ The <i>lpdwOffsetLow</i> and <i>lpdwOffsetHigh</i> parameters receive the logica
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpdwPartition [out]
 
 Pointer to a variable that receives the number of the current tape partition. Partitions are numbered logically from 1 through n, where 1 is the first partition on the tape and n is the last. When a device-specific block address is retrieved, or if the device supports only one partition, this parameter receives zero.
 
-
 ### -param lpdwOffsetLow [out]
 
 Pointer to a variable that receives the low-order bits of the current tape position.
-
 
 ### -param lpdwOffsetHigh [out]
 
 Pointer to a variable that receives the high-order bits of the current tape position. This parameter can be <b>NULL</b> if the high-order bits are not required.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -310,38 +299,22 @@ The media is write protected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A logical block address is relative to a partition. The first logical block address on each partition is zero.
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>function to obtain information about the status, capabilities, and capacities of tape drives and media.
-
-
-
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a> function to obtain information about the status, capabilities, and capacities of tape drives and media.
 
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-gettapeparameters">GetTapeParameters</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-settapeposition">SetTapePosition</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-settapeposition">SetTapePosition</a>

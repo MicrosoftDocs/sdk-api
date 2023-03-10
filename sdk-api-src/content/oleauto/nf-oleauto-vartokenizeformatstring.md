@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarTokenizeFormatString
 title: VarTokenizeFormatString function (oleauto.h)
 description: Parses the actual format string into a series of tokens which can be used to format variants using VarFormatFromTokens.
+helpviewer_keywords: ["VarTokenizeFormatString","VarTokenizeFormatString function [Automation]","_oa96_VarTokenizeFormatString","automat.vartokenizeformatstring","oleauto/VarTokenizeFormatString"]
 old-location: automat\vartokenizeformatstring.htm
 tech.root: automat
 ms.assetid: 7cec1bc5-39ea-4b47-880b-62584ff23536
 ms.date: 12/05/2018
 ms.keywords: VarTokenizeFormatString, VarTokenizeFormatString function [Automation], _oa96_VarTokenizeFormatString, automat.vartokenizeformatstring, oleauto/VarTokenizeFormatString
-f1_keywords:
-- oleauto/VarTokenizeFormatString
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarTokenizeFormatString
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarTokenizeFormatString
+ - oleauto/VarTokenizeFormatString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarTokenizeFormatString
 ---
 
 # VarTokenizeFormatString function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Parses the actual format string into a series of tokens which can be used to format variants using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
-
+Parses the actual format string into a series of tokens which can be used to format variants using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a>.
 
 ## -parameters
-
-
-
 
 ### -param pstrFormat [in, optional]
 
 The format string. For example "mm-dd-yy".
 
-
 ### -param rgbTok [in, out]
 
 The destination token buffer.
 
-
-
 ### -param cbTok [in]
 
 The size of the destination token buffer.
-
 
 ### -param iFirstDay [in]
 
@@ -172,8 +165,6 @@ Sunday
 </td>
 </tr>
 </table>
- 
-
 
 ### -param iFirstWeek [in]
 
@@ -230,23 +221,16 @@ The first week has seven days.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lcid [in]
 
 The locale to interpret format string in.
 
-
-
 ### -param pcbActual [in, optional]
 
 Points to the integer which is set to the first generated token. This parameter can be NULL.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -290,18 +274,9 @@ The destination token buffer is too small.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+Parsing the format string once and then using it repeatedly is usually faster than calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformat">VarFormat</a> repeatedly, because the latter routine calls <b>VarTokenizeFormatString</b> for each call.
 
-
-Parsing the format string once and then using it repeatedly is usually faster than calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformat">VarFormat</a> repeatedly, because the latter routine calls <b>VarTokenizeFormatString</b> for each call.
-
-The locale you pass in controls how the format string is interpreted, not how the actual output of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a> looks.
-
-
-
+The locale you pass in controls how the format string is interpreted, not how the actual output of <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-varformatfromtokens">VarFormatFromTokens</a> looks.

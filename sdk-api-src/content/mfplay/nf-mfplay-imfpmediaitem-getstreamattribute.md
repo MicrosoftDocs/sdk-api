@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaItem.GetStreamAttribute
 title: IMFPMediaItem::GetStreamAttribute (mfplay.h)
 description: Queries the media item for a stream attribute.
+helpviewer_keywords: ["GetStreamAttribute","GetStreamAttribute method [Media Foundation]","GetStreamAttribute method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetStreamAttribute method","IMFPMediaItem.GetStreamAttribute","IMFPMediaItem::GetStreamAttribute","mf.imfpmediaitem_getstreamattribute","mfplay/IMFPMediaItem::GetStreamAttribute"]
 old-location: mf\imfpmediaitem_getstreamattribute.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8c40ce33-2077-4e7b-8a1c-c080e82df078
 ms.date: 12/05/2018
 ms.keywords: GetStreamAttribute, GetStreamAttribute method [Media Foundation], GetStreamAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetStreamAttribute method, IMFPMediaItem.GetStreamAttribute, IMFPMediaItem::GetStreamAttribute, mf.imfpmediaitem_getstreamattribute, mfplay/IMFPMediaItem::GetStreamAttribute
-f1_keywords:
-- mfplay/IMFPMediaItem.GetStreamAttribute
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaItem.GetStreamAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaItem::GetStreamAttribute
+ - mfplay/IMFPMediaItem::GetStreamAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaItem.GetStreamAttribute
 ---
 
 # IMFPMediaItem::GetStreamAttribute
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Queries the media item for a stream attribute.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
-Zero-based index of the stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getnumberofstreams">IMFPMediaItem::GetNumberOfStreams</a>.
-
+Zero-based index of the stream. To get the number of streams, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getnumberofstreams">IMFPMediaItem::GetNumberOfStreams</a>.
 
 ### -param guidMFAttribute [in]
 
@@ -73,10 +68,10 @@ GUID that identifies the attribute value to query. Possible values are listed in
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/stream-descriptor-attributes">Stream Descriptor Attributes</a>
+<a href="/windows/desktop/medfound/stream-descriptor-attributes">Stream Descriptor Attributes</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
+<a href="/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
 </li>
 </ul>
 
@@ -84,36 +79,18 @@ GUID that identifies the attribute value to query. Possible values are listed in
 
 Pointer to a <b>PROPVARIANT</b> that receives the value. The method fills the <b>PROPVARIANT</b> with a copy of the stored value. Call <b>PropVariantClear</b> to free the memory allocated by this method.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Stream attributes describe an individual stream (audio, video, or other) within the presentation. To get an attribute that applies to the entire presentation, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getpresentationattribute">IMFPMediaItem::GetPresentationAttribute</a>.
-
-
-
+Stream attributes describe an individual stream (audio, video, or other) within the presentation. To get an attribute that applies to the entire presentation, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getpresentationattribute">IMFPMediaItem::GetPresentationAttribute</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaitem">IMFPMediaItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

@@ -2,15 +2,12 @@
 UID: NF:dinputd.IDirectInputJoyConfig8.OpenAppStatusKey
 title: IDirectInputJoyConfig8::OpenAppStatusKey (dinputd.h)
 description: The IDirectInputJoyConfig8::OpenAppStatusKey method opens the root key of the application status registry keys, and obtains a handle to the key as a return parameter.
+helpviewer_keywords: ["IDirectInputJoyConfig8 interface [Human Input Devices]","OpenAppStatusKey method","IDirectInputJoyConfig8.OpenAppStatusKey","IDirectInputJoyConfig8::OpenAppStatusKey","OpenAppStatusKey","OpenAppStatusKey method [Human Input Devices]","OpenAppStatusKey method [Human Input Devices]","IDirectInputJoyConfig8 interface","di_ref_004ec952-e0fd-4e41-a466-a09fb37e6f80.xml","dinputd/IDirectInputJoyConfig8::OpenAppStatusKey","hid.idirectinputjoyconfig8_openappstatuskey"]
 old-location: hid\idirectinputjoyconfig8_openappstatuskey.htm
 tech.root: hid
 ms.assetid: a9caea40-6570-4756-81a4-91a3aaff302b
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],OpenAppStatusKey method, IDirectInputJoyConfig8.OpenAppStatusKey, IDirectInputJoyConfig8::OpenAppStatusKey, OpenAppStatusKey, OpenAppStatusKey method [Human Input Devices], OpenAppStatusKey method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_004ec952-e0fd-4e41-a466-a09fb37e6f80.xml, dinputd/IDirectInputJoyConfig8::OpenAppStatusKey, hid.idirectinputjoyconfig8_openappstatuskey
-f1_keywords:
-- dinputd/IDirectInputJoyConfig8.OpenAppStatusKey
-dev_langs:
-- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -28,45 +25,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dinputd.h
-api_name:
-- IDirectInputJoyConfig8.OpenAppStatusKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectInputJoyConfig8::OpenAppStatusKey
+ - dinputd/IDirectInputJoyConfig8::OpenAppStatusKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dinputd.h
+api_name:
+ - IDirectInputJoyConfig8.OpenAppStatusKey
 ---
-
-# IDirectInputJoyConfig8::OpenAppStatusKey
-
 
 ## -description
 
-
-The <b>IDirectInputJoyConfig8::OpenAppStatusKey </b>method opens the root key of the application status registry keys, and obtains a handle to the key as a return parameter. 
-
+The <b>IDirectInputJoyConfig8::OpenAppStatusKey </b> method opens the root key of the application status registry keys, and obtains a handle to the key as a return parameter.
 
 ## -parameters
 
-
-
-
-
-
-#### - phKey
+### -param unnamedParam1
 
 Points to the address of a variable (of type HKEY) that will contain a registry key handle if the method succeeds. See Remarks for additional usage details.
 
-
 ## -returns
-
-
 
 Returns DI_OK if successful; otherwise, returns one of the following COM error values. The following error codes are intended to be illustrative and not necessarily comprehensive.
 
@@ -98,18 +87,8 @@ The key is missing on this system. Applications should proceed as if the key wer
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The registry key handle returned in the <i>phKey</i> parameter can be used with the standard Win32 registry functions. The Dinputd.h header file defines the following string constants for use in accessing subkeys and named values contained by the application status root key.
-
-
-
-
 

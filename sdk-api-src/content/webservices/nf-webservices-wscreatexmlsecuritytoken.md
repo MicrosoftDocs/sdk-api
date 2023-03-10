@@ -2,15 +2,12 @@
 UID: NF:webservices.WsCreateXmlSecurityToken
 title: WsCreateXmlSecurityToken function (webservices.h)
 description: Creates a security token from its specified XML form.
+helpviewer_keywords: ["WsCreateXmlSecurityToken","WsCreateXmlSecurityToken function [Web Services for Windows]","webservices/WsCreateXmlSecurityToken","wsw.wscreatexmlsecuritytoken"]
 old-location: wsw\wscreatexmlsecuritytoken.htm
 tech.root: wsw
 ms.assetid: 1d82c6c3-2bcf-4883-aed7-1a163bbb2228
 ms.date: 12/05/2018
 ms.keywords: WsCreateXmlSecurityToken, WsCreateXmlSecurityToken function [Web Services for Windows], webservices/WsCreateXmlSecurityToken, wsw.wscreatexmlsecuritytoken
-f1_keywords:
-- webservices/WsCreateXmlSecurityToken
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsCreateXmlSecurityToken
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsCreateXmlSecurityToken
+ - webservices/WsCreateXmlSecurityToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsCreateXmlSecurityToken
 ---
 
 # WsCreateXmlSecurityToken function
@@ -48,21 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a security token from its specified XML form.
-            
-
 
 ## -parameters
 
-
-
-
 ### -param tokenXml [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure containing  the security token in its XML form.    The referenced buffer must have exactly
+Pointer to a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure containing  the security token in its XML form.    The referenced buffer must have exactly
 one top level XML element.
-
 
 ### -param tokenKey [in, optional]
 
@@ -90,44 +85,32 @@ message as carrying the claims present in the certificate.
 </li>
 </ul>
 
-
-
 ### -param properties
 
-An array of  <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
+An array of  <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_security_token_property">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
-                
-
 
 ### -param propertyCount [in]
 
 The number of properties in the <i>properties</i> array.
-                
-
 
 ### -param token
 
-On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-token">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
+On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-security-token">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
                 
-                When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a>.
+When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a>.
                 
 
-The returned security token may be used with <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
+The returned security token may be used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
 
 presented to a service.
 
-
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
-                
-                
-
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
-
-
 
 If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT error code.
 
@@ -170,7 +153,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-

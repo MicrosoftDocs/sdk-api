@@ -2,15 +2,12 @@
 UID: NF:propvarutil.PropVariantToInt16Vector
 title: PropVariantToInt16Vector function (propvarutil.h)
 description: Extracts a vector of Int16 values from a PROPVARIANT structure.
+helpviewer_keywords: ["PropVariantToInt16Vector","PropVariantToInt16Vector function [Windows Properties]","_shell_PropVariantToInt16Vector","properties.PropVariantToInt16Vector","propvarutil/PropVariantToInt16Vector","shell.PropVariantToInt16Vector"]
 old-location: properties\PropVariantToInt16Vector.htm
 tech.root: properties
 ms.assetid: 33240552-7caa-4114-aad6-7341551b1fbe
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16Vector, PropVariantToInt16Vector function [Windows Properties], _shell_PropVariantToInt16Vector, properties.PropVariantToInt16Vector, propvarutil/PropVariantToInt16Vector, shell.PropVariantToInt16Vector
-f1_keywords:
-- propvarutil/PropVariantToInt16Vector
-dev_langs:
-- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PropVariantToInt16Vector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PropVariantToInt16Vector
+ - propvarutil/PropVariantToInt16Vector
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PropVariantToInt16Vector
 ---
 
 # PropVariantToInt16Vector function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extracts a vector of <b>Int16</b> values from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+Extracts a vector of <b>Int16</b> values from a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -parameters
-
-
-
 
 ### -param propvar [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param prgn [out]
 
 Type: <b>SHORT*</b>
 
- Points to a buffer containing <i>crgn</i> SHORT values. When this function returns, the buffer has been initialized with <i>pcElem</i> SHORT elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+ Points to a buffer containing <i>crgn</i> SHORT values. When this function returns, the buffer has been initialized with <i>pcElem</i> SHORT elements extracted from the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param crgn [in]
 
@@ -77,17 +72,13 @@ Type: <b>ULONG</b>
 
 Size of the buffer pointed to by <i>prgn</i> in elements.
 
-
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains the count of <b>Int16</b> elements extracted from source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
-
+When this function returns, contains the count of <b>Int16</b> elements extracted from source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -116,7 +107,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> contained more than <i>crgn</i> values. The buffer pointed to by <i>prgn</i>.
+The source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> contained more than <i>crgn</i> values. The buffer pointed to by <i>prgn</i>.
 
 </td>
 </tr>
@@ -127,23 +118,17 @@ The source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-pr
 </dl>
 </td>
 <td width="60%">
-The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>was not of the appropriate type.
+The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> was not of the appropriate type.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an <b>Int16</b> vector value with a fixed number of elements.
 
-
-This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold an <b>Int16</b> vector value with a fixed number of elements.
-
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_I2 or VT_ARRAY | VT_I2, this helper function extracts up to <i>crgn</i> Int16 values and places them into the buffer pointed to by <i>prgn</i>. If the <b>PROPVARIANT</b> contains more elements than will fit into the <i>prgn</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_I2 or VT_ARRAY | VT_I2, this helper function extracts up to <i>crgn</i> Int16 values and places them into the buffer pointed to by <i>prgn</i>. If the <b>PROPVARIANT</b> contains more elements than will fit into the <i>prgn</i> buffer, this function returns an error and sets <i>pcElem</i> to 0.
 
 
 #### Examples
@@ -168,33 +153,22 @@ if (SUCCEEDED(hr))
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint16vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromint16vector">InitPropVariantFromInt16Vector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetint16elem">PropVariantGetInt16Elem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetint16elem">PropVariantGetInt16Elem</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16">PropVariantToInt16</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16">PropVariantToInt16</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16vectoralloc">PropVariantToInt16VectorAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoint16vectoralloc">PropVariantToInt16VectorAlloc</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint16array">VariantToInt16Array</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttoint16array">VariantToInt16Array</a>

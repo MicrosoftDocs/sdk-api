@@ -2,15 +2,12 @@
 UID: NF:setupapi.SetupDiSetDeviceInterfacePropertyW
 title: SetupDiSetDeviceInterfacePropertyW function (setupapi.h)
 description: The SetupDiSetDeviceInterfaceProperty function sets a device property of a device interface.
+helpviewer_keywords: ["SetupDiSetDeviceInterfaceProperty","SetupDiSetDeviceInterfaceProperty","SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation]","SetupDiSetDeviceInterfacePropertyW","devinst.setupdisetdeviceinterfaceproperty","di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml","setupapi/SetupDiSetDeviceInterfaceProperty"]
 old-location: devinst\setupdisetdeviceinterfaceproperty.htm
 tech.root: devinst
 ms.assetid: 5c8da8a3-1c53-42c1-8adc-46743b63f731
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetDeviceInterfaceProperty, SetupDiSetDeviceInterfaceProperty , SetupDiSetDeviceInterfaceProperty function [Device and Driver Installation], SetupDiSetDeviceInterfacePropertyW, devinst.setupdisetdeviceinterfaceproperty, di-rtns_046f3d0e-43cc-4a62-be1e-4bbad8e59e48.xml, setupapi/SetupDiSetDeviceInterfaceProperty
-f1_keywords:
-- setupapi/SetupDiSetDeviceInterfaceProperty
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Set_Device_Interface_Property
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiSetDeviceInterfaceProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiSetDeviceInterfacePropertyW
+ - setupapi/SetupDiSetDeviceInterfacePropertyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiSetDeviceInterfaceProperty
 ---
 
 # SetupDiSetDeviceInterfacePropertyW function
@@ -49,55 +51,41 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetupDiSetDeviceInterfaceProperty</b> function sets a device property of a device interface.
-
 
 ## -parameters
 
-
-
-
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device interface for which to set a device interface property.
-
+A handle to a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the device interface for which to set a device interface property.
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to set a device interface property.
-
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that represents the device interface for which to set a device interface property.
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the device interface property to set.
-
+A pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the device interface property to set.
 
 ### -param PropertyType [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier of the device interface property to set. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
-
+A <a href="/windows-hardware/drivers/install/property-data-type-identifiers">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier of the device interface property to set. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
 
 ### -param PropertyBuffer [in, optional]
 
 A pointer to a buffer that contains the device interface property value. If either the property or the interface value is being deleted, this pointer must be set to <b>NULL</b>, and <i>PropertyBufferSize</i> must be set to zero. For more information about property value data, see the <b>Remarks</b> section later in this topic.
 
-
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer</i> buffer. The property buffer size must be consistent with the property-data-type identifier that is supplied by <i>PropertyType</i>. If <i>PropertyBuffer </i>is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
-
+The size, in bytes, of the <i>PropertyBuffer</i> buffer. The property buffer size must be consistent with the property-data-type identifier that is supplied by <i>PropertyType</i>. If <i>PropertyBuffer </i> is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
 
 ### -param Flags [in]
 
 Must be set to zero.
 
-
 ## -returns
 
-
-
-<b>SetupDiSetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, this function returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiSetDeviceInterfaceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, this function returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. 
 
@@ -229,16 +217,10 @@ The caller does not have Administrator privileges.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
+<b>SetupDiSetDeviceInterfaceProperty</b> is part of the <a href="/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>. 
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetDeviceInterfaceProperty</b>. 
 
@@ -246,24 +228,14 @@ A caller of <b>SetupDiSetDeviceInterfaceProperty</b> must be a member of the Adm
 
 <b>SetupDiSetDeviceInterfaceProperty</b> enforces requirements on the property-data-type identifier and the property value. 
 
-To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device interface, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>.
 
-To retrieve a device interface property, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a>.
-
-
-
+To retrieve a device interface property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertyw">SetupDiGetDeviceInterfaceProperty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>

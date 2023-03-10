@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2.ReleaseExclusiveAccess
 title: IDiscRecorder2::ReleaseExclusiveAccess (imapi2.h)
 description: Releases exclusive access to the device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","ReleaseExclusiveAccess method","IDiscRecorder2.ReleaseExclusiveAccess","IDiscRecorder2::ReleaseExclusiveAccess","ReleaseExclusiveAccess","ReleaseExclusiveAccess method [IMAPI]","ReleaseExclusiveAccess method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_releaseexclusiveaccess","imapi2/IDiscRecorder2::ReleaseExclusiveAccess"]
 old-location: imapi\idiscrecorder2_releaseexclusiveaccess.htm
 tech.root: imapi
 ms.assetid: 940929d7-7940-448e-9554-3e3691772eb8
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],ReleaseExclusiveAccess method, IDiscRecorder2.ReleaseExclusiveAccess, IDiscRecorder2::ReleaseExclusiveAccess, ReleaseExclusiveAccess, ReleaseExclusiveAccess method [IMAPI], ReleaseExclusiveAccess method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_releaseexclusiveaccess, imapi2/IDiscRecorder2::ReleaseExclusiveAccess
-f1_keywords:
-- imapi2/IDiscRecorder2.ReleaseExclusiveAccess
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2.ReleaseExclusiveAccess
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2::ReleaseExclusiveAccess
+ - imapi2/IDiscRecorder2::ReleaseExclusiveAccess
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2.ReleaseExclusiveAccess
 ---
 
 # IDiscRecorder2::ReleaseExclusiveAccess
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Releases exclusive access to the device.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -149,39 +142,23 @@ Value: 0xC0AA0210
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Each recorder has a lock count. The first call to a recorder locks the device for exclusive access. Applications can use the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">IDiscRecorder2::AcquireExclusiveAccess</a> method multiple times to apply multiple locks on a device. Each call increments the lock count by one.
+Each recorder has a lock count. The first call to a recorder locks the device for exclusive access. Applications can use the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">IDiscRecorder2::AcquireExclusiveAccess</a> method multiple times to apply multiple locks on a device. Each call increments the lock count by one.
 
 When unlocking a recorder, the lock count must reach zero to free the device for other clients. Calling the <b>ReleaseExclusiveAccess</b> method decrements the lock count by one.
 
-An equal number of  calls to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">AcquireExclusiveAccess</a> and <b>ReleaseExclusiveAccess</b> methods are needed to free a device. When the lock count reaches zero, recording device is free; the last lock has been removed.
-
-
-
+An equal number of  calls to the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">AcquireExclusiveAccess</a> and <b>ReleaseExclusiveAccess</b> methods are needed to free a device. When the lock count reaches zero, recording device is free; the last lock has been removed.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">IDiscRecorder2::AcquireExclusiveAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-acquireexclusiveaccess">IDiscRecorder2::AcquireExclusiveAccess</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a>

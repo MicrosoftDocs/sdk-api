@@ -2,15 +2,12 @@
 UID: NS:winnt._IMAGE_ENCLAVE_IMPORT
 title: IMAGE_ENCLAVE_IMPORT (winnt.h)
 description: Defines a entry in the array of images that an enclave can import.
+helpviewer_keywords: ["*PIMAGE_ENCLAVE_IMPORT","IMAGE_ENCLAVE_IMPORT","IMAGE_ENCLAVE_IMPORT structure","IMAGE_ENCLAVE_IMPORT_MATCH_AUTHOR_ID","IMAGE_ENCLAVE_IMPORT_MATCH_FAMILY_ID","IMAGE_ENCLAVE_IMPORT_MATCH_IMAGE_ID","IMAGE_ENCLAVE_IMPORT_MATCH_NONE","IMAGE_ENCLAVE_IMPORT_MATCH_UNIQUE_ID","PIMAGE_ENCLAVE_IMPORT","PIMAGE_ENCLAVE_IMPORT structure pointer","base.image_enclave_import","winnt/IMAGE_ENCLAVE_IMPORT","winnt/PIMAGE_ENCLAVE_IMPORT"]
 old-location: base\image_enclave_import.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 32E75114-61B2-4051-99EC-873DD75A368A
 ms.date: 12/05/2018
 ms.keywords: '*PIMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT, IMAGE_ENCLAVE_IMPORT structure, IMAGE_ENCLAVE_IMPORT_MATCH_AUTHOR_ID, IMAGE_ENCLAVE_IMPORT_MATCH_FAMILY_ID, IMAGE_ENCLAVE_IMPORT_MATCH_IMAGE_ID, IMAGE_ENCLAVE_IMPORT_MATCH_NONE, IMAGE_ENCLAVE_IMPORT_MATCH_UNIQUE_ID, PIMAGE_ENCLAVE_IMPORT, PIMAGE_ENCLAVE_IMPORT structure pointer, base.image_enclave_import, winnt/IMAGE_ENCLAVE_IMPORT, winnt/PIMAGE_ENCLAVE_IMPORT'
-f1_keywords:
-- winnt/IMAGE_ENCLAVE_IMPORT
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winnt.h
-api_name:
-- IMAGE_ENCLAVE_IMPORT
 targetos: Windows
 req.typenames: IMAGE_ENCLAVE_IMPORT, *PIMAGE_ENCLAVE_IMPORT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _IMAGE_ENCLAVE_IMPORT
+ - winnt/_IMAGE_ENCLAVE_IMPORT
+ - PIMAGE_ENCLAVE_IMPORT
+ - winnt/PIMAGE_ENCLAVE_IMPORT
+ - IMAGE_ENCLAVE_IMPORT
+ - winnt/IMAGE_ENCLAVE_IMPORT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winnt.h
+api_name:
+ - IMAGE_ENCLAVE_IMPORT
 ---
 
 # IMAGE_ENCLAVE_IMPORT structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines a entry in the array of images that an enclave can import.
 
-
 ## -struct-fields
-
-
-
 
 ### -field MatchType
 
@@ -122,33 +123,26 @@ The value of the enclave image identifier must match the value in the import rec
 </td>
 </tr>
 </table>
- 
-
 
 ### -field MinimumSecurityVersion
 
-The minimum enclave security version that each image must have for the image to be imported successfully. The image is rejected unless its enclave security version is equal to or greater than the minimum value in the import record.  Set the value in the import record to zero to turn off the security version check. 
-
+The minimum enclave security version that each image must have for the image to be imported successfully. The image is rejected unless its enclave security version is equal to or greater than the minimum value in the import record.  Set the value in the import record to zero to turn off the security version check.
 
 ### -field UniqueOrAuthorID
 
 The unique identifier of the primary module for the enclave, if the <b>MatchType</b> member is <b>IMAGE_ENCLAVE_IMPORT_MATCH_UNIQUE_ID</b>. Otherwise, the author identifier of the primary module for the enclave..
 
-
 ### -field FamilyID
 
 The family identifier of the primary module for the enclave.
-
 
 ### -field ImageID
 
 The image identifier of the primary module for the enclave.
 
-
 ### -field ImportName
 
 The relative virtual address of a NULL-terminated string that contains the same value found in the import directory for the image.
-
 
 ### -field Reserved
 

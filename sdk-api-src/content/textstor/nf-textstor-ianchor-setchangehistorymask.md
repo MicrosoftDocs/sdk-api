@@ -2,15 +2,12 @@
 UID: NF:textstor.IAnchor.SetChangeHistoryMask
 title: IAnchor::SetChangeHistoryMask (textstor.h)
 description: This method has not been implemented.
+helpviewer_keywords: ["IAnchor interface [Text Services Framework]","SetChangeHistoryMask method","IAnchor.SetChangeHistoryMask","IAnchor::SetChangeHistoryMask","SetChangeHistoryMask","SetChangeHistoryMask method [Text Services Framework]","SetChangeHistoryMask method [Text Services Framework]","IAnchor interface","textstor/IAnchor::SetChangeHistoryMask","tsf.ianchor_setchangehistorymask"]
 old-location: tsf\ianchor_setchangehistorymask.htm
 tech.root: TSF
 ms.assetid: b6be9a29-5d39-4719-a7e3-0c0921ecd89a
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetChangeHistoryMask method, IAnchor.SetChangeHistoryMask, IAnchor::SetChangeHistoryMask, SetChangeHistoryMask, SetChangeHistoryMask method [Text Services Framework], SetChangeHistoryMask method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetChangeHistoryMask, tsf.ianchor_setchangehistorymask
-f1_keywords:
-- textstor/IAnchor.SetChangeHistoryMask
-dev_langs:
-- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- IAnchor.SetChangeHistoryMask
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - IAnchor::SetChangeHistoryMask
+ - textstor/IAnchor::SetChangeHistoryMask
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - IAnchor.SetChangeHistoryMask
 ---
 
 # IAnchor::SetChangeHistoryMask
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method has not been implemented.
 
-
 ## -parameters
-
-
-
 
 ### -param dwMask [in]
 
 Not used.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -85,7 +79,4 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
 

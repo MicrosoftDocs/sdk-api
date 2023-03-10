@@ -1,16 +1,13 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserMarshal
 title: LPSAFEARRAY_UserMarshal function (wia_xp.h)
-description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side.
+description: Marshals data from the specified SAFEARRAY object to the user's RPC buffer on the client or server side. (LPSAFEARRAY_UserMarshal)
+helpviewer_keywords: ["LPSAFEARRAY_UserMarshal","LPSAFEARRAY_UserMarshal function [Automation]","_oa96_LPSAFEARRAY_UserMarshal","automat.lpsafearray_usermarshal","wia_xp/LPSAFEARRAY_UserMarshal"]
 old-location: automat\lpsafearray_usermarshal.htm
 tech.root: automat
 ms.assetid: 8255d1a0-b102-443d-a10f-8c6bd9047703
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserMarshal, LPSAFEARRAY_UserMarshal function [Automation], _oa96_LPSAFEARRAY_UserMarshal, automat.lpsafearray_usermarshal, wia_xp/LPSAFEARRAY_UserMarshal
-f1_keywords:
-- wia_xp/LPSAFEARRAY_UserMarshal
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- LPSAFEARRAY_UserMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPSAFEARRAY_UserMarshal
+ - wia_xp/LPSAFEARRAY_UserMarshal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - LPSAFEARRAY_UserMarshal
 ---
 
 # LPSAFEARRAY_UserMarshal function
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Marshals data from the specified <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side. 
-
+Marshals data from the specified <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> object to the user's RPC buffer on the client or server side.
 
 ## -parameters
 
-
-
-
-### -param arg1 [in]
+### -param unnamedParam1 [in]
 
 The data used by RPC.
 
-
-### -param arg2 [in, out]
+### -param unnamedParam2 [in, out]
 
 The current buffer. This pointer may or may not be aligned on entry. The function aligns the buffer pointer, marshals the data, and returns the new buffer position, which is the address of the first byte after the marshaled object.
 
-
-### -param arg3 [in]
+### -param unnamedParam3 [in]
 
 The safe array that contains the data to marshal.
 
-
 ## -returns
-
-
 
 The value obtained from the returned <b>HRESULT</b> value is one of the following.
 
@@ -124,7 +116,3 @@ The array could not be locked.
 </td>
 </tr>
 </table>
- 
-
-
-

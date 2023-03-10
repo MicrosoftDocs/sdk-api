@@ -2,15 +2,12 @@
 UID: NF:clusapi.OfflineClusterGroupEx
 title: OfflineClusterGroupEx function (clusapi.h)
 description: Extends the OfflineClusterGroup method.
+helpviewer_keywords: ["OfflineClusterGroupEx","OfflineClusterGroupEx function [Failover Cluster]","clusapi/OfflineClusterGroupEx","mscs.offlineclustergroupex"]
 old-location: mscs\offlineclustergroupex.htm
 tech.root: MsCS
 ms.assetid: ED22150C-7149-4CED-9C9B-356BCEEBF11F
 ms.date: 12/05/2018
 ms.keywords: OfflineClusterGroupEx, OfflineClusterGroupEx function [Failover Cluster], clusapi/OfflineClusterGroupEx, mscs.offlineclustergroupex
-f1_keywords:
-- clusapi/OfflineClusterGroupEx
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- OfflineClusterGroupEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OfflineClusterGroupEx
+ - clusapi/OfflineClusterGroupEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - OfflineClusterGroupEx
 ---
 
 # OfflineClusterGroupEx function
@@ -48,29 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-offlineclustergroup">OfflineClusterGroup</a> method. 
+Extends the <a href="/windows/desktop/api/clusapi/nf-clusapi-offlineclustergroup">OfflineClusterGroup</a> method. 
     The client can use the flags to control failover policies of the group and the input buffer to send specific 
     instructions for the offline operation to the resources in the target group. For instance, the input buffer can be 
     used to instruct a virtual machine to go offline by saving its state as opposed to shutting down.
 
-
 ## -parameters
-
-
-
 
 ### -param hGroup [in]
 
 The handle to a cluster group.
-
 
 ### -param dwOfflineFlags [in]
 
 Flags that influence the offline policy. Along with 0x0, the following is an acceptable value: 
       <b>CLUSAPI_GROUP_OFFLINE_IGNORE_RESOURCE_LOCKED_STATUS</b> (0x00000001): disregard if a 
       resource has indicated that it should be “locked” in its current state.
-
 
 ### -param lpInBuffer
 
@@ -82,34 +77,25 @@ Contains instructions for the offline operation that are targeted at specific re
       <b>OfflineClusterGroupEx</b> operation are not 
       related to the private properties associated with a resource.
 
-
 ### -param cbInBufferSize [in]
 
 The size of <i>lpInBuffer</i>, in bytes.
 
-
 ## -returns
-
-
 
 <b>OfflineClusterGroupEx</b> returns 
       <b>ERROR_IO_PENDING</b> if the offline command has been accepted and is in progress. 
       <b>OfflineClusterGroupEx</b> returns a nonzero error 
       code if the offline command was rejected immediately with no changes to group state.
 
-
-
-
 ## -remarks
-
-
 
 <b>OfflineClusterGroupEx</b> fails immediately with 
     error <b>ERROR_CLUSTER_RESOURCE_LOCKED_STATUS</b> if the 
     <b>CLUSAPI_OFFLINE_GROUP_IGNORE_RESOURCE_LOCKED_STATUS</b> flag is not set and any resource in 
     the group has indicated that it is “locked” in its current state.
 
-Similar to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a>, if 
+Similar to <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a>, if 
     <b>OfflineClusterGroupEx</b> returns 
     <b>ERROR_IO_PENDING</b>, then the cluster service will attempt to bring the group to the 
     offline state.
@@ -208,7 +194,3 @@ Cleanup:
     return (int)error;
 }
 ```
-
-
-
-

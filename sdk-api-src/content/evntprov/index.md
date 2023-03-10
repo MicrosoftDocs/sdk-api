@@ -4,8 +4,11 @@ title: Evntprov.h header
 ms.assetid: c5b8418f-4606-34af-bf66-6b8a29ff997b
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: etw
+f1_keywords:
+ - evntprov
+ - evntprov/evntprov
 ---
 
 # Evntprov.h header
@@ -13,8 +16,8 @@ tech.root: etw
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by Event Tracing. For more information, see:
-
+- [Driver Development Tools Reference](../_devtest/index.md)
 - [Event Tracing](../_etw/index.md)
 

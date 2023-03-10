@@ -1,16 +1,13 @@
 ---
 UID: NF:ddeml.DdeInitializeA
 title: DdeInitializeA function (ddeml.h)
-description: Registers an application with the Dynamic Data Exchange Management Library (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function.
+description: Registers an application with the Dynamic Data Exchange Management Library (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function. (ANSI)
+helpviewer_keywords: ["APPCLASS_MONITOR", "APPCLASS_STANDARD", "APPCMD_CLIENTONLY", "APPCMD_FILTERINITS", "CBF_FAIL_ADVISES", "CBF_FAIL_ALLSVRXACTIONS", "CBF_FAIL_CONNECTIONS", "CBF_FAIL_EXECUTES", "CBF_FAIL_POKES", "CBF_FAIL_REQUESTS", "CBF_FAIL_SELFCONNECTIONS", "CBF_SKIP_ALLNOTIFICATIONS", "CBF_SKIP_CONNECT_CONFIRMS", "CBF_SKIP_DISCONNECTS", "CBF_SKIP_REGISTRATIONS", "CBF_SKIP_UNREGISTRATIONS", "DdeInitializeA", "MF_CALLBACKS", "MF_CONV", "MF_ERRORS", "MF_HSZ_INFO", "MF_LINKS", "MF_POSTMSGS", "MF_SENDMSGS", "ddeml/DdeInitializeA"]
 old-location: dataxchg\ddeinitialize.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeinitialize.htm
 ms.date: 12/05/2018
 ms.keywords: APPCLASS_MONITOR, APPCLASS_STANDARD, APPCMD_CLIENTONLY, APPCMD_FILTERINITS, CBF_FAIL_ADVISES, CBF_FAIL_ALLSVRXACTIONS, CBF_FAIL_CONNECTIONS, CBF_FAIL_EXECUTES, CBF_FAIL_POKES, CBF_FAIL_REQUESTS, CBF_FAIL_SELFCONNECTIONS, CBF_SKIP_ALLNOTIFICATIONS, CBF_SKIP_CONNECT_CONFIRMS, CBF_SKIP_DISCONNECTS, CBF_SKIP_REGISTRATIONS, CBF_SKIP_UNREGISTRATIONS, DdeInitialize, DdeInitialize function [Data Exchange], DdeInitializeA, DdeInitializeW, MF_CALLBACKS, MF_CONV, MF_ERRORS, MF_HSZ_INFO, MF_LINKS, MF_POSTMSGS, MF_SENDMSGS, _win32_DdeInitialize, _win32_ddeinitialize_cpp, dataxchg.ddeinitialize, ddeml/DdeInitialize, ddeml/DdeInitializeA, ddeml/DdeInitializeW, winui._win32_ddeinitialize
-f1_keywords:
-- ddeml/DdeInitialize
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeInitialize
-- DdeInitializeA
-- DdeInitializeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeInitializeA
+ - ddeml/DdeInitializeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeInitialize
+ - DdeInitializeA
+ - DdeInitializeW
 ---
 
 # DdeInitializeA function
@@ -50,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Registers an application with the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function. 
-
+Registers an application with the <a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a> (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function.
 
 ## -parameters
-
-
-
 
 ### -param pidInst [in, out]
 
@@ -68,15 +65,13 @@ The application instance identifier. At initialization, this parameter should po
 
 If 
 					<i>pidInst</i> points to a nonzero value, reinitialization of the DDEML is implied. In this case, 
-					<i>pidInst</i> must point to a valid application-instance identifier. 
-
+					<i>pidInst</i> must point to a valid application-instance identifier.
 
 ### -param pfnCallback [in]
 
 Type: <b>PFNCALLBACK</b>
 
-A pointer to the application-defined DDE callback function. This function processes DDE transactions sent by the system. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nc-ddeml-pfncallback">DdeCallback</a> callback function. 
-
+A pointer to the application-defined DDE callback function. This function processes DDE transactions sent by the system. For more information, see the <a href="/windows/desktop/api/ddeml/nc-ddeml-pfncallback">DdeCallback</a> callback function.
 
 ### -param afCmd [in]
 
@@ -131,7 +126,7 @@ Prevents the application from becoming a server in a DDE conversation. The appli
 </dl>
 </td>
 <td width="60%">
-Prevents the DDEML from sending <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transactions to the application until the application has created its string handles and registered its service names or has turned off filtering by a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddenameservice">DdeNameService</a> or <b>DdeInitialize</b> function. This flag is always in effect when an application calls <b>DdeInitialize</b> for the first time, regardless of whether the application specifies the flag. On subsequent calls to <b>DdeInitialize</b>, not specifying this flag turns off the application's service-name filters, but specifying it turns on the application's service name filters.
+Prevents the DDEML from sending <a href="/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> and <a href="/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transactions to the application until the application has created its string handles and registered its service names or has turned off filtering by a subsequent call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddenameservice">DdeNameService</a> or <b>DdeInitialize</b> function. This flag is always in effect when an application calls <b>DdeInitialize</b> for the first time, regardless of whether the application specifies the flag. On subsequent calls to <b>DdeInitialize</b>, not specifying this flag turns off the application's service-name filters, but specifying it turns on the application's service name filters.
 
 </td>
 </tr>
@@ -153,7 +148,7 @@ Prevents the callback function from receiving server transactions. The system re
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a> and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to each client that sends an <b>XTYP_ADVSTART</b> or <b>XTYP_ADVSTOP</b> transaction to the server.
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-advstart">XTYP_ADVSTART</a> and <a href="/windows/desktop/dataxchg/xtyp-advstop">XTYP_ADVSTOP</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to each client that sends an <b>XTYP_ADVSTART</b> or <b>XTYP_ADVSTOP</b> transaction to the server.
 
 </td>
 </tr>
@@ -164,7 +159,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transactions.
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> and <a href="/windows/desktop/dataxchg/xtyp-wildconnect">XTYP_WILDCONNECT</a> transactions.
 
 </td>
 </tr>
@@ -175,7 +170,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to a client that sends an 
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-execute">XTYP_EXECUTE</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to a client that sends an 
 						<b>XTYP_EXECUTE</b> transaction to the server.
 
 </td>
@@ -187,7 +182,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to a client that sends an 
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-poke">XTYP_POKE</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to a client that sends an 
 						<b>XTYP_POKE</b> transaction to the server.
 
 </td>
@@ -199,7 +194,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to a client that sends an 
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-request">XTYP_REQUEST</a> transactions. The system returns <b>DDE_FNOTPROCESSED</b> to a client that sends an 
 						<b>XTYP_REQUEST</b> transaction to the server.
 
 </td>
@@ -211,7 +206,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> transactions from the application's own instance. This flag prevents an application from establishing a DDE conversation with its own instance. An application should use this flag if it needs to communicate with other instances of itself but not with itself.
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-connect">XTYP_CONNECT</a> transactions from the application's own instance. This flag prevents an application from establishing a DDE conversation with its own instance. An application should use this flag if it needs to communicate with other instances of itself but not with itself.
 
 </td>
 </tr>
@@ -233,7 +228,7 @@ Prevents the callback function from receiving any notifications. This flag is eq
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-connect-confirm">XTYP_CONNECT_CONFIRM</a> notifications.
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-connect-confirm">XTYP_CONNECT_CONFIRM</a> notifications.
 
 </td>
 </tr>
@@ -244,7 +239,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-disconnect">XTYP_DISCONNECT</a> notifications.
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-disconnect">XTYP_DISCONNECT</a> notifications.
 
 </td>
 </tr>
@@ -255,7 +250,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-register">XTYP_REGISTER</a> notifications.
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-register">XTYP_REGISTER</a> notifications.
 
 </td>
 </tr>
@@ -266,7 +261,7 @@ Prevents the callback function from receiving <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Prevents the callback function from receiving <a href="https://docs.microsoft.com/windows/desktop/dataxchg/xtyp-unregister">XTYP_UNREGISTER</a> notifications.
+Prevents the callback function from receiving <a href="/windows/desktop/dataxchg/xtyp-unregister">XTYP_UNREGISTER</a> notifications.
 
 </td>
 </tr>
@@ -310,7 +305,7 @@ Notifies the callback function whenever a DDE error occurs.
 </dl>
 </td>
 <td width="60%">
-Notifies the callback function whenever a DDE application creates, frees, or increments the usage count of a string handle or whenever a string handle is freed as a result of a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeuninitialize">DdeUninitialize</a> function.
+Notifies the callback function whenever a DDE application creates, frees, or increments the usage count of a string handle or whenever a string handle is freed as a result of a call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeuninitialize">DdeUninitialize</a> function.
 
 </td>
 </tr>
@@ -348,19 +343,14 @@ Notifies the callback function whenever the system or an application sends a DDE
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulRes
 
 Type: <b>DWORD</b>
 
-Reserved; must be set to zero. 
-
+Reserved; must be set to zero.
 
 ## -returns
-
-
 
 Type: <b>UINT</b>
 
@@ -368,12 +358,7 @@ If the function succeeds, the return value is <b>DMLERR_NO_ERROR</b>.
 
 If the function fails, the return value is one of the following values:
 
-
-
-
 ## -remarks
-
-
 
 An application that uses multiple instances of the DDEML must not pass DDEML objects between instances. 
 
@@ -385,18 +370,15 @@ The <b>CBF_FAIL_ALLSVRXACTIONS</b> flag causes the DDEML to filter all server tr
 
 There is an ANSI version and a Unicode version of <b>DdeInitialize</b>. The version called determines the type of the window procedures used to control DDE conversations (ANSI or Unicode), and the default value for the 
 				<i>iCodePage</i> member of the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a> structure (<b>CP_WINANSI</b> or <b>CP_WINUNICODE</b>). 
+				<a href="/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a> structure (<b>CP_WINANSI</b> or <b>CP_WINUNICODE</b>). 
 
 
 
+
+
+> [!NOTE]
+> The ddeml.h header defines DdeInitialize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library Overview</a>

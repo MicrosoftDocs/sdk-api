@@ -7,10 +7,6 @@ tech.root: Intl
 ms.assetid: 09dba873-4302-46ee-9de0-cd480a424144
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Id property, IOptionDescription.Id, IOptionDescription.get_Id, IOptionDescription::Id, IOptionDescription::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],IOptionDescription interface, get_Id, intl.ioptiondescription_id, spellcheck/IOptionDescription::Id, spellcheck/IOptionDescription::get_Id
-f1_keywords:
-- spellcheck/IOptionDescription.Id
-dev_langs:
-- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +24,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Spellcheck.h
-api_name:
-- IOptionDescription.Id
-- IOptionDescription.get_Id
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOptionDescription::get_Id
+ - spellcheck/IOptionDescription::get_Id
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Spellcheck.h
+api_name:
+ - IOptionDescription.Id
+ - IOptionDescription.get_Id
 ---
 
 # IOptionDescription::get_Id
@@ -49,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the identifier of the spell checker option.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 Option identifiers all exist in the same area. Spell checker providers should use the engine identifier and the language tag (if the option is language-specific) to disambiguate potential collisions. 
 
@@ -74,16 +70,6 @@ Specifically, the structure for naming the option identifiers should be:
 <div> </div>
 An option identifier is linked to the set of labels and the semantics associated with them. If any change needs to be made between versions to the option (adding a label to the set of labels), a new option with a new identifier must be used. The only valid change that does not require a new identifier is to change from a single label to two labels and vice-versa when the semantics for values 0 and 1 do not change.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>

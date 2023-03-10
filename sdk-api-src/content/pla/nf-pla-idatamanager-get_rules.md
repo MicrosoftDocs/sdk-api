@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IDataManager.get_Rules
 title: IDataManager::get_Rules (pla.h)
-description: Retrieves or sets the rules to apply to the report.
+description: Retrieves or sets the rules to apply to the report. (Get)
+helpviewer_keywords: ["IDataManager interface [PLA]","Rules property","IDataManager.Rules","IDataManager.get_Rules","IDataManager::Rules","IDataManager::get_Rules","IDataManager::put_Rules","Rules property [PLA]","Rules property [PLA]","IDataManager interface","base.idatamanager_rules","get_Rules","pla.idatamanager_rules","pla/IDataManager::Rules","pla/IDataManager::get_Rules","pla/IDataManager::put_Rules"]
 old-location: pla\idatamanager_rules.htm
 tech.root: PLA
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],Rules property, IDataManager.Rules, IDataManager.get_Rules, IDataManager::Rules, IDataManager::get_Rules, IDataManager::put_Rules, Rules property [PLA], Rules property [PLA],IDataManager interface, base.idatamanager_rules, get_Rules, pla.idatamanager_rules, pla/IDataManager::Rules, pla/IDataManager::get_Rules, pla/IDataManager::put_Rules
-f1_keywords:
-- pla/IDataManager.Rules
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IDataManager.Rules
-- IDataManager.get_Rules
-- IDataManager.put_Rules
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDataManager::get_Rules
+ - pla/IDataManager::get_Rules
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IDataManager.Rules
+ - IDataManager.get_Rules
+ - IDataManager.put_Rules
 ---
 
 # IDataManager::get_Rules
@@ -50,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the rules to apply to the report. 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-The rules modify  the contents of the report after it is generated. To specify the content that TraceRpt generates, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportschema">IDataManager::ReportSchema</a>.
+The rules modify  the contents of the report after it is generated. To specify the content that TraceRpt generates, see <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_reportschema">IDataManager::ReportSchema</a>.
 
 The following schema defines the rules that you can specify. The <b>Rules</b> element is the root node. You can specify one or more <b>Group</b> elements, and each <b>Group</b> element can contain one or more <b>Rule</b> elements. The <b>Help</b> element is an optional user-defined element. The <b>Step</b> element defines a set of conditions and associated actions that are taken if the conditions are met.
 
@@ -136,17 +133,6 @@ The following schema defines the rules that you can specify. The <b>Rules</b> el
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>

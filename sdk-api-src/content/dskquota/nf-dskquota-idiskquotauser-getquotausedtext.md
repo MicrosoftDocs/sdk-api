@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaUsedText
 title: IDiskQuotaUser::GetQuotaUsedText (dskquota.h)
 description: Retrieves the user's quota used value for the volume.
+helpviewer_keywords: ["GetQuotaUsedText","GetQuotaUsedText method [Files]","GetQuotaUsedText method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaUsedText method","IDiskQuotaUser.GetQuotaUsedText","IDiskQuotaUser::GetQuotaUsedText","_win32_idiskquotauser_getquotausedtext","base.idiskquotauser_getquotausedtext","dskquota/IDiskQuotaUser::GetQuotaUsedText","fs.idiskquotauser_getquotausedtext"]
 old-location: fs\idiskquotauser_getquotausedtext.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 401362a3-ee68-4af1-9ea5-c871c060ef33
 ms.date: 12/05/2018
 ms.keywords: GetQuotaUsedText, GetQuotaUsedText method [Files], GetQuotaUsedText method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsedText method, IDiskQuotaUser.GetQuotaUsedText, IDiskQuotaUser::GetQuotaUsedText, _win32_idiskquotauser_getquotausedtext, base.idiskquotauser_getquotausedtext, dskquota/IDiskQuotaUser::GetQuotaUsedText, fs.idiskquotauser_getquotausedtext
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetQuotaUsedText
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetQuotaUsedText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetQuotaUsedText
+ - dskquota/IDiskQuotaUser::GetQuotaUsedText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetQuotaUsedText
 ---
 
 # IDiskQuotaUser::GetQuotaUsedText
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user's quota used value for the volume. This value is expressed as a text string, for example "10.5 MB". If the destination buffer is too small, the string is truncated to fit the buffer.
 
-
 ## -parameters
-
-
-
 
 ### -param pszText [out]
 
 The text string.
 
-
 ### -param cchText [in]
 
 The size of the buffer, in bytes.
 
-
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -156,26 +149,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

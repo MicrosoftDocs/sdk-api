@@ -2,15 +2,12 @@
 UID: NF:uxtheme.GetThemeMetric
 title: GetThemeMetric function (uxtheme.h)
 description: Retrieves the value of a metric property.
+helpviewer_keywords: ["GetThemeMetric","GetThemeMetric function [Windows Controls]","TMT_ALPHALEVEL","TMT_ALPHATHRESHOLD","TMT_BORDERSIZE","TMT_GLYPHINDEX","TMT_GRADIENTRATIO1","TMT_GRADIENTRATIO2","TMT_GRADIENTRATIO3","TMT_GRADIENTRATIO4","TMT_GRADIENTRATIO5","TMT_HEIGHT","TMT_IMAGECOUNT","TMT_MINDPI1","TMT_MINDPI2","TMT_MINDPI3","TMT_MINDPI4","TMT_MINDPI5","TMT_PROGRESSCHUNKSIZE","TMT_PROGRESSSPACESIZE","TMT_ROUNDCORNERHEIGHT","TMT_ROUNDCORNERWIDTH","TMT_SATURATION","TMT_TEXTBORDERSIZE","TMT_TRUESIZESTRETCHMARK","TMT_WIDTH","controls.GetThemeMetric","controls.inet_GetThemeMetric","inet_GetThemeMetric","inet_GetThemeMetric_cpp","uxtheme/GetThemeMetric"]
 old-location: controls\GetThemeMetric.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememetric.htm
 ms.date: 12/05/2018
 ms.keywords: GetThemeMetric, GetThemeMetric function [Windows Controls], TMT_ALPHALEVEL, TMT_ALPHATHRESHOLD, TMT_BORDERSIZE, TMT_GLYPHINDEX, TMT_GRADIENTRATIO1, TMT_GRADIENTRATIO2, TMT_GRADIENTRATIO3, TMT_GRADIENTRATIO4, TMT_GRADIENTRATIO5, TMT_HEIGHT, TMT_IMAGECOUNT, TMT_MINDPI1, TMT_MINDPI2, TMT_MINDPI3, TMT_MINDPI4, TMT_MINDPI5, TMT_PROGRESSCHUNKSIZE, TMT_PROGRESSSPACESIZE, TMT_ROUNDCORNERHEIGHT, TMT_ROUNDCORNERWIDTH, TMT_SATURATION, TMT_TEXTBORDERSIZE, TMT_TRUESIZESTRETCHMARK, TMT_WIDTH, controls.GetThemeMetric, controls.inet_GetThemeMetric, inet_GetThemeMetric, inet_GetThemeMetric_cpp, uxtheme/GetThemeMetric
-f1_keywords:
-- uxtheme/GetThemeMetric
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-- xamlpalwp.dll
-api_name:
-- GetThemeMetric
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetThemeMetric
+ - uxtheme/GetThemeMetric
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+ - xamlpalwp.dll
+api_name:
+ - GetThemeMetric
 ---
 
 # GetThemeMetric function
@@ -50,42 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the value of a metric property.
 
-
 ## -parameters
-
-
-
 
 ### -param hTheme [in]
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
-
+Handle to a window's specified theme data. Use <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 ### -param hdc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC. This parameter may be set to <b>NULL</b>.
-
 
 ### -param iPartId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part that contains the metric property. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
-
+Value of type <b>int</b> that specifies the part that contains the metric property. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
-
+Value of type <b>int</b> that specifies the state of the part. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iPropId [in]
 
@@ -104,7 +97,7 @@ Value of type <b>int</b> that specifies the property to retrieve. Can be one of 
 </dl>
 </td>
 <td width="60%">
-The alpha value (0-255) used for <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemeicon">DrawThemeIcon</a>.
+The alpha value (0-255) used for <a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemeicon">DrawThemeIcon</a>.
 
 </td>
 </tr>
@@ -144,7 +137,7 @@ The character index into the selected font that will be used for the glyph, if t
 </dl>
 </td>
 <td width="60%">
-The amount of the first gradient color to use in drawing the part. This value can be from 0 to 255, but this value plus the values of each of the GRADIENTRATIO values must add up to 255. See the TMT_GRADIENTCOLOR1 value of <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemecolor">GetThemeColor</a>.
+The amount of the first gradient color to use in drawing the part. This value can be from 0 to 255, but this value plus the values of each of the GRADIENTRATIO values must add up to 255. See the TMT_GRADIENTCOLOR1 value of <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemecolor">GetThemeColor</a>.
 
 </td>
 </tr>
@@ -214,7 +207,7 @@ The number of state images present in an image file.
 </dl>
 </td>
 <td width="60%">
-The minimum dpi that the first image file was designed for. See <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-getthemefilename">GetThemeFilename</a>.
+The minimum dpi that the first image file was designed for. See <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemefilename">GetThemeFilename</a>.
 
 </td>
 </tr>
@@ -304,7 +297,7 @@ The roundness (0-100%) of the part's corners.
 </dl>
 </td>
 <td width="60%">
-The amount of saturation (0-255) to apply to an icon drawn using <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemeicon">DrawThemeIcon</a>.
+The amount of saturation (0-255) to apply to an icon drawn using <a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemeicon">DrawThemeIcon</a>.
 
 </td>
 </tr>
@@ -339,8 +332,6 @@ The width of the part.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param piVal [out]
 
@@ -348,25 +339,12 @@ Type: <b>int*</b>
 
 Pointer to an <b>int</b> that receives the metric property value.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/property-typedefs">Property Identifiers</a>

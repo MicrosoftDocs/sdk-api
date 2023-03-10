@@ -2,15 +2,12 @@
 UID: NF:wingdi.GetPolyFillMode
 title: GetPolyFillMode function (wingdi.h)
 description: The GetPolyFillMode function retrieves the current polygon fill mode.
+helpviewer_keywords: ["GetPolyFillMode","GetPolyFillMode function [Windows GDI]","_win32_GetPolyFillMode","gdi.getpolyfillmode","wingdi/GetPolyFillMode"]
 old-location: gdi\getpolyfillmode.htm
 tech.root: gdi
 ms.assetid: febf96fb-bf2e-4eb2-ab5f-89741a1decad
 ms.date: 12/05/2018
 ms.keywords: GetPolyFillMode, GetPolyFillMode function [Windows GDI], _win32_GetPolyFillMode, gdi.getpolyfillmode, wingdi/GetPolyFillMode
-f1_keywords:
-- wingdi/GetPolyFillMode
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- GetPolyFillMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPolyFillMode
+ - wingdi/GetPolyFillMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - GetPolyFillMode
 ---
 
 # GetPolyFillMode function
@@ -50,23 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetPolyFillMode</b> function retrieves the current polygon fill mode.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 Handle to the device context.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value specifies the polygon fill mode, which can be one of the following values.
 
@@ -88,24 +82,14 @@ If the function succeeds, the return value specifies the polygon fill mode, whic
 
 If an error occurs, the return value is zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
+<a href="/windows/desktop/gdi/regions">Regions Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>

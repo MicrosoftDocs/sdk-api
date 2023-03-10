@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.CopyFileExW
 title: CopyFileExW function (winbase.h)
-description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
+description: Copies an existing file to a new file, notifying the application of its progress through a callback function. (CopyFileExW)
+helpviewer_keywords: ["COPY_FILE_ALLOW_DECRYPTED_DESTINATION", "COPY_FILE_COPY_SYMLINK", "COPY_FILE_FAIL_IF_EXISTS", "COPY_FILE_NO_BUFFERING", "COPY_FILE_OPEN_SOURCE_FOR_WRITE", "COPY_FILE_RESTARTABLE", "CopyFileEx", "CopyFileEx function [Files]", "CopyFileExW", "_win32_copyfileex", "base.copyfileex", "fs.copyfileex", "winbase/CopyFileEx", "winbase/CopyFileExW"]
 old-location: fs\copyfileex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
 ms.date: 12/05/2018
 ms.keywords: COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileEx, CopyFileEx function [Files], CopyFileExA, CopyFileExW, _win32_copyfileex, base.copyfileex, fs.copyfileex, winbase/CopyFileEx, winbase/CopyFileExA, winbase/CopyFileExW
-f1_keywords:
-- winbase/CopyFileEx
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l2-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l2-1-1.dll
-- API-MS-Win-Core-File-l2-1-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- CopyFileEx
-- CopyFileExA
-- CopyFileExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CopyFileExW
+ - winbase/CopyFileExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l2-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l2-1-1.dll
+ - API-MS-Win-Core-File-l2-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - CopyFileEx
+ - CopyFileExA
+ - CopyFileExW
 ---
 
 # CopyFileExW function
@@ -57,18 +59,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Copies an existing file to a new file, notifying the application of its progress through a callback 
     function.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a> function.
-
+    <a href="/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpExistingFileName [in]
 
@@ -78,15 +75,14 @@ The name of an existing file.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>CopyFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting in Windows 10, version 1607, for the unicode version of this function (<b>CopyFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 If <i>lpExistingFileName</i> does not exist, the 
       <b>CopyFileEx</b> function fails, and the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
       <b>ERROR_FILE_NOT_FOUND</b>.
-
 
 ### -param lpNewFileName [in]
 
@@ -96,9 +92,9 @@ The name of the new file.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\?\" to 
        the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting inWindows 10, version 1607, for the unicode version of this function (<b>CopyFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
+<div class="alert"><b>Tip</b>  Starting inWindows 10, version 1607, for the unicode version of this function (<b>CopyFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> character limitation without prepending "\\?\". See the "Maximum Path Limitation" section of  <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details. </div>
 <div> </div>
 
 ### -param lpProgressRoutine [in, optional]
@@ -106,20 +102,17 @@ In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> cha
 The address of a callback function of type <b>LPPROGRESS_ROUTINE</b> that is called 
       each time another portion of the file has been copied. This parameter can be <b>NULL</b>. For 
       more information on the progress callback function, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> function.
-
+      <a href="/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a> function.
 
 ### -param lpData [in, optional]
 
 The argument to be passed to the callback function. This parameter can be 
       <b>NULL</b>.
 
-
 ### -param pbCancel [in, optional]
 
 If this flag is set to <b>TRUE</b> during the copy operation, the operation is canceled. 
       Otherwise, the copy operation will continue to completion.
-
 
 ### -param dwCopyFlags [in]
 
@@ -208,37 +201,39 @@ Progress of the copy is tracked in the target file in case the copy fails. The f
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="COPY_FILE_RESTARTABLE"></a><a id="copy_file_restartable"></a><dl>
+<dt><b>COPY_FILE_REQUEST_COMPRESSED_TRAFFIC</b></dt>
+<dt> 0x10000000</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Request the underlying transfer channel compress the data during the copy operation. The request may not be supported for all mediums, in which case it is ignored. The compression attributes and parameters (computational complexity, memory usage) are not configurable through this API, and are subject to change between different OS releases.</p>
+<p>This flag was introduced in Windows 10, version 1903 and Windows Server 2022. On Windows 10, the flag is supported for files residing on SMB shares, where the negotiated SMB protocol version is SMB v3.1.1 or greater.</p>
+</td>
+</tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If <i>lpProgressRoutine</i> returns <b>PROGRESS_CANCEL</b> due to the 
        user canceling the operation, <b>CopyFileEx</b> will return zero 
-       and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
+       and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
        <b>ERROR_REQUEST_ABORTED</b>. In this case, the partially copied destination file is 
        deleted.
 
 If <i>lpProgressRoutine</i> returns <b>PROGRESS_STOP</b> due to the 
        user stopping the operation, <b>CopyFileEx</b> will return zero 
-       and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
+       and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
        <b>ERROR_REQUEST_ABORTED</b>. In this case, the partially copied destination file is left 
        intact.
 
-
-
-
 ## -remarks
-
-
 
 This function preserves extended attributes, OLE structured storage, NTFS file system alternate data streams, 
      security resource attributes, and file attributes.
@@ -288,7 +283,7 @@ If <b>COPY_FILE_COPY_SYMLINK</b> is not specified, the following rules apply:
 
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>If you are writing an application that is optimizing file copy operations across a LAN, consider using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> function from Windows Sockets 
+      <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> function from Windows Sockets 
       (Winsock). <b>TransmitFile</b> supports high-performance 
       network transfers and provides a simple interface to send the contents of a file to a remote computer. To use 
       <b>TransmitFile</b>, you must write a Winsock client 
@@ -358,49 +353,46 @@ Yes
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines CopyFileEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a>
+<a href="/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-lpprogress_routine">CopyProgressRoutine</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefile">MoveFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefile">MoveFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>

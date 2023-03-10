@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IComThreadEvents.OnThreadAssignApartment
 title: IComThreadEvents::OnThreadAssignApartment (comsvcs.h)
 description: Generated when an activity is assigned to an apartment thread.
+helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadAssignApartment method","IComThreadEvents.OnThreadAssignApartment","IComThreadEvents::OnThreadAssignApartment","OnThreadAssignApartment","OnThreadAssignApartment method [COM+]","OnThreadAssignApartment method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadAssignApartment","comsvcs/IComThreadEvents::OnThreadAssignApartment","cos.icomthreadevents_onthreadassignapartment"]
 old-location: cos\icomthreadevents_onthreadassignapartment.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 2711b4b9-f27c-42c4-8f78-f31ffba2cfcf
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadAssignApartment method, IComThreadEvents.OnThreadAssignApartment, IComThreadEvents::OnThreadAssignApartment, OnThreadAssignApartment, OnThreadAssignApartment method [COM+], OnThreadAssignApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadAssignApartment, comsvcs/IComThreadEvents::OnThreadAssignApartment, cos.icomthreadevents_onthreadassignapartment
-f1_keywords:
-- comsvcs/IComThreadEvents.OnThreadAssignApartment
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComThreadEvents.OnThreadAssignApartment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComThreadEvents::OnThreadAssignApartment
+ - comsvcs/IComThreadEvents::OnThreadAssignApartment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComThreadEvents.OnThreadAssignApartment
 ---
 
 # IComThreadEvents::OnThreadAssignApartment
@@ -48,46 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generated when an activity is assigned to an apartment thread.
-
 
 ## -parameters
 
-
-
-
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
-
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 ### -param guidActivity [in]
 
 The activity identifier for which the object is created.
 
-
 ### -param AptID [in]
 
 The apartment identifier.
 
-
 ## -returns
-
-
 
 The user verifies the return values from this method.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomthreadevents">IComThreadEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomthreadevents">IComThreadEvents</a>

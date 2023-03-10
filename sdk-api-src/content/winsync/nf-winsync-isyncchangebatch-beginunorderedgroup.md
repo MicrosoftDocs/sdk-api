@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBatch.BeginUnorderedGroup
 title: ISyncChangeBatch::BeginUnorderedGroup (winsync.h)
 description: Opens an unordered group in the change batch. Item changes in this group can be in any order.
+helpviewer_keywords: ["BeginUnorderedGroup","BeginUnorderedGroup method [Windows Sync]","BeginUnorderedGroup method [Windows Sync]","ISyncChangeBatch interface","ISyncChangeBatch interface [Windows Sync]","BeginUnorderedGroup method","ISyncChangeBatch.BeginUnorderedGroup","ISyncChangeBatch::BeginUnorderedGroup","winsync.isyncchangebatch_beginunorderedgroup","winsync/ISyncChangeBatch::BeginUnorderedGroup"]
 old-location: winsync\isyncchangebatch_beginunorderedgroup.htm
 tech.root: winsync
 ms.assetid: 8d44451a-9150-4b2c-b126-d4fa90c2e192
 ms.date: 12/05/2018
 ms.keywords: BeginUnorderedGroup, BeginUnorderedGroup method [Windows Sync], BeginUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],BeginUnorderedGroup method, ISyncChangeBatch.BeginUnorderedGroup, ISyncChangeBatch::BeginUnorderedGroup, winsync.isyncchangebatch_beginunorderedgroup, winsync/ISyncChangeBatch::BeginUnorderedGroup
-f1_keywords:
-- winsync/ISyncChangeBatch.BeginUnorderedGroup
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBatch.BeginUnorderedGroup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBatch::BeginUnorderedGroup
+ - winsync/ISyncChangeBatch::BeginUnorderedGroup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBatch.BeginUnorderedGroup
 ---
 
 # ISyncChangeBatch::BeginUnorderedGroup
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Opens an unordered group in the change batch. Item changes in this group can be in any order.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -101,29 +94,13 @@ A group is already open or an empty group was previously added to the batch.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Item changes that are added to the change batch after this method is called are added to the open group.
 
 Item changes cannot be added to the change batch until a group is opened.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatch">ISyncChangeBatch Interface</a>

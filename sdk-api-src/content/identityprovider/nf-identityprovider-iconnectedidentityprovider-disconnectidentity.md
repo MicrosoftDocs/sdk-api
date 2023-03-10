@@ -2,15 +2,12 @@
 UID: NF:identityprovider.IConnectedIdentityProvider.DisconnectIdentity
 title: IConnectedIdentityProvider::DisconnectIdentity (identityprovider.h)
 description: Disconnects an online identity from the current domain user.
+helpviewer_keywords: ["DisconnectIdentity","DisconnectIdentity method [Security]","DisconnectIdentity method [Security]","IConnectedIdentityProvider interface","IConnectedIdentityProvider interface [Security]","DisconnectIdentity method","IConnectedIdentityProvider.DisconnectIdentity","IConnectedIdentityProvider::DisconnectIdentity","identityprovider/IConnectedIdentityProvider::DisconnectIdentity","security.iconnectedidentityprovider_disconnectidentity"]
 old-location: security\iconnectedidentityprovider_disconnectidentity.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: D7869001-5412-48C9-9C31-0181A9366965
 ms.date: 12/05/2018
 ms.keywords: DisconnectIdentity, DisconnectIdentity method [Security], DisconnectIdentity method [Security],IConnectedIdentityProvider interface, IConnectedIdentityProvider interface [Security],DisconnectIdentity method, IConnectedIdentityProvider.DisconnectIdentity, IConnectedIdentityProvider::DisconnectIdentity, identityprovider/IConnectedIdentityProvider::DisconnectIdentity, security.iconnectedidentityprovider_disconnectidentity
-f1_keywords:
-- identityprovider/IConnectedIdentityProvider.DisconnectIdentity
-dev_langs:
-- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Identityprovider.h
-api_name:
-- IConnectedIdentityProvider.DisconnectIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConnectedIdentityProvider::DisconnectIdentity
+ - identityprovider/IConnectedIdentityProvider::DisconnectIdentity
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Identityprovider.h
+api_name:
+ - IConnectedIdentityProvider.DisconnectIdentity
 ---
 
 # IConnectedIdentityProvider::DisconnectIdentity
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Disconnects an online identity from the current domain user.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 If the method succeeds, the method returns S_OK.
 
@@ -95,18 +88,7 @@ The domain user is not connected to an online identity.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>

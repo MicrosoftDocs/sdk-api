@@ -1,16 +1,13 @@
 ---
-UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1)
+UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromDxgiSurface(IDXGISurface,constD2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1)
 title: ID2D1DeviceContext::CreateBitmapFromDxgiSurface (d2d1_1.h)
-description: Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
+description: Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified. (overload 1/2)
+helpviewer_keywords: ["CreateBitmapFromDxgiSurface","CreateBitmapFromDxgiSurface method [Direct2D]","CreateBitmapFromDxgiSurface method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateBitmapFromDxgiSurface method","ID2D1DeviceContext.CreateBitmapFromDxgiSurface","ID2D1DeviceContext::CreateBitmapFromDxgiSurface","ID2D1DeviceContext::CreateBitmapFromDxgiSurface(IDXGISurface","const D2D1_BITMAP_PROPERTIES1 &","ID2D1Bitmap1)","d2d1_1/ID2D1DeviceContext::CreateBitmapFromDxgiSurface","direct2d.id2d1devicecontext_createbitmapfromdxgisurface"]
 old-location: direct2d\id2d1devicecontext_createbitmapfromdxgisurface.htm
 tech.root: Direct2D
 ms.assetid: 76d49be7-b0ac-44a7-aeaf-a7b18346a2bf
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromDxgiSurface, CreateBitmapFromDxgiSurface method [Direct2D], CreateBitmapFromDxgiSurface method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateBitmapFromDxgiSurface method, ID2D1DeviceContext.CreateBitmapFromDxgiSurface, ID2D1DeviceContext::CreateBitmapFromDxgiSurface, ID2D1DeviceContext::CreateBitmapFromDxgiSurface(IDXGISurface,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1), d2d1_1/ID2D1DeviceContext::CreateBitmapFromDxgiSurface, direct2d.id2d1devicecontext_createbitmapfromdxgisurface
-f1_keywords:
-- d2d1_1/ID2D1DeviceContext.CreateBitmapFromDxgiSurface
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1DeviceContext.CreateBitmapFromDxgiSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1DeviceContext::CreateBitmapFromDxgiSurface
+ - d2d1_1/ID2D1DeviceContext::CreateBitmapFromDxgiSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1DeviceContext.CreateBitmapFromDxgiSurface
 ---
 
 # ID2D1DeviceContext::CreateBitmapFromDxgiSurface
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
  Creates a bitmap from a DXGI surface that can be set as a target surface or have additional color context information specified.
-
 
 ## -parameters
 
-
-
-
 ### -param surface [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>*</b>
+Type: <b><a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>*</b>
 
 The DXGI surface from which the bitmap can be created.  
 
@@ -69,21 +66,17 @@ The DXGI surface from which the bitmap can be created.
 
 ### -param bitmapProperties [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>*</b>
 
-The bitmap properties specified in addition to the surface. 
-
+The bitmap properties specified in addition to the surface.
 
 ### -param bitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>**</b>
 
 When this method returns, contains the address of a pointer to a new bitmap object.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -111,14 +104,8 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>Direct3D does not have enough display memory to perform the operation.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the bitmap properties are not specified, the following information is assumed: 
 
@@ -143,27 +130,18 @@ If the bitmap properties are specified, the bitmap properties will be used as fo
 <li>The color context information will be used from the bitmap properties, if specified.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_properties1">D2D1_BITMAP_PROPERTIES1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmap1">ID2D1Bitmap1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">ID2D1DeviceContext::SetTarget</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">ID2D1DeviceContext::SetTarget</a>

@@ -2,15 +2,12 @@
 UID: NF:textserv.ITextHost.TxShowScrollBar
 title: ITextHost::TxShowScrollBar (textserv.h)
 description: Shows or hides the scroll bar in the text host window.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxShowScrollBar method","ITextHost.TxShowScrollBar","ITextHost::TxShowScrollBar","TxShowScrollBar","TxShowScrollBar method [Windows Controls]","TxShowScrollBar method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxShowScrollBar","_win32_ITextHost_TxShowScrollBar_cpp","controls.ITextHost_TxShowScrollBar","controls._win32_ITextHost_TxShowScrollBar","textserv/ITextHost::TxShowScrollBar"]
 old-location: controls\ITextHost_TxShowScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowscrollbar.htm
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxShowScrollBar method, ITextHost.TxShowScrollBar, ITextHost::TxShowScrollBar, TxShowScrollBar, TxShowScrollBar method [Windows Controls], TxShowScrollBar method [Windows Controls],ITextHost interface, _win32_ITextHost_TxShowScrollBar, _win32_ITextHost_TxShowScrollBar_cpp, controls.ITextHost_TxShowScrollBar, controls._win32_ITextHost_TxShowScrollBar, textserv/ITextHost::TxShowScrollBar
-f1_keywords:
-- textserv/ITextHost.TxShowScrollBar
-dev_langs:
-- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextHost.TxShowScrollBar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextHost::TxShowScrollBar
+ - textserv/ITextHost::TxShowScrollBar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextHost.TxShowScrollBar
 ---
 
 # ITextHost::TxShowScrollBar
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Shows or hides the scroll bar in the text host window.
-
 
 ## -parameters
 
-
-
-
 ### -param fnBar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Specifies the scroll bar(s) to be shown or hidden. This parameter can be one of the following values. 
 					
@@ -82,49 +79,29 @@ Specifies the scroll bar(s) to be shown or hidden. This parameter can be one of 
 <td>Shows or hides a window's standard vertical scroll bar.</td>
 </tr>
 </table>
- 
-
 
 ### -param fShow [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Flag. If <b>TRUE</b>, the scroll bars indicated by <i>fnBar</i> is visible. If <b>FALSE</b>, the scroll bar is hidden. 
-
+Flag. If <b>TRUE</b>, the scroll bars indicated by <i>fnBar</i> is visible. If <b>FALSE</b>, the scroll bar is hidden.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Return <b>TRUE</b> if the method succeeds. 
 
-Return <b>FALSE</b> if the method fails. 
-
-
-
+Return <b>FALSE</b> if the method fails.
 
 ## -remarks
 
-
-
 This method is only valid when the control is in-place active; calls while the control is inactive may fail.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

@@ -2,15 +2,12 @@
 UID: NF:ocidl.IOleControlSite.TransformCoords
 title: IOleControlSite::TransformCoords (ocidl.h)
 description: Converts coordinates expressed in HIMETRIC units (as is standard in OLE) to the units specified by the container.
+helpviewer_keywords: ["IOleControlSite interface [COM]","TransformCoords method","IOleControlSite.TransformCoords","IOleControlSite::TransformCoords","TransformCoords","TransformCoords method [COM]","TransformCoords method [COM]","IOleControlSite interface","XFORMCOORDS_CONTAINERTOHIMETRIC","XFORMCOORDS_EVENTCOMPAT","XFORMCOORDS_HIMETRICTOCONTAINER","XFORMCOORDS_POSITION","XFORMCOORDS_SIZE","_ctrl_iolecontrolsite_transformcoords","com.iolecontrolsite_transformcoords","ocidl/IOleControlSite::TransformCoords"]
 old-location: com\iolecontrolsite_transformcoords.htm
 tech.root: com
 ms.assetid: c7add062-4b42-43be-a982-c881c947f8f0
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],TransformCoords method, IOleControlSite.TransformCoords, IOleControlSite::TransformCoords, TransformCoords, TransformCoords method [COM], TransformCoords method [COM],IOleControlSite interface, XFORMCOORDS_CONTAINERTOHIMETRIC, XFORMCOORDS_EVENTCOMPAT, XFORMCOORDS_HIMETRICTOCONTAINER, XFORMCOORDS_POSITION, XFORMCOORDS_SIZE, _ctrl_iolecontrolsite_transformcoords, com.iolecontrolsite_transformcoords, ocidl/IOleControlSite::TransformCoords
-f1_keywords:
-- ocidl/IOleControlSite.TransformCoords
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IOleControlSite.TransformCoords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOleControlSite::TransformCoords
+ - ocidl/IOleControlSite::TransformCoords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IOleControlSite.TransformCoords
 ---
 
 # IOleControlSite::TransformCoords
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts coordinates expressed in <b>HIMETRIC</b> units (as is standard in OLE) to the units specified by the container.
-
 
 ## -parameters
 
-
-
-
 ### -param pPtlHimetric [in, out]
 
-Address of a <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure containing coordinates expressed in <b>HIMETRIC</b> units. This is an [in] parameter when <i>dwFlags</i> contains XFORMCOORDS_HIMETRICTOCONTAINER; it is an [out] parameter with XFORMCOORDS_CONTAINERTOHIMETRIC. In the latter case, the contents are undefined on error.
-
+Address of a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure containing coordinates expressed in <b>HIMETRIC</b> units. This is an [in] parameter when <i>dwFlags</i> contains XFORMCOORDS_HIMETRICTOCONTAINER; it is an [out] parameter with XFORMCOORDS_CONTAINERTOHIMETRIC. In the latter case, the contents are undefined on error.
 
 ### -param pPtfContainer [in, out]
 
-Address of a caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-pointf">POINTF</a> structure that receives the converted coordinates. This is an [in] parameter when <i>dwFlags</i> contains XFORMCOORDS_CONTAINERTOHIMETRIC; it is an [out] parameter with XFORMCOORDS_HIMETRICTOCONTAINER. In the latter case, the contents are undefined on error.
-
+Address of a caller-allocated <a href="/windows/desktop/api/ocidl/ns-ocidl-pointf">POINTF</a> structure that receives the converted coordinates. This is an [in] parameter when <i>dwFlags</i> contains XFORMCOORDS_CONTAINERTOHIMETRIC; it is an [out] parameter with XFORMCOORDS_HIMETRICTOCONTAINER. In the latter case, the contents are undefined on error.
 
 ### -param dwFlags [in]
 
@@ -133,12 +128,8 @@ The operation maintains compatibility with an event.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG and E_UNEXPECTED, as well as the following values.
 
@@ -182,27 +173,11 @@ The address in <i>pPtlHimetric</i> or <i>pPtfContainer</i> is not valid. For exa
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 A control uses this method when it has to send coordinates to a container within an event or some other custom call or when the control has container coordinates that it needs to convert into <b>HIMETRIC</b> units.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>

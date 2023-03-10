@@ -2,15 +2,12 @@
 UID: NC:stm.PGET_NEXT_ORDERED_SERVICE
 title: PGET_NEXT_ORDERED_SERVICE (stm.h)
 description: The GetNextOrderedService function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.
+helpviewer_keywords: ["GetNextOrderedService","GetNextOrderedService callback function [RAS]","PGET_NEXT_ORDERED_SERVICE","PGET_NEXT_ORDERED_SERVICE callback","_mpr_getnextorderedservice","rras.getnextorderedservice","stm/GetNextOrderedService"]
 old-location: rras\getnextorderedservice.htm
 tech.root: RRAS
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9
 ms.date: 12/05/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
-f1_keywords:
-- stm/GetNextOrderedService
-dev_langs:
-- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Stm.h
-api_name:
-- GetNextOrderedService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PGET_NEXT_ORDERED_SERVICE
+ - stm/PGET_NEXT_ORDERED_SERVICE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Stm.h
+api_name:
+ - GetNextOrderedService
 ---
 
 # PGET_NEXT_ORDERED_SERVICE callback function
@@ -48,32 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetNextOrderedService</b> function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.
 
-
 ## -parameters
-
-
-
 
 ### -param OrderingMethod [in]
 
 Specifies the order in which the services are searched. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pget_first_ordered_service">GetFirstOrderedService</a> for a description of the various ordering methods.
-
+<a href="/windows/desktop/api/stm/nc-stm-pget_first_ordered_service">GetFirstOrderedService</a> for a description of the various ordering methods.
 
 ### -param ExclusionFlags [in]
 
 Limits the set of examined services to a subset defined by <i>ExclusionFlags</i> and the values in the corresponding members of the structure pointed to by the <i>Service</i> parameter. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> for a description of the possible flags.
-
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> for a description of the possible flags.
 
 ### -param Service [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure. 
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure. 
 
 
 
@@ -82,10 +77,7 @@ On input, specifies the service from which to continue searching; also contains 
 
 On output, the structure contains the first service that follows the input service and matches the specified criteria.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -124,29 +116,18 @@ One of the  parameters is invalid.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

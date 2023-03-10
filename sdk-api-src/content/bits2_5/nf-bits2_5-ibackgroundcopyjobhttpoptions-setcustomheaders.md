@@ -2,15 +2,12 @@
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetCustomHeaders
 title: IBackgroundCopyJobHttpOptions::SetCustomHeaders (bits2_5.h)
 description: Specifies one or more custom HTTP headers to include in HTTP requests.
+helpviewer_keywords: ["IBackgroundCopyJobHttpOptions interface [BITS]","SetCustomHeaders method","IBackgroundCopyJobHttpOptions.SetCustomHeaders","IBackgroundCopyJobHttpOptions::SetCustomHeaders","SetCustomHeaders","SetCustomHeaders method [BITS]","SetCustomHeaders method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setcustomheaders","bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders"]
 old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
 tech.root: Bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],SetCustomHeaders method, IBackgroundCopyJobHttpOptions.SetCustomHeaders, IBackgroundCopyJobHttpOptions::SetCustomHeaders, SetCustomHeaders, SetCustomHeaders method [BITS], SetCustomHeaders method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_setcustomheaders, bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
-f1_keywords:
-- bits2_5/IBackgroundCopyJobHttpOptions.SetCustomHeaders
-dev_langs:
-- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Bits.lib
-- Bits.dll
-api_name:
-- IBackgroundCopyJobHttpOptions.SetCustomHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyJobHttpOptions::SetCustomHeaders
+ - bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Bits.lib
+ - Bits.dll
+api_name:
+ - IBackgroundCopyJobHttpOptions.SetCustomHeaders
 ---
 
 # IBackgroundCopyJobHttpOptions::SetCustomHeaders
@@ -49,14 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies one or more custom HTTP headers to include in HTTP requests.
 
-
 ## -parameters
-
-
-
 
 ### -param RequestHeaders [in]
 
@@ -64,10 +61,7 @@ Null-terminated string that contains the custom headers to append to the HTTP re
 
 To remove the custom headers from the job, set the <i>RequestHeaders</i> parameter to <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The following table lists some of the possible return values.
 
@@ -110,14 +104,8 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The custom headers are applicable only to remote files that use the HTTP or HTTPS protocol. You can specify custom headers for all job types.
 
@@ -125,7 +113,7 @@ Only the job owner can specify custom headers. If the job changes ownership, BIT
 
 Note that if multiple HTTP requests are sent, the headers are sent with each request.
 
-An ISAPI that processes the custom header can return an HTTP error if the header is not valid. For details on how BITS handles the error, see <a href="https://docs.microsoft.com/windows/desktop/Bits/handling-server-application-errors">Handling Server Application Errors</a>.
+An ISAPI that processes the custom header can return an HTTP error if the header is not valid. For details on how BITS handles the error, see <a href="/windows/desktop/Bits/handling-server-application-errors">Handling Server Application Errors</a>.
 
 
 #### Examples
@@ -135,9 +123,9 @@ The following example shows how to specify custom headers for a job. The example
 
 ```cpp
 // Custom headers to include in job.
-#define HEADERS L"MyHeader_1: Header One Value\n" \
-    L"MyHeader_2: Header Two Value\n" \
-    L"MyHeader_3: Header Three Value\n"
+#define HEADERS L"MyHeader_1: Header One Value\r\n" \
+    L"MyHeader_2: Header Two Value\r\n" \
+    L"MyHeader_3: Header Three Value\r\n"
 
 
   HRESULT hr = S_OK;
@@ -169,21 +157,10 @@ cleanup:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders">IBackgroundCopyJobHttpOptions::GetCustomHeaders</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders">IBackgroundCopyJobHttpOptions::GetCustomHeaders</a>

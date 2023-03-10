@@ -2,15 +2,12 @@
 UID: NF:wdsbp.WdsBpInitialize
 title: WdsBpInitialize function (wdsbp.h)
 description: Constructs options for the WDS network boot program.
+helpviewer_keywords: ["WDSBP_PK_TYPE_BCD","WDSBP_PK_TYPE_DHCPV6","WDSBP_PK_TYPE_WDSNBP","WdsBpInitialize","WdsBpInitialize function [Windows Deployment Services]","wds.wdsbpinitialize","wdsbp/WdsBpInitialize"]
 old-location: wds\wdsbpinitialize.htm
 tech.root: wds
 ms.assetid: a77cbdf5-9025-4e98-8edd-1b9bae8493e7
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpInitialize, WdsBpInitialize function [Windows Deployment Services], wds.wdsbpinitialize, wdsbp/WdsBpInitialize
-f1_keywords:
-- wdsbp/WdsBpInitialize
-dev_langs:
-- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wdsbp.dll
-api_name:
-- WdsBpInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsBpInitialize
+ - wdsbp/WdsBpInitialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wdsbp.dll
+api_name:
+ - WdsBpInitialize
 ---
 
 # WdsBpInitialize function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Constructs options for the WDS network boot program. 
-
+Constructs options for the WDS network boot program.
 
 ## -parameters
-
-
-
 
 ### -param bPacketType [in]
 
@@ -100,19 +97,11 @@ Specify this value to  indicate that the packet contains a path to a Boot Config
 </td>
 </tr>
 </table>
- 
-
 
 ### -param phHandle [out]
 
-A pointer to the handle to the packet. This handle can be used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpaddoption">WdsBpAddOption</a> function to add options for the WDS network boot program. After all the options have been added, use the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpgetoptionbuffer">WdsBpGetOptionBuffer</a> function to add these to the DHCP options list sent to WDS network boot program. The handle must be closed using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
-
+A pointer to the handle to the packet. This handle can be used by the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpaddoption">WdsBpAddOption</a> function to add options for the WDS network boot program. After all the options have been added, use the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpgetoptionbuffer">WdsBpGetOptionBuffer</a> function to add these to the DHCP options list sent to WDS network boot program. The handle must be closed using the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpclosehandle">WdsBpCloseHandle</a> function.
 
 ## -returns
 
-
-
 If the function succeeds, the return is <b>S_OK</b>.
-
-
-

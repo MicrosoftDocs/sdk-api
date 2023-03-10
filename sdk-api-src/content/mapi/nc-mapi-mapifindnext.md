@@ -2,15 +2,12 @@
 UID: NC:mapi.MAPIFINDNEXT
 title: MAPIFINDNEXT (mapi.h)
 description: The MAPIFindNext function retrieves the next (or first) message identifier of a specified type of incoming message.
+helpviewer_keywords: ["MAPIFindNext","MAPIFindNext callback","MAPIFindNext callback function","MAPI_GUARANTEE_FIFO","MAPI_LONG_MSGID","MAPI_UNREAD_ONLY","mapi.mapifindnext","mapi/MAPIFindNext"]
 old-location: mapi\mapifindnext.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 6c11e88c-2883-4486-9679-2bdf0b30b8b0
 ms.date: 12/05/2018
 ms.keywords: MAPIFindNext, MAPIFindNext callback, MAPIFindNext callback function, MAPI_GUARANTEE_FIFO, MAPI_LONG_MSGID, MAPI_UNREAD_ONLY, mapi.mapifindnext, mapi/MAPIFindNext
-f1_keywords:
-- mapi/MAPIFindNext
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mapi.h
-api_name:
-- MAPIFindNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPIFINDNEXT
+ - mapi/MAPIFINDNEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mapi.h
+api_name:
+ - MAPIFindNext
 ---
 
 # MAPIFINDNEXT callback function
@@ -48,36 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
-The <b>MAPIFindNext</b> function retrieves the next (or first) message identifier of a specified type of incoming message. 
-
+The <b>MAPIFindNext</b> function retrieves the next (or first) message identifier of a specified type of incoming message.
 
 ## -parameters
-
-
-
 
 ### -param lhSession [in]
 
 Session handle that represents a Simple MAPI session. The value of the <i>lhSession</i> parameter must represent a valid session; it cannot be zero.
 
-
 ### -param ulUIParam [in]
 
 Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. If the <i>ulUIParam</i> parameter contains a parent window handle, it is of type HWND (cast to a ULONG_PTR). If no dialog box is displayed during the call, <i>ulUIParam</i> is ignored.
 
-
 ### -param lpszMessageType [in]
 
-Pointer to a string identifying the message class to search. To find an interpersonal message (IPM), specify <b>NULL</b> in the <i>lpszMessageType</i> parameter or have it point to an empty string. Messaging systems whose only supported message class is IPM can ignore this parameter. 
-
+Pointer to a string identifying the message class to search. To find an interpersonal message (IPM), specify <b>NULL</b> in the <i>lpszMessageType</i> parameter or have it point to an empty string. Messaging systems whose only supported message class is IPM can ignore this parameter.
 
 ### -param lpszSeedMessageID [in]
 
-Pointer to a string containing the message identifier seed for the request. If the <i>lpszSeedMessageID</i> parameter is <b>NULL</b> or points to an empty string, <b>MAPIFindNext</b> retrieves the first message that matches the type specified in the <i>lpszMessageType</i> parameter. 
-
+Pointer to a string containing the message identifier seed for the request. If the <i>lpszSeedMessageID</i> parameter is <b>NULL</b> or points to an empty string, <b>MAPIFindNext</b> retrieves the first message that matches the type specified in the <i>lpszMessageType</i> parameter.
 
 ### -param flFlags [in]
 
@@ -121,22 +114,16 @@ Only unread messages of the specified type should be enumerated. If this flag is
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulReserved
 
-Reserved; must be zero. 
-
+Reserved; must be zero.
 
 ### -param lpszMessageID [out]
 
 Pointer to the returned message identifier. The caller is responsible for allocating the memory. To ensure compatibility, allocate 512 characters and set MAPI_LONG_MSGID in the <i>flFlags</i> parameter. A smaller buffer is sufficient only if the returned message identifier is always 64 characters or less.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -212,18 +199,12 @@ The call succeeded and the message identifier was returned.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>MAPIFindNext</b> function allows a client application to enumerate messages of a given type. This function can be called repeatedly to list all messages in the folder. Message identifiers returned from <b>MAPIFindNext</b> can be used in other Simple MAPI calls to retrieve message contents and delete messages. This function is for processing incoming messages, not for managing received messages. 
 
-<b>MAPIFindNext</b> looks for messages in the folder in which new messages of the specified type are delivered. <b>MAPIFindNext</b> calls can be made only in the context of a valid Simple MAPI session established with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a> function.
+<b>MAPIFindNext</b> looks for messages in the folder in which new messages of the specified type are delivered. <b>MAPIFindNext</b> calls can be made only in the context of a valid Simple MAPI session established with the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a> function.
 
 When the <i>lpszSeedMessageID</i> parameter is <b>NULL</b> or points to an empty string, <b>MAPIFindNext</b> returns the message identifier for the first message of the type specified by the <i>lpszMessageType</i> parameter. When <i>lpszSeedMessageID</i> contains a valid identifier, the function returns the next matching message of the type specified by <i>lpszMessageType</i>. Repeated calls to <b>MAPIFindNext</b> ultimately result in a return of the MAPI_E_NO_MESSAGES value, which means the enumeration is complete. 
 
@@ -231,20 +212,10 @@ Message type matching is done against message class strings. All message types w
 
 Because message identifiers are messaging system-specific and can be invalidated at any time, message identifiers are valid only for the current session. If the message identifier passed in <i>lpszSeedMessageID</i> is invalid, <b>MAPIFindNext</b> returns the MAPI_E_INVALID_MESSAGE value.
 
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
- 
-
- 
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

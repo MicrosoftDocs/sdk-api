@@ -1,16 +1,13 @@
 ---
 UID: NS:winbase.tagACTCTXA
 title: ACTCTXA (winbase.h)
-description: The ACTCTX structure is used by the CreateActCtx function to create the activation context.
+description: The ACTCTX structure is used by the CreateActCtx function to create the activation context. (ANSI)
+helpviewer_keywords: ["*PACTCTXA","ACTCTX","ACTCTX structure [Side-by-side Assemblies]","ACTCTXA","ACTCTXW","ACTCTX_FLAG_APPLICATION_NAME_VALID","ACTCTX_FLAG_ASSEMBLY_DIRECTORY_VALID","ACTCTX_FLAG_HMODULE_VALID","ACTCTX_FLAG_LANGID_VALID","ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID","ACTCTX_FLAG_RESOURCE_NAME_VALID","ACTCTX_FLAG_SET_PROCESS_DEFAULT","PACTCTX","PACTCTX structure pointer [Side-by-side Assemblies]","_win32_actctx_str","setup.actctx_str","tagACTCTXA","tagACTCTXW","winbase/ACTCTX","winbase/ACTCTXW","winbase/PACTCTX"]
 old-location: setup\actctx_str.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: b6f97f25-1834-44f7-86b7-33339481ba60
 ms.date: 12/05/2018
 ms.keywords: '*PACTCTXA, ACTCTX, ACTCTX structure [Side-by-side Assemblies], ACTCTXA, ACTCTXW, ACTCTX_FLAG_APPLICATION_NAME_VALID, ACTCTX_FLAG_ASSEMBLY_DIRECTORY_VALID, ACTCTX_FLAG_HMODULE_VALID, ACTCTX_FLAG_LANGID_VALID, ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID, ACTCTX_FLAG_RESOURCE_NAME_VALID, ACTCTX_FLAG_SET_PROCESS_DEFAULT, PACTCTX, PACTCTX structure pointer [Side-by-side Assemblies], _win32_actctx_str, setup.actctx_str, tagACTCTXA, tagACTCTXW, winbase/ACTCTX, winbase/ACTCTXW, winbase/PACTCTX'
-f1_keywords:
-- winbase/ACTCTX
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winbase.h
-api_name:
-- ACTCTX
-- ACTCTXW
-- ACTCTXW
 targetos: Windows
 req.typenames: ACTCTXA, *PACTCTXA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagACTCTXA
+ - winbase/tagACTCTXA
+ - PACTCTXA
+ - winbase/PACTCTXA
+ - ACTCTXA
+ - winbase/ACTCTXA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winbase.h
+api_name:
+ - ACTCTX
+ - ACTCTXW
+ - ACTCTXW
 ---
 
 # ACTCTXA structure
@@ -50,26 +56,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ACTCTX</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> function to create the activation context.
-
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> function to create the activation context.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of this structure. This is used to determine the version of this structure.
 
-
 ### -field dwFlags
 
 Flags that indicate how the values included in this structure are to be used. Set any undefined bits in <b>dwFlags</b> to 0. If any undefined bits are not set to 0, the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> that creates the activation context fails and returns an invalid parameter error code. 
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> that creates the activation context fails and returns an invalid parameter error code. 
 
 
 
@@ -156,23 +156,16 @@ Flags that indicate how the values included in this structure are to be used. Se
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpSource
 
 Null-terminated string specifying the path of the manifest file or PE image to be used to create the activation context. If this path refers to an EXE or DLL file, the  <b>lpResourceName</b> member is required.
 
-
 ### -field wProcessorArchitecture
 
 Identifies the type of processor used. Specifies the system's processor architecture.
 
-This value can be one of the following values: 
-
-
-
-
+This value can be one of the following values:
 
 ### -field wLangId
 
@@ -195,29 +188,23 @@ If the requested language cannot be found, an approximation is searched for usin
 
 The base directory in which to perform private assembly probing if assemblies in the activation context are not present in the system-wide store.
 
-
 ### -field lpResourceName
 
 Pointer to a null-terminated string that contains the resource name to be loaded from the PE specified in <b>hModule</b> or <b>lpSource</b>. If the resource name is an integer, set this member using MAKEINTRESOURCE. This member is required if   <b>lpSource</b> refers to an EXE or DLL.
-
 
 ### -field lpApplicationName
 
 The name of the current application. If the value of this member is set to null, the name of the executable that launched the current process is used.
 
-
 ### -field hModule
 
 Use this member rather than <b>lpSource</b> if you have already loaded a DLL and wish to use it to create activation contexts rather than using a path in <b>lpSource</b>. See <b>lpResourceName</b> for the rules of looking up resources in this module.
 
-
 ## -remarks
 
-
-
 If the file identified by the value of the <b>lpSource</b> member is a PE image file, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> searches for the manifest in the .manifest file located in the same directory and in the first RT_MANIFEST resource located in the PE image file. To find a specific named resource from the image, set the <b>lpResourceName</b> to the name of the resource, and add the ACTCTX_FLAG_RESOURCE_NAME_VALID to the <b>dwFlags</b> member. Refer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> for more information on specifying resource names.
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> searches for the manifest in the .manifest file located in the same directory and in the first RT_MANIFEST resource located in the PE image file. To find a specific named resource from the image, set the <b>lpResourceName</b> to the name of the resource, and add the ACTCTX_FLAG_RESOURCE_NAME_VALID to the <b>dwFlags</b> member. Refer to 
+<a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> for more information on specifying resource names.
 
 In most cases, the caller should not set the ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID and ACTCTX_FLAG_LANGID_VALID flags of the <b>dwFlags</b> member. Also, in most cases, the value of the <b>lpResourceName</b> member should be set to null.
 
@@ -226,17 +213,14 @@ The values of <b>lpApplicationName</b> and <b>lpAssemblyDirectory</b> are not se
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines ACTCTX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a>

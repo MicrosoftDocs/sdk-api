@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IServicePartitionConfig.PartitionConfig
 title: IServicePartitionConfig::PartitionConfig (comsvcs.h)
 description: Configures how partitions are used for the enclosed work.
+helpviewer_keywords: ["IServicePartitionConfig interface [COM+]","PartitionConfig method","IServicePartitionConfig.PartitionConfig","IServicePartitionConfig::PartitionConfig","PartitionConfig","PartitionConfig method [COM+]","PartitionConfig method [COM+]","IServicePartitionConfig interface","_cos_IServicePartitionConfig_PartitionConfig","comsvcs/IServicePartitionConfig::PartitionConfig","cos.iservicepartitionconfig_partitionconfig"]
 old-location: cos\iservicepartitionconfig_partitionconfig.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 0f8c5353-5740-4c7e-91be-f336424fb93a
 ms.date: 12/05/2018
 ms.keywords: IServicePartitionConfig interface [COM+],PartitionConfig method, IServicePartitionConfig.PartitionConfig, IServicePartitionConfig::PartitionConfig, PartitionConfig, PartitionConfig method [COM+], PartitionConfig method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionConfig, comsvcs/IServicePartitionConfig::PartitionConfig, cos.iservicepartitionconfig_partitionconfig
-f1_keywords:
-- comsvcs/IServicePartitionConfig.PartitionConfig
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServicePartitionConfig.PartitionConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServicePartitionConfig::PartitionConfig
+ - comsvcs/IServicePartitionConfig::PartitionConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServicePartitionConfig.PartitionConfig
 ---
 
 # IServicePartitionConfig::PartitionConfig
@@ -48,46 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Configures how partitions are used for the enclosed work.
-
 
 ## -parameters
 
-
-
-
 ### -param partitionConfig [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_partitionconfig">CSC_PartitionConfig</a> enumeration.
-
+A value from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_partitionconfig">CSC_PartitionConfig</a> enumeration.
 
 ## -returns
 
-
-
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_FAIL, and S_OK.
-
-
-
 
 ## -remarks
 
-
-
 The user must belong to any partition that is used to run the enclosed work.
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepartitionconfig">IServicePartitionConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepartitionconfig">IServicePartitionConfig</a>

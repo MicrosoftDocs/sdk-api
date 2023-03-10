@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.ISharingConfigurationManager.ArePrintersShared
 title: ISharingConfigurationManager::ArePrintersShared (shobjidl_core.h)
 description: Determines whether any printers connected to this computer are shared.
+helpviewer_keywords: ["ArePrintersShared","ArePrintersShared method [Windows Shell]","ArePrintersShared method [Windows Shell]","ISharingConfigurationManager interface","ISharingConfigurationManager interface [Windows Shell]","ArePrintersShared method","ISharingConfigurationManager.ArePrintersShared","ISharingConfigurationManager::ArePrintersShared","_shell_ISharingConfigurationManager_ArePrintersShared","shell.ISharingConfigurationManager_ArePrintersShared","shobjidl_core/ISharingConfigurationManager::ArePrintersShared"]
 old-location: shell\ISharingConfigurationManager_ArePrintersShared.htm
 tech.root: shell
 ms.assetid: 331ccf4d-c769-43b9-a2db-c464ffaef58e
 ms.date: 12/05/2018
 ms.keywords: ArePrintersShared, ArePrintersShared method [Windows Shell], ArePrintersShared method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],ArePrintersShared method, ISharingConfigurationManager.ArePrintersShared, ISharingConfigurationManager::ArePrintersShared, _shell_ISharingConfigurationManager_ArePrintersShared, shell.ISharingConfigurationManager_ArePrintersShared, shobjidl_core/ISharingConfigurationManager::ArePrintersShared
-f1_keywords:
-- shobjidl_core/ISharingConfigurationManager.ArePrintersShared
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- ISharingConfigurationManager.ArePrintersShared
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISharingConfigurationManager::ArePrintersShared
+ - shobjidl_core/ISharingConfigurationManager::ArePrintersShared
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - ISharingConfigurationManager.ArePrintersShared
 ---
 
 # ISharingConfigurationManager::ArePrintersShared
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether any printers connected to this computer are shared.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,7 +99,4 @@ No printers capable of being shared were found.
 </td>
 </tr>
 </table>
- 
-
-
 

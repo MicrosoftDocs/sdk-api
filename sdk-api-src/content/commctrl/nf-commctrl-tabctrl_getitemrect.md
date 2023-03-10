@@ -2,15 +2,12 @@
 UID: NF:commctrl.TabCtrl_GetItemRect
 title: TabCtrl_GetItemRect macro (commctrl.h)
 description: Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the TCM_GETITEMRECT message explicitly.
+helpviewer_keywords: ["TabCtrl_GetItemRect","TabCtrl_GetItemRect macro [Windows Controls]","_win32_TabCtrl_GetItemRect","_win32_TabCtrl_GetItemRect_cpp","commctrl/TabCtrl_GetItemRect","controls.TabCtrl_GetItemRect","controls._win32_TabCtrl_GetItemRect"]
 old-location: controls\TabCtrl_GetItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_getitemrect.htm
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_GetItemRect, TabCtrl_GetItemRect macro [Windows Controls], _win32_TabCtrl_GetItemRect, _win32_TabCtrl_GetItemRect_cpp, commctrl/TabCtrl_GetItemRect, controls.TabCtrl_GetItemRect, controls._win32_TabCtrl_GetItemRect
-f1_keywords:
-- commctrl/TabCtrl_GetItemRect
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TabCtrl_GetItemRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TabCtrl_GetItemRect
+ - commctrl/TabCtrl_GetItemRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TabCtrl_GetItemRect
 ---
 
 # TabCtrl_GetItemRect macro
@@ -48,32 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getitemrect">TCM_GETITEMRECT</a> message explicitly. 
-
+Retrieves the bounding rectangle for a tab in a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-getitemrect">TCM_GETITEMRECT</a> message explicitly.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-Handle to the tab control. 
-
+Handle to the tab control.
 
 ### -param i
 
 Type: <b>int</b>
 
-Index of the tab. 
-
+Index of the tab.
 
 ### -param prc
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>*</b>
 
-Pointer to a structure that receives the bounding rectangle of the tab, in viewport coordinates. 
-
+Pointer to a structure that receives the bounding rectangle of the tab, in viewport coordinates.

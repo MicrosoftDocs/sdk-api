@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiSourceListClearAllA
 title: MsiSourceListClearAllA function (msi.h)
-description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency.
+description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency. (ANSI)
+helpviewer_keywords: ["MsiSourceListClearAllA", "msi/MsiSourceListClearAllA"]
 old-location: setup\msisourcelistclearall.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b
 ms.date: 12/05/2018
 ms.keywords: MsiSourceListClearAll, MsiSourceListClearAll function, MsiSourceListClearAllA, MsiSourceListClearAllW, _msi_msisourcelistclearall, msi/MsiSourceListClearAll, msi/MsiSourceListClearAllA, msi/MsiSourceListClearAllW, setup.msisourcelistclearall
-f1_keywords:
-- msi/MsiSourceListClearAll
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiSourceListClearAll
-- MsiSourceListClearAllA
-- MsiSourceListClearAllW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiSourceListClearAllA
+ - msi/MsiSourceListClearAllA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiSourceListClearAll
+ - MsiSourceListClearAllA
+ - MsiSourceListClearAllW
 ---
 
 # MsiSourceListClearAllA function
@@ -50,40 +52,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiSourceListClearAll</b> function removes all network sources from the source list of a patch or product in a specified context. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>.
-		
-
+<a href="/windows/desktop/Msi/source-resiliency">Source Resiliency</a>.
 
 ## -parameters
 
-
-
-
 ### -param szProduct [in]
 
- The <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> of the product to modify.
-
+ The <a href="/windows/desktop/Msi/productcode">ProductCode</a> of the product to modify.
 
 ### -param szUserName [in]
 
 The user name for a per-user installation. The user name should always be in the format of DOMAIN\USERNAME (or MACHINENAME\USERNAME for a local user).  
 
 
-An empty string or <b>NULL</b> for a per-machine installation. 
-
+An empty string or <b>NULL</b> for a per-machine installation.
 
 ### -param dwReserved [in]
 
-Reserved for future use. This value must be set to 0. 
-
-
+Reserved for future use. This value must be set to 0.
 
 ## -returns
-
-
 
 The <b>MsiSourceListClearAll</b> function returns the following values.
 
@@ -181,18 +171,12 @@ The specified product is unknown.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+An administrator can modify per-machine installations, their own per-user non-managed installations, and the per-user managed installations for any user. A non-administrator can only modify per-machine installations and their own (managed or non-managed)per-user installations.  Users can be enabled to browse for sources by setting policy. For more information, see the <a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
 
-
-An administrator can modify per-machine installations, their own per-user non-managed installations, and the per-user managed installations for any user. A non-administrator can only modify per-machine installations and their own (managed or non-managed)per-user installations.  Users can be enabled to browse for sources by setting policy. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>, and <a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a> policies.
-
-If a network source is the current source for the product, this function forces the installer to search the source list for a valid source the next time a source is needed. If the current source is media or a URL source, it is still valid after this call and the source list is not searched unless <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistforceresolutiona">MsiSourceListForceResolution</a> is also called.
+If a network source is the current source for the product, this function forces the installer to search the source list for a valid source the next time a source is needed. If the current source is media or a URL source, it is still valid after this call and the source list is not searched unless <a href="/windows/desktop/api/msi/nf-msi-msisourcelistforceresolutiona">MsiSourceListForceResolution</a> is also called.
 
 
 If the user name is an empty string or <b>NULL</b>, the function operates on the per-machine installation of the product. In this case, if the product is installed as per-user only, the function returns ERROR_UNKNOWN_PRODUCT. 
@@ -206,41 +190,38 @@ This function cannot modify a non-managed installation for any user besides the 
 
 
 
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListClearAll as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/allowlockdownbrowse">AllowLockdownBrowse</a>
+<a href="/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/alwaysinstallelevated">AlwaysInstallElevated</a>
+<a href="/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/disablebrowse">DisableBrowse</a>
+<a href="/windows/desktop/Msi/installation-context">Installation Context</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installation-context">Installation Context</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
+<a href="/windows/desktop/api/msi/nf-msi-msisourcelistforceresolutiona">MsiSourceListForceResolution</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msisourcelistforceresolutiona">MsiSourceListForceResolution</a>
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/source-resiliency">Source Resiliency</a>

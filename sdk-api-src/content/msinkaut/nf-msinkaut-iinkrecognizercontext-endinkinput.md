@@ -2,15 +2,12 @@
 UID: NF:msinkaut.IInkRecognizerContext.EndInkInput
 title: IInkRecognizerContext::EndInkInput (msinkaut.h)
 description: EndInkInput is no longer available for use for recognizers of western languages as of Windows Vista.
+helpviewer_keywords: ["EndInkInput","EndInkInput method [Tablet PC]","EndInkInput method [Tablet PC]","IInkRecognizerContext interface","IInkRecognizerContext interface [Tablet PC]","EndInkInput method","IInkRecognizerContext.EndInkInput","IInkRecognizerContext::EndInkInput","a384edf8-3b3d-4e0c-b39c-976798457076","msinkaut/IInkRecognizerContext::EndInkInput","tablet.inkrecognizercontext_endinkinput"]
 old-location: tablet\inkrecognizercontext_endinkinput.htm
 tech.root: tablet
 ms.assetid: a384edf8-3b3d-4e0c-b39c-976798457076
 ms.date: 12/05/2018
 ms.keywords: EndInkInput, EndInkInput method [Tablet PC], EndInkInput method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],EndInkInput method, IInkRecognizerContext.EndInkInput, IInkRecognizerContext::EndInkInput, a384edf8-3b3d-4e0c-b39c-976798457076, msinkaut/IInkRecognizerContext::EndInkInput, tablet.inkrecognizercontext_endinkinput
-f1_keywords:
-- msinkaut/IInkRecognizerContext.EndInkInput
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkRecognizerContext.EndInkInput
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkRecognizerContext::EndInkInput
+ - msinkaut/IInkRecognizerContext::EndInkInput
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkRecognizerContext.EndInkInput
 ---
 
 # IInkRecognizerContext::EndInkInput
@@ -49,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>EndInkInput</b> is no longer available for use for recognizers of western languages as of Windows Vista.]
 
-Stops adding ink to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
-
-
-## -parameters
-
-
-
+Stops adding ink to the <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext</a> object.
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,14 +115,8 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 After you call this method, you cannot add strokes to the context.
 
@@ -137,20 +124,10 @@ This method deals with partial recognition. Partial recognition is the ability o
 
 Incremental recognition is the ability of the recognizer to process only a small part of the ink that has been passed to it and return a result. For example, consider that an application contains five lines of ink and uses a recognizer of Latin script. The recognizer can process only one line at a time and return a result. This process is used in the idle loop of the background processing thread.
 
-
-
-
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkrecognizercontext.md">IInkRecognizerContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
- 
-
- 
-
+<a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>

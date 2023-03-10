@@ -2,15 +2,12 @@
 UID: NF:oaidl.IDispatch.GetTypeInfoCount
 title: IDispatch::GetTypeInfoCount (oaidl.h)
 description: Retrieves the number of type information interfaces that an object provides (either 0 or 1).
+helpviewer_keywords: ["GetTypeInfoCount","GetTypeInfoCount method [Automation]","GetTypeInfoCount method [Automation]","IAccessible interface","GetTypeInfoCount method [Automation]","IDispatch interface","IAccessible interface [Automation]","GetTypeInfoCount method","IAccessible::GetTypeInfoCount","IDispatch interface [Automation]","GetTypeInfoCount method","IDispatch.GetTypeInfoCount","IDispatch::GetTypeInfoCount","_oa96_IDispatch::GetTypeInfoCount","automat.idispatch_gettypeinfocount","oaidl/IAccessible::GetTypeInfoCount","oaidl/IDispatch::GetTypeInfoCount"]
 old-location: automat\idispatch_gettypeinfocount.htm
 tech.root: automat
 ms.assetid: da876d53-cb8a-465c-a43e-c0eb272e2a12
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],IAccessible interface, GetTypeInfoCount method [Automation],IDispatch interface, IAccessible interface [Automation],GetTypeInfoCount method, IAccessible::GetTypeInfoCount, IDispatch interface [Automation],GetTypeInfoCount method, IDispatch.GetTypeInfoCount, IDispatch::GetTypeInfoCount, _oa96_IDispatch::GetTypeInfoCount, automat.idispatch_gettypeinfocount, oaidl/IAccessible::GetTypeInfoCount, oaidl/IDispatch::GetTypeInfoCount
-f1_keywords:
-- oaidl/IDispatch.GetTypeInfoCount
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- IDispatch.GetTypeInfoCount
-- IAccessible.GetTypeInfoCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDispatch::GetTypeInfoCount
+ - oaidl/IDispatch::GetTypeInfoCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - IDispatch.GetTypeInfoCount
+ - IAccessible.GetTypeInfoCount
 ---
 
 # IDispatch::GetTypeInfoCount
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of type information interfaces that an object provides (either 0 or 1).
-
 
 ## -parameters
 
-
-
-
 ### -param pctinfo [out]
 
-The number of type information interfaces provided by the object. If the object provides type information, this number is 1; otherwise the number is 0. 
-
+The number of type information interfaces provided by the object. If the object provides type information, this number is 1; otherwise the number is 0.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -98,14 +92,8 @@ Failure.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The method may return zero, which indicates that the object does not provide any type information. In this case, the object may still be programmable through <b>IDispatch</b> or a VTBL, but does not provide run-time type information for browsers, compilers, or other programming tools that access type information. This can be useful for hiding an object from browsers.
 
@@ -127,21 +115,10 @@ CLines::GetTypeInfoCount(UINT * pctinfo)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

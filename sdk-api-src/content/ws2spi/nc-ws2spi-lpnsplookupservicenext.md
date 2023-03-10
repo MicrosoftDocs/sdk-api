@@ -2,15 +2,12 @@
 UID: NC:ws2spi.LPNSPLOOKUPSERVICENEXT
 title: LPNSPLOOKUPSERVICENEXT (ws2spi.h)
 description: Called after obtaining a handle from a previous call to NSPLookupServiceBegin in order to retrieve the requested service information.
+helpviewer_keywords: ["LPNSPLOOKUPSERVICENEXT","NSPLookupServiceNext","NSPLookupServiceNext function [Winsock]","_win32_nsplookupservicenext_2","winsock.nsplookupservicenext_2","ws2spi/NSPLookupServiceNext"]
 old-location: winsock\nsplookupservicenext_2.htm
 tech.root: WinSock
 ms.assetid: 321732e4-5d48-48f4-8795-ffac208852dc
 ms.date: 12/05/2018
 ms.keywords: LPNSPLOOKUPSERVICENEXT, NSPLookupServiceNext, NSPLookupServiceNext function [Winsock], _win32_nsplookupservicenext_2, winsock.nsplookupservicenext_2, ws2spi/NSPLookupServiceNext
-f1_keywords:
-- ws2spi/NSPLookupServiceNext
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- NSPLookupServiceNext
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNSPLOOKUPSERVICENEXT
+ - ws2spi/LPNSPLOOKUPSERVICENEXT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPLookupServiceNext
 ---
 
 # LPNSPLOOKUPSERVICENEXT callback function
 
 
 ## -description
-
 
 The 
 **NSPLookupServiceNext** function is called after obtaining a handle from a previous call to 
@@ -57,37 +58,27 @@ The provider will pass a
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure in the <i>lpqsResults</i> buffer. The client should call this function until it returns **WSA_E_NOMORE**, indicating that all the 
 **WSAQUERYSET** have been returned.
 
-
 ## -parameters
-
-
-
 
 ### -param hLookup [in]
 
 A handle returned from the previous call to 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina">WSALookupServiceBegin</a>.
 
-
 ### -param dwControlFlags [in]
 
 The flags used to control the next operation. Currently, only **LUP_FLUSHPREVIOUS** is defined as a means to handle a result set that is too large. If an application cannot supply a large enough buffer, setting **LUP_FLUSHPREVIOUS** instructs the provider to discard the last result set, which was too large, and move to the next set for this call.
 
-
 ### -param lpdwBufferLength [in, out]
 
 The size, in bytes, on input, that is contained in the buffer pointed to by <i>lpqsResults</i>. On output, if the function fails and the error is WSAEFAULT, then it contains the minimum size, in bytes to pass for the <i>lpqsResults</i> to retrieve the record.
-
 
 ### -param lpqsResults [out]
 
 A pointer to a memory block that will contain, on return, one result set in a 
 <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw">WSAQUERYSET</a> structure.
 
-
 ## -returns
-
-
 
 The function should return **NO_ERROR** (zero) if the routine succeeds. It should return **SOCKET_ERROR** (–1) if the routine fails and it must set the appropriate error code using 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>.
@@ -208,14 +199,8 @@ The service is unknown. The service cannot be found in the specified namespace.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>dwControlFlags</i> specified in this function and the ones specified at the time of 
 <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPLookupServiceBegin</a> are handled as "restrictions" for the purpose of combination. The restrictions are combined between the ones at 
@@ -310,15 +295,8 @@ The following table lists <a href="/windows/desktop/api/winsock2/ns-winsock2-wsa
 <td>Optional. A pointer to a provider-specific entity.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/nspapi/ns-nspapi-csaddr_info">CSADDR_INFO</a>
 
@@ -341,7 +319,4 @@ The following table lists <a href="/windows/desktop/api/winsock2/ns-winsock2-wsa
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
- 
-
- 
 

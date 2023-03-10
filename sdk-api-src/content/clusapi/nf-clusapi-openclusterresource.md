@@ -1,16 +1,13 @@
 ---
 UID: NF:clusapi.OpenClusterResource
 title: OpenClusterResource function (clusapi.h)
-description: Opens a resource and returns a handle to it.
+description: Opens a resource and returns a handle to it. (OpenClusterResource)
+helpviewer_keywords: ["OpenClusterResource","OpenClusterResource function [Failover Cluster]","PCLUSAPI_OPEN_CLUSTER_RESOURCE","PCLUSAPI_OPEN_CLUSTER_RESOURCE function [Failover Cluster]","_wolf_openclusterresource","clusapi/OpenClusterResource","clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE","mscs.openclusterresource"]
 old-location: mscs\openclusterresource.htm
 tech.root: MsCS
 ms.assetid: c699cb00-b999-45b8-b9db-570150e1a65e
 ms.date: 12/05/2018
 ms.keywords: OpenClusterResource, OpenClusterResource function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE, PCLUSAPI_OPEN_CLUSTER_RESOURCE function [Failover Cluster], _wolf_openclusterresource, clusapi/OpenClusterResource, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE, mscs.openclusterresource
-f1_keywords:
-- clusapi/OpenClusterResource
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-- ext-ms-win-cluster-clusapi-l1-1-3.dll
-api_name:
-- OpenClusterResource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OpenClusterResource
+ - clusapi/OpenClusterResource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+ - ext-ms-win-cluster-clusapi-l1-1-3.dll
+api_name:
+ - OpenClusterResource
 ---
 
 # OpenClusterResource function
@@ -52,20 +54,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-Opens a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> and returns a handle to 
+Opens a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> and returns a handle to 
     it. The <b>PCLUSAPI_OPEN_CLUSTER_RESOURCE</b> type defines a pointer to this function.
-
 
 ## -parameters
 
-
-
-
 ### -param hCluster [in]
 
-Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
-
+Handle to a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -param lpszResourceName [in]
 
@@ -73,12 +69,9 @@ Pointer to a null-terminated Unicode string containing the name of the resource 
 
 Resource names are not case sensitive. A resource name must be unique within the cluster. The name is set 
        when the resource is created and can be changed using the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcename">SetClusterResourceName</a> function.
-
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcename">SetClusterResourceName</a> function.
 
 ## -returns
-
-
 
 If the operation was successful, 
        <b>OpenClusterResource</b> returns a handle to the 
@@ -97,31 +90,20 @@ If the operation was successful,
 </td>
 <td width="60%">
 The operation was not successful. For information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresourceex">OpenClusterResourceEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresourceex">OpenClusterResourceEx</a>

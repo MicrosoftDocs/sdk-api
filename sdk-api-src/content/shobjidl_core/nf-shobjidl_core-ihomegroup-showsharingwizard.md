@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IHomeGroup.ShowSharingWizard
 title: IHomeGroup::ShowSharingWizard (shobjidl_core.h)
 description: Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
+helpviewer_keywords: ["HGSC_DOCUMENTSLIBRARY","HGSC_MUSICLIBRARY","HGSC_NONE","HGSC_PICTURESLIBRARY","HGSC_PRINTERS","HGSC_VIDEOSLIBRARY","IHomeGroup interface [Windows Shell]","ShowSharingWizard method","IHomeGroup.ShowSharingWizard","IHomeGroup::ShowSharingWizard","ShowSharingWizard","ShowSharingWizard method [Windows Shell]","ShowSharingWizard method [Windows Shell]","IHomeGroup interface","_shell_IHomeGroup_ShowSharingWizard","shell.IHomeGroup_ShowSharingWizard","shobjidl_core/IHomeGroup::ShowSharingWizard"]
 old-location: shell\IHomeGroup_ShowSharingWizard.htm
 tech.root: shell
 ms.assetid: D73A97EE-B427-4c53-B023-3662D864E801
 ms.date: 12/05/2018
 ms.keywords: HGSC_DOCUMENTSLIBRARY, HGSC_MUSICLIBRARY, HGSC_NONE, HGSC_PICTURESLIBRARY, HGSC_PRINTERS, HGSC_VIDEOSLIBRARY, IHomeGroup interface [Windows Shell],ShowSharingWizard method, IHomeGroup.ShowSharingWizard, IHomeGroup::ShowSharingWizard, ShowSharingWizard, ShowSharingWizard method [Windows Shell], ShowSharingWizard method [Windows Shell],IHomeGroup interface, _shell_IHomeGroup_ShowSharingWizard, shell.IHomeGroup_ShowSharingWizard, shobjidl_core/IHomeGroup::ShowSharingWizard
-f1_keywords:
-- shobjidl_core/IHomeGroup.ShowSharingWizard
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IHomeGroup.ShowSharingWizard
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IHomeGroup::ShowSharingWizard
+ - shobjidl_core/IHomeGroup::ShowSharingWizard
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IHomeGroup.ShowSharingWizard
 ---
 
 # IHomeGroup::ShowSharingWizard
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Displays a wizard that allows a user to create a Home Group, and then retrieves the sharing options that the user selected through the wizard.
 
-
 ## -parameters
-
-
-
 
 ### -param owner [in]
 
 Type: <b>HWND</b>
 
 Handle of the owner window of the wizard, used for notifications. This value can be <b>NULL</b>.
-
 
 ### -param sharingchoices [out]
 
@@ -106,10 +102,7 @@ Pointer to a value that, when this method returns successfully, receives one or 
 
 0x00000010. Installed printer devices were selected to be shared with the Home Group.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -127,7 +120,7 @@ Returns S_OK if successful, or a standard error value otherwise, including the f
 </dl>
 </td>
 <td width="60%">
-The user canceled the wizard. Use <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> to extract this error code.
+The user canceled the wizard. Use <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> to extract this error code.
 
 </td>
 </tr>
@@ -165,14 +158,8 @@ The <i>sharingchoices</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method must be called from a single-threaded apartment (STA) thread.
 
@@ -224,7 +211,3 @@ if (SUCCEEDED(hr))
     CoUninitialize();
 }
 ```
-
-
-
-

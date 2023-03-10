@@ -2,15 +2,12 @@
 UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(float,float,float,float,float,float,float,float,float)
 title: XMFLOAT3X3::XMFLOAT3X3(float,float,float,float,float,float,float,float,float) (directxmath.h)
 description: Initializes a new instance of the XMFLOAT3X3 structure from nine scalar float values.
+helpviewer_keywords: ["XMFLOAT3X3","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 structure","XMFLOAT3X3 structure [DirectX Math Support APIs]","XMFLOAT3X3 constructor","XMFLOAT3X3.XMFLOAT3X3","XMFLOAT3X3.XMFLOAT3X3(float","float","float","float","float","float","float","float","float)","XMFLOAT3X3::XMFLOAT3X3","XMFLOAT3X3::XMFLOAT3X3(float","float","float","float","float","float","float","float","float)","dxmath.xmfloat3x3_ctor_2"]
 old-location: dxmath\xmfloat3x3_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor(float,float,float,float,float,float,float,float,float)
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3X3, XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3, XMFLOAT3X3.XMFLOAT3X3(float,float,float,float,float,float,float,float,float), XMFLOAT3X3::XMFLOAT3X3, XMFLOAT3X3::XMFLOAT3X3(float,float,float,float,float,float,float,float,float), dxmath.xmfloat3x3_ctor_2
-f1_keywords:
-- directxmath/XMFLOAT3X3.XMFLOAT3X3
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMFLOAT3X3.XMFLOAT3X3
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMFLOAT3X3::XMFLOAT3X3
+ - directxmath/XMFLOAT3X3::XMFLOAT3X3
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMFLOAT3X3.XMFLOAT3X3
 ---
 
 # XMFLOAT3X3::XMFLOAT3X3(float,float,float,float,float,float,float,float,float)
@@ -48,86 +50,62 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes a new instance of the <code>XMFLOAT3X3</code> structure from nine scalar
 	<code>float</code> values.
     
 
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> structure from nine
+Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a> structure from nine
 	scalar <code>float</code> values.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param m00
 
-Value used to initialize the <b>_11</b> member (equivalently the <b>m[0,0]</b>member) of the <code>XMFLOAT3X3</code> structure.
-	    
-
+Value used to initialize the <b>_11</b> member (equivalently the <b>m[0,0]</b> member) of the <code>XMFLOAT3X3</code> structure.
 
 ### -param m01
 
 Value used to initialize the <b>_12</b> member (equivalently the
 		<b>m[0,1]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ### -param m02
 
 Value used to initialize the <b>_13</b> member (equivalently the
 		<b>m[0,2]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ### -param m10
 
 Value used to initialize the <b>_21</b> member (equivalently the
 		<b>m[1,0]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ### -param m11
 
 Value used to initialize the <b>_22</b> member (equivalently the
 		<b>m[1,1]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ### -param m12
 
 Value used to initialize the <b>_23</b> member (equivalently the
 		<b>m[1,2]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ### -param m20
 
 Value used to initialize the <b>_31</b> member (equivalently the
 		<b>m[2,0]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ### -param m21
 
 Value used to initialize the <b>_32</b> member (equivalently the
 		<b>m[2,1]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ### -param m22
 
 Value used to initialize the <b>_33</b> member (equivalently the
 		<b>m[2,2]</b>) of the <code>XMFLOAT3X3</code> structure.
-	    
-
 
 ## -remarks
-
-
 
 The following two pseudocode examples demonstrate the operation of this constructor:
 	
@@ -168,25 +146,14 @@ Or
       
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>
- 
-
- 
-
+<a href="/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>

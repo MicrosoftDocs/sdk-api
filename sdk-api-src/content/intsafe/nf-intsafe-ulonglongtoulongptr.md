@@ -2,15 +2,12 @@
 UID: NF:intsafe.ULongLongToULongPtr
 title: ULongLongToULongPtr function (intsafe.h)
 description: Converts a value of type ULONGLONG to a value of type ULONG_PTR.
+helpviewer_keywords: ["ULongLongToDWordPtr","ULongLongToSSIZET","ULongLongToULongPtr","ULongLongToULongPtr function [Windows Shell]","_shell_ULongLongToULongPtr","intsafe/ULongLongToULongPtr","shell.ULongLongToULongPtr"]
 old-location: shell\ULongLongToULongPtr.htm
 tech.root: shell
 ms.assetid: 6c95e1ab-2eab-4c10-b1f6-812f34b8214c
 ms.date: 12/05/2018
 ms.keywords: ULongLongToDWordPtr, ULongLongToSSIZET, ULongLongToULongPtr, ULongLongToULongPtr function [Windows Shell], _shell_ULongLongToULongPtr, intsafe/ULongLongToULongPtr, shell.ULongLongToULongPtr
-f1_keywords:
-- intsafe/ULongLongToULongPtr
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Intsafe.h
-api_name:
-- ULongLongToULongPtr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ULongLongToULongPtr
+ - intsafe/ULongLongToULongPtr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Intsafe.h
+api_name:
+ - ULongLongToULongPtr
 ---
 
 # ULongLongToULongPtr function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts a value of type <b>ULONGLONG</b> to a value of type <b>ULONG_PTR</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param ullOperand [in]
 
@@ -63,34 +60,23 @@ Type: <b>ULONGLONG</b>
 
 The value to be converted.
 
-
 ### -param pulResult [out]
 
 Type: <b>ULONG_PTR*</b>
 
 A pointer to the converted value. In the case where the conversion causes a truncation of the original value, the function returns INTSAFE_E_ARITHMETIC_OVERFLOW and this parameter is not valid.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This is one of a set of inline functions designed to provide type conversions and perform validity checks with minimal impact on performance.
 
 <b>ULongLongToSSIZET</b> is an alias for this function.
 
 <b>ULongLongToDWordPtr</b> is an alias for this function.
-
-
 

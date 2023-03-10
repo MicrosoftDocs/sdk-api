@@ -2,15 +2,12 @@
 UID: NF:directxmath.XMPlaneTransform
 title: XMPlaneTransform function (directxmath.h)
 description: Transforms a plane by a given matrix.
+helpviewer_keywords: ["Use DirectX..XMPlaneTransform","XMPlaneTransform","XMPlaneTransform method [DirectX Math Support APIs]","dxmath.xmplanetransform"]
 old-location: dxmath\xmplanetransform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransform(XMVECTOR,XMMATRIX)
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneTransform, XMPlaneTransform, XMPlaneTransform method [DirectX Math Support APIs], dxmath.xmplanetransform
-f1_keywords:
-- directxmath/XMPlaneTransform
-dev_langs:
-- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXMath.h
-api_name:
-- XMPlaneTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMPlaneTransform
+ - directxmath/XMPlaneTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXMath.h
+api_name:
+ - XMPlaneTransform
 ---
 
 # XMPlaneTransform function
@@ -48,55 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Transforms a plane by a given matrix.
 
-
 ## -parameters
-
-
-
 
 ### -param P [in]
 
 <b>XMVECTOR</b> describing the plane coefficients (A, B, C, D) for the plane equation <code>Ax+By+Cz+D=0</code>.
 
-
 ### -param M [in]
 
 Transformation matrix.
 
-
 ## -returns
-
-
 
 Returns the transformed plane as a 4D vector whose components are the plane coefficients (A, B, C, D) for the plane equation <code>Ax+By+Cz+D=0</code>.
 
-
-
-
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-plane">DirectXMath Library Plane Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-plane">DirectXMath Library Plane Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmplanetransformstream">XMPlaneTransformStream</a>
- 
-
- 
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmplanetransformstream">XMPlaneTransformStream</a>

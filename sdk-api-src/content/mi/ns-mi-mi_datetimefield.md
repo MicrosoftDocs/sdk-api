@@ -1,16 +1,13 @@
 ---
 UID: NS:mi._MI_DatetimeField
 title: MI_DatetimeField (mi.h)
-description: Represents a property inside an MI_Instance structure.
+description: Represents a property inside an MI_Instance structure. (MI_DatetimeField)
+helpviewer_keywords: ["MI_DatetimeField","MI_DatetimeField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_DatetimeField","wmi._mi_datetimefield","wmi_v2.mi_datetimefield"]
 old-location: wmi_v2\mi_datetimefield.htm
 tech.root: wmi_v2
 ms.assetid: aea7c78a-de7a-48ff-950f-836c1b6c5176
 ms.date: 12/05/2018
 ms.keywords: MI_DatetimeField, MI_DatetimeField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_DatetimeField, wmi._mi_datetimefield, wmi_v2.mi_datetimefield
-f1_keywords:
-- mi/MI_DatetimeField
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_DatetimeField
 targetos: Windows
 req.typenames: MI_DatetimeField
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - _MI_DatetimeField
+ - mi/_MI_DatetimeField
+ - MI_DatetimeField
+ - mi/MI_DatetimeField
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_DatetimeField
 ---
 
 # MI_DatetimeField structure
@@ -48,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
-
+Represents a property inside an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ## -struct-fields
 
-
-
-
 ### -field value
 
-A field of type <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a>.
-
+A field of type <a href="/windows/desktop/api/mi/ns-mi-mi_datetime">MI_Datetime</a>.
 
 ### -field exists
 
 Indicates whether the field is non-null. Can be set to <b>MI_TRUE</b> or <b>MI_FALSE</b>.
-
 
 ### -field flags
 
@@ -94,4 +91,3 @@ Used while adding and setting properties on an <b>MI_Instance</b> to indicate th
 #### MI_FLAG_ADOPT ((1 << 31))
 
 Used while adding and setting properties on an <b>MI_Instance</b> to indicate that the instance will adopt the pointer and will be responsible for deleting it.
-

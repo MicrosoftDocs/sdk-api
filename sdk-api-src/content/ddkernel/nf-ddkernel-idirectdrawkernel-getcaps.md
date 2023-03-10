@@ -2,6 +2,7 @@
 UID: NF:ddkernel.IDirectDrawKernel.GetCaps
 title: IDirectDrawKernel::GetCaps (ddkernel.h)
 description: The IDirectDrawKernel::GetCaps method returns the capabilities of this kernel-mode device.
+helpviewer_keywords: ["GetCaps","GetCaps method [Display Devices]","GetCaps method [Display Devices]","IDirectDrawKernel interface","IDirectDrawKernel interface [Display Devices]","GetCaps method","IDirectDrawKernel.GetCaps","IDirectDrawKernel::GetCaps","ddfncs_52bda933-e948-4942-b52b-c0a42440c1fb.xml","ddkernel/IDirectDrawKernel::GetCaps","display.idirectdrawkernel_getcaps"]
 old-location: display\idirectdrawkernel_getcaps.htm
 tech.root: display
 ms.assetid: c97ebe38-d62c-4ce8-8530-193dd83ef3d4
@@ -43,30 +44,17 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawKernel::GetCaps
-
-
 ## -description
-
 
 The <b>IDirectDrawKernel::GetCaps</b> method returns the capabilities of this kernel-mode device.
 
-
 ## -parameters
 
+#### -param unnamedParam1
 
-
-
-
-
-#### - lpCaps
-
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkernel/ns-ddkernel-ddkernelcaps">DDKERNELCAPS</a> structure into which the kernel-mode capabilities of the DirectDraw device are returned.
-
+Caller-supplied pointer to a <a href="/windows/desktop/api/ddkernel/ns-ddkernel-ddkernelcaps">DDKERNELCAPS</a> structure into which the kernel-mode capabilities of the DirectDraw device are returned.
 
 ## -returns
-
-
 
 The method must return one of the following values:
 
@@ -109,7 +97,3 @@ The method is not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-

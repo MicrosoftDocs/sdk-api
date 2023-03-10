@@ -2,15 +2,12 @@
 UID: NF:ncrypt.NCryptEnumAlgorithms
 title: NCryptEnumAlgorithms function (ncrypt.h)
 description: Obtains the names of the algorithms that are supported by the specified key storage provider.
+helpviewer_keywords: ["NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION","NCRYPT_CIPHER_OPERATION","NCRYPT_HASH_OPERATION","NCRYPT_SECRET_AGREEMENT_OPERATION","NCRYPT_SIGNATURE_OPERATION","NCRYPT_SILENT_FLAG","NCryptEnumAlgorithms","NCryptEnumAlgorithms function [Security]","ncrypt/NCryptEnumAlgorithms","security.ncryptenumalgorithms_func"]
 old-location: security\ncryptenumalgorithms_func.htm
-tech.root: SecCNG
+tech.root: security
 ms.assetid: ea4f270b-c556-4f52-892a-199c9cfced26
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_CIPHER_OPERATION, NCRYPT_HASH_OPERATION, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_OPERATION, NCRYPT_SILENT_FLAG, NCryptEnumAlgorithms, NCryptEnumAlgorithms function [Security], ncrypt/NCryptEnumAlgorithms, security.ncryptenumalgorithms_func
-f1_keywords:
-- ncrypt/NCryptEnumAlgorithms
-dev_langs:
-- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ncrypt.dll
-api_name:
-- NCryptEnumAlgorithms
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NCryptEnumAlgorithms
+ - ncrypt/NCryptEnumAlgorithms
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ncrypt.dll
+api_name:
+ - NCryptEnumAlgorithms
 ---
 
 # NCryptEnumAlgorithms function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NCryptEnumAlgorithms</b> function obtains the names of the algorithms that are supported by the specified key storage provider.
-
 
 ## -parameters
 
-
-
-
 ### -param hProvider [in]
 
-The handle of the key storage provider to enumerate the algorithms for. This handle is obtained with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
-
+The handle of the key storage provider to enumerate the algorithms for. This handle is obtained with the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider">NCryptOpenStorageProvider</a> function.
 
 ### -param dwAlgOperations [in]
 
@@ -127,20 +123,16 @@ Enumerate the digital signature algorithms.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pdwAlgCount [out]
 
 The address of a <b>DWORD</b> that receives the number of elements in the <i>ppAlgList</i> array.
 
-
 ### -param ppAlgList [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/ns-ncrypt-ncryptalgorithmname">NCryptAlgorithmName</a> structure pointer that receives an array of the registered algorithm names. The variable pointed to by the <i>pdwAlgCount</i> parameter receives the number of elements in this array.
+The address of an <a href="/windows/desktop/api/ncrypt/ns-ncrypt-ncryptalgorithmname">NCryptAlgorithmName</a> structure pointer that receives an array of the registered algorithm names. The variable pointed to by the <i>pdwAlgCount</i> parameter receives the number of elements in this array.
 
-When this memory is no longer needed, it must be freed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
-
+When this memory is no longer needed, it must be freed by passing this pointer to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreebuffer">NCryptFreeBuffer</a> function.
 
 ### -param dwFlags [in]
 
@@ -162,12 +154,8 @@ Requests that the key service provider (KSP) not display any user interface. If 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns a status code that indicates the success or failure of the function.
 
@@ -237,16 +225,7 @@ A memory allocation failure occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A service must not call this function from its <a href="https://go.microsoft.com/fwlink/p/?linkid=137250">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
-
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

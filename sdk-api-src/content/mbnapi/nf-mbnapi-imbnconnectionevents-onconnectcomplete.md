@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnConnectionEvents.OnConnectComplete
 title: IMbnConnectionEvents::OnConnectComplete (mbnapi.h)
 description: Notification method that signals the completion of a connection operation.
+helpviewer_keywords: ["E_MBN_ACTIVE_CONNECTION","E_MBN_INVALID_ACCESS_STRING","E_MBN_MAX_ACTIVATED_CONTEXTS","E_MBN_PACKET_SVC_DETACHED","E_MBN_PIN_REQUIRED","E_MBN_PROVIDER_NOT_VISIBLE","E_MBN_RADIO_POWER_OFF","E_MBN_SERVICE_NOT_ACTIVATED","E_MBN_SIM_NOT_INSERTED","E_MBN_VOICE_CALL_IN_PROGRESS","HRESULT_FROM_WIN32(ERROR_INVALID_PASSWORD)","IMbnConnectionEvents interface [Microsoft Broadband Networks]","OnConnectComplete method","IMbnConnectionEvents.OnConnectComplete","IMbnConnectionEvents::OnConnectComplete","OnConnectComplete","OnConnectComplete method [Microsoft Broadband Networks]","OnConnectComplete method [Microsoft Broadband Networks]","IMbnConnectionEvents interface","S_OK","mbn.imbnconnectionevents_onconnectcomplete","mbnapi/IMbnConnectionEvents::OnConnectComplete"]
 old-location: mbn\imbnconnectionevents_onconnectcomplete.htm
 tech.root: mbn
 ms.assetid: d770eda5-43f4-44d3-a870-fc54f9374610
 ms.date: 12/05/2018
 ms.keywords: E_MBN_ACTIVE_CONNECTION, E_MBN_INVALID_ACCESS_STRING, E_MBN_MAX_ACTIVATED_CONTEXTS, E_MBN_PACKET_SVC_DETACHED, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_VOICE_CALL_IN_PROGRESS, HRESULT_FROM_WIN32(ERROR_INVALID_PASSWORD), IMbnConnectionEvents interface [Microsoft Broadband Networks],OnConnectComplete method, IMbnConnectionEvents.OnConnectComplete, IMbnConnectionEvents::OnConnectComplete, OnConnectComplete, OnConnectComplete method [Microsoft Broadband Networks], OnConnectComplete method [Microsoft Broadband Networks],IMbnConnectionEvents interface, S_OK, mbn.imbnconnectionevents_onconnectcomplete, mbnapi/IMbnConnectionEvents::OnConnectComplete
-f1_keywords:
-- mbnapi/IMbnConnectionEvents.OnConnectComplete
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnConnectionEvents.OnConnectComplete
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnConnectionEvents::OnConnectComplete
+ - mbnapi/IMbnConnectionEvents::OnConnectComplete
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnConnectionEvents.OnConnectComplete
 ---
 
 # IMbnConnectionEvents::OnConnectComplete
@@ -53,21 +55,15 @@ ms.custom: 19H1
 
 Notification method that signals the completion of a connection operation.
 
-
 ## -parameters
-
-
-
 
 ### -param newConnection [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device on which the connection operation has completed.
-
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device on which the connection operation has completed.
 
 ### -param requestID [in]
 
 The request ID assigned by the Mobile Broadband service to identify the connection operation.
-
 
 ### -param status [in]
 
@@ -201,36 +197,17 @@ The device is already connected to the network.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 This method must return <b>S_OK</b>.
-
-
-
 
 ## -remarks
 
+Once an activation context is established, an application can use <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> to get the current connection state.  
 
-
-Once an activation context is established, an application can use <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> to get the current connection state.  
-
-When the connection operation results in an error, an application can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getactivationnetworkerror">GetActivationNetworkError</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface to obtain network error information.
-
-
-
+When the connection operation results in an error, an application can call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-getactivationnetworkerror">GetActivationNetworkError</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface to obtain network error information.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>

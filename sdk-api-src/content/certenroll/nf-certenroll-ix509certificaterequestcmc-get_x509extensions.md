@@ -1,16 +1,13 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_X509Extensions
 title: IX509CertificateRequestCmc::get_X509Extensions (certenroll.h)
-description: Retrieves a collection of the extensions included in the certificate request.
+description: Retrieves a collection of the extensions included in the certificate request. (IX509CertificateRequestCmc.get_X509Extensions)
+helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","X509Extensions property","IX509CertificateRequestCmc.X509Extensions","IX509CertificateRequestCmc.get_X509Extensions","IX509CertificateRequestCmc::X509Extensions","IX509CertificateRequestCmc::get_X509Extensions","X509Extensions property [Security]","X509Extensions property [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::X509Extensions","certenroll/IX509CertificateRequestCmc::get_X509Extensions","get_X509Extensions","security.ix509certificaterequestcmc_x509extensions_property"]
 old-location: security\ix509certificaterequestcmc_x509extensions_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: 75eae625-5c41-4eef-aacd-bd1681286b2b
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],X509Extensions property, IX509CertificateRequestCmc.X509Extensions, IX509CertificateRequestCmc.get_X509Extensions, IX509CertificateRequestCmc::X509Extensions, IX509CertificateRequestCmc::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::X509Extensions, certenroll/IX509CertificateRequestCmc::get_X509Extensions, get_X509Extensions, security.ix509certificaterequestcmc_x509extensions_property
-f1_keywords:
-- certenroll/IX509CertificateRequestCmc.X509Extensions
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- IX509CertificateRequestCmc.X509Extensions
-- IX509CertificateRequestCmc.get_X509Extensions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IX509CertificateRequestCmc::get_X509Extensions
+ - certenroll/IX509CertificateRequestCmc::get_X509Extensions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - IX509CertificateRequestCmc.X509Extensions
+ - IX509CertificateRequestCmc.get_X509Extensions
 ---
 
 # IX509CertificateRequestCmc::get_X509Extensions
@@ -49,51 +51,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>X509Extensions</b> property retrieves a collection of the extensions included in the certificate request.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 You must initialize the CMC request object before calling this property. For more information, see the following topics:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-initialize">Initialize</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializedecode">InitializeDecode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializedecode">InitializeDecode</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate">InitializeFromCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate">InitializeFromCertificate</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefrominnerrequest">InitializeFromInnerRequest</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefrominnerrequest">InitializeFromInnerRequest</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-initializefrominnerrequesttemplatename">InitializeFromInnerRequestTemplateName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-initializefrominnerrequesttemplatename">InitializeFromInnerRequestTemplateName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromtemplatename">InitializeFromTemplateName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromtemplatename">InitializeFromTemplateName</a>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>

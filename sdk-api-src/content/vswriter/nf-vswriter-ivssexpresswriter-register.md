@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssExpressWriter.Register
 title: IVssExpressWriter::Register (vswriter.h)
 description: Causes VSS to store the writer's metadata in the express writer metadata store.
+helpviewer_keywords: ["IVssExpressWriter interface","Register method","IVssExpressWriter.Register","IVssExpressWriter::Register","Register","Register method","Register method","IVssExpressWriter interface","base.ivssexpresswriter_register","vswriter/IVssExpressWriter::Register"]
 old-location: base\ivssexpresswriter_register.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Register, IVssExpressWriter::Register, Register, Register method, Register method,IVssExpressWriter interface, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
-f1_keywords:
-- vswriter/IVssExpressWriter.Register
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsWriter.h
-api_name:
-- IVssExpressWriter.Register
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssExpressWriter::Register
+ - vswriter/IVssExpressWriter::Register
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsWriter.h
+api_name:
+ - IVssExpressWriter.Register
 ---
 
 # IVssExpressWriter::Register
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Causes VSS to store the writer's metadata in the express writer metadata store.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -95,27 +88,11 @@ Metadata has already been stored for this writer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Before using this method, the caller must have either used the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-loadmetadata">LoadMetadata</a> method to load the writer's metadata directly or used the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a> method to create a writer metadata object.
-
-
-
+Before using this method, the caller must have either used the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-loadmetadata">LoadMetadata</a> method to load the writer's metadata directly or used the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivssexpresswriter-createmetadata">CreateMetadata</a> method to create a writer metadata object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>

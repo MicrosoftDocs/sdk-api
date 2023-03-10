@@ -1,16 +1,13 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.GetProperty
 title: IWindowsMediaLibrarySharingDeviceProperties::GetProperty (wmlss.h)
-description: The GetProperty method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an indivdual property for a media device.
+description: The GetProperty method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an individual property for a media device.
+helpviewer_keywords: ["GetProperty","GetProperty method [Windows Media Library Sharing Services]","GetProperty method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperties interface","IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services]","GetProperty method","IWindowsMediaLibrarySharingDeviceProperties.GetProperty","IWindowsMediaLibrarySharingDeviceProperties::GetProperty","wmlss.IWMLSDevicePropertiesGetProperty","wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty"]
 old-location: wmlss\IWMLSDevicePropertiesGetProperty.htm
 tech.root: WMLSS
 ms.assetid: 32ae77a2-d80e-4295-9fd2-83b1ad7e8c73
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Media Library Sharing Services], GetProperty method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],GetProperty method, IWindowsMediaLibrarySharingDeviceProperties.GetProperty, IWindowsMediaLibrarySharingDeviceProperties::GetProperty, wmlss.IWMLSDevicePropertiesGetProperty, wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty
-f1_keywords:
-- wmlss/IWindowsMediaLibrarySharingDeviceProperties.GetProperty
-dev_langs:
-- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WMPMediaSharing.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMPMediaSharing.dll
-api_name:
-- IWindowsMediaLibrarySharingDeviceProperties.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsMediaLibrarySharingDeviceProperties::GetProperty
+ - wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMPMediaSharing.dll
+api_name:
+ - IWindowsMediaLibrarySharingDeviceProperties.GetProperty
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperties::GetProperty
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetProperty</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperty">IWindowsMediaLibrarySharingDeviceProperty</a> interface that represents an indivdual property for a media device.
-
+The <b>GetProperty</b> method retrieves an <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperty">IWindowsMediaLibrarySharingDeviceProperty</a> interface that represents an individual property for a media device.
 
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 A <b>BSTR</b> that specifies the name of the property.
 
-
 ### -param property [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperty">IWindowsMediaLibrarySharingDeviceProperty</a> interface.
-
+A pointer to a variable that receives a pointer to the <a href="/previous-versions/windows/desktop/api/wmlss/nn-wmlss-iwindowsmedialibrarysharingdeviceproperty">IWindowsMediaLibrarySharingDeviceProperty</a> interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -90,7 +83,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-

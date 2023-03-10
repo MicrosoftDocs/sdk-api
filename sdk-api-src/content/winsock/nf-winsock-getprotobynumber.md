@@ -1,16 +1,13 @@
 ---
 UID: NF:winsock.getprotobynumber
 title: getprotobynumber function (winsock.h)
-description: The getprotobynumber function retrieves protocol information corresponding to a protocol number.
+description: The getprotobynumber function (winsock.h) retrieves protocol information corresponding to a protocol number.
+helpviewer_keywords: ["_win32_getprotobynumber_2","getprotobynumber","getprotobynumber function [Winsock]","winsock.getprotobynumber_2","winsock/getprotobynumber"]
 old-location: winsock\getprotobynumber_2.htm
 tech.root: WinSock
 ms.assetid: f1f55ab7-01ca-4ed7-b8f9-e7ddbaa95855
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: _win32_getprotobynumber_2, getprotobynumber, getprotobynumber function [Winsock], winsock.getprotobynumber_2, winsock/getprotobynumber
-f1_keywords:
-- winsock/getprotobynumber
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ws2_32.dll
-api_name:
-- getprotobynumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - getprotobynumber
+ - winsock/getprotobynumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ws2_32.dll
+api_name:
+ - getprotobynumber
 ---
 
 # getprotobynumber function
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>getprotobynumber</b> function retrieves protocol information corresponding to a protocol number.
 
-
 ## -parameters
-
-
-
 
 ### -param proto
 
@@ -69,15 +66,12 @@ TBD
 
 Protocol number, in host byte order.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>getprotobynumber</b> returns a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-protoent">protoent</a> structure. Otherwise, it returns a null pointer and a specific error number can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/ns-winsock-protoent">protoent</a> structure. Otherwise, it returns a null pointer and a specific error number can be retrieved by calling 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -87,19 +81,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +104,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +115,7 @@ Authoritative answer protocol not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -132,7 +126,7 @@ A nonauthoritative Protocol not found, or server failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +137,7 @@ Nonrecoverable errors, the protocols database is not accessible.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -154,7 +148,7 @@ Valid name, no data record of requested type.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -165,29 +159,23 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A blocking Windows Socket 1.1 call was canceled through 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This 
 <b>getprotobynumber</b> function returns a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-protoent">protoent</a> structure as previously described in 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getprotobyname">getprotobyname</a>. The contents of the structure correspond to the given protocol number.
+<a href="/windows/desktop/api/winsock/ns-winsock-protoent">protoent</a> structure as previously described in 
+<a href="/windows/desktop/api/winsock/nf-winsock-getprotobyname">getprotobyname</a>. The contents of the structure correspond to the given protocol number.
 
 The pointer that is returned points to the structure allocated by Windows Sockets. The application must never attempt to modify this structure or to free any of its components. Furthermore, only one copy of this structure is allocated per thread, so the application should copy any information that it needs before issuing any other Windows Sockets function calls.
 
@@ -195,28 +183,18 @@ The pointer that is returned points to the structure allocated by Windows Socket
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobynumber">WSAAsyncGetProtoByNumber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncgetprotobynumber">WSAAsyncGetProtoByNumber</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getprotobyname">getprotobyname</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock/nf-winsock-getprotobyname">getprotobyname</a>

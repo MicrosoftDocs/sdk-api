@@ -4,7 +4,7 @@ title: Quality of Service (QOS)
 ms.assetid: 226c23a3-f2d6-320b-87c9-2bb3973f6073
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Quality of Service (QOS)
@@ -27,5 +27,4 @@ To develop Quality of Service (QOS), you need these headers:
  * [winsock2.h](../winsock2/index.md)
 
 For programming guidance for this technology, see:
-* [Quality of Service (QOS)](https://docs.microsoft.com/previous-versions/windows/desktop/qos)
-
+* [Quality of Service (QOS)](/previous-versions/windows/desktop/qos)

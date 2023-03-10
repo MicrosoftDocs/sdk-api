@@ -2,15 +2,12 @@
 UID: NF:locationapi.ILatLongReport.GetAltitude
 title: ILatLongReport::GetAltitude (locationapi.h)
 description: Retrieves the altitude, in meters. Altitude is relative to the reference ellipsoid.
+helpviewer_keywords: ["GetAltitude","GetAltitude method [WinLocation]","GetAltitude method [WinLocation]","ILatLongReport interface","ILatLongReport interface [WinLocation]","GetAltitude method","ILatLongReport.GetAltitude","ILatLongReport::GetAltitude","WinLocation_COM_Ref.ilatlongreport_getaltitude","locationapi/ILatLongReport::GetAltitude"]
 old-location: winlocation_com_ref\ilatlongreport_getaltitude.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 7ab8e3fb-03da-4529-aaf0-3a178474e4a5
 ms.date: 12/05/2018
 ms.keywords: GetAltitude, GetAltitude method [WinLocation], GetAltitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetAltitude method, ILatLongReport.GetAltitude, ILatLongReport::GetAltitude, WinLocation_COM_Ref.ilatlongreport_getaltitude, locationapi/ILatLongReport::GetAltitude
-f1_keywords:
-- locationapi/ILatLongReport.GetAltitude
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- ILatLongReport.GetAltitude
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ILatLongReport::GetAltitude
+ - locationapi/ILatLongReport::GetAltitude
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - ILatLongReport.GetAltitude
 ---
 
 # ILatLongReport::GetAltitude
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Retrieves the altitude, in meters. Altitude is relative to the reference ellipsoid.
 
-
 ## -parameters
-
-
-
 
 ### -param pAltitude [out]
 
 Address of a <b>DOUBLE</b> that receives the altitude, in meters. May be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -99,14 +93,8 @@ The location report does not include data for the requested field. This result i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>GetAltitude</b> method retrieves the altitude relative to the reference ellipsoid that is defined by the latest revision of the World Geodetic System (WGS 84), rather than the altitude relative to sea level.
 
@@ -131,17 +119,6 @@ else
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>
- 
-
- 
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>

@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDVB_EIT.GetSegmentLastSectionNumber
 title: IDVB_EIT::GetSegmentLastSectionNumber (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetSegmentLastSectionNumber","GetSegmentLastSectionNumber method [Microsoft TV Technologies]","GetSegmentLastSectionNumber method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetSegmentLastSectionNumber method","IDVB_EIT.GetSegmentLastSectionNumber","IDVB_EIT::GetSegmentLastSectionNumber","IDVB_EITGetSegmentLastSectionNumber","dvbsiparser/IDVB_EIT::GetSegmentLastSectionNumber","mstv.idvb_eit_getsegmentlastsectionnumber"]
 old-location: mstv\idvb_eit_getsegmentlastsectionnumber.htm
 tech.root: mstv
 ms.assetid: 01edaee4-1968-4e6c-8d4f-e1b518f54aaa
 ms.date: 12/05/2018
 ms.keywords: GetSegmentLastSectionNumber, GetSegmentLastSectionNumber method [Microsoft TV Technologies], GetSegmentLastSectionNumber method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetSegmentLastSectionNumber method, IDVB_EIT.GetSegmentLastSectionNumber, IDVB_EIT::GetSegmentLastSectionNumber, IDVB_EITGetSegmentLastSectionNumber, dvbsiparser/IDVB_EIT::GetSegmentLastSectionNumber, mstv.idvb_eit_getsegmentlastsectionnumber
-f1_keywords:
-- dvbsiparser/IDVB_EIT.GetSegmentLastSectionNumber
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDVB_EIT.GetSegmentLastSectionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDVB_EIT::GetSegmentLastSectionNumber
+ - dvbsiparser/IDVB_EIT::GetSegmentLastSectionNumber
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDVB_EIT.GetSegmentLastSectionNumber
 ---
 
 # IDVB_EIT::GetSegmentLastSectionNumber
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetSegmentLastSectionNumber</b> method returns the section number of the last section in the subtable that contains this section.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Pointer to a variable that receives the last_section_number field
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -102,18 +95,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>

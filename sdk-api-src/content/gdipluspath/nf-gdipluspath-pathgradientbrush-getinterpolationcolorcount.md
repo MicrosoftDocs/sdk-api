@@ -2,15 +2,12 @@
 UID: NF:gdipluspath.PathGradientBrush.GetInterpolationColorCount
 title: PathGradientBrush::GetInterpolationColorCount (gdipluspath.h)
 description: The PathGradientBrush::GetInterpolationColorCount method gets the number of preset colors currently specified for this path gradient brush.
+helpviewer_keywords: ["GetInterpolationColorCount","GetInterpolationColorCount method [GDI+]","GetInterpolationColorCount method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetInterpolationColorCount method","PathGradientBrush.GetInterpolationColorCount","PathGradientBrush::GetInterpolationColorCount","_gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getinterpolationcolorcount_80.htm
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationColorCount, GetInterpolationColorCount method [GDI+], GetInterpolationColorCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetInterpolationColorCount method, PathGradientBrush.GetInterpolationColorCount, PathGradientBrush::GetInterpolationColorCount, _gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetInterpolationColorCount_
-f1_keywords:
-- gdipluspath/PathGradientBrush.GetInterpolationColorCount
-dev_langs:
-- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- PathGradientBrush.GetInterpolationColorCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - PathGradientBrush::GetInterpolationColorCount
+ - gdipluspath/PathGradientBrush::GetInterpolationColorCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - PathGradientBrush.GetInterpolationColorCount
 ---
 
 # PathGradientBrush::GetInterpolationColorCount
@@ -49,40 +51,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PathGradientBrush::GetInterpolationColorCount</b> method gets the number of preset colors currently specified for this path gradient brush.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>INT</b>
-</strong>
+Type: <b>INT</b>
 
 This method returns the number of preset colors currently specified for this path gradient brush.
 
-
-
-
 ## -remarks
-
-
 
 A simple path gradient brush has two colors: a boundary color and a center color. When you paint with such a brush, the color changes gradually from the boundary color to the center color as you move from the boundary path to the center point. You can create a more complex gradient by specifying an array of preset colors and an array of blend positions.
 
 You can obtain the interpolation colors and interpolation positions currently set for a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of that 
-				<b>PathGradientBrush</b>object. Before you call the <b>PathGradientBrush::GetInterpolationColors</b> method, you must allocate two buffers: one to hold the array of interpolation colors and one to hold the array of interpolation positions. You can call the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
-				<b>PathGradientBrush</b>object to determine the required size of those buffers. The size of the color buffer is the return value of <b>GetInterpolationColorCount</b> multiplied by 
-				<b>sizeof</b>(<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>). The size of the position buffer is the value of <b>PathGradientBrush::GetInterpolationColorCount</b> multiplied by 
+				<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object by calling the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of that 
+				<b>PathGradientBrush</b> object. Before you call the <b>PathGradientBrush::GetInterpolationColors</b> method, you must allocate two buffers: one to hold the array of interpolation colors and one to hold the array of interpolation positions. You can call the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
+				<b>PathGradientBrush</b> object to determine the required size of those buffers. The size of the color buffer is the return value of <b>GetInterpolationColorCount</b> multiplied by 
+				<b>sizeof</b>(<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>). The size of the position buffer is the value of <b>PathGradientBrush::GetInterpolationColorCount</b> multiplied by 
 				<b>sizeof</b>(
 				<b>REAL</b>).
 
@@ -92,9 +79,9 @@ You can obtain the interpolation colors and interpolation positions currently se
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object from a triangular path. The code sets the preset colors to red, blue, and aqua and sets the blend positions to 0, 0.6, and 1. The code calls the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
-						<b>PathGradientBrush</b>object to obtain the number of preset colors currently set for the brush. Next, the code allocates two buffers: one to hold the array of preset colors, and one to hold the array of blend positions. The call to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of the 
-						<b>PathGradientBrush</b>object fills the buffers with the preset colors and the blend positions. Finally the code fills a small square with each of the preset colors.
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a> object from a triangular path. The code sets the preset colors to red, blue, and aqua and sets the blend positions to 0, 0.6, and 1. The code calls the <b>PathGradientBrush::GetInterpolationColorCount</b> method of the 
+						<b>PathGradientBrush</b> object to obtain the number of preset colors currently set for the brush. Next, the code allocates two buffers: one to hold the array of preset colors, and one to hold the array of blend positions. The call to the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a> method of the 
+						<b>PathGradientBrush</b> object fills the buffers with the preset colors and the blend positions. Finally the code fills a small square with each of the preset colors.
 
 
 ```cpp
@@ -140,41 +127,30 @@ VOID Example_GetInterpColors(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-color-gradient-use">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-color-gradient-use">Filling a Shape with a Color Gradient</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors">PathGradientBrush::GetInterpolationColors</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors">PathGradientBrush::SetInterpolationColors</a>
- 
-
- 
-
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors">PathGradientBrush::SetInterpolationColors</a>

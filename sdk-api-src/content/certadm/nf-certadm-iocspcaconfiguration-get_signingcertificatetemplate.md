@@ -1,16 +1,13 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_SigningCertificateTemplate
 title: IOCSPCAConfiguration::get_SigningCertificateTemplate (certadm.h)
-description: Gets or sets the template name for a signing certificate.
+description: Gets or sets the template name for a signing certificate. (Get)
+helpviewer_keywords: ["IOCSPCAConfiguration interface [Security]","SigningCertificateTemplate property","IOCSPCAConfiguration.SigningCertificateTemplate","IOCSPCAConfiguration.get_SigningCertificateTemplate","IOCSPCAConfiguration::SigningCertificateTemplate","IOCSPCAConfiguration::get_SigningCertificateTemplate","IOCSPCAConfiguration::put_SigningCertificateTemplate","SigningCertificateTemplate property [Security]","SigningCertificateTemplate property [Security]","IOCSPCAConfiguration interface","certadm/IOCSPCAConfiguration::SigningCertificateTemplate","certadm/IOCSPCAConfiguration::get_SigningCertificateTemplate","certadm/IOCSPCAConfiguration::put_SigningCertificateTemplate","get_SigningCertificateTemplate","security.iocspcaconfiguration_signingcertificatetemplate"]
 old-location: security\iocspcaconfiguration_signingcertificatetemplate.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 38e75d8f-1e6a-4214-8142-85f7e9c41ce2
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificateTemplate property, IOCSPCAConfiguration.SigningCertificateTemplate, IOCSPCAConfiguration.get_SigningCertificateTemplate, IOCSPCAConfiguration::SigningCertificateTemplate, IOCSPCAConfiguration::get_SigningCertificateTemplate, IOCSPCAConfiguration::put_SigningCertificateTemplate, SigningCertificateTemplate property [Security], SigningCertificateTemplate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificateTemplate, certadm/IOCSPCAConfiguration::get_SigningCertificateTemplate, certadm/IOCSPCAConfiguration::put_SigningCertificateTemplate, get_SigningCertificateTemplate, security.iocspcaconfiguration_signingcertificatetemplate
-f1_keywords:
-- certadm/IOCSPCAConfiguration.SigningCertificateTemplate
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -28,29 +25,33 @@ req.type-library:
 req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- IOCSPCAConfiguration.SigningCertificateTemplate
-- IOCSPCAConfiguration.get_SigningCertificateTemplate
-- IOCSPCAConfiguration.put_SigningCertificateTemplate
-- IOCSPCAConfiguration.SigningCertificateTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCSPCAConfiguration::get_SigningCertificateTemplate
+ - certadm/IOCSPCAConfiguration::get_SigningCertificateTemplate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - IOCSPCAConfiguration.SigningCertificateTemplate
+ - IOCSPCAConfiguration.get_SigningCertificateTemplate
+ - IOCSPCAConfiguration.put_SigningCertificateTemplate
+ - IOCSPCAConfiguration.SigningCertificateTemplate
 ---
 
 # IOCSPCAConfiguration::get_SigningCertificateTemplate
 
 
 ## -description
-
 
 The <b>SigningCertificateTemplate</b> property gets or sets the template name for a signing certificate.
 
@@ -60,17 +61,8 @@ This property supports enrollment or renewal of signing certificates that were s
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

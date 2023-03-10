@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymEnumSymbolsW
 title: SymEnumSymbolsW function (dbghelp.h)
-description: Enumerates all symbols in a process.
+description: The SymEnumSymbolsW (Unicode) function enumerates all symbols in a process.
+helpviewer_keywords: ["*!*","SymEnumSymbols","SymEnumSymbols function","SymEnumSymbolsW","_win32_symenumsymbols","base.symenumsymbols","dbghelp/SymEnumSymbols","dbghelp/SymEnumSymbolsW","foo","foo*!bar","foo?"]
 old-location: base\symenumsymbols.htm
 tech.root: Debug
 ms.assetid: e1232657-baf6-4e5b-9995-a382aa1391c2
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: '*!*, SymEnumSymbols, SymEnumSymbols function, SymEnumSymbolsW, _win32_symenumsymbols, base.symenumsymbols, dbghelp/SymEnumSymbols, dbghelp/SymEnumSymbolsW, foo, foo*!bar, foo?'
-f1_keywords:
-- dbghelp/SymEnumSymbols
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymEnumSymbols
-- SymEnumSymbols
-- SymEnumSymbolsW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymEnumSymbolsW
+ - dbghelp/SymEnumSymbolsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymEnumSymbols
+ - SymEnumSymbols
+ - SymEnumSymbolsW
 ---
 
 # SymEnumSymbolsW function
@@ -50,28 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates all symbols in a process.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to a process. This handle must have been previously passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
-
+      <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param BaseOfDll [in]
 
 The base address of the module. If this value is zero and <i>Mask</i> contains an 
       exclamation point (!), the function looks across modules. If this value is zero and 
       <i>Mask</i> does not contain an exclamation point, the function uses the scope established by 
-      the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
-
+      the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 ### -param Mask [in, optional]
 
@@ -99,7 +94,7 @@ If <i>BaseOfDll</i> is not zero, then
 If <i>BaseOfDll</i> is zero, then 
          <b>SymEnumSymbols</b> will look for a local symbol named 
          "foo" within the scope established by the most recent call to the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 </td>
 </tr>
@@ -118,7 +113,7 @@ If <i>BaseOfDll</i> is zero, then
          <b>SymEnumSymbols</b> will look for a symbol that starts 
          with "foo" and contains one extra character afterwards, such as "fool" and 
          "foot". The search would be within the scope established by the most recent call to the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
+         <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetcontext">SymSetContext</a> function.
 
 </td>
 </tr>
@@ -147,14 +142,11 @@ If <i>BaseOfDll</i> is zero, then
 </td>
 </tr>
 </table>
- 
-
 
 ### -param EnumSymbolsCallback [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that 
+A <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a> callback function that 
       receives the symbol information.
-
 
 ### -param UserContext [in, optional]
 
@@ -162,22 +154,14 @@ A user-defined value that is passed to the callback function, or <b>NULL</b>. Th
       parameter is typically used by an application to pass a pointer to a data structure that provides context for 
       the callback function.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
     this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize 
@@ -189,23 +173,20 @@ To call the Unicode version of this function, define
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Debug/enumerating-symbols">Enumerating Symbols</a>.
+For an example, see <a href="/windows/desktop/Debug/enumerating-symbols">Enumerating Symbols</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The dbghelp.h header defines SymEnumSymbols as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumSymbolsProc</a>

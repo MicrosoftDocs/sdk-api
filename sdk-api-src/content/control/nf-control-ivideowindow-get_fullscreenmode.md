@@ -2,15 +2,12 @@
 UID: NF:control.IVideoWindow.get_FullScreenMode
 title: IVideoWindow::get_FullScreenMode (control.h)
 description: The get_FullScreenMode method queries whether the video renderer is in full-screen mode.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_FullScreenMode method","IVideoWindow.get_FullScreenMode","IVideoWindow::get_FullScreenMode","IVideoWindowget_FullScreenMode","control/IVideoWindow::get_FullScreenMode","dshow.ivideowindow_get_fullscreenmode","get_FullScreenMode","get_FullScreenMode method [DirectShow]","get_FullScreenMode method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_fullscreenmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 742587c7-545a-4c5f-bff1-511ed6d0b1d5
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_FullScreenMode method, IVideoWindow.get_FullScreenMode, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow],IVideoWindow interface
-f1_keywords:
-- control/IVideoWindow.get_FullScreenMode
-dev_langs:
-- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVideoWindow.get_FullScreenMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVideoWindow::get_FullScreenMode
+ - control/IVideoWindow::get_FullScreenMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVideoWindow.get_FullScreenMode
 ---
 
 # IVideoWindow::get_FullScreenMode
@@ -49,27 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_FullScreenMode</code> method queries whether the video renderer is in full-screen mode.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param FullScreenMode [out]
 
 Receives the value OATRUE if the video renderer is in full-screen mode, or OAFALSE otherwise.
-          
-
 
 ## -returns
-
-
 
 Possible return values include the following:
 
@@ -123,35 +113,19 @@ The video renderer filter is not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When the Filter Graph Manager is switching to full-screen mode, it calls this method to determine whether the current video renderer supports this mode. If the renderer does not have inherent support for full-screen playback, it should return E_NOTIMPL. If if does, it should return S_OK, and also return the correct value in the <i>FullScreenMode</i> parameter.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_fullscreenmode">IVideoWindow::put_FullScreenMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/control/nf-control-ivideowindow-put_fullscreenmode">IVideoWindow::put_FullScreenMode</a>

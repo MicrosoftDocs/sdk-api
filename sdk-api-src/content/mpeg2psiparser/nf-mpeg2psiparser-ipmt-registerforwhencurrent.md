@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.IPMT.RegisterForWhenCurrent
 title: IPMT::RegisterForWhenCurrent (mpeg2psiparser.h)
 description: The RegisterForWhenCurrent method registers the client to be notified when the table becomes current.
+helpviewer_keywords: ["IPMT interface [Microsoft TV Technologies]","RegisterForWhenCurrent method","IPMT.RegisterForWhenCurrent","IPMT::RegisterForWhenCurrent","IPMTRegisterForWhenCurrent","RegisterForWhenCurrent","RegisterForWhenCurrent method [Microsoft TV Technologies]","RegisterForWhenCurrent method [Microsoft TV Technologies]","IPMT interface","mpeg2psiparser/IPMT::RegisterForWhenCurrent","mstv.ipmt_registerforwhencurrent"]
 old-location: mstv\ipmt_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: 4759c813-3a1f-492a-bca9-cb6610f6426b
 ms.date: 12/05/2018
 ms.keywords: IPMT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IPMT.RegisterForWhenCurrent, IPMT::RegisterForWhenCurrent, IPMTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IPMT interface, mpeg2psiparser/IPMT::RegisterForWhenCurrent, mstv.ipmt_registerforwhencurrent
-f1_keywords:
-- mpeg2psiparser/IPMT.RegisterForWhenCurrent
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPMT.RegisterForWhenCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPMT::RegisterForWhenCurrent
+ - mpeg2psiparser/IPMT::RegisterForWhenCurrent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPMT.RegisterForWhenCurrent
 ---
 
 # IPMT::RegisterForWhenCurrent
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>RegisterForWhenCurrent</b> method registers the client to be notified when the table becomes current.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hNextTableIsCurrent [in]
 
 Handle to an event created by the caller. The object signals the event when the table becomes current.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -121,27 +112,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to <i>next</i> tables. Otherwise, the method returns E_ACCESSDENIED.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>

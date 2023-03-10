@@ -2,15 +2,12 @@
 UID: NF:vfw.AVIStreamSampleToSample
 title: AVIStreamSampleToSample macro (vfw.h)
 description: The AVIStreamSampleToSample macro returns the sample in a stream that occurs at the same time as a sample that occurs in a second stream.
+helpviewer_keywords: ["AVIStreamSampleToSample","AVIStreamSampleToSample macro [Windows Multimedia]","_win32_AVIStreamSampleToSample","multimedia.avistreamsampletosample","vfw/AVIStreamSampleToSample"]
 old-location: multimedia\avistreamsampletosample.htm
 tech.root: Multimedia
 ms.assetid: ed726651-d8f3-4dba-b81d-e283733cabe2
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSampleToSample, AVIStreamSampleToSample macro [Windows Multimedia], _win32_AVIStreamSampleToSample, multimedia.avistreamsampletosample, vfw/AVIStreamSampleToSample
-f1_keywords:
-- vfw/AVIStreamSampleToSample
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- AVIStreamSampleToSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIStreamSampleToSample
+ - vfw/AVIStreamSampleToSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - AVIStreamSampleToSample
 ---
 
 # AVIStreamSampleToSample macro
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>AVIStreamSampleToSample</b> macro returns the sample in a stream that occurs at the same time as a sample that occurs in a second stream.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pavi1
 
-Handle to an open stream that contains the sample that is returned. 
-
+Handle to an open stream that contains the sample that is returned.
 
 ### -param pavi2
 
-Handle to a second stream that contains the reference sample. 
-
+Handle to a second stream that contains the reference sample.
 
 ### -param l
 
-Position information of the sample in the stream referenced by pavi2. 
-
+Position information of the sample in the stream referenced by pavi2.
 
 ## -remarks
-
-
 
 The <b>AVIStreamSampleToSample</b> macro is defined as follows:
 
@@ -90,21 +79,10 @@ The <b>AVIStreamSampleToSample</b> macro is defined as follows:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/avifile-macros">AVIFile Macros</a>

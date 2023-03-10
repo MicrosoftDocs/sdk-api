@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMVideoControl.GetMode
 title: IAMVideoControl::GetMode (strmif.h)
 description: The GetMode method retrieves the video control mode of operation.
+helpviewer_keywords: ["GetMode","GetMode method [DirectShow]","GetMode method [DirectShow]","IAMVideoControl interface","IAMVideoControl interface [DirectShow]","GetMode method","IAMVideoControl.GetMode","IAMVideoControl::GetMode","IAMVideoControlGetMode","dshow.iamvideocontrol_getmode","strmif/IAMVideoControl::GetMode"]
 old-location: dshow\iamvideocontrol_getmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 4b937661-67b2-445c-ab25-8655e1036797
 ms.date: 12/05/2018
 ms.keywords: GetMode, GetMode method [DirectShow], GetMode method [DirectShow],IAMVideoControl interface, IAMVideoControl interface [DirectShow],GetMode method, IAMVideoControl.GetMode, IAMVideoControl::GetMode, IAMVideoControlGetMode, dshow.iamvideocontrol_getmode, strmif/IAMVideoControl::GetMode
-f1_keywords:
-- strmif/IAMVideoControl.GetMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoControl.GetMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoControl::GetMode
+ - strmif/IAMVideoControl::GetMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoControl.GetMode
 ---
 
 # IAMVideoControl::GetMode
@@ -49,57 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetMode</code> method retrieves the video control mode of operation.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPin [in]
 
 Pointer to the pin to retrieve the video control mode from.
 
-
 ### -param Mode [out]
 
-Pointer to a value representing a combination of the flags from the [VideoControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration, which specify the video control mode.
-
+Pointer to a value representing a combination of the flags from the [VideoControlFlags](/windows/desktop/api/strmif/ne-strmif-videocontrolflags) enumeration, which specify the video control mode.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value that depends on the implementation of the interface.
-
-
-
 
 ## -remarks
 
-
-
 Possible modes of operation include one or more of the following: flipping the picture horizontally, flipping the picture vertically, enabling external triggers, and simulating external triggers.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>

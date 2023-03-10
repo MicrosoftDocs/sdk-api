@@ -2,15 +2,12 @@
 UID: NF:certadm.ICertAdmin2.PublishCRLs
 title: ICertAdmin2::PublishCRLs (certadm.h)
 description: Publishes certificate revocation lists (CRLs) for a certification authority (CA).
+helpviewer_keywords: ["CA_CRL_BASE","CA_CRL_DELTA","CA_CRL_REPUBLISH","CCertAdmin2 object [Security]","PublishCRLs method","ICertAdmin2 interface [Security]","PublishCRLs method","ICertAdmin2.PublishCRLs","ICertAdmin2::PublishCRLs","PublishCRLs","PublishCRLs method [Security]","PublishCRLs method [Security]","CCertAdmin2 object","PublishCRLs method [Security]","ICertAdmin2 interface","_certsrv_icertadmin2_publishcrls","certadm/ICertAdmin2::PublishCRLs","security.icertadmin2_publishcrls"]
 old-location: security\icertadmin2_publishcrls.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 27f9e991-bf2a-47f3-8f95-b56092fed7d0
 ms.date: 12/05/2018
 ms.keywords: CA_CRL_BASE, CA_CRL_DELTA, CA_CRL_REPUBLISH, CCertAdmin2 object [Security],PublishCRLs method, ICertAdmin2 interface [Security],PublishCRLs method, ICertAdmin2.PublishCRLs, ICertAdmin2::PublishCRLs, PublishCRLs, PublishCRLs method [Security], PublishCRLs method [Security],CCertAdmin2 object, PublishCRLs method [Security],ICertAdmin2 interface, _certsrv_icertadmin2_publishcrls, certadm/ICertAdmin2::PublishCRLs, security.icertadmin2_publishcrls
-f1_keywords:
-- certadm/ICertAdmin2.PublishCRLs
-dev_langs:
-- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certadm.dll
-api_name:
-- ICertAdmin2.PublishCRLs
-- CCertAdmin2.PublishCRLs
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertAdmin2::PublishCRLs
+ - certadm/ICertAdmin2::PublishCRLs
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certadm.dll
+api_name:
+ - ICertAdmin2.PublishCRLs
+ - CCertAdmin2.PublishCRLs
 ---
 
 # ICertAdmin2::PublishCRLs
@@ -49,29 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PublishCRLs</b> method  publishes <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>PublishCRLs</b> method  publishes <a href="/windows/desktop/SecGloss/c-gly">certificate revocation lists</a> (CRLs) for a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA). This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
 The <b>PublishCRLs</b> method publishes a CRL based on the CA's current certificate, as well as CRLs based on any CA certificates that have been renewed and are not yet expired.
 
-
 ## -parameters
-
-
-
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>PublishCRLs</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>PublishCRLs</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param Date [in]
 
 Specifies the next update value of the CRL in GMT time. 
-If  <i>Date</i> is nonzero, the next update value for the CRL is <i>Date</i>, subject to  rounding or ceiling limits enforced by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a>. If <i>Date</i> is zero, the  next update value of the CRL is calculated from  the default CRL publication period.
-
+If  <i>Date</i> is nonzero, the next update value for the CRL is <i>Date</i>, subject to  rounding or ceiling limits enforced by <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a>. If <i>Date</i> is zero, the  next update value of the CRL is calculated from  the default CRL publication period.
 
 ### -param CRLFlags [in]
 
@@ -113,14 +109,10 @@ The most recent  base or delta CRL, as specified by CA_CRL_BASE or CA_CRL_DELTA,
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-To determine whether a CA has successfully published base and delta CRLs, call <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a> with the CR_PROP_BASECRLPUBLISHSTATUS and CR_PROP_DELTACRLPUBLISHSTATUS property identifiers, respectively.
+To determine whether a CA has successfully published base and delta CRLs, call <a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a> with the CR_PROP_BASECRLPUBLISHSTATUS and CR_PROP_DELTACRLPUBLISHSTATUS property identifiers, respectively.
 
 
 #### Examples
@@ -176,7 +168,3 @@ error:
     if (bstrCA)
         SysFreeString(bstrCA);
 ```
-
-
-
-

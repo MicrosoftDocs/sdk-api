@@ -1,16 +1,13 @@
 ---
 UID: NF:wingdi.CreateColorSpaceW
 title: CreateColorSpaceW function (wingdi.h)
-description: The CreateColorSpace function creates a logical color space.
+description: The CreateColorSpace function creates a logical color space. (Unicode)
+helpviewer_keywords: ["CreateColorSpace", "CreateColorSpace function [Windows Color System]", "CreateColorSpaceW", "_color_CreateColorSpace", "wcs.createcolorspace", "wingdi/CreateColorSpace", "wingdi/CreateColorSpaceW"]
 old-location: wcs\createcolorspace.htm
 tech.root: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
 ms.date: 12/05/2018
 ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System], CreateColorSpaceA, CreateColorSpaceW, _color_CreateColorSpace, wcs.createcolorspace, wingdi/CreateColorSpace, wingdi/CreateColorSpaceA, wingdi/CreateColorSpaceW
-f1_keywords:
-- wingdi/CreateColorSpace
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Gdi32.dll
-- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
-- GDI32Full.dll
-api_name:
-- CreateColorSpace
-- CreateColorSpaceA
-- CreateColorSpaceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CreateColorSpaceW
+ - wingdi/CreateColorSpaceW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Gdi32.dll
+ - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+ - GDI32Full.dll
+api_name:
+ - CreateColorSpace
+ - CreateColorSpaceA
+ - CreateColorSpaceW
 ---
 
 # CreateColorSpaceW function
@@ -52,34 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CreateColorSpace</b> function creates a logical <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/c">color space</a>.
-
+The <b>CreateColorSpace</b> function creates a logical [color space](/windows/win32/wcs/c#color-space).
 
 ## -parameters
 
-
-
-
 ### -param lplcs
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> data structure.
-
+Pointer to the <a href="/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a> data structure.
 
 ## -returns
-
-
 
 If this function succeeds, the return value is a handle that identifies a color space.
 
 If this function fails, the return value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete it.
 
@@ -88,21 +77,12 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 
 
+
+> [!NOTE]
+> The wingdi.h header defines CreateColorSpace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletecolorspace">DeleteColorSpace</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
- 
-
- 
-
+* [Basic color management concepts](/windows/win32/wcs/basic-color-management-concepts)
+* [Functions](/windows/win32/wcs/functions)
+* [DeleteColorSpaceW](/windows/win32/api/wingdi/nf-wingdi-deletecolorspace)

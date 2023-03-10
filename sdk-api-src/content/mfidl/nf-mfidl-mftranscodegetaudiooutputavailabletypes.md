@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFTranscodeGetAudioOutputAvailableTypes
 title: MFTranscodeGetAudioOutputAvailableTypes function (mfidl.h)
 description: Gets a list of output formats from an audio encoder.
+helpviewer_keywords: ["MFT_FIELDOFUSE_UNLOCK_Attribute","MFTranscodeGetAudioOutputAvailableTypes","MFTranscodeGetAudioOutputAvailableTypes function [Media Foundation]","MF_TRANSCODE_ENCODINGPROFILE","MF_TRANSCODE_QUALITYVSSPEED","mf.mftranscodegetaudiooutputavailabletypes","mfidl/MFTranscodeGetAudioOutputAvailableTypes"]
 old-location: mf\mftranscodegetaudiooutputavailabletypes.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 8750eacb-7e6f-4c17-987b-f4baa4eea847
 ms.date: 12/05/2018
 ms.keywords: MFT_FIELDOFUSE_UNLOCK_Attribute, MFTranscodeGetAudioOutputAvailableTypes, MFTranscodeGetAudioOutputAvailableTypes function [Media Foundation], MF_TRANSCODE_ENCODINGPROFILE, MF_TRANSCODE_QUALITYVSSPEED, mf.mftranscodegetaudiooutputavailabletypes, mfidl/MFTranscodeGetAudioOutputAvailableTypes
-f1_keywords:
-- mfidl/MFTranscodeGetAudioOutputAvailableTypes
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFTranscodeGetAudioOutputAvailableTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFTranscodeGetAudioOutputAvailableTypes
+ - mfidl/MFTranscodeGetAudioOutputAvailableTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFTranscodeGetAudioOutputAvailableTypes
 ---
 
 # MFTranscodeGetAudioOutputAvailableTypes function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of output formats from an audio encoder.
-
 
 ## -parameters
 
-
-
-
 ### -param guidSubType [in]
 
-Specifies the subtype of the output media. The encoder uses this value as a filter when it is enumerating the available output types. For information about the audio subtypes, see  <a href="https://docs.microsoft.com/windows/desktop/medfound/audio-subtype-guids">Audio Subtype GUIDs</a>. 
-
+Specifies the subtype of the output media. The encoder uses this value as a filter when it is enumerating the available output types. For information about the audio subtypes, see  <a href="/windows/desktop/medfound/audio-subtype-guids">Audio Subtype GUIDs</a>.
 
 ### -param dwMFTFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
-
-
-
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfapi/ne-mfapi-_mft_enum_flag">_MFT_ENUM_FLAG</a> enumeration.
 
 ### -param pCodecConfig [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store. The attribute store specifies the encoder configuration settings. This parameter can be <b>NULL</b>. The attribute store can hold any of the following attributes.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of an attribute store. The attribute store specifies the encoder configuration settings. This parameter can be <b>NULL</b>. The attribute store can hold any of the following attributes.
 
 <table>
 <tr>
@@ -80,7 +73,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjec
 </tr>
 <tr>
 <td width="40%"><a id="MFT_FIELDOFUSE_UNLOCK_Attribute"></a><a id="mft_fieldofuse_unlock_attribute"></a><a id="MFT_FIELDOFUSE_UNLOCK_ATTRIBUTE"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/medfound/mft-fieldofuse-unlock-attribute">MFT_FIELDOFUSE_UNLOCK_Attribute</a></b></dt>
+<dt><b><a href="/windows/desktop/medfound/mft-fieldofuse-unlock-attribute">MFT_FIELDOFUSE_UNLOCK_Attribute</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -90,7 +83,7 @@ Set this attribute to unlock an encoder that has field-of-use descriptions.
 </tr>
 <tr>
 <td width="40%"><a id="MF_TRANSCODE_ENCODINGPROFILE"></a><a id="mf_transcode_encodingprofile"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-encodingprofile">MF_TRANSCODE_ENCODINGPROFILE</a></b></dt>
+<dt><b><a href="/windows/desktop/medfound/mf-transcode-encodingprofile">MF_TRANSCODE_ENCODINGPROFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -100,7 +93,7 @@ Specifies a device conformance profile for a Windows Media encoder.
 </tr>
 <tr>
 <td width="40%"><a id="MF_TRANSCODE_QUALITYVSSPEED"></a><a id="mf_transcode_qualityvsspeed"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-qualityvsspeed">MF_TRANSCODE_QUALITYVSSPEED</a></b></dt>
+<dt><b><a href="/windows/desktop/medfound/mf-transcode-qualityvsspeed">MF_TRANSCODE_QUALITYVSSPEED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -109,17 +102,12 @@ Sets the tradeoff between encoding quality and encoding speed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppAvailableTypes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of a collection object that contains a list of preferred audio media types. The collection contains <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointers. The caller must release the interface pointer.
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface of a collection object that contains a list of preferred audio media types. The collection contains <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointers. The caller must release the interface pointer.
 
 ## -returns
-
-
 
 The function returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -153,18 +141,12 @@ Failed to find an encoder that matches the specified configuration settings.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function assumes the encoder will be used in its default encoding mode, which is typically constant bit-rate (CBR) encoding. Therefore, the types returned by the function might not work with other modes, such as variable bit-rate (VBR) encoding.
 
-Internally, this function works by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> to find a matching encoder, and then calling <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype">IMFTransform::GetOutputAvailableType</a> to get the encoder's output types.
+Internally, this function works by calling <a href="/windows/desktop/api/mfapi/nf-mfapi-mftenumex">MFTEnumEx</a> to find a matching encoder, and then calling <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype">IMFTransform::GetOutputAvailableType</a> to get the encoder's output types.
 
 
 #### Examples
@@ -289,29 +271,18 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelement">IMFCollection::GetElement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfcollection-getelement">IMFCollection::GetElement</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodeprofile">MFCreateTranscodeProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodeprofile">MFCreateTranscodeProfile</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/tutorial--converting-an-mp3-file-to-a-wma-file">Tutorial: Encoding a WMA File</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/tutorial--converting-an-mp3-file-to-a-wma-file">Tutorial: Encoding a WMA File</a>

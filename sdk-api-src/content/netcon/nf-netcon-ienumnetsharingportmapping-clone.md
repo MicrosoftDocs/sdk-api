@@ -1,16 +1,13 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Clone
 title: IEnumNetSharingPortMapping::Clone (netcon.h)
-description: The Clone method creates a new enumeration interface from this enumeration.
+description: The Clone method creates a new enumeration interface from this enumeration. (IEnumNetSharingPortMapping.Clone)
+helpviewer_keywords: ["Clone","Clone method [ICS/ICF]","Clone method [ICS/ICF]","IEnumNetSharingPortMapping interface","IEnumNetSharingPortMapping interface [ICS/ICF]","Clone method","IEnumNetSharingPortMapping.Clone","IEnumNetSharingPortMapping::Clone","_ics_ienumnetsharingportmapping_clone","ics.ienumnetsharingportmapping_clone","netcon/IEnumNetSharingPortMapping::Clone"]
 old-location: ics\ienumnetsharingportmapping_clone.htm
 tech.root: ics
 ms.assetid: 7d8606ec-d8a2-40c5-9406-fcf16f30e999
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPortMapping interface, IEnumNetSharingPortMapping interface [ICS/ICF],Clone method, IEnumNetSharingPortMapping.Clone, IEnumNetSharingPortMapping::Clone, _ics_ienumnetsharingportmapping_clone, ics.ienumnetsharingportmapping_clone, netcon/IEnumNetSharingPortMapping::Clone
-f1_keywords:
-- netcon/IEnumNetSharingPortMapping.Clone
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IEnumNetSharingPortMapping.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetSharingPortMapping::Clone
+ - netcon/IEnumNetSharingPortMapping::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IEnumNetSharingPortMapping.Clone
 ---
 
 # IEnumNetSharingPortMapping::Clone
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>Clone</b> method creates a new enumeration interface from this enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param ppenum [out]
 
 Pointer to an interface pointer that, on successful return, points to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-ienumnetsharingportmapping">IEnumNetSharingPortMapping</a> interface for the new enumeration.
-
+<a href="/windows/desktop/api/netcon/nn-netcon-ienumnetsharingportmapping">IEnumNetSharingPortMapping</a> interface for the new enumeration.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -168,26 +162,15 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/netcon/nn-netcon-ienumnetsharingportmapping">IEnumNetSharingPortMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-ienumnetsharingportmapping">IEnumNetSharingPortMapping</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

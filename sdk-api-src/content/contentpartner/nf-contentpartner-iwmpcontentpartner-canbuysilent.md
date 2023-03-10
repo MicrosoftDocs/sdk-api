@@ -2,15 +2,12 @@
 UID: NF:contentpartner.IWMPContentPartner.CanBuySilent
 title: IWMPContentPartner::CanBuySilent (contentpartner.h)
 description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["CanBuySilent","CanBuySilent method [Windows Media Player]","CanBuySilent method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","CanBuySilent method","IWMPContentPartner.CanBuySilent","IWMPContentPartner::CanBuySilent","IWMPContentPartnerCanBuySilent","contentpartner/IWMPContentPartner::CanBuySilent","wmp.iwmpcontentpartner_canbuysilent"]
 old-location: wmp\iwmpcontentpartner_canbuysilent.htm
 tech.root: WMP
 ms.assetid: 1faec369-199e-48d4-9c0a-6cbad39a7073
 ms.date: 12/05/2018
 ms.keywords: CanBuySilent, CanBuySilent method [Windows Media Player], CanBuySilent method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],CanBuySilent method, IWMPContentPartner.CanBuySilent, IWMPContentPartner::CanBuySilent, IWMPContentPartnerCanBuySilent, contentpartner/IWMPContentPartner::CanBuySilent, wmp.iwmpcontentpartner_canbuysilent
-f1_keywords:
-- contentpartner/IWMPContentPartner.CanBuySilent
-dev_langs:
-- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- contentpartner.h
-api_name:
-- IWMPContentPartner.CanBuySilent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPContentPartner::CanBuySilent
+ - contentpartner/IWMPContentPartner::CanBuySilent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - contentpartner.h
+api_name:
+ - IWMPContentPartner.CanBuySilent
 ---
 
 # IWMPContentPartner::CanBuySilent
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.</div>
 <div> </div>
 The <b>CanBuySilent</b> method calculates the total price of a purchase and determines whether the purchase can proceed without displaying a dialog box.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pInfo [in]
 
 Pointer to a content container list that represents the content to be purchased.
 
-
 ### -param pbstrTotalPrice [out]
 
 Pointer to a <b>BSTR</b> that receives the total price.
-
 
 ### -param pSilentOK [out]
 
 Receives VARIANT_TRUE if the purchase can proceed silently; that is, without displaying a dialog box. Otherwise it receives VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -100,27 +89,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The format of the string returned in <i>pbstrTotalPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/purchasing-media-content">Purchasing Media Content</a>.
-
-
-
+The format of the string returned in <i>pbstrTotalPrice</i> is known only to the online store. Windows Media Player displays, but does not interpret, price strings. For more information about how Windows Media Player and the content partner plug-in exchange price information, see <a href="/windows/desktop/WMP/purchasing-media-content">Purchasing Media Content</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

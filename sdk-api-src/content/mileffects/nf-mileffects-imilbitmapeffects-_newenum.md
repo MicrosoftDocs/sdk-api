@@ -2,15 +2,12 @@
 UID: NF:mileffects.IMILBitmapEffects._NewEnum
 title: IMILBitmapEffects::_NewEnum (mileffects.h)
 description: Retrieves a new enumeration.
+helpviewer_keywords: ["IMILBitmapEffects interface [WPF Bitmap Effects]","_NewEnum method","IMILBitmapEffects._NewEnum","IMILBitmapEffects::_NewEnum","_NewEnum","_NewEnum method [WPF Bitmap Effects]","_NewEnum method [WPF Bitmap Effects]","IMILBitmapEffects interface","_wibe_imilbitmapeffects__newenum","mileffects/IMILBitmapEffects::_NewEnum","wibe._wibe_imilbitmapeffects__newenum"]
 old-location: wibe\_wibe_imilbitmapeffects__newenum.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\_newenum.htm
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],_NewEnum method, IMILBitmapEffects._NewEnum, IMILBitmapEffects::_NewEnum, _NewEnum, _NewEnum method [WPF Bitmap Effects], _NewEnum method [WPF Bitmap Effects],IMILBitmapEffects interface, _wibe_imilbitmapeffects__newenum, mileffects/IMILBitmapEffects::_NewEnum, wibe._wibe_imilbitmapeffects__newenum
-f1_keywords:
-- mileffects/IMILBitmapEffects._NewEnum
-dev_langs:
-- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mileffects.h
-api_name:
-- IMILBitmapEffects._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0
 ms.custom: 19H1
+f1_keywords:
+ - IMILBitmapEffects::_NewEnum
+ - mileffects/IMILBitmapEffects::_NewEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mileffects.h
+api_name:
+ - IMILBitmapEffects._NewEnum
 ---
 
 # IMILBitmapEffects::_NewEnum
@@ -48,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a new enumeration.
-
 
 ## -parameters
 
-
-
-
 ### -param ppiuReturn [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>**</b>
 
 A pointer that receives a pointer to the new enumeration item.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

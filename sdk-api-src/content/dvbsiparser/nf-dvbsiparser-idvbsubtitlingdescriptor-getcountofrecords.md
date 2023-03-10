@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetCountOfRecords
 title: IDvbSubtitlingDescriptor::GetCountOfRecords (dvbsiparser.h)
 description: Gets the number of subtitling records in a Digital Video Broadcast (DVB) subtitling descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbSubtitlingDescriptor.GetCountOfRecords","IDvbSubtitlingDescriptor::GetCountOfRecords","dvbsiparser/IDvbSubtitlingDescriptor::GetCountOfRecords","mstv.idvbsubtitlingdescriptor_getcountofrecords"]
 old-location: mstv\idvbsubtitlingdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 8cc25b63-de43-4f8d-af19-c3bb8c389a55
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbSubtitlingDescriptor.GetCountOfRecords, IDvbSubtitlingDescriptor::GetCountOfRecords, dvbsiparser/IDvbSubtitlingDescriptor::GetCountOfRecords, mstv.idvbsubtitlingdescriptor_getcountofrecords
-f1_keywords:
-- dvbsiparser/IDvbSubtitlingDescriptor.GetCountOfRecords
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSubtitlingDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSubtitlingDescriptor::GetCountOfRecords
+ - dvbsiparser/IDvbSubtitlingDescriptor::GetCountOfRecords
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSubtitlingDescriptor.GetCountOfRecords
 ---
 
 # IDvbSubtitlingDescriptor::GetCountOfRecords
@@ -48,37 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the number of subtitling records in a Digital Video Broadcast (DVB)  subtitling descriptor.  
-
-
+Gets the number of subtitling records in a Digital Video Broadcast (DVB)  subtitling descriptor.
 
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
 Returns the number of subtitling records.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsubtitlingdescriptor">IDvbSubtitlingDescriptor</a>

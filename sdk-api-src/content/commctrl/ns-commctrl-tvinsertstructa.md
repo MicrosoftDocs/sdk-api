@@ -1,16 +1,13 @@
 ---
 UID: NS:commctrl.tagTVINSERTSTRUCTA
 title: TVINSERTSTRUCTA (commctrl.h)
-description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions.
+description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions. (ANSI)
+helpviewer_keywords: ["*LPTVINSERTSTRUCTA","LPTVINSERTSTRUCT","LPTVINSERTSTRUCT structure pointer [Windows Controls]","TVINSERTSTRUCT","TVINSERTSTRUCT structure [Windows Controls]","TVINSERTSTRUCTA","TVINSERTSTRUCTW","TVI_FIRST","TVI_LAST","TVI_ROOT","TVI_SORT","_win32_TVINSERTSTRUCT","_win32_TVINSERTSTRUCT_cpp","commctrl/LPTVINSERTSTRUCT","commctrl/TVINSERTSTRUCT","commctrl/TVINSERTSTRUCTA","commctrl/TVINSERTSTRUCTW","controls.TVINSERTSTRUCT","controls._win32_TVINSERTSTRUCT"]
 old-location: controls\TVINSERTSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvinsertstruct.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTVINSERTSTRUCTA, LPTVINSERTSTRUCT, LPTVINSERTSTRUCT structure pointer [Windows Controls], TVINSERTSTRUCT, TVINSERTSTRUCT structure [Windows Controls], TVINSERTSTRUCTA, TVINSERTSTRUCTW, TVI_FIRST, TVI_LAST, TVI_ROOT, TVI_SORT, _win32_TVINSERTSTRUCT, _win32_TVINSERTSTRUCT_cpp, commctrl/LPTVINSERTSTRUCT, commctrl/TVINSERTSTRUCT, commctrl/TVINSERTSTRUCTA, commctrl/TVINSERTSTRUCTW, controls.TVINSERTSTRUCT, controls._win32_TVINSERTSTRUCT'
-f1_keywords:
-- commctrl/TVINSERTSTRUCT
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TVINSERTSTRUCT
-- TVINSERTSTRUCTA
-- TVINSERTSTRUCTW
 targetos: Windows
 req.typenames: TVINSERTSTRUCTA, *LPTVINSERTSTRUCTA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTVINSERTSTRUCTA
+ - commctrl/tagTVINSERTSTRUCTA
+ - LPTVINSERTSTRUCTA
+ - commctrl/LPTVINSERTSTRUCTA
+ - TVINSERTSTRUCTA
+ - commctrl/TVINSERTSTRUCTA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TVINSERTSTRUCT
+ - TVINSERTSTRUCTA
+ - TVINSERTSTRUCTW
 ---
 
 # TVINSERTSTRUCTA structure
@@ -50,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used to add a new item to a tree-view control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-insertitem">TVM_INSERTITEM</a> message. The structure is identical to the <b>TV_INSERTSTRUCT</b> structure, but it has been renamed to follow current naming conventions. 
-
+Contains information used to add a new item to a tree-view control. This structure is used with the <a href="/windows/desktop/Controls/tvm-insertitem">TVM_INSERTITEM</a> message. The structure is identical to the <b>TV_INSERTSTRUCT</b> structure, but it has been renamed to follow current naming conventions.
 
 ## -struct-fields
-
-
-
 
 ### -field hParent
 
 Type: <b>HTREEITEM</b>
 
-Handle to the parent item. If this member is the TVI_ROOT value or <b>NULL</b>, the item is inserted at the root of the tree-view control. 
-
+Handle to the parent item. If this member is the TVI_ROOT value or <b>NULL</b>, the item is inserted at the root of the tree-view control.
 
 ### -field hInsertAfter
 
@@ -118,31 +118,24 @@ Inserts the item into the list in alphabetical order.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
 
-
 ### -field DUMMYUNIONNAME.itemex
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a></b>
+<b>Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a></b>
 </b>
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 4.71</a>. <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure that contains information about the item to add. 
-
+<a href="/windows/desktop/Controls/common-control-versions">Version 4.71</a>. <a href="/windows/desktop/api/commctrl/ns-commctrl-tvitemexa">TVITEMEX</a> structure that contains information about the item to add.
 
 ### -field DUMMYUNIONNAME.item
 
-<b>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
+<b>Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a></b>
 </b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the item to add. 
-
+<a href="/windows/desktop/api/commctrl/ns-commctrl-tvitema">TVITEM</a> structure that contains information about the item to add.
 
 ## -remarks
-
-
 
 The unions in this structure have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the commctrl.h header file.
 
@@ -150,3 +143,6 @@ The unions in this structure have been updated to work with compilers that do no
 <div> </div>
 
 
+
+> [!NOTE]
+> The commctrl.h header defines TVINSERTSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

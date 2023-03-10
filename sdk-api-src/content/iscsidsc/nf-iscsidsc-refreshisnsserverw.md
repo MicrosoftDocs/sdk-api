@@ -1,16 +1,13 @@
 ---
 UID: NF:iscsidsc.RefreshISNSServerW
 title: RefreshISNSServerW function (iscsidsc.h)
-description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service.
+description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service. (Unicode)
+helpviewer_keywords: ["RefreshISNSServerW", "RefreshIsnsServer", "RefreshIsnsServer function [iSCSI Discovery Library API]", "RefreshIsnsServerW", "iscsidisc.refreshisnsserver", "iscsidsc/RefreshIsnsServer", "iscsidsc/RefreshIsnsServerW"]
 old-location: iscsidisc\refreshisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: c954126a-6bad-49cf-889e-81746fe175a4
 ms.date: 12/05/2018
 ms.keywords: RefreshISNSServerW, RefreshIsnsServer, RefreshIsnsServer function [iSCSI Discovery Library API], RefreshIsnsServerA, RefreshIsnsServerW, iscsidisc.refreshisnsserver, iscsidsc/RefreshIsnsServer, iscsidsc/RefreshIsnsServerA, iscsidsc/RefreshIsnsServerW
-f1_keywords:
-- iscsidsc/RefreshIsnsServer
-dev_langs:
-- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iscsidsc.dll
-api_name:
-- RefreshIsnsServer
-- RefreshIsnsServerA
-- RefreshIsnsServerW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RefreshISNSServerW
+ - iscsidsc/RefreshISNSServerW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iscsidsc.dll
+api_name:
+ - RefreshIsnsServer
+ - RefreshIsnsServerA
+ - RefreshIsnsServerW
 ---
 
 # RefreshISNSServerW function
@@ -50,34 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>RefreshIsnsServer</b> function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service.
 
-
-
 ## -parameters
-
-
-
 
 ### -param Address [in]
 
 The DNS or IP Address of the iSNS server.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appropriate Win32 or iSCSI error code.
 
-
-
-
-
 ## -remarks
-
-
 
 If the refresh succeeds, the iSCSI initiator service replaces the previous list of targets discovered by the indicated iSNS server with the updated list.
 
@@ -87,21 +74,18 @@ If the iSNS server supports State Change Notifications (SCN), the iSCSI initiato
 
 
 
+
+> [!NOTE]
+> The iscsidsc.h header defines RefreshISNSServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addisnsservera">AddIsnsServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-addisnsservera">AddIsnsServer</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeisnsservera">RemoveIsnsServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeisnsservera">RemoveIsnsServer</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportisnsserverlista">ReportIsnsServerList</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportisnsserverlista">ReportIsnsServerList</a>

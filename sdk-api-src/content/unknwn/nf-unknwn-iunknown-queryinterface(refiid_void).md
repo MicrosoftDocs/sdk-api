@@ -2,15 +2,12 @@
 UID: NF:unknwn.IUnknown.QueryInterface(REFIID,void)
 title: IUnknown::QueryInterface(REFIID,void)
 description: Retrieves pointers to the supported interfaces on an object.
+helpviewer_keywords: ["IUnknown interface [COM]","QueryInterface method","IUnknown.QueryInterface","IUnknown.QueryInterface(REFIID","void)","IUnknown::QueryInterface","IUnknown::QueryInterface(REFIID","void)","QueryInterface","QueryInterface method [COM]","QueryInterface method [COM]","IUnknown interface","_com_iunknown_queryinterface","com.iunknown_queryinterface","unknwn/IUnknown::QueryInterface"]
 old-location: com\iunknown_queryinterface.htm
 tech.root: com
 ms.assetid: 54d5ff80-18db-43f2-b636-f93ac053146d
 ms.date: 05/31/2019
 ms.keywords: IUnknown interface [COM],QueryInterface method, IUnknown.QueryInterface, IUnknown.QueryInterface(REFIID,void), IUnknown::QueryInterface, IUnknown::QueryInterface(REFIID,void), QueryInterface, QueryInterface method [COM], QueryInterface method [COM],IUnknown interface, _com_iunknown_queryinterface, com.iunknown_queryinterface, unknwn/IUnknown::QueryInterface
-f1_keywords:
-- unknwn/IUnknown.QueryInterface
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Unknwn.h
-api_name:
-- IUnknown.QueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUnknown::QueryInterface
+ - unknwn/IUnknown::QueryInterface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Unknwn.h
+api_name:
+ - IUnknown.QueryInterface
 ---
 
 ## -description
@@ -59,7 +61,7 @@ A reference to the interface identifier (IID) of the interface being queried for
 
 Type: **[void](/windows/desktop/winprog/windows-data-types)\*\***
 
-The address of a pointer to an interface with the IID specified in the *riid* parameter. Because you pass the address of an interface pointer, the method can overwrite that address with the pointer to the inteface being queried for. Upon successful return, *\*ppvObject* (the dereferenced address) contains a pointer to the requested interface. If the object doesn't support the interface, the method sets *\*ppvObject* (the dereferenced address) to `nullptr`.
+The address of a pointer to an interface with the IID specified in the *riid* parameter. Because you pass the address of an interface pointer, the method can overwrite that address with the pointer to the interface being queried for. Upon successful return, *\*ppvObject* (the dereferenced address) contains a pointer to the requested interface. If the object doesn't support the interface, the method sets *\*ppvObject* (the dereferenced address) to `nullptr`.
 
 ## -returns
 
@@ -83,3 +85,4 @@ Implementations of **QueryInterface** must never check ACLs. The main reason for
 ## -see-also
 
 * [IUnknown interface](/windows/desktop/api/unknwn/nn-unknwn-iunknown)
+

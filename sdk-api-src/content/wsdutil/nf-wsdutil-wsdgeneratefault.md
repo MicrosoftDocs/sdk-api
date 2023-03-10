@@ -1,16 +1,13 @@
 ---
 UID: NF:wsdutil.WSDGenerateFault
 title: WSDGenerateFault function (wsdutil.h)
-description: Generates a SOAP fault.
+description: Generates a SOAP fault. (WSDGenerateFault)
+helpviewer_keywords: ["DataEncodingUnknown","MustUnderstand","Receiver","Sender","VersionMismatch","WSDGenerateFault","WSDGenerateFault function","ncd.wsdgeneratefault","wsdutil/WSDGenerateFault"]
 old-location: ncd\wsdgeneratefault.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: eebecf71-2572-4e20-ad40-b1a2f811bedf
 ms.date: 12/05/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFault, WSDGenerateFault function, ncd.wsdgeneratefault, wsdutil/WSDGenerateFault
-f1_keywords:
-- wsdutil/WSDGenerateFault
-dev_langs:
-- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wsdapi.dll
-api_name:
-- WSDGenerateFault
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WSDGenerateFault
+ - wsdutil/WSDGenerateFault
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wsdapi.dll
+api_name:
+ - WSDGenerateFault
 ---
 
 # WSDGenerateFault function
@@ -48,21 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a SOAP fault.
 
-
 ## -parameters
-
-
-
 
 ### -param pszCode [in]
 
 A SOAP fault code.
 
 
-The list of possible fault codes follows. For a description of each fault code, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=69438">SOAP Version 1.2 specification</a>.
+The list of possible fault codes follows. For a description of each fault code, see the <a href="https://www.w3.org/TR/2003/REC-soap12-part1-20030624/#faultcodes">SOAP Version 1.2 specification</a>.
 
 
 
@@ -101,35 +98,27 @@ The list of possible fault codes follows. For a description of each fault code, 
 
 #### Receiver
 
-
 ### -param pszSubCode [in]
 
 A fault subcode.
-
 
 ### -param pszReason [in]
 
 A human readable explanation of the fault.
 
-
 ### -param pszDetail [in]
 
 Contains application-specific error information pertaining to the fault.
 
-
 ### -param pContext [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that represents the context in which to generate the fault.
-
+An <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that represents the context in which to generate the fault.
 
 ### -param ppFault [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that contains the generated fault.  When the calling application is done with this data, <i>ppFault</i> must be freed with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
-
+A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a> structure that contains the generated fault.  When the calling application is done with this data, <i>ppFault</i> must be freed with a call to <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a>.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -172,14 +161,8 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 SOAP faults provide a way to communicate error information on failed SOAP messages. Different Web Services protocols extend faults to provide contextual error information, and in some cases, like in WS-Eventing, faults are an expected part of specific message patterns as the client determines whether or not the device supports specific features.
 
@@ -190,7 +173,3 @@ The following fault subcodes are not implemented by WSDAPI:<ul>
 <li>InvalidMessage</li>
 <li>FilteringNotSupported</li>
 </ul>
-
-
-
-

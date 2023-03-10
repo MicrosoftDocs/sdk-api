@@ -2,15 +2,12 @@
 UID: NF:strmif.IOverlay.Advise
 title: IOverlay::Advise (strmif.h)
 description: The Advise method sets up an advise link for the overlay events specified by the dwInterests parameter.
+helpviewer_keywords: ["Advise","Advise method [DirectShow]","Advise method [DirectShow]","IOverlay interface","IOverlay interface [DirectShow]","Advise method","IOverlay.Advise","IOverlay::Advise","IOverlayAdvise","dshow.ioverlay_advise","strmif/IOverlay::Advise"]
 old-location: dshow\ioverlay_advise.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 02db2233-b185-47a9-9655-409991a74d4e
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],Advise method, IOverlay.Advise, IOverlay::Advise, IOverlayAdvise, dshow.ioverlay_advise, strmif/IOverlay::Advise
-f1_keywords:
-- strmif/IOverlay.Advise
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IOverlay.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOverlay::Advise
+ - strmif/IOverlay::Advise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IOverlay.Advise
 ---
 
 # IOverlay::Advise
@@ -49,22 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Advise</code> method sets up an advise link for the overlay events specified by the <i>dwInterests</i> parameter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pOverlayNotify [in]
 
 Pointer to the notification interface.
-
 
 ### -param dwInterests [in]
 
@@ -99,47 +92,28 @@ Callbacks of interest, which can be any subset of the following events.
 </tr>
 <tr>
 <td>ADVISE_DISPLAY_CHANGE</td>
-<td>Called on <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>. The <b>WM_DISPLAYCHANGE</b> message is sent to all windows when the display resolution has changed.</td>
+<td>Called on <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>. The <b>WM_DISPLAYCHANGE</b> message is sent to all windows when the display resolution has changed.</td>
 </tr>
 <tr>
 <td>ADVISE_ALL2</td>
 <td>All of the above.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> error code.
-
-
-
 
 ## -remarks
 
+This method sets up an advise link for the <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify</a> interface to receive notifications. If one of these events occurs, the appropriate entry point in the <i>pOverlayNotify</i> parameter passed in is called (<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipchange">IOverlayNotify::OnClipChange</a>, <a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">IOverlayNotify::OnColorKeyChange</a>, <a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpalettechange">IOverlayNotify::OnPaletteChange</a>, or <a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpositionchange">IOverlayNotify::OnPositionChange</a>).
 
-
-This method sets up an advise link for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify</a> interface to receive notifications. If one of these events occurs, the appropriate entry point in the <i>pOverlayNotify</i> parameter passed in is called (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipchange">IOverlayNotify::OnClipChange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">IOverlayNotify::OnColorKeyChange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpalettechange">IOverlayNotify::OnPaletteChange</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpositionchange">IOverlayNotify::OnPositionChange</a>).
-
-Only one advise link can be set on any given <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> interface. Trying to set another notification interface on second and subsequent calls returns VFW_E_ADVISE_ALREADY_SET. You can cancel an advise link by using <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-unadvise">IOverlay::Unadvise</a>.
-
-
-
+Only one advise link can be set on any given <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> interface. Trying to set another notification interface on second and subsequent calls returns VFW_E_ADVISE_ALREADY_SET. You can cancel an advise link by using <a href="/windows/desktop/api/strmif/nf-strmif-ioverlay-unadvise">IOverlay::Unadvise</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>

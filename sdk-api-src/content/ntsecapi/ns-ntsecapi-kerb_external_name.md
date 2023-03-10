@@ -2,15 +2,12 @@
 UID: NS:ntsecapi._KERB_EXTERNAL_NAME
 title: KERB_EXTERNAL_NAME (ntsecapi.h)
 description: Contains information about an external name.
+helpviewer_keywords: ["*PKERB_EXTERNAL_NAME","KERB_EXTERNAL_NAME","KERB_EXTERNAL_NAME structure [Security]","KRB_NT_ENTERPRISE_PRINCIPAL","KRB_NT_ENT_PRINCIPAL_AND_ID","KRB_NT_MS_PRINCIPAL_AND_ID","KRB_NT_MS_PRINICPAL","KRB_NT_PRINCIPAL","KRB_NT_SRV_HST","KRB_NT_SRV_INST","KRB_NT_SRV_XHST","KRB_NT_UID","KRB_NT_UNKNOWN","PKERB_EXTERNAL_NAME","PKERB_EXTERNAL_NAME structure pointer [Security]","_lsa_kerb_external_name","ntsecapi/KERB_EXTERNAL_NAME","ntsecapi/PKERB_EXTERNAL_NAME","security.kerb_external_name"]
 old-location: security\kerb_external_name.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 8ed37546-6443-4010-a078-4359dd1c2861
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME, KERB_EXTERNAL_NAME structure [Security], KRB_NT_ENTERPRISE_PRINCIPAL, KRB_NT_ENT_PRINCIPAL_AND_ID, KRB_NT_MS_PRINCIPAL_AND_ID, KRB_NT_MS_PRINICPAL, KRB_NT_PRINCIPAL, KRB_NT_SRV_HST, KRB_NT_SRV_INST, KRB_NT_SRV_XHST, KRB_NT_UID, KRB_NT_UNKNOWN, PKERB_EXTERNAL_NAME, PKERB_EXTERNAL_NAME structure pointer [Security], _lsa_kerb_external_name, ntsecapi/KERB_EXTERNAL_NAME, ntsecapi/PKERB_EXTERNAL_NAME, security.kerb_external_name'
-f1_keywords:
-- ntsecapi/KERB_EXTERNAL_NAME
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ntsecapi.h
-api_name:
-- KERB_EXTERNAL_NAME
 targetos: Windows
 req.typenames: KERB_EXTERNAL_NAME, *PKERB_EXTERNAL_NAME
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _KERB_EXTERNAL_NAME
+ - ntsecapi/_KERB_EXTERNAL_NAME
+ - PKERB_EXTERNAL_NAME
+ - ntsecapi/PKERB_EXTERNAL_NAME
+ - KERB_EXTERNAL_NAME
+ - ntsecapi/KERB_EXTERNAL_NAME
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ntsecapi.h
+api_name:
+ - KERB_EXTERNAL_NAME
 ---
 
 # KERB_EXTERNAL_NAME structure
@@ -48,17 +54,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>KERB_EXTERNAL_NAME</b> structure contains information about an external name.
 
 An external name is one used by external users. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_ticket">KERB_EXTERNAL_TICKET</a> structure.
-
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_ticket">KERB_EXTERNAL_TICKET</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field NameType
 
@@ -135,7 +136,7 @@ Unique ID.
 </dl>
 </td>
 <td width="60%">
-User principal name (UPN) or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN).
+User principal name (UPN) or <a href="/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN).
 
 </td>
 </tr>
@@ -145,7 +146,7 @@ User principal name (UPN) or <a href="https://docs.microsoft.com/windows/desktop
 </dl>
 </td>
 <td width="60%">
-UPN and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+UPN and <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 </td>
 </tr>
@@ -170,16 +171,12 @@ Windows NT 4.0–style name with SID.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field NameCount
 
 Indicates the number of names stored in <b>Names</b>.
 
-
 ### -field Names
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRINGS</a> containing the names.
-
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRINGS</a> containing the names.

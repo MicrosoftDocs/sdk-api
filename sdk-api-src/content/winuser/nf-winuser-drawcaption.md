@@ -2,15 +2,12 @@
 UID: NF:winuser.DrawCaption
 title: DrawCaption function (winuser.h)
 description: The DrawCaption function draws a window caption.
+helpviewer_keywords: ["DC_ACTIVE","DC_BUTTONS","DC_GRADIENT","DC_ICON","DC_INBUTTON","DC_SMALLCAP","DC_TEXT","DrawCaption","DrawCaption function [Windows GDI]","_win32_DrawCaption","gdi.drawcaption","winuser/DrawCaption"]
 old-location: gdi\drawcaption.htm
 tech.root: gdi
 ms.assetid: 9348e29f-ce56-4664-8862-f5810c797622
 ms.date: 12/05/2018
 ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLCAP, DC_TEXT, DrawCaption, DrawCaption function [Windows GDI], _win32_DrawCaption, gdi.drawcaption, winuser/DrawCaption
-f1_keywords:
-- winuser/DrawCaption
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-api_name:
-- DrawCaption
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrawCaption
+ - winuser/DrawCaption
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+api_name:
+ - DrawCaption
 ---
 
 # DrawCaption function
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrawCaption</b> function draws a window caption.
 
-
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 A handle to a window that supplies text and an icon for the window caption.
 
-
 ### -param hdc [in]
 
 A handle to a device context. The function draws the window caption into this device context.
 
-
 ### -param lprect [in]
 
 A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that specifies the bounding rectangle for the window caption in logical coordinates.
-
 
 ### -param flags [in]
 
@@ -158,33 +152,20 @@ The function draws the caption text when drawing the caption.
 
 If DC_SMALLCAP is specified, the function draws a normal window caption.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
- 
-
- 
-

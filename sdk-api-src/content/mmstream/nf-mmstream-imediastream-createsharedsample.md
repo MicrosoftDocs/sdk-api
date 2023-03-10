@@ -2,15 +2,12 @@
 UID: NF:mmstream.IMediaStream.CreateSharedSample
 title: IMediaStream::CreateSharedSample (mmstream.h)
 description: Note  This interface is deprecated. New applications should not use it. Creates a new stream sample that shares the same backing object as the existing sample.
+helpviewer_keywords: ["CreateSharedSample","CreateSharedSample method [DirectShow]","CreateSharedSample method [DirectShow]","IMediaStream interface","IMediaStream interface [DirectShow]","CreateSharedSample method","IMediaStream.CreateSharedSample","IMediaStream::CreateSharedSample","IMediaStreamCreateSharedSample","dshow.imediastream_createsharedsample","mmstream/IMediaStream::CreateSharedSample"]
 old-location: dshow\imediastream_createsharedsample.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: acefa476-e607-45b4-854d-840e948af029
 ms.date: 12/05/2018
 ms.keywords: CreateSharedSample, CreateSharedSample method [DirectShow], CreateSharedSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],CreateSharedSample method, IMediaStream.CreateSharedSample, IMediaStream::CreateSharedSample, IMediaStreamCreateSharedSample, dshow.imediastream_createsharedsample, mmstream/IMediaStream::CreateSharedSample
-f1_keywords:
-- mmstream/IMediaStream.CreateSharedSample
-dev_langs:
-- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mmstream.h
-api_name:
-- IMediaStream.CreateSharedSample
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaStream::CreateSharedSample
+ - mmstream/IMediaStream::CreateSharedSample
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mmstream.h
+api_name:
+ - IMediaStream.CreateSharedSample
 ---
 
 # IMediaStream::CreateSharedSample
@@ -48,38 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 Creates a new stream sample that shares the same backing object as the existing sample.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pExistingSample [in]
 
 Pointer to the existing sample.
 
-
 ### -param dwFlags [in]
 
 Reserved for flag data. Must be zero.
 
-
 ### -param ppNewSample [out]
 
-Address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a> interface that will point to the newly created shared sample.
-
+Address of a pointer to an <a href="/windows/desktop/api/mmstream/nn-mmstream-istreamsample">IStreamSample</a> interface that will point to the newly created shared sample.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -133,27 +122,11 @@ Success; <i>ppNewSample</i> points to the newly created sample.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method calls <b>IUnknown::QueryInterface</b> on the existing sample to retrieve the media type-specific information, which it uses to create the shared sample.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>

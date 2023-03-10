@@ -2,15 +2,12 @@
 UID: NF:cryptxml.CryptXmlOpenToDecode
 title: CryptXmlOpenToDecode function (cryptxml.h)
 description: Opens an XML digital signature to decode and returns the handle of the document context that encapsulates a CRYPT_XML_SIGNATURE structure. The document context can include one or more Signature elements.
+helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CRYPT_XML_FLAG_NO_SERIALIZE","CryptXmlOpenToDecode","CryptXmlOpenToDecode function [Security]","cryptxml/CryptXmlOpenToDecode","security.cryptxmlopentodecode"]
 old-location: security\cryptxmlopentodecode.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: b6a77d62-b92d-4b83-949f-14a0ce3ce025
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToDecode, CryptXmlOpenToDecode function [Security], cryptxml/CryptXmlOpenToDecode, security.cryptxmlopentodecode
-f1_keywords:
-- cryptxml/CryptXmlOpenToDecode
-dev_langs:
-- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cryptxml.lib
 req.dll: Cryptxml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cryptxml.dll
-api_name:
-- CryptXmlOpenToDecode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptXmlOpenToDecode
+ - cryptxml/CryptXmlOpenToDecode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cryptxml.dll
+api_name:
+ - CryptXmlOpenToDecode
 ---
 
 # CryptXmlOpenToDecode function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CryptXmlOpenToDecode</b> function opens an XML digital signature to decode 
- and returns the handle of the document context that encapsulates a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure. 
+ and returns the handle of the document context that encapsulates a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure. 
  The document context can include one or more <b>Signature</b> elements.
 
-
 ## -parameters
-
-
-
 
 ### -param pConfig [in, optional]
 
 The handle of the transform chain engine. 
     If this parameter is <b>NULL</b>, then a default engine will be 
     used to apply transforms.
-
 
 ### -param dwFlags
 
@@ -104,36 +100,25 @@ Only default implementations for the signature and digest are used. When this fl
 </td>
 </tr>
 </table>
- 
-
 
 ### -param rgProperty [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
-
+A pointer to an array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
 
 ### -param cProperty
 
 The number of items in the array pointed to by the <i>rgProperty</i> parameter.
 
-
 ### -param pEncoded [in]
 
-A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the signature to decode.
-
+A pointer to <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the signature to decode.
 
 ### -param phCryptXml
 
-The handle of a Document Context object.  When you have finished using the handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlclose">CryptXmlClose</a> function.
-
+The handle of a Document Context object.  When you have finished using the handle, release it by passing it to the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlclose">CryptXmlClose</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-
-
-

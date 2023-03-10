@@ -2,15 +2,12 @@
 UID: NF:winuser.GetIconInfo
 title: GetIconInfo function (winuser.h)
 description: Retrieves information about the specified icon or cursor.
+helpviewer_keywords: ["GetIconInfo","GetIconInfo function [Menus and Other Resources]","IDC_APPSTARTING","IDC_ARROW","IDC_CROSS","IDC_HAND","IDC_HELP","IDC_IBEAM","IDC_NO","IDC_SIZEALL","IDC_SIZENESW","IDC_SIZENS","IDC_SIZENWSE","IDC_SIZEWE","IDC_UPARROW","IDC_WAIT","IDI_APPLICATION","IDI_ASTERISK","IDI_EXCLAMATION","IDI_HAND","IDI_QUESTION","IDI_WINLOGO","_win32_GetIconInfo","_win32_geticoninfo_cpp","menurc.geticoninfo","winui._win32_geticoninfo","winuser/GetIconInfo"]
 old-location: menurc\geticoninfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\geticoninfo.htm
 ms.date: 12/05/2018
 ms.keywords: GetIconInfo, GetIconInfo function [Menus and Other Resources], IDC_APPSTARTING, IDC_ARROW, IDC_CROSS, IDC_HAND, IDC_HELP, IDC_IBEAM, IDC_NO, IDC_SIZEALL, IDC_SIZENESW, IDC_SIZENS, IDC_SIZENWSE, IDC_SIZEWE, IDC_UPARROW, IDC_WAIT, IDI_APPLICATION, IDI_ASTERISK, IDI_EXCLAMATION, IDI_HAND, IDI_QUESTION, IDI_WINLOGO, _win32_GetIconInfo, _win32_geticoninfo_cpp, menurc.geticoninfo, winui._win32_geticoninfo, winuser/GetIconInfo
-f1_keywords:
-- winuser/GetIconInfo
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
-- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
-- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
-- api-ms-win-ntuser-ie-gui-l1-1-0.dll
-- ie_stubs.dll
-- ext-ms-win-ntuser-gui-l1-2-1.dll
-- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
-api_name:
-- GetIconInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetIconInfo
+ - winuser/GetIconInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+ - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+ - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+ - api-ms-win-ntuser-ie-gui-l1-1-0.dll
+ - ie_stubs.dll
+ - ext-ms-win-ntuser-gui-l1-2-1.dll
+ - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+api_name:
+ - GetIconInfo
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetIconInfo function
@@ -55,14 +58,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves information about the specified icon or cursor. 
-
+Retrieves information about the specified icon or cursor.
 
 ## -parameters
-
-
-
 
 ### -param hIcon [in]
 
@@ -298,92 +296,56 @@ Question-mark icon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param piconinfo [out]
 
 Type: <b>PICONINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure. The function fills in the structure's members. 
-
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure. The function fills in the structure's members.
 
 ## -returns
 
-
-
 Type: <b>BOOL</b>
 
-If the function succeeds, the return value is nonzero and the function fills in the members of the specified <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure.
+If the function succeeds, the return value is nonzero and the function fills in the members of the specified <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-<b>GetIconInfo</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmCol</b>or members of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
+<b>GetIconInfo</b> creates bitmaps for the <b>hbmMask</b> and <b>hbmColor</b> or members of <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. The calling application must manage these bitmaps and delete them when they are no longer necessary.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The output returned is not affected by the DPI of the calling thread.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
+<a href="/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
 
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
+<a href="/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconfromresource">CreateIconFromResource</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
 
+<a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
 
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
 
+<a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>
 
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectory">LookupIconIdFromDirectory</a>
-
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
 
 <b>Reference</b>
- 
-
- 
-

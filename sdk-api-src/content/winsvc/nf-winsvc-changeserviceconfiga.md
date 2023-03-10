@@ -1,16 +1,12 @@
 ---
 UID: NF:winsvc.ChangeServiceConfigA
 title: ChangeServiceConfigA function (winsvc.h)
-description: Changes the configuration parameters of a service.
+description: Changes the configuration parameters of a service. (ANSI)
 old-location: base\changeserviceconfig.htm
 tech.root: Services
 ms.assetid: add8a99b-aced-4341-9790-86efac76df6b
 ms.date: 12/05/2018
 ms.keywords: ChangeServiceConfig, ChangeServiceConfig function, ChangeServiceConfigA, ChangeServiceConfigW, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_SYSTEM_START, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_changeserviceconfig, base.changeserviceconfig, winsvc/ChangeServiceConfig, winsvc/ChangeServiceConfigA, winsvc/ChangeServiceConfigW
-f1_keywords:
-- winsvc/ChangeServiceConfig
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +24,29 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
-- sechost.dll
-- API-MS-Win-Service-management-l2-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-1-0.dll
-- API-MS-Win-Service-Winsvc-l1-2-0.dll
-api_name:
-- ChangeServiceConfig
-- ChangeServiceConfigA
-- ChangeServiceConfigW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChangeServiceConfigA
+ - winsvc/ChangeServiceConfigA
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+ - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+ - sechost.dll
+ - API-MS-Win-Service-management-l2-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-1-0.dll
+ - API-MS-Win-Service-Winsvc-l1-2-0.dll
+api_name:
+ - ChangeServiceConfig
+ - ChangeServiceConfigA
+ - ChangeServiceConfigW
 ---
 
 # ChangeServiceConfigA function
@@ -55,25 +54,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Changes the configuration parameters of a service.
 
 To change the optional configuration parameters, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> function.
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function and must have the <b>SERVICE_CHANGE_CONFIG</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function and must have the <b>SERVICE_CHANGE_CONFIG</b> access right. For more information, see 
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 ### -param dwServiceType [in]
 
@@ -132,7 +125,7 @@ Service that shares a process with other services.
  
 
 If you specify either <b>SERVICE_WIN32_OWN_PROCESS</b> or <b>SERVICE_WIN32_SHARE_PROCESS</b>, and the service is running in the context of the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, you can also specify the following type.
+<a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a>, you can also specify the following type.
 
 <table>
 <tr>
@@ -152,13 +145,11 @@ The service can interact with the desktop.
 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>.
+<a href="/windows/desktop/Services/interactive-services">Interactive Services</a>.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwStartType [in]
 
@@ -199,7 +190,7 @@ A device driver started by the system loader. This value is valid only for drive
 </td>
 <td width="60%">
 A service started by the service control manager when a process calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a> function.
 
 </td>
 </tr>
@@ -226,8 +217,6 @@ A device driver started by the <b>IoInitSystem</b> function. This value is valid
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwErrorControl [in]
 
@@ -283,8 +272,6 @@ The startup program logs the error in the event log. If the last-known-good conf
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpBinaryPathName [in, optional]
 
@@ -297,7 +284,6 @@ The path can also include arguments for an auto-start service. For example, "d:\
 
 If you specify a path on another computer, the share must be accessible by the computer account of the local computer because this is the security context used in the remote call. However, this requirement allows any potential vulnerabilities in the remote computer to affect the local computer. Therefore, it is best to use a local file.
 
-
 ### -param lpLoadOrderGroup [in, optional]
 
 The  name of the load ordering group of which this service is a member. Specify NULL if you are not changing the existing group. Specify an empty string if the service does not belong to a group. 
@@ -308,7 +294,6 @@ The  name of the load ordering group of which this service is a member. Specify 
 The startup program uses load ordering groups to load groups of services in a specified order with respect to the other groups. The list of load ordering groups is contained in the <b>ServiceGroupOrder</b> value of the following registry key:
 
 <b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control</b>
-
 
 ### -param lpdwTagId [out, optional]
 
@@ -323,7 +308,6 @@ You can use a tag for ordering service startup within a load ordering group by s
 
 Tags are only evaluated for driver services that have <b>SERVICE_BOOT_START</b> or <b>SERVICE_SYSTEM_START</b> start types.
 
-
 ### -param lpDependencies [in, optional]
 
 A pointer to a double null-terminated array of null-separated names of services or load ordering groups that the system must start before this service can be started. (Dependency on a group means that this service can run if at least one member of the group is running after an attempt to start all members of the group.) Specify NULL if you are not changing the existing dependencies. Specify an empty string if the service has no dependencies. 
@@ -333,11 +317,10 @@ A pointer to a double null-terminated array of null-separated names of services 
 
 You must prefix group names with SC_GROUP_IDENTIFIER so that they can be distinguished from a service name, because services and service groups share the same name space.
 
-
 ### -param lpServiceStartName [in, optional]
 
-The name of the account under which the service should run. Specify <b>NULL</b> if you are not changing the existing account name. If the service type is <b>SERVICE_WIN32_OWN_PROCESS</b>, use an account name in the form <i>DomainName</i>\<i>UserName</i>. The service process will be logged on as this user. If the account belongs to the built-in domain, you can specify .\<i>UserName</i> (note that the corresponding C/C++ string is ".\\<i>UserName</i>"). For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-user-accounts">Service User Accounts</a> and the warning in the Remarks section. 
+The name of the account under which the service should run. Specify <b>NULL</b> if you are not changing the existing account name. If the service type is <b>SERVICE_WIN32_OWN_PROCESS</b>, use an account name in the form <i>DomainName</i>&#92;<i>UserName</i>. The service process will be logged on as this user. If the account belongs to the built-in domain, you can specify .&#92;<i>UserName</i> (note that the corresponding C/C++ string is ".&#92;&#92;<i>UserName</i>"). For more information, see 
+<a href="/windows/desktop/Services/service-user-accounts">Service User Accounts</a> and the warning in the Remarks section. 
 
 
 
@@ -347,15 +330,14 @@ A shared process can run as any user.
 
 If the service type is <b>SERVICE_KERNEL_DRIVER</b> or <b>SERVICE_FILE_SYSTEM_DRIVER</b>, the name is the driver object name that the system uses to load the device driver. Specify <b>NULL</b> if the driver is to use a default object name created by the I/O system.
 
-A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as NT SERVICE\<i>ServiceName</i>. For more information about managed service accounts and virtual accounts, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>.
+A service can be configured to use a managed account or a virtual  account. If the service is configured to use a managed service account, the name is the managed service account name. If the service is configured to use a virtual  account, specify the name as NT SERVICE&#92;<i>ServiceName</i>. For more information about managed service accounts and virtual accounts, see the <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd548356(v=ws.10)">Service Accounts Step-by-Step Guide</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>Managed service accounts and virtual accounts are not supported until Windows 7 and Windows Server 2008 R2.
-
 
 ### -param lpPassword [in, optional]
 
 The password to the account name specified by the <i>lpServiceStartName</i> parameter. Specify <b>NULL</b> if you are not changing the existing password. Specify an empty string if the account has no password or if the service runs in the LocalService, NetworkService, or LocalSystem account. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-record-list">Service Record List</a>. 
+<a href="/windows/desktop/Services/service-record-list">Service Record List</a>. 
 
 
 
@@ -363,7 +345,6 @@ The password to the account name specified by the <i>lpServiceStartName</i> para
 If the account name specified by the  <i>lpServiceStartName</i> parameter is the name of  a managed service account or virtual account name, the <i>lpPassword</i> parameter must be <b>NULL</b>. 
 
 Passwords are ignored for driver services.
-
 
 ### -param lpDisplayName [in, optional]
 
@@ -373,19 +354,16 @@ This parameter can specify a localized string using the following format:
 
 @[<i>path</i>\]<i>dllname</i>,-<i>strID</i>
 
-The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
+The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Localized strings are not supported until Windows Vista.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes may be set by the service control manager. Other error codes may be set by the registry functions that are called by the service control manager.
 
@@ -472,20 +450,14 @@ The service has been marked for deletion.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The 
 <b>ChangeServiceConfig</b> function changes the configuration information for the specified service in the service control manager database. You can obtain the current configuration information by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a> function.
 
-If the configuration is changed for a service that is running, with the exception of <i>lpDisplayName</i>, the changes do not take effect until the service is stopped. To update the credentials without having to restart the service, use the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+If the configuration is changed for a service that is running, with the exception of <i>lpDisplayName</i>, the changes do not take effect until the service is stopped. To update the credentials without having to restart the service, use the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 Setting the <i>lpServiceStartName</i> parameter changes the logon account of the service. This can cause problems. If you have registered a service principal name (SPN), it would now be registered on the wrong account. Similarly, if you have used an ACE to grant access to a service, it would now grant access to the wrong account.
@@ -494,55 +466,46 @@ Setting the <i>lpServiceStartName</i> parameter changes the logon account of the
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/changing-a-service-configuration">Changing a Service's Configuration</a>.
+<a href="/windows/desktop/Services/changing-a-service-configuration">Changing a Service's Configuration</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicedynamicinformation">QueryServiceDynamicInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicedynamicinformation">QueryServiceDynamicInformation</a>
+<a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd548356(v=ws.10)">Service Accounts Step-by-Step Guide</a>
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=147314">Service Accounts Step-by-Step Guide</a>
+<a href="/windows/desktop/Services/service-configuration">Service Configuration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-configuration">Service Configuration</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>

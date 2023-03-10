@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListNameW
 title: IDvbLogicalChannel2Descriptor::GetListNameW (dvbsiparser.h)
 description: Gets the name of a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
+helpviewer_keywords: ["GetListNameW","GetListNameW method [Microsoft TV Technologies]","GetListNameW method [Microsoft TV Technologies]","IDvbLogicalChannel2Descriptor interface","IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies]","GetListNameW method","IDvbLogicalChannel2Descriptor.GetListNameW","IDvbLogicalChannel2Descriptor::GetListNameW","dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW","mstv.idvblogicalchannel2descriptor_getlistnamew"]
 old-location: mstv\idvblogicalchannel2descriptor_getlistnamew.htm
 tech.root: mstv
 ms.assetid: cbfee1d5-8a38-4c9a-ae5e-2d91970c132e
 ms.date: 12/05/2018
 ms.keywords: GetListNameW, GetListNameW method [Microsoft TV Technologies], GetListNameW method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListNameW method, IDvbLogicalChannel2Descriptor.GetListNameW, IDvbLogicalChannel2Descriptor::GetListNameW, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW, mstv.idvblogicalchannel2descriptor_getlistnamew
-f1_keywords:
-- dvbsiparser/IDvbLogicalChannel2Descriptor.GetListNameW
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbLogicalChannel2Descriptor.GetListNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbLogicalChannel2Descriptor::GetListNameW
+ - dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbLogicalChannel2Descriptor.GetListNameW
 ---
 
 # IDvbLogicalChannel2Descriptor::GetListNameW
@@ -48,20 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the name of a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param bListIndex [in]
 
 Specifies the channel list record number,
-  indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a>method to get the number of channel list records in the logical channel descriptor.
-
+  indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a> method to get the number of channel list records in the logical channel descriptor.
 
 ### -param convMode [in]
 
@@ -72,33 +68,18 @@ Specifies the string conversion mode to use. This parameter can have any of the 
 <li><b>STRCONV_MODE_ISDB</b></li>
 </ul>
 
-
-
 ### -param pbstrName [out]
 
 Pointer to the memory block that receives the channel name. The caller is responsible for freeing this memory.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchannel2descriptor">IDvbLogicalChannel2Descriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchannel2descriptor">IDvbLogicalChannel2Descriptor</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchannel2descriptor-getlistcountofrecords">IDvbLogicalChannel2Descriptor::GetListCountOfRecords</a>

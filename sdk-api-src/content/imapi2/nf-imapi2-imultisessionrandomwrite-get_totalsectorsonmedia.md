@@ -2,15 +2,12 @@
 UID: NF:imapi2.IMultisessionRandomWrite.get_TotalSectorsOnMedia
 title: IMultisessionRandomWrite::get_TotalSectorsOnMedia (imapi2.h)
 description: Retrieves the total number of sectors on the media.
+helpviewer_keywords: ["IMultisessionRandomWrite interface [IMAPI]","get_TotalSectorsOnMedia method","IMultisessionRandomWrite.get_TotalSectorsOnMedia","IMultisessionRandomWrite::get_TotalSectorsOnMedia","get_TotalSectorsOnMedia","get_TotalSectorsOnMedia method [IMAPI]","get_TotalSectorsOnMedia method [IMAPI]","IMultisessionRandomWrite interface","imapi.imultisessionrandomwrite_get_totalsectorsonmedia","imapi2/IMultisessionRandomWrite::get_TotalSectorsOnMedia"]
 old-location: imapi\imultisessionrandomwrite_get_totalsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 22afe893-dc8b-42dc-bbb5-78ed245d300b
 ms.date: 12/05/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_TotalSectorsOnMedia method, IMultisessionRandomWrite.get_TotalSectorsOnMedia, IMultisessionRandomWrite::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_totalsectorsonmedia, imapi2/IMultisessionRandomWrite::get_TotalSectorsOnMedia
-f1_keywords:
-- imapi2/IMultisessionRandomWrite.get_TotalSectorsOnMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IMultisessionRandomWrite.get_TotalSectorsOnMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMultisessionRandomWrite::get_TotalSectorsOnMedia
+ - imapi2/IMultisessionRandomWrite::get_TotalSectorsOnMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IMultisessionRandomWrite.get_TotalSectorsOnMedia
 ---
 
 # IMultisessionRandomWrite::get_TotalSectorsOnMedia
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the total number of sectors on the media.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 The total number of sectors on the media.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,18 +354,7 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>

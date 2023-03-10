@@ -1,16 +1,13 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ScaleTransform
 title: IInkStrokes::ScaleTransform (msinkaut.h)
-description: Applies the specified horizontal and vertical factors to the transform or ink.
+description: Applies the specified horizontal and vertical factors to the transform or ink. (IInkStrokes.ScaleTransform)
+helpviewer_keywords: ["IInkStrokes interface [Tablet PC]","ScaleTransform method","IInkStrokes.ScaleTransform","IInkStrokes::ScaleTransform","ScaleTransform","ScaleTransform method [Tablet PC]","ScaleTransform method [Tablet PC]","IInkStrokes interface","a4140abe-adc8-492d-bb8c-96fba5ca3bd0","msinkaut/IInkStrokes::ScaleTransform","tablet.inkstrokes_scaletransform"]
 old-location: tablet\inkstrokes_scaletransform.htm
 tech.root: tablet
 ms.assetid: d7b69554-69e3-4a45-9313-16a3529863e9
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes interface [Tablet PC],ScaleTransform method, IInkStrokes.ScaleTransform, IInkStrokes::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkStrokes interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkStrokes::ScaleTransform, tablet.inkstrokes_scaletransform
-f1_keywords:
-- msinkaut/IInkStrokes.ScaleTransform
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: InkObj.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkObj.dll
-- InkObj.dll.dll
-api_name:
-- IInkStrokes.ScaleTransform
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkStrokes::ScaleTransform
+ - msinkaut/IInkStrokes::ScaleTransform
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkObj.dll
+ - InkObj.dll.dll
+api_name:
+ - IInkStrokes.ScaleTransform
 ---
 
 # IInkStrokes::ScaleTransform
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Applies the specified horizontal and vertical factors to the transform or ink.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param HorizontalMultiplier [in]
 
 The factor to scale the horizontal dimension in the transform.
 
-
 ### -param VerticalMultiplier [in]
 
 The factor to scale the vertical dimension in the transform.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -105,35 +95,19 @@ An exception occurred inside the method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-For the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> classes, this method scales the points in the stroke or strokes relative to the origin. Thus, if the <i>HorizontalMultiplier</i> parameter is 2.0, the stroke or strokes will be twice as wide, and will also be twice as far, horizontally, from the origin. To control the relative position of the strokes, use this method in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move">Move</a> method.
-
-
-
+For the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> and <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> classes, this method scales the points in the stroke or strokes relative to the origin. Thus, if the <i>HorizontalMultiplier</i> parameter is 2.0, the stroke or strokes will be twice as wide, and will also be twice as far, horizontally, from the origin. To control the relative position of the strokes, use this method in conjunction with the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move">Move</a> method.
 
 ## -see-also
 
+<a href="../msinkaut/nn-msinkaut-iinkstrokes.md">IInkStrokes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move">Move Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-move">Move Method</a>

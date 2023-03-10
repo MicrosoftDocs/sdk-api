@@ -2,15 +2,12 @@
 UID: NF:lmaccess.NetGetDCName
 title: NetGetDCName function (lmaccess.h)
 description: The NetGetDCName function returns the name of the primary domain controller (PDC). It does not return the name of the backup domain controller (BDC) for the specified domain. Also, you cannot remote this function to a non-PDC server.
+helpviewer_keywords: ["NetGetDCName","NetGetDCName function [Network Management]","_win32_netgetdcname","lmaccess/NetGetDCName","netmgmt.netgetdcname"]
 old-location: netmgmt\netgetdcname.htm
 tech.root: NetMgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5
 ms.date: 12/05/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
-f1_keywords:
-- lmaccess/NetGetDCName
-dev_langs:
-- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Netapi32.dll
-api_name:
-- NetGetDCName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetGetDCName
+ - lmaccess/NetGetDCName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Netapi32.dll
+api_name:
+ - NetGetDCName
 ---
 
 # NetGetDCName function
@@ -48,43 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>NetGetDCName</b> function returns the name of the primary domain controller (PDC). It does not return the name of the backup domain controller (BDC) for the specified domain. Also, you cannot remote this function to a non-PDC server.
 
 Applications that support DNS-style names should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function. Domain controllers in this type of environment have a multi-master directory replication relationship. Therefore, it may be advantageous for your application to use a DC that is not the PDC. You can call the <b>DsGetDcName</b> function to locate any DC in the domain; 
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a> function. Domain controllers in this type of environment have a multi-master directory replication relationship. Therefore, it may be advantageous for your application to use a DC that is not the PDC. You can call the <b>DsGetDcName</b> function to locate any DC in the domain; 
 <b>NetGetDCName</b> returns only the name of the PDC.
 
-
 ## -parameters
-
-
-
 
 ### -param servername [in]
 
 A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-					
-
 
 ### -param domainname [in]
 
 A pointer to a constant string that specifies the name of the domain. The domain name must be a NetBIOS domain name (for example, microsoft). 
 <b>NetGetDCName</b> does not support DNS-style names (for example, microsoft.com). If this parameter is <b>NULL</b>, the function returns the name of the domain controller for the primary domain.
 
-
 ### -param bufptr [out]
 
 A pointer to an allocated buffer that receives a string that specifies the server name of the PDC of the domain. The server name is returned as Unicode string prefixed by \\. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
-
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is NERR_Success.
 
@@ -140,14 +131,8 @@ The request is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 No special group membership is required to successfully execute the 
 <b>NetGetDCName</b> function.
@@ -265,35 +250,24 @@ int wmain(int argc, wchar_t * argv[])
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
+<a href="/windows/desktop/NetMgmt/get-functions">Get Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/get-functions">Get Functions</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgetanydcname">NetGetAnyDCName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgetanydcname">NetGetAnyDCName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
- 
-
- 
-

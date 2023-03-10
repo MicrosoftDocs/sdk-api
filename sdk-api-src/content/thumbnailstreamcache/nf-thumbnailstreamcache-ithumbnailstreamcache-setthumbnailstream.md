@@ -2,15 +2,12 @@
 UID: NF:thumbnailstreamcache.IThumbnailStreamCache.SetThumbnailStream
 title: IThumbnailStreamCache::SetThumbnailStream (thumbnailstreamcache.h)
 description: Sets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
+helpviewer_keywords: ["IThumbnailStreamCache interface [Windows Shell]","SetThumbnailStream method","IThumbnailStreamCache.SetThumbnailStream","IThumbnailStreamCache::SetThumbnailStream","SetThumbnailStream","SetThumbnailStream method [Windows Shell]","SetThumbnailStream method [Windows Shell]","IThumbnailStreamCache interface","shell.ithumbnailstreamcache_setthumbnailstream","thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream"]
 old-location: shell\ithumbnailstreamcache_setthumbnailstream.htm
 tech.root: shell
 ms.assetid: F2A105BB-9523-49F1-89B6-57CAF35C1AC4
 ms.date: 12/05/2018
 ms.keywords: IThumbnailStreamCache interface [Windows Shell],SetThumbnailStream method, IThumbnailStreamCache.SetThumbnailStream, IThumbnailStreamCache::SetThumbnailStream, SetThumbnailStream, SetThumbnailStream method [Windows Shell], SetThumbnailStream method [Windows Shell],IThumbnailStreamCache interface, shell.ithumbnailstreamcache_setthumbnailstream, thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream
-f1_keywords:
-- thumbnailstreamcache/IThumbnailStreamCache.SetThumbnailStream
-dev_langs:
-- c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- thumbnailstreamcache.h
-api_name:
-- IThumbnailStreamCache.SetThumbnailStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IThumbnailStreamCache::SetThumbnailStream
+ - thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - thumbnailstreamcache.h
+api_name:
+ - IThumbnailStreamCache.SetThumbnailStream
 ---
 
 # IThumbnailStreamCache::SetThumbnailStream
@@ -48,51 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
 The path to the thumbnail.
 
-
 ### -param cacheId [in]
 
 The identifier of the thumbnail.
-
 
 ### -param thumbnailSize [in]
 
 The size of the thumbnail.
 
-
 ### -param thumbnailStream [in]
 
 The pointer to the thumbnail stream.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a>
- 
-
- 
-
+<a href="/windows/desktop/api/thumbnailstreamcache/nn-thumbnailstreamcache-ithumbnailstreamcache">IThumbnailStreamCache</a>

@@ -2,16 +2,12 @@
 UID: NF:shlobj_core.Shell_GetCachedImageIndex
 title: Shell_GetCachedImageIndex function (shlobj_core.h)
 description: Shell_GetCachedImageIndex may be altered or unavailable.
+helpviewer_keywords: ["Shell_GetCachedImageIndex","Shell_GetCachedImageIndex function [Windows Shell]","Shell_GetCachedImageIndexA","Shell_GetCachedImageIndexW","_win32_Shell_GetCachedImageIndex","shell.Shell_GetCachedImageIndex","shlobj_core/Shell_GetCachedImageIndex","shlobj_core/Shell_GetCachedImageIndexA","shlobj_core/Shell_GetCachedImageIndexW"]
 old-location: shell\Shell_GetCachedImageIndex.htm
 tech.root: shell
 ms.assetid: f0d4dd1f-a41c-4dd0-9713-e3aec48ff101
 ms.date: 12/05/2018
 ms.keywords: Shell_GetCachedImageIndex, Shell_GetCachedImageIndex function [Windows Shell], Shell_GetCachedImageIndexA, Shell_GetCachedImageIndexW, _win32_Shell_GetCachedImageIndex, shell.Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndexA, shlobj_core/Shell_GetCachedImageIndexW
-ms.topic: function
-f1_keywords:
-- shlobj_core/Shell_GetCachedImageIndex
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h, Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -29,23 +25,29 @@ req.type-library:
 req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shell32.dll
-- ext-ms-win-shell-shell32-l1-2-1.dll
-- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
-api_name:
-- Shell_GetCachedImageIndex
-- Shell_GetCachedImageIndexA
-- Shell_GetCachedImageIndexW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Shell_GetCachedImageIndex
+ - shlobj_core/Shell_GetCachedImageIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shell32.dll
+ - ext-ms-win-shell-shell32-l1-2-1.dll
+ - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+api_name:
+ - Shell_GetCachedImageIndex
+ - Shell_GetCachedImageIndexA
+ - Shell_GetCachedImageIndexW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # Shell_GetCachedImageIndex function
@@ -53,16 +55,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>Shell_GetCachedImageIndex</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <b>Shell_GetCachedImageIndexA</b> or <b>Shell_GetCachedImageIndexW</b>.]
 
 Retrieves the cache index of a cached icon.
 
-
 ## -parameters
-
-
-
 
 ### -param pwszIconPath [in]
 
@@ -70,13 +67,11 @@ Type: <b>PCWSTR</b>
 
 A pointer to a buffer that contains the path to the image file.
 
-
 ### -param iIconIndex
 
 Type: <b>int</b>
 
 The index of the image within the file named at <i>pwszIconPath</i>.
-
 
 ### -param uIconFlags
 
@@ -84,36 +79,18 @@ Type: <b>UINT</b>
 
 Not used.
 
-
 ## -returns
-
-
 
 Type: <b>int</b>
 
 Returns the index of the image, or –1 on failure.
 
-
-
-
 ## -remarks
-
-
 
 The <b>Shell_GetCachedImageIndexA</b> and <b>Shell_GetCachedImageIndexW</b> versions of this function were added in Windows Vista. For Unicode strings, call either <b>Shell_GetCachedImageIndexW</b> or <b>Shell_GetCachedImageIndex</b>. For ANSI strings, you must call <b>Shell_GetCachedImageIndexA</b> explicitly.
 
 <b>Windows Server 2003 and Windows XP:  </b>Only <b>Shell_GetCachedImageIndex</b> is supported. <b>Shell_GetCachedImageIndex</b> requires a Unicode string.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/shell/fileiconinit">FileIconInit</a>
- 
-
- 
-
+<a href="/windows/desktop/shell/fileiconinit">FileIconInit</a>

@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetRestoreMetadata
 title: IVssComponent::GetRestoreMetadata (vswriter.h)
 description: The GetRestoreMetadata method retrieves private, writer-specific restore metadata that might have been set during a PreRestore event by CVssWriter::OnPreRestore using IVssComponent::SetRestoreMetadata.
+helpviewer_keywords: ["GetRestoreMetadata","GetRestoreMetadata method [VSS]","GetRestoreMetadata method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetRestoreMetadata method","IVssComponent.GetRestoreMetadata","IVssComponent::GetRestoreMetadata","_win32_ivsscomponent_getrestoremetadata","base.ivsscomponent_getrestoremetadata","vswriter/IVssComponent::GetRestoreMetadata"]
 old-location: base\ivsscomponent_getrestoremetadata.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 1b53c523-a105-4507-89f3-1f746aa86204
 ms.date: 12/05/2018
 ms.keywords: GetRestoreMetadata, GetRestoreMetadata method [VSS], GetRestoreMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreMetadata method, IVssComponent.GetRestoreMetadata, IVssComponent::GetRestoreMetadata, _win32_ivsscomponent_getrestoremetadata, base.ivsscomponent_getrestoremetadata, vswriter/IVssComponent::GetRestoreMetadata
-f1_keywords:
-- vswriter/IVssComponent.GetRestoreMetadata
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetRestoreMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetRestoreMetadata
+ - vswriter/IVssComponent::GetRestoreMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetRestoreMetadata
 ---
 
 # IVssComponent::GetRestoreMetadata
@@ -49,30 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetRestoreMetadata</b> method retrieves
     private, writer-specific restore metadata that might have been set during a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event by 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a> using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event by 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a> using 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>.
    
 
 Only a writer can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param pbstrRestoreMetadata [out]
 
 A string containing the restore metadata.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -134,45 +128,28 @@ The caller is out of memory or other system resources.
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more
         information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be called at any time depending on the logic of a given writer.
 
 The caller should free the memory held by the <i>pbstrRestoreMetadata</i> parameter by calling 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+    <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
    
 
 If no backup metadata has been set, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">GetBackupMetadata</a> returns S_FALSE.
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">GetBackupMetadata</a> returns S_FALSE.
    
 
 A writer setting the restore method to VSS_RME_RESTORE_TO_ALTERNATE_LOCATION without defining an alternate
     location mapping constitutes a writer error.
-   
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

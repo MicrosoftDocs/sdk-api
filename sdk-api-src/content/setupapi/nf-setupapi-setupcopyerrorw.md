@@ -1,16 +1,13 @@
 ---
 UID: NF:setupapi.SetupCopyErrorW
 title: SetupCopyErrorW function (setupapi.h)
-description: The SetupCopyError function generates a dialog box to notify a user of a copy file error.
+description: The SetupCopyError function generates a dialog box to notify a user of a copy file error. (Unicode)
+helpviewer_keywords: ["SetupCopyError", "SetupCopyError function [Setup API]", "SetupCopyErrorW", "_setupapi_setupcopyerror", "setup.setupcopyerror", "setupapi/SetupCopyError", "setupapi/SetupCopyErrorW"]
 old-location: setup\setupcopyerror.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: bda8ffef-f1a7-474c-9ec6-f76c2f006d51
 ms.date: 12/05/2018
 ms.keywords: SetupCopyError, SetupCopyError function [Setup API], SetupCopyErrorA, SetupCopyErrorW, _setupapi_setupcopyerror, setup.setupcopyerror, setupapi/SetupCopyError, setupapi/SetupCopyErrorA, setupapi/SetupCopyErrorW
-f1_keywords:
-- setupapi/SetupCopyError
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Setupapi.dll
-api_name:
-- SetupCopyError
-- SetupCopyErrorA
-- SetupCopyErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupCopyErrorW
+ - setupapi/SetupCopyErrorW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Setupapi.dll
+api_name:
+ - SetupCopyError
+ - SetupCopyErrorA
+ - SetupCopyErrorW
 ---
 
 # SetupCopyErrorW function
@@ -50,22 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The 
 <b>SetupCopyError</b> function generates a dialog box to notify a user of a copy file error.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 The handle to the parent window for this dialog box.
-
 
 ### -param DialogTitle [in]
 
@@ -73,28 +69,23 @@ An optional pointer to a <b>null</b>-terminated string that specifies the dialog
 
 This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the default title of "Copy Error" (localized to the system language) is used.
 
-
 ### -param DiskName [in]
 
 An optional pointer to a <b>null</b>-terminated string that specifies the name of the disk to insert.  
 
 This parameter can be <b>NULL</b>. If this parameter is <b>NULL</b>, the default name "(Unknown)" (localized to the system language) is used.
 
-
 ### -param PathToSource [in]
 
 A pointer to the path component of the source file where an operation fails, for example, F:\x86. 
 
-Use a <b>null</b>-terminated string. 
-
+Use a <b>null</b>-terminated string.
 
 ### -param SourceFile [in]
 
 A pointer to a <b>null</b>-terminated string that specifies the filename part of the file where an operation fails. 
 
-Use a <b>null</b>-terminated string. This filename is displayed if the user clicks on the <b>Details</b> or <b>Browse</b> buttons. The <b>SetupCopyError</b> function looks for the file that uses its compressed form names. Therefore, you can pass cmd.exe and not worry that the file actually exists as cmd.ex_ on the source media. 
-
-
+Use a <b>null</b>-terminated string. This filename is displayed if the user clicks on the <b>Details</b> or <b>Browse</b> buttons. The <b>SetupCopyError</b> function looks for the file that uses its compressed form names. Therefore, you can pass cmd.exe and not worry that the file actually exists as cmd.ex_ on the source media.
 
 ### -param TargetPathFile [in]
 
@@ -102,13 +93,11 @@ An optional pointer to a <b>null</b>-terminated string that specifies the full p
 
 Use a <b>null</b>-terminated string.  This parameter can be <b>NULL</b>. If TargetPathFile is not specified, "(Unknown)" (localized to the system language) is used.
 
-
 ### -param Win32ErrorCode [out]
 
-If an error occurs, this member is the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Code</a>. 
+If an error occurs, this member is the <a href="/windows/desktop/Debug/system-error-codes">System Error Code</a>. 
 
 If an error does not occur, it is  NO_ERROR.
-
 
 ### -param Style [in]
 
@@ -168,7 +157,6 @@ Prevents the dialog box from becoming the foreground window.
 
 Warns the user that skipping a file can affect the installation.
 
-
 ### -param PathBuffer [in, out]
 
 An optional pointer to a variable in which this function returns the path (not including the filename) of the location that a user specifies in the dialog box. You should use a null-terminated string. 
@@ -176,13 +164,11 @@ An optional pointer to a variable in which this function returns the path (not i
 The <b>null</b>-terminated string should not exceed the size of the destination buffer. To avoid insufficient buffer errors, <i>PathBuffer</i> should be at least MAX_PATH.
 For more information, see the Remarks section of this topic.
 
-
 ### -param PathBufferSize [in]
 
  The size of the buffer that  <i>PathBuffer</i> points to, in characters. 
 
 The buffer size should be at least MAX_PATH characters, including the <b>null</b> terminator.
-
 
 ### -param PathRequiredSize [in, out]
 
@@ -230,22 +216,14 @@ The operation source is a disk that a hardware manufacturer provides.
 
 Warns the user that skipping a file can affect the installation.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If this function is called with a <i>PathBuffer</i> of <b>NULL</b> and a <i>PathBufferSize</i> of 0 (zero), the function puts the buffer size that is needed to hold the specified data into the variable pointed to by <i>PathRequiredSize</i>. 
 
@@ -256,29 +234,26 @@ To avoid insufficient buffer errors, <i>ReturnBuffer</i> should be at least MAX_
 
 
 
+
+> [!NOTE]
+> The setupapi.h header defines SetupCopyError as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdeleteerrora">SetupDeleteError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdeleteerrora">SetupDeleteError</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setuppromptfordiska">SetupPromptForDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuppromptfordiska">SetupPromptForDisk</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuprenameerrora">SetupRenameError</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setuprenameerrora">SetupRenameError</a>

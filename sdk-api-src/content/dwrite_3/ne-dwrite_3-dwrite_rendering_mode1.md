@@ -2,15 +2,12 @@
 UID: NE:dwrite_3.DWRITE_RENDERING_MODE1
 title: DWRITE_RENDERING_MODE1 (dwrite_3.h)
 description: Specifies how glyphs are rendered.
+helpviewer_keywords: ["DWRITE_RENDERING_MODE1","DWRITE_RENDERING_MODE1 enumeration [Direct Write]","DWRITE_RENDERING_MODE1_ALIASED","DWRITE_RENDERING_MODE1_DEFAULT","DWRITE_RENDERING_MODE1_GDI_CLASSIC","DWRITE_RENDERING_MODE1_GDI_NATURAL","DWRITE_RENDERING_MODE1_NATURAL","DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC","DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED","DWRITE_RENDERING_MODE1_OUTLINE","directwrite.dwrite_rendering_mode1","dwrite_3/DWRITE_RENDERING_MODE1","dwrite_3/DWRITE_RENDERING_MODE1_ALIASED","dwrite_3/DWRITE_RENDERING_MODE1_DEFAULT","dwrite_3/DWRITE_RENDERING_MODE1_GDI_CLASSIC","dwrite_3/DWRITE_RENDERING_MODE1_GDI_NATURAL","dwrite_3/DWRITE_RENDERING_MODE1_NATURAL","dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC","dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED","dwrite_3/DWRITE_RENDERING_MODE1_OUTLINE"]
 old-location: directwrite\dwrite_rendering_mode1.htm
 tech.root: DirectWrite
 ms.assetid: CAA88479-FE39-48D0-89D8-CEA0C922428A
 ms.date: 12/05/2018
 ms.keywords: DWRITE_RENDERING_MODE1, DWRITE_RENDERING_MODE1 enumeration [Direct Write], DWRITE_RENDERING_MODE1_ALIASED, DWRITE_RENDERING_MODE1_DEFAULT, DWRITE_RENDERING_MODE1_GDI_CLASSIC, DWRITE_RENDERING_MODE1_GDI_NATURAL, DWRITE_RENDERING_MODE1_NATURAL, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, DWRITE_RENDERING_MODE1_OUTLINE, directwrite.dwrite_rendering_mode1, dwrite_3/DWRITE_RENDERING_MODE1, dwrite_3/DWRITE_RENDERING_MODE1_ALIASED, dwrite_3/DWRITE_RENDERING_MODE1_DEFAULT, dwrite_3/DWRITE_RENDERING_MODE1_GDI_CLASSIC, dwrite_3/DWRITE_RENDERING_MODE1_GDI_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC, dwrite_3/DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED, dwrite_3/DWRITE_RENDERING_MODE1_OUTLINE
-f1_keywords:
-- dwrite_3/DWRITE_RENDERING_MODE1
-dev_langs:
-- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_RENDERING_MODE1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_RENDERING_MODE1
+ - dwrite_3/DWRITE_RENDERING_MODE1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_RENDERING_MODE1
 ---
 
 # DWRITE_RENDERING_MODE1 enumeration
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies how glyphs are rendered.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DWRITE_RENDERING_MODE1_DEFAULT
 
 Specifies that the rendering mode is determined automatically, based on the font and size.
 
-
 ### -field DWRITE_RENDERING_MODE1_ALIASED
 
 Specifies that no anti-aliasing is performed. Each pixel is either set to the foreground color of the text or retains the color of the background.
-
 
 ### -field DWRITE_RENDERING_MODE1_GDI_CLASSIC
 
 Specifies that antialiasing is performed in the horizontal direction and the appearance of glyphs is layout-compatible with GDI using CLEARTYPE_QUALITY. 
             Use DWRITE_MEASURING_MODE_GDI_CLASSIC to get glyph advances. The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
-          
-
 
 ### -field DWRITE_RENDERING_MODE1_GDI_NATURAL
 
@@ -80,14 +73,11 @@ Specifies that antialiasing is performed in the horizontal direction and the app
           Glyph advances are close to the font design advances, but are still rounded to whole pixels. Use DWRITE_MEASURING_MODE_GDI_NATURAL to get glyph advances. 
           The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
 
-
 ### -field DWRITE_RENDERING_MODE1_NATURAL
 
 Specifies that antialiasing is performed in the horizontal direction. This rendering mode allows glyphs to be positioned with subpixel precision and 
             is therefore suitable for natural (i.e., resolution-independent) layout. 
             The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
-          
-
 
 ### -field DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC
 
@@ -95,11 +85,9 @@ Similar to natural mode except that antialiasing is performed in both the horizo
           This is typically used at larger sizes to make curves and diagonal lines look smoother. 
           The antialiasing may be either ClearType or grayscale depending on the text antialiasing mode.
 
-
 ### -field DWRITE_RENDERING_MODE1_OUTLINE
 
 Specifies that rendering should bypass the rasterizer and use the outlines directly. This is typically used at very large sizes.
-
 
 ### -field DWRITE_RENDERING_MODE1_NATURAL_SYMMETRIC_DOWNSAMPLED
 

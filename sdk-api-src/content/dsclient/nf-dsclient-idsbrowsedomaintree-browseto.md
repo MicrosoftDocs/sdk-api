@@ -2,15 +2,12 @@
 UID: NF:dsclient.IDsBrowseDomainTree.BrowseTo
 title: IDsBrowseDomainTree::BrowseTo (dsclient.h)
 description: The IDsBrowseDomainTree::BrowseTo method displays a dialog box used to browse for a domain.
+helpviewer_keywords: ["BrowseTo","BrowseTo method [Active Directory]","BrowseTo method [Active Directory]","IDsBrowseDomainTree interface","DBDTF_RETURNEXTERNAL","DBDTF_RETURNFQDN","DBDTF_RETURNINBOUND","DBDTF_RETURNINOUTBOUND","DBDTF_RETURNMIXEDDOMAINS","IDsBrowseDomainTree interface [Active Directory]","BrowseTo method","IDsBrowseDomainTree.BrowseTo","IDsBrowseDomainTree::BrowseTo","_glines_idsbrowsedomaintree_browseto","ad.idsbrowsedomaintree__browseto","ad.idsbrowsedomaintree_browseto","dsclient/IDsBrowseDomainTree::BrowseTo"]
 old-location: ad\idsbrowsedomaintree_browseto.htm
 tech.root: ad
 ms.assetid: 22b719fc-bd46-44c6-a690-af6e9767f9ce
 ms.date: 12/05/2018
 ms.keywords: BrowseTo, BrowseTo method [Active Directory], BrowseTo method [Active Directory],IDsBrowseDomainTree interface, DBDTF_RETURNEXTERNAL, DBDTF_RETURNFQDN, DBDTF_RETURNINBOUND, DBDTF_RETURNINOUTBOUND, DBDTF_RETURNMIXEDDOMAINS, IDsBrowseDomainTree interface [Active Directory],BrowseTo method, IDsBrowseDomainTree.BrowseTo, IDsBrowseDomainTree::BrowseTo, _glines_idsbrowsedomaintree_browseto, ad.idsbrowsedomaintree__browseto, ad.idsbrowsedomaintree_browseto, dsclient/IDsBrowseDomainTree::BrowseTo
-f1_keywords:
-- dsclient/IDsBrowseDomainTree.BrowseTo
-dev_langs:
-- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dsadmin.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dsadmin.dll
-api_name:
-- IDsBrowseDomainTree.BrowseTo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDsBrowseDomainTree::BrowseTo
+ - dsclient/IDsBrowseDomainTree::BrowseTo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dsadmin.dll
+api_name:
+ - IDsBrowseDomainTree.BrowseTo
 ---
 
 # IDsBrowseDomainTree::BrowseTo
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IDsBrowseDomainTree::BrowseTo</b> method displays a dialog box used to browse for a domain.
 
-
 ## -parameters
-
-
-
 
 ### -param hwndParent [in]
 
 Handle of the window that will be the owner of the domain browser dialog box.
 
-
 ### -param ppszTargetPath [out]
 
-Pointer to a Unicode string pointer that receives the path string of the domain selected in the domain browser. This memory must be freed when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. By default, this path takes the form "myDom.Fabrikam.com". If <i>dwFlags</i> contains the <b>DBDTF_RETURNFQDN</b> flag, the path takes the form "DC=myDom, DC=Fabrikam, DC=com".
-
+Pointer to a Unicode string pointer that receives the path string of the domain selected in the domain browser. This memory must be freed when it is no longer required by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. By default, this path takes the form "myDom.Fabrikam.com". If <i>dwFlags</i> contains the <b>DBDTF_RETURNFQDN</b> flag, the path takes the form "DC=myDom, DC=Fabrikam, DC=com".
 
 ### -param dwFlags [in]
 
@@ -101,27 +96,14 @@ If this flag is set, the domain browser will display trusting domains. Otherwise
 
 The domain browser will display both trusted and trusting domains.
 
-
 ## -returns
-
-
 
 Returns a standard <b>HRESULT</b> value including the following.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>

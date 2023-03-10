@@ -2,15 +2,12 @@
 UID: NS:wincrypt._CERT_LOGOTYPE_IMAGE_INFO
 title: CERT_LOGOTYPE_IMAGE_INFO (wincrypt.h)
 description: Contains more detailed information about an image logotype.
+helpviewer_keywords: ["*PCERT_LOGOTYPE_IMAGE_INFO","CERT_LOGOTYPE_BITS_IMAGE_RESOLUTION_CHOICE","CERT_LOGOTYPE_COLOR_IMAGE_INFO_CHOICE","CERT_LOGOTYPE_GRAY_SCALE_IMAGE_INFO_CHOICE","CERT_LOGOTYPE_IMAGE_INFO","CERT_LOGOTYPE_IMAGE_INFO structure [Security]","CERT_LOGOTYPE_NO_IMAGE_RESOLUTION_CHOICE","CERT_LOGOTYPE_TABLE_SIZE_IMAGE_RESOLUTION_CHOICE","PCERT_LOGOTYPE_IMAGE_INFO","PCERT_LOGOTYPE_IMAGE_INFO structure pointer [Security]","security.cert_logotype_image_info","wincrypt/CERT_LOGOTYPE_IMAGE_INFO","wincrypt/PCERT_LOGOTYPE_IMAGE_INFO"]
 old-location: security\cert_logotype_image_info.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: d7116e54-dbf2-457e-8d33-1c0fd5641fe7
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_BITS_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_COLOR_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_GRAY_SCALE_IMAGE_INFO_CHOICE, CERT_LOGOTYPE_IMAGE_INFO, CERT_LOGOTYPE_IMAGE_INFO structure [Security], CERT_LOGOTYPE_NO_IMAGE_RESOLUTION_CHOICE, CERT_LOGOTYPE_TABLE_SIZE_IMAGE_RESOLUTION_CHOICE, PCERT_LOGOTYPE_IMAGE_INFO, PCERT_LOGOTYPE_IMAGE_INFO structure pointer [Security], security.cert_logotype_image_info, wincrypt/CERT_LOGOTYPE_IMAGE_INFO, wincrypt/PCERT_LOGOTYPE_IMAGE_INFO'
-f1_keywords:
-- wincrypt/CERT_LOGOTYPE_IMAGE_INFO
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincrypt.h
-api_name:
-- CERT_LOGOTYPE_IMAGE_INFO
 targetos: Windows
 req.typenames: CERT_LOGOTYPE_IMAGE_INFO, *PCERT_LOGOTYPE_IMAGE_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _CERT_LOGOTYPE_IMAGE_INFO
+ - wincrypt/_CERT_LOGOTYPE_IMAGE_INFO
+ - PCERT_LOGOTYPE_IMAGE_INFO
+ - wincrypt/PCERT_LOGOTYPE_IMAGE_INFO
+ - CERT_LOGOTYPE_IMAGE_INFO
+ - wincrypt/CERT_LOGOTYPE_IMAGE_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincrypt.h
+api_name:
+ - CERT_LOGOTYPE_IMAGE_INFO
 ---
 
 # CERT_LOGOTYPE_IMAGE_INFO structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CERT_LOGOTYPE_IMAGE_INFO</b> structure contains more detailed information about an image logotype.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwLogotypeImageInfoChoice
 
@@ -87,23 +88,18 @@ The image is a color image.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwFileSize
 
 The size, in octets, of the image.
 
-
 ### -field dwXSize
 
 The horizontal size, in pixels, of the image.
 
-
 ### -field dwYSize
 
 The vertical size, in pixels, of the image.
-
 
 ### -field dwLogotypeImageResolutionChoice
 
@@ -145,36 +141,21 @@ The image resolution is provided in number of gray tones. The <b>dwTableSize</b>
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.dwNumBits
 
 The resolution of the image, in bits per pixel. The member is only used if the <b>dwLogotypeImageResolutionChoice</b> contains <b>CERT_LOGOTYPE_NO_IMAGE_RESOLUTION_CHOICE</b>.
 
-
 ### -field DUMMYUNIONNAME.dwTableSize
 
 The resolution of the image, in number of gray tones. The member is only used if the <b>dwLogotypeImageResolutionChoice</b> contains <b>CERT_LOGOTYPE_TABLE_SIZE_IMAGE_RESOLUTION_CHOICE</b>.
-
 
 ### -field pwszLanguage
 
 The address of a null-terminated IA5 string that contains the RFC 3066 language identifier that specifies the language of the image. This member is optional and may be <b>NULL</b>.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_image">CERT_LOGOTYPE_IMAGE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_image">CERT_LOGOTYPE_IMAGE</a>

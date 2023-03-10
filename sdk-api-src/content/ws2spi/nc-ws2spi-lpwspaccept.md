@@ -2,6 +2,8 @@
 UID: NC:ws2spi.LPWSPACCEPT
 title: LPWSPACCEPT
 description: The LPWSPAccept function conditionally accepts a connection based on the return value of a condition function.
+tech.root: winsock
+helpviewer_keywords: ["LPWSPACCEPT","WSPACCEPT"]
 ms.date: 9/9/2019
 ms.keywords: LPWSPACCEPT, WSPACCEPT
 targetos: Windows
@@ -25,39 +27,50 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
-- apiref
+ - apiref
 api_type:
-- LibDef
+ - LibDef
 api_location:
-- ws2spi.h
+ - ws2spi.h
 api_name:
-- LPWSPACCEPT
+ - LPWSPACCEPT
+f1_keywords:
+ - LPWSPACCEPT
+ - ws2spi/LPWSPACCEPT
 ---
 
 ## -description
+
 The **LPWSPAccept** function conditionally accepts a connection based on the return value of a condition function.
 
 ## -parameters
 
 ### -param s [in]
+
 Descriptor identifying a socket that is listening for connections after a <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsplisten">LPWSPListen</a>.
 
 ### -param addr [out]
+
 Optional pointer to a buffer that receives the address of the connecting entity, as known to the service provider. The exact format of the <i>addr</i> parameter is determined by the address family established when the socket in the <a href="/windows/win32/winsock/sockaddr-2">sockaddr</a> structure was created.
 
 ### -param addrlen [in, out]
+
 Optional pointer to an integer that contains the length of the <i>addr</i> parameter, in bytes.
 
 ### -param lpfnCondition [in]
+
 Procedure instance address of an optional-condition function furnished by Windows Sockets. This function is used in the accept or reject decision based on the caller information passed in as parameters.
 
 ### -param dwCallbackData [in]
+
 Callback data to be passed back to the Windows Socket 2 client as the value of the <i>dwCallbackData</i> parameter of the condition function. This parameter is not interpreted by the service provider.
 
 ### -param lpErrno [out]
+
 Pointer to the error code.
 
 ## -returns
+
 If no error occurs, **LPWSPAccept** returns a value of type SOCKET that is a descriptor for the accepted socket. Otherwise, a value of INVALID_SOCKET is returned, and a specific error code is available in <i>lpErrno</i>.
 
 <table>
@@ -219,8 +232,9 @@ The connection request that was offered has timed out or been withdrawn.
 </td>
 </tr>
 </table>
- 
+
 ## -remarks
+
 The **LPWSPAccept** function extracts the first connection on the queue of pending connections on socket <i>s</i>, and checks it against the condition function, provided the condition function is specified (that is, not null). The condition function must be executed in the same thread as this routine. If the condition function returns CF_ACCEPT, **LPWSPAccept** creates a new socket.
 
 Newly created sockets have the same properties as the socket <i>s</i>, including network events registered with <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspasyncselect">**LPWSPAsyncSelect**</a> or with <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspeventselect">**LPWSPEventSelect**</a>. As described in <a href="/windows/win32/winsock/descriptor-allocation-2">**DescriptorAllocation**</a>, when new socket descriptors are allocated, IFS providers must call <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpumodifyifshandle">**WPUModifyIFSHandle**</a> and non-IFS providers must call <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">**WPUCreateSocketHandle**</a>.
@@ -258,6 +272,7 @@ The <i>lpCalleeData</i> is a result parameter used by the condition function to 
 The <i>dwCallbackData</i> parameter value passed to the condition function is the value passed as the <i>dwCallbackData</i> parameter in the original **LPWSPAccept** call. This value is interpreted only by the Windows Sockets 2 client. This allows a client to pass some context information from the **LPWSPAccept** call site through to the condition function, which provides the condition function with any additional information required to determine whether to accept the connection. A typical usage is to pass a (suitably cast) pointer to a data structure containing references to application-defined objects with which this socket is associated.
 
 ## -see-also
+
 [LPWSPAsyncSelect](nc-ws2spi-lpwspasyncselect.md)
 
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspbind">LPWSPBind</a>

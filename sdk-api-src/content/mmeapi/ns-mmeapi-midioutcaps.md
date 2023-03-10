@@ -1,16 +1,13 @@
 ---
 UID: NS:mmeapi.midioutcaps_tag
 title: MIDIOUTCAPS (mmeapi.h)
-description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device.
+description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device. (MIDIOUTCAPS)
+helpviewer_keywords: ["*LPMIDIOUTCAPS","*NPMIDIOUTCAPS","*PMIDIOUTCAPS","MIDICAPS_CACHE","MIDICAPS_LRVOLUME","MIDICAPS_STREAM","MIDICAPS_VOLUME","MIDIOUTCAPS","MIDIOUTCAPS structure [Windows Multimedia]","MOD_FMSYNTH","MOD_MAPPER","MOD_MIDIPORT","MOD_SQSYNTH","MOD_SWSYNTH","MOD_SYNTH","MOD_WAVETABLE","_win32_MIDIOUTCAPS_str","midioutcaps_tag","mmeapi/MIDIOUTCAPS","multimedia.midioutcaps","tagMIDIOUTCAPSA","tagMIDIOUTCAPSW"]
 old-location: multimedia\midioutcaps.htm
 tech.root: Multimedia
 ms.assetid: 395d5fc2-cf34-48f0-a0b0-185247309e2c
 ms.date: 12/05/2018
 ms.keywords: '*LPMIDIOUTCAPS, *NPMIDIOUTCAPS, *PMIDIOUTCAPS, MIDICAPS_CACHE, MIDICAPS_LRVOLUME, MIDICAPS_STREAM, MIDICAPS_VOLUME, MIDIOUTCAPS, MIDIOUTCAPS structure [Windows Multimedia], MOD_FMSYNTH, MOD_MAPPER, MOD_MIDIPORT, MOD_SQSYNTH, MOD_SWSYNTH, MOD_SYNTH, MOD_WAVETABLE, _win32_MIDIOUTCAPS_str, midioutcaps_tag, mmeapi/MIDIOUTCAPS, multimedia.midioutcaps, tagMIDIOUTCAPSA, tagMIDIOUTCAPSW'
-f1_keywords:
-- mmeapi/MIDIOUTCAPS
-dev_langs:
-- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mmeapi.h
-api_name:
-- MIDIOUTCAPS
 targetos: Windows
 req.typenames: MIDIOUTCAPS, *PMIDIOUTCAPS, *NPMIDIOUTCAPS, *LPMIDIOUTCAPS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - midioutcaps_tag
+ - mmeapi/midioutcaps_tag
+ - PMIDIOUTCAPS
+ - mmeapi/PMIDIOUTCAPS
+ - MIDIOUTCAPS
+ - mmeapi/MIDIOUTCAPS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mmeapi.h
+api_name:
+ - MIDIOUTCAPS
 ---
 
 # MIDIOUTCAPS structure
@@ -48,37 +54,25 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>MIDIOUTCAPS</b> structure describes the capabilities of a MIDI output device.
-
-
-
 
 ## -struct-fields
 
-
-
-
 ### -field wMid
 
-Manufacturer identifier of the device driver for the MIDI output device. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
-
+Manufacturer identifier of the device driver for the MIDI output device. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field wPid
 
-Product identifier of the MIDI output device. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
-
+Product identifier of the MIDI output device. Product identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field vDriverVersion
 
 Version number of the device driver for the MIDI output device. The high-order byte is the major version number, and the low-order byte is the minor version number.
 
-
 ### -field szPname
 
 Product name in a null-terminated string.
-
 
 ### -field wTechnology
 
@@ -160,23 +154,18 @@ Software synthesizer.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wVoices
 
 Number of voices supported by an internal synthesizer device. If the device is a port, this member is not meaningful and is set to 0.
 
-
 ### -field wNotes
 
 Maximum number of simultaneous notes that can be played by an internal synthesizer device. If the device is a port, this member is not meaningful and is set to 0.
 
-
 ### -field wChannelMask
 
 Channels that an internal synthesizer device responds to, where the least significant bit refers to channel 0 and the most significant bit to channel 15. Port devices that transmit on all channels set this member to 0xFFFF.
-
 
 ### -field dwSupport
 
@@ -213,7 +202,7 @@ Supports separate left and right volume control.
 </dl>
 </td>
 <td width="60%">
-Provides direct support for the <a href="https://docs.microsoft.com/previous-versions/dd798487(v=vs.85)">midiStreamOut</a> function.
+Provides direct support for the <a href="/previous-versions/dd798487(v=vs.85)">midiStreamOut</a> function.
 
 </td>
 </tr>
@@ -232,22 +221,14 @@ Supports volume control.
 
 If a device supports volume changes, the MIDICAPS_VOLUME flag will be set for the dwSupport member. If a device supports separate volume changes on the left and right channels, both the MIDICAPS_VOLUME and the MIDICAPS_LRVOLUME flags will be set for this member.
 
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-structures">MIDI Structures</a>
+<a href="/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd798487(v=vs.85)">midiStreamOut</a>
- 
-
- 
-
+<a href="/previous-versions/dd798487(v=vs.85)">midiStreamOut</a>

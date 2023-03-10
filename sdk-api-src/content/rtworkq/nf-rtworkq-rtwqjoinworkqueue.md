@@ -2,15 +2,12 @@
 UID: NF:rtworkq.RtwqJoinWorkQueue
 title: RtwqJoinWorkQueue function (rtworkq.h)
 description: Associates a work queue with an input/output (I/O) handle.
+helpviewer_keywords: ["RtwqJoinWorkQueue","RtwqJoinWorkQueue function","base.rtwqjoinworkqueue","rtworkq/RtwqJoinWorkQueue"]
 old-location: base\rtwqjoinworkqueue.htm
-tech.root: ProcThread
+tech.root: backup
 ms.assetid: c7762a10-269e-48c0-83da-7e040cf9d083
 ms.date: 12/05/2018
 ms.keywords: RtwqJoinWorkQueue, RtwqJoinWorkQueue function, base.rtwqjoinworkqueue, rtworkq/RtwqJoinWorkQueue
-f1_keywords:
-- rtworkq/RtwqJoinWorkQueue
-dev_langs:
-- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RTWorkQ.dll
-api_name:
-- RtwqJoinWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RtwqJoinWorkQueue
+ - rtworkq/RtwqJoinWorkQueue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - RtwqJoinWorkQueue
 ---
 
 # RtwqJoinWorkQueue function
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates a work queue with an input/output (I/O) handle.
 
-
 ## -parameters
-
-
-
 
 ### -param workQueueId [in]
 
 The ID of the work queue to redirect the I/O handle into.
 
-
 ### -param hFile [in]
 
 The network I/O handle.
-
 
 ### -param out [out]
 
 A cookie that represents the association between the network and I/O handles.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

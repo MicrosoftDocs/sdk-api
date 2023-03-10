@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.put_Recorder
 title: IDiscFormat2TrackAtOnce::put_Recorder (imapi2.h)
-description: Sets the recording device to use for the write operation.
+description: Sets the recording device to use for the write operation. (IDiscFormat2TrackAtOnce.put_Recorder)
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","put_Recorder method","IDiscFormat2TrackAtOnce.put_Recorder","IDiscFormat2TrackAtOnce::put_Recorder","imapi.idiscformat2trackatonce_put_recorder","imapi2/IDiscFormat2TrackAtOnce::put_Recorder","put_Recorder","put_Recorder method [IMAPI]","put_Recorder method [IMAPI]","IDiscFormat2TrackAtOnce interface"]
 old-location: imapi\idiscformat2trackatonce_put_recorder.htm
 tech.root: imapi
 ms.assetid: 6d67b076-0c3f-4d1f-aa19-8e22dd98f331
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_Recorder method, IDiscFormat2TrackAtOnce.put_Recorder, IDiscFormat2TrackAtOnce::put_Recorder, imapi.idiscformat2trackatonce_put_recorder, imapi2/IDiscFormat2TrackAtOnce::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IDiscFormat2TrackAtOnce interface
-f1_keywords:
-- imapi2/IDiscFormat2TrackAtOnce.put_Recorder
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2TrackAtOnce.put_Recorder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2TrackAtOnce::put_Recorder
+ - imapi2/IDiscFormat2TrackAtOnce::put_Recorder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2TrackAtOnce.put_Recorder
 ---
 
 # IDiscFormat2TrackAtOnce::put_Recorder
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the recording device to use for the write operation.
-
 
 ## -parameters
 
-
-
-
 ### -param value [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the write operation.
-
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device to use in the write operation.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -113,31 +107,15 @@ Value: 0xC0AA050E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The recorder must be compatible with the format defined by this  interface. To determine compatibility, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IDiscFormat2::IsRecorderSupported</a> method.
-
-
-
+The recorder must be compatible with the format defined by this  interface. To determine compatibility, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-isrecordersupported">IDiscFormat2::IsRecorderSupported</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_recorder">IDiscFormat2TrackAtOnce::get_Recorder</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_recorder">IDiscFormat2TrackAtOnce::get_Recorder</a>

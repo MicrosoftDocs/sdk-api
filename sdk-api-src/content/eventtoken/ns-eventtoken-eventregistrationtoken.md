@@ -2,15 +2,12 @@
 UID: NS:eventtoken.EventRegistrationToken
 title: EventRegistrationToken (eventtoken.h)
 description: Identifies an event handler that has been registered with an event source.
+helpviewer_keywords: ["EventRegistrationToken","EventRegistrationToken structure [Windows Runtime]","eventtoken/EventRegistrationToken","winrt.eventregistrationtoken"]
 old-location: winrt\eventregistrationtoken.htm
 tech.root: WinRT
 ms.assetid: A98FE485-B3D8-4CD5-950F-765939F4672B
 ms.date: 12/05/2018
 ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows Runtime], eventtoken/EventRegistrationToken, winrt.eventregistrationtoken
-f1_keywords:
-- eventtoken/EventRegistrationToken
-dev_langs:
-- c++
 req.header: eventtoken.h
 req.include-header: 
 req.target-type: Windows
@@ -28,64 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- eventtoken.h
-api_name:
-- EventRegistrationToken
 targetos: Windows
 req.typenames: EventRegistrationToken
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EventRegistrationToken
+ - eventtoken/EventRegistrationToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - eventtoken.h
+api_name:
+ - EventRegistrationToken
 ---
 
-# EventRegistrationToken structure
-
+# EventRegistrationToken structure (eventtoken.h)
 
 ## -description
 
-
-Identifies an event handler that has been registered with an event source.
-
+Defines an event handler that has been registered with an event source.
 
 ## -struct-fields
 
-
-
-
 ### -field value
 
-Type: <b>INT64</b>
+Type: **INT64**
 
-An identifying value that is provided by an event source. 
-
+An identifying value that is provided by an event source.
 
 ## -remarks
 
+Use an **EventRegistrationToken** to  unsubscribe from a Windows Runtime event source.
 
-
-Use an <b>EventRegistrationToken</b> to  unsubscribe from a Windows Runtime event source.
-
-You acquire an <b>EventRegistrationToken</b> when you subscribe to an event. 
-
-
-
+You acquire an **EventRegistrationToken** when you subscribe to an event.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/hh438385(v=vs.85)">IEventHandler<T></a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/hh438424(v=vs.85)">ITypedEventHandler<TSender, TArgs></a>
- 
-
- 
-
+[IEventHandler\<T\> interface](/previous-versions/hh438424(v=vs.85))

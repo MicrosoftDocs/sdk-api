@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetWrap
 title: IMFTimedTextRegion::GetWrap (mfmediaengine.h)
 description: Determines whether the word wrap feature is enabled in the region.
+helpviewer_keywords: ["GetWrap","GetWrap method [Media Foundation]","GetWrap method [Media Foundation]","IMFTimedTextRegion interface","IMFTimedTextRegion interface [Media Foundation]","GetWrap method","IMFTimedTextRegion.GetWrap","IMFTimedTextRegion::GetWrap","mf.imftimedtextregion_getwrap","mfmediaengine/IMFTimedTextRegion::GetWrap"]
 old-location: mf\imftimedtextregion_getwrap.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 634B686C-A083-4F11-9330-4BD22D93A066
 ms.date: 12/05/2018
 ms.keywords: GetWrap, GetWrap method [Media Foundation], GetWrap method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetWrap method, IMFTimedTextRegion.GetWrap, IMFTimedTextRegion::GetWrap, mf.imftimedtextregion_getwrap, mfmediaengine/IMFTimedTextRegion::GetWrap
-f1_keywords:
-- mfmediaengine/IMFTimedTextRegion.GetWrap
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextRegion.GetWrap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextRegion::GetWrap
+ - mfmediaengine/IMFTimedTextRegion::GetWrap
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextRegion.GetWrap
 ---
 
 # IMFTimedTextRegion::GetWrap
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether the word wrap feature is enabled in the region.
 
-
 ## -parameters
-
-
-
 
 ### -param wrap [out]
 
 Type: <b>BOOL*</b>
 
-A pointer to a variable that receives a value that specifies whether the word wrap feature is enabled in the region. The variable specifies <b>TRUE</b> if word wrap is enabled; otherwise, <b>FALSE</b>. 
-
+A pointer to a variable that receives a value that specifies whether the word wrap feature is enabled in the region. The variable specifies <b>TRUE</b> if word wrap is enabled; otherwise, <b>FALSE</b>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextregion">IMFTimedTextRegion</a>

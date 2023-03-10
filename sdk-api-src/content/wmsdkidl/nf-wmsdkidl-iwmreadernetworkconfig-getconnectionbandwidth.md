@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetConnectionBandwidth
 title: IWMReaderNetworkConfig::GetConnectionBandwidth (wmsdkidl.h)
 description: The GetConnectionBandwidth method retrieves the connection bandwidth for the client.
+helpviewer_keywords: ["GetConnectionBandwidth","GetConnectionBandwidth method [windows Media Format]","GetConnectionBandwidth method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetConnectionBandwidth method","IWMReaderNetworkConfig.GetConnectionBandwidth","IWMReaderNetworkConfig::GetConnectionBandwidth","IWMReaderNetworkConfigGetConnectionBandwidth","wmformat.iwmreadernetworkconfig_getconnectionbandwidth","wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth"]
 old-location: wmformat\iwmreadernetworkconfig_getconnectionbandwidth.htm
 tech.root: wmformat
 ms.assetid: cbbc945d-91ea-4d21-a1ac-2fcbcb081447
 ms.date: 12/05/2018
 ms.keywords: GetConnectionBandwidth, GetConnectionBandwidth method [windows Media Format], GetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetConnectionBandwidth method, IWMReaderNetworkConfig.GetConnectionBandwidth, IWMReaderNetworkConfig::GetConnectionBandwidth, IWMReaderNetworkConfigGetConnectionBandwidth, wmformat.iwmreadernetworkconfig_getconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
-f1_keywords:
-- wmsdkidl/IWMReaderNetworkConfig.GetConnectionBandwidth
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderNetworkConfig.GetConnectionBandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderNetworkConfig::GetConnectionBandwidth
+ - wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderNetworkConfig.GetConnectionBandwidth
 ---
 
 # IWMReaderNetworkConfig::GetConnectionBandwidth
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetConnectionBandwidth</b> method retrieves the connection bandwidth for the client.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwConnectionBandwidth [out]
 
 Pointer to a <b>DWORD</b> containing the connection bandwidth, in bits per second.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,33 +93,17 @@ NULL or invalid argument passed in.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If this method returns zero, the bandwidth could not be detected. If the application has not called <b>SetConnectionBandwidth</b> (or called it with a zero parameter), the return value is the connection rate detected by the reader.
 
 If you want to determine the connection bandwidth before receiving a sample, use this method.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setconnectionbandwidth">IWMReaderNetworkConfig::SetConnectionBandwidth</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setconnectionbandwidth">IWMReaderNetworkConfig::SetConnectionBandwidth</a>

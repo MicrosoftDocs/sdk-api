@@ -2,15 +2,12 @@
 UID: NF:wuapi.ISearchResult.get_Warnings
 title: ISearchResult::get_Warnings (wuapi.h)
 description: Gets a collection of the warnings that result from a search.
+helpviewer_keywords: ["ISearchResult interface [Windows Update Agent]","Warnings property","ISearchResult.Warnings","ISearchResult.get_Warnings","ISearchResult::Warnings","ISearchResult::get_Warnings","Warnings property [Windows Update Agent]","Warnings property [Windows Update Agent]","ISearchResult interface","get_Warnings","wua.isearchresult_warnings","wuapi/ISearchResult::Warnings","wuapi/ISearchResult::get_Warnings"]
 old-location: wua\isearchresult_warnings.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: a341676e-75b3-46e5-8c55-b070147d4277
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],Warnings property, ISearchResult.Warnings, ISearchResult.get_Warnings, ISearchResult::Warnings, ISearchResult::get_Warnings, Warnings property [Windows Update Agent], Warnings property [Windows Update Agent],ISearchResult interface, get_Warnings, wua.isearchresult_warnings, wuapi/ISearchResult::Warnings, wuapi/ISearchResult::get_Warnings
-f1_keywords:
-- wuapi/ISearchResult.Warnings
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- ISearchResult.Warnings
-- ISearchResult.get_Warnings
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISearchResult::get_Warnings
+ - wuapi/ISearchResult::get_Warnings
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - ISearchResult.Warnings
+ - ISearchResult.get_Warnings
 ---
 
 # ISearchResult::get_Warnings
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a collection of the warnings that result from a search.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a>

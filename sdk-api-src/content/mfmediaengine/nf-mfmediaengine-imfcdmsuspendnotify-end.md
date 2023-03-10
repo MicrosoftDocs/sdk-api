@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFCdmSuspendNotify.End
 title: IMFCdmSuspendNotify::End (mfmediaengine.h)
 description: The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
+helpviewer_keywords: ["End","End method [Media Foundation]","End method [Media Foundation]","IMFCdmSuspendNotify interface","IMFCdmSuspendNotify interface [Media Foundation]","End method","IMFCdmSuspendNotify.End","IMFCdmSuspendNotify::End","mf.imfcdmsuspendnotify_end","mfmediaengine/IMFCdmSuspendNotify::End"]
 old-location: mf\imfcdmsuspendnotify_end.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7a319fbb-9757-45da-8a8b-51dd48f08464
 ms.date: 12/05/2018
 ms.keywords: End, End method [Media Foundation], End method [Media Foundation],IMFCdmSuspendNotify interface, IMFCdmSuspendNotify interface [Media Foundation],End method, IMFCdmSuspendNotify.End, IMFCdmSuspendNotify::End, mf.imfcdmsuspendnotify_end, mfmediaengine/IMFCdmSuspendNotify::End
-f1_keywords:
-- mfmediaengine/IMFCdmSuspendNotify.End
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFCdmSuspendNotify.End
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFCdmSuspendNotify::End
+ - mfmediaengine/IMFCdmSuspendNotify::End
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFCdmSuspendNotify.End
 ---
 
 # IMFCdmSuspendNotify::End
@@ -48,33 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The actual suspend is about to occur and no more calls will be made into the Content Decryption Module (CDM).
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify">IMFCdmSuspendNotify</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfcdmsuspendnotify">IMFCdmSuspendNotify</a>

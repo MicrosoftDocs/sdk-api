@@ -2,15 +2,12 @@
 UID: NF:sbe.IStreamBufferRecordControl.Start
 title: IStreamBufferRecordControl::Start (sbe.h)
 description: The Start method starts the recording.
+helpviewer_keywords: ["IStreamBufferRecordControl interface [Microsoft TV Technologies]","Start method","IStreamBufferRecordControl.Start","IStreamBufferRecordControl::Start","IStreamBufferRecordControlStart","Start","Start method [Microsoft TV Technologies]","Start method [Microsoft TV Technologies]","IStreamBufferRecordControl interface","mstv.istreambufferrecordcontrol_start","sbe/IStreamBufferRecordControl::Start"]
 old-location: mstv\istreambufferrecordcontrol_start.htm
 tech.root: mstv
 ms.assetid: e72ec34e-d3e3-4f5f-9336-d55135dc1e47
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Start method, IStreamBufferRecordControl.Start, IStreamBufferRecordControl::Start, IStreamBufferRecordControlStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_start, sbe/IStreamBufferRecordControl::Start
-f1_keywords:
-- sbe/IStreamBufferRecordControl.Start
-dev_langs:
-- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Sbe.h
-api_name:
-- IStreamBufferRecordControl.Start
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStreamBufferRecordControl::Start
+ - sbe/IStreamBufferRecordControl::Start
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Sbe.h
+api_name:
+ - IStreamBufferRecordControl.Start
 ---
 
 # IStreamBufferRecordControl::Start
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Start</b> method starts the recording.
 
-
 ## -parameters
-
-
-
 
 ### -param prtStart [in, out]
 
@@ -65,10 +62,7 @@ For content recordings, the time must be a value between 0 and 5 seconds (500000
 
 For reference recordings, negative times are valid if they fall within existing content. If the time given in <i>prtStart</i> is earlier than the earliest valid content, the actual start time of the content is used instead. This value is returned in <i>prtStart</i> when the method returns.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -111,31 +105,15 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The start time must be less than or equal to the stop time.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordcontrol">IStreamBufferRecordControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordcontrol">IStreamBufferRecordControl Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-stop">IStreamBufferRecordControl::Stop</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferrecordcontrol-stop">IStreamBufferRecordControl::Stop</a>

@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateSession3.QueryHistory
 title: IUpdateSession3::QueryHistory (wuapi.h)
 description: Synchronously queries the computer for the history of update events.
+helpviewer_keywords: ["IUpdateSession3 interface [Windows Update Agent]","QueryHistory method","IUpdateSession3.QueryHistory","IUpdateSession3::QueryHistory","QueryHistory","QueryHistory method [Windows Update Agent]","QueryHistory method [Windows Update Agent]","IUpdateSession3 interface","wua.iupdatesession3_queryhistory","wuapi/IUpdateSession3::QueryHistory"]
 old-location: wua\iupdatesession3_queryhistory.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 614a392e-949b-4fba-a4e7-5c393c2b51c3
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession3 interface [Windows Update Agent],QueryHistory method, IUpdateSession3.QueryHistory, IUpdateSession3::QueryHistory, QueryHistory, QueryHistory method [Windows Update Agent], QueryHistory method [Windows Update Agent],IUpdateSession3 interface, wua.iupdatesession3_queryhistory, wuapi/IUpdateSession3::QueryHistory
-f1_keywords:
-- wuapi/IUpdateSession3.QueryHistory
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateSession3.QueryHistory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateSession3::QueryHistory
+ - wuapi/IUpdateSession3::QueryHistory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateSession3.QueryHistory
 ---
 
 # IUpdateSession3::QueryHistory
@@ -48,38 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-Synchronously queries the computer for the history of update events. This method method returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the  computer.
-
+Synchronously queries the computer for the history of update events. This method method returns a pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains matching event records on the  computer.
 
 ## -parameters
-
-
-
 
 ### -param criteria [in]
 
 A string that specifies the search criteria.
 
-
 ### -param startIndex [in]
 
 The index of the first event to retrieve.
-
 
 ### -param count [in]
 
 The number of events to retrieve.
 
-
 ### -param retval [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains the matching event records on the computer in descending chronological order.
-
+A pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface that contains the matching event records on the computer in descending chronological order.
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error code. 
 
@@ -113,14 +104,8 @@ There is an invalid search criteria.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The collection of events that is returned is sorted by the date in descending order.
 
@@ -128,7 +113,7 @@ The string that is used for  the <i>criteria</i> parameter must match the custom
 
 Note that <b>QueryHistory</b> supports per-machine updates only.
 
-For a complete description of search criteria syntax, see <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a>. 
+For a complete description of search criteria syntax, see <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a>. 
 
 The following table identifies all the public support criteria, in the order of evaluation precedence. More criteria may be added to this list in the future.
 
@@ -144,25 +129,14 @@ The following table identifies all the public support criteria, in the order of 
 <td><b>string(UUID)</b></td>
 <td><b>=</b></td>
 <td>
-Finds updates that have an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> of the specified value. 
+Finds updates that have an <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> of the specified value. 
 
-For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that equal 12345678-9abc-def0-1234-56789abcdef0.
+For example, "UpdateID='12345678-9abc-def0-1234-56789abcdef0'" finds updates for <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateidentity-get_updateid">UpdateIdentity.UpdateID</a> that equal 12345678-9abc-def0-1234-56789abcdef0.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession3">IUpdateSession3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession3">IUpdateSession3</a>

@@ -2,15 +2,12 @@
 UID: NF:ndfapi.NdfDiagnoseIncident
 title: NdfDiagnoseIncident function (ndfapi.h)
 description: Diagnoses the root cause of an incident without displaying a user interface.
+helpviewer_keywords: ["NDF_ADD_CAPTURE_TRACE","NDF_APPLY_INCLUSION_LIST_FILTER","NdfDiagnoseIncident","NdfDiagnoseIncident function [NDF]","ndf.ndfdiagnoseincident","ndfapi/NdfDiagnoseIncident"]
 old-location: ndf\ndfdiagnoseincident.htm
 tech.root: NDF
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666
 ms.date: 12/05/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
-f1_keywords:
-- ndfapi/NdfDiagnoseIncident
-dev_langs:
-- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ndfapi.dll
-api_name:
-- NdfDiagnoseIncident
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdfDiagnoseIncident
+ - ndfapi/NdfDiagnoseIncident
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ndfapi.dll
+api_name:
+ - NdfDiagnoseIncident
 ---
 
 # NdfDiagnoseIncident function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>NdfDiagnoseIncident</b> function diagnoses the root cause of an incident  without displaying a user interface.
 
-
 ## -parameters
-
-
-
 
 ### -param Handle [in]
 
@@ -63,29 +60,25 @@ Type: <b>NDFHANDLE</b>
 
 A handle to the Network Diagnostics Framework incident.
 
-
 ### -param RootCauseCount [out]
 
 Type: <b>ULONG*</b>
 
 The number of root causes that could potentially have caused this incident. If diagnosis does not succeed, the contents of this parameter should be ignored.
 
-
 ### -param RootCauses [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a>**</b>
+Type: <b><a href="/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a>**</b>
 
-A collection of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a> structures that contain a detailed description of the root cause. If diagnosis succeeds, this parameter contains both the leaf root causes identified in the diagnosis session and any non-leaf root causes that have an available repair. If diagnosis does not succeed, the contents of this parameter should be ignored.
+A collection of <a href="/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a> structures that contain a detailed description of the root cause. If diagnosis succeeds, this parameter contains both the leaf root causes identified in the diagnosis session and any non-leaf root causes that have an available repair. If diagnosis does not succeed, the contents of this parameter should be ignored.
 
 Memory allocated to these structures should later be freed.  For an example of how to do this, see the Microsoft Windows Network Diagnostics Samples.
-
 
 ### -param dwWait
 
 Type: <b>DWORD</b>
 
 The length of time, in milliseconds, to wait before terminating the diagnostic routine. INFINITE may be passed to this parameter if no time-out is desired.
-
 
 ### -param dwFlags
 
@@ -105,7 +98,7 @@ Possible values:
 </dl>
 </td>
 <td width="60%">
-Turns on network tracing during diagnosis. Diagnostic results will be included in the Event Trace Log (ETL) file returned by <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfgettracefile">NdfGetTraceFile</a>.
+Turns on network tracing during diagnosis. Diagnostic results will be included in the Event Trace Log (ETL) file returned by <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfgettracefile">NdfGetTraceFile</a>.
 
 </td>
 </tr>
@@ -123,12 +116,8 @@ Applies filtering to the returned root causes so that they are consistent with t
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -173,18 +162,12 @@ The diagnostic routine has terminated because it has taken longer than the time-
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This function is intended for use with scenarios where no user interface is shown, or where the standard Windows experience is not being used (as with Media Center and  embedded applications). <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a> will launch the diagnostics user interface, and should be used in scenarios using the standard Windows experience. You can call either <b>NdfExecuteDiagnosis</b> or <b>NdfDiagnoseIncident</b>, but not both.
 
-
-This function is intended for use with scenarios where no user interface is shown, or where the standard Windows experience is not being used (as with Media Center and  embedded applications). <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a> will launch the diagnostics user interface, and should be used in scenarios using the standard Windows experience. You can call either <b>NdfExecuteDiagnosis</b> or <b>NdfDiagnoseIncident</b>, but not both.
-
-Before using this API, an application must call an incident creation function such as <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a> to begin the NDF diagnostics process. The application then calls <b>NdfDiagnoseIncident</b> to diagnose the issue. If the diagnostics process identifies some possible repairs, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfrepairincident">NdfRepairIncident</a> to repair the problem without displaying a user interface. <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcancelincident">NdfCancelIncident</a> can optionally be called from a separate thread if the application wants to cancel an ongoing <b>NdfDiagnoseIncident</b> call. Finally, the application calls <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfcloseincident">NdfCloseIncident</a>.
+Before using this API, an application must call an incident creation function such as <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcreatewebincident">NdfCreateWebIncident</a> to begin the NDF diagnostics process. The application then calls <b>NdfDiagnoseIncident</b> to diagnose the issue. If the diagnostics process identifies some possible repairs, the application can call <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfrepairincident">NdfRepairIncident</a> to repair the problem without displaying a user interface. <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcancelincident">NdfCancelIncident</a> can optionally be called from a separate thread if the application wants to cancel an ongoing <b>NdfDiagnoseIncident</b> call. Finally, the application calls <a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfcloseincident">NdfCloseIncident</a>.
 
 The following table shows some examples of root causes and their corresponding repairs.<table>
 <tr>
@@ -212,30 +195,15 @@ The following table shows some examples of root causes and their corresponding r
 <td>Reset the ""%InterfaceName%"" adapter.\nThis can sometimes resolve an intermittent problem.</td>
 </tr>
 </table>
- 
-
-
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfexecutediagnosis">NdfExecuteDiagnosis</a>
+<a href="/windows/desktop/api/ndfapi/nf-ndfapi-ndfgettracefile">NdfGetTraceFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfgettracefile">NdfGetTraceFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a>

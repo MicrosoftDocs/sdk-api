@@ -2,15 +2,12 @@
 UID: NF:netcon.INetSharingManager.get_EnumPrivateConnections
 title: INetSharingManager::get_EnumPrivateConnections (netcon.h)
 description: The get_EnumPrivateConnections method retrieves an enumeration interface for privately-shared connections.
+helpviewer_keywords: ["INetSharingManager interface [ICS/ICF]","get_EnumPrivateConnections method","INetSharingManager.get_EnumPrivateConnections","INetSharingManager::get_EnumPrivateConnections","_ics_inetsharingmanager_get_enumprivateconnections","get_EnumPrivateConnections","get_EnumPrivateConnections method [ICS/ICF]","get_EnumPrivateConnections method [ICS/ICF]","INetSharingManager interface","ics.inetsharingmanager_get_enumprivateconnections","netcon/INetSharingManager::get_EnumPrivateConnections"]
 old-location: ics\inetsharingmanager_get_enumprivateconnections.htm
 tech.root: ics
 ms.assetid: cb770e91-0d85-4f67-b7a1-8cc6e89620eb
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumPrivateConnections method, INetSharingManager.get_EnumPrivateConnections, INetSharingManager::get_EnumPrivateConnections, _ics_inetsharingmanager_get_enumprivateconnections, get_EnumPrivateConnections, get_EnumPrivateConnections method [ICS/ICF], get_EnumPrivateConnections method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumprivateconnections, netcon/INetSharingManager::get_EnumPrivateConnections
-f1_keywords:
-- netcon/INetSharingManager.get_EnumPrivateConnections
-dev_langs:
-- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INetSharingManager.get_EnumPrivateConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetSharingManager::get_EnumPrivateConnections
+ - netcon/INetSharingManager::get_EnumPrivateConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INetSharingManager.get_EnumPrivateConnections
 ---
 
 # INetSharingManager::get_EnumPrivateConnections
@@ -48,32 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>get_EnumPrivateConnections</b> method retrieves an enumeration interface for privately-shared connections.
 
-
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
 This parameter must be ICSSC_DEFAULT.
 
-
 ### -param ppColl [out]
 
 Pointer to a pointer that, on successful return, points to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-inetsharingprivateconnectioncollection">INetSharingPrivateConnectionCollection</a> interface.
-
+<a href="/windows/desktop/api/netcon/nn-netcon-inetsharingprivateconnectioncollection">INetSharingPrivateConnectionCollection</a> interface.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -173,34 +166,23 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingprivateconnection">IEnumNetSharingPrivateConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-ienumnetsharingprivateconnection">IEnumNetSharingPrivateConnection</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager">INetSharingManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingmanager">INetSharingManager</a>
+<a href="/windows/desktop/api/netcon/nn-netcon-inetsharingprivateconnectioncollection">INetSharingPrivateConnectionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-inetsharingprivateconnectioncollection">INetSharingPrivateConnectionCollection</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

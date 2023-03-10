@@ -2,15 +2,12 @@
 UID: NF:webservices.WsSendMessage
 title: WsSendMessage function (webservices.h)
 description: Send a message on a channel using serialization to write the body element.
+helpviewer_keywords: ["WsSendMessage","WsSendMessage function [Web Services for Windows]","webservices/WsSendMessage","wsw.wssendmessage"]
 old-location: wsw\wssendmessage.htm
 tech.root: wsw
 ms.assetid: 143864db-0a09-4d8d-8b07-369a0555aa46
 ms.date: 12/05/2018
 ms.keywords: WsSendMessage, WsSendMessage function [Web Services for Windows], webservices/WsSendMessage, wsw.wssendmessage
-f1_keywords:
-- webservices/WsSendMessage
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- WebServices.dll
-api_name:
-- WsSendMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WsSendMessage
+ - webservices/WsSendMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - WebServices.dll
+api_name:
+ - WsSendMessage
 ---
 
 # WsSendMessage function
@@ -48,82 +50,57 @@ ms.custom: 19H1
 
 ## -description
 
-
 Send a message on a channel using serialization to write the body element.
-            
-
 
 ## -parameters
-
-
-
 
 ### -param channel [in]
 
 The channel to send the message on.
-                
-
 
 ### -param message [in]
 
 The message object to use for sending.
                 
 
-The message object must be in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> or
+The message object must be in <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_state">WS_MESSAGE_STATE_EMPTY</a> or
                   <b>WS_MESSAGE_STATE_INITIALIZED</b>.
-                
-
 
 ### -param messageDescription [in]
 
-The action field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used as the
+The action field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used as the
                     action header for the message.  This field may be <b>NULL</b> if no action
                     is required.
                 
 
-The bodyElementDescription field of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a>is used to serialize the body of the message.  This field may be 
-                    <b>NULL</b> if no body element is desired.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for
+The bodyElementDescription field of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_message_description">WS_MESSAGE_DESCRIPTION</a> is used to serialize the body of the message.  This field may be 
+                    <b>NULL</b> if no body element is desired.  See <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> for
                     information about how the bodyElementDescription is used to serialize
                     the value.
-                
-
 
 ### -param writeOption [in]
 
                     Whether the body element is required, and how the value is allocated. This is used
-                    only when a body element is desired. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> and 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.
-
-                
-
+                    only when a body element is desired. For more information, see <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> and 
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.
 
 ### -param bodyValue
 
 The value to serialize in the body of the message.
-                
-
 
 ### -param bodyValueSize [in]
 
 The size of the value being serialized, in bytes.
-                
-
 
 ### -param asyncContext [in, optional]
 
 Information on how to invoke the function asynchronously, or <b>NULL</b> if invoking synchronously.
-                
-
 
 ### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -519,18 +496,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-To include custom headers with the message, initialize the message <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_BLANK_MESSAGE</a> and then add the headers using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a> 
+To include custom headers with the message, initialize the message <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a> with <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_BLANK_MESSAGE</a> and then add the headers using <a href="/windows/desktop/api/webservices/nf-webservices-wsaddcustomheader">WsAddCustomHeader</a> 
                 before calling this function.
-            
-
-
-

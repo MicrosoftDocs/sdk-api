@@ -2,15 +2,12 @@
 UID: NF:mscat.CryptCATStoreFromHandle
 title: CryptCATStoreFromHandle function (mscat.h)
 description: Retrieves a CRYPTCATSTORE structure from a catalog handle.
+helpviewer_keywords: ["CryptCATStoreFromHandle","CryptCATStoreFromHandle function [Security]","mscat/CryptCATStoreFromHandle","security.cryptcatstorefromhandle"]
 old-location: security\cryptcatstorefromhandle.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: ce4fe972-0ed5-4b18-8ec5-9883af326335
 ms.date: 12/05/2018
 ms.keywords: CryptCATStoreFromHandle, CryptCATStoreFromHandle function [Security], mscat/CryptCATStoreFromHandle, security.cryptcatstorefromhandle
-f1_keywords:
-- mscat/CryptCATStoreFromHandle
-dev_langs:
-- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wintrust.dll
-api_name:
-- CryptCATStoreFromHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CryptCATStoreFromHandle
+ - mscat/CryptCATStoreFromHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wintrust.dll
+api_name:
+ - CryptCATStoreFromHandle
 ---
 
 # CryptCATStoreFromHandle function
@@ -48,27 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The  <b>CryptCATStoreFromHandle</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a> structure from a catalog handle.
-
+The [CRYPTCATSTORE](/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure from a catalog handle.
 
 ## -parameters
 
-
-
-
 ### -param hCatalog [in]
 
-A handle to the catalog obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
-
+A handle to the catalog obtained from the <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatopen">CryptCATOpen</a> or <a href="/windows/desktop/api/mscat/nf-mscat-cryptcathandlefromstore">CryptCATHandleFromStore</a> function.
 
 ## -returns
 
-
-
-A pointer to a [CRYPTCATSTORE](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatstore)a> structure that contains the catalog store. The caller must not free this pointer or any of its members.
-
-
-
+A pointer to a [CRYPTCATSTORE](/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure that contains the catalog store. The caller must not free this pointer or any of its members.

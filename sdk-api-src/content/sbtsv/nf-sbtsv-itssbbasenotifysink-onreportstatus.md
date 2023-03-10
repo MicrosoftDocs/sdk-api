@@ -2,15 +2,12 @@
 UID: NF:sbtsv.ITsSbBaseNotifySink.OnReportStatus
 title: ITsSbBaseNotifySink::OnReportStatus (sbtsv.h)
 description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.
+helpviewer_keywords: ["CLIENT_MESSAGE_CONNECTION_ERROR","CLIENT_MESSAGE_CONNECTION_STATUS","ITsSbBaseNotifySink interface [Remote Desktop Services]","OnReportStatus method","ITsSbBaseNotifySink.OnReportStatus","ITsSbBaseNotifySink::OnReportStatus","OnReportStatus","OnReportStatus method [Remote Desktop Services]","OnReportStatus method [Remote Desktop Services]","ITsSbBaseNotifySink interface","TS_STATUS_VM_BOOTING","TS_STATUS_VM_LOADING","TS_STATUS_VM_WAKING","sbtsv/ITsSbBaseNotifySink::OnReportStatus","termserv.itssbbasenotifysink_onreportstatus"]
 old-location: termserv\itssbbasenotifysink_onreportstatus.htm
 tech.root: TermServ
 ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a
 ms.date: 12/05/2018
 ms.keywords: CLIENT_MESSAGE_CONNECTION_ERROR, CLIENT_MESSAGE_CONNECTION_STATUS, ITsSbBaseNotifySink interface [Remote Desktop Services],OnReportStatus method, ITsSbBaseNotifySink.OnReportStatus, ITsSbBaseNotifySink::OnReportStatus, OnReportStatus, OnReportStatus method [Remote Desktop Services], OnReportStatus method [Remote Desktop Services],ITsSbBaseNotifySink interface, TS_STATUS_VM_BOOTING, TS_STATUS_VM_LOADING, TS_STATUS_VM_WAKING, sbtsv/ITsSbBaseNotifySink::OnReportStatus, termserv.itssbbasenotifysink_onreportstatus
-f1_keywords:
-- sbtsv/ITsSbBaseNotifySink.OnReportStatus
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbBaseNotifySink.OnReportStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbBaseNotifySink::OnReportStatus
+ - sbtsv/ITsSbBaseNotifySink::OnReportStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbBaseNotifySink.OnReportStatus
 ---
 
 # ITsSbBaseNotifySink::OnReportStatus
@@ -48,15 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client 
     connection.
 
-
 ## -parameters
-
-
-
 
 ### -param messageType [in]
 
@@ -73,7 +70,6 @@ A status message.
 #### CLIENT_MESSAGE_CONNECTION_ERROR
 
 An error message.
-
 
 ### -param messageID [in]
 
@@ -97,37 +93,17 @@ The virtual machine is waking.
 
 The virtual machine is starting.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 This method allows plug-ins to send more specific status and error messages to the RDC client, overriding the 
     default status and error messages that Remote Desktop Connection Broker (RD Connection Broker) sends to the client.
 
 The following error codes are defined by RD Connection Broker for use by plug-ins.
 
-
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:strsafe.StringCchGetsExW
 title: StringCchGetsExW function (strsafe.h)
-description: Gets one line of text from stdin, up to and including the newline character ('\n').
+description: Gets one line of text from stdin, up to and including the newline character ('\n'). (StringCchGetsExW)
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL", "STRSAFE_FILL_ON_FAILURE", "STRSAFE_IGNORE_NULLS", "STRSAFE_NO_TRUNCATION", "STRSAFE_NULL_ON_FAILURE", "StringCchGetsEx", "StringCchGetsEx function [Menus and Other Resources]", "StringCchGetsExW", "_shell_StringCchGetsEx", "_shell_stringcchgetsex_cpp", "menurc.stringcchgetsex", "strsafe/StringCchGetsEx", "strsafe/StringCchGetsExW", "winui._shell_stringcchgetsex"]
 old-location: menurc\stringcchgetsex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgetsex.htm
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchGetsEx, StringCchGetsEx function [Menus and Other Resources], StringCchGetsExA, StringCchGetsExW, _shell_StringCchGetsEx, _shell_stringcchgetsex_cpp, menurc.stringcchgetsex, strsafe/StringCchGetsEx, strsafe/StringCchGetsExA, strsafe/StringCchGetsExW, winui._shell_stringcchgetsex
-f1_keywords:
-- strsafe/StringCchGetsEx
-dev_langs:
-- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strsafe.h
-api_name:
-- StringCchGetsEx
-- StringCchGetsExA
-- StringCchGetsExW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - StringCchGetsExW
+ - strsafe/StringCchGetsExW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strsafe.h
+api_name:
+ - StringCchGetsEx
+ - StringCchGetsExA
+ - StringCchGetsExW
 ---
 
 # StringCchGetsExW function
@@ -50,20 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets one line of text from stdin, up to and including the newline character ('\n'). The line of text is copied to the destination buffer, and the newline character  is replaced with a null character. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
-<div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCchGetsEx</b> adds to the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
+<div class="alert"><b>Note</b>  This function can only be used inline.</div><div> </div><b>StringCchGetsEx</b> adds to the functionality of <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a> by returning a pointer to the end of the destination string as well as the number of characters left unused in that string. Flags may also be passed to the function for additional control.
 
 <b>StringCchGetsEx</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=192504">gets, _getws, _getts</a></li>
+<li><a href="/cpp/c-runtime-library/gets-getws">gets, _getws, _getts</a></li>
 </ul><b>StringCchGetsEx</b> is not a replacement for <b>fgets</b>, which does not replace newline characters with a terminating null character.
 
-
 ## -parameters
-
-
-
 
 ### -param pszDest [out]
 
@@ -71,13 +68,11 @@ Type: <b>LPTSTR</b>
 
 The destination buffer, which receives the copied characters.
 
-
 ### -param cchDest [in]
 
 Type: <b>size_t</b>
 
 The size of the destination buffer, in characters. This value must be at least 2 for the function to succeed. The maximum number of characters allowed, including the terminating null character, is <b>STRSAFE_MAX_CCH</b>. If <i>cchDest</i> is too small to hold the full line of text, the data is truncated.
-
 
 ### -param ppszDestEnd [out, optional]
 
@@ -85,13 +80,11 @@ Type: <b>LPTSTR*</b>
 
 The address of a pointer to the end of <i>pszDest</i>. If <i>ppszDestEnd</i> is non-<b>NULL</b> and any data is copied into the destination buffer, this points to the terminating null character at the end of the string.
 
-
 ### -param pcchRemaining [out, optional]
 
 Type: <b>size_t*</b>
 
 The number of unused characters in <i>pszDest</i>, including the terminating null character. If <i>pcchRemaining</i> is <b>NULL</b>, the count is not kept or returned.
-
 
 ### -param dwFlags [in]
 
@@ -122,7 +115,7 @@ If the function succeeds, the low byte of <i>dwFlags</i> (0) is used to fill the
 </dl>
 </td>
 <td width="60%">
-Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>.
+Treat <b>NULL</b> string pointers like empty strings (TEXT("")). This flag is useful for emulating functions such as <a href="/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>.
 
 </td>
 </tr>
@@ -160,16 +153,12 @@ As in the case of STRSAFE_NULL_ON_FAILURE, if the function fails, <i>pszDest</i>
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -194,7 +183,7 @@ Characters were read from stdin, were copied to the buffer at <i>pszDest</i>, an
 </dl>
 </td>
 <td width="60%">
-Indicates an error or end-of-file condition. Use <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/xssktc6e(v=vs.100)">feof</a> or <a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/y2wc3w90(v=vs.100)">ferror</a> to determine which one has occurred.
+Indicates an error or end-of-file condition. Use <a href="/previous-versions/visualstudio/visual-studio-2010/xssktc6e(v=vs.100)">feof</a> or <a href="/previous-versions/visualstudio/visual-studio-2010/y2wc3w90(v=vs.100)">ferror</a> to determine which one has occurred.
 
 </td>
 </tr>
@@ -225,14 +214,9 @@ The value in <i>cchDest</i> is 1 or less.
 
 Note that this function returns an <b>HRESULT</b> value, unlike the functions that it replaces.
 
-
-
-
 ## -remarks
 
-
-
-<b>StringCchGetsEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGetsEx</b>always null-terminates a nonzero-length destination buffer.
+<b>StringCchGetsEx</b> provides additional processing for proper buffer handling in your code. Poor buffer handling is implicated in many security issues that involve buffer overruns. <b>StringCchGetsEx</b> always null-terminates a nonzero-length destination buffer.
 
 The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNORE_NULLS</b> flag is specified. However, an error due to insufficient space may still be returned even though <b>NULL</b> values are ignored.
 
@@ -265,21 +249,18 @@ The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNO
 
 
 
+
+> [!NOTE]
+> The strsafe.h header defines StringCchGetsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
-
-
-
 
 <b>Reference</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbgetsexa">StringCbGetsEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbgetsexa">StringCbGetsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a>

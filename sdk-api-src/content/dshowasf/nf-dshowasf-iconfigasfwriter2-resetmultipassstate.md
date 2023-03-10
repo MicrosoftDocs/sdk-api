@@ -2,15 +2,12 @@
 UID: NF:dshowasf.IConfigAsfWriter2.ResetMultiPassState
 title: IConfigAsfWriter2::ResetMultiPassState (dshowasf.h)
 description: The ResetMultiPassState method resets the filter when a preprocessing encoding pass is canceled before it is completed.
+helpviewer_keywords: ["IConfigAsfWriter2 interface [DirectShow]","ResetMultiPassState method","IConfigAsfWriter2.ResetMultiPassState","IConfigAsfWriter2::ResetMultiPassState","IConfigAsfWriter2ResetMultiPassState","ResetMultiPassState","ResetMultiPassState method [DirectShow]","ResetMultiPassState method [DirectShow]","IConfigAsfWriter2 interface","dshow.iconfigasfwriter2_resetmultipassstate","dshowasf/IConfigAsfWriter2::ResetMultiPassState"]
 old-location: dshow\iconfigasfwriter2_resetmultipassstate.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: ca2ec239-ffb9-4030-9160-77a0c9be0a07
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter2 interface [DirectShow],ResetMultiPassState method, IConfigAsfWriter2.ResetMultiPassState, IConfigAsfWriter2::ResetMultiPassState, IConfigAsfWriter2ResetMultiPassState, ResetMultiPassState, ResetMultiPassState method [DirectShow], ResetMultiPassState method [DirectShow],IConfigAsfWriter2 interface, dshow.iconfigasfwriter2_resetmultipassstate, dshowasf/IConfigAsfWriter2::ResetMultiPassState
-f1_keywords:
-- dshowasf/IConfigAsfWriter2.ResetMultiPassState
-dev_langs:
-- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dshowasf.h
-api_name:
-- IConfigAsfWriter2.ResetMultiPassState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IConfigAsfWriter2::ResetMultiPassState
+ - dshowasf/IConfigAsfWriter2::ResetMultiPassState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dshowasf.h
+api_name:
+ - IConfigAsfWriter2.ResetMultiPassState
 ---
 
 # IConfigAsfWriter2::ResetMultiPassState
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ResetMultiPassState</code> method resets the filter when a preprocessing encoding pass is canceled before it is completed.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -96,31 +86,15 @@ The filter was not in a stopped state.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method must be called to reset the internal state of the filter whenever a preprocessing encoding pass is canceled before the filter has received an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-preprocess-complete">EC_PREPROCESS_COMPLETE</a> event. It is not necessary to call this method if the preprocessing encoding pass completes without errors.
-
-
-
+This method must be called to reset the internal state of the filter whenever a preprocessing encoding pass is canceled before the filter has received an <a href="/windows/desktop/DirectShow/ec-preprocess-complete">EC_PREPROCESS_COMPLETE</a> event. It is not necessary to call this method if the preprocessing encoding pass completes without errors.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>

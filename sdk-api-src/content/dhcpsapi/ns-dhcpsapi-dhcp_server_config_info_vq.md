@@ -2,15 +2,12 @@
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO_VQ
 title: DHCP_SERVER_CONFIG_INFO_VQ (dhcpsapi.h)
 description: Defines settings for the DHCP server.
+helpviewer_keywords: ["*LPDHCP_SERVER_CONFIG_INFO_VQ","DEBUG_ADDRESS","DEBUG_ALLOC","DEBUG_APIS","DEBUG_API_VERBOSE","DEBUG_AUDITLOG","DEBUG_CLIENT","DEBUG_DNS","DEBUG_ERRORS","DEBUG_INIT","DEBUG_JET","DEBUG_LOG_IN_FILE","DEBUG_MESSAGE","DEBUG_MISC","DEBUG_MSTOC","DEBUG_OPTIONS","DEBUG_PARAMETERS","DEBUG_PERF","DEBUG_PING","DEBUG_PNP","DEBUG_QUARANTINE","DEBUG_REGISTRY","DEBUG_ROGUE","DEBUG_SCAVENGER","DEBUG_STARTUP_BRK","DEBUG_STOC","DEBUG_THREAD","DEBUG_THREADPOOL","DEBUG_TIMESTAMP","DEBUG_TRACE","DEBUG_TRACE_CALLS","DEBUG_TRACK","DHCP_SERVER_CONFIG_INFO_VQ","DHCP_SERVER_CONFIG_INFO_VQ structure [DHCP]","DHCP_SERVER_USE_RPC_OVER_ALL","DHCP_SERVER_USE_RPC_OVER_LPC","DHCP_SERVER_USE_RPC_OVER_NP","DHCP_SERVER_USE_RPC_OVER_TCPIP","PDHCP_SERVER_CONFIG_INFO_VQ","PDHCP_SERVER_CONFIG_INFO_VQ structure pointer [DHCP]","dhcp.dhcp_server_config_info_vq","dhcpsapi/DHCP_SERVER_CONFIG_INFO_VQ","dhcpsapi/PDHCP_SERVER_CONFIG_INFO_VQ"]
 old-location: dhcp\dhcp_server_config_info_vq.htm
 tech.root: DHCP
 ms.assetid: 54b5898f-8e9d-42be-b68e-32884d3dbe08
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SERVER_CONFIG_INFO_VQ, DEBUG_ADDRESS, DEBUG_ALLOC, DEBUG_APIS, DEBUG_API_VERBOSE, DEBUG_AUDITLOG, DEBUG_CLIENT, DEBUG_DNS, DEBUG_ERRORS, DEBUG_INIT, DEBUG_JET, DEBUG_LOG_IN_FILE, DEBUG_MESSAGE, DEBUG_MISC, DEBUG_MSTOC, DEBUG_OPTIONS, DEBUG_PARAMETERS, DEBUG_PERF, DEBUG_PING, DEBUG_PNP, DEBUG_QUARANTINE, DEBUG_REGISTRY, DEBUG_ROGUE, DEBUG_SCAVENGER, DEBUG_STARTUP_BRK, DEBUG_STOC, DEBUG_THREAD, DEBUG_THREADPOOL, DEBUG_TIMESTAMP, DEBUG_TRACE, DEBUG_TRACE_CALLS, DEBUG_TRACK, DHCP_SERVER_CONFIG_INFO_VQ, DHCP_SERVER_CONFIG_INFO_VQ structure [DHCP], DHCP_SERVER_USE_RPC_OVER_ALL, DHCP_SERVER_USE_RPC_OVER_LPC, DHCP_SERVER_USE_RPC_OVER_NP, DHCP_SERVER_USE_RPC_OVER_TCPIP, PDHCP_SERVER_CONFIG_INFO_VQ, PDHCP_SERVER_CONFIG_INFO_VQ structure pointer [DHCP], dhcp.dhcp_server_config_info_vq, dhcpsapi/DHCP_SERVER_CONFIG_INFO_VQ, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_VQ'
-f1_keywords:
-- dhcpsapi/DHCP_SERVER_CONFIG_INFO_VQ
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Dhcpsapi.h
-api_name:
-- DHCP_SERVER_CONFIG_INFO_VQ
 targetos: Windows
 req.typenames: DHCP_SERVER_CONFIG_INFO_VQ, *LPDHCP_SERVER_CONFIG_INFO_VQ
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DHCP_SERVER_CONFIG_INFO_VQ
+ - dhcpsapi/_DHCP_SERVER_CONFIG_INFO_VQ
+ - LPDHCP_SERVER_CONFIG_INFO_VQ
+ - dhcpsapi/LPDHCP_SERVER_CONFIG_INFO_VQ
+ - DHCP_SERVER_CONFIG_INFO_VQ
+ - dhcpsapi/DHCP_SERVER_CONFIG_INFO_VQ
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Dhcpsapi.h
+api_name:
+ - DHCP_SERVER_CONFIG_INFO_VQ
 ---
 
 # DHCP_SERVER_CONFIG_INFO_VQ structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DHCP_SERVER_CONFIG_INFO_VQ</b> structure defines settings for the DHCP server.
 
-
 ## -struct-fields
-
-
-
 
 ### -field APIProtocolSupport
 
@@ -111,43 +112,34 @@ The DHCP server supports all of the preceding protocols.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DatabaseName
 
 Pointer to a null-terminated Unicode string that represents the DHCP server database name that is used by the DHCP server for persistent storage.
 
-
 ### -field DatabasePath
 
 Pointer to a null-terminated Unicode string that contains the absolute path, where the DHCP server database is stored.
-
 
 ### -field BackupPath
 
 Pointer to a null-terminated Unicode string that contains the absolute path for backup storage that is used by the DHCP server for backup.
 
-
 ### -field BackupInterval
 
 Integer value that specifies the interval in minutes between backups of the DHCP server database.
-
 
 ### -field DatabaseLoggingFlag
 
 Integer value that indicates the transaction logging mode of the DHCP server. The value 1 indicates that the transaction log is enabled for the DHCP server, and 0 indicates that the transaction log is disabled for the DHCP server.
 
-
 ### -field RestoreFlag
 
 Integer value used as a BOOL flag. If this setting is <b>TRUE</b> (1), the DHCP service loads the DHCP database from the backup database on DHCP service startup. The default value of this flag is <b>FALSE</b> (0).
 
-
 ### -field DatabaseCleanupInterval
 
 Integer value that specifies the maximum time interval that DOOMED IPv4 DHCP client records are allowed to persist within the DHCP server database.
-
 
 ### -field DebugFlag
 
@@ -512,48 +504,34 @@ Enable the logging of debug output in a file.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwPingRetries
 
 Integer value that specifies the number of retries that the DHCP server can make to verify whether a particular address is already in use by any client by issuing a ping before issuing any address to the DHCP client (valid range: 0–5, inclusive).
 
-
 ### -field cbBootTableString
 
 Integer value that contains the size of the BOOT TABLE given to the DHCP client.
-
 
 ### -field wszBootTableString
 
 Pointer to a null-terminated Unicode string that contains the absolute path of the BOOTP TABLE given to the BOOTP client.
 
-
 ### -field wszBootTableString.size_is
 
- 
-
-
 ### -field wszBootTableString.size_is.cbBootTableString/2
-
- 
-
 
 ### -field fAuditLog
 
 If <b>TRUE</b>, an audit log will be written by the DHCP server; if <b>FALSE</b>, it will not.
 
-
 ### -field QuarantineOn
 
 If <b>TRUE</b>, Quarantine is turned ON on the DHCP server; if <b>FALSE</b>, it is turned OFF.
 
-
 ### -field QuarDefFail
 
 Integer value that determines the default policy for a DHCP NAP server when an NPS server is not reachable. Choices include Quarantine/unrestricted/Drop Request.
-
 
 ### -field QuarRuntimeStatus
 

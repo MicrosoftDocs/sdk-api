@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfRange.IsEmpty
 title: ITfRange::IsEmpty (msctf.h)
 description: The ITfRange::IsEmpty method verifies that the range of text is empty because the start and end anchors occupy the same position.
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","IsEmpty method","ITfRange.IsEmpty","ITfRange::IsEmpty","IsEmpty","IsEmpty method [Text Services Framework]","IsEmpty method [Text Services Framework]","ITfRange interface","_tsf_itfrange_isempty_ref","msctf/ITfRange::IsEmpty","tsf.itfrange_isempty"]
 old-location: tsf\itfrange_isempty.htm
 tech.root: TSF
 ms.assetid: 4cc720c1-acc1-445e-830e-91135fdfeeed
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEmpty method, ITfRange.IsEmpty, ITfRange::IsEmpty, IsEmpty, IsEmpty method [Text Services Framework], IsEmpty method [Text Services Framework],ITfRange interface, _tsf_itfrange_isempty_ref, msctf/ITfRange::IsEmpty, tsf.itfrange_isempty
-f1_keywords:
-- msctf/ITfRange.IsEmpty
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfRange.IsEmpty
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfRange::IsEmpty
+ - msctf/ITfRange::IsEmpty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfRange.IsEmpty
 ---
 
 # ITfRange::IsEmpty
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfRange::IsEmpty</b> method verifies that the range of text is empty because the start and end anchors occupy the same position.
-
 
 ## -parameters
 
-
-
-
 ### -param ec [in]
 
-Edit cookie that identifies the edit context. It is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
-
+Edit cookie that identifies the edit context. It is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param pfEmpty [out]
 
 Pointer to a Boolean value. <b>TRUE</b> indicates the range is empty; <b>FALSE</b> indicates the range is not empty.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -123,28 +116,17 @@ The value of the <i>ec</i> parameter is an invalid cookie.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>

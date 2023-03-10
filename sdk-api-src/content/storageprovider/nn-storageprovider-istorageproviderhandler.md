@@ -2,15 +2,12 @@
 UID: NN:storageprovider.IStorageProviderHandler
 title: IStorageProviderHandler (storageprovider.h)
 description: Retrieves the IStorageProviderPropertyHandler associated with a specific file or folder.
+helpviewer_keywords: ["IStorageProviderHandler","IStorageProviderHandler interface [Windows Shell]","IStorageProviderHandler interface [Windows Shell]","described","shell.istorageproviderhandler","storageprovider/IStorageProviderHandler"]
 old-location: shell\istorageproviderhandler.htm
 tech.root: shell
 ms.assetid: 96DEA181-8506-4FCC-85E0-A2EF79BA6C6D
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderHandler, IStorageProviderHandler interface [Windows Shell], IStorageProviderHandler interface [Windows Shell],described, shell.istorageproviderhandler, storageprovider/IStorageProviderHandler
-f1_keywords:
-- storageprovider/IStorageProviderHandler
-dev_langs:
-- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- storageprovider.h
-api_name:
-- IStorageProviderHandler
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStorageProviderHandler
+ - storageprovider/IStorageProviderHandler
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - storageprovider.h
+api_name:
+ - IStorageProviderHandler
 ---
 
 # IStorageProviderHandler interface
@@ -48,62 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with a specific file or folder.
-
+Retrieves the <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with a specific file or folder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStorageProviderHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IStorageProviderHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromfileid">GetPropertyHandlerFromFileId</a>
-</td>
-<td align="left" width="63%">
-Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided file identifier.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfrompath">GetPropertyHandlerFromPath</a>
-</td>
-<td align="left" width="63%">
-Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided path.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nf-storageprovider-istorageproviderhandler-getpropertyhandlerfromuri">GetPropertyHandlerFromUri</a>
-</td>
-<td align="left" width="63%">
-Gets an instance of <a href="https://docs.microsoft.com/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderpropertyhandler">IStorageProviderPropertyHandler</a> associated with the provided URI.
-
-</td>
-</tr>
-</table> 
-
+The <b>IStorageProviderHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStorageProviderHandler</b> also has these types of members:
 
 ## -remarks
-
-
 
 <div class="alert"><b>Caution</b>  <p class="note">You should only implement this interface if you have a specific need to do so.  
 
 </div>
 <div> </div>
-
-

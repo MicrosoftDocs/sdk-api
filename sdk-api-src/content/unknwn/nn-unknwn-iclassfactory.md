@@ -1,16 +1,13 @@
 ---
 UID: NN:unknwn.IClassFactory
 title: IClassFactory
-description: Enables a class of objects to be created.
+description: The IClassFactory interface enables a class of objects to be created.
+helpviewer_keywords: ["IClassFactory","IClassFactory interface [COM]","IClassFactory interface [COM]","described","_com_iclassfactory","com.iclassfactory","unknwnbase/IClassFactory"]
 old-location: com\iclassfactory.htm
 tech.root: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
-f1_keywords:
-- unknwn/IClassFactory
-dev_langs:
-- c++
 req.header: unknwn.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- unknwnbase.h
-api_name:
-- IClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IClassFactory
+ - unknwn/IClassFactory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - unknwnbase.h
+api_name:
+ - IClassFactory
 ---
 
 ## -description
@@ -49,43 +51,12 @@ Enables a class of objects to be created.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IClassFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClassFactory</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IClassFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">CreateInstance</a>
-</td>
-<td align="left" width="63%">
-Creates an uninitialized object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nf-unknwnbase-iclassfactory-lockserver">LockServer</a>
-</td>
-<td align="left" width="63%">
-Locks an object application open in memory.
-
-</td>
-</tr>
-</table> 
+The <b>IClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IClassFactory</b> also has these types of members:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>
+<a href="/windows/desktop/api/ole/nf-ole-olecreate">OleCreate</a>

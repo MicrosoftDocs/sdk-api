@@ -1,9 +1,10 @@
 ---
 UID: NS:strmif.tagTIMECODE
 title: TIMECODE (strmif.h)
-description: The TIMECODE structure contains basic timecode frame count information.
+description: The TIMECODE structure contains basic timecode frame count information. (TIMECODE)
+helpviewer_keywords: ["*PTIMECODE","ED_FORMAT_SMPTE_24","ED_FORMAT_SMPTE_25","ED_FORMAT_SMPTE_30","ED_FORMAT_SMPTE_30DROP","TIMECODE","TIMECODE structure [DirectShow]","TIMECODEStructure","dshow.timecode","strmif/TIMECODE","tagTIMECODE"]
 old-location: dshow\timecode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb
 ms.date: 12/05/2018
 ms.keywords: '*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPTE_30, ED_FORMAT_SMPTE_30DROP, TIMECODE, TIMECODE structure [DirectShow], TIMECODEStructure, dshow.timecode, strmif/TIMECODE, tagTIMECODE'
@@ -134,8 +135,7 @@ Fractional frame can be used to indicate temporal offset into frame when timecod
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
  
 
  
-

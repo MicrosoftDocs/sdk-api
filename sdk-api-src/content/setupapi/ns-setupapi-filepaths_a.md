@@ -1,16 +1,13 @@
 ---
 UID: NS:setupapi._FILEPATHS_A
 title: FILEPATHS_A (setupapi.h)
-description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications.
+description: The FILEPATHS structure stores source and target path information. The setup functions send the FILEPATHS structure as a parameter in several of the notifications sent to callback routines. For more information, see Notifications. (ANSI)
+helpviewer_keywords: ["*PFILEPATHS_A","FILEOP_COPY","FILEOP_DELETE","FILEPATHS","FILEPATHS structure [Setup API]","FILEPATHS_A","PFILEPATHS","PFILEPATHS structure pointer [Setup API]","SP_COPY_NOBROWSE","SP_COPY_NOSKIP","SP_COPY_WARNIFSKIP","_setupapi_filepaths_str","setup.filepaths_str","setupapi/FILEPATHS","setupapi/PFILEPATHS"]
 old-location: setup\filepaths_str.htm
-tech.root: SetupApi
+tech.root: setup
 ms.assetid: 220b1485-73f0-4c31-aa40-e4c9179bfd0f
 ms.date: 12/05/2018
 ms.keywords: '*PFILEPATHS_A, FILEOP_COPY, FILEOP_DELETE, FILEPATHS, FILEPATHS structure [Setup API], FILEPATHS_A, PFILEPATHS, PFILEPATHS structure pointer [Setup API], SP_COPY_NOBROWSE, SP_COPY_NOSKIP, SP_COPY_WARNIFSKIP, _setupapi_filepaths_str, setup.filepaths_str, setupapi/FILEPATHS, setupapi/PFILEPATHS'
-f1_keywords:
-- setupapi/FILEPATHS
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Setupapi.h
-api_name:
-- FILEPATHS
-- filepaths_a
 targetos: Windows
 req.typenames: FILEPATHS_A, *PFILEPATHS_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILEPATHS_A
+ - setupapi/_FILEPATHS_A
+ - PFILEPATHS_A
+ - setupapi/PFILEPATHS_A
+ - FILEPATHS_A
+ - setupapi/FILEPATHS_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Setupapi.h
+api_name:
+ - FILEPATHS
+ - filepaths_a
 ---
 
 # FILEPATHS_A structure
@@ -49,33 +55,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>FILEPATHS</b> structure stores source and target path information. The setup functions send the 
 <b>FILEPATHS</b> structure as a parameter in several of the notifications sent to callback routines. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/notifications">Notifications</a>.
-
+<a href="/windows/desktop/SetupApi/notifications">Notifications</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field Target
 
 Path to the target file.
-
 
 ### -field Source
 
 Path to the source file. This member is not used when the 
 <b>FILEPATHS</b> structure is used with a file delete operation.
 
-
 ### -field Win32Error
 
-If an error occurs, this member is the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
-
+If an error occurs, this member is the <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
 
 ### -field Flags
 
@@ -86,7 +84,7 @@ Additional information that depends on the notification sent with the
 
 
 For 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-copyerror">SPFILENOTIFY_COPYERROR</a> notifications, <b>Flags</b> specifies dialog box behavior and can be one of the following values.
+<a href="/windows/desktop/SetupApi/spfilenotify-copyerror">SPFILENOTIFY_COPYERROR</a> notifications, <b>Flags</b> specifies dialog box behavior and can be one of the following values.
 
 <table>
 <tr>
@@ -127,7 +125,7 @@ Inform the user that skipping the file may affect the installation.
  
 
 For 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-fileopdelayed">SPFILENOTIFY_FILEOPDELAYED</a> notifications, <b>Flags</b> specifies the type of file operation delayed and can be one of the following values.
+<a href="/windows/desktop/SetupApi/spfilenotify-fileopdelayed">SPFILENOTIFY_FILEOPDELAYED</a> notifications, <b>Flags</b> specifies the type of file operation delayed and can be one of the following values.
 
 <table>
 <tr>
@@ -155,20 +153,16 @@ A file delete operation was delayed.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
- 
-
- 
-
+> [!NOTE]
+> The setupapi.h header defines FILEPATHS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

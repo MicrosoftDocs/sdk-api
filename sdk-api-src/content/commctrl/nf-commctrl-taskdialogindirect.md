@@ -2,15 +2,12 @@
 UID: NF:commctrl.TaskDialogIndirect
 title: TaskDialogIndirect function (commctrl.h)
 description: The TaskDialogIndirect function creates, displays, and operates a task dialog.
+helpviewer_keywords: ["TaskDialogIndirect","TaskDialogIndirect function [Windows Controls]","_shell_TaskDialogIndirect","_shell_TaskDialogIndirect_cpp","commctrl/TaskDialogIndirect","controls.TaskDialogIndirect","controls._shell_TaskDialogIndirect"]
 old-location: controls\TaskDialogIndirect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogindirect.htm
 ms.date: 12/05/2018
 ms.keywords: TaskDialogIndirect, TaskDialogIndirect function [Windows Controls], _shell_TaskDialogIndirect, _shell_TaskDialogIndirect_cpp, commctrl/TaskDialogIndirect, controls.TaskDialogIndirect, controls._shell_TaskDialogIndirect
-f1_keywords:
-- commctrl/TaskDialogIndirect
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: Commctrl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 6)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Comctl32.dll
-api_name:
-- TaskDialogIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TaskDialogIndirect
+ - commctrl/TaskDialogIndirect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Comctl32.dll
+api_name:
+ - TaskDialogIndirect
 ---
 
 # TaskDialogIndirect function
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TaskDialogIndirect</b> function creates, displays, and operates a task dialog. The task dialog contains application-defined icons, messages, title, verification check box, command links, push buttons, and radio buttons. This function can register a callback function to receive notification messages.
-
 
 ## -parameters
 
-
-
-
 ### -param pTaskConfig [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
-
+Pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure that contains information used to display the task dialog.
 
 ### -param pnButton [out, optional]
 
@@ -109,17 +105,15 @@ Address of a variable that receives either:
 
 If this parameter is <b>NULL</b>, no value is returned.
 
-
 ### -param pnRadioButton [out, optional]
 
 Type: <b>int*</b>
 
 Address of a variable that receives one of the button IDs specified in the <b>pRadioButtons</b> member of the <i>pTaskConfig</i> parameter. If this parameter is <b>NULL</b>, no value is returned.
 
-
 ### -param pfVerificationFlagChecked [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Address of a variable that receives one of the following values.
 
@@ -141,12 +135,9 @@ Address of a variable that receives one of the following values.
 
 If this parameter is <b>NULL</b>, the verification checkbox is disabled.
 
-
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 This function can return one of these values.
 
@@ -200,16 +191,10 @@ The operation failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
+When you use a task dialog box to indicate that the system is low on memory, the strings pointed to by the various string and icon members in the <a href="/windows/desktop/api/commctrl/ns-commctrl-taskdialogconfig">TASKDIALOGCONFIG</a> structure should not be taken from a resource file since an attempt to load the resource may fail.
 
  If you create a task dialog while a dialog box is present, use a handle to the dialog box as the <i>hWndParent</i> parameter. The <i>hWndParent</i> parameter should not identify a child window, such as a control in a dialog box. 
 
@@ -244,21 +229,10 @@ switch (nButtonPressed)
 }
 ```
 
-
-
-
-
 ## -see-also
-
-
-
 
 <b></b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
- 
-
- 
-
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>

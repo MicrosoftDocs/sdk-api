@@ -2,15 +2,12 @@
 UID: NS:winnt._TOKEN_USER_CLAIMS
 title: TOKEN_USER_CLAIMS (winnt.h)
 description: Defines the user claims for the token.
+helpviewer_keywords: ["*PTOKEN_USER_CLAIMS","PTOKEN_USER_CLAIMS","PTOKEN_USER_CLAIMS structure pointer [Security]","TOKEN_USER_CLAIMS","TOKEN_USER_CLAIMS structure [Security]","_TOKEN_USER_CLAIMS","security.token_user_claims","winnt/PTOKEN_USER_CLAIMS","winnt/TOKEN_USER_CLAIMS"]
 old-location: security\token_user_claims.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 730541ED-0E33-4F19-BB99-145131161355
 ms.date: 12/05/2018
 ms.keywords: '*PTOKEN_USER_CLAIMS, PTOKEN_USER_CLAIMS, PTOKEN_USER_CLAIMS structure pointer [Security], TOKEN_USER_CLAIMS, TOKEN_USER_CLAIMS structure [Security], _TOKEN_USER_CLAIMS, security.token_user_claims, winnt/PTOKEN_USER_CLAIMS, winnt/TOKEN_USER_CLAIMS'
-f1_keywords:
-- winnt/TOKEN_USER_CLAIMS
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- TOKEN_USER_CLAIMS
 targetos: Windows
 req.typenames: TOKEN_USER_CLAIMS, *PTOKEN_USER_CLAIMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TOKEN_USER_CLAIMS
+ - winnt/_TOKEN_USER_CLAIMS
+ - PTOKEN_USER_CLAIMS
+ - winnt/PTOKEN_USER_CLAIMS
+ - TOKEN_USER_CLAIMS
+ - winnt/TOKEN_USER_CLAIMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - TOKEN_USER_CLAIMS
 ---
 
 # TOKEN_USER_CLAIMS structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TOKEN_USER_CLAIMS</b> structure defines the user claims for the token.
 
-
 ## -struct-fields
-
-
-
 
 ### -field UserClaims
 

@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetLocalTransportAddress
 title: IWSDiscoveredService::GetLocalTransportAddress (wsddisco.h)
 description: Retrieves the string representation of the local transport (IP) address.
+helpviewer_keywords: ["GetLocalTransportAddress","GetLocalTransportAddress method","GetLocalTransportAddress method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetLocalTransportAddress method","IWSDiscoveredService.GetLocalTransportAddress","IWSDiscoveredService::GetLocalTransportAddress","ncd.iwsdiscoveredservice_getlocaltransportaddress","wsddisco/IWSDiscoveredService::GetLocalTransportAddress"]
 old-location: ncd\iwsdiscoveredservice_getlocaltransportaddress.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: a7127ce7-175f-463e-8d54-0c637639a108
 ms.date: 12/05/2018
 ms.keywords: GetLocalTransportAddress, GetLocalTransportAddress method, GetLocalTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalTransportAddress method, IWSDiscoveredService.GetLocalTransportAddress, IWSDiscoveredService::GetLocalTransportAddress, ncd.iwsdiscoveredservice_getlocaltransportaddress, wsddisco/IWSDiscoveredService::GetLocalTransportAddress
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetLocalTransportAddress
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetLocalTransportAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetLocalTransportAddress
+ - wsddisco/IWSDiscoveredService::GetLocalTransportAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetLocalTransportAddress
 ---
 
 # IWSDiscoveredService::GetLocalTransportAddress
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the string representation of the local transport (IP) address.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszLocalTransportAddress [out]
 
 String representation of the local transport (IP) address. Is <b>NULL</b> if not available.
 Do not deallocate the output string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -102,27 +96,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
-
-
-
+The resulting pointer value is only valid for the lifetime of the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

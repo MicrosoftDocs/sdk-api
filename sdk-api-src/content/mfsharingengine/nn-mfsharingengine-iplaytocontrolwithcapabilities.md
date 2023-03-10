@@ -2,15 +2,12 @@
 UID: NN:mfsharingengine.IPlayToControlWithCapabilities
 title: IPlayToControlWithCapabilities (mfsharingengine.h)
 description: Provides functionality for the IPlayToSource to determine the capabilities of the content.
+helpviewer_keywords: ["IPlayToControlWithCapabilities","IPlayToControlWithCapabilities interface [Media Foundation]","IPlayToControlWithCapabilities interface [Media Foundation]","described","mf.iplaytocontrolwithcapabilities","mfsharingengine/IPlayToControlWithCapabilities"]
 old-location: mf\iplaytocontrolwithcapabilities.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: d670f320-30b5-4712-9192-d0976b65dd65
 ms.date: 12/05/2018
 ms.keywords: IPlayToControlWithCapabilities, IPlayToControlWithCapabilities interface [Media Foundation], IPlayToControlWithCapabilities interface [Media Foundation],described, mf.iplaytocontrolwithcapabilities, mfsharingengine/IPlayToControlWithCapabilities
-f1_keywords:
-- mfsharingengine/IPlayToControlWithCapabilities
-dev_langs:
-- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfsharingengine.h
-api_name:
-- IPlayToControlWithCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPlayToControlWithCapabilities
+ - mfsharingengine/IPlayToControlWithCapabilities
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfsharingengine.h
+api_name:
+ - IPlayToControlWithCapabilities
 ---
 
 # IPlayToControlWithCapabilities interface
@@ -48,48 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides functionality for the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a> to determine the capabilities of the content.
-
+Provides functionality for the <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a> to determine the capabilities of the content.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPlayToControlWithCapabilities</b> interface inherits from <b>IPlayToControl</b>. <b>IPlayToControlWithCapabilities</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPlayToControlWithCapabilities</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-iplaytocontrolwithcapabilities-getcapabilities">GetCapabilities</a>
-</td>
-<td align="left" width="63%">
-Gets the capabilities information for the content.
-
-</td>
-</tr>
-</table> 
-
+The <b>IPlayToControlWithCapabilities</b> interface inherits from <b>IPlayToControl</b>. <b>IPlayToControlWithCapabilities</b> also has these types of members:
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

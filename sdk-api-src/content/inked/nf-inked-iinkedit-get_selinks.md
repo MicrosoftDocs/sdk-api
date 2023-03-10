@@ -1,16 +1,13 @@
 ---
 UID: NF:inked.IInkEdit.get_SelInks
 title: IInkEdit::get_SelInks (inked.h)
-description: Gets or sets the array of embedded InkDisp objects (if displayed as ink) in the current selection.
+description: Gets or sets the array of embedded InkDisp objects (if displayed as ink) in the current selection. (Get)
+helpviewer_keywords: ["IInkEdit interface [Tablet PC]","SelInks property","IInkEdit.SelInks","IInkEdit.get_SelInks","IInkEdit::SelInks","IInkEdit::get_SelInks","IInkEdit::put_SelInks","InkEdit.get_SelInks","InkEdit.put_SelInks","SelInks property [Tablet PC]","SelInks property [Tablet PC]","IInkEdit interface","dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20","get_SelInks","inked/IInkEdit::SelInks","inked/IInkEdit::get_SelInks","inked/IInkEdit::put_SelInks","put_SelInks","tablet.inkedit_selinks"]
 old-location: tablet\inkedit_selinks.htm
 tech.root: tablet
 ms.assetid: dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelInks property, IInkEdit.SelInks, IInkEdit.get_SelInks, IInkEdit::SelInks, IInkEdit::get_SelInks, IInkEdit::put_SelInks, InkEdit.get_SelInks, InkEdit.put_SelInks, SelInks property [Tablet PC], SelInks property [Tablet PC],IInkEdit interface, dbdd590d-a8d8-44e9-aecc-fbbe0d24ea20, get_SelInks, inked/IInkEdit::SelInks, inked/IInkEdit::get_SelInks, inked/IInkEdit::put_SelInks, put_SelInks, tablet.inkedit_selinks
-f1_keywords:
-- inked/IInkEdit.SelInks
-dev_langs:
-- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: InkEd.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- InkEd.dll
-- InkEd.dll.dll
-api_name:
-- IInkEdit.SelInks
-- IInkEdit.get_SelInks
-- IInkEdit.put_SelInks
-- InkEdit.get_SelInks
-- InkEdit.put_SelInks
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInkEdit::get_SelInks
+ - inked/IInkEdit::get_SelInks
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - InkEd.dll
+ - InkEd.dll.dll
+api_name:
+ - IInkEdit.SelInks
+ - IInkEdit.get_SelInks
+ - IInkEdit.put_SelInks
+ - InkEdit.get_SelInks
+ - InkEdit.put_SelInks
 ---
 
 # IInkEdit::get_SelInks
@@ -53,54 +55,38 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-Gets or sets the array of embedded <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects (if displayed as ink) in the current selection.
+Gets or sets the array of embedded <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects (if displayed as ink) in the current selection.
 
 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
+Ink must be recognized before being accessed through this property. If it is not recognized first, the <b>SelInks</b> property always contains zero <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects. You must either call the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize</a> method (if the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecognitionTimeout</a> property equals 0) or wait until the ink is automatically recognized (when the value of the <b>RecognitionTimeout</b> property is greater than 0) to access ink through this property.
 
-
-Ink must be recognized before being accessed through this property. If it is not recognized first, the <b>SelInks</b> property always contains zero <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> objects. You must either call the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize</a> method (if the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecognitionTimeout</a> property equals 0) or wait until the ink is automatically recognized (when the value of the <b>RecognitionTimeout</b> property is greater than 0) to access ink through this property.
-
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control ignores any <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> on ink set through the <b>SelInks</b> property. Instead, the InkEdit control applies alternate drawing attributes according to the attributes of nearby text.
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control ignores any <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> on ink set through the <b>SelInks</b> property. Instead, the InkEdit control applies alternate drawing attributes according to the attributes of nearby text.
 
 This property is run time only.
 
-
-
-
 ## -see-also
 
+<a href="../inked/nn-inked-iinkedit.md">IInkEdit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecoTimeout Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout">RecoTimeout Property</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize Method [InkEdit Control]</a>
- 
-
- 
-
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-recognize">Recognize Method [InkEdit Control]</a>

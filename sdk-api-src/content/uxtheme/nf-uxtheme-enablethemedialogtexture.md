@@ -2,15 +2,12 @@
 UID: NF:uxtheme.EnableThemeDialogTexture
 title: EnableThemeDialogTexture function (uxtheme.h)
 description: Enables or disables the visual style of the background of a dialog window.
+helpviewer_keywords: ["EnableThemeDialogTexture","EnableThemeDialogTexture function [Windows Controls]","controls.EnableThemeDialogTexture","controls.inet_EnableThemeDialogTexture","inet_EnableThemeDialogTexture","inet_EnableThemeDialogTexture_cpp","uxtheme/EnableThemeDialogTexture"]
 old-location: controls\EnableThemeDialogTexture.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\enablethemedialogtexture.htm
 ms.date: 12/05/2018
 ms.keywords: EnableThemeDialogTexture, EnableThemeDialogTexture function [Windows Controls], controls.EnableThemeDialogTexture, controls.inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture, inet_EnableThemeDialogTexture_cpp, uxtheme/EnableThemeDialogTexture
-f1_keywords:
-- uxtheme/EnableThemeDialogTexture
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-api_name:
-- EnableThemeDialogTexture
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EnableThemeDialogTexture
+ - uxtheme/EnableThemeDialogTexture
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+api_name:
+ - EnableThemeDialogTexture
 ---
 
 # EnableThemeDialogTexture function
@@ -48,25 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables the visual style of the background of a dialog window.
-
 
 ## -parameters
 
-
-
-
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Window handle of the target dialog box.
 
-
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One of the following option flag values:
 
@@ -153,25 +149,13 @@ ETDT_DISABLE | ETDT_ENABLE | ETDT_USETABTEXTURE | ETDT_USEAEROWIZARDTABTEXTURE.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 <b>EnableThemeDialogTexture</b> can be used to tailor dialog box compatibility with child windows and controls that may or may not coordinate rendering their client area backgrounds with that of their parent dialog box.
-
-
-

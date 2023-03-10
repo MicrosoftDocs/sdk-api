@@ -2,15 +2,12 @@
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetDescrambledStatus
 title: IESLicenseRenewalResultEvent::GetDescrambledStatus (tuner.h)
 description: Gets a code from a LicenseRenewalResult event that indicates the result of an attempt to descramble protected content.
+helpviewer_keywords: ["GetDescrambledStatus","GetDescrambledStatus method [DirectShow]","GetDescrambledStatus method [DirectShow]","IESLicenseRenewalResultEvent interface","IESLicenseRenewalResultEvent interface [DirectShow]","GetDescrambledStatus method","IESLicenseRenewalResultEvent.GetDescrambledStatus","IESLicenseRenewalResultEvent::GetDescrambledStatus","mstv.ieslicenserenewalresultevent_getdescrambledstatus","tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus"]
 old-location: mstv\ieslicenserenewalresultevent_getdescrambledstatus.htm
 tech.root: mstv
 ms.assetid: ed09aea2-e000-40ce-bd94-a174e75a5001
 ms.date: 12/05/2018
 ms.keywords: GetDescrambledStatus, GetDescrambledStatus method [DirectShow], GetDescrambledStatus method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetDescrambledStatus method, IESLicenseRenewalResultEvent.GetDescrambledStatus, IESLicenseRenewalResultEvent::GetDescrambledStatus, mstv.ieslicenserenewalresultevent_getdescrambledstatus, tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
-f1_keywords:
-- tuner/IESLicenseRenewalResultEvent.GetDescrambledStatus
-dev_langs:
-- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tuner.h
-api_name:
-- IESLicenseRenewalResultEvent.GetDescrambledStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IESLicenseRenewalResultEvent::GetDescrambledStatus
+ - tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tuner.h
+api_name:
+ - IESLicenseRenewalResultEvent.GetDescrambledStatus
 ---
 
 # IESLicenseRenewalResultEvent::GetDescrambledStatus
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets a code  from a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">LicenseRenewalResult</a> event that indicates the result of an attempt to descramble protected content.
-
+Gets a code  from a  <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">LicenseRenewalResult</a> event that indicates the result of an attempt to descramble protected content.
 
 ## -parameters
-
-
-
 
 ### -param pDescrambledStatus [out, retval]
 
@@ -386,25 +383,11 @@ No entitlement (other).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>

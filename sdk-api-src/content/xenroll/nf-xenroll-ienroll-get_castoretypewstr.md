@@ -1,16 +1,13 @@
 ---
 UID: NF:xenroll.IEnroll.get_CAStoreTypeWStr
 title: IEnroll::get_CAStoreTypeWStr (xenroll.h)
-description: Sets or retrieves the type of store to use for the store specified by the CAStoreNameWStr property.
+description: Sets or retrieves the type of store to use for the store specified by the CAStoreNameWStr property. (Get)
+helpviewer_keywords: ["CAStoreTypeWStr property [Security]","CAStoreTypeWStr property [Security]","IEnroll interface","IEnroll interface [Security]","CAStoreTypeWStr property","IEnroll.CAStoreTypeWStr","IEnroll.get_CAStoreTypeWStr","IEnroll::CAStoreTypeWStr","IEnroll::get_CAStoreTypeWStr","IEnroll::put_CAStoreTypeWStr","get_CAStoreTypeWStr","security.ienroll4_castoretypewstr","sz_CERT_STORE_PROV_SYSTEM_W","xenroll/IEnroll::CAStoreTypeWStr","xenroll/IEnroll::get_CAStoreTypeWStr","xenroll/IEnroll::put_CAStoreTypeWStr"]
 old-location: security\ienroll4_castoretypewstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: cbb60c1c-04ed-4477-bf8e-4dae9fd964ef
 ms.date: 12/05/2018
 ms.keywords: CAStoreTypeWStr property [Security], CAStoreTypeWStr property [Security],IEnroll interface, IEnroll interface [Security],CAStoreTypeWStr property, IEnroll.CAStoreTypeWStr, IEnroll.get_CAStoreTypeWStr, IEnroll::CAStoreTypeWStr, IEnroll::get_CAStoreTypeWStr, IEnroll::put_CAStoreTypeWStr, get_CAStoreTypeWStr, security.ienroll4_castoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::CAStoreTypeWStr, xenroll/IEnroll::get_CAStoreTypeWStr, xenroll/IEnroll::put_CAStoreTypeWStr
-f1_keywords:
-- xenroll/IEnroll.CAStoreTypeWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.CAStoreTypeWStr
-- IEnroll.get_CAStoreTypeWStr
-- IEnroll.put_CAStoreTypeWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_CAStoreTypeWStr
+ - xenroll/IEnroll::get_CAStoreTypeWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.CAStoreTypeWStr
+ - IEnroll.get_CAStoreTypeWStr
+ - IEnroll.put_CAStoreTypeWStr
 ---
 
 # IEnroll::get_CAStoreTypeWStr
@@ -50,47 +52,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>CAStoreTypeWStr</b> property sets or retrieves the type of store to use for the store specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property. This store type is passed directly on to the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property. This store type is passed directly on to the  <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a> function.
 
-The default value for this property is  sz_CERT_STORE_PROV_SYSTEM. Only system stores are supported. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
+The default value for this property is  sz_CERT_STORE_PROV_SYSTEM. Only system stores are supported. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 This property is read/write.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
-
 
 The <b>CAStoreTypeWStr</b> property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob">acceptPKCS7Blob</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob">acceptPKCS7Blob</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptfilepkcs7wstr">acceptFilePKCS7WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptfilepkcs7wstr">acceptFilePKCS7WStr</a>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

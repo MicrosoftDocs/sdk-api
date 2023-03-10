@@ -2,15 +2,12 @@
 UID: NF:intsafe.UInt8Mult
 title: UInt8Mult function (intsafe.h)
 description: Multiplies two values of type UINT8.
+helpviewer_keywords: ["UInt8Mult","UInt8Mult function [Windows Shell]","intsafe/UInt8Mult","shell.UInt8Mult"]
 old-location: shell\UInt8Mult.htm
 tech.root: shell
 ms.assetid: 0e8862e8-68b6-4ac3-a8fc-872c1dbb3265
 ms.date: 12/05/2018
 ms.keywords: UInt8Mult, UInt8Mult function [Windows Shell], intsafe/UInt8Mult, shell.UInt8Mult
-f1_keywords:
-- intsafe/UInt8Mult
-dev_langs:
-- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- intsafe.h
-api_name:
-- UInt8Mult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UInt8Mult
+ - intsafe/UInt8Mult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - intsafe.h
+api_name:
+ - UInt8Mult
 ---
 
 # UInt8Mult function
@@ -48,35 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Multiplies two values of type <b>UINT8</b>.
 
-
 ## -parameters
-
-
-
 
 ### -param u8Multiplicand [in]
 
 The first value.
 
-
 ### -param u8Multiplier [in]
 
 The second value.
-
 
 ### -param pu8Result [out]
 
 The result.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

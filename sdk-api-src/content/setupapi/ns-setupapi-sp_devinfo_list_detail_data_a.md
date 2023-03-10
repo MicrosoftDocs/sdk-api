@@ -1,16 +1,13 @@
 ---
 UID: NS:setupapi._SP_DEVINFO_LIST_DETAIL_DATA_A
 title: SP_DEVINFO_LIST_DETAIL_DATA_A (setupapi.h)
-description: An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class).
+description: An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class). (ANSI)
+helpviewer_keywords: ["*PSP_DEVINFO_LIST_DETAIL_DATA_A","PSP_DEVINFO_LIST_DETAIL_DATA","PSP_DEVINFO_LIST_DETAIL_DATA structure pointer [Device and Driver Installation]","SP_DEVINFO_LIST_DETAIL_DATA","SP_DEVINFO_LIST_DETAIL_DATA structure [Device and Driver Installation]","SP_DEVINFO_LIST_DETAIL_DATA_A","devinst.sp_devinfo_list_detail_data","di-struct_8539bcfc-25ee-49f5-bc59-74efc6aae5bf.xml","setupapi/PSP_DEVINFO_LIST_DETAIL_DATA","setupapi/SP_DEVINFO_LIST_DETAIL_DATA"]
 old-location: devinst\sp_devinfo_list_detail_data.htm
 tech.root: devinst
 ms.assetid: 03e6c137-5a7f-443d-878f-5e5c6642dde9
 ms.date: 12/05/2018
 ms.keywords: '*PSP_DEVINFO_LIST_DETAIL_DATA_A, PSP_DEVINFO_LIST_DETAIL_DATA, PSP_DEVINFO_LIST_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA, SP_DEVINFO_LIST_DETAIL_DATA structure [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA_A, devinst.sp_devinfo_list_detail_data, di-struct_8539bcfc-25ee-49f5-bc59-74efc6aae5bf.xml, setupapi/PSP_DEVINFO_LIST_DETAIL_DATA, setupapi/SP_DEVINFO_LIST_DETAIL_DATA'
-f1_keywords:
-- setupapi/SP_DEVINFO_LIST_DETAIL_DATA
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- setupapi.h
-api_name:
-- SP_DEVINFO_LIST_DETAIL_DATA
-- sp_devinfo_list_detail_data_a
 targetos: Windows
 req.typenames: SP_DEVINFO_LIST_DETAIL_DATA_A, *PSP_DEVINFO_LIST_DETAIL_DATA_A
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SP_DEVINFO_LIST_DETAIL_DATA_A
+ - setupapi/_SP_DEVINFO_LIST_DETAIL_DATA_A
+ - PSP_DEVINFO_LIST_DETAIL_DATA_A
+ - setupapi/PSP_DEVINFO_LIST_DETAIL_DATA_A
+ - SP_DEVINFO_LIST_DETAIL_DATA_A
+ - setupapi/SP_DEVINFO_LIST_DETAIL_DATA_A
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - setupapi.h
+api_name:
+ - SP_DEVINFO_LIST_DETAIL_DATA
+ - sp_devinfo_list_detail_data_a
 ---
 
 # SP_DEVINFO_LIST_DETAIL_DATA_A structure
@@ -49,24 +55,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class).
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size, in bytes, of the SP_DEVINFO_LIST_DETAIL_DATA structure.
 
-
 ### -field ClassGuid
 
 The setup class GUID that is associated with the device information set or GUID_NULL if there is no associated setup class.
-
 
 ### -field RemoteMachineHandle
 
@@ -74,19 +73,15 @@ If the device information set is for a remote computer, this member is a configu
 
 This is typically the parameter that components use to access the remote computer. The <b>RemoteMachineName</b> contains a string, in case the component requires the name of the remote computer.
 
-
 ### -field RemoteMachineName
 
 A NULL-terminated string that contains the name of the remote computer. If the device information set is for the local computer, this member is an empty string.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>
- 
-
- 
-
+> [!NOTE]
+> The setupapi.h header defines SP_DEVINFO_LIST_DETAIL_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

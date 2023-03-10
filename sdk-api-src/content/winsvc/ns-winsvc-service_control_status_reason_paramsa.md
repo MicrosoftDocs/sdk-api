@@ -1,16 +1,13 @@
 ---
 UID: NS:winsvc._SERVICE_CONTROL_STATUS_REASON_PARAMSA
 title: SERVICE_CONTROL_STATUS_REASON_PARAMSA (winsvc.h)
-description: Contains service control parameters.
+description: Contains service control parameters. (ANSI)
+helpviewer_keywords: ["*PSERVICE_CONTROL_STATUS_REASON_PARAMSA","PSERVICE_CONTROL_STATUS_REASON_PARAMS","PSERVICE_CONTROL_STATUS_REASON_PARAMS structure pointer","SERVICE_CONTROL_STATUS_REASON_PARAMS","SERVICE_CONTROL_STATUS_REASON_PARAMS structure","SERVICE_CONTROL_STATUS_REASON_PARAMSA","SERVICE_CONTROL_STATUS_REASON_PARAMSW","SERVICE_STOP_REASON_FLAG_CUSTOM","SERVICE_STOP_REASON_FLAG_PLANNED","SERVICE_STOP_REASON_FLAG_UNPLANNED","SERVICE_STOP_REASON_MAJOR_APPLICATION","SERVICE_STOP_REASON_MAJOR_HARDWARE","SERVICE_STOP_REASON_MAJOR_NONE","SERVICE_STOP_REASON_MAJOR_OPERATINGSYSTEM","SERVICE_STOP_REASON_MAJOR_OTHER","SERVICE_STOP_REASON_MAJOR_SOFTWARE","SERVICE_STOP_REASON_MINOR_DISK","SERVICE_STOP_REASON_MINOR_ENVIRONMENT","SERVICE_STOP_REASON_MINOR_HARDWARE_DRIVER","SERVICE_STOP_REASON_MINOR_HUNG","SERVICE_STOP_REASON_MINOR_INSTALLATION","SERVICE_STOP_REASON_MINOR_MAINTENANCE","SERVICE_STOP_REASON_MINOR_MMC","SERVICE_STOP_REASON_MINOR_NETWORKCARD","SERVICE_STOP_REASON_MINOR_NETWORK_CONNECTIVITY","SERVICE_STOP_REASON_MINOR_NONE","SERVICE_STOP_REASON_MINOR_OTHER","SERVICE_STOP_REASON_MINOR_OTHERDRIVER","SERVICE_STOP_REASON_MINOR_RECONFIG","SERVICE_STOP_REASON_MINOR_SECURITY","SERVICE_STOP_REASON_MINOR_SECURITYFIX","SERVICE_STOP_REASON_MINOR_SECURITYFIX_UNINSTALL","SERVICE_STOP_REASON_MINOR_SERVICEPACK","SERVICE_STOP_REASON_MINOR_SERVICEPACK_UNINSTALL","SERVICE_STOP_REASON_MINOR_SOFTWARE_UPDATE","SERVICE_STOP_REASON_MINOR_SOFTWARE_UPDATE_UNINSTALL","SERVICE_STOP_REASON_MINOR_UNSTABLE","SERVICE_STOP_REASON_MINOR_UPGRADE","SERVICE_STOP_REASON_MINOR_WMI","base.service_control_status_reason_params","winsvc/PSERVICE_CONTROL_STATUS_REASON_PARAMS","winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMS","winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMSA","winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMSW"]
 old-location: base\service_control_status_reason_params.htm
-tech.root: Services
+tech.root: security
 ms.assetid: f7213cbb-255f-4ce3-93c9-5537256e078f
 ms.date: 12/05/2018
 ms.keywords: '*PSERVICE_CONTROL_STATUS_REASON_PARAMSA, PSERVICE_CONTROL_STATUS_REASON_PARAMS, PSERVICE_CONTROL_STATUS_REASON_PARAMS structure pointer, SERVICE_CONTROL_STATUS_REASON_PARAMS, SERVICE_CONTROL_STATUS_REASON_PARAMS structure, SERVICE_CONTROL_STATUS_REASON_PARAMSA, SERVICE_CONTROL_STATUS_REASON_PARAMSW, SERVICE_STOP_REASON_FLAG_CUSTOM, SERVICE_STOP_REASON_FLAG_PLANNED, SERVICE_STOP_REASON_FLAG_UNPLANNED, SERVICE_STOP_REASON_MAJOR_APPLICATION, SERVICE_STOP_REASON_MAJOR_HARDWARE, SERVICE_STOP_REASON_MAJOR_NONE, SERVICE_STOP_REASON_MAJOR_OPERATINGSYSTEM, SERVICE_STOP_REASON_MAJOR_OTHER, SERVICE_STOP_REASON_MAJOR_SOFTWARE, SERVICE_STOP_REASON_MINOR_DISK, SERVICE_STOP_REASON_MINOR_ENVIRONMENT, SERVICE_STOP_REASON_MINOR_HARDWARE_DRIVER, SERVICE_STOP_REASON_MINOR_HUNG, SERVICE_STOP_REASON_MINOR_INSTALLATION, SERVICE_STOP_REASON_MINOR_MAINTENANCE, SERVICE_STOP_REASON_MINOR_MMC, SERVICE_STOP_REASON_MINOR_NETWORKCARD, SERVICE_STOP_REASON_MINOR_NETWORK_CONNECTIVITY, SERVICE_STOP_REASON_MINOR_NONE, SERVICE_STOP_REASON_MINOR_OTHER, SERVICE_STOP_REASON_MINOR_OTHERDRIVER, SERVICE_STOP_REASON_MINOR_RECONFIG, SERVICE_STOP_REASON_MINOR_SECURITY, SERVICE_STOP_REASON_MINOR_SECURITYFIX, SERVICE_STOP_REASON_MINOR_SECURITYFIX_UNINSTALL, SERVICE_STOP_REASON_MINOR_SERVICEPACK, SERVICE_STOP_REASON_MINOR_SERVICEPACK_UNINSTALL, SERVICE_STOP_REASON_MINOR_SOFTWARE_UPDATE, SERVICE_STOP_REASON_MINOR_SOFTWARE_UPDATE_UNINSTALL, SERVICE_STOP_REASON_MINOR_UNSTABLE, SERVICE_STOP_REASON_MINOR_UPGRADE, SERVICE_STOP_REASON_MINOR_WMI, base.service_control_status_reason_params, winsvc/PSERVICE_CONTROL_STATUS_REASON_PARAMS, winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMS, winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMSA, winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMSW'
-f1_keywords:
-- winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMS
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_CONTROL_STATUS_REASON_PARAMS
-- SERVICE_CONTROL_STATUS_REASON_PARAMSA
-- SERVICE_CONTROL_STATUS_REASON_PARAMSW
 targetos: Windows
 req.typenames: SERVICE_CONTROL_STATUS_REASON_PARAMSA, *PSERVICE_CONTROL_STATUS_REASON_PARAMSA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - winsvc/_SERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - PSERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - winsvc/PSERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - SERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - winsvc/SERVICE_CONTROL_STATUS_REASON_PARAMSA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_CONTROL_STATUS_REASON_PARAMS
+ - SERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - SERVICE_CONTROL_STATUS_REASON_PARAMSW
 ---
 
 # SERVICE_CONTROL_STATUS_REASON_PARAMSA structure
@@ -50,14 +56,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains service control parameters.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwReason
 
@@ -456,37 +457,31 @@ WMI issue.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pszComment
 
 An optional string that provides additional information about the service stop. This string is stored in the event log along with the stop reason code. This member must be <b>NULL</b> or a valid string that is less than 128 characters, including the terminating null character.
 
-
 ### -field ServiceStatus
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure that receives the latest service status information. The information returned reflects the most recent status that the service reported to the service control manager. 
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure that receives the latest service status information. The information returned reflects the most recent status that the service reported to the service control manager. 
 
 
 
 
 The service control manager fills in the structure only when 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> returns one of the following error codes: NO_ERROR, ERROR_INVALID_SERVICE_CONTROL, ERROR_SERVICE_CANNOT_ACCEPT_CTRL, or ERROR_SERVICE_NOT_ACTIVE. Otherwise, the structure is not filled in.
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a> returns one of the following error codes: NO_ERROR, ERROR_INVALID_SERVICE_CONTROL, ERROR_SERVICE_CANNOT_ACCEPT_CTRL, or ERROR_SERVICE_NOT_ACTIVE. Otherwise, the structure is not filled in.
 
 ## -see-also
 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlserviceexa">ControlServiceEx</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a>
- 
-
- 
-
+> [!NOTE]
+> The winsvc.h header defines SERVICE_CONTROL_STATUS_REASON_PARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

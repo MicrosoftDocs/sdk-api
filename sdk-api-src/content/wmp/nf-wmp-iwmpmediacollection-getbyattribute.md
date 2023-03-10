@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPMediaCollection.getByAttribute
 title: IWMPMediaCollection::getByAttribute (wmp.h)
 description: The getByAttribute method retrieves a pointer to an IWMPPlaylist interface. This interface corresponds to the specified attribute having the specified value.
+helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getByAttribute method","IWMPMediaCollection.getByAttribute","IWMPMediaCollection::getByAttribute","IWMPMediaCollectiongetByAttribute","getByAttribute","getByAttribute method [Windows Media Player]","getByAttribute method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getbyattribute","wmp/IWMPMediaCollection::getByAttribute"]
 old-location: wmp\iwmpmediacollection_getbyattribute.htm
 tech.root: WMP
 ms.assetid: ab1c53dd-6145-4b2b-a665-4c8c79143284
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAttribute method, IWMPMediaCollection.getByAttribute, IWMPMediaCollection::getByAttribute, IWMPMediaCollectiongetByAttribute, getByAttribute, getByAttribute method [Windows Media Player], getByAttribute method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyattribute, wmp/IWMPMediaCollection::getByAttribute
-f1_keywords:
-- wmp/IWMPMediaCollection.getByAttribute
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPMediaCollection.getByAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPMediaCollection::getByAttribute
+ - wmp/IWMPMediaCollection::getByAttribute
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPMediaCollection.getByAttribute
 ---
 
 # IWMPMediaCollection::getByAttribute
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getByAttribute</b> method retrieves a pointer to an <b>IWMPPlaylist</b> interface. This interface corresponds to the specified attribute having the specified value.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrAttribute [in]
 
 String containing the specified attribute.
 
-
 ### -param bstrValue [in]
 
 String containing the specified value.
-
 
 ### -param ppMediaItems [out]
 
 Pointer to a pointer to an <b>IWMPPlaylist</b> interface for the retrieved media items.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -98,14 +87,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be used to create a generic query for media items that match a value for an attribute in the database. This is useful in the case of user-defined attributes. If the attribute does not exist, an error will result.
 
@@ -145,28 +128,18 @@ You can use this method to retrieve all of the media items of a specific type. U
 </table>
  
 
-Before calling this method, you must have read access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
+Before calling this method, you must have read access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
-There are two ways you ways you can retrieve an <b>IWMPMediaCollection</b> interface, and the behavior of the <b>getByAttribute</b> method depends on which of those two ways you use. If you retrieve the interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_mediacollection">IWMPCore::get_mediaCollection</a>, then the <b>getByAttribute</b> method returns all the media items in the library that have the specified attribute and value. If you retrieve the interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_mediacollection">IWMPLibrary::get_mediaCollection</a>, then the <b>getByAttribute</b> method returns only the audio items in the library that have the specified attribute and value.
-
-
-
+There are two ways you ways you can retrieve an <b>IWMPMediaCollection</b> interface, and the behavior of the <b>getByAttribute</b> method depends on which of those two ways you use. If you retrieve the interface by calling <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_mediacollection">IWMPCore::get_mediaCollection</a>, then the <b>getByAttribute</b> method returns all the media items in the library that have the specified attribute and value. If you retrieve the interface by calling <a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_mediacollection">IWMPLibrary::get_mediaCollection</a>, then the <b>getByAttribute</b> method returns only the audio items in the library that have the specified attribute and value.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getall">IWMPPlaylistCollection::getAll</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getall">IWMPPlaylistCollection::getAll</a>

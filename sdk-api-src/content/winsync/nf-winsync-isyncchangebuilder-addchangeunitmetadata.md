@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncChangeBuilder.AddChangeUnitMetadata
 title: ISyncChangeBuilder::AddChangeUnitMetadata (winsync.h)
 description: Adds change unit metadata to an item change.
+helpviewer_keywords: ["AddChangeUnitMetadata","AddChangeUnitMetadata method [Windows Sync]","AddChangeUnitMetadata method [Windows Sync]","ISyncChangeBuilder interface","ISyncChangeBuilder interface [Windows Sync]","AddChangeUnitMetadata method","ISyncChangeBuilder.AddChangeUnitMetadata","ISyncChangeBuilder::AddChangeUnitMetadata","winsync.isyncchangebuilder_addchangeunitmetadata","winsync/ISyncChangeBuilder::AddChangeUnitMetadata"]
 old-location: winsync\isyncchangebuilder_addchangeunitmetadata.htm
 tech.root: winsync
 ms.assetid: 218e0f9d-9471-4b21-a424-b1298da2fb23
 ms.date: 12/05/2018
 ms.keywords: AddChangeUnitMetadata, AddChangeUnitMetadata method [Windows Sync], AddChangeUnitMetadata method [Windows Sync],ISyncChangeBuilder interface, ISyncChangeBuilder interface [Windows Sync],AddChangeUnitMetadata method, ISyncChangeBuilder.AddChangeUnitMetadata, ISyncChangeBuilder::AddChangeUnitMetadata, winsync.isyncchangebuilder_addchangeunitmetadata, winsync/ISyncChangeBuilder::AddChangeUnitMetadata
-f1_keywords:
-- winsync/ISyncChangeBuilder.AddChangeUnitMetadata
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeBuilder.AddChangeUnitMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeBuilder::AddChangeUnitMetadata
+ - winsync/ISyncChangeBuilder::AddChangeUnitMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeBuilder.AddChangeUnitMetadata
 ---
 
 # ISyncChangeBuilder::AddChangeUnitMetadata
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Adds change unit metadata to an item change.
 
-
 ## -parameters
-
-
-
 
 ### -param pbChangeUnitId [in]
 
 The ID of the change unit to add to the item change.
 
-
 ### -param pChangeUnitVersion [in]
 
 The version of the change unit change to add to the item change.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -131,22 +124,11 @@ The item change to which to add this change unit to has <b>SYNC_CHANGE_FLAG_DELE
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebuilder">ISyncChangeBuilder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebuilder">ISyncChangeBuilder Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>

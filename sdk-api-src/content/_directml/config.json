@@ -1,0 +1,7 @@
+{
+  "tech": "directml",
+  "headers": [
+    "directml.h"
+  ],
+  "displayName": "DirectML"
+}

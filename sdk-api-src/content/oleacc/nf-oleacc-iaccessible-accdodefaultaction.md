@@ -2,15 +2,12 @@
 UID: NF:oleacc.IAccessible.accDoDefaultAction
 title: IAccessible::accDoDefaultAction (oleacc.h)
 description: The IAccessible::accDoDefaultAction method performs the specified object's default action. Not all objects have a default action.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","accDoDefaultAction method","IAccessible.accDoDefaultAction","IAccessible::accDoDefaultAction","_msaa_IAccessible_accDoDefaultAction","accDoDefaultAction","accDoDefaultAction method [Windows Accessibility]","accDoDefaultAction method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__accdodefaultaction","oleacc/IAccessible::accDoDefaultAction","winauto.iaccessible_iaccessible__accdodefaultaction"]
 old-location: winauto\iaccessible_iaccessible__accdodefaultaction.htm
 tech.root: WinAuto
 ms.assetid: 5b731f52-d0b0-4b69-91a0-fdd84e91533d
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accDoDefaultAction method, IAccessible.accDoDefaultAction, IAccessible::accDoDefaultAction, _msaa_IAccessible_accDoDefaultAction, accDoDefaultAction, accDoDefaultAction method [Windows Accessibility], accDoDefaultAction method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accdodefaultaction, oleacc/IAccessible::accDoDefaultAction, winauto.iaccessible_iaccessible__accdodefaultaction
-f1_keywords:
-- oleacc/IAccessible.accDoDefaultAction
-dev_langs:
-- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Oleacc.dll
-api_name:
-- IAccessible.accDoDefaultAction
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT Server 4.0 with SP6 and later and Windows 95
 ms.custom: 19H1
+f1_keywords:
+ - IAccessible::accDoDefaultAction
+ - oleacc/IAccessible::accDoDefaultAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Oleacc.dll
+api_name:
+ - IAccessible.accDoDefaultAction
 ---
 
 # IAccessible::accDoDefaultAction
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IAccessible::accDoDefaultAction</b> method performs the specified object's default action. Not all objects have a default action.
 
-
 ## -parameters
-
-
-
 
 ### -param varChild [in]
 
 Type: <b>VARIANT</b>
 
-Specifies whether the default action belongs to the object or one of the object's child elements. For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
-
+Specifies whether the default action belongs to the object or one of the object's child elements. For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -102,18 +96,12 @@ An argument is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Clients retrieve a string that describes the object's default action by calling <b>IAccessible::get_accDefaultAction</b>.
 
-<b>Note to client developers:  </b>When used on a menu item in a standard system menu, <b>accDoDefaultAction</b> returns S_OK but fails to perform the action if the character used in the access key (the underlined character in the text of a menu item name, also called a mnemonic) is ?, !, @, or any other character that requires the SHIFT key or another modifier key. This also happens on international keyboards with an access key character that requires the ALT GR key to be pressed. This is not an issue for menus in other applications, such as Microsoft Office or Windows Internet Explorer. For more information about access keys, see <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>.
+<b>Note to client developers:  </b>When used on a menu item in a standard system menu, <b>accDoDefaultAction</b> returns S_OK but fails to perform the action if the character used in the access key (the underlined character in the text of a menu item name, also called a mnemonic) is ?, !, @, or any other character that requires the SHIFT key or another modifier key. This also happens on international keyboards with an access key character that requires the ALT GR key to be pressed. This is not an issue for menus in other applications, such as Microsoft Office or Windows Internet Explorer. For more information about access keys, see <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>.
 
 Also, while <b>accDoDefaultAction</b> is supposed to return immediately, some implementations block the return. For example, if clicking a link displays a dialog, some implementations will block the return until the dialog is dismissed. Such delays can prevent client applications from processing a dialog box. Servers should avoid implementations that block returns.
 
@@ -163,37 +151,26 @@ HRESULT DoAction(IAccessible* pAcc)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/appendix-a--supported-user-interface-elements-reference">Appendix A: Supported User Interface Elements Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/appendix-a--supported-user-interface-elements-reference">Appendix A: Supported User Interface Elements Reference</a>
+<a href="/windows/desktop/WinAuto/defaultaction-property">DefaultAction Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/defaultaction-property">DefaultAction Property</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accdefaultaction">IAccessible::get_accDefaultAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accdefaultaction">IAccessible::get_accDefaultAction</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

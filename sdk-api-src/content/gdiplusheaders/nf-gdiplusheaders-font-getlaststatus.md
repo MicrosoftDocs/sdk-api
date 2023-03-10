@@ -2,15 +2,12 @@
 UID: NF:gdiplusheaders.Font.GetLastStatus
 title: Font::GetLastStatus (gdiplusheaders.h)
 description: The Font::GetLastStatus method returns a value that indicates the nature of this Font object's most recent method failure.
+helpviewer_keywords: ["Font class [GDI+]","GetLastStatus method","Font.GetLastStatus","Font::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Font class","_gdiplus_CLASS_Font_GetLastStatus_","gdiplus._gdiplus_CLASS_Font_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlaststatus_84.htm
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetLastStatus method, Font.GetLastStatus, Font::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Font class, _gdiplus_CLASS_Font_GetLastStatus_, gdiplus._gdiplus_CLASS_Font_GetLastStatus_
-f1_keywords:
-- gdiplusheaders/Font.GetLastStatus
-dev_langs:
-- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Gdiplus.dll
-api_name:
-- Font.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: GDI+ 1.0
 ms.custom: 19H1
+f1_keywords:
+ - Font::GetLastStatus
+ - gdiplusheaders/Font::GetLastStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Gdiplus.dll
+api_name:
+ - Font.GetLastStatus
 ---
 
 # Font::GetLastStatus
@@ -49,45 +51,30 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Font::GetLastStatus</b> method returns a value that indicates the nature of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object's most recent method failure.
-
-
-## -parameters
-
-
-
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object's most recent method failure.
 
 
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-
-Type: <strong>Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
-</strong>
-
-The <b>Font::GetLastStatus</b> method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+The <b>Font::GetLastStatus</b> method returns an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If no methods invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object have failed, then <b>Font::GetLastStatus</b> returns Ok.
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object have failed, then <b>Font::GetLastStatus</b> returns Ok.
 
 If at least one method invoked on this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object has failed, then <b>Font::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
-
-
-
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object has failed, then <b>Font::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 ## -remarks
 
-
-
 You can call <b>Font::GetLastStatus</b> immediately after constructing a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object to determine whether the constructor succeeded.
+				<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>Font::GetLastStatus</b> method of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
+				<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the 
 				<b>Font</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
@@ -96,7 +83,7 @@ The first time you call the <b>Font::GetLastStatus</b> method of a
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object, checks to see that the call to create the object was successful, and, if it was, uses the 
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object, checks to see that the call to create the object was successful, and, if it was, uses the 
 						<b>Font</b> object to draw text.
 
 
@@ -121,33 +108,22 @@ VOID Example_GetLastStatus(HDC hdc)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-isavailable">Font::IsAvailable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-isavailable">Font::IsAvailable</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
- 
-
- 
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>

@@ -2,15 +2,12 @@
 UID: NF:winuser.RemoveMenu
 title: RemoveMenu function (winuser.h)
 description: Deletes a menu item or detaches a submenu from the specified menu.
+helpviewer_keywords: ["MF_BYCOMMAND","MF_BYPOSITION","RemoveMenu","RemoveMenu function [Menus and Other Resources]","_win32_RemoveMenu","_win32_removemenu_cpp","menurc.removemenu","winui._win32_removemenu","winuser/RemoveMenu"]
 old-location: menurc\removemenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\removemenu.htm
 ms.date: 12/05/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, RemoveMenu, RemoveMenu function [Menus and Other Resources], _win32_RemoveMenu, _win32_removemenu_cpp, menurc.removemenu, winui._win32_removemenu, winuser/RemoveMenu
-f1_keywords:
-- winuser/RemoveMenu
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,23 +25,29 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-0.dll
-- Ext-MS-Win-NTUser-Menu-l1-1-1.dll
-- ext-ms-win-ntuser-menu-l1-1-2.dll
-- Ext-MS-Win-NTUser-Menu-L1-1-3.dll
-api_name:
-- RemoveMenu
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RemoveMenu
+ - winuser/RemoveMenu
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Menu-l1-1-1.dll
+ - ext-ms-win-ntuser-menu-l1-1-2.dll
+ - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
+api_name:
+ - RemoveMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # RemoveMenu function
@@ -52,28 +55,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Deletes a menu item or detaches a submenu from the specified menu. If the menu item opens a drop-down menu or submenu, <b>RemoveMenu</b> does not destroy the menu or its handle, allowing the menu to be reused. Before this function is called, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> function should retrieve a handle to the drop-down menu or submenu. 
-
+Deletes a menu item or detaches a submenu from the specified menu. If the menu item opens a drop-down menu or submenu, <b>RemoveMenu</b> does not destroy the menu or its handle, allowing the menu to be reused. Before this function is called, the <a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a> function should retrieve a handle to the drop-down menu or submenu.
 
 ## -parameters
-
-
-
 
 ### -param hMenu [in]
 
 Type: <b>HMENU</b>
 
-A handle to the menu to be changed. 
-
+A handle to the menu to be changed.
 
 ### -param uPosition [in]
 
 Type: <b>UINT</b>
 
-The menu item to be deleted, as determined by the <i>uFlags</i> parameter. 
-
+The menu item to be deleted, as determined by the <i>uFlags</i> parameter.
 
 ### -param uFlags [in]
 
@@ -109,62 +105,43 @@ Indicates that <i>uPosition</i> gives the zero-based relative position of the me
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
-
-
-
+The application must call the <a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

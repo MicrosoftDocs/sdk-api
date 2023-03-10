@@ -2,15 +2,12 @@
 UID: NF:mprapi.MprConfigInterfaceEnum
 title: MprConfigInterfaceEnum function (mprapi.h)
 description: The MprConfigInterfaceEnum function enumerates the interfaces that are configured for the router.
+helpviewer_keywords: ["MprConfigInterfaceEnum","MprConfigInterfaceEnum function [RAS]","_mpr_mprconfiginterfaceenum","mprapi/MprConfigInterfaceEnum","rras.mprconfiginterfaceenum"]
 old-location: rras\mprconfiginterfaceenum.htm
 tech.root: RRAS
 ms.assetid: fce40bcc-df75-49cd-af02-5fea3a65aaac
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceEnum, MprConfigInterfaceEnum function [RAS], _mpr_mprconfiginterfaceenum, mprapi/MprConfigInterfaceEnum, rras.mprconfiginterfaceenum
-f1_keywords:
-- mprapi/MprConfigInterfaceEnum
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Mprapi.dll
-api_name:
-- MprConfigInterfaceEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MprConfigInterfaceEnum
+ - mprapi/MprConfigInterfaceEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Mprapi.dll
+api_name:
+ - MprConfigInterfaceEnum
 ---
 
 # MprConfigInterfaceEnum function
@@ -48,26 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MprConfigInterfaceEnum</b> function enumerates the interfaces that are configured for the router.
 
-
 ## -parameters
-
-
-
 
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param dwLevel [in]
 
 A <b>DWORD</b> value that describes the format in which the information is returned in the <i>lplpBuffer</i> parameter. Must be zero.
-
 
 ### -param lplpBuffer [in, out]
 
@@ -76,24 +71,20 @@ On input, a non-<b>NULL</b> pointer.
 
 
 
-On successful completion, a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a> structures. Free this memory buffer by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
-
+On successful completion, a pointer to an array of <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a> structures. Free this memory buffer by calling 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
 
 ### -param dwPrefMaxLen [in]
 
 Specifies the preferred maximum length of returned data (in 8-bit bytes). If this parameter is -1, the buffer returned will be large enough to hold all available information.
 
-
 ### -param lpdwEntriesRead [out]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the total number of entries that were enumerated from the current resume position.
 
-
 ### -param lpdwTotalEntries [out]
 
 Pointer to a <b>DWORD</b> variable. This variable receives the total number of entries that could have been enumerated from the current resume position.
-
 
 ### -param lpdwResumeHandle [in, out, optional]
 
@@ -110,10 +101,7 @@ If an error occurs in the enumeration, this handle is invalid.
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not return a resume handle.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
@@ -141,7 +129,7 @@ One of the following is true:
 <li><i>dwLevel</i> is not zero.</li>
 <li><i>lplpBuffer</i> is <b>NULL</b>.</li>
 <li><i>dwPrefMaxLen</i> is smaller than the size of a single 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a> structure.</li>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a> structure.</li>
 <li><i>lpdwEntriesRead</i> is <b>NULL</b>.</li>
 <li><i>lpdwTotalEntries</i> is <b>NULL</b>.</li>
 </ul>
@@ -177,39 +165,28 @@ No more entries available from the current resume position.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

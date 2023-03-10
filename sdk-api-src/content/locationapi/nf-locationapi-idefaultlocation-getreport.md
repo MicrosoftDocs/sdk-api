@@ -2,15 +2,12 @@
 UID: NF:locationapi.IDefaultLocation.GetReport
 title: IDefaultLocation::GetReport (locationapi.h)
 description: Retrieves the specified report type from the default location provider.
+helpviewer_keywords: ["GetReport","GetReport method [WinLocation]","GetReport method [WinLocation]","IDefaultLocation interface","IDefaultLocation interface [WinLocation]","GetReport method","IDefaultLocation.GetReport","IDefaultLocation::GetReport","WinLocation_COM_Ref.idefaultlocation_getreport","locationapi/IDefaultLocation::GetReport"]
 old-location: winlocation_com_ref\idefaultlocation_getreport.htm
-tech.root: locationapi
+tech.root: winlocation
 ms.assetid: 7b52dd6e-cba5-4248-b1be-b34e47a029d5
 ms.date: 12/05/2018
 ms.keywords: GetReport, GetReport method [WinLocation], GetReport method [WinLocation],IDefaultLocation interface, IDefaultLocation interface [WinLocation],GetReport method, IDefaultLocation.GetReport, IDefaultLocation::GetReport, WinLocation_COM_Ref.idefaultlocation_getreport, locationapi/IDefaultLocation::GetReport
-f1_keywords:
-- locationapi/IDefaultLocation.GetReport
-dev_langs:
-- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: LocationAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- LocationAPI.dll
-api_name:
-- IDefaultLocation.GetReport
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDefaultLocation::GetReport
+ - locationapi/IDefaultLocation::GetReport
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - LocationAPI.dll
+api_name:
+ - IDefaultLocation.GetReport
 ---
 
 # IDefaultLocation::GetReport
@@ -48,31 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a> API.
 ]
 
 Retrieves the specified report type from the default location provider.
 
-
 ## -parameters
-
-
-
 
 ### -param reportType [in]
 
 <b>REFIID</b> representing the interface ID for the type of report being retrieved.
 
-
 ### -param ppLocationReport [out]
 
-The address of a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report from the default location provider.
-
+The address of a pointer to <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> that receives the specified location report from the default location provider.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -127,38 +120,21 @@ No data is available. This may be due to a lack of default location data in the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types. The actual interface you use for <i>ppLocationReport</i> must match the type you specified through <i>reportType</i>.
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a> is the base interface for specific location report types. The actual interface you use for <i>ppLocationReport</i> must match the type you specified through <i>reportType</i>.
-
-A call to <b>IDefaultLocation::GetReport</b> may result in a notification being displayed in the taskbar, and a Location Activity event being logged in Event Viewer, if it is the application's first use of location.   
-
-
-
+A call to <b>IDefaultLocation::GetReport</b> may result in a notification being displayed in the taskbar, and a Location Activity event being logged in Event Viewer, if it is the application's first use of location.
 
 ## -see-also
 
+<a href="/previous-versions/visualstudio">About Location Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/visualstudio">About Location Notifications</a>
+<a href="/previous-versions/visualstudio">About Logging Location Activity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/visualstudio">About Logging Location Activity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>

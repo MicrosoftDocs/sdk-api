@@ -2,15 +2,12 @@
 UID: NF:fdi.FDICreate
 title: FDICreate function (fdi.h)
 description: The FDICreate function creates an FDI context.
+helpviewer_keywords: ["FDICreate","FDICreate function [Windows API]","cpu80286","cpu80386","cpuUNKNOWN","fdi/FDICreate","winprog.fdicreate"]
 old-location: winprog\fdicreate.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: 90634725-b7a8-4369-8a91-684debee9548
 ms.date: 12/05/2018
 ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cpuUNKNOWN, fdi/FDICreate, winprog.fdicreate
-f1_keywords:
-- fdi/FDICreate
-dev_langs:
-- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Cabinet.dll
-api_name:
-- FDICreate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FDICreate
+ - fdi/FDICreate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Cabinet.dll
+api_name:
+ - FDICreate
 ---
 
 # FDICreate function
@@ -48,49 +50,37 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>FDICreate</b> function creates an FDI context.
-
 
 ## -parameters
 
-
-
-
 ### -param pfnalloc [in]
 
-Pointer to an application-defined callback function to allocate memory. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnalloc">FNALLOC</a> macro.
-
+Pointer to an application-defined callback function to allocate memory. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnalloc">FNALLOC</a> macro.
 
 ### -param pfnfree [in]
 
-Pointer to an application-defined callback function to free previously allocated memory. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnfree">FNFREE</a> macro.
-
+Pointer to an application-defined callback function to free previously allocated memory. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnfree">FNFREE</a> macro.
 
 ### -param pfnopen [in]
 
-Pointer to an application-defined callback function to open a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnopen">FNOPEN</a> macro.
-
+Pointer to an application-defined callback function to open a file. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnopen">FNOPEN</a> macro.
 
 ### -param pfnread [in]
 
-Pointer to an application-defined callback function to read data from a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnread">FNREAD</a> macro.
-
+Pointer to an application-defined callback function to read data from a file. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnread">FNREAD</a> macro.
 
 ### -param pfnwrite [in]
 
-Pointer to an application-defined callback function to write data to a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnwrite">FNWRITE</a> macro.
-
+Pointer to an application-defined callback function to write data to a file. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnwrite">FNWRITE</a> macro.
 
 ### -param pfnclose [in]
 
-Pointer to an application-defined callback function to close a file. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnclose">FNCLOSE</a> macro.
-
+Pointer to an application-defined callback function to close a file. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnclose">FNCLOSE</a> macro.
 
 ### -param pfnseek [in]
 
-Pointer to an application-defined callback function to move a file pointer to the specified location. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fnseek">FNSEEK</a> macro.
-
+Pointer to an application-defined callback function to move a file pointer to the specified location. The function should be declared using the <a href="/windows/desktop/api/fdi/nf-fdi-fnseek">FNSEEK</a> macro.
 
 ### -param cpuType [in]
 
@@ -137,32 +127,17 @@ Only 80286 instructions can be used.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param perf [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure that receives the error information.
-
+Pointer to an <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure that receives the error information.
 
 ## -returns
 
-
-
 If the function succeeds, it returns a non-<b>NULL</b> HFDI context pointer; otherwise, it returns <b>NULL</b>.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure.
-
-
-
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdidestroy">FDIDestroy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdidestroy">FDIDestroy</a>

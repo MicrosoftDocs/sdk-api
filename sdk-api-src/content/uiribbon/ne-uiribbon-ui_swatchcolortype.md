@@ -2,15 +2,12 @@
 UID: NE:uiribbon.UI_SWATCHCOLORTYPE
 title: UI_SWATCHCOLORTYPE (uiribbon.h)
 description: Specifies the values that identify how a color swatch in a DropDownColorPicker or a FontControl color picker (Text color or Text highlight) is filled.Note  These are recommendations only.
+helpviewer_keywords: ["UI_SWATCHCOLORTYPE","UI_SWATCHCOLORTYPE enumeration [Windows Ribbon]","UI_SWATCHCOLORTYPE_AUTOMATIC","UI_SWATCHCOLORTYPE_NOCOLOR","UI_SWATCHCOLORTYPE_RGB","scenicintent_UI_SWATCHCOLORTYPE","uiribbon/UI_SWATCHCOLORTYPE","uiribbon/UI_SWATCHCOLORTYPE_AUTOMATIC","uiribbon/UI_SWATCHCOLORTYPE_NOCOLOR","uiribbon/UI_SWATCHCOLORTYPE_RGB","windowsribbon.windowsribbon_ui_swatchcolortype"]
 old-location: windowsribbon\windowsribbon_ui_swatchcolortype.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_swatchcolortype.htm
 ms.date: 12/05/2018
 ms.keywords: UI_SWATCHCOLORTYPE, UI_SWATCHCOLORTYPE enumeration [Windows Ribbon], UI_SWATCHCOLORTYPE_AUTOMATIC, UI_SWATCHCOLORTYPE_NOCOLOR, UI_SWATCHCOLORTYPE_RGB, scenicintent_UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE, uiribbon/UI_SWATCHCOLORTYPE_AUTOMATIC, uiribbon/UI_SWATCHCOLORTYPE_NOCOLOR, uiribbon/UI_SWATCHCOLORTYPE_RGB, windowsribbon.windowsribbon_ui_swatchcolortype
-f1_keywords:
-- uiribbon/UI_SWATCHCOLORTYPE
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Uiribbon.h
-api_name:
-- UI_SWATCHCOLORTYPE
 targetos: Windows
 req.typenames: UI_SWATCHCOLORTYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UI_SWATCHCOLORTYPE
+ - uiribbon/UI_SWATCHCOLORTYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Uiribbon.h
+api_name:
+ - UI_SWATCHCOLORTYPE
 ---
 
 # UI_SWATCHCOLORTYPE enumeration
@@ -48,37 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies the values that identify how a color swatch in a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-dropdowncolorpicker">DropDownColorPicker</a> or a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
+Specifies the values that identify how a color swatch in a <a href="/windows/desktop/windowsribbon/windowsribbon-element-dropdowncolorpicker">DropDownColorPicker</a> or a <a href="/windows/desktop/windowsribbon/windowsribbon-element-fontcontrol">FontControl</a> color picker (<b>Text color</b> or <b>Text highlight</b>) is filled.
 <div class="alert"><b>Note</b>  These are recommendations only. The application can associate any fill type with these values.</div><div> </div>
 
 ## -enum-fields
 
-
-
-
-### -field UI_SWATCHCOLORTYPE_NOCOLOR
+### -field UI_SWATCHCOLORTYPE_NOCOLOR:0
 
 The swatch is transparent.
 
+### -field UI_SWATCHCOLORTYPE_AUTOMATIC:1
 
-### -field UI_SWATCHCOLORTYPE_AUTOMATIC
+The swatch is filled with a solid RGB color bound to <a href="/windows/win32/api/winuser/nf-winuser-getsyscolor">GetSysColor(COLOR_WINDOWTEXT)</a>.
 
-The swatch is filled with a solid RGB color bound to <a href="https://go.microsoft.com/fwlink/p/?linkid=143871">GetSysColor(COLOR_WINDOWTEXT)</a>.
-
-
-### -field UI_SWATCHCOLORTYPE_RGB
+### -field UI_SWATCHCOLORTYPE_RGB:2
 
 The swatch is filled with a solid RGB color.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>

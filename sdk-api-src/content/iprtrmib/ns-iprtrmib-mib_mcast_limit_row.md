@@ -1,16 +1,13 @@
 ---
-UID: NS:iprtrmib.__unnamed_struct_1
+UID: NS:iprtrmib.MIB_MCAST_LIMIT_ROW
 title: MIB_MCAST_LIMIT_ROW (iprtrmib.h)
 description: The MIB_MCAST_LIMIT_ROW structure contains the configurable limit information from a corresponding MIB_IPMCAST_IF_ENTRY structure.
+helpviewer_keywords: ["*PMIB_MCAST_LIMIT_ROW","MIB_MCAST_LIMIT_ROW","MIB_MCAST_LIMIT_ROW structure [MIB]","PMIB_MCAST_LIMIT_ROW","PMIB_MCAST_LIMIT_ROW structure pointer [MIB]","iprtrmib/MIB_MCAST_LIMIT_ROW","iprtrmib/PMIB_MCAST_LIMIT_ROW","mib.mib_mcast_limit_row"]
 old-location: mib\mib_mcast_limit_row.htm
 tech.root: MIB
 ms.assetid: dc5be2f4-5c6e-43c7-95e8-6a74938ce063
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW, MIB_MCAST_LIMIT_ROW structure [MIB], PMIB_MCAST_LIMIT_ROW, PMIB_MCAST_LIMIT_ROW structure pointer [MIB], iprtrmib/MIB_MCAST_LIMIT_ROW, iprtrmib/PMIB_MCAST_LIMIT_ROW, mib.mib_mcast_limit_row'
-f1_keywords:
-- iprtrmib/MIB_MCAST_LIMIT_ROW
-dev_langs:
-- c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Iprtrmib.h
-api_name:
-- MIB_MCAST_LIMIT_ROW
 targetos: Windows
 req.typenames: MIB_MCAST_LIMIT_ROW, *PMIB_MCAST_LIMIT_ROW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMIB_MCAST_LIMIT_ROW
+ - iprtrmib/PMIB_MCAST_LIMIT_ROW
+ - MIB_MCAST_LIMIT_ROW
+ - iprtrmib/MIB_MCAST_LIMIT_ROW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Iprtrmib.h
+api_name:
+ - MIB_MCAST_LIMIT_ROW
 ---
 
 # MIB_MCAST_LIMIT_ROW structure
@@ -48,32 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>MIB_MCAST_LIMIT_ROW</b> structure contains the configurable limit information from a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a> structure.
-
+The <b>MIB_MCAST_LIMIT_ROW</b> structure contains the configurable limit information from a corresponding <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a> structure.
 
 ## -struct-fields
-
-
-
 
 ### -field dwTtl
 
 The time-to-live value for a multicast interface.
 
-
 ### -field dwRateLimit
 
 The rate limit for a multicast interface.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
- 
-
- 
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
 

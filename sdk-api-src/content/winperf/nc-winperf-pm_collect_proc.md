@@ -2,15 +2,12 @@
 UID: NC:winperf.PM_COLLECT_PROC
 title: PM_COLLECT_PROC (winperf.h)
 description: Collects the performance data and returns it to the consumer.
+helpviewer_keywords: ["CollectPerformanceData","CollectPerformanceData callback function [Perf]","PM_COLLECT_PROC","PM_COLLECT_PROC callback","base.collectperformancedata","perf.collectperformancedata","winperf/CollectPerformanceData"]
 old-location: perf\collectperformancedata.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 9903eb4b-017b-47df-81c5-98c4e1ac697d
-ms.date: 12/05/2018
+ms.date: 09/24/2020
 ms.keywords: CollectPerformanceData, CollectPerformanceData callback function [Perf], PM_COLLECT_PROC, PM_COLLECT_PROC callback, base.collectperformancedata, perf.collectperformancedata, winperf/CollectPerformanceData
-f1_keywords:
-- winperf/CollectPerformanceData
-dev_langs:
-- c++
 req.header: winperf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,197 +25,122 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winperf.h
-api_name:
-- CollectPerformanceData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PM_COLLECT_PROC
+ - winperf/PM_COLLECT_PROC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winperf.h
+api_name:
+ - CollectPerformanceData
 ---
 
 # PM_COLLECT_PROC callback function
 
-
 ## -description
-
 
 Collects the performance data and returns it to the consumer. Implement and export this function if you are writing a performance DLL to provide performance data. The system calls this function whenever a consumer queries the registry for performance data. 
 
-The <b>CollectPerformanceData</b> function is a placeholder for the application-defined function name.
-
+The **CollectPerformanceData** function is a placeholder for the application-defined function name.
 
 ## -parameters
 
+### -param lpValueName [in, optional]
 
+Type: **LPWSTR**
 
+Null-terminated string that contains the query string (for example, "Global" or "238") passed to the [RegQueryValueEx](/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa) function. For a list of possible values for *lpValueName*, see [Using the Registry Functions to Consume Counter Data](/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data).
 
-### -param lpValueName
+> [!NOTE]
+> This parameter is annotated as optional (nullable), however a null value is not valid and can result in an error.
 
-Null-terminated string that contains the query string (for example, "Global" or "238") passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a> function. For possible query string values, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data">Using the Registry Functions to Consume Counter Data</a>.
+### -param lppData [in, out]
 
+Type: **LPVOID \***
 
-### -param *lppData
+Consumer-allocated buffer that contains the performance data.
 
+On output (where *pData* refers to the pointer pointed to by *lppData*), set *pData* to one byte past the end of your data. Note that the data must conform to the [PERF_OBJECT_TYPE](ns-winperf-perf_object_type.md) structure.
 
-### -param lpcbTotalBytes
+If this function fails, leave the *pData* pointer value unchanged.
 
-On input, specifies the size, in bytes, of the <i>pData</i> buffer. 
+### -param lpcbTotalBytes [in, out]
 
-On output, set <i>pcbData</i> to the size, in bytes, of the data written to the <i>pData</i> buffer. The size must be 8-byte aligned. 
+Type: **LPDWORD**
 
-If this function fails, set <i>pcbData</i> to zero.
+On input, specifies the size, in bytes, of the *pData* buffer (where *pData* refers to the pointer pointed to by *lppData*).
 
+On output, set *lpcbTotalBytes* to the size, in bytes, of the data written to the *pData* buffer. The size must be 8-byte aligned.
 
-### -param lpNumObjectTypes
+If this function fails, set *lpcbTotalBytes* to zero.
 
-Number of objects returned in <i>pData</i>. 
+### -param lpNumObjectTypes [in, out]
 
-If this function fails, set <i>pObjectsReturned</i> to zero.
+Type: **LPDWORD**
 
+Set *lpNumObjectTypes* to the number of object [types](ns-winperf-perf_object_type.md) (not [instances](ns-winperf-perf_instance_definition.md)) written to the *pData* buffer (where *pData* refers to the pointer pointed to by *lppData*).
 
-#### - pData
+If this function fails, set *lpNumObjectTypes* to zero.
 
-Consumer-allocated buffer that will contain the performance data. 
-
-On output, set <i>pData</i> to one byte past the end of your data. The data must conform to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a> structure.
-
-If this function fails, leave the <i>pData</i> pointer value unchanged.
-
+> [!NOTE]
+> This parameter is annotated as both *In* and *Out*, however this parameter should not be used as input. 
 
 ## -returns
 
+One of the following values:
 
-
-Return one of the following return values only.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_MORE_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The size of the <i>pData</i> buffer as specified by <i>pcbData</i> is not large enough to store the data. Leave <i>pData</i> unchanged, and set <i>pcbData</i> and <i>pObjectsReturned</i> to zero. No attempt is made to indicate the required buffer size, because this can change before the next call.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Return this value in all cases other than the ERROR_MORE_DATA case, even if no data is returned or an error occurs. To report errors other than insufficient buffer size, use the Application Event Log.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| Return code | Description |
+|-------------|-------------|
+| **ERROR_MORE_DATA** | The size of the *pData* buffer (where *pData* refers to the pointer pointed to by *lppData*) as specified by *lpcbTotalBytes* is not large enough to store the data. Leave *pData* unchanged, and set *lpcbTotalBytes* and *lpNumObjectTypes* to zero. No attempt is made to indicate the required buffer size, because this can change before the next call. |
+| **ERROR_SUCCESS** | Return this value in all cases other than the **ERROR_MORE_DATA** case, even if no data is returned or an error occurs. To report errors other than insufficient buffer size, use the Application Event Log. |
 
 ## -remarks
 
+If the requested objects specified in the *lpValueName* parameter do not correspond to any of the object indexes that your performance DLL supports, leave the *pData* parameter unchanged (where *pData* refers to the pointer pointed to by *lppData*), and set the *lpcbTotalBytes* and *lpNumObjectTypes* parameters to zero. This indicates that no data was returned.
 
+If you support one or more of the queried objects, determine whether the size of the *pData* buffer as specified by *lpcbTotalBytes* is large enough to store the data. If not, leave *pData* unchanged, and set *lpcbTotalBytes* and *lpNumObjectTypes* to zero. No attempt is made to indicate the required buffer size, because this may change before the next call. Return **ERROR_MORE_DATA**.
 
-If the requested objects specified in the <i>pQuery</i> parameter do not correspond to any of the object indexes that your performance DLL supports, leave the <i>pData</i> parameter unchanged, and set the <i>pcbData</i> and <i>pObjectsReturned</i> parameters to zero. This indicates that no data is returned. 
+If your data collection is time-consuming, you should respond only to queries for specific objects, or costly queries. You should also lower the priority of the thread collecting the data, so that it does not adversely affect system performance. For the query string format, see [Using the Registry Functions to Consume Counter Data](/windows/desktop/PerfCtrs/using-the-registry-functions-to-consume-counter-data).
 
-If you support one or more of the queried objects, determine whether the size of the <i>pData</i> buffer as specified by <i>pcbData</i> is large enough to store the data. If not, leave <i>pData</i> unchanged, and set <i>pcbData</i> and <i>pObjectsReturned</i> to zero. No attempt is made to indicate the required buffer size, because this may change before the next call. Return ERROR_MORE_DATA.
+If the consumer is running on another computer (remotely), then the <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>, [ClosePerformanceData](/windows/desktop/api/winperf/nc-winperf-pm_close_proc), and **CollectPerformanceData** functions are called in the context of the Winlogon process, which handles the server side of the remote connection. This distinction is important when troubleshooting problems that occur only remotely.
 
-If your data collection is time-consuming, you should respond only to queries for specific objects and Costly queries. You should also lower the priority of the thread collecting the data, so that it does not adversely affect system performance.
+After your function returns successfully, the system can perform some basic tests to ensure the integrity of the data. By default, no tests are performed. If a test fails, the system generates an event log message and the data is discarded to prevent any further problems due to pointers that are not valid. The following registry value controls the test level: `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Perflib\ExtCounterTestLevel`.
 
-If the consumer is running on another computer (remotely), then the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>, and <b>CollectPerformanceData</b> functions are called in the context of the Winlogon process, which handles the server side of the remote connection. This distinction is important when troubleshooting problems that occur only remotely.
+The following are the possible test levels for **ExtCounterTestLevel**. 
 
-After your function returns successfully, the system can perform some basic tests to ensure the integrity of the data. By default, no tests are performed. If a test fails, the system generates an event log message and the data is discarded to prevent any further problems due to pointers that are not valid. The following registry value controls the test level.<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
-   <b>Software</b>
-      <b>Microsoft</b>
-         <b>Windows NT</b>
-            <b>CurrentVersion</b>
-               <b>Perflib</b>
-                  <b>ExtCounterTestLevel</b></pre>
-
-
-
-				
-				The following are the possible test levels for <b>ExtCounterTestLevel</b>. 
-
-<table>
-<tr>
-<th>Level</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>1</td>
-<td>Test the pointers and buffers of trusted counter DLLs. Sends a copy of the user's buffer.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Test pointers and buffer lengths but does not test pointer references or buffer contents. Sends a copy of the user's buffer.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Do not test pointers or buffers. Sends a copy of the user's buffer.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Do not test pointers or buffers. Sends the user's buffer, not a copy.This is the default value.
-
-</td>
-</tr>
-</table>
- 
+| Level | Meaning |
+|-------|---------|
+| 1 | Test the pointers and buffers of trusted counter DLLs. Sends a copy of the user's buffer. |
+| 2 | Test pointers and buffer lengths but does not test pointer references or buffer contents. Sends a copy of the user's buffer. |
+| 3 | Do not test pointers or buffers. Sends a copy of the user's buffer. |
+| 4 | Do not test pointers or buffers. Sends the user's buffer, not a copy. This is the default value. |
 
 The following tests are performed at levels 1 and 2:
-				
 
-<ul>
-<li>Verifies that the value of <i>pcbData</i> is consistent with the returned buffer pointer, <i>pData</i>. If you add the <i>pcbData</i> value to the original buffer pointer passed to this function, you should end up with the same buffer pointer returned by this function. If they are not the same, a error message is logged and the data is ignored.</li>
-<li>Verify that a buffer overrun did not occur. The system adds a 1-KB guard page before and after the consumer-allocated buffer. If the returned buffer pointer, <i>pData</i>, points past the first byte of the appended guard page, then it is assumed that the buffer is not valid and the data is ignored. If the buffer pointer exceeds the end of the buffer, but not the end of the guard page, then a buffer overrun error is logged. If the buffer pointer is past the end of the guard page, then a heap error is logged because the heap that the buffer was allocated from could have been corrupted, causing other memory errors.</li>
-<li>Verify that the guard pages have not been corrupted. The 1-KB guard pages that were added before and after the buffer are initialized with a data pattern before this function is called. This data pattern is checked after the collect procedure returns. If any discrepancy is detected, a buffer overrun or other memory error is assumed and the data is ignored.</li>
-</ul>
+- Verifies that the value of *lpcbTotalBytes* is consistent with the returned buffer pointer, *pData*. If you add the *lpcbTotalBytes* value to the original buffer pointer passed to this function, you should end up with the same buffer pointer returned by this function. If they are not the same, an error message is logged and the data is ignored.
+- Verify that a buffer overrun did not occur. The system adds a 1-KB guard page before and after the consumer-allocated buffer. If the returned buffer pointer, *pData*, points past the first byte of the appended guard page, then it is assumed that the buffer is not valid and the data is ignored. If the buffer pointer exceeds the end of the buffer, but not the end of the guard page, then a buffer overrun error is logged. If the buffer pointer is past the end of the guard page, then a heap error is logged because the heap that the buffer was allocated from could have been corrupted, causing other memory errors.
+- Verify that the guard pages have not been corrupted. The 1-KB guard pages that were added before and after the buffer are initialized with a data pattern before this function is called. This data pattern is checked after the collect procedure returns. If any discrepancy is detected, a buffer overrun or other memory error is assumed and the data is ignored.
 
-				The following tests are performed only if test level 1 is used:
-				
+The following tests are performed only if test level 1 is used:
 
-<ul>
-<li>Verify that the sum of each object's <b>TotalByteLength</b> member is the same as the value of <i>pcbData</i>. If not, the data is ignored.</li>
-<li>Verify that the <b>ByteLength</b> member of each instance is consistent. The lengths are consistent if the next object or end of buffer follows the last instance. If not, the data is ignored.</li>
-</ul>
+- Verify that the sum of each object's **TotalByteLength** member is the same as the value of *lpcbTotalBytes*. If not, the data is ignored.
+- Verify that the **ByteLength** member of each instance is consistent. The lengths are consistent if the next object or end of buffer follows the last instance. If not, the data is ignored.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/implementing-collectperformancedata">Implementing CollectPerformanceData</a>.
-
-<div class="code"></div>
-
-
+See [Implementing CollectPerformanceData](/windows/desktop/PerfCtrs/implementing-collectperformancedata).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winperf/nc-winperf-pm_close_proc">ClosePerformanceData</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
- 
-
- 
-
+- <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
+- [ClosePerformanceData](/windows/desktop/api/winperf/nc-winperf-pm_close_proc)

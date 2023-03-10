@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteTextFormat.GetTrimming
 title: IDWriteTextFormat::GetTrimming (dwrite.h)
 description: Gets the trimming options for text that overflows the layout box.
+helpviewer_keywords: ["GetTrimming","GetTrimming method [Direct Write]","GetTrimming method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetTrimming method","IDWriteTextFormat.GetTrimming","IDWriteTextFormat::GetTrimming","directwrite.IDWriteTextFormat_GetTrimming","dwrite/IDWriteTextFormat::GetTrimming"]
 old-location: directwrite\IDWriteTextFormat_GetTrimming.htm
 tech.root: DirectWrite
 ms.assetid: 6147d0a4-8f50-40c6-864e-734cfef57089
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [Direct Write], GetTrimming method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTrimming method, IDWriteTextFormat.GetTrimming, IDWriteTextFormat::GetTrimming, directwrite.IDWriteTextFormat_GetTrimming, dwrite/IDWriteTextFormat::GetTrimming
-f1_keywords:
-- dwrite/IDWriteTextFormat.GetTrimming
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextFormat.GetTrimming
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextFormat::GetTrimming
+ - dwrite/IDWriteTextFormat::GetTrimming
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextFormat.GetTrimming
 ---
 
 # IDWriteTextFormat::GetTrimming
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the trimming options for text that overflows the layout box.
 
-
 ## -parameters
-
-
-
 
 ### -param trimmingOptions [out]
 
@@ -63,32 +60,19 @@ Type: <b><a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_trimming">DWRITE_TR
 
 When this method returns, it contains a pointer to a <a href="/windows/win32/api/dwrite/ns-dwrite-dwrite_trimming">DWRITE_TRIMMING</a> structure that holds the text trimming options for the overflowing text.
 
-
 ### -param trimmingSign [out]
 
 Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject">IDWriteInlineObject</a>**</b>
 
 When this method returns, contains an address of a pointer to a trimming omission sign. This parameter may be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a>
- 
-
- 
 

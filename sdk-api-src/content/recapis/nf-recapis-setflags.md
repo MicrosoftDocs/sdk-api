@@ -2,15 +2,12 @@
 UID: NF:recapis.SetFlags
 title: SetFlags function (recapis.h)
 description: Specifies how the recognizer interprets the ink and determines the result string.Call this function before processing the ink for the first time. Therefore, call the SetFlags function before calling the Process function.
+helpviewer_keywords: ["62ad43c4-4795-4af9-af20-e45da30ba132","RECOFLAG_AUTOSPACE","RECOFLAG_COERCE","RECOFLAG_LINEMODE","RECOFLAG_PREFIXOK","RECOFLAG_SINGLESEG","RECOFLAG_WORDMODE","SetFlags","SetFlags function [Tablet PC]","recapis/SetFlags","tablet.setflags"]
 old-location: tablet\setflags.htm
 tech.root: tablet
 ms.assetid: 62ad43c4-4795-4af9-af20-e45da30ba132
 ms.date: 12/05/2018
 ms.keywords: 62ad43c4-4795-4af9-af20-e45da30ba132, RECOFLAG_AUTOSPACE, RECOFLAG_COERCE, RECOFLAG_LINEMODE, RECOFLAG_PREFIXOK, RECOFLAG_SINGLESEG, RECOFLAG_WORDMODE, SetFlags, SetFlags function [Tablet PC], recapis/SetFlags, tablet.setflags
-f1_keywords:
-- recapis/SetFlags
-dev_langs:
-- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- recapis.h
-api_name:
-- SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetFlags
+ - recapis/SetFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - recapis.h
+api_name:
+ - SetFlags
 ---
 
 # SetFlags function
@@ -48,29 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies how the recognizer interprets the ink and determines the result string.
 
-Call this function before processing the ink for the first time. Therefore, call the <b>SetFlags</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
-
-
-
-
-
+Call this function before processing the ink for the first time. Therefore, call the <b>SetFlags</b> function before calling the <a href="/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hrc [in]
 
 Handle to the recognizer context.
 
-
 ### -param dwFlags [in]
-
 
 The following table lists the flags that you may set to specify how the recognizer interprets the ink and determines the result string. Use the <b>OR</b> operator (|) to combine flags as appropriate.
 
@@ -153,12 +143,8 @@ Recognizer treats the ink as a single word. For example, if the context contains
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -235,35 +221,20 @@ The context is invalid or one of the parameters is an invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Prior to Microsoft Windows XP Tablet PC Edition Development Kit 1.7, Tablet PC Input Panel performed smart spacing. Starting with Tablet PC SDK 1.7, Input Panel continues to produce results with preliminary spacing recommendations. Tablet PC Input Panel's spacing results may however be changed by the recognizer's recommendations (results). The recognizer is able to do this by using text contextual information (based on the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext</a> call made by Input Panel) and its internal language model rules.
+Prior to Microsoft Windows XP Tablet PC Edition Development Kit 1.7, Tablet PC Input Panel performed smart spacing. Starting with Tablet PC SDK 1.7, Input Panel continues to produce results with preliminary spacing recommendations. Tablet PC Input Panel's spacing results may however be changed by the recognizer's recommendations (results). The recognizer is able to do this by using text contextual information (based on the <a href="/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext</a> call made by Input Panel) and its internal language model rules.
 
 Input Panel is able to determine whether the recognizer is capable of doing auto-spacing by calling this function with the RECOFLAG_AUTOSPACE flag set. If the recognizer does not support auto-spacing, E_INVALIDARG is returned.
 
 <div class="alert"><b>Note</b>  Only line mode is supported in the <b>SetFlags</b> function. Boxed mode, free mode, and single-line mode are not supported.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/recapis/nf-recapis-setfactoid">SetFactoid Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setfactoid">SetFactoid Function</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext Function</a>
- 
-
- 
-
+<a href="/windows/desktop/api/recapis/nf-recapis-settextcontext">SetTextContext Function</a>

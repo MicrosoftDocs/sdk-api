@@ -2,15 +2,12 @@
 UID: NF:lmjoin.NetGetAadJoinInformation
 title: NetGetAadJoinInformation function (lmjoin.h)
 description: Retrieves the join information for the specified tenant. This function examines the join information for Microsoft Azure Active Directory and the work account that the current user added.
+helpviewer_keywords: ["NetGetAadJoinInformation","NetGetAadJoinInformation function [Network Management]","lmjoin/NetGetAadJoinInformation","netmgmt.netgetaadjoininformation"]
 old-location: netmgmt\netgetaadjoininformation.htm
 tech.root: NetMgmt
 ms.assetid: C63B3AA7-FC7E-4CB9-9318-BD25560591AB
 ms.date: 12/05/2018
 ms.keywords: NetGetAadJoinInformation, NetGetAadJoinInformation function [Network Management], lmjoin/NetGetAadJoinInformation, netmgmt.netgetaadjoininformation
-f1_keywords:
-- lmjoin/NetGetAadJoinInformation
-dev_langs:
-- c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- netapi32.dll
-api_name:
-- NetGetAadJoinInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NetGetAadJoinInformation
+ - lmjoin/NetGetAadJoinInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - netapi32.dll
+api_name:
+ - NetGetAadJoinInformation
 ---
 
 # NetGetAadJoinInformation function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the join information for the specified tenant. This function examines the join information for Microsoft Azure Active Directory and the work account that the current user added.
 
-
 ## -parameters
-
-
-
 
 ### -param pcszTenantId [in, optional]
 
@@ -67,7 +64,7 @@ If the specified
                        tenant ID is NULL or empty, <i>ppJoinInfo</i> is set to the default
                        join account information, or NULL if the device is not joined to Azure AD and the current user added  no Azure AD work accounts.
                        
-                       The default join account is one of the following:
+The default join account is one of the following:
 
 <ul>
 <li>The Azure AD account, if the device is joined to Azure AD.</li>
@@ -81,27 +78,13 @@ If the specified
 ### -param ppJoinInfo [out]
 
 The join information for the tenant that the <i>pcszTenantId</i> parameter specifies. If this parameter is NULL,  the device is not joined to Azure AD and the current user added no Azure AD work accounts. You must call
-                     the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a> function to free the memory allocated for
+                     the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a> function to free the memory allocated for
                      this structure.
-
-
 
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a>

@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFIsFormatYUV
 title: MFIsFormatYUV function (mfapi.h)
 description: Queries whether a FOURCC code or D3DFORMAT value is a YUV format.
+helpviewer_keywords: ["MFIsFormatYUV","MFIsFormatYUV function [Media Foundation]","dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53","mf.mfisformatyuv","mfapi/MFIsFormatYUV"]
 old-location: mf\mfisformatyuv.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53
 ms.date: 12/05/2018
 ms.keywords: MFIsFormatYUV, MFIsFormatYUV function [Media Foundation], dbf6acd3-79c6-4ec2-a867-f2b2d8b41f53, mf.mfisformatyuv, mfapi/MFIsFormatYUV
-f1_keywords:
-- mfapi/MFIsFormatYUV
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Evr.lib
 req.dll: Evr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- evr.dll
-api_name:
-- MFIsFormatYUV
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFIsFormatYUV
+ - mfapi/MFIsFormatYUV
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - evr.dll
+api_name:
+ - MFIsFormatYUV
 ---
 
 # MFIsFormatYUV function
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Queries whether a FOURCC code or <b>D3DFORMAT</b> value is a YUV format.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Format [in]
 
 FOURCC code or <b>D3DFORMAT</b> value.
 
-
 ## -returns
-
-
 
 The function returns one of the following values.
 
@@ -99,31 +90,15 @@ The value does not specify a recognized YUV format.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This function checks whether <i>Format</i> specifies a YUV format. Not every YUV format is recognized by this function. However, if a YUV format is not recognized by this function, it is probably not supported for video rendering or DirectX video acceleration (DXVA).
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

@@ -2,15 +2,12 @@
 UID: NF:scserver.CSecureChannelServer.EncryptParam
 title: CSecureChannelServer::EncryptParam (scserver.h)
 description: The EncryptParam method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.
+helpviewer_keywords: ["CSecureChannelServer class [windows Media Device Manager]","EncryptParam method","CSecureChannelServer.EncryptParam","CSecureChannelServer::EncryptParam","CSecureChannelServerEncryptParam","EncryptParam","EncryptParam method [windows Media Device Manager]","EncryptParam method [windows Media Device Manager]","CSecureChannelServer class","scserver/CSecureChannelServer::EncryptParam","wmdm.csecurechannelserver_encryptparam"]
 old-location: wmdm\csecurechannelserver_encryptparam.htm
 tech.root: WMDM
 ms.assetid: dbfc72a6-acd5-40c2-8951-ab90e5c4d752
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],EncryptParam method, CSecureChannelServer.EncryptParam, CSecureChannelServer::EncryptParam, CSecureChannelServerEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::EncryptParam, wmdm.csecurechannelserver_encryptparam
-f1_keywords:
-- scserver/CSecureChannelServer.EncryptParam
-dev_langs:
-- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mssachlp.lib
-- mssachlp.dll
-api_name:
-- CSecureChannelServer.EncryptParam
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CSecureChannelServer::EncryptParam
+ - scserver/CSecureChannelServer::EncryptParam
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mssachlp.lib
+ - mssachlp.dll
+api_name:
+ - CSecureChannelServer.EncryptParam
 ---
 
 # CSecureChannelServer::EncryptParam
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>EncryptParam</b> method uses the session key of the secure authenticated channel to encrypt the data contained in a parameter.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbData
 
 Pointer to the first byte of a data buffer containing the parameter that is to be encrypted.
 
-
 ### -param dwDataLen
 
 Pointer to a <b>DWORD</b> specifying the length of the buffer to which <i>pbData</i> points.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. All the interface methods in Windows Media Device Manager can return any of the following classes of error codes:
 
@@ -82,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -104,21 +94,15 @@ Possible values include, but are not limited to, those in the following table.
 <td>An unspecified error occurred.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Certain parameters, listed in the tables under <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>, must be included in the message authentication code (MAC) and must be encrypted before the call for data transfer in both directions. Call <b>EncryptParam</b> to encrypt the specified parameters. Do not encrypt any parameters that do not require it.
+Certain parameters, listed in the tables under <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>, must be included in the message authentication code (MAC) and must be encrypted before the call for data transfer in both directions. Call <b>EncryptParam</b> to encrypt the specified parameters. Do not encrypt any parameters that do not require it.
 
 
 #### Examples
 
-The following code demonstrates a service provider's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
+The following code demonstrates a service provider's implementation of <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>. This method creates the MAC key using the data to encrypt and the size of the data, and sends them both to the application.
 
 
 ```cpp
@@ -199,21 +183,10 @@ Error:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a>
- 
-
- 
-
+<a href="/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a>

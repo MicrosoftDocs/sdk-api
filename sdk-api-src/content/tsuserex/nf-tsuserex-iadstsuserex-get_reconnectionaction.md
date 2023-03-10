@@ -1,16 +1,13 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_ReconnectionAction
 title: IADsTSUserEx::get_ReconnectionAction (tsuserex.h)
-description: A value that specifies if reconnection to a disconnected Remote Desktop Services session is allowed.
+description: A value that specifies if reconnection to a disconnected Remote Desktop Services session is allowed. (Get)
+helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","ReconnectionAction property","IADsTSUserEx.ReconnectionAction","IADsTSUserEx.get_ReconnectionAction","IADsTSUserEx::ReconnectionAction","IADsTSUserEx::get_ReconnectionAction","IADsTSUserEx::put_ReconnectionAction","ReconnectionAction property [Remote Desktop Services]","ReconnectionAction property [Remote Desktop Services]","IADsTSUserEx interface","get_ReconnectionAction","termserv.iadstsuserex_reconnectionaction","tsuserex/IADsTSUserEx::ReconnectionAction","tsuserex/IADsTSUserEx::get_ReconnectionAction","tsuserex/IADsTSUserEx::put_ReconnectionAction"]
 old-location: termserv\iadstsuserex_reconnectionaction.htm
 tech.root: TermServ
 ms.assetid: 3c97988b-f04f-4480-a5ae-cf38b07b9ae8
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],ReconnectionAction property, IADsTSUserEx.ReconnectionAction, IADsTSUserEx.get_ReconnectionAction, IADsTSUserEx::ReconnectionAction, IADsTSUserEx::get_ReconnectionAction, IADsTSUserEx::put_ReconnectionAction, ReconnectionAction property [Remote Desktop Services], ReconnectionAction property [Remote Desktop Services],IADsTSUserEx interface, get_ReconnectionAction, termserv.iadstsuserex_reconnectionaction, tsuserex/IADsTSUserEx::ReconnectionAction, tsuserex/IADsTSUserEx::get_ReconnectionAction, tsuserex/IADsTSUserEx::put_ReconnectionAction
-f1_keywords:
-- tsuserex/IADsTSUserEx.ReconnectionAction
-dev_langs:
-- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: Tsuserex.tlb
 req.lib: 
 req.dll: Tsuserex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tsuserex.dll
-api_name:
-- IADsTSUserEx.ReconnectionAction
-- IADsTSUserEx.get_ReconnectionAction
-- IADsTSUserEx.put_ReconnectionAction
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsTSUserEx::get_ReconnectionAction
+ - tsuserex/IADsTSUserEx::get_ReconnectionAction
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tsuserex.dll
+api_name:
+ - IADsTSUserEx.ReconnectionAction
+ - IADsTSUserEx.get_ReconnectionAction
+ - IADsTSUserEx.put_ReconnectionAction
 ---
 
 # IADsTSUserEx::get_ReconnectionAction
@@ -50,21 +52,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 A value that specifies if reconnection to a disconnected Remote Desktop Services session is allowed.
 <div class="alert"><b>Note</b>  This property is not used by Remote Desktop Services.</div><div> </div>This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

@@ -2,15 +2,12 @@
 UID: NN:upnp.IUPnPAsyncResult
 title: IUPnPAsyncResult (upnp.h)
 description: The IUPnPAsyncResult interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
+helpviewer_keywords: ["IUPnPAsyncResult","IUPnPAsyncResult interface [UPnP APIs]","IUPnPAsyncResult interface [UPnP APIs]","described","upnp.iupnpasyncresult","upnp/IUPnPAsyncResult"]
 old-location: upnp\iupnpasyncresult.htm
 tech.root: upnp
 ms.assetid: 53854510-BB0C-41E6-8651-F34991B24D5E
 ms.date: 12/05/2018
 ms.keywords: IUPnPAsyncResult, IUPnPAsyncResult interface [UPnP APIs], IUPnPAsyncResult interface [UPnP APIs],described, upnp.iupnpasyncresult, upnp/IUPnPAsyncResult
-f1_keywords:
-- upnp/IUPnPAsyncResult
-dev_langs:
-- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Upnp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Upnp.dll
-api_name:
-- IUPnPAsyncResult
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUPnPAsyncResult
+ - upnp/IUPnPAsyncResult
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Upnp.dll
+api_name:
+ - IUPnPAsyncResult
 ---
 
 # IUPnPAsyncResult interface
@@ -48,34 +50,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPAsyncResult</a> interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPAsyncResult</a> interface is used to notify the UPnP control point of a completed asynchronous I/O operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPAsyncResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPAsyncResult</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUPnPAsyncResult</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpasyncresult-asyncoperationcomplete">AsyncOperationComplete</a>
-</td>
-<td align="left" width="63%">
-Provides notification of a completed asynchronous I/O operation.
-
-</td>
-</tr>
-</table> 
+The <b>IUPnPAsyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPAsyncResult</b> also has these types of members:
 

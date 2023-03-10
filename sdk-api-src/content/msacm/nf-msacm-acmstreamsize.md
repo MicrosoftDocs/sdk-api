@@ -2,15 +2,12 @@
 UID: NF:msacm.acmStreamSize
 title: acmStreamSize function (msacm.h)
 description: The acmStreamSize function returns a recommended size for a source or destination buffer on an ACM stream.
+helpviewer_keywords: ["_win32_acmStreamSize","acmStreamSize","acmStreamSize function [Windows Multimedia]","msacm/acmStreamSize","multimedia.acmstreamsize"]
 old-location: multimedia\acmstreamsize.htm
 tech.root: Multimedia
 ms.assetid: 44b8c2cb-ae37-4919-83af-4a8ce6f8737c
 ms.date: 12/05/2018
 ms.keywords: _win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windows Multimedia], msacm/acmStreamSize, multimedia.acmstreamsize
-f1_keywords:
-- msacm/acmStreamSize
-dev_langs:
-- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msacm32.dll
-- Ext-MS-Win-mm-msacm-l1-1-0.dll
-api_name:
-- acmStreamSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - acmStreamSize
+ - msacm/acmStreamSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msacm32.dll
+ - Ext-MS-Win-mm-msacm-l1-1-0.dll
+api_name:
+ - acmStreamSize
 ---
 
 # acmStreamSize function
@@ -49,32 +51,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>acmStreamSize</b> function returns a recommended size for a source or destination buffer on an ACM stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param has
 
 Handle to the conversion stream.
 
-
 ### -param cbInput
 
 Size, in bytes, of the source or destination buffer. The <i>fdwSize</i> flags specify what the input parameter defines. This parameter must be nonzero.
 
-
 ### -param pdwOutputBytes
 
 Pointer to a variable that contains the size, in bytes, of the source or destination buffer. The <i>fdwSize</i> flags specify what the output parameter defines. If the <b>acmStreamSize</b> function succeeds, this location will always be filled with a nonzero value.
-
 
 ### -param fdwSize
 
@@ -96,12 +87,8 @@ Flags for the stream size query. The following values are defined:
 <td>The <i>cbInput</i> parameter contains the size of the source buffer. The <i>pdwOutputBytes</i> parameter will receive the recommended destination buffer size, in bytes.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -155,33 +142,17 @@ At least one parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 An application can use this function to determine suggested buffer sizes for either source or destination buffers. The buffer sizes returned might be only an estimation of the actual sizes required for conversion. Because actual conversion sizes cannot always be determined without performing the conversion, the sizes returned will usually be overestimated.
 
 In the event of an error, the location pointed to by <i>pdwOutputBytes</i> will receive zero. This assumes that the pointer specified by <i>pdwOutputBytes</i> is valid.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

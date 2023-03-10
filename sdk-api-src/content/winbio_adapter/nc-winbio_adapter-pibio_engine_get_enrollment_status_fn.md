@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN
 title: PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN (winbio_adapter.h)
 description: Determines whether the enrollment object is ready to be committed to the pipeline.
+helpviewer_keywords: ["EngineAdapterGetEnrollmentStatus","EngineAdapterGetEnrollmentStatus callback function [Windows Biometric Framework API]","PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN","PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback","secbiomet.engineadaptergetenrollmentstatus","winbio_adapter/EngineAdapterGetEnrollmentStatus"]
 old-location: secbiomet\engineadaptergetenrollmentstatus.htm
 tech.root: SecBioMet
 ms.assetid: cd029d7e-e103-4bbb-aaf9-36f3043b941c
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterGetEnrollmentStatus, EngineAdapterGetEnrollmentStatus callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN, PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback, secbiomet.engineadaptergetenrollmentstatus, winbio_adapter/EngineAdapterGetEnrollmentStatus
-f1_keywords:
-- winbio_adapter/EngineAdapterGetEnrollmentStatus
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- EngineAdapterGetEnrollmentStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN
+ - winbio_adapter/PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - EngineAdapterGetEnrollmentStatus
 ---
 
 # PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback function
@@ -48,29 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework to determine whether the enrollment object is ready to be committed to the pipeline.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
-
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param RejectDetail [out]
 
 A pointer to a <b>WINBIO_REJECT_DETAIL</b> value that receives additional information about the failure to update the enrollment object. If the last update was successful, you should set this variable to zero.
 
-
 ## -returns
-
-
 
 This function must return one of the following <b>HRESULT</b> values.
 
@@ -135,22 +127,11 @@ The last update succeeded, but the engine adapter requires one or more additiona
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_update_enrollment_fn">EngineAdapterUpdateEnrollment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_update_enrollment_fn">EngineAdapterUpdateEnrollment</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

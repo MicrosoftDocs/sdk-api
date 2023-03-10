@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IComTrackingInfoCollection.Count
 title: IComTrackingInfoCollection::Count (comsvcs.h)
 description: Retrieves the number of objects in a tracking information collection.
+helpviewer_keywords: ["Count","Count method [COM+]","Count method [COM+]","IComTrackingInfoCollection interface","IComTrackingInfoCollection interface [COM+]","Count method","IComTrackingInfoCollection.Count","IComTrackingInfoCollection::Count","_dtc_IComTrackingInfoCollection_Count","comsvcs/IComTrackingInfoCollection::Count","cos.icomtrackinginfocollection_count"]
 old-location: cos\icomtrackinginfocollection_count.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 72578a4e-bc23-4bc8-ab40-346ba9c5a6d7
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IComTrackingInfoCollection interface, IComTrackingInfoCollection interface [COM+],Count method, IComTrackingInfoCollection.Count, IComTrackingInfoCollection::Count, _dtc_IComTrackingInfoCollection_Count, comsvcs/IComTrackingInfoCollection::Count, cos.icomtrackinginfocollection_count
-f1_keywords:
-- comsvcs/IComTrackingInfoCollection.Count
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IComTrackingInfoCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComTrackingInfoCollection::Count
+ - comsvcs/IComTrackingInfoCollection::Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IComTrackingInfoCollection.Count
 ---
 
 # IComTrackingInfoCollection::Count
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of objects in a tracking information collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pCount [out]
 
 The number of objects in the tracking information collection.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfocollection">IComTrackingInfoCollection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfocollection">IComTrackingInfoCollection</a>

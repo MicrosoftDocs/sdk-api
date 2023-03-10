@@ -2,15 +2,12 @@
 UID: NF:dxgi.IDXGIResource.SetEvictionPriority
 title: IDXGIResource::SetEvictionPriority (dxgi.h)
 description: Set the priority for evicting the resource from memory.
+helpviewer_keywords: ["27202bac-1045-b4a9-634f-9fe77668f2ab","DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000)","DXGI_RESOURCE_PRIORITY_LOW (0x50000000)","DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000)","DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000)","DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000)","IDXGIResource interface [DXGI]","SetEvictionPriority method","IDXGIResource.SetEvictionPriority","IDXGIResource::SetEvictionPriority","SetEvictionPriority","SetEvictionPriority method [DXGI]","SetEvictionPriority method [DXGI]","IDXGIResource interface","direct3ddxgi.idxgiresource_setevictionpriority","dxgi/IDXGIResource::SetEvictionPriority"]
 old-location: direct3ddxgi\idxgiresource_setevictionpriority.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_setevictionpriority.htm
 ms.date: 12/05/2018
 ms.keywords: 27202bac-1045-b4a9-634f-9fe77668f2ab, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), IDXGIResource interface [DXGI],SetEvictionPriority method, IDXGIResource.SetEvictionPriority, IDXGIResource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [DXGI], SetEvictionPriority method [DXGI],IDXGIResource interface, direct3ddxgi.idxgiresource_setevictionpriority, dxgi/IDXGIResource::SetEvictionPriority
-f1_keywords:
-- dxgi/IDXGIResource.SetEvictionPriority
-dev_langs:
-- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: DXGI.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DXGI.lib
-- DXGI.dll
-api_name:
-- IDXGIResource.SetEvictionPriority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIResource::SetEvictionPriority
+ - dxgi/IDXGIResource::SetEvictionPriority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DXGI.lib
+ - DXGI.dll
+api_name:
+ - IDXGIResource.SetEvictionPriority
 ---
 
 # IDXGIResource::SetEvictionPriority
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Set the priority for evicting the resource from memory.
-
 
 ## -parameters
 
-
-
-
 ### -param EvictionPriority
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The priority is one of the following values: 
 
@@ -120,38 +117,19 @@ The resource is evicted from memory only if there is no other way of resolving t
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-Returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
-
-
-
+Returns one of the following <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a>.
 
 ## -remarks
-
-
 
 The eviction priority is a memory-management variable that is used by DXGI for determining how to populate overcommitted memory.
 
 You can set priority levels other than the defined values when appropriate. For example, you can set a resource with a priority level of 0x78000001 to indicate that the resource is slightly above normal.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a>

@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.SetValueRaw
 title: ISettingsItem::SetValueRaw (wcmconfig.h)
 description: Sets the value of the current item by supplying data in raw form.
+helpviewer_keywords: ["ISettingsItem interface [SMI]","SetValueRaw method","ISettingsItem.SetValueRaw","ISettingsItem::SetValueRaw","SetValueRaw","SetValueRaw method [SMI]","SetValueRaw method [SMI]","ISettingsItem interface","smi.isettingsitem_setvalueraw","wcmconfig/ISettingsItem::SetValueRaw"]
 old-location: smi\isettingsitem_setvalueraw.htm
 tech.root: SMI
 ms.assetid: 65925c16-7a12-440f-ba2d-9156e41049ba
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem interface [SMI],SetValueRaw method, ISettingsItem.SetValueRaw, ISettingsItem::SetValueRaw, SetValueRaw, SetValueRaw method [SMI], SetValueRaw method [SMI],ISettingsItem interface, smi.isettingsitem_setvalueraw, wcmconfig/ISettingsItem::SetValueRaw
-f1_keywords:
-- wcmconfig/ISettingsItem.SetValueRaw
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.SetValueRaw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::SetValueRaw
+ - wcmconfig/ISettingsItem::SetValueRaw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.SetValueRaw
 ---
 
 # ISettingsItem::SetValueRaw
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the value of the current item by supplying data in raw form.
 
-
 ## -parameters
-
-
-
 
 ### -param DataType [in]
 
 The data type of the item.
 
-
 ### -param Data [in]
 
 A byte array that contains the value of the item.
-
 
 ### -param DataSize [in]
 
 The size of the byte array.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,18 +109,7 @@ Indicates that the item cannot be written, either because it is a read-only item
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

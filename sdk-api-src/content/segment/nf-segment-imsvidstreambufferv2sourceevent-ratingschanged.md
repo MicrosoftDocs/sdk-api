@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.RatingsChanged
 title: IMSVidStreamBufferV2SourceEvent::RatingsChanged (segment.h)
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
+helpviewer_keywords: ["IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies]","RatingsChanged method","IMSVidStreamBufferV2SourceEvent.RatingsChanged","IMSVidStreamBufferV2SourceEvent::RatingsChanged","RatingsChanged","RatingsChanged method [Microsoft TV Technologies]","RatingsChanged method [Microsoft TV Technologies]","IMSVidStreamBufferV2SourceEvent interface","mstv.imsvidstreambufferv2sourceevent_ratingschanged","segment/IMSVidStreamBufferV2SourceEvent::RatingsChanged"]
 old-location: mstv\imsvidstreambufferv2sourceevent_ratingschanged.htm
 tech.root: mstv
 ms.assetid: 56ba6126-c3c7-4cbd-9209-7638452d5782
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferV2SourceEvent.RatingsChanged, IMSVidStreamBufferV2SourceEvent::RatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratingschanged, segment/IMSVidStreamBufferV2SourceEvent::RatingsChanged
-f1_keywords:
-- segment/IMSVidStreamBufferV2SourceEvent.RatingsChanged
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferV2SourceEvent.RatingsChanged
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferV2SourceEvent::RatingsChanged
+ - segment/IMSVidStreamBufferV2SourceEvent::RatingsChanged
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferV2SourceEvent.RatingsChanged
 ---
 
 # IMSVidStreamBufferV2SourceEvent::RatingsChanged
@@ -48,38 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
-          
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>

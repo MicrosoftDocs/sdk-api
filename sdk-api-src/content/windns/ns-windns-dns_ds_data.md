@@ -1,16 +1,13 @@
 ---
-UID: NS:windns.__unnamed_struct_25
+UID: NS:windns.DNS_DS_DATA
 title: DNS_DS_DATA (windns.h)
 description: Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.
+helpviewer_keywords: ["*PDNS_DS_DATA","1","2","3","4","5","DNS_DS_DATA","DNS_DS_DATA structure [DNS]","PDNS_DS_DATA","PDNS_DS_DATA structure pointer [DNS]","dns.dns_ds_data","windns/DNS_DS_DATA","windns/PDNS_DS_DATA"]
 old-location: dns\dns_ds_data.htm
 tech.root: DNS
 ms.assetid: 8624cc27-feb5-4e4a-8970-40aa1d43960e
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_DS_DATA, 1, 2, 3, 4, 5, DNS_DS_DATA, DNS_DS_DATA structure [DNS], PDNS_DS_DATA, PDNS_DS_DATA structure pointer [DNS], dns.dns_ds_data, windns/DNS_DS_DATA, windns/PDNS_DS_DATA'
-f1_keywords:
-- windns/DNS_DS_DATA
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windns.h
-api_name:
-- DNS_DS_DATA
 targetos: Windows
 req.typenames: DNS_DS_DATA, *PDNS_DS_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDNS_DS_DATA
+ - windns/PDNS_DS_DATA
+ - DNS_DS_DATA
+ - windns/DNS_DS_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windns.h
+api_name:
+ - DNS_DS_DATA
 ---
 
 # DNS_DS_DATA structure
@@ -48,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specified in section 2 of  <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a> and is used to verify the contents of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>.
-
+The <b>DNS_DS_DATA</b> structure represents a DS  resource record (RR) as specified in section 2 of  <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a> and is used to verify the contents of <a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field wKeyTag
 
-A value that represents the method to choose which public key is used to verify  <b>Signature</b> in <a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_sig_dataw">DNS_RRSIG_DATA</a> as specified in Appendix B of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>. This value is identical to the <b>wKeyTag</b> field in <b>DNS_RRSIG_DATA</b>.
-
+A value that represents the method to choose which public key is used to verify  <b>Signature</b> in <a href="/windows/win32/api/windns/ns-windns-dns_sig_dataw">DNS_RRSIG_DATA</a> as specified in Appendix B of <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>. This value is identical to the <b>wKeyTag</b> field in <b>DNS_RRSIG_DATA</b>.
 
 ### -field chAlgorithm
 
-A value that specifies the  algorithm defined by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The possible values are shown in the following table.
+A value that specifies the  algorithm defined by <a href="/previous-versions/windows/desktop/legacy/dd392295(v=vs.85)">DNS_DNSKEY_DATA</a>. The possible values are shown in the following table.
 
 <table>
 <tr>
@@ -77,7 +75,7 @@ A value that specifies the  algorithm defined by <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-RSA/MD5 (<a href="https://go.microsoft.com/fwlink/p/?linkid=124777">RFC 2537</a>)
+RSA/MD5 (<a href="https://www.ietf.org/rfc/rfc2537.txt">RFC 2537</a>)
 
 </td>
 </tr>
@@ -87,7 +85,7 @@ RSA/MD5 (<a href="https://go.microsoft.com/fwlink/p/?linkid=124777">RFC 2537</a>
 </dl>
 </td>
 <td width="60%">
-Diffie-Hellman (<a href="https://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2539</a>)
+Diffie-Hellman (<a href="https://www.ietf.org/rfc/rfc2539.txt">RFC 2539</a>)
 
 </td>
 </tr>
@@ -97,7 +95,7 @@ Diffie-Hellman (<a href="https://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2
 </dl>
 </td>
 <td width="60%">
-DSA (<a href="https://go.microsoft.com/fwlink/p/?linkid=124779">RFC 2536</a>)
+DSA (<a href="https://www.ietf.org/rfc/rfc2536.txt">RFC 2536</a>)
 
 </td>
 </tr>
@@ -117,13 +115,11 @@ Elliptic curve cryptography
 </dl>
 </td>
 <td width="60%">
-RSA/SHA-1 (<a href="https://go.microsoft.com/fwlink/p/?linkid=90406">RFC 3110</a>)
+RSA/SHA-1 (<a href="https://www.ietf.org/rfc/rfc3110.txt">RFC 3110</a>)
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field chDigestType
 
@@ -140,61 +136,39 @@ A value that specifies the cryptographic algorithm used to generate <b>Digest</b
 </dl>
 </td>
 <td width="60%">
-SHA-1 (<a href="https://go.microsoft.com/fwlink/p/?linkid=90408">RFC 3174</a>)
+SHA-1 (<a href="https://www.ietf.org/rfc/rfc3174.txt">RFC 3174</a>)
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wDigestLength
 
 The length, in bytes. of the message digest in <b>Digest</b>. This value is determined by the algorithm type in <b>chDigestType</b>.
 
-
 ### -field wPad
 
 Reserved for padding. Do not use.
 
-
 ### -field size_is
-
- 
-
 
 ### -field size_is.wDigestLength
 
- 
-
-
 ### -field Digest
 
-A <b>BYTE</b> array that contains a cryptographic digest of the DNSKEY RR and RDATA as specified in section 5.1.4 of <a href="https://go.microsoft.com/fwlink/p/?linkid=107052">RFC 4034</a>. Its length is determined by <b>wDigestLength</b>.
-
+A <b>BYTE</b> array that contains a cryptographic digest of the DNSKEY RR and RDATA as specified in section 5.1.4 of <a href="https://www.ietf.org/rfc/rfc4034.txt">RFC 4034</a>. Its length is determined by <b>wDigestLength</b>.
 
 ## -remarks
 
-
-
 The 
 <b>DNS_DS_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
-
-
-
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 ## -see-also
 
+<a href="/windows/desktop/DNS/dns-structures">DNS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-structures">DNS Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
- 
-
- 
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
 

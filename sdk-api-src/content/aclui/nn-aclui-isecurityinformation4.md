@@ -2,15 +2,12 @@
 UID: NN:aclui.ISecurityInformation4
 title: ISecurityInformation4 (aclui.h)
 description: Enables the access control editor (ACE) to obtain the share's security descriptor to initialize the share page.
+helpviewer_keywords: ["ISecurityInformation4","ISecurityInformation4 interface [Security]","ISecurityInformation4 interface [Security]","described","aclui/ISecurityInformation4","security.isecurityinformation4"]
 old-location: security\isecurityinformation4.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: F7AD3612-5D66-49DB-81EF-040849D32CB4
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation4, ISecurityInformation4 interface [Security], ISecurityInformation4 interface [Security],described, aclui/ISecurityInformation4, security.isecurityinformation4
-f1_keywords:
-- aclui/ISecurityInformation4
-dev_langs:
-- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Aclui.h
-api_name:
-- ISecurityInformation4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISecurityInformation4
+ - aclui/ISecurityInformation4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Aclui.h
+api_name:
+ - ISecurityInformation4
 ---
 
 # ISecurityInformation4 interface
@@ -48,33 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>ISecurityInformation4</b> interface enables the resource manager to provide additional information when computing effective permissions using the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission2">IEffectivePermission2</a> interface. 
-
+The <b>ISecurityInformation4</b> interface enables the resource manager to provide additional information when computing effective permissions using the <a href="/windows/desktop/api/aclui/nn-aclui-ieffectivepermission2">IEffectivePermission2</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation4</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation4</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISecurityInformation4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity">GetSecondarySecurity</a>
-</td>
-<td align="left" width="63%">
-Returns additional security contexts that may impact access to the resource.
-
-</td>
-</tr>
-</table> 
+The <b>ISecurityInformation4</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation4</b> also has these types of members:
 

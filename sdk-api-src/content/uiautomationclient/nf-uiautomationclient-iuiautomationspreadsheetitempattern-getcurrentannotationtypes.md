@@ -1,16 +1,13 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes (uiautomationclient.h)
-description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
+description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell. (IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes)
+helpviewer_keywords: ["GetCurrentAnnotationTypes","GetCurrentAnnotationTypes method [Windows Accessibility]","GetCurrentAnnotationTypes method [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","GetCurrentAnnotationTypes method","IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes","IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes","uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes","winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes"]
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 779CFE43-8127-4A78-BD1A-8407DA5F49A2
 ms.date: 12/05/2018
 ms.keywords: GetCurrentAnnotationTypes, GetCurrentAnnotationTypes method [Windows Accessibility], GetCurrentAnnotationTypes method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCurrentAnnotationTypes method, IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes, IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes
-f1_keywords:
-- uiautomationclient/IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes
+ - uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 ---
 
 # IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
-
 
 ## -parameters
 
-
-
-
 ### -param retVal [out, retval]
 
-Type: <b><a href="https://go.microsoft.com/fwlink/p/?linkid=180754">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-Receives the array of annotation type identifiers. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a>.
-
+Receives the array of annotation type identifiers. For a list of possible values, see <a href="/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a>.
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationspreadsheetitempattern">IUIAutomationSpreadsheetItemPattern</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationspreadsheetitempattern">IUIAutomationSpreadsheetItemPattern</a>

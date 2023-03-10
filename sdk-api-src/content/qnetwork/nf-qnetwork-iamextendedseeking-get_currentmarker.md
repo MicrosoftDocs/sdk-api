@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMExtendedSeeking.get_CurrentMarker
 title: IAMExtendedSeeking::get_CurrentMarker (qnetwork.h)
 description: The get_CurrentMarker method retrieves the current marker.
+helpviewer_keywords: ["IAMExtendedSeeking interface [DirectShow]","get_CurrentMarker method","IAMExtendedSeeking.get_CurrentMarker","IAMExtendedSeeking::get_CurrentMarker","IAMExtendedSeekingget_CurrentMarker","dshow.iamextendedseeking_get_currentmarker","get_CurrentMarker","get_CurrentMarker method [DirectShow]","get_CurrentMarker method [DirectShow]","IAMExtendedSeeking interface","qnetwork/IAMExtendedSeeking::get_CurrentMarker"]
 old-location: dshow\iamextendedseeking_get_currentmarker.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: dd2d2054-0f92-4ba5-8913-24278e01775e
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_CurrentMarker method, IAMExtendedSeeking.get_CurrentMarker, IAMExtendedSeeking::get_CurrentMarker, IAMExtendedSeekingget_CurrentMarker, dshow.iamextendedseeking_get_currentmarker, get_CurrentMarker, get_CurrentMarker method [DirectShow], get_CurrentMarker method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_CurrentMarker
-f1_keywords:
-- qnetwork/IAMExtendedSeeking.get_CurrentMarker
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMExtendedSeeking.get_CurrentMarker
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMExtendedSeeking::get_CurrentMarker
+ - qnetwork/IAMExtendedSeeking::get_CurrentMarker
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMExtendedSeeking.get_CurrentMarker
 ---
 
 # IAMExtendedSeeking::get_CurrentMarker
@@ -48,39 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_CurrentMarker</code> method retrieves the current marker.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pCurrentMarker [out]
 
 Pointer to a variable that receives the current marker.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking">IAMExtendedSeeking Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking">IAMExtendedSeeking Interface</a>

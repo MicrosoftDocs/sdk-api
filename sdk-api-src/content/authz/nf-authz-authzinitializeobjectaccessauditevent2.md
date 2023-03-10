@@ -2,15 +2,12 @@
 UID: NF:authz.AuthzInitializeObjectAccessAuditEvent2
 title: AuthzInitializeObjectAccessAuditEvent2 function (authz.h)
 description: Allocates and initializes an AUTHZ_AUDIT_EVENT_HANDLE handle for use with the AuthzAccessCheck function.
+helpviewer_keywords: ["AUTHZ_NO_ALLOC_STRINGS","AUTHZ_NO_FAILURE_AUDIT","AUTHZ_NO_SUCCESS_AUDIT","AuthzInitializeObjectAccessAuditEvent2","AuthzInitializeObjectAccessAuditEvent2 function [Security]","authz/AuthzInitializeObjectAccessAuditEvent2","security.authzinitializeobjectaccessauditevent2"]
 old-location: security\authzinitializeobjectaccessauditevent2.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c65bb799-0158-496a-b428-0331c4474b74
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AUDIT, AuthzInitializeObjectAccessAuditEvent2, AuthzInitializeObjectAccessAuditEvent2 function [Security], authz/AuthzInitializeObjectAccessAuditEvent2, security.authzinitializeobjectaccessauditevent2
-f1_keywords:
-- authz/AuthzInitializeObjectAccessAuditEvent2
-dev_langs:
-- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Authz.dll
-api_name:
-- AuthzInitializeObjectAccessAuditEvent2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - AuthzInitializeObjectAccessAuditEvent2
+ - authz/AuthzInitializeObjectAccessAuditEvent2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Authz.dll
+api_name:
+ - AuthzInitializeObjectAccessAuditEvent2
 ---
 
 # AuthzInitializeObjectAccessAuditEvent2 function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>AuthzInitializeObjectAccessAuditEvent2</b> function allocates and initializes an <b>AUTHZ_AUDIT_EVENT_HANDLE</b> handle for use with the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function.
-
+The <b>AuthzInitializeObjectAccessAuditEvent2</b> function allocates and initializes an <b>AUTHZ_AUDIT_EVENT_HANDLE</b> handle for use with the <a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> function.
 
 ## -parameters
-
-
-
 
 ### -param Flags [in]
 
@@ -97,78 +94,54 @@ Disables generation of success audits.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param hAuditEventType [in]
 
 Reserved. This parameter should be set to <b>NULL</b>.
 
-
 ### -param szOperationType [in]
 
 A pointer to a string that indicates the operation that is to be audited.
-
 
 ### -param szObjectType [in]
 
 A pointer to a string that indicates the type of object  accessed.
 
-
 ### -param szObjectName [in]
 
 A pointer to a string that indicates the name of the object  accessed.
-
 
 ### -param szAdditionalInfo [in]
 
 Pointer to a string defined by the Resource Manager that contains additional audit information.
 
-
 ### -param szAdditionalInfo2 [in]
 
 Pointer to a string defined by the Resource Manager that contains additional audit information.
-
 
 ### -param phAuditEvent [out]
 
 A pointer to the returned <b>AUTHZ_AUDIT_EVENT_HANDLE</b> handle.
 
-
 ### -param dwAdditionalParameterCount [in]
 
 Must be set to zero.
 
-
-### -param arg10
+### -param ...
 
 Additional parameters.
 
-
-
-
 ## -returns
-
-
 
 If the function succeeds, it returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
- 
-
- 
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 

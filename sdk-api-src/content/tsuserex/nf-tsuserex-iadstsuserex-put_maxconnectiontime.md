@@ -1,16 +1,13 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.put_MaxConnectionTime
 title: IADsTSUserEx::put_MaxConnectionTime (tsuserex.h)
-description: The maximum duration of the Remote Desktop Services session. After the specified number of minutes have elapsed, the session can be disconnected or terminated.
+description: The maximum duration of the Remote Desktop Services session. After the specified number of minutes have elapsed, the session can be disconnected or terminated. (Put)
+helpviewer_keywords: ["IADsTSUserEx interface [Remote Desktop Services]","MaxConnectionTime property","IADsTSUserEx.MaxConnectionTime","IADsTSUserEx.put_MaxConnectionTime","IADsTSUserEx::MaxConnectionTime","IADsTSUserEx::get_MaxConnectionTime","IADsTSUserEx::put_MaxConnectionTime","MaxConnectionTime property [Remote Desktop Services]","MaxConnectionTime property [Remote Desktop Services]","IADsTSUserEx interface","put_MaxConnectionTime","termserv.iadstsuserex_maxconnectiontime","tsuserex/IADsTSUserEx::MaxConnectionTime","tsuserex/IADsTSUserEx::get_MaxConnectionTime","tsuserex/IADsTSUserEx::put_MaxConnectionTime"]
 old-location: termserv\iadstsuserex_maxconnectiontime.htm
 tech.root: TermServ
 ms.assetid: c1ba5610-b144-4dbe-9a66-605636a81e9c
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxConnectionTime property, IADsTSUserEx.MaxConnectionTime, IADsTSUserEx.put_MaxConnectionTime, IADsTSUserEx::MaxConnectionTime, IADsTSUserEx::get_MaxConnectionTime, IADsTSUserEx::put_MaxConnectionTime, MaxConnectionTime property [Remote Desktop Services], MaxConnectionTime property [Remote Desktop Services],IADsTSUserEx interface, put_MaxConnectionTime, termserv.iadstsuserex_maxconnectiontime, tsuserex/IADsTSUserEx::MaxConnectionTime, tsuserex/IADsTSUserEx::get_MaxConnectionTime, tsuserex/IADsTSUserEx::put_MaxConnectionTime
-f1_keywords:
-- tsuserex/IADsTSUserEx.MaxConnectionTime
-dev_langs:
-- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: Tsuserex.tlb
 req.lib: 
 req.dll: Tsuserex.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tsuserex.dll
-api_name:
-- IADsTSUserEx.MaxConnectionTime
-- IADsTSUserEx.get_MaxConnectionTime
-- IADsTSUserEx.put_MaxConnectionTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADsTSUserEx::put_MaxConnectionTime
+ - tsuserex/IADsTSUserEx::put_MaxConnectionTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tsuserex.dll
+api_name:
+ - IADsTSUserEx.MaxConnectionTime
+ - IADsTSUserEx.get_MaxConnectionTime
+ - IADsTSUserEx.put_MaxConnectionTime
 ---
 
 # IADsTSUserEx::put_MaxConnectionTime
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The maximum duration of the Remote Desktop Services session. After the specified number of minutes have elapsed, the session can be disconnected or terminated.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

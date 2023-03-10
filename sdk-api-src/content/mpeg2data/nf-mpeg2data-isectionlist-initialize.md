@@ -2,15 +2,12 @@
 UID: NF:mpeg2data.ISectionList.Initialize
 title: ISectionList::Initialize (mpeg2data.h)
 description: The Initialize method initializes the object. This method should be called once, immediately after creating the object. The IMpeg2Data::GetSection and IMpeg2Data::GetTable methods call this method internally, so typically an application will not call it.
+helpviewer_keywords: ["ISectionList interface [Microsoft TV Technologies]","Initialize method","ISectionList.Initialize","ISectionList::Initialize","ISectionListInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","ISectionList interface","mpeg2data/ISectionList::Initialize","mstv.isectionlist_initialize"]
 old-location: mstv\isectionlist_initialize.htm
 tech.root: mstv
 ms.assetid: 196abb62-97f6-4961-b843-895ae35fedc4
 ms.date: 12/05/2018
 ms.keywords: ISectionList interface [Microsoft TV Technologies],Initialize method, ISectionList.Initialize, ISectionList::Initialize, ISectionListInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ISectionList interface, mpeg2data/ISectionList::Initialize, mstv.isectionlist_initialize
-f1_keywords:
-- mpeg2data/ISectionList.Initialize
-dev_langs:
-- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2data.h
-api_name:
-- ISectionList.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISectionList::Initialize
+ - mpeg2data/ISectionList::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2data.h
+api_name:
+ - ISectionList.Initialize
 ---
 
 # ISectionList::Initialize
@@ -48,61 +50,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>Initialize</b> method initializes the object. This method should be called once, immediately after creating the object. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getsection">IMpeg2Data::GetSection</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-gettable">IMpeg2Data::GetTable</a> methods call this method internally, so typically an application will not call it.
-
-
-
+The <b>Initialize</b> method initializes the object. This method should be called once, immediately after creating the object. The <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getsection">IMpeg2Data::GetSection</a> and <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-gettable">IMpeg2Data::GetTable</a> methods call this method internally, so typically an application will not call it.
 
 ## -parameters
 
-
-
-
 ### -param requestType [in]
 
-Specifies the request type, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_request_type">MPEG_REQUEST_TYPE</a> value.
-
+Specifies the request type, as an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ne-mpeg2structs-mpeg_request_type">MPEG_REQUEST_TYPE</a> value.
 
 ### -param pMpeg2Data [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
-
+Pointer to the <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data</a> interface of the MPEG-2 Sections and Tables filter.
 
 ### -param pContext [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
-
+Pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a> structure. This structure indicates the MPEG-2 source.
 
 ### -param pid [in]
 
 Specifies a packet identifier (PID), indicating which packets in the transport stream are requested.
 
-
 ### -param tid [in]
 
 Specifies a table identifier (TID), indicating which table sections to retrieve.
 
-
 ### -param pFilter [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
-
+Optional pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
 
 ### -param timeout [in]
 
 Specifies the maximum length of time that a synchronous request should wait before it times out.
 
-
 ### -param hDoneEvent [in]
 
 Specifies a handle to an event. The object signals the event when the request completes. This parameter is optional; it should be specified for asynchronous requests.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -156,27 +140,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is either synchronous or asynchronous, depending on the request type defined in the <i>requestType</i> parameter. When the method is asynchronous, it returns immediately and signals the event specified in <i>hDoneEvent</i>. When the method is synchronous, it blocks until the request completes or until the time out specified in the <i>timeout</i> parameter expires.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>

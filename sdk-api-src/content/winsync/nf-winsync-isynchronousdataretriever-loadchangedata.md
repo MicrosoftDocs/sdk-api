@@ -1,16 +1,13 @@
 ---
 UID: NF:winsync.ISynchronousDataRetriever.LoadChangeData
 title: ISynchronousDataRetriever::LoadChangeData (winsync.h)
-description: Retrieves item data for a change.
+description: Retrieves item data for a change. (ISynchronousDataRetriever.LoadChangeData)
+helpviewer_keywords: ["ISynchronousDataRetriever interface [Windows Sync]","LoadChangeData method","ISynchronousDataRetriever.LoadChangeData","ISynchronousDataRetriever::LoadChangeData","LoadChangeData","LoadChangeData method [Windows Sync]","LoadChangeData method [Windows Sync]","ISynchronousDataRetriever interface","winsync.isynchronousdataretriever_loadchangedata","winsync/ISynchronousDataRetriever::LoadChangeData"]
 old-location: winsync\isynchronousdataretriever_loadchangedata.htm
 tech.root: winsync
 ms.assetid: ae309301-3810-4785-b4f2-a55fbdf819d8
 ms.date: 12/05/2018
 ms.keywords: ISynchronousDataRetriever interface [Windows Sync],LoadChangeData method, ISynchronousDataRetriever.LoadChangeData, ISynchronousDataRetriever::LoadChangeData, LoadChangeData, LoadChangeData method [Windows Sync], LoadChangeData method [Windows Sync],ISynchronousDataRetriever interface, winsync.isynchronousdataretriever_loadchangedata, winsync/ISynchronousDataRetriever::LoadChangeData
-f1_keywords:
-- winsync/ISynchronousDataRetriever.LoadChangeData
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISynchronousDataRetriever.LoadChangeData
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISynchronousDataRetriever::LoadChangeData
+ - winsync/ISynchronousDataRetriever::LoadChangeData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISynchronousDataRetriever.LoadChangeData
 ---
 
 # ISynchronousDataRetriever::LoadChangeData
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves item data for a change.
 
-
 ## -parameters
-
-
-
 
 ### -param pLoadChangeContext [in]
 
 Metadata that describes the change for which data should be retrieved.
 
-
 ### -param ppUnkData [out]
 
 Returns the item data for the change specified in <i>pLoadChangeContext</i>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -98,14 +91,8 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The source provider determines the data retrieval interface that is implemented by the object that is returned in <i>ppUnkData</i>. The destination provider can acquire this interface by using the <b>QueryInterface</b> method of <i>ppUnkData</i>.
 
@@ -163,21 +150,10 @@ STDMETHODIMP CItemStore::LoadChangeData(
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iloadchangecontext">ILoadChangeContext Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iloadchangecontext">ILoadChangeContext Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever Interface</a>

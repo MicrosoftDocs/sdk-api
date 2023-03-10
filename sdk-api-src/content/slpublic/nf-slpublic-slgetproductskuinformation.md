@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGetProductSkuInformation
 title: SLGetProductSkuInformation function (slpublic.h)
 description: Gets information about the specified product SKU.
+helpviewer_keywords: ["SLGetProductSkuInformation","SLGetProductSkuInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","SL_INFO_KEY_AUTHOR","SL_INFO_KEY_DESCRIPTION","SL_INFO_KEY_NAME","security.slgetproductskuinformation","slpublic/SLGetProductSkuInformation"]
 old-location: security\slgetproductskuinformation.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: 38da608d-88c9-4e3a-84a6-5b305560191f
 ms.date: 12/05/2018
 ms.keywords: SLGetProductSkuInformation, SLGetProductSkuInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_AUTHOR, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_NAME, security.slgetproductskuinformation, slpublic/SLGetProductSkuInformation
-f1_keywords:
-- slpublic/SLGetProductSkuInformation
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGetProductSkuInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGetProductSkuInformation
+ - slpublic/SLGetProductSkuInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGetProductSkuInformation
 ---
 
 # SLGetProductSkuInformation function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets information about the specified product SKU.
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,13 +60,11 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pProductSkuId [in]
 
 Type: <b>const SLID*</b>
 
 A pointer to the SKU ID.
-
 
 ### -param pwszValueName [in]
 
@@ -116,14 +111,12 @@ Author of the product
 </td>
 </tr>
 </table>
- 
-
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 <table>
 <tr>
@@ -164,8 +157,6 @@ Binary BLOB
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pcbValue [out]
 
@@ -173,18 +164,14 @@ Type: <b>UINT*</b>
 
 A pointer to the size, in bytes,  of the <i>ppbValue</i> buffer.
 
-
 ### -param ppbValue [out]
 
 Type: <b>PBYTE*</b>
 
 If successful, the data is returned in the buffer allocated by SLC.         
-		When finished using the memory, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
-
+		When finished using the memory, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -220,7 +207,3 @@ The value for the input key was not found.
 </td>
 </tr>
 </table>
- 
-
-
-

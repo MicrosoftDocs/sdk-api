@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpGetMibInfoV6
 title: DhcpGetMibInfoV6 function (dhcpsapi.h)
 description: Retrieves the IPv6 counter values of the DHCP server.
+helpviewer_keywords: ["DhcpGetMibInfoV6","DhcpGetMibInfoV6 function [DHCP]","dhcp.dhcpgetmibinfov6","dhcpsapi/DhcpGetMibInfoV6"]
 old-location: dhcp\dhcpgetmibinfov6.htm
 tech.root: DHCP
 ms.assetid: fcc61321-2edd-4ea8-bcd7-7237fbc90b74
 ms.date: 12/05/2018
 ms.keywords: DhcpGetMibInfoV6, DhcpGetMibInfoV6 function [DHCP], dhcp.dhcpgetmibinfov6, dhcpsapi/DhcpGetMibInfoV6
-f1_keywords:
-- dhcpsapi/DhcpGetMibInfoV6
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpGetMibInfoV6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpGetMibInfoV6
+ - dhcpsapi/DhcpGetMibInfoV6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpGetMibInfoV6
 ---
 
 # DhcpGetMibInfoV6 function
@@ -48,34 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DhcpGetMibInfoV6</b> function retrieves the IPv6 counter values of the DHCP server. 
-
+The <b>DhcpGetMibInfoV6</b> function retrieves the IPv6 counter values of the DHCP server.
 
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that specifies the IP address or hostname of the DHCPv6 server.
 
-
 ### -param MibInfo [out]
 
-Pointed to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a> structure that points to the location containing the IPv6 MIB information about the DHCP server.
+Pointed to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a> structure that points to the location containing the IPv6 MIB information about the DHCP server.
 
-<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
+<div class="alert"><b>Note</b>  <p class="note">The memory for this parameter must be free using <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
 
 </div>
 <div> </div>
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -116,18 +110,7 @@ One of the parameters provides an invalid value.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a>

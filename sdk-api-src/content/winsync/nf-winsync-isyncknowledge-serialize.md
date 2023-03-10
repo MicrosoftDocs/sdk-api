@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncKnowledge.Serialize
 title: ISyncKnowledge::Serialize (winsync.h)
 description: Serializes the knowledge object data to a byte array.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","Serialize method","ISyncKnowledge.Serialize","ISyncKnowledge::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_serialize","winsync/ISyncKnowledge::Serialize"]
 old-location: winsync\isyncknowledge_serialize.htm
 tech.root: winsync
 ms.assetid: 1feb0626-78f0-4d37-b3a0-c87a7fb22753
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],Serialize method, ISyncKnowledge.Serialize, ISyncKnowledge::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_serialize, winsync/ISyncKnowledge::Serialize
-f1_keywords:
-- winsync/ISyncKnowledge.Serialize
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::Serialize
+ - winsync/ISyncKnowledge::Serialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.Serialize
 ---
 
 # ISyncKnowledge::Serialize
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serializes the knowledge object data to a byte array.
 
-
 ## -parameters
-
-
-
 
 ### -param fSerializeReplicaKeyMap [in]
 
 <b>TRUE</b> to serialize the <b>IReplicaKeyMap</b> object that is contained in the knowledge; otherwise, <b>FALSE</b>.
 
-
 ### -param pbKnowledge [in, out]
 
 The byte array that receives the serialized knowledge data.
-
 
 ### -param pcbKnowledge [in, out]
 
 Specifies the number of bytes in <i>pbKnowledge</i>. Returns the number of bytes required to serialize the replica key map data when <i>pbKnowledge</i> is too small, or returns the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -133,22 +125,11 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

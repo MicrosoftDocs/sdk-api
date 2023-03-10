@@ -2,15 +2,12 @@
 UID: NF:winddi.HT_Get8BPPMaskPalette
 title: HT_Get8BPPMaskPalette function (winddi.h)
 description: The HT_Get8BPPMaskPalette function returns a mask palette for an 8-bits-per-pixel device type.
+helpviewer_keywords: ["HT_Get8BPPMaskPalette","HT_Get8BPPMaskPalette function [Display Devices]","display.ht_get8bppmaskpalette","gdifncs_5d4e6366-f721-442d-9666-12cadfef89b9.xml","winddi/HT_Get8BPPMaskPalette"]
 old-location: display\ht_get8bppmaskpalette.htm
 tech.root: display
 ms.assetid: 46e9b3e1-e9a5-4c18-8595-6f883a790b01
 ms.date: 12/05/2018
 ms.keywords: HT_Get8BPPMaskPalette, HT_Get8BPPMaskPalette function [Display Devices], display.ht_get8bppmaskpalette, gdifncs_5d4e6366-f721-442d-9666-12cadfef89b9.xml, winddi/HT_Get8BPPMaskPalette
-f1_keywords:
-- winddi/HT_Get8BPPMaskPalette
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- HT_Get8BPPMaskPalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HT_Get8BPPMaskPalette
+ - winddi/HT_Get8BPPMaskPalette
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - HT_Get8BPPMaskPalette
 ---
 
 # HT_Get8BPPMaskPalette function
@@ -48,28 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>HT_Get8BPPMaskPalette</b> function returns a mask palette for an 8-bits-per-pixel device type.
 
-
 ## -parameters
-
-
-
 
 ### -param pPaletteEntry [in, out]
 
 Pointer to the array of PALETTEENTRY structures (described in the Windows SDK documentation) to be filled in. GDI assumes that it points to valid memory space in which GDI can place the entire 8-bit-per-pixel halftone palette. 
 
-For a driver that runs on Windows XP and later operating system versions, GDI checks <i>pPaletteEntry</i>[0] to determine how to return the composed CMY palette. If <i>pPaletteEntry</i>[0] is set to 'RGB0', the palette will be in one of the CMY_INVERTED modes and will have its indexes inverted. That is, index 0 in the palette is black, and index 255 is white. If <i>pPaletteEntry</i>[0] is not set to 'RGB0', the palette is a normal CMY palette, with index 0 being white and index 255 being black. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for new requirements and details on how to use this parameter.
+For a driver that runs on Windows XP and later operating system versions, GDI checks <i>pPaletteEntry</i>[0] to determine how to return the composed CMY palette. If <i>pPaletteEntry</i>[0] is set to 'RGB0', the palette will be in one of the CMY_INVERTED modes and will have its indexes inverted. That is, index 0 in the palette is black, and index 255 is white. If <i>pPaletteEntry</i>[0] is not set to 'RGB0', the palette is a normal CMY palette, with index 0 being white and index 255 being black. See <a href="/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for new requirements and details on how to use this parameter.
 
 Windows 2000 ignores any value the driver places in <i>pPaletteEntry</i>[0]. For this reason, if your driver is intended to run on Windows 2000 <i>and</i> on Windows XP or later versions, and your driver sets <i>pPaletteEntry</i>[0] to 'RGB0', the bitmaps your driver receives from Windows XP and later might have their colors inverted, relative to those received from Windows 2000. Therefore, such a driver must examine the palette before downloading a bitmap.
-
 
 ### -param Use8BPPMaskPal [in]
 
 Indicates which type of palette should be returned. When <i>Use8BPPMaskPal</i> is <b>TRUE</b>, <b>HT_Get8BPPMaskPalette</b> sets the <i>pPaletteEntry</i> parameter with the address of a CMY palette (an array of PALETTEENTRY structures) that is described by the bitmask specified in <i>CMYMask</i>. When <i>Use8BPPMaskPal</i> is <b>FALSE</b>, the function sets <i>pPaletteEntry</i> with the address of a standard RGB 8-bit-per-pixel halftone palette.
-
 
 ### -param CMYMask [in]
 
@@ -143,61 +138,40 @@ The two lowest bits (bits 1,0) specify the number of levels of yellow. At most, 
 
 </li>
 </ul>
-For values of <i>CMYMask</i> ranging from 3 to 255, any bitmask combination in which the cyan, magenta, or yellow level bits are zero is invalid. In such cases, <b>HT_Get8BPPMaskPalette</b> returns a palette count of zero. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information. 
-
+For values of <i>CMYMask</i> ranging from 3 to 255, any bitmask combination in which the cyan, magenta, or yellow level bits are zero is invalid. In such cases, <b>HT_Get8BPPMaskPalette</b> returns a palette count of zero. See <a href="/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information.
 
 ### -param RedGamma [in]
 
-If <i>Use8BPPMaskPal</i> is <b>TRUE</b>, the value of this parameter is  not used. In that case, gamma values will be specified in the <b>ciDevice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure. 
+If <i>Use8BPPMaskPal</i> is <b>TRUE</b>, the value of this parameter is  not used. In that case, gamma values will be specified in the <b>ciDevice</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure. 
 
-If <i>Use8BPPMaskPal</i> is <b>FALSE</b>, the value of this parameter specifies the red gamma value, out of the red, green and blue gamma values that GDI is to use to gamma-correct the palette. The USHORT value is interpreted as a real number whose four least-significant digits are to the right of the decimal point. For example, a gamma value of 10000 represents the real number 1.0000, and 12345 represents 1.2345. The minimum gamma value allowed is 0.0000, and the maximum allowable value is 6.5535. 
-
+If <i>Use8BPPMaskPal</i> is <b>FALSE</b>, the value of this parameter specifies the red gamma value, out of the red, green and blue gamma values that GDI is to use to gamma-correct the palette. The USHORT value is interpreted as a real number whose four least-significant digits are to the right of the decimal point. For example, a gamma value of 10000 represents the real number 1.0000, and 12345 represents 1.2345. The minimum gamma value allowed is 0.0000, and the maximum allowable value is 6.5535.
 
 ### -param GreenGamma [in]
 
-If <i>Use8BPPMaskPal</i> is <b>TRUE</b>, the value of this parameter is  not used. In that case, gamma values will be specified in the <b>ciDevice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure. 
+If <i>Use8BPPMaskPal</i> is <b>TRUE</b>, the value of this parameter is  not used. In that case, gamma values will be specified in the <b>ciDevice</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure. 
 
-If <i>Use8BPPMaskPal</i> is <b>FALSE</b>, the value of this parameter specifies the green gamma value, out of the red, green and blue gamma values that GDI is to use to gamma-correct the palette. The USHORT value is interpreted as a real number whose four least-significant digits are to the right of the decimal point. For example, a gamma value of 10000 represents the real number 1.0000, and 12345 represents 1.2345. The minimum gamma value allowed is 0.0000, and the maximum allowable value is 6.5535. 
-
+If <i>Use8BPPMaskPal</i> is <b>FALSE</b>, the value of this parameter specifies the green gamma value, out of the red, green and blue gamma values that GDI is to use to gamma-correct the palette. The USHORT value is interpreted as a real number whose four least-significant digits are to the right of the decimal point. For example, a gamma value of 10000 represents the real number 1.0000, and 12345 represents 1.2345. The minimum gamma value allowed is 0.0000, and the maximum allowable value is 6.5535.
 
 ### -param BlueGamma [in]
 
-If <i>Use8BPPMaskPal</i> is <b>TRUE</b>, the value of this parameter is  not used. In that case, gamma values will be specified in the <b>ciDevice</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure. 
+If <i>Use8BPPMaskPal</i> is <b>TRUE</b>, the value of this parameter is  not used. In that case, gamma values will be specified in the <b>ciDevice</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure. 
 
-If <i>Use8BPPMaskPal</i> is <b>FALSE</b>, the value of this parameter specifies the blue gamma value, out of the red, green and blue gamma values that GDI is to use to gamma-correct the palette. The USHORT value is interpreted as a real number whose four least-significant digits are to the right of the decimal point. For example, a gamma value of 10000 represents the real number 1.0000, and 12345 represents 1.2345. The minimum gamma value allowed is 0.0000, and the maximum allowable value is 6.5535. 
-
+If <i>Use8BPPMaskPal</i> is <b>FALSE</b>, the value of this parameter specifies the blue gamma value, out of the red, green and blue gamma values that GDI is to use to gamma-correct the palette. The USHORT value is interpreted as a real number whose four least-significant digits are to the right of the decimal point. For example, a gamma value of 10000 represents the real number 1.0000, and 12345 represents 1.2345. The minimum gamma value allowed is 0.0000, and the maximum allowable value is 6.5535.
 
 ## -returns
-
-
 
 If <i>pPaletteEntry</i> is not <b>NULL</b>, <b>HT_Get8BPPMaskPalette</b> returns the number of PALETTEENTRY structures that GDI filled out in the array to which <i>pPaletteEntry</i> points. If <i>pPaletteEntry</i> is <b>NULL</b>, the value returned is the total count of PALETTEENTRY structures required to store the halftone palette.
 
 If an illegal value of the <i>CMYMask</i> parameter is used in the call to this function, <b>HT_Get8BPPMaskPalette</b> returns a value of zero.
 
-
-
-
 ## -remarks
-
-
 
 The PALETTEENTRY structure is documented in the Windows SDK documentation.
 
-Calling <b>HT_Get8BPPMaskPalette</b> with <i>Use8BPPMaskPal</i> set <b>FALSE</b> is equivalent to calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-ht_get8bppformatpalette">HT_Get8BPPFormatPalette</a>.
+Calling <b>HT_Get8BPPMaskPalette</b> with <i>Use8BPPMaskPal</i> set <b>FALSE</b> is equivalent to calling <a href="/windows/desktop/api/winddi/nf-winddi-ht_get8bppformatpalette">HT_Get8BPPFormatPalette</a>.
 
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information about this function and how its parameters are used.
-
-
-
+See <a href="/windows-hardware/drivers/display/using-gdi-8-bit-per-pixel-cmy-mask-modes">Using GDI 8-Bit-Per-Pixel CMY Mask Modes</a> for more information about this function and how its parameters are used.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-ht_get8bppformatpalette">HT_Get8BPPFormatPalette</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-ht_get8bppformatpalette">HT_Get8BPPFormatPalette</a>

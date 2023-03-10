@@ -1,14 +1,12 @@
 ---
 UID: NF:chstring.CHString.FormatMessageW(UINT,...)
 title: CHString::FormatMessageW
-description: 
+description: The CHString::FormatMessageW (Unicode) method formats a message string.
+tech.root: wmi
+helpviewer_keywords: ["CHString::FormatMessageW"]
 ms.assetid: efa2f907-3a83-4508-95ef-5d40513f507e
-ms.date: 05/13/2019
+ms.date: 08/10/2022
 ms.keywords: CHString::FormatMessageW
-f1_keywords:
-- chstring/CHString::FormatMessageW
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,22 +27,28 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - CHString::FormatMessageW
+ - chstring/CHString::FormatMessageW
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- COM
+ - COM
 api_location:
-- chstring.h
+ - chstring.h
 api_name:
-- CHString::FormatMessageW
+ - CHString::FormatMessageW
 ---
 
 # CHString::FormatMessageW
 
+
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class is part of the WMI Provider Framework which is now considered in final state, and no further development, enhancements, or updates will be available for non-security related issues affecting these libraries.
+The <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new development.]
 
 The **FormatMessageW** method formats a message string.
 
@@ -54,7 +58,7 @@ The **FormatMessageW** method formats a message string.
 
 The string resource identifier that contains the unformatted message text.
 
-### -param arg2
+### -param ...
 
 Argument list.
 
@@ -94,6 +98,7 @@ assert(str == L"4 of 5 developers agree: Golf is Best!");
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
+

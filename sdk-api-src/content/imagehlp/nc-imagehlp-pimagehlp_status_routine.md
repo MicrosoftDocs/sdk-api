@@ -2,15 +2,12 @@
 UID: NC:imagehlp.PIMAGEHLP_STATUS_ROUTINE
 title: PIMAGEHLP_STATUS_ROUTINE (imagehlp.h)
 description: An application-defined callback function used with the BindImageEx function. The status routine is called during the process of the image binding.
+helpviewer_keywords: ["BindExpandFileHeaders","BindForwarder","BindForwarderNOT","BindImageComplete","BindImageModified","BindImportModule","BindImportModuleFailed","BindImportProcedure","BindImportProcedureFailed","BindMismatchedSymbols","BindNoRoomInImage","BindOutOfMemory","BindRvaToVaFailed","BindSymbolsNotUpdated","PIMAGEHLP_STATUS_ROUTINE","StatusRoutine","StatusRoutine callback","StatusRoutine callback function","_win32_statusroutine","base.statusroutine","imagehlp/StatusRoutine"]
 old-location: base\statusroutine.htm
 tech.root: Debug
 ms.assetid: 38a6ddee-5ef1-416f-99ca-11a50643fc97
 ms.date: 12/05/2018
 ms.keywords: BindExpandFileHeaders, BindForwarder, BindForwarderNOT, BindImageComplete, BindImageModified, BindImportModule, BindImportModuleFailed, BindImportProcedure, BindImportProcedureFailed, BindMismatchedSymbols, BindNoRoomInImage, BindOutOfMemory, BindRvaToVaFailed, BindSymbolsNotUpdated, PIMAGEHLP_STATUS_ROUTINE, StatusRoutine, StatusRoutine callback, StatusRoutine callback function, _win32_statusroutine, base.statusroutine, imagehlp/StatusRoutine
-f1_keywords:
-- imagehlp/StatusRoutine
-dev_langs:
-- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Imagehlp.h
-api_name:
-- StatusRoutine
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIMAGEHLP_STATUS_ROUTINE
+ - imagehlp/PIMAGEHLP_STATUS_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Imagehlp.h
+api_name:
+ - StatusRoutine
 ---
 
 # PIMAGEHLP_STATUS_ROUTINE callback function
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a> function. The status routine is called during the process of the image binding.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a> function. The status routine is called during the process of the image binding.
 
 The <b>PIMAGEHLP_STATUS_ROUTINE</b> type defines a pointer to this callback function. 
 <b>StatusRoutine</b> is a placeholder for the application-defined function name.
 
-
 ## -parameters
-
-
-
 
 ### -param Reason [in]
 
@@ -227,44 +224,31 @@ Symbol file was not updated. The <i>Parameter</i> value is the name of the symbo
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ImageName [in]
 
 The  name of the file to be bound. This value can be a file name, a partial path, or a full path.
 
-
 ### -param DllName [in]
 
 The name of the DLL.
-
 
 ### -param Va [in]
 
 The computed virtual address.
 
-
 ### -param Parameter [in]
 
 Any additional status information. This value depends on the value of the <i>Reason</i> parameter. For more information, see the code fragment in the following Remarks section.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -302,21 +286,10 @@ case BindImageComplete:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-bindimageex">BindImageEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

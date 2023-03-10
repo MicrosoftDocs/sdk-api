@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchById
 title: IWSDiscoveryProvider::SearchById (wsddisco.h)
 description: Initializes a search for WS-Discovery hosts by device identifier.
+helpviewer_keywords: ["IWSDiscoveryProvider interface","SearchById method","IWSDiscoveryProvider.SearchById","IWSDiscoveryProvider::SearchById","SearchById","SearchById method","SearchById method","IWSDiscoveryProvider interface","ncd.iwsdiscoveryprovider_searchbyid","wsddisco/IWSDiscoveryProvider::SearchById"]
 old-location: ncd\iwsdiscoveryprovider_searchbyid.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
-f1_keywords:
-- wsddisco/IWSDiscoveryProvider.SearchById
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wsdapi.dll
-api_name:
-- IWSDiscoveryProvider.SearchById
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveryProvider::SearchById
+ - wsddisco/IWSDiscoveryProvider::SearchById
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wsdapi.dll
+api_name:
+ - IWSDiscoveryProvider.SearchById
 ---
 
 # IWSDiscoveryProvider::SearchById
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Initializes a search for <a href="https://go.microsoft.com/fwlink/p/?linkid=87841">WS-Discovery</a> hosts by device identifier.
-
+Initializes a search for <a href="https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf">WS-Discovery</a> hosts by device identifier.
 
 ## -parameters
-
-
-
 
 ### -param pszId [in]
 
 Device identifier of the desired discovery provider.
 
-
 ### -param pszTag [in, optional]
 
 Optional identifier tag for this search.  May be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,7 +100,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-A callback interface has not been attached. You must call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> before calling this method.
+A callback interface has not been attached. You must call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> before calling this method.
 
 </td>
 </tr>
@@ -123,31 +116,15 @@ Not enough memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>SearchById</b> initiates a WS-Discovery <a href="https://docs.microsoft.com/windows/desktop/WsdApi/resolve-message">Resolve</a> in an attempt to locate a previously known specific device. <i>pszId</i> is used as the endpoint address in the Resolve. This call may result in one or more <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">Add</a> callbacks. If any <b>Add</b> callbacks are issued before the search completes, a <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchcomplete">SearchComplete</a> callback will be issued; otherwise, a <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchfailed">SearchFailed</a> callback will be issued.
+<b>SearchById</b> initiates a WS-Discovery <a href="/windows/desktop/WsdApi/resolve-message">Resolve</a> in an attempt to locate a previously known specific device. <i>pszId</i> is used as the endpoint address in the Resolve. This call may result in one or more <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-add">Add</a> callbacks. If any <b>Add</b> callbacks are issued before the search completes, a <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchcomplete">SearchComplete</a> callback will be issued; otherwise, a <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovidernotify-searchfailed">SearchFailed</a> callback will be issued.
 
 <i>pszTag</i> is an optional user provided string which will be fed back in either callback, allowing the caller to associate the callback with the original query.
 
-For information about troubleshooting applications calling this method, see <a href="https://docs.microsoft.com/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
-
-
-
+For information about troubleshooting applications calling this method, see <a href="/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>

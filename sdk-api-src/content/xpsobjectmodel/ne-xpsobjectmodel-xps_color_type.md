@@ -2,15 +2,12 @@
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009
 title: XPS_COLOR_TYPE (xpsobjectmodel.h)
 description: Describes the color type used by the XPS_COLOR structure.
+helpviewer_keywords: ["XPS_COLOR_TYPE","XPS_COLOR_TYPE enumeration [XPS Documents and Packaging]","XPS_COLOR_TYPE_CONTEXT","XPS_COLOR_TYPE_SCRGB","XPS_COLOR_TYPE_SRGB","xps.xps_color_type","xpsobjectmodel/XPS_COLOR_TYPE","xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT","xpsobjectmodel/XPS_COLOR_TYPE_SCRGB","xpsobjectmodel/XPS_COLOR_TYPE_SRGB"]
 old-location: xps\xps_color_type.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 995576a6-ccca-4c0d-8346-2155801a2fbc
 ms.date: 12/05/2018
 ms.keywords: XPS_COLOR_TYPE, XPS_COLOR_TYPE enumeration [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_SCRGB, XPS_COLOR_TYPE_SRGB, xps.xps_color_type, xpsobjectmodel/XPS_COLOR_TYPE, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT, xpsobjectmodel/XPS_COLOR_TYPE_SCRGB, xpsobjectmodel/XPS_COLOR_TYPE_SRGB
-f1_keywords:
-- xpsobjectmodel/XPS_COLOR_TYPE
-dev_langs:
-- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- xpsobjectmodel.h
-api_name:
-- XPS_COLOR_TYPE
 targetos: Windows
 req.typenames: XPS_COLOR_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009
+ - xpsobjectmodel/__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009
+ - XPS_COLOR_TYPE
+ - xpsobjectmodel/XPS_COLOR_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - xpsobjectmodel.h
+api_name:
+ - XPS_COLOR_TYPE
 ---
 
 # XPS_COLOR_TYPE enumeration
@@ -48,37 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Describes the color type used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure.
-
+Describes the color type used by the <a href="/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure.
 
 ## -enum-fields
 
-
-
-
-### -field XPS_COLOR_TYPE_SRGB
+### -field XPS_COLOR_TYPE_SRGB:1
 
 The color value is an sRGB value.
-
 
 ### -field XPS_COLOR_TYPE_SCRGB
 
 The color value is an scRGB value.
 
-
 ### -field XPS_COLOR_TYPE_CONTEXT
 
 The color value is specified using context color syntax.
 
-
 ## -see-also
 
-
-
-
-<a href="http://go.microsoft.com/?linkid=8435939">XML Paper Specification</a>
- 
-
- 
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

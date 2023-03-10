@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_LogFilePath
 title: IApiTracingDataCollector::get_LogFilePath (pla.h)
-description: Retrieves or sets the name of the log file that contains the API trace data.
+description: Retrieves or sets the name of the log file that contains the API trace data. (Get)
+helpviewer_keywords: ["IApiTracingDataCollector interface [PLA]","LogFilePath property","IApiTracingDataCollector.LogFilePath","IApiTracingDataCollector.get_LogFilePath","IApiTracingDataCollector::LogFilePath","IApiTracingDataCollector::get_LogFilePath","IApiTracingDataCollector::put_LogFilePath","LogFilePath property [PLA]","LogFilePath property [PLA]","IApiTracingDataCollector interface","base.iapitracingdatacollector_logfilepath","get_LogFilePath","pla.iapitracingdatacollector_logfilepath","pla/IApiTracingDataCollector::LogFilePath","pla/IApiTracingDataCollector::get_LogFilePath","pla/IApiTracingDataCollector::put_LogFilePath"]
 old-location: pla\iapitracingdatacollector_logfilepath.htm
 tech.root: PLA
 ms.assetid: 17e876d5-c1d2-4ab8-9f9e-40d66528e57d
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogFilePath property, IApiTracingDataCollector.LogFilePath, IApiTracingDataCollector.get_LogFilePath, IApiTracingDataCollector::LogFilePath, IApiTracingDataCollector::get_LogFilePath, IApiTracingDataCollector::put_LogFilePath, LogFilePath property [PLA], LogFilePath property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logfilepath, get_LogFilePath, pla.iapitracingdatacollector_logfilepath, pla/IApiTracingDataCollector::LogFilePath, pla/IApiTracingDataCollector::get_LogFilePath, pla/IApiTracingDataCollector::put_LogFilePath
-f1_keywords:
-- pla/IApiTracingDataCollector.LogFilePath
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IApiTracingDataCollector.LogFilePath
-- IApiTracingDataCollector.get_LogFilePath
-- IApiTracingDataCollector.put_LogFilePath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IApiTracingDataCollector::get_LogFilePath
+ - pla/IApiTracingDataCollector::get_LogFilePath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IApiTracingDataCollector.LogFilePath
+ - IApiTracingDataCollector.get_LogFilePath
+ - IApiTracingDataCollector.put_LogFilePath
 ---
 
 # IApiTracingDataCollector::get_LogFilePath
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the name of the log file that contains the API trace data.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>

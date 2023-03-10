@@ -2,15 +2,12 @@
 UID: NF:tom.ITextStory.SetFormattedText
 title: ITextStory::SetFormattedText (tom.h)
 description: Replaces a story’s text with specified formatted text.
+helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetFormattedText method","ITextStory.SetFormattedText","ITextStory::SetFormattedText","SetFormattedText","SetFormattedText method [Windows Controls]","SetFormattedText method [Windows Controls]","ITextStory interface","controls.itextstory_setformattedtext","tom/ITextStory::SetFormattedText"]
 old-location: controls\itextstory_setformattedtext.htm
 tech.root: Controls
 ms.assetid: ddc77bfe-06de-43e6-9d74-f1b3531c9416
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetFormattedText method, ITextStory.SetFormattedText, ITextStory::SetFormattedText, SetFormattedText, SetFormattedText method [Windows Controls], SetFormattedText method [Windows Controls],ITextStory interface, controls.itextstory_setformattedtext, tom/ITextStory::SetFormattedText
-f1_keywords:
-- tom/ITextStory.SetFormattedText
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tom.h
-api_name:
-- ITextStory.SetFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextStory::SetFormattedText
+ - tom/ITextStory::SetFormattedText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tom.h
+api_name:
+ - ITextStory.SetFormattedText
 ---
 
 # ITextStory::SetFormattedText
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces a story’s text with specified formatted text.
 
-
 ## -parameters
-
-
-
 
 ### -param pUnk [in]
 
@@ -63,14 +60,11 @@ Type: <b>IUnknown*</b>
 
 The formatted text to replace the story’s text.
 
-
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -111,27 +105,11 @@ Insufficient memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> interface.
-
-
-
+This method calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for an <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>

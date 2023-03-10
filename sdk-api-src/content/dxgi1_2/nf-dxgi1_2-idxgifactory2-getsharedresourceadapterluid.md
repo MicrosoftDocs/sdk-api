@@ -2,15 +2,12 @@
 UID: NF:dxgi1_2.IDXGIFactory2.GetSharedResourceAdapterLuid
 title: IDXGIFactory2::GetSharedResourceAdapterLuid (dxgi1_2.h)
 description: Identifies the adapter on which a shared resource object was created.
+helpviewer_keywords: ["GetSharedResourceAdapterLuid","GetSharedResourceAdapterLuid method [DXGI]","GetSharedResourceAdapterLuid method [DXGI]","IDXGIFactory2 interface","IDXGIFactory2 interface [DXGI]","GetSharedResourceAdapterLuid method","IDXGIFactory2.GetSharedResourceAdapterLuid","IDXGIFactory2::GetSharedResourceAdapterLuid","direct3ddxgi.idxgifactory2_getsharedresourceadapterluid","dxgi1_2/IDXGIFactory2::GetSharedResourceAdapterLuid"]
 old-location: direct3ddxgi\idxgifactory2_getsharedresourceadapterluid.htm
 tech.root: direct3ddxgi
 ms.assetid: 278F1C2B-6DE7-4D4A-8C6E-10B1004B8EFC
 ms.date: 12/05/2018
 ms.keywords: GetSharedResourceAdapterLuid, GetSharedResourceAdapterLuid method [DXGI], GetSharedResourceAdapterLuid method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],GetSharedResourceAdapterLuid method, IDXGIFactory2.GetSharedResourceAdapterLuid, IDXGIFactory2::GetSharedResourceAdapterLuid, direct3ddxgi.idxgifactory2_getsharedresourceadapterluid, dxgi1_2/IDXGIFactory2::GetSharedResourceAdapterLuid
-f1_keywords:
-- dxgi1_2/IDXGIFactory2.GetSharedResourceAdapterLuid
-dev_langs:
-- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dxgi.lib
-- Dxgi.dll
-api_name:
-- IDXGIFactory2.GetSharedResourceAdapterLuid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDXGIFactory2::GetSharedResourceAdapterLuid
+ - dxgi1_2/IDXGIFactory2::GetSharedResourceAdapterLuid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dxgi.lib
+ - Dxgi.dll
+api_name:
+ - IDXGIFactory2.GetSharedResourceAdapterLuid
 ---
 
 # IDXGIFactory2::GetSharedResourceAdapterLuid
@@ -49,52 +51,40 @@ ms.custom: 19H1
 
 ## -description
 
-
 Identifies the adapter on which a shared resource object was created.
-
 
 ## -parameters
 
-
-
-
 ### -param hResource [in]
 
-A handle to a shared resource object. The <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiresource1-createsharedhandle">IDXGIResource1::CreateSharedHandle</a> method returns this handle.
-
+A handle to a shared resource object. The <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiresource1-createsharedhandle">IDXGIResource1::CreateSharedHandle</a> method returns this handle.
 
 ### -param pLuid [out]
 
-A pointer to a variable that receives a locally unique identifier (<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549708(v=vs.85)">LUID</a>) value that identifies the adapter. <b>LUID</b> is defined in Dxgi.h. An <b>LUID</b> is a 64-bit value that is guaranteed to be unique only on the operating system on which it was generated. The uniqueness of an <b>LUID</b> is guaranteed only until the operating system is restarted.
-
+A pointer to a variable that receives a locally unique identifier (<a href="/previous-versions/windows/hardware/drivers/ff549708(v=vs.85)">LUID</a>) value that identifies the adapter. <b>LUID</b> is defined in Dxgi.h. An <b>LUID</b> is a 64-bit value that is guaranteed to be unique only on the operating system on which it was generated. The uniqueness of an <b>LUID</b> is guaranteed only until the operating system is restarted.
 
 ## -returns
-
-
 
 <b>GetSharedResourceAdapterLuid</b> returns:
         <ul>
 <li>S_OK if it  identified the adapter.</li>
-<li><a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a> if <i>hResource</i> is invalid.</li>
-<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
+<li><a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR_INVALID_CALL</a> if <i>hResource</i> is invalid.</li>
+<li>Possibly other error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>GetSharedResourceAdapterLuid</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
-
-
-
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>GetSharedResourceAdapterLuid</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>.
 
 ## -remarks
 
-
-
-You cannot share resources across adapters. Therefore, you cannot open a shared resource on an adapter other than the adapter on which the resource was created.  Call <b>GetSharedResourceAdapterLuid</b> before you open a shared resource to ensure that the resource was created on the appropriate adapter. To open a shared resource, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1">ID3D11Device1::OpenSharedResource1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresourcebyname">ID3D11Device1::OpenSharedResourceByName</a> method.
+You cannot share resources across adapters. Therefore, you cannot open a shared resource on an adapter other than the adapter on which the resource was created.  Call <b>GetSharedResourceAdapterLuid</b> before you open a shared resource to ensure that the resource was created on the appropriate adapter. To open a shared resource, call the <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresource1">ID3D11Device1::OpenSharedResource1</a> or <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-opensharedresourcebyname">ID3D11Device1::OpenSharedResourceByName</a> method.
 
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>HANDLE handle;
+
+``` syntax
+HANDLE handle;
 IDXGIFactory2* pFactory;
 
 LUID luid;
@@ -117,17 +107,10 @@ while (SUCCEEDED(pFactory-&gt;EnumAdapters(index, &amp;pAdapter)))
 }
 // At this point, if pAdapter is non-null, you identified an adapter that 
 // can open the shared resource.
-</code></pre>
 
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>

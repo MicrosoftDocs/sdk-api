@@ -2,15 +2,12 @@
 UID: NS:ws2spi._NSPV2_ROUTINE
 title: NSPV2_ROUTINE (ws2spi.h)
 description: Contains information on the functions implemented by a namespace service provider version-2 (NSPv2) provider.
+helpviewer_keywords: ["*LPNSPV2_ROUTINE","*PNSPV2_ROUTINE","NSPV2_ROUTINE","NSPV2_ROUTINE structure [Winsock]","PNSPV2_ROUTINE","PNSPV2_ROUTINE structure pointer [Winsock]","winsock.nspv2_routine","ws2spi/NSPV2_ROUTINE","ws2spi/PNSPV2_ROUTINE"]
 old-location: winsock\nspv2_routine.htm
 tech.root: WinSock
 ms.assetid: 22a4ee47-030b-4aee-b9b1-c9e33b3e4fce
 ms.date: 12/05/2018
 ms.keywords: '*LPNSPV2_ROUTINE, *PNSPV2_ROUTINE, NSPV2_ROUTINE, NSPV2_ROUTINE structure [Winsock], PNSPV2_ROUTINE, PNSPV2_ROUTINE structure pointer [Winsock], winsock.nspv2_routine, ws2spi/NSPV2_ROUTINE, ws2spi/PNSPV2_ROUTINE'
-f1_keywords:
-- ws2spi/NSPV2_ROUTINE
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2spi.h
-api_name:
-- NSPV2_ROUTINE
 targetos: Windows
 req.typenames: NSPV2_ROUTINE, *PNSPV2_ROUTINE, *LPNSPV2_ROUTINE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NSPV2_ROUTINE
+ - ws2spi/_NSPV2_ROUTINE
+ - PNSPV2_ROUTINE
+ - ws2spi/PNSPV2_ROUTINE
+ - NSPV2_ROUTINE
+ - ws2spi/NSPV2_ROUTINE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2spi.h
+api_name:
+ - NSPV2_ROUTINE
 ---
 
 # NSPV2_ROUTINE structure
@@ -48,16 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The **NSPV2_ROUTINE** structure contains information on the functions implemented by a namespace service provider version-2 (NSPv2) provider.<div class="alert">**Note**  The <i>Ws2spi.h</i> header file structure contains complete prototypes for all the NSPV2 function pointers.</div>
 <div> </div>
 
-
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
@@ -65,13 +65,11 @@ Type: **DWORD**
 
 The size, in bytes, of the structure.
 
-
 ### -field dwMajorVersion
 
 Type: **DWORD**
 
 The major version of the service provider specification supported by this provider.
-
 
 ### -field dwMinorVersion
 
@@ -79,13 +77,11 @@ Type: **DWORD**
 
 The minor version of the service provider specification supported by this provider.
 
-
 ### -field NSPv2Startup
 
 Type: ** LPNSPV2STARTUP**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2startup">NSPv2Startup</a> function for this NSPv2 provider.
-
 
 ### -field NSPv2Cleanup
 
@@ -93,13 +89,11 @@ Type: **LPNSPV2CLEANUP**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2cleanup">NSPv2Cleanup</a> function for this NSPv2 provider.
 
-
 ### -field NSPv2LookupServiceBegin
 
 Type: **LPNSPV2LOOKUPSERVICEBEGIN**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnsplookupservicebegin">NSPv2LookupServiceBegin</a> function for this NSPv2 provider.
-
 
 ### -field NSPv2LookupServiceNextEx
 
@@ -107,13 +101,11 @@ Type: **LPNSPV2LOOKUPSERVICENEXTEX**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2lookupservicenextex">NSPv2LookupServiceNextEx</a> function for this NSPv2 provider.
 
-
 ### -field NSPv2LookupServiceEnd
 
 Type: **LPNSPV2LOOKUPSERVICEEND**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2lookupserviceend">NSPv2LookupServiceEnd</a> function for this NSPv2 provider.
-
 
 ### -field NSPv2SetServiceEx
 
@@ -121,17 +113,13 @@ Type: **LPNSPV2SETSERVICEEX**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2setserviceex">NSPv2SetServiceEx</a> function for this NSPv2 provider.
 
-
 ### -field NSPv2ClientSessionRundown
 
 Type: **LPNSPV2CLIENTSESSIONRUNDOWN**
 
 A pointer to the <a href="/windows/desktop/api/ws2spi/nc-ws2spi-lpnspv2clientsessionrundown">NSPv2ClientSessionRundown</a> function for this NSPv2 provider.
 
-
 ## -remarks
-
-
 
 The 
 **NSPV2_ROUTINE** structure is used as part of the namespace service provider version-2 (NSPv2) architecture available on Windows Vista and later. 
@@ -165,13 +153,7 @@ A process can implement and advertise multiple providers at the same time. Windo
 The 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a> function makes a specific namespace provider no longer available for clients.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="/windows/desktop/api/ws2spi/ns-ws2spi-nsp_routine">NSP_ROUTINE</a>
 
@@ -218,7 +200,4 @@ The
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wsaunadvertiseprovider">WSAUnadvertiseProvider</a>
- 
-
- 
 

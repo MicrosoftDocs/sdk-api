@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfUIElementMgr.UpdateUIElement
 title: ITfUIElementMgr::UpdateUIElement (msctf.h)
 description: The ITfUIElementMgr::UpdateUIElement method is called by a text service when the UI element must be updated.
+helpviewer_keywords: ["ITfUIElementMgr interface [Text Services Framework]","UpdateUIElement method","ITfUIElementMgr.UpdateUIElement","ITfUIElementMgr::UpdateUIElement","UpdateUIElement","UpdateUIElement method [Text Services Framework]","UpdateUIElement method [Text Services Framework]","ITfUIElementMgr interface","msctf/ITfUIElementMgr::UpdateUIElement","tsf.itfuielementmgr_updateuielement"]
 old-location: tsf\itfuielementmgr_updateuielement.htm
 tech.root: TSF
 ms.assetid: c7df9abf-53a0-41a4-aac5-d90b9abfbeec
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_updateuielement
-f1_keywords:
-- msctf/ITfUIElementMgr.UpdateUIElement
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfUIElementMgr.UpdateUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfUIElementMgr::UpdateUIElement
+ - msctf/ITfUIElementMgr::UpdateUIElement
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfUIElementMgr.UpdateUIElement
 ---
 
 # ITfUIElementMgr::UpdateUIElement
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfUIElementMgr::UpdateUIElement</b> method is called by a text service when the UI element must be updated.
 
-
 ## -parameters
-
-
-
 
 ### -param dwUIElementId [in]
 
 [in] The element id to update the UI element.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -113,12 +107,8 @@ One or more parameters are invalid.
 </dl>
 </td>
 <td width="60%">
-Recursion call of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> interface happened.
+Recursion call of <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> interface happened.
 
 </td>
 </tr>
 </table>
- 
-
-
-

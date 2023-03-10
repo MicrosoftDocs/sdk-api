@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRSurface9.UnlockSurface
 title: IVMRSurface9::UnlockSurface (vmr9.h)
 description: The UnlockSurface method unlocks the attached Direct3D surface.
+helpviewer_keywords: ["IVMRSurface9 interface [DirectShow]","UnlockSurface method","IVMRSurface9.UnlockSurface","IVMRSurface9::UnlockSurface","IVMRSurface9UnlockSurface","UnlockSurface","UnlockSurface method [DirectShow]","UnlockSurface method [DirectShow]","IVMRSurface9 interface","dshow.ivmrsurface9_unlocksurface","vmr9/IVMRSurface9::UnlockSurface"]
 old-location: dshow\ivmrsurface9_unlocksurface.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2785b1b7-62ed-420d-ab98-264e1b03b578
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],UnlockSurface method, IVMRSurface9.UnlockSurface, IVMRSurface9::UnlockSurface, IVMRSurface9UnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_unlocksurface, vmr9/IVMRSurface9::UnlockSurface
-f1_keywords:
-- vmr9/IVMRSurface9.UnlockSurface
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRSurface9.UnlockSurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRSurface9::UnlockSurface
+ - vmr9/IVMRSurface9::UnlockSurface
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRSurface9.UnlockSurface
 ---
 
 # IVMRSurface9::UnlockSurface
@@ -49,23 +51,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>UnlockSurface</code> method unlocks the attached Direct3D surface.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -97,31 +87,15 @@ No Direct3D surface is attached to this sample.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Include DShow.h and D3d9.h before Vmr9.h.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrsurface9">IVMRSurface9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrsurface9">IVMRSurface9 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

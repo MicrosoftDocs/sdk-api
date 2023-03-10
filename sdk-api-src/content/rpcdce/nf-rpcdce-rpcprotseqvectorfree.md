@@ -1,16 +1,13 @@
 ---
 UID: NF:rpcdce.RpcProtseqVectorFree
 title: RpcProtseqVectorFree function (rpcdce.h)
-description: The RpcProtseqVectorFree function frees the protocol sequences contained in the vector and the vector itself.
+description: The RpcProtseqVectorFree function (rpcdce.h) frees the protocol sequences contained in the vector and the vector itself.
+helpviewer_keywords: ["RpcProtseqVectorFree","RpcProtseqVectorFree function [RPC]","RpcProtseqVectorFreeA","RpcProtseqVectorFreeW","_rpc_rpcprotseqvectorfree","rpc.rpcprotseqvectorfree","rpcdce/RpcProtseqVectorFree","rpcdce/RpcProtseqVectorFreeA","rpcdce/RpcProtseqVectorFreeW"]
 old-location: rpc\rpcprotseqvectorfree.htm
 tech.root: Rpc
 ms.assetid: 6f399600-0534-44cc-b179-d3bc7bee091d
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: RpcProtseqVectorFree, RpcProtseqVectorFree function [RPC], RpcProtseqVectorFreeA, RpcProtseqVectorFreeW, _rpc_rpcprotseqvectorfree, rpc.rpcprotseqvectorfree, rpcdce/RpcProtseqVectorFree, rpcdce/RpcProtseqVectorFreeA, rpcdce/RpcProtseqVectorFreeW
-f1_keywords:
-- rpcdce/RpcProtseqVectorFree
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcProtseqVectorFree
-- RpcProtseqVectorFreeA
-- RpcProtseqVectorFreeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcProtseqVectorFree
+ - rpcdce/RpcProtseqVectorFree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcProtseqVectorFree
+ - RpcProtseqVectorFreeA
+ - RpcProtseqVectorFreeW
 ---
 
 # RpcProtseqVectorFree function
@@ -50,24 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcProtseqVectorFree</b> function frees the protocol sequences contained in the vector and the vector itself.
 
-
 ## -parameters
-
-
-
 
 ### -param ProtseqVector
 
 Pointer to a pointer to a vector of protocol sequences. On return, the pointer is set to NULL.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -89,37 +83,24 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 A server calls 
 <b>RpcProtseqVectorFree</b> to release the memory used to store a vector of protocol sequences and the individual protocol sequences. 
 <b>RpcProtseqVectorFree</b> sets the <i>ProtSeqVector</i> parameter to a null value.
 
 For a list of Microsoft RPC supported protocol sequences, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>.
+<a href="/windows/desktop/Rpc/string-binding">String Binding</a>.
 
 A server obtains a vector of protocol sequences by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>.
 
 <div class="alert"><b>Note</b>  <b>RpcProtseqVectorFree</b> is available for server and client applications using Microsoft RPC, but is more common and convenient for server applications.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>

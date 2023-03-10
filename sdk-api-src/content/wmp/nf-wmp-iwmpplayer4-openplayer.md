@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlayer4.openPlayer
 title: IWMPPlayer4::openPlayer (wmp.h)
 description: The openPlayer method opens Windows Media Player using the specified URL.
+helpviewer_keywords: ["IWMPPlayer4 interface [Windows Media Player]","openPlayer method","IWMPPlayer4.openPlayer","IWMPPlayer4::openPlayer","IWMPPlayer4openPlayer","openPlayer","openPlayer method [Windows Media Player]","openPlayer method [Windows Media Player]","IWMPPlayer4 interface","wmp.iwmpplayer4_openplayer","wmp/IWMPPlayer4::openPlayer"]
 old-location: wmp\iwmpplayer4_openplayer.htm
 tech.root: WMP
 ms.assetid: e2f08758-cd72-4b6b-bc9c-86f93d1d76c2
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],openPlayer method, IWMPPlayer4.openPlayer, IWMPPlayer4::openPlayer, IWMPPlayer4openPlayer, openPlayer, openPlayer method [Windows Media Player], openPlayer method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_openplayer, wmp/IWMPPlayer4::openPlayer
-f1_keywords:
-- wmp/IWMPPlayer4.openPlayer
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayer4.openPlayer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayer4::openPlayer
+ - wmp/IWMPPlayer4::openPlayer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayer4.openPlayer
 ---
 
 # IWMPPlayer4::openPlayer
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>openPlayer</b> method opens Windows Media Player using the specified URL.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrURL [in]
 
 <b>BSTR</b> containing the URL of the media item to play.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,14 +79,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method launches Windows Media Player with the specified URL set as the current media item. If the Player was previously closed in skin mode it will open using the skin last chosen by the user. Otherwise, the Player opens in full mode.
 
@@ -103,20 +88,10 @@ If this method is called from a Windows Media Player ActiveX control embedded in
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_NOTIMPL.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer4">IWMPPlayer4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer4">IWMPPlayer4 Interface</a>
-
-
-
-<a href="https://msdn.microsoft.com/cf5a77c5-298e-48de-80cd-d7ecd9e74323">IWMPPlayerAppication::switchToPlayerApplication</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-switchtoplayerapplication">IWMPPlayerAppication::switchToPlayerApplication</a>

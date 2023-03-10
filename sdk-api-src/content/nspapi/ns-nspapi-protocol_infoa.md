@@ -1,16 +1,13 @@
 ---
 UID: NS:nspapi._PROTOCOL_INFOA
 title: PROTOCOL_INFOA (nspapi.h)
-description: Contains information about a protocol.
+description: Contains information about a protocol. (ANSI)
+helpviewer_keywords: ["*LPPROTOCOL_INFOA","*PPROTOCOL_INFOA","0","0xFFFFFFFF","PROTOCOL_INFO","PROTOCOL_INFO structure [Winsock]","PROTOCOL_INFOA","PROTOCOL_INFOW","XP_BANDWIDTH_ALLOCATION","XP_CONNECTIONLESS","XP_CONNECT_DATA","XP_DISCONNECT_DATA","XP_ENCRYPTS","XP_EXPEDITED_DATA","XP_FRAGMENTATION","XP_GRACEFUL_CLOSE","XP_GUARANTEED_DELIVERY","XP_GUARANTEED_ORDER","XP_MESSAGE_ORIENTED","XP_PSEUDO_STREAM","XP_SUPPORTS_BROADCAST","XP_SUPPORTS_MULTICAST","_win32_protocol_info_2","nspapi/PROTOCOL_INFO","nspapi/PROTOCOL_INFOA","nspapi/PROTOCOL_INFOW","winsock.protocol_info_2"]
 old-location: winsock\protocol_info_2.htm
 tech.root: WinSock
 ms.assetid: 0cbddf17-41a8-4e61-b3b0-080ef50dc5de
 ms.date: 12/05/2018
 ms.keywords: '*LPPROTOCOL_INFOA, *PPROTOCOL_INFOA, 0, 0xFFFFFFFF, PROTOCOL_INFO, PROTOCOL_INFO structure [Winsock], PROTOCOL_INFOA, PROTOCOL_INFOW, XP_BANDWIDTH_ALLOCATION, XP_CONNECTIONLESS, XP_CONNECT_DATA, XP_DISCONNECT_DATA, XP_ENCRYPTS, XP_EXPEDITED_DATA, XP_FRAGMENTATION, XP_GRACEFUL_CLOSE, XP_GUARANTEED_DELIVERY, XP_GUARANTEED_ORDER, XP_MESSAGE_ORIENTED, XP_PSEUDO_STREAM, XP_SUPPORTS_BROADCAST, XP_SUPPORTS_MULTICAST, _win32_protocol_info_2, nspapi/PROTOCOL_INFO, nspapi/PROTOCOL_INFOA, nspapi/PROTOCOL_INFOW, winsock.protocol_info_2'
-f1_keywords:
-- nspapi/PROTOCOL_INFO
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Nspapi.h
-api_name:
-- PROTOCOL_INFO
-- PROTOCOL_INFOA
-- PROTOCOL_INFOW
 targetos: Windows
 req.typenames: PROTOCOL_INFOA, *PPROTOCOL_INFOA, *LPPROTOCOL_INFOA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PROTOCOL_INFOA
+ - nspapi/_PROTOCOL_INFOA
+ - PPROTOCOL_INFOA
+ - nspapi/PPROTOCOL_INFOA
+ - PROTOCOL_INFOA
+ - nspapi/PROTOCOL_INFOA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Nspapi.h
+api_name:
+ - PROTOCOL_INFO
+ - PROTOCOL_INFOA
+ - PROTOCOL_INFOW
 ---
 
 # PROTOCOL_INFOA structure
@@ -50,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>PROTOCOL_INFO</b> structure contains information about a protocol.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwServiceFlags
 
@@ -217,17 +218,14 @@ If this flag is set, the protocol supports data encryption.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field iAddressFamily
 
 Type: <b>INT</b>
 
 Value to pass as the <i>af</i> parameter when the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function is called to open a socket for the protocol. This address family value uniquely defines the structure of protocol addresses, also known as 
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function is called to open a socket for the protocol. This address family value uniquely defines the structure of protocol addresses, also known as 
 <b>sockaddr</b> structures, used by the protocol.
-
 
 ### -field iMaxSockAddr
 
@@ -235,13 +233,11 @@ Type: <b>INT</b>
 
 Maximum length of a socket address supported by the protocol, in bytes.
 
-
 ### -field iMinSockAddr
 
 Type: <b>INT</b>
 
 Minimum length of a socket address supported by the protocol, in bytes.
-
 
 ### -field iSocketType
 
@@ -256,14 +252,12 @@ Value to pass as the <i>type</i> parameter when the
 Note that if XP_PSEUDO_STREAM is set in <b>dwServiceFlags</b>, the application can specify SOCK_STREAM as the <i>type</i> parameter to 
 <b>socket</b>, regardless of the value of <b>iSocketType</b>.
 
-
 ### -field iProtocol
 
 Type: <b>INT</b>
 
 Value to pass as the <i>protocol</i> parameter when the 
 <b>socket</b> function is called to open a socket for the protocol.
-
 
 ### -field dwMessageSize
 
@@ -302,8 +296,6 @@ The protocol is message-oriented, but there is no maximum message size.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpProtocol
 
@@ -311,18 +303,15 @@ Type: <b>LPTSTR</b>
 
 Pointer to a zero-terminated string that supplies a name for the protocol; for example, "SPX2."
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-enumprotocolsa">EnumProtocols</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-enumprotocolsa">EnumProtocols</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
-
+> [!NOTE]
+> The nspapi.h header defines PROTOCOL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IServicePool.Initialize
 title: IServicePool::Initialize (comsvcs.h)
 description: Initializes an object pool.
+helpviewer_keywords: ["IServicePool interface [COM+]","Initialize method","IServicePool.Initialize","IServicePool::Initialize","Initialize","Initialize method [COM+]","Initialize method [COM+]","IServicePool interface","_cos_IServicePool_Initialize","comsvcs/IServicePool::Initialize","cos.iservicepool_initialize"]
 old-location: cos\iservicepool_initialize.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 93e88990-1737-4db4-aa37-0fe19a7ca0f3
 ms.date: 12/05/2018
 ms.keywords: IServicePool interface [COM+],Initialize method, IServicePool.Initialize, IServicePool::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IServicePool interface, _cos_IServicePool_Initialize, comsvcs/IServicePool::Initialize, cos.iservicepool_initialize
-f1_keywords:
-- comsvcs/IServicePool.Initialize
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IServicePool.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IServicePool::Initialize
+ - comsvcs/IServicePool::Initialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IServicePool.Initialize
 ---
 
 # IServicePool::Initialize
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an object pool.
-
 
 ## -parameters
 
-
-
-
 ### -param pPoolConfig [in]
 
-An object supporting the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepoolconfig">IServicePoolConfig</a> interface that describes the configuration of the object pool.
-
+An object supporting the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepoolconfig">IServicePoolConfig</a> interface that describes the configuration of the object pool.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -92,23 +86,12 @@ The method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-initialize">Initialize</a> has already been called.
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicepool-initialize">Initialize</a> has already been called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>

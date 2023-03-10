@@ -1,16 +1,13 @@
 ---
 UID: NF:ntdsapi.DsInheritSecurityIdentityW
 title: DsInheritSecurityIdentityW function (ntdsapi.h)
-description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction.
+description: Appends the objectSid and sidHistory attributes of SrcPrincipal to the sidHistory of DstPrincipal and then deletes SrcPrincipal, all in a single transaction. (Unicode)
+helpviewer_keywords: ["DsInheritSecurityIdentity", "DsInheritSecurityIdentity function [Active Directory]", "DsInheritSecurityIdentityW", "_glines_dsinheritsecurityidentity", "ad.dsinheritsecurityidentity", "ntdsapi/DsInheritSecurityIdentity", "ntdsapi/DsInheritSecurityIdentityW"]
 old-location: ad\dsinheritsecurityidentity.htm
 tech.root: ad
 ms.assetid: ea467069-f886-4e22-896c-16e6e01f3968
 ms.date: 12/05/2018
 ms.keywords: DsInheritSecurityIdentity, DsInheritSecurityIdentity function [Active Directory], DsInheritSecurityIdentityA, DsInheritSecurityIdentityW, _glines_dsinheritsecurityidentity, ad.dsinheritsecurityidentity, ntdsapi/DsInheritSecurityIdentity, ntdsapi/DsInheritSecurityIdentityA, ntdsapi/DsInheritSecurityIdentityW
-f1_keywords:
-- ntdsapi/DsInheritSecurityIdentity
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsInheritSecurityIdentity
-- DsInheritSecurityIdentityA
-- DsInheritSecurityIdentityW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsInheritSecurityIdentityW
+ - ntdsapi/DsInheritSecurityIdentityW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsInheritSecurityIdentity
+ - DsInheritSecurityIdentityA
+ - DsInheritSecurityIdentityW
 ---
 
 # DsInheritSecurityIdentityW function
@@ -50,49 +52,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsInheritSecurityIdentity</b> function appends the <b>objectSid</b> and <b>sidHistory</b> attributes of <i>SrcPrincipal</i> to the <b>sidHistory</b> of <i>DstPrincipal</i> and then deletes <i>SrcPrincipal</i>, all in a single transaction. To ensure that this operation is atomic, <i>SrcPrincipal</i> and <i>DstPrincipal</i> must be in the same domain and <i>hDS</i> must be bound to  a domain controller that the correct permissions within that domain.
 
-
 ## -parameters
-
-
-
 
 ### -param hDS [in]
 
 Contains a directory service handle obtained from either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
 
 ### -param Flags [in]
 
 Reserved for future use. Must be zero.
 
-
 ### -param SrcPrincipal [in]
 
 Pointer to a null-terminated string that specifies the name of a security principal (user or group) in the source domain. This name is a domain-relative SAM name.
-
 
 ### -param DstPrincipal [in]
 
 Pointer to a null-terminated string that specifies the name of a security principal (user or group) in the destination domain. This domain-relative SAM name identifies the principal whose <b>sidHistory</b> attribute will be updated with the SID of <i>SrcPrincipal</i>.
 
-
 ## -returns
-
-
 
 Returns a system or RPC error code including the following.
 
-
-
-
 ## -remarks
-
-
 
 With an operating system upgrade domain applications, which span both upgraded and non-upgraded domains, may have security principals inside and outside the forest for the same logical entity at the same time.
 
@@ -117,21 +103,18 @@ A <b>DsInheritSecurityIdentity</b> implementation:
 
 
 
+
+> [!NOTE]
+> The ntdsapi.h header defines DsInheritSecurityIdentity as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:oleauto.VarI8FromUI1
 title: VarI8FromUI1 function (oleauto.h)
 description: Onverts an unsigned byte value to an 8-byte integer value.
+helpviewer_keywords: ["VarI8FromUI1","VarI8FromUI1 function [Automation]","_oa96_VarI8FromUI1","automat.vari8fromui1","oleauto/VarI8FromUI1"]
 old-location: automat\vari8fromui1.htm
 tech.root: automat
 ms.assetid: e746f4c1-338f-4cb3-a09e-69560e516649
 ms.date: 12/05/2018
 ms.keywords: VarI8FromUI1, VarI8FromUI1 function [Automation], _oa96_VarI8FromUI1, automat.vari8fromui1, oleauto/VarI8FromUI1
-f1_keywords:
-- oleauto/VarI8FromUI1
-dev_langs:
-- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleAut32.dll
-api_name:
-- VarI8FromUI1
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - VarI8FromUI1
+ - oleauto/VarI8FromUI1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleAut32.dll
+api_name:
+ - VarI8FromUI1
 ---
 
 # VarI8FromUI1 function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts an unsigned byte value to an 8-byte integer value.
 
-
 ## -parameters
-
-
-
 
 ### -param bIn [in]
 
 The value to convert.
 
-
 ### -param pi64Out [out]
 
 The resulting value.
 
-
 ## -returns
-
-
 
 This function can return one of these values.
 
@@ -147,7 +140,4 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
 

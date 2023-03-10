@@ -2,15 +2,12 @@
 UID: NS:wmiutils.tag_SWbemRpnQueryToken
 title: SWbemRpnQueryToken (wmiutils.h)
 description: The SWbemRpnQueryToken structure represents the query tokens in a WMIQ_ANALYSIS_RPN_SEQUENCE type query. An example of a query token is the following:\_j &gt; 4.
+helpviewer_keywords: ["SWbemRpnQueryToken","SWbemRpnQueryToken structure [Windows Management Instrumentation]","VT_BOOL","VT_I4","VT_I8","VT_LPWSTR","VT_R8","VT_UI4","VT_UI8","WMIQ_RPN_CONST","WMIQ_RPN_CONST2","WMIQ_RPN_LEFT_FUNCTION","WMIQ_RPN_LEFT_PROPERTY_NAME","WMIQ_RPN_OP_EQ","WMIQ_RPN_OP_GE","WMIQ_RPN_OP_GT","WMIQ_RPN_OP_ISA","WMIQ_RPN_OP_ISNOTA","WMIQ_RPN_OP_ISNOTNULL","WMIQ_RPN_OP_ISNULL","WMIQ_RPN_OP_LE","WMIQ_RPN_OP_LIKE","WMIQ_RPN_OP_LT","WMIQ_RPN_OP_NE","WMIQ_RPN_OP_UNDEFINED","WMIQ_RPN_RELOP","WMIQ_RPN_RIGHT_FUNCTION","WMIQ_RPN_RIGHT_PROPERTY_NAME","WMIQ_RPN_TOKEN_AND","WMIQ_RPN_TOKEN_EXPRESSION","WMIQ_RPN_TOKEN_NOT","WMIQ_RPN_TOKEN_OR","wmi.swbemrpnquerytoken","wmiutils/SWbemRpnQueryToken"]
 old-location: wmi\swbemrpnquerytoken.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 04ef89e5-ce42-4d2d-8188-c2bbfe821bcc
 ms.date: 12/05/2018
 ms.keywords: SWbemRpnQueryToken, SWbemRpnQueryToken structure [Windows Management Instrumentation], VT_BOOL, VT_I4, VT_I8, VT_LPWSTR, VT_R8, VT_UI4, VT_UI8, WMIQ_RPN_CONST, WMIQ_RPN_CONST2, WMIQ_RPN_LEFT_FUNCTION, WMIQ_RPN_LEFT_PROPERTY_NAME, WMIQ_RPN_OP_EQ, WMIQ_RPN_OP_GE, WMIQ_RPN_OP_GT, WMIQ_RPN_OP_ISA, WMIQ_RPN_OP_ISNOTA, WMIQ_RPN_OP_ISNOTNULL, WMIQ_RPN_OP_ISNULL, WMIQ_RPN_OP_LE, WMIQ_RPN_OP_LIKE, WMIQ_RPN_OP_LT, WMIQ_RPN_OP_NE, WMIQ_RPN_OP_UNDEFINED, WMIQ_RPN_RELOP, WMIQ_RPN_RIGHT_FUNCTION, WMIQ_RPN_RIGHT_PROPERTY_NAME, WMIQ_RPN_TOKEN_AND, WMIQ_RPN_TOKEN_EXPRESSION, WMIQ_RPN_TOKEN_NOT, WMIQ_RPN_TOKEN_OR, wmi.swbemrpnquerytoken, wmiutils/SWbemRpnQueryToken
-f1_keywords:
-- wmiutils/SWbemRpnQueryToken
-dev_langs:
-- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wmiutils.h
-api_name:
-- SWbemRpnQueryToken
 targetos: Windows
 req.typenames: SWbemRpnQueryToken
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tag_SWbemRpnQueryToken
+ - wmiutils/tag_SWbemRpnQueryToken
+ - SWbemRpnQueryToken
+ - wmiutils/SWbemRpnQueryToken
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wmiutils.h
+api_name:
+ - SWbemRpnQueryToken
 ---
 
 # SWbemRpnQueryToken structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SWbemRpnQueryToken</b> structure represents the query tokens in a WMIQ_ANALYSIS_RPN_SEQUENCE type query. An example of a query token is the following:  j &gt; 4.
 
-
 ## -struct-fields
-
-
-
 
 ### -field m_uVersion
 
 Unused. Always 1.
-
 
 ### -field m_uTokenType
 
@@ -89,7 +87,6 @@ This token is a logical OR.
 #### WMIQ_RPN_TOKEN_NOT (4)
 
 This token is a logical NOT.
-
 
 ### -field m_uSubexpressionShape
 
@@ -136,7 +133,6 @@ Left argument is a function.
 #### WMIQ_RPN_RIGHT_FUNCTION (64 (0x40))
 
 Right argument is a function.
-
 
 ### -field m_uOperator
 
@@ -214,16 +210,13 @@ The operator is  ISNULL.
 
 The operator is  ISNOTNULL.
 
-
 ### -field m_pRightIdent
 
 If there are two property names in a token, <b>m_pRightIdent</b> is used to identify the right property name.
 
-
 ### -field m_pLeftIdent
 
 If there are two property names in a token <b>m_pLeftIdent</b> is used to identify the left property name. If only one property name is present, it appears in this member.
-
 
 ### -field m_uConstApparentType
 
@@ -271,11 +264,9 @@ Unsigned 64-bit integer.
 
 LPCWSTR data type.
 
-
 ### -field m_Const
 
-Value of the first constant. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnconst">SWbemRpnConst</a>.
-
+Value of the first constant. For more information, see <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnConst</a>.
 
 ### -field m_uConst2ApparentType
 
@@ -323,41 +314,30 @@ Unsigned 64-bit integer.
 
 LPCWSTR data type.
 
-
 ### -field m_Const2
 
-Value of the second constant. The fields <b>m_uConst2ApparentType</b> and <b>m_uConst2</b> are used only for BETWEEN phrases. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnconst">SWbemRpnConst</a>.
-
+Value of the second constant. The fields <b>m_uConst2ApparentType</b> and <b>m_uConst2</b> are used only for BETWEEN phrases. For more information, see <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnConst</a>.
 
 ### -field m_pszRightFunc
 
 Specifies a function on the right of the operator in a WHERE clause. If there is no function on the right of the operator in this token, this field is <b>NULL</b>.
 
-
 ### -field m_pszLeftFunc
 
 Specifies a function on the left of the operator in a WHERE clause. If there is no function on the left of the operator in this token, this field is <b>NULL</b>.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnquerytoken">SWbemRpnConst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/ns-wmiutils-tag_swbemrpnconst">SWbemRpnConst</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemrpnEncodedQuery</a>
- 
-
- 
-
+<a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemrpnEncodedQuery</a>

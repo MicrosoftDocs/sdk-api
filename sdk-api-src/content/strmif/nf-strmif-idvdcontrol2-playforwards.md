@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.PlayForwards
 title: IDvdControl2::PlayForwards (strmif.h)
 description: The PlayForwards method plays forward at the specified speed from the current location.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayForwards method","IDvdControl2.PlayForwards","IDvdControl2::PlayForwards","IDvdControl2PlayForwards","PlayForwards","PlayForwards method [DirectShow]","PlayForwards method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playforwards","strmif/IDvdControl2::PlayForwards"]
 old-location: dshow\idvdcontrol2_playforwards.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: bf57e2fd-c85f-430d-a1fa-5b59f7bfb8af
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayForwards method, IDvdControl2.PlayForwards, IDvdControl2::PlayForwards, IDvdControl2PlayForwards, PlayForwards, PlayForwards method [DirectShow], PlayForwards method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playforwards, strmif/IDvdControl2::PlayForwards
-f1_keywords:
-- strmif/IDvdControl2.PlayForwards
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.PlayForwards
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::PlayForwards
+ - strmif/IDvdControl2::PlayForwards
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.PlayForwards
 ---
 
 # IDvdControl2::PlayForwards
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>PlayForwards</code> method plays forward at the specified speed from the current location.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dSpeed [in]
 
 Value that specifies the playback speed. This value is a multiplier, where 1.0 is the authored speed, so a value of 2.5 plays at two and one-half times the authored speed, while a value of 0.5 plays at half the authored speed. The actual speed of playback depends on the capabilities of the video decoder. Values below 0.00001 are converted to 0.00001.
 
-
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
-
+Bitwise OR of one or more flags from the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_cmd_flags">DVD_CMD_FLAGS</a> enumeration, specifying how to synchronize the command.
 
 ### -param ppCmd [out]
 
-Receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
-
+Receives a pointer to an <a href="/windows/desktop/api/strmif/nn-strmif-idvdcmd">IDvdCmd</a> object that can be used to synchronize DVD commands. The caller must release the interface. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -110,14 +99,8 @@ UOP control prohibits the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is demonstrated in the DVDSample application in <b>CDvdCore::FastForward</b>.
 
@@ -141,26 +124,15 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

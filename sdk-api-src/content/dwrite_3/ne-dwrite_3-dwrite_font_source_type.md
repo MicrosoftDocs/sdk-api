@@ -2,19 +2,16 @@
 UID: NE:dwrite_3.DWRITE_FONT_SOURCE_TYPE
 title: DWRITE_FONT_SOURCE_TYPE
 description: Defines constants that specify the mechanism by which a font came to be included in a font set.
+helpviewer_keywords: ["DWRITE_FONT_SOURCE_TYPE","DWRITE_FONT_SOURCE_TYPE enumeration [Direct Write]","directwrite.dwrite_font_source_type","dwrite_3/DWRITE_FONT_SOURCE_TYPE"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: DWRITE_FONT_SOURCE_TYPE, DWRITE_FONT_SOURCE_TYPE enumeration [Direct Write], directwrite.dwrite_font_source_type, dwrite_3/DWRITE_FONT_SOURCE_TYPE
-f1_keywords:
-- dwrite_3/DWRITE_FONT_SOURCE_TYPE
-dev_langs:
-- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 10 Build 20348
+req.target-min-winversvr: Windows 10 Build 20348
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -27,18 +24,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite_3.h
-api_name:
-- DWRITE_FONT_SOURCE_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - DWRITE_FONT_SOURCE_TYPE
+ - dwrite_3/DWRITE_FONT_SOURCE_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite_3.h
+api_name:
+ - DWRITE_FONT_SOURCE_TYPE
 ---
 
 ## -description
@@ -70,3 +72,4 @@ Specifies that the font source is a font provider for downloadable fonts.
 ## -remarks
 
 ## -see-also
+

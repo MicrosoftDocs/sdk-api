@@ -1,16 +1,13 @@
 ---
 UID: NS:mprapi._SSTP_CONFIG_PARAMS
 title: SSTP_CONFIG_PARAMS (mprapi.h)
-description: Used to get and set the device configuration for Secure Socket Tunneling Protocool (SSTP) on a RAS Server.
+description: Used to get and set the device configuration for Secure Socket Tunneling Protocol (SSTP) on a RAS Server.
+helpviewer_keywords: ["*PSSTP_CONFIG_PARAMS","CALG_SHA_256","MPR_ENABLE_RAS_ON_DEVICE","SSTP_CONFIG_PARAMS","SSTP_CONFIG_PARAMS structure [RAS]","mprapi/SSTP_CONFIG_PARAMS","rras.sstp_config_params"]
 old-location: rras\sstp_config_params.htm
 tech.root: RRAS
 ms.assetid: 6f21d569-af9b-49ba-ab02-4dfc74e87ed2
 ms.date: 12/05/2018
 ms.keywords: '*PSSTP_CONFIG_PARAMS, CALG_SHA_256, MPR_ENABLE_RAS_ON_DEVICE, SSTP_CONFIG_PARAMS, SSTP_CONFIG_PARAMS structure [RAS], mprapi/SSTP_CONFIG_PARAMS, rras.sstp_config_params'
-f1_keywords:
-- mprapi/SSTP_CONFIG_PARAMS
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- SSTP_CONFIG_PARAMS
 targetos: Windows
 req.typenames: SSTP_CONFIG_PARAMS, *PSSTP_CONFIG_PARAMS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SSTP_CONFIG_PARAMS
+ - mprapi/_SSTP_CONFIG_PARAMS
+ - PSSTP_CONFIG_PARAMS
+ - mprapi/PSSTP_CONFIG_PARAMS
+ - SSTP_CONFIG_PARAMS
+ - mprapi/SSTP_CONFIG_PARAMS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - SSTP_CONFIG_PARAMS
 ---
 
 # SSTP_CONFIG_PARAMS structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SSTP_CONFIG_PARAMS</b> structure is used to get and set the device configuration for Secure Socket Tunneling Protocool (SSTP) on a RAS Server.
-
+The <b>SSTP_CONFIG_PARAMS</b> structure is used to get and set the device configuration for Secure Socket Tunneling Protocol (SSTP) on a RAS Server.
 
 ## -struct-fields
-
-
-
 
 ### -field dwNumPorts
 
@@ -95,14 +96,14 @@ Windows Server 2008 Standard
 </dl>
 </td>
 <td width="60%">
-Windows Server 2008 Datacenterand Windows Server 2008 Enterprise
+Windows Server 2008 Datacenter and Windows Server 2008 Enterprise
 
 </td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  If <b>dwNumPorts</b> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2008 Standard and Windows Server 2008 Enterprise), the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfoex">MprConfigServerGetInfoEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfoex">MprConfigServerSetInfoEx</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.</div>
+<div class="alert"><b>Note</b>  If <b>dwNumPorts</b> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2008 Standard and Windows Server 2008 Enterprise), the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfoex">MprConfigServerGetInfoEx</a> and <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfoex">MprConfigServerSetInfoEx</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.</div>
 <div> </div>
 
 ### -field dwPortFlags
@@ -125,13 +126,10 @@ If set, RAS is enabled on the device.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field isUseHttps
 
 A value that is <b>TRUE</b> if HTTPS is used and <b>FALSE</b> otherwise.
-
 
 ### -field certAlgorithm
 
@@ -153,29 +151,19 @@ A value that specifies the certificate hashing algorithm used. The following val
 </td>
 </tr>
 </table>
- 
-
 
 ### -field sstpCertDetails
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-sstp_cert_info">SSTP_CERT_INFO</a> structure that contains the SSTP based certificate hash.
-
+An <a href="/windows/desktop/api/mprapi/ns-mprapi-sstp_cert_info">SSTP_CERT_INFO</a> structure that contains the SSTP based certificate hash.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">MPRAPI_TUNNEL_CONFIG_PARAMS</a>
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>

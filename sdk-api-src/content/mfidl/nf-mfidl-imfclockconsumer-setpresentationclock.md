@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFClockConsumer.SetPresentationClock
 title: IMFClockConsumer::SetPresentationClock (mfidl.h)
 description: Called by the media pipeline to provide the app with an instance of IMFPresentationClock.
+helpviewer_keywords: ["IMFClockConsumer interface [Media Foundation]","SetPresentationClock method","IMFClockConsumer.SetPresentationClock","IMFClockConsumer::SetPresentationClock","SetPresentationClock","SetPresentationClock method [Media Foundation]","SetPresentationClock method [Media Foundation]","IMFClockConsumer interface","mf.imfclockconsumer_setpresentationclock","mfidl/IMFClockConsumer::SetPresentationClock"]
 old-location: mf\imfclockconsumer_setpresentationclock.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 7F4CC427-1DBE-4586-BA67-7AB472A55408
 ms.date: 12/05/2018
 ms.keywords: IMFClockConsumer interface [Media Foundation],SetPresentationClock method, IMFClockConsumer.SetPresentationClock, IMFClockConsumer::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFClockConsumer interface, mf.imfclockconsumer_setpresentationclock, mfidl/IMFClockConsumer::SetPresentationClock
-f1_keywords:
-- mfidl/IMFClockConsumer.SetPresentationClock
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFClockConsumer.SetPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFClockConsumer::SetPresentationClock
+ - mfidl/IMFClockConsumer::SetPresentationClock
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFClockConsumer.SetPresentationClock
 ---
 
 # IMFClockConsumer::SetPresentationClock
@@ -51,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Called by the media pipeline to provide the app with an instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>.
-
+Called by the media pipeline to provide the app with an instance of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>.
 
 ## -parameters
 
-
-
-
 ### -param pPresentationClock [in]
 
-An instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>.
-
+An instance of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -90,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockconsumer">IMFClockConsumer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockconsumer">IMFClockConsumer</a>

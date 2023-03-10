@@ -1,16 +1,13 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFile
 title: IVssComponent::GetDifferencedFile (vswriter.h)
-description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file&#8212;that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
+description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
+helpviewer_keywords: ["GetDifferencedFile","GetDifferencedFile method [VSS]","GetDifferencedFile method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetDifferencedFile method","IVssComponent.GetDifferencedFile","IVssComponent::GetDifferencedFile","_win32_ivsscomponent_getdifferencedfile","base.ivsscomponent_getdifferencedfile","vswriter/IVssComponent::GetDifferencedFile"]
 old-location: base\ivsscomponent_getdifferencedfile.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 285b2ac7-d09e-4ac5-bf5c-62c510544353
 ms.date: 12/05/2018
 ms.keywords: GetDifferencedFile, GetDifferencedFile method [VSS], GetDifferencedFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDifferencedFile method, IVssComponent.GetDifferencedFile, IVssComponent::GetDifferencedFile, _win32_ivsscomponent_getdifferencedfile, base.ivsscomponent_getdifferencedfile, vswriter/IVssComponent::GetDifferencedFile
-f1_keywords:
-- vswriter/IVssComponent.GetDifferencedFile
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetDifferencedFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetDifferencedFile
+ - vswriter/IVssComponent::GetDifferencedFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetDifferencedFile
 ---
 
 # IVssComponent::GetDifferencedFile
 
 
 ## -description
-
 
 The <b>GetDifferencedFile</b> method returns 
     information about a file set (a specified file or files) to participate in an incremental or differential backup 
@@ -57,11 +58,7 @@ The <b>GetDifferencedFile</b> method returns
 
 This method can be called by a requester or a writer during backup or restore operations.
 
-
 ## -parameters
-
-
-
 
 ### -param iDifferencedFile [in]
 
@@ -69,8 +66,7 @@ Index number of the differenced file to be examined. The value of this parameter
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of differenced files 
       associated with a given component (and its subcomponents if it defines a component set). The value of 
       <i>n</i> is returned by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>.
-
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>.
 
 ### -param pbstrPath [out]
 
@@ -78,13 +74,11 @@ The address of a caller-allocated variable that receives a string containing the
       
 
 Users of this method need to check to determine whether this path ends with a backslash 
-       (\).
-
+       (\\).
 
 ### -param pbstrFilespec [out]
 
 The address of a caller-allocated variable that receives a string containing the file specification of the differenced files.
-
 
 ### -param pbRecursive [out]
 
@@ -94,21 +88,16 @@ The address of a caller-allocated variable that receives a Boolean specifying wh
       differenced files during incremental or differential backups. If <b>FALSE</b>, only the root directory needs to be 
       searched.
 
-
 ### -param pbstrLsnString [out]
 
 Reserved for future use.
 
-
 ### -param pftLastModifyTime [out]
 
 The address of a caller-allocated variable that receives the writer specification of the time of last modification for the difference files, expressed as a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
-
+      <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -170,33 +159,27 @@ No differenced file corresponding to the supplied index was found.
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more 
         information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>GetDifferencedFile</b> can be called by 
     a requester or a writer during backup or restore operations.
 
-If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 As writers can indicate differenced files with calls to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a> 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a> 
     at any time prior to the actual backing up of files, typically while handling a 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event 
-    (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>), during backups 
+    <a href="/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event 
+    (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>), during backups 
     <b>GetDifferencedFile</b> is not usefully 
     called prior to the return of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> 
     has successfully returned.
 
 The time stamp returned by 
@@ -220,12 +203,12 @@ Differenced files can be either of the following:
 <ul>
 <li>Members of the current component or, if the component defines a component set, members of its subcomponents 
       that were added to the component using 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>
 </li>
 <li>New files added to the component by 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
+     <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 </li>
 </ul>
 When referring to a file set that is already part of the component, the combination of path, file 
@@ -246,33 +229,23 @@ If any of these criteria are violated, they constitute an error on the part of t
     reported.
 
 There is no method in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface that allows for changing or adding 
+    <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface that allows for changing or adding 
     an alternate location mapping for new files returned by 
     <b>GetDifferencedFilesByLastModifyTime</b>. If an alternate location mapping corresponds 
     to the new file, then that alternate location will be used.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
- 
-
- 
-
+<a href="/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>

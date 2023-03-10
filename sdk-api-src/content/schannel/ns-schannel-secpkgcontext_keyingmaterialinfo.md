@@ -2,15 +2,12 @@
 UID: NS:schannel._SecPkgContext_KeyingMaterialInfo
 title: SecPkgContext_KeyingMaterialInfo (schannel.h)
 description: The SecPkgContext_KeyingMaterialInfo structure contains information about the exportable keying material in a security context.
+helpviewer_keywords: ["*PSecPkgContext_KeyingMaterialInfo","PSecPkgContext_KeyingMaterialInfo","PSecPkgContext_KeyingMaterialInfo structure pointer [Security]","SecPkgContext_KeyingMaterialInfo","SecPkgContext_KeyingMaterialInfo structure [Security]","SecPkgContext_KeyingMaterialInfoA","SecPkgContext_KeyingMaterialInfoW","_SecPkgContext_KeyingMaterialInfo","security.secpkgcontext_keyingmaterialinfo","sspi/PSecPkgContext_KeyingMaterialInfo","sspi/SecPkgContext_KeyingMaterialInfo","sspi/SecPkgContext_KeyingMaterialInfoA","sspi/SecPkgContext_KeyingMaterialInfoW"]
 old-location: security\secpkgcontext_keyingmaterialinfo.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: 51EE7027-01FA-4D2F-9FB8-EEF7C1479600
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterialInfo, PSecPkgContext_KeyingMaterialInfo structure pointer [Security], SecPkgContext_KeyingMaterialInfo, SecPkgContext_KeyingMaterialInfo structure [Security], SecPkgContext_KeyingMaterialInfoA, SecPkgContext_KeyingMaterialInfoW, _SecPkgContext_KeyingMaterialInfo, security.secpkgcontext_keyingmaterialinfo, sspi/PSecPkgContext_KeyingMaterialInfo, sspi/SecPkgContext_KeyingMaterialInfo, sspi/SecPkgContext_KeyingMaterialInfoA, sspi/SecPkgContext_KeyingMaterialInfoW'
-f1_keywords:
-- schannel/SecPkgContext_KeyingMaterialInfo
-dev_langs:
-- c++
 req.header: schannel.h
 req.include-header: Schannel.h, Security.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Sspi.h
-api_name:
-- SecPkgContext_KeyingMaterialInfo
-- SecPkgContext_KeyingMaterialInfoA
-- SecPkgContext_KeyingMaterialInfoW
 targetos: Windows
 req.typenames: SecPkgContext_KeyingMaterialInfo, *PSecPkgContext_KeyingMaterialInfo
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SecPkgContext_KeyingMaterialInfo
+ - schannel/_SecPkgContext_KeyingMaterialInfo
+ - PSecPkgContext_KeyingMaterialInfo
+ - schannel/PSecPkgContext_KeyingMaterialInfo
+ - SecPkgContext_KeyingMaterialInfo
+ - schannel/SecPkgContext_KeyingMaterialInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Sspi.h
+api_name:
+ - SecPkgContext_KeyingMaterialInfo
+ - SecPkgContext_KeyingMaterialInfoA
+ - SecPkgContext_KeyingMaterialInfoW
 ---
 
 # SecPkgContext_KeyingMaterialInfo structure
@@ -50,19 +56,13 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SecPkgContext_KeyingMaterialInfo</b> structure contains information about the exportable keying material in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. 
-
+The <b>SecPkgContext_KeyingMaterialInfo</b> structure contains information about the exportable keying material in a <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field cbLabel
 
 The length, in bytes, of the disambiguating ASCII label, including NUL terminator.
-
 
 ### -field pszLabel
 
@@ -70,16 +70,11 @@ The length, in bytes, of the disambiguating ASCII label, including NUL terminato
 
 IANA-registered labels should begin with "EXPORTER" to  avoid collisions with existing PRF labels. Labels beginning with "EXPERIMENTAL" may be used without registration.
 
-
 ### -field cbContextValue
-
- 
-
 
 ### -field pbContextValue
 
 The pointer to the application context. Must be <b>NULL</b> if <i>cbContextValue</i> is zero.
-
 
 ### -field cbKeyingMaterial
 
@@ -89,4 +84,3 @@ The length, in bytes, of the keying material to be generated. Must be greater th
 #### - cbConextValue
 
 The length, in bytes, of the application context. Zero if application context is not provided by the caller.
-

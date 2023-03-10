@@ -2,6 +2,7 @@
 UID: NF:ddraw.IDirectDrawSurface7.SetPalette
 title: IDirectDrawSurface7::SetPalette (ddraw.h)
 description: Attaches a palette object to (or detaches one from) a surface. The surface uses this palette for all subsequent operations. The palette change takes place immediately, without regard to refresh timing.
+helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetPalette method","IDirectDrawSurface7.SetPalette","IDirectDrawSurface7::SetPalette","SetPalette","SetPalette method [DirectDraw]","SetPalette method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetPalette","directdraw.idirectdrawsurface7_setpalette"]
 old-location: directdraw\idirectdrawsurface7_setpalette.htm
 tech.root: directdraw
 ms.assetid: 938906fe-9f5b-468b-8b34-5de16aeb67b3
@@ -43,34 +44,19 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# IDirectDrawSurface7::SetPalette
-
-
 ## -description
-
 
 Attaches a palette object to (or detaches one from) a surface. The surface uses this palette for all subsequent operations. The palette change takes place immediately, without regard to refresh timing.
 
-
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-
-
-#### - lpDDPalette [in]
-
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface for the palette object to be used with this surface. If NULL, the current palette is detached.
-
+A pointer to the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a> interface for the palette object to be used with this surface. If NULL, the current palette is detached.
 
 ## -returns
 
-
-
 If the method succeeds, the return value is DD_OK.
-
-
 
 If it fails, the method can return one of the following error values:
 
@@ -88,16 +74,9 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_UNSUPPORTED</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
 When you call <b>SetPalette</b> to  set a palette to a surface for the first time, <b>SetPalette</b> increments the palette's reference count; subsequent calls to <b>SetPalette</b> do not affect the palette's reference count. If you pass NULL as the <i>lpDDPalette</i> parameter, the palette is removed from the surface, and the palette's reference count is decremented. If you do not delete the palette, the surface automatically releases its reference to the palette when the surface itself is released. According to COM rules, your application must release any references that it holds to the palette when the object is no longer needed.
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetPalette</b> method.
-
 
 
 
@@ -106,8 +85,7 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  
-

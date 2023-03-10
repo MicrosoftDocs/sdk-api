@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.PathRemoveArgsA
 title: PathRemoveArgsA function (shlwapi.h)
-description: Removes any arguments from a given path.
+description: Removes any arguments from a given path. (ANSI)
+helpviewer_keywords: ["PathRemoveArgsA", "shlwapi/PathRemoveArgsA"]
 old-location: shell\PathRemoveArgs.htm
 tech.root: shell
 ms.assetid: 430072bc-4ddc-4b3d-bf32-fb60d7b56faf
 ms.date: 12/05/2018
 ms.keywords: PathRemoveArgs, PathRemoveArgs function [Windows Shell], PathRemoveArgsA, PathRemoveArgsW, _win32_PathRemoveArgs, shell.PathRemoveArgs, shlwapi/PathRemoveArgs, shlwapi/PathRemoveArgsA, shlwapi/PathRemoveArgsW
-f1_keywords:
-- shlwapi/PathRemoveArgs
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
-- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
-api_name:
-- PathRemoveArgs
-- PathRemoveArgsA
-- PathRemoveArgsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PathRemoveArgsA
+ - shlwapi/PathRemoveArgsA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+ - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+api_name:
+ - PathRemoveArgs
+ - PathRemoveArgsA
+ - PathRemoveArgsW
 ---
 
 # PathRemoveArgsA function
@@ -52,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Removes any arguments from a given path.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in, out]
 
@@ -67,19 +64,7 @@ Type: <b>LPTSTR</b>
 
 Pointer to a null-terminated string of length MAX_PATH that contains the path from which to remove arguments.
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
-
-
 
 This function should not be used on generic command path templates (from users or the registry), but rather it should be used only on templates that the application knows to be well formed.
 
@@ -117,4 +102,8 @@ Path after calling "PathRemoveArgs": c:\a\b\FileA
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathRemoveArgs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

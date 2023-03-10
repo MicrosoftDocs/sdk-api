@@ -2,15 +2,12 @@
 UID: NF:tom.ITextDocument2.SysBeep
 title: ITextDocument2::SysBeep (tom.h)
 description: Generates a system beep.
+helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SysBeep method","ITextDocument2.SysBeep","ITextDocument2::SysBeep","SysBeep","SysBeep method [Windows Controls]","SysBeep method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_sysbeep","tom/ITextDocument2::SysBeep"]
 old-location: controls\itextdocument2_sysbeep.htm
 tech.root: Controls
 ms.assetid: 2f1f83a0-9308-40c8-b889-aa8118ee9e71
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SysBeep method, ITextDocument2.SysBeep, ITextDocument2::SysBeep, SysBeep, SysBeep method [Windows Controls], SysBeep method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_sysbeep, tom/ITextDocument2::SysBeep
-f1_keywords:
-- tom/ITextDocument2.SysBeep
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextDocument2.SysBeep
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextDocument2::SysBeep
+ - tom/ITextDocument2::SysBeep
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextDocument2.SysBeep
 ---
 
 # ITextDocument2::SysBeep
@@ -48,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates a system beep.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>

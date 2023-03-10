@@ -2,15 +2,12 @@
 UID: NF:vsadmin.IVssAdmin.AbortAllSnapshotsInProgress
 title: IVssAdmin::AbortAllSnapshotsInProgress (vsadmin.h)
 description: This method is reserved for system use.
+helpviewer_keywords: ["AbortAllSnapshotsInProgress","AbortAllSnapshotsInProgress method","AbortAllSnapshotsInProgress method","IVssAdmin interface","IVssAdmin interface","AbortAllSnapshotsInProgress method","IVssAdmin.AbortAllSnapshotsInProgress","IVssAdmin::AbortAllSnapshotsInProgress","base.ivssadmin_abortallsnapshotsinprogress","vsadmin/IVssAdmin::AbortAllSnapshotsInProgress"]
 old-location: base\ivssadmin_abortallsnapshotsinprogress.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 64feae8f-c627-45b5-a3bc-0c47e9f8a4cb
 ms.date: 12/05/2018
 ms.keywords: AbortAllSnapshotsInProgress, AbortAllSnapshotsInProgress method, AbortAllSnapshotsInProgress method,IVssAdmin interface, IVssAdmin interface,AbortAllSnapshotsInProgress method, IVssAdmin.AbortAllSnapshotsInProgress, IVssAdmin::AbortAllSnapshotsInProgress, base.ivssadmin_abortallsnapshotsinprogress, vsadmin/IVssAdmin::AbortAllSnapshotsInProgress
-f1_keywords:
-- vsadmin/IVssAdmin.AbortAllSnapshotsInProgress
-dev_langs:
-- c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VsAdmin.h
-api_name:
-- IVssAdmin.AbortAllSnapshotsInProgress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssAdmin::AbortAllSnapshotsInProgress
+ - vsadmin/IVssAdmin::AbortAllSnapshotsInProgress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VsAdmin.h
+api_name:
+ - IVssAdmin.AbortAllSnapshotsInProgress
 ---
 
 # IVssAdmin::AbortAllSnapshotsInProgress
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Not supported.
 
 This method is reserved for system use.
-
-
-## -parameters
-
-
 
 
 

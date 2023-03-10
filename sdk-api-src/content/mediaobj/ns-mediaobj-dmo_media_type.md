@@ -2,15 +2,12 @@
 UID: NS:mediaobj._DMOMediaType
 title: DMO_MEDIA_TYPE (mediaobj.h)
 description: The DMO_MEDIA_TYPE structure describes the format of the data used by a stream in a Microsoft DirectX Media Object (DMO).
+helpviewer_keywords: ["DMO_MEDIA_TYPE","DMO_MEDIA_TYPE structure [DirectShow]","DMO_MEDIA_TYPEStructure","FORMAT_DvInfo","FORMAT_MPEG2Video","FORMAT_MPEGVideo","FORMAT_None","FORMAT_VideoInfo","FORMAT_VideoInfo2","FORMAT_WaveFormatEx","_DMOMediaType","dshow.dmo_media_type","mediaobj/DMO_MEDIA_TYPE"]
 old-location: dshow\dmo_media_type.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c545ddf7-9797-45ab-a42a-d8550b598e98
 ms.date: 12/05/2018
 ms.keywords: DMO_MEDIA_TYPE, DMO_MEDIA_TYPE structure [DirectShow], DMO_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, _DMOMediaType, dshow.dmo_media_type, mediaobj/DMO_MEDIA_TYPE
-f1_keywords:
-- mediaobj/DMO_MEDIA_TYPE
-dev_langs:
-- c++
 req.header: mediaobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mediaobj.h
-api_name:
-- DMO_MEDIA_TYPE
 targetos: Windows
 req.typenames: DMO_MEDIA_TYPE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DMOMediaType
+ - mediaobj/_DMOMediaType
+ - DMO_MEDIA_TYPE
+ - mediaobj/DMO_MEDIA_TYPE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mediaobj.h
+api_name:
+ - DMO_MEDIA_TYPE
 ---
 
 # DMO_MEDIA_TYPE structure
@@ -48,42 +52,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DMO_MEDIA_TYPE</b> structure describes the format of the data used by a stream in a Microsoft DirectX Media Object (DMO).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field majortype
 
 Major type GUID of the stream.
 
-
 ### -field subtype
 
 Subtype GUID of the stream.
-
 
 ### -field bFixedSizeSamples
 
 If <b>TRUE</b>, samples are of a fixed size. This field is informational only. For audio, it is generally set to <b>TRUE</b>. For video, it is usually <b>TRUE</b> for uncompressed video and <b>FALSE</b> for compressed video.
 
-
 ### -field bTemporalCompression
 
 If <b>TRUE</b>, samples are compressed using temporal (interframe) compression. (A value of <b>TRUE</b> indicates that not all frames are key frames.) This field is informational only.
 
-
 ### -field lSampleSize
 
 Size of the sample in bytes. For compressed data, the value can be zero.
-
 
 ### -field formattype
 
@@ -101,7 +92,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvinfo">DVINFO</a>
+<a href="/windows/desktop/api/strmif/ns-strmif-dvinfo">DVINFO</a>
 
 
 </td>
@@ -113,7 +104,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo">MPEG2VIDEOINFO</a>
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo">MPEG2VIDEOINFO</a>
 
 
 </td>
@@ -125,7 +116,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a>
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a>
 
 
 </td>
@@ -147,7 +138,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>
 
 
 </td>
@@ -159,7 +150,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
 
 
 </td>
@@ -171,46 +162,29 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field pUnk
 
 Not used. Set to <b>NULL</b>.
 
-
 ### -field cbFormat
 
 Size of the format block of the media type.
-
 
 ### -field pbFormat
 
 Pointer to the format structure. The structure type is specified by the <b>formattype</b> member. The format structure must be present, unless <b>formattype</b> is GUID_NULL or FORMAT_None.
 
-
 ## -remarks
 
-
-
-This structure is identical to the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
-
-
-
+This structure is identical to the DirectShow <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>

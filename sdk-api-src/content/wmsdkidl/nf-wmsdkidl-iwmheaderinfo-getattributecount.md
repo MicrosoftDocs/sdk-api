@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeCount
 title: IWMHeaderInfo::GetAttributeCount (wmsdkidl.h)
 description: The GetAttributeCount method returns the number of attributes defined in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::GetAttributeCountEx and IWMHeaderInfo3::GetAttributeIndices, and should no longer be used.
+helpviewer_keywords: ["GetAttributeCount","GetAttributeCount method [windows Media Format]","GetAttributeCount method [windows Media Format]","IWMHeaderInfo interface","GetAttributeCount method [windows Media Format]","IWMHeaderInfo2 interface","GetAttributeCount method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetAttributeCount method","IWMHeaderInfo.GetAttributeCount","IWMHeaderInfo2 interface [windows Media Format]","GetAttributeCount method","IWMHeaderInfo2::GetAttributeCount","IWMHeaderInfo3 interface [windows Media Format]","GetAttributeCount method","IWMHeaderInfo3::GetAttributeCount","IWMHeaderInfo::GetAttributeCount","IWMHeaderInfoGetAttributeCount","wmformat.iwmheaderinfo_getattributecount","wmsdkidl/IWMHeaderInfo2::GetAttributeCount","wmsdkidl/IWMHeaderInfo3::GetAttributeCount","wmsdkidl/IWMHeaderInfo::GetAttributeCount"]
 old-location: wmformat\iwmheaderinfo_getattributecount.htm
 tech.root: wmformat
 ms.assetid: d5f0be62-4f15-45ca-8593-f5703a1f932a
 ms.date: 12/05/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [windows Media Format], GetAttributeCount method [windows Media Format],IWMHeaderInfo interface, GetAttributeCount method [windows Media Format],IWMHeaderInfo2 interface, GetAttributeCount method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo.GetAttributeCount, IWMHeaderInfo2 interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo2::GetAttributeCount, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCount method, IWMHeaderInfo3::GetAttributeCount, IWMHeaderInfo::GetAttributeCount, IWMHeaderInfoGetAttributeCount, wmformat.iwmheaderinfo_getattributecount, wmsdkidl/IWMHeaderInfo2::GetAttributeCount, wmsdkidl/IWMHeaderInfo3::GetAttributeCount, wmsdkidl/IWMHeaderInfo::GetAttributeCount
-f1_keywords:
-- wmsdkidl/IWMHeaderInfo.GetAttributeCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,25 +25,30 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-- qasf.dll
-api_name:
-- IWMHeaderInfo.GetAttributeCount
-- IWMHeaderInfo2.GetAttributeCount
-- IWMHeaderInfo3.GetAttributeCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMHeaderInfo::GetAttributeCount
+ - wmsdkidl/IWMHeaderInfo::GetAttributeCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+ - qasf.dll
+api_name:
+ - IWMHeaderInfo.GetAttributeCount
+ - IWMHeaderInfo2.GetAttributeCount
+ - IWMHeaderInfo3.GetAttributeCount
 ---
 
 # IWMHeaderInfo::GetAttributeCount
@@ -54,31 +56,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>GetAttributeCount</b> method returns the number of attributes defined in the header section of the ASF file. This method is replaced by <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributecountex">IWMHeaderInfo3::GetAttributeCountEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributeindices">IWMHeaderInfo3::GetAttributeIndices</a>, and should no longer be used.
-
-
-
+The <b>GetAttributeCount</b> method returns the number of attributes defined in the header section of the ASF file. This method is replaced by <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributecountex">IWMHeaderInfo3::GetAttributeCountEx</a> and <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributeindices">IWMHeaderInfo3::GetAttributeIndices</a>, and should no longer be used.
 
 ## -parameters
-
-
-
 
 ### -param wStreamNum [in]
 
 <b>WORD</b> containing the stream number. Pass zero for file-level attributes.
 
-
 ### -param pcAttributes [out]
 
 Pointer to a count of the attributes.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -143,43 +133,27 @@ The method failed for an unspecified reason.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Attributes in MP3 files cannot be specific to a particular stream. For MP3 files, always set the stream number to zero.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/wmformat/attributes">Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/attributes">Attributes</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute">IWMHeaderInfo::SetAttribute</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-setattribute">IWMHeaderInfo::SetAttribute</a>

@@ -2,15 +2,12 @@
 UID: NF:shlobj.IColumnProvider.GetColumnInfo
 title: IColumnProvider::GetColumnInfo (shlobj.h)
 description: Requests information about a column.
+helpviewer_keywords: ["GetColumnInfo","GetColumnInfo method [Windows Shell]","GetColumnInfo method [Windows Shell]","IColumnProvider interface","IColumnProvider interface [Windows Shell]","GetColumnInfo method","IColumnProvider.GetColumnInfo","IColumnProvider::GetColumnInfo","_win32_IColumnProvider_GetColumnInfo","shell.IColumnProvider_GetColumnInfo","shlobj/IColumnProvider::GetColumnInfo"]
 old-location: shell\IColumnProvider_GetColumnInfo.htm
 tech.root: shell
 ms.assetid: 87196252-3835-4828-ad0a-0edcafb286b7
 ms.date: 12/05/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetColumnInfo method, IColumnProvider.GetColumnInfo, IColumnProvider::GetColumnInfo, _win32_IColumnProvider_GetColumnInfo, shell.IColumnProvider_GetColumnInfo, shlobj/IColumnProvider::GetColumnInfo
-f1_keywords:
-- shlobj/IColumnProvider.GetColumnInfo
-dev_langs:
-- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IColumnProvider.GetColumnInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IColumnProvider::GetColumnInfo
+ - shlobj/IColumnProvider::GetColumnInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IColumnProvider.GetColumnInfo
 ---
 
 # IColumnProvider::GetColumnInfo
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Requests information about a column.
 
-
 ## -parameters
-
-
-
 
 ### -param dwIndex
 
@@ -63,17 +60,13 @@ Type: <b>DWORD</b>
 
 The column's zero-based index. It is an arbitrary value that is used to enumerate columns.
 
-
 ### -param psci [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo">SHCOLUMNINFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo">SHCOLUMNINFO</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo">SHCOLUMNINFO</a> structure to hold the column information.
-
+A pointer to an <a href="/windows/desktop/api/shlobj/ns-shlobj-shcolumninfo">SHCOLUMNINFO</a> structure to hold the column information.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -107,27 +100,11 @@ Column index out of range.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method is called to assign an index to the column and to ask for details on what kind of information the column will contain.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider">IColumnProvider</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlobj/nn-shlobj-icolumnprovider">IColumnProvider</a>

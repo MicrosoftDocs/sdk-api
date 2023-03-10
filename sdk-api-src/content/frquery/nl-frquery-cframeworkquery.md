@@ -2,15 +2,12 @@
 UID: NL:frquery.CFrameworkQuery
 title: CFrameworkQuery (frquery.h)
 description: The CFrameworkQuery class is used to parse and manipulate a query. It contains methods that return specific property values and methods that test the query to determine the particular properties that are included.
+helpviewer_keywords: ["CFrameworkQuery","CFrameworkQuery class [Windows Management Instrumentation]","CFrameworkQuery class [Windows Management Instrumentation]","described","_hmm_cframeworkquery","frquery/CFrameworkQuery","wmi.cframeworkquery"]
 old-location: wmi\cframeworkquery.htm
-tech.root: WmiSdk
+tech.root: wmi
 ms.assetid: 60a7d83c-cfea-41fa-8d97-321127d33c43
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
-f1_keywords:
-- frquery/CFrameworkQuery
-dev_langs:
-- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FrameDynOS.dll
-- FrameDyn.dll
-api_name:
-- CFrameworkQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CFrameworkQuery
+ - frquery/CFrameworkQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+api_name:
+ - CFrameworkQuery
 ---
 
 # CFrameworkQuery class
@@ -49,11 +51,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The <b>CFrameworkQuery</b> class is 
     part of the WMI Provider Framework and is now considered in final state, and no further development, enhancements, 
     or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>CFrameworkQuery</b> class is used to parse and 
@@ -64,27 +65,24 @@ Provider writers will generally not need to create any derived classes from this
     instances of this class. More commonly, you will be passed an instance of this class and will use the various 
     methods to determine what information is being requested by the client.
 
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">CFrameworkQuery</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>CFrameworkQuery</b> class has these methods.
+<b>CFrameworkQuery</b> has these types of members:
 <table class="members" id="memberListMethods">
 <tr>
 <th align="left" width="37%">Method</th>
 <th align="left" width="63%">Description</th>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-allpropertiesarerequired">AllPropertiesAreRequired</a>
+<a href="/windows/desktop/api/frquery/nf-frquery-cframeworkquery-allpropertiesarerequired">AllPropertiesAreRequired</a>
 </td>
 <td align="left" width="63%">
 Indicates whether all of the properties for the instance are being requested.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getquery">GetQuery</a>
+<a href="/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getquery">GetQuery</a>
 </td>
 <td align="left" width="63%">
 Retrieves the actual WQL command associated with the 
@@ -92,18 +90,18 @@ Retrieves the actual WQL command associated with the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getqueryclassname">GetQueryClassName</a>
+<a href="/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getqueryclassname">GetQueryClassName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the class name from the query.
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getrequiredproperties">GetRequiredProperties</a>
+<a href="/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getrequiredproperties">GetRequiredProperties</a>
 </td>
 <td align="left" width="63%">
 Returns a list of all of the properties required to satisfy a query. It includes the properties from both 
@@ -111,9 +109,9 @@ Returns a list of all of the properties required to satisfy a query. It includes
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_chstringarray_)">GetValuesForProp</a>
+<a href="/windows/desktop/api/frquery/nf-frquery-cframeworkquery-getvaluesforprop(lpcwstr_chstringarray_)">GetValuesForProp</a>
 </td>
 <td align="left" width="63%">
 Returns all of the values for a particular property that are generated by that property as it appears within 
@@ -121,9 +119,9 @@ Returns all of the values for a particular property that are generated by that p
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-ispropertyrequired">IsPropertyRequired</a>
+<a href="/windows/desktop/api/frquery/nf-frquery-cframeworkquery-ispropertyrequired">IsPropertyRequired</a>
 </td>
 <td align="left" width="63%">
 Determines if a particular property was requested by the query. Both the 
@@ -131,23 +129,17 @@ Determines if a particular property was requested by the query. Both the
 
 </td>
 </tr>
-<tr data="declared;">
+<tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/frquery/nf-frquery-cframeworkquery-keysonly">KeysOnly</a>
+<a href="/windows/desktop/api/frquery/nf-frquery-cframeworkquery-keysonly">KeysOnly</a>
 </td>
 <td align="left" width="63%">
 Indicates whether only the key properties are required.
 
 </td>
 </tr>
-</table> 
-
+</table>
 
 ## -remarks
 
-
-
 The destructor for this class is <b>CFrameworkQuery::~CFrameworkQuery</b>.
-
-
-

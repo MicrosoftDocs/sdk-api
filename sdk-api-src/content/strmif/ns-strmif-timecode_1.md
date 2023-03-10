@@ -1,16 +1,13 @@
 ---
 UID: NS:strmif._timecode
 title: TIMECODE (strmif.h)
-description: The TIMECODE structure contains basic timecode frame count information.
+description: The TIMECODE structure contains basic timecode frame count information.T
+helpviewer_keywords: ["*PTIMECODE","ED_FORMAT_SMPTE_24","ED_FORMAT_SMPTE_25","ED_FORMAT_SMPTE_30","ED_FORMAT_SMPTE_30DROP","TIMECODE","TIMECODE structure [DirectShow]","TIMECODEStructure","dshow.timecode","strmif/TIMECODE","tagTIMECODE"]
 old-location: dshow\timecode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb
 ms.date: 12/05/2018
 ms.keywords: '*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPTE_30, ED_FORMAT_SMPTE_30DROP, TIMECODE, TIMECODE structure [DirectShow], TIMECODEStructure, dshow.timecode, strmif/TIMECODE, tagTIMECODE'
-f1_keywords:
-- strmif/TIMECODE
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- strmif.h
-api_name:
-- TIMECODE
 targetos: Windows
 req.typenames: TIMECODE
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _timecode
+ - strmif/_timecode
+ - TIMECODE
+ - strmif/TIMECODE
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - strmif.h
+api_name:
+ - TIMECODE
 ---
 
 # TIMECODE structure
@@ -48,14 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TIMECODE</b> structure contains basic timecode frame count information.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wFrameRate
 
@@ -107,42 +106,21 @@ Number of frames per second. Specify with one of the following values:
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wFrameFract
 
 Fractional frame. Full scale is 0x1000.
 
-
 ### -field dwFrames
 
 Timecode value as a binary framecount.
 
-
 ### -field qw
-
- 
-
-
-
 
 ## -remarks
 
-
-
-Fractional frame can be used to indicate temporal offset into frame when timecode was actually read from an external device; for example, wFrameFract=0x7ff means the timecode value was read from the device at the end of the first video field. 
-
-
-
+Fractional frame can be used to indicate temporal offset into frame when timecode was actually read from an external device; for example, wFrameFract=0x7ff means the timecode value was read from the device at the end of the first video field.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

@@ -2,15 +2,12 @@
 UID: NF:peerdist.PeerDistClientFlushContent
 title: PeerDistClientFlushContent function (peerdist.h)
 description: The PeerDistClientFlushContent function allows a client to remove content added to the local cache with the PeerDistClientAddData function using the associated PEERDIST_CONTENT_TAG.
+helpviewer_keywords: ["PeerDistClientFlushContent","PeerDistClientFlushContent function [Peer Networking]","p2p.peerdistclientflushcontent","peerdist/PeerDistClientFlushContent"]
 old-location: p2p\peerdistclientflushcontent.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: bb77499b-520b-4def-97d8-504983953d4b
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientFlushContent, PeerDistClientFlushContent function [Peer Networking], p2p.peerdistclientflushcontent, peerdist/PeerDistClientFlushContent
-f1_keywords:
-- peerdist/PeerDistClientFlushContent
-dev_langs:
-- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PeerDist.dll
-api_name:
-- PeerDistClientFlushContent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerDistClientFlushContent
+ - peerdist/PeerDistClientFlushContent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PeerDist.dll
+api_name:
+ - PeerDistClientFlushContent
 ---
 
 # PeerDistClientFlushContent function
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
-The [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a>.
-
+The [PEERDIST_CONTENT_TAG](./ns-peerdist-peerdist_content_tag.md).
 
 ## -parameters
 
-
-
-
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
-
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param pContentTag [in]
 
-Pointer to a [PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a> structure that contains the tag supplied when <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
-
+Pointer to a [PEERDIST_CONTENT_TAG](./ns-peerdist-peerdist_content_tag.md) structure that contains the tag supplied when <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a> is called.
 
 ### -param hCompletionPort [in, optional]
 
-A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
-
+A handle to the completion port that can be used for retrieving the completion notification of the asynchronous function. To create a completion port, use the <a href="/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function. This parameter can be <b>NULL</b>.
 
 ### -param ulCompletionKey [in, optional]
 
-Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
-
+Value to be returned through the <i>lpCompletionKey</i> parameter of the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> function. This parameter is ignored when <i>hCompletionPort</i> is <b>NULL</b>.
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://go.microsoft.com/fwlink/p/?linkid=131007">OVERLAPPED</a> structure. <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
-
+Pointer to an <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. <b>Offset</b> and <b>OffsetHigh</b> are reserved and must be zero.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_IO_PENDING</b>. Otherwise, the function may return one of the following values:
 
@@ -138,35 +128,19 @@ The service is unavailable.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The <i>pContentTag</i> is a client supplied tag passed to <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>, which labels the content added by the client. This tag is used by the API to selectively flush content from the Peer Distribution cache.
-
-
-
+The <i>pContentTag</i> is a client supplied tag passed to <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>, which labels the content added by the client. This tag is used by the API to selectively flush content from the Peer Distribution cache.
 
 ## -see-also
 
+[PEERDIST_CONTENT_TAG](./ns-peerdist-peerdist_content_tag.md)
 
 
 
-[PEERDIST_CONTENT_TAG](/windows/win32/api/peerdist/ns-peerdist-peerdist_content_tag)a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistclientopencontent">PeerDistClientOpenContent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

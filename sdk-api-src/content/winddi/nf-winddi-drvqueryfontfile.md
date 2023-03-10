@@ -2,15 +2,12 @@
 UID: NF:winddi.DrvQueryFontFile
 title: DrvQueryFontFile function (winddi.h)
 description: The DrvQueryFontFile function provides font file information.
+helpviewer_keywords: ["DrvQueryFontFile","DrvQueryFontFile function [Display Devices]","ddifncs_e1440df7-d91a-4c86-b43b-10a5c5b7aab9.xml","display.drvqueryfontfile","winddi/DrvQueryFontFile"]
 old-location: display\drvqueryfontfile.htm
 tech.root: display
 ms.assetid: 4d853dbd-0448-43c3-9f01-13b7118a0743
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontFile, DrvQueryFontFile function [Display Devices], ddifncs_e1440df7-d91a-4c86-b43b-10a5c5b7aab9.xml, display.drvqueryfontfile, winddi/DrvQueryFontFile
-f1_keywords:
-- winddi/DrvQueryFontFile
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- DrvQueryFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DrvQueryFontFile
+ - winddi/DrvQueryFontFile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - DrvQueryFontFile
 ---
 
 # DrvQueryFontFile function
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DrvQueryFontFile</b> function provides font file information.
-
 
 ## -parameters
 
-
-
-
 ### -param iFile
 
-Pointer to a driver-defined value that identifies the driver font file. This pointer is returned by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
-
+Pointer to a driver-defined value that identifies the driver font file. This pointer is returned by a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 ### -param ulMode
 
@@ -92,44 +88,23 @@ The function returns the number of typefaces in the font file; the <i>cjBuf</i> 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param cjBuf
 
 Specifies the size, in bytes, of the return buffer.
 
-
 ### -param pulBuf
 
 Pointer to the return buffer.
 
-
 ## -returns
-
-
 
 If <i>ulMode</i> is QFF_NUMFACES, then the return value is the number of faces in the font file. If <i>pulBuf</i> is <b>NULL</b>, it is the number of bytes of data that would be written to <i>pulBuf</i>; otherwise, it is the number of bytes written to <i>pulBuf</i>. If an error occurs, the return value is FD_ERROR.
 
-
-
-
 ## -remarks
-
-
 
 <b>DrvQueryFontFile</b> is required for font drivers.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>

@@ -1,16 +1,13 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_REASSIGN_BLOCKS_EX
 title: IOCTL_DISK_REASSIGN_BLOCKS_EX
-description: Directs the disk device to map one or more blocks to its spare-block pool.
+description: Directs the disk device to map one or more blocks to its spare-block pool. (IOCTL_DISK_REASSIGN_BLOCKS_EX)
+helpviewer_keywords: ["IOCTL_DISK_REASSIGN_BLOCKS_EX","IOCTL_DISK_REASSIGN_BLOCKS_EX control","IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Files]","base.ioctl_disk_reassign_blocks_ex","fs.ioctl_disk_reassign_blocks_ex","winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX"]
 old-location: fs\ioctl_disk_reassign_blocks_ex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 126ffefa-165b-4ca1-a905-1aebc8e790c7
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Files], base.ioctl_disk_reassign_blocks_ex, fs.ioctl_disk_reassign_blocks_ex, winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
-f1_keywords:
-- winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_REASSIGN_BLOCKS_EX
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_REASSIGN_BLOCKS_EX
+ - winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_REASSIGN_BLOCKS_EX
 ---
 
 # IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL
@@ -47,140 +49,53 @@ req.redist:
 
 ## -description
 
-
 Directs the disk device to map one or more blocks to its spare-block pool.
 
-To perform this operation, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the following 
-    parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL 
-WINAPI 
-DeviceIoControl( (HANDLE) hDevice,              // handle to device 
-                 IOCTL_DISK_REASSIGN_BLOCKS_EX, // dwIoControlCode(LPVOID) lpInBuffer,           // input buffer
-                 (DWORD) nInBufferSize,         // size of input buffer 
-                 (LPVOID) NULL,                 // lpOutBuffer(DWORD) 0,                     // nOutBufferSize(LPDWORD) lpBytesReturned,     // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped ); // OVERLAPPED structure</pre>
-</td>
-</tr>
-</table></span></div>
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,                 // handle to device
+  IOCTL_DISK_REASSIGN_BLOCKS_EX,    // dwIoControlCode
+  (LPVOID) lpInBuffer,              // input buffer
+  (DWORD) nInBufferSize,            // size of input buffer
+  NULL,                             // lpOutBuffer
+  0,                                // nOutBufferSize
+  (LPDWORD) lpBytesReturned,        // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
+);
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
-
 
 ### -input-buffer-length
 
-
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
-
 
 ### -output-buffer-length
 
-
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
-
 
 ### -inout-buffer-length
 
-
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks_ex">REASSIGN_BLOCKS_EX</a> structure that the 
-    <b>IOCTL_DISK_REASSIGN_BLOCKS_EX</b> control code 
-    uses supports 8-byte Logical Block Addresses (LBA). For compatibility, the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a> control code and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a> structure should be used where the 
-    LBA fits in the 4-byte LBA that  the 
-    <b>REASSIGN_BLOCKS</b> structure supports (typically drives 
-    up to 2 TB).
-
-
-
+The [REASSIGN_BLOCKS_EX](ns-winioctl-reassign_blocks_ex.md) structure that the **IOCTL_DISK_REASSIGN_BLOCKS_EX** control code uses supports 8-byte Logical Block Addresses (LBA). For compatibility, the [IOCTL_DISK_REASSIGN_BLOCKS](ni-winioctl-ioctl_disk_reassign_blocks.md) control code and [REASSIGN_BLOCKS](ns-winioctl-reassign_blocks.md) structure should be used where the LBA fits in the 4-byte LBA that the **REASSIGN_BLOCKS** structure supports (typically drives up to 2 TB).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks">REASSIGN_BLOCKS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-reassign_blocks_ex">REASSIGN_BLOCKS_EX</a>
- 
-
- 
-
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
+* [IOCTL_DISK_REASSIGN_BLOCKS](ni-winioctl-ioctl_disk_reassign_blocks.md)
+* [REASSIGN_BLOCKS](ns-winioctl-reassign_blocks.md)
+* [REASSIGN_BLOCKS_EX](ns-winioctl-reassign_blocks_ex.md)

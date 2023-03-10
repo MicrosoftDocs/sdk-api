@@ -1,16 +1,13 @@
 ---
 UID: NF:wincrypt.CertRDNValueToStrA
 title: CertRDNValueToStrA function (wincrypt.h)
-description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
+description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string. (ANSI)
+helpviewer_keywords: ["CertRDNValueToStrA", "wincrypt/CertRDNValueToStrA"]
 old-location: security\certrdnvaluetostr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: c1e0af19-320e-411e-85bf-c7f01befcac4
 ms.date: 12/05/2018
 ms.keywords: CertRDNValueToStr, CertRDNValueToStr function [Security], CertRDNValueToStrA, CertRDNValueToStrW, _crypto2_certrdnvaluetostr, security.certrdnvaluetostr, wincrypt/CertRDNValueToStr, wincrypt/CertRDNValueToStrA, wincrypt/CertRDNValueToStrW
-f1_keywords:
-- wincrypt/CertRDNValueToStr
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertRDNValueToStr
-- CertRDNValueToStrA
-- CertRDNValueToStrW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertRDNValueToStrA
+ - wincrypt/CertRDNValueToStrA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertRDNValueToStr
+ - CertRDNValueToStrA
+ - CertRDNValueToStrW
 ---
 
 # CertRDNValueToStrA function
@@ -50,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>CertRDNValueToStr</b> function converts a name in a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> to a <b>null</b>-terminated character string.
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> to a <b>null</b>-terminated character string.
 
 ## -parameters
-
-
-
 
 ### -param dwValueType [in]
 
@@ -90,49 +87,35 @@ This can be one of the following values:
 ### -param pValue [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> of a type appropriate for the <i>dwValueType</i>.
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> of a type appropriate for the <i>dwValueType</i>.
 
 ### -param psz [out]
 
 A pointer to a buffer to receive the returned string.
 
-
 ### -param csz [in]
 
-Size, in characters, allocated for the returned string. The size must include the terminating <b>NULL</b> character. 
-
-
+Size, in characters, allocated for the returned string. The size must include the terminating <b>NULL</b> character.
 
 ## -returns
 
-
-
 Returns the number of characters converted, including the terminating <b>NULL</b> character. If <i>psz</i> is <b>NULL</b> or <i>csz</i> is zero, returns the required size of the destination string.
 
-
-
-
 ## -remarks
-
-
 
 If <i>psz</i> is not <b>NULL</b> and <i>csz</i> is not zero, the returned <i>psz</i> is always a possibly empty <b>null</b>-terminated string.
 
 
 
 
+
+> [!NOTE]
+> The wincrypt.h header defines CertRDNValueToStr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>

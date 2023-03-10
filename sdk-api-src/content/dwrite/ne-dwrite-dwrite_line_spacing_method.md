@@ -2,15 +2,12 @@
 UID: NE:dwrite.DWRITE_LINE_SPACING_METHOD
 title: DWRITE_LINE_SPACING_METHOD (dwrite.h)
 description: The method used for line spacing in a text layout.
+helpviewer_keywords: ["DWRITE_LINE_SPACING_METHOD","DWRITE_LINE_SPACING_METHOD enumeration [Direct Write]","DWRITE_LINE_SPACING_METHOD_DEFAULT","DWRITE_LINE_SPACING_METHOD_PROPORTIONAL","DWRITE_LINE_SPACING_METHOD_UNIFORM","directwrite.dwrite_line_spacing_method","dwrite/DWRITE_LINE_SPACING_METHOD","dwrite/DWRITE_LINE_SPACING_METHOD_DEFAULT","dwrite/DWRITE_LINE_SPACING_METHOD_PROPORTIONAL","dwrite/DWRITE_LINE_SPACING_METHOD_UNIFORM"]
 old-location: directwrite\dwrite_line_spacing_method.htm
 tech.root: DirectWrite
 ms.assetid: b75e8fee-ed6c-455d-8733-e6972792572c
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_SPACING_METHOD, DWRITE_LINE_SPACING_METHOD enumeration [Direct Write], DWRITE_LINE_SPACING_METHOD_DEFAULT, DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, DWRITE_LINE_SPACING_METHOD_UNIFORM, directwrite.dwrite_line_spacing_method, dwrite/DWRITE_LINE_SPACING_METHOD, dwrite/DWRITE_LINE_SPACING_METHOD_DEFAULT, dwrite/DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, dwrite/DWRITE_LINE_SPACING_METHOD_UNIFORM
-f1_keywords:
-- dwrite/DWRITE_LINE_SPACING_METHOD
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dwrite.h
-api_name:
-- DWRITE_LINE_SPACING_METHOD
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DWRITE_LINE_SPACING_METHOD
+ - dwrite/DWRITE_LINE_SPACING_METHOD
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dwrite.h
+api_name:
+ - DWRITE_LINE_SPACING_METHOD
 ---
 
 # DWRITE_LINE_SPACING_METHOD enumeration
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The method used for line spacing in a text layout.
 
-
 ## -enum-fields
-
-
-
 
 ### -field DWRITE_LINE_SPACING_METHOD_DEFAULT
 
 Line spacing depends solely on the content, adjusting to accommodate the size of fonts and inline objects.
 
-
 ### -field DWRITE_LINE_SPACING_METHOD_UNIFORM
 
 Lines are explicitly set to uniform spacing, regardless of the size of fonts and inline objects. This can be useful to avoid the uneven appearance that can occur from font fallback.
-
 
 ### -field DWRITE_LINE_SPACING_METHOD_PROPORTIONAL
 
@@ -78,24 +73,13 @@ Line spacing and baseline distances are proportional to the computed values base
 
 ## -remarks
 
-
-
-The line spacing method is set by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a> method of the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> or <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> interfaces.  To get  the current line spacing method of a text format or text layou use the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>.
-
-
-
+The line spacing method is set by using the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a> method of the <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> or <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> interfaces.  To get  the current line spacing method of a text format or text layout use the <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>.
 
 ## -see-also
-
-
-
 
 <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-getlinespacing">GetLineSpacing</a>
 
 
 
 <a href="/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-setlinespacing">SetLineSpacing</a>
- 
-
- 
 

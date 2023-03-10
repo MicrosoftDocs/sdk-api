@@ -2,15 +2,12 @@
 UID: NE:strmif.tagTVAudioMode
 title: TVAudioMode (strmif.h)
 description: Specifies the mode of a TV audio control.
+helpviewer_keywords: ["AMTVAUDIO_MODE_LANG_A","AMTVAUDIO_MODE_LANG_B","AMTVAUDIO_MODE_LANG_C","AMTVAUDIO_MODE_MONO","AMTVAUDIO_MODE_STEREO","AMTVAUDIO_PRESET_LANG_A","AMTVAUDIO_PRESET_LANG_B","AMTVAUDIO_PRESET_LANG_C","AMTVAUDIO_PRESET_STEREO","TVAudioMode","TVAudioMode enumeration [DirectShow]","TVAudioModeEnumeration","dshow.tvaudiomode","strmif/AMTVAUDIO_MODE_LANG_A","strmif/AMTVAUDIO_MODE_LANG_B","strmif/AMTVAUDIO_MODE_LANG_C","strmif/AMTVAUDIO_MODE_MONO","strmif/AMTVAUDIO_MODE_STEREO","strmif/AMTVAUDIO_PRESET_LANG_A","strmif/AMTVAUDIO_PRESET_LANG_B","strmif/AMTVAUDIO_PRESET_LANG_C","strmif/AMTVAUDIO_PRESET_STEREO","strmif/TVAudioMode"]
 old-location: dshow\tvaudiomode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 70e26550-0a8f-484e-b919-cfefdcf95f6b
 ms.date: 12/05/2018
 ms.keywords: AMTVAUDIO_MODE_LANG_A, AMTVAUDIO_MODE_LANG_B, AMTVAUDIO_MODE_LANG_C, AMTVAUDIO_MODE_MONO, AMTVAUDIO_MODE_STEREO, AMTVAUDIO_PRESET_LANG_A, AMTVAUDIO_PRESET_LANG_B, AMTVAUDIO_PRESET_LANG_C, AMTVAUDIO_PRESET_STEREO, TVAudioMode, TVAudioMode enumeration [DirectShow], TVAudioModeEnumeration, dshow.tvaudiomode, strmif/AMTVAUDIO_MODE_LANG_A, strmif/AMTVAUDIO_MODE_LANG_B, strmif/AMTVAUDIO_MODE_LANG_C, strmif/AMTVAUDIO_MODE_MONO, strmif/AMTVAUDIO_MODE_STEREO, strmif/AMTVAUDIO_PRESET_LANG_A, strmif/AMTVAUDIO_PRESET_LANG_B, strmif/AMTVAUDIO_PRESET_LANG_C, strmif/AMTVAUDIO_PRESET_STEREO, strmif/TVAudioMode
-f1_keywords:
-- strmif/TVAudioMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Strmif.h
-api_name:
-- TVAudioMode
 targetos: Windows
 req.typenames: TVAudioMode
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTVAudioMode
+ - strmif/tagTVAudioMode
+ - TVAudioMode
+ - strmif/TVAudioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Strmif.h
+api_name:
+ - TVAudioMode
 ---
 
 # TVAudioMode enumeration
@@ -48,73 +52,47 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies the mode of a TV audio control.
-
-
-
 
 ## -enum-fields
 
-
-
-
-### -field AMTVAUDIO_MODE_MONO
+### -field AMTVAUDIO_MODE_MONO:0x1
 
 Mono.
 
-
-### -field AMTVAUDIO_MODE_STEREO
+### -field AMTVAUDIO_MODE_STEREO:0x2
 
 Stereo.
-          
 
-
-### -field AMTVAUDIO_MODE_LANG_A
+### -field AMTVAUDIO_MODE_LANG_A:0x10
 
 Language A: Main audio channel.
-          
 
-
-### -field AMTVAUDIO_MODE_LANG_B
+### -field AMTVAUDIO_MODE_LANG_B:0x20
 
 Languag B: Secondary audio program (SAP).
-          
 
-
-### -field AMTVAUDIO_MODE_LANG_C
+### -field AMTVAUDIO_MODE_LANG_C:0x40
 
 Language C: Either a third language, or the main audio program plus the SAP (for example, English from one speaker and Japanese from the other speaker).
-          
 
-
-### -field AMTVAUDIO_PRESET_STEREO
+### -field AMTVAUDIO_PRESET_STEREO:0x200
 
 Stereo preset.
 
-
-### -field AMTVAUDIO_PRESET_LANG_A
+### -field AMTVAUDIO_PRESET_LANG_A:0x1000
 
 Languag A preset.
-          
 
-
-### -field AMTVAUDIO_PRESET_LANG_B
+### -field AMTVAUDIO_PRESET_LANG_B:0x2000
 
 Language B preset.
-          
 
-
-### -field AMTVAUDIO_PRESET_LANG_C
+### -field AMTVAUDIO_PRESET_LANG_C:0x4000
 
 Language C preset.
-          
-
 
 ## -remarks
-
-
 
 The <b>TVAudioMode</b> flags fall into two groups.
 
@@ -124,12 +102,12 @@ The <b>TVAudioMode</b> flags fall into two groups.
 </ul>
 <div class="alert"><b>Note</b>  The preset flags require Windows Vista or later.</div>
 <div> </div>
-The mode flags represent the tuner's current audio mode. The preset flags represent settings that can take effect in the future, if the audio signal changes. Often, the secondary audio program is not available, or is available only in mono. An application can use the preset flags to store the user's preferred language while providing a reasonble experience when that language is not available.
+The mode flags represent the tuner's current audio mode. The preset flags represent settings that can take effect in the future, if the audio signal changes. Often, the secondary audio program is not available, or is available only in mono. An application can use the preset flags to store the user's preferred language while providing a reasonable experience when that language is not available.
 
-The following remarks describe how the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> methods interpret these flags.
+The following remarks describe how the <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio</a> methods interpret these flags.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-put_tvaudiomode">IAMTVAudio::put_TVAudioMode</a>:
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-put_tvaudiomode">IAMTVAudio::put_TVAudioMode</a>:
         
 
 <ul>
@@ -155,24 +133,28 @@ Except for language C, the tuner always streams the same language over both audi
 Example: The caller sets <b>AMTVAUDIO_PRESET_STEREO</b> | <b>AMTVAUDIO_PRESET_LANG_B</b>. Suppose the current program is available in language A with stereo or language B with mono. The driver selects language B (mono), because that flag takes precedence. Later, the program switches to a commercial that is only available in language A. The driver switches to language A, because language B is not available. When the program resumes, the driver switches back to language B.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-getavailabletvaudiomodes">IAMTVAudio::GetAvailableTVAudioModes</a>: This method returns the modes that are currently available in the signal. This method never returns preset flags.
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-getavailabletvaudiomodes">IAMTVAudio::GetAvailableTVAudioModes</a>: This method returns the modes that are currently available in the signal. This method never returns preset flags.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-gethardwaresupportedtvaudiomodes">IAMTVAudio::GetHardwareSupportedTVAudioModes</a>: This method returns all of the modes supported by the hardware, including preset modes.
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-gethardwaresupportedtvaudiomodes">IAMTVAudio::GetHardwareSupportedTVAudioModes</a>: This method returns all of the modes supported by the hardware, including preset modes.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-get_tvaudiomode">IAMTVAudio::get_TVAudioMode</a>: This method returns the current mode. This method never returns preset flags.
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-get_tvaudiomode">IAMTVAudio::get_TVAudioMode</a>: This method returns the current mode. This method never returns preset flags.
 
 <h3><a id="Mask_Constants"></a><a id="mask_constants"></a><a id="MASK_CONSTANTS"></a>Mask Constants</h3>
 The following constants are defined in Strmif.h:
           
 
-<pre class="syntax" xml:space="preserve"><code>#define TVAUDIO_MODE_MASK 0x000000ff
-#define TVAUDIO_PRESET_MASK 0x0000ff00</code></pre>
+
+``` syntax
+#define TVAUDIO_MODE_MASK 0x000000ff
+#define TVAUDIO_PRESET_MASK 0x0000ff00
+```
+
 You can use <b>TVAUDIO_MODE_MASK</b> to select mode flags and <b>TVAUDIO_PRESET_MASK</b> to select preset flags:
           
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="code"><span><table>
 <tr>
 <th>C++</th>
 </tr>
@@ -191,19 +173,10 @@ DWORD PresetFlags(DWORD AudioMode)
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>

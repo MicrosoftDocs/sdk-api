@@ -2,15 +2,12 @@
 UID: NE:mbnapi.MBN_AUTH_PROTOCOL
 title: MBN_AUTH_PROTOCOL (mbnapi.h)
 description: The MBN_AUTH_PROTOCOL enumerated type specifies the authentication protocol used for Packet Data Protocol (PDP) activation.
+helpviewer_keywords: ["MBN_AUTH_PROTOCOL","MBN_AUTH_PROTOCOL enumeration [Microsoft Broadband Networks]","MBN_AUTH_PROTOCOL_CHAP","MBN_AUTH_PROTOCOL_MSCHAPV2","MBN_AUTH_PROTOCOL_NONE","MBN_AUTH_PROTOCOL_PAP","mbn.mbn_auth_protocol","mbnapi/MBN_AUTH_PROTOCOL","mbnapi/MBN_AUTH_PROTOCOL_CHAP","mbnapi/MBN_AUTH_PROTOCOL_MSCHAPV2","mbnapi/MBN_AUTH_PROTOCOL_NONE","mbnapi/MBN_AUTH_PROTOCOL_PAP"]
 old-location: mbn\mbn_auth_protocol.htm
 tech.root: mbn
 ms.assetid: 7a1858d4-3415-490d-b264-3033cd8f5af7
 ms.date: 12/05/2018
 ms.keywords: MBN_AUTH_PROTOCOL, MBN_AUTH_PROTOCOL enumeration [Microsoft Broadband Networks], MBN_AUTH_PROTOCOL_CHAP, MBN_AUTH_PROTOCOL_MSCHAPV2, MBN_AUTH_PROTOCOL_NONE, MBN_AUTH_PROTOCOL_PAP, mbn.mbn_auth_protocol, mbnapi/MBN_AUTH_PROTOCOL, mbnapi/MBN_AUTH_PROTOCOL_CHAP, mbnapi/MBN_AUTH_PROTOCOL_MSCHAPV2, mbnapi/MBN_AUTH_PROTOCOL_NONE, mbnapi/MBN_AUTH_PROTOCOL_PAP
-f1_keywords:
-- mbnapi/MBN_AUTH_PROTOCOL
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- mbnapi.h
-api_name:
-- MBN_AUTH_PROTOCOL
 targetos: Windows
 req.typenames: MBN_AUTH_PROTOCOL
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MBN_AUTH_PROTOCOL
+ - mbnapi/MBN_AUTH_PROTOCOL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - mbnapi.h
+api_name:
+ - MBN_AUTH_PROTOCOL
 ---
 
 # MBN_AUTH_PROTOCOL enumeration
@@ -55,26 +57,19 @@ The <b>MBN_AUTH_PROTOCOL</b> enumerated type specifies the authentication protoc
 
 This type is applicable only for GSM devices.
 
-
 ## -enum-fields
 
-
-
-
-### -field MBN_AUTH_PROTOCOL_NONE
+### -field MBN_AUTH_PROTOCOL_NONE:0
 
 No authentication protocol is used.
-
 
 ### -field MBN_AUTH_PROTOCOL_PAP
 
 Password Authentication Protocol (PAP) is used for authentication. PAP authentication is unencrypted.
 
-
 ### -field MBN_AUTH_PROTOCOL_CHAP
 
 Challenge Handshake Authentication Protocol (CHAP) is used for authentication.
-
 
 ### -field MBN_AUTH_PROTOCOL_MSCHAPV2
 

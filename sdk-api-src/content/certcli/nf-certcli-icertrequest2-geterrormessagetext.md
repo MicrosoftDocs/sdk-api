@@ -2,15 +2,12 @@
 UID: NF:certcli.ICertRequest2.GetErrorMessageText
 title: ICertRequest2::GetErrorMessageText (certcli.h)
 description: Retrieves the error message text for an HRESULT error code.
+helpviewer_keywords: ["CCertRequest object [Security]","GetErrorMessageText method","CR_GEMT_HRESULT_STRING","GetErrorMessageText","GetErrorMessageText method [Security]","GetErrorMessageText method [Security]","CCertRequest object","GetErrorMessageText method [Security]","ICertRequest interface","GetErrorMessageText method [Security]","ICertRequest2 interface","GetErrorMessageText method [Security]","ICertRequest3 interface","ICertRequest interface [Security]","GetErrorMessageText method","ICertRequest2 interface [Security]","GetErrorMessageText method","ICertRequest2.GetErrorMessageText","ICertRequest2::GetErrorMessageText","ICertRequest3 interface [Security]","GetErrorMessageText method","ICertRequest3::GetErrorMessageText","ICertRequest::GetErrorMessageText","Zero (0)","_certsrv_icertrequest2_geterrormessagetext","certcli/ICertRequest2::GetErrorMessageText","certcli/ICertRequest3::GetErrorMessageText","certcli/ICertRequest::GetErrorMessageText","security.icertrequest2_geterrormessagetext"]
 old-location: security\icertrequest2_geterrormessagetext.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: eeecaeec-2e06-4d4b-9b85-5fb3ef90944a
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetErrorMessageText method, CR_GEMT_HRESULT_STRING, GetErrorMessageText, GetErrorMessageText method [Security], GetErrorMessageText method [Security],CCertRequest object, GetErrorMessageText method [Security],ICertRequest interface, GetErrorMessageText method [Security],ICertRequest2 interface, GetErrorMessageText method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetErrorMessageText method, ICertRequest2 interface [Security],GetErrorMessageText method, ICertRequest2.GetErrorMessageText, ICertRequest2::GetErrorMessageText, ICertRequest3 interface [Security],GetErrorMessageText method, ICertRequest3::GetErrorMessageText, ICertRequest::GetErrorMessageText, Zero (0), _certsrv_icertrequest2_geterrormessagetext, certcli/ICertRequest2::GetErrorMessageText, certcli/ICertRequest3::GetErrorMessageText, certcli/ICertRequest::GetErrorMessageText, security.icertrequest2_geterrormessagetext
-f1_keywords:
-- certcli/ICertRequest3.GetErrorMessageText
-dev_langs:
-- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certcli.dll
-api_name:
-- ICertRequest3.GetErrorMessageText
-- ICertRequest2.GetErrorMessageText
-- ICertRequest.GetErrorMessageText
-- CCertRequest.GetErrorMessageText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertRequest2::GetErrorMessageText
+ - certcli/ICertRequest2::GetErrorMessageText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certcli.dll
+api_name:
+ - ICertRequest3.GetErrorMessageText
+ - ICertRequest2.GetErrorMessageText
+ - ICertRequest.GetErrorMessageText
+ - CCertRequest.GetErrorMessageText
 ---
 
 # ICertRequest2::GetErrorMessageText
@@ -51,21 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetErrorMessageText</b> method retrieves the error message text for an <b>HRESULT</b> error code.
 
  If the error message text is localized, it has been localized on the client.
 
-
 ## -parameters
-
-
-
 
 ### -param hrMessage [in]
 
 A value that represents an <b>HRESULT</b> error.
-
 
 ### -param Flags [in]
 
@@ -97,25 +93,17 @@ The error message text will have the <b>HRESULT</b> hexadecimal and decimal valu
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pstrErrorMessageText [out]
 
-A pointer to the <b>BSTR</b> that represents the error message text for <i>hrMessage</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
-
+A pointer to the <b>BSTR</b> that represents the error message text for <i>hrMessage</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
-
-
 
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>String</b> that contains the error message text for <i>hrMessage</i>.
-
-
-

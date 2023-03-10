@@ -2,15 +2,12 @@
 UID: NF:ddeml.DdeKeepStringHandle
 title: DdeKeepStringHandle function (ddeml.h)
 description: Increments the usage count associated with the specified handle.
+helpviewer_keywords: ["DdeKeepStringHandle","DdeKeepStringHandle function [Data Exchange]","_win32_DdeKeepStringHandle","_win32_ddekeepstringhandle_cpp","dataxchg.ddekeepstringhandle","ddeml/DdeKeepStringHandle","winui._win32_ddekeepstringhandle"]
 old-location: dataxchg\ddekeepstringhandle.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddekeepstringhandle.htm
 ms.date: 12/05/2018
 ms.keywords: DdeKeepStringHandle, DdeKeepStringHandle function [Data Exchange], _win32_DdeKeepStringHandle, _win32_ddekeepstringhandle_cpp, dataxchg.ddekeepstringhandle, ddeml/DdeKeepStringHandle, winui._win32_ddekeepstringhandle
-f1_keywords:
-- ddeml/DdeKeepStringHandle
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- DdeKeepStringHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DdeKeepStringHandle
+ - ddeml/DdeKeepStringHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - DdeKeepStringHandle
 ---
 
 # DdeKeepStringHandle function
@@ -48,48 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-Increments the usage count associated with the specified handle. This function enables an application to save a string handle passed to the application's Dynamic Data Exchange (DDE) callback function. Otherwise, a string handle passed to the callback function is deleted when the callback function returns. This function should also be used to keep a copy of a string handle referenced by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function. 
-
+Increments the usage count associated with the specified handle. This function enables an application to save a string handle passed to the application's Dynamic Data Exchange (DDE) callback function. Otherwise, a string handle passed to the callback function is deleted when the callback function returns. This function should also be used to keep a copy of a string handle referenced by the <a href="/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a> structure returned by the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function.
 
 ## -parameters
-
-
-
 
 ### -param idInst [in]
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function. 
-
+The application instance identifier obtained by a previous call to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function.
 
 ### -param hsz [in]
 
 Type: <b>HSZ</b>
 
-A handle to the string handle to be saved. 
-
+A handle to the string handle to be saved.
 
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. 
-
-
-
+If the function fails, the return value is zero.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-convinfo">CONVINFO</a>
 
 
 
@@ -97,32 +84,28 @@ If the function fails, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddecreatestringhandlea">DdeCreateStringHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddefreestringhandle">DdeFreeStringHandle</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddefreestringhandle">DdeFreeStringHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequerystringa">DdeQueryString</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddequerystringa">DdeQueryString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

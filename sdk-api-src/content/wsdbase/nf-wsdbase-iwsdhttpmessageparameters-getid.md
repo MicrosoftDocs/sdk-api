@@ -2,15 +2,12 @@
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetID
 title: IWSDHttpMessageParameters::GetID (wsdbase.h)
 description: Retrieves the transport ID for the current transaction.
+helpviewer_keywords: ["GetID","GetID method","GetID method","IWSDHttpMessageParameters interface","IWSDHttpMessageParameters interface","GetID method","IWSDHttpMessageParameters.GetID","IWSDHttpMessageParameters::GetID","ncd.iwsdhttpmessageparameters_getid","wsdbase/IWSDHttpMessageParameters::GetID"]
 old-location: ncd\iwsdhttpmessageparameters_getid.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: fbe7000f-271a-4939-814d-3696d29f7a41
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetID method, IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID
-f1_keywords:
-- wsdbase/IWSDHttpMessageParameters.GetID
-dev_langs:
-- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDHttpMessageParameters.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDHttpMessageParameters::GetID
+ - wsdbase/IWSDHttpMessageParameters::GetID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDHttpMessageParameters.GetID
 ---
 
 # IWSDHttpMessageParameters::GetID
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the transport ID for the current transaction.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszId [out]
 
 Pointer used to return the transport ID for the current transaction. Do not deallocate this pointer.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -112,18 +106,7 @@ The transport ID is not available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>

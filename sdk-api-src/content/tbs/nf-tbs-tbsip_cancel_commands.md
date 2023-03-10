@@ -2,15 +2,12 @@
 UID: NF:tbs.Tbsip_Cancel_Commands
 title: Tbsip_Cancel_Commands function (tbs.h)
 description: Cancels all outstanding commands for the specified context.
+helpviewer_keywords: ["Tbsip_Cancel_Commands","Tbsip_Cancel_Commands function [TBS]","tbs._tbsip_cancel_commands","tbs/Tbsip_Cancel_Commands"]
 old-location: tbs\_tbsip_cancel_commands.htm
 tech.root: TBS
 ms.assetid: aaf209cb-2250-4c23-900f-9026d2f44e24
 ms.date: 12/05/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
-f1_keywords:
-- tbs/Tbsip_Cancel_Commands
-dev_langs:
-- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tbs.dll
-api_name:
-- Tbsip_Cancel_Commands
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Tbsip_Cancel_Commands
+ - tbs/Tbsip_Cancel_Commands
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tbs.dll
+api_name:
+ - Tbsip_Cancel_Commands
 ---
 
 # Tbsip_Cancel_Commands function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Cancels all outstanding commands for the specified context.
-
 
 ## -parameters
 
-
-
-
 ### -param hContext [in]
 
-A TBS handle to the context whose commands are to be canceled and that was obtained from previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
-
+A TBS handle to the context whose commands are to be canceled and that was obtained from previous call to the <a href="/windows/desktop/api/tbs/nf-tbs-tbsi_context_create">Tbsi_Context_Create</a> function.
 
 ## -returns
-
-
 
 If the function succeeds, the function returns TBS_SUCCESS.
 
@@ -124,16 +118,7 @@ An error occurred while communicating with the TPM.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 When a command is canceled, TBS sends a message to the command that indicates that the command was canceled.
-
-
-

@@ -2,15 +2,12 @@
 UID: NE:vds._VDS_SAN_POLICY
 title: VDS_SAN_POLICY (vds.h)
 description: Defines the set of valid disk SAN policy flags.
+helpviewer_keywords: ["VDS_SAN_POLICY","VDS_SAN_POLICY enumeration","VDS_SP_OFFLINE","VDS_SP_OFFLINE_SHARED","VDS_SP_ONLINE","VDS_SP_UNKNOWN","base.vds_san_policy","vds/VDS_SAN_POLICY","vds/VDS_SP_OFFLINE","vds/VDS_SP_OFFLINE_SHARED","vds/VDS_SP_ONLINE","vds/VDS_SP_UNKNOWN"]
 old-location: base\vds_san_policy.htm
-tech.root: VDS
+tech.root: base
 ms.assetid: 2da99388-8ee6-4e6b-98dc-52f12290c4dc
 ms.date: 12/05/2018
 ms.keywords: VDS_SAN_POLICY, VDS_SAN_POLICY enumeration, VDS_SP_OFFLINE, VDS_SP_OFFLINE_SHARED, VDS_SP_ONLINE, VDS_SP_UNKNOWN, base.vds_san_policy, vds/VDS_SAN_POLICY, vds/VDS_SP_OFFLINE, vds/VDS_SP_OFFLINE_SHARED, vds/VDS_SP_ONLINE, vds/VDS_SP_UNKNOWN
-f1_keywords:
-- vds/VDS_SAN_POLICY
-dev_langs:
-- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vds.h
-api_name:
-- VDS_SAN_POLICY
 targetos: Windows
 req.typenames: VDS_SAN_POLICY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _VDS_SAN_POLICY
+ - vds/_VDS_SAN_POLICY
+ - VDS_SAN_POLICY
+ - vds/VDS_SAN_POLICY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vds.h
+api_name:
+ - VDS_SAN_POLICY
 ---
 
 # VDS_SAN_POLICY enumeration
@@ -48,58 +52,43 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/windows-hardware/drivers/storage/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of valid disk SAN policy flags.
 
-
 ## -enum-fields
 
-
-
-
-### -field VDS_SP_UNKNOWN
+### -field VDS_SP_UNKNOWN:0
 
 The SAN policy is unknown.
 
-
-### -field VDS_SP_ONLINE
+### -field VDS_SP_ONLINE:0x1
 
 All newly discovered disks are brought online and made read-write.
 
-
-### -field VDS_SP_OFFLINE_SHARED
+### -field VDS_SP_OFFLINE_SHARED:0x2
 
 All newly discovered disks that do not reside on a shared bus are brought online and made read-write.
 
-
-### -field VDS_SP_OFFLINE
+### -field VDS_SP_OFFLINE:0x3
 
 All newly discovered disks remain offline and read-only.
 
+### -field VDS_SP_OFFLINE_INTERNAL:0x4
 
-### -field VDS_SP_OFFLINE_INTERNAL
-
-
-### -field VDS_SP_MAX
-
-
-
+### -field VDS_SP_MAX:0x5
 
 ## -remarks
 
-
-
 The SAN policy determines whether a newly discovered disk is brought online or remains offline, and whether it is made read/write or remains read-only. When a disk is offline, the disk layout can be read, but no volume devices are surfaced through Plug and Play (PnP). This means that no file system can be mounted on the disk. When a disk is online, one or more volume devices are installed for the disk.
 
-To query the current SAN policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-getsanpolicy">IVdsServiceSAN::GetSANPolicy</a> method.
+To query the current SAN policy, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsservicesan-getsanpolicy">IVdsServiceSAN::GetSANPolicy</a> method.
 
-To set the SAN policy, use the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a> method.
+To set the SAN policy, use the <a href="/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a> method.
 
 This enumeration supersedes the <b>NoAutoMount</b> registry key, which can be found under the following registry path:
 
-<b>HKEY_LOCAL_MACHINE</b>\<b>System</b>\<b>CurrentControlSet</b>\<b>Services</b>\<b>Mountmgr</b>\<b>NoAutoMount</b>
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>System</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>Mountmgr</b>&#92;<b>NoAutoMount</b>
 
 The value of this key is a REG_DWORD value that is set to 0x00000000 to enable the Windows automount feature or a nonzero value to disable it. If the automount feature is enabled, Windows automatically mounts the file system for a new basic volume when it is added to the system and then assigns a drive letter to the volume. In system area network configurations, disabling automount prevents Windows from automatically mounting or assigning drive letters to any new basic volumes that are added to the system.
 
@@ -114,19 +103,10 @@ For a clean installation of Windows, the SAN policy determines whether a disk is
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_SAN_POLICY</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_SAN_POLICY</b> enumeration constant.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vds/nf-vds-ivdsservicesan-getsanpolicy">IVdsServiceSAN::GetSANPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-getsanpolicy">IVdsServiceSAN::GetSANPolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a>

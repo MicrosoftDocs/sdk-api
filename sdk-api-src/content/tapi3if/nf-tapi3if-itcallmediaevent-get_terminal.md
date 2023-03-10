@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITCallMediaEvent.get_Terminal
 title: ITCallMediaEvent::get_Terminal (tapi3if.h)
 description: The get_Terminal method gets the terminal associated with the event.
+helpviewer_keywords: ["ITCallMediaEvent interface [TAPI 2.2]","get_Terminal method","ITCallMediaEvent.get_Terminal","ITCallMediaEvent::get_Terminal","_tapi3_itcallmediaevent_get_terminal","get_Terminal","get_Terminal method [TAPI 2.2]","get_Terminal method [TAPI 2.2]","ITCallMediaEvent interface","tapi3.itcallmediaevent_get_terminal","tapi3if/ITCallMediaEvent::get_Terminal"]
 old-location: tapi3\itcallmediaevent_get_terminal.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 49fa442a-d4b0-4f51-b14a-c7819e06dcef
 ms.date: 12/05/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Terminal method, ITCallMediaEvent.get_Terminal, ITCallMediaEvent::get_Terminal, _tapi3_itcallmediaevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_terminal, tapi3if/ITCallMediaEvent::get_Terminal
-f1_keywords:
-- tapi3if/ITCallMediaEvent.get_Terminal
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallMediaEvent.get_Terminal
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallMediaEvent::get_Terminal
+ - tapi3if/ITCallMediaEvent::get_Terminal
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallMediaEvent.get_Terminal
 ---
 
 # ITCallMediaEvent::get_Terminal
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Terminal</b> method gets the terminal associated with the event.
 
-
 ## -parameters
-
-
-
 
 ### -param ppTerminal [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,37 +103,21 @@ The <i>ppTerminal</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface returned by <b>ITCallMediaEvent::get_Terminal</b>. The application must call <b>Release</b> on 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface returned by <b>ITCallMediaEvent::get_Terminal</b>. The application must call <b>Release</b> on 
 <b>ITTerminal</b> to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>

@@ -2,15 +2,12 @@
 UID: NF:tom.ITextPara.GetSpaceBefore
 title: ITextPara::GetSpaceBefore (tom.h)
 description: Retrieves the amount of vertical space above a paragraph.
+helpviewer_keywords: ["GetSpaceBefore","GetSpaceBefore method [Windows Controls]","GetSpaceBefore method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetSpaceBefore method","ITextPara.GetSpaceBefore","ITextPara::GetSpaceBefore","_win32_ITextPara_GetSpaceBefore","_win32_ITextPara_GetSpaceBefore_cpp","controls.ITextPara_GetSpaceBefore","controls._win32_ITextPara_GetSpaceBefore","tom/ITextPara::GetSpaceBefore"]
 old-location: controls\ITextPara_GetSpaceBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacebefore.htm
 ms.date: 12/05/2018
 ms.keywords: GetSpaceBefore, GetSpaceBefore method [Windows Controls], GetSpaceBefore method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceBefore method, ITextPara.GetSpaceBefore, ITextPara::GetSpaceBefore, _win32_ITextPara_GetSpaceBefore, _win32_ITextPara_GetSpaceBefore_cpp, controls.ITextPara_GetSpaceBefore, controls._win32_ITextPara_GetSpaceBefore, tom/ITextPara::GetSpaceBefore
-f1_keywords:
-- tom/ITextPara.GetSpaceBefore
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextPara.GetSpaceBefore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextPara::GetSpaceBefore
+ - tom/ITextPara::GetSpaceBefore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextPara.GetSpaceBefore
 ---
 
 # ITextPara::GetSpaceBefore
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the amount of vertical space above a paragraph. 
-
+Retrieves the amount of vertical space above a paragraph.
 
 ## -parameters
-
-
-
 
 ### -param pValue
 
 Type: <b>float*</b>
 
-The space-before value, in floating-point points. 
-
+The space-before value, in floating-point points.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetSpaceBefore</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetSpaceBefore</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -111,25 +105,18 @@ The paragraph formatting object is attached to a range that has been deleted.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getspaceafter">GetSpaceAfter</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getspaceafter">GetSpaceAfter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -137,16 +124,12 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setspaceafter">SetSpaceAfter</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setspaceafter">SetSpaceAfter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-setspacebefore">SetSpaceBefore</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-setspacebefore">SetSpaceBefore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

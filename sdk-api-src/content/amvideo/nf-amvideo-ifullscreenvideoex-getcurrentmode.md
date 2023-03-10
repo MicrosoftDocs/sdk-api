@@ -2,15 +2,12 @@
 UID: NF:amvideo.IFullScreenVideoEx.GetCurrentMode
 title: IFullScreenVideoEx::GetCurrentMode (amvideo.h)
 description: The GetCurrentMode method retrieves the current display mode.
+helpviewer_keywords: ["GetCurrentMode","GetCurrentMode method [DirectShow]","GetCurrentMode method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","GetCurrentMode method","IFullScreenVideoEx.GetCurrentMode","IFullScreenVideoEx::GetCurrentMode","IFullScreenVideoGetCurrentMode","amvideo/IFullScreenVideoEx::GetCurrentMode","dshow.ifullscreenvideoex_getcurrentmode"]
 old-location: dshow\ifullscreenvideoex_getcurrentmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 036914da-4223-4601-9e4a-4c7840b7dd22
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCurrentMode method, IFullScreenVideoEx.GetCurrentMode, IFullScreenVideoEx::GetCurrentMode, IFullScreenVideoGetCurrentMode, amvideo/IFullScreenVideoEx::GetCurrentMode, dshow.ifullscreenvideoex_getcurrentmode
-f1_keywords:
-- amvideo/IFullScreenVideoEx.GetCurrentMode
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IFullScreenVideoEx.GetCurrentMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFullScreenVideoEx::GetCurrentMode
+ - amvideo/IFullScreenVideoEx::GetCurrentMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFullScreenVideoEx.GetCurrentMode
 ---
 
 # IFullScreenVideoEx::GetCurrentMode
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetCurrentMode</code> method retrieves the current display mode.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pMode [out]
 
-Pointer to a variable that receives the index of the current video mode. Pass this index to the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-getmodeinfo">IFullScreenVideoEx::GetModeInfo</a> method to obtain information about this mode, including the width, height, and bit depth.
-
+Pointer to a variable that receives the index of the current video mode. Pass this index to the <a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-getmodeinfo">IFullScreenVideoEx::GetModeInfo</a> method to obtain information about this mode, including the width, height, and bit depth.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -111,22 +102,11 @@ The filter did not load DirectDraw.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

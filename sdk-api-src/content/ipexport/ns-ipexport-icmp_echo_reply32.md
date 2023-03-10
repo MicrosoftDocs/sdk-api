@@ -2,15 +2,12 @@
 UID: NS:ipexport.icmp_echo_reply32
 title: ICMP_ECHO_REPLY32 (ipexport.h)
 description: Describes the data returned in response to an IPv4 echo request on a 64-bit platform.
+helpviewer_keywords: ["*PICMP_ECHO_REPLY32","ICMP_ECHO_REPLY32","ICMP_ECHO_REPLY32 structure [IP Helper]","IP_BAD_DESTINATION","IP_BAD_OPTION","IP_BAD_REQ","IP_BAD_ROUTE","IP_BUF_TOO_SMALL","IP_DEST_HOST_UNREACHABLE","IP_DEST_NET_UNREACHABLE","IP_DEST_PORT_UNREACHABLE","IP_DEST_PROT_UNREACHABLE","IP_GENERAL_FAILURE","IP_HW_ERROR","IP_NO_RESOURCES","IP_OPTION_TOO_BIG","IP_PACKET_TOO_BIG","IP_PARAM_PROBLEM","IP_REQ_TIMED_OUT","IP_SOURCE_QUENCH","IP_SUCCESS","IP_TTL_EXPIRED_REASSEM","IP_TTL_EXPIRED_TRANSIT","PICMP_ECHO_REPLY32","PICMP_ECHO_REPLY32 structure pointer [IP Helper]","ipexport/ICMP_ECHO_REPLY32","ipexport/PICMP_ECHO_REPLY32","iphlp.icmp_echo_reply32"]
 old-location: iphlp\icmp_echo_reply32.htm
 tech.root: IpHlp
 ms.assetid: 4a84f29c-31bd-453c-b215-300cc782595f
 ms.date: 12/05/2018
 ms.keywords: '*PICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32, ICMP_ECHO_REPLY32 structure [IP Helper], IP_BAD_DESTINATION, IP_BAD_OPTION, IP_BAD_REQ, IP_BAD_ROUTE, IP_BUF_TOO_SMALL, IP_DEST_HOST_UNREACHABLE, IP_DEST_NET_UNREACHABLE, IP_DEST_PORT_UNREACHABLE, IP_DEST_PROT_UNREACHABLE, IP_GENERAL_FAILURE, IP_HW_ERROR, IP_NO_RESOURCES, IP_OPTION_TOO_BIG, IP_PACKET_TOO_BIG, IP_PARAM_PROBLEM, IP_REQ_TIMED_OUT, IP_SOURCE_QUENCH, IP_SUCCESS, IP_TTL_EXPIRED_REASSEM, IP_TTL_EXPIRED_TRANSIT, PICMP_ECHO_REPLY32, PICMP_ECHO_REPLY32 structure pointer [IP Helper], ipexport/ICMP_ECHO_REPLY32, ipexport/PICMP_ECHO_REPLY32, iphlp.icmp_echo_reply32'
-f1_keywords:
-- ipexport/ICMP_ECHO_REPLY32
-dev_langs:
-- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipexport.h
-api_name:
-- ICMP_ECHO_REPLY32
 targetos: Windows
 req.typenames: ICMP_ECHO_REPLY32, *PICMP_ECHO_REPLY32
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - icmp_echo_reply32
+ - ipexport/icmp_echo_reply32
+ - PICMP_ECHO_REPLY32
+ - ipexport/PICMP_ECHO_REPLY32
+ - ICMP_ECHO_REPLY32
+ - ipexport/ICMP_ECHO_REPLY32
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipexport.h
+api_name:
+ - ICMP_ECHO_REPLY32
 ---
 
 # ICMP_ECHO_REPLY32 structure
@@ -48,22 +54,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ICMP_ECHO_REPLY32</b> structure describes the data returned in response to an IPv4 echo request on a 64-bit platform.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Address
 
 Type: <b>IPAddr</b>
 
-The replying IPv4 address, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
-
+The replying IPv4 address, in the form of an <a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
 
 ### -field Status
 
@@ -297,8 +297,6 @@ A general failure. This error can be returned for some malformed ICMP packets.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field RoundTripTime
 
@@ -306,13 +304,11 @@ Type: <b>ULONG</b>
 
 The round trip time, in milliseconds.
 
-
 ### -field DataSize
 
 Type: <b>USHORT</b>
 
 The data size, in bytes, of the reply.
-
 
 ### -field Reserved
 
@@ -320,92 +316,77 @@ Type: <b>USHORT</b>
 
 Reserved for system use.
 
-
 ### -field Data
 
 Type: <b>VOID * POINTER_32</b>
 
-A pointer to the reply data. 
-
+A pointer to the reply data.
 
 ### -field Options
 
 Type: <b>struct ip_option_information32</b>
 
-The IP options in the IP header of the reply, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_option_information32">IP_OPTION_INFORMATION32</a> structure. 
-
+The IP options in the IP header of the reply, in the form of an <a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information32">IP_OPTION_INFORMATION32</a> structure.
 
 ## -remarks
 
-
-
-The <b>ICMP_ECHO_REPLY32</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a> function to return the response to an IPv4 echo request on a 64-bit platform. This structure is only defined if _WIN64 is defined.
+The <b>ICMP_ECHO_REPLY32</b> structure is used by the <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a> function to return the response to an IPv4 echo request on a 64-bit platform. This structure is only defined if _WIN64 is defined.
 
 For IPv4, some of the possible values for the <b>Status</b> member are specified in 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=84068">RFC 792</a>.
+<a href="https://www.ietf.org/rfc/rfc792.txt">RFC 792</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a> function can be used to retrieve the IP helper error string for the <b>IP_STATUS</b> error code in the <b>Status</b> member.
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a> function can be used to retrieve the IP helper error string for the <b>IP_STATUS</b> error code in the <b>Status</b> member.
 
 The <b>ICMP_ECHO_REPLY32</b> structure is defined in the <i>Ipexport.h</i> header file which is automatically included in the <i>Iphlpapi.h</i> header file. The <i>Ipexport.h</i> header file should never be used directly.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a>
+<a href="/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-icmp_echo_reply">ICMP_ECHO_REPLY</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
+<a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
+<a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information">IP_OPTION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_option_information">IP_OPTION_INFORMATION</a>
+<a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information32">IP_OPTION_INFORMATION32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_option_information32">IP_OPTION_INFORMATION32</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle">IcmpCloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle">IcmpCloseHandle</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpcreatefile">IcmpCreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpcreatefile">IcmpCreateFile</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpparsereplies">IcmpParseReplies</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho">IcmpSendEcho</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho">IcmpSendEcho</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex">IcmpSendEcho2Ex</a>
- 
-
- 
-
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2ex">IcmpSendEcho2Ex</a>

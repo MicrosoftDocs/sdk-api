@@ -7,10 +7,6 @@ tech.root: properties
 ms.assetid: 8225dd01-47cc-451e-b6a6-c16ddf62ca20
 ms.date: 12/05/2018
 ms.keywords: PSCoerceToCanonicalValue, PSCoerceToCanonicalValue function [Windows Properties], _shell_PSCoerceToCanonicalValue, properties.PSCoerceToCanonicalValue, propsys/PSCoerceToCanonicalValue, shell.PSCoerceToCanonicalValue
-f1_keywords:
-- propsys/PSCoerceToCanonicalValue
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Propsys.dll
-api_name:
-- PSCoerceToCanonicalValue
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0
 ms.custom: 19H1
+f1_keywords:
+ - PSCoerceToCanonicalValue
+ - propsys/PSCoerceToCanonicalValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Propsys.dll
+api_name:
+ - PSCoerceToCanonicalValue
 ---
 
 # PSCoerceToCanonicalValue function
@@ -48,32 +49,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Converts the value of a property to the canonical value, according to the property description.
 
-
 ## -parameters
-
-
-
 
 ### -param key [in]
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the property whose value is to be coerced.
-
+Reference to a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the property whose value is to be coerced.
 
 ### -param ppropvar [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-On entry, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the original value. When this function returns successfully, contains the canonical value.
-
+On entry, contains a pointer to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the original value. When this function returns successfully, contains the canonical value.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -113,7 +105,7 @@ The property value specified by <i>ppropvar</i> is now in a truncated, canonical
 </dl>
 </td>
 <td width="60%">
-The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
+The <i>ppropvar</i> parameter is invalid. The <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
 </td>
 </tr>
@@ -124,7 +116,7 @@ The <i>ppropvar</i> parameter is invalid. The <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-Coercion from the value's type to the property description's type was not possible. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
+Coercion from the value's type to the property description's type was not possible. The <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
 </td>
 </tr>
@@ -135,27 +127,21 @@ Coercion from the value's type to the property description's type was not possib
 </dl>
 </td>
 <td width="60%">
-Coercion from the value's type to the property description's type was not possible. The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
+Coercion from the value's type to the property description's type was not possible. The <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure has been cleared.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+This function is a wrapper around the system's implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-coercetocanonicalvalue">IPropertyDescription::CoerceToCanonicalValue</a>.
 
+Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="/windows/desktop/properties/props-system-title">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
 
-This function is a wrapper around the system's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-coercetocanonicalvalue">IPropertyDescription::CoerceToCanonicalValue</a>.
+It is important to note that if this function fails, it will have already called <a href="/previous-versions/windows/desktop/oe/oe-imimeallocator-propvariantclear">PropVariantClear</a> on the input <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Only if this function succeeds is the calling application responsible for calling <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 
-Most property descriptions specify the type that their values are expected to use. For example, the property description for <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-title">System.Title</a> specifies that System.Title values should be of type VT_LPWSTR. This function coerces values to this type, and then coerces the result into a canonical form.
-
-It is important to note that if this function fails, it will have already called <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oe/oe-imimeallocator-propvariantclear">PropVariantClear</a> on the input <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. Only if this function succeeds is the calling application responsible for calling <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
-
-The coercion performed by this function is also performed by the property system during calls to <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getvalue">IPropertyStore::GetValue</a> and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-setvalue">IPropertyStore::SetValue</a>. Applications can either depend on the property system to perform the coercions or can use this function to perform the coercion at a time of the application's choosing.
+The coercion performed by this function is also performed by the property system during calls to <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getvalue">IPropertyStore::GetValue</a> and <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-setvalue">IPropertyStore::SetValue</a>. Applications can either depend on the property system to perform the coercions or can use this function to perform the coercion at a time of the application's choosing.
 
 The coercion is performed in four steps, as follows:
         
@@ -170,11 +156,11 @@ The coercion is performed in four steps, as follows:
 <li>Values of type VT_FILETIME prior to midnight 1601/01/02.</li>
 </ul>
 </li>
-<li>If the value is not of type VT_EMPTY after Step 1, it is converted to the type specified by the property description. The type of a property description can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertytype">IPropertyDescription::GetPropertyType</a>. For information on how the property schema influences the type of a property description, see <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a>. Conversions are performed as follows:
+<li>If the value is not of type VT_EMPTY after Step 1, it is converted to the type specified by the property description. The type of a property description can be obtained by calling <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getpropertytype">IPropertyDescription::GetPropertyType</a>. For information on how the property schema influences the type of a property description, see <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a>. Conversions are performed as follows:
                         
                         <ul>
-<li>Values of type VT_LPWSTR, VT_BSTR, or VT_LPSTR are converted to VT_VECTOR | VT_LPWSTR using <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringasvector">InitPropVariantFromStringAsVector</a>.</li>
-<li>All other conversions are performed using <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
+<li>Values of type VT_LPWSTR, VT_BSTR, or VT_LPSTR are converted to VT_VECTOR | VT_LPWSTR using <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringasvector">InitPropVariantFromStringAsVector</a>.</li>
+<li>All other conversions are performed using <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
 </li>
 </ul>
 </li>
@@ -194,7 +180,7 @@ The coercion is performed in four steps, as follows:
 <td>
 <ul>
 <li>No leading or trailing spaces. The string is non-empty and non-<b>NULL</b>. For example, L"Alice".</li>
-<li>If this is a tree property (that is, if the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element's <i>isTreeProperty</i> attribute is <b>TRUE</b>), then it must not have leading or trailing forward slashes (/), must not have spaces between the text and the forward slashes, and must not have two consecutive forward slashes(/). For example, L"Friend/Bob".</li>
+<li>If this is a tree property (that is, if the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element's <i>isTreeProperty</i> attribute is <b>TRUE</b>), then it must not have leading or trailing forward slashes (/), must not have spaces between the text and the forward slashes, and must not have two consecutive forward slashes(/). For example, L"Friend/Bob".</li>
 <li>Coercion removes unnecessary characters and results in VT_EMPTY if there was no content.</li>
 </ul>
 </td>
@@ -274,7 +260,7 @@ The coercion is performed in four steps, as follows:
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscoercetocanonicalvalue">PSCoerceToCanonicalValue</a> to coerce a value to the type required for PKEY_Keywords.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-pscoercetocanonicalvalue">PSCoerceToCanonicalValue</a> to coerce a value to the type required for PKEY_Keywords.
 
 
 ```cpp
@@ -295,33 +281,22 @@ else
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a>

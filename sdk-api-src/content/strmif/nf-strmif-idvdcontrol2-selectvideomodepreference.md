@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdControl2.SelectVideoModePreference
 title: IDvdControl2::SelectVideoModePreference (strmif.h)
 description: The SelectVideoModePreference method sets the specified video mode display (wide screen, letterbox, or pan-scan) for playback.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectVideoModePreference method","IDvdControl2.SelectVideoModePreference","IDvdControl2::SelectVideoModePreference","IDvdControl2SelectVideoModePreference","SelectVideoModePreference","SelectVideoModePreference method [DirectShow]","SelectVideoModePreference method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectvideomodepreference","strmif/IDvdControl2::SelectVideoModePreference"]
 old-location: dshow\idvdcontrol2_selectvideomodepreference.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d970f48e-374f-43de-a59c-6c2e70161f55
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectVideoModePreference method, IDvdControl2.SelectVideoModePreference, IDvdControl2::SelectVideoModePreference, IDvdControl2SelectVideoModePreference, SelectVideoModePreference, SelectVideoModePreference method [DirectShow], SelectVideoModePreference method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectvideomodepreference, strmif/IDvdControl2::SelectVideoModePreference
-f1_keywords:
-- strmif/IDvdControl2.SelectVideoModePreference
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDvdControl2.SelectVideoModePreference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdControl2::SelectVideoModePreference
+ - strmif/IDvdControl2::SelectVideoModePreference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDvdControl2.SelectVideoModePreference
 ---
 
 # IDvdControl2::SelectVideoModePreference
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SelectVideoModePreference</code> method sets the specified video mode display (wide screen, letterbox, or pan-scan) for playback.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param ulPreferredDisplayMode [in]
 
-Value that specifies the new display mode for DVD content. Member of the [DVD_PREFERRED_DISPLAY_MODE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode) enumeration.
-
+Value that specifies the new display mode for DVD content. Member of the [DVD_PREFERRED_DISPLAY_MODE](/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode) enumeration.
 
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -122,14 +113,8 @@ UOP control prohibits the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method changes the default video window's aspect ratio and can also specify a default aspect ratio conversion mechanism.
 
@@ -164,26 +149,15 @@ The following table shows the Annex J command name to which this method name cor
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

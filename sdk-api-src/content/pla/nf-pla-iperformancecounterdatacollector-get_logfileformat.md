@@ -1,16 +1,13 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_LogFileFormat
 title: IPerformanceCounterDataCollector::get_LogFileFormat (pla.h)
-description: Retrieves or sets the format of the log file.
+description: Retrieves or sets the format of the log file. (Get)
+helpviewer_keywords: ["IPerformanceCounterDataCollector interface [PLA]","LogFileFormat property","IPerformanceCounterDataCollector.LogFileFormat","IPerformanceCounterDataCollector.get_LogFileFormat","IPerformanceCounterDataCollector::LogFileFormat","IPerformanceCounterDataCollector::get_LogFileFormat","IPerformanceCounterDataCollector::put_LogFileFormat","LogFileFormat property [PLA]","LogFileFormat property [PLA]","IPerformanceCounterDataCollector interface","base.iperformancecounterdatacollector_logfileformat","get_LogFileFormat","pla.iperformancecounterdatacollector_logfileformat","pla/IPerformanceCounterDataCollector::LogFileFormat","pla/IPerformanceCounterDataCollector::get_LogFileFormat","pla/IPerformanceCounterDataCollector::put_LogFileFormat"]
 old-location: pla\iperformancecounterdatacollector_logfileformat.htm
 tech.root: PLA
 ms.assetid: 3b980ea6-cb08-4e10-b4b3-40fd504d5e8f
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector interface [PLA],LogFileFormat property, IPerformanceCounterDataCollector.LogFileFormat, IPerformanceCounterDataCollector.get_LogFileFormat, IPerformanceCounterDataCollector::LogFileFormat, IPerformanceCounterDataCollector::get_LogFileFormat, IPerformanceCounterDataCollector::put_LogFileFormat, LogFileFormat property [PLA], LogFileFormat property [PLA],IPerformanceCounterDataCollector interface, base.iperformancecounterdatacollector_logfileformat, get_LogFileFormat, pla.iperformancecounterdatacollector_logfileformat, pla/IPerformanceCounterDataCollector::LogFileFormat, pla/IPerformanceCounterDataCollector::get_LogFileFormat, pla/IPerformanceCounterDataCollector::put_LogFileFormat
-f1_keywords:
-- pla/IPerformanceCounterDataCollector.LogFileFormat
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Pla.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Pla.dll
-api_name:
-- IPerformanceCounterDataCollector.LogFileFormat
-- IPerformanceCounterDataCollector.get_LogFileFormat
-- IPerformanceCounterDataCollector.put_LogFileFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPerformanceCounterDataCollector::get_LogFileFormat
+ - pla/IPerformanceCounterDataCollector::get_LogFileFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Pla.dll
+api_name:
+ - IPerformanceCounterDataCollector.LogFileFormat
+ - IPerformanceCounterDataCollector.get_LogFileFormat
+ - IPerformanceCounterDataCollector.put_LogFileFormat
 ---
 
 # IPerformanceCounterDataCollector::get_LogFileFormat
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves or sets the format of the log file.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>

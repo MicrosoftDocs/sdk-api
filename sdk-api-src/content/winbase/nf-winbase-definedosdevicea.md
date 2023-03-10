@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.DefineDosDeviceA
 title: DefineDosDeviceA function (winbase.h)
-description: Defines, redefines, or deletes MS-DOS device names.
+description: Defines, redefines, or deletes MS-DOS device names. (DefineDosDeviceA)
+helpviewer_keywords: ["DDD_EXACT_MATCH_ON_REMOVE","DDD_NO_BROADCAST_SYSTEM","DDD_RAW_TARGET_PATH","DDD_REMOVE_DEFINITION","DefineDosDevice","DefineDosDevice function [Files]","DefineDosDeviceA","DefineDosDeviceW","_win32_definedosdevice","base.definedosdevice","fileapi/DefineDosDevice","fileapi/DefineDosDeviceA","fileapi/DefineDosDeviceW","fs.definedosdevice","winbase/DefineDosDevice","winbase/DefineDosDeviceA","winbase/DefineDosDeviceW"]
 old-location: fs\definedosdevice.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 924b1456-b2c5-4d52-aacf-6172608c73ea
 ms.date: 12/05/2018
 ms.keywords: DDD_EXACT_MATCH_ON_REMOVE, DDD_NO_BROADCAST_SYSTEM, DDD_RAW_TARGET_PATH, DDD_REMOVE_DEFINITION, DefineDosDevice, DefineDosDevice function [Files], DefineDosDeviceA, DefineDosDeviceW, _win32_definedosdevice, base.definedosdevice, fileapi/DefineDosDevice, fileapi/DefineDosDeviceA, fileapi/DefineDosDeviceW, fs.definedosdevice, winbase/DefineDosDevice, winbase/DefineDosDeviceA, winbase/DefineDosDeviceW
-f1_keywords:
-- winbase/DefineDosDevice
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- DefineDosDevice
-- DefineDosDeviceA
-- DefineDosDeviceW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DefineDosDeviceA
+ - winbase/DefineDosDeviceA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - DefineDosDevice
+ - DefineDosDeviceA
+ - DefineDosDeviceW
 ---
 
 # DefineDosDeviceA function
@@ -59,14 +61,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines, redefines, or deletes MS-DOS device names.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -98,7 +95,7 @@ If this value is specified along with <b>DDD_REMOVE_DEFINITION</b>, the function
 </dl>
 </td>
 <td width="60%">
-Do not broadcast the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message. 
+Do not broadcast the <a href="/windows/desktop/winmsg/wm-settingchange">WM_SETTINGCHANGE</a> message. 
         By default, this message is broadcast to notify the shell and applications of the change.
 
 </td>
@@ -137,8 +134,6 @@ If this value is not specified, the string pointed to by the <i>lpTargetPath</i>
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpDeviceName [in]
 
@@ -147,29 +142,20 @@ A pointer to an MS-DOS device name string specifying the device the function is 
       defined, redefined, or deleted. For example, drive C  would be the string "C:". In no case is a 
       trailing backslash ("\") allowed.
 
-
 ### -param lpTargetPath [in, optional]
 
 A pointer to a path string that will implement this device. The string is an MS-DOS path string unless the 
       <b>DDD_RAW_TARGET_PATH</b> flag is specified, in which case this string is a path 
       string.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 MS-DOS device names are stored as junctions in the object namespace. The code that converts an MS-DOS path 
     into a corresponding path uses these junctions to map MS-DOS devices and drive letters. The 
@@ -177,13 +163,13 @@ MS-DOS device names are stored as junctions in the object namespace. The code th
     implement the MS-DOS device namespace.
 
 To retrieve the current mapping for a particular MS-DOS device name or to obtain a list of all MS-DOS devices 
-    known to the system, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a> 
+    known to the system, use the <a href="/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a> 
     function.
 
 To define a drive letter assignment that is persistent across boots and not a network share, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a> function. If the volume to 
+    <a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a> function. If the volume to 
     be mounted already has a drive letter assigned to it, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a> function to remove the 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a> function to remove the 
     assignment.
 
 Drive letters and device names defined at system boot time are protected from redefinition and deletion unless 
@@ -193,8 +179,8 @@ Starting with Windows XP, this function creates a device name for a caller that
     the "LocalSystem" context in its own Local MS-DOS device namespace. If the caller  is running in 
     the "LocalSystem" context, the function creates the device name in the Global MS-DOS device 
     namespace. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS DOS Device Name</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
+    <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS DOS Device Name</a> and 
+    <a href="/windows/desktop/FileIO/naming-a-file">File Names, Paths, and Namespaces</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -263,31 +249,22 @@ SMB does not support volume management functions. For CsvFs, a new name will not
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/editing-drive-letter-assignments">Editing Drive Letter Assignments</a>.
+     <a href="/windows/desktop/FileIO/editing-drive-letter-assignments">Editing Drive Letter Assignments</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-querydosdevicew">QueryDosDevice</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.BroadcastEvent
 title: IMSVidStreamBufferV2SourceEvent::BroadcastEvent (segment.h)
 description: Fired when the SBE2 source filter receives any event fired through the IBroadcastEvent interface, other than the EVENTID_DTFilterRatingChange event.
+helpviewer_keywords: ["BroadcastEvent","BroadcastEvent method [Microsoft TV Technologies]","BroadcastEvent method [Microsoft TV Technologies]","IMSVidStreamBufferV2SourceEvent interface","IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies]","BroadcastEvent method","IMSVidStreamBufferV2SourceEvent.BroadcastEvent","IMSVidStreamBufferV2SourceEvent::BroadcastEvent","mstv.imsvidstreambufferv2sourceevent_broadcastevent","segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent"]
 old-location: mstv\imsvidstreambufferv2sourceevent_broadcastevent.htm
 tech.root: mstv
 ms.assetid: f5d5b6d8-9baa-4a9e-8275-e817394c211a
 ms.date: 12/05/2018
 ms.keywords: BroadcastEvent, BroadcastEvent method [Microsoft TV Technologies], BroadcastEvent method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],BroadcastEvent method, IMSVidStreamBufferV2SourceEvent.BroadcastEvent, IMSVidStreamBufferV2SourceEvent::BroadcastEvent, mstv.imsvidstreambufferv2sourceevent_broadcastevent, segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent
-f1_keywords:
-- segment/IMSVidStreamBufferV2SourceEvent.BroadcastEvent
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferV2SourceEvent.BroadcastEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferV2SourceEvent::BroadcastEvent
+ - segment/IMSVidStreamBufferV2SourceEvent::BroadcastEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferV2SourceEvent.BroadcastEvent
 ---
 
 # IMSVidStreamBufferV2SourceEvent::BroadcastEvent
@@ -48,41 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
-Fired when the SBE2 source filter receives any event fired through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface, other than  the <b>EVENTID_DTFilterRatingChange</b> event.
-
+Fired when the SBE2 source filter receives any event fired through the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a> interface, other than  the <b>EVENTID_DTFilterRatingChange</b> event.
 
 ## -parameters
-
-
-
 
 ### -param Guid [in]
 
 <b>BSTR</b> object that contains the GUID that identifies the event.
-          
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibroadcastevent">IBroadcastEvent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferv2sourceevent">IMSVidStreamBufferV2SourceEvent</a>

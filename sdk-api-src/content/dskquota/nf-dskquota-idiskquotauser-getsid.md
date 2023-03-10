@@ -1,16 +1,13 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetSid
 title: IDiskQuotaUser::GetSid (dskquota.h)
-description: Retrieves the user's security identifier (SID).
+description: Retrieves the user's security identifier (SID). (IDiskQuotaUser.GetSid)
+helpviewer_keywords: ["GetSid","GetSid method [Files]","GetSid method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetSid method","IDiskQuotaUser.GetSid","IDiskQuotaUser::GetSid","_win32_idiskquotauser_getsid","base.idiskquotauser_getsid","dskquota/IDiskQuotaUser::GetSid","fs.idiskquotauser_getsid"]
 old-location: fs\idiskquotauser_getsid.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1718b5eb-2385-4e0f-a6af-99a5ef73e55d
 ms.date: 12/05/2018
 ms.keywords: GetSid, GetSid method [Files], GetSid method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetSid method, IDiskQuotaUser.GetSid, IDiskQuotaUser::GetSid, _win32_idiskquotauser_getsid, base.idiskquotauser_getsid, dskquota/IDiskQuotaUser::GetSid, fs.idiskquotauser_getsid
-f1_keywords:
-- dskquota/IDiskQuotaUser.GetSid
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.GetSid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::GetSid
+ - dskquota/IDiskQuotaUser::GetSid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.GetSid
 ---
 
 # IDiskQuotaUser::GetSid
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the user's security identifier (SID).
 
-
 ## -parameters
-
-
-
 
 ### -param pbSidBuffer [out]
 
 The SID.
 
-
 ### -param cbSidBuffer [in]
 
 The size of the buffer, in bytes. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsidlength">IDiskQuotaUser::GetSidLength</a> method to obtain the required size for the buffer.
-
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsidlength">IDiskQuotaUser::GetSidLength</a> method to obtain the required size for the buffer.
 
 ## -returns
-
-
 
 This method returns one of the following values.
 
@@ -135,26 +128,15 @@ Failure to obtain an exclusive lock.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

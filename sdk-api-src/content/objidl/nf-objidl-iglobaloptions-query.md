@@ -1,16 +1,13 @@
 ---
 UID: NF:objidl.IGlobalOptions.Query
 title: IGlobalOptions::Query (objidl.h)
-description: Queries the specified global property of the COM runtime.
+description: The IGlobalOptions::Query method (objidl.h) queries the specified global property of the COM runtime.
+helpviewer_keywords: ["IGlobalOptions interface [COM]","Query method","IGlobalOptions.Query","IGlobalOptions::Query","Query","Query method [COM]","Query method [COM]","IGlobalOptions interface","_com_iglobaloptions_query","com.iglobaloptions_query","objidlbase/IGlobalOptions::Query"]
 old-location: com\iglobaloptions_query.htm
 tech.root: com
 ms.assetid: ee16e59d-c629-45c1-afe6-fb4e37eba5d1
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: IGlobalOptions interface [COM],Query method, IGlobalOptions.Query, IGlobalOptions::Query, Query, Query method [COM], Query method [COM],IGlobalOptions interface, _com_iglobaloptions_query, com.iglobaloptions_query, objidlbase/IGlobalOptions::Query
-f1_keywords:
-- objidl/IGlobalOptions.Query
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IGlobalOptions.Query
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IGlobalOptions::Query
+ - objidl/IGlobalOptions::Query
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IGlobalOptions.Query
 ---
 
 # IGlobalOptions::Query
@@ -48,43 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries the specified global property of the COM runtime.
-
 
 ## -parameters
 
-
-
-
 ### -param dwProperty [in]
 
- The global property of the COM runtime. For a list of properties that can be set with this method, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>.
-
+ The global property of the COM runtime. For a list of properties that can be set with this method, see <a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>.
 
 ### -param pdwValue [out]
 
 The value of the property.<div class="alert"><b>Important</b>  For the COMGLB_APPID property, this parameter receives a pointer to the AppID GUID.</div>
 <div> </div>
 
-
-
 ## -returns
-
-
 
 The return value is S_OK if the property is queried successfully.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>

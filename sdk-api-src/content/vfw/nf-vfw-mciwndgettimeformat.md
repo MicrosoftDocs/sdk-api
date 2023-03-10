@@ -2,15 +2,12 @@
 UID: NF:vfw.MCIWndGetTimeFormat
 title: MCIWndGetTimeFormat macro (vfw.h)
 description: The MCIWndGetTimeFormat macro retrieves the current time format of an MCI device in two forms:\_as a numerical value and as a string. You can use this macro or explicitly send the MCIWNDM_GETTIMEFORMAT message.
+helpviewer_keywords: ["MCIWndGetTimeFormat","MCIWndGetTimeFormat macro [Windows Multimedia]","_win32_MCIWndGetTimeFormat","multimedia.mciwndgettimeformat","vfw/MCIWndGetTimeFormat"]
 old-location: multimedia\mciwndgettimeformat.htm
 tech.root: Multimedia
 ms.assetid: 91d212b5-1c30-4470-9f94-f704ed53a615
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetTimeFormat, MCIWndGetTimeFormat macro [Windows Multimedia], _win32_MCIWndGetTimeFormat, multimedia.mciwndgettimeformat, vfw/MCIWndGetTimeFormat
-f1_keywords:
-- vfw/MCIWndGetTimeFormat
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- MCIWndGetTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MCIWndGetTimeFormat
+ - vfw/MCIWndGetTimeFormat
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - MCIWndGetTimeFormat
 ---
 
 # MCIWndGetTimeFormat macro
@@ -48,36 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>MCIWndGetTimeFormat</b> macro retrieves the current time format of an MCI device in two forms: as a numerical value and as a string. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-gettimeformat">MCIWNDM_GETTIMEFORMAT</a> message.
-
-
-
+The <b>MCIWndGetTimeFormat</b> macro retrieves the current time format of an MCI device in two forms: as a numerical value and as a string. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-gettimeformat">MCIWNDM_GETTIMEFORMAT</a> message.
 
 ## -parameters
 
-
-
-
 ### -param hwnd
 
-Handle of the MCIWnd window. 
-
+Handle of the MCIWnd window.
 
 ### -param lp
 
-Pointer to a buffer to contain the null-terminated string form of the time format. 
-
+Pointer to a buffer to contain the null-terminated string form of the time format.
 
 ### -param len
 
-Size, in bytes, of the buffer. 
-
+Size, in bytes, of the buffer.
 
 ## -remarks
-
-
 
 If the time format string is longer than the return buffer, MCIWnd truncates the string.
 
@@ -135,18 +124,7 @@ An MCI device can support one or more of the following time formats:
 <td>MCI_FORMAT_TMSF</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-gettimeformat">MCIWNDM_GETTIMEFORMAT</a>
- 
-
- 
-
+<a href="/windows/desktop/Multimedia/mciwndm-gettimeformat">MCIWNDM_GETTIMEFORMAT</a>

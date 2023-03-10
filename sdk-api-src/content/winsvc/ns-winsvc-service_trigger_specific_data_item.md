@@ -2,15 +2,12 @@
 UID: NS:winsvc._SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 title: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM (winsvc.h)
 description: Contains trigger-specific data for a service trigger event.
+helpviewer_keywords: ["*PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM","PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM","PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure pointer","SERVICE_TRIGGER_DATA_TYPE_BINARY","SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ALL","SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ANY","SERVICE_TRIGGER_DATA_TYPE_LEVEL","SERVICE_TRIGGER_DATA_TYPE_STRING","SERVICE_TRIGGER_SPECIFIC_DATA_ITEM","SERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure","base.service_trigger_specific_data_item","winsvc/PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM","winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM"]
 old-location: base\service_trigger_specific_data_item.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 670e6c49-bbc0-4af6-9e47-6c89801ebb45
 ms.date: 12/05/2018
 ms.keywords: '*PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure pointer, SERVICE_TRIGGER_DATA_TYPE_BINARY, SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ALL, SERVICE_TRIGGER_DATA_TYPE_KEYWORD_ANY, SERVICE_TRIGGER_DATA_TYPE_LEVEL, SERVICE_TRIGGER_DATA_TYPE_STRING, SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, SERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure, base.service_trigger_specific_data_item, winsvc/PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM, winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM'
-f1_keywords:
-- winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsvc.h
-api_name:
-- SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 targetos: Windows
 req.typenames: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM, *PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+ - winsvc/_SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+ - PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+ - winsvc/PSERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+ - SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+ - winsvc/SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsvc.h
+api_name:
+ - SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 ---
 
 # SERVICE_TRIGGER_SPECIFIC_DATA_ITEM structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains trigger-specific data for a service trigger event. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structure for SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT trigger events. 
-
+Contains trigger-specific data for a service trigger event. This structure is used by the <a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a> structure for SERVICE_TRIGGER_TYPE_CUSTOM, SERVICE_TRIGGER_TYPE_DEVICE_ARRIVAL, SERVICE_TRIGGER_TYPE_FIREWALL_PORT_EVENT, or SERVICE_TRIGGER_TYPE_NETWORK_ENDPOINT trigger events.
 
 ## -struct-fields
-
-
-
 
 ### -field dwDataType
 
@@ -122,28 +123,16 @@ The trigger-specific data is a 64-bit unsigned integer value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cbData
 
 The size of the trigger-specific data pointed to <b>pData</b>, in bytes.  The maximum value is 1024.
 
-
 ### -field cbData.range
-
- 
-
 
 ### -field cbData.range.0
 
- 
-
-
 ### -field cbData.range.1024
-
- 
-
 
 ### -field pData
 
@@ -155,22 +144,11 @@ If the <b>dwDataType</b> member is SERVICE_TRIGGER_DATA_TYPE_STRING, the trigger
 
 Strings must be Unicode; ANSI strings are not supported.
 
-
 ### -field pData.size_is
-
- 
-
 
 ### -field pData.size_is.cbData
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The following table lists trigger-specific data by trigger event type. 
 
@@ -181,7 +159,7 @@ The following table lists trigger-specific data by trigger event type.
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_CUSTOM</td>
-<td>Specified by the <a href="https://go.microsoft.com/fwlink/p/?linkid=133390">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
+<td>Specified by the <a href="/windows/win32/etw/event-tracing-portal">Event Tracing for Windows</a> (ETW) provider that defines the custom event.</td>
 </tr>
 <tr>
 <td>SERVICE_TRIGGER_TYPE_DEVICE_INTERFACE_ARRIVAL</td>
@@ -208,30 +186,19 @@ The following table lists trigger-specific data by trigger event type.
 <td>A SERVICE_TRIGGER_DATA_TYPE_STRING that specifies the port, named pipe, or RPC interface for the network endpoint.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger">SERVICE_TRIGGER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
- 
-
- 
-
+<a href="/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>

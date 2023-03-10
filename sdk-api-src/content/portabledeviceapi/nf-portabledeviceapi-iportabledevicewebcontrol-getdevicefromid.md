@@ -1,16 +1,13 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromId
 title: IPortableDeviceWebControl::GetDeviceFromId (portabledeviceapi.h)
-description: Instantiates a WPD Automation Device object for a given WPD device identifier.
+description: Instantiates a WPD Automation Device object for a given WPD device identifier. (IPortableDeviceWebControl.GetDeviceFromId)
+helpviewer_keywords: ["GetDeviceFromId","GetDeviceFromId method [WPD Automation]","GetDeviceFromId method [WPD Automation]","IPortableDeviceWebControl interface","IPortableDeviceWebControl interface [WPD Automation]","GetDeviceFromId method","IPortableDeviceWebControl.GetDeviceFromId","IPortableDeviceWebControl::GetDeviceFromId","portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId","wpdauto.iportabledevicewebcontrol_getdevicefromid"]
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromid.htm
 tech.root: wpdauto
 ms.assetid: ba375082-3f4f-44d7-96d3-bf8151408b9e
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFromId, GetDeviceFromId method [WPD Automation], GetDeviceFromId method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromId method, IPortableDeviceWebControl.GetDeviceFromId, IPortableDeviceWebControl::GetDeviceFromId, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId, wpdauto.iportabledevicewebcontrol_getdevicefromid
-f1_keywords:
-- portabledeviceapi/IPortableDeviceWebControl.GetDeviceFromId
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- portabledeviceapi.h
-api_name:
-- IPortableDeviceWebControl.GetDeviceFromId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceWebControl::GetDeviceFromId
+ - portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - portabledeviceapi.h
+api_name:
+ - IPortableDeviceWebControl.GetDeviceFromId
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromId
@@ -48,31 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Instantiates a WPD Automation <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object for a given WPD device identifier.
-
+Instantiates a WPD Automation <a href="/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object for a given WPD device identifier.
 
 ## -parameters
 
-
-
-
 ### -param deviceId [in]
 
-A <b>BSTR</b> that is used by Plug-and-play to identify a currently connected WPD device. The Plug and Play (PnP) identifier for a particular device can be obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a> method in the WPD C++/COM API.
+A <b>BSTR</b> that is used by Plug-and-play to identify a currently connected WPD device. The Plug and Play (PnP) identifier for a particular device can be obtained from the <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a> method in the WPD C++/COM API.
 
-A Windows Store app can obtain the PnP identifier of a WPD device by using <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.portable.servicedevice.getdeviceselector">Windows.Devices.Portable.ServiceDevice.GetDeviceSelector</a> or <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.portable.servicedevice.getdeviceselectorfromserviceid">Windows.Devices.Portable.ServiceDevice.GetDeviceSelectorFromServiceId</a> to get a selector string to pass to <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.enumeration.deviceinformation.findallasync">Windows.Devices.Enumeration.DeviceInformation.FindAllAsync</a>. <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.enumeration.deviceinformation.findallasync">FindAllAsync</a> returns a collection of <a href="https://docs.microsoft.com/en-us/uwp/api/windows.devices.enumeration.deviceinformation">DeviceInformation</a> objects that represent the currently connected  WPD devices. A <b>DeviceInformation</b> object's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">Id</a> property is the device's PnP identifier.
-
+A Windows Store app can obtain the PnP identifier of a WPD device by using <a href="/uwp/api/windows.devices.portable.servicedevice.getdeviceselector">Windows.Devices.Portable.ServiceDevice.GetDeviceSelector</a> or <a href="/uwp/api/windows.devices.portable.servicedevice.getdeviceselectorfromserviceid">Windows.Devices.Portable.ServiceDevice.GetDeviceSelectorFromServiceId</a> to get a selector string to pass to <a href="/uwp/api/windows.devices.enumeration.deviceinformation.findallasync">Windows.Devices.Enumeration.DeviceInformation.FindAllAsync</a>. <a href="/uwp/api/windows.devices.enumeration.deviceinformation.findallasync">FindAllAsync</a> returns a collection of <a href="/uwp/api/windows.devices.enumeration.deviceinformation">DeviceInformation</a> objects that represent the currently connected  WPD devices. A <b>DeviceInformation</b> object's <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice-id-vb">Id</a> property is the device's PnP identifier.
 
 ### -param ppDevice [out, retval]
 
-Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object.
-
-
+Contains a pointer to the <b>IDispatch</b> implementation for the WPD Automation <a href="/previous-versions/windows/desktop/wiaaut/-wiaaut-device">Device</a> object.
 
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -105,14 +97,8 @@ A call to this method outside of a Windows Store app running on Windows 8 will r
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <div class="alert"><b>Note</b>  This method can only be used in Windows Store apps.</div>
 <div> </div>
@@ -123,31 +109,15 @@ For WPD devices that use an MTP device service, you can create a COM Automation 
 
 
 ```javascript
-
- 
 deviceFactory = new ActiveXObject("PortableDeviceAutomation.Factory");
  
 var device = deviceFactory.getDeviceFromId(deviceId);
 // Get the first service on the device
 var deviceService = device.services[0];
-
 ```
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicewebcontrol">IPortableDeviceWebControl</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicewebcontrol">IPortableDeviceWebControl</a>
-
-
-
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=266421">Portable Device Service Sample</a>
- 
-
- 
-
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PortableDeviceServices">Portable Device Service Sample</a>

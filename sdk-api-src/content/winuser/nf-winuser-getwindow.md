@@ -2,15 +2,12 @@
 UID: NF:winuser.GetWindow
 title: GetWindow function (winuser.h)
 description: Retrieves a handle to a window that has the specified relationship (Z-Order or owner) to the specified window.
+helpviewer_keywords: ["GW_CHILD","GW_ENABLEDPOPUP","GW_HWNDFIRST","GW_HWNDLAST","GW_HWNDNEXT","GW_HWNDPREV","GW_OWNER","GetWindow","GetWindow function [Windows and Messages]","_win32_GetWindow","_win32_getwindow_cpp","winmsg.getwindow","winui._win32_getwindow","winuser/GetWindow"]
 old-location: winmsg\getwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindow.htm
 ms.date: 12/05/2018
 ms.keywords: GW_CHILD, GW_ENABLEDPOPUP, GW_HWNDFIRST, GW_HWNDLAST, GW_HWNDNEXT, GW_HWNDPREV, GW_OWNER, GetWindow, GetWindow function [Windows and Messages], _win32_GetWindow, _win32_getwindow_cpp, winmsg.getwindow, winui._win32_getwindow, winuser/GetWindow
-f1_keywords:
-- winuser/GetWindow
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,29 +25,35 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-NTUser-Window-l1-1-0.dll
-- Ext-MS-Win-NTUser-Window-l1-1-1.dll
-- Ext-MS-Win-NTUser-Window-l1-1-2.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-- ext-ms-win-ntuser-window-l1-1-3.dll
-- Ext-MS-Win-NTUser-Window-L1-1-4.dll
-api_name:
-- GetWindow
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetWindow
+ - winuser/GetWindow
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-0.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-1.dll
+ - Ext-MS-Win-NTUser-Window-l1-1-2.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+ - ext-ms-win-ntuser-window-l1-1-3.dll
+ - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+api_name:
+ - GetWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindow function
@@ -58,21 +61,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves a handle to a window that has the specified relationship (<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a> or owner) to the specified window. 
-
+Retrieves a handle to a window that has the specified relationship (<a href="/windows/desktop/winmsg/window-features">Z-Order</a> or owner) to the specified window.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Type: <b>HWND</b>
 
-A handle to a window. The window handle retrieved is relative to this window, based on the value of the <i>uCmd</i> parameter. 
-
+A handle to a window. The window handle retrieved is relative to this window, based on the value of the <i>uCmd</i> parameter.
 
 ### -param uCmd [in]
 
@@ -166,45 +163,29 @@ If the specified window is a topmost window, the handle identifies a topmost win
 </dl>
 </td>
 <td width="60%">
-The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Owned Windows</a>. 
+The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="/windows/desktop/winmsg/window-features">Owned Windows</a>. 
 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
+Type: <b>HWND</b>
 
-
-Type: <strong>Type: <b>HWND</b>
-</strong>
-
-If the function succeeds, the return value is a window handle. If no window exists with the specified relationship to the specified window, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
-
-
-
+If the function succeeds, the return value is a window handle. If no window exists with the specified relationship to the specified window, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
-
-
-
+The <a href="/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed.
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a>
 
 
 
@@ -212,8 +193,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

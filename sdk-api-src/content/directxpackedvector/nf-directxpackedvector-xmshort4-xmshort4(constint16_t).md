@@ -1,16 +1,13 @@
 ---
-UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(const int16_t)
+UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(constint16_t)
 title: XMSHORT4::XMSHORT4(const int16_t) (directxpackedvector.h)
 description: Initializes a new instance of XMSHORT4 from a four element int16_t array argument.
+helpviewer_keywords: ["XMSHORT4","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 structure","XMSHORT4 structure [DirectX Math Support APIs]","XMSHORT4 constructor","XMSHORT4.XMSHORT4","XMSHORT4.XMSHORT4()","XMSHORT4.XMSHORT4(const int16_t)","XMSHORT4::XMSHORT4","XMSHORT4::XMSHORT4(const int16_t)","dxmath.xmshort4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 82a74ded-97db-4652-bd51-cf2660f4eaf0
 ms.date: 05/06/2019
 ms.keywords: XMSHORT4, XMSHORT4 constructor [DirectX Math Support APIs], XMSHORT4 constructor [DirectX Math Support APIs],XMSHORT4 structure, XMSHORT4 structure [DirectX Math Support APIs],XMSHORT4 constructor, XMSHORT4.XMSHORT4, XMSHORT4.XMSHORT4(), XMSHORT4.XMSHORT4(const int16_t), XMSHORT4::XMSHORT4, XMSHORT4::XMSHORT4(const int16_t), dxmath.xmshort4_ctor_1
-f1_keywords:
-- directxpackedvector/XMSHORT4.XMSHORT4
-dev_langs:
-- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXPackedVector.h
-api_name:
-- XMSHORT4.XMSHORT4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - XMSHORT4::XMSHORT4
+ - directxpackedvector/XMSHORT4::XMSHORT4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMSHORT4.XMSHORT4
 ---
 
 # XMSHORT4::XMSHORT4(const int16_t)
 
+
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort4">XMSHORT4</a> from a four element <code>int16_t</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort4">XMSHORT4</a> from a four element <code>int16_t</code> array argument.
 
 This constructor initializes a new instance of **XMSHORT4** from a from element <code>int16_t</code> array argument.
 
@@ -73,6 +76,6 @@ instance.w = pArray[3];
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort4">XMSHORT4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort4">XMSHORT4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmshort4-ctor">XMSHORT4 Constructors</a>
+<a href="/windows/desktop/dxmath/xmshort4-ctor">XMSHORT4 Constructors</a>

@@ -2,15 +2,12 @@
 UID: NS:amva._tag_AMVABUFFERINFO
 title: AMVABUFFERINFO (amva.h)
 description: The AMVABUFFERINFO structure specifies a buffer for the IAMVideoAccelerator::Execute method.
+helpviewer_keywords: ["*LPAMVABUFFERINFO","AMVABUFFERINFO","AMVABUFFERINFO structure [DirectShow]","AMVABUFFERINFOStructure","DXVA_ALPHA_BLEND_COMBINATION_BUFFER","DXVA_AYUV_BUFFER","DXVA_BITSTREAM_DATA_BUFFER","DXVA_DCCMD_SURFACE_BUFFER","DXVA_DEBLOCKING_CONTROL_BUFFER","DXVA_DPXD_SURFACE_BUFFER","DXVA_HIGHLIGHT_BUFFER","DXVA_IA44_SURFACE_BUFFER","DXVA_INVERSE_QUANTIZATION_MATRIX_BUFFER","DXVA_MACROBLOCK_CONTROL_BUFFER","DXVA_PICTURE_DECODE_BUFFER","DXVA_PICTURE_RESAMPLE_BUFFER","DXVA_READ_BACK_BUFFER","DXVA_RESIDUAL_DIFFERENCE_BUFFER","DXVA_SLICE_CONTROL_BUFFER","LPAMVABUFFERINFO","LPAMVABUFFERINFO structure pointer [DirectShow]","amva/AMVABUFFERINFO","amva/LPAMVABUFFERINFO","dshow.amvabufferinfo"]
 old-location: dshow\amvabufferinfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 8b018c40-44ae-4033-97b3-efa4b4c1bfb2
 ms.date: 12/05/2018
 ms.keywords: '*LPAMVABUFFERINFO, AMVABUFFERINFO, AMVABUFFERINFO structure [DirectShow], AMVABUFFERINFOStructure, DXVA_ALPHA_BLEND_COMBINATION_BUFFER, DXVA_AYUV_BUFFER, DXVA_BITSTREAM_DATA_BUFFER, DXVA_DCCMD_SURFACE_BUFFER, DXVA_DEBLOCKING_CONTROL_BUFFER, DXVA_DPXD_SURFACE_BUFFER, DXVA_HIGHLIGHT_BUFFER, DXVA_IA44_SURFACE_BUFFER, DXVA_INVERSE_QUANTIZATION_MATRIX_BUFFER, DXVA_MACROBLOCK_CONTROL_BUFFER, DXVA_PICTURE_DECODE_BUFFER, DXVA_PICTURE_RESAMPLE_BUFFER, DXVA_READ_BACK_BUFFER, DXVA_RESIDUAL_DIFFERENCE_BUFFER, DXVA_SLICE_CONTROL_BUFFER, LPAMVABUFFERINFO, LPAMVABUFFERINFO structure pointer [DirectShow], amva/AMVABUFFERINFO, amva/LPAMVABUFFERINFO, dshow.amvabufferinfo'
-f1_keywords:
-- amva/AMVABUFFERINFO
-dev_langs:
-- c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- amva.h
-api_name:
-- AMVABUFFERINFO
 targetos: Windows
 req.typenames: AMVABUFFERINFO, *LPAMVABUFFERINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _tag_AMVABUFFERINFO
+ - amva/_tag_AMVABUFFERINFO
+ - LPAMVABUFFERINFO
+ - amva/LPAMVABUFFERINFO
+ - AMVABUFFERINFO
+ - amva/AMVABUFFERINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - amva.h
+api_name:
+ - AMVABUFFERINFO
 ---
 
 # AMVABUFFERINFO structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>AMVABUFFERINFO</b> structure specifies a buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>  method.
-
+        <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>  method.
 
 ## -struct-fields
-
-
-
 
 ### -field dwTypeIndex
 
@@ -222,36 +223,22 @@ Slice control buffer.
 
 For complete descriptions of these buffer types, refer to the DirectX Video Acceleration 1.0 specification.
 
-
 ### -field dwBufferIndex
 
 Buffer index.
-          
-
 
 ### -field dwDataOffset
 
 The offset of the relevant data from the beginning of the buffer.
-          
-
 
 ### -field dwDataSize
 
 Size of the relevant data in the buffer, in bytes.
-          
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>
- 
-
- 
-
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>

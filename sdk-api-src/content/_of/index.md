@@ -4,7 +4,7 @@ title: Offline Files
 ms.assetid: 2f2d31c8-6a7c-3de3-a1d6-93b8c634470c
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Offline Files
@@ -19,5 +19,4 @@ To develop Offline Files, you need these headers:
  * [cscobj.h](../cscobj/index.md)
 
 For programming guidance for this technology, see:
-* [Offline Files](https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles)
-
+* [Offline Files](/previous-versions/windows/desktop/offlinefiles)

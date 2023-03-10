@@ -1,16 +1,13 @@
 ---
 UID: NF:azroles.IAzApplication.get_ApplyStoreSacl
 title: IAzApplication::get_ApplyStoreSacl (azroles.h)
-description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
+description: Sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified. (IAzApplication.get_ApplyStoreSacl)
+helpviewer_keywords: ["ApplyStoreSacl property [Security]","ApplyStoreSacl property [Security]","AzApplication object","ApplyStoreSacl property [Security]","IAzApplication interface","AzApplication object [Security]","ApplyStoreSacl property","IAzApplication interface [Security]","ApplyStoreSacl property","IAzApplication.ApplyStoreSacl","IAzApplication.get_ApplyStoreSacl","IAzApplication::ApplyStoreSacl","IAzApplication::get_ApplyStoreSacl","IAzApplication::put_ApplyStoreSacl","azroles/IAzApplication::ApplyStoreSacl","azroles/IAzApplication::get_ApplyStoreSacl","azroles/IAzApplication::put_ApplyStoreSacl","get_ApplyStoreSacl","security.iazapplication_applystoresacl"]
 old-location: security\iazapplication_applystoresacl.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: 722b0693-a11f-434a-a278-780619b0077a
 ms.date: 12/05/2018
 ms.keywords: ApplyStoreSacl property [Security], ApplyStoreSacl property [Security],AzApplication object, ApplyStoreSacl property [Security],IAzApplication interface, AzApplication object [Security],ApplyStoreSacl property, IAzApplication interface [Security],ApplyStoreSacl property, IAzApplication.ApplyStoreSacl, IAzApplication.get_ApplyStoreSacl, IAzApplication::ApplyStoreSacl, IAzApplication::get_ApplyStoreSacl, IAzApplication::put_ApplyStoreSacl, azroles/IAzApplication::ApplyStoreSacl, azroles/IAzApplication::get_ApplyStoreSacl, azroles/IAzApplication::put_ApplyStoreSacl, get_ApplyStoreSacl, security.iazapplication_applystoresacl
-f1_keywords:
-- azroles/IAzApplication.ApplyStoreSacl
-dev_langs:
-- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Azroles.dll
-api_name:
-- IAzApplication.ApplyStoreSacl
-- IAzApplication.get_ApplyStoreSacl
-- IAzApplication.put_ApplyStoreSacl
-- AzApplication.ApplyStoreSacl
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP
 ms.custom: 19H1
+f1_keywords:
+ - IAzApplication::get_ApplyStoreSacl
+ - azroles/IAzApplication::get_ApplyStoreSacl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Azroles.dll
+api_name:
+ - IAzApplication.ApplyStoreSacl
+ - IAzApplication.get_ApplyStoreSacl
+ - IAzApplication.put_ApplyStoreSacl
+ - AzApplication.ApplyStoreSacl
 ---
 
 # IAzApplication::get_ApplyStoreSacl
@@ -51,22 +53,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ApplyStoreSacl</b> property sets or retrieves a value that indicates whether policy audits should be generated when the authorization store is modified.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Policy audits are generated when the underlying policy store is modified. Both success and failure audits are requested.
 
-This property controls policy auditing only for the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object and its child objects.
-
-
-
+This property controls policy auditing only for the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object and its child objects.

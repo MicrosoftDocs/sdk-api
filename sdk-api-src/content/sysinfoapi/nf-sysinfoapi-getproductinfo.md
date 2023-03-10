@@ -2,15 +2,12 @@
 UID: NF:sysinfoapi.GetProductInfo
 title: GetProductInfo function (sysinfoapi.h)
 description: Retrieves the product type for the operating system on the local computer, and maps the type to the product types supported by the specified operating system.
+helpviewer_keywords: ["GetProductInfo","GetProductInfo function","PRODUCT_BUSINESS","PRODUCT_BUSINESS_N","PRODUCT_CLUSTER_SERVER","PRODUCT_CLUSTER_SERVER_V","PRODUCT_CORE","PRODUCT_CORE_COUNTRYSPECIFIC","PRODUCT_CORE_N","PRODUCT_CORE_SINGLELANGUAGE","PRODUCT_DATACENTER_A_SERVER_CORE","PRODUCT_DATACENTER_EVALUATION_SERVER","PRODUCT_DATACENTER_SERVER","PRODUCT_DATACENTER_SERVER_CORE","PRODUCT_DATACENTER_SERVER_CORE_V","PRODUCT_DATACENTER_SERVER_V","PRODUCT_EDUCATION","PRODUCT_EDUCATION_N","PRODUCT_ENTERPRISE","PRODUCT_ENTERPRISE_E","PRODUCT_ENTERPRISE_EVALUATION","PRODUCT_ENTERPRISE_N","PRODUCT_ENTERPRISE_N_EVALUATION","PRODUCT_ENTERPRISE_S","PRODUCT_ENTERPRISE_SERVER","PRODUCT_ENTERPRISE_SERVER_CORE","PRODUCT_ENTERPRISE_SERVER_CORE_V","PRODUCT_ENTERPRISE_SERVER_IA64","PRODUCT_ENTERPRISE_SERVER_V","PRODUCT_ENTERPRISE_S_EVALUATION","PRODUCT_ENTERPRISE_S_N","PRODUCT_ENTERPRISE_S_N_EVALUATION","PRODUCT_ESSENTIALBUSINESS_SERVER_ADDL","PRODUCT_ESSENTIALBUSINESS_SERVER_ADDLSVC","PRODUCT_ESSENTIALBUSINESS_SERVER_MGMT","PRODUCT_ESSENTIALBUSINESS_SERVER_MGMTSVC","PRODUCT_HOME_BASIC","PRODUCT_HOME_BASIC_E","PRODUCT_HOME_BASIC_N","PRODUCT_HOME_PREMIUM","PRODUCT_HOME_PREMIUM_E","PRODUCT_HOME_PREMIUM_N","PRODUCT_HOME_PREMIUM_SERVER","PRODUCT_HOME_SERVER","PRODUCT_HYPERV","PRODUCT_IOTUAP","PRODUCT_IOTUAPCOMMERCIAL","PRODUCT_MEDIUMBUSINESS_SERVER_MANAGEMENT","PRODUCT_MEDIUMBUSINESS_SERVER_MESSAGING","PRODUCT_MEDIUMBUSINESS_SERVER_SECURITY","PRODUCT_MOBILE_CORE","PRODUCT_MOBILE_ENTERPRISE","PRODUCT_MULTIPOINT_PREMIUM_SERVER","PRODUCT_MULTIPOINT_STANDARD_SERVER","PRODUCT_PROFESSIONAL","PRODUCT_PROFESSIONAL_E","PRODUCT_PROFESSIONAL_N","PRODUCT_PROFESSIONAL_WMC","PRODUCT_PRO_WORKSTATION","PRODUCT_PRO_WORKSTATION_N","PRODUCT_SB_SOLUTION_SERVER","PRODUCT_SB_SOLUTION_SERVER_EM","PRODUCT_SERVER_FOR_SB_SOLUTIONS","PRODUCT_SERVER_FOR_SB_SOLUTIONS_EM","PRODUCT_SERVER_FOR_SMALLBUSINESS","PRODUCT_SERVER_FOR_SMALLBUSINESS_V","PRODUCT_SERVER_FOUNDATION","PRODUCT_SMALLBUSINESS_SERVER","PRODUCT_SMALLBUSINESS_SERVER_PREMIUM","PRODUCT_SMALLBUSINESS_SERVER_PREMIUM_CORE","PRODUCT_SOLUTION_EMBEDDEDSERVER","PRODUCT_STANDARD_A_SERVER_CORE","PRODUCT_STANDARD_EVALUATION_SERVER","PRODUCT_STANDARD_SERVER","PRODUCT_STANDARD_SERVER_CORE","PRODUCT_STANDARD_SERVER_CORE_V","PRODUCT_STANDARD_SERVER_SOLUTIONS","PRODUCT_STANDARD_SERVER_SOLUTIONS_CORE","PRODUCT_STANDARD_SERVER_V","PRODUCT_STARTER","PRODUCT_STARTER_E","PRODUCT_STARTER_N","PRODUCT_STORAGE_ENTERPRISE_SERVER","PRODUCT_STORAGE_ENTERPRISE_SERVER_CORE","PRODUCT_STORAGE_EXPRESS_SERVER","PRODUCT_STORAGE_EXPRESS_SERVER_CORE","PRODUCT_STORAGE_STANDARD_EVALUATION_SERVER","PRODUCT_STORAGE_STANDARD_SERVER","PRODUCT_STORAGE_STANDARD_SERVER_CORE","PRODUCT_STORAGE_WORKGROUP_EVALUATION_SERVER","PRODUCT_STORAGE_WORKGROUP_SERVER","PRODUCT_STORAGE_WORKGROUP_SERVER_CORE","PRODUCT_ULTIMATE","PRODUCT_ULTIMATE_E","PRODUCT_ULTIMATE_N","PRODUCT_UNDEFINED","PRODUCT_WEB_SERVER","PRODUCT_WEB_SERVER_CORE","base.getproductinfo","sysinfoapi/GetProductInfo"]
 old-location: base\getproductinfo.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 711e6010-2068-4c97-9009-6ecdf54797b6
 ms.date: 12/05/2018
 ms.keywords: GetProductInfo, GetProductInfo function, PRODUCT_BUSINESS, PRODUCT_BUSINESS_N, PRODUCT_CLUSTER_SERVER, PRODUCT_CLUSTER_SERVER_V, PRODUCT_CORE, PRODUCT_CORE_COUNTRYSPECIFIC, PRODUCT_CORE_N, PRODUCT_CORE_SINGLELANGUAGE, PRODUCT_DATACENTER_A_SERVER_CORE, PRODUCT_DATACENTER_EVALUATION_SERVER, PRODUCT_DATACENTER_SERVER, PRODUCT_DATACENTER_SERVER_CORE, PRODUCT_DATACENTER_SERVER_CORE_V, PRODUCT_DATACENTER_SERVER_V, PRODUCT_EDUCATION, PRODUCT_EDUCATION_N, PRODUCT_ENTERPRISE, PRODUCT_ENTERPRISE_E, PRODUCT_ENTERPRISE_EVALUATION, PRODUCT_ENTERPRISE_N, PRODUCT_ENTERPRISE_N_EVALUATION, PRODUCT_ENTERPRISE_S, PRODUCT_ENTERPRISE_SERVER, PRODUCT_ENTERPRISE_SERVER_CORE, PRODUCT_ENTERPRISE_SERVER_CORE_V, PRODUCT_ENTERPRISE_SERVER_IA64, PRODUCT_ENTERPRISE_SERVER_V, PRODUCT_ENTERPRISE_S_EVALUATION, PRODUCT_ENTERPRISE_S_N, PRODUCT_ENTERPRISE_S_N_EVALUATION, PRODUCT_ESSENTIALBUSINESS_SERVER_ADDL, PRODUCT_ESSENTIALBUSINESS_SERVER_ADDLSVC, PRODUCT_ESSENTIALBUSINESS_SERVER_MGMT, PRODUCT_ESSENTIALBUSINESS_SERVER_MGMTSVC, PRODUCT_HOME_BASIC, PRODUCT_HOME_BASIC_E, PRODUCT_HOME_BASIC_N, PRODUCT_HOME_PREMIUM, PRODUCT_HOME_PREMIUM_E, PRODUCT_HOME_PREMIUM_N, PRODUCT_HOME_PREMIUM_SERVER, PRODUCT_HOME_SERVER, PRODUCT_HYPERV, PRODUCT_IOTUAP, PRODUCT_IOTUAPCOMMERCIAL, PRODUCT_MEDIUMBUSINESS_SERVER_MANAGEMENT, PRODUCT_MEDIUMBUSINESS_SERVER_MESSAGING, PRODUCT_MEDIUMBUSINESS_SERVER_SECURITY, PRODUCT_MOBILE_CORE, PRODUCT_MOBILE_ENTERPRISE, PRODUCT_MULTIPOINT_PREMIUM_SERVER, PRODUCT_MULTIPOINT_STANDARD_SERVER, PRODUCT_PROFESSIONAL, PRODUCT_PROFESSIONAL_E, PRODUCT_PROFESSIONAL_N, PRODUCT_PROFESSIONAL_WMC, PRODUCT_PRO_WORKSTATION, PRODUCT_PRO_WORKSTATION_N, PRODUCT_SB_SOLUTION_SERVER, PRODUCT_SB_SOLUTION_SERVER_EM, PRODUCT_SERVER_FOR_SB_SOLUTIONS, PRODUCT_SERVER_FOR_SB_SOLUTIONS_EM, PRODUCT_SERVER_FOR_SMALLBUSINESS, PRODUCT_SERVER_FOR_SMALLBUSINESS_V, PRODUCT_SERVER_FOUNDATION, PRODUCT_SMALLBUSINESS_SERVER, PRODUCT_SMALLBUSINESS_SERVER_PREMIUM, PRODUCT_SMALLBUSINESS_SERVER_PREMIUM_CORE, PRODUCT_SOLUTION_EMBEDDEDSERVER, PRODUCT_STANDARD_A_SERVER_CORE, PRODUCT_STANDARD_EVALUATION_SERVER, PRODUCT_STANDARD_SERVER, PRODUCT_STANDARD_SERVER_CORE, PRODUCT_STANDARD_SERVER_CORE_V, PRODUCT_STANDARD_SERVER_SOLUTIONS, PRODUCT_STANDARD_SERVER_SOLUTIONS_CORE, PRODUCT_STANDARD_SERVER_V, PRODUCT_STARTER, PRODUCT_STARTER_E, PRODUCT_STARTER_N, PRODUCT_STORAGE_ENTERPRISE_SERVER, PRODUCT_STORAGE_ENTERPRISE_SERVER_CORE, PRODUCT_STORAGE_EXPRESS_SERVER, PRODUCT_STORAGE_EXPRESS_SERVER_CORE, PRODUCT_STORAGE_STANDARD_EVALUATION_SERVER, PRODUCT_STORAGE_STANDARD_SERVER, PRODUCT_STORAGE_STANDARD_SERVER_CORE, PRODUCT_STORAGE_WORKGROUP_EVALUATION_SERVER, PRODUCT_STORAGE_WORKGROUP_SERVER, PRODUCT_STORAGE_WORKGROUP_SERVER_CORE, PRODUCT_ULTIMATE, PRODUCT_ULTIMATE_E, PRODUCT_ULTIMATE_N, PRODUCT_UNDEFINED, PRODUCT_WEB_SERVER, PRODUCT_WEB_SERVER_CORE, base.getproductinfo, sysinfoapi/GetProductInfo
-f1_keywords:
-- sysinfoapi/GetProductInfo
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,26 +25,31 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetProductInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetProductInfo
+ - sysinfoapi/GetProductInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetProductInfo
 ---
 
 # GetProductInfo function
@@ -55,16 +57,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the product type for the operating system on the local computer, and maps the type to the product types supported by the specified operating system.
 
-To retrieve product type information on versions of Windows prior to the minimum supported operating systems specified in the Requirements section, use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function. You can also use the <b>OperatingSystemSKU</b> property of the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem">Win32_OperatingSystem</a> WMI class.
-
+To retrieve product type information on versions of Windows prior to the minimum supported operating systems specified in the Requirements section, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function. You can also use the <b>OperatingSystemSKU</b> property of the <a href="/windows/desktop/CIMWin32Prov/win32-operatingsystem">Win32_OperatingSystem</a> WMI class.
 
 ## -parameters
-
-
-
 
 ### -param dwOSMajorVersion [in]
 
@@ -72,21 +69,17 @@ The major version number of the operating system. The minimum value is 6.
 
 The combination of the <i>dwOSMajorVersion</i>, <i>dwOSMinorVersion</i>, <i>dwSpMajorVersion</i>, and <i>dwSpMinorVersion</i> parameters describes the maximum target operating system version for the application. For example, Windows Vista and Windows Server 2008 are version 6.0.0.0 and Windows 7 and Windows Server 2008 R2 are version 6.1.0.0. All Windows 10 based releases will be listed as version 6.3.
 
-
 ### -param dwOSMinorVersion [in]
 
 The minor version number of the operating system. The minimum value is 0.
-
 
 ### -param dwSpMajorVersion [in]
 
 The major version number of the operating system service pack. The minimum value is 0.
 
-
 ### -param dwSpMinorVersion [in]
 
 The minor version number of the operating system service pack. The minimum value is 0.
-
 
 ### -param pdwReturnedProductType [out]
 
@@ -230,7 +223,7 @@ Server Standard, Semi-Annual Channel (core installation)
 </dl>
 </td>
 <td width="60%">
-Server Datacenter (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
+Server Datacenter (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
 
 </td>
 </tr>
@@ -587,6 +580,28 @@ Microsoft Hyper-V Server
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_IOTENTERPRISE"></a><a id="product_iotenterprise"></a><dl>
+<dt><b>PRODUCT_IOTENTERPRISE</b></dt>
+<dt>0x000000BC</dt>
+</dl>
+</td>
+<td width="60%">
+Windows IoT Enterprise
+ 
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_IOTENTERPRISE_S"></a><a id="product_iotenterprise_s"></a><dl>
+<dt><b>PRODUCT_IOTENTERPRISE_S</b></dt>
+<dt>0x000000BF</dt>
+</dl>
+</td>
+<td width="60%">
+Windows IoT Enterprise LTSC
+ 
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_IOTUAP"></a><a id="product_iotuap"></a><dl>
 <dt><b>PRODUCT_IOTUAP</b></dt>
 <dt>0x0000007B</dt>
@@ -682,6 +697,28 @@ Windows MultiPoint Server Premium (full installation)
 </td>
 <td width="60%">
 Windows MultiPoint Server Standard (full installation)
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_PPI_PRO"></a><a id="product_ppi_pro"></a><dl>
+<dt><b>PRODUCT_PPI_PRO</b></dt>
+<dt>0x00000077</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Team
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="PRODUCT_PRO_FOR_EDUCATION"></a><a id="product_pro_for_education"></a><dl>
+<dt><b>PRODUCT_PRO_FOR_EDUCATION</b></dt>
+<dt>0x000000A4</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Pro Education
 
 </td>
 </tr>
@@ -829,6 +866,17 @@ Server Foundation
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="PRODUCT_SERVERRDSH"></a><a id="product_serverrdsh"></a><dl>
+<dt><b>PRODUCT_SERVERRDSH</b></dt>
+<dt>0x000000AF</dt>
+</dl>
+</td>
+<td width="60%">
+Windows 10 Enterprise for Virtual Desktops
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="PRODUCT_SMALLBUSINESS_SERVER"></a><a id="product_smallbusiness_server"></a><dl>
 <dt><b>PRODUCT_SMALLBUSINESS_SERVER</b></dt>
 <dt>0x00000009</dt>
@@ -890,7 +938,7 @@ Server Standard (evaluation installation)
 </dl>
 </td>
 <td width="60%">
-Server Standard (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
+Server Standard (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
 
 </td>
 </tr>
@@ -1159,29 +1207,20 @@ Web Server (core installation)
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. This function fails if one of the input parameters is invalid.
 
-
-
-
 ## -remarks
 
-
-
-To detect whether a server role or feature is installed, use the  <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/win32-serverfeature">Server Feature</a> WMI provider.
+To detect whether a server role or feature is installed, use the  <a href="/windows/desktop/WmiSdk/win32-serverfeature">Server Feature</a> WMI provider.
 
 Subsequent releases of Windows will map the product types it supports to the set of product types supported by each supported previous release of Windows, back to version 6.0.0.0. Therefore, an application that does an equality test for any of these values will continue to work on future releases, even when new product types are added.
 
-PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012, and later. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation. As noted above, for Server Core installations of Windows Server 2012 and later, use the method <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.
+PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012, and later. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation. As noted above, for Server Core installations of Windows Server 2012 and later, use the method <a href="/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.
 
 The following table indicates the product types that were introduced in 6.1.0.0, and what they will map to if <b>GetProductInfo</b> is called with version 6.0.0.0 on a 6.1.0.0 system.
 
@@ -1206,24 +1245,15 @@ The following table indicates the product types that were introduced in 6.1.0.0,
  
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
+For an example, see <a href="/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

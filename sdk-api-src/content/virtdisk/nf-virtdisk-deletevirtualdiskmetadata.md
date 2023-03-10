@@ -2,15 +2,12 @@
 UID: NF:virtdisk.DeleteVirtualDiskMetadata
 title: DeleteVirtualDiskMetadata function (virtdisk.h)
 description: Deletes metadata from a virtual disk.
+helpviewer_keywords: ["DeleteVirtualDiskMetadata","DeleteVirtualDiskMetadata function [Virtual Storage]","virtdisk/DeleteVirtualDiskMetadata","vstor.deletevirtualdiskmetadata"]
 old-location: vstor\deletevirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 16fbb793-84a9-4dac-a85e-0f4f50ae8e35
 ms.date: 12/05/2018
 ms.keywords: DeleteVirtualDiskMetadata, DeleteVirtualDiskMetadata function [Virtual Storage], virtdisk/DeleteVirtualDiskMetadata, vstor.deletevirtualdiskmetadata
-f1_keywords:
-- virtdisk/DeleteVirtualDiskMetadata
-dev_langs:
-- c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- VirtDisk.dll
-api_name:
-- DeleteVirtualDiskMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DeleteVirtualDiskMetadata
+ - virtdisk/DeleteVirtualDiskMetadata
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - VirtDisk.dll
+api_name:
+ - DeleteVirtualDiskMetadata
 ---
 
 # DeleteVirtualDiskMetadata function
@@ -48,46 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Deletes metadata from a virtual disk.
 
-
 ## -parameters
-
-
-
 
 ### -param VirtualDiskHandle [in]
 
 A handle to the open virtual disk.
 
-
 ### -param Item [in]
 
 The item to be deleted.
 
-
 ## -returns
-
-
 
 Status of the request.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
-
-
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>

@@ -2,15 +2,12 @@
 UID: NF:wia_xp.IWiaItem.GetRootItem
 title: IWiaItem::GetRootItem (wia_xp.h)
 description: The IWiaItem::GetRootItem method retrieves the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) hardware device.
+helpviewer_keywords: ["GetRootItem","GetRootItem method [WIA]","GetRootItem method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","GetRootItem method","IWiaItem.GetRootItem","IWiaItem::GetRootItem","_wia_IWiaItem_GetRootItem","wia._wia_IWiaItem_GetRootItem","wia_xp/IWiaItem::GetRootItem"]
 old-location: wia\_wia_IWiaItem_GetRootItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getrootitem.htm
 ms.date: 12/05/2018
 ms.keywords: GetRootItem, GetRootItem method [WIA], GetRootItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetRootItem method, IWiaItem.GetRootItem, IWiaItem::GetRootItem, _wia_IWiaItem_GetRootItem, wia._wia_IWiaItem_GetRootItem, wia_xp/IWiaItem::GetRootItem
-f1_keywords:
-- wia_xp/IWiaItem.GetRootItem
-dev_langs:
-- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wiaservc.dll
-api_name:
-- IWiaItem.GetRootItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWiaItem::GetRootItem
+ - wia_xp/IWiaItem::GetRootItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wiaservc.dll
+api_name:
+ - IWiaItem.GetRootItem
 ---
 
 # IWiaItem::GetRootItem
@@ -48,40 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IWiaItem::GetRootItem</b> method retrieves the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) hardware device.
-
 
 ## -parameters
 
-
-
-
 ### -param ppIWiaItem [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>**</b>
 
-Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface that contains a pointer to the <b>IWiaItem</b> interface of the root item.
-
+Receives the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> interface that contains a pointer to the <b>IWiaItem</b> interface of the root item.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
+Given any <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> object in the object tree of a WIA hardware device, the application retrieves a pointer to the root item by calling this function. 
 
-
-Given any <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> object in the object tree of a WIA hardware device, the application retrieves a pointer to the root item by calling this function. 
-
-Applications must call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
-
-
-
+Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.

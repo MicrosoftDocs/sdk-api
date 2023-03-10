@@ -2,15 +2,12 @@
 UID: NF:ws2spi.WPUCloseSocketHandle
 title: WPUCloseSocketHandle function (ws2spi.h)
 description: The WPUCloseSocketHandle function closes an existing socket handle.
+helpviewer_keywords: ["WPUCloseSocketHandle","WPUCloseSocketHandle function [Winsock]","_win32_wpuclosesockethandle_2","winsock.wpuclosesockethandle_2","ws2spi/WPUCloseSocketHandle"]
 old-location: winsock\wpuclosesockethandle_2.htm
 tech.root: WinSock
 ms.assetid: c125b763-6c5a-4a83-ba34-79e898fdc9fe
 ms.date: 12/05/2018
 ms.keywords: WPUCloseSocketHandle, WPUCloseSocketHandle function [Winsock], _win32_wpuclosesockethandle_2, winsock.wpuclosesockethandle_2, ws2spi/WPUCloseSocketHandle
-f1_keywords:
-- ws2spi/WPUCloseSocketHandle
-dev_langs:
-- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ws2spi.h
-api_name:
-- WPUCloseSocketHandle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WPUCloseSocketHandle
+ - ws2spi/WPUCloseSocketHandle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ws2spi.h
+api_name:
+ - WPUCloseSocketHandle
 ---
 
 # WPUCloseSocketHandle function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 **WPUCloseSocketHandle** function closes an existing socket handle.
 
-
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 Handle to socket created with 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
 
-
 ### -param lpErrno [out]
 
 Pointer to the error code.
 
-
 ## -returns
-
-
 
 If no error occurs, 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code is available in <i>lpErrno</i>.
@@ -101,28 +94,13 @@ The descriptor is not a socket created by
 
 <div> </div>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
 **WPUCloseSocketHandle** function closes an existing socket handle created by 
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>. This function removes the socket from Ws2_32.dll's internal socket table. The owning service provider is responsible for releasing any resources associated with the socket.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>
- 
-
- 
 

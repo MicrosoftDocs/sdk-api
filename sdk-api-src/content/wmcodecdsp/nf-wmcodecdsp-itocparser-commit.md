@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.ITocParser.Commit
 title: ITocParser::Commit (wmcodecdsp.h)
 description: The Commit method stores the current state of the TOC Parser object in its associated media file.
+helpviewer_keywords: ["Commit","Commit method [Media Foundation]","Commit method [Media Foundation]","ITocParser interface","ITocParser interface [Media Foundation]","Commit method","ITocParser.Commit","ITocParser::Commit","codecapi.itocparser_commit","mf.itocparser_commit","wmcodecdsp/ITocParser::Commit"]
 old-location: mf\itocparser_commit.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 549c170e-2e4d-4edb-b84e-178bfbb13fed
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Media Foundation], Commit method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],Commit method, ITocParser.Commit, ITocParser::Commit, codecapi.itocparser_commit, mf.itocparser_commit, wmcodecdsp/ITocParser::Commit
-f1_keywords:
-- wmcodecdsp/ITocParser.Commit
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmvdspa.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmvdspa.dll
-api_name:
-- ITocParser.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITocParser::Commit
+ - wmcodecdsp/ITocParser::Commit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmvdspa.dll
+api_name:
+ - ITocParser.Commit
 ---
 
 # ITocParser::Commit
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Commit</b> method stores the current state of the TOC Parser object in its associated media file.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -82,27 +75,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You can associate a TOC Parser object with a media file by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">ITocParser::Init</a>. As you add, modify, or remove tables of contents from the TOC Parser object, those chages are made only to the TOC Parser object in memory, not to the media file. To store your changes in the media file, you must call <b>ITocParser::Commit</b>.
-
-
-
+You can associate a TOC Parser object with a media file by calling <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">ITocParser::Init</a>. As you add, modify, or remove tables of contents from the TOC Parser object, those changes are made only to the TOC Parser object in memory, not to the media file. To store your changes in the media file, you must call <b>ITocParser::Commit</b>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>

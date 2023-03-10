@@ -2,15 +2,12 @@
 UID: NF:slpublic.SLGenerateOfflineInstallationIdEx
 title: SLGenerateOfflineInstallationIdEx function (slpublic.h)
 description: Generates Installation ID (IID).
+helpviewer_keywords: ["SLGenerateOfflineInstallationIdEx","SLGenerateOfflineInstallationIdEx function [Security]","security.slgenerateofflineinstallationidex","slpublic/SLGenerateOfflineInstallationIdEx"]
 old-location: security\slgenerateofflineinstallationidex.htm
-tech.root: SecSLApi
+tech.root: security
 ms.assetid: a9fd3717-7f1d-4f53-a246-c0542fc2e474
 ms.date: 12/05/2018
 ms.keywords: SLGenerateOfflineInstallationIdEx, SLGenerateOfflineInstallationIdEx function [Security], security.slgenerateofflineinstallationidex, slpublic/SLGenerateOfflineInstallationIdEx
-f1_keywords:
-- slpublic/SLGenerateOfflineInstallationIdEx
-dev_langs:
-- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Slc.dll
-api_name:
-- SLGenerateOfflineInstallationIdEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SLGenerateOfflineInstallationIdEx
+ - slpublic/SLGenerateOfflineInstallationIdEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Slc.dll
+api_name:
+ - SLGenerateOfflineInstallationIdEx
 ---
 
 # SLGenerateOfflineInstallationIdEx function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Generates Installation ID (IID). Users can send the IID to CSR to get the Confirmation ID (CID).
 
-
 ## -parameters
-
-
-
 
 ### -param hSLC [in]
 
@@ -63,32 +60,26 @@ Type: <b>HSLC</b>
 
 The handle to the current SLC context.
 
-
 ### -param pProductSkuId [in, optional]
 
 Type: <b>const SLID*</b>
 
 A pointer the product ID.
 
-
 ### -param pActivationInfo [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
 
 A pointer to additional information.
-
 
 ### -param ppwszInstallationId [out]
 
 Type: <b>PWSTR*</b>
 
-The Installation ID string. Once you are finished, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to      
+The Installation ID string. Once you are finished, call the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to      
 		free the memory.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT WINAPI</b>
 
@@ -124,7 +115,3 @@ The product key is not available.
 </td>
 </tr>
 </table>
- 
-
-
-

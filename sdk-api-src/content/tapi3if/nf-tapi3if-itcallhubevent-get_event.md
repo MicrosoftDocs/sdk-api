@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITCallHubEvent.get_Event
 title: ITCallHubEvent::get_Event (tapi3if.h)
 description: The get_Event method returns a pointer to a CALLHUB_EVENT enum description of the event that occurred.
+helpviewer_keywords: ["ITCallHubEvent interface [TAPI 2.2]","get_Event method","ITCallHubEvent.get_Event","ITCallHubEvent::get_Event","_tapi3_itcallhubevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITCallHubEvent interface","tapi3.itcallhubevent_get_event","tapi3if/ITCallHubEvent::get_Event"]
 old-location: tapi3\itcallhubevent_get_event.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: a2515583-e564-413d-b93f-6f2dd7776d7b
 ms.date: 12/05/2018
 ms.keywords: ITCallHubEvent interface [TAPI 2.2],get_Event method, ITCallHubEvent.get_Event, ITCallHubEvent::get_Event, _tapi3_itcallhubevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallHubEvent interface, tapi3.itcallhubevent_get_event, tapi3if/ITCallHubEvent::get_Event
-f1_keywords:
-- tapi3if/ITCallHubEvent.get_Event
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITCallHubEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITCallHubEvent::get_Event
+ - tapi3if/ITCallHubEvent::get_Event
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITCallHubEvent.get_Event
 ---
 
 # ITCallHubEvent::get_Event
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Event</b> method returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event that occurred.
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event that occurred.
 
 ## -parameters
-
-
-
 
 ### -param pEvent [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event.
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -110,26 +104,15 @@ The <i>pEvent</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a>
+<a href="/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>

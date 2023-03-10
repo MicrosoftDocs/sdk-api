@@ -2,15 +2,12 @@
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverHardwareID
 title: IWindowsDriverUpdate::get_DriverHardwareID (wuapi.h)
 description: Gets the hardware ID or compatible ID that the Windows driver update must match to be installable.
+helpviewer_keywords: ["DriverHardwareID property [Windows Update Agent]","DriverHardwareID property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DriverHardwareID property","IWindowsDriverUpdate.DriverHardwareID","IWindowsDriverUpdate.get_DriverHardwareID","IWindowsDriverUpdate::DriverHardwareID","IWindowsDriverUpdate::get_DriverHardwareID","get_DriverHardwareID","wua.iwindowsdriverupdate_driverhardwareid","wuapi/IWindowsDriverUpdate::DriverHardwareID","wuapi/IWindowsDriverUpdate::get_DriverHardwareID"]
 old-location: wua\iwindowsdriverupdate_driverhardwareid.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 330c37a6-d4bb-44ab-bfbf-cfe02e9abb22
 ms.date: 12/05/2018
 ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverHardwareID property, IWindowsDriverUpdate.DriverHardwareID, IWindowsDriverUpdate.get_DriverHardwareID, IWindowsDriverUpdate::DriverHardwareID, IWindowsDriverUpdate::get_DriverHardwareID, get_DriverHardwareID, wua.iwindowsdriverupdate_driverhardwareid, wuapi/IWindowsDriverUpdate::DriverHardwareID, wuapi/IWindowsDriverUpdate::get_DriverHardwareID
-f1_keywords:
-- wuapi/IWindowsDriverUpdate.DriverHardwareID
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdate.DriverHardwareID
-- IWindowsDriverUpdate.get_DriverHardwareID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdate::get_DriverHardwareID
+ - wuapi/IWindowsDriverUpdate::get_DriverHardwareID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdate.DriverHardwareID
+ - IWindowsDriverUpdate.get_DriverHardwareID
 ---
 
 # IWindowsDriverUpdate::get_DriverHardwareID
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the hardware ID or compatible ID that the Windows driver update must match to be installable.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>

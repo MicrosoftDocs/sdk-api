@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceFriendlyName
 title: IPortableDeviceManager::GetDeviceFriendlyName (portabledeviceapi.h)
 description: Retrieves the user-friendly name for the device.
+helpviewer_keywords: ["GetDeviceFriendlyName","GetDeviceFriendlyName method [Windows Portable Devices SDK]","GetDeviceFriendlyName method [Windows Portable Devices SDK]","IPortableDeviceManager interface","IPortableDeviceManager interface [Windows Portable Devices SDK]","GetDeviceFriendlyName method","IPortableDeviceManager.GetDeviceFriendlyName","IPortableDeviceManager::GetDeviceFriendlyName","IPortableDeviceManagerGetDeviceFriendlyName","portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName","wpdsdk.iportabledevicemanager_getdevicefriendlyname"]
 old-location: wpdsdk\iportabledevicemanager_getdevicefriendlyname.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 589995bb-fcce-412e-8828-a84e5809af2b
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFriendlyName, GetDeviceFriendlyName method [Windows Portable Devices SDK], GetDeviceFriendlyName method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceFriendlyName method, IPortableDeviceManager.GetDeviceFriendlyName, IPortableDeviceManager::GetDeviceFriendlyName, IPortableDeviceManagerGetDeviceFriendlyName, portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName, wpdsdk.iportabledevicemanager_getdevicefriendlyname
-f1_keywords:
-- portabledeviceapi/IPortableDeviceManager.GetDeviceFriendlyName
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceGUIDs.lib
-- PortableDeviceGUIDs.dll
-api_name:
-- IPortableDeviceManager.GetDeviceFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceManager::GetDeviceFriendlyName
+ - portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceGUIDs.lib
+ - PortableDeviceGUIDs.dll
+api_name:
+ - IPortableDeviceManager.GetDeviceFriendlyName
 ---
 
 # IPortableDeviceManager::GetDeviceFriendlyName
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves the user-friendly name for the device.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pszPnPDeviceID [in]
 
-Pointer to a null-terminated string that contains the device's Plug and Play ID. You can retrieve a list of Plug and Play names of all devices that are connected to the computer by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">GetDevices</a>.
-
+Pointer to a null-terminated string that contains the device's Plug and Play ID. You can retrieve a list of Plug and Play names of all devices that are connected to the computer by calling <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">GetDevices</a>.
 
 ### -param pDeviceFriendlyName [in, out]
 
 A caller-allocated buffer that is used to hold the user-friendly name for the device. To learn the required size for this parameter, first call this method with this parameter set to <b>NULL</b> and <i>pcchDeviceFriendlyName</i> set to <b>0</b>; the method will succeed and set <i>pcchDeviceFriendlyName</i> to the required buffer size to hold the device-friendly name, including the termination character.
 
-
 ### -param pcchDeviceFriendlyName [in, out]
 
-On input, the maximum number of characters that <i>pDeviceFriendlyName</i> can hold, not including the termination character. On output, the number of characters that is returned by <i>pDeviceFriendlyName</i>, not including the termination character.
-
+On input, the maximum number of characters that <i>pDeviceFriendlyName</i> can hold, including the termination character. On output, the number of characters that is returned by <i>pDeviceFriendlyName</i>, also including the termination character.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -132,31 +121,15 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/object-properties">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
-
-
-
+A device is not required to support this method. If this method fails to retrieve a name, try requesting the <a href="/windows/desktop/wpd_sdk/object-properties">WPD_OBJECT_NAME</a> property of the device object (the object with the ID WPD_DEVICE_OBJECT_ID).
 
 ## -see-also
 
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>

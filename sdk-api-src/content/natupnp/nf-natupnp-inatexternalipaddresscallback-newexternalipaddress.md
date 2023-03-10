@@ -2,15 +2,12 @@
 UID: NF:natupnp.INATExternalIPAddressCallback.NewExternalIPAddress
 title: INATExternalIPAddressCallback::NewExternalIPAddress (natupnp.h)
 description: The system calls the NewExternalIPAddress method if the external IP address of the NAT computer changes.
+helpviewer_keywords: ["INATExternalIPAddressCallback interface [ICS/ICF]","NewExternalIPAddress method","INATExternalIPAddressCallback.NewExternalIPAddress","INATExternalIPAddressCallback::NewExternalIPAddress","NewExternalIPAddress","NewExternalIPAddress method [ICS/ICF]","NewExternalIPAddress method [ICS/ICF]","INATExternalIPAddressCallback interface","_ics_inatexternalipaddresscallback_newexternalipaddress","ics.inatexternalipaddresscallback_newexternalipaddress","natupnp/INATExternalIPAddressCallback::NewExternalIPAddress"]
 old-location: ics\inatexternalipaddresscallback_newexternalipaddress.htm
 tech.root: ics
 ms.assetid: b231ed4d-a115-4f4c-bda5-f6f3131ac45b
 ms.date: 12/05/2018
 ms.keywords: INATExternalIPAddressCallback interface [ICS/ICF],NewExternalIPAddress method, INATExternalIPAddressCallback.NewExternalIPAddress, INATExternalIPAddressCallback::NewExternalIPAddress, NewExternalIPAddress, NewExternalIPAddress method [ICS/ICF], NewExternalIPAddress method [ICS/ICF],INATExternalIPAddressCallback interface, _ics_inatexternalipaddresscallback_newexternalipaddress, ics.inatexternalipaddresscallback_newexternalipaddress, natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
-f1_keywords:
-- natupnp/INATExternalIPAddressCallback.NewExternalIPAddress
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- INATExternalIPAddressCallback.NewExternalIPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INATExternalIPAddressCallback::NewExternalIPAddress
+ - natupnp/INATExternalIPAddressCallback::NewExternalIPAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - INATExternalIPAddressCallback.NewExternalIPAddress
 ---
 
 # INATExternalIPAddressCallback::NewExternalIPAddress
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The system calls the 
 <b>NewExternalIPAddress</b> method if the external IP address of the NAT computer changes.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrNewExternalIPAddress [in]
 
 Specifies a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that contains the new external IP address.
-
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> variable that contains the new external IP address.
 
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -166,39 +160,23 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 One reason why the external IP address of the NAT computer could change would be the IP address is allocated through DHCP, and the DHCP lease expired.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inateventmanager-put_externalipaddresscallback">INATEventManager::put_ExternalIPAddressCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inateventmanager-put_externalipaddresscallback">INATEventManager::put_ExternalIPAddressCallback</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatexternalipaddresscallback">INATExternalIPAddressCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatexternalipaddresscallback">INATExternalIPAddressCallback</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

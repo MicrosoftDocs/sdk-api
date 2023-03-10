@@ -2,15 +2,12 @@
 UID: NF:ntsecapi.LsaEnumerateTrustedDomainsEx
 title: LsaEnumerateTrustedDomainsEx function (ntsecapi.h)
 description: Returns information about the domains trusted by the local system.
+helpviewer_keywords: ["LsaEnumerateTrustedDomainsEx","LsaEnumerateTrustedDomainsEx function [Security]","_lsa_lsaenumeratetrusteddomainsex","ntsecapi/LsaEnumerateTrustedDomainsEx","security.lsaenumeratetrusteddomainsex"]
 old-location: security\lsaenumeratetrusteddomainsex.htm
-tech.root: SecMgmt
+tech.root: security
 ms.assetid: 4a203bff-c3e1-4d95-b556-617dc8c2e8c2
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateTrustedDomainsEx, LsaEnumerateTrustedDomainsEx function [Security], _lsa_lsaenumeratetrusteddomainsex, ntsecapi/LsaEnumerateTrustedDomainsEx, security.lsaenumeratetrusteddomainsex
-f1_keywords:
-- ntsecapi/LsaEnumerateTrustedDomainsEx
-dev_langs:
-- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Advapi32.dll
-api_name:
-- LsaEnumerateTrustedDomainsEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LsaEnumerateTrustedDomainsEx
+ - ntsecapi/LsaEnumerateTrustedDomainsEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Advapi32.dll
+api_name:
+ - LsaEnumerateTrustedDomainsEx
 ---
 
 # LsaEnumerateTrustedDomainsEx function
@@ -48,58 +50,46 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>LsaEnumerateTrustedDomainsEx</b> function returns information about the domains trusted by the local system.<b>LsaEnumerateTrustedDomainsEx</b> returns information only on direct trusts. 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> is recommended for more complete trust enumeration purposes.
-
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a> is recommended for more complete trust enumeration purposes.
 
 ## -parameters
 
-
-
-
 ### -param PolicyHandle [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. This call requires POLICY_VIEW_LOCAL_INFORMATION access to the <b>Policy</b> object. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
-
+A handle to a <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. This call requires POLICY_VIEW_LOCAL_INFORMATION access to the <b>Policy</b> object. For more information, see 
+<a href="/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 ### -param EnumerationContext [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/lsa-enumeration-handle">LSA_ENUMERATION_HANDLE</a> that you can use to make multiple calls to <b>LsaEnumerateTrustedDomainsEx</b>  to retrieve all of the trusted domain information. For more information, see Remarks.
-
+<a href="/windows/desktop/SecMgmt/lsa-enumeration-handle">LSA_ENUMERATION_HANDLE</a> that you can use to make multiple calls to <b>LsaEnumerateTrustedDomainsEx</b>  to retrieve all of the trusted domain information. For more information, see Remarks.
 
 ### -param Buffer [out]
 
 Pointer to a buffer that receives a list of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structures that contain information about the enumerated trusted domains. 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a> structures that contain information about the enumerated trusted domains. 
 
 
 
 
 Your application should free this buffer when it is no longer needed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>.
 
 ### -param PreferedMaximumLength [in]
 
 Preferred maximum length, in bytes, of returned data. This is not a hard upper limit, but serves as a guide. Due to data conversion between systems with different natural data sizes, the actual amount of data returned may be greater than this value.
 
-
 ### -param CountReturned [out]
 
 Pointer to a <b>LONG</b> that receives the number of trusted domain objects returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the function returns STATUS_SUCCESS.
 
 If the function fails, it returns an  <b>NTSTATUS</b> code, which can be one of the following values or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -132,14 +122,9 @@ There are no more entries. This warning is returned if no objects have been enum
  
 
 You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> code to a Windows error code.
-
-
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the <b>NTSTATUS</b> code to a Windows error code.
 
 ## -remarks
-
-
 
 Retrieving all trust information may require more than a single <b>LsaEnumerateTrustedDomainsEx</b> call.
 
@@ -151,23 +136,14 @@ Retrieving all trust information may require more than a single <b>LsaEnumerateT
 <li>The enumeration is complete when the function returns STATUS_NO_MORE_ENTRIES.</li>
 </ol>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/SecMgmt/lsa-enumeration-handle">LSA_ENUMERATION_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/lsa-enumeration-handle">LSA_ENUMERATION_HANDLE</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreememory">LsaFreeMemory</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>

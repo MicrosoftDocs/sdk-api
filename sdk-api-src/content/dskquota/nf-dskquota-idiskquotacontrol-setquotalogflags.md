@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.SetQuotaLogFlags
 title: IDiskQuotaControl::SetQuotaLogFlags (dskquota.h)
 description: Controls the logging of user-related quota events on the volume.
+helpviewer_keywords: ["IDiskQuotaControl interface [Files]","SetQuotaLogFlags method","IDiskQuotaControl.SetQuotaLogFlags","IDiskQuotaControl::SetQuotaLogFlags","SetQuotaLogFlags","SetQuotaLogFlags method [Files]","SetQuotaLogFlags method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_setquotalogflags","base.idiskquotacontrol_setquotalogflags","dskquota/IDiskQuotaControl::SetQuotaLogFlags","fs.idiskquotacontrol_setquotalogflags"]
 old-location: fs\idiskquotacontrol_setquotalogflags.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8e5a1637-ad10-4a36-8493-b57c254ae273
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],SetQuotaLogFlags method, IDiskQuotaControl.SetQuotaLogFlags, IDiskQuotaControl::SetQuotaLogFlags, SetQuotaLogFlags, SetQuotaLogFlags method [Files], SetQuotaLogFlags method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_setquotalogflags, base.idiskquotacontrol_setquotalogflags, dskquota/IDiskQuotaControl::SetQuotaLogFlags, fs.idiskquotacontrol_setquotalogflags
-f1_keywords:
-- dskquota/IDiskQuotaControl.SetQuotaLogFlags
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.SetQuotaLogFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::SetQuotaLogFlags
+ - dskquota/IDiskQuotaControl::SetQuotaLogFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.SetQuotaLogFlags
 ---
 
 # IDiskQuotaControl::SetQuotaLogFlags
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Controls the logging of user-related quota events on the volume. Logging makes an entry in the volume server system's event log.
 
-
 ## -parameters
-
-
-
 
 ### -param dwFlags [in]
 
@@ -75,12 +72,8 @@ The log flags to be applied to the volume. Use the following macros to set the p
 <td>Turn on/off logging of user warning threshold violations. If set, an event log entry will be created when the user exceeds his assigned warning threshold.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -156,26 +149,15 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

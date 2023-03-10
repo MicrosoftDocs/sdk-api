@@ -2,15 +2,12 @@
 UID: NE:wincodec.WICPngBkgdProperties
 title: WICPngBkgdProperties (wincodec.h)
 description: Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.
+helpviewer_keywords: ["WICPngBkgdBackgroundColor","WICPngBkgdProperties","WICPngBkgdProperties enumeration [Windows Imaging Component]","_wic_codec_wicpngbkgdproperties","wic._wic_codec_wicpngbkgdproperties","wincodec/WICPngBkgdBackgroundColor","wincodec/WICPngBkgdProperties"]
 old-location: wic\_wic_codec_wicpngbkgdproperties.htm
 tech.root: wic
 ms.assetid: 979f6a91-79a2-4eba-8957-e2908636cdc5
 ms.date: 12/05/2018
 ms.keywords: WICPngBkgdBackgroundColor, WICPngBkgdProperties, WICPngBkgdProperties enumeration [Windows Imaging Component], _wic_codec_wicpngbkgdproperties, wic._wic_codec_wicpngbkgdproperties, wincodec/WICPngBkgdBackgroundColor, wincodec/WICPngBkgdProperties
-f1_keywords:
-- wincodec/WICPngBkgdProperties
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wincodec.h
-api_name:
-- WICPngBkgdProperties
 targetos: Windows
 req.typenames: WICPngBkgdProperties
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WICPngBkgdProperties
+ - wincodec/WICPngBkgdProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wincodec.h
+api_name:
+ - WICPngBkgdProperties
 ---
 
 # WICPngBkgdProperties enumeration
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.
-
 
 ## -enum-fields
 
-
-
-
-### -field WICPngBkgdBackgroundColor
+### -field WICPngBkgdBackgroundColor:0x1
 
 Indicates the background color. There are three possible types, depending on the image's pixel format.
 
@@ -81,8 +78,5 @@ Specifies the background color in a grayscale image.
 
 Specifies the background color in an RGB image as three USHORT values: {0x<i>RRRR</i>, 0x<i>GGGG</i>, 0x<i>BBBB</i>}.
 
-
-### -field WICPngBkgdProperties_FORCE_DWORD
-
-
+### -field WICPngBkgdProperties_FORCE_DWORD:0x7fffffff
 

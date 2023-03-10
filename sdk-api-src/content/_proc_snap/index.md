@@ -4,7 +4,7 @@ title: Process Snapshotting
 ms.assetid: eb3dbed3-9253-33ab-be65-61f1e4ae4cec
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Process Snapshotting
@@ -18,5 +18,4 @@ To develop Process Snapshotting, you need these headers:
  * [processsnapshot.h](../processsnapshot/index.md)
 
 For programming guidance for this technology, see:
-* [Process Snapshotting](https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap)
-
+* [Process Snapshotting](/previous-versions/windows/desktop/proc_snap)

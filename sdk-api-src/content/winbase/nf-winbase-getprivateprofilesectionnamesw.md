@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionNamesW
 title: GetPrivateProfileSectionNamesW function (winbase.h)
-description: Retrieves the names of all sections in an initialization file.
+description: The GetPrivateProfileSectionNamesW (Unicode) function (winbase.h) retrieves the names of all sections in an initialization file.
+helpviewer_keywords: ["GetPrivateProfileSectionNames", "GetPrivateProfileSectionNames function", "GetPrivateProfileSectionNamesW", "_win32_getprivateprofilesectionnames", "base.getprivateprofilesectionnames", "winbase/GetPrivateProfileSectionNames", "winbase/GetPrivateProfileSectionNamesW"]
 old-location: base\getprivateprofilesectionnames.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: f5d8593d-d086-4a28-b067-be3806ba78c3
-ms.date: 12/05/2018
+ms.date: 08/04/2022
 ms.keywords: GetPrivateProfileSectionNames, GetPrivateProfileSectionNames function, GetPrivateProfileSectionNamesA, GetPrivateProfileSectionNamesW, _win32_getprivateprofilesectionnames, base.getprivateprofilesectionnames, winbase/GetPrivateProfileSectionNames, winbase/GetPrivateProfileSectionNamesA, winbase/GetPrivateProfileSectionNamesW
-f1_keywords:
-- winbase/GetPrivateProfileSectionNames
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-api_name:
-- GetPrivateProfileSectionNames
-- GetPrivateProfileSectionNamesA
-- GetPrivateProfileSectionNamesW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetPrivateProfileSectionNamesW
+ - winbase/GetPrivateProfileSectionNamesW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+api_name:
+ - GetPrivateProfileSectionNames
+ - GetPrivateProfileSectionNamesA
+ - GetPrivateProfileSectionNamesW
 ---
 
 # GetPrivateProfileSectionNamesW function
@@ -50,46 +52,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the names of all sections in an initialization file.
 <div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit Windows-based applications. Applications should store initialization information in the registry.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpszReturnBuffer [out]
 
 A pointer to a buffer that receives the section names associated with the named file. The buffer is filled with one or more <b>null</b>-terminated strings; the last string is followed by a second <b>null</b> character.
-
 
 ### -param nSize [in]
 
 The size of the buffer pointed to by the <i>lpszReturnBuffer</i> parameter, in characters.
 
-
 ### -param lpFileName [in]
 
 The name of the initialization file. If this parameter is <b>NULL</b>, the function searches the Win.ini file. If this parameter does not contain a full path to the file, the system searches for the file in the Windows directory.
 
-
 ## -returns
-
-
 
 The return value specifies the number of characters copied to the specified buffer, not including the terminating <b>null</b> character. If the buffer is not large enough to contain all the section names associated with the specified initialization file, the return value is equal to the size specified by <i>nSize</i> minus two.
 
-
-
-
 ## -remarks
-
-
 
 This operation is atomic; no updates to the initialization file are allowed while the section names are being copied to the buffer.
 
-The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>\<b>SOFTWARE</b>\<b>Microsoft</b>\<b>Windows NT</b>\<b>CurrentVersion</b>\<b>IniFileMapping</b>
+The system maps most .ini file references to the registry, using the mapping defined under the following registry key:<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SOFTWARE</b>&#92;<b>Microsoft</b>&#92;<b>Windows NT</b>&#92;<b>CurrentVersion</b>&#92;<b>IniFileMapping</b>
 
 
 
@@ -118,17 +106,14 @@ When looking at values in the registry that specify other registry locations, th
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines GetPrivateProfileSectionNames as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection">GetPrivateProfileSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprivateprofilesection">GetPrivateProfileSection</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>

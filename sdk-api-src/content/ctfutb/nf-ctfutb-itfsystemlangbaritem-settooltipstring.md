@@ -2,15 +2,12 @@
 UID: NF:ctfutb.ITfSystemLangBarItem.SetTooltipString
 title: ITfSystemLangBarItem::SetTooltipString (ctfutb.h)
 description: ITfSystemLangBarItem::SetTooltipString method
+helpviewer_keywords: ["ITfSystemLangBarItem interface [Text Services Framework]","SetTooltipString method","ITfSystemLangBarItem.SetTooltipString","ITfSystemLangBarItem::SetTooltipString","SetTooltipString","SetTooltipString method [Text Services Framework]","SetTooltipString method [Text Services Framework]","ITfSystemLangBarItem interface","_tsf_itfsystemlangbaritem_settooltipstring_ref","ctfutb/ITfSystemLangBarItem::SetTooltipString","tsf.itfsystemlangbaritem_settooltipstring"]
 old-location: tsf\itfsystemlangbaritem_settooltipstring.htm
 tech.root: TSF
 ms.assetid: 6917fcd1-acce-4e5d-b04f-ee8ea69e71b4
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetTooltipString method, ITfSystemLangBarItem.SetTooltipString, ITfSystemLangBarItem::SetTooltipString, SetTooltipString, SetTooltipString method [Text Services Framework], SetTooltipString method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_settooltipstring_ref, ctfutb/ITfSystemLangBarItem::SetTooltipString, tsf.itfsystemlangbaritem_settooltipstring
-f1_keywords:
-- ctfutb/ITfSystemLangBarItem.SetTooltipString
-dev_langs:
-- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfSystemLangBarItem.SetTooltipString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfSystemLangBarItem::SetTooltipString
+ - ctfutb/ITfSystemLangBarItem::SetTooltipString
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfSystemLangBarItem.SetTooltipString
 ---
 
 # ITfSystemLangBarItem::SetTooltipString
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Modifies the tooltip text displayed for the system language bar menu.
 
 ## -parameters
-
-
-
 
 ### -param pchToolTip [in]
 
 A string that appears as a tooltip.
 
-
 ### -param cch [in]
 
 Size, in characters, of the string.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -100,16 +94,7 @@ The tooltip string for the system language bar menu cannot be modified.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-In response to this method, the system language bar menu should call <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_TOOLTIP to force the language bar to obtain the new tooltip text.
-
-
-
+In response to this method, the system language bar menu should call <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_TOOLTIP to force the language bar to obtain the new tooltip text.

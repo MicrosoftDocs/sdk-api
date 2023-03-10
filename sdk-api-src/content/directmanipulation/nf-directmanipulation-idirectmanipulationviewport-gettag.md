@@ -2,15 +2,12 @@
 UID: NF:directmanipulation.IDirectManipulationViewport.GetTag
 title: IDirectManipulationViewport::GetTag (directmanipulation.h)
 description: Gets the tag value of a viewport.
+helpviewer_keywords: ["GetTag","GetTag method [Direct Manipulation]","GetTag method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","GetTag method","IDirectManipulationViewport.GetTag","IDirectManipulationViewport::GetTag","directmanipulation.idirectmanipulationviewport_gettag","directmanipulation/IDirectManipulationViewport::GetTag"]
 old-location: directmanipulation\idirectmanipulationviewport_gettag.htm
 tech.root: directmanipulation
 ms.assetid: 7523a99b-de43-4efe-ae22-6632167c039a
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Direct Manipulation], GetTag method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetTag method, IDirectManipulationViewport.GetTag, IDirectManipulationViewport::GetTag, directmanipulation.idirectmanipulationviewport_gettag, directmanipulation/IDirectManipulationViewport::GetTag
-f1_keywords:
-- directmanipulation/IDirectManipulationViewport.GetTag
-dev_langs:
-- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectManipulation.h
-api_name:
-- IDirectManipulationViewport.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectManipulationViewport::GetTag
+ - directmanipulation/IDirectManipulationViewport::GetTag
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectManipulation.h
+api_name:
+ - IDirectManipulationViewport.GetTag
 ---
 
 # IDirectManipulationViewport::GetTag
@@ -48,42 +50,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the tag value of a viewport.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 IID to the interface.
 
-
 ### -param object [out, optional]
 
 The object portion of the tag.
-
 
 ### -param id [out, optional]
 
 The identifier portion of the tag.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
-
-
-
 ## -remarks
-
-
 
 A tag is a pairing of an integer ID with a Component Object Model (COM) object. It can be used by an app to identify the viewport.
 
@@ -105,17 +92,6 @@ HRESULT hr = pRegion->GetTag(IID_PPV_ARGS(&pUnk), &id);
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>

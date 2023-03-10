@@ -4,8 +4,11 @@ title: Ktmtypes.h header
 ms.assetid: 8a60bdf8-2faa-3238-b021-1f23bf7e60e2
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: fs
+f1_keywords:
+ - ktmtypes
+ - ktmtypes/ktmtypes
 ---
 
 # Ktmtypes.h header
@@ -13,8 +16,8 @@ tech.root: fs
 
 ## -description
 
-
-This header is used by Data Access and Storage. For more information, see:
+This header is used by multiple technologies. For more information, see:
 
 - [Data Access and Storage](../_fs/index.md)
+- [Kernel-Mode Driver Reference](../_kernel/index.md)
 

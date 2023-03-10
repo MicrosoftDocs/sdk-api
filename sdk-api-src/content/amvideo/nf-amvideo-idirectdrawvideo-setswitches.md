@@ -2,15 +2,12 @@
 UID: NF:amvideo.IDirectDrawVideo.SetSwitches
 title: IDirectDrawVideo::SetSwitches (amvideo.h)
 description: The SetSwitches method sets the surface types that the renderer is allowed to use.
+helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","SetSwitches method","IDirectDrawVideo.SetSwitches","IDirectDrawVideo::SetSwitches","IDirectDrawVideoSetSwitches","SetSwitches","SetSwitches method [DirectShow]","SetSwitches method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::SetSwitches","dshow.idirectdrawvideo_setswitches"]
 old-location: dshow\idirectdrawvideo_setswitches.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e6839757-2b63-497d-9978-35c8dfabc0ed
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetSwitches method, IDirectDrawVideo.SetSwitches, IDirectDrawVideo::SetSwitches, IDirectDrawVideoSetSwitches, SetSwitches, SetSwitches method [DirectShow], SetSwitches method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetSwitches, dshow.idirectdrawvideo_setswitches
-f1_keywords:
-- amvideo/IDirectDrawVideo.SetSwitches
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDirectDrawVideo.SetSwitches
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawVideo::SetSwitches
+ - amvideo/IDirectDrawVideo::SetSwitches
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDirectDrawVideo.SetSwitches
 ---
 
 # IDirectDrawVideo::SetSwitches
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetSwitches</code> method sets the surface types that the renderer is allowed to use.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Switches
 
@@ -129,38 +123,19 @@ Bit mask containing one or more of the following DirectShow DirectDraw Surface (
 <td>(AMDDS_DCIPS | AMDDS_PS).</td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
-
-
 This method must be called before the Video Renderer is connected.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>

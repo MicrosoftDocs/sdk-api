@@ -2,15 +2,12 @@
 UID: NS:dxva9typ._DXVA_COPPSetSignalingCmdData
 title: DXVA_COPPSetSignalingCmdData (dxva9typ.h)
 description: Contains information for the Set Signal command in Certified Output Protection Protocol (COPP).
+helpviewer_keywords: ["DXVA_COPPSetSignalingCmdData","DXVA_COPPSetSignalingCmdData structure [DirectShow]","DXVA_COPPSetSignalingCmdDataStructure","_DXVA_COPPSetSignalingCmdData","dshow.dxva_coppsetsignalingcmddata","dxva9typ/DXVA_COPPSetSignalingCmdData"]
 old-location: dshow\dxva_coppsetsignalingcmddata.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: f104b0c6-2b2f-4e6a-97e6-d73008cb80ef
 ms.date: 12/05/2018
 ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [DirectShow], DXVA_COPPSetSignalingCmdDataStructure, _DXVA_COPPSetSignalingCmdData, dshow.dxva_coppsetsignalingcmddata, dxva9typ/DXVA_COPPSetSignalingCmdData
-f1_keywords:
-- dxva9typ/DXVA_COPPSetSignalingCmdData
-dev_langs:
-- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -28,26 +25,32 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- dxva9typ.h
-api_name:
-- DXVA_COPPSetSignalingCmdData
 targetos: Windows
 req.typenames: DXVA_COPPSetSignalingCmdData
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _DXVA_COPPSetSignalingCmdData
+ - dxva9typ/_DXVA_COPPSetSignalingCmdData
+ - DXVA_COPPSetSignalingCmdData
+ - dxva9typ/DXVA_COPPSetSignalingCmdData
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - dxva9typ.h
+api_name:
+ - DXVA_COPPSetSignalingCmdData
 ---
 
 # DXVA_COPPSetSignalingCmdData structure
 
 
 ## -description
-
 
 Contains information for the Set Signal command in Certified Output Protection Protocol (COPP).
 
@@ -59,75 +62,51 @@ This command causes the driver to insert Wide Screen Signalling (WSS) codes or o
 
 ## -struct-fields
 
-
-
-
 ### -field ActiveTVProtectionStandard
 
-Specifies the protection standard and format that is current active. The value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration.
-          
-
+Specifies the protection standard and format that is current active. The value is a member of the <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration.
 
 ### -field AspectRatioChangeMask1
 
 Bit mask indicating which bits from <b>AspectRatioData1</b> to set in the signal.
 
-
 ### -field AspectRatioData1
 
-Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
-          
-
+Specifies the aspect ratio value to be set for the current protection standard. For EN 300 294, use the <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
 
 ### -field AspectRatioChangeMask2
 
 Bit mask indicating which bits from <b>AspectRatioData2</b> to set in the signal.
 
-
 ### -field AspectRatioData2
 
 An additional data element related to aspect ratio. The presence and meaning of this data depends on the protection standard. This field can be used to convey End and Q0 bits for EIA-608-B, or the active format description for CEA-805-A.
-
 
 ### -field AspectRatioChangeMask3
 
 Bit mask indicating which bits from <b>AspectRatioData3</b> to set in the signal.
 
-
 ### -field AspectRatioData3
 
 An additional data element related to aspect ratio for the current protection standard. The presence and meaning of this data depends on the protection standard.
 
-
 ### -field ExtendedInfoChangeMask
 
 Array of bit masks indicating which bits in <b>ExtendedInfoData</b> to change. This array is currently not used. Set each member to zero.
-          
-
 
 ### -field ExtendedInfoData
 
 Additional signaling elements to be set. This array is currently not used.
           Set each member to zero.
 
-
 ### -field Reserved
 
 Reserved. Set to zero.
-          
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

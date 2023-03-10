@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderStreamClock.GetTime
 title: IWMReaderStreamClock::GetTime (wmsdkidl.h)
 description: The GetTime method retrieves the current value of the stream clock.
+helpviewer_keywords: ["GetTime","GetTime method [windows Media Format]","GetTime method [windows Media Format]","IWMReaderStreamClock interface","IWMReaderStreamClock interface [windows Media Format]","GetTime method","IWMReaderStreamClock.GetTime","IWMReaderStreamClock::GetTime","IWMReaderStreamClockGetTime","wmformat.iwmreaderstreamclock_gettime","wmsdkidl/IWMReaderStreamClock::GetTime"]
 old-location: wmformat\iwmreaderstreamclock_gettime.htm
 tech.root: wmformat
 ms.assetid: d44b8701-8065-40a5-abc3-1c7513c618ea
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [windows Media Format], GetTime method [windows Media Format],IWMReaderStreamClock interface, IWMReaderStreamClock interface [windows Media Format],GetTime method, IWMReaderStreamClock.GetTime, IWMReaderStreamClock::GetTime, IWMReaderStreamClockGetTime, wmformat.iwmreaderstreamclock_gettime, wmsdkidl/IWMReaderStreamClock::GetTime
-f1_keywords:
-- wmsdkidl/IWMReaderStreamClock.GetTime
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMReaderStreamClock.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderStreamClock::GetTime
+ - wmsdkidl/IWMReaderStreamClock::GetTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMReaderStreamClock.GetTime
 ---
 
 # IWMReaderStreamClock::GetTime
@@ -51,26 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetTime</b> method retrieves the current value of the stream clock.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pcnsNow [out]
 
 Pointer to the current time of the stream clock, in 100-nanosecond units.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -102,22 +93,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderstreamclock">IWMReaderStreamClock Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderstreamclock">IWMReaderStreamClock Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderstreamclock-settimer">IWMReaderStreamClock::SetTimer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderstreamclock-settimer">IWMReaderStreamClock::SetTimer</a>

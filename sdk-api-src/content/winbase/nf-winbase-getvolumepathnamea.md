@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.GetVolumePathNameA
 title: GetVolumePathNameA function (winbase.h)
-description: Retrieves the volume mount point where the specified path is mounted.
+description: Retrieves the volume mount point where the specified path is mounted. (GetVolumePathNameA)
+helpviewer_keywords: ["GetVolumePathName","GetVolumePathName function [Files]","GetVolumePathNameA","GetVolumePathNameW","_win32_getvolumepathname","base.getvolumepathname","fileapi/GetVolumePathName","fileapi/GetVolumePathNameA","fileapi/GetVolumePathNameW","fs.getvolumepathname","winbase/GetVolumePathName","winbase/GetVolumePathNameA","winbase/GetVolumePathNameW"]
 old-location: fs\getvolumepathname.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: fa34786c-af82-4b59-bf36-e9a95a2f913e
 ms.date: 12/05/2018
 ms.keywords: GetVolumePathName, GetVolumePathName function [Files], GetVolumePathNameA, GetVolumePathNameW, _win32_getvolumepathname, base.getvolumepathname, fileapi/GetVolumePathName, fileapi/GetVolumePathNameA, fileapi/GetVolumePathNameW, fs.getvolumepathname, winbase/GetVolumePathName, winbase/GetVolumePathNameA, winbase/GetVolumePathNameW
-f1_keywords:
-- winbase/GetVolumePathName
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,30 +25,35 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
-- Kernel32Legacy.dll
-api_name:
-- GetVolumePathName
-- GetVolumePathNameA
-- GetVolumePathNameW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetVolumePathNameA
+ - winbase/GetVolumePathNameA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+ - Kernel32Legacy.dll
+api_name:
+ - GetVolumePathName
+ - GetVolumePathNameA
+ - GetVolumePathNameW
 ---
 
 # GetVolumePathNameA function
@@ -59,14 +61,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the volume mount point where the specified path is mounted.
 
-
 ## -parameters
-
-
-
 
 ### -param lpszFileName [in]
 
@@ -80,32 +77,22 @@ If you specify a relative directory or file name without a volume qualifier,
 If this parameter is an empty string, "", the function fails but the last error is set to 
        <b>ERROR_SUCCESS</b>.
 
-
 ### -param lpszVolumePathName [out]
 
 A pointer to a string that receives the volume mount point for the input path.
-
 
 ### -param cchBufferLength [in]
 
 The length of the output buffer, in <b>TCHARs</b>.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 If a specified path is passed, <b>GetVolumePathName</b> 
     returns the path to the volume mount point, which means that it returns the root of the volume where the end point 
@@ -130,14 +117,14 @@ You must specify a valid Win32 namespace path. If you specify an NT namespace pa
     boot volume, not the drive letter of that NT namespace path.
 
 For more information about path names and namespaces, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
+    <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>.
 
 You can specify both local and remote paths. If you specify a local path, 
     <b>GetVolumePathName</b> returns a full path whose prefix is 
     the longest prefix that represents a volume.
 
 If a network share is specified, <b>GetVolumePathName</b> 
-    returns the shortest path for which <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> returns 
+    returns the shortest path for which <a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> returns 
     <b>DRIVE_REMOTE</b>, which means that the path is validated as a remote drive that exists, 
     which the current user can access.
 
@@ -147,7 +134,7 @@ There are certain special cases that do not return a trailing backslash. These o
     returned is "C:\"; however, if 
     <i>lpszVolumePathName</i> is 3 characters long, the value returned is 
     "C:". A safer but slower way to set the size of the return buffer is to 
-    call the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> function, and then make sure 
+    call the <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a> function, and then make sure 
     that the buffer size is at least the same size as the full path that 
     <b>GetFullPathName</b> returns. If the output buffer is more 
     than one character too short, the function will fail and return an error.
@@ -249,7 +236,7 @@ If a remote path to a mounted folder or junction point is specified, the path is
 #### Examples
 
 For the following set of examples, U: is mapped to the remote computer 
-     \\<i>YourComputer</i>\C$, and Q is a local drive.
+     &#92;&#92;<i>YourComputer</i>\C$, and Q is a local drive.
      
 
 <table>
@@ -258,12 +245,12 @@ For the following set of examples, U: is mapped to the remote computer
 <th>Function returns</th>
 </tr>
 <tr>
-<td>\\<i>YourComputer</i>\C$\Windows</td>
-<td>\\<i>YourComputer</i>\C$\</td>
+<td>&#92;&#92;<i>YourComputer</i>\C$\Windows</td>
+<td>&#92;&#92;<i>YourComputer</i>\C$\</td>
 </tr>
 <tr>
-<td>\\?\UNC\<i>YourComputer</i>\C$\Windows</td>
-<td>\\?\UNC\<i>YourComputer</i>\C$\</td>
+<td>\\?\UNC&#92;<i>YourComputer</i>\C$\Windows</td>
+<td>\\?\UNC&#92;<i>YourComputer</i>\C$\</td>
 </tr>
 <tr>
 <td>Q:\Windows</td>
@@ -311,44 +298,35 @@ For the following set of examples, the paths contain invalid trailing path eleme
 <td>\\.\I:\</td>
 </tr>
 <tr>
-<td>\\<i>YourComputer</i>\C$\invalid (invalid trailing path 
+<td>&#92;&#92;<i>YourComputer</i>\C$\invalid (invalid trailing path 
         element)</td>
-<td>\\<i>YourComputer</i>\C$\</td>
+<td>&#92;&#92;<i>YourComputer</i>\C$\</td>
 </tr>
 </table>
  
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Volume Mount Points</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-mount-points">Volume Mount Points</a>

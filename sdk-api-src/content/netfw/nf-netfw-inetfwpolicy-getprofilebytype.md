@@ -2,15 +2,12 @@
 UID: NF:netfw.INetFwPolicy.GetProfileByType
 title: INetFwPolicy::GetProfileByType (netfw.h)
 description: Retrieves the profile of the requested type.
+helpviewer_keywords: ["GetProfileByType","GetProfileByType method [ICS/ICF]","GetProfileByType method [ICS/ICF]","INetFwPolicy interface","INetFwPolicy interface [ICS/ICF]","GetProfileByType method","INetFwPolicy.GetProfileByType","INetFwPolicy::GetProfileByType","ics.inetfwpolicy_getprofilebytype","netfw/INetFwPolicy::GetProfileByType"]
 old-location: ics\inetfwpolicy_getprofilebytype.htm
 tech.root: ics
 ms.assetid: 4c3876cf-40a4-4315-a87a-8fcdf509d48e
 ms.date: 12/05/2018
 ms.keywords: GetProfileByType, GetProfileByType method [ICS/ICF], GetProfileByType method [ICS/ICF],INetFwPolicy interface, INetFwPolicy interface [ICS/ICF],GetProfileByType method, INetFwPolicy.GetProfileByType, INetFwPolicy::GetProfileByType, ics.inetfwpolicy_getprofilebytype, netfw/INetFwPolicy::GetProfileByType
-f1_keywords:
-- netfw/INetFwPolicy.GetProfileByType
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-- Hnetcfg.dll
-api_name:
-- INetFwPolicy.GetProfileByType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwPolicy::GetProfileByType
+ - netfw/INetFwPolicy::GetProfileByType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+ - Hnetcfg.dll
+api_name:
+ - INetFwPolicy.GetProfileByType
 ---
 
 # INetFwPolicy::GetProfileByType
@@ -49,32 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
-
-Retrieves the profile of the requested type. 
-
+Retrieves the profile of the requested type.
 
 ## -parameters
 
-
-
-
 ### -param profileType [in]
 
-Type of profile from <a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type">NET_FW_PROFILE_TYPE</a>.
-
+Type of profile from <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type">NET_FW_PROFILE_TYPE</a>.
 
 ### -param profile [out, ref]
 
-Retrieved profile of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>.
+Retrieved profile of type <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>.
 
-Retrieved profile of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>.
-
+Retrieved profile of type <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>.
 
 ## -returns
-
-
 
 <h3>C++</h3>
 <table>
@@ -184,26 +177,15 @@ The method failed due to an invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy">INetFwPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy">INetFwPolicy</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type">NET_FW_PROFILE_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type">NET_FW_PROFILE_TYPE</a>

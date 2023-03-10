@@ -1,16 +1,13 @@
 ---
 UID: NF:fileapi.FindFirstChangeNotificationA
 title: FindFirstChangeNotificationA function (fileapi.h)
-description: Creates a change notification handle and sets up initial change notification filter conditions.
+description: Creates a change notification handle and sets up initial change notification filter conditions. (ANSI)
+helpviewer_keywords: ["FILE_NOTIFY_CHANGE_ATTRIBUTES", "FILE_NOTIFY_CHANGE_DIR_NAME", "FILE_NOTIFY_CHANGE_FILE_NAME", "FILE_NOTIFY_CHANGE_LAST_WRITE", "FILE_NOTIFY_CHANGE_SECURITY", "FILE_NOTIFY_CHANGE_SIZE", "FindFirstChangeNotificationA", "fileapi/FindFirstChangeNotificationA"]
 old-location: fs\findfirstchangenotification.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: dde4dd17-0f8c-41b5-8685-4e4c6b3def3c
 ms.date: 12/05/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, FindFirstChangeNotification, FindFirstChangeNotification function [Files], FindFirstChangeNotificationA, FindFirstChangeNotificationW, _win32_findfirstchangenotification, base.findfirstchangenotification, fileapi/FindFirstChangeNotification, fileapi/FindFirstChangeNotificationA, fileapi/FindFirstChangeNotificationW, fs.findfirstchangenotification, winbase/FindFirstChangeNotification, winbase/FindFirstChangeNotificationA, winbase/FindFirstChangeNotificationW
-f1_keywords:
-- fileapi/FindFirstChangeNotification
-dev_langs:
-- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-File-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-File-l1-2-0.dll
-- API-MS-Win-Core-File-l1-2-1.dll
-- API-MS-Win-Core-File-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- FindFirstChangeNotification
-- FindFirstChangeNotificationA
-- FindFirstChangeNotificationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - FindFirstChangeNotificationA
+ - fileapi/FindFirstChangeNotificationA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-File-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-File-l1-2-0.dll
+ - API-MS-Win-Core-File-l1-2-1.dll
+ - API-MS-Win-Core-File-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - FindFirstChangeNotification
+ - FindFirstChangeNotificationA
+ - FindFirstChangeNotificationW
 ---
 
 # FindFirstChangeNotificationA function
@@ -57,17 +59,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a change notification handle and sets up initial change notification filter conditions. A wait on a notification handle succeeds when a change matching the filter conditions occurs in the specified directory or subtree. The function does not report changes to the specified directory itself.
 
 This function does not indicate the change that satisfied the wait condition. To retrieve information about the specific change as part of the notification, use the  
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
-
+<a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpPathName [in]
 
@@ -76,14 +73,12 @@ The full path of the directory to be watched.
 
 This cannot be a relative path or an empty string.
 
-In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\?\" to the path. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
-
+In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend "\\\\?\\" to the path. For more information, see 
+<a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 ### -param bWatchSubtree [in]
 
 If this parameter is <b>TRUE</b>, the function monitors the directory tree rooted at the specified directory; if it is <b>FALSE</b>, it monitors only the specified directory.
-
 
 ### -param dwNotifyFilter [in]
 
@@ -161,32 +156,23 @@ Any security-descriptor change in the watched directory or subtree causes a chan
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, the return value is a handle to a find change notification object.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> can monitor the specified directory or subtree by using the handle returned by the 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a> can monitor the specified directory or subtree by using the handle returned by the 
 <b>FindFirstChangeNotification</b> function. A wait is satisfied when one of the filter conditions occurs in the monitored directory or subtree.
 
 After the wait has been satisfied, the application can respond to this condition and continue monitoring the directory by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a> function and the appropriate wait function. When the handle is no longer needed, it can be closed by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a> function.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a> function and the appropriate wait function. When the handle is no longer needed, it can be closed by using the 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a> function.
 
 Notifications may not be returned when calling <b>FindFirstChangeNotification</b> for a remote file system. 
 
@@ -260,32 +246,29 @@ Application might experience false positives on CsvFs pause/resume.
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/obtaining-directory-change-notifications">Obtaining Directory Change_Notifications</a>.
+<a href="/windows/desktop/FileIO/obtaining-directory-change-notifications">Obtaining Directory Change_Notifications</a>.
 				
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The fileapi.h header defines FindFirstChangeNotification as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclosechangenotification">FindCloseChangeNotification</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextchangenotification">FindNextChangeNotification</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>

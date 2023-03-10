@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetComponentGroupType
 title: IIsdbComponentGroupDescriptor::GetComponentGroupType (dvbsiparser.h)
 description: Gets the value of the component_group_type field from an Integrated Services Digital Broadcasting (ISDB) component group descriptor. This three-bit field indicates the group type to which the components in the descriptor belong.
+helpviewer_keywords: ["GetComponentGroupType","GetComponentGroupType method [Microsoft TV Technologies]","GetComponentGroupType method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetComponentGroupType method","IIsdbComponentGroupDescriptor.GetComponentGroupType","IIsdbComponentGroupDescriptor::GetComponentGroupType","dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType","mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype"]
 old-location: mstv\iisdbcomponentgroupdescriptor_getcomponentgrouptype.htm
 tech.root: mstv
 ms.assetid: 6bf17c29-ee43-4de8-a536-bea44238aa53
 ms.date: 12/05/2018
 ms.keywords: GetComponentGroupType, GetComponentGroupType method [Microsoft TV Technologies], GetComponentGroupType method [Microsoft TV Technologies],IIsdbComponentGroupDescriptor interface, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],GetComponentGroupType method, IIsdbComponentGroupDescriptor.GetComponentGroupType, IIsdbComponentGroupDescriptor::GetComponentGroupType, dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType, mstv.iisdbcomponentgroupdescriptor_getcomponentgrouptype
-f1_keywords:
-- dvbsiparser/IIsdbComponentGroupDescriptor.GetComponentGroupType
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbComponentGroupDescriptor.GetComponentGroupType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbComponentGroupDescriptor::GetComponentGroupType
+ - dvbsiparser/IIsdbComponentGroupDescriptor::GetComponentGroupType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbComponentGroupDescriptor.GetComponentGroupType
 ---
 
 # IIsdbComponentGroupDescriptor::GetComponentGroupType
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the value of the component_group_type field from   an Integrated Services Digital Broadcasting (ISDB) component group descriptor. This three-bit field indicates the group type to which the components in the descriptor belong.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
@@ -89,25 +86,11 @@ Undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcomponentgroupdescriptor-getcomponentgrouptype">IIsdbComponentGroupDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbcomponentgroupdescriptor-getcomponentgrouptype">IIsdbComponentGroupDescriptor</a>

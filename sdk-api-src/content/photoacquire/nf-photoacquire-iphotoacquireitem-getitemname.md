@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireItem.GetItemName
 title: IPhotoAcquireItem::GetItemName (photoacquire.h)
 description: The GetItemName method retrieves the file name for an item.
+helpviewer_keywords: ["GetItemName","GetItemName method [Picture Acquisition]","GetItemName method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetItemName method","IPhotoAcquireItem.GetItemName","IPhotoAcquireItem::GetItemName","IPhotoAcquireItemGetItemName","photoacquire/IPhotoAcquireItem::GetItemName","picacq.iphotoacquireitem_getitemname"]
 old-location: picacq\iphotoacquireitem_getitemname.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 10048853-424b-4761-8a80-b1f674f856f4
 ms.date: 12/05/2018
 ms.keywords: GetItemName, GetItemName method [Picture Acquisition], GetItemName method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetItemName method, IPhotoAcquireItem.GetItemName, IPhotoAcquireItem::GetItemName, IPhotoAcquireItemGetItemName, photoacquire/IPhotoAcquireItem::GetItemName, picacq.iphotoacquireitem_getitemname
-f1_keywords:
-- photoacquire/IPhotoAcquireItem.GetItemName
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireItem.GetItemName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireItem::GetItemName
+ - photoacquire/IPhotoAcquireItem::GetItemName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireItem.GetItemName
 ---
 
 # IPhotoAcquireItem::GetItemName
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetItemName</code> method retrieves the file name for an item.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrItemName [out]
 
 Pointer to a string containing the name of the item.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -89,27 +80,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The file name consists of the display name and the extension, even if the <b>Hide extensions for known file types</b> setting is checked in the Windows <b>Folder Options</b> dialog box.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>

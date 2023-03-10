@@ -2,15 +2,12 @@
 UID: NF:winevt.EvtSeek
 title: EvtSeek function (winevt.h)
 description: Seeks to a specific event in a query result set.
+helpviewer_keywords: ["EvtSeek","EvtSeek function [EventLog]","wes.evtseek","winevt/EvtSeek"]
 old-location: wes\evtseek.htm
 tech.root: wes
 ms.assetid: 62cf5039-f7c5-4f16-b7e3-dcc8907e6b7c
 ms.date: 12/05/2018
 ms.keywords: EvtSeek, EvtSeek function [EventLog], wes.evtseek, winevt/EvtSeek
-f1_keywords:
-- winevt/EvtSeek
-dev_langs:
-- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wevtapi.dll
-api_name:
-- EvtSeek
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EvtSeek
+ - winevt/EvtSeek
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wevtapi.dll
+api_name:
+ - EvtSeek
 ---
 
 # EvtSeek function
@@ -48,43 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Seeks to a specific event in a query result set.
-
 
 ## -parameters
 
-
-
-
 ### -param ResultSet [in]
 
-The handle to a query result set that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> function returns.
-
+The handle to a query result set that the <a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> function returns.
 
 ### -param Position [in]
 
 The zero-based offset to an event in the result set. The flag that you specify in the <i>Flags</i> parameter indicates the beginning relative position in the result set from which to seek. For example, you can seek from the beginning of the results or from the end of the results. Set to 0 to move to the relative position specified by the flag.
 
-
 ### -param Bookmark [in]
 
-A handle to a bookmark that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function returns. The bookmark identifies an event in the result set to which you want to seek. Set this parameter only if the  <i>Flags</i> parameter has the EvtSeekRelativeToBookmark  flag set.
-
+A handle to a bookmark that the <a href="/windows/desktop/api/winevt/nf-winevt-evtcreatebookmark">EvtCreateBookmark</a> function returns. The bookmark identifies an event in the result set to which you want to seek. Set this parameter only if the  <i>Flags</i> parameter has the EvtSeekRelativeToBookmark  flag set.
 
 ### -param Timeout [in]
 
- Reserved. Must be zero. 
-
+ Reserved. Must be zero.
 
 ### -param Flags [in]
 
-One or more flags that indicate the relative position in the result set from which to seek. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_seek_flags">EVT_SEEK_FLAGS</a> enumeration.
-
+One or more flags that indicate the relative position in the result set from which to seek. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_seek_flags">EVT_SEEK_FLAGS</a> enumeration.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -111,42 +101,27 @@ The function was successful.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 You can use this function only on result sets from an Admin or Operational channel, or from .evtx log files.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/bookmarking-events">Bookmarking Events</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnext">EvtNext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>

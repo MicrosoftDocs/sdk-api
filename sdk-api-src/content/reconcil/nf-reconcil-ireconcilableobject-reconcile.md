@@ -2,15 +2,12 @@
 UID: NF:reconcil.IReconcilableObject.Reconcile
 title: IReconcilableObject::Reconcile (reconcil.h)
 description: Reconciles the state of an object with one or more other objects. The reconciliation updates the internal state of the object by merging the states of all objects to form a combined state.
+helpviewer_keywords: ["IReconcilableObject interface [Legacy Windows Environment Features]","Reconcile method","IReconcilableObject.Reconcile","IReconcilableObject::Reconcile","RECONCILEF_FEEDBACKWINDOWVALID","RECONCILEF_MAYBOTHERUSER","RECONCILEF_NORESIDUESOK","RECONCILEF_OMITSELFRESIDUE","RECONCILEF_ONLYYOUWERECHANGED","RECONCILEF_RESUMEDRECONCILIATION","RECONCILEF_YOUMAYDOTHEUPDATES","Reconcile","Reconcile method [Legacy Windows Environment Features]","Reconcile method [Legacy Windows Environment Features]","IReconcilableObject interface","_win32_IReconcilableObject_Reconcile","lwef.ireconcilableobject_reconcile","reconcil/IReconcilableObject::Reconcile","shell.ireconcilableobject_reconcile"]
 old-location: lwef\ireconcilableobject_reconcile.htm
 tech.root: lwef
 ms.assetid: 6dfeb68e-fd23-4812-8a3c-ab27fc00a4ad
 ms.date: 12/05/2018
 ms.keywords: IReconcilableObject interface [Legacy Windows Environment Features],Reconcile method, IReconcilableObject.Reconcile, IReconcilableObject::Reconcile, RECONCILEF_FEEDBACKWINDOWVALID, RECONCILEF_MAYBOTHERUSER, RECONCILEF_NORESIDUESOK, RECONCILEF_OMITSELFRESIDUE, RECONCILEF_ONLYYOUWERECHANGED, RECONCILEF_RESUMEDRECONCILIATION, RECONCILEF_YOUMAYDOTHEUPDATES, Reconcile, Reconcile method [Legacy Windows Environment Features], Reconcile method [Legacy Windows Environment Features],IReconcilableObject interface, _win32_IReconcilableObject_Reconcile, lwef.ireconcilableobject_reconcile, reconcil/IReconcilableObject::Reconcile, shell.ireconcilableobject_reconcile
-f1_keywords:
-- reconcil/IReconcilableObject.Reconcile
-dev_langs:
-- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IReconcilableObject.Reconcile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReconcilableObject::Reconcile
+ - reconcil/IReconcilableObject::Reconcile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IReconcilableObject.Reconcile
 ---
 
 # IReconcilableObject::Reconcile
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Reconciles the state of an object with one or more other objects. The reconciliation updates the internal state of the object by merging the states of all objects to form a combined state. 
-
+Reconciles the state of an object with one or more other objects. The reconciliation updates the internal state of the object by merging the states of all objects to form a combined state.
 
 ## -parameters
 
-
-
-
 ### -param pInitiator
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>*</b>
+Type: <b><a href="/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a> interface for the initiator of the reconciliation process. This parameter must not be <b>NULL</b>. 
-
+The address of the <a href="/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a> interface for the initiator of the reconciliation process. This parameter must not be <b>NULL</b>.
 
 ### -param dwFlags
 
@@ -99,7 +95,7 @@ The briefcase reconciler can discard any residue associated with this object. In
 #### RECONCILEF_ONLYYOUWERECHANGED
 
 The <b>Reconcile</b> method is being called to propagate changes in the changed object to other unchanged objects. This value will only be set if the following key exists in the registry.
-					<pre xml:space="preserve"><b>HKEY_CLASSES_ROOT</b>
+					<pre><b>HKEY_CLASSES_ROOT</b>
    <b>CLSID</b>
       <i>{CLSID of reconciler}</i>
          <b>SingleChangeHook</b></pre>
@@ -121,16 +117,14 @@ The briefcase reconciler should resume reconciliation, using the partial residue
 
 #### RECONCILEF_YOUMAYDOTHEUPDATES
 
-The briefcase reconciler can perform the updates. Without this value, the reconciler cannot perform the updates. If reconciliation is completed successfully, the reconciler should return REC_S_IDIDTHEUPDATES if it performed the updates or S_OK if it did not perform the updates. 
-
+The briefcase reconciler can perform the updates. Without this value, the reconciler cannot perform the updates. If reconciliation is completed successfully, the reconciler should return REC_S_IDIDTHEUPDATES if it performed the updates or S_OK if it did not perform the updates.
 
 ### -param hwndOwner
 
 Type: <b>HWND</b>
 
 A handle to the window to be used as the parent for any child windows that the briefcase reconciler creates. This parameter is valid only if RECONCILEF_MAYBOTHERUSER is specified in 
-					<i>dwFlags</i>. 
-
+					<i>dwFlags</i>.
 
 ### -param hwndProgressFeedback
 
@@ -138,8 +132,7 @@ Type: <b>HWND</b>
 
 A handle to the progress feedback window to be displayed by the initiator. This parameter is valid only if RECONCILEF_FEEDBACKWINDOWVALID is specified in 
 					<i>dwFlags</i>. The briefcase reconciler may call the 
-					<b>SetWindowText</b> function using this window handle to display additional reconciliation status information to the user. 
-
+					<b>SetWindowText</b> function using this window handle to display additional reconciliation status information to the user.
 
 ### -param ulcInput
 
@@ -148,39 +141,32 @@ Type: <b>ULONG</b>
 The number of versions or partial residues specified in 
 					<i>dwFlags</i>. This parameter must not be zero.
 
-
 ### -param rgpmkOtherInput
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
 
-The address of an array that contains the addresses of the monikers to use to access the versions or partial residues to be reconciled. 
-
+The address of an array that contains the addresses of the monikers to use to access the versions or partial residues to be reconciled.
 
 ### -param plOutIndex
 
 Type: <b>LONG*</b>
 
-The address of the variable that receives an index value indicating whether the result of the reconciliation is identical to one of the initial versions. The variable is set to -1L if the reconciliation result is a combination of two or more versions. Otherwise, it is a zero-based index, with 0 indicating this object, 1 indicating the first version, 2 indicating the second version, and so on. 
-
+The address of the variable that receives an index value indicating whether the result of the reconciliation is identical to one of the initial versions. The variable is set to -1L if the reconciliation result is a combination of two or more versions. Otherwise, it is a zero-based index, with 0 indicating this object, 1 indicating the first version, 2 indicating the second version, and so on.
 
 ### -param pstgNewResidues
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>*</b>
 
 The address of the 
-					<b>IStorage</b> interface used to store the new residues. This parameter can be <b>NULL</b> to indicate that residues should not be saved. 
-
+					<b>IStorage</b> interface used to store the new residues. This parameter can be <b>NULL</b> to indicate that residues should not be saved.
 
 ### -param pvReserved
 
 Type: <b>void*</b>
 
-Reserved; must be <b>NULL</b>. 
-
+Reserved; must be <b>NULL</b>.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -221,7 +207,7 @@ No reconciliation actions were performed. The briefcase reconciler wishes to fal
 </dl>
 </td>
 <td width="60%">
-Reconciliation was completed successfully, and all the objects involved (the object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> method and all the other objects described by 
+Reconciliation was completed successfully, and all the objects involved (the object implementing the <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> method and all the other objects described by 
 										<i>rgpmkOtherInput</i>) have been updated appropriately. The initiator does not need, therefore, to do anything further to propagate the changes. The variable pointed to by 
 										<i>plOutIndex</i> should be set to -1L if <b>Reconcile</b> returns this value. The initiator will not save the source object's storage if <b>Reconcile</b> returns this value. This value may only be returned if RECONCILEF_YOUMAYDOTHEUPDATES was set in 
 										<i>dwFlags</i>.
@@ -268,7 +254,7 @@ The briefcase reconciler does not support the generation of residues, so the req
 </dl>
 </td>
 <td width="60%">
-The briefcase reconciler stopped reconciliation in response to a termination request from the initiator (see <a href="https://docs.microsoft.com/previous-versions/bb761345(v=vs.85)">SetAbortCallback</a> for more information). The state of the object is unspecified.
+The briefcase reconciler stopped reconciliation in response to a termination request from the initiator (see <a href="/previous-versions/bb761345(v=vs.85)">SetAbortCallback</a> for more information). The state of the object is unspecified.
 
 </td>
 </tr>
@@ -290,7 +276,7 @@ Reconciliation cannot be carried out because the provided document versions are 
 </dl>
 </td>
 <td width="60%">
-The RECONCILEF_YOUMAYDOTHEUPDATES flag was not set when the object's <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> implementation was called; this implementation requires that this value be set in the 
+The RECONCILEF_YOUMAYDOTHEUPDATES flag was not set when the object's <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> implementation was called; this implementation requires that this value be set in the 
 										<i>dwFlags</i> parameter.
 
 </td>
@@ -318,18 +304,7 @@ Unspecified error.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject">IReconcilableObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject">IReconcilableObject</a>

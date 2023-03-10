@@ -2,15 +2,12 @@
 UID: NS:lmuse._USE_INFO_1
 title: USE_INFO_1 (lmuse.h)
 description: Contains information about the connection between a local device and a shared resource.
+helpviewer_keywords: ["*LPUSE_INFO_1","*PUSE_INFO_1","LPUSE_INFO_1","LPUSE_INFO_1 structure pointer [Network Management]","PUSE_INFO_1","PUSE_INFO_1 structure pointer [Network Management]","USE_CONN","USE_DISCONN","USE_DISKDEV","USE_INFO_1","USE_INFO_1 structure [Network Management]","USE_IPC","USE_NETERR","USE_OK","USE_PAUSED","USE_RECONN","USE_SESSLOST","USE_SPOOLDEV","USE_WILDCARD","_win32_use_info_1_str","lmuse/LPUSE_INFO_1","lmuse/PUSE_INFO_1","lmuse/USE_INFO_1","netmgmt.use_info_1_str"]
 old-location: netmgmt\use_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: b9f680b8-b56a-42be-9af1-d7b18328ded4
 ms.date: 12/05/2018
 ms.keywords: '*LPUSE_INFO_1, *PUSE_INFO_1, LPUSE_INFO_1, LPUSE_INFO_1 structure pointer [Network Management], PUSE_INFO_1, PUSE_INFO_1 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_1, USE_INFO_1 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _win32_use_info_1_str, lmuse/LPUSE_INFO_1, lmuse/PUSE_INFO_1, lmuse/USE_INFO_1, netmgmt.use_info_1_str'
-f1_keywords:
-- lmuse/USE_INFO_1
-dev_langs:
-- c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmuse.h
-api_name:
-- USE_INFO_1
 targetos: Windows
 req.typenames: USE_INFO_1, *PUSE_INFO_1, *LPUSE_INFO_1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USE_INFO_1
+ - lmuse/_USE_INFO_1
+ - PUSE_INFO_1
+ - lmuse/PUSE_INFO_1
+ - USE_INFO_1
+ - lmuse/USE_INFO_1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmuse.h
+api_name:
+ - USE_INFO_1
 ---
 
 # USE_INFO_1 structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USE_INFO_1</b> structure contains information about the connection between a local device and a shared resource. The information includes connection status and connection type.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ui1_local
 
@@ -65,7 +66,6 @@ Type: <b>LMSTR</b>
 A pointer to a string that contains the local device name (for example, drive E or LPT1) being redirected to the shared resource. The constant DEVLEN specifies the maximum number of characters in the string. This member can be <b>NULL</b>. For more information, see the following Remarks section.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
-
 
 ### -field ui1_remote
 
@@ -76,10 +76,13 @@ A pointer to a string that contains the share name of the remote resource being 
 
 
 
-<pre class="syntax" xml:space="preserve"><code>\\servername\sharename
-</code></pre>
-This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
+``` syntax
+\\servername\sharename
+
+```
+
+This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 ### -field ui1_password
 
@@ -89,13 +92,12 @@ A pointer to a string that contains the password needed to establish a session b
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field ui1_status
 
 Type: <b>DWORD</b>
 
 The status of the connection. This element is not used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. The following values are defined. 
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. The following values are defined. 
 
 
 
@@ -175,8 +177,6 @@ Reconnecting.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ui1_asg_type
 
@@ -198,7 +198,7 @@ The type of remote resource being accessed. This member can be one of the follow
 </td>
 <td width="60%">
 Matches the type of the server's shared resources. Wildcards can be used only with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function, and only when the <b>ui1_local</b> member is <b>NULL</b>. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function, and only when the <b>ui1_local</b> member is <b>NULL</b>. For more information, see the following Remarks section.
 
 </td>
 </tr>
@@ -233,16 +233,13 @@ Interprocess communication (IPC).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ui1_refcount
 
 Type: <b>DWORD</b>
 
 The number of files, directories, and other processes that are open on the remote resource. This element is not used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
-
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
 
 ### -field ui1_usecount
 
@@ -250,44 +247,31 @@ Type: <b>DWORD</b>
 
 The number of  explicit connections (redirection with a local device name) or implicit UNC connections (redirection without a local device name) that are established with the resource.
 
-
 ## -remarks
 
-
-
 Specifying a <b>ui1_local</b> member that is <b>NULL</b> requests authentication with the server without redirecting a drive letter or a device. Future redirections involving the server while the same connection is in effect use the password specified by the <b>ui1_password</b> member in the initial call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
-
-
-
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function.
 
 ## -see-also
 
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>

@@ -2,15 +2,12 @@
 UID: NS:winddi._FD_DEVICEMETRICS
 title: FD_DEVICEMETRICS (winddi.h)
 description: The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the iMode parameter of the driver-supplied DrvQueryFontData function is QFD_MAXEXTENTS.
+helpviewer_keywords: ["*PFD_DEVICEMETRICS","FD_DEVICEMETRICS","FD_DEVICEMETRICS structure [Display Devices]","PFD_DEVICEMETRICS","PFD_DEVICEMETRICS structure pointer [Display Devices]","display.fd_devicemetrics","grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml","winddi/FD_DEVICEMETRICS","winddi/PFD_DEVICEMETRICS"]
 old-location: display\fd_devicemetrics.htm
 tech.root: display
 ms.assetid: c6518325-7efc-46dd-831b-7cb7d2f37ddb
 ms.date: 12/05/2018
 ms.keywords: '*PFD_DEVICEMETRICS, FD_DEVICEMETRICS, FD_DEVICEMETRICS structure [Display Devices], PFD_DEVICEMETRICS, PFD_DEVICEMETRICS structure pointer [Display Devices], display.fd_devicemetrics, grstrcts_56d66436-e791-4e40-8764-8a15ae4b6853.xml, winddi/FD_DEVICEMETRICS, winddi/PFD_DEVICEMETRICS'
-f1_keywords:
-- winddi/FD_DEVICEMETRICS
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winddi.h
-api_name:
-- FD_DEVICEMETRICS
 targetos: Windows
 req.typenames: FD_DEVICEMETRICS, *PFD_DEVICEMETRICS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FD_DEVICEMETRICS
+ - winddi/_FD_DEVICEMETRICS
+ - PFD_DEVICEMETRICS
+ - winddi/PFD_DEVICEMETRICS
+ - FD_DEVICEMETRICS
+ - winddi/FD_DEVICEMETRICS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winddi.h
+api_name:
+ - FD_DEVICEMETRICS
 ---
 
 # FD_DEVICEMETRICS structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the <i>iMode</i> parameter of the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a> function is QFD_MAXEXTENTS.
-
+The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the <i>iMode</i> parameter of the driver-supplied <a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a> function is QFD_MAXEXTENTS.
 
 ## -struct-fields
-
-
-
 
 ### -field flRealizedType
 
@@ -101,131 +102,102 @@ This flag can be set only if FDM_TYPE_BM_SIDE_CONST is also set. If set, the fon
 
 If set, the a and c spacing is zero for all glyphs.
 
-
 ### -field pteBase
 
-Specifies a POINTE structure that contains the notional space unit vector along the font's baseline, transformed to device space and then normalized. For more information, see POINTE in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
-
+Specifies a POINTE structure that contains the notional space unit vector along the font's baseline, transformed to device space and then normalized. For more information, see POINTE in <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ### -field pteSide
 
 Specifies POINTE structure that contains a notional space unit vector perpendicular to the font's baseline in the direction of the ascender, transformed to device space and then normalized. In notional space, baseline and ascender directions must be orthogonal, but in device space, <b>pteBase</b> and <b>pteSide</b> do not have to be orthogonal, depending on the Notional to Device space transform.
 
-
 ### -field lD
 
 Specifies the advance width if the font is a fixed pitch (monospaced) font. If the font is a variable pitch font, this member should be set to zero.
 
-
 ### -field fxMaxAscender
 
-Specifies the hinted maximum ascender height for this font instance, measured along <b>pteSide</b>. See the FIX data type in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
-
+Specifies the hinted maximum ascender height for this font instance, measured along <b>pteSide</b>. See the FIX data type in <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ### -field fxMaxDescender
 
-Specifies the hinted maximum descender height for this font instance, measured along <b>pteSide</b>. See the FIX data type in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
-
+Specifies the hinted maximum descender height for this font instance, measured along <b>pteSide</b>. See the FIX data type in <a href="/windows-hardware/drivers/display/gdi-data-types">GDI Data Types</a>.
 
 ### -field ptlUnderline1
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the hinted underline position for this font instance, relative to the glyph's character origin.
-
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that contains the hinted underline position for this font instance, relative to the glyph's character origin.
 
 ### -field ptlStrikeOut
 
 Specifies a POINTL structure that contains the hinted strikeout position for this font instance, relative to the glyph's character origin.
 
-
 ### -field ptlULThickness
 
 Specifies a POINTL structure that contains the hinted underline thickness for this font instance. This vector defines the side of the rectangle used to draw the underline. The base is implicitly defined by the baseline.
-
 
 ### -field ptlSOThickness
 
 Specifies a POINTL structure that contains the hinted strikeout thickness for this font instance. This vector defines the side of the rectangle used to draw the strikeout. The base is implicitly defined by the baseline.
 
-
 ### -field cxMax
 
 Specifies the hinted maximum glyph bitmap width, in pixels, for this font instance. Not used for outlines.
-
 
 ### -field cyMax
 
 Specifies the hinted maximum glyph bitmap height, in pixels, for this font instance. Not used for outlines.
 
-
 ### -field cjGlyphMax
 
-Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure needed to store any of the font's glyphs.
-
+Specifies the hinted maximum size of a glyph, in bytes, for this font instance. This value is the maximum size of the <a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a> structure needed to store any of the font's glyphs.
 
 ### -field fdxQuantized
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>.
-
+Specifies an <a href="/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a> structure. The font driver fills in the font transformation that is actually used in the realization of the font. This may differ from the transformation requested by GDI as defined by <a href="/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>.
 
 ### -field lNonLinearExtLeading
 
 Is the nonlinear external leading in 28.4 device units.
 
-
 ### -field lNonLinearIntLeading
 
 Is the nonlinear internal leading in 28.4 device units.
-
 
 ### -field lNonLinearMaxCharWidth
 
 Is the nonlinear maximum character increment in 28.4 device units.
 
-
 ### -field lNonLinearAvgCharWidth
 
 Is the nonlinear average character width in 28.4 device units.
-
 
 ### -field lMinA
 
 Is the largest negative A space for this font realization, specified as an absolute value.
 
-
 ### -field lMinC
 
 Is the largest negative C space for this font realization, specified as an absolute value.
-
 
 ### -field lMinD
 
 Is the smallest nonzero character width for this font realization.
 
-
 ### -field alReserved
 
 Is reserved and should be ignored by the font provider.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fd_xform">FD_XFORM</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>

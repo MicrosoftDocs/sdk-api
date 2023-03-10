@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFSample.GetSampleFlags
 title: IMFSample::GetSampleFlags (mfobjects.h)
 description: Retrieves flags associated with the sample.Currently no flags are defined.
+helpviewer_keywords: ["98e3ed97-cefc-40c2-acda-8b3da74d0d03","GetSampleFlags","GetSampleFlags method [Media Foundation]","GetSampleFlags method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","GetSampleFlags method","IMFSample.GetSampleFlags","IMFSample::GetSampleFlags","mf.imfsample_getsampleflags","mfobjects/IMFSample::GetSampleFlags"]
 old-location: mf\imfsample_getsampleflags.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 98e3ed97-cefc-40c2-acda-8b3da74d0d03
 ms.date: 12/05/2018
 ms.keywords: 98e3ed97-cefc-40c2-acda-8b3da74d0d03, GetSampleFlags, GetSampleFlags method [Media Foundation], GetSampleFlags method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleFlags method, IMFSample.GetSampleFlags, IMFSample::GetSampleFlags, mf.imfsample_getsampleflags, mfobjects/IMFSample::GetSampleFlags
-f1_keywords:
-- mfobjects/IMFSample.GetSampleFlags
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSample.GetSampleFlags
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSample::GetSampleFlags
+ - mfobjects/IMFSample::GetSampleFlags
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSample.GetSampleFlags
 ---
 
 # IMFSample::GetSampleFlags
@@ -49,28 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Retrieves flags associated with the sample.
 
-Currently no flags are defined. Instead, metadata for samples is defined using attributes. To get attibutes from a sample, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> inherits. For a list of sample attributes, see <a href="https://docs.microsoft.com/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
-
-
-
+Currently no flags are defined. Instead, metadata for samples is defined using attributes. To get attributes from a sample, use the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> inherits. For a list of sample attributes, see <a href="/windows/desktop/medfound/sample-attributes">Sample Attributes</a>.
 
 ## -parameters
-
-
-
 
 ### -param pdwSampleFlags [out]
 
 Receives the value zero.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,14 +82,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -107,19 +92,10 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>

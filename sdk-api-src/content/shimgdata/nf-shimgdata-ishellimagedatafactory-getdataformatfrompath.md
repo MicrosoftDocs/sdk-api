@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageDataFactory.GetDataFormatFromPath
 title: IShellImageDataFactory::GetDataFormatFromPath (shimgdata.h)
 description: Determines a file's format based on its extension.
+helpviewer_keywords: ["GetDataFormatFromPath","GetDataFormatFromPath method [Windows Shell]","GetDataFormatFromPath method [Windows Shell]","IShellImageDataFactory interface","IShellImageDataFactory interface [Windows Shell]","GetDataFormatFromPath method","IShellImageDataFactory.GetDataFormatFromPath","IShellImageDataFactory::GetDataFormatFromPath","_shell_IShellImageDataFactory_GetDataFormatFromPath","shell.IShellImageDataFactory_GetDataFormatFromPath","shimgdata/IShellImageDataFactory::GetDataFormatFromPath"]
 old-location: shell\IShellImageDataFactory_GetDataFormatFromPath.htm
 tech.root: shell
 ms.assetid: ca6aa555-5997-43c6-84d1-35a24301d0a2
 ms.date: 12/05/2018
 ms.keywords: GetDataFormatFromPath, GetDataFormatFromPath method [Windows Shell], GetDataFormatFromPath method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],GetDataFormatFromPath method, IShellImageDataFactory.GetDataFormatFromPath, IShellImageDataFactory::GetDataFormatFromPath, _shell_IShellImageDataFactory_GetDataFormatFromPath, shell.IShellImageDataFactory_GetDataFormatFromPath, shimgdata/IShellImageDataFactory::GetDataFormatFromPath
-f1_keywords:
-- shimgdata/IShellImageDataFactory.GetDataFormatFromPath
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageDataFactory.GetDataFormatFromPath
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageDataFactory::GetDataFormatFromPath
+ - shimgdata/IShellImageDataFactory::GetDataFormatFromPath
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageDataFactory.GetDataFormatFromPath
 ---
 
 # IShellImageDataFactory::GetDataFormatFromPath
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines a file's format based on its extension.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPath [in]
 
@@ -63,17 +60,13 @@ Type: <b>LPCWSTR</b>
 
 A path to the file.
 
-
 ### -param pDataFormat [out]
 
 Type: <b>GUID*</b>
 
 A pointer to a GUID identifying the image format of the file.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -107,16 +100,8 @@ The internal object cannot be instantiated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>IShellImageDataFactory::GetDataFormatFromPath</b> should only be used to determine whether data can be saved to a particular format on the current system.
-
-
 

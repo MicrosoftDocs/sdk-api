@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IFileOperation.Unadvise
 title: IFileOperation::Unadvise (shobjidl_core.h)
 description: Terminates an advisory connection previously established through IFileOperation::Advise.
+helpviewer_keywords: ["IFileOperation interface [Windows Shell]","Unadvise method","IFileOperation.Unadvise","IFileOperation::Unadvise","Unadvise","Unadvise method [Windows Shell]","Unadvise method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_Unadvise","shell.IFileOperation_Unadvise","shobjidl_core/IFileOperation::Unadvise"]
 old-location: shell\IFileOperation_Unadvise.htm
 tech.root: shell
 ms.assetid: 684b3e94-50b9-465e-b4c3-b244fc7209f5
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],Unadvise method, IFileOperation.Unadvise, IFileOperation::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileOperation interface, _shell_IFileOperation_Unadvise, shell.IFileOperation_Unadvise, shobjidl_core/IFileOperation::Unadvise
-f1_keywords:
-- shobjidl_core/IFileOperation.Unadvise
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFileOperation.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFileOperation::Unadvise
+ - shobjidl_core/IFileOperation::Unadvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFileOperation.Unadvise
 ---
 
 # IFileOperation::Unadvise
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-Terminates an advisory connection previously established through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a>.
-
+Terminates an advisory connection previously established through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a>.
 
 ## -parameters
-
-
-
 
 ### -param dwCookie [in]
 
 Type: <b>DWORD</b>
 
-The connection token that identifies the connection to delete. This value was originally retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">Advise</a> when the connection was made.
-
+The connection token that identifies the connection to delete. This value was originally retrieved by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">Advise</a> when the connection was made.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -100,22 +94,11 @@ The value in <i>dwCookie</i> does not represent a valid connection.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a>

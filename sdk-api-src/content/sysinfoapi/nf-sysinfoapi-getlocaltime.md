@@ -2,15 +2,12 @@
 UID: NF:sysinfoapi.GetLocalTime
 title: GetLocalTime function (sysinfoapi.h)
 description: Retrieves the current local date and time.
+helpviewer_keywords: ["GetLocalTime","GetLocalTime function","_win32_getlocaltime","base.getlocaltime","sysinfoapi/GetLocalTime"]
 old-location: base\getlocaltime.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: a63fcd36-de48-4437-a823-837884cc2bf9
 ms.date: 12/05/2018
 ms.keywords: GetLocalTime, GetLocalTime function, _win32_getlocaltime, base.getlocaltime, sysinfoapi/GetLocalTime
-f1_keywords:
-- sysinfoapi/GetLocalTime
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GetLocalTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetLocalTime
+ - sysinfoapi/GetLocalTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GetLocalTime
 ---
 
 # GetLocalTime function
@@ -56,71 +58,45 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current local date and time.
 
-To retrieve the current date and time in Coordinated Universal Time (UTC) format, use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a> function.
-
+To retrieve the current date and time in Coordinated Universal Time (UTC) format, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a> function.
 
 ## -parameters
-
-
-
 
 ### -param lpSystemTime [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure to receive the current local date and time.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure to receive the current local date and time.
 
 ## -remarks
 
-
-
-To set the current local date and time, use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setlocaltime">SetLocalTime</a> function.
+To set the current local date and time, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setlocaltime">SetLocalTime</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a>
+<a href="/windows/desktop/SysInfo/local-time">Local Time</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/local-time">Local Time</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setlocaltime">SetLocalTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setlocaltime">SetLocalTime</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SysInfo/time-functions">Time Functions</a>

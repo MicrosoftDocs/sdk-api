@@ -2,15 +2,12 @@
 UID: NN:d3d12.ID3D12CommandAllocator
 title: ID3D12CommandAllocator (d3d12.h)
 description: Represents the allocations of storage for graphics processing unit (GPU) commands.
+helpviewer_keywords: ["ID3D12CommandAllocator","ID3D12CommandAllocator interface","ID3D12CommandAllocator interface","described","d3d12/ID3D12CommandAllocator","direct3d12.id3d12commandallocator"]
 old-location: direct3d12\id3d12commandallocator.htm
 tech.root: direct3d12
 ms.assetid: ADC494E6-1698-415D-90C5-F99FCD4C5309
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandAllocator, ID3D12CommandAllocator interface, ID3D12CommandAllocator interface,described, d3d12/ID3D12CommandAllocator, direct3d12.id3d12commandallocator
-f1_keywords:
-- d3d12/ID3D12CommandAllocator
-dev_langs:
-- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D3D12.dll
-api_name:
-- ID3D12CommandAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID3D12CommandAllocator
+ - d3d12/ID3D12CommandAllocator
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D3D12.dll
+api_name:
+ - ID3D12CommandAllocator
 ---
 
 # ID3D12CommandAllocator interface
@@ -48,49 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the allocations of storage for graphics processing unit (GPU) commands.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12CommandAllocator</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12CommandAllocator</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ID3D12CommandAllocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset">Reset</a>
-</td>
-<td align="left" width="63%">
-Indicates to re-use the memory that is associated with the command allocator.
-
-</td>
-</tr>
-</table> 
-
+The <b>ID3D12CommandAllocator</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12CommandAllocator</b> also has these types of members:
 
 ## -remarks
 
-
-
-Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator">ID3D12Device::CreateCommandAllocator</a> to create a command allocator object. 
+Use <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator">ID3D12Device::CreateCommandAllocator</a> to create a command allocator object. 
 
 The command allocator object corresponds to the underlying allocations in which GPU commands are stored.  The command allocator object applies to both direct command lists and bundles.  You must use a command allocator object in a DirectX 12 app.
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandAllocator</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandAllocator</b> as follows:
         
 
 Header file declarations.
@@ -164,23 +139,14 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>

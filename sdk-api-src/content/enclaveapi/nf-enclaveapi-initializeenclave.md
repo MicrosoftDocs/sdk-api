@@ -2,15 +2,12 @@
 UID: NF:enclaveapi.InitializeEnclave
 title: InitializeEnclave function (enclaveapi.h)
 description: Initializes an enclave that you created and loaded with data.
+helpviewer_keywords: ["InitializeEnclave","InitializeEnclave function","base.initializeenclave","enclaveapi/InitializeEnclave"]
 old-location: base\initializeenclave.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
-ms.date: 12/05/2018
+ms.date: 5/18/2022
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
-f1_keywords:
-- enclaveapi/InitializeEnclave
-dev_langs:
-- c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -28,78 +25,70 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- api-ms-win-core-enclave-l1-1-0.dll
-- kernel32.dll
-- KernelBase.dll
-- API-MS-Win-Core-Enclave-L1-1-0.dll
-api_name:
-- InitializeEnclave
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InitializeEnclave
+ - enclaveapi/InitializeEnclave
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - api-ms-win-core-enclave-l1-1-0.dll
+ - kernel32.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Enclave-L1-1-0.dll
+api_name:
+ - InitializeEnclave
 ---
 
 # InitializeEnclave function
 
-
 ## -description
-
 
 Initializes an enclave that you created and loaded with data.
 
-
 ## -parameters
-
-
-
 
 ### -param hProcess [in]
 
 A handle to the process for which the enclave was created.
 
-
 ### -param lpAddress [in]
 
 Any address within the enclave.
-
 
 ### -param lpEnclaveInformation [in]
 
 A pointer to architecture-specific information to use to initialize the enclave.
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a> structure.
+For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, specify a pointer to an [ENCLAVE_INIT_INFO_SGX](/windows/win32/api/winnt/ns-winnt-enclave_init_info_sgx) structure.
 
-For the <b>ENCLAVE_TYPE_VBS</b> enclave type, specify a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_vbs">ENCLAVE_INIT_INFO_VBS</a> structure.
-
+For the **ENCLAVE_TYPE_VBS** enclave type, specify a pointer to an [ENCLAVE_INIT_INFO_VBS](/windows/desktop/api/winnt/ns-winnt-enclave_init_info_vbs) structure.
 
 ### -param dwInfoLength [in]
 
-The length of the structure that the <i>lpEnclaveInformation</i> parameter points to, in bytes. For the <b>ENCLAVE_TYPE_SGX</b> enclave type, this value must be 4096. For the <b>ENCLAVE_TYPE_VBS</b> enclave type, this value must be <code>sizeof(ENCLAVE_INIT_INFO_VBS)</code>, which is 8 bytes.
-
+The length of the structure that the _lpEnclaveInformation_ parameter points to, in bytes. For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, this value must be 4096. For the **ENCLAVE_TYPE_VBS** enclave type, this value must be `sizeof(ENCLAVE_INIT_INFO_VBS)`, which is 8 bytes.
 
 ### -param lpEnclaveError [in]
 
 An optional pointer to  a variable that receives an enclave error code that is architecture-specific.
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, the <i>lpEnclaveError</i> parameter contains the error that the EINIT instruction generated if the function fails and .<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_ENCLAVE_FAILURE</b>.
+For the **ENCLAVE_TYPE_SGX** and **ENCLAVE_TYPE_SGX2** enclave types, the _lpEnclaveError_ parameter contains the error that the EINIT instruction generated if the function fails and [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR_ENCLAVE_FAILURE**.
 
-For the <b>ENCLAVE_TYPE_VBS</b> enclave type, the <i>lpEnclaveError</i> parameter  is not used.
-
+For the **ENCLAVE_TYPE_VBS** enclave type, the _lpEnclaveError_ parameter  is not used.
 
 ## -returns
 
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>. The following error codes also apply for this function.
+For a list of common error codes, see [System Error Codes](/windows/win32/Debug/system-error-codes). The following error codes also apply for this function.
 
 <table>
 <tr>
@@ -113,9 +102,9 @@ For a list of common error codes, see <a href="https://docs.microsoft.com/window
 </dl>
 </td>
 <td width="60%">
-An failure specific to the underlying enclave architecture occurred. The value for the  <i>lpEnclaveError</i> parameter contains the architecture-specific error. 
+An failure specific to the underlying enclave architecture occurred. The value for the <i>lpEnclaveError</i> parameter contains the architecture-specific error.
 
-For the <b>ENCLAVE_TYPE_SGX</b> enclave type, the EINIT instruction that the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a> structure specified generated an error. The value of the <i>lpEnclaveError</i> parameter contains the error that the instruction generated.
+For the <b>ENCLAVE_TYPE_SGX</b> and <b>ENCLAVE_TYPE_SGX2</b> enclave types, the EINIT instruction that the <a href="/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a> structure specified generated an error. The value of the <i>lpEnclaveError</i> parameter contains the error that the instruction generated.
 
 </td>
 </tr>
@@ -142,54 +131,27 @@ The processor was not able to initialize the enclave in a timely fashion. Try  t
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To create an enclave, use the [CreateEnclave](nf-enclaveapi-createenclave.md) function. To load data into the enclave before you initialize it, use the [LoadEnclaveData](nf-enclaveapi-loadenclavedata.md) function.
 
+**Windows 10, version 1709 and later and Windows 11:** To delete the enclave when you finish using it, call [DeleteEnclave](nf-enclaveapi-deleteenclave.md). You cannot delete a VBS enclave by calling the [VirtualFree](../memoryapi/nf-memoryapi-virtualfree.md) or [VirtualFreeEx](../memoryapi/nf-memoryapi-virtualfreeex.md) function. You can still delete an SGX enclave by calling **VirtualFree** or **VirtualFreeEx**.
 
-To create an enclave, use the <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a> function. To load data into the enclave before you initialize it, use the <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata">LoadEnclaveData</a> function.
+**Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:** To delete the enclave when you finish using it, call the [VirtualFree](../memoryapi/nf-memoryapi-virtualfree.md) or [VirtualFreeEx](../memoryapi/nf-memoryapi-virtualfreeex.md) function and specify the following values:
 
-<b>Windows 10, version 1709:  </b>To delete the enclave when you finish using it, call <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-deleteenclave">DeleteEnclave</a>. You cannot delete a VBS enclave by calling the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> or <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function. You can still delete an SGX enclave by calling <b>VirtualFree</b> or <b>VirtualFreeEx</b>.
-
-<b>Windows 10, version 1507, Windows 10, version 1511, Windows 10, version 1607 and Windows 10, version 1703:  </b>To delete the enclave when you finish using it, call the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a> or <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a> function and specify the following values:
-
-<ul>
-<li>The base address of the enclave for the <i>lpAddress</i> parameter.</li>
-<li>0 for the <i>dwSize</i> parameter.</li>
-<li><b>MEM_RELEASE</b> for the <i>dwFreeType</i> parameter. The <b>MEM_DECOMMIT</b> value is not supported for enclaves.</li>
-</ul>
-
-
-
-
+- The base address of the enclave for the _lpAddress_ parameter.
+- 0 for the _dwSize_ parameter.
+- **MEM_RELEASE** for the _dwFreeType_ parameter.
 
 ## -see-also
 
+[CreateEnclave](nf-enclaveapi-createenclave.md)
 
+[ENCLAVE_INIT_INFO_SGX](../winnt/ns-winnt-enclave_init_info_sgx.md)
 
+[LoadEnclaveData](nf-enclaveapi-loadenclavedata.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave">CreateEnclave</a>
+[VirtualFree](../memoryapi/nf-memoryapi-virtualfree.md)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-enclave_init_info_sgx">ENCLAVE_INIT_INFO_SGX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata">LoadEnclaveData</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfreeex">VirtualFreeEx</a>
- 
-
- 
-
+[VirtualFreeEx](../memoryapi/nf-memoryapi-virtualfreeex.md)

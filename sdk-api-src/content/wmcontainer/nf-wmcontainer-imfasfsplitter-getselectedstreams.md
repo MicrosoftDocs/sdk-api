@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFSplitter.GetSelectedStreams
 title: IMFASFSplitter::GetSelectedStreams (wmcontainer.h)
 description: Gets a list of currently selected streams.
+helpviewer_keywords: ["GetSelectedStreams","GetSelectedStreams method [Media Foundation]","GetSelectedStreams method [Media Foundation]","IMFASFSplitter interface","IMFASFSplitter interface [Media Foundation]","GetSelectedStreams method","IMFASFSplitter.GetSelectedStreams","IMFASFSplitter::GetSelectedStreams","f2c12e45-f320-43e0-abf1-36993dfed32d","mf.imfasfsplitter_getselectedstreams","wmcontainer/IMFASFSplitter::GetSelectedStreams"]
 old-location: mf\imfasfsplitter_getselectedstreams.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
 ms.date: 12/05/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
-f1_keywords:
-- wmcontainer/IMFASFSplitter.GetSelectedStreams
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFSplitter.GetSelectedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFSplitter::GetSelectedStreams
+ - wmcontainer/IMFASFSplitter::GetSelectedStreams
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFSplitter.GetSelectedStreams
 ---
 
 # IMFASFSplitter::GetSelectedStreams
@@ -49,21 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of currently selected streams.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pwStreamNumbers [out]
 
 The address of an array of <b>WORDs</b>. This array receives the stream numbers of the selected streams.
           This parameter can be <b>NULL</b>.
-
 
 ### -param pwNumStreams [in, out]
 
@@ -71,10 +66,7 @@ On input, points to a variable that contains the number of elements in the <i>pw
 
 On output, receives the number of elements that were copied into <i>pwStreamNumbers</i>. Each element is the identifier of a selected stream.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -119,14 +111,8 @@ The <i>pwStreamNumbers</i> array is smaller than the number of selected streams.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 To get the number of selected streams, set <i>pwStreamNumbers</i> to <b>NULL</b>. The method will return <b>MF_E_BUFFERTOSMALL</b> but will also set the value of <code>*pwNumStreams</code> equal  to the number of selected streams. Then allocate an array of that size and call the method again, passing the array in the <i>pwStreamNumbers</i> parameter.
 
@@ -168,23 +154,12 @@ Alternatively, you can allocate an array that is equal to the total number of st
 
 Before calling this method, initialize <code>*pwNumStreams</code>  to the number of elements in <i>pwStreamNumbers</i>. If <i>pwStreamNumbers</i> is <b>NULL</b>, set <code>*pwNumStreams</code> to zero.
 
-By default, no streams are selected by the splitter. Select streams by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-selectstreams">IMFASFSplitter::SelectStreams</a> method.
-      
-
-
-
+By default, no streams are selected by the splitter. Select streams by calling the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-selectstreams">IMFASFSplitter::SelectStreams</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-splitter">ASF Splitter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>

@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfThreadMgr2.SuspendKeystrokeHandling
 title: ITfThreadMgr2::SuspendKeystrokeHandling (msctf.h)
 description: Suspends handling keystrokes.
+helpviewer_keywords: ["ITfThreadMgr2 interface [Text Services Framework]","SuspendKeystrokeHandling method","ITfThreadMgr2.SuspendKeystrokeHandling","ITfThreadMgr2::SuspendKeystrokeHandling","SuspendKeystrokeHandling","SuspendKeystrokeHandling method [Text Services Framework]","SuspendKeystrokeHandling method [Text Services Framework]","ITfThreadMgr2 interface","msctf/ITfThreadMgr2::SuspendKeystrokeHandling","tsf.itfthreadmgr2_suspendkeystrokehandling"]
 old-location: tsf\itfthreadmgr2_suspendkeystrokehandling.htm
 tech.root: TSF
 ms.assetid: 98E0D017-F0A2-4F80-9CD3-16D22170BFDF
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SuspendKeystrokeHandling method, ITfThreadMgr2.SuspendKeystrokeHandling, ITfThreadMgr2::SuspendKeystrokeHandling, SuspendKeystrokeHandling, SuspendKeystrokeHandling method [Text Services Framework], SuspendKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SuspendKeystrokeHandling, tsf.itfthreadmgr2_suspendkeystrokehandling
-f1_keywords:
-- msctf/ITfThreadMgr2.SuspendKeystrokeHandling
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.h
-api_name:
-- ITfThreadMgr2.SuspendKeystrokeHandling
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITfThreadMgr2::SuspendKeystrokeHandling
+ - msctf/ITfThreadMgr2::SuspendKeystrokeHandling
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.h
+api_name:
+ - ITfThreadMgr2.SuspendKeystrokeHandling
 ---
 
 # ITfThreadMgr2::SuspendKeystrokeHandling
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Suspends handling keystrokes.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -82,18 +75,7 @@ The method was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

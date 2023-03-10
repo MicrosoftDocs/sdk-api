@@ -2,15 +2,12 @@
 UID: NF:msports.ComDBResizeDatabase
 title: ComDBResizeDatabase function (msports.h)
 description: ComDBResizeDatabase resizes the COM port database.
+helpviewer_keywords: ["ComDBResizeDatabase","ComDBResizeDatabase function [Serial Ports]","comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml","msports/ComDBResizeDatabase","serports.comdbresizedatabase"]
 old-location: serports\comdbresizedatabase.htm
 tech.root: serports
 ms.assetid: fef761be-57c5-4188-8de9-dbca31d91870
 ms.date: 12/05/2018
 ms.keywords: ComDBResizeDatabase, ComDBResizeDatabase function [Serial Ports], comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml, msports/ComDBResizeDatabase, serports.comdbresizedatabase
-f1_keywords:
-- msports/ComDBResizeDatabase
-dev_langs:
-- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msports.dll
-api_name:
-- ComDBResizeDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ComDBResizeDatabase
+ - msports/ComDBResizeDatabase
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msports.dll
+api_name:
+ - ComDBResizeDatabase
 ---
 
 # ComDBResizeDatabase function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>ComDBResizeDatabase</b> resizes the COM port database.
-
 
 ## -parameters
 
-
-
-
 ### -param HComDB [in]
 
-Handle to the COM port database that was returned by <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
-
+Handle to the COM port database that was returned by <a href="/windows/desktop/api/msports/nf-msports-comdbopen">ComDBOpen</a>.
 
 ### -param NewSize [in]
 
 Specifies a new size for the COM port database, where the database size is the number of port numbers currently arbitrated in the database. This value must be an integer multiple of 1024, must be greater than the current size, and must be less than or equal to COMDB_MAX_PORTS_ARBITRATED.
 
-
 ## -returns
-
-
 
 <b>ComDBResizeDatabase</b> returns one of the following status values.
 
@@ -134,31 +127,15 @@ The routine could not access the database. To get extended error information, ca
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Use <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbgetcurrentportusage">ComDBGetCurrentPortUsage</a> to obtain the current database size.
+Use <a href="/windows/desktop/api/msports/nf-msports-comdbgetcurrentportusage">ComDBGetCurrentPortUsage</a> to obtain the current database size.
 
 <b>ComDBResizeDatabase</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Resizing the COM Port Database</a>.
-
-
-
+For more information, see <a href="/previous-versions/ff546481(v=vs.85)">Resizing the COM Port Database</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-comdbgetcurrentportusage">ComDBGetCurrentPortUsage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msports/nf-msports-comdbgetcurrentportusage">ComDBGetCurrentPortUsage</a>

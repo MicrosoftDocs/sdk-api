@@ -2,15 +2,12 @@
 UID: NF:portabledeviceapi.IPortableDeviceServiceManager.GetDeviceForService
 title: IPortableDeviceServiceManager::GetDeviceForService (portabledeviceapi.h)
 description: Retrieves the device associated with the specified service.
+helpviewer_keywords: ["GetDeviceForService","GetDeviceForService method [Windows Portable Devices SDK]","GetDeviceForService method [Windows Portable Devices SDK]","IPortableDeviceServiceManager interface","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","GetDeviceForService method","IPortableDeviceServiceManager.GetDeviceForService","IPortableDeviceServiceManager::GetDeviceForService","portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService","wpdsdk.iportabledeviceservicemanager_getdeviceforservice"]
 old-location: wpdsdk\iportabledeviceservicemanager_getdeviceforservice.htm
-tech.root: wpd_sdk
+tech.root: wpdsdk
 ms.assetid: 2cdb03fb-8cb2-4eee-af90-3aec0a055fc5
 ms.date: 12/05/2018
 ms.keywords: GetDeviceForService, GetDeviceForService method [Windows Portable Devices SDK], GetDeviceForService method [Windows Portable Devices SDK],IPortableDeviceServiceManager interface, IPortableDeviceServiceManager interface [Windows Portable Devices SDK],GetDeviceForService method, IPortableDeviceServiceManager.GetDeviceForService, IPortableDeviceServiceManager::GetDeviceForService, portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService, wpdsdk.iportabledeviceservicemanager_getdeviceforservice
-f1_keywords:
-- portabledeviceapi/IPortableDeviceServiceManager.GetDeviceForService
-dev_langs:
-- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PortableDeviceAPI.h
-api_name:
-- IPortableDeviceServiceManager.GetDeviceForService
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPortableDeviceServiceManager::GetDeviceForService
+ - portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PortableDeviceAPI.h
+api_name:
+ - IPortableDeviceServiceManager.GetDeviceForService
 ---
 
 # IPortableDeviceServiceManager::GetDeviceForService
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetDeviceForService</b> method retrieves the device associated with the specified service.
 
-
 ## -parameters
-
-
-
 
 ### -param pszPnPServiceID [in]
 
 The Plug and Play (PnP) identifier of the service.
 
-
 ### -param ppszPnPDeviceID [out]
 
 The retrieved PnP identifier of the device associated with the service.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -102,29 +95,13 @@ An invalid pointer was supplied.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Neither the <i>pszPnPServiceID</i> parameter nor the <i>pszPnPDeviceID</i> parameter can be <b>NULL</b>.
 
 An application can retrieve a PnP service identifier by calling the <b>GetDeviceServices</b> method.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemanager">IPortableDeviceServiceManager Interface</a>

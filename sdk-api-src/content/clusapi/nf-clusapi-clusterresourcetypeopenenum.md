@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterResourceTypeOpenEnum
 title: ClusterResourceTypeOpenEnum function (clusapi.h)
 description: Opens an enumerator for iterating through a resource type's possible owner nodes or resources.
+helpviewer_keywords: ["CLUSTER_RESOURCE_TYPE_ENUM_ALL","CLUSTER_RESOURCE_TYPE_ENUM_NODES","CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES","ClusterResourceTypeOpenEnum","ClusterResourceTypeOpenEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM","PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM function [Failover Cluster]","_wolf_clusterresourcetypeopenenum","clusapi/ClusterResourceTypeOpenEnum","clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM","mscs.clusterresourcetypeopenenum"]
 old-location: mscs\clusterresourcetypeopenenum.htm
 tech.root: MsCS
 ms.assetid: fa05875a-26c7-401d-ae81-1d204bfd7df1
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_TYPE_ENUM_ALL, CLUSTER_RESOURCE_TYPE_ENUM_NODES, CLUSTER_RESOURCE_TYPE_ENUM_RESOURCES, ClusterResourceTypeOpenEnum, ClusterResourceTypeOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM function [Failover Cluster], _wolf_clusterresourcetypeopenenum, clusapi/ClusterResourceTypeOpenEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM, mscs.clusterresourcetypeopenenum
-f1_keywords:
-- clusapi/ClusterResourceTypeOpenEnum
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
-- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
-api_name:
-- ClusterResourceTypeOpenEnum
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterResourceTypeOpenEnum
+ - clusapi/ClusterResourceTypeOpenEnum
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+ - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+api_name:
+ - ClusterResourceTypeOpenEnum
 ---
 
 # ClusterResourceTypeOpenEnum function
@@ -51,30 +53,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Opens an enumerator for iterating through a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type's</a> 
-    possible owner <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> or resources. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM</b> type defines a pointer to this function.
-
+Opens an enumerator for iterating through a <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type's</a> 
+    possible owner <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> or resources. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM</b> type defines a pointer to this function.
 
 ## -parameters
 
-
-
-
 ### -param hCluster [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">Cluster</a> handle.
-
+<a href="/previous-versions/windows/desktop/mscs/c-gly">Cluster</a> handle.
 
 ### -param lpszResourceTypeName [in]
 
 A null-terminated Unicode string containing the name of the resource type.
 
-
 ### -param dwType [in]
 
-Bitmask describing the type of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> to be 
-       enumerated. The following values of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a> enumeration are valid.
+Bitmask describing the type of <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a> to be 
+       enumerated. The following values of the <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a> enumeration are valid.
 
 
 
@@ -94,39 +89,26 @@ The object is a resource that is an instance of the resource type.
 
 Enumerate both nodes and resources.
 
-
 ## -returns
 
-
-
 If the operation succeeds, the function returns an enumeration handle which can be used in subsequent calls 
-       to <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a>.
+       to <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a>.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
-      error, call the function <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+      error, call the function <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_type_enum">CLUSTER_RESOURCE_TYPE_ENUM</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecloseenum">ClusterResourceTypeCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecloseenum">ClusterResourceTypeCloseEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypeenum">ClusterResourceTypeEnum</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-management-functions">Resource Type Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/resource-type-management-functions">Resource Type Management Functions</a>

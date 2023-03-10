@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize
 title: IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize (imapi2.h)
 description: Retrieves the maximum non-page-aligned transfer size for the device.
+helpviewer_keywords: ["GetMaximumNonPageAlignedTransferSize","GetMaximumNonPageAlignedTransferSize method [IMAPI]","GetMaximumNonPageAlignedTransferSize method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetMaximumNonPageAlignedTransferSize method","IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize","IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize","imapi.idiscrecorder2ex_getmaximumnonpagealignedtransfersize","imapi2/IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize"]
 old-location: imapi\idiscrecorder2ex_getmaximumnonpagealignedtransfersize.htm
 tech.root: imapi
 ms.assetid: dae56eb7-8fd5-40ea-b3de-2f98206a5cb2
 ms.date: 12/05/2018
 ms.keywords: GetMaximumNonPageAlignedTransferSize, GetMaximumNonPageAlignedTransferSize method [IMAPI], GetMaximumNonPageAlignedTransferSize method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetMaximumNonPageAlignedTransferSize method, IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize, IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize, imapi.idiscrecorder2ex_getmaximumnonpagealignedtransfersize, imapi2/IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
-f1_keywords:
-- imapi2/IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
+ - imapi2/IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscRecorder2Ex.GetMaximumNonPageAlignedTransferSize
 ---
 
 # IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the maximum non-page-aligned transfer size for the device. 
-
+Retrieves the maximum non-page-aligned transfer size for the device.
 
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Maximum size, in bytes,  of a non-page-aligned buffer.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -100,31 +94,15 @@ Value: 0x80004005
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This is the maximum buffer size that a device can accept for a single command. Buffers of this size provide the maximum exchange of data. The buffer does not need to begin on a  physical memory page boundary.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumPageAlignedTransferSize</a>

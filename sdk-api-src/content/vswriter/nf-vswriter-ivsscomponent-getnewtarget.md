@@ -2,15 +2,12 @@
 UID: NF:vswriter.IVssComponent.GetNewTarget
 title: IVssComponent::GetNewTarget (vswriter.h)
 description: The GetNewTarget method returns the new file restoration locations for the selected component or component set.
+helpviewer_keywords: ["GetNewTarget","GetNewTarget method [VSS]","GetNewTarget method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetNewTarget method","IVssComponent.GetNewTarget","IVssComponent::GetNewTarget","_win32_ivsscomponent_getnewtarget","base.ivsscomponent_getnewtarget","vswriter/IVssComponent::GetNewTarget"]
 old-location: base\ivsscomponent_getnewtarget.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 21f22fae-2230-418b-8942-754c863a9213
 ms.date: 12/05/2018
 ms.keywords: GetNewTarget, GetNewTarget method [VSS], GetNewTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTarget method, IVssComponent.GetNewTarget, IVssComponent::GetNewTarget, _win32_ivsscomponent_getnewtarget, base.ivsscomponent_getnewtarget, vswriter/IVssComponent::GetNewTarget
-f1_keywords:
-- vswriter/IVssComponent.GetNewTarget
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssComponent.GetNewTarget
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssComponent::GetNewTarget
+ - vswriter/IVssComponent::GetNewTarget
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssComponent.GetNewTarget
 ---
 
 # IVssComponent::GetNewTarget
@@ -49,35 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>GetNewTarget</b> method returns the new file restoration locations for the selected component or component set. (See 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and Logical Paths</a> for information on selecting components.)
+<a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with Selectability and Logical Paths</a> for information on selecting components.)
 
 Either a writer or a requester can call this method.
 
-
 ## -parameters
-
-
-
 
 ### -param iNewTarget [in]
 
 Index number of the new target. The value of this parameter is an integer from 0 
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of new targets associated with a given component. The value of <i>n</i> is returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>.
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>.
 
 ### -param ppFiledesc [out]
 
 Doubly indirect pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the new target restore location information.
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing the new target restore location information.
 
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -127,7 +120,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -143,32 +136,16 @@ The specified item was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 New targets returned by 
 <b>GetNewTarget</b> may be those not only of files in the current component but to files in any of its nonselectable subcomponents.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getnewtargetcount">IVssComponent::GetNewTargetCount</a>

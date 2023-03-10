@@ -2,15 +2,12 @@
 UID: NS:shlobj_core.PROPPRG
 title: PROPPRG (shlobj_core.h)
 description: This structure contains information from a .pif file. It is used by PifMgr_GetProperties.
+helpviewer_keywords: ["*LPPROPPRG","*PPROPPRG","LPPROPPRG","LPPROPPRG structure pointer [Windows Properties]","PRGINIT_AMBIGUOUSPIF","PRGINIT_DEFAULT","PRGINIT_DEFAULTPIF","PRGINIT_INFSETTINGS","PRGINIT_INHIBITPIF","PRGINIT_MAXIMIZED","PRGINIT_MINIMIZED","PRGINIT_NOPIF","PRGINIT_REALMODE","PRGINIT_REALMODESILENT","PRG_CLOSEONEXIT","PRG_DEFAULT","PROPPRG","PROPPRG structure [Windows Properties]","RMOPT_CDROM","RMOPT_DISKLOCK","RMOPT_EMS","RMOPT_MOUSE","RMOPT_NETWORK","RMOPT_PRIVATECFG","RMOPT_VESA","_win32_PROPPRG","properties.PROPPRG","shell.PROPPRG","shlobj_core/LPPROPPRG","shlobj_core/PROPPRG"]
 old-location: properties\PROPPRG.htm
 tech.root: properties
 ms.assetid: 603f990b-efb8-4d72-bc96-27bda4ffcbd8
 ms.date: 12/05/2018
 ms.keywords: '*LPPROPPRG, *PPROPPRG, LPPROPPRG, LPPROPPRG structure pointer [Windows Properties], PRGINIT_AMBIGUOUSPIF, PRGINIT_DEFAULT, PRGINIT_DEFAULTPIF, PRGINIT_INFSETTINGS, PRGINIT_INHIBITPIF, PRGINIT_MAXIMIZED, PRGINIT_MINIMIZED, PRGINIT_NOPIF, PRGINIT_REALMODE, PRGINIT_REALMODESILENT, PRG_CLOSEONEXIT, PRG_DEFAULT, PROPPRG, PROPPRG structure [Windows Properties], RMOPT_CDROM, RMOPT_DISKLOCK, RMOPT_EMS, RMOPT_MOUSE, RMOPT_NETWORK, RMOPT_PRIVATECFG, RMOPT_VESA, _win32_PROPPRG, properties.PROPPRG, shell.PROPPRG, shlobj_core/LPPROPPRG, shlobj_core/PROPPRG'
-f1_keywords:
-- shlobj_core/PROPPRG
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Shlobj_core.h
-api_name:
-- PROPPRG
 targetos: Windows
 req.typenames: PROPPRG
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PROPPRG
+ - shlobj_core/PROPPRG
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Shlobj_core.h
+api_name:
+ - PROPPRG
 ---
 
 # PROPPRG structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-This structure contains information from a .pif file. It is used by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>.
-
+This structure contains information from a .pif file. It is used by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field flPrg
 
@@ -74,7 +71,6 @@ Use the default options.
 #### PRG_CLOSEONEXIT
 
 Close the application on exit.
-
 
 ### -field flPrgInit
 
@@ -142,13 +138,11 @@ A .inf file was found.
 
 The .inf file indicates that a .pif file should not be created.
 
-
 ### -field achTitle
 
 Type: <b>__wchar_t</b>
 
 A null-terminated string that contains the title.
-
 
 ### -field achCmdLine
 
@@ -156,13 +150,11 @@ Type: <b>__wchar_t</b>
 
 A null-terminated string that contains the command line, including arguments.
 
-
 ### -field achWorkDir
 
 Type: <b>__wchar_t</b>
 
 A null-terminated string that contains the working directory.
-
 
 ### -field wHotKey
 
@@ -170,13 +162,11 @@ Type: <b>WORD</b>
 
 The key code of the .pif file's hotkey.
 
-
 ### -field achIconFile
 
 Type: <b>__wchar_t</b>
 
 A null-terminated string that contains the name of the file that contains the icon.
-
 
 ### -field wIconIndex
 
@@ -184,13 +174,11 @@ Type: <b>WORD</b>
 
 The index of the icon in the file specified by <b>achIconFile</b>.
 
-
 ### -field dwEnhModeFlags
 
 Type: <b>DWORD</b>
 
 Reserved.
-
 
 ### -field dwRealModeFlags
 
@@ -240,17 +228,14 @@ Use a private config.sys or autoexec.bat file.
 
 Requires a VESA driver.
 
-
 ### -field achOtherFile
 
 Type: <b>__wchar_t</b>
 
 A null-terminated string that contains the name of the "other" file in the directory.
 
-
 ### -field achPIFFile
 
 Type: <b>__wchar_t</b>
 
 A null-terminated string that contains the name of the .pif file in the directory.
-

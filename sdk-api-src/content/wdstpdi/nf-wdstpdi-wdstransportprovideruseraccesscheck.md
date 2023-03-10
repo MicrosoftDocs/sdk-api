@@ -2,15 +2,12 @@
 UID: NF:wdstpdi.WdsTransportProviderUserAccessCheck
 title: WdsTransportProviderUserAccessCheck function (wdstpdi.h)
 description: Specifies access to a content stream based on a user's token.
+helpviewer_keywords: ["WdsTransportProviderUserAccessCheck","WdsTransportProviderUserAccessCheck callback","WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services]","wds.wdstransportprovideruseraccesscheck","wdstpdi/WdsTransportProviderUserAccessCheck"]
 old-location: wds\wdstransportprovideruseraccesscheck.htm
 tech.root: wds
 ms.assetid: 3ce381d3-d6f6-4f64-a825-116c3cff4747
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderUserAccessCheck, WdsTransportProviderUserAccessCheck callback, WdsTransportProviderUserAccessCheck callback function [Windows Deployment Services], wds.wdstransportprovideruseraccesscheck, wdstpdi/WdsTransportProviderUserAccessCheck
-f1_keywords:
-- wdstpdi/WdsTransportProviderUserAccessCheck
-dev_langs:
-- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdstpdi.h
-api_name:
-- WdsTransportProviderUserAccessCheck
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsTransportProviderUserAccessCheck
+ - wdstpdi/WdsTransportProviderUserAccessCheck
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdstpdi.h
+api_name:
+ - WdsTransportProviderUserAccessCheck
 ---
 
 # WdsTransportProviderUserAccessCheck function
@@ -48,44 +50,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-Specifies access to a content stream based on a user's token. 
-
+Specifies access to a content stream based on a user's token.
 
 ## -parameters
 
-
-
-
 ### -param hContent [in]
 
-Handle to an open content stream to be read. This is the handle return by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
-
+Handle to an open content stream to be read. This is the handle return by the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
 
 ### -param hUserToken [in]
 
 The token of the user whose access should be checked.
 
-
 ### -param pbAccessAllowed [out]
 
 Pointer to a boolean value. The content provider should set this value to <b>TRUE</b> if it allows the user access to the content stream.  The content provider should set this value to <b>FALSE</b> if it does not allow the user access to the content stream.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return is <b>S_OK</b>.
 
-
-
-
 ## -remarks
 
-
-
 This callback is required.
-
-
-

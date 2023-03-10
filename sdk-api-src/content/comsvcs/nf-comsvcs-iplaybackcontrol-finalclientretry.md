@@ -2,15 +2,12 @@
 UID: NF:comsvcs.IPlaybackControl.FinalClientRetry
 title: IPlaybackControl::FinalClientRetry (comsvcs.h)
 description: Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
+helpviewer_keywords: ["FinalClientRetry","FinalClientRetry method [COM+]","FinalClientRetry method [COM+]","IPlaybackControl interface","IPlaybackControl interface [COM+]","FinalClientRetry method","IPlaybackControl.FinalClientRetry","IPlaybackControl::FinalClientRetry","_cos_IPlaybackControl_FinalClientRetry","comsvcs/IPlaybackControl::FinalClientRetry","cos.iplaybackcontrol_finalclientretry"]
 old-location: cos\iplaybackcontrol_finalclientretry.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 3fa51832-0e68-4e76-bbdb-ce54f76fbae6
 ms.date: 12/05/2018
 ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
-f1_keywords:
-- comsvcs/IPlaybackControl.FinalClientRetry
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IPlaybackControl.FinalClientRetry
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPlaybackControl::FinalClientRetry
+ - comsvcs/IPlaybackControl::FinalClientRetry
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IPlaybackControl.FinalClientRetry
 ---
 
 # IPlaybackControl::FinalClientRetry
@@ -48,29 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 As messages arrive on the Xact dead letter queue, COM+ attempts to invoke a client-side exception handler related to the server class to deliver this notification. This exception object might take exceptional action, such as recording the failure, sending a mail message to the administrator, or taking client-side compensating action (reversing the effect of an earlier transaction).
 
@@ -78,17 +66,6 @@ As messages arrive on the Xact dead letter queue, COM+ attempts to invoke a clie
 
 If this method is not successful, the message is left on the Xact dead letter queue.
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iplaybackcontrol">IPlaybackControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iplaybackcontrol">IPlaybackControl</a>

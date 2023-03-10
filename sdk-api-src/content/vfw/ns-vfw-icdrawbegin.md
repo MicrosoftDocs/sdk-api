@@ -1,16 +1,13 @@
 ---
-UID: NS:vfw.__unnamed_struct_7
+UID: NS:vfw.ICDRAWBEGIN
 title: ICDRAWBEGIN (vfw.h)
 description: The ICDRAWBEGIN structure contains decompression parameters used with the ICM_DRAW_BEGIN message.
+helpviewer_keywords: ["ICDRAWBEGIN","ICDRAWBEGIN structure [Windows Multimedia]","ICDRAW_ANIMATE","ICDRAW_BUFFER","ICDRAW_CONTINUE","ICDRAW_FULLSCREEN","ICDRAW_HDC","ICDRAW_MEMORYDC","ICDRAW_QUERY","ICDRAW_RENDER","ICDRAW_UPDATING","multimedia.icdrawbegin_COLLISION9","multimedia.icdrawbegin_struct","vfw/ICDRAWBEGIN"]
 old-location: multimedia\icdrawbegin_struct.htm
 tech.root: Multimedia
 ms.assetid: 1ec2309c-7ea8-423e-aee3-5e0c650f0b3d
 ms.date: 12/05/2018
 ms.keywords: ICDRAWBEGIN, ICDRAWBEGIN structure [Windows Multimedia], ICDRAW_ANIMATE, ICDRAW_BUFFER, ICDRAW_CONTINUE, ICDRAW_FULLSCREEN, ICDRAW_HDC, ICDRAW_MEMORYDC, ICDRAW_QUERY, ICDRAW_RENDER, ICDRAW_UPDATING, multimedia.icdrawbegin_COLLISION9, multimedia.icdrawbegin_struct, vfw/ICDRAWBEGIN
-f1_keywords:
-- vfw/ICDRAWBEGIN
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Vfw.h
-api_name:
-- ICDRAWBEGIN
 targetos: Windows
 req.typenames: ICDRAWBEGIN
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICDRAWBEGIN
+ - vfw/ICDRAWBEGIN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Vfw.h
+api_name:
+ - ICDRAWBEGIN
 ---
 
 # ICDRAWBEGIN structure
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>ICDRAWBEGIN</b> structure contains decompression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message.
-
-
-
+The <b>ICDRAWBEGIN</b> structure contains decompression parameters used with the <a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message.
 
 ## -struct-fields
-
-
-
 
 ### -field dwFlags
 
@@ -169,104 +163,72 @@ Current frame is being updated rather than played.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hpal
 
 Handle to the palette used for drawing.
-          
-
 
 ### -field hwnd
 
 Handle to the window used for drawing.
-          
-
 
 ### -field hdc
 
 Handle to the DC used for drawing. Specify <b>NULL</b> to use a DC associated with the specified window.
-          
-
 
 ### -field xDst
 
 The x-coordinate of the destination rectangle.
-          
-
 
 ### -field yDst
 
 The y-coordinate of the destination rectangle.
-          
-
 
 ### -field dxDst
 
 Width of the destination rectangle.
-          
-
 
 ### -field dyDst
 
 Height of the destination rectangle.
-          
-
 
 ### -field lpbi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
-
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
 
 ### -field xSrc
 
 The x-coordinate of the source rectangle.
-          
-
 
 ### -field ySrc
 
 The y-coordinate of the source rectangle.
-          
-
 
 ### -field dxSrc
 
 Width of the source rectangle.
-          
-
 
 ### -field dySrc
 
 Height of the source rectangle.
 
-
 ### -field dwRate
 
 Decompression rate in an integer format. To obtain the rate in frames per second, divide this value by the value in <b>dwScale</b>.
-
 
 ### -field dwScale
 
 Value used to scale <b>dwRate</b> to frames per second.
 
-
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a>
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
- 
-
- 
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
 

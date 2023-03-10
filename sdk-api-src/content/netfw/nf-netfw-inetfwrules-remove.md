@@ -2,15 +2,12 @@
 UID: NF:netfw.INetFwRules.Remove
 title: INetFwRules::Remove (netfw.h)
 description: The Remove method removes a rule from the collection.
+helpviewer_keywords: ["INetFwRules interface [ICS/ICF]","Remove method","INetFwRules.Remove","INetFwRules::Remove","Remove","Remove method [ICS/ICF]","Remove method [ICS/ICF]","INetFwRules interface","ics.inetfwrules_remove","netfw/INetFwRules::Remove"]
 old-location: ics\inetfwrules_remove.htm
 tech.root: ics
 ms.assetid: 70bd45c7-b5ab-43b3-afd4-2abb2a80ff0f
 ms.date: 12/05/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Remove method, INetFwRules.Remove, INetFwRules::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwRules interface, ics.inetfwrules_remove, netfw/INetFwRules::Remove
-f1_keywords:
-- netfw/INetFwRules.Remove
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRules.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRules::Remove
+ - netfw/INetFwRules::Remove
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRules.Remove
 ---
 
 # INetFwRules::Remove
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Remove</b> method removes a rule from the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 Name of the rule  to remove from the collection.
 
-
 ## -returns
-
-
 
 <h3>C++</h3>
 If the method succeeds the return value is S_OK.
@@ -156,27 +150,11 @@ The method was unable to allocate required memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If a rule specified by the <i>name</i> parameter does not exist in the collection, the <b>Remove</b> method has no effect.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>

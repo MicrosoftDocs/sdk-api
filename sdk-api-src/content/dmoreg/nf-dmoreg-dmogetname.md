@@ -2,15 +2,12 @@
 UID: NF:dmoreg.DMOGetName
 title: DMOGetName function (dmoreg.h)
 description: The DMOGetName function retrieves the name of a DMO from the registry.
+helpviewer_keywords: ["DMOGetName","DMOGetName function [DirectShow]","dmoreg/DMOGetName","dshow.dmogetname"]
 old-location: dshow\dmogetname.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7cb803c2-4fe1-46e3-868d-1b7c28b07a5b
 ms.date: 12/05/2018
 ms.keywords: DMOGetName, DMOGetName function [DirectShow], dmoreg/DMOGetName, dshow.dmogetname
-f1_keywords:
-- dmoreg/DMOGetName
-dev_langs:
-- c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msdmo.dll
-api_name:
-- DMOGetName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DMOGetName
+ - dmoreg/DMOGetName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msdmo.dll
+api_name:
+ - DMOGetName
 ---
 
 # DMOGetName function
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DMOGetName</b> function retrieves the name of a DMO from the registry.
 
-
 ## -parameters
-
-
-
 
 ### -param clsidDMO
 
 Class identifier (CLSID) of the DMO.
 
-
 ### -param szName
 
 Array of 80 Unicode characters that receives the name of the DMO. The caller must allocate the array. The name is a NULL-terminated string.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,27 +105,11 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the method returns S_FALSE, <i>szName</i> is set to '\0'.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>

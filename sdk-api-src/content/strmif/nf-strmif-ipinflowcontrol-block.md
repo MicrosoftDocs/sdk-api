@@ -2,15 +2,12 @@
 UID: NF:strmif.IPinFlowControl.Block
 title: IPinFlowControl::Block (strmif.h)
 description: The Block method blocks or unblocks the flow of data from the pin.
+helpviewer_keywords: ["Block","Block method [DirectShow]","Block method [DirectShow]","IPinFlowControl interface","IPinFlowControl interface [DirectShow]","Block method","IPinFlowControl.Block","IPinFlowControl::Block","IPinFlowControlBlock","dshow.ipinflowcontrol_block","strmif/IPinFlowControl::Block"]
 old-location: dshow\ipinflowcontrol_block.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 9bcd325d-41fc-4166-8fce-50fc921efdba
 ms.date: 12/05/2018
 ms.keywords: Block, Block method [DirectShow], Block method [DirectShow],IPinFlowControl interface, IPinFlowControl interface [DirectShow],Block method, IPinFlowControl.Block, IPinFlowControl::Block, IPinFlowControlBlock, dshow.ipinflowcontrol_block, strmif/IPinFlowControl::Block
-f1_keywords:
-- strmif/IPinFlowControl.Block
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPinFlowControl.Block
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPinFlowControl::Block
+ - strmif/IPinFlowControl::Block
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPinFlowControl.Block
 ---
 
 # IPinFlowControl::Block
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Block</code> method blocks or unblocks the flow of data from the pin.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwBlockFlags [in]
 
@@ -74,10 +68,7 @@ Flag that indicates whether to block or unblock the pin. Must be one of the foll
 
 Handle to an event object, or <b>NULL</b>. If this parameter is non-<b>NULL</b>, the method is asynchronous and returns immediately. The event is signaled when the operation completes. If this parameter is <b>NULL</b>, the method is synchronous and does not complete until the pin is blocked. If <i>dwBlockFlags</i> is zero, this parameter must be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -131,14 +122,8 @@ Pin is already blocked on the calling thread.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method can be synchronous or asynchronous:
 
@@ -147,23 +132,14 @@ This method can be synchronous or asynchronous:
 <li>To call this method synchronously, set the <i>hEvent</i> parameter to <b>NULL</b>. The method blocks until it completes. The method might not complete until the pin is ready to deliver a sample. If the filter is paused, the method might block indefinitely. Therefore, you should not call this method synchronously from your main application thread.</li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinflowcontrol">IPinFlowControl Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipinflowcontrol">IPinFlowControl Interface</a>

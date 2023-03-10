@@ -2,15 +2,12 @@
 UID: NF:wmcontainer.IMFASFProfile.GetStreamPrioritization
 title: IMFASFProfile::GetStreamPrioritization (wmcontainer.h)
 description: IMFASFProfile::GetStreamPrioritization method
+helpviewer_keywords: ["28c542b9-a121-4002-83ae-d6dcfa6f0b6a","GetStreamPrioritization","GetStreamPrioritization method [Media Foundation]","GetStreamPrioritization method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","GetStreamPrioritization method","IMFASFProfile.GetStreamPrioritization","IMFASFProfile::GetStreamPrioritization","mf.imfasfprofile_getstreamprioritization","wmcontainer/IMFASFProfile::GetStreamPrioritization"]
 old-location: mf\imfasfprofile_getstreamprioritization.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a
 ms.date: 12/05/2018
 ms.keywords: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a, GetStreamPrioritization, GetStreamPrioritization method [Media Foundation], GetStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamPrioritization method, IMFASFProfile.GetStreamPrioritization, IMFASFProfile::GetStreamPrioritization, mf.imfasfprofile_getstreamprioritization, wmcontainer/IMFASFProfile::GetStreamPrioritization
-f1_keywords:
-- wmcontainer/IMFASFProfile.GetStreamPrioritization
-dev_langs:
-- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFASFProfile.GetStreamPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFASFProfile::GetStreamPrioritization
+ - wmcontainer/IMFASFProfile::GetStreamPrioritization
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFASFProfile.GetStreamPrioritization
 ---
 
 # IMFASFProfile::GetStreamPrioritization
@@ -49,39 +51,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 <div class="alert"><b>Note</b>  This method is not supported.</div><div> </div>
 
 ## -parameters
-
-
-
 
 ### -param ppIStreamPrioritization [out]
 
 Reserved.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>

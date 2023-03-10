@@ -2,15 +2,12 @@
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoBannerURL
 title: IAMMediaContent::get_MoreInfoBannerURL (qnetwork.h)
 description: The get_MoreInfoBannerURL method retrieves a URL for a related-information banner.
+helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_MoreInfoBannerURL method","IAMMediaContent.get_MoreInfoBannerURL","IAMMediaContent::get_MoreInfoBannerURL","IAMMediaContentget_MoreInfoBannerURL","dshow.iammediacontent_get_moreinfobannerurl","get_MoreInfoBannerURL","get_MoreInfoBannerURL method [DirectShow]","get_MoreInfoBannerURL method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_MoreInfoBannerURL"]
 old-location: dshow\iammediacontent_get_moreinfobannerurl.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cc820849-cab2-4770-bdb2-6c4b32f3cc56
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoBannerURL method, IAMMediaContent.get_MoreInfoBannerURL, IAMMediaContent::get_MoreInfoBannerURL, IAMMediaContentget_MoreInfoBannerURL, dshow.iammediacontent_get_moreinfobannerurl, get_MoreInfoBannerURL, get_MoreInfoBannerURL method [DirectShow], get_MoreInfoBannerURL method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoBannerURL
-f1_keywords:
-- qnetwork/IAMMediaContent.get_MoreInfoBannerURL
-dev_langs:
-- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Qnetwork.h
-api_name:
-- IAMMediaContent.get_MoreInfoBannerURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMMediaContent::get_MoreInfoBannerURL
+ - qnetwork/IAMMediaContent::get_MoreInfoBannerURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Qnetwork.h
+api_name:
+ - IAMMediaContent.get_MoreInfoBannerURL
 ---
 
 # IAMMediaContent::get_MoreInfoBannerURL
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_MoreInfoBannerURL</code> method retrieves a URL for a related-information banner.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pbstrMoreInfoBannerURL
 
 Pointer to a variable that receives a <b>BSTR</b> with the information.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include those shown in the following table.
 
@@ -121,31 +112,15 @@ Item not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the method succeeds, the caller must free the returned <b>BSTR</b> by calling the <b>SysFreeString</b> function.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>

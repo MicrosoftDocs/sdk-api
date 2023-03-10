@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFSourceResolver.CreateObjectFromURL
 title: IMFSourceResolver::CreateObjectFromURL (mfidl.h)
 description: Creates a media source or a byte stream from a URL. This method is synchronous.
+helpviewer_keywords: ["CreateObjectFromURL","CreateObjectFromURL method [Media Foundation]","CreateObjectFromURL method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","CreateObjectFromURL method","IMFSourceResolver.CreateObjectFromURL","IMFSourceResolver::CreateObjectFromURL","b8f751b1-6456-4d67-839d-ecfa388e8d71","mf.imfsourceresolver_createobjectfromurl","mfidl/IMFSourceResolver::CreateObjectFromURL"]
 old-location: mf\imfsourceresolver_createobjectfromurl.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: b8f751b1-6456-4d67-839d-ecfa388e8d71
 ms.date: 12/05/2018
 ms.keywords: CreateObjectFromURL, CreateObjectFromURL method [Media Foundation], CreateObjectFromURL method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],CreateObjectFromURL method, IMFSourceResolver.CreateObjectFromURL, IMFSourceResolver::CreateObjectFromURL, b8f751b1-6456-4d67-839d-ecfa388e8d71, mf.imfsourceresolver_createobjectfromurl, mfidl/IMFSourceResolver::CreateObjectFromURL
-f1_keywords:
-- mfidl/IMFSourceResolver.CreateObjectFromURL
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFSourceResolver.CreateObjectFromURL
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceResolver::CreateObjectFromURL
+ - mfidl/IMFSourceResolver::CreateObjectFromURL
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFSourceResolver.CreateObjectFromURL
 ---
 
 # IMFSourceResolver::CreateObjectFromURL
@@ -49,49 +51,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Creates a media source or a byte stream from a URL. This method is synchronous.
-        
-
 
 ## -parameters
-
-
-
 
 ### -param pwszURL [in]
 
 Null-terminated string that contains the URL to resolve.
-          
-
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags. See <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver-flags">Source Resolver Flags</a>.
+Bitwise OR of one or more flags. See <a href="/windows/desktop/medfound/source-resolver-flags">Source Resolver Flags</a>.
           See remarks below.
-
 
 ### -param pProps [in]
 
-Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the scheme handler or byte-stream handler that creates the object. The handler can use the property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/configuring-a-media-source">Configuring a Media Source</a>.
-          
-
+Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the scheme handler or byte-stream handler that creates the object. The handler can use the property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/medfound/configuring-a-media-source">Configuring a Media Source</a>.
 
 ### -param pObjectType [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
-          
-
+Receives a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
 
 ### -param ppObject [out]
 
 Receives a pointer to the object's <b>IUnknown</b> interface. The caller must release the interface.
-          
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -137,14 +122,8 @@ The URL scheme is not supported.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>dwFlags</i> parameter must contain either the <b>MF_RESOLUTION_MEDIASOURCE</b> flag or the <b>MF_RESOLUTION_BYTESTREAM</b> flag, but should not contain both.
 
@@ -204,21 +183,10 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver">IMFSourceResolver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver">IMFSourceResolver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/source-resolver">Source Resolver</a>

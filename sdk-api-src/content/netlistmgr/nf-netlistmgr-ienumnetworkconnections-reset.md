@@ -1,16 +1,13 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Reset
 title: IEnumNetworkConnections::Reset (netlistmgr.h)
-description: The Reset method resets the enumeration sequence to the beginning.
+description: The Reset method resets the enumeration sequence to the beginning. (IEnumNetworkConnections.Reset)
+helpviewer_keywords: ["IEnumNetworkConnections interface [Network Awareness]","Reset method","IEnumNetworkConnections.Reset","IEnumNetworkConnections::Reset","Reset","Reset method [Network Awareness]","Reset method [Network Awareness]","IEnumNetworkConnections interface","netlistmgr/IEnumNetworkConnections::Reset","nla.ienumnetworkconnections_reset"]
 old-location: nla\ienumnetworkconnections_reset.htm
 tech.root: nla
 ms.assetid: 5596f7bb-97c8-4751-92fc-1b1ce584ca49
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],Reset method, IEnumNetworkConnections.Reset, IEnumNetworkConnections::Reset, Reset, Reset method [Network Awareness], Reset method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::Reset, nla.ienumnetworkconnections_reset
-f1_keywords:
-- netlistmgr/IEnumNetworkConnections.Reset
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- IEnumNetworkConnections.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetworkConnections::Reset
+ - netlistmgr/IEnumNetworkConnections::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - IEnumNetworkConnections.Reset
 ---
 
 # IEnumNetworkConnections::Reset
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Reset</b> method resets the enumeration sequence to the beginning.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
-
-
 
 Returns S_OK if the method succeeds. Otherwise, the method returns one of the following values.
 
@@ -82,18 +75,7 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>

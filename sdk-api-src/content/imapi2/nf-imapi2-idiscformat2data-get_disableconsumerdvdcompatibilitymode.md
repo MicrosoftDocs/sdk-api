@@ -1,16 +1,13 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode
 title: IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode (imapi2.h)
-description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
+description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD. (Get)
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_DisableConsumerDvdCompatibilityMode method","IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode","IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode","get_DisableConsumerDvdCompatibilityMode","get_DisableConsumerDvdCompatibilityMode method [IMAPI]","get_DisableConsumerDvdCompatibilityMode method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_disableconsumerdvdcompatibilitymode","imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode"]
 old-location: imapi\idiscformat2data_get_disableconsumerdvdcompatibilitymode.htm
 tech.root: imapi
 ms.assetid: dc88f657-0ec1-488d-8110-055de06c2d58
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode, IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode, get_DisableConsumerDvdCompatibilityMode, get_DisableConsumerDvdCompatibilityMode method [IMAPI], get_DisableConsumerDvdCompatibilityMode method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
+ - imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode
 ---
 
 # IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
@@ -63,10 +60,7 @@ Is VARIANT_TRUE if the session skips the tasks that allow the disc to play on mo
 
 Is VARIANT_FALSE if the media will be written to maximize read compatibility with consumer devices.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -89,31 +83,15 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This property has no affect on CD media.
-
-
-
+This property has no effect on CD media.
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_disableconsumerdvdcompatibilitymode">IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode</a>

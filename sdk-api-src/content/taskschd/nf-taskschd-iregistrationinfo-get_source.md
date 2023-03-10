@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Source
 title: IRegistrationInfo::get_Source (taskschd.h)
-description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
+description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user. (Get)
+helpviewer_keywords: ["IRegistrationInfo interface [Task Scheduler]","Source property","IRegistrationInfo.Source","IRegistrationInfo.get_Source","IRegistrationInfo::Source","IRegistrationInfo::get_Source","IRegistrationInfo::put_Source","Source property [Task Scheduler]","Source property [Task Scheduler]","IRegistrationInfo interface","get_Source","taskschd.iregistrationinfo_source","taskschd/IRegistrationInfo::Source","taskschd/IRegistrationInfo::get_Source","taskschd/IRegistrationInfo::put_Source"]
 old-location: taskschd\iregistrationinfo_source.htm
 tech.root: taskschd
 ms.assetid: 538d48f9-671d-452b-8e78-86954342a28f
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],Source property, IRegistrationInfo.Source, IRegistrationInfo.get_Source, IRegistrationInfo::Source, IRegistrationInfo::get_Source, IRegistrationInfo::put_Source, Source property [Task Scheduler], Source property [Task Scheduler],IRegistrationInfo interface, get_Source, taskschd.iregistrationinfo_source, taskschd/IRegistrationInfo::Source, taskschd/IRegistrationInfo::get_Source, taskschd/IRegistrationInfo::put_Source
-f1_keywords:
-- taskschd/IRegistrationInfo.Source
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRegistrationInfo.Source
-- IRegistrationInfo.get_Source
-- IRegistrationInfo.put_Source
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegistrationInfo::get_Source
+ - taskschd/IRegistrationInfo::get_Source
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRegistrationInfo.Source
+ - IRegistrationInfo.get_Source
+ - IRegistrationInfo.put_Source
 ---
 
 # IRegistrationInfo::get_Source
@@ -50,40 +52,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The Task Scheduler UI uses the source to sort tasks. For example, tasks could be sorted by component, service, application, or user.
 
-When reading or writing XML for a task, the task source information is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-source-registrationinfotype-element">Source</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the task source information is specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-source-registrationinfotype-element">Source</a> element of the Task Scheduler schema.
 
 When setting this property value, the value can be text that is retrieved from a resource .dll file. A specialized string is used to reference the text from the resource file.  The format of the string is $(@ [Dll], [ResourceID]) where [Dll] is the path to the .dll file that contains the resource and [ResourceID] is the identifier for the resource text. For example, the setting this property value to $(@ %SystemRoot%\System32\ResourceName.dll, -101) will set the property to the value of the resource text  with an identifier equal to -101 in the  %SystemRoot%\System32\ResourceName.dll file.
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo">IRegistrationInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo">IRegistrationInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.get_Updates
 title: IUpdateDownloader::get_Updates (wuapi.h)
-description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download.
+description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download. (Get)
+helpviewer_keywords: ["IUpdateDownloader interface [Windows Update Agent]","Updates property","IUpdateDownloader.Updates","IUpdateDownloader.get_Updates","IUpdateDownloader::Updates","IUpdateDownloader::get_Updates","IUpdateDownloader::put_Updates","Updates property [Windows Update Agent]","Updates property [Windows Update Agent]","IUpdateDownloader interface","get_Updates","wua.iupdatedownloader_updates","wuapi/IUpdateDownloader::Updates","wuapi/IUpdateDownloader::get_Updates","wuapi/IUpdateDownloader::put_Updates"]
 old-location: wua\iupdatedownloader_updates.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 7c0444be-a9eb-461a-858e-1dea670afd06
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],Updates property, IUpdateDownloader.Updates, IUpdateDownloader.get_Updates, IUpdateDownloader::Updates, IUpdateDownloader::get_Updates, IUpdateDownloader::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateDownloader interface, get_Updates, wua.iupdatedownloader_updates, wuapi/IUpdateDownloader::Updates, wuapi/IUpdateDownloader::get_Updates, wuapi/IUpdateDownloader::put_Updates
-f1_keywords:
-- wuapi/IUpdateDownloader.Updates
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateDownloader.Updates
-- IUpdateDownloader.get_Updates
-- IUpdateDownloader.put_Updates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateDownloader::get_Updates
+ - wuapi/IUpdateDownloader::get_Updates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateDownloader.Updates
+ - IUpdateDownloader.get_Updates
+ - IUpdateDownloader.put_Updates
 ---
 
 # IUpdateDownloader::get_Updates
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets and sets an interface that contains a read-only collection of the updates that are specified for download.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>

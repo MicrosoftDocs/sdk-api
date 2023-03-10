@@ -2,15 +2,12 @@
 UID: NC:ntsecpkg.LSA_ALLOCATE_LSA_HEAP
 title: LSA_ALLOCATE_LSA_HEAP (ntsecpkg.h)
 description: Allocates memory on the heap. Some information passed back to the LSA is expected to be allocated using this function.
+helpviewer_keywords: ["AllocateLsaHeap","AllocateLsaHeap callback function [Security]","LSA_ALLOCATE_LSA_HEAP","LSA_ALLOCATE_LSA_HEAP callback","_lsa_allocatelsaheap","ntsecpkg/AllocateLsaHeap","security.allocatelsaheap"]
 old-location: security\allocatelsaheap.htm
-tech.root: SecAuthN
+tech.root: security
 ms.assetid: cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba
 ms.date: 12/05/2018
 ms.keywords: AllocateLsaHeap, AllocateLsaHeap callback function [Security], LSA_ALLOCATE_LSA_HEAP, LSA_ALLOCATE_LSA_HEAP callback, _lsa_allocatelsaheap, ntsecpkg/AllocateLsaHeap, security.allocatelsaheap
-f1_keywords:
-- ntsecpkg/AllocateLsaHeap
-dev_langs:
-- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Ntsecpkg.h
-api_name:
-- AllocateLsaHeap
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LSA_ALLOCATE_LSA_HEAP
+ - ntsecpkg/LSA_ALLOCATE_LSA_HEAP
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Ntsecpkg.h
+api_name:
+ - AllocateLsaHeap
 ---
 
 # LSA_ALLOCATE_LSA_HEAP callback function
@@ -48,43 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Allocates memory on the heap. Some information passed back to the LSA is expected to be allocated using this function. Memory allocated with this routine must be deallocated with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap">FreeLsaHeap</a> function.
-			
-		
-
+<a href="/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap">FreeLsaHeap</a> function.
 
 ## -parameters
-
-
-
 
 ### -param Length [in]
 
 Number of bytes to allocate from the heap.
 
-
 ## -returns
-
-
 
 This function returns a pointer to the allocated heap memory. If memory could not be allocated, the function returns <b>NULL</b>.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_dispatch_table">LSA_DISPATCH_TABLE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>

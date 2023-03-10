@@ -2,15 +2,12 @@
 UID: NF:resapi.ResUtilGetPropertySize
 title: ResUtilGetPropertySize function (resapi.h)
 description: Returns the total number of bytes required for a specified property.
+helpviewer_keywords: ["PRESUTIL_GET_PROPERTY_SIZE","PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster]","ResUtilGetPropertySize","ResUtilGetPropertySize function [Failover Cluster]","_wolf_resutilgetpropertysize","mscs.resutilgetpropertysize","resapi/PRESUTIL_GET_PROPERTY_SIZE","resapi/ResUtilGetPropertySize"]
 old-location: mscs\resutilgetpropertysize.htm
 tech.root: MsCS
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_SIZE, PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster], ResUtilGetPropertySize, ResUtilGetPropertySize function [Failover Cluster], _wolf_resutilgetpropertysize, mscs.resutilgetpropertysize, resapi/PRESUTIL_GET_PROPERTY_SIZE, resapi/ResUtilGetPropertySize
-f1_keywords:
-- resapi/ResUtilGetPropertySize
-dev_langs:
-- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ResUtils.dll
-api_name:
-- ResUtilGetPropertySize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ResUtilGetPropertySize
+ - resapi/ResUtilGetPropertySize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ResUtils.dll
+api_name:
+ - ResUtilGetPropertySize
 ---
 
 # ResUtilGetPropertySize function
@@ -48,44 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the total number of bytes required for a specified property.
-
 
 ## -parameters
 
-
-
-
 ### -param hkeyClusterKey [in]
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the property to size.
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the property to size.
 
 ### -param pPropertyTableItem [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structure describing the property to size.
-
+Pointer to a  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structure describing the property to size.
 
 ### -param pcbOutPropertyListSize [in, out]
 
-Pointer to the total number of bytes required for the property value, which includes the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure and the data.
-
+Pointer to the total number of bytes required for the property value, which includes the  <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure and the data.
 
 ### -param pnPropertyCount [in, out]
 
 Pointer to the total number of properties. This value is incremented to include this property if  <b>ResUtilGetPropertySize</b> is successful.
 
-
 ## -returns
-
-
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -115,22 +105,11 @@ The data type of a property specified in the property table does not match the d
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>

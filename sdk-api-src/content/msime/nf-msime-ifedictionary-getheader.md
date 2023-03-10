@@ -2,15 +2,12 @@
 UID: NF:msime.IFEDictionary.GetHeader
 title: IFEDictionary::GetHeader (msime.h)
 description: Gets a dictionary header from a dictionary file without opening the dictionary.
+helpviewer_keywords: ["GetHeader","GetHeader method [Internationalization for Windows Applications]","GetHeader method [Internationalization for Windows Applications]","IFEDictionary interface","IFED_ACTIVE_DICT","IFED_ATOK10","IFED_ATOK9","IFED_MSIME2_BIN_SYSTEM","IFED_MSIME2_BIN_USER","IFED_MSIME2_TEXT_USER","IFED_MSIME95_BIN_SYSTEM","IFED_MSIME95_BIN_USER","IFED_MSIME95_TEXT_USER","IFED_MSIME97_BIN_SYSTEM","IFED_MSIME97_BIN_USER","IFED_MSIME97_TEXT_USER","IFED_MSIME98_BIN_SYSTEM","IFED_MSIME98_BIN_USER","IFED_MSIME98_SYSTEM_CE","IFED_MSIME98_TEST_USER","IFED_MSIME_BIN_SYSTEM","IFED_MSIME_BIN_USER","IFED_MSIME_TEXT_USER","IFED_NEC_AI_","IFED_PIME2_BIN_STANDARD_SYSTEM","IFED_PIME2_BIN_SYSTEM","IFED_PIME2_BIN_USER","IFED_TYPE_ALL","IFED_TYPE_ENGLISH","IFED_TYPE_GENERAL","IFED_TYPE_NAMEPLACE","IFED_TYPE_NONE","IFED_TYPE_REVERSE","IFED_TYPE_SPEECH","IFED_UNKNOWN","IFED_VJE_20","IFED_WX_II","IFED_WX_III","IFEDictionary interface [Internationalization for Windows Applications]","GetHeader method","IFEDictionary.GetHeader","IFEDictionary::GetHeader","intl.ifedictionary_getheader","msime/IFEDictionary::GetHeader"]
 old-location: intl\ifedictionary_getheader.htm
 tech.root: Intl
 ms.assetid: DA710A33-BCBC-47B8-857F-5E6DF142C433
 ms.date: 12/05/2018
 ms.keywords: GetHeader, GetHeader method [Internationalization for Windows Applications], GetHeader method [Internationalization for Windows Applications],IFEDictionary interface, IFED_ACTIVE_DICT, IFED_ATOK10, IFED_ATOK9, IFED_MSIME2_BIN_SYSTEM, IFED_MSIME2_BIN_USER, IFED_MSIME2_TEXT_USER, IFED_MSIME95_BIN_SYSTEM, IFED_MSIME95_BIN_USER, IFED_MSIME95_TEXT_USER, IFED_MSIME97_BIN_SYSTEM, IFED_MSIME97_BIN_USER, IFED_MSIME97_TEXT_USER, IFED_MSIME98_BIN_SYSTEM, IFED_MSIME98_BIN_USER, IFED_MSIME98_SYSTEM_CE, IFED_MSIME98_TEST_USER, IFED_MSIME_BIN_SYSTEM, IFED_MSIME_BIN_USER, IFED_MSIME_TEXT_USER, IFED_NEC_AI_, IFED_PIME2_BIN_STANDARD_SYSTEM, IFED_PIME2_BIN_SYSTEM, IFED_PIME2_BIN_USER, IFED_TYPE_ALL, IFED_TYPE_ENGLISH, IFED_TYPE_GENERAL, IFED_TYPE_NAMEPLACE, IFED_TYPE_NONE, IFED_TYPE_REVERSE, IFED_TYPE_SPEECH, IFED_UNKNOWN, IFED_VJE_20, IFED_WX_II, IFED_WX_III, IFEDictionary interface [Internationalization for Windows Applications],GetHeader method, IFEDictionary.GetHeader, IFEDictionary::GetHeader, intl.ifedictionary_getheader, msime/IFEDictionary::GetHeader
-f1_keywords:
-- msime/IFEDictionary.GetHeader
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFEDictionary.GetHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFEDictionary::GetHeader
+ - msime/IFEDictionary::GetHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFEDictionary.GetHeader
 ---
 
 # IFEDictionary::GetHeader
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a dictionary header from a dictionary file without opening the dictionary.
 
-
 ## -parameters
-
-
-
 
 ### -param pchDictPath [in, out, optional]
 
 A <b>NULL</b>-terminated string containing the path and name of the dictionary file.
 
-
 ### -param pshf [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the file. Can be <b>NULL</b>.
-
+The <a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header of the file. Can be <b>NULL</b>.
 
 ### -param pjfmt [out]
 
@@ -233,7 +228,6 @@ The dictionary format. This can be one of the following values:
 
 #### IFED_PIME2_BIN_STANDARD_SYSTEM
 
-
 ### -param pulType [out]
 
 The dictionary type. This is a combination of one or more of the following flags:
@@ -314,12 +308,8 @@ All of the above types.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 One of the following:
 
@@ -329,19 +319,10 @@ One of the following:
 <li><b>E_FAIL</b></li>
 </ul>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>

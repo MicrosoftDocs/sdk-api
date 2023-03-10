@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellMenu.GetShellFolder
 title: IShellMenu::GetShellFolder (shobjidl_core.h)
 description: Gets the folder that the menu band is set to browse.
+helpviewer_keywords: ["GetShellFolder","GetShellFolder method [Windows Shell]","GetShellFolder method [Windows Shell]","IShellMenu interface","IShellMenu interface [Windows Shell]","GetShellFolder method","IShellMenu.GetShellFolder","IShellMenu::GetShellFolder","SMINIT_CACHED","SMINIT_DEFAULT","SMINIT_HORIZONTAL","SMINIT_RESTRICT_DRAGDROP","SMINIT_TOPLEVEL","SMINIT_VERTICAL","_shell_IShellMenu_GetShellFolder","shell.IShellMenu_GetShellFolder","shobjidl_core/IShellMenu::GetShellFolder"]
 old-location: shell\IShellMenu_GetShellFolder.htm
 tech.root: shell
 ms.assetid: 6f88e1ee-950f-41b8-ad53-3bd7e8772f42
 ms.date: 12/05/2018
 ms.keywords: GetShellFolder, GetShellFolder method [Windows Shell], GetShellFolder method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetShellFolder method, IShellMenu.GetShellFolder, IShellMenu::GetShellFolder, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_GetShellFolder, shell.IShellMenu_GetShellFolder, shobjidl_core/IShellMenu::GetShellFolder
-f1_keywords:
-- shobjidl_core/IShellMenu.GetShellFolder
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellMenu.GetShellFolder
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellMenu::GetShellFolder
+ - shobjidl_core/IShellMenu::GetShellFolder
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellMenu.GetShellFolder
 ---
 
 # IShellMenu::GetShellFolder
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the folder that the menu band is set to browse.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwFlags [out]
 
@@ -147,15 +144,12 @@ Specifies a horizontal band.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppidl [out]
 
 Type: <b>PCIDLIST_ABSOLUTE*</b>
 
-When this method returns, contains the address of the folder's fully qualified <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>.
-
+When this method returns, contains the address of the folder's fully qualified <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>.
 
 ### -param riid [in]
 
@@ -163,21 +157,14 @@ Type: <b>REFIID</b>
 
 The REFIID for the target folder.
 
-
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
 When this method returns successfully, contains the address of a pointer to the Shell folder object referenced by the <i>riid</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

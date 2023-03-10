@@ -2,15 +2,12 @@
 UID: NF:tom.ITextRange.SetChar
 title: ITextRange::SetChar (tom.h)
 description: Sets the character at the starting position of the range.
+helpviewer_keywords: ["ITextRange interface [Windows Controls]","SetChar method","ITextRange.SetChar","ITextRange::SetChar","SetChar","SetChar method [Windows Controls]","SetChar method [Windows Controls]","ITextRange interface","_win32_ITextRange_SetChar","_win32_ITextRange_SetChar_cpp","controls.ITextRange_SetChar","controls._win32_ITextRange_SetChar","tom/ITextRange::SetChar"]
 old-location: controls\ITextRange_SetChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setchar.htm
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetChar method, ITextRange.SetChar, ITextRange::SetChar, SetChar, SetChar method [Windows Controls], SetChar method [Windows Controls],ITextRange interface, _win32_ITextRange_SetChar, _win32_ITextRange_SetChar_cpp, controls.ITextRange_SetChar, controls._win32_ITextRange_SetChar, tom/ITextRange::SetChar
-f1_keywords:
-- tom/ITextRange.SetChar
-dev_langs:
-- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msftedit.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msftedit.dll
-api_name:
-- ITextRange.SetChar
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITextRange::SetChar
+ - tom/ITextRange::SetChar
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msftedit.dll
+api_name:
+ - ITextRange.SetChar
 ---
 
 # ITextRange::SetChar
@@ -48,29 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the character at the starting position of the range.
 
-
 ## -parameters
-
-
-
 
 ### -param Char
 
 Type: <b>long</b>
 
-New value for character at the starting position. 
-
+New value for character at the starting position.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -100,14 +94,8 @@ Out of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>ITextRange::SetChar</b> lets you specify the precise character code to use. However, string literals with similar looking glyphs can be misleading. 
 
@@ -146,19 +134,13 @@ However, <b>ITextRange::SetChar</b> is more efficient than a replace operation t
 
 The <i>Char</i> property, which can do most things that a characters collection can, has two big advantages: it can reference any character in the parent story instead of being limited to the parent range, and it's significantly faster, since <b>LONG</b>s rather than range objects are involved. Because of these advantages, the Text Object Model (TOM) does not support a characters collection.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -166,8 +148,4 @@ The <i>Char</i> property, which can do most things that a characters collection 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
- 
-
- 
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

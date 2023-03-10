@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfCompositionView.GetOwnerClsid
 title: ITfCompositionView::GetOwnerClsid (msctf.h)
 description: ITfCompositionView::GetOwnerClsid method
+helpviewer_keywords: ["GetOwnerClsid","GetOwnerClsid method [Text Services Framework]","GetOwnerClsid method [Text Services Framework]","ITfCompositionView interface","ITfCompositionView interface [Text Services Framework]","GetOwnerClsid method","ITfCompositionView.GetOwnerClsid","ITfCompositionView::GetOwnerClsid","_tsf_itfcompositionview_getownerclsid_ref","msctf/ITfCompositionView::GetOwnerClsid","tsf.itfcompositionview_getownerclsid"]
 old-location: tsf\itfcompositionview_getownerclsid.htm
 tech.root: TSF
 ms.assetid: 1435e083-c6a1-491c-a7c2-7d2cb1d54508
 ms.date: 12/05/2018
 ms.keywords: GetOwnerClsid, GetOwnerClsid method [Text Services Framework], GetOwnerClsid method [Text Services Framework],ITfCompositionView interface, ITfCompositionView interface [Text Services Framework],GetOwnerClsid method, ITfCompositionView.GetOwnerClsid, ITfCompositionView::GetOwnerClsid, _tsf_itfcompositionview_getownerclsid_ref, msctf/ITfCompositionView::GetOwnerClsid, tsf.itfcompositionview_getownerclsid
-f1_keywords:
-- msctf/ITfCompositionView.GetOwnerClsid
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfCompositionView.GetOwnerClsid
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfCompositionView::GetOwnerClsid
+ - msctf/ITfCompositionView::GetOwnerClsid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfCompositionView.GetOwnerClsid
 ---
 
 # ITfCompositionView::GetOwnerClsid
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Obtains the class identifier of the text service that created the composition object.
 
 ## -parameters
-
-
-
 
 ### -param pclsid [out]
 
 Pointer to a CLSID that receives the class identifier of the text service that owns the composition.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,16 +112,12 @@ The composition has been terminated.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method can be used to enable a text service to filter compositions that it does not own.
 
+## -see-also
 
+[ITfCompositionView interface](nn-msctf-itfcompositionview.md)
 

@@ -2,15 +2,12 @@
 UID: NF:winsync.ISyncKnowledge.GetSingleItemExceptions
 title: ISyncKnowledge::GetSingleItemExceptions (winsync.h)
 description: Gets an object that can enumerate the ISingleItemException objects that are stored in the knowledge.
+helpviewer_keywords: ["GetSingleItemExceptions","GetSingleItemExceptions method [Windows Sync]","GetSingleItemExceptions method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","GetSingleItemExceptions method","ISyncKnowledge.GetSingleItemExceptions","ISyncKnowledge::GetSingleItemExceptions","winsync.isyncknowledge_getsingleitemexceptions","winsync/ISyncKnowledge::GetSingleItemExceptions"]
 old-location: winsync\isyncknowledge_getsingleitemexceptions.htm
 tech.root: winsync
 ms.assetid: d224d2b8-343d-48f9-ac87-cd6e8682987a
 ms.date: 12/05/2018
 ms.keywords: GetSingleItemExceptions, GetSingleItemExceptions method [Windows Sync], GetSingleItemExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetSingleItemExceptions method, ISyncKnowledge.GetSingleItemExceptions, ISyncKnowledge::GetSingleItemExceptions, winsync.isyncknowledge_getsingleitemexceptions, winsync/ISyncKnowledge::GetSingleItemExceptions
-f1_keywords:
-- winsync/ISyncKnowledge.GetSingleItemExceptions
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncKnowledge.GetSingleItemExceptions
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncKnowledge::GetSingleItemExceptions
+ - winsync/ISyncKnowledge::GetSingleItemExceptions
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncKnowledge.GetSingleItemExceptions
 ---
 
 # ISyncKnowledge::GetSingleItemExceptions
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an object that can enumerate the <b>ISingleItemException</b> objects that are stored in the knowledge.
 
-
 ## -parameters
-
-
-
 
 ### -param riid [in]
 
 The IID of the object to retrieve. Must be <b>IID_IEnumSingleItemExceptions</b>.
 
-
 ### -param ppUnk [out]
 
 Returns an object that implements <i>riid</i> and that can enumerate the list of <b>ISingleItemException</b> objects that is contained in the knowledge.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -114,31 +107,15 @@ The method succeeded.
 <td width="60%"></td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Be aware that there is no single representation of knowledge. Equivalent knowledge might be represented in different forms and return different values from <b>GetSingleItemExceptions</b>.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isingleitemexception">ISingleItemException Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isingleitemexception">ISingleItemException Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

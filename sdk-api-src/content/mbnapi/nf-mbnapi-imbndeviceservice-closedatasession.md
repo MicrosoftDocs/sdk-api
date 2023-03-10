@@ -2,15 +2,12 @@
 UID: NF:mbnapi.IMbnDeviceService.CloseDataSession
 title: IMbnDeviceService::CloseDataSession (mbnapi.h)
 description: Closes the data session to a device service on a Mobile Broadband device.
+helpviewer_keywords: ["CloseDataSession","CloseDataSession method [Microsoft Broadband Networks]","CloseDataSession method [Microsoft Broadband Networks]","IMbnDeviceService interface","IMbnDeviceService interface [Microsoft Broadband Networks]","CloseDataSession method","IMbnDeviceService.CloseDataSession","IMbnDeviceService::CloseDataSession","mbn.imbndeviceservice_closedatasession","mbnapi/IMbnDeviceService::CloseDataSession"]
 old-location: mbn\imbndeviceservice_closedatasession.htm
 tech.root: mbn
 ms.assetid: E00322FC-05DF-4342-A182-E1F4F40FBD60
 ms.date: 12/05/2018
 ms.keywords: CloseDataSession, CloseDataSession method [Microsoft Broadband Networks], CloseDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseDataSession method, IMbnDeviceService.CloseDataSession, IMbnDeviceService::CloseDataSession, mbn.imbndeviceservice_closedatasession, mbnapi/IMbnDeviceService::CloseDataSession
-f1_keywords:
-- mbnapi/IMbnDeviceService.CloseDataSession
-dev_langs:
-- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mbnapi.h
-api_name:
-- IMbnDeviceService.CloseDataSession
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMbnDeviceService::CloseDataSession
+ - mbnapi/IMbnDeviceService::CloseDataSession
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mbnapi.h
+api_name:
+ - IMbnDeviceService.CloseDataSession
 ---
 
 # IMbnDeviceService::CloseDataSession
@@ -53,20 +55,13 @@ ms.custom: 19H1
 
 Closes the data session to a device service on a Mobile Broadband device.
 
-
 ## -parameters
-
-
-
 
 ### -param requestID [out]
 
 A unique request ID assigned by the Mobile Broadband service to identify this request.
 
-
 ## -returns
-
-
 
 The method can return one of the following values.
 
@@ -109,29 +104,13 @@ An error was encountered when executing this method.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 <b>CloseDataSession</b> closes the data session to the mobile broadband device service. The data session must be opened before the application can call <b>CloseDataSession</b>.
 
-This is an asynchronous operation and <b>CloseDataSession</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosedatasessioncomplete">OnCloseDataSessionComplete</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
-
-
-
+This is an asynchronous operation and <b>CloseDataSession</b> will return immediately. On completion of the operation, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbndeviceservicesevents-onclosedatasessioncomplete">OnCloseDataSessionComplete</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a> interface.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>

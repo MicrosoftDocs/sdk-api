@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IPackageDebugSettings.Suspend
 title: IPackageDebugSettings::Suspend (shobjidl_core.h)
 description: Suspends the processes of the package if they are currently running.
+helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","Suspend method","IPackageDebugSettings.Suspend","IPackageDebugSettings::Suspend","Suspend","Suspend method [Windows Shell]","Suspend method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_Suspend","shobjidl_core/IPackageDebugSettings::Suspend"]
 old-location: shell\IPackageDebugSettings_Suspend.htm
 tech.root: shell
 ms.assetid: b1a62712-cd03-4728-b0f1-c1b543f2e056
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],Suspend method, IPackageDebugSettings.Suspend, IPackageDebugSettings::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_Suspend, shobjidl_core/IPackageDebugSettings::Suspend
-f1_keywords:
-- shobjidl_core/IPackageDebugSettings.Suspend
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IPackageDebugSettings.Suspend
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPackageDebugSettings::Suspend
+ - shobjidl_core/IPackageDebugSettings::Suspend
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IPackageDebugSettings.Suspend
 ---
 
 # IPackageDebugSettings::Suspend
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Suspends the processes of the package if they are currently running.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFullName [in]
 
 The package full name.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -80,47 +74,31 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-The operation succeeded.
+The system has successfully started suspending the package.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>E_ILLEGAL_STATECHANGE</b></dt>
+<dt><em>A failing HRESULT value</em></dt>
 </dl>
 </td>
 <td width="60%">
-The process is not currently running.
+No process in the package is currently running, or another error occurred.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Each process receives the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.core.coreapplication.suspending">Suspending</a> event, which is useful for stepping through your apps as they respond to this event.
-
-
-
+Each process receives the <a href="/uwp/api/windows.applicationmodel.core.coreapplication.suspending">Suspending</a> event, which is useful for stepping through your apps as they respond to this event.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-resume">Resume</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-resume">Resume</a>

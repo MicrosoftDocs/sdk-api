@@ -2,15 +2,12 @@
 UID: NS:processthreadsapi.PROCESS_PROTECTION_LEVEL_INFORMATION
 title: PROCESS_PROTECTION_LEVEL_INFORMATION (processthreadsapi.h)
 description: Specifies whether Protected Process Light (PPL) is enabled.
+helpviewer_keywords: ["PPROCESS_PROTECTION_LEVEL_INFORMATION","PPROCESS_PROTECTION_LEVEL_INFORMATION structure pointer","PROCESS_PROTECTION_LEVEL_INFORMATION","PROCESS_PROTECTION_LEVEL_INFORMATION structure","PROTECTION_LEVEL_ANTIMALWARE_LIGHT","PROTECTION_LEVEL_AUTHENTICODE","PROTECTION_LEVEL_CODEGEN_LIGHT","PROTECTION_LEVEL_LSA_LIGHT","PROTECTION_LEVEL_NONE","PROTECTION_LEVEL_PPL_APP","PROTECTION_LEVEL_WINDOWS","PROTECTION_LEVEL_WINDOWS_LIGHT","PROTECTION_LEVEL_WINTCB","PROTECTION_LEVEL_WINTCB_LIGHT","base.process_protection_level_information","processthreadsapi/PPROCESS_PROTECTION_LEVEL_INFORMATION","processthreadsapi/PROCESS_PROTECTION_LEVEL_INFORMATION"]
 old-location: base\process_protection_level_information.htm
-tech.root: ProcThread
+tech.root: processthreadsapi
 ms.assetid: E2A99AB0-33F1-4AF5-A05B-31D0929D9B4B
 ms.date: 12/05/2018
 ms.keywords: PPROCESS_PROTECTION_LEVEL_INFORMATION, PPROCESS_PROTECTION_LEVEL_INFORMATION structure pointer, PROCESS_PROTECTION_LEVEL_INFORMATION, PROCESS_PROTECTION_LEVEL_INFORMATION structure, PROTECTION_LEVEL_ANTIMALWARE_LIGHT, PROTECTION_LEVEL_AUTHENTICODE, PROTECTION_LEVEL_CODEGEN_LIGHT, PROTECTION_LEVEL_LSA_LIGHT, PROTECTION_LEVEL_NONE, PROTECTION_LEVEL_PPL_APP, PROTECTION_LEVEL_WINDOWS, PROTECTION_LEVEL_WINDOWS_LIGHT, PROTECTION_LEVEL_WINTCB, PROTECTION_LEVEL_WINTCB_LIGHT, base.process_protection_level_information, processthreadsapi/PPROCESS_PROTECTION_LEVEL_INFORMATION, processthreadsapi/PROCESS_PROTECTION_LEVEL_INFORMATION
-f1_keywords:
-- processthreadsapi/PROCESS_PROTECTION_LEVEL_INFORMATION
-dev_langs:
-- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- processthreadsapi.h
-api_name:
-- PROCESS_PROTECTION_LEVEL_INFORMATION
 targetos: Windows
 req.typenames: PROCESS_PROTECTION_LEVEL_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PROCESS_PROTECTION_LEVEL_INFORMATION
+ - processthreadsapi/PROCESS_PROTECTION_LEVEL_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - processthreadsapi.h
+api_name:
+ - PROCESS_PROTECTION_LEVEL_INFORMATION
 ---
 
 # PROCESS_PROTECTION_LEVEL_INFORMATION structure
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies whether Protected Process Light (PPL) is enabled.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ProtectionLevel
 
@@ -167,5 +164,4 @@ The process is not protected.
 </td>
 </tr>
 </table>
- 
 

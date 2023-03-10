@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFTopology.GetNode
 title: IMFTopology::GetNode (mfidl.h)
 description: Gets a node in the topology, specified by index.
+helpviewer_keywords: ["97053d10-5ac7-40c0-b46b-77d401284d58","GetNode","GetNode method [Media Foundation]","GetNode method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetNode method","IMFTopology.GetNode","IMFTopology::GetNode","mf.imftopology_getnode","mfidl/IMFTopology::GetNode"]
 old-location: mf\imftopology_getnode.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 97053d10-5ac7-40c0-b46b-77d401284d58
 ms.date: 12/05/2018
 ms.keywords: 97053d10-5ac7-40c0-b46b-77d401284d58, GetNode, GetNode method [Media Foundation], GetNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNode method, IMFTopology.GetNode, IMFTopology::GetNode, mf.imftopology_getnode, mfidl/IMFTopology::GetNode
-f1_keywords:
-- mfidl/IMFTopology.GetNode
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFTopology.GetNode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTopology::GetNode
+ - mfidl/IMFTopology::GetNode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFTopology.GetNode
 ---
 
 # IMFTopology::GetNode
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a node in the topology, specified by index.
-        
-
 
 ## -parameters
 
-
-
-
 ### -param wIndex [in]
 
-The zero-based index of the node. To get the number of nodes in the topology, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopology-getnodecount">IMFTopology::GetNodeCount</a>.
-          
-
+The zero-based index of the node. To get the number of nodes in the topology, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopology-getnodecount">IMFTopology::GetNodeCount</a>.
 
 ### -param ppNode [out]
 
-Receives a pointer to the node's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface. The caller must release the pointer.
-          
-
+Receives a pointer to the node's <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopologynode">IMFTopologyNode</a> interface. The caller must release the pointer.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -120,22 +110,11 @@ No node can be found at the index <i>wIndex</i>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topologies">Topologies</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/topologies">Topologies</a>

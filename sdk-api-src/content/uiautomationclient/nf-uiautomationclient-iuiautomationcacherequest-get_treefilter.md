@@ -1,16 +1,13 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.get_TreeFilter
 title: IUIAutomationCacheRequest::get_TreeFilter (uiautomationclient.h)
-description: Specifies the view of the UI Automation element tree that is used when caching.
+description: Specifies the view of the UI Automation element tree that is used when caching. (Get)
+helpviewer_keywords: ["IUIAutomationCacheRequest interface [Windows Accessibility]","TreeFilter property","IUIAutomationCacheRequest.TreeFilter","IUIAutomationCacheRequest.get_TreeFilter","IUIAutomationCacheRequest::TreeFilter","IUIAutomationCacheRequest::get_TreeFilter","IUIAutomationCacheRequest::put_TreeFilter","TreeFilter property [Windows Accessibility]","TreeFilter property [Windows Accessibility]","IUIAutomationCacheRequest interface","get_TreeFilter","uiauto.uiauto_IUIAutomationCacheRequest_TreeFilter","uiauto_IUIAutomationCacheRequest_TreeFilter","uiautomationclient/IUIAutomationCacheRequest::TreeFilter","uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter","uiautomationclient/IUIAutomationCacheRequest::put_TreeFilter","winauto.uiauto_IUIAutomationCacheRequest_TreeFilter"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest_TreeFilter.htm
 tech.root: WinAuto
 ms.assetid: da9c9c9a-7ada-4f72-a025-1202e500241d
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationCacheRequest interface [Windows Accessibility],TreeFilter property, IUIAutomationCacheRequest.TreeFilter, IUIAutomationCacheRequest.get_TreeFilter, IUIAutomationCacheRequest::TreeFilter, IUIAutomationCacheRequest::get_TreeFilter, IUIAutomationCacheRequest::put_TreeFilter, TreeFilter property [Windows Accessibility], TreeFilter property [Windows Accessibility],IUIAutomationCacheRequest interface, get_TreeFilter, uiauto.uiauto_IUIAutomationCacheRequest_TreeFilter, uiauto_IUIAutomationCacheRequest_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::TreeFilter, uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter, uiautomationclient/IUIAutomationCacheRequest::put_TreeFilter, winauto.uiauto_IUIAutomationCacheRequest_TreeFilter
-f1_keywords:
-- uiautomationclient/IUIAutomationCacheRequest.TreeFilter
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationCacheRequest.TreeFilter
-- IUIAutomationCacheRequest.get_TreeFilter
-- IUIAutomationCacheRequest.put_TreeFilter
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationCacheRequest::get_TreeFilter
+ - uiautomationclient/IUIAutomationCacheRequest::get_TreeFilter
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationCacheRequest.TreeFilter
+ - IUIAutomationCacheRequest.get_TreeFilter
+ - IUIAutomationCacheRequest.put_TreeFilter
 ---
 
 # IUIAutomationCacheRequest::get_TreeFilter
@@ -50,11 +52,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the view of the UI Automation element tree that is used when caching.
 
 This property is read/write.
-
 
 ## -parameters
 

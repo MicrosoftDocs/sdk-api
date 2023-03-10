@@ -2,15 +2,12 @@
 UID: NF:shlobj_core.IShellChangeNotify.OnChange
 title: IShellChangeNotify::OnChange (shlobj_core.h)
 description: Informs a namespace extension that an event has taken place that affects its items.
+helpviewer_keywords: ["IShellChangeNotify interface [Windows Shell]","OnChange method","IShellChangeNotify.OnChange","IShellChangeNotify::OnChange","OnChange","OnChange method [Windows Shell]","OnChange method [Windows Shell]","IShellChangeNotify interface","SHCNE_ALLEVENTS","SHCNE_ASSOCCHANGED","SHCNE_ATTRIBUTES","SHCNE_CREATE","SHCNE_DELETE","SHCNE_DISKEVENTS","SHCNE_DRIVEADD","SHCNE_DRIVEADDGUI","SHCNE_DRIVEREMOVED","SHCNE_FREESPACE","SHCNE_GLOBALEVENTS","SHCNE_INTERRUPT","SHCNE_MEDIAINSERTED","SHCNE_MEDIAREMOVED","SHCNE_MKDIR","SHCNE_NETSHARE","SHCNE_NETUNSHARE","SHCNE_RENAMEFOLDER","SHCNE_RENAMEITEM","SHCNE_RMDIR","SHCNE_SERVERDISCONNECT","SHCNE_UPDATEDIR","SHCNE_UPDATEIMAGE","SHCNE_UPDATEITEM","_win32_IShellChangeNotify_OnChange","shell.IShellChangeNotify_OnChange","shlobj_core/IShellChangeNotify::OnChange"]
 old-location: shell\IShellChangeNotify_OnChange.htm
 tech.root: shell
 ms.assetid: 27ef6a2e-e463-4ba7-922f-20bf8e118d3a
 ms.date: 12/05/2018
 ms.keywords: IShellChangeNotify interface [Windows Shell],OnChange method, IShellChangeNotify.OnChange, IShellChangeNotify::OnChange, OnChange, OnChange method [Windows Shell], OnChange method [Windows Shell],IShellChangeNotify interface, SHCNE_ALLEVENTS, SHCNE_ASSOCCHANGED, SHCNE_ATTRIBUTES, SHCNE_CREATE, SHCNE_DELETE, SHCNE_DISKEVENTS, SHCNE_DRIVEADD, SHCNE_DRIVEADDGUI, SHCNE_DRIVEREMOVED, SHCNE_FREESPACE, SHCNE_GLOBALEVENTS, SHCNE_INTERRUPT, SHCNE_MEDIAINSERTED, SHCNE_MEDIAREMOVED, SHCNE_MKDIR, SHCNE_NETSHARE, SHCNE_NETUNSHARE, SHCNE_RENAMEFOLDER, SHCNE_RENAMEITEM, SHCNE_RMDIR, SHCNE_SERVERDISCONNECT, SHCNE_UPDATEDIR, SHCNE_UPDATEIMAGE, SHCNE_UPDATEITEM, _win32_IShellChangeNotify_OnChange, shell.IShellChangeNotify_OnChange, shlobj_core/IShellChangeNotify::OnChange
-f1_keywords:
-- shlobj_core/IShellChangeNotify.OnChange
-dev_langs:
-- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellChangeNotify.OnChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellChangeNotify::OnChange
+ - shlobj_core/IShellChangeNotify::OnChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellChangeNotify.OnChange
 ---
 
 # IShellChangeNotify::OnChange
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Informs a namespace extension that an event has taken place that affects its items.
 
-
 ## -parameters
-
-
-
 
 ### -param lEvent
 
@@ -211,13 +208,11 @@ The following value modifies other event values and cannot be used alone.
 
 The specified event occurred as a result of a system interrupt.
 
-
 ### -param pidl1 [in, optional]
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
 The first event-dependent item identifier.
-
 
 ### -param pidl2 [in, optional]
 
@@ -225,23 +220,12 @@ Type: <b>PCIDLIST_ABSOLUTE</b>
 
 The second event-dependent item identifier.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-This method is similar in function and usage to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.
-
-
-
+This method is similar in function and usage to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>.

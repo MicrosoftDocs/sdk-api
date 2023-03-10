@@ -2,15 +2,12 @@
 UID: NF:amstream.IMediaStreamFilter.AddMediaStream
 title: IMediaStreamFilter::AddMediaStream (amstream.h)
 description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method connects a media stream object to the underlying filter graph.
+helpviewer_keywords: ["AddMediaStream","AddMediaStream method [DirectShow]","AddMediaStream method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","AddMediaStream method","IMediaStreamFilter.AddMediaStream","IMediaStreamFilter::AddMediaStream","IMediaStreamFilterAddMediaStream","amstream/IMediaStreamFilter::AddMediaStream","dshow.imediastreamfilter_addmediastream"]
 old-location: dshow\imediastreamfilter_addmediastream.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 0e4fdc28-3117-4b9d-a914-ddb70aa5125d
 ms.date: 12/05/2018
 ms.keywords: AddMediaStream, AddMediaStream method [DirectShow], AddMediaStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],AddMediaStream method, IMediaStreamFilter.AddMediaStream, IMediaStreamFilter::AddMediaStream, IMediaStreamFilterAddMediaStream, amstream/IMediaStreamFilter::AddMediaStream, dshow.imediastreamfilter_addmediastream
-f1_keywords:
-- amstream/IMediaStreamFilter.AddMediaStream
-dev_langs:
-- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- amstream.h
-api_name:
-- IMediaStreamFilter.AddMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMediaStreamFilter::AddMediaStream
+ - amstream/IMediaStreamFilter::AddMediaStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - amstream.h
+api_name:
+ - IMediaStreamFilter.AddMediaStream
 ---
 
 # IMediaStreamFilter::AddMediaStream
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
 The <code>AddMediaStream</code> method connects a media stream object to the underlying filter graph.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pAMMediaStream [in]
 
-Pointer to the media stream object's <a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream</a> interface.
-
+Pointer to the media stream object's <a href="/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream</a> interface.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -112,18 +103,7 @@ Success
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>

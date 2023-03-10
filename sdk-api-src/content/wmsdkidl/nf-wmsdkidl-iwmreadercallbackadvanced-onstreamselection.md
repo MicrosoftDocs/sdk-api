@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnStreamSelection
 title: IWMReaderCallbackAdvanced::OnStreamSelection (wmsdkidl.h)
 description: The OnStreamSelection method notifies the application of stream changes made due to bandwidth restrictions. To have this method called, call IWMReaderAdvanced::SetReceiveSelectionCallbacks.
+helpviewer_keywords: ["IWMReaderCallbackAdvanced interface [windows Media Format]","OnStreamSelection method","IWMReaderCallbackAdvanced.OnStreamSelection","IWMReaderCallbackAdvanced::OnStreamSelection","IWMReaderCallbackAdvancedOnStreamSelection","OnStreamSelection","OnStreamSelection method [windows Media Format]","OnStreamSelection method [windows Media Format]","IWMReaderCallbackAdvanced interface","wmformat.iwmreadercallbackadvanced_onstreamselection","wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSelection"]
 old-location: wmformat\iwmreadercallbackadvanced_onstreamselection.htm
 tech.root: wmformat
 ms.assetid: d0d699b3-e2f3-427c-9159-e2ed875887ca
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStreamSelection method, IWMReaderCallbackAdvanced.OnStreamSelection, IWMReaderCallbackAdvanced::OnStreamSelection, IWMReaderCallbackAdvancedOnStreamSelection, OnStreamSelection, OnStreamSelection method [windows Media Format], OnStreamSelection method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onstreamselection, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSelection
-f1_keywords:
-- wmsdkidl/IWMReaderCallbackAdvanced.OnStreamSelection
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmsdkidl.h
-api_name:
-- IWMReaderCallbackAdvanced.OnStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMReaderCallbackAdvanced::OnStreamSelection
+ - wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmsdkidl.h
+api_name:
+ - IWMReaderCallbackAdvanced.OnStreamSelection
 ---
 
 # IWMReaderCallbackAdvanced::OnStreamSelection
@@ -48,65 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>OnStreamSelection</b> method notifies the application of stream changes made due to bandwidth restrictions. To have this method called, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceiveselectioncallbacks">IWMReaderAdvanced::SetReceiveSelectionCallbacks</a>.
-
-
-
+The <b>OnStreamSelection</b> method notifies the application of stream changes made due to bandwidth restrictions. To have this method called, call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceiveselectioncallbacks">IWMReaderAdvanced::SetReceiveSelectionCallbacks</a>.
 
 ## -parameters
-
-
-
 
 ### -param wStreamCount [in]
 
 <b>WORD</b> containing the number of entries in the <i>pStreamNumbers</i> array.
 
-
 ### -param pStreamNumbers [in]
 
 Pointer to an array of stream numbers.
 
-
 ### -param pSelections [in]
 
-Pointer to an array of members of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a> enumeration type. Each element in this array corresponds to the stream number contained in the corresponding element of the array pointed to by <i>pStreamNumbers</i>.
-
+Pointer to an array of members of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_stream_selection">WMT_STREAM_SELECTION</a> enumeration type. Each element in this array corresponds to the stream number contained in the corresponding element of the array pointed to by <i>pStreamNumbers</i>.
 
 ### -param pvContext [in]
 
-Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a> method.
-
+Generic pointer, for use by the application. This pointer is the context pointer given to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a> method.
 
 ## -returns
 
-
-
-To use this method, you must implement it in your application. You can return whatever <b>HRESULT</b> error codes are appropriate to your implementation. For more information about the <b>HRESULT</b> error codes included for use by the Windows Media Format SDK, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/error-codes">Error Codes</a>.
-
-
-
+To use this method, you must implement it in your application. You can return whatever <b>HRESULT</b> error codes are appropriate to your implementation. For more information about the <b>HRESULT</b> error codes included for use by the Windows Media Format SDK, see <a href="/windows/desktop/wmformat/error-codes">Error Codes</a>.
 
 ## -remarks
-
-
 
 Stream numbers are in the range of 1 through 63.
 
 The application can also get callbacks when stream changes due to bandwidth restrictions occur.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:wsddisco.IWSDiscoveredService.GetScopes
 title: IWSDiscoveredService::GetScopes (wsddisco.h)
 description: Retrieves a list of WS-Discovery Scopes.
+helpviewer_keywords: ["GetScopes","GetScopes method","GetScopes method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetScopes method","IWSDiscoveredService.GetScopes","IWSDiscoveredService::GetScopes","ncd.iwsdiscoveredservice_getscopes","wsddisco/IWSDiscoveredService::GetScopes"]
 old-location: ncd\iwsdiscoveredservice_getscopes.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 9b389ba3-9cc1-4bc2-949a-e7103378cbcc
 ms.date: 12/05/2018
 ms.keywords: GetScopes, GetScopes method, GetScopes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetScopes method, IWSDiscoveredService.GetScopes, IWSDiscoveredService::GetScopes, ncd.iwsdiscoveredservice_getscopes, wsddisco/IWSDiscoveredService::GetScopes
-f1_keywords:
-- wsddisco/IWSDiscoveredService.GetScopes
-dev_langs:
-- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDiscoveredService.GetScopes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDiscoveredService::GetScopes
+ - wsddisco/IWSDiscoveredService::GetScopes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDiscoveredService.GetScopes
 ---
 
 # IWSDiscoveredService::GetScopes
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves a list of WS-Discovery Scopes.
-
 
 ## -parameters
 
-
-
-
 ### -param ppScopesList [out]
 
-List of WS-Discovery Scopes provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a>. Do not deallocate the output structure.
-
+List of WS-Discovery Scopes provided in the Hello, ProbeMatch, or ResolveMatch message sent by the remote device. For details, see <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a>. Do not deallocate the output structure.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,27 +95,11 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The resulting pointer value is only valid for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
-
-
-
+The resulting pointer value is only valid for the lifetime of the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> object.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>

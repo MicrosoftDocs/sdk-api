@@ -2,15 +2,12 @@
 UID: NF:winddi.PATHOBJ_vEnumStartClipLines
 title: PATHOBJ_vEnumStartClipLines function (winddi.h)
 description: The PATHOBJ_vEnumStartClipLines function allows the driver to request lines to be clipped against a specified clip region.
+helpviewer_keywords: ["PATHOBJ_vEnumStartClipLines","PATHOBJ_vEnumStartClipLines function [Display Devices]","display.pathobj_venumstartcliplines","gdifncs_f5446bec-830c-4946-b899-1d9a957b44ef.xml","winddi/PATHOBJ_vEnumStartClipLines"]
 old-location: display\pathobj_venumstartcliplines.htm
 tech.root: display
 ms.assetid: 3db437aa-40d1-4703-ab1e-b3e154923d2d
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_vEnumStartClipLines, PATHOBJ_vEnumStartClipLines function [Display Devices], display.pathobj_venumstartcliplines, gdifncs_f5446bec-830c-4946-b899-1d9a957b44ef.xml, winddi/PATHOBJ_vEnumStartClipLines
-f1_keywords:
-- winddi/PATHOBJ_vEnumStartClipLines
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- PATHOBJ_vEnumStartClipLines
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PATHOBJ_vEnumStartClipLines
+ - winddi/PATHOBJ_vEnumStartClipLines
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - PATHOBJ_vEnumStartClipLines
 ---
 
 # PATHOBJ_vEnumStartClipLines function
@@ -48,47 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>PATHOBJ_vEnumStartClipLines</b> function allows the driver to request lines to be clipped against a specified clip region.
-
 
 ## -parameters
 
-
-
-
 ### -param ppo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that describes the specified clipping object.
-
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure that describes the specified clipping object.
 
 ### -param pco
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that describes the clip region.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that describes the clip region.
 
 ### -param pso
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that GDI queries to retrieve information about styling steps.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that GDI queries to retrieve information about styling steps.
 
 ### -param pla
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-lineattrs">LINEATTRS</a> structure that GDI queries to retrieve line width and styling information.
-
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-lineattrs">LINEATTRS</a> structure that GDI queries to retrieve line width and styling information.
 
 ## -returns
 
-
-
 None
 
-
-
-
 ## -remarks
-
-
 
 This function is useful when the clip region is more complex than a simple rectangle.
 
@@ -98,28 +84,18 @@ This function should not be called for geometric wide lines or paths that contai
 
 Once begun, this enumeration process should not be restarted.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-lineattrs">LINEATTRS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-lineattrs">LINEATTRS</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

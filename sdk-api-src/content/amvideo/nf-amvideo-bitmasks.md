@@ -2,15 +2,12 @@
 UID: NF:amvideo.BITMASKS
 title: BITMASKS macro (amvideo.h)
 description: The BITMASKS macro retrieves the color masks from a VIDEOINFO structure.
+helpviewer_keywords: ["BITMASKS","BITMASKS macro [DirectShow]","amvideo/BITMASKS","dshow.bitmasks"]
 old-location: dshow\bitmasks.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: e90ddeab-a3d6-4d34-8608-4d8831d81fe5
 ms.date: 12/05/2018
 ms.keywords: BITMASKS, BITMASKS macro [DirectShow], amvideo/BITMASKS, dshow.bitmasks
-f1_keywords:
-- amvideo/BITMASKS
-dev_langs:
-- c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Amvideo.h
-api_name:
-- BITMASKS
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - BITMASKS
+ - amvideo/BITMASKS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Amvideo.h
+api_name:
+ - BITMASKS
 ---
 
 # BITMASKS macro
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <code>BITMASKS</code> macro retrieves the color masks from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
-
+The <code>BITMASKS</code> macro retrieves the color masks from a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
 
 ## -parameters
 
-
-
-
 ### -param pbmi
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
-
+Pointer to a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
 
 ## -remarks
 
-
-
-This macro calculates the address as an offset from the start of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, using the value of <b>bmiHeader.biSize</b>. Make sure to initialize the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure before calling this macro.
+This macro calculates the address as an offset from the start of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, using the value of <b>bmiHeader.biSize</b>. Make sure to initialize the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure before calling this macro.
 
 You can access the color masks in the array using the following constants, defined in Amvideo.h:
 
@@ -87,17 +81,6 @@ DWORD dwGreen = BITMASKS(pVi)[iGREEN];
 DWORD dwBlue  = BITMASKS(pVi)[iBLUE];
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>

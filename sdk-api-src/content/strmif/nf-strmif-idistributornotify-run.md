@@ -2,15 +2,12 @@
 UID: NF:strmif.IDistributorNotify.Run
 title: IDistributorNotify::Run (strmif.h)
 description: The Run method is called when the filter graph is entering a running state.
+helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","Run method","IDistributorNotify.Run","IDistributorNotify::Run","IDistributorNotifyRun","Run","Run method [DirectShow]","Run method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_run","strmif/IDistributorNotify::Run"]
 old-location: dshow\idistributornotify_run.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: d6a6595b-b243-41bf-bba9-6e35fa81116c
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Run method, IDistributorNotify.Run, IDistributorNotify::Run, IDistributorNotifyRun, Run, Run method [DirectShow], Run method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_run, strmif/IDistributorNotify::Run
-f1_keywords:
-- strmif/IDistributorNotify.Run
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDistributorNotify.Run
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDistributorNotify::Run
+ - strmif/IDistributorNotify::Run
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDistributorNotify.Run
 ---
 
 # IDistributorNotify::Run
@@ -49,52 +51,26 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>Run</code> method is called when the filter graph is entering a running state.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param tStart
 
-Stream-time offset that will be passed to every filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediafilter-run">IMediaFilter::Run</a> method.
-
+Stream-time offset that will be passed to every filter's <a href="/windows/desktop/api/strmif/nf-strmif-imediafilter-run">IMediaFilter::Run</a> method.
 
 ## -returns
 
-
-
 Returns an <b>HRESULT</b> value.
-
-
-
 
 ## -remarks
 
-
-
 This method is called before the filters are notified.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>

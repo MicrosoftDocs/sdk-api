@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_Priority
 title: ITaskSettings::get_Priority (taskschd.h)
-description: Gets or sets the priority level of the task.
+description: Gets or sets the priority level of the task. (Get)
+helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","Priority property","ITaskSettings.Priority","ITaskSettings.get_Priority","ITaskSettings::Priority","ITaskSettings::get_Priority","ITaskSettings::put_Priority","Priority property [Task Scheduler]","Priority property [Task Scheduler]","ITaskSettings interface","get_Priority","taskschd.itasksettings_priority","taskschd/ITaskSettings::Priority","taskschd/ITaskSettings::get_Priority","taskschd/ITaskSettings::put_Priority"]
 old-location: taskschd\itasksettings_priority.htm
 tech.root: taskschd
 ms.assetid: ce6ad1bc-0d19-4a5d-b29f-8df8400f8819
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],Priority property, ITaskSettings.Priority, ITaskSettings.get_Priority, ITaskSettings::Priority, ITaskSettings::get_Priority, ITaskSettings::put_Priority, Priority property [Task Scheduler], Priority property [Task Scheduler],ITaskSettings interface, get_Priority, taskschd.itasksettings_priority, taskschd/ITaskSettings::Priority, taskschd/ITaskSettings::get_Priority, taskschd/ITaskSettings::put_Priority
-f1_keywords:
-- taskschd/ITaskSettings.Priority
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- ITaskSettings.Priority
-- ITaskSettings.get_Priority
-- ITaskSettings.put_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskSettings::get_Priority
+ - taskschd/ITaskSettings::get_Priority
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - ITaskSettings.Priority
+ - ITaskSettings.get_Priority
+ - ITaskSettings.put_Priority
 ---
 
 # ITaskSettings::get_Priority
@@ -50,22 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the priority level of the task.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 Priority level 0 is the highest priority, and priority level 10 is the lowest priority. The default value is 7. Priority levels 7 and 8 are used for background tasks, and priority levels 4, 5, and 6 are used for interactive tasks.
 
-The task's action is started in a process with a priority that is based on a Priority Class value. A Priority Level value (thread priority) is used for COM handler, message box, and email task actions. For more information about the Priority Class and Priority Level values, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>. The following table lists the possible values for the <i>priority</i> parameter, and the corresponding Priority Class and Priority Level values.
+The task's action is started in a process with a priority that is based on a Priority Class value. A Priority Level value (thread priority) is used for COM handler, message box, and email task actions. For more information about the Priority Class and Priority Level values, see <a href="/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>. The following table lists the possible values for the <i>priority</i> parameter, and the corresponding Priority Class and Priority Level values.
 
 <table>
 <tr>
@@ -131,18 +128,8 @@ The task's action is started in a process with a priority that is based on a Pri
 </table>
  
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-priority-settingstype-element">Priority (settingsType)</a> element of the Task Scheduler schema.
-
-
-
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-priority-settingstype-element">Priority (settingsType)</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>

@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaPlayer.SetVideoSourceRect
 title: IMFPMediaPlayer::SetVideoSourceRect (mfplay.h)
 description: Sets the video source rectangle.
+helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetVideoSourceRect method","IMFPMediaPlayer.SetVideoSourceRect","IMFPMediaPlayer::SetVideoSourceRect","SetVideoSourceRect","SetVideoSourceRect method [Media Foundation]","SetVideoSourceRect method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setvideosourcerect","mfplay/IMFPMediaPlayer::SetVideoSourceRect"]
 old-location: mf\imfpmediaplayer_setvideosourcerect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: c95d724f-40a9-43c5-b81a-8505eda516f7
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVideoSourceRect method, IMFPMediaPlayer.SetVideoSourceRect, IMFPMediaPlayer::SetVideoSourceRect, SetVideoSourceRect, SetVideoSourceRect method [Media Foundation], SetVideoSourceRect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvideosourcerect, mfplay/IMFPMediaPlayer::SetVideoSourceRect
-f1_keywords:
-- mfplay/IMFPMediaPlayer.SetVideoSourceRect
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.SetVideoSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::SetVideoSourceRect
+ - mfplay/IMFPMediaPlayer::SetVideoSourceRect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.SetVideoSourceRect
 ---
 
 # IMFPMediaPlayer::SetVideoSourceRect
@@ -48,9 +50,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
@@ -58,15 +58,11 @@ Sets the video source rectangle.
 
 MFPlay clips the video to this rectangle and stretches the rectangle to fill the video window.
 
-
 ## -parameters
-
-
-
 
 ### -param pnrcSource [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. This rectangle defines which portion of the video is displayed. It is specified in normalized coordinates, which are defined as follows:
+Pointer to an <a href="/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure that specifies the source rectangle. This rectangle defines which portion of the video is displayed. It is specified in normalized coordinates, which are defined as follows:
 
 <ul>
 <li>The upper-left corner of the video image is (0, 0).</li>
@@ -74,10 +70,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr
 </ul>
 To display the entire image, set the source rectangle to {0, 0, 1, 1}. This is the default value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -115,41 +108,24 @@ The current media item does not contain video.
 </dl>
 </td>
 <td width="60%">
-The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
+The object's <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-MFPlay stretches the source rectangle to fill the entire video window. By default, MFPlay maintains the source's correct aspect ratio, letterboxing if needed. The letterbox color is controlled by the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setbordercolor">IMFPMediaPlayer::SetBorderColor</a> method.
+MFPlay stretches the source rectangle to fill the entire video window. By default, MFPlay maintains the source's correct aspect ratio, letterboxing if needed. The letterbox color is controlled by the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setbordercolor">IMFPMediaPlayer::SetBorderColor</a> method.
 
 This method fails if no media item is currently set, or if the current media item does not contain video.
 
-To set the video position before playback starts, call this method inside your event handler for the <b>MFP_EVENT_TYPE_MEDIAITEM_SET</b> event. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>.
-      
-
-
-
+To set the video position before playback starts, call this method inside your event handler for the <b>MFP_EVENT_TYPE_MEDIAITEM_SET</b> event. For more information, see <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent">IMFPMediaPlayerCallback::OnMediaPlayerEvent</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

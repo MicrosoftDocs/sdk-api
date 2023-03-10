@@ -2,15 +2,12 @@
 UID: NF:cfgmgr32.CM_Unregister_Notification
 title: CM_Unregister_Notification function (cfgmgr32.h)
 description: Use UnregisterDeviceNotification instead of CM_Unregister_Notification if your code targets Windows 7 or earlier versions of Windows.
+helpviewer_keywords: ["CM_Unregister_Notification","CM_Unregister_Notification function [Device and Driver Installation]","cfgmgr32/CM_Unregister_Notification","devinst.cm_unregister_notification"]
 old-location: devinst\cm_unregister_notification.htm
 tech.root: devinst
 ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444
 ms.date: 12/05/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
-f1_keywords:
-- cfgmgr32/CM_Unregister_Notification
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- CfgMgr32.dll
-- API-MS-Win-devices-config-l1-1-0.dll
-- API-MS-Win-devices-config-l1-1-1.dll
-api_name:
-- CM_Unregister_Notification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CM_Unregister_Notification
+ - cfgmgr32/CM_Unregister_Notification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - CfgMgr32.dll
+ - API-MS-Win-devices-config-l1-1-0.dll
+ - API-MS-Win-devices-config-l1-1-1.dll
+api_name:
+ - CM_Unregister_Notification
 ---
 
 # CM_Unregister_Notification function
@@ -50,34 +52,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a> instead of <b>CM_Unregister_Notification</b> if your code targets Windows 7 or earlier versions of Windows.
+Use <a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a> instead of <b>CM_Unregister_Notification</b> if your code targets Windows 7 or earlier versions of Windows.
 
 The <b>CM_Unregister_Notification</b> function closes the specified HCMNOTIFICATION handle.
 
-
 ## -parameters
-
-
-
 
 ### -param NotifyContext [in]
 
-The HCMNOTIFICATION handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> function.
-
+The HCMNOTIFICATION handle returned by the <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> function.
 
 ## -returns
 
-
-
 If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it returns one of the CR_-prefixed error codes defined in <i>Cfgmgr32.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 Do not call <b>CM_Unregister_Notification</b> from a notification callback. Doing so may cause a deadlock because <b>CM_Unregister_Notification</b> waits for pending callbacks to finish.
 
@@ -85,12 +74,12 @@ Instead, if you want to unregister from the notification callback, you must do s
 
 <ol>
 <li>Allocate a context structure to use with your notifications.      Include a pointer to a threadpool work structure (<b>PTP_WORK</b>) and any other information you would like to pass to the notification callback.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a>.   Provide a callback function that calls  <b>CM_Unregister_Notification</b>.      Add the returned work structure to the previously allocated context structure.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
+<li>Call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolwork">CreateThreadpoolWork</a>.   Provide a callback function that calls  <b>CM_Unregister_Notification</b>.      Add the returned work structure to the previously allocated context structure.</li>
+<li>Call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a> and provide the context structure as the <i>pContext</i> parameter.</li>
 <li>Do work, get notifications, etc.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork">SubmitThreadpoolWork</a> from within the notification callback, providing the pointer to a threadpool work structure (<b>PTP_WORK</b>) stored in your context structure.</li>
+<li>Call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-submitthreadpoolwork">SubmitThreadpoolWork</a> from within the notification callback, providing the pointer to a threadpool work structure (<b>PTP_WORK</b>) stored in your context structure.</li>
 <li>When the threadpool thread runs, the work item calls <b>CM_Unregister_Notification</b>.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork">CloseThreadpoolWork</a> to release the work object.</li>
+<li>Call <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwork">CloseThreadpoolWork</a> to release the work object.</li>
 </ol>
 If you are finished with the context structure, don't forget to release resources and and free the structure.
 
@@ -232,17 +221,6 @@ end:
 
 ```
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification">UnregisterDeviceNotification</a>

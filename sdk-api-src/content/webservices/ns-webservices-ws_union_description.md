@@ -2,15 +2,12 @@
 UID: NS:webservices._WS_UNION_DESCRIPTION
 title: WS_UNION_DESCRIPTION (webservices.h)
 description: Information about the choices within a union type. This is used with WS_UNION_TYPE.
+helpviewer_keywords: ["WS_UNION_DESCRIPTION","WS_UNION_DESCRIPTION structure [Web Services for Windows]","webservices/WS_UNION_DESCRIPTION","wsw.ws_union_description"]
 old-location: wsw\ws_union_description.htm
 tech.root: wsw
 ms.assetid: 04eddc88-f0ba-4a0b-8078-12c0d955d055
 ms.date: 12/05/2018
 ms.keywords: WS_UNION_DESCRIPTION, WS_UNION_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNION_DESCRIPTION, wsw.ws_union_description
-f1_keywords:
-- webservices/WS_UNION_DESCRIPTION
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WebServices.h
-api_name:
-- WS_UNION_DESCRIPTION
 targetos: Windows
 req.typenames: WS_UNION_DESCRIPTION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WS_UNION_DESCRIPTION
+ - webservices/_WS_UNION_DESCRIPTION
+ - WS_UNION_DESCRIPTION
+ - webservices/WS_UNION_DESCRIPTION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WebServices.h
+api_name:
+ - WS_UNION_DESCRIPTION
 ---
 
 # WS_UNION_DESCRIPTION structure
@@ -48,29 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Information about the choices within a union type.
-                This is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
-            
-
+                This is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_UNION_TYPE</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field size
 
 The size in bytes of the structure.
-                
-
 
 ### -field alignment
 
 The alignment requirement of the structure.  This must be a power
                     of two between 1 and 8.
-                
-
 
 ### -field fields
 
@@ -79,8 +73,6 @@ An array of pointers to the descriptions of the fields of the union.
 
 See the Remarks section for information about ordering of the fields
                     in this array.
-                
-
 
 ### -field fieldCount
 
@@ -88,24 +80,18 @@ The number of fields in the fields array.  Any part of the structure
                     that is not represented by a field will be left uninitialized.
                     Fields descriptions may reference the same offset of the structure
                     (for example if they are all part of a single union).
-                
-
 
 ### -field enumOffset
 
 The offset of the enumeration field which controls which choice is
                     selected within the union.  The size of the field is assumed to be
                     the size of an enumeration (32-bit signed integer).
-                
-
 
 ### -field noneEnumValue
 
 This value corresponds to the enum value used when none of the
                     choices are currently set.  This field is only used when the
-                    field is optional (<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified).
-                
-
+                    field is optional (<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> was specified).
 
 ### -field valueIndices
 
@@ -123,7 +109,7 @@ If non-<b>NULL</b>, the following must be true:
 <li>The fields array is required to be sorted by element, in ascending order.
                     When comparing an element the namespace should be compared first, then the local name.
                     Each of the names should be compared by performing a byte-wide comparison of the utf-8 string.
-                    The field that uses <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a>, if present, should always
+                    The field that uses <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a>, if present, should always
                     be last in the fields array.
                     </li>
 <li>The valueIndices array points to an array that has fieldCount items.  The valueIndices
@@ -134,15 +120,15 @@ If non-<b>NULL</b>, the following must be true:
 
 ## -remarks
 
-
-
 This description assumes a structure which contains both the 
                 selector value (an integer enumerated value) and a union which
                 contains a field which corresponds to each of the possible
                 choices, for example:
             
 
-<pre class="syntax" xml:space="preserve"><code>// Enumeration of choices of different values
+
+``` syntax
+// Enumeration of choices of different values
 enum Choice
 {
     ChoiceA = 20,
@@ -159,13 +145,17 @@ struct StructType
         int a;
         WS_STRING b;
     } value;
-};</code></pre>
+};
+```
+
 The following examples illustrates initializing a union description
                 for the previous example.  This example fills out the nameIndices 
                 field, but this field could be <b>NULL</b> instead.
             
 
-<pre class="syntax" xml:space="preserve"><code>WS_XML_STRING choiceAString = WS_XML_STRING_VALUE("choiceA");
+
+``` syntax
+WS_XML_STRING choiceAString = WS_XML_STRING_VALUE("choiceA");
 WS_XML_STRING choiceANs = WS_XML_STRING_VALUE("http://examples.org/a");
 
 WS_UNION_FIELD_DESCRIPTION fieldA = { };
@@ -207,19 +197,27 @@ unionDescription.fieldCount = WsCountOf(fieldsArray);
 unionDescription.enumOffset = WsOffsetOf(StructType, choice);
 unionDescription.noneEnumValue = None;
 unionDescription.valueIndices = valueIndices;
-</code></pre>
+
+```
+
 The above would allow either of the following elements to
                 appear:
             
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 &lt;choiceA xmlns="http://example.com/a"&gt;123&lt;/choiceA&gt;
 &lt;choiceB xmlns="http://example.com/b"&gt;hello&lt;/choiceB&gt;
-</code></pre>
+
+```
+
 The following is an example of setting values:
             
 
-<pre class="syntax" xml:space="preserve"><code>StructType structType;
+
+``` syntax
+StructType structType;
 
 // Set ChoiceA
 structType.choice = ChoiceA;
@@ -232,21 +230,27 @@ structType.value.b = helloString;
 
 // Set "none" choice
 structType.choice = None;
-</code></pre>
-The following is the grammar describing the order of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
+
+```
+
+The following is the grammar describing the order of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a> that make up a <b>WS_UNION_DESCRIPTION</b>.  The order is defined based on the
                 mapping field of the <b>WS_FIELD_DESCRIPTION</b>.
             
 
-<pre class="syntax" xml:space="preserve"><code>
+
+``` syntax
+
 Fields := ElementContentFields AnyElementField?
 ElementContentFields := (ElementField | RepeatingElementField)*
 ElementField := WS_ELEMENT_FIELD_MAPPING
 RepeatingElementField := WS_REPEATING_ELEMENT_FIELD_MAPPING
-AnyElementField := WS_ANY_ELEMENT_FIELD_MAPPING</code></pre>
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b>represent the element choices and their corresponding fields in the union.
+AnyElementField := WS_ANY_ELEMENT_FIELD_MAPPING
+```
+
+The <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ELEMENT_FIELD_MAPPING</a> and <b>WS_REPEATING_ELEMENT_FIELD_MAPPING</b> represent the element choices and their corresponding fields in the union.
             
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
+The <a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_ANY_ELEMENT_FIELD_MAPPING</a> is the field used when none of the
                 other elements matched.
             
 
@@ -255,12 +259,10 @@ The following restrictions apply to the field descriptions:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> may only be used when 
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_field_mapping">WS_REPEATING_ELEMENT_FIELD_MAPPING</a> may only be used when 
                 a wrapper element name and namespace has been specified.
                 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
+<a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> may not be used.
             </li>
 </ul>
-
-

@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.IPMT.GetPcrPid
 title: IPMT::GetPcrPid (mpeg2psiparser.h)
 description: The GetPcrPid method returns the packet identifier (PID) of the packets that contain the Program Clock Reference (PCR) fields for this program.
+helpviewer_keywords: ["GetPcrPid","GetPcrPid method [Microsoft TV Technologies]","GetPcrPid method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetPcrPid method","IPMT.GetPcrPid","IPMT::GetPcrPid","IPMTGetPcrPid","mpeg2psiparser/IPMT::GetPcrPid","mstv.ipmt_getpcrpid"]
 old-location: mstv\ipmt_getpcrpid.htm
 tech.root: mstv
 ms.assetid: 0099e5b3-d573-47b9-9581-fbb9fee3ca16
 ms.date: 12/05/2018
 ms.keywords: GetPcrPid, GetPcrPid method [Microsoft TV Technologies], GetPcrPid method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetPcrPid method, IPMT.GetPcrPid, IPMT::GetPcrPid, IPMTGetPcrPid, mpeg2psiparser/IPMT::GetPcrPid, mstv.ipmt_getpcrpid
-f1_keywords:
-- mpeg2psiparser/IPMT.GetPcrPid
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mpeg2PsiParser.h
-api_name:
-- IPMT.GetPcrPid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPMT::GetPcrPid
+ - mpeg2psiparser/IPMT::GetPcrPid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mpeg2PsiParser.h
+api_name:
+ - IPMT.GetPcrPid
 ---
 
 # IPMT::GetPcrPid
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetPcrPid</b> method returns the packet identifier (PID) of the packets that contain the Program Clock Reference (PCR) fields for this program.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pPidVal [out]
 
 Receives the PCR_PID field.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -99,18 +90,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>

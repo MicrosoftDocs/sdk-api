@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.IEnumAgentSession.Next
 title: IEnumAgentSession::Next (tapi3cc.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.
+description: The IEnumAgentSession::Next method (tapi3cc.h) gets the next specified number of elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumAgentSession interface [TAPI 2.2]","Next method","IEnumAgentSession.Next","IEnumAgentSession::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumAgentSession interface","_tapi3_ienumagentsession_next","tapi3.ienumagentsession_next","tapi3cc/IEnumAgentSession::Next"]
 old-location: tapi3\ienumagentsession_next.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 5ac647a0-7f1a-4f6a-ad01-dba019f9bf56
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Next method, IEnumAgentSession.Next, IEnumAgentSession::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_next, tapi3.ienumagentsession_next, tapi3cc/IEnumAgentSession::Next
-f1_keywords:
-- tapi3cc/IEnumAgentSession.Next
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- IEnumAgentSession.Next
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumAgentSession::Next
+ - tapi3cc/IEnumAgentSession::Next
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - IEnumAgentSession.Next
 ---
 
 # IEnumAgentSession::Next
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Next</b> method gets the next specified number of elements in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 Number of elements requested.
 
-
 ### -param ppElements [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface.
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface.
 
 ### -param pceltFetched [out]
 
 Pointer to number of elements actually supplied. May be <b>NULL</b> if <i>celt</i> is one.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -130,33 +122,17 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface returned by <b>IEnumAgentSession::Next</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface returned by <b>IEnumAgentSession::Next</b>. The application must call <b>Release</b> on the 
 <b>ITAgentSession</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>

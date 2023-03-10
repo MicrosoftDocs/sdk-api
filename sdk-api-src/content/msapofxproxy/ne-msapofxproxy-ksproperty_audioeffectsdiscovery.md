@@ -1,16 +1,13 @@
 ---
-UID: NE:msapofxproxy.__unnamed_enum_0
+UID: NE:msapofxproxy.KSPROPERTY_AUDIOEFFECTSDISCOVERY
 title: KSPROPERTY_AUDIOEFFECTSDISCOVERY (msapofxproxy.h)
 description: The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used by the list of audio processing objects (APOs).
+helpviewer_keywords: ["KSPROPERTY_AUDIOEFFECTSDISCOVERY","KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration [Audio Devices]","KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST","audio.ksproperty_audioeffectsdiscovery","msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY","msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST"]
 old-location: audio\ksproperty_audioeffectsdiscovery.htm
 tech.root: audio
 ms.assetid: 35151A3F-3F33-4811-B50C-3F1EB197B7D8
 ms.date: 12/05/2018
 ms.keywords: KSPROPERTY_AUDIOEFFECTSDISCOVERY, KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration [Audio Devices], KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST, audio.ksproperty_audioeffectsdiscovery, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY, msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
-f1_keywords:
-- msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY
-dev_langs:
-- c++
 req.header: msapofxproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Msapofxproxy.h
-api_name:
-- KSPROPERTY_AUDIOEFFECTSDISCOVERY
 targetos: Windows
 req.typenames: KSPROPERTY_AUDIOEFFECTSDISCOVERY
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - KSPROPERTY_AUDIOEFFECTSDISCOVERY
+ - msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Msapofxproxy.h
+api_name:
+ - KSPROPERTY_AUDIOEFFECTSDISCOVERY
 ---
 
 # KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration
@@ -48,31 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used by the list of audio processing objects (APOs).
-
 
 ## -enum-fields
 
+### -field KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST:1
 
-
-
-### -field KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST
-
-Specifies the ID of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a> property.
-
+Specifies the ID of the <a href="/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a> property.
 
 ## -see-also
 
+<a href="/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn457706(v=vs.85)">KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-audioeffectsdiscovery">KSPROPSETID_AudioEffectsDiscovery</a>
- 
-
- 
+<a href="/windows-hardware/drivers/audio/kspropsetid-audioeffectsdiscovery">KSPROPSETID_AudioEffectsDiscovery</a>
 

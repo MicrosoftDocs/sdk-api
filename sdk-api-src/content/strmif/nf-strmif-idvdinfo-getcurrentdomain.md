@@ -2,15 +2,12 @@
 UID: NF:strmif.IDvdInfo.GetCurrentDomain
 title: IDvdInfo::GetCurrentDomain (strmif.h)
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current DVD domain of the DVD player.
+helpviewer_keywords: ["GetCurrentDomain","GetCurrentDomain method [DirectShow]","GetCurrentDomain method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentDomain method","IDvdInfo.GetCurrentDomain","IDvdInfo::GetCurrentDomain","IDvdInfoGetCurrentDomain","dshow.idvdinfo_getcurrentdomain","strmif/IDvdInfo::GetCurrentDomain"]
 old-location: dshow\idvdinfo_getcurrentdomain.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 35f173d5-fb8f-47e2-ab32-87fdb197710a
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDomain, GetCurrentDomain method [DirectShow], GetCurrentDomain method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentDomain method, IDvdInfo.GetCurrentDomain, IDvdInfo::GetCurrentDomain, IDvdInfoGetCurrentDomain, dshow.idvdinfo_getcurrentdomain, strmif/IDvdInfo::GetCurrentDomain
-f1_keywords:
-- strmif/IDvdInfo.GetCurrentDomain
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IDvdInfo.GetCurrentDomain
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvdInfo::GetCurrentDomain
+ - strmif/IDvdInfo::GetCurrentDomain
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IDvdInfo.GetCurrentDomain
 ---
 
 # IDvdInfo::GetCurrentDomain
@@ -48,28 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdInfo</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a> instead.</div>
 <div> </div>
 Retrieves the current DVD domain of the DVD player.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pDomain [out]
 
-Pointer to the current domain that is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> enumerated type.
-
+Pointer to the current domain that is a member of the <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a> enumerated type.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value .
 
@@ -101,31 +92,15 @@ Requested action cannot occur at this point in the movie due to the authoring of
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
-
-
-
+This method is valid in any domain. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>

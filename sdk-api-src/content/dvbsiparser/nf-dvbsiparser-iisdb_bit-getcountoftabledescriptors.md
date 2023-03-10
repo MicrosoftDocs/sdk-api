@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IISDB_BIT.GetCountOfTableDescriptors
 title: IISDB_BIT::GetCountOfTableDescriptors (dvbsiparser.h)
 description: Gets the broadcaster_descriptors_length field value from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+helpviewer_keywords: ["GetCountOfTableDescriptors","GetCountOfTableDescriptors method [Microsoft TV Technologies]","GetCountOfTableDescriptors method [Microsoft TV Technologies]","IISDB_BIT interface","IISDB_BIT interface [Microsoft TV Technologies]","GetCountOfTableDescriptors method","IISDB_BIT.GetCountOfTableDescriptors","IISDB_BIT::GetCountOfTableDescriptors","dvbsiparser/IISDB_BIT::GetCountOfTableDescriptors","mstv.iisdb_bit_getcountoftabledescriptors"]
 old-location: mstv\iisdb_bit_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 69b1851b-b8a9-4dfe-be6b-ffadd2a83b12
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_BIT.GetCountOfTableDescriptors, IISDB_BIT::GetCountOfTableDescriptors, dvbsiparser/IISDB_BIT::GetCountOfTableDescriptors, mstv.iisdb_bit_getcountoftabledescriptors
-f1_keywords:
-- dvbsiparser/IISDB_BIT.GetCountOfTableDescriptors
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_BIT.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_BIT::GetCountOfTableDescriptors
+ - dvbsiparser/IISDB_BIT::GetCountOfTableDescriptors
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_BIT.GetCountOfTableDescriptors
 ---
 
 # IISDB_BIT::GetCountOfTableDescriptors
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the broadcaster_descriptors_length field value from
   an
   Integrated Services Digital Broadcasting (ISDB)
   broadcaster information table
-  (BIT). 
-
+  (BIT).
 
 ## -parameters
 
-
-
-
 ### -param pdwVal [out]
 
-Receives the broadcaster_descriptors_length field value. 
-
+Receives the broadcaster_descriptors_length field value.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_bit">IISDB_BIT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_bit">IISDB_BIT</a>

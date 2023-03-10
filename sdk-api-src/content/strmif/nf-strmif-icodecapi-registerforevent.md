@@ -1,16 +1,13 @@
 ---
 UID: NF:strmif.ICodecAPI.RegisterForEvent
 title: ICodecAPI::RegisterForEvent (strmif.h)
-description: The RegisterForEvent method registers the application to receive events from the codec.
+description: The RegisterForEvent method registers the application to receive events from the codec. (ICodecAPI.RegisterForEvent)
+helpviewer_keywords: ["A proprietary event GUID defined by the codec.","CODECAPI_CHANGELISTS","ICodecAPI interface [DirectShow]","RegisterForEvent method","ICodecAPI.RegisterForEvent","ICodecAPI::RegisterForEvent","ICodecAPIRegisterForEvent","One of the property GUIDs defined in codecapi.h. (See Codec API Properties.)","RegisterForEvent","RegisterForEvent method [DirectShow]","RegisterForEvent method [DirectShow]","ICodecAPI interface","dshow.icodecapi_registerforevent","strmif/ICodecAPI::RegisterForEvent"]
 old-location: dshow\icodecapi_registerforevent.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 87423ddb-7011-40ab-a449-eb43688efb26
 ms.date: 12/05/2018
 ms.keywords: A proprietary event GUID defined by the codec., CODECAPI_CHANGELISTS, ICodecAPI interface [DirectShow],RegisterForEvent method, ICodecAPI.RegisterForEvent, ICodecAPI::RegisterForEvent, ICodecAPIRegisterForEvent, One of the property GUIDs defined in codecapi.h. (See Codec API Properties.), RegisterForEvent, RegisterForEvent method [DirectShow], RegisterForEvent method [DirectShow],ICodecAPI interface, dshow.icodecapi_registerforevent, strmif/ICodecAPI::RegisterForEvent
-f1_keywords:
-- strmif/ICodecAPI.RegisterForEvent
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- ICodecAPI.RegisterForEvent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICodecAPI::RegisterForEvent
+ - strmif/ICodecAPI::RegisterForEvent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - ICodecAPI.RegisterForEvent
 ---
 
 # ICodecAPI::RegisterForEvent
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>RegisterForEvent</b> method registers the application to receive events from the codec. 
-
-
-
+The <b>RegisterForEvent</b> method registers the application to receive events from the codec.
 
 ## -parameters
-
-
-
 
 ### -param Api [in]
 
@@ -83,7 +77,7 @@ The codec notifies the application when the properties of the codec change.  The
 </tr>
 <tr>
 <td width="40%"><a id="One_of_the_property_GUIDs_defined_in_codecapi.h.__See_Codec_API_Properties._"></a><a id="one_of_the_property_guids_defined_in_codecapi.h.__see_codec_api_properties._"></a><a id="ONE_OF_THE_PROPERTY_GUIDS_DEFINED_IN_CODECAPI.H.__SEE_CODEC_API_PROPERTIES._"></a><dl>
-<dt><b>One of the property GUIDs defined in codecapi.h. (See <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.)</b></dt>
+<dt><b>One of the property GUIDs defined in codecapi.h. (See <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.)</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -102,18 +96,12 @@ Implementation dependent.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param userData [out]
 
 Pointer to caller-defined data. The application receives this pointer in the <i>lParam1</i> event parameter.
-          
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -145,18 +133,12 @@ Not implemented. The codec does not support event notification, or does not supp
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The application receives an <a href="/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event notification whenever the encoder codec sends the event.  To get the event, uses the <a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a> interface.
 
-
-The application receives an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-codecapi-event">EC_CODECAPI_EVENT</a> event notification whenever the encoder codec sends the event.  To get the event, uses the <a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a> interface.
-
-The <i>lParam2</i> parameter of the event is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-codecapieventdata">CodecAPIEventData</a> structure. This structure can be followed by additional data, depending on the event GUID. The size of this  data is given by the <b>dataLength</b> member.
+The <i>lParam2</i> parameter of the event is a pointer to a <a href="/windows/desktop/api/strmif/ns-strmif-codecapieventdata">CodecAPIEventData</a> structure. This structure can be followed by additional data, depending on the event GUID. The size of this  data is given by the <b>dataLength</b> member.
 
 <table>
 <tr>
@@ -180,26 +162,16 @@ The <i>lParam2</i> parameter of the event is a pointer to a <a href="https://doc
 
 If the codec does not support the specified event, the method returns <b>E_NOTIMPL</b>. The codec might support other events.
 
-To disable notifications for an event, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-unregisterforevent">ICodecAPI::UnregisterForEvent</a>.
-
-
-
+To disable notifications for an event, call <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-unregisterforevent">ICodecAPI::UnregisterForEvent</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>

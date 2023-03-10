@@ -2,15 +2,12 @@
 UID: NF:msrdc.IRdcGeneratorParameters.GetSerializeSize
 title: IRdcGeneratorParameters::GetSerializeSize (msrdc.h)
 description: Returns the size, in bytes, of the serialized parameter data.
+helpviewer_keywords: ["GetSerializeSize","GetSerializeSize method [Remote Differential Compression]","GetSerializeSize method [Remote Differential Compression]","IRdcGeneratorParameters interface","IRdcGeneratorParameters interface [Remote Differential Compression]","GetSerializeSize method","IRdcGeneratorParameters.GetSerializeSize","IRdcGeneratorParameters::GetSerializeSize","fs.irdcgeneratorparameters_getserializesize","msrdc/IRdcGeneratorParameters::GetSerializeSize","rdc.irdcgeneratorparameters_getserializesize"]
 old-location: rdc\irdcgeneratorparameters_getserializesize.htm
 tech.root: rdc
 ms.assetid: ebd41d6c-c321-4017-bcc1-a2cdf5202730
 ms.date: 12/05/2018
 ms.keywords: GetSerializeSize, GetSerializeSize method [Remote Differential Compression], GetSerializeSize method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetSerializeSize method, IRdcGeneratorParameters.GetSerializeSize, IRdcGeneratorParameters::GetSerializeSize, fs.irdcgeneratorparameters_getserializesize, msrdc/IRdcGeneratorParameters::GetSerializeSize, rdc.irdcgeneratorparameters_getserializesize
-f1_keywords:
-- msrdc/IRdcGeneratorParameters.GetSerializeSize
-dev_langs:
-- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: MsRdc.dll
 req.lib: 
 req.dll: MsRdc.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsRdc.dll
-api_name:
-- IRdcGeneratorParameters.GetSerializeSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRdcGeneratorParameters::GetSerializeSize
+ - msrdc/IRdcGeneratorParameters::GetSerializeSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsRdc.dll
+api_name:
+ - IRdcGeneratorParameters.GetSerializeSize
 ---
 
 # IRdcGeneratorParameters::GetSerializeSize
@@ -48,42 +50,24 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>GetSerializeSize</b> method 
     returns the size, in bytes, of the serialized parameter data.
 
-
 ## -parameters
-
-
-
 
 ### -param size [out]
 
 Address of a <b>ULONG</b> that on successful completion is filled with the size, in 
       bytes, of the serialized parameter data.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">Serialize</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcgeneratorparameters-serialize">Serialize</a>

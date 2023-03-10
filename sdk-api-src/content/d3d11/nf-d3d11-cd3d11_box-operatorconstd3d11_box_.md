@@ -1,7 +1,8 @@
 ---
-UID: NF:d3d11.CD3D11_BOX.operator const D3D11_BOX&
+UID: NF:d3d11.CD3D11_BOX.operator-cast-const-D3D11_BOX&
 title: CD3D11_BOX::operator const D3D11_BOX& (d3d11.h)
 description: This operator returns the address of a D3D11_BOX structure that contains the data from the CD3D11_BOX instance.
+helpviewer_keywords: ["CD3D11_BOX interface [Direct3D 11]","operator const D3D11_BOX& method","CD3D11_BOX.operator const D3D11_BOX&","CD3D11_BOX::operator const D3D11_BOX&","CD3D11_BOX::operator const D3D11_BOX&()","d3d11/CD3D11_BOX::operator const D3D11_BOX&","direct3d11.cd3d11_box_d3d11_box__","operator const D3D11_BOX&","operator const D3D11_BOX& method [Direct3D 11]","operator const D3D11_BOX& method [Direct3D 11]","CD3D11_BOX interface"]
 old-location: direct3d11\cd3d11_box_d3d11_box__.htm
 tech.root: direct3d11
 ms.assetid: 0640FA44-2E60-4B6A-AD18-78C7EF1C8A0F
@@ -50,10 +51,10 @@ ms.custom: 19H1
 ## -description
 
 
-This operator returns the address of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_box">D3D11_BOX</a> structure that contains  the data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a> instance.
+This operator returns the address of a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_box">D3D11_BOX</a> structure that contains  the data from the <a href="/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a> instance.
 
 
-## -parameters
+
 
 
 
@@ -65,8 +66,7 @@ This operator returns the address of a <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a>
+<a href="/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a>
  
 
  
-

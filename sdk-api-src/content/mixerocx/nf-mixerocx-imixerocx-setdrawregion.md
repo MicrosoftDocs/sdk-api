@@ -2,15 +2,12 @@
 UID: NF:mixerocx.IMixerOCX.SetDrawRegion
 title: IMixerOCX::SetDrawRegion (mixerocx.h)
 description: The SetDrawRegion method specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
+helpviewer_keywords: ["IMixerOCX interface [DirectShow]","SetDrawRegion method","IMixerOCX.SetDrawRegion","IMixerOCX::SetDrawRegion","IMixerOCXSetDrawRegion","SetDrawRegion","SetDrawRegion method [DirectShow]","SetDrawRegion method [DirectShow]","IMixerOCX interface","dshow.imixerocx_setdrawregion","mixerocx/IMixerOCX::SetDrawRegion"]
 old-location: dshow\imixerocx_setdrawregion.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 6f1a9b00-4a35-4772-a185-59b2bc9b9398
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],SetDrawRegion method, IMixerOCX.SetDrawRegion, IMixerOCX::SetDrawRegion, IMixerOCXSetDrawRegion, SetDrawRegion, SetDrawRegion method [DirectShow], SetDrawRegion method [DirectShow],IMixerOCX interface, dshow.imixerocx_setdrawregion, mixerocx/IMixerOCX::SetDrawRegion
-f1_keywords:
-- mixerocx/IMixerOCX.SetDrawRegion
-dev_langs:
-- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IMixerOCX.SetDrawRegion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMixerOCX::SetDrawRegion
+ - mixerocx/IMixerOCX::SetDrawRegion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IMixerOCX.SetDrawRegion
 ---
 
 # IMixerOCX::SetDrawRegion
@@ -49,36 +51,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetDrawRegion</code> method specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lpptTopLeftSC [in]
 
 Specifies the top left of the video rectangle in screen coordinates. (The Overlay Mixer filter ignores this parameter. This parameter should be set to <b>NULL</b>.)
 
-
 ### -param prcDrawCC [in]
 
 Specifies the video rectangle in screen coordinates. This parameter cannot be <b>NULL</b>.
-
 
 ### -param lprcClip [in]
 
 Specifies the clipping rectangle in screen coordinates. This parameter cannot be <b>NULL</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b> value. Possible values include those in the following table.
 
@@ -110,22 +99,11 @@ Either <i>prcDrawCC</i> or <i>lprcClip</i> are <b>NULL</b>.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mixerocx/nn-mixerocx-imixerocx">IMixerOCX Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>

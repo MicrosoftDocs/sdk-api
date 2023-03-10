@@ -2,15 +2,12 @@
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.SetRdpProperty
 title: IRemoteDesktopClientSettings::SetRdpProperty (rdpappcontainerclient.h)
 description: Sets the value of a single named RDP property.
+helpviewer_keywords: ["IRemoteDesktopClientSettings interface [Remote Desktop Services]","SetRdpProperty method","IRemoteDesktopClientSettings.SetRdpProperty","IRemoteDesktopClientSettings::SetRdpProperty","SetRdpProperty","SetRdpProperty method [Remote Desktop Services]","SetRdpProperty method [Remote Desktop Services]","IRemoteDesktopClientSettings interface","WinRTEncryptedPassword","WinRTPasswordEncoding","Workspace Id","administrative session","allow font smoothing","alternate full address","audiocapturemode","audiomode","authentication level","connection type","cookie based authentication server address","desktopheight","desktopwidth","disable full window drag","disable menu anims","disable themes","disable wallpaper","domain","enablecredsspsupport","full address","gatewaycredentialssource","gatewayhostname","gatewayprofileusagemethod","gatewayusagemethod","high resolution mouse","loadbalanceinfo","login web page address","pre-authentication server address","prompt for credentials","promptcredentialonce","rdpappcontainerclient/IRemoteDesktopClientSettings::SetRdpProperty","redirectclipboard","redirectprinters","require pre-authentication","support url","termserv.iremotedesktopclientsettings_setrdpproperty","use redirection server name","username"]
 old-location: termserv\iremotedesktopclientsettings_setrdpproperty.htm
 tech.root: TermServ
 ms.assetid: 3c1a9e70-3e77-4f21-b3a1-8e4c3c5cf148
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],SetRdpProperty method, IRemoteDesktopClientSettings.SetRdpProperty, IRemoteDesktopClientSettings::SetRdpProperty, SetRdpProperty, SetRdpProperty method [Remote Desktop Services], SetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, WinRTEncryptedPassword, WinRTPasswordEncoding, Workspace Id, administrative session, allow font smoothing, alternate full address, audiocapturemode, audiomode, authentication level, connection type, cookie based authentication server address, desktopheight, desktopwidth, disable full window drag, disable menu anims, disable themes, disable wallpaper, domain, enablecredsspsupport, full address, gatewaycredentialssource, gatewayhostname, gatewayprofileusagemethod, gatewayusagemethod, high resolution mouse, loadbalanceinfo, login web page address, pre-authentication server address, prompt for credentials, promptcredentialonce, rdpappcontainerclient/IRemoteDesktopClientSettings::SetRdpProperty, redirectclipboard, redirectprinters, require pre-authentication, support url, termserv.iremotedesktopclientsettings_setrdpproperty, use redirection server name, username
-f1_keywords:
-- rdpappcontainerclient/IRemoteDesktopClientSettings.SetRdpProperty
-dev_langs:
-- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library: MsTscAx.dll
 req.lib: 
 req.dll: MsTscAx.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- MsTscAx.dll
-api_name:
-- IRemoteDesktopClientSettings.SetRdpProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRemoteDesktopClientSettings::SetRdpProperty
+ - rdpappcontainerclient/IRemoteDesktopClientSettings::SetRdpProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - MsTscAx.dll
+api_name:
+ - IRemoteDesktopClientSettings.SetRdpProperty
 ---
 
 # IRemoteDesktopClientSettings::SetRdpProperty
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Sets the value of a single named RDP property.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param propertyName [in]
 
@@ -674,25 +668,25 @@ Specifies an encrypted password. To set this property, you must perform the foll
 
 <ol>
 <li>Convert the clear text password to binary by using the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
-          method on the <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> 
+          <a href="/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
+          method on the <a href="/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> 
           class.</li>
 <li>Set the <b>WinRTPasswordEncoding</b> property by using an equivalent value for the 
           encoding parameter you passed to the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
+          <a href="/uwp/api/windows.security.cryptography.cryptographicbuffer.convertstringtobinary">ConvertStringToBinary</a> 
           method in step 1.</li>
 <li>Call the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/Windows.Security.Cryptography.DataProtection.DataProtectionProvider">DataProtectionProvider(String)</a> 
+          <a href="/uwp/api/Windows.Security.Cryptography.DataProtection.DataProtectionProvider">DataProtectionProvider(String)</a> 
           method by passing "LOCAL=user" for the input string.</li>
 <li>Call the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
+          <a href="/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
           method to encrypt the binary string that contains the password.</li>
 <li>Convert the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> object 
+          <a href="/uwp/api/windows.security.cryptography.cryptographicbuffer">CryptographicBuffer</a> object 
           returned by the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
+          <a href="/uwp/api/windows.security.cryptography.dataprotection.dataprotectionprovider.protectasync">ProtectAsync</a> 
           method to a Base64 encoded value by using the 
-          <a href="https://docs.microsoft.com/en-us/uwp/api/windows.security.cryptography.cryptographicbuffer.encodetobase64string">EncodeToBase64String</a> 
+          <a href="/uwp/api/windows.security.cryptography.cryptographicbuffer.encodetobase64string">EncodeToBase64String</a> 
           method.</li>
 <li>Set this property (<b>WinRTEncryptedPassword</b>) with the Base64 encoded string 
           obtained in step 5.</li>
@@ -732,28 +726,14 @@ UTF16BE
 Specifies the identifier of the RemoteApp and Desktop Connection workspace which this RDP file has been 
          published as part of.
 
-
 ### -param value [in]
 
 The new property value.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings">IRemoteDesktopClientSettings</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclientsettings">IRemoteDesktopClientSettings</a>

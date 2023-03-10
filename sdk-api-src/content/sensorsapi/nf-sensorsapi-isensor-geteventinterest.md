@@ -2,15 +2,12 @@
 UID: NF:sensorsapi.ISensor.GetEventInterest
 title: ISensor::GetEventInterest (sensorsapi.h)
 description: Retrieves the current event interest settings.
+helpviewer_keywords: ["GetEventInterest","GetEventInterest method","GetEventInterest method","ISensor interface","ISensor interface","GetEventInterest method","ISensor.GetEventInterest","ISensor::GetEventInterest","sensorsapi/ISensor::GetEventInterest","winsensors_com_ref.isensor_geteventinterest"]
 old-location: winsensors_com_ref\isensor_geteventinterest.htm
-tech.root: SensorsAPI
+tech.root: winsensors
 ms.assetid: 8324817e-c310-4b90-b5b4-c7e113e3502e
 ms.date: 12/05/2018
 ms.keywords: GetEventInterest, GetEventInterest method, GetEventInterest method,ISensor interface, ISensor interface,GetEventInterest method, ISensor.GetEventInterest, ISensor::GetEventInterest, sensorsapi/ISensor::GetEventInterest, winsensors_com_ref.isensor_geteventinterest
-f1_keywords:
-- sensorsapi/ISensor.GetEventInterest
-dev_langs:
-- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sensorsapi.dll
-api_name:
-- ISensor.GetEventInterest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISensor::GetEventInterest
+ - sensorsapi/ISensor::GetEventInterest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sensorsapi.dll
+api_name:
+ - ISensor.GetEventInterest
 ---
 
 # ISensor::GetEventInterest
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the current event interest settings.
 
-
 ## -parameters
-
-
-
 
 ### -param ppValues [out]
 
 Address of a <b>GUID</b> pointer that points to an array of sensor event identifiers.
 
-
 ### -param pCount [out]
 
 The count of <b>GUID</b>s in the array pointed to by <i>ppValues</i>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,31 +94,15 @@ NULL was passed in for ppValues or pCount.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Each sensor event is represented by a <b>GUID</b>. This method returns the list of requested events as an array of <b>GUID</b>s.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-seteventinterest">SetEventInterest</a>

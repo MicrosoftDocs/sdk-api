@@ -2,15 +2,12 @@
 UID: NF:clusapi.ClusterRegBatchCloseNotification
 title: ClusterRegBatchCloseNotification function (clusapi.h)
 description: Frees the memory associated with the batch notification.
+helpviewer_keywords: ["ClusterRegBatchCloseNotification","ClusterRegBatchCloseNotification function [Failover Cluster]","PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION","clusapi/ClusterRegBatchCloseNotification","mscs.clusterregbatchclosenotification"]
 old-location: mscs\clusterregbatchclosenotification.htm
 tech.root: MsCS
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50
 ms.date: 12/05/2018
 ms.keywords: ClusterRegBatchCloseNotification, ClusterRegBatchCloseNotification function [Failover Cluster], PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION, clusapi/ClusterRegBatchCloseNotification, mscs.clusterregbatchclosenotification
-f1_keywords:
-- clusapi/ClusterRegBatchCloseNotification
-dev_langs:
-- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- ClusAPI.dll
-api_name:
-- ClusterRegBatchCloseNotification
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ClusterRegBatchCloseNotification
+ - clusapi/ClusterRegBatchCloseNotification
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - ClusAPI.dll
+api_name:
+ - ClusterRegBatchCloseNotification
 ---
 
 # ClusterRegBatchCloseNotification function
@@ -48,26 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Frees the memory associated with the batch notification.
 
-
 ## -parameters
-
-
-
 
 ### -param hBatchNotification [in]
 
 A handle to the batch notification.
 
-
 ## -returns
 
-
-
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -100,28 +94,12 @@ The handle is not valid. This error is returned if the <i>hBatchNotification</i>
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION</b> type defines a pointer to this 
      function.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>

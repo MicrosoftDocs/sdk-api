@@ -3,14 +3,10 @@ UID: NI:tcpioctl.IOCTL_TCP_QUERY_INFORMATION_EX
 title: IOCTL_TCP_QUERY_INFORMATION_EX (tcpioctl.h)
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm
-tech.root: DevNotes
+tech.root: winprog
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
 ms.date: 12/05/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
-f1_keywords:
-- tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX
-dev_langs:
-- c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +24,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpioctl.h
-api_name:
-- IOCTL_TCP_QUERY_INFORMATION_EX
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOCTL_TCP_QUERY_INFORMATION_EX
+ - tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpioctl.h
+api_name:
+ - IOCTL_TCP_QUERY_INFORMATION_EX
 ---
 
 # IOCTL_TCP_QUERY_INFORMATION_EX IOCTL
@@ -48,104 +49,57 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This control code may be altered or unavailable in future versions of Windows.
 Use  Internet Protocol Helper API instead of this
 control code.]
 
 Retrieves information from the TCP/IP driver.
 
-To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
+To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
 				function with the following parameters.
 
 ```cpp
 BOOL DeviceIoControl(
   (HANDLE) hDevice,                  // Open handle to the TCP driver
-  IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCodeNULL,                              // lpInBuffer (the output buffer is used for input too)
-  0,                                 // nInBufferSize(LPVOID) lpOutBuffer,              // Pointer to the output buffer
+  IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCode
+  NULL,                              // lpInBuffer (the output buffer is used for input too)
+  0,                                 // nInBufferSize
+  (LPVOID) lpOutBuffer,              // Pointer to the output buffer
   (DWORD) nOutBufferSize,            // Size of the output buffer
   (LPDWORD) lpBytesReturned,         // Number of bytes returned (if called synchronously)
   (LPOVERLAPPED) lpOverlapped        // OVERLAPPED structure (if called asynchronously)
 );
 ```
 
-
-
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -input-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -output-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -output-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -in-out-buffer
-
-
-
-<text></text>
-
-
 
 
 ### -inout-buffer-length
 
 
-
-<text></text>
-
-
-
-
 ### -status-block
-
-
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
-
-
 
 To use <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, you should be familiar with Windows Driver Development, as documented in the Windows Driver Kit (WDK), and specifically with Transport Driver Interface (TDI) drivers. The WDK is available for download from the MSDN website.
 
@@ -200,13 +154,13 @@ To use <b>IOCTL_TCP_QUERY_INFORMATION_EX</b>, you should be familiar with Window
 <div> </div>
 The <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation 
 		retrieves different kinds of information, depending on what the 
-		<a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure 
+		<a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure 
 				pointed to by the <i>lpInBuffer</i> parameter contains, as described in the following paragraph and  example code.
 			
 
 1. Enumerate TDI Entities.
 
- To retrieve an array of <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
+ To retrieve an array of <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
 				structures that identifies all the TCP entities on the machine, set the <b>ID.toi_entity.tei_entity</b> 
 				member of the input structure to <b>GENERIC_ENTITY</b>. <b>ID.toi_class</b> must then 
 				be set to <b>INFO_CLASS_GENERIC</b>, <b>ID.toi_type</b> must be set to 
@@ -219,11 +173,11 @@ The <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation
 2. Obtain Type Information about a Specific TDI Entity.
 
 If the <b>ID.toi_entity</b> member of the input 
-				structure identifies a specific entity (as in the case of the <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
+				structure identifies a specific entity (as in the case of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdientityid">TDIEntityID</a> 
 				structures returned by the enumeration request above), then setting the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_GENERIC</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b>pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
+				<b>ENTITY_TYPE_ID</b> causes one or more flag values to be returned into an <b>unsigned long</b> pointed to by the <i>lpOutBuffer</i> parameter. These flag values identify the type of the specified entity. Once again, the 
 				<b>Context</b> member of the input structure is ignored.
 
 The possible type-flag values that can be returned are shown in the following table.
@@ -290,24 +244,24 @@ The possible type-flag values that can be returned are shown in the following ta
 
 3. Obtain MIB-II Information about an Interface Entity. 
 
-If the entity type is IF_MIB, then a MIB request can be sent to it that results in the return of an <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> structure. Set the <b>ID.toi_entity</b> member of the input 
+If the entity type is IF_MIB, then a MIB request can be sent to it that results in the return of an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> structure. Set the <b>ID.toi_entity</b> member of the input 
 				structure to identify the entity,  the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
 				<b>IF_MIB_STATS_ID</b>.
 
-Note that because <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> is a variable-length structure, the output buffer should be allocated not just as "sizeof(IFEntry)" but as "sizeof(IFEntry) + MAX_ADAPTER_DESCRIPTION_LENGTH + 1".
+Note that because <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ifentry">IFEntry</a> is a variable-length structure, the output buffer should be allocated not just as "sizeof(IFEntry)" but as "sizeof(IFEntry) + MAX_ADAPTER_DESCRIPTION_LENGTH + 1".
 
 4. Obtain MIB-II Information about a Particular IP Entity. 
 
 MIB information can also be retrieved from an IP entity (one whose type is <b>CL_NL_ENTITY</b>) by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
-				<b>IP_MIB_STATS_ID</b>. In this case, an <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure is returned, and the output buffer can be allocated to "sizeof(IPSNMPInfo)".
+				<b>IP_MIB_STATS_ID</b>. In this case, an <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure is returned, and the output buffer can be allocated to "sizeof(IPSNMPInfo)".
 
 5. Obtain Address Information about a Particular IP Entity.
 
-If the <b>ipsi_numaddr</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure returned for a particular IP entity is nonzero, an array of <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> structures can be retrieved by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
+If the <b>ipsi_numaddr</b> member of the <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipsnmpinfo">IPSNMPInfo</a> structure returned for a particular IP entity is nonzero, an array of <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> structures can be retrieved by setting the <b>ID.toi_entity</b> member to identify the entity, the <b>ID.toi_class</b> to 
 				<b>INFO_CLASS_PROTOCOL</b>, the <b>ID.toi_type</b> to 
 				<b>INFO_TYPE_PROVIDER</b>, and the <b>ID.toi_id</b> to 
 				<b>IP_MIB_ADDRTABLE_ENTRY_ID</b>. In this case, the output buffer should be allocated to hold an array of size:  
@@ -316,14 +270,14 @@ If the <b>ipsi_numaddr</b> member of the <a href="https://docs.microsoft.com/win
 
 6. Obtain Interface Information about a Particular IP Address.
 
-More interface information can be retrieved for a given IP address returned in the <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> array above by leaving the <b>ID.toi_entity</b> member set to identify the IP entity, the <b>ID.toi_class</b> set to 
+More interface information can be retrieved for a given IP address returned in the <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipaddrentry">IPAddrEntry</a> array above by leaving the <b>ID.toi_entity</b> member set to identify the IP entity, the <b>ID.toi_class</b> set to 
 				<b>INFO_CLASS_PROTOCOL</b>, and the <b>ID.toi_type</b> set to 
 				<b>INFO_TYPE_PROVIDER</b>, and then by setting the <b>ID.toi_id</b> to 
-				<b>IP_INTFC_INFO_ID</b> and the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure to the IPv4 or IPv6 address in question. 
+				<b>IP_INTFC_INFO_ID</b> and the <b>Context</b> member of the <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tcp_request_query_information_ex_w2k">TCP_REQUEST_QUERY_INFORMATION_EX</a> structure to the IPv4 or IPv6 address in question. 
 
 Allocate an output buffer large enough to contain <code>sizeof(IPINTERFACEINFO) + MAX_PHYSADDR_SIZE</code>.
 
-On return, the output buffer contains a filled-in <a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ns-tcpioctl-ipinterfaceinfo">IPInterfaceInfo</a> structure.
+On return, the output buffer contains a filled-in <a href="/windows/desktop/api/tcpioctl/ns-tcpioctl-ipinterfaceinfo">IPInterfaceInfo</a> structure.
 
 
 #### Examples
@@ -593,25 +547,14 @@ int main( )
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">Internet Protocol Helper API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">Internet Protocol Helper API</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base Reference</a>

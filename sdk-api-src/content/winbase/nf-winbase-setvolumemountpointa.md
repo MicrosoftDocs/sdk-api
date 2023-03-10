@@ -1,16 +1,13 @@
 ---
 UID: NF:winbase.SetVolumeMountPointA
 title: SetVolumeMountPointA function (winbase.h)
-description: Associates a volume with a drive letter or a directory on another volume.
+description: Associates a volume with a drive letter or a directory on another volume. (ANSI)
+helpviewer_keywords: ["SetVolumeMountPointA", "winbase/SetVolumeMountPointA"]
 old-location: fs\setvolumemountpoint.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
 ms.date: 12/05/2018
 ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
-f1_keywords:
-- winbase/SetVolumeMountPoint
-dev_langs:
-- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,28 +25,33 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
-- kernel32legacy.dll
-- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
-- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
-- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-api_name:
-- SetVolumeMountPoint
-- SetVolumeMountPointA
-- SetVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetVolumeMountPointA
+ - winbase/SetVolumeMountPointA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - SetVolumeMountPoint
+ - SetVolumeMountPointA
+ - SetVolumeMountPointW
 ---
 
 # SetVolumeMountPointA function
@@ -57,46 +59,32 @@ ms.custom: 19H1
 
 ## -description
 
-
 Associates a volume with a drive letter or a directory on another volume.
-
 
 ## -parameters
 
-
-
-
 ### -param lpszVolumeMountPoint [in]
 
-The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\") or a directory 
+The user-mode path to be associated with the volume. This may be a drive letter (for example, "X:\\") or a directory 
       on another volume (for example, "Y:\MountX\"). The string must end with a trailing backslash ('\').
-
 
 ### -param lpszVolumeName [in]
 
 A volume <b>GUID</b> path for the volume. This string must be of the form 
       "\\\\?\Volume{<i>GUID</i>}\" where <i>GUID</i> is a <b>GUID</b> that identifies 
       the volume. The "\\\\?\" turns off path parsing and is ignored as part of the path, as discussed in 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
-
+      <a href="/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
-
-
-
+If the <i>lpszVolumeMountPoint</i> parameter contains a path to a mounted folder, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_DIR_NOT_EMPTY</b>, even if the directory is empty.
 
 ## -remarks
-
-
 
 When this function is used to associate a volume with a directory on another volume, the associated directory is called a <i>mounted folder</i>.
 
@@ -106,7 +94,7 @@ It is an error to associate a volume with a directory that has any files or subd
 
 When mounted folders are created on a volume on a clustered disk, they may be deleted unexpectedly under certain 
     circumstances. For information on how to create and configure mounted folders to ensure that this does not happen, 
-    see <a href="https://go.microsoft.com/fwlink/p/?linkid=169338">Cluster Disk and Drive Connection Problems</a>.
+    see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc757627(v=ws.10)">Cluster Disk and Drive Connection Problems</a>.
 
 IIn Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -174,35 +162,32 @@ SMB does not support volume management functions. For CsvFS a new mount point wi
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/mounting-a-volume-at-a-mount-point">Creating a Mounted Folder</a>.
+     <a href="/windows/desktop/FileIO/mounting-a-volume-at-a-mount-point">Creating a Mounted Folder</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines SetVolumeMountPoint as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw">DeleteVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

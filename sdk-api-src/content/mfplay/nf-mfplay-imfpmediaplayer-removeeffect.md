@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaPlayer.RemoveEffect
 title: IMFPMediaPlayer::RemoveEffect (mfplay.h)
 description: Removes an effect that was added with the IMFPMediaPlayer::InsertEffect method.
+helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","RemoveEffect method","IMFPMediaPlayer.RemoveEffect","IMFPMediaPlayer::RemoveEffect","RemoveEffect","RemoveEffect method [Media Foundation]","RemoveEffect method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_removeeffect","mfplay/IMFPMediaPlayer::RemoveEffect"]
 old-location: mf\imfpmediaplayer_removeeffect.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ca8507b9-c6c5-4e17-9c18-3ec1514de897
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveEffect method, IMFPMediaPlayer.RemoveEffect, IMFPMediaPlayer::RemoveEffect, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removeeffect, mfplay/IMFPMediaPlayer::RemoveEffect
-f1_keywords:
-- mfplay/IMFPMediaPlayer.RemoveEffect
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.RemoveEffect
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::RemoveEffect
+ - mfplay/IMFPMediaPlayer::RemoveEffect
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.RemoveEffect
 ---
 
 # IMFPMediaPlayer::RemoveEffect
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
-Removes an effect that was added with the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">IMFPMediaPlayer::InsertEffect</a> method.
-
+Removes an effect that was added with the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">IMFPMediaPlayer::InsertEffect</a> method.
 
 ## -parameters
 
-
-
-
 ### -param pEffect [in]
 
-Pointer to the <b>IUnknown</b> interface of the effect object. Use the same pointer that you passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">InsertEffect</a> method.
-
+Pointer to the <b>IUnknown</b> interface of the effect object. Use the same pointer that you passed to the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-inserteffect">InsertEffect</a> method.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,35 +94,19 @@ The effect was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The change applies to the next media item that is set on the player. The effect is not removed from the current media item.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/how-to-add-audio-or-video-effects">How to Add Audio or Video Effects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-add-audio-or-video-effects">How to Add Audio or Video Effects</a>
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

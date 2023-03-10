@@ -2,15 +2,12 @@
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
 title: ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses (termmgr.h)
 description: The EnumerateTerminalClasses method lists all terminal classes for the current terminal superclass.
+helpviewer_keywords: ["EnumerateTerminalClasses","EnumerateTerminalClasses method [TAPI 2.2]","EnumerateTerminalClasses method [TAPI 2.2]","ITPluggableTerminalSuperclassRegistration interface","ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2]","EnumerateTerminalClasses method","ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses","ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses","_tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses","tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses","termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses"]
 old-location: tapi3\itpluggableterminalsuperclassregistration_enumerateterminalclasses.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: dc75972d-7917-406d-8ed8-e05679ab86eb
 ms.date: 12/05/2018
 ms.keywords: EnumerateTerminalClasses, EnumerateTerminalClasses method [TAPI 2.2], EnumerateTerminalClasses method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],EnumerateTerminalClasses method, ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses, ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses, _tapi3_itpluggableterminalsuperclassregistration_enumerateterminalclasses, tapi3.itpluggableterminalsuperclassregistration_enumerateterminalclasses, termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
-f1_keywords:
-- termmgr/ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
-dev_langs:
-- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
+ - termmgr/ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
 ---
 
 # ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>EnumerateTerminalClasses</b> method lists all terminal classes for the current terminal superclass.
 
-
 ## -parameters
-
-
-
 
 ### -param ppTerminals [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> interface that enumerates the terminal classes.
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> interface that enumerates the terminal classes.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -109,33 +103,17 @@ The <i>ppTerminals</i> parameter is not a valid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> interface returned by <b>ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a> interface returned by <b>ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses</b>. The application must call <b>Release</b> on the 
 <b>IEnumTerminalClass</b> interface to free resources associated with it.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass">IEnumTerminalClass</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
- 
-
- 
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>

@@ -2,15 +2,12 @@
 UID: NF:pdh.PdhSetDefaultRealTimeDataSource
 title: PdhSetDefaultRealTimeDataSource function (pdh.h)
 description: Specifies the source of the real-time data.
+helpviewer_keywords: ["DATA_SOURCE_REGISTRY","DATA_SOURCE_WBEM","PdhSetDefaultRealTimeDataSource","PdhSetDefaultRealTimeDataSource function [Perf]","_win32_pdhsetdefaultrealtimedatasource","base.pdhsetdefaultrealtimedatasource","pdh/PdhSetDefaultRealTimeDataSource","perf.pdhsetdefaultrealtimedatasource"]
 old-location: perf\pdhsetdefaultrealtimedatasource.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: 5a46ac26-c1a1-40c1-a328-688e0b394e18
 ms.date: 12/05/2018
 ms.keywords: DATA_SOURCE_REGISTRY, DATA_SOURCE_WBEM, PdhSetDefaultRealTimeDataSource, PdhSetDefaultRealTimeDataSource function [Perf], _win32_pdhsetdefaultrealtimedatasource, base.pdhsetdefaultrealtimedatasource, pdh/PdhSetDefaultRealTimeDataSource, perf.pdhsetdefaultrealtimedatasource
-f1_keywords:
-- pdh/PdhSetDefaultRealTimeDataSource
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhSetDefaultRealTimeDataSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhSetDefaultRealTimeDataSource
+ - pdh/PdhSetDefaultRealTimeDataSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhSetDefaultRealTimeDataSource
 ---
 
 # PdhSetDefaultRealTimeDataSource function
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the source of the real-time data.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param dwDataSourceId [in]
 
@@ -90,19 +86,15 @@ The data source is a WMI provider.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following is a possible value.
 
 <table>
 <tr>
@@ -121,29 +113,13 @@ The parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The term <i>real-time</i> as used in the description of this function does not imply the standard meaning of the term <i>real-time</i>. Instead, it describes the collection of performance data from a source providing current information (for example, the registry or a WMI provider) rather than from a log file.
 
 If you want to query real-time data from WMI, you must call <b>PdhSetDefaultRealTimeDataSource</b> to set the default real-time data source. You must call this function before calling any other PDH API function.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhselectdatasourcea">PdhSelectDataSource</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhselectdatasourcea">PdhSelectDataSource</a>

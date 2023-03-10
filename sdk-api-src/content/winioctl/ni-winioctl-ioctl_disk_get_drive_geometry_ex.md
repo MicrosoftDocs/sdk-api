@@ -2,15 +2,12 @@
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 title: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 description: Retrieves extended information about the physical disk's geometry:\_type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
+helpviewer_keywords: ["IOCTL_DISK_GET_DRIVE_GEOMETRY_EX","IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control","IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files]","_win32_ioctl_disk_get_drive_geometry_ex","base.ioctl_disk_get_drive_geometry_ex","fs.ioctl_disk_get_drive_geometry_ex","winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX"]
 old-location: fs\ioctl_disk_get_drive_geometry_ex.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: 8a0667c8-b182-4851-af8e-411d95da0e3b
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files], _win32_ioctl_disk_get_drive_geometry_ex, base.ioctl_disk_get_drive_geometry_ex, fs.ioctl_disk_get_drive_geometry_ex, winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-f1_keywords:
-- winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- WinIoCtl.h
-api_name:
-- IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
+ - winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - WinIoCtl.h
+api_name:
+ - IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 ---
 
 # IOCTL_DISK_GET_DRIVE_GEOMETRY_EX IOCTL
@@ -47,121 +49,74 @@ req.redist:
 
 ## -description
 
+Retrieves extended information about the physical disk's geometry: type, number of cylinders, tracks per cylinder, sectors per track, bytes per sector, and size.
 
-Retrieves extended information about the physical disk's geometry: type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
-  (HANDLE) hDevice,                 // handle to volume
-  IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, // dwIoControlCodeNULL,                             // lpInBuffer0,                                // nInBufferSize(LPVOID) lpOutBuffer,             // output buffer
+To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
+
+```cpp
+BOOL DeviceIoControl(
+  (HANDLE) hDevice,                 // handle to device
+  IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, // dwIoControlCode
+  NULL,                             // lpInBuffer
+  0,                                // nInBufferSize
+  (LPVOID) lpOutBuffer,             // output buffer
   (DWORD) nOutBufferSize,           // size of output buffer
   (LPDWORD) lpBytesReturned,        // number of bytes returned
   (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
 
-## -ioctlparameters
+## -parameters
 
+### -param hDevice [in]
 
+A handle to the disk.
 
+To retrieve a device handle, call the [**CreateFile**](../fileapi/nf-fileapi-createfilew.md) function.
 
-### -input-buffer
+### -param dwIoControlCode [in]
 
+The control code for the operation.
 
+Use **IOCTL_DISK_GET_DRIVE_GEOMETRY_EX** for this operation.
 
-<text></text>
+### -param lpInBuffer [in, optional]
 
+Not used with this operation. Set to **NULL**.
 
+### -param nInBufferSize [in]
 
+The size of the input buffer, in bytes. Set to 0 (zero).
 
-### -input-buffer-length
+### -param lpOutBuffer [out, optional]
 
+A pointer to the output buffer that is to receive the [**DISK_GEOMETRY_EX**](ns-winioctl-disk_geometry_ex.md) data returned by the operation.
 
+If the size of the output buffer is (**sizeof**(DISK_GEOMETRY) + **sizeof**(LARGE_INTEGER)), the output buffer receives only [**DISK_GEOMETRY**](ns-winioctl-disk_geometry.md) data and disk size.
 
-<text></text>
+If you want to get [**DISK_PARTITION_INFO**](ns-winioctl-disk_partition_info.md) data and [**DISK_DETECTION_INFO**](ns-winioctl-disk_detection_info.md) data, the size of the output buffer must be at least (**sizeof**(DISK_GEOMETRY) + **sizeof**(LARGE_INTEGER) + **sizeof**(DISK_PARTITION_INFO) + **sizeof**(DISK_DETECTION_INFO)).
 
+### -param nOutBufferSize [in]
 
+The size of the output buffer, in bytes. It must be at least (**sizeof**(DISK_GEOMETRY) + **sizeof**(LARGE_INTEGER)).
 
+### -param lpBytesReturned [out, optional]
 
-### -output-buffer
+A pointer to a variable that receives the size of the data stored in the output buffer, in bytes.
 
+### -param lpOverlapped [in, out, optional]
 
+A pointer to an [**OVERLAPPED**](../minwinbase/ns-minwinbase-overlapped.md) structure.
 
-<text></text>
+## -returns
 
+If the operation completes successfully, the return value is nonzero.
 
-
-
-### -output-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -status-block
-
-
-
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-
-
-## -remarks
-
-
-
-When specifying a GUID partition table (GPT) as the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a> of the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-create_disk">CREATE_DISK</a> structure, an application should wait for the MSR partition arrival before sending the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout_ex">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a> control code. For more information about device notification, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>.
-
-
-
+If the operation fails, or is pending, the return value is zero. To get extended error information, call [**GetLastError**](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_geometry_ex">DISK_GEOMETRY_EX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes">Disk Management Control Codes</a>
- 
-
- 
+* [DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
 

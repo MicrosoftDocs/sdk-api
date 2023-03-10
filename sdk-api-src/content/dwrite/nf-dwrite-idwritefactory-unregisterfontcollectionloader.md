@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteFactory.UnregisterFontCollectionLoader
 title: IDWriteFactory::UnregisterFontCollectionLoader (dwrite.h)
 description: Unregisters a custom font collection loader that was previously registered using RegisterFontCollectionLoader.
+helpviewer_keywords: ["IDWriteFactory interface [Direct Write]","UnregisterFontCollectionLoader method","IDWriteFactory.UnregisterFontCollectionLoader","IDWriteFactory::UnregisterFontCollectionLoader","UnregisterFontCollectionLoader","UnregisterFontCollectionLoader method [Direct Write]","UnregisterFontCollectionLoader method [Direct Write]","IDWriteFactory interface","directwrite.IDWriteFactory_UnregisterFontCollectionLoader","dwrite/IDWriteFactory::UnregisterFontCollectionLoader"]
 old-location: directwrite\IDWriteFactory_UnregisterFontCollectionLoader.htm
 tech.root: DirectWrite
 ms.assetid: 6a8682e3-72de-4afd-b9db-ba9b0d79f195
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory interface [Direct Write],UnregisterFontCollectionLoader method, IDWriteFactory.UnregisterFontCollectionLoader, IDWriteFactory::UnregisterFontCollectionLoader, UnregisterFontCollectionLoader, UnregisterFontCollectionLoader method [Direct Write], UnregisterFontCollectionLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_UnregisterFontCollectionLoader, dwrite/IDWriteFactory::UnregisterFontCollectionLoader
-f1_keywords:
-- dwrite/IDWriteFactory.UnregisterFontCollectionLoader
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteFactory.UnregisterFontCollectionLoader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteFactory::UnregisterFontCollectionLoader
+ - dwrite/IDWriteFactory::UnregisterFontCollectionLoader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory.UnregisterFontCollectionLoader
 ---
 
 # IDWriteFactory::UnregisterFontCollectionLoader
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Unregisters a custom font collection loader that was previously registered using <a href="/windows/win32/api/dwrite/nf-dwrite-idwritefactory-registerfontcollectionloader">RegisterFontCollectionLoader</a>.
 
-
 ## -parameters
-
-
-
 
 ### -param fontCollectionLoader
 
@@ -63,25 +60,13 @@ Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloade
 
 Pointer to a <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader">IDWriteFontCollectionLoader</a> object to be unregistered.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritefactory">IDWriteFactory</a>
- 
-
- 
 

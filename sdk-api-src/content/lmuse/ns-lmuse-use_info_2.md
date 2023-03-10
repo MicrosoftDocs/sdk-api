@@ -2,15 +2,12 @@
 UID: NS:lmuse._USE_INFO_2
 title: USE_INFO_2 (lmuse.h)
 description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
+helpviewer_keywords: ["*LPUSE_INFO_2","*PUSE_INFO_2","LPUSE_INFO_2","LPUSE_INFO_2 structure pointer [Network Management]","PUSE_INFO_2","PUSE_INFO_2 structure pointer [Network Management]","USE_CONN","USE_DISCONN","USE_DISKDEV","USE_INFO_2","USE_INFO_2 structure [Network Management]","USE_IPC","USE_NETERR","USE_OK","USE_PAUSED","USE_RECONN","USE_SESSLOST","USE_SPOOLDEV","USE_WILDCARD","_win32_use_info_2_str","lmuse/LPUSE_INFO_2","lmuse/PUSE_INFO_2","lmuse/USE_INFO_2","netmgmt.use_info_2_str"]
 old-location: netmgmt\use_info_2_str.htm
 tech.root: NetMgmt
 ms.assetid: 4cc36108-085a-47c4-9dfa-b46f7e208c8b
 ms.date: 12/05/2018
 ms.keywords: '*LPUSE_INFO_2, *PUSE_INFO_2, LPUSE_INFO_2, LPUSE_INFO_2 structure pointer [Network Management], PUSE_INFO_2, PUSE_INFO_2 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_2, USE_INFO_2 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _win32_use_info_2_str, lmuse/LPUSE_INFO_2, lmuse/PUSE_INFO_2, lmuse/USE_INFO_2, netmgmt.use_info_2_str'
-f1_keywords:
-- lmuse/USE_INFO_2
-dev_langs:
-- c++
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Lmuse.h
-api_name:
-- USE_INFO_2
 targetos: Windows
 req.typenames: USE_INFO_2, *PUSE_INFO_2, *LPUSE_INFO_2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _USE_INFO_2
+ - lmuse/_USE_INFO_2
+ - PUSE_INFO_2
+ - lmuse/PUSE_INFO_2
+ - USE_INFO_2
+ - lmuse/USE_INFO_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Lmuse.h
+api_name:
+ - USE_INFO_2
 ---
 
 # USE_INFO_2 structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The
 				<b>USE_INFO_2</b> structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ui2_local
 
@@ -65,7 +66,6 @@ Type: <b>LMSTR</b>
 A pointer to a string that contains the local device name (for example, drive E or LPT1) being redirected to the shared resource. The constant DEVLEN specifies the maximum number of characters in the string. This member can be <b>NULL</b>. For more information, see the following Remarks section.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
-
 
 ### -field ui2_remote
 
@@ -76,10 +76,13 @@ A pointer to a string that contains the share name of the remote resource. The s
 
 
 
-<pre class="syntax" xml:space="preserve"><code>\\servername\sharename
-</code></pre>
-This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
+``` syntax
+\\servername\sharename
+
+```
+
+This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 ### -field ui2_password
 
@@ -89,13 +92,12 @@ A pointer to a string that contains the password needed to establish a session w
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field ui2_status
 
 Type: <b>DWORD</b>
 
 The status of the connection. This element is not used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. The following values are defined. 
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. The following values are defined. 
 
 
 
@@ -175,8 +177,6 @@ Reconnecting.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ui2_asg_type
 
@@ -198,7 +198,7 @@ The type of remote resource being accessed. This member can be one of the follow
 </td>
 <td width="60%">
 Matches the type of the server's shared resources. Wildcards can be used only with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function, and only when the <b>ui2_local</b> member is a <b>NULL</b> string. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function, and only when the <b>ui2_local</b> member is a <b>NULL</b> string. For more information, see the following Remarks section.
 
 </td>
 </tr>
@@ -233,8 +233,6 @@ Interprocess communication (IPC).
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ui2_refcount
 
@@ -243,13 +241,11 @@ Type: <b>DWORD</b>
 The number of files, directories, and other processes that are open on the remote resource. This element is not used by the 
 <b>NetUseAdd</b> function.
 
-
 ### -field ui2_usecount
 
 Type: <b>DWORD</b>
 
 The number of explicit connections (redirection with a local device name) or implicit UNC connections (redirection without a local device name) that are established with the resource.
-
 
 ### -field ui2_username
 
@@ -259,7 +255,6 @@ A pointer to a string that contains the name of the user who initiated the conne
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ### -field ui2_domainname
 
 Type: <b>LMSTR</b>
@@ -268,44 +263,31 @@ A pointer to a string that contains the domain name of the remote resource.
 
 This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
-
 ## -remarks
 
-
-
 Specifying a <b>ui2_local</b> member that is <b>NULL</b> requests authentication with the server without redirecting a drive letter or a device. Future redirections involving the server while the same connection is in effect use the authentication information specified in the initial call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. This information includes the combination of the <b>ui2_password</b>, <b>ui2_username</b>, and <b>ui2_domainname</b> members.
-
-
-
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a> function. This information includes the combination of the <b>ui2_password</b>, <b>ui2_username</b>, and <b>ui2_domainname</b> members.
 
 ## -see-also
 
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseadd">NetUseAdd</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>

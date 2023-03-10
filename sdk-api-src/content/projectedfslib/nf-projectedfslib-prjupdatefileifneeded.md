@@ -2,15 +2,12 @@
 UID: NF:projectedfslib.PrjUpdateFileIfNeeded
 title: PrjUpdateFileIfNeeded function (projectedfslib.h)
 description: Enables a provider to update an item that has been cached on the local file system.
+helpviewer_keywords: ["PrjUpdateFileIfNeeded","PrjUpdateFileIfNeeded function","ProjFS.prjupdatefileifneeded","projectedfslib/PrjUpdateFileIfNeeded"]
 old-location: projfs\prjupdatefileifneeded.htm
 tech.root: ProjFS
 ms.assetid: 182C9C5E-ABBC-4A7C-99E4-D019B7E237CE
 ms.date: 12/05/2018
 ms.keywords: PrjUpdateFileIfNeeded, PrjUpdateFileIfNeeded function, ProjFS.prjupdatefileifneeded, projectedfslib/PrjUpdateFileIfNeeded
-f1_keywords:
-- projectedfslib/PrjUpdateFileIfNeeded
-dev_langs:
-- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- projectedfslib.h
-api_name:
-- PrjUpdateFileIfNeeded
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: RS5, 19H1
+f1_keywords:
+ - PrjUpdateFileIfNeeded
+ - projectedfslib/PrjUpdateFileIfNeeded
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - projectedfslib.h
+api_name:
+ - PrjUpdateFileIfNeeded
 ---
 
 # PrjUpdateFileIfNeeded function
@@ -48,37 +50,28 @@ ms.custom: RS5, 19H1
 
 ## -description
 
-
 Enables a provider to update an item that has been cached on the local file system.
-
 
 ## -parameters
 
-
-
-
 ### -param namespaceVirtualizationContext [in]
 
-Opague handle for the virtualization instance.
-
+Opaque handle for the virtualization instance.
 
 ### -param destinationFileName [in]
 
-A null-terminated Unicode string specifying the path, relative to the virtualization root, to the file or directory to be updated. 
-
+A null-terminated Unicode string specifying the path, relative to the virtualization root, to the file or directory to be updated.
 
 ### -param placeholderInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_info">PRJ_PLACEHOLDER_INFO</a> buffer containing the updated metadata for the file or directory. 
+A pointer to a <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_placeholder_info">PRJ_PLACEHOLDER_INFO</a> buffer containing the updated metadata for the file or directory. 
 
 
 If placeholderInfo-&gt;VersionInfo.ContentID contains a content identifier that is the same as the content identifier already on the file/directory, the call succeeds and no update takes place. Otherwise, if the call succeeds then placeholderInfo-&gt;VersionInfo.ContentID replaces the existing content identifier on the file.
 
-
 ### -param placeholderInfoSize [in]
 
 The size in bytes of the buffer pointed to by placeholderInfo.
-
 
 ### -param updateFlags [in, optional]
 
@@ -86,24 +79,15 @@ Flags to control updates.
 
 If the item is a dirty placeholder, full file, or tombstone, and the provider does not specify the appropriate flag(s), this routine will fail to update the placeholder
 
-
 ### -param failureReason [out, optional]
 
 Optional pointer to receive a code describing the reason an update failed.
 
-
 ## -returns
-
-
 
 If an HRESULT_FROM_WIN32(ERROR_FILE_SYSTEM_VIRTUALIZATION_INVALID_OPERATION) error is returned, the update failed due to the item's state and the value of updateFlags. failureReason, if specified, will describe the reason for the failure.
 
-
-
-
 ## -remarks
-
-
 
 The provider uses this routine to update an item in the local file system if the item's information has changed in the provider’s backing store and the updates should be reflected in the items cached in the local file system. 
 
@@ -150,7 +134,3 @@ To illustrate the above states, consider the following sequence, given a ProjFS 
 <li>The app opens a handle for write access to the file. C:\root\foo.txt is now a full file.</li>
 <li>The app deletes C:\root\foo.txt. ProjFS replaces the file with a tombstone. Now when the app enumerates C:\root it does not see foo.txt. If it tries to open the file, the open fails with ERROR_FILE_NOT_FOUND.</li>
 </ul>
-
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NS:winsvc._SERVICE_FAILURE_ACTIONSA
 title: SERVICE_FAILURE_ACTIONSA (winsvc.h)
-description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller.
+description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller. (ANSI)
+helpviewer_keywords: ["*LPSERVICE_FAILURE_ACTIONSA","LPSERVICE_FAILURE_ACTIONS","LPSERVICE_FAILURE_ACTIONS structure pointer","SERVICE_FAILURE_ACTIONS","SERVICE_FAILURE_ACTIONS structure","SERVICE_FAILURE_ACTIONSA","SERVICE_FAILURE_ACTIONSW","_win32_service_failure_actions_str","base.service_failure_actions_str","winsvc/LPSERVICE_FAILURE_ACTIONS","winsvc/SERVICE_FAILURE_ACTIONS","winsvc/SERVICE_FAILURE_ACTIONSA","winsvc/SERVICE_FAILURE_ACTIONSW"]
 old-location: base\service_failure_actions_str.htm
-tech.root: Services
+tech.root: security
 ms.assetid: 180ca6d9-f2c3-4ea1-b2c6-319d08ef88ee
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_FAILURE_ACTIONSA, LPSERVICE_FAILURE_ACTIONS, LPSERVICE_FAILURE_ACTIONS structure pointer, SERVICE_FAILURE_ACTIONS, SERVICE_FAILURE_ACTIONS structure, SERVICE_FAILURE_ACTIONSA, SERVICE_FAILURE_ACTIONSW, _win32_service_failure_actions_str, base.service_failure_actions_str, winsvc/LPSERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONS, winsvc/SERVICE_FAILURE_ACTIONSA, winsvc/SERVICE_FAILURE_ACTIONSW'
-f1_keywords:
-- winsvc/SERVICE_FAILURE_ACTIONS
-dev_langs:
-- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winsvc.h
-api_name:
-- SERVICE_FAILURE_ACTIONS
-- SERVICE_FAILURE_ACTIONSA
-- SERVICE_FAILURE_ACTIONSW
 targetos: Windows
 req.typenames: SERVICE_FAILURE_ACTIONSA, *LPSERVICE_FAILURE_ACTIONSA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _SERVICE_FAILURE_ACTIONSA
+ - winsvc/_SERVICE_FAILURE_ACTIONSA
+ - LPSERVICE_FAILURE_ACTIONSA
+ - winsvc/LPSERVICE_FAILURE_ACTIONSA
+ - SERVICE_FAILURE_ACTIONSA
+ - winsvc/SERVICE_FAILURE_ACTIONSA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winsvc.h
+api_name:
+ - SERVICE_FAILURE_ACTIONS
+ - SERVICE_FAILURE_ACTIONSA
+ - SERVICE_FAILURE_ACTIONSW
 ---
 
 # SERVICE_FAILURE_ACTIONSA structure
@@ -50,21 +56,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of <b>SERVICE_STOPPED</b> to the service controller.
 
-To configure additional circumstances under which the failure actions are to be executed, see <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>.
-
+To configure additional circumstances under which the failure actions are to be executed, see <a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>.
 
 ## -struct-fields
-
-
-
 
 ### -field dwResetPeriod
 
 The time after which to reset the failure count to zero if there are no failures, in seconds. Specify <b>INFINITE</b> to indicate that this value should never be reset.
-
 
 ### -field lpRebootMsg
 
@@ -79,21 +79,19 @@ This member can specify a localized string using the following format:
 
 @[<i>path</i>\]<i>dllname</i>,-<i>strID</i>
 
-The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
+The string with identifier <i>strID</i> is loaded from <i>dllname</i>; the <i>path</i> is optional. For more information, see <a href="/windows/desktop/api/winreg/nf-winreg-regloadmuistringa">RegLoadMUIString</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>Localized strings are not supported until Windows Vista.
-
 
 ### -field lpCommand
 
 The command line of the process for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function to execute in response to the <b>SC_ACTION_RUN_COMMAND</b> service controller action. This process runs under the same account as the service. 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function to execute in response to the <b>SC_ACTION_RUN_COMMAND</b> service controller action. This process runs under the same account as the service. 
 
 
 
 
 If this value is <b>NULL</b>, the command is unchanged. If the value is an empty string (""), the command is deleted and no program is run when the service fails.
-
 
 ### -field cActions
 
@@ -104,77 +102,53 @@ The number of elements in the <b>lpsaActions</b> array.
 
 If this value is 0, but <b>lpsaActions</b> is not NULL, the reset period and array of failure actions are deleted.
 
-
 ### -field cActions.range
-
- 
-
 
 ### -field cActions.range.0
 
- 
-
-
 ### -field cActions.range.1024
-
- 
-
 
 ### -field lpsaActions
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a> structures. 
+<a href="/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a> structures. 
 
 
 
 
 If this value is NULL, the <b>cActions</b> and <b>dwResetPeriod</b> members are ignored.
 
-
 ### -field lpsaActions.size_is
-
- 
-
 
 ### -field lpsaActions.size_is.cActions
 
- 
-
-
-
-
 ## -remarks
-
-
 
 The service control manager counts the number of times each service has failed since the system booted. The count is reset to 0 if the service has not failed for <b>dwResetPeriod</b> seconds. When the service fails for the <i>N</i>th time, the service controller performs the action specified in element [<i>N</i>-1] of the <b>lpsaActions</b> array. If <i>N</i> is greater than <i>cActions</i>, the service controller repeats the last action in the array.
 
 
 
 
+
+> [!NOTE]
+> The winsvc.h header defines SERVICE_FAILURE_ACTIONS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-sc_action">SC_ACTION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>

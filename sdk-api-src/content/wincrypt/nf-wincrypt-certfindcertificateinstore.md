@@ -2,15 +2,12 @@
 UID: NF:wincrypt.CertFindCertificateInStore
 title: CertFindCertificateInStore function (wincrypt.h)
 description: Finds the first or next certificate context in a certificate store that matches a search criteria established by the dwFindType and its associated pvFindPara.
+helpviewer_keywords: ["CERT_FIND_ANY","CERT_FIND_CERT_ID","CERT_FIND_CROSS_CERT_DIST_POINTS","CERT_FIND_CTL_USAGE","CERT_FIND_ENHKEY_USAGE","CERT_FIND_EXISTING","CERT_FIND_HASH","CERT_FIND_HAS_PRIVATE_KEY","CERT_FIND_ISSUER_ATTR","CERT_FIND_ISSUER_NAME","CERT_FIND_ISSUER_OF","CERT_FIND_ISSUER_STR","CERT_FIND_KEY_IDENTIFIER","CERT_FIND_KEY_SPEC","CERT_FIND_MD5_HASH","CERT_FIND_PROPERTY","CERT_FIND_PUBKEY_MD5_HASH","CERT_FIND_PUBLIC_KEY","CERT_FIND_SHA1_HASH","CERT_FIND_SIGNATURE_HASH","CERT_FIND_SUBJECT_ATTR","CERT_FIND_SUBJECT_CERT","CERT_FIND_SUBJECT_NAME","CERT_FIND_SUBJECT_STR","CertFindCertificateInStore","CertFindCertificateInStore function [Security]","_crypto2_certfindcertificateinstore","security.certfindcertificateinstore","wincrypt/CertFindCertificateInStore"]
 old-location: security\certfindcertificateinstore.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 20b3fcfb-55df-46ff-80a5-70f31a3d03b2
 ms.date: 12/05/2018
 ms.keywords: CERT_FIND_ANY, CERT_FIND_CERT_ID, CERT_FIND_CROSS_CERT_DIST_POINTS, CERT_FIND_CTL_USAGE, CERT_FIND_ENHKEY_USAGE, CERT_FIND_EXISTING, CERT_FIND_HASH, CERT_FIND_HAS_PRIVATE_KEY, CERT_FIND_ISSUER_ATTR, CERT_FIND_ISSUER_NAME, CERT_FIND_ISSUER_OF, CERT_FIND_ISSUER_STR, CERT_FIND_KEY_IDENTIFIER, CERT_FIND_KEY_SPEC, CERT_FIND_MD5_HASH, CERT_FIND_PROPERTY, CERT_FIND_PUBKEY_MD5_HASH, CERT_FIND_PUBLIC_KEY, CERT_FIND_SHA1_HASH, CERT_FIND_SIGNATURE_HASH, CERT_FIND_SUBJECT_ATTR, CERT_FIND_SUBJECT_CERT, CERT_FIND_SUBJECT_NAME, CERT_FIND_SUBJECT_STR, CertFindCertificateInStore, CertFindCertificateInStore function [Security], _crypto2_certfindcertificateinstore, security.certfindcertificateinstore, wincrypt/CertFindCertificateInStore
-f1_keywords:
-- wincrypt/CertFindCertificateInStore
-dev_langs:
-- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Crypt32.dll
-api_name:
-- CertFindCertificateInStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CertFindCertificateInStore
+ - wincrypt/CertFindCertificateInStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Crypt32.dll
+api_name:
+ - CertFindCertificateInStore
 ---
 
 # CertFindCertificateInStore function
@@ -48,23 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>CertFindCertificateInStore</b> function finds the first or next certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that matches a search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a> in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> that match the specified find criteria.
-
+The <b>CertFindCertificateInStore</b> function finds the first or next certificate <a href="/windows/desktop/SecGloss/c-gly">context</a> in a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> that matches a search criteria established by the <i>dwFindType</i> and its associated <i>pvFindPara</i>. This function can be used in a loop to find all of the <a href="/windows/desktop/SecGloss/c-gly">certificates</a> in a <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> that match the specified find criteria.
 
 ## -parameters
 
-
-
-
 ### -param hCertStore [in]
 
-A handle of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> to be searched.
-
+A handle of the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> to be searched.
 
 ### -param dwCertEncodingType [in]
 
-Specifies the type of encoding used. Both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> must be specified by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the type of encoding used. Both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> must be specified by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 
@@ -73,12 +69,9 @@ X509_ASN_ENCODING | PKCS_7_ASN_ENCODING Currently defined encoding types are:
 <li>PKCS_7_ASN_ENCODING</li>
 </ul>
 
-
-
 ### -param dwFindFlags [in]
 
 Used with some <i>dwFindType</i> values to modify the search criteria. For most <i>dwFindType</i> values, <i>dwFindFlags</i> is not used and should be set to zero. For detailed information, see  Remarks.
-
 
 ### -param dwFindType [in]
 
@@ -112,9 +105,9 @@ To access a specific certificate you must iterate across the certificates in the
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> structure.
 
-Find the certificate identified by the specified <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a>.
+Find the certificate identified by the specified <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a>.
 
 </td>
 </tr>
@@ -125,9 +118,9 @@ Find the certificate identified by the specified <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
-Searches for a certificate that has a szOID_ENHANCED_KEY_USAGE extension or a CERT_CTL_PROP_ID that matches the <b>pszUsageIdentifier</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
+Searches for a certificate that has a szOID_ENHANCED_KEY_USAGE extension or a CERT_CTL_PROP_ID that matches the <b>pszUsageIdentifier</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure.
 
 </td>
 </tr>
@@ -138,11 +131,11 @@ Searches for a certificate that has a szOID_ENHANCED_KEY_USAGE extension or a CE
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CERT_ENHKEY_USAGE</a> structure.
 
-Searches for a certificate in the store that has either an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a> extension or an enhanced key usage property and a usage identifier that matches the <b>cUsageIdentifier</b> member in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage"> CERT_ENHKEY_USAGE</a> structure.
+Searches for a certificate in the store that has either an <a href="/windows/desktop/SecGloss/e-gly">enhanced key usage</a> extension or an enhanced key usage property and a usage identifier that matches the <b>cUsageIdentifier</b> member in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage"> CERT_ENHKEY_USAGE</a> structure.
 
-A certificate has an enhanced key usage extension if it has a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure with the <b>pszObjId</b> member set to szOID_ENHANCED_KEY_USAGE.
+A certificate has an enhanced key usage extension if it has a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure with the <b>pszObjId</b> member set to szOID_ENHANCED_KEY_USAGE.
 
 A certificate has an enhanced key usage property if its CERT_ENHKEY_USAGE_PROP_ID identifier is set.
 
@@ -161,7 +154,7 @@ For information about flag modifications to search criteria, see  Remarks.
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 Searches for a certificate that is an exact match of the specified certificate context.
 
@@ -174,9 +167,9 @@ Searches for a certificate that is an exact match of the specified certificate c
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
-Searches for a certificate with a SHA1 hash that matches the hash in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Searches for a certificate with a SHA1 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
 </td>
 </tr>
@@ -203,15 +196,15 @@ Searches for a certificate that has a private key. The key can be ephemeral or s
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure.
 
-Searches for a certificate with specified issuer attributes that match attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure. If these values are set, the function compares attributes of the issuer in a certificate with elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's issuer attributes.
+Searches for a certificate with specified issuer attributes that match attributes in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure. If these values are set, the function compares attributes of the issuer in a certificate with elements of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's issuer attributes.
 
-If the <b>pszObjId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
+If the <b>pszObjId</b> member of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
 
-If the <b>dwValueType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
+If the <b>dwValueType</b> member of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
 
-If the <b>pbData</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> is <b>NULL</b>, any value is a match.
+If the <b>pbData</b> member of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> is <b>NULL</b>, any value is a match.
 
 Currently only an exact, case-sensitive match is supported. For information about Unicode options, see  Remarks. When these values are set, the search is restricted to certificates whose encoding type matches <i>dwCertEncodingType</i>.
 
@@ -224,9 +217,9 @@ Currently only an exact, case-sensitive match is supported. For information abou
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure.
 
-Search for a certificate with an exact match of the entire issuer name with the name in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> The search is restricted to certificates that match the <i>dwCertEncodingType</i>.
+Search for a certificate with an exact match of the entire issuer name with the name in <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> The search is restricted to certificates that match the <i>dwCertEncodingType</i>.
 
 </td>
 </tr>
@@ -237,11 +230,11 @@ Search for a certificate with an exact match of the entire issuer name with the 
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
-Searches for a certificate with an subject that matches the issuer in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
+Searches for a certificate with a subject that matches the issuer in <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
-Instead of using <b>CertFindCertificateInStore</b> with this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function.
+Instead of using <b>CertFindCertificateInStore</b> with this value, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a> function.
 
 </td>
 </tr>
@@ -254,7 +247,7 @@ Instead of using <b>CertFindCertificateInStore</b> with this value, use the <a h
 <td width="60%">
 Data type of <i>pvFindPara</i>: Null-terminated Unicode string.
 
-Searches for a certificate that contains the specified issuer name string. The certificate's issuer member is converted to a name string of the appropriate type using the appropriate form of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> formatted as CERT_SIMPLE_NAME_STR. Then a case-insensitive substring-within-a-string match is performed. When this value is set, the search is restricted to certificates whose encoding type matches <i>dwCertEncodingType</i>.
+Searches for a certificate that contains the specified issuer name string. The certificate's issuer member is converted to a name string of the appropriate type using the appropriate form of <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> formatted as CERT_SIMPLE_NAME_STR. Then a case-insensitive substring-within-a-string match is performed. When this value is set, the search is restricted to certificates whose encoding type matches <i>dwCertEncodingType</i>.
 
 If the substring match fails and the subject contains an email RDN with Punycode encoded string, <b>CERT_NAME_STR_ENABLE_PUNYCODE_FLAG</b> is used to convert the subject to a Unicode string and the substring match is performed again. 
 
@@ -267,9 +260,9 @@ If the substring match fails and the subject contains an email RDN with Punycode
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
-Searches for a certificate with a CERT_KEY_IDENTIFIER_PROP_ID property that matches the key identifier in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a>.
+Searches for a certificate with a CERT_KEY_IDENTIFIER_PROP_ID property that matches the key identifier in <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a>.
 
 </td>
 </tr>
@@ -293,9 +286,9 @@ Searches for a certificate that has a CERT_KEY_SPEC_PROP_ID property that matche
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
-Searches for a certificate with an MD5 hash that matches the hash in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a>.
+Searches for a certificate with an MD5 hash that matches the hash in <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a>.
 
 </td>
 </tr>
@@ -319,9 +312,9 @@ Searches for a certificate with a property that matches the property identifier 
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
 
-Searches for a certificate with a public key that matches the public key in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
+Searches for a certificate with a public key that matches the public key in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure.
 
 </td>
 </tr>
@@ -332,9 +325,9 @@ Searches for a certificate with a public key that matches the public key in the 
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
-Searches for a certificate with a SHA1 hash that matches the hash in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Searches for a certificate with a SHA1 hash that matches the hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
 </td>
 </tr>
@@ -345,9 +338,9 @@ Searches for a certificate with a SHA1 hash that matches the hash in the <a href
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
-Searches for a certificate with a signature hash that matches the signature hash in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Searches for a certificate with a signature hash that matches the signature hash in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
 </td>
 </tr>
@@ -358,15 +351,15 @@ Searches for a certificate with a signature hash that matches the signature hash
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure.
 
-Searches for a certificate with specified subject attributes that match attributes in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure. If RDN values are set, the function compares attributes of the subject in a certificate with elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's subject's attributes.
+Searches for a certificate with specified subject attributes that match attributes in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn">CERT_RDN</a> structure. If RDN values are set, the function compares attributes of the subject in a certificate with elements of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> array in this <b>CERT_RDN</b> structure. Comparisons iterate through the <b>CERT_RDN_ATTR</b> attributes looking for a match with the certificate's subject's attributes.
 
-If the <b>pszObjId</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
+If the <b>pszObjId</b> member of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is <b>NULL</b>, the attribute object identifier is ignored.
 
-If the <b>dwValueType</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
+If the <b>dwValueType</b> member of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> is CERT_RDN_ANY_TYPE, the value type is ignored.
 
-If the <b>pbData</b> member of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> is <b>NULL</b>, any value is a match.
+If the <b>pbData</b> member of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_RDN_VALUE_BLOB</a> is <b>NULL</b>, any value is a match.
 
 Currently only an exact, case-sensitive match is supported.
 
@@ -381,9 +374,9 @@ For information about Unicode options, see  Remarks. When these values are set, 
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
 
-Searches for a certificate with both an issuer and a serial number that match the issuer and serial number in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
+Searches for a certificate with both an issuer and a serial number that match the issuer and serial number in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure.
 
 </td>
 </tr>
@@ -394,9 +387,9 @@ Searches for a certificate with both an issuer and a serial number that match th
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure.
 
-Searches for a certificate with an exact match of the entire subject name with the name in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure. The search is restricted to certificates that match the value of <i>dwCertEncodingType</i>.
+Searches for a certificate with an exact match of the entire subject name with the name in the <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structure. The search is restricted to certificates that match the value of <i>dwCertEncodingType</i>.
 
 </td>
 </tr>
@@ -409,7 +402,7 @@ Searches for a certificate with an exact match of the entire subject name with t
 <td width="60%">
 Data type of <i>pvFindPara</i>: Null-terminated Unicode string.
 
-Searches for a certificate that contains the specified subject name string. The certificate's subject member is converted to a name string of the appropriate type using the appropriate form of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> formatted as CERT_SIMPLE_NAME_STR. Then a case-insensitive substring-within-a-string match is performed. When this value is set, the search is restricted to certificates whose encoding type matches <i>dwCertEncodingType</i>.
+Searches for a certificate that contains the specified subject name string. The certificate's subject member is converted to a name string of the appropriate type using the appropriate form of <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a> formatted as CERT_SIMPLE_NAME_STR. Then a case-insensitive substring-within-a-string match is performed. When this value is set, the search is restricted to certificates whose encoding type matches <i>dwCertEncodingType</i>.
 
 </td>
 </tr>
@@ -433,7 +426,7 @@ Find a certificate that has either a cross certificate distribution point extens
 </dl>
 </td>
 <td width="60%">
-Data type of <i>pvFindPara</i>: <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
+Data type of <i>pvFindPara</i>: <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure.
 
 Find a certificate whose MD5-hashed public key matches the specified hash.
 
@@ -442,33 +435,29 @@ Find a certificate whose MD5-hashed public key matches the specified hash.
 </table>
  
 
-<div class="alert"><b>Note</b>  There are alternate forms of the value of <i>dwFindType</i> that pass a string in <i>pvFindPara</i>. One form uses a Unicode string, and the other an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string. Values that end in "_W" or without a suffix use Unicode. Values that end with "_A" use ASCII strings.</div>
+<div class="alert"><b>Note</b>  There are alternate forms of the value of <i>dwFindType</i> that pass a string in <i>pvFindPara</i>. One form uses a Unicode string, and the other an <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> string. Values that end in "_W" or without a suffix use Unicode. Values that end with "_A" use ASCII strings.</div>
 <div> </div>
 
 ### -param pvFindPara [in]
 
 Points to a data item or structure used with <i>dwFindType</i>.
 
-
 ### -param pPrevCertContext [in]
 
 A pointer to the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure returned by this function. This parameter must be <b>NULL</b> on the first call of the function. To find successive certificates meeting the search criteria,  set <i>pPrevCertContext</i> to the pointer returned by the previous call to the function. This function frees the <b>CERT_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure returned by this function. This parameter must be <b>NULL</b> on the first call of the function. To find successive certificates meeting the search criteria,  set <i>pPrevCertContext</i> to the pointer returned by the previous call to the function. This function frees the <b>CERT_CONTEXT</b> referenced by non-<b>NULL</b> values of this parameter.
 
 ## -returns
 
-
-
-If the function succeeds, the function returns a pointer to a read-only <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
+If the function succeeds, the function returns a pointer to a read-only <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure.
 
 If the function fails and a certificate that matches the search criteria is not found, the return value is <b>NULL</b>.
 
-A non-<b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> that <b>CertFindCertificateInStore</b> returns must be freed by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> or by being passed as the <i>pPrevCertContext</i> parameter on a subsequent call to <b>CertFindCertificateInStore</b>.
+A non-<b>NULL</b> <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> that <b>CertFindCertificateInStore</b> returns must be freed by 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> or by being passed as the <i>pPrevCertContext</i> parameter on a subsequent call to <b>CertFindCertificateInStore</b>.
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Some possible error codes follow.
 
 <table>
 <tr>
@@ -493,43 +482,37 @@ No certificate was found matching the search criteria. This can happen if the st
 </dl>
 </td>
 <td width="60%">
-The handle in the <i>hCertStore</i> parameter is not the same as that in the certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> pointed to by the <i>pPrevCertContext</i> parameter, or a value that is not valid was specified in the <i>dwFindType</i> parameter.
+The handle in the <i>hCertStore</i> parameter is not the same as that in the certificate <a href="/windows/desktop/SecGloss/c-gly">context</a> pointed to by the <i>pPrevCertContext</i> parameter, or a value that is not valid was specified in the <i>dwFindType</i> parameter.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <i>dwFindFlags</i> parameter is used to modify the criteria of some search types.
 
-The CERT_UNICODE_IS_RDN_ATTRS_FLAG <i>dwFindFlags</i> value is used only with the CERT_FIND_SUBJECT_ATTR and CERT_FIND_ISSUER_ATTR values for <i>dwFindType</i>. CERT_UNICODE_IS_RDN_ATTRS_FLAG must be set if the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure pointed to by <i>pvFindPara</i> was initialized with Unicode strings. Before any comparison is made, the string to be matched is converted by using X509_UNICODE_NAME to provide for Unicode comparisons.
+The CERT_UNICODE_IS_RDN_ATTRS_FLAG <i>dwFindFlags</i> value is used only with the CERT_FIND_SUBJECT_ATTR and CERT_FIND_ISSUER_ATTR values for <i>dwFindType</i>. CERT_UNICODE_IS_RDN_ATTRS_FLAG must be set if the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_rdn_attr">CERT_RDN_ATTR</a> structure pointed to by <i>pvFindPara</i> was initialized with Unicode strings. Before any comparison is made, the string to be matched is converted by using X509_UNICODE_NAME to provide for Unicode comparisons.
 
 The following <i>dwFindFlags</i> values are used only with the CERT_FIND_ENKEY_USAGE value for <i>dwFindType</i>:
 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> can be called to make a duplicate of the returned context. The returned context can be added to a different <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a> by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore">CertAddCertificateContextToStore</a>, or a link to that certificate context can be added to a store that is not a collection store by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore">CertAddCertificateLinkToStore</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a> can be called to make a duplicate of the returned context. The returned context can be added to a different <a href="/windows/desktop/SecGloss/c-gly">certificate store</a> by using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore">CertAddCertificateContextToStore</a>, or a link to that certificate context can be added to a store that is not a collection store by using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore">CertAddCertificateLinkToStore</a>.
 
 The returned pointer is freed when passed as the <i>pPrevCertContext</i> parameter on a subsequent call to the function. Otherwise, the pointer must be explicitly freed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. A <i>pPrevCertContext</i> that is not <b>NULL</b> is always freed by <b>CertFindCertificateInStore</b> using a call to <b>CertFreeCertificateContext</b>, even if there is an error in the function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>. A <i>pPrevCertContext</i> that is not <b>NULL</b> is always freed by <b>CertFindCertificateInStore</b> using a call to <b>CertFreeCertificateContext</b>, even if there is an error in the function.
 
 
 #### Examples
 
 The following example shows finding a certificate context in the certificate store meeting a search criterion. For a complete example that includes the  context for this example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-certificate-store-operations">Example C Program: Certificate Store Operations</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-certificate-store-operations">Example C Program: Certificate Store Operations</a>.
 
-For another example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-collection-and-sibling-certificate-store-operations">Example C Program: Collection and Sibling Certificate Store Operations</a>.
+For another example that uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-collection-and-sibling-certificate-store-operations">Example C Program: Collection and Sibling Certificate Store Operations</a>.
 
 
 ```cpp
@@ -609,49 +592,38 @@ if(hSystemStore)
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore">CertAddCertificateContextToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatecontexttostore">CertAddCertificateContextToStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore">CertAddCertificateLinkToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddcertificatelinktostore">CertAddCertificateLinkToStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecertificatecontext">CertDuplicateCertificateContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certenumcertificatesinstore">CertEnumCertificatesInStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certenumcertificatesinstore">CertEnumCertificatesInStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certnametostra">CertNameToStr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>

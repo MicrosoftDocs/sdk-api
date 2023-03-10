@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiDirectoryItem.RemoveTree
 title: IFsiDirectoryItem::RemoveTree (imapi2fs.h)
 description: Remove the specified directory tree from the file system image.
+helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","RemoveTree method","IFsiDirectoryItem.RemoveTree","IFsiDirectoryItem::RemoveTree","RemoveTree","RemoveTree method [IMAPI]","RemoveTree method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_removetree","imapi2fs/IFsiDirectoryItem::RemoveTree"]
 old-location: imapi\ifsidirectoryitem_removetree.htm
 tech.root: imapi
 ms.assetid: d0aad985-306c-41a2-9711-9265a4f492c5
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],RemoveTree method, IFsiDirectoryItem.RemoveTree, IFsiDirectoryItem::RemoveTree, RemoveTree, RemoveTree method [IMAPI], RemoveTree method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_removetree, imapi2fs/IFsiDirectoryItem::RemoveTree
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem.RemoveTree
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem.RemoveTree
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem::RemoveTree
+ - imapi2fs/IFsiDirectoryItem::RemoveTree
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem.RemoveTree
 ---
 
 # IFsiDirectoryItem::RemoveTree
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Remove the specified directory tree from the file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
 String that contains the name of directory to remove.
 The path is relative to current directory item.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -188,46 +182,30 @@ Value: 0xC0AAB109
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The directory item must be  present in the file system image.
 
 
-You can delete the entire file-system image by calling this method for the root directory item and setting the path to a single path delimiter (\).
-
-
-
+You can delete the entire file-system image by calling this method for the root directory item and setting the path to a single path delimiter (\\).
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-adddirectory">IFsiDirectoryItem::AddDirectory</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree">IFsiDirectoryItem::AddTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree">IFsiDirectoryItem::AddTree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>

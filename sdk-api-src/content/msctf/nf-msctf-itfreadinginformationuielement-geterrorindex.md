@@ -2,16 +2,12 @@
 UID: NF:msctf.ITfReadingInformationUIElement.GetErrorIndex
 title: ITfReadingInformationUIElement::GetErrorIndex (msctf.h)
 description: This method returns the char index where the typing error occurs.
+helpviewer_keywords: ["GetErrorIndex","GetErrorIndex method [Text Services Framework]","GetErrorIndex method [Text Services Framework]","ITfReadingInformationUIElement interface","ITfReadingInformationUIElement interface [Text Services Framework]","GetErrorIndex method","ITfReadingInformationUIElement.GetErrorIndex","ITfReadingInformationUIElement::GetErrorIndex","msctf/ITfReadingInformationUIElement::GetErrorIndex","tsf.iitfreadinginformationuielement_geterrorindex","tsf.itfreadinginformationuielement_geterrorindex"]
 old-location: tsf\itfreadinginformationuielement_geterrorindex.htm
 tech.root: TSF
 ms.assetid: c31bfbe7-c31a-485a-a122-14215d661ce7
 ms.date: 12/05/2018
 ms.keywords: GetErrorIndex, GetErrorIndex method [Text Services Framework], GetErrorIndex method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetErrorIndex method, ITfReadingInformationUIElement.GetErrorIndex, ITfReadingInformationUIElement::GetErrorIndex, msctf/ITfReadingInformationUIElement::GetErrorIndex, tsf.iitfreadinginformationuielement_geterrorindex, tsf.itfreadinginformationuielement_geterrorindex
-ms.topic: method
-f1_keywords:
-- msctf/ITfReadingInformationUIElement.GetErrorIndex
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -29,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msctf.dll
-api_name:
-- ITfReadingInformationUIElement.GetErrorIndex
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfReadingInformationUIElement::GetErrorIndex
+ - msctf/ITfReadingInformationUIElement::GetErrorIndex
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msctf.dll
+api_name:
+ - ITfReadingInformationUIElement.GetErrorIndex
 ---
 
 # ITfReadingInformationUIElement::GetErrorIndex
@@ -49,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method returns the char index where the typing error occurs.
 
-
 ## -parameters
-
-
-
 
 ### -param pErrorIndex [out]
 
 [out] A pointer to receive the char index where the typing error occurs.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -108,7 +101,4 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
- 
-
-
 

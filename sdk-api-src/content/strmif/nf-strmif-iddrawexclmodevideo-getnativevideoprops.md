@@ -2,15 +2,12 @@
 UID: NF:strmif.IDDrawExclModeVideo.GetNativeVideoProps
 title: IDDrawExclModeVideo::GetNativeVideoProps (strmif.h)
 description: The GetNativeVideoProps method retrieves the current video size and picture aspect ratio of the Overlay Mixer's primary stream.
+helpviewer_keywords: ["GetNativeVideoProps","GetNativeVideoProps method [DirectShow]","GetNativeVideoProps method [DirectShow]","IDDrawExclModeVideo interface","IDDrawExclModeVideo interface [DirectShow]","GetNativeVideoProps method","IDDrawExclModeVideo.GetNativeVideoProps","IDDrawExclModeVideo::GetNativeVideoProps","IDDrawExclModeVideoGetNativeVideoProps","dshow.iddrawexclmodevideo_getnativevideoprops","strmif/IDDrawExclModeVideo::GetNativeVideoProps"]
 old-location: dshow\iddrawexclmodevideo_getnativevideoprops.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: cc6b3f73-bfb4-4a71-b3e9-53345abd1430
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoProps, GetNativeVideoProps method [DirectShow], GetNativeVideoProps method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetNativeVideoProps method, IDDrawExclModeVideo.GetNativeVideoProps, IDDrawExclModeVideo::GetNativeVideoProps, IDDrawExclModeVideoGetNativeVideoProps, dshow.iddrawexclmodevideo_getnativevideoprops, strmif/IDDrawExclModeVideo::GetNativeVideoProps
-f1_keywords:
-- strmif/IDDrawExclModeVideo.GetNativeVideoProps
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IDDrawExclModeVideo.GetNativeVideoProps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDDrawExclModeVideo::GetNativeVideoProps
+ - strmif/IDDrawExclModeVideo::GetNativeVideoProps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IDDrawExclModeVideo.GetNativeVideoProps
 ---
 
 # IDDrawExclModeVideo::GetNativeVideoProps
@@ -49,41 +51,27 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetNativeVideoProps</code> method retrieves the current video size and picture aspect ratio of the Overlay Mixer's primary stream.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param pdwVideoWidth [out]
 
 Address of variable that receives the width of the video.
 
-
 ### -param pdwVideoHeight [out]
 
 Address of variable that receives the height of the video.
-
 
 ### -param pdwPictAspectRatioX [out]
 
 Address of variable that receives the x-axis aspect ratio.
 
-
 ### -param pdwPictAspectRatioY [out]
 
 Address of variable that receives the y-axis aspect ratio.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -115,31 +103,15 @@ Argument is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The filter graph should look for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-video-size-changed">EC_VIDEO_SIZE_CHANGED</a> event, and on its receipt call this method to adjust the aspect ratio and position.
-
-
-
+The filter graph should look for the <a href="/windows/desktop/DirectShow/ec-video-size-changed">EC_VIDEO_SIZE_CHANGED</a> event, and on its receipt call this method to adjust the aspect ratio and position.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>

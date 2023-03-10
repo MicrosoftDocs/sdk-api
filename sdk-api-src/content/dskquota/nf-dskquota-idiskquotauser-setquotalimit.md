@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaUser.SetQuotaLimit
 title: IDiskQuotaUser::SetQuotaLimit (dskquota.h)
 description: Sets the user's quota limit value on the volume.
+helpviewer_keywords: ["IDiskQuotaUser interface [Files]","SetQuotaLimit method","IDiskQuotaUser.SetQuotaLimit","IDiskQuotaUser::SetQuotaLimit","SetQuotaLimit","SetQuotaLimit method [Files]","SetQuotaLimit method [Files]","IDiskQuotaUser interface","_win32_idiskquotauser_setquotalimit","base.idiskquotauser_setquotalimit","dskquota/IDiskQuotaUser::SetQuotaLimit","fs.idiskquotauser_setquotalimit"]
 old-location: fs\idiskquotauser_setquotalimit.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: f7c99415-685b-4a21-ac7b-68f4816aafb0
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser interface [Files],SetQuotaLimit method, IDiskQuotaUser.SetQuotaLimit, IDiskQuotaUser::SetQuotaLimit, SetQuotaLimit, SetQuotaLimit method [Files], SetQuotaLimit method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_setquotalimit, base.idiskquotauser_setquotalimit, dskquota/IDiskQuotaUser::SetQuotaLimit, fs.idiskquotauser_setquotalimit
-f1_keywords:
-- dskquota/IDiskQuotaUser.SetQuotaLimit
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaUser.SetQuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaUser::SetQuotaLimit
+ - dskquota/IDiskQuotaUser::SetQuotaLimit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaUser.SetQuotaLimit
 ---
 
 # IDiskQuotaUser::SetQuotaLimit
@@ -48,29 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the user's quota limit value on the volume. The limit is set as the maximum amount of disk space available to the volume user.
-
 
 ## -parameters
 
-
-
-
 ### -param llLimit [in]
 
-The default quota limit, in bytes. If this value is -1, the user has an unlimited quota.
-
+The quota limit, in bytes. If this value is -1, the user has an unlimited quota.
 
 ### -param fWriteThrough [in]
 
 If this value is <b>TRUE</b>, the value is written immediately to the volume's quota file. Otherwise, the value is written only to the quota user object's local memory. This value should typically be set to <b>TRUE</b>. Set it to <b>FALSE</b> when using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a> interface to modify multiple user quota entries at once.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a> interface to modify multiple user quota entries at once.
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -124,26 +117,15 @@ An unexpected file system error occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

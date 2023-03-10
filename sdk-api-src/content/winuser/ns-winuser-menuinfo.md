@@ -2,15 +2,12 @@
 UID: NS:winuser.tagMENUINFO
 title: MENUINFO (winuser.h)
 description: Contains information about a menu.
+helpviewer_keywords: ["*LPMENUINFO","LPMENUINFO","LPMENUINFO structure pointer [Menus and Other Resources]","MENUINFO","MENUINFO structure [Menus and Other Resources]","MIM_APPLYTOSUBMENUS","MIM_BACKGROUND","MIM_HELPID","MIM_MAXHEIGHT","MIM_MENUDATA","MIM_STYLE","MNS_AUTODISMISS","MNS_CHECKORBMP","MNS_DRAGDROP","MNS_MODELESS","MNS_NOCHECK","MNS_NOTIFYBYPOS","_win32_MENUINFO_str","_win32_menuinfo_str_cpp","const *LPCMENUINFO","const *LPCMENUINFO structure [Menus and Other Resources]","menurc.menuinfo","winui._win32_menuinfo_str","winuser/LPMENUINFO","winuser/MENUINFO","winuser/const *LPCMENUINFO"]
 old-location: menurc\menuinfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\menuinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPMENUINFO, LPMENUINFO, LPMENUINFO structure pointer [Menus and Other Resources], MENUINFO, MENUINFO structure [Menus and Other Resources], MIM_APPLYTOSUBMENUS, MIM_BACKGROUND, MIM_HELPID, MIM_MAXHEIGHT, MIM_MENUDATA, MIM_STYLE, MNS_AUTODISMISS, MNS_CHECKORBMP, MNS_DRAGDROP, MNS_MODELESS, MNS_NOCHECK, MNS_NOTIFYBYPOS, _win32_MENUINFO_str, _win32_menuinfo_str_cpp, const *LPCMENUINFO, const *LPCMENUINFO structure [Menus and Other Resources], menurc.menuinfo, winui._win32_menuinfo_str, winuser/LPMENUINFO, winuser/MENUINFO, winuser/const *LPCMENUINFO'
-f1_keywords:
-- winuser/MENUINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- MENUINFO
 targetos: Windows
 req.typenames: MENUINFO, *LPMENUINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagMENUINFO
+ - winuser/tagMENUINFO
+ - LPMENUINFO
+ - winuser/LPMENUINFO
+ - MENUINFO
+ - winuser/MENUINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - MENUINFO
 ---
 
 # MENUINFO structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information about a menu.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. The caller must set this member to <code>sizeof(MENUINFO)</code>. 
-
+The size of the structure, in bytes. The caller must set this member to <code>sizeof(MENUINFO)</code>.
 
 ### -field fMask
 
@@ -82,7 +82,7 @@ Indicates the members to be retrieved or set (except for <b>MIM_APPLYTOSUBMENUS<
 </dl>
 </td>
 <td width="60%">
-Settings apply to the menu and all of its submenus. <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a> uses this flag and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuinfo">GetMenuInfo</a> ignores this flag
+Settings apply to the menu and all of its submenus. <a href="/windows/desktop/api/winuser/nf-winuser-setmenuinfo">SetMenuInfo</a> uses this flag and <a href="/windows/desktop/api/winuser/nf-winuser-getmenuinfo">GetMenuInfo</a> ignores this flag
 
 </td>
 </tr>
@@ -147,8 +147,6 @@ Retrieves or sets the
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwStyle
 
@@ -190,7 +188,7 @@ The same space is reserved for the check mark and the bitmap. If the check mark 
 </dl>
 </td>
 <td width="60%">
-Menu items are OLE drop targets or drag sources. Menu owner receives <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menudrag">WM_MENUDRAG</a> and <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menugetobject">WM_MENUGETOBJECT</a> messages.
+Menu items are OLE drop targets or drag sources. Menu owner receives <a href="/windows/desktop/menurc/wm-menudrag">WM_MENUDRAG</a> and <a href="/windows/desktop/menurc/wm-menugetobject">WM_MENUGETOBJECT</a> messages.
 
 </td>
 </tr>
@@ -223,36 +221,31 @@ No space is reserved to the left of an item for a check mark. The item can still
 </dl>
 </td>
 <td width="60%">
-Menu owner receives a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menucommand">WM_MENUCOMMAND</a> message instead of a <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> message when the user makes a selection. <b>MNS_NOTIFYBYPOS</b> is a menu header style and has no effect when applied to individual sub menus.
+Menu owner receives a <a href="/windows/desktop/menurc/wm-menucommand">WM_MENUCOMMAND</a> message instead of a <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> message when the user makes a selection. <b>MNS_NOTIFYBYPOS</b> is a menu header style and has no effect when applied to individual sub menus.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field cyMax
 
 Type: <b>UINT</b>
 
-The maximum height of the menu in pixels. When the menu items exceed the space available, scroll bars are automatically used. The default (0) is the screen height. 
-
+The maximum height of the menu in pixels. When the menu items exceed the space available, scroll bars are automatically used. The default (0) is the screen height.
 
 ### -field hbrBack
 
 Type: <b>HBRUSH</b>
 
-A handle to the brush to be used for the menu's background. 
-
+A handle to the brush to be used for the menu's background.
 
 ### -field dwContextHelpID
 
 Type: <b>DWORD</b>
 
 The context help identifier. This is the same value used in 
-					the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenucontexthelpid">GetMenuContextHelpId</a> and 
-					<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenucontexthelpid">SetMenuContextHelpId</a> functions. 
-
+					the <a href="/windows/desktop/api/winuser/nf-winuser-getmenucontexthelpid">GetMenuContextHelpId</a> and 
+					<a href="/windows/desktop/api/winuser/nf-winuser-setmenucontexthelpid">SetMenuContextHelpId</a> functions.
 
 ### -field dwMenuData
 
@@ -260,14 +253,6 @@ Type: <b>ULONG_PTR</b>
 
 An application-defined value.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus Overview</a>
- 
-
- 
-
+<a href="/windows/desktop/menurc/menus">Menus Overview</a>

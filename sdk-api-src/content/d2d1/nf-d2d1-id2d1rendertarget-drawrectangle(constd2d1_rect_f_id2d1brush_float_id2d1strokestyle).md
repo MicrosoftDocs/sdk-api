@@ -1,16 +1,13 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
+UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle(constD2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRectangle (d2d1.h)
-description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
+description: Draws the outline of a rectangle that has the specified dimensions and stroke style. (overload 1/2)
+helpviewer_keywords: ["DrawRectangle","DrawRectangle methods [Direct2D]","ID2D1RenderTarget.DrawRectangle","ID2D1RenderTarget::DrawRectangle","d2d1_1/DrawRectangle","direct2d.id2d1rendertarget_drawrectangle"]
 old-location: direct2d\id2d1rendertarget_drawrectangle.htm
 tech.root: Direct2D
 ms.assetid: 3f8c0754-fa68-4b5b-812f-24d8b544ba6e
 ms.date: 12/05/2018
 ms.keywords: DrawRectangle, DrawRectangle methods [Direct2D], ID2D1RenderTarget.DrawRectangle, ID2D1RenderTarget::DrawRectangle, d2d1_1/DrawRectangle, direct2d.id2d1rendertarget_drawrectangle
-f1_keywords:
-- d2d1/ID2D1RenderTarget::DrawRectangle
-dev_langs:
-- c++
 req.header: d2d1.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -28,75 +25,69 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1RenderTarget::DrawRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1RenderTarget::DrawRectangle
+ - d2d1/ID2D1RenderTarget::DrawRectangle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1RenderTarget::DrawRectangle
 ---
-
-# ID2D1RenderTarget::DrawRectangle
-
 
 ## -description
 
-
-<span>Draws the outline of a rectangle that has the specified dimensions and stroke style.
-    
-</span><h3>Overload list</h3><table>
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)">DrawRectangle(D2D1_RECT_F&,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
-</td>
-<td align="left" width="63%">
 Draws the outline of a rectangle that has the specified dimensions and stroke style.
-    
-
-</td>
-</tr>
-<tr>
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f__id2d1brush_float_id2d1strokestyle)">DrawRectangle(D2D1_RECT_F*,ID2D1Brush*,FLOAT,ID2D1StrokeStyle*)</a>
-</td>
-<td align="left" width="63%">
-Draws the outline of a rectangle that has the specified dimensions and stroke style.
-
-</td>
-</tr>
-</table>
 
 ## -parameters
 
+### -param rect
+
+Type: [in] <b>const <a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+
+The dimensions of the rectangle to draw, in device-independent pixels.
+
+### -param brush
+
+Type: [in] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+
+The brush used to paint the rectangle's stroke.
+
+### -param strokeWidth
+
+Type: [in] <b>FLOAT</b>
+
+The width of the stroke, in device-independent pixels. The value must be greater than or equal to 0.0f. If this parameter isn't specified, it defaults to 1.0f. The stroke is centered on the line.
+
+### -param strokeStyle
+
+Type: [in, optional] <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
+
+The style of stroke to paint, or <b>NULL</b> to paint a solid stroke.
 
 ## -remarks
 
+When this method fails, it does not return an error code. To determine whether a drawing method (such as <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)">DrawRectangle</a>) failed, check the result returned by the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> method. 
 
+## Examples
 
-When this method fails, it does not return an error code. To determine whether a drawing method (such as <b>DrawRectangle</b>) failed, check the result returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">ID2D1RenderTarget::EndDraw</a> or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">ID2D1RenderTarget::Flush</a> method. 
-
-
-#### Examples
-
-The following example uses an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration.
+The following example uses an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget">ID2D1HwndRenderTarget</a> to draw and fill several rectangles. This example produces the output shown in the following illustration. 
 
 <img alt="Illustration of two rectangles on a grid background" src="images/drawrectangleexample_small.png"/>
 
-
 ```cpp
 // This method discards device-specific
-// resources if the Direct3D device dissapears during execution and
+// resources if the Direct3D device disappears during execution and
 // recreates the resources the next time it's invoked.
 HRESULT DemoApp::OnRender()
 {
@@ -171,31 +162,15 @@ HRESULT DemoApp::OnRender()
 
     return hr;
 }
-
 ```
 
-
-For a related tutorial, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>. 
-
-<div class="code"></div>
-
-
+For a related tutorial, see [Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart).
 
 ## -see-also
 
+[Create a simple Direct2D application](/windows/win32/Direct2D/direct2d-quickstart)
 
+<a href="/windows/win32/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-quickstart">Creating a Simple Direct2D Application</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-an-ellipse">How to Draw and Fill a Basic Shape</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
- 
-
- 
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 

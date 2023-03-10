@@ -2,15 +2,12 @@
 UID: NF:winsxs.IAssemblyName.IsEqual
 title: IAssemblyName::IsEqual (winsxs.h)
 description: The IsEqual method compares the current assembly name to another assembly name.
+helpviewer_keywords: ["IAssemblyName interface [Side-by-side Assemblies]","IsEqual method","IAssemblyName.IsEqual","IAssemblyName::IsEqual","IsEqual","IsEqual method [Side-by-side Assemblies]","IsEqual method [Side-by-side Assemblies]","IAssemblyName interface","setup.iassemblyname_isequal","winsxs/IAssemblyName::IsEqual"]
 old-location: setup\iassemblyname_isequal.htm
-tech.root: SbsCs
+tech.root: setup
 ms.assetid: 798102ce-b696-4940-941d-c3fd3054c584
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],IsEqual method, IAssemblyName.IsEqual, IAssemblyName::IsEqual, IsEqual, IsEqual method [Side-by-side Assemblies], IsEqual method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_isequal, winsxs/IAssemblyName::IsEqual
-f1_keywords:
-- winsxs/IAssemblyName.IsEqual
-dev_langs:
-- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Sxs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sxs.dll
-api_name:
-- IAssemblyName.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAssemblyName::IsEqual
+ - winsxs/IAssemblyName::IsEqual
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sxs.dll
+api_name:
+ - IAssemblyName.IsEqual
 ---
 
 # IAssemblyName::IsEqual
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IsEqual</b> method compares the current assembly name to another assembly name.
-
 
 ## -parameters
 
-
-
-
 ### -param pName [in]
 
-A pointer to another  <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> instance, which is to be compared to the current assembly.
-
+A pointer to another  <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> instance, which is to be compared to the current assembly.
 
 ### -param dwCmpFlags [in]
 
-Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="https://docs.microsoft.com/windows/win32/api/winsxs/ne-winsxs-asm_cmp_flags">ASM_CMP_FLAGS</a> enumeration.
-
+Indicates which portion of the assembly names are to be compared. The value can be one of the options of the <a href="/windows/win32/api/winsxs/ne-winsxs-asm_cmp_flags">ASM_CMP_FLAGS</a> enumeration.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,18 +94,7 @@ The specified portions of the names do not match.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>

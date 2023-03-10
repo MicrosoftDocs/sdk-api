@@ -2,15 +2,12 @@
 UID: NF:relogger.ITraceEvent.SetProviderId
 title: ITraceEvent::SetProviderId (relogger.h)
 description: Sets the GUID for the provider which traced an event.
+helpviewer_keywords: ["ITraceEvent interface [ETW]","SetProviderId method","ITraceEvent.SetProviderId","ITraceEvent::SetProviderId","SetProviderId","SetProviderId method [ETW]","SetProviderId method [ETW]","ITraceEvent interface","etw.ievent_setproviderid","relogger/ITraceEvent::SetProviderId"]
 old-location: etw\ievent_setproviderid.htm
 tech.root: ETW
 ms.assetid: dc61ff9e-2af9-4428-82df-84635313ddc6
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetProviderId method, ITraceEvent.SetProviderId, ITraceEvent::SetProviderId, SetProviderId, SetProviderId method [ETW], SetProviderId method [ETW],ITraceEvent interface, etw.ievent_setproviderid, relogger/ITraceEvent::SetProviderId
-f1_keywords:
-- relogger/ITraceEvent.SetProviderId
-dev_langs:
-- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Relogger.h
-api_name:
-- ITraceEvent.SetProviderId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITraceEvent::SetProviderId
+ - relogger/ITraceEvent::SetProviderId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Relogger.h
+api_name:
+ - ITraceEvent.SetProviderId
 ---
 
 # ITraceEvent::SetProviderId
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetProviderId</b> method sets the GUID for the provider which traced an event.
 
-
 ## -parameters
-
-
-
 
 ### -param ProviderId [in]
 
@@ -63,25 +60,12 @@ Type: <b>LPCGUID</b>
 
 Unique identifier of the provider.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>
- 
-
- 
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itraceevent">ITraceEvent</a>

@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUIFramework.GetView
 title: IUIFramework::GetView (uiribbon.h)
 description: Retrieves the address of a pointer to an interface that represents a Windows Ribbon framework View, such as IUIRibbon or IUIContextualUI.
+helpviewer_keywords: ["GetView","GetView method [Windows Ribbon]","GetView method [Windows Ribbon]","IUIFramework interface","IUIFramework interface [Windows Ribbon]","GetView method","IUIFramework.GetView","IUIFramework::GetView","scenicintent_IUIFramework_GetView","uiribbon/IUIFramework::GetView","windowsribbon.windowsribbon_iuiframework_getview"]
 old-location: windowsribbon\windowsribbon_iuiframework_getview.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getview.htm
 ms.date: 12/05/2018
 ms.keywords: GetView, GetView method [Windows Ribbon], GetView method [Windows Ribbon],IUIFramework interface, IUIFramework interface [Windows Ribbon],GetView method, IUIFramework.GetView, IUIFramework::GetView, scenicintent_IUIFramework_GetView, uiribbon/IUIFramework::GetView, windowsribbon.windowsribbon_iuiframework_getview
-f1_keywords:
-- uiribbon/IUIFramework.GetView
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIFramework.GetView
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIFramework::GetView
+ - uiribbon/IUIFramework::GetView
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIFramework.GetView
 ---
 
 # IUIFramework::GetView
@@ -49,46 +51,33 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the address of a pointer to an interface that represents a Windows Ribbon framework View, such as <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
-			or <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>.
-		
-
+Retrieves the address of a pointer to an interface that represents a Windows Ribbon framework View, such as <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
+			or <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>.
 
 ## -parameters
-
-
-
 
 ### -param viewId [in]
 
 Type: <b>UINT32</b>
 
 The ID for the View. 
-				A value of 0 for a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> or the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-command-id">Command.Id</a> of a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>. 
-
+				A value of 0 for a <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> or the <a href="/windows/desktop/windowsribbon/windowsribbon-element-command-id">Command.Id</a> of a <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-The interface ID for <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
-					or <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>.
-				
-
+The interface ID for <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
+					or <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>.
 
 ### -param ppv [out]
 
 Type: <b>void**</b>
 
-When this method returns, contains the address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
-					or an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a> object. 
-					
-
+When this method returns, contains the address of a pointer to an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a> 
+					or an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a> object.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -110,17 +99,11 @@ Returns S_OK if successful; otherwise, an error value from the following list.
 <td>The operation failed.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Ribbon framework UI functionality is differentiated by Views, which are essentially built-in core frameworks, 
-				such as the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> and <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
+				such as the <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a> and <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 			
 
 Rather than maintaining a pointer to an interface throughout the life of an application,
@@ -128,17 +111,17 @@ Rather than maintaining a pointer to an interface throughout the life of an appl
 				and call methods as necessary. 
 				
 
-<div class="alert"><b>Note</b>  The host application must call <a href="https://go.microsoft.com/fwlink/p/?linkid=142946">IUnknown::Release</a> on the temporary interface pointer to avoid a memory leak.</div>
+<div class="alert"><b>Note</b>  The host application must call <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the temporary interface pointer to avoid a memory leak.</div>
 <div> </div>
 For example, each time there is a change to the size of the ribbon, a host application calls 
-				<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight">GetHeight</a> to adjust the size of the host client area 
+				<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight">GetHeight</a> to adjust the size of the host client area 
 				appropriately. 
 				
 
 
 #### Examples
 
-The following example demonstrates how to use the <b>IUIFramework::GetView</b> method to retrieve a Ribbon View object, call the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight">GetHeight</a> method to retrieve the height  of the ribbon, and calculate a display location for a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> control based on the height of the ribbon.
+The following example demonstrates how to use the <b>IUIFramework::GetView</b> method to retrieve a Ribbon View object, call the <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-getheight">GetHeight</a> method to retrieve the height  of the ribbon, and calculate a display location for a <a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a> control based on the height of the ribbon.
 
 
 ```cpp
@@ -174,21 +157,10 @@ void GetDisplayLocation(POINT &pt, HWND hWnd)
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

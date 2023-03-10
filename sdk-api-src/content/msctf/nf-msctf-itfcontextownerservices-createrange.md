@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfContextOwnerServices.CreateRange
 title: ITfContextOwnerServices::CreateRange (msctf.h)
 description: The ITfContextOwnerServices::CreateRange method creates a new ranged based upon a specified character position.
+helpviewer_keywords: ["CreateRange","CreateRange method [Text Services Framework]","CreateRange method [Text Services Framework]","ITfContextOwnerServices interface","ITfContextOwnerServices interface [Text Services Framework]","CreateRange method","ITfContextOwnerServices.CreateRange","ITfContextOwnerServices::CreateRange","_tsf_itfcontextownerservices_createrange_ref","msctf/ITfContextOwnerServices::CreateRange","tsf.itfcontextownerservices_createrange"]
 old-location: tsf\itfcontextownerservices_createrange.htm
 tech.root: TSF
 ms.assetid: 60214fdb-212c-4967-8cbf-e988db893245
 ms.date: 12/05/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],CreateRange method, ITfContextOwnerServices.CreateRange, ITfContextOwnerServices::CreateRange, _tsf_itfcontextownerservices_createrange_ref, msctf/ITfContextOwnerServices::CreateRange, tsf.itfcontextownerservices_createrange
-f1_keywords:
-- msctf/ITfContextOwnerServices.CreateRange
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContextOwnerServices.CreateRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextOwnerServices::CreateRange
+ - msctf/ITfContextOwnerServices::CreateRange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContextOwnerServices.CreateRange
 ---
 
 # ITfContextOwnerServices::CreateRange
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfContextOwnerServices::CreateRange</b> method creates a new ranged based upon a specified character position.
 
-
 ## -parameters
-
-
-
 
 ### -param acpStart [in]
 
 Specifies the starting character position of the range.
 
-
 ### -param acpEnd [in]
 
 Specifies the ending character position of the range.
-
 
 ### -param ppRange [out]
 
 Receives a pointer to the range object within the specified starting and ending character positions.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -106,7 +98,4 @@ The specified range is <b>NULL</b> or the specified starting character position 
 </td>
 </tr>
 </table>
- 
-
-
 

@@ -2,15 +2,12 @@
 UID: NS:minidumpapiset._MINIDUMP_MISC_INFO_2
 title: MINIDUMP_MISC_INFO_2 (minidumpapiset.h)
 description: Represents information in the miscellaneous information stream.
+helpviewer_keywords: ["*PMINIDUMP_MISC_INFO_2","MINIDUMP_MISC1_PROCESSOR_POWER_INFO","MINIDUMP_MISC1_PROCESS_ID","MINIDUMP_MISC1_PROCESS_TIMES","MINIDUMP_MISC_INFO_2","MINIDUMP_MISC_INFO_2 structure","PMINIDUMP_MISC_INFO_2","PMINIDUMP_MISC_INFO_2 structure pointer","_MINIDUMP_MISC_INFO_2","base.minidump_misc_info_2","minidumpapiset/MINIDUMP_MISC_INFO_2","minidumpapiset/PMINIDUMP_MISC_INFO_2"]
 old-location: base\minidump_misc_info_2.htm
 tech.root: Debug
 ms.assetid: 34f46a51-9e41-4550-a080-1c7c7a603b54
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_MISC_INFO_2, MINIDUMP_MISC1_PROCESSOR_POWER_INFO, MINIDUMP_MISC1_PROCESS_ID, MINIDUMP_MISC1_PROCESS_TIMES, MINIDUMP_MISC_INFO_2, MINIDUMP_MISC_INFO_2 structure, PMINIDUMP_MISC_INFO_2, PMINIDUMP_MISC_INFO_2 structure pointer, _MINIDUMP_MISC_INFO_2, base.minidump_misc_info_2, minidumpapiset/MINIDUMP_MISC_INFO_2, minidumpapiset/PMINIDUMP_MISC_INFO_2'
-f1_keywords:
-- minidumpapiset/MINIDUMP_MISC_INFO_2
-dev_langs:
-- c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- minidumpapiset.h
-api_name:
-- MINIDUMP_MISC_INFO_2
 targetos: Windows
 req.typenames: MINIDUMP_MISC_INFO_2, *PMINIDUMP_MISC_INFO_2
 req.redist: DbgHelp.dll 6.5 or later
 ms.custom: 19H1
+f1_keywords:
+ - _MINIDUMP_MISC_INFO_2
+ - minidumpapiset/_MINIDUMP_MISC_INFO_2
+ - PMINIDUMP_MISC_INFO_2
+ - minidumpapiset/PMINIDUMP_MISC_INFO_2
+ - MINIDUMP_MISC_INFO_2
+ - minidumpapiset/MINIDUMP_MISC_INFO_2
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - minidumpapiset.h
+api_name:
+ - MINIDUMP_MISC_INFO_2
 ---
 
 # MINIDUMP_MISC_INFO_2 structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents information in the miscellaneous information stream.
 
-
 ## -struct-fields
-
-
-
 
 ### -field SizeOfInfo
 
 The size of the structure, in bytes.
-
 
 ### -field Flags1
 
@@ -109,21 +109,17 @@ The flags that indicate the valid members of this structure. This member can be 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ProcessId
 
 The identifier of the process. If <b>Flags1</b> does not specify 
       <b>MINIDUMP_MISC1_PROCESS_ID</b>, this member is unused.
 
-
 ### -field ProcessCreateTime
 
 The creation time of the process, in <b>time_t</b> format. If 
       <b>Flags1</b> does not specify <b>MINIDUMP_MISC1_PROCESS_TIMES</b>, this 
       member is unused.
-
 
 ### -field ProcessUserTime
 
@@ -132,7 +128,6 @@ The time the process has executed in user mode, in seconds. The time that each o
       <b>Flags1</b> does not specify <b>MINIDUMP_MISC1_PROCESS_TIMES</b>, this 
       member is unused.
 
-
 ### -field ProcessKernelTime
 
 The time the process has executed in kernel mode, in seconds. The time that each of the threads of the 
@@ -140,12 +135,10 @@ The time the process has executed in kernel mode, in seconds. The time that each
       <b>Flags1</b> does not specify <b>MINIDUMP_MISC1_PROCESS_TIMES</b>, this 
       member is unused.
 
-
 ### -field ProcessorMaxMhz
 
 The maximum specified clock frequency of the system processor, in MHz. If <b>Flags1</b> 
       does not specify <b>MINIDUMP_MISC1_PROCESSOR_POWER_INFO</b>, this member is unused.
-
 
 ### -field ProcessorCurrentMhz
 
@@ -153,33 +146,22 @@ The processor clock frequency, in MHz. This number is the maximum specified proc
       multiplied by the current processor throttle. If <b>Flags1</b> does not specify 
       <b>MINIDUMP_MISC1_PROCESSOR_POWER_INFO</b>, this member is unused.
 
-
 ### -field ProcessorMhzLimit
 
 The limit on the processor clock frequency, in MHz. This number is the maximum specified processor clock 
       frequency multiplied by the current processor thermal throttle limit. If <b>Flags1</b> does 
       not specify <b>MINIDUMP_MISC1_PROCESSOR_POWER_INFO</b>, this member is unused.
 
-
 ### -field ProcessorMaxIdleState
 
 The maximum idle state of the processor. If <b>Flags1</b> does not specify 
       <b>MINIDUMP_MISC1_PROCESSOR_POWER_INFO</b>, this member is unused.
-
 
 ### -field ProcessorCurrentIdleState
 
 The current idle state of the processor. If <b>Flags1</b> does not specify 
       <b>MINIDUMP_MISC1_PROCESSOR_POWER_INFO</b>, this member is unused.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>

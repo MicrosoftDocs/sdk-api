@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule3.put_LocalUserOwner
 title: INetFwRule3::put_LocalUserOwner (netfw.h)
-description: Specifies the user security identifier (SID) of the user who is the owner of the rule.
+description: Specifies the user security identifier (SID) of the user who is the owner of the rule. (Put)
+helpviewer_keywords: ["INetFwRule3 interface [ICS/ICF]","LocalUserOwner property","INetFwRule3.LocalUserOwner","INetFwRule3.put_LocalUserOwner","INetFwRule3::LocalUserOwner","INetFwRule3::get_LocalUserOwner","INetFwRule3::put_LocalUserOwner","LocalUserOwner property [ICS/ICF]","LocalUserOwner property [ICS/ICF]","INetFwRule3 interface","ics.inetfwrule3_localuserowner","netfw/INetFwRule3::LocalUserOwner","netfw/INetFwRule3::get_LocalUserOwner","netfw/INetFwRule3::put_LocalUserOwner","put_LocalUserOwner"]
 old-location: ics\inetfwrule3_localuserowner.htm
 tech.root: ics
 ms.assetid: 5eeacde4-6e25-49dc-a8f5-77a6e56dcade
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalUserOwner property, INetFwRule3.LocalUserOwner, INetFwRule3.put_LocalUserOwner, INetFwRule3::LocalUserOwner, INetFwRule3::get_LocalUserOwner, INetFwRule3::put_LocalUserOwner, LocalUserOwner property [ICS/ICF], LocalUserOwner property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_localuserowner, netfw/INetFwRule3::LocalUserOwner, netfw/INetFwRule3::get_LocalUserOwner, netfw/INetFwRule3::put_LocalUserOwner, put_LocalUserOwner
-f1_keywords:
-- netfw/INetFwRule3.LocalUserOwner
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule3.LocalUserOwner
-- INetFwRule3.get_LocalUserOwner
-- INetFwRule3.put_LocalUserOwner
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule3::put_LocalUserOwner
+ - netfw/INetFwRule3::put_LocalUserOwner
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule3.LocalUserOwner
+ - INetFwRule3.get_LocalUserOwner
+ - INetFwRule3.put_LocalUserOwner
 ---
 
 # INetFwRule3::put_LocalUserOwner
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the user security identifier (SID) of the user who is the owner of the rule. 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 If this rule does not specify <b>localUserConditions</b>, all the traffic that this rule matches must be destined to or originated from this user.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>

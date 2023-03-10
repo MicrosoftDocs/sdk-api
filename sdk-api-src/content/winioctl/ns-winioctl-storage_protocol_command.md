@@ -2,15 +2,12 @@
 UID: NS:winioctl._STORAGE_PROTOCOL_COMMAND
 title: STORAGE_PROTOCOL_COMMAND
 description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
+helpviewer_keywords: ["*PSTORAGE_PROTOCOL_COMMAND","PSTORAGE_PROTOCOL_COMMAND","PSTORAGE_PROTOCOL_COMMAND structure pointer [Files]","STORAGE_PROTOCOL_COMMAND","STORAGE_PROTOCOL_COMMAND structure [Files]","fs.storage_protocol_command","winioctl/PSTORAGE_PROTOCOL_COMMAND","winioctl/STORAGE_PROTOCOL_COMMAND"]
 old-location: fs\storage_protocol_command.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: A2F61F18-A5DE-41D5-95D6-E341009484FF
 ms.date: 12/05/2018
 ms.keywords: '*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Files], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Files], fs.storage_protocol_command, winioctl/PSTORAGE_PROTOCOL_COMMAND, winioctl/STORAGE_PROTOCOL_COMMAND'
-f1_keywords:
-- winioctl/STORAGE_PROTOCOL_COMMAND
-dev_langs:
-- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,18 +25,27 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winioctl.h
-api_name:
-- STORAGE_PROTOCOL_COMMAND
 targetos: Windows
 req.typenames: STORAGE_PROTOCOL_COMMAND, *PSTORAGE_PROTOCOL_COMMAND
 req.redist: 
+f1_keywords:
+ - _STORAGE_PROTOCOL_COMMAND
+ - winioctl/_STORAGE_PROTOCOL_COMMAND
+ - PSTORAGE_PROTOCOL_COMMAND
+ - winioctl/PSTORAGE_PROTOCOL_COMMAND
+ - STORAGE_PROTOCOL_COMMAND
+ - winioctl/STORAGE_PROTOCOL_COMMAND
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winioctl.h
+api_name:
+ - STORAGE_PROTOCOL_COMMAND
 ---
 
 # STORAGE_PROTOCOL_COMMAND structure
@@ -47,29 +53,21 @@ req.redist:
 
 ## -description
 
-
-This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
-
+This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The version of this structure. This should be set to <b>STORAGE_PROTOCOL_STRUCTURE_VERSION</b>.
 
-
 ### -field Length
 
 The size of this structure. This should be set to sizeof(<b>STORAGE_PROTOCOL_COMMAND</b>).
 
-
 ### -field ProtocolType
 
-The protocol type, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
-
+The protocol type, of type <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
 
 ### -field Flags
 
@@ -85,8 +83,6 @@ Flags set for this request. The following are valid flags.
 <td>This flag indicates the request to target an adapter instead of device.</td>
 </tr>
 </table>
- 
-
 
 ### -field ReturnStatus
 
@@ -134,93 +130,63 @@ The status of the request made to the storage device. In Windows 10, possible v
 <td>The request is not supported.</td>
 </tr>
 </table>
- 
-
 
 ### -field ErrorCode
 
 The error code for this request. This is optionally set.
 
-
 ### -field CommandLength
 
 The length of the command. A non-zero value must be set by the caller.
-
 
 ### -field ErrorInfoLength
 
 The length of the error buffer. This is optionally set and can be set to 0.
 
-
 ### -field DataToDeviceTransferLength
 
 The size of the buffer that is to be transferred to the device. This is only used with a WRITE request.
-
 
 ### -field DataFromDeviceTransferLength
 
 The size of the buffer this is to be transferred from the device. This is only used with a READ request.
 
-
 ### -field TimeOutValue
 
 How long to wait for the device until timing out. This is set in units of seconds.
-
 
 ### -field ErrorInfoOffset
 
 The offset of the error buffer. This must be pointer-aligned.
 
-
 ### -field DataToDeviceBufferOffset
 
 The offset of the buffer that is to be transferred to the device. This must be pointer-aligned and is only used with a WRITE request.
-
 
 ### -field DataFromDeviceBufferOffset
 
 The offset of the buffer that is to be transferred from the device. This must be pointer-aligned and is only used with a READ request.
 
-
 ### -field CommandSpecific
 
 Command-specific data passed along with the command. This depends on the command from the driver, and is optionally set.
-
 
 ### -field Reserved0
 
 Reserved for future use.
 
-
 ### -field FixedProtocolReturnData
 
 The return data. This is optionally set. Some protocols such as NVMe, may return a small amount of data (DWORD0 from completion queue entry) without the need of a separate device data transfer.
-
 
 ### -field Reserved1
 
 Reserved for future use.
 
+### -field Command [ANYSIZE_ARRAY]
 
-### -field Command
-
- 
-
-
-
-
-#### - Command[ANYSIZE_ARRAY]
-
-The vendor-specific command that is to be passed-through to the device. 
-
+The vendor-specific command that is to be passed-through to the device.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>

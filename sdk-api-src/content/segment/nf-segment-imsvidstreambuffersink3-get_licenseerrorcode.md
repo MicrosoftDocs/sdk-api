@@ -2,15 +2,12 @@
 UID: NF:segment.IMSVidStreamBufferSink3.get_LicenseErrorCode
 title: IMSVidStreamBufferSink3::get_LicenseErrorCode (segment.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_LicenseErrorCode method","IMSVidStreamBufferSink3.get_LicenseErrorCode","IMSVidStreamBufferSink3::get_LicenseErrorCode","IMSVidStreamBufferSink3get_LicenseErrorCode","get_LicenseErrorCode","get_LicenseErrorCode method [Microsoft TV Technologies]","get_LicenseErrorCode method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_licenseerrorcode","segment/IMSVidStreamBufferSink3::get_LicenseErrorCode"]
 old-location: mstv\imsvidstreambuffersink3_get_licenseerrorcode.htm
 tech.root: mstv
 ms.assetid: f20b8845-86ae-4fe9-9d2b-80341672843c
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_LicenseErrorCode method, IMSVidStreamBufferSink3.get_LicenseErrorCode, IMSVidStreamBufferSink3::get_LicenseErrorCode, IMSVidStreamBufferSink3get_LicenseErrorCode, get_LicenseErrorCode, get_LicenseErrorCode method [Microsoft TV Technologies], get_LicenseErrorCode method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_licenseerrorcode, segment/IMSVidStreamBufferSink3::get_LicenseErrorCode
-f1_keywords:
-- segment/IMSVidStreamBufferSink3.get_LicenseErrorCode
-dev_langs:
-- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- segment.h
-api_name:
-- IMSVidStreamBufferSink3.get_LicenseErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMSVidStreamBufferSink3::get_LicenseErrorCode
+ - segment/IMSVidStreamBufferSink3::get_LicenseErrorCode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - segment.h
+api_name:
+ - IMSVidStreamBufferSink3.get_LicenseErrorCode
 ---
 
 # IMSVidStreamBufferSink3::get_LicenseErrorCode
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
@@ -57,20 +57,13 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>get_LicenseErrorCode</b> method returns the most recent error code relating to licenses.
 
-
 ## -parameters
-
-
-
 
 ### -param hres [out]
 
 Receives an <b>HRESULT</b> value.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -91,18 +84,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 Interface</a>

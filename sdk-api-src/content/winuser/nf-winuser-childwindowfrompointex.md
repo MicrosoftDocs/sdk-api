@@ -2,15 +2,12 @@
 UID: NF:winuser.ChildWindowFromPointEx
 title: ChildWindowFromPointEx function (winuser.h)
 description: Determines which, if any, of the child windows belonging to the specified parent window contains the specified point.
+helpviewer_keywords: ["CWP_ALL","CWP_SKIPDISABLED","CWP_SKIPINVISIBLE","CWP_SKIPTRANSPARENT","ChildWindowFromPointEx","ChildWindowFromPointEx function [Windows and Messages]","_win32_ChildWindowFromPointEx","_win32_childwindowfrompointex_cpp","winmsg.childwindowfrompointex","winui._win32_childwindowfrompointex","winuser/ChildWindowFromPointEx"]
 old-location: winmsg\childwindowfrompointex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\childwindowfrompointex.htm
 ms.date: 12/05/2018
 ms.keywords: CWP_ALL, CWP_SKIPDISABLED, CWP_SKIPINVISIBLE, CWP_SKIPTRANSPARENT, ChildWindowFromPointEx, ChildWindowFromPointEx function [Windows and Messages], _win32_ChildWindowFromPointEx, _win32_childwindowfrompointex_cpp, winmsg.childwindowfrompointex, winui._win32_childwindowfrompointex, winuser/ChildWindowFromPointEx
-f1_keywords:
-- winuser/ChildWindowFromPointEx
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,30 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
-- ie_shims.dll
-- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
-- minuser.dll
-- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
-api_name:
-- ChildWindowFromPointEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChildWindowFromPointEx
+ - winuser/ChildWindowFromPointEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+ - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+ - ie_shims.dll
+ - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+ - minuser.dll
+ - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+api_name:
+ - ChildWindowFromPointEx
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChildWindowFromPointEx function
@@ -53,33 +56,26 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines which, if any, 
 		of the child windows belonging to the specified parent window contains the specified point. 
 		The function can ignore invisible, disabled, and transparent child windows. The search is 
-		restricted to immediate child windows. Grandchildren and deeper descendants are not searched. 
-
+		restricted to immediate child windows. Grandchildren and deeper descendants are not searched.
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 Type: <b>HWND</b>
 
-A handle to the parent window. 
-
+A handle to the parent window.
 
 ### -param pt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
 A structure that defines the 
 				client coordinates (relative to <i>hwndParent</i>) 
-				of the point to be checked. 
-
+				of the point to be checked.
 
 ### -param flags [in]
 
@@ -138,15 +134,10 @@ Skips transparent child windows
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-Type: <strong>Type: <b>HWND</b>
-</strong>
+Type: <b>HWND</b>
 
 The return value is a handle to the first child window that contains 
 				the point and meets the criteria specified by <i>uFlags</i>. 
@@ -155,12 +146,7 @@ The return value is a handle to the first child window that contains
 				point lies outside the parent window or if the function fails, the return 
 				value is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 The system maintains an internal list that contains the handles of the child 
 			windows associated with a parent window. The order of the handles in the list 
@@ -169,13 +155,7 @@ The system maintains an internal list that contains the handles of the child
 			in the list that contains the point and meets the criteria specified by 
 			<i>uFlags</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -185,7 +165,7 @@ The system maintains an internal list that contains the handles of the child
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/windows/win32/api/windef/ns-windef-point">POINT</a>
 
 
 
@@ -193,12 +173,8 @@ The system maintains an internal list that contains the handles of the child
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

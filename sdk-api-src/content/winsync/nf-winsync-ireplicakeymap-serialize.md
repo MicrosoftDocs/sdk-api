@@ -2,15 +2,12 @@
 UID: NF:winsync.IReplicaKeyMap.Serialize
 title: IReplicaKeyMap::Serialize (winsync.h)
 description: Serializes the replica key map data to a byte array.
+helpviewer_keywords: ["IReplicaKeyMap interface [Windows Sync]","Serialize method","IReplicaKeyMap.Serialize","IReplicaKeyMap::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","IReplicaKeyMap interface","winsync.ireplicakeymap_serialize","winsync/IReplicaKeyMap::Serialize"]
 old-location: winsync\ireplicakeymap_serialize.htm
 tech.root: winsync
 ms.assetid: 0ed19406-82b8-428f-bed2-796e287dd4cb
 ms.date: 12/05/2018
 ms.keywords: IReplicaKeyMap interface [Windows Sync],Serialize method, IReplicaKeyMap.Serialize, IReplicaKeyMap::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_serialize, winsync/IReplicaKeyMap::Serialize
-f1_keywords:
-- winsync/IReplicaKeyMap.Serialize
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IReplicaKeyMap.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReplicaKeyMap::Serialize
+ - winsync/IReplicaKeyMap::Serialize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IReplicaKeyMap.Serialize
 ---
 
 # IReplicaKeyMap::Serialize
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Serializes the replica key map data to a byte array.
 
-
 ## -parameters
-
-
-
 
 ### -param pbReplicaKeyMap [in, out]
 
 The byte array that receives the serialized data.
 
-
 ### -param pcbReplicaKeyMap [in, out]
 
 Specifies the number of bytes in <i>pbReplicaKeyMap</i>. Returns the number of bytes required to serialize the replica key map data when <i>pbReplicaKeyMap</i> is too small, or returns the number of bytes written.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -131,18 +124,7 @@ Invalid pointer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>

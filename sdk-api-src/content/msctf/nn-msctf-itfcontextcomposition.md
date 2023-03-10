@@ -2,15 +2,12 @@
 UID: NN:msctf.ITfContextComposition
 title: ITfContextComposition (msctf.h)
 description: The ITfContextComposition interface is implemented by the TSF manager and is used by a text service to create and manipulate compositions. An instance of this interface is provided by ITfContext::QueryInterface with IID_ITfContextComposition.
+helpviewer_keywords: ["ITfContextComposition","ITfContextComposition interface [Text Services Framework]","ITfContextComposition interface [Text Services Framework]","described","_tsf_itfcontextcomposition_ref","msctf/ITfContextComposition","tsf.itfcontextcomposition"]
 old-location: tsf\itfcontextcomposition.htm
 tech.root: TSF
 ms.assetid: cf02c50c-dca8-47ad-b8ff-0fa3884db674
 ms.date: 12/05/2018
 ms.keywords: ITfContextComposition, ITfContextComposition interface [Text Services Framework], ITfContextComposition interface [Text Services Framework],described, _tsf_itfcontextcomposition_ref, msctf/ITfContextComposition, tsf.itfcontextcomposition
-f1_keywords:
-- msctf/ITfContextComposition
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfContextComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfContextComposition
+ - msctf/ITfContextComposition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfContextComposition
 ---
 
 # ITfContextComposition interface
@@ -48,76 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ITfContextComposition</b> interface is implemented by the TSF manager and is used by a text service to create and manipulate compositions. An instance of this interface is provided by <b>ITfContext::QueryInterface</b> with IID_ITfContextComposition.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextComposition</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextComposition</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITfContextComposition</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-enumcompositions">EnumCompositions</a>
-</td>
-<td align="left" width="63%">
-Creates an enumerator object that contains all compositions in the context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-findcomposition">FindComposition</a>
-</td>
-<td align="left" width="63%">
-Creates an enumerator object that contains all compositions that intersect a specified range of text.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-startcomposition">StartComposition</a>
-</td>
-<td align="left" width="63%">
-Creates a new composition.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextcomposition-takeownership">TakeOwnership</a>
-</td>
-<td align="left" width="63%">
-Not currently implemented.
-
-</td>
-</tr>
-</table> 
-
+The <b>ITfContextComposition</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextComposition</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

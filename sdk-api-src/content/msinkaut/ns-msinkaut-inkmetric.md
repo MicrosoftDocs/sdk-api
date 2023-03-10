@@ -2,15 +2,12 @@
 UID: NS:msinkaut.tagINKMETRIC
 title: INKMETRIC (msinkaut.h)
 description: Specifies display properties for a text ink object (tInk).
+helpviewer_keywords: ["*PINKMETRIC","27d56034-725d-4b05-9c43-6b3180d7411b","IMF_BOLD","IMF_FONT_SELECTED_IN_HDC","IMF_ITALIC","INKMETRIC","INKMETRIC structure [Tablet PC]","PINKMETRIC","PINKMETRIC structure pointer [Tablet PC]","msinkaut/INKMETRIC","msinkaut/PINKMETRIC","tablet.inkmetric"]
 old-location: tablet\inkmetric.htm
 tech.root: tablet
 ms.assetid: 27d56034-725d-4b05-9c43-6b3180d7411b
 ms.date: 12/05/2018
 ms.keywords: '*PINKMETRIC, 27d56034-725d-4b05-9c43-6b3180d7411b, IMF_BOLD, IMF_FONT_SELECTED_IN_HDC, IMF_ITALIC, INKMETRIC, INKMETRIC structure [Tablet PC], PINKMETRIC, PINKMETRIC structure pointer [Tablet PC], msinkaut/INKMETRIC, msinkaut/PINKMETRIC, tablet.inkmetric'
-f1_keywords:
-- msinkaut/INKMETRIC
-dev_langs:
-- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- msinkaut.h
-api_name:
-- INKMETRIC
 targetos: Windows
 req.typenames: INKMETRIC, *PINKMETRIC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagINKMETRIC
+ - msinkaut/tagINKMETRIC
+ - PINKMETRIC
+ - msinkaut/PINKMETRIC
+ - INKMETRIC
+ - msinkaut/INKMETRIC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - msinkaut.h
+api_name:
+ - INKMETRIC
 ---
 
 # INKMETRIC structure
@@ -48,32 +54,21 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Specifies display properties for a text ink object (tInk).
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field iHeight
 
 Ink height.
 
-
 ### -field iFontAscent
 
 Assent height.
 
-
 ### -field iFontDescent
 
 Descent height.
-
 
 ### -field dwFlags
 
@@ -118,40 +113,25 @@ Apply the bold style.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field color
 
 Ink color.
 
-
 ## -remarks
-
-
 
 The <b>iHeight</b>, <b>iFontAssent</b> and <b>iFontDescent</b> fields are in <b>HIMETRIC</b> units.
 
 Applying italics to a text ink object slants the ink to the right.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>

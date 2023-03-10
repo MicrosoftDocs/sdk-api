@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IFolderView2.GetVisibleItem
 title: IFolderView2::GetVisibleItem (shobjidl_core.h)
 description: Gets the next visible item in relation to a given index in the view.
+helpviewer_keywords: ["GetVisibleItem","GetVisibleItem method [Windows Shell]","GetVisibleItem method [Windows Shell]","IFolderView2 interface","IFolderView2 interface [Windows Shell]","GetVisibleItem method","IFolderView2.GetVisibleItem","IFolderView2::GetVisibleItem","_shell_IFolderView2_GetVisibleItem","shell.IFolderView2_GetVisibleItem","shobjidl_core/IFolderView2::GetVisibleItem"]
 old-location: shell\IFolderView2_GetVisibleItem.htm
 tech.root: shell
 ms.assetid: 5b196377-53c4-49a1-be35-39d34b1638e3
 ms.date: 12/05/2018
 ms.keywords: GetVisibleItem, GetVisibleItem method [Windows Shell], GetVisibleItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetVisibleItem method, IFolderView2.GetVisibleItem, IFolderView2::GetVisibleItem, _shell_IFolderView2_GetVisibleItem, shell.IFolderView2_GetVisibleItem, shobjidl_core/IFolderView2::GetVisibleItem
-f1_keywords:
-- shobjidl_core/IFolderView2.GetVisibleItem
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IFolderView2.GetVisibleItem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFolderView2::GetVisibleItem
+ - shobjidl_core/IFolderView2::GetVisibleItem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IFolderView2.GetVisibleItem
 ---
 
 # IFolderView2::GetVisibleItem
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the next visible item in relation to a given index in the view.
 
-
 ## -parameters
-
-
-
 
 ### -param iStart [in]
 
@@ -63,13 +60,11 @@ Type: <b>int</b>
 
 The zero-based position at which to start searching for a visible item.
 
-
 ### -param fPrevious [in]
 
 Type: <b>BOOL</b>
 
 <b>TRUE</b> to find the first visible item before <i>iStart</i>. <b>FALSE</b> to find the first visible item after <i>iStart</i>.
-
 
 ### -param piItem [out]
 
@@ -77,10 +72,7 @@ Type: <b>int*</b>
 
 When this method returns, contains a pointer to a value that receives the index of the visible item in the view.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -114,7 +106,4 @@ Item not found. Note that this is a success code.
 </td>
 </tr>
 </table>
- 
-
-
 

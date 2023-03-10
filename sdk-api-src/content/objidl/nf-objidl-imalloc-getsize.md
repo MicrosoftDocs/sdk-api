@@ -1,16 +1,13 @@
 ---
 UID: NF:objidl.IMalloc.GetSize
 title: IMalloc::GetSize (objidl.h)
-description: Retrieves the size of a previously allocated block of memory.
+description: The IMalloc::GetSize method (objidl.h) retrieves the size of a previously allocated block of memory.
+helpviewer_keywords: ["GetSize","GetSize method [COM]","GetSize method [COM]","IMalloc interface","IMalloc interface [COM]","GetSize method","IMalloc.GetSize","IMalloc::GetSize","_com_imalloc_getsize","com.imalloc_getsize","objidlbase/IMalloc::GetSize"]
 old-location: com\imalloc_getsize.htm
 tech.root: com
 ms.assetid: abf8cb53-7c1b-4dde-9745-30a45ad030b7
-ms.date: 12/05/2018
+ms.date: 08/12/2022
 ms.keywords: GetSize, GetSize method [COM], GetSize method [COM],IMalloc interface, IMalloc interface [COM],GetSize method, IMalloc.GetSize, IMalloc::GetSize, _com_imalloc_getsize, com.imalloc_getsize, objidlbase/IMalloc::GetSize
-f1_keywords:
-- objidl/IMalloc.GetSize
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidlbase.h
-api_name:
-- IMalloc.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMalloc::GetSize
+ - objidl/IMalloc::GetSize
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidlbase.h
+api_name:
+ - IMalloc.GetSize
 ---
 
 # IMalloc::GetSize
@@ -48,46 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size of a previously allocated block of memory.
 
-
 ## -parameters
-
-
-
 
 ### -param pv [in]
 
 A pointer to the block of memory.
 
-
 ## -returns
-
-
 
 The size of the allocated memory block in bytes or, if <i>pv</i> is a <b>NULL</b> pointer, -1.
 
-
-
-
-
 ## -remarks
 
-
-
-To get the size in bytes of a memory block, the block must have been previously allocated with <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>. The size returned is the actual size of the allocation, which may be greater than the size requested when the allocation was made.
-
-
-
+To get the size in bytes of a memory block, the block must have been previously allocated with <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a> or <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>. The size returned is the actual size of the allocation, which may be greater than the size requested when the allocation was made.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>

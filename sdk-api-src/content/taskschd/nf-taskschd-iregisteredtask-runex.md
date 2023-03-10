@@ -2,15 +2,12 @@
 UID: NF:taskschd.IRegisteredTask.RunEx
 title: IRegisteredTask::RunEx (taskschd.h)
 description: Runs the registered task immediately using specified flags and a session identifier.
+helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","RunEx method","IRegisteredTask.RunEx","IRegisteredTask::RunEx","RunEx","RunEx method [Task Scheduler]","RunEx method [Task Scheduler]","IRegisteredTask interface","taskschd.iregisteredtask_runex","taskschd/IRegisteredTask::RunEx"]
 old-location: taskschd\iregisteredtask_runex.htm
 tech.root: taskschd
 ms.assetid: d6d09ab1-026d-4ee9-b520-c7702e37504e
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],RunEx method, IRegisteredTask.RunEx, IRegisteredTask::RunEx, RunEx, RunEx method [Task Scheduler], RunEx method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_runex, taskschd/IRegisteredTask::RunEx
-f1_keywords:
-- taskschd/IRegisteredTask.RunEx
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRegisteredTask.RunEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegisteredTask::RunEx
+ - taskschd/IRegisteredTask::RunEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRegisteredTask.RunEx
 ---
 
 # IRegisteredTask::RunEx
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Runs the registered task immediately using specified flags and a session identifier.
 
-
 ## -parameters
-
-
-
 
 ### -param params [in]
 
@@ -67,13 +64,11 @@ If you pass in values such as "0", "100", and "250" as an array of <b>BSTR</b> v
 
 A maximum of 32 <b>BSTR</b> values can be specified.
 
-For more information and a list of action properties that can use $(Arg0), $(Arg1), ..., $(Arg32) variables in their values, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-actions">Task Actions</a>.
-
+For more information and a list of action properties that can use $(Arg0), $(Arg1), ..., $(Arg32) variables in their values, see <a href="/windows/desktop/TaskSchd/task-actions">Task Actions</a>.
 
 ### -param flags [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_run_flags">TASK_RUN_FLAGS</a> constant that defines how the task is run.
-
+A <a href="/windows/desktop/api/taskschd/ne-taskschd-task_run_flags">TASK_RUN_FLAGS</a> constant that defines how the task is run.
 
 ### -param sessionID [in]
 
@@ -85,50 +80,30 @@ If the <b>TASK_RUN_USE_SESSION_ID</b> constant is passed into the <i>flags</i> p
 
 If the <b>TASK_RUN_USE_SESSION_ID</b> constant is passed into the <i>flags</i> parameter and the sessionID value is a valid session ID greater than 0 and if a user is specified in the <i>user</i> parameter, then the Task Scheduler service will try to start the task interactively as the user who is specified in the <i>user</i> parameter.
 
-
 ### -param user [in]
 
 The user for which  the task runs.
 
-
 ### -param ppRunningTask [out, optional]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface that  defines the new instance of the task.
+An <a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface that  defines the new instance of the task.
 
-Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
-
+Pass in a reference to a <b>NULL</b> <a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a> interface pointer.  Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-This method will return without error, but the task will not run if the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowdemandstart">AllowDemandStart</a> property of ITaskSettings is set to false for the task.
+This method will return without error, but the task will not run if the <a href="/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_allowdemandstart">AllowDemandStart</a> property of ITaskSettings is set to false for the task.
 
 If <b>IRegisteredTask::RunEx</b> is invoked from a disabled task, it will return S_OK, but the task will not be run.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregisteredtask">IRegisteredTask</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:wininet.InternetConfirmZoneCrossingW
 title: InternetConfirmZoneCrossingW function (wininet.h)
-description: Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box.
+description: The InternetConfirmZoneCrossingW (Unicode) function (wininet.h) checks for changes between secure and nonsecure URLs.
+helpviewer_keywords: ["InternetConfirmZoneCrossing", "InternetConfirmZoneCrossing function [WinINet]", "InternetConfirmZoneCrossingW", "_inet_internetconfirmzonecrossing_function", "wininet.internetconfirmzonecrossing", "wininet/InternetConfirmZoneCrossing", "wininet/InternetConfirmZoneCrossingW"]
 old-location: wininet\internetconfirmzonecrossing.htm
 tech.root: wininet
 ms.assetid: e14f58df-5457-4a17-919c-6a25691c2ee1
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: InternetConfirmZoneCrossing, InternetConfirmZoneCrossing function [WinINet], InternetConfirmZoneCrossingA, InternetConfirmZoneCrossingW, _inet_internetconfirmzonecrossing_function, wininet.internetconfirmzonecrossing, wininet/InternetConfirmZoneCrossing, wininet/InternetConfirmZoneCrossingA, wininet/InternetConfirmZoneCrossingW
-f1_keywords:
-- wininet/InternetConfirmZoneCrossing
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Wininet.dll
-api_name:
-- InternetConfirmZoneCrossing
-- InternetConfirmZoneCrossingA
-- InternetConfirmZoneCrossingW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - InternetConfirmZoneCrossingW
+ - wininet/InternetConfirmZoneCrossingW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Wininet.dll
+api_name:
+ - InternetConfirmZoneCrossing
+ - InternetConfirmZoneCrossingA
+ - InternetConfirmZoneCrossingW
 ---
 
 # InternetConfirmZoneCrossingW function
@@ -50,38 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Checks for changes between secure and nonsecure URLs. Always inform the user when a change occurs in security between two URLs. Typically, an application should allow the user to acknowledge the change through interaction with a dialog box.
 
-
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 Handle to the parent window for any required dialog box.
 
-
 ### -param szUrlPrev [in]
 
 Pointer to a null-terminated string that specifies the URL that was viewed before the current request was made.
-
 
 ### -param szUrlNew [in]
 
 Pointer to a null-terminated string that specifies the new URL that the user has requested to view.
 
-
 ### -param bPost [in]
 
 Not implemented.
 
-
 ## -returns
-
-
 
 Returns one of the following values.
 
@@ -124,35 +115,26 @@ There is not enough memory to carry out the request.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
  Always inform the user when a change in security level occurs, or you risk subjecting the user to  involuntary information disclosure.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
 
+
+> [!NOTE]
+> The wininet.h header defines InternetConfirmZoneCrossing as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/enabling-internet-functionality">Enabling Internet Functionality</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

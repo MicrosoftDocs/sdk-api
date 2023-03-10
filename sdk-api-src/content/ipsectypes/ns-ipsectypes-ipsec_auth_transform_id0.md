@@ -2,15 +2,12 @@
 UID: NS:ipsectypes.IPSEC_AUTH_TRANSFORM_ID0_
 title: IPSEC_AUTH_TRANSFORM_ID0 (ipsectypes.h)
 description: Is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
+helpviewer_keywords: ["IPSEC_AUTH_CONFIG_GCM_AES_128","IPSEC_AUTH_CONFIG_GCM_AES_192","IPSEC_AUTH_CONFIG_GCM_AES_256","IPSEC_AUTH_CONFIG_HMAC_MD5_96","IPSEC_AUTH_CONFIG_HMAC_SHA_1_96","IPSEC_AUTH_CONFIG_HMAC_SHA_256_128","IPSEC_AUTH_TRANSFORM_ID0","IPSEC_AUTH_TRANSFORM_ID0 structure [Filtering]","fwp.ipsec_auth_transform_id0_struct","ipsectypes/IPSEC_AUTH_TRANSFORM_ID0"]
 old-location: fwp\ipsec_auth_transform_id0_struct.htm
 tech.root: fwp
 ms.assetid: b8474e98-451d-4347-9369-367f16f83cf6
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_CONFIG_GCM_AES_128, IPSEC_AUTH_CONFIG_GCM_AES_192, IPSEC_AUTH_CONFIG_GCM_AES_256, IPSEC_AUTH_CONFIG_HMAC_MD5_96, IPSEC_AUTH_CONFIG_HMAC_SHA_1_96, IPSEC_AUTH_CONFIG_HMAC_SHA_256_128, IPSEC_AUTH_TRANSFORM_ID0, IPSEC_AUTH_TRANSFORM_ID0 structure [Filtering], fwp.ipsec_auth_transform_id0_struct, ipsectypes/IPSEC_AUTH_TRANSFORM_ID0
-f1_keywords:
-- ipsectypes/IPSEC_AUTH_TRANSFORM_ID0
-dev_langs:
-- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ipsectypes.h
-api_name:
-- IPSEC_AUTH_TRANSFORM_ID0
 targetos: Windows
 req.typenames: IPSEC_AUTH_TRANSFORM_ID0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPSEC_AUTH_TRANSFORM_ID0_
+ - ipsectypes/IPSEC_AUTH_TRANSFORM_ID0_
+ - IPSEC_AUTH_TRANSFORM_ID0
+ - ipsectypes/IPSEC_AUTH_TRANSFORM_ID0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ipsectypes.h
+api_name:
+ - IPSEC_AUTH_TRANSFORM_ID0
 ---
 
 # IPSEC_AUTH_TRANSFORM_ID0 structure
@@ -48,19 +52,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IPSEC_AUTH_TRANSFORM_ID0</b> structure is used to uniquely identify the hash algorithm used in an IPsec security association (SA).
-
 
 ## -struct-fields
 
-
-
-
 ### -field authType
 
-The type of the hash algorithm as specified by [IPSEC_AUTH_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type)a>.
-
+The type of the hash algorithm as specified by [IPSEC_AUTH_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_auth_type).
 
 ### -field authConfig
 
@@ -154,25 +152,11 @@ AES data integrity and data origin authentication  algorithm, with 256-bit key.
 </td>
 </tr>
 </table>
- 
-
 
 ## -remarks
 
-
-
-<b>IPSEC_AUTH_TRANSFORM_ID0</b> is a specific implementation of IPSEC_AUTH_TRANSFORM_ID. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-
-
-
+<b>IPSEC_AUTH_TRANSFORM_ID0</b> is a specific implementation of IPSEC_AUTH_TRANSFORM_ID. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

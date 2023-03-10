@@ -2,15 +2,12 @@
 UID: NF:mi.MI_DestinationOptions_GetPacketEncoding
 title: MI_DestinationOptions_GetPacketEncoding function (mi.h)
 description: Gets the previously set packet encoding setting.
+helpviewer_keywords: ["MI_DESTINATIONOPTIONS_PACKET_ENCODING_DEFAULT","MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF16","MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF8","MI_DestinationOptions_GetPacketEncoding","MI_DestinationOptions_GetPacketEncoding function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetPacketEncoding","wmi_v2.mi_destinationoptions_getpacketencoding"]
 old-location: wmi_v2\mi_destinationoptions_getpacketencoding.htm
 tech.root: wmi_v2
 ms.assetid: 8800ae5d-6776-4a06-bf1e-3ee621250856
 ms.date: 12/05/2018
 ms.keywords: MI_DESTINATIONOPTIONS_PACKET_ENCODING_DEFAULT, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF16, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF8, MI_DestinationOptions_GetPacketEncoding, MI_DestinationOptions_GetPacketEncoding function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetPacketEncoding, wmi_v2.mi_destinationoptions_getpacketencoding
-f1_keywords:
-- mi/MI_DestinationOptions_GetPacketEncoding
-dev_langs:
-- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mi.h
-api_name:
-- MI_DestinationOptions_GetPacketEncoding
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2
 ms.custom: 19H1
+f1_keywords:
+ - MI_DestinationOptions_GetPacketEncoding
+ - mi/MI_DestinationOptions_GetPacketEncoding
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mi.h
+api_name:
+ - MI_DestinationOptions_GetPacketEncoding
 ---
 
 # MI_DestinationOptions_GetPacketEncoding function
@@ -48,20 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the previously set packet encoding setting.
-
 
 ## -parameters
 
-
-
-
 ### -param options [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>.
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_destinationoptions">MI_DestinationOptions</a> object returned from <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newdestinationoptions">MI_Application_NewDestinationOptions</a>.
 
 ### -param encoding
 
@@ -85,23 +80,10 @@ UTF-8 encoding.
 
 UTF-16 encoding.
 
-
 ## -returns
 
-
-
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
-
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>
- 
-
- 
-
+<a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>

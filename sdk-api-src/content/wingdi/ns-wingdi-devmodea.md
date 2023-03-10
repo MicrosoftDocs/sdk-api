@@ -2,15 +2,12 @@
 UID: NS:wingdi._devicemodeA
 title: DEVMODEA (wingdi.h)
 description: The DEVMODE data structure contains information about the initialization and environment of a printer or a display device.
+helpviewer_keywords: ["*LPDEVMODEA","*NPDEVMODEA","*PDEVMODEA","DEVMODE","DEVMODE structure [Windows GDI]","DEVMODEA","DMBIN_AUTO","DMBIN_CASSETTE","DMBIN_ENVELOPE","DMBIN_ENVMANUAL","DMBIN_FIRST","DMBIN_FORMSOURCE","DMBIN_LARGECAPACITY","DMBIN_LARGEFMT","DMBIN_LAST","DMBIN_LOWER","DMBIN_MANUAL","DMBIN_MIDDLE","DMBIN_ONLYONE","DMBIN_SMALLFMT","DMBIN_TRACTOR","DMBIN_UPPER","DMRES_DRAFT","DMRES_HIGH","DMRES_LOW","DMRES_MEDIUM","LPDEVMODE","LPDEVMODE structure pointer [Windows GDI]","PDEVMODE","PDEVMODE structure pointer [Windows GDI]","_DEVMODEA","_DEVMODEW","_win32_DEVMODE_str","gdi.devmode","wingdi/DEVMODE","wingdi/LPDEVMODE","wingdi/PDEVMODE","wingdi/_DEVMODEA","wingdi/_DEVMODEW"]
 old-location: gdi\devmode.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 85741025-9393-42ab-8a6d-27f1ae2c0f1b
 ms.date: 12/05/2018
 ms.keywords: '*LPDEVMODEA, *NPDEVMODEA, *PDEVMODEA, DEVMODE, DEVMODE structure [Windows GDI], DEVMODEA, DMBIN_AUTO, DMBIN_CASSETTE, DMBIN_ENVELOPE, DMBIN_ENVMANUAL, DMBIN_FIRST, DMBIN_FORMSOURCE, DMBIN_LARGECAPACITY, DMBIN_LARGEFMT, DMBIN_LAST, DMBIN_LOWER, DMBIN_MANUAL, DMBIN_MIDDLE, DMBIN_ONLYONE, DMBIN_SMALLFMT, DMBIN_TRACTOR, DMBIN_UPPER, DMRES_DRAFT, DMRES_HIGH, DMRES_LOW, DMRES_MEDIUM, LPDEVMODE, LPDEVMODE structure pointer [Windows GDI], PDEVMODE, PDEVMODE structure pointer [Windows GDI], _DEVMODEA, _DEVMODEW, _win32_DEVMODE_str, gdi.devmode, wingdi/DEVMODE, wingdi/LPDEVMODE, wingdi/PDEVMODE, wingdi/_DEVMODEA, wingdi/_DEVMODEW'
-f1_keywords:
-- wingdi/DEVMODE
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- DEVMODE
-- _DEVMODEA
-- _DEVMODEW
 targetos: Windows
 req.typenames: DEVMODEA, *PDEVMODEA, *NPDEVMODEA, *LPDEVMODEA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _devicemodeA
+ - wingdi/_devicemodeA
+ - PDEVMODEA
+ - wingdi/PDEVMODEA
+ - DEVMODEA
+ - wingdi/DEVMODEA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - DEVMODE
+ - _DEVMODEA
+ - _DEVMODEW
 ---
 
 # DEVMODEA structure
@@ -50,45 +56,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>DEVMODE</b> data structure contains information about the initialization and environment of a printer or a display device.
-        
-
-
-
 
 ## -struct-fields
-
-
-
 
 ### -field dmDeviceName
 
 A zero-terminated character array that specifies the "friendly" name of the printer or display; for example, "PCL/HP LaserJet" in the case of PCL/HP LaserJet. This string is unique among device drivers. Note that this name may be truncated to fit in the <b>dmDeviceName</b> array.
-          
-
 
 ### -field dmSpecVersion
 
 The version number of the initialization data specification on which the structure is based. To ensure the correct version is used for any operating system, use DM_SPECVERSION.
 
-
 ### -field dmDriverVersion
 
 The driver version number assigned by the driver developer.
 
-
 ### -field dmSize
 
 Specifies the size, in bytes, of the <b>DEVMODE</b> structure, not including any private driver-specific data that might follow the structure's public members. Set this member to <code>sizeof (DEVMODE)</code> to indicate the version of the <b>DEVMODE</b> structure being used.
-          
-
 
 ### -field dmDriverExtra
 
 Contains the number of bytes of private driver-data that follow this structure. If a device driver does not use device-specific information, set this member to zero.
-
 
 ### -field dmFields
 
@@ -222,23 +212,14 @@ The following values are defined, and are listed here with the corresponding str
 <td><b>dmPanningHeight</b></td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmOrientation
 
 For printer devices only, selects the orientation of the paper. This member can be either DMORIENT_PORTRAIT (1) or DMORIENT_LANDSCAPE (2).
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperSize
 
@@ -760,35 +741,26 @@ For printer devices only, selects the size of the paper to print on. This member
 <td>Tabloid, 11.69 x 18-inches</td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperLength
 
 For printer devices only, overrides the length of the paper specified by the <b>dmPaperSize</b> member, either for custom paper sizes or for devices such as dot-matrix printers that can print on a page of arbitrary length. These values, along with all other values in this structure that specify a physical length, are in tenths of a millimeter.
-              
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperWidth
 
 For printer devices only, overrides the width of the paper specified by the <b>dmPaperSize</b> member.
-              
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmScale
 
 Specifies the factor by which the printed output is to be scaled. The apparent page size is scaled from the physical page size by a factor of <b>dmScale</b> /100. For example, a letter-sized page with a <b>dmScale</b> value of 50 would contain as much data as a page of 17- by 22-inches because the output text and graphics would be half their original height and width.
-              
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmCopies
 
 Selects the number of copies printed if the device supports multiple-page copies.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmDefaultSource
 
-Specifies the paper source. To retrieve a list of the available paper sources for a printer, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_BINS flag.
+Specifies the paper source. To retrieve a list of the available paper sources for a printer, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_BINS flag.
 
 This member can be one of the following values, or it can be a device-specific value greater than or equal to DMBIN_USER.
 
@@ -803,17 +775,11 @@ Specifies the printer resolution. There are four predefined device-independent v
 <a id="dmres_high"></a>
 If a positive value is specified, it specifies the number of dots per inch (DPI) and is therefore device dependent.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For display devices only, a <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
-              
-
+For display devices only, a <a href="/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayOrientation
 
@@ -848,7 +814,6 @@ To determine whether the display orientation is portrait or landscape orientatio
 
 <b>Windows 2000:  </b>Not supported.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayFixedOutput
 
 For fixed-resolution display devices only, how the display presents a low-resolution mode on a higher-resolution display. For example, if a display device's resolution is fixed at 1024 x 768 pixels but its mode is set to 640 x 480 pixels, the device can either display a 640 x 480 image somewhere in the interior of the 1024 x 768 screen space or stretch the 640 x 480 image to fill the larger screen space. If DM_DISPLAYFIXEDOUTPUT is not set, this member must be zero. If DM_DISPLAYFIXEDOUTPUT is set, this member must be one of the following values.
@@ -874,7 +839,6 @@ For fixed-resolution display devices only, how the display presents a low-resolu
  
 
 <b>Windows 2000:  </b>Not supported.
-
 
 ### -field dmColor
 
@@ -907,14 +871,10 @@ Selects duplex or double-sided printing for printers capable of duplex printing.
 <td>Long-edge binding, that is, the long edge of the page is vertical.</td>
 </tr>
 </table>
- 
-
 
 ### -field dmYResolution
 
 Specifies the y-resolution, in dots per inch, of the printer. If the printer initializes this member, the <b>dmPrintQuality</b> member specifies the x-resolution, in dots per inch, of the printer.
-          
-
 
 ### -field dmTTOption
 
@@ -943,8 +903,6 @@ Specifies how TrueType fonts should be printed. This member can be one of the fo
 <td>Substitutes device fonts for TrueType fonts. This is the default action for PostScript printers.</td>
 </tr>
 </table>
- 
-
 
 ### -field dmCollate
 
@@ -964,41 +922,28 @@ Specifies whether collation should be used when printing multiple copies. (This 
 <td>Do not collate when printing multiple copies.</td>
 </tr>
 </table>
- 
-
 
 ### -field dmFormName
 
-A zero-terminated character array that specifies the name of the form to use; for example, "Letter" or "Legal". A complete set of names can be retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumforms">EnumForms</a> function.
-
+A zero-terminated character array that specifies the name of the form to use; for example, "Letter" or "Legal". A complete set of names can be retrieved by using the <a href="/windows/desktop/printdocs/enumforms">EnumForms</a> function.
 
 ### -field dmLogPixels
 
 The number of pixels per logical inch. Printer drivers do not use this member.
 
-
 ### -field dmBitsPerPel
 
-Specifies the color resolution, in bits per pixel, of the display device (for example: 4 bits for 16 colors, 8 bits for 256 colors, or 16 bits for 65,536 colors). Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
-          
-
+Specifies the color resolution, in bits per pixel, of the display device (for example: 4 bits for 16 colors, 8 bits for 256 colors, or 16 bits for 65,536 colors). Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field dmPelsWidth
 
-Specifies the width, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
-          
-
+Specifies the width, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field dmPelsHeight
 
-Specifies the height, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
-          
-
+Specifies the height, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field DUMMYUNIONNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME2.dmDisplayFlags
 
@@ -1020,9 +965,7 @@ Specifies the device's display mode. This member can be a combination of the fol
 </table>
  
 
-Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
-              
-
+Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field DUMMYUNIONNAME2.dmNup
 
@@ -1042,16 +985,12 @@ Specifies where the NUP is done. It can be one of the following.
 <td>The application does the NUP.</td>
 </tr>
 </table>
- 
-
 
 ### -field dmDisplayFrequency
 
-Specifies the frequency, in hertz (cycles per second), of the display device in a particular mode. This value is also known as the display device's vertical refresh rate. Display drivers use this member. It is used, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the frequency, in hertz (cycles per second), of the display device in a particular mode. This value is also known as the display device's vertical refresh rate. Display drivers use this member. It is used, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
-When you call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function, the <b>dmDisplayFrequency</b> member may return with the value 0 or 1. These values represent the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>.
-            
-
+When you call the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function, the <b>dmDisplayFrequency</b> member may return with the value 0 or 1. These values represent the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>.
 
 ### -field dmICMMethod
 
@@ -1083,7 +1022,6 @@ Specifies how ICM is handled. For a non-ICM application, this member determines 
 
 The printer driver must provide a user interface for setting this member. Most printer drivers support only the DMICMMETHOD_SYSTEM or DMICMMETHOD_NONE value. Drivers for PostScript printers support all values.
 
-
 ### -field dmICMIntent
 
 Specifies which color matching method, or intent, should be used by default. This member is primarily for non-ICM applications. ICM applications can establish intents by using the ICM functions. This member can be one of the following predefined values, or a driver defined value greater than or equal to the value of DMICM_USER.
@@ -1110,8 +1048,6 @@ Specifies which color matching method, or intent, should be used by default. Thi
 <td>Color matching should optimize for color saturation. This value is the most appropriate choice for business graphs when dithering is not desired.</td>
 </tr>
 </table>
- 
-
 
 ### -field dmMediaType
 
@@ -1137,9 +1073,7 @@ Specifies the type of media being printed on. The member can be one of the follo
 </table>
  
 
- To retrieve a list of the available media types for a printer, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_MEDIATYPES flag.
-            
-
+ To retrieve a list of the available media types for a printer, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_MEDIATYPES flag.
 
 ### -field dmDitherType
 
@@ -1171,25 +1105,18 @@ Specifies how dithering is to be done. The member can be one of the following pr
 <td>Device does gray scaling.</td>
 </tr>
 </table>
- 
-
 
 ### -field dmReserved1
 
 Not used; must be zero.
-          
-
 
 ### -field dmReserved2
 
 Not used; must be zero.
-          
-
 
 ### -field dmPanningWidth
 
 This member must be zero.
-
 
 ### -field dmPanningHeight
 
@@ -1294,57 +1221,52 @@ This member must be zero.
 
 ## -remarks
 
-
-
 A device driver's private data follows the public portion of the <b>DEVMODE</b> structure. The size of the public data can vary for different versions of the structure. The <b>dmSize</b> member specifies the number of bytes of public data, and the <b>dmDriverExtra</b> member specifies the number of bytes of private data.
       
 
 
 
 
+
+> [!NOTE]
+> The wingdi.h header defines DEVMODE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/printdocs/advanceddocumentproperties">AdvancedDocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/advanceddocumentproperties">AdvancedDocumentProperties</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createica">CreateIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica">CreateIC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a>
+<a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
+<a href="/windows/desktop/printdocs/openprinter">OpenPrinter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/openprinter">OpenPrinter</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

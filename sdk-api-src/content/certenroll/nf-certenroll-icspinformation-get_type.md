@@ -2,15 +2,12 @@
 UID: NF:certenroll.ICspInformation.get_Type
 title: ICspInformation::get_Type (certenroll.h)
 description: Retrieves the type of the provider.
+helpviewer_keywords: ["ICspInformation interface [Security]","Type property","ICspInformation.Type","ICspInformation.get_Type","ICspInformation::Type","ICspInformation::get_Type","Type property [Security]","Type property [Security]","ICspInformation interface","certenroll/ICspInformation::Type","certenroll/ICspInformation::get_Type","get_Type","security.icspinformation_type_property"]
 old-location: security\icspinformation_type_property.htm
-tech.root: seccertenroll
+tech.root: security
 ms.assetid: a52caea6-fbd5-4c06-8a25-e65f7b4a72f7
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],Type property, ICspInformation.Type, ICspInformation.get_Type, ICspInformation::Type, ICspInformation::get_Type, Type property [Security], Type property [Security],ICspInformation interface, certenroll/ICspInformation::Type, certenroll/ICspInformation::get_Type, get_Type, security.icspinformation_type_property
-f1_keywords:
-- certenroll/ICspInformation.Type
-dev_langs:
-- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CertEnroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CertEnroll.dll
-api_name:
-- ICspInformation.Type
-- ICspInformation.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICspInformation::get_Type
+ - certenroll/ICspInformation::get_Type
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CertEnroll.dll
+api_name:
+ - ICspInformation.Type
+ - ICspInformation.get_Type
 ---
 
 # ICspInformation::get_Type
@@ -49,18 +51,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Type</b> property retrieves the type of the provider. This property is web enabled.
 
 This property is read-only.
 
-
 ## -parameters
 
-
 ## -remarks
-
-
 
 The values associated with the providers distributed by Microsoft are listed in the following table. Some of these providers may not be included on all operating systems and others may be included instead.
 
@@ -118,18 +115,7 @@ The values associated with the providers distributed by Microsoft are listed in 
 <td>CN_PROV_RSA_FULL (1)</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
- 
-
- 
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>

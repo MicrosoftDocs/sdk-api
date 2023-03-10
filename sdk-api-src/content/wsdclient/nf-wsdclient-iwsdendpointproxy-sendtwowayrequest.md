@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDEndpointProxy.SendTwoWayRequest
 title: IWSDEndpointProxy::SendTwoWayRequest (wsdclient.h)
 description: Sends a two-way request message using a synchronous call pattern.
+helpviewer_keywords: ["IWSDEndpointProxy interface","SendTwoWayRequest method","IWSDEndpointProxy.SendTwoWayRequest","IWSDEndpointProxy::SendTwoWayRequest","SendTwoWayRequest","SendTwoWayRequest method","SendTwoWayRequest method","IWSDEndpointProxy interface","ncd.iwsdendpointproxy_sendtwowayrequest","wsdclient/IWSDEndpointProxy::SendTwoWayRequest"]
 old-location: ncd\iwsdendpointproxy_sendtwowayrequest.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: f93ddbf1-d530-4957-87ab-5718ee5f20d9
 ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy interface,SendTwoWayRequest method, IWSDEndpointProxy.SendTwoWayRequest, IWSDEndpointProxy::SendTwoWayRequest, SendTwoWayRequest, SendTwoWayRequest method, SendTwoWayRequest method,IWSDEndpointProxy interface, ncd.iwsdendpointproxy_sendtwowayrequest, wsdclient/IWSDEndpointProxy::SendTwoWayRequest
-f1_keywords:
-- wsdclient/IWSDEndpointProxy.SendTwoWayRequest
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDEndpointProxy.SendTwoWayRequest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDEndpointProxy::SendTwoWayRequest
+ - wsdclient/IWSDEndpointProxy::SendTwoWayRequest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDEndpointProxy.SendTwoWayRequest
 ---
 
 # IWSDEndpointProxy::SendTwoWayRequest
@@ -48,34 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sends a two-way request message using a synchronous call pattern.
 
-
 ## -parameters
-
-
-
 
 ### -param pBody [in]
 
 The body of the message.
 
-
 ### -param pOperation [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform.
-
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform.
 
 ### -param pResponseContext [in, optional]
 
- Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_synchronous_response_context">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> structure or other context structure that specifies the context for handling the response to the request. 
-
-
+ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_synchronous_response_context">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> structure or other context structure that specifies the context for handling the response to the request.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following:
 
@@ -107,32 +98,16 @@ Method completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is normally only called by generated proxy code.
 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_synchronous_response_context">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> is used for the <i>responseContext</i> value when a synchronous call pattern is used. 
-
-
-
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_synchronous_response_context">WSD_SYNCHRONOUS_RESPONSE_CONTEXT</a> is used for the <i>responseContext</i> value when a synchronous call pattern is used.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>

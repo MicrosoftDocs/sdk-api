@@ -1,16 +1,13 @@
 ---
 UID: NF:xenroll.IEnroll.get_ContainerNameWStr
 title: IEnroll::get_ContainerNameWStr (xenroll.h)
-description: Sets or retrieves the name of the key container to use.
+description: Sets or retrieves the name of the key container to use. (Get)
+helpviewer_keywords: ["ContainerNameWStr property [Security]","ContainerNameWStr property [Security]","IEnroll interface","IEnroll interface [Security]","ContainerNameWStr property","IEnroll.ContainerNameWStr","IEnroll.get_ContainerNameWStr","IEnroll::ContainerNameWStr","IEnroll::get_ContainerNameWStr","IEnroll::put_ContainerNameWStr","get_ContainerNameWStr","security.ienroll4_containernamewstr","xenroll/IEnroll::ContainerNameWStr","xenroll/IEnroll::get_ContainerNameWStr","xenroll/IEnroll::put_ContainerNameWStr"]
 old-location: security\ienroll4_containernamewstr.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: 6740378a-342b-4520-89c7-32d44e23cfca
 ms.date: 12/05/2018
 ms.keywords: ContainerNameWStr property [Security], ContainerNameWStr property [Security],IEnroll interface, IEnroll interface [Security],ContainerNameWStr property, IEnroll.ContainerNameWStr, IEnroll.get_ContainerNameWStr, IEnroll::ContainerNameWStr, IEnroll::get_ContainerNameWStr, IEnroll::put_ContainerNameWStr, get_ContainerNameWStr, security.ienroll4_containernamewstr, xenroll/IEnroll::ContainerNameWStr, xenroll/IEnroll::get_ContainerNameWStr, xenroll/IEnroll::put_ContainerNameWStr
-f1_keywords:
-- xenroll/IEnroll.ContainerNameWStr
-dev_langs:
-- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Xenroll.dll
-api_name:
-- IEnroll.ContainerNameWStr
-- IEnroll.get_ContainerNameWStr
-- IEnroll.put_ContainerNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnroll::get_ContainerNameWStr
+ - xenroll/IEnroll::get_ContainerNameWStr
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Xenroll.dll
+api_name:
+ - IEnroll.ContainerNameWStr
+ - IEnroll.get_ContainerNameWStr
+ - IEnroll.put_ContainerNameWStr
 ---
 
 # IEnroll::get_ContainerNameWStr
@@ -50,51 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>ContainerNameWStr</b> property sets or retrieves the  name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> to use.
+The <b>ContainerNameWStr</b> property sets or retrieves the  name of the <a href="/windows/desktop/SecGloss/k-gly">key container</a> to use.
 
-This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
+This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 The container specified may be an existing container or a new one. It may only be an existing container if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a> property is set, as long as the key set has not been generated yet. For example, if only an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a> set has been generated for a container, it is still possible to perform a certificate enrollment using the signature key set without setting <b>UseExistingKeySet</b>. The <i>exchange key set</i> could be used if <b>UseExistingKeySet</b> is set beforehand.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a> property is set, as long as the key set has not been generated yet. For example, if only an <a href="/windows/desktop/SecGloss/e-gly">exchange key</a> set has been generated for a container, it is still possible to perform a certificate enrollment using the signature key set without setting <b>UseExistingKeySet</b>. The <i>exchange key set</i> could be used if <b>UseExistingKeySet</b> is set beforehand.
 
-By default, a new container is selected each time the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> control is run. This ensures that a new key set is generated. If this property is not explicitly set, a generated GUID is used as the container name.
+By default, a new container is selected each time the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> control is run. This ensures that a new key set is generated. If this property is not explicitly set, a generated GUID is used as the container name.
 
 
 The <b>ContainerNameWStr</b> property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
 </li>
 </ul>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
- 
-
- 
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

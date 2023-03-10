@@ -4,8 +4,11 @@ title: Windowsx.h header
 ms.assetid: 50044a11-4fd3-396d-8d3b-479f5a1f284d
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: controls
+f1_keywords:
+ - windowsx
+ - windowsx/windowsx
 ---
 
 # Windowsx.h header
@@ -13,8 +16,10 @@ tech.root: controls
 
 ## -description
 
+This header is used by multiple technologies. For more information, see:
 
-This header is used by Windows Controls. For more information, see:
-
+- [Developer Notes](../_winprog/index.md)
+- [Windows and Messages](../_winmsg/index.md)
 - [Windows Controls](../_controls/index.md)
+- [Windows GDI](../_gdi/index.md)
 

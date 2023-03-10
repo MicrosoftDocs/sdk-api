@@ -2,15 +2,12 @@
 UID: NC:winbio_adapter.PIBIO_STORAGE_NEXT_RECORD_FN
 title: PIBIO_STORAGE_NEXT_RECORD_FN (winbio_adapter.h)
 description: Advances the result set cursor by one record.
+helpviewer_keywords: ["PIBIO_STORAGE_NEXT_RECORD_FN","PIBIO_STORAGE_NEXT_RECORD_FN callback","StorageAdapterNextRecord","StorageAdapterNextRecord callback function [Windows Biometric Framework API]","secbiomet.storageadapternextrecord","winbio_adapter/StorageAdapterNextRecord"]
 old-location: secbiomet\storageadapternextrecord.htm
 tech.root: SecBioMet
 ms.assetid: e0025167-0778-474e-baca-ffc767822893
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_NEXT_RECORD_FN, PIBIO_STORAGE_NEXT_RECORD_FN callback, StorageAdapterNextRecord, StorageAdapterNextRecord callback function [Windows Biometric Framework API], secbiomet.storageadapternextrecord, winbio_adapter/StorageAdapterNextRecord
-f1_keywords:
-- winbio_adapter/StorageAdapterNextRecord
-dev_langs:
-- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Winbio_adapter.h
-api_name:
-- StorageAdapterNextRecord
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PIBIO_STORAGE_NEXT_RECORD_FN
+ - winbio_adapter/PIBIO_STORAGE_NEXT_RECORD_FN
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Winbio_adapter.h
+api_name:
+ - StorageAdapterNextRecord
 ---
 
 # PIBIO_STORAGE_NEXT_RECORD_FN callback function
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Called by the Windows Biometric Framework or by an engine adapter to advance the result set cursor by one record.
-
 
 ## -parameters
 
-
-
-
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
-
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
-
-
 
 If the function succeeds, it returns S_OK. If the function fails, it must return one of the following <b>HRESULT</b> values to indicate the error.
 
@@ -118,22 +112,11 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b> or the <b
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_first_record_fn">StorageAdapterFirstRecord</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_first_record_fn">StorageAdapterFirstRecord</a>

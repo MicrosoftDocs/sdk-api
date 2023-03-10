@@ -1,16 +1,13 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate5
 title: IWindowsDriverUpdate5 (wuapi.h)
-description: Contains the properties and methods that are available only from a Windows driver update.
+description: Contains the properties and methods that are available only from a Windows driver update. (IWindowsDriverUpdate5)
+helpviewer_keywords: ["IWindowsDriverUpdate5","IWindowsDriverUpdate5 interface [Windows Update Agent]","IWindowsDriverUpdate5 interface [Windows Update Agent]","described","wua.iwindowsdriverupdate5","wuapi/IWindowsDriverUpdate5"]
 old-location: wua\iwindowsdriverupdate5.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: ec25e83b-2bd0-4ec4-99db-7a9877c4a42f
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate5, IWindowsDriverUpdate5 interface [Windows Update Agent], IWindowsDriverUpdate5 interface [Windows Update Agent],described, wua.iwindowsdriverupdate5, wuapi/IWindowsDriverUpdate5
-f1_keywords:
-- wuapi/IWindowsDriverUpdate5
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdate5
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdate5
+ - wuapi/IWindowsDriverUpdate5
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdate5
 ---
 
 # IWindowsDriverUpdate5 interface
 
 
 ## -description
-
 
 Contains the properties and methods that are available only from a Windows driver update.
 

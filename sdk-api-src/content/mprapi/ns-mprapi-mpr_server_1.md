@@ -2,15 +2,12 @@
 UID: NS:mprapi._MPR_SERVER_1
 title: MPR_SERVER_1 (mprapi.h)
 description: Is used to retrieve and set the number of ports available for the Point-to-Point Tunneling Protocol (PPTP) and Layer 2 Tunneling Protocol (L2TP) on a device.
+helpviewer_keywords: ["*PMPR_SERVER_1","MPR_ENABLE_RAS_ON_DEVICE","MPR_ENABLE_ROUTING_ON_DEVICE","MPR_SERVER_1","MPR_SERVER_1 structure [RAS]","PMPR_SERVER_1","PMPR_SERVER_1 structure pointer [RAS]","mprapi/MPR_SERVER_1","mprapi/PMPR_SERVER_1","rras.mpr_server_1"]
 old-location: rras\mpr_server_1.htm
 tech.root: RRAS
 ms.assetid: ea27a928-055b-4705-8f7c-dd9a221b2573
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_SERVER_1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_1, MPR_SERVER_1 structure [RAS], PMPR_SERVER_1, PMPR_SERVER_1 structure pointer [RAS], mprapi/MPR_SERVER_1, mprapi/PMPR_SERVER_1, rras.mpr_server_1'
-f1_keywords:
-- mprapi/MPR_SERVER_1
-dev_langs:
-- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Mprapi.h
-api_name:
-- MPR_SERVER_1
 targetos: Windows
 req.typenames: MPR_SERVER_1, *PMPR_SERVER_1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MPR_SERVER_1
+ - mprapi/_MPR_SERVER_1
+ - PMPR_SERVER_1
+ - mprapi/PMPR_SERVER_1
+ - MPR_SERVER_1
+ - mprapi/MPR_SERVER_1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Mprapi.h
+api_name:
+ - MPR_SERVER_1
 ---
 
 # MPR_SERVER_1 structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MPR_SERVER_1</b> structure is used to retrieve and set the number of ports available for the Point-to-Point Tunneling Protocol (PPTP) and Layer 2 Tunneling Protocol (L2TP) on a device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNumPptpPorts
 
@@ -103,8 +104,7 @@ Windows Server 2003, Datacenter Edition and Windows Server 2003, Enterprise Ed
 </table>
  
 
-If <i>dwNumPptpPorts</i> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2003, Standard Edition and Windows Server 2003, Enterprise Edition), the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminServerSetInfo</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.
-
+If <i>dwNumPptpPorts</i> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2003, Standard Edition and Windows Server 2003, Enterprise Edition), the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a> and <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminServerSetInfo</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.
 
 ### -field dwPptpPortFlags
 
@@ -136,8 +136,6 @@ If set, Routing is enabled on the device.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwNumL2tpPorts
 
@@ -185,8 +183,7 @@ Windows Server 2003, Datacenter Edition and Windows Server 2003, Enterprise Ed
 </table>
  
 
-If <i>dwNumL2tpPorts</i> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2003, Standard Edition and Windows Server 2003, Enterprise Edition), the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminServerSetInfo</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.
-
+If <i>dwNumL2tpPorts</i> contains a value beyond the limit configured in the registry at service start time (the default is 1000 for Windows Server 2003, Standard Edition and Windows Server 2003, Enterprise Edition), the <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a> and <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminServerSetInfo</a> functions will return <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>.
 
 ### -field dwL2tpPortFlags
 
@@ -218,44 +215,35 @@ If set, Routing is enabled on the device.
 </td>
 </tr>
 </table>
- 
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetinfo">MprAdminServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetinfo">MprAdminServerGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminServerSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfo">MprAdminServerSetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a>
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
- 
-
- 
-
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>

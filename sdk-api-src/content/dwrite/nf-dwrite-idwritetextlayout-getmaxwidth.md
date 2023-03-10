@@ -2,15 +2,12 @@
 UID: NF:dwrite.IDWriteTextLayout.GetMaxWidth
 title: IDWriteTextLayout::GetMaxWidth (dwrite.h)
 description: Gets the layout maximum width.
+helpviewer_keywords: ["GetMaxWidth","GetMaxWidth method [Direct Write]","GetMaxWidth method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetMaxWidth method","IDWriteTextLayout.GetMaxWidth","IDWriteTextLayout::GetMaxWidth","directwrite.IDWriteTextLayout_GetMaxWidth","dwrite/IDWriteTextLayout::GetMaxWidth"]
 old-location: directwrite\IDWriteTextLayout_GetMaxWidth.htm
 tech.root: DirectWrite
 ms.assetid: 05706f92-6bf6-49fe-9b63-bf8350d48bd9
 ms.date: 12/05/2018
 ms.keywords: GetMaxWidth, GetMaxWidth method [Direct Write], GetMaxWidth method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMaxWidth method, IDWriteTextLayout.GetMaxWidth, IDWriteTextLayout::GetMaxWidth, directwrite.IDWriteTextLayout_GetMaxWidth, dwrite/IDWriteTextLayout::GetMaxWidth
-f1_keywords:
-- dwrite/IDWriteTextLayout.GetMaxWidth
-dev_langs:
-- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout.GetMaxWidth
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout::GetMaxWidth
+ - dwrite/IDWriteTextLayout::GetMaxWidth
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout.GetMaxWidth
 ---
 
 # IDWriteTextLayout::GetMaxWidth
@@ -48,35 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the layout maximum width.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>FLOAT</b>
 
 Returns the layout maximum width.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a>
- 
-
- 
 

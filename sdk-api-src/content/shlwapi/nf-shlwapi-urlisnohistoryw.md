@@ -1,16 +1,13 @@
 ---
 UID: NF:shlwapi.UrlIsNoHistoryW
 title: UrlIsNoHistoryW function (shlwapi.h)
-description: Returns whether a URL is a URL that browsers typically do not include in navigation history.
+description: Returns whether a URL is a URL that browsers typically do not include in navigation history. (Unicode)
+helpviewer_keywords: ["UrlIsNoHistory", "UrlIsNoHistory function [Windows Shell]", "UrlIsNoHistoryW", "_win32_UrlIsNoHistory", "shell.UrlIsNoHistory", "shlwapi/UrlIsNoHistory", "shlwapi/UrlIsNoHistoryW"]
 old-location: shell\UrlIsNoHistory.htm
 tech.root: shell
 ms.assetid: 7602d2ef-1f21-4b2f-8ac9-195bb21d6ae7
 ms.date: 12/05/2018
 ms.keywords: UrlIsNoHistory, UrlIsNoHistory function [Windows Shell], UrlIsNoHistoryA, UrlIsNoHistoryW, _win32_UrlIsNoHistory, shell.UrlIsNoHistory, shlwapi/UrlIsNoHistory, shlwapi/UrlIsNoHistoryA, shlwapi/UrlIsNoHistoryW
-f1_keywords:
-- shlwapi/UrlIsNoHistory
-dev_langs:
-- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,23 +25,28 @@ req.type-library:
 req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Shlwapi.dll
-- API-MS-Win-Core-url-l1-1-0.dll
-- KernelBase.dll
-api_name:
-- UrlIsNoHistory
-- UrlIsNoHistoryA
-- UrlIsNoHistoryW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - UrlIsNoHistoryW
+ - shlwapi/UrlIsNoHistoryW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Shlwapi.dll
+ - API-MS-Win-Core-url-l1-1-0.dll
+ - KernelBase.dll
+api_name:
+ - UrlIsNoHistory
+ - UrlIsNoHistoryA
+ - UrlIsNoHistoryW
 ---
 
 # UrlIsNoHistoryW function
@@ -52,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns whether a URL is a URL that browsers typically do not include in navigation history.
 
-
 ## -parameters
-
-
-
 
 ### -param pszURL [in]
 
@@ -67,37 +64,24 @@ Type: <b>PCTSTR</b>
 
 A null-terminated string of maximum length INTERNET_MAX_URL_LENGTH that contains the URL.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
 Returns a nonzero value if the URL is a URL that is not included in navigation history, or zero otherwise.
 
-
-
-
 ## -remarks
-
-
 
 This function is equivalent to the following:
 				
                 
 
-<pre class="syntax" xml:space="preserve"><code>UrlIs(pszURL, URLIS_NOHISTORY)</code></pre>
 
+``` syntax
+UrlIs(pszURL, URLIS_NOHISTORY)
+```
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>

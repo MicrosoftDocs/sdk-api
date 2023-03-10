@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPControls2.step
 title: IWMPControls2::step (wmp.h)
 description: The step method causes the current video media item to freeze playback on the next frame or the previous frame.
+helpviewer_keywords: ["IWMPControls2 interface [Windows Media Player]","step method","IWMPControls2.step","IWMPControls2::step","IWMPControls2step","step","step method [Windows Media Player]","step method [Windows Media Player]","IWMPControls2 interface","wmp.iwmpcontrols2_step","wmp/IWMPControls2::step"]
 old-location: wmp\iwmpcontrols2_step.htm
 tech.root: WMP
 ms.assetid: d54a4bb7-855f-4807-89b5-176b7fac2edd
 ms.date: 12/05/2018
 ms.keywords: IWMPControls2 interface [Windows Media Player],step method, IWMPControls2.step, IWMPControls2::step, IWMPControls2step, step, step method [Windows Media Player], step method [Windows Media Player],IWMPControls2 interface, wmp.iwmpcontrols2_step, wmp/IWMPControls2::step
-f1_keywords:
-- wmp/IWMPControls2.step
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPControls2.step
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPControls2::step
+ - wmp/IWMPControls2::step
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPControls2.step
 ---
 
 # IWMPControls2::step
@@ -48,26 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>step</b> method causes the current video media item to freeze playback on the next frame or the previous frame.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param lStep [in]
 
 <b>long</b> indicating how many frames to step before freezing. Must be set to 1 or -1.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -88,33 +79,17 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method currently only supports the parameters 1 or -1, so you can only step one frame at a time.
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_INVALIDARG.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>

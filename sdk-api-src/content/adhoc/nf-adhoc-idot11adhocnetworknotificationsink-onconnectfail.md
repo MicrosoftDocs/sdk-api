@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocNetworkNotificationSink.OnConnectFail
 title: IDot11AdHocNetworkNotificationSink::OnConnectFail (adhoc.h)
 description: Notifies the client that a connection attempt failed.
+helpviewer_keywords: ["IDot11AdHocNetworkNotificationSink interface [NativeWIFI]","OnConnectFail method","IDot11AdHocNetworkNotificationSink.OnConnectFail","IDot11AdHocNetworkNotificationSink::OnConnectFail","OnConnectFail","OnConnectFail method [NativeWIFI]","OnConnectFail method [NativeWIFI]","IDot11AdHocNetworkNotificationSink interface","adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail","nwifi.idot11adhocnetworknotificationsink_onconnectfail"]
 old-location: nwifi\idot11adhocnetworknotificationsink_onconnectfail.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: b38143c8-4e90-4f5d-b9f5-15bd1fd7e1c5
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink interface [NativeWIFI],OnConnectFail method, IDot11AdHocNetworkNotificationSink.OnConnectFail, IDot11AdHocNetworkNotificationSink::OnConnectFail, OnConnectFail, OnConnectFail method [NativeWIFI], OnConnectFail method [NativeWIFI],IDot11AdHocNetworkNotificationSink interface, adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail, nwifi.idot11adhocnetworknotificationsink_onconnectfail
-f1_keywords:
-- adhoc/IDot11AdHocNetworkNotificationSink.OnConnectFail
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocNetworkNotificationSink.OnConnectFail
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocNetworkNotificationSink::OnConnectFail
+ - adhoc/IDot11AdHocNetworkNotificationSink::OnConnectFail
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocNetworkNotificationSink.OnConnectFail
 ---
 
 # IDot11AdHocNetworkNotificationSink::OnConnectFail
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Notifies the client that a connection attempt failed. The connection attempt may have been initiated by the client itself or by another application using the <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> methods or the <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi functions</a>.
-
+Notifies the client that a connection attempt failed. The connection attempt may have been initiated by the client itself or by another application using the <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> methods or the <a href="/windows/desktop/NativeWiFi/native-wifi-functions">Native Wifi functions</a>.
 
 ## -parameters
 
-
-
-
 ### -param eFailReason
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_connect_fail_reason">DOT11_ADHOC_CONNECT_FAIL_REASON</a> value that specifies the reason the connection attempt failed.
-
+A <a href="/windows/desktop/api/adhoc/ne-adhoc-dot11_adhoc_connect_fail_reason">DOT11_ADHOC_CONNECT_FAIL_REASON</a> value that specifies the reason the connection attempt failed.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -96,18 +90,7 @@ The method failed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetworknotificationsink">IDot11AdHocNetworkNotificationSink</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetworknotificationsink">IDot11AdHocNetworkNotificationSink</a>

@@ -1,16 +1,13 @@
 ---
 UID: NS:cfgmgr32.IRQ_Des_64_s
 title: IRQ_DES_64 (cfgmgr32.h)
-description: The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
+description: The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources. (64 bit)
+helpviewer_keywords: ["*PIRQ_DES_64","IRQ_DES","IRQ_DES structure [Device and Driver Installation]","IRQ_DES_64","PIRQ_DES","PIRQ_DES structure pointer [Device and Driver Installation]","cfgmgr32/IRQ_DES","cfgmgr32/PIRQ_DES","cfgmgrst_039f414c-eefc-46f0-acbe-a94d09406d92.xml","devinst.irq_des"]
 old-location: devinst\irq_des.htm
 tech.root: devinst
 ms.assetid: fa8b8d96-6642-4f5a-b65c-0c7470340251
 ms.date: 12/05/2018
 ms.keywords: '*PIRQ_DES_64, IRQ_DES, IRQ_DES structure [Device and Driver Installation], IRQ_DES_64, PIRQ_DES, PIRQ_DES structure pointer [Device and Driver Installation], cfgmgr32/IRQ_DES, cfgmgr32/PIRQ_DES, cfgmgrst_039f414c-eefc-46f0-acbe-a94d09406d92.xml, devinst.irq_des'
-f1_keywords:
-- cfgmgr32/IRQ_DES
-dev_langs:
-- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- cfgmgr32.h
-api_name:
-- IRQ_DES
 targetos: Windows
 req.typenames: IRQ_DES_64, *PIRQ_DES_64
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRQ_Des_64_s
+ - cfgmgr32/IRQ_Des_64_s
+ - PIRQ_DES_64
+ - cfgmgr32/PIRQ_DES_64
+ - IRQ_DES_64
+ - cfgmgr32/IRQ_DES_64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - cfgmgr32.h
+api_name:
+ - IRQ_DES
 ---
 
 # IRQ_DES_64 structure
@@ -48,20 +54,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
-
+The IRQ_DES structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
-
-
-
 ### -field IRQD_Count
-
-
-
-
 
 #### For a resource list:
 
@@ -71,18 +68,13 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)a> structure.
-
+The number of elements in the [IRQ_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32) structure.
 
 ### -field IRQD_Type
 
 Must be set to the constant value <b>IRQType_Range</b>.
 
-
 ### -field IRQD_Group
-
- 
-
 
 ### -field IRQD_Flags
 
@@ -175,14 +167,8 @@ Bitmask for the bits within <b>IRQD_Flags</b> that specify the triggering value.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field IRQD_Alloc_Num
-
-
-
-
 
 #### For a resource list:
 
@@ -194,12 +180,7 @@ The number of the IRQ line that is allocated to the device.
 
 <i>Not used.</i>
 
-
 ### -field IRQD_Affinity
-
-
-
-
 
 #### For a resource list:
 
@@ -239,20 +220,12 @@ Zero.
 
 ##### - IRQD_Count.For a resource requirements list:
 
-The number of elements in the [IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)a> structure.
-
+The number of elements in the [IRQ_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32) structure.
 
 ## -see-also
 
+[IRQ_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)
 
 
 
-[IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)a>
-
-
-
-[IRQ_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)a>
- 
-
- 
-
+[IRQ_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_resource_32)

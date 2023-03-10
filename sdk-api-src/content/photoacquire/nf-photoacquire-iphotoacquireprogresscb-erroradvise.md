@@ -2,15 +2,12 @@
 UID: NF:photoacquire.IPhotoAcquireProgressCB.ErrorAdvise
 title: IPhotoAcquireProgressCB::ErrorAdvise (photoacquire.h)
 description: The ErrorAdvise method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the ErrorAdvise method.
+helpviewer_keywords: ["ErrorAdvise","ErrorAdvise method [Picture Acquisition]","ErrorAdvise method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","ErrorAdvise method","IPhotoAcquireProgressCB.ErrorAdvise","IPhotoAcquireProgressCB::ErrorAdvise","IPhotoAcquireProgressCBErrorAdvise","photoacquire/IPhotoAcquireProgressCB::ErrorAdvise","picacq.iphotoacquireprogresscb_erroradvise"]
 old-location: picacq\iphotoacquireprogresscb_erroradvise.htm
-tech.root: acquisition
+tech.root: picacq
 ms.assetid: 60454ae7-9be9-4414-9865-2b874bbe54c1
 ms.date: 12/05/2018
 ms.keywords: ErrorAdvise, ErrorAdvise method [Picture Acquisition], ErrorAdvise method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],ErrorAdvise method, IPhotoAcquireProgressCB.ErrorAdvise, IPhotoAcquireProgressCB::ErrorAdvise, IPhotoAcquireProgressCBErrorAdvise, photoacquire/IPhotoAcquireProgressCB::ErrorAdvise, picacq.iphotoacquireprogresscb_erroradvise
-f1_keywords:
-- photoacquire/IPhotoAcquireProgressCB.ErrorAdvise
-dev_langs:
-- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- PhotoAcquireUID.lib
-- PhotoAcquireUID.dll
-api_name:
-- IPhotoAcquireProgressCB.ErrorAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPhotoAcquireProgressCB::ErrorAdvise
+ - photoacquire/IPhotoAcquireProgressCB::ErrorAdvise
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - PhotoAcquireUID.lib
+ - PhotoAcquireUID.dll
+api_name:
+ - IPhotoAcquireProgressCB.ErrorAdvise
 ---
 
 # IPhotoAcquireProgressCB::ErrorAdvise
@@ -49,27 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>ErrorAdvise</code> method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the <code>ErrorAdvise</code> method.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param hr [in]
 
 Specifies the error that occurred.
 
-
 ### -param pszErrorMessage [in]
 
 Pointer to a null-terminated string containing the error message.
-
 
 ### -param nMessageType [in]
 
@@ -100,10 +92,6 @@ Integer value containing the message type. May be one of the following.
 <td>Specifies that the error that occurred requires an OK response. The <i>pnErrorAdviseResult</i> parameter must be set to <b>PHOTOACQUIRE_RESULT_OK</b>.</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param pnErrorAdviseResult [out]
 
@@ -145,12 +133,8 @@ Pointer to an integer value containing the error advise result. The result shoul
 <td>Specifies a Cancel response. Valid if <i>nMessageType</i> is <b>PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL</b> or <b>PHOTOACQUIRE_ERROR_RETRYCANCEL</b>.</td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Your implementation is not limited to the following return values. Any failing HRESULT other than E_NOTIMPL is fatal and will cause the transfer to abort.
 
@@ -182,27 +166,11 @@ The method is not yet implemented
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Normally, a message is displayed when an error occurs during image acquisition. If suppression of this message is desired, implement <code>ErrorAdvise</code>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>

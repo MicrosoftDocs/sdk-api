@@ -2,15 +2,12 @@
 UID: NF:shimgdata.IShellImageData.Rotate
 title: IShellImageData::Rotate (shimgdata.h)
 description: Rotates an image in increments of 90 degrees.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","Rotate method","IShellImageData.Rotate","IShellImageData::Rotate","Rotate","Rotate method [Windows Shell]","Rotate method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_Rotate","shell.IShellImageData_Rotate","shimgdata/IShellImageData::Rotate"]
 old-location: shell\IShellImageData_Rotate.htm
 tech.root: shell
 ms.assetid: 42fd8596-e130-4029-bf3c-67199e8dd804
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],Rotate method, IShellImageData.Rotate, IShellImageData::Rotate, Rotate, Rotate method [Windows Shell], Rotate method [Windows Shell],IShellImageData interface, _shell_IShellImageData_Rotate, shell.IShellImageData_Rotate, shimgdata/IShellImageData::Rotate
-f1_keywords:
-- shimgdata/IShellImageData.Rotate
-dev_langs:
-- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellImageData.Rotate
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellImageData::Rotate
+ - shimgdata/IShellImageData::Rotate
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellImageData.Rotate
 ---
 
 # IShellImageData::Rotate
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Rotates an image in increments of 90 degrees.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAngle [in]
 
@@ -63,10 +60,7 @@ Type: <b>DWORD</b>
 
 The angle of rotation. Only angles of 0, 90, 180, and 270 are recognized.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -133,7 +127,4 @@ Not enough resources are available for the method to create an internal working 
 </td>
 </tr>
 </table>
- 
-
-
 

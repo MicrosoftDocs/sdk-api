@@ -1,16 +1,13 @@
 ---
 UID: NF:ntmsapi.SubmitNtmsOperatorRequestW
 title: SubmitNtmsOperatorRequestW function (ntmsapi.h)
-description: The SubmitNtmsOperatorRequest function submits an RSM operator request.
+description: The SubmitNtmsOperatorRequest function submits an RSM operator request. (Unicode)
+helpviewer_keywords: ["NTMS_OPREQ_CLEANER", "NTMS_OPREQ_DEVICESERVICE", "NTMS_OPREQ_MESSAGE", "NTMS_OPREQ_MOVEMEDIA", "NTMS_OPREQ_NEWMEDIA", "SubmitNtmsOperatorRequest", "SubmitNtmsOperatorRequest function [Files]", "SubmitNtmsOperatorRequestW", "_zaw_submitntmsoperatorrequest", "base.submitntmsoperatorrequest", "fs.submitntmsoperatorrequest", "ntmsapi/SubmitNtmsOperatorRequest", "ntmsapi/SubmitNtmsOperatorRequestW"]
 old-location: fs\submitntmsoperatorrequest.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: d2c146d0-f1f9-4810-a489-91b5c4ca3431
 ms.date: 12/05/2018
 ms.keywords: NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, SubmitNtmsOperatorRequest, SubmitNtmsOperatorRequest function [Files], SubmitNtmsOperatorRequestA, SubmitNtmsOperatorRequestW, _zaw_submitntmsoperatorrequest, base.submitntmsoperatorrequest, fs.submitntmsoperatorrequest, ntmsapi/SubmitNtmsOperatorRequest, ntmsapi/SubmitNtmsOperatorRequestA, ntmsapi/SubmitNtmsOperatorRequestW
-f1_keywords:
-- ntmsapi/SubmitNtmsOperatorRequest
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SubmitNtmsOperatorRequest
-- SubmitNtmsOperatorRequestA
-- SubmitNtmsOperatorRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SubmitNtmsOperatorRequestW
+ - ntmsapi/SubmitNtmsOperatorRequestW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SubmitNtmsOperatorRequest
+ - SubmitNtmsOperatorRequestA
+ - SubmitNtmsOperatorRequestW
 ---
 
 # SubmitNtmsOperatorRequestW function
@@ -50,23 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SubmitNtmsOperatorRequest</b> function submits an RSM operator request.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param dwRequest [in]
 
@@ -150,32 +146,24 @@ An application or RSM sends an operator request for new media when no media is a
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpMessage [in]
 
 Optional message string to be sent to the user.
 
-
 ### -param lpArg1Id [in]
 
 Object identifier for the operator request. Refer to the descriptions of the values in the <i>dwRequest</i> parameter for a description of what type of object must be passed for this parameter.
-
 
 ### -param lpArg2Id [in]
 
 Object identifier for the operator request. Refer to the descriptions of the values in the <i>dwRequest</i> parameter for details on what type of object must be passed for this parameter.
 
-
 ### -param lpRequestId [out]
 
 Pointer to a buffer that receives the identifier of the operator request that was created.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -262,14 +250,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SubmitNtmsOperatorRequest</b> function submits an operator request and returns the status of the request (Satisfied or Canceled) or times out (if the operator does not act upon the request). Operator requests are used to request media, to request that the specified medium be moved from one library to another, or to request RSM device service.
@@ -279,33 +261,30 @@ The NTMS_OPEREQ_MESSAGE value (in the <i>dwRequest</i> parameter) is the request
 
 
 
+
+> [!NOTE]
+> The ntmsapi.h header defines SubmitNtmsOperatorRequest as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest">CancelNtmsOperatorRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-cancelntmsoperatorrequest">CancelNtmsOperatorRequest</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-mountntmsmedia">MountNtmsMedia</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Operator Request Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Operator Request Functions</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-satisfyntmsoperatorrequest">SatisfyNtmsOperatorRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-satisfyntmsoperatorrequest">SatisfyNtmsOperatorRequest</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsoperatorrequest">WaitForNtmsOperatorRequest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsoperatorrequest">WaitForNtmsOperatorRequest</a>

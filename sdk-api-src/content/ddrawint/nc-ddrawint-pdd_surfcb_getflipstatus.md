@@ -2,15 +2,12 @@
 UID: NC:ddrawint.PDD_SURFCB_GETFLIPSTATUS
 title: PDD_SURFCB_GETFLIPSTATUS (ddrawint.h)
 description: The DdGetFlipStatus callback function determines whether the most recently requested flip on a surface has occurred.
+helpviewer_keywords: ["DdGetFlipStatus","DdGetFlipStatus callback function [Display Devices]","PDD_SURFCB_GETFLIPSTATUS","PDD_SURFCB_GETFLIPSTATUS callback","ddfncs_129ef755-b85d-4f99-b62b-87124364c283.xml","ddrawint/DdGetFlipStatus","display.ddgetflipstatus"]
 old-location: display\ddgetflipstatus.htm
 tech.root: display
 ms.assetid: ec556891-e091-4c52-a155-cb6ba8011f71
 ms.date: 12/05/2018
 ms.keywords: DdGetFlipStatus, DdGetFlipStatus callback function [Display Devices], PDD_SURFCB_GETFLIPSTATUS, PDD_SURFCB_GETFLIPSTATUS callback, ddfncs_129ef755-b85d-4f99-b62b-87124364c283.xml, ddrawint/DdGetFlipStatus, display.ddgetflipstatus
-f1_keywords:
-- ddrawint/DdGetFlipStatus
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,61 +25,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdGetFlipStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_SURFCB_GETFLIPSTATUS
+ - ddrawint/PDD_SURFCB_GETFLIPSTATUS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdGetFlipStatus
 ---
-
-# PDD_SURFCB_GETFLIPSTATUS callback function
-
 
 ## -description
 
-
 The <b>DdGetFlipStatus</b> callback function determines whether the most recently requested flip on a surface has occurred.
-
 
 ## -parameters
 
+### -param unnamedParam1
 
-
-
-### -param Arg1
-
-
-
-
-
-
-
-
-#### - lpGetFlipStatus
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
-
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a> structure that contains the information required to perform the flip status query.
 
 ## -returns
 
-
-
 <b>DdGetFlipStatus</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 The driver should report its flip status based on the flag set in the <b>dwFlags</b> member of the structure that <b>lpGetFlipStatus</b> points to as follows:
 
@@ -97,15 +74,6 @@ If the flag is DDGFS_ISFLIPDONE, the driver should set <b>ddRVal</b> to DDERR_WA
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a>

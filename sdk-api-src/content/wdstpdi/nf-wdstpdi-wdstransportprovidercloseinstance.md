@@ -2,15 +2,12 @@
 UID: NF:wdstpdi.WdsTransportProviderCloseInstance
 title: WdsTransportProviderCloseInstance function (wdstpdi.h)
 description: Closes an instance of a content provider specified by a handle.
+helpviewer_keywords: ["WdsTransportProviderCloseInstance","WdsTransportProviderCloseInstance callback","WdsTransportProviderCloseInstance callback function [Windows Deployment Services]","wds.wdstransportprovidercloseinstance","wdstpdi/WdsTransportProviderCloseInstance"]
 old-location: wds\wdstransportprovidercloseinstance.htm
 tech.root: wds
 ms.assetid: 3eb0a931-ca5d-4db4-9c40-9c52f98be429
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstance callback, WdsTransportProviderCloseInstance callback function [Windows Deployment Services], wds.wdstransportprovidercloseinstance, wdstpdi/WdsTransportProviderCloseInstance
-f1_keywords:
-- wdstpdi/WdsTransportProviderCloseInstance
-dev_langs:
-- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- wdstpdi.h
-api_name:
-- WdsTransportProviderCloseInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WdsTransportProviderCloseInstance
+ - wdstpdi/WdsTransportProviderCloseInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - wdstpdi.h
+api_name:
+ - WdsTransportProviderCloseInstance
 ---
 
 # WdsTransportProviderCloseInstance function
@@ -48,34 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-Closes an instance of a content provider specified by a handle. 
-
+Closes an instance of a content provider specified by a handle.
 
 ## -parameters
-
-
-
 
 ### -param hInstance [in]
 
 Handle to the content provider instance to be closed.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return is <b>S_OK</b>.
 
-
-
-
 ## -remarks
 
-
-
 This callback is required.
-
-
 

@@ -4,15 +4,17 @@ title: Netfw.h header
 ms.assetid: 93a8b9f0-44a4-3194-b24f-bb1328222e71
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 tech.root: ics
+f1_keywords:
+ - netfw
+ - netfw/netfw
 ---
 
 # Netfw.h header
 
 
 ## -description
-
 
 This header is used by Windows Firewall Technologies. For more information, see:
 

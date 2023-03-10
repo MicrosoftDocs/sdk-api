@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_FinalDisposition
 title: ITQueue::get_FinalDisposition (tapi3cc.h)
-description: The get_FinalDisposition method gets the total number of calls reaching the bottom of a call guide during the current measurement period.
+description: The ITQueue::get_FinalDisposition method (tapi3cc.h) gets the total number of calls reaching the bottom of a call guide during the current measurement period.
+helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","get_FinalDisposition method","ITQueue.get_FinalDisposition","ITQueue::get_FinalDisposition","_tapi3_itqueue_get_finaldisposition","get_FinalDisposition","get_FinalDisposition method [TAPI 2.2]","get_FinalDisposition method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_get_finaldisposition","tapi3cc/ITQueue::get_FinalDisposition"]
 old-location: tapi3\itqueue_get_finaldisposition.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 024680d2-5b27-4002-a492-54b35a2d3513
-ms.date: 12/05/2018
+ms.date: 08/10/2022
 ms.keywords: ITQueue interface [TAPI 2.2],get_FinalDisposition method, ITQueue.get_FinalDisposition, ITQueue::get_FinalDisposition, _tapi3_itqueue_get_finaldisposition, get_FinalDisposition, get_FinalDisposition method [TAPI 2.2], get_FinalDisposition method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_finaldisposition, tapi3cc/ITQueue::get_FinalDisposition
-f1_keywords:
-- tapi3cc/ITQueue.get_FinalDisposition
-dev_langs:
-- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITQueue.get_FinalDisposition
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITQueue::get_FinalDisposition
+ - tapi3cc/ITQueue::get_FinalDisposition
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITQueue.get_FinalDisposition
 ---
 
 # ITQueue::get_FinalDisposition
@@ -48,27 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_FinalDisposition</b> method gets the total number of calls reaching the bottom of a call guide during the current measurement period. This indicates that a call has passed through an ACD system, moving from queue to queue, without being answered, which indicates a problem with the queue design or response times.
 
 The measurement period is switch- or implementation-specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
-
-
-
 
 ### -param plCalls [out]
 
 Pointer to number of calls.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -122,32 +116,16 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Measurement period for this information is switch and/or implementation specific (see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>).
-
-
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>).
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">ITQueue.get_MeasurementPeriod</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">ITQueue.get_MeasurementPeriod</a>

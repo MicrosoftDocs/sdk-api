@@ -2,15 +2,12 @@
 UID: NF:windowsx.Edit_Enable
 title: Edit_Enable macro (windowsx.h)
 description: Enables or disables an edit control.
+helpviewer_keywords: ["Edit_Enable","Edit_Enable macro [Windows Controls]","_win32_Edit_Enable","_win32_Edit_Enable_cpp","controls.Edit_Enable","controls._win32_Edit_Enable","windowsx/Edit_Enable"]
 old-location: controls\Edit_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_enable.htm
 ms.date: 12/05/2018
 ms.keywords: Edit_Enable, Edit_Enable macro [Windows Controls], _win32_Edit_Enable, _win32_Edit_Enable_cpp, controls.Edit_Enable, controls._win32_Edit_Enable, windowsx/Edit_Enable
-f1_keywords:
-- windowsx/Edit_Enable
-dev_langs:
-- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Windowsx.h
-api_name:
-- Edit_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - Edit_Enable
+ - windowsx/Edit_Enable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Windowsx.h
+api_name:
+ - Edit_Enable
 ---
 
 # Edit_Enable macro
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables or disables an edit control.
-
 
 ## -parameters
 
-
-
-
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit control.
 
-
 ### -param fEnable
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to enable the control, or <b>FALSE</b> to disable it.
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.QueryRevertStatus
 title: IVssBackupComponents::QueryRevertStatus (vsbackup.h)
-description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
+description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation. (IVssBackupComponents.QueryRevertStatus)
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","QueryRevertStatus method","IVssBackupComponents.QueryRevertStatus","IVssBackupComponents::QueryRevertStatus","QueryRevertStatus","QueryRevertStatus method [VSS]","QueryRevertStatus method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_queryrevertstatus","base.ivssbackupcomponents_queryrevertstatus","vsbackup/IVssBackupComponents::QueryRevertStatus"]
 old-location: base\ivssbackupcomponents_queryrevertstatus.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: f2e97723-98cb-401c-ab35-20c004f0a73d
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],QueryRevertStatus method, IVssBackupComponents.QueryRevertStatus, IVssBackupComponents::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method [VSS], QueryRevertStatus method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_queryrevertstatus, base.ivssbackupcomponents_queryrevertstatus, vsbackup/IVssBackupComponents::QueryRevertStatus
-f1_keywords:
-- vsbackup/IVssBackupComponents.QueryRevertStatus
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.QueryRevertStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::QueryRevertStatus
+ - vsbackup/IVssBackupComponents::QueryRevertStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.QueryRevertStatus
 ---
 
 # IVssBackupComponents::QueryRevertStatus
@@ -49,37 +51,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryRevertStatus</b> method 
-   returns an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used 
+   returns an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface pointer that can be used 
    to determine the status of the revert operation.
-
 
 ## -parameters
 
-
-
-
 ### -param pwszVolume [in]
 
-Null-terminated wide character string containing the name of the volume. The name must be in one of the following formats and must include a trailing backslash (\): 
+Null-terminated wide character string containing the name of the volume. The name must be in one of the following formats and must include a trailing backslash (\\): 
       
 
 <ul>
 <li>The path of a mounted folder, for example, Y:\MountX\</li>
 <li>A drive letter, for example, D:\</li>
-<li>A volume GUID path of the form \\?\<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
+<li>A volume GUID path of the form \\?&#92;<i>Volume</i>{<i>GUID</i>}\ (where <i>GUID</i> identifies the volume)</li>
 </ul>
 
 ### -param ppAsync [out]
 
-Pointer to a location that will receive an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> 
-      interface pointer that can be used to retrieve the status of the revert process. When the operation is complete, the caller must release the interface pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
-
+Pointer to a location that will receive an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> 
+      interface pointer that can be used to retrieve the status of the revert process. When the operation is complete, the caller must release the interface pointer by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -188,40 +182,24 @@ Revert is not supported on this volume.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The revert operation will continue even if the computer is rebooted, and cannot be canceled or undone, except 
     by restoring a backup created using another method. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the returned  
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface cannot return 
+    <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">QueryStatus</a> method on the returned  
+    <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface cannot return 
     <b>VSS_S_ASYNC_CANCELLED</b> as the revert operation cannot be canceled after it has 
     started.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot">IVssBackupComponents::RevertToSnapshot</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-reverttosnapshot">IVssBackupComponents::RevertToSnapshot</a>

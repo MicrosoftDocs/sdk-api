@@ -1,16 +1,13 @@
 ---
-UID: NS:wininet.__unnamed_struct_2
+UID: NS:wininet.INTERNET_PROXY_INFO
 title: INTERNET_PROXY_INFO (wininet.h)
 description: Contains information that is supplied with the INTERNET_OPTION_PROXY value to get or set proxy information on a handle obtained from a call to the InternetOpen function.
+helpviewer_keywords: ["*LPINTERNET_PROXY_INFO","INTERNET_OPEN_TYPE_DIRECT","INTERNET_OPEN_TYPE_PRECONFIG","INTERNET_OPEN_TYPE_PROXY","INTERNET_PROXY_INFO","INTERNET_PROXY_INFO structure [WinINet]","LPINTERNET_PROXY_INFO","LPINTERNET_PROXY_INFO structure pointer [WinINet]","_inet_internet_proxy_info_structure","wininet.internet_proxy_info","wininet/ LPINTERNET_PROXY_INFO","wininet/INTERNET_PROXY_INFO"]
 old-location: wininet\internet_proxy_info.htm
 tech.root: wininet
 ms.assetid: f2431800-dbcc-4933-87f5-2d08ca22ad9c
 ms.date: 12/05/2018
 ms.keywords: '*LPINTERNET_PROXY_INFO, INTERNET_OPEN_TYPE_DIRECT, INTERNET_OPEN_TYPE_PRECONFIG, INTERNET_OPEN_TYPE_PROXY, INTERNET_PROXY_INFO, INTERNET_PROXY_INFO structure [WinINet], LPINTERNET_PROXY_INFO, LPINTERNET_PROXY_INFO structure pointer [WinINet], _inet_internet_proxy_info_structure, wininet.internet_proxy_info, wininet/ LPINTERNET_PROXY_INFO, wininet/INTERNET_PROXY_INFO'
-f1_keywords:
-- wininet/INTERNET_PROXY_INFO
-dev_langs:
-- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wininet.h
-api_name:
-- INTERNET_PROXY_INFO
 targetos: Windows
 req.typenames: INTERNET_PROXY_INFO, *LPINTERNET_PROXY_INFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPINTERNET_PROXY_INFO
+ - wininet/LPINTERNET_PROXY_INFO
+ - INTERNET_PROXY_INFO
+ - wininet/INTERNET_PROXY_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wininet.h
+api_name:
+ - INTERNET_PROXY_INFO
 ---
 
 # INTERNET_PROXY_INFO structure
@@ -48,15 +52,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains information that is supplied with the INTERNET_OPTION_PROXY value to get or set proxy information on a handle obtained from a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> function. 
-
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field dwAccessType
 
@@ -98,39 +97,25 @@ Internet accessed using a proxy.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field lpszProxy
 
-Pointer to a string that contains the proxy server list. 
-
+Pointer to a string that contains the proxy server list.
 
 ### -field lpszProxyBypass
 
-Pointer to a string that contains the proxy bypass list. 
-
+Pointer to a string that contains the proxy bypass list.
 
 ## -remarks
 
-
-
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
- 
-
- 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
 

@@ -2,15 +2,12 @@
 UID: NF:heapapi.HeapSetInformation
 title: HeapSetInformation function (heapapi.h)
 description: Enables features for a specified heap.
+helpviewer_keywords: ["HeapCompatibilityInformation","HeapEnableTerminationOnCorruption","HeapOptimizeResources","HeapSetInformation","HeapSetInformation function","_win32_heapsetinformation","base.heapsetinformation","heapapi/HeapSetInformation","winbase/HeapSetInformation"]
 old-location: base\heapsetinformation.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.date: 12/05/2018
 ms.keywords: HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, HeapOptimizeResources, HeapSetInformation, HeapSetInformation function, _win32_heapsetinformation, base.heapsetinformation, heapapi/HeapSetInformation, winbase/HeapSetInformation
-f1_keywords:
-- heapapi/HeapSetInformation
-dev_langs:
-- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,24 +25,29 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-heap-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-heap-l1-2-0.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-api_name:
-- HeapSetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - HeapSetInformation
+ - heapapi/HeapSetInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-heap-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-heap-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - HeapSetInformation
 ---
 
 # HeapSetInformation function
@@ -53,21 +55,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables features for a specified heap.
 
-
 ## -parameters
-
-
-
 
 ### -param HeapHandle [in, optional]
 
 A handle to the heap where information is to be set. This handle is returned by either the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
-
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param HeapInformationClass [in]
 
@@ -87,7 +83,7 @@ The class of information to be set. This parameter can be one of the following v
 </td>
 <td width="60%">
 Enables heap features. Only the 
-        <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) is supported. 
+        <a href="/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) is supported. 
         However, it is not necessary for applications to enable the LFH because the system uses the LFH as needed to 
         service memory allocation requests.
         
@@ -98,9 +94,9 @@ Enables heap features. Only the
 
 The LFH cannot be enabled for heaps created with <b>HEAP_NO_SERIALIZE</b> or for heaps 
            created with a fixed size. The LFH also cannot be enabled if you are using the heap debugging tools in 
-           <a href="https://go.microsoft.com/fwlink/p/?linkid=153784">Debugging Tools for Windows</a> 
+           <a href="/windows-hardware/drivers/debugger/">Debugging Tools for Windows</a> 
            or 
-           <a href="https://go.microsoft.com/fwlink/p/?linkid=153785">Microsoft Application Verifier</a>.
+           <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&displaylang=en">Microsoft Application Verifier</a>.
 
 When a process is run under any debugger, certain heap debug options are automatically enabled for all 
            heaps in the process. These heap debug options prevent the use of the LFH. To enable the low-fragmentation 
@@ -136,7 +132,7 @@ After a process enables this feature, it cannot be disabled.
 </dl>
 </td>
 <td width="60%">
-If HeapSetInformation is called with <i>HeapHandle</i> set to NULL, then all heaps in the process with a <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) will have their caches optimized,  and the memory will be decommitted if possible.  
+If HeapSetInformation is called with <i>HeapHandle</i> set to NULL, then all heaps in the process with a <a href="/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) will have their caches optimized,  and the memory will be decommitted if possible.  
 
 If a heap pointer is supplied in <i>HeapHandle</i>, then only that heap will be optimized.
 
@@ -147,8 +143,6 @@ Note that the HEAP_OPTIMIZE_RESOURCES_INFORMATION  structure passed in <i>HeapIn
 </td>
 </tr>
 </table>
- 
-
 
 ### -param HeapInformation [in]
 
@@ -164,30 +158,21 @@ If the <i>HeapInformationClass</i> parameter is
        parameter should be <b>NULL</b> and <i>HeapInformationLength</i> should 
        be 0
 
-
 ### -param HeapInformationLength [in]
 
 The size of the <i>HeapInformation</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-
-
 To retrieve the current settings for the heap, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> function.
+    <a href="/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> function.
 
 Setting the <b>HeapEnableTerminateOnCorruption</b> option is strongly recommended because 
     it reduces an application's exposure to security exploits that take advantage of a corrupted heap.
@@ -244,7 +229,7 @@ int __cdecl _tmain()
     }
 
     //
-    // Enable the low-fragmenation heap (LFH). Starting with Windows Vista, 
+    // Enable the low-fragmentation heap (LFH). Starting with Windows Vista, 
     // the LFH is enabled by default but this call does not cause an error.
     //
     HeapInformation = HEAP_LFH;
@@ -266,33 +251,22 @@ int __cdecl _tmain()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>

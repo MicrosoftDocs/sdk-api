@@ -2,15 +2,12 @@
 UID: NS:wingdi.tagLOGBRUSH
 title: LOGBRUSH (wingdi.h)
 description: The LOGBRUSH structure defines the style, color, and pattern of a physical brush. It is used by the CreateBrushIndirect and ExtCreatePen functions.
+helpviewer_keywords: ["*LPLOGBRUSH","*LPPATTERN","*NPLOGBRUSH","*NPPATTERN","*PLOGBRUSH","*PPATTERN","LOGBRUSH","LOGBRUSH structure [Windows GDI]","PATTERN","PLOGBRUSH","PLOGBRUSH structure pointer [Windows GDI]","_win32_LOGBRUSH_str","gdi.logbrush","wingdi/LOGBRUSH","wingdi/PLOGBRUSH"]
 old-location: gdi\logbrush.htm
 tech.root: gdi
 ms.assetid: ded2c7a4-2248-4d01-95c6-ab4050719094
 ms.date: 12/05/2018
 ms.keywords: '*LPLOGBRUSH, *LPPATTERN, *NPLOGBRUSH, *NPPATTERN, *PLOGBRUSH, *PPATTERN, LOGBRUSH, LOGBRUSH structure [Windows GDI], PATTERN, PLOGBRUSH, PLOGBRUSH structure pointer [Windows GDI], _win32_LOGBRUSH_str, gdi.logbrush, wingdi/LOGBRUSH, wingdi/PLOGBRUSH'
-f1_keywords:
-- wingdi/LOGBRUSH
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- LOGBRUSH
 targetos: Windows
 req.typenames: LOGBRUSH, *PLOGBRUSH, *NPLOGBRUSH, *LPLOGBRUSH
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLOGBRUSH
+ - wingdi/tagLOGBRUSH
+ - PLOGBRUSH
+ - wingdi/PLOGBRUSH
+ - LOGBRUSH
+ - wingdi/LOGBRUSH
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - LOGBRUSH
 ---
 
 # LOGBRUSH structure
@@ -48,17 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>LOGBRUSH</b> structure defines the style, color, and pattern of a physical brush. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> functions.
-
-
-
+The <b>LOGBRUSH</b> structure defines the style, color, and pattern of a physical brush. It is used by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a> functions.
 
 ## -struct-fields
-
-
-
 
 ### -field lbStyle
 
@@ -106,14 +104,12 @@ The brush style. The <b>lbStyle</b> member must be one of the following styles.
 <td>Solid brush.</td>
 </tr>
 </table>
- 
-
 
 ### -field lbColor
 
 The color in which the brush is to be drawn. If <b>lbStyle</b> is the BS_HOLLOW or BS_PATTERN style, <b>lbColor</b> is ignored.
 
-If <b>lbStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word of <b>lbColor</b> specifies whether the <b>bmiColors</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contain explicit red, green, blue (RGB) values or indexes into the currently realized logical palette. The <b>lbColor</b> member must be one of the following values.
+If <b>lbStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word of <b>lbColor</b> specifies whether the <b>bmiColors</b> members of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contain explicit red, green, blue (RGB) values or indexes into the currently realized logical palette. The <b>lbColor</b> member must be one of the following values.
 
 <table>
 <tr>
@@ -131,16 +127,15 @@ If <b>lbStyle</b> is BS_DIBPATTERN or BS_DIBPATTERNPT, the low-order word of <b>
 </table>
  
 
-If <b>lbStyle</b> is BS_HATCHED or BS_SOLID, <b>lbColor</b> is a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value. To create a <b>COLORREF</b> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
-
+If <b>lbStyle</b> is BS_HATCHED or BS_SOLID, <b>lbColor</b> is a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value. To create a <b>COLORREF</b> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field lbHatch
 
 A hatch style. The meaning depends on the brush style defined by <b>lbStyle</b>.
 
-If <b>lbStyle</b> is BS_DIBPATTERN, the <b>lbHatch</b> member contains a handle to a packed DIB. To obtain this handle, an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function with GMEM_MOVEABLE (or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_MOVEABLE) to allocate a block of memory and then fills the memory with the packed DIB. A packed DIB consists of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
+If <b>lbStyle</b> is BS_DIBPATTERN, the <b>lbHatch</b> member contains a handle to a packed DIB. To obtain this handle, an application calls the <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> function with GMEM_MOVEABLE (or <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_MOVEABLE) to allocate a block of memory and then fills the memory with the packed DIB. A packed DIB consists of a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
 
-If <b>lbStyle</b> is BS_DIBPATTERNPT, the <b>lbHatch</b> member contains a pointer to a packed DIB. The pointer derives from the memory block created by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_FIXED set or by <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> with GMEM_FIXED set, or it is the pointer returned by a call like <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> (handle_to_the_dib). A packed DIB consists of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
+If <b>lbStyle</b> is BS_DIBPATTERNPT, the <b>lbHatch</b> member contains a pointer to a packed DIB. The pointer derives from the memory block created by <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> with LMEM_FIXED set or by <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> with GMEM_FIXED set, or it is the pointer returned by a call like <a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a> (handle_to_the_dib). A packed DIB consists of a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure immediately followed by the array of bytes that define the pixels of the bitmap.
 
 If <b>lbStyle</b> is BS_HATCHED, the <b>lbHatch</b> member specifies the orientation of the lines used to create the hatch. It can be one of the following values.
 
@@ -176,67 +171,54 @@ If <b>lbStyle</b> is BS_HATCHED, the <b>lbHatch</b> member specifies the orienta
 </table>
  
 
-If <b>lbStyle</b> is BS_PATTERN, <b>lbHatch</b> is a handle to the bitmap that defines the pattern. The bitmap cannot be a DIB section bitmap, which is created by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function.
+If <b>lbStyle</b> is BS_PATTERN, <b>lbHatch</b> is a handle to the bitmap that defines the pattern. The bitmap cannot be a DIB section bitmap, which is created by the <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a> function.
 
 If <b>lbStyle</b> is BS_SOLID or BS_HOLLOW, <b>lbHatch</b> is ignored.
 
-
 ## -remarks
 
-
-
-Although <b>lbColor</b> controls the foreground color of a hatch brush, the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a> functions control the background color.
-
-
-
+Although <b>lbColor</b> controls the foreground color of a hatch brush, the <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a> functions control the background color.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/gdi/brush-structures">Brush Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brush-structures">Brush Structures</a>
+<a href="/windows/desktop/gdi/brushes">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/brushes">Brushes Overview</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect">CreateBrushIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush32">LOGBRUSH32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush32">LOGBRUSH32</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>

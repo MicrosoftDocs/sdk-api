@@ -2,15 +2,12 @@
 UID: NF:wuapi.IUpdateService.get_OffersWindowsUpdates
 title: IUpdateService::get_OffersWindowsUpdates (wuapi.h)
 description: Gets a Boolean value indicates whether the current service offers updates from Windows Updates.
+helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","OffersWindowsUpdates property","IUpdateService.OffersWindowsUpdates","IUpdateService.get_OffersWindowsUpdates","IUpdateService::OffersWindowsUpdates","IUpdateService::get_OffersWindowsUpdates","OffersWindowsUpdates property [Windows Update Agent]","OffersWindowsUpdates property [Windows Update Agent]","IUpdateService interface","get_OffersWindowsUpdates","wua.iupdateservice_offerswindowsupdates","wuapi/IUpdateService::OffersWindowsUpdates","wuapi/IUpdateService::get_OffersWindowsUpdates"]
 old-location: wua\iupdateservice_offerswindowsupdates.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 926230ea-e8cf-4ecb-980a-88852d033c70
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],OffersWindowsUpdates property, IUpdateService.OffersWindowsUpdates, IUpdateService.get_OffersWindowsUpdates, IUpdateService::OffersWindowsUpdates, IUpdateService::get_OffersWindowsUpdates, OffersWindowsUpdates property [Windows Update Agent], OffersWindowsUpdates property [Windows Update Agent],IUpdateService interface, get_OffersWindowsUpdates, wua.iupdateservice_offerswindowsupdates, wuapi/IUpdateService::OffersWindowsUpdates, wuapi/IUpdateService::get_OffersWindowsUpdates
-f1_keywords:
-- wuapi/IUpdateService.OffersWindowsUpdates
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IUpdateService.OffersWindowsUpdates
-- IUpdateService.get_OffersWindowsUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUpdateService::get_OffersWindowsUpdates
+ - wuapi/IUpdateService::get_OffersWindowsUpdates
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IUpdateService.OffersWindowsUpdates
+ - IUpdateService.get_OffersWindowsUpdates
 ---
 
 # IUpdateService::get_OffersWindowsUpdates
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a Boolean value indicates whether the current service offers updates from Windows Updates.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

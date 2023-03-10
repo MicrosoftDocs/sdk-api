@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2Data.get_TotalSectorsOnMedia
 title: IDiscFormat2Data::get_TotalSectorsOnMedia (imapi2.h)
 description: Retrieves the number of sectors on the media in the device.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_TotalSectorsOnMedia method","IDiscFormat2Data.get_TotalSectorsOnMedia","IDiscFormat2Data::get_TotalSectorsOnMedia","get_TotalSectorsOnMedia","get_TotalSectorsOnMedia method [IMAPI]","get_TotalSectorsOnMedia method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_totalsectorsonmedia","imapi2/IDiscFormat2Data::get_TotalSectorsOnMedia"]
 old-location: imapi\idiscformat2data_get_totalsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 9ad23657-36db-4edd-841d-eecb591209f5
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_TotalSectorsOnMedia method, IDiscFormat2Data.get_TotalSectorsOnMedia, IDiscFormat2Data::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_totalsectorsonmedia, imapi2/IDiscFormat2Data::get_TotalSectorsOnMedia
-f1_keywords:
-- imapi2/IDiscFormat2Data.get_TotalSectorsOnMedia
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2Data.get_TotalSectorsOnMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2Data::get_TotalSectorsOnMedia
+ - imapi2/IDiscFormat2Data::get_TotalSectorsOnMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2Data.get_TotalSectorsOnMedia
 ---
 
 # IDiscFormat2Data::get_TotalSectorsOnMedia
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the number of sectors on the media in the device.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Number of sectors on the media in the device. The number includes free sectors, used sectors, and the boot sector.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,31 +354,15 @@ Value: 0xC0AA0402
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This value does not necessarily reflect the total usable sectors on the media, not even for a blank disc.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_freesectorsonmedia">IDiscFormat2Data::get_FreeSectorsOnMedia</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_freesectorsonmedia">IDiscFormat2Data::get_FreeSectorsOnMedia</a>

@@ -2,15 +2,12 @@
 UID: NF:wmcodecdsp.IWMVideoDecoderHurryup.SetHurryup
 title: IWMVideoDecoderHurryup::SetHurryup (wmcodecdsp.h)
 description: Sets the speed mode of the video decoder.
+helpviewer_keywords: ["IWMVideoDecoderHurryup interface [Media Foundation]","SetHurryup method","IWMVideoDecoderHurryup.SetHurryup","IWMVideoDecoderHurryup::SetHurryup","SetHurryup","SetHurryup method [Media Foundation]","SetHurryup method [Media Foundation]","IWMVideoDecoderHurryup interface","codecapi.iwmvideodecoderhurryupsethurryup","mf.iwmvideodecoderhurryupsethurryup","wmcodecdsp/IWMVideoDecoderHurryup::SetHurryup"]
 old-location: mf\iwmvideodecoderhurryupsethurryup.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ef01d2ab-2525-4caf-87d9-3acdc0b3b1b3
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderHurryup interface [Media Foundation],SetHurryup method, IWMVideoDecoderHurryup.SetHurryup, IWMVideoDecoderHurryup::SetHurryup, SetHurryup, SetHurryup method [Media Foundation], SetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, codecapi.iwmvideodecoderhurryupsethurryup, mf.iwmvideodecoderhurryupsethurryup, wmcodecdsp/IWMVideoDecoderHurryup::SetHurryup
-f1_keywords:
-- wmcodecdsp/IWMVideoDecoderHurryup.SetHurryup
-dev_langs:
-- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmcodecdsp.h
-api_name:
-- IWMVideoDecoderHurryup.SetHurryup
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMVideoDecoderHurryup::SetHurryup
+ - wmcodecdsp/IWMVideoDecoderHurryup::SetHurryup
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmcodecdsp.h
+api_name:
+ - IWMVideoDecoderHurryup.SetHurryup
 ---
 
 # IWMVideoDecoderHurryup::SetHurryup
@@ -48,15 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the speed mode of the video decoder.
 
-
-
 ## -parameters
-
-
-
 
 ### -param lHurryup [in]
 
@@ -101,12 +97,8 @@ The decoder will decode faster than real time. The higher the value, the faster 
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -127,22 +119,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderhurryup-gethurryup">IWMVideoDecoderHurryUp::GetHurryup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmvideodecoderhurryup-gethurryup">IWMVideoDecoderHurryUp::GetHurryup</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderhurryup">IWMVideoDecoderHurryup Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderhurryup">IWMVideoDecoderHurryup Interface</a>

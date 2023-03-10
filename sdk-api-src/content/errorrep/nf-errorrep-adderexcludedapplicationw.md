@@ -1,16 +1,13 @@
 ---
 UID: NF:errorrep.AddERExcludedApplicationW
 title: AddERExcludedApplicationW function (errorrep.h)
-description: Excludes the specified application from error reporting.
+description: Excludes the specified application from error reporting. (Unicode)
+helpviewer_keywords: ["AddERExcludedApplication", "AddERExcludedApplication function [Windows Error Reporting]", "AddERExcludedApplicationW", "_win32_adderexcludedapplication", "base.adderexcludedapplication", "errorrep/AddERExcludedApplication", "errorrep/AddERExcludedApplicationW", "wer.adderexcludedapplication"]
 old-location: wer\adderexcludedapplication.htm
 tech.root: wer
 ms.assetid: 9055437b-2ee2-4f0a-bcef-2b04ac5368b3
 ms.date: 12/05/2018
 ms.keywords: AddERExcludedApplication, AddERExcludedApplication function [Windows Error Reporting], AddERExcludedApplicationA, AddERExcludedApplicationW, _win32_adderexcludedapplication, base.adderexcludedapplication, errorrep/AddERExcludedApplication, errorrep/AddERExcludedApplicationA, errorrep/AddERExcludedApplicationW, wer.adderexcludedapplication
-f1_keywords:
-- errorrep/AddERExcludedApplication
-dev_langs:
-- c++
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows
@@ -28,87 +25,53 @@ req.type-library:
 req.lib: Faultrep.lib
 req.dll: Faultrep.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Faultrep.dll
-api_name:
-- AddERExcludedApplication
-- AddERExcludedApplicationA
-- AddERExcludedApplicationW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AddERExcludedApplicationW
+ - errorrep/AddERExcludedApplicationW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Faultrep.dll
+api_name:
+ - AddERExcludedApplication
+ - AddERExcludedApplicationA
+ - AddERExcludedApplicationW
 ---
-
-# AddERExcludedApplicationW function
-
 
 ## -description
 
-
-<p class="CCE_Message">[The AddERExcludedApplication function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-weraddexcludedapplication">WerAddExcludedApplication</a> function.]
+[The AddERExcludedApplication function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the [WerAddExcludedApplication function](../werapi/nf-werapi-weraddexcludedapplication.md).]
 
 Excludes the specified application from error reporting.
 
-
 ## -parameters
-
-
-
 
 ### -param wszApplication
 
-TBD
-
-
-
-
-#### - szApplication [in]
-
 The name of the executable file for the application, including the file name extension. The name cannot contain path information.
-
 
 ## -returns
 
-
-
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+If the function fails, the return value is zero. To get extended error information, see <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
+This function stores the excluded application list under the **HKEY_LOCAL_MACHINE** hive. The calling process must have permissions to write to this registry hive.
 
-
-This function stores the excluded application list under the <b>HKEY_LOCAL_MACHINE</b> hive. The calling process must have permissions to write to this registry hive.
-
-
-
+> [!NOTE]
+> The errorrep.h header defines AddERExcludedApplication as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/errorrep/nf-errorrep-reportfault">ReportFault</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
- 
-
- 
-
+[ReportFault function](nf-errorrep-reportfault.md), [ER Functions](/windows/desktop/wer/wer-functions), [Windows Error Reporting](/windows/desktop/wer/windows-error-reporting)

@@ -1,16 +1,13 @@
 ---
 UID: NE:tapi3.ACDGROUP_EVENT
 title: ACDGROUP_EVENT (tapi3.h)
-description: The ACDGROUP_EVENT enum describes ACD group events. The ITACDGroupEvent::get_Event method returns a member of this enum to indicate the type of ACD group event that occurred.
+description: The ACDGROUP_EVENT enumeration (tapi3.h) describes ACD group events. 
+helpviewer_keywords: ["ACDGE_GROUP_REMOVED","ACDGE_NEW_GROUP","ACDGROUP_EVENT","ACDGROUP_EVENT enumeration [TAPI 2.2]","_tapi3_acdgroup_event","tapi3.acdgroup_event","tapi3cc/ACDGE_GROUP_REMOVED","tapi3cc/ACDGE_NEW_GROUP","tapi3cc/ACDGROUP_EVENT"]
 old-location: tapi3\acdgroup_event.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: fb3de7e5-5a29-4f7b-8b2a-252536dedae6
-ms.date: 12/05/2018
+ms.date: 08/09/2022
 ms.keywords: ACDGE_GROUP_REMOVED, ACDGE_NEW_GROUP, ACDGROUP_EVENT, ACDGROUP_EVENT enumeration [TAPI 2.2], _tapi3_acdgroup_event, tapi3.acdgroup_event, tapi3cc/ACDGE_GROUP_REMOVED, tapi3cc/ACDGE_NEW_GROUP, tapi3cc/ACDGROUP_EVENT
-f1_keywords:
-- tapi3/ACDGROUP_EVENT
-dev_langs:
-- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- tapi3cc.h
-api_name:
-- ACDGROUP_EVENT
 targetos: Windows
 req.typenames: ACDGROUP_EVENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ACDGROUP_EVENT
+ - tapi3/ACDGROUP_EVENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - tapi3cc.h
+api_name:
+ - ACDGROUP_EVENT
 ---
 
 # ACDGROUP_EVENT enumeration
@@ -48,34 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ACDGROUP_EVENT</b> enum describes ACD group events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD group event that occurred.
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD group event that occurred.
 
 ## -enum-fields
 
-
-
-
-### -field ACDGE_NEW_GROUP
+### -field ACDGE_NEW_GROUP:0
 
 A new ACD group has been added.
-
 
 ### -field ACDGE_GROUP_REMOVED
 
 An ACD group has been removed.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itacdgroupevent-get_event">ITACDGroupEvent::get_Event</a>

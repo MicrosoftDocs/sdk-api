@@ -2,15 +2,12 @@
 UID: NS:wingdi.tagLAYERPLANEDESCRIPTOR
 title: LAYERPLANEDESCRIPTOR (wingdi.h)
 description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.
+helpviewer_keywords: ["*LPLAYERPLANEDESCRIPTOR","*PLAYERPLANEDESCRIPTOR","LAYERPLANEDESCRIPTOR","LAYERPLANEDESCRIPTOR structure [OpenGL]","PLAYERPLANEDESCRIPTOR","PLAYERPLANEDESCRIPTOR structure pointer [OpenGL]","_ogl_LAYERPLANEDESCRIPTOR","opengl.layerplanedescriptor","wingdi/LAYERPLANEDESCRIPTOR","wingdi/PLAYERPLANEDESCRIPTOR"]
 old-location: opengl\layerplanedescriptor.htm
 tech.root: OpenGL
 ms.assetid: fdb0322d-503f-4c17-b438-f764d60da7f6
 ms.date: 12/05/2018
 ms.keywords: '*LPLAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR structure [OpenGL], PLAYERPLANEDESCRIPTOR, PLAYERPLANEDESCRIPTOR structure pointer [OpenGL], _ogl_LAYERPLANEDESCRIPTOR, opengl.layerplanedescriptor, wingdi/LAYERPLANEDESCRIPTOR, wingdi/PLAYERPLANEDESCRIPTOR'
-f1_keywords:
-- wingdi/LAYERPLANEDESCRIPTOR
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wingdi.h
-api_name:
-- LAYERPLANEDESCRIPTOR
 targetos: Windows
 req.typenames: LAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, *LPLAYERPLANEDESCRIPTOR
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagLAYERPLANEDESCRIPTOR
+ - wingdi/tagLAYERPLANEDESCRIPTOR
+ - PLAYERPLANEDESCRIPTOR
+ - wingdi/PLAYERPLANEDESCRIPTOR
+ - LAYERPLANEDESCRIPTOR
+ - wingdi/LAYERPLANEDESCRIPTOR
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wingdi.h
+api_name:
+ - LAYERPLANEDESCRIPTOR
 ---
 
 # LAYERPLANEDESCRIPTOR structure
@@ -48,27 +54,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>LAYERPLANEDESCRIPTOR</b> structure describes the pixel format of a drawing surface.
 
-
-
-
 ## -struct-fields
-
-
-
 
 ### -field nSize
 
 Specifies the size of this data structure. Set this value to <b>sizeof</b>(<b>LAYERPLANEDESCRIPTOR</b>).
 
-
 ### -field nVersion
 
 Specifies the version of this data structure. Set this value to 1.
-
 
 ### -field dwFlags
 
@@ -120,8 +116,6 @@ A set of bit flags that specify properties of the layer plane. The properties ar
 <td>The layer plane shares the accumulation buffer with the main plane.</td>
 </tr>
 </table>
- 
-
 
 ### -field iPixelType
 
@@ -141,103 +135,80 @@ Specifies the type of pixel data. The following types are defined.
 <td>Color-index pixels. Each pixel uses a color-index value.</td>
 </tr>
 </table>
- 
-
 
 ### -field cColorBits
 
 Specifies the number of color bitplanes in each color buffer. For RGBA pixel types, it is the size of the color buffer, excluding the alpha bitplanes. For color-index pixels, it is the size of the color-index buffer.
 
-
 ### -field cRedBits
 
 Specifies the number of red bitplanes in each RGBA color buffer.
-
 
 ### -field cRedShift
 
 Specifies the shift count for red bitplanes in each RGBA color buffer.
 
-
 ### -field cGreenBits
 
 Specifies the number of green bitplanes in each RGBA color buffer.
-
 
 ### -field cGreenShift
 
 Specifies the shift count for green bitplanes in each RGBA color buffer.
 
-
 ### -field cBlueBits
 
 Specifies the number of blue bitplanes in each RGBA color buffer.
-
 
 ### -field cBlueShift
 
 Specifies the shift count for blue bitplanes in each RGBA color buffer.
 
-
 ### -field cAlphaBits
 
 Specifies the number of alpha bitplanes in each RGBA color buffer. Alpha bitplanes are not supported.
-
 
 ### -field cAlphaShift
 
 Specifies the shift count for alpha bitplanes in each RGBA color buffer. Alpha bitplanes are not supported.
 
-
 ### -field cAccumBits
 
 Specifies the total number of bitplanes in the accumulation buffer.
-
 
 ### -field cAccumRedBits
 
 Specifies the number of red bitplanes in the accumulation buffer.
 
-
 ### -field cAccumGreenBits
 
 Specifies the number of green bitplanes in the accumulation buffer.
-
 
 ### -field cAccumBlueBits
 
 Specifies the number of blue bitplanes in the accumulation buffer.
 
-
 ### -field cAccumAlphaBits
 
 Specifies the number of alpha bitplanes in the accumulation buffer.
-
 
 ### -field cDepthBits
 
 Specifies the depth of the depth (z-axis) buffer.
 
-
 ### -field cStencilBits
 
 Specifies the depth of the stencil buffer.
-
 
 ### -field cAuxBuffers
 
 Specifies the number of auxiliary buffers. Auxiliary buffers are not supported.
 
-
 ### -field iLayerPlane
-
- 
-
 
 ### -field bReserved
 
 Not used. Must be zero.
-
 
 ### -field crTransparent
 
@@ -248,55 +219,42 @@ When the LPD_TRANSPARENT flag is set, specifies the transparent color or index v
 
 Specifies the layer plane number. Positive values of <b>iLayerType</b> identify overlay planes, where 1 is the first overlay plane over the main plane, 2 is the second overlay plane over the first overlay plane, and so on. Negative values identify underlay planes, where 1 is the first underlay plane under the main plane, 2 is the second underlay plane under the first underlay plane, and so on. The number of overlay and underlay planes is given in the <b>bReserved</b> member of the <b>PIXELFORMATDESCRIPTOR</b> structure.
 
-
 ## -remarks
-
-
 
 Please notice, as documented above, that certain layer plane properties are not supported in the current implementation. The implementation is the Microsoft GDI software implementation of OpenGL. Hardware manufacturers that enhance parts of OpenGL may support some layer plane properties not supported by the generic implementation.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
+<a href="/windows/desktop/OpenGL/structures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/structures">Structures</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext">wglCreateLayerContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext">wglCreateLayerContext</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wgldescribelayerplane">wglDescribeLayerPlane</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wgldescribelayerplane">wglDescribeLayerPlane</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglgetlayerpaletteentries">wglGetLayerPaletteEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglgetlayerpaletteentries">wglGetLayerPaletteEntries</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglrealizelayerpalette">wglRealizeLayerPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglrealizelayerpalette">wglRealizeLayerPalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglsetlayerpaletteentries">wglSetLayerPaletteEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglsetlayerpaletteentries">wglSetLayerPaletteEntries</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers">wglSwapLayerBuffers</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers">wglSwapLayerBuffers</a>

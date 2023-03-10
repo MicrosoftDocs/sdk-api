@@ -2,15 +2,12 @@
 UID: NC:routprot.PMIB_GET_TRAP_INFO
 title: PMIB_GET_TRAP_INFO (routprot.h)
 description: The MibGetTrapInfo function queries the module that set a trap event for more information about the trap.
+helpviewer_keywords: ["MibGetTrapInfo","MibGetTrapInfo callback function [RAS]","PMIB_GET_TRAP_INFO","PMIB_GET_TRAP_INFO callback","_mpr_mibgettrapinfo","routprot/MibGetTrapInfo","rras.mibgettrapinfo"]
 old-location: rras\mibgettrapinfo.htm
 tech.root: RRAS
 ms.assetid: 2eb77b83-27bb-414b-8fbf-519d5e0cb08a
 ms.date: 12/05/2018
 ms.keywords: MibGetTrapInfo, MibGetTrapInfo callback function [RAS], PMIB_GET_TRAP_INFO, PMIB_GET_TRAP_INFO callback, _mpr_mibgettrapinfo, routprot/MibGetTrapInfo, rras.mibgettrapinfo
-f1_keywords:
-- routprot/MibGetTrapInfo
-dev_langs:
-- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Routprot.h
-api_name:
-- MibGetTrapInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PMIB_GET_TRAP_INFO
+ - routprot/PMIB_GET_TRAP_INFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Routprot.h
+api_name:
+ - MibGetTrapInfo
 ---
 
 # PMIB_GET_TRAP_INFO callback function
@@ -48,40 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>MibGetTrapInfo</b> function queries the module that set a trap event for more information about the trap.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PMIB_GET_TRAP_INFO</a> type defines a pointer to this callback function. <i>MibGetTrapInfo</i> is a placeholder for the application-defined function name.
-
+The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PMIB_GET_TRAP_INFO</a> type defines a pointer to this callback function. <i>MibGetTrapInfo</i> is a placeholder for the application-defined function name.
 
 ## -parameters
-
-
-
 
 ### -param InputDataSize [in]
 
 Specifies a <b>ULONG</b> variable that specifies the size in bytes of the data pointed to by <i>InputData</i>.
 
-
 ### -param InputData [in]
 
 Pointer to the input data.
-
 
 ### -param OutputDataSize [out]
 
 Pointer to a <b>ULONG</b> variable that receives the size in bytes of the data pointed to by * <i>OutputData</i>.
 
-
 ### -param OutputData [out]
 
 Receives the address of a pointer to the output data.
 
-
 ## -returns
-
-
 
 If the functions succeeds, the return value is NO_ERROR
 
@@ -120,17 +111,6 @@ Insufficient resources to complete the operation.
 
 <div> </div>
 
-
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_set_trap_info">MibSetTrapInfo</a>
- 
-
- 
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_set_trap_info">MibSetTrapInfo</a>

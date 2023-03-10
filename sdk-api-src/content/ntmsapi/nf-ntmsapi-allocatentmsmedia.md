@@ -2,15 +2,12 @@
 UID: NF:ntmsapi.AllocateNtmsMedia
 title: AllocateNtmsMedia function (ntmsapi.h)
 description: The AllocateNtmsMedia function allocates a piece of available media.
+helpviewer_keywords: ["AllocateNtmsMedia","AllocateNtmsMedia function [Files]","NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE","NTMS_ALLOCATE_NEW","NTMS_ALLOCATE_NEXT","_zaw_allocatentmsmedia","base.allocatentmsmedia","fs.allocatentmsmedia","ntmsapi/AllocateNtmsMedia"]
 old-location: fs\allocatentmsmedia.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600
 ms.date: 12/05/2018
 ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE, NTMS_ALLOCATE_NEW, NTMS_ALLOCATE_NEXT, _zaw_allocatentmsmedia, base.allocatentmsmedia, fs.allocatentmsmedia, ntmsapi/AllocateNtmsMedia
-f1_keywords:
-- ntmsapi/AllocateNtmsMedia
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- AllocateNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AllocateNtmsMedia
+ - ntmsapi/AllocateNtmsMedia
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - AllocateNtmsMedia
 ---
 
 # AllocateNtmsMedia function
@@ -48,38 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available for use as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available for use as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>AllocateNtmsMedia</b> function allocates a piece of available media.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpMediaPool [in]
 
 Unique identifier of the media pool from which the media is to be allocated. Only application pools may be specified for allocation.
 
-
 ### -param lpPartition [in]
 
 Part identifier of a side to use as a logical media identifier (LMID). The side must be in the Available or Import state. This feature can be used to allocate a particular side or to import media. This parameter is optional.
 
-
 ### -param lpMediaId [out]
 
 LMID of the allocated medium. This parameter is <b>NULL</b> if the medium cannot be allocated.
-
 
 ### -param dwOptions [in]
 
@@ -128,23 +121,17 @@ If all the sides of the medium are already allocated, the allocation request fai
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwTimeout [in]
 
 Maximum time allowed to allocate the specified media, in milliseconds. If this parameter is INFINITE, the function will not time out. If this parameter is zero, it will wait for media. Note that this function does not queue a request for more media if the <i>dwOptions</i> parameter specifies NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE.
 
-
 ### -param lpAllocateInformation [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a> structure that receives the source media pool from which the medium was taken. This parameter can be <b>NULL</b>.
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a> structure that receives the source media pool from which the medium was taken. This parameter can be <b>NULL</b>.
 
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -310,14 +297,8 @@ The time-out event expired before media was available.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>AllocateNtmsMedia</b> function returns an LMID. Depending upon the media pool's policy, if the specified media pool does not contain any online Available media, 
@@ -351,23 +332,14 @@ When an application requires new media containing data, a user or administrator 
 <div class="alert"><b>Note</b>  For two-sided media, the flip side remains in the Import state and is not available for use until imported.</div>
 <div> </div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-deallocatentmsmedia">DeallocateNtmsMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-deallocatentmsmedia">DeallocateNtmsMedia</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_allocation_information">NTMS_ALLOCATION_INFORMATION</a>

@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaEngine.IsSeeking
 title: IMFMediaEngine::IsSeeking (mfmediaengine.h)
 description: Queries whether the Media Engine is currently seeking to a new playback position.
+helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","IsSeeking method","IMFMediaEngine.IsSeeking","IMFMediaEngine::IsSeeking","IsSeeking","IsSeeking method [Media Foundation]","IsSeeking method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_isseeking","mfmediaengine/IMFMediaEngine::IsSeeking"]
 old-location: mf\imfmediaengine_isseeking.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: B314D5E7-EBD4-42CF-9E86-206ABC3027A0
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsSeeking method, IMFMediaEngine.IsSeeking, IMFMediaEngine::IsSeeking, IsSeeking, IsSeeking method [Media Foundation], IsSeeking method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isseeking, mfmediaengine/IMFMediaEngine::IsSeeking
-f1_keywords:
-- mfmediaengine/IMFMediaEngine.IsSeeking
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngine.IsSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngine::IsSeeking
+ - mfmediaengine/IMFMediaEngine::IsSeeking
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngine.IsSeeking
 ---
 
 # IMFMediaEngine::IsSeeking
@@ -48,42 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Queries whether the Media Engine is currently seeking to a new playback position.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if the Media Engine is seeking, or <b>FALSE</b> otherwise.
-
-
-
 
 ## -remarks
 
-
-
 This method corresponds to the <b>seeking</b> attribute of the <b>HTMLMediaElement</b> interface in HTML5.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>

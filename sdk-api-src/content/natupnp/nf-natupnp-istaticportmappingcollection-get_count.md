@@ -2,15 +2,12 @@
 UID: NF:natupnp.IStaticPortMappingCollection.get_Count
 title: IStaticPortMappingCollection::get_Count (natupnp.h)
 description: The get_Count method retrieves the number of port mappings in the collection.
+helpviewer_keywords: ["IStaticPortMappingCollection interface [ICS/ICF]","get_Count method","IStaticPortMappingCollection.get_Count","IStaticPortMappingCollection::get_Count","_ics_istaticportmappingcollection_get_count","get_Count","get_Count method [ICS/ICF]","get_Count method [ICS/ICF]","IStaticPortMappingCollection interface","ics.istaticportmappingcollection_get_count","natupnp/IStaticPortMappingCollection::get_Count"]
 old-location: ics\istaticportmappingcollection_get_count.htm
 tech.root: ics
 ms.assetid: 8ececd98-a700-4d64-8f89-a1ec36597edf
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Count method, IStaticPortMappingCollection.get_Count, IStaticPortMappingCollection::get_Count, _ics_istaticportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_count, natupnp/IStaticPortMappingCollection::get_Count
-f1_keywords:
-- natupnp/IStaticPortMappingCollection.get_Count
-dev_langs:
-- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Hnetcfg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Hnetcfg.dll
-api_name:
-- IStaticPortMappingCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IStaticPortMappingCollection::get_Count
+ - natupnp/IStaticPortMappingCollection::get_Count
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Hnetcfg.dll
+api_name:
+ - IStaticPortMappingCollection.get_Count
 ---
 
 # IStaticPortMappingCollection::get_Count
@@ -48,24 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>get_Count</b> method retrieves the number of port mappings in the collection.
 
-
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 Pointer to a <b>long</b> variable that receives the number of port mappings in the collection.
 
-
 ## -returns
-
-
 
 If the method succeeds the return value is S_OK.
 
@@ -165,30 +159,19 @@ The method failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inatnumberofentriescallback-newnumberofentries">INATNumberOfEntriesCallback::NewNumberOfEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inatnumberofentriescallback-newnumberofentries">INATNumberOfEntriesCallback::NewNumberOfEntries</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-istaticportmappingcollection">IStaticPortMappingCollection</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

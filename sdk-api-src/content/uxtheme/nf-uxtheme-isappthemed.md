@@ -2,15 +2,12 @@
 UID: NF:uxtheme.IsAppThemed
 title: IsAppThemed function (uxtheme.h)
 description: Reports whether the current application's user interface displays using visual styles.
+helpviewer_keywords: ["IsAppThemed","IsAppThemed function [Windows Controls]","controls.IsAppThemed","controls.inet_IsAppThemed","inet_IsAppThemed","inet_IsAppThemed_cpp","uxtheme/IsAppThemed"]
 old-location: controls\IsAppThemed.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isappthemed.htm
 ms.date: 12/05/2018
 ms.keywords: IsAppThemed, IsAppThemed function [Windows Controls], controls.IsAppThemed, controls.inet_IsAppThemed, inet_IsAppThemed, inet_IsAppThemed_cpp, uxtheme/IsAppThemed
-f1_keywords:
-- uxtheme/IsAppThemed
-dev_langs:
-- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- UxTheme.dll
-- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
-- xamlpalwp.dll
-- ext-ms-win-uxtheme-themes-l1-1-1.dll
-api_name:
-- IsAppThemed
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IsAppThemed
+ - uxtheme/IsAppThemed
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - UxTheme.dll
+ - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+ - xamlpalwp.dll
+ - ext-ms-win-uxtheme-themes-l1-1-1.dll
+api_name:
+ - IsAppThemed
 ---
 
 # IsAppThemed function
@@ -51,22 +53,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Reports whether the current application's user interface displays using visual styles.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns one of the following values.
 
@@ -98,21 +91,12 @@ The application does not have a visual style applied.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Prior to Windows 8, a visual style can be turned off in Control Panel, so that an application can support visual styles but not have a visual style applied at a given time.
 
  In Windows 8, it is not possible to turn off visual styles.
 
 
-Do not call this function during <a href="https://docs.microsoft.com/windows/desktop/Dlls/dllmain">DllMain</a> or global objects contructors. This may cause invalid return values.
-
-
-
+Do not call this function during <a href="/windows/desktop/Dlls/dllmain">DllMain</a> or global objects constructors. This may cause invalid return values.

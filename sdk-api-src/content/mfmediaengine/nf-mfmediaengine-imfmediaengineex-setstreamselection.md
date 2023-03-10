@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetStreamSelection
 title: IMFMediaEngineEx::SetStreamSelection (mfmediaengine.h)
 description: Selects or deselects a stream for playback.
+helpviewer_keywords: ["FALSE","IMFMediaEngineEx interface [Media Foundation]","SetStreamSelection method","IMFMediaEngineEx.SetStreamSelection","IMFMediaEngineEx::SetStreamSelection","SetStreamSelection","SetStreamSelection method [Media Foundation]","SetStreamSelection method [Media Foundation]","IMFMediaEngineEx interface","TRUE","mf.imfmediaengineex_setstreamselection","mfmediaengine/IMFMediaEngineEx::SetStreamSelection"]
 old-location: mf\imfmediaengineex_setstreamselection.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 12F0FDD0-0D8C-496D-B5C4-3FBCBCAAC6FB
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFMediaEngineEx interface [Media Foundation],SetStreamSelection method, IMFMediaEngineEx.SetStreamSelection, IMFMediaEngineEx::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFMediaEngineEx interface, TRUE, mf.imfmediaengineex_setstreamselection, mfmediaengine/IMFMediaEngineEx::SetStreamSelection
-f1_keywords:
-- mfmediaengine/IMFMediaEngineEx.SetStreamSelection
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaEngineEx.SetStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaEngineEx::SetStreamSelection
+ - mfmediaengine/IMFMediaEngineEx::SetStreamSelection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaEngineEx.SetStreamSelection
 ---
 
 # IMFMediaEngineEx::SetStreamSelection
@@ -48,21 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Selects or deselects a stream for playback.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param dwStreamIndex [in]
 
-The zero-based index of the stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getnumberofstreams">IMFMediaEngineEx::GetNumberOfStreams</a>.
-
+The zero-based index of the stream. To get the number of streams, call <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-getnumberofstreams">IMFMediaEngineEx::GetNumberOfStreams</a>.
 
 ### -param Enabled [in]
 
@@ -94,25 +88,11 @@ The stream is not selected. During playback, this stream will not play.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>

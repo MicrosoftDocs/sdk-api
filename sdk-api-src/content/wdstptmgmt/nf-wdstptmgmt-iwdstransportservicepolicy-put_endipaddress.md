@@ -1,16 +1,13 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_EndIpAddress
 title: IWdsTransportServicePolicy::put_EndIpAddress (wdstptmgmt.h)
-description: Enables a WDS client computer to configure the end of a multicast IP address range for a specified type of IP address.
+description: Enables a WDS client computer to configure the end of a multicast IP address range for a specified type of IP address. (Put)
+helpviewer_keywords: ["EndIpAddress property [Windows Deployment Services]","EndIpAddress property [Windows Deployment Services]","IWdsTransportServicePolicy interface","IWdsTransportServicePolicy interface [Windows Deployment Services]","EndIpAddress property","IWdsTransportServicePolicy.EndIpAddress","IWdsTransportServicePolicy.put_EndIpAddress","IWdsTransportServicePolicy::EndIpAddress","IWdsTransportServicePolicy::get_EndIpAddress","IWdsTransportServicePolicy::put_EndIpAddress","put_EndIpAddress","wds.iwdstransportservicepolicy_endipaddress","wdstptmgmt/IWdsTransportServicePolicy::EndIpAddress","wdstptmgmt/IWdsTransportServicePolicy::get_EndIpAddress","wdstptmgmt/IWdsTransportServicePolicy::put_EndIpAddress"]
 old-location: wds\iwdstransportservicepolicy_endipaddress.htm
 tech.root: wds
 ms.assetid: 9900acb3-a66b-4279-becc-6ad1a040d534
 ms.date: 12/05/2018
 ms.keywords: EndIpAddress property [Windows Deployment Services], EndIpAddress property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndIpAddress property, IWdsTransportServicePolicy.EndIpAddress, IWdsTransportServicePolicy.put_EndIpAddress, IWdsTransportServicePolicy::EndIpAddress, IWdsTransportServicePolicy::get_EndIpAddress, IWdsTransportServicePolicy::put_EndIpAddress, put_EndIpAddress, wds.iwdstransportservicepolicy_endipaddress, wdstptmgmt/IWdsTransportServicePolicy::EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::get_EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::put_EndIpAddress
-f1_keywords:
-- wdstptmgmt/IWdsTransportServicePolicy.EndIpAddress
-dev_langs:
-- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library: Wdstptmgmt.tlb
 req.lib: 
 req.dll: Wdstptmgmt.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wdstptmgmt.dll
-api_name:
-- IWdsTransportServicePolicy.EndIpAddress
-- IWdsTransportServicePolicy.get_EndIpAddress
-- IWdsTransportServicePolicy.put_EndIpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWdsTransportServicePolicy::put_EndIpAddress
+ - wdstptmgmt/IWdsTransportServicePolicy::put_EndIpAddress
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wdstptmgmt.dll
+api_name:
+ - IWdsTransportServicePolicy.EndIpAddress
+ - IWdsTransportServicePolicy.get_EndIpAddress
+ - IWdsTransportServicePolicy.put_EndIpAddress
 ---
 
 # IWdsTransportServicePolicy::put_EndIpAddress
@@ -50,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enables a WDS client computer to configure the end of a multicast IP address range for a specified type of IP address. 
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-When setting the end IP address, this property validates that it is a valid multicast IP address for the specified type of IP address. 
-
-
-
+When setting the end IP address, this property validates that it is a valid multicast IP address for the specified type of IP address.
 
 ## -see-also
 
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
- 
-
- 
-
+<a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>

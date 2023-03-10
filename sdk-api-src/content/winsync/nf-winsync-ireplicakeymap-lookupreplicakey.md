@@ -2,15 +2,12 @@
 UID: NF:winsync.IReplicaKeyMap.LookupReplicaKey
 title: IReplicaKeyMap::LookupReplicaKey (winsync.h)
 description: Gets the replica key that corresponds to the specified replica ID.
+helpviewer_keywords: ["IReplicaKeyMap interface [Windows Sync]","LookupReplicaKey method","IReplicaKeyMap.LookupReplicaKey","IReplicaKeyMap::LookupReplicaKey","LookupReplicaKey","LookupReplicaKey method [Windows Sync]","LookupReplicaKey method [Windows Sync]","IReplicaKeyMap interface","winsync.ireplicakeymap_lookupreplicakey","winsync/IReplicaKeyMap::LookupReplicaKey"]
 old-location: winsync\ireplicakeymap_lookupreplicakey.htm
 tech.root: winsync
 ms.assetid: 92bae64f-67a5-4029-9d24-eee92a3fc55f
 ms.date: 12/05/2018
 ms.keywords: IReplicaKeyMap interface [Windows Sync],LookupReplicaKey method, IReplicaKeyMap.LookupReplicaKey, IReplicaKeyMap::LookupReplicaKey, LookupReplicaKey, LookupReplicaKey method [Windows Sync], LookupReplicaKey method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_lookupreplicakey, winsync/IReplicaKeyMap::LookupReplicaKey
-f1_keywords:
-- winsync/IReplicaKeyMap.LookupReplicaKey
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- IReplicaKeyMap.LookupReplicaKey
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IReplicaKeyMap::LookupReplicaKey
+ - winsync/IReplicaKeyMap::LookupReplicaKey
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - IReplicaKeyMap.LookupReplicaKey
 ---
 
 # IReplicaKeyMap::LookupReplicaKey
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the replica key that corresponds to the specified replica ID.
 
-
 ## -parameters
-
-
-
 
 ### -param pbReplicaId [in]
 
 The replica ID to look up.
 
-
 ### -param pdwReplicaKey [out]
 
 Returns the replica key that corresponds to <i>pbReplicaId</i>.
 
-
 ## -returns
-
-
 
 The possible return codes include, but are not limited to, the values shown in the following table.
 
@@ -121,18 +114,7 @@ When <i>pbReplicaId</i> is not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>

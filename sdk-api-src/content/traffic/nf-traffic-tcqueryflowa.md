@@ -1,16 +1,13 @@
 ---
 UID: NF:traffic.TcQueryFlowA
 title: TcQueryFlowA function (traffic.h)
-description: The TcQueryFlow function queries traffic control for the value of a specific flow parameter based on the name of the flow. The name of a flow can be retrieved from the TcEnumerateFlows function or from the TcGetFlowName function.
+description: The TcQueryFlow function queries traffic control for the value of a specific flow parameter based on the name of the flow. The name of a flow can be retrieved from the TcEnumerateFlows function or from the TcGetFlowName function. (ANSI)
+helpviewer_keywords: ["TcQueryFlowA", "traffic/TcQueryFlowA"]
 old-location: qos\tcqueryflow.htm
 tech.root: QOS
 ms.assetid: 3662fdac-9d8c-4e8d-a56e-2b34d9597211
 ms.date: 12/05/2018
 ms.keywords: TcQueryFlow, TcQueryFlow function [QOS], TcQueryFlowA, TcQueryFlowW, _gqos_tcqueryflow, qos.tcqueryflow, traffic/TcQueryFlow, traffic/TcQueryFlowA, traffic/TcQueryFlowW
-f1_keywords:
-- traffic/TcQueryFlow
-dev_langs:
-- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: Traffic.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Traffic.dll
-api_name:
-- TcQueryFlow
-- TcQueryFlowA
-- TcQueryFlowW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TcQueryFlowA
+ - traffic/TcQueryFlowA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Traffic.dll
+api_name:
+ - TcQueryFlow
+ - TcQueryFlowA
+ - TcQueryFlowW
 ---
 
 # TcQueryFlowA function
@@ -50,42 +52,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>TcQueryFlow</b> function queries traffic control for the value of a specific flow parameter based on the name of the flow. The name of a flow can be retrieved from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a> function or from the 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a> function.
 
 ## -parameters
-
-
-
 
 ### -param pFlowName [in]
 
 Name of the flow being queried.
 
-
 ### -param pGuidParam [in]
 
 Pointer to the globally unique identifier (GUID) that corresponds to the flow parameter of interest. A list of traffic control's GUIDs can be found in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>.
-
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>.
 
 ### -param pBufferSize [in, out]
 
 Pointer to the size of the client-provided buffer or the number of bytes used by traffic control. For input, points to the size of <i>Buffer</i>, in bytes. For output, points to the actual amount of buffer space written with returned flow-parameter data, in bytes.
 
-
 ### -param Buffer [out]
 
 Pointer to the client-provided buffer in which the returned flow parameter is written.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -159,14 +150,8 @@ The instance name was not found, likely because the flow or the interface is in 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 Use of the 
 <b>TcQueryFlow</b> function requires administrative privilege.
@@ -174,21 +159,18 @@ Use of the
 
 
 
+
+> [!NOTE]
+> The traffic.h header defines TcQueryFlow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/qos/guid">GUID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/guid">GUID</a>
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a>

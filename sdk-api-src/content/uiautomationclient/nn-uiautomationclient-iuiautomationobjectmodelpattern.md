@@ -1,16 +1,13 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationObjectModelPattern
 title: IUIAutomationObjectModelPattern (uiautomationclient.h)
-description: Provides access to the underlying object model implemented by a control or application.
+description: Provides access to the underlying object model implemented by a control or application. (IUIAutomationObjectModelPattern)
+helpviewer_keywords: ["IUIAutomationObjectModelPattern","IUIAutomationObjectModelPattern interface [Windows Accessibility]","IUIAutomationObjectModelPattern interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationObjectModelPattern","winauto.uiauto_IUIAutomationObjectModelPattern"]
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern.htm
 tech.root: WinAuto
 ms.assetid: 044A1EE7-4CBD-45E3-A1A8-CA00DC03E136
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationObjectModelPattern, IUIAutomationObjectModelPattern interface [Windows Accessibility], IUIAutomationObjectModelPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationObjectModelPattern, winauto.uiauto_IUIAutomationObjectModelPattern
-f1_keywords:
-- uiautomationclient/IUIAutomationObjectModelPattern
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: UIAutomationCore.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationCore.dll
-api_name:
-- IUIAutomationObjectModelPattern
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationObjectModelPattern
+ - uiautomationclient/IUIAutomationObjectModelPattern
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationCore.dll
+api_name:
+ - IUIAutomationObjectModelPattern
 ---
 
 # IUIAutomationObjectModelPattern interface
@@ -48,44 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
-Provides access to the underlying object model implemented by a control or application. 
-
+Provides access to the underlying object model implemented by a control or application.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationObjectModelPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationObjectModelPattern</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IUIAutomationObjectModelPattern</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationobjectmodelpattern-getunderlyingobjectmodel">GetUnderlyingObjectModel</a>
-</td>
-<td align="left" width="63%">
-Retrieves an interface used to access the underlying object model of the provider.
-
-</td>
-</tr>
-</table> 
-
+The <b>IUIAutomationObjectModelPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationObjectModelPattern</b> also has these types of members:
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
- 
-
- 
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:tapi3if.IEnumStream.Reset
 title: IEnumStream::Reset (tapi3if.h)
-description: The Reset method resets to the beginning of the enumeration sequence.
+description: The Reset method resets to the beginning of the enumeration sequence. (IEnumStream.Reset)
+helpviewer_keywords: ["IEnumStream interface [TAPI 2.2]","Reset method","IEnumStream.Reset","IEnumStream::Reset","Reset","Reset method [TAPI 2.2]","Reset method [TAPI 2.2]","IEnumStream interface","_tapi3_ienumstream_reset","tapi3.ienumstream_reset","tapi3if/IEnumStream::Reset"]
 old-location: tapi3\ienumstream_reset.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: 264b155c-4881-4170-bdc2-035b71d00f21
 ms.date: 12/05/2018
 ms.keywords: IEnumStream interface [TAPI 2.2],Reset method, IEnumStream.Reset, IEnumStream::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumStream interface, _tapi3_ienumstream_reset, tapi3.ienumstream_reset, tapi3if/IEnumStream::Reset
-f1_keywords:
-- tapi3if/IEnumStream.Reset
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- tapi3if.h
-api_name:
-- IEnumStream.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumStream::Reset
+ - tapi3if/IEnumStream::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - tapi3if.h
+api_name:
+ - IEnumStream.Reset
 ---
 
 # IEnumStream::Reset
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Reset</b> method resets to the beginning of the enumeration sequence.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -94,26 +87,15 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream">IEnumStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream">IEnumStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
- 
-
- 
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

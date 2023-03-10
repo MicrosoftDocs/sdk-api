@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxPackageEditor.UpdateEncryptedPackage
 title: IAppxPackageEditor::UpdateEncryptedPackage (appxpackaging.h)
 description: Updates an encrypted app package.
+helpviewer_keywords: ["IAppxPackageEditor interface [App packaging and management]","UpdateEncryptedPackage method","IAppxPackageEditor.UpdateEncryptedPackage","IAppxPackageEditor::UpdateEncryptedPackage","UpdateEncryptedPackage","UpdateEncryptedPackage method [App packaging and management]","UpdateEncryptedPackage method [App packaging and management]","IAppxPackageEditor interface","appxpackaging/IAppxPackageEditor::UpdateEncryptedPackage","appxpkg.iappxpackageeditor_updateencryptedpackage"]
 old-location: appxpkg\iappxpackageeditor_updateencryptedpackage.htm
 tech.root: appxpkg
 ms.assetid: 4D5E2F4B-00CE-4A0A-A514-3B66EC3065ED
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor interface [App packaging and management],UpdateEncryptedPackage method, IAppxPackageEditor.UpdateEncryptedPackage, IAppxPackageEditor::UpdateEncryptedPackage, UpdateEncryptedPackage, UpdateEncryptedPackage method [App packaging and management], UpdateEncryptedPackage method [App packaging and management],IAppxPackageEditor interface, appxpackaging/IAppxPackageEditor::UpdateEncryptedPackage, appxpkg.iappxpackageeditor_updateencryptedpackage
-f1_keywords:
-- appxpackaging/IAppxPackageEditor.UpdateEncryptedPackage
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxPackageEditor.UpdateEncryptedPackage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxPackageEditor::UpdateEncryptedPackage
+ - appxpackaging/IAppxPackageEditor::UpdateEncryptedPackage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxPackageEditor.UpdateEncryptedPackage
 ---
 
 # IAppxPackageEditor::UpdateEncryptedPackage
@@ -48,56 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Updates an encrypted app package.
-
 
 ## -parameters
 
-
-
-
 ### -param baselineEncryptedPackageStream [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the baseline encrypted app package.
-
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the baseline encrypted app package.
 
 ### -param deltaPackageStream [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the delta (difference) app package.
-
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the delta (difference) app package.
 
 ### -param updateOption [in]
 
 The update options.
 
-
 ### -param settings [in]
 
 The encrypted app package settings.
-
 
 ### -param keyInfo [in]
 
 App package key information.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackageeditor">IAppxPackageEditor</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackageeditor">IAppxPackageEditor</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:pdh.PdhUpdateLogA
 title: PdhUpdateLogA function (pdh.h)
-description: Collects counter data for the current query and writes the data to the log file.
+description: Collects counter data for the current query and writes the data to the log file. (ANSI)
+helpviewer_keywords: ["PdhUpdateLogA", "pdh/PdhUpdateLogA"]
 old-location: perf\pdhupdatelog.htm
-tech.root: perfctrs
+tech.root: perf
 ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3
 ms.date: 12/05/2018
 ms.keywords: PdhUpdateLog, PdhUpdateLog function [Perf], PdhUpdateLogA, PdhUpdateLogW, _win32_pdhupdatelog, base.pdhupdatelog, pdh/PdhUpdateLog, pdh/PdhUpdateLogA, pdh/PdhUpdateLogW, perf.pdhupdatelog
-f1_keywords:
-- pdh/PdhUpdateLog
-dev_langs:
-- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Pdh.dll
-api_name:
-- PdhUpdateLog
-- PdhUpdateLogA
-- PdhUpdateLogW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PdhUpdateLogA
+ - pdh/PdhUpdateLogA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Pdh.dll
+api_name:
+ - PdhUpdateLog
+ - PdhUpdateLogA
+ - PdhUpdateLogW
 ---
 
 # PdhUpdateLogA function
@@ -50,37 +52,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 Collects counter data for the current query and writes the data to the log file.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param hLog [in]
 
 Handle of a single log file to update. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function returns this handle.
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> function returns this handle.
 
 ### -param szUserString [in]
 
 Null-terminated string that contains a user-defined comment to add to the data record. The string can not be empty.
 
-
 ## -returns
-
-
 
 If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -110,14 +102,8 @@ An empty string was passed in the <i>szUserString</i> parameter.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If you are updating a log file from another log file, the comments from the other log file do not migrate.
 
@@ -125,31 +111,28 @@ If you are updating a log file from another log file, the comments from the othe
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/writing-performance-data-to-a-log-file">Writing Performance Data to a Log File</a>.
+<a href="/windows/desktop/PerfCtrs/writing-performance-data-to-a-log-file">Writing Performance Data to a Log File</a>.
 
 <div class="code"></div>
 
 
 
+
+> [!NOTE]
+> The pdh.h header defines PdhUpdateLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetlogfilesize">PdhGetLogFileSize</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenquerya">PdhOpenQuery</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>
- 
-
- 
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhupdatelogfilecatalog">PdhUpdateLogFileCatalog</a>

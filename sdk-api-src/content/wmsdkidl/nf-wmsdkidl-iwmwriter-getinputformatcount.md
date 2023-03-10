@@ -2,15 +2,12 @@
 UID: NF:wmsdkidl.IWMWriter.GetInputFormatCount
 title: IWMWriter::GetInputFormatCount (wmsdkidl.h)
 description: The GetInputFormatCount method retrieves the number of media format types supported by this input on the writer.
+helpviewer_keywords: ["GetInputFormatCount","GetInputFormatCount method [windows Media Format]","GetInputFormatCount method [windows Media Format]","IWMWriter interface","IWMWriter interface [windows Media Format]","GetInputFormatCount method","IWMWriter.GetInputFormatCount","IWMWriter::GetInputFormatCount","IWMWriterGetInputFormatCount","wmformat.iwmwriter_getinputformatcount","wmsdkidl/IWMWriter::GetInputFormatCount"]
 old-location: wmformat\iwmwriter_getinputformatcount.htm
 tech.root: wmformat
 ms.assetid: c3afe9e8-e045-4329-b3e5-6026147322ad
 ms.date: 12/05/2018
 ms.keywords: GetInputFormatCount, GetInputFormatCount method [windows Media Format], GetInputFormatCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputFormatCount method, IWMWriter.GetInputFormatCount, IWMWriter::GetInputFormatCount, IWMWriterGetInputFormatCount, wmformat.iwmwriter_getinputformatcount, wmsdkidl/IWMWriter::GetInputFormatCount
-f1_keywords:
-- wmsdkidl/IWMWriter.GetInputFormatCount
-dev_langs:
-- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wmvcore.lib
-- Wmvcore.dll
-- WMStubDRM.lib
-- WMStubDRM.dll
-api_name:
-- IWMWriter.GetInputFormatCount
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMWriter::GetInputFormatCount
+ - wmsdkidl/IWMWriter::GetInputFormatCount
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wmvcore.lib
+ - Wmvcore.dll
+ - WMStubDRM.lib
+ - WMStubDRM.dll
+api_name:
+ - IWMWriter.GetInputFormatCount
 ---
 
 # IWMWriter::GetInputFormatCount
@@ -51,31 +53,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>GetInputFormatCount</b> method retrieves the number of media format types supported by this input on the writer.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param dwInputNumber [in]
 
 <b>DWORD</b> containing the input number.
 
-
 ### -param pcFormats [out]
 
 Pointer to a count of formats.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -111,26 +101,15 @@ OR
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat">IWMWriter::GetInputFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformat">IWMWriter::GetInputFormat</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>
- 
-
- 
-
+<a href="/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>

@@ -2,15 +2,12 @@
 UID: NN:strmif.IQualityControl
 title: IQualityControl (strmif.h)
 description: The IQualityControl interface provides support for quality control.
+helpviewer_keywords: ["IQualityControl","IQualityControl interface [DirectShow]","IQualityControl interface [DirectShow]","described","IQualityControlInterface","dshow.iqualitycontrol","strmif/IQualityControl"]
 old-location: dshow\iqualitycontrol.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 2672e563-75d7-4a8a-b914-7b0712e856e8
 ms.date: 12/05/2018
 ms.keywords: IQualityControl, IQualityControl interface [DirectShow], IQualityControl interface [DirectShow],described, IQualityControlInterface, dshow.iqualitycontrol, strmif/IQualityControl
-f1_keywords:
-- strmif/IQualityControl
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IQualityControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IQualityControl
+ - strmif/IQualityControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IQualityControl
 ---
 
 # IQualityControl interface
@@ -49,52 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>IQualityControl</code> interface provides support for quality control. An object exposes this interface if it can generate or receive quality-control messages. This includes renderer filters (which typically generate quality control messages), pins (which receive them), and external quality managers (which also receive them).
 
-A renderer filter generates a quality-control message by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-notify">IQualityControl::Notify</a> method on the output pin of the upstream filter. The upstream filter either handles the message or passes it upstream.
+A renderer filter generates a quality-control message by calling the <a href="/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-notify">IQualityControl::Notify</a> method on the output pin of the upstream filter. The upstream filter either handles the message or passes it upstream.
 
-An application can implement its own quality-control manager. Call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-setsink">IQualityControl::SetSink</a> on the renderer to designate the quality-control manager as the recipient for quality-control messages. Calling this method overrides the default handling of quality-control messages.
+An application can implement its own quality-control manager. Call <a href="/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-setsink">IQualityControl::SetSink</a> on the renderer to designate the quality-control manager as the recipient for quality-control messages. Calling this method overrides the default handling of quality-control messages.
 
-However, most applications will not implement their own quality-control managers; and aside from this special case, applications typically do not use this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/quality-control-management">Quality-Control Management</a>
-
-
-
-
+However, most applications will not implement their own quality-control managers; and aside from this special case, applications typically do not use this interface. For more information, see <a href="/windows/desktop/DirectShow/quality-control-management">Quality-Control Management</a>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQualityControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualityControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IQualityControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-notify">Notify</a>
-</td>
-<td align="left" width="63%">
-Notifies the recipient that a quality change is requested.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iqualitycontrol-setsink">SetSink</a>
-</td>
-<td align="left" width="63%">
-Sets the <code>IQualityControl</code> object that will receive quality messages.
-
-</td>
-</tr>
-</table> 
+The <b>IQualityControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQualityControl</b> also has these types of members:
 

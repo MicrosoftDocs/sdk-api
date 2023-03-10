@@ -1,16 +1,13 @@
 ---
 UID: NS:ws2ipdef.sockaddr_in6_w2ksp1
 title: SOCKADDR_IN6_W2KSP1 (ws2ipdef.h)
-description: The SOCKADDR_IN6 structure specifies a transport address and port for the AF_INET6 address family.
+description: The SOCKADDR_IN6_W2KSP1 (ws2ipdef.h) structure specifies a transport address and port for the AF_INET6 address family.
+helpviewer_keywords: ["*LPSOCKADDR_IN6","*LPSOCKADDR_IN6_W2KSP1","*PSOCKADDR_IN6","*PSOCKADDR_IN6_W2KSP1","PSOCKADDR_IN6","PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6","SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista]","SOCKADDR_IN6_W2KSP1","netvista.sockaddr_in6","ws2ipdef/PSOCKADDR_IN6","ws2ipdef/SOCKADDR_IN6","wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml"]
 old-location: netvista\sockaddr_in6.htm
 tech.root: NetVista
 ms.assetid: ef2955d2-5dc1-420b-a9e0-32a584059d5a
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPSOCKADDR_IN6, *LPSOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6, *PSOCKADDR_IN6_W2KSP1, PSOCKADDR_IN6, PSOCKADDR_IN6 structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_IN6, SOCKADDR_IN6 structure [Network Drivers Starting with Windows Vista], SOCKADDR_IN6_W2KSP1, netvista.sockaddr_in6, ws2ipdef/PSOCKADDR_IN6, ws2ipdef/SOCKADDR_IN6, wskref_7e70684f-ef0d-45c5-8075-3e9b6fa87337.xml'
-f1_keywords:
-- ws2ipdef/SOCKADDR_IN6
-dev_langs:
-- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2ipdef.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2ipdef.h
-api_name:
-- SOCKADDR_IN6
 targetos: Windows
 req.typenames: SOCKADDR_IN6_W2KSP1, *PSOCKADDR_IN6_W2KSP1, *LPSOCKADDR_IN6_W2KSP1
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - sockaddr_in6_w2ksp1
+ - ws2ipdef/sockaddr_in6_w2ksp1
+ - PSOCKADDR_IN6_W2KSP1
+ - ws2ipdef/PSOCKADDR_IN6_W2KSP1
+ - SOCKADDR_IN6_W2KSP1
+ - ws2ipdef/SOCKADDR_IN6_W2KSP1
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2ipdef.h
+api_name:
+ - SOCKADDR_IN6
 ---
 
 # SOCKADDR_IN6_W2KSP1 structure
@@ -48,37 +54,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 The SOCKADDR_IN6 structure specifies a transport address and port for the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a> address family.
-
+  <a href="/windows-hardware/drivers/network/af-inet6">AF_INET6</a> address family.
 
 ## -struct-fields
-
-
-
 
 ### -field sin6_family
 
 The address family for the transport address. This member should always be set to AF_INET6.
 
-
 ### -field sin6_port
 
 A transport protocol port number.
-
 
 ### -field sin6_flowinfo
 
 The IPv6 flow information.
 
-
 ### -field sin6_addr
 
 An 
-     <a href="https://docs.microsoft.com/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a> structure that contains an IPv6 transport
+     <a href="/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a> structure that contains an IPv6 transport
      address.
-
 
 ### -field sin6_scope_id
 
@@ -239,41 +236,28 @@ The zone index that identifies the zone to which the transport address pertains.
 </ul>
 A value of zero specifies the default zone.
 
-
 ## -remarks
-
-
 
 All of the data in the SOCKADDR_IN6 structure, except for the address family, must be specified in
     network-byte-order (big-endian).
 
 The size of the SOCKADDR_IN6 structure is too large to fit in the memory space that is provided by a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure. For a structure that is
+    <a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure. For a structure that is
     guaranteed to be large enough to contain a transport address for all possible address families, see 
-    [SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>.
-
-
-
+    [SOCKADDR_STORAGE](../ws2def/ns-ws2def-sockaddr_storage_lh.md).
 
 ## -see-also
 
+<a href="/windows-hardware/drivers/network/af-inet6">AF_INET6</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/af-inet6">AF_INET6</a>
+<a href="/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/in6addr/ns-in6addr-in6_addr">IN6_ADDR</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
-
-
-
-[SOCKADDR_STORAGE](/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)a>
- 
-
- 
-
+[SOCKADDR_STORAGE](../ws2def/ns-ws2def-sockaddr_storage_lh.md)

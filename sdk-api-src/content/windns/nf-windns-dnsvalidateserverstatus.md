@@ -2,15 +2,12 @@
 UID: NF:windns.DnsValidateServerStatus
 title: DnsValidateServerStatus function (windns.h)
 description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
+helpviewer_keywords: ["DNS_VALSVR_ERROR_INVALID_ADDR","DNS_VALSVR_ERROR_INVALID_NAME","DNS_VALSVR_ERROR_NO_AUTH","DNS_VALSVR_ERROR_NO_RESPONSE","DNS_VALSVR_ERROR_NO_TCP","DNS_VALSVR_ERROR_REFUSED","DNS_VALSVR_ERROR_UNKNOWN","DNS_VALSVR_ERROR_UNREACHABLE","DnsValidateServerStatus","DnsValidateServerStatus function [DNS]","ERROR_SUCCESS","dns.dnsvalidateserverstatus","windns/DnsValidateServerStatus"]
 old-location: dns\dnsvalidateserverstatus.htm
 tech.root: DNS
 ms.assetid: 5b362d05-87b2-44dd-8198-bcb5ab5a64f6
 ms.date: 12/05/2018
 ms.keywords: DNS_VALSVR_ERROR_INVALID_ADDR, DNS_VALSVR_ERROR_INVALID_NAME, DNS_VALSVR_ERROR_NO_AUTH, DNS_VALSVR_ERROR_NO_RESPONSE, DNS_VALSVR_ERROR_NO_TCP, DNS_VALSVR_ERROR_REFUSED, DNS_VALSVR_ERROR_UNKNOWN, DNS_VALSVR_ERROR_UNREACHABLE, DnsValidateServerStatus, DnsValidateServerStatus function [DNS], ERROR_SUCCESS, dns.dnsvalidateserverstatus, windns/DnsValidateServerStatus
-f1_keywords:
-- windns/DnsValidateServerStatus
-dev_langs:
-- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dnsapi.dll
-api_name:
-- DnsValidateServerStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DnsValidateServerStatus
+ - windns/DnsValidateServerStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dnsapi.dll
+api_name:
+ - DnsValidateServerStatus
 ---
 
 # DnsValidateServerStatus function
@@ -48,25 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
-<b>DnsValidateServerStatus</b> function validates an IP address as a suitable DNS server. 
-
+<b>DnsValidateServerStatus</b> function validates an IP address as a suitable DNS server.
 
 ## -parameters
 
-
-
-
 ### -param server [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> that contains the DNS server IPv4 or IPv6  address to be examined.
-
+A pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> that contains the DNS server IPv4 or IPv6  address to be examined.
 
 ### -param queryName [in]
 
                 A pointer to a Unicode string that represents the fully qualified domain name (FQDN) of the owner of the record set that is queried.
-
 
 ### -param serverStatus [out]
 
@@ -168,26 +163,12 @@ An unknown error occurred.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 The 
 <b>DnsValidateServerStatus</b> function has the following possible return values:
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-functions">DNS Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/DNS/dns-functions">DNS Functions</a>

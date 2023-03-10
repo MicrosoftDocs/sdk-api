@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IPackageDebugSettings.StopSessionRedirection
 title: IPackageDebugSettings::StopSessionRedirection (shobjidl_core.h)
 description: Stops redirection of background tasks for the specified package.
+helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","StopSessionRedirection method","IPackageDebugSettings.StopSessionRedirection","IPackageDebugSettings::StopSessionRedirection","StopSessionRedirection","StopSessionRedirection method [Windows Shell]","StopSessionRedirection method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_StopSessionRedirection","shobjidl_core/IPackageDebugSettings::StopSessionRedirection"]
 old-location: shell\IPackageDebugSettings_StopSessionRedirection.htm
 tech.root: shell
 ms.assetid: 6edd4f9a-c9e8-45eb-a86b-a04116530aad
 ms.date: 12/05/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],StopSessionRedirection method, IPackageDebugSettings.StopSessionRedirection, IPackageDebugSettings::StopSessionRedirection, StopSessionRedirection, StopSessionRedirection method [Windows Shell], StopSessionRedirection method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_StopSessionRedirection, shobjidl_core/IPackageDebugSettings::StopSessionRedirection
-f1_keywords:
-- shobjidl_core/IPackageDebugSettings.StopSessionRedirection
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shobjidl_core.h
-api_name:
-- IPackageDebugSettings.StopSessionRedirection
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPackageDebugSettings::StopSessionRedirection
+ - shobjidl_core/IPackageDebugSettings::StopSessionRedirection
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shobjidl_core.h
+api_name:
+ - IPackageDebugSettings.StopSessionRedirection
 ---
 
 # IPackageDebugSettings::StopSessionRedirection
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Stops redirection of background tasks for the specified package.
 
-
 ## -parameters
-
-
-
 
 ### -param packageFullName [in]
 
 The package full name.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startsessionredirection">StartSessionRedirection</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startsessionredirection">StartSessionRedirection</a>

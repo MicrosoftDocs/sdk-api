@@ -2,15 +2,12 @@
 UID: NF:videoacc.IAMVideoAccelerator.QueryRenderStatus
 title: IAMVideoAccelerator::QueryRenderStatus (videoacc.h)
 description: The QueryRenderStatus method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
+helpviewer_keywords: ["AMVA_QUERYRENDERSTATUSF_READ","IAMVideoAccelerator interface [DirectShow]","QueryRenderStatus method","IAMVideoAccelerator.QueryRenderStatus","IAMVideoAccelerator::QueryRenderStatus","IAMVideoAcceleratorQueryRenderStatus","QueryRenderStatus","QueryRenderStatus method [DirectShow]","QueryRenderStatus method [DirectShow]","IAMVideoAccelerator interface","Zero","dshow.iamvideoaccelerator_queryrenderstatus","videoacc/IAMVideoAccelerator::QueryRenderStatus"]
 old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c
 ms.date: 12/05/2018
 ms.keywords: AMVA_QUERYRENDERSTATUSF_READ, IAMVideoAccelerator interface [DirectShow],QueryRenderStatus method, IAMVideoAccelerator.QueryRenderStatus, IAMVideoAccelerator::QueryRenderStatus, IAMVideoAcceleratorQueryRenderStatus, QueryRenderStatus, QueryRenderStatus method [DirectShow], QueryRenderStatus method [DirectShow],IAMVideoAccelerator interface, Zero, dshow.iamvideoaccelerator_queryrenderstatus, videoacc/IAMVideoAccelerator::QueryRenderStatus
-f1_keywords:
-- videoacc/IAMVideoAccelerator.QueryRenderStatus
-dev_langs:
-- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMVideoAccelerator.QueryRenderStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMVideoAccelerator::QueryRenderStatus
+ - videoacc/IAMVideoAccelerator::QueryRenderStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMVideoAccelerator.QueryRenderStatus
 ---
 
 # IAMVideoAccelerator::QueryRenderStatus
@@ -49,15 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>QueryRenderStatus</b> method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param dwTypeIndex [in]
 
@@ -71,7 +67,6 @@ Specifies the type of surface to query:
 ### -param dwBufferIndex [in]
 
 The zero-based index of the surface, within the pool of surfaces that were allocated  for the specified surface type.
-
 
 ### -param dwFlags [in]
 
@@ -103,12 +98,8 @@ Test whether the surface is safe to use for reading.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following:
           
@@ -163,35 +154,19 @@ The pins on the decoder and video renderer filters are not connected.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTED</b>.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/how-decoders-use-iamvideoaccelerator">How Decoders Use IAMVideoAccelerator</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>

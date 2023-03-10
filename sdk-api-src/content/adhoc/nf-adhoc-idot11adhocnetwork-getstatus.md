@@ -2,15 +2,12 @@
 UID: NF:adhoc.IDot11AdHocNetwork.GetStatus
 title: IDot11AdHocNetwork::GetStatus (adhoc.h)
 description: Gets the connection status of the network.
+helpviewer_keywords: ["GetStatus","GetStatus method [NativeWIFI]","GetStatus method [NativeWIFI]","IDot11AdHocNetwork interface","IDot11AdHocNetwork interface [NativeWIFI]","GetStatus method","IDot11AdHocNetwork.GetStatus","IDot11AdHocNetwork::GetStatus","adhoc/IDot11AdHocNetwork::GetStatus","nwifi.idot11adhocnetwork_getstatus"]
 old-location: nwifi\idot11adhocnetwork_getstatus.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: fd627a36-92b7-478b-8fd5-c328b8e54924
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [NativeWIFI], GetStatus method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetStatus method, IDot11AdHocNetwork.GetStatus, IDot11AdHocNetwork::GetStatus, adhoc/IDot11AdHocNetwork::GetStatus, nwifi.idot11adhocnetwork_getstatus
-f1_keywords:
-- adhoc/IDot11AdHocNetwork.GetStatus
-dev_langs:
-- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- adhoc.h
-api_name:
-- IDot11AdHocNetwork.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDot11AdHocNetwork::GetStatus
+ - adhoc/IDot11AdHocNetwork::GetStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - adhoc.h
+api_name:
+ - IDot11AdHocNetwork.GetStatus
 ---
 
 # IDot11AdHocNetwork::GetStatus
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the connection status of the network.
-
 
 ## -parameters
 
-
-
-
 ### -param eStatus [in, out]
 
-A pointer to a  <a href="https://docs.microsoft.com/windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
-
+A pointer to a  <a href="/windows/win32/api/adhoc/ne-adhoc-dot11_adhoc_network_connection_status">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the connection state.
 
 ## -returns
-
-
 
 Possible return values include, but are not limited to, the following.
 
@@ -129,18 +123,7 @@ A pointer passed as a parameter is not valid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
- 
-
- 
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>

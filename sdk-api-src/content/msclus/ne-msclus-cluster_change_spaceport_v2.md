@@ -1,16 +1,13 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_SPACEPORT_V2
 title: CLUSTER_CHANGE_SPACEPORT_V2 (msclus.h)
-description: TBD.
+description: The CLUSTER_CHANGE_SPACEPORT_V2 enumeration (msclus.h) is related to failover clusters, with more information to be determined.
+helpviewer_keywords: ["CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","CLUSTER_CHANGE_SPACEPORT_V2","CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster]","clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","clusapi/CLUSTER_CHANGE_SPACEPORT_V2","msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2","msclus/CLUSTER_CHANGE_SPACEPORT_V2","mscs.cluster_change_spaceport_v2"]
 old-location: mscs\cluster_change_spaceport_v2.htm
 tech.root: MsCS
 ms.assetid: CB4E924B-50E5-4637-8D1C-2A195EF67966
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, CLUSTER_CHANGE_SPACEPORT_V2, CLUSTER_CHANGE_SPACEPORT_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, clusapi/CLUSTER_CHANGE_SPACEPORT_V2, msclus/CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2, msclus/CLUSTER_CHANGE_SPACEPORT_V2, mscs.cluster_change_spaceport_v2
-f1_keywords:
-- msclus/CLUSTER_CHANGE_SPACEPORT_V2
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,22 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- kbSyntax
-api_type:
-- <TBD>
-api_location:
-- 
-api_name:
-- CLUSTER_CHANGE_SPACEPORT_V2
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_SPACEPORT_V2
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_CHANGE_SPACEPORT_V2
+ - msclus/CLUSTER_CHANGE_SPACEPORT_V2
+dev_langs:
+ - c++
+topic_type:
+ - kbSyntax
+api_type:
+ - <TBD>
+api_location:
+api_name:
+ - CLUSTER_CHANGE_SPACEPORT_V2
 ---
 
 # CLUSTER_CHANGE_SPACEPORT_V2 enumeration
@@ -47,27 +48,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 TBD
-
 
 ## -enum-fields
 
-
-
-
-### -field CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2
+### -field CLUSTER_CHANGE_SPACEPORT_CUSTOM_PNP_V2:0x1
 
 TBD
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

@@ -1,16 +1,13 @@
 ---
 UID: NC:webservices.WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
 title: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK (webservices.h)
-description: Gets the content type of the message.
+description: Gets the content type of the message. (WS_ENCODER_GET_CONTENT_TYPE_CALLBACK)
+helpviewer_keywords: ["WS_ENCODER_GET_CONTENT_TYPE_CALLBACK","WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback","WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows]","webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK","wsw.ws_encoder_get_content_type_callback"]
 old-location: wsw\ws_encoder_get_content_type_callback.htm
 tech.root: wsw
 ms.assetid: 9e17481e-91ed-4215-983e-218936a1aa4f
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_encoder_get_content_type_callback
-f1_keywords:
-- webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
-dev_langs:
-- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- WebServices.h
-api_name:
-- WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
+ - webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - WebServices.h
+api_name:
+ - WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
 ---
 
 # WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback function
@@ -48,49 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the content type of the message.
-            
-
 
 ## -parameters
 
+### -param encoderContext [in]
 
+The encoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
 
-
-### -param *encoderContext [in]
-
-The encoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_encoder_callback">WS_CREATE_ENCODER_CALLBACK</a>.
-                
-
-
-### -param *contentType [in]
+### -param contentType [in]
 
 The content type of the encoded message.
-                
 
-
-### -param *newContentType [out]
+### -param newContentType [out]
 
 The callback should return the content type for the newly encoded message here.
-                
 
-
-### -param *contentEncoding [out]
+### -param contentEncoding [out]
 
 The callback should return the content encoding for the encoded message here.
-                
 
-
-### -param *error [in, optional]
+### -param error [in, optional]
 
 Specifies where additional error information should be stored if the function fails.
-                
-
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -131,14 +115,8 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The callback may inspect the content type provided, and then should return the 
               content type to use for the encoded message.
@@ -148,14 +126,10 @@ The content type and content encoding returned must remain valid until the
               callback is invoked again, or the encoder is freed.
             
 
-For <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
+For <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>, if a non-zero length content encoding
               is returned, the HTTP header "Content-Encoding" will be added to the message
               with this value.
             
 
 For other channel bindings, it is an error to return a non-zero length 
               content encoding.
-            
-
-
-

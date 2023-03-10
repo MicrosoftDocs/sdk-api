@@ -2,15 +2,12 @@
 UID: NF:propsys.IPropertyEnumType2.GetImageReference
 title: IPropertyEnumType2::GetImageReference (propsys.h)
 description: Retrieves the image reference associated with a property enumeration.
+helpviewer_keywords: ["GetImageReference","GetImageReference method [Windows Properties]","GetImageReference method [Windows Properties]","IPropertyEnumType2 interface","IPropertyEnumType2 interface [Windows Properties]","GetImageReference method","IPropertyEnumType2.GetImageReference","IPropertyEnumType2::GetImageReference","_shell_IPropertyEnumType2_GetImageReference","properties.IPropertyEnumType2_GetImageReference","propsys/IPropertyEnumType2::GetImageReference","shell.IPropertyEnumType2_GetImageReference"]
 old-location: properties\IPropertyEnumType2_GetImageReference.htm
 tech.root: properties
 ms.assetid: 3b519cb1-cfea-4242-99f4-af290d622c38
 ms.date: 12/05/2018
 ms.keywords: GetImageReference, GetImageReference method [Windows Properties], GetImageReference method [Windows Properties],IPropertyEnumType2 interface, IPropertyEnumType2 interface [Windows Properties],GetImageReference method, IPropertyEnumType2.GetImageReference, IPropertyEnumType2::GetImageReference, _shell_IPropertyEnumType2_GetImageReference, properties.IPropertyEnumType2_GetImageReference, propsys/IPropertyEnumType2::GetImageReference, shell.IPropertyEnumType2_GetImageReference
-f1_keywords:
-- propsys/IPropertyEnumType2.GetImageReference
-dev_langs:
-- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Propsys.h
-api_name:
-- IPropertyEnumType2.GetImageReference
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyEnumType2::GetImageReference
+ - propsys/IPropertyEnumType2::GetImageReference
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Propsys.h
+api_name:
+ - IPropertyEnumType2.GetImageReference
 ---
 
 # IPropertyEnumType2::GetImageReference
@@ -48,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the image reference associated with a property enumeration.
 
-
 ## -parameters
-
-
-
 
 ### -param ppszImageRes [out]
 
 Type: <b>LPWSTR*</b>
 
-A pointer to a buffer that, when this method returns successfully, receives a string of the form &lt;dll name&gt;,-&lt;resid&gt; that is suitable to be passed to <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa">PathParseIconLocation</a>.
-
+A pointer to a buffer that, when this method returns successfully, receives a string of the form &lt;dll name&gt;,-&lt;resid&gt; that is suitable to be passed to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathparseiconlocationa">PathParseIconLocation</a>.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

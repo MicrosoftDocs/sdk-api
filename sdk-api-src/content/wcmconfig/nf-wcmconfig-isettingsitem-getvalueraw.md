@@ -2,15 +2,12 @@
 UID: NF:wcmconfig.ISettingsItem.GetValueRaw
 title: ISettingsItem::GetValueRaw (wcmconfig.h)
 description: Gets the value from the current item as a byte array.
+helpviewer_keywords: ["GetValueRaw","GetValueRaw method [SMI]","GetValueRaw method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetValueRaw method","ISettingsItem.GetValueRaw","ISettingsItem::GetValueRaw","smi.isettingsitem_getvalueraw","wcmconfig/ISettingsItem::GetValueRaw"]
 old-location: smi\isettingsitem_getvalueraw.htm
 tech.root: SMI
 ms.assetid: 2b4b96df-1286-49be-869a-404adaead27a
 ms.date: 12/05/2018
 ms.keywords: GetValueRaw, GetValueRaw method [SMI], GetValueRaw method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValueRaw method, ISettingsItem.GetValueRaw, ISettingsItem::GetValueRaw, smi.isettingsitem_getvalueraw, wcmconfig/ISettingsItem::GetValueRaw
-f1_keywords:
-- wcmconfig/ISettingsItem.GetValueRaw
-dev_langs:
-- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -28,26 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: SMIEngine.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- SMIEngine.dll
-api_name:
-- ISettingsItem.GetValueRaw
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISettingsItem::GetValueRaw
+ - wcmconfig/ISettingsItem::GetValueRaw
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - SMIEngine.dll
+api_name:
+ - ISettingsItem.GetValueRaw
 ---
 
 # ISettingsItem::GetValueRaw
 
 
 ## -description
-
 
 Gets the value from the current item as
     a byte array.
@@ -56,22 +57,15 @@ Gets the value from the current item as
 
 ## -parameters
 
-
-
-
 ### -param Data [out]
 
-An array of BYTE pointers, allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, of length DataSize.
-
+An array of BYTE pointers, allocated with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, of length DataSize.
 
 ### -param DataSize [out]
 
 The length of the data.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -125,18 +119,7 @@ Indicates that there is no value for the item.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

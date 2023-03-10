@@ -2,15 +2,12 @@
 UID: NF:mfobjects.IMFDXGIBuffer.GetUnknown
 title: IMFDXGIBuffer::GetUnknown (mfobjects.h)
 description: Gets an IUnknown pointer that was previously stored in the media buffer object.
+helpviewer_keywords: ["GetUnknown","GetUnknown method [Media Foundation]","GetUnknown method [Media Foundation]","IMFDXGIBuffer interface","IMFDXGIBuffer interface [Media Foundation]","GetUnknown method","IMFDXGIBuffer.GetUnknown","IMFDXGIBuffer::GetUnknown","mf.imfdxgibuffer_getunknown","mfobjects/IMFDXGIBuffer::GetUnknown"]
 old-location: mf\imfdxgibuffer_getunknown.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57
 ms.date: 12/05/2018
 ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetUnknown method, IMFDXGIBuffer.GetUnknown, IMFDXGIBuffer::GetUnknown, mf.imfdxgibuffer_getunknown, mfobjects/IMFDXGIBuffer::GetUnknown
-f1_keywords:
-- mfobjects/IMFDXGIBuffer.GetUnknown
-dev_langs:
-- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfobjects.h
-api_name:
-- IMFDXGIBuffer.GetUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFDXGIBuffer::GetUnknown
+ - mfobjects/IMFDXGIBuffer::GetUnknown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfobjects.h
+api_name:
+ - IMFDXGIBuffer.GetUnknown
 ---
 
 # IMFDXGIBuffer::GetUnknown
@@ -48,33 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that was previously stored in the media buffer object.
-
+Gets an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that was previously stored in the media buffer object.
 
 ## -parameters
 
-
-
-
 ### -param guid [in]
 
-The identifier of the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
-
+The identifier of the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer.
 
 ### -param riid [in]
 
-The interface identifer (IID) of the interface being requested.
-
+The interface identifier (IID) of the interface being requested.
 
 ### -param ppvObject [out]
 
 Receives a pointer to the interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -117,22 +109,11 @@ The specified key was not found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgibuffer">IMFDXGIBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-setunknown">IMFDXGIBuffer::SetUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-setunknown">IMFDXGIBuffer::SetUnknown</a>

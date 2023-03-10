@@ -2,15 +2,12 @@
 UID: NF:ddraw.IDirectDrawSurface7.ChangeUniquenessValue
 title: IDirectDrawSurface7::ChangeUniquenessValue (ddraw.h)
 description: Manually updates the uniqueness value for this surface.
+helpviewer_keywords: ["ChangeUniquenessValue","ChangeUniquenessValue method [DirectDraw]","ChangeUniquenessValue method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","ChangeUniquenessValue method","IDirectDrawSurface7.ChangeUniquenessValue","IDirectDrawSurface7::ChangeUniquenessValue","ddraw/IDirectDrawSurface7::ChangeUniquenessValue","directdraw.idirectdrawsurface7_changeuniquenessvalue"]
 old-location: directdraw\idirectdrawsurface7_changeuniquenessvalue.htm
 tech.root: directdraw
 ms.assetid: 4d714fb7-7e12-45ab-ae40-7fc2a65b9e7e
 ms.date: 12/05/2018
 ms.keywords: ChangeUniquenessValue, ChangeUniquenessValue method [DirectDraw], ChangeUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],ChangeUniquenessValue method, IDirectDrawSurface7.ChangeUniquenessValue, IDirectDrawSurface7::ChangeUniquenessValue, ddraw/IDirectDrawSurface7::ChangeUniquenessValue, directdraw.idirectdrawsurface7_changeuniquenessvalue
-f1_keywords:
-- ddraw/IDirectDrawSurface7.ChangeUniquenessValue
-dev_langs:
-- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Ddraw.dll
-api_name:
-- IDirectDrawSurface7.ChangeUniquenessValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDirectDrawSurface7::ChangeUniquenessValue
+ - ddraw/IDirectDrawSurface7::ChangeUniquenessValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Ddraw.dll
+api_name:
+ - IDirectDrawSurface7.ChangeUniquenessValue
 ---
 
 # IDirectDrawSurface7::ChangeUniquenessValue
@@ -48,21 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 Manually updates the uniqueness value for this surface.
 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 If the method succeeds, the return value is DD_OK.
 
@@ -76,26 +68,12 @@ If it fails, the method can return one of the following error values:
 <li>DDERR_INVALIDPARAMS</li>
 </ul>
 
-
-
 ## -remarks
 
-
-
 DirectDraw automatically updates uniqueness values whenever the contents of a surface change.
-
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>ChangeUniquenessValue</b> method.
-
 
 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

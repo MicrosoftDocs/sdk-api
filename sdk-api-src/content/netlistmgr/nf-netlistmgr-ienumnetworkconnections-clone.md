@@ -1,16 +1,13 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.Clone
 title: IEnumNetworkConnections::Clone (netlistmgr.h)
-description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
+description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use. (IEnumNetworkConnections.Clone)
+helpviewer_keywords: ["Clone","Clone method [Network Awareness]","Clone method [Network Awareness]","IEnumNetworkConnections interface","IEnumNetworkConnections interface [Network Awareness]","Clone method","IEnumNetworkConnections.Clone","IEnumNetworkConnections::Clone","netlistmgr/IEnumNetworkConnections::Clone","nla.ienumnetworkconnections_clone"]
 old-location: nla\ienumnetworkconnections_clone.htm
 tech.root: nla
 ms.assetid: eb59b8ae-b53c-4035-96c4-72cf87edb2eb
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworkConnections interface, IEnumNetworkConnections interface [Network Awareness],Clone method, IEnumNetworkConnections.Clone, IEnumNetworkConnections::Clone, netlistmgr/IEnumNetworkConnections::Clone, nla.ienumnetworkconnections_clone
-f1_keywords:
-- netlistmgr/IEnumNetworkConnections.Clone
-dev_langs:
-- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Netlistmgr.h
-api_name:
-- IEnumNetworkConnections.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNetworkConnections::Clone
+ - netlistmgr/IEnumNetworkConnections::Clone
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Netlistmgr.h
+api_name:
+ - IEnumNetworkConnections.Clone
 ---
 
 # IEnumNetworkConnections::Clone
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>Clone</b> method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
-
 
 ## -parameters
 
-
-
-
 ### -param ppEnumNetwork [out]
 
-Pointer to new <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> interface instance.
-
+Pointer to new <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a> interface instance.
 
 ## -returns
-
-
 
 Returns S_OK if the method succeeds. Otherwise, the method returns one of the following values.
 
@@ -107,18 +101,7 @@ Failed for unknown reasons.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>

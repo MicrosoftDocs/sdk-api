@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IAttachmentExecute.SetFileName
 title: IAttachmentExecute::SetFileName (shobjidl_core.h)
 description: Specifies and stores the proposed name of the file.
+helpviewer_keywords: ["IAttachmentExecute interface [Windows Shell]","SetFileName method","IAttachmentExecute.SetFileName","IAttachmentExecute::SetFileName","SetFileName","SetFileName method [Windows Shell]","SetFileName method [Windows Shell]","IAttachmentExecute interface","_win32_IAttachmentExecute_SetFileName","shell.IAttachmentExecute_SetFileName","shobjidl_core/IAttachmentExecute::SetFileName"]
 old-location: shell\IAttachmentExecute_SetFileName.htm
 tech.root: shell
 ms.assetid: 52dc823f-4429-4c1f-8906-9e4ee3f8158e
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetFileName method, IAttachmentExecute.SetFileName, IAttachmentExecute::SetFileName, SetFileName, SetFileName method [Windows Shell], SetFileName method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetFileName, shell.IAttachmentExecute_SetFileName, shobjidl_core/IAttachmentExecute::SetFileName
-f1_keywords:
-- shobjidl_core/IAttachmentExecute.SetFileName
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shdocvw.dll
-api_name:
-- IAttachmentExecute.SetFileName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAttachmentExecute::SetFileName
+ - shobjidl_core/IAttachmentExecute::SetFileName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shdocvw.dll
+api_name:
+ - IAttachmentExecute.SetFileName
 ---
 
 # IAttachmentExecute::SetFileName
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies and stores the proposed name of the file.
 
-
 ## -parameters
-
-
-
 
 ### -param pszFileName [in]
 
@@ -63,10 +60,7 @@ Type: <b>LPCWSTR</b>
 
 A pointer to a string that contains the file name.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -100,14 +94,8 @@ The file name cannot be stored.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 No path information should be included at <i>pszFileName</i>, just the file's name.
 
@@ -115,20 +103,10 @@ No path information should be included at <i>pszFileName</i>, just the file's na
 
 <b>IAttachmentExecute::SetFileName</b> is optional.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>
- 
-
- 
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>

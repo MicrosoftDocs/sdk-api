@@ -2,15 +2,12 @@
 UID: NF:mfplay.IMFPMediaPlayer.SetVolume
 title: IMFPMediaPlayer::SetVolume (mfplay.h)
 description: Sets the audio volume.
+helpviewer_keywords: ["IMFPMediaPlayer interface [Media Foundation]","SetVolume method","IMFPMediaPlayer.SetVolume","IMFPMediaPlayer::SetVolume","SetVolume","SetVolume method [Media Foundation]","SetVolume method [Media Foundation]","IMFPMediaPlayer interface","mf.imfpmediaplayer_setvolume","mfplay/IMFPMediaPlayer::SetVolume"]
 old-location: mf\imfpmediaplayer_setvolume.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: feee2812-7c7e-4c27-86be-8f7316854222
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVolume method, IMFPMediaPlayer.SetVolume, IMFPMediaPlayer::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume
-f1_keywords:
-- mfplay/IMFPMediaPlayer.SetVolume
-dev_langs:
-- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplay.h
-api_name:
-- IMFPMediaPlayer.SetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFPMediaPlayer::SetVolume
+ - mfplay/IMFPMediaPlayer::SetVolume
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplay.h
+api_name:
+ - IMFPMediaPlayer.SetVolume
 ---
 
 # IMFPMediaPlayer::SetVolume
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
 Sets the audio volume.
 
-
 ## -parameters
-
-
-
 
 ### -param flVolume [in]
 
 The volume level. Volume is expressed as an attenuation level, where 0.0 indicates silence and 1.0 indicates full volume (no attenuation).
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -101,33 +94,17 @@ The <i>flVolume</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 If you call this method before playback starts, the setting is applied after playback starts.
 
-This method does not change the master volume level for the player's audio session. Instead, it adjusts the per-channel volume levels for audio stream(s) that belong to the current media item. Other streams in the audio session are not affected. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/managing-the-audio-session">Managing the Audio Session</a>.
-
-
-
+This method does not change the master volume level for the player's audio session. Instead, it adjusts the per-channel volume levels for audio stream(s) that belong to the current media item. Other streams in the audio session are not affected. For more information, see <a href="/windows/desktop/medfound/managing-the-audio-session">Managing the Audio Session</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

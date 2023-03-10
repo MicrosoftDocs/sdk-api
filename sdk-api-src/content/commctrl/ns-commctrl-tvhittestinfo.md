@@ -2,15 +2,12 @@
 UID: NS:commctrl.tagTVHITTESTINFO
 title: TVHITTESTINFO (commctrl.h)
 description: Contains information used to determine the location of a point relative to a tree-view control.
+helpviewer_keywords: ["*LPTVHITTESTINFO","LPTVHITTESTINFO","LPTVHITTESTINFO structure pointer [Windows Controls]","TVHITTESTINFO","TVHITTESTINFO structure [Windows Controls]","TVHT_ABOVE","TVHT_BELOW","TVHT_NOWHERE","TVHT_ONITEM","TVHT_ONITEMBUTTON","TVHT_ONITEMICON","TVHT_ONITEMINDENT","TVHT_ONITEMLABEL","TVHT_ONITEMRIGHT","TVHT_ONITEMSTATEICON","TVHT_TOLEFT","TVHT_TORIGHT","_win32_TVHITTESTINFO","_win32_TVHITTESTINFO_cpp","commctrl/LPTVHITTESTINFO","commctrl/TVHITTESTINFO","controls.TVHITTESTINFO","controls._win32_TVHITTESTINFO"]
 old-location: controls\TVHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvhittestinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTVHITTESTINFO, LPTVHITTESTINFO, LPTVHITTESTINFO structure pointer [Windows Controls], TVHITTESTINFO, TVHITTESTINFO structure [Windows Controls], TVHT_ABOVE, TVHT_BELOW, TVHT_NOWHERE, TVHT_ONITEM, TVHT_ONITEMBUTTON, TVHT_ONITEMICON, TVHT_ONITEMINDENT, TVHT_ONITEMLABEL, TVHT_ONITEMRIGHT, TVHT_ONITEMSTATEICON, TVHT_TOLEFT, TVHT_TORIGHT, _win32_TVHITTESTINFO, _win32_TVHITTESTINFO_cpp, commctrl/LPTVHITTESTINFO, commctrl/TVHITTESTINFO, controls.TVHITTESTINFO, controls._win32_TVHITTESTINFO'
-f1_keywords:
-- commctrl/TVHITTESTINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- TVHITTESTINFO
 targetos: Windows
 req.typenames: TVHITTESTINFO, *LPTVHITTESTINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTVHITTESTINFO
+ - commctrl/tagTVHITTESTINFO
+ - LPTVHITTESTINFO
+ - commctrl/LPTVHITTESTINFO
+ - TVHITTESTINFO
+ - commctrl/TVHITTESTINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - TVHITTESTINFO
 ---
 
 # TVHITTESTINFO structure
@@ -48,26 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-hittest">TVM_HITTEST</a> message. The structure is identical to the 
-			<b>TV_HITTESTINFO</b> structure, but it has been renamed to follow current naming conventions. 
-
+Contains information used to determine the location of a point relative to a tree-view control. This structure is used with the <a href="/windows/desktop/Controls/tvm-hittest">TVM_HITTEST</a> message. The structure is identical to the 
+			<b>TV_HITTESTINFO</b> structure, but it has been renamed to follow current naming conventions.
 
 ## -struct-fields
 
-
-
-
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-point">POINT</a></b>
 
-Client coordinates of the point to test. 
-
+Client coordinates of the point to test.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Variable that receives information about the results of a hit test. This member can be one or more of the following values: 
 
@@ -197,12 +197,9 @@ To the right of the client area.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field hItem
 
 Type: <b>HTREEITEM</b>
 
-Handle to the item that occupies the point. 
-
+Handle to the item that occupies the point.

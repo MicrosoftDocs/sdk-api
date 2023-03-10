@@ -2,15 +2,12 @@
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.CreateInstance
 title: IWICMetadataReaderInfo::CreateInstance (wincodecsdk.h)
 description: Creates an instance of an IWICMetadataReader.
+helpviewer_keywords: ["CreateInstance","CreateInstance method [Windows Imaging Component]","CreateInstance method [Windows Imaging Component]","IWICMetadataReaderInfo interface","IWICMetadataReaderInfo interface [Windows Imaging Component]","CreateInstance method","IWICMetadataReaderInfo.CreateInstance","IWICMetadataReaderInfo::CreateInstance","_wic_codec_iwicmetadatareaderinfo_createinstance","wic._wic_codec_iwicmetadatareaderinfo_createinstance","wincodecsdk/IWICMetadataReaderInfo::CreateInstance"]
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_createinstance.htm
 tech.root: wic
 ms.assetid: e6ee4ee9-8d9d-44f7-aab8-8e8ccfa7f942
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICMetadataReaderInfo interface, IWICMetadataReaderInfo interface [Windows Imaging Component],CreateInstance method, IWICMetadataReaderInfo.CreateInstance, IWICMetadataReaderInfo::CreateInstance, _wic_codec_iwicmetadatareaderinfo_createinstance, wic._wic_codec_iwicmetadatareaderinfo_createinstance, wincodecsdk/IWICMetadataReaderInfo::CreateInstance
-f1_keywords:
-- wincodecsdk/IWICMetadataReaderInfo.CreateInstance
-dev_langs:
-- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICMetadataReaderInfo.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICMetadataReaderInfo::CreateInstance
+ - wincodecsdk/IWICMetadataReaderInfo::CreateInstance
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICMetadataReaderInfo.CreateInstance
 ---
 
 # IWICMetadataReaderInfo::CreateInstance
@@ -48,29 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>.
-
+Creates an instance of an <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>.
 
 ## -parameters
 
-
-
-
 ### -param ppIReader [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>**</b>
 
 Pointer that receives a pointer to a metadata reader.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.

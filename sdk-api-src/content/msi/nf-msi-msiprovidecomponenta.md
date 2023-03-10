@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiProvideComponentA
 title: MsiProvideComponentA function (msi.h)
-description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
+description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature. (ANSI)
+helpviewer_keywords: ["INSTALLMODE_DEFAULT", "INSTALLMODE_EXISTING", "INSTALLMODE_NODETECTION", "INSTALLMODE_NOSOURCERESOLUTION", "MsiProvideComponentA", "combination of the REINSTALLMODE flags", "msi/MsiProvideComponentA"]
 old-location: setup\msiprovidecomponent.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: da6fa117-9152-4289-aa92-79903b84bd3e
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideComponent, MsiProvideComponent function, MsiProvideComponentA, MsiProvideComponentW, _msi_msiprovidecomponent, combination of the REINSTALLMODE flags, msi/MsiProvideComponent, msi/MsiProvideComponentA, msi/MsiProvideComponentW, setup.msiprovidecomponent
-f1_keywords:
-- msi/MsiProvideComponent
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiProvideComponent
-- MsiProvideComponentA
-- MsiProvideComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiProvideComponentA
+ - msi/MsiProvideComponentA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiProvideComponent
+ - MsiProvideComponentA
+ - MsiProvideComponentW
 ---
 
 # MsiProvideComponentA function
@@ -50,30 +52,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiProvideComponent</b> function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szProduct [in]
 
 Specifies the product code for the product that contains the feature with the necessary component.
 
-
 ### -param szFeature [in]
 
 Specifies the feature ID of the feature with the necessary component.
 
-
 ### -param szComponent [in]
 
 Specifies the component code of the necessary component.
-
 
 ### -param dwInstallMode [in]
 
@@ -93,7 +87,7 @@ Defines the installation mode. This parameter can be one of the following values
 </td>
 <td width="60%">
 Provide the component and perform any installation necessary to provide the component. If the key file of a component in the requested feature, or a feature parent, is missing, reinstall the feature using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA and REINSTALLMODE_SHORTCUT.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA and REINSTALLMODE_SHORTCUT.
 
 </td>
 </tr>
@@ -135,7 +129,7 @@ REINSTALLMODE flags</b></dt>
 </td>
 <td width="60%">
 Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
 
 </td>
 </tr>
@@ -150,13 +144,10 @@ Provide the component only if the feature's installation state is INSTALLSTATE_L
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpPathBuf [out]
 
 Pointer to a variable that receives the path to the component. This parameter can be null.
-
 
 ### -param pcchPathBuf [in, out]
 
@@ -167,10 +158,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchBuf</i> can be null.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -302,50 +290,42 @@ Unable to detect a source.
  
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
-
-
-
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 ## -remarks
-
-
 
 Upon success of the 
 <b>MsiProvideComponent</b> function, the <i>pcchPathBuf</i> parameter contains the length of the string in <i>lpPathBuf</i>.
 
 The 
 <b>MsiProvideComponent</b> function combines the functionality of 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a>. You can use the 
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a>, 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>, and 
+<a href="/windows/desktop/api/msi/nf-msi-msigetcomponentpatha">MsiGetComponentPath</a>. You can use the 
 <b>MsiProvideComponent</b> function to simplify the calling sequence. However, because this function increments the usage count, use it with caution to prevent inaccurate usage counts. The 
 <b>MsiProvideComponent</b> function also provides less flexibility than the series of individual calls.
 
 If the application is recovering from an unexpected situation, the application has probably already called 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and incremented the usage count. In this case, the application should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a> instead of 
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and incremented the usage count. In this case, the application should call 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a> instead of 
 <b>MsiProvideComponent</b> to avoid incrementing the count again.
 
 The INSTALLMODE_EXISTING option cannot be used in combination with the REINSTALLMODE flag.
 
 Features with components containing a corrupted file or the wrong version of a file must be explicitly reinstalled by the user or by having the application call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiProvideComponent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>

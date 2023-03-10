@@ -1,16 +1,13 @@
 ---
 UID: NS:oaidl.tagFUNCDESC
 title: FUNCDESC (oaidl.h)
-description: Describes a function.
+description: Describes a function. (FUNCDESC)
+helpviewer_keywords: ["*LPFUNCDESC","FUNCDESC","FUNCDESC structure [Automation]","LPFUNCDESC","LPFUNCDESC structure pointer [Automation]","_oa96_FUNCDESC","automat.funcdesc","oaidl/FUNCDESC","oaidl/LPFUNCDESC"]
 old-location: automat\funcdesc.htm
 tech.root: automat
 ms.assetid: 9998e0cb-5aa3-4cd8-86eb-34760eb1164e
 ms.date: 12/05/2018
 ms.keywords: '*LPFUNCDESC, FUNCDESC, FUNCDESC structure [Automation], LPFUNCDESC, LPFUNCDESC structure pointer [Automation], _oa96_FUNCDESC, automat.funcdesc, oaidl/FUNCDESC, oaidl/LPFUNCDESC'
-f1_keywords:
-- oaidl/FUNCDESC
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- OaIdl.h
-api_name:
-- FUNCDESC
 targetos: Windows
 req.typenames: FUNCDESC, *LPFUNCDESC
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagFUNCDESC
+ - oaidl/tagFUNCDESC
+ - LPFUNCDESC
+ - oaidl/LPFUNCDESC
+ - FUNCDESC
+ - oaidl/FUNCDESC
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - OaIdl.h
+api_name:
+ - FUNCDESC
 ---
 
 # FUNCDESC structure
@@ -48,78 +54,59 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes a function.
 
-
 ## -struct-fields
-
-
-
 
 ### -field memid
 
 The function member ID.
 
-
 ### -field lprgscode
 
 The status code.
-
 
 ### -field lprgelemdescParam
 
 Description of the element.
 
-
 ### -field funckind
 
 Indicates the type of function (virtual, static, or dispatch-only).
-
 
 ### -field invkind
 
 The invocation type. Indicates whether this is a property function, and if so, which type.
 
-
 ### -field callconv
 
 The calling convention.
-
 
 ### -field cParams
 
 The total number of parameters.
 
-
 ### -field cParamsOpt
 
 The number of optional parameters.
-
 
 ### -field oVft
 
 For FUNC_VIRTUAL, specifies the offset in the VTBL.
 
-
 ### -field cScodes
 
 The number of possible return values.
-
 
 ### -field elemdescFunc
 
 The function return type.
 
-
 ### -field wFuncFlags
 
-The function flags. See <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-funcflags">FUNCFLAGS</a>.
-
+The function flags. See <a href="/windows/desktop/api/oaidl/ne-oaidl-funcflags">FUNCFLAGS</a>.
 
 ## -remarks
-
-
 
 The <b>cParams</b> field specifies the total number of required and optional parameters.
 
@@ -147,5 +134,3 @@ Any other number indicates that the last n parameters of the function are varian
 
 </li>
 </ul>
-
-

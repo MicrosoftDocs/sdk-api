@@ -1,16 +1,13 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Load
 title: IPersistStreamInit::Load (ocidl.h)
-description: Initializes an object from the stream where it was saved previously.
+description: Initializes an object from the stream where it was saved previously. (IPersistStreamInit.Load)
+helpviewer_keywords: ["IPersistStreamInit interface [COM]","Load method","IPersistStreamInit.Load","IPersistStreamInit::Load","Load","Load method [COM]","Load method [COM]","IPersistStreamInit interface","_com_ipersiststreaminit_load","com.ipersiststreaminit_load","ocidl/IPersistStreamInit::Load"]
 old-location: com\ipersiststreaminit_load.htm
 tech.root: com
 ms.assetid: 3e995e07-e088-40de-ba28-c30caea45786
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit interface [COM],Load method, IPersistStreamInit.Load, IPersistStreamInit::Load, Load, Load method [COM], Load method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_load, com.ipersiststreaminit_load, ocidl/IPersistStreamInit::Load
-f1_keywords:
-- ocidl/IPersistStreamInit.Load
-dev_langs:
-- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- OCIdl.h
-api_name:
-- IPersistStreamInit.Load
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPersistStreamInit::Load
+ - ocidl/IPersistStreamInit::Load
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - OCIdl.h
+api_name:
+ - IPersistStreamInit.Load
 ---
 
 # IPersistStreamInit::Load
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Initializes an object from the stream where it was saved previously.
-
 
 ## -parameters
 
-
-
-
 ### -param pStm [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream from which the object should be loaded.
-
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream from which the object should be loaded.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -107,29 +101,13 @@ The object was not loaded due to some reason other than a lack of memory.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+If the object has already been initialized with <a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a>, then this method must return E_UNEXPECTED.
 
-
-If the object has already been initialized with <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew">IPersistStreamInit::InitNew</a>, then this method must return E_UNEXPECTED.
-
-This method loads an object from its associated stream. The seek pointer is set as it was in the most recent <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-save">IPersistStreamInit::Save</a> method. This method can seek and read from the stream, but cannot write to it.
-
-
-
+This method loads an object from its associated stream. The seek pointer is set as it was in the most recent <a href="/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-save">IPersistStreamInit::Save</a> method. This method can seek and read from the stream, but cannot write to it.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>

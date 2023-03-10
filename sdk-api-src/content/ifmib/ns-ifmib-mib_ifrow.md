@@ -1,16 +1,13 @@
 ---
 UID: NS:ifmib._MIB_IFROW
 title: MIB_IFROW (ifmib.h)
-description: Stores information about a particular interface.
+description: Stores information about a particular interface. (MIB_IFROW)
+helpviewer_keywords: ["*PMIB_IFROW","IF_OPER_STATUS_CONNECTED","IF_OPER_STATUS_CONNECTING","IF_OPER_STATUS_DISCONNECTED","IF_OPER_STATUS_NON_OPERATIONAL","IF_OPER_STATUS_OPERATIONAL","IF_OPER_STATUS_UNREACHABLE","IF_TYPE_ATM","IF_TYPE_ETHERNET_CSMACD","IF_TYPE_FDDI","IF_TYPE_IEEE1394","IF_TYPE_IEEE80211","IF_TYPE_IEEE80216_WMAN","IF_TYPE_ISO88025_TOKENRING","IF_TYPE_OTHER","IF_TYPE_PPP","IF_TYPE_SOFTWARE_LOOPBACK","IF_TYPE_TUNNEL","IF_TYPE_WWANPP","IF_TYPE_WWANPP2","MIB_IFROW","MIB_IFROW structure [MIB]","PMIB_IFROW","PMIB_IFROW structure pointer [MIB]","_mpr_mib_ifrow","ifmib/MIB_IFROW","ifmib/PMIB_IFROW","iprtrmib/MIB_IFROW","iprtrmib/PMIB_IFROW","mib.mib_ifrow","rras.mib_ifrow"]
 old-location: mib\mib_ifrow.htm
 tech.root: MIB
 ms.assetid: b08631e9-6036-4377-b2f2-4ea899acb787
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IFROW, IF_OPER_STATUS_CONNECTED, IF_OPER_STATUS_CONNECTING, IF_OPER_STATUS_DISCONNECTED, IF_OPER_STATUS_NON_OPERATIONAL, IF_OPER_STATUS_OPERATIONAL, IF_OPER_STATUS_UNREACHABLE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_FDDI, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_IEEE80216_WMAN, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IF_TYPE_WWANPP, IF_TYPE_WWANPP2, MIB_IFROW, MIB_IFROW structure [MIB], PMIB_IFROW, PMIB_IFROW structure pointer [MIB], _mpr_mib_ifrow, ifmib/MIB_IFROW, ifmib/PMIB_IFROW, iprtrmib/MIB_IFROW, iprtrmib/PMIB_IFROW, mib.mib_ifrow, rras.mib_ifrow'
-f1_keywords:
-- ifmib/MIB_IFROW
-dev_langs:
-- c++
 req.header: ifmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,20 +25,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ifmib.h
-- Iprtrmib.h
-api_name:
-- MIB_IFROW
 targetos: Windows
 req.typenames: MIB_IFROW, *PMIB_IFROW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _MIB_IFROW
+ - ifmib/_MIB_IFROW
+ - PMIB_IFROW
+ - ifmib/PMIB_IFROW
+ - MIB_IFROW
+ - ifmib/MIB_IFROW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ifmib.h
+ - Iprtrmib.h
+api_name:
+ - MIB_IFROW
 ---
 
 # MIB_IFROW structure
@@ -49,15 +55,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MIB_IFROW</b> structure stores information about a particular interface.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wszName
 
@@ -65,20 +66,17 @@ Type: <b>WCHAR[MAX_INTERFACE_NAME_LEN]</b>
 
 A pointer to a Unicode string that contains the name of the interface.
 
-
 ### -field dwIndex
 
 Type: <b>DWORD</b>
 
-The index that identifies the interface. This index value may change when a network adapter is disabled and then enabled, and should not be considered persistent. 
-
-
+The index that identifies the interface. This index value may change when a network adapter is disabled and then enabled, and should not be considered persistent.
 
 ### -field dwType
 
 Type: <b>DWORD</b>
 
-The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84022">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file. 
+The interface type as defined by the Internet Assigned Names Authority (IANA). For more information, see <a href="https://www.iana.org/assignments/ianaiftype-mib">http://www.iana.org/assignments/ianaiftype-mib</a>. Possible values for the interface type are listed in the <i>Ipifcons.h</i> header file. 
 
 The table below lists common values for the interface type although many other values are possible. 
 
@@ -237,8 +235,6 @@ An mobile broadband interface for CDMA-based devices.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwMtu
 
@@ -246,13 +242,11 @@ Type: <b>DWORD</b>
 
 The Maximum Transmission Unit (MTU) size in bytes.
 
-
 ### -field dwSpeed
 
 Type: <b>DWORD</b>
 
 The speed of the interface in bits per second.
-
 
 ### -field dwPhysAddrLen
 
@@ -260,20 +254,17 @@ Type: <b>DWORD</b>
 
 The length, in bytes, of the physical address specified by the <b>bPhysAddr</b> member.
 
-
 ### -field bPhysAddr
 
 Type: <b>BYTE[MAXLEN_PHYSADDR]</b>
 
 The physical address of the adapter for this interface.
 
-
 ### -field dwAdminStatus
 
 Type: <b>DWORD</b>
 
 The interface is administratively enabled or disabled.
-
 
 ### -field dwOperStatus
 
@@ -348,8 +339,6 @@ Default status for LAN adapters
 </td>
 </tr>
 </table>
- 
-
 
 ### -field dwLastChange
 
@@ -359,13 +348,11 @@ The  length of time, in hundredths of seconds (10^-2 sec), starting from the las
 
 The <b>dwLastChange</b> member is not currently supported by NDIS. On Windows Vista and later, NDIS returns zero for this member. On earlier versions of Windows, an arbitrary value is returned in this member for the interfaces supported by NDIS. For interfaces supported by other interface providers, they might return an appropriate value.
 
-
 ### -field dwInOctets
 
 Type: <b>DWORD</b>
 
 The number of octets of data received through this interface.
-
 
 ### -field dwInUcastPkts
 
@@ -373,13 +360,11 @@ Type: <b>DWORD</b>
 
 The number of unicast packets received through this interface.
 
-
 ### -field dwInNUcastPkts
 
 Type: <b>DWORD</b>
 
 The number of non-unicast packets received through this interface. Broadcast and multicast packets are included.
-
 
 ### -field dwInDiscards
 
@@ -387,13 +372,11 @@ Type: <b>DWORD</b>
 
 The number of incoming packets that were discarded even though they did not have errors.
 
-
 ### -field dwInErrors
 
 Type: <b>DWORD</b>
 
 The number of incoming packets that were discarded because of errors.
-
 
 ### -field dwInUnknownProtos
 
@@ -401,13 +384,11 @@ Type: <b>DWORD</b>
 
 The number of incoming packets that were discarded because the protocol was unknown.
 
-
 ### -field dwOutOctets
 
 Type: <b>DWORD</b>
 
 The number of octets of data sent through this interface.
-
 
 ### -field dwOutUcastPkts
 
@@ -415,13 +396,11 @@ Type: <b>DWORD</b>
 
 The number of unicast packets sent through this interface.
 
-
 ### -field dwOutNUcastPkts
 
 Type: <b>DWORD</b>
 
 The number of non-unicast packets sent through this interface. Broadcast and multicast packets are included.
-
 
 ### -field dwOutDiscards
 
@@ -429,20 +408,17 @@ Type: <b>DWORD</b>
 
 The number of outgoing packets that were discarded even though they did not have errors.
 
-
 ### -field dwOutErrors
 
 Type: <b>DWORD</b>
 
 The number of outgoing packets that were discarded because of errors.
 
-
 ### -field dwOutQLen
 
 Type: <b>DWORD</b>
 
-The transmit queue length. This field is not currently used. 
-
+The transmit queue length. This field is not currently used.
 
 ### -field dwDescrLen
 
@@ -450,60 +426,46 @@ Type: <b>DWORD</b>
 
 The length, in bytes, of the <b>bDescr</b> member.
 
-
 ### -field bDescr
 
 Type: <b>BYTE[MAXLEN_IFDESCR]</b>
 
 A description of the interface.
 
-
 ## -remarks
 
-
-
-The <b>dwSpeed</b> member of the <b>MIB_IFROW</b> structure will be incorrect for very high-speed network interfaces (10 Gbit/s network adapter, for example) since the maximum value that can be store in a DWORD is 4,294,967,295. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a> and <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a> functions or the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>function for determining the speed for very high-speed network interfaces.
+The <b>dwSpeed</b> member of the <b>MIB_IFROW</b> structure will be incorrect for very high-speed network interfaces (10 Gbit/s network adapter, for example) since the maximum value that can be store in a DWORD is 4,294,967,295. Applications should use the <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_row2">MIB_IF_ROW2</a> structure returned by the <a href="/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a> and <a href="/windows/desktop/api/netioapi/nf-netioapi-getiftable2">GetIfTable2</a> functions or the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure returned by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function for determining the speed for very high-speed network interfaces.
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vista and later, the organization of header files has changed and the <b>MIB_IFROW</b> structure is defined in the <i>Ifmib.h</i> header file not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ifmib.h</i> header file is automatically included in <i>Iprtrmib.h</i> which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ifmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getifentry">GetIfEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getifentry">GetIfEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getifentry2">GetIfEntry2</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+<a href="/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_ifstatus">MIB_IFSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_ifstatus">MIB_IFSTATUS</a>
+<a href="/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifmib/ns-ifmib-mib_iftable">MIB_IFTABLE</a>
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_if_table2">MIB_IF_TABLE2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>

@@ -2,15 +2,12 @@
 UID: NF:wlanapi.WlanSetProfile
 title: WlanSetProfile function (wlanapi.h)
 description: Sets the content of a specific profile.
+helpviewer_keywords: ["WLAN_PROFILE_GROUP_POLICY","WLAN_PROFILE_USER","WlanSetProfile","WlanSetProfile function [NativeWIFI]","nwifi.wlansetprofile","wlanapi/WlanSetProfile"]
 old-location: nwifi\wlansetprofile.htm
-tech.root: NativeWiFi
+tech.root: nwifi
 ms.assetid: 3f8dca2e-6fe5-4c7d-a135-a33c61ba3dd5
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanSetProfile, WlanSetProfile function [NativeWIFI], nwifi.wlansetprofile, wlanapi/WlanSetProfile
-f1_keywords:
-- wlanapi/WlanSetProfile
-dev_langs:
-- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- wlanapi.dll
-- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
-api_name:
-- WlanSetProfile
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2
 ms.custom: 19H1
+f1_keywords:
+ - WlanSetProfile
+ - wlanapi/WlanSetProfile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - wlanapi.dll
+ - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+api_name:
+ - WlanSetProfile
 ---
 
 # WlanSetProfile function
@@ -49,24 +51,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WlanSetProfile</b> function sets the content of a specific profile.
-
 
 ## -parameters
 
-
-
-
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
-
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
 The GUID of the interface.
-
 
 ### -param dwFlags [in]
 
@@ -113,15 +108,12 @@ The profile is a per-user profile.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param strProfileXml [in]
 
-Contains the XML representation of the profile. The <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-wlanprofile-element">WLANProfile</a> element is the root profile element. To view sample profiles, see <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wireless-profile-samples">Wireless Profile Samples</a>. There is no predefined maximum string length.
+Contains the XML representation of the profile. The <a href="/windows/desktop/NativeWiFi/wlan-profileschema-wlanprofile-element">WLANProfile</a> element is the root profile element. To view sample profiles, see <a href="/windows/desktop/NativeWiFi/wireless-profile-samples">Wireless Profile Samples</a>. There is no predefined maximum string length.
 
-<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied profile must meet the compatibility criteria described in <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wireless-profile-compatibility">Wireless Profile Compatibility</a>.
-
+<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The supplied profile must meet the compatibility criteria described in <a href="/windows/desktop/NativeWiFi/wireless-profile-compatibility">Wireless Profile Compatibility</a>.
 
 ### -param strAllUserProfileSecurity [in, optional]
 
@@ -129,7 +121,7 @@ Sets the security descriptor string on the all-user profile.  For more informati
 
 If <i>dwFlags</i> is set to WLAN_PROFILE_USER, this parameter is ignored.
 
-If this parameter is set to <b>NULL</b> for a new all-user profile, the security descriptor associated with the  wlan_secure_add_new_all_user_profiles object is used. If the security descriptor has not been modified by a <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a> call,  all users have default permissions on a new all-user profile. Call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetsecuritysettings">WlanGetSecuritySettings</a> to get the default permissions associated with the   wlan_secure_add_new_all_user_profiles object.
+If this parameter is set to <b>NULL</b> for a new all-user profile, the security descriptor associated with the  wlan_secure_add_new_all_user_profiles object is used. If the security descriptor has not been modified by a <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetsecuritysettings">WlanSetSecuritySettings</a> call,  all users have default permissions on a new all-user profile. Call <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetsecuritysettings">WlanGetSecuritySettings</a> to get the default permissions associated with the   wlan_secure_add_new_all_user_profiles object.
 
 If this parameter is set to <b>NULL</b> for an existing all-user profile, the permissions of the profile are not changed.
 
@@ -137,25 +129,19 @@ If this parameter is not <b>NULL</b> for an all-user profile, the security descr
 
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This parameter must be <b>NULL</b>.
 
-
 ### -param bOverwrite [in]
 
 Specifies whether this profile is overwriting an existing profile.  If this parameter is <b>FALSE</b> and the profile already exists, the existing profile will not be overwritten and an error will be returned.
-
 
 ### -param pReserved [in]
 
 Reserved for future use.  Must be set to <b>NULL</b>.
 
-
 ### -param pdwReasonCode [out]
 
-A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> value that indicates why the profile is not valid.
-
+A <a href="/windows/desktop/NativeWiFi/wlan-reason-code">WLAN_REASON_CODE</a> value that indicates why the profile is not valid.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
@@ -175,7 +161,7 @@ If the function fails, the return value may be one of the following return codes
 <td width="60%">
 The caller does not have sufficient permissions to set the profile.  
 
-When called with <i>dwFlags</i> set to 0 - that is, when setting an all-user profile -  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_add_new_all_user_profiles</b> object. When called with <i>dwFlags</i> set to <b>WLAN_PROFILE_USER</b> - that is, when setting a per-user profile -  <b>WlanSetProfile</b>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_add_new_per_user_profiles</b> object. In either case, if the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanSetProfile</b> returns <b>ERROR_ACCESS_DENIED</b>.
+When called with <i>dwFlags</i> set to 0 - that is, when setting an all-user profile -  <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_add_new_all_user_profiles</b> object. When called with <i>dwFlags</i> set to <b>WLAN_PROFILE_USER</b> - that is, when setting a per-user profile -  <b>WlanSetProfile</b>  retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_add_new_per_user_profiles</b> object. In either case, if the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanSetProfile</b> returns <b>ERROR_ACCESS_DENIED</b>.
 
 </td>
 </tr>
@@ -215,7 +201,7 @@ One of the following conditions occurred:
 <li><i>pInterfaceGuid</i> is <b>NULL</b>.</li>
 <li><i>pReserved</i> is not <b>NULL</b>.</li>
 <li><i>strProfileXml</i> is <b>NULL</b>.</li>
-[ConfigBlob](https://docs.microsoft.com/windows/desktop/eaphost/eaphostconfigschema-configblob-eaphostconfig-element). If the profile must have an empty <b>ConfigBlob</b>, use <code>&lt;ConfigBlob&gt;00&lt;/ConfigBlob&gt;</code> in the profile.</li>
+[ConfigBlob](/windows/desktop/eaphost/eaphostconfigschema-configblob-eaphostconfig-element). If the profile must have an empty <b>ConfigBlob</b>, use <code>&lt;ConfigBlob&gt;00&lt;/ConfigBlob&gt;</code> in the profile.</li>
 <li><i>pdwReasonCode</i> is <b>NULL</b>.</li>
 <li><i>dwFlags</i> is not set to one of the specified values.</li>
 <li><i>dwFlags</i> is set to WLAN_PROFILE_GROUP_POLICY and <i>bOverwrite</i> is set to <b>FALSE</b>.</li>
@@ -245,14 +231,8 @@ Various error codes.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>WlanSetProfile</b> function can be used to add a new wireless LAN profile or replace an existing wireless LAN profile. 
 
@@ -264,7 +244,7 @@ A new profile is added at the top of the list after the group policy profiles.  
 
 
 
-You can call <b>WlanSetProfile</b> on a profile that contains a plaintext key (that is, a profile with the  <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/wlan-profileschema-protected-sharedkey-element">protected</a> element present and set to <b>FALSE</b>).  Before the profile is saved in the profile store, the key material is automatically encrypted. When the profile is subsequently retrieved from the profile store by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>, the encrypted key material is returned.<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The key material is never encrypted.
+You can call <b>WlanSetProfile</b> on a profile that contains a plaintext key (that is, a profile with the  <a href="/windows/desktop/NativeWiFi/wlan-profileschema-protected-sharedkey-element">protected</a> element present and set to <b>FALSE</b>).  Before the profile is saved in the profile store, the key material is automatically encrypted. When the profile is subsequently retrieved from the profile store by calling <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>, the encrypted key material is returned.<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>The key material is never encrypted.
 
 
 
@@ -273,82 +253,72 @@ All-user profiles have three associated permissions: read, write, and execute. I
 The following describes the procedure for creating a security descriptor object and parsing it as a string.
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a> to create a security descriptor in memory.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a>.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a> to create a discretionary access control list (DACL) in memory.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace">AddAccessAllowedAce</a> or <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace">AddAccessDeniedAce</a> to add access control entries (ACEs) to the DACL. Set the <i>AccessMask</i> parameter to one of the following as appropriate:<ul>
+<li>Call <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a> to create a security descriptor in memory.</li>
+<li>Call <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a>.</li>
+<li>Call <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a> to create a discretionary access control list (DACL) in memory.</li>
+<li>Call <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedace">AddAccessAllowedAce</a> or <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace">AddAccessDeniedAce</a> to add access control entries (ACEs) to the DACL. Set the <i>AccessMask</i> parameter to one of the following as appropriate:<ul>
 <li>WLAN_READ_ACCESS</li>
 <li>WLAN_EXECUTE_ACCESS</li>
 <li>WLAN_WRITE_ACCESS     </li>
 </ul>
 </li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> to add the DACL to the security descriptor.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> to convert the descriptor to string.</li>
+<li>Call <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a> to add the DACL to the security descriptor.</li>
+<li>Call <a href="/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> to convert the descriptor to string.</li>
 </ol>
-The string returned by <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> can then be used as the <i>strAllUserProfileSecurity</i> parameter value when calling <b>WlanSetProfile</b>.
+The string returned by <a href="/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a> can then be used as the <i>strAllUserProfileSecurity</i> parameter value when calling <b>WlanSetProfile</b>.
 
-For every wireless LAN profile used by the Native Wifi AutoConfig service, Windows maintains the concept of custom user data.  This custom user data is initially non-existent, but can be set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata">WlanSetProfileCustomUserData</a> function. The custom user data gets reset to empty any time the profile is modified by calling the <b>WlanSetProfile</b> function. Once custom user data has been set, this data can be accessed using the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata">WlanGetProfileCustomUserData</a> function. 
+For every wireless LAN profile used by the Native Wifi AutoConfig service, Windows maintains the concept of custom user data.  This custom user data is initially non-existent, but can be set by calling the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata">WlanSetProfileCustomUserData</a> function. The custom user data gets reset to empty any time the profile is modified by calling the <b>WlanSetProfile</b> function. Once custom user data has been set, this data can be accessed using the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata">WlanGetProfileCustomUserData</a> function. 
 
 All wireless LAN functions require an interface GUID for the wireless interface when performing profile operations. When a wireless interface is removed, its state is cleared from Wireless LAN Service (WLANSVC)  and no profile operations are possible.
 
 The <b>WlanSetProfile</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
-The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=120964">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
-
-
-
+The <b>netsh wlan add profile</b> command provides similar functionality at the command line. For more information, see <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)">Netsh Commands for Wireless Local Area Network (wlan)</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a>
+<a href="/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/native-wifi-api-permissions">Native Wifi API Permissions</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofile">WlanGetProfile</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata">WlanGetProfileCustomUserData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilecustomuserdata">WlanGetProfileCustomUserData</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata">WlanSetProfileCustomUserData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofilecustomuserdata">WlanSetProfileCustomUserData</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata">WlanSetProfileEapUserData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapuserdata">WlanSetProfileEapUserData</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapxmluserdata">WlanSetProfileEapXmlUserData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofileeapxmluserdata">WlanSetProfileEapXmlUserData</a>

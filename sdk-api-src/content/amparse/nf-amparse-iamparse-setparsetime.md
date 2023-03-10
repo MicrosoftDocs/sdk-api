@@ -2,15 +2,12 @@
 UID: NF:amparse.IAMParse.SetParseTime
 title: IAMParse::SetParseTime (amparse.h)
 description: The SetParseTime method sets the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
+helpviewer_keywords: ["IAMParse interface [DirectShow]","SetParseTime method","IAMParse.SetParseTime","IAMParse::SetParseTime","IAMParseSetParseTime","SetParseTime","SetParseTime method [DirectShow]","SetParseTime method [DirectShow]","IAMParse interface","amparse/IAMParse::SetParseTime","dshow.iamparse_setparsetime"]
 old-location: dshow\iamparse_setparsetime.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 52c53994-7cb7-4f50-a00d-87faa309c717
 ms.date: 12/05/2018
 ms.keywords: IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetParseTime, IAMParse::SetParseTime, IAMParseSetParseTime, SetParseTime, SetParseTime method [DirectShow], SetParseTime method [DirectShow],IAMParse interface, amparse/IAMParse::SetParseTime, dshow.iamparse_setparsetime
-f1_keywords:
-- amparse/IAMParse.SetParseTime
-dev_langs:
-- c++
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMParse.SetParseTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMParse::SetParseTime
+ - amparse/IAMParse::SetParseTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMParse.SetParseTime
 ---
 
 # IAMParse::SetParseTime
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>SetParseTime</code> method sets the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param rtCurrent [in]
 
 Current stream parse time.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -100,31 +91,15 @@ The parse time is not available, because the input pin is not connected
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The parse time for the MPEG-2 Splitter filter is the current stream position in system clock units. The initial value of the parse time is zero.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/amparse/nn-amparse-iamparse">IAMParse Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/amparse/nn-amparse-iamparse">IAMParse Interface</a>

@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxContentGroup.GetFiles
 title: IAppxContentGroup::GetFiles (appxpackaging.h)
 description: Gets files from a content group.
+helpviewer_keywords: ["GetFiles","GetFiles method [App packaging and management]","GetFiles method [App packaging and management]","IAppxContentGroup interface","IAppxContentGroup interface [App packaging and management]","GetFiles method","IAppxContentGroup.GetFiles","IAppxContentGroup::GetFiles","appxpackaging/IAppxContentGroup::GetFiles","appxpkg.iappxcontentgroup_getfiles"]
 old-location: appxpkg\iappxcontentgroup_getfiles.htm
 tech.root: appxpkg
 ms.assetid: AC946014-C0A2-45F8-9287-5852FD1B9981
 ms.date: 12/05/2018
 ms.keywords: GetFiles, GetFiles method [App packaging and management], GetFiles method [App packaging and management],IAppxContentGroup interface, IAppxContentGroup interface [App packaging and management],GetFiles method, IAppxContentGroup.GetFiles, IAppxContentGroup::GetFiles, appxpackaging/IAppxContentGroup::GetFiles, appxpkg.iappxcontentgroup_getfiles
-f1_keywords:
-- appxpackaging/IAppxContentGroup.GetFiles
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxContentGroup.GetFiles
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxContentGroup::GetFiles
+ - appxpackaging/IAppxContentGroup::GetFiles
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxContentGroup.GetFiles
 ---
 
 # IAppxContentGroup::GetFiles
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets files from a content group.
 
-
 ## -parameters
-
-
-
 
 ### -param enumerator [out, retval]
 
 An enumerator for getting content group files.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroup">IAppxContentGroup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroup">IAppxContentGroup</a>

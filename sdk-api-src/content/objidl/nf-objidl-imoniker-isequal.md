@@ -2,15 +2,12 @@
 UID: NF:objidl.IMoniker.IsEqual
 title: IMoniker::IsEqual (objidl.h)
 description: Determines whether this moniker is identical to the specified moniker.
+helpviewer_keywords: ["IMoniker interface [COM]","IsEqual method","IMoniker.IsEqual","IMoniker::IsEqual","IsEqual","IsEqual method [COM]","IsEqual method [COM]","IMoniker interface","_com_imoniker_isequal","com.imoniker_isequal","objidl/IMoniker::IsEqual"]
 old-location: com\imoniker_isequal.htm
 tech.root: com
 ms.assetid: 0092e93e-d87d-4b3e-b8e1-40eeaf04c43b
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],IsEqual method, IMoniker.IsEqual, IMoniker::IsEqual, IsEqual, IsEqual method [COM], IsEqual method [COM],IMoniker interface, _com_imoniker_isequal, com.imoniker_isequal, objidl/IMoniker::IsEqual
-f1_keywords:
-- objidl/IMoniker.IsEqual
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMoniker.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMoniker::IsEqual
+ - objidl/IMoniker::IsEqual
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMoniker.IsEqual
 ---
 
 # IMoniker::IsEqual
@@ -48,42 +50,29 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines whether this moniker is identical to the specified moniker.
-
 
 ## -parameters
 
-
-
-
 ### -param pmkOtherMoniker [in]
 
-A  pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to be used for comparison with this one (the one from which this method is called).
-
+A  pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to be used for comparison with this one (the one from which this method is called).
 
 ## -returns
 
-
-
 This method returns S_OK to indicate that the two monikers are identical, and S_FALSE otherwise.
-
-
-
 
 ## -remarks
 
-
-
-Previous implementations of the running object table (ROT) called this method. The current implementation of the ROT uses the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a> interface instead.
+Previous implementations of the running object table (ROT) called this method. The current implementation of the ROT uses the <a href="/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a> interface instead.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Call this method to determine whether two monikers are identical. The reduced form of a moniker is considered different from the unreduced form. You should call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a> method before calling <b>IsEqual</b>, because a reduced moniker is in its most specific form. <b>IsEqual</b> may return S_FALSE on two monikers before they are reduced, and S_OK after they are reduced.
+Call this method to determine whether two monikers are identical. The reduced form of a moniker is considered different from the unreduced form. You should call the <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a> method before calling <b>IsEqual</b>, because a reduced moniker is in its most specific form. <b>IsEqual</b> may return S_FALSE on two monikers before they are reduced, and S_OK after they are reduced.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation should not reduce the current moniker before performing the comparison. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a> to compare reduced monikers.
+Your implementation should not reduce the current moniker before performing the comparison. It is the caller's responsibility to call <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a> to compare reduced monikers.
 
-Two monikers that compare as equal must hash to the same value using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-hash">IMoniker::Hash</a>.
+Two monikers that compare as equal must hash to the same value using <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-hash">IMoniker::Hash</a>.
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
 <table>
@@ -121,25 +110,14 @@ Two monikers that compare as equal must hash to the same value using <a href="ht
 </tr>
 <tr>
 <td>URL moniker</td>
-<td>Returns S_FALSE if the other moniker (<i>pmkOtherMoniker</i>) is not an URL moniker, which it checks using <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> to see whether the CLSID is CLSID_URLMoniker. If the other moniker is an URL moniker, it compares the display names of the monikers for equality, returning S_OK if they are identical or S_FALSE otherwise.</td>
+<td>Returns S_FALSE if the other moniker (<i>pmkOtherMoniker</i>) is not an URL moniker, which it checks using <a href="/windows/desktop/api/objidl/nf-objidl-ipersist-getclassid">IPersist::GetClassID</a> to see whether the CLSID is CLSID_URLMoniker. If the other moniker is an URL moniker, it compares the display names of the monikers for equality, returning S_OK if they are identical or S_FALSE otherwise.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>

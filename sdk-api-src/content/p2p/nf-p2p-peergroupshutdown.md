@@ -2,15 +2,12 @@
 UID: NF:p2p.PeerGroupShutdown
 title: PeerGroupShutdown function (p2p.h)
 description: The PeerGroupShutdown function closes a peer group created with PeerGroupStartup and disposes of any allocated resources.
+helpviewer_keywords: ["PeerGroupShutdown","PeerGroupShutdown function [Peer Networking]","p2p.peergroupshutdown","p2p/PeerGroupShutdown"]
 old-location: p2p\peergroupshutdown.htm
-tech.root: P2PSdk
+tech.root: p2p
 ms.assetid: 61678a50-71cd-4717-b490-2755c605c2d5
 ms.date: 12/05/2018
 ms.keywords: PeerGroupShutdown, PeerGroupShutdown function [Peer Networking], p2p.peergroupshutdown, p2p/PeerGroupShutdown
-f1_keywords:
-- p2p/PeerGroupShutdown
-dev_langs:
-- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- P2P.dll
-api_name:
-- PeerGroupShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PeerGroupShutdown
+ - p2p/PeerGroupShutdown
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - P2P.dll
+api_name:
+ - PeerGroupShutdown
 ---
 
 # PeerGroupShutdown function
@@ -48,20 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>PeerGroupShutdown</b> function closes a peer group created with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a> and disposes of any allocated resources.
-
-
-## -parameters
-
-
-
+The <b>PeerGroupShutdown</b> function closes a peer group created with <a href="/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a> and disposes of any allocated resources.
 
 
 
 ## -returns
-
-
 
 Returns <b>S_OK</b> if the operation succeeds. Otherwise, the function returns  the following value.
 
@@ -84,23 +77,13 @@ The function terminated unexpectedly.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
-
-
-
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/grouping-api-functions">Grouping API
+<a href="/windows/desktop/P2PSdk/grouping-api-functions">Grouping API
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a>

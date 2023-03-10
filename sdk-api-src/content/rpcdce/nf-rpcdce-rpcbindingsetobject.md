@@ -2,15 +2,12 @@
 UID: NF:rpcdce.RpcBindingSetObject
 title: RpcBindingSetObject function (rpcdce.h)
 description: The RpcBindingSetObject function sets the object UUID value in a binding handle.
+helpviewer_keywords: ["RpcBindingSetObject","RpcBindingSetObject function [RPC]","_rpc_rpcbindingsetobject","rpc.rpcbindingsetobject","rpcdce/RpcBindingSetObject"]
 old-location: rpc\rpcbindingsetobject.htm
 tech.root: Rpc
 ms.assetid: 5dcf341f-e392-4608-b741-8fa07cabd50b
 ms.date: 12/05/2018
 ms.keywords: RpcBindingSetObject, RpcBindingSetObject function [RPC], _rpc_rpcbindingsetobject, rpc.rpcbindingsetobject, rpcdce/RpcBindingSetObject
-f1_keywords:
-- rpcdce/RpcBindingSetObject
-dev_langs:
-- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rpcrt4.dll
-api_name:
-- RpcBindingSetObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RpcBindingSetObject
+ - rpcdce/RpcBindingSetObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - RpcBindingSetObject
 ---
 
 # RpcBindingSetObject function
@@ -48,30 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>RpcBindingSetObject</b> function sets the object UUID value in a binding handle.
 
-
 ## -parameters
-
-
-
 
 ### -param Binding
 
 Server binding into which the <i>ObjectUuid</i> is set.
-
 
 ### -param ObjectUuid
 
 Pointer to the 
 <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> of the object serviced by the server specified in the <i>Binding</i> parameter. <i>ObjectUuid</i> is a unique identifier of an object to which a remote procedure call can be made.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -115,14 +108,10 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
-
-
 ## -remarks
-
-
 
 An application calls the 
 <b>RpcBindingSetObject</b> function to associate an object 
@@ -131,20 +120,10 @@ An application calls the
 To set the object 
 <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to the nil UUID, specify a null value or the nil UUID for the <i>ObjectUuid</i> parameter.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqobject">RpcBindingInqObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindinginqobject">RpcBindingInqObject</a>

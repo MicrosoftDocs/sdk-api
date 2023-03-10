@@ -1,16 +1,13 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsW
 title: ChangeDisplaySettingsW function (winuser.h)
-description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode.
+description: The ChangeDisplaySettings function changes the settings of the default display device to the specified graphics mode. (Unicode)
+helpviewer_keywords: ["0", "CDS_FULLSCREEN", "CDS_GLOBAL", "CDS_NORESET", "CDS_RESET", "CDS_SET_PRIMARY", "CDS_TEST", "CDS_UPDATEREGISTRY", "ChangeDisplaySettings", "ChangeDisplaySettings function [Windows GDI]", "ChangeDisplaySettingsW", "_win32_ChangeDisplaySettings", "gdi.changedisplaysettings", "winuser/ChangeDisplaySettings", "winuser/ChangeDisplaySettingsW"]
 old-location: gdi\changedisplaysettings.htm
 tech.root: gdi
 ms.assetid: 208bf1cc-c03c-4d03-92e4-32fcf856b4d8
 ms.date: 12/05/2018
 ms.keywords: 0, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, ChangeDisplaySettings, ChangeDisplaySettings function [Windows GDI], ChangeDisplaySettingsA, ChangeDisplaySettingsW, _win32_ChangeDisplaySettings, gdi.changedisplaysettings, winuser/ChangeDisplaySettings, winuser/ChangeDisplaySettingsA, winuser/ChangeDisplaySettingsW
-f1_keywords:
-- winuser/ChangeDisplaySettings
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,21 +25,27 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-api_name:
-- ChangeDisplaySettings
-- ChangeDisplaySettingsA
-- ChangeDisplaySettingsW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ChangeDisplaySettingsW
+ - winuser/ChangeDisplaySettingsW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+api_name:
+ - ChangeDisplaySettings
+ - ChangeDisplaySettingsA
+ - ChangeDisplaySettingsW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChangeDisplaySettingsW function
@@ -50,22 +53,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>ChangeDisplaySettings</b> function changes the settings of the default display device to the specified graphics mode.
 
-To change the settings of a specified display device, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a> function.
-<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="https://docs.microsoft.com/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
+To change the settings of a specified display device, use the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a> function.
+<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param lpDevMode [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure that describes the new graphics mode. If <i>lpDevMode</i> is <b>NULL</b>, all the values currently in the registry will be used for the display setting. Passing <b>NULL</b> for the <i>lpDevMode</i> parameter and 0 for the <i>dwFlags</i> parameter is the easiest way to return to the default mode after a dynamic mode change.
+A pointer to a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure that describes the new graphics mode. If <i>lpDevMode</i> is <b>NULL</b>, all the values currently in the registry will be used for the display setting. Passing <b>NULL</b> for the <i>lpDevMode</i> parameter and 0 for the <i>dwFlags</i> parameter is the easiest way to return to the default mode after a dynamic mode change.
 
-The <b>dmSize</b> member of <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> must be initialized to the size, in bytes, of the <b>DEVMODE</b> structure. The <b>dmDriverExtra</b> member of <b>DEVMODE</b> must be initialized to indicate the number of bytes of private driver data following the <b>DEVMODE</b> structure. In addition, you can use any or all of the following members of the <b>DEVMODE</b> structure.
+The <b>dmSize</b> member of <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> must be initialized to the size, in bytes, of the <b>DEVMODE</b> structure. The <b>dmDriverExtra</b> member of <b>DEVMODE</b> must be initialized to indicate the number of bytes of private driver data following the <b>DEVMODE</b> structure. In addition, you can use any or all of the following members of the <b>DEVMODE</b> structure.
 
 <table>
 <tr>
@@ -99,9 +98,9 @@ The <b>dmSize</b> member of <a href="https://docs.microsoft.com/windows/win32/ap
 </table>
  
 
-In addition to using one or more of the preceding <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display setting.
+In addition to using one or more of the preceding <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> members, you must also set one or more of the following values in the <b>dmFields</b> member to change the display setting.
             
-          <table>
+<table>
 <tr>
 <th>Value</th>
 <th>Meaning</th>
@@ -131,10 +130,6 @@ In addition to using one or more of the preceding <a href="https://docs.microsof
 <td>Use the <b>dmPosition</b> value.</td>
 </tr>
 </table>
- 
-
-
-
 
 ### -param dwFlags [in]
 
@@ -236,10 +231,7 @@ If CDS_UPDATEREGISTRY is specified and it is possible to change the graphics mod
 
 If CDS_UPDATEREGISTRY is specified and the information could not be stored in the registry, the graphics mode is not changed and DISP_CHANGE_NOTUPDATED is returned.
 
-
 ## -returns
-
-
 
 The <b>ChangeDisplaySettings</b> function returns one of the following values.
 
@@ -337,18 +329,12 @@ The computer must be restarted for the graphics mode to work.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To ensure that the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettings</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
 
-
-To ensure that the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettings</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
-
-When the display mode is changed dynamically, the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
+When the display mode is changed dynamically, the <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
 
 <table>
 <tr>
@@ -376,41 +362,38 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines ChangeDisplaySettings as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>
- 
-
- 
-
+<a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>

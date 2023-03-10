@@ -1,16 +1,13 @@
 ---
 UID: NN:objidlbase.IAgileObject
 title: IAgileObject (objidlbase.h)
-description: Marks an interface as agile across apartments.
+description: The IAgileObject (objidlbase.h) interface marks an interface as agile across apartments.
+helpviewer_keywords: ["IAgileObject","IAgileObject interface [COM]","IAgileObject interface [COM]","described","com.iagileobject","objidl/IAgileObject"]
 old-location: com\iagileobject.htm
 tech.root: com
 ms.assetid: 787A22DE-AEAB-4570-BB97-C49D656E5D40
-ms.date: 12/05/2018
+ms.date: 08/15/2022
 ms.keywords: IAgileObject, IAgileObject interface [COM], IAgileObject interface [COM],described, com.iagileobject, objidl/IAgileObject
-f1_keywords:
-- objidlbase/IAgileObject
-dev_langs:
-- c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- objidl.h
-api_name:
-- IAgileObject
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAgileObject
+ - objidlbase/IAgileObject
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - objidl.h
+api_name:
+ - IAgileObject
 ---
 
 # IAgileObject interface
@@ -48,28 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Marks an interface as agile across apartments.
 
-
 ## -remarks
-
-
 
 The <b>IAgileObject</b> interface is a marker interface that indicates that an object is free threaded and can be called from any apartment.
 
 Unlike what happens when aggregating the Free Threaded Marshaler (FTM), implementing the <b>IAgileObject</b> interface doesn't affect what happens when marshaling a call. Instead, the <b>IAgileObject</b> interface is recognized by the Global Interface Table (GIT). When an object that implements the <b>IAgileObject</b> interface is placed in the GIT and localized to another apartment, the object is called directly in the new apartment, rather than marshaling.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
- 
-
- 
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

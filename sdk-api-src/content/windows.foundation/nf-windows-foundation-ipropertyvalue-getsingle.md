@@ -1,16 +1,13 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingle
-title: IPropertyValue::IPropertyValue (windows.foundation.h)
+title: IPropertyValue::GetSingle (windows.foundation.h)
 description: Gets the 32-bit floating point value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetSingle","GetSingle method [Windows Runtime]","GetSingle method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSingle method","IPropertyValue.GetSingle","IPropertyValue.IPropertyValue","IPropertyValue::GetSingle","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSingle","winrt.ipropertyvalue_getsingle"]
 old-location: winrt\ipropertyvalue_getsingle.htm
 tech.root: WinRT
 ms.assetid: FA04F9A2-C222-451B-A6CE-8324BB51DA23
 ms.date: 12/05/2018
 ms.keywords: GetSingle, GetSingle method [Windows Runtime], GetSingle method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSingle method, IPropertyValue.GetSingle, IPropertyValue.IPropertyValue, IPropertyValue::GetSingle, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSingle, winrt.ipropertyvalue_getsingle
-f1_keywords:
-- windows.foundation/IPropertyValue.GetSingle
-dev_langs:
-- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -28,34 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windows.Foundation.h
-api_name:
-- IPropertyValue.GetSingle
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPropertyValue::GetSingle
+ - windows.foundation/IPropertyValue::GetSingle
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windows.Foundation.h
+api_name:
+ - IPropertyValue.GetSingle
 ---
 
-# IPropertyValue::IPropertyValue
+# IPropertyValue::GetSingle (windows.foundation.h)
 
 
 ## -description
 
-
-Gets the 32-bit floating point value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
-
+Gets the 32-bit floating point value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
-
-
-
 
 ### -param value [out, retval]
 
@@ -63,10 +60,7 @@ Type: <b>FLOAT*</b>
 
 The 32-bit floating point value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -106,27 +100,16 @@ The  property value was returned successfully.
 </dl>
 </td>
 <td width="60%">
-The type of <i>value</i> does not match the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
+The type of <i>value</i> does not match the <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-get_type">Type</a> property.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsingle">IPropertyValueStatics::CreateSingle</a>
- 
-
- 
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createsingle">IPropertyValueStatics::CreateSingle</a>

@@ -2,15 +2,12 @@
 UID: NF:tapi3if.ITBasicCallControl.Unpark
 title: ITBasicCallControl::Unpark (tapi3if.h)
 description: The Unpark method gets the call from park.
+helpviewer_keywords: ["ITBasicCallControl interface [TAPI 2.2]","Unpark method","ITBasicCallControl.Unpark","ITBasicCallControl::Unpark","Unpark","Unpark method [TAPI 2.2]","Unpark method [TAPI 2.2]","ITBasicCallControl interface","_tapi3_itbasiccallcontrol_unpark","tapi3.itbasiccallcontrol_unpark","tapi3if/ITBasicCallControl::Unpark"]
 old-location: tapi3\itbasiccallcontrol_unpark.htm
-tech.root: Tapi
+tech.root: tapi3
 ms.assetid: d4cea44e-0dac-4021-a42c-b136c2e686e0
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Unpark method, ITBasicCallControl.Unpark, ITBasicCallControl::Unpark, Unpark, Unpark method [TAPI 2.2], Unpark method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_unpark, tapi3.itbasiccallcontrol_unpark, tapi3if/ITBasicCallControl::Unpark
-f1_keywords:
-- tapi3if/ITBasicCallControl.Unpark
-dev_langs:
-- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Tapi3.dll
-api_name:
-- ITBasicCallControl.Unpark
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITBasicCallControl::Unpark
+ - tapi3if/ITBasicCallControl::Unpark
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Tapi3.dll
+api_name:
+ - ITBasicCallControl.Unpark
 ---
 
 # ITBasicCallControl::Unpark
@@ -48,21 +50,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>Unpark</b> method gets the call from park.
 
 
-## -parameters
-
-
-
-
-
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -127,22 +120,18 @@ Insufficient memory exists to perform the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 To unpark a call, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">CreateCall</a> must be called using as the destination address the current parked location of the call. See the example below.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">CreateCall</a> must be called using as the destination address the current parked location of the call. See the example below.
 
 
 #### Examples
 
-<pre class="syntax" xml:space="preserve"><code>// Note: the parameters used in this call are obtained from elsewhere in the code.  
+
+``` syntax
+// Note: the parameters used in this call are obtained from elsewhere in the code.  
 
 HRESULT hr = pAddress-&gt;CreateCall( bstrAddressToCall, 
                            dwAddressType, 
@@ -152,41 +141,34 @@ HRESULT hr = pAddress-&gt;CreateCall( bstrAddressToCall,
 // If ( hr != S_OK ) process the error here. 
 
 // Select appropriate terminals for call, and then call: 
-pBasicCall -&gt;Unpark();</code></pre>
-
+pBasicCall -&gt;Unpark();
+```
 
 
 ## -see-also
 
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/Tapi/park-ovr">Park overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/park-ovr">Park overview</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect">ParkDirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect">ParkDirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect">ParkIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect">ParkIndirect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>

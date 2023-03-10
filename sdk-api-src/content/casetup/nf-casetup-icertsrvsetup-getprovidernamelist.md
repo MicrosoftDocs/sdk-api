@@ -2,15 +2,12 @@
 UID: NF:casetup.ICertSrvSetup.GetProviderNameList
 title: ICertSrvSetup::GetProviderNameList (casetup.h)
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.
+helpviewer_keywords: ["GetProviderNameList","GetProviderNameList method [Security]","GetProviderNameList method [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","GetProviderNameList method","ICertSrvSetup.GetProviderNameList","ICertSrvSetup::GetProviderNameList","casetup/ICertSrvSetup::GetProviderNameList","security.icertsrvsetup_getprovidernamelist"]
 old-location: security\icertsrvsetup_getprovidernamelist.htm
-tech.root: SecCrypto
+tech.root: security
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
 ms.date: 12/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
-f1_keywords:
-- casetup/ICertSrvSetup.GetProviderNameList
-dev_langs:
-- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Certocm.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Certocm.dll
-api_name:
-- ICertSrvSetup.GetProviderNameList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICertSrvSetup::GetProviderNameList
+ - casetup/ICertSrvSetup::GetProviderNameList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Certocm.dll
+api_name:
+ - ICertSrvSetup.GetProviderNameList
 ---
 
 # ICertSrvSetup::GetProviderNameList
@@ -48,27 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>GetProviderNameList</b> method gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) that provide asymmetric key signature algorithms on the computer. This method does not change the state of the <b>CCertSrvSetup</b> object.
-
+The <b>GetProviderNameList</b> method gets the list of <a href="/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) that provide asymmetric key signature algorithms on the computer. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 ## -parameters
-
-
-
 
 ### -param pVal [out]
 
 A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string represents the name of a CSP.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
- 
-
- 
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

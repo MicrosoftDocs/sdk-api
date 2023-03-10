@@ -2,15 +2,12 @@
 UID: NF:rpcndr.NdrAsyncServerCall
 title: NdrAsyncServerCall function (rpcndr.h)
 description: NdrAsyncServerCall is not intended to be directly called by applications.
+helpviewer_keywords: ["NdrAsyncServerCall","NdrAsyncServerCall function [RPC]","rpc.ndrasyncservercall","rpcndr/NdrAsyncServerCall"]
 old-location: rpc\ndrasyncservercall.htm
 tech.root: Rpc
 ms.assetid: 5AA8EFA3-E7A7-44F5-9FC8-7CA86D94746A
 ms.date: 12/05/2018
 ms.keywords: NdrAsyncServerCall, NdrAsyncServerCall function [RPC], rpc.ndrasyncservercall, rpcndr/NdrAsyncServerCall
-f1_keywords:
-- rpcndr/NdrAsyncServerCall
-dev_langs:
-- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -25,22 +22,27 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: RpcRT4.lib
-req.dll: RpcRT4.dll
+req.lib: Rpcrt4.lib
+req.dll: Rpcrt4.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- RpcRT4.dll
-api_name:
-- NdrAsyncServerCall
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NdrAsyncServerCall
+ - rpcndr/NdrAsyncServerCall
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rpcrt4.dll
+api_name:
+ - NdrAsyncServerCall
 ---
 
 # NdrAsyncServerCall function
@@ -48,25 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <b>NdrAsyncServerCall</b> is not intended to be directly called by applications.
 
-
 ## -parameters
-
-
-
 
 ### -param pRpcMsg
 
 Reserved.
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-
 

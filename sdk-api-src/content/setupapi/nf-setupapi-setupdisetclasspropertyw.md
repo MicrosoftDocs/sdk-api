@@ -2,15 +2,12 @@
 UID: NF:setupapi.SetupDiSetClassPropertyW
 title: SetupDiSetClassPropertyW function (setupapi.h)
 description: The SetupDiSetClassProperty function sets a class property for a device setup class or a device interface class.
+helpviewer_keywords: ["SetupDiSetClassProperty","SetupDiSetClassProperty function [Device and Driver Installation]","SetupDiSetClassPropertyA","SetupDiSetClassPropertyW","devinst.setupdisetclassproperty","di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml","setupapi/SetupDiSetClassProperty","setupapi/SetupDiSetClassPropertyA","setupapi/SetupDiSetClassPropertyW"]
 old-location: devinst\setupdisetclassproperty.htm
 tech.root: devinst
 ms.assetid: 12402336-9894-4d0d-b176-c6907e0cdcd4
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
-f1_keywords:
-- setupapi/SetupDiSetClassProperty
-dev_langs:
-- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: DesktopFor universal, call CM_Set_Class_Property
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- LibDef
-api_location:
-- Setupapi.lib
-- Setupapi.dll
-api_name:
-- SetupDiSetClassProperty
-- SetupDiSetClassPropertyA
-- SetupDiSetClassPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetupDiSetClassPropertyW
+ - setupapi/SetupDiSetClassPropertyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - Setupapi.lib
+ - Setupapi.dll
+api_name:
+ - SetupDiSetClassProperty
+ - SetupDiSetClassPropertyA
+ - SetupDiSetClassPropertyW
 ---
 
 # SetupDiSetClassPropertyW function
@@ -51,39 +53,29 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> or a <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a>.
-
+The <b>SetupDiSetClassProperty</b> function sets a class property for a <a href="/windows-hardware/drivers/install/overview-of-device-setup-classes">device setup class</a> or a <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">device interface class</a>.
 
 ## -parameters
-
-
-
 
 ### -param ClassGuid [in]
 
 A pointer to a GUID that identifies the device setup class or device interface class for which to set a device property. For information about how to specify the class type, see the <i>Flags</i> parameter.
 
-
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the device class property to set.
-
+A pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the device class property to set.
 
 ### -param PropertyType [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
-
+A <a href="/windows-hardware/drivers/install/property-data-type-identifiers">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the device class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
 
 ### -param PropertyBuffer [in, optional]
 
 A pointer to a buffer that contains the property value of the device class. If either the property or the data is being deleted, this pointer must be set to <b>NULL</b>, and <i>PropertyBufferSize</i> must be set to zero. For more information about property data, see the <b>Remarks</b> section later in this topic.
 
-
 ### -param PropertyBufferSize [in]
 
-The size, in bytes, of the <i>PropertyBuffer</i> buffer. If <i>PropertyBuffer </i>is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
-
+The size, in bytes, of the <i>PropertyBuffer</i> buffer. If <i>PropertyBuffer </i> is set to <b>NULL</b>, <i>PropertyBufferSize</i> must be set to zero.
 
 ### -param Flags [in]
 
@@ -103,12 +95,9 @@ One of the following values, which specifies whether the class is a device setup
 
 <i>ClassGuid</i> specifies a device interface class. This flag cannot be used with DICLASSPROP_INSTALLER.
 
-
 ## -returns
 
-
-
-<b>SetupDiSetClassProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://go.microsoft.com/fwlink/p/?linkid=169416">GetLastError</a>.
+<b>SetupDiSetClassProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log. 
 
@@ -240,16 +229,10 @@ The caller does not have Administrator privileges.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-<b>SetupDiSetClassProperty</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
+<b>SetupDiSetClassProperty</b> is part of the <a href="/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiSetClassProperty</b>. 
 
@@ -257,34 +240,24 @@ A caller of <b>SetupDiSetClassProperty</b> must be a member of the Administrator
 
 <b>SetupDiSetClassProperty</b> enforces requirements on the property-data-type identifier and the property value. 
 
-To obtain the device property keys that represent the device properties that are set for a device class on a local computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device class on a local computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>.
 
-To retrieve a device class property on a local computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>, and to retrieve a device class property on a remote computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>.
+To retrieve a device class property on a local computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>, and to retrieve a device class property on a remote computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>.
 
-To set a device class property on a remote computer, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>.
-
-
-
+To set a device class property on a remote computer, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyw">SetupDiGetClassProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertyexw">SetupDiGetClassPropertyEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclasspropertykeys">SetupDiGetClassPropertyKeys</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>

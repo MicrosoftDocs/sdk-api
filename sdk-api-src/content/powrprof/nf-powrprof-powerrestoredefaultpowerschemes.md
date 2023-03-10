@@ -2,15 +2,12 @@
 UID: NF:powrprof.PowerRestoreDefaultPowerSchemes
 title: PowerRestoreDefaultPowerSchemes function (powrprof.h)
 description: Replaces the power schemes for the system with default power schemes. All current power schemes and settings are deleted and replaced with the default system power schemes.
+helpviewer_keywords: ["PowerRestoreDefaultPowerSchemes","PowerRestoreDefaultPowerSchemes function","base.powerrestoredefaultpowerschemes","powrprof/PowerRestoreDefaultPowerSchemes"]
 old-location: base\powerrestoredefaultpowerschemes.htm
-tech.root: power
+tech.root: base
 ms.assetid: 6d0a6167-34de-439b-afb4-2536c715905c
 ms.date: 12/05/2018
 ms.keywords: PowerRestoreDefaultPowerSchemes, PowerRestoreDefaultPowerSchemes function, base.powerrestoredefaultpowerschemes, powrprof/PowerRestoreDefaultPowerSchemes
-f1_keywords:
-- powrprof/PowerRestoreDefaultPowerSchemes
-dev_langs:
-- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- PowrProf.dll
-api_name:
-- PowerRestoreDefaultPowerSchemes
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PowerRestoreDefaultPowerSchemes
+ - powrprof/PowerRestoreDefaultPowerSchemes
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - PowrProf.dll
+api_name:
+ - PowerRestoreDefaultPowerSchemes
 ---
 
 # PowerRestoreDefaultPowerSchemes function
@@ -48,33 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Replaces the power schemes for the system with default power schemes. All current 
      power schemes and settings are deleted and replaced with the default system power schemes.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
       the call failed.
 
-
-
-
 ## -remarks
 
-
-
 The caller must be a member of the local Administrators group.
-
-
 

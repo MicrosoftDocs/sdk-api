@@ -2,15 +2,12 @@
 UID: NF:winternl.NtQuerySystemInformation
 title: NtQuerySystemInformation function (winternl.h)
 description: Retrieves the specified system information.
+helpviewer_keywords: ["NtQuerySystemInformation","NtQuerySystemInformation function","SYSTEM_BASIC_INFORMATION","SYSTEM_CODEINTEGRITY_INFORMATION","SYSTEM_EXCEPTION_INFORMATION","SYSTEM_INFORMATION_CLASS","SYSTEM_INTERRUPT_INFORMATION","SYSTEM_KERNEL_VA_SHADOW_INFORMATION","SYSTEM_LEAP_SECOND_INFORMATION","SYSTEM_LOOKASIDE_INFORMATION","SYSTEM_PERFORMANCE_INFORMATION","SYSTEM_POLICY_INFORMATION","SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION","SYSTEM_PROCESS_INFORMATION","SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION","SYSTEM_REGISTRY_QUOTA_INFORMATION","SYSTEM_SPECULATION_CONTROL_INFORMATION","SYSTEM_THREAD_INFORMATION","SYSTEM_TIMEOFDAY_INFORMATION","SYSTEM_VHD_BOOT_INFORMATION","SystemBasicInformation","SystemCodeIntegrityInformation","SystemExceptionInformation","SystemInterruptInformation","SystemKernelVaShadowInformation","SystemLeapSecondInformation","SystemLookasideInformation","SystemPerformanceInformation","SystemPolicyInformation","SystemProcessInformation","SystemProcessorPerformanceInformation","SystemQueryPerformanceCounterInformation","SystemRegistryQuotaInformation","SystemSpeculationControlInformation","SystemTimeOfDayInformation","base.ntquerysysteminformation","winternl/NtQuerySystemInformation"]
 old-location: base\ntquerysysteminformation.htm
-tech.root: SysInfo
+tech.root: winprog
 ms.assetid: 553ec7b9-c5eb-4955-8dc0-f1c06f59fe31
 ms.date: 12/05/2018
 ms.keywords: NtQuerySystemInformation, NtQuerySystemInformation function, SYSTEM_BASIC_INFORMATION, SYSTEM_CODEINTEGRITY_INFORMATION, SYSTEM_EXCEPTION_INFORMATION, SYSTEM_INFORMATION_CLASS, SYSTEM_INTERRUPT_INFORMATION, SYSTEM_KERNEL_VA_SHADOW_INFORMATION, SYSTEM_LEAP_SECOND_INFORMATION, SYSTEM_LOOKASIDE_INFORMATION, SYSTEM_PERFORMANCE_INFORMATION, SYSTEM_POLICY_INFORMATION, SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION, SYSTEM_PROCESS_INFORMATION, SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION, SYSTEM_REGISTRY_QUOTA_INFORMATION, SYSTEM_SPECULATION_CONTROL_INFORMATION, SYSTEM_THREAD_INFORMATION, SYSTEM_TIMEOFDAY_INFORMATION, SYSTEM_VHD_BOOT_INFORMATION, SystemBasicInformation, SystemCodeIntegrityInformation, SystemExceptionInformation, SystemInterruptInformation, SystemKernelVaShadowInformation, SystemLeapSecondInformation, SystemLookasideInformation, SystemPerformanceInformation, SystemPolicyInformation, SystemProcessInformation, SystemProcessorPerformanceInformation, SystemQueryPerformanceCounterInformation, SystemRegistryQuotaInformation, SystemSpeculationControlInformation, SystemTimeOfDayInformation, base.ntquerysysteminformation, winternl/NtQuerySystemInformation
-f1_keywords:
-- winternl/NtQuerySystemInformation
-dev_langs:
-- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Ntdll.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdll.dll
-api_name:
-- NtQuerySystemInformation
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NtQuerySystemInformation
+ - winternl/NtQuerySystemInformation
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdll.dll
+api_name:
+ - NtQuerySystemInformation
 ---
 
 # NtQuerySystemInformation function
@@ -48,16 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[<b>NtQuerySystemInformation</b> may be altered or unavailable in future versions of Windows. Applications should use the alternate functions listed in this topic.]
 
 Retrieves the specified system information.
 
-
 ## -parameters
-
-
-
 
 ### -param SystemInformationClass [in]
 
@@ -69,7 +66,7 @@ kind of system information to be retrieved. These include the following values.
 #### SystemBasicInformation
 
 Returns the number of processors in the system in a
-<b>SYSTEM_BASIC_INFORMATION</b> structure. Use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function instead.
+<b>SYSTEM_BASIC_INFORMATION</b> structure. Use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function instead.
 
 
 
@@ -82,7 +79,7 @@ Returns a <b>SYSTEM_CODEINTEGRITY_INFORMATION</b> structure that can be used to 
 #### SystemExceptionInformation
 
 Returns an opaque <b>SYSTEM_EXCEPTION_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
 
 
@@ -90,7 +87,7 @@ instead.
 #### SystemInterruptInformation
 
 Returns an opaque <b>SYSTEM_INTERRUPT_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
 
 
@@ -110,7 +107,7 @@ Returns an opaque <b>SYSTEM_LEAP_SECOND_INFORMATION</b> structure that can be us
 #### SystemLookasideInformation
 
 Returns an opaque <b>SYSTEM_LOOKASIDE_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
 
 
@@ -119,13 +116,13 @@ instead.
 
 Returns an opaque <b>SYSTEM_PERFORMANCE_INFORMATION</b> structure that can be
 used to generate an unpredictable seed for a random number generator. Use the
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a>function instead.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function instead.
 
 
 
 #### SystemPolicyInformation
 
-Returns policy information in a <b>SYSTEM_POLICY_INFORMATION</b> structure. Use the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> function instead to obtain policy information.
+Returns policy information in a <b>SYSTEM_POLICY_INFORMATION</b> structure. Use the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> function instead to obtain policy information.
 
 
 
@@ -150,7 +147,7 @@ one for each processor installed in the system.
 
 #### SystemQueryPerformanceCounterInformation
 
-Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function call.  
+Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter">QueryPerformanceCounter</a> function call.  
 
 
 
@@ -166,7 +163,9 @@ Returns a <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure that can be us
 
 Each <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure has the following layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
     struct {
         ULONG BpbEnabled : 1;
         ULONG BpbDisabledSystemPolicy : 1;
@@ -187,7 +186,9 @@ Each <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure has the following l
         ULONG Reserved : 16;
     } SpeculationControlFlags;
 } SYSTEM_SPECULATION_CONTROL_INFORMATION, * PSYSTEM_SPECULATION_CONTROL_INFORMATION;
-</code></pre>
+
+```
+
 <table>
 <tr>
 <td><b>Flag</b></td>
@@ -272,9 +273,8 @@ Each <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure has the following l
 #### SystemTimeOfDayInformation
 
 Returns an opaque <b>SYSTEM_TIMEOFDAY_INFORMATION</b> structure that can be used
-to generate an unpredictable seed for a random number generator. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
+to generate an unpredictable seed for a random number generator. Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> function
 instead.
-
 
 ### -param SystemInformation [in, out]
 
@@ -293,13 +293,17 @@ to hold a single <b>SYSTEM_BASIC_INFORMATION</b> structure
 having the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_BASIC_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_BASIC_INFORMATION {
     BYTE Reserved1[24];
     PVOID Reserved2[4];
     CCHAR NumberOfProcessors;
-} SYSTEM_BASIC_INFORMATION;</code></pre>
+} SYSTEM_BASIC_INFORMATION;
+```
+
 The <b>NumberOfProcessors</b> member contains the number of
-processors present in the system. Use <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> instead to retrieve this
+processors present in the system. Use <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> instead to retrieve this
 information.
 
 The  other members of the structure are reserved for internal
@@ -316,10 +320,14 @@ to hold a single <b>SYSTEM_CODEINTEGRITY_INFORMATION</b> structure
 having the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_CODEINTEGRITY_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_CODEINTEGRITY_INFORMATION {
     ULONG  Length;
     ULONG  CodeIntegrityOptions;
-} SYSTEM_CODEINTEGRITY_INFORMATION, *PSYSTEM_CODEINTEGRITY_INFORMATION;</code></pre>
+} SYSTEM_CODEINTEGRITY_INFORMATION, *PSYSTEM_CODEINTEGRITY_INFORMATION;
+```
+
 The <b>Length</b> member contains the size of the structure in bytes. This must be set by the caller.
 
 The <b>CodeIntegrityOptions</b> member contains a bitmask to identify code integrity options. 
@@ -462,13 +470,17 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_EXCEPTION_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_EXCEPTION_INFORMATION {
     BYTE Reserved1[16];
-} SYSTEM_EXCEPTION_INFORMATION;</code></pre>
+} SYSTEM_EXCEPTION_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -485,13 +497,17 @@ can be used to generate an unpredictable seed for a random number generator. For
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_INTERRUPT_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_INTERRUPT_INFORMATION {
     BYTE Reserved1[24];
-} SYSTEM_INTERRUPT_INFORMATION;</code></pre>
+} SYSTEM_INTERRUPT_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -503,7 +519,9 @@ When the <i>SystemInformationClass</i>  parameter is
 the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_KERNEL_VA_SHADOW_INFORMATION</b> structure having the following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_KERNEL_VA_SHADOW_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_KERNEL_VA_SHADOW_INFORMATION {
     struct {
         ULONG KvaShadowEnabled:1;
         ULONG KvaShadowUserGlobal:1;
@@ -516,7 +534,9 @@ enough to hold a single <b>SYSTEM_KERNEL_VA_SHADOW_INFORMATION</b> structure hav
         ULONG L1TerminalFaultMitigationPresent:1;
         ULONG Reserved:18;
     } KvaShadowFlags;
-} SYSTEM_KERNEL_VA_SHADOW_INFORMATION, * PSYSTEM_KERNEL_VA_SHADOW_INFORMATION;</code></pre>
+} SYSTEM_KERNEL_VA_SHADOW_INFORMATION, * PSYSTEM_KERNEL_VA_SHADOW_INFORMATION;
+```
+
 The <b>KvaShadowEnabled</b> indicates whether shadowing is enabled.
 
 The <b>KvaShadowUserGlobal</b> indicates that user/global is enabled.
@@ -550,10 +570,14 @@ enabling or disabling leap seconds system-wide. This setting will persist even a
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_LEAP_SECOND_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_LEAP_SECOND_INFORMATION {
     BOOLEAN Enabled;
     ULONG Flags;
-} SYSTEM_LEAP_SECOND_INFORMATION</code></pre>
+} SYSTEM_LEAP_SECOND_INFORMATION
+```
+
 The <b>Flags</b> field is reserved for future use.
 
 
@@ -568,13 +592,17 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_LOOKASIDE_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_LOOKASIDE_INFORMATION {
     BYTE Reserved1[32];
-} SYSTEM_LOOKASIDE_INFORMATION;</code></pre>
+} SYSTEM_LOOKASIDE_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -589,13 +617,17 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_PERFORMANCE_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_PERFORMANCE_INFORMATION {
     BYTE Reserved1[312];
-} SYSTEM_PERFORMANCE_INFORMATION;</code></pre>
+} SYSTEM_PERFORMANCE_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
 
 
@@ -608,14 +640,18 @@ by the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_POLICY_INFORMATION</b> structure having the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_POLICY_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_POLICY_INFORMATION {
     PVOID Reserved1[2];
     ULONG Reserved2[3];
-} SYSTEM_POLICY_INFORMATION;</code></pre>
+} SYSTEM_POLICY_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> 
+Use the <a href="/windows/desktop/api/slpublic/nf-slpublic-slgetwindowsinformation">SLGetWindowsInformation</a> 
 function instead to obtain policy information.
 
 
@@ -634,7 +670,9 @@ there are processes and threads running in the system. This size is specified by
 Each <b>SYSTEM_PROCESS_INFORMATION</b> structure has the following
 layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_PROCESS_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_PROCESS_INFORMATION {
     ULONG NextEntryOffset;
     ULONG NumberOfThreads;
     BYTE Reserved1[48];
@@ -658,7 +696,9 @@ layout:
     SIZE_T PeakPagefileUsage;
     SIZE_T PrivatePageCount;
     LARGE_INTEGER Reserved7[6];
-} SYSTEM_PROCESS_INFORMATION;</code></pre>
+} SYSTEM_PROCESS_INFORMATION;
+```
+
 The start of the next item in the array is the address of the previous item plus the value in the <b>NextEntryOffset</b> member. For the last item in the array, <b>NextEntryOffset</b> is 0.
 
 The <b>NumberOfThreads</b> member contains the number of threads in the process.
@@ -670,7 +710,7 @@ The <b>BasePriority</b> member contains the base priority of the process, which 
 The <b>UniqueProcessId</b> member contains the process's unique process ID.
 
 The <b>HandleCount</b> member contains the total number
-of handles being used by the process in question; use <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>  to retrieve this information
+of handles being used by the process in question; use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>  to retrieve this information
 instead.
 
 The <b>SessionId</b> member contains the session identifier of the process session. 
@@ -693,7 +733,7 @@ maximum number of bytes of page-file storage used by the process.
 The <b>PrivatePageCount</b> member contains the number of memory
 pages allocated for the use of this process.
 
-You can also retrieve the <b>PeakWorkingSetSize</b>, <b>QuotaPagedPoolUsage</b>,   <b>QuotaNonPagedPoolUsage</b>, <b>PagefileUsage</b>, <b>PeakPagefileUsage</b>, and <b>PrivatePageCount</b> information using either the <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a> function or the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-process">Win32_Process</a> class.
+You can also retrieve the <b>PeakWorkingSetSize</b>, <b>QuotaPagedPoolUsage</b>,   <b>QuotaNonPagedPoolUsage</b>, <b>PagefileUsage</b>, <b>PeakPagefileUsage</b>, and <b>PrivatePageCount</b> information using either the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a> function or the <a href="/windows/desktop/CIMWin32Prov/win32-process">Win32_Process</a> class.
 
 The  other members of the structure are reserved for internal use by the
 operating system.
@@ -707,7 +747,9 @@ When the <i>SystemInformationClass</i>  parameter is
 the <i>SystemInformation</i> parameter contains a <b>SYSTEM_PROCESS_INFORMATION</b> structure for each process. Each of these structures is immediately followed in memory by one or more <b>SYSTEM_THREAD_INFORMATION</b> structures that provide info for each thread in the preceding process. For more information about <b>SYSTEM_PROCESS_INFORMATION</b>, see the section about this structure in this article. Each <b>SYSTEM_THREAD_INFORMATION</b> structure has the following
 layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_THREAD_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_THREAD_INFORMATION {
     LARGE_INTEGER Reserved1[3];
     ULONG Reserved2;
     PVOID StartAddress;
@@ -717,7 +759,9 @@ layout:
     ULONG Reserved3;
     ULONG ThreadState;
     ULONG WaitReason;
-} SYSTEM_THREAD_INFORMATION;</code></pre>
+} SYSTEM_THREAD_INFORMATION;
+```
+
 The <b>StartAddress</b> member contains the start address of the thread.
 
 The <b>ClientId</b> member contains the 
@@ -743,17 +787,21 @@ operating system.
 When the <i>SystemInformationClass</i>  parameter is
 <b>SystemProcessorPerformanceInformation</b>,  the buffer
 pointed to by the <i>SystemInformation</i> parameter should
-be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b>structures as there are processors (CPUs) installed in the system. Each
+be large enough to hold an array that contains as many <b>SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION</b> structures as there are processors (CPUs) installed in the system. Each
 structure has the following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct
+
+``` syntax
+typedef struct
 _SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION {
     LARGE_INTEGER IdleTime;
     LARGE_INTEGER KernelTime;
     LARGE_INTEGER UserTime;
     LARGE_INTEGER Reserved1[2];
     ULONG Reserved2;
-} SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION;</code></pre>
+} SYSTEM_PROCESSOR_PERFORMANCE_INFORMATION;
+```
+
 The <b>IdleTime</b> member contains the amount of time
 that the system has been idle, in 100-nanosecond intervals.
 
@@ -765,7 +813,7 @@ The <b>UserTime</b> member contains the amount of time
 that the system has spent executing in User mode (including all threads in all
 processes, on all processors), in 100-nanosecond intervals.
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>instead to retrieve this information.
+Use <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a> instead to retrieve this information.
 
 
 
@@ -774,15 +822,21 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf
 When the <i>SystemInformationClass</i> parameter is <b>SystemQueryPerformanceCounterInformation</b>, the buffer pointed to by the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure having the following layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION {
     ULONG                           Version;
     QUERY_PERFORMANCE_COUNTER_FLAGS Flags;
     QUERY_PERFORMANCE_COUNTER_FLAGS ValidFlags;
 } SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION;
-</code></pre>
+
+```
+
 The <b>Flags</b> and <b>ValidFlags</b> members are <b>QUERY_PERFORMANCE_COUNTER_FLAGS</b> structures having the following layout:
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _QUERY_PERFORMANCE_COUNTER_FLAGS {
+
+``` syntax
+typedef struct _QUERY_PERFORMANCE_COUNTER_FLAGS {
     union {
         struct {
             ULONG KernelTransition:1;
@@ -790,7 +844,9 @@ The <b>Flags</b> and <b>ValidFlags</b> members are <b>QUERY_PERFORMANCE_COUNTER_
         };
         ULONG ul;
     };
-} QUERY_PERFORMANCE_COUNTER_FLAGS;</code></pre>
+} QUERY_PERFORMANCE_COUNTER_FLAGS;
+```
+
 The <b>ValidFlags</b> member of the <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure indicates which bits of the <b>Flags</b> member contain valid information. If a kernel transition is required, the <b>KernelTransition</b> bit is set in both <b>ValidFlags</b> and <b>Flags</b>. If a kernel transition is not required, the <b>KernelTransition</b> bit is set in <b>ValidFlags</b> and clear in <b>Flags</b>.
 
 
@@ -803,18 +859,22 @@ to by the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_REGISTRY_QUOTA_INFORMATION</b> structure having the
 following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_REGISTRY_QUOTA_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_REGISTRY_QUOTA_INFORMATION {
     ULONG RegistryQuotaAllowed;
     ULONG RegistryQuotaUsed;
     PVOID Reserved1;
-} SYSTEM_REGISTRY_QUOTA_INFORMATION;</code></pre>
+} SYSTEM_REGISTRY_QUOTA_INFORMATION;
+```
+
 The <b>RegistryQuotaAllowed</b> member contains the
 maximum size, in bytes, that the Registry can attain on this system.
 
 The <b>RegistryQuotaUsed</b> member contains the current
 size of the Registry, in bytes.
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a> instead to retrieve this
+Use <a href="/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a> instead to retrieve this
 information.
 
 The  other member of the structure is reserved for internal use by the
@@ -829,7 +889,9 @@ When the <i>SystemInformationClass</i>  parameter is
 the <i>SystemInformation</i> parameter should be large
 enough to hold a single <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure having the following layout: 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION {
     struct {
          ULONG BpbEnabled:1;
          ULONG BpbDisabledSystemPolicy:1;
@@ -848,7 +910,9 @@ enough to hold a single <b>SYSTEM_SPECULATION_CONTROL_INFORMATION</b> structure 
          ULONG Reserved:18;
     } SpeculationControlFlags;
 
-} SYSTEM_SPECULATION_CONTROL_INFORMATION, * PSYSTEM_SPECULATION_CONTROL_INFORMATION;</code></pre>
+} SYSTEM_SPECULATION_CONTROL_INFORMATION, * PSYSTEM_SPECULATION_CONTROL_INFORMATION;
+```
+
 The <b>BpbEnabled</b> indicates whether speculation control features are supported and enabled.
 
 The <b>BpbDisabledSystemPolicy</b> indicates whether speculation control features are disabled due to system 
@@ -893,20 +957,22 @@ generating an unpredictable seed for a random number generator. For this
 purpose, the structure has the following layout:
 
 
-<pre class="syntax" xml:space="preserve"><code>typedef struct _SYSTEM_TIMEOFDAY_INFORMATION {
+
+``` syntax
+typedef struct _SYSTEM_TIMEOFDAY_INFORMATION {
     BYTE Reserved1[48];
-} SYSTEM_TIMEOFDAY_INFORMATION;</code></pre>
+} SYSTEM_TIMEOFDAY_INFORMATION;
+```
+
 Individual members of the structure are reserved for internal
 use by the operating system.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
+Use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenrandom">CryptGenRandom</a> 
 function instead to generate cryptographically random data.
-
 
 ### -param SystemInformationLength [in]
 
-The size of the buffer pointed to by the <i>SystemInformation</i>parameter, in bytes.
-
+The size of the buffer pointed to by the <i>SystemInformation</i> parameter, in bytes.
 
 ### -param ReturnLength [out, optional]
 
@@ -917,10 +983,7 @@ into the <i>SystemInformation</i> buffer; otherwise, it returns an NTSTATUS
 error code and returns in <i>ReturnLength</i> the size of
 buffer required to receive the requested information.
 
-
 ## -returns
-
-
 
 Returns an  NTSTATUS success or error code. 
 
@@ -928,12 +991,7 @@ The
 forms and significance of NTSTATUS error codes are listed in the
 Ntstatus.h header file available in the DDK, and are described in the DDK documentation.
 
-
-
-
 ## -remarks
-
-
 
 The <b>NtQuerySystemInformation</b> function and the structures
 that it returns are internal to the operating system and  subject to change from
@@ -941,40 +999,30 @@ one  release of Windows to another.  To maintain the    compatibility of your
 application, it is better to use the alternate functions previously mentioned instead.
 
 If you do use <b>NtQuerySystemInformation</b>, access the function through
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/using-run-time-dynamic-linking">run-time dynamic
+<a href="/windows/desktop/Dlls/using-run-time-dynamic-linking">run-time dynamic
 linking</a>.  This gives  your code an
 opportunity to respond gracefully if the function has been   changed or removed
 from the operating system. Signature changes, however, may not be
 detectable.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
-
-
-
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Ntdll.dll.
 
 ## -see-also
 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesshandlecount">GetProcessHandleCount</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getsystemregistryquota">GetSystemRegistryQuota</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getsystemtimes">GetSystemTimes</a>

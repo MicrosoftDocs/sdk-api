@@ -1,16 +1,13 @@
 ---
 UID: NF:oledlg.OleUIInsertObjectA
 title: OleUIInsertObjectA function (oledlg.h)
-description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon.
+description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon. (ANSI)
+helpviewer_keywords: ["OleUIInsertObjectA", "oledlg/OleUIInsertObjectA"]
 old-location: com\oleuiinsertobject.htm
 tech.root: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
 ms.date: 12/05/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
-f1_keywords:
-- oledlg/OleUIInsertObject
-dev_langs:
-- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- OleDlg.dll
-api_name:
-- OleUIInsertObject
-- OleUIInsertObjectA
-- OleUIInsertObjectW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - OleUIInsertObjectA
+ - oledlg/OleUIInsertObjectA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - OleDlg.dll
+api_name:
+ - OleUIInsertObject
+ - OleUIInsertObjectA
+ - OleUIInsertObjectW
 ---
 
 # OleUIInsertObjectA function
@@ -50,24 +52,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Invokes the standard <b>Insert Object</b> dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon.
-
 
 ## -parameters
 
+### -param unnamedParam1 [in]
 
-
-
-### -param Arg1 [in]
-
- Pointer to the in-out <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure for this dialog box.
-
+ Pointer to the in-out <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure for this dialog box.
 
 ## -returns
-
-
-
 
 Standard Success/Error Definitions
 
@@ -298,7 +291,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -309,7 +302,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -331,7 +324,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -437,14 +430,8 @@ The <b>cchFile</b> or <b>lpszFile</b> value is invalid. The <b>cchFile</b> membe
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 <b>OleUIInsertObject</b> allows the user to select the type of object to be inserted from a list box containing the object applications registered on the user's system. To populate that list box, <b>OleUIInsertObject</b> traverses the registry, adding every object server it finds that meets the following criteria:
 
@@ -452,13 +439,15 @@ The <b>cchFile</b> or <b>lpszFile</b> value is invalid. The <b>cchFile</b> membe
 <li>The registry entry does not include the NotInsertable key.</li>
 <li>The registry entry includes an OLE 1.0 style Protocol\\StdFileEditing\\Server key.</li>
 <li>The registry entry includes the Insertable key.</li>
-<li>The object's CLSID is not included in the list of objects to exclude (the <b>lpClsidExclude</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a>).</li>
+<li>The object's CLSID is not included in the list of objects to exclude (the <b>lpClsidExclude</b> member of <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a>).</li>
 </ul>
-By default, <b>OleUIInsertObject</b> does not validate object servers, however, if the IOF_VERIFYSERVEREXIST flag is included in the dwFlags member of the <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure, <b>OleUIInsertObject</b> verifies that the server exists. If it does not exist, then the server's object is not added to the list of available objects. Server validation is a time-extensive operation and is a significant performance factor.
+By default, <b>OleUIInsertObject</b> does not validate object servers, however, if the IOF_VERIFYSERVEREXIST flag is included in the dwFlags member of the <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a> structure, <b>OleUIInsertObject</b> verifies that the server exists. If it does not exist, then the server's object is not added to the list of available objects. Server validation is a time-extensive operation and is a significant performance factor.
 
 To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Paste Special</b> dialog box, delete the attached metafile on the handle, as follows:
 
-<pre class="syntax" xml:space="preserve"><code>void FreeHmetafilepict(HMETAFILEPICT hmfp) 
+
+``` syntax
+void FreeHmetafilepict(HMETAFILEPICT hmfp) 
 { 
     if (hmfp != NULL) 
         { 
@@ -474,21 +463,20 @@ To free an <b>HMETAFILEPICT</b> returned from the <b>Insert Object</b> or <b>Pas
         exit(0);
         }
 } 
-</code></pre>
+
+```
 
 
+
+
+
+> [!NOTE]
+> The oledlg.h header defines OLEUIINSERTOBJECT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuiinsertobjecta">OLEUIINSERTOBJECT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>

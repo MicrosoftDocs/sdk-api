@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPPlayerApplication.switchToControl
 title: IWMPPlayerApplication::switchToControl (wmp.h)
 description: The switchToControl method switches a remoted Windows Media Player control to the docked state.
+helpviewer_keywords: ["IWMPPlayerApplication interface [Windows Media Player]","switchToControl method","IWMPPlayerApplication.switchToControl","IWMPPlayerApplication::switchToControl","IWMPPlayerApplicationswitchToControl","switchToControl","switchToControl method [Windows Media Player]","switchToControl method [Windows Media Player]","IWMPPlayerApplication interface","wmp.iwmpplayerapplication_switchtocontrol","wmp/IWMPPlayerApplication::switchToControl"]
 old-location: wmp\iwmpplayerapplication_switchtocontrol.htm
 tech.root: WMP
 ms.assetid: 15be3a28-4e51-46bf-bb64-e45e20ae3524
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerApplication interface [Windows Media Player],switchToControl method, IWMPPlayerApplication.switchToControl, IWMPPlayerApplication::switchToControl, IWMPPlayerApplicationswitchToControl, switchToControl, switchToControl method [Windows Media Player], switchToControl method [Windows Media Player],IWMPPlayerApplication interface, wmp.iwmpplayerapplication_switchtocontrol, wmp/IWMPPlayerApplication::switchToControl
-f1_keywords:
-- wmp/IWMPPlayerApplication.switchToControl
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPPlayerApplication.switchToControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPPlayerApplication::switchToControl
+ - wmp/IWMPPlayerApplication::switchToControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPPlayerApplication.switchToControl
 ---
 
 # IWMPPlayerApplication::switchToControl
@@ -48,23 +50,11 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>switchToControl</b> method switches a remoted Windows Media Player control to the docked state.
 
 
 
-
-## -parameters
-
-
-
-
-
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,14 +75,8 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method is used only when remoting the Windows Media Player control.
 
@@ -100,20 +84,10 @@ You should avoid keeping a remoted instance of the Player running in the backgro
 
 <b>Windows Media Player 10 Mobile: </b>This method always returns E_NOTIMPL.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayerapplication">IWMPPlayerApplication Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayerapplication">IWMPPlayerApplication Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>

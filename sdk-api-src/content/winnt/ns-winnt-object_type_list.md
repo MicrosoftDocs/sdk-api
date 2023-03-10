@@ -2,15 +2,12 @@
 UID: NS:winnt._OBJECT_TYPE_LIST
 title: OBJECT_TYPE_LIST (winnt.h)
 description: Identifies an object type element in a hierarchy of object types.
+helpviewer_keywords: ["*POBJECT_TYPE_LIST","ACCESS_OBJECT_GUID","ACCESS_PROPERTY_GUID","ACCESS_PROPERTY_SET_GUID","OBJECT_TYPE_LIST","OBJECT_TYPE_LIST structure [Security]","POBJECT_TYPE_LIST","POBJECT_TYPE_LIST structure pointer [Security]","_OBJECT_TYPE_LIST","_win32_object_type_list_str","security.object_type_list","winnt/OBJECT_TYPE_LIST","winnt/POBJECT_TYPE_LIST"]
 old-location: security\object_type_list.htm
-tech.root: SecAuthZ
+tech.root: security
 ms.assetid: c729ff1a-65f3-4f6f-84dd-5700aead75ce
 ms.date: 12/05/2018
 ms.keywords: '*POBJECT_TYPE_LIST, ACCESS_OBJECT_GUID, ACCESS_PROPERTY_GUID, ACCESS_PROPERTY_SET_GUID, OBJECT_TYPE_LIST, OBJECT_TYPE_LIST structure [Security], POBJECT_TYPE_LIST, POBJECT_TYPE_LIST structure pointer [Security], _OBJECT_TYPE_LIST, _win32_object_type_list_str, security.object_type_list, winnt/OBJECT_TYPE_LIST, winnt/POBJECT_TYPE_LIST'
-f1_keywords:
-- winnt/OBJECT_TYPE_LIST
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- OBJECT_TYPE_LIST
 targetos: Windows
 req.typenames: OBJECT_TYPE_LIST, *POBJECT_TYPE_LIST
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _OBJECT_TYPE_LIST
+ - winnt/_OBJECT_TYPE_LIST
+ - POBJECT_TYPE_LIST
+ - winnt/POBJECT_TYPE_LIST
+ - OBJECT_TYPE_LIST
+ - winnt/OBJECT_TYPE_LIST
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - OBJECT_TYPE_LIST
 ---
 
 # OBJECT_TYPE_LIST structure
@@ -48,15 +54,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>OBJECT_TYPE_LIST</b> structure identifies an object type element in a hierarchy of object types. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a> functions use an array of <b>OBJECT_TYPE_LIST</b> structures to define a hierarchy of an object and its subobjects, such as property sets and properties.
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a> functions use an array of <b>OBJECT_TYPE_LIST</b> structures to define a hierarchy of an object and its subobjects, such as property sets and properties.
 
 ## -struct-fields
-
-
-
 
 ### -field Level
 
@@ -103,38 +104,27 @@ Indicates a property at level two.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field Sbz
 
 Should be zero. Reserved for future use.
 
-
 ### -field ObjectType
 
 A pointer to the GUID for the object or subobject.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-accesscheckbytypeandauditalarma">AccessCheckByTypeAndAuditAlarm</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-accesscheckbytypeandauditalarma">AccessCheckByTypeAndAuditAlarm</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist">AccessCheckByTypeResultList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist">AccessCheckByTypeResultList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-accesscheckbytyperesultlistandauditalarma">AccessCheckByTypeResultListAndAuditAlarm</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-accesscheckbytyperesultlistandauditalarma">AccessCheckByTypeResultListAndAuditAlarm</a>

@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFTimedTextCue.GetCueKind
 title: IMFTimedTextCue::GetCueKind (mfmediaengine.h)
 description: Gets the kind of timed-text cue.
+helpviewer_keywords: ["GetCueKind","GetCueKind method [Media Foundation]","GetCueKind method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetCueKind method","IMFTimedTextCue.GetCueKind","IMFTimedTextCue::GetCueKind","mf.imftimedtextcue_getcuekind","mfmediaengine/IMFTimedTextCue::GetCueKind"]
 old-location: mf\imftimedtextcue_getcuekind.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 1BEB539D-4A51-4866-A627-5754525E7C8F
 ms.date: 12/05/2018
 ms.keywords: GetCueKind, GetCueKind method [Media Foundation], GetCueKind method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetCueKind method, IMFTimedTextCue.GetCueKind, IMFTimedTextCue::GetCueKind, mf.imftimedtextcue_getcuekind, mfmediaengine/IMFTimedTextCue::GetCueKind
-f1_keywords:
-- mfmediaengine/IMFTimedTextCue.GetCueKind
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFTimedTextCue.GetCueKind
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFTimedTextCue::GetCueKind
+ - mfmediaengine/IMFTimedTextCue::GetCueKind
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFTimedTextCue.GetCueKind
 ---
 
 # IMFTimedTextCue::GetCueKind
@@ -48,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the kind of timed-text cue.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_track_kind">MF_TIMED_TEXT_TRACK_KIND</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_track_kind">MF_TIMED_TEXT_TRACK_KIND</a></b>
-
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_track_kind">MF_TIMED_TEXT_TRACK_KIND</a>-typed value that specifies the kind of timed-text cue.
-
-
-
+Returns a <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_text_track_kind">MF_TIMED_TEXT_TRACK_KIND</a>-typed value that specifies the kind of timed-text cue.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>

@@ -2,15 +2,12 @@
 UID: NN:prnasnot.IPrintAsyncNotifyChannel
 title: IPrintAsyncNotifyChannel (prnasnot.h)
 description: Represents a communication channel that components that are hosted by the print spooler use to send notifications to applications. If the channel is bidirectional, applications can use the same channel to send responses back to the component.
+helpviewer_keywords: ["IPrintAsyncNotifyChannel","IPrintAsyncNotifyChannel interface [Windows GDI]","IPrintAsyncNotifyChannel interface [Windows GDI]","described","_win32_IPrintAsyncNotifyChannel","gdi.iprintasyncnotifychannel","prnasnot/IPrintAsyncNotifyChannel"]
 old-location: gdi\iprintasyncnotifychannel.htm
-tech.root: printdocs
+tech.root: xps
 ms.assetid: 8973cf5a-bbce-43c2-b418-2807842d43c0
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyChannel, IPrintAsyncNotifyChannel interface [Windows GDI], IPrintAsyncNotifyChannel interface [Windows GDI],described, _win32_IPrintAsyncNotifyChannel, gdi.iprintasyncnotifychannel, prnasnot/IPrintAsyncNotifyChannel
-f1_keywords:
-- prnasnot/IPrintAsyncNotifyChannel
-dev_langs:
-- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- prnasnot.h
-api_name:
-- IPrintAsyncNotifyChannel
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPrintAsyncNotifyChannel
+ - prnasnot/IPrintAsyncNotifyChannel
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - prnasnot.h
+api_name:
+ - IPrintAsyncNotifyChannel
 ---
 
 # IPrintAsyncNotifyChannel interface
@@ -48,79 +50,34 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents a communication channel that  components that are hosted by the print spooler use to send notifications to applications. If the channel is bidirectional, applications can use the same channel to send responses back to the component.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotifyChannel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyChannel</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPrintAsyncNotifyChannel</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">CloseChannel</a>
-</td>
-<td align="left" width="63%">
-Closes the channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">SendNotification</a>
-</td>
-<td align="left" width="63%">
-Sends a notification from a Print Spooler-hosted component to one or more listening applications, or sends a response from an application back to a component.
-
-</td>
-</tr>
-</table> 
-
+The <b>IPrintAsyncNotifyChannel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyChannel</b> also has these types of members:
 
 ## -remarks
 
+Objects implementing this interface are created by the Print Spooler in response to a call of <a href="/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel</a> by a Print Spooler-hosted component.
 
-
-Objects implementing this interface are created by the Print Spooler in response to a call of <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel</a> by a Print Spooler-hosted component.
-
-Call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IPrintAsyncNotifyChannel::Release</a> only:
+Call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IPrintAsyncNotifyChannel::Release</a> only:
 
 <ol>
-<li>if it is an explicit match to an earlier <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IPrintAsyncNotifyChannel::AddRef</a> call.</li>
-<li>if the channel is a UniDirectional channel and you are abandoning the pointer received in a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel</a>.</li>
-<li>if, after you created a BiDirectional channel or in the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifycallback-oneventnotify">IPrintAsyncNotifyCallback::OnEventNotify</a> and:<ol>
-<li>you did not call <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> or <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a> OR</li>
-<li>you did not retry a call to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> or <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a> that failed OR</li>
-<li>on the server side, you did not retry a call to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> that succeeded with the return value NO_LISTENER OR</li>
-<li>on the client side, you did not retry a call to <a href="https://docs.microsoft.com/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> that succeeded with return value CHANNEL_ACQUIRED.</li>
+<li>if it is an explicit match to an earlier <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IPrintAsyncNotifyChannel::AddRef</a> call.</li>
+<li>if the channel is a UniDirectional channel and you are abandoning the pointer received in a successful call to <a href="/windows/desktop/api/prnasnot/nf-prnasnot-createprintasyncnotifychannel">CreatePrintAsyncNotifyChannel</a>.</li>
+<li>if, after you created a BiDirectional channel or in the implementation of <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifycallback-oneventnotify">IPrintAsyncNotifyCallback::OnEventNotify</a> and:<ol>
+<li>you did not call <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> or <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a> OR</li>
+<li>you did not retry a call to <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> or <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-closechannel">IPrintAsyncNotifyChannel::CloseChannel</a> that failed OR</li>
+<li>on the server side, you did not retry a call to <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> that succeeded with the return value NO_LISTENER OR</li>
+<li>on the client side, you did not retry a call to <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychannel-sendnotification">IPrintAsyncNotifyChannel::SendNotification</a> that succeeded with return value CHANNEL_ACQUIRED.</li>
 </ol>
 </li>
 </ol>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/asynchronous-notification-interfaces">Asynchronous Printing Notification Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
- 
-
- 
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

@@ -2,15 +2,12 @@
 UID: NN:shobjidl_core.IInitializeWithPropertyStore
 title: IInitializeWithPropertyStore (shobjidl_core.h)
 description: Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a property store.
+helpviewer_keywords: ["IInitializeWithPropertyStore","IInitializeWithPropertyStore interface [Windows Shell]","IInitializeWithPropertyStore interface [Windows Shell]","described","_shell_IInitializeWithPropertyStore","shell.IInitializeWithPropertyStore","shobjidl_core/IInitializeWithPropertyStore"]
 old-location: shell\IInitializeWithPropertyStore.htm
 tech.root: shell
 ms.assetid: da8592a9-7727-433f-ac92-abf22a735eb2
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithPropertyStore, IInitializeWithPropertyStore interface [Windows Shell], IInitializeWithPropertyStore interface [Windows Shell],described, _shell_IInitializeWithPropertyStore, shell.IInitializeWithPropertyStore, shobjidl_core/IInitializeWithPropertyStore
-f1_keywords:
-- shobjidl_core/IInitializeWithPropertyStore
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IInitializeWithPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IInitializeWithPropertyStore
+ - shobjidl_core/IInitializeWithPropertyStore
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IInitializeWithPropertyStore
 ---
 
 # IInitializeWithPropertyStore interface
@@ -48,58 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a property store.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeWithPropertyStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithPropertyStore</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IInitializeWithPropertyStore</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithpropertystore-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes a handler with an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
-
-</td>
-</tr>
-</table> 
-
+The <b>IInitializeWithPropertyStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithPropertyStore</b> also has these types of members:
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Use this interface when initializing a handler for OpenSearch result sets, which are returned as RSS or Atom feeds.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore">IInitializeWithPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializewithpropertystore">IInitializeWithPropertyStore</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
- 
-
- 
-
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>

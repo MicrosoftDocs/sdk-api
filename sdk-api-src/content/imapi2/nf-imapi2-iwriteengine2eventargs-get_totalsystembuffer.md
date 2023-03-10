@@ -2,15 +2,12 @@
 UID: NF:imapi2.IWriteEngine2EventArgs.get_TotalSystemBuffer
 title: IWriteEngine2EventArgs::get_TotalSystemBuffer (imapi2.h)
 description: Retrieves the size of the internal data buffer that is used for writing to disc.
+helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_TotalSystemBuffer method","IWriteEngine2EventArgs.get_TotalSystemBuffer","IWriteEngine2EventArgs::get_TotalSystemBuffer","get_TotalSystemBuffer","get_TotalSystemBuffer method [IMAPI]","get_TotalSystemBuffer method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_totalsystembuffer","imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer"]
 old-location: imapi\iwriteengine2eventargs_get_totalsystembuffer.htm
 tech.root: imapi
 ms.assetid: dfdf4116-0402-4c90-8b9b-0758fd0bb973
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_TotalSystemBuffer method, IWriteEngine2EventArgs.get_TotalSystemBuffer, IWriteEngine2EventArgs::get_TotalSystemBuffer, get_TotalSystemBuffer, get_TotalSystemBuffer method [IMAPI], get_TotalSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_totalsystembuffer, imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
-f1_keywords:
-- imapi2/IWriteEngine2EventArgs.get_TotalSystemBuffer
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IWriteEngine2EventArgs.get_TotalSystemBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWriteEngine2EventArgs::get_TotalSystemBuffer
+ - imapi2/IWriteEngine2EventArgs::get_TotalSystemBuffer
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IWriteEngine2EventArgs.get_TotalSystemBuffer
 ---
 
 # IWriteEngine2EventArgs::get_TotalSystemBuffer
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the size of the internal data buffer that is used for writing to disc.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Size, in bytes, of the internal data buffer that is used for writing to disc.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -87,26 +81,15 @@ Value: 0x80004003
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_freesystembuffer">IWriteEngine2EventArgs::get_FreeSystemBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_freesystembuffer">IWriteEngine2EventArgs::get_FreeSystemBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>

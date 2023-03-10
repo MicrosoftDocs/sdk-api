@@ -2,15 +2,12 @@
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0010
 title: ResourcePolicy (pla.h)
 description: Defines how folders are deleted when one of the disk resource limits is exceeded.
+helpviewer_keywords: ["ResourcePolicy","ResourcePolicy enumeration [PLA]","base.resourcepolicy","pla.resourcepolicy","pla/ResourcePolicy","pla/plaDeleteLargest","pla/plaDeleteOldest","plaDeleteLargest","plaDeleteOldest"]
 old-location: pla\resourcepolicy.htm
 tech.root: PLA
 ms.assetid: 6dbe0a60-d2f9-4e76-81d9-d9891c08109a
 ms.date: 12/05/2018
 ms.keywords: ResourcePolicy, ResourcePolicy enumeration [PLA], base.resourcepolicy, pla.resourcepolicy, pla/ResourcePolicy, pla/plaDeleteLargest, pla/plaDeleteOldest, plaDeleteLargest, plaDeleteOldest
-f1_keywords:
-- pla/ResourcePolicy
-dev_langs:
-- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Pla.h
-api_name:
-- ResourcePolicy
 targetos: Windows
 req.typenames: ResourcePolicy
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - __MIDL___MIDL_itf_pla_0001_0043_0010
+ - pla/__MIDL___MIDL_itf_pla_0001_0043_0010
+ - ResourcePolicy
+ - pla/ResourcePolicy
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Pla.h
+api_name:
+ - ResourcePolicy
 ---
 
 # ResourcePolicy enumeration
@@ -48,32 +52,18 @@ ms.custom: 19H1
 
 ## -description
 
-
-Defines how folders are deleted when one of the disk resource limits is exceeded. 
-
+Defines how folders are deleted when one of the disk resource limits is exceeded.
 
 ## -enum-fields
 
-
-
-
-### -field plaDeleteLargest
+### -field plaDeleteLargest:0
 
 Delete folders from largest to smallest.
 
-
-### -field plaDeleteOldest
+### -field plaDeleteOldest:1
 
 Delete folders from oldest to newest.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_resourcepolicy">IDataManager::ResourcePolicy</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatamanager-get_resourcepolicy">IDataManager::ResourcePolicy</a>

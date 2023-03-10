@@ -2,15 +2,12 @@
 UID: NF:mfapi.MFGetMFTMerit
 title: MFGetMFTMerit function (mfapi.h)
 description: Gets the merit value of a hardware codec.
+helpviewer_keywords: ["MFGetMFTMerit","MFGetMFTMerit function [Media Foundation]","mf.mfgetmftmerit","mfapi/MFGetMFTMerit"]
 old-location: mf\mfgetmftmerit.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
 ms.date: 12/05/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
-f1_keywords:
-- mfapi/MFGetMFTMerit
-dev_langs:
-- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mfplat.dll
-api_name:
-- MFGetMFTMerit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFGetMFTMerit
+ - mfapi/MFGetMFTMerit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mfplat.dll
+api_name:
+ - MFGetMFTMerit
 ---
 
 # MFGetMFTMerit function
@@ -48,24 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the merit value of a hardware codec.
 
-
 ## -parameters
-
-
-
 
 ### -param pMFT [in, out]
 
 A pointer to the <b>IUnknown</b> interface of the Media Foundation transform (MFT) that represents the codec.
 
-
 ### -param cbVerifier [in]
 
 The size, in bytes, of the <i>verifier</i> array.
-
 
 ### -param verifier [in]
 
@@ -80,37 +75,18 @@ The address of a buffer that contains one of the following:
 
 Receives the merit value.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 The function fails if the MFT does not represent a hardware device with a valid Output Protection Manager (OPM) certificate.
-      
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a>

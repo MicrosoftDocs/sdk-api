@@ -2,15 +2,12 @@
 UID: NF:wmp.IWMPSyncDevice.getItemInfo
 title: IWMPSyncDevice::getItemInfo (wmp.h)
 description: The getItemInfo method retrieves a metadata value from the device.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","getItemInfo method","IWMPSyncDevice.getItemInfo","IWMPSyncDevice::getItemInfo","IWMPSyncDevicegetItemInfo","getItemInfo","getItemInfo method [Windows Media Player]","getItemInfo method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_getiteminfo","wmp/IWMPSyncDevice::getItemInfo"]
 old-location: wmp\iwmpsyncdevice_getiteminfo.htm
 tech.root: WMP
 ms.assetid: a25b91b8-fe14-4fde-8b68-4e61515e0e5c
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],getItemInfo method, IWMPSyncDevice.getItemInfo, IWMPSyncDevice::getItemInfo, IWMPSyncDevicegetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_getiteminfo, wmp/IWMPSyncDevice::getItemInfo
-f1_keywords:
-- wmp/IWMPSyncDevice.getItemInfo
-dev_langs:
-- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wmp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- wmp.dll
-api_name:
-- IWMPSyncDevice.getItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWMPSyncDevice::getItemInfo
+ - wmp/IWMPSyncDevice::getItemInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - wmp.dll
+api_name:
+ - IWMPSyncDevice.getItemInfo
 ---
 
 # IWMPSyncDevice::getItemInfo
@@ -48,17 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>getItemInfo</b> method retrieves a metadata value from the device.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param bstrItemName [in]
 
@@ -266,17 +260,12 @@ Requires Windows Media Player 12.
 <td>The size, in bytes, of the total memory for the device.</td>
 </tr>
 </table>
- 
-
 
 ### -param pbstrVal [out]
 
 Pointer to a <b>BSTR</b> that contains the specified metadata item name.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -308,33 +297,17 @@ Windows Media Player is currently busy initializing devices. Please try again la
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 This method cannot retrieve metadata values for devices having the status <b>wmpdsManualDevice</b>.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
- 
-
- 
-
+<a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>

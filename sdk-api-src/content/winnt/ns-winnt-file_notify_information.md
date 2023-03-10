@@ -2,15 +2,12 @@
 UID: NS:winnt._FILE_NOTIFY_INFORMATION
 title: FILE_NOTIFY_INFORMATION (winnt.h)
 description: Describes the changes found by the ReadDirectoryChangesW function.
+helpviewer_keywords: ["*PFILE_NOTIFY_INFORMATION","FILE_ACTION_ADDED","FILE_ACTION_MODIFIED","FILE_ACTION_REMOVED","FILE_ACTION_RENAMED_NEW_NAME","FILE_ACTION_RENAMED_OLD_NAME","FILE_NOTIFY_INFORMATION","FILE_NOTIFY_INFORMATION structure [Files]","PFILE_NOTIFY_INFORMATION","PFILE_NOTIFY_INFORMATION structure pointer [Files]","_FILE_NOTIFY_INFORMATION","_win32_file_notify_information_str","base.file_notify_information_str","fs.file_notify_information_str","winnt/FILE_NOTIFY_INFORMATION","winnt/PFILE_NOTIFY_INFORMATION"]
 old-location: fs\file_notify_information_str.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: cb95352f-8a15-48d8-9150-e4bc395e0122
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_NOTIFY_INFORMATION, FILE_ACTION_ADDED, FILE_ACTION_MODIFIED, FILE_ACTION_REMOVED, FILE_ACTION_RENAMED_NEW_NAME, FILE_ACTION_RENAMED_OLD_NAME, FILE_NOTIFY_INFORMATION, FILE_NOTIFY_INFORMATION structure [Files], PFILE_NOTIFY_INFORMATION, PFILE_NOTIFY_INFORMATION structure pointer [Files], _FILE_NOTIFY_INFORMATION, _win32_file_notify_information_str, base.file_notify_information_str, fs.file_notify_information_str, winnt/FILE_NOTIFY_INFORMATION, winnt/PFILE_NOTIFY_INFORMATION'
-f1_keywords:
-- winnt/FILE_NOTIFY_INFORMATION
-dev_langs:
-- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winnt.h
-api_name:
-- FILE_NOTIFY_INFORMATION
 targetos: Windows
 req.typenames: FILE_NOTIFY_INFORMATION, *PFILE_NOTIFY_INFORMATION
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _FILE_NOTIFY_INFORMATION
+ - winnt/_FILE_NOTIFY_INFORMATION
+ - PFILE_NOTIFY_INFORMATION
+ - winnt/PFILE_NOTIFY_INFORMATION
+ - FILE_NOTIFY_INFORMATION
+ - winnt/FILE_NOTIFY_INFORMATION
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winnt.h
+api_name:
+ - FILE_NOTIFY_INFORMATION
 ---
 
 # FILE_NOTIFY_INFORMATION structure
@@ -48,21 +54,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Describes the changes found by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
-
+    <a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a> function.
 
 ## -struct-fields
-
-
-
 
 ### -field NextEntryOffset
 
 The number of bytes that must be skipped to get to the next record. A value of zero indicates that this is 
       the last record.
-
 
 ### -field Action
 
@@ -129,14 +129,11 @@ The file was renamed and this is the new name.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field FileNameLength
 
 The size of the file name portion of the record, in bytes. Note that this value does not include the 
       terminating null character.
-
 
 ### -field FileName
 
@@ -147,14 +144,6 @@ A variable-length field that contains the file name relative to the directory ha
 If there is both a short and long name for the file, the function will return one of these names, but it is 
  	     unspecified which one.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>

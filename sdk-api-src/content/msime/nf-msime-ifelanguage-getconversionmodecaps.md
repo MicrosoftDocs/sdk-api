@@ -2,15 +2,12 @@
 UID: NF:msime.IFELanguage.GetConversionModeCaps
 title: IFELanguage::GetConversionModeCaps (msime.h)
 description: Gets the conversion mode capability of the IFELanguage object.
+helpviewer_keywords: ["FELANG_CMODE_AUTOMATIC","FELANG_CMODE_BESTFIRST","FELANG_CMODE_BOPOMOFO","FELANG_CMODE_CONVERSATION","FELANG_CMODE_FULLWIDTHOUT","FELANG_CMODE_HALFWIDTHOUT","FELANG_CMODE_HANGUL","FELANG_CMODE_HIRAGANAOUT","FELANG_CMODE_KATAKANAOUT","FELANG_CMODE_MERGECAND","FELANG_CMODE_MONORUBY","FELANG_CMODE_NAME","FELANG_CMODE_NOINVISIBLECHAR","FELANG_CMODE_NONE","FELANG_CMODE_NOPRUNING","FELANG_CMODE_PHRASEPREDICT","FELANG_CMODE_PINYIN","FELANG_CMODE_PLAURALCLAUSE","FELANG_CMODE_PRECONV","FELANG_CMODE_RADICAL","FELANG_CMODE_ROMAN","FELANG_CMODE_SINGLECONVERT","FELANG_CMODE_UNKNOWNREADING","FELANG_CMODE_USENOREVWORDS","GetConversionModeCaps","GetConversionModeCaps method [Internationalization for Windows Applications]","GetConversionModeCaps method [Internationalization for Windows Applications]","IFELanguage interface","IFELanguage interface [Internationalization for Windows Applications]","GetConversionModeCaps method","IFELanguage.GetConversionModeCaps","IFELanguage::GetConversionModeCaps","intl.ifelanguage_getconversionmodecaps","msime/IFELanguage::GetConversionModeCaps"]
 old-location: intl\ifelanguage_getconversionmodecaps.htm
 tech.root: Intl
 ms.assetid: B1A3D121-C650-4D04-9278-791A12F73A2E
 ms.date: 12/05/2018
 ms.keywords: FELANG_CMODE_AUTOMATIC, FELANG_CMODE_BESTFIRST, FELANG_CMODE_BOPOMOFO, FELANG_CMODE_CONVERSATION, FELANG_CMODE_FULLWIDTHOUT, FELANG_CMODE_HALFWIDTHOUT, FELANG_CMODE_HANGUL, FELANG_CMODE_HIRAGANAOUT, FELANG_CMODE_KATAKANAOUT, FELANG_CMODE_MERGECAND, FELANG_CMODE_MONORUBY, FELANG_CMODE_NAME, FELANG_CMODE_NOINVISIBLECHAR, FELANG_CMODE_NONE, FELANG_CMODE_NOPRUNING, FELANG_CMODE_PHRASEPREDICT, FELANG_CMODE_PINYIN, FELANG_CMODE_PLAURALCLAUSE, FELANG_CMODE_PRECONV, FELANG_CMODE_RADICAL, FELANG_CMODE_ROMAN, FELANG_CMODE_SINGLECONVERT, FELANG_CMODE_UNKNOWNREADING, FELANG_CMODE_USENOREVWORDS, GetConversionModeCaps, GetConversionModeCaps method [Internationalization for Windows Applications], GetConversionModeCaps method [Internationalization for Windows Applications],IFELanguage interface, IFELanguage interface [Internationalization for Windows Applications],GetConversionModeCaps method, IFELanguage.GetConversionModeCaps, IFELanguage::GetConversionModeCaps, intl.ifelanguage_getconversionmodecaps, msime/IFELanguage::GetConversionModeCaps
-f1_keywords:
-- msime/IFELanguage.GetConversionModeCaps
-dev_langs:
-- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Msime.h
-api_name:
-- IFELanguage.GetConversionModeCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFELanguage::GetConversionModeCaps
+ - msime/IFELanguage::GetConversionModeCaps
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Msime.h
+api_name:
+ - IFELanguage.GetConversionModeCaps
 ---
 
 # IFELanguage::GetConversionModeCaps
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets the conversion mode capability of the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
-
+Gets the conversion mode capability of the <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a> object.
 
 ## -parameters
-
-
-
 
 ### -param pdwCaps [out]
 
@@ -220,7 +217,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_NONE</a>
 
 
 </td>
@@ -232,7 +229,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PLAURALCLAUSE</a>
 
 
 </td>
@@ -244,7 +241,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_SINGLECONVERT</a>
 
 
 </td>
@@ -256,7 +253,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_AUTOMATIC</a>
 
 
 </td>
@@ -268,7 +265,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_PHRASEPREDICT</a>
 
 
 </td>
@@ -280,7 +277,7 @@ Use invalid revword on REV/RECONV.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
+<a href="/windows/desktop/Intl/ime-sentence-mode-values">IME_SMODE_CONVERSATION</a>
 
 
 </td>
@@ -306,25 +303,11 @@ Remove invisible chars (for example, the tone mark).
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
 <b>S_OK</b> if successful, otherwise <b>E_FAIL</b>.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>

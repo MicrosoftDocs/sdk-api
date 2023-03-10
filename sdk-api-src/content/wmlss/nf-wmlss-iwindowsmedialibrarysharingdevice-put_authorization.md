@@ -2,15 +2,12 @@
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.put_Authorization
 title: IWindowsMediaLibrarySharingDevice::put_Authorization (wmlss.h)
 description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","put_Authorization method","IWindowsMediaLibrarySharingDevice.put_Authorization","IWindowsMediaLibrarySharingDevice::put_Authorization","put_Authorization","put_Authorization method [Windows Media Library Sharing Services]","put_Authorization method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevice interface","wmlss.IWMLSDeviceput_Authorization","wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization"]
 old-location: wmlss\IWMLSDeviceput_Authorization.htm
 tech.root: WMLSS
 ms.assetid: 26ac8f24-d212-4558-a66e-ffe5e90bd73b
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],put_Authorization method, IWindowsMediaLibrarySharingDevice.put_Authorization, IWindowsMediaLibrarySharingDevice::put_Authorization, put_Authorization, put_Authorization method [Windows Media Library Sharing Services], put_Authorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceput_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization
-f1_keywords:
-- wmlss/IWindowsMediaLibrarySharingDevice.put_Authorization
-dev_langs:
-- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: WMPMediaSharing.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- WMPMediaSharing.dll
-api_name:
-- IWindowsMediaLibrarySharingDevice.put_Authorization
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsMediaLibrarySharingDevice::put_Authorization
+ - wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - WMPMediaSharing.dll
+api_name:
+ - IWindowsMediaLibrarySharingDevice.put_Authorization
 ---
 
 # IWindowsMediaLibrarySharingDevice::put_Authorization
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>put_Authorization</b> method authorizes or unauthorizes the device to have access to the current user's media library.
-
 
 ## -parameters
 
-
-
-
 ### -param authorization [in]
 
-An element of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmlss/ne-wmlss-windowsmedialibrarysharingdeviceauthorizationstatus">WindowsMediaLibrarySharingDeviceAuthorizationStatus</a> enumeration that specifies whether the device is authorized (<b>DEVICE_AUTHORIZATION_ALLOWED</b>) or unauthorized (<b>DEVICE_AUTHORIZATION_DENIED</b>) to have access to the current user's media library.
-
+An element of the <a href="/previous-versions/windows/desktop/api/wmlss/ne-wmlss-windowsmedialibrarysharingdeviceauthorizationstatus">WindowsMediaLibrarySharingDeviceAuthorizationStatus</a> enumeration that specifies whether the device is authorized (<b>DEVICE_AUTHORIZATION_ALLOWED</b>) or unauthorized (<b>DEVICE_AUTHORIZATION_DENIED</b>) to have access to the current user's media library.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -85,7 +79,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-

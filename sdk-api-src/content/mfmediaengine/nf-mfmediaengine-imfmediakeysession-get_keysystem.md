@@ -2,15 +2,12 @@
 UID: NF:mfmediaengine.IMFMediaKeySession.get_KeySystem
 title: IMFMediaKeySession::get_KeySystem (mfmediaengine.h)
 description: Gets the name of the key system name the media keys object was created with.
+helpviewer_keywords: ["IMFMediaKeySession interface [Media Foundation]","get_KeySystem method","IMFMediaKeySession.get_KeySystem","IMFMediaKeySession::get_KeySystem","get_KeySystem","get_KeySystem method [Media Foundation]","get_KeySystem method [Media Foundation]","IMFMediaKeySession interface","mf.imfmediakeysession_get_keysystem","mfmediaengine/IMFMediaKeySession::get_KeySystem"]
 old-location: mf\imfmediakeysession_get_keysystem.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: eaf3a411-7282-496c-8095-79a8913a0f8e
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],get_KeySystem method, IMFMediaKeySession.get_KeySystem, IMFMediaKeySession::get_KeySystem, get_KeySystem, get_KeySystem method [Media Foundation], get_KeySystem method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_keysystem, mfmediaengine/IMFMediaKeySession::get_KeySystem
-f1_keywords:
-- mfmediaengine/IMFMediaKeySession.get_KeySystem
-dev_langs:
-- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfmediaengine.h
-api_name:
-- IMFMediaKeySession.get_KeySystem
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaKeySession::get_KeySystem
+ - mfmediaengine/IMFMediaKeySession::get_KeySystem
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfmediaengine.h
+api_name:
+ - IMFMediaKeySession.get_KeySystem
 ---
 
 # IMFMediaKeySession::get_KeySystem
@@ -48,36 +50,18 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the name of the  key system name the media keys object was created with.
 
-
 ## -parameters
-
-
-
 
 ### -param keySystem
 
 The name of the key system.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysession">IMFMediaKeySession</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysession">IMFMediaKeySession</a>

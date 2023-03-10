@@ -2,15 +2,12 @@
 UID: NC:mapi.MAPIDETAILS
 title: MAPIDETAILS (mapi.h)
 description: The MAPIDetails function displays a dialog box containing the details of a selected address list entry.
+helpviewer_keywords: ["MAPIDetails","MAPIDetails callback","MAPIDetails callback function","MAPI_AB_NOMODIFY","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapidetails","mapi/MAPIDetails"]
 old-location: mapi\mapidetails.htm
-tech.root: WindowsMAPI
+tech.root: mapi
 ms.assetid: 28fbafff-8f34-4db8-bcb5-98f61883bea0
 ms.date: 12/05/2018
 ms.keywords: MAPIDetails, MAPIDetails callback, MAPIDetails callback function, MAPI_AB_NOMODIFY, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapidetails, mapi/MAPIDetails
-f1_keywords:
-- mapi/MAPIDetails
-dev_langs:
-- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- Mapi.h
-api_name:
-- MAPIDetails
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MAPIDETAILS
+ - mapi/MAPIDETAILS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - Mapi.h
+api_name:
+ - MAPIDetails
 ---
 
 # MAPIDETAILS callback function
@@ -48,31 +50,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 <p class="CCE_Message">[The use of this function is discouraged. It may be altered or unavailable in subsequent versions of Windows.]
 
 The <b>MAPIDetails</b> function displays a dialog box containing the details of a selected address list entry.
 
-
 ## -parameters
-
-
-
 
 ### -param lhSession [in]
 
 Session handle that represents a Simple MAPI session or zero. If the value of the <i>lhSession</i> parameter is zero, MAPI logs on the user and creates a session that exists only for the duration of the call. This temporary session can be an existing shared session or a new one. If additional information is required from the user to successfully complete the logon, a dialog box is displayed.
 
-
 ### -param ulUIParam [in]
 
 Parent window handle or zero, indicating that if a dialog box is displayed, it is application modal. If the <i>ulUIParam</i> parameter contains a parent window handle, it is of type HWND (cast to a ULONG_PTR). If no dialog box is displayed during the call, <i> ulUIParam</i> is ignored.
 
-
 ### -param lpRecip [in]
 
-Pointer to the recipient for which details are to be displayed.  <b>MAPIDetails</b> ignores all members of this <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure except the <b>ulEIDSize</b> and <b>lpEntryID</b> members. If the value of <b>ulEIDSize</b> is nonzero, <b>MAPIDetails</b> resolves the recipient entry. If the value of <b>ulEIDSize</b> is zero, <b>MAPIDetails</b> returns the MAPI_E_AMBIGUOUS_RECIP value. 
-
+Pointer to the recipient for which details are to be displayed.  <b>MAPIDetails</b> ignores all members of this <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure except the <b>ulEIDSize</b> and <b>lpEntryID</b> members. If the value of <b>ulEIDSize</b> is nonzero, <b>MAPIDetails</b> resolves the recipient entry. If the value of <b>ulEIDSize</b> is zero, <b>MAPIDetails</b> returns the MAPI_E_AMBIGUOUS_RECIP value.
 
 ### -param flFlags [in]
 
@@ -114,17 +108,12 @@ An attempt should be made to create a new session rather than acquire the enviro
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ulReserved
 
 Reserved; must be zero.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -222,45 +211,29 @@ The call succeeded and the details dialog box was displayed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>MAPIDetails</b> function presents a dialog box that shows the details of a particular address list entry. The display name and address are the minimum attributes that are displayed in the dialog box; more information can be shown, depending on the address book provider. The details dialog box cannot be suppressed, but the caller can request that it be read-only or modifiable. 
 
-Details can only be shown for resolved address list entries. An entry is resolved if the value of the <b>ulEIDSize</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure is nonzero. Entries are resolved when they are returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a> functions and as the result being recipients of read mail.
-
-
-
+Details can only be shown for resolved address list entries. An entry is resolved if the value of the <b>ulEIDSize</b> member of the <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a> structure is nonzero. Entries are resolved when they are returned by the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a> or <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a> functions and as the result being recipients of read mail.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
- 
-
- 
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

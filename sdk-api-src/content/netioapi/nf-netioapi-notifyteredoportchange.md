@@ -2,15 +2,12 @@
 UID: NF:netioapi.NotifyTeredoPortChange
 title: NotifyTeredoPortChange function (netioapi.h)
 description: Registers to be notified for changes to the UDP port number used by the Teredo client for the Teredo service port on a local computer.
+helpviewer_keywords: ["NotifyTeredoPortChange","NotifyTeredoPortChange function [IP Helper]","iphlp.notifyteredoportchange","netioapi/NotifyTeredoPortChange"]
 old-location: iphlp\notifyteredoportchange.htm
 tech.root: IpHlp
 ms.assetid: c0c23531-7629-41c9-acf2-9d2f5e98e02c
 ms.date: 12/05/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
-f1_keywords:
-- netioapi/NotifyTeredoPortChange
-dev_langs:
-- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Iphlpapi.dll
-api_name:
-- NotifyTeredoPortChange
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - NotifyTeredoPortChange
+ - netioapi/NotifyTeredoPortChange
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Iphlpapi.dll
+api_name:
+ - NotifyTeredoPortChange
 ---
 
 # NotifyTeredoPortChange function
@@ -48,42 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>NotifyTeredoPortChange</b> function  registers to be notified for changes to the UDP port number used by the Teredo client for the Teredo service port on  a local computer.
 
-
 ## -parameters
-
-
-
 
 ### -param Callback [in]
 
 A pointer to the function to call when a Teredo client port change occurs. This function will be invoked
         when a Teredo port change notification is received.
 
-
 ### -param CallerContext [in]
 
 A user context passed to the callback function specified in the <i>Callback</i> parameter when a Teredo port change  notification is received.
-
 
 ### -param InitialNotification [in]
 
 A value that indicates whether the callback should be invoked
         immediately after registration for change notification completes. This initial notification does not indicate a change occurred to the Teredo client port. The purpose of this parameter to provide confirmation that the callback is registered.
 
-
 ### -param NotificationHandle [in, out]
 
 A pointer used to return a handle that can be later used to
         deregister the change notification. On success, a notification handle is returned in this parameter. If an error occurs, <b>NULL</b> is returned.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is NO_ERROR.
 
@@ -135,23 +126,17 @@ There was insufficient memory.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The <b>NotifyTeredoPortChange</b> function is defined on Windows Vista and later. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getteredoport">GetTeredoPort</a> function can be used to retrieve the initial UDP port number used by the Teredo client for the Teredo service port. 
+The <a href="/windows/desktop/api/netioapi/nf-netioapi-getteredoport">GetTeredoPort</a> function can be used to retrieve the initial UDP port number used by the Teredo client for the Teredo service port. 
 
 The Teredo port is dynamic and can change any time the Teredo client is restarted on the local computer. An application can  register to be notified when the Teredo service port changes by calling the <b>NotifyTeredoPortChange</b> function. 
 
@@ -188,7 +173,7 @@ The UDP port number currently used by the Teredo client. This parameter is <b>ze
 
 </td>
 <td width="60%">
-The notification type. This member can be one of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ne-netioapi-mib_notification_type">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
+The notification type. This member can be one of the values from the <a href="/windows/desktop/api/netioapi/ne-netioapi-mib_notification_type">MIB_NOTIFICATION_TYPE</a> enumeration type defined in the <i>Netioapi.h</i> header file.
 
 </td>
 </tr>
@@ -203,34 +188,24 @@ Once the <b>NotifyTeredoPortChange</b> function is called to register for change
 
 Any registration for change notifications does not persist across a system shut down or reboot.
 
-To deregister for change notifications, call the  <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyTeredoPortChange</b>. 
+To deregister for change notifications, call the  <a href="/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function passing the <i>NotificationHandle</i> parameter returned by  <b>NotifyTeredoPortChange</b>. 
 
-An application cannot make a call to the <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
+An application cannot make a call to the <a href="/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a> function from the context of the thread which is currently executing the notification callback function for the same <i>NotificationHandle</i> parameter. Otherwise, the thread executing that callback will result in deadlock. So the <b>CancelMibChangeNotify2</b> function must not be called directly as part of the notification callback routine. In a more general situation, a thread that executes the <b>CancelMibChangeNotify2</b> function cannot own a resource on which the thread that executes a notification callback operation would wait because it would result in a similar deadlock. The <b>CancelMibChangeNotify2</b> function should be called from a different thread, on which the thread that receives the notification callback doesn’t have dependencies on.
 
-The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=84066">http://www.ietf.org/rfc/rfc4380.txt</a>.
+The Teredo client also uses static UDP port 3544 for listening to multicast traffic sent on multicast IPv4 address 224.0.0.253 as defined in RFC 4380. For more information, see <a href="https://www.ietf.org/rfc/rfc4380.txt">http://www.ietf.org/rfc/rfc4380.txt</a>.
 
 The <b>NotifyTeredoPortChange</b> function is used primarily by firewall applications in order to configure the appropriate exceptions to allow incoming and outgoing Teredo traffic. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a> function is used primarily by applications that use the Teredo client.
-
-
-
+The <a href="/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a> function is used primarily by applications that use the Teredo client.
 
 ## -see-also
 
+<a href="/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-cancelmibchangenotify2">CancelMibChangeNotify2</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getteredoport">GetTeredoPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getteredoport">GetTeredoPort</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>
- 
-
- 
-
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable">NotifyStableUnicastIpAddressTable</a>

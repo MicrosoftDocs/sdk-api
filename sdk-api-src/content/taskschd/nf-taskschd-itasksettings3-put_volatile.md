@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.ITaskSettings3.put_Volatile
 title: ITaskSettings3::put_Volatile (taskschd.h)
-description: Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts.
+description: Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts. (Put)
+helpviewer_keywords: ["ITaskSettings3 interface [Task Scheduler]","Volatile property","ITaskSettings3.Volatile","ITaskSettings3.put_Volatile","ITaskSettings3::Volatile","ITaskSettings3::get_Volatile","ITaskSettings3::put_Volatile","Volatile property [Task Scheduler]","Volatile property [Task Scheduler]","ITaskSettings3 interface","put_Volatile","taskschd.itasksettings3_volatile","taskschd/ITaskSettings3::Volatile","taskschd/ITaskSettings3::get_Volatile","taskschd/ITaskSettings3::put_Volatile"]
 old-location: taskschd\itasksettings3_volatile.htm
 tech.root: taskschd
 ms.assetid: C5A28292-13A0-42DC-BF94-4F1A03A3306C
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings3 interface [Task Scheduler],Volatile property, ITaskSettings3.Volatile, ITaskSettings3.put_Volatile, ITaskSettings3::Volatile, ITaskSettings3::get_Volatile, ITaskSettings3::put_Volatile, Volatile property [Task Scheduler], Volatile property [Task Scheduler],ITaskSettings3 interface, put_Volatile, taskschd.itasksettings3_volatile, taskschd/ITaskSettings3::Volatile, taskschd/ITaskSettings3::get_Volatile, taskschd/ITaskSettings3::put_Volatile
-f1_keywords:
-- taskschd/ITaskSettings3.Volatile
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Taskschd.dll
-api_name:
-- ITaskSettings3.Volatile
-- ITaskSettings3.get_Volatile
-- ITaskSettings3.put_Volatile
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITaskSettings3::put_Volatile
+ - taskschd/ITaskSettings3::put_Volatile
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Taskschd.dll
+api_name:
+ - ITaskSettings3.Volatile
+ - ITaskSettings3.get_Volatile
+ - ITaskSettings3.put_Volatile
 ---
 
 # ITaskSettings3::put_Volatile
@@ -50,22 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets a boolean value that indicates whether the task is automatically disabled every time Windows starts.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings3">ITaskSettings3</a>
- 
-
- 
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings3">ITaskSettings3</a>

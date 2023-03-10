@@ -2,15 +2,12 @@
 UID: NF:objidl.IMessageFilter.MessagePending
 title: IMessageFilter::MessagePending (objidl.h)
 description: Indicates that a message has arrived while COM is waiting to respond to a remote call.
+helpviewer_keywords: ["IMessageFilter interface [COM]","MessagePending method","IMessageFilter.MessagePending","IMessageFilter::MessagePending","MessagePending","MessagePending method [COM]","MessagePending method [COM]","IMessageFilter interface","_com_imessagefilter_messagepending","com.imessagefilter_messagepending","objidl/IMessageFilter::MessagePending"]
 old-location: com\imessagefilter_messagepending.htm
 tech.root: com
 ms.assetid: f4aff53f-c344-4456-b53e-296d5a5b653a
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter interface [COM],MessagePending method, IMessageFilter.MessagePending, IMessageFilter::MessagePending, MessagePending, MessagePending method [COM], MessagePending method [COM],IMessageFilter interface, _com_imessagefilter_messagepending, com.imessagefilter_messagepending, objidl/IMessageFilter::MessagePending
-f1_keywords:
-- objidl/IMessageFilter.MessagePending
-dev_langs:
-- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ObjIdl.h
-api_name:
-- IMessageFilter.MessagePending
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMessageFilter::MessagePending
+ - objidl/IMessageFilter::MessagePending
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ObjIdl.h
+api_name:
+ - IMessageFilter.MessagePending
 ---
 
 # IMessageFilter::MessagePending
@@ -48,35 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 Indicates that a message has arrived while COM is waiting to respond to a remote call.
 
 Handling input while waiting for an outgoing call to finish can introduce complications. The application should determine whether to process the message without interrupting the call, to continue waiting, or to cancel the operation.
 
-
 ## -parameters
-
-
-
 
 ### -param htaskCallee [in]
 
 The thread id of the called application.
 
-
 ### -param dwTickCount [in]
 
-The number of ticks since the call was made. It is calculated from the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function.
-
+The number of ticks since the call was made. It is calculated from the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-gettickcount">GetTickCount</a> function.
 
 ### -param dwPendingType [in]
 
-The type of call made during which a message or event was received. Possible values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-pendingtype">PENDINGTYPE</a>, where PENDINGTYPE_TOPLEVEL means the outgoing call was not nested within a call from another application and PENDINTGYPE_NESTED means the outgoing call was nested within a call from another application.
-
+The type of call made during which a message or event was received. Possible values are from the enumeration <a href="/windows/desktop/api/objidl/ne-objidl-pendingtype">PENDINGTYPE</a>, where PENDINGTYPE_TOPLEVEL means the outgoing call was not nested within a call from another application and PENDINTGYPE_NESTED means the outgoing call was nested within a call from another application.
 
 ## -returns
-
-
 
 This method can return the following values.
 
@@ -119,14 +111,8 @@ Keyboard and mouse messages are no longer dispatched. However there are some cas
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 COM calls <b>MessagePending</b> after an application has made a COM method call and a Windows message occurs before the call has returned. A Windows message is sent, for example, when the user selects a menu command or double-clicks an object. Before COM makes the <b>MessagePending</b> call, it calculates the elapsed time since the original COM method call was made. COM delivers the elapsed time in the <i>dwTickCount</i> parameter. In the meantime, COM does not remove the message from the queue.
 
@@ -144,24 +130,15 @@ If the callee does not respond, type ahead is not misinterpreted and the user is
 </ul>
 Handling input while waiting for an outgoing call to finish can introduce complications. The application should determine whether to process the message without interrupting the call, to continue waiting, or to cancel the operation.
 
-When there is no response to the original COM call, the application can cancel the call and restore the COM object to a consistent state by calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-revert">IStorage::Revert</a> on its storage. The object can be released when the container can shut down. However, canceling a call can create orphaned operations and resource leaks. Canceling should be used only as a last resort. It is strongly recommended that applications not allow such calls to be canceled.
+When there is no response to the original COM call, the application can cancel the call and restore the COM object to a consistent state by calling <a href="/windows/desktop/api/objidl/nf-objidl-istorage-revert">IStorage::Revert</a> on its storage. The object can be released when the container can shut down. However, canceling a call can create orphaned operations and resource leaks. Canceling should be used only as a last resort. It is strongly recommended that applications not allow such calls to be canceled.
 
-<div class="alert"><b>Note</b>  Although the <i>htaskCallee</i> parameter is typed as an HTASK, it  contains the thread id of the called thread. When you implement the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCallee</i> parameter,  and you can call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
+<div class="alert"><b>Note</b>  Although the <i>htaskCallee</i> parameter is typed as an HTASK, it  contains the thread id of the called thread. When you implement the <a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a> interface, you can call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a> function to get the thread handle from the <i>htaskCallee</i> parameter,  and you can call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessidofthread">GetProcessIdOfThread</a> function to get the process id.</div>
 <div> </div>
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a>

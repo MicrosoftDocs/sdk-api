@@ -2,15 +2,12 @@
 UID: NF:restartmanager.RmGetList
 title: RmGetList function (restartmanager.h)
 description: Gets a list of all applications and services that are currently using resources that have been registered with the Restart Manager session.
+helpviewer_keywords: ["RmGetList","RmGetList function [Restart Mgr]","restartmanager/RmGetList","rstmgr.rmgetlist"]
 old-location: rstmgr\rmgetlist.htm
 tech.root: rstmgr
 ms.assetid: de4feea4-2b45-4430-a4b3-8ca26c455e42
 ms.date: 12/05/2018
 ms.keywords: RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetList, rstmgr.rmgetlist
-f1_keywords:
-- restartmanager/RmGetList
-dev_langs:
-- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Rstrtmgr.dll
-api_name:
-- RmGetList
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - RmGetList
+ - restartmanager/RmGetList
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Rstrtmgr.dll
+api_name:
+ - RmGetList
 ---
 
 # RmGetList function
@@ -48,45 +50,33 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a list of all applications and services that are currently using resources that have been registered with the Restart Manager session.
 
-
 ## -parameters
-
-
-
 
 ### -param dwSessionHandle [in]
 
 A handle to an existing Restart Manager session.
 
-
 ### -param pnProcInfoNeeded [out]
 
-A pointer to an array size necessary to receive <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures required to return information for all affected applications and services.
-
+A pointer to an array size necessary to receive <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures required to return information for all affected applications and services.
 
 ### -param pnProcInfo [in, out]
 
-A pointer to the total number of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures in an array and number of structures filled.
-
+A pointer to the total number of <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures in an array and number of structures filled.
 
 ### -param rgAffectedApps [in, out, optional]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures that list the applications and services  using resources that have been registered with the session.
-
+An array of <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structures that list the applications and services  using resources that have been registered with the session.
 
 ### -param lpdwRebootReasons [out]
 
-Pointer to location that receives a value of the  <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ne-restartmanager-rm_reboot_reason">RM_REBOOT_REASON</a> enumeration that describes the reason a system restart is needed.
-
+Pointer to location that receives a value of the  <a href="/windows/desktop/api/restartmanager/ne-restartmanager-rm_reboot_reason">RM_REBOOT_REASON</a> enumeration that describes the reason a system restart is needed.
 
 ## -returns
 
-
-
-This is the most recent error received. The function can return one of the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
+This is the most recent error received. The function can return one of the <a href="/windows/desktop/Debug/system-error-codes">system error codes</a> that are defined in Winerror.h.
 
 <table>
 <tr>
@@ -113,7 +103,7 @@ The function completed successfully.
 </dl>
 </td>
 <td width="60%">
-This error value is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> function if the <i>rgAffectedApps</i> buffer is too small to hold all application information in the list.
+This error value is returned by the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a> function if the <i>rgAffectedApps</i> buffer is too small to hold all application information in the list.
 
 </td>
 </tr>
@@ -190,18 +180,7 @@ No Restart Manager session exists for the handle supplied.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmcancelcurrenttask">RmCancelCurrentTask</a>
- 
-
- 
-
+<a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmcancelcurrenttask">RmCancelCurrentTask</a>

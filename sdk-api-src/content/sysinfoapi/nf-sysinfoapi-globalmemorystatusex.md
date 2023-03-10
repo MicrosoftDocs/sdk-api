@@ -1,16 +1,13 @@
 ---
 UID: NF:sysinfoapi.GlobalMemoryStatusEx
 title: GlobalMemoryStatusEx function (sysinfoapi.h)
-description: Retrieves information about the system's current usage of both physical and virtual memory.
+description: Retrieves information about the system's current usage of both physical and virtual memory. (GlobalMemoryStatusEx)
+helpviewer_keywords: ["GlobalMemoryStatusEx","GlobalMemoryStatusEx function","_win32_globalmemorystatusex","base.globalmemorystatusex","sysinfoapi/GlobalMemoryStatusEx"]
 old-location: base\globalmemorystatusex.htm
-tech.root: Memory
+tech.root: base
 ms.assetid: bdcee13f-85be-4b9d-b108-3c5ea616dfbb
 ms.date: 12/05/2018
 ms.keywords: GlobalMemoryStatusEx, GlobalMemoryStatusEx function, _win32_globalmemorystatusex, base.globalmemorystatusex, sysinfoapi/GlobalMemoryStatusEx
-f1_keywords:
-- sysinfoapi/GlobalMemoryStatusEx
-dev_langs:
-- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,27 +25,32 @@ req.type-library:
 req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Kernel32.dll
-- API-MS-Win-Core-SysInfo-l1-1-0.dll
-- KernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-0.dll
-- API-MS-Win-Core-SysInfo-l1-2-1.dll
-- API-MS-Win-Core-SysInfo-l1-2-2.dll
-- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
-- MinKernelBase.dll
-- API-MS-Win-Core-SysInfo-l1-2-3.dll
-api_name:
-- GlobalMemoryStatusEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GlobalMemoryStatusEx
+ - sysinfoapi/GlobalMemoryStatusEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-SysInfo-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-0.dll
+ - API-MS-Win-Core-SysInfo-l1-2-1.dll
+ - API-MS-Win-Core-SysInfo-l1-2-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-SysInfo-l1-2-3.dll
+api_name:
+ - GlobalMemoryStatusEx
 ---
 
 # GlobalMemoryStatusEx function
@@ -56,36 +58,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves information about the system's current usage of both physical and virtual memory.
 
-
 ## -parameters
-
-
-
 
 ### -param lpBuffer [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure that receives information about current memory availability.
-
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure that receives information about current memory availability.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 You can use the 
 <b>GlobalMemoryStatusEx</b> function to determine how much memory your application can allocate without severely impacting other applications.
@@ -93,7 +82,7 @@ You can use the
 The information returned by the 
 <b>GlobalMemoryStatusEx</b> function is volatile. There is no guarantee that two sequential calls to this function will return the same information.
 
-The  <b>ullAvailPhys</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure at <i>lpBuffer</i> includes memory for all NUMA nodes. 
+The  <b>ullAvailPhys</b> member of the <a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a> structure at <i>lpBuffer</i> includes memory for all NUMA nodes. 
 
 
 #### Examples
@@ -156,30 +145,19 @@ void _tmain()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-memorystatusex">MEMORYSTATUSEX</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-address-space-and-physical-storage">Virtual Address Space and Physical Storage</a>
- 
-
- 
-
+<a href="/windows/desktop/Memory/virtual-address-space-and-physical-storage">Virtual Address Space and Physical Storage</a>

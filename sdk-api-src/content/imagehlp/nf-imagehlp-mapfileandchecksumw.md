@@ -1,16 +1,13 @@
 ---
 UID: NF:imagehlp.MapFileAndCheckSumW
 title: MapFileAndCheckSumW function (imagehlp.h)
-description: Computes the checksum of the specified file.
+description: Computes the checksum of the specified file. (Unicode)
+helpviewer_keywords: ["MapFileAndCheckSum", "MapFileAndCheckSum function", "MapFileAndCheckSumW", "_win32_mapfileandchecksum", "base.mapfileandchecksum", "imagehlp/MapFileAndCheckSum", "imagehlp/MapFileAndCheckSumW"]
 old-location: base\mapfileandchecksum.htm
 tech.root: Debug
 ms.assetid: e8fac3cc-bddf-419d-a245-d7af84d2c7f7
 ms.date: 12/05/2018
 ms.keywords: MapFileAndCheckSum, MapFileAndCheckSum function, MapFileAndCheckSumA, MapFileAndCheckSumW, _win32_mapfileandchecksum, base.mapfileandchecksum, imagehlp/MapFileAndCheckSum, imagehlp/MapFileAndCheckSumA, imagehlp/MapFileAndCheckSumW
-f1_keywords:
-- imagehlp/MapFileAndCheckSum
-dev_langs:
-- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Imagehlp.dll
-api_name:
-- MapFileAndCheckSum
-- MapFileAndCheckSumA
-- MapFileAndCheckSumW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MapFileAndCheckSumW
+ - imagehlp/MapFileAndCheckSumW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Imagehlp.dll
+api_name:
+ - MapFileAndCheckSum
+ - MapFileAndCheckSumA
+ - MapFileAndCheckSumW
 ---
 
 # MapFileAndCheckSumW function
@@ -50,33 +52,23 @@ ms.custom: 19H1
 
 ## -description
 
-
 Computes the checksum of the specified file.
 
-
 ## -parameters
-
-
-
 
 ### -param Filename [in]
 
 The file name of the file for which the checksum is to be computed.
 
-
 ### -param HeaderSum [out]
 
 A pointer to a variable that receives the original checksum from the image file, or zero if there is an error.
-
 
 ### -param CheckSum [out]
 
 A pointer to a variable that receives the computed checksum.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is CHECKSUM_SUCCESS (0).
 
@@ -136,14 +128,8 @@ Could not convert the file name to Unicode.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>MapFileAndCheckSum</b> function computes a new checksum for the file and returns it in the <i>CheckSum</i> parameter. This function is used by any application that creates or modifies an executable image. Checksums are required for kernel-mode drivers and some system DLLs. The linker computes the original checksum at link time, if you use the appropriate linker switch. For more details, see your linker documentation.
@@ -159,17 +145,14 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 
+
+> [!NOTE]
+> The imagehlp.h header defines MapFileAndCheckSum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-checksummappedfile">CheckSumMappedFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-checksummappedfile">CheckSumMappedFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>

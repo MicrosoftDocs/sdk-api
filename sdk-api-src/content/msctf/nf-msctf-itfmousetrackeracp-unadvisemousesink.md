@@ -2,15 +2,12 @@
 UID: NF:msctf.ITfMouseTrackerACP.UnadviseMouseSink
 title: ITfMouseTrackerACP::UnadviseMouseSink (msctf.h)
 description: ITfMouseTrackerACP::UnadviseMouseSink method
+helpviewer_keywords: ["ITfMouseTrackerACP interface [Text Services Framework]","UnadviseMouseSink method","ITfMouseTrackerACP.UnadviseMouseSink","ITfMouseTrackerACP::UnadviseMouseSink","UnadviseMouseSink","UnadviseMouseSink method [Text Services Framework]","UnadviseMouseSink method [Text Services Framework]","ITfMouseTrackerACP interface","_tsf_itfmousetrackeracp_unadvisemousesink_ref","msctf/ITfMouseTrackerACP::UnadviseMouseSink","tsf.itfmousetrackeracp_unadvisemousesink"]
 old-location: tsf\itfmousetrackeracp_unadvisemousesink.htm
 tech.root: TSF
 ms.assetid: 6c753e09-f67a-45d6-b2f9-c08d5c05c04d
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTrackerACP interface [Text Services Framework],UnadviseMouseSink method, ITfMouseTrackerACP.UnadviseMouseSink, ITfMouseTrackerACP::UnadviseMouseSink, UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework],ITfMouseTrackerACP interface, _tsf_itfmousetrackeracp_unadvisemousesink_ref, msctf/ITfMouseTrackerACP::UnadviseMouseSink, tsf.itfmousetrackeracp_unadvisemousesink
-f1_keywords:
-- msctf/ITfMouseTrackerACP.UnadviseMouseSink
-dev_langs:
-- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Msctf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- msctf.dll
-api_name:
-- ITfMouseTrackerACP.UnadviseMouseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional
 ms.custom: 19H1
+f1_keywords:
+ - ITfMouseTrackerACP::UnadviseMouseSink
+ - msctf/ITfMouseTrackerACP::UnadviseMouseSink
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - msctf.dll
+api_name:
+ - ITfMouseTrackerACP.UnadviseMouseSink
 ---
 
 # ITfMouseTrackerACP::UnadviseMouseSink
@@ -48,22 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
+Called to remove a mouse event sink.
 
 ## -parameters
 
-
-
-
 ### -param dwCookie [in]
 
-Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink</a>.
-
+Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink</a>.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -95,37 +90,21 @@ The application does not support mouse event sinks.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The application must release the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> supplied in the <b>ITfMouseTrackerACP::AdviseMouseSink</b> call associated with <i>dwCookie</i>.
-
-
-
+The application must release the <a href="/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink</a> supplied in the <b>ITfMouseTrackerACP::AdviseMouseSink</b> call associated with <i>dwCookie</i>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousesink">ITfMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetrackeracp">ITfMouseTrackerACP</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousetrackeracp">ITfMouseTrackerACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
       </a>
- 
-
- 
-

@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFHttpDownloadRequest.AddHeader
 title: IMFHttpDownloadRequest::AddHeader (mfidl.h)
 description: Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request. Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the BeginSendRequest method.
+helpviewer_keywords: ["AddHeader","AddHeader method [Media Foundation]","AddHeader method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","AddHeader method","IMFHttpDownloadRequest.AddHeader","IMFHttpDownloadRequest::AddHeader","mf.imfhttpdownloadrequest_addheader","mfidl/IMFHttpDownloadRequest::AddHeader"]
 old-location: mf\imfhttpdownloadrequest_addheader.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 37A2C9D8-EFF6-49D5-B495-EDBEEABD59CE
 ms.date: 12/05/2018
 ms.keywords: AddHeader, AddHeader method [Media Foundation], AddHeader method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],AddHeader method, IMFHttpDownloadRequest.AddHeader, IMFHttpDownloadRequest::AddHeader, mf.imfhttpdownloadrequest_addheader, mfidl/IMFHttpDownloadRequest::AddHeader
-f1_keywords:
-- mfidl/IMFHttpDownloadRequest.AddHeader
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfplat.lib
-- mfplat.dll
-- mfplat.dll
-- mfplat.dll.dll
-api_name:
-- IMFHttpDownloadRequest.AddHeader
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFHttpDownloadRequest::AddHeader
+ - mfidl/IMFHttpDownloadRequest::AddHeader
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfplat.lib
+ - mfplat.dll
+ - mfplat.dll
+ - mfplat.dll.dll
+api_name:
+ - IMFHttpDownloadRequest.AddHeader
 ---
 
 # IMFHttpDownloadRequest::AddHeader
@@ -51,23 +53,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request.  Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginsendrequest">BeginSendRequest</a> method.
-
+Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request.  Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginsendrequest">BeginSendRequest</a> method.
 
 ## -parameters
-
-
-
 
 ### -param szHeader [in]
 
 Contains a single HTTP request header, for example, “Accept: */*”. The string does not include the carriage return or line feed characters.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
           
@@ -100,18 +94,7 @@ There is insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:comsvcs.IEnumNames.Skip
 title: IEnumNames::Skip (comsvcs.h)
-description: Skips over the specified number of items in the enumeration sequence.
+description: Skips over the specified number of items in the enumeration sequence. (IEnumNames.Skip)
+helpviewer_keywords: ["IEnumNames interface [COM+]","Skip method","IEnumNames.Skip","IEnumNames::Skip","Skip","Skip method [COM+]","Skip method [COM+]","IEnumNames interface","_cos_IEnumNames_Skip","comsvcs/IEnumNames::Skip","cos.ienumnames_skip"]
 old-location: cos\ienumnames_skip.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: e45da100-688a-421e-a8cd-19fede5aac83
 ms.date: 12/05/2018
 ms.keywords: IEnumNames interface [COM+],Skip method, IEnumNames.Skip, IEnumNames::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumNames interface, _cos_IEnumNames_Skip, comsvcs/IEnumNames::Skip, cos.ienumnames_skip
-f1_keywords:
-- comsvcs/IEnumNames.Skip
-dev_langs:
-- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ComSvcs.h
-api_name:
-- IEnumNames.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumNames::Skip
+ - comsvcs/IEnumNames::Skip
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ComSvcs.h
+api_name:
+ - IEnumNames.Skip
 ---
 
 # IEnumNames::Skip
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Skips over the specified number of items in the enumeration sequence.
 
-
 ## -parameters
-
-
-
 
 ### -param celt [in]
 
 The number of elements to be skipped.
 
-
 ## -returns
-
-
 
 This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E_UNEXPECTED, and E_FAIL, as well as the following values.
 
@@ -96,18 +90,7 @@ The number of elements skipped was not the same as the number requested.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
- 
-
- 
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>

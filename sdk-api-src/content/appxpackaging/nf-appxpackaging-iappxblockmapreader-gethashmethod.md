@@ -2,15 +2,12 @@
 UID: NF:appxpackaging.IAppxBlockMapReader.GetHashMethod
 title: IAppxBlockMapReader::GetHashMethod (appxpackaging.h)
 description: Retrieves the URI for the hash algorithm used to create block hashes in the block map.
+helpviewer_keywords: ["GetHashMethod","GetHashMethod method [App packaging and management]","GetHashMethod method [App packaging and management]","IAppxBlockMapReader interface","IAppxBlockMapReader interface [App packaging and management]","GetHashMethod method","IAppxBlockMapReader.GetHashMethod","IAppxBlockMapReader::GetHashMethod","appxpackaging/IAppxBlockMapReader::GetHashMethod","appxpkg.iappxblockmapreader_gethashmethod"]
 old-location: appxpkg\iappxblockmapreader_gethashmethod.htm
 tech.root: appxpkg
 ms.assetid: 661E4F12-E426-4811-81FA-4F065C6E488A
 ms.date: 12/05/2018
 ms.keywords: GetHashMethod, GetHashMethod method [App packaging and management], GetHashMethod method [App packaging and management],IAppxBlockMapReader interface, IAppxBlockMapReader interface [App packaging and management],GetHashMethod method, IAppxBlockMapReader.GetHashMethod, IAppxBlockMapReader::GetHashMethod, appxpackaging/IAppxBlockMapReader::GetHashMethod, appxpkg.iappxblockmapreader_gethashmethod
-f1_keywords:
-- appxpackaging/IAppxBlockMapReader.GetHashMethod
-dev_langs:
-- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- AppxPackaging.h
-api_name:
-- IAppxBlockMapReader.GetHashMethod
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAppxBlockMapReader::GetHashMethod
+ - appxpackaging/IAppxBlockMapReader::GetHashMethod
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - AppxPackaging.h
+api_name:
+ - IAppxBlockMapReader.GetHashMethod
 ---
 
 # IAppxBlockMapReader::GetHashMethod
@@ -48,51 +50,28 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the URI for the hash algorithm used to create block hashes in the block map.
-
 
 ## -parameters
 
-
-
-
 ### -param hashMethod [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>**</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775038(v=vs.85)">IUri</a>**</b>
 
 The hash algorithm used in this block map.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
+The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of the <a href="/uwp/schemas/blockmapschema/element-blockmap">BlockMap</a> root element. 
 
-
-The <i>hashMethod</i> value corresponds to the <b>HashMethod</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/blockmapschema/element-blockmap">BlockMap</a> root element. 
-
-<b>GetHashMethod</b> returns supported URIs for <a href="https://docs.microsoft.com/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-digestmethod">DigestMethod</a>s.
-
-
-
+<b>GetHashMethod</b> returns supported URIs for <a href="/uwp/schemas/mobilebroadbandschema/carriercontrolsignatureschema/element-digestmethod">DigestMethod</a>s.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
- 
-
- 
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>

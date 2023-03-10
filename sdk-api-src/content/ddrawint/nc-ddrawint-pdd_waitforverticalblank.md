@@ -2,15 +2,12 @@
 UID: NC:ddrawint.PDD_WAITFORVERTICALBLANK
 title: PDD_WAITFORVERTICALBLANK (ddrawint.h)
 description: The DdWaitForVerticalBlank callback function returns the vertical blank status of the device.
+helpviewer_keywords: ["DdWaitForVerticalBlank","DdWaitForVerticalBlank callback function [Display Devices]","PDD_WAITFORVERTICALBLANK","PDD_WAITFORVERTICALBLANK callback","ddfncs_ed0f04a7-78e9-4ecc-80a6-95127dc28aed.xml","ddrawint/DdWaitForVerticalBlank","display.ddwaitforverticalblank"]
 old-location: display\ddwaitforverticalblank.htm
 tech.root: display
 ms.assetid: 0eeeed70-bfda-45c0-8709-29e97ab0c5a9
 ms.date: 12/05/2018
 ms.keywords: DdWaitForVerticalBlank, DdWaitForVerticalBlank callback function [Display Devices], PDD_WAITFORVERTICALBLANK, PDD_WAITFORVERTICALBLANK callback, ddfncs_ed0f04a7-78e9-4ecc-80a6-95127dc28aed.xml, ddrawint/DdWaitForVerticalBlank, display.ddwaitforverticalblank
-f1_keywords:
-- ddrawint/DdWaitForVerticalBlank
-dev_langs:
-- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -28,61 +25,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- ddrawint.h
-api_name:
-- DdWaitForVerticalBlank
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PDD_WAITFORVERTICALBLANK
+ - ddrawint/PDD_WAITFORVERTICALBLANK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - ddrawint.h
+api_name:
+ - DdWaitForVerticalBlank
 ---
-
-# PDD_WAITFORVERTICALBLANK callback function
-
 
 ## -description
 
-
 The <b>DdWaitForVerticalBlank</b> callback function returns the vertical blank status of the device.
-
 
 ## -parameters
 
+### -param unnamedParam1
 
-
-
-### -param Arg1
-
-
-
-
-
-
-
-
-#### - lpWaitForVerticalBlank
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a> structure that contains the information required to obtain the vertical blank status.
-
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a> structure that contains the information required to obtain the vertical blank status.
 
 ## -returns
 
-
-
 <b>DdWaitForVerticalBlank</b> returns one of the following callback codes:
 
-
-
-
 ## -remarks
-
-
 
 Depending on the value of the <b>dwFlags</b> member of the DD_WAITFORVERTICALBLANKDATA structure at <i>lpWaitForVerticalBlank</i>, the driver should do the following:
 
@@ -109,15 +86,6 @@ When the driver successfully handles the action specified in <b>dwFlags</b>, it 
 </div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforverticalblankdata">DD_WAITFORVERTICALBLANKDATA</a>

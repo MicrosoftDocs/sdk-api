@@ -2,15 +2,12 @@
 UID: NF:winuser.GetGestureConfig
 title: GetGestureConfig function (winuser.h)
 description: Retrieves the configuration for which Windows Touch gesture messages are sent from a window.
+helpviewer_keywords: ["GetGestureConfig","GetGestureConfig function [Windows Touch]","wintouch.getgestureconfig","winuser/GetGestureConfig"]
 old-location: wintouch\getgestureconfig.htm
 tech.root: wintouch
 ms.assetid: 8b7a594c-e9e4-4215-8946-da170c957a2b
 ms.date: 12/05/2018
 ms.keywords: GetGestureConfig, GetGestureConfig function [Windows Touch], wintouch.getgestureconfig, winuser/GetGestureConfig
-f1_keywords:
-- winuser/GetGestureConfig
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,25 +25,31 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- user32.dll
-- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
-- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
-- ext-ms-win-ntuser-misc-l1-3-1.dll
-- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
-- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
-- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
-api_name:
-- GetGestureConfig
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - GetGestureConfig
+ - winuser/GetGestureConfig
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - user32.dll
+ - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+ - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+ - ext-ms-win-ntuser-misc-l1-3-1.dll
+ - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+ - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+ - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+api_name:
+ - GetGestureConfig
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # GetGestureConfig function
@@ -54,67 +57,48 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the configuration for which Windows  Touch gesture messages are sent from a window.
-  
-
 
 ## -parameters
-
-
-
 
 ### -param hwnd [in]
 
 A handle to the window to get the gesture configuration from.
 
-
 ### -param dwReserved [in]
 
 This value is reserved and must be set to 0.
-
 
 ### -param dwFlags [in]
 
 A gesture command flag value indicating options for retrieving the gesture configuration.  See Remarks for additional information and supported values.
 
-
 ### -param pcIDs [in]
 
 The size, in number of gesture configuration structures, that is in the <i>pGestureConfig</i> buffer.
-
 
 ### -param pGestureConfig [in, out]
 
 An array of gesture configuration structures that specify the gesture configuration.
 
-
 ### -param cbSize [in]
 
-The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
-
+The size of the gesture configuration (<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
 
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
      
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
-
-
-
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-
-
 Passing a value other than <code>sizeof(GESTURECONFIG)</code> for the 
       <i>cbSize</i> parameter will cause calls to this function to fail and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will 
       return <b>ERROR_INVALID_PARAMETER</b> (87 in decimal).    
       
 
@@ -154,25 +138,14 @@ The following table lists the gesture configuration values:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
- 
-
- 
-
+<a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>

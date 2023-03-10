@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpRemoveSubnetElementV4
 title: DhcpRemoveSubnetElementV4 function (dhcpsapi.h)
 description: Removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server. The function extends the functionality provided by DhcpRemoveSubnetElement by allowing the specification of a subnet that contains client type (DHCP or BOOTP) information.
+helpviewer_keywords: ["DhcpRemoveSubnetElementV4","DhcpRemoveSubnetElementV4 function [DHCP]","dhcp.dhcpremovesubnetelementv4","dhcpsapi/DhcpRemoveSubnetElementV4"]
 old-location: dhcp\dhcpremovesubnetelementv4.htm
 tech.root: DHCP
 ms.assetid: 30edda5e-17de-46ec-9a6a-eab26a6ed29a
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveSubnetElementV4, DhcpRemoveSubnetElementV4 function [DHCP], dhcp.dhcpremovesubnetelementv4, dhcpsapi/DhcpRemoveSubnetElementV4
-f1_keywords:
-- dhcpsapi/DhcpRemoveSubnetElementV4
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpRemoveSubnetElementV4
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpRemoveSubnetElementV4
+ - dhcpsapi/DhcpRemoveSubnetElementV4
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpRemoveSubnetElementV4
 ---
 
 # DhcpRemoveSubnetElementV4 function
@@ -48,45 +50,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>DhcpRemoveSubnetElementV4</b> function removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server. The function extends the functionality provided by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremovesubnetelement">DhcpRemoveSubnetElement</a> by allowing the specification of a subnet that contains client type (DHCP or BOOTP) information.
-
+The <b>DhcpRemoveSubnetElementV4</b> function removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server. The function extends the functionality provided by <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremovesubnetelement">DhcpRemoveSubnetElement</a> by allowing the specification of a subnet that contains client type (DHCP or BOOTP) information.
 
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param SubnetAddress [in]
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the IP address of the subnet gateway and uniquely identifies it.
-
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the IP address of the subnet gateway and uniquely identifies it.
 
 ### -param RemoveElementInfo [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a> structure that contains information used to find the element that will be removed from subnet specified in <i>SubnetAddress</i>.
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a> structure that contains information used to find the element that will be removed from subnet specified in <i>SubnetAddress</i>.
 
 ### -param ForceFlag [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates whether or not the clients affected by the removal of the subnet element should also be deleted.
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates whether or not the clients affected by the removal of the subnet element should also be deleted.
 
 <div class="alert"><b>Note</b>  If the flag is set to <b>DhcpNoForce</b> and this subnet has served an IPv4 address to DHCPv4/BOOTP clients, the IPv4 range is not deleted; conversely, if the flag is set to <b>DhcpFullForce</b>, the IPv4 range is deleted along with the DHCPv4 client lease record on the DHCPv4 server.</div>
 <div> </div>
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -149,26 +138,15 @@ At least one multicast IPv4 address has been leased out to a MADCAP client.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v4">DHCP_SUBNET_ELEMENT_DATA_V4</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv4">DhcpAddSubnetElementV4</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpaddsubnetelementv4">DhcpAddSubnetElementV4</a>

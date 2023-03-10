@@ -1,16 +1,13 @@
 ---
-UID: NS:ws2atm.__unnamed_struct_1
+UID: NS:ws2atm.ATM_BLLI
 title: ATM_BLLI (ws2atm.h)
 description: The ATM_BLLI structure is used to identify B-LLI information for an associated ATM socket.
+helpviewer_keywords: ["ATM_BLLI","ATM_BLLI structure [Winsock]","_win32_atm_blli_2","winsock.atm_blli_2","ws2atm/ATM_BLLI"]
 old-location: winsock\atm_blli_2.htm
 tech.root: WinSock
 ms.assetid: 15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a
 ms.date: 12/05/2018
 ms.keywords: ATM_BLLI, ATM_BLLI structure [Winsock], _win32_atm_blli_2, winsock.atm_blli_2, ws2atm/ATM_BLLI
-f1_keywords:
-- ws2atm/ATM_BLLI
-dev_langs:
-- c++
 req.header: ws2atm.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ws2atm.h
-api_name:
-- ATM_BLLI
 targetos: Windows
 req.typenames: ATM_BLLI
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ATM_BLLI
+ - ws2atm/ATM_BLLI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ws2atm.h
+api_name:
+ - ATM_BLLI
 ---
 
 # ATM_BLLI structure
@@ -48,49 +50,36 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>ATM_BLLI</b> structure is used to identify B-LLI information for an associated ATM socket.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Layer2Protocol
 
 Identifies the layer-two protocol. Corresponds to the <i>User information layer 2 protocol</i> field in the B-LLI information element. A value of SAP_FIELD_ABSENT indicates that this field is not used, and a value of SAP_FIELD_ANY means wildcard.
 
-
 ### -field Layer2UserSpecifiedProtocol
 
 Identifies the user-specified layer-two protocol. Only used if the <b>Layer2Protocol</b> parameter is set to BLLI_L2_USER_SPECIFIED. The valid values range from zero–127. Corresponds to the <i>User specified layer 2 protocol information</i> field in the B-LLI information element.
-
 
 ### -field Layer3Protocol
 
 Identifies the layer-three protocol. Corresponds to the <i>User information layer 3 protocol</i> field in the B-LLI information element. A value of SAP_FIELD_ABSENT indicates that this field is not used, and a value of SAP_FIELD_ANY means wildcard.
 
-
 ### -field Layer3UserSpecifiedProtocol
 
 Identifies the user-specified layer-three protocol. Only used if the <b>Layer3Protocol</b> parameter is set to BLLI_L3_USER_SPECIFIED. The valid values range from zero–127. Corresponds to the <i>User specified layer 3 protocol information</i> field in the B-LLI information element.
-
 
 ### -field Layer3IPI
 
 Identifies the layer-three Initial Protocol Identifier. Only used if the <b>Layer3Protocol</b> parameter is set to BLLI_L3_ISO_TR9577. Corresponds to the <i>ISO/IEC TR 9577 Initial Protocol Identifier</i> field in the B-LLI information element.
 
-
 ### -field SnapID
 
 Identifies the 802.1 SNAP identifier. Only used if the <b>Layer3Protocol</b> parameter is set to BLLI_L3_ISO_TR9577 and <b>Layer3IPI</b> is set to BLLI_L3_IPI_SNAP, indicating an IEEE 802.1 SNAP identifier. Corresponds to the <i>OUI</i> and <i>PID</i> fields in the B-LLI information element.
 
-
 ## -remarks
-
-
 
 The following are the manifest constants associated with the 
 <b>ATM_BLLI</b> structure:
@@ -135,25 +124,15 @@ The following are the manifest constants associated with the
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/ws2atm/ns-ws2atm-atm_address">ATM_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-atm_address">ATM_ADDRESS</a>
+<a href="/windows/desktop/api/ws2atm/ns-ws2atm-atm_bhli">ATM_BHLI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-atm_bhli">ATM_BHLI</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2atm/ns-ws2atm-sockaddr_atm">sockaddr_atm</a>
- 
-
- 
+<a href="/windows/desktop/api/ws2atm/ns-ws2atm-sockaddr_atm">sockaddr_atm</a>
 

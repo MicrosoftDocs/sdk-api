@@ -2,15 +2,12 @@
 UID: NS:ddeml.tagCONVINFO
 title: CONVINFO (ddeml.h)
 description: Contains information about a Dynamic Data Exchange (DDE) conversation.
+helpviewer_keywords: ["*PCONVINFO","CONVINFO","CONVINFO structure [Data Exchange]","PCONVINFO","PCONVINFO structure pointer [Data Exchange]","ST_ADVISE","ST_BLOCKED","ST_BLOCKNEXT","ST_CLIENT","ST_CONNECTED","ST_INLIST","ST_ISLOCAL","ST_ISSELF","ST_TERMINATED","XST_ADVACKRCVD","XST_ADVDATAACKRCVD","XST_ADVDATASENT","XST_ADVSENT","XST_CONNECTED","XST_DATARCVD","XST_EXECACKRCVD","XST_EXECSENT","XST_INCOMPLETE","XST_INIT1","XST_INIT2","XST_NULL","XST_POKEACKRCVD","XST_POKESENT","XST_REQSENT","XST_UNADVACKRCVD","XST_UNADVSENT","XTYP_ADVDATA","XTYP_ADVREQ","XTYP_ADVSTART","XTYP_ADVSTOP","XTYP_CONNECT","XTYP_CONNECT_CONFIRM","XTYP_DISCONNECT","XTYP_EXECUTE","XTYP_MONITOR","XTYP_POKE","XTYP_REGISTER","XTYP_REQUEST","XTYP_UNREGISTER","XTYP_WILDCONNECT","XTYP_XACT_COMPLETE","_win32_CONVINFO_str","_win32_convinfo_str_cpp","dataxchg.convinfo_str","ddeml/CONVINFO","ddeml/PCONVINFO","winui._win32_convinfo_str"]
 old-location: dataxchg\convinfo_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\convinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*PCONVINFO, CONVINFO, CONVINFO structure [Data Exchange], PCONVINFO, PCONVINFO structure pointer [Data Exchange], ST_ADVISE, ST_BLOCKED, ST_BLOCKNEXT, ST_CLIENT, ST_CONNECTED, ST_INLIST, ST_ISLOCAL, ST_ISSELF, ST_TERMINATED, XST_ADVACKRCVD, XST_ADVDATAACKRCVD, XST_ADVDATASENT, XST_ADVSENT, XST_CONNECTED, XST_DATARCVD, XST_EXECACKRCVD, XST_EXECSENT, XST_INCOMPLETE, XST_INIT1, XST_INIT2, XST_NULL, XST_POKEACKRCVD, XST_POKESENT, XST_REQSENT, XST_UNADVACKRCVD, XST_UNADVSENT, XTYP_ADVDATA, XTYP_ADVREQ, XTYP_ADVSTART, XTYP_ADVSTOP, XTYP_CONNECT, XTYP_CONNECT_CONFIRM, XTYP_DISCONNECT, XTYP_EXECUTE, XTYP_MONITOR, XTYP_POKE, XTYP_REGISTER, XTYP_REQUEST, XTYP_UNREGISTER, XTYP_WILDCONNECT, XTYP_XACT_COMPLETE, _win32_CONVINFO_str, _win32_convinfo_str_cpp, dataxchg.convinfo_str, ddeml/CONVINFO, ddeml/PCONVINFO, winui._win32_convinfo_str'
-f1_keywords:
-- ddeml/CONVINFO
-dev_langs:
-- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Ddeml.h
-api_name:
-- CONVINFO
 targetos: Windows
 req.typenames: CONVINFO, *PCONVINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagCONVINFO
+ - ddeml/tagCONVINFO
+ - PCONVINFO
+ - ddeml/PCONVINFO
+ - CONVINFO
+ - ddeml/CONVINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Ddeml.h
+api_name:
+ - CONVINFO
 ---
 
 # CONVINFO structure
@@ -48,70 +54,57 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information about a Dynamic Data Exchange (DDE) conversation. 
-
+Contains information about a Dynamic Data Exchange (DDE) conversation.
 
 ## -struct-fields
-
-
-
 
 ### -field cb
 
 Type: <b>DWORD</b>
 
-The structure's size, in bytes. 
-
+The structure's size, in bytes.
 
 ### -field hUser
 
 Type: <b>DWORD_PTR</b>
 
-Application-defined data. 
-
+Application-defined data.
 
 ### -field hConvPartner
 
 Type: <b>HCONV</b>
 
-A handle to the partner application in the DDE conversation. This member is zero if the partner has not registered itself (using the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function) to make DDEML function calls. An application should not pass this member to any DDEML function except <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>. 
-
+A handle to the partner application in the DDE conversation. This member is zero if the partner has not registered itself (using the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a> function) to make DDEML function calls. An application should not pass this member to any DDEML function except <a href="/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>.
 
 ### -field hszSvcPartner
 
 Type: <b>HSZ</b>
 
-A handle to the service name of the partner application. 
-
+A handle to the service name of the partner application.
 
 ### -field hszServiceReq
 
 Type: <b>HSZ</b>
 
-A handle to the service name of the server application that was requested for connection. 
-
+A handle to the service name of the server application that was requested for connection.
 
 ### -field hszTopic
 
 Type: <b>HSZ</b>
 
-A handle to the name of the requested topic. 
-
+A handle to the name of the requested topic.
 
 ### -field hszItem
 
 Type: <b>HSZ</b>
 
-A handle to the name of the requested item. This member is transaction specific. 
-
+A handle to the name of the requested item. This member is transaction specific.
 
 ### -field wFmt
 
 Type: <b>UINT</b>
 
-The format of the data being exchanged. This member is transaction specific. 
-
+The format of the data being exchanged. This member is transaction specific.
 
 ### -field wType
 
@@ -142,7 +135,7 @@ Informs a client that advise data from a server has arrived.
 </dl>
 </td>
 <td width="60%">
-Requests a server to send updated data to the client during an advise loop. This transaction results when the server calls <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddepostadvise">DdePostAdvise</a>.
+Requests a server to send updated data to the client during an advise loop. This transaction results when the server calls <a href="/windows/desktop/api/ddeml/nf-ddeml-ddepostadvise">DdePostAdvise</a>.
 
 </td>
 </tr>
@@ -290,8 +283,6 @@ Notifies a client that an asynchronous data transaction has been completed.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wStatus
 
@@ -344,7 +335,7 @@ The conversation will block after calling the next callback.
 </dl>
 </td>
 <td width="60%">
-The con0x0010versation handle passed to the <a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function is a client-side handle. If the handle is zero, the conversation handle passed to the <b>DdeQueryConvInfo</b> function is a server-side handle.
+The con0x0010versation handle passed to the <a href="/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a> function is a client-side handle. If the handle is zero, the conversation handle passed to the <b>DdeQueryConvInfo</b> function is a server-side handle.
 
 </td>
 </tr>
@@ -404,8 +395,6 @@ The conversation has been terminated by the partner.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wConvst
 
@@ -447,7 +436,7 @@ The advise data transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-Advise data has been sent and is awaiting an acknowledgement.
+Advise data has been sent and is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -458,7 +447,7 @@ Advise data has been sent and is awaiting an acknowledgement.
 </dl>
 </td>
 <td width="60%">
-An advise transaction is awaiting an acknowledgement.
+An advise transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -502,7 +491,7 @@ An execute transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-An execute transaction is awaiting an acknowledgement.
+An execute transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -568,7 +557,7 @@ A poke transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-A poke transaction is awaiting an acknowledgement.
+A poke transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -579,7 +568,7 @@ A poke transaction is awaiting an acknowledgement.
 </dl>
 </td>
 <td width="60%">
-A request transaction is awaiting an acknowledgement.
+A request transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
@@ -601,55 +590,45 @@ An unadvise transaction has just been completed.
 </dl>
 </td>
 <td width="60%">
-An unadvise transaction is awaiting an acknowledgement.
+An unadvise transaction is awaiting an acknowledgment.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field wLastError
 
 Type: <b>UINT</b>
 
-The error value associated with the last transaction. 
-
+The error value associated with the last transaction.
 
 ### -field hConvList
 
 Type: <b>HCONVLIST</b>
 
-A handle to the conversation list if the handle to the current conversation is in a conversation list. This member is <b>NULL</b> if the conversation is not in a conversation list. 
-
+A handle to the conversation list if the handle to the current conversation is in a conversation list. This member is <b>NULL</b> if the conversation is not in a conversation list.
 
 ### -field ConvCtxt
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a></b>
+Type: <b><a href="/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a></b>
 
-The conversation context. 
-
+The conversation context.
 
 ### -field hwndPartner
 
 Type: <b>HWND</b>
 
-A handle to the window of the partner application involved in the current conversation. 
-
+A handle to the window of the partner application involved in the current conversation.
 
 ### -field hwnd
 
 Type: <b>HWND</b>
 
-A handle to the window of the calling application involved in the conversation. 
-
+A handle to the window of the calling application involved in the conversation.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a>
+<a href="/windows/desktop/api/ddeml/ns-ddeml-convcontext">CONVCONTEXT</a>
 
 
 
@@ -657,24 +636,20 @@ A handle to the window of the calling application involved in the conversation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddeinitializea">DdeInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddepostadvise">DdePostAdvise</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddepostadvise">DdePostAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>
+<a href="/windows/desktop/api/ddeml/nf-ddeml-ddequeryconvinfo">DdeQueryConvInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
+<a href="/windows/desktop/dataxchg/dynamic-data-exchange-management-library">Dynamic Data Exchange Management Library</a>
 
 
 
 <b>Reference</b>
- 
-
- 
-

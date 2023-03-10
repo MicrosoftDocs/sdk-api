@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMAsyncReaderTimestampScaling.SetTimestampMode
 title: IAMAsyncReaderTimestampScaling::SetTimestampMode (strmif.h)
 description: Sets the filter's time-stamping mode.
+helpviewer_keywords: ["FALSE","IAMAsyncReaderTimestampScaling interface [DirectShow]","SetTimestampMode method","IAMAsyncReaderTimestampScaling.SetTimestampMode","IAMAsyncReaderTimestampScaling::SetTimestampMode","SetTimestampMode","SetTimestampMode method [DirectShow]","SetTimestampMode method [DirectShow]","IAMAsyncReaderTimestampScaling interface","TRUE","dshow.iamasyncreadertimestampscaling_settimestampmode","strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode"]
 old-location: dshow\iamasyncreadertimestampscaling_settimestampmode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 7f556e26-049d-4024-95a2-c899be1ef180
 ms.date: 12/05/2018
 ms.keywords: FALSE, IAMAsyncReaderTimestampScaling interface [DirectShow],SetTimestampMode method, IAMAsyncReaderTimestampScaling.SetTimestampMode, IAMAsyncReaderTimestampScaling::SetTimestampMode, SetTimestampMode, SetTimestampMode method [DirectShow], SetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, TRUE, dshow.iamasyncreadertimestampscaling_settimestampmode, strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode
-f1_keywords:
-- strmif/IAMAsyncReaderTimestampScaling.SetTimestampMode
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMAsyncReaderTimestampScaling.SetTimestampMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMAsyncReaderTimestampScaling::SetTimestampMode
+ - strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMAsyncReaderTimestampScaling.SetTimestampMode
 ---
 
 # IAMAsyncReaderTimestampScaling::SetTimestampMode
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the filter's time-stamping mode.
 
-
 ## -parameters
-
-
-
 
 ### -param fRaw [in]
 
@@ -91,34 +88,16 @@ Time stamps are in units of bytes × 10000000. To get the offset in bytes, divid
 
 The default value is <b>FALSE</b>.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 To support large files (greater than 850 GB), the downstream parser filter can call this method with the value <b>TRUE</b>. For backward compatibility, the default setting is <b>FALSE</b>. Call the method when the pins connect.
 
 Applications should never call this method; doing so will cause the parser filter to misinterpret the time stamps.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamasyncreadertimestampscaling">IAMAsyncReaderTimestampScaling</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamasyncreadertimestampscaling">IAMAsyncReaderTimestampScaling</a>

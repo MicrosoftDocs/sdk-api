@@ -2,15 +2,12 @@
 UID: NS:winuser.tagTITLEBARINFOEX
 title: TITLEBARINFOEX (winuser.h)
 description: Expands on the information described in the TITLEBARINFO structure by including the coordinates of each element of the title bar.
+helpviewer_keywords: ["*LPTITLEBARINFOEX","*PTITLEBARINFOEX","LPTITLEBARINFOEX","LPTITLEBARINFOEX structure pointer [Windows and Messages]","PTITLEBARINFOEX","PTITLEBARINFOEX structure pointer [Windows and Messages]","STATE_SYSTEM_FOCUSABLE","STATE_SYSTEM_INVISIBLE","STATE_SYSTEM_OFFSCREEN","STATE_SYSTEM_PRESSED","STATE_SYSTEM_UNAVAILABLE","TITLEBARINFOEX","TITLEBARINFOEX structure [Windows and Messages]","_win32_TITLEBARINFOEX_str","_win32_titlebarinfoex_str_cpp","winmsg.titlebarinfoex","winui._win32_titlebarinfoex_str","winuser/LPTITLEBARINFOEX","winuser/PTITLEBARINFOEX","winuser/TITLEBARINFOEX"]
 old-location: winmsg\titlebarinfoex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\titlebarinfoex.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPTITLEBARINFOEX, *PTITLEBARINFOEX, LPTITLEBARINFOEX, LPTITLEBARINFOEX structure pointer [Windows and Messages], PTITLEBARINFOEX, PTITLEBARINFOEX structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFOEX, TITLEBARINFOEX structure [Windows and Messages], _win32_TITLEBARINFOEX_str, _win32_titlebarinfoex_str_cpp, winmsg.titlebarinfoex, winui._win32_titlebarinfoex_str, winuser/LPTITLEBARINFOEX, winuser/PTITLEBARINFOEX, winuser/TITLEBARINFOEX'
-f1_keywords:
-- winuser/TITLEBARINFOEX
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- TITLEBARINFOEX
 targetos: Windows
 req.typenames: TITLEBARINFOEX, *PTITLEBARINFOEX, *LPTITLEBARINFOEX
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagTITLEBARINFOEX
+ - winuser/tagTITLEBARINFOEX
+ - PTITLEBARINFOEX
+ - winuser/PTITLEBARINFOEX
+ - TITLEBARINFOEX
+ - winuser/TITLEBARINFOEX
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - TITLEBARINFOEX
 ---
 
 # TITLEBARINFOEX structure
@@ -48,30 +54,23 @@ ms.custom: 19H1
 
 ## -description
 
+Expands on the information described in the <a href="/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
 
-Expands on the information described in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a> structure by including the coordinates of each element of the title bar.
-
-This structure is sent with the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
-
+This structure is sent with the <a href="/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
 
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
-The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
-
+The size of the structure, in bytes. Set this member to <code>sizeof(TITLEBARINFOEX)</code> before sending with the <a href="/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a> message.
 
 ### -field rcTitleBar
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 The bounding rectangle of the title bar. The rectangle is expressed in screen coordinates and includes all titlebar elements except the window menu.
-
 
 ### -field rgstate
 
@@ -174,8 +173,6 @@ The element is in the pressed state.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field rgrect
 
@@ -213,13 +210,8 @@ An array that receives a structure for each element of the title bar. The struct
 <td>Close button.</td>
 </tr>
 </table>
- 
-
 
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
@@ -229,12 +221,8 @@ An array that receives a structure for each element of the title bar. The struct
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a>
+<a href="/windows/desktop/menurc/wm-gettitlebarinfoex">WM_GETTITLEBARINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

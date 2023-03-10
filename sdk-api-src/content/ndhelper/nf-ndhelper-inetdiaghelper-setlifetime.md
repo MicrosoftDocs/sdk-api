@@ -2,15 +2,12 @@
 UID: NF:ndhelper.INetDiagHelper.SetLifeTime
 title: INetDiagHelper::SetLifeTime (ndhelper.h)
 description: The Helper Class Extension can limit its diagnosis to events within that time period.
+helpviewer_keywords: ["INetDiagHelper interface [NDF]","SetLifeTime method","INetDiagHelper.SetLifeTime","INetDiagHelper::SetLifeTime","SetLifeTime","SetLifeTime method [NDF]","SetLifeTime method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_setlifetime","ndhelper/INetDiagHelper::SetLifeTime"]
 old-location: ndf\inetdiaghelpe_setlifetime.htm
 tech.root: NDF
 ms.assetid: a211c885-364f-4ba5-a4c9-88a87b30cdc7
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],SetLifeTime method, INetDiagHelper.SetLifeTime, INetDiagHelper::SetLifeTime, SetLifeTime, SetLifeTime method [NDF], SetLifeTime method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_setlifetime, ndhelper/INetDiagHelper::SetLifeTime
-f1_keywords:
-- ndhelper/INetDiagHelper.SetLifeTime
-dev_langs:
-- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- ndhelper.h
-api_name:
-- INetDiagHelper.SetLifeTime
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetDiagHelper::SetLifeTime
+ - ndhelper/INetDiagHelper::SetLifeTime
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - ndhelper.h
+api_name:
+ - INetDiagHelper.SetLifeTime
 ---
 
 # INetDiagHelper::SetLifeTime
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>SetLifeTime</b> method is called by NDF to set the start and end time of interest to diagnostics so that the Helper Class Extension can limit its diagnosis to events within that time period.
-
 
 ## -parameters
 
-
-
-
 ### -param lifeTime [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a> structure.
-
+A <a href="/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a> structure.
 
 ## -returns
-
-
 
 <table>
 <tr>
@@ -142,25 +136,10 @@ The diagnosis or repair operation has been canceled.
 
 Helper Class Extensions may return HRESULTS that are specific to the failures encountered in the function.
 
-
-
-
 ## -remarks
-
-
 
 This method is not required when building a Helper Class Extension.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
- 
-
- 
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

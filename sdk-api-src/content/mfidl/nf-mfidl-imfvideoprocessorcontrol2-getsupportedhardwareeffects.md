@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFVideoProcessorControl2.GetSupportedHardwareEffects
 title: IMFVideoProcessorControl2::GetSupportedHardwareEffects (mfidl.h)
 description: Returns the list of supported effects in the currently configured video processor.
+helpviewer_keywords: ["GetSupportedHardwareEffects","GetSupportedHardwareEffects method [Media Foundation]","GetSupportedHardwareEffects method [Media Foundation]","IMFVideoProcessorControl2 interface","IMFVideoProcessorControl2 interface [Media Foundation]","GetSupportedHardwareEffects method","IMFVideoProcessorControl2.GetSupportedHardwareEffects","IMFVideoProcessorControl2::GetSupportedHardwareEffects","mf.imfvideoprocessorcontrol2_getsupportedhardwareeffects","mfidl/IMFVideoProcessorControl2::GetSupportedHardwareEffects"]
 old-location: mf\imfvideoprocessorcontrol2_getsupportedhardwareeffects.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 0D5FE2B8-B8DD-40DE-8B41-40E773976BE6
 ms.date: 12/05/2018
 ms.keywords: GetSupportedHardwareEffects, GetSupportedHardwareEffects method [Media Foundation], GetSupportedHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],GetSupportedHardwareEffects method, IMFVideoProcessorControl2.GetSupportedHardwareEffects, IMFVideoProcessorControl2::GetSupportedHardwareEffects, mf.imfvideoprocessorcontrol2_getsupportedhardwareeffects, mfidl/IMFVideoProcessorControl2::GetSupportedHardwareEffects
-f1_keywords:
-- mfidl/IMFVideoProcessorControl2.GetSupportedHardwareEffects
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfidl.h
-api_name:
-- IMFVideoProcessorControl2.GetSupportedHardwareEffects
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFVideoProcessorControl2::GetSupportedHardwareEffects
+ - mfidl/IMFVideoProcessorControl2::GetSupportedHardwareEffects
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfidl.h
+api_name:
+ - IMFVideoProcessorControl2.GetSupportedHardwareEffects
 ---
 
 # IMFVideoProcessorControl2::GetSupportedHardwareEffects
@@ -48,40 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns the list of supported effects in the currently configured video processor.
 
-
 ## -parameters
-
-
-
 
 ### -param puiSupport [out]
 
 Type: <b>UINT*</b>
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps">D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies the list of suppported effect capabilities.
-
+A combination of <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_processor_auto_stream_caps">D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies the list of supported effect capabilities.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2">IMFVideoProcessorControl2</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2">IMFVideoProcessorControl2</a>

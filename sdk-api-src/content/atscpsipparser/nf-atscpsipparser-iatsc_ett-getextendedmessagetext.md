@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IATSC_ETT.GetExtendedMessageText
 title: IATSC_ETT::GetExtendedMessageText (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetExtendedMessageText","GetExtendedMessageText method [Microsoft TV Technologies]","GetExtendedMessageText method [Microsoft TV Technologies]","IATSC_ETT interface","IATSC_ETT interface [Microsoft TV Technologies]","GetExtendedMessageText method","IATSC_ETT.GetExtendedMessageText","IATSC_ETT::GetExtendedMessageText","IATSC_ETTGetExtendedMessageText","atscpsipparser/IATSC_ETT::GetExtendedMessageText","mstv.iatsc_ett_getextendedmessagetext"]
 old-location: mstv\iatsc_ett_getextendedmessagetext.htm
 tech.root: mstv
 ms.assetid: 4e1b5f65-4662-41aa-8a11-cce6a2debb9e
 ms.date: 12/05/2018
 ms.keywords: GetExtendedMessageText, GetExtendedMessageText method [Microsoft TV Technologies], GetExtendedMessageText method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetExtendedMessageText method, IATSC_ETT.GetExtendedMessageText, IATSC_ETT::GetExtendedMessageText, IATSC_ETTGetExtendedMessageText, atscpsipparser/IATSC_ETT::GetExtendedMessageText, mstv.iatsc_ett_getextendedmessagetext
-f1_keywords:
-- atscpsipparser/IATSC_ETT.GetExtendedMessageText
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IATSC_ETT.GetExtendedMessageText
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IATSC_ETT::GetExtendedMessageText
+ - atscpsipparser/IATSC_ETT::GetExtendedMessageText
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IATSC_ETT.GetExtendedMessageText
 ---
 
 # IATSC_ETT::GetExtendedMessageText
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetExtendedMessageText</b> method returns the message text.
 
-
 ## -parameters
-
-
-
 
 ### -param pdwLength [out]
 
 Receives the length of the title text, in bytes.
 
-
 ### -param ppText [out]
 
 Receives a pointer to the title text buffer. The method allocates the buffer and fills it with the title text, which is formatted as a Multiple String Structure as defined by ATSC PSIP Standard A/65. The caller must free the buffer by calling <b>CoTaskMemFree</b>.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -129,18 +121,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_ett">IATSC_ETT Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_ett">IATSC_ETT Interface</a>

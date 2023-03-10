@@ -1,16 +1,13 @@
 ---
 UID: NS:winsock.servent
 title: SERVENT (winsock.h)
-description: The servent structure is used to store or return the name and service number for a given service name.
+description: The SERVENT (winsock.h) structure is used to store or return the name and service number for a given service name.
+helpviewer_keywords: ["*LPSERVENT","*PSERVENT","FAR *LPSERVENT","FAR *LPSERVENT structure [Winsock]","PSERVENT","PSERVENT structure pointer [Winsock]","SERVENT","SERVENT structure [Winsock]","_win32_servent_2","servent","servent structure [Winsock]","winsock.servent_2","winsock/FAR *LPSERVENT","winsock/PSERVENT","winsock/servent"]
 old-location: winsock\servent_2.htm
 tech.root: WinSock
 ms.assetid: 8696b854-4d37-4d1b-8383-169b5dc7a2ae
-ms.date: 12/05/2018
+ms.date: 08/16/2022
 ms.keywords: '*LPSERVENT, *PSERVENT, FAR *LPSERVENT, FAR *LPSERVENT structure [Winsock], PSERVENT, PSERVENT structure pointer [Winsock], SERVENT, SERVENT structure [Winsock], _win32_servent_2, servent, servent structure [Winsock], winsock.servent_2, winsock/FAR *LPSERVENT, winsock/PSERVENT, winsock/servent'
-f1_keywords:
-- winsock/SERVENT
-dev_langs:
-- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- winsock.h
-api_name:
-- SERVENT
 targetos: Windows
 req.typenames: SERVENT, *PSERVENT, *LPSERVENT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - servent
+ - winsock/servent
+ - PSERVENT
+ - winsock/PSERVENT
+ - SERVENT
+ - winsock/SERVENT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - winsock.h
+api_name:
+ - SERVENT
 ---
 
 # SERVENT structure
@@ -48,43 +54,27 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>servent</b> structure is used to store or return the name and service number for a given service name.
 
-
 ## -struct-fields
-
-
-
 
 ### -field s_name
 
 The official name of the service.
 
-
 ### -field s_aliases
 
 A <b>NULL</b>-terminated array of alternate names.
-
 
 ### -field s_port
 
 The port number at which the service can be contacted. Port numbers are returned in network byte order.
 
-
 ### -field s_proto
 
 The name of the protocol to use when contacting the service.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>

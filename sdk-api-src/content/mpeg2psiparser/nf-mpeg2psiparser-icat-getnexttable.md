@@ -2,15 +2,12 @@
 UID: NF:mpeg2psiparser.ICAT.GetNextTable
 title: ICAT::GetNextTable (mpeg2psiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetNextTable","GetNextTable method [Microsoft TV Technologies]","GetNextTable method [Microsoft TV Technologies]","ICAT interface","ICAT interface [Microsoft TV Technologies]","GetNextTable method","ICAT.GetNextTable","ICAT::GetNextTable","ICATGetNextTable","mpeg2psiparser/ICAT::GetNextTable","mstv.icat_getnexttable"]
 old-location: mstv\icat_getnexttable.htm
 tech.root: mstv
 ms.assetid: 466643d5-02d1-4ac1-9143-867f503aad09
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetNextTable method, ICAT.GetNextTable, ICAT::GetNextTable, ICATGetNextTable, mpeg2psiparser/ICAT::GetNextTable, mstv.icat_getnexttable
-f1_keywords:
-- mpeg2psiparser/ICAT.GetNextTable
-dev_langs:
-- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mpeg2psiparser.h
-api_name:
-- ICAT.GetNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICAT::GetNextTable
+ - mpeg2psiparser/ICAT::GetNextTable
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mpeg2psiparser.h
+api_name:
+ - ICAT.GetNextTable
 ---
 
 # ICAT::GetNextTable
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetNextTable</b> method retrieves the <i>next</i> table that follows the current table.
 
-
 ## -parameters
-
-
-
 
 ### -param dwTimeout [in]
 
 Specifies a time-out value, in milliseconds. If the filter does not receive the data within the time-out period, the method fails.
 
-
 ### -param ppCAT [out]
 
 Receives a pointer to the <b>ICAT</b> interface. The caller must release the interface.
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,27 +110,11 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method applies only to current tables. Otherwise, the method returns E_ACCESSDENIED.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>

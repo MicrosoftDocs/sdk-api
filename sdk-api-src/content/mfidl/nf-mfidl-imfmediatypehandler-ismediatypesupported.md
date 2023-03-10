@@ -2,15 +2,12 @@
 UID: NF:mfidl.IMFMediaTypeHandler.IsMediaTypeSupported
 title: IMFMediaTypeHandler::IsMediaTypeSupported (mfidl.h)
 description: Queries whether the object supports a specified media type.
+helpviewer_keywords: ["IMFMediaTypeHandler interface [Media Foundation]","IsMediaTypeSupported method","IMFMediaTypeHandler.IsMediaTypeSupported","IMFMediaTypeHandler::IsMediaTypeSupported","IsMediaTypeSupported","IsMediaTypeSupported method [Media Foundation]","IsMediaTypeSupported method [Media Foundation]","IMFMediaTypeHandler interface","ea52defa-8b78-4f40-97ae-ed6a5ee4849e","mf.imfmediatypehandler_ismediatypesupported","mfidl/IMFMediaTypeHandler::IsMediaTypeSupported"]
 old-location: mf\imfmediatypehandler_ismediatypesupported.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: ea52defa-8b78-4f40-97ae-ed6a5ee4849e
 ms.date: 12/05/2018
 ms.keywords: IMFMediaTypeHandler interface [Media Foundation],IsMediaTypeSupported method, IMFMediaTypeHandler.IsMediaTypeSupported, IMFMediaTypeHandler::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFMediaTypeHandler interface, ea52defa-8b78-4f40-97ae-ed6a5ee4849e, mf.imfmediatypehandler_ismediatypesupported, mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
-f1_keywords:
-- mfidl/IMFMediaTypeHandler.IsMediaTypeSupported
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfuuid.lib
-- mfuuid.dll
-api_name:
-- IMFMediaTypeHandler.IsMediaTypeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFMediaTypeHandler::IsMediaTypeSupported
+ - mfidl/IMFMediaTypeHandler::IsMediaTypeSupported
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfuuid.lib
+ - mfuuid.dll
+api_name:
+ - IMFMediaTypeHandler.IsMediaTypeSupported
 ---
 
 # IMFMediaTypeHandler::IsMediaTypeSupported
@@ -49,33 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 Queries whether the object supports a specified media type.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param pMediaType [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to check.
-          
-
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to check.
 
 ### -param ppMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the closest matching media type, or receives the value <b>NULL</b>. If non-<b>NULL</b>, the caller must release the interface. This parameter can be <b>NULL</b>. See Remarks.
-          
-
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the closest matching media type, or receives the value <b>NULL</b>. If non-<b>NULL</b>, the caller must release the interface. This parameter can be <b>NULL</b>. See Remarks.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -109,14 +97,8 @@ The object does not support this media type.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 If the object supports the media type given in <i>pMediaType</i>, the method returns <b>S_OK</b>. For a media source, it means the source can generate data that conforms to that media type. For a media sink, it means the sink can receive data that conforms to that media type. If the object does not support the media type, the method fails.
       
@@ -137,15 +119,6 @@ This interface is available on the following platforms if the Windows Media Form
 <li>Windows XP Media Center Edition 2005 with KB900325 (Windows XP Media Center Edition 2005) and KB925766 (October 2006 Update Rollup for Windows XP Media Center Edition) installed.</li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>

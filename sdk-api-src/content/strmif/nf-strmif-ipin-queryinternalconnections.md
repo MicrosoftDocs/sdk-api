@@ -2,15 +2,12 @@
 UID: NF:strmif.IPin.QueryInternalConnections
 title: IPin::QueryInternalConnections (strmif.h)
 description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter).
+helpviewer_keywords: ["IPin interface [DirectShow]","QueryInternalConnections method","IPin.QueryInternalConnections","IPin::QueryInternalConnections","IPinQueryInternalConnections","QueryInternalConnections","QueryInternalConnections method [DirectShow]","QueryInternalConnections method [DirectShow]","IPin interface","dshow.ipin_queryinternalconnections","strmif/IPin::QueryInternalConnections"]
 old-location: dshow\ipin_queryinternalconnections.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c0289b89-9220-402c-858c-09076e2ab6b6
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryInternalConnections method, IPin.QueryInternalConnections, IPin::QueryInternalConnections, IPinQueryInternalConnections, QueryInternalConnections, QueryInternalConnections method [DirectShow], QueryInternalConnections method [DirectShow],IPin interface, dshow.ipin_queryinternalconnections, strmif/IPin::QueryInternalConnections
-f1_keywords:
-- strmif/IPin.QueryInternalConnections
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IPin.QueryInternalConnections
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IPin::QueryInternalConnections
+ - strmif/IPin::QueryInternalConnections
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IPin.QueryInternalConnections
 ---
 
 # IPin::QueryInternalConnections
@@ -49,31 +51,19 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <b>QueryInternalConnections</b> method retrieves the pins that are connected internally to this pin (within the filter).
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param apPin [out]
 
-Address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. The caller allocates the array. The method fills the array with <b>IPin</b> pointers. If <i>nPin</i> is zero, this parameter can be <b>NULL</b>.
-
+Address of an array of <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. The caller allocates the array. The method fills the array with <b>IPin</b> pointers. If <i>nPin</i> is zero, this parameter can be <b>NULL</b>.
 
 ### -param nPin [in, out]
 
 On input, specifies the size of the array. On output, specifies the number of internally connected pins.
 
-
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -116,39 +106,23 @@ Not implemented.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method returns information about the filter's internal mapping of input pins to output pins. In other words, it describes how the input pins deliver data to the output pins.
 
-In most filters, every input pin connects to every output pin. For example, in a transform filter, one input connects to one output; in a splitter filter, one input connects to multiple ouputs. In these cases, the method should simply return E_NOTIMPL.
+In most filters, every input pin connects to every output pin. For example, in a transform filter, one input connects to one output; in a splitter filter, one input connects to multiple outputs. In these cases, the method should simply return E_NOTIMPL.
 
 Otherwise, the method returns an array of <b>IPin</b> pointers, one for each pin that is mapped internally to the pin you have queried. If you call the method on an input pin, the array contains pointers to output pins, and vice versa.
 
 The caller allocates the array of <b>IPin</b> pointers. To get the required array size, call the method once with <i>apPin</i> equal to <b>NULL</b>. The size is returned in the <i>nPin</i> parameter. Then allocate the array and call the method again, setting <i>apPin</i> equal to the address of the array and <i>nPin</i> equal to the array size. The method then fills the array with <b>IPin</b> pointers. Each returned pointer has an outstanding reference count and must be released by the caller.
 
-This method has another use that is now deprecated: The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a> treats a filter as being a renderer filter if at least one input pin implements this method but returns zero in <i>nPin</i>. If you are writing a new renderer filter, however, you should implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags</a> interface instead of using this method to indicate that the filter is a renderer.
-
-
-
+This method has another use that is now deprecated: The <a href="/windows/desktop/DirectShow/filter-graph-manager">Filter Graph Manager</a> treats a filter as being a renderer filter if at least one input pin implements this method but returns zero in <i>nPin</i>. If you are writing a new renderer filter, however, you should implement the <a href="/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags</a> interface instead of using this method to indicate that the filter is a renderer.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
- 
-
- 
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

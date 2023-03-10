@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IShellItemImageFactory.GetImage
 title: IShellItemImageFactory::GetImage (shobjidl_core.h)
 description: Gets an HBITMAP that represents an IShellItem.
+helpviewer_keywords: ["GetImage","GetImage method [Windows Shell]","GetImage method [Windows Shell]","IShellItemImageFactory interface","IShellItemImageFactory interface [Windows Shell]","GetImage method","IShellItemImageFactory.GetImage","IShellItemImageFactory::GetImage","SIIGBF_BIGGERSIZEOK","SIIGBF_CROPTOSQUARE","SIIGBF_ICONBACKGROUND","SIIGBF_ICONONLY","SIIGBF_INCACHEONLY","SIIGBF_MEMORYONLY","SIIGBF_RESIZETOFIT","SIIGBF_SCALEUP","SIIGBF_THUMBNAILONLY","SIIGBF_WIDETHUMBNAILS","_shell_IShellItemImageFactory_GetImage","shell.IShellItemImageFactory_GetImage","shobjidl_core/IShellItemImageFactory::GetImage"]
 old-location: shell\IShellItemImageFactory_GetImage.htm
 tech.root: shell
 ms.assetid: b31a5eb7-f12f-41e0-9047-450240371424
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [Windows Shell], GetImage method [Windows Shell],IShellItemImageFactory interface, IShellItemImageFactory interface [Windows Shell],GetImage method, IShellItemImageFactory.GetImage, IShellItemImageFactory::GetImage, SIIGBF_BIGGERSIZEOK, SIIGBF_CROPTOSQUARE, SIIGBF_ICONBACKGROUND, SIIGBF_ICONONLY, SIIGBF_INCACHEONLY, SIIGBF_MEMORYONLY, SIIGBF_RESIZETOFIT, SIIGBF_SCALEUP, SIIGBF_THUMBNAILONLY, SIIGBF_WIDETHUMBNAILS, _shell_IShellItemImageFactory_GetImage, shell.IShellItemImageFactory_GetImage, shobjidl_core/IShellItemImageFactory::GetImage
-f1_keywords:
-- shobjidl_core/IShellItemImageFactory.GetImage
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IShellItemImageFactory.GetImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellItemImageFactory::GetImage
+ - shobjidl_core/IShellItemImageFactory::GetImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IShellItemImageFactory.GetImage
 ---
 
 # IShellItemImageFactory::GetImage
@@ -48,21 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-Gets an <b>HBITMAP</b> that represents an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>. The default behavior is to load a thumbnail. If there is no thumbnail for the current <b>IShellItem</b>, it retrieves an <b>HBITMAP</b> for the icon of the item. The thumbnail or icon is extracted if it is not currently cached.
-
+Gets an <b>HBITMAP</b> that represents an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>. The default behavior is to load a thumbnail. If there is no thumbnail for the current <b>IShellItem</b>, it retrieves an <b>HBITMAP</b> for the icon of the item. The thumbnail or icon is extracted if it is not currently cached.
 
 ## -parameters
 
-
-
-
 ### -param size [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/windows/win32/api/windef/ns-windef-size">SIZE</a></b>
 
 A structure that specifies the size of the image to be received.
-
 
 ### -param flags [in]
 
@@ -80,7 +76,7 @@ Shrink the bitmap as necessary to fit, preserving its aspect ratio.
 
 #### SIIGBF_BIGGERSIZEOK (0x00000001)
 
-Passed by callers if they want to stretch the returned image themselves. For example, if the caller passes an icon size of 80x80, a 96x96 thumbnail could be returned. This action can be used as a performance optimization if the caller expects that they will need to stretch the image. Note that the Shell implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory">IShellItemImageFactory</a> performs a GDI stretch blit. If the caller wants a higher quality image stretch than provided through that mechanism, they should pass this flag and perform the stretch themselves.
+Passed by callers if they want to stretch the returned image themselves. For example, if the caller passes an icon size of 80x80, a 96x96 thumbnail could be returned. This action can be used as a performance optimization if the caller expects that they will need to stretch the image. Note that the Shell implementation of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemimagefactory">IShellItemImageFactory</a> performs a GDI stretch blit. If the caller wants a higher quality image stretch than provided through that mechanism, they should pass this flag and perform the stretch themselves.
 
 
 
@@ -130,32 +126,20 @@ Allows access to the disk, but only to retrieve a cached item. This returns a ca
 
 <b>Introduced in Windows 8</b>. If necessary, stretch the bitmap so that the height and width fit the given size.
 
-
 ### -param phbm [out]
 
 Type: <b>HBITMAP*</b>
 
-Pointer to a value that, when this method returns successfully, receives the handle of the retrieved bitmap. It is the responsibility of the caller to free this retrieved resource through <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> when it is no longer needed.
-
+Pointer to a value that, when this method returns successfully, receives the handle of the retrieved bitmap. It is the responsibility of the caller to free this retrieved resource through <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> when it is no longer needed.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
 Icon extraction can be time consuming. This method generally should not be called from a UI thread to avoid causing that thread to become unresponsive. You can call <b>IShellItemImageFactory::GetImage</b> on a UI thread if you set the <b>SIIGBF_INCACHEONLY</b> flag. However, if the image is not found in the cache, the calling application should be prepared to launch a background thread to extract the image. An extraction should never be done on a UI thread.
 
-See the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940383(v=vs.85)">Using Image Factory</a> sample for a full example of how to use this method.
-
-
-
+See the <a href="/previous-versions/windows/desktop/legacy/dd940383(v=vs.85)">Using Image Factory</a> sample for a full example of how to use this method.

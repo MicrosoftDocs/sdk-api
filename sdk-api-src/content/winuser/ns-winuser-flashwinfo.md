@@ -1,16 +1,13 @@
 ---
-UID: NS:winuser.__unnamed_struct_3
+UID: NS:winuser.FLASHWINFO
 title: FLASHWINFO (winuser.h)
 description: Contains the flash status for a window and the number of times the system should flash the window.
+helpviewer_keywords: ["*PFLASHWINFO","FLASHWINFO","FLASHWINFO structure","FLASHW_ALL","FLASHW_CAPTION","FLASHW_STOP","FLASHW_TIMER","FLASHW_TIMERNOFG","FLASHW_TRAY","PFLASHWINFO","PFLASHWINFO structure pointer","_win32_flashwinfo_str","base.flashwinfo_str","winuser/FLASHWINFO","winuser/PFLASHWINFO"]
 old-location: base\flashwinfo_str.htm
 tech.root: Debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
 ms.date: 12/05/2018
 ms.keywords: '*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO'
-f1_keywords:
-- winuser/FLASHWINFO
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Winuser.h
-api_name:
-- FLASHWINFO
 targetos: Windows
 req.typenames: FLASHWINFO, *PFLASHWINFO
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - PFLASHWINFO
+ - winuser/PFLASHWINFO
+ - FLASHWINFO
+ - winuser/FLASHWINFO
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Winuser.h
+api_name:
+ - FLASHWINFO
 ---
 
 # FLASHWINFO structure
@@ -48,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains the flash status for a window and the number of times the system should flash the window.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 The size of the structure, in bytes.
 
-
 ### -field hwnd
 
 A handle to the window to be flashed. The window can be either opened or minimized.
-
 
 ### -field dwFlags
 
@@ -145,26 +142,16 @@ Flash the taskbar button.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field uCount
 
 The number of times to flash the window.
 
-
 ### -field dwTimeout
 
 The rate at which the window is to be flashed, in milliseconds. If <b>dwTimeout</b> is zero, the function uses the default cursor blink rate.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a>
- 
-
- 
+<a href="/windows/desktop/api/winuser/nf-winuser-flashwindowex">FlashWindowEx</a>
 

@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMCrossbar.get_CrossbarPinInfo
 title: IAMCrossbar::get_CrossbarPinInfo (strmif.h)
 description: The get_CrossbarPinInfo method retrieves information about a specified pin.
+helpviewer_keywords: ["FALSE","IAMCrossbar interface [DirectShow]","get_CrossbarPinInfo method","IAMCrossbar.get_CrossbarPinInfo","IAMCrossbar::get_CrossbarPinInfo","IAMCrossbarget_CrossbarPinInfo","TRUE","dshow.iamcrossbar_get_crossbarpininfo","get_CrossbarPinInfo","get_CrossbarPinInfo method [DirectShow]","get_CrossbarPinInfo method [DirectShow]","IAMCrossbar interface","strmif/IAMCrossbar::get_CrossbarPinInfo"]
 old-location: dshow\iamcrossbar_get_crossbarpininfo.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 29cda12e-a731-4995-8e0c-69dfcda6f158
 ms.date: 12/05/2018
 ms.keywords: FALSE, IAMCrossbar interface [DirectShow],get_CrossbarPinInfo method, IAMCrossbar.get_CrossbarPinInfo, IAMCrossbar::get_CrossbarPinInfo, IAMCrossbarget_CrossbarPinInfo, TRUE, dshow.iamcrossbar_get_crossbarpininfo, get_CrossbarPinInfo, get_CrossbarPinInfo method [DirectShow], get_CrossbarPinInfo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_CrossbarPinInfo
-f1_keywords:
-- strmif/IAMCrossbar.get_CrossbarPinInfo
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IAMCrossbar.get_CrossbarPinInfo
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMCrossbar::get_CrossbarPinInfo
+ - strmif/IAMCrossbar::get_CrossbarPinInfo
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IAMCrossbar.get_CrossbarPinInfo
 ---
 
 # IAMCrossbar::get_CrossbarPinInfo
@@ -49,17 +51,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>get_CrossbarPinInfo</code> method retrieves information about a specified pin.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param IsInputPin [in]
 
@@ -91,27 +85,20 @@ Output pin
 </td>
 </tr>
 </table>
- 
-
 
 ### -param PinIndex [in]
 
 Specifies the index of the pin.
 
-
 ### -param PinIndexRelated [out]
 
 Pointer to a variable that receives the index of the related pin, or –1 if no pin is related to this pin. The <i>related pin</i> is a pin on the same filter, with the same direction; it typically represents the same physical jack or connector. For example, a video tuner and an audio tuner might be related pins. Typically, if two pins are related, you should route them together.
 
-
 ### -param PhysicalType [out]
 
-Pointer to a variable that receives a member of the [PhysicalConnectorType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration, indicating the pin's physical type.
-
+Pointer to a variable that receives a member of the [PhysicalConnectorType](/windows/desktop/api/strmif/ne-strmif-physicalconnectortype) enumeration, indicating the pin's physical type.
 
 ## -returns
-
-
 
 Returns an <b>HRESULT</b> value. Possible values include the following.
 
@@ -154,35 +141,19 @@ Success.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Output pins and input pins are both indexed from zero. To determine the number of output and input pins, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_pincounts">IAMCrossbar::get_PinCounts</a> method.
-
-
-
+Output pins and input pins are both indexed from zero. To determine the number of output and input pins, call the <a href="/windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_pincounts">IAMCrossbar::get_PinCounts</a> method.
 
 ## -see-also
 
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>

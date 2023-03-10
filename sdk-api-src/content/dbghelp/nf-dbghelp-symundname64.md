@@ -1,16 +1,13 @@
 ---
 UID: NF:dbghelp.SymUnDName64
 title: SymUnDName64 function (dbghelp.h)
-description: Undecorates a decorated C++ symbol name.
+description: Undecorates a decorated C++ symbol name. (SymUnDName64)
+helpviewer_keywords: ["SymUnDName","SymUnDName function","SymUnDName64","SymUnDName64 function","base.symundname64","dbghelp/SymUnDName","dbghelp/SymUnDName64"]
 old-location: base\symundname64.htm
 tech.root: Debug
 ms.assetid: f7bea3a4-5e17-4743-894f-8eb8f9992cac
 ms.date: 12/05/2018
 ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 function, base.symundname64, dbghelp/SymUnDName, dbghelp/SymUnDName64
-f1_keywords:
-- dbghelp/SymUnDName64
-dev_langs:
-- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dbghelp.dll
-api_name:
-- SymUnDName64
-- SymUnDName
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later
 ms.custom: 19H1
+f1_keywords:
+ - SymUnDName64
+ - dbghelp/SymUnDName64
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dbghelp.dll
+api_name:
+ - SymUnDName64
+ - SymUnDName
 ---
 
 # SymUnDName64 function
@@ -49,53 +51,38 @@ ms.custom: 19H1
 
 ## -description
 
-
 Undecorates a decorated C++ symbol name.
 
-Applications can also use the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-undecoratesymbolname">UnDecorateSymbolName</a> function.
-
+Applications can also use the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-undecoratesymbolname">UnDecorateSymbolName</a> function.
 
 ## -parameters
-
-
-
 
 ### -param sym [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure that specifies the symbol to be undecorated.
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-imagehlp_symbol">IMAGEHLP_SYMBOL64</a> structure that specifies the symbol to be undecorated.
 
 ### -param UnDecName [out]
 
 A pointer to a buffer that receives the undecorated name.
 
-
 ### -param UnDecNameLength [in]
 
 The size of the <i>UnDecName</i> buffer, in characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 This function supersedes the <b>SymUnDName</b> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymUnDName</b> is defined as follows in Dbghelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>SymUnDName</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -112,21 +99,10 @@ SymUnDName(
 #endif
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-undecoratesymbolname">UnDecorateSymbolName</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-undecoratesymbolname">UnDecorateSymbolName</a>

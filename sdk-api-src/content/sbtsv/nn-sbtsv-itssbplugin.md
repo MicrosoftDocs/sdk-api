@@ -2,15 +2,12 @@
 UID: NN:sbtsv.ITsSbPlugin
 title: ITsSbPlugin (sbtsv.h)
 description: Exposes methods that initialize and terminate plug-ins.
+helpviewer_keywords: ["ITsSbPlugin","ITsSbPlugin interface [Remote Desktop Services]","ITsSbPlugin interface [Remote Desktop Services]","described","sbtsv/ITsSbPlugin","termserv.itssbplugin"]
 old-location: termserv\itssbplugin.htm
 tech.root: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], ITsSbPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbPlugin, termserv.itssbplugin
-f1_keywords:
-- sbtsv/ITsSbPlugin
-dev_langs:
-- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- sbtsv.h
-api_name:
-- ITsSbPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ITsSbPlugin
+ - sbtsv/ITsSbPlugin
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - sbtsv.h
+api_name:
+ - ITsSbPlugin
 ---
 
 # ITsSbPlugin interface
@@ -48,52 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes methods that initialize and terminate plug-ins.
 
 This is the base interface for all plug-ins to Remote Desktop Connection Broker (RD Connection Broker). Derive from this interface to 
     create plug-ins for load balancing, placement, or orchestration.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbPlugin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbPlugin</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ITsSbPlugin</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes the plug-in.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-terminate">Terminate</a>
-</td>
-<td align="left" width="63%">
-Performs clean-up and unloads the plug-in.
-
-</td>
-</tr>
-</table> 
-
+The <b>ITsSbPlugin</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbPlugin</b> also has these types of members:
 
 ## -remarks
-
-
 
 Two different types of plugins are supported - filters and resources. Resource plugins are for supporting new 
      types of resources (for example VMs running on different hypervisors). Filter plugins allow the plugins to change 
@@ -102,7 +68,7 @@ Two different types of plugins are supported - filters and resources. Resource p
 To register a resource filter, add these values to the registry.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>
@@ -111,7 +77,7 @@ To register a resource filter, add these values to the registry.
                   <b>Plugins</b>
                      <b>Resource</b>
                         <i>YOUR_RESOURCE_PLUGIN_NAME</i>
-                           <b>CLSID</b> = {<i>CLSID of your resouce provider</i>}<dl>
+                           <b>CLSID</b> = {<i>CLSID of your resource provider</i>}<dl>
 <dt>                           Data type</dt>
 <dd>                           REG_SZ</dd>
 </dl>
@@ -134,7 +100,7 @@ The names used should be unique and identify the company, product, and/or featur
 To register a filter provider, add these values to the registry.
 
 
-<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
+<pre><b>HKEY_LOCAL_MACHINE</b>
    <b>SYSTEM</b>
       <b>CurrentControlSet</b>
          <b>Services</b>
@@ -173,16 +139,6 @@ To register a filter provider, add these values to the registry.
 
 First the system will load Filter 1, then load Filter 2, etc..
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
- 
-
- 
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

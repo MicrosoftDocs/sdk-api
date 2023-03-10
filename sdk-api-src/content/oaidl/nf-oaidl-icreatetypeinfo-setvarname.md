@@ -2,15 +2,12 @@
 UID: NF:oaidl.ICreateTypeInfo.SetVarName
 title: ICreateTypeInfo::SetVarName (oaidl.h)
 description: Sets the name of a variable.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetVarName method","ICreateTypeInfo.SetVarName","ICreateTypeInfo::SetVarName","SetVarName","SetVarName method [Automation]","SetVarName method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetVarName","automat.icreatetypeinfo_setvarname","oaidl/ICreateTypeInfo::SetVarName"]
 old-location: automat\icreatetypeinfo_setvarname.htm
 tech.root: automat
 ms.assetid: 9f51fc2a-74cc-4aab-89b7-0237c14ff7f5
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarName method, ICreateTypeInfo.SetVarName, ICreateTypeInfo::SetVarName, SetVarName, SetVarName method [Automation], SetVarName method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarName, automat.icreatetypeinfo_setvarname, oaidl/ICreateTypeInfo::SetVarName
-f1_keywords:
-- oaidl/ICreateTypeInfo.SetVarName
-dev_langs:
-- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- oaidl.h
-api_name:
-- ICreateTypeInfo.SetVarName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ICreateTypeInfo::SetVarName
+ - oaidl/ICreateTypeInfo::SetVarName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - oaidl.h
+api_name:
+ - ICreateTypeInfo.SetVarName
 ---
 
 # ICreateTypeInfo::SetVarName
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the name of a variable.
 
-
 ## -parameters
-
-
-
 
 ### -param index [in]
 
 The index of the variable.
 
-
 ### -param szName [in]
 
 The name.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -139,18 +132,7 @@ The element cannot be found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

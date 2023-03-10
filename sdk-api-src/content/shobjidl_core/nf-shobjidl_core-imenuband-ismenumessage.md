@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IMenuBand.IsMenuMessage
 title: IMenuBand::IsMenuMessage (shobjidl_core.h)
 description: A message pump calls this method to see if any messages should be redirected to the Component Object Model (COM) object.
+helpviewer_keywords: ["IMenuBand interface [Windows Shell]","IsMenuMessage method","IMenuBand.IsMenuMessage","IMenuBand::IsMenuMessage","IsMenuMessage","IsMenuMessage method [Windows Shell]","IsMenuMessage method [Windows Shell]","IMenuBand interface","_shell_IMenuBand_IsMenuMessage","shell.IMenuBand_IsMenuMessage","shobjidl_core/IMenuBand::IsMenuMessage"]
 old-location: shell\IMenuBand_IsMenuMessage.htm
 tech.root: shell
 ms.assetid: d30a456c-7c09-4250-8509-353c54d017b9
 ms.date: 12/05/2018
 ms.keywords: IMenuBand interface [Windows Shell],IsMenuMessage method, IMenuBand.IsMenuMessage, IMenuBand::IsMenuMessage, IsMenuMessage, IsMenuMessage method [Windows Shell], IsMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_IsMenuMessage, shell.IMenuBand_IsMenuMessage, shobjidl_core/IMenuBand::IsMenuMessage
-f1_keywords:
-- shobjidl_core/IMenuBand.IsMenuMessage
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IMenuBand.IsMenuMessage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMenuBand::IsMenuMessage
+ - shobjidl_core/IMenuBand::IsMenuMessage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IMenuBand.IsMenuMessage
 ---
 
 # IMenuBand::IsMenuMessage
@@ -48,25 +50,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 A message pump calls this method to see if any messages should be redirected to the Component Object Model (COM) object.
-
 
 ## -parameters
 
-
-
-
 ### -param pmsg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure.
-
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure.
 
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -84,7 +78,7 @@ This method can return one of these values.
 </dl>
 </td>
 <td width="60%">
-A message should be redirected to the COM object. The application should call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage">IMenuBand::TranslateMenuMessage</a> with this message.
+A message should be redirected to the COM object. The application should call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuband-translatemenumessage">IMenuBand::TranslateMenuMessage</a> with this message.
 
 </td>
 </tr>
@@ -100,16 +94,7 @@ The menu has exited the menu mode and can be destroyed.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-If this method returns <b>S_OK</b>, the message loop should not call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>.
-
-
-
+If this method returns <b>S_OK</b>, the message loop should not call <a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-dispatchmessage">DispatchMessage</a>.

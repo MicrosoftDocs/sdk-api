@@ -2,15 +2,12 @@
 UID: NF:winuser.ShutdownBlockReasonQuery
 title: ShutdownBlockReasonQuery function (winuser.h)
 description: Retrieves the reason string set by the ShutdownBlockReasonCreate function.
+helpviewer_keywords: ["ShutdownBlockReasonQuery","ShutdownBlockReasonQuery function","base.shutdownblockreasonquery","winuser/ShutdownBlockReasonQuery"]
 old-location: base\shutdownblockreasonquery.htm
-tech.root: Shutdown
+tech.root: base
 ms.assetid: 8c92ebbb-1692-4c14-b32a-17f59b8ab7a3
 ms.date: 12/05/2018
 ms.keywords: ShutdownBlockReasonQuery, ShutdownBlockReasonQuery function, base.shutdownblockreasonquery, winuser/ShutdownBlockReasonQuery
-f1_keywords:
-- winuser/ShutdownBlockReasonQuery
-dev_langs:
-- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- User32.dll
-api_name:
-- ShutdownBlockReasonQuery
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ShutdownBlockReasonQuery
+ - winuser/ShutdownBlockReasonQuery
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - User32.dll
+api_name:
+ - ShutdownBlockReasonQuery
 ---
 
 # ShutdownBlockReasonQuery function
@@ -48,45 +50,30 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the reason string set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function.
-
+Retrieves the reason string set by the <a href="/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a> function.
 
 ## -parameters
-
-
-
 
 ### -param hWnd [in]
 
 A handle to the main window of the application.
 
-
 ### -param pwszBuff [out, optional]
 
 A pointer to a buffer that receives the reason string. If this parameter is <b>NULL</b>, the function retrieves the number of characters in the reason string.
-
 
 ### -param pcchBuff [in, out]
 
 A pointer to a variable that specifies the size of the <i>pwszBuff</i> buffer, in characters. If the function succeeds, this variable receives the number of characters copied into the buffer, including the <b>null</b>-terminating character. If the buffer is too small, the variable receives the required buffer size, in characters, not including the <b>null</b>-terminating character.
 
-
 ## -returns
-
-
 
 If the call succeeds, the return value is nonzero.
 
 If the call fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
-
-
 
 This function can only be called from the thread that created the window specified by the <i>hWnd</i> parameter. Otherwise, the function fails and the last error code is ERROR_ACCESS_DENIED.
 
@@ -127,21 +114,10 @@ BOOL DisplayShutdownBlockReason()
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-shutdownblockreasoncreate">ShutdownBlockReasonCreate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
- 
-
- 
-
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>

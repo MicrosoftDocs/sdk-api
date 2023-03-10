@@ -2,15 +2,12 @@
 UID: NF:bits.IBackgroundCopyError.GetErrorContextDescription
 title: IBackgroundCopyError::GetErrorContextDescription (bits.h)
 description: Retrieves the description of the context in which the error occurred.
+helpviewer_keywords: ["GetErrorContextDescription","GetErrorContextDescription method [BITS]","GetErrorContextDescription method [BITS]","IBackgroundCopyError interface","IBackgroundCopyError interface [BITS]","GetErrorContextDescription method","IBackgroundCopyError.GetErrorContextDescription","IBackgroundCopyError::GetErrorContextDescription","_drz_ibackgroundcopyerror_geterrorcontextdescription","bits.ibackgroundcopyerror_geterrorcontextdescription","bits/IBackgroundCopyError::GetErrorContextDescription"]
 old-location: bits\ibackgroundcopyerror_geterrorcontextdescription.htm
 tech.root: Bits
 ms.assetid: 87f5ae62-c171-4637-bebb-3a5c5aa546b3
 ms.date: 12/05/2018
 ms.keywords: GetErrorContextDescription, GetErrorContextDescription method [BITS], GetErrorContextDescription method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetErrorContextDescription method, IBackgroundCopyError.GetErrorContextDescription, IBackgroundCopyError::GetErrorContextDescription, _drz_ibackgroundcopyerror_geterrorcontextdescription, bits.ibackgroundcopyerror_geterrorcontextdescription, bits/IBackgroundCopyError::GetErrorContextDescription
-f1_keywords:
-- bits/IBackgroundCopyError.GetErrorContextDescription
-dev_langs:
-- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- QmgrPrxy.dll
-api_name:
-- IBackgroundCopyError.GetErrorContextDescription
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IBackgroundCopyError::GetErrorContextDescription
+ - bits/IBackgroundCopyError::GetErrorContextDescription
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - QmgrPrxy.dll
+api_name:
+ - IBackgroundCopyError.GetErrorContextDescription
 ---
 
 # IBackgroundCopyError::GetErrorContextDescription
@@ -48,19 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the description of the context in which the error occurred.
 
-
 ## -parameters
-
-
-
 
 ### -param LanguageId [in]
 
 Identifies the locale to use to generate the description. To create the language identifier, use the 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=166156">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
+<a href="/windows/win32/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro. For example, to specify U.S. English, use the following code sample. 
 
 
 
@@ -71,16 +68,12 @@ To retrieve the system's default user language identifier, use the following cal
 
 <code>LANGIDFROMLCID(GetThreadLocale())</code>
 
-
 ### -param pContextDescription [out]
 
 Null-terminated string that contains the description of the context in which the error occurred. Call the 
-<a href="https://go.microsoft.com/fwlink/p/?linkid=154376">CoTaskMemFree</a> function to free <i>ppContextDescription</i> when done.
-
+<a href="/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppContextDescription</i> when done.
 
 ## -returns
-
-
 
 This method returns the following <b>HRESULT</b> values, as well as others.
 
@@ -134,26 +127,15 @@ No string is available for the locale.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterror">IBackgroundCopyError::GetError</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-geterrordescription">IBackgroundCopyError::GetErrorDescription</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
- 
-
- 
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>

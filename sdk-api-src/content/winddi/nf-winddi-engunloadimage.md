@@ -2,15 +2,12 @@
 UID: NF:winddi.EngUnloadImage
 title: EngUnloadImage macro (winddi.h)
 description: The EngUnloadImage function unloads an image loaded by EngLoadImage.
+helpviewer_keywords: ["EngUnloadImage","EngUnloadImage function [Display Devices]","display.engunloadimage","gdifncs_e20ef926-cd02-4fdc-bd92-3a9d201b7566.xml","winddi/EngUnloadImage"]
 old-location: display\engunloadimage.htm
 tech.root: display
 ms.assetid: e5b96929-1f57-4b98-8398-69a933e6ff99
 ms.date: 12/05/2018
 ms.keywords: EngUnloadImage, EngUnloadImage function [Display Devices], display.engunloadimage, gdifncs_e20ef926-cd02-4fdc-bd92-3a9d201b7566.xml, winddi/EngUnloadImage
-f1_keywords:
-- winddi/EngUnloadImage
-dev_langs:
-- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Win32k.sys
-api_name:
-- EngUnloadImage
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - EngUnloadImage
+ - winddi/EngUnloadImage
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Win32k.sys
+api_name:
+ - EngUnloadImage
 ---
 
 # EngUnloadImage macro
@@ -48,27 +50,14 @@ ms.custom: 19H1
 
 ## -description
 
-
-The <b>EngUnloadImage</b> function unloads an image loaded by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>.
-
+The <b>EngUnloadImage</b> function unloads an image loaded by <a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>.
 
 ## -parameters
-
-
-
 
 ### -param h [in]
 
 Handle to the image to be unloaded from system memory.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>

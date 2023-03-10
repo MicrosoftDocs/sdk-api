@@ -1,16 +1,13 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_SubscriberCLSID
 title: IEventSubscription::put_SubscriberCLSID (eventsys.h)
-description: The CLSID of the subscriber component (for a persistent subscription).
+description: The CLSID of the subscriber component (for a persistent subscription). (Put)
+helpviewer_keywords: ["IEventSubscription interface [COM+]","SubscriberCLSID property","IEventSubscription.SubscriberCLSID","IEventSubscription.put_SubscriberCLSID","IEventSubscription::SubscriberCLSID","IEventSubscription::get_SubscriberCLSID","IEventSubscription::put_SubscriberCLSID","SubscriberCLSID property [COM+]","SubscriberCLSID property [COM+]","IEventSubscription interface","cos.ieventsubscription_subscriberclsid","eventsys/IEventSubscription::SubscriberCLSID","eventsys/IEventSubscription::get_SubscriberCLSID","eventsys/IEventSubscription::put_SubscriberCLSID","put_SubscriberCLSID"]
 old-location: cos\ieventsubscription_subscriberclsid.htm
-tech.root: cossdk
+tech.root: cos
 ms.assetid: 004f662c-8fcb-4490-897b-48bf5ea306c7
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriberCLSID property, IEventSubscription.SubscriberCLSID, IEventSubscription.put_SubscriberCLSID, IEventSubscription::SubscriberCLSID, IEventSubscription::get_SubscriberCLSID, IEventSubscription::put_SubscriberCLSID, SubscriberCLSID property [COM+], SubscriberCLSID property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriberclsid, eventsys/IEventSubscription::SubscriberCLSID, eventsys/IEventSubscription::get_SubscriberCLSID, eventsys/IEventSubscription::put_SubscriberCLSID, put_SubscriberCLSID
-f1_keywords:
-- eventsys/IEventSubscription.SubscriberCLSID
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventSubscription.SubscriberCLSID
-- IEventSubscription.get_SubscriberCLSID
-- IEventSubscription.put_SubscriberCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventSubscription::put_SubscriberCLSID
+ - eventsys/IEventSubscription::put_SubscriberCLSID
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventSubscription.SubscriberCLSID
+ - IEventSubscription.get_SubscriberCLSID
+ - IEventSubscription.put_SubscriberCLSID
 ---
 
 # IEventSubscription::put_SubscriberCLSID
@@ -50,31 +52,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 The CLSID of the subscriber component (for a persistent subscription).
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-If not empty, the subscription is persistent and the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberinterface">SubscriberInterface</a> property must be <b>NULL</b>. This property works in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_machinename">MachineName</a> property in a persistent subscription.
-
-
-
+If not empty, the subscription is persistent and the <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberinterface">SubscriberInterface</a> property must be <b>NULL</b>. This property works in conjunction with the <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_machinename">MachineName</a> property in a persistent subscription.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
- 
-
- 
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>

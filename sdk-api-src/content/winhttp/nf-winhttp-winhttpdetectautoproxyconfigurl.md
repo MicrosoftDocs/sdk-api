@@ -2,15 +2,12 @@
 UID: NF:winhttp.WinHttpDetectAutoProxyConfigUrl
 title: WinHttpDetectAutoProxyConfigUrl function (winhttp.h)
 description: Finds the URL for the Proxy Auto-Configuration (PAC) file.
+helpviewer_keywords: ["WINHTTP_AUTO_DETECT_TYPE_DHCP","WINHTTP_AUTO_DETECT_TYPE_DNS_A","WinHttpDetectAutoProxyConfigUrl","WinHttpDetectAutoProxyConfigUrl function [WinHTTP]","http.winhttpdetectautoproxyconfigurl","winhttp/WinHttpDetectAutoProxyConfigUrl"]
 old-location: http\winhttpdetectautoproxyconfigurl.htm
-tech.root: WinHttp
+tech.root: http
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
-f1_keywords:
-- winhttp/WinHttpDetectAutoProxyConfigUrl
-dev_langs:
-- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Winhttp.dll
-api_name:
-- WinHttpDetectAutoProxyConfigUrl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - WinHttpDetectAutoProxyConfigUrl
+ - winhttp/WinHttpDetectAutoProxyConfigUrl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Winhttp.dll
+api_name:
+ - WinHttpDetectAutoProxyConfigUrl
 ---
 
 # WinHttpDetectAutoProxyConfigUrl function
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WinHttpDetectAutoProxyConfigUrl</b> function finds the URL for the Proxy Auto-Configuration (PAC) file. This function reports the URL of the PAC file, but it does not download the file.
 
-
 ## -parameters
-
-
-
 
 ### -param dwAutoDetectFlags [in]
 
@@ -87,20 +84,15 @@ Use DNS to attempt to locate the proxy auto-configuration file at a well-known l
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppwstrAutoConfigUrl [out]
 
- A data type that returns a pointer to a null-terminated Unicode string that contains the configuration URL that receives the proxy data. You must free the string pointed to by <i>ppwszAutoConfigUrl</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
-
+ A data type that returns a pointer to a null-terminated Unicode string that contains the configuration URL that receives the proxy data. You must free the string pointed to by <i>ppwszAutoConfigUrl</i> using the <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
 
 ## -returns
 
-
-
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -141,29 +133,13 @@ Not enough memory was available to complete the requested operation. (Windows er
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-WinHTTP implements the <a href="https://go.microsoft.com/fwlink/p/?linkid=392029">Web Proxy Auto-Discovery (WPAD) protocol</a>, often referred to as <i>autoproxy</i>. For more information about well-known locations, see the  <a href="https://go.microsoft.com/fwlink/p/?linkid=392029">Discovery Process</a> section of the WPAD protocol document.
+WinHTTP implements the <a href="https://www.ietf.org/archive/id/draft-ietf-wrec-wpad-01.txt">Web Proxy Auto-Discovery (WPAD) protocol</a>, often referred to as <i>autoproxy</i>. For more information about well-known locations, see the  <a href="https://www.ietf.org/archive/id/draft-ietf-wrec-wpad-01.txt">Discovery Process</a> section of the WPAD protocol document.
 
 Note that because the <b>WinHttpDetectAutoProxyConfigUrl</b> function takes time to complete its operation, it should not be called from  a UI thread.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
- 
-
- 
-
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>

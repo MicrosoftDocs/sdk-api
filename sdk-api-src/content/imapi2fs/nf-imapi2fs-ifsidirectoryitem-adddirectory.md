@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiDirectoryItem.AddDirectory
 title: IFsiDirectoryItem::AddDirectory (imapi2fs.h)
 description: Adds a directory to the file system image.
+helpviewer_keywords: ["AddDirectory","AddDirectory method [IMAPI]","AddDirectory method [IMAPI]","IFsiDirectoryItem interface","IFsiDirectoryItem interface [IMAPI]","AddDirectory method","IFsiDirectoryItem.AddDirectory","IFsiDirectoryItem::AddDirectory","imapi.ifsidirectoryitem_adddirectory","imapi2fs/IFsiDirectoryItem::AddDirectory"]
 old-location: imapi\ifsidirectoryitem_adddirectory.htm
 tech.root: imapi
 ms.assetid: bb716e60-163c-45e7-bdbb-373666cbdc93
 ms.date: 12/05/2018
 ms.keywords: AddDirectory, AddDirectory method [IMAPI], AddDirectory method [IMAPI],IFsiDirectoryItem interface, IFsiDirectoryItem interface [IMAPI],AddDirectory method, IFsiDirectoryItem.AddDirectory, IFsiDirectoryItem::AddDirectory, imapi.ifsidirectoryitem_adddirectory, imapi2fs/IFsiDirectoryItem::AddDirectory
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem.AddDirectory
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem.AddDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem::AddDirectory
+ - imapi2fs/IFsiDirectoryItem::AddDirectory
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem.AddDirectory
 ---
 
 # IFsiDirectoryItem::AddDirectory
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
-Adds a directory to the file system image. 
-
+Adds a directory to the file system image.
 
 ## -parameters
-
-
-
 
 ### -param path [in]
 
@@ -63,10 +60,7 @@ String that contains the relative path of directory to create.
 
 Specify the full path when calling this method from the root directory item.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -128,44 +122,27 @@ Value: 0xC0AAB102
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 The parent directory for the new subdirectory must already exist within the file system image.
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add">IFsiDirectoryItem::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-add">IFsiDirectoryItem::Add</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addfile">IFsiDirectoryItem::AddFile</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree">IFsiDirectoryItem::AddTree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree">IFsiDirectoryItem::AddTree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>

@@ -4,7 +4,7 @@ title: Device and Driver Installation Reference
 ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
 ms.date: 01/11/2019
 ms.keywords: 
-ms.topic: conceptual
+ms.topic: overview
 ---
 
 # Device and Driver Installation Reference
@@ -20,5 +20,4 @@ To develop Device and Driver Installation Reference, you need these headers:
  * [newdev.h](../newdev/index.md)
 
 For programming guidance for this technology, see:
-* [Device and Driver Installation Reference](https://docs.microsoft.com/windows-hardware/drivers/install/)
-
+* [Device and Driver Installation Reference](/windows-hardware/drivers/install/)

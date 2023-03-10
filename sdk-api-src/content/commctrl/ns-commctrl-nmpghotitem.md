@@ -2,15 +2,12 @@
 UID: NS:commctrl.tagNMPGHOTITEM
 title: NMPGHOTITEM (commctrl.h)
 description: Contains information used with the PGN_HOTITEMCHANGE notification code.
+helpviewer_keywords: ["*LPNMPGHOTITEM","LPNMPGHOTITEM","LPNMPGHOTITEM structure pointer [Windows Controls]","NMPGHOTITEM","NMPGHOTITEM structure [Windows Controls]","commctrl/LPNMPGHOTITEM","commctrl/NMPGHOTITEM","controls.NMPGHOTITEM","controls.inet_NMPGHOTITEM","inet_NMPGHOTITEM","inet_NMPGHOTITEM_cpp"]
 old-location: controls\NMPGHOTITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpghotitem.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMPGHOTITEM, LPNMPGHOTITEM, LPNMPGHOTITEM structure pointer [Windows Controls], NMPGHOTITEM, NMPGHOTITEM structure [Windows Controls], commctrl/LPNMPGHOTITEM, commctrl/NMPGHOTITEM, controls.NMPGHOTITEM, controls.inet_NMPGHOTITEM, inet_NMPGHOTITEM, inet_NMPGHOTITEM_cpp'
-f1_keywords:
-- commctrl/NMPGHOTITEM
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMPGHOTITEM
 targetos: Windows
 req.typenames: NMPGHOTITEM, *LPNMPGHOTITEM
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - tagNMPGHOTITEM
+ - commctrl/tagNMPGHOTITEM
+ - LPNMPGHOTITEM
+ - commctrl/LPNMPGHOTITEM
+ - NMPGHOTITEM
+ - commctrl/NMPGHOTITEM
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMPGHOTITEM
 ---
 
 # NMPGHOTITEM structure
@@ -48,41 +54,32 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains information used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgn-hotitemchange">PGN_HOTITEMCHANGE</a> notification code. 
-
-
+Contains information used with the <a href="/windows/desktop/Controls/pgn-hotitemchange">PGN_HOTITEMCHANGE</a> notification code.
 
 ## -struct-fields
 
-
-
-
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
-
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field idOld
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the command identifier of the previously highlighted item. 
-
+Value of type <b>int</b> that specifies the command identifier of the previously highlighted item.
 
 ### -field idNew
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the command identifier of the highlighted item. 
-
+Value of type <b>int</b> that specifies the command identifier of the highlighted item.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>DWORD</b> that contains flags that indicate why the hot item has changed. This can be one or more of the following values.
 
@@ -114,5 +111,3 @@ If this flag is set, there is no new hot item and <b>idNew</b> does not contain 
 </td>
 </tr>
 </table>
- 
-

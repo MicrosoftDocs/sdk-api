@@ -2,15 +2,12 @@
 UID: NF:strmif.IAMPluginControl.GetPreferredClsid
 title: IAMPluginControl::GetPreferredClsid (strmif.h)
 description: Searches the preferred list for a class identifier (CLSID) that matches a specified subtype.
+helpviewer_keywords: ["GetPreferredClsid","GetPreferredClsid method [DirectShow]","GetPreferredClsid method [DirectShow]","IAMPluginControl interface","IAMPluginControl interface [DirectShow]","GetPreferredClsid method","IAMPluginControl.GetPreferredClsid","IAMPluginControl::GetPreferredClsid","dshow.iamplugincontrol_getpreferredclsid","strmif/IAMPluginControl::GetPreferredClsid"]
 old-location: dshow\iamplugincontrol_getpreferredclsid.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: 69f55810-9a3a-48cd-8fd2-d091a906d229
 ms.date: 12/05/2018
 ms.keywords: GetPreferredClsid, GetPreferredClsid method [DirectShow], GetPreferredClsid method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetPreferredClsid method, IAMPluginControl.GetPreferredClsid, IAMPluginControl::GetPreferredClsid, dshow.iamplugincontrol_getpreferredclsid, strmif/IAMPluginControl::GetPreferredClsid
-f1_keywords:
-- strmif/IAMPluginControl.GetPreferredClsid
-dev_langs:
-- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmif.h
-api_name:
-- IAMPluginControl.GetPreferredClsid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAMPluginControl::GetPreferredClsid
+ - strmif/IAMPluginControl::GetPreferredClsid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmif.h
+api_name:
+ - IAMPluginControl.GetPreferredClsid
 ---
 
 # IAMPluginControl::GetPreferredClsid
@@ -48,30 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Searches the preferred list for a class identifier (CLSID) that matches a specified subtype.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param subType [in]
 
 A media subtype GUID to match.
 
-
 ### -param clsid [out]
 
 Receives a CLSID from the preferred list.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -105,22 +96,11 @@ No CLSID matching this subtype was found.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamplugincontrol">IAMPluginControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>

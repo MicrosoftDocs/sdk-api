@@ -2,15 +2,12 @@
 UID: NF:dskquota.IDiskQuotaControl.FindUserSid
 title: IDiskQuotaControl::FindUserSid (dskquota.h)
 description: Locates a specific user entry in the volume quota information.
+helpviewer_keywords: ["DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","FindUserSid","FindUserSid method [Files]","FindUserSid method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","FindUserSid method","IDiskQuotaControl.FindUserSid","IDiskQuotaControl::FindUserSid","_win32_idiskquotacontrol_findusersid","base.idiskquotacontrol_findusersid","dskquota/IDiskQuotaControl::FindUserSid","fs.idiskquotacontrol_findusersid"]
 old-location: fs\idiskquotacontrol_findusersid.htm
-tech.root: FileIO
+tech.root: fs
 ms.assetid: a6ce8eb3-cfa3-43b4-80ee-6dbef41f99ac
 ms.date: 12/05/2018
 ms.keywords: DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, FindUserSid, FindUserSid method [Files], FindUserSid method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],FindUserSid method, IDiskQuotaControl.FindUserSid, IDiskQuotaControl::FindUserSid, _win32_idiskquotacontrol_findusersid, base.idiskquotacontrol_findusersid, dskquota/IDiskQuotaControl::FindUserSid, fs.idiskquotacontrol_findusersid
-f1_keywords:
-- dskquota/IDiskQuotaControl.FindUserSid
-dev_langs:
-- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Dskquota.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Dskquota.dll
-api_name:
-- IDiskQuotaControl.FindUserSid
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiskQuotaControl::FindUserSid
+ - dskquota/IDiskQuotaControl::FindUserSid
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.FindUserSid
 ---
 
 # IDiskQuotaControl::FindUserSid
@@ -48,19 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Locates a specific user entry in the volume quota information. The user's security identifier (SID) is used as the search key.
 
-
 ## -parameters
-
-
-
 
 ### -param pUserSid [in]
 
 A pointer to the user's SID.
-
 
 ### -param fNameResolution [in]
 
@@ -80,7 +76,7 @@ Indicates how the user account information is to be obtained. The volume's quota
 <td width="60%">
 Resolve user account information asynchronously. 
 <b>FindUserSid</b> returns immediately. The caller must implement the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
 <b>IDiskQuotaEvents</b>.
 
 </td>
@@ -110,18 +106,13 @@ Resolve user account information synchronously.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param ppUser [out]
 
 Pointer to receive the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer to the quota user object.
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a> interface pointer to the quota user object.
 
 ## -returns
-
-
 
 This method returns a file system error or one of the following values.
 
@@ -219,35 +210,19 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 This method will return a user object even if there is no quota record for the user in the quota file. This is consistent with the idea of automatic user addition and default quota settings. If there is currently no quota entry for the requested user, and the user would be added to the quota file if he were to request disk space, the returned user object will have warning threshold and hard quota limits equal to the volume default settings.
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

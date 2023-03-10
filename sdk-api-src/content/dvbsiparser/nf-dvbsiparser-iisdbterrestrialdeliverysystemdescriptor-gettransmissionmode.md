@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode (dvbsiparser.h)
 description: Gets the transmission mode from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
+helpviewer_keywords: ["GetTransmissionMode","GetTransmissionMode method [Microsoft TV Technologies]","GetTransmissionMode method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetTransmissionMode method","IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode","IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode","mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode"]
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm
 tech.root: mstv
 ms.assetid: d7f4659f-0aa6-46a6-a352-da801d132866
 ms.date: 12/05/2018
 ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTransmissionMode method, IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.iisdbterrestrialdeliverysystemdescriptor_gettransmissionmode
-f1_keywords:
-- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode
+ - dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 ---
 
 # IIsdbTerrestrialDeliverySystemDescriptor::GetTransmissionMode
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
  Gets the transmission mode from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbVal [out]
 
@@ -111,25 +108,11 @@ Undefined.
 </td>
 </tr>
 </table>
- 
-
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor">IIsdbTerrestrialDeliverySystemDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbterrestrialdeliverysystemdescriptor">IIsdbTerrestrialDeliverySystemDescriptor</a>

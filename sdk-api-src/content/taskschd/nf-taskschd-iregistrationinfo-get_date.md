@@ -1,16 +1,13 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Date
 title: IRegistrationInfo::get_Date (taskschd.h)
-description: Gets or sets the date and time when the task is registered.
+description: Gets or sets the date and time when the task is registered. (Get)
+helpviewer_keywords: ["Date property [Task Scheduler]","Date property [Task Scheduler]","IRegistrationInfo interface","IRegistrationInfo interface [Task Scheduler]","Date property","IRegistrationInfo.Date","IRegistrationInfo.get_Date","IRegistrationInfo::Date","IRegistrationInfo::get_Date","IRegistrationInfo::put_Date","get_Date","taskschd.iregistrationinfo_date","taskschd/IRegistrationInfo::Date","taskschd/IRegistrationInfo::get_Date","taskschd/IRegistrationInfo::put_Date"]
 old-location: taskschd\iregistrationinfo_date.htm
 tech.root: taskschd
 ms.assetid: b9a41413-954f-447c-8fce-f99c81fec40a
 ms.date: 12/05/2018
 ms.keywords: Date property [Task Scheduler], Date property [Task Scheduler],IRegistrationInfo interface, IRegistrationInfo interface [Task Scheduler],Date property, IRegistrationInfo.Date, IRegistrationInfo.get_Date, IRegistrationInfo::Date, IRegistrationInfo::get_Date, IRegistrationInfo::put_Date, get_Date, taskschd.iregistrationinfo_date, taskschd/IRegistrationInfo::Date, taskschd/IRegistrationInfo::get_Date, taskschd/IRegistrationInfo::put_Date
-f1_keywords:
-- taskschd/IRegistrationInfo.Date
-dev_langs:
-- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- taskschd.dll
-api_name:
-- IRegistrationInfo.Date
-- IRegistrationInfo.get_Date
-- IRegistrationInfo.put_Date
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IRegistrationInfo::get_Date
+ - taskschd/IRegistrationInfo::get_Date
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - taskschd.dll
+api_name:
+ - IRegistrationInfo.Date
+ - IRegistrationInfo.get_Date
+ - IRegistrationInfo.put_Date
 ---
 
 # IRegistrationInfo::get_Date
@@ -50,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets or sets the date and time when the task is registered.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
-When reading or writing XML for a task, the registration date is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-date-registrationinfotype-element">Date</a> element of the Task Scheduler schema.
-
-
-
+When reading or writing XML for a task, the registration date is specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-date-registrationinfotype-element">Date</a> element of the Task Scheduler schema.
 
 ## -see-also
 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo">IRegistrationInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iregistrationinfo">IRegistrationInfo</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
- 
-
- 
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

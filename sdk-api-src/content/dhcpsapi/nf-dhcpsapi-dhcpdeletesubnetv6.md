@@ -2,15 +2,12 @@
 UID: NF:dhcpsapi.DhcpDeleteSubnetV6
 title: DhcpDeleteSubnetV6 function (dhcpsapi.h)
 description: The DhcpDeleteSubnetV6 function deletes a subnet from the DHCP server.
+helpviewer_keywords: ["DhcpDeleteSubnetV6","DhcpDeleteSubnetV6 function [DHCP]","dhcp.dhcpdeletesubnetv6","dhcpsapi/DhcpDeleteSubnetV6"]
 old-location: dhcp\dhcpdeletesubnetv6.htm
 tech.root: DHCP
 ms.assetid: f2c10d8c-ab5f-4a61-89aa-20f2db89db36
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSubnetV6, DhcpDeleteSubnetV6 function [DHCP], dhcp.dhcpdeletesubnetv6, dhcpsapi/DhcpDeleteSubnetV6
-f1_keywords:
-- dhcpsapi/DhcpDeleteSubnetV6
-dev_langs:
-- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Dhcpsapi.dll
-api_name:
-- DhcpDeleteSubnetV6
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DhcpDeleteSubnetV6
+ - dhcpsapi/DhcpDeleteSubnetV6
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Dhcpsapi.dll
+api_name:
+ - DhcpDeleteSubnetV6
 ---
 
 # DhcpDeleteSubnetV6 function
@@ -48,36 +50,25 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DhcpDeleteSubnetV6</b> function deletes a subnet from the DHCP server.
 
-
 ## -parameters
-
-
-
 
 ### -param ServerIpAddress [in]
 
 Pointer to a Unicode string that specifies the IP address or hostname of the DHCP server.
 
-
 ### -param SubnetAddress [in]
 
 DHCP_IPV6_ADDRESS value that contains the IP address of the subnet gateway used to identify the subnet.
 
-
 ### -param ForceFlag [in]
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates the type of delete operation to perform (full force or no force).
-
+<a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_force_flag">DHCP_FORCE_FLAG</a> enumeration value that indicates the type of delete operation to perform (full force or no force).
 
 ## -returns
 
-
-
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -107,7 +98,3 @@ The specified scope element does not exist.
 </td>
 </tr>
 </table>
- 
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DeviceStatus
 title: IWindowsDriverUpdate::get_DeviceStatus (wuapi.h)
-description: Gets the status of the matching device for the Windows driver update.
+description: Gets the status of the matching device for the Windows driver update. (IWindowsDriverUpdate.get_DeviceStatus)
+helpviewer_keywords: ["DeviceStatus property [Windows Update Agent]","DeviceStatus property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DeviceStatus property","IWindowsDriverUpdate.DeviceStatus","IWindowsDriverUpdate.get_DeviceStatus","IWindowsDriverUpdate::DeviceStatus","IWindowsDriverUpdate::get_DeviceStatus","get_DeviceStatus","wua.iwindowsdriverupdate_devicestatus","wuapi/IWindowsDriverUpdate::DeviceStatus","wuapi/IWindowsDriverUpdate::get_DeviceStatus"]
 old-location: wua\iwindowsdriverupdate_devicestatus.htm
-tech.root: Wua_Sdk
+tech.root: wua
 ms.assetid: 15455dad-4829-4dd4-8384-cf08ab42ded2
 ms.date: 12/05/2018
 ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DeviceStatus property, IWindowsDriverUpdate.DeviceStatus, IWindowsDriverUpdate.get_DeviceStatus, IWindowsDriverUpdate::DeviceStatus, IWindowsDriverUpdate::get_DeviceStatus, get_DeviceStatus, wua.iwindowsdriverupdate_devicestatus, wuapi/IWindowsDriverUpdate::DeviceStatus, wuapi/IWindowsDriverUpdate::get_DeviceStatus
-f1_keywords:
-- wuapi/IWindowsDriverUpdate.DeviceStatus
-dev_langs:
-- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wuapi.dll
-api_name:
-- IWindowsDriverUpdate.DeviceStatus
-- IWindowsDriverUpdate.get_DeviceStatus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWindowsDriverUpdate::get_DeviceStatus
+ - wuapi/IWindowsDriverUpdate::get_DeviceStatus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wuapi.dll
+api_name:
+ - IWindowsDriverUpdate.DeviceStatus
+ - IWindowsDriverUpdate.get_DeviceStatus
 ---
 
 # IWindowsDriverUpdate::get_DeviceStatus
@@ -49,22 +51,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the status of the matching device for the Windows driver update.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>

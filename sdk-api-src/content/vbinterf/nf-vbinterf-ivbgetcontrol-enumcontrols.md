@@ -2,15 +2,12 @@
 UID: NF:vbinterf.IVBGetControl.EnumControls
 title: IVBGetControl::EnumControls (vbinterf.h)
 description: Enumerates the controls on the form.
+helpviewer_keywords: ["EnumControls","EnumControls method [COM]","EnumControls method [COM]","IVBGetControl interface","GCW_WCH_SIBLING","GC_WCH_ALL","GC_WCH_CONTAINED","GC_WCH_CONTAINER","GC_WCH_FONLYAFTER","GC_WCH_FONLYBEFORE","GC_WCH_FREVERSEDIR","GC_WCH_FSELECTED","IVBGetControl interface [COM]","EnumControls method","IVBGetControl.EnumControls","IVBGetControl::EnumControls","OLECONTF_EMBEDDINGS","OLECONTF_LINKS","OLECONTF_ONLYIFRUNNING","OLECONTF_ONLYUSER","OLECONTF_OTHER","_com_IVBGetControl_EnumControls","com.ivbgetcontrol_enumcontrols","vbinterf/IVBGetControl::EnumControls"]
 old-location: com\ivbgetcontrol_enumcontrols.htm
 tech.root: com
 ms.assetid: 4ae01518-8762-4bce-ad9c-4dc2635e743d
 ms.date: 12/05/2018
 ms.keywords: EnumControls, EnumControls method [COM], EnumControls method [COM],IVBGetControl interface, GCW_WCH_SIBLING, GC_WCH_ALL, GC_WCH_CONTAINED, GC_WCH_CONTAINER, GC_WCH_FONLYAFTER, GC_WCH_FONLYBEFORE, GC_WCH_FREVERSEDIR, GC_WCH_FSELECTED, IVBGetControl interface [COM],EnumControls method, IVBGetControl.EnumControls, IVBGetControl::EnumControls, OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHER, _com_IVBGetControl_EnumControls, com.ivbgetcontrol_enumcontrols, vbinterf/IVBGetControl::EnumControls
-f1_keywords:
-- vbinterf/IVBGetControl.EnumControls
-dev_langs:
-- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VbInterf.h
-api_name:
-- IVBGetControl.EnumControls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVBGetControl::EnumControls
+ - vbinterf/IVBGetControl::EnumControls
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VbInterf.h
+api_name:
+ - IVBGetControl.EnumControls
 ---
 
 # IVBGetControl::EnumControls
@@ -48,20 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates the controls on the form.
 <div class="alert"><b>Note</b>  The use of this method is no longer recommended because containers other than Visual Basic do not support 
     it.</div><div> </div>
 
 ## -parameters
 
-
-
-
 ### -param dwOleContF [in]
 
 Specifies the type of OLE objects to be enumerated. This parameter can be one of the following 
-      values enumerated by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a> enumeration.
+      values enumerated by the <a href="/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a> enumeration.
 
 <table>
 <tr>
@@ -127,7 +125,6 @@ When enumerating OLE controls, it is recommended that you combine the flags
       <b>OLECONTF_OTHERS</b> flag to this list. To enumerate only VBX controls, remove the 
       <b>OLECONTF_EMBEDDINGS</b> flag and include the <b>OLECONTF_OTHERS</b> 
       flag.
-
 
 ### -param dwWhich [in]
 
@@ -245,45 +242,26 @@ In VBX code, the GC_FORM flag was passed to <b>VBGetControl</b> to obtain a poin
        first control in the enumeration. The first control in the enumeration is always the form when using 
        <b>GC_WHC_ALL</b>.
 
-
 ### -param ppenumUnk [out]
 
 Pointer to an enumeration of OLE objects.
 
-
 ## -returns
-
-
 
 This method supports the standard return values <b>E_INVALIDARG</b>, 
       <b>E_OUTOFMEMORY</b>, and <b>E_UNEXPECTED</b>, as well as the 
       following:
 
-
-
-
 ## -remarks
-
-
 
 When migrating a VBX control to an OLE control, 
     <b>EnumControls</b> replaces the Visual Basic 
     <b>VBGetControl</b>, which is no longer supported.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/vbinterf/nn-vbinterf-ivbgetcontrol">IVBGetControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vbinterf/nn-vbinterf-ivbgetcontrol">IVBGetControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>
- 
-
- 
-
+<a href="/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>

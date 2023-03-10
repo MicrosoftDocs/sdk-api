@@ -2,15 +2,12 @@
 UID: NN:shobjidl_core.IShellExtInit
 title: IShellExtInit (shobjidl_core.h)
 description: Exposes a method that initializes Shell extensions for property sheets, shortcut menus, and drag-and-drop handlers (extensions that add items to shortcut menus during nondefault drag-and-drop operations).
+helpviewer_keywords: ["IShellExtInit","IShellExtInit interface [Windows Shell]","IShellExtInit interface [Windows Shell]","described","_win32_IShellExtInit","_win32_ishellextinit_cpp","shell.IShellExtInit","shobjidl_core/IShellExtInit"]
 old-location: shell\IShellExtInit.htm
 tech.root: shell
 ms.assetid: 5f7e7f71-4cd6-4ce4-946c-9a1f7ec72fbe
 ms.date: 12/05/2018
 ms.keywords: IShellExtInit, IShellExtInit interface [Windows Shell], IShellExtInit interface [Windows Shell],described, _win32_IShellExtInit, _win32_ishellextinit_cpp, shell.IShellExtInit, shobjidl_core/IShellExtInit
-f1_keywords:
-- shobjidl_core/IShellExtInit
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IShellExtInit
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IShellExtInit
+ - shobjidl_core/IShellExtInit
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IShellExtInit
 ---
 
 # IShellExtInit interface
@@ -48,46 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method that initializes Shell extensions for property sheets, shortcut menus, and drag-and-drop handlers (extensions that add items to shortcut menus during nondefault drag-and-drop operations).
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellExtInit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellExtInit</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IShellExtInit</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize">Initialize</a>
-</td>
-<td align="left" width="63%">
-Initializes a property sheet extension, shortcut menu extension, or drag-and-drop handler.
-
-</td>
-</tr>
-</table> 
-
+The <b>IShellExtInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellExtInit</b> also has these types of members:
 
 ## -remarks
 
-
-
-Implement <b>IShellExtInit</b> when you are writing a handler based on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt</a> interface.
+Implement <b>IShellExtInit</b> when you are writing a handler based on the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellpropsheetext">IShellPropSheetExt</a> interface.
 
 Note that Shell extensions based on other interfaces do not use this method of initialization.
 
 You do not use this interface directly. The Shell calls it to initialize the handler.
-
-
-

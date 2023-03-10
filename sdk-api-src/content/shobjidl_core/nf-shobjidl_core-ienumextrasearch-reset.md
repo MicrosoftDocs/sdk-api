@@ -2,15 +2,12 @@
 UID: NF:shobjidl_core.IEnumExtraSearch.Reset
 title: IEnumExtraSearch::Reset (shobjidl_core.h)
 description: Used to reset the enumeration index to zero.
+helpviewer_keywords: ["IEnumExtraSearch interface [Windows Shell]","Reset method","IEnumExtraSearch.Reset","IEnumExtraSearch::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumExtraSearch interface","_win32_IEnumExtraSearch_Reset","shell.IEnumExtraSearch_Reset","shobjidl_core/IEnumExtraSearch::Reset"]
 old-location: shell\IEnumExtraSearch_Reset.htm
 tech.root: shell
 ms.assetid: c5b74037-1188-4979-8acf-6994ceb15719
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Reset method, IEnumExtraSearch.Reset, IEnumExtraSearch::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Reset, shell.IEnumExtraSearch_Reset, shobjidl_core/IEnumExtraSearch::Reset
-f1_keywords:
-- shobjidl_core/IEnumExtraSearch.Reset
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IEnumExtraSearch.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEnumExtraSearch::Reset
+ - shobjidl_core/IEnumExtraSearch::Reset
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IEnumExtraSearch.Reset
 ---
 
 # IEnumExtraSearch::Reset
@@ -48,24 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Used to reset the enumeration index to zero.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a COM-defined error code otherwise.
-
-
 

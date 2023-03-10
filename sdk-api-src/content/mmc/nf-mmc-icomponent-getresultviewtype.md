@@ -2,15 +2,12 @@
 UID: NF:mmc.IComponent.GetResultViewType
 title: IComponent::GetResultViewType (mmc.h)
 description: The IComponent::GetResultViewType method determines what the result pane view should be.
+helpviewer_keywords: ["GetResultViewType","GetResultViewType method [MMC]","GetResultViewType method [MMC]","IComponent interface","IComponent interface [MMC]","GetResultViewType method","IComponent.GetResultViewType","IComponent::GetResultViewType","MMC_VIEW_OPTIONS_CREATENEW","MMC_VIEW_OPTIONS_EXCLUDE_SCOPE_ITEMS_FROM_LIST","MMC_VIEW_OPTIONS_FILTERED","MMC_VIEW_OPTIONS_LEXICAL_SORT","MMC_VIEW_OPTIONS_MULTISELECT","MMC_VIEW_OPTIONS_NOLISTVIEWS","MMC_VIEW_OPTIONS_NONE","MMC_VIEW_OPTIONS_OWNERDATALIST","MMC_VIEW_OPTIONS_USEFONTLINKING","_slate_icomponent_getresultviewtype","mmc.icomponent_getresultviewtype","mmc/IComponent::GetResultViewType"]
 old-location: mmc\icomponent_getresultviewtype.htm
 tech.root: mmc
 ms.assetid: d2575f79-d646-41b5-84a5-768402cfb826
 ms.date: 12/05/2018
 ms.keywords: GetResultViewType, GetResultViewType method [MMC], GetResultViewType method [MMC],IComponent interface, IComponent interface [MMC],GetResultViewType method, IComponent.GetResultViewType, IComponent::GetResultViewType, MMC_VIEW_OPTIONS_CREATENEW, MMC_VIEW_OPTIONS_EXCLUDE_SCOPE_ITEMS_FROM_LIST, MMC_VIEW_OPTIONS_FILTERED, MMC_VIEW_OPTIONS_LEXICAL_SORT, MMC_VIEW_OPTIONS_MULTISELECT, MMC_VIEW_OPTIONS_NOLISTVIEWS, MMC_VIEW_OPTIONS_NONE, MMC_VIEW_OPTIONS_OWNERDATALIST, MMC_VIEW_OPTIONS_USEFONTLINKING, _slate_icomponent_getresultviewtype, mmc.icomponent_getresultviewtype, mmc/IComponent::GetResultViewType
-f1_keywords:
-- mmc/IComponent.GetResultViewType
-dev_langs:
-- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mmc.h
-api_name:
-- IComponent.GetResultViewType
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IComponent::GetResultViewType
+ - mmc/IComponent::GetResultViewType
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mmc.h
+api_name:
+ - IComponent.GetResultViewType
 ---
 
 # IComponent::GetResultViewType
@@ -48,28 +50,22 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IComponent::GetResultViewType</b> method 
     determines what the result pane view should be.
 
-
 ## -parameters
-
-
-
 
 ### -param cookie [in]
 
 A value that specifies the snapin-provided unique identifier for the scope item. For more details about 
-      cookies in MMC, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cookies">Cookies</a>.
-
+      cookies in MMC, see <a href="/previous-versions/windows/desktop/mmc/cookies">Cookies</a>.
 
 ### -param ppViewType [out]
 
 A pointer to the address of a string that specifies the view to display for the specified 
       <i>cookie</i>. The callee (snap-in) allocates the view type string using the COM API function 
-      <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
-      <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+      <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+      <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 The string that is returned depends on the view type:
 
@@ -90,7 +86,7 @@ For standard list views, MMC does not use this value. If the snap-in uses only s
 For a taskpad view that uses MMC taskpad templates, <i>ppViewType</i> should point to 
           the address of a string that contains the resource path to the taskpad template and a group name that 
           identifies the taskpad. Be aware that MMC passes the group name in calls to 
-          <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a> methods to enable the snap-in to 
+          <a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a> methods to enable the snap-in to 
           identify the particular taskpad that is being displayed (this is important if the snap-in has multiple 
           taskpads).
 
@@ -161,7 +157,6 @@ For a custom view provided by a webpage, <i>ppViewType</i> should point to the
          Microsoft website and could be returned in the <i>ppViewType</i> parameter to display the 
          website in the result pane: "www.microsoft.com".
 
-
 ### -param pViewOptions [out]
 
 A pointer to the value that provides the console with options specified by the owning snap-in. This value 
@@ -194,7 +189,7 @@ New in MMC 1.2. In a standard list view, this option tells MMC to hide scope ite
 #### MMC_VIEW_OPTIONS_FILTERED (0x0008)
 
 Notifies MMC that the snap-in supports filtered views. See 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>.
+        <a href="/previous-versions/windows/desktop/mmc/adding-filtered-views">Adding Filtered Views</a>.
 
 
 
@@ -202,8 +197,8 @@ Notifies MMC that the snap-in supports filtered views. See
 
 New in MMC 1.2. In a standard list view, this option tells MMC to lexically sort all scope items 
         (including extensions) first, followed by all result items. The 
-        <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> and 
-        <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interfaces are ignored when 
+        <a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> and 
+        <a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interfaces are ignored when 
         this option is set.
 
 
@@ -241,27 +236,19 @@ Use font linking on result items (for multilingual support). See Remarks for det
 If <i>ppViewType</i> is a custom view type, the view options that affect the standard 
        list views are applied by MMC when the view is switched from a custom view to a standard list view.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
-
-
-
 ## -remarks
 
-
-
 The callee (snap-in) allocates the view type string using COM API function 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and the caller (MMC) frees it using 
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 MMC calls <b>GetResultViewType</b> when a 
     snap-in scope item is selected. When switching from a standard list view to a custom view, the snap-in must call 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814792(v=vs.85)">IConsole2::SelectScopeItem</a> to reselect the item 
+    <a href="/previous-versions/windows/desktop/legacy/aa814792(v=vs.85)">IConsole2::SelectScopeItem</a> to reselect the item 
     and force MMC to call <b>GetResultViewType</b> 
     again. This enables the snap-in to specify the appropriate custom OCX or webpage so that MMC can load 
     it. When switching from a custom view to a standard list view, MMC automatically calls 
@@ -274,24 +261,14 @@ Given a Unicode string, the font linking feature determines the best font for th
     is not to use font linking, because there is a small performance hit when MMC searches for the appropriate 
     font.
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/cookies">cookie</a> is a pointer to a structure that contains information 
+A <a href="/previous-versions/windows/desktop/mmc/cookies">cookie</a> is a pointer to a structure that contains information 
     unique to a specific item. It is passed in through the <b>lParam</b> member of a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
-
-
-
+    <a href="/windows/desktop/api/mmc/ns-mmc-scopedataitem">SCOPEDATAITEM</a> structure.
 
 ## -see-also
 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
- 
-
- 
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

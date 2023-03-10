@@ -2,15 +2,12 @@
 UID: NN:shobjidl_core.IContextMenuSite
 title: IContextMenuSite (shobjidl_core.h)
 description: Implemented by the default folder view created using SHCreateShellFolderView.
+helpviewer_keywords: ["IContextMenuSite","IContextMenuSite interface [Windows Shell]","IContextMenuSite interface [Windows Shell]","described","_shell_IContextMenuSite","shell.IContextMenuSite","shobjidl_core/IContextMenuSite"]
 old-location: shell\IContextMenuSite.htm
 tech.root: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
 ms.date: 12/05/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
-f1_keywords:
-- shobjidl_core/IContextMenuSite
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Shell32.dll
-api_name:
-- IContextMenuSite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IContextMenuSite
+ - shobjidl_core/IContextMenuSite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IContextMenuSite
 ---
 
 # IContextMenuSite interface
@@ -48,46 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
+<p class="CCE_Message">[The only method, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup">DoContextMenuPopup</a>, is no longer available for use as of Windows Server 2003.]
 
-<p class="CCE_Message">[The only method, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup">DoContextMenuPopup</a>, is no longer available for use as of Windows Server 2003.]
-
-Implemented by the default folder view created using <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>. An implementation of <b>IContextMenuSite</b> supports <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> and any message forwarding necessary for that function. <b>IContextMenuSite</b> typically updates the status bar as well.
-
+Implemented by the default folder view created using <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview">SHCreateShellFolderView</a>. An implementation of <b>IContextMenuSite</b> supports <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu">IContextMenu::QueryContextMenu</a>,  <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-trackpopupmenu">TrackPopupMenu</a> and any message forwarding necessary for that function. <b>IContextMenuSite</b> typically updates the status bar as well.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextMenuSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuSite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IContextMenuSite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenusite-docontextmenupopup">DoContextMenuPopup</a>
-</td>
-<td align="left" width="63%">
-Creates and displays a shortcut menu, tracks the selection of items on that menu, and invokes a chosen command.
-
-</td>
-</tr>
-</table> 
-
+The <b>IContextMenuSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IContextMenuSite</b> also has these types of members:
 
 ## -remarks
 
-
-
 The IID for this interface is <b>IID_IContextMenuSite</b>.
 
-To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
+To acquire a context menu site pointer code that exists in the site chain of the folder view, use <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> using <b>SID_SFolderView</b> to get to the folder view.
 
 
 ```
@@ -99,7 +74,3 @@ if (SUCCEEDED(hr))
     ...
 }
 ```
-
-
-
-

@@ -1,16 +1,13 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectAttributeA
 title: SetNtmsObjectAttributeA function (ntmsapi.h)
-description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object.
+description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object. (ANSI)
+helpviewer_keywords: ["SetNtmsObjectAttributeA", "ntmsapi/SetNtmsObjectAttributeA"]
 old-location: fs\setntmsobjectattribute.htm
-tech.root: Rsm
+tech.root: fs
 ms.assetid: ce572b2a-f4c3-4cf3-8bb3-074ba3d1ec30
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectAttribute, SetNtmsObjectAttribute function [Files], SetNtmsObjectAttributeA, SetNtmsObjectAttributeW, _zaw_setntmsobjectattribute, base.setntmsobjectattribute, fs.setntmsobjectattribute, ntmsapi/SetNtmsObjectAttribute, ntmsapi/SetNtmsObjectAttributeA, ntmsapi/SetNtmsObjectAttributeW
-f1_keywords:
-- ntmsapi/SetNtmsObjectAttribute
-dev_langs:
-- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntmsapi.dll
-api_name:
-- SetNtmsObjectAttribute
-- SetNtmsObjectAttributeA
-- SetNtmsObjectAttributeW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - SetNtmsObjectAttributeA
+ - ntmsapi/SetNtmsObjectAttributeA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntmsapi.dll
+api_name:
+ - SetNtmsObjectAttribute
+ - SetNtmsObjectAttributeA
+ - SetNtmsObjectAttributeW
 ---
 
 # SetNtmsObjectAttributeA function
@@ -50,53 +52,40 @@ ms.custom: 19H1
 
 ## -description
 
-
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>SetNtmsObjectAttribute</b> function creates an extended attribute (named private data) in the specified RSM object.
 
-
 ## -parameters
-
-
-
 
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpObjectId [in]
 
 GUID of the RSM object for which the extended attribute is to be created.
 
-
 ### -param dwType [in]
 
 RSM object type. For a list of object types, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
-
+<a href="/windows/desktop/api/ntmsapi/ne-ntmsapi-ntmsobjectstypes">NtmsObjectsTypes</a>.
 
 ### -param lpAttributeName [in]
 
 Name of the extended attribute to be created.
 
-
 ### -param lpAttributeData [in]
 
 User-defined data.
-
 
 ### -param dwAttributeSize [in]
 
 Size of the <i>lpAttributeData</i> buffer, in bytes.
 
-
 ## -returns
-
-
 
 This function returns one of the following values.
 
@@ -207,14 +196,8 @@ The function was successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The 
 <b>SetNtmsObjectAttribute</b> function must be executed on the specified RSM server. Because the buffer of bytes is unmarshaled between systems of different architectures, remote execution of this function can result in unpredictable results.
@@ -301,21 +284,18 @@ The following is the list of objects that require special access rights.
 
 
 
+
+> [!NOTE]
+> The ntmsapi.h header defines SetNtmsObjectAttribute as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-enumeratentmsobject">EnumerateNtmsObject</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectattributea">GetNtmsObjectAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-getntmsobjectattributea">GetNtmsObjectAttribute</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>

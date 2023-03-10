@@ -2,15 +2,12 @@
 UID: NF:wincodec.IWICComponentInfo.GetSpecVersion
 title: IWICComponentInfo::GetSpecVersion (wincodec.h)
 description: Retrieves the component's specification version.
+helpviewer_keywords: ["GetSpecVersion","GetSpecVersion method [Windows Imaging Component]","GetSpecVersion method [Windows Imaging Component]","IWICComponentInfo interface","IWICComponentInfo interface [Windows Imaging Component]","GetSpecVersion method","IWICComponentInfo.GetSpecVersion","IWICComponentInfo::GetSpecVersion","_wic_codec_iwiccomponentinfo_getspecversion","wic._wic_codec_iwiccomponentinfo_getspecversion","wincodec/IWICComponentInfo::GetSpecVersion"]
 old-location: wic\_wic_codec_iwiccomponentinfo_getspecversion.htm
 tech.root: wic
 ms.assetid: 18a771c7-8764-4694-be05-29c5eda27e93
 ms.date: 12/05/2018
 ms.keywords: GetSpecVersion, GetSpecVersion method [Windows Imaging Component], GetSpecVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSpecVersion method, IWICComponentInfo.GetSpecVersion, IWICComponentInfo::GetSpecVersion, _wic_codec_iwiccomponentinfo_getspecversion, wic._wic_codec_iwiccomponentinfo_getspecversion, wincodec/IWICComponentInfo::GetSpecVersion
-f1_keywords:
-- wincodec/IWICComponentInfo.GetSpecVersion
-dev_langs:
-- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Windowscodecs.dll
-api_name:
-- IWICComponentInfo.GetSpecVersion
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWICComponentInfo::GetSpecVersion
+ - wincodec/IWICComponentInfo::GetSpecVersion
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Windowscodecs.dll
+api_name:
+ - IWICComponentInfo.GetSpecVersion
 ---
 
 # IWICComponentInfo::GetSpecVersion
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the component's specification version.
 
-
 ## -parameters
-
-
-
 
 ### -param cchSpecVersion [in]
 
@@ -63,13 +60,11 @@ Type: <b>UINT</b>
 
 The size of the <i>wzSpecVersion</i> buffer.
 
-
 ### -param wzSpecVersion [in, out]
 
 Type: <b>WCHAR*</b>
 
-When this method returns, contain a culture invarient string of the component's specification version. The version form is NN.NN.NN.NN.
-
+When this method returns, contain a culture invariant string of the component's specification version. The version form is NN.NN.NN.NN.
 
 ### -param pcchActual [out]
 
@@ -77,25 +72,15 @@ Type: <b>UINT*</b>
 
 A pointer that receives the actual length of the component's specification version. The specification version is optional; if a value is not specified by the component, the length returned is 0.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
-
-
 
 All built-in components return "1.0.0.0", except for pixel formats, which do not have a spec version.
 
 If <i>cchAuthor</i> is 0 and <i>wzAuthor</i> is <b>NULL</b>, the required buffer size is returned in <i>pccchActual</i>.
-
-
 

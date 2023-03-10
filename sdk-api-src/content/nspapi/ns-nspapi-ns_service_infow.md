@@ -1,16 +1,13 @@
 ---
 UID: NS:nspapi._NS_SERVICE_INFOW
 title: NS_SERVICE_INFOW (nspapi.h)
-description: Contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces.
+description: Contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces. (Unicode)
+helpviewer_keywords: ["*LPNS_SERVICE_INFOW","*PNS_SERVICE_INFOW","NS_DEFAULT","NS_DNS","NS_MS","NS_NDS","NS_NETBT","NS_NIS","NS_SAP","NS_SERVICE_INFO","NS_SERVICE_INFO structure [Winsock]","NS_SERVICE_INFOA","NS_SERVICE_INFOW","NS_STDA","NS_TCPIP_HOSTS","NS_TCPIP_LOCAL","NS_WINS","NS_X500","_win32_ns_service_info_2","nspapi/NS_SERVICE_INFO","nspapi/NS_SERVICE_INFOA","nspapi/NS_SERVICE_INFOW","winsock.ns_service_info_2"]
 old-location: winsock\ns_service_info_2.htm
 tech.root: WinSock
 ms.assetid: 5bcdeddf-2971-491b-9cf4-70595d3a7ff1
 ms.date: 12/05/2018
 ms.keywords: '*LPNS_SERVICE_INFOW, *PNS_SERVICE_INFOW, NS_DEFAULT, NS_DNS, NS_MS, NS_NDS, NS_NETBT, NS_NIS, NS_SAP, NS_SERVICE_INFO, NS_SERVICE_INFO structure [Winsock], NS_SERVICE_INFOA, NS_SERVICE_INFOW, NS_STDA, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, NS_WINS, NS_X500, _win32_ns_service_info_2, nspapi/NS_SERVICE_INFO, nspapi/NS_SERVICE_INFOA, nspapi/NS_SERVICE_INFOW, winsock.ns_service_info_2'
-f1_keywords:
-- nspapi/NS_SERVICE_INFO
-dev_langs:
-- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Nspapi.h
-api_name:
-- NS_SERVICE_INFO
-- NS_SERVICE_INFOA
-- NS_SERVICE_INFOW
 targetos: Windows
 req.typenames: NS_SERVICE_INFOW, *PNS_SERVICE_INFOW, *LPNS_SERVICE_INFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _NS_SERVICE_INFOW
+ - nspapi/_NS_SERVICE_INFOW
+ - PNS_SERVICE_INFOW
+ - nspapi/PNS_SERVICE_INFOW
+ - NS_SERVICE_INFOW
+ - nspapi/NS_SERVICE_INFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Nspapi.h
+api_name:
+ - NS_SERVICE_INFO
+ - NS_SERVICE_INFOA
+ - NS_SERVICE_INFOW
 ---
 
 # NS_SERVICE_INFOW structure
@@ -50,15 +56,10 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>NS_SERVICE_INFO</b> structure contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwNameSpace
 
@@ -197,24 +198,19 @@ The X.500 directory service namespace.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ServiceInfo
 
 Type: <b>SERVICE_INFO</b>
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure that contains information about a network service or network service type.
-
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure that contains information about a network service or network service type.
 
 ## -see-also
 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
- 
-
- 
-
+> [!NOTE]
+> The nspapi.h header defines NS_SERVICE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

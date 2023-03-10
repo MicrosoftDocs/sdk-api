@@ -2,15 +2,12 @@
 UID: NF:wsdclient.IWSDAsyncResult.GetAsyncState
 title: IWSDAsyncResult::GetAsyncState (wsdclient.h)
 description: Gets the state of the asynchronous operation.
+helpviewer_keywords: ["GetAsyncState","GetAsyncState method","GetAsyncState method","IWSDAsyncResult interface","IWSDAsyncResult interface","GetAsyncState method","IWSDAsyncResult.GetAsyncState","IWSDAsyncResult::GetAsyncState","ncd.iwsdasyncresult_getasyncstate_method","wsdclient/IWSDAsyncResult::GetAsyncState"]
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
-tech.root: WsdApi
+tech.root: ncd
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
 ms.date: 12/05/2018
 ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
-f1_keywords:
-- wsdclient/IWSDAsyncResult.GetAsyncState
-dev_langs:
-- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Wsdapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Wsdapi.dll
-api_name:
-- IWSDAsyncResult.GetAsyncState
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IWSDAsyncResult::GetAsyncState
+ - wsdclient/IWSDAsyncResult::GetAsyncState
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Wsdapi.dll
+api_name:
+ - IWSDAsyncResult.GetAsyncState
 ---
 
 # IWSDAsyncResult::GetAsyncState
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the state of the asynchronous operation.
 
-
 ## -parameters
-
-
-
 
 ### -param ppAsyncState [out]
 
 User-defined state information.
 
-
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -101,18 +95,7 @@ The operation completed successfully.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>

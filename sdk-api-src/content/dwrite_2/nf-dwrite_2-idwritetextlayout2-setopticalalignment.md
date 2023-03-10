@@ -2,15 +2,12 @@
 UID: NF:dwrite_2.IDWriteTextLayout2.SetOpticalAlignment
 title: IDWriteTextLayout2::SetOpticalAlignment (dwrite_2.h)
 description: Set how the glyphs align to the edges the margin.
+helpviewer_keywords: ["IDWriteTextLayout2 interface [Direct Write]","SetOpticalAlignment method","IDWriteTextLayout2.SetOpticalAlignment","IDWriteTextLayout2::SetOpticalAlignment","SetOpticalAlignment","SetOpticalAlignment method [Direct Write]","SetOpticalAlignment method [Direct Write]","IDWriteTextLayout2 interface","directwrite.idwritetextlayout2_setopticalalignment","dwrite_2/IDWriteTextLayout2::SetOpticalAlignment"]
 old-location: directwrite\idwritetextlayout2_setopticalalignment.htm
 tech.root: DirectWrite
 ms.assetid: 10C9C3E7-4556-4848-A4CB-F822A689CAB0
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetOpticalAlignment method, IDWriteTextLayout2.SetOpticalAlignment, IDWriteTextLayout2::SetOpticalAlignment, SetOpticalAlignment, SetOpticalAlignment method [Direct Write], SetOpticalAlignment method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setopticalalignment, dwrite_2/IDWriteTextLayout2::SetOpticalAlignment
-f1_keywords:
-- dwrite_2/IDWriteTextLayout2.SetOpticalAlignment
-dev_langs:
-- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dwrite.dll
-api_name:
-- IDWriteTextLayout2.SetOpticalAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDWriteTextLayout2::SetOpticalAlignment
+ - dwrite_2/IDWriteTextLayout2::SetOpticalAlignment
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout2.SetOpticalAlignment
 ---
 
 # IDWriteTextLayout2::SetOpticalAlignment
@@ -48,37 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Set how the glyphs align to the edges the margin.  Default behavior is to align glyphs using their default glyphs metrics, which include side bearings.
-      
-
 
 ## -parameters
-
-
-
 
 ### -param opticalAlignment
 
 Optical alignment option.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
 <a href="/windows/win32/DirectWrite/idwritetextlayout2">IDWriteTextLayout2</a>
- 
-
- 
 

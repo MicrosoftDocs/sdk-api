@@ -1,16 +1,13 @@
 ---
 UID: NE:msclus.CLUSTER_CONTROL_OBJECT
 title: CLUSTER_CONTROL_OBJECT (msclus.h)
-description: The 8-bit object component of a control code that indicates the type of cluster object to which the control code applies. For more information, see Control Code Architecture.
+description: The CLUSTER_CONTROL_OBJECT (msclus.h) is the 8-bit object component of a control code that indicates the cluster object type to which the control code applies.
+helpviewer_keywords: ["CLUSTER_CONTROL_OBJECT","CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster]","CLUS_OBJECT_CLUSTER","CLUS_OBJECT_GROUP","CLUS_OBJECT_GROUPSET","CLUS_OBJECT_INVALID","CLUS_OBJECT_NETINTERFACE","CLUS_OBJECT_NETWORK","CLUS_OBJECT_NODE","CLUS_OBJECT_RESOURCE","CLUS_OBJECT_RESOURCE_TYPE","CLUS_OBJECT_USER","_CLUSTER_CONTROL_OBJECT","_CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster]","clusapi/CLUSTER_CONTROL_OBJECT","clusapi/CLUS_OBJECT_CLUSTER","clusapi/CLUS_OBJECT_GROUP","clusapi/CLUS_OBJECT_GROUPSET","clusapi/CLUS_OBJECT_INVALID","clusapi/CLUS_OBJECT_NETINTERFACE","clusapi/CLUS_OBJECT_NETWORK","clusapi/CLUS_OBJECT_NODE","clusapi/CLUS_OBJECT_RESOURCE","clusapi/CLUS_OBJECT_RESOURCE_TYPE","clusapi/CLUS_OBJECT_USER","clusapi/_CLUSTER_CONTROL_OBJECT","msclus/CLUSTER_CONTROL_OBJECT","msclus/CLUS_OBJECT_CLUSTER","msclus/CLUS_OBJECT_GROUP","msclus/CLUS_OBJECT_GROUPSET","msclus/CLUS_OBJECT_INVALID","msclus/CLUS_OBJECT_NETINTERFACE","msclus/CLUS_OBJECT_NETWORK","msclus/CLUS_OBJECT_NODE","msclus/CLUS_OBJECT_RESOURCE","msclus/CLUS_OBJECT_RESOURCE_TYPE","msclus/CLUS_OBJECT_USER","msclus/_CLUSTER_CONTROL_OBJECT","mscs.cluster_control_object"]
 old-location: mscs\cluster_control_object.htm
 tech.root: MsCS
 ms.assetid: 63719776-0b3a-470a-a732-40e62064c6fc
-ms.date: 12/05/2018
+ms.date: 08/02/2022
 ms.keywords: CLUSTER_CONTROL_OBJECT, CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster], CLUS_OBJECT_CLUSTER, CLUS_OBJECT_GROUP, CLUS_OBJECT_GROUPSET, CLUS_OBJECT_INVALID, CLUS_OBJECT_NETINTERFACE, CLUS_OBJECT_NETWORK, CLUS_OBJECT_NODE, CLUS_OBJECT_RESOURCE, CLUS_OBJECT_RESOURCE_TYPE, CLUS_OBJECT_USER, _CLUSTER_CONTROL_OBJECT, _CLUSTER_CONTROL_OBJECT enumeration [Failover Cluster], clusapi/CLUSTER_CONTROL_OBJECT, clusapi/CLUS_OBJECT_CLUSTER, clusapi/CLUS_OBJECT_GROUP, clusapi/CLUS_OBJECT_GROUPSET, clusapi/CLUS_OBJECT_INVALID, clusapi/CLUS_OBJECT_NETINTERFACE, clusapi/CLUS_OBJECT_NETWORK, clusapi/CLUS_OBJECT_NODE, clusapi/CLUS_OBJECT_RESOURCE, clusapi/CLUS_OBJECT_RESOURCE_TYPE, clusapi/CLUS_OBJECT_USER, clusapi/_CLUSTER_CONTROL_OBJECT, msclus/CLUSTER_CONTROL_OBJECT, msclus/CLUS_OBJECT_CLUSTER, msclus/CLUS_OBJECT_GROUP, msclus/CLUS_OBJECT_GROUPSET, msclus/CLUS_OBJECT_INVALID, msclus/CLUS_OBJECT_NETINTERFACE, msclus/CLUS_OBJECT_NETWORK, msclus/CLUS_OBJECT_NODE, msclus/CLUS_OBJECT_RESOURCE, msclus/CLUS_OBJECT_RESOURCE_TYPE, msclus/CLUS_OBJECT_USER, msclus/_CLUSTER_CONTROL_OBJECT, mscs.cluster_control_object
-f1_keywords:
-- msclus/CLUSTER_CONTROL_OBJECT
-dev_langs:
-- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- ClusAPI.h
-- MsClus.h
-api_name:
-- CLUSTER_CONTROL_OBJECT
 targetos: Windows
 req.typenames: CLUSTER_CONTROL_OBJECT
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CLUSTER_CONTROL_OBJECT
+ - msclus/CLUSTER_CONTROL_OBJECT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - ClusAPI.h
+ - MsClus.h
+api_name:
+ - CLUSTER_CONTROL_OBJECT
 ---
 
 # CLUSTER_CONTROL_OBJECT enumeration
@@ -49,89 +51,67 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 8-bit object component of a control code that indicates the type of cluster object to which the 
     control code applies. For more information, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
-
+    <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
 
 ## -enum-fields
 
-
-
-
-### -field CLUS_OBJECT_INVALID
+### -field CLUS_OBJECT_INVALID:0
 
 Zero is not a valid object code value.
 
-
 ### -field CLUS_OBJECT_RESOURCE
 
-Object code part of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-control-codes">resource control codes</a> 
-       that identifies cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resources</a> as the target.
-
+Object code part of <a href="/previous-versions/windows/desktop/mscs/resource-control-codes">resource control codes</a> 
+       that identifies cluster <a href="/previous-versions/windows/desktop/mscs/resources">resources</a> as the target.
 
 ### -field CLUS_OBJECT_RESOURCE_TYPE
 
 Object code part of 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-type-control-codes">resource type control codes</a> that identifies 
-       cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource types</a> as the target.
-
+       <a href="/previous-versions/windows/desktop/mscs/resource-type-control-codes">resource type control codes</a> that identifies 
+       cluster <a href="/previous-versions/windows/desktop/mscs/resource-types">resource types</a> as the target.
 
 ### -field CLUS_OBJECT_GROUP
 
 Object code part of 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-control-codes">group control codes</a> that identifies cluster 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">groups</a> as the target.
-
+       <a href="/previous-versions/windows/desktop/mscs/group-control-codes">group control codes</a> that identifies cluster 
+        <a href="/previous-versions/windows/desktop/mscs/groups">groups</a> as the target.
 
 ### -field CLUS_OBJECT_NODE
 
-Object code part of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-control-codes">node control codes</a> that 
-       identifies cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> as the target.
-
+Object code part of <a href="/previous-versions/windows/desktop/mscs/node-control-codes">node control codes</a> that 
+       identifies cluster <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> as the target.
 
 ### -field CLUS_OBJECT_NETWORK
 
-Object code part of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-control-codes">network control codes</a> that 
-       identifies cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">networks</a> as the target.
-
+Object code part of <a href="/previous-versions/windows/desktop/mscs/network-control-codes">network control codes</a> that 
+       identifies cluster <a href="/previous-versions/windows/desktop/mscs/networks">networks</a> as the target.
 
 ### -field CLUS_OBJECT_NETINTERFACE
 
 Object code part of 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interface-control-codes">network interface control codes</a> that 
-       identifies cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> as the 
+       <a href="/previous-versions/windows/desktop/mscs/network-interface-control-codes">network interface control codes</a> that 
+       identifies cluster <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> as the 
        target.
-
 
 ### -field CLUS_OBJECT_CLUSTER
 
-Object code part of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-control-codes">cluster control codes</a> that 
-       identifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> as the target.
-
+Object code part of <a href="/previous-versions/windows/desktop/mscs/cluster-control-codes">cluster control codes</a> that 
+       identifies a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> as the target.
 
 ### -field CLUS_OBJECT_GROUPSET
 
-Object code part of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-control-codes">cluster control codes</a> that 
+Object code part of <a href="/previous-versions/windows/desktop/mscs/cluster-control-codes">cluster control codes</a> that 
        identifies a groupset as the target.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This constant is not supported prior to Windows Server 2016.
 
+### -field CLUS_OBJECT_USER:128
 
-### -field CLUS_OBJECT_USER
-
-Object code part of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control codes</a> that identifies 
+Object code part of <a href="/previous-versions/windows/desktop/mscs/control-codes">control codes</a> that identifies 
        cluster object types not defined by Windows Clustering.
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

@@ -2,15 +2,12 @@
 UID: NF:vsbackup.IVssBackupComponents.AddComponent
 title: IVssBackupComponents::AddComponent (vsbackup.h)
 description: Used to explicitly add to the backup set.
+helpviewer_keywords: ["AddComponent","AddComponent method [VSS]","AddComponent method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AddComponent method","IVssBackupComponents.AddComponent","IVssBackupComponents::AddComponent","_win32_ivssbackupcomponents_addcomponent","base.ivssbackupcomponents_addcomponent","vsbackup/IVssBackupComponents::AddComponent"]
 old-location: base\ivssbackupcomponents_addcomponent.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.date: 12/05/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
-f1_keywords:
-- vsbackup/IVssBackupComponents.AddComponent
-dev_langs:
-- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,27 +25,31 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- IVssBackupComponents.AddComponent
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVssBackupComponents::AddComponent
+ - vsbackup/IVssBackupComponents::AddComponent
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - IVssBackupComponents.AddComponent
 ---
 
 # IVssBackupComponents::AddComponent
 
 
 ## -description
-
 
 The <b>AddComponent</b> method is 
     used to explicitly add to the backup set in the Backup Components Document all required 
@@ -57,38 +58,30 @@ The <b>AddComponent</b> method is
     with a selectable for backup ancestor) are implicitly included in the backup set, but are not explicitly added to 
     the Backup Components Document.
 
-
 ## -parameters
-
-
-
 
 ### -param instanceId [in]
 
 Identifies a specific instance of a writer.
 
-
 ### -param writerId [in]
 
 Writer class identifier.
 
-
 ### -param ct [in]
 
 Identifies the type of the component. Refer to the documentation for 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for permitted input values.
-
+      <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for permitted input values.
 
 ### -param wszLogicalPath [in]
 
 <b>Null</b>-terminated wide character string containing the logical path of the selectable for backup component.
-      For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
+      For more information, see <a href="/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 A logical path is not required when adding a component. Therefore, the value of this parameter can be 
        <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
-
 
 ### -param wszComponentName [in]
 
@@ -99,10 +92,7 @@ The value of this parameter cannot be <b>NULL</b>.
 
 There are no restrictions on the characters that can appear in a non-<b>NULL</b> logical path.
 
-
 ## -returns
-
-
 
 The following are the valid return codes for this method.
 
@@ -165,7 +155,7 @@ The backup components object is not initialized, this method has been called dur
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more 
         information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -189,17 +179,13 @@ The object is a duplicate. A component with the same logical path and component 
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
@@ -214,7 +200,7 @@ Nonselectable for backup components that have a selectable for backup ancestor i
     implicitly added to the Backup Components Document when the ancestor is added and should never be explicitly added 
     to a requester's Backup Components Document by using 
     <b>AddComponent</b>.The result of doing so is 
-    undefined (see <a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with 
+    undefined (see <a href="/windows/desktop/VSS/working-with-selectability-and-logical-paths">Working with 
     Selectability and Logical Paths</a>).
 
 Selectable for backup components with selectable for backup ancestors are also subcomponents in a component 
@@ -234,40 +220,30 @@ The distinction between the <i>instanceId</i> and the <i>writerID</i> is
     necessary because it is possible to run multiple copies for the same writer.
 
 A writer's class identifier and instance can be found by calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getidentity">IVssExamineWriterMetadata::GetIdentity</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getidentity">IVssExamineWriterMetadata::GetIdentity</a>.
 
 Before it calls <b>AddComponent</b>, a 
     requester must have been initialized for backup by calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">IVssBackupComponents::InitializeForBackup</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>. See <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-backup-initialization">Overview of Backup Initialization</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">IVssBackupComponents::InitializeForBackup</a> and <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>. See <a href="/windows/desktop/VSS/overview-of-backup-initialization">Overview of Backup Initialization</a>.
 
-The requester must call <b>AddComponent</b> to add the required components to the shadow copy before calling <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> to create the shadow copy. See <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-the-backup-discovery-phase">Overview of the Backup Discovery Phase</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a>.
-
-
-
+The requester must call <b>AddComponent</b> to add the required components to the shadow copy before calling <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> to create the shadow copy. See <a href="/windows/desktop/VSS/overview-of-the-backup-discovery-phase">Overview of the Backup Discovery Phase</a> and <a href="/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getidentity">IVssExamineWriterMetadata::GetIdentity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getidentity">IVssExamineWriterMetadata::GetIdentity</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:netfw.INetFwRule.get_RemotePorts
 title: INetFwRule::get_RemotePorts (netfw.h)
-description: Specifies the list of remote ports for this rule.
+description: Specifies the list of remote ports for this rule. (Get)
+helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","RemotePorts property","INetFwRule.RemotePorts","INetFwRule.get_RemotePorts","INetFwRule::RemotePorts","INetFwRule::get_RemotePorts","INetFwRule::put_RemotePorts","RemotePorts property [ICS/ICF]","RemotePorts property [ICS/ICF]","INetFwRule interface","get_RemotePorts","ics.inetfwrule_remoteports","netfw/INetFwRule::RemotePorts","netfw/INetFwRule::get_RemotePorts","netfw/INetFwRule::put_RemotePorts"]
 old-location: ics\inetfwrule_remoteports.htm
 tech.root: ics
 ms.assetid: e6791258-4669-42d9-9551-5c861bfb2b52
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemotePorts property, INetFwRule.RemotePorts, INetFwRule.get_RemotePorts, INetFwRule::RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF],INetFwRule interface, get_RemotePorts, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts
-f1_keywords:
-- netfw/INetFwRule.RemotePorts
-dev_langs:
-- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: FirewallAPI.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- FirewallAPI.dll
-api_name:
-- INetFwRule.RemotePorts
-- INetFwRule.get_RemotePorts
-- INetFwRule.put_RemotePorts
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - INetFwRule::get_RemotePorts
+ - netfw/INetFwRule::get_RemotePorts
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - FirewallAPI.dll
+api_name:
+ - INetFwRule.RemotePorts
+ - INetFwRule.get_RemotePorts
+ - INetFwRule.put_RemotePorts
 ---
 
 # INetFwRule::get_RemotePorts
@@ -50,35 +52,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Specifies the list of remote ports for this rule.
 
 This property is read/write.
 
-
 ## -parameters
-
 
 ## -remarks
 
-
-
 This property is optional.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
+Also see the restrictions on changing properties described in the Remarks section of the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a> property must be set before the <b>RemotePorts</b> property or an error will be returned.
-
-
-
+The <a href="/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a> property must be set before the <b>RemotePorts</b> property or an error will be returned.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>

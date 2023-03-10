@@ -1,16 +1,13 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheIsFull
 title: IOfflineFilesEvents::CacheIsFull (cscobj.h)
-description: This method is reserved for future use.
+description: This method is reserved for future use. (IOfflineFilesEvents.CacheIsFull)
+helpviewer_keywords: ["CacheIsFull","CacheIsFull method [Offline Files]","CacheIsFull method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","CacheIsFull method","IOfflineFilesEvents.CacheIsFull","IOfflineFilesEvents::CacheIsFull","cscobj/IOfflineFilesEvents::CacheIsFull","of.iofflinefilesevents_cacheisfull"]
 old-location: of\iofflinefilesevents_cacheisfull.htm
-tech.root: offlinefiles
+tech.root: of
 ms.assetid: 535998f6-846b-4075-9504-a8d3e90a73b9
 ms.date: 12/05/2018
 ms.keywords: CacheIsFull, CacheIsFull method [Offline Files], CacheIsFull method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],CacheIsFull method, IOfflineFilesEvents.CacheIsFull, IOfflineFilesEvents::CacheIsFull, cscobj/IOfflineFilesEvents::CacheIsFull, of.iofflinefilesevents_cacheisfull
-f1_keywords:
-- cscobj/IOfflineFilesEvents.CacheIsFull
-dev_langs:
-- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- CscSvc.dll
-- CscObj.dll
-api_name:
-- IOfflineFilesEvents.CacheIsFull
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOfflineFilesEvents::CacheIsFull
+ - cscobj/IOfflineFilesEvents::CacheIsFull
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - CscSvc.dll
+ - CscObj.dll
+api_name:
+ - IOfflineFilesEvents.CacheIsFull
 ---
 
 # IOfflineFilesEvents::CacheIsFull
@@ -49,33 +51,14 @@ ms.custom: 19H1
 
 ## -description
 
-
 This method is reserved for future use.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>

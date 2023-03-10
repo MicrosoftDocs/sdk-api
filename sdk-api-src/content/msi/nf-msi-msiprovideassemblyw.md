@@ -1,16 +1,13 @@
 ---
 UID: NF:msi.MsiProvideAssemblyW
 title: MsiProvideAssemblyW function (msi.h)
-description: The MsiProvideAssembly function returns the full path to a Windows Installer component that contains an assembly. The function prompts for a source and performs any necessary installation. MsiProvideAssembly increments the usage count for the feature.
+description: The MsiProvideAssembly function returns the full path to a Windows Installer component that contains an assembly. The function prompts for a source and performs any necessary installation. MsiProvideAssembly increments the usage count for the feature. (Unicode)
+helpviewer_keywords: ["INSTALLMODE_DEFAULT", "INSTALLMODE_EXISTING", "INSTALLMODE_NODETECTION", "INSTALLMODE_NODETECTION_ANY", "INSTALLMODE_NOSOURCERESOLUTION", "MSIASSEMBLYINFO_NETASSEMBLY", "MSIASSEMBLYINFO_WIN32ASSEMBLY", "MsiProvideAssembly", "MsiProvideAssembly function", "MsiProvideAssemblyW", "_msi_msiprovideassembly", "combination of the REINSTALLMODE flags", "msi/MsiProvideAssembly", "msi/MsiProvideAssemblyW", "setup.msiprovideassembly"]
 old-location: setup\msiprovideassembly.htm
-tech.root: Msi
+tech.root: setup
 ms.assetid: 9d7deb0b-f247-4af0-ba94-4d40c2f31109
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NODETECTION_ANY, INSTALLMODE_NOSOURCERESOLUTION, MSIASSEMBLYINFO_NETASSEMBLY, MSIASSEMBLYINFO_WIN32ASSEMBLY, MsiProvideAssembly, MsiProvideAssembly function, MsiProvideAssemblyA, MsiProvideAssemblyW, _msi_msiprovideassembly, combination of the REINSTALLMODE flags, msi/MsiProvideAssembly, msi/MsiProvideAssemblyA, msi/MsiProvideAssemblyW, setup.msiprovideassembly
-f1_keywords:
-- msi/MsiProvideAssembly
-dev_langs:
-- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Msi.dll
-api_name:
-- MsiProvideAssembly
-- MsiProvideAssemblyA
-- MsiProvideAssemblyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MsiProvideAssemblyW
+ - msi/MsiProvideAssemblyW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Msi.dll
+api_name:
+ - MsiProvideAssembly
+ - MsiProvideAssemblyA
+ - MsiProvideAssemblyW
 ---
 
 # MsiProvideAssemblyW function
@@ -50,26 +52,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 The 
 <b>MsiProvideAssembly</b> function returns the full path to a Windows Installer component that contains an assembly. The function prompts for a source and performs any necessary installation. 
 <b>MsiProvideAssembly</b> increments the usage count for the feature.
 
-
 ## -parameters
-
-
-
 
 ### -param szAssemblyName [in]
 
 The assembly name as a string.
 
-
 ### -param szAppContext [in]
 
 Set to null for global assemblies. For private assemblies, set <i>szAppContext</i> to the full path of the application configuration file  or to the full path of the executable file of the application to which the assembly has been made private.
-
 
 ### -param dwInstallMode [in]
 
@@ -89,7 +84,7 @@ Defines the installation mode. This parameter can be one of the following values
 </td>
 <td width="60%">
 Provide the component and perform any installation necessary to provide the component. If the key file of a component in the requested feature, or a feature parent, is missing, reinstall the feature using 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA and REINSTALLMODE_SHORTCUT.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> with the following flag bits set: REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_USERDATA and REINSTALLMODE_SHORTCUT.
 
 </td>
 </tr>
@@ -153,13 +148,11 @@ REINSTALLMODE flags</b></dt>
 </td>
 <td width="60%">
 Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a> to reinstall feature using this parameter for the <i>dwReinstallMode</i> parameter, and then provide the component.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwAssemblyInfo [in]
 
@@ -195,13 +188,10 @@ Win32 Assembly
 </td>
 </tr>
 </table>
- 
-
 
 ### -param lpPathBuf [out]
 
 Pointer to a variable that receives the path to the component. This parameter can be null.
-
 
 ### -param pcchPathBuf [in, out]
 
@@ -212,10 +202,7 @@ Pointer to a variable that specifies the size, in characters, of the buffer poin
 
 If <i>lpPathBuf</i> is null, <i>pcchPathBuf</i> can be null.
 
-
 ## -returns
-
-
 
 <table>
 <tr>
@@ -369,14 +356,9 @@ Unable to detect a source.
  
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
-
-
-
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 ## -remarks
-
-
 
 When the 
 <b>MsiProvideAssembly</b> function succeeds, the <i>pcchPathBuf</i> parameter contains the length of the string in <i>lpPathBuf</i>.
@@ -384,22 +366,19 @@ When the
 The INSTALLMODE_EXISTING option cannot be used in combination with the REINSTALLMODE flag.
 
 Features with components that contain a corrupted file or the wrong version of a file must be explicitly reinstalled by the user, or by having the application call 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msireinstallfeaturea">MsiReinstallFeature</a>.
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiProvideAssembly as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
- 
-
- 
-
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>

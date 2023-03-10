@@ -2,15 +2,12 @@
 UID: NS:wcmapi._WCM_CONNECTION_COST_DATA
 title: WCM_CONNECTION_COST_DATA (wcmapi.h)
 description: Specifies information about a connection cost.
+helpviewer_keywords: ["*PWCM_CONNECTION_COST_DATA","PWCM_CONNECTION_COST_DATA","PWCM_CONNECTION_COST_DATA structure pointer [Windows Connection Manager]","WCM_CONNECTION_COST_CONGESTED","WCM_CONNECTION_COST_DATA","WCM_CONNECTION_COST_DATA structure [Windows Connection Manager]","WCM_CONNECTION_COST_FIXED","WCM_CONNECTION_COST_OVERDATALIMIT","WCM_CONNECTION_COST_ROAMING","WCM_CONNECTION_COST_UNKNOWN","WCM_CONNECTION_COST_UNRESTRICTED","WCM_CONNECTION_COST_VARIABLE","wcm.wcm_connection_cost_data","wcmapi/PWCM_CONNECTION_COST_DATA","wcmapi/WCM_CONNECTION_COST_DATA"]
 old-location: wcm\wcm_connection_cost_data.htm
 tech.root: wcm
 ms.assetid: 18fcc708-74b1-408f-a7ee-64455742324d
 ms.date: 12/05/2018
 ms.keywords: '*PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA, PWCM_CONNECTION_COST_DATA structure pointer [Windows Connection Manager], WCM_CONNECTION_COST_CONGESTED, WCM_CONNECTION_COST_DATA, WCM_CONNECTION_COST_DATA structure [Windows Connection Manager], WCM_CONNECTION_COST_FIXED, WCM_CONNECTION_COST_OVERDATALIMIT, WCM_CONNECTION_COST_ROAMING, WCM_CONNECTION_COST_UNKNOWN, WCM_CONNECTION_COST_UNRESTRICTED, WCM_CONNECTION_COST_VARIABLE, wcm.wcm_connection_cost_data, wcmapi/PWCM_CONNECTION_COST_DATA, wcmapi/WCM_CONNECTION_COST_DATA'
-f1_keywords:
-- wcmapi/WCM_CONNECTION_COST_DATA
-dev_langs:
-- c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wcmapi.h
-api_name:
-- WCM_CONNECTION_COST_DATA
 targetos: Windows
 req.typenames: WCM_CONNECTION_COST_DATA, *PWCM_CONNECTION_COST_DATA
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WCM_CONNECTION_COST_DATA
+ - wcmapi/_WCM_CONNECTION_COST_DATA
+ - PWCM_CONNECTION_COST_DATA
+ - wcmapi/PWCM_CONNECTION_COST_DATA
+ - WCM_CONNECTION_COST_DATA
+ - wcmapi/WCM_CONNECTION_COST_DATA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wcmapi.h
+api_name:
+ - WCM_CONNECTION_COST_DATA
 ---
 
 # WCM_CONNECTION_COST_DATA structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>WCM_CONNECTION_COST_DATA</b> structure specifies information about a connection cost.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ConnectionCost
 
@@ -161,23 +162,13 @@ The connection is outside of the home network.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field CostSource
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a></b>
+Type: <b><a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a></b>
 
 Specifies the cost source.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>

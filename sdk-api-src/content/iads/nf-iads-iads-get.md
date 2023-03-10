@@ -2,15 +2,12 @@
 UID: NF:iads.IADs.Get
 title: IADs::Get (iads.h)
 description: Retrieves a property of a given name from the property cache.
+helpviewer_keywords: ["Get","Get method [ADSI]","Get method [ADSI]","IADs interface","IADs interface [ADSI]","Get method","IADs.Get","IADs::Get","_ds_iads_get","adsi.iads__get","adsi.iads_get","iads/IADs::Get"]
 old-location: adsi\iads_get.htm
 tech.root: adsi
 ms.assetid: fd6d79b6-46f8-42dd-8525-a72a6e0a7672
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [ADSI], Get method [ADSI],IADs interface, IADs interface [ADSI],Get method, IADs.Get, IADs::Get, _ds_iads_get, adsi.iads__get, adsi.iads_get, iads/IADs::Get
-f1_keywords:
-- iads/IADs.Get
-dev_langs:
-- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: Activeds.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Activeds.dll
-api_name:
-- IADs.Get
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IADs::Get
+ - iads/IADs::Get
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Activeds.dll
+api_name:
+ - IADs.Get
 ---
 
 # IADs::Get
@@ -48,45 +50,31 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>IADs::Get</b> method retrieves a property of a given name from the property cache. The property can be single-valued, or multi-valued. The property value is represented as either a variant for a single-valued property or a variant array (of <b>VARIANT</b> or bytes) for a property that allows multiple values.
 
-
 ## -parameters
-
-
-
 
 ### -param bstrName [in]
 
 Contains a <b>BSTR</b> that specifies the property name.
 
-
 ### -param pvProp [out]
 
 Pointer to a <b>VARIANT</b> that receives the value of the property. For a multi-valued property, <i>pvProp</i> is a variant array of <b>VARIANT</b>, unless the property is a binary type. In this latter case, <i>pvProp</i> is a variant array of bytes (VT_U1 or VT_ARRAY). For the property that refers to an object, <i>pvProp</i> is a VT_DISPATCH pointer to the object referred to.
 
-
 ## -returns
-
-
 
 This method supports standard return values, as well as the following.
 
-For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
-
-
-
+For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-
-
 The <b>IADs::Get</b> method requires the caller to handle the single- and multi-valued property values differently. Thus, if you know that the property of interest is either single- or multi-valued, use the <b>IADs::Get</b> method to retrieve the property value. The following code example shows how you, as a caller, can handle single- and multi-valued properties when calling this method.
 
-When a property is uninitialized, calling this method invokes an implicit call to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> method. This loads from the underlying directory store the values of the supported properties that have not been set in the cache. Any subsequent calls to <b>IADs::Get</b> deals with property values in the cache only. For more information about the behavior of implicit and explicit calls to <b>IADs::GetInfo</b>, see <b>IADs::GetInfo</b>.
+When a property is uninitialized, calling this method invokes an implicit call to the  <a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a> method. This loads from the underlying directory store the values of the supported properties that have not been set in the cache. Any subsequent calls to <b>IADs::Get</b> deals with property values in the cache only. For more information about the behavior of implicit and explicit calls to <b>IADs::GetInfo</b>, see <b>IADs::GetInfo</b>.
 
-You can also use  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a> to retrieve property values from the property cache. However, the values are returned as a variant array of <b>VARIANT</b>s, regardless of whether they are single-valued or multi-valued. That is,  ADSI attempts to package the returned property values in consistent data formats. This saves you, as a caller, the effort of validating the data types when unsure that the returned data has single or multiple values.
+You can also use  <a href="/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a> to retrieve property values from the property cache. However, the values are returned as a variant array of <b>VARIANT</b>s, regardless of whether they are single-valued or multi-valued. That is,  ADSI attempts to package the returned property values in consistent data formats. This saves you, as a caller, the effort of validating the data types when unsure that the returned data has single or multiple values.
 
 
 #### Examples
@@ -126,7 +114,7 @@ ErrTest:
 ```
 
 
-The following code example shows how to work with property values of binary data using <b>IADs::Get</b> and  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>.
+The following code example shows how to work with property values of binary data using <b>IADs::Get</b> and  <a href="/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>.
 
 
 ```vb
@@ -279,38 +267,27 @@ if ( pSvc )
 }
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
+<a href="/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
- 
-
- 
-

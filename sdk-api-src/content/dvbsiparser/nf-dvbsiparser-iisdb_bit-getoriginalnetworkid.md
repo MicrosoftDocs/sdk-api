@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IISDB_BIT.GetOriginalNetworkId
 title: IISDB_BIT::GetOriginalNetworkId (dvbsiparser.h)
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
+helpviewer_keywords: ["GetOriginalNetworkId","GetOriginalNetworkId method [Microsoft TV Technologies]","GetOriginalNetworkId method [Microsoft TV Technologies]","IISDB_BIT interface","IISDB_BIT interface [Microsoft TV Technologies]","GetOriginalNetworkId method","IISDB_BIT.GetOriginalNetworkId","IISDB_BIT::GetOriginalNetworkId","dvbsiparser/IISDB_BIT::GetOriginalNetworkId","mstv.iisdb_bit_getoriginalnetworkid"]
 old-location: mstv\iisdb_bit_getoriginalnetworkid.htm
 tech.root: mstv
 ms.assetid: eb10f0a9-d673-46eb-bde1-3f22c518b05d
 ms.date: 12/05/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_BIT.GetOriginalNetworkId, IISDB_BIT::GetOriginalNetworkId, dvbsiparser/IISDB_BIT::GetOriginalNetworkId, mstv.iisdb_bit_getoriginalnetworkid
-f1_keywords:
-- dvbsiparser/IISDB_BIT.GetOriginalNetworkId
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IISDB_BIT.GetOriginalNetworkId
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IISDB_BIT::GetOriginalNetworkId
+ - dvbsiparser/IISDB_BIT::GetOriginalNetworkId
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IISDB_BIT.GetOriginalNetworkId
 ---
 
 # IISDB_BIT::GetOriginalNetworkId
@@ -48,39 +50,21 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets an identifier that identifies the broadcaster that originated the
   MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) broadcaster
   information table
-  (BIT). 
-
+  (BIT).
 
 ## -parameters
-
-
-
 
 ### -param pwVal [out]
 
 Receives the original network ID.
 
-
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_bit">IISDB_BIT</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_bit">IISDB_BIT</a>

@@ -2,15 +2,12 @@
 UID: NN:shobjidl_core.IOpenSearchSource
 title: IOpenSearchSource (shobjidl_core.h)
 description: Exposes a method to get search results from a custom client-side OpenSearch data source.
+helpviewer_keywords: ["IOpenSearchSource","IOpenSearchSource interface [Windows Shell]","IOpenSearchSource interface [Windows Shell]","described","_shell_IOpenSearchSource","shell.IOpenSearchSource","shobjidl_core/IOpenSearchSource"]
 old-location: shell\IOpenSearchSource.htm
 tech.root: shell
 ms.assetid: 8d5d376f-b59d-4420-a6be-d64459cb6aa3
 ms.date: 12/05/2018
 ms.keywords: IOpenSearchSource, IOpenSearchSource interface [Windows Shell], IOpenSearchSource interface [Windows Shell],described, _shell_IOpenSearchSource, shell.IOpenSearchSource, shobjidl_core/IOpenSearchSource
-f1_keywords:
-- shobjidl_core/IOpenSearchSource
-dev_langs:
-- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- shobjidl_core.h
-api_name:
-- IOpenSearchSource
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IOpenSearchSource
+ - shobjidl_core/IOpenSearchSource
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shobjidl_core.h
+api_name:
+ - IOpenSearchSource
 ---
 
 # IOpenSearchSource interface
@@ -48,40 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Exposes a method to get search results from a custom client-side OpenSearch data source.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpenSearchSource</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpenSearchSource</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IOpenSearchSource</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iopensearchsource-getresults">GetResults</a>
-</td>
-<td align="left" width="63%">
-Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.
-
-</td>
-</tr>
-</table> 
-
+The <b>IOpenSearchSource</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpenSearchSource</b> also has these types of members:
 
 ## -remarks
-
-
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
 Implement this interface when a server-side only solution will not work, such as the following: 
@@ -95,6 +70,3 @@ Implement this interface when a server-side only solution will not work, such as
 A client-side OpenSearch data source that sits in between the Windows OpenSearch provider and the external data source.
 
 With a search connector (a .searchconnector-ms file), Windows Explorer calls your implementation with the query parameters. Your implementation returns results formatted in RSS or Atom format. That allows your implementation to provide custom authentication UI and connect to the data source using its proprietary API.
-
-
-

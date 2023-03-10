@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetCopyControl
 title: IIsdbDigitalCopyControlDescriptor::GetCopyControl (dvbsiparser.h)
 description: Gets copy control data from an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
+helpviewer_keywords: ["GetCopyControl","GetCopyControl method [Microsoft TV Technologies]","GetCopyControl method [Microsoft TV Technologies]","IIsdbDigitalCopyControlDescriptor interface","IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies]","GetCopyControl method","IIsdbDigitalCopyControlDescriptor.GetCopyControl","IIsdbDigitalCopyControlDescriptor::GetCopyControl","dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCopyControl","mstv.iisdbdigitalcopycontroldescriptor_getcopycontrol"]
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getcopycontrol.htm
 tech.root: mstv
 ms.assetid: 115ed5f7-a445-4ff2-a9d7-035867b2504d
 ms.date: 12/05/2018
 ms.keywords: GetCopyControl, GetCopyControl method [Microsoft TV Technologies], GetCopyControl method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetCopyControl method, IIsdbDigitalCopyControlDescriptor.GetCopyControl, IIsdbDigitalCopyControlDescriptor::GetCopyControl, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCopyControl, mstv.iisdbdigitalcopycontroldescriptor_getcopycontrol
-f1_keywords:
-- dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetCopyControl
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IIsdbDigitalCopyControlDescriptor.GetCopyControl
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IIsdbDigitalCopyControlDescriptor::GetCopyControl
+ - dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCopyControl
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IIsdbDigitalCopyControlDescriptor.GetCopyControl
 ---
 
 # IIsdbDigitalCopyControlDescriptor::GetCopyControl
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets copy control data from an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 
-
 ## -parameters
-
-
-
 
 ### -param pbDigitalRecordingControlData [out]
 
@@ -111,8 +108,6 @@ Copying forbidden.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbCopyControlType [out]
 
@@ -168,8 +163,6 @@ Output by not encoding to serial interface.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbAPSControlData [out]
 
@@ -225,30 +218,15 @@ Output with pseudosync pulse + four-line reversed division burst insertion.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pbMaximumBitrate [out]
 
-Receives the maximum trasmission rate for transport stream packets, in units of 250 kbps.
-
+Receives the maximum transmission rate for transport stream packets, in units of 250 kbps.
 
 ## -returns
 
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdigitalcopycontroldescriptor">IIsdbDigitalCopyControlDescriptor</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdigitalcopycontroldescriptor">IIsdbDigitalCopyControlDescriptor</a>

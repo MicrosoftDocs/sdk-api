@@ -2,15 +2,12 @@
 UID: NF:dvbsiparser.IDvbSiParser.GetDIT
 title: IDvbSiParser::GetDIT (dvbsiparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetDIT","GetDIT method [Microsoft TV Technologies]","GetDIT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetDIT method","IDvbSiParser.GetDIT","IDvbSiParser::GetDIT","IDvbSiParserGetDIT","dvbsiparser/IDvbSiParser::GetDIT","mstv.idvbsiparser_getdit"]
 old-location: mstv\idvbsiparser_getdit.htm
 tech.root: mstv
 ms.assetid: ff6d5a04-173d-4577-a6e8-2ae5b2f99358
 ms.date: 12/05/2018
 ms.keywords: GetDIT, GetDIT method [Microsoft TV Technologies], GetDIT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetDIT method, IDvbSiParser.GetDIT, IDvbSiParser::GetDIT, IDvbSiParserGetDIT, dvbsiparser/IDvbSiParser::GetDIT, mstv.idvbsiparser_getdit
-f1_keywords:
-- dvbsiparser/IDvbSiParser.GetDIT
-dev_langs:
-- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- dvbsiparser.h
-api_name:
-- IDvbSiParser.GetDIT
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDvbSiParser::GetDIT
+ - dvbsiparser/IDvbSiParser::GetDIT
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dvbsiparser.h
+api_name:
+ - IDvbSiParser.GetDIT
 ---
 
 # IDvbSiParser::GetDIT
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,25 +57,17 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetDIT</b> method retrieves the discontinuity information table (DIT).
 
-
 ## -parameters
-
-
-
 
 ### -param dwTimeout [in]
 
 Specifies a time-out value, in milliseconds. If the filter does not receive the data within the time-out period, the method fails.
 
-
 ### -param ppDIT [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_dit">IDVB_DIT</a> interface pointer. The caller must release the interface.
-
+Address of a variable that receives an <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_dit">IDVB_DIT</a> interface pointer. The caller must release the interface.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -118,18 +110,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>

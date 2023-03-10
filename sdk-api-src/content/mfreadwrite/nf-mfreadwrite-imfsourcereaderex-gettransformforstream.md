@@ -1,16 +1,13 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.GetTransformForStream
 title: IMFSourceReaderEx::GetTransformForStream (mfreadwrite.h)
-description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
+description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream. (IMFSourceReaderEx.GetTransformForStream)
+helpviewer_keywords: ["GetTransformForStream","GetTransformForStream method [Media Foundation]","GetTransformForStream method [Media Foundation]","IMFSourceReaderEx interface","IMFSourceReaderEx interface [Media Foundation]","GetTransformForStream method","IMFSourceReaderEx.GetTransformForStream","IMFSourceReaderEx::GetTransformForStream","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","mf.imfsourcereaderex_gettransformforstream","mfreadwrite/IMFSourceReaderEx::GetTransformForStream"]
 old-location: mf\imfsourcereaderex_gettransformforstream.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: 39F2D132-5D2B-4389-AB30-FE2942EC3965
 ms.date: 12/05/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],GetTransformForStream method, IMFSourceReaderEx.GetTransformForStream, IMFSourceReaderEx::GetTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_gettransformforstream, mfreadwrite/IMFSourceReaderEx::GetTransformForStream
-f1_keywords:
-- mfreadwrite/IMFSourceReaderEx.GetTransformForStream
-dev_langs:
-- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- mfreadwrite.h
-api_name:
-- IMFSourceReaderEx.GetTransformForStream
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IMFSourceReaderEx::GetTransformForStream
+ - mfreadwrite/IMFSourceReaderEx::GetTransformForStream
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - mfreadwrite.h
+api_name:
+ - IMFSourceReaderEx.GetTransformForStream
 ---
 
 # IMFSourceReaderEx::GetTransformForStream
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 
-
 ## -parameters
-
-
-
 
 ### -param dwStreamIndex [in]
 
@@ -100,27 +97,20 @@ The first audio stream.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param dwTransformIndex [in]
 
-The zero-based index of the MFT to retreive.
-
+The zero-based index of the MFT to retrieve.
 
 ### -param pGuidCategory [out]
 
-Receives a GUID that specifies the category of the MFT. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
-
+Receives a GUID that specifies the category of the MFT. For a list of possible values, see <a href="/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 ### -param ppTransform [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of the MFT. The caller must release the interface.
-
+Receives a pointer to the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of the MFT. The caller must release the interface.
 
 ## -returns
-
-
 
 This method can return one of these values.
 
@@ -163,57 +153,41 @@ The <i>dwStreamIndex</i> parameter is invalid.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You can use this method to configure an MFT after it is inserted into the processing chain. Do not use the pointer returned in <i>ppTransform</i> to set media types on the MFT or to process data. In particular, calling any of the following <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> methods could have unexpected results.
+You can use this method to configure an MFT after it is inserted into the processing chain. Do not use the pointer returned in <i>ppTransform</i> to set media types on the MFT or to process data. In particular, calling any of the following <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> methods could have unexpected results.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-addinputstreams">AddInputStreams</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-addinputstreams">AddInputStreams</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-deleteinputstream">DeleteInputStream</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-deleteinputstream">DeleteInputStream</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processevent">ProcessEvent</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processevent">ProcessEvent</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput">ProcessInput</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage">ProcessMessage</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage">ProcessMessage</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-setinputtype">SetInputType</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setinputtype">SetInputType</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype">SetOutputType</a>
+<a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype">SetOutputType</a>
 </li>
 </ul>
 If a decoder is present, it appears at index position zero.
 
-To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/processing-media-data-with-the-source-reader">Draining the Data Pipeline</a>.
-
-
-
+To avoid losing any data, you should drain the source reader before calling this method. For more information, see <a href="/windows/desktop/medfound/processing-media-data-with-the-source-reader">Draining the Data Pipeline</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>

@@ -2,15 +2,12 @@
 UID: NS:wingdi._devicemodeW
 title: DEVMODEW (wingdi.h)
 description: The DEVMODEW structure is used for specifying characteristics of display and print devices in the Unicode (wide) character set.
+helpviewer_keywords: ["*LPDEVMODEW","*NPDEVMODEW","*PDEVMODEW","DEVMODE","DEVMODEW","DEVMODEW structure [Display Devices]","LPDEVMODEW","LPDEVMODEW structure pointer [Display Devices]","NPDEVMODEW","NPDEVMODEW structure pointer [Display Devices]","PDEVMODEW","PDEVMODEW structure pointer [Display Devices]","display.devmodew","grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml","wingdi/DEVMODEW","wingdi/LPDEVMODEW","wingdi/NPDEVMODEW","wingdi/PDEVMODEW"]
 old-location: display\devmodew.htm
 tech.root: display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
 ms.date: 12/05/2018
 ms.keywords: '*LPDEVMODEW, *NPDEVMODEW, *PDEVMODEW, DEVMODE, DEVMODEW, DEVMODEW structure [Display Devices], LPDEVMODEW, LPDEVMODEW structure pointer [Display Devices], NPDEVMODEW, NPDEVMODEW structure pointer [Display Devices], PDEVMODEW, PDEVMODEW structure pointer [Display Devices], display.devmodew, grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml, wingdi/DEVMODEW, wingdi/LPDEVMODEW, wingdi/NPDEVMODEW, wingdi/PDEVMODEW'
-f1_keywords:
-- wingdi/DEVMODEW
-dev_langs:
-- c++
 req.header: wingdi.h
 req.include-header: Wingdi.h
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- wingdi.h
-api_name:
-- DEVMODEW
 targetos: Windows
 req.typenames: DEVMODEW, *PDEVMODEW, *NPDEVMODEW, *LPDEVMODEW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _devicemodeW
+ - wingdi/_devicemodeW
+ - PDEVMODEW
+ - wingdi/PDEVMODEW
+ - DEVMODEW
+ - wingdi/DEVMODEW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - wingdi.h
+api_name:
+ - DEVMODEW
 ---
 
 # DEVMODEW structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The DEVMODEW structure is used for specifying characteristics of display and print devices in the Unicode (wide) character set.
 
-
 ## -struct-fields
-
-
-
 
 ### -field dmDeviceName
 
@@ -63,43 +64,31 @@ For a display, specifies the name of the display driver's DLL; for example, "per
 
 For a printer, specifies the "friendly name"; for example, "PCL/HP LaserJet" in the case of PCL/HP LaserJet. If the name is greater than CCHDEVICENAME characters in length, the spooler truncates it to fit in the array.
 
-
 ### -field dmSpecVersion
 
 Specifies the version number of this DEVMODEW structure. The current version number is identified by the DM_SPECVERSION constant in <i>wingdi.h</i>.
-
 
 ### -field dmDriverVersion
 
 For a printer, specifies the printer driver version number assigned by the printer driver developer.
 
-Display drivers can set this member to DM_SPECVERSION.  
-
+Display drivers can set this member to DM_SPECVERSION.
 
 ### -field dmSize
 
 Specifies the size in bytes of the public DEVMODEW structure, not including any private, driver-specified members identified by the <b>dmDriverExtra</b> member.
 
-
 ### -field dmDriverExtra
 
 Specifies the number of bytes of private driver data that follow the public structure members. If a device driver does not provide private DEVMODEW members, this member should be set to zero.
-
 
 ### -field dmFields
 
 Specifies bit flags identifying which of the following DEVMODEW members are in use. For example, the DM_ORIENTATION flag is set when the <b>dmOrientation</b> member contains valid data. The DM_XXX flags are defined in <i>wingdi.h</i>.
 
-
 ### -field DUMMYUNIONNAME
 
- 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmOrientation
 
@@ -107,13 +96,11 @@ For printers, specifies the paper orientation. This member can be either DMORIEN
 
 This member is not used for displays.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperSize
 
 For printers, specifies the size of the paper to be printed on. This member must be zero if the length and width of the paper are specified by the <b>dmPaperLength</b> and <b>dmPaperWidth</b> members. Otherwise, the <b>dmPaperSize</b> member must be one of the DMPAPER-prefixed constants defined in <i>wingdi.h</i>.
 
 This member is not used for displays.
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperLength
 
@@ -121,13 +108,11 @@ For printers, specifies the length of the paper, in units of 1/10 of a millimete
 
 This member is not used for displays.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperWidth
 
 For printers, specifies the width of the paper, in units of 1/10 of a millimeter. This value overrides the width of the paper specified by the <b>dmPaperSize</b> member. This member must be used if <b>dmPaperLength</b> is used.
 
 This member is not used for displays.
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmScale
 
@@ -135,20 +120,17 @@ For printers, specifies the percentage by which the image is to be scaled for pr
 
 This member is not used for displays.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmCopies
 
 For printers, specifies the number of copies to be printed, if the device supports multiple copies.
 
 This member is not used for displays.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmDefaultSource
 
 For printers, specifies the printer's default input bin. This must be one of the DMBIN-prefixed constants defined in <i>wingdi.h</i>. If the specified constant is DMBIN_FORMSOURCE, the input bin should be selected automatically.
 
 This member is not used for displays.
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPrintQuality
 
@@ -167,18 +149,13 @@ If a positive value is specified, it represents the number of dots per inch (DPI
 
 This member is not used for displays.
 
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For displays, specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
+For displays, specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure containing the x- and y-coordinates of upper-left corner of the display, in desktop coordinates. This member is used to determine the relative position of monitors in a multiple monitor environment.
 
 This member is not used for printers.
-
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayOrientation
 
@@ -236,8 +213,7 @@ The display device orientation is 270 degrees (measured clockwise) from that of 
 
 This member is not used for printers.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
-
+For more information, see <a href="/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayFixedOutput
 
@@ -277,15 +253,13 @@ The display device presents a lower-resolution mode image by stretching it to fi
 
 This member is not used for printers.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
-
+For more information, see <a href="/windows-hardware/drivers/display/returning-display-modes--drvgetmodes">Returning Display Modes: DrvGetModes</a>.
 
 ### -field dmColor
 
 For printers, specifies whether a color printer should print color or monochrome. This member can be one of DMCOLOR_COLOR or DMCOLOR_MONOCHROME.
 
 This member is not used for displays.
-
 
 ### -field dmDuplex
 
@@ -313,20 +287,17 @@ Print double-sided, using long edge binding.
 
 This member is not used for displays.
 
-
 ### -field dmYResolution
 
 For printers, specifies the <i>y</i> resolution of the printer, in DPI. If this member is used, the <b>dmPrintQuality</b> member specifies the <i>x</i> resolution.
 
 This member is not used for displays.
 
-
 ### -field dmTTOption
 
 For printers, specifies how TrueType fonts should be printed. This member must be one of the DMTT-prefixed constants defined in <i>wingdi.h</i>.
 
 This member is not used for displays.
-
 
 ### -field dmCollate
 
@@ -348,20 +319,17 @@ Do not collate when printing multiple copies.
 
 This member is not used for displays.
 
-
 ### -field dmFormName
 
 For printers, specifies the name of the form to use; such as "Letter" or "Legal". This must be a name that can be obtain by calling the Win32 <b>EnumForms</b> function (described in the Microsoft Window SDK documentation).
 
 This member is not used for displays.
 
-
 ### -field dmLogPixels
 
-For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
+For displays, specifies the number of logical pixels per inch of a display device and should be equal to the <b>ulLogPixels</b> member of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
 
 This member is not used for printers.
-
 
 ### -field dmBitsPerPel
 
@@ -369,13 +337,11 @@ For displays, specifies the color resolution, in bits per pixel, of a display de
 
 This member is not used for printers.
 
-
 ### -field dmPelsWidth
 
 For displays, specifies the width, in pixels, of the visible device surface.
 
 This member is not used for printers.
-
 
 ### -field dmPelsHeight
 
@@ -383,11 +349,7 @@ For displays, specifies the height, in pixels, of the visible device surface.
 
 This member is not used for printers.
 
-
 ### -field DUMMYUNIONNAME2
-
- 
-
 
 ### -field DUMMYUNIONNAME2.dmDisplayFlags
 
@@ -396,7 +358,6 @@ For displays, specifies a display device's display mode. This member can be one 
 
 
 This member is not used for printers.
-
 
 ### -field DUMMYUNIONNAME2.dmNup
 
@@ -432,48 +393,39 @@ The print system does not handle "N-up" printing. An application can set <b>dmNu
 
 This member is not used for displays.
 
-
 ### -field dmDisplayFrequency
 
 For displays, specifies the frequency, in hertz, of a display device in its current mode.
 
 This member is not used for printers.
 
-
 ### -field dmICMMethod
 
 Specifies one of the DMICMMETHOD-prefixed constants defined in <i>wingdi.h</i>.
-
 
 ### -field dmICMIntent
 
 Specifies one of the DMICM-prefixed constants defined in <i>wingdi.h</i>.
 
-
 ### -field dmMediaType
 
 Specifies one of the DMMEDIA-prefixed constants defined in <i>wingdi.h</i>.
-
 
 ### -field dmDitherType
 
 Specifies one of the DMDITHER-prefixed constants defined in <i>wingdi.h</i>.
 
-
 ### -field dmReserved1
 
 Is reserved for system use and should be ignored by the driver.
-
 
 ### -field dmReserved2
 
 Is reserved for system use and should be ignored by the driver.
 
-
 ### -field dmPanningWidth
 
 Is reserved for system use and should be ignored by the driver.
-
 
 ### -field dmPanningHeight
 
@@ -489,12 +441,9 @@ Specifies that the display is not a color device. If this flag is not set, color
 
 Specifies that the display mode is interlaced. If the flag is not set, noninterlaced is assumed.
 
-
 ## -remarks
 
-
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure">DEVMODEW structure</a> is the Unicode version of the <a href="https://go.microsoft.com/fwlink/p/?linkid=96677">DEVMODE </a> structure (described in the Microsoft Windows SDK documentation). While applications can use either the ANSI or Unicode version of the structure, drivers are required to use the Unicode version.
+The <a href="/windows-hardware/drivers/display/the-devmodew-structure">DEVMODEW structure</a> is the Unicode version of the <a href="/previous-versions//ms535771(v=vs.85)">DEVMODE </a> structure (described in the Microsoft Windows SDK documentation). While applications can use either the ANSI or Unicode version of the structure, drivers are required to use the Unicode version.
 
 For printer drivers, the DEVMODEW structure is used for specifying printer characteristics required by a print document. It is also used for specifying a printer's default characteristics.
 
@@ -521,25 +470,22 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 
 
+
+> [!NOTE]
+> The wingdi.h header defines DEVMODE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_documentpropertyheader">DOCUMENTPROPERTYHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_documentpropertyheader">DOCUMENTPROPERTYHEADER</a>
+<a href="/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvconvertdevmode">DrvConvertDevMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvconvertdevmode">DrvConvertDevMode</a>
+<a href="/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetmodes">DrvGetModes</a>

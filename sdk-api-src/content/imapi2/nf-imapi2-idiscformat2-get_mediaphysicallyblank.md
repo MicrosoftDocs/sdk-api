@@ -2,15 +2,12 @@
 UID: NF:imapi2.IDiscFormat2.get_MediaPhysicallyBlank
 title: IDiscFormat2::get_MediaPhysicallyBlank (imapi2.h)
 description: Determines if the current media is reported as physically blank by the drive.
+helpviewer_keywords: ["IDiscFormat2 interface [IMAPI]","get_MediaPhysicallyBlank method","IDiscFormat2.get_MediaPhysicallyBlank","IDiscFormat2::get_MediaPhysicallyBlank","get_MediaPhysicallyBlank","get_MediaPhysicallyBlank method [IMAPI]","get_MediaPhysicallyBlank method [IMAPI]","IDiscFormat2 interface","imapi.idiscformat2_get_mediaphysicallyblank","imapi2/IDiscFormat2::get_MediaPhysicallyBlank"]
 old-location: imapi\idiscformat2_get_mediaphysicallyblank.htm
 tech.root: imapi
 ms.assetid: 5a797742-9142-415b-896b-09526894c2a6
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaPhysicallyBlank method, IDiscFormat2.get_MediaPhysicallyBlank, IDiscFormat2::get_MediaPhysicallyBlank, get_MediaPhysicallyBlank, get_MediaPhysicallyBlank method [IMAPI], get_MediaPhysicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaphysicallyblank, imapi2/IDiscFormat2::get_MediaPhysicallyBlank
-f1_keywords:
-- imapi2/IDiscFormat2.get_MediaPhysicallyBlank
-dev_langs:
-- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2.h
-api_name:
-- IDiscFormat2.get_MediaPhysicallyBlank
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IDiscFormat2::get_MediaPhysicallyBlank
+ - imapi2/IDiscFormat2::get_MediaPhysicallyBlank
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2.h
+api_name:
+ - IDiscFormat2.get_MediaPhysicallyBlank
 ---
 
 # IDiscFormat2::get_MediaPhysicallyBlank
@@ -48,23 +50,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Determines if the current media is reported as physically blank by the drive.
 
-
 ## -parameters
-
-
-
 
 ### -param value [out]
 
 Is VARIANT_TRUE if the disc is physically blank; otherwise, VARIANT_FALSE.
 
-
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -360,22 +354,11 @@ The device associated with this recorder during the last operation has been excl
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank">IDiscFormat2::get_MediaHeuristicallyBlank</a>
- 
-
- 
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank">IDiscFormat2::get_MediaHeuristicallyBlank</a>

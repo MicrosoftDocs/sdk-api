@@ -2,15 +2,12 @@
 UID: NS:psapi._PSAPI_WORKING_SET_BLOCK
 title: PSAPI_WORKING_SET_BLOCK (psapi.h)
 description: Contains working set information for a page.
+helpviewer_keywords: ["*PPSAPI_WORKING_SET_BLOCK","PPSAPI_WORKING_SET_BLOCK","PPSAPI_WORKING_SET_BLOCK union pointer [PSAPI]","PSAPI_WORKING_SET_BLOCK","PSAPI_WORKING_SET_BLOCK union [PSAPI]","base.psapi_working_set_block","psapi.psapi_working_set_block","psapi/PPSAPI_WORKING_SET_BLOCK","psapi/PSAPI_WORKING_SET_BLOCK"]
 old-location: psapi\psapi_working_set_block.htm
 tech.root: psapi
 ms.assetid: feb64235-1003-4595-a6a9-aca1f94f94b8
 ms.date: 12/05/2018
 ms.keywords: '*PPSAPI_WORKING_SET_BLOCK, PPSAPI_WORKING_SET_BLOCK, PPSAPI_WORKING_SET_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_BLOCK, PSAPI_WORKING_SET_BLOCK union [PSAPI], base.psapi_working_set_block, psapi.psapi_working_set_block, psapi/PPSAPI_WORKING_SET_BLOCK, psapi/PSAPI_WORKING_SET_BLOCK'
-f1_keywords:
-- psapi/PSAPI_WORKING_SET_BLOCK
-dev_langs:
-- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Psapi.h
-api_name:
-- PSAPI_WORKING_SET_BLOCK
 targetos: Windows
 req.typenames: PSAPI_WORKING_SET_BLOCK, *PPSAPI_WORKING_SET_BLOCK
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _PSAPI_WORKING_SET_BLOCK
+ - psapi/_PSAPI_WORKING_SET_BLOCK
+ - PPSAPI_WORKING_SET_BLOCK
+ - psapi/PPSAPI_WORKING_SET_BLOCK
+ - PSAPI_WORKING_SET_BLOCK
+ - psapi/PSAPI_WORKING_SET_BLOCK
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Psapi.h
+api_name:
+ - PSAPI_WORKING_SET_BLOCK
 ---
 
 # PSAPI_WORKING_SET_BLOCK structure
@@ -48,19 +54,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains working set information for a page.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 The working set information. See the description of the structure  members for information about the layout of this variable.
-
 
 ### -field Protection
 
@@ -424,23 +424,18 @@ Non-cacheable, guard page, executable, and copy-on-write.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field ShareCount
 
 The number of processes that share this page. The maximum value of this member is 7.
 
-
 ### -field Shared
 
 If this bit is 1, the page is sharable; otherwise, the page is not sharable.
 
-
 ### -field Reserved
 
 This member is reserved.
-
 
 ### -field VirtualPage
 
@@ -448,14 +443,6 @@ The address of the page in the virtual address space.
 
 <b>64-bit Windows:  </b>This member is 52 bits in length.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>
- 
-
- 
-
+<a href="/windows/desktop/api/psapi/ns-psapi-psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>

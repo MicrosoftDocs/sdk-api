@@ -2,15 +2,12 @@
 UID: NN:winsync.ISyncChangeWithPrerequisite
 title: ISyncChangeWithPrerequisite (winsync.h)
 description: Represents metadata about a change that is based on the prerequisite knowledge that is associated with the change.
+helpviewer_keywords: ["ISyncChangeWithPrerequisite","ISyncChangeWithPrerequisite interface [Windows Sync]","ISyncChangeWithPrerequisite interface [Windows Sync]","described","winsync.isyncchangewithprerequisite","winsync/ISyncChangeWithPrerequisite"]
 old-location: winsync\isyncchangewithprerequisite.htm
 tech.root: winsync
 ms.assetid: 7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync],described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
-f1_keywords:
-- winsync/ISyncChangeWithPrerequisite
-dev_langs:
-- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- winsync.h
-api_name:
-- ISyncChangeWithPrerequisite
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ISyncChangeWithPrerequisite
+ - winsync/ISyncChangeWithPrerequisite
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - winsync.h
+api_name:
+ - ISyncChangeWithPrerequisite
 ---
 
 # ISyncChangeWithPrerequisite interface
@@ -48,66 +50,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Represents metadata about a change that is based on the prerequisite knowledge that is associated with the change.
-
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncChangeWithPrerequisite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChangeWithPrerequisite</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>ISyncChangeWithPrerequisite</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangewithprerequisite-getlearnedknowledgewithprerequisite">GetLearnedKnowledgeWithPrerequisite</a>
-</td>
-<td align="left" width="63%">
-Gets the knowledge that the destination replica learns when the destination provider applies this change, based on the prerequisite knowledge that is associated with the change.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangewithprerequisite-getprerequisiteknowledge">GetPrerequisiteKnowledge</a>
-</td>
-<td align="left" width="63%">
-Gets the minimum knowledge that a destination provider is required to have to process this change.
-
-</td>
-</tr>
-</table> 
-
+The <b>ISyncChangeWithPrerequisite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncChangeWithPrerequisite</b> also has these types of members:
 
 ## -remarks
 
-
-
-An <b>ISyncChangeWithPrerequisite</b> object can be obtained by passing <b>IID_ ISyncChangeWithPrerequisite</b> to the <b>QueryInterface</b> method of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange</a> object.
-
-
-
+An <b>ISyncChangeWithPrerequisite</b> object can be obtained by passing <b>IID_ ISyncChangeWithPrerequisite</b> to the <b>QueryInterface</b> method of an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange</a> object.
 
 ## -see-also
 
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchange">ISyncChange Interface</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.operator-assign
 title: BoundingFrustum::operator-assign
-description: Copies values from another BoundingFrustum.
+description: Copies values from another BoundingFrustum. (overload 1/2)
+helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","op_Assignment method","BoundingFrustum.op_Assignment","BoundingFrustum.operator-assign","BoundingFrustum.operator=","BoundingFrustum::operator-assign","BoundingFrustum::operator=","dxmath.boundingfrustum_op_assignment","op_Assignment method [DirectX Math Support APIs]","op_Assignment method [DirectX Math Support APIs]","BoundingFrustum interface","operator="]
 old-location: dxmath\boundingfrustum_op_assignment.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.op_Assignment(BoundingFrustum)
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],op_Assignment method, BoundingFrustum.op_Assignment, BoundingFrustum.operator-assign, BoundingFrustum.operator=, BoundingFrustum::operator-assign, BoundingFrustum::operator=, dxmath.boundingfrustum_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingFrustum interface, operator=
-f1_keywords:
-- directxcollision/BoundingFrustum.op_Assignment
-dev_langs:
-- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -28,18 +25,23 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- DirectXCollision.h
-api_name:
-- BoundingFrustum.op_Assignment
 targetos: Windows
 req.typenames: 
 req.redist: 
+f1_keywords:
+ - BoundingFrustum::operator=
+ - directxcollision/BoundingFrustum::operator=
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXCollision.h
+api_name:
+ - BoundingFrustum.op_Assignment
 ---
 
 # BoundingFrustum::operator-assign
@@ -47,45 +49,26 @@ req.redist:
 
 ## -description
 
-
-Copies values from another [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
-
+Copies values from another [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -parameters
 
+### -param unnamedParam1 [in, ref]
 
-
-
-### -param arg1 [in, ref]
-
-The [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) to copy values from.
-
+The [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) to copy values from.
 
 ## -returns
 
-
-
-The updated [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
-
-
-
+The updated [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -remarks
-
-
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 
-
-
-
 ## -see-also
 
-
-
-
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -94,7 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
- 
-
- 
-

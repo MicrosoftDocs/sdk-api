@@ -2,15 +2,12 @@
 UID: NF:vmr9.IVMRWindowlessControl9.GetAspectRatioMode
 title: IVMRWindowlessControl9::GetAspectRatioMode (vmr9.h)
 description: The GetAspectRatioMode method retrieves the current aspect ratio display mode.
+helpviewer_keywords: ["GetAspectRatioMode","GetAspectRatioMode method [DirectShow]","GetAspectRatioMode method [DirectShow]","IVMRWindowlessControl9 interface","IVMRWindowlessControl9 interface [DirectShow]","GetAspectRatioMode method","IVMRWindowlessControl9.GetAspectRatioMode","IVMRWindowlessControl9::GetAspectRatioMode","IVMRWindowlessControl9GetAspectRatioMode","dshow.ivmrwindowlesscontrol9_getaspectratiomode","vmr9/IVMRWindowlessControl9::GetAspectRatioMode"]
 old-location: dshow\ivmrwindowlesscontrol9_getaspectratiomode.htm
-tech.root: DirectShow
+tech.root: dshow
 ms.assetid: c18ab567-5e0d-400a-8dc1-e9ad83650b7c
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetAspectRatioMode method, IVMRWindowlessControl9.GetAspectRatioMode, IVMRWindowlessControl9::GetAspectRatioMode, IVMRWindowlessControl9GetAspectRatioMode, dshow.ivmrwindowlesscontrol9_getaspectratiomode, vmr9/IVMRWindowlessControl9::GetAspectRatioMode
-f1_keywords:
-- vmr9/IVMRWindowlessControl9.GetAspectRatioMode
-dev_langs:
-- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Strmiids.lib
-- Strmiids.dll
-api_name:
-- IVMRWindowlessControl9.GetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IVMRWindowlessControl9::GetAspectRatioMode
+ - vmr9/IVMRWindowlessControl9::GetAspectRatioMode
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IVMRWindowlessControl9.GetAspectRatioMode
 ---
 
 # IVMRWindowlessControl9::GetAspectRatioMode
@@ -49,26 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
-
 The <code>GetAspectRatioMode</code> method retrieves the current aspect ratio display mode.
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param lpAspectRatioMode [out]
 
-Pointer to a DWORD that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9aspectratiomode">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
-
+Pointer to a DWORD that receives a <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9aspectratiomode">VMR9AspectRatioMode</a> value that indicates the current aspect ratio mode.
 
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include those in the following table.
 
@@ -100,35 +91,19 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
 Include DShow.h and D3d9.h before Vmr9.h.
-
-
-
 
 ## -see-also
 
+<a href="/previous-versions/ms787155(v=vs.85)">IVMRWindowlessControl9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9">IVMRWindowlessControl9 Interface</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-setaspectratiomode">SetAspectRatioMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrwindowlesscontrol9-setaspectratiomode">SetAspectRatioMode</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
- 
-
- 
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

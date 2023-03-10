@@ -2,15 +2,12 @@
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRecordRatingValue
 title: IAtscContentAdvisoryDescriptor::GetRecordRatingValue (atscpsipparser.h)
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordRatingValue","GetRecordRatingValue method [Microsoft TV Technologies]","GetRecordRatingValue method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRecordRatingValue method","IAtscContentAdvisoryDescriptor.GetRecordRatingValue","IAtscContentAdvisoryDescriptor::GetRecordRatingValue","IAtscContentAdvisoryDescriptorGetRecordRatingValue","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingValue","mstv.iatsccontentadvisorydescriptor_getrecordratingvalue"]
 old-location: mstv\iatsccontentadvisorydescriptor_getrecordratingvalue.htm
 tech.root: mstv
 ms.assetid: c380d920-8d12-4965-8a5c-88e2f5861a09
 ms.date: 12/05/2018
 ms.keywords: GetRecordRatingValue, GetRecordRatingValue method [Microsoft TV Technologies], GetRecordRatingValue method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingValue method, IAtscContentAdvisoryDescriptor.GetRecordRatingValue, IAtscContentAdvisoryDescriptor::GetRecordRatingValue, IAtscContentAdvisoryDescriptorGetRecordRatingValue, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingValue, mstv.iatsccontentadvisorydescriptor_getrecordratingvalue
-f1_keywords:
-- atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingValue
-dev_langs:
-- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -28,27 +25,30 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- atscpsipparser.h
-api_name:
-- IAtscContentAdvisoryDescriptor.GetRecordRatingValue
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IAtscContentAdvisoryDescriptor::GetRecordRatingValue
+ - atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingValue
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - atscpsipparser.h
+api_name:
+ - IAtscContentAdvisoryDescriptor.GetRecordRatingValue
 ---
 
 # IAtscContentAdvisoryDescriptor::GetRecordRatingValue
 
 
 ## -description
-
-
 
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
@@ -57,30 +57,21 @@ This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 The <b>GetRecordRatingValue</b> method returns the rating value of a specified rating dimension.
 
-
 ## -parameters
-
-
-
 
 ### -param bIndexOuter [in]
 
-Zero-based index of the rating region. To get the number of rating regions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
-
+Zero-based index of the rating region. To get the number of rating regions, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
 
 ### -param bIndexInner [in]
 
-Zero-based index of the rating dimension. To get the number of rating dimensions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordrateddimensions">IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions</a>.
-
+Zero-based index of the rating dimension. To get the number of rating dimensions, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordrateddimensions">IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions</a>.
 
 ### -param pbVal [out]
 
 Receives the rating_value field
 
-
 ## -returns
-
-
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 
@@ -112,18 +103,7 @@ The method succeeded.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>

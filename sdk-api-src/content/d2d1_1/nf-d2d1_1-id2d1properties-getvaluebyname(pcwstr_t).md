@@ -1,16 +1,13 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValueByName(PCWSTR,T)
 title: ID2D1Properties::GetValueByName(PCWSTR,T,) (d2d1_1.h)
-description: Gets the property value by name. This is a template overload. See Remarks.
+description: Gets the property value by name. This is a template overload. See Remarks. (overload 1/2)
+helpviewer_keywords: ["GetValueByName","GetValueByName method [Direct2D]","GetValueByName method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetValueByName method","ID2D1Properties.GetValueByName","ID2D1Properties.GetValueByName(PCWSTR","T",")","ID2D1Properties::GetValueByName","ID2D1Properties::GetValueByName(PCWSTR","T*)","ID2D1Properties::GetValueByName(PCWSTR","T",")","d2d1_1/ID2D1Properties::GetValueByName","direct2d.id2d1properties_getvaluebyname3"]
 old-location: direct2d\id2d1properties_getvaluebyname3.htm
 tech.root: Direct2D
 ms.assetid: C2BE652D-EC4F-49F4-A72E-AB2E68873D4F
 ms.date: 12/05/2018
 ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,T,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR,T*), ID2D1Properties::GetValueByName(PCWSTR,T,), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname3
-f1_keywords:
-- d2d1_1/ID2D1Properties.GetValueByName
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Properties.GetValueByName
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Properties::GetValueByName
+ - d2d1_1/ID2D1Properties::GetValueByName
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Properties.GetValueByName
 ---
 
 # ID2D1Properties::GetValueByName(PCWSTR,T)
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Gets the property value by name. This is a template overload. See Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param propertyName [in]
 
@@ -63,17 +60,13 @@ Type: <b>PCWSTR</b>
 
 The property name to get.
 
-
 ### -param value [out]
 
 Type: <b>T*</b>
 
 When this method returns, contains the value.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -111,12 +104,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 </table>
 �
 
-
-
-
 ## -remarks
-
-
 
 If <i>propertyName</i> does not exist, no information is retrieved.
 
@@ -130,21 +118,13 @@ Any error not in the standard set returned by a property implementation will be 
         ) const;
 </pre>
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
 �
 
 �
-

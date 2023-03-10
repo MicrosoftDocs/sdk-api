@@ -2,15 +2,12 @@
 UID: NF:imapi2fs.IFsiDirectoryItem.get_Item
 title: IFsiDirectoryItem::get_Item (imapi2fs.h)
 description: Retrieves the specified directory or file item from file system image.
+helpviewer_keywords: ["IFsiDirectoryItem interface [IMAPI]","get_Item method","IFsiDirectoryItem.get_Item","IFsiDirectoryItem::get_Item","get_Item","get_Item method [IMAPI]","get_Item method [IMAPI]","IFsiDirectoryItem interface","imapi.ifsidirectoryitem_get_item","imapi2fs/IFsiDirectoryItem::get_Item"]
 old-location: imapi\ifsidirectoryitem_get_item.htm
 tech.root: imapi
 ms.assetid: 8ea5219c-a12f-43a3-a67b-16cd0e6d2bac
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_Item method, IFsiDirectoryItem.get_Item, IFsiDirectoryItem::get_Item, get_Item, get_Item method [IMAPI], get_Item method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_item, imapi2fs/IFsiDirectoryItem::get_Item
-f1_keywords:
-- imapi2fs/IFsiDirectoryItem.get_Item
-dev_langs:
-- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- imapi2fs.h
-api_name:
-- IFsiDirectoryItem.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IFsiDirectoryItem::get_Item
+ - imapi2fs/IFsiDirectoryItem::get_Item
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - imapi2fs.h
+api_name:
+ - IFsiDirectoryItem.get_Item
 ---
 
 # IFsiDirectoryItem::get_Item
@@ -48,28 +50,19 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the specified directory or file item from file system image.
 
-
 ## -parameters
-
-
-
 
 ### -param path [in]
 
 String that contains the path to the item to retrieve.
 
-
 ### -param item [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a> interface of the requested directory or file item.
-
+An <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a> interface of the requested directory or file item.
 
 ## -returns
-
-
 
 S_OK is returned on success, but other success codes may be returned as a result of implementation. The following error codes are commonly returned on operation failure, but do not represent the only possible error values:
 
@@ -144,33 +137,17 @@ Value: 0x8007000E
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+To determine whether the item is a file item or directory item, call the <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem::QueryInterface</a>  method passing __uuidof(IFsiDirectoryItem) as the interface identifier. If the call succeeds, the item is a directory item; otherwise, the item is a file item.
 
-
-To determine whether the item is a file item or directory item, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem::QueryInterface</a>  method passing __uuidof(IFsiDirectoryItem) as the interface identifier. If the call succeeds, the item is a directory item; otherwise, the item is a file item.
-
-To enumerate all children, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get__newenum">IFsiDirectoryItem::get__NewEnum</a> method.
-
-
-
+To enumerate all children, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get__newenum">IFsiDirectoryItem::get__NewEnum</a> method.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
 IFsiFileItem
- 
-
- 
-

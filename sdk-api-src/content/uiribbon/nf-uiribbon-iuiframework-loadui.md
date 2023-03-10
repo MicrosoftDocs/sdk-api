@@ -2,15 +2,12 @@
 UID: NF:uiribbon.IUIFramework.LoadUI
 title: IUIFramework::LoadUI (uiribbon.h)
 description: Loads the Windows Ribbon framework UI resource, or compiled markup, file.
+helpviewer_keywords: ["IUIFramework interface [Windows Ribbon]","LoadUI method","IUIFramework.LoadUI","IUIFramework::LoadUI","LoadUI","LoadUI method [Windows Ribbon]","LoadUI method [Windows Ribbon]","IUIFramework interface","scenicintent_IUIFramework_LoadUI","uiribbon/IUIFramework::LoadUI","windowsribbon.windowsribbon_iuiframework_loadui"]
 old-location: windowsribbon\windowsribbon_iuiframework_loadui.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\loadui.htm
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],LoadUI method, IUIFramework.LoadUI, IUIFramework::LoadUI, LoadUI, LoadUI method [Windows Ribbon], LoadUI method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_LoadUI, uiribbon/IUIFramework::LoadUI, windowsribbon.windowsribbon_iuiframework_loadui
-f1_keywords:
-- uiribbon/IUIFramework.LoadUI
-dev_langs:
-- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: 
 req.dll: Mshtml.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- Mshtml.dll
-api_name:
-- IUIFramework.LoadUI
 targetos: Windows
 req.typenames: 
 req.redist: 
 req.product: Windows UI
 ms.custom: 19H1
+f1_keywords:
+ - IUIFramework::LoadUI
+ - uiribbon/IUIFramework::LoadUI
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mshtml.dll
+api_name:
+ - IUIFramework.LoadUI
 ---
 
 # IUIFramework::LoadUI
@@ -49,23 +51,15 @@ ms.custom: 19H1
 
 ## -description
 
-
 Loads the Windows Ribbon framework UI resource, or compiled markup, file.
-		
-
 
 ## -parameters
-
-
-
 
 ### -param instance [in]
 
 Type: <b>HINSTANCE</b>
 
-A handle to the Ribbon application instance. 
-				
-
+A handle to the Ribbon application instance.
 
 ### -param resourceName [in]
 
@@ -80,24 +74,17 @@ The name of the resource that contains the compiled, binary markup.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-destroy">IUIFramework::Destroy</a> is called in between. 
+<b>IUIFramework::LoadUI</b> should be called upon initialization. This method can be called multiple times during the lifecycle of an application, for example, to show or hide a Ribbon, provided that <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-destroy">IUIFramework::Destroy</a> is called in between. 
 			
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand">OnCreateUICommand</a> and <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged">OnViewChanged</a> 
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-oncreateuicommand">OnCreateUICommand</a> and <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiapplication-onviewchanged">OnViewChanged</a> 
 				are called during the execution of <b>IUIFramework::LoadUI</b>.
 			
 
@@ -174,31 +161,22 @@ bool InitializeFramework(HWND hWnd)
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
+<a href="/windows/desktop/windowsribbon/windowsribbon-intentcl">Compiling Ribbon Markup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-intentcl">Compiling Ribbon Markup</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiframework">IUIFramework</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize">IUIFramework::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize">IUIFramework::Initialize</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-markup-elements">Markup Elements</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
- 
-
- 
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

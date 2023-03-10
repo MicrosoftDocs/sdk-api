@@ -1,16 +1,13 @@
 ---
 UID: NF:vfw.AVIFileOpenA
 title: AVIFileOpenA function (vfw.h)
-description: The AVIFileOpen function opens an AVI file and returns the address of a file interface used to access it.
+description: The AVIFileOpen function opens an AVI file and returns the address of a file interface used to access it. (AVIFileOpenA)
+helpviewer_keywords: ["AVIFileOpenA", "vfw/AVIFileOpenA"]
 old-location: multimedia\avifileopen.htm
 tech.root: Multimedia
 ms.assetid: a5d7b278-7c80-42a3-94a4-5c012ad9a9fd
 ms.date: 12/05/2018
 ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpenA, AVIFileOpenW, _win32_AVIFileOpen, multimedia.avifileopen, vfw/AVIFileOpen, vfw/AVIFileOpenA, vfw/AVIFileOpenW
-f1_keywords:
-- vfw/AVIFileOpen
-dev_langs:
-- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -28,22 +25,27 @@ req.type-library:
 req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Avifil32.dll
-- Ext-MS-Win-Media-Avi-L1-1-0.dll
-api_name:
-- AVIFileOpen
-- AVIFileOpenA
-- AVIFileOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - AVIFileOpenA
+ - vfw/AVIFileOpenA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Avifil32.dll
+ - Ext-MS-Win-Media-Avi-L1-1-0.dll
+api_name:
+ - AVIFileOpen
+ - AVIFileOpenA
+ - AVIFileOpenW
 ---
 
 # AVIFileOpenA function
@@ -51,27 +53,17 @@ ms.custom: 19H1
 
 ## -description
 
-
-
-The <b>AVIFileOpen</b> function opens an AVI file and returns the address of a file interface used to access it. The AVIFile library maintains a count of the number of times a file is opened, but not the number of times it was released. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a> function to release the file and decrement the count.
-
-
-
+The <b>AVIFileOpen</b> function opens an AVI file and returns the address of a file interface used to access it. The AVIFile library maintains a count of the number of times a file is opened, but not the number of times it was released. Use the <a href="/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a> function to release the file and decrement the count.
 
 ## -parameters
 
-
-
-
 ### -param ppfile
 
-Pointer to a buffer that receives the new <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface pointer.
-
+Pointer to a buffer that receives the new <a href="/windows/desktop/api/vfw/nn-vfw-iavifile">IAVIFile</a> interface pointer.
 
 ### -param szFile
 
 Null-terminated string containing the name of the file to open.
-
 
 ### -param uMode
 
@@ -121,17 +113,12 @@ Access mode to use when opening the file. The default access mode is OF_READ. Th
 <td>Opens the file for writing.</td>
 </tr>
 </table>
- 
-
 
 ### -param lpHandler
 
 Pointer to a class identifier of the standard or custom handler you want to use. If the value is <b>NULL</b>, the system chooses a handler from the registry based on the file extension or the RIFF type specified in the file.
 
-
 ## -returns
-
-
 
 Returns zero if successful or an error otherwise. Possible error values include the following.
 
@@ -196,26 +183,20 @@ According to the registry, the type of file specified in <b>AVIFileOpen</b> does
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions">AVIFile Functions</a>
+<a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a>
- 
-
- 
-
+> [!NOTE]
+> The vfw.h header defines AVIFileOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

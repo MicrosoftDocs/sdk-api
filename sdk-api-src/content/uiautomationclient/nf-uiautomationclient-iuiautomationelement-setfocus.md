@@ -2,15 +2,12 @@
 UID: NF:uiautomationclient.IUIAutomationElement.SetFocus
 title: IUIAutomationElement::SetFocus (uiautomationclient.h)
 description: Sets the keyboard focus to this UI Automation element.
+helpviewer_keywords: ["IUIAutomationElement interface [Windows Accessibility]","SetFocus method","IUIAutomationElement.SetFocus","IUIAutomationElement::SetFocus","SetFocus","SetFocus method [Windows Accessibility]","SetFocus method [Windows Accessibility]","IUIAutomationElement interface","uiauto.uiauto_IUIAutomationElement_SetFocus","uiauto_IUIAutomationElement_SetFocus","uiautomationclient/IUIAutomationElement::SetFocus","winauto.uiauto_IUIAutomationElement_SetFocus"]
 old-location: winauto\uiauto_IUIAutomationElement_SetFocus.htm
 tech.root: WinAuto
 ms.assetid: 4a4e549a-1812-4380-bc0a-2da579a62b5d
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement interface [Windows Accessibility],SetFocus method, IUIAutomationElement.SetFocus, IUIAutomationElement::SetFocus, SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility],IUIAutomationElement interface, uiauto.uiauto_IUIAutomationElement_SetFocus, uiauto_IUIAutomationElement_SetFocus, uiautomationclient/IUIAutomationElement::SetFocus, winauto.uiauto_IUIAutomationElement_SetFocus
-f1_keywords:
-- uiautomationclient/IUIAutomationElement.SetFocus
-dev_langs:
-- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- UIAutomationClient.h
-api_name:
-- IUIAutomationElement.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IUIAutomationElement::SetFocus
+ - uiautomationclient/IUIAutomationElement::SetFocus
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - UIAutomationClient.h
+api_name:
+ - IUIAutomationElement.SetFocus
 ---
 
 # IUIAutomationElement::SetFocus
@@ -48,35 +50,16 @@ ms.custom: 19H1
 
 ## -description
 
-
 Sets the keyboard focus to this UI Automation element.
-
-
-## -parameters
-
-
-
 
 
 
 ## -returns
 
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
- 
-
- 
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>

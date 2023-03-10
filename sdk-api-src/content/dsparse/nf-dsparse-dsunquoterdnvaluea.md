@@ -1,16 +1,13 @@
 ---
 UID: NF:dsparse.DsUnquoteRdnValueA
 title: DsUnquoteRdnValueA function (dsparse.h)
-description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value.
+description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value. (ANSI)
+helpviewer_keywords: ["DsUnquoteRdnValueA", "ERROR_BUFFER_OVERFLOW", "ERROR_SUCCESS", "dsparse/DsUnquoteRdnValueA"]
 old-location: ad\dsunquoterdnvalue.htm
 tech.root: ad
 ms.assetid: 6e3dd220-ba98-46b5-8522-93cbe2029aa4
 ms.date: 12/05/2018
 ms.keywords: DsUnquoteRdnValue, DsUnquoteRdnValue function [Active Directory], DsUnquoteRdnValueA, DsUnquoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsunquoterdnvalue, ad.dsunquoterdnvalue, dsparse/DsUnquoteRdnValue, dsparse/DsUnquoteRdnValueA, dsparse/DsUnquoteRdnValueW
-f1_keywords:
-- dsparse/DsUnquoteRdnValue
-dev_langs:
-- c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsUnquoteRdnValue
-- DsUnquoteRdnValueA
-- DsUnquoteRdnValueW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsUnquoteRdnValueA
+ - dsparse/DsUnquoteRdnValueA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsUnquoteRdnValue
+ - DsUnquoteRdnValueA
+ - DsUnquoteRdnValueW
 ---
 
 # DsUnquoteRdnValueA function
@@ -50,24 +52,17 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsUnquoteRdnValue</b> function is a client call that converts a quoted RDN value back to an unquoted RDN value. Because the RDN was originally put into quotes because it contained characters that could be misinterpreted when it was embedded within a distinguished name (DN), the unquoted RDN value should not be submitted as part of a DN to the directory service using various APIs such as LDAP.
 
-
 ## -parameters
-
-
-
 
 ### -param cQuotedRdnValueLength [in]
 
 The number of characters in the <i>psQuotedRdnValue</i> string.
 
-
 ### -param psQuotedRdnValue [in]
 
 The RDN value that may be quoted and escaped.
-
 
 ### -param pcUnquotedRdnValueLength [in, out]
 
@@ -87,24 +82,15 @@ This is returned if the number of characters match the string used in <i>psQuote
 
 This is returned if the number of characters do not match the string used in <i>psQuotedRdnValue</i>.
 
-
 ### -param psUnquotedRdnValue [out]
 
 The converted, unquoted RDN value.
 
-
 ## -returns
-
-
 
 The following list contains the possible values that are returned for the <b>DsUnquoteRdnValue</b> function.
 
-
-
-
 ## -remarks
-
-
 
 When <i>psQuotedRdnValue</i> is quoted:
 
@@ -134,17 +120,14 @@ The following actions are always taken:
 
 
 
+
+> [!NOTE]
+> The dsparse.h header defines DsUnquoteRdnValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsquoterdnvaluea">DsQuoteRdnValue</a>
- 
-
- 
-
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dsquoterdnvaluea">DsQuoteRdnValue</a>

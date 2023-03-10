@@ -2,15 +2,12 @@
 UID: NF:tdh.TdhUnloadManifest
 title: TdhUnloadManifest function (tdh.h)
 description: Unloads the manifest that was loaded by the TdhLoadManifest function.
+helpviewer_keywords: ["TdhUnloadManifest","TdhUnloadManifest function [ETW]","etw.tdhunloadmanifest","tdh/TdhUnloadManifest"]
 old-location: etw\tdhunloadmanifest.htm
 tech.root: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
 ms.date: 12/05/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
-f1_keywords:
-- tdh/TdhUnloadManifest
-dev_langs:
-- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -28,45 +25,41 @@ req.type-library:
 req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Tdh.dll
-- API-MS-Win-Eventing-Tdh-L1-1-0.dll
-- MinTdh.dll
-api_name:
-- TdhUnloadManifest
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - TdhUnloadManifest
+ - tdh/TdhUnloadManifest
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Tdh.dll
+ - API-MS-Win-Eventing-Tdh-L1-1-0.dll
+ - MinTdh.dll
+api_name:
+ - TdhUnloadManifest
 ---
 
 # TdhUnloadManifest function
 
-
 ## -description
 
-
-Unloads the manifest that was loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a> function.
-
+Unloads the manifest that was loaded by the <a href="/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a> function.
 
 ## -parameters
-
-
-
 
 ### -param Manifest [in]
 
 The full path to the loaded manifest.
 
-
 ## -returns
-
-
 
 Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the following return codes in addition to others.
 
@@ -109,27 +102,10 @@ The manifest did not pass validation. To determine the validation errors, run th
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-You must call this function after processing all the events. For example, you can call this function after calling <a href="https://docs.microsoft.com/windows/desktop/ETW/closetrace">CloseTrace</a>.
-
-
-
+You must call this function after processing all the events. For example, you can call this function after calling <a href="/windows/desktop/ETW/closetrace">CloseTrace</a>.
 
 ## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhloadmanifest">TdhLoadManifest</a>

@@ -2,15 +2,12 @@
 UID: NE:wtsapi32._WTS_CONFIG_CLASS
 title: WTS_CONFIG_CLASS (wtsapi32.h)
 description: Contains values that indicate the type of user configuration information to set or retrieve in a call to the WTSQueryUserConfig and WTSSetUserConfig functions.
+helpviewer_keywords: ["WTSUserConfigBrokenTimeoutSettings","WTSUserConfigInitialProgram","WTSUserConfigModemCallbackPhoneNumber","WTSUserConfigModemCallbackSettings","WTSUserConfigReconnectSettings","WTSUserConfigShadowingSettings","WTSUserConfigTerminalServerHomeDir","WTSUserConfigTerminalServerHomeDirDrive","WTSUserConfigTerminalServerProfilePath","WTSUserConfigTimeoutSettingsConnections","WTSUserConfigTimeoutSettingsDisconnections","WTSUserConfigTimeoutSettingsIdle","WTSUserConfigUser","WTSUserConfigWorkingDirectory","WTSUserConfigfAllowLogonTerminalServer","WTSUserConfigfDeviceClientDefaultPrinter","WTSUserConfigfDeviceClientDrives","WTSUserConfigfDeviceClientPrinters","WTSUserConfigfInheritInitialProgram","WTSUserConfigfTerminalServerRemoteHomeDir","WTS_CONFIG_CLASS","WTS_CONFIG_CLASS enumeration [Remote Desktop Services]","_win32_wts_config_class_str","termserv.wts_config_class_str","wtsapi32/WTSUserConfigBrokenTimeoutSettings","wtsapi32/WTSUserConfigInitialProgram","wtsapi32/WTSUserConfigModemCallbackPhoneNumber","wtsapi32/WTSUserConfigModemCallbackSettings","wtsapi32/WTSUserConfigReconnectSettings","wtsapi32/WTSUserConfigShadowingSettings","wtsapi32/WTSUserConfigTerminalServerHomeDir","wtsapi32/WTSUserConfigTerminalServerHomeDirDrive","wtsapi32/WTSUserConfigTerminalServerProfilePath","wtsapi32/WTSUserConfigTimeoutSettingsConnections","wtsapi32/WTSUserConfigTimeoutSettingsDisconnections","wtsapi32/WTSUserConfigTimeoutSettingsIdle","wtsapi32/WTSUserConfigUser","wtsapi32/WTSUserConfigWorkingDirectory","wtsapi32/WTSUserConfigfAllowLogonTerminalServer","wtsapi32/WTSUserConfigfDeviceClientDefaultPrinter","wtsapi32/WTSUserConfigfDeviceClientDrives","wtsapi32/WTSUserConfigfDeviceClientPrinters","wtsapi32/WTSUserConfigfInheritInitialProgram","wtsapi32/WTSUserConfigfTerminalServerRemoteHomeDir","wtsapi32/WTS_CONFIG_CLASS"]
 old-location: termserv\wts_config_class_str.htm
 tech.root: TermServ
 ms.assetid: 623b8a86-aa0d-497c-a2e6-5526f9b13d98
 ms.date: 12/05/2018
 ms.keywords: WTSUserConfigBrokenTimeoutSettings, WTSUserConfigInitialProgram, WTSUserConfigModemCallbackPhoneNumber, WTSUserConfigModemCallbackSettings, WTSUserConfigReconnectSettings, WTSUserConfigShadowingSettings, WTSUserConfigTerminalServerHomeDir, WTSUserConfigTerminalServerHomeDirDrive, WTSUserConfigTerminalServerProfilePath, WTSUserConfigTimeoutSettingsConnections, WTSUserConfigTimeoutSettingsDisconnections, WTSUserConfigTimeoutSettingsIdle, WTSUserConfigUser, WTSUserConfigWorkingDirectory, WTSUserConfigfAllowLogonTerminalServer, WTSUserConfigfDeviceClientDefaultPrinter, WTSUserConfigfDeviceClientDrives, WTSUserConfigfDeviceClientPrinters, WTSUserConfigfInheritInitialProgram, WTSUserConfigfTerminalServerRemoteHomeDir, WTS_CONFIG_CLASS, WTS_CONFIG_CLASS enumeration [Remote Desktop Services], _win32_wts_config_class_str, termserv.wts_config_class_str, wtsapi32/WTSUserConfigBrokenTimeoutSettings, wtsapi32/WTSUserConfigInitialProgram, wtsapi32/WTSUserConfigModemCallbackPhoneNumber, wtsapi32/WTSUserConfigModemCallbackSettings, wtsapi32/WTSUserConfigReconnectSettings, wtsapi32/WTSUserConfigShadowingSettings, wtsapi32/WTSUserConfigTerminalServerHomeDir, wtsapi32/WTSUserConfigTerminalServerHomeDirDrive, wtsapi32/WTSUserConfigTerminalServerProfilePath, wtsapi32/WTSUserConfigTimeoutSettingsConnections, wtsapi32/WTSUserConfigTimeoutSettingsDisconnections, wtsapi32/WTSUserConfigTimeoutSettingsIdle, wtsapi32/WTSUserConfigUser, wtsapi32/WTSUserConfigWorkingDirectory, wtsapi32/WTSUserConfigfAllowLogonTerminalServer, wtsapi32/WTSUserConfigfDeviceClientDefaultPrinter, wtsapi32/WTSUserConfigfDeviceClientDrives, wtsapi32/WTSUserConfigfDeviceClientPrinters, wtsapi32/WTSUserConfigfInheritInitialProgram, wtsapi32/WTSUserConfigfTerminalServerRemoteHomeDir, wtsapi32/WTS_CONFIG_CLASS
-f1_keywords:
-- wtsapi32/WTS_CONFIG_CLASS
-dev_langs:
-- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Wtsapi32.h
-api_name:
-- WTS_CONFIG_CLASS
 targetos: Windows
 req.typenames: WTS_CONFIG_CLASS
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _WTS_CONFIG_CLASS
+ - wtsapi32/_WTS_CONFIG_CLASS
+ - WTS_CONFIG_CLASS
+ - wtsapi32/WTS_CONFIG_CLASS
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Wtsapi32.h
+api_name:
+ - WTS_CONFIG_CLASS
 ---
 
 # WTS_CONFIG_CLASS enumeration
@@ -48,17 +52,12 @@ ms.custom: 19H1
 
 ## -description
 
-
 Contains 
     values that indicate the type of user configuration information to set or retrieve in a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
-
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and 
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
 
 ## -enum-fields
-
-
-
 
 ### -field WTSUserConfigInitialProgram
 
@@ -68,11 +67,9 @@ A null-terminated string that contains the path of the initial program that Remo
 If the <b>WTSUserConfigfInheritInitialProgram</b> value is 1, the initial program can be 
        any program specified by the client.
 
-
 ### -field WTSUserConfigWorkingDirectory
 
 A null-terminated string that contains the path of the working directory for the initial program.
-
 
 ### -field WTSUserConfigfInheritInitialProgram
 
@@ -107,8 +104,6 @@ The client can specify the initial program.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigfAllowLogonTerminalServer
 
@@ -140,8 +135,6 @@ The user can log on.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigTimeoutSettingsConnections
 
@@ -151,13 +144,11 @@ A <b>DWORD</b> value that specifies the maximum connection duration, in millisec
       <b>WTSUserConfigBrokenTimeoutSettings</b> value. Every time the user logs on, the timer is 
       reset. A value of zero indicates that the connection timer is disabled.
 
-
 ### -field WTSUserConfigTimeoutSettingsDisconnections
 
 A <b>DWORD</b> value that specifies the maximum duration, in milliseconds, that an 
       RD Session Host server retains a disconnected session before the logon is terminated. A value of zero indicates that the 
       disconnection timer is disabled.
-
 
 ### -field WTSUserConfigTimeoutSettingsIdle
 
@@ -165,7 +156,6 @@ A <b>DWORD</b> value that specifies the maximum idle time, in milliseconds. If t
       is no keyboard or mouse activity for the specified interval, the user's session is disconnected or terminated 
       depending on the <b>WTSUserConfigBrokenTimeoutSettings</b> value. A value of zero 
       indicates that the idle timer is disabled.
-
 
 ### -field WTSUserConfigfDeviceClientDrives
 
@@ -200,8 +190,6 @@ The server automatically connects to previously mapped client drives at logon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigfDeviceClientPrinters
 
@@ -234,8 +222,6 @@ The server automatically connects to previously mapped client printers at logon.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigfDeviceClientDefaultPrinter
 
@@ -268,8 +254,6 @@ The client printer is the default printer.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigBrokenTimeoutSettings
 
@@ -302,8 +286,6 @@ The session is terminated.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigReconnectSettings
 
@@ -337,8 +319,6 @@ The user can reconnect to a disconnected session by logging on to the client com
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigModemCallbackSettings
 
@@ -386,8 +366,6 @@ The server automatically calls the user back at the phone number specified by th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigModemCallbackPhoneNumber
 
@@ -395,7 +373,6 @@ This constant currently is not used by Remote Desktop Services.
 
 A null-terminated string that contains the phone number to use for callback 
       connections.
-
 
 ### -field WTSUserConfigShadowingSettings
 
@@ -458,16 +435,13 @@ Enable no input, no notify
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigTerminalServerProfilePath
 
 A null-terminated string that contains the path of the user's profile for RD Session Host server logon. The directory 
       the path identifies must be created manually, and must exist prior to the logon. 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> will not create the directory 
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> will not create the directory 
       if it does not already exist.
-
 
 ### -field WTSUserConfigTerminalServerHomeDir
 
@@ -475,19 +449,17 @@ A null-terminated string that contains the path of the user's root directory for
       string can specify a local path or a UNC path (<i>\\ComputerName\Share\Path</i>). For more information, see 
       <b>WTSUserConfigfTerminalServerRemoteHomeDir</b>.
 
-
 ### -field WTSUserConfigTerminalServerHomeDirDrive
 
 A null-terminated string that contains a drive name (a drive letter followed by a colon) to which the UNC 
       path specified in the <b>WTSUserConfigTerminalServerHomeDir</b> string is mapped. For more information, see
       <b>WTSUserConfigfTerminalServerRemoteHomeDir</b>.
 
-
 ### -field WTSUserConfigfTerminalServerRemoteHomeDir
 
 A value that indicates whether the user's root directory for RD Session Host server logon is a local path or a 
       mapped drive letter. Note that this value cannot be used with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>.
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>.
 
 <table>
 <tr>
@@ -519,27 +491,17 @@ The <b>WTSUserConfigTerminalServerHomeDir</b> string contains the UNC path of th
 </td>
 </tr>
 </table>
- 
-
 
 ### -field WTSUserConfigUser
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a> structure that contains configuration data for the session. 
+A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a> structure that contains configuration data for the session. 
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 
-
 ## -see-also
 
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
- 
-
- 
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>

@@ -2,15 +2,12 @@
 UID: NF:d2d1_1.ID2D1Factory1.GetEffectProperties
 title: ID2D1Factory1::GetEffectProperties (d2d1_1.h)
 description: Retrieves the properties of an effect.
+helpviewer_keywords: ["GetEffectProperties","GetEffectProperties method [Direct2D]","GetEffectProperties method [Direct2D]","ID2D1Factory1 interface","ID2D1Factory1 interface [Direct2D]","GetEffectProperties method","ID2D1Factory1.GetEffectProperties","ID2D1Factory1::GetEffectProperties","d2d1_1/ID2D1Factory1::GetEffectProperties","direct2d.id2d1factory1_geteffectproperties"]
 old-location: direct2d\id2d1factory1_geteffectproperties.htm
 tech.root: Direct2D
 ms.assetid: 0e8a2f03-f297-4d5a-8461-4ed7cd1bf02f
 ms.date: 12/05/2018
 ms.keywords: GetEffectProperties, GetEffectProperties method [Direct2D], GetEffectProperties method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],GetEffectProperties method, ID2D1Factory1.GetEffectProperties, ID2D1Factory1::GetEffectProperties, d2d1_1/ID2D1Factory1::GetEffectProperties, direct2d.id2d1factory1_geteffectproperties
-f1_keywords:
-- d2d1_1/ID2D1Factory1.GetEffectProperties
-dev_langs:
-- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- D2d1.dll
-api_name:
-- ID2D1Factory1.GetEffectProperties
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - ID2D1Factory1::GetEffectProperties
+ - d2d1_1/ID2D1Factory1::GetEffectProperties
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Factory1.GetEffectProperties
 ---
 
 # ID2D1Factory1::GetEffectProperties
@@ -48,14 +50,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 Retrieves the properties of an effect.
 
-
 ## -parameters
-
-
-
 
 ### -param effectId [in]
 
@@ -63,17 +60,13 @@ Type: <b>REFCLSID</b>
 
 The ID of the effect to retrieve properties from.
 
-
 ### -param properties [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>**</b>
 
 When this method returns, contains the address of a pointer to the property interface that can be used to query the metadata of the effect.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -97,14 +90,8 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 <td>Direct2D could not allocate sufficient memory to complete the call.</td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The returned effect properties will have all the mutable properties for the effect set to a default of <b>NULL</b>, or an  empty value. 
 
@@ -113,26 +100,16 @@ The returned effect properties will have all the mutable properties for the effe
 <li>Blob and string types will be zero-length.</li>
 <li>Array types will have length 1 and the element of the array will conform to the previous rules.</li>
 </ul>
-This method cannot be used to return the properties for any effect not visible to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>.
-
-
-
+This method cannot be used to return the properties for any effect not visible to <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">ID2D1DeviceContext::CreateEffect</a>.
 
 ## -see-also
 
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-getregisteredeffects">ID2D1Factory1::GetRegisteredEffects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-getregisteredeffects">ID2D1Factory1::GetRegisteredEffects</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>
- 
-
- 
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>

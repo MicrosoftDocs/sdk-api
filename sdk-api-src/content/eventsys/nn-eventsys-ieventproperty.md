@@ -2,15 +2,12 @@
 UID: NN:eventsys.IEventProperty
 title: IEventProperty (eventsys.h)
 description: Associates a named event property with its value.
+helpviewer_keywords: ["IEventProperty","IEventProperty interface [COM]","IEventProperty interface [COM]","described","_com_ieventproperty","com.ieventproperty","eventsys/IEventProperty"]
 old-location: com\ieventproperty.htm
 tech.root: com
 ms.assetid: e1ed7249-7fe3-4f90-b3e1-b79597773d85
 ms.date: 12/05/2018
 ms.keywords: IEventProperty, IEventProperty interface [COM], IEventProperty interface [COM],described, _com_ieventproperty, com.ieventproperty, eventsys/IEventProperty
-f1_keywords:
-- eventsys/IEventProperty
-dev_langs:
-- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- EventSys.h
-api_name:
-- IEventProperty
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - IEventProperty
+ - eventsys/IEventProperty
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - EventSys.h
+api_name:
+ - IEventProperty
 ---
 
 # IEventProperty interface
@@ -48,7 +50,5 @@ ms.custom: 19H1
 
 ## -description
 
-
-Associates a named event property with its value. 
-
+Associates a named event property with its value.
 

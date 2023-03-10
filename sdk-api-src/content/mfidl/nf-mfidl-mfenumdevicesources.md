@@ -2,15 +2,12 @@
 UID: NF:mfidl.MFEnumDeviceSources
 title: MFEnumDeviceSources function (mfidl.h)
 description: Enumerates a list of audio or video capture devices.
+helpviewer_keywords: ["MFEnumDeviceSources","MFEnumDeviceSources function [Media Foundation]","MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE","MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE","MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY","mf.mfenumdevicesources","mfidl/MFEnumDeviceSources"]
 old-location: mf\mfenumdevicesources.htm
-tech.root: medfound
+tech.root: mf
 ms.assetid: da4d96ce-e22b-4e1c-aa2e-df46416a5f0b
 ms.date: 12/05/2018
 ms.keywords: MFEnumDeviceSources, MFEnumDeviceSources function [Media Foundation], MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY, mf.mfenumdevicesources, mfidl/MFEnumDeviceSources
-f1_keywords:
-- mfidl/MFEnumDeviceSources
-dev_langs:
-- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,24 @@ req.type-library:
 req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- mf.dll
-api_name:
-- MFEnumDeviceSources
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - MFEnumDeviceSources
+ - mfidl/MFEnumDeviceSources
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - mf.dll
+api_name:
+ - MFEnumDeviceSources
 ---
 
 # MFEnumDeviceSources function
@@ -48,18 +50,13 @@ ms.custom: 19H1
 
 ## -description
 
-
 Enumerates a list of audio or video capture devices.
-
 
 ## -parameters
 
-
-
-
 ### -param pAttributes [in]
 
-Pointer to an attribute store that contains search criteria. To create the attribute store, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a>. Set one or more of the following attributes on the attribute store:
+Pointer to an attribute store that contains search criteria. To create the attribute store, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a>. Set one or more of the following attributes on the attribute store:
 
 <table>
 <tr>
@@ -68,7 +65,7 @@ Pointer to an attribute store that contains search criteria. To create the attri
 </tr>
 <tr>
 <td width="40%"><a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE"></a><a id="mf_devsource_attribute_source_type"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE</a></b></dt>
+<dt><b><a href="/windows/desktop/medfound/mf-devsource-attribute-source-type">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -78,7 +75,7 @@ Specifies whether to enumerate audio or video devices. (Required.)
 </tr>
 <tr>
 <td width="40%"><a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE"></a><a id="mf_devsource_attribute_source_type_audcap_role"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-audcap-role">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE</a></b></dt>
+<dt><b><a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-audcap-role">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -88,7 +85,7 @@ For audio capture devices, specifies the device role. (Optional.)
 </tr>
 <tr>
 <td width="40%"><a id="MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY"></a><a id="mf_devsource_attribute_source_type_vidcap_category"></a><dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-category">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY</a></b></dt>
+<dt><b><a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-category">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -97,33 +94,22 @@ For video capture devices, specifies the device category. (Optional.)
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pppSourceActivate [out]
 
-Receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface pointers. Each pointer represents an activation object for a media source. The function allocates the memory for the array. The caller must release the pointers in the array and call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the memory for the array.
-
+Receives an array of <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface pointers. Each pointer represents an activation object for a media source. The function allocates the memory for the array. The caller must release the pointers in the array and call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the memory for the array.
 
 ### -param pcSourceActivate [out]
 
 Receives the number of elements in the <i>pppSourceActivate</i> array. If no capture devices match the search criteria, this parameter receives the value 0.
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-
-
-Each returned <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer represents a capture device, and can be used to create a media source for that device. You can also use the <b>IMFActivate</b> pointer to query for attributes that describe the device. The following attributes might be set:
+Each returned <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer represents a capture device, and can be used to create a media source for that device. You can also use the <b>IMFActivate</b> pointer to query for attributes that describe the device. The following attributes might be set:
 
 <table>
 <tr>
@@ -132,50 +118,50 @@ Each returned <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-friendly-name">MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME</a>
+<a href="/windows/desktop/medfound/mf-devsource-attribute-friendly-name">MF_DEVSOURCE_ATTRIBUTE_FRIENDLY_NAME</a>
 </td>
 <td>The display name of the device.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-media-type">MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE</a>
+<a href="/windows/desktop/medfound/mf-devsource-attribute-media-type">MF_DEVSOURCE_ATTRIBUTE_MEDIA_TYPE</a>
 </td>
 <td>The major type and subtype GUIDs that describe the device's output format.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE</a>
+<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE</a>
 </td>
 <td>The type of capture device (audio or video).</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-audcap-endpoint-id">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID</a>
+<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-audcap-endpoint-id">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ENDPOINT_ID</a>
 </td>
 <td>The audio endpoint ID string. (Audio devices only.)</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-category">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY</a>
+<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-category">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY</a>
 </td>
 <td>The device category. (Video devices only.)</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-hw-source">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_HW_SOURCE</a>
+<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-hw-source">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_HW_SOURCE</a>
 </td>
 <td> Whether a device is a hardware or software device. (Video devices only.)</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>
+<a href="/windows/desktop/medfound/mf-devsource-attribute-source-type-vidcap-symbolic-link">MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK</a>
 </td>
 <td>The symbolic link for the device driver. (Video devices only.)</td>
 </tr>
 </table>
  
 
-To create a media source from an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> method.
+To create a media source from an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> pointer, call the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> method.
 
 
 #### Examples
@@ -247,21 +233,10 @@ done:
 
 ```
 
-
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/medfound/audio-video-capture-in-media-foundation">Audio/Video Capture in Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/audio-video-capture-in-media-foundation">Audio/Video Capture in Media Foundation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
- 
-
- 
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -1,16 +1,13 @@
 ---
-UID: NS:commctrl.__unnamed_struct_6
+UID: NS:commctrl.NMTBDISPINFOW
 title: NMTBDISPINFOW (commctrl.h)
-description: Contains and receives display information for a toolbar item. This structure is used with the TBN_GETDISPINFO notification code.
+description: Contains and receives display information for a toolbar item. This structure is used with the TBN_GETDISPINFO notification code. (Unicode)
+helpviewer_keywords: ["*LPNMTBDISPINFOW","LPNMTBDISPINFO","LPNMTBDISPINFO structure pointer [Windows Controls]","NMTBDISPINFO","NMTBDISPINFO structure [Windows Controls]","NMTBDISPINFOA","NMTBDISPINFOW","TBNF_DI_SETITEM","TBNF_IMAGE","TBNF_TEXT","_win32_NMTBDISPINFO","_win32_NMTBDISPINFO_cpp","commctrl/LPNMTBDISPINFO","commctrl/NMTBDISPINFO","commctrl/NMTBDISPINFOA","commctrl/NMTBDISPINFOW","controls.NMTBDISPINFO","controls._win32_NMTBDISPINFO"]
 old-location: controls\NMTBDISPINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbdispinfo.htm
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTBDISPINFOW, LPNMTBDISPINFO, LPNMTBDISPINFO structure pointer [Windows Controls], NMTBDISPINFO, NMTBDISPINFO structure [Windows Controls], NMTBDISPINFOA, NMTBDISPINFOW, TBNF_DI_SETITEM, TBNF_IMAGE, TBNF_TEXT, _win32_NMTBDISPINFO, _win32_NMTBDISPINFO_cpp, commctrl/LPNMTBDISPINFO, commctrl/NMTBDISPINFO, commctrl/NMTBDISPINFOA, commctrl/NMTBDISPINFOW, controls.NMTBDISPINFO, controls._win32_NMTBDISPINFO'
-f1_keywords:
-- commctrl/NMTBDISPINFO
-dev_langs:
-- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Commctrl.h
-api_name:
-- NMTBDISPINFO
-- NMTBDISPINFOA
-- NMTBDISPINFOW
 targetos: Windows
 req.typenames: NMTBDISPINFOW, *LPNMTBDISPINFOW
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - LPNMTBDISPINFOW
+ - commctrl/LPNMTBDISPINFOW
+ - NMTBDISPINFOW
+ - commctrl/NMTBDISPINFOW
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Commctrl.h
+api_name:
+ - NMTBDISPINFO
+ - NMTBDISPINFOA
+ - NMTBDISPINFOW
 ---
 
 # NMTBDISPINFOW structure
@@ -50,26 +54,20 @@ ms.custom: 19H1
 
 ## -description
 
-
-Contains and receives display information for a toolbar item. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a> notification code. 
-
+Contains and receives display information for a toolbar item. This structure is used with the <a href="/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a> notification code.
 
 ## -struct-fields
 
-
-
-
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification. 
-
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Set of flags that indicate which members of this structure are being requested. This can be one or more of the following values. 
 
@@ -105,46 +103,45 @@ Not currently implemented.
 </dl>
 </td>
 <td width="60%">
-Set this flag when processing <a href="https://docs.microsoft.com/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
+Set this flag when processing <a href="/windows/desktop/Controls/tbn-getdispinfo">TBN_GETDISPINFO</a>; the toolbar control will retain the supplied information and not request it again.
 
 </td>
 </tr>
 </table>
- 
-
 
 ### -field idCommand
 
 Type: <b>int</b>
 
-Command identifier of the item for which display information is being requested. This member is filled in by the control before it sends the notification code. 
-
+Command identifier of the item for which display information is being requested. This member is filled in by the control before it sends the notification code.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
-Application-defined value associated with the item for which display information is being requested. This member is filled in by the control before sending the notification code. 
-
+Application-defined value associated with the item for which display information is being requested. This member is filled in by the control before sending the notification code.
 
 ### -field iImage
 
 Type: <b>int</b>
 
-Image index for the item. 
-
+Image index for the item.
 
 ### -field pszText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
-Pointer to a character buffer that receives the item's text. 
-
+Pointer to a character buffer that receives the item's text.
 
 ### -field cchText
 
 Type: <b>int</b>
 
 Size of the 
-					<b>pszText</b> buffer, in characters. 
+					<b>pszText</b> buffer, in characters.
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMTBDISPINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

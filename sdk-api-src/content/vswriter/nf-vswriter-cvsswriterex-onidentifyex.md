@@ -2,15 +2,12 @@
 UID: NF:vswriter.CVssWriterEx.OnIdentifyEx
 title: CVssWriterEx::OnIdentifyEx (vswriter.h)
 description: Returns a pointer to an IVssCreateWriterMetadataEx object.
+helpviewer_keywords: ["CVssWriterEx interface","OnIdentifyEx method","CVssWriterEx.OnIdentifyEx","CVssWriterEx::OnIdentifyEx","OnIdentifyEx","OnIdentifyEx method","OnIdentifyEx method","CVssWriterEx interface","base.cvsswriterex_onidentifyex","vswriter/CVssWriterEx::OnIdentifyEx"]
 old-location: base\cvsswriterex_onidentifyex.htm
-tech.root: VSS
+tech.root: base
 ms.assetid: 4cb3b8f6-f702-4fba-a3cc-af84897cfd82
 ms.date: 12/05/2018
 ms.keywords: CVssWriterEx interface,OnIdentifyEx method, CVssWriterEx.OnIdentifyEx, CVssWriterEx::OnIdentifyEx, OnIdentifyEx, OnIdentifyEx method, OnIdentifyEx method,CVssWriterEx interface, base.cvsswriterex_onidentifyex, vswriter/CVssWriterEx::OnIdentifyEx
-f1_keywords:
-- vswriter/CVssWriterEx.OnIdentifyEx
-dev_langs:
-- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -28,20 +25,25 @@ req.type-library:
 req.lib: VssApi.lib
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- COM
-api_location:
-- VssApi.lib
-- VssApi.dll
-api_name:
-- CVssWriterEx.OnIdentifyEx
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - CVssWriterEx::OnIdentifyEx
+ - vswriter/CVssWriterEx::OnIdentifyEx
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - VssApi.lib
+ - VssApi.dll
+api_name:
+ - CVssWriterEx.OnIdentifyEx
 ---
 
 # CVssWriterEx::OnIdentifyEx
@@ -49,28 +51,20 @@ ms.custom: 19H1
 
 ## -description
 
-
 Returns a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object.
 
 <b>OnIdentifyEx</b> is a virtual method. It is implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> base class, but can be overridden by derived classes.
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a> base class, but can be overridden by derived classes.
 
 ## -parameters
-
-
-
 
 ### -param pMetadata [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object.
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object.
 
 ## -returns
-
-
 
 As implemented by the base class, 
 <b>OnIdentifyEx</b> always returns <b>true</b>.
@@ -80,32 +74,27 @@ Any other implementation of this method must return <b>true</b> except in the ca
 
   In all cases when a failure occurs, including nonfatal errors, the method should write a detailed entry to the event log to report the exact reason for the failure.
 
-
-
-
 ## -remarks
 
-
-
-The <b>OnIdentifyEx</b> method is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> method, except that it returns an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> interface pointer instead of an <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> interface pointer in the <i>pMetadata</i> parameter. A writer can override <b>OnIdentify</b> or <b>OnIdentifyEx</b>, but not both.
+The <b>OnIdentifyEx</b> method is identical to the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> method, except that it returns an <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> interface pointer instead of an <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a> interface pointer in the <i>pMetadata</i> parameter. A writer can override <b>OnIdentify</b> or <b>OnIdentifyEx</b>, but not both.
 
 Writers should never throw an exception from this method or any other <b>CVssWriter(Ex)::On<i>Xxx</i></b> callback method.
 
-Writers should never call the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a> method from the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <b>OnIdentifyEx</b> method.
+Writers should never call the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a> method from the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">OnIdentify</a> or <b>OnIdentifyEx</b> method.
 
-If this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a> method, it must do so in  the same thread that called this method. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
+If this method calls the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex2-getsessionid">CVssWriterEx2::GetSessionId</a> method, it must do so in  the same thread that called this method. For more information, see 
+<a href="/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
-In response to an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event that is generated by another application, a writer calls <b>OnIdentifyEx</b> to create a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-w">Writer Metadata Document</a> that contains information about the components it manages using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadataEx</a> interface.
+In response to an <a href="/windows/desktop/VSS/vssgloss-i">Identify</a> event that is generated by another application, a writer calls <b>OnIdentifyEx</b> to create a <a href="/windows/desktop/VSS/vssgloss-w">Writer Metadata Document</a> that contains information about the components it manages using the 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadataEx</a> interface.
 
-The application that generated the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event then retrieves the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-w">Writer Metadata Document</a> and examines the writer's component information using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface.
+The application that generated the <a href="/windows/desktop/VSS/vssgloss-i">Identify</a> event then retrieves the <a href="/windows/desktop/VSS/vssgloss-w">Writer Metadata Document</a> and examines the writer's component information using the 
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface.
 
-An <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event is required before the events that make up a backup or restore sequence. Therefore, <b>OnIdentifyEx</b> is typically called to handle an <i>Identify</i> event in response to a requester's call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> as part of a backup or restore operation.
+An <a href="/windows/desktop/VSS/vssgloss-i">Identify</a> event is required before the events that make up a backup or restore sequence. Therefore, <b>OnIdentifyEx</b> is typically called to handle an <i>Identify</i> event in response to a requester's call to 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a> as part of a backup or restore operation.
 
-However, an <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-i">Identify</a> event by itself is not part of the sequence of events that make up a backup or restore sequence, and the VSS service does not prevent <i>Identify</i> events from being generated, even while a backup or restore sequence is in progress. For example, VSS management applications use the <i>Identify</i> event to determine and display the state of the writers on the system.
+However, an <a href="/windows/desktop/VSS/vssgloss-i">Identify</a> event by itself is not part of the sequence of events that make up a backup or restore sequence, and the VSS service does not prevent <i>Identify</i> events from being generated, even while a backup or restore sequence is in progress. For example, VSS management applications use the <i>Identify</i> event to determine and display the state of the writers on the system.
 
 For this reason, writers should never use their implementation of <b>OnIdentifyEx</b> in any of the following ways:
 
@@ -114,31 +103,21 @@ For this reason, writers should never use their implementation of <b>OnIdentifyE
 <li>To set or maintain information about the writer's state</li>
 </ul>
 For more information about writer interactions with events, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
+<a href="/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
- During the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">PrepareForBackup</a>, <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForSnapshot</a>, and <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> events, a writer can use the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-getidentifyinformation">GetIdentifyInformation</a> method to get the metadata that the writer's <b>OnIdentifyEx</b> method previously reported.
+ During the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">PrepareForBackup</a>, <a href="/windows/desktop/VSS/vssgloss-p">PrepareForSnapshot</a>, and <a href="/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> events, a writer can use the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-getidentifyinformation">GetIdentifyInformation</a> method to get the metadata that the writer's <b>OnIdentifyEx</b> method previously reported.
 
 The life cycle of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object that the <i>pMetadata</i> parameter points to is managed by the VSS infrastructure.
-
-
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a> object that the <i>pMetadata</i> parameter points to is managed by the VSS infrastructure.
 
 ## -see-also
 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-getidentifyinformation">CVssWriterEx::GetIdentifyInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-getidentifyinformation">CVssWriterEx::GetIdentifyInformation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a>
- 
-
- 
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a>

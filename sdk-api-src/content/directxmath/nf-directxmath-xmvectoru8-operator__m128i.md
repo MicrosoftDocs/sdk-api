@@ -1,14 +1,12 @@
 ---
-UID: NF:directxmath.XMVECTORU8.operator __m128i
+UID: NF:directxmath.XMVECTORU8.operator-cast-__m128i
 title: XMVECTORU8::operator __m128i
 description: Returns the object implementing the current instance of XMVECTORU8 cast to a __m128d instance of.
+tech.root: dxmath
+helpviewer_keywords: ["XMVECTORU8::operator __m128i"]
 ms.assetid: 38db36d3-70c4-4845-9c32-1ebfbf1d36e8
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU8::operator __m128i
-f1_keywords:
-- directxmath/XMVECTORU8::operator __m128i
-dev_langs:
-- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,17 +27,23 @@ req.target-type:
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
+f1_keywords:
+ - XMVECTORU8::operator __m128i
+ - directxmath/XMVECTORU8::operator __m128i
+dev_langs:
+ - c++
 topic_type:
-- apiref
+ - apiref
 api_type:
-- 
+ - 
 api_location:
-- directxmath.h
+ - directxmath.h
 api_name:
-- XMVECTORU8::operator __m128i
+ - XMVECTORU8::operator __m128i
 ---
 
 # XMVECTORU8::operator __m128i
+
 
 ## -description
 
@@ -48,10 +52,12 @@ Returns the object implementing the current instance of XMVECTORU8 cast to a __m
 
 <div class="alert"><b>Note</b>  This operator is only available for C++ based development.</div>
 
+
+
 ## -remarks
 
-Returns the underlying implementation object for an instance of XMVECTORU8 cast to a <a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a> instance.
+Returns the underlying implementation object for an instance of XMVECTORU8 cast to a <a href="/cpp/cpp/m128i">__m128i</a> instance.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/cpp/cpp/m128i">__m128i</a>
+<a href="/cpp/cpp/m128i">__m128i</a>

@@ -1,16 +1,13 @@
 ---
 UID: NF:ntdsapi.DsReplicaModifyA
 title: DsReplicaModifyA function (ntdsapi.h)
-description: Modifies an existing replication source reference for a destination naming context.
+description: Modifies an existing replication source reference for a destination naming context. (ANSI)
+helpviewer_keywords: ["DS_REPL_NBR_COMPRESS_CHANGES", "DS_REPL_NBR_DISABLE_SCHEDULED_SYNC", "DS_REPL_NBR_DO_SCHEDULED_SYNCS", "DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS", "DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS", "DS_REPL_NBR_SYNC_ON_STARTUP", "DS_REPL_NBR_TWO_WAY_SYNC", "DS_REPMOD_ASYNCHRONOUS_OPERATION", "DS_REPMOD_UPDATE_ADDRESS", "DS_REPMOD_UPDATE_FLAGS", "DS_REPMOD_UPDATE_RESULT", "DS_REPMOD_UPDATE_SCHEDULE", "DS_REPMOD_UPDATE_TRANSPORT", "DS_REPMOD_WRITEABLE", "DsReplicaModifyA", "ntdsapi/DsReplicaModifyA"]
 old-location: ad\dsreplicamodify.htm
 tech.root: ad
 ms.assetid: aad20527-1211-41bc-b0e9-02e4ab28ae2e
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DISABLE_SCHEDULED_SYNC, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_IGNORE_CHANGE_NOTIFICATIONS, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPMOD_ASYNCHRONOUS_OPERATION, DS_REPMOD_UPDATE_ADDRESS, DS_REPMOD_UPDATE_FLAGS, DS_REPMOD_UPDATE_RESULT, DS_REPMOD_UPDATE_SCHEDULE, DS_REPMOD_UPDATE_TRANSPORT, DS_REPMOD_WRITEABLE, DsReplicaModify, DsReplicaModify function [Active Directory], DsReplicaModifyA, DsReplicaModifyW, _glines_dsreplicamodify, ad.dsreplicamodify, ntdsapi/DsReplicaModify, ntdsapi/DsReplicaModifyA, ntdsapi/DsReplicaModifyW
-f1_keywords:
-- ntdsapi/DsReplicaModify
-dev_langs:
-- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -28,21 +25,26 @@ req.type-library:
 req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- DllExport
-api_location:
-- Ntdsapi.dll
-api_name:
-- DsReplicaModify
-- DsReplicaModifyA
-- DsReplicaModifyW
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - DsReplicaModifyA
+ - ntdsapi/DsReplicaModifyA
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Ntdsapi.dll
+api_name:
+ - DsReplicaModify
+ - DsReplicaModifyA
+ - DsReplicaModifyW
 ---
 
 # DsReplicaModifyA function
@@ -50,46 +52,35 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>DsReplicaModify</b> function modifies an existing replication source reference for a destination naming context.
 
-
 ## -parameters
-
-
-
 
 ### -param hDS [in]
 
 Contains a directory service handle obtained from either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbinda">DSBind</a> or 
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DSBindWithCred</a> function.
 
 ### -param NameContext [in]
 
 Pointer to a constant null-terminated string that specifies the distinguished name (DN) of the destination naming context (NC).
 
-
 ### -param pUuidSourceDsa [in]
 
 Pointer to the UUID of the source directory system agent (DSA). This parameter may be null if <i>ModifyFields</i> does not include <b>DS_REPMOD_UPDATE_ADDRESS</b> and <i>SourceDsaAddress</i> is not <b>NULL</b>.
-
 
 ### -param TransportDn [in]
 
 Reserved for future use. Any value other than <b>NULL</b> results in <b>ERROR_NOT_SUPPORTED</b> being returned.
 
-
 ### -param SourceDsaAddress [in]
 
 Pointer to a constant null-terminated Unicode string that specifies the transport-specific address of the source DSA. This parameter is ignored if <i>pUuidSourceDsa</i> is not <b>NULL</b> and <i>ModifyFields</i> does not include <b>DS_REPMOD_UPDATE_ADDRESS</b>.
 
-
 ### -param pSchedule [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used. This parameter is required if <i>ModifyFields</i> contains the  <b>DS_REPMOD_UPDATE_SCHEDULE</b> flag.
-
+Pointer to a <a href="/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a> structure that contains the  replication schedule data for the replication source. This parameter is optional and can be <b>NULL</b> if not used. This parameter is required if <i>ModifyFields</i> contains the  <b>DS_REPMOD_UPDATE_SCHEDULE</b> flag.
 
 ### -param ReplicaFlags [in]
 
@@ -137,7 +128,6 @@ Changes received from this source are to be compressed. This is normally set if,
 
 No change notifications should be received from this source. This is normally set if, and only if, the source server is in a different site.
 
-
 ### -param ModifyFields [in]
 
 Specifies what fields should be modified. At least one field must be specified in <i>ModifyFields</i>. This parameter can be a combination of the following values.
@@ -172,7 +162,6 @@ Updates the periodic replication schedule associated with the replica.
 
 Updates the transport associated with the replica.
 
-
 ### -param Options [in]
 
 Passes additional data used to process the request. This parameter can be a combination of the following values.
@@ -189,45 +178,37 @@ Performs this operation asynchronously.
 
 Indicates that the replica being modified can be written to.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value can be one of the following.
 
-
-
-
 ## -see-also
 
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaadda">DsReplicaAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaadda">DsReplicaAdd</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicadela">DsReplicaDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicadela">DsReplicaDel</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasynca">DsReplicaSync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasynca">DsReplicaSync</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa">DsReplicaUpdateRefs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa">DsReplicaUpdateRefs</a>
+<a href="/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a>
 
+## -remarks
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a>
- 
-
- 
-
+> [!NOTE]
+> The ntdsapi.h header defines DsReplicaModify as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).

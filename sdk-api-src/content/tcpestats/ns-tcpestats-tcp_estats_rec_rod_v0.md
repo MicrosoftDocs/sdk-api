@@ -2,15 +2,12 @@
 UID: NS:tcpestats._TCP_ESTATS_REC_ROD_v0
 title: TCP_ESTATS_REC_ROD_v0 (tcpestats.h)
 description: Contains read-only dynamic information for extended TCP statistics on the local receiver for a TCP connection.
+helpviewer_keywords: ["*PTCP_ESTATS_REC_ROD_v0","PTCP_ESTATS_REC_ROD_v0","PTCP_ESTATS_REC_ROD_v0 structure pointer [IP Helper]","TCP_ESTATS_REC_ROD_v0","TCP_ESTATS_REC_ROD_v0 structure [IP Helper]","iphlp.tcp_estats_rec_rod_v0","tcpestats/PTCP_ESTATS_REC_ROD_v0","tcpestats/TCP_ESTATS_REC_ROD_v0"]
 old-location: iphlp\tcp_estats_rec_rod_v0.htm
 tech.root: IpHlp
 ms.assetid: 1481f108-1ea3-4952-9131-8b15e373d83e
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0, PTCP_ESTATS_REC_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_REC_ROD_v0, TCP_ESTATS_REC_ROD_v0 structure [IP Helper], iphlp.tcp_estats_rec_rod_v0, tcpestats/PTCP_ESTATS_REC_ROD_v0, tcpestats/TCP_ESTATS_REC_ROD_v0'
-f1_keywords:
-- tcpestats/TCP_ESTATS_REC_ROD_v0
-dev_langs:
-- c++
 req.header: tcpestats.h
 req.include-header: 
 req.target-type: Windows
@@ -28,19 +25,28 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- Tcpestats.h
-api_name:
-- TCP_ESTATS_REC_ROD_v0
 targetos: Windows
 req.typenames: TCP_ESTATS_REC_ROD_v0, *PTCP_ESTATS_REC_ROD_v0
 req.redist: 
 ms.custom: 19H1
+f1_keywords:
+ - _TCP_ESTATS_REC_ROD_v0
+ - tcpestats/_TCP_ESTATS_REC_ROD_v0
+ - PTCP_ESTATS_REC_ROD_v0
+ - tcpestats/PTCP_ESTATS_REC_ROD_v0
+ - TCP_ESTATS_REC_ROD_v0
+ - tcpestats/TCP_ESTATS_REC_ROD_v0
+dev_langs:
+ - c++
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - Tcpestats.h
+api_name:
+ - TCP_ESTATS_REC_ROD_v0
 ---
 
 # TCP_ESTATS_REC_ROD_v0 structure
@@ -48,14 +54,9 @@ ms.custom: 19H1
 
 ## -description
 
-
 The <b>TCP_ESTATS_REC_ROD_v0</b> structure contains read-only dynamic information for extended TCP statistics on the local receiver for a TCP connection.
 
-
 ## -struct-fields
-
-
-
 
 ### -field CurRwinSent
 
@@ -63,13 +64,11 @@ Type: <b>ULONG</b>
 
 The most recent window advertisement, in bytes, that has been sent.
 
-
 ### -field MaxRwinSent
 
 Type: <b>ULONG</b>
 
 The maximum window advertisement, in bytes, that has been sent.
-
 
 ### -field MinRwinSent
 
@@ -77,14 +76,12 @@ Type: <b>ULONG</b>
 
 The minimum window advertisement, in bytes, that has been sent.
 
-
 ### -field LimRwin
 
 Type: <b>ULONG</b>
 
 The maximum window advertisement, in bytes, that may
            be sent.
-
 
 ### -field DupAckEpisodes
 
@@ -100,7 +97,6 @@ This is an indication of the number of data segments lost
            or reordered on the path from the remote TCP endpoint to
            the near TCP endpoint.
 
-
 ### -field DupAcksOut
 
 Type: <b>ULONG</b>
@@ -112,7 +108,6 @@ The ratio of the change
            the <b>DupAckEpisodes</b> member  is an indication of reorder or
            recovery distance over some interval.
 
-
 ### -field CeRcvd
 
 Type: <b>ULONG</b>
@@ -120,20 +115,17 @@ Type: <b>ULONG</b>
 The number of segments received with IP headers bearing
            Congestion Experienced (CE) markings.
 
-
 ### -field EcnSent
 
 Type: <b>ULONG</b>
 
 Reserved for future use. This member is always set to zero.
 
-
 ### -field EcnNoncesRcvd
 
 Type: <b>ULONG</b>
 
 Reserved for future use. This member is always set to zero.
-
 
 ### -field CurReasmQueue
 
@@ -146,7 +138,6 @@ This is generally the difference
            between rcv.nxt and the sequence number of the right most
            edge of the reassembly queue.
 
-
 ### -field MaxReasmQueue
 
 Type: <b>ULONG</b>
@@ -156,7 +147,6 @@ The maximum number of bytes of sequence space spanned by
 
 This is the maximum value of the <b>CurReasmQueue</b> member.
 
-
 ### -field CurAppRQueue
 
 Type: <b>SIZE_T</b>
@@ -164,7 +154,6 @@ Type: <b>SIZE_T</b>
 The current number of bytes of application data that has
            been acknowledged by TCP but not yet delivered to the
            application.
-
 
 ### -field MaxAppRQueue
 
@@ -174,7 +163,6 @@ The maximum number of bytes of application data that has
            been acknowledged by TCP but not yet delivered to the
            application.
 
-
 ### -field WinScaleSent
 
 Type: <b>UCHAR</b>
@@ -183,28 +171,25 @@ The value of the transmitted window scale option if one was
            sent; otherwise, a value of -1.
 
 Note that if both the <b>WinScaleSent</b> member and
-           the <b>WinScaleRcvd</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_obs_rec_rod_v0">TCP_ESTATS_OBS_REC_ROD_v0</a> structure are not -1, then Rcv.Wind.Scale
+           the <b>WinScaleRcvd</b> member of the <a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_obs_rec_rod_v0">TCP_ESTATS_OBS_REC_ROD_v0</a> structure are not -1, then Rcv.Wind.Scale
            will be the same as this value and used to scale receiver
            window announcements from the local host to the remote
            host.
 
-
 ## -remarks
-
-
 
 The <b>TCP_ESTATS_REC_ROD_v0</b> structure is used as part of the TCP extended statistics feature available on Windows Vista and later. 
 
 The <b>TCP_ESTATS_REC_ROD_v0</b> is defined as version 0 of the structure for  read-only dynamic information for extended TCP statistics on the local receiver for a TCP connection.  This information is available after the connection has been established.
 
-The <b>TCP_ESTATS_REC_ROD_v0</b> structure is retrieved by calls to  the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsRec</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
+The <b>TCP_ESTATS_REC_ROD_v0</b> structure is retrieved by calls to  the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a> or <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a> functions when <b>TcpConnectionEstatsRec</b> is passed in the <i>EstatsType</i> parameter. Extended TCP statistics need to be enabled to retrieve this structure.
 
-TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=166789">http://www.ietf.org/rfc/rfc2581.txt</a>.
+TCP congestion control and congestion control algorithms are discussed in detail in the IETF RFC 2581 on TCP Congestion Control. For more information, see <a href="http://tools.ietf.org/html/rfc2581">http://www.ietf.org/rfc/rfc2581.txt</a>.
 
 Explicit Congestion Notification in IP is discussed in detail in the IETF RFC 2581 on The Addition of Explicit Congestion Notification
-           (ECN) to IP. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=167116">http://www.ietf.org/rfc/rfc3168.txt</a>.
+           (ECN) to IP. For more information, see <a href="http://tools.ietf.org/html/rfc3168">http://www.ietf.org/rfc/rfc3168.txt</a>.
 
-The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=121686">http://www.ietf.org/rfc/rfc4898.txt</a>.
+The members of this structure are defined in the IETF RFC on the TCP Extended Statistics MIB. For more information, see <a href="http://tools.ietf.org/html/rfc4898">http://www.ietf.org/rfc/rfc4898.txt</a>.
 
 
 
@@ -359,28 +344,15 @@ tcpEStatsStackWinScaleSent
 </td>
 </tr>
 </table>
- 
-
-
-
-
-
 
 ## -see-also
 
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcp6connectionestats">GetPerTcp6ConnectionEStats</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats">GetPerTcpConnectionEStats</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
- 
-
- 
-
+<a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
